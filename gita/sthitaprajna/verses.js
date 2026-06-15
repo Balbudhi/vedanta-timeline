@@ -303,7 +303,245 @@ window.GITA_VERSES = [
         "locus": "2.54",
         "sanskrit": "samādhisthasya sthitaprajñasya kā bhāṣā ko vācakaś śabdaḥ? tasya svarūpaṃ kīdṛśam ityarthaḥ / sthitaprajñaḥ kiṃ ca bhāṣādikaṃ karoti?",
         "ourRendering": "Of the man settled in samādhi, the man of steady wisdom — “what is the bhāṣā?”, i.e. what is the word that names him? The sense is: of what kind is his nature? And what, further, does the sthitaprajña do — his manner of speaking and the rest?",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "samādhisthasya",
+            "gloss": "of the one settled in samādhi",
+            "parts": [
+              {
+                "form": "samādhi",
+                "gloss": "absorption"
+              },
+              {
+                "form": "stha",
+                "gloss": "standing in"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "samadhi"
+          },
+          {
+            "i": 1,
+            "iast": "sthitaprajñasya",
+            "gloss": "of the man of steady wisdom",
+            "parts": [
+              {
+                "form": "sthita",
+                "gloss": "settled"
+              },
+              {
+                "form": "prajña",
+                "gloss": "wisdom"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "sthitaprajna"
+          },
+          {
+            "i": 2,
+            "iast": "kā",
+            "gloss": "what?",
+            "parts": [
+              {
+                "form": "kim",
+                "gloss": "what"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 3,
+            "iast": "bhāṣā",
+            "gloss": "speech, designation",
+            "parts": [
+              {
+                "form": "√bhāṣ",
+                "gloss": "to speak"
+              },
+              {
+                "form": "-ā",
+                "gloss": "(noun, fem.)"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 4,
+            "iast": "kaḥ",
+            "gloss": "what? which?",
+            "parts": [
+              {
+                "form": "kim",
+                "gloss": "what"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 5,
+            "iast": "vācakaḥ",
+            "gloss": "denoting, naming",
+            "parts": [
+              {
+                "form": "√vac",
+                "gloss": "to speak"
+              },
+              {
+                "form": "-aka",
+                "gloss": "(agent/qualifier)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 6,
+            "iast": "śabdaḥ",
+            "gloss": "word",
+            "parts": [
+              {
+                "form": "śabda",
+                "gloss": "word, sound"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "sabda"
+          },
+          {
+            "i": 7,
+            "iast": "tasya",
+            "gloss": "of him, his",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 8,
+            "iast": "svarūpaṃ",
+            "gloss": "nature, own-form",
+            "parts": [
+              {
+                "form": "sva",
+                "gloss": "own"
+              },
+              {
+                "form": "rūpa",
+                "gloss": "form"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "svarupa"
+          },
+          {
+            "i": 9,
+            "iast": "kīdṛśam",
+            "gloss": "of what kind?",
+            "parts": [
+              {
+                "form": "kīdṛśa",
+                "gloss": "of what sort"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 10,
+            "iast": "iti",
+            "gloss": "thus (quote-end)",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 11,
+            "iast": "arthaḥ",
+            "gloss": "the meaning",
+            "parts": [
+              {
+                "form": "artha",
+                "gloss": "meaning"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 12,
+            "iast": "sthitaprajñaḥ",
+            "gloss": "the man of steady wisdom",
+            "parts": [
+              {
+                "form": "sthita",
+                "gloss": "settled"
+              },
+              {
+                "form": "prajña",
+                "gloss": "wisdom"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "sthitaprajna"
+          },
+          {
+            "i": 13,
+            "iast": "kiṃ",
+            "gloss": "what?",
+            "parts": [
+              {
+                "form": "kim",
+                "gloss": "what"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 14,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 15,
+            "iast": "bhāṣādikaṃ",
+            "gloss": "speech and the rest",
+            "parts": [
+              {
+                "form": "bhāṣā",
+                "gloss": "speech"
+              },
+              {
+                "form": "ādi",
+                "gloss": "and the rest"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 16,
+            "iast": "karoti",
+            "gloss": "does, performs",
+            "parts": [
+              {
+                "form": "√kṛ",
+                "gloss": "to do"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          }
+        ],
+        "english": "{0:Of the one settled in samādhi}, {1:of the man of steady wisdom} — {2:what} is {3:the designation}, {4:what} is the {5:naming} {6:word}? {7:Of him}, {8:the nature} {9:of what kind} is it — {10:thus}{11:is the meaning}. {14:And} {13:what} does {12:the man of steady wisdom} {16:do} — {15:his manner of speaking and the rest}?"
       }
     ],
     "aurobindo": [],
@@ -611,7 +849,329 @@ window.GITA_VERSES = [
         "locus": "2.55",
         "sanskrit": "ātmany evātmanā manasā ātmaikāvalambanena tuṣṭaḥ, tena toṣeṇa tadvyatiriktān sarvān manogatān kāmān yadā prakarṣeṇa jahāti, tadāyaṃ sthitaprajña ity ucyate / jñānaniṣṭhā-kāṣṭhā iyam /",
         "ourRendering": "Content in the self alone, by the self — that is, by the mind whose sole support is the self — and through that contentment, when he utterly casts off all the desires within the mind other than that [self], then this man is called sthitaprajña. This is the summit of steadfastness in knowledge.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "ātmani",
+            "gloss": "in the self",
+            "parts": [
+              {
+                "form": "ātman",
+                "gloss": "the self"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 1,
+            "iast": "eva",
+            "gloss": "alone, only",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "only, alone"
+              }
+            ]
+          },
+          {
+            "i": 2,
+            "iast": "ātmanā",
+            "gloss": "by the self",
+            "parts": [
+              {
+                "form": "ātman",
+                "gloss": "the self"
+              }
+            ],
+            "morph": "instr. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 3,
+            "iast": "manasā",
+            "gloss": "by the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "instr. sg. neut.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 4,
+            "iast": "ātmaikāvalambanena",
+            "gloss": "whose sole support is the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "eka",
+                "gloss": "sole"
+              },
+              {
+                "form": "avalambana",
+                "gloss": "support, resting-on"
+              }
+            ],
+            "morph": "instr. sg. neut."
+          },
+          {
+            "i": 5,
+            "iast": "tuṣṭaḥ",
+            "gloss": "content, satisfied",
+            "parts": [
+              {
+                "form": "√tuṣ",
+                "gloss": "to be content"
+              },
+              {
+                "form": "-ta",
+                "gloss": "(past participle)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 6,
+            "iast": "tena",
+            "gloss": "by that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 7,
+            "iast": "toṣeṇa",
+            "gloss": "contentment",
+            "parts": [
+              {
+                "form": "√tuṣ",
+                "gloss": "to be content"
+              },
+              {
+                "form": "-a",
+                "gloss": "(noun)"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 8,
+            "iast": "tadvyatiriktān",
+            "gloss": "other than that, distinct from that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              },
+              {
+                "form": "vyatirikta",
+                "gloss": "distinct, other"
+              }
+            ],
+            "morph": "acc. pl. masc."
+          },
+          {
+            "i": 9,
+            "iast": "sarvān",
+            "gloss": "all",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              }
+            ],
+            "morph": "acc. pl. masc."
+          },
+          {
+            "i": 10,
+            "iast": "manogatān",
+            "gloss": "arisen in the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              },
+              {
+                "form": "gata",
+                "gloss": "gone into"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 11,
+            "iast": "kāmān",
+            "gloss": "desires",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 12,
+            "iast": "yadā",
+            "gloss": "when",
+            "parts": [
+              {
+                "form": "yadā",
+                "gloss": "when"
+              }
+            ]
+          },
+          {
+            "i": 13,
+            "iast": "prakarṣeṇa",
+            "gloss": "utterly, in full measure",
+            "parts": [
+              {
+                "form": "pra",
+                "gloss": "forth"
+              },
+              {
+                "form": "karṣa",
+                "gloss": "drawing, intensity"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 14,
+            "iast": "jahāti",
+            "gloss": "casts off, abandons",
+            "parts": [
+              {
+                "form": "√hā",
+                "gloss": "to abandon"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 15,
+            "iast": "tadā",
+            "gloss": "then",
+            "parts": [
+              {
+                "form": "tadā",
+                "gloss": "then"
+              }
+            ]
+          },
+          {
+            "i": 16,
+            "iast": "ayaṃ",
+            "gloss": "this one",
+            "parts": [
+              {
+                "form": "idam",
+                "gloss": "this"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 17,
+            "iast": "sthitaprajñaḥ",
+            "gloss": "the man of steady wisdom",
+            "parts": [
+              {
+                "form": "sthita",
+                "gloss": "settled"
+              },
+              {
+                "form": "prajña",
+                "gloss": "wisdom"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "sthitaprajna"
+          },
+          {
+            "i": 18,
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 19,
+            "iast": "ucyate",
+            "gloss": "is called",
+            "parts": [
+              {
+                "form": "√vac",
+                "gloss": "to say, call"
+              },
+              {
+                "form": "-ya-",
+                "gloss": "(passive)"
+              }
+            ],
+            "morph": "pres. passive 3 sg."
+          },
+          {
+            "i": 20,
+            "iast": "jñānaniṣṭhā",
+            "gloss": "steadfastness in knowledge",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              },
+              {
+                "form": "niṣṭhā",
+                "gloss": "steadfastness"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "jnana"
+          },
+          {
+            "i": 21,
+            "iast": "kāṣṭhā",
+            "gloss": "the summit, utmost limit",
+            "parts": [
+              {
+                "form": "kāṣṭhā",
+                "gloss": "summit, climax"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 22,
+            "iast": "iyam",
+            "gloss": "this",
+            "parts": [
+              {
+                "form": "idam",
+                "gloss": "this"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          }
+        ],
+        "english": "{1:Alone} {0:in the self}, {2:by the self} — {3:by the mind} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {10:the mind-arisen} {11:desires} {8:other than that [self]}, {15:then} {16:this one} {18:is}{19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in knowledge}."
       }
     ],
     "aurobindo": [],
@@ -636,7 +1196,7 @@ window.GITA_VERSES = [
         "affix": "sup (saptamī bahuvacana)",
         "morph": "loc. pl. neut.",
         "karaka": "viṣaya-saptamī / nimitta-saptamī (the occasion in which the mind stays unagitated)",
-        "glossaryKey": null,
+        "glossaryKey": "duhkha",
         "translatable": true,
         "parts": [
           {
@@ -709,7 +1269,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "viśeṣaṇa / predicate of the subject (muni)",
-        "glossaryKey": null,
+        "glossaryKey": "trsna",
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi",
@@ -854,7 +1414,550 @@ window.GITA_VERSES = [
         "locus": "2.56",
         "sanskrit": "priyaviśleṣādiduḥkhanimitteṣu upasthiteṣu anudvignamanāḥ -- na duḥkhī bhavati; sukheṣu vigataspṛhaḥ -- priyeṣu sannihiteṣv api vigataspṛhaḥ, vītarāgabhayakrodhaḥ -- anāgateṣu spṛhā rāgaḥ, tadrahitaḥ; priyaviśleṣāpriyāgamanahetudarśananimittaṃ duḥkhaṃ bhayam, tadrahitaḥ; priyaviśleṣāpriyāgamanahetubhūtacetanāntaragataduḥkhahetubhūtasvamanovikāraḥ krodhaḥ, tadrahitaḥ; evaṃbhūtaḥ muniḥ -- ātmamananaśīlaḥ sthitadhīr ity ucyate",
         "ourRendering": "When occasions of sorrow such as separation from what is dear present themselves, he is 'one whose mind is unagitated' — he does not become sorrowful; 'free of longing amid pleasures' — even when objects of liking are at hand, he is free of longing; 'from whom passion, fear, and anger have departed' — longing toward things not yet come is rāga (passion), and he is without it; the sorrow that arises from foreseeing the cause of separation from the dear or the coming of the un-dear is fear, and he is without it; the perturbation of one's own mind that becomes a cause of the inner suffering of another conscious being, the cause of separation from the dear or the arrival of the un-dear, is anger, and he is without it. One who has become thus — a muni, whose nature is to contemplate (manana) the self — is called 'one of steady intellect'.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "priyaviśleṣādiduḥkhanimitteṣu",
+            "gloss": "amid the occasions of sorrow such as separation from the dear",
+            "parts": [
+              {
+                "form": "priya",
+                "gloss": "the dear"
+              },
+              {
+                "form": "viśleṣa",
+                "gloss": "separation"
+              },
+              {
+                "form": "ādi",
+                "gloss": "and the like"
+              },
+              {
+                "form": "duḥkha",
+                "gloss": "sorrow"
+              },
+              {
+                "form": "nimitta",
+                "gloss": "occasion, cause"
+              }
+            ],
+            "morph": "loc. pl. neut.",
+            "glossaryKey": "duhkha"
+          },
+          {
+            "i": 1,
+            "iast": "upasthiteṣu",
+            "gloss": "when they have presented themselves",
+            "parts": [
+              {
+                "form": "upa",
+                "gloss": "near"
+              },
+              {
+                "form": "√sthā",
+                "gloss": "to stand"
+              },
+              {
+                "form": "-ta",
+                "gloss": "(past participle)"
+              }
+            ],
+            "morph": "loc. pl. neut."
+          },
+          {
+            "i": 2,
+            "iast": "anudvignamanāḥ",
+            "gloss": "whose mind is unagitated",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "un-"
+              },
+              {
+                "form": "udvigna",
+                "gloss": "agitated"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 3,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 4,
+            "iast": "duḥkhī",
+            "gloss": "sorrowful",
+            "parts": [
+              {
+                "form": "duḥkha",
+                "gloss": "sorrow"
+              },
+              {
+                "form": "-in",
+                "gloss": "(possessive)"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "duhkha"
+          },
+          {
+            "i": 5,
+            "iast": "bhavati",
+            "gloss": "becomes",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 6,
+            "iast": "sukheṣu",
+            "gloss": "amid pleasures",
+            "parts": [
+              {
+                "form": "sukha",
+                "gloss": "pleasure"
+              }
+            ],
+            "morph": "loc. pl. neut."
+          },
+          {
+            "i": 7,
+            "iast": "vigataspṛhaḥ",
+            "gloss": "free of longing",
+            "parts": [
+              {
+                "form": "vigata",
+                "gloss": "gone away"
+              },
+              {
+                "form": "spṛhā",
+                "gloss": "longing"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "trsna"
+          },
+          {
+            "i": 8,
+            "iast": "priyeṣu",
+            "gloss": "things dear",
+            "parts": [
+              {
+                "form": "priya",
+                "gloss": "dear"
+              }
+            ],
+            "morph": "loc. pl. neut."
+          },
+          {
+            "i": 9,
+            "iast": "sannihiteṣu",
+            "gloss": "when at hand, present",
+            "parts": [
+              {
+                "form": "sam",
+                "gloss": "together"
+              },
+              {
+                "form": "ni",
+                "gloss": "down"
+              },
+              {
+                "form": "hita",
+                "gloss": "placed"
+              }
+            ],
+            "morph": "loc. pl. neut."
+          },
+          {
+            "i": 10,
+            "iast": "api",
+            "gloss": "even",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "even, also"
+              }
+            ]
+          },
+          {
+            "i": 11,
+            "iast": "vigataspṛhaḥ",
+            "gloss": "free of longing",
+            "parts": [
+              {
+                "form": "vigata",
+                "gloss": "gone away"
+              },
+              {
+                "form": "spṛhā",
+                "gloss": "longing"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "trsna"
+          },
+          {
+            "i": 12,
+            "iast": "vītarāgabhayakrodhaḥ",
+            "gloss": "from whom passion, fear, and anger have departed",
+            "parts": [
+              {
+                "form": "vīta",
+                "gloss": "departed"
+              },
+              {
+                "form": "rāga",
+                "gloss": "passion"
+              },
+              {
+                "form": "bhaya",
+                "gloss": "fear"
+              },
+              {
+                "form": "krodha",
+                "gloss": "anger"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 13,
+            "iast": "anāgateṣu",
+            "gloss": "toward things not yet come",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not"
+              },
+              {
+                "form": "āgata",
+                "gloss": "come, arrived"
+              }
+            ],
+            "morph": "loc. pl. neut."
+          },
+          {
+            "i": 14,
+            "iast": "spṛhā",
+            "gloss": "longing",
+            "parts": [
+              {
+                "form": "spṛhā",
+                "gloss": "longing, craving"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "trsna"
+          },
+          {
+            "i": 15,
+            "iast": "rāgaḥ",
+            "gloss": "is passion",
+            "parts": [
+              {
+                "form": "rāga",
+                "gloss": "passion, attraction"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 16,
+            "iast": "tadrahitaḥ",
+            "gloss": "without it",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              },
+              {
+                "form": "rahita",
+                "gloss": "devoid of"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 17,
+            "iast": "priyaviśleṣāpriyāgamanahetudarśananimittaṃ",
+            "gloss": "occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear",
+            "parts": [
+              {
+                "form": "priya",
+                "gloss": "the dear"
+              },
+              {
+                "form": "viśleṣa",
+                "gloss": "separation"
+              },
+              {
+                "form": "apriya",
+                "gloss": "the un-dear"
+              },
+              {
+                "form": "āgamana",
+                "gloss": "coming"
+              },
+              {
+                "form": "hetu",
+                "gloss": "cause"
+              },
+              {
+                "form": "darśana",
+                "gloss": "seeing, foreseeing"
+              },
+              {
+                "form": "nimitta",
+                "gloss": "occasioned by"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "darsana"
+          },
+          {
+            "i": 18,
+            "iast": "duḥkhaṃ",
+            "gloss": "the sorrow",
+            "parts": [
+              {
+                "form": "duḥkha",
+                "gloss": "sorrow"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "duhkha"
+          },
+          {
+            "i": 19,
+            "iast": "bhayam",
+            "gloss": "is fear",
+            "parts": [
+              {
+                "form": "bhaya",
+                "gloss": "fear"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 20,
+            "iast": "tadrahitaḥ",
+            "gloss": "without it",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              },
+              {
+                "form": "rahita",
+                "gloss": "devoid of"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 21,
+            "iast": "priyaviśleṣāpriyāgamanahetubhūtacetanāntaragataduḥkhahetubhūtasvamanovikāraḥ",
+            "gloss": "the perturbation of one's own mind that becomes a cause of the suffering within another conscious being — that being a cause of separation from the dear or arrival of the un-dear",
+            "parts": [
+              {
+                "form": "priya",
+                "gloss": "the dear"
+              },
+              {
+                "form": "viśleṣa",
+                "gloss": "separation"
+              },
+              {
+                "form": "apriya",
+                "gloss": "the un-dear"
+              },
+              {
+                "form": "āgamana",
+                "gloss": "coming"
+              },
+              {
+                "form": "hetubhūta",
+                "gloss": "being a cause"
+              },
+              {
+                "form": "cetana",
+                "gloss": "conscious being"
+              },
+              {
+                "form": "antaragata",
+                "gloss": "gone within, inner"
+              },
+              {
+                "form": "duḥkha",
+                "gloss": "suffering"
+              },
+              {
+                "form": "hetubhūta",
+                "gloss": "being a cause"
+              },
+              {
+                "form": "sva",
+                "gloss": "one's own"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              },
+              {
+                "form": "vikāra",
+                "gloss": "perturbation, modification"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 22,
+            "iast": "krodhaḥ",
+            "gloss": "is anger",
+            "parts": [
+              {
+                "form": "krodha",
+                "gloss": "anger"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "krodha"
+          },
+          {
+            "i": 23,
+            "iast": "tadrahitaḥ",
+            "gloss": "without it",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              },
+              {
+                "form": "rahita",
+                "gloss": "devoid of"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 24,
+            "iast": "evaṃbhūtaḥ",
+            "gloss": "one who has become thus",
+            "parts": [
+              {
+                "form": "evam",
+                "gloss": "thus"
+              },
+              {
+                "form": "bhūta",
+                "gloss": "become"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 25,
+            "iast": "muniḥ",
+            "gloss": "the sage",
+            "parts": [
+              {
+                "form": "muni",
+                "gloss": "sage"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "muni"
+          },
+          {
+            "i": 26,
+            "iast": "ātmamananaśīlaḥ",
+            "gloss": "whose nature is to contemplate the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "manana",
+                "gloss": "contemplation"
+              },
+              {
+                "form": "śīla",
+                "gloss": "disposition, nature"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "manana"
+          },
+          {
+            "i": 27,
+            "iast": "sthitadhīḥ",
+            "gloss": "one of steady intellect",
+            "parts": [
+              {
+                "form": "sthita",
+                "gloss": "steady"
+              },
+              {
+                "form": "dhī",
+                "gloss": "intellect"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 28,
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 29,
+            "iast": "ucyate",
+            "gloss": "is called",
+            "parts": [
+              {
+                "form": "√vac",
+                "gloss": "to say, call"
+              },
+              {
+                "form": "-ya-",
+                "gloss": "(passive)"
+              }
+            ],
+            "morph": "pres. passive 3 sg."
+          }
+        ],
+        "english": "{1:When} {0:occasions of sorrow such as separation from the dear} {1:present themselves}, he is {2:one whose mind is unagitated} — he {3:does} {3:not} {5:become} {4:sorrowful}; {7:free of longing} {6:amid pleasures} — {10:even} {9:when} {8:things dear} {9:are at hand}, he is {11:free of longing}; {12:from whom passion, fear, and anger have departed} — {14:longing} {13:toward things not yet come} {15:is passion}, and he is {16:without it}; {18:the sorrow} {17:occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear} {19:is fear}, and he is {20:without it}; {21:the perturbation of one's own mind that becomes a cause of the inner suffering of another conscious being} {22:is anger}, and he is {23:without it}. {24:One who has become thus} — {25:a sage}, {26:whose nature is to contemplate the self} — {29:is}{28:called} {27:one of steady intellect}."
       }
     ],
     "aurobindo": [],
@@ -921,7 +2024,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "predicate of yaḥ",
-        "glossaryKey": null,
+        "glossaryKey": "sanga",
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi (nañ-tatpuruṣa abhisneha negated → 'one in whom there is no attachment'); the prefix abhi- governs the directedness of the sneha",
@@ -1089,7 +2192,7 @@ window.GITA_VERSES = [
         "affix": "tiṅ — laṭ, prathama-puruṣa ekavacana, parasmaipada (adādi class, no vikaraṇa)",
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā",
-        "glossaryKey": null,
+        "glossaryKey": "dvesa",
         "translatable": true,
         "parts": [
           {
@@ -1146,7 +2249,7 @@ window.GITA_VERSES = [
         "affix": "kta (past pass. participle) + ṭāp + su, strī (prathamā ekavacana)",
         "morph": "nom. sg. fem. (ppp., predicate)",
         "karaka": "predicate of prajñā (with implied 'is')",
-        "glossaryKey": null,
+        "glossaryKey": "pratistha",
         "translatable": true,
         "parts": [
           {
@@ -1173,7 +2276,207 @@ window.GITA_VERSES = [
         "locus": "2.57",
         "sanskrit": "yaḥ sarvatra priyeṣu anabhisnehaḥ udāsīnaḥ; priyasaṃśleṣaviśleṣarūpaṃ śubhāśubhaṃ prāpyābhinandanadveṣarahitaḥ, so 'pi sthitaprajñaḥ",
         "ourRendering": "He who, in all cases, among things dear is without attachment — indifferent; who, on meeting the good and the bad, which take the form of union with and separation from what is dear, is devoid of rejoicing and aversion — he too is a man of steady wisdom.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "yaḥ",
+            "gloss": "he who",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "who"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 1,
+            "iast": "sarvatra",
+            "gloss": "in all cases, everywhere",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "-tra",
+                "gloss": "in, everywhere"
+              }
+            ]
+          },
+          {
+            "i": 2,
+            "iast": "priyeṣu",
+            "gloss": "among things dear",
+            "parts": [
+              {
+                "form": "priya",
+                "gloss": "dear"
+              }
+            ],
+            "morph": "loc. pl. neut."
+          },
+          {
+            "i": 3,
+            "iast": "anabhisnehaḥ",
+            "gloss": "without attachment",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "without"
+              },
+              {
+                "form": "abhi-",
+                "gloss": "toward"
+              },
+              {
+                "form": "sneha",
+                "gloss": "affection"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "sanga"
+          },
+          {
+            "i": 4,
+            "iast": "udāsīnaḥ",
+            "gloss": "indifferent",
+            "parts": [
+              {
+                "form": "ud-",
+                "gloss": "up, apart"
+              },
+              {
+                "form": "√ās",
+                "gloss": "to sit"
+              },
+              {
+                "form": "-īna",
+                "gloss": "(participle)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 5,
+            "iast": "priyasaṃśleṣaviśleṣarūpaṃ",
+            "gloss": "which takes the form of union with and separation from the dear",
+            "parts": [
+              {
+                "form": "priya",
+                "gloss": "the dear"
+              },
+              {
+                "form": "saṃśleṣa",
+                "gloss": "union"
+              },
+              {
+                "form": "viśleṣa",
+                "gloss": "separation"
+              },
+              {
+                "form": "rūpa",
+                "gloss": "having the form of"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 6,
+            "iast": "śubhāśubhaṃ",
+            "gloss": "the good and the bad",
+            "parts": [
+              {
+                "form": "śubha",
+                "gloss": "good"
+              },
+              {
+                "form": "aśubha",
+                "gloss": "bad"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 7,
+            "iast": "prāpya",
+            "gloss": "on meeting, having reached",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "√āp",
+                "gloss": "to reach"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 8,
+            "iast": "abhinandanadveṣarahitaḥ",
+            "gloss": "devoid of rejoicing and aversion",
+            "parts": [
+              {
+                "form": "abhinandana",
+                "gloss": "rejoicing"
+              },
+              {
+                "form": "dveṣa",
+                "gloss": "aversion"
+              },
+              {
+                "form": "rahita",
+                "gloss": "devoid of"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "dvesa"
+          },
+          {
+            "i": 9,
+            "iast": "saḥ",
+            "gloss": "he",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 10,
+            "iast": "api",
+            "gloss": "too, also",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "also, too"
+              }
+            ]
+          },
+          {
+            "i": 11,
+            "iast": "sthitaprajñaḥ",
+            "gloss": "the man of steady wisdom",
+            "parts": [
+              {
+                "form": "sthita",
+                "gloss": "settled"
+              },
+              {
+                "form": "prajña",
+                "gloss": "wisdom"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "sthitaprajna"
+          }
+        ],
+        "english": "{0:He who}, {1:in all cases}, {2:among things dear} {3:is without attachment}, {4:indifferent}; who, {7:on meeting} {6:the good and the bad}, {5:which take the form of union with and separation from the dear}, is {8:devoid of rejoicing and aversion} — {9:he} {10:too} is {11:a man of steady wisdom}."
       }
     ],
     "aurobindo": [],
@@ -1446,7 +2749,7 @@ window.GITA_VERSES = [
         "affix": "kta (past pass. participle) + ṭāp + su, strī (prathamā ekavacana)",
         "morph": "nom. sg. fem. (ppp., predicate)",
         "karaka": "predicate of prajñā (with implied 'is')",
-        "glossaryKey": null,
+        "glossaryKey": "pratistha",
         "translatable": true,
         "parts": [
           {
@@ -1473,7 +2776,359 @@ window.GITA_VERSES = [
         "locus": "2.58",
         "sanskrit": "yadendriyāṇīndriyārthān spṛṣṭum udyuktāni, tadaiva kūrmo 'ṅgānīva, indriyārthebhyaḥ sarvaśaḥ pratisaṃhṛtya mana ātmany avasthāpayati, so 'pi sthitaprajñaḥ / evaṃ caturvidhā jñānaniṣṭhā / pūrvapūrvā uttarottraniṣpādyā",
         "ourRendering": "When the senses are poised to touch the objects of sense, then and there — like a tortoise its limbs — having drawn them in entirely from the objects of sense, he settles the mind in the self: he too is a man of steady wisdom. Thus steadfastness in knowledge is of four kinds, each earlier one to be accomplished by the one that follows.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "yadā",
+            "gloss": "when",
+            "parts": [
+              {
+                "form": "yadā",
+                "gloss": "when"
+              }
+            ]
+          },
+          {
+            "i": 1,
+            "iast": "indriyāṇi",
+            "gloss": "the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "nom. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 2,
+            "iast": "indriyārthān",
+            "gloss": "the objects of sense",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "artha",
+                "gloss": "object"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 3,
+            "iast": "spṛṣṭum",
+            "gloss": "to touch",
+            "parts": [
+              {
+                "form": "√spṛś",
+                "gloss": "to touch"
+              },
+              {
+                "form": "-tum",
+                "gloss": "(infinitive)"
+              }
+            ],
+            "morph": "infinitive"
+          },
+          {
+            "i": 4,
+            "iast": "udyuktāni",
+            "gloss": "are poised, set to work",
+            "parts": [
+              {
+                "form": "ud-",
+                "gloss": "up"
+              },
+              {
+                "form": "yukta",
+                "gloss": "engaged, poised"
+              }
+            ],
+            "morph": "nom. pl. neut.",
+            "glossaryKey": "yoga"
+          },
+          {
+            "i": 5,
+            "iast": "tadā",
+            "gloss": "then",
+            "parts": [
+              {
+                "form": "tadā",
+                "gloss": "then"
+              }
+            ]
+          },
+          {
+            "i": 6,
+            "iast": "eva",
+            "gloss": "just, very",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "just, indeed"
+              }
+            ]
+          },
+          {
+            "i": 7,
+            "iast": "kūrmaḥ",
+            "gloss": "a tortoise",
+            "parts": [
+              {
+                "form": "kūrma",
+                "gloss": "tortoise"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 8,
+            "iast": "aṅgāni",
+            "gloss": "its limbs",
+            "parts": [
+              {
+                "form": "aṅga",
+                "gloss": "limb"
+              }
+            ],
+            "morph": "acc. pl. neut."
+          },
+          {
+            "i": 9,
+            "iast": "iva",
+            "gloss": "like",
+            "parts": [
+              {
+                "form": "iva",
+                "gloss": "like, as"
+              }
+            ]
+          },
+          {
+            "i": 10,
+            "iast": "indriyārthebhyaḥ",
+            "gloss": "from the objects of sense",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "artha",
+                "gloss": "object"
+              }
+            ],
+            "morph": "abl. pl. masc.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 11,
+            "iast": "sarvaśaḥ",
+            "gloss": "entirely, from every side",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "-śas",
+                "gloss": "in every way"
+              }
+            ]
+          },
+          {
+            "i": 12,
+            "iast": "pratisaṃhṛtya",
+            "gloss": "having drawn back, withdrawn",
+            "parts": [
+              {
+                "form": "prati-",
+                "gloss": "back"
+              },
+              {
+                "form": "sam-",
+                "gloss": "together"
+              },
+              {
+                "form": "√hṛ",
+                "gloss": "to draw"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 13,
+            "iast": "manaḥ",
+            "gloss": "the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "acc. sg. neut.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 14,
+            "iast": "ātmani",
+            "gloss": "in the self",
+            "parts": [
+              {
+                "form": "ātman",
+                "gloss": "the self"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 15,
+            "iast": "avasthāpayati",
+            "gloss": "settles, establishes",
+            "parts": [
+              {
+                "form": "ava-",
+                "gloss": "down"
+              },
+              {
+                "form": "√sthā",
+                "gloss": "to stand"
+              },
+              {
+                "form": "-paya-",
+                "gloss": "(causative)"
+              }
+            ],
+            "morph": "pres. caus. 3 sg."
+          },
+          {
+            "i": 16,
+            "iast": "saḥ",
+            "gloss": "he",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 17,
+            "iast": "api",
+            "gloss": "too, also",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "also, too"
+              }
+            ]
+          },
+          {
+            "i": 18,
+            "iast": "sthitaprajñaḥ",
+            "gloss": "the man of steady wisdom",
+            "parts": [
+              {
+                "form": "sthita",
+                "gloss": "settled"
+              },
+              {
+                "form": "prajña",
+                "gloss": "wisdom"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "sthitaprajna"
+          },
+          {
+            "i": 19,
+            "iast": "evaṃ",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "evam",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 20,
+            "iast": "caturvidhā",
+            "gloss": "of four kinds",
+            "parts": [
+              {
+                "form": "catur",
+                "gloss": "four"
+              },
+              {
+                "form": "vidhā",
+                "gloss": "kind, fold"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 21,
+            "iast": "jñānaniṣṭhā",
+            "gloss": "steadfastness in knowledge",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              },
+              {
+                "form": "niṣṭhā",
+                "gloss": "steadfastness"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "jnana"
+          },
+          {
+            "i": 22,
+            "iast": "pūrvapūrvā",
+            "gloss": "each earlier one",
+            "parts": [
+              {
+                "form": "pūrva",
+                "gloss": "earlier"
+              },
+              {
+                "form": "pūrva",
+                "gloss": "earlier (reduplicated, distributive)"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 23,
+            "iast": "uttarottraniṣpādyā",
+            "gloss": "to be accomplished by the one that follows",
+            "parts": [
+              {
+                "form": "uttara",
+                "gloss": "later, following"
+              },
+              {
+                "form": "uttara",
+                "gloss": "following (reduplicated)"
+              },
+              {
+                "form": "niṣpādya",
+                "gloss": "to be accomplished"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          }
+        ],
+        "english": "{0:When} {1:the senses} {3:to touch} {2:the objects of sense} {4:are poised}, {5:then} {6:and there} — {9:like} {7:a tortoise} {8:its limbs} — {12:having drawn} {1:them} {11:entirely} {12:in} {10:from the objects of sense}, he {15:settles} {13:the mind} {14:in the self}: {16:he} {17:too} is {18:a man of steady wisdom}. {19:Thus} {21:steadfastness in knowledge} is {20:of four kinds}, {22:each earlier one} {23:to be accomplished by the one that follows}."
       }
     ],
     "aurobindo": [],
@@ -1498,7 +3153,7 @@ window.GITA_VERSES = [
         "affix": "jas (prathamā bahuvacana)",
         "morph": "nom. pl. masc.",
         "karaka": "kartṛ (subject of vinivartante)",
-        "glossaryKey": null,
+        "glossaryKey": "visaya",
         "translatable": true,
         "parts": [
           {
@@ -1593,7 +3248,7 @@ window.GITA_VERSES = [
         "affix": "-am (avyayībhāva adverb in -varjam, 'excepting')",
         "morph": "indeclinable (adverbial, 'with the exception of')",
         "karaka": "kriyāviśeṣaṇa (restricts vinivartante: 'they fall away, the relish excepted')",
-        "glossaryKey": null,
+        "glossaryKey": "raga",
         "translatable": true,
         "compound": {
           "type": "ṇamul / avyayībhāva-type (with -varjam, “excepting”)",
@@ -1746,7 +3401,408 @@ window.GITA_VERSES = [
         "locus": "2.59",
         "sanskrit": "indriyāṇām āhārā viṣayāḥ; nirāhārasya viṣayebhyaḥ pratyāhṛtendriyasya dehino viṣayā vinivartamānā rasavarjaṃ vinivartante; rasaḥ rāgaḥ / viṣayarāgo na nivartata ityarthaḥ / rāgo 'py ātmasvarūpaṃ viṣayebhyaḥ paraṃ sukhataraṃ dṛṣṭvā nivartate",
         "ourRendering": "The 'food' of the senses are the sense-objects; for the embodied one who is 'foodless' — that is, whose senses have been withdrawn from the objects — the sense-objects, as they recede, recede with the relish excepted; the 'relish' is rāga (passion). The meaning is: passion for the objects does not [yet] turn back. Even that passion turns back when he has seen the self's own nature as higher (para) — as more blissful — than the objects.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "indriyāṇām",
+            "gloss": "of the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "gen. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 1,
+            "iast": "āhārāḥ",
+            "gloss": "the food",
+            "parts": [
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "√hṛ",
+                "gloss": "to take"
+              },
+              {
+                "form": "-a",
+                "gloss": "(noun)"
+              }
+            ],
+            "morph": "nom. pl. masc."
+          },
+          {
+            "i": 2,
+            "iast": "viṣayāḥ",
+            "gloss": "the sense-objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "nom. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 3,
+            "iast": "nirāhārasya",
+            "gloss": "of the foodless one",
+            "parts": [
+              {
+                "form": "nir-",
+                "gloss": "without"
+              },
+              {
+                "form": "āhāra",
+                "gloss": "food"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 4,
+            "iast": "viṣayebhyaḥ",
+            "gloss": "from the objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "abl. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 5,
+            "iast": "pratyāhṛtendriyasya",
+            "gloss": "whose senses have been withdrawn",
+            "parts": [
+              {
+                "form": "prati-",
+                "gloss": "back"
+              },
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "hṛta",
+                "gloss": "drawn"
+              },
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 6,
+            "iast": "dehinaḥ",
+            "gloss": "of the embodied one",
+            "parts": [
+              {
+                "form": "deha",
+                "gloss": "body"
+              },
+              {
+                "form": "-in",
+                "gloss": "(possessive)"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "dehin"
+          },
+          {
+            "i": 7,
+            "iast": "viṣayāḥ",
+            "gloss": "the sense-objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "nom. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 8,
+            "iast": "vinivartamānāḥ",
+            "gloss": "as they recede, turning back",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "√vṛt",
+                "gloss": "to turn"
+              },
+              {
+                "form": "-māna",
+                "gloss": "(present middle participle)"
+              }
+            ],
+            "morph": "nom. pl. masc."
+          },
+          {
+            "i": 9,
+            "iast": "rasavarjaṃ",
+            "gloss": "with the relish excepted",
+            "parts": [
+              {
+                "form": "rasa",
+                "gloss": "relish, taste"
+              },
+              {
+                "form": "varja",
+                "gloss": "excepting"
+              }
+            ],
+            "morph": "adverbial",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 10,
+            "iast": "vinivartante",
+            "gloss": "recede, turn away",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "√vṛt",
+                "gloss": "to turn"
+              }
+            ],
+            "morph": "pres. indic. 3 pl."
+          },
+          {
+            "i": 11,
+            "iast": "rasaḥ",
+            "gloss": "the relish",
+            "parts": [
+              {
+                "form": "rasa",
+                "gloss": "relish, taste"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 12,
+            "iast": "rāgaḥ",
+            "gloss": "is passion",
+            "parts": [
+              {
+                "form": "rāga",
+                "gloss": "passion"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 13,
+            "iast": "viṣayarāgaḥ",
+            "gloss": "passion for the objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "rāga",
+                "gloss": "passion"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 14,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 15,
+            "iast": "nivartate",
+            "gloss": "turns back, ceases",
+            "parts": [
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "√vṛt",
+                "gloss": "to turn"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 16,
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 17,
+            "iast": "arthaḥ",
+            "gloss": "is the meaning",
+            "parts": [
+              {
+                "form": "artha",
+                "gloss": "meaning"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 18,
+            "iast": "rāgaḥ",
+            "gloss": "passion",
+            "parts": [
+              {
+                "form": "rāga",
+                "gloss": "passion"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 19,
+            "iast": "api",
+            "gloss": "even, too",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "even, also"
+              }
+            ]
+          },
+          {
+            "i": 20,
+            "iast": "ātmasvarūpaṃ",
+            "gloss": "the self's own nature",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "svarūpa",
+                "gloss": "own-nature"
+              }
+            ],
+            "morph": "acc. sg. neut.",
+            "glossaryKey": "svarupa"
+          },
+          {
+            "i": 21,
+            "iast": "viṣayebhyaḥ",
+            "gloss": "than the objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "abl. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 22,
+            "iast": "paraṃ",
+            "gloss": "higher, supreme",
+            "parts": [
+              {
+                "form": "para",
+                "gloss": "higher, beyond"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 23,
+            "iast": "sukhataraṃ",
+            "gloss": "more blissful",
+            "parts": [
+              {
+                "form": "sukha",
+                "gloss": "happiness"
+              },
+              {
+                "form": "-tara",
+                "gloss": "(comparative)"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 24,
+            "iast": "dṛṣṭvā",
+            "gloss": "having seen",
+            "parts": [
+              {
+                "form": "√dṛś",
+                "gloss": "to see"
+              },
+              {
+                "form": "-tvā",
+                "gloss": "(absolutive)"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 25,
+            "iast": "nivartate",
+            "gloss": "turns back, ceases",
+            "parts": [
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "√vṛt",
+                "gloss": "to turn"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          }
+        ],
+        "english": "{2:The sense-objects} are {1:the food} {0:of the senses}; {6:for the embodied one} {3:who is foodless} — {5:whose senses have been withdrawn} {4:from the objects} — {7:the sense-objects}, {8:as they recede}, {10:recede} {9:with the relish excepted}; {11:the relish} {12:is passion}. {13:Passion for the objects} {14:does} {14:not} {15:turn back} — {16:thus}{17:is the meaning}. {19:Even} {18:that passion} {25:turns back} {24:when he has seen} {20:the self's own nature} as {22:higher} — {23:as more blissful} — {21:than the objects}."
       }
     ],
     "aurobindo": [],
@@ -1851,7 +3907,7 @@ window.GITA_VERSES = [
         "affix": "ṅas (ṣaṣṭhī ekavacana)",
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (genitive of relation: 'in the case of the man'; apādāna-like force with haranti — 'they snatch from him')",
-        "glossaryKey": null,
+        "glossaryKey": "purusa",
         "translatable": true,
         "parts": [
           {
@@ -1992,7 +4048,393 @@ window.GITA_VERSES = [
         "locus": "2.60",
         "sanskrit": "ātmadarśanena vinā viṣayarāgo na nivartate, anivṛtte viṣayarāge vipaścito yatamānasyāpi puruṣasyendriyāṇi pramāthīni balavanti, manaḥ prasahya haranti / evam indriyajayaḥ ātmadarśanādhīnaḥ, ātmadarśanam indriyajayādhīnam iti jñānaniṣṭhā duṣprāpā /",
         "ourRendering": "Without the vision of the self, attachment to objects does not cease; and when attachment to objects has not ceased, the senses of even a discerning man who is striving are turbulent and powerful, and forcibly carry away his mind. Thus mastery of the senses depends on the vision of the self, and the vision of the self depends on mastery of the senses — so steadfastness in knowledge is hard to attain.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "ātmadarśanena",
+            "gloss": "by the vision of the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "darśana",
+                "gloss": "vision, beholding"
+              }
+            ],
+            "morph": "instr. sg. neut.",
+            "glossaryKey": "darsana"
+          },
+          {
+            "i": 1,
+            "iast": "vinā",
+            "gloss": "without",
+            "parts": [
+              {
+                "form": "vinā",
+                "gloss": "without"
+              }
+            ]
+          },
+          {
+            "i": 2,
+            "iast": "viṣayarāgaḥ",
+            "gloss": "attachment to objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "rāga",
+                "gloss": "passion"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 3,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 4,
+            "iast": "nivartate",
+            "gloss": "ceases, turns back",
+            "parts": [
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "√vṛt",
+                "gloss": "to turn"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 5,
+            "iast": "anivṛtte",
+            "gloss": "when it has not ceased",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not"
+              },
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "vṛtta",
+                "gloss": "turned"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 6,
+            "iast": "viṣayarāge",
+            "gloss": "attachment to objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "rāga",
+                "gloss": "passion"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 7,
+            "iast": "vipaścitaḥ",
+            "gloss": "of a discerning man",
+            "parts": [
+              {
+                "form": "vipaścit",
+                "gloss": "wise, discerning"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "prajna"
+          },
+          {
+            "i": 8,
+            "iast": "yatamānasya",
+            "gloss": "of one striving",
+            "parts": [
+              {
+                "form": "√yat",
+                "gloss": "to strive"
+              },
+              {
+                "form": "-māna",
+                "gloss": "(present middle participle)"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 9,
+            "iast": "api",
+            "gloss": "even",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "even, also"
+              }
+            ]
+          },
+          {
+            "i": 10,
+            "iast": "puruṣasya",
+            "gloss": "of a man",
+            "parts": [
+              {
+                "form": "puruṣa",
+                "gloss": "man, person"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "purusa"
+          },
+          {
+            "i": 11,
+            "iast": "indriyāṇi",
+            "gloss": "the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "nom. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 12,
+            "iast": "pramāthīni",
+            "gloss": "turbulent, agitating",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "√math",
+                "gloss": "to churn"
+              },
+              {
+                "form": "-in",
+                "gloss": "(agentive)"
+              }
+            ],
+            "morph": "nom. pl. neut."
+          },
+          {
+            "i": 13,
+            "iast": "balavanti",
+            "gloss": "powerful",
+            "parts": [
+              {
+                "form": "bala",
+                "gloss": "strength"
+              },
+              {
+                "form": "-vat",
+                "gloss": "(possessive)"
+              }
+            ],
+            "morph": "nom. pl. neut."
+          },
+          {
+            "i": 14,
+            "iast": "manaḥ",
+            "gloss": "the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "acc. sg. neut.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 15,
+            "iast": "prasahya",
+            "gloss": "forcibly",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "√sah",
+                "gloss": "to overpower"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 16,
+            "iast": "haranti",
+            "gloss": "carry away",
+            "parts": [
+              {
+                "form": "√hṛ",
+                "gloss": "to carry, take"
+              }
+            ],
+            "morph": "pres. indic. 3 pl."
+          },
+          {
+            "i": 17,
+            "iast": "evam",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "evam",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 18,
+            "iast": "indriyajayaḥ",
+            "gloss": "mastery of the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "jaya",
+                "gloss": "conquest, mastery"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 19,
+            "iast": "ātmadarśanādhīnaḥ",
+            "gloss": "depends on the vision of the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "darśana",
+                "gloss": "vision"
+              },
+              {
+                "form": "adhīna",
+                "gloss": "dependent on"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "darsana"
+          },
+          {
+            "i": 20,
+            "iast": "ātmadarśanam",
+            "gloss": "the vision of the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "darśana",
+                "gloss": "vision"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "darsana"
+          },
+          {
+            "i": 21,
+            "iast": "indriyajayādhīnam",
+            "gloss": "depends on mastery of the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "jaya",
+                "gloss": "mastery"
+              },
+              {
+                "form": "adhīna",
+                "gloss": "dependent on"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 22,
+            "iast": "iti",
+            "gloss": "thus, so",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 23,
+            "iast": "jñānaniṣṭhā",
+            "gloss": "steadfastness in knowledge",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              },
+              {
+                "form": "niṣṭhā",
+                "gloss": "steadfastness"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "jnana"
+          },
+          {
+            "i": 24,
+            "iast": "duṣprāpā",
+            "gloss": "hard to attain",
+            "parts": [
+              {
+                "form": "dus-",
+                "gloss": "hard, ill"
+              },
+              {
+                "form": "prāpa",
+                "gloss": "attainable"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          }
+        ],
+        "english": "{1:Without} {0:the vision of the self}, {2:attachment to objects} {3:does} {3:not} {4:cease}; and {5:when} {6:attachment to objects} {5:has not ceased}, {11:the senses} {9:even} {10:of a man} {7:who is discerning} {8:and striving} are {12:turbulent} and {13:powerful}, and {15:forcibly} {16:carry away} {14:his mind}. {17:Thus} {18:mastery of the senses} {19:depends on the vision of the self}, and {20:the vision of the self} {21:depends on mastery of the senses} — {22:so} {23:steadfastness in knowledge} {24:is hard to attain}."
       }
     ],
     "aurobindo": [],
@@ -2261,7 +4703,7 @@ window.GITA_VERSES = [
         "affix": "kta (past pass. participle) + ṭāp + su (prathamā ekavacana), strī",
         "morph": "nom. sg. fem. (ppp.)",
         "karaka": "predicate of prajñā",
-        "glossaryKey": null,
+        "glossaryKey": "pratistha",
         "translatable": true,
         "parts": [
           {
@@ -2288,7 +4730,778 @@ window.GITA_VERSES = [
         "locus": "2.61",
         "sanskrit": "asya sarvasya parijihīrṣayā viṣayānurāgayuktatayā durjayānīndriyāṇi saṃyamya, cetasaś śubhāśrayabhūte mayi mano 'vasthāpya samāhita āsīta / manasi madviṣaye sati nirdagdhāśeṣakalmaṣatayā nirmalīkṛtaṃ viṣayānurāgarahitaṃ mana indriyāṇi svavaśāni karoti / tato vaśyendriyaṃ mana ātmadarśanāya prabhavati / yathoktam, \"yathāgnir uddhataśikhaḥ kakṣaṃ dahati sānilaḥ / tathā cittasthito viṣṇur yogināṃ sarvakilbiṣam //\" iti / tadāha \"vaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā\" iti /",
         "ourRendering": "Wishing to ward off all this, having restrained the senses — hard to conquer because they are joined to attachment for objects — and having fixed the mind on me, who am the auspicious resting-place of the mind, one should sit collected. When the mind has me for its object, being purified by the burning away of every taint, the mind, freed of attachment to objects, brings the senses under its own control. Then the mind, with senses mastered, becomes capable of the vision of the self. As it is said: 'As fire with raised flame, fanned by wind, burns up the brushwood, so Viṣṇu seated in the mind burns up all the sins of yogins.' This is what he states in: 'For he whose senses are in control — his wisdom stands firm.'",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "asya",
+            "gloss": "of all this",
+            "parts": [
+              {
+                "form": "idam",
+                "gloss": "this"
+              }
+            ],
+            "morph": "gen. sg. neut."
+          },
+          {
+            "i": 1,
+            "iast": "sarvasya",
+            "gloss": "of all",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              }
+            ],
+            "morph": "gen. sg. neut."
+          },
+          {
+            "i": 2,
+            "iast": "parijihīrṣayā",
+            "gloss": "with the wish to ward off",
+            "parts": [
+              {
+                "form": "pari-",
+                "gloss": "around, away"
+              },
+              {
+                "form": "√hṛ",
+                "gloss": "to take"
+              },
+              {
+                "form": "-sa",
+                "gloss": "(desiderative)"
+              },
+              {
+                "form": "-ā",
+                "gloss": "(noun)"
+              }
+            ],
+            "morph": "instr. sg. fem."
+          },
+          {
+            "i": 3,
+            "iast": "viṣayānurāgayuktatayā",
+            "gloss": "because of being joined to attachment for objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "anurāga",
+                "gloss": "attachment"
+              },
+              {
+                "form": "yukta",
+                "gloss": "joined"
+              },
+              {
+                "form": "-tā",
+                "gloss": "-ness"
+              }
+            ],
+            "morph": "instr. sg. fem.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 4,
+            "iast": "durjayāni",
+            "gloss": "hard to conquer",
+            "parts": [
+              {
+                "form": "dus-",
+                "gloss": "hard"
+              },
+              {
+                "form": "jaya",
+                "gloss": "conquerable"
+              }
+            ],
+            "morph": "acc. pl. neut."
+          },
+          {
+            "i": 5,
+            "iast": "indriyāṇi",
+            "gloss": "the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "acc. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 6,
+            "iast": "saṃyamya",
+            "gloss": "having restrained",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "together"
+              },
+              {
+                "form": "√yam",
+                "gloss": "to restrain"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 7,
+            "iast": "cetasaḥ",
+            "gloss": "of the mind",
+            "parts": [
+              {
+                "form": "cetas",
+                "gloss": "thinking faculty, mind"
+              }
+            ],
+            "morph": "gen. sg. neut.",
+            "glossaryKey": "citta"
+          },
+          {
+            "i": 8,
+            "iast": "śubhāśrayabhūte",
+            "gloss": "who is the auspicious resting-place",
+            "parts": [
+              {
+                "form": "śubha",
+                "gloss": "auspicious"
+              },
+              {
+                "form": "āśraya",
+                "gloss": "resting-place, support"
+              },
+              {
+                "form": "bhūta",
+                "gloss": "being"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 9,
+            "iast": "mayi",
+            "gloss": "on me",
+            "parts": [
+              {
+                "form": "mad",
+                "gloss": "I, me"
+              }
+            ],
+            "morph": "loc. sg."
+          },
+          {
+            "i": 10,
+            "iast": "manaḥ",
+            "gloss": "the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "acc. sg. neut.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 11,
+            "iast": "avasthāpya",
+            "gloss": "having fixed",
+            "parts": [
+              {
+                "form": "ava-",
+                "gloss": "down"
+              },
+              {
+                "form": "√sthā",
+                "gloss": "to stand"
+              },
+              {
+                "form": "-paya-",
+                "gloss": "(causative)"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 12,
+            "iast": "samāhitaḥ",
+            "gloss": "collected, composed",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "together"
+              },
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "hita",
+                "gloss": "placed"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 13,
+            "iast": "āsīta",
+            "gloss": "one should sit",
+            "parts": [
+              {
+                "form": "√ās",
+                "gloss": "to sit"
+              }
+            ],
+            "morph": "optative 3 sg."
+          },
+          {
+            "i": 14,
+            "iast": "manasi",
+            "gloss": "in the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "loc. sg. neut.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 15,
+            "iast": "madviṣaye",
+            "gloss": "having me for its object",
+            "parts": [
+              {
+                "form": "mad",
+                "gloss": "me"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "object"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 16,
+            "iast": "sati",
+            "gloss": "being, when it is",
+            "parts": [
+              {
+                "form": "√as",
+                "gloss": "to be"
+              },
+              {
+                "form": "-at",
+                "gloss": "(present participle)"
+              }
+            ],
+            "morph": "loc. sg. (absolute)"
+          },
+          {
+            "i": 17,
+            "iast": "nirdagdhāśeṣakalmaṣatayā",
+            "gloss": "by the burning away of every taint",
+            "parts": [
+              {
+                "form": "nirdagdha",
+                "gloss": "burnt away"
+              },
+              {
+                "form": "aśeṣa",
+                "gloss": "entire, without remainder"
+              },
+              {
+                "form": "kalmaṣa",
+                "gloss": "taint, stain"
+              },
+              {
+                "form": "-tā",
+                "gloss": "-ness"
+              }
+            ],
+            "morph": "instr. sg. fem."
+          },
+          {
+            "i": 18,
+            "iast": "nirmalīkṛtaṃ",
+            "gloss": "made pure",
+            "parts": [
+              {
+                "form": "nirmala",
+                "gloss": "stainless"
+              },
+              {
+                "form": "√kṛ",
+                "gloss": "to make"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 19,
+            "iast": "viṣayānurāgarahitaṃ",
+            "gloss": "freed of attachment to objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "anurāga",
+                "gloss": "attachment"
+              },
+              {
+                "form": "rahita",
+                "gloss": "devoid of"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 20,
+            "iast": "manaḥ",
+            "gloss": "the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 21,
+            "iast": "indriyāṇi",
+            "gloss": "the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "acc. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 22,
+            "iast": "svavaśāni",
+            "gloss": "under its own control",
+            "parts": [
+              {
+                "form": "sva",
+                "gloss": "own"
+              },
+              {
+                "form": "vaśa",
+                "gloss": "control"
+              }
+            ],
+            "morph": "acc. pl. neut."
+          },
+          {
+            "i": 23,
+            "iast": "karoti",
+            "gloss": "makes, brings",
+            "parts": [
+              {
+                "form": "√kṛ",
+                "gloss": "to make"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 24,
+            "iast": "tataḥ",
+            "gloss": "then, thereupon",
+            "parts": [
+              {
+                "form": "tatas",
+                "gloss": "from that, then"
+              }
+            ]
+          },
+          {
+            "i": 25,
+            "iast": "vaśyendriyaṃ",
+            "gloss": "with senses mastered",
+            "parts": [
+              {
+                "form": "vaśya",
+                "gloss": "controllable, mastered"
+              },
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 26,
+            "iast": "manaḥ",
+            "gloss": "the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 27,
+            "iast": "ātmadarśanāya",
+            "gloss": "for the vision of the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "darśana",
+                "gloss": "vision"
+              }
+            ],
+            "morph": "dat. sg. neut.",
+            "glossaryKey": "darsana"
+          },
+          {
+            "i": 28,
+            "iast": "prabhavati",
+            "gloss": "becomes capable",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "√bhū",
+                "gloss": "to be, become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 29,
+            "iast": "yathoktam",
+            "gloss": "as has been said",
+            "parts": [
+              {
+                "form": "yathā",
+                "gloss": "as"
+              },
+              {
+                "form": "ukta",
+                "gloss": "said"
+              }
+            ],
+            "morph": "adverbial"
+          },
+          {
+            "i": 30,
+            "iast": "yathā",
+            "gloss": "just as",
+            "parts": [
+              {
+                "form": "yathā",
+                "gloss": "just as"
+              }
+            ]
+          },
+          {
+            "i": 31,
+            "iast": "agniḥ",
+            "gloss": "fire",
+            "parts": [
+              {
+                "form": "agni",
+                "gloss": "fire"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 32,
+            "iast": "uddhataśikhaḥ",
+            "gloss": "with raised flame",
+            "parts": [
+              {
+                "form": "uddhata",
+                "gloss": "raised"
+              },
+              {
+                "form": "śikhā",
+                "gloss": "flame, crest"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 33,
+            "iast": "kakṣaṃ",
+            "gloss": "the brushwood",
+            "parts": [
+              {
+                "form": "kakṣa",
+                "gloss": "brushwood, dry grass"
+              }
+            ],
+            "morph": "acc. sg. masc."
+          },
+          {
+            "i": 34,
+            "iast": "dahati",
+            "gloss": "burns",
+            "parts": [
+              {
+                "form": "√dah",
+                "gloss": "to burn"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 35,
+            "iast": "sānilaḥ",
+            "gloss": "fanned by wind",
+            "parts": [
+              {
+                "form": "sa-",
+                "gloss": "with"
+              },
+              {
+                "form": "anila",
+                "gloss": "wind"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 36,
+            "iast": "tathā",
+            "gloss": "so",
+            "parts": [
+              {
+                "form": "tathā",
+                "gloss": "so, thus"
+              }
+            ]
+          },
+          {
+            "i": 37,
+            "iast": "cittasthitaḥ",
+            "gloss": "seated in the mind",
+            "parts": [
+              {
+                "form": "citta",
+                "gloss": "mind"
+              },
+              {
+                "form": "sthita",
+                "gloss": "seated"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "citta"
+          },
+          {
+            "i": 38,
+            "iast": "viṣṇuḥ",
+            "gloss": "Viṣṇu",
+            "parts": [
+              {
+                "form": "viṣṇu",
+                "gloss": "Viṣṇu"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "visnu"
+          },
+          {
+            "i": 39,
+            "iast": "yogināṃ",
+            "gloss": "of yogins",
+            "parts": [
+              {
+                "form": "yogin",
+                "gloss": "yogin"
+              }
+            ],
+            "morph": "gen. pl. masc.",
+            "glossaryKey": "yoga"
+          },
+          {
+            "i": 40,
+            "iast": "sarvakilbiṣam",
+            "gloss": "all the sins",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "kilbiṣa",
+                "gloss": "sin, taint"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 41,
+            "iast": "iti",
+            "gloss": "thus (end of citation)",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 42,
+            "iast": "tat",
+            "gloss": "that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 43,
+            "iast": "āha",
+            "gloss": "he states",
+            "parts": [
+              {
+                "form": "√ah",
+                "gloss": "to say"
+              }
+            ],
+            "morph": "perfect 3 sg."
+          },
+          {
+            "i": 44,
+            "iast": "vaśe",
+            "gloss": "under control",
+            "parts": [
+              {
+                "form": "vaśa",
+                "gloss": "control"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 45,
+            "iast": "hi",
+            "gloss": "indeed, for",
+            "parts": [
+              {
+                "form": "hi",
+                "gloss": "for, indeed"
+              }
+            ]
+          },
+          {
+            "i": 46,
+            "iast": "yasya",
+            "gloss": "whose",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "who"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 47,
+            "iast": "indriyāṇi",
+            "gloss": "the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "nom. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 48,
+            "iast": "tasya",
+            "gloss": "of him, his",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 49,
+            "iast": "prajñā",
+            "gloss": "wisdom",
+            "parts": [
+              {
+                "form": "prajñā",
+                "gloss": "wisdom, insight"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "prajna"
+          },
+          {
+            "i": 50,
+            "iast": "pratiṣṭhitā",
+            "gloss": "stands firm, is established",
+            "parts": [
+              {
+                "form": "prati-",
+                "gloss": "firmly"
+              },
+              {
+                "form": "√sthā",
+                "gloss": "to stand"
+              },
+              {
+                "form": "-tā",
+                "gloss": "(past participle, fem.)"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "pratistha"
+          },
+          {
+            "i": 51,
+            "iast": "iti",
+            "gloss": "thus (end of citation)",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          }
+        ],
+        "english": "{2:Wishing to ward off} {0:all} {1:this}, {6:having restrained} {5:the senses} — {4:hard to conquer} {3:because they are joined to attachment for objects} — and {11:having fixed} {10:the mind} {9:on me}, {8:who am the auspicious resting-place} {7:of the mind}, {12:collected} {13:one should sit}. {16:When} {14:the mind} {15:has me for its object}, being {18:made pure} {17:by the burning away of every taint}, {20:the mind}, {19:freed of attachment to objects}, {23:brings} {21:the senses} {22:under its own control}. {24:Then} {26:the mind}, {25:with senses mastered}, {28:becomes capable} {27:of the vision of the self}. {29:As it is said}: {30:just as} {31:fire} {32:with raised flame}, {35:fanned by wind}, {34:burns up} {33:the brushwood}, {36:so} {38:Viṣṇu} {37:seated in the mind} burns up {40:all the sins} {39:of yogins} — {41:thus}. {43:This is what he states} {42:in}: {45:for} {46:he whose} {47:senses} are {44:in control}, {48:his} {49:wisdom} {50:stands firm} — {51:thus}."
       }
     ],
     "aurobindo": [],
@@ -2332,7 +5545,7 @@ window.GITA_VERSES = [
         "affix": "śas (dvitīyā bahuvacana)",
         "morph": "acc. pl. masc.",
         "karaka": "karman (object of dhyāyataḥ)",
-        "glossaryKey": null,
+        "glossaryKey": "visaya",
         "translatable": true,
         "parts": [
           {
@@ -2557,7 +5770,1244 @@ window.GITA_VERSES = [
         "locus": "2.62-63",
         "sanskrit": "anirastaviṣayānurāgasya hi mayy aniveśitamanasa indriyāṇi saṃyamyāvasthitasyāpi anādipāpavāsanayā viṣayadhyānam avarjanīyaṃ syāt / dhyāyato viṣayān puṃsaḥ punar api saṅgo 'tipravṛddho jāyate / saṅgāt saṃjāte kāmaḥ / kāmo nāma saṅgasya vipākadaśā / puruṣo yāṃ daśām āpanno viṣayān abhuktvā sthātuṃ na śaknoti, sa kāmaḥ // kāmāt krodho 'bhijāyate / kāme vartamāne, viṣaye cāsannihite, sannihitān puruṣān prati, ebhir asmadiṣṭaṃ vihitam iti krodho bhavati / krodhād bhavati saṃmohaḥ / saṃmohaḥ kṛtyākṛtyavivekaśūnyatā / tayā sarvaṃ karoti / tataś ca prārabdhe indriyajayādike prayatne smṛtibhraṃśo bhavati / smṛtibhraṃśād buddhināśaḥ ātmajñāne yo vyavasāyaḥ kṛtaḥ, tasya nāśaḥ syāt / buddhināśāt punar api saṃsāre nimagno vinaṣṭo bhavati /",
         "ourRendering": "[On 2.62:] For of one whose attachment to objects is not yet expelled and whose mind is not fixed on me, even though he has restrained the senses and is sitting still, brooding on objects becomes unavoidable on account of beginningless evil tendencies. In a man dwelling on objects, attachment to them, grown excessive, is born once more. From attachment, when it is born, comes desire. Desire is the ripened state of attachment: the state a man has fallen into when he cannot remain without enjoying the objects — that is desire. From desire anger is born: while desire persists and the object is not at hand, anger arises toward men who are at hand, in the thought 'by these has what I wished been thwarted.' [On 2.63:] From anger comes delusion. Delusion is the absence of discrimination between what is to be done and what is not; through it he does anything at all. And thereupon, in the effort already begun at mastering the senses and the rest, there comes a lapse of memory. From the lapse of memory comes the destruction of the buddhi: the resolve that had been made toward knowledge of the self is destroyed. From the destruction of the buddhi he is once more sunk in saṃsāra and perishes.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "anirastaviṣayānurāgasya",
+            "gloss": "of one whose attachment to objects is not expelled",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not"
+              },
+              {
+                "form": "nirasta",
+                "gloss": "cast out, expelled"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "anurāga",
+                "gloss": "attachment"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 1,
+            "iast": "hi",
+            "gloss": "for, indeed",
+            "parts": [
+              {
+                "form": "hi",
+                "gloss": "for, indeed"
+              }
+            ]
+          },
+          {
+            "i": 2,
+            "iast": "mayi",
+            "gloss": "on me",
+            "parts": [
+              {
+                "form": "mad",
+                "gloss": "I, me"
+              }
+            ],
+            "morph": "loc. sg."
+          },
+          {
+            "i": 3,
+            "iast": "aniveśitamanasaḥ",
+            "gloss": "whose mind is not fixed",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not"
+              },
+              {
+                "form": "niveśita",
+                "gloss": "caused to settle, fixed"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 4,
+            "iast": "indriyāṇi",
+            "gloss": "the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "acc. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 5,
+            "iast": "saṃyamya",
+            "gloss": "having restrained",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "together"
+              },
+              {
+                "form": "√yam",
+                "gloss": "to restrain"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 6,
+            "iast": "avasthitasya",
+            "gloss": "of one sitting still, abiding",
+            "parts": [
+              {
+                "form": "ava-",
+                "gloss": "down"
+              },
+              {
+                "form": "sthita",
+                "gloss": "standing, abiding"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 7,
+            "iast": "api",
+            "gloss": "even",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "even, also"
+              }
+            ]
+          },
+          {
+            "i": 8,
+            "iast": "anādipāpavāsanayā",
+            "gloss": "on account of beginningless evil tendencies",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "without"
+              },
+              {
+                "form": "ādi",
+                "gloss": "beginning"
+              },
+              {
+                "form": "pāpa",
+                "gloss": "evil"
+              },
+              {
+                "form": "vāsanā",
+                "gloss": "latent tendency"
+              }
+            ],
+            "morph": "instr. sg. fem.",
+            "glossaryKey": "vasana"
+          },
+          {
+            "i": 9,
+            "iast": "viṣayadhyānam",
+            "gloss": "brooding on objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "dhyāna",
+                "gloss": "brooding, meditation"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 10,
+            "iast": "avarjanīyaṃ",
+            "gloss": "unavoidable",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "varjanīya",
+                "gloss": "to be avoided"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 11,
+            "iast": "syāt",
+            "gloss": "would be",
+            "parts": [
+              {
+                "form": "√as",
+                "gloss": "to be"
+              }
+            ],
+            "morph": "optative 3 sg."
+          },
+          {
+            "i": 12,
+            "iast": "dhyāyataḥ",
+            "gloss": "of one brooding",
+            "parts": [
+              {
+                "form": "√dhyai",
+                "gloss": "to brood, meditate"
+              },
+              {
+                "form": "-at",
+                "gloss": "(present participle)"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 13,
+            "iast": "viṣayān",
+            "gloss": "on the objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 14,
+            "iast": "puṃsaḥ",
+            "gloss": "of a man",
+            "parts": [
+              {
+                "form": "puṃs",
+                "gloss": "man"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 15,
+            "iast": "punaḥ",
+            "gloss": "again",
+            "parts": [
+              {
+                "form": "punar",
+                "gloss": "again"
+              }
+            ]
+          },
+          {
+            "i": 16,
+            "iast": "api",
+            "gloss": "once more, too",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "also, too"
+              }
+            ]
+          },
+          {
+            "i": 17,
+            "iast": "saṅgaḥ",
+            "gloss": "attachment",
+            "parts": [
+              {
+                "form": "saṅga",
+                "gloss": "attachment, clinging"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 18,
+            "iast": "atipravṛddhaḥ",
+            "gloss": "grown excessive",
+            "parts": [
+              {
+                "form": "ati-",
+                "gloss": "beyond, excessively"
+              },
+              {
+                "form": "pravṛddha",
+                "gloss": "grown, increased"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 19,
+            "iast": "jāyate",
+            "gloss": "is born, arises",
+            "parts": [
+              {
+                "form": "√jan",
+                "gloss": "to be born"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 20,
+            "iast": "saṅgāt",
+            "gloss": "from attachment",
+            "parts": [
+              {
+                "form": "saṅga",
+                "gloss": "attachment"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 21,
+            "iast": "saṃjāte",
+            "gloss": "when it is born",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "fully"
+              },
+              {
+                "form": "jāta",
+                "gloss": "born"
+              }
+            ],
+            "morph": "loc. sg. (absolute)"
+          },
+          {
+            "i": 22,
+            "iast": "kāmaḥ",
+            "gloss": "desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 23,
+            "iast": "kāmaḥ",
+            "gloss": "desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 24,
+            "iast": "nāma",
+            "gloss": "namely, indeed",
+            "parts": [
+              {
+                "form": "nāma",
+                "gloss": "by name, namely"
+              }
+            ]
+          },
+          {
+            "i": 25,
+            "iast": "saṅgasya",
+            "gloss": "of attachment",
+            "parts": [
+              {
+                "form": "saṅga",
+                "gloss": "attachment"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 26,
+            "iast": "vipākadaśā",
+            "gloss": "the ripened state",
+            "parts": [
+              {
+                "form": "vipāka",
+                "gloss": "ripening, fruition"
+              },
+              {
+                "form": "daśā",
+                "gloss": "state, condition"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 27,
+            "iast": "puruṣaḥ",
+            "gloss": "a man",
+            "parts": [
+              {
+                "form": "puruṣa",
+                "gloss": "man, person"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "purusa"
+          },
+          {
+            "i": 28,
+            "iast": "yāṃ",
+            "gloss": "which",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "which"
+              }
+            ],
+            "morph": "acc. sg. fem."
+          },
+          {
+            "i": 29,
+            "iast": "daśām",
+            "gloss": "state",
+            "parts": [
+              {
+                "form": "daśā",
+                "gloss": "state, condition"
+              }
+            ],
+            "morph": "acc. sg. fem."
+          },
+          {
+            "i": 30,
+            "iast": "āpannaḥ",
+            "gloss": "having fallen into",
+            "parts": [
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "panna",
+                "gloss": "fallen, reached"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 31,
+            "iast": "viṣayān",
+            "gloss": "the objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 32,
+            "iast": "abhuktvā",
+            "gloss": "without enjoying",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "√bhuj",
+                "gloss": "to enjoy"
+              },
+              {
+                "form": "-tvā",
+                "gloss": "(absolutive)"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 33,
+            "iast": "sthātuṃ",
+            "gloss": "to remain",
+            "parts": [
+              {
+                "form": "√sthā",
+                "gloss": "to stand, remain"
+              },
+              {
+                "form": "-tum",
+                "gloss": "(infinitive)"
+              }
+            ],
+            "morph": "infinitive"
+          },
+          {
+            "i": 34,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 35,
+            "iast": "śaknoti",
+            "gloss": "is able",
+            "parts": [
+              {
+                "form": "√śak",
+                "gloss": "to be able"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 36,
+            "iast": "saḥ",
+            "gloss": "that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 37,
+            "iast": "kāmaḥ",
+            "gloss": "is desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 38,
+            "iast": "kāmāt",
+            "gloss": "from desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 39,
+            "iast": "krodhaḥ",
+            "gloss": "anger",
+            "parts": [
+              {
+                "form": "krodha",
+                "gloss": "anger"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "krodha"
+          },
+          {
+            "i": 40,
+            "iast": "abhijāyate",
+            "gloss": "is born",
+            "parts": [
+              {
+                "form": "abhi-",
+                "gloss": "toward"
+              },
+              {
+                "form": "√jan",
+                "gloss": "to be born"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 41,
+            "iast": "kāme",
+            "gloss": "while desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 42,
+            "iast": "vartamāne",
+            "gloss": "persisting, being present",
+            "parts": [
+              {
+                "form": "√vṛt",
+                "gloss": "to be, continue"
+              },
+              {
+                "form": "-māna",
+                "gloss": "(present middle participle)"
+              }
+            ],
+            "morph": "loc. sg. (absolute)"
+          },
+          {
+            "i": 43,
+            "iast": "viṣaye",
+            "gloss": "the object",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 44,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 45,
+            "iast": "asannihite",
+            "gloss": "not being at hand",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "sannihita",
+                "gloss": "at hand, present"
+              }
+            ],
+            "morph": "loc. sg. (absolute)"
+          },
+          {
+            "i": 46,
+            "iast": "sannihitān",
+            "gloss": "at hand",
+            "parts": [
+              {
+                "form": "sannihita",
+                "gloss": "at hand, present"
+              }
+            ],
+            "morph": "acc. pl. masc."
+          },
+          {
+            "i": 47,
+            "iast": "puruṣān",
+            "gloss": "men",
+            "parts": [
+              {
+                "form": "puruṣa",
+                "gloss": "man, person"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "purusa"
+          },
+          {
+            "i": 48,
+            "iast": "prati",
+            "gloss": "toward",
+            "parts": [
+              {
+                "form": "prati",
+                "gloss": "toward"
+              }
+            ]
+          },
+          {
+            "i": 49,
+            "iast": "ebhiḥ",
+            "gloss": "by these",
+            "parts": [
+              {
+                "form": "idam",
+                "gloss": "this"
+              }
+            ],
+            "morph": "instr. pl. masc."
+          },
+          {
+            "i": 50,
+            "iast": "asmadiṣṭaṃ",
+            "gloss": "what I wished",
+            "parts": [
+              {
+                "form": "asmad",
+                "gloss": "I, we"
+              },
+              {
+                "form": "iṣṭa",
+                "gloss": "wished, desired"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 51,
+            "iast": "vihitam",
+            "gloss": "has been thwarted, set aside",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "hita",
+                "gloss": "placed, arranged"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 52,
+            "iast": "iti",
+            "gloss": "in the thought, thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 53,
+            "iast": "krodhaḥ",
+            "gloss": "anger",
+            "parts": [
+              {
+                "form": "krodha",
+                "gloss": "anger"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "krodha"
+          },
+          {
+            "i": 54,
+            "iast": "bhavati",
+            "gloss": "arises, becomes",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 55,
+            "iast": "krodhāt",
+            "gloss": "from anger",
+            "parts": [
+              {
+                "form": "krodha",
+                "gloss": "anger"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "krodha"
+          },
+          {
+            "i": 56,
+            "iast": "bhavati",
+            "gloss": "comes, arises",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 57,
+            "iast": "saṃmohaḥ",
+            "gloss": "delusion",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "fully"
+              },
+              {
+                "form": "moha",
+                "gloss": "delusion"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "moha"
+          },
+          {
+            "i": 58,
+            "iast": "saṃmohaḥ",
+            "gloss": "delusion",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "fully"
+              },
+              {
+                "form": "moha",
+                "gloss": "delusion"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "moha"
+          },
+          {
+            "i": 59,
+            "iast": "kṛtyākṛtyavivekaśūnyatā",
+            "gloss": "is the absence of discrimination between what is to be done and what is not",
+            "parts": [
+              {
+                "form": "kṛtya",
+                "gloss": "to be done"
+              },
+              {
+                "form": "akṛtya",
+                "gloss": "not to be done"
+              },
+              {
+                "form": "viveka",
+                "gloss": "discrimination"
+              },
+              {
+                "form": "śūnyatā",
+                "gloss": "absence, emptiness"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "sunyata"
+          },
+          {
+            "i": 60,
+            "iast": "tayā",
+            "gloss": "through it",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "instr. sg. fem."
+          },
+          {
+            "i": 61,
+            "iast": "sarvaṃ",
+            "gloss": "anything at all",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all, anything"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 62,
+            "iast": "karoti",
+            "gloss": "he does",
+            "parts": [
+              {
+                "form": "√kṛ",
+                "gloss": "to do"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 63,
+            "iast": "tataḥ",
+            "gloss": "thereupon",
+            "parts": [
+              {
+                "form": "tatas",
+                "gloss": "from that, then"
+              }
+            ]
+          },
+          {
+            "i": 64,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 65,
+            "iast": "prārabdhe",
+            "gloss": "already begun",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "rabdha",
+                "gloss": "begun, undertaken"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 66,
+            "iast": "indriyajayādike",
+            "gloss": "at mastering the senses and the rest",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "jaya",
+                "gloss": "mastery"
+              },
+              {
+                "form": "ādi",
+                "gloss": "and the rest"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 67,
+            "iast": "prayatne",
+            "gloss": "in the effort",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "yatna",
+                "gloss": "effort"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 68,
+            "iast": "smṛtibhraṃśaḥ",
+            "gloss": "a lapse of memory",
+            "parts": [
+              {
+                "form": "smṛti",
+                "gloss": "memory"
+              },
+              {
+                "form": "bhraṃśa",
+                "gloss": "falling away, lapse"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "smrti"
+          },
+          {
+            "i": 69,
+            "iast": "bhavati",
+            "gloss": "comes, occurs",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 70,
+            "iast": "smṛtibhraṃśāt",
+            "gloss": "from the lapse of memory",
+            "parts": [
+              {
+                "form": "smṛti",
+                "gloss": "memory"
+              },
+              {
+                "form": "bhraṃśa",
+                "gloss": "lapse"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "smrti"
+          },
+          {
+            "i": 71,
+            "iast": "buddhināśaḥ",
+            "gloss": "the destruction of the buddhi",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect"
+              },
+              {
+                "form": "nāśa",
+                "gloss": "destruction"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 72,
+            "iast": "ātmajñāne",
+            "gloss": "toward knowledge of the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              }
+            ],
+            "morph": "loc. sg. neut.",
+            "glossaryKey": "jnana"
+          },
+          {
+            "i": 73,
+            "iast": "yaḥ",
+            "gloss": "which",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "which"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 74,
+            "iast": "vyavasāyaḥ",
+            "gloss": "the resolve",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "ava-",
+                "gloss": "down"
+              },
+              {
+                "form": "√so",
+                "gloss": "to determine"
+              },
+              {
+                "form": "-a",
+                "gloss": "(noun)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 75,
+            "iast": "kṛtaḥ",
+            "gloss": "that had been made",
+            "parts": [
+              {
+                "form": "√kṛ",
+                "gloss": "to make"
+              },
+              {
+                "form": "-ta",
+                "gloss": "(past participle)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 76,
+            "iast": "tasya",
+            "gloss": "of it, its",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 77,
+            "iast": "nāśaḥ",
+            "gloss": "destruction",
+            "parts": [
+              {
+                "form": "nāśa",
+                "gloss": "destruction, loss"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 78,
+            "iast": "syāt",
+            "gloss": "there would be",
+            "parts": [
+              {
+                "form": "√as",
+                "gloss": "to be"
+              }
+            ],
+            "morph": "optative 3 sg."
+          },
+          {
+            "i": 79,
+            "iast": "buddhināśāt",
+            "gloss": "from the destruction of the buddhi",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect"
+              },
+              {
+                "form": "nāśa",
+                "gloss": "destruction"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 80,
+            "iast": "punaḥ",
+            "gloss": "once more",
+            "parts": [
+              {
+                "form": "punar",
+                "gloss": "again"
+              }
+            ]
+          },
+          {
+            "i": 81,
+            "iast": "api",
+            "gloss": "again, too",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "also, too"
+              }
+            ]
+          },
+          {
+            "i": 82,
+            "iast": "saṃsāre",
+            "gloss": "in saṃsāra",
+            "parts": [
+              {
+                "form": "saṃsāra",
+                "gloss": "the round of rebirth"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "samsara"
+          },
+          {
+            "i": 83,
+            "iast": "nimagnaḥ",
+            "gloss": "sunk",
+            "parts": [
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "magna",
+                "gloss": "sunk, immersed"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 84,
+            "iast": "vinaṣṭaḥ",
+            "gloss": "perishes, is ruined",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "naṣṭa",
+                "gloss": "destroyed, perished"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 85,
+            "iast": "bhavati",
+            "gloss": "becomes, is",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          }
+        ],
+        "english": "{1:For} {0:of one whose attachment to objects is not expelled} and {3:whose mind is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the senses}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:attachment}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From attachment}, {21:when it is born}, comes {22:desire}. {23:Desire} {24:namely} is {26:the ripened state} {25:of attachment}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is desire}. {38:From desire} {39:anger} {40:is born}: {42:while} {41:desire} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:anger} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the senses and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward knowledge of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}."
       }
     ],
     "aurobindo": [],
@@ -2620,7 +7070,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of bhavati)",
-        "glossaryKey": null,
+        "glossaryKey": "moha",
         "translatable": true,
         "parts": [
           {
@@ -2643,7 +7093,7 @@ window.GITA_VERSES = [
         "affix": "ṅasi (pañcamī ekavacana)",
         "morph": "abl. sg. masc.",
         "karaka": "apādāna (source: 'from delusion')",
-        "glossaryKey": null,
+        "glossaryKey": "moha",
         "translatable": true,
         "parts": [
           {
@@ -2666,7 +7116,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of an implied bhavati)",
-        "glossaryKey": null,
+        "glossaryKey": "smrti",
         "translatable": true,
         "compound": {
           "type": "tatpuruṣa (ṣaṣṭhī)",
@@ -2697,7 +7147,7 @@ window.GITA_VERSES = [
         "affix": "ṅasi (pañcamī ekavacana)",
         "morph": "abl. sg. masc.",
         "karaka": "apādāna (source: 'from the loss of memory')",
-        "glossaryKey": null,
+        "glossaryKey": "smrti",
         "translatable": true,
         "compound": {
           "type": "tatpuruṣa (ṣaṣṭhī)",
@@ -2817,7 +7267,1244 @@ window.GITA_VERSES = [
         "locus": "2.62-63",
         "sanskrit": "anirastaviṣayānurāgasya hi mayy aniveśitamanasa indriyāṇi saṃyamyāvasthitasyāpi anādipāpavāsanayā viṣayadhyānam avarjanīyaṃ syāt / dhyāyato viṣayān puṃsaḥ punar api saṅgo 'tipravṛddho jāyate / saṅgāt saṃjāte kāmaḥ / kāmo nāma saṅgasya vipākadaśā / puruṣo yāṃ daśām āpanno viṣayān abhuktvā sthātuṃ na śaknoti, sa kāmaḥ // kāmāt krodho 'bhijāyate / kāme vartamāne, viṣaye cāsannihite, sannihitān puruṣān prati, ebhir asmadiṣṭaṃ vihitam iti krodho bhavati / krodhād bhavati saṃmohaḥ / saṃmohaḥ kṛtyākṛtyavivekaśūnyatā / tayā sarvaṃ karoti / tataś ca prārabdhe indriyajayādike prayatne smṛtibhraṃśo bhavati / smṛtibhraṃśād buddhināśaḥ ātmajñāne yo vyavasāyaḥ kṛtaḥ, tasya nāśaḥ syāt / buddhināśāt punar api saṃsāre nimagno vinaṣṭo bhavati /",
         "ourRendering": "[On 2.63:] From anger comes delusion. Delusion is the absence of discrimination between what is to be done and what is not; through it he does anything at all. And thereupon, in the effort already begun at mastering the senses and the rest, there comes a lapse of memory. From the lapse of memory comes the destruction of the buddhi: the resolve that had been made toward knowledge of the self is destroyed. From the destruction of the buddhi he is once more sunk in saṃsāra and perishes. [On 2.62, in the same block:] For of one whose attachment to objects is not yet expelled and whose mind is not fixed on me, even though he has restrained the senses and sits still, brooding on objects becomes unavoidable through beginningless evil tendencies; in a man dwelling on objects attachment grows excessive and is reborn, from attachment desire (the ripened state of attachment) is born, and from desire, thwarted, anger arises toward those at hand.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "anirastaviṣayānurāgasya",
+            "gloss": "of one whose attachment to objects is not expelled",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not"
+              },
+              {
+                "form": "nirasta",
+                "gloss": "cast out, expelled"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "anurāga",
+                "gloss": "attachment"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 1,
+            "iast": "hi",
+            "gloss": "for, indeed",
+            "parts": [
+              {
+                "form": "hi",
+                "gloss": "for, indeed"
+              }
+            ]
+          },
+          {
+            "i": 2,
+            "iast": "mayi",
+            "gloss": "on me",
+            "parts": [
+              {
+                "form": "mad",
+                "gloss": "I, me"
+              }
+            ],
+            "morph": "loc. sg."
+          },
+          {
+            "i": 3,
+            "iast": "aniveśitamanasaḥ",
+            "gloss": "whose mind is not fixed",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not"
+              },
+              {
+                "form": "niveśita",
+                "gloss": "caused to settle, fixed"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 4,
+            "iast": "indriyāṇi",
+            "gloss": "the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "acc. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 5,
+            "iast": "saṃyamya",
+            "gloss": "having restrained",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "together"
+              },
+              {
+                "form": "√yam",
+                "gloss": "to restrain"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 6,
+            "iast": "avasthitasya",
+            "gloss": "of one sitting still, abiding",
+            "parts": [
+              {
+                "form": "ava-",
+                "gloss": "down"
+              },
+              {
+                "form": "sthita",
+                "gloss": "standing, abiding"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 7,
+            "iast": "api",
+            "gloss": "even",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "even, also"
+              }
+            ]
+          },
+          {
+            "i": 8,
+            "iast": "anādipāpavāsanayā",
+            "gloss": "on account of beginningless evil tendencies",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "without"
+              },
+              {
+                "form": "ādi",
+                "gloss": "beginning"
+              },
+              {
+                "form": "pāpa",
+                "gloss": "evil"
+              },
+              {
+                "form": "vāsanā",
+                "gloss": "latent tendency"
+              }
+            ],
+            "morph": "instr. sg. fem.",
+            "glossaryKey": "vasana"
+          },
+          {
+            "i": 9,
+            "iast": "viṣayadhyānam",
+            "gloss": "brooding on objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "dhyāna",
+                "gloss": "brooding, meditation"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 10,
+            "iast": "avarjanīyaṃ",
+            "gloss": "unavoidable",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "varjanīya",
+                "gloss": "to be avoided"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 11,
+            "iast": "syāt",
+            "gloss": "would be",
+            "parts": [
+              {
+                "form": "√as",
+                "gloss": "to be"
+              }
+            ],
+            "morph": "optative 3 sg."
+          },
+          {
+            "i": 12,
+            "iast": "dhyāyataḥ",
+            "gloss": "of one brooding",
+            "parts": [
+              {
+                "form": "√dhyai",
+                "gloss": "to brood, meditate"
+              },
+              {
+                "form": "-at",
+                "gloss": "(present participle)"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 13,
+            "iast": "viṣayān",
+            "gloss": "on the objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 14,
+            "iast": "puṃsaḥ",
+            "gloss": "of a man",
+            "parts": [
+              {
+                "form": "puṃs",
+                "gloss": "man"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 15,
+            "iast": "punaḥ",
+            "gloss": "again",
+            "parts": [
+              {
+                "form": "punar",
+                "gloss": "again"
+              }
+            ]
+          },
+          {
+            "i": 16,
+            "iast": "api",
+            "gloss": "once more, too",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "also, too"
+              }
+            ]
+          },
+          {
+            "i": 17,
+            "iast": "saṅgaḥ",
+            "gloss": "attachment",
+            "parts": [
+              {
+                "form": "saṅga",
+                "gloss": "attachment, clinging"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 18,
+            "iast": "atipravṛddhaḥ",
+            "gloss": "grown excessive",
+            "parts": [
+              {
+                "form": "ati-",
+                "gloss": "beyond, excessively"
+              },
+              {
+                "form": "pravṛddha",
+                "gloss": "grown, increased"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 19,
+            "iast": "jāyate",
+            "gloss": "is born, arises",
+            "parts": [
+              {
+                "form": "√jan",
+                "gloss": "to be born"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 20,
+            "iast": "saṅgāt",
+            "gloss": "from attachment",
+            "parts": [
+              {
+                "form": "saṅga",
+                "gloss": "attachment"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 21,
+            "iast": "saṃjāte",
+            "gloss": "when it is born",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "fully"
+              },
+              {
+                "form": "jāta",
+                "gloss": "born"
+              }
+            ],
+            "morph": "loc. sg. (absolute)"
+          },
+          {
+            "i": 22,
+            "iast": "kāmaḥ",
+            "gloss": "desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 23,
+            "iast": "kāmaḥ",
+            "gloss": "desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 24,
+            "iast": "nāma",
+            "gloss": "namely, indeed",
+            "parts": [
+              {
+                "form": "nāma",
+                "gloss": "by name, namely"
+              }
+            ]
+          },
+          {
+            "i": 25,
+            "iast": "saṅgasya",
+            "gloss": "of attachment",
+            "parts": [
+              {
+                "form": "saṅga",
+                "gloss": "attachment"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 26,
+            "iast": "vipākadaśā",
+            "gloss": "the ripened state",
+            "parts": [
+              {
+                "form": "vipāka",
+                "gloss": "ripening, fruition"
+              },
+              {
+                "form": "daśā",
+                "gloss": "state, condition"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 27,
+            "iast": "puruṣaḥ",
+            "gloss": "a man",
+            "parts": [
+              {
+                "form": "puruṣa",
+                "gloss": "man, person"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "purusa"
+          },
+          {
+            "i": 28,
+            "iast": "yāṃ",
+            "gloss": "which",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "which"
+              }
+            ],
+            "morph": "acc. sg. fem."
+          },
+          {
+            "i": 29,
+            "iast": "daśām",
+            "gloss": "state",
+            "parts": [
+              {
+                "form": "daśā",
+                "gloss": "state, condition"
+              }
+            ],
+            "morph": "acc. sg. fem."
+          },
+          {
+            "i": 30,
+            "iast": "āpannaḥ",
+            "gloss": "having fallen into",
+            "parts": [
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "panna",
+                "gloss": "fallen, reached"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 31,
+            "iast": "viṣayān",
+            "gloss": "the objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 32,
+            "iast": "abhuktvā",
+            "gloss": "without enjoying",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "√bhuj",
+                "gloss": "to enjoy"
+              },
+              {
+                "form": "-tvā",
+                "gloss": "(absolutive)"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 33,
+            "iast": "sthātuṃ",
+            "gloss": "to remain",
+            "parts": [
+              {
+                "form": "√sthā",
+                "gloss": "to stand, remain"
+              },
+              {
+                "form": "-tum",
+                "gloss": "(infinitive)"
+              }
+            ],
+            "morph": "infinitive"
+          },
+          {
+            "i": 34,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 35,
+            "iast": "śaknoti",
+            "gloss": "is able",
+            "parts": [
+              {
+                "form": "√śak",
+                "gloss": "to be able"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 36,
+            "iast": "saḥ",
+            "gloss": "that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 37,
+            "iast": "kāmaḥ",
+            "gloss": "is desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 38,
+            "iast": "kāmāt",
+            "gloss": "from desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 39,
+            "iast": "krodhaḥ",
+            "gloss": "anger",
+            "parts": [
+              {
+                "form": "krodha",
+                "gloss": "anger"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "krodha"
+          },
+          {
+            "i": 40,
+            "iast": "abhijāyate",
+            "gloss": "is born",
+            "parts": [
+              {
+                "form": "abhi-",
+                "gloss": "toward"
+              },
+              {
+                "form": "√jan",
+                "gloss": "to be born"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 41,
+            "iast": "kāme",
+            "gloss": "while desire",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 42,
+            "iast": "vartamāne",
+            "gloss": "persisting, being present",
+            "parts": [
+              {
+                "form": "√vṛt",
+                "gloss": "to be, continue"
+              },
+              {
+                "form": "-māna",
+                "gloss": "(present middle participle)"
+              }
+            ],
+            "morph": "loc. sg. (absolute)"
+          },
+          {
+            "i": 43,
+            "iast": "viṣaye",
+            "gloss": "the object",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 44,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 45,
+            "iast": "asannihite",
+            "gloss": "not being at hand",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "sannihita",
+                "gloss": "at hand, present"
+              }
+            ],
+            "morph": "loc. sg. (absolute)"
+          },
+          {
+            "i": 46,
+            "iast": "sannihitān",
+            "gloss": "at hand",
+            "parts": [
+              {
+                "form": "sannihita",
+                "gloss": "at hand, present"
+              }
+            ],
+            "morph": "acc. pl. masc."
+          },
+          {
+            "i": 47,
+            "iast": "puruṣān",
+            "gloss": "men",
+            "parts": [
+              {
+                "form": "puruṣa",
+                "gloss": "man, person"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "purusa"
+          },
+          {
+            "i": 48,
+            "iast": "prati",
+            "gloss": "toward",
+            "parts": [
+              {
+                "form": "prati",
+                "gloss": "toward"
+              }
+            ]
+          },
+          {
+            "i": 49,
+            "iast": "ebhiḥ",
+            "gloss": "by these",
+            "parts": [
+              {
+                "form": "idam",
+                "gloss": "this"
+              }
+            ],
+            "morph": "instr. pl. masc."
+          },
+          {
+            "i": 50,
+            "iast": "asmadiṣṭaṃ",
+            "gloss": "what I wished",
+            "parts": [
+              {
+                "form": "asmad",
+                "gloss": "I, we"
+              },
+              {
+                "form": "iṣṭa",
+                "gloss": "wished, desired"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 51,
+            "iast": "vihitam",
+            "gloss": "has been thwarted, set aside",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "hita",
+                "gloss": "placed, arranged"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 52,
+            "iast": "iti",
+            "gloss": "in the thought, thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 53,
+            "iast": "krodhaḥ",
+            "gloss": "anger",
+            "parts": [
+              {
+                "form": "krodha",
+                "gloss": "anger"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "krodha"
+          },
+          {
+            "i": 54,
+            "iast": "bhavati",
+            "gloss": "arises, becomes",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 55,
+            "iast": "krodhāt",
+            "gloss": "from anger",
+            "parts": [
+              {
+                "form": "krodha",
+                "gloss": "anger"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "krodha"
+          },
+          {
+            "i": 56,
+            "iast": "bhavati",
+            "gloss": "comes, arises",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 57,
+            "iast": "saṃmohaḥ",
+            "gloss": "delusion",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "fully"
+              },
+              {
+                "form": "moha",
+                "gloss": "delusion"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "moha"
+          },
+          {
+            "i": 58,
+            "iast": "saṃmohaḥ",
+            "gloss": "delusion",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "fully"
+              },
+              {
+                "form": "moha",
+                "gloss": "delusion"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "moha"
+          },
+          {
+            "i": 59,
+            "iast": "kṛtyākṛtyavivekaśūnyatā",
+            "gloss": "is the absence of discrimination between what is to be done and what is not",
+            "parts": [
+              {
+                "form": "kṛtya",
+                "gloss": "to be done"
+              },
+              {
+                "form": "akṛtya",
+                "gloss": "not to be done"
+              },
+              {
+                "form": "viveka",
+                "gloss": "discrimination"
+              },
+              {
+                "form": "śūnyatā",
+                "gloss": "absence, emptiness"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "sunyata"
+          },
+          {
+            "i": 60,
+            "iast": "tayā",
+            "gloss": "through it",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "instr. sg. fem."
+          },
+          {
+            "i": 61,
+            "iast": "sarvaṃ",
+            "gloss": "anything at all",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all, anything"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 62,
+            "iast": "karoti",
+            "gloss": "he does",
+            "parts": [
+              {
+                "form": "√kṛ",
+                "gloss": "to do"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 63,
+            "iast": "tataḥ",
+            "gloss": "thereupon",
+            "parts": [
+              {
+                "form": "tatas",
+                "gloss": "from that, then"
+              }
+            ]
+          },
+          {
+            "i": 64,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 65,
+            "iast": "prārabdhe",
+            "gloss": "already begun",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "rabdha",
+                "gloss": "begun, undertaken"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 66,
+            "iast": "indriyajayādike",
+            "gloss": "at mastering the senses and the rest",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "jaya",
+                "gloss": "mastery"
+              },
+              {
+                "form": "ādi",
+                "gloss": "and the rest"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 67,
+            "iast": "prayatne",
+            "gloss": "in the effort",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "yatna",
+                "gloss": "effort"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 68,
+            "iast": "smṛtibhraṃśaḥ",
+            "gloss": "a lapse of memory",
+            "parts": [
+              {
+                "form": "smṛti",
+                "gloss": "memory"
+              },
+              {
+                "form": "bhraṃśa",
+                "gloss": "falling away, lapse"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "smrti"
+          },
+          {
+            "i": 69,
+            "iast": "bhavati",
+            "gloss": "comes, occurs",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 70,
+            "iast": "smṛtibhraṃśāt",
+            "gloss": "from the lapse of memory",
+            "parts": [
+              {
+                "form": "smṛti",
+                "gloss": "memory"
+              },
+              {
+                "form": "bhraṃśa",
+                "gloss": "lapse"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "smrti"
+          },
+          {
+            "i": 71,
+            "iast": "buddhināśaḥ",
+            "gloss": "the destruction of the buddhi",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect"
+              },
+              {
+                "form": "nāśa",
+                "gloss": "destruction"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 72,
+            "iast": "ātmajñāne",
+            "gloss": "toward knowledge of the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              }
+            ],
+            "morph": "loc. sg. neut.",
+            "glossaryKey": "jnana"
+          },
+          {
+            "i": 73,
+            "iast": "yaḥ",
+            "gloss": "which",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "which"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 74,
+            "iast": "vyavasāyaḥ",
+            "gloss": "the resolve",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "ava-",
+                "gloss": "down"
+              },
+              {
+                "form": "√so",
+                "gloss": "to determine"
+              },
+              {
+                "form": "-a",
+                "gloss": "(noun)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 75,
+            "iast": "kṛtaḥ",
+            "gloss": "that had been made",
+            "parts": [
+              {
+                "form": "√kṛ",
+                "gloss": "to make"
+              },
+              {
+                "form": "-ta",
+                "gloss": "(past participle)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 76,
+            "iast": "tasya",
+            "gloss": "of it, its",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 77,
+            "iast": "nāśaḥ",
+            "gloss": "destruction",
+            "parts": [
+              {
+                "form": "nāśa",
+                "gloss": "destruction, loss"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 78,
+            "iast": "syāt",
+            "gloss": "there would be",
+            "parts": [
+              {
+                "form": "√as",
+                "gloss": "to be"
+              }
+            ],
+            "morph": "optative 3 sg."
+          },
+          {
+            "i": 79,
+            "iast": "buddhināśāt",
+            "gloss": "from the destruction of the buddhi",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect"
+              },
+              {
+                "form": "nāśa",
+                "gloss": "destruction"
+              }
+            ],
+            "morph": "abl. sg. masc.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 80,
+            "iast": "punaḥ",
+            "gloss": "once more",
+            "parts": [
+              {
+                "form": "punar",
+                "gloss": "again"
+              }
+            ]
+          },
+          {
+            "i": 81,
+            "iast": "api",
+            "gloss": "again, too",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "also, too"
+              }
+            ]
+          },
+          {
+            "i": 82,
+            "iast": "saṃsāre",
+            "gloss": "in saṃsāra",
+            "parts": [
+              {
+                "form": "saṃsāra",
+                "gloss": "the round of rebirth"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "samsara"
+          },
+          {
+            "i": 83,
+            "iast": "nimagnaḥ",
+            "gloss": "sunk",
+            "parts": [
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "magna",
+                "gloss": "sunk, immersed"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 84,
+            "iast": "vinaṣṭaḥ",
+            "gloss": "perishes, is ruined",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "naṣṭa",
+                "gloss": "destroyed, perished"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 85,
+            "iast": "bhavati",
+            "gloss": "becomes, is",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          }
+        ],
+        "english": "{1:For} {0:of one whose attachment to objects is not expelled} and {3:whose mind is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the senses}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:attachment}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From attachment}, {21:when it is born}, comes {22:desire}. {23:Desire} {24:namely} is {26:the ripened state} {25:of attachment}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is desire}. {38:From desire} {39:anger} {40:is born}: {42:while} {41:desire} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:anger} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the senses and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward knowledge of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}."
       }
     ],
     "aurobindo": [],
@@ -2947,7 +8634,7 @@ window.GITA_VERSES = [
         "affix": "śas (dvitīyā bahuvacana)",
         "morph": "acc. pl. masc.",
         "karaka": "karman (object of caran)",
-        "glossaryKey": null,
+        "glossaryKey": "visaya",
         "translatable": true,
         "parts": [
           {
@@ -3016,7 +8703,7 @@ window.GITA_VERSES = [
         "affix": "am (dvitīyā ekavacana)",
         "morph": "acc. sg. masc.",
         "karaka": "karman (object of adhigacchati)",
-        "glossaryKey": null,
+        "glossaryKey": "prasada",
         "translatable": true,
         "parts": [
           {
@@ -3066,7 +8753,376 @@ window.GITA_VERSES = [
         "locus": "2.64",
         "sanskrit": "uktena prakāreṇa mayi sarveśvare cetasaś śubhāśrayabhūte nyastamanāḥ nirdagdhāśeṣakalmaṣatayā rāgadveṣaviyuktair ātmavaśyair indriyaiḥ viṣayāṃś caran viṣayāṃs tiraskṛtya vartamānaḥ vidheyātmā vidheyamanāḥ prasādam adhigacchati nirmalāntaḥkaraṇo bhavatītyarthaḥ /",
         "ourRendering": "In the manner already stated, having placed his mind on Me, the Lord of all, who am the auspicious resort of the thinking faculty — his every taint burnt away — moving among the sense-objects with senses freed from attraction and aversion and obedient to the self, that is, abiding with the sense-objects pushed aside; he whose self is amenable, whose mind is biddable, attains serenity: the meaning is that he becomes one whose inner organ is pure.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "uktena",
+            "gloss": "stated",
+            "parts": [
+              {
+                "form": "ukta",
+                "gloss": "said, stated"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 1,
+            "iast": "prakāreṇa",
+            "gloss": "in the manner",
+            "parts": [
+              {
+                "form": "prakāra",
+                "gloss": "manner, way"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 2,
+            "iast": "mayi",
+            "gloss": "on me",
+            "parts": [
+              {
+                "form": "mad",
+                "gloss": "I, me"
+              }
+            ],
+            "morph": "loc. sg."
+          },
+          {
+            "i": 3,
+            "iast": "sarveśvare",
+            "gloss": "the Lord of all",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "īśvara",
+                "gloss": "Lord"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "isvara"
+          },
+          {
+            "i": 4,
+            "iast": "cetasaḥ",
+            "gloss": "of the thinking faculty",
+            "parts": [
+              {
+                "form": "cetas",
+                "gloss": "thinking faculty, mind"
+              }
+            ],
+            "morph": "gen. sg. neut.",
+            "glossaryKey": "citta"
+          },
+          {
+            "i": 5,
+            "iast": "śubhāśrayabhūte",
+            "gloss": "who am the auspicious resort",
+            "parts": [
+              {
+                "form": "śubha",
+                "gloss": "auspicious"
+              },
+              {
+                "form": "āśraya",
+                "gloss": "resort, support"
+              },
+              {
+                "form": "bhūta",
+                "gloss": "being"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 6,
+            "iast": "nyastamanāḥ",
+            "gloss": "having placed his mind",
+            "parts": [
+              {
+                "form": "nyasta",
+                "gloss": "placed, laid down"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 7,
+            "iast": "nirdagdhāśeṣakalmaṣatayā",
+            "gloss": "his every taint burnt away",
+            "parts": [
+              {
+                "form": "nirdagdha",
+                "gloss": "burnt away"
+              },
+              {
+                "form": "aśeṣa",
+                "gloss": "entire"
+              },
+              {
+                "form": "kalmaṣa",
+                "gloss": "taint"
+              },
+              {
+                "form": "-tā",
+                "gloss": "-ness"
+              }
+            ],
+            "morph": "instr. sg. fem."
+          },
+          {
+            "i": 8,
+            "iast": "rāgadveṣaviyuktaiḥ",
+            "gloss": "freed from attraction and aversion",
+            "parts": [
+              {
+                "form": "rāga",
+                "gloss": "attraction"
+              },
+              {
+                "form": "dveṣa",
+                "gloss": "aversion"
+              },
+              {
+                "form": "viyukta",
+                "gloss": "separated, freed"
+              }
+            ],
+            "morph": "instr. pl. neut.",
+            "glossaryKey": "raga"
+          },
+          {
+            "i": 9,
+            "iast": "ātmavaśyaiḥ",
+            "gloss": "obedient to the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "vaśya",
+                "gloss": "obedient, controllable"
+              }
+            ],
+            "morph": "instr. pl. neut."
+          },
+          {
+            "i": 10,
+            "iast": "indriyaiḥ",
+            "gloss": "with the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "instr. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 11,
+            "iast": "viṣayān",
+            "gloss": "among the sense-objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 12,
+            "iast": "caran",
+            "gloss": "moving",
+            "parts": [
+              {
+                "form": "√car",
+                "gloss": "to move, roam"
+              },
+              {
+                "form": "-at",
+                "gloss": "(present participle)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 13,
+            "iast": "viṣayān",
+            "gloss": "the sense-objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "acc. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 14,
+            "iast": "tiraskṛtya",
+            "gloss": "having pushed aside",
+            "parts": [
+              {
+                "form": "tiras",
+                "gloss": "aside"
+              },
+              {
+                "form": "√kṛ",
+                "gloss": "to make, do"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 15,
+            "iast": "vartamānaḥ",
+            "gloss": "abiding, remaining",
+            "parts": [
+              {
+                "form": "√vṛt",
+                "gloss": "to abide"
+              },
+              {
+                "form": "-māna",
+                "gloss": "(present middle participle)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 16,
+            "iast": "vidheyātmā",
+            "gloss": "whose self is amenable",
+            "parts": [
+              {
+                "form": "vidheya",
+                "gloss": "biddable, amenable"
+              },
+              {
+                "form": "ātman",
+                "gloss": "self"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 17,
+            "iast": "vidheyamanāḥ",
+            "gloss": "whose mind is biddable",
+            "parts": [
+              {
+                "form": "vidheya",
+                "gloss": "biddable"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 18,
+            "iast": "prasādam",
+            "gloss": "serenity",
+            "parts": [
+              {
+                "form": "prasāda",
+                "gloss": "serenity, grace"
+              }
+            ],
+            "morph": "acc. sg. masc.",
+            "glossaryKey": "prasada"
+          },
+          {
+            "i": 19,
+            "iast": "adhigacchati",
+            "gloss": "attains",
+            "parts": [
+              {
+                "form": "adhi-",
+                "gloss": "over, upon"
+              },
+              {
+                "form": "√gam",
+                "gloss": "to go"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 20,
+            "iast": "nirmalāntaḥkaraṇaḥ",
+            "gloss": "whose inner organ is pure",
+            "parts": [
+              {
+                "form": "nirmala",
+                "gloss": "stainless"
+              },
+              {
+                "form": "antaḥkaraṇa",
+                "gloss": "inner organ"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "antahkarana"
+          },
+          {
+            "i": 21,
+            "iast": "bhavati",
+            "gloss": "becomes",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 22,
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 23,
+            "iast": "arthaḥ",
+            "gloss": "is the meaning",
+            "parts": [
+              {
+                "form": "artha",
+                "gloss": "meaning"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          }
+        ],
+        "english": "{1:In the manner} {0:already stated}, {6:having placed his mind} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:moving} {11:among the sense-objects} {10:with senses} {8:freed from attraction and aversion} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is amenable}, {17:whose mind is biddable}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}."
       }
     ],
     "aurobindo": [],
@@ -3091,7 +9147,7 @@ window.GITA_VERSES = [
         "affix": "ṅi (saptamī ekavacana)",
         "morph": "loc. sg. masc.",
         "karaka": "adhikaraṇa (locative absolute / condition: 'serenity being present')",
-        "glossaryKey": null,
+        "glossaryKey": "prasada",
         "translatable": true,
         "parts": [
           {
@@ -3114,7 +9170,7 @@ window.GITA_VERSES = [
         "affix": "ām (ṣaṣṭhī bahuvacana)",
         "morph": "gen. pl. neut.",
         "karaka": "sambandha (objective genitive dependent on hāni)",
-        "glossaryKey": null,
+        "glossaryKey": "duhkha",
         "translatable": true,
         "compound": {
           "type": "karmadhāraya",
@@ -3225,7 +9281,7 @@ window.GITA_VERSES = [
         "affix": "ṅas (ṣaṣṭhī ekavacana)",
         "morph": "gen. sg. masc.",
         "karaka": "sambandha (genitive of the person for whom the buddhi settles)",
-        "glossaryKey": null,
+        "glossaryKey": "prasada",
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi",
@@ -3325,7 +9381,342 @@ window.GITA_VERSES = [
         "locus": "2.65",
         "sanskrit": "asya puruṣasya manaḥprasāde sati prakṛtisaṃsargaprayuktasarvaduḥkhānāṃ hānir upajāyate / prasannacetasaḥ ātmāvalokanavirodhidoṣarahitamanasaḥ tadānīm eva hi viviktātmaviṣayā buddhiḥ paryavatiṣṭhate / ato manaḥprasāde sarvaduḥkhānāṃ hānir bhavaty eva /",
         "ourRendering": "When this man's mind is serene, the cessation of all the sorrows brought on by contact with prakṛti arises. For of one whose mind is serene — whose mind is free of the faults that obstruct the beholding of the self — at that very moment the intellect, whose object is the self in its purity, becomes firmly settled. Therefore, when the mind is serene, the cessation of all sorrows certainly comes about.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "asya",
+            "gloss": "of this",
+            "parts": [
+              {
+                "form": "idam",
+                "gloss": "this"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 1,
+            "iast": "puruṣasya",
+            "gloss": "man",
+            "parts": [
+              {
+                "form": "puruṣa",
+                "gloss": "man, person"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "purusa"
+          },
+          {
+            "i": 2,
+            "iast": "manaḥprasāde",
+            "gloss": "when the mind is serene",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              },
+              {
+                "form": "prasāda",
+                "gloss": "serenity"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 3,
+            "iast": "sati",
+            "gloss": "being, when there is",
+            "parts": [
+              {
+                "form": "√as",
+                "gloss": "to be"
+              },
+              {
+                "form": "-at",
+                "gloss": "(present participle)"
+              }
+            ],
+            "morph": "loc. sg. (absolute)"
+          },
+          {
+            "i": 4,
+            "iast": "prakṛtisaṃsargaprayuktasarvaduḥkhānāṃ",
+            "gloss": "of all the sorrows brought on by contact with prakṛti",
+            "parts": [
+              {
+                "form": "prakṛti",
+                "gloss": "primordial nature"
+              },
+              {
+                "form": "saṃsarga",
+                "gloss": "contact"
+              },
+              {
+                "form": "prayukta",
+                "gloss": "brought on, engaged"
+              },
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "duḥkha",
+                "gloss": "sorrow"
+              }
+            ],
+            "morph": "gen. pl. neut.",
+            "glossaryKey": "prakrti"
+          },
+          {
+            "i": 5,
+            "iast": "hāniḥ",
+            "gloss": "the cessation",
+            "parts": [
+              {
+                "form": "hāni",
+                "gloss": "cessation, loss"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 6,
+            "iast": "upajāyate",
+            "gloss": "arises",
+            "parts": [
+              {
+                "form": "upa-",
+                "gloss": "near"
+              },
+              {
+                "form": "√jan",
+                "gloss": "to be born"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 7,
+            "iast": "prasannacetasaḥ",
+            "gloss": "of one whose mind is serene",
+            "parts": [
+              {
+                "form": "prasanna",
+                "gloss": "serene, clear"
+              },
+              {
+                "form": "cetas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "citta"
+          },
+          {
+            "i": 8,
+            "iast": "ātmāvalokanavirodhidoṣarahitamanasaḥ",
+            "gloss": "whose mind is free of the faults that obstruct the beholding of the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "avalokana",
+                "gloss": "beholding"
+              },
+              {
+                "form": "virodhin",
+                "gloss": "obstructing"
+              },
+              {
+                "form": "doṣa",
+                "gloss": "fault"
+              },
+              {
+                "form": "rahita",
+                "gloss": "devoid of"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 9,
+            "iast": "tadānīm",
+            "gloss": "at that very moment",
+            "parts": [
+              {
+                "form": "tadānīm",
+                "gloss": "at that time"
+              }
+            ]
+          },
+          {
+            "i": 10,
+            "iast": "eva",
+            "gloss": "very, just",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "just, indeed"
+              }
+            ]
+          },
+          {
+            "i": 11,
+            "iast": "hi",
+            "gloss": "indeed, for",
+            "parts": [
+              {
+                "form": "hi",
+                "gloss": "for, indeed"
+              }
+            ]
+          },
+          {
+            "i": 12,
+            "iast": "viviktātmaviṣayā",
+            "gloss": "whose object is the self in its purity",
+            "parts": [
+              {
+                "form": "vivikta",
+                "gloss": "pure, distinct, isolated"
+              },
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "object"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 13,
+            "iast": "buddhiḥ",
+            "gloss": "the intellect",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 14,
+            "iast": "paryavatiṣṭhate",
+            "gloss": "becomes firmly settled",
+            "parts": [
+              {
+                "form": "pari-",
+                "gloss": "around"
+              },
+              {
+                "form": "ava-",
+                "gloss": "down"
+              },
+              {
+                "form": "√sthā",
+                "gloss": "to stand"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 15,
+            "iast": "ataḥ",
+            "gloss": "therefore",
+            "parts": [
+              {
+                "form": "atas",
+                "gloss": "hence, therefore"
+              }
+            ]
+          },
+          {
+            "i": 16,
+            "iast": "manaḥprasāde",
+            "gloss": "when the mind is serene",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              },
+              {
+                "form": "prasāda",
+                "gloss": "serenity"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 17,
+            "iast": "sarvaduḥkhānāṃ",
+            "gloss": "of all sorrows",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "duḥkha",
+                "gloss": "sorrow"
+              }
+            ],
+            "morph": "gen. pl. neut.",
+            "glossaryKey": "duhkha"
+          },
+          {
+            "i": 18,
+            "iast": "hāniḥ",
+            "gloss": "the cessation",
+            "parts": [
+              {
+                "form": "hāni",
+                "gloss": "cessation, loss"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 19,
+            "iast": "bhavati",
+            "gloss": "comes about",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 20,
+            "iast": "eva",
+            "gloss": "certainly, indeed",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "indeed, certainly"
+              }
+            ]
+          }
+        ],
+        "english": "{3:When} {0:this} {1:man's} {2:mind is serene}, {5:the cessation} {4:of all the sorrows brought on by contact with prakṛti} {6:arises}. {11:For} {7:of one whose mind is serene} — {8:whose mind is free of the faults that obstruct the beholding of the self} — {9:at that very moment} {10:indeed} {13:the intellect} {12:whose object is the self in its purity} {14:becomes firmly settled}. {15:Therefore}, {16:when the mind is serene}, {18:the cessation} {17:of all sorrows} {20:certainly} {19:comes about}."
       }
     ],
     "aurobindo": [],
@@ -3476,7 +9867,7 @@ window.GITA_VERSES = [
         "affix": "yuc (-ana, bhāva) + ṭāp + su (prathamā ekavacana)",
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of the existence-verb supplied from nāsti)",
-        "glossaryKey": null,
+        "glossaryKey": "bhava",
         "translatable": true,
         "parts": [
           {
@@ -3556,7 +9947,7 @@ window.GITA_VERSES = [
         "affix": "ktin (-ti) + su (prathamā ekavacana)",
         "morph": "nom. sg. fem.",
         "karaka": "kartṛ (subject of the existence-verb supplied from nāsti)",
-        "glossaryKey": null,
+        "glossaryKey": "santi",
         "translatable": true,
         "parts": [
           {
@@ -3575,7 +9966,7 @@ window.GITA_VERSES = [
         "affix": "kta (with privative a-) + ṅas (ṣaṣṭhī ekavacana)",
         "morph": "gen. sg. masc. (negated ppp.)",
         "karaka": "sambandha (genitive: 'for the peaceless one')",
-        "glossaryKey": null,
+        "glossaryKey": "santi",
         "translatable": true,
         "parts": [
           {
@@ -3640,7 +10031,410 @@ window.GITA_VERSES = [
         "locus": "2.66",
         "sanskrit": "mayi sannyastamanorahitasya svayatnenendriyaniyamane pravṛttasya kadācid api viviktātmaviṣayā buddhir na setsyati / ata eva tasya tadbhāvanā ca na saṃbhavati / viviktātmānam abhāvayato viṣayaspṛhāśāntir na bhavati / aśāntasya viṣayaspṛhāyuktasya kuto nityaniratiśayasukhaprāptiḥ /",
         "ourRendering": "For one who has not surrendered his mind to Me, who has set out to restrain the senses by his own effort alone, the intellect whose object is the self in its purity will never come to be. For that very reason his contemplation of that [self] too is impossible. For one who does not contemplate the self in its purity there is no peace from craving for sense-objects. And for the peaceless one — the one bound to craving for sense-objects — whence the attainment of the eternal, unsurpassed happiness?",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "mayi",
+            "gloss": "to me",
+            "parts": [
+              {
+                "form": "mad",
+                "gloss": "I, me"
+              }
+            ],
+            "morph": "loc. sg."
+          },
+          {
+            "i": 1,
+            "iast": "sannyastamanorahitasya",
+            "gloss": "of one who has not surrendered his mind",
+            "parts": [
+              {
+                "form": "sannyasta",
+                "gloss": "laid down, surrendered"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              },
+              {
+                "form": "rahita",
+                "gloss": "devoid of"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 2,
+            "iast": "svayatnena",
+            "gloss": "by his own effort",
+            "parts": [
+              {
+                "form": "sva",
+                "gloss": "own"
+              },
+              {
+                "form": "yatna",
+                "gloss": "effort"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 3,
+            "iast": "indriyaniyamane",
+            "gloss": "at restraining the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "niyamana",
+                "gloss": "restraining"
+              }
+            ],
+            "morph": "loc. sg. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 4,
+            "iast": "pravṛttasya",
+            "gloss": "who has set out",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "vṛtta",
+                "gloss": "engaged, set out"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 5,
+            "iast": "kadācit",
+            "gloss": "ever, at any time",
+            "parts": [
+              {
+                "form": "kadācit",
+                "gloss": "ever, sometime"
+              }
+            ]
+          },
+          {
+            "i": 6,
+            "iast": "api",
+            "gloss": "even",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "even, also"
+              }
+            ]
+          },
+          {
+            "i": 7,
+            "iast": "viviktātmaviṣayā",
+            "gloss": "whose object is the self in its purity",
+            "parts": [
+              {
+                "form": "vivikta",
+                "gloss": "pure, distinct"
+              },
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "object"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 8,
+            "iast": "buddhiḥ",
+            "gloss": "the intellect",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 9,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 10,
+            "iast": "setsyati",
+            "gloss": "will come to be, will be accomplished",
+            "parts": [
+              {
+                "form": "√sidh",
+                "gloss": "to be accomplished"
+              }
+            ],
+            "morph": "future 3 sg."
+          },
+          {
+            "i": 11,
+            "iast": "ataḥ",
+            "gloss": "therefore",
+            "parts": [
+              {
+                "form": "atas",
+                "gloss": "hence"
+              }
+            ]
+          },
+          {
+            "i": 12,
+            "iast": "eva",
+            "gloss": "for that very reason",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "just, indeed"
+              }
+            ]
+          },
+          {
+            "i": 13,
+            "iast": "tasya",
+            "gloss": "his",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 14,
+            "iast": "tadbhāvanā",
+            "gloss": "contemplation of that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              },
+              {
+                "form": "bhāvanā",
+                "gloss": "contemplation, cultivation"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "bhava"
+          },
+          {
+            "i": 15,
+            "iast": "ca",
+            "gloss": "too, also",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and, too"
+              }
+            ]
+          },
+          {
+            "i": 16,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 17,
+            "iast": "saṃbhavati",
+            "gloss": "is possible, occurs",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "together"
+              },
+              {
+                "form": "√bhū",
+                "gloss": "to be"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 18,
+            "iast": "viviktātmānam",
+            "gloss": "the self in its purity",
+            "parts": [
+              {
+                "form": "vivikta",
+                "gloss": "pure, distinct"
+              },
+              {
+                "form": "ātman",
+                "gloss": "self"
+              }
+            ],
+            "morph": "acc. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 19,
+            "iast": "abhāvayataḥ",
+            "gloss": "of one who does not contemplate",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "bhāvayat",
+                "gloss": "contemplating"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 20,
+            "iast": "viṣayaspṛhāśāntiḥ",
+            "gloss": "peace from craving for sense-objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "spṛhā",
+                "gloss": "craving"
+              },
+              {
+                "form": "śānti",
+                "gloss": "peace"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 21,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 22,
+            "iast": "bhavati",
+            "gloss": "there is",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become, be"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 23,
+            "iast": "aśāntasya",
+            "gloss": "of the peaceless one",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "śānta",
+                "gloss": "at peace"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "santi"
+          },
+          {
+            "i": 24,
+            "iast": "viṣayaspṛhāyuktasya",
+            "gloss": "bound to craving for sense-objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "spṛhā",
+                "gloss": "craving"
+              },
+              {
+                "form": "yukta",
+                "gloss": "joined"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 25,
+            "iast": "kutaḥ",
+            "gloss": "whence?",
+            "parts": [
+              {
+                "form": "kutas",
+                "gloss": "whence, from where"
+              }
+            ]
+          },
+          {
+            "i": 26,
+            "iast": "nityaniratiśayasukhaprāptiḥ",
+            "gloss": "the attainment of eternal, unsurpassed happiness",
+            "parts": [
+              {
+                "form": "nitya",
+                "gloss": "eternal"
+              },
+              {
+                "form": "niratiśaya",
+                "gloss": "unsurpassed"
+              },
+              {
+                "form": "sukha",
+                "gloss": "happiness"
+              },
+              {
+                "form": "prāpti",
+                "gloss": "attainment"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          }
+        ],
+        "english": "{1:For one who has not surrendered his mind} {0:to me}, {4:who has set out} {3:to restrain the senses} {2:by his own effort} alone, {7:the} {8:intellect} {7:whose object is the self in its purity} {9:will} {6:not} {5:ever} {10:come to be}. {11:For} {12:that very reason} {13:his} {14:contemplation of that} {15:too} {16:is} {16:not} {17:possible}. {19:For one who does not contemplate} {18:the self in its purity} {22:there is} {21:no} {20:peace from craving for sense-objects}. And {23:for the peaceless one} — {24:the one bound to craving for sense-objects} — {25:whence} {26:the attainment of the eternal, unsurpassed happiness}?"
       }
     ],
     "aurobindo": [],
@@ -3722,7 +10516,7 @@ window.GITA_VERSES = [
         "affix": "tiṅ — laṭ, prathama-puruṣa ekavacana, karmaṇi (passive)",
         "morph": "present, 3 sg., passive (karmaṇi)",
         "karaka": "kriyā (of the relative clause)",
-        "glossaryKey": null,
+        "glossaryKey": "anu",
         "translatable": true,
         "parts": [
           {
@@ -3947,7 +10741,417 @@ window.GITA_VERSES = [
         "locus": "2.67",
         "sanskrit": "indriyāṇāṃ viṣayeṣu caratāṃ vartamānānāṃ vartanam anu yan mano vidhīyate puruṣeṇānuvartyate, tan mano 'sya viviktātmapravaṇāṃ prajñāṃ harati viṣayapravaṇāṃ karotītyarthaḥ; yathāmbhasi nīyamānāṃ nāvaṃ pratikūlo vāyuḥ prasahya harati /",
         "ourRendering": "Of the senses roving — that is, moving among their objects — the mind which is made to follow their movement, which is made by the person to conform to it: that mind carries off his wisdom that was inclined toward the self in its purity — the meaning is, it makes that wisdom incline toward the sense-objects; just as, when a boat is being steered upon the water, an adverse wind carries it forcibly away.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "indriyāṇāṃ",
+            "gloss": "of the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "gen. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 1,
+            "iast": "viṣayeṣu",
+            "gloss": "among their objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "loc. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 2,
+            "iast": "caratāṃ",
+            "gloss": "roving",
+            "parts": [
+              {
+                "form": "√car",
+                "gloss": "to move, roam"
+              },
+              {
+                "form": "-at",
+                "gloss": "(present participle)"
+              }
+            ],
+            "morph": "gen. pl. neut."
+          },
+          {
+            "i": 3,
+            "iast": "vartamānānāṃ",
+            "gloss": "moving, being engaged",
+            "parts": [
+              {
+                "form": "√vṛt",
+                "gloss": "to be, move"
+              },
+              {
+                "form": "-māna",
+                "gloss": "(present middle participle)"
+              }
+            ],
+            "morph": "gen. pl. neut."
+          },
+          {
+            "i": 4,
+            "iast": "vartanam",
+            "gloss": "movement, course",
+            "parts": [
+              {
+                "form": "√vṛt",
+                "gloss": "to move"
+              },
+              {
+                "form": "-ana",
+                "gloss": "(action noun)"
+              }
+            ],
+            "morph": "acc. sg. neut."
+          },
+          {
+            "i": 5,
+            "iast": "anu",
+            "gloss": "following, after",
+            "parts": [
+              {
+                "form": "anu",
+                "gloss": "after, along"
+              }
+            ],
+            "glossaryKey": "anu"
+          },
+          {
+            "i": 6,
+            "iast": "yat",
+            "gloss": "which",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "which"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 7,
+            "iast": "manaḥ",
+            "gloss": "the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 8,
+            "iast": "vidhīyate",
+            "gloss": "is made, is directed",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "√dhā",
+                "gloss": "to place, ordain"
+              },
+              {
+                "form": "-ya-",
+                "gloss": "(passive)"
+              }
+            ],
+            "morph": "pres. passive 3 sg."
+          },
+          {
+            "i": 9,
+            "iast": "puruṣeṇa",
+            "gloss": "by the person",
+            "parts": [
+              {
+                "form": "puruṣa",
+                "gloss": "man, person"
+              }
+            ],
+            "morph": "instr. sg. masc.",
+            "glossaryKey": "purusa"
+          },
+          {
+            "i": 10,
+            "iast": "anuvartyate",
+            "gloss": "is made to conform, to follow",
+            "parts": [
+              {
+                "form": "anu-",
+                "gloss": "after, along"
+              },
+              {
+                "form": "√vṛt",
+                "gloss": "to turn, follow"
+              },
+              {
+                "form": "-ya-",
+                "gloss": "(passive)"
+              }
+            ],
+            "morph": "pres. passive 3 sg.",
+            "glossaryKey": "anu"
+          },
+          {
+            "i": 11,
+            "iast": "tat",
+            "gloss": "that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 12,
+            "iast": "manaḥ",
+            "gloss": "mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "nom. sg. neut.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 13,
+            "iast": "asya",
+            "gloss": "his",
+            "parts": [
+              {
+                "form": "idam",
+                "gloss": "this, his"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 14,
+            "iast": "viviktātmapravaṇāṃ",
+            "gloss": "inclined toward the self in its purity",
+            "parts": [
+              {
+                "form": "vivikta",
+                "gloss": "pure, distinct"
+              },
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "pravaṇa",
+                "gloss": "inclined toward"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 15,
+            "iast": "prajñāṃ",
+            "gloss": "the wisdom",
+            "parts": [
+              {
+                "form": "prajñā",
+                "gloss": "wisdom, insight"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "prajna"
+          },
+          {
+            "i": 16,
+            "iast": "harati",
+            "gloss": "carries off",
+            "parts": [
+              {
+                "form": "√hṛ",
+                "gloss": "to carry, take"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 17,
+            "iast": "viṣayapravaṇāṃ",
+            "gloss": "inclined toward the sense-objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              },
+              {
+                "form": "pravaṇa",
+                "gloss": "inclined toward"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 18,
+            "iast": "karoti",
+            "gloss": "makes",
+            "parts": [
+              {
+                "form": "√kṛ",
+                "gloss": "to make"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 19,
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 20,
+            "iast": "arthaḥ",
+            "gloss": "is the meaning",
+            "parts": [
+              {
+                "form": "artha",
+                "gloss": "meaning"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 21,
+            "iast": "yathā",
+            "gloss": "just as",
+            "parts": [
+              {
+                "form": "yathā",
+                "gloss": "just as"
+              }
+            ]
+          },
+          {
+            "i": 22,
+            "iast": "ambhasi",
+            "gloss": "upon the water",
+            "parts": [
+              {
+                "form": "ambhas",
+                "gloss": "water"
+              }
+            ],
+            "morph": "loc. sg. neut."
+          },
+          {
+            "i": 23,
+            "iast": "nīyamānāṃ",
+            "gloss": "being steered, led",
+            "parts": [
+              {
+                "form": "√nī",
+                "gloss": "to lead"
+              },
+              {
+                "form": "-māna",
+                "gloss": "(present passive participle)"
+              }
+            ],
+            "morph": "acc. sg. fem."
+          },
+          {
+            "i": 24,
+            "iast": "nāvaṃ",
+            "gloss": "a boat",
+            "parts": [
+              {
+                "form": "nau",
+                "gloss": "boat, ship"
+              }
+            ],
+            "morph": "acc. sg. fem."
+          },
+          {
+            "i": 25,
+            "iast": "pratikūlaḥ",
+            "gloss": "adverse, contrary",
+            "parts": [
+              {
+                "form": "prati",
+                "gloss": "against"
+              },
+              {
+                "form": "kūla",
+                "gloss": "bank, side"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 26,
+            "iast": "vāyuḥ",
+            "gloss": "wind",
+            "parts": [
+              {
+                "form": "vāyu",
+                "gloss": "wind"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 27,
+            "iast": "prasahya",
+            "gloss": "forcibly",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "√sah",
+                "gloss": "to overpower"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 28,
+            "iast": "harati",
+            "gloss": "carries away",
+            "parts": [
+              {
+                "form": "√hṛ",
+                "gloss": "to carry, take"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          }
+        ],
+        "english": "{0:Of the senses} {2:roving} — that is, {3:moving} {1:among their objects} — {7:the mind} {6:which} {8:is made} {5:to follow} {4:their movement}, {10:which is made to conform} {9:by the person}: {11:that} {12:mind} {16:carries off} {13:his} {15:wisdom} {14:that was inclined toward the self in its purity} — {19:the}{20:meaning} is, {18:it makes} that wisdom {17:incline toward the sense-objects}; {21:just as}, {23:when a boat is being steered} {22:upon the water}, {25:an adverse} {26:wind} {27:forcibly} {28:carries} {24:it} {28:away}."
       }
     ],
     "aurobindo": [],
@@ -4179,7 +11383,7 @@ window.GITA_VERSES = [
         "affix": "kta (past pass. participle) + su (prathamā ekavacana), strī (ṭāp)",
         "morph": "nom. sg. fem. (ppp., with implied 'is')",
         "karaka": "predicate (ppp. predicated of prajñā)",
-        "glossaryKey": null,
+        "glossaryKey": "pratistha",
         "translatable": true,
         "parts": [
           {
@@ -4206,7 +11410,249 @@ window.GITA_VERSES = [
         "locus": "2.68",
         "sanskrit": "tasmād uktena prakāreṇa śubhāśraye mayi niviṣṭamanaso yasyendriyāṇi indriyārthebhyaḥ sarvaśo nigṛhītāni, tasyaivātmani prajñā pratiṣṭhitā bhavati /",
         "ourRendering": "Therefore, in the manner already stated, of the one whose mind is fixed on Me, the auspicious resort — he whose senses are wholly held back from the sense-objects — of him alone is the wisdom firmly established upon the self.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "tasmāt",
+            "gloss": "therefore",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              },
+              {
+                "form": "-smāt",
+                "gloss": "(ablative)"
+              }
+            ]
+          },
+          {
+            "i": 1,
+            "iast": "uktena",
+            "gloss": "stated",
+            "parts": [
+              {
+                "form": "ukta",
+                "gloss": "said, stated"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 2,
+            "iast": "prakāreṇa",
+            "gloss": "in the manner",
+            "parts": [
+              {
+                "form": "prakāra",
+                "gloss": "manner, way"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 3,
+            "iast": "śubhāśraye",
+            "gloss": "the auspicious resort",
+            "parts": [
+              {
+                "form": "śubha",
+                "gloss": "auspicious"
+              },
+              {
+                "form": "āśraya",
+                "gloss": "resort, support"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 4,
+            "iast": "mayi",
+            "gloss": "on me",
+            "parts": [
+              {
+                "form": "mad",
+                "gloss": "I, me"
+              }
+            ],
+            "morph": "loc. sg."
+          },
+          {
+            "i": 5,
+            "iast": "niviṣṭamanasaḥ",
+            "gloss": "of one whose mind is fixed",
+            "parts": [
+              {
+                "form": "niviṣṭa",
+                "gloss": "settled, fixed"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 6,
+            "iast": "yasya",
+            "gloss": "whose",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "who"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 7,
+            "iast": "indriyāṇi",
+            "gloss": "the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense-faculty"
+              }
+            ],
+            "morph": "nom. pl. neut.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 8,
+            "iast": "indriyārthebhyaḥ",
+            "gloss": "from the sense-objects",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "artha",
+                "gloss": "object"
+              }
+            ],
+            "morph": "abl. pl. masc.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 9,
+            "iast": "sarvaśaḥ",
+            "gloss": "wholly, from every side",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "-śas",
+                "gloss": "in every way"
+              }
+            ]
+          },
+          {
+            "i": 10,
+            "iast": "nigṛhītāni",
+            "gloss": "are held back, restrained",
+            "parts": [
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "gṛhīta",
+                "gloss": "held, seized"
+              }
+            ],
+            "morph": "nom. pl. neut."
+          },
+          {
+            "i": 11,
+            "iast": "tasya",
+            "gloss": "of him",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 12,
+            "iast": "eva",
+            "gloss": "alone, of him alone",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "only, alone"
+              }
+            ]
+          },
+          {
+            "i": 13,
+            "iast": "ātmani",
+            "gloss": "upon the self",
+            "parts": [
+              {
+                "form": "ātman",
+                "gloss": "the self"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 14,
+            "iast": "prajñā",
+            "gloss": "the wisdom",
+            "parts": [
+              {
+                "form": "prajñā",
+                "gloss": "wisdom, insight"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "prajna"
+          },
+          {
+            "i": 15,
+            "iast": "pratiṣṭhitā",
+            "gloss": "firmly established",
+            "parts": [
+              {
+                "form": "prati-",
+                "gloss": "firmly"
+              },
+              {
+                "form": "√sthā",
+                "gloss": "to stand"
+              },
+              {
+                "form": "-tā",
+                "gloss": "(past participle, fem.)"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "pratistha"
+          },
+          {
+            "i": 16,
+            "iast": "bhavati",
+            "gloss": "is, becomes",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          }
+        ],
+        "english": "{0:Therefore}, {2:in the manner} {1:already stated}, {5:of the one whose mind is fixed} {4:on me}, {3:the auspicious resort} — {6:he whose} {7:senses} {9:are wholly} {10:held back} {8:from the sense-objects} — {11:of him} {12:alone} {16:is} {14:the wisdom} {15:firmly established} {13:upon the self}."
       }
     ],
     "aurobindo": [],
@@ -4498,7 +11944,526 @@ window.GITA_VERSES = [
         "locus": "2.69",
         "sanskrit": "yā ātmaviṣayā buddhiḥ sarvabhūtānāṃ niśā niśevāprakāśā, tasyām ātmaviṣayāyāṃ buddhau indriyasaṃyamī prasannamanāḥ jāgarti ātmānam avalokayan āsta ityarthaḥ / yasyāṃ śabdādiviṣayāyāṃ buddhau sarvāṇi bhūtāni jāgrati prabuddhāni bhavanti; sā śabdādiviṣayā buddhir ātmānaṃ paśyato muner niśevāprakāśā bhavati",
         "ourRendering": "The cognition that has the self for its object is night — unlit, like night — for all beings; in that self-directed cognition the man who restrains the senses, his mind serene, is awake: the meaning is that he abides gazing upon the self. And the cognition whose object is sound and the other sense-objects, in which all beings are awake — that is, are alert — that cognition of sound and the rest is, for the sage who sees the self, unlit, like night.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "yā",
+            "gloss": "that which",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "which"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 1,
+            "iast": "ātmaviṣayā",
+            "gloss": "has the self for its object",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "object"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 2,
+            "iast": "buddhiḥ",
+            "gloss": "cognition, intellect",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect, cognition"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 3,
+            "iast": "sarvabhūtānāṃ",
+            "gloss": "for all beings",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "bhūta",
+                "gloss": "being"
+              }
+            ],
+            "morph": "gen. pl. neut."
+          },
+          {
+            "i": 4,
+            "iast": "niśā",
+            "gloss": "is night",
+            "parts": [
+              {
+                "form": "niśā",
+                "gloss": "night"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 5,
+            "iast": "niśā",
+            "gloss": "night",
+            "parts": [
+              {
+                "form": "niśā",
+                "gloss": "night"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 6,
+            "iast": "iva",
+            "gloss": "like",
+            "parts": [
+              {
+                "form": "iva",
+                "gloss": "like, as"
+              }
+            ]
+          },
+          {
+            "i": 7,
+            "iast": "aprakāśā",
+            "gloss": "unlit, dark",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "prakāśa",
+                "gloss": "light, illumination"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "prakasa"
+          },
+          {
+            "i": 8,
+            "iast": "tasyām",
+            "gloss": "in that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "loc. sg. fem."
+          },
+          {
+            "i": 9,
+            "iast": "ātmaviṣayāyāṃ",
+            "gloss": "self-directed",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "object"
+              }
+            ],
+            "morph": "loc. sg. fem.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 10,
+            "iast": "buddhau",
+            "gloss": "cognition",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect, cognition"
+              }
+            ],
+            "morph": "loc. sg. fem.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 11,
+            "iast": "indriyasaṃyamī",
+            "gloss": "the man who restrains the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "saṃyamin",
+                "gloss": "restraining"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 12,
+            "iast": "prasannamanāḥ",
+            "gloss": "his mind serene",
+            "parts": [
+              {
+                "form": "prasanna",
+                "gloss": "serene, clear"
+              },
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "manas"
+          },
+          {
+            "i": 13,
+            "iast": "jāgarti",
+            "gloss": "is awake",
+            "parts": [
+              {
+                "form": "√jāgṛ",
+                "gloss": "to be awake"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 14,
+            "iast": "ātmānam",
+            "gloss": "upon the self",
+            "parts": [
+              {
+                "form": "ātman",
+                "gloss": "self"
+              }
+            ],
+            "morph": "acc. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 15,
+            "iast": "avalokayan",
+            "gloss": "gazing",
+            "parts": [
+              {
+                "form": "ava-",
+                "gloss": "down"
+              },
+              {
+                "form": "√lok",
+                "gloss": "to see"
+              },
+              {
+                "form": "-at",
+                "gloss": "(present participle)"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 16,
+            "iast": "āste",
+            "gloss": "abides",
+            "parts": [
+              {
+                "form": "√ās",
+                "gloss": "to sit, abide"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 17,
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 18,
+            "iast": "arthaḥ",
+            "gloss": "is the meaning",
+            "parts": [
+              {
+                "form": "artha",
+                "gloss": "meaning"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 19,
+            "iast": "yasyāṃ",
+            "gloss": "in which",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "which"
+              }
+            ],
+            "morph": "loc. sg. fem."
+          },
+          {
+            "i": 20,
+            "iast": "śabdādiviṣayāyāṃ",
+            "gloss": "whose object is sound and the rest",
+            "parts": [
+              {
+                "form": "śabda",
+                "gloss": "sound"
+              },
+              {
+                "form": "ādi",
+                "gloss": "and the rest"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "object"
+              }
+            ],
+            "morph": "loc. sg. fem.",
+            "glossaryKey": "sabda"
+          },
+          {
+            "i": 21,
+            "iast": "buddhau",
+            "gloss": "cognition",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect, cognition"
+              }
+            ],
+            "morph": "loc. sg. fem.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 22,
+            "iast": "sarvāṇi",
+            "gloss": "all",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              }
+            ],
+            "morph": "nom. pl. neut."
+          },
+          {
+            "i": 23,
+            "iast": "bhūtāni",
+            "gloss": "beings",
+            "parts": [
+              {
+                "form": "bhūta",
+                "gloss": "being"
+              }
+            ],
+            "morph": "nom. pl. neut."
+          },
+          {
+            "i": 24,
+            "iast": "jāgrati",
+            "gloss": "are awake",
+            "parts": [
+              {
+                "form": "√jāgṛ",
+                "gloss": "to be awake"
+              }
+            ],
+            "morph": "pres. indic. 3 pl."
+          },
+          {
+            "i": 25,
+            "iast": "prabuddhāni",
+            "gloss": "are alert, awakened",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "buddha",
+                "gloss": "awakened"
+              }
+            ],
+            "morph": "nom. pl. neut."
+          },
+          {
+            "i": 26,
+            "iast": "bhavanti",
+            "gloss": "become, are",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 pl."
+          },
+          {
+            "i": 27,
+            "iast": "sā",
+            "gloss": "that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 28,
+            "iast": "śabdādiviṣayā",
+            "gloss": "whose object is sound and the rest",
+            "parts": [
+              {
+                "form": "śabda",
+                "gloss": "sound"
+              },
+              {
+                "form": "ādi",
+                "gloss": "and the rest"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "object"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "sabda"
+          },
+          {
+            "i": 29,
+            "iast": "buddhiḥ",
+            "gloss": "cognition",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "intellect, cognition"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 30,
+            "iast": "ātmānaṃ",
+            "gloss": "the self",
+            "parts": [
+              {
+                "form": "ātman",
+                "gloss": "self"
+              }
+            ],
+            "morph": "acc. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 31,
+            "iast": "paśyataḥ",
+            "gloss": "of one who sees",
+            "parts": [
+              {
+                "form": "√paś",
+                "gloss": "to see"
+              },
+              {
+                "form": "-at",
+                "gloss": "(present participle)"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 32,
+            "iast": "muneḥ",
+            "gloss": "for the sage",
+            "parts": [
+              {
+                "form": "muni",
+                "gloss": "sage"
+              }
+            ],
+            "morph": "gen. sg. masc.",
+            "glossaryKey": "muni"
+          },
+          {
+            "i": 33,
+            "iast": "niśā",
+            "gloss": "night",
+            "parts": [
+              {
+                "form": "niśā",
+                "gloss": "night"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 34,
+            "iast": "iva",
+            "gloss": "like",
+            "parts": [
+              {
+                "form": "iva",
+                "gloss": "like, as"
+              }
+            ]
+          },
+          {
+            "i": 35,
+            "iast": "aprakāśā",
+            "gloss": "unlit, dark",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "prakāśa",
+                "gloss": "light, illumination"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "prakasa"
+          },
+          {
+            "i": 36,
+            "iast": "bhavati",
+            "gloss": "is, becomes",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "to become"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          }
+        ],
+        "english": "{0:The} {2:cognition} {0:that} {1:has the self for its object} {4:is night} — {7:unlit}, {6:like} {5:night} — {3:for all beings}; {8:in that} {9:self-directed} {10:cognition} {11:the man who restrains the senses}, {12:his mind serene}, {13:is awake}: {17:the}{18:meaning} is that he {16:abides} {15:gazing} {14:upon the self}. And {19:in which} {20:its object is sound and the rest} {21:cognition}, {19:in which} {22:all} {23:beings} {24:are awake} — that is, {26:are} {25:alert} — {27:that} {29:cognition} {28:whose object is sound and the rest} {36:is}, {32:for the sage} {31:who} {30:sees} {30:the self}, {35:unlit}, {34:like} {33:night}."
       }
     ],
     "aurobindo": [],
@@ -4546,7 +12511,7 @@ window.GITA_VERSES = [
         "affix": "am (dvitīyā ekavacana)",
         "morph": "acc. sg. masc.",
         "karaka": "viśeṣaṇa of samudram",
-        "glossaryKey": null,
+        "glossaryKey": "pratistha",
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi",
@@ -4775,7 +12740,7 @@ window.GITA_VERSES = [
         "affix": "ktin (bhāva) + am (dvitīyā ekavacana)",
         "morph": "acc. sg. fem.",
         "karaka": "karman (object of āpnoti)",
-        "glossaryKey": null,
+        "glossaryKey": "santi",
         "translatable": true,
         "parts": [
           {
@@ -4867,7 +12832,858 @@ window.GITA_VERSES = [
         "locus": "2.70",
         "sanskrit": "yathā svenaivāpūryamāṇam ekarūpaṃ samudraṃ nādeyya āpaḥ praviśanti, āsām apāṃ praveśe 'py apraveśe ca samudro na kañcana viśeṣam āpadyate -- evaṃ sarve kāmāḥ śabdādayo viṣayāḥ yaṃ saṃyaminaṃ praviśanti indriyagocaratāṃ yānti, sa śāntim āpnoti / śabdādiṣv indriyagocaratām āpanneṣv anāpanneṣu ca svātmāvalokanatṛptyaiva yo na vikāram āpnoti, sa eva śāntim āpnotītyarthaḥ / na kāmakāmī / yaḥ śabdādibhir vikriyate, sa kadācid api na śāntim āpnoti",
         "ourRendering": "Just as the river-waters enter the ocean — which is filled by itself alone and is of one unchanging form — and at the entering of those waters and equally at their non-entering the ocean undergoes no alteration whatever; so all desires, the objects such as sound and the rest, which enter the man of restraint — that is, come within range of his senses — he attains peace. When the objects such as sound come within range of the senses and equally when they do not, he who, by the contentment of gazing on his own self alone, undergoes no change — he alone attains peace: this is the meaning. Not the desire-craver: he who is altered by sound and the rest never at any time attains peace.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "yathā",
+            "gloss": "just as",
+            "parts": [
+              {
+                "form": "yathā",
+                "gloss": "just as"
+              }
+            ]
+          },
+          {
+            "i": 1,
+            "iast": "svena",
+            "gloss": "by itself",
+            "parts": [
+              {
+                "form": "sva",
+                "gloss": "own, itself"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 2,
+            "iast": "eva",
+            "gloss": "alone, very",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "only, alone"
+              }
+            ]
+          },
+          {
+            "i": 3,
+            "iast": "āpūryamāṇam",
+            "gloss": "being filled",
+            "parts": [
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "√pṝ",
+                "gloss": "to fill"
+              },
+              {
+                "form": "-māna",
+                "gloss": "(present passive participle)"
+              }
+            ],
+            "morph": "acc. sg. masc."
+          },
+          {
+            "i": 4,
+            "iast": "ekarūpaṃ",
+            "gloss": "of one unchanging form",
+            "parts": [
+              {
+                "form": "eka",
+                "gloss": "one"
+              },
+              {
+                "form": "rūpa",
+                "gloss": "form"
+              }
+            ],
+            "morph": "acc. sg. masc."
+          },
+          {
+            "i": 5,
+            "iast": "samudraṃ",
+            "gloss": "the ocean",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "together"
+              },
+              {
+                "form": "udra",
+                "gloss": "water, sea"
+              }
+            ],
+            "morph": "acc. sg. masc."
+          },
+          {
+            "i": 6,
+            "iast": "nādeyyaḥ",
+            "gloss": "river-",
+            "parts": [
+              {
+                "form": "nadī",
+                "gloss": "river"
+              },
+              {
+                "form": "-eyya",
+                "gloss": "(belonging to)"
+              }
+            ],
+            "morph": "nom. pl. fem."
+          },
+          {
+            "i": 7,
+            "iast": "āpaḥ",
+            "gloss": "the waters",
+            "parts": [
+              {
+                "form": "ap",
+                "gloss": "water"
+              }
+            ],
+            "morph": "nom. pl. fem."
+          },
+          {
+            "i": 8,
+            "iast": "praviśanti",
+            "gloss": "enter",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "√viś",
+                "gloss": "to enter"
+              }
+            ],
+            "morph": "pres. indic. 3 pl."
+          },
+          {
+            "i": 9,
+            "iast": "āsām",
+            "gloss": "of those",
+            "parts": [
+              {
+                "form": "idam",
+                "gloss": "this"
+              }
+            ],
+            "morph": "gen. pl. fem."
+          },
+          {
+            "i": 10,
+            "iast": "apām",
+            "gloss": "waters",
+            "parts": [
+              {
+                "form": "ap",
+                "gloss": "water"
+              }
+            ],
+            "morph": "gen. pl. fem."
+          },
+          {
+            "i": 11,
+            "iast": "praveśe",
+            "gloss": "at the entering",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "√viś",
+                "gloss": "to enter"
+              },
+              {
+                "form": "-a",
+                "gloss": "(noun)"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 12,
+            "iast": "api",
+            "gloss": "even",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "even, also"
+              }
+            ]
+          },
+          {
+            "i": 13,
+            "iast": "apraveśe",
+            "gloss": "at the non-entering",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "non-"
+              },
+              {
+                "form": "praveśa",
+                "gloss": "entering"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 14,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 15,
+            "iast": "samudraḥ",
+            "gloss": "the ocean",
+            "parts": [
+              {
+                "form": "samudra",
+                "gloss": "ocean"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 16,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 17,
+            "iast": "kañcana",
+            "gloss": "any whatever",
+            "parts": [
+              {
+                "form": "kim",
+                "gloss": "what"
+              },
+              {
+                "form": "cana",
+                "gloss": "-soever"
+              }
+            ]
+          },
+          {
+            "i": 18,
+            "iast": "viśeṣam",
+            "gloss": "alteration, distinction",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "śeṣa",
+                "gloss": "distinction, particularity"
+              }
+            ],
+            "morph": "acc. sg. masc."
+          },
+          {
+            "i": 19,
+            "iast": "āpadyate",
+            "gloss": "undergoes",
+            "parts": [
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "√pad",
+                "gloss": "to go, fall"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 20,
+            "iast": "evaṃ",
+            "gloss": "so, thus",
+            "parts": [
+              {
+                "form": "evam",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 21,
+            "iast": "sarve",
+            "gloss": "all",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              }
+            ],
+            "morph": "nom. pl. masc."
+          },
+          {
+            "i": 22,
+            "iast": "kāmāḥ",
+            "gloss": "desires",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              }
+            ],
+            "morph": "nom. pl. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 23,
+            "iast": "śabdādayaḥ",
+            "gloss": "such as sound and the rest",
+            "parts": [
+              {
+                "form": "śabda",
+                "gloss": "sound"
+              },
+              {
+                "form": "ādi",
+                "gloss": "and the rest"
+              }
+            ],
+            "morph": "nom. pl. masc.",
+            "glossaryKey": "sabda"
+          },
+          {
+            "i": 24,
+            "iast": "viṣayāḥ",
+            "gloss": "the objects",
+            "parts": [
+              {
+                "form": "viṣaya",
+                "gloss": "sense-object"
+              }
+            ],
+            "morph": "nom. pl. masc.",
+            "glossaryKey": "visaya"
+          },
+          {
+            "i": 25,
+            "iast": "yaṃ",
+            "gloss": "whom",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "whom"
+              }
+            ],
+            "morph": "acc. sg. masc."
+          },
+          {
+            "i": 26,
+            "iast": "saṃyaminaṃ",
+            "gloss": "the man of restraint",
+            "parts": [
+              {
+                "form": "sam-",
+                "gloss": "together"
+              },
+              {
+                "form": "yamin",
+                "gloss": "restraining"
+              }
+            ],
+            "morph": "acc. sg. masc."
+          },
+          {
+            "i": 27,
+            "iast": "praviśanti",
+            "gloss": "enter",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "√viś",
+                "gloss": "to enter"
+              }
+            ],
+            "morph": "pres. indic. 3 pl."
+          },
+          {
+            "i": 28,
+            "iast": "indriyagocaratāṃ",
+            "gloss": "within range of the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "gocara",
+                "gloss": "range, sphere"
+              },
+              {
+                "form": "-tā",
+                "gloss": "-ness"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 29,
+            "iast": "yānti",
+            "gloss": "come to, go to",
+            "parts": [
+              {
+                "form": "√yā",
+                "gloss": "to go"
+              }
+            ],
+            "morph": "pres. indic. 3 pl."
+          },
+          {
+            "i": 30,
+            "iast": "saḥ",
+            "gloss": "he",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 31,
+            "iast": "śāntim",
+            "gloss": "peace",
+            "parts": [
+              {
+                "form": "śānti",
+                "gloss": "peace"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "santi"
+          },
+          {
+            "i": 32,
+            "iast": "āpnoti",
+            "gloss": "attains",
+            "parts": [
+              {
+                "form": "√āp",
+                "gloss": "to reach, attain"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 33,
+            "iast": "śabdādiṣu",
+            "gloss": "when the objects such as sound",
+            "parts": [
+              {
+                "form": "śabda",
+                "gloss": "sound"
+              },
+              {
+                "form": "ādi",
+                "gloss": "and the rest"
+              }
+            ],
+            "morph": "loc. pl. masc.",
+            "glossaryKey": "sabda"
+          },
+          {
+            "i": 34,
+            "iast": "indriyagocaratām",
+            "gloss": "within range of the senses",
+            "parts": [
+              {
+                "form": "indriya",
+                "gloss": "sense"
+              },
+              {
+                "form": "gocara",
+                "gloss": "range"
+              },
+              {
+                "form": "-tā",
+                "gloss": "-ness"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "indriya"
+          },
+          {
+            "i": 35,
+            "iast": "āpanneṣu",
+            "gloss": "when they have come",
+            "parts": [
+              {
+                "form": "ā-",
+                "gloss": "toward"
+              },
+              {
+                "form": "panna",
+                "gloss": "reached, fallen"
+              }
+            ],
+            "morph": "loc. pl. masc."
+          },
+          {
+            "i": 36,
+            "iast": "anāpanneṣu",
+            "gloss": "when they have not come",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not"
+              },
+              {
+                "form": "āpanna",
+                "gloss": "reached"
+              }
+            ],
+            "morph": "loc. pl. masc."
+          },
+          {
+            "i": 37,
+            "iast": "ca",
+            "gloss": "and, equally",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 38,
+            "iast": "svātmāvalokanatṛptyā",
+            "gloss": "by the contentment of gazing on his own self",
+            "parts": [
+              {
+                "form": "sva",
+                "gloss": "own"
+              },
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "avalokana",
+                "gloss": "gazing"
+              },
+              {
+                "form": "tṛpti",
+                "gloss": "contentment"
+              }
+            ],
+            "morph": "instr. sg. fem.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 39,
+            "iast": "eva",
+            "gloss": "alone",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "only, alone"
+              }
+            ]
+          },
+          {
+            "i": 40,
+            "iast": "yaḥ",
+            "gloss": "he who",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "who"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 41,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 42,
+            "iast": "vikāram",
+            "gloss": "change, alteration",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "kāra",
+                "gloss": "making, modification"
+              }
+            ],
+            "morph": "acc. sg. masc."
+          },
+          {
+            "i": 43,
+            "iast": "āpnoti",
+            "gloss": "undergoes",
+            "parts": [
+              {
+                "form": "√āp",
+                "gloss": "to reach, undergo"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 44,
+            "iast": "saḥ",
+            "gloss": "he",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 45,
+            "iast": "eva",
+            "gloss": "alone",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "only, alone"
+              }
+            ]
+          },
+          {
+            "i": 46,
+            "iast": "śāntim",
+            "gloss": "peace",
+            "parts": [
+              {
+                "form": "śānti",
+                "gloss": "peace"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "santi"
+          },
+          {
+            "i": 47,
+            "iast": "āpnoti",
+            "gloss": "attains",
+            "parts": [
+              {
+                "form": "√āp",
+                "gloss": "to reach, attain"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 48,
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 49,
+            "iast": "arthaḥ",
+            "gloss": "is the meaning",
+            "parts": [
+              {
+                "form": "artha",
+                "gloss": "meaning"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 50,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 51,
+            "iast": "kāmakāmī",
+            "gloss": "the desire-craver",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desire"
+              },
+              {
+                "form": "kāmin",
+                "gloss": "craving"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "kama"
+          },
+          {
+            "i": 52,
+            "iast": "yaḥ",
+            "gloss": "he who",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "who"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 53,
+            "iast": "śabdādibhiḥ",
+            "gloss": "by sound and the rest",
+            "parts": [
+              {
+                "form": "śabda",
+                "gloss": "sound"
+              },
+              {
+                "form": "ādi",
+                "gloss": "and the rest"
+              }
+            ],
+            "morph": "instr. pl. masc.",
+            "glossaryKey": "sabda"
+          },
+          {
+            "i": 54,
+            "iast": "vikriyate",
+            "gloss": "is altered",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart"
+              },
+              {
+                "form": "√kṛ",
+                "gloss": "to make"
+              },
+              {
+                "form": "-ya-",
+                "gloss": "(passive)"
+              }
+            ],
+            "morph": "pres. passive 3 sg."
+          },
+          {
+            "i": 55,
+            "iast": "saḥ",
+            "gloss": "he",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 56,
+            "iast": "kadācit",
+            "gloss": "ever, at any time",
+            "parts": [
+              {
+                "form": "kadācit",
+                "gloss": "ever, sometime"
+              }
+            ]
+          },
+          {
+            "i": 57,
+            "iast": "api",
+            "gloss": "even",
+            "parts": [
+              {
+                "form": "api",
+                "gloss": "even, also"
+              }
+            ]
+          },
+          {
+            "i": 58,
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ]
+          },
+          {
+            "i": 59,
+            "iast": "śāntim",
+            "gloss": "peace",
+            "parts": [
+              {
+                "form": "śānti",
+                "gloss": "peace"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "santi"
+          },
+          {
+            "i": 60,
+            "iast": "āpnoti",
+            "gloss": "attains",
+            "parts": [
+              {
+                "form": "√āp",
+                "gloss": "to reach, attain"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          }
+        ],
+        "english": "{0:Just as} {7:the} {6:river-}{7:waters} {8:enter} {5:the ocean} — {3:which is filled} {1:by itself} {2:alone} and {4:is of one unchanging form} — and {11:at the entering} {12:even} {9:of those} {10:waters} {14:and equally} {13:at their non-entering} {15:the ocean} {19:undergoes} {16:no} {18:alteration} {17:whatever}; {20:so} {21:all} {22:desires}, {24:the objects} {23:such as sound and the rest}, {27:which enter} {25:the} {26:man of restraint} — that is, {29:come} {28:within range of his senses} — {30:he} {32:attains} {31:peace}. {35:When} {33:the objects such as sound} {35:have come} {34:within range of the senses} {37:and equally} {36:when they have not}, {40:he who}, {38:by the contentment of gazing on his own self} {39:alone}, {43:undergoes} {41:no} {42:change} — {44:he} {45:alone} {47:attains} {46:peace}: {48:this is the}{49:meaning}. {50:Not} {51:the desire-craver}: {52:he who} {54:is altered} {53:by sound and the rest} {55:he} {58:never} {56:at any} {57:time} {60:attains} {59:peace}."
       }
     ],
     "aurobindo": [],
@@ -5010,7 +13826,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "viśeṣaṇa of pumān (predicative)",
-        "glossaryKey": null,
+        "glossaryKey": "trsna",
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi (nañ / prādi: nis- 'without')",
@@ -5070,7 +13886,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "viśeṣaṇa of pumān/saḥ (predicative)",
-        "glossaryKey": null,
+        "glossaryKey": "ahankara",
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi (nañ / prādi: nis- 'without'); inner member ahaṅkāra is tatpuruṣa",
@@ -5119,7 +13935,7 @@ window.GITA_VERSES = [
         "affix": "ktin (bhāva) + am (dvitīyā ekavacana)",
         "morph": "acc. sg. fem.",
         "karaka": "karman (object of adhigacchati)",
-        "glossaryKey": null,
+        "glossaryKey": "santi",
         "translatable": true,
         "parts": [
           {
@@ -5165,7 +13981,209 @@ window.GITA_VERSES = [
         "locus": "2.71",
         "sanskrit": "tatra nisspṛhaḥ tatra mamatārahitaś ca, anātmani dehe ātmābhimānarahitaś carati; sa ātmānaṃ dṛṣṭvā śāntim adhigacchati",
         "ourRendering": "Therein free of longing, and therein free of the sense of 'mine', he moves about free of the conceit of self in the body, which is not the self; he, having seen the self, attains peace.",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "tatra",
+            "gloss": "therein, in that state",
+            "parts": [
+              {
+                "form": "tatra",
+                "gloss": "there, therein"
+              }
+            ]
+          },
+          {
+            "i": 1,
+            "iast": "nisspṛhaḥ",
+            "gloss": "free of longing",
+            "parts": [
+              {
+                "form": "nis-",
+                "gloss": "without"
+              },
+              {
+                "form": "spṛhā",
+                "gloss": "longing"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "trsna"
+          },
+          {
+            "i": 2,
+            "iast": "tatra",
+            "gloss": "therein",
+            "parts": [
+              {
+                "form": "tatra",
+                "gloss": "there, therein"
+              }
+            ]
+          },
+          {
+            "i": 3,
+            "iast": "mamatārahitaḥ",
+            "gloss": "free of the sense of 'mine'",
+            "parts": [
+              {
+                "form": "mamatā",
+                "gloss": "mine-ness, possessiveness"
+              },
+              {
+                "form": "rahita",
+                "gloss": "devoid of"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 4,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 5,
+            "iast": "anātmani",
+            "gloss": "in what is not the self",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not"
+              },
+              {
+                "form": "ātman",
+                "gloss": "self"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 6,
+            "iast": "dehe",
+            "gloss": "in the body",
+            "parts": [
+              {
+                "form": "deha",
+                "gloss": "body"
+              }
+            ],
+            "morph": "loc. sg. masc.",
+            "glossaryKey": "dehin"
+          },
+          {
+            "i": 7,
+            "iast": "ātmābhimānarahitaḥ",
+            "gloss": "free of the conceit of self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "abhimāna",
+                "gloss": "conceit, self-identification"
+              },
+              {
+                "form": "rahita",
+                "gloss": "devoid of"
+              }
+            ],
+            "morph": "nom. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 8,
+            "iast": "carati",
+            "gloss": "moves about",
+            "parts": [
+              {
+                "form": "√car",
+                "gloss": "to move, roam"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          },
+          {
+            "i": 9,
+            "iast": "saḥ",
+            "gloss": "he",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that/he"
+              }
+            ],
+            "morph": "nom. sg. masc."
+          },
+          {
+            "i": 10,
+            "iast": "ātmānaṃ",
+            "gloss": "the self",
+            "parts": [
+              {
+                "form": "ātman",
+                "gloss": "self"
+              }
+            ],
+            "morph": "acc. sg. masc.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 11,
+            "iast": "dṛṣṭvā",
+            "gloss": "having seen",
+            "parts": [
+              {
+                "form": "√dṛś",
+                "gloss": "to see"
+              },
+              {
+                "form": "-tvā",
+                "gloss": "(absolutive)"
+              }
+            ],
+            "morph": "absolutive"
+          },
+          {
+            "i": 12,
+            "iast": "śāntim",
+            "gloss": "peace",
+            "parts": [
+              {
+                "form": "śānti",
+                "gloss": "peace"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "santi"
+          },
+          {
+            "i": 13,
+            "iast": "adhigacchati",
+            "gloss": "attains",
+            "parts": [
+              {
+                "form": "adhi-",
+                "gloss": "over, upon"
+              },
+              {
+                "form": "√gam",
+                "gloss": "to go"
+              }
+            ],
+            "morph": "pres. indic. 3 sg."
+          }
+        ],
+        "english": "{0:Therein} {1:free of longing}, and {2:therein} {3:free of the sense of 'mine'}, {4:and} he {8:moves about} {7:free of the conceit of self} {5:in what is not the self}, {6:the body}; {9:he}, {11:having seen} {10:the self}, {13:attains} {12:peace}."
       }
     ],
     "aurobindo": [],
@@ -5331,7 +14349,7 @@ window.GITA_VERSES = [
         "affix": "tiṅ — laṭ, prathama-puruṣa ekavacana, parasmaipada",
         "morph": "present indic., 3 sg., parasmaipada",
         "karaka": "kriyā (negated by na)",
-        "glossaryKey": null,
+        "glossaryKey": "moha",
         "translatable": true,
         "parts": [
           {
@@ -5496,7 +14514,567 @@ window.GITA_VERSES = [
         "locus": "2.72",
         "sanskrit": "evam ātmayāthātmyaṃ yuddhākhyasya ca karmaṇas tatprāptisādhanatām ajānataḥ śarīrātmajñānena mohitasya, tena ca mohena yuddhān nivṛttasya mohaśāntaye nityātmaviṣayā sāṅkhyabuddhiḥ, tatpūrvikā ca asaṅgakarmānuṣṭhānarūpakarmayogaviṣayā buddhiḥ sthitaprajñatāyogasādhanabhūtā dvitīye adhyāye proktā; tad uktam, \"nityātmāsaṅgakarmehāgocarā sāṅkhyayogadhīḥ / dvitīye sthitadhīlakṣā proktā tanmohaśāntaye\" iti",
         "ourRendering": "Thus, for the one who did not know the true nature of the self and that the work called battle is a means to its attainment — deluded by taking the body for the self, and by that delusion withdrawn from battle — for the quieting of that delusion, the Sāṅkhya-cognition whose object is the eternal self, and, founded upon it, the cognition whose object is karma-yoga in the form of the practice of detached action — the means to the yoga of being a sthitaprajña — has been declared in the second chapter. As it is said: 'The Sāṅkhya-yoga understanding, ranging over the eternal self and over detached action, has been declared in the second chapter, marked by the steady-minded one, for the quieting of that delusion.'",
-        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt"
+        "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
+        "words": [
+          {
+            "i": 0,
+            "iast": "evam",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "evam",
+                "gloss": "thus"
+              }
+            ]
+          },
+          {
+            "i": 1,
+            "iast": "ātmayāthātmyaṃ",
+            "gloss": "the true nature of the self",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "yāthātmya",
+                "gloss": "true nature, real essence"
+              }
+            ],
+            "morph": "acc. sg. neut.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 2,
+            "iast": "yuddhākhyasya",
+            "gloss": "of what is called battle",
+            "parts": [
+              {
+                "form": "yuddha",
+                "gloss": "battle, war"
+              },
+              {
+                "form": "ākhya",
+                "gloss": "named, called"
+              }
+            ],
+            "morph": "gen. sg. neut."
+          },
+          {
+            "i": 3,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 4,
+            "iast": "karmaṇaḥ",
+            "gloss": "of the work",
+            "parts": [
+              {
+                "form": "karman",
+                "gloss": "action, work"
+              }
+            ],
+            "morph": "gen. sg. neut.",
+            "glossaryKey": "karma"
+          },
+          {
+            "i": 5,
+            "iast": "tatprāptisādhanatām",
+            "gloss": "its being a means to its attainment",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that, its"
+              },
+              {
+                "form": "prāpti",
+                "gloss": "attainment"
+              },
+              {
+                "form": "sādhana",
+                "gloss": "means"
+              },
+              {
+                "form": "-tā",
+                "gloss": "-ness"
+              }
+            ],
+            "morph": "acc. sg. fem.",
+            "glossaryKey": "sadhana"
+          },
+          {
+            "i": 6,
+            "iast": "ajānataḥ",
+            "gloss": "of one who does not know",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "jānat",
+                "gloss": "knowing"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 7,
+            "iast": "śarīrātmajñānena",
+            "gloss": "by the knowledge of the body as the self",
+            "parts": [
+              {
+                "form": "śarīra",
+                "gloss": "body"
+              },
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              }
+            ],
+            "morph": "instr. sg. neut.",
+            "glossaryKey": "jnana"
+          },
+          {
+            "i": 8,
+            "iast": "mohitasya",
+            "gloss": "of one deluded",
+            "parts": [
+              {
+                "form": "mohita",
+                "gloss": "deluded, bewildered"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 9,
+            "iast": "tena",
+            "gloss": "by that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "instr. sg. masc."
+          },
+          {
+            "i": 10,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 11,
+            "iast": "mohena",
+            "gloss": "delusion",
+            "parts": [
+              {
+                "form": "moha",
+                "gloss": "delusion"
+              }
+            ],
+            "morph": "instr. sg. masc.",
+            "glossaryKey": "moha"
+          },
+          {
+            "i": 12,
+            "iast": "yuddhāt",
+            "gloss": "from battle",
+            "parts": [
+              {
+                "form": "yuddha",
+                "gloss": "battle, war"
+              }
+            ],
+            "morph": "abl. sg. neut."
+          },
+          {
+            "i": 13,
+            "iast": "nivṛttasya",
+            "gloss": "of one withdrawn",
+            "parts": [
+              {
+                "form": "ni-",
+                "gloss": "down"
+              },
+              {
+                "form": "vṛtta",
+                "gloss": "turned, withdrawn"
+              }
+            ],
+            "morph": "gen. sg. masc."
+          },
+          {
+            "i": 14,
+            "iast": "mohaśāntaye",
+            "gloss": "for the quieting of delusion",
+            "parts": [
+              {
+                "form": "moha",
+                "gloss": "delusion"
+              },
+              {
+                "form": "śānti",
+                "gloss": "quieting, peace"
+              }
+            ],
+            "morph": "dat. sg. fem.",
+            "glossaryKey": "moha"
+          },
+          {
+            "i": 15,
+            "iast": "nityātmaviṣayā",
+            "gloss": "whose object is the eternal self",
+            "parts": [
+              {
+                "form": "nitya",
+                "gloss": "eternal"
+              },
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "object"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 16,
+            "iast": "sāṅkhyabuddhiḥ",
+            "gloss": "the Sāṅkhya-cognition",
+            "parts": [
+              {
+                "form": "sāṅkhya",
+                "gloss": "Sāṅkhya, discriminative knowledge"
+              },
+              {
+                "form": "buddhi",
+                "gloss": "cognition"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 17,
+            "iast": "tatpūrvikā",
+            "gloss": "founded upon it",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              },
+              {
+                "form": "pūrvikā",
+                "gloss": "preceded by, founded on"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 18,
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ]
+          },
+          {
+            "i": 19,
+            "iast": "asaṅgakarmānuṣṭhānarūpakarmayogaviṣayā",
+            "gloss": "whose object is karma-yoga in the form of the practice of detached action",
+            "parts": [
+              {
+                "form": "asaṅga",
+                "gloss": "detached, unattached"
+              },
+              {
+                "form": "karma",
+                "gloss": "action"
+              },
+              {
+                "form": "anuṣṭhāna",
+                "gloss": "practice, performance"
+              },
+              {
+                "form": "rūpa",
+                "gloss": "in the form of"
+              },
+              {
+                "form": "karmayoga",
+                "gloss": "the yoga of action"
+              },
+              {
+                "form": "viṣaya",
+                "gloss": "object"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "karma"
+          },
+          {
+            "i": 20,
+            "iast": "buddhiḥ",
+            "gloss": "the cognition",
+            "parts": [
+              {
+                "form": "buddhi",
+                "gloss": "cognition, intellect"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "buddhi"
+          },
+          {
+            "i": 21,
+            "iast": "sthitaprajñatāyogasādhanabhūtā",
+            "gloss": "being the means to the yoga of being a sthitaprajña",
+            "parts": [
+              {
+                "form": "sthitaprajñatā",
+                "gloss": "the state of being a sthitaprajña"
+              },
+              {
+                "form": "yoga",
+                "gloss": "yoga"
+              },
+              {
+                "form": "sādhana",
+                "gloss": "means"
+              },
+              {
+                "form": "bhūta",
+                "gloss": "being"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "sthitaprajna"
+          },
+          {
+            "i": 22,
+            "iast": "dvitīye",
+            "gloss": "in the second",
+            "parts": [
+              {
+                "form": "dvitīya",
+                "gloss": "second"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 23,
+            "iast": "adhyāye",
+            "gloss": "chapter",
+            "parts": [
+              {
+                "form": "adhyāya",
+                "gloss": "chapter, lesson"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 24,
+            "iast": "proktā",
+            "gloss": "has been declared",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "ukta",
+                "gloss": "said, declared"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 25,
+            "iast": "tat",
+            "gloss": "that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 26,
+            "iast": "uktam",
+            "gloss": "is said",
+            "parts": [
+              {
+                "form": "ukta",
+                "gloss": "said"
+              }
+            ],
+            "morph": "nom. sg. neut."
+          },
+          {
+            "i": 27,
+            "iast": "nityātmāsaṅgakarmehāgocarā",
+            "gloss": "ranging over the eternal self and over detached action",
+            "parts": [
+              {
+                "form": "nitya",
+                "gloss": "eternal"
+              },
+              {
+                "form": "ātma",
+                "gloss": "self"
+              },
+              {
+                "form": "asaṅga",
+                "gloss": "detached"
+              },
+              {
+                "form": "karma",
+                "gloss": "action"
+              },
+              {
+                "form": "īhā",
+                "gloss": "endeavour, activity"
+              },
+              {
+                "form": "gocara",
+                "gloss": "ranging over, sphere"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "atman"
+          },
+          {
+            "i": 28,
+            "iast": "sāṅkhyayogadhīḥ",
+            "gloss": "the Sāṅkhya-yoga understanding",
+            "parts": [
+              {
+                "form": "sāṅkhya",
+                "gloss": "Sāṅkhya"
+              },
+              {
+                "form": "yoga",
+                "gloss": "yoga"
+              },
+              {
+                "form": "dhī",
+                "gloss": "understanding, intellect"
+              }
+            ],
+            "morph": "nom. sg. fem.",
+            "glossaryKey": "yoga"
+          },
+          {
+            "i": 29,
+            "iast": "dvitīye",
+            "gloss": "in the second",
+            "parts": [
+              {
+                "form": "dvitīya",
+                "gloss": "second"
+              }
+            ],
+            "morph": "loc. sg. masc."
+          },
+          {
+            "i": 30,
+            "iast": "sthitadhīlakṣā",
+            "gloss": "marked by the steady-minded one",
+            "parts": [
+              {
+                "form": "sthita",
+                "gloss": "steady"
+              },
+              {
+                "form": "dhī",
+                "gloss": "intellect, minded"
+              },
+              {
+                "form": "lakṣā",
+                "gloss": "characterized by, marked"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 31,
+            "iast": "proktā",
+            "gloss": "has been declared",
+            "parts": [
+              {
+                "form": "pra-",
+                "gloss": "forth"
+              },
+              {
+                "form": "ukta",
+                "gloss": "said, declared"
+              }
+            ],
+            "morph": "nom. sg. fem."
+          },
+          {
+            "i": 32,
+            "iast": "tanmohaśāntaye",
+            "gloss": "for the quieting of that delusion",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              },
+              {
+                "form": "moha",
+                "gloss": "delusion"
+              },
+              {
+                "form": "śānti",
+                "gloss": "quieting, peace"
+              }
+            ],
+            "morph": "dat. sg. fem.",
+            "glossaryKey": "moha"
+          },
+          {
+            "i": 33,
+            "iast": "iti",
+            "gloss": "thus (end of citation)",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ]
+          }
+        ],
+        "english": "{0:Thus}, {6:for the one who did not know} {1:the true nature of the self} {3:and} {5:that it is a means to the attainment of it} — {4:the work} {2:called battle} — {8:deluded} {7:by taking the body for the self}, {10:and} {9:by that} {11:delusion} {13:withdrawn} {12:from battle} — {14:for the quieting of delusion}, {16:the Sāṅkhya-cognition} {15:whose object is the eternal self}, {18:and}, {17:founded upon it}, {20:the cognition} {19:whose object is karma-yoga in the form of the practice of detached action} — {21:the means to the yoga of being a sthitaprajña} — {24:has been declared} {22:in the second} {23:chapter}. {25:This}{26:is said}: {28:the Sāṅkhya-yoga understanding}, {27:ranging over the eternal self and over detached action}, {31:has been declared} {29:in the second [chapter]}, {30:marked by the steady-minded one}, {32:for the quieting of that delusion} — {33:thus}."
       }
     ],
     "aurobindo": [],
