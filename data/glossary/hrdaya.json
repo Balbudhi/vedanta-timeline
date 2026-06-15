@@ -111,5 +111,31 @@
     "nirvana",
     "brahmanirvana"
   ],
-  "translator_note": "Do not read the modern Western 'heart' (seat of emotion, sentiment) into *hṛdaya*. In the Sanskrit philosophical register it is primarily the seat of *buddhi* (intelligence/cognition) and the symbolic dwelling of the *ātman* — the locus of both knowing and being. The technical terms *hṛdaya-puṇḍarīka* (heart-lotus) and *daharākāśa* (the small space within the heart-lotus) are philosophical constructs: Śaṅkara is explicit that the daharākāśa is not a spatial hollow in the chest but Brahman understood through the heart-symbol. Likewise *hṛdaya-granthi* ('knot of the heart') is not a physiological knot but the *avidyā*-produced identification of the self with the body-mind complex. Where 'heart' works as a translation it should carry the sense 'the inner seat of self and consciousness', not 'the emotional centre'. In the Ṛgvedic usages *hṛdā* (instrumental: 'by the heart') marks the organ of inner fashioning, closest in English to 'mind's depth' or 'innermost understanding' — though 'heart' is acceptable if the note above is kept in view."
+  "translator_note": "Do not read the modern Western 'heart' (seat of emotion, sentiment) into *hṛdaya*. In the Sanskrit philosophical register it is primarily the seat of *buddhi* (intelligence/cognition) and the symbolic dwelling of the *ātman* — the locus of both knowing and being. The technical terms *hṛdaya-puṇḍarīka* (heart-lotus) and *daharākāśa* (the small space within the heart-lotus) are philosophical constructs: Śaṅkara is explicit that the daharākāśa is not a spatial hollow in the chest but Brahman understood through the heart-symbol. Likewise *hṛdaya-granthi* ('knot of the heart') is not a physiological knot but the *avidyā*-produced identification of the self with the body-mind complex. Where 'heart' works as a translation it should carry the sense 'the inner seat of self and consciousness', not 'the emotional centre'. In the Ṛgvedic usages *hṛdā* (instrumental: 'by the heart') marks the organ of inner fashioning, closest in English to 'mind's depth' or 'innermost understanding' — though 'heart' is acceptable if the note above is kept in view.",
+  "cognates": {
+    "pie_root": "*ḱḗr / *ḱr̥d- ‘heart’",
+    "items": [
+      {
+        "lang": "Greek",
+        "form": "kardíā (καρδία)",
+        "sense": "heart"
+      },
+      {
+        "lang": "Latin",
+        "form": "cor, cordis",
+        "sense": "heart"
+      },
+      {
+        "lang": "English",
+        "form": "heart",
+        "sense": "heart"
+      },
+      {
+        "lang": "Lithuanian",
+        "form": "širdìs",
+        "sense": "heart"
+      }
+    ],
+    "note": "Skt. hṛ́d- belongs to the PIE heart-word *ḱerd-/*ḱr̥d-, shared by Greek kardíā, Latin cor (cordis), Gothic haírtō / English heart, and Lith. širdìs. The cognancy is undisputed, though the Sanskrit initial h- is irregular (the expected palatal reflex of *ḱ would be ś-), commonly explained by the taboo-deformation typical of body-part words. Latin cor underlies English cordial, courage, record; Greek kardíā underlies cardiac."
+  }
 }

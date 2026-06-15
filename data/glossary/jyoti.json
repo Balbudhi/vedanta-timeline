@@ -108,5 +108,26 @@
     "brahman",
     "prakasa"
   ],
-  "translator_note": "Two translation pitfalls recur in rendering *jyotis*. First, 'light of lights' (*jyotiṣāṃ jyotiḥ*) is a genitive-of-source construction: not 'the brightest light among lights' (superlative) but 'the light from which all lights derive their luminosity' — the distinction matters for understanding why the Upaniṣads say the sun and fire do not shine there. Second, *antar-jyotiḥ* at Gītā 5.24 should not be flattened into 'inner glow' or treated as a mere poetic flourish: it is the Gītā's own vocabulary of inwardness applied to the light-term, and its presence in the same verse as *brahma-nirvāṇa* is load-bearing. Third, Śaṅkara's doctrine of *svayaṃjyotiṣṭva* — that the ātman is self-luminous because consciousness is not an object and cannot be illuminated from outside — is a specific Advaitic metaphysical thesis developed in commentary literature; it should not be read back into the Ṛgvedic 'light set in the heart', where the image is cosmological and liturgical. The three registers (Vedic-poetic, Upaniṣadic-doctrinal, Gītā-soteriological) should be held apart even when the same word (*jyotis*) carries all three."
+  "translator_note": "Two translation pitfalls recur in rendering *jyotis*. First, 'light of lights' (*jyotiṣāṃ jyotiḥ*) is a genitive-of-source construction: not 'the brightest light among lights' (superlative) but 'the light from which all lights derive their luminosity' — the distinction matters for understanding why the Upaniṣads say the sun and fire do not shine there. Second, *antar-jyotiḥ* at Gītā 5.24 should not be flattened into 'inner glow' or treated as a mere poetic flourish: it is the Gītā's own vocabulary of inwardness applied to the light-term, and its presence in the same verse as *brahma-nirvāṇa* is load-bearing. Third, Śaṅkara's doctrine of *svayaṃjyotiṣṭva* — that the ātman is self-luminous because consciousness is not an object and cannot be illuminated from outside — is a specific Advaitic metaphysical thesis developed in commentary literature; it should not be read back into the Ṛgvedic 'light set in the heart', where the image is cosmological and liturgical. The three registers (Vedic-poetic, Upaniṣadic-doctrinal, Gītā-soteriological) should be held apart even when the same word (*jyotis*) carries all three.",
+  "cognates": {
+    "pie_root": "*dyew-/*di- ‘to shine; bright sky, day’ (root-family resonance)",
+    "items": [
+      {
+        "lang": "Latin",
+        "form": "diēs / deus",
+        "sense": "day / god"
+      },
+      {
+        "lang": "Greek",
+        "form": "Zeús (Ζεύς)",
+        "sense": "the bright sky-god"
+      },
+      {
+        "lang": "Latin",
+        "form": "Iūpiter",
+        "sense": "‘sky-father’ (Dyaus-pitar)"
+      }
+    ],
+    "note": "Not a one-to-one cognate but a root-family resonance: jyótis ‘light’ is built on √dyut- ‘to shine, blaze’, which stands within the wide Indo-European *dyew-/*di- complex of ‘shining, the bright daytime sky’. That same root yields Skt. dyaús ‘sky’ (vocative dyaúṣ-pitar = Latin Iūpiter, Greek Zeû páter), Latin diēs ‘day’ and deus ‘god’, and Greek Zeús — the inherited link between light, the luminous sky, and the divine."
+  }
 }

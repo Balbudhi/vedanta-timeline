@@ -98,5 +98,26 @@
     "brahmanirvana",
     "atman"
   ],
-  "translator_note": "Do not flatten the three senses of *agni* into one. (1) Agni the deity: a divine person, the cosmic fire-god, first-born mediator between mortals and immortals — not 'fire' in a generic sense. (2) Fire the element: the physical sacrificial flame on the altar, which is also the vehicle for Agni the person. (3) The inner flame: the hidden fire in the cave of the heart, the immortal within the mortal, the smokeless self-luminous presence — a reading that begins in the Ṛgveda (*guhā niṣīdan*, RV 1.67.3) and is made explicit as a trope in the Upaniṣads (*jyotir iva adhūmakaḥ*, Kaṭha 2.1.13). The heart-fire reading is interpretive in the sense that it requires taking the *guhā* of the Ṛgvedic Agni-hymns as the interior of the human person, not merely a ritual pit or cosmic hiding-place; the tradition itself (including the Upaniṣads) performs this interiorisation, so it is not external allegory but an internal textual development. Aurobindo's further step — identifying the inner flame with a 'divine will-force' or 'conscious-power' — is his own psychological hermeneutic; it is well-grounded in the imagery but is not a neutral philological reading and should be attributed to him. Finally: *nirvāṇa*'s flame (nir- + √vā, 'blown out') and Agni's flame are the same figure at opposite poles — kindled vs extinguished. The resonance is real and illuminating; the genealogy is not documented. Do not claim a textual citation where only image-resonance exists."
+  "translator_note": "Do not flatten the three senses of *agni* into one. (1) Agni the deity: a divine person, the cosmic fire-god, first-born mediator between mortals and immortals — not 'fire' in a generic sense. (2) Fire the element: the physical sacrificial flame on the altar, which is also the vehicle for Agni the person. (3) The inner flame: the hidden fire in the cave of the heart, the immortal within the mortal, the smokeless self-luminous presence — a reading that begins in the Ṛgveda (*guhā niṣīdan*, RV 1.67.3) and is made explicit as a trope in the Upaniṣads (*jyotir iva adhūmakaḥ*, Kaṭha 2.1.13). The heart-fire reading is interpretive in the sense that it requires taking the *guhā* of the Ṛgvedic Agni-hymns as the interior of the human person, not merely a ritual pit or cosmic hiding-place; the tradition itself (including the Upaniṣads) performs this interiorisation, so it is not external allegory but an internal textual development. Aurobindo's further step — identifying the inner flame with a 'divine will-force' or 'conscious-power' — is his own psychological hermeneutic; it is well-grounded in the imagery but is not a neutral philological reading and should be attributed to him. Finally: *nirvāṇa*'s flame (nir- + √vā, 'blown out') and Agni's flame are the same figure at opposite poles — kindled vs extinguished. The resonance is real and illuminating; the genealogy is not documented. Do not claim a textual citation where only image-resonance exists.",
+  "cognates": {
+    "pie_root": "*h₁n̥gʷnis ‘fire (as animate force)’",
+    "items": [
+      {
+        "lang": "Latin",
+        "form": "ignis",
+        "sense": "fire"
+      },
+      {
+        "lang": "Lithuanian",
+        "form": "ugnìs",
+        "sense": "fire"
+      },
+      {
+        "lang": "Old Church Slavonic",
+        "form": "ognь",
+        "sense": "fire"
+      }
+    ],
+    "note": "One of the most secure Indo-European etymologies: Skt. agní, Latin ignis, Lith. ugnìs and OCS ognь all continue PIE *h₁n̥gʷnis, ‘fire’ conceived as an active, animate power — distinct from the neuter *péh₂ur ‘fire as substance’ (Greek pŷr, English fire). English igneous and ignite are later borrowings from Latin ignis."
+  }
 }
