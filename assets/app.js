@@ -2005,7 +2005,7 @@ function renderPassageCard(p) {
   return `
     <div class="passage-card" data-passage-id="${escape(p.passage_id || "")}" data-work-id="${escape(p.work_id || "")}">
       <p class="locus">${escape(p.locus_long || p.locus_short || "")}</p>
-      ${p.sanskrit_iast ? `<p class="sanskrit">${escape(p.sanskrit_iast)}</p>` : ""}
+      ${p.sanskrit_iast ? `<p class="sanskrit">${mdVerse(p.sanskrit_iast)}</p>` : ""}
       <p class="english">${md(p.english_close || "")}</p>
       ${p.why_this_passage ? `<p class="why">${md(p.why_this_passage)}</p>` : ""}
       ${renderPaniniDetails(p)}
@@ -2173,7 +2173,10 @@ async function openReader(workId, thinkerId) {
     const passages = (t.key_passages || []).filter((p) => p.work_id === workId);
     const passagesBlock = passages.length
       ? "## Engaged passages\n\n" + passages.map((p) => {
-          const sk = p.sanskrit_iast ? `> *${p.sanskrit_iast.replace(/\n/g, " ")}*` : "";
+          // Strip an authored whole-verse `*…*` wrapper before re-wrapping, so a
+          // pre-italicized verse doesn't become accidental **bold**.
+          const skRaw = p.sanskrit_iast ? p.sanskrit_iast.replace(/\n/g, " ").trim().replace(/^\*([\s\S]*)\*$/, "$1") : "";
+          const sk = skRaw ? `> *${skRaw}*` : "";
           const en = p.english_close ? p.english_close : "";
           const why = p.why_this_passage ? `\n*Why this passage:* ${p.why_this_passage}` : "";
           return `### ${p.locus_long || p.locus_short || ""}\n\n${sk}\n\n${en}${why}`;
@@ -2818,6 +2821,22 @@ function openGlossary(termKey, anchorEl) {
            ${framing.register_axes_note ? `<div class="gp-axes">${md(framing.register_axes_note)}</div>` : ""}
          </div>`
       : "";
+    // Diachronic "Across the texts": earliest attestations and how the term /
+    // its imagery developed (Vedic → Upaniṣadic → classical), with verbatim
+    // primary text and our own renderings.
+    const th = entry.textual_history;
+    const historyBlock = (th && (th.summary || (th.stages && th.stages.length)))
+      ? `<div class="gp-history"><span class="gp-label">Across the texts</span>
+           ${th.summary ? `<div class="gp-history-summary">${md(th.summary)}</div>` : ""}
+           ${(th.stages || []).map((s) => `
+             <div class="gp-stage">
+               <div class="gp-stage-head">${escape(s.era || "")}${s.locus ? ` · ${escape(s.locus)}` : ""}</div>
+               ${s.sanskrit ? `<div class="gp-stage-sa" lang="sa-Latn">${escape(s.sanskrit)}</div>` : ""}
+               ${s.rendering ? `<div class="gp-stage-en">${md(s.rendering)}</div>` : ""}
+               ${s.note ? `<div class="gp-stage-note">${md(s.note)}</div>` : ""}
+             </div>`).join("")}
+         </div>`
+      : "";
     const footnoteList = renderFootnoteList(allFootnotes);
     // Heading: prefer the surface form the user actually clicked when it
     // differs from the canonical term_iast (alias resolution makes them
@@ -2831,9 +2850,10 @@ function openGlossary(termKey, anchorEl) {
       : `<div class="gp-term">${escape(canonical)}</div>`;
     bodyEl.innerHTML = `
       ${heading}
-      ${entry.literal ? `<div class="gp-literal">Literally: <em>${escape(entry.literal)}</em></div>` : ""}
+      ${entry.literal ? `<div class="gp-literal">Literally: <em>${inlineMarkdown(entry.literal)}</em></div>` : ""}
       <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantR.html}</div></div>
       ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
+      ${historyBlock}
       ${translatorNote}
       ${footnoteList}
     `;
@@ -3024,7 +3044,7 @@ async function openCitationPopover(key, anchorEl) {
           : `The cited work is not yet on disk in clean form.`} The claim above relies on this work; its acquisition is queued at <code>parishishta/notes/USER_NEEDED.md</code>. The text shown below is the locus on which it comments, included as context — not itself the attestation.${entry.pending_acquisition_note || entry.verification_note ? ` <em>${escape(entry.pending_acquisition_note || entry.verification_note)}</em>` : ""}</p></div>`
       : "";
     const sk = entry.sanskrit_iast
-      ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${isPending ? "Sanskrit (IAST) — context" : "Sanskrit (IAST)"}</span><div class="cp-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div></div>`
+      ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${isPending ? "Sanskrit (IAST) — context" : "Sanskrit (IAST)"}</span><div class="cp-sk">${mdVerse(entry.sanskrit_iast)}</div></div>`
       : "";
     const en = entry.english_close
       ? `<div class="cp-block cp-english"><span class="cp-label">${isPending ? "Close English — context" : "Close English"}</span><div class="cp-en">${md(entry.english_close)}</div></div>`
@@ -3153,7 +3173,7 @@ function renderCitationTab(key) {
     if (!passages || !passages.length) return "";
     const rows = passages.map((p) => {
       const sk = p.sanskrit_iast
-        ? `<div class="ccr-sk">${escape(p.sanskrit_iast).replace(/\n/g, "<br>")}</div>`
+        ? `<div class="ccr-sk">${mdVerse(p.sanskrit_iast)}</div>`
         : "";
       const en = p.english_close
         ? `<div class="ccr-en">${md(p.english_close)}</div>`
@@ -3191,7 +3211,7 @@ function renderCitationTab(key) {
             : "."} The claim above relies on this work; its acquisition is queued at <code>parishishta/notes/USER_NEEDED.md</code>. The cited text shown below is the locus on which it comments, included as context — not itself the attestation.
           ${pendingNote ? `<div class="cpa-note"><em>${escape(pendingNote)}</em></div>` : ""}
         </div>
-        ${entry.sanskrit_iast ? `<div class="cpa-sk cpa-sk--context">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div>` : ""}
+        ${entry.sanskrit_iast ? `<div class="cpa-sk cpa-sk--context">${mdVerse(entry.sanskrit_iast)}</div>` : ""}
         ${entry.english_close ? `<div class="cpa-en cpa-en--context">${md(entry.english_close)}</div>` : ""}
       </div>
     `
@@ -3210,7 +3230,7 @@ function renderCitationTab(key) {
         : `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
-        ${entry.sanskrit_iast ? `<div class="cpa-sk">${escape(entry.sanskrit_iast).replace(/\n/g, "<br>")}</div>` : ""}
+        ${entry.sanskrit_iast ? `<div class="cpa-sk">${mdVerse(entry.sanskrit_iast)}</div>` : ""}
         ${entry.english_close ? `<div class="cpa-en">${md(entry.english_close)}</div>` : ""}
       </div>
     `)
@@ -3531,6 +3551,61 @@ function escape(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
 
+// Convert markdown emphasis to <strong>/<em>/<code> on text that has ALREADY
+// been HTML-escaped. Centralizes the asterisk handling that several renderers
+// duplicated (md, inlineMarkdown, renderMarkdown, renderMarkdownFull,
+// renderMarkdownListBlock) so the boundary rules stay consistent.
+//
+// Order matters and fixes the long-standing "literal asterisk" leak:
+//   1. ***x***  → bold+italic.
+//   2. **x**    → bold. The closing `**` carries a `(?!\*)` guard so it does NOT
+//      steal the third star of a `…*italic***` run — that star is the nested
+//      italic's closing delimiter. Inner italic is converted recursively, so
+//      `**plain *nested* end**` and `**end with *italic***` both render with
+//      correctly nested tags instead of leaking `**`.
+//   3. *x*      → italic. Lookbehind/lookahead forbid whitespace next to the
+//      asterisk (so "2 * 3" is left alone) but allow adjacency to punctuation
+//      and string boundaries ("*foo*-bar", "(*baz*)").
+//   4. `code`   → inline code.
+// Unpaired / lone asterisks are deliberately left as literal text.
+//
+// Pass { underscore: true } to also treat `_x_` as italic (only some surfaces
+// authored underscores; keeping it opt-in avoids touching prose like file_names).
+function applyEmphasis(out, opts) {
+  out = out.replace(
+    /\*\*\*(?=\S)([\s\S]*?\S)\*\*\*/g,
+    (_m, inner) => `<strong><em>${convertItalic(inner)}</em></strong>`,
+  );
+  out = out.replace(
+    /\*\*(?=\S)([\s\S]*?\S)\*\*(?!\*)/g,
+    (_m, inner) => `<strong>${convertItalic(inner)}</strong>`,
+  );
+  out = convertItalic(out);
+  if (opts && opts.underscore) {
+    out = out.replace(/(^|[\s(\[])_([^_\n\s][^_\n]*?[^_\n\s]|[^_\n\s])_(?=[\s).,!?;:\]]|$)/g, "$1<em>$2</em>");
+  }
+  out = out.replace(/`([^`\n]+?)`/g, "<code>$1</code>");
+  return out;
+}
+function convertItalic(out) {
+  return out.replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>");
+}
+
+// Render a verse-shaped string (e.g. citation_index `sanskrit_iast`): authored
+// with newlines for line breaks and sometimes wrapped in a single `*…*` that is
+// meant to italicize the whole block across those line breaks. Plain inline
+// emphasis can't span `\n`, so handle the whole-block wrapper explicitly, then
+// convert any inner inline emphasis, then turn newlines into <br>. Escapes
+// first; safe to drop in wherever `escape(x).replace(/\n/g,"<br>")` was used on
+// markdown-authored verse text.
+function mdVerse(s) {
+  if (s == null) return "";
+  let out = escape(s).trim();
+  out = out.replace(/^\*(?=\S)([\s\S]*?\S)\*$/, (_m, inner) => `<em>${convertItalic(inner)}</em>`);
+  out = convertItalic(out);
+  return out.replace(/\n/g, "<br>");
+}
+
 // Inline-only markdown for short strings (titles, headwords, attributions,
 // locus labels). Renders **bold** → <strong>, *italic* → <em>, _italic_ → <em>,
 // `code` → <code>. HTML-escapes everything else. No paragraph splitting, no
@@ -3539,12 +3614,7 @@ function escape(s) {
 // emphasis (most of them).
 function inlineMarkdown(s) {
   if (s == null) return "";
-  let out = escape(s);
-  out = out.replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>");
-  out = out.replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>");
-  out = out.replace(/(^|[\s(\[])_([^_\n\s][^_\n]*?[^_\n\s]|[^_\n\s])_(?=[\s).,!?;:\]]|$)/g, "$1<em>$2</em>");
-  out = out.replace(/`([^`\n]+?)`/g, "<code>$1</code>");
-  return out;
+  return applyEmphasis(escape(s), { underscore: true });
 }
 
 // Pre-escape pass that rewrites two informal citation idioms into the
@@ -3583,12 +3653,8 @@ function md(s) {
   // before this normalization was added.
   s = normalizeCitationSyntax(s);
   let out = escape(s);
-  // Bold first (longer match), then italic. Inline-italic uses lookbehind/lookahead
-  // to forbid whitespace adjacent to the asterisk (avoids math-like "2 * 3"),
-  // but does NOT require surrounding punctuation — so "*foo*-bar" or "(*foo*)" both work.
-  out = out.replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>");
-  out = out.replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>");
-  out = out.replace(/`([^`]+?)`/g, "<code>$1</code>");
+  // Emphasis: bold (incl. nested italic) → italic → code. See applyEmphasis.
+  out = applyEmphasis(out);
   // Citation links: [visible](cite://thinker/work/locus). Stash the rendered
   // anchor in a placeholder so the glossary-regex pass below cannot tag tokens
   // inside the href (which would break the markup).
@@ -3729,11 +3795,9 @@ function renderMarkdownListBlock(block) {
   if (current != null) items.push(current.trim());
   if (!items.length) return block;
   const html = items.map((item) => {
-    const escaped = item
-      .replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))
-      .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
-      .replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>")
-      .replace(/`([^`]+?)`/g, "<code>$1</code>");
+    const escaped = applyEmphasis(
+      item.replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])),
+    );
     return `<li>${escaped}</li>`;
   }).join("");
   return ordered ? `<ol>${html}</ol>` : `<ul>${html}</ul>`;
@@ -3754,14 +3818,13 @@ function renderMarkdownParagraphs(src) {
 
 function renderMarkdown(s) {
   const esc = (x) => x.replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
-  return esc(s)
+  let out = esc(s)
     .replace(/^# (.+)$/gm, "<h1>$1</h1>")
     .replace(/^## (.+)$/gm, "<h2>$1</h2>")
     .replace(/^### (.+)$/gm, "<h3>$1</h3>")
-    .replace(/^&gt; (.+)$/gm, "<blockquote>$1</blockquote>")
-    .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>")
-    .replace(/`([^`]+?)`/g, "<code>$1</code>")
+    .replace(/^&gt; (.+)$/gm, "<blockquote>$1</blockquote>");
+  out = applyEmphasis(out);
+  return out
     .replace(/\n\n+/g, "</p><p>")
     .replace(/^/, "<p>") + "</p>";
 }
@@ -4426,10 +4489,8 @@ function renderMarkdownFull(src) {
     .replace(/^## (.+)$/gm, "<h2>$1</h2>")
     .replace(/^# (.+)$/gm, "<h1>$1</h1>")
     .replace(/^&gt; (.+)$/gm, "<blockquote>$1</blockquote>")
-    .replace(/^> (.+)$/gm, "<blockquote>$1</blockquote>")
-    .replace(/\*\*([^*\n]+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/\*(?!\s)([^*\n]+?)(?<!\s)\*/g, "<em>$1</em>")
-    .replace(/`([^`]+?)`/g, "<code>$1</code>");
+    .replace(/^> (.+)$/gm, "<blockquote>$1</blockquote>");
+  out = applyEmphasis(out);
   out = renderMarkdownParagraphs(out);
   // Glossary tagging — parity with the thinker-prose md() path. Done
   // after italics so we do not double-wrap inside <em>; before re-inflating

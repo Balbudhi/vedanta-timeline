@@ -1587,6 +1587,14 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
   border-radius: 0 0 4px 4px;
 }
 .glossary-popover .gp-translator .gp-label { color: #92400e; }
+/* diachronic "Across the texts" */
+.glossary-popover .gp-history { margin-top: 14px; }
+.glossary-popover .gp-history-summary { font-size: 13px; color: var(--ink-soft); margin: 4px 0 10px; line-height: 1.5; }
+.glossary-popover .gp-stage { margin: 9px 0; padding-left: 11px; border-left: 2px solid var(--rule-warm); }
+.glossary-popover .gp-stage-head { font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: .02em; color: var(--ink); }
+.glossary-popover .gp-stage-sa { font-style: italic; font-size: 13px; color: var(--muted); margin: 3px 0; line-height: 1.6; }
+.glossary-popover .gp-stage-en { font-size: 13px; color: var(--ink-soft); line-height: 1.5; }
+.glossary-popover .gp-stage-note { font-size: 12px; color: var(--muted); margin-top: 3px; line-height: 1.5; }
 .glossary-popover .gp-row {
   margin: 6px 0;
   font-size: 13px;
