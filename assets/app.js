@@ -4142,6 +4142,7 @@ function buildSearchCandidates() {
       key,
       canonical,
       literal: entry.literal || "",
+      aliases: entry.aliases || [],
       blurb: (entry.invariant_definition || "").split(/[.\n]/)[0].slice(0, 90),
     });
   }
@@ -4155,6 +4156,9 @@ function ensureSearchIndex() {
     ...c,
     norm: normalizeDia(c.canonical),
     normLiteral: normalizeDia(c.literal),
+    // index aliases too, so e.g. searching "nirvana" finds an entry whose
+    // canonical is a compound but which lists "nirvāṇa" as an alias.
+    normAliases: (c.aliases || []).map(normalizeDia),
   }));
   return _searchIndex;
 }
@@ -4166,8 +4170,10 @@ function rankSearchResults(q) {
   const prefix = [];
   const sub = [];
   for (const c of _searchIndex) {
-    if (c.norm.startsWith(norm)) prefix.push(c);
-    else if (c.norm.includes(norm) || c.normLiteral.includes(norm)) sub.push(c);
+    const aliasPrefix = c.normAliases.some((a) => a.startsWith(norm));
+    const aliasSub = c.normAliases.some((a) => a.includes(norm));
+    if (c.norm.startsWith(norm) || aliasPrefix) prefix.push(c);
+    else if (c.norm.includes(norm) || c.normLiteral.includes(norm) || aliasSub) sub.push(c);
     if (prefix.length + sub.length >= 60) break;
   }
   return prefix.concat(sub).slice(0, 30);
