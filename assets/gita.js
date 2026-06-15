@@ -453,7 +453,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (!root) return;
   render(root, { glossaryBase: "../../data/glossary/", voicebarSlot: document.getElementById("voicebarSlot") });
   const b = document.getElementById("gitaClose");
-  if (b) b.addEventListener("click", () => { if (history.length > 1) history.back(); else window.location.href = "../../"; });
+  if (b) b.addEventListener("click", () => { window.location.href = "../../#/article/gita-sthitaprajna"; });
   buildVerseRail(root);
 });
 
