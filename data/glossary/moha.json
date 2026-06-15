@@ -1,0 +1,57 @@
+{
+  "term_key": "moha",
+  "term_iast": "moha",
+  "term_devanagari": "मोह",
+  "literal": "delusion, confusion, bewilderment; action-noun from √muh 'to become confused, to be bewildered, to lose one's way' (muh + ghañ → moha), 'the becoming-confused' — the clouding of judgment in which one loses discrimination. The intensive saṃmoha = thorough bewilderment",
+  "aliases": [
+    "moha",
+    "Moha",
+    "mohaḥ",
+    "mohāt",
+    "moham",
+    "saṃmoha",
+    "sammoha",
+    "saṃmohaḥ",
+    "vimuhyati",
+    "mūḍha",
+    "vimoha"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Moha* is delusion — the clouding of mind in which discrimination is lost and one mistakes duty for non-duty, the unreal for the real, the harmful for the desirable. It is distinguished from simple ignorance by its active, disabling character: *moha* is bewilderment that paralyzes or misdirects judgment. The *Bhagavad-Gītā* gives it a precise causal placement in the descent of 2.62-63: from anger arises *saṃmoha* (thorough bewilderment), from bewilderment the loss of memory (*smṛti-vibhrama*), from that the destruction of the discriminating intellect (*buddhi-nāśa*), and from that the ruin of the person. The commentators gloss *saṃmoha* here precisely as *kārya-akārya-viveka-abhāva* — the loss of the discrimination of what is to be done and not done (Śaṅkara, Madhusūdana, Śrīdhara on 2.63). The whole Gītā opens from *moha*: Arjuna's collapse is his *moha*, and the chapter ends by promising that one established in the brāhmī state, having reached it, 'is not deluded' (*na vimuhyati*, 2.72) — for, as Madhusūdana adds, no ignorance once cancelled by knowledge can arise again. In the wider analysis *moha* is one of the inner enemies (*ṣaḍ-varga*) and, in Buddhist terms, one of the three unwholesome roots (*lobha, dosa, moha*) and the most basic, since greed and hatred themselves rest on the delusion that misreads reality. *Moha* is thus the disabling confusion that the disciplines aim to dispel, the immediate antecedent of the collapse of judgment and the standing condition that knowledge removes.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Moha* names **disabling delusion — the clouding of mind in which discrimination is lost and one mistakes duty, value, and reality**; the traditions converge in treating it as worse than mere ignorance (it actively misdirects judgment) and as the condition knowledge dispels. They differ on its causal placement and on whether it is one defilement among others or the root of the rest.",
+    "register_axes_note": "**Same phenomenon, different placement.** In the Gītā *moha/saṃmoha* is a specific link in the bondage-chain (from *krodha*, leading to *smṛti-vibhrama* and *buddhi-nāśa*, 2.62-63) and the opening condition that the teaching removes (*na vimuhyati*, 2.72). In Buddhist analysis *moha* is one of the three unwholesome roots and the most fundamental, underlying greed and hatred. The Vedānta reading ties *moha* finally to *avidyā* — delusion as the practical face of ignorance — so that its removal coincides with the knowledge of the real."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "*Saṃmoha* is a precise link in the descent of 2.62-63: born of anger, it is the loss of the discrimination of what is to be done and not done (*kārya-akārya-viveka-abhāva*), and from it follow the lapse of memory and the destruction of *buddhi*. Śaṅkara, Madhusūdana, and Śrīdhara converge on this gloss. The chapter's close promises that one established in the brāhmī state 'is not deluded' (2.72), which Madhusūdana explains by the impossibility of cancelled ignorance returning: *moha* is the practical face of *avidyā*, dispelled with it. The Gītā itself begins from Arjuna's *moha* and ends with its removal (cf. 18.73, *naṣṭo mohaḥ*).",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.63 (krodhāt saṃmohaḥ; glossed kārya-akārya-viveka-abhāvaḥ)",
+        "Bhagavad-Gītā 2.72 (sthitvāsyām ... na vimuhyati)",
+        "Bhagavad-Gītā 18.73 (naṣṭo mohaḥ — Arjuna's delusion dispelled)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Moha* (delusion) is one of the three unwholesome roots (*akusala-mūla*: *lobha, dosa, moha*) and the most basic, since greed and hatred rest upon the delusion that misreads reality; it is closely allied to *avijjā* (ignorance), the first link of dependent origination. As one of the three fires its extinction is *nibbāna*. Delusion is uprooted by wisdom (*paññā*), which sees things as they are and so dissolves the confusion at the base of the defilements.",
+      "primary_loci": [
+        "the three akusala-mūla (lobha, dosa, moha)",
+        "moha / avijjā and the arising of the defilements; paññā as antidote"
+      ],
+      "register_tag": "Φ+S; reflective reader (moha as akusala-mūla)"
+    }
+  ],
+  "see_also": [
+    "avidya",
+    "buddhi",
+    "krodha",
+    "smrti",
+    "klesa",
+    "mahamaya"
+  ],
+  "translator_note": "Render *moha* as 'delusion' or 'bewilderment', keeping the disabling, judgment-clouding sense of √muh; *saṃmoha* is the intensified 'thorough bewilderment'. Distinguish it from *avidyā*: ignorance is the cognitive root, *moha* its active, confusing effect on judgment — though the Vedānta reading ties the two closely. Do not weaken *moha* to mere 'confusion' in the casual sense: in 2.62-63 it is the precise link from which the loss of memory and the destruction of the discriminating intellect follow, and the cognate *mūḍha* ('the deluded one') names not a dullard in general but one whose discrimination of right and wrong has collapsed."
+}

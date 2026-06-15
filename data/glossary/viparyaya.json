@@ -1,0 +1,62 @@
+{
+  "term_key": "viparyaya",
+  "term_iast": "viparyaya",
+  "term_devanagari": "विपर्यय",
+  "literal": "inversion, reversal, error; from vi- + pari- + √i 'to go' (vi-pari-√i + a → viparyaya), 'a going contrary, a turning the wrong way round' — hence misapprehension, the cognition that takes a thing to be other than it is",
+  "aliases": [
+    "viparyaya",
+    "Viparyaya",
+    "viparyayaḥ",
+    "viparyāsa",
+    "viparīta",
+    "viparīta-jñāna",
+    "viparīta-bhāvanā",
+    "mithyā-jñāna"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Viparyaya* is erroneous cognition — the 'inverted' apprehension that takes a thing to be what it is not. The etymology is exact: a *going-contrary*, a turning the wrong way round, so that the cognition runs against its object. It is the standard technical term for error in several systems. In Pātañjala Yoga *viparyaya* is one of the five kinds of *vṛtti* (mental modification), defined as false knowledge not established in the real form of the thing (*mithyā-jñānam atad-rūpa-pratiṣṭham*, YS 1.8); the classic example is the silver mistakenly seen in nacre. In Sāṅkhya *viparyaya* heads the list of the four 'wrong' states (*viparyaya, aśakti, tuṣṭi, siddhi*) and, in the form of the five *viparyayas* (the traditional *tamas, moha, mahāmoha, tāmisra, andhatāmisra*), names the misidentifications that bind. In the *sthitaprajña* commentaries the term and its cognates do recurrent work: Madhusūdana classes the *kāmas* of 2.55 as *mano-vṛtti-viśeṣas* of which error (*pramāṇa-viparyaya-vikalpa-nidrā-smṛti*, the five Yoga *vṛttis*) is one species, and he repeatedly diagnoses the disturbances of the unrealized — grief, craving, the afflictions — as *viparyaya-rūpa* or *bhrānti-rūpa*, forms of inverted cognition that cannot survive in the clarified mind of the knower. *Viparyaya* thus names error not as the absence of knowledge but as a positive miscognition — a definite, content-bearing cognition that fastens on the wrong thing — and so stands beside the broader *avidyā* and the various *khyāti* (error-theories) of the schools.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Viparyaya* names **inverted or erroneous cognition — the apprehension that takes a thing to be other than it is, error as a positive miscognition rather than mere want of knowledge**. The systems share this structural sense and contrast *viparyaya* with valid cognition (*pramā / yathārtha-jñāna*); they differ on its analysis — a kind of *vṛtti*, a class of binding misidentification, or the generic form of the afflictions.",
+    "register_axes_note": "**Same concept, different placement.** Yoga makes *viparyaya* one of the five *vṛttis* (YS 1.8), error defined against the real form of the object. Sāṅkhya makes it the first of the four wrong states and enumerates five binding *viparyayas*. The Gītā commentaries (Madhusūdana especially) use *viparyaya/viparīta* diagnostically — the afflictions and false hankerings of the unrealized are *viparyaya-rūpa* — connecting it to the broader analyses of error (*khyāti*) and ignorance (*avidyā*)."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Viparyaya* is the second of the five *citta-vṛttis*, defined as false knowledge not founded on the real form of its object (*mithyā-jñānam atad-rūpa-pratiṣṭham*, YS 1.8) — the silver-in-nacre type of error. As a *kliṣṭa* (afflicted) *vṛtti* it is bound up with the *kleśas* and is among the modifications to be stilled in *nirodha*; the five *kleśas* are themselves identified by the tradition as the fivefold *viparyaya*.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.6, 1.8 (the five vṛttis; viparyaya defined)",
+        "Yoga-Bhāṣya on 1.8 (viparyaya and the five kleśas)"
+      ],
+      "register_tag": "Φ+S; yogin (viparyaya as a vṛtti)"
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "*Viparyaya* is the first of the four wrong conditions of the intellect (*viparyaya, aśakti, tuṣṭi, siddhi*, SK 46-51) and is elaborated as the five *viparyayas* — the traditional *tamas, moha, mahāmoha, tāmisra, andhatāmisra* — the misidentifications by which the *puruṣa* is taken to be what it is not and bondage is sustained. Error here is the principal obstacle that discriminative knowledge (*viveka*) removes.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 46-51 (the pratyaya-sarga; the five viparyayas)",
+        "Sāṅkhya-Kārikā 44 (bondage from viparyaya / ajñāna)"
+      ],
+      "register_tag": "M+E; reflective reader (the five viparyayas)"
+    },
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "Madhusūdana classes the *kāmas* of 2.55 as mental modifications of which *viparyaya* (error) is one of the five Yoga-*vṛtti* species (*pramāṇa-viparyaya-vikalpa-nidrā-smṛti*), and throughout the discourse he diagnoses the disturbances of the unrealized — grief, vain hankering, the afflictions — as *viparyaya-rūpa* / *bhrānti-rūpa*, inverted cognitions that cannot arise in the clarified mind (*śuddha-sattva*) of the *sthitaprajña*. Error, so understood, is removed not by suppression but by the knowledge of the real that supplants it.",
+      "primary_loci": [
+        "Gūḍhārtha-dīpikā (Madhusūdana) on 2.55 (kāmān ... pramāṇa-viparyaya-vikalpa-nidrā-smṛti)",
+        "Gūḍhārtha-dīpikā (Madhusūdana) on 2.56-57 (the afflictions as viparyaya-rūpa / bhrānti-rūpa)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    }
+  ],
+  "see_also": [
+    "avidya",
+    "bhrama",
+    "anyatha-khyati",
+    "vrtti",
+    "mithya",
+    "pramana"
+  ],
+  "translator_note": "Render *viparyaya* as 'erroneous cognition', 'misapprehension', or 'inversion', keeping the literal sense of a *turning-contrary* — the cognition runs the wrong way against its object. Do not render it merely as 'ignorance': *viparyaya* is a positive, content-bearing miscognition (taking nacre to be silver), not the bare absence of knowledge, and the schools distinguish it from *avidyā* even while relating the two. In Yoga it is a specific *vṛtti*; in Sāṅkhya a specific class of binding states; do not flatten these technical placements into a generic 'error' where the precision matters."
+}

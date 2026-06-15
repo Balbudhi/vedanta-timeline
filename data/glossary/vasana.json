@@ -1,0 +1,62 @@
+{
+  "term_key": "vasana",
+  "term_iast": "vāsanā",
+  "term_devanagari": "वासना",
+  "literal": "latent impression, residual disposition, 'perfuming'; action-noun from √vās 'to perfume, to make fragrant, to scent' (causative of √vas 'to dwell', in the sense 'to cause to dwell/linger') (vās + lyuṭ + ṭāp → vāsanā), 'a perfuming' — the lingering trace left in the mind by past experience, as scent lingers in a cloth",
+  "aliases": [
+    "vasana",
+    "vāsanā",
+    "Vāsanā",
+    "vāsanāḥ",
+    "vāsanāyāḥ",
+    "vāsanayā",
+    "vāsanā-mātra",
+    "saṃskāra",
+    "anuśaya"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Vāsanā* is a latent impression — the residual disposition deposited in the mind by past action and experience, which 'perfumes' subsequent cognition and inclines one toward repetition. The metaphor is olfactory: as a cloth retains the scent of what it was stored with, the mind retains the trace of what it has done and undergone, and this trace, though dormant, shapes future tendency, memory, and desire. *Vāsanā* is closely allied to *saṃskāra* (the formative impression left by an act) and, in Buddhist usage, to *anuśaya* (the latent proclivity) and the *bīja* ('seeds') stored in the *ālaya-vijñāna*; the terms differ in emphasis but converge on the problem of how past experience persists to condition the present without a continuously manifest cause. In the commentaries on the *sthitaprajña* discourse *vāsanā* enters where the persistence of conduct after knowledge must be explained: Madhva, glossing 2.55, accounts for the slight, near-aimless activity of the knower by *prārabdha-karma* together with the lingering *vāsanā* of the realized one whose ignorance has been mostly dispelled (*prārabdha-karmaṇeṣat-tirohita-brahmaṇo vāsanayā prāyo 'lpābhisandhi-pravṛttiḥ*). More broadly, *vāsanā* is what binds even after the gross causes of action are removed, and its complete extinction (*vāsanā-kṣaya*), alongside the dissolution of mind (*mano-nāśa*) and the rise of knowledge (*tattva-jñāna*), is in the yogic-Advaitic synthesis one of the marks of final liberation.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Vāsanā* names **the latent residue left by past action and experience that 'perfumes' and inclines later cognition — the dormant trace by which the past conditions the present**. The traditions share the diagnostic role of such residues in sustaining tendency, desire, and the round of rebirth; they differ on their ontological seat and on whether they can finally be eradicated.",
+    "register_axes_note": "**Different ontological framing, shared functional role.** Yoga and Vedānta locate *vāsanās/saṃskāras* in the *citta* or *antaḥkaraṇa* as dispositions to be burnt up by discrimination and dissolved at liberation. Yogācāra locates the *vāsanā*-seeds in the *ālaya-vijñāna* as the very continuity of the cognitive stream. In the Gītā commentaries (notably Madhva on 2.55) *vāsanā* does light explanatory work — explaining the residual conduct of the knower under *prārabdha* — rather than carrying a full metaphysical theory."
+  },
+  "per_school": [
+    {
+      "school": "Tattva-vāda",
+      "definition": "Glossing 2.55, Madhva uses *vāsanā* to explain why the knower still acts at all: his action is slight and largely unintentional, prompted by *prārabdha-karma* and by the lingering *vāsanā* of one whose ignorance has been all but dissolved (*prārabdha-karmaṇeṣat-tirohita-brahmaṇo vāsanayā prāyo 'lpābhisandhi-pravṛttiḥ*). The residue accounts for continued embodied conduct without implying that the knower acts from fresh desire.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Madhva) on 2.55 (vāsanayā ... pravṛttiḥ)"
+      ],
+      "register_tag": "M+S; bhakta"
+    },
+    {
+      "school": "Yoga",
+      "definition": "*Vāsanās* are the deposits of past experience stored in the *citta*, continuous with the *saṃskāras* and *karmāśaya*; they ripen as birth, lifespan, and experience (YS 2.13) and, latent, condition memory and tendency (YS 4.8-9). They are attenuated by *kriyā-yoga* and burnt up as discrimination matures, the residual *saṃskāras* themselves finally dissolving in the movement toward *kaivalya*.",
+      "primary_loci": [
+        "Yoga-Sūtra 2.12-13 (karmāśaya; vipāka)",
+        "Yoga-Sūtra 4.8-9 (vāsanā and the continuity of disposition)"
+      ],
+      "register_tag": "Φ+S; yogin"
+    },
+    {
+      "school": "Yogācāra",
+      "definition": "*Vāsanā* names the perfuming-seeds (*bīja*) deposited by action and cognition in the *ālaya-vijñāna*, the store-consciousness whose maturation (*vipāka*) is the continuity of the cognitive stream. The *grāha-dvaya-vāsanā* (the latent disposition to the subject-object split) renews karmic maturation until cognition is established in *vijñapti-mātratā*; here *vāsanā* carries the full weight of explaining saṃsāric continuity.",
+      "primary_loci": [
+        "Triṃśikā 2 (sarva-bīja ālaya-vijñāna)",
+        "Triṃśikā 18-19 (vāsanā and the renewal of vipāka)"
+      ],
+      "register_tag": "Φ+E; reflective reader (vāsanā as bīja in ālaya)"
+    }
+  ],
+  "see_also": [
+    "smrti",
+    "karma",
+    "prarabdha",
+    "alaya-vijnana",
+    "citta",
+    "avidya"
+  ],
+  "translator_note": "Render *vāsanā* as 'latent impression' or 'residual disposition', not 'memory' (which is *smṛti*, a manifest recollection) and not 'habit' in the thin behavioral sense. Keep the perfuming metaphor in view where it clarifies: a *vāsanā* lingers as scent lingers in a cloth, dormant yet shaping what follows. *Vāsanā* and *saṃskāra* are often interchangeable; where a distinction is drawn, *saṃskāra* tends to name the impression as deposited by a single act and *vāsanā* the standing disposition that results. In Yogācāra contexts the seed-and-store-consciousness theory should not be read back into the lighter Vedāntic uses, such as Madhva's on 2.55."
+}

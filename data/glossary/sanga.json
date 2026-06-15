@@ -1,0 +1,48 @@
+{
+  "term_key": "sanga",
+  "term_iast": "saṅga",
+  "term_devanagari": "सङ्ग",
+  "literal": "attachment, clinging, contact; action-noun from √sañj 'to cling, to adhere, to be attached' (sañj + ghañ → saṅga), 'a sticking-to' — the mind's adhering to objects, the contact that becomes clinging",
+  "aliases": [
+    "sanga",
+    "saṅga",
+    "Saṅga",
+    "saṅgaḥ",
+    "saṅgāt",
+    "saṅgam",
+    "āsaṅga",
+    "āsakti",
+    "asaṅga",
+    "saktiḥ",
+    "anabhisneha"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Saṅga* is attachment — the mind's adhering or sticking to objects, persons, and outcomes. The root √sañj means 'to cling, to stick fast', and *saṅga* is the clinging by which one is held to what one likes; the commentators gloss it as *āsakti* or *āsaṅga*, the fastening of the mind onto its objects. It has a precise causal role in the *Bhagavad-Gītā*: 'in one who dwells on objects, attachment (*saṅga*) to them arises; from attachment is born desire (*kāma*)' (2.62) — *saṅga* is thus the hinge between mere attention to objects and active craving, the first step of the descent that runs through desire, anger, delusion, and the destruction of *buddhi*. The disciplined ideal is correspondingly stated negatively: action done *saṅga-rahita* / *saktiṃ tyaktvā* — without attachment, abandoning clinging (e.g. 2.48, 3.19) — and the man of settled wisdom is *sarvatra anabhisneha*, 'without clinging anywhere' (2.57), where Madhusūdana glosses the *sneha/saṅga* removed as the *tāmasa vṛtti-viśeṣa* of fond adhering. *Saṅga* is therefore not contact as such (the senses unavoidably meet objects) but the adhesive charge in contact — the sticking that converts perception into possession. Its opposite, *asaṅga* (non-attachment), is the freedom of one who, while acting and perceiving, no longer adheres; in Advaita the self is finally *asaṅga* by nature, unattached and uninvolved.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Saṅga* names **the mind's clinging or adhering to objects — the adhesive charge in contact, the sticking by which one is held to what one likes**. The traditions converge in treating it as the hinge from attention to craving and in holding up its absence (*asaṅga*) as the mark of freedom; what varies is whether non-attachment is achieved in action, in renunciation, or recognized as the self's own nature.",
+    "register_axes_note": "Largely **shared**: *saṅga* is an agreed-upon term for binding attachment. The framings differ in emphasis — the karma-yoga register prizes *asaṅga* in action (acting without clinging to fruits), the renunciate register prizes the absence of clinging to objects and relations, and Advaita adds the metaphysical claim that the *ātman* is *asaṅga* by nature (BṛU 4.3.15-16), uninvolved in what it appears to touch."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "*Saṅga* is the hinge of the descent at 2.62: dwelling on objects breeds attachment, and from attachment desire is born; Śaṅkara glosses *saṅga* as *āsakti*, *prīti* — the fond adhering of the mind to objects. The contrary ideal runs through the chapter and beyond: the *sthitaprajña* is *sarvatra anabhisneha* (2.57), without clinging anywhere, and action is to be done *saṅga* abandoned (2.48, 3.19). Madhusūdana identifies the *sneha/saṅga* to be removed as a *tāmasa* movement of mind. Advaita adds that the self is finally *asaṅga* — unattached by its very nature — so that non-attachment is not only a discipline but the recognition of what the self already is.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.62 (saṅgas teṣūpajāyate ... saṅgāt saṃjāyate kāmaḥ)",
+        "Bhagavad-Gītā 2.48, 3.19 (saṅgaṃ tyaktvā / asaktaḥ ... samācara)",
+        "Bhagavad-Gītā 2.57 (sarvatra anabhisneha); Bṛhadāraṇyaka 4.3.15-16 (asaṅgo hy ayaṃ puruṣaḥ)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    }
+  ],
+  "see_also": [
+    "kama",
+    "raga",
+    "visaya",
+    "vairagya",
+    "niskama-karma",
+    "krodha"
+  ],
+  "translator_note": "Render *saṅga* as 'attachment' or 'clinging', keeping the literal sense of √sañj — *sticking to*. It overlaps with *rāga* (which is 'coloring', the mind dyed by what it clings to) but is not identical: *saṅga* is the adhering itself, the contact-become-clinging, and the Gītā treats it specifically as the link between dwelling on objects and the birth of desire (2.62). Do not render it as 'contact' alone: the senses unavoidably contact objects (*viṣayān caran*), and the point is precisely that the freed person has contact without *saṅga* — perception without the adhesive charge. The opposite *asaṅga* is 'non-attachment', and in Advaita names the self's own unattached nature, not merely an achieved detachment."
+}

@@ -1,0 +1,68 @@
+{
+  "term_key": "duhkha",
+  "term_iast": "duḥkha",
+  "term_devanagari": "दुःख",
+  "literal": "suffering, pain, unease; traditionally analyzed as duḥ- ('bad, ill') + kha ('axle-hole, hub'), 'having a bad axle-hole' — i.e. running roughly, like a wheel ill-fitted to its axle; hence discomfort, distress. Opposed to sukha ('su-kha', running smoothly, ease)",
+  "aliases": [
+    "duhkha",
+    "duḥkha",
+    "Duḥkha",
+    "duḥkhaḥ",
+    "duḥkham",
+    "duḥkhāni",
+    "duḥkheṣu",
+    "duḥkhānām",
+    "dukkha",
+    "tāpa-traya",
+    "ādhyātmika",
+    "ādhibhautika",
+    "ādhidaivika"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Duḥkha* is suffering — pain, distress, the unease that pervades conditioned existence. The traditional folk-etymology (a wheel with a 'bad hub', running roughly against its axle) captures its sense: not merely acute pain but the friction and unsatisfactoriness of saṃsāric life as such. The classical analysis groups suffering into a threefold taxonomy, the *tāpa-traya* ('three torments') or three kinds of *duḥkha*: *ādhyātmika* (arising within oneself — bodily disease and mental disturbance), *ādhibhautika* (arising from other beings — beasts, enemies), and *ādhidaivika* (arising from the elements or 'divine' powers — excessive cold, heat, wind, rain). This triad opens the Sāṅkhya-Kārikā (SK 1), whose whole inquiry begins from 'the assault of the threefold suffering', and it is the standard frame in which the commentators on the *sthitaprajña* discourse analyze the verses on equanimity: Madhusūdana, glossing 2.56, classes the *duḥkhas* the steady one is unmoved by as the threefold *ādhyātmika-ādhibhautika-ādhidaivika*, and reads the destruction of 'all sorrows' at 2.65 (*sarva-duḥkhānāṃ hānir*) as the cessation of just this triad. In Buddhist thought *duḥkha* (Pali *dukkha*) is the content of the first noble truth and is itself analyzed threefold (*dukkha-dukkhatā*, *vipariṇāma-dukkhatā*, *saṃkhāra-dukkhatā*), the pervasive unsatisfactoriness whose origin is craving and whose cessation is the path's goal. Across the traditions *duḥkha* names not only episodes of pain but the structural unease of bound existence, and its removal — by knowledge, by equanimity, or by the going-out of craving — is the aim of the disciplines.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Duḥkha* names **the suffering and unsatisfactoriness pervading conditioned existence — not only acute pain but the structural unease of saṃsāra**; the schools converge on the threefold analysis of its sources and on its removal as the aim of practice. They differ on the diagnosis of its root (misidentification, craving, ignorance, karmic embodiment) and on the nature of its cessation.",
+    "register_axes_note": "Largely **shared** as the problem the soteriologies address. The Sāṅkhya and Vedānta commentaries use the *tāpa-traya* triad (*ādhyātmika*, *ādhibhautika*, *ādhidaivika*) as the standard frame; Buddhism analyzes *dukkha* as its own threefold (the suffering of pain, of change, of conditioned formations) and makes it the first noble truth. The frames converge on the universality of suffering and diverge on its root-cause and on the content of its cessation."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "In the *sthitaprajña* discourse *duḥkha* is what the steady one is unmoved by: 'unshaken in sufferings' (*duḥkheṣv anudvigna-manāḥ*, 2.56), and 'in clarity all his sorrows are destroyed' (*prasāde sarva-duḥkhānāṃ hānir*, 2.65). Madhusūdana glosses the *duḥkhas* of 2.56 as the threefold *ādhyātmika-ādhibhautika-ādhidaivika*, brought on by *prārabdha* karma, and reads 2.65's destruction of 'all sorrows' as the cessation of this triad once *prasāda* steadies the *buddhi* and the underlying ignorance falls away. Suffering is thus finally rooted in *avidyā* and removed by the knowledge that the *prasanna-cetas* makes possible.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.56 (duḥkheṣv anudvigna-manāḥ)",
+        "Bhagavad-Gītā 2.65 (prasāde sarva-duḥkhānāṃ hānir asyopajāyate)",
+        "Gūḍhārtha-dīpikā (Madhusūdana) on 2.56 (the threefold duḥkha)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "The Sāṅkhya-Kārikā opens from *duḥkha*: 'from the assault of the threefold suffering (*duḥkha-traya*) arises the desire to know the means of removing it' (SK 1). The *tāpa-traya* — *ādhyātmika*, *ādhibhautika*, *ādhidaivika* — is the starting datum of the whole inquiry; ordinary means give only impermanent relief, so discriminative knowledge of the distinctness of *puruṣa* from *prakṛti*, issuing in *kaivalya*, is sought as the definitive removal of suffering.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 1 (duḥkha-traya-abhighāta; the threefold suffering)",
+        "Sāṅkhya-Kārikā 2 (the inadequacy of ordinary means)"
+      ],
+      "register_tag": "M+E; reflective reader (duḥkha-traya as the inquiry's datum)"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Dukkha* is the content of the first noble truth — birth, ageing, sickness, death, and not getting what one wants are all *dukkha*; the five clinging-aggregates are *dukkha*. It is analyzed threefold: the suffering of pain (*dukkha-dukkhatā*), the suffering of change (*vipariṇāma-dukkhatā*), and the suffering inherent in conditioned formations (*saṃkhāra-dukkhatā*). Its origin is craving (*taṇhā*), its cessation is *nibbāna*, and the way to its cessation is the eightfold path.",
+      "primary_loci": [
+        "the first noble truth (dukkha) in the Dhammacakkappavattana-sutta",
+        "the threefold analysis of dukkha (dukkha-dukkhatā, vipariṇāma-, saṃkhāra-)"
+      ],
+      "register_tag": "Φ+S; reflective reader (dukkha as the first noble truth)"
+    }
+  ],
+  "see_also": [
+    "sukha",
+    "samsara",
+    "santi",
+    "prarabdha",
+    "vairagya",
+    "kaivalya"
+  ],
+  "translator_note": "'Suffering' is the standard rendering; 'unsatisfactoriness' is often closer, especially in Buddhist contexts, since *duḥkha* is not only acute pain but the pervasive unease of conditioned existence — the wheel running roughly against its axle, against *sukha*'s smooth running. Keep the threefold taxonomy (*ādhyātmika*, *ādhibhautika*, *ādhidaivika*) explicit where the commentaries use it: it is a named technical category (*tāpa-traya*), not a casual list, and it frames the Gītā commentators' reading of the verses on equanimity. Do not render *duḥkha* as mere 'unhappiness' or 'sadness', which understate its structural, existence-pervading sense."
+}

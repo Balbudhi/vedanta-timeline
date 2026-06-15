@@ -1,0 +1,47 @@
+{
+  "term_key": "pratistha",
+  "term_iast": "pratiṣṭhā",
+  "term_devanagari": "प्रतिष्ठा",
+  "literal": "firm standing, foundation, establishment; action-noun from prati- ('firmly, against') + √sthā 'to stand' (prati-sthā + a + ṭāp → pratiṣṭhā), 'a standing firm', hence ground, support, settled basis. The participle pratiṣṭhita = 'firmly established, set fast'",
+  "aliases": [
+    "pratistha",
+    "pratiṣṭhā",
+    "Pratiṣṭhā",
+    "pratiṣṭhitā",
+    "pratiṣṭhitaḥ",
+    "pratiṣṭhitam",
+    "pratiṣṭhita",
+    "supratiṣṭhita",
+    "acala-pratiṣṭha",
+    "acalapratiṣṭham"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Pratiṣṭhā* is firm standing — the settled foundation or fixed basis on which something rests, and by extension the state of being firmly established. The participle *pratiṣṭhita* ('firmly fixed') and the abstract *pratiṣṭhā* run as a refrain through the *sthitaprajña* passage of the *Bhagavad-Gītā*: the recurring measure of attainment is that 'his wisdom stands firm' (*tasya prajñā pratiṣṭhitā*, 2.57, 2.58, 2.61, 2.68), and the image of the unmoved sea 'fixed in its own stillness' (*acala-pratiṣṭham*, 2.70) gives the same idea concrete form. The word names exactly what the whole discourse is about — not the having of right insight but its becoming *steady*, unshakable under the pull of objects, pleasure, and pain. The same root underlies *sthita* in *sthitaprajña* and *samādhi-stha*, so *pratiṣṭhā* sharpens that family: where *sthita* means 'standing', *prati-* adds the sense of standing *firmly, set fast*. In Upaniṣadic and ritual usage *pratiṣṭhā* also names the ground or support of the world or of a rite (that on which all rests), and the term carries this further sense of an ultimate foundation; in the *Gītā* Brahman itself is called the *pratiṣṭhā* of the deathless and immutable (14.27). The two senses converge: to be *pratiṣṭhita* in wisdom is to rest one's standing on the only unshakable ground.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Pratiṣṭhā* names **firm standing — the settled, unshakable foundation, and the state of being established upon it**. In the *sthitaprajña* context all readers take *prajñā pratiṣṭhitā* in the same way: insight that has become steady rather than occasional. The deeper sense of an ultimate ground (that on which all rests) is likewise broadly shared, though the schools differ on what that ground finally is.",
+    "register_axes_note": "Largely **shared** as a term for steadiness and for foundation. The only divergence is downstream, in what counts as the final *pratiṣṭhā* — Brahman as the non-dual ground (Advaita), the Lord as the support of all dependent reality (the theistic Vedāntas) — but the *Gītā*'s use in 2.54–72 is the practical one of wisdom made firm."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "In the *sthitaprajña* discourse *pratiṣṭhita* is the repeated criterion of attainment: 'his wisdom stands firm' (*tasya prajñā pratiṣṭhitā*, 2.57, 2.58, 2.61, 2.68), and the unmoved ocean 'fixed in its own place' (*acala-pratiṣṭham*, 2.70) supplies the governing image. Śaṅkara stresses that the discourse aims at the *sthairya* (steadiness) of the discriminative insight (*samyag-darśanātmikāyāḥ prajñāyāḥ sthairyaṃ kartavyam*, gloss on 2.59): the task is not to gain insight but to make it firm. In the wider Gītā Brahman is named the *pratiṣṭhā* of the immortal and immutable (14.27), the ground on which the steadied self comes to rest.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.57-58, 2.61, 2.68 (tasya prajñā pratiṣṭhitā)",
+        "Bhagavad-Gītā 2.70 (acala-pratiṣṭham — the unmoved sea)",
+        "Bhagavad-Gītā 14.27 (brahmaṇo hi pratiṣṭhā 'ham)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    }
+  ],
+  "see_also": [
+    "sthitaprajna",
+    "prajna",
+    "buddhi",
+    "samadhi",
+    "brahman",
+    "nistha"
+  ],
+  "translator_note": "Render the participle *pratiṣṭhita* as 'firmly established' or 'standing firm', and the noun *pratiṣṭhā* as 'firm standing' or 'foundation', keeping the spatial metaphor of *standing* alive. The refrain *prajñā pratiṣṭhitā* should not be flattened to 'he is wise': its whole point is that the wisdom has become *steady*, unshaken by what would normally move it, which is the difference between insight and the *sthitaprajña*'s settled wisdom. Where the word means an ultimate ground or support (as at 14.27), 'foundation' or 'ground' is preferable to 'establishment'."
+}

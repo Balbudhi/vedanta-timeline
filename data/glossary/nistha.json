@@ -1,0 +1,56 @@
+{
+  "term_key": "nistha",
+  "term_iast": "niṣṭhā",
+  "term_devanagari": "निष्ठा",
+  "literal": "firm standing-in, steadfastness, culmination; action-noun from ni- ('down, into') + √sthā 'to stand' (ni-√sthā + ktin → niṣṭhā, with retroflexion), 'a standing firmly within' — settled devotion to or establishment in a course, and (in another use) the consummation or end-point of a thing",
+  "aliases": [
+    "nistha",
+    "niṣṭhā",
+    "Niṣṭhā",
+    "niṣṭhāyāḥ",
+    "niṣṭhām",
+    "jñāna-niṣṭhā",
+    "jñāna-niṣṭha",
+    "karma-niṣṭhā",
+    "sāṃkhya-niṣṭhā",
+    "ātma-niṣṭhā"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Niṣṭhā* is steadfast establishment — the condition of standing firmly within a course or discipline, settled and undivided adherence to it. The *Bhagavad-Gītā* makes the word a structural term for its two paths: 'two niṣṭhās were taught of old by me' — the *jñāna-yoga* of the Sāṅkhyas and the *karma-yoga* of the yogins (3.3). *Jñāna-niṣṭhā* (steadfastness in knowledge) and *karma-niṣṭhā* (steadfastness in action) thereby name the two settled orientations between which the Gītā's teaching is organized, and the relation between them — successive, alternative, or combined — is one of the central problems of its interpretation. In the *sthitaprajña* commentary the term is load-bearing: Śaṅkara reads the whole portrait of the man of settled wisdom as a description of *jñāna-niṣṭhā*, the renunciate established in self-knowledge, and Madhusūdana closes the chapter by saying the Lord 'praises the *sāṃkhya-niṣṭhā* (steadfastness in knowledge), the fruit of *karma-yoga*' as he sums up (gloss on 2.72). A second, grammatical-lexical use of *niṣṭhā* belongs to Sanskrit grammar, where it names the class of past participles in -ta and -tavat (*kta* and *ktavatu*); this is a distinct technical sense and not in play in the soteriological passages. In the doctrinal register, *niṣṭhā* is the steady, undivided footing in a discipline — knowledge or action — that the Gītā holds up as the mark of the established self.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Niṣṭhā* names **steadfast, undivided establishment in a course or discipline — settled footing in a path**. In the Gītā it is the structural term for the two orientations, *jñāna-niṣṭhā* and *karma-niṣṭhā*; the schools agree on the term's meaning but divide sharply on the relation and relative standing of the two niṣṭhās.",
+    "register_axes_note": "**Real disagreement** over which *niṣṭhā* liberates and how the two relate. Śaṅkara reads the *sthitaprajña* as the picture of *jñāna-niṣṭhā* — the knowledge-established renunciate — and treats *karma-yoga* as preparatory to it. Rāmānuja and the karma-yoga reading take *karma-niṣṭhā* (disinterested action offered to the Lord) as the operative discipline for most, with knowledge integral to but not displacing action. The same term frames opposed accounts of the path."
+  },
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Śaṅkara takes the *sthitaprajña* discourse as the description of *jñāna-niṣṭhā*: the man of settled wisdom is the renunciate established in self-knowledge, and the qualifications enumerated (2.55-72) are the natural marks of one footed in knowledge as well as the means a seeker cultivates. He sharply distinguishes *jñāna-niṣṭhā* from *karma-niṣṭhā* (3.3), holding that the knower of the non-dual self has, by the renunciation of action, his footing in knowledge alone; *karma-yoga* purifies the mind and leads up to, but does not constitute, that final establishment.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Śaṅkara) on 3.3 (dve niṣṭhe — jñāna-yoga and karma-yoga)",
+        "Gītā-Bhāṣya (Śaṅkara) introduction and on 2.55-72 (the sthitaprajña as jñāna-niṣṭha)",
+        "Gūḍhārtha-dīpikā (Madhusūdana) on 2.72 (sāṃkhya-niṣṭhā, the fruit of karma-yoga, praised)"
+      ],
+      "register_tag": "M+S; jñāna-niṣṭha saṃnyāsī"
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja treats the two niṣṭhās as suited to different qualifications but gives the working primacy to *karma-niṣṭhā* — steadfast, disinterested action offered to the Lord — as the discipline appropriate to the embodied seeker; *jñāna* is integral to it rather than a separate, action-displacing footing. The *sthitaprajña*'s steadiness is read as the firmness of the disciplined devotee whose action and knowledge culminate in *bhakti*, not as the renunciate's withdrawal from works.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Rāmānuja) on 3.3 (the two niṣṭhās and their adhikārins)",
+        "Gītā-Bhāṣya (Rāmānuja) on 2.39ff (the turn to karma-yoga)"
+      ],
+      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT with Advaita on the primacy of niṣṭhā]"
+    }
+  ],
+  "see_also": [
+    "jnana",
+    "karma",
+    "niskama-karma",
+    "samnyasa",
+    "sthitaprajna",
+    "pratistha"
+  ],
+  "translator_note": "Render *niṣṭhā* as 'steadfastness', 'firm establishment', or 'settled footing', not merely 'devotion' (which suggests *bhakti*) or 'faith' (*śraddhā*). The Gītā's *jñāna-niṣṭhā* and *karma-niṣṭhā* are best given as 'steadfastness in knowledge' and 'steadfastness in action': they name settled orientations to a discipline, and the whole interpretive debate turns on their relation, which an over-loose rendering obscures. Note the entirely separate grammatical sense — *niṣṭhā* as the technical name for the -ta/-tavat past participles in Pāṇinian grammar — which is not in play in the soteriological passages and should not be conflated with the doctrinal use."
+}

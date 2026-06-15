@@ -1,0 +1,64 @@
+{
+  "term_key": "klesa",
+  "term_iast": "kleśa",
+  "term_devanagari": "क्लेश",
+  "literal": "affliction, defilement, distress; action-noun from √kliś 'to torment, to be afflicted, to suffer' (kliś + ghañ → kleśa), 'that which torments' — the disturbances that afflict the mind and bind the self",
+  "aliases": [
+    "klesa",
+    "kleśa",
+    "Kleśa",
+    "kleśāḥ",
+    "kleśaḥ",
+    "kleśān",
+    "pañca-kleśa",
+    "kilesa",
+    "kleśārṇava"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Kleśa* is an affliction or defilement — a disturbance of mind that torments the subject and sustains bondage. Its most precise technical use is in Pātañjala Yoga, where the *kleśas* are the five afflictions that structure saṃsāric involvement: *avidyā* (ignorance), *asmitā* (I-am-ness), *rāga* (attraction), *dveṣa* (aversion), and *abhiniveśa* (clinging to life/fear of death) (YS 2.3). *Avidyā* is named their common field (*kleśa-kṣetra*), the soil in which the rest grow (YS 2.4); they may be dormant, attenuated, intercepted, or active (YS 2.4), and they are the root of the *karmāśaya* whose maturation is experience (YS 2.12). They are thinned by *kriyā-yoga* (YS 2.1-2) and finally dissolved, in their subtle seed-form, by discriminative knowledge. Buddhist analysis has the cognate *kleśa* (Pali *kilesa*) — the defilements, headed by greed, hatred, and delusion (the three *akusala-mūla*) — whose extinction is liberation. In the *sthitaprajña* commentaries the term is not a verse-word but supplies the diagnostic vocabulary: the standing afflictions *rāga*, *bhaya*, and *krodha* whose disappearance marks the man of settled wisdom (2.56) are *kleśa*-products, and Madhusūdana figures unending saṃsāric agitation as a *kleśārṇava*, an 'ocean of affliction', into which the craving-driven (*kāma-kāmī*) sink (gloss on 2.70). *Kleśa* thus names the family of mental disturbances that the disciplines exist to remove.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Kleśa* names **the afflictions or defilements of mind that torment the subject and sustain bondage — the disturbances whose removal is the work of the disciplines**. The traditions share both the diagnosis (mental affliction as the engine of saṃsāra) and the soteriology (liberation as their cessation); they differ on the enumeration and on the metaphysics of their final removal.",
+    "register_axes_note": "**Same family, different enumerations.** Yoga fixes a precise list of five *kleśas* rooted in *avidyā* (YS 2.3-4). Buddhism speaks of the *kleśas/kilesas* headed by the three unwholesome roots (greed, hatred, delusion). The Vedānta commentaries use the term diagnostically rather than as a closed list — *rāga*, *bhaya*, *krodha*, and the rest are *kleśa*-products to be dissolved by knowledge — so the same word does technical work of varying precision across the schools."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "The five *kleśas* — *avidyā*, *asmitā*, *rāga*, *dveṣa*, *abhiniveśa* — are the afflictions that structure bound existence (YS 2.3); *avidyā* is their common field (YS 2.4), and they exist in dormant, attenuated, intercepted, or active states. They are the root of the *karmāśaya* and its maturation (YS 2.12), thinned by *kriyā-yoga* (YS 2.1-2) and dissolved at the level of their subtle seeds by *prasaṅkhyāna* and discriminative knowledge (YS 2.10-11).",
+      "primary_loci": [
+        "Yoga-Sūtra 2.3 (the five kleśas)",
+        "Yoga-Sūtra 2.4 (avidyā as kleśa-kṣetra)",
+        "Yoga-Sūtra 2.10-12 (the thinning and dissolution of the kleśas)"
+      ],
+      "register_tag": "Φ+S; yogin (the pañca-kleśa)"
+    },
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "The Gītā commentaries treat the afflictions diagnostically: the standing disturbances *rāga*, *bhaya*, and *krodha* whose disappearance marks the *sthitaprajña* (2.56) are *kleśa*-products, and the destruction of sorrow at 2.65 follows because the *prasāda* of mind removes the affliction at its root. Madhusūdana figures the lot of the craving-driven as drowning in a *kleśārṇava*, an ocean of affliction (gloss on 2.70), from which the man of settled wisdom, like the unmoved sea, is free. Affliction is finally dissolved not by suppression but by knowledge of the real, which removes the *avidyā* underlying it.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.56 (vīta-rāga-bhaya-krodhaḥ)",
+        "Gūḍhārtha-dīpikā (Madhusūdana) on 2.70 (kleśārṇave magnaḥ)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Kleśa* (Pali *kilesa*) names the defilements of mind, headed by the three unwholesome roots — greed (*lobha*), hatred (*dosa*), delusion (*moha*) — and elaborated in longer lists. The defilements are what bind beings to the round; their progressive abandonment along the path and final extinction (the going-out of the fires) is liberation. As in Yoga, the deepest defilement is the delusion/ignorance from which the rest proceed.",
+      "primary_loci": [
+        "the three akusala-mūla (lobha, dosa, moha) as root defilements",
+        "the abandonment of the kilesas along the path"
+      ],
+      "register_tag": "Φ+S; reflective reader (kilesa as defilement)"
+    }
+  ],
+  "see_also": [
+    "raga",
+    "dvesa",
+    "avidya",
+    "ahankara",
+    "krodha",
+    "moksa"
+  ],
+  "translator_note": "Render *kleśa* as 'affliction' or 'defilement', keeping the active, tormenting sense of √kliś; 'affliction' is preferable in Yoga (where the *kleśas* are disturbances that bind), 'defilement' in Buddhist contexts (where the *kilesas* stain the mind). Do not weaken it to 'trouble' or 'stress': a *kleśa* is a structural disturbance of mind that sustains bondage, not a passing difficulty. In Yoga the word names a precise list of five rooted in *avidyā*; do not import that fixed enumeration into the looser Vedāntic and Buddhist uses, where the term names the family of mental afflictions more broadly."
+}

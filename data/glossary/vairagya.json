@@ -1,0 +1,57 @@
+{
+  "term_key": "vairagya",
+  "term_iast": "vairāgya",
+  "term_devanagari": "वैराग्य",
+  "literal": "dispassion, freedom from coloring; abstract noun (vṛddhi-derivative with -ya) from vi-rāga 'without passion' (vi- 'away from' + rāga 'coloring, passion', from √rañj 'to be dyed/attached'), 'the state of being uncolored' — the absence of the mind's being dyed by objects",
+  "aliases": [
+    "vairagya",
+    "vairāgya",
+    "Vairāgya",
+    "vairāgyam",
+    "vairāgyeṇa",
+    "virāga",
+    "virakti",
+    "viraktiḥ",
+    "vigata-spṛha",
+    "nirveda"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Vairāgya* is dispassion — the state of being 'uncolored' (*vi-rāga*) by objects, the settled absence of craving for what is seen or heard of. It is the positive counterpart of the cessation of *rāga*: not aversion to objects but freedom from their pull. Across the disciplines *vairāgya* is the indispensable companion of practice (*abhyāsa*): in Pātañjala Yoga the *vṛttis* are stilled 'by practice and dispassion' (*abhyāsa-vairāgyābhyām*, YS 1.12), and *vairāgya* is defined as the mastery (*vaśīkāra-saṃjñā*) of one who has ceased to thirst for objects experienced or reported (YS 1.15), with a higher (*para*) dispassion that follows the vision of *puruṣa* (YS 1.16). In Advaita *vairāgya* is one of the four qualifications (*sādhana-catuṣṭaya*) for inquiry — dispassion toward enjoyments here and hereafter — without which *śravaṇa* and the rest cannot take hold. In the *sthitaprajña* discourse the same condition appears as *vigata-spṛha* ('with craving gone', 2.56) and is the force behind 2.59's *rasa-varjam*: the man of knowledge has lost not merely contact with objects but the very relish (*rasa*) for them. *Vairāgya* is thus distinguished from forced abstention — the senses of the sick or the faster turn from objects while the relish remains; true dispassion is the disappearance of the relish itself, which, in the Vedāntic reading, only knowledge of the supreme can effect.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Vairāgya* names **dispassion — the settled absence of craving for objects, the mind no longer 'colored' by them**. The disciplines converge in treating it as the necessary counterpart of practice and as distinct from mere abstention; they differ on whether dispassion is itself sufficient, a prerequisite to be supplemented by knowledge, or the fruit of realization.",
+    "register_axes_note": "Largely **shared** as a discipline-term. The framings differ in placement: Yoga makes *vairāgya* one of the two means of *nirodha* and grades it into ordinary and higher (post-puruṣa-vision) dispassion; Advaita makes it a qualification (*sādhana*) for inquiry; the Gītā reading treats the deepest dispassion (*rasa-varjam*) as itself a consequence of the vision of the supreme, so that here dispassion is as much fruit as means."
+  },
+  "per_school": [
+    {
+      "school": "Yoga",
+      "definition": "*Vairāgya* is, with *abhyāsa* (practice), one of the two means of stilling the *citta-vṛttis* (YS 1.12). It is defined as the *vaśīkāra-saṃjñā* — the consciousness of mastery — of one who has ceased to thirst for objects experienced or heard of (YS 1.15); the higher *vairāgya* (*para-vairāgya*) is the thirstlessness toward even the *guṇas* that arises from the vision of *puruṣa* (YS 1.16). Dispassion is thus both an ordinary discipline and, at its summit, the effect of discrimination.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.12 (abhyāsa-vairāgyābhyāṃ tan-nirodhaḥ)",
+        "Yoga-Sūtra 1.15 (vairāgya as vaśīkāra-saṃjñā)",
+        "Yoga-Sūtra 1.16 (para-vairāgya from puruṣa-khyāti)"
+      ],
+      "register_tag": "Φ+S; yogin"
+    },
+    {
+      "school": "Advaita",
+      "definition": "*Vairāgya* is the second of the four qualifications (*sādhana-catuṣṭaya*) for the inquiry into Brahman — dispassion toward the enjoyment of fruits here and in higher worlds — without which the means of knowledge (*śravaṇa*, *manana*, *nididhyāsana*) cannot bear fruit. In the *sthitaprajña* discourse Śaṅkara reads the deepest dispassion (the *rasa-varjam* of 2.59) not as forced abstention but as the disappearance of the very relish for objects, which only *samyag-darśana* — knowledge of the supreme — finally effects.",
+      "primary_loci": [
+        "Vivekacūḍāmaṇi (vairāgya among the sādhana-catuṣṭaya)",
+        "Vedānta-Sāra (the qualifications for inquiry)",
+        "Gītā-Bhāṣya (Śaṅkara) on 2.59 (rasa-varjam; rasa as rāga, removed by samyag-darśana)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    }
+  ],
+  "see_also": [
+    "raga",
+    "rasa",
+    "kama",
+    "visaya",
+    "samnyasa",
+    "sthitaprajna"
+  ],
+  "translator_note": "'Dispassion' or 'detachment' is accurate; 'renunciation' is not — that is *saṃnyāsa* (an outward giving-up), whereas *vairāgya* is the inward absence of craving and may be present with or without formal renunciation. Keep the literal image alive where it helps: *vi-rāga* is the mind *not colored* by objects, the negative of *rāga* (the coloring of attachment). The crucial distinction the texts draw is between *vairāgya* and mere abstention: the senses can be kept from objects while the relish (*rasa*) persists, which is not yet dispassion. True *vairāgya* is the disappearance of the relish itself."
+}

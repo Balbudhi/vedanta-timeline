@@ -1,0 +1,58 @@
+{
+  "term_key": "dehin",
+  "term_iast": "dehin",
+  "term_devanagari": "देहिन्",
+  "literal": "the embodied one, possessor of a body; from deha 'body' (√dih 'to smear, to plaster up, to form') + possessive suffix -in (matup-class), 'one who has a body'",
+  "aliases": [
+    "dehin",
+    "dehī",
+    "Dehin",
+    "dehinaḥ",
+    "dehino",
+    "deham",
+    "deha",
+    "dehavat",
+    "dehābhimāna",
+    "dehābhimānin",
+    "śarīrin",
+    "dehavataḥ"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Dehin* — 'the embodied one' — is the self considered as the possessor of a body, the conscious subject that wears and outlasts the body it inhabits. The *Bhagavad-Gītā* uses the word as a near-synonym of *ātman* in its teaching on the imperishable self: 'as the embodied one (*dehin*) passes through childhood, youth, and age in this body, so it passes to another body' (2.13), and 'the embodied one in the body of everyone is eternally unslayable' (2.30, *dehī nityam avadhyo 'yaṃ dehe sarvasya*). The term is deliberately relational: it names not a free-standing essence but the self precisely insofar as it stands in a body, and so it carries the whole problem of embodiment — how the changeless self comes to be 'in' the changing body, and how that relation is to be understood and ultimately seen through. In the commentaries on 2.59 the cognate *dehābhimāna* ('body-identification') marks the error that the *sthitaprajña* has overcome: the ignorant (*ajña*) is a *dehin* who takes himself to be the body (*dehābhimānin*), whereas the knower, though still embodied, no longer identifies with the body. *Dehin* thus sits at the join between the metaphysics of the self and the diagnosis of bondage as mis-identification with the body.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Dehin* names **the self regarded as the possessor and inhabitant of a body — the conscious subject that the body clothes and outlasts**. The schools share this relational sense and the contrast it draws between the embodied self and the body it wears; they differ on the metaphysics of the relation — whether body-tenancy is an *upādhi*-conditioned appearance, a real but dependent mode, or the eternally distinct soul's real conjunction with matter.",
+    "register_axes_note": "**Same concept, different aspect**: all the Vedāntic readings agree that *dehin* names the self over against the body, but Advaita treats the embodiment-relation as superimposed (*adhyāsa*) and removable by knowledge, while the theistic and pluralist schools treat the soul's tenancy of bodies as a real condition under *karma*. The *Gītā*'s own use is pre-systematic: it asserts the self's distinctness from and persistence beyond the body without yet fixing the metaphysics of the relation."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "In the *Gītā* *dehin* is the imperishable self that passes through the body's stages and from body to body (2.13, 2.22), 'eternally unslayable in the body of everyone' (2.30). Śaṅkara reads *dehin* as the *ātman* whose embodiment is sustained by *avidyā*: the cognate *dehābhimāna* (taking oneself to be the body) is the error overcome in realization, so that the knower, though a *dehin* in appearance, no longer identifies with the body (gloss on 2.59, *dehino dehābhimānavataḥ*). The whole *sthitaprajña* teaching presupposes this distinction between the embodied self and the body-identification that binds it.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.13 (dehino 'smin yathā dehe)",
+        "Bhagavad-Gītā 2.22, 2.30 (dehī nityam avadhyaḥ)",
+        "Bhagavad-Gītā 2.59 (Śaṅkara: dehino dehābhimānavataḥ)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "The *dehin* is the *dehātirikta* self — eternal, atomic, and distinct in each body — that stands to its body as the embodied soul to its instrument, and stands in turn to the *antaryāmin* as the self-body (*śarīra-śarīrin*) relation. Embodiment is real, not superimposed; bondage is the soul's beginningless karmic enclosure in successive bodies, and liberation its release and ascent, not the dissolution of an illusory body-relation.",
+      "primary_loci": [
+        "Vedārtha-Saṅgraha (the dehātirikta self and śarīra-śarīrin relation)",
+        "Gītā-Bhāṣya (Rāmānuja) on 2.12-13 (the plurality and persistence of selves)"
+      ],
+      "register_tag": "M+S; prapanna"
+    }
+  ],
+  "see_also": [
+    "atman",
+    "jiva",
+    "sarira-saririn-bhava",
+    "ahankara",
+    "avidya",
+    "adhyasa"
+  ],
+  "translator_note": "Render *dehin* as 'the embodied one' or 'the embodied self', not simply 'the body' (which is *deha*) and not 'the soul' with its imported substance-and-afterlife connotations. The word is built to be relational: it names the self *as having* a body, which is precisely why the Gītā can say the *dehin* passes from one body to another. The cognate *dehābhimāna* — identifying oneself with the body — is the error the term throws into relief, and English should keep the self/body distinction sharp where the Sanskrit does."
+}

@@ -1,0 +1,67 @@
+{
+  "term_key": "visaya",
+  "term_iast": "viṣaya",
+  "term_devanagari": "विषय",
+  "literal": "object, domain, sphere, sense-object; from vi- + √si 'to extend, to range over' (or by traditional analysis the field over which sense and mind 'range'), hence 'that toward which an organ ranges' — the proper object of a sense or faculty",
+  "aliases": [
+    "visaya",
+    "viṣaya",
+    "Viṣaya",
+    "viṣayaḥ",
+    "viṣayāḥ",
+    "viṣayān",
+    "viṣaye",
+    "viṣayeṣu",
+    "viṣayebhyaḥ",
+    "indriyārtha",
+    "indriyārthebhyaḥ",
+    "viṣayārtha"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Viṣaya* is the object of a sense-organ or faculty — the 'sphere' over which a given *indriya* ranges: sound for hearing, form for sight, and so on, the five classes summed in the commentaries as *śabdādi* ('sound and the rest'). More broadly it names any object of cognition, desire, or activity, and in technical contexts the topic or scope of an inquiry (as in *viṣaya-vākya*, the statement of a topic). In the soteriological literature *viṣaya* carries a definite charge: the senses run outward to their objects (*indriyāṇi viṣayeṣu carantaḥ*), and it is contact with, dwelling upon, and craving for objects that drives the chain into bondage. The *Bhagavad-Gītā*'s analysis of the *sthitaprajña* turns on the right relation to *viṣaya*: the disciplined self withdraws the senses from their objects as a tortoise draws in its limbs (2.58), and even when objects are unavoidably encountered (*viṣayān caran*) moves among them with attraction and aversion withdrawn (2.64). The commentators are careful to distinguish the mere cessation of sense-contact — possible even for the sick or the faster — from the cessation of *rāga* for objects, which only knowledge of the real (*paramārtha-darśana*) effects; this is the point of 2.59's *rasa-varjam* ('except for the relish'). *Viṣaya* is thus less a neutral 'object' than the field whose pull the disciplines aim to neutralize.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Viṣaya* names **the proper object of a sense-organ or faculty, and by extension any object of cognition, desire, or activity**. The schools share this structural sense — the correlate of an *indriya* — and share the soteriological diagnosis that craving for *viṣayas* drives bondage. They differ on the ontological status of the objects (real evolutes of *prakṛti*, real but dependent, or appearances within ignorance), not on the term's analytic role.",
+    "register_axes_note": "Largely **shared** as a structural term of sense-theory. The framings diverge downstream: realist schools (Sāṅkhya, Nyāya, Mīmāṃsā, the theistic Vedāntas) treat *viṣayas* as real objects rightly grasped by the senses; Advaita treats the sense-object world as *vyāvahārika* and ultimately *avidyā-kalpita*, so the cessation of attachment to *viṣaya* coincides with the dawning of *paramārtha-darśana*."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "*Viṣaya* is the field from which the *sthitaprajña* withdraws the senses 'as a tortoise its limbs' (2.58), yet which he may still encounter unavoidably (*viṣayān caran*, 2.64) without being moved. Śaṅkara distinguishes the cessation of sense-contact, which befalls even the faster or the sick, from the cessation of *rasa* (relish) for objects, which only direct knowledge of the supreme effects (gloss on 2.59, *rasa-varjam*); for him the objects belong to the *vyāvahārika* order that *avidyā* sustains. Madhusūdana adds that dwelling on objects (*viṣayān dhyāyataḥ*) is the first link of the descent of 2.62–63. The right relation to *viṣaya* is therefore not abstention alone but the withdrawal of the appetitive charge by which objects bind.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.58-59 (indriyāṇi indriyārthebhyaḥ; rasa-varjam)",
+        "Bhagavad-Gītā 2.62-63 (viṣayān dhyāyataḥ ... saṅgaḥ ... kāmaḥ)",
+        "Bhagavad-Gītā 2.64 (viṣayān caran ... prasādam adhigacchati)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "*Viṣayas* are the *tanmātras* and the gross elements that develop from them, grasped by the *jñānendriyas*; sound, touch, form, taste, and smell are the proper objects (*viṣaya*) of the five cognitive senses. They are real evolutes of *prakṛti* whose enjoyment is for the sake of *puruṣa*; liberation lies not in their unreality but in *puruṣa*'s ceasing to mis-take itself as their enjoyer.",
+      "primary_loci": [
+        "Sāṅkhya-Kārikā 22 (the evolutes from prakṛti)",
+        "Sāṅkhya-Kārikā 28 (the function of the senses as ālocana of their viṣayas)"
+      ],
+      "register_tag": "M+E; reflective reader"
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "*Viṣaya* is the object-term of the perceptual relation: perception arises from sense-object contact (*indriyārtha-sannikarṣa*, NS 1.1.4), so the *viṣaya* is the real, external thing grasped through that contact. The realist analysis treats objects as mind-independent substances, qualities, and motions, against any reduction of the object to a mode of cognition.",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.4 (indriyārtha-sannikarṣa)",
+        "Vaiśeṣika categories (dravya, guṇa, karma as objects)"
+      ],
+      "register_tag": "M+E; reflective reader (viṣaya as real external object)"
+    }
+  ],
+  "see_also": [
+    "indriya",
+    "manas",
+    "kama",
+    "raga",
+    "rasa",
+    "vairagya"
+  ],
+  "translator_note": "'Object' is the safe rendering, but 'sense-object' is often closer, since in the practical passages *viṣaya* means specifically the *śabdādi* — sound, touch, form, taste, smell — toward which the *indriyas* run. The English 'object' loses the appetitive connotation the word carries here: a *viṣaya* is not a neutral item but the field whose pull the disciplines work to neutralize. In logical and exegetical contexts the same word means the 'topic' or 'scope' of an inquiry (*viṣaya-vākya*), which should not be confused with the sense-theoretic use."
+}

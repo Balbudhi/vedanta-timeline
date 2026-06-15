@@ -1,0 +1,58 @@
+{
+  "term_key": "samnyasa",
+  "term_iast": "saṃnyāsa",
+  "term_devanagari": "संन्यास",
+  "literal": "complete laying-down, renunciation; action-noun from sam- ('completely') + ni- ('down') + √as 'to throw, to cast' (sam-ni-√as + ghañ → saṃnyāsa), 'a casting-down completely' — the laying-aside of action and of possessions. The agent-noun saṃnyāsin = 'one who has laid all down', the renunciant",
+  "aliases": [
+    "samnyasa",
+    "saṃnyāsa",
+    "sannyāsa",
+    "Saṃnyāsa",
+    "saṃnyāsaḥ",
+    "saṃnyāsam",
+    "saṃnyāsī",
+    "saṃnyāsin",
+    "sannyāsī",
+    "saṃnyasya",
+    "sarva-karma-saṃnyāsa",
+    "vidvat-saṃnyāsa"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Saṃnyāsa* is renunciation — the complete laying-down of action, possessions, and the marks of social-ritual identity. In its outward form it is the fourth and last of the four life-stages (*āśramas*), in which one abandons home, property, and the obligatory rites and lives as a homeless mendicant (*saṃnyāsin*, *parivrājaka*) intent on liberation. In the *Bhagavad-Gītā* and its Advaita commentary the word carries a double weight. There is *karma-saṃnyāsa*, the formal renunciation of works, and behind it the deeper sense Śaṅkara presses throughout the *sthitaprajña* passage: the *sthitaprajña* is described as the *saṃnyāsin* who has given up the desire for sons, wealth, and worlds (gloss on 2.55), and the whole of 2.55–72 is read by him as a portrait of the renunciate established in knowledge (*jñāna-niṣṭhā*). For Advaita the renunciation that finally matters is *vidvat-saṃnyāsa* — the renunciation that follows knowledge, in which all action is laid down because the knower no longer has any stake in agency. The theistic and karma-yoga readings, by contrast, distinguish *saṃnyāsa* (renunciation of action) from *tyāga* (renunciation of the fruits of action while acting) and emphasize the latter, holding that disinterested action, not the abandonment of works, is the proper path for most. *Saṃnyāsa* thus marks one of the central fault-lines of Gītā interpretation: whether liberation requires the giving-up of action itself or the giving-up only of attachment to its fruits.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Saṃnyāsa* names **the complete laying-down of action and possessions — outwardly the mendicant life-stage, inwardly the relinquishing of agency and its stakes**. All schools recognize the institution and the renunciant; they disagree sharply on its soteriological necessity and on its relation to action.",
+    "register_axes_note": "**Real disagreement** over whether liberation requires *karma-saṃnyāsa* (the renunciation of works itself, the Advaita reading of the *sthitaprajña* as *jñāna-niṣṭha saṃnyāsin*) or whether the operative renunciation is *tyāga* — disinterested action retaining works while abandoning attachment to their fruits (the karma-yoga and theistic reading). Same term, opposed claims about the path; the Gītā's own juxtaposition of *saṃnyāsa* and *yoga* in chapters 3 and 5 is the locus of the debate."
+  },
+  "per_school": [
+    {
+      "school": "Advaita",
+      "definition": "Śaṅkara reads the *sthitaprajña* discourse as a portrait of the *saṃnyāsin* established in knowledge: the man of settled wisdom is one who has renounced the desire for sons, wealth, and worlds (*tyakta-putra-vitta-lokaiṣaṇaḥ saṃnyāsī*, gloss on 2.55), and the discourse closes with *sarvaṃ karma saṃnyasya* — abiding in Brahman by renouncing all action (gloss on 2.71–72). For Advaita the decisive renunciation is *vidvat-saṃnyāsa*, the laying-down of action that follows realization, since the knower of the non-dual self has no remaining ground for agency; *jñāna-niṣṭhā* and the renunciation of works belong together.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Śaṅkara) on 2.55 (saṃnyāsī, tyakta-eṣaṇaḥ)",
+        "Gītā-Bhāṣya (Śaṅkara) on 2.71-72 (sarvaṃ karma saṃnyasya)",
+        "Gītā-Bhāṣya (Śaṅkara) on 5.1-6 (saṃnyāsa and karma-yoga)"
+      ],
+      "register_tag": "M+S; saṃnyāsī"
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja subordinates *saṃnyāsa* in the sense of abandoning works to *karma-yoga*: what is to be renounced is attachment to the fruits and the sense of oneself as independent agent (*kartṛtva*), not action as such. The disciplined performance of one's duties offered to the Lord, with agency assigned to him, is the proper discipline; formal renunciation of works is neither necessary for nor identical with the path to liberation, which culminates in *bhakti* and the surrendered soul's service.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Rāmānuja) on 5.2 (karma-yoga preferred to saṃnyāsa)",
+        "Gītā-Bhāṣya (Rāmānuja) on 18.2-11 (saṃnyāsa as tyāga of phala and kartṛtva)"
+      ],
+      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT with Advaita on renunciation of action]"
+    }
+  ],
+  "see_also": [
+    "niskama-karma",
+    "karma",
+    "muni",
+    "jnana",
+    "moksa",
+    "nistha"
+  ],
+  "translator_note": "'Renunciation' is the standard rendering, but English readers should keep two distinctions in view that the texts insist on. First, *saṃnyāsa* as the mendicant life-stage is not the same as the inner renunciation that the Gītā commentaries debate. Second, *saṃnyāsa* (renunciation of action) is regularly contrasted with *tyāga* (renunciation of the fruits of action while still acting): much of Gītā interpretation turns on which of these liberation requires. Do not let 'renunciation' collapse these, and do not read the word as world-weariness or asceticism for its own sake — its point is the laying-down of agency and its stakes, whether by abandoning works or by acting without claim on their results."
+}

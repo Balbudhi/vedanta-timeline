@@ -1,0 +1,66 @@
+{
+  "term_key": "santi",
+  "term_iast": "śānti",
+  "term_devanagari": "शान्ति",
+  "literal": "peace, tranquillity, cessation; action-noun from √śam 'to be calm, to cease, to be extinguished' (śam + ktin → śānti), 'the becoming-calm' or 'the ceasing' — both inner quiet and the dying-down of agitation",
+  "aliases": [
+    "santi",
+    "śānti",
+    "Śānti",
+    "śāntiḥ",
+    "śāntim",
+    "śānta",
+    "śāntaḥ",
+    "aśānti",
+    "aśāntasya",
+    "upaśama",
+    "praśānta"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Śānti* is peace: the quieting of mental agitation and, in the strong soteriological sense, the final cessation of the restlessness of saṃsāra. The root √śam means both 'to grow calm' and 'to be extinguished', and *śānti* keeps both — it is at once tranquillity of mind and the dying-down of the disturbances (craving, aversion, the outward run of the senses) that constitute bondage. In the *sthitaprajña* discourse *śānti* is the term in which the teaching repeatedly culminates: 'for the unpeaceful, whence happiness?' (*aśāntasya kutaḥ sukham*, 2.66) makes peace the condition of all well-being; and 2.71 states that the one who acts free of craving, possessiveness, and ego-sense 'attains peace' (*śāntim adhigacchati*) — which Śaṅkara glosses as the cessation of all saṃsāric suffering, identical with the *nirvāṇa* of the next verse. Across the schools *śānti* names the calm that disciplined practice produces and, at the limit, the peace that is liberation itself: *upaśama* (quieting) in Advaita, the stilling of the *vṛttis* in Yoga, the going-out of the fires in Buddhist *nibbāna*. It is distinguished from mere absence of stimulation: *śānti* is the positive composure of a mind whose disturbances have ceased at their root.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Śānti* names **the quieting of mental agitation and, at the limit, the cessation of saṃsāric restlessness — peace as both tranquillity and the dying-down of the disturbances that bind**. The schools share both the practical sense (calm produced by discipline) and the soteriological sense (peace as liberation or its mark); they differ on what the disturbances ultimately are and on whether the final peace is non-dual realization, the soul's rest in the Lord, or the extinction of the fires.",
+    "register_axes_note": "Largely **shared**: peace is an agreed-upon goal-word rather than a contested category. The framings diverge only in identifying the final *śānti* — *upaśama* coincident with *brahma-jñāna* (Advaita), the soul's untroubled rest in service or in the Lord's presence (the theistic Vedāntas), the stilling of the *citta-vṛttis* (Yoga), the going-out that is *nibbāna* (Buddhism)."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "In the *sthitaprajña* discourse *śānti* is the recurring term of culmination: without it there is no happiness (*aśāntasya kutaḥ sukham*, 2.66), and the egoless, craving-free agent 'attains peace' (2.71). Śaṅkara glosses *śānti* here as the cessation of all the suffering of saṃsāra (*sarva-saṃsāra-duḥkhoparama-lakṣaṇām*), identical with the *brahma-nirvāṇa* of 2.72, and elsewhere as *upaśama*, the quieting that knowledge brings; in 2.66 he explicitly ties peace to *ātma-sākṣātkāra*, so that *aśānti* is the lack of self-realization. Peace is thus not a mood but the standing condition of the realized self.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.66 (aśāntasya kutaḥ sukham)",
+        "Bhagavad-Gītā 2.70-71 (sa śāntim āpnoti; śāntim adhigacchati)",
+        "Bhagavad-Gītā 2.72 (śānti glossed as brahma-nirvāṇa)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Yoga",
+      "definition": "Functionally *śānti* corresponds to the settled calm of the *citta* as the *vṛttis* are stilled (YS 1.2); the *praśānta-vāhitā*, the 'peaceful flow' of the mind, is the steadied stream that supports absorption (YS 3.10). Peace here is the progressive quieting of mental fluctuation produced by practice and dispassion, the medium in which discrimination ripens toward *kaivalya*.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.2 (citta-vṛtti-nirodha)",
+        "Yoga-Sūtra 3.10 (praśānta-vāhitā — the peaceful flow)"
+      ],
+      "register_tag": "Φ+S; yogin (śānti as settled citta)"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Śānti* (Pali *santi*) is a standing name for the goal: the peace of *nibbāna*, the going-out of the fires of greed, hatred, and delusion, and the stilling of all conditioned formations (*sabba-saṅkhāra-samatho ... santaṃ*). It is reached through the calm (*samatha*) that concentration produces and the insight (*vipassanā*) that uproots the defilements; peace is the cessation of the disturbances at their root, not mere quiescence.",
+      "primary_loci": [
+        "the description of nibbāna as santa / santi-pada in the suttas",
+        "samatha (calm) as the support of the path"
+      ],
+      "register_tag": "Φ+S; reflective reader (santi as nibbāna)"
+    }
+  ],
+  "see_also": [
+    "brahmanirvana",
+    "moksa",
+    "prasada",
+    "sukha",
+    "vairagya",
+    "samadhi"
+  ],
+  "translator_note": "'Peace' is right, but the English understates the range of √śam: *śānti* is both inner tranquillity and the *extinction* of the disturbances that cause unrest, which is why the Gītā can equate it with *brahma-nirvāṇa*. Avoid reducing it to a passing calm or to mere relaxation — in 2.66 and 2.71 *śānti* is the standing condition of the realized self, the cessation of saṃsāric restlessness, not a mood that comes and goes. The opposite *aśānti* correspondingly means not 'agitation' in general but the unsettledness of the self that has not realized the real."
+}

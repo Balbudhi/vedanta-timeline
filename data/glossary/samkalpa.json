@@ -1,0 +1,54 @@
+{
+  "term_key": "samkalpa",
+  "term_iast": "saṃkalpa",
+  "term_devanagari": "संकल्प",
+  "literal": "conception, resolve, the mind's fashioning of an object or intention; action-noun from sam- ('together') + √kḷp 'to be fit, to arrange, to form' (sam-√kḷp + ghañ → saṃkalpa), 'a putting-together' — the mind's construction of a thing-to-be-attained or a purpose to pursue",
+  "aliases": [
+    "samkalpa",
+    "saṃkalpa",
+    "sankalpa",
+    "Saṃkalpa",
+    "saṃkalpaḥ",
+    "saṃkalpāt",
+    "saṃkalpān",
+    "kāma-saṃkalpa",
+    "vikalpa"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Saṃkalpa* is the mind's fashioning of an object or intention — the act by which the *manas* 'puts together' a thing not present, forms a wish for it, and frames the resolve to obtain it. It is the characteristic function of the *manas* in the inner-organ analysis, often paired with its opposite *vikalpa* (doubt or alternation) in the formula *saṃkalpa-vikalpātmakaṃ manaḥ* — 'the mind whose nature is determination-and-doubt'. As a constructive, projective movement it is the seed of desire: the *Bhagavad-Gītā* lists *saṃkalpa* as the root of *kāma* — 'abandoning without remainder all desires born of *saṃkalpa*' (6.24) — so that the conceiving of an object as desirable is the first step toward craving it. In ritual usage *saṃkalpa* is the solemn declaration of intention made before a rite, the formal resolve that determines and dedicates the act. In the *sthitaprajña* commentaries the term enters Śaṅkara's analysis of the causal descent: dwelling on objects breeds attachment, attachment desire (*kāma-saṃkalpādīn*), and the chain proceeds to anger and the destruction of *buddhi* (gloss on 2.62-63); and Madhusūdana, glossing the *kāmas* of 2.55, treats *saṃkalpa* among the mental modifications (*kāma-saṃkalpādīn mano-vṛtti-viśeṣān*) that the knower has wholly relinquished. *Saṃkalpa* thus names the mind's object-constructing, intention-forming activity — productive of desire when it fastens on objects, but also the deliberate resolve that the disciplines redirect or still.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Saṃkalpa* names **the mind's constructive fashioning of an object or intention — the conceiving of a thing-to-be-attained and the resolve to pursue it, the characteristic projective function of *manas***. The traditions agree on this analysis and on its tie to the genesis of desire; the chief variation is between the soteriological treatment (saṃkalpa as the seed of *kāma*, to be relinquished) and the ritual treatment (saṃkalpa as the dedicatory resolve of a rite).",
+    "register_axes_note": "Largely **shared** as a faculty-analysis term. The framings differ by register: in the contemplative-soteriological literature *saṃkalpa* is the object-constructing movement that breeds craving and is therefore to be abandoned (Gītā 6.24; the 2.62-63 chain); in the ritual register it is the formal declaration of intent that constitutes and directs an act. Both rest on the same sense of *manas* 'putting an object together'."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "*Saṃkalpa* is analyzed as the constructive function of *manas* and as the seed of desire: the Gītā has the yogin abandon 'all desires born of *saṃkalpa*' (6.24), and Śaṅkara, glossing the descent of 2.62-63, treats *kāma-saṃkalpa* as the formation of the wish that follows on attachment and leads to anger and the ruin of *buddhi*. Madhusūdana, on 2.55, lists *saṃkalpa* among the *mano-vṛtti-viśeṣas* that the man of settled wisdom has relinquished without remainder. The stilling or redirection of *saṃkalpa* is thus integral to the steadying of the mind.",
+      "primary_loci": [
+        "Bhagavad-Gītā 6.24 (saṃkalpa-prabhavān kāmān)",
+        "Gītā-Bhāṣya (Śaṅkara) on 2.62-63 (kāma-saṃkalpa in the descent)",
+        "Gūḍhārtha-dīpikā (Madhusūdana) on 2.55 (kāma-saṃkalpādīn mano-vṛtti-viśeṣān)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Pūrva-Mīmāṃsā",
+      "definition": "In the ritual register *saṃkalpa* is the solemn declaration of intention preceding a rite — the formal resolve that determines the act, its time, place, and purpose, and dedicates it. The injunctive force of the Veda is taken up by the agent in this dedicatory resolve, which constitutes the act as the prescribed *karman* it is meant to be.",
+      "primary_loci": [
+        "the ritual saṃkalpa as the dedicatory resolve in the performance of prescribed karman"
+      ],
+      "register_tag": "RN; adhikārin (saṃkalpa as ritual resolve)"
+    }
+  ],
+  "see_also": [
+    "manas",
+    "kama",
+    "buddhi",
+    "vrtti",
+    "indriya",
+    "karma"
+  ],
+  "translator_note": "Render *saṃkalpa* as 'conception', 'resolve', or 'intention', according to register, and keep the constructive sense: the *manas* 'puts together' an object not present and forms the wish or purpose for it. In the soteriological context (Gītā 6.24; the 2.62-63 chain) the point is that *saṃkalpa* is the seed of *kāma* — the conceiving of a thing as desirable precedes desiring it — so 'imaginative projection' or 'wishful conceiving' is often closer than a flat 'thought'. In ritual contexts *saṃkalpa* is specifically the dedicatory declaration of intent and should be rendered as 'resolve' or 'vow of intention', not confused with the contemplative sense."
+}

@@ -1,0 +1,57 @@
+{
+  "term_key": "trsna",
+  "term_iast": "tṛṣṇā",
+  "term_devanagari": "तृष्णा",
+  "literal": "thirst, craving; action-noun from √tṛṣ 'to be thirsty, to thirst after' (tṛṣ + na/snā → tṛṣṇā), literally 'thirst', extended to the burning desire that drives toward objects",
+  "aliases": [
+    "trsna",
+    "tṛṣṇā",
+    "Tṛṣṇā",
+    "tṛṣṇāyāḥ",
+    "tṛṣṇām",
+    "spṛhā",
+    "spṛhāḥ",
+    "vigata-spṛha",
+    "niḥspṛha",
+    "taṇhā",
+    "abhilāṣa"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Tṛṣṇā* is craving — literally 'thirst', the burning, repetitive longing for objects of experience. It is closely allied to *kāma* (desire) but more pointed: where *kāma* names the wish for a particular object, *tṛṣṇā* names the standing, insatiable thirst that renews itself as soon as one object is gained, the very momentum of grasping. In the commentaries on the *sthitaprajña* discourse the near-synonym *spṛhā* ('hankering') carries this sense: the man of settled wisdom is *vigata-spṛha* ('with hankering gone', 2.56), and Madhusūdana analyzes *spṛhā* as the *tṛṣṇātmikā citta-vṛtti* — the thirst-natured movement of mind that vainly reaches for future pleasure. The same diagnosis surfaces at 2.66, where Śaṅkara identifies the unpeaceful state with the persistence of thirst for objects (*viṣaya-sevā-tṛṣṇā*), so that happiness is impossible while *tṛṣṇā* lasts: 'while thirst persists, not even a trace of happiness is possible' (*na tṛṣṇāyāṃ satyāṃ sukhasya gandha-mātram apy upapadyate*). In Buddhist analysis *tṛṣṇā* (Pali *taṇhā*) is the pivotal link of dependent origination — the craving that, conditioned by feeling, gives rise to clinging and renewed becoming — and its cessation is the cessation of suffering, the content of the second and third noble truths. Across the traditions *tṛṣṇā* is treated as the root drive of saṃsāric continuance: not a particular desire but the thirst that desire keeps re-igniting.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Tṛṣṇā* names **the standing, self-renewing thirst for objects of experience — craving as the momentum of grasping rather than the wish for any one thing**. The traditions share this diagnosis of thirst as the engine of restlessness and bondage and treat its extinction as the condition of peace. They differ on its place in the causal order and on the metaphysics of what is craved.",
+    "register_axes_note": "**Different doctrinal weight, same phenomenon.** In Buddhism *tṛṣṇā* (*taṇhā*) is the technically pivotal link of *pratītyasamutpāda* — conditioned by *vedanā*, conditioning *upādāna* — and the second noble truth names it as the origin of *duḥkha*. In the Vedānta of the Gītā commentaries *tṛṣṇā/spṛhā* is the craving whose cessation marks the *sthitaprajña* and whose persistence (2.66) makes happiness impossible; it is allied to *kāma* and *rāga* rather than given the systematic causal role it has in Buddhist analysis."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "In the *sthitaprajña* discourse craving appears as *spṛhā*, the hankering whose absence (*vigata-spṛha*, 2.56) marks the man of settled wisdom; Madhusūdana glosses it as the *tṛṣṇātmikā citta-vṛtti*, the thirst-natured movement of mind reaching vainly for future pleasure, and brands it a delusion (*bhrānti*) since craving cannot make its object arise. At 2.66 Śaṅkara ties the impossibility of happiness for the unpeaceful directly to *tṛṣṇā*: the happiness worth the name is the *cessation* of thirst for sense-enjoyment, not the thirst itself, and 'while thirst persists, not even a trace of happiness is possible.'",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.56 (vigata-spṛha)",
+        "Bhagavad-Gītā 2.66 (Śaṅkara: viṣaya-sevā-tṛṣṇā; na tṛṣṇāyāṃ satyāṃ sukham)",
+        "Gītā-Bhāṣya (Śaṅkara) on 2.55-56; Gūḍhārtha-dīpikā on 2.56 (spṛhā as tṛṣṇātmikā citta-vṛtti)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Tṛṣṇā* (Pali *taṇhā*) is the eighth link of dependent origination — craving conditioned by feeling (*vedanā*) and conditioning clinging (*upādāna*) and renewed becoming — and the second of the four noble truths names it (in its three forms: craving for sense-pleasure, for existence, for non-existence) as the origin of suffering. Its cessation (*taṇhā-nirodha*) is the third truth, the content of *nibbāna*. Here *tṛṣṇā* has a precise systematic role as the pivotal cause of the saṃsāric round.",
+      "primary_loci": [
+        "the second and third noble truths (taṇhā as dukkha-samudaya; taṇhā-nirodha)",
+        "the twelvefold paṭicca-samuppāda (vedanā → taṇhā → upādāna)"
+      ],
+      "register_tag": "Φ+S; reflective reader (taṇhā as the pivotal nidāna)"
+    }
+  ],
+  "see_also": [
+    "kama",
+    "raga",
+    "vairagya",
+    "santi",
+    "pratitya-samutpada",
+    "klesa"
+  ],
+  "translator_note": "'Craving' is the best single rendering; 'thirst' keeps the root image and is apt in many contexts. Avoid 'desire' as the default, since that is *kāma* (and may name a legitimate or particular wish), whereas *tṛṣṇā* is the insatiable, self-renewing thirst that desire keeps re-igniting — the momentum of grasping itself. In Buddhist contexts retain the technical force: *taṇhā* is the pivotal link of dependent origination and the origin of suffering, not merely a strong wish. The Gītā commentaries' *spṛhā* and *abhilāṣa* are near-equivalents in the practical register and may be rendered 'hankering' or 'longing'."
+}

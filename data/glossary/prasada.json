@@ -1,0 +1,57 @@
+{
+  "term_key": "prasada",
+  "term_iast": "prasāda",
+  "term_devanagari": "प्रसाद",
+  "literal": "clearness, serenity, graciousness, favor; action-noun from pra- ('forth, completely') + √sad 'to settle, to sink down, to become clear' (pra-√sad + ghañ → prasāda), 'a settling-down' — hence the clearing of a turbid mind (as silt settles and water grows clear), and, of a superior, the gracious favor that 'settles' kindly upon another",
+  "aliases": [
+    "prasada",
+    "prasāda",
+    "Prasāda",
+    "prasādaḥ",
+    "prasādam",
+    "prasāde",
+    "prasanna",
+    "prasanna-cetas",
+    "prasannatā",
+    "cittaprasāda",
+    "anugraha"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Prasāda* has two closely related technical senses that share the image of a 'settling' encoded in pra-√sad. The first is the clearness or serenity of mind: as silt settles and turbid water becomes transparent, the agitated mind, freed of the disturbance of attraction and aversion, becomes calm and lucid. This is the sense in the *sthitaprajña* discourse, where one who moves among objects with senses free of *rāga* and *dveṣa* 'attains *prasāda*' (2.64), and 'in *prasāda* all his sorrows are destroyed, for the intellect of the clear-minded (*prasanna-cetas*) soon becomes firmly fixed' (2.65). Śaṅkara glosses *prasāda* here as *prasannatā*, *svāsthya*, the clarity and self-poise of the inner organ — the medium in which steady wisdom (*buddhi*) establishes itself. The second sense is gracious favor: the kindly disposition of a deity, teacher, or superior that 'settles' upon the recipient, as in *tat-prasādāt* ('by his grace'). In the theistic readings the two senses join: the serenity of mind is itself the fruit of the Lord's grace. *Prasāda* is thus the calm-and-clarity that is at once a psychological condition (the settled mind) and, in devotional registers, a gift bestowed.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "*Prasāda* names **the clearing and settling of the mind into serenity and lucidity — turbidity giving way to transparency**; in devotional and theistic registers the same word names the gracious favor that bestows or effects that clarity. The 'settling' image is common to both; what varies is whether the clarity is achieved by self-discipline or received as grace.",
+    "register_axes_note": "**Same concept, different aspect** between the psychological use (mental clarity won by withdrawing the senses from *rāga-dveṣa*, the Gītā's 2.64-65) and the devotional use (clarity as *anugraha*, the Lord's grace). Madhva, reading 2.55, ties the serenity (*tuṣṭi*) of the knower to *tat-prasādāt* — the grace of the Lord abiding within — so that for him the mind's *prasāda* is inseparable from divine favor; Śaṅkara takes *prasāda* at 2.64-65 as the *svacchatā* of the inner organ, the lucidity in which steady *buddhi* arises."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "In the *sthitaprajña* discourse *prasāda* is the clarity of mind reached by one whose senses, freed of attraction and aversion, no longer disturb the inner organ (2.64); in this clarity all sorrows are destroyed and the intellect of the clear-minded (*prasanna-cetas*) becomes firmly fixed (2.65). Śaṅkara glosses *prasāda* as *prasannatā* and *svāsthya* — the lucid self-poise of the *antaḥkaraṇa* — and Madhusūdana as *cittasya svacchatā*, the transparency in which *brahma-jñāna* can settle; the destruction of sorrow follows because in that clarity the discriminating *buddhi* stabilizes and the ignorance opposed to it falls away.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.64 (prasādam adhigacchati)",
+        "Bhagavad-Gītā 2.65 (prasāde sarva-duḥkhānāṃ hānir ... prasanna-cetasaḥ ... buddhiḥ paryavatiṣṭhate)",
+        "Gītā-Bhāṣya (Śaṅkara) on 2.64-65 (prasannatā, svāsthya, svacchatā)"
+      ],
+      "register_tag": "M+S; mumukṣu (prasāda as clarity of antaḥkaraṇa)"
+    },
+    {
+      "school": "Tattva-vāda",
+      "definition": "Madhva foregrounds the second sense: reading 2.55, he ties the knower's serenity (*tuṣṭi*) to *tat-prasādāt* — it arises by the grace of the Lord (the *paramātman* / Nārāyaṇa-Rāma) abiding within, not by the self's own resources alone. Self-knowledge, contentment, and liberation all depend on Viṣṇu's *anugraha*; the mind's *prasāda* is accordingly inseparable from divine favor, so that for him the psychological clarity and the bestowed grace are two aspects of one gift.",
+      "primary_loci": [
+        "Gītā-Bhāṣya (Madhva) on 2.55 (tat-prasādād eva tuṣṭir bhavati)",
+        "the Nārāyaṇa-Rāma-kalpa citation on devotion and divine favor (ad 2.55)"
+      ],
+      "register_tag": "M+S+RN; bhakta (prasāda as anugraha)"
+    }
+  ],
+  "see_also": [
+    "santi",
+    "buddhi",
+    "antahkarana",
+    "sattva",
+    "bhakti",
+    "isvara"
+  ],
+  "translator_note": "Two renderings are needed and should not be conflated. In the *sthitaprajña* context *prasāda* is 'clarity' or 'serenity' of mind — the lucidity of a settled *antaḥkaraṇa*, captured by the silt-settling image of pra-√sad; render it so, not as 'grace', at 2.64-65. In devotional and theistic contexts (and in Madhva's reading of 2.55) the same word means 'grace' or 'favor' — the kindly disposition of a deity or teacher that settles upon the recipient. The English 'grace' imports Christian connotations that should be handled with care; *prasāda* is at root a clearing-and-settling, and the gift-sense grows out of that. Avoid the food-offering sense (*prasāda* as consecrated remnants), which is a later ritual extension irrelevant here."
+}

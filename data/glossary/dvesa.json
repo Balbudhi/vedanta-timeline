@@ -1,0 +1,67 @@
+{
+  "term_key": "dvesa",
+  "term_iast": "dveṣa",
+  "term_devanagari": "द्वेष",
+  "literal": "aversion, hatred, repulsion; action-noun from √dviṣ 'to hate, to be hostile' (dviṣ + ghañ → dveṣa), 'the act of hating' or 'that toward which one is hostile'",
+  "aliases": [
+    "dvesa",
+    "dveṣa",
+    "Dveṣa",
+    "dveṣaḥ",
+    "dveṣāt",
+    "dveṣau",
+    "rāgadveṣau",
+    "rāga-dveṣa",
+    "rāgadveṣaviyuktaiḥ",
+    "dveṣṭi"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-coverage-gita",
+  "invariant_definition": "*Dveṣa* is aversion or repulsion: the mind's recoil from what is felt to be painful or unwelcome. It is the standing correlate of *rāga* (attraction), and the pair *rāga-dveṣa* names the basic polarity that sets the senses in motion toward and away from their objects. Across the schools the two are treated together as the engine of saṃsāric agency: where the *Gītā* describes the man of settled wisdom moving among sense-objects *rāga-dveṣa-viyukta* (free of attraction and aversion, 2.64), the point is not the suppression of perception but the withdrawal of the appetitive-aversive charge that ordinarily directs it. In Pātañjala Yoga *dveṣa* is one of the five *kleśas* (afflictions), defined as the repulsion that dwells upon pain (*duḥkhānuśayī dveṣaḥ*, YS 2.8), rooted in *avidyā* and feeding the cycle of action and its maturation. In Buddhist analysis its analogue *dosa/dveṣa* is one of the three unwholesome roots and one of the three fires whose extinction is *nibbāna*. In each case *dveṣa* is not a passing dislike but a structural disposition: the negative pole of clinging, to be dissolved rather than merely managed, since while it operates the mind cannot reach the equanimity that the disciplines aim at.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Dveṣa* names **the aversive recoil from what is felt as painful, the negative pole paired with *rāga***; the traditions converge in treating the *rāga-dveṣa* polarity as the basic drive of bound agency and its dissolution as a mark of freedom. What varies is the analytic frame — the Gītā's equanimity beyond attraction-and-aversion, Yoga's *kleśa* rooted in *avidyā*, or the Buddhist root-poison — not the phenomenon.",
+    "register_axes_note": "Largely **shared**: *dveṣa* is an agreed-upon affliction rather than a contested category. The chief difference of framing is between the ethical-soteriological treatment (the *rāga-dveṣa* pair as the appetitive charge to be withdrawn) and the technical *kleśa*-analysis of Yoga and the root-poison analysis of Buddhism; all diagnose the same aversive movement of mind."
+  },
+  "per_school": [
+    {
+      "school": "Vedānta / Gītā",
+      "definition": "*Dveṣa* is the aversive member of the *rāga-dveṣa* pair whose mastery defines the *sthitaprajña*. At 2.64 the disciplined self moves among the objects of the senses with sense-organs freed of attraction and aversion (*rāga-dveṣa-viyuktaiḥ*) and attains *prasāda*, clarity of mind; the verb *na dveṣṭi* (he does not hate) at 2.57 marks the same withdrawal of recoil on encountering the unwelcome. Śaṅkara and the later commentators read the elimination of *dveṣa* not as forced indifference but as the natural condition of one for whom the false superimposition that makes objects repellent has ceased.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.57 (aśubhaṃ ... na dveṣṭi)",
+        "Bhagavad-Gītā 2.64 (rāga-dveṣa-viyuktaiḥ ... prasādam adhigacchati)",
+        "Bhagavad-Gītā 3.34 (rāga-dveṣau as the obstacles on the path)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Yoga",
+      "definition": "In Pātañjala Yoga *dveṣa* is one of the five *kleśas*, defined as aversion that follows upon pain (*duḥkhānuśayī dveṣaḥ*, YS 2.8) and rooted, like the rest, in *avidyā* (YS 2.4). With *rāga* it is one of the two affective afflictions; it is attenuated by *kriyā-yoga* and dissolved as discrimination matures, since while it disturbs the *citta* steady absorption cannot arise.",
+      "primary_loci": [
+        "Yoga-Sūtra 2.3 (the five kleśas)",
+        "Yoga-Sūtra 2.8 (duḥkhānuśayī dveṣaḥ)",
+        "Yoga-Sūtra 2.4 (avidyā as the field of the rest)"
+      ],
+      "register_tag": "Φ+S; yogin (dveṣa as kleśa)"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Dveṣa* (Pali *dosa*) — hatred or ill-will — is one of the three unwholesome roots (*akusala-mūla*: *lobha, dosa, moha*) and one of the three fires whose going-out is *nibbāna*. As ill-will (*byāpāda*) it is the second of the five hindrances to concentration, countered by the cultivation of loving-kindness (*mettā*). It is a defilement to be uprooted rather than a passing mood, here a root-poison rather than one pole of a rāga-dveṣa pair.",
+      "primary_loci": [
+        "the three akusala-mūla (lobha, dosa, moha) in the suttas",
+        "the five nīvaraṇa (byāpāda); mettā as antidote",
+        "the three fires whose extinction is nibbāna"
+      ],
+      "register_tag": "Φ+S; reflective reader (dosa as akusala-mūla)"
+    }
+  ],
+  "see_also": [
+    "raga",
+    "kama",
+    "krodha",
+    "klesa",
+    "sthitaprajna",
+    "prasada"
+  ],
+  "translator_note": "'Aversion' or 'repulsion' is accurate; 'hatred' fits the Buddhist root-poison and the strong cases but overstates the ordinary *rāga-dveṣa* pairing, where *dveṣa* is simply the negative pole of like-and-dislike. The decisive point is that *dveṣa* is treated as the structural twin of *rāga*, not an independent emotion: the Gītā's ideal is not to feel aversion to the unwelcome and attraction to the welcome, but to perceive both with the appetitive-aversive charge withdrawn (*rāga-dveṣa-viyukta*)."
+}
