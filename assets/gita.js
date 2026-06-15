@@ -176,6 +176,10 @@ function renderVoiceInner(entry) {
   return `<div class="voice-src">${esc(c.work || "")}${c.locus ? " · " + esc(c.locus) : ""}</div>${body}`;
 }
 
+// Map locus → audio segment, populated from window.GITA_AUDIO at render time.
+let AUDIO_SEG = Object.create(null);
+function hasAudio() { return !!(window.GITA_AUDIO && Array.isArray(window.GITA_AUDIO.verses) && window.GITA_AUDIO.verses.length); }
+
 function renderVerse(v, vb) {
   const sp = speakerLabel(v.speaker);
   const muIx = interactiveBlock(v.words, v.english);
@@ -190,8 +194,11 @@ function renderVerse(v, vb) {
         ${renderVoiceInner(entry)}
       </div>`;
   }).join("");
+  const playBtn = AUDIO_SEG[v.locus]
+    ? `<button class="verse-play" type="button" data-locus="${esc(v.locus)}" aria-label="Play verse ${esc(v.locus)}" title="Play this verse"><span class="vp-icon" aria-hidden="true"></span></button>`
+    : "";
   return `<article class="verse" id="v-${esc(v.locus)}">
-    <header class="verse-head"><span class="verse-locus">${esc(v.locus)}</span>${sp ? `<span class="verse-speaker">${esc(sp)}</span>` : ""}</header>
+    <header class="verse-head"><span class="verse-locus">${esc(v.locus)}</span>${sp ? `<span class="verse-speaker">${esc(sp)}</span>` : ""}${playBtn}</header>
     <div class="verse-sa" lang="sa-Latn">${esc(v.iast).replace(/\n/g, "<br>")}</div>
     ${muIx}
     ${blocks ? `<div class="verse-voices">${blocks}</div>` : ""}
@@ -210,8 +217,29 @@ function renderVoiceBar() {
       `<span class="seg-key seg-${k}">${k}</span>`).join("") + `</div>`;
 }
 
+/* ---------- recitation bar ---------- */
+function fmtTime(s) {
+  if (!isFinite(s) || s < 0) return "0:00";
+  const m = Math.floor(s / 60);
+  const sec = Math.floor(s % 60).toString().padStart(2, "0");
+  return `${m}:${sec}`;
+}
+function renderRecitationBar() {
+  if (!hasAudio()) return "";
+  const attrib = esc(window.GITA_AUDIO.attribution || "");
+  return `<div class="recite-bar" id="reciteBar">
+    <button class="rb-play" id="rbPlay" type="button" aria-label="Play" title="Play / pause (space)"><span class="rb-icon" aria-hidden="true"></span></button>
+    <button class="rb-all" id="rbAll" type="button" title="Play the whole passage from 2.54">Play all 2.54&ndash;72</button>
+    <div class="rb-progress" id="rbProgress" role="slider" aria-label="Seek" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="rb-bar" id="rbBar"></div>
+    </div>
+    <span class="rb-time" id="rbTime">0:00&thinsp;/&thinsp;0:00</span>
+    ${attrib ? `<span class="rb-attrib" title="${attrib}">${attrib}</span>` : ""}
+  </div>`;
+}
+
 /* ---------- state ---------- */
-let VERSES = [], VOICES = [], BYVERSE = {}, ROOT = null, GLOSS_BASE = "../../data/glossary/";
+let VERSES = [], VOICES = [], BYVERSE = {}, ROOT = null, GLOSS_BASE = "../../data/glossary/", AUDIO_BASE = "";
 let HOST_GLOSSARY = null;   // when embedded, the app's real glossary popover
 let HOST_THINKER = null;    // when embedded, opens a thinker in the Thinker tab
 const VOICE_KEY = "gita-voices";
@@ -247,21 +275,30 @@ function render(root, opts) {
   opts = opts || {};
   ROOT = root;
   GLOSS_BASE = opts.glossaryBase || GLOSS_BASE;
+  AUDIO_BASE = opts.audioBase != null ? opts.audioBase : AUDIO_BASE;
   HOST_GLOSSARY = typeof opts.onGlossary === "function" ? opts.onGlossary : null;
   HOST_THINKER = typeof opts.onThinker === "function" ? opts.onThinker : null;
   VERSES = window.GITA_VERSES || [];
+
+  AUDIO_SEG = Object.create(null);
+  if (hasAudio()) for (const seg of window.GITA_AUDIO.verses) AUDIO_SEG[seg.locus] = seg;
   const built = buildVoices(VERSES, {
     commentary: window.GITA_COMMENTARY, aurobindo: window.GITA_AUROBINDO, parallels: window.GITA_PARALLELS,
   });
   VOICES = built.voices; BYVERSE = built.byVerse;
 
   const bar = renderVoiceBar();
+  const recite = renderRecitationBar();
   const versesHtml = VERSES.map(v => renderVerse(v, BYVERSE[v.locus] || {})).join("");
-  if (opts.voicebarSlot) { opts.voicebarSlot.innerHTML = bar; root.innerHTML = versesHtml; }
-  else { root.innerHTML = `<div class="gita-reader">${bar}${versesHtml}</div>`; }
+  // Standalone: voice chooser lives in its slot; the recitation bar sits just
+  // under it, at the top of the reading column. Embedded: both live in flow at
+  // the top of .gita-reader (no fixed positioning, so the app pane is unaffected).
+  if (opts.voicebarSlot) { opts.voicebarSlot.innerHTML = bar; root.innerHTML = recite + versesHtml; }
+  else { root.innerHTML = `<div class="gita-reader">${bar}${recite}${versesHtml}</div>`; }
 
   wireWords();
   wireVoiceBar();
+  wireRecitation();
   active = readActive();
   applyActive();
 }
@@ -407,6 +444,174 @@ function wireVoiceBar() {
   barEl.addEventListener("click", e => { const chip = e.target.closest(".vchip"); if (chip) toggleVoice(chip.dataset.voice); });
 }
 
+/* ---------- recitation player + karaoke ---------- */
+// One <audio> per reading instance, created lazily on first render. It is NOT
+// in the DOM tree of the reader (so re-rendering the reader never orphans a
+// playing clip); we keep a single module-level element and reset it.
+let AUDIO = null;          // HTMLAudioElement
+let segLimit = null;       // when set, playback pauses at this time (per-verse play)
+let activeLocus = null;    // currently-highlighted verse
+
+function ensureAudio() {
+  if (AUDIO) return AUDIO;
+  AUDIO = document.createElement("audio");
+  AUDIO.id = "gitaAudio";
+  AUDIO.preload = "metadata";
+  AUDIO.style.display = "none";
+  document.body.appendChild(AUDIO);   // attached so the media element stays alive across re-renders
+  return AUDIO;
+}
+
+function setActiveVerse(locus) {
+  if (locus === activeLocus) return;
+  if (activeLocus) {
+    const prev = document.getElementById("v-" + activeLocus);
+    if (prev) prev.classList.remove("is-reciting");
+  }
+  activeLocus = locus;
+  if (!locus) return;
+  const el = document.getElementById("v-" + locus);
+  if (el) el.classList.add("is-reciting");
+}
+
+function locusAt(t) {
+  if (!hasAudio()) return null;
+  for (const seg of window.GITA_AUDIO.verses) {
+    if (t >= seg.start && t < seg.end) return seg.locus;
+  }
+  return null;
+}
+
+function wireRecitation() {
+  if (!hasAudio()) return;
+  const bar   = ROOT.querySelector("#reciteBar") || document.getElementById("reciteBar");
+  if (!bar) return;
+  const playBtn = bar.querySelector("#rbPlay");
+  const allBtn  = bar.querySelector("#rbAll");
+  const progEl  = bar.querySelector("#rbProgress");
+  const barEl   = bar.querySelector("#rbBar");
+  const timeEl  = bar.querySelector("#rbTime");
+
+  const audio = ensureAudio();
+  const src = AUDIO_BASE + window.GITA_AUDIO.src;
+  // (Re)point the element at this reading's clip without restarting if same.
+  if (!audio.src.endsWith(src)) { audio.src = src; }
+  segLimit = null;
+  activeLocus = null;
+
+  const total = () => audio.duration || (window.GITA_AUDIO.verses[window.GITA_AUDIO.verses.length - 1].end);
+  const paint = () => {
+    const dur = total();
+    const pct = dur ? Math.max(0, Math.min(100, (audio.currentTime / dur) * 100)) : 0;
+    barEl.style.width = pct + "%";
+    progEl.setAttribute("aria-valuenow", Math.round(pct));
+    timeEl.innerHTML = `${fmtTime(audio.currentTime)} / ${fmtTime(dur)}`;
+  };
+
+  const playFrom = (start, limit) => {
+    segLimit = (limit != null) ? limit : null;
+    if (start != null) audio.currentTime = start;
+    audio.play().catch(() => {});
+  };
+
+  playBtn.addEventListener("click", () => {
+    if (audio.paused) { segLimit = null; audio.play().catch(() => {}); }
+    else audio.pause();
+  });
+  allBtn.addEventListener("click", () => {
+    playFrom(window.GITA_AUDIO.verses[0].start, null);
+  });
+
+  audio.addEventListener("play",  () => { playBtn.classList.add("is-playing");    playBtn.setAttribute("aria-label", "Pause"); bar.classList.add("is-playing"); });
+  audio.addEventListener("pause", () => { playBtn.classList.remove("is-playing"); playBtn.setAttribute("aria-label", "Play");  bar.classList.remove("is-playing"); });
+  audio.addEventListener("loadedmetadata", paint);
+  audio.addEventListener("ended", () => { segLimit = null; setActiveVerse(null); paint(); });
+
+  audio.addEventListener("timeupdate", () => {
+    if (segLimit != null && audio.currentTime >= segLimit) {
+      audio.pause();
+      segLimit = null;
+    }
+    if (!isDragging) paint();
+    const loc = locusAt(audio.currentTime);
+    if (loc !== activeLocus) {
+      setActiveVerse(loc);
+      // Gentle auto-scroll only during continuous (non-segment) play.
+      if (loc && segLimit == null && !audio.paused) {
+        const el = document.getElementById("v-" + loc);
+        if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }
+  });
+
+  // Drag-to-seek (pointer events unify mouse + touch). Seeking clears any
+  // per-verse limit so the listener can scrub freely.
+  let isDragging = false;
+  const seekFromPointer = e => {
+    const dur = total(); if (!dur) return;
+    const r = progEl.getBoundingClientRect();
+    const pct = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width));
+    segLimit = null;
+    audio.currentTime = pct * dur;
+    barEl.style.width = (pct * 100) + "%";
+    paint();
+  };
+  progEl.addEventListener("pointerdown", e => {
+    isDragging = true; segLimit = null;
+    try { progEl.setPointerCapture(e.pointerId); } catch (_) {}
+    seekFromPointer(e);
+  });
+  progEl.addEventListener("pointermove", e => { if (isDragging) seekFromPointer(e); });
+  const endDrag = e => {
+    if (!isDragging) return;
+    isDragging = false;
+    try { progEl.releasePointerCapture(e.pointerId); } catch (_) {}
+  };
+  progEl.addEventListener("pointerup", endDrag);
+  progEl.addEventListener("pointercancel", endDrag);
+  progEl.addEventListener("keydown", e => {
+    const dur = total(); if (!dur) return;
+    if (e.key === "ArrowRight") { audio.currentTime = Math.min(dur, audio.currentTime + 5); segLimit = null; paint(); e.preventDefault(); }
+    else if (e.key === "ArrowLeft") { audio.currentTime = Math.max(0, audio.currentTime - 5); segLimit = null; paint(); e.preventDefault(); }
+  });
+
+  // Per-verse ▶ — play just [start,end]; clicking the active one pauses.
+  // Guard against duplicate binding when the reader re-renders into the same
+  // persistent ROOT element (embedded Article pane).
+  if (!ROOT.dataset.reciteBound) {
+    ROOT.dataset.reciteBound = "1";
+    ROOT.addEventListener("click", e => {
+      const btn = e.target.closest(".verse-play");
+      if (!btn || !AUDIO) return;
+      e.stopPropagation();
+      const seg = AUDIO_SEG[btn.dataset.locus];
+      if (!seg) return;
+      const playingThis = !AUDIO.paused && activeLocus === seg.locus;
+      if (playingThis) { AUDIO.pause(); return; }
+      segLimit = seg.end;
+      AUDIO.currentTime = seg.start;
+      AUDIO.play().catch(() => {});
+    });
+  }
+
+  // Spacebar play/pause when not typing in a field. Bound once per page; it
+  // reads the current AUDIO so it stays correct across re-renders.
+  if (!window.__gitaSpaceBound) {
+    window.__gitaSpaceBound = true;
+    document.addEventListener("keydown", e => {
+      if (e.key !== " " && e.code !== "Space") return;
+      if (!AUDIO || !document.getElementById("reciteBar")) return;
+      const t = e.target;
+      if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable || (t.classList && t.classList.contains("rb-progress")))) return;
+      e.preventDefault();
+      if (AUDIO.paused) { segLimit = null; AUDIO.play().catch(() => {}); }
+      else AUDIO.pause();
+    });
+  }
+
+  paint();
+}
+
 /* ---------- glossary popover ---------- */
 const glossCache = new Map();
 async function loadGloss(key) {
@@ -451,7 +656,7 @@ window.GitaReader = { render };
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("gitaRoot");
   if (!root) return;
-  render(root, { glossaryBase: "../../data/glossary/", voicebarSlot: document.getElementById("voicebarSlot") });
+  render(root, { glossaryBase: "../../data/glossary/", audioBase: "", voicebarSlot: document.getElementById("voicebarSlot") });
   const b = document.getElementById("gitaClose");
   if (b) b.addEventListener("click", () => { window.location.href = "../../#/article/gita-sthitaprajna"; });
   buildVerseRail(root);

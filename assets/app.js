@@ -4272,7 +4272,7 @@ function loadScriptOnce(src) {
 async function openGitaReading() {
   const base = "gita/sthitaprajna/";
   try {
-    for (const f of ["verses.js", "commentaries.js", "aurobindo.js", "parallels.js"]) {
+    for (const f of ["verses.js", "audio.js", "commentaries.js", "aurobindo.js", "parallels.js"]) {
       await loadScriptOnce(base + f);
     }
     await loadScriptOnce("assets/gita.js");
@@ -4289,6 +4289,7 @@ async function openGitaReading() {
   if (window.GitaReader && dpArticleBody) {
     window.GitaReader.render(dpArticleBody, {
       glossaryBase: "data/glossary/",
+      audioBase: "gita/sthitaprajna/",
       onGlossary: (term, anchor) => openGlossary(term, anchor),  // the site's real glossary popover
       onThinker: (id) => openThinker(id),                        // jump to the Thinker tab
     });
