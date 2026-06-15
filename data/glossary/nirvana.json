@@ -1,0 +1,109 @@
+{
+  "term_key": "nirvana",
+  "term_iast": "nirvāṇa",
+  "term_devanagari": "निर्वाण",
+  "literal": "blown out (as a flame whose fuel is withdrawn); nir- + √vā ('to blow'), past participle nirvāṇa = 'blown out'; Pali nibbāna (by regular phonological correspondence, -rv- → -bb-).",
+  "aliases": [
+    "nirvana",
+    "nirvāṇa",
+    "nirvāṇam",
+    "Nirvāṇa",
+    "nibbana",
+    "nibbāna",
+    "nirvāṇaṃ"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-imagery-restructure",
+  "invariant_definition": "*Nirvāṇa* is the 'blowing out' of a flame — the image of a fire whose fuel is withdrawn and which therefore ceases to burn. In Buddhism, which is the word's primary philosophical home, it names the central soteriological goal: the extinction of the three fires of *rāga* (greed), *dveṣa* (hatred), and *moha* (delusion), and the unconditioned (*asaṃskṛta*) state freed of craving and rebirth. This Buddhist terminus is characteristically *apophatic*: it is asserted *without* positing any permanent self (*anātman*) or Brahman-substrate into which one merges. Madhyamaka presses this further, describing nirvāṇa by eightfold negation ('unabandoned, unattained, uncut-off, non-eternal, unceased, unarisen') and asserting that nirvāṇa is not distinguishable from saṃsāra. The flame-extinction image plays against the Vedic and Upaniṣadic tradition of the *positive* inner flame: the fire hidden in the heart's secret cave (*guhā*), the smokeless thumb-sized Person, the self-luminous light of lights — but this is a *resonant foil*, not a textual source of the Buddhist term. The Buddhist usage does not derive from these Vedic images; rather, the two traditions share a fire-vocabulary whose valences run in opposite directions. The *Bhagavad-Gītā*'s compound *brahma-nirvāṇa* (a separate entry) re-yokes the word to a positive absolute, supplying the Brahman-substrate that the Buddhists deliberately withhold.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "Nirvāṇa as the going-out of the fires of craving — the unconditioned freedom from the burning (*pariḷāha*) of *rāga, dveṣa, moha* — is the core shared by all traditions that use the word. What divides them is whether any substrate (self, Brahman, Tathāgatagarbha) underlies or survives the extinction.",
+    "register_axes_note": "**Real disagreement** along the substrate axis: Buddhist *nibbāna/nirvāṇa* (early Pali and Abhidharma) is the extinction of the fires, the unconditioned (*asaṃskṛta-dhātu*), asserted *without* positing an *ātman* or *brahman* — an apophatic terminus; Madhyamaka extends this by refusing even the ontological category 'existent' or 'non-existent' for nirvāṇa, and by holding nirvāṇa non-different from saṃsāra (MMK 25.19); some Mahāyāna strands (Tathāgatagarbha) reintroduce a positive substrate. The *Gītā*'s *brahma-nirvāṇa* (separate entry) deliberately supplies the substrate the canonical Buddhists refuse. **Within Buddhism**: Abhidharma treats nirvāṇa as a real unconditioned *dharma* (*asaṃskṛta-dhātu*); Madhyamaka treats this as still a form of *prapañca* (conceptual proliferation) and defines nirvāṇa as its stilling."
+  },
+  "per_school": [
+    {
+      "school": "Buddhist (Pali / early)",
+      "definition": "In early Buddhism and the Pali canon, *nibbāna* is the extinction of the three fires — *rāga* (greed), *dveṣa* (hatred), *moha* (delusion) — and the resulting unconditioned state freed of craving and rebirth. The arahant is one in whom the burning (*pariḷāha*) is gone: 'no burning/fever is found' (Dhp 90). The Ādittapariyāya (Fire Sermon) frames all sensory experience as on fire with passion, aversion, and delusion; nibbāna is the going out of those fires. The Abhidharma schools systematise this as the *asaṃskṛta-dhātu*, the unconditioned element, a real *dharma* distinct from all conditioned (*saṃskṛta*) phenomena. Throughout, the tradition insists on *anātman*: there is no self that is liberated and no absolute into which one merges. The going-out is total and the description remains negative — or is cautiously called 'the unborn, the unconditioned, the unbecome, the unfabricated.'",
+      "primary_loci": [
+        "Dhammapada 90 (Arahantavagga; Pali, SuttaCentral)",
+        "Ādittapariyāya / Fire Sermon (SN 35.28 / Vinaya Mahāvagga 1.21)",
+        "Udāna 8.1–4 (the unborn, unfabricated)"
+      ],
+      "register_tag": "Φ+S; arahant-path [REAL-DISAGREEMENT: apophatic nibbāna, no ātman/brahman substrate; extinction of fires only]"
+    },
+    {
+      "school": "Buddhist (Madhyamaka)",
+      "definition": "Nāgārjuna's Madhyamaka radicalises the apophasis. Nirvāṇa is defined by eightfold negation: 'unabandoned, unattained, uncut-off, non-eternal, unceased, unarisen' (MMK 25.3) — refusing both the eternalist reading (nirvāṇa as an existent absolute) and the nihilist reading (nirvāṇa as mere annihilation). Most radically, there is 'no distinction whatever of saṃsāra from nirvāṇa' (MMK 25.19): the distinction between conditioned becoming and unconditioned liberation is itself an expression of conceptual proliferation (*prapañca*), and nirvāṇa is the stilling of that proliferation. Candrakīrti and the Prāsaṅgika tradition press this further: even the Abhidharma's 'unconditioned *dharma*' is a subtle reification. Nothing is to be positively predicated of nirvāṇa — the flame-extinction image is apt precisely because it refuses a 'result-state' one can grasp.",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 25.3 (Nāgārjuna)",
+        "Mūla-Madhyamaka-Kārikā 25.19 (Nāgārjuna)"
+      ],
+      "register_tag": "Φ+S; prapañca-upaśama [REAL-DISAGREEMENT: nirvāṇa not-different from saṃsāra; no ontological substrate; eightfold negation refuses reification]"
+    },
+    {
+      "school": "Vedānta / Gītā (contrast)",
+      "definition": "The bare word *nirvāṇa* does not appear as a key term in Advaita Vedānta independently; its role in these traditions is carried by the *Gītā*'s compound *brahma-nirvāṇa* (see that entry). In the *Gītā* (2.72, 5.24–26, 6.15) the flame-extinction image is re-yoked to *brahman* as positive absolute: what is extinguished is the desire-and-ego fire; what is attained or reached is Brahman. Śaṅkara reads *brahma-nirvāṇa* as the *brahma-bhūta* state — the knower become Brahman — and the *pariḷāha* of conditioning dissolved. This is the Vedāntic inheritance of the extinction-image: the apophatic is furnished with a substrate. The bare *nirvāṇa* therefore functions here primarily as a term being *compounded* and reoriented, not as an autonomous concept; the Vedāntic reader encounters the bare word as the Buddhist foil against which the *Gītā*'s compound is defined.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.72 (brahma-nirvāṇa; see brahmanirvana.json)",
+        "Bhagavad-Gītā 5.24–26 (brahma-nirvāṇa; see brahmanirvana.json)",
+        "Śaṅkara, Gītā-Bhāṣya on 2.72 and 5.24–26"
+      ],
+      "register_tag": "M+S; mumukṣu (bare word re-yoked to Brahman-substrate via compound; see brahmanirvana entry)"
+    }
+  ],
+  "textual_history": {
+    "summary": "The career of *nirvāṇa* spans three distinct registers. The Vedic-Upaniṣadic tradition supplies the *positive* inner flame — the fire hidden in the heart's secret place, the smokeless thumb-sized Person, the self-luminous light of lights — which functions as the *foil* against which the Buddhist extinction-image operates; the Buddhist term is NOT derived from these sources, but their opposing valence is conceptually load-bearing. In the Pali canon the bare word *nibbāna* names the arahant's freedom from burning; the Dhammapada arahant-verse (Dhp 90) captures this in the image of *no burning remaining*. Nāgārjuna's Madhyamaka then radicalises the apophasis by defining nirvāṇa through eightfold negation (MMK 25.3) and asserting its non-difference from saṃsāra (MMK 25.19). Finally, the *Bhagavad-Gītā* compounds the bare word with *brahman* to supply the substrate the Buddhists withhold (BG 2.72). The diachrony below is comparative and conceptual, not a single lineage; the Buddhist term's etymology from √vā is uncontroversial, but its development is independent of the Vedic flame-tradition.",
+    "stages": [
+      {
+        "era": "Upaniṣads (Vedic foil)",
+        "locus": "Kaṭha 2.1.13 (= GRETIL kau_4.13)",
+        "sanskrit": "aṅguṣṭhamātraḥ puruṣo jyotir iva adhūmakaḥ",
+        "rendering": "The Person the measure of a thumb, like a light without smoke.",
+        "note": "This is the POSITIVE inner flame the Buddhist extinction-image plays AGAINST — a resonant foil, not a textual source of the Buddhist term. The Upaniṣadic flame is smokeless, deathless, seated in the heart: the self that persists. Buddhist *nibbāna* extinguishes exactly this kind of permanently burning inner fire-of-self. The contrast is illuminating; the derivation is not."
+      },
+      {
+        "era": "Buddhist Pali (early Buddhism)",
+        "locus": "Dhammapada 90 (Arahantavagga; Pali, SuttaCentral)",
+        "sanskrit": "Gataddhino visokassa, vippamuttassa sabbadhi; Sabbaganthappahīnassa, pariḷāho na vijjati.",
+        "rendering": "For one whose journey is done, who is sorrowless, wholly freed, who has abandoned all bonds — no burning/fever (pariḷāho) is found.",
+        "note": "Pali text. The arahant in whom the fire/burning (pariḷāha) is gone: the flame-extinction sense of *nibbāna* as lived attainment. This is the bare word's primary home — not a compound, not re-yoked to a positive absolute, but the simple going-out of the fever of craving and becoming."
+      },
+      {
+        "era": "Buddhist Madhyamaka",
+        "locus": "Mūla-Madhyamaka-Kārikā 25.3 (Nāgārjuna)",
+        "sanskrit": "aprahīṇam asaṃprāptam anucchinnam aśāśvatam | aniruddham anutpannam etan nirvāṇam ucyate",
+        "rendering": "Unabandoned, unattained, uncut-off, non-eternal, unceased, unarisen — this is called nirvāṇa.",
+        "note": "The classic apophatic, eightfold-negation definition. Nāgārjuna refuses both eternalist (nirvāṇa = existent absolute) and nihilist (nirvāṇa = annihilation) readings. The flame-extinction image is apt here precisely because it declines to name a result-state."
+      },
+      {
+        "era": "Buddhist Madhyamaka",
+        "locus": "Mūla-Madhyamaka-Kārikā 25.19 (Nāgārjuna)",
+        "sanskrit": "na saṃsārasya nirvāṇāt kiṃcid asti viśeṣaṇam",
+        "rendering": "There is no distinction whatever of saṃsāra from nirvāṇa.",
+        "note": "The radical Madhyamaka non-substantialism: the distinction itself is conceptual proliferation (*prapañca*). Nirvāṇa is not a separate ontological realm one reaches; it is the stilling of grasping at any such distinction. This is the furthest point from the *Gītā*'s substrate-supplying *brahma-nirvāṇa*."
+      },
+      {
+        "era": "Bhagavad-Gītā (re-yoking)",
+        "locus": "Bhagavad-Gītā 2.72 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "sthitvāsyām anta-kāle 'pi brahma-nirvāṇam ṛcchati",
+        "rendering": "Established in it even at the last hour, one attains extinction-into-Brahman (brahma-nirvāṇa).",
+        "note": "The bare *nirvāṇa* compounded with *brahman*: the substrate the Buddhist tradition withholds is here supplied. This is the *Gītā*'s deliberate re-yoking of the extinction-image to a positive absolute. This verse is cited here only to mark the cross-reference; the full analysis of *brahma-nirvāṇa* as a compound belongs to the separate entry brahmanirvana.json."
+      }
+    ]
+  },
+  "see_also": [
+    "brahmanirvana",
+    "agni",
+    "jyoti",
+    "dipa",
+    "sunyata",
+    "moksa",
+    "kaivalya",
+    "santi",
+    "trsna",
+    "raga",
+    "dvesa",
+    "moha"
+  ],
+  "translator_note": "Do NOT collapse Buddhist *nirvāṇa* into Vedāntic *mokṣa*. 'Extinction' or 'blowing out' is the literal image, but the Buddhist terminus is apophatic and refuses any *ātman* or *brahman* as the thing liberated or the substrate attained. Rendering it as 'liberation' or 'salvation' imports exactly the positive-substrate assumptions the tradition declines. The *Gītā*'s *brahma-nirvāṇa* (separate entry) deliberately supplies that substrate; the contrast between the two — bare *nirvāṇa* (no substrate) and *brahma-nirvāṇa* (Brahman as substrate) — is philosophically fundamental and must be preserved in translation. Prefer 'the going-out of the fires', 'the extinction of craving', or, when context requires, 'the unconditioned' — and always note the anātman commitment that the bare word carries in its home tradition."
+}

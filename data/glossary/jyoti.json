@@ -1,0 +1,112 @@
+{
+  "term_key": "jyoti",
+  "term_iast": "jyotis",
+  "term_devanagari": "ज्योतिस्",
+  "literal": "light, radiance, luminosity; from the root √dyut / √jyut (to shine); the word appears in nominative as *jyotiḥ*, in sandhi as *jyotir-*, and in the genitive plural as *jyotiṣāṃ* — hence the phrase *jyotiṣāṃ jyotiḥ*, 'the light of lights', i.e. the light that is the source of all other lights",
+  "aliases": [
+    "jyoti",
+    "jyotis",
+    "jyotiḥ",
+    "jyotir",
+    "jyotiṣāṃ jyotiḥ",
+    "jyotiṣām",
+    "antar-jyotiḥ",
+    "antarjyotis"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-imagery-restructure",
+  "invariant_definition": "*Jyotis* names light in its self-luminous aspect — not reflected or borrowed illumination, but the light that shines by its own nature and from which all other luminaries borrow their shining. In the philosophical vocabulary that runs from the Ṛgveda through the Upaniṣads and into the *Bhagavad-Gītā*, *jyotis* becomes the consistent figure for Brahman, the ātman, and the ultimate ground of consciousness: the Upaniṣadic slogan 'tam eva bhāntam anu bhāti sarvaṃ' (him alone, as he shines, all shines after) articulates the claim that the self is the primary light after which sun, moon, fire, and lightning are secondary. The climactic formulation is *jyotiṣāṃ jyotiḥ* (Muṇḍaka 2.2.9), 'the light of lights', lodged in the heart's golden sheath. The *Gītā* then supplies the term *antar-jyotiḥ*, 'the light within' (5.24), as the mark of the yogin who attains *brahma-nirvāṇa*. In this way *jyotis* is the positive pole against which the extinction-image of *nirvāṇa* must be read: not a light blown out but an unborrowed light attained.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "Light (*jyotis*) as the figure of self-luminous consciousness or Brahman — the source, not a reflection — is shared across Ṛgvedic, Upaniṣadic, and Gītā usage, though the register shifts from poetic-ritual (RV) to metaphysical-doctrinal (Upaniṣads/Advaita) to applied-soteriological (Gītā).",
+    "register_axes_note": "The Ṛgvedic *jyotis* is a poetic-ritual image: light kindled or set in the heart by the sacrificial/cosmic fire. The Upaniṣads, especially as read by Śaṅkara, lift *svayaṃjyotiṣṭva* (self-luminosity) into a technical metaphysical doctrine: the ātman is self-luminous because it is pure consciousness, not an object illuminated by anything else (Bṛhad-Āraṇyaka 4.3.9–14; Śaṅkara's Brahma-sūtra-bhāṣya). This Advaitic technical sense should not be read back into the Ṛgveda, where the imagery is cosmological and liturgical rather than doctrinal. The *Gītā*'s *antar-jyotiḥ* at 5.24 occupies an intermediate register: descriptive of the yogin's inward orientation, it evokes the Upaniṣadic interior luminosity without importing a technical Advaitic thesis, and it stands in the same verse as *brahma-nirvāṇa*, making it the text's clearest genealogical link between the light strand and the extinction-compound."
+  },
+  "per_school": [
+    {
+      "school": "Ṛgveda",
+      "definition": "In the Ṛgveda *jyotis* is the light of the cosmic and sacrificial fire, set in the heart or in the hidden cave (*guhā*). The key locus is RV 6.9.6: 'jyotir hṛdaya āhitam', 'the light that is set in the heart' — a declaration that the luminous principle of the cosmos (here associated with Agni-Vaiśvānara, the universal fire) is deposited in the interior of the person. This is image and cosmology, not yet epistemology or ontology: the resonance with the later self-luminous Brahman is real but the genealogical claim must be made with care — the Ṛgvedic verse does not assert self-luminosity in the Advaitic sense.",
+      "primary_loci": [
+        "RV 6.9.6 (Aufrecht ed.)"
+      ],
+      "register_tag": "Poetic-ritual; cosmological; light-in-the-heart as liturgical image"
+    },
+    {
+      "school": "Upaniṣadic (self-luminosity / svayaṃ-jyotis)",
+      "definition": "The Upaniṣads transpose the Vedic heart-light into the philosophical claim that Brahman/ātman is self-luminous (*svayaṃjyotiḥ*): the only light that does not borrow its shining from another. Kaṭha 2.2.15 and its parallels in Muṇḍaka and Śvetāśvatara state this in the negative form ('there the sun does not shine, nor moon and stars … him alone, as he shines, all shines after'). Muṇḍaka 2.2.9 gives the culminating positive formulation: *jyotiṣāṃ jyotiḥ*, 'the light of lights', identified with stainless, partless Brahman in the golden sheath of the heart. Śvetāśvatara 3.12 names the Person 'jyotir avyayaḥ', the imperishable light. Śaṅkara develops *svayaṃjyotiṣṭva* as a technical Advaitic doctrine in his Bṛhad-Āraṇyaka and Brahma-sūtra commentaries: the ātman is self-luminous because consciousness is not an object and cannot be illuminated by anything other than itself.",
+      "primary_loci": [
+        "Kaṭha 2.2.15 (= GRETIL kau_5.15); parallel Śvetāśvatara 6.14",
+        "Muṇḍaka 2.2.9 (verbatim as quoted in Śaṅkara, Brahma-sūtra-bhāṣya)",
+        "Śvetāśvatara 3.12 (= GRETIL SvetUp_3.12)"
+      ],
+      "register_tag": "Metaphysical-doctrinal; svayaṃjyotiṣṭva as Advaitic technical thesis; genealogical"
+    },
+    {
+      "school": "Bhagavad-Gītā (antar-jyotiḥ)",
+      "definition": "At Gītā 5.24 the yogin who attains *brahma-nirvāṇa* is described by three 'within' qualifiers — inner happiness (*antaḥ-sukha*), inner delight (*antarārāma*), and 'whose light too is within' (*antar-jyotiḥ*). This *antar-jyotiḥ* is the Gītā's direct link between the interior-luminosity imagery and the extinction-compound: the person who has the self-luminous light within is precisely the one who 'attains extinction-into-Brahman'. The verse does not theorize the self-luminosity but treats it as characterizing a complete inward orientation — the yogin's happiness, delight, and light all have a single inner source. This is the strongest textual support for reading *brahma-nirvāṇa* against the positive light-pole rather than as mere annihilation.",
+      "primary_loci": [
+        "Bhagavad-Gītā 5.24 (verbatim from Śaṅkara's Gītā-Bhāṣya)"
+      ],
+      "register_tag": "Soteriological-descriptive; antar-jyotiḥ as the mark of the brahma-nirvāṇa yogin; genealogical link to extinction-compound"
+    },
+    {
+      "school": "Aurobindo (the Light, psychological)",
+      "definition": "[Aurobindo's lens, not philology.] Aurobindo reads the Vedic *jyotis* and the related term *svar* as figures of the supramental Truth-consciousness, 'the light that is immortal and of all the births' (*jyotir amṛtaṃ viśvajanyam*, his rendering at RV — *The Secret of the Veda*). For him the Vedic seer-poets encoded a psychology of ascending lights culminating in the supramental: the inner light is not a metaphor but the actual radiance of a higher plane of consciousness accessible through the yogic path. This reading conflates Vedic, Upaniṣadic, and Tantric light-imagery into a single developmental arc; it is hermeneutically creative and influential but should not be read as establishing historical philological continuity between the RV heart-light and the Upaniṣadic svayaṃjyotiḥ doctrine.",
+      "primary_loci": [
+        "Aurobindo, The Secret of the Veda (Mandala discussions of Agni and svar)"
+      ],
+      "register_tag": "Psychological-symbolic; Aurobindo's supramental lens; marked as his reading"
+    }
+  ],
+  "textual_history": {
+    "summary": "The career of *jyotis* in Indian philosophical literature runs from the Ṛgvedic image of light 'set in the heart' (RV 6.9.6) through the Upaniṣadic claim that Brahman is 'the light of lights' in the heart's golden sheath (Muṇḍaka 2.2.9), the repeated declaration that the self is self-luminous — 'him alone, as he shines, all shines after' (Kaṭha 2.2.15 and parallels) — to the *Gītā*'s *antar-jyotiḥ* at 5.24, where the yogin 'whose light is within' is in the same verse said to attain *brahma-nirvāṇa*. The RV heart-light and the Upaniṣadic self-luminosity are connected by resonance and thematic continuity rather than explicit genealogy; the *Gītā* at 5.24 is the genuine genealogical link between the interior-light strand and the extinction-compound. The importance of *jyotis* for understanding *brahma-nirvāṇa* is that it supplies the positive pole: what *nirvāṇa* extinguishes is the derived, fuelled, desire-fed fire of the ego; what *brahma-nirvāṇa* attains is the unborrowed, self-luminous light of Brahman — a light not blown out but disclosed.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 6.9.6 (Aufrecht ed.)",
+        "sanskrit": "vi me karṇā patayato vi cakṣur vī3daṁ jyotir hṛdaya āhitaṁ yat",
+        "rendering": "My ears fly open, my eye [opens] — this light that is set in the heart.",
+        "note": "The key Vedic locus: *jyotir hṛdaya āhitam*, 'the light that is set (āhita) in the heart'. The verse is from a hymn to Agni-Vaiśvānara; the light 'set in the heart' is the cosmic-sacrificial fire interiorised. Note that 'vī3' with the digit 3 is the Aufrecht svarita/pluti notation for a prolonged svarita; the form is preserved exactly from the edition. The connection to the later self-luminous Brahman in the heart is one of resonance: the verse does not claim self-luminosity in the Advaitic sense."
+      },
+      {
+        "era": "Upaniṣads — self-luminosity",
+        "locus": "Kaṭha 2.2.15 (= GRETIL kau_5.15); parallel Śvetāśvatara 6.14",
+        "sanskrit": "na tatra sūryo bhāti na candratārakaṃ nemā vidyuto bhānti kuto 'yam agniḥ | tam eva bhāntam anu bhāti sarvaṃ tasya bhāsā sarvam idaṃ vibhāti",
+        "rendering": "There the sun does not shine, nor moon and stars; these lightnings do not shine — how then this fire? Him alone, as he shines, all shines after; by his shining all this shines.",
+        "note": "The core Upaniṣadic statement of *svayaṃjyotiṣṭva*: not 'one light among many' but the light after which every other light shines. Śaṅkara comments on the parallel Muṇḍaka verse: 'no lamp shines after another lamp' (*nahi pradīpaḥ pradīpāntaram anubhāti*, Brahma-sūtra-bhāṣya), keeping the flame-figure in view. This is the positive light-absolute that *brahma-nirvāṇa* attains, not extinguishes. The Śvetāśvatara parallel reads *anubhāti* as one word rather than *anu bhāti* as two; Kaṭha is the primary locus."
+      },
+      {
+        "era": "Upaniṣads — light of lights",
+        "locus": "Muṇḍaka 2.2.9 (verbatim as quoted in Śaṅkara, Brahma-sūtra-bhāṣya)",
+        "sanskrit": "hiraṇmaye pare kośe virajaṃ brahma niṣphalam | tacchubhraṃ jyotiṣāṃ jyotis tad yad ātmavido viduḥ",
+        "rendering": "In the supreme golden sheath is Brahman, stainless, partless; that is the radiant, the light of lights, which the knowers of the self know.",
+        "note": "*Jyotiṣāṃ jyotiḥ* — 'the light of lights', the genitive plural making the claim that this light is the source from which all other lights are derived. The locus of Brahman is named as the heart's golden sheath (*hiraṇmaya kośa*), connecting the Upaniṣadic light-doctrine explicitly to the interiority of the person. This verse is quoted by Śaṅkara in the Brahma-sūtra-bhāṣya as a primary *pramāṇa* for the self-luminosity of Brahman. (Our verbatim follows the embedded śruti-quotation in our on-disk Śaṅkara Brahma-sūtra-bhāṣya, which reads *niṣphalam*; the more common printed reading of the Muṇḍaka is *niṣkalam*, 'without parts' — the same flag noted in the *brahma-nirvāṇa* entry.)"
+      },
+      {
+        "era": "Upaniṣads — imperishable light",
+        "locus": "Śvetāśvatara 3.12 (= GRETIL SvetUp_3.12)",
+        "sanskrit": "mahān prabhur vai puruṣaḥ sattvasyaiṣa pravartakaḥ | sunirmalām imāṃ prāptim īśāno jyotir avyayaḥ",
+        "rendering": "The Person is the great Lord, the impeller of being; the ruler, the imperishable light, [leading] to this stainless attainment.",
+        "note": "*Jyotir avyayaḥ* — the imperishable light — is here a name of the supreme Person (*puruṣa*). The Śvetāśvatara's theistic colouring (Rudra/Śiva as the Person) gives the light a personal-absolute dimension; the 'stainless attainment' (*sunirmalā prāpti*) to which the imperishable light leads uses the same *nirmal*- root as *virajaṃ* at Muṇḍaka 2.2.9."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 5.24 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "yo 'ntaḥ-sukho 'ntarārāmas tathāntar-jyotir eva yaḥ | sa yogī brahma-nirvāṇaṃ brahma-bhūto 'dhigacchati",
+        "rendering": "He whose happiness is within, whose delight is within, whose light too is within (antar-jyotiḥ) — that yogin, become Brahman, attains extinction-into-Brahman.",
+        "note": "The genealogical link between the light-strand and the extinction-compound. *Antar-jyotiḥ* — 'the one whose light is within' — is in the same verse as *brahma-nirvāṇam*: the interior-luminosity is the mark of the yogin who attains the Brahman-extinction. This is the *Gītā*'s strongest integration of the two strands. The Ṛgvedic heart-light (RV 6.9.6) and the Upaniṣadic 'light of lights' (Muṇḍaka 2.2.9) supply the positive content of the *antar-jyotiḥ* by resonance; 5.24 is the genuine genealogical hinge."
+      }
+    ]
+  },
+  "see_also": [
+    "agni",
+    "hrdaya",
+    "guha",
+    "dipa",
+    "nirvana",
+    "brahmanirvana",
+    "atman",
+    "brahman",
+    "prakasa"
+  ],
+  "translator_note": "Two translation pitfalls recur in rendering *jyotis*. First, 'light of lights' (*jyotiṣāṃ jyotiḥ*) is a genitive-of-source construction: not 'the brightest light among lights' (superlative) but 'the light from which all lights derive their luminosity' — the distinction matters for understanding why the Upaniṣads say the sun and fire do not shine there. Second, *antar-jyotiḥ* at Gītā 5.24 should not be flattened into 'inner glow' or treated as a mere poetic flourish: it is the Gītā's own vocabulary of inwardness applied to the light-term, and its presence in the same verse as *brahma-nirvāṇa* is load-bearing. Third, Śaṅkara's doctrine of *svayaṃjyotiṣṭva* — that the ātman is self-luminous because consciousness is not an object and cannot be illuminated from outside — is a specific Advaitic metaphysical thesis developed in commentary literature; it should not be read back into the Ṛgvedic 'light set in the heart', where the image is cosmological and liturgical. The three registers (Vedic-poetic, Upaniṣadic-doctrinal, Gītā-soteriological) should be held apart even when the same word (*jyotis*) carries all three."
+}

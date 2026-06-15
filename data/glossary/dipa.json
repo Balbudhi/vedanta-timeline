@@ -1,0 +1,89 @@
+{
+  "term_key": "dipa",
+  "term_iast": "dīpa",
+  "term_devanagari": "दीप",
+  "literal": "lamp, light; from Sanskrit *dīpa* (dīp-a, masculine noun), derived from the root √dīp 'to blaze, to shine' — the substantive denotes a lamp or light-source, especially the wick-and-oil lamp; *pradīpa* is a closely synonymous compound (pra- + dīpa, 'a shining-forth lamp') used for the lamp-simile in philosophical contexts",
+  "aliases": [
+    "dipa",
+    "dīpa",
+    "dīpaḥ",
+    "pradīpa",
+    "pradīpaḥ",
+    "dīpopama",
+    "dīpo nivātasthaḥ",
+    "dīpa-nivātastha"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-imagery-restructure",
+  "invariant_definition": "*Dīpa* (the lamp) functions in Indian philosophical texts as a simile for consciousness and mind under two related but distinct aspects. In the *Bhagavad-Gītā* 6.19, the lamp in a windless place (*dīpo nivāta-sthaḥ*) that does not flicker is the figure for the yogin's mind perfectly steadied in meditation: the flame burns without disturbance. In the *Śvetāśvatara Upaniṣad* 2.15, the lamp-simile (*dīpopama*) is the means by which the disciplined one sees the truth of Brahman through the truth of the self — the lamp illumines its object without itself being the object. In Advaita Vedānta commentary the lamp recurs as the image of self-luminosity: the self, like a lamp, shines by its own nature and requires no second lamp (*nahi pradīpaḥ pradīpāntaramanubhāti* — 'no lamp shines after another lamp', Śaṅkara). The load-bearing contrast across the imagery cluster is the one between the *dīpa* — the lamp that does **not** go out — and *nirvāṇa* — the flame *blown out* (nir-√vā). Both the *Gītā* and the Buddhist usage work with the flame-figure, but in opposite directions: the *Gītā*'s lamp at 6.19 is steady, unflickering, still burning; at 6.15 the adjacent word *nirvāṇa* and its compound *brahma-nirvāṇa* figure the extinction of the desire-and-ego fire. The same physical image — an oil flame — is turned to opposite rhetorical purposes depending on context: the lamp held still (concentration, self-luminosity) versus the lamp put out (extinction of bondage). Whether the Upaniṣadic *dīpopama* passage and the *Gītā*'s *dīpo nivātasthaḥ* are part of a unified doctrinal genealogy or represent parallel deployments of a shared cultural image is a question of honest scholarship; the resonance is real, but a direct textual lineage is not established.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "The lamp as the figure of **steady, self-luminous consciousness**: a light that burns without flickering (the controlled mind of the yogin) and that shines by its own nature without requiring a further lamp (the self-luminous Brahman/ātman). Both Śaṅkara and Rāmānuja read *dīpo nivātasthaḥ* (Gītā 6.19) as the unflickering lamp of the disciplined mind; the Advaita tradition extends the image to the self-luminosity of Brahman.",
+    "register_axes_note": "No real doctrinal disagreement between the major commentators on the *dīpa*-simile itself. Śaṅkara reads the steady lamp at 6.19 as figuring the mind absorbed in the self (which is non-dual Brahman); Rāmānuja reads it as the mind steadied upon the personal Lord (Bhagavān), the controlled self as distinct from Brahman but united in devotion. The difference is in the metaphysical context of the simile, not in the simile's import: both agree the lamp figures steadiness, not extinction. The contrast with *nirvāṇa*'s blown-out flame is the load-bearing point for this entry: the *dīpa* in the *Gītā* burns on; *nirvāṇa* (nir-√vā, 'blown out') figures a flame extinguished. Same flame-figure, opposite fate — and the *Gītā* places both images within a few verses of each other (6.15 *nirvāṇa-paramāṃ śāntiṃ*, 6.19 *dīpo nivāta-stho*)."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā (dīpo nivātasthaḥ) — Śaṅkara and Rāmānuja",
+      "definition": "Both Śaṅkara and Rāmānuja gloss Gītā 6.19 as the simile of the mind of the yogin made steady in meditation: the lamp in a windless place does not flicker, and this is remembered — *smṛtā*, 'likened' — as the condition of the *yukta-citta*, the integrated mind. For Śaṅkara the 'self' (*yogin's citta*) stabilised in the lamp-image is ultimately the non-dual ātman whose nature is pure luminosity (connecting the simile to his broader account of self-luminosity). For Rāmānuja the unflickering lamp is the devotee's mind held steady in meditation on Bhagavān — the stability is a relational steadiness, the mind's turning-without-wavering toward the Lord. Both commentators note that the verse supplies a *upamā* (formal simile), making the lamp an explicit comparison rather than a direct assertion. The key contrast neither commentator makes explicit but the text implies: the lamp at 6.19 does **not** go out, while the *nirvāṇa* of 6.15 (and the *brahma-nirvāṇa* of 5.24–26) figures a flame that *is* extinguished. The *Gītā* holds both images simultaneously.",
+      "primary_loci": [
+        "Bhagavad-Gītā 6.19 (verbatim from Śaṅkara's & Rāmānuja's Gītā-Bhāṣya)",
+        "Bhagavad-Gītā 6.15 (adjacent nirvāṇa-paramā śāntiṃ, for the contrast)"
+      ],
+      "register_tag": "M+S; yukta (the steady, controlled mind — contrast with nirvāṇa's blown-out flame)"
+    },
+    {
+      "school": "Upaniṣadic (dīpopama — Śvetāśvatara)",
+      "definition": "The *Śvetāśvatara Upaniṣad* 2.15 employs *dīpopama* — the lamp-simile — to describe the mode in which the disciplined practitioner (*yuktaḥ*), through the truth of the self (*ātmatattvena*), perceives the truth of Brahman (*brahmatattvaṃ*): as by a lamp, one illumines what is seen. The lamp here is not the mind itself but the instrument of seeing — the ātman as the light by which Brahman is 'seen' or recognized. The object is unborn, constant (*dhruvaṃ*), pure (*viśuddhaṃ*), and upon knowing it (*jñātvā devaṃ*) the practitioner is freed from all bonds (*mucyate sarvapāśaiḥ*). This dīpa-simile emphasises epistemic illumination — the self as the lamp that makes Brahman visible — and sits close to the Advaita account of self-luminosity, though the *Śvetāśvatara* has a theistic register (the *deva* that is known is often read as Śiva/Rudra). Whether this simile directly informs the *Gītā*'s windless-lamp verse is a question of resonance rather than demonstrated genealogy.",
+      "primary_loci": [
+        "Śvetāśvatara 2.15 (= GRETIL SvetUp_2.15)"
+      ],
+      "register_tag": "Φ+S; mumukṣu (liberation through self-as-lamp seeing Brahman)"
+    },
+    {
+      "school": "Advaita (the lamp of self-luminosity — Śaṅkara's Brahma-sūtra-bhāṣya)",
+      "definition": "In Śaṅkara's commentary on the Brahma-sūtras, the lamp (*pradīpa*) furnishes the figure for self-luminosity (*svayaṃ-jyotiḥ*): just as no lamp requires a second lamp to be seen — it is self-manifesting — so Brahman/ātman illumines all without itself needing an illuminator. The phrase *nahi pradīpaḥ pradīpāntaramanubhāti* ('no lamp shines after/by means of another lamp') establishes the point that the self is not an object requiring external light. This is the Advaita extension of the image beyond simile for the steady mind (Gītā 6.19) into an argument for the nature of pure consciousness: consciousness is self-luminous as the lamp is self-luminous. The lamp in this usage does not figure steadiness or epistemic illumination but ontological self-evidence.",
+      "primary_loci": [
+        "Śaṅkara, Brahma-sūtra-bhāṣya (gloss on the self-luminous Brahman)",
+        "Bhagavad-Gītā 5.24 (antar-jyotiḥ, inner light, adjacent to brahma-nirvāṇa)"
+      ],
+      "register_tag": "M+S; jijñāsu (self-luminosity of Brahman; the lamp as argument against needing a second illuminator)"
+    }
+  ],
+  "textual_history": {
+    "summary": "The lamp-simile moves through three overlapping registers in the classical sources. The *Śvetāśvatara Upaniṣad* 2.15 deploys *dīpopama* for the ātman as the lamp by which Brahman is seen — a simile for epistemic self-illumination. The *Bhagavad-Gītā* 6.19 then gives the most famous instantiation: *dīpo nivāta-stho neṅgate* — the lamp in a windless place that does not flicker — as the simile for the perfectly steadied yogin's mind. Śaṅkara's Brahma-sūtra-bhāṣya extends the lamp-image into an ontological argument: *nahi pradīpaḥ pradīpāntaramanubhāti* — no lamp shines by means of another lamp, establishing Brahman's self-luminosity. The load-bearing contrast this history sets up is with *nirvāṇa*: the *dīpa* of Gītā 6.19 does **not** go out, whereas *nirvāṇa* (nir-√vā, 'blown out') figures a flame extinguished. The *Gītā* places both images within a few verses of the same chapter — the windless lamp of 6.19 and the *nirvāṇa-paramā śāntiṃ* of 6.15 — making it the cleanest site in the canonical literature for tracking the contrast between the steady, self-luminous flame and the extinguished one. Whether the Śvetāśvatara and Gītā lamp verses form a doctrinal genealogy or a convergence of shared imagery is a genuine scholarly question; both possibilities should be held open.",
+    "stages": [
+      {
+        "era": "Upaniṣads",
+        "locus": "Śvetāśvatara 2.15 (= GRETIL SvetUp_2.15)",
+        "sanskrit": "yad ātmatattvena tu brahmatattvaṃ dīpopameneha yuktaḥ prapaśyet | ajaṃ dhruvaṃ sarvatattvair viśuddhaṃ jñātvā devaṃ mucyate sarvapāśaiḥ",
+        "rendering": "When, yoked, one sees here the truth of Brahman through the truth of the self, as by a lamp (dīpopama) — knowing the unborn, the constant, the pure from all principles, the God, one is freed from all bonds.",
+        "note": "The earliest canonical *dīpa*-simile in this cluster. The lamp here is the instrument of epistemic illumination: the ātman used as the lamp by which Brahman is recognized. The liberated object is described as unborn (*ajaṃ*), constant (*dhruvaṃ*), and pure — the positive attributes of Brahman that the lamp-simile is meant to make visible. The text's register is theistic (the deity known is often read as Śiva/Rudra in the *Śvetāśvatara*'s broader framing). Whether this verse directly influenced the *Gītā*'s lamp-usage at 6.19 is a question of resonance rather than proven genealogy."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 6.19 (verbatim from Śaṅkara's & Rāmānuja's Gītā-Bhāṣya)",
+        "sanskrit": "yathā dīpo nivāta-stho neṅgate sopamā smṛtā",
+        "rendering": "As a lamp in a windless place does not flicker — that simile is remembered [of the yogin of controlled mind].",
+        "note": "The most-cited *dīpa*-verse in the tradition. The verb *neṅgate* ('does not flicker/waver') makes the non-extinction explicit: this is the lamp that stays burning, held still by the absence of wind (the controlled breath and mind of yoga). The verse uses formal simile-language (*upamā smṛtā*, 'that simile is remembered') — the lamp is a comparison, not a metaphysical assertion. Both Śaṅkara and Rāmānuja accept this reading. The critical contrast: two verses earlier (6.15) the same chapter uses *nirvāṇa-paramāṃ śāntiṃ* — the peace culminating in nirvāṇa, the blown-out flame. The *dīpa* here burns on; *nirvāṇa* is the flame extinguished. The *Gītā* holds both images in the same chapter without apparent tension, because they operate in different registers: steadiness of mind (6.19) versus extinction of bondage (6.15)."
+      },
+      {
+        "era": "Vedānta commentary",
+        "locus": "Śaṅkara, Brahma-sūtra-bhāṣya (gloss on the self-luminous Brahman)",
+        "sanskrit": "nahi pradīpaḥ pradīpāntaramanubhāti",
+        "rendering": "No lamp shines after [i.e., by means of] another lamp.",
+        "note": "Verbatim from the on-disk Śaṅkara Brahma-sūtra-bhāṣya (confirmed at line 1303 of the source file). The argument: among objects of the same type — lamps — none shines *by* another; they are each self-luminous. Brahman/ātman is similarly self-luminous: it does not require a second illuminating principle. This extends the *dīpa*-image from simile-for-the-controlled-mind (Gītā 6.19) and simile-for-epistemic-illumination (Śvetāśvatara 2.15) into an ontological argument for *svayaṃ-jyotiḥ* (self-luminosity). The lamp no longer figures a state to be cultivated but a property of consciousness itself."
+      }
+    ]
+  },
+  "see_also": [
+    "agni",
+    "jyoti",
+    "hrdaya",
+    "guha",
+    "nirvana",
+    "brahmanirvana",
+    "sthitaprajna",
+    "atman"
+  ],
+  "translator_note": "The primary English rendering for Gītā 6.19 is 'a lamp in a windless place' (*dīpo nivāta-sthaḥ*) as the simile of the steady, unflickering mind. The crucial point for translation and commentary is that this lamp does **not** go out: it is the counter-image to *nirvāṇa* (nir-√vā, 'blown out as a flame'). Rendering *dīpo nivātasthaḥ* without marking its non-extinction misses the contrast the *Gītā* builds over 6.15–6.19. Śaṅkara's *nahi pradīpaḥ pradīpāntaramanubhāti* is best rendered 'no lamp shines by means of another lamp' — the *anu-* prefix indicates dependence ('shining after / following upon'), and the point is that the self-luminous does not shine by borrowing light. 'Pradīpa' and 'dīpa' are interchangeable in the commentarial literature; translators should not infer a technical distinction where none is marked."
+}

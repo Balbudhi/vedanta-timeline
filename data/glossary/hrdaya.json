@@ -1,0 +1,115 @@
+{
+  "term_key": "hrdaya",
+  "term_iast": "hṛdaya",
+  "term_devanagari": "हृदय",
+  "literal": "heart; from √hṛd (to take, to seize) + suffix -aya, or by folk-etymological analysis as 'that which takes (*hṛ-*), gives (*dā-*), and moves (*ya-*)'; in usage the anatomical heart as the seat of mind, self, and inner light",
+  "aliases": [
+    "hrdaya",
+    "hṛdaya",
+    "hṛdayam",
+    "hṛdaye",
+    "hṛdi",
+    "hṛd",
+    "hṛdā",
+    "hṛnmanīṣā"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-imagery-restructure",
+  "invariant_definition": "*Hṛdaya* — the heart — functions across the Vedic and Upaniṣadic literature as the primary interior locus of the self, of cognition, of the inner light, and of liberation. Three recurring motifs define it: (1) the heart as the place where the mantra is *fashioned* and the light is *set* (Ṛgveda); (2) the heart as the dwelling of the thumb-sized *puruṣa*, the 'small space' (*dahara-ākāśa*) in which Brahman is meditated, and the place where the self is smaller than a grain of rice yet greater than the worlds (Upaniṣads); (3) the *hṛdaya-granthi*, the 'knot of the heart', which is cut at liberation. The heart is therefore both the seat of bondage — tied by the knot — and the seat of release: the inner light and the inner self dwell *here*, and extinction of bondage (*nirvāṇa*) takes place *here*. This makes *hṛdaya* the spatial anchor of the imagery cluster that also includes *jyoti* (light), *agni* (fire), *guhā* (the hidden cave), and *dīpa* (lamp). The link between *hṛdaya* and *brahma-nirvāṇa* is one of **resonant imagery rather than explicit genealogy**: the *Gītā* does not invoke the Vedic or Upaniṣadic heart-texts when it uses *brahma-nirvāṇa*, but the intelligibility of liberation described as the extinction of the inner fire in favour of the inner light depends on a long prior career of exactly this imagery centred on the heart.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "The heart (*hṛdaya*) is the **inner seat of the self, of cognition, and of the light of consciousness** — the locus in which the divine or the real is hidden, found, and from which liberation proceeds.",
+    "register_axes_note": "The heart is simultaneously anatomical-symbolic (*hṛdaya-puṇḍarīka*, the lotus of the heart) and philosophical: Śaṅkara treats the *daharākāśa* — the small space inside the lotus of the heart described in the *dahara-vidyā* of Chāndogya 8.1 — as Brahman itself, not as a finite spatial location in the body. The folk-etymology (hṛ-dā-ya) was used in the tradition to support the cognitive reading: the heart 'takes and gives' — it receives perception and emits intention, functioning as the seat of *buddhi*. There is no real cross-school *disagreement* on the heart's role as interior locus; the divergences concern what exactly is seated there (the limited *jīva* under *avidyā*, or Brahman always already present) and the mechanism of liberation (knowledge cutting the knot, or grace)."
+  },
+  "per_school": [
+    {
+      "school": "Ṛgveda",
+      "definition": "In the Ṛgveda *hṛdā* (instrumental: 'by the heart') marks the heart as the organ of the seer's inner fashioning: the mantras are 'fashioned by the heart' (*hṛdā taṣṭān*), not merely uttered by the mouth, and the light (*jyotis*) is said to be 'set in the heart' (*jyotir hṛdaya āhitam*). The heart is thus already in the Ṛgveda the interior site of inspired cognition and of the inner luminosity — the earliest pole of an imagery chain that runs through the Upaniṣads and into the Gītā's *brahma-nirvāṇa*.",
+      "primary_loci": [
+        "RV 1.67.4 (Aufrecht ed.)",
+        "RV 6.9.6 (Aufrecht ed.)"
+      ],
+      "register_tag": "S; ṛṣi/dārśanika (heart as organ of fashioning and seat of inner light)"
+    },
+    {
+      "school": "Upaniṣadic (dahara-vidyā / the cave of the heart)",
+      "definition": "The Upaniṣads elaborate the heart into the primary cosmological-psychological locus of the self. The *dahara-vidyā* of the Chāndogya (8.1.1) identifies a 'small lotus, a dwelling' (*daharaṃ puṇḍarīkaṃ veśma*) inside 'the city of Brahman' (the body), within which there is a 'small space' (*antarākāśa*) — and this small space is to be understood as Brahman itself, infinite despite its apparent smallness. Chāndogya 3.14.3 gives the paradox: the self within the heart is smaller than a grain of rice, or barley, or mustard; yet the immediately following clause adds that it is 'greater than the earth, greater than the atmosphere, greater than the sky, greater than all these worlds' (*jyāyān pṛthivyā ...*). Kaṭha 2.3.17 places the thumb-sized *puruṣa* 'ever seated in the heart of beings'. And Muṇḍaka 2.2.8 makes the heart the site of liberation: the *hṛdaya-granthi* — the knot of the heart — is what is severed when the absolute is seen, dissolving doubts and dwindling works. The heart is therefore the seat of both bondage (the knot) and liberation (the space in which Brahman is present).",
+      "primary_loci": [
+        "Chāndogya 8.1.1 (= GRETIL, mūla) — dahara-vidyā",
+        "Chāndogya 3.14.3 (= GRETIL, mūla) — smaller-than-a-grain / greater-than-the-worlds",
+        "Kaṭha 2.3.17 (= GRETIL kau_6.17) — thumb-Person in the heart",
+        "Muṇḍaka 2.2.8 (verbatim from Śaṅkara, Brahma-sūtra-bhāṣya) — hṛdaya-granthi"
+      ],
+      "register_tag": "Φ+S; jijñāsu/mumukṣu (heart as dahara-ākāśa = Brahman; knot cut at liberation)"
+    },
+    {
+      "school": "Vedānta (Śaṅkara: heart as upādhi-seat / locus of cognition)",
+      "definition": "Śaṅkara's gloss on the *dahara-vidyā* explicitly denies that the 'small space' (*daharākāśa*) is limited space inside a body part: 'Because Brahman is indicated here by means of a small space, the small space is to be understood as Brahman itself' (Brahma-sūtra-bhāṣya on 1.3.14, interpreting Chāndogya 8.1). In his Upaniṣad commentary Śaṅkara treats the heart as the seat of the *buddhi* and therefore the primary cognitive *upādhi* (limiting adjunct) of the *jīva*; it is in the heart-space that ignorance (*avidyā*) and its superimpositions reside, and it is also in the heart-space that the *ātman*'s self-luminosity is to be recognised. The *hṛdaya-granthi* (Muṇḍaka 2.2.8) represents, for Śaṅkara, the *avidyā*-produced identification of self with the body-mind complex; its cutting by knowledge is liberation. The heart is thus neither literal anatomy nor metaphor alone: it is the functional locus at which *avidyā* lodges and at which knowledge destroys it.",
+      "primary_loci": [
+        "Śaṅkara, Brahma-sūtra-bhāṣya 1.3.14 (on daharākāśa = Brahman)",
+        "Śaṅkara, Chāndogya-Upaniṣad-Bhāṣya 8.1.1",
+        "Muṇḍaka 2.2.8 (verbatim from Śaṅkara, Brahma-sūtra-bhāṣya)"
+      ],
+      "register_tag": "M+S; mumukṣu (daharākāśa = Brahman; hṛdaya-granthi = avidyā-knot severed by jñāna)"
+    }
+  ],
+  "textual_history": {
+    "summary": "The heart (*hṛdaya*) first appears in the Ṛgveda as the seat of inner fashioning and as the place in which the light (*jyotis*) is 'set'. The Upaniṣads elaborate this into a systematic localization of the self: the thumb-sized *puruṣa* in the heart, the paradoxical small-yet-infinite *dahara-ākāśa* of the Chāndogya, and the *hṛdaya-granthi* whose cutting marks liberation (Muṇḍaka). This makes the heart simultaneously the site of bondage and of liberation, the seat of the inner light and the place where that light is finally unrestricted. The imagery cluster — heart, inner light, cave/hidden-place, flame — supplies the spatial and luminous presuppositions that make the *Gītā*'s *brahma-nirvāṇa* intelligible: extinction of the desire-fire happens *in* the heart (where the inner *puruṣa* and the knot both reside), and what is attained is the inner light that was always present there. This connection is one of **resonant imagery and shared spatial metaphysics rather than explicit cross-citation**: no Upaniṣadic verse on the heart is quoted in the *Gītā*'s *brahma-nirvāṇa* passages, and no *brahma-nirvāṇa* text names the *dahara-vidyā*. Honest reading holds the link as structural and imagistic.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 1.67.4 (Aufrecht ed.)",
+        "sanskrit": "vidantīm atra naro dhiyaṁdhā hṛdā yat taṣṭān mantrām̐ aśaṁsan",
+        "rendering": "There the men holding the thought found him, when, fashioned by the heart, they spoke forth the mantras.",
+        "note": "The heart (hṛdā, instrumental) is the organ of the inner fashioning of the mantra — not mere utterance but the deeper act of shaping that makes the verse a vehicle for the sacred. This is the earliest Vedic attestation of the heart as the seat of inspired cognition."
+      },
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 6.9.6 (Aufrecht ed.)",
+        "sanskrit": "vi me karṇā patayato vi cakṣur vī3daṁ jyotir hṛdaya āhitaṁ yat",
+        "rendering": "My ears fly open, my eye opens — this light that is set in the heart.",
+        "note": "The inner light (jyotis) is 'set in the heart' (hṛdaya āhitam) — the earliest Vedic warrant for locating luminosity in the heart. Note: 'vī3' is a Vedic pluta (lengthened vowel, three morae) and is preserved verbatim from the Aufrecht edition. This verse is the direct Vedic ancestor of the Upaniṣadic heart-light and of the inner light that *brahma-nirvāṇa* points toward."
+      },
+      {
+        "era": "Upaniṣads — Kaṭha",
+        "locus": "Kaṭha 2.3.17 (= GRETIL kau_6.17)",
+        "sanskrit": "aṅguṣṭhamātraḥ puruṣo 'ntarātmā sadā janānāṃ hṛdaye saṃniviṣṭaḥ",
+        "rendering": "The thumb-sized Person, the inner self, ever seated in the heart of beings.",
+        "note": "The Vedic inner light has become the thumb-sized Person (aṅguṣṭhamātra puruṣa) — a recurrent Kaṭha formula — permanently lodged in the heart. The Kaṭha's earlier verse (2.1.13) describes this same Person as 'a light without smoke' (jyotir iva adhūmakaḥ), explicitly linking the interior puruṣa to the flame imagery."
+      },
+      {
+        "era": "Upaniṣads — Chāndogya (dahara-vidyā)",
+        "locus": "Chāndogya 8.1.1 (= GRETIL, mūla)",
+        "sanskrit": "atha yad idam asmin brahmapure daharaṃ puṇḍarīkaṃ veśma daharo 'sminn antarākāsaḥ",
+        "rendering": "Now, in this city of Brahman there is a small lotus, a dwelling; within it is a small space (antarākāśa).",
+        "note": "The 'city of Brahman' is the body; the 'small lotus' is the heart (hṛdaya-puṇḍarīka); the 'small space' (antarākāśa; the source spells antarākāsaḥ — preserved exactly) within the lotus is, by the argument of the vidyā, Brahman itself — infinite despite the apparently tiny container. Śaṅkara's Brahma-sūtra-bhāṣya (1.3.14) confirms: the small space is to be understood as Brahman. This is the dominant Vedāntic heart-theology."
+      },
+      {
+        "era": "Upaniṣads — Chāndogya (smaller-than / greater-than)",
+        "locus": "Chāndogya 3.14.3 (= GRETIL, mūla)",
+        "sanskrit": "eṣa ma ātmā antarhṛdaye 'ṇīyān vrīher vā yavād vā sarṣapād vā śyāmākād vā śyāmākataṇḍulād vā",
+        "rendering": "This self of mine within the heart is smaller than a grain of rice, or barley, or a mustard seed, or a millet grain, or a kernel of millet.",
+        "note": "The immediately following clause (not quoted verbatim here as it is not among the verified strings) states that this same self within the heart is 'greater than the earth, greater than the atmosphere, greater than the sky, greater than all these worlds' (eṣa ma ātmā antarhṛdaye jyāyān pṛthivyā ...). The paradox — infinitely small and infinitely large — is classical Upaniṣadic shorthand for the identity of the interior self and the infinite absolute (ātman = brahman). The heart is the spatial locus that holds both extremes together."
+      },
+      {
+        "era": "Upaniṣads — Muṇḍaka (liberation / hṛdaya-granthi)",
+        "locus": "Muṇḍaka 2.2.8 (verbatim from Śaṅkara, Brahma-sūtra-bhāṣya)",
+        "sanskrit": "bhidyate hṛdayagranthiśchidyante sarvasaṃśayāḥ | kṣīyante cāsya karmāṇi tasmin dṛṣṭe parāvare",
+        "rendering": "The knot of the heart is cut, all doubts are sundered, and his works dwindle, when That — the higher-and-lower — is seen.",
+        "note": "The 'knot of the heart' (hṛdaya-granthi) is the nodal image for bondage understood as a constraint lodged precisely in the heart. Liberation is expressed as its being cut (bhidyate) — a cutting that happens in the heart. The verb kṣīyante ('dwindle', from kṣi, 'to diminish, waste away') describes the dissipation of accumulated karman; this dwindling-to-nothing in the heart is structurally cognate with the flame-extinction of *nirvāṇa*, making the heart the site where both the inner light is enshrined and bondage is extinguished. Aurobindo (The Secret of the Veda) reads the Vedic hṛd as the seat of the intuitive thought and the secret place where the Truth and the divine flame are lodged in man — his is a psychological and symbolic lens, not a philological argument, and is marked as such."
+      }
+    ]
+  },
+  "see_also": [
+    "agni",
+    "jyoti",
+    "guha",
+    "dipa",
+    "atman",
+    "brahman",
+    "antahkarana",
+    "nirvana",
+    "brahmanirvana"
+  ],
+  "translator_note": "Do not read the modern Western 'heart' (seat of emotion, sentiment) into *hṛdaya*. In the Sanskrit philosophical register it is primarily the seat of *buddhi* (intelligence/cognition) and the symbolic dwelling of the *ātman* — the locus of both knowing and being. The technical terms *hṛdaya-puṇḍarīka* (heart-lotus) and *daharākāśa* (the small space within the heart-lotus) are philosophical constructs: Śaṅkara is explicit that the daharākāśa is not a spatial hollow in the chest but Brahman understood through the heart-symbol. Likewise *hṛdaya-granthi* ('knot of the heart') is not a physiological knot but the *avidyā*-produced identification of the self with the body-mind complex. Where 'heart' works as a translation it should carry the sense 'the inner seat of self and consciousness', not 'the emotional centre'. In the Ṛgvedic usages *hṛdā* (instrumental: 'by the heart') marks the organ of inner fashioning, closest in English to 'mind's depth' or 'innermost understanding' — though 'heart' is acceptable if the note above is kept in view."
+}

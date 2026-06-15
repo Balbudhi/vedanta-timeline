@@ -9,9 +9,7 @@
     "brahmanirvāṇa",
     "Brahmanirvāṇa",
     "brahmanirvāṇam",
-    "brahma-nirvāṇam",
-    "nirvāṇa",
-    "nirvāṇam"
+    "brahma-nirvāṇam"
   ],
   "last_verified_at": "2026-06-15",
   "last_verified_by": "glossary-encyclopedic-pass",
@@ -112,12 +110,18 @@
     ]
   },
   "see_also": [
+    "nirvana",
     "moksa",
     "brahman",
     "kaivalya",
     "nirguna",
     "sthitaprajna",
-    "atman"
+    "atman",
+    "agni",
+    "jyoti",
+    "hrdaya",
+    "guha",
+    "dipa"
   ],
   "translator_note": "Do not collapse *brahma-nirvāṇa* into Buddhist nirvāṇa. The *Gītā* uses the word *nirvāṇa* — flame-extinction — but yokes it to *brahman* precisely to make the goal positive: what is extinguished is the ego-and-desire fire, what is reached is the absolute, Brahman. Rendering it simply as 'nirvāṇa' or 'extinction' loses the deliberate contrast with the Buddhist apophatic usage, which extinguishes the fires of greed, hatred, and delusion without affirming any self or Brahman to be liberated. 'Extinction-into-Brahman', or 'the peace/bliss of Brahman', keeps both the flame-image and the positive absolute in view; and the Advaitic 'mergence' should not be read as annihilation."
 }

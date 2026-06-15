@@ -1,0 +1,103 @@
+{
+  "term_key": "guha",
+  "term_iast": "guhā",
+  "term_devanagari": "गुहा",
+  "literal": "the secret place, the hidden cave; from Sanskrit *guh* / *gūh* (√guh, 'to conceal, to hide') — the nominal *guhā* denotes the place of concealment, hence 'the cave', 'the hiding-place', 'the secret inner recess'",
+  "aliases": [
+    "guha",
+    "guhā",
+    "guhāyām",
+    "guhāhitam",
+    "guhāhita",
+    "guhāśaya",
+    "guhā hitam"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-imagery-restructure",
+  "invariant_definition": "*Guhā* names the secret or hidden place — linguistically, the cave of concealment — which becomes, across the Vedic and Upaniṣadic literature, the inner site where the fire (Agni) and subsequently the self (ātman) are hidden. In the Ṛgveda, Agni 'sits down in the guhā' and must be found there by seers; the formula is one of a sacred thing at once concealed and luminous, lodged in a secret inner recess. In the Upaniṣads the *guhā* is explicitly the cave of the heart: the compound *guhāhita* ('set in the secret place') and the phrase *nihitaṃ guhāyāṃ parame vyoman* ('set in the secret place, in the highest heaven') are recurring locutions for the ātman's innermost seat. The paradox built into the image — that the self/fire is simultaneously *hidden* (guhā implies concealment) and *luminous* — is the same paradox that *nirvāṇa*'s imagery turns on: extinction and illumination as two aspects of the same interior event. The term is important as part of the light/flame-in-the-heart imagery cluster (agni, jyoti, hṛdaya, dīpa) that underlies the intelligibility of brahma-nirvāṇa. Resonance should be distinguished from genealogy: the *Gītā* does not invoke *guhā* when it coins *brahma-nirvāṇa*, and the connection is one of shared imagery rather than explicit intertextual citation.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Guhā* names **the secret inner place where the self/fire is hidden yet luminous — the cave of the heart as the innermost seat of the ātman and the place from which Agni is recovered**. This image is shared across the Vedic and Upaniṣadic strata; Vedāntic commentators (Śaṅkara, Rāmānuja) gloss *guhā* uniformly as the *buddhi* or *hṛdaya* — the intellect or heart-space — as the functional seat of the self.",
+    "register_axes_note": "Aurobindo's psychological reading of *guhā* as the superconscient or subliminal register of being is a deliberate re-appropriation, not a reading licensed by the plain text; it is his hermeneutic lens applied to the Vedic formula, and is marked as such below. The plain Upaniṣadic text uses *guhā* as a locative figure — the place where the ātman *is situated* — and the commentarial tradition glosses this as *buddhi* or *hṛdaya-ākāśa* (the ether of the heart-space). No real sectarian disagreement on the term itself: the divergence is between Vedāntic literal-figural glossing and Aurobindo's symbolic-psychological expansion."
+  },
+  "per_school": [
+    {
+      "school": "Ṛgveda (Agni in the secret place)",
+      "definition": "In the Ṛgveda *guhā* appears as the hidden place where Agni — the fire, the divine will-force — 'sits down' and from which he is recovered by inspired seers. The formula is one of concealment followed by disclosure: the fire is at once hidden in the secret inner recess and found there by those whose mantras are 'fashioned by the heart'. The *guhā* is not yet explicitly the anatomical heart but a figurative hidden site; the locution 'sitting down in the *guhā*' recurs across hymns about Agni's concealment and rekindling, giving the imagery cluster its oldest stratum: a luminous thing lodged in a secret place.",
+      "primary_loci": [
+        "RV 1.67.3 (Aufrecht ed.)",
+        "RV 3.1.9 (Aufrecht ed.)"
+      ],
+      "register_tag": "Φ+S; Vedic imagery [Agni in the guhā — concealment and disclosure of the fire]"
+    },
+    {
+      "school": "Upaniṣadic (cave of the heart / guhāhitam ātman)",
+      "definition": "In the Upaniṣads *guhā* becomes the explicit seat of the ātman in the heart: the compound *guhāhita* ('set in the secret place'), the phrase *nihitaṃ guhāyāṃ parame vyoman* ('set in the secret place in the highest heaven'), and the locative *guhāyām* with *nihita* or *anupravi­ṣṭa* all name the innermost locus of the self. Vedāntic commentators (Śaṅkara) gloss *guhā* as *buddhi* or *hṛdaya-ākāśa* — the intellect or the ether in the heart-space — making the anatomical metaphor explicit: the self is seated in the cave formed by the chambers of the heart. The paradox of the image (hidden yet luminous, small yet greater than the great) is what later makes the *nirvāṇa* imagery — extinction as revelation, going-out as attainment — theologically legible.",
+      "primary_loci": [
+        "Kaṭha 1.2.12 (= GRETIL kau_2.12)",
+        "Kaṭha 1.2.20 (= GRETIL kau_2.20); parallel Śvetāśvatara 3.20",
+        "Taittirīya 2.1 (= GRETIL, mūla)"
+      ],
+      "register_tag": "Φ+S; Upaniṣadic [guhāhita ātman — cave of the heart as ātman's innermost seat]"
+    },
+    {
+      "school": "Aurobindo (the secret cave / superconscient)",
+      "definition": "Aurobindo reads *guhā* in the Ṛgvedic hymns as pointing to the secret cave of being — the superconscient or subliminal register that ordinary consciousness does not access. Reading RV 3.1.9 verbatim in *The Secret of the Veda*, he takes the fire 'moving in the secret place' as a symbol of the divine will-force concealed in the subliminal depth of the psyche: 'these are the eternal worlds hidden in the guhā, the secret, unmanifest or superconscient parts of being' (Aurobindo). This is his own hermeneutic lens and a deliberate symbolic expansion, not a conclusion of Sanskrit philology; the plain Vedic text gives a formulaic locution for the fire's concealment and recovery, not a technical psychology of consciousness. Aurobindo's reading is noted here because it has been influential in modern Vedāntic reception, but it is marked as his interpretive register throughout.",
+      "primary_loci": [
+        "Aurobindo, The Secret of the Veda (Mandala I and III hymns)"
+      ],
+      "register_tag": "M+S; Aurobindo's lens [symbolic-psychological expansion — not philological consensus; mark explicitly as his reading]"
+    }
+  ],
+  "textual_history": {
+    "summary": "The *guhā* begins in the Ṛgveda as the secret place where Agni sits and is found by seers — a formula of concealment and disclosure that attaches to fire as the luminous thing hidden in an inner recess. In the Upaniṣads the image is interiorised and philosophically specified: *guhāhita* and *nihitaṃ guhāyām* become the standard locutions for the ātman's situation, and the *guhā* is glossed as the *hṛdaya* — the heart — or the *buddhi*. The paradox built into the image (the self is *hidden* yet *luminous*, set in a cave yet greater than the cosmos) is the same structural paradox that *nirvāṇa* imagery trades on: the flame that goes out in one sense becomes, in another, the self-luminous absolute that is attained. This is a matter of resonant imagery and shared structural logic, not an explicit intertextual genealogy: the *Gītā* does not cite *guhā* when it coins *brahma-nirvāṇa*. The connection is real as an imagery cluster — agni, guhā, jyoti, hṛdaya, dīpa all belong together — but the honest description is resonance, not derivation.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 1.67.3 (Aufrecht ed.)",
+        "sanskrit": "haste dadhāno nṛmṇā viśvāny ame devān dhād guhā niṣīdan",
+        "rendering": "Holding all manly powers in his hand, he set the gods [in safety], sitting down in the secret place (guhā).",
+        "note": "Agni is the agent: the fire-god who 'sits down in the *guhā*', the secret inner place, and is there found by the seers. This is the earliest pole of the guhā-imagery cluster: a luminous thing concealed in a hidden recess, held in reserve and then disclosed by ritual knowledge. The *guhā* here is not yet the anatomical heart; it is the figurative hidden site where the sacred fire lodges."
+      },
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 3.1.9 (Aufrecht ed.)",
+        "sanskrit": "guhā carantaṁ sakhibhiḥ śivebhir divo yahvībhir na guhā babhūva",
+        "rendering": "[They found] him moving in the secret place with benign companions; by the mighty streams of heaven the secret place was [his] no longer [he was disclosed].",
+        "note": "The *guhā* as place of temporary concealment from which the fire is recovered: the second half of the verse marks the disclosure — 'the secret place was [his] no longer.' Aurobindo cites this very ṛc verbatim in *The Secret of the Veda* and reads it as pointing to 'the secret, unmanifest or superconscient parts of being' (Aurobindo). His reading is noted as his lens; what the text plainly gives is the recurring formula of the fire moving in, and recovered from, the hidden place."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha 1.2.12 (= GRETIL kau_2.12)",
+        "sanskrit": "taṃ durdarśaṃ gūḍham anupraviṣṭaṃ guhāhitaṃ gahvareṣṭhaṃ purāṇam",
+        "rendering": "Him, hard to see, entered into the hidden, set in the secret place (guhāhita), seated in the depth, ancient.",
+        "note": "The compound *guhāhita* — 'set in the *guhā*' — becomes the standard Upaniṣadic formula for the ātman's innermost situation. The self is hard to see (*durdarśa*), entered deeply into the hidden (*gūḍham anupraviṣṭa*), seated in the depths (*gahvareṣṭha*): hiddenness and depth are the dominant attributes, while luminosity (latent in the Vedic fire-figure) remains implicit as the paradox that makes the image philosophically charged."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha 1.2.20 (= GRETIL kau_2.20); parallel Śvetāśvatara 3.20",
+        "sanskrit": "aṇor aṇīyān mahato mahīyān ātmāsya jantor nihito guhāyām",
+        "rendering": "Smaller than the small, greater than the great, the self of this creature is set in the secret place (guhāyām).",
+        "note": "The self's paradoxical scale — smaller than the atom, greater than the cosmos — is paired with its hiddenness in the *guhā*. Kaṭha reads *ātmāsya jantor*; the Śvetāśvatara parallel reads *ātmā guhāyāṃ nihito 'sya jantoḥ* — the same content, different word-order. Kaṭha is cited as primary. The concealment/scale paradox is the Upaniṣadic counterpart of the *nirvāṇa* paradox: the self that is 'blown out' (hidden, extinguished) is simultaneously the greatest reality."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Taittirīya 2.1 (= GRETIL, mūla)",
+        "sanskrit": "satyaṃ jñānam anantaṃ brahma / yo veda nihitaṃ guhāyāṃ parame vyoman / so 'śnute sarvān kāmān saha brahmaṇā vipaścitā",
+        "rendering": "Brahman is the real, knowledge, the infinite. He who knows it set in the secret place (guhāyām), in the highest heaven — he attains all desires together with the wise Brahman.",
+        "note": "The fullest Upaniṣadic statement of the *guhā* formula: Brahman is *nihitaṃ guhāyāṃ parame vyoman* — hidden in the secret place that is also the highest heaven (*parame vyoman*). The spatial paradox is now explicit: the innermost cave of the heart coincides with the highest, most expansive reality. This is the textual locus most directly relevant to understanding how *brahma-nirvāṇa* trades on the concealment/luminosity cluster: what the *guhā* hides is not a lesser thing but the infinite Brahman."
+      }
+    ]
+  },
+  "see_also": [
+    "agni",
+    "jyoti",
+    "hrdaya",
+    "dipa",
+    "atman",
+    "brahman",
+    "nirvana",
+    "brahmanirvana"
+  ],
+  "translator_note": "Do not render *guhā* as a literal geographical cave; the term is consistently figurative in the Upaniṣadic literature, denoting the hidden inner seat of the self — glossed by Vedāntic commentators as *buddhi* (intellect) or *hṛdaya-ākāśa* (the ether within the heart-space). 'Cave of the heart' is the conventional rendering and the least misleading: it preserves the figurative hiddenness (*guh*-, to conceal) while signalling the interior, bodily-located character of the metaphor. The compound *guhāhita* ('set in the secret place') is best rendered as a locative, not an instrumental: the self is *located* in the *guhā*, not *lodged by means of* it. The connection between *guhā* and *nirvāṇa*-imagery (the paradox of the hidden-yet-luminous fire) is a matter of resonant imagery within the broader light/flame cluster; it is not a derivation to be asserted as genealogy."
+}

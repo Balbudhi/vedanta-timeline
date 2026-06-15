@@ -1,0 +1,96 @@
+{
+  "term_key": "nirodha",
+  "term_iast": "nirodha",
+  "term_devanagari": "निरोध",
+  "literal": "restraint, obstruction, suppression, cessation; from *ni-* (down, into, completely) + √*rudh* (to obstruct, check, restrain) — the force of the prefix intensifies the root's sense of 'holding back', yielding 'complete stopping, stilling, cessation'",
+  "aliases": [
+    "nirodha",
+    "nirodhaḥ",
+    "nirodhaṃ",
+    "nirodho",
+    "cittavṛttinirodha",
+    "citta-vṛtti-nirodha"
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "glossary-imagery-restructure",
+  "invariant_definition": "*Nirodha* names the stopping or cessation of an ongoing process — mental, existential, or soteriological. Across the three traditions that deploy the term technically, that process differs fundamentally: the fluctuations (*vṛtti*) of the mind-stuff in Pātañjala Yoga; the arising of suffering (*duḥkha*) in Buddhist doctrine; the apparent arising and dissolution of multiplicity itself in Gauḍapāda's Advaita. Because the process at issue is different in each case, *nirodha* is not a single shared concept but a single word bearing three genuinely distinct technical careers. The shared grammatical core — *ni-* + √*rudh* — carries only the minimal sense of 'complete cessation of a process'; everything doctrinal diverges from there.",
+  "school_framing": {
+    "framing_status": "mixed",
+    "shared_core": "cessation or restraint of a mental or existential process — the specific process, and the status assigned to the cessation, differ by tradition",
+    "register_axes_note": "REAL-DISAGREEMENT across all three axes. (1) Yoga treats nirodha as a *positive disciplinary achievement* — the yogin deliberately stills the mind's modifications through practice and dispassion; it is a technique whose telos is kaivalya. (2) Buddhism treats nirodha as *the soteriological terminus itself* — the cessation of suffering (duḥkha-nirodha), the third noble truth, identified with nirvāṇa; it is a goal to be realised, not a technique. (3) Gauḍapāda's ajātivāda *denies nirodha at the highest level of truth*: because nothing was ever truly born, nothing can be truly suppressed or dissolved; the very concept of cessation is undermined by the non-origination doctrine. This three-way split is not a case of one concept read from different angles but of the same Sanskrit lexeme conscripted into mutually irreconcilable frameworks."
+  },
+  "per_school": [
+    {
+      "school": "Yoga (Pātañjala)",
+      "definition": "In the Yoga-Sūtra *nirodha* is the central technical term: *yoga* is *defined* as *cittavṛttinirodha* — the restraint/stilling of the modifications (*vṛtti*) of the mind-stuff (*citta*) (YS 1.2). *Nirodha* here is an active, disciplined achievement, brought about by practice (*abhyāsa*) and dispassion (*vairāgya*) (YS 1.12). It is not a negative suppression in the pejorative sense but the positive transformation of the mind's restless activity into a state of transparent stillness in which the *puruṣa* (pure consciousness) rests in its own nature, leading ultimately to *kaivalya* (liberation as aloneness of pure awareness). The dedicated compound-entry for the full phrase is citta-vrtti-nirodha.json; this headword concerns the bare term and its technical sense within Yoga and beyond.",
+      "primary_loci": [
+        "Yoga-Sūtra 1.2 (Pātañjala)",
+        "Yoga-Sūtra 1.12 (Pātañjala)"
+      ],
+      "register_tag": "M+S; mumukṣu / yogin [REAL-DISAGREEMENT: positive stilling-technique, not a metaphysical terminus]"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "In Buddhist doctrine *nirodha* is primarily the third of the four noble truths (*āryasatya*): *duḥkha-nirodha*, the cessation of suffering. This is equated with *nirvāṇa* — the unconditioned state freed of craving, hatred, and delusion — and stands as the soteriological goal rather than a practised technique applied mid-path. A related usage is *nirodha-samāpatti*, 'the attainment of cessation', a meditative absorption sometimes identified as the highest equipoise short of *nirvāṇa* itself. In Madhyamaka (Nāgārjuna), even *nirvāṇa* as *nirodha* is not hypostatised as a positive entity but held to be neither existent nor non-existent. The trajectory in all Buddhist schools is cessation-as-goal: *nirodha* is what liberation *is*, not a method to achieve something further.",
+      "primary_loci": [
+        "Mūla-Madhyamaka-Kārikā 24.25 (Nāgārjuna)",
+        "Dhammacakkappavattana Sutta (Pāli Canon, SN 56.11) — the first setting-out of the four noble truths"
+      ],
+      "register_tag": "Φ+S; reflective reader [REAL-DISAGREEMENT: nirodha = soteriological terminus = nirvāṇa, not a mid-path technique]"
+    },
+    {
+      "school": "Advaita / Gauḍapāda (ajātivāda)",
+      "definition": "Gauḍapāda's radical non-origination doctrine (*ajātivāda*) executes a striking inversion: it *denies* that *nirodha* (cessation) is real at the highest level of truth. The argument runs that nirodha presupposes something that arose (*utpatti*); since nothing in non-dual reality ever truly arose, nothing can truly cease. The famous verse GK 2.32 states this outright: there is no cessation (*na nirodhaḥ*), no origination (*na cotpattiḥ*), no one bound, no sādhaka, no one desiring liberation, no one liberated — this is the highest truth (*paramārthatā*). Śaṅkara's commentary confirms: '*na nirodhaḥ* — nirodhana means dissolution/cessation (*pralaya*); its absence follows from the absence of origination' (*utpatti-pralayayor-abhāvāt*). The concept of *nirodha* — including Yoga's *citta-vṛtti-nirodha* — is thus meaningful only within the transactional domain (*vyavahāra*); from the standpoint of the highest truth (*paramārtha*), the framework that makes cessation conceivable is itself dissolved.",
+      "primary_loci": [
+        "Māṇḍūkya-Kārikā 2.32 (Gauḍapāda)",
+        "Śaṅkara, Māṇḍūkya-Kārikā-Bhāṣya on 2.32"
+      ],
+      "register_tag": "Φ+S; jijñāsu [REAL-DISAGREEMENT: ajātivāda denies nirodha is real at paramārtha level — the very concept is negated]"
+    }
+  ],
+  "textual_history": {
+    "summary": "*Nirodha* has three distinct technical careers, each rooted in a different tradition and each assigning the word a different doctrinal weight. Chronologically: (1) Pātañjali's Yoga-Sūtra (est. 2nd–4th c. CE) canonises the term as the definition of yoga itself — the stilling of mental modifications, a positive disciplinary act. (2) The Buddhist use is likely older in this specific technical register: *duḥkha-nirodha* as the third noble truth appears in the earliest strata of Pāli and Sanskrit Buddhist literature and is invoked philosophically by Nāgārjuna (2nd–3rd c. CE) in the Mūla-Madhyamaka-Kārikā. (3) Gauḍapāda (7th c. CE) consciously negates the concept: the Māṇḍūkya-Kārikā's ajāti argument targets both Yoga and Buddhist uses of nirodha as belonging to the realm of conventional construction. The paradox of the terminus is that the most radical Advaitic text uses the word *nirodha* only to deny it.",
+    "stages": [
+      {
+        "era": "Pātañjala Yoga (est. 2nd–4th c. CE)",
+        "locus": "Yoga-Sūtra 1.2 (Pātañjala)",
+        "sanskrit": "yogaś cittavṛttinirodhaḥ",
+        "rendering": "Yoga is the restraint of the modifications of the mind-stuff.",
+        "note": "The definitional locus of *nirodha* in the Yoga tradition. The entire soteriological programme of the Yoga-Sūtra flows from this single sūtra: the purpose of yoga-practice is the stilling (*nirodha*) of the mind's fluctuating modes (*vṛtti*), so that pure awareness (*puruṣa*) rests in its own form. See the dedicated entry citta-vrtti-nirodha.json for the compound in full."
+      },
+      {
+        "era": "Pātañjala Yoga (est. 2nd–4th c. CE)",
+        "locus": "Yoga-Sūtra 1.12 (Pātañjala)",
+        "sanskrit": "abhyāsavairāgyābhyāṃ tannirodhaḥ",
+        "rendering": "Their restraint [is achieved] through practice and dispassion.",
+        "note": "*Nirodha* here is explicitly a result of disciplinary means — *abhyāsa* (repeated practice) and *vairāgya* (dispassion toward objects). This confirms that in the Yoga framework nirodha is an achievement, not a state one falls into; it is willed, cultivated, and sustained."
+      },
+      {
+        "era": "Buddhist (Nāgārjuna, 2nd–3rd c. CE)",
+        "locus": "Mūla-Madhyamaka-Kārikā 24.25 (Nāgārjuna)",
+        "sanskrit": "mārgo duḥkhanirodhatvāt katamaḥ prāpayiṣyati",
+        "rendering": "How will any path lead [to it], since it has the nature of the cessation of suffering (duḥkha-nirodha)?",
+        "note": "*Duḥkha-nirodha* here is a technical compound for the third noble truth (*āryasatya*): the cessation of suffering, which in Buddhist thought is equated with *nirvāṇa*. Nāgārjuna is interrogating how a path leads to nirvāṇa if nirvāṇa itself is the cessation-of-suffering; the verse belongs to his analysis of the four noble truths under the lens of dependent origination (*pratītyasamutpāda*). The context underscores that *nirodha* = third āryasatya = nirvāṇa in this framework."
+      },
+      {
+        "era": "Advaita / Gauḍapāda (7th c. CE)",
+        "locus": "Māṇḍūkya-Kārikā 2.32 (Gauḍapāda; verbatim from on-disk GRETIL Māṇḍūkya text, marked mandupk_2.32)",
+        "sanskrit": "na nirodho na cotpattir na baddho na ca sādhakaḥ / na mumukṣur na vai mukta ity eṣā paramārthatā",
+        "rendering": "There is no cessation and no origination, none who is bound and no sādhaka, none desiring liberation and truly none liberated — this is the highest truth.",
+        "note": "The paradox-verse of ajātivāda: *nirodha* is explicitly denied at the level of *paramārthatā* (highest truth). Śaṅkara's bhāṣya glosses: '*na nirodhaḥ* — nirodhana nirodhaḥ pralayaḥ' (cessation means dissolution/pralaya); and: '*utpatti-pralayayor-abhāvāt*' — because both arising and dissolution are absent, bound-one and the rest do not exist. The verse targets the entire taxonomy of the spiritual path — sādhaka, mumukṣu, mukta — as transactionally valid but ultimately unreal. Both Yoga's *citta-vṛtti-nirodha* and Buddhist *duḥkha-nirodha* are implicitly addressed: if nothing ever arose, the concepts of stilling and cessation are māyic constructs within *vyavahāra*."
+      }
+    ]
+  },
+  "see_also": [
+    "citta-vrtti-nirodha",
+    "vrtti",
+    "citta",
+    "kaivalya",
+    "nirvana",
+    "samadhi",
+    "yoga",
+    "moksa",
+    "sunyata"
+  ],
+  "translator_note": "Do not render *nirodha* with a single English word across traditions. In Yoga, 'restraint' or 'stilling' is correct — the term names an active, cultivated suppression of mental activity, and 'cessation' implies too passive a result. In Buddhist doctrine, 'cessation' is standard — *duḥkha-nirodha* is the stopping of suffering as a soteriological fact, not a technique being practised — and this is the third noble truth, identified with nirvāṇa. In Gauḍapāda, *nirodha* appears only to be negated: 'there is no cessation' — so neither 'restraint' nor 'cessation' should be imported as a positive category; the English must carry the denial. Translators who flatten the term to 'cessation' throughout inadvertently suggest the Buddhist terminus is the Yoga method; those who use 'restraint' throughout erase the Buddhist and Gauḍapāda senses entirely. The three careers of the word are genuinely incommensurable and must be marked separately."
+}
