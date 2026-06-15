@@ -112,7 +112,7 @@ html[data-theme="dark"] .w:focus, html[data-theme="dark"] .w.hi, html[data-theme
 
 /* ---------- word-card ---------- */
 .wcard {
-  position: absolute; z-index: 60; max-width: 300px;
+  position: absolute; z-index: 600; max-width: 300px;   /* above the app's detail pane (z 240) */
   background: var(--bg); border: 1px solid var(--rule);
   border-radius: 10px; box-shadow: var(--shadow-md);
   padding: 13px 15px; font-family: var(--sans); font-size: 13px; line-height: 1.5; color: var(--ink);
@@ -134,7 +134,7 @@ html[data-theme="dark"] .wc-gl { color: #d8c074; }
 
 /* ---------- glossary popover ---------- */
 .gpop {
-  position: absolute; z-index: 70; max-width: 340px;
+  position: absolute; z-index: 620; max-width: 340px;   /* above the app's detail pane */
   background: var(--bg); border: 1px solid var(--rule); border-radius: 10px;
   box-shadow: var(--shadow-md); padding: 16px 18px;
   font-family: var(--sans); font-size: 13px; line-height: 1.55; color: var(--ink);
