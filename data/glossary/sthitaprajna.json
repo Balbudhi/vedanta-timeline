@@ -50,6 +50,32 @@
       "register_tag": "M+S; mumukṣu (brāhmī sthiti)"
     }
   ],
+  "textual_history": {
+    "summary": "*Sthita-prajña* ('one of steady wisdom') is the *Bhagavad-Gītā*'s own coinage: it is not a Vedic or Upaniṣadic term but a compound minted in the *Gītā*'s second chapter, where it is introduced by Arjuna's question and answered across 2.54–72. Its prehistory is not lexical but conceptual — the older idea of *prajñā*, settled insight, and of the *muni* who has mastered the senses. Within the *Gītā* itself the term has a near-synonym, *sthita-dhī* ('of steady intellect'), used interchangeably in the same passage (2.54, 2.56), and it culminates in the *brāhmī sthiti*, the 'Brahman-founded standing' of 2.72. Later Vedānta reads the sthitaprajña as the *jīvanmukta*, the one liberated while living. Honest summary: the word is the *Gītā*'s, and its locus classicus is its only real home; what precedes it is the *concept* of fixed wisdom, not the term.",
+    "stages": [
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.54 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "sthita-prajñasya kā bhāṣā samādhi-sthasya keśava |",
+        "rendering": "What is the description of the man of steady wisdom (sthita-prajña), of one settled in samādhi, Keśava?",
+        "note": "The term's first appearance — Arjuna's question, which opens the *Gītā*'s portrait of the sage. The same verse already supplies the synonym *sthita-dhī* in Śaṅkara's gloss ('sthita-dhīḥ sthita-prajñaḥ'), the two compounds being treated as one. There is no pre-Gītā attestation of *sthita-prajña*; it is the text's own minting."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.55 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "prajahāti yadā kāmān sarvān pārtha mano-gatān | ātmany evātmanā tuṣṭaḥ sthita-prajñas tadocyate ||",
+        "rendering": "When one wholly abandons all the desires that come into the mind, Pārtha, content in the self by the self alone — then is one called of steady wisdom (sthita-prajña).",
+        "note": "Kṛṣṇa's answer and the term's definition: the sthitaprajña is defined by the abandonment of desire and self-sufficiency in the ātman. The near-synonym recurs at 2.56 ('sthita-dhīr munir ucyate', 'he is called the sage of steady intellect'), binding the term to the *muni*."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.72 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati | sthitvāsyām anta-kāle 'pi brahma-nirvāṇam ṛcchati ||",
+        "rendering": "This is the Brahman-founded standing, Pārtha; having reached it one is not deluded. Established in it even at the last hour, one attains extinction-into-Brahman.",
+        "note": "The portrait closes by naming the sthitaprajña's condition the *brāhmī sthiti* — the steady wisdom is a *standing* (sthiti) in Brahman, etymologically echoing the *sthita* of the term. Later Advaita identifies this figure with the *jīvanmukta*, liberated while embodied."
+      }
+    ]
+  },
   "see_also": [
     "jivanmukta",
     "prajna",

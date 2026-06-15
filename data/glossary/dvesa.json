@@ -55,6 +55,32 @@
       "register_tag": "Φ+S; reflective reader (dosa as akusala-mūla)"
     }
   ],
+  "textual_history": {
+    "summary": "*Dveṣa* (√dviṣ, 'to hate, to be hostile') is genuinely old, but its earliest sense is external: in the Ṛgveda *dveṣas* means 'hostility, enmity, the foe' — what the gods are asked to ward off — not an inner affliction of the mind. The interiorisation into a technical *affect* belongs to the classical period. Pātañjala Yoga makes *dveṣa* one of the five *kleśas*, aversion-following-pain, paired with *rāga* (YS 2.3, 2.8); the *Bhagavad-Gītā* treats the *rāga-dveṣa* pair as the appetitive-aversive charge the disciplined self withdraws (2.64, 3.34). The Buddhist *dosa/dveṣa* — one of the three unwholesome roots and three fires — is the contemporary parallel and is where 'hatred' as a root-defilement is most systematically developed.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 1.34.11 (Aufrecht ed.)",
+        "sanskrit": "prāyus tāriṣṭaṁ nī rapāṁsi mṛkṣataṁ sedhataṁ dveṣo bhavataṁ sacābhuvā",
+        "rendering": "Lengthen [our] life, wipe away [our] infirmities, ward off hostility (dveṣas), be [our] companions.",
+        "note": "The earliest stratum of *dveṣa*: not an inner kleśa but *dveṣas*, 'hostility / the enemy' — an external danger the Aśvins are asked to drive off (sedhata, 'ward off'). The word names the foe or the felt hostility between parties, the root √dviṣ in its plain hostile sense; the move to *dveṣa* as a standing affliction of one's own mind is post-Vedic."
+      },
+      {
+        "era": "Classical (Yoga-Sūtra)",
+        "locus": "Yoga-Sūtra 2.3 and 2.8 (verbatim, on-disk Pātañjala-Yoga-Sūtra)",
+        "sanskrit": "avidyāsmitārāgadveṣābhiniveśāḥ kleśāḥ || … || duḥkhānuśayī dveṣaḥ",
+        "rendering": "Ignorance, I-am-ness, attraction, aversion, and clinging-to-life are the afflictions. … Aversion is that which dwells upon pain.",
+        "note": "The decisive interiorisation: *dveṣa* is now one of the five *kleśas*, defined as the standing repulsion that follows upon and broods over pain (*duḥkhānuśayī*), rooted in *avidyā* (YS 2.4) and twinned with *rāga* (*sukhānuśayī rāgaḥ*, 2.7). No longer the external foe but the mind's own aversive disposition."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.64 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 3.34",
+        "sanskrit": "rāga-dveṣa-viyuktais tu viṣayān indriyaiś caran | ātma-vaśyair vidheyātmā prasādam adhigacchati",
+        "rendering": "But moving among the objects with the sense-organs freed of attraction and aversion (rāga-dveṣa), self-governed, the disciplined one attains clarity of mind (prasāda).",
+        "note": "The Gītā treats *dveṣa* almost always as the negative pole of the *rāga-dveṣa* pair, the basic like/dislike polarity that drives bound agency. The ideal is not to feel aversion to the unwelcome but to perceive with the appetitive-aversive charge withdrawn. At 3.34 the two are called *paripanthinau*, highway-robbers lying in wait on the path."
+      }
+    ]
+  },
   "see_also": [
     "raga",
     "kama",

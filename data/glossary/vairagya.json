@@ -45,6 +45,25 @@
       "register_tag": "M+S; mumukṣu"
     }
   ],
+  "textual_history": {
+    "summary": "*Vairāgya* is a post-Vedic technical term built directly on *rāga*: it is the *vṛddhi*-abstract of *vi-rāga* ('de-coloured, without passion'), and since *rāga* itself is not a Vedic category neither is its negation — there is no Vedic *vairāgya*. The word belongs to the classical discipline-vocabulary. Pātañjala Yoga gives it its foundational definition: with *abhyāsa* (practice) it is one of the two means of stilling the mind (YS 1.12), defined as the mastery of one who has ceased to thirst for objects seen or heard of (1.15), with a higher *para-vairāgya* following the vision of *puruṣa* (1.16). The *Bhagavad-Gītā* names *vairāgya* with *abhyāsa* as the means of restraining the restless mind (6.35), and Advaita makes it the second of the four qualifications (*sādhana-catuṣṭaya*) for inquiry.",
+    "stages": [
+      {
+        "era": "Classical (Yoga-Sūtra)",
+        "locus": "Yoga-Sūtra 1.12 and 1.15 (verbatim, on-disk Pātañjala-Yoga-Sūtra); cf. 1.16",
+        "sanskrit": "abhyāsavairāgyābhyāṃ tannirodhaḥ || … || dṛṣṭānuśravikaviṣayavitṛṣṇasya vaśīkārasaṃjñā vairāgyam",
+        "rendering": "By practice and dispassion (abhyāsa-vairāgya) there is the stilling of that [mind]. … Dispassion is the consciousness of mastery (vaśīkāra) of one who has become thirstless toward objects seen or heard-of.",
+        "note": "The earliest technical fixing in our corpus, and the source of the standard *abhyāsa-vairāgya* pairing. Note the definition turns on *vitṛṣṇa*, 'thirstless' — *vairāgya* is the absence of *tṛṣṇā* toward both experienced (*dṛṣṭa*) and merely reported, scriptural (*ānuśravika*) objects. The higher *para-vairāgya* (1.16) is thirstlessness even toward the *guṇas*, arising from *puruṣa-khyāti*."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 6.35 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "asaṃśayaṃ mahābāho mano durṇigrahaṃ calam | abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate",
+        "rendering": "Without doubt, mighty-armed one, the mind is hard to restrain and restless; but by practice and by dispassion (abhyāsa, vairāgya), Kaunteya, it is held in check.",
+        "note": "Kṛṣṇa's answer to Arjuna on the mind's restlessness echoes the Yoga formula exactly — *abhyāsa* and *vairāgya* as the twin means of *nigraha*. The Gītā's deepest dispassion is the *rasa-varjam* of 2.59, where Śaṅkara reads even the residual relish (rasa) as removed only by the vision of the Supreme — dispassion as fruit of knowledge, not mere abstention."
+      }
+    ]
+  },
   "see_also": [
     "raga",
     "rasa",

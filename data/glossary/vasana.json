@@ -50,6 +50,32 @@
       "register_tag": "Φ+E; reflective reader (vāsanā as bīja in ālaya)"
     }
   ],
+  "textual_history": {
+    "summary": "*Vāsanā* in its technical sense — the latent impression deposited by past experience that 'perfumes' and inclines later cognition — is squarely post-Vedic; it is a term of the classical psychologies of mind (Yoga, Yogācāra Buddhism, and Vedānta), not of the śruti. The earliest layer has no doctrine of such residues under this name. Its first systematic homes are Pātañjala Yoga, where *vāsanās/saṃskāras* stored in the *citta* ripen as birth, lifespan, and experience and condition memory and tendency (YS 2.13, 4.8–9), and Yogācāra, where the perfuming-seeds in the *ālaya-vijñāna* carry the whole weight of saṃsāric continuity. In the Vedāntic Gītā commentaries the term does lighter explanatory work — e.g. Madhva on 2.55 invokes the *vāsanā* of the realised one to explain his residual conduct. There is no honest Vedic stage to record.",
+    "stages": [
+      {
+        "era": "Classical (Yoga-Sūtra)",
+        "locus": "Yoga-Sūtra 2.13 and 4.8 (verbatim, on-disk Pātañjala-Yoga-Sūtra); cf. 4.9",
+        "sanskrit": "sati mūle tadvipāko jātyāyurbhogāḥ || … || tatas tadvipākānuguṇānām evābhivyaktir vāsanānām",
+        "rendering": "The root [of the afflictions] existing, its maturation is birth, lifespan, and experience. … From that [maturation] follows the manifestation of just those latent impressions (vāsanā) that match it.",
+        "note": "The earliest technical fixing in our corpus: *vāsanās*, continuous with the *saṃskāras* and the *karmāśaya* (the deposit of action), ripen as the conditions of a life and, latent, condition which dispositions later surface (YS 4.8; cf. 4.9 on their continuity across time and birth). The residue is to be attenuated by *kriyā-yoga* and burnt up as discrimination matures toward *kaivalya*."
+      },
+      {
+        "era": "Classical (Yogācāra, parallel)",
+        "locus": "Vasubandhu, Triṃśikā 2, 18–19 (the seed/store-consciousness theory)",
+        "sanskrit": "vāsanā / bīja in the ālaya-vijñāna (sarva-bīja ālaya-vijñāna; vipāka)",
+        "rendering": "the perfuming-seeds [deposited] in the store-consciousness; their maturation",
+        "note": "The fullest metaphysical development, attributed: in Yogācāra *vāsanā* names the seeds (*bīja*) deposited by action and cognition in the *ālaya-vijñāna*, whose maturation *is* the continuity of the cognitive stream. Cited by doctrine as a parallel; the Triṃśikā is not in our on-disk corpus. This systematic theory should not be read back into the lighter Vedāntic uses below."
+      },
+      {
+        "era": "Bhagavad-Gītā (commentary)",
+        "locus": "Rāmānuja, Gītā-Bhāṣya on 3.34 (verbatim, on-disk ramanuja_gita_bhasya); cf. on 2.62–63",
+        "sanskrit": "prācīnavāsanājanitatadanububhūṣārūpo yo rāgo 'varjanīyo vyavasthitaḥ; tadanubhave pratihate cāvarjanīyo yo dveṣo vyavasthitaḥ",
+        "rendering": "The attraction (rāga) — having the form of the wish to experience [the object], produced by prior latent impressions (prācīna-vāsanā) — is fixed [in the sense] unavoidably; and when that experience is thwarted, the aversion (dveṣa) too is fixed unavoidably.",
+        "note": "In the Vedāntic Gītā commentaries *vāsanā* does applied explanatory work, tying the affect-cluster to the residue of the past: Rāmānuja derives even *rāga* and *dveṣa* themselves from *prācīna-vāsanā*, prior impressions, and (on 2.62–63) makes 'beginningless sin-vāsanā' (*anādi-pāpa-vāsanā*) the reason dwelling-on-objects is unavoidable. This use is thinner than the Yoga/Yogācāra metaphysics but shows *vāsanā* as the mechanism behind the whole craving chain."
+      }
+    ]
+  },
   "see_also": [
     "smrti",
     "karma",

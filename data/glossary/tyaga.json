@@ -41,6 +41,32 @@
       "register_tag": "M+S; mumukṣu (phala-tyāga as purification)"
     }
   ],
+  "textual_history": {
+    "summary": "*Tyāga* ('relinquishment, giving-up', from √tyaj, 'to abandon') is, in its load-bearing philosophical sense, largely a *Gītā*-developed ethical term. The root √tyaj is of course old, but the *Gītā* gives *tyāga* a precise and signature meaning: *phala-tyāga*, the renunciation of the *fruits* of action — acting without attachment to results. This is the text's central practical teaching (2.51: 'abandoning the fruit born of action'; 18.9: relinquishing attachment and fruit is sāttvika tyāga). In chapter 18 the *Gītā* sets *tyāga* beside *saṃnyāsa*: tyāga is fruit-relinquishment, saṃnyāsa the laying-down of desire-prompted acts — though the two are finally treated as one. Honest summary: the root is ancient, but *tyāga* as the technical 'renunciation of fruits' is the *Gītā*'s own coinage of emphasis.",
+    "stages": [
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.51 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "karmajaṃ buddhi-yuktā hi phalaṃ tyaktvā manīṣiṇaḥ |",
+        "rendering": "For the wise, yoked in intellect, having abandoned (tyaktvā) the fruit born of action …",
+        "note": "The first statement of the *Gītā*'s signature teaching: the wise 'abandon the fruit (phalaṃ tyaktvā) born of action'. The √tyaj here is already specialised toward *phala-tyāga*, relinquishment not of action but of its results — the seed of the technical *tyāga* defined in ch. 18. There is no pre-Gītā philosophical *tyāga* in this fruit-renouncing sense; the root is old, the doctrine is the *Gītā*'s."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 18.2 (verbatim from Rāmānuja's Gītā-Bhāṣya)",
+        "sanskrit": "kāmyānāṃ karmaṇāṃ nyāsaṃ saṃnyāsaṃ kavayo viduḥ | sarvakarmaphalatyāgaṃ prāhus tyāgaṃ vicakṣaṇāḥ ||",
+        "rendering": "The wise know saṃnyāsa as the laying-down of desire-prompted actions; the discerning call tyāga the relinquishing of the fruit of all actions (sarva-karma-phala-tyāga).",
+        "note": "The *Gītā*'s explicit definition of *tyāga*: 'the relinquishing of the fruit of all actions' (sarva-karma-phala-tyāga), set against *saṃnyāsa*. This is the term's technical home. Rāmānuja observes the *Gītā* finally treats *tyāga* and *saṃnyāsa* as synonymous in import. (Verbatim from the on-disk Rāmānuja Bhāṣya; the on-disk Śaṅkara Gītā-Bhāṣya covers only through ch. 17.)"
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 18.9 (verbatim from Rāmānuja's Gītā-Bhāṣya)",
+        "sanskrit": "kāryam ity eva yat karma niyataṃ kriyate 'rjuna | saṅgaṃ tyaktvā phalaṃ caiva, sa tyāgaḥ sāttviko mataḥ ||",
+        "rendering": "When obligatory action is performed simply because it ought to be done, Arjuna, abandoning (tyaktvā) attachment and the fruit as well — that relinquishment (tyāga) is held to be sāttvika.",
+        "note": "The *Gītā*'s value-grading of *tyāga*: the highest, *sāttvika* tyāga is doing one's prescribed duty while abandoning both attachment (saṅga) and fruit (phala). This completes the term's specifically *Gītā* sense — not the abandonment of action, but action purified of clinging to results. The technical, graded *tyāga* is the text's own elaboration."
+      }
+    ]
+  },
   "see_also": [
     "samnyasa",
     "niskama-karma",

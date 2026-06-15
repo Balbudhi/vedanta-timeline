@@ -54,6 +54,32 @@
       "register_tag": "Φ+S; reflective reader (santi as nibbāna)"
     }
   ],
+  "textual_history": {
+    "summary": "*Śānti* ('peace, calm, cessation', from √śam) is genuinely Vedic. Already in the Ṛgveda the root √śam carries the sense of well-being and appeasement, in the recurring benedictory formula *śáṃ ca yóś ca* ('weal and welfare'). By the Upaniṣads it has hardened into the liturgical *śānti-pāṭha*, the threefold 'oṃ śāntiḥ śāntiḥ śāntiḥ' that frames recitation, invoking the quelling of the three kinds of obstacle. The *Gītā* inherits this Vedic-Upaniṣadic *śānti* and makes it a name for the goal itself: the desireless one 'attains peace' (*śāntim adhigacchati*, 2.71), and the peace that 'culminates in nirvāṇa' (6.15). The arc is continuous — Vedic appeasement → Upaniṣadic liturgical peace → the *Gītā*'s peace-as-liberation.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 2.33.13 (Aufrecht ed.)",
+        "sanskrit": "yāni manur avṛṇītā pitā nas tā śaṁ ca yoś ca rudrasya vaśmi",
+        "rendering": "Those [healing remedies] which Manu our father chose — those, the weal and the welfare (śáṃ ca yóś ca) of Rudra, I desire.",
+        "note": "The earliest pole: √śam in the fixed Vedic benediction *śáṃ ca yóś ca*, 'weal and welfare', here addressed to Rudra for his healing remedies. *Śam* is the root-sense of appeasement and well-being out of which the noun *śānti* grows; the abstract *śānti* itself is post-Saṃhitā, but the root and its peace-meaning are Ṛgvedic."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Taittirīya Upaniṣad 1.1 (śānti-pāṭha; verbatim from GRETIL Taittirīya with Śaṅkara's Bhāṣya)",
+        "sanskrit": "oṃ śaṃ no mitraḥ śaṃ varuṇaḥ / śaṃ no bhavatvaryamā / śaṃ na indro bṛhaspatiḥ / śaṃ no viṣṇururukramaḥ / namo brahmaṇe / namaste vāyo / tvameva pratyakṣaṃ brahmāsi / tvāmevapratyakṣaṃ brahma vadiṣyāmi / ṛtaṃ vadiṣyāmi / satyaṃ vadiṣyāmi / tanmāmavatu / tadvaktāramavatu / avatu mām / avatu vaktāram // oṃ śāntiḥ śāntiḥ śāntiḥ //",
+        "rendering": "Oṃ. May Mitra be weal (śam) to us, weal Varuṇa; may Aryaman be weal to us; weal Indra and Bṛhaspati; weal to us Viṣṇu of wide stride. Homage to Brahman; homage to thee, Vāyu — thou indeed art the manifest Brahman; thee alone I shall declare the manifest Brahman; I shall speak the cosmic order (ṛta); I shall speak the true (satya). May That protect me; may it protect the teacher; protect me, protect the teacher. Oṃ, peace, peace, peace.",
+        "note": "The Upaniṣadic *śānti-pāṭha*: the same root √śam (in 'śaṃ no') now issues in the threefold liturgical *śāntiḥ*. Śaṅkara explains the triple utterance as quelling the three classes of obstacle to knowledge — ādhyātmika, ādhibhautika, ādhidaivika ('ādhyātmikādhibhautikādhidevikānāṃ … praśamārtham'). Here *śānti* is the settled, ritualised peace that brackets sacred study."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.71 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 2.66, 6.15",
+        "sanskrit": "vihāya kāmān yaḥ sarvān pumāṃś carati niḥspṛhaḥ | nirmamo nirahaṃkāraḥ sa śāntim adhigacchati ||",
+        "rendering": "The person who, abandoning all desires, moves about free of longing, without mine-ness, without ego — he attains peace (śāntim adhigacchati).",
+        "note": "The *Gītā* makes *śānti* the name of the goal: the desireless, ego-free person 'attains peace'. The same chapter has already declared 'aśāntasya kutaḥ sukham' ('whence happiness for the unpeaceful?', 2.66), and at 6.15 the yogin attains 'the peace that culminates in nirvāṇa' (*śāntiṃ nirvāṇa-paramām*) — Vedic-Upaniṣadic *śānti* now reoriented as liberation itself."
+      }
+    ]
+  },
   "see_also": [
     "brahmanirvana",
     "moksa",

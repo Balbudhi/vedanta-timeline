@@ -66,6 +66,32 @@
       "register_tag": "M+Φ; sādhaka [REAL-DISAGREEMENT: rāga as kañcuka, contraction of pūrṇatva]"
     }
   ],
+  "textual_history": {
+    "summary": "*Rāga* is a post-Vedic term. Its root √rañj ('to dye, to colour, to redden') is Vedic and is the live image throughout — the attached mind 'coloured' by its object as cloth takes a dye — but the noun *rāga* in the sense of affective attachment is not a category of the early śruti; the Ṛgveda offers the colour/reddening sense of the root, not the psychological abstraction. The technical *rāga* belongs to the classical analyses: in Pātañjala Yoga it is the third of the five *kleśas*, attachment-following-pleasure (YS 2.3, 2.7); in the *Bhagavad-Gītā* it is the attraction-pole of the *rāga-dveṣa* pair whose mastery marks the *sthitaprajña* (2.56, 2.64). The Buddhist *rāga* (one of the three poisons) and its counter *virāga* ('fading of passion', a name for the goal) are the parallel development.",
+    "stages": [
+      {
+        "era": "Ṛg-veda (root only)",
+        "locus": "√rañj 'to dye/redden' — the root underlying rāga; the abstract noun is not yet a Vedic category",
+        "sanskrit": "(rañj → rāga: 'colouring, dyeing'; later 'the mind coloured by its object')",
+        "rendering": "to dye, to colour, to redden → 'a colouring' → attachment that dyes the mind",
+        "note": "Honest stage-marker, not a verse-quotation: *rāga* as 'attachment' is post-Vedic. What the Vedic layer supplies is only the root-image of √rañj, dyeing/colouring, which the classical term later turns into a psychology — the attached mind takes the hue of what it clings to, as the same root yields *rāga* in its musical sense of a 'colouring' melodic mode. We mark the term's earliest *real* attestation as classical (below) rather than force a Vedic stage."
+      },
+      {
+        "era": "Classical (Yoga-Sūtra)",
+        "locus": "Yoga-Sūtra 2.3 and 2.7 (verbatim, on-disk Pātañjala-Yoga-Sūtra)",
+        "sanskrit": "avidyāsmitārāgadveṣābhiniveśāḥ kleśāḥ || … || sukhānuśayī rāgaḥ",
+        "rendering": "Ignorance, I-am-ness, attraction, aversion, and clinging-to-life are the afflictions. … Attraction is that which dwells upon pleasure.",
+        "note": "The earliest technical fixing in our corpus: *rāga* is the third *kleśa*, the latent disposition of attachment-following-pleasure, paired with *dveṣa* (2.8) and rooted in *avidyā*. Its standing counter-discipline is *vairāgya* (vi-rāga, 'de-colouring'; YS 1.15–16) — the negative directly built on it."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.56 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 2.59, 2.64",
+        "sanskrit": "duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ | vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate",
+        "rendering": "Unshaken in mind amid sorrows, with hankering gone amid pleasures, free of attachment, fear, and anger (vīta-rāga-bhaya-krodha) — the sage of steady wisdom is so called.",
+        "note": "The Gītā uses *rāga* as the attachment whose absence marks the *sthitaprajña* (vīta-rāga, 2.56; rāga-dveṣa-viyukta, 2.64). Śaṅkara's nuance at 2.59: outward abstention removes the objects but not the *rasa*, the inner relish — 'the relish too turns away only on seeing the Supreme' (raso 'py asya paraṃ dṛṣṭvā nivartate) — so *rāga* is finally undone by knowledge, not suppression. (Trika's *rāga*-as-*kañcuka* is a still later, divergent re-use; see the per-school material.)"
+      }
+    ]
+  },
   "see_also": [
     "kama",
     "krodha",

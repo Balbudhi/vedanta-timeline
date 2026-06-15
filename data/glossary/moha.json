@@ -45,6 +45,32 @@
       "register_tag": "Φ+S; reflective reader (moha as akusala-mūla)"
     }
   ],
+  "textual_history": {
+    "summary": "The root √muh ('to become confused, to lose one's way') is Vedic — the Ṛgveda uses its verbs of bewilderment — but *moha* as the named, disabling *delusion* of the inner-enemy lists is a later development. The Śvetāśvatara, a late verse Upaniṣad, already folds *moha* into its imagery of the bound condition; the *Bhagavad-Gītā* gives the term its classic role: *saṃmoha* ('thorough bewilderment') is the precise link in the descent of 2.62–63, born of anger and issuing in the loss of memory and the destruction of *buddhi*, while the whole poem opens from Arjuna's *moha* (the *moha-kalila*, 'thicket of delusion', 2.52) and moves toward its removal. The Buddhist *moha* — one of the three unwholesome roots and, as the root underlying greed and hatred, the most basic — is the contemporary parallel.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 10.81.6 (Aufrecht ed.)",
+        "sanskrit": "muhyantv anye abhito janāsa ihāsmākam maghavā sūrir astu",
+        "rendering": "Let the other folk round about be bewildered (muhyantu); here let our generous patron be [our] inspired seer.",
+        "note": "The root √muh is alive in the Ṛgveda as a verb of being confused or led astray — here a wish that rivals be bewildered. But *moha* as a noun naming a fault of the self, a member of the inner enemies, is not yet a Vedic doctrinal category; the early layer has the verb, not the analytic abstraction."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Śvetāśvatara 1.4 (= GRETIL SvetUp 1.4)",
+        "sanskrit": "aṣṭakaiḥ ṣaḍbhir viśvarūpaikapāśaṃ trimārgabhedaṃ dvinimittaikamoham",
+        "rendering": "[the wheel] with its six eights, of all forms, the one snare, with its three paths branching, whose one delusion (eka-moha) has two causes.",
+        "note": "In this late, theistic verse Upaniṣad *moha* appears within the great wheel-of-existence imagery — the single 'delusion' (eka-moha) with two causes — already a structural feature of the bound condition rather than the gods' affair. A bridge between the Vedic verb-sense and the Gītā's analytic *saṃmoha*. (The Śvetāśvatara is reckoned among the later Upaniṣads, roughly of the Gītā's horizon.)"
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.63 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 2.52",
+        "sanskrit": "krodhād bhavati saṃmohaḥ saṃmohāt smṛti-vibhramaḥ",
+        "rendering": "From anger comes thorough delusion (saṃmoha); from delusion, the wandering of memory.",
+        "note": "The Gītā's precise placement: *saṃmoha* is the link from *krodha* to the lapse of memory and the destruction of *buddhi* (2.62–63). Śaṅkara, Madhusūdana, and Śrīdhara converge in glossing it as *kārya-akārya-viveka-abhāva*, the loss of the discrimination of what is and is not to be done. The poem opens from Arjuna's *moha-kalila* ('thicket of delusion', 2.52) and the teaching's aim is its removal — *moha* as the practical face of *avidyā*."
+      }
+    ]
+  },
   "see_also": [
     "avidya",
     "buddhi",

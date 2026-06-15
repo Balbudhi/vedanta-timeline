@@ -48,6 +48,39 @@
       "register_tag": "Φ+S; reflective reader (dosa as akusala-mūla)"
     }
   ],
+  "textual_history": {
+    "summary": "The root √krudh ('to be angry') is old, but *krodha* as a named inner enemy is not a developed theme of the earliest Vedic layer; the Ṛgveda speaks far more of external foes and the gods' wrath than of anger as a fault of the self. The term comes into focus in the late-Vedic and Upaniṣadic period — the Bṛhadāraṇyaka can already list *krodhamaya* ('made of anger') among the self's modes alongside *kāmamaya* — and is fully crystallised in the *Bhagavad-Gītā*, which gives anger its classic diagnostic placement: born of obstructed desire, issuing in delusion and the collapse of judgment (2.62–63), and named with *kāma* and *lobha* as a 'gate of hell' (16.21). The Buddhist three-poison scheme (greed–hatred–delusion, with *dveṣa/dosa* the hatred-pole) runs parallel and is roughly contemporary.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 10.81.6 (Aufrecht ed.)",
+        "sanskrit": "muhyantv anye abhito janāsa ihāsmākam maghavā sūrir astu",
+        "rendering": "Let the other folk round about be bewildered; here let our generous patron be [our] inspired seer.",
+        "note": "Cited not for *krodha* — the noun is not a thematic Vedic term — but to register the Ṛgvedic baseline of the affect cluster: the verbs of the family (here √muh, 'be confused') are present, while the later analytic nouns (krodha, moha, rāga as faults of the self) are not yet doctrinal categories. The earliest layer treats wrath chiefly as the gods' or the enemy's, not as an inner enemy to be conquered."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka 4.4.5 (= GRETIL BrhUp 4,4.5; Mādhyandina/Kāṇva)",
+        "sanskrit": "kāmamayo 'kāmamayaḥ krodhamayo 'krodhamayo dharmamayo 'dharmamayaḥ sarvamayaḥ",
+        "rendering": "[This self is] made of desire and not made of desire, made of anger and not made of anger, made of dharma and not made of dharma — made of all.",
+        "note": "The earliest clean naming of *krodha* (and *kāma*) in our corpus: Yājñavalkya's teaching that the self takes on the character it acts from — 'as one acts, as one conducts oneself, so one becomes' (yathākārī yathācārī tathā bhavati, same verse). Anger is here a mode the self assumes, not yet the link in a causal descent it becomes in the Gītā."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.62–63 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "saṅgāt saṃjāyate kāmaḥ kāmāt krodho 'bhijāyate | krodhād bhavati saṃmohaḥ saṃmohāt smṛti-vibhramaḥ | smṛti-bhraṃśād buddhi-nāśo buddhi-nāśāt praṇaśyati",
+        "rendering": "From attachment is born desire; from desire anger arises. From anger comes thorough delusion; from delusion the wandering of memory; from the lapse of memory the destruction of the discriminating intellect; and from that destruction one is lost.",
+        "note": "The Gītā's signature placement of *krodha*: not an isolated mood but the link from thwarted *kāma* to the collapse of *buddhi*. Śaṅkara glosses *saṃmoha* here as *aviveka*, the loss of the discrimination of what is and is not to be done — anger is treated diagnostically, as evidence of residual craving. Cf. 3.37, where *kāma* and *krodha* together are 'the enemy here' (viddhy enam iha vairiṇam)."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 16.21 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "tri-vidhaṃ narakasyedaṃ dvāraṃ nāśanam ātmanaḥ | kāmaḥ krodhas tathā lobhas tasmād etat trayaṃ tyajet",
+        "rendering": "This is the threefold gate of hell, destructive of the self — desire, anger, and greed; therefore let one abandon these three.",
+        "note": "The 'gates of hell' verse that fixes *krodha* in a fixed triad with *kāma* and *lobha*, the seed of the later *ari-ṣaḍ-varga* ('six inner enemies'). Note the structural parallel to the Buddhist three unwholesome roots (*lobha–dveṣa–moha*): the same three affects recur, catalogued differently."
+      }
+    ]
+  },
   "see_also": [
     "kama",
     "raga",

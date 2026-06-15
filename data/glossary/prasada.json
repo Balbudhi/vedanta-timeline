@@ -45,6 +45,32 @@
       "register_tag": "M+S+RN; bhakta (prasāda as anugraha)"
     }
   ],
+  "textual_history": {
+    "summary": "*Prasāda* ('clearness, serenity; grace, favour', from pra-√sad, 'to settle, become clear') runs along a double sense from its Vedic-Upaniṣadic roots into the *Gītā*. In the Kaṭha Upaniṣad the self is seen 'by the grace/clearness of the Ordainer' (*dhātu-prasādāt*) — a phrase poised between subjective serenity and a granted grace. The *Gītā* foregrounds the *serenity* sense: the disciplined person 'attains clearness/serenity' of mind (*prasādam adhigacchati*, 2.64), and in that clearness (*prasāde*, 2.65) all sorrows are destroyed. The double sense — clearness-of-mind and grace-bestowed — is original to the term and never fully resolves; the *Gītā* leans toward serenity, the theistic Upaniṣads and later bhakti toward grace.",
+    "stages": [
+      {
+        "era": "Upaniṣads",
+        "locus": "Kaṭha Upaniṣad 1.2.20 (= GRETIL kau_2.20)",
+        "sanskrit": "tam akratuḥ paśyati vītaśoko dhātuprasādān mahimānam ātmanaḥ",
+        "rendering": "Free of grief, the desireless one beholds the greatness of the self by the grace/clearness of the Ordainer (dhātu-prasādāt).",
+        "note": "The earliest pole and the locus of the double sense. *Dhātu-prasādāt* is read two ways: 'by the grace of the Ordainer (dhātṛ)' — a granted favour — and 'by the serenity/clearness of the faculties (dhātu)' — an achieved calm. The grief-free, desireless seer beholds the self's greatness; whether by grace from above or by clarity within is exactly the ambiguity the *Gītā* later inherits. (The su-/serene grace-language recurs in the theistic Śvetāśvatara.)"
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.64 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "rāga-dveṣa-viyuktais tu viṣayān indriyaiś caran | ātma-vaśyair vidheyātmā prasādam adhigacchati ||",
+        "rendering": "But one of disciplined self, ranging over the sense-objects with senses freed from attraction and aversion, brought under control — he attains serenity (prasādam adhigacchati).",
+        "note": "The *Gītā* foregrounds the *clearness/serenity* sense. Śaṅkara glosses 'prasādaḥ prasannatā svāsthyam' — 'prasāda is serenity, well-standing-in-oneself' — an achieved inner calm, not a granted favour. The self-controlled person 'attains prasāda', mental clarity won through detachment from rāga and dveṣa."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.65 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "prasāde sarva-duḥkhānāṃ hānir asyopajāyate | prasanna-cetaso hy āśu buddhiḥ paryavatiṣṭhate ||",
+        "rendering": "In serenity (prasāde) the destruction of all his sorrows arises; for the intellect of one whose mind is clear (prasanna-cetas) is soon firmly established.",
+        "note": "The fruit of *prasāda*: in the clarified mind all sorrows are destroyed and the intellect steadies. The repetition prasāde / prasanna-cetas seals the *Gītā*'s preferred sense — *prasāda* as the limpid, sorrow-dissolving calm of the controlled mind. The cognate *manaḥ-prasāda* ('clarity of mind') reappears among the mental austerities at 17.16."
+      }
+    ]
+  },
   "see_also": [
     "santi",
     "buddhi",

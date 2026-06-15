@@ -44,6 +44,18 @@
       "register_tag": "M+S; prapanna [REAL-DISAGREEMENT with Advaita on the primacy of niṣṭhā]"
     }
   ],
+  "textual_history": {
+    "summary": "*Niṣṭhā* ('firm standing-in, steadfast adherence; culmination', from ni-√sthā, 'to stand firmly within') is, in its technical doctrinal use, largely a *Gītā* term. The compound and root are not novel, but the *Gītā* gives *niṣṭhā* a decisive role: at 3.3 Kṛṣṇa declares that 'in this world a twofold steadfastness (dvividhā niṣṭhā) was of old taught by me' — *jñāna-yoga* for the Sāṅkhyas and *karma-yoga* for the yogins. The 'two niṣṭhās' become a structural axis of the whole text and of Śaṅkara's reading, which builds the jñāna-niṣṭhā / karma-niṣṭhā distinction into the architecture of the path. Honest summary: the word is old, but *niṣṭhā* as the technical name for a 'path of steadfast adherence' (and the doctrine of the two niṣṭhās) is the *Gītā*'s own.",
+    "stages": [
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 3.3 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "loke 'smin dvividhā niṣṭhā purā proktā mayānagha | jñāna-yogena sāṃkhyānāṃ karma-yogena yoginām ||",
+        "rendering": "In this world a twofold steadfastness (dvividhā niṣṭhā) was of old declared by me, O sinless one: by the yoga of knowledge for the Sāṅkhyas, by the yoga of action for the yogins.",
+        "note": "The locus classicus and the term's technical home: the *two niṣṭhās* — *jñāna-niṣṭhā* (steadfastness in knowledge, for the Sāṅkhyas) and *karma-niṣṭhā* (steadfastness in action, for the yogins). *Niṣṭhā* here is not a passing word but the name of a whole *standing-in* a path. Śaṅkara makes this verse the keystone of his architecture, repeatedly invoking the 'two niṣṭhās' (e.g. on 2.39, 5.1) to divide the way of renouncing knowers from that of active yogins. The doctrinal *niṣṭhā* is the *Gītā*'s coinage of emphasis."
+      }
+    ]
+  },
   "see_also": [
     "jnana",
     "karma",

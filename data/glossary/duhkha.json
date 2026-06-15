@@ -56,6 +56,32 @@
       "register_tag": "Φ+S; reflective reader (dukkha as the first noble truth)"
     }
   ],
+  "textual_history": {
+    "summary": "*Duḥkha* ('pain, suffering, unease') is the negative twin of *sukha* and shares its archaic etymology: *duḥ-kha*, 'having a bad axle-hole' (duḥ- + *kha*, the wheel's nave) — the cart that runs roughly, against the smooth-running *sukha*. The pair is genuinely Vedic in root and image and Upaniṣadic in its use: the liberated, bodiless self is untouched by *priya/apriya*, the pleasant and the unpleasant. The *Gītā* inherits the *sukha-duḥkha* dvandva and makes evenness toward it definitive of the sage — to be 'unshaken in pains' (2.56), to treat pain and pleasure alike (2.38), to endure the impermanent contacts that bring them (2.14). Honest summary: the term is old, its philosophical career is the dvandva, and the *Gītā* ethicises it as equanimity.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 1.120.11 (Aufrecht ed.) — the positive twin (sukho rathaḥ), with duḥkha as its formed opposite",
+        "sanskrit": "somapeyaṁ sukho rathaḥ",
+        "rendering": "[Yours is] the soma-drinking, the easy-running car (sukho rathaḥ).",
+        "note": "*Duḥkha* is the formed antonym of *sukha*: where *su-kha* is the chariot with a good axle-hole that runs smoothly (attested in the Ṛgveda, as here), *duḥ-kha* is the cart with a bad axle-hole that runs roughly. The image — frictionless versus grinding motion — is the shared etymological ground; the abstract 'suffering' generalises the rough-running cart. The negative member is built on the positive Vedic root-image."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Chāndogya Upaniṣad 8.12.1 (= GRETIL ChUp_8,12.1)",
+        "sanskrit": "aśarīraṃ vāva santaṃ na priyāpriye spṛśataḥ",
+        "rendering": "The pleasant and the unpleasant (priya-apriye) do not touch one who is truly bodiless.",
+        "note": "The Upaniṣadic treatment: *duḥkha* (with *sukha*) figures as the *apriya* of the pair *priya/apriya*, bound to embodiment (dharma-adharma) and so not touching the bodiless self. Śaṅkara's gloss makes this explicit — the pleasant-and-unpleasant pertain to the body; release from the body is release from suffering. The pair, not the lone term, carries the doctrine."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.56 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 2.14, 2.38",
+        "sanskrit": "duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ | vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate ||",
+        "rendering": "Unshaken in mind amid pains (duḥkheṣu), longing gone amid pleasures, free of attraction, fear, and anger — he is called the sage of steady intellect.",
+        "note": "The *Gītā* makes evenness toward *duḥkha* the mark of the sage: 'unshaken in pains'. The pairing recurs as a discipline at 2.14 ('śītoṣṇa-sukha-duḥkha-dāḥ', the contacts that give pleasure and pain, to be endured) and 2.38 ('sukha-duḥkhe same kṛtvā', treating pain and pleasure alike). Suffering becomes an object of equanimity, not avoidance."
+      }
+    ]
+  },
   "see_also": [
     "sukha",
     "samsara",

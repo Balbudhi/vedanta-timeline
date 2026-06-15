@@ -41,6 +41,32 @@
       "register_tag": "Φ+S; reflective reader (sukha as factor and as nibbāna)"
     }
   ],
+  "textual_history": {
+    "summary": "*Sukha* ('ease, pleasure, happiness') is genuinely Vedic, and its archaic, concrete sense is visible in the Ṛgveda: *su-kha*, 'having a good axle-hole' (su- + *kha*, the nave of a wheel), is said of a chariot that runs smoothly — *sukháṃ rátham*, 'the easy-running car'. From this mechanical image of smooth running grows the abstract 'ease, happiness'. The Upaniṣads pair it with its opposite, treating *sukha* and *duḥkha* (the *priya/apriya*, the pleasant and unpleasant) as the dyad the liberated self transcends. The *Gītā* inherits this dvandva and makes equanimity toward the *sukha-duḥkha* pair the mark of the sage (2.14–15, 2.38, 2.56). Honest summary: Vedic in root and image, Upaniṣadic in its pairing, ethicised in the *Gītā*.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 1.120.11 (Aufrecht ed.); cf. RV 1.114.01 etc. (sukhaṁ ratham)",
+        "sanskrit": "somapeyaṁ sukho rathaḥ",
+        "rendering": "[Yours is] the soma-drinking, the easy-running car (sukho rathaḥ).",
+        "note": "The concrete root-sense: *sukha* of a chariot — literally 'good-axle-holed', hence smooth-running. The Aśvins' or the god's car is 'sukha', running easily; the abstract 'happiness' is this image of frictionless motion generalised. (Cf. RV 1.114.01 and the standard formula *sukháṃ rátham*, 'the easy car'.) This is the oldest, physical layer of the word."
+      },
+      {
+        "era": "Upaniṣads",
+        "locus": "Chāndogya Upaniṣad 8.12.1 (= GRETIL ChUp_8,12.1)",
+        "sanskrit": "aśarīraṃ vāva santaṃ na priyāpriye spṛśataḥ",
+        "rendering": "The pleasant and the unpleasant (priya-apriye) do not touch one who is truly bodiless.",
+        "note": "The Upaniṣadic pairing: *sukha* and *duḥkha* appear as the dyad *priya/apriya*, 'pleasant/unpleasant', which 'do not touch' the bodiless (liberated) self. Pleasure and pain are bound to embodiment (dharma-adharma); release from the body is release from the pair. This is the conceptual ground the *Gītā* turns into a discipline of equanimity."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.14 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 2.38, 2.56",
+        "sanskrit": "mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkhadāḥ | āgamāpāyino 'nityās tāṃs titikṣasva bhārata ||",
+        "rendering": "The contacts of the senses, Kaunteya, give cold and heat, pleasure and pain (sukha-duḥkha); they come and go, impermanent — endure them, Bhārata.",
+        "note": "The *Gītā*'s dvandva: *sukha* and *duḥkha* arise from sense-contact, are impermanent, and are to be borne with equanimity. The same pairing is made the sage's measure at 2.38 ('sukha-duḥkhe same kṛtvā', 'making pleasure and pain equal') and 2.56 ('duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ', 'unshaken in pains, longing gone in pleasures'). Vedic ease becomes an object of mastery."
+      }
+    ]
+  },
   "see_also": [
     "duhkha",
     "santi",

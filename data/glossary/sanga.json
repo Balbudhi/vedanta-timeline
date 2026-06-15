@@ -36,6 +36,32 @@
       "register_tag": "M+S; mumukṣu"
     }
   ],
+  "textual_history": {
+    "summary": "The root √sañj ('to cling, to stick fast, to adhere') is old, but *saṅga* as the technical name for binding attachment — and especially its prized negation *asaṅga* — comes into doctrinal focus in the Upaniṣadic period. The Bṛhadāraṇyaka already declares the inmost self *asaṅga* by its very nature ('this Person is unattached', *asaṅgo hy ayaṃ puruṣaḥ*, 4.3.15), the metaphysical claim Advaita later builds on. The *Bhagavad-Gītā* then makes *saṅga* the precise hinge of the descent into bondage — dwelling on objects breeds clinging, and from clinging desire is born (2.62) — and holds up action done *saṅga* abandoned (2.47–48, 3.19) as the karma-yoga ideal.",
+    "stages": [
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka 4.3.15 (= GRETIL BrhUp 4,3.15)",
+        "sanskrit": "sa yat tatra kiñcit paśyaty ananvāgatas tena bhavati | asaṅgo hy ayaṃ puruṣa iti",
+        "rendering": "Whatever he sees there [in the dream/deep-sleep state], he is untouched by it, for this Person is unattached (asaṅga).",
+        "note": "The earliest doctrinal anchor in our corpus — and it is the *negation*: the self is intrinsically *asaṅga*, unattached, untouched by what it appears to witness. Śaṅkara takes this very verse (asaṅgo hy ayaṃ puruṣaḥ, repeated at 4.3.16) as proving the self's non-agency: it has no *saṅga*, hence no real doership. Non-attachment is thus given first as the self's nature, not merely as a discipline."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.62 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "dhyāyato viṣayān puṃsaḥ saṅgas teṣūpajāyate | saṅgāt saṃjāyate kāmaḥ kāmāt krodho 'bhijāyate",
+        "rendering": "In one who dwells on the objects of sense, attachment (saṅga) to them arises; from attachment is born desire, from desire arises anger.",
+        "note": "The hinge of the whole bondage-descent: *saṅga* is the step between mere attention to objects and active craving. Śaṅkara glosses it as *āsakti*, *prīti* — the fond adhering of the mind. Not contact as such (the senses unavoidably meet objects) but the adhesive charge in contact — the sticking that converts perception into possession."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.47–48 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 3.19",
+        "sanskrit": "mā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi || yoga-sthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanaṃjaya | siddhy-asiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate",
+        "rendering": "Be not the cause of the fruit of action, nor let your attachment (saṅga) be to inaction. || Established in yoga, perform actions abandoning attachment (saṅga), Dhanaṃjaya, becoming equal in success and failure: equanimity is called yoga.",
+        "note": "The positive ideal stated as *saṅgaṃ tyaktvā*, 'abandoning attachment' — action without the adhesive charge, the core of niṣkāma-karma. The same *asaṅga* recurs at 3.19 (asakto … samācara). For Advaita this realised non-attachment is finally not an achievement but the recognition of the self's own *asaṅga* nature (the BṛU 4.3.15 strand above)."
+      }
+    ]
+  },
   "see_also": [
     "kama",
     "raga",

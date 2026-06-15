@@ -31,6 +31,25 @@
       "register_tag": "M+S; mumukṣu (silence as discipline and as inner stillness)"
     }
   ],
+  "textual_history": {
+    "summary": "*Mauna* ('silence; the state of the sage') is the abstract noun built from *muni*, 'the silent one, the sage'. The *muni* is Vedic (the long-haired ecstatic of RV 10.136), but *mauna* as the sage's *silence-discipline* is first clearly attested in the Upaniṣads: the Bṛhadāraṇyaka's celebrated injunction that, having exhausted learning and child-likeness, one becomes a *muni*, and 'having exhausted both non-silence and silence (a-mauna and mauna), then a brāhmaṇa'. The *Gītā* takes *mauna* up among the austerities — 'silence, self-restraint' as a *mental* tapas (17.16) — and Kṛṣṇa names himself 'the silence among secrets' (10.38); the sage of steady wisdom is the *muni* (2.56). Honest summary: *muni* is Vedic, *mauna* as silence-as-discipline is Upaniṣadic, and the *Gītā* folds it into its ethics of restraint.",
+    "stages": [
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 3.5.1 (= GRETIL BrhUp_3,5.1)",
+        "sanskrit": "bālyaṃ ca pāṇḍityaṃ ca nirvidyātha muniḥ | amaunaṃ ca maunaṃ ca nirvidyātha brāhmaṇaḥ |",
+        "rendering": "Having exhausted both child-likeness and learnedness, then [one is] a sage (muni); having exhausted both non-silence and silence (a-mauna and mauna), then [one is] a brāhmaṇa.",
+        "note": "The earliest clear attestation of *mauna* as a term. The famous progression: past learning (pāṇḍitya) into child-likeness (bālya), then *muni*-hood; and past both *a-mauna* and *mauna* into true brāhmaṇa-hood. Śaṅkara reads *mauna* as the fruit of stilling the not-self notion ('mananāt muniḥ'), the silence proper to the sage. The abstract *mauna* — silence as a contemplative condition — is here, built on the Vedic *muni*."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 17.16 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "manaḥ-prasādaḥ saumyatvaṃ maunam ātma-vinigrahaḥ | bhāva-saṃśuddhir ity etat tapo mānasam ucyate ||",
+        "rendering": "Clarity of mind, gentleness, silence (mauna), self-restraint, purity of disposition — this is called the austerity of the mind.",
+        "note": "The *Gītā* lists *mauna* among the *mental* austerities (tapo mānasam), beside clarity (manaḥ-prasāda) and self-restraint. Śaṅkara glosses *mauna* here as 'restraint of speech preceded by restraint of mind' (manaḥ-saṃyama-pūrvako … maunam) — silence as inward discipline, not mere muteness. Cf. 10.38, where Kṛṣṇa declares 'maunaṃ caivāsmi guhyānām', 'I am the silence among secrets', and 2.56, where the sage of steady wisdom is the *muni*."
+      }
+    ]
+  },
   "see_also": [
     "muni",
     "sthitaprajna",

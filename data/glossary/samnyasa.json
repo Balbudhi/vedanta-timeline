@@ -46,6 +46,32 @@
       "register_tag": "M+S; prapanna [REAL-DISAGREEMENT with Advaita on renunciation of action]"
     }
   ],
+  "textual_history": {
+    "summary": "*Saṃnyāsa* ('complete laying-down, renunciation', from sam-ni-√as, 'to cast down') names the act of relinquishing action. The *renouncer* as a figure is late-Vedic and Upaniṣadic — the Bṛhadāraṇyaka describes those who, knowing the self, rise up from the desires for offspring, wealth, and worlds and 'wander as mendicants' — but the formal *saṃnyāsa-āśrama*, renunciation as a codified fourth life-stage, is a later, Dharmaśāstric crystallisation. The *Gītā* uses *saṃnyāsa* as one of its two great keywords for the renounced life, and in chapter 18 it carefully distinguishes *saṃnyāsa* (laying down desire-prompted actions themselves) from *tyāga* (relinquishing the *fruits* of action) — even as it ultimately treats the two as one in import (5.4–5). Honest summary: the renouncer-idea is Upaniṣadic, the term is old, but the formal āśrama sense post-dates the *Gītā*.",
+    "stages": [
+      {
+        "era": "Upaniṣads",
+        "locus": "Bṛhadāraṇyaka Upaniṣad 3.5.1 (= GRETIL BrhUp_3,5.1)",
+        "sanskrit": "etaṃ vai tam ātmānaṃ viditvā brāhmaṇāḥ putraiṣaṇāyāś ca vittaiṣaṇāyāś ca lokaiṣaṇāyāś ca vyutthāyātha bhikṣācaryaṃ caranti",
+        "rendering": "Having known this very self, the brāhmaṇas rise up from the desire for sons, the desire for wealth, and the desire for worlds, and then live the life of mendicants.",
+        "note": "The Upaniṣadic renouncer — the prehistory of *saṃnyāsa*. The self-knower 'rises up' (vyutthāya) from the three desires (eṣaṇā) and 'wanders begging' (bhikṣācaryaṃ caranti). The *act* and *figure* of renunciation are here; the abstract noun *saṃnyāsa* as a named institution, and the fourth-āśrama codification, come later. This is the honest earliest attestation of the idea, not the formal term."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 5.1 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
+        "sanskrit": "saṃnyāsaṃ karmaṇāṃ kṛṣṇa punar yogaṃ ca śaṃsasi | yac chreya etayor ekaṃ tan me brūhi suniścitam ||",
+        "rendering": "You praise the renunciation of actions, Kṛṣṇa, and again [karma-]yoga; tell me decisively which one of these two is the better.",
+        "note": "*Saṃnyāsa* as one of the *Gītā*'s twin keywords, set against karma-yoga: Arjuna asks which is superior, 'saṃnyāsa of actions' or yoga. Kṛṣṇa replies (5.2) that both lead to the highest but karma-yoga is better for the embodied — the *Gītā* reframes renunciation as inward, not merely the abandonment of works."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 18.2 (verbatim from Rāmānuja's Gītā-Bhāṣya)",
+        "sanskrit": "kāmyānāṃ karmaṇāṃ nyāsaṃ saṃnyāsaṃ kavayo viduḥ | sarvakarmaphalatyāgaṃ prāhus tyāgaṃ vicakṣaṇāḥ ||",
+        "rendering": "The wise know saṃnyāsa as the laying-down of desire-prompted actions; the discerning call tyāga the relinquishing of the fruit of all actions.",
+        "note": "The *Gītā*'s technical distinction, stated by Kṛṣṇa: *saṃnyāsa* is the abandonment of *kāmya* (desire-motivated) actions in their very form; *tyāga* is the abandonment of the *fruits* of all action. Rāmānuja notes the two terms are ultimately treated as synonymous in import ('tyāga-saṃnyāsa-śabdayor ekārthatvam'). The verse is the locus where the *Gītā* defines renunciation against fruit-relinquishment. (Verbatim from the on-disk Rāmānuja Bhāṣya, whose text covers chapter 18; the on-disk Śaṅkara Gītā-Bhāṣya runs only through ch. 17.)"
+      }
+    ]
+  },
   "see_also": [
     "niskama-karma",
     "karma",

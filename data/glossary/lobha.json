@@ -41,6 +41,25 @@
       "register_tag": "Φ+S; reflective reader (unwholesome root)"
     }
   ],
+  "textual_history": {
+    "summary": "*Lobha* ('greed') is essentially post-Vedic as a doctrinal vice. The root √lubh ('to desire eagerly, to entice') is Vedic but rare and is attested chiefly in its causative — *pra-lobhayantī*, 'enticing, luring away' — not as the noun *lobha* naming a fault of the self. The earliest layer has no developed category of covetousness among the inner enemies. *Lobha* crystallises in the epic-and-Gītā ethical literature: the *Bhagavad-Gītā* names it with *kāma* and *krodha* as one of the three 'gates of hell' (16.21) and as a fruit of *rajas* (14.17), and the smṛti/nīti tradition fixes it in the *ari-ṣaḍ-varga* ('six inner enemies'). The Buddhist *lobha* — one of the three unwholesome roots (*lobha–dosa–moha*) — is the parallel systematisation.",
+    "stages": [
+      {
+        "era": "Ṛg-veda (root only)",
+        "locus": "RV 10.103.12 (Aufrecht ed.) — causative of √lubh",
+        "sanskrit": "amīṣāṁ cittam pratilobhayantī gṛhāṇāṅgāny apve parehi",
+        "rendering": "Luring away (pratilobhayantī) the mind of those [foes], O Apvā [demon of panic], seize their limbs and depart.",
+        "note": "The root √lubh is genuinely Vedic but sparse, and here in its causative sense 'to entice / lure away' — Apvā, the personified terror, 'enticing the mind' of enemies in a battle-charm. This is not yet *lobha* the moral defect: greed as a named inner enemy of the self is post-Vedic. We mark the term's earliest *real* doctrinal attestation as the Gītā (below) rather than read covetousness back into this charm."
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 16.21 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 14.17",
+        "sanskrit": "tri-vidhaṃ narakasyedaṃ dvāraṃ nāśanam ātmanaḥ | kāmaḥ krodhas tathā lobhas tasmād etat trayaṃ tyajet",
+        "rendering": "This is the threefold gate of hell, destructive of the self — desire, anger, and greed; therefore let one abandon these three.",
+        "note": "The Gītā fixes *lobha* in its classic triad with *kāma* and *krodha*, the 'gates of hell', and marks it part of the *āsurī sampad* (the demonic endowment of ch. 16) and a fruit of *rajas* (14.17, *lobhaḥ pravṛttir ārambhaḥ*). This is the seed of the later *ṣaḍ-varga*. Note the structural echo of the Buddhist three unwholesome roots — the same acquisitive/aversive/deluded triad, differently catalogued."
+      }
+    ]
+  },
   "see_also": [
     "kama",
     "krodha",

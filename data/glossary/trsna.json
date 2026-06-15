@@ -45,6 +45,32 @@
       "register_tag": "Φ+S; reflective reader (taṇhā as the pivotal nidāna)"
     }
   ],
+  "textual_history": {
+    "summary": "Unusually for this cluster, *tṛṣṇā* is genuinely old in its literal sense: the Ṛgveda already uses the noun for 'thirst', the burning bodily want, often in simile. The metaphorical extension to *craving* — the standing, self-renewing thirst for objects of experience — is the achievement of the renunciant and Buddhist age. In Buddhism *tṛṣṇā* (Pali *taṇhā*) becomes the pivotal link of dependent origination and the second noble truth's name for the origin of suffering; this is where the term carries its most systematic doctrinal weight. The *Bhagavad-Gītā* tradition treats the same thirst, often under the near-synonym *spṛhā* ('hankering'): the *sthitaprajña* is *vigata-spṛha* (2.56), and Śaṅkara ties the impossibility of happiness directly to persisting *tṛṣṇā* (on 2.66). The cross-tradition parallel is real and should be stated as such.",
+    "stages": [
+      {
+        "era": "Ṛg-veda",
+        "locus": "RV 9.79.3 (Aufrecht ed.)",
+        "sanskrit": "dhanvan na tṛṣṇā sam arīta tām̐ abhi soma jahi pavamāna durādhyaḥ",
+        "rendering": "As thirst (tṛṣṇā) [overtakes a man] in the desert, may [ruin] overtake them; smite, O flowing Soma, the ill-intentioned.",
+        "note": "The noun *tṛṣṇā* in its literal, embodied sense — 'thirst', here the deadly thirst of the waterless waste (*dhanvan*), in simile. This concrete root-meaning (√tṛṣ, 'to be thirsty') is the live image the later psychology extends: craving as a thirst that consumes. Note the Ṛgveda has the *literal* thirst, not yet *tṛṣṇā* as the technical name for saṃsāric craving."
+      },
+      {
+        "era": "Śramaṇa / Buddhist (parallel)",
+        "locus": "the second and third noble truths; the twelvefold paṭicca-samuppāda (vedanā → taṇhā → upādāna)",
+        "sanskrit": "taṇhā (Skt. tṛṣṇā) — dukkha-samudaya; taṇhā-nirodha",
+        "rendering": "craving as the origin of suffering; the cessation of craving [as the cessation of suffering]",
+        "note": "The decisive metaphorical fixing belongs to the Buddhist analysis, where *tṛṣṇā/taṇhā* — in three forms (for sense-pleasure, for existence, for non-existence) — is the eighth link of dependent origination and the named origin of *duḥkha*; its cessation is *nibbāna*. We mark this as a contemporary parallel, attributed, not derived from the Gītā: the cross-traditional sharing of *tṛṣṇā* as the engine of bondage is genuine, and the term's most systematic role is Buddhist. (Stage cited by doctrine, not by an on-disk verse — the Pali canon is not in our corpus.)"
+      },
+      {
+        "era": "Bhagavad-Gītā",
+        "locus": "Bhagavad-Gītā 2.56 (verbatim from Śaṅkara's Gītā-Bhāṣya); Śaṅkara on 2.66",
+        "sanskrit": "duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ | vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate",
+        "rendering": "Unshaken in mind amid sorrows, with hankering gone amid pleasures (vigata-spṛha) — free of attachment, fear, and anger — the sage of steady wisdom is so called.",
+        "note": "The Gītā names the thirst as *spṛhā* (hankering), the *sthitaprajña* being *vigata-spṛha*; Śaṅkara glosses the *vigata-spṛhā* here precisely as *tṛṣṇā* ('vigatā spṛhā tṛṣṇā yasya'). On 2.66 he ties peace to its extinction: the unpeaceful cannot be happy, for 'while thirst for sense-enjoyment (viṣaya-sevā-tṛṣṇā) persists, not even a trace of happiness is possible.' Allied here to *kāma* and *rāga*, without the systematic causal role it has in the Buddhist scheme."
+      }
+    ]
+  },
   "see_also": [
     "kama",
     "raga",
