@@ -18,17 +18,42 @@
 <body>
   <main class="gita-page">
     <div class="gita-stage" id="gitaStage" data-voice="">
-      <div class="gita-sticky">
-        <div class="gita-bar">
-          <div class="gita-titles">
-            <h1 class="gita-title">Bhagavad-Gītā 2.54–72</h1>
-            <p class="gita-voices-line">Śaṅkara · Rāmānuja · Madhva · Śrīdhara · Madhusūdana · Aurobindo · across traditions</p>
+
+      <!-- full-width header band -->
+      <header class="gita-masthead">
+        <div class="gita-mast-inner">
+          <button class="gita-close" id="gitaClose" type="button" aria-label="Close and return">
+            <span class="gita-close-x" aria-hidden="true">←</span>
+            <span class="gita-close-label">Back</span>
+          </button>
+          <div class="gita-mast-center">
+            <p class="gita-kicker">Bhagavad-Gītā · Chapter II</p>
+            <h1 class="gita-title">The Sthitaprajña</h1>
+            <p class="gita-sub">Verses 2.54&ndash;72 &mdash; the marks of one whose wisdom stands firm</p>
+            <p class="gita-voices-line">Read with the voices of Śaṅkara · Rāmānuja · Madhva · Śrīdhara · Madhusūdana · Aurobindo</p>
           </div>
-          <button class="gita-close" id="gitaClose" type="button" aria-label="Close and return">×</button>
         </div>
-        <div id="voicebarSlot"></div>
+      </header>
+
+      <!-- three-column reading grid: nav rail · reading column · (commentary rail handled in flow) -->
+      <div class="gita-layout">
+
+        <!-- left rail: verse navigation (collapses to top on mobile) -->
+        <aside class="gita-rail" id="gitaRail" aria-label="Verse navigation">
+          <div class="gita-rail-inner">
+            <p class="gita-rail-title">Verses</p>
+            <nav class="gita-rail-nav" id="gitaRailNav"></nav>
+          </div>
+        </aside>
+
+        <!-- reading column -->
+        <div class="gita-col">
+          <div class="gita-toolbar" id="voicebarSlot"></div>
+          <section class="gita-root" id="gitaRoot"></section>
+        </div>
+
       </div>
-      <section class="gita-root" id="gitaRoot"></section>
+
       <div class="sr-only" id="voiceStatus" aria-live="polite"></div>
     </div>
   </main>

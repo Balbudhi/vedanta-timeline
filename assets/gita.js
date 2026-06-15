@@ -438,5 +438,61 @@ document.addEventListener("DOMContentLoaded", () => {
   render(root, { glossaryBase: "../../data/glossary/", voicebarSlot: document.getElementById("voicebarSlot") });
   const b = document.getElementById("gitaClose");
   if (b) b.addEventListener("click", () => { if (history.length > 1) history.back(); else window.location.href = "../../"; });
+  buildVerseRail(root);
 });
+
+// Standalone-only: build the left verse-navigation rail from the rendered verses,
+// and keep the active item in sync with scroll position.
+function buildVerseRail(root) {
+  const nav = document.getElementById("gitaRailNav");
+  if (!nav) return;
+  const verses = [...root.querySelectorAll(".verse")];
+  if (!verses.length) return;
+
+  const links = verses.map(v => {
+    const locus = (v.querySelector(".verse-locus") || {}).textContent || v.id.replace(/^v-/, "");
+    const a = document.createElement("a");
+    a.className = "gita-rail-link";
+    a.href = "#" + v.id;
+    a.textContent = locus;
+    a.dataset.target = v.id;
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      v.scrollIntoView({ behavior: "smooth", block: "start" });
+      history.replaceState(null, "", "#" + v.id);
+    });
+    nav.appendChild(a);
+    return a;
+  });
+
+  const byId = new Map(links.map(a => [a.dataset.target, a]));
+  let current = null;
+  const setActive = (id) => {
+    if (id === current) return;
+    if (current && byId.get(current)) byId.get(current).classList.remove("is-active");
+    if (byId.get(id)) byId.get(id).classList.add("is-active");
+    current = id;
+  };
+
+  if ("IntersectionObserver" in window) {
+    const visible = new Map();
+    const io = new IntersectionObserver((entries) => {
+      for (const en of entries) {
+        if (en.isIntersecting) visible.set(en.target.id, en.intersectionRatio);
+        else visible.delete(en.target.id);
+      }
+      // pick the verse nearest the top of the viewport among the visible ones
+      let best = null, bestTop = Infinity;
+      for (const id of visible.keys()) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+        const top = Math.abs(el.getBoundingClientRect().top - 120);
+        if (top < bestTop) { bestTop = top; best = id; }
+      }
+      if (best) setActive(best);
+    }, { rootMargin: "-100px 0px -55% 0px", threshold: [0, 1] });
+    verses.forEach(v => io.observe(v));
+  }
+  setActive(verses[0].id);
+}
 })();

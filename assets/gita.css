@@ -3,14 +3,119 @@
    IAST only; clean reading column on desktop, full-screen on phone.
    ============================================================= */
 
-.gita-page { background: var(--bg); color: var(--ink); min-height: 100vh; }
-
-.gita-stage {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 0 24px 140px;
+/* =============================================================
+   STANDALONE full-page layout. Everything below is scoped to
+   .gita-page / .gita-stage / .gita-masthead / .gita-layout /
+   .gita-rail / .gita-col / .gita-toolbar — it never touches the
+   embedded .gita-reader view. Shared component styles (.verse,
+   .voicebar, .vchip, .wcard, .gpop ...) are reused as-is.
+   ============================================================= */
+.gita-page {
+  background:
+    radial-gradient(1200px 520px at 50% -160px, var(--bg-warm) 0%, transparent 70%),
+    var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
   font-family: var(--serif);
 }
+
+.gita-stage { display: block; }
+
+/* ---------- full-width masthead ---------- */
+.gita-masthead {
+  position: relative;
+  border-bottom: 1px solid var(--hairline);
+  background: linear-gradient(180deg, transparent, color-mix(in srgb, var(--bg-warm) 45%, transparent));
+}
+.gita-mast-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 34px 40px 38px;
+  position: relative;
+}
+.gita-mast-center { text-align: center; }
+.gita-kicker {
+  font-family: var(--sans); font-size: 11.5px; font-weight: 600;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--muted-soft);
+  margin: 0 0 10px;
+}
+.gita-masthead .gita-title {
+  font-family: var(--serif); font-weight: 600;
+  font-size: clamp(30px, 4.4vw, 52px); line-height: 1.05;
+  letter-spacing: .005em; margin: 0; color: var(--ink);
+}
+.gita-sub {
+  font-family: var(--serif); font-style: italic;
+  font-size: clamp(15px, 1.5vw, 18px); color: var(--ink-soft);
+  margin: 12px 0 0;
+}
+.gita-voices-line {
+  font-family: var(--sans); font-size: 12px; color: var(--muted);
+  margin: 14px 0 0; letter-spacing: .01em;
+}
+
+/* back / close affordance, anchored top-left of the masthead */
+.gita-close {
+  position: absolute; top: 30px; left: 40px;
+  display: inline-flex; align-items: center; gap: 7px;
+  height: 36px; padding: 0 14px 0 11px; border-radius: 20px;
+  border: 1px solid var(--rule); background: var(--bg); color: var(--muted);
+  font-family: var(--sans); font-size: 13px; font-weight: 500;
+  cursor: pointer; transition: background .14s, color .14s, border-color .14s;
+}
+.gita-close-x { font-size: 17px; line-height: 1; }
+.gita-close:hover { background: var(--bg-warm); color: var(--ink); border-color: var(--muted-soft); }
+
+/* ---------- three-zone reading grid ---------- */
+.gita-layout {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 40px 160px;
+  display: grid;
+  grid-template-columns: 176px minmax(0, 1fr);
+  gap: 56px;
+  align-items: start;
+}
+
+/* left verse-navigation rail (sticky on wide screens) */
+.gita-rail { position: sticky; top: 0; align-self: start; }
+.gita-rail-inner { padding: 132px 0 24px; }
+.gita-rail-title {
+  font-family: var(--sans); font-size: 10.5px; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase; color: var(--muted-soft);
+  margin: 0 0 12px;
+}
+.gita-rail-nav { display: flex; flex-direction: column; gap: 1px; }
+.gita-rail-link {
+  font-family: var(--sans); font-size: 13px; color: var(--muted);
+  text-decoration: none; padding: 5px 12px; border-radius: 7px;
+  border-left: 2px solid transparent;
+  transition: color .12s, background .12s, border-color .12s;
+}
+.gita-rail-link:hover { color: var(--ink); background: var(--bg-warm); }
+.gita-rail-link.is-active {
+  color: var(--ink); font-weight: 600;
+  border-left-color: #8a6d1f;
+  background: var(--bg-warm);
+}
+html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; }
+
+/* reading column — comfortable measure, centered within its grid cell */
+.gita-col { min-width: 0; max-width: 740px; margin: 0 auto; width: 100%; }
+
+/* the standalone toolbar wraps the shared .voicebar; make it a clean sticky band */
+.gita-toolbar {
+  position: sticky; top: 0; z-index: 40;
+  background: var(--bg);
+  padding-top: 18px; margin-bottom: 6px;
+}
+/* on a roomy desktop column, let the commentary chips wrap instead of clip */
+@media (min-width: 981px) {
+  .gita-toolbar .voicebar-chips { flex-wrap: wrap; overflow: visible; }
+  .gita-toolbar .voicebar { align-items: flex-start; }
+  .gita-toolbar .voicebar-label { padding-top: 6px; }
+}
+
 /* embedded inside the app's Article pane */
 .gita-reader { font-family: var(--serif); color: var(--ink); }
 .dp-standalone {
@@ -29,25 +134,7 @@
   overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
 
-/* ---------- sticky header: title + voice bar stack as ONE unit ---------- */
-.gita-sticky { position: sticky; top: 0; z-index: 40; background: var(--bg); }
-
-/* ---------- top bar: title + close ---------- */
-.gita-bar {
-  display: flex; align-items: center; gap: 14px;
-  padding: 16px 0 10px;
-}
-.gita-titles { flex: 1; min-width: 0; }
-.gita-title { font-size: 19px; font-weight: 600; margin: 0; letter-spacing: .01em; }
-.gita-voices-line { font-family: var(--sans); font-size: 11.5px; color: var(--muted); margin: 2px 0 0; }
-.gita-close {
-  flex: none; width: 34px; height: 34px; border-radius: 50%;
-  border: 1px solid var(--rule); background: var(--bg); color: var(--muted);
-  font-size: 20px; line-height: 1; cursor: pointer; transition: background .12s, color .12s;
-}
-.gita-close:hover { background: var(--bg-warm); color: var(--ink); }
-
-/* ---------- voice bar (within the sticky header) ---------- */
+/* ---------- voice bar (shared: standalone toolbar + embedded reader) ---------- */
 .voicebar {
   display: flex; align-items: center; gap: 10px;
   padding: 4px 0 12px; margin-bottom: 8px;
@@ -157,8 +244,45 @@ html[data-theme="dark"] .wc-gl { color: #d8c074; }
 .gp-note-label { display: block; font-weight: 700; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .04em; font-size: 10.5px; margin-bottom: 3px; }
 .gpop { max-height: 70vh; overflow-y: auto; }
 
+/* ---- below the comfortable 3-column width: drop the rail to a horizontal strip ---- */
+@media (max-width: 980px) {
+  .gita-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    padding: 0 28px 140px;
+  }
+  .gita-rail {
+    position: sticky; top: 0; z-index: 41;
+    margin: 0 -28px; padding: 0;
+    background: color-mix(in srgb, var(--bg) 94%, transparent);
+    backdrop-filter: saturate(140%) blur(8px);
+    -webkit-backdrop-filter: saturate(140%) blur(8px);
+    border-bottom: 1px solid var(--hairline);
+  }
+  .gita-rail-inner { padding: 10px 28px; }
+  .gita-rail-title { display: none; }
+  .gita-rail-nav {
+    flex-direction: row; gap: 4px; overflow-x: auto;
+    -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  }
+  .gita-rail-nav::-webkit-scrollbar { height: 0; }
+  .gita-rail-link {
+    flex: none; border-left: none; border-bottom: 2px solid transparent;
+    border-radius: 6px; padding: 5px 9px;
+  }
+  .gita-rail-link.is-active { border-left-color: transparent; }
+  .gita-toolbar { top: 45px; }   /* sit below the now-horizontal rail */
+}
+
 @media (max-width: 720px) {
-  .gita-stage { padding: 0 16px 120px; }
+  .gita-mast-inner { padding: 22px 18px 24px; }
+  .gita-close { top: 16px; left: 18px; }
+  .gita-close-label { display: none; }
+  .gita-close { padding: 0; width: 36px; justify-content: center; border-radius: 50%; }
+  .gita-voices-line { display: none; }   /* keep the masthead tall-but-tidy on phones */
+  .gita-layout { padding: 0 16px 120px; }
+  .gita-rail { margin: 0 -16px; }
+  .gita-rail-inner { padding: 9px 16px; }
   .verse-sa, .verse-pada, .verse-en { font-size: 16px; }
   .verse-pada { line-height: 2.4; }            /* taller line = bigger word hit area */
   .w { padding: 4px 3px; }                       /* ≥36px effective tap target */
