@@ -4,6 +4,16 @@ Multiple Claude/Codex agents may operate on this repo concurrently. The rules be
 
 These rules prevent the recurrence.
 
+## How we translate Sanskrit
+
+All Sanskrit on this site — root text **and** commentary — is translated and
+presented per **`docs/SANSKRIT_TRANSLATION_STANDARD.md`**: literal and faithful to
+the grammar, **word-by-word interactive** (tap a word for its morpheme-by-morpheme
+translation + grammar + glossary link), bidirectional highlight, voice-by-voice
+commentary, IAST on screen (Devanāgarī kept in data), and integrated with the
+site glossary. Reference implementation: `gita/sthitaprajna/` + `assets/gita.js`
+(`window.GitaReader`). Follow this standard for any new Sanskrit text.
+
 ## Hard rules
 
 1. **Stage by path, never by wildcard.** Do not run `git add -A`, `git add .`, `git add -u`, or `git commit -a`. Stage the specific files you changed: `git add path/to/file1 path/to/dir/file2`. If you do not know which files are yours, run `git diff --name-only` *before* you start and again before you commit; the delta is your scope.
