@@ -1573,14 +1573,9 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 .glossary-popover .gp-shared-core { color: #1f2937; }
 .glossary-popover .gp-axes { margin-top: 4px; color: #4b5563; font-style: italic; }
 .glossary-popover .gp-regtag {
-  display: inline-block;
-  font-size: 11px;
-  color: #4b5563;
-  background: #eef2f7;
-  padding: 1px 6px;
-  border-radius: 9px;
-  margin-right: 6px;
-  vertical-align: middle;
+  /* register-tuple shorthands (e.g. "Φ+S", "M+S") are an internal notation;
+     hidden until the scheme is finalized and explained to readers. */
+  display: none;
 }
 .glossary-popover .gp-translator {
   margin-top: 14px;
