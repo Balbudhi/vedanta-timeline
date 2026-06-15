@@ -63,18 +63,31 @@ function renderEnglish(english) {
   if (last < english.length) out += esc(english.slice(last));
   return out;
 }
-function renderPada(words) {
-  return words.map(w => {
-    const cls = w.translatable === false ? "w w-name" : "w";
-    return `<span class="${cls}" data-wi="${w.i}" tabindex="0" role="button">${esc(w.iast)}</span>`;
+function wordSpan(w) {
+  const cls = w.translatable === false ? "w w-name" : "w";
+  return `<span class="${cls}" data-wi="${w.i}" tabindex="0" role="button">${esc(w.iast)}</span>`;
+}
+function renderPada(words) { return words.map(wordSpan).join(" "); }
+
+// Commentary pada coloured by rhetorical move (gloss · interpretation ·
+// citation · objection · reply). gloss is the unlabeled baseline; the others
+// get a small inline tag so the reader sees what the commentator is doing.
+const SEG_LABEL = { interpretation: "interpretation", citation: "citation", objection: "objection", reply: "reply" };
+function renderPadaSegmented(words, segments) {
+  return segments.map(s => {
+    const ws = [];
+    for (let i = s.from; i <= s.to; i++) { const w = words.find(x => x.i === i); if (w) ws.push(wordSpan(w)); }
+    const tag = SEG_LABEL[s.kind] ? `<span class="seg-tag">${SEG_LABEL[s.kind]}</span>` : "";
+    return `<span class="seg seg-${esc(s.kind)}">${tag}${ws.join(" ")}</span>`;
   }).join(" ");
 }
 
 /* An interactive Sanskrit block: tappable pada line + slotted English.
-   Used for the mūla and for any commentary entry that carries words[]+english. */
-function interactiveBlock(words, english, saFallback) {
+   Used for the mūla and for any commentary entry that carries words[]+english.
+   When `segments` is present (commentary), the pada is colour-coded by move. */
+function interactiveBlock(words, english, segments) {
   const id = newScope(words);
-  const pada = renderPada(words);
+  const pada = (segments && segments.length) ? renderPadaSegmented(words, segments) : renderPada(words);
   const en = english ? renderEnglish(english) : "";
   return `<div class="ix" data-wscope="${id}">
     <div class="ix-pada" lang="sa-Latn">${pada}</div>
@@ -150,7 +163,7 @@ function renderVoiceInner(entry) {
   if (entry.kind === "parallels") {
     return entry.list.map(p => {
       const body = (p.words && p.english)
-        ? interactiveBlock(p.words, p.english)
+        ? interactiveBlock(p.words, p.english, p.segments)
         : `<div class="voice-sa" lang="sa-Latn">${esc(p.sanskrit)}</div>${p.ourRendering ? `<div class="voice-en">${esc(p.ourRendering)}</div>` : ""}`;
       return `<div class="voice-src">${esc(p.school || "")}${p.thinker ? " · " + esc(p.thinker) : ""} · ${esc(p.work || "")}${p.locus ? " " + esc(p.locus) : ""}</div>${body}`;
     }).join('<hr class="voice-rule">');
@@ -158,7 +171,7 @@ function renderVoiceInner(entry) {
   // commentary
   const c = entry.data;
   const body = (c.words && c.english)
-    ? interactiveBlock(c.words, c.english)
+    ? interactiveBlock(c.words, c.english, c.segments)
     : `<div class="voice-sa" lang="sa-Latn">${esc(c.sanskrit)}</div>${c.ourRendering ? `<div class="voice-en">${esc(c.ourRendering)}</div>` : ""}`;
   return `<div class="voice-src">${esc(c.work || "")}${c.locus ? " · " + esc(c.locus) : ""}</div>${body}`;
 }
@@ -191,7 +204,10 @@ function renderVoiceBar() {
     `<button class="vchip" data-voice="${esc(voice.id)}" type="button" aria-pressed="false" style="--vc:${voice.color}">
        <span class="vdot" aria-hidden="true"></span>${esc(voice.name)}</button>`).join("");
   return `<div class="voicebar"><span class="voicebar-label" id="vbLabel">Commentary —</span>
-    <div class="voicebar-chips" role="group" aria-labelledby="vbLabel">${chips}</div></div>`;
+    <div class="voicebar-chips" role="group" aria-labelledby="vbLabel">${chips}</div></div>
+    <div class="seg-legend"><span class="seg-legend-label">in each commentary:</span>` +
+    ["gloss", "interpretation", "citation", "objection", "reply"].map(k =>
+      `<span class="seg-key seg-${k}">${k}</span>`).join("") + `</div>`;
 }
 
 /* ---------- state ---------- */

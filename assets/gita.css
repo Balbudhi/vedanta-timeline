@@ -169,6 +169,27 @@ html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; 
 .voice-block .ix-pada { font-size: 15px; line-height: 2.0; margin-bottom: 9px; }
 .voice-block .ix-en { font-size: 14.5px; line-height: 1.62; color: var(--ink-soft); }
 
+/* ---------- commentary moves, colour-coded (gloss / interpretation / citation / objection / reply) ---------- */
+.seg { box-decoration-break: clone; -webkit-box-decoration-break: clone; border-radius: 4px; padding: 1px 3px; }
+.seg-gloss          { background: #f3f0e8; }
+.seg-interpretation { background: #eaf0fa; }
+.seg-citation       { background: #f8efdb; }
+.seg-objection      { background: #fbe9e7; }
+.seg-reply          { background: #e9f4e7; }
+.seg-tag {
+  font-family: var(--sans); font-size: 9px; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--muted); opacity: .8; margin: 0 4px 0 1px; vertical-align: 1px;
+}
+html[data-theme="dark"] .seg-gloss          { background: #26241d; }
+html[data-theme="dark"] .seg-interpretation { background: #1e2636; }
+html[data-theme="dark"] .seg-citation       { background: #322a1a; }
+html[data-theme="dark"] .seg-objection      { background: #3a2421; }
+html[data-theme="dark"] .seg-reply          { background: #20301e; }
+
+.seg-legend { font-family: var(--sans); font-size: 10.5px; color: var(--muted-soft); display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 0 0 12px; }
+.seg-legend-label { letter-spacing: .03em; }
+.seg-key { padding: 1px 8px; border-radius: 9px; color: var(--ink-soft); }
+
 /* tappable words + highlight (cards open on click only) */
 .w {
   cursor: pointer; border-radius: 3px; padding: 1px 2px;

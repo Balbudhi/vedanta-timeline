@@ -541,7 +541,24 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Of the one settled in samādhi}, {1:of the man of steady wisdom} — {2:what} is {3:the designation}, {4:what} is the {5:naming} {6:word}? {7:Of him}, {8:the nature} {9:of what kind} is it — {10:thus}{11:is the meaning}. {14:And} {13:what} does {12:the man of steady wisdom} {16:do} — {15:his manner of speaking and the rest}?"
+        "english": "{0:Of the one settled in samādhi}, {1:of the man of steady wisdom} — {2:what} is {3:the designation}, {4:what} is the {5:naming} {6:word}? {7:Of him}, {8:the nature} {9:of what kind} is it — {10:thus}{11:is the meaning}. {14:And} {13:what} does {12:the man of steady wisdom} {16:do} — {15:his manner of speaking and the rest}?",
+        "segments": [
+          {
+            "from": 0,
+            "to": 6,
+            "kind": "gloss"
+          },
+          {
+            "from": 7,
+            "to": 11,
+            "kind": "interpretation"
+          },
+          {
+            "from": 12,
+            "to": 16,
+            "kind": "gloss"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -1171,7 +1188,19 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:Alone} {0:in the self}, {2:by the self} — {3:by the mind} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {10:the mind-arisen} {11:desires} {8:other than that [self]}, {15:then} {16:this one} {18:is}{19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in knowledge}."
+        "english": "{1:Alone} {0:in the self}, {2:by the self} — {3:by the mind} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {10:the mind-arisen} {11:desires} {8:other than that [self]}, {15:then} {16:this one} {18:is}{19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in knowledge}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 19,
+            "kind": "gloss"
+          },
+          {
+            "from": 20,
+            "to": 22,
+            "kind": "interpretation"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -1184,7 +1213,7 @@ window.GITA_VERSES = [
     "devanagari": "दुःखेष्व् अनुद्विग्नमनाः सुखेषु विगतस्पृहः।\nवीतरागभयक्रोधः स्थितधीर् मुनिर् उच्यते॥",
     "iast": "duḥkheṣv anudvignamanāḥ sukheṣu vigataspṛhaḥ |\nvītarāgabhayakrodhaḥ sthitadhīr munir ucyate ||",
     "sense": "He whose mind is unshaken amid sorrows, who is free of longing amid pleasures, and from whom passion, fear, and anger have departed — such a sage is called a man of steady wisdom.",
-    "english": "{1:Whose mind is unagitated} {0:amid sorrows}, {3:free of longing} {2:amid pleasures}, {4:from whom passion, fear, and anger have departed} — {6:the sage} {5:whose intellect is steady} {7:is called}.",
+    "english": "{1:Whose mind is unagitated} {0:amid sorrows}, {3:free of longing} {2:amid pleasures}, {4:from whom passion, fear, and anger have departed} — he {7:is called} {6:a sage} {5:of steady wisdom}.",
     "words": [
       {
         "i": 0,
@@ -1957,7 +1986,14 @@ window.GITA_VERSES = [
             "morph": "pres. passive 3 sg."
           }
         ],
-        "english": "{1:When} {0:occasions of sorrow such as separation from the dear} {1:present themselves}, he is {2:one whose mind is unagitated} — he {3:does} {3:not} {5:become} {4:sorrowful}; {7:free of longing} {6:amid pleasures} — {10:even} {9:when} {8:things dear} {9:are at hand}, he is {11:free of longing}; {12:from whom passion, fear, and anger have departed} — {14:longing} {13:toward things not yet come} {15:is passion}, and he is {16:without it}; {18:the sorrow} {17:occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear} {19:is fear}, and he is {20:without it}; {21:the perturbation of one's own mind that becomes a cause of the inner suffering of another conscious being} {22:is anger}, and he is {23:without it}. {24:One who has become thus} — {25:a sage}, {26:whose nature is to contemplate the self} — {29:is}{28:called} {27:one of steady intellect}."
+        "english": "{1:When} {0:occasions of sorrow such as separation from the dear} {1:present themselves}, he is {2:one whose mind is unagitated} — he {3:does} {3:not} {5:become} {4:sorrowful}; {7:free of longing} {6:amid pleasures} — {10:even} {9:when} {8:things dear} {9:are at hand}, he is {11:free of longing}; {12:from whom passion, fear, and anger have departed} — {14:longing} {13:toward things not yet come} {15:is passion}, and he is {16:without it}; {18:the sorrow} {17:occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear} {19:is fear}, and he is {20:without it}; {21:the perturbation of one's own mind that becomes a cause of the inner suffering of another conscious being} {22:is anger}, and he is {23:without it}. {24:One who has become thus} — {25:a sage}, {26:whose nature is to contemplate the self} — {29:is}{28:called} {27:one of steady intellect}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 29,
+            "kind": "gloss"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -2476,7 +2512,14 @@ window.GITA_VERSES = [
             "glossaryKey": "sthitaprajna"
           }
         ],
-        "english": "{0:He who}, {1:in all cases}, {2:among things dear} {3:is without attachment}, {4:indifferent}; who, {7:on meeting} {6:the good and the bad}, {5:which take the form of union with and separation from the dear}, is {8:devoid of rejoicing and aversion} — {9:he} {10:too} is {11:a man of steady wisdom}."
+        "english": "{0:He who}, {1:in all cases}, {2:among things dear} {3:is without attachment}, {4:indifferent}; who, {7:on meeting} {6:the good and the bad}, {5:which take the form of union with and separation from the dear}, is {8:devoid of rejoicing and aversion} — {9:he} {10:too} is {11:a man of steady wisdom}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 11,
+            "kind": "gloss"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -3128,7 +3171,19 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{0:When} {1:the senses} {3:to touch} {2:the objects of sense} {4:are poised}, {5:then} {6:and there} — {9:like} {7:a tortoise} {8:its limbs} — {12:having drawn} {1:them} {11:entirely} {12:in} {10:from the objects of sense}, he {15:settles} {13:the mind} {14:in the self}: {16:he} {17:too} is {18:a man of steady wisdom}. {19:Thus} {21:steadfastness in knowledge} is {20:of four kinds}, {22:each earlier one} {23:to be accomplished by the one that follows}."
+        "english": "{0:When} {1:the senses} {3:to touch} {2:the objects of sense} {4:are poised}, {5:then} {6:and there} — {9:like} {7:a tortoise} {8:its limbs} — {12:having drawn} {1:them} {11:entirely} {12:in} {10:from the objects of sense}, he {15:settles} {13:the mind} {14:in the self}: {16:he} {17:too} is {18:a man of steady wisdom}. {19:Thus} {21:steadfastness in knowledge} is {20:of four kinds}, {22:each earlier one} {23:to be accomplished by the one that follows}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 18,
+            "kind": "gloss"
+          },
+          {
+            "from": 19,
+            "to": 23,
+            "kind": "interpretation"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -3802,7 +3857,19 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{2:The sense-objects} are {1:the food} {0:of the senses}; {6:for the embodied one} {3:who is foodless} — {5:whose senses have been withdrawn} {4:from the objects} — {7:the sense-objects}, {8:as they recede}, {10:recede} {9:with the relish excepted}; {11:the relish} {12:is passion}. {13:Passion for the objects} {14:does} {14:not} {15:turn back} — {16:thus}{17:is the meaning}. {19:Even} {18:that passion} {25:turns back} {24:when he has seen} {20:the self's own nature} as {22:higher} — {23:as more blissful} — {21:than the objects}."
+        "english": "{2:The sense-objects} are {1:the food} {0:of the senses}; {6:for the embodied one} {3:who is foodless} — {5:whose senses have been withdrawn} {4:from the objects} — {7:the sense-objects}, {8:as they recede}, {10:recede} {9:with the relish excepted}; {11:the relish} {12:is passion}. {13:Passion for the objects} {14:does} {14:not} {15:turn back} — {16:thus}{17:is the meaning}. {19:Even} {18:that passion} {25:turns back} {24:when he has seen} {20:the self's own nature} as {22:higher} — {23:as more blissful} — {21:than the objects}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 12,
+            "kind": "gloss"
+          },
+          {
+            "from": 13,
+            "to": 25,
+            "kind": "interpretation"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -4434,7 +4501,19 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:Without} {0:the vision of the self}, {2:attachment to objects} {3:does} {3:not} {4:cease}; and {5:when} {6:attachment to objects} {5:has not ceased}, {11:the senses} {9:even} {10:of a man} {7:who is discerning} {8:and striving} are {12:turbulent} and {13:powerful}, and {15:forcibly} {16:carry away} {14:his mind}. {17:Thus} {18:mastery of the senses} {19:depends on the vision of the self}, and {20:the vision of the self} {21:depends on mastery of the senses} — {22:so} {23:steadfastness in knowledge} {24:is hard to attain}."
+        "english": "{1:Without} {0:the vision of the self}, {2:attachment to objects} {3:does} {3:not} {4:cease}; and {5:when} {6:attachment to objects} {5:has not ceased}, {11:the senses} {9:even} {10:of a man} {7:who is discerning} {8:and striving} are {12:turbulent} and {13:powerful}, and {15:forcibly} {16:carry away} {14:his mind}. {17:Thus} {18:mastery of the senses} {19:depends on the vision of the self}, and {20:the vision of the self} {21:depends on mastery of the senses} — {22:so} {23:steadfastness in knowledge} {24:is hard to attain}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 16,
+            "kind": "gloss"
+          },
+          {
+            "from": 17,
+            "to": 24,
+            "kind": "interpretation"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -5501,7 +5580,34 @@ window.GITA_VERSES = [
             ]
           }
         ],
-        "english": "{2:Wishing to ward off} {0:all} {1:this}, {6:having restrained} {5:the senses} — {4:hard to conquer} {3:because they are joined to attachment for objects} — and {11:having fixed} {10:the mind} {9:on me}, {8:who am the auspicious resting-place} {7:of the mind}, {12:collected} {13:one should sit}. {16:When} {14:the mind} {15:has me for its object}, being {18:made pure} {17:by the burning away of every taint}, {20:the mind}, {19:freed of attachment to objects}, {23:brings} {21:the senses} {22:under its own control}. {24:Then} {26:the mind}, {25:with senses mastered}, {28:becomes capable} {27:of the vision of the self}. {29:As it is said}: {30:just as} {31:fire} {32:with raised flame}, {35:fanned by wind}, {34:burns up} {33:the brushwood}, {36:so} {38:Viṣṇu} {37:seated in the mind} burns up {40:all the sins} {39:of yogins} — {41:thus}. {43:This is what he states} {42:in}: {45:for} {46:he whose} {47:senses} are {44:in control}, {48:his} {49:wisdom} {50:stands firm} — {51:thus}."
+        "english": "{2:Wishing to ward off} {0:all} {1:this}, {6:having restrained} {5:the senses} — {4:hard to conquer} {3:because they are joined to attachment for objects} — and {11:having fixed} {10:the mind} {9:on me}, {8:who am the auspicious resting-place} {7:of the mind}, {12:collected} {13:one should sit}. {16:When} {14:the mind} {15:has me for its object}, being {18:made pure} {17:by the burning away of every taint}, {20:the mind}, {19:freed of attachment to objects}, {23:brings} {21:the senses} {22:under its own control}. {24:Then} {26:the mind}, {25:with senses mastered}, {28:becomes capable} {27:of the vision of the self}. {29:As it is said}: {30:just as} {31:fire} {32:with raised flame}, {35:fanned by wind}, {34:burns up} {33:the brushwood}, {36:so} {38:Viṣṇu} {37:seated in the mind} burns up {40:all the sins} {39:of yogins} — {41:thus}. {43:This is what he states} {42:in}: {45:for} {46:he whose} {47:senses} are {44:in control}, {48:his} {49:wisdom} {50:stands firm} — {51:thus}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 28,
+            "kind": "gloss"
+          },
+          {
+            "from": 29,
+            "to": 29,
+            "kind": "interpretation"
+          },
+          {
+            "from": 30,
+            "to": 41,
+            "kind": "citation"
+          },
+          {
+            "from": 42,
+            "to": 43,
+            "kind": "interpretation"
+          },
+          {
+            "from": 44,
+            "to": 51,
+            "kind": "citation"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -7007,7 +7113,19 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{1:For} {0:of one whose attachment to objects is not expelled} and {3:whose mind is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the senses}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:attachment}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From attachment}, {21:when it is born}, comes {22:desire}. {23:Desire} {24:namely} is {26:the ripened state} {25:of attachment}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is desire}. {38:From desire} {39:anger} {40:is born}: {42:while} {41:desire} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:anger} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the senses and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward knowledge of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}."
+        "english": "{1:For} {0:of one whose attachment to objects is not expelled} and {3:whose mind is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the senses}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:attachment}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From attachment}, {21:when it is born}, comes {22:desire}. {23:Desire} {24:namely} is {26:the ripened state} {25:of attachment}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is desire}. {38:From desire} {39:anger} {40:is born}: {42:while} {41:desire} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:anger} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the senses and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward knowledge of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 11,
+            "kind": "interpretation"
+          },
+          {
+            "from": 12,
+            "to": 85,
+            "kind": "gloss"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -8504,7 +8622,19 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{1:For} {0:of one whose attachment to objects is not expelled} and {3:whose mind is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the senses}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:attachment}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From attachment}, {21:when it is born}, comes {22:desire}. {23:Desire} {24:namely} is {26:the ripened state} {25:of attachment}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is desire}. {38:From desire} {39:anger} {40:is born}: {42:while} {41:desire} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:anger} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the senses and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward knowledge of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}."
+        "english": "{1:For} {0:of one whose attachment to objects is not expelled} and {3:whose mind is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the senses}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:attachment}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From attachment}, {21:when it is born}, comes {22:desire}. {23:Desire} {24:namely} is {26:the ripened state} {25:of attachment}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is desire}. {38:From desire} {39:anger} {40:is born}: {42:while} {41:desire} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:anger} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the senses and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward knowledge of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 11,
+            "kind": "interpretation"
+          },
+          {
+            "from": 12,
+            "to": 85,
+            "kind": "gloss"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -9122,7 +9252,19 @@ window.GITA_VERSES = [
             "morph": "nom. sg. masc."
           }
         ],
-        "english": "{1:In the manner} {0:already stated}, {6:having placed his mind} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:moving} {11:among the sense-objects} {10:with senses} {8:freed from attraction and aversion} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is amenable}, {17:whose mind is biddable}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}."
+        "english": "{1:In the manner} {0:already stated}, {6:having placed his mind} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:moving} {11:among the sense-objects} {10:with senses} {8:freed from attraction and aversion} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is amenable}, {17:whose mind is biddable}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 21,
+            "kind": "gloss"
+          },
+          {
+            "from": 22,
+            "to": 23,
+            "kind": "interpretation"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -9716,7 +9858,19 @@ window.GITA_VERSES = [
             ]
           }
         ],
-        "english": "{3:When} {0:this} {1:man's} {2:mind is serene}, {5:the cessation} {4:of all the sorrows brought on by contact with prakṛti} {6:arises}. {11:For} {7:of one whose mind is serene} — {8:whose mind is free of the faults that obstruct the beholding of the self} — {9:at that very moment} {10:indeed} {13:the intellect} {12:whose object is the self in its purity} {14:becomes firmly settled}. {15:Therefore}, {16:when the mind is serene}, {18:the cessation} {17:of all sorrows} {20:certainly} {19:comes about}."
+        "english": "{3:When} {0:this} {1:man's} {2:mind is serene}, {5:the cessation} {4:of all the sorrows brought on by contact with prakṛti} {6:arises}. {11:For} {7:of one whose mind is serene} — {8:whose mind is free of the faults that obstruct the beholding of the self} — {9:at that very moment} {10:indeed} {13:the intellect} {12:whose object is the self in its purity} {14:becomes firmly settled}. {15:Therefore}, {16:when the mind is serene}, {18:the cessation} {17:of all sorrows} {20:certainly} {19:comes about}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 6,
+            "kind": "gloss"
+          },
+          {
+            "from": 7,
+            "to": 20,
+            "kind": "interpretation"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -10434,7 +10588,14 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:For one who has not surrendered his mind} {0:to me}, {4:who has set out} {3:to restrain the senses} {2:by his own effort} alone, {7:the} {8:intellect} {7:whose object is the self in its purity} {9:will} {6:not} {5:ever} {10:come to be}. {11:For} {12:that very reason} {13:his} {14:contemplation of that} {15:too} {16:is} {16:not} {17:possible}. {19:For one who does not contemplate} {18:the self in its purity} {22:there is} {21:no} {20:peace from craving for sense-objects}. And {23:for the peaceless one} — {24:the one bound to craving for sense-objects} — {25:whence} {26:the attainment of the eternal, unsurpassed happiness}?"
+        "english": "{1:For one who has not surrendered his mind} {0:to me}, {4:who has set out} {3:to restrain the senses} {2:by his own effort} alone, {7:the} {8:intellect} {7:whose object is the self in its purity} {9:will} {6:not} {5:ever} {10:come to be}. {11:For} {12:that very reason} {13:his} {14:contemplation of that} {15:too} {16:is} {16:not} {17:possible}. {19:For one who does not contemplate} {18:the self in its purity} {22:there is} {21:no} {20:peace from craving for sense-objects}. And {23:for the peaceless one} — {24:the one bound to craving for sense-objects} — {25:whence} {26:the attainment of the eternal, unsurpassed happiness}?",
+        "segments": [
+          {
+            "from": 0,
+            "to": 26,
+            "kind": "interpretation"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -11151,7 +11312,24 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Of the senses} {2:roving} — that is, {3:moving} {1:among their objects} — {7:the mind} {6:which} {8:is made} {5:to follow} {4:their movement}, {10:which is made to conform} {9:by the person}: {11:that} {12:mind} {16:carries off} {13:his} {15:wisdom} {14:that was inclined toward the self in its purity} — {19:the}{20:meaning} is, {18:it makes} that wisdom {17:incline toward the sense-objects}; {21:just as}, {23:when a boat is being steered} {22:upon the water}, {25:an adverse} {26:wind} {27:forcibly} {28:carries} {24:it} {28:away}."
+        "english": "{0:Of the senses} {2:roving} — that is, {3:moving} {1:among their objects} — {7:the mind} {6:which} {8:is made} {5:to follow} {4:their movement}, {10:which is made to conform} {9:by the person}: {11:that} {12:mind} {16:carries off} {13:his} {15:wisdom} {14:that was inclined toward the self in its purity} — {19:the}{20:meaning} is, {18:it makes} that wisdom {17:incline toward the sense-objects}; {21:just as}, {23:when a boat is being steered} {22:upon the water}, {25:an adverse} {26:wind} {27:forcibly} {28:carries} {24:it} {28:away}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 18,
+            "kind": "gloss"
+          },
+          {
+            "from": 19,
+            "to": 20,
+            "kind": "interpretation"
+          },
+          {
+            "from": 21,
+            "to": 28,
+            "kind": "gloss"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -11652,7 +11830,14 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Therefore}, {2:in the manner} {1:already stated}, {5:of the one whose mind is fixed} {4:on me}, {3:the auspicious resort} — {6:he whose} {7:senses} {9:are wholly} {10:held back} {8:from the sense-objects} — {11:of him} {12:alone} {16:is} {14:the wisdom} {15:firmly established} {13:upon the self}."
+        "english": "{0:Therefore}, {2:in the manner} {1:already stated}, {5:of the one whose mind is fixed} {4:on me}, {3:the auspicious resort} — {6:he whose} {7:senses} {9:are wholly} {10:held back} {8:from the sense-objects} — {11:of him} {12:alone} {16:is} {14:the wisdom} {15:firmly established} {13:upon the self}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 16,
+            "kind": "gloss"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -12463,7 +12648,24 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:The} {2:cognition} {0:that} {1:has the self for its object} {4:is night} — {7:unlit}, {6:like} {5:night} — {3:for all beings}; {8:in that} {9:self-directed} {10:cognition} {11:the man who restrains the senses}, {12:his mind serene}, {13:is awake}: {17:the}{18:meaning} is that he {16:abides} {15:gazing} {14:upon the self}. And {19:in which} {20:its object is sound and the rest} {21:cognition}, {19:in which} {22:all} {23:beings} {24:are awake} — that is, {26:are} {25:alert} — {27:that} {29:cognition} {28:whose object is sound and the rest} {36:is}, {32:for the sage} {31:who} {30:sees} {30:the self}, {35:unlit}, {34:like} {33:night}."
+        "english": "{0:The} {2:cognition} {0:that} {1:has the self for its object} {4:is night} — {7:unlit}, {6:like} {5:night} — {3:for all beings}; {8:in that} {9:self-directed} {10:cognition} {11:the man who restrains the senses}, {12:his mind serene}, {13:is awake}: {17:the}{18:meaning} is that he {16:abides} {15:gazing} {14:upon the self}. And {19:in which} {20:its object is sound and the rest} {21:cognition}, {19:in which} {22:all} {23:beings} {24:are awake} — that is, {26:are} {25:alert} — {27:that} {29:cognition} {28:whose object is sound and the rest} {36:is}, {32:for the sage} {31:who} {30:sees} {30:the self}, {35:unlit}, {34:like} {33:night}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 16,
+            "kind": "gloss"
+          },
+          {
+            "from": 17,
+            "to": 18,
+            "kind": "interpretation"
+          },
+          {
+            "from": 19,
+            "to": 36,
+            "kind": "gloss"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -13683,7 +13885,19 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Just as} {7:the} {6:river-}{7:waters} {8:enter} {5:the ocean} — {3:which is filled} {1:by itself} {2:alone} and {4:is of one unchanging form} — and {11:at the entering} {12:even} {9:of those} {10:waters} {14:and equally} {13:at their non-entering} {15:the ocean} {19:undergoes} {16:no} {18:alteration} {17:whatever}; {20:so} {21:all} {22:desires}, {24:the objects} {23:such as sound and the rest}, {27:which enter} {25:the} {26:man of restraint} — that is, {29:come} {28:within range of his senses} — {30:he} {32:attains} {31:peace}. {35:When} {33:the objects such as sound} {35:have come} {34:within range of the senses} {37:and equally} {36:when they have not}, {40:he who}, {38:by the contentment of gazing on his own self} {39:alone}, {43:undergoes} {41:no} {42:change} — {44:he} {45:alone} {47:attains} {46:peace}: {48:this is the}{49:meaning}. {50:Not} {51:the desire-craver}: {52:he who} {54:is altered} {53:by sound and the rest} {55:he} {58:never} {56:at any} {57:time} {60:attains} {59:peace}."
+        "english": "{0:Just as} {7:the} {6:river-}{7:waters} {8:enter} {5:the ocean} — {3:which is filled} {1:by itself} {2:alone} and {4:is of one unchanging form} — and {11:at the entering} {12:even} {9:of those} {10:waters} {14:and equally} {13:at their non-entering} {15:the ocean} {19:undergoes} {16:no} {18:alteration} {17:whatever}; {20:so} {21:all} {22:desires}, {24:the objects} {23:such as sound and the rest}, {27:which enter} {25:the} {26:man of restraint} — that is, {29:come} {28:within range of his senses} — {30:he} {32:attains} {31:peace}. {35:When} {33:the objects such as sound} {35:have come} {34:within range of the senses} {37:and equally} {36:when they have not}, {40:he who}, {38:by the contentment of gazing on his own self} {39:alone}, {43:undergoes} {41:no} {42:change} — {44:he} {45:alone} {47:attains} {46:peace}: {48:this is the}{49:meaning}. {50:Not} {51:the desire-craver}: {52:he who} {54:is altered} {53:by sound and the rest} {55:he} {58:never} {56:at any} {57:time} {60:attains} {59:peace}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 32,
+            "kind": "gloss"
+          },
+          {
+            "from": 33,
+            "to": 60,
+            "kind": "interpretation"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -14183,7 +14397,14 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Therein} {1:free of longing}, and {2:therein} {3:free of the sense of 'mine'}, {4:and} he {8:moves about} {7:free of the conceit of self} {5:in what is not the self}, {6:the body}; {9:he}, {11:having seen} {10:the self}, {13:attains} {12:peace}."
+        "english": "{0:Therein} {1:free of longing}, and {2:therein} {3:free of the sense of 'mine'}, {4:and} he {8:moves about} {7:free of the conceit of self} {5:in what is not the self}, {6:the body}; {9:he}, {11:having seen} {10:the self}, {13:attains} {12:peace}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 13,
+            "kind": "gloss"
+          }
+        ]
       }
     ],
     "aurobindo": [],
@@ -15074,7 +15295,19 @@ window.GITA_VERSES = [
             ]
           }
         ],
-        "english": "{0:Thus}, {6:for the one who did not know} {1:the true nature of the self} {3:and} {5:that it is a means to the attainment of it} — {4:the work} {2:called battle} — {8:deluded} {7:by taking the body for the self}, {10:and} {9:by that} {11:delusion} {13:withdrawn} {12:from battle} — {14:for the quieting of delusion}, {16:the Sāṅkhya-cognition} {15:whose object is the eternal self}, {18:and}, {17:founded upon it}, {20:the cognition} {19:whose object is karma-yoga in the form of the practice of detached action} — {21:the means to the yoga of being a sthitaprajña} — {24:has been declared} {22:in the second} {23:chapter}. {25:This}{26:is said}: {28:the Sāṅkhya-yoga understanding}, {27:ranging over the eternal self and over detached action}, {31:has been declared} {29:in the second [chapter]}, {30:marked by the steady-minded one}, {32:for the quieting of that delusion} — {33:thus}."
+        "english": "{0:Thus}, {6:for the one who did not know} {1:the true nature of the self} {3:and} {5:that it is a means to the attainment of it} — {4:the work} {2:called battle} — {8:deluded} {7:by taking the body for the self}, {10:and} {9:by that} {11:delusion} {13:withdrawn} {12:from battle} — {14:for the quieting of delusion}, {16:the Sāṅkhya-cognition} {15:whose object is the eternal self}, {18:and}, {17:founded upon it}, {20:the cognition} {19:whose object is karma-yoga in the form of the practice of detached action} — {21:the means to the yoga of being a sthitaprajña} — {24:has been declared} {22:in the second} {23:chapter}. {25:This}{26:is said}: {28:the Sāṅkhya-yoga understanding}, {27:ranging over the eternal self and over detached action}, {31:has been declared} {29:in the second [chapter]}, {30:marked by the steady-minded one}, {32:for the quieting of that delusion} — {33:thus}.",
+        "segments": [
+          {
+            "from": 0,
+            "to": 26,
+            "kind": "interpretation"
+          },
+          {
+            "from": 27,
+            "to": 33,
+            "kind": "citation"
+          }
+        ]
       }
     ],
     "aurobindo": [],

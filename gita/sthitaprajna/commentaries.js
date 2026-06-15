@@ -690,7 +690,19 @@ window.GITA_COMMENTARY = {
           "morph": "present passive, 3rd singular"
         }
       ],
-      "english": "{0:‘sthitā’ means established}, {1:firmly fixed}: he {8:whose} {7:insight} {2:‘I} {3:am} {5:Brahman}, {4:the Supreme}{6:’} is {10:the man of settled wisdom}. {13:What} is the {14:‘speech’} {11:of} {12:such a one} — {15:what} {16:saying}, {17:utterance}? {18:How} {21:is he described} {20:by others} — {22:of one settled in samādhi}, established {23:in absorption}, {25:O} {26:Keśava}? And what does the {27:steady-minded one} {28:himself} {32:say}? {34:How does he sit}, {35:how does he move} — {37:what is his sitting}, {38:his walking}{39:?} {41:How} is {40:his}{42:’} {43:the meaning}. {45:The marks} {44:of the man of settled wisdom} {48:are asked} {46:by this} {47:verse}."
+      "english": "{0:‘sthitā’ means established}, {1:firmly fixed}: he {8:whose} {7:insight} {2:‘I} {3:am} {5:Brahman}, {4:the Supreme}{6:’} is {10:the man of settled wisdom}. {13:What} is the {14:‘speech’} {11:of} {12:such a one} — {15:what} {16:saying}, {17:utterance}? {18:How} {21:is he described} {20:by others} — {22:of one settled in samādhi}, established {23:in absorption}, {25:O} {26:Keśava}? And what does the {27:steady-minded one} {28:himself} {32:say}? {34:How does he sit}, {35:how does he move} — {37:what is his sitting}, {38:his walking}{39:?} {41:How} is {40:his}{42:’} {43:the meaning}. {45:The marks} {44:of the man of settled wisdom} {48:are asked} {46:by this} {47:verse}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 41,
+          "kind": "gloss"
+        },
+        {
+          "from": 42,
+          "to": 48,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -2415,7 +2427,24 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:Now}, {1:finding the occasion}, {4:Arjuna} {5:speaks} {3:in order to learn} {2:the marks of the man of settled wisdom} — {16:taking it} that {6:the very} {10:marks} {8:that} {7:are precisely} {9:of those liberated-while-living} {11:are} {12:also}, {13:for seekers of release}, {14:the means to liberation}{15:}. He {24:whose} {23:insight} {19:‘I} {21:am} {20:Brahman’} {17:stands} {18:unmoving} is {26:the sthita-prajña}, {27:possessed of two states}: {28:established-in-samādhi} and {29:risen-up (active)}{30:}. So {32:hence} {33:he qualifies} it: {34:of the one in samādhi}, {35:the sthita-prajña}, {36:what} is the {37:‘speech’}? — {38:in the object} {39:a genitive}{38:}. {43:‘bhāṣā’} is {44:the mark} {40:by which he is described} {41:by this}{42:}. The {52:sense}: {47:by what} {48:mark} is {46:the sthita-prajña}, {45:settled in samādhi}, {50:referred to} {49:by others}{51:}? {53:And he} {55:who has risen up}, {56:the steady-minded one}, {57:the sthita-prajña} — {59:what} does he {58:himself} {60:say}? {61:Amid praise and blame and the like}, {63:what} {62:marks of rejoicing, aversion and so on} {64:how} does he {65:show}? — {68:the optative} {66:throughout} {67:in the sense of supposition}{69:}. {70:‘How} does he {71:sit}?’{72:} — {73:to restrain the risen-up mind}, {74:how} does he {77:restrain} the {75:outer} {76:senses}? {79:When that restraint is absent}, {80:‘how} does he {81:move’} — {82:how} does he {84:approach} {83:objects}? {85:What are his speaking, sitting and moving}, that are {86:unlike the ignorant crowd}, {87:of what sort}{88:}? — the {89:meaning}{90:}. {91:Thus} there are {92:four} {93:questions}: {96:one} {94:about the one in samādhi}, {95:the sthita-prajña}, {99:three} {97:about the risen-up} {98:sthita-prajña}{100:}. {103:By addressing him} {101:‘Keśava’}{102:}, he {113:hints}: {105:‘You} {106:alone}, {104:as the inner controller of all}, {110:are able} {109:to tell} {107:such} {108:a secret’}{111:}{112:}."
+      "english": "{0:Now}, {1:finding the occasion}, {4:Arjuna} {5:speaks} {3:in order to learn} {2:the marks of the man of settled wisdom} — {16:taking it} that {6:the very} {10:marks} {8:that} {7:are precisely} {9:of those liberated-while-living} {11:are} {12:also}, {13:for seekers of release}, {14:the means to liberation}{15:}. He {24:whose} {23:insight} {19:‘I} {21:am} {20:Brahman’} {17:stands} {18:unmoving} is {26:the sthita-prajña}, {27:possessed of two states}: {28:established-in-samādhi} and {29:risen-up (active)}{30:}. So {32:hence} {33:he qualifies} it: {34:of the one in samādhi}, {35:the sthita-prajña}, {36:what} is the {37:‘speech’}? — {38:in the object} {39:a genitive}{38:}. {43:‘bhāṣā’} is {44:the mark} {40:by which he is described} {41:by this}{42:}. The {52:sense}: {47:by what} {48:mark} is {46:the sthita-prajña}, {45:settled in samādhi}, {50:referred to} {49:by others}{51:}? {53:And he} {55:who has risen up}, {56:the steady-minded one}, {57:the sthita-prajña} — {59:what} does he {58:himself} {60:say}? {61:Amid praise and blame and the like}, {63:what} {62:marks of rejoicing, aversion and so on} {64:how} does he {65:show}? — {68:the optative} {66:throughout} {67:in the sense of supposition}{69:}. {70:‘How} does he {71:sit}?’{72:} — {73:to restrain the risen-up mind}, {74:how} does he {77:restrain} the {75:outer} {76:senses}? {79:When that restraint is absent}, {80:‘how} does he {81:move’} — {82:how} does he {84:approach} {83:objects}? {85:What are his speaking, sitting and moving}, that are {86:unlike the ignorant crowd}, {87:of what sort}{88:}? — the {89:meaning}{90:}. {91:Thus} there are {92:four} {93:questions}: {96:one} {94:about the one in samādhi}, {95:the sthita-prajña}, {99:three} {97:about the risen-up} {98:sthita-prajña}{100:}. {103:By addressing him} {101:‘Keśava’}{102:}, he {113:hints}: {105:‘You} {106:alone}, {104:as the inner controller of all}, {110:are able} {109:to tell} {107:such} {108:a secret’}{111:}{112:}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 5,
+          "kind": "interpretation"
+        },
+        {
+          "from": 6,
+          "to": 89,
+          "kind": "gloss"
+        },
+        {
+          "from": 90,
+          "to": 113,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -3071,7 +3100,34 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "Wishing to know {2:the mark} {1:of the knower of the truth of the Self} {0:spoken of in the previous verse}, {4:Arjuna} {5:says} {6:'sthita-prajñasya'}{7:…}. {10:Of one established} {9:in} {8:natural} {9:samādhi} — {11:and hence} he {16:whose} {15:understanding}, {14:insight}, is {12:steady} {13:and unmoving} — {17:his} {18:speech}, {19:what} is it? {23:'bhāṣā'} is that {21:by which} one {20:is spoken of}{22:,} {24:the defining mark}, {25:that} {26:is to say}. {28:By what} {29:mark} {27:is he} {31:called} {30:sthita-prajña}? — {32:that} {33:is the meaning}. {34:Likewise} {35:the steady-minded one}: {36:how}, {37:in what manner}, {42:would he carry out} {38:speaking}, {39:sitting} {41:and} {40:walking}? — {43:that} {44:is the meaning}."
+      "english": "Wishing to know {2:the mark} {1:of the knower of the truth of the Self} {0:spoken of in the previous verse}, {4:Arjuna} {5:says} {6:'sthita-prajñasya'}{7:…}. {10:Of one established} {9:in} {8:natural} {9:samādhi} — {11:and hence} he {16:whose} {15:understanding}, {14:insight}, is {12:steady} {13:and unmoving} — {17:his} {18:speech}, {19:what} is it? {23:'bhāṣā'} is that {21:by which} one {20:is spoken of}{22:,} {24:the defining mark}, {25:that} {26:is to say}. {28:By what} {29:mark} {27:is he} {31:called} {30:sthita-prajña}? — {32:that} {33:is the meaning}. {34:Likewise} {35:the steady-minded one}: {36:how}, {37:in what manner}, {42:would he carry out} {38:speaking}, {39:sitting} {41:and} {40:walking}? — {43:that} {44:is the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 5,
+          "kind": "interpretation"
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "kind": "citation"
+        },
+        {
+          "from": 8,
+          "to": 26,
+          "kind": "gloss"
+        },
+        {
+          "from": 27,
+          "to": 33,
+          "kind": "interpretation"
+        },
+        {
+          "from": 34,
+          "to": 44,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -4224,7 +4280,49 @@ window.GITA_COMMENTARY = {
           "morph": "ablative singular neuter"
         }
       ],
-      "english": "He {3:whose} {1:wisdom}, {2:knowledge}, {0:is established} — {4:he} is {5:the sthita-prajña}. {6:‘It is spoken} {7:by this’} {8:—} {9:‘bhāṣā’ (speech)}; {10:the defining mark} {11:—} {12:that is the meaning}. {15:He restates} {13:the stated} {14:mark}, and {19:to make known} {16:‘I ask a further mark’} {17:—} {20:‘samādhi-sthasya’}. {29:‘Keśava’}: he who {27:sets in motion} {22:Ka (Brahmā)}, {24:Īśa}, {26:and} {25:Rudra} — {30:for so} {32:the etymology} was {33:made} {35:by Rudra} {34:in the Harivaṃśa} {36:during the journey to Kailāsa}: {37:‘Hiraṇyagarbha} {39:is called} {38:Ka}, {41:and Śaṅkara} {40:is Īśa}; {47:since} {44:by creation and the rest} {49:you} {45:set} {46:those two} going, {49:you} are {48:Keśava’} {50:—} {52:and} {51:by another statement} too. {53:‘How} {54:does he sit?’} — {55:how} {56:does he abide?} {57:It is not} {58:that} {59:Arjuna} {60:does not} {61:know} {62:his marks and the like} — {64:‘The former kings} {65:and the divine seers} {63:know} these {66:well} {67:indeed}; {69:yet} {70:even so} {72:they ask about} {71:the duties}, {73:for discussion} {74:and to obtain the secret}; {75:for those} {77:secrets} {76:are} {78:not grasped} {79:in the Purāṇas} {80:by the dull-witted’} {82:as the text says}."
+      "english": "He {3:whose} {1:wisdom}, {2:knowledge}, {0:is established} — {4:he} is {5:the sthita-prajña}. {6:‘It is spoken} {7:by this’} {8:—} {9:‘bhāṣā’ (speech)}; {10:the defining mark} {11:—} {12:that is the meaning}. {15:He restates} {13:the stated} {14:mark}, and {19:to make known} {16:‘I ask a further mark’} {17:—} {20:‘samādhi-sthasya’}. {29:‘Keśava’}: he who {27:sets in motion} {22:Ka (Brahmā)}, {24:Īśa}, {26:and} {25:Rudra} — {30:for so} {32:the etymology} was {33:made} {35:by Rudra} {34:in the Harivaṃśa} {36:during the journey to Kailāsa}: {37:‘Hiraṇyagarbha} {39:is called} {38:Ka}, {41:and Śaṅkara} {40:is Īśa}; {47:since} {44:by creation and the rest} {49:you} {45:set} {46:those two} going, {49:you} are {48:Keśava’} {50:—} {52:and} {51:by another statement} too. {53:‘How} {54:does he sit?’} — {55:how} {56:does he abide?} {57:It is not} {58:that} {59:Arjuna} {60:does not} {61:know} {62:his marks and the like} — {64:‘The former kings} {65:and the divine seers} {63:know} these {66:well} {67:indeed}; {69:yet} {70:even so} {72:they ask about} {71:the duties}, {73:for discussion} {74:and to obtain the secret}; {75:for those} {77:secrets} {76:are} {78:not grasped} {79:in the Purāṇas} {80:by the dull-witted’} {82:as the text says}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 12,
+          "kind": "gloss"
+        },
+        {
+          "from": 13,
+          "to": 21,
+          "kind": "interpretation"
+        },
+        {
+          "from": 22,
+          "to": 32,
+          "kind": "gloss"
+        },
+        {
+          "from": 33,
+          "to": 36,
+          "kind": "interpretation"
+        },
+        {
+          "from": 37,
+          "to": 50,
+          "kind": "citation"
+        },
+        {
+          "from": 51,
+          "to": 62,
+          "kind": "interpretation"
+        },
+        {
+          "from": 63,
+          "to": 81,
+          "kind": "citation"
+        },
+        {
+          "from": 82,
+          "to": 82,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.55": [
@@ -5182,7 +5280,29 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:‘prajahāti’: he thoroughly relinquishes}, {1:thoroughly} {2:abandons}, {3:gives up entirely}, {4:when} — {5:at which} {6:time} — he gives up {7:all} {8:entire} {9:desires}, {10:the varieties of craving}, {11:O} {12:Pārtha}, {13:gone into the mind}, {15:entered} {14:in the mind}, {17:entered} {16:in the heart}. Since, {18:on giving up every desire}, {19:there would be no cause for contentment}, {21:and} {20:with only the residue needed to sustain the body} remaining {22:being so}, an {25:activity} like {24:that of} {23:a madman or a drunkard} {26:might ensue}, {27:thus} {28:therefore} {29:it is said}: {38:content} {30:in the Self} {31:alone}, {32:in the inmost-Self’s own nature} {33:verily}, {34:by the Self}, {35:by oneself} {36:alone}, {37:independent of external gain}, content {39:by gaining the nectar-taste of the vision of the highest reality}, {41:holding ‘enough’} to {40:anything else} — that {50:learned one} {51:then} {52:is called} {49:sthita-prajña}, he {47:whose} {46:insight} {45:born of the discrimination of Self from non-Self} {43:stands} {44:firm}. The meaning is: a {54:renunciant} {53:who has cast off the craving for sons, wealth and worlds}, who {55:delights in the Self} and {56:sports in the Self}, is the {57:man of settled wisdom}, {58:thus} the {59:meaning}."
+      "english": "{0:‘prajahāti’: he thoroughly relinquishes}, {1:thoroughly} {2:abandons}, {3:gives up entirely}, {4:when} — {5:at which} {6:time} — he gives up {7:all} {8:entire} {9:desires}, {10:the varieties of craving}, {11:O} {12:Pārtha}, {13:gone into the mind}, {15:entered} {14:in the mind}, {17:entered} {16:in the heart}. Since, {18:on giving up every desire}, {19:there would be no cause for contentment}, {21:and} {20:with only the residue needed to sustain the body} remaining {22:being so}, an {25:activity} like {24:that of} {23:a madman or a drunkard} {26:might ensue}, {27:thus} {28:therefore} {29:it is said}: {38:content} {30:in the Self} {31:alone}, {32:in the inmost-Self’s own nature} {33:verily}, {34:by the Self}, {35:by oneself} {36:alone}, {37:independent of external gain}, content {39:by gaining the nectar-taste of the vision of the highest reality}, {41:holding ‘enough’} to {40:anything else} — that {50:learned one} {51:then} {52:is called} {49:sthita-prajña}, he {47:whose} {46:insight} {45:born of the discrimination of Self from non-Self} {43:stands} {44:firm}. The meaning is: a {54:renunciant} {53:who has cast off the craving for sons, wealth and worlds}, who {55:delights in the Self} and {56:sports in the Self}, is the {57:man of settled wisdom}, {58:thus} the {59:meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 17,
+          "kind": "gloss"
+        },
+        {
+          "from": 18,
+          "to": 29,
+          "kind": "interpretation"
+        },
+        {
+          "from": 30,
+          "to": 52,
+          "kind": "gloss"
+        },
+        {
+          "from": 53,
+          "to": 59,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -6964,7 +7084,44 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{6:To} {0:these} {1:four} {2:questions} {5:the Lord} {6:answers} {3:in order}, from {7:‘prajahāti’} {9:up to the chapter's end}{8:}. {10:‘Desires’} — {12:the particular mental modifications} {11:of desire, intention and the rest}, {16:elaborated} {15:fivefold} {14:in another system} as {13:valid cognition, error, conceptual construction, sleep and memory} — {17:all} of them, {18:without remainder}, {21:when} he {19:thoroughly} {22:abandons} {23:them} {20:by cancelling their cause}, {26:when} he {27:becomes} {24:wholly free of every mental modification}{25:}, he is {29:then} {30:called} {28:sthita-prajña}, {31:‘established in samādhi’} {33:being supplied}{32:}. {37:He shows} {36:that desires are fit to be abandoned}, {35:being not properties of the Self}, {34:of desires} by {38:‘mano-gatān’ (mind-gone)}{39:}: {41:for} {40:were} they {42:properties of the Self} {43:they could be}{44:then} {45:they could} {47:not} be {46:given up}, {49:being innate} {48:like the heat of fire}; {51:but} {53:these} are {52:properties} {50:of the mind}, {54:so} {55:by abandoning that} they {57:can} {58:indeed} {56:be abandoned}{59:}{60:}. — {61:But surely} {64:a special contentment}, {63:inferred from the radiance of his face}, {65:is observed} {62:in the sthita-prajña}; {67:how} can {66:that} {69:be}, {68:when all desire is abandoned}{70:}? {71:He answers}: content {72:in the Self} {73:alone}, {74:of the nature of supreme bliss}, {75:not} {76:but} {77:in the non-Self} which is {78:trifling}; {79:‘by the Self’}, {80:by the self-luminous consciousness-nature} {81:shining} of itself, {82:not} {83:but} {84:by a mental modification} — {85:content}, {86:fully satisfied} {87:through the attainment of the highest human goal}. {88:So} {89:too} {90:the śruti}: ‘{91:When} {92:all} {94:the desires} {95:that} {98:dwell} {96:in his} {97:heart} {93:are released}, {99:then} {100:the mortal} {102:becomes} {101:immortal} {105:and attains} {104:Brahman} {103:here}{106:}.’ {107:Thus} {108:too} the {110:sthita-prajña} {109:settled in samādhi} {114:is spoken of} {113:by others with} {111:such} {112:mark-denoting} words {115:—} this is {117:the answer} {116:to the first question}."
+      "english": "{6:To} {0:these} {1:four} {2:questions} {5:the Lord} {6:answers} {3:in order}, from {7:‘prajahāti’} {9:up to the chapter's end}{8:}. {10:‘Desires’} — {12:the particular mental modifications} {11:of desire, intention and the rest}, {16:elaborated} {15:fivefold} {14:in another system} as {13:valid cognition, error, conceptual construction, sleep and memory} — {17:all} of them, {18:without remainder}, {21:when} he {19:thoroughly} {22:abandons} {23:them} {20:by cancelling their cause}, {26:when} he {27:becomes} {24:wholly free of every mental modification}{25:}, he is {29:then} {30:called} {28:sthita-prajña}, {31:‘established in samādhi’} {33:being supplied}{32:}. {37:He shows} {36:that desires are fit to be abandoned}, {35:being not properties of the Self}, {34:of desires} by {38:‘mano-gatān’ (mind-gone)}{39:}: {41:for} {40:were} they {42:properties of the Self} {43:they could be}{44:then} {45:they could} {47:not} be {46:given up}, {49:being innate} {48:like the heat of fire}; {51:but} {53:these} are {52:properties} {50:of the mind}, {54:so} {55:by abandoning that} they {57:can} {58:indeed} {56:be abandoned}{59:}{60:}. — {61:But surely} {64:a special contentment}, {63:inferred from the radiance of his face}, {65:is observed} {62:in the sthita-prajña}; {67:how} can {66:that} {69:be}, {68:when all desire is abandoned}{70:}? {71:He answers}: content {72:in the Self} {73:alone}, {74:of the nature of supreme bliss}, {75:not} {76:but} {77:in the non-Self} which is {78:trifling}; {79:‘by the Self’}, {80:by the self-luminous consciousness-nature} {81:shining} of itself, {82:not} {83:but} {84:by a mental modification} — {85:content}, {86:fully satisfied} {87:through the attainment of the highest human goal}. {88:So} {89:too} {90:the śruti}: ‘{91:When} {92:all} {94:the desires} {95:that} {98:dwell} {96:in his} {97:heart} {93:are released}, {99:then} {100:the mortal} {102:becomes} {101:immortal} {105:and attains} {104:Brahman} {103:here}{106:}.’ {107:Thus} {108:too} the {110:sthita-prajña} {109:settled in samādhi} {114:is spoken of} {113:by others with} {111:such} {112:mark-denoting} words {115:—} this is {117:the answer} {116:to the first question}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 6,
+          "kind": "interpretation"
+        },
+        {
+          "from": 7,
+          "to": 33,
+          "kind": "gloss"
+        },
+        {
+          "from": 34,
+          "to": 60,
+          "kind": "interpretation"
+        },
+        {
+          "from": 61,
+          "to": 70,
+          "kind": "objection"
+        },
+        {
+          "from": 71,
+          "to": 87,
+          "kind": "reply"
+        },
+        {
+          "from": 88,
+          "to": 106,
+          "kind": "citation"
+        },
+        {
+          "from": 107,
+          "to": 117,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -7789,7 +7946,24 @@ window.GITA_COMMENTARY = {
           "morph": "present passive, 3rd singular"
         }
       ],
-      "english": "{0:Here} {1:also}, {2:which} {4:means of knowledge} there are {3:for the aspirant}, {5:those very} {6:ones} are, {8:for the accomplished one}, {7:his innate} {9:marks}. {10:Hence}, {13:while stating} {12:the marks} {11:of the accomplished one}, He {17:states} {14:just} {15:the inner} {16:means of knowledge} — {18:up to} {19:the chapter's end}. {20:There} {23:He gives} {22:the answer} {21:to the first question} {25:by} {24:'prajahāti'} {26:in two verses}. {30:When} he {31:thoroughly} {32:abandons} {29:the desires} {28:seated} {27:in the mind} — {35:He states} {34:the cause} {33:of the abandonment} {37:by} {36:'ātmani'}: {39:content} {38:in the Self} {39:alone}, {41:in} {40:his own self} {41:alone}, {42:of the nature of supreme bliss}, {44:content} {43:by himself} {45:himself}{46:,} {47:thus} being {48:one who delights in the Self} {49:—} {50:when} he {52:abandons} {51:the cravings for petty objects}, {53:then} {54:by that} {55:mark} {56:the sage} {58:is called} {57:sthita-prajña}."
+      "english": "{0:Here} {1:also}, {2:which} {4:means of knowledge} there are {3:for the aspirant}, {5:those very} {6:ones} are, {8:for the accomplished one}, {7:his innate} {9:marks}. {10:Hence}, {13:while stating} {12:the marks} {11:of the accomplished one}, He {17:states} {14:just} {15:the inner} {16:means of knowledge} — {18:up to} {19:the chapter's end}. {20:There} {23:He gives} {22:the answer} {21:to the first question} {25:by} {24:'prajahāti'} {26:in two verses}. {30:When} he {31:thoroughly} {32:abandons} {29:the desires} {28:seated} {27:in the mind} — {35:He states} {34:the cause} {33:of the abandonment} {37:by} {36:'ātmani'}: {39:content} {38:in the Self} {39:alone}, {41:in} {40:his own self} {41:alone}, {42:of the nature of supreme bliss}, {44:content} {43:by himself} {45:himself}{46:,} {47:thus} being {48:one who delights in the Self} {49:—} {50:when} he {52:abandons} {51:the cravings for petty objects}, {53:then} {54:by that} {55:mark} {56:the sage} {58:is called} {57:sthita-prajña}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 23,
+          "kind": "interpretation"
+        },
+        {
+          "from": 24,
+          "to": 25,
+          "kind": "citation"
+        },
+        {
+          "from": 26,
+          "to": 58,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -10403,7 +10577,64 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "jiva"
         }
       ],
-      "english": "{0:His movement and other activity} is {1:not} {2:preceded by strong deliberate intent}, {3:like the activity of a madman and so on} — {8:intending to show} this {7:by ‘yā niśā’} later, he {10:first} {11:states} {9:the mark} {12:by ‘prajahāti’}. The drift of {21:the question}: {14:being thus} {15:satisfied in supreme bliss}, {16:why} {19:does he} {17:thus} engage in {18:activity} at all? {29:With the intent} that, {23:for one whose Brahman is slightly veiled} {22:by commenced karma}, {26:an activity with little deliberate intent} {25:generally} {27:arises} {24:through latent impressions}, he {30:resolves} it. He {33:abandons} {31:‘almost’} {32:all} — {35:for even} {34:in Śuka and the rest} {36:a little is seen}; since {42:it is said}, {39:‘the knowers}, {40:the seers of truth}, {38:desire} {37:devotion to your feet’}, they {44:desire} {43:that}. {45:When} {49:is seen} {48:insistence} {47:in Indra and the others}, {50:then} {52:their} {53:knowledge} is {51:overcome}. {56:As stated}: {57:‘In men of office}, {59:by reason of their great karmic load}, {60:arising and overcoming} occur {61:in knowledge}; {62:thereby} {64:they differ} {63:from others’}. {66:Hence} {68:by such difference}, {71:if} {70:insistence and the like} {72:there be} {69:in the unqualified}, {74:they} {73:are not} {75:knowers} {77:— that should be known}. {79:Nor} {84:is} {83:the mark} {80:here} being stated {82:of one engaged in} {81:samādhi}, {89:since by ‘he who is unattached everywhere’ attachment is denied}; {91:for} {96:there is} {90:no} {95:encountering of good or ill} {94:for him} {93:engaged in} {92:samādhi} — {97:that being unconscious samādhi}; {98:in the conscious} one {99:though} {100:there is no contradiction}, {101:yet} {103:there is no} {107:rule} {105:that it be} {104:only} there. As the {118:smṛti says}: {108:‘desires and the rest} {109:do not} {110:arise} {112:even} {111:indeed} {113:in the distracted-minded} {114:knowers}, {115:whose impurities are burnt away by knowledge}, {116:through resort to the Lord’}. {121:Desires} are {120:indeed} {119:mind-seated}; {122:hence}, {123:in that} {124:very} mind, {125:when a knowledge opposed to them arises}, {127:their relinquishment} {126:is fitting} {128:of them} — he {130:shows} this {131:by ‘mano-gatān’}. {133:The opposition} {135:is stated}: {136:‘his relish} {137:too} {141:turns away} {140:on seeing} {139:the Supreme’}. {144:And} {145:this} {147:is not to be explained away as fruitless} {146:without that seeing}, {148:because of the distinction among persons}. {149:‘By the Self’} means {150:by the Supreme Self}; {153:established} {151:in the Supreme Self} {152:alone} {154:being}; {157:for one established} {156:in That} {155:called the Self}, {160:contentment} {161:arises} {158:from His grace} {159:alone}, as in the {176:Nārāyaṇa-Rāma-kalpa}: {164:‘having given up} {162:the objects}, {166:for one established} {165:in Rāma}, {167:thereupon} {170:contentment} {169:comes} {168:from the Lord} {171:and not} {172:otherwise} {174:in any way whatsoever’}. {177:Therefore} {179:the self} is {178:not} {180:the individual soul}."
+      "english": "{0:His movement and other activity} is {1:not} {2:preceded by strong deliberate intent}, {3:like the activity of a madman and so on} — {8:intending to show} this {7:by ‘yā niśā’} later, he {10:first} {11:states} {9:the mark} {12:by ‘prajahāti’}. The drift of {21:the question}: {14:being thus} {15:satisfied in supreme bliss}, {16:why} {19:does he} {17:thus} engage in {18:activity} at all? {29:With the intent} that, {23:for one whose Brahman is slightly veiled} {22:by commenced karma}, {26:an activity with little deliberate intent} {25:generally} {27:arises} {24:through latent impressions}, he {30:resolves} it. He {33:abandons} {31:‘almost’} {32:all} — {35:for even} {34:in Śuka and the rest} {36:a little is seen}; since {42:it is said}, {39:‘the knowers}, {40:the seers of truth}, {38:desire} {37:devotion to your feet’}, they {44:desire} {43:that}. {45:When} {49:is seen} {48:insistence} {47:in Indra and the others}, {50:then} {52:their} {53:knowledge} is {51:overcome}. {56:As stated}: {57:‘In men of office}, {59:by reason of their great karmic load}, {60:arising and overcoming} occur {61:in knowledge}; {62:thereby} {64:they differ} {63:from others’}. {66:Hence} {68:by such difference}, {71:if} {70:insistence and the like} {72:there be} {69:in the unqualified}, {74:they} {73:are not} {75:knowers} {77:— that should be known}. {79:Nor} {84:is} {83:the mark} {80:here} being stated {82:of one engaged in} {81:samādhi}, {89:since by ‘he who is unattached everywhere’ attachment is denied}; {91:for} {96:there is} {90:no} {95:encountering of good or ill} {94:for him} {93:engaged in} {92:samādhi} — {97:that being unconscious samādhi}; {98:in the conscious} one {99:though} {100:there is no contradiction}, {101:yet} {103:there is no} {107:rule} {105:that it be} {104:only} there. As the {118:smṛti says}: {108:‘desires and the rest} {109:do not} {110:arise} {112:even} {111:indeed} {113:in the distracted-minded} {114:knowers}, {115:whose impurities are burnt away by knowledge}, {116:through resort to the Lord’}. {121:Desires} are {120:indeed} {119:mind-seated}; {122:hence}, {123:in that} {124:very} mind, {125:when a knowledge opposed to them arises}, {127:their relinquishment} {126:is fitting} {128:of them} — he {130:shows} this {131:by ‘mano-gatān’}. {133:The opposition} {135:is stated}: {136:‘his relish} {137:too} {141:turns away} {140:on seeing} {139:the Supreme’}. {144:And} {145:this} {147:is not to be explained away as fruitless} {146:without that seeing}, {148:because of the distinction among persons}. {149:‘By the Self’} means {150:by the Supreme Self}; {153:established} {151:in the Supreme Self} {152:alone} {154:being}; {157:for one established} {156:in That} {155:called the Self}, {160:contentment} {161:arises} {158:from His grace} {159:alone}, as in the {176:Nārāyaṇa-Rāma-kalpa}: {164:‘having given up} {162:the objects}, {166:for one established} {165:in Rāma}, {167:thereupon} {170:contentment} {169:comes} {168:from the Lord} {171:and not} {172:otherwise} {174:in any way whatsoever’}. {177:Therefore} {179:the self} is {178:not} {180:the individual soul}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 30,
+          "kind": "interpretation"
+        },
+        {
+          "from": 31,
+          "to": 36,
+          "kind": "gloss"
+        },
+        {
+          "from": 37,
+          "to": 44,
+          "kind": "citation"
+        },
+        {
+          "from": 45,
+          "to": 56,
+          "kind": "interpretation"
+        },
+        {
+          "from": 57,
+          "to": 65,
+          "kind": "citation"
+        },
+        {
+          "from": 66,
+          "to": 107,
+          "kind": "interpretation"
+        },
+        {
+          "from": 108,
+          "to": 118,
+          "kind": "citation"
+        },
+        {
+          "from": 119,
+          "to": 148,
+          "kind": "interpretation"
+        },
+        {
+          "from": 149,
+          "to": 161,
+          "kind": "gloss"
+        },
+        {
+          "from": 162,
+          "to": 176,
+          "kind": "citation"
+        },
+        {
+          "from": 177,
+          "to": 180,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.56": [
@@ -11150,7 +11381,14 @@ window.GITA_COMMENTARY = {
           "morph": "present passive, 3rd singular"
         }
       ],
-      "english": "{0:Amid sorrows} — {1:the bodily-personal and the rest} — {2:when they arrive}, he {9:whose} {8:mind} is {3:not} {4:agitated}, {5:not} {6:disturbed} {7:at the onset of pain}, {10:is} {11:this one} {12:‘not-agitated-in-mind’}. {13:Likewise}, {14:amid pleasures} {15:when they arrive}, he {19:whose} {17:thirst}, {18:whose craving}, has {16:departed} — who, {22:unlike} {21:fire} {23:when fuel and the like is added}, does {20:not} {26:swell up} {25:after} {24:pleasures} — {27:he} is {28:‘free of longing’}. {29:‘vīta-rāga-bhaya-krodhaḥ’}: he {38:from whom} {30:passion} {31:and} {32:fear} {33:and} {34:anger} {36:have gone}, {37:are departed} — {39:he} is {40:free of passion, fear and anger}. The {41:steady-minded one}, the {42:sthita-prajña}, the {43:sage}, the {44:renunciant}, is {45:then} {46:so called}."
+      "english": "{0:Amid sorrows} — {1:the bodily-personal and the rest} — {2:when they arrive}, he {9:whose} {8:mind} is {3:not} {4:agitated}, {5:not} {6:disturbed} {7:at the onset of pain}, {10:is} {11:this one} {12:‘not-agitated-in-mind’}. {13:Likewise}, {14:amid pleasures} {15:when they arrive}, he {19:whose} {17:thirst}, {18:whose craving}, has {16:departed} — who, {22:unlike} {21:fire} {23:when fuel and the like is added}, does {20:not} {26:swell up} {25:after} {24:pleasures} — {27:he} is {28:‘free of longing’}. {29:‘vīta-rāga-bhaya-krodhaḥ’}: he {38:from whom} {30:passion} {31:and} {32:fear} {33:and} {34:anger} {36:have gone}, {37:are departed} — {39:he} is {40:free of passion, fear and anger}. The {41:steady-minded one}, the {42:sthita-prajña}, the {43:sage}, the {44:renunciant}, is {45:then} {46:so called}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 46,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -16145,7 +16383,64 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "abhipraya"
         }
       ],
-      "english": "{0:Now} the {3:speaking, sitting and moving} {1:of the risen-up} {2:sthita-prajña}, which are {4:unlike the deluded crowd}, {5:are to be expounded}. {6:There}, to the question {7:‘what} {8:would he speak}{9:’}, {12:He answers} {11:the answer} {10:to this} {13:by ‘duḥkheṣu’} {14:with the words} {15:in two verses}. {16:Sorrows} are {17:threefold}: {19:the personal}, {18:caused by grief, delusion, fever, headache and the like}; {21:the elemental}, {20:brought on by tigers, snakes and so on}; {23:the divine-sent}, {22:caused by excess of wind, excess of rain and the like} — {24:amid those} {25:sorrows}, {26:particular mental modifications of the nature of the heat that is a transformation of rajas}, {27:brought on by commenced evil karma}, he {35:whose} {34:mind} does {28:not} become {29:agitated}, {32:not} {31:distraught} {30:through inability to remove the pain}, {36:is} {37:‘not-agitated-in-mind’}. {39:For} {38:in the undiscerning}, {40:when pain} {41:arrives}, there arises {55:of the nature of remorse}, {56:of the form of delusion}, a {57:tāmasic} {58:mental modification} {59:called ‘agitation’} {60:—}: {42:‘Alas}, {43:sinful} {44:am I}; {45:fie on} {46:me}, {47:the wicked one}, {48:who get such pain}; {49:who} {53:would remove} {50:my} {52:such} {51:pain}{54:?’} {61:Were} {62:this} {64:to arise} {63:at the time of doing the evil deed} {65:it would} {68:be} {67:fruitful}, {66:as obstructing that activity}; but {71:arising} {69:at the time of experiencing the result}, {70:since} {74:an effect} {75:cannot} {76:be} {75:cut off} while {72:its cause} {73:exists}, it is {77:purposeless} — {81:‘why} does {84:pain} {85:arise} {83:in me} {80:even} though {78:its cause} {79:exists}{82:?’} {86:—} and {87:being of the form of a delusion born of non-discrimination}, it does {88:not} {91:occur} {89:in the discerning} {90:sthita-prajña}. {93:For} {92:mere pain} is what {95:is obtained} {94:by commenced karma}, {96:not} {97:but} {99:the delusion} {98:subsequent to it} {100:too}. — {101:If it be objected} that, {102:since it is the cause of further pain}, {103:that} {104:too} {106:should be obtained} {105:by some other commenced karma} {107:—} {108:if so} {109:—} no: {110:in the sthita-prajña}, {111:by the destruction of the ignorance that is the material cause of delusion}, {112:delusion is impossible}, {113:and the commenced karma that would procure the pain born of it is absent}. As {123:will be} {121:elaborated} {122:later}, {114:somehow} {117:even} where {115:the commenced karma sustaining mere bodily existence} is present, it {119:is intelligible} {118:as a sublated continuance} {116:though delusion be absent} {120:—}. {124:Likewise} {125:amid pleasures} — {126:particular mental modifications of the nature of the joy that is a transformation of sattva}, {127:threefold}, {128:brought on by commenced good karma} — he is {129:‘free of longing’}, {130:devoid of longing for future pleasure of the same kind}. {132:For} {131:‘longing’} {133:is}, {134:at the time of experiencing pleasure}, that {142:tāmasic} {143:mental modification}, a {144:mere delusion} {141:of the form of craving} {139:vainly} {140:without} {138:performing} {137:the dharma} that is {136:its cause}, {135:of pleasure of the same kind}. {147:And} {146:that} {150:arises} {148:only in the undiscerning} {149:—}, {152:for} {154:an effect} {155:cannot} {156:come to be} {153:in the absence of its cause}. {157:So} {158:just as} {165:the purposeless craving of the form} {162:‘let} {161:the effect} {163:not occur} {159:though the cause} {160:exists’}, {164:which} {166:is agitation}, does {168:not} {169:occur} {167:in the discerning}, {170:so too} {171:just} {179:the longing}, {178:of the nature of thirst} {177:and of the form} {172:‘let} {174:the effect} {175:occur} though {172:there is no} {173:cause’}, {180:too} {181:is} {182:unintelligible}, {184:since commenced karma only procures mere pleasure} {183:—}. {186:Or}, {187:a mental modification} {185:of the form of elation} {189:is expressed} {188:by the word ‘longing’}; {190:that} {191:too} is {192:just} {193:delusion} {192:—}: {194:‘Ah}, {195:fortunate} {196:am I}, {197:to whom} {198:my} {199:such} {200:pleasure} {201:has come}; {202:who} {203:indeed} {206:in the three worlds} is {205:equal} {204:to me}; {207:by what} {208:or} {209:means} {213:may} {210:my} {211:such} {212:pleasure} {214:not be cut off}{215:?’} — {216:such} a {218:tāmasic} {219:mental modification} {217:of the form of self-puffery}. {220:Hence} {221:it was said} {222:in the Bhāṣya}, {223:‘who}, {225:unlike} {224:fire} {226:at the adding of fuel and the like}, does {229:not} {230:swell up} {229:after} {228:pleasures}, {231:is} {232:free of longing}{233:.’} {234:And He will say} {235::} {236:‘Let him} {237:not exult} {239:on gaining} {238:the pleasant} {240:nor} {241:recoil} {242:on gaining} {243:and} {244:the unpleasant}{245:.’} {246:That} {247:too} does {248:not} {250:occur} {249:in the discerning}, {251:being a delusion}. {252:Likewise} {253:‘free of passion, fear and anger’}: {254:passion} {255:is occasioned by the superimposition of attractiveness}, {257:of the form of coloring} {256:toward objects}, {258:a particular mental modification}, {259:of the nature of intense clinging}. When {261:a destroyer} {260:of the object of passion} {262:presents itself}, {267:that particular mental modification} {266:of the form of abjectness}, {265:in one who thinks} {264:himself} {263:unable to ward it off}, {268:is fear}. {269:Likewise}, when {270:a destroyer of the object of passion} {271:presents itself}, {276:that particular mental modification} {275:of the form of flaring up}, {274:in one who thinks} {273:himself} {272:able to ward it off}, {277:is anger}. {278:All} {279:these}, {280:being of the nature of error}, {281:have departed} {282:from whom} — {283:he} is {284:so named}. {285:Such} a {286:sage}, {287:of meditative nature}, {288:a renunciant}, {290:is called} {289:sthita-prajña}. {291:Such a one of these characteristics}, {292:the steady-minded one}, {294:for the instruction of disciples} {293:by displaying his own experience}, {296:would speak} {295:words of non-agitation, of being free of longing and the rest} — {297:thus} {298:the construction} {299:has been stated}. {300:And thus} {301:—} {302:any other} {303:too} {304:seeker of release} {307:should} {306:not} {305:recoil in sorrow} {309:nor} {310:exult} {308:in pleasure}, {312:and} {313:should become} {311:free of passion, fear and anger} {314:—} {315:this is the import}."
+      "english": "{0:Now} the {3:speaking, sitting and moving} {1:of the risen-up} {2:sthita-prajña}, which are {4:unlike the deluded crowd}, {5:are to be expounded}. {6:There}, to the question {7:‘what} {8:would he speak}{9:’}, {12:He answers} {11:the answer} {10:to this} {13:by ‘duḥkheṣu’} {14:with the words} {15:in two verses}. {16:Sorrows} are {17:threefold}: {19:the personal}, {18:caused by grief, delusion, fever, headache and the like}; {21:the elemental}, {20:brought on by tigers, snakes and so on}; {23:the divine-sent}, {22:caused by excess of wind, excess of rain and the like} — {24:amid those} {25:sorrows}, {26:particular mental modifications of the nature of the heat that is a transformation of rajas}, {27:brought on by commenced evil karma}, he {35:whose} {34:mind} does {28:not} become {29:agitated}, {32:not} {31:distraught} {30:through inability to remove the pain}, {36:is} {37:‘not-agitated-in-mind’}. {39:For} {38:in the undiscerning}, {40:when pain} {41:arrives}, there arises {55:of the nature of remorse}, {56:of the form of delusion}, a {57:tāmasic} {58:mental modification} {59:called ‘agitation’} {60:—}: {42:‘Alas}, {43:sinful} {44:am I}; {45:fie on} {46:me}, {47:the wicked one}, {48:who get such pain}; {49:who} {53:would remove} {50:my} {52:such} {51:pain}{54:?’} {61:Were} {62:this} {64:to arise} {63:at the time of doing the evil deed} {65:it would} {68:be} {67:fruitful}, {66:as obstructing that activity}; but {71:arising} {69:at the time of experiencing the result}, {70:since} {74:an effect} {75:cannot} {76:be} {75:cut off} while {72:its cause} {73:exists}, it is {77:purposeless} — {81:‘why} does {84:pain} {85:arise} {83:in me} {80:even} though {78:its cause} {79:exists}{82:?’} {86:—} and {87:being of the form of a delusion born of non-discrimination}, it does {88:not} {91:occur} {89:in the discerning} {90:sthita-prajña}. {93:For} {92:mere pain} is what {95:is obtained} {94:by commenced karma}, {96:not} {97:but} {99:the delusion} {98:subsequent to it} {100:too}. — {101:If it be objected} that, {102:since it is the cause of further pain}, {103:that} {104:too} {106:should be obtained} {105:by some other commenced karma} {107:—} {108:if so} {109:—} no: {110:in the sthita-prajña}, {111:by the destruction of the ignorance that is the material cause of delusion}, {112:delusion is impossible}, {113:and the commenced karma that would procure the pain born of it is absent}. As {123:will be} {121:elaborated} {122:later}, {114:somehow} {117:even} where {115:the commenced karma sustaining mere bodily existence} is present, it {119:is intelligible} {118:as a sublated continuance} {116:though delusion be absent} {120:—}. {124:Likewise} {125:amid pleasures} — {126:particular mental modifications of the nature of the joy that is a transformation of sattva}, {127:threefold}, {128:brought on by commenced good karma} — he is {129:‘free of longing’}, {130:devoid of longing for future pleasure of the same kind}. {132:For} {131:‘longing’} {133:is}, {134:at the time of experiencing pleasure}, that {142:tāmasic} {143:mental modification}, a {144:mere delusion} {141:of the form of craving} {139:vainly} {140:without} {138:performing} {137:the dharma} that is {136:its cause}, {135:of pleasure of the same kind}. {147:And} {146:that} {150:arises} {148:only in the undiscerning} {149:—}, {152:for} {154:an effect} {155:cannot} {156:come to be} {153:in the absence of its cause}. {157:So} {158:just as} {165:the purposeless craving of the form} {162:‘let} {161:the effect} {163:not occur} {159:though the cause} {160:exists’}, {164:which} {166:is agitation}, does {168:not} {169:occur} {167:in the discerning}, {170:so too} {171:just} {179:the longing}, {178:of the nature of thirst} {177:and of the form} {172:‘let} {174:the effect} {175:occur} though {172:there is no} {173:cause’}, {180:too} {181:is} {182:unintelligible}, {184:since commenced karma only procures mere pleasure} {183:—}. {186:Or}, {187:a mental modification} {185:of the form of elation} {189:is expressed} {188:by the word ‘longing’}; {190:that} {191:too} is {192:just} {193:delusion} {192:—}: {194:‘Ah}, {195:fortunate} {196:am I}, {197:to whom} {198:my} {199:such} {200:pleasure} {201:has come}; {202:who} {203:indeed} {206:in the three worlds} is {205:equal} {204:to me}; {207:by what} {208:or} {209:means} {213:may} {210:my} {211:such} {212:pleasure} {214:not be cut off}{215:?’} — {216:such} a {218:tāmasic} {219:mental modification} {217:of the form of self-puffery}. {220:Hence} {221:it was said} {222:in the Bhāṣya}, {223:‘who}, {225:unlike} {224:fire} {226:at the adding of fuel and the like}, does {229:not} {230:swell up} {229:after} {228:pleasures}, {231:is} {232:free of longing}{233:.’} {234:And He will say} {235::} {236:‘Let him} {237:not exult} {239:on gaining} {238:the pleasant} {240:nor} {241:recoil} {242:on gaining} {243:and} {244:the unpleasant}{245:.’} {246:That} {247:too} does {248:not} {250:occur} {249:in the discerning}, {251:being a delusion}. {252:Likewise} {253:‘free of passion, fear and anger’}: {254:passion} {255:is occasioned by the superimposition of attractiveness}, {257:of the form of coloring} {256:toward objects}, {258:a particular mental modification}, {259:of the nature of intense clinging}. When {261:a destroyer} {260:of the object of passion} {262:presents itself}, {267:that particular mental modification} {266:of the form of abjectness}, {265:in one who thinks} {264:himself} {263:unable to ward it off}, {268:is fear}. {269:Likewise}, when {270:a destroyer of the object of passion} {271:presents itself}, {276:that particular mental modification} {275:of the form of flaring up}, {274:in one who thinks} {273:himself} {272:able to ward it off}, {277:is anger}. {278:All} {279:these}, {280:being of the nature of error}, {281:have departed} {282:from whom} — {283:he} is {284:so named}. {285:Such} a {286:sage}, {287:of meditative nature}, {288:a renunciant}, {290:is called} {289:sthita-prajña}. {291:Such a one of these characteristics}, {292:the steady-minded one}, {294:for the instruction of disciples} {293:by displaying his own experience}, {296:would speak} {295:words of non-agitation, of being free of longing and the rest} — {297:thus} {298:the construction} {299:has been stated}. {300:And thus} {301:—} {302:any other} {303:too} {304:seeker of release} {307:should} {306:not} {305:recoil in sorrow} {309:nor} {310:exult} {308:in pleasure}, {312:and} {313:should become} {311:free of passion, fear and anger} {314:—} {315:this is the import}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 15,
+          "kind": "interpretation"
+        },
+        {
+          "from": 16,
+          "to": 37,
+          "kind": "gloss"
+        },
+        {
+          "from": 38,
+          "to": 100,
+          "kind": "interpretation"
+        },
+        {
+          "from": 101,
+          "to": 108,
+          "kind": "objection"
+        },
+        {
+          "from": 109,
+          "to": 123,
+          "kind": "reply"
+        },
+        {
+          "from": 124,
+          "to": 132,
+          "kind": "gloss"
+        },
+        {
+          "from": 133,
+          "to": 219,
+          "kind": "interpretation"
+        },
+        {
+          "from": 220,
+          "to": 245,
+          "kind": "citation"
+        },
+        {
+          "from": 246,
+          "to": 251,
+          "kind": "interpretation"
+        },
+        {
+          "from": 252,
+          "to": 284,
+          "kind": "gloss"
+        },
+        {
+          "from": 285,
+          "to": 315,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -16589,7 +16884,24 @@ window.GITA_COMMENTARY = {
           "morph": "present passive, 3rd singular"
         }
       ],
-      "english": "{1:Moreover}, {2:'duḥkheṣu'} {3:by}: he {10:whose} {9:mind} is {7:unagitated}, {8:undisturbed}, {6:even} {5:when} {4:sorrows} {5:arrive}{11:,} {16:he} {15:whose} {14:longing} {13:has departed} {12:amid pleasures}. {17:There} {18:the cause}: he {22:from whom} {21:passion, fear and anger} are {19:gone}, {20:departed}. {23:There} {24:'passion'} is {25:fondness}. {26:That} {27:sage} {29:is called} {28:steady-minded}."
+      "english": "{1:Moreover}, {2:'duḥkheṣu'} {3:by}: he {10:whose} {9:mind} is {7:unagitated}, {8:undisturbed}, {6:even} {5:when} {4:sorrows} {5:arrive}{11:,} {16:he} {15:whose} {14:longing} {13:has departed} {12:amid pleasures}. {17:There} {18:the cause}: he {22:from whom} {21:passion, fear and anger} are {19:gone}, {20:departed}. {23:There} {24:'passion'} is {25:fondness}. {26:That} {27:sage} {29:is called} {28:steady-minded}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "gloss"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "citation"
+        },
+        {
+          "from": 4,
+          "to": 29,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -17059,7 +17371,34 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "He {2:makes} {0:that very thing} {2:clear} {3:by the next} {4:three} {5:verses}; and {6:these} {7:same} are {8:the means to knowledge}. {12:As stated}: {14:‘that} {13:which} {18:is what} {20:is the mark} {17:of the knowers} {16:is to be accomplished} {15:by those who would know’}. {22:The superimposition of attractiveness} is {23:passion}; {31:for} {32:it is said}, {24:‘rasa}, {25:rāga}, {26:and likewise} {27:rakti} {28:— the superimposition of attractiveness} {29:is so called’}."
+      "english": "He {2:makes} {0:that very thing} {2:clear} {3:by the next} {4:three} {5:verses}; and {6:these} {7:same} are {8:the means to knowledge}. {12:As stated}: {14:‘that} {13:which} {18:is what} {20:is the mark} {17:of the knowers} {16:is to be accomplished} {15:by those who would know’}. {22:The superimposition of attractiveness} is {23:passion}; {31:for} {32:it is said}, {24:‘rasa}, {25:rāga}, {26:and likewise} {27:rakti} {28:— the superimposition of attractiveness} {29:is so called’}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 11,
+          "kind": "interpretation"
+        },
+        {
+          "from": 12,
+          "to": 21,
+          "kind": "citation"
+        },
+        {
+          "from": 22,
+          "to": 23,
+          "kind": "gloss"
+        },
+        {
+          "from": 24,
+          "to": 30,
+          "kind": "citation"
+        },
+        {
+          "from": 31,
+          "to": 32,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.57": [
@@ -17665,7 +18004,19 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:That} {1:sage} who, {2:everywhere} — {4:even} {3:in body, life and the rest} — is {5:without fondness}, {6:devoid of attachment}, {9:on gaining} {7:this} {8:or that}, {10:good or ill}, {16:on obtaining} {11:this} {12:or that}, {13:auspicious} {14:inauspicious} {15:or}, neither {18:rejoices} {17:nor} {20:reviles} — {22:on gaining} {21:the auspicious} he is {23:not} {24:gladdened}, does {25:not} {26:exult}; {28:and} {29:on gaining} {27:the inauspicious} he does {30:not} {31:revile} — {32:that is} {33:the meaning}. {34:For such a one}, {35:thus} {36:devoid of elation and dejection}, the {38:insight} {37:born of discrimination} {39:stands firm} {40:becomes established}."
+      "english": "{0:That} {1:sage} who, {2:everywhere} — {4:even} {3:in body, life and the rest} — is {5:without fondness}, {6:devoid of attachment}, {9:on gaining} {7:this} {8:or that}, {10:good or ill}, {16:on obtaining} {11:this} {12:or that}, {13:auspicious} {14:inauspicious} {15:or}, neither {18:rejoices} {17:nor} {20:reviles} — {22:on gaining} {21:the auspicious} he is {23:not} {24:gladdened}, does {25:not} {26:exult}; {28:and} {29:on gaining} {27:the inauspicious} he does {30:not} {31:revile} — {32:that is} {33:the meaning}. {34:For such a one}, {35:thus} {36:devoid of elation and dejection}, the {38:insight} {37:born of discrimination} {39:stands firm} {40:becomes established}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 31,
+          "kind": "gloss"
+        },
+        {
+          "from": 32,
+          "to": 40,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -19878,7 +20229,29 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:Moreover}{1:}: {6:the sage} {5:who}, {2:in all bodies}, {3:in life and the rest}, {4:even}, {7:is without fondness} — that ‘fondness’ (sneha), {8:in which} {9:being present}, {11:another's loss or gain} {10:belonging to another} {13:is superimposed} {12:upon oneself} — {14:he}, {15:such}, {16:directed elsewhere}, {17:a synonym of love}, {18:a tāmasic} {19:particular modification}, {20:fondness} — {21:in every way} {22:devoid of it}, he is {23:‘without fondness’}. {26:But} {24:toward the Lord}, {25:the Supreme Self}, he {29:should} {27:indeed} {28:have fondness} {27:in every way}{30:}; for {31:the absence of fondness toward the non-Self} is {32:for that very purpose}, {34:it should be understood}{33:}. On {39:gaining} {36:this auspicious} {38:object}, {37:a cause of pleasure}, {35:procured by this or that commenced karma}, he does {40:not} {41:rejoice} — does not, {42:with elation}, {44:praise} it{43:}. On {48:gaining} {45:the inauspicious}, {46:a cause of pain}, {47:object}, he does {49:not} {50:revile} — does not, {51:with inner spite}, {53:censure} it{52:}. {55:For} {54:in the ignorant}, {56:the auspicious object that is a cause of pleasure}, {58:such as one's own wife}, {57:which} {59:— that} {60:auspicious} {61:object} {62:prompts the praising of its qualities} — {63:a mental modification} {65:of praising}, {64:a deluded rejoicing}; {66:and that} {67:is} {68:tāmasic}, {71:being purposeless} {70:since the praising of its qualities} {69:serves no inducement of another}. {72:Likewise} {78:the inauspicious} {79:object} — {75:another's superior learning and the like}, {74:a cause of pain} {73:by generating envy} {77:toward} {76:him} — {80:prompts a deluded mental modification of censuring it}{81:} {82:a particular mental modification}; {83:that} {84:too} {85:is tāmasic}, {88:being purposeless} {87:since the censure} {86:of it} {87:serves no warding-off}. {89:Those two}, {90:rejoicing and aversion}, {91:being of the nature of error} {92:and tāmasic}, {93:how} could they {97:occur} {96:in the} {94:unerring} {96:sthita-prajña} {95:established in pure sattva}? {98:Therefore}, {99:since there is nothing to perturb him}, for {100:that} {103:sage} {101:who is without fondness}, {102:devoid of elation and dejection}, {104:the insight} {105:whose object is the truth of the Supreme Self} {106:stands firm}, {107:culminating in its fruit} — {108:he} is {109:the sthita-prajña}, {111:that is the sense}{110:}. {112:And} {114:too} {113:any other} {115:seeker of release} {116:everywhere} {118:should be} {117:without fondness}, {120:on gaining} {119:the auspicious} {121:should} {122:not} {121:praise} nor {126:censure} {124:on gaining} {123:the inauspicious}{125:}{127:}, is {128:the import}. {129:And here} {130:} {137:the exclusion is stated}, that {134:he would} {133:not} {134:utter} {132:words} {131:of the form of censure, praise and the like}{135:} {136:the exclusion}."
+      "english": "{0:Moreover}{1:}: {6:the sage} {5:who}, {2:in all bodies}, {3:in life and the rest}, {4:even}, {7:is without fondness} — that ‘fondness’ (sneha), {8:in which} {9:being present}, {11:another's loss or gain} {10:belonging to another} {13:is superimposed} {12:upon oneself} — {14:he}, {15:such}, {16:directed elsewhere}, {17:a synonym of love}, {18:a tāmasic} {19:particular modification}, {20:fondness} — {21:in every way} {22:devoid of it}, he is {23:‘without fondness’}. {26:But} {24:toward the Lord}, {25:the Supreme Self}, he {29:should} {27:indeed} {28:have fondness} {27:in every way}{30:}; for {31:the absence of fondness toward the non-Self} is {32:for that very purpose}, {34:it should be understood}{33:}. On {39:gaining} {36:this auspicious} {38:object}, {37:a cause of pleasure}, {35:procured by this or that commenced karma}, he does {40:not} {41:rejoice} — does not, {42:with elation}, {44:praise} it{43:}. On {48:gaining} {45:the inauspicious}, {46:a cause of pain}, {47:object}, he does {49:not} {50:revile} — does not, {51:with inner spite}, {53:censure} it{52:}. {55:For} {54:in the ignorant}, {56:the auspicious object that is a cause of pleasure}, {58:such as one's own wife}, {57:which} {59:— that} {60:auspicious} {61:object} {62:prompts the praising of its qualities} — {63:a mental modification} {65:of praising}, {64:a deluded rejoicing}; {66:and that} {67:is} {68:tāmasic}, {71:being purposeless} {70:since the praising of its qualities} {69:serves no inducement of another}. {72:Likewise} {78:the inauspicious} {79:object} — {75:another's superior learning and the like}, {74:a cause of pain} {73:by generating envy} {77:toward} {76:him} — {80:prompts a deluded mental modification of censuring it}{81:} {82:a particular mental modification}; {83:that} {84:too} {85:is tāmasic}, {88:being purposeless} {87:since the censure} {86:of it} {87:serves no warding-off}. {89:Those two}, {90:rejoicing and aversion}, {91:being of the nature of error} {92:and tāmasic}, {93:how} could they {97:occur} {96:in the} {94:unerring} {96:sthita-prajña} {95:established in pure sattva}? {98:Therefore}, {99:since there is nothing to perturb him}, for {100:that} {103:sage} {101:who is without fondness}, {102:devoid of elation and dejection}, {104:the insight} {105:whose object is the truth of the Supreme Self} {106:stands firm}, {107:culminating in its fruit} — {108:he} is {109:the sthita-prajña}, {111:that is the sense}{110:}. {112:And} {114:too} {113:any other} {115:seeker of release} {116:everywhere} {118:should be} {117:without fondness}, {120:on gaining} {119:the auspicious} {121:should} {122:not} {121:praise} nor {126:censure} {124:on gaining} {123:the inauspicious}{125:}{127:}, is {128:the import}. {129:And here} {130:} {137:the exclusion is stated}, that {134:he would} {133:not} {134:utter} {132:words} {131:of the form of censure, praise and the like}{135:} {136:the exclusion}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 23,
+          "kind": "gloss"
+        },
+        {
+          "from": 24,
+          "to": 34,
+          "kind": "interpretation"
+        },
+        {
+          "from": 35,
+          "to": 53,
+          "kind": "gloss"
+        },
+        {
+          "from": 54,
+          "to": 137,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -20464,7 +20837,29 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "{2:To} '{0:how} {1:would he speak}' {5:He gives} {4:the answer} {3:of this} {7:by} {6:'yaḥ'}: {8:he who}, {9:everywhere} — {11:even} {10:in sons, friends and the rest} — is {12:without fondness}, {13:devoid of attachment}; {14:and hence}, {15:by a sublated continuance}, {20:on gaining} {16:this} {17:or that} {18:auspicious}, {19:favorable} thing {21:does not} {22:rejoice}, {25:on gaining} {23:the inauspicious}, {24:unfavorable} {26:does not} {27:revile}, {28:does not} {29:censure} — {30:but} {34:speaks} {31:merely} as one {32:indifferent} {33:only}. {35:His} {36:insight} {37:stands firm}{38:,} {39:that is the meaning}."
+      "english": "{2:To} '{0:how} {1:would he speak}' {5:He gives} {4:the answer} {3:of this} {7:by} {6:'yaḥ'}: {8:he who}, {9:everywhere} — {11:even} {10:in sons, friends and the rest} — is {12:without fondness}, {13:devoid of attachment}; {14:and hence}, {15:by a sublated continuance}, {20:on gaining} {16:this} {17:or that} {18:auspicious}, {19:favorable} thing {21:does not} {22:rejoice}, {25:on gaining} {23:the inauspicious}, {24:unfavorable} {26:does not} {27:revile}, {28:does not} {29:censure} — {30:but} {34:speaks} {31:merely} as one {32:indifferent} {33:only}. {35:His} {36:insight} {37:stands firm}{38:,} {39:that is the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 5,
+          "kind": "interpretation"
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "kind": "citation"
+        },
+        {
+          "from": 8,
+          "to": 34,
+          "kind": "gloss"
+        },
+        {
+          "from": 35,
+          "to": 39,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -20598,7 +20993,14 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "dvesa"
         }
       ],
-      "english": "{1:Because he is without fondness} {0:everywhere}, {3:on gaining} {2:good or ill} he {4:neither} {5:rejoices} {6:nor} {7:reviles}."
+      "english": "{1:Because he is without fondness} {0:everywhere}, {3:on gaining} {2:good or ill} he {4:neither} {5:rejoices} {6:nor} {7:reviles}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 7,
+          "kind": "gloss"
+        }
+      ]
     }
   ],
   "2.58": [
@@ -21088,7 +21490,19 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:When} {5:this one} — the {8:ascetic} {7:engaged} {6:in the steadiness of knowledge} — {1:draws in} {2:fully} {3:and draws in}, just as {9:a tortoise} {10:its limbs} {11:—}: {12:just as} {13:a tortoise} {14:out of fear} {17:draws in} {15:its own} {16:limbs} {18:from every side}, {19:on all sides}, {20:so} {21:the one steadfast in knowledge} {25:draws in} {22:the senses} {23:from their objects}, {24:from all the spheres of sense}. {26:‘His} {27:insight} {28:stands firm’} {29:—} {31:the sentence} {30:whose meaning has been stated}."
+      "english": "{0:When} {5:this one} — the {8:ascetic} {7:engaged} {6:in the steadiness of knowledge} — {1:draws in} {2:fully} {3:and draws in}, just as {9:a tortoise} {10:its limbs} {11:—}: {12:just as} {13:a tortoise} {14:out of fear} {17:draws in} {15:its own} {16:limbs} {18:from every side}, {19:on all sides}, {20:so} {21:the one steadfast in knowledge} {25:draws in} {22:the senses} {23:from their objects}, {24:from all the spheres of sense}. {26:‘His} {27:insight} {28:stands firm’} {29:—} {31:the sentence} {30:whose meaning has been stated}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 25,
+          "kind": "gloss"
+        },
+        {
+          "from": 26,
+          "to": 31,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -22084,7 +22498,24 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "visesa"
         }
       ],
-      "english": "{0:Now} {8:He}, {9:in six} {10:verses}, {7:begins} {6:to state} {5:the answer} {4:of the question} {1:‘how} {2:does he sit’} {3:—}. {11:There}, {23:to show} that the {20:sthita-prajña’s} {21:sitting} is {19:precisely} {18:for the sake of samādhi} — having {16:again} {17:drawn in} the {15:senses} {14:scattered} {13:through the rising-up} {12:brought on by commenced karma} — {24:He says} {25:‘yadā’}. {27:When this} {28:risen-up one}, {29:in every way}, {31:from} {30:all} the {31:sense-objects}, {32:sound and the rest}, {33:from all of them} — {34:‘ca’} {35:in the sense of ‘again’} — {36:when} {37:he draws in}, {38:again} {39:withdraws}, {40:contracts}; {41:there} {42:the illustration} is {43:‘a tortoise} {44:its limbs} {45:like’}; {46:then} {47:his} {48:insight} {49:stands firm} {50:—} this {51:is clear}. {52:By the previous two verses} {55:the absence of every tāmasic modification} {54:even} {53:in the state of rising-up} {56:was stated}; {57:now}, {58:by contrast}, {59:in the renewed} {60:state of samādhi} there is {61:the absence of every modification} {62:—} this {63:is the distinction}."
+      "english": "{0:Now} {8:He}, {9:in six} {10:verses}, {7:begins} {6:to state} {5:the answer} {4:of the question} {1:‘how} {2:does he sit’} {3:—}. {11:There}, {23:to show} that the {20:sthita-prajña’s} {21:sitting} is {19:precisely} {18:for the sake of samādhi} — having {16:again} {17:drawn in} the {15:senses} {14:scattered} {13:through the rising-up} {12:brought on by commenced karma} — {24:He says} {25:‘yadā’}. {27:When this} {28:risen-up one}, {29:in every way}, {31:from} {30:all} the {31:sense-objects}, {32:sound and the rest}, {33:from all of them} — {34:‘ca’} {35:in the sense of ‘again’} — {36:when} {37:he draws in}, {38:again} {39:withdraws}, {40:contracts}; {41:there} {42:the illustration} is {43:‘a tortoise} {44:its limbs} {45:like’}; {46:then} {47:his} {48:insight} {49:stands firm} {50:—} this {51:is clear}. {52:By the previous two verses} {55:the absence of every tāmasic modification} {54:even} {53:in the state of rising-up} {56:was stated}; {57:now}, {58:by contrast}, {59:in the renewed} {60:state of samādhi} there is {61:the absence of every modification} {62:—} this {63:is the distinction}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 26,
+          "kind": "interpretation"
+        },
+        {
+          "from": 27,
+          "to": 51,
+          "kind": "gloss"
+        },
+        {
+          "from": 52,
+          "to": 63,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -22479,7 +22910,29 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{1:Moreover}, {2:'yadā'} {3:by}: {4:when} {5:and} {6:this} {7:yogin} {12:draws in} {11:the senses} {8:from the sense-objects}, {9:sound and the rest}, {10:from the presence of them}, {13:from every side} — {14:thus} {15:the one steadfast in knowledge} {19:draws in} {16:the senses} {17:from the sense-objects}, {18:from all the spheres} — {20:his} {21:insight} {22:stands firm}. {23:This is} {25:the sentence} {24:whose meaning has been stated}."
+      "english": "{1:Moreover}, {2:'yadā'} {3:by}: {4:when} {5:and} {6:this} {7:yogin} {12:draws in} {11:the senses} {8:from the sense-objects}, {9:sound and the rest}, {10:from the presence of them}, {13:from every side} — {14:thus} {15:the one steadfast in knowledge} {19:draws in} {16:the senses} {17:from the sense-objects}, {18:from all the spheres} — {20:his} {21:insight} {22:stands firm}. {23:This is} {25:the sentence} {24:whose meaning has been stated}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 1,
+          "kind": "gloss"
+        },
+        {
+          "from": 2,
+          "to": 3,
+          "kind": "citation"
+        },
+        {
+          "from": 4,
+          "to": 22,
+          "kind": "gloss"
+        },
+        {
+          "from": 23,
+          "to": 25,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.59": [
@@ -23484,7 +23937,39 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "abhipraya"
         }
       ],
-      "english": "{0:Although} the {4:senses} — {3:denoted by the word ‘objects’}, that is, {2:indicated by their objects} (the {1:objects}) — {12:turn away}, even for {5:the abstinent} ({6:one whose objects are not being drawn in}), even for {10:a fool} {9:established} {7:in harsh} {8:austerity}, {13:of the embodied one} {14:possessed of a body} — yet {15:‘leaving out the relish’}: {16:relish} is {17:passion} {18:toward objects}, {19:which}; {20:that} {21:leaving aside}. {22:The word ‘rasa’} {24:is well known} {23:in the sense of passion} — {26:‘proceeding} {25:by his own relish’}, {27:‘the relisher}, {28:the connoisseur’}, {29:and} {30:so on are seen}. {31:That} {33:relish} {32:too}, {34:of the nature of coloring}, {35:subtle}, {36:of this} {37:ascetic}, {41:on seeing} — {42:on apprehending} — {38:the Supreme}, {39:the truth of the highest reality}, {40:Brahman}, {47:abiding} {43:as ‘I} {44:verily} {45:That’} {46:—}, {48:turns away}; the {50:cognition of objects} {51:becomes} {49:seedless}, {52:that is} {53:the meaning}. {54:Not}, {55:in the absence of} {56:right vision}, is there {58:the cutting off} {57:of the relish}. {59:Therefore} {62:the steadiness} {61:of the insight} {60:whose nature is right vision} {63:should be made} {64:—} {65:this is the import}."
+      "english": "{0:Although} the {4:senses} — {3:denoted by the word ‘objects’}, that is, {2:indicated by their objects} (the {1:objects}) — {12:turn away}, even for {5:the abstinent} ({6:one whose objects are not being drawn in}), even for {10:a fool} {9:established} {7:in harsh} {8:austerity}, {13:of the embodied one} {14:possessed of a body} — yet {15:‘leaving out the relish’}: {16:relish} is {17:passion} {18:toward objects}, {19:which}; {20:that} {21:leaving aside}. {22:The word ‘rasa’} {24:is well known} {23:in the sense of passion} — {26:‘proceeding} {25:by his own relish’}, {27:‘the relisher}, {28:the connoisseur’}, {29:and} {30:so on are seen}. {31:That} {33:relish} {32:too}, {34:of the nature of coloring}, {35:subtle}, {36:of this} {37:ascetic}, {41:on seeing} — {42:on apprehending} — {38:the Supreme}, {39:the truth of the highest reality}, {40:Brahman}, {47:abiding} {43:as ‘I} {44:verily} {45:That’} {46:—}, {48:turns away}; the {50:cognition of objects} {51:becomes} {49:seedless}, {52:that is} {53:the meaning}. {54:Not}, {55:in the absence of} {56:right vision}, is there {58:the cutting off} {57:of the relish}. {59:Therefore} {62:the steadiness} {61:of the insight} {60:whose nature is right vision} {63:should be made} {64:—} {65:this is the import}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 21,
+          "kind": "gloss"
+        },
+        {
+          "from": 22,
+          "to": 24,
+          "kind": "interpretation"
+        },
+        {
+          "from": 25,
+          "to": 28,
+          "kind": "citation"
+        },
+        {
+          "from": 29,
+          "to": 30,
+          "kind": "interpretation"
+        },
+        {
+          "from": 31,
+          "to": 47,
+          "kind": "gloss"
+        },
+        {
+          "from": 48,
+          "to": 65,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -25065,7 +25550,24 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "abhipraya"
         }
       ],
-      "english": "{0:But surely} {2:even} {1:in a fool}, {3:by reason of disease and the like}, there is {6:a withdrawal} {5:of the senses} {4:from objects} {7:—} {8:that being so}, {9:how} {14:was it said} that {10:his} {11:insight} {12:stands firm} {13:?} {15:To this} {16:He says} {17:‘viṣayāḥ’} {18:—}. {19:Of the abstinent} — one who, {20:by the senses}, {23:does not take in} {22:objects} {21:by the senses} — {24:of the embodied one} {25:possessed of the conceit of the body}, {27:even} {26:of a fool}, {28:a sick man}, {30:or} {29:one of wooden austerity}, {31:the objects}, {32:sound and the rest}, {33:turn away}; {34:but} {35:‘leaving out the relish’} — {36:the thirst that is relish}, {37:that} {38:leaving aside}. {39:For the ignorant} {40:the objects} {41:turn away}, {44:but} {43:the passion} {42:toward them} {45:does not} {46:turn away} {47:—} that is {48:the meaning}. {50:But} {49:for this} {51:sthita-prajña}, who, {54:having seen} {52:the supreme} {53:human goal} and {60:directly realized} {55:‘That} {56:very} thing {57:am I’}, {58:abides}, {62:the relish} {63:too}, {65:even} {64:the passion toward petty pleasure}, {66:turns away}. {67:From the word ‘api’} (too), {68:the objects} {69:also}. {70:And so} {71:it} has {76:been explained} under {72:‘yāvān} {73:artha’} {74:and} {75:so on}. {77:Thus} {78:and} {79:the turning-away of object-along-with-passion} is {80:the mark of the sthita-prajña}, {81:so} {82:there is no} {84:over-extension} {83:to the fool} {85:—} that is {86:the meaning}. {87:Since} {88:without} {90:right vision of the Supreme Self} {89:there is no} {91:rooting-out of object-along-with-passion}, {92:therefore} one should, {97:with great} {98:effort}, {99:bring about} {96:the steadiness} {95:of the insight} {94:that is right vision} and {93:that roots out object-along-with-passion} {100:—} this is {101:the import}."
+      "english": "{0:But surely} {2:even} {1:in a fool}, {3:by reason of disease and the like}, there is {6:a withdrawal} {5:of the senses} {4:from objects} {7:—} {8:that being so}, {9:how} {14:was it said} that {10:his} {11:insight} {12:stands firm} {13:?} {15:To this} {16:He says} {17:‘viṣayāḥ’} {18:—}. {19:Of the abstinent} — one who, {20:by the senses}, {23:does not take in} {22:objects} {21:by the senses} — {24:of the embodied one} {25:possessed of the conceit of the body}, {27:even} {26:of a fool}, {28:a sick man}, {30:or} {29:one of wooden austerity}, {31:the objects}, {32:sound and the rest}, {33:turn away}; {34:but} {35:‘leaving out the relish’} — {36:the thirst that is relish}, {37:that} {38:leaving aside}. {39:For the ignorant} {40:the objects} {41:turn away}, {44:but} {43:the passion} {42:toward them} {45:does not} {46:turn away} {47:—} that is {48:the meaning}. {50:But} {49:for this} {51:sthita-prajña}, who, {54:having seen} {52:the supreme} {53:human goal} and {60:directly realized} {55:‘That} {56:very} thing {57:am I’}, {58:abides}, {62:the relish} {63:too}, {65:even} {64:the passion toward petty pleasure}, {66:turns away}. {67:From the word ‘api’} (too), {68:the objects} {69:also}. {70:And so} {71:it} has {76:been explained} under {72:‘yāvān} {73:artha’} {74:and} {75:so on}. {77:Thus} {78:and} {79:the turning-away of object-along-with-passion} is {80:the mark of the sthita-prajña}, {81:so} {82:there is no} {84:over-extension} {83:to the fool} {85:—} that is {86:the meaning}. {87:Since} {88:without} {90:right vision of the Supreme Self} {89:there is no} {91:rooting-out of object-along-with-passion}, {92:therefore} one should, {97:with great} {98:effort}, {99:bring about} {96:the steadiness} {95:of the insight} {94:that is right vision} and {93:that roots out object-along-with-passion} {100:—} this is {101:the import}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 18,
+          "kind": "objection"
+        },
+        {
+          "from": 19,
+          "to": 38,
+          "kind": "gloss"
+        },
+        {
+          "from": 39,
+          "to": 101,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -25943,7 +26445,44 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:But surely} {1:the non-}{4:engagement} {2:of the senses} {3:with objects} {8:cannot} {7:be} {6:the mark} {5:of the sthita-prajña}, {15:since there is no difference} {14:in the non-engagement} {13:with objects} {9:of the dull}, {10:the sick}, {12:and} {11:those given to fasting}. {16:To that} {17:He says} {18:'viṣayāḥ'} {19:by}. {22:The taking-in}, {23:the grasping}, {21:of objects} {20:by the senses} is {24:'āhāra' (intake)}. {25:Of the abstinent}, {28:who does not do} {27:the grasping of objects} {26:by the senses}, {29:of the embodied one} {30:possessed of body-conceit}, {31:of the ignorant}, {32:passion}, {33:craving} — {34:leaving that out}; {35:his craving} {36:does not} {37:turn away}, {38:that is} {39:the meaning}. {40:Or}: {41:of the abstinent}, {42:one given to fasting}, {43:the objects} {44:mostly} {45:turn away}, {47:because, scorched by hunger, there is no expectation of sound, touch and the rest}{46:,} {48:but} {49:'leaving out the relish'}, {50:the expectation of relish} {51:but} {52:does not} {53:turn away} — {54:that is} {55:the meaning}. {56:The rest} {57:is the same}."
+      "english": "{0:But surely} {1:the non-}{4:engagement} {2:of the senses} {3:with objects} {8:cannot} {7:be} {6:the mark} {5:of the sthita-prajña}, {15:since there is no difference} {14:in the non-engagement} {13:with objects} {9:of the dull}, {10:the sick}, {12:and} {11:those given to fasting}. {16:To that} {17:He says} {18:'viṣayāḥ'} {19:by}. {22:The taking-in}, {23:the grasping}, {21:of objects} {20:by the senses} is {24:'āhāra' (intake)}. {25:Of the abstinent}, {28:who does not do} {27:the grasping of objects} {26:by the senses}, {29:of the embodied one} {30:possessed of body-conceit}, {31:of the ignorant}, {32:passion}, {33:craving} — {34:leaving that out}; {35:his craving} {36:does not} {37:turn away}, {38:that is} {39:the meaning}. {40:Or}: {41:of the abstinent}, {42:one given to fasting}, {43:the objects} {44:mostly} {45:turn away}, {47:because, scorched by hunger, there is no expectation of sound, touch and the rest}{46:,} {48:but} {49:'leaving out the relish'}, {50:the expectation of relish} {51:but} {52:does not} {53:turn away} — {54:that is} {55:the meaning}. {56:The rest} {57:is the same}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 15,
+          "kind": "objection"
+        },
+        {
+          "from": 16,
+          "to": 17,
+          "kind": "interpretation"
+        },
+        {
+          "from": 18,
+          "to": 19,
+          "kind": "citation"
+        },
+        {
+          "from": 20,
+          "to": 37,
+          "kind": "gloss"
+        },
+        {
+          "from": 38,
+          "to": 39,
+          "kind": "interpretation"
+        },
+        {
+          "from": 40,
+          "to": 53,
+          "kind": "gloss"
+        },
+        {
+          "from": 54,
+          "to": 57,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -26615,7 +27154,24 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "He {8:states} {9:by the following verses} that {2:this mark}, {3:knowledge}, {0:does not} {6:arise} {5:even} {4:without effort}. {10:By abstinence} {13:there comes about} {12:merely} {11:the absence of capacity to enjoy objects}, {15:or} {14:the absence of craving for the remaining objects}; {16:the craving for relish and the rest} {17:does not} {18:turn away}. {19:That} {20:however} {23:turns away} {22:only} {21:from direct knowledge} — he {25:says} this {26:by ‘viṣayāḥ’}. {41:As stated} {42:in the Bhāgavata}: {32:‘the thoughtful} {29:conquer} {28:the senses} {30:quickly} {31:by abstinence}; {34:but} {33:excepting} {35:the tongue}, {38:but} {37:in that taste} {36:it} {39:grows’}. {45:And} {44:because the word ‘rasa’ denotes passion} {43:—}."
+      "english": "He {8:states} {9:by the following verses} that {2:this mark}, {3:knowledge}, {0:does not} {6:arise} {5:even} {4:without effort}. {10:By abstinence} {13:there comes about} {12:merely} {11:the absence of capacity to enjoy objects}, {15:or} {14:the absence of craving for the remaining objects}; {16:the craving for relish and the rest} {17:does not} {18:turn away}. {19:That} {20:however} {23:turns away} {22:only} {21:from direct knowledge} — he {25:says} this {26:by ‘viṣayāḥ’}. {41:As stated} {42:in the Bhāgavata}: {32:‘the thoughtful} {29:conquer} {28:the senses} {30:quickly} {31:by abstinence}; {34:but} {33:excepting} {35:the tongue}, {38:but} {37:in that taste} {36:it} {39:grows’}. {45:And} {44:because the word ‘rasa’ denotes passion} {43:—}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 27,
+          "kind": "interpretation"
+        },
+        {
+          "from": 28,
+          "to": 40,
+          "kind": "citation"
+        },
+        {
+          "from": 41,
+          "to": 45,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.60": [
@@ -27085,7 +27641,24 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "manas"
         }
       ],
-      "english": "{0:Of one striving} — {1:making effort} — {3:‘hi’ (for)}, {4:since}; {5:O son of Kuntī}, {6:of a man}, {9:even} {7:of one who is wise}, {8:discerning} — {12:the construction} joining {11:across the intervening words}. {13:The senses}, {14:‘pramāthīni’}, {15:of churning nature} — {17:for} they {19:agitate}, {20:throw into turmoil}, {16:a man turned toward objects}, {21:and having thrown him into turmoil} {23:they carry off} {24:by force}, {25:forcibly}, {26:openly} {27:indeed}, {30:the mind} {28:of one who sees}, {29:the mind endowed with discriminative knowledge}."
+      "english": "{0:Of one striving} — {1:making effort} — {3:‘hi’ (for)}, {4:since}; {5:O son of Kuntī}, {6:of a man}, {9:even} {7:of one who is wise}, {8:discerning} — {12:the construction} joining {11:across the intervening words}. {13:The senses}, {14:‘pramāthīni’}, {15:of churning nature} — {17:for} they {19:agitate}, {20:throw into turmoil}, {16:a man turned toward objects}, {21:and having thrown him into turmoil} {23:they carry off} {24:by force}, {25:forcibly}, {26:openly} {27:indeed}, {30:the mind} {28:of one who sees}, {29:the mind endowed with discriminative knowledge}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 9,
+          "kind": "gloss"
+        },
+        {
+          "from": 10,
+          "to": 12,
+          "kind": "interpretation"
+        },
+        {
+          "from": 13,
+          "to": 30,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -28832,7 +29405,34 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "{0:There}, {1:for the firmness of insight}, {2:restraint of the outer senses} and {3:restraint of the mind} {4:and} are {5:the special} {6:cause}, since {7:in the absence of both} {8:the destruction of insight is seen} {9:—} so, {10:to state} {12:the first} {13:fault} {11:in the absence of restraint of the outer senses}, {14:He says} {15:‘yatataḥ’} {16:—}. {17:O} {18:son of Kuntī}! {19:Of a man striving} — {24:making} {23:the effort}, {22:of the form of seeing} {20:again} {21:and again} the fault in objects — {25:even} {36:of one exceedingly discerning}, {44:the senses} {45:carry off}, {47:bring} {46:to modification}, {39:the mind}, {43:even when} it has been {42:made} {41:unmodified} {40:for a mere instant}. ({26:cakṣ}, {27:by the making of the ṅ-marker}, {28:as anudātta-marked}, {29:has the middle voice non-obligatory}; {31:thus} {32:from this indication} {33:the active voice} {34:is not inconsistent}.) {48:But surely}, {50:when discrimination}, {49:contrary} as it is, {51:is present}, {52:whence} {53:the attaining of modification}? {54:To that} {55:He says} {56:‘pramāthīni’}, {57:of churning nature}, {58:by reason of exceeding strength} {59:able to crush discrimination}. {60:Hence} {61:‘by force’}, {62:forcibly}, {63:by violence}, {64:even while he is seeing} {65:—} {66:even while the discerning man}, {67:the master}, {68:discrimination} {69:and} {70:the protector}, {71:are present}, {74:the senses}, {72:by being all-churning} {73:indeed}, {81:carry off} {77:the mind} {76:that has entered} {75:the discrimination-born insight}, {79:dislodging} it {78:thence} and {80:making it possessed of their own object} {82:—} that is {83:the meaning}. {84:The word ‘hi’} {86:illumines} {85:the well-known}; {88:for} {89:this} {90:matter} is {87:well known} {91:in the world}: {92:just as} {93:churning} {94:robbers}, {95:forcibly} {96:indeed} {100:overpowering} {97:the rich man} {98:and the wealth-guardian} {99:and}, {105:carry off} {104:the wealth} {102:while} {101:those two} look on {103:even}, {106:so} {107:the senses} {108:too}, {109:in the proximity of objects}, {111:carry off} {110:the mind} {112:—}."
+      "english": "{0:There}, {1:for the firmness of insight}, {2:restraint of the outer senses} and {3:restraint of the mind} {4:and} are {5:the special} {6:cause}, since {7:in the absence of both} {8:the destruction of insight is seen} {9:—} so, {10:to state} {12:the first} {13:fault} {11:in the absence of restraint of the outer senses}, {14:He says} {15:‘yatataḥ’} {16:—}. {17:O} {18:son of Kuntī}! {19:Of a man striving} — {24:making} {23:the effort}, {22:of the form of seeing} {20:again} {21:and again} the fault in objects — {25:even} {36:of one exceedingly discerning}, {44:the senses} {45:carry off}, {47:bring} {46:to modification}, {39:the mind}, {43:even when} it has been {42:made} {41:unmodified} {40:for a mere instant}. ({26:cakṣ}, {27:by the making of the ṅ-marker}, {28:as anudātta-marked}, {29:has the middle voice non-obligatory}; {31:thus} {32:from this indication} {33:the active voice} {34:is not inconsistent}.) {48:But surely}, {50:when discrimination}, {49:contrary} as it is, {51:is present}, {52:whence} {53:the attaining of modification}? {54:To that} {55:He says} {56:‘pramāthīni’}, {57:of churning nature}, {58:by reason of exceeding strength} {59:able to crush discrimination}. {60:Hence} {61:‘by force’}, {62:forcibly}, {63:by violence}, {64:even while he is seeing} {65:—} {66:even while the discerning man}, {67:the master}, {68:discrimination} {69:and} {70:the protector}, {71:are present}, {74:the senses}, {72:by being all-churning} {73:indeed}, {81:carry off} {77:the mind} {76:that has entered} {75:the discrimination-born insight}, {79:dislodging} it {78:thence} and {80:making it possessed of their own object} {82:—} that is {83:the meaning}. {84:The word ‘hi’} {86:illumines} {85:the well-known}; {88:for} {89:this} {90:matter} is {87:well known} {91:in the world}: {92:just as} {93:churning} {94:robbers}, {95:forcibly} {96:indeed} {100:overpowering} {97:the rich man} {98:and the wealth-guardian} {99:and}, {105:carry off} {104:the wealth} {102:while} {101:those two} look on {103:even}, {106:so} {107:the senses} {108:too}, {109:in the proximity of objects}, {111:carry off} {110:the mind} {112:—}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 16,
+          "kind": "interpretation"
+        },
+        {
+          "from": 17,
+          "to": 47,
+          "kind": "gloss"
+        },
+        {
+          "from": 48,
+          "to": 53,
+          "kind": "objection"
+        },
+        {
+          "from": 54,
+          "to": 59,
+          "kind": "reply"
+        },
+        {
+          "from": 60,
+          "to": 112,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -29339,7 +29939,29 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "{1:Without} {0:restraint of the senses}, {2:the state of settled wisdom} {3:does not} {4:come about}; {5:hence} {6:in the state of aspirantship} {10:a great effort is to be made} {8:great} {9:effort} {7:there} — {11:so} {12:He says} {13:'yatataḥ {14:hy} {15:api'} {16:by} {17:in two verses}. {18:Of one striving}, {19:exerting himself for the sake of liberation} {20:—}; {23:even} {21:of one discerning}, {22:of insight}; {25:the senses} {28:carry off} {24:the mind} {26:by force}, {27:forcibly}. {29:Since} they are {30:'pramāthīni'}, {31:of churning nature}, {32:agitators} — {33:that is} {34:the meaning}."
+      "english": "{1:Without} {0:restraint of the senses}, {2:the state of settled wisdom} {3:does not} {4:come about}; {5:hence} {6:in the state of aspirantship} {10:a great effort is to be made} {8:great} {9:effort} {7:there} — {11:so} {12:He says} {13:'yatataḥ {14:hy} {15:api'} {16:by} {17:in two verses}. {18:Of one striving}, {19:exerting himself for the sake of liberation} {20:—}; {23:even} {21:of one discerning}, {22:of insight}; {25:the senses} {28:carry off} {24:the mind} {26:by force}, {27:forcibly}. {29:Since} they are {30:'pramāthīni'}, {31:of churning nature}, {32:agitators} — {33:that is} {34:the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 12,
+          "kind": "interpretation"
+        },
+        {
+          "from": 13,
+          "to": 16,
+          "kind": "citation"
+        },
+        {
+          "from": 17,
+          "to": 28,
+          "kind": "gloss"
+        },
+        {
+          "from": 29,
+          "to": 34,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -29573,7 +30195,19 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "purusa"
         }
       ],
-      "english": "{1:Even} {0:of a knower lacking direct knowledge}, {3:even} {2:of one making ordinary effort}, {6:the senses} {5:carry off} {4:the mind}; {7:of a man}, {8:one possessed of body-conceit}. {9:What} is {10:the fault} {11:therefrom}? {12:They are of churning nature}, {13:of the nature to churn} {14:the man}."
+      "english": "{1:Even} {0:of a knower lacking direct knowledge}, {3:even} {2:of one making ordinary effort}, {6:the senses} {5:carry off} {4:the mind}; {7:of a man}, {8:one possessed of body-conceit}. {9:What} is {10:the fault} {11:therefrom}? {12:They are of churning nature}, {13:of the nature to churn} {14:the man}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 11,
+          "kind": "interpretation"
+        },
+        {
+          "from": 12,
+          "to": 14,
+          "kind": "gloss"
+        }
+      ]
     }
   ],
   "2.61": [
@@ -30119,7 +30753,24 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "pratistha"
         }
       ],
-      "english": "{2:Restraining} {1:all} {0:of them}, having made {3:the restraint}, {4:the subjugation}, {6:‘absorbed’}, {7:composed}, {8:being} {9:let him sit} {10:‘intent on Me’} — {11:‘I}, {12:Vāsudeva}, {13:the inmost Self of all}, {14:am the Supreme} {15:of him}: {16:he} is {17:‘intent on Me’}, {20:‘I am} {18:no} {19:other} {21:than That}’ — {23:so let him sit}, {24–25:that is the meaning}. {26:Thus} for such {27:a seated} {28:ascetic}, in whose {29:control} {30:indeed} {32:the senses} {33:stand} {34:by force of practice}, {35:his} {36:insight} {37:stands firm}."
+      "english": "{2:Restraining} {1:all} {0:of them}, having made {3:the restraint}, {4:the subjugation}, {6:‘absorbed’}, {7:composed}, {8:being} {9:let him sit} {10:‘intent on Me’} — {11:‘I}, {12:Vāsudeva}, {13:the inmost Self of all}, {14:am the Supreme} {15:of him}: {16:he} is {17:‘intent on Me’}, {20:‘I am} {18:no} {19:other} {21:than That}’ — {23:so let him sit}, {24–25:that is the meaning}. {26:Thus} for such {27:a seated} {28:ascetic}, in whose {29:control} {30:indeed} {32:the senses} {33:stand} {34:by force of practice}, {35:his} {36:insight} {37:stands firm}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 21,
+          "kind": "gloss"
+        },
+        {
+          "from": 22,
+          "to": 25,
+          "kind": "interpretation"
+        },
+        {
+          "from": 26,
+          "to": 37,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -31880,7 +32531,39 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:If it be so}, {1:then} {2:there} {3:what} is {4:the remedy}? {6:To that} {7:He says} {8:‘tāni’} {9:—}. {14:Restraining}, {15:mastering}, {10:all those} {12:—} {11:senses}, {13:the instruments of knowledge and action}, {16:‘absorbed’}, {17:composed}, {18:of restrained mind}, {19:being}, {20:let him sit}, {22:abide} {21:free of activity}. {24:How} is {25:the self-mastery} {23:of the churning ones} (to be had) {26:?} {27:if} — {28:to that} {29:He says} {30:‘mat-paraḥ’}: {32:I}, {33:the Self of all}, {34:Vāsudeva} {35:alone}, am {36:the Supreme}, {37:the most excellent}, {38:the one to be sought}, {39:of whom} — {40:he} is {41:‘intent on Me’}, {42:the one-pointed devotee of Mine}, {43:that is} {44:the meaning}. {45:As} {46:and} {47:stated}, {48:‘For} {49:the devotees of Vāsudeva} there is {52:never} {50:anything inauspicious} {51:found}.’ {54:Just as} {55:for} {56:in the world}, {60:robbers}, {59:having taken refuge with} {57:a strong} {58:king}, {61:are subdued} — {66:and} {65:knowing} {63:‘this one} is {62:sheltered by the king’} {64:—} {67:they themselves} {68:very} {70:become} {69:subject to him} — {71:so} {72:too}, {75:having taken refuge with} {73:the Lord}, {74:the inner controller of all}, {76:by His} {77:very} power are {78:the wicked} {79:senses} {80:to be subdued}; {81:and} {82:again}, {86:thinking} {84:‘this one} is {83:sheltered by the Lord’} {85:—}, {87:they} {90:become} {88:subject to him} {89:indeed} {91:—} this is {92:the import}. {93:And how} {94:—} {96:the great power} {95:of devotion to the Lord} {97:—} {98:at length} {99:later} {100:we will explain}. {103:He states} {102:the fruit} {101:of the senses’ mastery} by {104:‘vaśe} {105:hi’} {106:—} {107:clear}. {108:Thus}, {109:by this}, {111:being} {110:with senses mastered} {112:seated}, {116:—} {118:the answer} {117:of the question} {114:‘how} {115:does he sit’} {113:—} {119:stated} {120:comes to be}."
+      "english": "{0:If it be so}, {1:then} {2:there} {3:what} is {4:the remedy}? {6:To that} {7:He says} {8:‘tāni’} {9:—}. {14:Restraining}, {15:mastering}, {10:all those} {12:—} {11:senses}, {13:the instruments of knowledge and action}, {16:‘absorbed’}, {17:composed}, {18:of restrained mind}, {19:being}, {20:let him sit}, {22:abide} {21:free of activity}. {24:How} is {25:the self-mastery} {23:of the churning ones} (to be had) {26:?} {27:if} — {28:to that} {29:He says} {30:‘mat-paraḥ’}: {32:I}, {33:the Self of all}, {34:Vāsudeva} {35:alone}, am {36:the Supreme}, {37:the most excellent}, {38:the one to be sought}, {39:of whom} — {40:he} is {41:‘intent on Me’}, {42:the one-pointed devotee of Mine}, {43:that is} {44:the meaning}. {45:As} {46:and} {47:stated}, {48:‘For} {49:the devotees of Vāsudeva} there is {52:never} {50:anything inauspicious} {51:found}.’ {54:Just as} {55:for} {56:in the world}, {60:robbers}, {59:having taken refuge with} {57:a strong} {58:king}, {61:are subdued} — {66:and} {65:knowing} {63:‘this one} is {62:sheltered by the king’} {64:—} {67:they themselves} {68:very} {70:become} {69:subject to him} — {71:so} {72:too}, {75:having taken refuge with} {73:the Lord}, {74:the inner controller of all}, {76:by His} {77:very} power are {78:the wicked} {79:senses} {80:to be subdued}; {81:and} {82:again}, {86:thinking} {84:‘this one} is {83:sheltered by the Lord’} {85:—}, {87:they} {90:become} {88:subject to him} {89:indeed} {91:—} this is {92:the import}. {93:And how} {94:—} {96:the great power} {95:of devotion to the Lord} {97:—} {98:at length} {99:later} {100:we will explain}. {103:He states} {102:the fruit} {101:of the senses’ mastery} by {104:‘vaśe} {105:hi’} {106:—} {107:clear}. {108:Thus}, {109:by this}, {111:being} {110:with senses mastered} {112:seated}, {116:—} {118:the answer} {117:of the question} {114:‘how} {115:does he sit’} {113:—} {119:stated} {120:comes to be}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 9,
+          "kind": "interpretation"
+        },
+        {
+          "from": 10,
+          "to": 22,
+          "kind": "gloss"
+        },
+        {
+          "from": 23,
+          "to": 27,
+          "kind": "objection"
+        },
+        {
+          "from": 28,
+          "to": 44,
+          "kind": "reply"
+        },
+        {
+          "from": 45,
+          "to": 53,
+          "kind": "citation"
+        },
+        {
+          "from": 54,
+          "to": 120,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -32262,7 +32945,29 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "{0:Since} {1:it is thus}, {2:therefore} {3:'tāni'} {4:by}. {5:The composed} {6:yogin}, {9:restraining} {7:those} {8:senses}, {10:'intent on Me'}, {11:being}, {12:let him sit}; {13:he in whose} {14:control} {16:the senses} are {15:obedient}. {18:And} {17:by this} the answer to the question {19:'how} {20:does he sit'} {21:—} {22:—} {24:being} {23:seated with senses mastered}, {25:let him sit}{26:.'}"
+      "english": "{0:Since} {1:it is thus}, {2:therefore} {3:'tāni'} {4:by}. {5:The composed} {6:yogin}, {9:restraining} {7:those} {8:senses}, {10:'intent on Me'}, {11:being}, {12:let him sit}; {13:he in whose} {14:control} {16:the senses} are {15:obedient}. {18:And} {17:by this} the answer to the question {19:'how} {20:does he sit'} {21:—} {22:—} {24:being} {23:seated with senses mastered}, {25:let him sit}{26:.'}",
+      "segments": [
+        {
+          "from": 0,
+          "to": 2,
+          "kind": "interpretation"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "citation"
+        },
+        {
+          "from": 5,
+          "to": 16,
+          "kind": "gloss"
+        },
+        {
+          "from": 17,
+          "to": 26,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -32698,7 +33403,24 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "{0:‘Then} {2:it is the others} {3:that are} impossible {1:by want of strength’} — {5:to that} he {6:says} {7:‘tāni’}: {10:they are masterable} {9:by one of much effort}; {11:hence} {13:let him make} {12:the effort}, {15:that is the intent}. {16:‘Absorbed’} — {18:with the mind joined} {17:to Me}. {19:‘I} {20:alone} {21:am the Supreme}, {23:the most excellent} {22:of all}, {24:of whom} {25:he} is {26:‘intent on Me’}. He {28:states} {27:the fruit} {29:by ‘vaśe} {30:hi’}."
+      "english": "{0:‘Then} {2:it is the others} {3:that are} impossible {1:by want of strength’} — {5:to that} he {6:says} {7:‘tāni’}: {10:they are masterable} {9:by one of much effort}; {11:hence} {13:let him make} {12:the effort}, {15:that is the intent}. {16:‘Absorbed’} — {18:with the mind joined} {17:to Me}. {19:‘I} {20:alone} {21:am the Supreme}, {23:the most excellent} {22:of all}, {24:of whom} {25:he} is {26:‘intent on Me’}. He {28:states} {27:the fruit} {29:by ‘vaśe} {30:hi’}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 15,
+          "kind": "interpretation"
+        },
+        {
+          "from": 16,
+          "to": 26,
+          "kind": "gloss"
+        },
+        {
+          "from": 27,
+          "to": 31,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.62-63": [
@@ -33957,7 +34679,29 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "{0:Of a man meditating on} — {1:pondering} — {2:objects}, {5:dwelling on} {4:the particular objects} {3:sound and the rest}, {8:‘attachment’}, {9:clinging}, {10:fondness} {11:toward those} {12:objects} {13:arises}, {14:comes to be}. {15:From attachment}, {16:from fondness}, {17:is born}, {18:arises}, {19:‘desire’}, {20:thirst}. {21:From desire}, {23:when thwarted} {22:somewhere}, {24:anger} {25:arises}. {26:From anger} {27:comes} {28:delusion}, {29:non-discrimination} {30:as to what should and should not be done}; {32:for} {31:the angry man}, {33:become deluded} {34:being}, {37:reviles} {36:even} {35:his elder}. {38:From delusion}, {39:‘confusion of memory’}: {41:of the memory} {40:generated by the impressions laid down by the teaching of scripture and teacher}, {42:there would be} {43:confusion}, {44:a lapse} — {45:when the occasion for its arising is present}, {46:its non-arising}. {47:Then} {48:from the lapse of memory}, {49:‘ruin of the understanding’}: {51:the unfitness for discriminating what should and should not be done} {52:of the inner organ}, {53:the understanding}, {54:the ruin} {55:is called}. {57:From the ruin} {56:of the understanding} {58:he perishes}: {61:for} {62:a man} is a man {59:only so long} {60:as} {63:as long as} {65:his} {64:inner organ} {66:is fit to discriminate what should and should not be done}; {67:when it becomes unfit} {70:the man} {68:is as good as} {69:destroyed} {71:becomes}. {72:Hence}, {76:from the ruin} {73:of his} {74:inner organ}, {75:the understanding}, {77:he perishes}, {78:becomes unfit for the human goal} {79:becomes} — {80–81:that is the meaning}."
+      "english": "{0:Of a man meditating on} — {1:pondering} — {2:objects}, {5:dwelling on} {4:the particular objects} {3:sound and the rest}, {8:‘attachment’}, {9:clinging}, {10:fondness} {11:toward those} {12:objects} {13:arises}, {14:comes to be}. {15:From attachment}, {16:from fondness}, {17:is born}, {18:arises}, {19:‘desire’}, {20:thirst}. {21:From desire}, {23:when thwarted} {22:somewhere}, {24:anger} {25:arises}. {26:From anger} {27:comes} {28:delusion}, {29:non-discrimination} {30:as to what should and should not be done}; {32:for} {31:the angry man}, {33:become deluded} {34:being}, {37:reviles} {36:even} {35:his elder}. {38:From delusion}, {39:‘confusion of memory’}: {41:of the memory} {40:generated by the impressions laid down by the teaching of scripture and teacher}, {42:there would be} {43:confusion}, {44:a lapse} — {45:when the occasion for its arising is present}, {46:its non-arising}. {47:Then} {48:from the lapse of memory}, {49:‘ruin of the understanding’}: {51:the unfitness for discriminating what should and should not be done} {52:of the inner organ}, {53:the understanding}, {54:the ruin} {55:is called}. {57:From the ruin} {56:of the understanding} {58:he perishes}: {61:for} {62:a man} is a man {59:only so long} {60:as} {63:as long as} {65:his} {64:inner organ} {66:is fit to discriminate what should and should not be done}; {67:when it becomes unfit} {70:the man} {68:is as good as} {69:destroyed} {71:becomes}. {72:Hence}, {76:from the ruin} {73:of his} {74:inner organ}, {75:the understanding}, {77:he perishes}, {78:becomes unfit for the human goal} {79:becomes} — {80–81:that is the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 50,
+          "kind": "gloss"
+        },
+        {
+          "from": 51,
+          "to": 55,
+          "kind": "interpretation"
+        },
+        {
+          "from": 56,
+          "to": 58,
+          "kind": "gloss"
+        },
+        {
+          "from": 59,
+          "to": 81,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -35802,7 +36546,19 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "{1:Even} {0:of one whose outer senses are restrained}, but {4:who meditates on} — {6:again} {7:and again} {8:ponders} {5:in the mind} — {2:the objects sound and the rest}, {3:objects}, {10:toward those} {11:objects} {12:‘attachment’}, {13:clinging}, of the form {17:‘these} {16:are an exceeding cause of pleasure} {15:exceedingly} {14:for me’}, {18:—} {19:thus} {21:a particular fondness} {20:marked by the superimposition of attractiveness}, {22:arises}. {23:From attachment}, {24:marked by the cognition that they are a cause of pleasure}, {25:is born} {26:‘desire’}, {31:a particular thirst}, {27:‘mine} {28:let these} {29:be’} {30:—}. {32:From that} {33:desire}, {35:when thwarted} {34:somewhere}, {37:anger}, {38:of the nature of flaring up}, {36:directed at that which thwarts it}, {39:arises}. {40:From anger} {41:comes} {42:delusion}, {43:of the form of the absence of discrimination of what should and should not be done}. {44:From delusion}, {45:‘confusion of memory’}: {46:of the memory}, {47:the bringing-to-mind of the meaning taught by scripture and teacher}, there is {48:confusion}, {49:a wandering}, {50:a lapse}. {51:And from that} {52:—} {53:lapse of memory}, ‘ruin of the understanding’: {54:of the understanding}, {55:the mental modification of the form of unity (with the Self)}, there is {56:ruin} — {57:by the fault of the accumulation of contrary conviction} {58:it is obstructed}, so {59:it does not arise}, {61:or}, {60:having arisen}, {63:it dissolves} {62:by being unfit for its fruit}. {64:From the ruin of the understanding} {65:‘he perishes’}: {70:by the loss} {66:of that} {67:and} {68:fruitful} {69:understanding} {71:he perishes}, {73:becomes} {72:unfit for every human goal}. {75:For} {74:he who} {77:has become} {76:unfit for the human goal} {78:is}, {82:in the world}, {83:spoken of} as {79:‘dead’} {80:verily} {81:—}; {84:hence} {85:‘he perishes’} {87:is said} {86:—}. {88:Since} {89:thus}, {91:when restraint} {90:of the mind} is absent, there is, {93:even} {92:for one whose outer senses are restrained}, {94:the attainment of supreme calamity} — {95:therefore} one should {99:restrain} {98:the mind} {96:with great} {97:effort} {100:—} {101:this is the import}. {102:Hence} {103:it was rightly} {104:said}, {107:‘restraining} {105:all} {106:of them}, {109:let him sit} {108:absorbed} {110:.’}"
+      "english": "{1:Even} {0:of one whose outer senses are restrained}, but {4:who meditates on} — {6:again} {7:and again} {8:ponders} {5:in the mind} — {2:the objects sound and the rest}, {3:objects}, {10:toward those} {11:objects} {12:‘attachment’}, {13:clinging}, of the form {17:‘these} {16:are an exceeding cause of pleasure} {15:exceedingly} {14:for me’}, {18:—} {19:thus} {21:a particular fondness} {20:marked by the superimposition of attractiveness}, {22:arises}. {23:From attachment}, {24:marked by the cognition that they are a cause of pleasure}, {25:is born} {26:‘desire’}, {31:a particular thirst}, {27:‘mine} {28:let these} {29:be’} {30:—}. {32:From that} {33:desire}, {35:when thwarted} {34:somewhere}, {37:anger}, {38:of the nature of flaring up}, {36:directed at that which thwarts it}, {39:arises}. {40:From anger} {41:comes} {42:delusion}, {43:of the form of the absence of discrimination of what should and should not be done}. {44:From delusion}, {45:‘confusion of memory’}: {46:of the memory}, {47:the bringing-to-mind of the meaning taught by scripture and teacher}, there is {48:confusion}, {49:a wandering}, {50:a lapse}. {51:And from that} {52:—} {53:lapse of memory}, ‘ruin of the understanding’: {54:of the understanding}, {55:the mental modification of the form of unity (with the Self)}, there is {56:ruin} — {57:by the fault of the accumulation of contrary conviction} {58:it is obstructed}, so {59:it does not arise}, {61:or}, {60:having arisen}, {63:it dissolves} {62:by being unfit for its fruit}. {64:From the ruin of the understanding} {65:‘he perishes’}: {70:by the loss} {66:of that} {67:and} {68:fruitful} {69:understanding} {71:he perishes}, {73:becomes} {72:unfit for every human goal}. {75:For} {74:he who} {77:has become} {76:unfit for the human goal} {78:is}, {82:in the world}, {83:spoken of} as {79:‘dead’} {80:verily} {81:—}; {84:hence} {85:‘he perishes’} {87:is said} {86:—}. {88:Since} {89:thus}, {91:when restraint} {90:of the mind} is absent, there is, {93:even} {92:for one whose outer senses are restrained}, {94:the attainment of supreme calamity} — {95:therefore} one should {99:restrain} {98:the mind} {96:with great} {97:effort} {100:—} {101:this is the import}. {102:Hence} {103:it was rightly} {104:said}, {107:‘restraining} {105:all} {106:of them}, {109:let him sit} {108:absorbed} {110:.’}",
+      "segments": [
+        {
+          "from": 0,
+          "to": 73,
+          "kind": "gloss"
+        },
+        {
+          "from": 74,
+          "to": 110,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -36572,7 +37328,34 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{2:Having stated} {1:the fault} {0:in the absence of restraint of the outer senses}, {5:He states} {4:the fault} {3:in the absence of restraint of the mind} {7:by} {6:'dhyāyataḥ'} {8:in two verses}. {11:Of a man meditating on} {10:objects} {9:with the notion of their being good}, {13:toward those} {14:'attachment'}, {15:clinging}, {16:there is}{12:,} {18:and} {17:by that clinging} {20:greater} {21:desire} {19:toward them} {22:comes to be}. {24:And} {23:from desire}, {26:when thwarted} {25:by someone}, {27:anger} {28:comes}. {30:Moreover}, {31:'krodhāt'} {32:by}: {33:from anger} {34:delusion}, {35:the absence of discrimination of what should and should not be done}. {36:Thence} there is {38:confusion}, {39:a wandering}, {40:a lapse} {37:of the memory taught by scripture and teacher}. {41:Thence} {44:the ruin} {42:of the understanding}, {43:of consciousness} — {47:an eclipse}, {46:as} {45:in trees and the like}. {48:Thence} {49:'he perishes'}, {51:becomes} {50:equal to the dead}."
+      "english": "{2:Having stated} {1:the fault} {0:in the absence of restraint of the outer senses}, {5:He states} {4:the fault} {3:in the absence of restraint of the mind} {7:by} {6:'dhyāyataḥ'} {8:in two verses}. {11:Of a man meditating on} {10:objects} {9:with the notion of their being good}, {13:toward those} {14:'attachment'}, {15:clinging}, {16:there is}{12:,} {18:and} {17:by that clinging} {20:greater} {21:desire} {19:toward them} {22:comes to be}. {24:And} {23:from desire}, {26:when thwarted} {25:by someone}, {27:anger} {28:comes}. {30:Moreover}, {31:'krodhāt'} {32:by}: {33:from anger} {34:delusion}, {35:the absence of discrimination of what should and should not be done}. {36:Thence} there is {38:confusion}, {39:a wandering}, {40:a lapse} {37:of the memory taught by scripture and teacher}. {41:Thence} {44:the ruin} {42:of the understanding}, {43:of consciousness} — {47:an eclipse}, {46:as} {45:in trees and the like}. {48:Thence} {49:'he perishes'}, {51:becomes} {50:equal to the dead}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 5,
+          "kind": "interpretation"
+        },
+        {
+          "from": 6,
+          "to": 8,
+          "kind": "citation"
+        },
+        {
+          "from": 9,
+          "to": 30,
+          "kind": "gloss"
+        },
+        {
+          "from": 31,
+          "to": 32,
+          "kind": "citation"
+        },
+        {
+          "from": 33,
+          "to": 51,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -37304,7 +38087,49 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "He {1:states} {0:the cause of the faults beginning with passion}, {2:in order to ward them off}, {3:by the pair of verses}. {4:‘Delusion’ (sammoha)} is {5:the desire for what ought not to be done}; {7:for} {6:thus} {8:the meaning of the word ‘moha’} {9:is given} {10:in the Upagītā}: {11:‘called moha}, {12:marked by unrighteousness} {14:indeed}, {15:ever present} {16:in sinful deeds’}. {18:And likewise} {19:that which} is said {20:elsewhere}, {21:‘delusion} is {22:the desiring of unrighteousness’}. {24:‘Confusion of memory’} is {25:the loss of the memory of prohibitions and the like}. {26:‘Ruin of the understanding’} is {27:the complete} {28:ruin of the discernment of faults}. {29:‘He perishes’} — he {31:attains} {30:the calamity of hell and the like}. {34:As stated}: {39:‘when} {37:forgetfulness} {36:of scripture} {38:arises} {35:in one who desires unrighteousness}, then {42:by} {40:not seeing the fault} {41:and by the deed done from it}, he {44:goes to} {43:hell’}."
+      "english": "He {1:states} {0:the cause of the faults beginning with passion}, {2:in order to ward them off}, {3:by the pair of verses}. {4:‘Delusion’ (sammoha)} is {5:the desire for what ought not to be done}; {7:for} {6:thus} {8:the meaning of the word ‘moha’} {9:is given} {10:in the Upagītā}: {11:‘called moha}, {12:marked by unrighteousness} {14:indeed}, {15:ever present} {16:in sinful deeds’}. {18:And likewise} {19:that which} is said {20:elsewhere}, {21:‘delusion} is {22:the desiring of unrighteousness’}. {24:‘Confusion of memory’} is {25:the loss of the memory of prohibitions and the like}. {26:‘Ruin of the understanding’} is {27:the complete} {28:ruin of the discernment of faults}. {29:‘He perishes’} — he {31:attains} {30:the calamity of hell and the like}. {34:As stated}: {39:‘when} {37:forgetfulness} {36:of scripture} {38:arises} {35:in one who desires unrighteousness}, then {42:by} {40:not seeing the fault} {41:and by the deed done from it}, he {44:goes to} {43:hell’}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 3,
+          "kind": "interpretation"
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "kind": "gloss"
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "kind": "interpretation"
+        },
+        {
+          "from": 11,
+          "to": 23,
+          "kind": "citation"
+        },
+        {
+          "from": 24,
+          "to": 31,
+          "kind": "gloss"
+        },
+        {
+          "from": 32,
+          "to": 34,
+          "kind": "interpretation"
+        },
+        {
+          "from": 35,
+          "to": 44,
+          "kind": "citation"
+        },
+        {
+          "from": 45,
+          "to": 45,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.64": [
@@ -37971,7 +38796,29 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:‘With passion and aversion gone’} — {1:passion} {2:and} {3:aversion}, {5:the ‘passion-and-aversion’ pair}; {9:the engagement} {8:of the senses} is {10:naturally} {6:preceded by them} {7:indeed}. {11:There}, {12:the} {13:seeker of release} {14:is}, {15:he}, by {19:senses} — {18:hearing and the rest} — {17:freed} {16:of those two}, {22:ranging over} {21:the unavoidable} {20:objects}, {23:apprehending them}, by {30:senses that are under the Self's control} {24:by those under the Self's control}, {26:that have become subject} {27:to him} — {25:of the Self} {28:the senses} {29:by those} — {31:he whose inner organ is governable} {32:at will}: {33:governable} {34:is the self}, {35:the inner organ}, {36:of whom} — {37:he} {38:this one} {40:attains} {39:serenity}. {41:‘Serenity’} is {42:clearness}, {43:well-being}, of the self."
+      "english": "{0:‘With passion and aversion gone’} — {1:passion} {2:and} {3:aversion}, {5:the ‘passion-and-aversion’ pair}; {9:the engagement} {8:of the senses} is {10:naturally} {6:preceded by them} {7:indeed}. {11:There}, {12:the} {13:seeker of release} {14:is}, {15:he}, by {19:senses} — {18:hearing and the rest} — {17:freed} {16:of those two}, {22:ranging over} {21:the unavoidable} {20:objects}, {23:apprehending them}, by {30:senses that are under the Self's control} {24:by those under the Self's control}, {26:that have become subject} {27:to him} — {25:of the Self} {28:the senses} {29:by those} — {31:he whose inner organ is governable} {32:at will}: {33:governable} {34:is the self}, {35:the inner organ}, {36:of whom} — {37:he} {38:this one} {40:attains} {39:serenity}. {41:‘Serenity’} is {42:clearness}, {43:well-being}, of the self.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 5,
+          "kind": "gloss"
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "kind": "interpretation"
+        },
+        {
+          "from": 11,
+          "to": 40,
+          "kind": "gloss"
+        },
+        {
+          "from": 41,
+          "to": 43,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -39691,7 +40538,24 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{8:Saying} that, when {0:the mind} {1:is restrained}, {2:but} there is {5:no} {6:fault} {4:even} {3:in the absence of restraint of the outer senses} — {7:that}, {14:He gives} {13:the answer} {12:to} ‘{9:how} {10:does he move}’ {15:in eight verses}. {16:He who}, {17:whose mind is uncomposed}, {18:he}, {20:even restraining} {21:—} {19:the outer senses}, {25:while pondering} {24:objects} {23:with a mind} {22:tainted by passion and aversion}, {27:falls} {28:becomes} {26:from the human goal}. {29:But the governable-self one} — {31:the word ‘tu’ (but)} {33:marks the difference} {32:from the former}: but {34:he whose inner organ is mastered}, {44:by senses} {36:that are under the Self} ({37:subject to the mind}, i.e. {38:self-controlled}), {39:—} {40:or} {43:that are freed} {42:separated} {41:of passion and aversion}, {49:ranging over} {48:the non-prohibited} {46:objects}, {45:hearing and the rest}, {47:sound and the rest}, {50:apprehending} them, {56:attains} {51:serenity}, {52:the clearness} {54:the limpidity} {53:of the mind}, {55:its fitness for the direct realization of the Supreme Self}. {57:Senses prompted by passion and aversion} {58:—} {60:become} {59:a cause of fault}; but {61:when the mind} {62:is in his control} {63:—} {64:there is no} {65:passion and aversion}; {68:and} {67:in the absence} {66:of those two} {69:there is no} {70:engagement of the senses dependent on them}; and {73:the apprehension of objects}, {71:being unavoidable}, {76:brings} {74:no} {75:fault} — {78:so there is no} {79:obstruction to purity}, {80:that} {81:is the sense}. {82:By this} {100:the doubt} {101:is dispelled}: ‘{86:If} {85:even} {84:the mere remembering} {83:of objects} {86:be} {87:a cause of calamity}, {89:then} {88:all the more} {90:enjoyment}; {95:how}, then, {94:enjoying} {93:objects} {92:for the sake of living}, {97:does he} {98:not incur} {96:calamity}?’ {107:And} {110:by} ‘{105:he reaches} {104:objects} {103:with senses} {102:under his own control}’, {112:the answer} {108:to} ‘{108:how} {109:does he move}’ {114:comes} {113:to be stated}."
+      "english": "{8:Saying} that, when {0:the mind} {1:is restrained}, {2:but} there is {5:no} {6:fault} {4:even} {3:in the absence of restraint of the outer senses} — {7:that}, {14:He gives} {13:the answer} {12:to} ‘{9:how} {10:does he move}’ {15:in eight verses}. {16:He who}, {17:whose mind is uncomposed}, {18:he}, {20:even restraining} {21:—} {19:the outer senses}, {25:while pondering} {24:objects} {23:with a mind} {22:tainted by passion and aversion}, {27:falls} {28:becomes} {26:from the human goal}. {29:But the governable-self one} — {31:the word ‘tu’ (but)} {33:marks the difference} {32:from the former}: but {34:he whose inner organ is mastered}, {44:by senses} {36:that are under the Self} ({37:subject to the mind}, i.e. {38:self-controlled}), {39:—} {40:or} {43:that are freed} {42:separated} {41:of passion and aversion}, {49:ranging over} {48:the non-prohibited} {46:objects}, {45:hearing and the rest}, {47:sound and the rest}, {50:apprehending} them, {56:attains} {51:serenity}, {52:the clearness} {54:the limpidity} {53:of the mind}, {55:its fitness for the direct realization of the Supreme Self}. {57:Senses prompted by passion and aversion} {58:—} {60:become} {59:a cause of fault}; but {61:when the mind} {62:is in his control} {63:—} {64:there is no} {65:passion and aversion}; {68:and} {67:in the absence} {66:of those two} {69:there is no} {70:engagement of the senses dependent on them}; and {73:the apprehension of objects}, {71:being unavoidable}, {76:brings} {74:no} {75:fault} — {78:so there is no} {79:obstruction to purity}, {80:that} {81:is the sense}. {82:By this} {100:the doubt} {101:is dispelled}: ‘{86:If} {85:even} {84:the mere remembering} {83:of objects} {86:be} {87:a cause of calamity}, {89:then} {88:all the more} {90:enjoyment}; {95:how}, then, {94:enjoying} {93:objects} {92:for the sake of living}, {97:does he} {98:not incur} {96:calamity}?’ {107:And} {110:by} ‘{105:he reaches} {104:objects} {103:with senses} {102:under his own control}’, {112:the answer} {108:to} ‘{108:how} {109:does he move}’ {114:comes} {113:to be stated}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 15,
+          "kind": "interpretation"
+        },
+        {
+          "from": 16,
+          "to": 56,
+          "kind": "gloss"
+        },
+        {
+          "from": 57,
+          "to": 114,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -40534,7 +41398,44 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:But surely}, {4:since} {3:to check} {1:the senses}, {2:whose nature is to incline toward objects}, {4:is impossible}, {5:this} {6:fault} is {7:hard to avert} — {8:so} {10:how} {11:can there be} {9:the state of settled wisdom}? {12:Thus} {13:anticipating}, {14:He says} {15:'rāga-dveṣa'} {16:by} {17:in two verses}. {20:By senses} {18:free of passion and aversion}, {19:devoid of arrogance}, {22:ranging} {21:over objects}, {23:enjoying} them, {24:he nonetheless} {27:attains} {25:serenity}, {26:peace}. {28:The freedom from passion and aversion} {30:He states} {29:very} {32:by} {31:'ātma'}: {36:by senses} {35:under the control} {33:of the self}, {34:the mind}, {37:governable}, {38:subject to him}; {41:he whose} {39:self}, {40:the mind} {42:—}. {44:By} {43:this} {44:very thing} the answer to {48:this}, {47:—} {49:the fourth question}, {45:'how} {46:does he move'} {54:—} {56:comes to be} {55:stated}: {53:he reaches} {52:objects} {51:with senses} {50:under his own control}{57:.}"
+      "english": "{0:But surely}, {4:since} {3:to check} {1:the senses}, {2:whose nature is to incline toward objects}, {4:is impossible}, {5:this} {6:fault} is {7:hard to avert} — {8:so} {10:how} {11:can there be} {9:the state of settled wisdom}? {12:Thus} {13:anticipating}, {14:He says} {15:'rāga-dveṣa'} {16:by} {17:in two verses}. {20:By senses} {18:free of passion and aversion}, {19:devoid of arrogance}, {22:ranging} {21:over objects}, {23:enjoying} them, {24:he nonetheless} {27:attains} {25:serenity}, {26:peace}. {28:The freedom from passion and aversion} {30:He states} {29:very} {32:by} {31:'ātma'}: {36:by senses} {35:under the control} {33:of the self}, {34:the mind}, {37:governable}, {38:subject to him}; {41:he whose} {39:self}, {40:the mind} {42:—}. {44:By} {43:this} {44:very thing} the answer to {48:this}, {47:—} {49:the fourth question}, {45:'how} {46:does he move'} {54:—} {56:comes to be} {55:stated}: {53:he reaches} {52:objects} {51:with senses} {50:under his own control}{57:.}",
+      "segments": [
+        {
+          "from": 0,
+          "to": 14,
+          "kind": "objection"
+        },
+        {
+          "from": 15,
+          "to": 17,
+          "kind": "citation"
+        },
+        {
+          "from": 18,
+          "to": 27,
+          "kind": "gloss"
+        },
+        {
+          "from": 28,
+          "to": 30,
+          "kind": "interpretation"
+        },
+        {
+          "from": 31,
+          "to": 32,
+          "kind": "citation"
+        },
+        {
+          "from": 33,
+          "to": 42,
+          "kind": "gloss"
+        },
+        {
+          "from": 43,
+          "to": 57,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -40788,7 +41689,19 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "manas"
         }
       ],
-      "english": "He {1:states} {0:the fruit of the conquest of the senses} {2:by the following} {3:two verses}. He {10:whose} {8:self}, {9:the mind}, is {7:governable} {6:even while} {5:experiencing} {4:the objects} — {11:that is, one of conquered self}, {13:that is the meaning}. {14:‘Serenity’} is {15:the serenity of the mind}."
+      "english": "He {1:states} {0:the fruit of the conquest of the senses} {2:by the following} {3:two verses}. He {10:whose} {8:self}, {9:the mind}, is {7:governable} {6:even while} {5:experiencing} {4:the objects} — {11:that is, one of conquered self}, {13:that is the meaning}. {14:‘Serenity’} is {15:the serenity of the mind}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 3,
+          "kind": "interpretation"
+        },
+        {
+          "from": 4,
+          "to": 15,
+          "kind": "gloss"
+        }
+      ]
     }
   ],
   "2.65": [
@@ -41423,7 +42336,19 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "{0:On serenity}, there {7:arises} {5:for that} {6:ascetic} {3:the destruction}, {4:the cessation}, {1:of all sorrows} — {2:the personal and the rest}. {8–9:Moreover}: {10:for one of serene mind}, {11:of well-settled inner organ} — {12:since} {13:since} {16:the understanding} {17:‘paryavatiṣṭhate’}, {14:quickly} {15:quickly} comes to abide all around, {18:like space} {19:like} {20:all around}, {21:on all sides}, {22:abides} everywhere, {25:becomes unmoving} {23:in the very nature of the Self} {24:itself}, {26–27:that is the meaning}. {28:Thus}, {32:since} for {29:one of serene mind}, {30:with settled understanding}, there is {31:the state of having-done-what-was-to-be-done} — {33:therefore} by {35:senses} {34:freed of passion and aversion} {38:composed} {39:let him act}, amid {37:the unavoidable} {36:that is not contrary to scripture} — {40–41:this is the sense of the sentence}."
+      "english": "{0:On serenity}, there {7:arises} {5:for that} {6:ascetic} {3:the destruction}, {4:the cessation}, {1:of all sorrows} — {2:the personal and the rest}. {8–9:Moreover}: {10:for one of serene mind}, {11:of well-settled inner organ} — {12:since} {13:since} {16:the understanding} {17:‘paryavatiṣṭhate’}, {14:quickly} {15:quickly} comes to abide all around, {18:like space} {19:like} {20:all around}, {21:on all sides}, {22:abides} everywhere, {25:becomes unmoving} {23:in the very nature of the Self} {24:itself}, {26–27:that is the meaning}. {28:Thus}, {32:since} for {29:one of serene mind}, {30:with settled understanding}, there is {31:the state of having-done-what-was-to-be-done} — {33:therefore} by {35:senses} {34:freed of passion and aversion} {38:composed} {39:let him act}, amid {37:the unavoidable} {36:that is not contrary to scripture} — {40–41:this is the sense of the sentence}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 25,
+          "kind": "gloss"
+        },
+        {
+          "from": 26,
+          "to": 41,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -42374,7 +43299,24 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{3:It was said} ‘{1:he attains} {0:serenity}’; now {7:what} {8:comes to be} {6:when} {5:serenity exists} {10:is stated} by ‘{11:prasāde}’. {16:When there is} {14:serenity} {13:of the mind}, {15:of the form of limpidity}, {24:there arises} {22:for that} {23:ascetic} {20:the destruction}, {21:the cessation}, {17:of all sorrows} — {18:the personal and the rest}, {19:the play of ignorance}. {25:For}, {26:since}, {28:of the} {27:serene-minded} {28:ascetic}, {32:the understanding} {33:of the form of the unity of Brahman and Self} {29:quickly}, {30:swiftly}, {31:verily}, {34:comes to abide} {35:all} {36:around}, {37:abides}, {39:becomes} {38:firm}, {40:since the obstacle of contrary conviction and the like is absent}. {41:And thence}: {44:when} {43:serenity exists} there is {45:the standing-firm of the understanding}; {46:thence} {47:the cessation of the ignorance opposed to it}; {48:thence} {49:the destruction of all its effect, sorrow} — {52:even} {51:in this sequence}, {53:in serenity}, {56:the statement that it is a destroyer of all sorrow}, {55:for the sake of magnifying} {54:it}, {58:is no} {59:contradiction}."
+      "english": "{3:It was said} ‘{1:he attains} {0:serenity}’; now {7:what} {8:comes to be} {6:when} {5:serenity exists} {10:is stated} by ‘{11:prasāde}’. {16:When there is} {14:serenity} {13:of the mind}, {15:of the form of limpidity}, {24:there arises} {22:for that} {23:ascetic} {20:the destruction}, {21:the cessation}, {17:of all sorrows} — {18:the personal and the rest}, {19:the play of ignorance}. {25:For}, {26:since}, {28:of the} {27:serene-minded} {28:ascetic}, {32:the understanding} {33:of the form of the unity of Brahman and Self} {29:quickly}, {30:swiftly}, {31:verily}, {34:comes to abide} {35:all} {36:around}, {37:abides}, {39:becomes} {38:firm}, {40:since the obstacle of contrary conviction and the like is absent}. {41:And thence}: {44:when} {43:serenity exists} there is {45:the standing-firm of the understanding}; {46:thence} {47:the cessation of the ignorance opposed to it}; {48:thence} {49:the destruction of all its effect, sorrow} — {52:even} {51:in this sequence}, {53:in serenity}, {56:the statement that it is a destroyer of all sorrow}, {55:for the sake of magnifying} {54:it}, {58:is no} {59:contradiction}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 12,
+          "kind": "interpretation"
+        },
+        {
+          "from": 13,
+          "to": 24,
+          "kind": "gloss"
+        },
+        {
+          "from": 25,
+          "to": 59,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -42674,7 +43616,29 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "{2:What} {3:comes to be} {1:when} {0:serenity} {1:exists} {4:is} {5:here} {6:stated} {8:by} {7:'prasāda'}. {10:When} {9:serenity} {10:exists} there is {11:the destruction of all sorrow}. {13:And} {12:thence}, {14:for the serene-minded one}, {15:the understanding} {17:becomes} {16:firm} — {18:that is} {19:the meaning}."
+      "english": "{2:What} {3:comes to be} {1:when} {0:serenity} {1:exists} {4:is} {5:here} {6:stated} {8:by} {7:'prasāda'}. {10:When} {9:serenity} {10:exists} there is {11:the destruction of all sorrow}. {13:And} {12:thence}, {14:for the serene-minded one}, {15:the understanding} {17:becomes} {16:firm} — {18:that is} {19:the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 6,
+          "kind": "interpretation"
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "kind": "citation"
+        },
+        {
+          "from": 9,
+          "to": 11,
+          "kind": "gloss"
+        },
+        {
+          "from": 12,
+          "to": 19,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -42946,7 +43910,29 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "visaya"
         }
       ],
-      "english": "{0:How} is there {2:destruction of all sorrow} {1:by mere serenity}? {4:Because} {3:for the serene-minded one} {5:the understanding} {6:‘paryavatiṣṭhati’} — {7:by the direct realization of Brahman} {10:it makes} {8:a right} {9:abiding}. {11:‘Serenity’} {12:means} {16:the turning-away from objects}, {15:which mostly} {14:comes} {13:of itself}."
+      "english": "{0:How} is there {2:destruction of all sorrow} {1:by mere serenity}? {4:Because} {3:for the serene-minded one} {5:the understanding} {6:‘paryavatiṣṭhati’} — {7:by the direct realization of Brahman} {10:it makes} {8:a right} {9:abiding}. {11:‘Serenity’} {12:means} {16:the turning-away from objects}, {15:which mostly} {14:comes} {13:of itself}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 2,
+          "kind": "objection"
+        },
+        {
+          "from": 3,
+          "to": 6,
+          "kind": "gloss"
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "kind": "interpretation"
+        },
+        {
+          "from": 11,
+          "to": 16,
+          "kind": "gloss"
+        }
+      ]
     }
   ],
   "2.66": [
@@ -43715,7 +44701,19 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "{0:There is not}, {2–3:does not exist}, {4–5:does not come to be} — {6–7:that is the meaning} — {8:the understanding} {9:whose object is the nature of the Self}, {10:for the unsteadied one}, {11:whose inner organ is uncomposed}. {12–13:Nor} {14:is there}, {15:for the unsteadied one}, {16:‘contemplation’}, {17:the intent dwelling on Self-knowledge}. {18:Likewise}: {19–20:nor} {21:is there} {22:for the non-contemplating one}, {24:who does not make} {23:the intent dwelling on Self-knowledge}, {25:‘peace’}, {26:calm}. {27:For the unpeaceful one}, {28:whence} {29:pleasure}? {31:For} {33:that which is the turning-away} {30:of the senses} {32:from the thirst for the service of objects} — {34:which} — {35:that is pleasure}, {36:not} {38:the thirst} {37:whose object is objects}, {41:for} {42:that} {39:is} {40:verily} {39:pain}. {43:Not}, {44:thirst} {45:while existing}, {47:even a whiff} {48:even} {46:of pleasure} {49:is possible} — {50–51:that is the meaning}."
+      "english": "{0:There is not}, {2–3:does not exist}, {4–5:does not come to be} — {6–7:that is the meaning} — {8:the understanding} {9:whose object is the nature of the Self}, {10:for the unsteadied one}, {11:whose inner organ is uncomposed}. {12–13:Nor} {14:is there}, {15:for the unsteadied one}, {16:‘contemplation’}, {17:the intent dwelling on Self-knowledge}. {18:Likewise}: {19–20:nor} {21:is there} {22:for the non-contemplating one}, {24:who does not make} {23:the intent dwelling on Self-knowledge}, {25:‘peace’}, {26:calm}. {27:For the unpeaceful one}, {28:whence} {29:pleasure}? {31:For} {33:that which is the turning-away} {30:of the senses} {32:from the thirst for the service of objects} — {34:which} — {35:that is pleasure}, {36:not} {38:the thirst} {37:whose object is objects}, {41:for} {42:that} {39:is} {40:verily} {39:pain}. {43:Not}, {44:thirst} {45:while existing}, {47:even a whiff} {48:even} {46:of pleasure} {49:is possible} — {50–51:that is the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 29,
+          "kind": "gloss"
+        },
+        {
+          "from": 30,
+          "to": 51,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -44471,7 +45469,24 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{2:This} {1:very} {0:point} {4:He strengthens} {3:by way of the negative}, by ‘{5:nāsti}’. {8:For the unsteadied one}, {9:of unconquered mind}, {10:the understanding} {11:whose object is the Self}, {12:born of the Vedānta-inquiry called hearing and reflection}, {13:‘is not’}, {15:does} {16:not arise}. {17:In the absence of that understanding}, {18:‘nor} {19:—} {20:for the unsteadied one} {14:is there} {21:contemplation’}, {22:of the nature of meditation (nididhyāsana)}, {23:of the form of an unbroken flow of homogeneous cognition uninterrupted by heterogeneous cognition} — {29:the construction} {28:is with} ‘{26:there is}{25:not}’ {24:throughout}, {27:that is}. {30:‘Nor} {31:—} {32:for the non-contemplating one} {33:of the Self} {34:is there ‘peace’}, {35:of the form of the cessation of ignorance together with its effect}, {37:the direct realization of the unity of Brahman and Self} {36:born of the Vedānta-sentences}. {38:For the unpeaceful one}, {39:void of Self-realization}, ‘{40:whence} {41:pleasure}’, {42:the bliss of liberation} — {43:that} {44:is the meaning}."
+      "english": "{2:This} {1:very} {0:point} {4:He strengthens} {3:by way of the negative}, by ‘{5:nāsti}’. {8:For the unsteadied one}, {9:of unconquered mind}, {10:the understanding} {11:whose object is the Self}, {12:born of the Vedānta-inquiry called hearing and reflection}, {13:‘is not’}, {15:does} {16:not arise}. {17:In the absence of that understanding}, {18:‘nor} {19:—} {20:for the unsteadied one} {14:is there} {21:contemplation’}, {22:of the nature of meditation (nididhyāsana)}, {23:of the form of an unbroken flow of homogeneous cognition uninterrupted by heterogeneous cognition} — {29:the construction} {28:is with} ‘{26:there is}{25:not}’ {24:throughout}, {27:that is}. {30:‘Nor} {31:—} {32:for the non-contemplating one} {33:of the Self} {34:is there ‘peace’}, {35:of the form of the cessation of ignorance together with its effect}, {37:the direct realization of the unity of Brahman and Self} {36:born of the Vedānta-sentences}. {38:For the unpeaceful one}, {39:void of Self-realization}, ‘{40:whence} {41:pleasure}’, {42:the bliss of liberation} — {43:that} {44:is the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 7,
+          "kind": "interpretation"
+        },
+        {
+          "from": 8,
+          "to": 37,
+          "kind": "gloss"
+        },
+        {
+          "from": 38,
+          "to": 44,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -45362,7 +46377,44 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "He {3:establishes}, {2:by way of the negative}, that {0:restraint of the senses} {1:is the means to the state of settled wisdom}, {5:by} {4:'nāsti'}. {6:For the unsteadied one}, {7:whose senses are unmastered}, {8:there is no} {9:understanding}: {12:the understanding} {11:whose object is the Self}, {13:the very insight}, {10:born of the teaching of scripture and teacher}, {15:does not} {16:arise}. {17:Whence} {19:the talk of standing firm} {18:of it}? {22:To} {20:'whence'} {21:—} {23:He says} {24:'na} {25:ca'} {26:by}: {27:nor} {29:for the unsteadied one} is there {30:contemplation}, {31:meditation}; {33:for} it is {32:by contemplation} that {34:the understanding's} {36:firmness} {35:in the Self} {37:comes to be}, {39:and} {38:that} {41:does not} {42:exist} {40:for the unsteadied one}. {44:Nor} {47:for the non-contemplating one}, {45:—} {47:who does not do} {46:meditation on the Self}, is there {48:peace}, {50:the ceasing of the mind} {49:in the Self}. {51:For the unpeaceful one}, {52:whence} {53:pleasure}, {54:the bliss of liberation} — {55:that is} {56:the meaning}."
+      "english": "He {3:establishes}, {2:by way of the negative}, that {0:restraint of the senses} {1:is the means to the state of settled wisdom}, {5:by} {4:'nāsti'}. {6:For the unsteadied one}, {7:whose senses are unmastered}, {8:there is no} {9:understanding}: {12:the understanding} {11:whose object is the Self}, {13:the very insight}, {10:born of the teaching of scripture and teacher}, {15:does not} {16:arise}. {17:Whence} {19:the talk of standing firm} {18:of it}? {22:To} {20:'whence'} {21:—} {23:He says} {24:'na} {25:ca'} {26:by}: {27:nor} {29:for the unsteadied one} is there {30:contemplation}, {31:meditation}; {33:for} it is {32:by contemplation} that {34:the understanding's} {36:firmness} {35:in the Self} {37:comes to be}, {39:and} {38:that} {41:does not} {42:exist} {40:for the unsteadied one}. {44:Nor} {47:for the non-contemplating one}, {45:—} {47:who does not do} {46:meditation on the Self}, is there {48:peace}, {50:the ceasing of the mind} {49:in the Self}. {51:For the unpeaceful one}, {52:whence} {53:pleasure}, {54:the bliss of liberation} — {55:that is} {56:the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 3,
+          "kind": "interpretation"
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "kind": "citation"
+        },
+        {
+          "from": 6,
+          "to": 16,
+          "kind": "gloss"
+        },
+        {
+          "from": 17,
+          "to": 23,
+          "kind": "interpretation"
+        },
+        {
+          "from": 24,
+          "to": 26,
+          "kind": "citation"
+        },
+        {
+          "from": 27,
+          "to": 50,
+          "kind": "gloss"
+        },
+        {
+          "from": 51,
+          "to": 56,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -45832,7 +46884,34 @@ window.GITA_COMMENTARY = {
           "morph": "ablative singular neuter"
         }
       ],
-      "english": "He {2:states} {1:the fault} {0:in the absence of serenity} {3:by the following two verses}. {5:For} {6:in the absence of serenity} there is {4:no} {7:composure}, no {8:restraint of the mind}; {10:and} {9:for the unsteadied one} there is {14:no} {11:understanding} — {12:right} {13:knowledge} — it {15:‘is not’}. He {18:establishes} {16:that very thing} {21:by ‘na ca ayuktasya’}. {23:‘Peace’} is {24:liberation}, {30:by the statement} {25:‘peace}, {26:liberation}, {27:and} {28:nirvāṇa’}."
+      "english": "He {2:states} {1:the fault} {0:in the absence of serenity} {3:by the following two verses}. {5:For} {6:in the absence of serenity} there is {4:no} {7:composure}, no {8:restraint of the mind}; {10:and} {9:for the unsteadied one} there is {14:no} {11:understanding} — {12:right} {13:knowledge} — it {15:‘is not’}. He {18:establishes} {16:that very thing} {21:by ‘na ca ayuktasya’}. {23:‘Peace’} is {24:liberation}, {30:by the statement} {25:‘peace}, {26:liberation}, {27:and} {28:nirvāṇa’}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 3,
+          "kind": "interpretation"
+        },
+        {
+          "from": 4,
+          "to": 15,
+          "kind": "gloss"
+        },
+        {
+          "from": 16,
+          "to": 22,
+          "kind": "interpretation"
+        },
+        {
+          "from": 23,
+          "to": 24,
+          "kind": "gloss"
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "kind": "citation"
+        }
+      ]
     }
   ],
   "2.67": [
@@ -46463,7 +47542,29 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:Of the senses} {3:ranging}, {5:engaged each in its own} {4:object} — {6:that} {7:mind} which {8:follows after}, {9:runs along after} — {10:that} {7:mind}, {12:set going} {11:by the conceptual fancy of sense-object}, {16:robs} {14:his}, {15:this ascetic's}, {17:insight}, {18:the insight born of the discrimination of Self from non-Self}, {19:destroys} it. {20:How?} {21:As wind} {22:a boat} {23:like} {25:on the water}: {30:just as} {31:wind}, {28:lifting up} {27:off its course} {32:a boat} {26:of those wishing to go} {24:on the water}, {33:drives} it {29:onto a wrong course}, {34:so} {38:the mind}, {37:having robbed} {35:the insight whose object is the Self}, {36:the insight}, {40:makes} it {39:an insight whose object is objects}."
+      "english": "{0:Of the senses} {3:ranging}, {5:engaged each in its own} {4:object} — {6:that} {7:mind} which {8:follows after}, {9:runs along after} — {10:that} {7:mind}, {12:set going} {11:by the conceptual fancy of sense-object}, {16:robs} {14:his}, {15:this ascetic's}, {17:insight}, {18:the insight born of the discrimination of Self from non-Self}, {19:destroys} it. {20:How?} {21:As wind} {22:a boat} {23:like} {25:on the water}: {30:just as} {31:wind}, {28:lifting up} {27:off its course} {32:a boat} {26:of those wishing to go} {24:on the water}, {33:drives} it {29:onto a wrong course}, {34:so} {38:the mind}, {37:having robbed} {35:the insight whose object is the Self}, {36:the insight}, {40:makes} it {39:an insight whose object is objects}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 19,
+          "kind": "gloss"
+        },
+        {
+          "from": 20,
+          "to": 20,
+          "kind": "interpretation"
+        },
+        {
+          "from": 21,
+          "to": 33,
+          "kind": "gloss"
+        },
+        {
+          "from": 34,
+          "to": 40,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -47789,7 +48890,24 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:For the unsteadied one} {1:why} {2:is there no} {4:understanding}? {6:To this} {7:He says} ‘{8:indriyāṇām}’. {10:Of the senses ranging} {11:in their own objects}, {12:each engaged in its own object}, {13:proceeding}, {14:the unmastered ones}, {16:among} {15:the senses}, {21:taking aim at} {19:even} {17:—} {18:one} {17:single} {20:sense}, {22:the mind} {23:‘is set going’}, {24:is impelled}, {25:proceeds} — {28:the verbal suffix} {29:—} {27:is in the agent-as-object sense}. {30:That} {32:single} {31:sense} {33:too}, {35:followed} {34:by the mind}, {43:robs}, {44:carries off}, {40:the insight} {36:of this} {37:aspirant}, {39:or} {45:of the mind}, {41:whose object is the Self}, {42:the scriptural} insight, {46:since the mind is possessed by the object of that sense}. {47:When} {49:even} {48:one} {50:sense} {52:robs} {51:the insight}, {53:then} {54:all of them} {55:rob} it {56:—} {57:how} {58:much} {59:more is to be said}! {60:—} {61:that is the meaning}. {62:The illustration} {63:however} {64:is clear}. {72:To indicate} {71:that} {67:the wind's} {68:power to carry off a boat} {69:is} {70:on land} {69:not}, ‘{73:on the water}’ {75:is said}; {76:so} {78:too} {77:in the thing illustrated}, {82:only} {81:when} {80:the mind}, {79:in the place of water}, is fickle is there {83:the power to rob the insight} {84:of the sense}, {85:not} {86:—} {88:when the mind, in the place of land, is steady} {87:—} {89:this} {90:is hinted}."
+      "english": "{0:For the unsteadied one} {1:why} {2:is there no} {4:understanding}? {6:To this} {7:He says} ‘{8:indriyāṇām}’. {10:Of the senses ranging} {11:in their own objects}, {12:each engaged in its own object}, {13:proceeding}, {14:the unmastered ones}, {16:among} {15:the senses}, {21:taking aim at} {19:even} {17:—} {18:one} {17:single} {20:sense}, {22:the mind} {23:‘is set going’}, {24:is impelled}, {25:proceeds} — {28:the verbal suffix} {29:—} {27:is in the agent-as-object sense}. {30:That} {32:single} {31:sense} {33:too}, {35:followed} {34:by the mind}, {43:robs}, {44:carries off}, {40:the insight} {36:of this} {37:aspirant}, {39:or} {45:of the mind}, {41:whose object is the Self}, {42:the scriptural} insight, {46:since the mind is possessed by the object of that sense}. {47:When} {49:even} {48:one} {50:sense} {52:robs} {51:the insight}, {53:then} {54:all of them} {55:rob} it {56:—} {57:how} {58:much} {59:more is to be said}! {60:—} {61:that is the meaning}. {62:The illustration} {63:however} {64:is clear}. {72:To indicate} {71:that} {67:the wind's} {68:power to carry off a boat} {69:is} {70:on land} {69:not}, ‘{73:on the water}’ {75:is said}; {76:so} {78:too} {77:in the thing illustrated}, {82:only} {81:when} {80:the mind}, {79:in the place of water}, is fickle is there {83:the power to rob the insight} {84:of the sense}, {85:not} {86:—} {88:when the mind, in the place of land, is steady} {87:—} {89:this} {90:is hinted}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 9,
+          "kind": "objection"
+        },
+        {
+          "from": 10,
+          "to": 46,
+          "kind": "gloss"
+        },
+        {
+          "from": 47,
+          "to": 90,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -48559,7 +49677,34 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "{3:To} '{0:there is no} {1:understanding} {2:for the unsteadied one'} {6:He gives} {5:the cause} {4:here} {8:by} {7:'indriyāṇām'}. {9:Of the senses}, {10:unmastered}, {11:ranging at will} {12:in objects} {13:ranging} {14:amid}, {15:when} {16:even} {17:one single} {18:sense} {19:the mind} {20:follows after} — {21:mastered}, {22:being}, {25:goes} {24:along with} {23:that sense} — {26:then} {27:even} {28:that one} sense {35:robs} {33:the insight}, {34:the understanding}, {29:of a sense}, {30:of the mind} {31:or of the man}{32:,} {37:makes it} {36:scattered toward objects}. {38:How} {39:much} {40:more is to be said} when {41:many} {43:rob} {42:the insight}{44:!} {45:Just as} {49:the wind} {51:whirls about} {50:on every side} {48:the boat} {46:of a careless} {47:helmsman} — {52:so it is}{53:.}"
+      "english": "{3:To} '{0:there is no} {1:understanding} {2:for the unsteadied one'} {6:He gives} {5:the cause} {4:here} {8:by} {7:'indriyāṇām'}. {9:Of the senses}, {10:unmastered}, {11:ranging at will} {12:in objects} {13:ranging} {14:amid}, {15:when} {16:even} {17:one single} {18:sense} {19:the mind} {20:follows after} — {21:mastered}, {22:being}, {25:goes} {24:along with} {23:that sense} — {26:then} {27:even} {28:that one} sense {35:robs} {33:the insight}, {34:the understanding}, {29:of a sense}, {30:of the mind} {31:or of the man}{32:,} {37:makes it} {36:scattered toward objects}. {38:How} {39:much} {40:more is to be said} when {41:many} {43:rob} {42:the insight}{44:!} {45:Just as} {49:the wind} {51:whirls about} {50:on every side} {48:the boat} {46:of a careless} {47:helmsman} — {52:so it is}{53:.}",
+      "segments": [
+        {
+          "from": 0,
+          "to": 3,
+          "kind": "citation"
+        },
+        {
+          "from": 4,
+          "to": 6,
+          "kind": "interpretation"
+        },
+        {
+          "from": 7,
+          "to": 8,
+          "kind": "citation"
+        },
+        {
+          "from": 9,
+          "to": 37,
+          "kind": "gloss"
+        },
+        {
+          "from": 38,
+          "to": 53,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -49023,7 +50168,39 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:How} is there {3:no} {2:contemplation} {4:—} {1:for the unsteadied one}? He {5:says} {6:‘indriyāṇām’}. {8:‘anuvidhīyate’} — {9:is done}. {10:‘Surely} {11:it is by the Lord} that {12:the senses} {13:are…’} — {18:because} {14:‘understanding}, {15:knowledge’} {17:and so on} {18:are to be spoken of later}. {19:‘Insight’ (prajñā)} {20:means knowledge}. {23:It} {22:even} prevents {21:what is about to arise}, {25:that is the meaning}; {27:and} {29:there is} {28:the overcoming} {26:of what has already arisen}."
+      "english": "{0:How} is there {3:no} {2:contemplation} {4:—} {1:for the unsteadied one}? He {5:says} {6:‘indriyāṇām’}. {8:‘anuvidhīyate’} — {9:is done}. {10:‘Surely} {11:it is by the Lord} that {12:the senses} {13:are…’} — {18:because} {14:‘understanding}, {15:knowledge’} {17:and so on} {18:are to be spoken of later}. {19:‘Insight’ (prajñā)} {20:means knowledge}. {23:It} {22:even} prevents {21:what is about to arise}, {25:that is the meaning}; {27:and} {29:there is} {28:the overcoming} {26:of what has already arisen}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 4,
+          "kind": "objection"
+        },
+        {
+          "from": 5,
+          "to": 9,
+          "kind": "gloss"
+        },
+        {
+          "from": 10,
+          "to": 13,
+          "kind": "objection"
+        },
+        {
+          "from": 14,
+          "to": 18,
+          "kind": "citation"
+        },
+        {
+          "from": 19,
+          "to": 20,
+          "kind": "gloss"
+        },
+        {
+          "from": 21,
+          "to": 29,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.68": [
@@ -49349,7 +50526,19 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "pratistha"
         }
       ],
-      "english": "Since {2:the fault} {1:in the engagement of the senses} {3:has been established}, {5:therefore} — {6:of which} {7:ascetic}, {8:O} {9:mighty-armed}, the senses {10:are restrained} {11:from every side}, {12:by every kind} {13:of restraint, mental and the rest}, {14:the senses} {10:restrained} {15:from the sense-objects}, {16:sound and the rest} — {17:his} {18:insight} {19:stands firm}."
+      "english": "Since {2:the fault} {1:in the engagement of the senses} {3:has been established}, {5:therefore} — {6:of which} {7:ascetic}, {8:O} {9:mighty-armed}, the senses {10:are restrained} {11:from every side}, {12:by every kind} {13:of restraint, mental and the rest}, {14:the senses} {10:restrained} {15:from the sense-objects}, {16:sound and the rest} — {17:his} {18:insight} {19:stands firm}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 3,
+          "kind": "interpretation"
+        },
+        {
+          "from": 4,
+          "to": 19,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -49925,7 +51114,29 @@ window.GITA_COMMENTARY = {
           "morph": "ablative singular neuter (causal)"
         }
       ],
-      "english": "‘{0:hi} (since)’ — {1:since} {2:it is} {2:thus}, ‘{3:therefore}’. {5:From every side}, {6:all of them}, {7:together with the mind}. {11:Addressing} him ‘{8:O} {9:mighty-armed}’, {19:He hints}: {12:since you are able to ward off every foe}, {15:you} {17:are} {16:able} {14:also} {13:to ward off the foe that is the senses}. {21:The rest} {20:is clear}. ‘{22:Of him}’ {27:refers to} both {24:the accomplished one} {26:and} {25:the aspirant}, {36:since} {28:the senses' restraint}, {29:being for the sthita-prajña} {30:a} {31:mark} and {32:for the seeker of release} {34:a means to insight}, {36:is to be summed up}."
+      "english": "‘{0:hi} (since)’ — {1:since} {2:it is} {2:thus}, ‘{3:therefore}’. {5:From every side}, {6:all of them}, {7:together with the mind}. {11:Addressing} him ‘{8:O} {9:mighty-armed}’, {19:He hints}: {12:since you are able to ward off every foe}, {15:you} {17:are} {16:able} {14:also} {13:to ward off the foe that is the senses}. {21:The rest} {20:is clear}. ‘{22:Of him}’ {27:refers to} both {24:the accomplished one} {26:and} {25:the aspirant}, {36:since} {28:the senses' restraint}, {29:being for the sthita-prajña} {30:a} {31:mark} and {32:for the seeker of release} {34:a means to insight}, {36:is to be summed up}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 7,
+          "kind": "gloss"
+        },
+        {
+          "from": 8,
+          "to": 19,
+          "kind": "interpretation"
+        },
+        {
+          "from": 20,
+          "to": 27,
+          "kind": "gloss"
+        },
+        {
+          "from": 28,
+          "to": 36,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -50356,7 +51567,34 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{3:And} that {0:restraint of the senses} is, {1:for the state of settled wisdom}, {2:the means}, {4:stated} — {5:He sums up} {7:by} {6:'tasmāt'}. {8:In the summing-up of its being the means}: {9:his} {10:insight} {12:is to be known} as {11:firm}, {13:that is} {14:the meaning}. {17:Addressing} him {15:'O mighty-armed'} {16:—}, {26:He hints}: as you are {19:able} {18:in the subduing of foes}, so {20:your} {23:ability} {22:too} {24:may be} {21:here} {25:—}."
+      "english": "{3:And} that {0:restraint of the senses} is, {1:for the state of settled wisdom}, {2:the means}, {4:stated} — {5:He sums up} {7:by} {6:'tasmāt'}. {8:In the summing-up of its being the means}: {9:his} {10:insight} {12:is to be known} as {11:firm}, {13:that is} {14:the meaning}. {17:Addressing} him {15:'O mighty-armed'} {16:—}, {26:He hints}: as you are {19:able} {18:in the subduing of foes}, so {20:your} {23:ability} {22:too} {24:may be} {21:here} {25:—}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 5,
+          "kind": "interpretation"
+        },
+        {
+          "from": 6,
+          "to": 7,
+          "kind": "citation"
+        },
+        {
+          "from": 8,
+          "to": 14,
+          "kind": "interpretation"
+        },
+        {
+          "from": 15,
+          "to": 16,
+          "kind": "citation"
+        },
+        {
+          "from": 17,
+          "to": 26,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -50504,7 +51742,14 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "He {6:concludes} that {3:only} one {2:whose senses are restrained} {1:in every way} {4:is a knower}, {6:by} {7:‘tasmāt’}."
+      "english": "He {6:concludes} that {3:only} one {2:whose senses are restrained} {1:in every way} {4:is a knower}, {6:by} {7:‘tasmāt’}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 8,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.69": [
@@ -53328,7 +54573,44 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter (past participle)"
         }
       ],
-      "english": "{0:What} is {1:night}, {2:night}, {4:making for non-discrimination} {3:of all things} {5:because its very nature is darkness}, {6:for all beings}, {7:for all} {8:beings} — {9:what} is {10:that}? {11:The truth of the highest reality}, {13:the sphere} {12:of the man of settled wisdom}. {14:Just as} {16:what is mere day} {17:even} {18:being so} {15:for the night-rangers} {20:becomes night} {19:for others}, {22:likewise} {26:like night} {28:it is night} — {29:the truth of the highest reality} — {25:for all beings} {24:the ignorant}, {23:who stand in the place of night-rangers}, {30:because it is beyond the range} {31:of those whose understanding is not turned to it}. {32:In that}, {33:characterized by the truth of the highest reality}, {35:awakened} {34:from the sleep of ignorance}, {36:keeps watch} {37:the self-restrained one}, {38:possessed of restraint}, {39:of conquered senses}, {40:the yogin} — {41:this is} the {42:meaning}. {52:And that wherein}, {43:wherein} — {44:in the form of the distinction of grasped and grasper}, {45:in the night of ignorance} — {48:beings} {49:are awake} {46:while they are verily} {47:asleep} {50:are thus} {51:said} (to be awake), {52:wherein} {53:in which night} they are {55:like} {54:sleepers} {56:having dream-visions} — {57:that} {58:is night}, {59:because it is of the nature of ignorance}, {61:for the sage seeing} {60:the truth of the highest reality} {62:the sage}. {63:Hence} {64:works} {67:are enjoined} {66:only} {65:in the state of ignorance}, {68:not} {69:in the state of knowledge}. {70:For when knowledge is present} {71:indeed}, {72:once it exists} — {73:when the sun has risen}, {74:the sun}, {75:as the nocturnal} {77:darkness} {76:like} {79:comes to} {78:destruction} — {80:ignorance} (perishes). {81:Prior to} {82:the arising of knowledge}, {83:ignorance}, {85:being grasped} {84:by an understanding that treats it as a valid means of knowledge}, {87:being} {86:of the form of the distinctions of action, agent-factors and result}, {89:comes to assume} {88:the status of being the cause of all action}. {91:By an understanding that treats it as not a valid means of knowledge} {92:of that being grasped} {90:there is no} {93:establishing of its being the cause of action}; {101:for} {103:the agent} {104:engages} {102:in action} thinking {95:by the Veda}, {94:which has become a valid means of knowledge}, {97:is enjoined} {96:for me} {98:as a duty} {99:the action} {100:thus} — but {105:not} for him {112:whose} {111:knowledge} is {110:thus}: {106:all this} {108:whole} {109:brood of distinction is mere ignorance} {107:this}; {113:of that knower of the Self} {116:the authority} is {114:in the renunciation of all action} {115:alone}, {117:not} {118:in engagement}. {119:And so} {120:too} {121:he will show} — {122:those whose understanding is fixed on That}, {123:those whose self is That} {124:thus} {125:by the passage beginning with this} — {129:that his authority} is {126:in steadfastness in knowledge} {127:alone}, {128:his}. {130:Even there}, {131:even}, {133:engagement in action is untenable} {132:in the absence of an instigating means of knowledge} {134:—so} {135:if} (one objects), {136:no}: {137:because the cognition of the Self has one's own Self as its object}, {138:of the cognition of the Self}. {139:For not} {140:indeed} {141:of the Self} {142:regarding its own self} is there {143:dependence on an instigating means of knowledge}, {144:precisely because it is the very Self}{145:—}; {147:and} {146:because the validity of all the means of knowledge terminates in That}, {149:the means-of-knowledge-status} {148:of all the means of knowledge}. {150:For not} {151:indeed}, {153:once} {152:the Self's own nature is attained}, {156:is} {154:again} {155:the transaction of means-of-knowledge and object-of-knowledge} possible. {158:For} {160:it removes} {157:the knower-hood} {159:of the Self} — {161:the last}, {162:the final means of knowledge}; {165:and} {163:while removing} {164:in that very act} {166:it becomes a non-means-of-knowledge}, {168:like} {167:the dream-time means of knowledge} {169:on awakening}. {171:And} {170:in the world}, {174:of a means of knowledge} {173:no causality toward further activity is observed} {172:once the thing is attained}. {175:Therefore} {178:for the knower of the Self} {176:there is no} {179:authority} {178:in action} — {180:thus} {181:it is established}."
+      "english": "{0:What} is {1:night}, {2:night}, {4:making for non-discrimination} {3:of all things} {5:because its very nature is darkness}, {6:for all beings}, {7:for all} {8:beings} — {9:what} is {10:that}? {11:The truth of the highest reality}, {13:the sphere} {12:of the man of settled wisdom}. {14:Just as} {16:what is mere day} {17:even} {18:being so} {15:for the night-rangers} {20:becomes night} {19:for others}, {22:likewise} {26:like night} {28:it is night} — {29:the truth of the highest reality} — {25:for all beings} {24:the ignorant}, {23:who stand in the place of night-rangers}, {30:because it is beyond the range} {31:of those whose understanding is not turned to it}. {32:In that}, {33:characterized by the truth of the highest reality}, {35:awakened} {34:from the sleep of ignorance}, {36:keeps watch} {37:the self-restrained one}, {38:possessed of restraint}, {39:of conquered senses}, {40:the yogin} — {41:this is} the {42:meaning}. {52:And that wherein}, {43:wherein} — {44:in the form of the distinction of grasped and grasper}, {45:in the night of ignorance} — {48:beings} {49:are awake} {46:while they are verily} {47:asleep} {50:are thus} {51:said} (to be awake), {52:wherein} {53:in which night} they are {55:like} {54:sleepers} {56:having dream-visions} — {57:that} {58:is night}, {59:because it is of the nature of ignorance}, {61:for the sage seeing} {60:the truth of the highest reality} {62:the sage}. {63:Hence} {64:works} {67:are enjoined} {66:only} {65:in the state of ignorance}, {68:not} {69:in the state of knowledge}. {70:For when knowledge is present} {71:indeed}, {72:once it exists} — {73:when the sun has risen}, {74:the sun}, {75:as the nocturnal} {77:darkness} {76:like} {79:comes to} {78:destruction} — {80:ignorance} (perishes). {81:Prior to} {82:the arising of knowledge}, {83:ignorance}, {85:being grasped} {84:by an understanding that treats it as a valid means of knowledge}, {87:being} {86:of the form of the distinctions of action, agent-factors and result}, {89:comes to assume} {88:the status of being the cause of all action}. {91:By an understanding that treats it as not a valid means of knowledge} {92:of that being grasped} {90:there is no} {93:establishing of its being the cause of action}; {101:for} {103:the agent} {104:engages} {102:in action} thinking {95:by the Veda}, {94:which has become a valid means of knowledge}, {97:is enjoined} {96:for me} {98:as a duty} {99:the action} {100:thus} — but {105:not} for him {112:whose} {111:knowledge} is {110:thus}: {106:all this} {108:whole} {109:brood of distinction is mere ignorance} {107:this}; {113:of that knower of the Self} {116:the authority} is {114:in the renunciation of all action} {115:alone}, {117:not} {118:in engagement}. {119:And so} {120:too} {121:he will show} — {122:those whose understanding is fixed on That}, {123:those whose self is That} {124:thus} {125:by the passage beginning with this} — {129:that his authority} is {126:in steadfastness in knowledge} {127:alone}, {128:his}. {130:Even there}, {131:even}, {133:engagement in action is untenable} {132:in the absence of an instigating means of knowledge} {134:—so} {135:if} (one objects), {136:no}: {137:because the cognition of the Self has one's own Self as its object}, {138:of the cognition of the Self}. {139:For not} {140:indeed} {141:of the Self} {142:regarding its own self} is there {143:dependence on an instigating means of knowledge}, {144:precisely because it is the very Self}{145:—}; {147:and} {146:because the validity of all the means of knowledge terminates in That}, {149:the means-of-knowledge-status} {148:of all the means of knowledge}. {150:For not} {151:indeed}, {153:once} {152:the Self's own nature is attained}, {156:is} {154:again} {155:the transaction of means-of-knowledge and object-of-knowledge} possible. {158:For} {160:it removes} {157:the knower-hood} {159:of the Self} — {161:the last}, {162:the final means of knowledge}; {165:and} {163:while removing} {164:in that very act} {166:it becomes a non-means-of-knowledge}, {168:like} {167:the dream-time means of knowledge} {169:on awakening}. {171:And} {170:in the world}, {174:of a means of knowledge} {173:no causality toward further activity is observed} {172:once the thing is attained}. {175:Therefore} {178:for the knower of the Self} {176:there is no} {179:authority} {178:in action} — {180:thus} {181:it is established}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 8,
+          "kind": "gloss"
+        },
+        {
+          "from": 9,
+          "to": 118,
+          "kind": "interpretation"
+        },
+        {
+          "from": 119,
+          "to": 125,
+          "kind": "citation"
+        },
+        {
+          "from": 126,
+          "to": 129,
+          "kind": "interpretation"
+        },
+        {
+          "from": 130,
+          "to": 135,
+          "kind": "objection"
+        },
+        {
+          "from": 136,
+          "to": 174,
+          "kind": "reply"
+        },
+        {
+          "from": 175,
+          "to": 181,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -56115,7 +57397,44 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:Thus} {1:so} {8:it was said} that {2:the seeker of release} should, {4:with effort}, {6:restrain} {5:the senses} {3:for the firmness of insight}; {10:but} {9:for the sthita-prajña} {14:the restraint of all the senses} {12:is accomplished} {13:verily} {11:of itself} — {16:so He says} ‘{17:yā} {18:niśā}’. {20:That} {26:insight} ‘{22:I} {23:am} {23:Brahman} {24:—}’, {21:of the form of the direct realization born of the Vedānta-sentence}, {30:is} {27:for all beings}, {28:the ignorant}, {30:like} {29:night} — {31:night}, {34:since it is of an unillumined nature} {33:toward} {32:them}. {35:In that} {37:night-of-all-beings} {36:marked by the knowledge of Brahman}, ‘{38:he keeps watch}’: {40:awakened} {39:from the sleep of ignorance}, {41:being} {43:he remains} {42:attentive} — {44:the self-restrained one}, {45:possessed of restraint of the senses}, {46:the sthita-prajña}, {47:that} {48:is the meaning}. {50:But} {49:that wherein}, {52:in the ignorance-sleep} {51:marked by the dualistic view}, {55:beings}, {53:while verily asleep} {54:—}, ‘{56:are awake}’ — {58:they transact} {57:like dreamers} — {59:that} {60:is night}, {61:it does} {62:not shine}, {66:for the sage}, {67:the sthita-prajña}, {64:who sees}, {65:directly}, {63:the truth of the Self}. {69:For} {68:so long as} one is {70:not} {71:awakened} {72:there is} {73:—} {74:dream-seeing}, {75:since} {76:error} lasts up to the awakening; {78:but} {77:at the time of the knowledge of truth} {79:there is no} {82:transaction} {80:occasioned by error} {81:any}. {83:That} {84:is stated} {85:by the Vārtika-kāra}: ‘{86:In the transaction of agency} {87:indeed} {88:the pure} {89:reality} {90:is not} {91:seen}; {95:and} so, {94:when} {92:the pure} {93:reality} {94:is established}, {96:the busying with agency} {97:so}.’ ‘{98:Like crow and owl} {99:is} {100:this} {101:saṃsāra} {102:for the ignorant and the knower of the Self}; {109:Hari} {108:himself} {107:declared} “{103:what} {104:is night} {105:for all beings}” {106:—}.’ {112:Thus}, {113:he who} has {114:the contrary view} {115:—} {116:has not} {117:the seeing of the reality}, {119:since} {118:the contrary view} {119:is born of the non-seeing of the reality}; {121:and} {120:he who} has {122:the seeing of the reality} {123:—} {124:has not} {125:the contrary view}, {129:since} {126:the cause of the contrary view}, {127:the non-seeing of the reality}, {129:is sublated} {128:by the seeing of the reality}. {130:So too} {132:the śruti}: ‘{133:Where} {135:there is} {134:duality} {136:as it were}, {138:there} {139:one} {141:sees} {140:another}; {142:where} {144:for him} {145:everything} {146:has become} {147:the very} {146:Self}, {149:there} {150:by what} {152:should one see} {151:whom}?’ {153:—} {156:declaring} {155:the disposition} {154:of knowledge and ignorance}. {157:Just as} {158:for the crow}, {159:blind by night}, {160:it is day}, {161:and for the owl}, {162:blind by day}, {163:it is night}, {166:and} {167:for the owl} {165:seeing} {164:by night} {168:that which} {169:is day} {172:that} {170:is night} {171:verily} {173:for the crow} {174:—} {177:this} {175:is a great} {176:wonder}. {178:Therefore}, {179:for the seers of truth}, {180:how} {182:could there be} {181:the ignorance-born transaction of agency and the like}? {184:So} {188:the restraint of the senses} {186:is}, {187:for him}, {185:accomplished} {184:of itself} — {189:that} {190:is the meaning}."
+      "english": "{0:Thus} {1:so} {8:it was said} that {2:the seeker of release} should, {4:with effort}, {6:restrain} {5:the senses} {3:for the firmness of insight}; {10:but} {9:for the sthita-prajña} {14:the restraint of all the senses} {12:is accomplished} {13:verily} {11:of itself} — {16:so He says} ‘{17:yā} {18:niśā}’. {20:That} {26:insight} ‘{22:I} {23:am} {23:Brahman} {24:—}’, {21:of the form of the direct realization born of the Vedānta-sentence}, {30:is} {27:for all beings}, {28:the ignorant}, {30:like} {29:night} — {31:night}, {34:since it is of an unillumined nature} {33:toward} {32:them}. {35:In that} {37:night-of-all-beings} {36:marked by the knowledge of Brahman}, ‘{38:he keeps watch}’: {40:awakened} {39:from the sleep of ignorance}, {41:being} {43:he remains} {42:attentive} — {44:the self-restrained one}, {45:possessed of restraint of the senses}, {46:the sthita-prajña}, {47:that} {48:is the meaning}. {50:But} {49:that wherein}, {52:in the ignorance-sleep} {51:marked by the dualistic view}, {55:beings}, {53:while verily asleep} {54:—}, ‘{56:are awake}’ — {58:they transact} {57:like dreamers} — {59:that} {60:is night}, {61:it does} {62:not shine}, {66:for the sage}, {67:the sthita-prajña}, {64:who sees}, {65:directly}, {63:the truth of the Self}. {69:For} {68:so long as} one is {70:not} {71:awakened} {72:there is} {73:—} {74:dream-seeing}, {75:since} {76:error} lasts up to the awakening; {78:but} {77:at the time of the knowledge of truth} {79:there is no} {82:transaction} {80:occasioned by error} {81:any}. {83:That} {84:is stated} {85:by the Vārtika-kāra}: ‘{86:In the transaction of agency} {87:indeed} {88:the pure} {89:reality} {90:is not} {91:seen}; {95:and} so, {94:when} {92:the pure} {93:reality} {94:is established}, {96:the busying with agency} {97:so}.’ ‘{98:Like crow and owl} {99:is} {100:this} {101:saṃsāra} {102:for the ignorant and the knower of the Self}; {109:Hari} {108:himself} {107:declared} “{103:what} {104:is night} {105:for all beings}” {106:—}.’ {112:Thus}, {113:he who} has {114:the contrary view} {115:—} {116:has not} {117:the seeing of the reality}, {119:since} {118:the contrary view} {119:is born of the non-seeing of the reality}; {121:and} {120:he who} has {122:the seeing of the reality} {123:—} {124:has not} {125:the contrary view}, {129:since} {126:the cause of the contrary view}, {127:the non-seeing of the reality}, {129:is sublated} {128:by the seeing of the reality}. {130:So too} {132:the śruti}: ‘{133:Where} {135:there is} {134:duality} {136:as it were}, {138:there} {139:one} {141:sees} {140:another}; {142:where} {144:for him} {145:everything} {146:has become} {147:the very} {146:Self}, {149:there} {150:by what} {152:should one see} {151:whom}?’ {153:—} {156:declaring} {155:the disposition} {154:of knowledge and ignorance}. {157:Just as} {158:for the crow}, {159:blind by night}, {160:it is day}, {161:and for the owl}, {162:blind by day}, {163:it is night}, {166:and} {167:for the owl} {165:seeing} {164:by night} {168:that which} {169:is day} {172:that} {170:is night} {171:verily} {173:for the crow} {174:—} {177:this} {175:is a great} {176:wonder}. {178:Therefore}, {179:for the seers of truth}, {180:how} {182:could there be} {181:the ignorance-born transaction of agency and the like}? {184:So} {188:the restraint of the senses} {186:is}, {187:for him}, {185:accomplished} {184:of itself} — {189:that} {190:is the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 19,
+          "kind": "interpretation"
+        },
+        {
+          "from": 20,
+          "to": 67,
+          "kind": "gloss"
+        },
+        {
+          "from": 68,
+          "to": 82,
+          "kind": "interpretation"
+        },
+        {
+          "from": 83,
+          "to": 110,
+          "kind": "citation"
+        },
+        {
+          "from": 111,
+          "to": 129,
+          "kind": "interpretation"
+        },
+        {
+          "from": 130,
+          "to": 153,
+          "kind": "citation"
+        },
+        {
+          "from": 154,
+          "to": 190,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -57201,7 +58520,34 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "{0:But surely} {1:no} {2:one} {3:at all} is {10:seen} {9:in the world} who, {5:like} {4:one asleep}, is {6:void of the activity of seeing and the rest}, {8:his senses restrained} {7:in every way}; {11:so this is groundless} {12:—} {13:this} {12:mark}, {14:thus}. {15:Anticipating} this, {16:He says} {17:'yā} {18:niśā'} {19:by}. {22:What} {23:is night} {20:for all} {21:beings} — {24:like night}, {25:as it were}, {26:'night'}, namely {27:the abiding in the Self}; {30:for, because of the absence of the activity of seeing and the rest} {28:for those whose minds are veiled by the darkness of ignorance}, {29:in it}. {31:In that} {32:abiding in the Self} {33:the self-restrained one}, {34:of restrained senses}, {35:'keeps watch'}, {36:is awake}. {37:That} is night {40:for the sage} {39:who sees} {38:the truth of the Self}{41:;} {42:in it} {43:the activity of seeing and the rest} {45:there is not} {44:for him} — {46:that is} {47:the meaning}. {48:This} {49:is what is meant}{50:,}: {51:just as} {54:by night} {55:only} there is {56:seeing} {52:for the day-blind}, {53:the owls and the like}, {57:and not} {58:—} {59:by day}, {60:so} {61:for the knower of Brahman}, {63:even} {62:with eyes open}, {66:the sight} is {64:on Brahman} {65:alone}, {67:not} {68:—} {69:on objects}. {70:Hence} {72:not impossible} {71:—} {73:this} {74:mark}{75:.}"
+      "english": "{0:But surely} {1:no} {2:one} {3:at all} is {10:seen} {9:in the world} who, {5:like} {4:one asleep}, is {6:void of the activity of seeing and the rest}, {8:his senses restrained} {7:in every way}; {11:so this is groundless} {12:—} {13:this} {12:mark}, {14:thus}. {15:Anticipating} this, {16:He says} {17:'yā} {18:niśā'} {19:by}. {22:What} {23:is night} {20:for all} {21:beings} — {24:like night}, {25:as it were}, {26:'night'}, namely {27:the abiding in the Self}; {30:for, because of the absence of the activity of seeing and the rest} {28:for those whose minds are veiled by the darkness of ignorance}, {29:in it}. {31:In that} {32:abiding in the Self} {33:the self-restrained one}, {34:of restrained senses}, {35:'keeps watch'}, {36:is awake}. {37:That} is night {40:for the sage} {39:who sees} {38:the truth of the Self}{41:;} {42:in it} {43:the activity of seeing and the rest} {45:there is not} {44:for him} — {46:that is} {47:the meaning}. {48:This} {49:is what is meant}{50:,}: {51:just as} {54:by night} {55:only} there is {56:seeing} {52:for the day-blind}, {53:the owls and the like}, {57:and not} {58:—} {59:by day}, {60:so} {61:for the knower of Brahman}, {63:even} {62:with eyes open}, {66:the sight} is {64:on Brahman} {65:alone}, {67:not} {68:—} {69:on objects}. {70:Hence} {72:not impossible} {71:—} {73:this} {74:mark}{75:.}",
+      "segments": [
+        {
+          "from": 0,
+          "to": 14,
+          "kind": "objection"
+        },
+        {
+          "from": 15,
+          "to": 16,
+          "kind": "interpretation"
+        },
+        {
+          "from": 17,
+          "to": 19,
+          "kind": "citation"
+        },
+        {
+          "from": 20,
+          "to": 47,
+          "kind": "gloss"
+        },
+        {
+          "from": 48,
+          "to": 75,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -58031,7 +59377,34 @@ window.GITA_COMMENTARY = {
           "morph": "perfect, 3rd singular"
         }
       ],
-      "english": "{2:Having gathered} {0:the stated} {1:mark} into a sum, he {3:says} {4:‘yā} {5:niśā’}: {7:that which} {9:is night} {8:for all beings}, {10:marked by the nature of the Supreme Lord}, {11:wherein}, {13:as if} {12:asleep}, they {16:know} {15:nothing} {14:—} {17:in that} {19:the knower} {18:joined with restraint of the senses} {20:keeps watch}, {23:sees} {21:rightly} and {22:directly} {24:the Supreme Self}, {26:that is the meaning}. {27:And that wherein} — {28:marked by objects} — {29:beings} {30:are awake}, {31:in that}, {33:as if} {34:asleep} {32:in the night}, he {35:mostly} {36:does not} {37:know}; {39:his movement and other activity} is {38:like a madman's}. {40:That} {41:is stated} {51:by the two verses} {43:‘} {42:the body}, {44:that} {45:is not} {46:the last’} {47:‘the body} {48:too} {49:is subject to fate’}. {53:‘The sage} is one {52:given to reflection’}; He {58:states} {57:the means} {56:of the} {54:‘seeing’ one}."
+      "english": "{2:Having gathered} {0:the stated} {1:mark} into a sum, he {3:says} {4:‘yā} {5:niśā’}: {7:that which} {9:is night} {8:for all beings}, {10:marked by the nature of the Supreme Lord}, {11:wherein}, {13:as if} {12:asleep}, they {16:know} {15:nothing} {14:—} {17:in that} {19:the knower} {18:joined with restraint of the senses} {20:keeps watch}, {23:sees} {21:rightly} and {22:directly} {24:the Supreme Self}, {26:that is the meaning}. {27:And that wherein} — {28:marked by objects} — {29:beings} {30:are awake}, {31:in that}, {33:as if} {34:asleep} {32:in the night}, he {35:mostly} {36:does not} {37:know}; {39:his movement and other activity} is {38:like a madman's}. {40:That} {41:is stated} {51:by the two verses} {43:‘} {42:the body}, {44:that} {45:is not} {46:the last’} {47:‘the body} {48:too} {49:is subject to fate’}. {53:‘The sage} is one {52:given to reflection’}; He {58:states} {57:the means} {56:of the} {54:‘seeing’ one}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 6,
+          "kind": "interpretation"
+        },
+        {
+          "from": 7,
+          "to": 39,
+          "kind": "gloss"
+        },
+        {
+          "from": 40,
+          "to": 41,
+          "kind": "interpretation"
+        },
+        {
+          "from": 42,
+          "to": 50,
+          "kind": "citation"
+        },
+        {
+          "from": 51,
+          "to": 58,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.70": [
@@ -58959,7 +60332,19 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{18:Just as} into {9:the sea}, {0:being filled} {1:by the waters}, {2:unmoving in its station} — {6:that whose} {4:station}, {5:abiding}, {3:is by unmovingness} — into {7:that} {8:unmoving-stationed} sea {10:the waters}, {12:come} {11:from every side}, {13:enter}, it {17:remaining} {14:established in itself}, {15:unmodified} {16:indeed} — {19:so} {20:the desires}, {22:even} {21:in the presence of objects}, {24:the particular cravings} {23:from every side}, which {31:enter} {25:the} {26:man} — {28:as} {29:the waters} {27:the sea} — {30:without modifying him}, {32:all} {35:dissolve} {33:in the Self} {34:alone}, {38:do} {36:not} {38:bring} him {37:under their own sway} — {39:he} {42:attains} {40:peace}, {41:liberation}; {43:not} {44:the other}, {45:the desire-desirer}. {48:'kāmāḥ'} are {49:objects}, {46:'that which is desired'} {47:so called}; {53:he whose} {52:habit} is {51:to desire} {50:them} {54:he} is {55:the desirer-of-desires}; {58:he does} {56:not} {57:at all} {58:attain} it, {59:thus} is the {60:meaning}."
+      "english": "{18:Just as} into {9:the sea}, {0:being filled} {1:by the waters}, {2:unmoving in its station} — {6:that whose} {4:station}, {5:abiding}, {3:is by unmovingness} — into {7:that} {8:unmoving-stationed} sea {10:the waters}, {12:come} {11:from every side}, {13:enter}, it {17:remaining} {14:established in itself}, {15:unmodified} {16:indeed} — {19:so} {20:the desires}, {22:even} {21:in the presence of objects}, {24:the particular cravings} {23:from every side}, which {31:enter} {25:the} {26:man} — {28:as} {29:the waters} {27:the sea} — {30:without modifying him}, {32:all} {35:dissolve} {33:in the Self} {34:alone}, {38:do} {36:not} {38:bring} him {37:under their own sway} — {39:he} {42:attains} {40:peace}, {41:liberation}; {43:not} {44:the other}, {45:the desire-desirer}. {48:'kāmāḥ'} are {49:objects}, {46:'that which is desired'} {47:so called}; {53:he whose} {52:habit} is {51:to desire} {50:them} {54:he} is {55:the desirer-of-desires}; {58:he does} {56:not} {57:at all} {58:attain} it, {59:thus} is the {60:meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 55,
+          "kind": "gloss"
+        },
+        {
+          "from": 56,
+          "to": 60,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -60657,7 +62042,24 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter (gerundive)"
         }
       ],
-      "english": "That for {0:such a one}, the {1:sthita-prajña}, {3:even} {2:the calming of all distraction} is {4:automatically achieved}, {5:thus} {7:He states} {6:with an illustration} by {8:‘āpūryamāṇam’} {9:—}. {12:Being filled} {10:by all} {11:the rivers}, {13:being} so, the {14:waters arising from rain and the rest} {15:too}, {16:all of them}, {17:the waters}, {19:enter} the {18:sea}. {20:What kind of} sea? {21:‘Unmoving in its station’}, {22:not overstepping its bound}; {28:or} {25:‘the station} {23:of the unmoving} (mountains), {24:Maināka and the rest} {26:that in which} they have, {27:thus} — by which {29:excess of depth} {30:is stated}. {31:Just as}, {32:by which} {33:manner} {34:of being unmodified}, {35:so}, {36:by that} {37:very} {38:manner of being unmodified}, the {40:sthita-prajña} {39:whom}, {43:remaining} {41:unmodified} {42:verily}, the {44:desires} — the {50:objects}, {48:sound and the rest}, {47:being desired} {45:by the ignorant} {46:folk} — {49:all} {53:enter} {51:unavoidably} {52:by force of commenced karma} {54:but} {57:cannot} {56:modify} {55:—}, {58:that one}, {59:in the place of the great sea}, the {60:sthita-prajña}, {65:attains} {61:peace} — {62:the cessation of all worldly and supra-worldly distraction of action}, {64:and} {63:the cessation of the effects of the sublated-but-continuing ignorance} — {66:by the power of knowledge}. {67:Not} the {68:desire-desirer}: {73:he whose} {72:nature} is {71:to desire} the {69:desires}, the {70:objects}, {74:he}, the {75:desire-desirer}, {76:the ignorant}, {79:does not} {80:attain} the {78:aforesaid} {77:peace}; {81:rather} {82:but} he is, {83:at all times}, {87:sunk} {85:in the great} {86:ocean of affliction} {84:by the distraction of worldly and supra-worldly action} {88:is} {89:—} {90:that is the sense of the sentence}. {91:By this} it {107:is stated and} {108:is to be understood} that {95:the renunciation-of-the-knower}, {94:being the fruit} {92:of the knower} {93:alone}, {98:and} {99:of the form of the cessation of all distraction}, {97:alone} {96:his} {100:liberation-while-living}, {103:and even} {104:the being-unmodified} {102:in the experience of objects fallen to one} {101:by fate}, {105:and} {106:so on}, are stated."
+      "english": "That for {0:such a one}, the {1:sthita-prajña}, {3:even} {2:the calming of all distraction} is {4:automatically achieved}, {5:thus} {7:He states} {6:with an illustration} by {8:‘āpūryamāṇam’} {9:—}. {12:Being filled} {10:by all} {11:the rivers}, {13:being} so, the {14:waters arising from rain and the rest} {15:too}, {16:all of them}, {17:the waters}, {19:enter} the {18:sea}. {20:What kind of} sea? {21:‘Unmoving in its station’}, {22:not overstepping its bound}; {28:or} {25:‘the station} {23:of the unmoving} (mountains), {24:Maināka and the rest} {26:that in which} they have, {27:thus} — by which {29:excess of depth} {30:is stated}. {31:Just as}, {32:by which} {33:manner} {34:of being unmodified}, {35:so}, {36:by that} {37:very} {38:manner of being unmodified}, the {40:sthita-prajña} {39:whom}, {43:remaining} {41:unmodified} {42:verily}, the {44:desires} — the {50:objects}, {48:sound and the rest}, {47:being desired} {45:by the ignorant} {46:folk} — {49:all} {53:enter} {51:unavoidably} {52:by force of commenced karma} {54:but} {57:cannot} {56:modify} {55:—}, {58:that one}, {59:in the place of the great sea}, the {60:sthita-prajña}, {65:attains} {61:peace} — {62:the cessation of all worldly and supra-worldly distraction of action}, {64:and} {63:the cessation of the effects of the sublated-but-continuing ignorance} — {66:by the power of knowledge}. {67:Not} the {68:desire-desirer}: {73:he whose} {72:nature} is {71:to desire} the {69:desires}, the {70:objects}, {74:he}, the {75:desire-desirer}, {76:the ignorant}, {79:does not} {80:attain} the {78:aforesaid} {77:peace}; {81:rather} {82:but} he is, {83:at all times}, {87:sunk} {85:in the great} {86:ocean of affliction} {84:by the distraction of worldly and supra-worldly action} {88:is} {89:—} {90:that is the sense of the sentence}. {91:By this} it {107:is stated and} {108:is to be understood} that {95:the renunciation-of-the-knower}, {94:being the fruit} {92:of the knower} {93:alone}, {98:and} {99:of the form of the cessation of all distraction}, {97:alone} {96:his} {100:liberation-while-living}, {103:and even} {104:the being-unmodified} {102:in the experience of objects fallen to one} {101:by fate}, {105:and} {106:so on}, are stated.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 9,
+          "kind": "interpretation"
+        },
+        {
+          "from": 10,
+          "to": 57,
+          "kind": "gloss"
+        },
+        {
+          "from": 58,
+          "to": 108,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -61356,7 +62758,24 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:But surely}, {2:in the absence of sight} {1:toward objects}, {3:how} {4:does he} {6:enjoy} {5:them}? {7:Thus} {8:expecting this}, {9:He says} {10:'āpūryamāṇam'} {11:by}. {23:Just as} into {18:the sea}, {13:though filled} {12:by various streams and rivers} {14:yet} {15:'unmoving in its station'}, {16:not overstepping its bound}{17:,} {21:other} {22:waters} {19:again} {20:also} {24:enter}, {25:so} {26:the desires}, {27:the objects}, {37:enter} {29:the sage} {28:whom}, {30:of inward sight}, {32:who is unmodified} {31:by the enjoyments}{33:,} {35:drawn in} {34:by commenced karma}, {36:being}; {38:he} {41:attains} {39:peace}, {40:isolation (kaivalya)}. {42:But not} {44:the desire-desirer}, {45:whose nature is the craving for enjoyment}."
+      "english": "{0:But surely}, {2:in the absence of sight} {1:toward objects}, {3:how} {4:does he} {6:enjoy} {5:them}? {7:Thus} {8:expecting this}, {9:He says} {10:'āpūryamāṇam'} {11:by}. {23:Just as} into {18:the sea}, {13:though filled} {12:by various streams and rivers} {14:yet} {15:'unmoving in its station'}, {16:not overstepping its bound}{17:,} {21:other} {22:waters} {19:again} {20:also} {24:enter}, {25:so} {26:the desires}, {27:the objects}, {37:enter} {29:the sage} {28:whom}, {30:of inward sight}, {32:who is unmodified} {31:by the enjoyments}{33:,} {35:drawn in} {34:by commenced karma}, {36:being}; {38:he} {41:attains} {39:peace}, {40:isolation (kaivalya)}. {42:But not} {44:the desire-desirer}, {45:whose nature is the craving for enjoyment}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 9,
+          "kind": "objection"
+        },
+        {
+          "from": 10,
+          "to": 11,
+          "kind": "citation"
+        },
+        {
+          "from": 12,
+          "to": 45,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -61902,7 +63321,24 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:Thereby} He {2:states} {1:the manner of his experience of objects} {3:by ‘āpūryamāṇam’}. {5:He who}, {8:though} {7:being filled} {6:by objects}, {10:remains} {9:‘unmoving in his station’}, {11:does not} {13:attain} {12:swelling}, {15:and} {17:does} {14:not} make {16:effort}, {19:and} {22:does not} {21:dry up} {20:in their absence} — {23:for} {24:the sea} {27:does not attain} {26:great} {25:increase or shrinkage occasioned by the entry or non-entry of rivers}, {29:nor} {30:make} {28:effort} — {31:he} {33:attains} {32:liberation}, {35:that is the meaning}."
+      "english": "{0:Thereby} He {2:states} {1:the manner of his experience of objects} {3:by ‘āpūryamāṇam’}. {5:He who}, {8:though} {7:being filled} {6:by objects}, {10:remains} {9:‘unmoving in his station’}, {11:does not} {13:attain} {12:swelling}, {15:and} {17:does} {14:not} make {16:effort}, {19:and} {22:does not} {21:dry up} {20:in their absence} — {23:for} {24:the sea} {27:does not attain} {26:great} {25:increase or shrinkage occasioned by the entry or non-entry of rivers}, {29:nor} {30:make} {28:effort} — {31:he} {33:attains} {32:liberation}, {35:that is the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 4,
+          "kind": "interpretation"
+        },
+        {
+          "from": 5,
+          "to": 21,
+          "kind": "gloss"
+        },
+        {
+          "from": 22,
+          "to": 35,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.71": [
@@ -62674,7 +64110,29 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:Giving up}, {1:abandoning}, {2:desires} — {3:he}, {4:the renunciant} {5:man}, {6:all of them}, {7:without remainder}, {8:in their entirety}, {9:moves}: {11:he goes about} {10:with effort confined to mere living}, {12:that is} the {13:meaning}. {14:'Free of longing'}: {19:he from whom} {18:longing} {17:has departed} {16:even} {15:toward mere bodily living} {20:is} {21:'free of longing'}; {22:being} so, {23:'without mineness'}: {29:devoid of the clinging} {26:'this} {27:is mine'} {28:—} {25:even} {24:toward the possessions drawn in for mere bodily living}; {30:'without I-making'}: {31:devoid of the self-imagining occasioned by being learned and the like} {32:—that} {33:is what is meant}. {34:Such a one}, {35:being so}, {36:the sthita-prajña}, {37:the knower of Brahman}, {41:attains} {38:peace}, {39:marked by the cessation of all the sorrow of saṃsāra}, {40:called nirvāṇa} {42:— he attains it}, {43:he becomes Brahman}, {44:he becomes (that)}, {45:thus} is the {46:meaning}."
+      "english": "{0:Giving up}, {1:abandoning}, {2:desires} — {3:he}, {4:the renunciant} {5:man}, {6:all of them}, {7:without remainder}, {8:in their entirety}, {9:moves}: {11:he goes about} {10:with effort confined to mere living}, {12:that is} the {13:meaning}. {14:'Free of longing'}: {19:he from whom} {18:longing} {17:has departed} {16:even} {15:toward mere bodily living} {20:is} {21:'free of longing'}; {22:being} so, {23:'without mineness'}: {29:devoid of the clinging} {26:'this} {27:is mine'} {28:—} {25:even} {24:toward the possessions drawn in for mere bodily living}; {30:'without I-making'}: {31:devoid of the self-imagining occasioned by being learned and the like} {32:—that} {33:is what is meant}. {34:Such a one}, {35:being so}, {36:the sthita-prajña}, {37:the knower of Brahman}, {41:attains} {38:peace}, {39:marked by the cessation of all the sorrow of saṃsāra}, {40:called nirvāṇa} {42:— he attains it}, {43:he becomes Brahman}, {44:he becomes (that)}, {45:thus} is the {46:meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 11,
+          "kind": "gloss"
+        },
+        {
+          "from": 12,
+          "to": 13,
+          "kind": "interpretation"
+        },
+        {
+          "from": 14,
+          "to": 33,
+          "kind": "gloss"
+        },
+        {
+          "from": 34,
+          "to": 46,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -63883,7 +65341,19 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:Since} it is {1:thus}, {2:therefore} {3:‘vihāya’} {4:—}. {6:Even} {5:the gained ones} — {7:all} the {8:outer}, {9:house, field and the rest}; the {10:inner}, {11:of the form of mental kingdom}; {13:and} {12:the mere latent impressions}; and, {15:while walking} {14:the path}, {16:of the form of the touch of grass} — these {18:threefold} {17:desires}, {19:giving up}, {20:disregarding}, {23:being free of longing} {22:even} toward {21:mere bodily living}; {25:since} he is {26:‘without I-making’}, {31:void of the conceit} {28:‘this} {29:I} {30:am’} toward {27:body, senses and the rest}, {34:or} {32:devoid of the self-imagining occasioned by being learned and the like} {33:—}; {35:hence} {36:‘without mineness’}, {44:devoid of the conceit} {41:‘this} {42:is mine’} {43:—} {38:even} toward {40:the loincloth, covering and the like} {39:drawn in by commenced karma} {37:for mere bodily sustenance} — {45:being so}, the {47:man} {46:who} {48:‘moves’}, who {49:by force of commenced karma} {51:enjoys} {50:enjoyments}, {57:or} {55:goes} {53:wherever} {54:anywhere at all} {52:spontaneously} {56:—}, {58:such a one}, {59:being so}, the {60:sthita-prajña}, {64:attains} {61:peace}, {62:marked by the cessation of all the sorrow of saṃsāra}, {63:the cessation of ignorance and its effect}, {66:gains it} {65:by the power of knowledge}. {67:Thus} {68:this} {69:kind of} {70:‘moving’} is {71:the sthita-prajña’s} {72:—} the {74:answer} {73:to the fourth question} {75:is completed}."
+      "english": "{0:Since} it is {1:thus}, {2:therefore} {3:‘vihāya’} {4:—}. {6:Even} {5:the gained ones} — {7:all} the {8:outer}, {9:house, field and the rest}; the {10:inner}, {11:of the form of mental kingdom}; {13:and} {12:the mere latent impressions}; and, {15:while walking} {14:the path}, {16:of the form of the touch of grass} — these {18:threefold} {17:desires}, {19:giving up}, {20:disregarding}, {23:being free of longing} {22:even} toward {21:mere bodily living}; {25:since} he is {26:‘without I-making’}, {31:void of the conceit} {28:‘this} {29:I} {30:am’} toward {27:body, senses and the rest}, {34:or} {32:devoid of the self-imagining occasioned by being learned and the like} {33:—}; {35:hence} {36:‘without mineness’}, {44:devoid of the conceit} {41:‘this} {42:is mine’} {43:—} {38:even} toward {40:the loincloth, covering and the like} {39:drawn in by commenced karma} {37:for mere bodily sustenance} — {45:being so}, the {47:man} {46:who} {48:‘moves’}, who {49:by force of commenced karma} {51:enjoys} {50:enjoyments}, {57:or} {55:goes} {53:wherever} {54:anywhere at all} {52:spontaneously} {56:—}, {58:such a one}, {59:being so}, the {60:sthita-prajña}, {64:attains} {61:peace}, {62:marked by the cessation of all the sorrow of saṃsāra}, {63:the cessation of ignorance and its effect}, {66:gains it} {65:by the power of knowledge}. {67:Thus} {68:this} {69:kind of} {70:‘moving’} is {71:the sthita-prajña’s} {72:—} the {74:answer} {73:to the fourth question} {75:is completed}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 57,
+          "kind": "gloss"
+        },
+        {
+          "from": 58,
+          "to": 75,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -64402,7 +65872,24 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:Since} {1:it is thus}, {2:therefore} {3:'vihāya'} {4:by}. {7:Giving up} {5:the gained} {6:desires}, {8:abandoning}, {9:disregarding} them, {11:and} {12:'free of longing'} {10:toward the ungained}; {13:since} he is {14:'without I-making'}, {15:and hence} {17:'without mineness'} {16:toward the means of their enjoyment}, {18:being}, {20:having become} {19:of inward sight}, {21:the man who} {22:'moves'}, who {23:by force of commenced karma} {25:enjoys} {24:enjoyments}, {26:wherever} {27:anywhere} {28:whatever} {30:or} {29:goes} — {31:he} {33:attains} {32:peace}."
+      "english": "{0:Since} {1:it is thus}, {2:therefore} {3:'vihāya'} {4:by}. {7:Giving up} {5:the gained} {6:desires}, {8:abandoning}, {9:disregarding} them, {11:and} {12:'free of longing'} {10:toward the ungained}; {13:since} he is {14:'without I-making'}, {15:and hence} {17:'without mineness'} {16:toward the means of their enjoyment}, {18:being}, {20:having become} {19:of inward sight}, {21:the man who} {22:'moves'}, who {23:by force of commenced karma} {25:enjoys} {24:enjoyments}, {26:wherever} {27:anywhere} {28:whatever} {30:or} {29:goes} — {31:he} {33:attains} {32:peace}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 2,
+          "kind": "interpretation"
+        },
+        {
+          "from": 3,
+          "to": 4,
+          "kind": "citation"
+        },
+        {
+          "from": 5,
+          "to": 33,
+          "kind": "gloss"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -64787,7 +66274,24 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "He {2:elaborates} {0:that very thing} {3:by ‘vihāya’}. {8:Giving up} {5:desires}, {6:objects}, {7:with freedom from longing}, {9:he who} {10:‘moves’} {11:— eats}; {16:and} {15:is devoid of the I-making and mineness} {12:‘I eat’} {14:and the like} — {17:he} {18:indeed} {19:is the (true) man}; {20:he} {21:alone} {23:attains} {22:liberation}, {25:that is the meaning}."
+      "english": "He {2:elaborates} {0:that very thing} {3:by ‘vihāya’}. {8:Giving up} {5:desires}, {6:objects}, {7:with freedom from longing}, {9:he who} {10:‘moves’} {11:— eats}; {16:and} {15:is devoid of the I-making and mineness} {12:‘I eat’} {14:and the like} — {17:he} {18:indeed} {19:is the (true) man}; {20:he} {21:alone} {23:attains} {22:liberation}, {25:that is the meaning}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 4,
+          "kind": "interpretation"
+        },
+        {
+          "from": 5,
+          "to": 15,
+          "kind": "gloss"
+        },
+        {
+          "from": 16,
+          "to": 25,
+          "kind": "interpretation"
+        }
+      ]
     }
   ],
   "2.72": [
@@ -65638,7 +67142,29 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "{0:This} {1:aforesaid} {2:'Brahmic'} — {4:being} {3:in Brahman} — {5:this} {6:state}: {12:the abiding} {10:in the very form of Brahman} {11:itself}, {9:having renounced} {7:all} {8:action} — {13:that} {14:is what it is}. {15:O} {16:Pārtha}, {20:attaining}, {21:gaining}, {18:this} {19:state}, one {22:is not} {23:deluded}, {24:does not} {26:come to} {25:delusion}. {27:Abiding} {28:in this}, {30:in the Brahmic} {29:state}, {31:the aforesaid}, {33:even} {32:at the final time}, {36:even} {34:in the last} {35:age}, one {40:attains}, {41:goes to}, {37:brahma-nirvāṇa}, {38:the bliss-extinction in Brahman}, {39:liberation}. {42:How} {43:much} {44:more is to be said} of one who, {47:having renounced} {45:from the stage of studentship} {46:itself}, {48:life-long} {49:who} {52:abides} {50:in Brahman} {51:alone} — {53:he} {55:attains} {54:brahma-nirvāṇa} {56:thus}."
+      "english": "{0:This} {1:aforesaid} {2:'Brahmic'} — {4:being} {3:in Brahman} — {5:this} {6:state}: {12:the abiding} {10:in the very form of Brahman} {11:itself}, {9:having renounced} {7:all} {8:action} — {13:that} {14:is what it is}. {15:O} {16:Pārtha}, {20:attaining}, {21:gaining}, {18:this} {19:state}, one {22:is not} {23:deluded}, {24:does not} {26:come to} {25:delusion}. {27:Abiding} {28:in this}, {30:in the Brahmic} {29:state}, {31:the aforesaid}, {33:even} {32:at the final time}, {36:even} {34:in the last} {35:age}, one {40:attains}, {41:goes to}, {37:brahma-nirvāṇa}, {38:the bliss-extinction in Brahman}, {39:liberation}. {42:How} {43:much} {44:more is to be said} of one who, {47:having renounced} {45:from the stage of studentship} {46:itself}, {48:life-long} {49:who} {52:abides} {50:in Brahman} {51:alone} — {53:he} {55:attains} {54:brahma-nirvāṇa} {56:thus}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 12,
+          "kind": "gloss"
+        },
+        {
+          "from": 13,
+          "to": 14,
+          "kind": "interpretation"
+        },
+        {
+          "from": 15,
+          "to": 41,
+          "kind": "gloss"
+        },
+        {
+          "from": 42,
+          "to": 56,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhusudana",
@@ -67180,7 +68706,34 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:Thus}, {1:in this way}, {4:by way of the answer} {2:to the four} {3:questions}, {5:all} {6:the marks of the sthita-prajña} {8:have been told} {7:as what is to be done by the seeker of release}. {9:Now}, {12:praising} {11:the Sāṅkhya-steadfastness} {10:that is the fruit of karma-yoga}, {13:He sums up} by {14:‘eṣā’} {15:—}. {16:This} — {18:told} {17:by way of the marks of the sthita-prajña}, {25:and} {19:this} {21:spoken} {20:to you} {26:earlier} as {23:‘this understanding} {22:in Sāṅkhya’} {24:—} {27:spoken} — {28:the state}, {29:the steadfastness}, {30:marked by the knowledge of the Supreme Self preceded by the renunciation of all action}, {31:‘Brahmic’}, {32:having Brahman for its object}. {33:O} {34:Pārtha}, {37:attaining} {35:this} {36:state}, {38:whoever} {39:it be} {40:even} {42:is not} {41:again} {43:deluded}; {45:for} there {50:is} {44:no} {49:recurrence} {47:of an ignorance} {46:sublated by knowledge}, {48:again} since, {51:being beginningless}, {52:its arising is impossible}. {83:Abiding} {53:in this} {54:state} {56:even} {55:at the final time}, {58:even} {57:in the last} {59:age}, {60:abiding}, one {69:‘attains’}, {70:goes} {71:without difference} to {61:brahma-nirvāṇa} — {63:extinction} {62:in Brahman}, {64:the bliss}, {68:or} {66:the extinction} {65:that is of the form of Brahman} {67:—}. {72:How} {73:much} {74:more is to be said} of {75:one who}, {78:having renounced} {76:from studentship} {77:itself}, {79:life-long} {83:abides} {80:in this} {81:Brahmic} {82:state} — {84:he} {86:attains} {85:brahma-nirvāṇa} {87:—} {88:this is the sense of the word ‘api’} {89:—}. So ends, in the {91:Gūḍhārtha-dīpikā on the Bhagavad-Gītā} {90:composed by Madhusūdana Sarasvatī, disciple at the feet of Viśveśvara Sarasvatī, the supreme-swan wandering-mendicant teacher}, {94:the second} {95:chapter} {93:called} {92:‘the threading-together of all the meaning of the Gītā’}."
+      "english": "{0:Thus}, {1:in this way}, {4:by way of the answer} {2:to the four} {3:questions}, {5:all} {6:the marks of the sthita-prajña} {8:have been told} {7:as what is to be done by the seeker of release}. {9:Now}, {12:praising} {11:the Sāṅkhya-steadfastness} {10:that is the fruit of karma-yoga}, {13:He sums up} by {14:‘eṣā’} {15:—}. {16:This} — {18:told} {17:by way of the marks of the sthita-prajña}, {25:and} {19:this} {21:spoken} {20:to you} {26:earlier} as {23:‘this understanding} {22:in Sāṅkhya’} {24:—} {27:spoken} — {28:the state}, {29:the steadfastness}, {30:marked by the knowledge of the Supreme Self preceded by the renunciation of all action}, {31:‘Brahmic’}, {32:having Brahman for its object}. {33:O} {34:Pārtha}, {37:attaining} {35:this} {36:state}, {38:whoever} {39:it be} {40:even} {42:is not} {41:again} {43:deluded}; {45:for} there {50:is} {44:no} {49:recurrence} {47:of an ignorance} {46:sublated by knowledge}, {48:again} since, {51:being beginningless}, {52:its arising is impossible}. {83:Abiding} {53:in this} {54:state} {56:even} {55:at the final time}, {58:even} {57:in the last} {59:age}, {60:abiding}, one {69:‘attains’}, {70:goes} {71:without difference} to {61:brahma-nirvāṇa} — {63:extinction} {62:in Brahman}, {64:the bliss}, {68:or} {66:the extinction} {65:that is of the form of Brahman} {67:—}. {72:How} {73:much} {74:more is to be said} of {75:one who}, {78:having renounced} {76:from studentship} {77:itself}, {79:life-long} {83:abides} {80:in this} {81:Brahmic} {82:state} — {84:he} {86:attains} {85:brahma-nirvāṇa} {87:—} {88:this is the sense of the word ‘api’} {89:—}. So ends, in the {91:Gūḍhārtha-dīpikā on the Bhagavad-Gītā} {90:composed by Madhusūdana Sarasvatī, disciple at the feet of Viśveśvara Sarasvatī, the supreme-swan wandering-mendicant teacher}, {94:the second} {95:chapter} {93:called} {92:‘the threading-together of all the meaning of the Gītā’}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 15,
+          "kind": "interpretation"
+        },
+        {
+          "from": 16,
+          "to": 43,
+          "kind": "gloss"
+        },
+        {
+          "from": 44,
+          "to": 52,
+          "kind": "interpretation"
+        },
+        {
+          "from": 53,
+          "to": 71,
+          "kind": "gloss"
+        },
+        {
+          "from": 72,
+          "to": 95,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "sridhara",
@@ -68107,7 +69660,34 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{2:Praising} {0:the stated} {1:steadfastness in knowledge}, {3:He sums up} {5:by} {4:'eṣā'}. {6:The 'Brahmic'} {7:state} {8:is the steadfastness in the knowledge of Brahman}; {9:such is this}, {10:of such a kind}. {15:Attaining} {11:it}, {14:the man} {13:whose inner organ is purified} {12:by the worship of the Supreme Lord} {16:is not} {17:deluded}; {18:he} {20:does} {21:not} {18:again} {21:attain} {19:the delusion of saṃsāra}. {22:Since}, {23:at the final time}, {24:the time of death}, {25:even} {29:having abided} {26:in it} {28:even} {27:for a mere instant}, {34:he reaches}, {35:attains}, {30:brahma-nirvāṇa}, {32:dissolution} {31:in Brahman}, {33:dissolution}; {36:how} {37:much more} {38:is to be said} of one who {42:attains it} {40:beginning from} {39:childhood} {41:having abided} — {43:so}. {45:He who}, {46:by the teaching of Sāṅkhya and Yoga}, {47:lifted up} {49:his devotee} {48:Arjuna} {44:sunk in the mire of grief} — {50:that} {51:Kṛṣṇa} {52:is the refuge} {53:my}. {54:Thus, here ends}, {57:in the Subodhinī}, {56:the gloss on the Bhagavad-gītā} {55:composed by Śrī Śrīdhara Svāmin}, {58:the second} {59:chapter}."
+      "english": "{2:Praising} {0:the stated} {1:steadfastness in knowledge}, {3:He sums up} {5:by} {4:'eṣā'}. {6:The 'Brahmic'} {7:state} {8:is the steadfastness in the knowledge of Brahman}; {9:such is this}, {10:of such a kind}. {15:Attaining} {11:it}, {14:the man} {13:whose inner organ is purified} {12:by the worship of the Supreme Lord} {16:is not} {17:deluded}; {18:he} {20:does} {21:not} {18:again} {21:attain} {19:the delusion of saṃsāra}. {22:Since}, {23:at the final time}, {24:the time of death}, {25:even} {29:having abided} {26:in it} {28:even} {27:for a mere instant}, {34:he reaches}, {35:attains}, {30:brahma-nirvāṇa}, {32:dissolution} {31:in Brahman}, {33:dissolution}; {36:how} {37:much more} {38:is to be said} of one who {42:attains it} {40:beginning from} {39:childhood} {41:having abided} — {43:so}. {45:He who}, {46:by the teaching of Sāṅkhya and Yoga}, {47:lifted up} {49:his devotee} {48:Arjuna} {44:sunk in the mire of grief} — {50:that} {51:Kṛṣṇa} {52:is the refuge} {53:my}. {54:Thus, here ends}, {57:in the Subodhinī}, {56:the gloss on the Bhagavad-gītā} {55:composed by Śrī Śrīdhara Svāmin}, {58:the second} {59:chapter}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 3,
+          "kind": "interpretation"
+        },
+        {
+          "from": 4,
+          "to": 5,
+          "kind": "citation"
+        },
+        {
+          "from": 6,
+          "to": 42,
+          "kind": "gloss"
+        },
+        {
+          "from": 43,
+          "to": 53,
+          "kind": "citation"
+        },
+        {
+          "from": 54,
+          "to": 59,
+          "kind": "interpretation"
+        }
+      ]
     },
     {
       "voiceId": "madhva",
@@ -78991,7 +80571,219 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:He sums up} by {1:‘eṣā’}. The {3:‘Brahmic’} {4:state} is {6:the abiding} {5:whose object is Brahman}, {7:the mark}. {8:Even at the final time}, {9:even} {11:having abided} {10:in it}, {14:he goes} {13:to Brahman}; {15:otherwise} {17:he attains} {16:another birth}, since {23:it will be said} {18:‘whom} {19:whomsoever} {20:or} {21:even}{22:’} (one remembers at the end). For {24:knowers} {25:too}, {26:while} {27:commenced karma} remains, {28:another body} {29:is fitting}; for {35:it is said} {30:‘but by experience} {32:the others}{33:’} (exhaust their karma); and {36:there are} {37:indeed} {40:some} {39:karmas} {38:whose fruit is many bodies}, as {42:‘the brāhmaṇa} {43:would be (born)} {41:in seven lifetimes’} {44:and} {45:so on}; and {46:it is seen} {49:that even} {48:knowers} {50:attain many bodies}. As {53:stated} {52:for} it in {68:the Garuḍa}: {54:‘Even the sthita-prajña} {55:even} {56:who} {57:indeed} {58:is high}, {59:having attained} {60:the Raudra station}, {61:then} {63:then} {62:the Sāṅkarṣaṇa}, {65:went} {64:to liberation} {66:by the grace of Viṣṇu}{67:’}. And in {76:the Nāradīya}, {69:‘O Mahādeva}, {72:your} {73:liberation} {74:is determined} {70:in a further} {71:birth}{75:’}. And {79:knowledge} {77:has a determined fruit} {78:and}, by the {93:śrutis} {80:‘for him} {81:so long} {82:only} is there {83:delay’}, {84:‘and he who} {85:indeed} {86:and} {88:to the flame} {89:indeed} {90:attains’} {91:and} {92:the rest}. {94:Nor} {95:and} is there {96:dependence on a body-aggregate}, by the {108:statements} {97:‘that} {98:as} {99:a reed-tuft’} (is burnt), {100:‘that} {101:as} {102:a lotus-leaf’} (is not wetted), {103:‘the fire of knowledge} (burns up) {104:all} {105:karmas’} {106:and} {107:the like}. {110:But} {109:in commenced karma} {111:there is no contradiction}; {113:and} {112:for want of evidence} (to the contrary). {114:And} {115:that} {116:scripture} {117:is not authoritative}, since {127:it is censured}: {125:‘Those of little mind} {122:who}, {121:relying on} {120:the doctrine} {118:of the followers of Akṣapāda and Kaṇāda} {119:and the matted-haired of Sāṅkhya and Yoga}, {124:find fault with} {123:the Veda}’ {126:thus}. But {128:where} {129:but} there is {130:praise}, {131:there} it is {133:merely the character of praise} {134:merely} {132:of the devotees of Śiva}, {135:not} {136:its truth}; for {139:they} {137:have} {138:for} {140:even} {142:no authority} {141:in a matter contradicting the other texts}. {143:Likewise} {144:for} {145:it is said}: {146:‘This} {147:delusion} {148:I send forth} {149:quickly}, {150:which} {152:will delude} {151:men}; {153:and you}, {155:O Rudra} {156:of mighty arm}, {158:cause to be made} {157:delusion-scriptures} — {161:show forth} {159:the untrue} {160:the false}, {162:O mighty-armed}; {164:make} {166:yourself} {163:manifest} {165:and} {170:make} {169:Me} {167:unmanifest} {168:and}’ — {171:thus} in {172:the Vārāha}. {173:‘The base} {174:and} {175:mixed} {179:scriptures} {176:Rudra}, {177:impelled by Viṣṇu}, {178:made} — {180:the all-pervading one}; {181:the sages} {182:impelled by him}, {183:Dadhīci and the rest}, {184:the Purāṇas} {185:by the convention of that scripture} {186:while}; {188:by the Vedas} {189:and} {187:they made} {190:the Brahminical texts}, and {191:the Vaiṣṇava} {192:from the Viṣṇu-veda}: {193:the Pañcarātra}, {194:the Bhārata} {195:and}, {196:the original Rāmāyaṇa} {197:and likewise}, {198:and likewise} {200:the Bhāgavata} {199:Purāṇa} {201:is the Viṣṇu-veda} {203:declared} {202:thus}; {204:hence} {205:the Śaiva Purāṇas} {206:are to be applied} {207:without contradiction to the others}’ {208:thus} {209:and} in {210:the Nāradīya}. {211:Therefore} for {212:knowers} {213:there is} {214:indeed} {215:liberation}; {217:but} for {216:Bhīṣma and the rest} {218:at that moment} there was {219:an absence of yogic union}. {220:‘Remembering}, {221:he gives up’} {222:thus} — {223:a present-tense designation} {224:indeed} {225:was made}. {226:That} {227:and} {228:is stated} in {241:the Garuḍa}: {229:‘For knowers} {230:joined with karma}, {232:when} {231:the moment of casting off the body} comes, {234:then} {233:Viṣṇu’s māyā} {238:makes} {235:their} {236:mind} {237:outward} {239:indeed}’. {242:And} {243:nor} {247:is there} {246:remembrance} {244:of others} {245:at that time}: {250:‘Those who}, {248:by the maturing of many births}, {249:by devotion and knowledge}, {252:worship} {251:Hari}, {256:the God} {257:grants} {253:the remembrance of Him} {255:at the end} {254:indeed}, {258:and not} {259:and} {260:otherwise’} — by {262:this statement} {261:thus} in {263:the Brahmavaivarta}. {264:‘nirbāṇa’} {265:means bodiless}, by the {271:statement} {266:‘kāya}, {267:bāṇa} {268:and śarīra} {269:and’} {270:thus} (are synonyms for body), and by the {276:usage} {274:‘leaning upon} {272:this} {273:bāṇa (body)’} {275:thus} {277:and}; {278:the establishing of the word nirbāṇa} is like {279:‘senseless’} {280:thus} {281:and the like}. {282:How} {283:else} would {285:the form} {284:well-known from all the Purāṇas} {286:of the Lord} {287:be intelligible}? {288:And} {289:nor} is there {290:other} {293:supreme Brahman} {292:supreme} {291:than the Lord}, by {294:‘Brahman} {295:as}, {296:Paramātman} {297:as}, {298:Bhagavān} {299:as} {300:He is spoken of’} {301:thus} in {302:the Bhāgavata}; {303:‘Bhagavān}, {304:the supreme} {305:Brahman’}, {306:‘the supreme Brahman} {307:is Janārdana’}, {308:‘the supreme} {309:who} {310:is the great Brahman’}, {311:‘since} {313:beyond} {312:the perishable} {314:I am} {316:and even} {317:and} {318:higher} {315:than the imperishable’}, {319:‘He who}, {320:that one}, {321:is grasped beyond the senses’}, {322:‘there is} {323:not} {324:equal to Nārāyaṇa}, {325:nor} {326:has been} {327:nor} {328:shall be’}, {329:‘there is} {331:not} {330:equal to you} {332:nor greater} — {333:whence} {334:another?’} {335:thus} {336:and the like}. {337:Nor} {338:and} is {341:this} {342:to be supposed} (a mere figure) {340:because of the bodilessness} {339:of that Brahman}, since {345:a body is heard of} {343:for it} {344:too}, in {346:‘the bliss-formed} {347:immortal’}, {348:‘golden light’}, {349:‘small} {351:is the inner space} {350:within this} (heart)’ {352:thus} {353:and the like}. {354:If} {355:form} {357:were} {356:not}, {358:‘bliss’} {360:merely} {359:thus} {361:it would say}, {362:not} {363:but} {364:‘bliss-formed’} {365:thus}; and {366:how} {367:and} {369:could there be} {368:golden-form-ness} {370:for the formless}? {371:How} {372:dwelling-in-the-small}? And {373:the dweller-in-the-small} {374:and} is, in {378:the passage} {375:‘some} (see Him) in {376:their own body’} {377:thus}, {380:said to be} {379:having form}. By {381:‘thousand-headed} {382:is the Person’}, {383:‘the golden-hued} {384:maker’}, {385:‘sun-hued}, {387:beyond} {386:darkness’}, {389:‘hands and feet} {388:on every side} {390:that has’}, {391:‘on every side} {392:eye} {393:also’} {394:thus} {395:and like statements}, {397:and} {396:from the Viśvarūpa chapter etc.}, {399:He is concluded to be} {398:having form}. {401:And} {402:the Lord} is {400:possessed of utterly perfect knowledge, lordship, vigor, bliss, beauty, power and the rest}, by {403:‘His supreme} {404:His} {405:power} {408:is heard of} {406:as manifold} {407:indeed}; {409:natural} is {410:His knowing, strength, and action} {411:and’}, {412:‘He who} {413:is all-knowing’}, {414:‘the bliss} {415:of Brahman’}, {420:‘the other beings} {419:other} {422:subsist upon} {421:a fragment} {416:of this} {417:very} {418:bliss’}, {423:‘of beginningless, middleless, endless} {424:endless vigor’}, {425:‘of measureless thousand-lakh radiant beauty’}, {426:‘in Me} {427:of endless qualities}, {428:endless}, {429:qualitatively} {430:of endless form’}, {431:‘of the power of knowledge} {432:I} {433:am}, {434:of endless power’}, {435:‘the fourth}, {436:that} {437:all-seeing}, {438:ever’}, {439:‘the Self} {440:and the other} {441:and} {443:knows} {442:he} {444:the knower’}, {445:‘who other} {446:than Mukunda} {447:who} {448:indeed} {450:is the bhagavat-essence} {449:in the world?’}, {451:‘of majesty} {452:entire’}; {453:‘exceedingly} {454:full} {455:are your} {456:bliss}, {457:knowledge} {458:and} {459:good fortune}, {460:which} {461:and} {462:is utterly impossible} {463:to recollect}, {464:let alone} {466:to do} {465:able}, {468:the highest} {467:than this’} — by {470:these and the rest} {469:thus}. {471:And those} {472:and} {473:all} are {474:of one another’s very nature}: {475:‘knowledge}, {476:bliss} {477:is Brahman’}, {478:‘bliss} {479:is Brahman}, {481:he knew’} {480:thus}, {482:‘truth}, {483:knowledge}, {484:the endless} {485:is Brahman’}, {486:‘whose} {487:made of knowledge} {488:is austerity’}, {489:‘he} {490:me} {491:O Bhaga}, {492:enter} {493:hail’}. {494:‘not} {495:His} {496:material} {497:form} {498:sprung of flesh, marrow and bone}; {499:not} by {500:His yoga-hood} {501:and lordship} {502:the truth-formed} {503:Acyuta} {504:is all-pervading’}; {505:‘possessed of a true body}, {506:of pleasing fragrance} {507:and}, {508:shining with knowledge}, {509:of true valor}, {510:knowing-yet-unknowing}, {511:blissful-yet-(beyond)-pleasure} — {512:that} {513:Viṣṇu} {514:is the supreme} {515:imperishable’} — {516:thus} in {517:the Paiṅgī-khila}. {518:‘This body} {519:this} {520:of Mine} {521:is ever-blissful}, {522:not} {523:this} {524:fashioned of nature}, {525:and full} {526:and} {527:everywhere}; {528:therefore} {531:I} {530:am} {529:Nārāyaṇa’} {532:thus} — by {533:these and the rest} in {534:the Brahmavaivarta}. {535:That very (Lord)} {536:very}, {537:in sport} {538:and}, {539:He} {541:shows} Himself {542:by māyā} {540:in a seemingly limited form}: {543:‘neither} {544:and} {546:did He dwell} {545:in the womb} {547:of the goddess}, {548:nor} {549:and} {550:also} (was He born) {551:of Vasudeva}, {552:nor} {553:and} {554:also} {556:born} {555:of Rāghava}, {557:nor} {558:and} {559:also} {560:of Jamadagni}; {561:ever-blissful}, {562:non-dual}, {563:yet} {564:thus} {565:He sports}, {566:of unfailing vision’} — {567:thus} in {568:the Pādma}. {569:‘not} {570:indeed} {571:that} {572:Self}, {574:the over-lord} {573:of the self-possessed}, {578:the Lord} {579:Vāsudeva}, {575:does (really) experience} {576:indeed} {577:suffering’}; {581:‘the ruler} {580:of creation and the rest}, {582:the unborn}, {583:the treasure of supreme bliss}, {584:of the form of awareness}, {585:yet} {588:showing} {586:unawareness} {587:to the worlds}, {589:who} {591:went} {590:for the sake of the dear one whose self was stolen by the sage’s son’}; {592:‘He} {593:whose feet are worshipped by Brahmā}, {595:prattling} {594:like a man}, {599:spread out} {598:love} {596:among the women} {597:thus} {600:made’}; {602:‘of inconceivable vigor} {601:through the (Pūrta) rites}, {603:who} {604:and who} {605:and} {606:is the son of Daśaratha} {607:himself}, {610:to make} {608:Rudra’s word} {609:true}, {611:the unconquered} {613:stood} {612:as if conquered’}; {614:‘who}, {615:unconquered}, {616:was conquered} {617:by devotion}, {619:did not} {620:slay} {621:indeed} {618:the son of Gaṅgā}, {622:nor} {623:and} {625:caused to be seized} {624:Ambā}, {626:who, the compassionate}, {627:who} {628:is there more so} {629:than He?’} — by {631:these and the rest} {630:thus} {632:and} in {633:the Skānda}, {634:not} {635:in Him} {636:the attributes of saṃsāra} {637:are to be predicated}. And {638:where} {639:and} {640:a difference of higher and lower} {641:is understood}, {642:there} {644:in dependence on} {643:the understanding of the ignorant} is {645:the lower-ness}; {648:elsewhere} (it is) {646:the universal form} {647:having regard to}. {649:That} {650:and} {651:is stated}: {652:‘utterly full} are {653:the forms}, {654:all alike} {655:from the standpoint of all form}; {656:yet} {657:even}, {658:having regard to} {659:of the dull} {660:the sight}, {662:the seers} {663:too} {664:indeed} {661:you} {666:speak of} {665:higher and lower} {667:thus}, {668:for} {670:the deluding} {669:of the non-devotees’} — {671:thus} in {672:the Garuḍa}. {673:Nor} {674:and} {675:here} is {676:anything} {678:to be called} {677:figurative}; for {683:it is said} that, {679:by reason of His inconceivable power} {680:and the manifoldness of things} {681:and} {682:thus}, (all is literally true). {684:‘The forms of Kṛṣṇa, Rāma and the rest} {685:are utterly full} {686:ever}, {687:not} {688:and} {690:differing} {689:by even an atom}; {691:yet} {692:even} {694:You delude} {693:us’} {695:thus} {696:and the like} {697:and}, in {698:the Nāradīya}. {699:Therefore} {709:attains} {708:the knower of the direct knowledge} {706:the supreme} {707:Brahman} {705:named Nārāyaṇa}, who, {700:always} {701:in all His forms}, is {702:of innumerable endless hosts of qualities} {704:and} {703:ever free of every fault} — {710:thus} {711:this is established}."
+      "english": "{0:He sums up} by {1:‘eṣā’}. The {3:‘Brahmic’} {4:state} is {6:the abiding} {5:whose object is Brahman}, {7:the mark}. {8:Even at the final time}, {9:even} {11:having abided} {10:in it}, {14:he goes} {13:to Brahman}; {15:otherwise} {17:he attains} {16:another birth}, since {23:it will be said} {18:‘whom} {19:whomsoever} {20:or} {21:even}{22:’} (one remembers at the end). For {24:knowers} {25:too}, {26:while} {27:commenced karma} remains, {28:another body} {29:is fitting}; for {35:it is said} {30:‘but by experience} {32:the others}{33:’} (exhaust their karma); and {36:there are} {37:indeed} {40:some} {39:karmas} {38:whose fruit is many bodies}, as {42:‘the brāhmaṇa} {43:would be (born)} {41:in seven lifetimes’} {44:and} {45:so on}; and {46:it is seen} {49:that even} {48:knowers} {50:attain many bodies}. As {53:stated} {52:for} it in {68:the Garuḍa}: {54:‘Even the sthita-prajña} {55:even} {56:who} {57:indeed} {58:is high}, {59:having attained} {60:the Raudra station}, {61:then} {63:then} {62:the Sāṅkarṣaṇa}, {65:went} {64:to liberation} {66:by the grace of Viṣṇu}{67:’}. And in {76:the Nāradīya}, {69:‘O Mahādeva}, {72:your} {73:liberation} {74:is determined} {70:in a further} {71:birth}{75:’}. And {79:knowledge} {77:has a determined fruit} {78:and}, by the {93:śrutis} {80:‘for him} {81:so long} {82:only} is there {83:delay’}, {84:‘and he who} {85:indeed} {86:and} {88:to the flame} {89:indeed} {90:attains’} {91:and} {92:the rest}. {94:Nor} {95:and} is there {96:dependence on a body-aggregate}, by the {108:statements} {97:‘that} {98:as} {99:a reed-tuft’} (is burnt), {100:‘that} {101:as} {102:a lotus-leaf’} (is not wetted), {103:‘the fire of knowledge} (burns up) {104:all} {105:karmas’} {106:and} {107:the like}. {110:But} {109:in commenced karma} {111:there is no contradiction}; {113:and} {112:for want of evidence} (to the contrary). {114:And} {115:that} {116:scripture} {117:is not authoritative}, since {127:it is censured}: {125:‘Those of little mind} {122:who}, {121:relying on} {120:the doctrine} {118:of the followers of Akṣapāda and Kaṇāda} {119:and the matted-haired of Sāṅkhya and Yoga}, {124:find fault with} {123:the Veda}’ {126:thus}. But {128:where} {129:but} there is {130:praise}, {131:there} it is {133:merely the character of praise} {134:merely} {132:of the devotees of Śiva}, {135:not} {136:its truth}; for {139:they} {137:have} {138:for} {140:even} {142:no authority} {141:in a matter contradicting the other texts}. {143:Likewise} {144:for} {145:it is said}: {146:‘This} {147:delusion} {148:I send forth} {149:quickly}, {150:which} {152:will delude} {151:men}; {153:and you}, {155:O Rudra} {156:of mighty arm}, {158:cause to be made} {157:delusion-scriptures} — {161:show forth} {159:the untrue} {160:the false}, {162:O mighty-armed}; {164:make} {166:yourself} {163:manifest} {165:and} {170:make} {169:Me} {167:unmanifest} {168:and}’ — {171:thus} in {172:the Vārāha}. {173:‘The base} {174:and} {175:mixed} {179:scriptures} {176:Rudra}, {177:impelled by Viṣṇu}, {178:made} — {180:the all-pervading one}; {181:the sages} {182:impelled by him}, {183:Dadhīci and the rest}, {184:the Purāṇas} {185:by the convention of that scripture} {186:while}; {188:by the Vedas} {189:and} {187:they made} {190:the Brahminical texts}, and {191:the Vaiṣṇava} {192:from the Viṣṇu-veda}: {193:the Pañcarātra}, {194:the Bhārata} {195:and}, {196:the original Rāmāyaṇa} {197:and likewise}, {198:and likewise} {200:the Bhāgavata} {199:Purāṇa} {201:is the Viṣṇu-veda} {203:declared} {202:thus}; {204:hence} {205:the Śaiva Purāṇas} {206:are to be applied} {207:without contradiction to the others}’ {208:thus} {209:and} in {210:the Nāradīya}. {211:Therefore} for {212:knowers} {213:there is} {214:indeed} {215:liberation}; {217:but} for {216:Bhīṣma and the rest} {218:at that moment} there was {219:an absence of yogic union}. {220:‘Remembering}, {221:he gives up’} {222:thus} — {223:a present-tense designation} {224:indeed} {225:was made}. {226:That} {227:and} {228:is stated} in {241:the Garuḍa}: {229:‘For knowers} {230:joined with karma}, {232:when} {231:the moment of casting off the body} comes, {234:then} {233:Viṣṇu’s māyā} {238:makes} {235:their} {236:mind} {237:outward} {239:indeed}’. {242:And} {243:nor} {247:is there} {246:remembrance} {244:of others} {245:at that time}: {250:‘Those who}, {248:by the maturing of many births}, {249:by devotion and knowledge}, {252:worship} {251:Hari}, {256:the God} {257:grants} {253:the remembrance of Him} {255:at the end} {254:indeed}, {258:and not} {259:and} {260:otherwise’} — by {262:this statement} {261:thus} in {263:the Brahmavaivarta}. {264:‘nirbāṇa’} {265:means bodiless}, by the {271:statement} {266:‘kāya}, {267:bāṇa} {268:and śarīra} {269:and’} {270:thus} (are synonyms for body), and by the {276:usage} {274:‘leaning upon} {272:this} {273:bāṇa (body)’} {275:thus} {277:and}; {278:the establishing of the word nirbāṇa} is like {279:‘senseless’} {280:thus} {281:and the like}. {282:How} {283:else} would {285:the form} {284:well-known from all the Purāṇas} {286:of the Lord} {287:be intelligible}? {288:And} {289:nor} is there {290:other} {293:supreme Brahman} {292:supreme} {291:than the Lord}, by {294:‘Brahman} {295:as}, {296:Paramātman} {297:as}, {298:Bhagavān} {299:as} {300:He is spoken of’} {301:thus} in {302:the Bhāgavata}; {303:‘Bhagavān}, {304:the supreme} {305:Brahman’}, {306:‘the supreme Brahman} {307:is Janārdana’}, {308:‘the supreme} {309:who} {310:is the great Brahman’}, {311:‘since} {313:beyond} {312:the perishable} {314:I am} {316:and even} {317:and} {318:higher} {315:than the imperishable’}, {319:‘He who}, {320:that one}, {321:is grasped beyond the senses’}, {322:‘there is} {323:not} {324:equal to Nārāyaṇa}, {325:nor} {326:has been} {327:nor} {328:shall be’}, {329:‘there is} {331:not} {330:equal to you} {332:nor greater} — {333:whence} {334:another?’} {335:thus} {336:and the like}. {337:Nor} {338:and} is {341:this} {342:to be supposed} (a mere figure) {340:because of the bodilessness} {339:of that Brahman}, since {345:a body is heard of} {343:for it} {344:too}, in {346:‘the bliss-formed} {347:immortal’}, {348:‘golden light’}, {349:‘small} {351:is the inner space} {350:within this} (heart)’ {352:thus} {353:and the like}. {354:If} {355:form} {357:were} {356:not}, {358:‘bliss’} {360:merely} {359:thus} {361:it would say}, {362:not} {363:but} {364:‘bliss-formed’} {365:thus}; and {366:how} {367:and} {369:could there be} {368:golden-form-ness} {370:for the formless}? {371:How} {372:dwelling-in-the-small}? And {373:the dweller-in-the-small} {374:and} is, in {378:the passage} {375:‘some} (see Him) in {376:their own body’} {377:thus}, {380:said to be} {379:having form}. By {381:‘thousand-headed} {382:is the Person’}, {383:‘the golden-hued} {384:maker’}, {385:‘sun-hued}, {387:beyond} {386:darkness’}, {389:‘hands and feet} {388:on every side} {390:that has’}, {391:‘on every side} {392:eye} {393:also’} {394:thus} {395:and like statements}, {397:and} {396:from the Viśvarūpa chapter etc.}, {399:He is concluded to be} {398:having form}. {401:And} {402:the Lord} is {400:possessed of utterly perfect knowledge, lordship, vigor, bliss, beauty, power and the rest}, by {403:‘His supreme} {404:His} {405:power} {408:is heard of} {406:as manifold} {407:indeed}; {409:natural} is {410:His knowing, strength, and action} {411:and’}, {412:‘He who} {413:is all-knowing’}, {414:‘the bliss} {415:of Brahman’}, {420:‘the other beings} {419:other} {422:subsist upon} {421:a fragment} {416:of this} {417:very} {418:bliss’}, {423:‘of beginningless, middleless, endless} {424:endless vigor’}, {425:‘of measureless thousand-lakh radiant beauty’}, {426:‘in Me} {427:of endless qualities}, {428:endless}, {429:qualitatively} {430:of endless form’}, {431:‘of the power of knowledge} {432:I} {433:am}, {434:of endless power’}, {435:‘the fourth}, {436:that} {437:all-seeing}, {438:ever’}, {439:‘the Self} {440:and the other} {441:and} {443:knows} {442:he} {444:the knower’}, {445:‘who other} {446:than Mukunda} {447:who} {448:indeed} {450:is the bhagavat-essence} {449:in the world?’}, {451:‘of majesty} {452:entire’}; {453:‘exceedingly} {454:full} {455:are your} {456:bliss}, {457:knowledge} {458:and} {459:good fortune}, {460:which} {461:and} {462:is utterly impossible} {463:to recollect}, {464:let alone} {466:to do} {465:able}, {468:the highest} {467:than this’} — by {470:these and the rest} {469:thus}. {471:And those} {472:and} {473:all} are {474:of one another’s very nature}: {475:‘knowledge}, {476:bliss} {477:is Brahman’}, {478:‘bliss} {479:is Brahman}, {481:he knew’} {480:thus}, {482:‘truth}, {483:knowledge}, {484:the endless} {485:is Brahman’}, {486:‘whose} {487:made of knowledge} {488:is austerity’}, {489:‘he} {490:me} {491:O Bhaga}, {492:enter} {493:hail’}. {494:‘not} {495:His} {496:material} {497:form} {498:sprung of flesh, marrow and bone}; {499:not} by {500:His yoga-hood} {501:and lordship} {502:the truth-formed} {503:Acyuta} {504:is all-pervading’}; {505:‘possessed of a true body}, {506:of pleasing fragrance} {507:and}, {508:shining with knowledge}, {509:of true valor}, {510:knowing-yet-unknowing}, {511:blissful-yet-(beyond)-pleasure} — {512:that} {513:Viṣṇu} {514:is the supreme} {515:imperishable’} — {516:thus} in {517:the Paiṅgī-khila}. {518:‘This body} {519:this} {520:of Mine} {521:is ever-blissful}, {522:not} {523:this} {524:fashioned of nature}, {525:and full} {526:and} {527:everywhere}; {528:therefore} {531:I} {530:am} {529:Nārāyaṇa’} {532:thus} — by {533:these and the rest} in {534:the Brahmavaivarta}. {535:That very (Lord)} {536:very}, {537:in sport} {538:and}, {539:He} {541:shows} Himself {542:by māyā} {540:in a seemingly limited form}: {543:‘neither} {544:and} {546:did He dwell} {545:in the womb} {547:of the goddess}, {548:nor} {549:and} {550:also} (was He born) {551:of Vasudeva}, {552:nor} {553:and} {554:also} {556:born} {555:of Rāghava}, {557:nor} {558:and} {559:also} {560:of Jamadagni}; {561:ever-blissful}, {562:non-dual}, {563:yet} {564:thus} {565:He sports}, {566:of unfailing vision’} — {567:thus} in {568:the Pādma}. {569:‘not} {570:indeed} {571:that} {572:Self}, {574:the over-lord} {573:of the self-possessed}, {578:the Lord} {579:Vāsudeva}, {575:does (really) experience} {576:indeed} {577:suffering’}; {581:‘the ruler} {580:of creation and the rest}, {582:the unborn}, {583:the treasure of supreme bliss}, {584:of the form of awareness}, {585:yet} {588:showing} {586:unawareness} {587:to the worlds}, {589:who} {591:went} {590:for the sake of the dear one whose self was stolen by the sage’s son’}; {592:‘He} {593:whose feet are worshipped by Brahmā}, {595:prattling} {594:like a man}, {599:spread out} {598:love} {596:among the women} {597:thus} {600:made’}; {602:‘of inconceivable vigor} {601:through the (Pūrta) rites}, {603:who} {604:and who} {605:and} {606:is the son of Daśaratha} {607:himself}, {610:to make} {608:Rudra’s word} {609:true}, {611:the unconquered} {613:stood} {612:as if conquered’}; {614:‘who}, {615:unconquered}, {616:was conquered} {617:by devotion}, {619:did not} {620:slay} {621:indeed} {618:the son of Gaṅgā}, {622:nor} {623:and} {625:caused to be seized} {624:Ambā}, {626:who, the compassionate}, {627:who} {628:is there more so} {629:than He?’} — by {631:these and the rest} {630:thus} {632:and} in {633:the Skānda}, {634:not} {635:in Him} {636:the attributes of saṃsāra} {637:are to be predicated}. And {638:where} {639:and} {640:a difference of higher and lower} {641:is understood}, {642:there} {644:in dependence on} {643:the understanding of the ignorant} is {645:the lower-ness}; {648:elsewhere} (it is) {646:the universal form} {647:having regard to}. {649:That} {650:and} {651:is stated}: {652:‘utterly full} are {653:the forms}, {654:all alike} {655:from the standpoint of all form}; {656:yet} {657:even}, {658:having regard to} {659:of the dull} {660:the sight}, {662:the seers} {663:too} {664:indeed} {661:you} {666:speak of} {665:higher and lower} {667:thus}, {668:for} {670:the deluding} {669:of the non-devotees’} — {671:thus} in {672:the Garuḍa}. {673:Nor} {674:and} {675:here} is {676:anything} {678:to be called} {677:figurative}; for {683:it is said} that, {679:by reason of His inconceivable power} {680:and the manifoldness of things} {681:and} {682:thus}, (all is literally true). {684:‘The forms of Kṛṣṇa, Rāma and the rest} {685:are utterly full} {686:ever}, {687:not} {688:and} {690:differing} {689:by even an atom}; {691:yet} {692:even} {694:You delude} {693:us’} {695:thus} {696:and the like} {697:and}, in {698:the Nāradīya}. {699:Therefore} {709:attains} {708:the knower of the direct knowledge} {706:the supreme} {707:Brahman} {705:named Nārāyaṇa}, who, {700:always} {701:in all His forms}, is {702:of innumerable endless hosts of qualities} {704:and} {703:ever free of every fault} — {710:thus} {711:this is established}.",
+      "segments": [
+        {
+          "from": 0,
+          "to": 7,
+          "kind": "gloss"
+        },
+        {
+          "from": 8,
+          "to": 17,
+          "kind": "interpretation"
+        },
+        {
+          "from": 18,
+          "to": 23,
+          "kind": "citation"
+        },
+        {
+          "from": 24,
+          "to": 29,
+          "kind": "interpretation"
+        },
+        {
+          "from": 30,
+          "to": 35,
+          "kind": "citation"
+        },
+        {
+          "from": 36,
+          "to": 40,
+          "kind": "interpretation"
+        },
+        {
+          "from": 41,
+          "to": 45,
+          "kind": "citation"
+        },
+        {
+          "from": 46,
+          "to": 53,
+          "kind": "interpretation"
+        },
+        {
+          "from": 54,
+          "to": 76,
+          "kind": "citation"
+        },
+        {
+          "from": 77,
+          "to": 79,
+          "kind": "interpretation"
+        },
+        {
+          "from": 80,
+          "to": 93,
+          "kind": "citation"
+        },
+        {
+          "from": 94,
+          "to": 96,
+          "kind": "interpretation"
+        },
+        {
+          "from": 97,
+          "to": 108,
+          "kind": "citation"
+        },
+        {
+          "from": 109,
+          "to": 117,
+          "kind": "interpretation"
+        },
+        {
+          "from": 118,
+          "to": 127,
+          "kind": "citation"
+        },
+        {
+          "from": 128,
+          "to": 145,
+          "kind": "interpretation"
+        },
+        {
+          "from": 146,
+          "to": 210,
+          "kind": "citation"
+        },
+        {
+          "from": 211,
+          "to": 219,
+          "kind": "interpretation"
+        },
+        {
+          "from": 220,
+          "to": 225,
+          "kind": "citation"
+        },
+        {
+          "from": 226,
+          "to": 228,
+          "kind": "interpretation"
+        },
+        {
+          "from": 229,
+          "to": 241,
+          "kind": "citation"
+        },
+        {
+          "from": 242,
+          "to": 247,
+          "kind": "interpretation"
+        },
+        {
+          "from": 248,
+          "to": 263,
+          "kind": "citation"
+        },
+        {
+          "from": 264,
+          "to": 265,
+          "kind": "interpretation"
+        },
+        {
+          "from": 266,
+          "to": 277,
+          "kind": "citation"
+        },
+        {
+          "from": 278,
+          "to": 293,
+          "kind": "interpretation"
+        },
+        {
+          "from": 294,
+          "to": 336,
+          "kind": "citation"
+        },
+        {
+          "from": 337,
+          "to": 345,
+          "kind": "interpretation"
+        },
+        {
+          "from": 346,
+          "to": 353,
+          "kind": "citation"
+        },
+        {
+          "from": 354,
+          "to": 380,
+          "kind": "interpretation"
+        },
+        {
+          "from": 381,
+          "to": 395,
+          "kind": "citation"
+        },
+        {
+          "from": 396,
+          "to": 402,
+          "kind": "interpretation"
+        },
+        {
+          "from": 403,
+          "to": 470,
+          "kind": "citation"
+        },
+        {
+          "from": 471,
+          "to": 474,
+          "kind": "interpretation"
+        },
+        {
+          "from": 475,
+          "to": 534,
+          "kind": "citation"
+        },
+        {
+          "from": 535,
+          "to": 542,
+          "kind": "interpretation"
+        },
+        {
+          "from": 543,
+          "to": 633,
+          "kind": "citation"
+        },
+        {
+          "from": 634,
+          "to": 651,
+          "kind": "interpretation"
+        },
+        {
+          "from": 652,
+          "to": 672,
+          "kind": "citation"
+        },
+        {
+          "from": 673,
+          "to": 683,
+          "kind": "interpretation"
+        },
+        {
+          "from": 684,
+          "to": 698,
+          "kind": "citation"
+        },
+        {
+          "from": 699,
+          "to": 711,
+          "kind": "interpretation"
+        }
+      ]
     }
   ]
 };
