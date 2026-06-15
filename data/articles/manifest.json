@@ -3,10 +3,10 @@
   "articles": [
     {
       "slug": "gita-sthitaprajna",
-      "title": "The Man of Settled Wisdom — Bhagavad-Gītā 2.54–72",
-      "subtitle": "The *sthitaprajña* answer, word by word: a literal translation with full Pāṇinian grammar, the ācāryas in their own voices, Sri Aurobindo, and cross-tradition parallels — every Sanskrit word tappable.",
+      "title": "Bhagavad-Gītā 2.54–72 — the man of settled wisdom",
+      "subtitle": "The *sthitaprajña* answer, word by word: a literal translation with full Pāṇinian grammar, the ācāryas in their own voices, Sri Aurobindo, and parallels from other traditions — every Sanskrit word, in the verse and the commentaries, tappable.",
       "kind": "reading",
-      "external_url": "gita/sthitaprajna/",
+      "interactive": "gita-sthitaprajna",
       "date": "2026-06-15"
     },
     {

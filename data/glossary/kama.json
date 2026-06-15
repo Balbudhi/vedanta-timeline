@@ -2,7 +2,7 @@
   "term_key": "kama",
   "term_iast": "kāma",
   "term_devanagari": "काम",
-  "literal": "desire, want, longing, the wish for an object; from √kam 'to desire, to long for'",
+  "literal": "desire, longing, the wish for an object; action-noun from √kam 'to desire, to long for' (kam + ghañ → kāma), 'that which is desired' or 'the desiring'",
   "aliases": [
     "kama",
     "kāma",
@@ -16,50 +16,59 @@
     "kāmakāmin"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "gita-sthitaprajna-glossary",
-  "invariant_definition": "*Kāma* is desire in the broad sense: the wanting that reaches toward an absent or anticipated object as a source of pleasure or fulfilment. The term spans a wide register, and its evaluation depends entirely on where it is placed. As one of the four *puruṣārthas* — *dharma*, *artha*, *kāma*, *mokṣa* — *kāma* names a legitimate human end: pleasure, enjoyment, the satisfaction of wholesome longing, sanctioned when ordered by *dharma*. In the soteriological and yogic register the same word names the root of bondage: craving that binds the self to repeated action, fixes attention on outcomes, and keeps the agent revolving in *saṃsāra*. The two uses are not contradictory but stratified — *kāma* as a goal within worldly life, *kāma* as an obstacle to the higher goal of liberation. The *Bhagavad-Gītā* exploits exactly this tension: it names *kāma* (with *krodha*, anger, as its shadow) the enemy seated in the senses, mind, and intellect (3.37–40), and it defines the *sthitaprajña* precisely as the one who has cast off *all* desires of the mind (2.55, *prajahāti yadā kāmān*) and who moves among objects free of longing and aversion (2.64, 2.71). The decisive distinction is therefore between desire as a directed appetite that can be rightly ordered, and desire as an appropriative craving for results that must be relinquished for steadiness of wisdom.",
+  "last_verified_by": "glossary-proper-rewrite",
+  "invariant_definition": "*Kāma* is desire in the broad sense: the wanting that reaches toward an absent or anticipated object as a source of pleasure or fulfilment. Its earliest attestations are cosmogonic — in Ṛgveda 10.129.4 (the Nāsadīya hymn) *kāma* is the first stirring of the One, 'the first seed of mind', desire as the primal impulse from which manifestation proceeds; the Atharvaveda and Bṛhadāraṇyaka likewise treat *kāma* as a generative power. The term then bifurcates by register. As one of the four *puruṣārthas* — *dharma*, *artha*, *kāma*, *mokṣa* — *kāma* names a legitimate human end: pleasure and enjoyment sanctioned when ordered by *dharma*, the domain to which the *Kāma-Sūtra* is devoted. In the soteriological and yogic register the same word names the root of bondage: the craving that binds the self to repeated action, fixes attention on outcomes, and keeps the agent revolving in *saṃsāra*; Bṛhadāraṇyaka 4.4.6–7 makes the man 'full of desire' (*kāmayamāna*) the one who is reborn, while the desireless (*akāma*) reaches Brahman. The two uses are not contradictory but stratified — *kāma* as a goal within worldly life, *kāma* as an obstacle to the higher goal of liberation. The *Bhagavad-Gītā* sharpens the second sense, naming *kāma* (with *krodha*, its shadow) the devouring enemy seated in the senses, mind, and intellect (3.37–40), and prizing *niṣkāma* action, action surrendered of its fruits. The decisive distinction throughout is between desire as a directed appetite that can be rightly ordered and desire as appropriative craving for results that must be relinquished for liberation.",
   "school_framing": {
     "framing_status": "mixed",
     "shared_core": "*Kāma* names **the wanting that reaches toward an object as a source of pleasure**; all schools recognize this directedness. They diverge on whether it is a sanctioned end (the *puruṣārtha* register), an affliction rooted in misidentification (the yogic *kleśa* register), or a binding mental modification to be extinguished for liberation (the Vedāntic *mokṣa* register).",
-    "register_axes_note": "**Same concept, different aspect** between the *puruṣārtha* use (*kāma* as legitimate human good) and the soteriological use (*kāma* as bondage): one and the same appetitive movement evaluated at different levels of the path. **Real disagreement** appears only over whether the highest state retains any refined desire (e.g. desire for the Lord in theistic schools) or whether liberation requires the total cessation of *kāma* (the Sāṅkhya-Yoga and Advaita reading of *niṣkāma*)."
+    "register_axes_note": "**Same concept, different aspect** between the *puruṣārtha* use (*kāma* as legitimate human good) and the soteriological use (*kāma* as bondage): one and the same appetitive movement evaluated at different levels of life and path. **Real disagreement** appears over whether the highest state retains any refined desire — desire for the Lord in the theistic schools — or whether liberation requires the total cessation of *kāma* (the Sāṅkhya-Yoga and Advaita reading of *niṣkāma*)."
   },
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "Read through the *Gītā*, *kāma* is the appropriative desire that sustains agency and saṃsāra; its renunciation is not the suppression of every impulse but the dropping of the 'I-want' that binds action to its fruit. Śaṅkara's *Gītā-Bhāṣya* glosses the *sthitaprajña* as one who has expelled all *manogata kāmān*, desires resident in the mind, so that the residual functioning of the body-mind no longer carries the structure of craving. Desire here is ultimately rooted in the false superimposition of the self upon the not-self; when that misidentification is removed by knowledge, *kāma* loses its ground.",
+      "definition": "*Kāma* is the appropriative desire that sustains binding agency and *saṃsāra*; its renunciation is not the suppression of every impulse but the dropping of the 'I-want' that ties action to its fruit. Śaṅkara grounds desire ultimately in *adhyāsa*, the false superimposition of the self upon the not-self: where that misidentification is removed by knowledge, *kāma* loses its ground, and the residual functioning of the body-mind no longer carries the structure of craving. The desireless knower (*akāma*, *āptakāma*) of the Upaniṣads — already possessed of all, wanting nothing — is the Advaitic ideal.",
       "primary_loci": [
-        "Bhagavad-Gītā 2.55, 2.62-63, 2.70-71",
-        "Bhagavad-Gītā 3.37-43",
-        "Śaṅkara, Gītā-Bhāṣya on 2.55 and 3.37"
+        "Bṛhadāraṇyaka Upaniṣad 4.4.6-7 (kāmayamāna reborn; akāma reaches Brahman)",
+        "Śaṅkara, Brahma-Sūtra-Bhāṣya and Bṛhadāraṇyaka-Bhāṣya 4.4.6-7",
+        "Bhagavad-Gītā 3.37-43 (kāma as enemy)"
       ],
       "register_tag": "M+S; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Rāmānuja distinguishes the *kāma* that is craving for sense-objects, which the aspirant must abandon, from the rightly-directed longing of the self for Bhagavān. The *sthitaprajña* casts off desires for the objects of the senses precisely so that the mind may be fixed on the *paramātman*; desire is therefore not annihilated as such but reoriented from sense-objects to the Lord. *Kāma* as enemy is the outward-running appetite, not the love that draws the surrendered self toward Nārāyaṇa.",
+      "definition": "Rāmānuja distinguishes the *kāma* that is craving for sense-objects, which the aspirant must abandon, from the rightly-directed longing of the self for Bhagavān. Desire is not annihilated as such but reoriented: the outward-running appetite for objects is to be stilled precisely so that the mind may be fixed on the *paramātman*, and the love that draws the surrendered self toward Nārāyaṇa is not the *kāma* condemned as enemy but its consummation.",
       "primary_loci": [
-        "Rāmānuja, Gītā-Bhāṣya on 2.55 and 2.61",
-        "Bhagavad-Gītā 2.55, 2.64, 2.71"
+        "Rāmānuja, Gītā-Bhāṣya on 3.37-43",
+        "Vedārtha-Saṅgraha (the soul's longing reoriented to the Lord)"
       ],
       "register_tag": "M+S; prapanna"
     },
     {
       "school": "Yoga",
-      "definition": "In Pātañjala Yoga the appetitive pole of affliction is *rāga*, attachment that follows upon pleasure (*sukhānuśayī rāgaḥ*, YS 2.7), one of the five *kleśas*. *Kāma* in the ordinary sense is the manifest craving that arises from this *rāga* and disturbs the *citta*; it is among the dispositions to be attenuated and finally dissolved through *vairāgya* and *kriyā-yoga*. Desire is thus diagnosed as a rooted affliction, not merely a passing wish, and its uprooting is structural to the cessation of mental modifications.",
+      "definition": "In Pātañjala Yoga the appetitive pole of affliction is *rāga*, attachment that follows upon pleasure (*sukhānuśayī rāgaḥ*, YS 2.7), one of the five *kleśas* rooted in *avidyā*. *Kāma* in the ordinary sense is the manifest craving arising from this latent *rāga* and disturbing the *citta*; it is among the dispositions to be attenuated by *kriyā-yoga* and finally dissolved through *vairāgya*. Desire is thus diagnosed as a rooted affliction, not a passing wish, and its uprooting is structural to *citta-vṛtti-nirodha*.",
       "primary_loci": [
-        "Yoga-Sūtra 2.3, 2.7-8",
-        "Yoga-Sūtra, sādhana-pāda (vairāgya: 1.15-16)"
+        "Yoga-Sūtra 2.3, 2.7-8 (kleśas; rāga)",
+        "Yoga-Sūtra 1.15-16 (vairāgya)"
       ],
       "register_tag": "Φ+S; yogin (kāma as rāga-rooted kleśa)"
     },
     {
       "school": "Sāṅkhya",
-      "definition": "Sāṅkhya treats desire not as a property of the *puruṣa* but as a function of *prakṛti*'s evolutes operating through the *antaḥkaraṇa*: wanting belongs to the *guṇa*-driven psycho-mental apparatus, while the *puruṣa* remains the indifferent witness (*udāsīna*, *akartṛ*). What appears as 'my desire' is the *buddhi*'s rajasic activity misattributed to the self. Liberation is discriminative knowledge that the witnessing self never desired at all, so *kāma* falls away with the dissolution of misidentification, not by an act of will against it.",
+      "definition": "Sāṅkhya treats desire not as a property of the *puruṣa* but as a function of *prakṛti*'s evolutes operating through the *antaḥkaraṇa*: wanting belongs to the *guṇa*-driven psycho-mental apparatus, while the *puruṣa* remains the indifferent witness (*udāsīna*, *akartṛ*). What appears as 'my desire' is the *buddhi*'s rajasic activity misattributed to the self. Liberation is the discriminative knowledge that the witnessing self never desired at all; *kāma* falls away with the dissolution of misidentification, not by an act of will against it.",
       "primary_loci": [
-        "Sāṅkhya-Kārikā 19, 23",
-        "Sāṅkhya-Kārikā 62-64"
+        "Sāṅkhya-Kārikā 19, 23 (puruṣa as udāsīna; sattvic buddhi)",
+        "Sāṅkhya-Kārikā 62-64 (bondage and release as prakṛti's)"
       ],
       "register_tag": "M+E; reflective reader (kāma as prakṛti-function)"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "*Kāma* names sense-desire and the realm of sensuality (*kāma-loka*), and *kāma-taṇhā* (craving for sensual pleasure) is the first species of the *taṇhā* that the second noble truth identifies as the origin of suffering. Sensual desire (*kāmacchanda*) is the first of the five hindrances (*nīvaraṇa*) to concentration. Desire is therefore neither a cosmic seed nor a sanctioned end but a fetter to be understood and abandoned; its cessation is constitutive of the path's goal.",
+      "primary_loci": [
+        "Dhammacakkappavattana-sutta (taṇhā: kāma-, bhava-, vibhava-taṇhā)",
+        "the five nīvaraṇa (kāmacchanda) in the suttas"
+      ],
+      "register_tag": "Φ+S; reflective reader (kāma-taṇhā as origin of suffering)"
     }
   ],
   "see_also": [
@@ -71,5 +80,5 @@
     "ahankara",
     "moksa"
   ],
-  "translator_note": "'Lust' is too narrow and 'pleasure' too neutral; *kāma* ranges from the sanctioned *puruṣārtha* of enjoyment to the binding craving that the *Gītā* calls the enemy (3.37). Do not collapse the two senses: when the text praises *kāma* it means rightly-ordered desire, and when it condemns *kāma* it means appropriative craving for results. Rendering every instance as 'desire' is acceptable only if the evaluative level is supplied by context; otherwise mark whether the appetite is being affirmed as a human good or diagnosed as bondage."
+  "translator_note": "'Lust' is too narrow and 'pleasure' too neutral; *kāma* ranges from the cosmogonic 'first seed of mind' and the sanctioned *puruṣārtha* of enjoyment to the binding craving that soteriological texts call the enemy. The two evaluative senses must not be collapsed: in the *puruṣārtha* register *kāma* is rightly-ordered desire affirmed as a human good, while in the yogic and Vedāntic register it is appropriative craving diagnosed as bondage. 'Desire' is the safest general rendering, but the affirmed sense and the diagnosed sense should be kept distinct, since a single English word silently merges what the tradition deliberately stratifies."
 }

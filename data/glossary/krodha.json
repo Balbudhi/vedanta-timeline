@@ -2,7 +2,7 @@
   "term_key": "krodha",
   "term_iast": "krodha",
   "term_devanagari": "क्रोध",
-  "literal": "anger, wrath, rage; from √krudh 'to be angry, to be wrathful'",
+  "literal": "anger, wrath, rage; action-noun from √krudh 'to be angry, to be wrathful' (krudh + ghañ → krodha)",
   "aliases": [
     "krodha",
     "Krodha",
@@ -11,19 +11,19 @@
     "krodhena"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "gita-sthitaprajna-glossary",
-  "invariant_definition": "*Krodha* is anger or wrath: the aversive, heated reaction that arises when a desire is thwarted or an object of attachment is threatened. Across the Indian traditions it is consistently classed among the inner enemies or afflictions of the agent, and it is rarely treated as a neutral emotion. Its doctrinal weight in the *Bhagavad-Gītā* comes from its place in a causal chain: dwelling on sense-objects breeds attachment (*saṅga*), attachment breeds desire (*kāma*), and from frustrated desire arises anger — *kāmāt krodho 'bhijāyate* (2.62). Anger in turn produces delusion (*sammoha*), delusion the loss of memory (*smṛti-vibhrama*), loss of memory the destruction of the discriminating intellect (*buddhi-nāśa*), and the destruction of *buddhi* the ruin of the person (2.63). *Krodha* is thus not a terminal vice but a hinge in a sequence that runs from contact with objects to the collapse of judgment. The *sthitaprajña*, accordingly, is described as free from desire, fear, and anger (*vīta-rāga-bhaya-krodhaḥ*, 2.56): the steadiness of his wisdom is precisely the breaking of the *kāma–krodha* mechanism at its source. In the yogic analysis the same aversive movement is *dveṣa*, the affliction of repulsion paired with *rāga*.",
+  "last_verified_by": "glossary-proper-rewrite",
+  "invariant_definition": "*Krodha* is anger or wrath: the aversive, heated reaction that arises when a desire is thwarted or an object of attachment is threatened. Across the Indian traditions it is consistently classed among the inner enemies (*ari-ṣaḍ-varga*: *kāma, krodha, lobha, moha, mada, mātsarya*) or the afflictions of the agent, rarely as a neutral emotion. Its characteristic doctrinal placement is causal rather than terminal: anger is the consequence of obstructed desire and the antecedent of worse ruin. The *Bhagavad-Gītā* gives the classic statement of this chain — from dwelling on sense-objects comes attachment (*saṅga*), from attachment desire (*kāma*), from frustrated desire anger (*krodha*); anger breeds delusion (*sammoha*), delusion the loss of memory, loss of memory the destruction of the discriminating intellect (*buddhi-nāśa*), and that the ruin of the person (2.62–63). Anger is also named a 'gate of hell' alongside *kāma* and *lobha* (16.21). In the *Dharmaśāstra* and epic ethical literature *akrodha* (freedom from anger) and *kṣamā* (forbearance) are cardinal virtues of the disciplined and the brāhmaṇa. In the yogic analysis the same aversive movement is the standing affliction *dveṣa*, repulsion paired with *rāga*. *Krodha* is thus diagnosed less as an isolated feeling than as a hinge — evidence of residual craving and a destroyer of judgment.",
   "school_framing": {
-    "framing_status": "mixed",
-    "shared_core": "*Krodha* names **the aversive heat that arises when desire is obstructed or an attachment is threatened**; all schools class it among the inner enemies or afflictions and treat its mastery as a mark of the disciplined self. They differ chiefly in the diagnostic frame: a link in the bondage-chain of the *Gītā*, or the *dveṣa* affliction of Yoga.",
-    "register_axes_note": "**Same concept, different aspect**: the *Gītā* embeds *krodha* in a causal sequence (*kāma → krodha → sammoha → buddhi-nāśa*), while Yoga treats the underlying repulsion as the standing *kleśa* *dveṣa*. Both diagnose the same aversive movement; the disagreement, if any, is over analytic vocabulary rather than the phenomenon."
+    "framing_status": "shared",
+    "shared_core": "*Krodha* names **the aversive heat that arises when desire is obstructed or an attachment is threatened**; the traditions converge in classing it among the inner enemies or afflictions and in treating its mastery (*akrodha*, *kṣamā*) as a mark of the disciplined self. What varies is the analytic vocabulary — a link in a bondage-chain, a member of the *ṣaḍ-varga*, or the *dveṣa* affliction of Yoga — not the phenomenon.",
+    "register_axes_note": "Largely **shared**: *krodha* is a broadly agreed-upon vice rather than a contested technical category. The chief difference of framing is between the ethical-soteriological treatment (anger as a link from thwarted desire to the collapse of *buddhi*) and the yogic treatment (the underlying repulsion as the standing *kleśa* *dveṣa*); both diagnose the same aversive movement."
   },
   "per_school": [
     {
       "school": "Vedānta / Gītā",
-      "definition": "*Krodha* is the second term in the *Gītā*'s descent into bondage: it is born of frustrated *kāma* and issues in delusion and the destruction of discriminative judgment (2.62-63). Śaṅkara and later commentators read the freedom from anger of the *sthitaprajña* (2.56) as the practical sign that desire itself has been mastered, since anger cannot arise where there is no thwarted craving. Anger is therefore treated diagnostically — as evidence of residual attachment — rather than as an isolated emotion to be merely suppressed.",
+      "definition": "In the *Gītā* *krodha* is a link in the descent into bondage: born of frustrated *kāma*, it issues in delusion and the destruction of discriminative judgment (2.62–63), and is named a gate of hell (16.21). Śaṅkara and later commentators read freedom from anger as the practical sign that desire itself has been mastered, since anger cannot arise where there is no thwarted craving; anger is thus treated diagnostically — as evidence of residual attachment — rather than as an isolated emotion to be merely suppressed.",
       "primary_loci": [
-        "Bhagavad-Gītā 2.56, 2.62-63",
+        "Bhagavad-Gītā 2.62-63 (kāma → krodha → sammoha → buddhi-nāśa)",
         "Bhagavad-Gītā 3.37 (krodha with kāma as the enemy)",
         "Bhagavad-Gītā 16.21 (krodha as a gate of hell)"
       ],
@@ -33,10 +33,19 @@
       "school": "Yoga",
       "definition": "In Pātañjala Yoga the aversive affliction is *dveṣa*, aversion that follows upon pain (*duḥkhānuśayī dveṣaḥ*, YS 2.8), one of the five *kleśas* rooted in *avidyā*. *Krodha* is the manifest, agitated form of this standing repulsion disturbing the *citta*. As a *kleśa*-product it is to be attenuated by *kriyā-yoga* and dissolved as discrimination matures, since while it operates the mind cannot reach steady absorption.",
       "primary_loci": [
-        "Yoga-Sūtra 2.3, 2.8",
-        "Yoga-Sūtra, sādhana-pāda (kleśa-tanūkaraṇa: 2.1-2)"
+        "Yoga-Sūtra 2.3, 2.8 (kleśas; dveṣa)",
+        "Yoga-Sūtra 2.1-2 (kriyā-yoga; kleśa-tanūkaraṇa)"
       ],
       "register_tag": "Φ+S; yogin (krodha as dveṣa-product)"
+    },
+    {
+      "school": "Buddhist",
+      "definition": "Anger appears as *dosa/dveṣa* (hatred, ill-will), one of the three unwholesome roots (*akusala-mūla*: *lobha, dosa, moha*) and one of the three fires whose extinction is *nibbāna*. Ill-will (*byāpāda*) is the second of the five hindrances to concentration. Its antidote is the cultivation of loving-kindness (*mettā*) and patience (*khanti*). As with the Brāhmaṇical accounts, anger is a defilement to be uprooted rather than a passing mood, but it is here a root-poison rather than a link from a prior desire.",
+      "primary_loci": [
+        "the three akusala-mūla and three fires (lobha, dosa, moha) in the suttas",
+        "the five nīvaraṇa (byāpāda); mettā as antidote"
+      ],
+      "register_tag": "Φ+S; reflective reader (dosa as akusala-mūla)"
     }
   ],
   "see_also": [
@@ -47,5 +56,5 @@
     "sthitaprajna",
     "moksa"
   ],
-  "translator_note": "'Anger' is correct, but do not read it as a momentary mood. In the *Gītā* *krodha* is a structural link between thwarted desire and the collapse of judgment, so its appearance is treated as a symptom of attachment rather than an independent feeling. Avoid softening it to 'irritation' or 'frustration'; the term names a force strong enough, in the text's analysis, to destroy the discriminating intellect."
+  "translator_note": "'Anger' is correct, but it should not be read as a momentary mood. In the analytic literature *krodha* is a structural force — a link between thwarted desire and the collapse of judgment, a member of the six inner enemies, or the manifest form of the *dveṣa* affliction — so its appearance is treated as a symptom of attachment rather than an independent feeling. Avoid softening it to 'irritation' or 'frustration': the term names a force the texts hold strong enough to destroy the discriminating intellect, and its opposite, *akrodha*, is a named virtue, not mere placidity."
 }

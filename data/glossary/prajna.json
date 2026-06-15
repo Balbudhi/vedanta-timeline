@@ -2,7 +2,7 @@
   "term_key": "prajna",
   "term_iast": "prajñā",
   "term_devanagari": "प्रज्ञा",
-  "literal": "wisdom, discernment, insight, the higher knowing; from pra + √jñā 'to know forth, to know thoroughly'",
+  "literal": "wisdom, discernment, insight; from pra- (intensive, 'forth, thoroughly') + √jñā 'to know' (pra-√jñā + a, fem.), 'a knowing-forth', heightened or thoroughgoing knowing",
   "aliases": [
     "prajna",
     "prajñā",
@@ -14,48 +14,48 @@
     "vipaścitaḥ"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "gita-sthitaprajna-glossary",
-  "invariant_definition": "*Prajñā* is wisdom in the strong sense: not the accumulation of information but the discerning insight that sees things as they are and orders one's response accordingly. The prefix *pra-* intensifies √jñā 'to know', so the term names a heightened or thoroughgoing knowing — discrimination, sagacity, the settled understanding from which right action and right detachment flow. It functions as a pivot term across several traditions. In Yoga it is the lucid insight that arises in deep absorption, culminating in *ṛtambharā prajñā*, the 'truth-bearing' wisdom that grasps the object exactly. In Buddhist usage *prajñā* (Pali *paññā*) is the third of the three trainings — *śīla* (conduct), *samādhi* (concentration), *prajñā* (wisdom) — and the central perfection of the *prajñāpāramitā* literature, the insight into emptiness or no-self. In the Upaniṣadic and Advaitic register *prajñā* names both the deep-sleep self (*prājña* of the Māṇḍūkya) and, more broadly, the wisdom that is identity-knowledge of *brahman*. The *Bhagavad-Gītā* builds its central compound *sthita-prajña* — 'one whose wisdom stands firm' — directly on this term, and the same passage glosses the wise man as *vipaścit* (2.60), the discerning one whose senses must still be guarded. *Prajñā* is therefore the quality whose stabilization the whole *sthitaprajña* teaching describes: wisdom that has become unshakeable.",
+  "last_verified_by": "glossary-proper-rewrite",
+  "invariant_definition": "*Prajñā* is wisdom in the strong sense: not the accumulation of information but the discerning insight that sees things as they are and orders one's response accordingly. The prefix *pra-* intensifies √jñā 'to know', so the term names a heightened or thoroughgoing knowing — discrimination, sagacity, the settled understanding from which right action and right detachment flow. It functions as a pivot term across several traditions, with the object of insight differing sharply by school. In the Upaniṣadic and Advaitic register *prajñā* names both the deep-sleep self — the *prājña* of the Māṇḍūkya, the 'mass of cognition' (*prajñāna-ghana*) that is the third quarter — and, more broadly, the wisdom that is identity-knowledge of *brahman*; the *mahāvākya* *prajñānaṃ brahma* ('consciousness is Brahman', Aitareya 3.3) belongs to this family. In Pātañjala Yoga *prajñā* is the lucid insight arising in deep absorption, culminating in *ṛtambharā prajñā*, the 'truth-bearing' wisdom that grasps the particular exactly (YS 1.48–49). In Buddhist usage *prajñā* (Pali *paññā*) is the third of the three trainings — *śīla* (conduct), *samādhi* (concentration), *prajñā* (wisdom) — and the crowning *pāramitā* of the *prajñāpāramitā* literature, the insight into emptiness and no-self. The discerning wise person is also called *vipaścit* ('the perceptive one'). *Prajñā* is thus the faculty whose stabilization the contemplative traditions aim at: wisdom that has become steady and unshakeable.",
   "school_framing": {
     "framing_status": "mixed",
     "shared_core": "*Prajñā* names **the discerning insight that sees the real as it is and steadies conduct upon that seeing** — wisdom as a faculty and an achievement, not mere information. The structural role of culminating cognition is widely shared; the object of that insight differs sharply by school.",
-    "register_axes_note": "**Real disagreement** over what *prajñā* finally discerns: the isolation of *puruṣa* from *prakṛti* (Yoga), the emptiness and selflessness of all dharmas (Buddhist), or the non-dual identity of self and *brahman* (Advaita). Same culminating-wisdom role, opposing accounts of its content. **Same concept, different aspect** between the *Gītā*'s *sthita-prajñā* (steadied practical wisdom) and the technical absorptive *prajñā* of Yoga."
+    "register_axes_note": "**Real disagreement** over what *prajñā* finally discerns: the non-dual identity of self and *brahman* (Advaita), the isolation of *puruṣa* from *prakṛti* (Yoga), or the emptiness and selflessness of all dharmas (Buddhist). Same culminating-wisdom role, opposing accounts of its content. **Same concept, different aspect** between steadied practical wisdom (the Gītā's *sthita-prajña*) and the technical absorptive *prajñā* of Yoga."
   },
   "per_school": [
     {
-      "school": "Yoga",
-      "definition": "In Pātañjala Yoga *prajñā* is the insight that arises and deepens through the stages of absorption: as *nirvicāra* absorption clarifies, there dawns *adhyātma-prasāda* and a lucid *prajñā* (YS 1.47), culminating in *ṛtambharā prajñā*, the truth-bearing wisdom whose scope and grasp exceed inference and testimony because it apprehends the particular as it is (YS 1.48-49). This *prajñā* generates impressions that override other latent tendencies (YS 1.50); it is the cognitive fruit of *samādhi* and the proximate instrument of discriminative discernment leading to *kaivalya*.",
+      "school": "Advaita",
+      "definition": "Advaita carries two related uses. In the Māṇḍūkya analysis *prājña* is the self in deep sleep, the mass of undifferentiated cognition (*prajñāna-ghana*), the third quarter — a state to be transcended toward the *turīya*. More broadly *prajñā* names the wisdom that is knowledge of *brahman*: the discerning insight, matured by hearing, reflection, and meditation (*śravaṇa-manana-nididhyāsana*), in which the identity of *ātman* and *brahman* is realized; *prajñānaṃ brahma* states consciousness itself as the absolute. Wisdom here is realization, not the acquisition of a new fact.",
       "primary_loci": [
-        "Yoga-Sūtra 1.47-51",
+        "Māṇḍūkya Upaniṣad 5 (prājña, the deep-sleep self)",
+        "Aitareya Upaniṣad 3.3 (prajñānaṃ brahma)",
+        "Śaṅkara, Māṇḍūkya-Bhāṣya and Upadeśa-Sāhasrī"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    },
+    {
+      "school": "Yoga",
+      "definition": "In Pātañjala Yoga *prajñā* is the insight that arises and deepens through the stages of absorption: as *nirvicāra* absorption clarifies, there dawns *adhyātma-prasāda* and a lucid *prajñā* (YS 1.47), culminating in *ṛtambharā prajñā*, the truth-bearing wisdom whose scope and grasp exceed inference and testimony because it apprehends the particular as it is (YS 1.48–49). This *prajñā* generates impressions that override other latent tendencies (YS 1.50); it is the cognitive fruit of *samādhi* and the proximate instrument of the discriminative discernment (*vivekakhyāti*) leading to *kaivalya*. The bhāṣya describes a sevenfold *prajñā* at the threshold of liberation (cf. YS 2.27).",
+      "primary_loci": [
+        "Yoga-Sūtra 1.47-51 (ṛtambharā prajñā)",
         "Yoga-Sūtra 2.27 (sevenfold prajñā)"
       ],
       "register_tag": "Φ+S; yogin (ṛtambharā prajñā, fruit of samādhi)"
     },
     {
       "school": "Buddhist",
-      "definition": "*Prajñā* (Pali *paññā*) is the third of the three trainings — *śīla*, *samādhi*, *prajñā* — and the discernment that liberates: insight into impermanence, suffering, and not-self, and, in the Mahāyāna *prajñāpāramitā* literature, into the emptiness (*śūnyatā*) of all dharmas. It is distinguished from mere concentration: *samādhi* steadies the mind, but it is *prajñā* that sees, and only this seeing uproots ignorance. As the crowning *pāramitā* it is what gives the other perfections their liberative direction.",
+      "definition": "*Prajñā* (Pali *paññā*) is the third of the three trainings — *śīla, samādhi, prajñā* — and the discernment that liberates: insight into impermanence, suffering, and not-self, and, in the Mahāyāna *prajñāpāramitā* literature, into the emptiness (*śūnyatā*) of all dharmas. It is sharply distinguished from concentration: *samādhi* steadies the mind, but it is *prajñā* that sees, and only this seeing uproots ignorance. As the crowning *pāramitā* it is what gives the other perfections their liberative direction.",
       "primary_loci": [
         "Aṣṭasāhasrikā Prajñāpāramitā",
         "Visuddhimagga (paññā section)",
-        "the three sikkhā (śīla-samādhi-prajñā) of the suttas"
+        "the three sikkhā (sīla-samādhi-paññā) of the suttas"
       ],
       "register_tag": "Φ+S; reflective reader [REAL-DISAGREEMENT: prajñā as insight into śūnyatā/anātman]"
     },
     {
-      "school": "Advaita",
-      "definition": "Advaita carries two related uses. In the Māṇḍūkya analysis *prājña* is the self in deep sleep, the mass of undifferentiated cognition (*prajñāna-ghana*), the third quarter — a state to be transcended toward the *turīya*. More broadly *prajñā* names the wisdom that is knowledge of *brahman*: the discerning insight, matured by hearing, reflection, and meditation, in which the identity of *ātman* and *brahman* is realized. The *Gītā*'s *sthita-prajña* is read in this key as the one whose *brahma-jñāna* has become firm and unshakeable.",
-      "primary_loci": [
-        "Māṇḍūkya Upaniṣad 5 (prājña, the deep-sleep self)",
-        "Śaṅkara, Gītā-Bhāṣya on 2.54-58",
-        "Bhagavad-Gītā 2.54-58"
-      ],
-      "register_tag": "M+S; mumukṣu"
-    },
-    {
       "school": "Vedānta / Gītā",
-      "definition": "The *Gītā* gives *prajñā* its most famous compound: *sthita-prajña* (2.55), one whose wisdom stands firm. Across 2.54-72 *prajñā* is the practical-contemplative wisdom that becomes *pratiṣṭhitā* (well-established, 2.57-58) when the senses are withdrawn and the mind freed of craving, fear, and anger. The same wise person is glossed as *vipaścit* (2.60), the discerning one — yet even his senses can carry the mind away if unguarded, which is why the steadiness of *prajñā* is itself the discipline the chapter teaches.",
+      "definition": "The *Gītā* gives *prajñā* its most famous compound, *sthita-prajña* (2.55), one whose wisdom stands firm: practical-contemplative wisdom that becomes *pratiṣṭhitā* (well-established) when the senses are withdrawn and the mind freed of craving, fear, and anger. The wise person is glossed as *vipaścit* (2.60), the discerning one — yet even his senses can carry the mind away if unguarded, which is why the steadiness of *prajñā*, not a fresh quantum of knowledge, is the burden of the teaching.",
       "primary_loci": [
-        "Bhagavad-Gītā 2.54-58, 2.60",
+        "Bhagavad-Gītā 2.54-58 (sthita-prajña), 2.60 (vipaścit)",
         "Bhagavad-Gītā 2.65-66, 2.68"
       ],
       "register_tag": "M+S; mumukṣu (sthita-prajñā)"
@@ -70,5 +70,5 @@
     "atman",
     "brahman"
   ],
-  "translator_note": "'Knowledge' is too flat: *prajñā* is discerning wisdom or insight, the faculty that sees rather than the stock of what is known (closer to *jñāna* as content). Note that the same term anchors very different goals — Yoga's truth-bearing absorptive insight, Buddhist insight into emptiness and no-self, and Advaita's identity-knowledge — so the English should not silently import one school's object of wisdom into another's. In the *Gītā*'s *sthita-prajña* the emphasis is on wisdom made steady, not on a fresh quantum of information."
+  "translator_note": "'Knowledge' is too flat: *prajñā* is discerning wisdom or insight, the faculty that sees, rather than the stock of what is known (closer to *jñāna* as content). The same term anchors very different goals — Advaita's identity-knowledge, Yoga's truth-bearing absorptive insight, Buddhist insight into emptiness and no-self — so the English should not silently import one school's object of wisdom into another's. Where the accent falls on stabilized wisdom (the *sthita-prajña*), 'steady wisdom' is preferable to any rendering that suggests new information."
 }

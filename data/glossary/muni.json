@@ -2,7 +2,7 @@
   "term_key": "muni",
   "term_iast": "muni",
   "term_devanagari": "मुनि",
-  "literal": "sage, silent one; one given to silence and inward contemplation, traditionally linked to mauna ('silence')",
+  "literal": "sage, silent one; an *uṇādi* formation (man + i) conventionally connected with *mauna* ('silence') and with the root √man 'to think', hence 'the one given to (silent) thought'",
   "aliases": [
     "muni",
     "Muni",
@@ -13,29 +13,30 @@
     "saṃyamin"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "gita-sthitaprajna-glossary",
-  "invariant_definition": "A *muni* is a sage: characteristically the silent or inward one, the contemplative whose mark is *mauna* ('silence') and the inner stillness from which that silence flows. The word is old and pan-Indian, used across Brāhmaṇical and śramaṇa traditions for the contemplative ascetic who has withdrawn from the agitations of ordinary life. The traditional gloss connects *muni* with *mauna*: the sage is one who has fallen silent not merely outwardly but inwardly, having transcended the dualities (*dvandvas*) of pleasure and pain, gain and loss, that drive ordinary speech and reaction. In the *Bhagavad-Gītā*'s *sthitaprajña* passage the term is used to crystallize the ideal: 'one whose mind is undisturbed in sorrows, who is without longing amid pleasures, freed of attachment, fear, and anger, is called a *muni* of steady wisdom' (2.56, *sthita-dhīr munir ucyate*). Later in the same passage the disciplined sage is named *saṃyamī*, 'the self-controlled one', in the famous inversion of 2.69 — what is night for all beings is the waking-time of the self-controlled, and what is the waking-world of beings is night for the *muni* who sees. The *muni* is thus the *Gītā*'s name for the realized contemplative considered under the aspect of inner stillness and self-mastery.",
+  "last_verified_by": "glossary-proper-rewrite",
+  "invariant_definition": "A *muni* is a sage: characteristically the silent or inward one, the contemplative whose mark is *mauna* ('silence') and the inner stillness from which that silence flows. The word is old and pan-Indian, found from the Ṛgveda — the *Keśin* hymn (RV 10.136) celebrates the long-haired *muni* who, 'girded with the wind', drinks with Rudra from the cup of poison and traverses the paths of the sky, an ecstatic visionary type — through the Brāhmaṇical, epic, and śramaṇa literatures, where it names the contemplative ascetic withdrawn from the agitations of ordinary life. The traditional gloss links *muni* with *mauna*: the sage is one who has fallen silent not merely outwardly but inwardly, having transcended the dualities (*dvandvas*) of pleasure and pain, gain and loss, that drive ordinary speech and reaction. The term overlaps with but is not identical to *ṛṣi* (the seer of the Vedic mantras), *yati* (the restrained one), and *saṃnyāsin* (the formal renunciant); its distinctive note is interiorized silence rather than visionary sight or institutional status. In the śramaṇa traditions it acquires a specially honorific use — the Buddha is *Śākyamuni*, 'the sage of the Śākyas', and Mahāvīra is hailed as a *muni* — so the title runs across the whole Indian spectrum of realized contemplatives. Where the *Bhagavad-Gītā* and the Upaniṣads use it, *muni* names the realized contemplative considered under the aspect of inner stillness and self-mastery, the near-synonym *saṃyamī* ('the self-controlled one') marking the same figure under the aspect of restraint.",
   "school_framing": {
     "framing_status": "shared",
-    "shared_core": "*Muni* names **the sage of inner silence and self-mastery — the contemplative who has stilled the dualities of ordinary reactive life** (etymologically linked to *mauna*; Bhagavad-Gītā 2.56, 2.69). The pan-Indian use is largely convergent: across Brāhmaṇical and śramaṇa traditions the *muni* is the withdrawn, contemplative ascetic, and the *Gītā* uses the word to name the inner aspect of its settled-wisdom ideal.",
-    "register_axes_note": "Largely **shared**: the term is an honorific for the contemplative sage rather than a contested technical category, so usage converges more than it diverges. What varies is the surrounding soteriology (what the sage has realized), not the meaning of *muni* itself."
+    "shared_core": "*Muni* names **the sage of inner silence and self-mastery — the contemplative who has stilled the dualities of ordinary reactive life** (etymologically linked to *mauna*; from the Vedic *Keśin* through the epic and śramaṇa usage). The pan-Indian use is largely convergent: across Brāhmaṇical and śramaṇa traditions the *muni* is the withdrawn, contemplative sage, and the title is freely conferred on the founders of the śramaṇa paths.",
+    "register_axes_note": "Largely **shared**: the term is an honorific for the contemplative sage rather than a contested technical category, so usage converges more than it diverges. What varies is the surrounding soteriology — what the sage has realized — not the meaning of *muni* itself, which everywhere centres on stilled, self-mastered silence."
   },
   "per_school": [
     {
       "school": "Vedānta / Gītā",
-      "definition": "In the *Gītā* the *muni* is the *sthitaprajña* considered under the aspect of inner stillness: the one undisturbed in sorrow, without craving amid pleasures, free of attachment, fear, and anger, is 'called a *muni* of steady wisdom' (2.56). The figure recurs as the *saṃyamī*, the self-controlled one who is awake to the self while the world sleeps and indifferent to what the world calls waking (2.69). Śaṅkara and later commentators read the *muni* here as the knower whose silence is the cessation of the inner agitation of desire, not merely a vow of verbal silence.",
+      "definition": "In the Upaniṣadic and Gītā register the *muni* is the knower considered under the aspect of inner stillness: the one undisturbed in sorrow, without craving amid pleasures, free of attachment, fear, and anger, is 'called a *muni* of steady wisdom' (Gītā 2.56), and recurs as the *saṃyamī*, awake to the self while the world sleeps (2.69). Bṛhadāraṇyaka 3.5.1 ties *mauna* to the brāhmaṇa's realized condition. Śaṅkara and later commentators read the *muni*'s silence as the cessation of the inner agitation of desire, not merely a vow of verbal silence.",
       "primary_loci": [
+        "Bṛhadāraṇyaka Upaniṣad 3.5.1 (mauna and the brāhmaṇa)",
         "Bhagavad-Gītā 2.56, 2.69",
         "Śaṅkara, Gītā-Bhāṣya on 2.56"
       ],
-      "register_tag": "M+S; mumukṣu (muni as inner aspect of sthitaprajña)"
+      "register_tag": "M+S; mumukṣu (muni as inner stillness of the knower)"
     },
     {
-      "school": "Pan-Indian śramaṇa / ascetic ideal",
-      "definition": "Across the wider Indian ascetic culture the *muni* is the silent contemplative renunciant, the wandering or settled sage whose authority rests on inner mastery and withdrawal from worldly entanglement. The Upaniṣadic and epic literature uses *muni* and *mauna* together for the sage who has gone beyond speech-driven desire; the term overlaps with *ṛṣi* (seer) and *yati* (the restrained one) without being identical to them. This broad usage is the cultural background the *Gītā* draws on when it names its ideal a *muni*.",
+      "school": "Pan-Indian / śramaṇa ascetic ideal",
+      "definition": "Across the wider Indian ascetic culture the *muni* is the silent contemplative renunciant, the wandering or settled sage whose authority rests on inner mastery and withdrawal from worldly entanglement. The Vedic *Keśin* hymn gives an early ecstatic form; the śramaṇa traditions make the title honorific for their founders (Śākyamuni, the Jain *muni*); and the epic-Upaniṣadic literature uses *muni* and *mauna* together for the sage who has gone beyond speech-driven desire. The term overlaps with *ṛṣi*, *yati*, and *saṃnyāsin* without being identical to them.",
       "primary_loci": [
-        "Bṛhadāraṇyaka Upaniṣad 3.5.1 (mauna and the brāhmaṇa)",
-        "general epic-Upaniṣadic usage of muni / mauna"
+        "Ṛgveda 10.136 (the Keśin / muni hymn)",
+        "general epic-Upaniṣadic and śramaṇa usage of muni / mauna"
       ],
       "register_tag": "M; reflective reader (contemplative ascetic ideal)"
     }
@@ -47,5 +48,5 @@
     "moksa",
     "jnana"
   ],
-  "translator_note": "'Monk' imports Christian-monastic connotations and 'sage' can sound merely intellectual; the load-bearing nuance is silence and inner stillness (*mauna*). In the *Gītā*'s 2.56 the title is conferred precisely on one free of grief, craving, fear, and anger, so 'silent sage' or 'sage of stilled mind' is closer than a generic 'wise man'. The near-synonym *saṃyamī* in 2.69 should be rendered as 'the self-controlled one', keeping the accent on restraint."
+  "translator_note": "'Monk' imports Christian-monastic connotations and 'sage' can sound merely intellectual; the load-bearing nuance is silence and inner stillness (*mauna*). The title is conferred on one free of grief, craving, fear, and anger, so 'silent sage' or 'sage of stilled mind' is closer than a generic 'wise man'. Distinguish *muni* from neighbouring terms — *ṛṣi* (seer), *yati* (the restrained), *saṃnyāsin* (the renunciant) — which are related but not synonymous; and render the near-synonym *saṃyamī* as 'the self-controlled one', keeping the accent on restraint."
 }

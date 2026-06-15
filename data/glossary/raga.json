@@ -2,7 +2,7 @@
   "term_key": "raga",
   "term_iast": "rāga",
   "term_devanagari": "राग",
-  "literal": "passion, attachment, coloring, dyeing; from √rañj 'to color, to be dyed, to be attached', hence the mind 'colored' by what it clings to",
+  "literal": "passion, attachment, coloring, dyeing; action-noun from √rañj 'to color, to be dyed, to be attached' (rañj + ghañ → rāga), hence the mind 'colored' by what it clings to",
   "aliases": [
     "raga",
     "rāga",
@@ -21,38 +21,47 @@
     "rasaḥ"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "gita-sthitaprajna-glossary",
-  "invariant_definition": "*Rāga* is attachment in the sense of being 'colored' by what one clings to: the affective pull toward objects of pleasure that dyes the mind and biases its responses. The etymology from √rañj ('to dye, to color') is alive in the usage — the attached mind takes on the hue of its object, as cloth takes a dye. *Rāga* is the positive pole of an affective pair: it is consistently coupled with *dveṣa* (aversion, repulsion), the two together forming the basic attraction–repulsion polarity that structures conditioned experience. In the *Bhagavad-Gītā*'s *sthitaprajña* passage *rāga* is named directly: the sage of steady wisdom is *vīta-rāga-bhaya-krodhaḥ*, free of attachment, fear, and anger (2.56), and he moves among sense-objects *rāga-dveṣa-viyuktaiḥ*, with the senses disjoined from attraction and aversion (2.64). The passage adds a subtle further point at 2.59: even when the objects are abstained from, the residual *rasa* — the lingering taste or relish for them — remains, and this *rasa* too falls away only on seeing the Supreme. Several near-synonyms of attachment cluster here: *saṅga* ('clinging, association'), whose dwelling-on breeds desire (2.62), and the residual *rasa* of 2.59. The entry treats *rāga* as the primary term for binding attachment, with *saṅga* and *rasa* as related attachment-words grouped under it in the editorial mapping.",
+  "last_verified_by": "glossary-proper-rewrite",
+  "invariant_definition": "*Rāga* is attachment in the sense of being 'colored' by what one clings to: the affective pull toward objects of pleasure that dyes the mind and biases its responses. The etymology from √rañj ('to dye, to color') is alive in the usage — the attached mind takes on the hue of its object, as cloth takes a dye, the same root yielding *rāga* in its musical sense of a 'coloring' melodic mode. *Rāga* is the positive pole of an affective pair, consistently coupled with *dveṣa* (aversion, repulsion); the two together form the basic attraction–repulsion polarity that structures conditioned experience, and freedom from both (*rāga-dveṣa-vimukta*) is a standard description of the disciplined. Several near-synonyms cluster around it: *saṅga* ('clinging, association'), whose dwelling-on the *Gītā* makes the seed of desire (2.62); and *rasa*, the lingering 'taste' or relish for an object that can survive even its outward abandonment. The term's analytic homes are several. In Pātañjala Yoga *rāga* is the third of the five *kleśas* (*sukhānuśayī rāgaḥ*, YS 2.7), the latent disposition of attachment-following-pleasure rooted in *avidyā*. In Buddhist usage *rāga* is one of the three poisons (*rāga, dveṣa, moha*), the greed whose extinction is liberation. In Trika Śaivism, by contrast, *rāga* is not an affliction at all but one of the six *kañcukas*, a real contraction of the self's fullness. The term thus names everywhere a coloring attachment, but its status — affliction, poison, or structural limitation — varies by system.",
   "school_framing": {
     "framing_status": "mixed",
-    "shared_core": "*Rāga* names **the affective attachment that 'colors' the mind toward objects of pleasure, the attraction-pole paired with *dveṣa* (aversion)**. All schools treat this attraction–repulsion polarity as a primary source of disturbance and bondage. They differ on its precise classification (a standing *kleśa*, a guṇa-effect, or a limiting *kañcuka*) and on what its removal accomplishes.",
-    "register_axes_note": "**Same concept, different aspect**: Yoga fixes *rāga* as one of the five *kleśas* (attachment following pleasure); the *Gītā* treats *vīta-rāga* as a behavioural mark of the *sthitaprajña* and notes a residual *rasa* that knowledge alone removes. **Real disagreement** with Trika, where *rāga* is not an affliction to be annihilated but one of the *kañcukas* — a real contraction of the self's fullness (*pūrṇatva*) — whose resolution is recognition, not extinction."
+    "shared_core": "*Rāga* names **the affective attachment that 'colors' the mind toward objects of pleasure, the attraction-pole paired with *dveṣa* (aversion)**. The traditions treat this attraction–repulsion polarity as a primary source of disturbance and bondage. They differ on its precise classification (a standing *kleśa*, a root-poison, or a limiting *kañcuka*) and on what its removal accomplishes.",
+    "register_axes_note": "**Same concept, different aspect** between Yoga (one of the five *kleśas*) and Buddhism (one of the three poisons): both diagnose *rāga* as a defilement to be uprooted for liberation. **Real disagreement** with Trika, where *rāga* is not an affliction to be annihilated but one of the *kañcukas* — a real contraction of the self's fullness (*pūrṇatva*) — whose resolution is recognition (*pratyabhijñā*), not extinction."
   },
   "per_school": [
     {
       "school": "Yoga",
-      "definition": "In Pātañjala Yoga *rāga* is the third of the five *kleśas*: *sukhānuśayī rāgaḥ*, attachment that dwells upon (follows from) pleasure (YS 2.7), paired with *dveṣa*, aversion dwelling upon pain (YS 2.8). Both are rooted in *avidyā* and are to be attenuated by *kriyā-yoga* and finally dissolved as discrimination matures. *Rāga* is thus not a mere preference but a deep, latent disposition that conditions the *citta* and must be uprooted for the *vṛttis* to be stilled.",
+      "definition": "In Pātañjala Yoga *rāga* is the third of the five *kleśas*: *sukhānuśayī rāgaḥ*, attachment that dwells upon (follows from) pleasure (YS 2.7), paired with *dveṣa*, aversion dwelling upon pain (YS 2.8). Both are rooted in *avidyā* and are to be attenuated by *kriyā-yoga* and finally dissolved as discrimination matures, the standing counter-discipline being *vairāgya* (YS 1.15–16). *Rāga* is thus not a mere preference but a deep, latent disposition conditioning the *citta*, which must be uprooted for the *vṛttis* to be stilled.",
       "primary_loci": [
-        "Yoga-Sūtra 2.3, 2.7-8",
+        "Yoga-Sūtra 2.3, 2.7-8 (kleśas; rāga, dveṣa)",
         "Yoga-Sūtra 1.15-16 (vairāgya)"
       ],
       "register_tag": "Φ+S; yogin (rāga as kleśa)"
     },
     {
-      "school": "Advaita / Gītā",
-      "definition": "Read through the *Gītā*, *rāga* is the attachment whose absence marks the *sthitaprajña*: he is *vīta-rāga-bhaya-krodhaḥ* (2.56) and acts with senses freed of *rāga* and *dveṣa* (2.64), thereby reaching serenity. Śaṅkara stresses the nuance of 2.59: outward abstention from objects removes the objects but not the *rasa*, the inner relish; only the vision of the Supreme (*paraṃ dṛṣṭvā*) dissolves that lingering taste. Attachment is therefore not finally conquered by suppression but by knowledge that empties the object of its perceived value.",
+      "school": "Buddhist",
+      "definition": "In Buddhist analysis *rāga* (often *lobha*) is greed or lust, one of the three unwholesome roots and three fires (*rāga, dveṣa, moha*) whose going-out is *nibbāna*. As craving for sensual experience it drives the wheel of dependent origination; its removal is not a metaphysical recognition but the dispassion (*virāga*) cultivated through the path. *Virāga* — fading-away of attachment — is a standard synonym for the goal itself.",
       "primary_loci": [
-        "Bhagavad-Gītā 2.56, 2.59, 2.62, 2.64",
+        "the three akusala-mūla / three fires (rāga, dveṣa, moha) in the suttas",
+        "Dhammapada (the rāga-vagga; virāga as the goal)"
+      ],
+      "register_tag": "Φ+S; reflective reader (rāga as poison; virāga as goal)"
+    },
+    {
+      "school": "Advaita / Gītā",
+      "definition": "In the Vedāntic-Gītā register *rāga* is the attachment whose absence marks the disciplined knower: he is *vīta-rāga-bhaya-krodhaḥ* (2.56) and acts with senses freed of *rāga* and *dveṣa* (2.64), thereby reaching serenity. Śaṅkara stresses the nuance of 2.59: outward abstention removes the objects but not the *rasa*, the inner relish; only the vision of the Supreme (*paraṃ dṛṣṭvā*) dissolves that lingering taste. Attachment is therefore not finally conquered by suppression but by knowledge that empties the object of its perceived value.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.56, 2.59 (the residual rasa), 2.62, 2.64",
         "Śaṅkara, Gītā-Bhāṣya on 2.59 and 2.64"
       ],
-      "register_tag": "M+S; mumukṣu (vīta-rāga; the residual rasa of 2.59)"
+      "register_tag": "M+S; mumukṣu (vīta-rāga; the residual rasa)"
     },
     {
       "school": "Trika / Kashmir Śaivism",
-      "definition": "In Trika *rāga* is not primarily an affliction to be annihilated but one of the six *kañcukas*, the contractions through which the unlimited fullness (*pūrṇatva*) of Śiva is veiled in the bound subject. As a *kañcuka*, *rāga* names the limited attachment or partial interest that arises once the self's complete self-sufficiency is contracted — the felt need for *this* particular thing, in contrast to the all-fulfilment of the unbound self. Its resolution is therefore the re-expansion of consciousness in recognition (*pratyabhijñā*), not the mere extinction of desire.",
+      "definition": "In Trika *rāga* is not primarily an affliction to be annihilated but one of the six *kañcukas*, the contractions through which the unlimited fullness (*pūrṇatva*) of Śiva is veiled in the bound subject (alongside *kalā, vidyā, kāla, niyati*). As a *kañcuka*, *rāga* names the limited attachment or partial interest that arises once the self's complete self-sufficiency is contracted — the felt need for *this* particular thing, in contrast to the all-fulfilment of the unbound self. Its resolution is therefore the re-expansion of consciousness in recognition (*pratyabhijñā*), not the mere extinction of desire.",
       "primary_loci": [
         "Paramārthasāra 16-17 (the kañcukas)",
-        "Pratyabhijñā-Hṛdayam 6, 9 (māyā and the kañcukas: kalā, vidyā, rāga, kāla, niyati)"
+        "Pratyabhijñā-Hṛdayam 6, 9 (māyā and the kañcukas)"
       ],
       "register_tag": "M+Φ; sādhaka [REAL-DISAGREEMENT: rāga as kañcuka, contraction of pūrṇatva]"
     }
@@ -66,5 +75,5 @@
     "sthitaprajna",
     "maya"
   ],
-  "translator_note": "'Passion' is acceptable but can suggest mere intensity; the core of *rāga* is attachment that 'colors' the mind, the attraction-pole paired with *dveṣa* (aversion). Keep that polarity visible — rendering *rāga-dveṣa* as a single 'desire' loses the structure. Note the related cluster: *saṅga* ('clinging, association') and the residual *rasa* ('relish, lingering taste') of Gītā 2.59 are attachment-words grouped with *rāga* here, but *rasa* in particular carries the precise nuance of a taste that survives outward abstention and is removed only by seeing the Supreme. Do not flatten *rasa* into ordinary 'desire'. In Trika, do not translate *rāga* as 'affliction' — there it is a *kañcuka*, a structural limitation."
+  "translator_note": "'Passion' is acceptable but can suggest mere intensity; the core of *rāga* is attachment that 'colors' the mind, the attraction-pole paired with *dveṣa* (aversion). Keep that polarity visible — rendering *rāga-dveṣa* as a single 'desire' loses the structure. Note the related cluster: *saṅga* ('clinging') and the residual *rasa* ('relish, lingering taste') are attachment-words near *rāga*, but *rasa* in particular carries the nuance of a taste that survives outward abstention. Above all, do not assume *rāga* is always an affliction: in Trika it is a *kañcuka*, a structural limitation to be recognized through, not a defilement to be extinguished, and the English should not pre-load the diagnostic frame."
 }

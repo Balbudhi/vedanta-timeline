@@ -4231,7 +4231,7 @@ async function ensureArticlesLoaded() {
       const pillHTML = a.kind === "perspective" ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> ' : "";
       const metaBits = [
         a.word_count_approx ? "~" + a.word_count_approx.toLocaleString() + " words" : "",
-        a.external_url ? "reading page ↗" : "",
+        a.interactive ? "interactive reading" : "",
         a.date ? escape(a.date) : "",
       ].filter(Boolean).join(" · ");
       row.innerHTML = `
@@ -4239,13 +4239,7 @@ async function ensureArticlesLoaded() {
         ${a.subtitle ? `<p class="article-subtitle">${md(a.subtitle)}</p>` : ""}
         <p class="article-meta">${metaBits}</p>
       `;
-      // External reading pages (e.g. the Gītā word-by-word page) navigate to
-      // their own standalone route; in-app articles open in the Article pane.
-      if (a.external_url) {
-        row.addEventListener("click", () => { window.location.href = a.external_url; });
-      } else {
-        row.addEventListener("click", () => openArticle(a));
-      }
+      row.addEventListener("click", () => openArticle(a));
       articlesList.appendChild(row);
     }
   }
@@ -4261,6 +4255,45 @@ closeArticles.addEventListener("click", () => { articlesModal.classList.remove("
 articlesModal.addEventListener("click", (e) => {
   if (e.target === articlesModal) { articlesModal.classList.remove("is-open"); articlesModal.setAttribute("aria-hidden", "true"); }
 });
+
+// Load a classic script once (idempotent), resolving when ready.
+function loadScriptOnce(src) {
+  return new Promise((resolve, reject) => {
+    if (document.querySelector(`script[data-dyn="${src}"]`)) return resolve();
+    const s = document.createElement("script");
+    s.src = src; s.async = false; s.dataset.dyn = src;
+    s.onload = () => resolve();
+    s.onerror = () => reject(new Error("failed to load " + src));
+    document.head.appendChild(s);
+  });
+}
+
+// Render the interactive Gītā reading into the Article pane.
+async function openGitaReading() {
+  const base = "gita/sthitaprajna/";
+  try {
+    for (const f of ["verses.js", "commentaries.js", "aurobindo.js", "parallels.js"]) {
+      await loadScriptOnce(base + f);
+    }
+    await loadScriptOnce("assets/gita.js");
+  } catch (e) {
+    if (dpArticleBody) dpArticleBody.innerHTML = "<article><p>Could not load the reading.</p></article>";
+    return;
+  }
+  if (dpArticleHead) {
+    dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
+      <p class="dp-title">Bhagavad-Gītā 2.54–72</p>
+      <p class="dp-attrib">The <em>sthitaprajña</em> answer — word by word, with the commentators in their own voices.</p>
+      <a class="dp-standalone" href="gita/sthitaprajna/" target="_blank" rel="noopener">Open as a full page ↗</a>`;
+  }
+  if (window.GitaReader && dpArticleBody) {
+    window.GitaReader.render(dpArticleBody, {
+      glossaryBase: "data/glossary/",
+      onGlossary: (term, anchor) => openGlossary(term, anchor),  // the site's real glossary popover
+      onThinker: (id) => openThinker(id),                        // jump to the Thinker tab
+    });
+  }
+}
 
 async function openArticle(a) {
   // Articles render in the unified panel's Article tab. The articles
@@ -4281,6 +4314,15 @@ async function openArticle(a) {
   }
   if (dpArticleBody) dpArticleBody.innerHTML = "<article><p style=\"color:var(--muted);font-style:italic\">Loading…</p></article>";
   openPanel("article");
+
+  // Interactive readings (e.g. the Gītā word-by-word page) render via their
+  // own engine into the article body instead of fetching a markdown file.
+  if (a.interactive === "gita-sthitaprajna") {
+    await openGitaReading();
+    panelState.loaded.article = true;
+    router.push({ kind: "article", slug: a.slug });
+    return;
+  }
 
   const path = a.source_doc || (a.kind === "perspective"
     ? `data/perspectives/source/${a.slug}.md`

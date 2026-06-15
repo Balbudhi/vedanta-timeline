@@ -2,7 +2,7 @@
   "term_key": "brahmanirvana",
   "term_iast": "brahma-nirvāṇa",
   "term_devanagari": "ब्रह्मनिर्वाण",
-  "literal": "extinction into Brahman; the blowing-out (nirvāṇa, from nir + √vā 'to blow out, as a flame') that is at the same time mergence in brahman (brahman + nirvāṇa)",
+  "literal": "extinction in / into Brahman; *nirvāṇa* (nir- + √vā 'to blow', past participle, 'blown out, as a flame') compounded with *brahman* — read as a locative or genitive tatpuruṣa, 'the going-out [of ego and desire] that is in / unto Brahman'",
   "aliases": [
     "brahmanirvana",
     "brahma-nirvāṇa",
@@ -14,37 +14,37 @@
     "nirvāṇam"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "gita-sthitaprajna-glossary",
-  "invariant_definition": "*Brahma-nirvāṇa* is the *Bhagavad-Gītā*'s deliberate compound for liberation: the 'blowing-out' (*nirvāṇa*) of the fire of ego and desire that is, in the same movement, a mergence or extinction *into* Brahman. The image in *nirvāṇa* is the going-out of a flame (nir + √vā, 'to blow out'): the lamp of craving, when its fuel of attachment is withdrawn, is extinguished. But the *Gītā* yokes this extinction-metaphor to a positive absolute — *brahman* — so that what is blown out is the limited, desire-driven self, while what remains, or what is attained, is the unconditioned reality of Brahman. The compound closes the *sthitaprajña* passage: established in the brahman-state (*brāhmī sthiti*) even at the hour of death, one reaches *brahma-nirvāṇa* (2.72). It recurs in chapter 5, where those whose sins are destroyed, whose doubts are cut, who are self-controlled and delight in the welfare of all beings, attain *brahma-nirvāṇa* (5.24-26), and is echoed at 6.15. The critical point — which recurs whenever the term is read — is that the *Gītā* uses the Buddhist-resonant word *nirvāṇa* precisely in order to recast the goal as something positive (Brahman), against the apophatic, substrate-refusing usage of Buddhist *nibbāna*. The compound is thus not a borrowing but a polemical re-orientation: extinction, yes, but extinction-into-the-absolute.",
+  "last_verified_by": "glossary-proper-rewrite",
+  "invariant_definition": "*Brahma-nirvāṇa* is the *Bhagavad-Gītā*'s distinctive compound for liberation: the 'blowing-out' (*nirvāṇa*) of the fire of ego and desire that is, in the same movement, a mergence or extinction *into* Brahman. The image in *nirvāṇa* is the going-out of a flame (nir + √vā, 'to blow out'): when the fuel of attachment is withdrawn, the lamp of craving is extinguished. The *Gītā* yokes this extinction-metaphor to a positive absolute — *brahman* — so that what is blown out is the limited, desire-driven self, while what remains or is attained is the unconditioned reality of Brahman. The compound is, so far as the major texts go, effectively the *Gītā*'s own: it appears there a handful of times (2.72; 5.24–26; cf. 6.15) and is rare outside it, which makes it a deliberate signature rather than an inherited term. Its theological point is comparative. *Nirvāṇa* is the great word of the Buddhist goal, where the extinction of the three fires (*rāga, dveṣa, moha*) is asserted *without* positing any permanent self or absolute substrate into which one merges. By compounding *nirvāṇa* with *brahman*, the *Gītā* takes the powerful flame-extinction image and supplies precisely the metaphysical substrate the Buddhist usage withholds: extinction, yes — but extinction-into-the-absolute. The term is therefore not a borrowing but a polemical re-orientation, marking the goal as positive (Brahman) against the apophatic, substrate-refusing usage of Buddhist *nibbāna*.",
   "school_framing": {
     "framing_status": "mixed",
-    "shared_core": "*Brahma-nirvāṇa* names **the extinction of the desire-and-ego fire that is at once attainment of, or mergence in, Brahman — liberation described through a flame-going-out metaphor reoriented toward a positive absolute** (Bhagavad-Gītā 2.72, 5.24-26, 6.15). Vedāntic schools share this Brahman-positive reading and contrast it with the Buddhist apophatic *nirvāṇa*; they differ on what 'reaching Brahman' consists in.",
-    "register_axes_note": "**Real disagreement** with the Buddhist usage: Buddhist *nibbāna/nirvāṇa* is the extinction of the three fires (*rāga, dveṣa, moha*), the unconditioned, asserted *without* positing an *ātman* or *brahman* substrate — an apophatic terminus. The *Gītā*'s compound deliberately supplies the substrate the Buddhists refuse. **Same concept, different aspect** within Vedānta: Advaita reads *brahma-nirvāṇa* as identity-realization and the jīva's mergence, Viśiṣṭādvaita as the reoriented reaching of the Brahman-state under Bhagavān rather than absorption-erasure."
+    "shared_core": "*Brahma-nirvāṇa* names **the extinction of the desire-and-ego fire that is at once attainment of, or mergence in, Brahman — liberation described through a flame-going-out metaphor reoriented toward a positive absolute** (the *Gītā*'s compound). Vedāntic schools share this Brahman-positive reading and contrast it with the Buddhist apophatic *nirvāṇa*; they differ on what 'reaching Brahman' consists in.",
+    "register_axes_note": "**Real disagreement** with the Buddhist usage: Buddhist *nibbāna/nirvāṇa* is the extinction of the three fires, the unconditioned, asserted *without* positing an *ātman* or *brahman* substrate — an apophatic terminus. The *Gītā*'s compound deliberately supplies the substrate the Buddhists refuse. **Same concept, different aspect** within Vedānta: Advaita reads *brahma-nirvāṇa* as identity-realization and the jīva's mergence, Viśiṣṭādvaita as the reoriented reaching of the Brahman-state under Bhagavān rather than absorption-erasure."
   },
   "per_school": [
     {
       "school": "Advaita",
-      "definition": "For Advaita *brahma-nirvāṇa* is the extinction of the individuality founded on *avidyā* and the realization of identity with *brahman*: the 'blowing-out' is the dissolution of the false, desire-structured self, and what is 'attained' is what one always was, the non-dual reality. Śaṅkara reads 2.72 and 5.24-26 as describing the *brahma-bhūta* state — the knower become Brahman — for whom the metaphor of nirvāṇa marks the cessation of saṃsāric becoming, not annihilation into a void. The jīva's apparent mergence is the removal of the limiting adjuncts that never truly divided it from Brahman.",
+      "definition": "For Advaita *brahma-nirvāṇa* is the extinction of the individuality founded on *avidyā* and the realization of identity with *brahman*: the 'blowing-out' is the dissolution of the false, desire-structured self, and what is 'attained' is what one always was, the non-dual reality. Śaṅkara reads the *Gītā*'s usages as describing the *brahma-bhūta* state — the knower become Brahman — for whom the metaphor of nirvāṇa marks the cessation of saṃsāric becoming, not annihilation into a void. The jīva's apparent mergence is the removal of the limiting adjuncts that never truly divided it from Brahman.",
       "primary_loci": [
-        "Bhagavad-Gītā 2.72, 5.24-26, 6.15",
-        "Śaṅkara, Gītā-Bhāṣya on 2.72 and 5.24-26"
+        "Śaṅkara, Gītā-Bhāṣya on 2.72 and 5.24-26",
+        "Bhagavad-Gītā 5.24-26, 6.15 (brahma-bhūta)"
       ],
       "register_tag": "M+S; mumukṣu (identity-realization, jīva-brahman-aikya)"
     },
     {
       "school": "Viśiṣṭādvaita",
-      "definition": "Rāmānuja resists any reading of *brahma-nirvāṇa* as the erasure or annihilation of the self. The compound names the soul's reaching the Brahman-state — abiding in the condition of *brahman* — but for him this is the liberated self's attainment of its own untrammelled nature in relation to and under Bhagavān, not absorption that cancels the distinct *jīva*. The 'extinction' is of bondage, sin, and the disturbances of craving (5.24-26 lists the destruction of sins and doubts), while the self persists in its realized, Lord-oriented condition.",
+      "definition": "Rāmānuja resists any reading of *brahma-nirvāṇa* as the erasure or annihilation of the self. The compound names the soul's reaching the Brahman-state — abiding in the condition of *brahman* — but for him this is the liberated self's attainment of its own untrammelled nature in relation to and under Bhagavān, not absorption that cancels the distinct *jīva*. The 'extinction' is of bondage, sin, and the disturbances of craving (the *Gītā* itself lists the destruction of sins and doubts), while the self persists in its realized, Lord-oriented condition.",
       "primary_loci": [
-        "Rāmānuja, Gītā-Bhāṣya on 2.72 and 5.24-26",
-        "Bhagavad-Gītā 5.24-26, 6.15"
+        "Rāmānuja, Gītā-Bhāṣya on 5.24-26 and 6.15",
+        "Bhagavad-Gītā 5.24-26"
       ],
       "register_tag": "M+S; prapanna (reaching the Brahman-state, not absorption-erasure)"
     },
     {
       "school": "Buddhist (contrast)",
-      "definition": "In Buddhist usage *nibbāna/nirvāṇa* is the going-out of the three fires — *rāga* (greed), *dveṣa* (hatred), *moha* (delusion) — and the unconditioned (*asaṃskṛta*) state freed of craving and rebirth. Crucially, the classical traditions refuse to posit any permanent self (*anātman*) or Brahman-substrate as that which is liberated or into which one merges; the terminus is characteristically apophatic, described by negation rather than as union with a positive absolute. The *Gītā*'s compound *brahma-nirvāṇa* is therefore best read as a deliberate Brahmanical recasting: it takes the powerful flame-extinction image and supplies exactly the metaphysical substrate (Brahman) that the Buddhist usage withholds.",
+      "definition": "In Buddhist usage *nibbāna/nirvāṇa* is the going-out of the three fires — *rāga* (greed), *dveṣa* (hatred), *moha* (delusion) — and the unconditioned (*asaṃskṛta*) state freed of craving and rebirth. Crucially the classical traditions refuse to posit any permanent self (*anātman*) or Brahman-substrate as that which is liberated or into which one merges; the terminus is characteristically apophatic, described by negation rather than as union with a positive absolute, and Madhyamaka explicitly holds nirvāṇa to be neither existent nor non-existent. The *Gītā*'s compound *brahma-nirvāṇa* is best read against exactly this: it takes the flame-extinction image and supplies the substrate (Brahman) that the Buddhist usage withholds.",
       "primary_loci": [
-        "Dhammapada (the going-out of the fires; nibbāna verses)",
+        "Dhammapada / the Ādittapariyāya (Fire) discourse (the going-out of the fires)",
         "Mūla-Madhyamaka-Kārikā 25 (nirvāṇa as the unconditioned, neither existent nor non-existent)"
       ],
       "register_tag": "Φ+S; reflective reader [REAL-DISAGREEMENT: apophatic nibbāna, no ātman/brahman substrate]"
@@ -58,5 +58,5 @@
     "sthitaprajna",
     "atman"
   ],
-  "translator_note": "Do not collapse *brahma-nirvāṇa* into Buddhist nirvāṇa. The *Gītā* uses the word *nirvāṇa* — flame-extinction — but yokes it to *brahman* precisely to make the goal positive: what is extinguished is the ego-and-desire fire, what is reached is the absolute, Brahman. Translating it simply as 'nirvāṇa' or 'extinction' loses the deliberate contrast with the Buddhist apophatic usage, which extinguishes the fires of greed, hatred, and delusion without affirming any self or Brahman to be liberated. Render it as 'extinction-into-Brahman' or 'the bliss/peace of Brahman', keeping both the flame-image and the positive absolute in view, and do not read the Advaitic 'mergence' as annihilation."
+  "translator_note": "Do not collapse *brahma-nirvāṇa* into Buddhist nirvāṇa. The *Gītā* uses the word *nirvāṇa* — flame-extinction — but yokes it to *brahman* precisely to make the goal positive: what is extinguished is the ego-and-desire fire, what is reached is the absolute, Brahman. Rendering it simply as 'nirvāṇa' or 'extinction' loses the deliberate contrast with the Buddhist apophatic usage, which extinguishes the fires of greed, hatred, and delusion without affirming any self or Brahman to be liberated. 'Extinction-into-Brahman', or 'the peace/bliss of Brahman', keeps both the flame-image and the positive absolute in view; and the Advaitic 'mergence' should not be read as annihilation."
 }

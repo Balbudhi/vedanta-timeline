@@ -121,7 +121,7 @@ window.GITA_VERSES = [
         "i": 4,
         "deva": "केशव",
         "iast": "keśava",
-        "gloss": "Keśava (Kṛṣṇa)",
+        "gloss": "Keśava — epithet of Kṛṣṇa: “he of fine, long hair” (keśa + -va); traditionally also “slayer of the demon Keśin”.",
         "stem": "keśava",
         "root": null,
         "affix": "su (sambodhana ekavacana)",
@@ -131,8 +131,12 @@ window.GITA_VERSES = [
         "translatable": false,
         "parts": [
           {
-            "form": "keśava",
-            "gloss": "Keśava (Kṛṣṇa)"
+            "form": "keśa",
+            "gloss": "hair"
+          },
+          {
+            "form": "-va",
+            "gloss": "having, possessing"
           }
         ]
       },
@@ -312,7 +316,7 @@ window.GITA_VERSES = [
     "devanagari": "प्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान्।\nआत्मन्य् एवात्मना तुष्टः स्थितप्रज्ञस् तदोच्यते॥",
     "iast": "prajahāti yadā kāmān sarvān pārtha manogatān |\nātmany evātmanā tuṣṭaḥ sthitaprajñas tadocyate ||",
     "sense": "Kṛṣṇa answers: when a man casts off every desire that rises in the mind, and is content in the self by the self alone, then he is called a man of settled wisdom.",
-    "english": "{1:When} a man {0:utterly casts off} {3:all} {2:the desires} {5:that arise in the mind}, {4:Pārtha}, {7:content} {6:in the self} {8:by the self} {9:alone} — {11:then} he {12:is called} {10:a man of settled wisdom}.",
+    "english": "{1:When} he {0:utterly casts off} {3:all} {2:the desires} {5:that arise in the mind}, {4:Pārtha}, {7:content} {6:in the self} {8:by the self} {9:alone} — {11:then} {12:he is called} {10:one of settled wisdom}.",
     "words": [
       {
         "i": 0,
@@ -398,7 +402,7 @@ window.GITA_VERSES = [
         "i": 4,
         "deva": "पार्थ",
         "iast": "pārtha",
-        "gloss": "Pārtha (Arjuna, son of Pṛthā)",
+        "gloss": "Pārtha — “son of Pṛthā (Kuntī)”; = Arjuna.",
         "stem": "pārtha",
         "root": null,
         "affix": "su (sambodhana ekavacana)",
@@ -408,8 +412,12 @@ window.GITA_VERSES = [
         "translatable": false,
         "parts": [
           {
-            "form": "pārtha",
-            "gloss": "Pārtha (Arjuna)"
+            "form": "pṛthā",
+            "gloss": "Pṛthā (Kuntī, his mother)"
+          },
+          {
+            "form": "-a",
+            "gloss": "son of (patronymic)"
           }
         ]
       },
@@ -524,7 +532,7 @@ window.GITA_VERSES = [
         "i": 10,
         "deva": "स्थितप्रज्ञः",
         "iast": "sthitaprajñaḥ",
-        "gloss": "a man whose wisdom is steady",
+        "gloss": "the one whose wisdom is steady",
         "stem": "sthita-prajña",
         "root": null,
         "affix": "su (prathamā ekavacana)",
@@ -1478,7 +1486,7 @@ window.GITA_VERSES = [
     "devanagari": "विषया विनिवर्तन्ते निराहारस्य देहिनः।\nरसवर्जं रसो ऽप्य् अस्य परं दृष्ट्वा निवर्तते॥",
     "iast": "viṣayā vinivartante nirāhārasya dehinaḥ |\nrasavarjaṃ raso 'py asya paraṃ dṛṣṭvā nivartate ||",
     "sense": "For the embodied one who abstains, the sense-objects fall away — all but the relish for them; and even that relish falls away on his seeing the Supreme.",
-    "english": "{0:The sense-objects} {1:fall away} {3:for the embodied one} {2:who abstains}, {4:except the relish}; {6:even} {5:the relish} {7:of this one} {10:falls away} {8:on seeing} {9:the Supreme}.",
+    "english": "{0:The sense-objects} {1:fall away} from {3:the embodied one} {2:who abstains}, {4:except the relish}; {6:even} {5:the relish} {7:of this one} {10:falls away} {8:on seeing} {9:the Supreme}.",
     "words": [
       {
         "i": 0,
@@ -1814,7 +1822,7 @@ window.GITA_VERSES = [
         "i": 3,
         "deva": "कौन्तेय",
         "iast": "kaunteya",
-        "gloss": "Kaunteya (Arjuna, son of Kuntī)",
+        "gloss": "Kaunteya — “son of Kuntī”; = Arjuna.",
         "stem": "kaunteya",
         "root": null,
         "affix": "su (sambodhana ekavacana)",
@@ -1824,8 +1832,12 @@ window.GITA_VERSES = [
         "translatable": false,
         "parts": [
           {
-            "form": "kaunteya",
-            "gloss": "Kaunteya (Arjuna)"
+            "form": "kuntī",
+            "gloss": "Kuntī (his mother)"
+          },
+          {
+            "form": "-eya",
+            "gloss": "son of (patronymic)"
           }
         ]
       },
@@ -2818,7 +2830,7 @@ window.GITA_VERSES = [
     "devanagari": "रागद्वेषवियुक्तैस् तु विषयान् इन्द्रियैश् चरन्।\nआत्मवश्यैर् विधेयात्मा प्रसादम् अधिगच्छति॥",
     "iast": "rāgadveṣaviyuktais tu viṣayān indriyaiś caran |\nātmavaśyair vidheyātmā prasādam adhigacchati ||",
     "sense": "But one whose self is under control, moving among sense-objects with senses freed from attraction and aversion and obedient to the self, attains serenity.",
-    "english": "{1:But} {6:moving} among {5:the sense-objects} with {4:the senses} {0:freed from attraction and aversion}, {2:whose self is biddable}, {7:the one whose self is mastered} {9:attains} {8:serenity}.",
+    "english": "{1:But} {6:moving} among {5:the sense-objects} with {4:the senses} {0:freed from attraction and aversion} and {7:obedient to the self}, {2:he whose self is biddable} {9:attains} {8:serenity}.",
     "words": [
       {
         "i": 0,
@@ -3992,7 +4004,7 @@ window.GITA_VERSES = [
         "i": 2,
         "deva": "महाबाहो",
         "iast": "mahābāho",
-        "gloss": "O mighty-armed one (Arjuna)",
+        "gloss": "Mahābāhu — “mighty-armed” (vocative); = Arjuna.",
         "stem": "mahā-bāhu",
         "root": null,
         "affix": "su (sambodhana ekavacana)",
@@ -4010,7 +4022,7 @@ window.GITA_VERSES = [
         },
         "parts": [
           {
-            "form": "mahat",
+            "form": "mahā",
             "gloss": "great, mighty"
           },
           {
@@ -5229,7 +5241,7 @@ window.GITA_VERSES = [
         "i": 3,
         "deva": "पार्थ",
         "iast": "pārtha",
-        "gloss": "Pārtha (Arjuna, son of Pṛthā)",
+        "gloss": "Pārtha — “son of Pṛthā (Kuntī)”; = Arjuna.",
         "stem": "pārtha",
         "root": null,
         "affix": "su (sambodhana ekavacana)",
@@ -5239,8 +5251,12 @@ window.GITA_VERSES = [
         "translatable": false,
         "parts": [
           {
-            "form": "pārtha",
-            "gloss": "Pārtha (Arjuna)"
+            "form": "pṛthā",
+            "gloss": "Pṛthā (Kuntī, his mother)"
+          },
+          {
+            "form": "-a",
+            "gloss": "son of (patronymic)"
           }
         ]
       },

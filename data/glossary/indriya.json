@@ -2,7 +2,7 @@
   "term_key": "indriya",
   "term_iast": "indriya",
   "term_devanagari": "इन्द्रिय",
-  "literal": "sense-faculty, sense-organ, power; literally 'belonging to Indra' or 'the power of Indra', hence a power or capacity of the embodied self",
+  "literal": "sense-faculty, power; a *taddhita* derivative of *Indra* (indra + gha → indriya), 'belonging to / a power of Indra', hence a power or capacity of the embodied self",
   "aliases": [
     "indriya",
     "Indriya",
@@ -14,17 +14,17 @@
     "indriyasya"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "gita-sthitaprajna-glossary",
-  "invariant_definition": "*Indriya* is a sense-faculty: a capacity of the embodied self by which it perceives or acts upon the world. In the standard Sāṅkhya scheme inherited across the schools the *indriyas* number eleven: five faculties of knowledge (*jñānendriya* — hearing, touch, sight, taste, smell), five faculties of action (*karmendriya* — speech, grasping, locomotion, excretion, generation), and the *manas* (mind) as the eleventh, the internal faculty that coordinates the other ten. The *indriya* is not the gross physical organ (the eye-ball, the ear) but the functional power operating through it. A persistent hierarchy orders the levels of the person: the sense-objects (*artha*) are higher than the senses, *manas* higher than the senses, *buddhi* higher than *manas*, and the *ātman* higher than *buddhi* (Kaṭha Upaniṣad 1.3.10) — the senses are thus instruments subordinate to the self, not the self. This hierarchy gives the *Bhagavad-Gītā*'s *sthitaprajña* teaching its structure: mastery of the senses is the practical mark of settled wisdom. The text's tortoise simile (2.58) — the sage who withdraws his senses from their objects as a tortoise draws in its limbs — and its repeated demand that the senses be brought under control with the mind fixed on the higher self (2.61, 2.64, 2.68) make *indriya*-restraint the visible discipline of the inwardly steady.",
+  "last_verified_by": "glossary-proper-rewrite",
+  "invariant_definition": "An *indriya* is a sense-faculty: a capacity of the embodied self by which it perceives or acts upon the world. In the standard scheme inherited across the Brāhmaṇical schools the *indriyas* number eleven: five faculties of knowledge (*jñānendriya* / *buddhīndriya* — hearing, touch, sight, taste, smell), five faculties of action (*karmendriya* — speech, grasping, locomotion, excretion, generation), and the *manas* (mind) as the eleventh, the internal faculty coordinating the other ten. Crucially the *indriya* is not the gross physical organ (the eyeball, the ear-hole, the *golaka*) but the functional power operating through it. A persistent hierarchy orders the levels of the person: the sense-objects (*artha*) are higher than the senses, *manas* higher than the senses, *buddhi* higher than *manas*, and the *ātman* higher than *buddhi* (Kaṭha Upaniṣad 1.3.10–11) — the senses are thus instruments subordinate to the self, not the self. The same Upaniṣad supplies the classic chariot image (1.3.3–9): the senses are the horses, the objects their roads, the *manas* the reins, the *buddhi* the charioteer, and the *ātman* the rider. This subordination grounds the pan-Indian discipline of sense-restraint — the *Bhagavad-Gītā*'s tortoise simile (2.58), the Yogic limb of *pratyāhāra* — wherein mastery of the *indriyas* is the visible practice of the inwardly steady. In Buddhist usage *indriya* has a wider span, covering the six sense-bases and also the five spiritual faculties (*saddhā, viriya, sati, samādhi, paññā*).",
   "school_framing": {
     "framing_status": "same_concept_different_aspect",
-    "shared_core": "*Indriya* names **a functional sense-faculty of the embodied self — an instrument of knowing or acting, distinct from its gross organ, its object, the coordinating *manas*, and the self that owns it** (the eleven-fold scheme of Sāṅkhya-Kārikā 26-27; the hierarchy of Kaṭha 1.3.10). All Brāhmaṇical schools accept the structural role and the subordination of the senses to mind, intellect, and self.",
-    "register_axes_note": "Same M+Φ register, same scope-inside. Schools agree on the inventory and hierarchy of the *indriyas*; differences are minor and concern the metaphysical status of the faculties (evolutes of *prakṛti* in Sāṅkhya-Yoga, instruments of the dependent *jīva* in Vedānta) rather than the concept itself."
+    "shared_core": "*Indriya* names **a functional sense-faculty of the embodied self — an instrument of knowing or acting, distinct from its gross organ, its object, the coordinating *manas*, and the self that owns it** (the eleven-fold scheme of Sāṅkhya-Kārikā 26–27; the hierarchy of Kaṭha 1.3.10–11). The Brāhmaṇical schools accept the structural role and the subordination of the senses to mind, intellect, and self.",
+    "register_axes_note": "Same M+Φ register, same scope-inside among the Brāhmaṇical schools, which agree on the inventory and hierarchy of the *indriyas*; differences concern the metaphysical status of the faculties (evolutes of *prakṛti* in Sāṅkhya-Yoga, instruments of the dependent *jīva* in Vedānta) rather than the concept. **Different scope** in Buddhism, where *indriya* extends to the five spiritual faculties and is set within the no-self analysis rather than referred to an owning *ātman*."
   },
   "per_school": [
     {
       "school": "Sāṅkhya",
-      "definition": "The *indriyas* are evolutes of *prakṛti* arising from the sattvic aspect of *ahaṃkāra*: the five *buddhīndriyas* (faculties of knowledge) and five *karmendriyas* (faculties of action), with *manas* as the eleventh, sharing the nature of both since it is both a sense and an organ of action (SK 26-27). They function for the sake of the *puruṣa*, presenting the field of objects to the *buddhi*; the senses act in concert, like a lamp, to serve the purpose of the witnessing self (SK 31, 36-37). They are firmly instruments, never the conscious self.",
+      "definition": "The *indriyas* are evolutes of *prakṛti* arising from the sattvic aspect of *ahaṃkāra*: the five *buddhīndriyas* and five *karmendriyas*, with *manas* as the eleventh, sharing the nature of both since it is both a sense and an organ of action (SK 26–27). They function for the sake of the *puruṣa*, presenting the field of objects to the *buddhi*; the senses act in concert, like a lamp, to serve the purpose of the witnessing self (SK 31, 36–37). They are firmly instruments, never the conscious self.",
       "primary_loci": [
         "Sāṅkhya-Kārikā 24-27, 31-37"
       ],
@@ -32,21 +32,30 @@
     },
     {
       "school": "Yoga",
-      "definition": "Pātañjala Yoga inherits the Sāṅkhya inventory and treats the senses soteriologically: *pratyāhāra*, the fifth limb, is the withdrawal of the *indriyas* from their objects, their conforming to the nature of the *citta* when disjoined from contact (YS 2.54). Mastery of the senses follows (YS 2.55), and the higher *saṃyama* on the very process of sensing yields control over the senses (YS 3.47-48). Sense-restraint is thus an explicit stage of the disciplined path, prerequisite to inward concentration — the same logic the *Gītā* compresses into the tortoise image.",
+      "definition": "Pātañjala Yoga inherits the Sāṅkhya inventory and treats the senses soteriologically: *pratyāhāra*, the fifth limb, is the withdrawal of the *indriyas* from their objects, their conforming to the nature of the *citta* when disjoined from contact (YS 2.54), upon which the highest mastery of the senses follows (YS 2.55). Higher *saṃyama* on the very process of sensing yields control over the senses (YS 3.47–48). Sense-restraint is thus an explicit stage of the disciplined path, prerequisite to inward concentration.",
       "primary_loci": [
-        "Yoga-Sūtra 2.54-55",
+        "Yoga-Sūtra 2.54-55 (pratyāhāra)",
         "Yoga-Sūtra 3.47-48"
       ],
       "register_tag": "Φ+S; yogin (pratyāhāra)"
     },
     {
       "school": "Vedānta / Gītā",
-      "definition": "Vedānta receives the eleven-fold scheme and the Kaṭha hierarchy and makes sense-control the operational test of the *sthitaprajña*. The senses are restless and forcibly carry away even the striving mind (2.60); the disciplined sage draws them in from every side as a tortoise withdraws its limbs (2.58), and holds them in check with his thought fixed on the higher self or the Lord (2.61, 2.64, 2.68). The self is the owner and witness of the senses, not their captive; liberation requires that the *indriyas* be governed by the steadied *buddhi* rather than the *buddhi* be dragged by the *indriyas* (2.67).",
+      "definition": "Vedānta receives the eleven-fold scheme and the Kaṭha hierarchy and makes sense-control the operational test of the disciplined knower. The senses are restless and forcibly carry away even the striving mind (Gītā 2.60); the disciplined sage draws them in from every side as a tortoise withdraws its limbs (2.58) and holds them in check with his thought fixed on the higher self or the Lord (2.61, 2.64, 2.68). The self is the owner and witness of the senses, not their captive; liberation requires that the *indriyas* be governed by the steadied *buddhi* rather than the *buddhi* dragged by the *indriyas*.",
       "primary_loci": [
-        "Bhagavad-Gītā 2.58, 2.60-61, 2.64, 2.67-68",
-        "Kaṭha Upaniṣad 1.3.10-11"
+        "Kaṭha Upaniṣad 1.3.3-11 (chariot image; hierarchy)",
+        "Bhagavad-Gītā 2.58, 2.60-61, 2.64, 2.67-68"
       ],
-      "register_tag": "M+S; mumukṣu (indriya-control as sthitaprajña-mark)"
+      "register_tag": "M+S; mumukṣu (indriya-control)"
+    },
+    {
+      "school": "Nyāya-Vaiśeṣika",
+      "definition": "Nyāya-Vaiśeṣika treats the *indriyas* as the instrumental cause (*karaṇa*) of perception (*pratyakṣa*), produced from the gross elements and reaching their objects in *sannikarṣa* (sense-object contact). The school disputes whether the visual sense, for instance, travels out to its object or receives it, and it correlates each external sense with an element; *manas* is admitted as the internal sense (*antaḥkaraṇa*), atomic and the gateway through which the other senses successively engage the *ātman*. Here the *indriya* is analysed primarily as the means of valid cognition rather than as a soteriological obstacle.",
+      "primary_loci": [
+        "Nyāya-Sūtra 1.1.4, 1.1.12 (indriya, sannikarṣa)",
+        "Vaiśeṣika-Sūtra (the senses and their elemental correlates; manas as antaḥkaraṇa)"
+      ],
+      "register_tag": "M+E; reflective reader (indriya as instrument of pratyakṣa)"
     }
   ],
   "see_also": [
@@ -58,5 +67,5 @@
     "prakrti",
     "guna"
   ],
-  "translator_note": "'Sense' or 'sense-organ' is acceptable, but note two pitfalls. First, *indriya* is the functional faculty, not the physical organ, so 'organ' can mislead toward anatomy. Second, the standard scheme includes faculties of action (*karmendriya*) and the mind (*manas*) as the eleventh, so 'the five senses' undercounts. When the *Gītā* speaks of withdrawing or controlling the *indriyas*, it means the whole instrument-set subordinate to mind and self, not merely perception."
+  "translator_note": "'Sense' or 'sense-organ' is acceptable, but two pitfalls recur. First, *indriya* is the functional faculty, not the physical organ (*golaka*), so 'organ' can mislead toward anatomy. Second, the standard scheme includes faculties of action (*karmendriya*) and the mind (*manas*) as the eleventh, so 'the five senses' undercounts; references to controlling the *indriyas* mean the whole instrument-set subordinate to mind and self, not merely perception. In Buddhist contexts the word is wider still, covering the six sense-bases and the five spiritual faculties, and should not be read through the Sāṅkhya inventory."
 }
