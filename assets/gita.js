@@ -102,6 +102,19 @@ const VOICE_THINKER = {
 // distinct, theme-safe colours assigned in voice order
 const PALETTE = ["#b8860b", "#1d7874", "#9b2226", "#3a5a98", "#6a4c93", "#4d7c2f", "#a15c2b", "#7d5fa3"];
 
+// Resolve entries for a verse, expanding combined-range keys like "2.62-63"
+// (which cover 2.62 AND 2.63) to each verse they span.
+function chNum(s) { const m = /^(\d+)\.(\d+)$/.exec(s); return m ? [+m[1], +m[2]] : null; }
+function entriesFor(map, loc) {
+  const out = (map[loc] || []).slice();
+  const cn = chNum(loc); if (!cn) return out;
+  for (const key in map) {
+    const r = /^(\d+)\.(\d+)-(\d+)$/.exec(key);
+    if (r && +r[1] === cn[0] && cn[1] >= +r[2] && cn[1] <= +r[3]) out.push(...map[key]);
+  }
+  return out;
+}
+
 function buildVoices(verses, data) {
   const com = data.commentary || {}, auro = data.aurobindo || {}, par = data.parallels || {};
   const meta = {}, byVerse = {};
@@ -110,14 +123,14 @@ function buildVoices(verses, data) {
 
   for (const v of verses) {
     const loc = v.locus;
-    for (const c of (v.commentaries || []).concat(com[loc] || [])) {
+    for (const c of (v.commentaries || []).concat(entriesFor(com, loc))) {
       const id = "ac:" + c.author;
       ensure(id, c.author, c.school, vYear(c.author));
       add(loc, id, { kind: "commentary", data: c });
     }
-    const au = auro[loc] || [];
+    const au = entriesFor(auro, loc);
     if (au.length) { ensure("aurobindo", "Sri Aurobindo", "Integral Yoga", vYear("Sri Aurobindo")); add(loc, "aurobindo", { kind: "aurobindo", list: au }); }
-    const ps = par[loc] || [];
+    const ps = entriesFor(par, loc);
     if (ps.length) { ensure("parallels", "Other traditions", "parallel", 9500); add(loc, "parallels", { kind: "parallels", list: ps }); }
   }
   const voices = Object.values(meta).sort((a, b) => (a.year - b.year) || a.name.localeCompare(b.name));
