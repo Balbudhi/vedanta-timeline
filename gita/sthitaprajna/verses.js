@@ -865,7 +865,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.55",
         "sanskrit": "ātmany evātmanā manasā ātmaikāvalambanena tuṣṭaḥ, tena toṣeṇa tadvyatiriktān sarvān manogatān kāmān yadā prakarṣeṇa jahāti, tadāyaṃ sthitaprajña ity ucyate / jñānaniṣṭhā-kāṣṭhā iyam /",
-        "ourRendering": "Content in the self alone, by the self — that is, by the manas (the mind as the seat of thought and intention) whose sole support is the self — and through that contentment, when he utterly casts off all the kāmas (desire as craving) within the manas other than that [self], then this man is called sthitaprajña. This is the summit of steadfastness in jñāna (liberating knowledge of the self).",
+        "ourRendering": "Content in the self alone, by the self — that is, by the manas (the mind as the seat of thought and intention) whose sole support is the self — and through that contentment, when he utterly casts off all the kāmas (desire as craving) within the manas other than that self, then this man is called sthitaprajña. This is the summit of steadfastness in jñāna (liberating knowledge of the self).",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -1188,7 +1188,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:Alone} {0:in the self}, {2:by the self} — {3:by the manas} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {10:the manas-arisen} {11:kāmas} {8:other than that [self]}, {15:then} {16:this one} {18:is}{19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in jñāna}.",
+        "english": "{0:In the self} {1:alone}, {2:by the self} — that is, {3:by the manas} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {10:the manas-arisen} {11:kāmas} {8:other than that self}, {15:then} {16:this one} {18:is} {19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in jñāna}.",
         "segments": [
           {
             "from": 0,
@@ -1986,7 +1986,7 @@ window.GITA_VERSES = [
             "morph": "pres. passive 3 sg."
           }
         ],
-        "english": "{1:When} {0:occasions of sorrow such as separation from the dear} {1:present themselves}, he is {2:one whose manas is unagitated} — he {3:does} {3:not} {5:become} {4:sorrowful}; {7:free of longing} {6:amid pleasures} — {10:even} {9:when} {8:things dear} {9:are at hand}, he is {11:free of longing}; {12:from whom rāga, fear, and krodha have departed} — {14:longing} {13:toward things not yet come} {15:is rāga}, and he is {16:without it}; {18:the sorrow} {17:occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear} {19:is fear}, and he is {20:without it}; {21:the perturbation of one's own manas that becomes a cause of the inner suffering of another conscious being} {22:is krodha}, and he is {23:without it}. {24:One who has become thus} — {25:a sage}, {26:whose nature is to contemplate the self} — {29:is}{28:called} {27:one of steady intellect}.",
+        "english": "{1:When} {0:occasions of sorrow such as separation from the dear} {1:present themselves}, he is {2:one whose manas is unagitated} — he {3:does not} {5:become} {4:sorrowful}; {7:free of longing} {6:amid pleasures} — {10:even} {9:when} {8:things dear} {9:are at hand}, he is {11:free of longing}; {12:from whom rāga, fear, and krodha have departed} — {14:longing} {13:toward things not yet come} {15:is rāga}, and he is {16:without it}; {18:the sorrow} {17:occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear} {19:is fear}, and he is {20:without it}; {21:the perturbation of one's own manas that becomes a cause of the inner suffering of another conscious being} {22:is krodha}, and he is {23:without it}. {24:One who has become thus} — {25:a sage}, {26:whose nature is to contemplate the self} — {29:is}{28:called} {27:one of steady intellect}.",
         "segments": [
           {
             "from": 0,
@@ -3857,7 +3857,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{2:The sense-objects} are {1:the food} {0:of the indriyas}; {6:for the embodied one} {3:who is foodless} — {5:whose indriyas have been withdrawn} {4:from the objects} — {7:the sense-objects}, {8:as they recede}, {10:recede} {9:with the relish excepted}; {11:the relish} {12:is rāga}. {13:rāga for the objects} {14:does} {14:not} {15:turn back} — {16:thus}{17:is the meaning}. {19:Even} {18:that rāga} {25:turns back} {24:when he has seen} {20:the self's own nature} as {22:higher} — {23:as more blissful} — {21:than the objects}.",
+        "english": "{2:The sense-objects} are {1:the food} {0:of the indriyas}; {6:for the embodied one} {3:who is foodless} — {5:whose indriyas have been withdrawn} {4:from the objects} — {7:the sense-objects}, {8:as they recede}, {10:recede} {9:with the relish excepted}; {11:the relish} {12:is rāga}. {13:rāga for the objects} {14:does not} {15:turn back} — {16:thus}{17:is the meaning}. {19:Even} {18:that rāga} {25:turns back} {24:when he has seen} {20:the self's own nature} as {22:higher} — {23:as more blissful} — {21:than the objects}.",
         "segments": [
           {
             "from": 0,
@@ -4501,7 +4501,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:Without} {0:the vision of the self}, {2:saṅga toward objects} {3:does} {3:not} {4:cease}; and {5:when} {6:saṅga toward objects} {5:has not ceased}, {11:the indriyas} {9:even} {10:of a man} {7:who is discerning} {8:and striving} are {12:turbulent} and {13:powerful}, and {15:forcibly} {16:carry away} {14:his manas}. {17:Thus} {18:mastery of the indriyas} {19:depends on the vision of the self}, and {20:the vision of the self} {21:depends on mastery of the indriyas} — {22:so} {23:steadfastness in jñāna} {24:is hard to attain}.",
+        "english": "{1:Without} {0:the vision of the self}, {2:saṅga toward objects} {3:does not} {4:cease}; and {5:when} {6:saṅga toward objects} {5:has not ceased}, {11:the indriyas} {9:even} {10:of a man} {7:who is discerning} {8:and striving} are {12:turbulent} and {13:powerful}, and {15:forcibly} {16:carry away} {14:his manas}. {17:Thus} {18:mastery of the indriyas} {19:depends on the vision of the self}, and {20:the vision of the self} {21:depends on mastery of the indriyas} — {22:so} {23:steadfastness in jñāna} {24:is hard to attain}.",
         "segments": [
           {
             "from": 0,
@@ -4526,7 +4526,7 @@ window.GITA_VERSES = [
     "devanagari": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "tāni sarvāṇi saṃyamya yukta āsīta matparaḥ |\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā ||",
     "sense": "Kṛṣṇa instructs: having restrained all those indriyas, one should sit yoked, intent on me; for he whose indriyas are under control — his prajñā stands firm.",
-    "english": "{2:Having restrained} {1:all} {0:those} [indriyas], {3:yoked} {5:intent on me} he {4:should sit}; {7:for} {8:of whom} {9:the indriyas} are {6:in control}, {10:of him} {11:the prajñā} {12:stands firm}.",
+    "english": "{2:Having restrained} {1:all} {0:those indriyas}, {3:yoked} and {5:intent on me}, he {4:should sit}; {7:for} {8:the one whose} {9:indriyas} are {6:in control} — {10:his} {11:prajñā} {12:stands firm}.",
     "words": [
       {
         "i": 0,
@@ -7117,7 +7117,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:saṅga}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma} {24:namely} is {26:the ripened state} {25:of saṅga}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is kāma}. {38:From kāma} {39:krodha} {40:is born}: {42:while} {41:kāma} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:krodha} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From krodha} {56:comes} {57:moha}. {58:moha} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward jñāna of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}.",
+        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {14:In a man} {12:brooding} {13:on the objects}, {17:saṅga}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma}, {24:namely}, is {26:the ripened state} {25:of saṅga}: {28:the} {29:state} {27:a man} {30:has fallen} into when {35:he is} {34:not} {33:able to remain} {32:without enjoying} {31:the objects} — {36:that} {37:is kāma}. {38:From kāma} {39:krodha} {40:is born}: {42:while} {41:kāma} {42:persists} {44:and} {43:the object} {45:is not at hand}, {53:krodha} {54:arises} {48:toward} {47:the men} {46:present at hand}, {52:in the thought}, ‘{49:by these} {50:what I wished} {51:has been thwarted}.’ {55:From krodha} {56:comes} {57:moha}. {58:moha} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {64:And} {63:thereupon}, {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:made} {72:toward jñāna of the self} — {76:of it} {78:there would be} {77:destruction}. {79:From the destruction of the buddhi} he, {81:once} {80:more} {83:sunk} {82:in saṃsāra}, {85:becomes} {84:ruined}.",
         "segments": [
           {
             "from": 0,
@@ -8626,7 +8626,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:saṅga}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma} {24:namely} is {26:the ripened state} {25:of saṅga}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is kāma}. {38:From kāma} {39:krodha} {40:is born}: {42:while} {41:kāma} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:krodha} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From krodha} {56:comes} {57:moha}. {58:moha} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward jñāna of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}.",
+        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {14:In a man} {12:brooding} {13:on the objects}, {17:saṅga}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma}, {24:namely}, is {26:the ripened state} {25:of saṅga}: {28:the} {29:state} {27:a man} {30:has fallen} into when {35:he is} {34:not} {33:able to remain} {32:without enjoying} {31:the objects} — {36:that} {37:is kāma}. {38:From kāma} {39:krodha} {40:is born}: {42:while} {41:kāma} {42:persists} {44:and} {43:the object} {45:is not at hand}, {53:krodha} {54:arises} {48:toward} {47:the men} {46:present at hand}, {52:in the thought}, ‘{49:by these} {50:what I wished} {51:has been thwarted}.’ {55:From krodha} {56:comes} {57:moha}. {58:moha} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {64:And} {63:thereupon}, {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:made} {72:toward jñāna of the self} — {76:of it} {78:there would be} {77:destruction}. {79:From the destruction of the buddhi} he, {81:once} {80:more} {83:sunk} {82:in saṃsāra}, {85:becomes} {84:ruined}.",
         "segments": [
           {
             "from": 0,
@@ -10592,7 +10592,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:For one who has not surrendered his manas} {0:to me}, {4:who has set out} {3:to restrain the indriyas} {2:by his own effort} alone, {7:the} {8:buddhi} {7:whose object is the self in its purity} {9:will} {6:not} {5:ever} {10:come to be}. {11:For} {12:that very reason} {13:his} {14:contemplation of that} {15:too} {16:is} {16:not} {17:possible}. {19:For one who does not contemplate} {18:the self in its purity} {22:there is} {21:no} {20:peace from craving for sense-objects}. And {23:for the peaceless one} — {24:the one bound to craving for sense-objects} — {25:whence} {26:the attainment of the eternal, unsurpassed happiness}?",
+        "english": "{1:For one who has not surrendered his manas} {0:to me}, {4:who has set out} {3:to restrain the indriyas} {2:by his own effort} alone, {7:the} {8:buddhi} {7:whose object is the self in its purity} {9:will not} {5:ever} {6:at all} {10:come to be}. {11:For} {12:that very reason} {13:his} {14:contemplation of that} {15:too} {16:is not} {17:possible}. {19:For one who does not contemplate} {18:the self in its purity} {22:there is} {21:no} {20:peace from craving for sense-objects}. And {23:for the peaceless one} — {24:the one bound to craving for sense-objects} — {25:whence} {26:the attainment of the eternal, unsurpassed happiness}?",
         "segments": [
           {
             "from": 0,
@@ -10612,7 +10612,7 @@ window.GITA_VERSES = [
     "devanagari": "इन्द्रियाणां हि चरतां यन् मनो ऽनुविधीयते।\nतद् अस्य हरति प्रज्ञां वायुर् नावम् इवाम्भसि॥",
     "iast": "indriyāṇāṃ hi caratāṃ yan mano 'nuvidhīyate |\ntad asya harati prajñāṃ vāyur nāvam ivāmbhasi ||",
     "sense": "For when the manas follows after the roving indriyas, that manas carries off his prajñā, as the wind carries off a boat upon the water.",
-    "english": "{1:For} {7:the manas} {6:which} {5:is made to follow} {0:after the indriyas} {3:as they rove}, {8:that} {10:carries off} {9:his} {11:prajñā}, {12:as} {13:the wind} {10:[carries off]} {14:a boat} {17:on the water}.",
+    "english": "{1:For} {7:the manas} {6:that} {5:is made to follow} {0:after the indriyas} {3:as they rove} — {8:that manas} {10:carries off} {9:his} {11:prajñā}, {12:as} {13:the wind} carries off {14:a boat} {17:upon the water}.",
     "words": [
       {
         "i": 0,
@@ -12656,7 +12656,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:The} {2:buddhi} {0:that} {1:has the self for its object} {4:is night} — {7:unlit}, {6:like} {5:night} — {3:for all beings}; {8:in that} {9:self-directed} {10:buddhi} {11:the man who restrains the indriyas}, {12:his manas serene}, {13:is awake}: {17:the}{18:meaning} is that he {16:abides} {15:gazing} {14:upon the self}. And {19:in which} {20:its object is sound and the rest} {21:buddhi}, {19:in which} {22:all} {23:beings} {24:are awake} — that is, {26:are} {25:alert} — {27:that} {29:buddhi} {28:whose object is sound and the rest} {36:is}, {32:for the sage} {31:who} {30:sees} {30:the self}, {35:unlit}, {34:like} {33:night}.",
+        "english": "{0:The} {2:buddhi} {0:that} {1:has the self for its object} {4:is night} — {7:unlit}, {6:like} {5:night} — {3:for all beings}; {8:in that} {9:self-directed} {10:buddhi} {11:the man who restrains the indriyas}, {12:his manas serene}, {13:is awake}: {17:the}{18:meaning} is that he {16:abides} {15:gazing} {14:upon the self}. And {21:the buddhi} {20:whose object is sound and the rest}, {19:in which} {22:all} {23:beings} {24:are awake} — that is, {26:are} {25:alert} — {27:that} {29:buddhi} {28:of sound and the rest} {36:is}, {32:for the sage} {31:who sees} {30:the self}, {35:unlit}, {34:like} {33:night}.",
         "segments": [
           {
             "from": 0,
@@ -15303,7 +15303,7 @@ window.GITA_VERSES = [
             ]
           }
         ],
-        "english": "{0:Thus}, {6:for the one who did not know} {1:the true nature of the self} {3:and} {5:that it is a means to the attainment of it} — {4:the work} {2:called battle} — {8:fallen into moha} {7:by taking the body for the self}, {10:and} {9:by that} {11:moha} {13:withdrawn} {12:from battle} — {14:for the quieting of moha}, {16:the Sāṅkhya-buddhi} {15:whose object is the eternal self}, {18:and}, {17:founded upon it}, {20:the buddhi} {19:whose object is karma-yoga in the form of the practice of detached karma} — {21:the means to the yoga of being a sthitaprajña} — {24:has been declared} {22:in the second} {23:chapter}. {25:This}{26:is said}: {28:the Sāṅkhya-yoga buddhi}, {27:ranging over the eternal self and over detached karma}, {31:has been declared} {29:in the second [chapter]}, {30:marked by the steady-minded one}, {32:for the quieting of that moha} — {33:thus}.",
+        "english": "{0:Thus}, {6:for the one who did not know} {1:the true nature of the self} {3:and} {5:that it is a means to the attainment of it} — {4:the work} {2:called battle} — {8:fallen into moha} {7:by taking the body for the self}, {10:and} {9:by that} {11:moha} {13:withdrawn} {12:from battle} — {14:for the quieting of moha}, {16:the Sāṅkhya-buddhi} {15:whose object is the eternal self}, {18:and}, {17:founded upon it}, {20:the buddhi} {19:whose object is karma-yoga in the form of the practice of detached karma} — {21:the means to the yoga of being a sthitaprajña} — {24:has been declared} {22:in the second} {23:chapter}. {25:This}{26:is what is said}: ‘{28:The Sāṅkhya-yoga buddhi}, {27:ranging over the eternal self and over detached karma}, {30:marked by the steady-minded one}, {31:has been declared} {29:in the second} chapter, {32:for the quieting of that moha}{33:.’}",
         "segments": [
           {
             "from": 0,
