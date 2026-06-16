@@ -24,7 +24,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 1,
@@ -45,7 +46,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 2,
@@ -69,7 +71,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 1st singular"
+          "morph": "present indicative, 1st singular",
+          "root": "√as"
         },
         {
           "i": 4,
@@ -127,7 +130,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 8,
@@ -230,7 +234,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√bhāṣ"
         },
         {
           "i": 15,
@@ -258,7 +263,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√bhāṣ"
         },
         {
           "i": 17,
@@ -274,7 +280,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 18,
@@ -326,7 +333,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√bhāṣ",
+          "karaka": "karma (passive subject: he who is described)"
         },
         {
           "i": 22,
@@ -377,7 +386,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√sthā"
         },
         {
           "i": 25,
@@ -490,7 +500,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(opt. 3rd sg. mid.)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√bhāṣ"
         },
         {
           "i": 33,
@@ -514,7 +525,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to sit"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 35,
@@ -526,7 +538,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go/move"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√vraj"
         },
         {
           "i": 36,
@@ -554,7 +567,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√ās"
         },
         {
           "i": 38,
@@ -570,7 +584,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vraj"
         },
         {
           "i": 39,
@@ -664,7 +679,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "root": "√lakṣ"
         },
         {
           "i": 46,
@@ -705,7 +721,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√pracch",
+          "karaka": "karma (passive subject: that which is asked)"
         }
       ],
       "english": "{0:Firmly established}, {1:firmly fixed}: he {8:whose} {7:insight} {2:‘I} {3:am} {5:Brahman}, {4:the Supreme}{6:’} is {10:the man of settled wisdom}. {13:What} is the {14:‘speech’} {11:of} {12:such a one} — {15:what} {16:saying}, {17:utterance}? {18:How} {21:is he described} {20:by others} — {22:of one settled in samādhi}, established {23:in absorption}, {25:O} {26:Keśava}? And what does the {27:steady-minded one} {28:himself} {32:say}? {34:How does he sit}, {35:how does he move} — {37:what is his sitting}, {38:his walking}{39:?} {41:How} is {40:his}{42:’} {43:the meaning}. {45:The marks} {44:of the man of settled wisdom} {48:are asked} {46:by this} {47:verse}.",
@@ -758,7 +776,8 @@ window.GITA_COMMENTARY = {
               "gloss": "occasion"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: occasion (avasara) that has been obtained (labdha)"
         },
         {
           "i": 2,
@@ -795,7 +814,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√jñā"
         },
         {
           "i": 4,
@@ -819,7 +839,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to speak"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 6,
@@ -963,7 +984,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "moksa"
+          "glossaryKey": "moksa",
+          "compound": "tatpuruṣa: means (upāya) to liberation (mokṣa), [and] become (bhūta) that"
         },
         {
           "i": 15,
@@ -991,7 +1013,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present middle participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√man"
         },
         {
           "i": 17,
@@ -1060,7 +1083,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 1st singular"
+          "morph": "present indicative, 1st singular",
+          "root": "√as"
         },
         {
           "i": 22,
@@ -1089,7 +1113,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 24,
@@ -1249,7 +1274,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to distinguish"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√śiṣ"
         },
         {
           "i": 34,
@@ -1356,7 +1382,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√bhāṣ",
+          "karaka": "karma (passive subject: he who is described)"
         },
         {
           "i": 41,
@@ -1396,7 +1424,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√bhāṣ"
         },
         {
           "i": 44,
@@ -1413,7 +1442,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "root": "√lakṣ"
         },
         {
           "i": 45,
@@ -1512,7 +1542,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√hṛ",
+          "karaka": "karma (passive subject: he who is referred to)"
         },
         {
           "i": 51,
@@ -1658,7 +1690,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to speak"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√bhāṣ"
         },
         {
           "i": 61,
@@ -1743,7 +1776,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to speak/show"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√bhāṣ"
         },
         {
           "i": 66,
@@ -1779,7 +1813,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(fem.)"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "root": "√bhū"
         },
         {
           "i": 68,
@@ -1827,7 +1862,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to sit"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 72,
@@ -1925,7 +1961,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√grah"
         },
         {
           "i": 78,
@@ -1937,7 +1974,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to do/make"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 79,
@@ -1986,7 +2024,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go/move"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√vraj"
         },
         {
           "i": 82,
@@ -2027,7 +2066,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to reach"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 85,
@@ -2168,7 +2208,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "root": "√pracch"
         },
         {
           "i": 94,
@@ -2319,7 +2360,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative present participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√budh"
         },
         {
           "i": 104,
@@ -2404,7 +2446,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√vac"
         },
         {
           "i": 110,
@@ -2432,7 +2475,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 2nd singular"
+          "morph": "present indicative, 2nd singular",
+          "root": "√as"
         },
         {
           "i": 112,
@@ -2460,7 +2504,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√sūc"
         }
       ],
       "english": "{0:Now}, {1:finding the occasion}, {4:Arjuna} {5:speaks} {3:in order to learn} {2:the marks of the man of settled wisdom} — {16:taking it} that {6:the very} {10:marks} {8:that} {7:are precisely} {9:of those liberated-while-living} {11:are} {12:also}, {13:for seekers of release}, {14:the means to liberation}{15:}. He {24:whose} {23:insight} {19:‘I} {21:am} {20:Brahman’} {17:stands} {18:unmoving} is {26:the sthita-prajña}, {27:possessed of two states}: {28:established-in-samādhi} and {29:risen-up (active)}{30:}. So {32:hence} {33:he qualifies} it: {34:of the one in samādhi}, {35:the sthita-prajña}, {36:what} is the {37:‘speech’}? — {38:in the object} {39:a genitive}{38:}. {43:the description} is {44:the mark} {40:by which he is described} {41:by this}{42:}. The {52:sense}: {47:by what} {48:mark} is {46:the sthita-prajña}, {45:settled in samādhi}, {50:referred to} {49:by others}{51:}? {53:And he} {55:who has risen up}, {56:the steady-minded one}, {57:the sthita-prajña} — {59:what} does he {58:himself} {60:say}? {61:Amid praise and blame and the like}, {63:what} {62:marks of rejoicing, dveṣa (the recoil of aversion) and so on} {64:how} does he {65:show}? — {68:the optative} {66:throughout} {67:in the sense of supposition}{69:}. {70:‘How} does he {71:sit}?’{72:} — {73:to restrain the risen-up mind}, {74:how} does he {77:restrain} the {75:outer} {76:senses}? {79:When that restraint is absent}, {80:‘how} does he {81:move’} — {82:how} does he {84:approach} {83:objects}? {85:What are his speaking, sitting and moving}, that are {86:unlike the ignorant crowd}, {87:of what sort}{88:}? — the {89:meaning}{90:}. {91:Thus} there are {92:four} {93:questions}: {96:one} {94:about the one in samādhi}, {95:the sthita-prajña}, {99:three} {97:about the risen-up} {98:sthita-prajña}{100:}. {103:By addressing him} {101:‘Keśava’}{102:}, he {113:hints}: {105:‘You} {106:alone}, {104:as the inner controller of all}, {110:are able} {109:to tell} {107:such} {108:a secret’}{111:}{112:}.",
@@ -2511,7 +2556,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "sloka"
+          "glossaryKey": "sloka",
+          "compound": "tatpuruṣa: spoken of (ukta) in the previous verse (pūrva-śloka)"
         },
         {
           "i": 1,
@@ -2545,7 +2591,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "root": "√lakṣ"
         },
         {
           "i": 3,
@@ -2594,7 +2641,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to speak"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 6,
@@ -2686,7 +2734,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√sthā"
         },
         {
           "i": 11,
@@ -2718,7 +2767,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 13,
@@ -2751,7 +2801,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 15,
@@ -2804,7 +2855,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√bhāṣ"
         },
         {
           "i": 19,
@@ -2877,7 +2929,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√bhāṣ"
         },
         {
           "i": 24,
@@ -2980,7 +3033,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 32,
@@ -3072,7 +3126,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√bhāṣ"
         },
         {
           "i": 39,
@@ -3088,7 +3143,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√ās"
         },
         {
           "i": 40,
@@ -3104,7 +3160,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√vraj"
         },
         {
           "i": 41,
@@ -3128,7 +3185,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to do, make"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 43,
@@ -3208,7 +3266,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part., fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 1,
@@ -3225,7 +3284,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 2,
@@ -3242,7 +3302,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 3,
@@ -3300,7 +3361,9 @@ window.GITA_COMMENTARY = {
               "gloss": "to speak"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√bhāṣ",
+          "karaka": "karma (passive subject: that which is spoken)"
         },
         {
           "i": 7,
@@ -3340,7 +3403,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√bhāṣ"
         },
         {
           "i": 10,
@@ -3357,7 +3421,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "root": "√lakṣ"
         },
         {
           "i": 11,
@@ -3397,7 +3462,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 14,
@@ -3414,7 +3480,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "root": "√lakṣ"
         },
         {
           "i": 15,
@@ -3431,7 +3498,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "anu"
+          "glossaryKey": "anu",
+          "root": "√vad"
         },
         {
           "i": 16,
@@ -3448,7 +3516,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "compound": "tatpuruṣa: another (antara) defining mark (lakṣaṇa)"
         },
         {
           "i": 17,
@@ -3460,7 +3529,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to ask"
             }
           ],
-          "morph": "present indicative, 1st singular"
+          "morph": "present indicative, 1st singular",
+          "root": "√pracch"
         },
         {
           "i": 18,
@@ -3492,7 +3562,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√jñā"
         },
         {
           "i": 20,
@@ -3598,7 +3669,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 28,
@@ -3666,7 +3738,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√vac"
         },
         {
           "i": 33,
@@ -3682,7 +3755,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part., fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√kṛ"
         },
         {
           "i": 34,
@@ -3774,7 +3848,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vac"
         },
         {
           "i": 40,
@@ -3854,7 +3929,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 46,
@@ -3994,7 +4070,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to sit"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 57,
@@ -4018,7 +4095,8 @@ window.GITA_COMMENTARY = {
               "gloss": "and"
             }
           ],
-          "morph": "indeclinable"
+          "morph": "indeclinable",
+          "root": "√ās"
         },
         {
           "i": 59,
@@ -4054,7 +4132,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to know"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jñā"
         },
         {
           "i": 62,
@@ -4087,7 +4166,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to know"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√jñā"
         },
         {
           "i": 64,
@@ -4204,7 +4284,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to ask"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√pracch"
         },
         {
           "i": 73,
@@ -4284,7 +4365,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go"
             }
           ],
-          "morph": "present passive, 3rd plural"
+          "morph": "present passive, 3rd plural",
+          "root": "√i"
         },
         {
           "i": 79,
@@ -4410,7 +4492,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to abandon"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hā"
         },
         {
           "i": 1,
@@ -4438,7 +4521,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to abandon"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hā"
         },
         {
           "i": 3,
@@ -4454,7 +4538,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to abandon"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√tyaj"
         },
         {
           "i": 4,
@@ -4589,7 +4674,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural masculine",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "tatpuruṣa: gone (gata) into the mind (manas)"
         },
         {
           "i": 14,
@@ -4618,7 +4704,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to enter"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "root": "√viś"
         },
         {
           "i": 16,
@@ -4646,7 +4733,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to enter"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "root": "√viś"
         },
         {
           "i": 18,
@@ -4667,7 +4755,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "kama"
+          "glossaryKey": "kama",
+          "compound": "tatpuruṣa: abandonment (parityāga) of every desire (sarva-kāma)"
         },
         {
           "i": 19,
@@ -4688,7 +4777,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: absence (abhāva) of a cause (kāraṇa) of contentment (tuṣṭi)"
         },
         {
           "i": 20,
@@ -4713,7 +4803,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "nimitta-karana"
+          "glossaryKey": "nimitta-karana",
+          "compound": "tatpuruṣa: residue (śeṣa) occasioning (nimitta) the sustaining (dhāraṇa) of the body (śarīra)"
         },
         {
           "i": 21,
@@ -4741,7 +4832,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "locative singular (absolute)"
+          "morph": "locative singular (absolute)",
+          "root": "√as"
         },
         {
           "i": 23,
@@ -4785,7 +4877,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn/proceed"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√vṛt"
         },
         {
           "i": 26,
@@ -4801,7 +4894,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to obtain"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√āp"
         },
         {
           "i": 27,
@@ -4841,7 +4935,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 30,
@@ -4956,7 +5051,8 @@ window.GITA_COMMENTARY = {
               "gloss": "without regard"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: he who is without regard (nirapekṣa) for external (bāhya) gain (lābha)"
         },
         {
           "i": 38,
@@ -4972,7 +5068,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√tuṣ"
         },
         {
           "i": 39,
@@ -5001,7 +5098,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "paramartha-satya"
+          "glossaryKey": "paramartha-satya",
+          "compound": "tatpuruṣa: gaining (lābha) of the nectar-taste (amṛta-rasa) of the vision (darśana) of the highest reality (paramārtha)"
         },
         {
           "i": 40,
@@ -5129,7 +5227,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 47,
@@ -5186,7 +5285,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vid"
         },
         {
           "i": 51,
@@ -5214,7 +5314,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 53,
@@ -5285,7 +5386,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: he who delights (ārāma) in the Self (ātman)"
         },
         {
           "i": 56,
@@ -5302,7 +5404,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: he whose sport (krīḍā) is in the Self (ātman)"
         },
         {
           "i": 57,
@@ -5677,7 +5780,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "root": "√pañc"
         },
         {
           "i": 17,
@@ -6048,7 +6152,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 38,
@@ -6615,7 +6720,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 72,
@@ -6778,7 +6884,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present middle participle)"
             }
           ],
-          "morph": "instrumental singular masculine"
+          "morph": "instrumental singular masculine",
+          "root": "√bhās"
         },
         {
           "i": 82,
@@ -7459,7 +7566,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√sādh"
         },
         {
           "i": 4,
@@ -7537,7 +7645,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√sidh"
         },
         {
           "i": 9,
@@ -7603,7 +7712,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√kath"
         },
         {
           "i": 14,
@@ -7660,7 +7770,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 18,
@@ -7740,7 +7851,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 24,
@@ -7756,7 +7868,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to abandon"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hā"
         },
         {
           "i": 25,
@@ -7809,7 +7922,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "root": "√sthā"
         },
         {
           "i": 29,
@@ -7862,7 +7976,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to abandon"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hā"
         },
         {
           "i": 33,
@@ -7878,7 +7993,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "locative singular"
+          "morph": "locative singular",
+          "root": "√tyaj"
         },
         {
           "i": 34,
@@ -7902,7 +8018,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 36,
@@ -8050,7 +8167,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√tuṣ"
         },
         {
           "i": 47,
@@ -8079,7 +8197,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: one who delights (ārāma) in the Self (ātman)"
         },
         {
           "i": 49,
@@ -8095,7 +8214,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 50,
@@ -8128,7 +8248,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: craving (abhilāṣa) for petty (kṣudra) objects (viṣaya)"
         },
         {
           "i": 52,
@@ -8140,7 +8261,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to abandon"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√tyaj"
         },
         {
           "i": 53,
@@ -8219,7 +8341,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         }
       ],
       "english": "{0:Here} {1:also}, {2:which} {4:means of knowledge} there are {3:for the aspirant}, {5:those very} {6:ones} are, {8:for the accomplished one}, {7:his innate} {9:marks}. {10:Hence}, {13:while stating} {12:the marks} {11:of the accomplished one}, He {17:states} {14:just} {15:the inner} {16:means of knowledge} — {18:up to} {19:the chapter’s end}. {20:There} {23:He gives} {22:the answer} {21:to the first question} {25:by} {24:‘prajahāti’} {26:in two verses}. {30:When} he {31:thoroughly} {32:abandons} {29:the kāmas (desire as craving for objects)} {28:seated} {27:in the mind} — {35:He states} {34:the cause} {33:of the abandonment} {37:by} {36:‘ātmani’}: {39:content} {38:in the Self} {39:alone}, {41:in} {40:his own self} {41:alone}, {42:of the nature of supreme bliss}, {44:content} {43:by himself} {45:himself}{46:,} {47:thus} being {48:one who delights in the Self} {49:—} {50:when} he {52:abandons} {51:the cravings for petty objects}, {53:then} {54:by that} {55:mark} {56:the sage} {58:is called} {57:sthita-prajña}.",
@@ -8402,7 +8525,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(fut. participle)"
             }
           ],
-          "morph": "nominative singular masculine, future participle"
+          "morph": "nominative singular masculine, future participle",
+          "root": "√dṛś"
         },
         {
           "i": 9,
@@ -8451,7 +8575,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. perfect)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 12,
@@ -8471,7 +8596,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hā"
         },
         {
           "i": 13,
@@ -8569,7 +8695,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√vṛt"
         },
         {
           "i": 19,
@@ -8585,7 +8712,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 20,
@@ -8727,7 +8855,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 28,
@@ -8775,7 +8904,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 31,
@@ -8819,7 +8949,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hā"
         },
         {
           "i": 34,
@@ -8901,7 +9032,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√iṣ"
         },
         {
           "i": 39,
@@ -8967,7 +9099,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abl. sg.)"
             }
           ],
-          "morph": "ablative singular feminine"
+          "morph": "ablative singular feminine",
+          "root": "√vac"
         },
         {
           "i": 43,
@@ -8995,7 +9128,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√iṣ"
         },
         {
           "i": 45,
@@ -9055,7 +9189,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(nom. sg.)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√grah"
         },
         {
           "i": 49,
@@ -9075,7 +9210,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. mid./passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√dṛś"
         },
         {
           "i": 50,
@@ -9107,7 +9243,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√bhū"
         },
         {
           "i": 52,
@@ -9136,7 +9273,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 54,
@@ -9176,7 +9314,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 57,
@@ -9490,7 +9629,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(nom./acc. sg. neut.)"
             }
           ],
-          "morph": "nominative singular neuter, gerundive"
+          "morph": "nominative singular neuter, gerundive",
+          "root": "√gam"
         },
         {
           "i": 78,
@@ -9555,7 +9695,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(pres. part.)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 83,
@@ -9572,7 +9713,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "root": "√lakṣ"
         },
         {
           "i": 84,
@@ -9592,7 +9734,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. mid./passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 85,
@@ -9719,7 +9862,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(pres. part.)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 94,
@@ -9768,7 +9912,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 97,
@@ -9987,7 +10132,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. mid./passive)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√jan"
         },
         {
           "i": 111,
@@ -10240,7 +10386,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√yuj"
         },
         {
           "i": 127,
@@ -10256,7 +10403,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√hā"
         },
         {
           "i": 128,
@@ -10300,7 +10448,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√dṛś"
         },
         {
           "i": 131,
@@ -10349,7 +10498,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to obstruct"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√rudh"
         },
         {
           "i": 134,
@@ -10381,7 +10531,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. mid./passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 136,
@@ -10446,7 +10597,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√dṛś"
         },
         {
           "i": 141,
@@ -10466,7 +10618,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. mid.)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 142,
@@ -10534,7 +10687,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√dṛś"
         },
         {
           "i": 147,
@@ -10562,7 +10716,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√nī"
         },
         {
           "i": 148,
@@ -10654,7 +10809,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√sthā"
         },
         {
           "i": 154,
@@ -10670,7 +10826,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(pres. part.)"
             }
           ],
-          "morph": "nominative singular masculine, present participle"
+          "morph": "nominative singular masculine, present participle",
+          "root": "√as"
         },
         {
           "i": 155,
@@ -10715,7 +10872,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√sthā"
         },
         {
           "i": 158,
@@ -10764,7 +10922,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(nom. sg.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√tuṣ"
         },
         {
           "i": 161,
@@ -10776,7 +10935,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 162,
@@ -10821,7 +10981,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√tyaj"
         },
         {
           "i": 165,
@@ -10885,7 +11046,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 170,
@@ -10905,7 +11067,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(nom. sg.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√tuṣ"
         },
         {
           "i": 171,
@@ -11161,7 +11324,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "locative plural neuter"
+          "morph": "locative plural neuter",
+          "root": "√āp"
         },
         {
           "i": 3,
@@ -11193,7 +11357,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vij"
         },
         {
           "i": 5,
@@ -11225,7 +11390,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√kṣubh"
         },
         {
           "i": 7,
@@ -11242,7 +11408,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "duhkha"
+          "glossaryKey": "duhkha",
+          "compound": "tatpuruṣa: arrival (prāpti) of pain (duḥkha)"
         },
         {
           "i": 8,
@@ -11357,7 +11524,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "locative plural neuter"
+          "morph": "locative plural neuter",
+          "root": "√āp"
         },
         {
           "i": 16,
@@ -11377,7 +11545,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√gam"
         },
         {
           "i": 17,
@@ -11407,7 +11576,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "trsna",
+          "root": "√tṛṣ"
         },
         {
           "i": 19,
@@ -11475,7 +11645,8 @@ window.GITA_COMMENTARY = {
               "gloss": "placing/adding"
             }
           ],
-          "morph": "locative singular neuter"
+          "morph": "locative singular neuter",
+          "compound": "tatpuruṣa: placing (ādhāna) of fuel (indhana) and the like (ādi)"
         },
         {
           "i": 24,
@@ -11516,7 +11687,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to grow"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛdh"
         },
         {
           "i": 27,
@@ -11589,7 +11761,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "root": "√rañj"
         },
         {
           "i": 31,
@@ -11617,7 +11790,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√bhī"
         },
         {
           "i": 33,
@@ -11646,7 +11820,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "krodha"
+          "glossaryKey": "krodha",
+          "root": "√krudh"
         },
         {
           "i": 35,
@@ -11678,7 +11853,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, plural)"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "root": "√i"
         },
         {
           "i": 37,
@@ -11698,7 +11874,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, plural)"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "root": "√gam"
         },
         {
           "i": 38,
@@ -11818,7 +11995,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "samnyasa"
+          "glossaryKey": "samnyasa",
+          "root": "√as"
         },
         {
           "i": 45,
@@ -11846,7 +12024,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         }
       ],
       "english": "{0:Amid sorrows} — {1:the bodily-personal and the rest} — {2:when they arrive}, he {9:whose} {8:mind} is {3:not} {4:agitated}, {5:not} {6:disturbed} {7:at the onset of pain}, {10:is} {11:this one} {12:‘not-agitated-in-mind’}. {13:Likewise}, {14:amid pleasures} {15:when they arrive}, he {19:whose} {17:thirst}, {18:whose craving}, has {16:departed} — who, {22:unlike} {21:fire} {23:when fuel and the like is added}, does {20:not} {26:swell up} {25:after} {24:pleasures} — {27:he} is {28:‘free of longing’}. {29:‘vīta-rāga-bhaya-krodhaḥ’}: he {38:from whom} {30:rāga (the pull of attraction and attachment)} {31:and} {32:fear} {33:and} {34:krodha (the blaze of anger)} {36:have gone}, {37:are departed} — {39:he} is {40:free of rāga, fear and krodha}. The {41:steady-minded one}, the {42:sthita-prajña}, the {43:sage}, the {44:renunciant}, is {45:then} {46:so called}.",
@@ -12085,7 +12264,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 13,
@@ -12776,7 +12956,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(opt. 3rd sg.)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 54,
@@ -12891,7 +13072,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. mid./passive)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 61,
@@ -13060,7 +13242,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√bhū"
         },
         {
           "i": 72,
@@ -13285,7 +13468,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. mid./passive)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 86,
@@ -14406,7 +14590,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. mid./passive)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 151,
@@ -14495,7 +14680,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√arh"
         },
         {
           "i": 157,
@@ -14997,7 +15183,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√vac"
         },
         {
           "i": 190,
@@ -15154,7 +15341,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√sthā"
         },
         {
           "i": 202,
@@ -15445,7 +15633,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 222,
@@ -16092,7 +16281,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "locative singular masculine (absolute)"
+          "morph": "locative singular masculine (absolute)",
+          "root": "√sthā"
         },
         {
           "i": 263,
@@ -16141,7 +16331,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present middle participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√man"
         },
         {
           "i": 266,
@@ -16251,7 +16442,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "locative singular masculine (absolute)"
+          "morph": "locative singular masculine (absolute)",
+          "root": "√sthā"
         },
         {
           "i": 272,
@@ -16300,7 +16492,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present middle participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√man"
         },
         {
           "i": 275,
@@ -16563,7 +16756,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. mid./passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 291,
@@ -16682,7 +16876,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(opt. 3rd sg. mid.)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√bhāṣ"
         },
         {
           "i": 297,
@@ -16734,7 +16929,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vac"
         },
         {
           "i": 300,
@@ -17126,7 +17322,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "locative plural (absolute)"
+          "morph": "locative plural (absolute)",
+          "root": "√āp"
         },
         {
           "i": 6,
@@ -17162,7 +17359,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vij"
         },
         {
           "i": 8,
@@ -17182,7 +17380,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√kṣubh"
         },
         {
           "i": 9,
@@ -17251,7 +17450,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√gam"
         },
         {
           "i": 14,
@@ -17332,7 +17532,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "root": "√i"
         },
         {
           "i": 20,
@@ -17352,7 +17553,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "root": "√gam"
         },
         {
           "i": 21,
@@ -17373,7 +17575,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural masculine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "dvandva: passion (rāga), fear (bhaya) and anger (krodha)"
         },
         {
           "i": 22,
@@ -17475,7 +17678,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         }
       ],
       "english": "{1:Moreover}, {3:} {2:‘duḥkheṣu’}: he {10:whose} {9:mind} is {7:unagitated}, {8:undisturbed}, {6:even} {5:when} {4:sorrows} {5:arrive}{11:,} {16:he} {15:whose} {14:longing} {13:has departed} {12:amid pleasures}. {17:There} {18:the cause}: he {22:from whom} {21:rāga (the pull of attraction and attachment), fear and krodha (the blaze of anger)} are {19:gone}, {20:departed}. {23:There} {24:‘rāga’} is {25:fondness}. {26:That} {27:sage} {29:is called} {28:steady-minded}.",
@@ -17675,7 +17879,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 13,
@@ -17719,7 +17924,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "instrumental plural masculine"
+          "morph": "instrumental plural masculine",
+          "root": "√jñā"
         },
         {
           "i": 16,
@@ -17735,7 +17941,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter, gerundive"
+          "morph": "nominative singular neuter, gerundive",
+          "root": "√sādh"
         },
         {
           "i": 17,
@@ -17789,7 +17996,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "root": "√lakṣ"
         },
         {
           "i": 21,
@@ -17836,7 +18044,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "root": "√rañj"
         },
         {
           "i": 24,
@@ -17890,7 +18099,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√rañj"
         },
         {
           "i": 28,
@@ -17919,7 +18129,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 30,
@@ -17963,7 +18174,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√dhā"
         }
       ],
       "english": "He {2:makes} {0:that very thing} {2:clear} {3:by the next} {4:three} {5:verses}; and {6:these} {7:same} are {8:the means to knowledge}. {12:As stated}: {14:‘that} {13:which} {18:is what} {20:is the mark} {17:of the knowers} {16:is to be accomplished} {15:by those who would know’}. {22:The superimposition of attractiveness} is {23:rāga (the pull of attraction and attachment)}; {31:for} {32:it is said}, {24:‘rasa}, {25:rāga}, {26:and likewise} {27:rakti} {28:— the superimposition of attractiveness} {29:is so called’}.",
@@ -18030,7 +18242,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "muni"
+          "glossaryKey": "muni",
+          "karaka": "kartṛ (agent of nābhinandati)"
         },
         {
           "i": 2,
@@ -18100,7 +18313,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sanga",
+          "compound": "bahuvrīhi: he in whom there is no fondness (sneha)"
         },
         {
           "i": 6,
@@ -18116,7 +18330,8 @@ window.GITA_COMMENTARY = {
               "gloss": "devoid of"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: devoid of (varjita) fondness (abhisneha)"
         },
         {
           "i": 7,
@@ -18160,7 +18375,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 10,
@@ -18176,7 +18392,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ill"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "dvandva: the good (śubha) and the ill (aśubha)"
         },
         {
           "i": 11,
@@ -18256,7 +18473,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√labh"
         },
         {
           "i": 17,
@@ -18284,7 +18502,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to rejoice"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√nand"
         },
         {
           "i": 19,
@@ -18309,7 +18528,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "dvesa"
+          "glossaryKey": "dvesa",
+          "root": "√dviṣ"
         },
         {
           "i": 21,
@@ -18341,7 +18561,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 23,
@@ -18365,7 +18586,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be content"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√tuṣ"
         },
         {
           "i": 25,
@@ -18389,7 +18611,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be thrilled"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛṣ"
         },
         {
           "i": 27,
@@ -18437,7 +18660,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 30,
@@ -18462,7 +18686,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "dvesa"
+          "glossaryKey": "dvesa",
+          "root": "√dviṣ"
         },
         {
           "i": 32,
@@ -18530,7 +18755,8 @@ window.GITA_COMMENTARY = {
               "gloss": "devoid of"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "bahuvrīhi: he from whom elation (harṣa) and dejection (viṣāda) are gone (varjita)"
         },
         {
           "i": 37,
@@ -18546,7 +18772,8 @@ window.GITA_COMMENTARY = {
               "gloss": "born of"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: born of (ja) discrimination (viveka)"
         },
         {
           "i": 38,
@@ -18563,7 +18790,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 39,
@@ -18584,7 +18812,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 40,
@@ -18596,7 +18825,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be/become"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         }
       ],
       "english": "{0:That} {1:sage} who, {2:everywhere} — {4:even} {3:in body, life and the rest} — is {5:without fondness}, {6:devoid of attachment}, {9:on gaining} {7:this} {8:or that}, {10:good or ill}, {16:on obtaining} {11:this} {12:or that}, {13:auspicious} {14:inauspicious} {15:or}, neither {18:rejoices} {17:nor} {20:reviles} — {22:on gaining} {21:the auspicious} he is {23:not} {24:gladdened}, does {25:not} {26:exult}; {28:and} {29:on gaining} {27:the inauspicious} he does {30:not} {31:revile} — {32:that is} {33:the meaning}. {34:For such a one}, {35:thus} {36:devoid of elation and dejection}, the {38:insight} {37:born of discrimination} {39:stands firm} {40:becomes established}.",
@@ -18796,7 +19026,8 @@ window.GITA_COMMENTARY = {
               "gloss": "gain/increase"
             }
           ],
-          "morph": "nominative dual feminine"
+          "morph": "nominative dual feminine",
+          "karaka": "kartṛ (subject superimposed)"
         },
         {
           "i": 12,
@@ -18828,7 +19059,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd dual"
+          "morph": "present passive, 3rd dual",
+          "root": "√ruh"
         },
         {
           "i": 14,
@@ -18869,7 +19101,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: having another (anya) as its object (viṣaya)"
         },
         {
           "i": 17,
@@ -18890,7 +19123,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "prema"
+          "glossaryKey": "prema",
+          "compound": "tatpuruṣa: another (apara) name (paryāya) for love (prema)"
         },
         {
           "i": 18,
@@ -18924,7 +19158,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "vrtti"
+          "glossaryKey": "vrtti",
+          "compound": "tatpuruṣa: a particular (viśeṣa) modification (vṛtti)"
         },
         {
           "i": 20,
@@ -18936,7 +19171,8 @@ window.GITA_COMMENTARY = {
               "gloss": "fondness/affection"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "karaka": "kartṛ (predicate nominative: this sneha)"
         },
         {
           "i": 21,
@@ -18968,7 +19204,8 @@ window.GITA_COMMENTARY = {
               "gloss": "devoid/bereft"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: devoid (rahita) of that (tad)"
         },
         {
           "i": 23,
@@ -19075,7 +19312,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be/become"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 30,
@@ -19112,7 +19350,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: the absence (abhāva) of fondness (sneha) for the non-Self (anātman)"
         },
         {
           "i": 32,
@@ -19160,7 +19399,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter (gerundive)"
+          "morph": "nominative singular neuter (gerundive)",
+          "root": "√dṛś"
         },
         {
           "i": 35,
@@ -19189,7 +19429,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "prarabdha"
+          "glossaryKey": "prarabdha",
+          "compound": "tatpuruṣa (with inner members): procured (pariprāpita) by this-or-that (tat-tat) commenced (prārabdha) karma (karman)"
         },
         {
           "i": 36,
@@ -19217,7 +19458,8 @@ window.GITA_COMMENTARY = {
               "gloss": "cause"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "compound": "tatpuruṣa: a cause (hetu) of pleasure (sukha)"
         },
         {
           "i": 38,
@@ -19250,7 +19492,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 40,
@@ -19278,7 +19521,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to rejoice"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√nand"
         },
         {
           "i": 42,
@@ -19299,7 +19543,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter (adverbial)",
-          "glossaryKey": "visesa"
+          "glossaryKey": "visesa",
+          "compound": "bahuvrīhi (adverbial): preceded by (puraḥsara) a burst (viśeṣa) of elation (harṣa)"
         },
         {
           "i": 43,
@@ -19327,7 +19572,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to praise"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√śaṃs"
         },
         {
           "i": 45,
@@ -19360,7 +19606,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "duhkha"
+          "glossaryKey": "duhkha",
+          "compound": "tatpuruṣa: a cause (hetu) of pain (duḥkha)"
         },
         {
           "i": 47,
@@ -19393,7 +19640,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 49,
@@ -19418,7 +19666,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "dvesa"
+          "glossaryKey": "dvesa",
+          "root": "√dviṣ"
         },
         {
           "i": 51,
@@ -19438,7 +19687,8 @@ window.GITA_COMMENTARY = {
               "gloss": "preceded by"
             }
           ],
-          "morph": "accusative singular neuter (adverbial)"
+          "morph": "accusative singular neuter (adverbial)",
+          "compound": "bahuvrīhi (adverbial): preceded by (pūrvaka) inner (antar) spite (asūyā)"
         },
         {
           "i": 52,
@@ -19462,7 +19712,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to censure/blame"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√nind"
         },
         {
           "i": 54,
@@ -19538,7 +19789,8 @@ window.GITA_COMMENTARY = {
               "gloss": "and the like"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: one's own (sva) wife (kalatra) and the like (ādi)"
         },
         {
           "i": 59,
@@ -19604,7 +19856,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "guna"
+          "glossaryKey": "guna",
+          "compound": "tatpuruṣa: prompting (pravartikā) the telling (kathana) of its (tad) qualities (guṇa) and the like (ādi)"
         },
         {
           "i": 63,
@@ -19621,7 +19874,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "vrtti"
+          "glossaryKey": "vrtti",
+          "compound": "tatpuruṣa: a modification (vṛtti) of the intellect (dhī)"
         },
         {
           "i": 64,
@@ -19638,7 +19892,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "bhrama"
+          "glossaryKey": "bhrama",
+          "compound": "tatpuruṣa: of the form (rūpa) of delusion (bhrānti)"
         },
         {
           "i": 65,
@@ -19658,7 +19913,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√nand"
         },
         {
           "i": 66,
@@ -19753,7 +20009,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: the absence (abhāva) of the purpose (artha-tva) of inducing (prarocana) another (para)"
         },
         {
           "i": 71,
@@ -19801,7 +20058,8 @@ window.GITA_COMMENTARY = {
               "gloss": "generating/producing"
             }
           ],
-          "morph": "instrumental singular neuter"
+          "morph": "instrumental singular neuter",
+          "compound": "tatpuruṣa: by the producing (utpādana) of spite (asūyā)"
         },
         {
           "i": 74,
@@ -19843,7 +20101,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "vidya"
+          "glossaryKey": "vidya",
+          "compound": "tatpuruṣa: another's (parakīya) superiority (prakarṣa) in learning (vidyā) and the like (ādi)"
         },
         {
           "i": 76,
@@ -19920,7 +20179,8 @@ window.GITA_COMMENTARY = {
               "gloss": "prompting/instigating"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: prompting (pravartikā) the censure (nindā) of it (tad) and the like (ādi)"
         },
         {
           "i": 81,
@@ -19958,7 +20218,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "vrtti"
+          "glossaryKey": "vrtti",
+          "compound": "tatpuruṣa: a particular (viśeṣa) modification (vṛtti) of the intellect (dhī)"
         },
         {
           "i": 83,
@@ -20040,7 +20301,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: the absence (abhāva) of the purpose (artha-tva) of warding off (nivāraṇa)"
         },
         {
           "i": 88,
@@ -20089,7 +20351,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative dual masculine",
-          "glossaryKey": "dvesa"
+          "glossaryKey": "dvesa",
+          "compound": "dvandva: rejoicing (abhinanda) and aversion (dveṣa)"
         },
         {
           "i": 91,
@@ -20106,7 +20369,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative dual masculine",
-          "glossaryKey": "bhrama"
+          "glossaryKey": "bhrama",
+          "compound": "tatpuruṣa: of the form (rūpa) of error (bhrānti)"
         },
         {
           "i": 92,
@@ -20168,7 +20432,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "shuddha-sattva"
+          "glossaryKey": "shuddha-sattva",
+          "compound": "karmadhāraya: pure (śuddha) sattva"
         },
         {
           "i": 96,
@@ -20185,7 +20450,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "bahuvrīhi: he by whom wisdom (prajñā) is settled (sthita)"
         },
         {
           "i": 97,
@@ -20201,7 +20467,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be/occur"
             }
           ],
-          "morph": "optative/imperative, 3rd dual"
+          "morph": "optative/imperative, 3rd dual",
+          "root": "√bhū"
         },
         {
           "i": 98,
@@ -20230,7 +20497,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: the absence (abhāva) of a perturber (vicālaka)"
         },
         {
           "i": 100,
@@ -20282,7 +20550,8 @@ window.GITA_COMMENTARY = {
               "gloss": "devoid"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "bahuvrīhi: he from whom elation (harṣa) and dejection (viṣāda) are gone (rahita)"
         },
         {
           "i": 103,
@@ -20312,7 +20581,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 105,
@@ -20337,7 +20607,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: whose object (viṣaya) is the truth (tattva) of the Supreme Self (paramātman)"
         },
         {
           "i": 106,
@@ -20358,7 +20629,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 107,
@@ -20374,7 +20646,8 @@ window.GITA_COMMENTARY = {
               "gloss": "culminating/terminating in"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "bahuvrīhi: which culminates in (paryavasāyin) its fruit (phala)"
         },
         {
           "i": 108,
@@ -20403,7 +20676,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "bahuvrīhi: he by whom wisdom (prajñā) is settled (sthita)"
         },
         {
           "i": 110,
@@ -20524,7 +20798,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be/become"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 119,
@@ -20556,7 +20831,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 121,
@@ -20584,7 +20860,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to praise"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√śaṃs"
         },
         {
           "i": 123,
@@ -20620,7 +20897,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 125,
@@ -20644,7 +20922,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to censure/blame"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√nind"
         },
         {
           "i": 127,
@@ -20677,7 +20956,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "abhipraya"
+          "glossaryKey": "abhipraya",
+          "root": "√i"
         },
         {
           "i": 129,
@@ -20725,7 +21005,8 @@ window.GITA_COMMENTARY = {
               "gloss": "form/nature"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: of the form (rūpa) of censure (nindā), praise (praśaṃsā) and the like (ādi)"
         },
         {
           "i": 132,
@@ -20741,7 +21022,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun, fem.)"
             }
           ],
-          "morph": "accusative plural feminine"
+          "morph": "accusative plural feminine",
+          "root": "√vac"
         },
         {
           "i": 133,
@@ -20769,7 +21051,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to speak"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√bhāṣ"
         },
         {
           "i": 135,
@@ -20805,7 +21088,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√ric"
         },
         {
           "i": 137,
@@ -20821,7 +21105,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vac"
         }
       ],
       "english": "{0:Moreover}{1:}: {6:the sage} {5:who}, {2:in all bodies}, {3:in life and the rest}, {4:even}, {7:is without fondness} — that ‘fondness’ (sneha), {8:in which} {9:being present}, {11:another’s loss or gain} {10:belonging to another} {13:is superimposed} {12:upon oneself} — {14:he}, {15:such}, {16:directed elsewhere}, {17:a synonym of love}, {18:a tāmasic} {19:particular modification}, {20:fondness} — {21:in every way} {22:devoid of it}, he is {23:‘without fondness’}. {26:But} {24:toward the Lord}, {25:the Supreme Self}, he {29:should} {27:indeed} {28:have fondness} {27:in every way}{30:}; for {31:the absence of fondness toward the non-Self} is {32:for that very purpose}, {34:it should be understood}{33:}. On {39:gaining} {36:this auspicious} {38:object}, {37:a cause of pleasure}, {35:procured by this or that commenced karma}, he does {40:not} {41:rejoice} — does not, {42:with elation}, {44:praise} it{43:}. On {48:gaining} {45:the inauspicious}, {46:a cause of pain}, {47:object}, he does {49:not} {50:revile} — does not, {51:with inner spite}, {53:censure} it{52:}. {55:For} {54:in the ignorant}, {56:the auspicious object that is a cause of pleasure}, {58:such as one’s own wife}, {57:which} {59:— that} {60:auspicious} {61:object} {62:prompts the praising of its qualities} — {63:a mental modification} {65:of praising}, {64:a deluded rejoicing}; {66:and that} {67:is} {68:tāmasic}, {71:being purposeless} {70:since the praising of its qualities} {69:serves no inducement of another}. {72:Likewise} {78:the inauspicious} {79:object} — {75:another’s superior learning and the like}, {74:a cause of pain} {73:by generating envy} {77:toward} {76:him} — {80:prompts a deluded mental modification of censuring it}{81:} {82:a particular mental modification}; {83:that} {84:too} {85:is tāmasic}, {88:being purposeless} {87:since the censure} {86:of it} {87:serves no warding-off}. {89:Those two}, {90:rejoicing and dveṣa (the recoil of aversion)}, {91:being of the nature of error} {92:and tāmasic}, {93:how} could they {97:occur} {96:in the} {94:unerring} {96:sthita-prajña} {95:established in pure sattva}? {98:Therefore}, {99:since there is nothing to perturb him}, for {100:that} {103:sage} {101:who is without fondness}, {102:devoid of elation and dejection}, {104:the insight} {105:whose object is the truth of the Supreme Self} {106:stands firm}, {107:culminating in its fruit} — {108:he} is {109:the sthita-prajña}, {111:that is the sense}{110:}. {112:And} {114:too} {113:any other} {115:seeker of release} {116:everywhere} {118:should be} {117:without fondness}, {120:on gaining} {119:the auspicious} {121:should} {122:not} {121:praise} nor {126:censure} {124:on gaining} {123:the inauspicious}{125:}{127:}, is {128:the import}. {129:And here} {130:} {137:the exclusion is stated}, that {134:he would} {133:not} {134:utter} {132:words} {131:of the form of censure, praise and the like}{135:} {136:the exclusion}.",
@@ -20880,7 +21165,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to speak"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√bhāṣ"
         },
         {
           "i": 2,
@@ -20928,7 +21214,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 6,
@@ -21000,7 +21287,8 @@ window.GITA_COMMENTARY = {
               "gloss": "and the rest"
             }
           ],
-          "morph": "locative plural"
+          "morph": "locative plural",
+          "compound": "tatpuruṣa: sons (putra), friends (mitra) and the rest (ādi)"
         },
         {
           "i": 11,
@@ -21033,7 +21321,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sanga",
+          "compound": "bahuvrīhi: he in whom there is no fondness (sneha)"
         },
         {
           "i": 13,
@@ -21049,7 +21338,8 @@ window.GITA_COMMENTARY = {
               "gloss": "devoid, excluded"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: devoid of (varjita) attachment (sneha)"
         },
         {
           "i": 14,
@@ -21081,7 +21371,8 @@ window.GITA_COMMENTARY = {
               "gloss": "continuance, persistence"
             }
           ],
-          "morph": "instrumental singular feminine"
+          "morph": "instrumental singular feminine",
+          "compound": "tatpuruṣa (instr.): by a sublated (bādhita) continuance (anuvṛtti)"
         },
         {
           "i": 16,
@@ -21154,7 +21445,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 21,
@@ -21182,7 +21474,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to rejoice"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√nand"
         },
         {
           "i": 23,
@@ -21234,7 +21527,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 26,
@@ -21259,7 +21553,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "dvesa"
+          "glossaryKey": "dvesa",
+          "root": "√dviṣ"
         },
         {
           "i": 28,
@@ -21283,7 +21578,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to blame, censure"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√nind"
         },
         {
           "i": 30,
@@ -21331,7 +21627,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√ās"
         },
         {
           "i": 33,
@@ -21355,7 +21652,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to speak"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhāṣ"
         },
         {
           "i": 35,
@@ -21384,7 +21682,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 37,
@@ -21405,7 +21704,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 38,
@@ -21496,7 +21796,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "compound": "bahuvrīhi-derived abstract: the state of being without fondness (anabhisneha)"
         },
         {
           "i": 2,
@@ -21512,7 +21813,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ill"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "dvandva: good (śubha) and ill (aśubha)"
         },
         {
           "i": 3,
@@ -21532,7 +21834,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 4,
@@ -21560,7 +21863,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to rejoice"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√nand"
         },
         {
           "i": 6,
@@ -21585,7 +21889,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "dvesa"
+          "glossaryKey": "dvesa",
+          "root": "√dviṣ"
         }
       ],
       "english": "{1:Because he is without fondness} {0:everywhere}, {3:on gaining} {2:good or ill} he {4:neither} {5:rejoices} {6:nor} {7:reviles}.",
@@ -21635,7 +21940,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw/take"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 2,
@@ -21667,7 +21973,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 4,
@@ -21708,7 +22015,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa (loc.): in steadiness (niṣṭhā) in knowledge (jñāna)"
         },
         {
           "i": 7,
@@ -21728,7 +22036,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vṛt"
         },
         {
           "i": 8,
@@ -21744,7 +22053,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√yat",
+          "karaka": "kartṛ (agent of upasaṃharate)"
         },
         {
           "i": 9,
@@ -21860,7 +22171,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 18,
@@ -21921,7 +22233,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "bahuvrīhi/tatpuruṣa: steadfast (niṣṭha) in knowledge (jñāna)"
         },
         {
           "i": 22,
@@ -21934,7 +22247,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural neuter",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "karaka": "karma (object withdrawn)"
         },
         {
           "i": 23,
@@ -21951,7 +22265,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa (abl.): from the objects (artha) of the senses (indriya)",
+          "karaka": "apādāna (point of withdrawal)"
         },
         {
           "i": 24,
@@ -21968,7 +22284,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: from all (sarva) the sense-spheres (viṣaya)"
         },
         {
           "i": 25,
@@ -21988,7 +22305,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 26,
@@ -22017,7 +22335,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 28,
@@ -22038,7 +22357,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 29,
@@ -22066,7 +22386,8 @@ window.GITA_COMMENTARY = {
               "gloss": "meaning"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "bahuvrīhi: whose meaning (artha) has been stated (ukta)"
         },
         {
           "i": 31,
@@ -22082,7 +22403,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         }
       ],
       "english": "{0:When} {5:this one} — the {8:ascetic} {7:engaged} {6:in the steadiness of knowledge} — {1:draws in} {2:fully} {3:and draws in}, just as {9:a tortoise} {10:its limbs} {11:—}: {12:just as} {13:a tortoise} {14:out of fear} {17:draws in} {15:its own} {16:limbs} {18:from every side}, {19:on all sides}, {20:so} {21:the one steadfast in knowledge} {25:draws in} {22:the senses} {23:from their objects}, {24:from all the spheres of sense}. {26:‘His} {27:insight} {28:stands firm’} {29:—} {31:the sentence} {30:whose meaning has been stated}.",
@@ -22143,7 +22465,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to sit"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 3,
@@ -22175,7 +22498,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√prach"
         },
         {
           "i": 5,
@@ -22203,7 +22527,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√vac"
         },
         {
           "i": 7,
@@ -22219,7 +22544,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to undertake"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√rabh"
         },
         {
           "i": 8,
@@ -22290,7 +22616,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "prarabdha"
+          "glossaryKey": "prarabdha",
+          "compound": "tatpuruṣa: by the force (vaśa) of commenced (prārabdha) karma (karman)"
         },
         {
           "i": 13,
@@ -22314,7 +22641,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "instrumental singular neuter"
+          "morph": "instrumental singular neuter",
+          "root": "√sthā"
         },
         {
           "i": 14,
@@ -22334,7 +22662,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative plural neuter"
+          "morph": "accusative plural neuter",
+          "root": "√kṣip"
         },
         {
           "i": 15,
@@ -22383,7 +22712,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√hṛ"
         },
         {
           "i": 18,
@@ -22400,7 +22730,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular (adverbial)",
-          "glossaryKey": "samadhi"
+          "glossaryKey": "samadhi",
+          "compound": "tatpuruṣa: for the sake (artha) of samādhi"
         },
         {
           "i": 19,
@@ -22429,7 +22760,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "bahuvrīhi: he by whom wisdom (prajñā) is settled (sthita)"
         },
         {
           "i": 21,
@@ -22449,7 +22781,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√viś"
         },
         {
           "i": 22,
@@ -22481,7 +22814,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive (causative)"
+          "morph": "infinitive (causative)",
+          "root": "√dṛś"
         },
         {
           "i": 24,
@@ -22493,7 +22827,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 25,
@@ -22553,7 +22888,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√sthā"
         },
         {
           "i": 29,
@@ -22598,7 +22934,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa (abl.): from the objects (artha) of the senses (indriya)"
         },
         {
           "i": 32,
@@ -22615,7 +22952,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: sound (śabda) and the rest (ādi)"
         },
         {
           "i": 33,
@@ -22655,7 +22993,8 @@ window.GITA_COMMENTARY = {
               "gloss": "sense/meaning"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "compound": "tatpuruṣa (loc.): in the sense (artha) of 'again' (punar)"
         },
         {
           "i": 36,
@@ -22683,7 +23022,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 38,
@@ -22715,7 +23055,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 40,
@@ -22735,7 +23076,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular (causative)"
+          "morph": "present indicative, 3rd singular (causative)",
+          "root": "√kuc"
         },
         {
           "i": 41,
@@ -22763,7 +23105,8 @@ window.GITA_COMMENTARY = {
               "gloss": "end/instance"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: an instance (anta) of what is seen (dṛṣṭa), i.e. an illustration"
         },
         {
           "i": 43,
@@ -22840,7 +23183,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 49,
@@ -22861,7 +23205,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 50,
@@ -22902,7 +23247,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental dual masculine",
-          "glossaryKey": "sloka"
+          "glossaryKey": "sloka",
+          "compound": "karmadhāraya: the previous (pūrva) two verses (śloka)"
         },
         {
           "i": 53,
@@ -22930,7 +23276,9 @@ window.GITA_COMMENTARY = {
               "gloss": "state/condition"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "root": "√sthā",
+          "compound": "tatpuruṣa (loc.): in the state (daśā) of rising-up (vyutthāna)"
         },
         {
           "i": 54,
@@ -22967,7 +23315,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "vrtti"
+          "glossaryKey": "vrtti",
+          "compound": "tatpuruṣa: the absence (abhāva) of every (sakala) tāmasic (tāmasa) modification (vṛtti)"
         },
         {
           "i": 56,
@@ -22983,7 +23332,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vac"
         },
         {
           "i": 57,
@@ -23036,7 +23386,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "samadhi"
+          "glossaryKey": "samadhi",
+          "compound": "tatpuruṣa (loc.): in the state (avasthā) of samādhi"
         },
         {
           "i": 61,
@@ -23057,7 +23408,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "vrtti"
+          "glossaryKey": "vrtti",
+          "compound": "tatpuruṣa: the absence (abhāva) of every (sakala) modification (vṛtti)"
         },
         {
           "i": 62,
@@ -23090,7 +23442,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visesa"
+          "glossaryKey": "visesa",
+          "root": "√śiṣ"
         }
       ],
       "english": "{0:Now} {8:He}, {9:in six} {10:verses}, {7:begins} {6:to state} {5:the answer} {4:of the question} {1:‘how} {2:does he sit’} {3:—}. {11:There}, {23:to show} that the {20:sthita-prajña’s} {21:sitting} is {19:precisely} {18:for the sake of samādhi} — having {16:again} {17:drawn in} the {15:senses} {14:scattered} {13:through the rising-up} {12:brought on by commenced karma} — {24:He says} {25:“when…”}. {27:When this} {28:risen-up one}, {29:in every way}, {31:from} {30:all} the {31:sense-objects}, {32:sound and the rest}, {33:from all of them} — {34:’ca’} {35:in the sense of ‘again’} — {36:when} {37:he draws in}, {38:again} {39:withdraws}, {40:contracts}; {41:there} {42:the illustration} is {43:‘a tortoise} {44:its limbs} {45:like’}; {46:then} {47:his} {48:insight} {49:stands firm} {50:—} this {51:is clear}. {52:By the previous two verses} {55:the absence of every tāmasic modification} {54:even} {53:in the state of rising-up} {56:was stated}; {57:now}, {58:by contrast}, {59:in the renewed} {60:state of samādhi} there is {61:the absence of every modification} {62:—} this {63:is the distinction}.",
@@ -23221,7 +23574,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 8,
@@ -23238,7 +23592,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa (abl.): from the objects (artha) of the senses (indriya)"
         },
         {
           "i": 9,
@@ -23255,7 +23610,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: sound (śabda) and the rest (ādi)"
         },
         {
           "i": 10,
@@ -23300,7 +23656,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw, carry"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 13,
@@ -23345,7 +23702,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa/bahuvrīhi: steadfast (niṣṭhā) in knowledge (jñāna)"
         },
         {
           "i": 16,
@@ -23392,7 +23750,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: from all (sarva) the sense-spheres (viṣaya)"
         },
         {
           "i": 19,
@@ -23412,7 +23771,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw, carry"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 20,
@@ -23441,7 +23801,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 22,
@@ -23462,7 +23823,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 23,
@@ -23490,7 +23852,8 @@ window.GITA_COMMENTARY = {
               "gloss": "meaning"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "bahuvrīhi: whose meaning (artha) has been stated (ukta)"
         },
         {
           "i": 25,
@@ -23585,7 +23948,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "upalaksana"
+          "glossaryKey": "upalaksana",
+          "compound": "tatpuruṣa: indicated (upalakṣita) by [their] objects (viṣaya)"
         },
         {
           "i": 3,
@@ -23606,7 +23970,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: denoted (vācya) by the word (śabda) 'objects' (viṣaya)"
         },
         {
           "i": 4,
@@ -23635,7 +24000,8 @@ window.GITA_COMMENTARY = {
               "gloss": "taking-in/food"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "karaka": "sambandha (gen.: from whom objects turn away)"
         },
         {
           "i": 6,
@@ -23656,7 +24022,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "bahuvrīhi: he whose objects (viṣaya) are not being drawn in (anāhriyamāṇa)"
         },
         {
           "i": 7,
@@ -23696,7 +24063,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√sthā"
         },
         {
           "i": 10,
@@ -23740,7 +24108,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√vṛt"
         },
         {
           "i": 13,
@@ -23791,7 +24160,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "indeclinable (adverbial)",
-          "glossaryKey": "rasa"
+          "glossaryKey": "rasa",
+          "compound": "avyayībhāva: excepting (varjam) the relish (rasa)"
         },
         {
           "i": 16,
@@ -23817,7 +24187,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "root": "√rañj"
         },
         {
           "i": 18,
@@ -23874,7 +24245,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive (causative)"
+          "morph": "absolutive (causative)",
+          "root": "√vṛj"
         },
         {
           "i": 22,
@@ -23891,7 +24263,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: the word (śabda) 'rasa'"
         },
         {
           "i": 23,
@@ -23924,7 +24297,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√sidh"
         },
         {
           "i": 25,
@@ -23941,7 +24315,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "rasa"
+          "glossaryKey": "rasa",
+          "compound": "tatpuruṣa (instr.): by one's own (sva) relish (rasa)"
         },
         {
           "i": 26,
@@ -23961,7 +24336,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vṛt"
         },
         {
           "i": 27,
@@ -23978,7 +24354,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "rasa"
+          "glossaryKey": "rasa",
+          "compound": "taddhita: possessing relish (rasa), a relisher"
         },
         {
           "i": 28,
@@ -23995,7 +24372,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "rasa"
+          "glossaryKey": "rasa",
+          "compound": "tatpuruṣa: a knower (jña) of relish (rasa)"
         },
         {
           "i": 29,
@@ -24077,7 +24455,8 @@ window.GITA_COMMENTARY = {
               "gloss": "nature/form"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: whose form (rūpa) is coloring (rañjana)"
         },
         {
           "i": 35,
@@ -24142,7 +24521,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "paramartha-satya"
+          "glossaryKey": "paramartha-satya",
+          "compound": "karmadhāraya: the truth (tattva) [that is] the highest reality (paramārtha)"
         },
         {
           "i": 40,
@@ -24171,7 +24551,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√dṛś"
         },
         {
           "i": 42,
@@ -24191,7 +24572,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√labh"
         },
         {
           "i": 43,
@@ -24255,7 +24637,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√vṛt"
         },
         {
           "i": 48,
@@ -24271,7 +24654,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 49,
@@ -24304,7 +24688,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: the cognition (vijñāna) of objects (viṣaya)"
         },
         {
           "i": 51,
@@ -24320,7 +24705,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to come about"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√pad"
         },
         {
           "i": 52,
@@ -24393,7 +24779,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter",
-          "glossaryKey": "darsana"
+          "glossaryKey": "darsana",
+          "compound": "karmadhāraya: right (samyak) vision (darśana)"
         },
         {
           "i": 57,
@@ -24422,7 +24809,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to cut"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√chid"
         },
         {
           "i": 59,
@@ -24455,7 +24843,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "darsana"
+          "glossaryKey": "darsana",
+          "compound": "bahuvrīhi: whose nature (ātmikā) is right vision (samyag-darśana)"
         },
         {
           "i": 61,
@@ -24468,7 +24857,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 62,
@@ -24500,7 +24890,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter (gerundive)"
+          "morph": "nominative singular neuter (gerundive)",
+          "root": "√kṛ"
         },
         {
           "i": 64,
@@ -24533,7 +24924,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "abhipraya"
+          "glossaryKey": "abhipraya",
+          "root": "√i"
         }
       ],
       "english": "{0:Although} the {4:senses} — {3:denoted by the word ‘objects’}, that is, {2:indicated by their objects} (the {1:objects}) — {12:turn away}, even for {5:the abstinent} ({6:one whose objects are not being drawn in}), even for {10:a fool} {9:established} {7:in harsh} {8:austerity}, {13:of the embodied one} {14:possessed of a body} — yet {15:‘leaving out the relish’}: {16:relish} is {17:rāga (the pull of attraction and attachment)} {18:toward objects}, {19:which}; {20:that} {21:leaving aside}. {22:The word “relish”} {24:is well known} {23:in the sense of rāga} — {26:“proceeding} {25:by his own relish”}, {27:“the relisher}, {28:the connoisseur”}, {29:and} {30:so on are seen}. {31:That} {33:relish} {32:too}, {34:of the nature of coloring}, {35:subtle}, {36:of this} {37:ascetic}, {41:on seeing} — {42:on apprehending} — {38:the Supreme}, {39:the truth of the highest reality}, {40:Brahman}, {47:abiding} {43:as ‘I} {44:verily} {45:That’} {46:—}, {48:turns away}; the {50:cognition of objects} {51:becomes} {49:seedless}, {52:that is} {53:the meaning}. {54:Not}, {55:in the absence of} {56:right vision}, is there {58:the cutting off} {57:of the relish}. {59:Therefore} {62:the steadiness} {61:of the insight} {60:whose nature is right vision} {63:should be made} {64:—} {65:this is the import}.",
@@ -24606,7 +24998,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√muh"
         },
         {
           "i": 2,
@@ -24638,7 +25031,8 @@ window.GITA_COMMENTARY = {
               "gloss": "force/reason"
             }
           ],
-          "morph": "ablative singular masculine"
+          "morph": "ablative singular masculine",
+          "compound": "tatpuruṣa: by the force (vaśa) of disease (roga) and the like (ādi)"
         },
         {
           "i": 4,
@@ -24700,7 +25094,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be/become"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 8,
@@ -24753,7 +25148,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 12,
@@ -24774,7 +25170,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 13,
@@ -24802,7 +25199,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 15,
@@ -24826,7 +25224,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 17,
@@ -24930,7 +25329,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√hṛ"
         },
         {
           "i": 24,
@@ -24968,7 +25368,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "dehin"
+          "glossaryKey": "dehin",
+          "compound": "bahuvrīhi: possessing (vat) the conceit (abhimāna) of the body (deha)"
         },
         {
           "i": 26,
@@ -24984,7 +25385,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√muh"
         },
         {
           "i": 27,
@@ -25028,7 +25430,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ascetic"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "karmadhāraya: an ascetic (tapasvin) [hard] as wood (kāṣṭha)"
         },
         {
           "i": 30,
@@ -25070,7 +25473,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: sound (śabda) and the rest (ādi)"
         },
         {
           "i": 33,
@@ -25090,7 +25494,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√vṛt"
         },
         {
           "i": 34,
@@ -25140,7 +25545,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "rasa"
+          "glossaryKey": "rasa",
+          "compound": "karmadhāraya: the thirst (tṛṣṇā) that is relish (rasa)"
         },
         {
           "i": 37,
@@ -25172,7 +25578,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√vṛj"
         },
         {
           "i": 39,
@@ -25217,7 +25624,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√vṛt"
         },
         {
           "i": 42,
@@ -25234,7 +25642,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "bahuvrīhi: having that (tad) as its object (viṣaya)"
         },
         {
           "i": 43,
@@ -25291,7 +25700,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 47,
@@ -25356,7 +25766,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "bahuvrīhi: he by whom wisdom (prajñā) is settled (sthita)"
         },
         {
           "i": 52,
@@ -25385,7 +25796,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "purusa"
+          "glossaryKey": "purusa",
+          "compound": "tatpuruṣa: the goal (artha) of man (puruṣa)"
         },
         {
           "i": 54,
@@ -25401,7 +25813,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√dṛś"
         },
         {
           "i": 55,
@@ -25449,7 +25862,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 1st singular"
+          "morph": "present indicative, 1st singular",
+          "root": "√as"
         },
         {
           "i": 59,
@@ -25482,7 +25896,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "gerund (absolutive)",
-          "glossaryKey": "saksatkara"
+          "glossaryKey": "saksatkara",
+          "root": "√kṛ"
         },
         {
           "i": 61,
@@ -25498,7 +25913,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√sthā"
         },
         {
           "i": 62,
@@ -25544,7 +25960,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: passion (rāga) for petty (kṣudra) pleasure (sukha)"
         },
         {
           "i": 65,
@@ -25572,7 +25989,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 67,
@@ -25589,7 +26007,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: from the word (śabda) 'api'"
         },
         {
           "i": 68,
@@ -25710,7 +26129,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√khyā"
         },
         {
           "i": 77,
@@ -25759,7 +26179,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: the turning-away (nivṛtti) of the object-with-passion (sa-rāga-viṣaya)"
         },
         {
           "i": 80,
@@ -25780,7 +26201,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "tatpuruṣa: the mark (lakṣaṇa) of the sthita-prajña"
         },
         {
           "i": 81,
@@ -25820,7 +26242,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "root": "√muh"
         },
         {
           "i": 84,
@@ -25844,7 +26267,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√car"
         },
         {
           "i": 85,
@@ -25941,7 +26365,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: right vision (samyag-darśana) of the Supreme Self (paramātman)"
         },
         {
           "i": 91,
@@ -25966,7 +26391,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: the rooting-out (uccheda) of the object-with-passion (sa-rāga-viṣaya)"
         },
         {
           "i": 92,
@@ -26007,7 +26433,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: which roots out (ucchedikā) the object-with-passion (sa-rāga-viṣaya)"
         },
         {
           "i": 94,
@@ -26028,7 +26455,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "darsana"
+          "glossaryKey": "darsana",
+          "compound": "bahuvrīhi: whose nature (ātmikā) is right vision (samyag-darśana)"
         },
         {
           "i": 95,
@@ -26045,7 +26473,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 96,
@@ -26109,7 +26538,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "optative 3rd singular (causative)"
+          "morph": "optative 3rd singular (causative)",
+          "root": "√pad"
         },
         {
           "i": 100,
@@ -26146,7 +26576,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "abhipraya"
+          "glossaryKey": "abhipraya",
+          "root": "√i"
         }
       ],
       "english": "{0:But surely} {2:even} {1:in a fool}, {3:by reason of disease and the like}, there is {6:a withdrawal} {5:of the senses} {4:from objects} {7:—} {8:that being so}, {9:how} {14:was it said} that {10:his} {11:insight} {12:stands firm} {13:?} {15:To this} {16:He says} {17:‘viṣayāḥ’} {18:—}. {19:Of the abstinent} — one who, {20:by the senses}, {23:does not take in} {22:objects} {21:by the senses} — {24:of the embodied one} {25:possessed of the conceit of the body}, {27:even} {26:of a fool}, {28:a sick man}, {30:or} {29:one of wooden austerity}, {31:the objects}, {32:sound and the rest}, {33:turn away}; {34:but} {35:‘leaving out the relish’} — {36:the thirst that is relish}, {37:that} {38:leaving aside}. {39:For the ignorant} {40:the objects} {41:turn away}, {44:but} {43:the rāga (the pull of attraction and attachment)} {42:toward them} {45:does not} {46:turn away} {47:—} that is {48:the meaning}. {50:But} {49:for this} {51:sthita-prajña}, who, {54:having seen} {52:the supreme} {53:human goal} and {60:directly realized} {55:‘That} {56:very} thing {57:am I’}, {58:abides}, {62:the relish} {63:too}, {65:even} {64:the rāga toward petty pleasure}, {66:turns away}. {67:From ‘api’ (too)}, {68:the objects} {69:also}. {70:And so} {71:it} has {76:been explained} under {72:‘yāvān} {73:artha’} {74:and} {75:so on}. {77:Thus} {78:and} {79:the turning-away of object-along-with-rāga} is {80:the mark of the sthita-prajña}, {81:so} {82:there is no} {84:over-extension} {83:to the fool} {85:—} that is {86:the meaning}. {87:Since} {88:without} {90:right vision of the Supreme Self} {89:there is no} {91:rooting-out of object-along-with-rāga}, {92:therefore} one should, {97:with great} {98:effort}, {99:bring about} {96:the steadiness} {95:of the insight} {94:that is right vision} and {93:that roots out object-along-with-rāga} {100:—} this is {101:the import}.",
@@ -26247,7 +26678,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "vrtti"
+          "glossaryKey": "vrtti",
+          "compound": "tatpuruṣa: non- (a) engagement (pravṛtti)"
         },
         {
           "i": 5,
@@ -26293,7 +26725,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√bhū"
         },
         {
           "i": 8,
@@ -26305,7 +26738,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be able, to deserve"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√arh"
         },
         {
           "i": 9,
@@ -26345,7 +26779,8 @@ window.GITA_COMMENTARY = {
               "gloss": "devoted, intent on"
             }
           ],
-          "morph": "genitive plural masculine"
+          "morph": "genitive plural masculine",
+          "compound": "tatpuruṣa/bahuvrīhi: devoted to (para) fasting (upavāsa)"
         },
         {
           "i": 12,
@@ -26432,7 +26867,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 18,
@@ -26503,7 +26939,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√hṛ"
         },
         {
           "i": 23,
@@ -26519,7 +26956,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√grah"
         },
         {
           "i": 24,
@@ -26535,7 +26973,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry, take"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√hṛ"
         },
         {
           "i": 25,
@@ -26581,7 +27020,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: the grasping (grahaṇa) of objects (viṣaya)"
         },
         {
           "i": 28,
@@ -26601,7 +27041,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine (present participle)"
+          "morph": "genitive singular masculine (present participle)",
+          "root": "√kṛ"
         },
         {
           "i": 29,
@@ -26639,7 +27080,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "dehin"
+          "glossaryKey": "dehin",
+          "compound": "bahuvrīhi: possessing (in) the conceit (abhimāna) of the body (deha)"
         },
         {
           "i": 31,
@@ -26689,7 +27131,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular",
-          "glossaryKey": "trsna"
+          "glossaryKey": "trsna",
+          "root": "√laṣ"
         },
         {
           "i": 34,
@@ -26746,7 +27189,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 38,
@@ -26818,7 +27262,8 @@ window.GITA_COMMENTARY = {
               "gloss": "devoted, intent on"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "tatpuruṣa/bahuvrīhi: devoted to (para) fasting (upavāsa)"
         },
         {
           "i": 43,
@@ -26859,7 +27304,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√vṛt"
         },
         {
           "i": 46,
@@ -26875,7 +27321,8 @@ window.GITA_COMMENTARY = {
               "gloss": "scorched, tormented"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "tatpuruṣa: scorched (santapta) by hunger (kṣudh)"
         },
         {
           "i": 47,
@@ -26904,7 +27351,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: the absence (abhāva) of expectation (apekṣā) of sound (śabda), touch (sparśa) and the rest (ādi)"
         },
         {
           "i": 48,
@@ -26953,7 +27401,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "rasa"
+          "glossaryKey": "rasa",
+          "compound": "tatpuruṣa: the expectation (apekṣā) of relish (rasa)"
         },
         {
           "i": 51,
@@ -26993,7 +27442,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 54,
@@ -27132,7 +27582,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "compound": "karmadhāraya: this (etad) mark (lakṣaṇa)"
         },
         {
           "i": 3,
@@ -27149,7 +27600,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 4,
@@ -27193,7 +27645,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 7,
@@ -27217,7 +27670,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 9,
@@ -27279,7 +27733,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: the absence (abhāva) of the capacity (sāmarthya) to enjoy (bhoga) objects (viṣaya)"
         },
         {
           "i": 12,
@@ -27303,7 +27758,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 14,
@@ -27328,7 +27784,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: the absence (abhāva) of craving (ākāṅkṣā) for other (itara) objects (viṣaya)"
         },
         {
           "i": 15,
@@ -27361,7 +27818,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "rasa"
+          "glossaryKey": "rasa",
+          "compound": "tatpuruṣa: the craving (ākāṅkṣā) for relish (rasa) and the like (ādi)"
         },
         {
           "i": 17,
@@ -27389,7 +27847,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 19,
@@ -27430,7 +27889,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter",
-          "glossaryKey": "aparoksa-jnana"
+          "glossaryKey": "aparoksa-jnana",
+          "compound": "karmadhāraya: direct (aparokṣa) knowledge (jñāna)"
         },
         {
           "i": 22,
@@ -27458,7 +27918,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 24,
@@ -27482,7 +27943,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 26,
@@ -27532,7 +27994,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to conquer"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√ji"
         },
         {
           "i": 30,
@@ -27592,7 +28055,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√vṛj"
         },
         {
           "i": 34,
@@ -27664,7 +28128,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to grow"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛdh"
         },
         {
           "i": 40,
@@ -27717,7 +28182,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "rasa"
+          "glossaryKey": "rasa",
+          "compound": "tatpuruṣa: the word (śabda) 'rasa'"
         },
         {
           "i": 44,
@@ -27738,7 +28204,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: because it denotes (vācin) passion (rāga)"
         },
         {
           "i": 45,
@@ -27798,7 +28265,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√yat"
         },
         {
           "i": 1,
@@ -27830,7 +28298,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√kṛ"
         },
         {
           "i": 3,
@@ -27952,7 +28421,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "instrumental singular neuter (past participle)"
+          "morph": "instrumental singular neuter (past participle)",
+          "root": "√dhā"
         },
         {
           "i": 12,
@@ -27981,7 +28451,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "karaka": "kartṛ (agent of haranti)"
         },
         {
           "i": 14,
@@ -28001,7 +28472,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent adj.)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√math"
         },
         {
           "i": 15,
@@ -28017,7 +28489,8 @@ window.GITA_COMMENTARY = {
               "gloss": "nature, habit"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "compound": "bahuvrīhi: whose nature (śīla) is to churn (pramathana)"
         },
         {
           "i": 16,
@@ -28034,7 +28507,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: facing toward (abhimukha) objects (viṣaya)"
         },
         {
           "i": 17,
@@ -28075,7 +28549,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be agitated"
             }
           ],
-          "morph": "present indicative, 3rd plural (causative)"
+          "morph": "present indicative, 3rd plural (causative)",
+          "root": "√kṣubh"
         },
         {
           "i": 20,
@@ -28091,7 +28566,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to make"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√kṛ"
         },
         {
           "i": 21,
@@ -28111,7 +28587,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√kṛ"
         },
         {
           "i": 22,
@@ -28135,7 +28612,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry, seize"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 24,
@@ -28171,7 +28649,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√sah"
         },
         {
           "i": 26,
@@ -28215,7 +28694,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√dṛś"
         },
         {
           "i": 29,
@@ -28236,7 +28716,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "compound": "tatpuruṣa: joined with (yukta) discriminative (viveka) knowledge (vijñāna)"
         },
         {
           "i": 30,
@@ -28249,7 +28730,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "karaka": "karma (object carried off by the senses)"
         }
       ],
       "english": "{0:Of one striving} — {1:making effort} — {3:for}, {4:since}; {5:O son of Kuntī}, {6:of a man}, {9:even} {7:of one who is wise}, {8:discerning} — {12:the construction} joining {11:across the intervening words}. {13:The senses}, {14:called “turbulent”}, {15:of churning nature} — {17:for} they {19:agitate}, {20:throw into turmoil}, {16:a man turned toward objects}, {21:and having thrown him into turmoil} {23:they carry off} {24:by force}, {25:forcibly}, {26:openly} {27:indeed}, {30:the mind} {28:of one who sees}, {29:the mind endowed with discriminative knowledge}.",
@@ -28308,7 +28790,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "compound": "tatpuruṣa: in the firmness (sthairya) of insight (prajñā)"
         },
         {
           "i": 2,
@@ -28329,7 +28812,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: restraint (nigraha) of the outer (bāhya) senses (indriya)"
         },
         {
           "i": 3,
@@ -28346,7 +28830,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "tatpuruṣa: restraint (nigraha) of the mind (manas)"
         },
         {
           "i": 4,
@@ -28391,7 +28876,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "karana"
+          "glossaryKey": "karana",
+          "root": "√kṛ"
         },
         {
           "i": 7,
@@ -28433,7 +28919,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "compound": "tatpuruṣa: the witnessing (darśana) of the destruction (nāśa) of insight (prajñā)"
         },
         {
           "i": 9,
@@ -28461,7 +28948,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√vac"
         },
         {
           "i": 11,
@@ -28486,7 +28974,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: in the absence (abhāva) of restraint (nigraha) of the outer (bāhya) senses (indriya)"
         },
         {
           "i": 12,
@@ -28522,7 +29011,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 15,
@@ -28538,7 +29028,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√yat"
         },
         {
           "i": 16,
@@ -28594,7 +29085,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√yat"
         },
         {
           "i": 20,
@@ -28643,7 +29135,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "bahuvrīhi: consisting of (ātmaka) the seeing (darśana) of the fault (doṣa) in objects (viṣaya)"
         },
         {
           "i": 23,
@@ -28675,7 +29168,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 25,
@@ -28703,7 +29197,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(grammatical marker)"
             }
           ],
-          "morph": "genitive singular (cited grammatical form)"
+          "morph": "genitive singular (cited grammatical form)",
+          "root": "√cakṣ"
         },
         {
           "i": 27,
@@ -28724,7 +29219,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter",
-          "glossaryKey": "karana"
+          "glossaryKey": "karana",
+          "compound": "tatpuruṣa: the making (karaṇa) of [it] a ṅ-marked (ṅit) root"
         },
         {
           "i": 28,
@@ -28804,7 +29300,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "root": "√jñā"
         },
         {
           "i": 33,
@@ -28844,7 +29341,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√rudh"
         },
         {
           "i": 35,
@@ -28873,7 +29371,8 @@ window.GITA_COMMENTARY = {
               "gloss": "possessing discrimination"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "karmadhāraya: exceedingly (atyanta) discerning (vivekin)"
         },
         {
           "i": 37,
@@ -28959,7 +29458,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√kṛ"
         },
         {
           "i": 43,
@@ -28996,7 +29496,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry/take"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 46,
@@ -29016,7 +29517,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 47,
@@ -29036,7 +29538,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd plural (causative)"
+          "morph": "present indicative, 3rd plural (causative)",
+          "root": "√āp"
         },
         {
           "i": 48,
@@ -29068,7 +29571,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√rudh"
         },
         {
           "i": 50,
@@ -29088,7 +29592,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "root": "√vic"
         },
         {
           "i": 51,
@@ -29156,7 +29661,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 56,
@@ -29176,7 +29682,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√math"
         },
         {
           "i": 57,
@@ -29236,7 +29743,8 @@ window.GITA_COMMENTARY = {
               "gloss": "capable"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "compound": "bahuvrīhi: capable (kṣama) of crushing (upamardana) discrimination (viveka)"
         },
         {
           "i": 60,
@@ -29280,7 +29788,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√sah"
         },
         {
           "i": 63,
@@ -29308,7 +29817,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to see (paśyati base)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√dṛś"
         },
         {
           "i": 65,
@@ -29365,7 +29875,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "root": "√vic"
         },
         {
           "i": 69,
@@ -29393,7 +29904,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "root": "√rakṣ"
         },
         {
           "i": 71,
@@ -29429,7 +29941,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "compound": "tatpuruṣa: from [their] being all-churning (sarva-pramāthin)"
         },
         {
           "i": 73,
@@ -29475,7 +29988,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "compound": "tatpuruṣa: the insight (prajñā) born of (ja) discrimination (viveka)"
         },
         {
           "i": 76,
@@ -29495,7 +30009,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√viś"
         },
         {
           "i": 77,
@@ -29544,7 +30059,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "gerund (absolutive, causative)"
+          "morph": "gerund (absolutive, causative)",
+          "root": "√cyu"
         },
         {
           "i": 80,
@@ -29569,7 +30085,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular neuter",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: by [the mind's] being possessed (āviṣṭa) of their own (sva) object (viṣaya)"
         },
         {
           "i": 81,
@@ -29581,7 +30098,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry/take"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 82,
@@ -29622,7 +30140,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: the word (śabda) 'hi'"
         },
         {
           "i": 85,
@@ -29642,7 +30161,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√sidh"
         },
         {
           "i": 86,
@@ -29658,7 +30178,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular (causative)"
+          "morph": "present indicative, 3rd singular (causative)",
+          "root": "√dyut"
         },
         {
           "i": 87,
@@ -29678,7 +30199,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√sidh"
         },
         {
           "i": 88,
@@ -29758,7 +30280,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "root": "√math"
         },
         {
           "i": 94,
@@ -29826,7 +30349,8 @@ window.GITA_COMMENTARY = {
               "gloss": "guardian"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "compound": "tatpuruṣa: the guardian (rakṣaka) of wealth (dhana)"
         },
         {
           "i": 99,
@@ -29858,7 +30382,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√bhū"
         },
         {
           "i": 101,
@@ -29886,7 +30411,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive dual masculine (genitive absolute)"
+          "morph": "genitive dual masculine (genitive absolute)",
+          "root": "√dṛś"
         },
         {
           "i": 103,
@@ -29922,7 +30448,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry/take"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 106,
@@ -29976,7 +30503,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa (loc.): in the proximity (sannidhāna) of objects (viṣaya)"
         },
         {
           "i": 110,
@@ -30001,7 +30529,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry/take"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 112,
@@ -30070,7 +30599,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: restraint (saṃyama) of the senses (indriya)"
         },
         {
           "i": 1,
@@ -30103,7 +30633,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "tatpuruṣa-derived abstract: the state of being one whose wisdom (prajñā) is settled (sthita)"
         },
         {
           "i": 3,
@@ -30131,7 +30662,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be, become"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 5,
@@ -30159,7 +30691,8 @@ window.GITA_COMMENTARY = {
               "gloss": "state, condition"
             }
           ],
-          "morph": "locative singular"
+          "morph": "locative singular",
+          "compound": "tatpuruṣa (loc.): in the state (avasthā) of the aspirant (sādhaka)"
         },
         {
           "i": 7,
@@ -30215,7 +30748,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 11,
@@ -30239,7 +30773,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 13,
@@ -30255,7 +30790,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√yat"
         },
         {
           "i": 14,
@@ -30319,7 +30855,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√yat"
         },
         {
           "i": 19,
@@ -30336,7 +30873,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "adverb (accusative)",
-          "glossaryKey": "moksa"
+          "glossaryKey": "moksa",
+          "compound": "avyayībhāva: for the sake (artha) of liberation (mokṣa)"
         },
         {
           "i": 20,
@@ -30356,7 +30894,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√yat"
         },
         {
           "i": 21,
@@ -30410,7 +30949,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "karaka": "karma (object carried off)"
         },
         {
           "i": 25,
@@ -30423,7 +30963,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "karaka": "kartṛ (agent of haranti)"
         },
         {
           "i": 26,
@@ -30463,7 +31004,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry, seize"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 29,
@@ -30495,7 +31037,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent adj.)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√math"
         },
         {
           "i": 31,
@@ -30511,7 +31054,8 @@ window.GITA_COMMENTARY = {
               "gloss": "nature, habit"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "compound": "bahuvrīhi: whose nature (śīla) is to churn (pramathana)"
         },
         {
           "i": 32,
@@ -30527,7 +31071,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√kṣubh"
         },
         {
           "i": 33,
@@ -30611,7 +31156,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "aparoksa-jnana"
+          "glossaryKey": "aparoksa-jnana",
+          "compound": "bahuvrīhi: a knower (jñānin) devoid of (rahita) direct (aparokṣa) knowledge (jñāna)"
         },
         {
           "i": 1,
@@ -30643,7 +31189,8 @@ window.GITA_COMMENTARY = {
               "gloss": "possessing"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "bahuvrīhi: possessing (vat) [only] ordinary (sādhāraṇa) effort (yatna)"
         },
         {
           "i": 3,
@@ -30680,7 +31227,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 6,
@@ -30722,7 +31270,8 @@ window.GITA_COMMENTARY = {
               "gloss": "conceited"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "bahuvrīhi: possessing (in) the conceit (abhimāna) of the body (śarīra)"
         },
         {
           "i": 9,
@@ -30778,7 +31327,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(adj.)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√math"
         },
         {
           "i": 13,
@@ -30794,7 +31344,8 @@ window.GITA_COMMENTARY = {
               "gloss": "nature"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "compound": "bahuvrīhi: whose nature (śīla) is to churn (pramathana)"
         },
         {
           "i": 14,
@@ -30878,7 +31429,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√yam"
         },
         {
           "i": 3,
@@ -30894,7 +31446,8 @@ window.GITA_COMMENTARY = {
               "gloss": "restraining"
             }
           ],
-          "morph": "accusative singular"
+          "morph": "accusative singular",
+          "root": "√yam"
         },
         {
           "i": 4,
@@ -30911,7 +31464,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular",
-          "glossaryKey": "karana"
+          "glossaryKey": "karana",
+          "root": "√kṛ",
+          "compound": "tatpuruṣa: the making (karaṇa) of [them] subject (vaśī), i.e. subjugation"
         },
         {
           "i": 5,
@@ -30927,7 +31482,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√kṛ"
         },
         {
           "i": 6,
@@ -30944,7 +31500,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 7,
@@ -30961,7 +31518,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "samadhi"
+          "glossaryKey": "samadhi",
+          "root": "√dhā"
         },
         {
           "i": 8,
@@ -30977,7 +31535,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 9,
@@ -30993,7 +31552,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg. middle)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 10,
@@ -31009,7 +31569,8 @@ window.GITA_COMMENTARY = {
               "gloss": "supreme, intent on"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: he to whom I (mat) am supreme (para), i.e. intent on Me"
         },
         {
           "i": 11,
@@ -31054,7 +31615,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "karmadhāraya/tatpuruṣa: the inmost (pratyak) Self (ātman) of all (sarva)"
         },
         {
           "i": 14,
@@ -31182,7 +31744,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg. middle)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 24,
@@ -31238,7 +31801,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gen. sg.)"
             }
           ],
-          "morph": "genitive singular (participle)"
+          "morph": "genitive singular (participle)",
+          "root": "√ās"
         },
         {
           "i": 28,
@@ -31250,7 +31814,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ascetic, restrainer"
             }
           ],
-          "morph": "genitive singular"
+          "morph": "genitive singular",
+          "root": "√yat"
         },
         {
           "i": 29,
@@ -31262,7 +31827,8 @@ window.GITA_COMMENTARY = {
               "gloss": "control, power"
             }
           ],
-          "morph": "locative singular"
+          "morph": "locative singular",
+          "karaka": "adhikaraṇa (locus: under whose control)"
         },
         {
           "i": 30,
@@ -31299,7 +31865,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "karaka": "kartṛ (the senses that abide under control)"
         },
         {
           "i": 33,
@@ -31315,7 +31882,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√vṛt"
         },
         {
           "i": 34,
@@ -31331,7 +31899,8 @@ window.GITA_COMMENTARY = {
               "gloss": "strength, force"
             }
           ],
-          "morph": "ablative singular"
+          "morph": "ablative singular",
+          "compound": "tatpuruṣa: by the force (bala) of practice (abhyāsa)"
         },
         {
           "i": 35,
@@ -31360,7 +31929,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 37,
@@ -31381,7 +31951,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine (past participle)",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         }
       ],
       "english": "{2:Restraining} {1:all} {0:of them}, having made {3:the restraint}, {4:the subjugation}, {6:‘absorbed’}, {7:composed}, {8:being} {9:let him sit} {10:‘intent on Me’} — {11:‘I}, {12:Vāsudeva}, {13:the inmost Self of all}, {14:am the Supreme} {15:of whom}: {16:he} is {17:‘intent on Me’}, {20:‘I am} {18:no} {19:other} {21:than That}’ — {23:so let him sit}, {24:that is} {25:the meaning}. {26:Thus} for such {27:a seated} {28:ascetic}, in whose {29:control} {30:indeed} {32:the senses} {33:stand} {34:by force of practice}, {35:his} {36:insight} {37:stands firm}.",
@@ -31479,7 +32050,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 5,
@@ -31519,7 +32091,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 8,
@@ -31605,7 +32178,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa: being (bhūta) the instruments (sādhana) of knowledge (jñāna) and action (karman)"
         },
         {
           "i": 14,
@@ -31625,7 +32199,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√yam"
         },
         {
           "i": 15,
@@ -31645,7 +32220,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√kṛ"
         },
         {
           "i": 16,
@@ -31662,7 +32238,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 17,
@@ -31686,7 +32263,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√dhā"
         },
         {
           "i": 18,
@@ -31711,7 +32289,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "root": "√grah",
+          "compound": "bahuvrīhi: he whose mind (manas) is restrained (nigṛhīta)"
         },
         {
           "i": 19,
@@ -31727,7 +32307,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 20,
@@ -31743,7 +32324,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg. middle)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 21,
@@ -31775,7 +32357,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√sthā"
         },
         {
           "i": 23,
@@ -31795,7 +32378,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "genitive plural masculine"
+          "morph": "genitive plural masculine",
+          "root": "√math"
         },
         {
           "i": 24,
@@ -31828,7 +32412,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "karana"
+          "glossaryKey": "karana",
+          "root": "√kṛ",
+          "compound": "tatpuruṣa: the making (karaṇa) of [the senses] subject (vaśī) to oneself (sva)"
         },
         {
           "i": 26,
@@ -31880,7 +32466,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 30,
@@ -31896,7 +32483,8 @@ window.GITA_COMMENTARY = {
               "gloss": "intent on/devoted to"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: he to whom I (mat) am supreme (para), i.e. intent on Me"
         },
         {
           "i": 31,
@@ -31937,7 +32525,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: the Self (ātman) of all (sarva)"
         },
         {
           "i": 34,
@@ -31993,7 +32582,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√kṛṣ"
         },
         {
           "i": 38,
@@ -32017,7 +32607,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular masculine (gerundive)"
+          "morph": "nominative singular masculine (gerundive)",
+          "root": "√dā"
         },
         {
           "i": 39,
@@ -32057,7 +32648,8 @@ window.GITA_COMMENTARY = {
               "gloss": "intent on"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: he to whom I (mat) am supreme (para)"
         },
         {
           "i": 42,
@@ -32078,7 +32670,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "bhakti"
+          "glossaryKey": "bhakti",
+          "compound": "karmadhāraya: an exclusive (ekānta) devotee (bhakta) of Mine (mat)"
         },
         {
           "i": 43,
@@ -32142,7 +32735,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 48,
@@ -32203,7 +32797,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present passive)"
             }
           ],
-          "morph": "present indicative (passive), 3rd singular"
+          "morph": "present indicative (passive), 3rd singular",
+          "root": "√vid"
         },
         {
           "i": 52,
@@ -32315,7 +32910,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√śri"
         },
         {
           "i": 60,
@@ -32347,7 +32943,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present passive)"
             }
           ],
-          "morph": "present indicative (passive), 3rd plural"
+          "morph": "present indicative (passive), 3rd plural",
+          "root": "√grah"
         },
         {
           "i": 62,
@@ -32363,7 +32960,8 @@ window.GITA_COMMENTARY = {
               "gloss": "sheltered/dependent on"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: sheltered (āśrita) by the king (rāja)"
         },
         {
           "i": 63,
@@ -32403,7 +33001,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√jñā"
         },
         {
           "i": 66,
@@ -32471,7 +33070,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√bhū"
         },
         {
           "i": 71,
@@ -32525,7 +33125,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "antaryamin"
+          "glossaryKey": "antaryamin",
+          "compound": "tatpuruṣa/bahuvrīhi: the inner controller (antaryāmin) of all (sarva)"
         },
         {
           "i": 75,
@@ -32545,7 +33146,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√śri"
         },
         {
           "i": 76,
@@ -32589,7 +33191,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√duṣ"
         },
         {
           "i": 79,
@@ -32622,7 +33225,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative plural neuter (gerundive)"
+          "morph": "nominative plural neuter (gerundive)",
+          "root": "√grah"
         },
         {
           "i": 81,
@@ -32663,7 +33267,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "bhagavan"
+          "glossaryKey": "bhagavan",
+          "compound": "tatpuruṣa: sheltered (āśrita) by the Lord (bhagavat)"
         },
         {
           "i": 84,
@@ -32703,7 +33308,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√man"
         },
         {
           "i": 87,
@@ -32759,7 +33365,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√bhū"
         },
         {
           "i": 91,
@@ -32788,7 +33395,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "bhava"
+          "glossaryKey": "bhava",
+          "root": "√bhū"
         },
         {
           "i": 93,
@@ -32829,7 +33437,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "bhakti"
+          "glossaryKey": "bhakti",
+          "compound": "tatpuruṣa: devotion (bhakti) to the Lord (bhagavat)"
         },
         {
           "i": 96,
@@ -32849,7 +33458,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "tatpuruṣa: the great (mahā) power (prabhāva)"
         },
         {
           "i": 97,
@@ -32881,7 +33491,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "instrumental singular masculine"
+          "morph": "instrumental singular masculine",
+          "root": "√stṛ"
         },
         {
           "i": 99,
@@ -32917,7 +33528,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(future)"
             }
           ],
-          "morph": "future indicative, 1st plural"
+          "morph": "future indicative, 1st plural",
+          "root": "√khyā"
         },
         {
           "i": 101,
@@ -32938,7 +33550,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: in the mastery (vaśī-kāra) of the senses (indriya)"
         },
         {
           "i": 102,
@@ -32966,7 +33579,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 104,
@@ -33059,7 +33673,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "bahuvrīhi: he by whom the senses (indriya) are mastered (vaśīkṛta)"
         },
         {
           "i": 111,
@@ -33163,7 +33778,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√prach"
         },
         {
           "i": 118,
@@ -33191,7 +33807,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 120,
@@ -33207,7 +33824,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         }
       ],
       "english": "{0:If it be so}, {1:then} {2:there} {3:what} is {4:the remedy}? {6:To that} {7:He says} {8:‘tāni’} {9:—}. {14:Restraining}, {15:mastering}, {10:all those} {12:—} {11:senses}, {13:the instruments of knowledge and action}, {16:‘absorbed’}, {17:composed}, {18:of restrained mind}, {19:being}, {20:let him sit}, {22:abide} {21:free of activity}. {24:How} is {25:the self-mastery} {23:of the churning ones} (to be had) {26:?} {27:if} — {28:to that} {29:He says} {30:‘mat-paraḥ’}: {32:I}, {33:the Self of all}, {34:Vāsudeva} {35:alone}, am {36:the Supreme}, {37:the most excellent}, {38:the one to be sought}, {39:of whom} — {40:he} is {41:‘intent on Me’}, {42:the one-pointed devotee of Mine}, {43:that is} {44:the meaning}. {45:As} {46:and} {47:stated}, {48:‘For} {49:the devotees of Vāsudeva} there is {52:never} {50:anything inauspicious} {51:found}.’ {54:Just as} {55:for} {56:in the world}, {60:robbers}, {59:having taken refuge with} {57:a strong} {58:king}, {61:are subdued} — {66:and} {65:knowing} {63:‘this one} is {62:sheltered by the king’} {64:—} {67:they themselves} {68:very} {70:become} {69:subject to him} — {71:so} {72:too}, {75:having taken refuge with} {73:the Lord}, {74:the inner controller of all}, {76:by His} {77:very} power are {78:the wicked} {79:senses} {80:to be subdued}; {81:and} {82:again}, {86:thinking} {84:‘this one} is {83:sheltered by the Lord’} {85:—}, {87:they} {90:become} {88:subject to him} {89:indeed} {91:—} this is {92:the import}. {93:And how} {94:—} {96:the great power} {95:of devotion to the Lord} {97:—} {98:at length} {99:later} {100:we will explain}. {103:He states} {102:the fruit} {101:of the senses’ mastery} by {104:’vaśe} {105:hi’} {106:—} {107:clear}. {108:Thus}, {109:by this}, {111:being} {110:with senses mastered} {112:seated}, {116:—} {118:the answer} {117:of the question} {114:‘how} {115:does he sit’} {113:—} {119:stated} {120:comes to be}.",
@@ -33329,7 +33947,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 6,
@@ -33346,7 +33965,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 7,
@@ -33391,7 +34011,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√yam"
         },
         {
           "i": 10,
@@ -33407,7 +34028,8 @@ window.GITA_COMMENTARY = {
               "gloss": "intent on, devoted to"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: he to whom I (mad) am supreme (para), i.e. intent on Me"
         },
         {
           "i": 11,
@@ -33439,7 +34061,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg. middle)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 13,
@@ -33479,7 +34102,8 @@ window.GITA_COMMENTARY = {
               "gloss": "abiding in, conforming to"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "compound": "bahuvrīhi/tatpuruṣa: conforming to (vartin) [his] control (vaśa)"
         },
         {
           "i": 16,
@@ -33544,7 +34168,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg. middle)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 21,
@@ -33589,7 +34214,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "bahuvrīhi: he by whom the senses (indriya) are mastered (kṛta)"
         },
         {
           "i": 24,
@@ -33605,7 +34231,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 25,
@@ -33621,7 +34248,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg. middle)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 26,
@@ -33761,7 +34389,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 7,
@@ -33805,7 +34434,8 @@ window.GITA_COMMENTARY = {
               "gloss": "possessing"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "bahuvrīhi: possessing (vat) much (bahu) effort (yatna)"
         },
         {
           "i": 10,
@@ -33821,7 +34451,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative plural neuter, gerundive"
+          "morph": "nominative plural neuter, gerundive",
+          "root": "√śak"
         },
         {
           "i": 11,
@@ -33861,7 +34492,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 14,
@@ -33902,7 +34534,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 17,
@@ -33931,7 +34564,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "bahuvrīhi/tatpuruṣa: joined (yukta) with the mind (manas)"
         },
         {
           "i": 19,
@@ -33999,7 +34633,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√kṛṣ"
         },
         {
           "i": 24,
@@ -34039,7 +34674,8 @@ window.GITA_COMMENTARY = {
               "gloss": "supreme/intent"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: he to whom I (mad) am supreme (para)"
         },
         {
           "i": 27,
@@ -34067,7 +34703,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 29,
@@ -34151,7 +34788,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√dhyai"
         },
         {
           "i": 1,
@@ -34167,7 +34805,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√cint"
         },
         {
           "i": 2,
@@ -34197,7 +34836,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: sound (śabda) and the rest (ādi)"
         },
         {
           "i": 4,
@@ -34214,7 +34854,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural masculine",
-          "glossaryKey": "visesa"
+          "glossaryKey": "visesa",
+          "compound": "tatpuruṣa: the particular (viśeṣa) objects (viṣaya)"
         },
         {
           "i": 5,
@@ -34234,7 +34875,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√loc"
         },
         {
           "i": 6,
@@ -34259,7 +34901,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular",
-          "glossaryKey": "purusa"
+          "glossaryKey": "purusa",
+          "karaka": "sambandha (gen.: in whom attachment arises)"
         },
         {
           "i": 8,
@@ -34276,7 +34919,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "root": "√gam"
         },
         {
           "i": 9,
@@ -34293,7 +34937,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sanga",
+          "root": "√sañj"
         },
         {
           "i": 10,
@@ -34350,7 +34995,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 14,
@@ -34370,7 +35016,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√pad"
         },
         {
           "i": 15,
@@ -34415,7 +35062,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 18,
@@ -34435,7 +35083,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√pad"
         },
         {
           "i": 19,
@@ -34539,7 +35188,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 26,
@@ -34568,7 +35218,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 28,
@@ -34622,7 +35273,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "karya"
+          "glossaryKey": "karya",
+          "compound": "bahuvrīhi: whose sphere (viṣaya) is the to-be-done (kārya) and the not-to-be-done (akārya)"
         },
         {
           "i": 31,
@@ -34638,7 +35290,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√krudh"
         },
         {
           "i": 32,
@@ -34727,7 +35380,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√kruś"
         },
         {
           "i": 38,
@@ -34761,7 +35415,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "compound": "tatpuruṣa: confusion (vibhrama) of memory (smṛti)"
         },
         {
           "i": 40,
@@ -34794,7 +35449,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "vasana"
+          "glossaryKey": "vasana",
+          "compound": "tatpuruṣa: generated (janita) by the impression (saṃskāra) laid down (āhita) by the instruction (upadeśa) of scripture (śāstra) and teacher (ācārya)"
         },
         {
           "i": 41,
@@ -34823,7 +35479,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 43,
@@ -34852,7 +35509,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to fall, lapse"
             }
           ],
-          "morph": "nominative singular"
+          "morph": "nominative singular",
+          "root": "√bhraṃś"
         },
         {
           "i": 45,
@@ -34877,7 +35535,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "compound": "tatpuruṣa (loc.): when the occasion (nimitta) for memory's (smṛti) arising (utpatti) is present (prāpti)"
         },
         {
           "i": 46,
@@ -34922,7 +35581,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "compound": "tatpuruṣa: from the lapse (bhraṃśa) of memory (smṛti)"
         },
         {
           "i": 49,
@@ -34939,7 +35599,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "compound": "tatpuruṣa: the ruin (nāśa) of the intellect (buddhi)"
         },
         {
           "i": 50,
@@ -34985,7 +35646,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "karya"
+          "glossaryKey": "karya",
+          "compound": "tatpuruṣa: the unfitness (ayogyatā) for the discrimination (viveka) whose sphere (viṣaya) is the to-be-done (kārya) and not-to-be-done (akārya)"
         },
         {
           "i": 52,
@@ -35002,7 +35664,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular",
-          "glossaryKey": "antahkarana"
+          "glossaryKey": "antahkarana",
+          "compound": "tatpuruṣa: the inner (antar) instrument (karaṇa)"
         },
         {
           "i": 53,
@@ -35043,7 +35706,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 56,
@@ -35088,7 +35752,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√naś"
         },
         {
           "i": 59,
@@ -35211,7 +35876,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "karya"
+          "glossaryKey": "karya",
+          "compound": "bahuvrīhi: fit (yogya) for the discrimination (viveka) of the to-be-done (kārya) and not-to-be-done (akārya)"
         },
         {
           "i": 67,
@@ -35243,7 +35909,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√naś"
         },
         {
           "i": 69,
@@ -35284,7 +35951,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 72,
@@ -35370,7 +36038,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√naś"
         },
         {
           "i": 78,
@@ -35391,7 +36060,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "purusa"
+          "glossaryKey": "purusa",
+          "compound": "tatpuruṣa: unfit (ayogya) for the human goal (puruṣa-artha)"
         },
         {
           "i": 79,
@@ -35407,7 +36077,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 80,
@@ -35495,7 +36166,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "bahuvrīhi: he whose outer (bāhya) senses (indriya) are restrained (nigṛhīta)"
         },
         {
           "i": 1,
@@ -35524,7 +36196,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: sound (śabda) and the rest (ādi)"
         },
         {
           "i": 3,
@@ -35553,7 +36226,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√dhyai"
         },
         {
           "i": 5,
@@ -35606,7 +36280,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√cint"
         },
         {
           "i": 9,
@@ -35664,7 +36339,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "root": "√sañj"
         },
         {
           "i": 13,
@@ -35685,7 +36361,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sanga",
+          "root": "√sañj"
         },
         {
           "i": 14,
@@ -35729,7 +36406,8 @@ window.GITA_COMMENTARY = {
               "gloss": "cause"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "compound": "tatpuruṣa: a cause (hetu) of pleasure (sukha)"
         },
         {
           "i": 17,
@@ -35786,7 +36464,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "adhyasa"
+          "glossaryKey": "adhyasa",
+          "compound": "bahuvrīhi: marked by (lakṣaṇa) the superimposition (adhyāsa) of attractiveness (śobhana)"
         },
         {
           "i": 21,
@@ -35803,7 +36482,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visesa"
+          "glossaryKey": "visesa",
+          "compound": "tatpuruṣa: a particular (viśeṣa) fondness (prīti)"
         },
         {
           "i": 22,
@@ -35823,7 +36503,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 23,
@@ -35844,7 +36525,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "root": "√sañj"
         },
         {
           "i": 24,
@@ -35869,7 +36551,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "bahuvrīhi: marked by (lakṣaṇa) the cognition (jñāna) of [their] being a cause of pleasure (sukha-hetutva)"
         },
         {
           "i": 25,
@@ -35889,7 +36572,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 26,
@@ -35906,7 +36590,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "kama"
+          "glossaryKey": "kama",
+          "root": "√kam"
         },
         {
           "i": 27,
@@ -35946,7 +36631,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(imperative 3rd pl.)"
             }
           ],
-          "morph": "imperative 3rd plural"
+          "morph": "imperative 3rd plural",
+          "root": "√bhū"
         },
         {
           "i": 30,
@@ -35975,7 +36661,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visesa"
+          "glossaryKey": "visesa",
+          "compound": "tatpuruṣa: a particular (viśeṣa) thirst (tṛṣṇā)"
         },
         {
           "i": 32,
@@ -36008,7 +36695,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "kama"
+          "glossaryKey": "kama",
+          "root": "√kam"
         },
         {
           "i": 34,
@@ -36044,7 +36732,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive present participle)"
             }
           ],
-          "morph": "ablative singular masculine (passive participle)"
+          "morph": "ablative singular masculine (passive participle)",
+          "root": "√han"
         },
         {
           "i": 36,
@@ -36065,7 +36754,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "bahuvrīhi: whose object (viṣaya) is the thwarting (pratighāta) of it (tad)"
         },
         {
           "i": 37,
@@ -36082,7 +36772,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "krodha"
+          "glossaryKey": "krodha",
+          "root": "√krudh"
         },
         {
           "i": 38,
@@ -36103,7 +36794,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: whose nature (ātman) is flaring up (abhijvalana)"
         },
         {
           "i": 39,
@@ -36123,7 +36815,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 40,
@@ -36140,7 +36833,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "krodha"
+          "glossaryKey": "krodha",
+          "root": "√krudh"
         },
         {
           "i": 41,
@@ -36156,7 +36850,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 42,
@@ -36177,7 +36872,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "moha"
+          "glossaryKey": "moha",
+          "root": "√muh"
         },
         {
           "i": 43,
@@ -36206,7 +36902,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "karya"
+          "glossaryKey": "karya",
+          "compound": "bahuvrīhi: of the form (rūpa) of the absence (abhāva) of discrimination (viveka) of the to-be-done (kārya) and not-to-be-done (akārya)"
         },
         {
           "i": 44,
@@ -36226,7 +36923,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "ablative singular masculine"
+          "morph": "ablative singular masculine",
+          "root": "√muh"
         },
         {
           "i": 45,
@@ -36243,7 +36941,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "compound": "tatpuruṣa: confusion (vibhrama) of memory (smṛti)"
         },
         {
           "i": 46,
@@ -36260,7 +36959,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "root": "√smṛ"
         },
         {
           "i": 47,
@@ -36288,7 +36988,8 @@ window.GITA_COMMENTARY = {
               "gloss": "bringing-to-mind/investigation"
             }
           ],
-          "morph": "genitive singular neuter"
+          "morph": "genitive singular neuter",
+          "compound": "tatpuruṣa: the bringing-to-mind (anusandhāna) of the meaning (artha) taught (upadiṣṭa) by scripture (śāstra) and teacher (ācārya)"
         },
         {
           "i": 48,
@@ -36308,7 +37009,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√bhram"
         },
         {
           "i": 49,
@@ -36328,7 +37030,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√cal"
         },
         {
           "i": 50,
@@ -36348,7 +37051,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√bhraṃś"
         },
         {
           "i": 51,
@@ -36393,7 +37097,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "compound": "tatpuruṣa: from the lapse (bhraṃśa) of memory (smṛti)"
         },
         {
           "i": 54,
@@ -36410,7 +37115,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "root": "√budh"
         },
         {
           "i": 55,
@@ -36435,7 +37141,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "vrtti"
+          "glossaryKey": "vrtti",
+          "compound": "bahuvrīhi/tatpuruṣa: the mental modification (mano-vṛtti) whose form (ākāra) is the unity-with-the-Self (aikātmya)"
         },
         {
           "i": 56,
@@ -36451,7 +37158,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√naś"
         },
         {
           "i": 57,
@@ -36476,7 +37184,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "bhavana"
+          "glossaryKey": "bhavana",
+          "compound": "tatpuruṣa: by the fault (doṣa) of the accumulation (upacaya) of contrary (viparīta) conviction (bhāvanā)"
         },
         {
           "i": 58,
@@ -36496,7 +37205,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "ablative singular masculine"
+          "morph": "ablative singular masculine",
+          "root": "√bandh"
         },
         {
           "i": 59,
@@ -36540,7 +37250,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, fem.)"
             }
           ],
-          "morph": "genitive singular feminine"
+          "morph": "genitive singular feminine",
+          "root": "√pad"
         },
         {
           "i": 61,
@@ -36592,7 +37303,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√lī"
         },
         {
           "i": 64,
@@ -36609,7 +37321,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "compound": "tatpuruṣa: from the ruin (nāśa) of the intellect (buddhi)"
         },
         {
           "i": 65,
@@ -36629,7 +37342,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√naś"
         },
         {
           "i": 66,
@@ -36669,7 +37383,8 @@ window.GITA_COMMENTARY = {
               "gloss": "being/become"
             }
           ],
-          "morph": "genitive singular feminine"
+          "morph": "genitive singular feminine",
+          "compound": "bahuvrīhi: which has become (bhūta) the fruit (phala)"
         },
         {
           "i": 69,
@@ -36686,7 +37401,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "root": "√budh"
         },
         {
           "i": 70,
@@ -36706,7 +37422,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "ablative singular masculine"
+          "morph": "ablative singular masculine",
+          "root": "√lup"
         },
         {
           "i": 71,
@@ -36726,7 +37443,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√naś"
         },
         {
           "i": 72,
@@ -36751,7 +37469,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "purusa"
+          "glossaryKey": "purusa",
+          "compound": "tatpuruṣa: unfit (ayogya) for every (sarva) human goal (puruṣa-artha)"
         },
         {
           "i": 73,
@@ -36767,7 +37486,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 74,
@@ -36812,7 +37532,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "purusa"
+          "glossaryKey": "purusa",
+          "compound": "tatpuruṣa: unfit (ayogya) for the human goal (puruṣa-artha)"
         },
         {
           "i": 77,
@@ -36828,7 +37549,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√jan"
         },
         {
           "i": 78,
@@ -36856,7 +37578,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√mṛ"
         },
         {
           "i": 80,
@@ -36916,7 +37639,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. passive)"
             }
           ],
-          "morph": "present indicative (passive), 3rd singular"
+          "morph": "present indicative (passive), 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 84,
@@ -36948,7 +37672,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√naś"
         },
         {
           "i": 86,
@@ -36976,7 +37701,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 88,
@@ -37034,7 +37760,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: in the absence (abhāva) of restraint (nigraha)"
         },
         {
           "i": 92,
@@ -37063,7 +37790,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "bahuvrīhi: he whose outer (bāhya) senses (indriya) are restrained (nigṛhīta)"
         },
         {
           "i": 93,
@@ -37095,7 +37823,8 @@ window.GITA_COMMENTARY = {
               "gloss": "attainment"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: the attainment (prāpti) of supreme (parama) calamity (anartha)"
         },
         {
           "i": 95,
@@ -37176,7 +37905,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√grah"
         },
         {
           "i": 100,
@@ -37213,7 +37943,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "abhipraya"
+          "glossaryKey": "abhipraya",
+          "root": "√i"
         },
         {
           "i": 102,
@@ -37241,7 +37972,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√yuj"
         },
         {
           "i": 104,
@@ -37257,7 +37989,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 105,
@@ -37301,7 +38034,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "gerund (absolutive)"
+          "morph": "gerund (absolutive)",
+          "root": "√yam"
         },
         {
           "i": 108,
@@ -37318,7 +38052,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 109,
@@ -37334,7 +38069,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg. middle)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√ās"
         },
         {
           "i": 110,
@@ -37396,7 +38132,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: in the absence (abhāva) of restraint (saṃyama) of the outer (bāhya) senses (indriya)"
         },
         {
           "i": 1,
@@ -37424,7 +38161,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√vac"
         },
         {
           "i": 3,
@@ -37445,7 +38183,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "tatpuruṣa: in the absence (abhāva) of restraint (saṃyama) of the mind (manas)"
         },
         {
           "i": 4,
@@ -37473,7 +38212,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 6,
@@ -37489,7 +38229,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√dhyai"
         },
         {
           "i": 7,
@@ -37530,7 +38271,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular",
-          "glossaryKey": "guna"
+          "glossaryKey": "guna",
+          "compound": "tatpuruṣa (instr.): with the notion (buddhi) of [their] being good (guṇa)"
         },
         {
           "i": 10,
@@ -37559,7 +38301,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√dhyai"
         },
         {
           "i": 12,
@@ -37600,7 +38343,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sanga",
+          "root": "√gam"
         },
         {
           "i": 15,
@@ -37617,7 +38361,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sanga",
+          "root": "√sañj"
         },
         {
           "i": 16,
@@ -37633,7 +38378,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 17,
@@ -37650,7 +38396,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular feminine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sanga",
+          "root": "√sañj"
         },
         {
           "i": 18,
@@ -37715,7 +38462,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 23,
@@ -37801,7 +38549,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 29,
@@ -37905,7 +38654,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "karya"
+          "glossaryKey": "karya",
+          "compound": "tatpuruṣa: the absence (abhāva) of discrimination (viveka) of the to-be-done (kārya) and not-to-be-done (akārya)"
         },
         {
           "i": 36,
@@ -37942,7 +38692,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular feminine",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "compound": "tatpuruṣa: the memory (smṛti) taught (upadiṣṭa) by scripture (śāstra) and teacher (ācārya)"
         },
         {
           "i": 38,
@@ -37979,7 +38730,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√cal"
         },
         {
           "i": 40,
@@ -37991,7 +38743,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to fall, lapse"
             }
           ],
-          "morph": "nominative singular"
+          "morph": "nominative singular",
+          "root": "√bhraṃś"
         },
         {
           "i": 41,
@@ -38056,7 +38809,8 @@ window.GITA_COMMENTARY = {
               "gloss": "and the rest"
             }
           ],
-          "morph": "locative plural"
+          "morph": "locative plural",
+          "compound": "tatpuruṣa: in trees (vṛkṣa) and the like (ādi)"
         },
         {
           "i": 46,
@@ -38088,7 +38842,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular"
+          "morph": "nominative singular",
+          "root": "√bhū"
         },
         {
           "i": 48,
@@ -38120,7 +38875,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√naś"
         },
         {
           "i": 50,
@@ -38136,7 +38892,8 @@ window.GITA_COMMENTARY = {
               "gloss": "equal, like"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: equal (tulya) to the dead (mṛta)"
         },
         {
           "i": 51,
@@ -38152,7 +38909,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         }
       ],
       "english": "{2:Having stated} {1:the fault} {0:in the absence of restraint of the outer senses}, {5:He states} {4:the fault} {3:in the absence of restraint of the mind} {7:with} {6:‘dhyāyataḥ’} {8:in two verses}. {11:Of a man meditating on} {10:objects} {9:with the notion of their being good}, {13:toward those} {14:‘attachment’}, {15:clinging}, {16:there is}{12:,} {18:and} {17:by that clinging} {20:greater} {21:desire} {19:toward them} {22:comes to be}. {24:And} {23:from kāma (desire as craving for objects)}, {26:when thwarted} {25:by someone}, {27:krodha (the blaze of anger)} {28:comes}. {30:Moreover}, {32:} {31:‘krodhāt’}: {33:from krodha} {34:delusion}, {35:the absence of discrimination of what should and should not be done}. {36:Thence} there is {38:confusion}, {39:a wandering}, {40:a lapse} {37:of the memory taught by scripture and teacher}. {41:Thence} {44:the ruin} {42:of the understanding}, {43:of consciousness} — {47:an eclipse}, {46:as} {45:in trees and the like}. {48:Thence} {49:‘he perishes’}, {51:becomes} {50:equal to the dead}.",
@@ -38217,7 +38975,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: the cause (kāraṇa) of the faults (doṣa) beginning with passion (rāga-ādi)"
         },
         {
           "i": 1,
@@ -38233,7 +38992,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 2,
@@ -38253,7 +39013,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "dative singular masculine"
+          "morph": "dative singular masculine",
+          "root": "√hṛ"
         },
         {
           "i": 3,
@@ -38270,7 +39031,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular neuter",
-          "glossaryKey": "sloka"
+          "glossaryKey": "sloka",
+          "compound": "tatpuruṣa: by the pair (dvaya) of verses (śloka)"
         },
         {
           "i": 4,
@@ -38287,7 +39049,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "moha"
+          "glossaryKey": "moha",
+          "root": "√muh"
         },
         {
           "i": 5,
@@ -38308,7 +39071,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "karya"
+          "glossaryKey": "karya",
+          "compound": "tatpuruṣa: the desire (icchā) for what ought not to be done (akārya)"
         },
         {
           "i": 6,
@@ -38353,7 +39117,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "moha"
+          "glossaryKey": "moha",
+          "compound": "tatpuruṣa: the meaning (artha) of the word (śabda) 'moha'"
         },
         {
           "i": 9,
@@ -38369,7 +39134,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vac"
         },
         {
           "i": 10,
@@ -38419,7 +39185,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "compound": "bahuvrīhi: marked by (lakṣaṇa) unrighteousness (adharma)"
         },
         {
           "i": 13,
@@ -38480,7 +39247,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative plural neuter",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "compound": "karmadhāraya: sinful (pāpa) deeds (karman)"
         },
         {
           "i": 17,
@@ -38545,7 +39313,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "moha"
+          "glossaryKey": "moha",
+          "root": "√muh"
         },
         {
           "i": 22,
@@ -38561,7 +39330,8 @@ window.GITA_COMMENTARY = {
               "gloss": "desiring"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: the desiring (kāmitā) of unrighteousness (adharma)"
         },
         {
           "i": 23,
@@ -38590,7 +39360,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "compound": "tatpuruṣa: confusion (vibhrama) of memory (smṛti)"
         },
         {
           "i": 25,
@@ -38615,7 +39386,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "compound": "tatpuruṣa: the loss (nāśa) of the memory (smṛti) of prohibitions (pratiṣedha) and the like (ādi)"
         },
         {
           "i": 26,
@@ -38632,7 +39404,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "compound": "tatpuruṣa: the ruin (nāśa) of the intellect (buddhi)"
         },
         {
           "i": 27,
@@ -38670,7 +39443,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "compound": "tatpuruṣa: the ruin (nāśa) of the discernment (buddhi) of faults (doṣa)"
         },
         {
           "i": 29,
@@ -38690,7 +39464,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√naś"
         },
         {
           "i": 30,
@@ -38710,7 +39485,8 @@ window.GITA_COMMENTARY = {
               "gloss": "calamity"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "compound": "tatpuruṣa: the calamity (anartha) of hell (naraka) and the like (ādi)"
         },
         {
           "i": 31,
@@ -38730,7 +39506,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 32,
@@ -38770,7 +39547,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 35,
@@ -38786,7 +39564,8 @@ window.GITA_COMMENTARY = {
               "gloss": "desiring"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "bahuvrīhi: he who desires (kāmin) unrighteousness (adharma)"
         },
         {
           "i": 36,
@@ -38831,7 +39610,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jan"
         },
         {
           "i": 39,
@@ -38919,7 +39699,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√pad"
         },
         {
           "i": 45,
@@ -39009,7 +39790,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "bahuvrīhi/tatpuruṣa: parted from (viyukta) passion-and-aversion (rāga-dveṣa); inner rāga-dveṣa is dvandva"
         },
         {
           "i": 1,
@@ -39076,7 +39858,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative dual",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "dvandva: passion (rāga) and aversion (dveṣa)"
         },
         {
           "i": 6,
@@ -39092,7 +39875,8 @@ window.GITA_COMMENTARY = {
               "gloss": "going before, preceded by"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "bahuvrīhi: preceded by (puraḥsara) them (tad)"
         },
         {
           "i": 7,
@@ -39191,7 +39975,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(desiderative agent)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√muc"
         },
         {
           "i": 14,
@@ -39207,7 +39992,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 15,
@@ -39264,7 +40050,8 @@ window.GITA_COMMENTARY = {
               "gloss": "and the rest"
             }
           ],
-          "morph": "instrumental plural"
+          "morph": "instrumental plural",
+          "compound": "tatpuruṣa: hearing (śrotra) and the rest (ādi)"
         },
         {
           "i": 19,
@@ -39277,7 +40064,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "karaka": "karaṇa (instrument: ranges by means of the senses)"
         },
         {
           "i": 20,
@@ -39290,7 +40078,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "karaka": "karma (object ranged over)"
         },
         {
           "i": 21,
@@ -39322,7 +40111,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√car"
         },
         {
           "i": 23,
@@ -39342,7 +40132,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(middle participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√labh"
         },
         {
           "i": 24,
@@ -39359,7 +40150,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: subject (vaśya) to the Self (ātman)"
         },
         {
           "i": 25,
@@ -39459,7 +40251,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: he whose self (ātman, i.e. inner organ) is governable (vidheya)"
         },
         {
           "i": 32,
@@ -39495,7 +40288,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√dhā"
         },
         {
           "i": 34,
@@ -39578,7 +40372,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular",
-          "glossaryKey": "prasada"
+          "glossaryKey": "prasada",
+          "karaka": "karma (object attained: serenity)"
         },
         {
           "i": 40,
@@ -39598,7 +40393,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 41,
@@ -39720,7 +40516,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "locative singular neuter (locative absolute)"
+          "morph": "locative singular neuter (locative absolute)",
+          "root": "√grah"
         },
         {
           "i": 2,
@@ -39757,7 +40554,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine (locative absolute)",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: in the absence (abhāva) of restraint (nigraha) of the outer (bāhya) senses (indriya)"
         },
         {
           "i": 4,
@@ -39821,7 +40619,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√vad"
         },
         {
           "i": 9,
@@ -39849,7 +40648,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√vraj"
         },
         {
           "i": 11,
@@ -39901,7 +40701,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 15,
@@ -39946,7 +40747,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine (bahuvrīhi)",
-          "glossaryKey": "citta"
+          "glossaryKey": "citta",
+          "compound": "bahuvrīhi: he whose mind (cetas) is uncomposed (asamāhita)"
         },
         {
           "i": 18,
@@ -39995,7 +40797,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√grah"
         },
         {
           "i": 21,
@@ -40028,7 +40831,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular neuter",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: tainted (duṣṭa) by passion (rāga) and aversion (dveṣa)"
         },
         {
           "i": 23,
@@ -40070,7 +40874,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√cint"
         },
         {
           "i": 26,
@@ -40087,7 +40892,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "purusa"
+          "glossaryKey": "purusa",
+          "compound": "tatpuruṣa: from the human goal (puruṣa-artha)"
         },
         {
           "i": 27,
@@ -40103,7 +40909,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√bhraṃś"
         },
         {
           "i": 28,
@@ -40119,7 +40926,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 29,
@@ -40136,7 +40944,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine (bahuvrīhi)",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: he whose self (ātman) is governable (vidheya)"
         },
         {
           "i": 30,
@@ -40165,7 +40974,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: the word (śabda) 'tu'"
         },
         {
           "i": 32,
@@ -40193,7 +41003,8 @@ window.GITA_COMMENTARY = {
               "gloss": "meaning"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: the sense (artha) of distinction (vyatireka)"
         },
         {
           "i": 34,
@@ -40210,7 +41021,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine (bahuvrīhi)",
-          "glossaryKey": "antahkarana"
+          "glossaryKey": "antahkarana",
+          "compound": "bahuvrīhi: he whose inner organ (antaḥkaraṇa) is mastered (vaśīkṛta)"
         },
         {
           "i": 35,
@@ -40239,7 +41051,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural neuter",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: subject (vaśya) to the Self (ātman)"
         },
         {
           "i": 37,
@@ -40256,7 +41069,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural neuter",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "tatpuruṣa: subject (adhīna) to the mind (manas)"
         },
         {
           "i": 38,
@@ -40333,7 +41147,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "instrumental plural neuter"
+          "morph": "instrumental plural neuter",
+          "root": "√yuj"
         },
         {
           "i": 43,
@@ -40353,7 +41168,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "instrumental plural neuter"
+          "morph": "instrumental plural neuter",
+          "root": "√rah"
         },
         {
           "i": 44,
@@ -40366,7 +41182,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural neuter",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "karaka": "karaṇa (instrument: ranges by means of the senses)"
         },
         {
           "i": 45,
@@ -40452,7 +41269,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√car"
         },
         {
           "i": 50,
@@ -40472,7 +41290,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present middle participle)"
             }
           ],
-          "morph": "nominative singular masculine (present middle participle)"
+          "morph": "nominative singular masculine (present middle participle)",
+          "root": "√labh"
         },
         {
           "i": 51,
@@ -40580,7 +41399,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 57,
@@ -40601,7 +41421,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: prompted (prayukta) by passion (rāga) and aversion (dveṣa)"
         },
         {
           "i": 58,
@@ -40634,7 +41455,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract noun suffix)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "compound": "tatpuruṣa: the condition of being (tā) a cause (hetu) of fault (doṣa)"
         },
         {
           "i": 60,
@@ -40654,7 +41476,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present middle)"
             }
           ],
-          "morph": "present indicative, 3rd plural (middle)"
+          "morph": "present indicative, 3rd plural (middle)",
+          "root": "√pad"
         },
         {
           "i": 61,
@@ -40798,7 +41621,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "vrtti"
+          "glossaryKey": "vrtti",
+          "compound": "tatpuruṣa: the engagement (pravṛtti) of the senses (indriya) dependent (adhīna) on them (tad)"
         },
         {
           "i": 71,
@@ -40847,7 +41671,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: the apprehension (upalambha) of objects (viṣaya)"
         },
         {
           "i": 74,
@@ -40891,7 +41716,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vah"
         },
         {
           "i": 77,
@@ -40931,7 +41757,8 @@ window.GITA_COMMENTARY = {
               "gloss": "obstruction/hindrance"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: obstruction (vyāghāta) to purity (śuddhi)"
         },
         {
           "i": 80,
@@ -40998,7 +41825,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "root": "√smṛ"
         },
         {
           "i": 85,
@@ -41043,7 +41871,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "karana"
+          "glossaryKey": "karana",
+          "compound": "tatpuruṣa: a cause (kāraṇa) of calamity (anartha)"
         },
         {
           "i": 88,
@@ -41087,7 +41916,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√bhuj"
         },
         {
           "i": 91,
@@ -41144,7 +41974,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present middle participle)"
             }
           ],
-          "morph": "nominative singular masculine (present middle participle)"
+          "morph": "nominative singular masculine (present middle participle)",
+          "root": "√bhuj"
         },
         {
           "i": 95,
@@ -41204,7 +42035,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg. middle)"
             }
           ],
-          "morph": "optative 3rd singular (middle)"
+          "morph": "optative 3rd singular (middle)",
+          "root": "√pad"
         },
         {
           "i": 99,
@@ -41232,7 +42064,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√śaṅk"
         },
         {
           "i": 101,
@@ -41252,7 +42085,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√as"
         },
         {
           "i": 102,
@@ -41314,7 +42148,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 106,
@@ -41366,7 +42201,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√vraj"
         },
         {
           "i": 110,
@@ -41418,7 +42254,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 114,
@@ -41434,7 +42271,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         }
       ],
       "english": "{8:Saying} that, when {0:the mind} {1:is restrained}, {2:but} there is {5:no} {6:fault} {4:even} {3:in the absence of restraint of the outer senses} — {7:that}, {14:He gives} {13:the answer} {12:to} ‘{9:how} {10:does he move}’ {15:in eight verses}. {16:He who}, {17:whose mind is uncomposed}, {18:he}, {20:even restraining} {21:—} {19:the outer senses}, {25:while pondering} {24:objects} {23:with a mind} {22:tainted by rāga (the pull of attraction and attachment) and dveṣa (the recoil of aversion)}, {27:falls} {28:becomes} {26:from the human goal}. {29:But the governable-self one} — {31:the word ‘tu’ (but)} {33:marks the difference} {32:from the former}: but {34:he whose inner organ is mastered}, {44:by senses} {36:that are under the Self} ({37:subject to the mind}, i.e. {38:self-controlled}), {39:—} {40:or} {43:that are freed} {42:separated} {41:of rāga and dveṣa}, {49:ranging over} {48:the non-prohibited} {46:objects}, {45:hearing and the rest}, {47:sound and the rest}, {50:apprehending} them, {56:attains} {51:serenity}, {52:the clearness} {54:the limpidity} {53:of the mind}, {55:its fitness for the direct realization of the Supreme Self}. {57:Senses prompted by rāga and dveṣa} {58:—} {60:become} {59:a cause of fault}; but {61:when the mind} {62:is in his control} {63:—} {64:there is no} {65:rāga and dveṣa}; {68:and} {67:in the absence} {66:of those two} {69:there is no} {70:engagement of the senses dependent on them}; and {73:the apprehension of objects}, {71:being unavoidable}, {76:brings} {74:no} {75:fault} — {78:so there is no} {79:obstruction to purity}, {80:that} {81:is the sense}. {82:By this} {100:the doubt} {101:is dispelled}: ‘{86:If} {85:even} {84:the mere remembering} {83:of objects} {86:be} {87:a cause of calamity}, {89:then} {88:all the more} {90:enjoyment}; {95:how}, then, {94:enjoying} {93:objects} {92:for the sake of living}, {97:does he} {98:not incur} {96:calamity}?’ {107:And} {110:by} ‘{105:he reaches} {104:objects} {103:with senses} {102:under his own control}’, {112:the answer} {108:to} ‘{108:how} {109:does he move}’ {114:comes} {113:to be stated}.",
@@ -41510,7 +42348,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "svabhava"
+          "glossaryKey": "svabhava",
+          "compound": "bahuvrīhi: whose nature (svabhāva) is inclined (pravaṇa) toward objects (viṣaya)"
         },
         {
           "i": 3,
@@ -41530,7 +42369,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√rudh"
         },
         {
           "i": 4,
@@ -41590,7 +42430,8 @@ window.GITA_COMMENTARY = {
               "gloss": "avoidance, averting"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa/bahuvrīhi: hard (dus) to avert (parihara)"
         },
         {
           "i": 8,
@@ -41623,7 +42464,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "tatpuruṣa-derived abstract: the state of being one whose wisdom (prajñā) is settled (sthita)"
         },
         {
           "i": 10,
@@ -41651,7 +42493,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 12,
@@ -41683,7 +42526,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√śaṅk"
         },
         {
           "i": 14,
@@ -41699,7 +42543,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 15,
@@ -41761,7 +42606,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: free of (rahita) passion (rāga) and aversion (dveṣa)"
         },
         {
           "i": 19,
@@ -41777,7 +42623,8 @@ window.GITA_COMMENTARY = {
               "gloss": "arrogance, pride"
             }
           ],
-          "morph": "instrumental plural"
+          "morph": "instrumental plural",
+          "compound": "bahuvrīhi: from whom arrogance (darpa) has departed (vigata)"
         },
         {
           "i": 20,
@@ -41819,7 +42666,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√car"
         },
         {
           "i": 23,
@@ -41839,7 +42687,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√bhuj"
         },
         {
           "i": 24,
@@ -41905,7 +42754,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 28,
@@ -41926,7 +42776,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "raga"
+          "glossaryKey": "raga",
+          "compound": "tatpuruṣa: the freedom from (rāhitya) passion (rāga) and aversion (dveṣa)"
         },
         {
           "i": 29,
@@ -41954,7 +42805,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 31,
@@ -42030,7 +42882,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "karaka": "karaṇa (instrument: ranges by means of the senses)"
         },
         {
           "i": 37,
@@ -42050,7 +42903,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√dhā"
         },
         {
           "i": 38,
@@ -42066,7 +42920,8 @@ window.GITA_COMMENTARY = {
               "gloss": "abiding in, conforming to"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi/tatpuruṣa: conforming to (vartin) [his] control (vaśa)"
         },
         {
           "i": 39,
@@ -42208,7 +43063,8 @@ window.GITA_COMMENTARY = {
               "gloss": "question"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "karmadhāraya: the fourth (caturtha) question (praśna)"
         },
         {
           "i": 50,
@@ -42266,7 +43122,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 54,
@@ -42306,7 +43163,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 57,
@@ -42322,7 +43180,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         }
       ],
       "english": "{0:But surely}, {4:since} {3:to check} {1:the senses}, {2:whose nature is to incline toward objects}, {4:is impossible}, {5:this} {6:fault} is {7:hard to avert} — {8:so} {10:how} {11:can there be} {9:the state of settled wisdom}? {12:Thus} {13:anticipating}, {14:He says}, {16:} {15:‘rāga-dveṣa’} {17:in two verses}. {20:By senses} {18:free of rāga (the pull of attraction and attachment) and dveṣa (the recoil of aversion)}, {19:devoid of arrogance}, {22:ranging} {21:over objects}, {23:enjoying} them, {24:he nonetheless} {27:attains} {25:serenity}, {26:peace}. {28:The freedom from rāga and dveṣa} {30:He states} {29:very} {32:} {31:‘ātma’}: {36:by senses} {35:under the control} {33:of the self}, {34:the mind}, {37:governable}, {38:subject to him}; {41:he whose} {39:self}, {40:the mind} {42:—}. {44:By} {43:this} {44:very thing} the answer to {48:this}, {47:—} {49:the fourth question}, {45:‘how} {46:does he move’} {54:—} {56:comes to be} {55:stated}: {53:he reaches} {52:objects} {51:with senses} {50:under his own control}{57:.}",
@@ -42393,7 +43252,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: the fruit (phala) of the conquest (jaya) of the senses (indriya)"
         },
         {
           "i": 1,
@@ -42409,7 +43269,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 2,
@@ -42468,7 +43329,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine, present participle",
-          "glossaryKey": "anu"
+          "glossaryKey": "anu",
+          "root": "√bhū"
         },
         {
           "i": 6,
@@ -42500,7 +43362,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular masculine, gerundive"
+          "morph": "nominative singular masculine, gerundive",
+          "root": "√dhā"
         },
         {
           "i": 8,
@@ -42555,7 +43418,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: he by whom the self (ātman) is conquered (jita)"
         },
         {
           "i": 12,
@@ -42600,7 +43464,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "prasada"
+          "glossaryKey": "prasada",
+          "root": "√sad"
         },
         {
           "i": 15,
@@ -42617,7 +43482,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "tatpuruṣa: the serenity (prasāda) of the mind (manas)"
         }
       ],
       "english": "He {1:states} {0:the fruit of the conquest of the senses} {2:by the following} {3:two verses}. He {10:whose} {8:self}, {9:the mind}, is {7:governable} {6:even while} {5:experiencing} {4:the objects} — {11:that is, one of conquered self}, {13:that is the meaning}. {14:‘Serenity’} is {15:the serenity of the mind}.",
@@ -43169,7 +44035,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "abstract (-tā) of the bahuvrīhi kṛta-kṛtya: he by whom the duty (kṛtya) has been done (kṛta)"
         },
         {
           "i": 32,
@@ -43294,7 +44161,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 39,
@@ -43699,7 +44567,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√hā"
         },
         {
           "i": 21,
@@ -43719,7 +44588,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√naś"
         },
         {
           "i": 22,
@@ -43763,7 +44633,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be born/arise"
             }
           ],
-          "morph": "present indicative, 3rd singular (middle)"
+          "morph": "present indicative, 3rd singular (middle)",
+          "root": "√jan"
         },
         {
           "i": 25,
@@ -43873,7 +44744,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "root": "√budh"
         },
         {
           "i": 33,
@@ -44341,7 +45213,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√rudh"
         }
       ],
       "english": "{3:It was said} ‘{1:he attains} {0:serenity}’; now {7:what} {8:comes to be} {6:when} {5:serenity exists} {10:is stated} with the word {11:“on serenity”}. {16:When there is} {14:serenity} {13:of the mind}, {15:of the form of limpidity}, {24:there arises} {22:for that} {23:ascetic} {20:the destruction}, {21:the cessation}, {17:of all sorrows} — {18:the personal and the rest}, {19:the play of ignorance}. {25:For}, {26:since}, {28:of the} {27:serene-minded} {28:ascetic}, {32:the understanding} {33:of the form of the unity of Brahman and Self} {29:quickly}, {30:swiftly}, {31:verily}, {34:comes to abide} {35:all} {36:around}, {37:abides}, {39:becomes} {38:firm}, {40:since the obstacle of contrary conviction and the like is absent}. {41:And thence}: {44:when} {43:serenity exists} there is {45:the standing-firm of the understanding}; {46:thence} {47:the cessation of the ignorance opposed to it}; {48:thence} {49:the destruction of all its effect, sorrow} — {52:even} {51:in this sequence}, {53:in serenity}, {56:the statement that it is a destroyer of all sorrow}, {55:for the sake of magnifying} {54:it}, {58:is no} {59:contradiction}.",
@@ -45307,7 +46180,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "bhavana"
+          "glossaryKey": "bhavana",
+          "root": "√bhū"
         },
         {
           "i": 17,
@@ -45396,7 +46270,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√bhū"
         },
         {
           "i": 23,
@@ -45437,7 +46312,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√kṛ"
         },
         {
           "i": 25,
@@ -45454,7 +46330,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 26,
@@ -45562,7 +46439,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular (adverbial)",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "root": "√tṛṣ",
+          "compound": "tatpuruṣa: thirst (tṛṣṇā) for the service (sevā) of objects (viṣaya)"
         },
         {
           "i": 33,
@@ -45926,7 +46805,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular (causative)"
+          "morph": "present indicative, 3rd singular (causative)",
+          "root": "√dṛh"
         },
         {
           "i": 5,
@@ -45950,7 +46830,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular (lemma cited)"
+          "morph": "present indicative, 3rd singular (lemma cited)",
+          "root": "√as"
         },
         {
           "i": 7,
@@ -46021,7 +46902,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "root": "√budh"
         },
         {
           "i": 11,
@@ -46123,7 +47005,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go/arise"
             }
           ],
-          "morph": "present indicative, 3rd singular (middle)"
+          "morph": "present indicative, 3rd singular (middle)",
+          "root": "√pad"
         },
         {
           "i": 17,
@@ -46389,7 +47272,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine (present participle)",
-          "glossaryKey": "bhavana"
+          "glossaryKey": "bhavana",
+          "root": "√bhū"
         },
         {
           "i": 33,
@@ -46419,7 +47303,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 35,
@@ -46713,7 +47598,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to bring about, establish"
             }
           ],
-          "morph": "present indicative, 3rd singular (causative)"
+          "morph": "present indicative, 3rd singular (causative)",
+          "root": "√pad"
         },
         {
           "i": 4,
@@ -46883,7 +47769,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 14,
@@ -46923,7 +47810,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to arise"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√pad"
         },
         {
           "i": 17,
@@ -47130,7 +48018,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√dhyai"
         },
         {
           "i": 32,
@@ -47222,7 +48111,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be, become"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 38,
@@ -47343,7 +48233,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine (present participle)"
+          "morph": "genitive singular masculine (present participle)",
+          "root": "√bhū"
         },
         {
           "i": 46,
@@ -47380,7 +48271,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine (present participle)"
+          "morph": "genitive singular masculine (present participle)",
+          "root": "√kṛ"
         },
         {
           "i": 48,
@@ -47397,7 +48289,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 49,
@@ -47600,7 +48493,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 3,
@@ -47674,7 +48568,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√yuj"
         },
         {
           "i": 8,
@@ -47762,7 +48657,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 14,
@@ -47786,7 +48682,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 16,
@@ -47830,7 +48727,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√pad"
         },
         {
           "i": 19,
@@ -47900,7 +48798,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 24,
@@ -47917,7 +48816,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "moksa"
+          "glossaryKey": "moksa",
+          "root": "√muc"
         },
         {
           "i": 25,
@@ -47934,7 +48834,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 26,
@@ -47951,7 +48852,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "moksa"
+          "glossaryKey": "moksa",
+          "root": "√muc"
         },
         {
           "i": 27,
@@ -47984,7 +48886,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "brahmanirvana"
+          "glossaryKey": "brahmanirvana",
+          "root": "√vā"
         },
         {
           "i": 29,
@@ -48016,7 +48919,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "root": "√dhā"
         }
       ],
       "english": "He {2:states} {1:the fault} {0:in the absence of serenity} {3:by the following two verses}. {5:For} {6:in the absence of serenity} there is {4:no} {7:composure}, no {8:restraint of the mind}; {10:and} {9:for the unsteadied one} there is {14:no} {11:understanding} — {12:right} {13:knowledge} — it {15:‘is not’}. He {18:establishes} {16:that very thing} {21:by ‘na cāyuktasya’}. {23:‘Peace’} is {24:liberation}, {30:by the statement} {25:‘peace}, {26:liberation}, {27:and} {28:nirvāṇa’}.",
@@ -48111,7 +49015,8 @@ window.GITA_COMMENTARY = {
               "gloss": "of those (present participle gen. pl.)"
             }
           ],
-          "morph": "present participle, genitive plural"
+          "morph": "present participle, genitive plural",
+          "root": "√car"
         },
         {
           "i": 4,
@@ -48128,7 +49033,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative plural",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "karmadhāraya (āmreḍita): 'each in its own (sva-sva) object'"
         },
         {
           "i": 5,
@@ -48148,7 +49054,8 @@ window.GITA_COMMENTARY = {
               "gloss": "of those (mid. participle gen. pl.)"
             }
           ],
-          "morph": "present middle participle, genitive plural"
+          "morph": "present middle participle, genitive plural",
+          "root": "√vṛt"
         },
         {
           "i": 6,
@@ -48194,7 +49101,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present passive, 3rd singular",
-          "glossaryKey": "anu"
+          "glossaryKey": "anu",
+          "root": "√dhā"
         },
         {
           "i": 9,
@@ -48215,7 +49123,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present middle, 3rd singular",
-          "glossaryKey": "anu"
+          "glossaryKey": "anu",
+          "root": "√vṛt"
         },
         {
           "i": 10,
@@ -48245,10 +49154,15 @@ window.GITA_COMMENTARY = {
             {
               "form": "vikalpana",
               "gloss": "imagining, fancy"
+            },
+            {
+              "form": "-ena",
+              "gloss": "(instr. sg.)"
             }
           ],
           "morph": "instrumental singular",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: 'by the fancy (vikalpana) of sense-object (indriya-viṣaya)'"
         },
         {
           "i": 12,
@@ -48268,7 +49182,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle"
             }
           ],
-          "morph": "nominative singular neuter (past participle)"
+          "morph": "nominative singular neuter (past participle)",
+          "root": "√vṛt"
         },
         {
           "i": 13,
@@ -48293,7 +49208,8 @@ window.GITA_COMMENTARY = {
               "gloss": "this"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "karaka": "sambandha"
         },
         {
           "i": 15,
@@ -48305,7 +49221,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ascetic, striver"
             }
           ],
-          "morph": "genitive singular"
+          "morph": "genitive singular",
+          "karaka": "sambandha"
         },
         {
           "i": 16,
@@ -48317,7 +49234,9 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry, seize"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ",
+          "karaka": "kartṛ"
         },
         {
           "i": 17,
@@ -48334,7 +49253,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā",
+          "karaka": "karma"
         },
         {
           "i": 18,
@@ -48358,7 +49279,8 @@ window.GITA_COMMENTARY = {
               "gloss": "born of"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "compound": "tatpuruṣa: 'born of (ja) the discrimination (viveka) of Self and non-Self (ātma-anātma)'"
         },
         {
           "i": 19,
@@ -48374,7 +49296,8 @@ window.GITA_COMMENTARY = {
               "gloss": "causative (to destroy)"
             }
           ],
-          "morph": "present indicative causative, 3rd singular"
+          "morph": "present indicative causative, 3rd singular",
+          "root": "√naś"
         },
         {
           "i": 20,
@@ -48398,7 +49321,8 @@ window.GITA_COMMENTARY = {
               "gloss": "wind"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "karaka": "kartṛ"
         },
         {
           "i": 22,
@@ -48410,7 +49334,8 @@ window.GITA_COMMENTARY = {
               "gloss": "boat"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "karaka": "karma"
         },
         {
           "i": 23,
@@ -48434,7 +49359,8 @@ window.GITA_COMMENTARY = {
               "gloss": "water"
             }
           ],
-          "morph": "locative singular neuter"
+          "morph": "locative singular neuter",
+          "karaka": "adhikaraṇa"
         },
         {
           "i": 25,
@@ -48466,7 +49392,8 @@ window.GITA_COMMENTARY = {
               "gloss": "of those (gen. pl. participle)"
             }
           ],
-          "morph": "desiderative present participle, genitive plural"
+          "morph": "desiderative present participle, genitive plural",
+          "root": "√gam"
         },
         {
           "i": 27,
@@ -48498,7 +49425,8 @@ window.GITA_COMMENTARY = {
               "gloss": "absolutive"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√hṛ"
         },
         {
           "i": 29,
@@ -48514,7 +49442,8 @@ window.GITA_COMMENTARY = {
               "gloss": "path, course"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "compound": "tatpuruṣa: 'onto a wrong (ud-) course (mārga)'"
         },
         {
           "i": 30,
@@ -48570,7 +49499,8 @@ window.GITA_COMMENTARY = {
               "gloss": "causative (to drive)"
             }
           ],
-          "morph": "present indicative causative, 3rd singular"
+          "morph": "present indicative causative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 34,
@@ -48599,7 +49529,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "bahuvrīhi: 'whose object (viṣaya) is the Self (ātman)' (qualifying prajñā)"
         },
         {
           "i": 36,
@@ -48616,7 +49547,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 37,
@@ -48632,7 +49564,8 @@ window.GITA_COMMENTARY = {
               "gloss": "absolutive"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√hṛ"
         },
         {
           "i": 38,
@@ -48662,7 +49595,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "bahuvrīhi: 'whose object (viṣaya) is sense-objects (viṣaya)'"
         },
         {
           "i": 40,
@@ -48674,7 +49608,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to do, make"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√kṛ"
         }
       ],
       "english": "{0:Of the senses} {3:ranging}, {5:engaged each in its own} {4:object} — {6:that} {7:mind} which {8:follows after}, {9:runs along after} — {10:that} {7:mind}, {12:set going} {11:by the conceptual fancy of sense-object}, {16:robs} {14:his}, {15:this ascetic’s}, {17:insight}, {18:the insight born of the discrimination of Self from non-Self}, {19:destroys} it. {20:How?} {21:As wind} {22:a boat} {23:like} {25:on the water}: {30:just as} {31:wind}, {28:lifting up} {27:off its course} {32:a boat} {26:of those wishing to go} {24:on the water}, {33:drives} it {29:onto a wrong course}, {34:so} {38:the mind}, {37:having robbed} {35:the insight whose object is the Self}, {36:the insight}, {40:makes} it {39:an insight whose object is objects}.",
@@ -48730,7 +49665,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 1,
@@ -48766,7 +49702,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 4,
@@ -48783,7 +49720,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "root": "√budh"
         },
         {
           "i": 5,
@@ -48819,7 +49757,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 8,
@@ -48860,7 +49799,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive plural neuter (present participle)"
+          "morph": "genitive plural neuter (present participle)",
+          "root": "√car"
         },
         {
           "i": 11,
@@ -48918,7 +49858,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present middle participle)"
             }
           ],
-          "morph": "genitive plural neuter (present middle participle)"
+          "morph": "genitive plural neuter (present middle participle)",
+          "root": "√vṛt"
         },
         {
           "i": 14,
@@ -49033,7 +49974,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "absolutive",
-          "glossaryKey": "anu"
+          "glossaryKey": "anu",
+          "root": "√kṛ"
         },
         {
           "i": 22,
@@ -49066,7 +50008,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√dhā"
         },
         {
           "i": 24,
@@ -49086,7 +50029,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√īr"
         },
         {
           "i": 25,
@@ -49102,7 +50046,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to turn/proceed"
             }
           ],
-          "morph": "present indicative, 3rd singular (middle)"
+          "morph": "present indicative, 3rd singular (middle)",
+          "root": "√vṛt"
         },
         {
           "i": 26,
@@ -49143,7 +50088,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "kartr"
+          "glossaryKey": "kartr",
+          "compound": "tatpuruṣa: 'in the agent-as-patient (karman-kartṛ) sense'"
         },
         {
           "i": 29,
@@ -49221,7 +50167,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular neuter",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "karaka": "karaṇa"
         },
         {
           "i": 35,
@@ -49242,7 +50189,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "anu"
+          "glossaryKey": "anu",
+          "root": "√sṛ"
         },
         {
           "i": 36,
@@ -49271,7 +50219,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "sadhana"
+          "glossaryKey": "sadhana",
+          "root": "√sādh"
         },
         {
           "i": 38,
@@ -49317,7 +50266,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 41,
@@ -49362,7 +50312,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry off/take"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 44,
@@ -49378,7 +50329,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to lead"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√nī"
         },
         {
           "i": 45,
@@ -49416,7 +50368,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter (causal)",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa (causal): 'because of being possessed (āviṣṭa-tva) by the object of that (sense) (tad-viṣaya)'"
         },
         {
           "i": 47,
@@ -49486,7 +50439,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 52,
@@ -49498,7 +50452,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry off/take"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 53,
@@ -49534,7 +50489,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry off/take"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 56,
@@ -49586,7 +50542,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter (gerundive)"
+          "morph": "nominative singular neuter (gerundive)",
+          "root": "√vac"
         },
         {
           "i": 60,
@@ -49670,7 +50627,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive (lemma cited)"
+          "morph": "absolutive (lemma cited)",
+          "root": "√as"
         },
         {
           "i": 66,
@@ -49714,7 +50672,8 @@ window.GITA_COMMENTARY = {
               "gloss": "power/capacity"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "tatpuruṣa: 'the power (sāmarthya) to carry off (haraṇa) a boat (naukā)'"
         },
         {
           "i": 69,
@@ -49766,7 +50725,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√sūc"
         },
         {
           "i": 73,
@@ -49806,7 +50766,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 76,
@@ -49858,7 +50819,8 @@ window.GITA_COMMENTARY = {
               "gloss": "occupying the place of"
             }
           ],
-          "morph": "locative singular neuter"
+          "morph": "locative singular neuter",
+          "compound": "tatpuruṣa: 'occupying the place of (sthānīya) water (ambhas)'"
         },
         {
           "i": 80,
@@ -49875,7 +50837,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter (locative absolute)",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "tatpuruṣa: 'the fickleness (cāñcalya) of the mind (manas)'"
         },
         {
           "i": 81,
@@ -49891,7 +50854,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "locative singular (locative absolute)"
+          "morph": "locative singular (locative absolute)",
+          "root": "√as"
         },
         {
           "i": 82,
@@ -49924,7 +50888,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "compound": "tatpuruṣa: 'the power (sāmarthya) to rob (haraṇa) the insight (prajñā)'"
         },
         {
           "i": 84,
@@ -49994,7 +50959,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter (locative absolute)",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "tatpuruṣa: 'the steadiness (sthairya) of the mind (manas)'"
         },
         {
           "i": 89,
@@ -50022,7 +50988,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√sūc"
         }
       ],
       "english": "{0:For the unsteadied one} {1:why} {2:is there no} {4:understanding}? {6:To this} {7:He says} {8:‘indriyāṇām’}. {10:Of the senses ranging} {11:in their own objects}, {12:each engaged in its own object}, {13:proceeding}, {14:the unmastered ones}, {16:among} {15:the senses}, {21:taking aim at} {19:even} {17:—} {18:one} {17:single} {20:sense}, {22:the mind} {23:‘is set going’}, {24:is impelled}, {25:proceeds} — {28:the verbal suffix} {29:—} {27:is in the agent-as-object sense}. {30:That} {32:single} {31:sense} {33:too}, {35:followed} {34:by the mind}, {43:robs}, {44:carries off}, {40:the insight} {36:of this} {37:aspirant}, {39:or} {45:of the mind}, {41:whose object is the Self}, {42:the scriptural} insight, {46:since the mind is possessed by the object of that sense}. {47:When} {49:even} {48:one} {50:sense} {52:robs} {51:the insight}, {53:then} {54:all of them} {55:rob} it {56:—} {57:how} {58:much} {59:more is to be said}! {60:—} {61:that is the meaning}. {62:The illustration} {63:however} {64:is clear}. {72:To indicate} {71:that} {67:the wind’s} {68:power to carry off a boat} {69:is} {70:on land} {69:not}, ‘{73:on the water}’ {75:is said}; {76:so} {78:too} {77:in the thing illustrated}, {82:only} {81:when} {80:the mind}, {79:in the place of water}, is fickle is there {83:the power to rob the insight} {84:of the sense}, {85:not} {86:—} {88:when the mind, in the place of land, is steady} {87:—} {89:this} {90:is hinted}.",
@@ -50068,7 +51035,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 1,
@@ -50102,7 +51070,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "root": "√yuj"
         },
         {
           "i": 3,
@@ -50150,7 +51119,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 7,
@@ -50257,7 +51227,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive plural)"
             }
           ],
-          "morph": "genitive plural (present participle)"
+          "morph": "genitive plural (present participle)",
+          "root": "√car"
         },
         {
           "i": 14,
@@ -50352,7 +51323,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present passive, 3rd singular",
-          "glossaryKey": "anu"
+          "glossaryKey": "anu",
+          "root": "√dhā"
         },
         {
           "i": 21,
@@ -50385,7 +51357,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter (present participle)",
-          "glossaryKey": "sat"
+          "glossaryKey": "sat",
+          "root": "√as"
         },
         {
           "i": 23,
@@ -50422,7 +51395,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 26,
@@ -50526,7 +51500,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 34,
@@ -50551,7 +51526,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry, seize"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 36,
@@ -50580,7 +51556,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to do, make"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 38,
@@ -50620,7 +51597,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 41,
@@ -50649,7 +51627,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 43,
@@ -50661,7 +51640,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to carry, seize"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 44,
@@ -50717,7 +51697,8 @@ window.GITA_COMMENTARY = {
               "gloss": "holding, bearer"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "tatpuruṣa: 'a holder (dhāra) of the helm (karṇa)', i.e. helmsman"
         },
         {
           "i": 48,
@@ -50729,7 +51710,8 @@ window.GITA_COMMENTARY = {
               "gloss": "boat, ship"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "karaka": "karma"
         },
         {
           "i": 49,
@@ -50745,7 +51727,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vā",
+          "karaka": "kartṛ"
         },
         {
           "i": 50,
@@ -50781,7 +51765,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to cause to whirl"
             }
           ],
-          "morph": "present indicative, 3rd singular (causative)"
+          "morph": "present indicative, 3rd singular (causative)",
+          "root": "√bhram"
         },
         {
           "i": 52,
@@ -50899,7 +51884,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "bhavana"
+          "glossaryKey": "bhavana",
+          "root": "√bhū"
         },
         {
           "i": 3,
@@ -50923,7 +51909,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 5,
@@ -50935,7 +51922,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to say"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 6,
@@ -50981,7 +51969,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present passive, 3rd singular",
-          "glossaryKey": "anu"
+          "glossaryKey": "anu",
+          "root": "√dhā"
         },
         {
           "i": 9,
@@ -50993,7 +51982,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to do"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 10,
@@ -51018,7 +52008,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "isvara"
+          "glossaryKey": "isvara",
+          "karaka": "kartṛ"
         },
         {
           "i": 12,
@@ -51074,7 +52065,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 16,
@@ -51118,7 +52110,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "root": "√vac",
+          "compound": "tatpuruṣa (causal): 'because of being something to be spoken-of-later (vakṣyamāṇa-tva)'"
         },
         {
           "i": 19,
@@ -51139,7 +52133,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 20,
@@ -51160,7 +52155,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 21,
@@ -51180,7 +52176,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(fut. part.)"
             }
           ],
-          "morph": "accusative singular neuter, future participle"
+          "morph": "accusative singular neuter, future participle",
+          "root": "√pad"
         },
         {
           "i": 22,
@@ -51212,7 +52209,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√vṛ"
         },
         {
           "i": 24,
@@ -51256,7 +52254,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "genitive singular neuter"
+          "morph": "genitive singular neuter",
+          "root": "√pad"
         },
         {
           "i": 27,
@@ -51288,7 +52287,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√bhū"
         },
         {
           "i": 29,
@@ -51300,7 +52300,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         }
       ],
       "english": "{0:How} is there {3:no} {2:contemplation} {4:—} {1:for the unsteadied one}? He {5:says} {6:‘indriyāṇām’}. {8:The word “is made to follow”} — {9:is done}. {10:‘Surely} {11:it is by the Lord} that {12:the senses} {13:are…’} — {18:because} {14:‘understanding}, {15:knowledge’} {17:and so on} {18:are to be spoken of later}. {19:‘Insight’ (prajñā)} {20:means knowledge}. {23:It} {22:even} prevents {21:what is about to arise}, {25:that is the meaning}; {27:and} {29:there is} {28:the overcoming} {26:of what has already arisen}.",
@@ -51380,7 +52381,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act of"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "root": "√vṛt"
         },
         {
           "i": 2,
@@ -51412,7 +52414,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle (causative)"
             }
           ],
-          "morph": "nominative singular masculine (past participle)"
+          "morph": "nominative singular masculine (past participle)",
+          "root": "√pad"
         },
         {
           "i": 4,
@@ -51488,7 +52491,8 @@ window.GITA_COMMENTARY = {
               "gloss": "arm"
             }
           ],
-          "morph": "vocative singular masculine"
+          "morph": "vocative singular masculine",
+          "compound": "bahuvrīhi (vocative): 'O you whose arms (bāhu) are mighty (mahā)'"
         },
         {
           "i": 10,
@@ -51508,7 +52512,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle"
             }
           ],
-          "morph": "nominative plural neuter (past participle)"
+          "morph": "nominative plural neuter (past participle)",
+          "root": "√grah"
         },
         {
           "i": 11,
@@ -51540,7 +52545,8 @@ window.GITA_COMMENTARY = {
               "gloss": "kind, manner"
             }
           ],
-          "morph": "instrumental plural masculine"
+          "morph": "instrumental plural masculine",
+          "compound": "karmadhāraya: 'by every (sarva) kind (prakāra)'"
         },
         {
           "i": 13,
@@ -51561,7 +52567,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural masculine",
-          "glossaryKey": "bheda"
+          "glossaryKey": "bheda",
+          "compound": "tatpuruṣa: 'by the mental and other (mānasa-ādi) distinctions (bheda)'"
         },
         {
           "i": 14,
@@ -51574,7 +52581,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "karaka": "karma"
         },
         {
           "i": 15,
@@ -51591,7 +52599,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: 'from the sense-objects (indriya-artha)'",
+          "karaka": "apādāna"
         },
         {
           "i": 16,
@@ -51608,7 +52618,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: 'from sound and the rest (śabda-ādi)'",
+          "karaka": "apādāna"
         },
         {
           "i": 17,
@@ -51637,7 +52649,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 19,
@@ -51658,7 +52671,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine (past participle)",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         }
       ],
       "english": "Since {2:the fault} {1:in the engagement of the senses} {3:has been established}, {5:therefore} — {6:of which} {7:ascetic}, {8:O} {9:mighty-armed}, the senses {10:are restrained} {11:from every side}, {12:by every kind} {13:of restraint, mental and the rest}, {14:the senses} {10:restrained} {15:from the sense-objects}, {16:sound and the rest} — {17:his} {18:insight} {19:stands firm}.",
@@ -51792,7 +52806,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural neuter",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "bahuvrīhi: 'together with (sa-) the mind (manas)'"
         },
         {
           "i": 8,
@@ -51856,7 +52871,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√budh"
         },
         {
           "i": 12,
@@ -51884,7 +52900,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract suffix)"
             }
           ],
-          "morph": "ablative singular neuter (causal)"
+          "morph": "ablative singular neuter (causal)",
+          "compound": "tatpuruṣa (causal): 'because of competence (kṣama-tva) in warding off (nivāraṇa) every (sarva) foe (śatru)'"
         },
         {
           "i": 13,
@@ -51905,7 +52922,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: 'in warding off (nivāraṇa) the foe (śatru) that is the senses (indriya)'"
         },
         {
           "i": 14,
@@ -51929,7 +52947,8 @@ window.GITA_COMMENTARY = {
               "gloss": "you"
             }
           ],
-          "morph": "nominative singular"
+          "morph": "nominative singular",
+          "karaka": "kartṛ"
         },
         {
           "i": 16,
@@ -51953,7 +52972,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 2nd singular"
+          "morph": "present indicative, 2nd singular",
+          "root": "√as"
         },
         {
           "i": 18,
@@ -51981,7 +53001,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√sūc"
         },
         {
           "i": 20,
@@ -52045,7 +53066,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√sidh"
         },
         {
           "i": 25,
@@ -52062,7 +53084,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "sadhana"
+          "glossaryKey": "sadhana",
+          "root": "√sādh"
         },
         {
           "i": 26,
@@ -52094,7 +53117,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√mṛś"
         },
         {
           "i": 28,
@@ -52111,7 +53135,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: 'of the restraint (saṃyama) of the senses (indriya)'"
         },
         {
           "i": 29,
@@ -52128,7 +53153,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "bahuvrīhi: 'one whose insight (prajña) is settled (sthita)'"
         },
         {
           "i": 30,
@@ -52157,7 +53183,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "compound": "tatpuruṣa: 'the being-a-mark-ness (lakṣaṇa-tva)'"
         },
         {
           "i": 32,
@@ -52173,7 +53200,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(desiderative)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√muc"
         },
         {
           "i": 33,
@@ -52206,7 +53234,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular neuter",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "compound": "tatpuruṣa: 'the being-a-means-to-insight-ness (prajñā-sādhana-tva)'"
         },
         {
           "i": 35,
@@ -52246,7 +53275,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract suffix)"
             }
           ],
-          "morph": "ablative singular neuter (causal)"
+          "morph": "ablative singular neuter (causal)",
+          "root": "√hṛ"
         }
       ],
       "english": "{0:The word “since”} — {1:since} {2:it is} {2:thus}, ‘{3:therefore}’. {5:From every side}, {6:all of them}, {7:together with the mind}. {11:Addressing} him ‘{8:O} {9:mighty-armed}’, {19:He hints}: {12:since you are able to ward off every foe}, {15:you} {17:are} {16:able} {14:also} {13:to ward off the foe that is the senses}. {21:The rest} {20:is clear}. ‘{22:Of him}’ {27:refers to} both {24:the accomplished one} {26:and} {25:the aspirant}, {36:since} {28:the senses’ restraint}, {29:being for the sthita-prajña} {30:a} {31:mark} and {32:for the seeker of release} {34:a means to insight}, {36:is to be summed up}.",
@@ -52319,7 +53349,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "bahuvrīhi: 'for the state of one whose insight (prajña) is settled (sthita)'"
         },
         {
           "i": 2,
@@ -52364,7 +53395,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 5,
@@ -52384,7 +53416,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw, carry"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 6,
@@ -52458,7 +53491,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 11,
@@ -52479,7 +53513,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 12,
@@ -52495,7 +53530,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive, fem.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√jñā"
         },
         {
           "i": 13,
@@ -52571,7 +53607,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle, causative)"
+          "morph": "nominative singular masculine (present participle, causative)",
+          "root": "√budh"
         },
         {
           "i": 18,
@@ -52587,7 +53624,8 @@ window.GITA_COMMENTARY = {
               "gloss": "subduing, restraint"
             }
           ],
-          "morph": "locative singular"
+          "morph": "locative singular",
+          "compound": "tatpuruṣa: 'in the subduing (nigraha) of foes (vairin)'"
         },
         {
           "i": 19,
@@ -52671,7 +53709,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be, become"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 25,
@@ -52699,7 +53738,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to point out"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√sūc"
         }
       ],
       "english": "{3:And} that {0:restraint of the senses} is, {1:for the state of settled wisdom}, {2:the means}, {4:stated} — {5:He sums up} {7:by} {6:‘tasmāt’}. {8:In the summing-up of its being the means}: {9:his} {10:insight} {12:is to be known} as {11:firm}, {13:that is} {14:the meaning}. {17:Addressing} him {15:‘O mighty-armed’} {16:—}, {26:He hints}: as you are {19:able} {18:in the subduing of foes}, so {20:your} {23:ability} {22:too} {24:may be} {21:here} {25:—}.",
@@ -52768,7 +53808,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi/instr.-adverb: 'with one's whole (sarva) self (ātman)', i.e. in every way"
         },
         {
           "i": 2,
@@ -52793,7 +53834,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "bahuvrīhi: 'one whose senses (indriya) are restrained (nigṛhīta)'"
         },
         {
           "i": 3,
@@ -52850,7 +53892,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 7,
@@ -52948,7 +53991,8 @@ window.GITA_COMMENTARY = {
               "gloss": "thing, category"
             }
           ],
-          "morph": "genitive plural masculine"
+          "morph": "genitive plural masculine",
+          "compound": "tatpuruṣa: 'of all (sarva) things (padārtha)'"
         },
         {
           "i": 4,
@@ -52968,7 +54012,8 @@ window.GITA_COMMENTARY = {
               "gloss": "making, causing"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: 'making (kara) non-discrimination (a-viveka)'"
         },
         {
           "i": 5,
@@ -52989,7 +54034,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter",
-          "glossaryKey": "svabhava"
+          "glossaryKey": "svabhava",
+          "compound": "tatpuruṣa (causal): 'because of having darkness (tamas) as its nature (svabhāva)'"
         },
         {
           "i": 6,
@@ -53070,7 +54116,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "paramartha-satya"
+          "glossaryKey": "paramartha-satya",
+          "compound": "tatpuruṣa: 'the truth (tattva) of the highest reality (paramārtha)'"
         },
         {
           "i": 12,
@@ -53087,7 +54134,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "bahuvrīhi: 'one whose insight (prajña) is settled (sthita)'"
         },
         {
           "i": 13,
@@ -53128,7 +54176,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ranging, moving"
             }
           ],
-          "morph": "genitive plural masculine"
+          "morph": "genitive plural masculine",
+          "compound": "tatpuruṣa: 'rangers (cara) by night (naktam)', i.e. night-prowlers"
         },
         {
           "i": 16,
@@ -53169,7 +54218,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter (present participle)",
-          "glossaryKey": "sat"
+          "glossaryKey": "sat",
+          "root": "√as"
         },
         {
           "i": 19,
@@ -53209,7 +54259,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 22,
@@ -53245,7 +54296,8 @@ window.GITA_COMMENTARY = {
               "gloss": "occupying the place of"
             }
           ],
-          "morph": "genitive plural masculine"
+          "morph": "genitive plural masculine",
+          "compound": "tatpuruṣa: 'occupying the place of (sthānīya) night-rangers (naktaṃ-cara)'"
         },
         {
           "i": 24,
@@ -53371,7 +54423,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "compound": "bahuvrīhi: 'whose understanding (buddhi) is not toward that (a-tad)'"
         },
         {
           "i": 32,
@@ -53404,7 +54457,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "compound": "tatpuruṣa: 'characterized by (lakṣaṇa) the truth of the highest reality (paramārtha-tattva)'"
         },
         {
           "i": 34,
@@ -53425,7 +54479,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular feminine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa: 'the sleep (nidrā) of ignorance (a-jñāna)'"
         },
         {
           "i": 35,
@@ -53445,7 +54500,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle"
             }
           ],
-          "morph": "nominative singular masculine (past participle)"
+          "morph": "nominative singular masculine (past participle)",
+          "root": "√budh"
         },
         {
           "i": 36,
@@ -53461,7 +54517,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jāgṛ"
         },
         {
           "i": 37,
@@ -53482,7 +54539,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "muni"
+          "glossaryKey": "muni",
+          "root": "√yam"
         },
         {
           "i": 38,
@@ -53593,7 +54651,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "bheda"
+          "glossaryKey": "bheda",
+          "compound": "tatpuruṣa: 'characterized by (lakṣaṇa) the distinction (bheda) of grasped and grasper (grāhya-grāhaka)'"
         },
         {
           "i": 45,
@@ -53614,7 +54673,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "avidya"
+          "glossaryKey": "avidya",
+          "compound": "tatpuruṣa: 'the night (niśā) of ignorance (a-vidyā)'"
         },
         {
           "i": 46,
@@ -53634,7 +54694,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle"
             }
           ],
-          "morph": "nominative plural neuter (past participle)"
+          "morph": "nominative plural neuter (past participle)",
+          "root": "√svap"
         },
         {
           "i": 47,
@@ -53674,7 +54735,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√jāgṛ"
         },
         {
           "i": 50,
@@ -53702,7 +54764,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. passive present)"
             }
           ],
-          "morph": "present passive, 3rd plural"
+          "morph": "present passive, 3rd plural",
+          "root": "√vac"
         },
         {
           "i": 52,
@@ -53746,7 +54809,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle"
             }
           ],
-          "morph": "nominative plural masculine (past participle)"
+          "morph": "nominative plural masculine (past participle)",
+          "root": "√svap"
         },
         {
           "i": 55,
@@ -53774,7 +54838,8 @@ window.GITA_COMMENTARY = {
               "gloss": "seeing, seer"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "compound": "tatpuruṣa: 'seers (dṛś) of dreams (svapna)'"
         },
         {
           "i": 57,
@@ -53823,7 +54888,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter",
-          "glossaryKey": "avidya"
+          "glossaryKey": "avidya",
+          "compound": "tatpuruṣa (causal): 'because of being of the nature (rūpa-tva) of ignorance (a-vidyā)'"
         },
         {
           "i": 60,
@@ -53856,7 +54922,8 @@ window.GITA_COMMENTARY = {
               "gloss": "of one (present participle gen. sg.)"
             }
           ],
-          "morph": "present participle, genitive singular"
+          "morph": "present participle, genitive singular",
+          "root": "√paś"
         },
         {
           "i": 62,
@@ -53894,7 +54961,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "karaka": "kartṛ"
         },
         {
           "i": 65,
@@ -53915,7 +54983,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "avidya"
+          "glossaryKey": "avidya",
+          "compound": "tatpuruṣa: 'in the state (avasthā) of ignorance (a-vidyā)'"
         },
         {
           "i": 66,
@@ -53943,7 +55012,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. passive present)"
             }
           ],
-          "morph": "present passive, 3rd plural"
+          "morph": "present passive, 3rd plural",
+          "root": "√cud"
         },
         {
           "i": 68,
@@ -54013,7 +55083,8 @@ window.GITA_COMMENTARY = {
               "gloss": "present participle (loc. sg. fem.)"
             }
           ],
-          "morph": "locative singular feminine (present participle, locative absolute)"
+          "morph": "locative singular feminine (present participle, locative absolute)",
+          "root": "√as"
         },
         {
           "i": 73,
@@ -54033,7 +55104,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle (loc. sg.)"
             }
           ],
-          "morph": "locative singular masculine (past participle, locative absolute)"
+          "morph": "locative singular masculine (past participle, locative absolute)",
+          "root": "√i"
         },
         {
           "i": 74,
@@ -54061,7 +55133,8 @@ window.GITA_COMMENTARY = {
               "gloss": "belonging to"
             }
           ],
-          "morph": "nominative singular neuter (adjective)"
+          "morph": "nominative singular neuter (adjective)",
+          "compound": "taddhita: 'belonging to the night (śarvarī)', i.e. nocturnal"
         },
         {
           "i": 76,
@@ -54106,7 +55179,8 @@ window.GITA_COMMENTARY = {
               "gloss": "noun (act of)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√naś"
         },
         {
           "i": 79,
@@ -54126,7 +55200,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 80,
@@ -54206,7 +55281,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular feminine",
-          "glossaryKey": "pramana"
+          "glossaryKey": "pramana",
+          "compound": "tatpuruṣa: 'by an understanding (buddhi) (treating it) as a valid means of knowledge (pramāṇa)'"
         },
         {
           "i": 85,
@@ -54222,7 +55298,8 @@ window.GITA_COMMENTARY = {
               "gloss": "passive present participle"
             }
           ],
-          "morph": "nominative singular feminine (present passive participle)"
+          "morph": "nominative singular feminine (present passive participle)",
+          "root": "√grah"
         },
         {
           "i": 86,
@@ -54251,7 +55328,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "kriya"
+          "glossaryKey": "kriya",
+          "compound": "tatpuruṣa: 'having the form (rūpa) of the distinctions (bheda) of action, agent-factor and result (kriyā-kāraka-phala)'"
         },
         {
           "i": 87,
@@ -54267,7 +55345,8 @@ window.GITA_COMMENTARY = {
               "gloss": "present participle (nom. sg. fem.)"
             }
           ],
-          "morph": "nominative singular feminine (present participle)"
+          "morph": "nominative singular feminine (present participle)",
+          "root": "√as"
         },
         {
           "i": 88,
@@ -54292,7 +55371,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "compound": "tatpuruṣa: 'the being-cause (hetu-tva) of all (sarva) action (karma)'"
         },
         {
           "i": 89,
@@ -54312,7 +55392,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. middle present)"
             }
           ],
-          "morph": "present middle, 3rd singular"
+          "morph": "present middle, 3rd singular",
+          "root": "√pad"
         },
         {
           "i": 90,
@@ -54361,7 +55442,8 @@ window.GITA_COMMENTARY = {
               "gloss": "passive present participle (gen. sg. fem.)"
             }
           ],
-          "morph": "genitive singular feminine (present passive participle)"
+          "morph": "genitive singular feminine (present passive participle)",
+          "root": "√grah"
         },
         {
           "i": 93,
@@ -54403,7 +55485,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "pramana"
+          "glossaryKey": "pramana",
+          "compound": "tatpuruṣa: 'what has become (bhūta) a valid means of knowledge (pramāṇa)'"
         },
         {
           "i": 95,
@@ -54416,7 +55499,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "sruti"
+          "glossaryKey": "sruti",
+          "karaka": "karaṇa"
         },
         {
           "i": 96,
@@ -54444,7 +55528,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle"
             }
           ],
-          "morph": "nominative singular neuter (past participle)"
+          "morph": "nominative singular neuter (past participle)",
+          "root": "√cud"
         },
         {
           "i": 98,
@@ -54460,7 +55545,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ought to be (gerundive)"
             }
           ],
-          "morph": "nominative singular neuter (gerundive)"
+          "morph": "nominative singular neuter (gerundive)",
+          "root": "√kṛ"
         },
         {
           "i": 99,
@@ -54510,7 +55596,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "karaka": "adhikaraṇa"
         },
         {
           "i": 103,
@@ -54527,7 +55614,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "kartr"
+          "glossaryKey": "kartr",
+          "root": "√kṛ",
+          "karaka": "kartṛ"
         },
         {
           "i": 104,
@@ -54547,7 +55636,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. middle present)"
             }
           ],
-          "morph": "present middle, 3rd singular"
+          "morph": "present middle, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 105,
@@ -54580,7 +55670,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "avidya"
+          "glossaryKey": "avidya",
+          "compound": "tatpuruṣa: 'mere (mātra) ignorance (a-vidyā)'"
         },
         {
           "i": 107,
@@ -54621,7 +55712,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "bheda"
+          "glossaryKey": "bheda",
+          "compound": "tatpuruṣa: 'the brood/totality born (jāta) of distinction (bheda)'"
         },
         {
           "i": 110,
@@ -54650,7 +55742,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 112,
@@ -54679,7 +55772,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: 'the knower (jña) of the Self (ātman)'"
         },
         {
           "i": 114,
@@ -54700,7 +55794,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "compound": "tatpuruṣa: 'in the renunciation (saṃnyāsa) of all (sarva) action (karma)'"
         },
         {
           "i": 115,
@@ -54732,7 +55827,8 @@ window.GITA_COMMENTARY = {
               "gloss": "noun (entitlement)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 117,
@@ -54764,7 +55860,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act of"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "root": "√vṛt"
         },
         {
           "i": 119,
@@ -54808,7 +55905,8 @@ window.GITA_COMMENTARY = {
               "gloss": "future, 3rd sg."
             }
           ],
-          "morph": "future indicative causative, 3rd singular"
+          "morph": "future indicative causative, 3rd singular",
+          "root": "√dṛś"
         },
         {
           "i": 122,
@@ -54825,7 +55923,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural masculine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "compound": "bahuvrīhi: 'those whose understanding (buddhi) is on That (tad)'"
         },
         {
           "i": 123,
@@ -54842,7 +55941,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: 'those whose self (ātman) is That (tad)'"
         },
         {
           "i": 124,
@@ -54883,7 +55983,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa: 'in the steadfastness (niṣṭhā) in knowledge (jñāna)'"
         },
         {
           "i": 127,
@@ -54927,7 +56028,8 @@ window.GITA_COMMENTARY = {
               "gloss": "noun (entitlement)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 130,
@@ -54972,7 +56074,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "pramana"
+          "glossaryKey": "pramana",
+          "compound": "tatpuruṣa: 'in the absence (abhāva) of an instigating (pravartaka) means of knowledge (pramāṇa)'"
         },
         {
           "i": 133,
@@ -54992,7 +56095,8 @@ window.GITA_COMMENTARY = {
               "gloss": "tenability"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: 'the untenability (an-upapatti) of engagement (pravṛtti)'"
         },
         {
           "i": 134,
@@ -55053,7 +56157,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa (causal): 'because of having one's own Self (sva-ātman) as object (viṣaya-tva)'"
         },
         {
           "i": 138,
@@ -55070,7 +56175,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular neuter",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: 'the cognition (vijñāna) of the Self (ātman)'"
         },
         {
           "i": 139,
@@ -55149,7 +56255,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pramana"
+          "glossaryKey": "pramana",
+          "compound": "tatpuruṣa: 'the dependence (apekṣā-tā) on an instigating (pravartaka) means of knowledge (pramāṇa)'"
         },
         {
           "i": 144,
@@ -55198,7 +56305,8 @@ window.GITA_COMMENTARY = {
               "gloss": "the state of"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "compound": "tatpuruṣa (causal): 'because of terminating (anta-tva) in That (tad)'"
         },
         {
           "i": 147,
@@ -55227,7 +56335,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural neuter",
-          "glossaryKey": "pramana"
+          "glossaryKey": "pramana",
+          "compound": "tatpuruṣa: 'of all (sarva) means of knowledge (pramāṇa)'"
         },
         {
           "i": 149,
@@ -55289,7 +56398,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "svarupa"
+          "glossaryKey": "svarupa",
+          "compound": "tatpuruṣa: 'in the attainment (adhigama) of the Self's own-nature (ātma-svarūpa)'"
         },
         {
           "i": 153,
@@ -55305,7 +56415,8 @@ window.GITA_COMMENTARY = {
               "gloss": "present participle (loc. sg.)"
             }
           ],
-          "morph": "locative singular masculine (present participle, locative absolute)"
+          "morph": "locative singular masculine (present participle, locative absolute)",
+          "root": "√as"
         },
         {
           "i": 154,
@@ -55338,7 +56449,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "pramana"
+          "glossaryKey": "pramana",
+          "compound": "dvandva-tatpuruṣa: 'the transaction (vyavahāra) of means-and-object-of-knowledge (pramāṇa-prameya)'"
         },
         {
           "i": 156,
@@ -55358,7 +56470,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 157,
@@ -55419,7 +56532,8 @@ window.GITA_COMMENTARY = {
               "gloss": "causative (to remove)"
             }
           ],
-          "morph": "present indicative causative, 3rd singular"
+          "morph": "present indicative causative, 3rd singular",
+          "root": "√vṛt"
         },
         {
           "i": 161,
@@ -55464,7 +56578,8 @@ window.GITA_COMMENTARY = {
               "gloss": "causative present participle"
             }
           ],
-          "morph": "nominative singular neuter (present participle)"
+          "morph": "nominative singular neuter (present participle)",
+          "root": "√vṛt"
         },
         {
           "i": 164,
@@ -55534,7 +56649,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "pramana"
+          "glossaryKey": "pramana",
+          "compound": "tatpuruṣa: 'the means of knowledge (pramāṇa) of dream-time (svapna-kāla)'"
         },
         {
           "i": 168,
@@ -55566,7 +56682,8 @@ window.GITA_COMMENTARY = {
               "gloss": "noun (act of)"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "root": "√budh"
         },
         {
           "i": 170,
@@ -55606,7 +56723,8 @@ window.GITA_COMMENTARY = {
               "gloss": "attainment, ascertainment"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "compound": "tatpuruṣa: 'in the attainment (adhigama) of a thing (vastu)'"
         },
         {
           "i": 173,
@@ -55630,7 +56748,8 @@ window.GITA_COMMENTARY = {
               "gloss": "non-observation"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "compound": "tatpuruṣa (causal): 'because of the non-observing (a-darśana) of any causality (hetu-tva) toward activity (pravṛtti)'"
         },
         {
           "i": 174,
@@ -55684,7 +56803,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: 'the knower (vid) of the Self (ātman)'"
         },
         {
           "i": 178,
@@ -55717,7 +56837,8 @@ window.GITA_COMMENTARY = {
               "gloss": "noun (entitlement)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 180,
@@ -55745,7 +56866,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle"
             }
           ],
-          "morph": "nominative singular neuter (past participle)"
+          "morph": "nominative singular neuter (past participle)",
+          "root": "√sidh"
         }
       ],
       "english": "{0:What} is {1:night}, {2:night}, {4:making for non-discrimination} {3:of all things} {5:because its very nature is darkness}, {6:for all beings}, {7:for all} {8:beings} — {9:what} is {10:that}? {11:The truth of the highest reality}, {13:the sphere} {12:of the man of settled wisdom}. {14:Just as} {16:what is mere day} {17:even} {18:being so} {15:for the night-rangers} {20:becomes night} {19:for others}, {22:likewise} {26:like night} {28:it is night} — {29:the truth of the highest reality} — {25:for all beings} {24:the ignorant}, {23:who stand in the place of night-rangers}, {30:because it is beyond the range} {31:of those whose understanding is not turned to it}. {32:In that}, {33:characterized by the truth of the highest reality}, {35:awakened} {34:from the sleep of ignorance}, {36:keeps watch} {37:the self-restrained one}, {38:possessed of restraint}, {39:of conquered senses}, {40:the yogin} — {41:this is} the {42:meaning}. {52:And that wherein}, {43:wherein} — {44:in the form of the distinction of grasped and grasper}, {45:in the night of ignorance} — {48:beings} {49:are awake} {46:while they are verily} {47:asleep} {50:are thus} {51:said} (to be awake), {52:wherein} {53:in which night} they are {55:like} {54:sleepers} {56:having dream-visions} — {57:that} {58:is night}, {59:because it is of the nature of ignorance}, {61:for the sage seeing} {60:the truth of the highest reality} {62:the sage}. {63:Hence} {64:works} {67:are enjoined} {66:only} {65:in the state of ignorance}, {68:not} {69:in the state of knowledge}. {70:For when knowledge is present} {71:indeed}, {72:once it exists} — {73:when the sun has risen}, {74:the sun}, {75:as the nocturnal} {77:darkness} {76:like} {79:comes to} {78:destruction} — {80:ignorance} (perishes). {81:Prior to} {82:the arising of knowledge}, {83:ignorance}, {85:being grasped} {84:by an understanding that treats it as a valid means of knowledge}, {87:being} {86:of the form of the distinctions of action, agent-factors and result}, {89:comes to assume} {88:the status of being the cause of all action}. {91:By an understanding that treats it as not a valid means of knowledge} {92:of that being grasped} {90:there is no} {93:establishing of its being the cause of action}; {101:for} {103:the agent} {104:engages} {102:in action} thinking {95:by the Veda}, {94:which has become a valid means of knowledge}, {97:is enjoined} {96:for me} {98:as a duty} {99:the action} {100:thus} — but {105:not} for him {112:whose} {111:knowledge} is {110:thus}: {106:all this} {108:whole} {109:brood of distinction is mere ignorance} {107:this}; {113:of that knower of the Self} {116:the authority} is {114:in the renunciation of all action} {115:alone}, {117:not} {118:in engagement}. {119:And so} {120:too} {121:he will show} — {122:those whose understanding is fixed on That}, {123:those whose self is That} {124:thus} {125:by the passage beginning with this} — {129:that his authority} is {126:in steadfastness in knowledge} {127:alone}, {128:his}. {130:Even there}, {131:even}, {133:engagement in action is untenable} {132:in the absence of an instigating means of knowledge} {134:—so} {135:if} (one objects), {136:no}: {137:because the cognition of the Self has one’s own Self as its object}, {138:of the cognition of the Self}. {139:For not} {140:indeed} {141:of the Self} {142:regarding its own self} is there {143:dependence on an instigating means of knowledge}, {144:precisely because it is the very Self}{145:—}; {147:and} {146:because the validity of all the means of knowledge terminates in That}, {149:the means-of-knowledge-status} {148:of all the means of knowledge}. {150:For not} {151:indeed}, {153:once} {152:the Self’s own nature is attained}, {156:is} {154:again} {155:the transaction of means-of-knowledge and object-of-knowledge} possible. {158:For} {160:it removes} {157:the knower-hood} {159:of the Self} — {161:the last}, {162:the final means of knowledge}; {165:and} {163:while removing} {164:in that very act} {166:it becomes a non-means-of-knowledge}, {168:like} {167:the dream-time means of knowledge} {169:on awakening}. {171:And} {170:in the world}, {174:of a means of knowledge} {173:no causality toward further activity is observed} {172:once the thing is attained}. {175:Therefore} {178:for the knower of the Self} {176:there is no} {179:authority} {178:in action} — {180:thus} {181:it is established}.",
@@ -55835,7 +56957,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(desiderative)"
             }
           ],
-          "morph": "instrumental singular masculine"
+          "morph": "instrumental singular masculine",
+          "root": "√muc"
         },
         {
           "i": 3,
@@ -55901,7 +57024,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular masculine (gerundive)"
+          "morph": "nominative singular masculine (gerundive)",
+          "root": "√kṛ"
         },
         {
           "i": 7,
@@ -55929,7 +57053,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 9,
@@ -55990,7 +57115,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√sidh"
         },
         {
           "i": 13,
@@ -56051,7 +57177,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 17,
@@ -56128,7 +57255,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "saksatkara"
+          "glossaryKey": "saksatkara",
+          "compound": "tatpuruṣa: 'having the form (rūpa) of the direct realization (sākṣātkāra) born (janita) of the Vedānta-sentence (vedānta-vākya)'"
         },
         {
           "i": 22,
@@ -56169,7 +57297,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(1st sg. present)"
             }
           ],
-          "morph": "present indicative, 1st singular"
+          "morph": "present indicative, 1st singular",
+          "root": "√as"
         },
         {
           "i": 25,
@@ -56202,7 +57331,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prajna"
+          "glossaryKey": "prajna",
+          "root": "√jñā"
         },
         {
           "i": 27,
@@ -56320,7 +57450,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter (causal)",
-          "glossaryKey": "prakasa"
+          "glossaryKey": "prakasa",
+          "compound": "tatpuruṣa (causal): 'because of being of unillumined nature (a-prakāśa-rūpa-tva)'"
         },
         {
           "i": 35,
@@ -56353,7 +57484,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "vidya"
+          "glossaryKey": "vidya",
+          "compound": "tatpuruṣa: 'characterized by (lakṣaṇa) the knowledge of Brahman (brahma-vidyā)'"
         },
         {
           "i": 37,
@@ -56373,7 +57505,8 @@ window.GITA_COMMENTARY = {
               "gloss": "night"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "compound": "tatpuruṣa: 'the night (niśā) of all beings (sarva-bhūta)'"
         },
         {
           "i": 38,
@@ -56389,7 +57522,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jāgṛ"
         },
         {
           "i": 39,
@@ -56410,7 +57544,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular feminine",
-          "glossaryKey": "avidya"
+          "glossaryKey": "avidya",
+          "compound": "tatpuruṣa: 'the sleep (nidrā) of ignorance (a-jñāna)'"
         },
         {
           "i": 40,
@@ -56430,7 +57565,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√budh"
         },
         {
           "i": 41,
@@ -56446,7 +57582,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 42,
@@ -56462,7 +57599,8 @@ window.GITA_COMMENTARY = {
               "gloss": "attention"
             }
           ],
-          "morph": "nominative singular masculine (bahuvrīhi)"
+          "morph": "nominative singular masculine (bahuvrīhi)",
+          "compound": "bahuvrīhi: 'one with (sa-) attention (avadhāna)', attentive"
         },
         {
           "i": 43,
@@ -56478,7 +57616,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. middle present)"
             }
           ],
-          "morph": "present indicative, 3rd singular (middle)"
+          "morph": "present indicative, 3rd singular (middle)",
+          "root": "√vṛt"
         },
         {
           "i": 44,
@@ -56516,7 +57655,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "bahuvrīhi: 'one possessed of (vat) restraint (saṃyama) of the senses (indriya)'"
         },
         {
           "i": 46,
@@ -56602,7 +57742,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "dvaita"
+          "glossaryKey": "dvaita",
+          "compound": "tatpuruṣa: 'characterized by (lakṣaṇa) the dualistic view (dvaita-darśana)'"
         },
         {
           "i": 52,
@@ -56619,7 +57760,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "avidya"
+          "glossaryKey": "avidya",
+          "compound": "tatpuruṣa: 'the sleep (nidrā) of ignorance (a-vidyā)'"
         },
         {
           "i": 53,
@@ -56639,7 +57781,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√svap"
         },
         {
           "i": 54,
@@ -56679,7 +57822,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√jāgṛ"
         },
         {
           "i": 57,
@@ -56719,7 +57863,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√hṛ"
         },
         {
           "i": 59,
@@ -56776,7 +57921,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular (middle)",
-          "glossaryKey": "prakasa"
+          "glossaryKey": "prakasa",
+          "root": "√kāś"
         },
         {
           "i": 63,
@@ -56809,7 +57955,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine (present participle)"
+          "morph": "genitive singular masculine (present participle)",
+          "root": "√paś"
         },
         {
           "i": 65,
@@ -56920,7 +58067,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. middle present)"
             }
           ],
-          "morph": "present indicative, 3rd singular (middle)"
+          "morph": "present indicative, 3rd singular (middle)",
+          "root": "√budh"
         },
         {
           "i": 72,
@@ -56961,7 +58109,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "darsana"
+          "glossaryKey": "darsana",
+          "compound": "tatpuruṣa: 'the seeing (darśana) of a dream (svapna)'"
         },
         {
           "i": 75,
@@ -56981,7 +58130,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract suffix)"
             }
           ],
-          "morph": "ablative singular neuter (causal)"
+          "morph": "ablative singular neuter (causal)",
+          "compound": "tatpuruṣa (causal): 'because of lasting up to (paryanta-tva) the awakening (bodhya)'"
         },
         {
           "i": 76,
@@ -56998,7 +58148,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "bhrama"
+          "glossaryKey": "bhrama",
+          "root": "√bhram"
         },
         {
           "i": 77,
@@ -57019,7 +58170,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa: 'at the time (kāla) of the knowledge (jñāna) of truth (tattva)'"
         },
         {
           "i": 78,
@@ -57060,7 +58212,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine (bahuvrīhi)",
-          "glossaryKey": "nimitta-karana"
+          "glossaryKey": "nimitta-karana",
+          "compound": "bahuvrīhi: 'one occasioned (nimitta) by error (bhrama)'"
         },
         {
           "i": 81,
@@ -57101,7 +58254,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "vyavaharika"
+          "glossaryKey": "vyavaharika",
+          "root": "√hṛ"
         },
         {
           "i": 83,
@@ -57129,7 +58283,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 85,
@@ -57146,7 +58301,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural masculine",
-          "glossaryKey": "varttika"
+          "glossaryKey": "varttika",
+          "compound": "tatpuruṣa: 'the makers of the Vārtika (vārtika-kāra)', the Vārtika-author"
         },
         {
           "i": 86,
@@ -57163,7 +58319,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "kartr"
+          "glossaryKey": "kartr",
+          "compound": "tatpuruṣa: 'the transaction (vyavahāra) of agency (kāraka)'"
         },
         {
           "i": 87,
@@ -57235,7 +58392,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. passive present)"
             }
           ],
-          "morph": "present passive, 3rd plural"
+          "morph": "present passive, 3rd plural",
+          "root": "√īkṣ"
         },
         {
           "i": 92,
@@ -57275,7 +58433,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "locative singular neuter (locative absolute)"
+          "morph": "locative singular neuter (locative absolute)",
+          "root": "√sidh"
         },
         {
           "i": 95,
@@ -57287,7 +58446,8 @@ window.GITA_COMMENTARY = {
               "gloss": "and"
             }
           ],
-          "morph": "indeclinable"
+          "morph": "indeclinable",
+          "karaka": "karaṇa"
         },
         {
           "i": 96,
@@ -57304,7 +58464,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "kartr"
+          "glossaryKey": "kartr",
+          "compound": "tatpuruṣa: 'the engagement (vyāpṛti) with agency (kāraka)'"
         },
         {
           "i": 97,
@@ -57336,7 +58497,8 @@ window.GITA_COMMENTARY = {
               "gloss": "night"
             }
           ],
-          "morph": "nominative singular feminine (as adverb-of-comparison)"
+          "morph": "nominative singular feminine (as adverb-of-comparison)",
+          "compound": "dvandva: 'crow-and-owl (kāka-ulūka)' (qualifying niśā), i.e. the night that is night-to-both"
         },
         {
           "i": 99,
@@ -57381,7 +58543,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "samsara"
+          "glossaryKey": "samsara",
+          "root": "√sṛ"
         },
         {
           "i": 102,
@@ -57406,7 +58569,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive dual masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "dvandva: 'the ignorant one and the knower of the Self (ajña-ātma-vedin)'"
         },
         {
           "i": 103,
@@ -57474,7 +58638,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(aorist 3rd sg.)"
             }
           ],
-          "morph": "aorist 3rd singular"
+          "morph": "aorist 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 108,
@@ -57564,7 +58729,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "viparyaya"
+          "glossaryKey": "viparyaya",
+          "compound": "karmadhāraya: 'a contrary (viparīta) view (darśana)'"
         },
         {
           "i": 115,
@@ -57605,7 +58771,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "darsana"
+          "glossaryKey": "darsana",
+          "compound": "tatpuruṣa: 'the seeing (darśana) of reality (vastu)'"
         },
         {
           "i": 118,
@@ -57651,7 +58818,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter (causal)",
-          "glossaryKey": "darsana"
+          "glossaryKey": "darsana",
+          "compound": "tatpuruṣa (causal): 'because of being born (janya-tva) from the non-seeing (a-darśana) of reality (vastu)'"
         },
         {
           "i": 120,
@@ -57754,7 +58922,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular neuter",
-          "glossaryKey": "karana"
+          "glossaryKey": "karana",
+          "compound": "tatpuruṣa: 'the cause (kāraṇa) of the contrary view (viparīta-darśana)'"
         },
         {
           "i": 127,
@@ -57812,7 +58981,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract suffix)"
             }
           ],
-          "morph": "ablative singular neuter (causal)"
+          "morph": "ablative singular neuter (causal)",
+          "root": "√bādh",
+          "compound": "tatpuruṣa (causal): 'because of being sublated (bādhita-tva)'"
         },
         {
           "i": 130,
@@ -57853,7 +59024,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "sruti"
+          "glossaryKey": "sruti",
+          "root": "√śru"
         },
         {
           "i": 133,
@@ -57917,7 +59089,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√as"
         },
         {
           "i": 138,
@@ -57969,7 +59142,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√paś"
         },
         {
           "i": 142,
@@ -58058,7 +59232,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(aorist 3rd sg.)"
             }
           ],
-          "morph": "aorist 3rd singular"
+          "morph": "aorist 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 149,
@@ -58110,7 +59285,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√paś"
         },
         {
           "i": 153,
@@ -58175,7 +59351,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect 3rd singular (present sense)"
+          "morph": "perfect 3rd singular (present sense)",
+          "root": "√ah"
         },
         {
           "i": 157,
@@ -58215,7 +59392,8 @@ window.GITA_COMMENTARY = {
               "gloss": "blind"
             }
           ],
-          "morph": "genitive singular masculine (bahuvrīhi)"
+          "morph": "genitive singular masculine (bahuvrīhi)",
+          "compound": "bahuvrīhi: 'one blind (andha) by night (rātri)'"
         },
         {
           "i": 160,
@@ -58255,7 +59433,8 @@ window.GITA_COMMENTARY = {
               "gloss": "blind"
             }
           ],
-          "morph": "genitive singular masculine (bahuvrīhi)"
+          "morph": "genitive singular masculine (bahuvrīhi)",
+          "compound": "bahuvrīhi: 'one blind (andha) by day (diva)'"
         },
         {
           "i": 163,
@@ -58295,7 +59474,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "genitive singular masculine (present participle)"
+          "morph": "genitive singular masculine (present participle)",
+          "root": "√paś"
         },
         {
           "i": 166,
@@ -58467,7 +59647,8 @@ window.GITA_COMMENTARY = {
               "gloss": "seeing/seer"
             }
           ],
-          "morph": "instrumental plural masculine"
+          "morph": "instrumental plural masculine",
+          "compound": "tatpuruṣa: 'seers (darśin) of truth (tattva)'"
         },
         {
           "i": 180,
@@ -58508,7 +59689,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "kriya"
+          "glossaryKey": "kriya",
+          "compound": "tatpuruṣa: 'the ignorance-born (āvidyaka) transaction (vyavahāra) of action, agent-factor and the rest (kriyā-kāraka-ādi)'"
         },
         {
           "i": 182,
@@ -58524,7 +59706,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(optative 3rd sg.)"
             }
           ],
-          "morph": "optative 3rd singular"
+          "morph": "optative 3rd singular",
+          "root": "√as"
         },
         {
           "i": 183,
@@ -58568,7 +59751,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√sidh"
         },
         {
           "i": 186,
@@ -58788,7 +59972,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "darsana"
+          "glossaryKey": "darsana",
+          "compound": "bahuvrīhi: 'void (śūnya) of the activity (vyāpāra) of seeing and the rest (darśana-ādi)'"
         },
         {
           "i": 7,
@@ -58822,7 +60007,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "bahuvrīhi: 'one whose senses (indriya) are restrained (nigṛhīta)'"
         },
         {
           "i": 9,
@@ -58850,7 +60036,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. passive present)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√dṛś"
         },
         {
           "i": 11,
@@ -58923,7 +60110,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√śaṅk"
         },
         {
           "i": 16,
@@ -58939,7 +60127,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 17,
@@ -59003,7 +60192,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, 'being')"
             }
           ],
-          "morph": "genitive plural neuter"
+          "morph": "genitive plural neuter",
+          "root": "√bhū"
         },
         {
           "i": 22,
@@ -59080,7 +60270,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: 'abiding (niṣṭhā) in the Self (ātman)'"
         },
         {
           "i": 28,
@@ -59105,7 +60296,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural",
-          "glossaryKey": "avidya"
+          "glossaryKey": "avidya",
+          "compound": "bahuvrīhi: 'those whose minds (mati) are veiled (āvṛta) by the darkness (dhvānta) of ignorance (ajñāna)'"
         },
         {
           "i": 29,
@@ -59142,7 +60334,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular",
-          "glossaryKey": "darsana"
+          "glossaryKey": "darsana",
+          "compound": "tatpuruṣa: 'because of the absence (abhāva) of the activity (vyāpāra) of seeing and the rest (darśana-ādi)'"
         },
         {
           "i": 31,
@@ -59192,7 +60385,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "muni"
+          "glossaryKey": "muni",
+          "root": "√yam"
         },
         {
           "i": 34,
@@ -59225,7 +60419,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular (locative noun 'in waking')"
+          "morph": "present indicative, 3rd singular (locative noun 'in waking')",
+          "root": "√jāgṛ"
         },
         {
           "i": 36,
@@ -59245,7 +60440,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√budh"
         },
         {
           "i": 37,
@@ -59290,7 +60486,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, genitive)"
             }
           ],
-          "morph": "genitive singular (present participle)"
+          "morph": "genitive singular (present participle)",
+          "root": "√paś",
+          "karaka": "sambandha"
         },
         {
           "i": 40,
@@ -59303,7 +60501,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular",
-          "glossaryKey": "muni"
+          "glossaryKey": "muni",
+          "karaka": "sambandha"
         },
         {
           "i": 41,
@@ -59380,7 +60579,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 46,
@@ -59432,7 +60632,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 50,
@@ -59448,7 +60649,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 51,
@@ -59532,7 +60734,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√dṛś"
         },
         {
           "i": 57,
@@ -59597,7 +60800,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular masculine",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "tatpuruṣa: 'the knower (jña) of Brahman (brahman)'"
         },
         {
           "i": 62,
@@ -59613,7 +60817,8 @@ window.GITA_COMMENTARY = {
               "gloss": "eye"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "bahuvrīhi: 'one whose eye (akṣa) is opened (unmīlita)'"
         },
         {
           "i": 63,
@@ -59666,7 +60871,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√dṛś"
         },
         {
           "i": 67,
@@ -59836,7 +61042,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 1,
@@ -59853,7 +61060,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "root": "√lakṣ"
         },
         {
           "i": 2,
@@ -59873,7 +61081,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√kṛ"
         },
         {
           "i": 3,
@@ -59889,7 +61098,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 4,
@@ -59990,7 +61200,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "svarupa"
+          "glossaryKey": "svarupa",
+          "compound": "bahuvrīhi: 'marked by (lakṣaṇā) the own-nature (svarūpa) of the Supreme Lord (parama-īśvara)'"
         },
         {
           "i": 11,
@@ -60018,7 +61229,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√svap"
         },
         {
           "i": 13,
@@ -60070,7 +61282,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√jñā"
         },
         {
           "i": 17,
@@ -60103,7 +61316,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "bahuvrīhi: 'joined (yukta) with restraint (saṃyama) of the senses (indriya)'"
         },
         {
           "i": 19,
@@ -60132,7 +61346,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jāgṛ"
         },
         {
           "i": 21,
@@ -60173,7 +61388,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√paś"
         },
         {
           "i": 24,
@@ -60243,7 +61459,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "bahuvrīhi: 'marked by (lakṣaṇā) objects (viṣaya)'"
         },
         {
           "i": 29,
@@ -60271,7 +61488,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√jāgṛ"
         },
         {
           "i": 31,
@@ -60323,7 +61541,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√svap"
         },
         {
           "i": 35,
@@ -60363,7 +61582,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√jñā"
         },
         {
           "i": 38,
@@ -60383,7 +61603,8 @@ window.GITA_COMMENTARY = {
               "gloss": "like"
             }
           ],
-          "morph": "indeclinable"
+          "morph": "indeclinable",
+          "compound": "bahuvrīhi: 'like a madman and such (matta-ādi)'"
         },
         {
           "i": 39,
@@ -60403,7 +61624,8 @@ window.GITA_COMMENTARY = {
               "gloss": "activity"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: 'activity (pravṛtti) such as moving and the rest (gamana-ādi)'"
         },
         {
           "i": 40,
@@ -60431,7 +61653,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past part.)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 42,
@@ -60537,7 +61760,8 @@ window.GITA_COMMENTARY = {
               "gloss": "gone"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'gone (ga) under the control (vaśa) of fate (daiva)', i.e. fate-bound"
         },
         {
           "i": 50,
@@ -60579,7 +61803,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "manana"
+          "glossaryKey": "manana",
+          "compound": "bahuvrīhi: 'joined with (yukta) reflection (manana)'"
         },
         {
           "i": 53,
@@ -60608,7 +61833,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(pres. part.)"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "root": "√paś"
         },
         {
           "i": 55,
@@ -60649,7 +61875,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "sadhana"
+          "glossaryKey": "sadhana",
+          "root": "√sādh"
         },
         {
           "i": 58,
@@ -60665,7 +61892,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         }
       ],
       "english": "{2:Having gathered} {0:the stated} {1:mark} into a sum, he {3:says} {4:‘yā} {5:niśā’}: {7:that which} {9:is night} {8:for all beings}, {10:marked by the nature of the Supreme Lord}, {11:wherein}, {13:as if} {12:asleep}, they {16:know} {15:nothing} {14:—} {17:in that} {19:the knower} {18:joined with restraint of the senses} {20:keeps watch}, {23:sees} {21:rightly} and {22:directly} {24:the Supreme Self}, {26:that is the meaning}. {27:And that wherein} — {28:marked by objects} — {29:beings} {30:are awake}, {31:in that}, {33:as if} {34:asleep} {32:in the night}, he {35:mostly} {36:does not} {37:know}; {39:his movement and other activity} is {38:like a madman’s}. {40:That} {41:is stated} {51:by the two verses} {43:‘} {42:the body}, {44:that} {45:is not} {46:the last’} {47:‘the body} {48:too} {49:is subject to fate’}. {53:‘The sage} is one {52:given to reflection’}; He {58:states} {57:the means} {56:of the} {54:‘seeing’ one}.",
@@ -60727,7 +61955,8 @@ window.GITA_COMMENTARY = {
               "gloss": "passive present participle"
             }
           ],
-          "morph": "accusative singular masculine (present passive participle)"
+          "morph": "accusative singular masculine (present passive participle)",
+          "root": "√pṝ"
         },
         {
           "i": 1,
@@ -60739,7 +61968,8 @@ window.GITA_COMMENTARY = {
               "gloss": "water"
             }
           ],
-          "morph": "instrumental plural feminine"
+          "morph": "instrumental plural feminine",
+          "karaka": "karaṇa"
         },
         {
           "i": 2,
@@ -60760,7 +61990,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "compound": "bahuvrīhi: 'whose station (pratiṣṭhā) is unmoving (a-cala)'"
         },
         {
           "i": 3,
@@ -60801,7 +62032,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 5,
@@ -60821,7 +62053,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act of"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 6,
@@ -60878,7 +62111,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ocean"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "karaka": "karma"
         },
         {
           "i": 10,
@@ -60890,7 +62124,8 @@ window.GITA_COMMENTARY = {
               "gloss": "water"
             }
           ],
-          "morph": "nominative plural feminine"
+          "morph": "nominative plural feminine",
+          "karaka": "kartṛ"
         },
         {
           "i": 11,
@@ -60922,7 +62157,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle"
             }
           ],
-          "morph": "nominative plural feminine (past participle)"
+          "morph": "nominative plural feminine (past participle)",
+          "root": "√gam"
         },
         {
           "i": 13,
@@ -60942,7 +62178,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√viś"
         },
         {
           "i": 14,
@@ -60963,7 +62200,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: 'standing (stha) in its own self (sva-ātman)'"
         },
         {
           "i": 15,
@@ -60987,7 +62225,8 @@ window.GITA_COMMENTARY = {
               "gloss": "modification"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 16,
@@ -61015,7 +62254,8 @@ window.GITA_COMMENTARY = {
               "gloss": "present participle"
             }
           ],
-          "morph": "accusative singular masculine (present participle)"
+          "morph": "accusative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 18,
@@ -61064,7 +62304,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural masculine",
-          "glossaryKey": "kama"
+          "glossaryKey": "kama",
+          "root": "√kam"
         },
         {
           "i": 21,
@@ -61126,7 +62367,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural masculine",
-          "glossaryKey": "visesa"
+          "glossaryKey": "visesa",
+          "compound": "tatpuruṣa: 'particular kinds (viśeṣa) of craving (icchā)'"
         },
         {
           "i": 25,
@@ -61211,7 +62453,8 @@ window.GITA_COMMENTARY = {
               "gloss": "present participle"
             }
           ],
-          "morph": "nominative plural masculine (present participle)"
+          "morph": "nominative plural masculine (present participle)",
+          "root": "√kṛ"
         },
         {
           "i": 31,
@@ -61231,7 +62474,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√viś"
         },
         {
           "i": 32,
@@ -61256,7 +62500,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "karaka": "adhikaraṇa"
         },
         {
           "i": 34,
@@ -61288,7 +62533,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. middle present)"
             }
           ],
-          "morph": "present middle, 3rd plural"
+          "morph": "present middle, 3rd plural",
+          "root": "√lī"
         },
         {
           "i": 36,
@@ -61321,7 +62567,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "tatpuruṣa: 'under their own (sva-ātman) sway (vaśa)'"
         },
         {
           "i": 38,
@@ -61337,7 +62584,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√kṛ"
         },
         {
           "i": 39,
@@ -61366,7 +62614,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 41,
@@ -61383,7 +62632,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "moksa"
+          "glossaryKey": "moksa",
+          "root": "√muc"
         },
         {
           "i": 42,
@@ -61399,7 +62649,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 43,
@@ -61440,7 +62691,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "kama"
+          "glossaryKey": "kama",
+          "compound": "bahuvrīhi: 'one who has desiring of desires (kāma) as his habit', the desirer-of-desires (kāmin)"
         },
         {
           "i": 46,
@@ -61460,7 +62712,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. passive present)"
             }
           ],
-          "morph": "present passive, 3rd plural"
+          "morph": "present passive, 3rd plural",
+          "root": "√kam"
         },
         {
           "i": 47,
@@ -61527,7 +62780,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "infinitive",
-          "glossaryKey": "kama"
+          "glossaryKey": "kama",
+          "root": "√kam"
         },
         {
           "i": 52,
@@ -61624,7 +62878,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 59,
@@ -61723,7 +62978,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "compound": "tatpuruṣa: 'the calming (śānti) of all (sarva) distraction (vikṣepa)'"
         },
         {
           "i": 3,
@@ -61751,7 +63007,8 @@ window.GITA_COMMENTARY = {
               "gloss": "accomplished"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: 'accomplished (siddhā) by the matter itself (artha)', automatically"
         },
         {
           "i": 5,
@@ -61779,7 +63036,8 @@ window.GITA_COMMENTARY = {
               "gloss": "illustration, example"
             }
           ],
-          "morph": "accusative singular (adverbial)"
+          "morph": "accusative singular (adverbial)",
+          "compound": "bahuvrīhi (adverbial): 'with (sa-) an illustration (dṛṣṭānta)'"
         },
         {
           "i": 7,
@@ -61795,7 +63053,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 8,
@@ -61815,7 +63074,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present passive participle)"
             }
           ],
-          "morph": "accusative singular masculine (present passive participle)"
+          "morph": "accusative singular masculine (present passive participle)",
+          "root": "√pṝ"
         },
         {
           "i": 9,
@@ -61851,7 +63111,8 @@ window.GITA_COMMENTARY = {
               "gloss": "river"
             }
           ],
-          "morph": "instrumental plural feminine"
+          "morph": "instrumental plural feminine",
+          "karaka": "karaṇa"
         },
         {
           "i": 12,
@@ -61871,7 +63132,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present passive participle)"
             }
           ],
-          "morph": "accusative singular masculine (present passive participle)"
+          "morph": "accusative singular masculine (present passive participle)",
+          "root": "√pṝ"
         },
         {
           "i": 13,
@@ -61887,7 +63149,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "accusative singular masculine (present participle)"
+          "morph": "accusative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 14,
@@ -61907,7 +63170,8 @@ window.GITA_COMMENTARY = {
               "gloss": "arising, origin"
             }
           ],
-          "morph": "nominative plural feminine"
+          "morph": "nominative plural feminine",
+          "compound": "bahuvrīhi: 'arising from (prabhava) rain and the rest (vṛṣṭi-ādi)'"
         },
         {
           "i": 15,
@@ -61979,7 +63243,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√viś"
         },
         {
           "i": 20,
@@ -62032,7 +63297,8 @@ window.GITA_COMMENTARY = {
               "gloss": "bound, limit"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "compound": "bahuvrīhi: 'one that has not overstepped (an-atikrānta) its bound (maryādā)'"
         },
         {
           "i": 23,
@@ -62064,7 +63330,8 @@ window.GITA_COMMENTARY = {
               "gloss": "and the rest"
             }
           ],
-          "morph": "genitive plural masculine"
+          "morph": "genitive plural masculine",
+          "compound": "tatpuruṣa: 'of Maināka and the rest (maināka-ādi)'"
         },
         {
           "i": 25,
@@ -62085,7 +63352,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "root": "√sthā"
         },
         {
           "i": 26,
@@ -62137,7 +63405,8 @@ window.GITA_COMMENTARY = {
               "gloss": "excess, superabundance"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'an excess (atiśaya) of depth (gāmbhīrya)'"
         },
         {
           "i": 30,
@@ -62153,7 +63422,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√vac"
         },
         {
           "i": 31,
@@ -62281,7 +63551,8 @@ window.GITA_COMMENTARY = {
               "gloss": "manner"
             }
           ],
-          "morph": "instrumental singular masculine"
+          "morph": "instrumental singular masculine",
+          "compound": "tatpuruṣa: 'by the manner (prakāra) of unmodifiedness (nirvikāra-tva)'"
         },
         {
           "i": 39,
@@ -62354,7 +63625,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "accusative singular masculine (present participle)"
+          "morph": "accusative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 44,
@@ -62411,7 +63683,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present passive participle)"
             }
           ],
-          "morph": "nominative plural masculine (present passive participle)"
+          "morph": "nominative plural masculine (present passive participle)",
+          "root": "√kam"
         },
         {
           "i": 48,
@@ -62514,7 +63787,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√viś"
         },
         {
           "i": 54,
@@ -62558,7 +63832,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√kṛ"
         },
         {
           "i": 57,
@@ -62574,7 +63849,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√śak"
         },
         {
           "i": 58,
@@ -62606,7 +63882,8 @@ window.GITA_COMMENTARY = {
               "gloss": "standing in the place of"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'occupying the place of (sthānīya) the great sea (mahā-samudra)'"
         },
         {
           "i": 60,
@@ -62640,7 +63917,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 62,
@@ -62673,7 +63951,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "compound": "tatpuruṣa: 'the cessation (nivṛtti) of all worldly and supra-worldly (sarva-laukika-alaukika) distraction (vikṣepa) of action (karma)'"
         },
         {
           "i": 63,
@@ -62702,7 +63981,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "avidya"
+          "glossaryKey": "avidya",
+          "compound": "tatpuruṣa: 'the cessation (nivṛtti) of the effect (kārya) of the sublated-but-continuing (bādhita-anuvṛtta) ignorance (avidyā)'"
         },
         {
           "i": 64,
@@ -62730,7 +64010,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 66,
@@ -62747,7 +64028,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa: 'by the power (bala) of knowledge (jñāna)'"
         },
         {
           "i": 67,
@@ -62818,7 +64100,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√kam"
         },
         {
           "i": 72,
@@ -62904,7 +64187,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 78,
@@ -62928,7 +64212,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√khyā"
         },
         {
           "i": 79,
@@ -62956,7 +64241,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 81,
@@ -63021,7 +64307,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "compound": "tatpuruṣa: 'by the distraction (vikṣepa) of worldly and supra-worldly (laukika-alaukika) action (karma)'"
         },
         {
           "i": 85,
@@ -63050,7 +64337,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "klesa"
+          "glossaryKey": "klesa",
+          "compound": "tatpuruṣa: 'in the ocean (arṇava) of affliction (kleśa)'"
         },
         {
           "i": 87,
@@ -63066,7 +64354,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√majj"
         },
         {
           "i": 88,
@@ -63082,7 +64371,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 89,
@@ -63110,7 +64400,8 @@ window.GITA_COMMENTARY = {
               "gloss": "meaning, sense"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'the sense (artha) of the sentence (vākya)'"
         },
         {
           "i": 91,
@@ -63167,7 +64458,8 @@ window.GITA_COMMENTARY = {
               "gloss": "being, become"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "karmadhāraya: 'being (bhūta) the fruit (phala)'"
         },
         {
           "i": 95,
@@ -63184,7 +64476,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "samnyasa"
+          "glossaryKey": "samnyasa",
+          "compound": "tatpuruṣa: 'the renunciation (saṃnyāsa) of the knower (vidvat)'"
         },
         {
           "i": 96,
@@ -63244,7 +64537,8 @@ window.GITA_COMMENTARY = {
               "gloss": "form, nature"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "tatpuruṣa: 'having the form (rūpa) of the cessation (nivṛtti) of all (sarva) distraction (vikṣepa)'"
         },
         {
           "i": 100,
@@ -63261,7 +64555,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "jivanmukta"
+          "glossaryKey": "jivanmukta",
+          "compound": "karmadhāraya: 'liberation (mukti) while living (jīvat)'"
         },
         {
           "i": 101,
@@ -63294,7 +64589,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "compound": "tatpuruṣa: 'in the experiencing (bhoga) of objects (viṣaya) that have fallen to one (āhīna)'"
         },
         {
           "i": 103,
@@ -63370,7 +64666,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 108,
@@ -63386,7 +64683,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter (gerundive)"
+          "morph": "nominative singular neuter (gerundive)",
+          "root": "√vid"
         }
       ],
       "english": "That for {0:such a one}, the {1:sthita-prajña}, {3:even} {2:the calming of all distraction} is {4:automatically achieved}, {5:thus} {7:He states} {6:with an illustration} by {8:‘āpūryamāṇam’} {9:—}. {12:Being filled} {10:by all} {11:the rivers}, {13:being} so, the {14:waters arising from rain and the rest} {15:too}, {16:all of them}, {17:the waters}, {19:enter} the {18:sea}. {20:What kind of} sea? {21:‘Unmoving in its station’}, {22:not overstepping its bound}; {28:or} {25:‘the station} {23:of the unmoving} (mountains), {24:Maināka and the rest} {26:that in which} they have, {27:thus} — by which {29:excess of depth} {30:is stated}. {31:Just as}, {32:by which} {33:manner} {34:of being unmodified}, {35:so}, {36:by that} {37:very} {38:manner of being unmodified}, the {40:sthita-prajña} {39:whom}, {43:remaining} {41:unmodified} {42:verily}, the {44:kāmas (desire as craving for objects)} — the {50:objects}, {48:sound and the rest}, {47:being desired} {45:by the ignorant} {46:folk} — {49:all} {53:enter} {51:unavoidably} {52:by force of commenced karma} {54:but} {57:cannot} {56:modify} {55:—}, {58:that one}, {59:in the place of the great sea}, the {60:sthita-prajña}, {65:attains} {61:peace} — {62:the cessation of all worldly and supra-worldly distraction of action}, {64:and} {63:the cessation of the effects of the sublated-but-continuing ignorance} — {66:by the power of knowledge}. {67:Not} the {68:kāma-desirer}: {73:he whose} {72:nature} is {71:to desire} the {69:kāmas}, the {70:objects}, {74:he}, the {75:kāma-desirer}, {76:the ignorant}, {79:does not} {80:attain} the {78:aforesaid} {77:peace}; {81:rather} {82:but} he is, {83:at all times}, {87:sunk} {85:in the great} {86:ocean of affliction} {84:by the distraction of worldly and supra-worldly action} {88:is} {89:—} {90:that is the sense of the sentence}. {91:By this} it {107:is stated and} {108:is to be understood} that {95:the renunciation-of-the-knower}, {94:being the fruit} {92:of the knower} {93:alone}, {98:and} {99:of the form of the cessation of all distraction}, {97:alone} {96:his} {100:liberation-while-living}, {103:and even} {104:the being-unmodified} {102:in the experience of objects fallen to one} {101:by fate}, {105:and} {106:so on}, are stated.",
@@ -63458,7 +64756,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: 'in the absence (abhāva) of sight (dṛṣṭi)'"
         },
         {
           "i": 3,
@@ -63510,7 +64809,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. middle present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhuj"
         },
         {
           "i": 7,
@@ -63542,7 +64842,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "root": "√īkṣ"
         },
         {
           "i": 9,
@@ -63558,7 +64859,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 10,
@@ -63578,7 +64880,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive participle)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√pṝ"
         },
         {
           "i": 11,
@@ -63610,7 +64913,8 @@ window.GITA_COMMENTARY = {
               "gloss": "river"
             }
           ],
-          "morph": "instrumental plural feminine"
+          "morph": "instrumental plural feminine",
+          "compound": "dvandva: 'by streams and rivers (nada-nadī)', preceded by nānā 'various'"
         },
         {
           "i": 13,
@@ -63630,7 +64934,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive participle)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√pṝ"
         },
         {
           "i": 14,
@@ -63791,7 +65096,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√viś"
         },
         {
           "i": 25,
@@ -63870,7 +65176,8 @@ window.GITA_COMMENTARY = {
               "gloss": "sight, seeing"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "compound": "bahuvrīhi: 'one whose sight (dṛṣṭi) is inward (antar)'"
         },
         {
           "i": 31,
@@ -63886,7 +65193,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "instrumental plural"
+          "morph": "instrumental plural",
+          "root": "√bhuj"
         },
         {
           "i": 32,
@@ -63910,7 +65218,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive participle)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 33,
@@ -63959,7 +65268,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "root": "√kṣip"
         },
         {
           "i": 36,
@@ -63975,7 +65285,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative plural masculine (present participle)"
+          "morph": "nominative plural masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 37,
@@ -63995,7 +65306,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd pl. present)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√viś"
         },
         {
           "i": 38,
@@ -64024,7 +65336,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 40,
@@ -64041,7 +65354,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "kaivalya"
+          "glossaryKey": "kaivalya",
+          "compound": "tatpuruṣa: 'the state of being alone (kevala)', isolation"
         },
         {
           "i": 41,
@@ -64061,7 +65375,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 42,
@@ -64122,7 +65437,8 @@ window.GITA_COMMENTARY = {
               "gloss": "nature, habit"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'one whose habit (śīla) is the craving (kāmanā) for enjoyment (bhoga)'"
         }
       ],
       "english": "{0:But surely}, {2:in the absence of sight} {1:toward objects}, {3:how} {4:does he} {6:enjoy} {5:them}? {7:Thus} {8:expecting this}, {9:He says}, {11:} {10:‘āpūryamāṇam’}. {23:Just as} into {18:the sea}, {13:though filled} {12:by various streams and rivers} {14:yet} {15:‘unmoving in its station’}, {16:not overstepping its bound}{17:,} {21:other} {22:waters} {19:again} {20:also} {24:enter}, {25:so} {26:the kāmas (desire as craving for objects)}, {27:the objects}, {37:enter} {29:the sage} {28:whom}, {30:of inward sight}, {32:who is unmodified} {31:by the enjoyments}{33:,} {35:drawn in} {34:by commenced karma}, {36:being}; {38:he} {41:attains} {39:peace}, {40:isolation (kaivalya)}. {42:But not} {44:the kāma-desirer}, {45:whose nature is the craving for enjoyment}.",
@@ -64185,7 +65501,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "anubhava"
+          "glossaryKey": "anubhava",
+          "compound": "tatpuruṣa: 'the manner (prakāra) of the experience (anubhava) of objects (viṣaya)'"
         },
         {
           "i": 2,
@@ -64201,7 +65518,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(perfect 3rd sg.)"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√ah"
         },
         {
           "i": 3,
@@ -64221,7 +65539,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(pres. pass. part.)"
             }
           ],
-          "morph": "accusative singular masculine, present passive participle"
+          "morph": "accusative singular masculine, present passive participle",
+          "root": "√pṝ"
         },
         {
           "i": 4,
@@ -64258,7 +65577,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural masculine",
-          "glossaryKey": "visaya"
+          "glossaryKey": "visaya",
+          "karaka": "karaṇa"
         },
         {
           "i": 7,
@@ -64278,7 +65598,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(pres. pass. part.)"
             }
           ],
-          "morph": "nominative singular masculine, present passive participle"
+          "morph": "nominative singular masculine, present passive participle",
+          "root": "√pṝ"
         },
         {
           "i": 8,
@@ -64311,7 +65632,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "pratistha"
+          "glossaryKey": "pratistha",
+          "compound": "bahuvrīhi: 'whose station (pratiṣṭhā) is unmoving (a-cala)'"
         },
         {
           "i": 10,
@@ -64327,7 +65649,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 11,
@@ -64359,7 +65682,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√sic"
         },
         {
           "i": 13,
@@ -64379,7 +65703,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 14,
@@ -64423,7 +65748,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√yat"
         },
         {
           "i": 17,
@@ -64439,7 +65765,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 18,
@@ -64492,7 +65819,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√śuṣ"
         },
         {
           "i": 22,
@@ -64561,7 +65889,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative dual masculine",
-          "glossaryKey": "nimitta-karana"
+          "glossaryKey": "nimitta-karana",
+          "compound": "tatpuruṣa-dvandva: 'the increase and shrinkage (vṛddhi-śoṣa) occasioned (nimitta) by the entry and non-entry (praveśa-apraveśa) of rivers (sarit)'"
         },
         {
           "i": 26,
@@ -64597,7 +65926,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 28,
@@ -64617,7 +65947,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√yat"
         },
         {
           "i": 29,
@@ -64645,7 +65976,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 31,
@@ -64673,7 +66005,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√muc"
         },
         {
           "i": 33,
@@ -64693,7 +66026,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 34,
@@ -64769,7 +66103,8 @@ window.GITA_COMMENTARY = {
               "gloss": "absolutive"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√hā"
         },
         {
           "i": 1,
@@ -64789,7 +66124,8 @@ window.GITA_COMMENTARY = {
               "gloss": "absolutive"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√tyaj"
         },
         {
           "i": 2,
@@ -64802,7 +66138,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural masculine",
-          "glossaryKey": "kama"
+          "glossaryKey": "kama",
+          "karaka": "karma"
         },
         {
           "i": 3,
@@ -64839,7 +66176,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "samnyasa"
+          "glossaryKey": "samnyasa",
+          "root": "√as"
         },
         {
           "i": 5,
@@ -64915,7 +66253,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√car"
         },
         {
           "i": 10,
@@ -64939,7 +66278,8 @@ window.GITA_COMMENTARY = {
               "gloss": "remainder, what is left"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'whose remaining activity (ceṣṭā-śeṣa) is only for mere (mātra) living (jīvana)'"
         },
         {
           "i": 11,
@@ -64959,7 +66299,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√aṭ"
         },
         {
           "i": 12,
@@ -65000,7 +66341,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "trsna",
+          "compound": "bahuvrīhi: 'one from whom longing (spṛhā) has gone out (niḥ-)', free of longing"
         },
         {
           "i": 15,
@@ -65020,7 +66362,8 @@ window.GITA_COMMENTARY = {
               "gloss": "mere, only"
             }
           ],
-          "morph": "locative singular neuter"
+          "morph": "locative singular neuter",
+          "compound": "tatpuruṣa: 'in mere (mātra) bodily living (śarīra-jīvana)'"
         },
         {
           "i": 16,
@@ -65052,7 +66395,8 @@ window.GITA_COMMENTARY = {
               "gloss": "past participle"
             }
           ],
-          "morph": "nominative singular feminine (past participle)"
+          "morph": "nominative singular feminine (past participle)",
+          "root": "√gam"
         },
         {
           "i": 18,
@@ -65122,7 +66466,8 @@ window.GITA_COMMENTARY = {
               "gloss": "present participle"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 23,
@@ -65138,7 +66483,8 @@ window.GITA_COMMENTARY = {
               "gloss": "mine"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'one without (nis-) mineness (mama)'"
         },
         {
           "i": 24,
@@ -65166,7 +66512,8 @@ window.GITA_COMMENTARY = {
               "gloss": "possession, holding"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "compound": "tatpuruṣa: 'in the possessions (parigraha) drawn in (ākṣipta) for mere bodily living (śarīra-jīvana-mātra)'"
         },
         {
           "i": 25,
@@ -65230,7 +66577,8 @@ window.GITA_COMMENTARY = {
               "gloss": "devoid of, free from"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'devoid of (varjita) clinging (abhiniveśa)'"
         },
         {
           "i": 30,
@@ -65247,7 +66595,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "ahankara"
+          "glossaryKey": "ahankara",
+          "compound": "bahuvrīhi: 'one without (nis-) I-making (ahaṃkāra)'"
         },
         {
           "i": 31,
@@ -65280,7 +66629,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "nimitta-karana"
+          "glossaryKey": "nimitta-karana",
+          "compound": "tatpuruṣa: 'devoid of (rahita) the self-imagining (ātma-saṃbhāvanā) occasioned (nimitta) by being-learned and the rest (vidyāvattva-ādi)'"
         },
         {
           "i": 32,
@@ -65332,7 +66682,8 @@ window.GITA_COMMENTARY = {
               "gloss": "become, being"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'one who has become thus (evam-bhūta)'"
         },
         {
           "i": 36,
@@ -65349,7 +66700,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "bahuvrīhi: 'one whose insight (prajña) is settled (sthita)'"
         },
         {
           "i": 37,
@@ -65366,7 +66718,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "tatpuruṣa: 'the knower (vit) of Brahman (brahman)'"
         },
         {
           "i": 38,
@@ -65383,7 +66736,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 39,
@@ -65412,7 +66766,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "samsara"
+          "glossaryKey": "samsara",
+          "compound": "tatpuruṣa: 'marked by (lakṣaṇa) the cessation (uparama) of all the sorrow (duḥkha) of saṃsāra (sarva-saṃsāra)'"
         },
         {
           "i": 40,
@@ -65429,7 +66784,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "brahmanirvana"
+          "glossaryKey": "brahmanirvana",
+          "compound": "bahuvrīhi: 'called (ākhyā) nirvāṇa'"
         },
         {
           "i": 41,
@@ -65449,7 +66805,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 42,
@@ -65469,7 +66826,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 43,
@@ -65486,7 +66844,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "bahuvrīhi: 'one who has become (bhūta) Brahman (brahman)'"
         },
         {
           "i": 44,
@@ -65502,7 +66861,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 45,
@@ -65617,7 +66977,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√hā"
         },
         {
           "i": 4,
@@ -65649,7 +67010,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "root": "√āp"
         },
         {
           "i": 6,
@@ -65705,7 +67067,8 @@ window.GITA_COMMENTARY = {
               "gloss": "and the rest"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "compound": "tatpuruṣa: 'house, field and the rest (gṛha-kṣetra-ādi)'"
         },
         {
           "i": 10,
@@ -65738,7 +67101,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural masculine",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "compound": "bahuvrīhi: 'of the form (rūpa) of a mental kingdom (manas-rājya)'"
         },
         {
           "i": 12,
@@ -65759,7 +67123,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative plural masculine",
-          "glossaryKey": "vasana"
+          "glossaryKey": "vasana",
+          "compound": "bahuvrīhi: 'of the form (rūpa) of mere (mātra) latent impression (vāsanā)'"
         },
         {
           "i": 13,
@@ -65799,7 +67164,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√gam"
         },
         {
           "i": 16,
@@ -65819,7 +67185,8 @@ window.GITA_COMMENTARY = {
               "gloss": "form"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "compound": "bahuvrīhi: 'of the form (rūpa) of the touch (sparśa) of grass (tṛṇa)'"
         },
         {
           "i": 17,
@@ -65848,7 +67215,8 @@ window.GITA_COMMENTARY = {
               "gloss": "kind, sort"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "compound": "bahuvrīhi: 'of three kinds (vidha)', threefold"
         },
         {
           "i": 19,
@@ -65868,7 +67236,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√hā"
         },
         {
           "i": 20,
@@ -65888,7 +67257,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√īkṣ"
         },
         {
           "i": 21,
@@ -65953,7 +67323,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 25,
@@ -66007,7 +67378,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: 'toward body, senses and the rest (śarīra-indriya-ādi)'"
         },
         {
           "i": 28,
@@ -66060,7 +67432,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sunyata"
+          "glossaryKey": "sunyata",
+          "compound": "bahuvrīhi: 'void (śūnya) of the conceit (abhimāna)'"
         },
         {
           "i": 32,
@@ -66173,7 +67546,8 @@ window.GITA_COMMENTARY = {
               "gloss": "sake, purpose"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "compound": "tatpuruṣa: 'for the sake (artha) of mere (mātra) bodily sustenance (śarīra-yātrā)'"
         },
         {
           "i": 38,
@@ -66206,7 +67580,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "prarabdha"
+          "glossaryKey": "prarabdha",
+          "compound": "tatpuruṣa: 'drawn in (ākṣipta) by commenced karma (prārabdha-karma)'"
         },
         {
           "i": 40,
@@ -66226,7 +67601,8 @@ window.GITA_COMMENTARY = {
               "gloss": "and the like"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "compound": "tatpuruṣa: 'the loincloth, covering and the like (kaupīna-ācchādana-ādi)'"
         },
         {
           "i": 41,
@@ -66278,7 +67654,8 @@ window.GITA_COMMENTARY = {
               "gloss": "devoid of, excepting"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'devoid of (varjita) the conceit (abhimāna)'"
         },
         {
           "i": 45,
@@ -66294,7 +67671,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 46,
@@ -66334,7 +67712,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√car"
         },
         {
           "i": 49,
@@ -66355,7 +67734,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "prarabdha"
+          "glossaryKey": "prarabdha",
+          "compound": "tatpuruṣa: 'by force (vaśa) of commenced karma (prārabdha-karma)'",
+          "karaka": "karaṇa"
         },
         {
           "i": 50,
@@ -66367,7 +67748,8 @@ window.GITA_COMMENTARY = {
               "gloss": "enjoyment, experience"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "karaka": "karma"
         },
         {
           "i": 51,
@@ -66383,7 +67765,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. middle present)"
             }
           ],
-          "morph": "present middle, 3rd singular"
+          "morph": "present middle, 3rd singular",
+          "root": "√bhuj"
         },
         {
           "i": 52,
@@ -66447,7 +67830,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 56,
@@ -66533,7 +67917,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 62,
@@ -66562,7 +67947,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "samsara"
+          "glossaryKey": "samsara",
+          "compound": "tatpuruṣa: 'marked by (lakṣaṇa) the cessation (uparama) of all the sorrow (duḥkha) of saṃsāra (sarva-saṃsāra)'"
         },
         {
           "i": 63,
@@ -66587,7 +67973,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "avidya"
+          "glossaryKey": "avidya",
+          "compound": "tatpuruṣa: 'the cessation (nivṛtti) of ignorance and its effect (avidyā-tat-kārya)'"
         },
         {
           "i": 64,
@@ -66607,7 +67994,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 65,
@@ -66644,7 +68032,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 67,
@@ -66696,7 +68085,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vraj"
         },
         {
           "i": 71,
@@ -66741,7 +68131,8 @@ window.GITA_COMMENTARY = {
               "gloss": "question"
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "tatpuruṣa: 'of the fourth (caturtha) question (praśna)'"
         },
         {
           "i": 74,
@@ -66777,7 +68168,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√āp"
         }
       ],
       "english": "{0:Since} it is {1:thus}, {2:therefore} {3:‘vihāya’} {4:—}. {6:Even} {5:the gained ones} — {7:all} the {8:outer}, {9:house, field and the rest}; the {10:inner}, {11:of the form of mental kingdom}; {13:and} {12:the mere latent impressions}; and, {15:while walking} {14:the path}, {16:of the form of the touch of grass} — these {18:threefold} {17:kāmas (desire as craving for objects)}, {19:giving up}, {20:disregarding}, {23:being free of longing} {22:even} toward {21:mere bodily living}; {25:since} he is {26:‘without I-making’}, {31:void of the conceit} {28:‘this} {29:I} {30:am’} toward {27:body, senses and the rest}, {34:or} {32:devoid of the self-imagining occasioned by being learned and the like} {33:—}; {35:hence} {36:‘without mineness’}, {44:devoid of the conceit} {41:‘this} {42:is mine’} {43:—} {38:even} toward {40:the loincloth, covering and the like} {39:drawn in by commenced karma} {37:for mere bodily sustenance} — {45:being so}, the {47:man} {46:who} {48:‘moves’}, who {49:by force of commenced karma} {51:enjoys} {50:enjoyments}, {57:or} {55:goes} {53:wherever} {54:anywhere at all} {52:spontaneously} {56:—}, {58:such a one}, {59:being so}, the {60:sthita-prajña}, {64:attains} {61:peace}, {62:marked by the cessation of all the sorrow of saṃsāra}, {63:the cessation of ignorance and its effect}, {66:gains it} {65:by the power of knowledge}. {67:Thus} {68:this} {69:kind of} {70:‘moving’} is {71:the sthita-prajña’s} {72:—} the {74:answer} {73:to the fourth question} {75:is completed}.",
@@ -66858,7 +68250,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√hā"
         },
         {
           "i": 4,
@@ -66890,7 +68283,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "root": "√āp"
         },
         {
           "i": 6,
@@ -66923,7 +68317,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√hā"
         },
         {
           "i": 8,
@@ -66939,7 +68334,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√tyaj"
         },
         {
           "i": 9,
@@ -66959,7 +68355,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√īkṣ"
         },
         {
           "i": 10,
@@ -67070,7 +68467,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative plural",
-          "glossaryKey": "sadhana"
+          "glossaryKey": "sadhana",
+          "compound": "tatpuruṣa: 'toward the means (sādhana) of their (tad) enjoyment (bhoga)'"
         },
         {
           "i": 17,
@@ -67102,7 +68500,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√as"
         },
         {
           "i": 19,
@@ -67118,7 +68517,8 @@ window.GITA_COMMENTARY = {
               "gloss": "sight, seeing"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'one whose sight (dṛṣṭi) is inward (antar)'"
         },
         {
           "i": 20,
@@ -67134,7 +68534,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√bhū"
         },
         {
           "i": 21,
@@ -67162,7 +68563,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√car"
         },
         {
           "i": 23,
@@ -67179,7 +68581,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular",
-          "glossaryKey": "prarabdha"
+          "glossaryKey": "prarabdha",
+          "compound": "tatpuruṣa: 'by force (vaśa) of commenced (prārabdha) karma'"
         },
         {
           "i": 24,
@@ -67195,7 +68598,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative plural masculine"
+          "morph": "accusative plural masculine",
+          "root": "√bhuj"
         },
         {
           "i": 25,
@@ -67211,7 +68615,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. middle present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhuj"
         },
         {
           "i": 26,
@@ -67263,7 +68668,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 30,
@@ -67304,7 +68710,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√śam"
         },
         {
           "i": 33,
@@ -67324,7 +68731,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         }
       ],
       "english": "{0:Since} {1:it is thus}, {2:therefore} {4:} {3:‘vihāya’}. {7:Giving up} {5:the gained} {6:kāmas (desire as craving for objects)}, {8:abandoning}, {9:disregarding} them, {11:and} {12:‘free of longing’} {10:toward the ungained}; {13:since} he is {14:‘without I-making’}, {15:and hence} {17:‘without mineness’} {16:toward the means of their enjoyment}, {18:being}, {20:having become} {19:of inward sight}, {21:the man who} {22:‘moves’}, who {23:by force of commenced karma} {25:enjoys} {24:enjoyments}, {26:wherever} {27:anywhere} {28:whatever} {30:or} {29:goes} — {31:he} {33:attains} {32:peace}.",
@@ -67418,7 +68826,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√hā"
         },
         {
           "i": 4,
@@ -67477,7 +68886,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular feminine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "trsna",
+          "compound": "tatpuruṣa: 'by the state of being free of longing (niḥspṛha-tā)'"
         },
         {
           "i": 8,
@@ -67497,7 +68907,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerund)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√hā"
         },
         {
           "i": 9,
@@ -67525,7 +68936,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√car"
         },
         {
           "i": 11,
@@ -67541,7 +68953,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhakṣ"
         },
         {
           "i": 12,
@@ -67557,7 +68970,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "present indicative, 1st singular"
+          "morph": "present indicative, 1st singular",
+          "root": "√bhakṣ"
         },
         {
           "i": 13,
@@ -67602,7 +69016,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "ahankara"
+          "glossaryKey": "ahankara",
+          "compound": "tatpuruṣa: 'devoid of (varjita) the I-making and the mineness (ahaṅkāra-mamakāra)'"
         },
         {
           "i": 16,
@@ -67690,7 +69105,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√muc"
         },
         {
           "i": 23,
@@ -67710,7 +69126,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd sg. present)"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 24,
@@ -67794,7 +69211,8 @@ window.GITA_COMMENTARY = {
               "gloss": "said, stated"
             }
           ],
-          "morph": "nominative singular feminine (past participle compound)"
+          "morph": "nominative singular feminine (past participle compound)",
+          "compound": "karmadhāraya: 'as said before (yathā-ukta)', the aforesaid"
         },
         {
           "i": 2,
@@ -67824,7 +69242,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "karaka": "adhikaraṇa"
         },
         {
           "i": 4,
@@ -67840,7 +69259,8 @@ window.GITA_COMMENTARY = {
               "gloss": "adjective (occurring in)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√bhū"
         },
         {
           "i": 5,
@@ -67868,7 +69288,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act/state of"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 7,
@@ -67893,7 +69314,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "karaka": "karma"
         },
         {
           "i": 9,
@@ -67918,7 +69340,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "absolutive",
-          "glossaryKey": "samnyasa"
+          "glossaryKey": "samnyasa",
+          "root": "√as"
         },
         {
           "i": 10,
@@ -67935,7 +69358,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular neuter",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "tatpuruṣa: 'in the very form (rūpa) of Brahman (brahman)'"
         },
         {
           "i": 11,
@@ -67967,7 +69391,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act of"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√sthā"
         },
         {
           "i": 13,
@@ -68059,7 +69484,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act/state of"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 20,
@@ -68079,7 +69505,8 @@ window.GITA_COMMENTARY = {
               "gloss": "absolutive"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 21,
@@ -68095,7 +69522,8 @@ window.GITA_COMMENTARY = {
               "gloss": "absolutive"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√labh"
         },
         {
           "i": 22,
@@ -68124,7 +69552,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "moha"
+          "glossaryKey": "moha",
+          "root": "√muh"
         },
         {
           "i": 24,
@@ -68153,7 +69582,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "moha"
+          "glossaryKey": "moha",
+          "root": "√muh"
         },
         {
           "i": 26,
@@ -68169,7 +69599,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to reach, attain"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 27,
@@ -68185,7 +69616,8 @@ window.GITA_COMMENTARY = {
               "gloss": "absolutive"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√sthā"
         },
         {
           "i": 28,
@@ -68213,7 +69645,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act/state of"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 30,
@@ -68262,7 +69695,8 @@ window.GITA_COMMENTARY = {
               "gloss": "time"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "compound": "tatpuruṣa: 'at the final (anta) time (kāla)'"
         },
         {
           "i": 33,
@@ -68327,7 +69761,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "brahmanirvana"
+          "glossaryKey": "brahmanirvana",
+          "compound": "tatpuruṣa: 'the going-out (nirvāṇa) into Brahman (brahman)', extinction in Brahman"
         },
         {
           "i": 38,
@@ -68344,7 +69779,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "brahmanirvana"
+          "glossaryKey": "brahmanirvana",
+          "compound": "tatpuruṣa: 'the bliss-repose (nirvṛti) in Brahman (brahman)'"
         },
         {
           "i": 39,
@@ -68361,7 +69797,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "moksa"
+          "glossaryKey": "moksa",
+          "root": "√muc"
         },
         {
           "i": 40,
@@ -68373,7 +69810,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go, reach"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√ṛ"
         },
         {
           "i": 41,
@@ -68385,7 +69823,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 42,
@@ -68425,7 +69864,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ought to be (gerundive)"
             }
           ],
-          "morph": "nominative singular neuter (gerundive)"
+          "morph": "nominative singular neuter (gerundive)",
+          "root": "√vac"
         },
         {
           "i": 45,
@@ -68442,7 +69882,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular neuter",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "tatpuruṣa: 'from (the stage of) the conduct (carya) of sacred study (brahman)', studentship"
         },
         {
           "i": 46,
@@ -68479,7 +69920,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "absolutive",
-          "glossaryKey": "samnyasa"
+          "glossaryKey": "samnyasa",
+          "root": "√as"
         },
         {
           "i": 48,
@@ -68496,7 +69938,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "adverbial accusative",
-          "glossaryKey": "jiva"
+          "glossaryKey": "jiva",
+          "compound": "avyayībhāva: 'for as long as (yāvat) life (jīva) lasts', life-long"
         },
         {
           "i": 49,
@@ -68549,7 +69992,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to stand"
             }
           ],
-          "morph": "present middle, 3rd singular"
+          "morph": "present middle, 3rd singular",
+          "root": "√sthā"
         },
         {
           "i": 53,
@@ -68590,7 +70034,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go, reach"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√ṛ"
         },
         {
           "i": 56,
@@ -68701,7 +70146,8 @@ window.GITA_COMMENTARY = {
               "gloss": "pretext, way, device"
             }
           ],
-          "morph": "instrumental singular masculine"
+          "morph": "instrumental singular masculine",
+          "compound": "tatpuruṣa: 'by way (vyāja) of the answer (uttara)'"
         },
         {
           "i": 5,
@@ -68734,7 +70180,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "tatpuruṣa: 'the marks (lakṣaṇa) of the sthita-prajña (sthita-prajña)'"
         },
         {
           "i": 7,
@@ -68754,7 +70201,8 @@ window.GITA_COMMENTARY = {
               "gloss": "the state of"
             }
           ],
-          "morph": "instrumental singular feminine"
+          "morph": "instrumental singular feminine",
+          "compound": "tatpuruṣa: 'as something to be done (kartavya-tā) by the seeker of release (mumukṣu)'"
         },
         {
           "i": 8,
@@ -68770,7 +70218,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√kath"
         },
         {
           "i": 9,
@@ -68807,7 +70256,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "compound": "karmadhāraya: 'being (bhūta) the fruit (phala) of karma-yoga (karma-yoga)'"
         },
         {
           "i": 11,
@@ -68824,7 +70274,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "nistha"
+          "glossaryKey": "nistha",
+          "compound": "tatpuruṣa: 'the steadfastness (niṣṭhā) in Sāṅkhya (sāṅkhya)'"
         },
         {
           "i": 12,
@@ -68840,7 +70291,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√stu"
         },
         {
           "i": 13,
@@ -68860,7 +70312,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 14,
@@ -68921,7 +70374,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular masculine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "tatpuruṣa: 'by way (vyāja) of the mark (lakṣaṇa) of the sthita-prajña (sthita-prajña)'"
         },
         {
           "i": 18,
@@ -68937,7 +70391,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√kath"
         },
         {
           "i": 19,
@@ -68961,7 +70416,8 @@ window.GITA_COMMENTARY = {
               "gloss": "you"
             }
           ],
-          "morph": "dative/genitive singular (enclitic)"
+          "morph": "dative/genitive singular (enclitic)",
+          "karaka": "sampradāna"
         },
         {
           "i": 21,
@@ -68981,7 +70437,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√dhā"
         },
         {
           "i": 22,
@@ -69058,7 +70515,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√vac"
         },
         {
           "i": 28,
@@ -69074,7 +70532,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act/state of"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 29,
@@ -69095,7 +70554,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "nistha"
+          "glossaryKey": "nistha",
+          "root": "√sthā"
         },
         {
           "i": 30,
@@ -69132,7 +70592,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa: 'marked by (lakṣaṇā) the knowledge (jñāna) of the Supreme Self (paramātma) preceded by (pūrvaka) the renunciation (saṃnyāsa) of all (sarva) action (karma)'"
         },
         {
           "i": 31,
@@ -69166,7 +70627,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "bahuvrīhi: 'having Brahman (brahman) for its object (viṣaya)'"
         },
         {
           "i": 33,
@@ -69218,7 +70680,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act/state of"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 37,
@@ -69238,7 +70701,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 38,
@@ -69319,7 +70783,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "moha"
+          "glossaryKey": "moha",
+          "root": "√muh"
         },
         {
           "i": 44,
@@ -69360,7 +70825,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa: 'of (an ignorance) sublated (bādhita) by knowledge (jñāna)'"
         },
         {
           "i": 47,
@@ -69409,7 +70875,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√bhū"
         },
         {
           "i": 50,
@@ -69421,7 +70888,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 51,
@@ -69461,7 +70929,8 @@ window.GITA_COMMENTARY = {
               "gloss": "possibility"
             }
           ],
-          "morph": "ablative singular masculine"
+          "morph": "ablative singular masculine",
+          "compound": "tatpuruṣa (causal): 'because the arising (utpatti) (of ignorance) is impossible (a-sambhava)'"
         },
         {
           "i": 53,
@@ -69489,7 +70958,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act/state of"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 55,
@@ -69569,7 +71039,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√sthā"
         },
         {
           "i": 61,
@@ -69620,7 +71091,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "brahmanirvana"
+          "glossaryKey": "brahmanirvana",
+          "root": "√vā"
         },
         {
           "i": 64,
@@ -69640,7 +71112,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√vṛt"
         },
         {
           "i": 65,
@@ -69657,7 +71130,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "tatpuruṣa: 'having the form (rūpa) of Brahman (brahman)'"
         },
         {
           "i": 66,
@@ -69678,7 +71152,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "brahmanirvana"
+          "glossaryKey": "brahmanirvana",
+          "root": "√vā"
         },
         {
           "i": 67,
@@ -69714,7 +71189,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go, reach"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√ṛ"
         },
         {
           "i": 70,
@@ -69726,7 +71202,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 71,
@@ -69783,7 +71260,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter (gerundive)"
+          "morph": "nominative singular neuter (gerundive)",
+          "root": "√vac"
         },
         {
           "i": 75,
@@ -69849,7 +71327,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "absolutive",
-          "glossaryKey": "samnyasa"
+          "glossaryKey": "samnyasa",
+          "root": "√as"
         },
         {
           "i": 79,
@@ -69911,7 +71390,8 @@ window.GITA_COMMENTARY = {
               "gloss": "act/state of"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 83,
@@ -69927,7 +71407,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to stand"
             }
           ],
-          "morph": "present middle, 3rd singular"
+          "morph": "present middle, 3rd singular",
+          "root": "√sthā"
         },
         {
           "i": 84,
@@ -69968,7 +71449,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go, reach"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√ṛ"
         },
         {
           "i": 87,
@@ -70001,7 +71483,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: 'the sense (artha) of the word (śabda) api'"
         },
         {
           "i": 89,
@@ -70065,7 +71548,8 @@ window.GITA_COMMENTARY = {
               "gloss": "composed"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "compound": "long tatpuruṣa (colophon epithet): '(in the work) composed by the illustrious Madhusūdana Sarasvatī, disciple at the feet (pāda-śiṣya) of Viśveśvara Sarasvatī, the supreme-swan wandering-mendicant teacher (paramahaṃsa-parivrājaka-ācārya)'"
         },
         {
           "i": 91,
@@ -70098,7 +71582,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "bhagavan"
+          "glossaryKey": "bhagavan",
+          "compound": "tatpuruṣa: 'in the Gūḍhārtha-dīpikā (gūḍha-artha-dīpikā), the lamp on the hidden meaning, on the illustrious Bhagavad-Gītā'"
         },
         {
           "i": 92,
@@ -70122,7 +71607,8 @@ window.GITA_COMMENTARY = {
               "gloss": "threading-together, stringing"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "tatpuruṣa: 'the threading-together (sūtraṇa) of all the meaning of the Gītā (sarva-gītā-artha)'"
         },
         {
           "i": 93,
@@ -70166,7 +71652,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√i"
         }
       ],
       "english": "{0:Thus}, {1:in this way}, {4:by way of the answer} {2:to the four} {3:questions}, {5:all} {6:the marks of the sthita-prajña} {8:have been told} {7:as what is to be done by the seeker of release}. {9:Now}, {12:praising} {11:the Sāṅkhya-steadfastness} {10:that is the fruit of karma-yoga}, {13:He sums up} by {14:‘eṣā’} {15:—}. {16:This} — {18:told} {17:by way of the marks of the sthita-prajña}, {25:and} {19:this} {21:spoken} {20:to you} {26:earlier} as {23:‘this understanding} {22:in Sāṅkhya’} {24:—} {27:spoken} — {28:the state}, {29:the steadfastness}, {30:marked by the knowledge of the Supreme Self preceded by the renunciation of all action}, {31:‘Brahmic’}, {32:having Brahman for its object}. {33:O} {34:Pārtha}, {37:attaining} {35:this} {36:state}, {38:whoever} {39:it be} {40:even} {42:is not} {41:again} {43:deluded}; {45:for} there {50:is} {44:no} {49:recurrence} {47:of an ignorance} {46:sublated by knowledge}, {48:again} since, {51:being beginningless}, {52:its arising is impossible}. {83:Abiding} {53:in this} {54:state} {56:even} {55:at the final time}, {58:even} {57:in the last} {59:age}, {60:abiding}, one {69:‘attains’}, {70:goes} {71:without difference} to {61:brahma-nirvāṇa} — {63:the going-out} {62:into Brahman}, {64:the bliss}, {68:or} {66:the going-out} {65:that is of the form of Brahman} {67:—}. {72:How} {73:much} {74:more is to be said} of {75:one who}, {78:having renounced} {76:from studentship} {77:itself}, {79:life-long} {83:abides} {80:in this} {81:Brahmic} {82:state} — {84:he} {86:attains} {85:brahma-nirvāṇa} {87:—} {88:this is the sense of the word ‘api’} {89:—}. So ends, in the {91:Gūḍhārtha-dīpikā on the Bhagavad-Gītā} {90:composed by Madhusūdana Sarasvatī, disciple at the feet of Viśveśvara Sarasvatī, the supreme-swan wandering-mendicant teacher}, {94:the second} {95:chapter} {93:called} {92:‘the threading-together of all the meaning of the Gītā’}.",
@@ -70222,7 +71709,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, fem.)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√vac"
         },
         {
           "i": 1,
@@ -70239,7 +71727,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa: 'the steadfastness (niṣṭhā) in knowledge (jñāna)'"
         },
         {
           "i": 2,
@@ -70255,7 +71744,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√stu"
         },
         {
           "i": 3,
@@ -70275,7 +71765,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw, carry"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 4,
@@ -70332,7 +71823,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 8,
@@ -70353,7 +71845,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "tatpuruṣa: 'the steadfastness (niṣṭhā) in the knowledge (jñāna) of Brahman (brahman)'"
         },
         {
           "i": 9,
@@ -70381,7 +71874,8 @@ window.GITA_COMMENTARY = {
               "gloss": "kind, sort"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "bahuvrīhi: 'of such (evam) a kind (vidhā)'"
         },
         {
           "i": 11,
@@ -70414,7 +71908,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular",
-          "glossaryKey": "isvara"
+          "glossaryKey": "isvara",
+          "compound": "tatpuruṣa: 'by the worship (ārādhana) of the Supreme Lord (parama-īśvara)'"
         },
         {
           "i": 13,
@@ -70431,7 +71926,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "antahkarana"
+          "glossaryKey": "antahkarana",
+          "compound": "bahuvrīhi: 'one whose inner organ (antaḥkaraṇa) is purified (viśuddha)'"
         },
         {
           "i": 14,
@@ -70463,7 +71959,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 16,
@@ -70492,7 +71989,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "moha"
+          "glossaryKey": "moha",
+          "root": "√muh"
         },
         {
           "i": 18,
@@ -70521,7 +72019,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "samsara"
+          "glossaryKey": "samsara",
+          "compound": "tatpuruṣa: 'the delusion (moha) of saṃsāra (saṃsāra)'"
         },
         {
           "i": 20,
@@ -70549,7 +72048,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to obtain"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 22,
@@ -70593,7 +72093,8 @@ window.GITA_COMMENTARY = {
               "gloss": "time, occasion"
             }
           ],
-          "morph": "locative singular"
+          "morph": "locative singular",
+          "compound": "tatpuruṣa: 'the time (samaya) of death (mṛtyu)'"
         },
         {
           "i": 25,
@@ -70661,7 +72162,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√sthā"
         },
         {
           "i": 30,
@@ -70712,7 +72214,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "brahmanirvana"
+          "glossaryKey": "brahmanirvana",
+          "root": "√vā"
         },
         {
           "i": 33,
@@ -70728,7 +72231,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√lī"
         },
         {
           "i": 34,
@@ -70740,7 +72244,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go, reach"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√ṛ"
         },
         {
           "i": 35,
@@ -70756,7 +72261,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to obtain"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 36,
@@ -70796,7 +72302,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 39,
@@ -70832,7 +72339,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√rabh"
         },
         {
           "i": 41,
@@ -70848,7 +72356,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√sthā"
         },
         {
           "i": 42,
@@ -70864,7 +72373,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to obtain"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 43,
@@ -70896,7 +72406,8 @@ window.GITA_COMMENTARY = {
               "gloss": "sunk, immersed"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "compound": "tatpuruṣa: 'sunk (nimagna) in the mire (paṅka) of grief (śoka)'"
         },
         {
           "i": 45,
@@ -70933,7 +72444,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "indeclinable (ablative adverb)",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "compound": "tatpuruṣa: 'by the teaching (upadeśa) of Sāṅkhya and Yoga (sāṅkhya-yoga)'"
         },
         {
           "i": 47,
@@ -70949,7 +72461,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to lift, draw"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 48,
@@ -70978,7 +72491,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "bhakti"
+          "glossaryKey": "bhakti",
+          "root": "√bhaj"
         },
         {
           "i": 50,
@@ -71059,7 +72573,8 @@ window.GITA_COMMENTARY = {
               "gloss": "made, composed"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "compound": "tatpuruṣa: 'composed (kṛta) by Śrī Śrīdhara Svāmin (śrī-śrīdhara-svāmin)'"
         },
         {
           "i": 56,
@@ -71080,7 +72595,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular feminine",
-          "glossaryKey": "tika"
+          "glossaryKey": "tika",
+          "compound": "tatpuruṣa: 'in the gloss (ṭīkā) on the Bhagavad-gītā (bhagavat-gītā)'"
         },
         {
           "i": 57,
@@ -71096,7 +72612,8 @@ window.GITA_COMMENTARY = {
               "gloss": "enlightener, that which makes understand"
             }
           ],
-          "morph": "locative singular feminine"
+          "morph": "locative singular feminine",
+          "compound": "tatpuruṣa: 'in the Subodhinī (su-bodhinī), the easy-enlightener'"
         },
         {
           "i": 58,
@@ -71180,7 +72697,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to draw"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√hṛ"
         },
         {
           "i": 1,
@@ -71237,7 +72755,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 5,
@@ -71254,7 +72773,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "bahuvrīhi: 'whose object (viṣaya) is Brahman (brahman)'"
         },
         {
           "i": 6,
@@ -71270,7 +72790,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√sthā"
         },
         {
           "i": 7,
@@ -71287,7 +72808,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "laksana"
+          "glossaryKey": "laksana",
+          "root": "√lakṣ"
         },
         {
           "i": 8,
@@ -71343,7 +72865,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√sthā"
         },
         {
           "i": 12,
@@ -71368,7 +72891,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "karaka": "karma"
         },
         {
           "i": 14,
@@ -71380,7 +72904,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 15,
@@ -71412,7 +72937,8 @@ window.GITA_COMMENTARY = {
               "gloss": "other"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "tatpuruṣa: 'another (antara) birth (janman)'"
         },
         {
           "i": 17,
@@ -71428,7 +72954,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to obtain"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√āp"
         },
         {
           "i": 18,
@@ -71512,7 +73039,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 24,
@@ -71533,7 +73061,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 25,
@@ -71561,7 +73090,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle, locative)"
             }
           ],
-          "morph": "locative absolute"
+          "morph": "locative absolute",
+          "root": "√as"
         },
         {
           "i": 27,
@@ -71602,7 +73132,8 @@ window.GITA_COMMENTARY = {
               "gloss": "other"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "tatpuruṣa: 'another (antara) body (śarīra)'"
         },
         {
           "i": 29,
@@ -71618,7 +73149,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√yuj"
         },
         {
           "i": 30,
@@ -71638,7 +73170,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(instrumental)"
             }
           ],
-          "morph": "instrumental singular masculine"
+          "morph": "instrumental singular masculine",
+          "root": "√bhuj",
+          "karaka": "karaṇa"
         },
         {
           "i": 31,
@@ -71702,7 +73236,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 36,
@@ -71715,7 +73250,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd plural",
-          "glossaryKey": "santi"
+          "glossaryKey": "santi",
+          "root": "√as"
         },
         {
           "i": 37,
@@ -71747,7 +73283,8 @@ window.GITA_COMMENTARY = {
               "gloss": "fruit"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "compound": "bahuvrīhi: 'whose fruit (phala) is many (bahu) bodies (śarīra)'"
         },
         {
           "i": 39,
@@ -71816,7 +73353,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 44,
@@ -71860,7 +73398,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative)"
             }
           ],
-          "morph": "ablative singular"
+          "morph": "ablative singular",
+          "root": "√dṛś"
         },
         {
           "i": 47,
@@ -71889,7 +73428,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 49,
@@ -71929,7 +73469,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "ablative singular feminine"
+          "morph": "ablative singular feminine",
+          "compound": "tatpuruṣa: 'the attaining (prāpti) of many (bahu) bodies (śarīra)'"
         },
         {
           "i": 51,
@@ -71969,7 +73510,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 54,
@@ -71994,7 +73536,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sthitaprajna"
+          "glossaryKey": "sthitaprajna",
+          "compound": "bahuvrīhi: 'one whose insight (prajña) is settled (sthita)'"
         },
         {
           "i": 55,
@@ -72062,7 +73605,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√āp"
         },
         {
           "i": 60,
@@ -72078,7 +73622,8 @@ window.GITA_COMMENTARY = {
               "gloss": "station, place"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "tatpuruṣa: 'the station (pada) of Rudra (raudra)'"
         },
         {
           "i": 61,
@@ -72131,7 +73676,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "moksa"
+          "glossaryKey": "moksa",
+          "root": "√muc"
         },
         {
           "i": 65,
@@ -72147,7 +73693,8 @@ window.GITA_COMMENTARY = {
               "gloss": "aorist stem"
             }
           ],
-          "morph": "aorist, 3rd singular"
+          "morph": "aorist, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 66,
@@ -72168,7 +73715,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative (adverbial)",
-          "glossaryKey": "visnu"
+          "glossaryKey": "visnu",
+          "compound": "tatpuruṣa: 'by the grace (prasāda) of Viṣṇu (viṣṇu)'"
         },
         {
           "i": 67,
@@ -72261,7 +73809,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "moksa"
+          "glossaryKey": "moksa",
+          "root": "√muc"
         },
         {
           "i": 74,
@@ -72281,7 +73830,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√rūp"
         },
         {
           "i": 75,
@@ -72329,7 +73879,8 @@ window.GITA_COMMENTARY = {
               "gloss": "fruit"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "bahuvrīhi: 'having a determined (niścita) fruit (phala)'"
         },
         {
           "i": 78,
@@ -72358,7 +73909,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 80,
@@ -72498,7 +74050,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to become"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 91,
@@ -72539,7 +74092,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative plural feminine",
-          "glossaryKey": "sruti"
+          "glossaryKey": "sruti",
+          "root": "√śru"
         },
         {
           "i": 94,
@@ -72592,7 +74146,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "vyuha"
+          "glossaryKey": "vyuha",
+          "compound": "tatpuruṣa: 'dependence (apekṣā) on a body-aggregate (kāya-vyūha)'"
         },
         {
           "i": 97,
@@ -72693,7 +74248,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "tatpuruṣa: 'the fire (agni) of knowledge (jñāna)'"
         },
         {
           "i": 104,
@@ -72758,7 +74314,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "ablative plural neuter"
+          "morph": "ablative plural neuter",
+          "root": "√vac"
         },
         {
           "i": 109,
@@ -72783,7 +74340,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular neuter",
-          "glossaryKey": "prarabdha"
+          "glossaryKey": "prarabdha",
+          "root": "√rabh"
         },
         {
           "i": 110,
@@ -72819,7 +74377,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√rudh"
         },
         {
           "i": 112,
@@ -72844,7 +74403,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: 'from want (abhāva) of evidence (pramāṇa)'"
         },
         {
           "i": 113,
@@ -72896,7 +74456,8 @@ window.GITA_COMMENTARY = {
               "gloss": "scripture, teaching"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "tatpuruṣa: 'that (tat) scripture (śāstra)'"
         },
         {
           "i": 117,
@@ -72916,7 +74477,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(means)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√mā"
         },
         {
           "i": 118,
@@ -72932,7 +74494,8 @@ window.GITA_COMMENTARY = {
               "gloss": "Kaṇāda"
             }
           ],
-          "morph": "genitive plural masculine"
+          "morph": "genitive plural masculine",
+          "compound": "dvandva: 'of (the followers of) Akṣapāda and Kaṇāda (akṣapāda-kaṇāda)'"
         },
         {
           "i": 119,
@@ -72961,7 +74524,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "yoga"
+          "glossaryKey": "yoga",
+          "compound": "bahuvrīhi: 'the matted-haired (jaṭā-bhṛt) of Sāṅkhya and Yoga (sāṅkhya-yoga)'"
         },
         {
           "i": 120,
@@ -72977,7 +74541,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "root": "√man"
         },
         {
           "i": 121,
@@ -72997,7 +74562,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√lamb"
         },
         {
           "i": 122,
@@ -73026,7 +74592,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "sruti"
+          "glossaryKey": "sruti",
+          "root": "√vid"
         },
         {
           "i": 124,
@@ -73046,7 +74613,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd plural)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√duṣ"
         },
         {
           "i": 125,
@@ -73062,7 +74630,8 @@ window.GITA_COMMENTARY = {
               "gloss": "mind"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "compound": "bahuvrīhi: 'those of little (alpa) mind (cetas)'"
         },
         {
           "i": 126,
@@ -73094,7 +74663,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "root": "√nind"
         },
         {
           "i": 128,
@@ -73134,7 +74704,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√stu"
         },
         {
           "i": 131,
@@ -73163,7 +74734,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "bhakti"
+          "glossaryKey": "bhakti",
+          "compound": "tatpuruṣa: 'the devotees (bhakta) of Śiva (śiva)'"
         },
         {
           "i": 133,
@@ -73187,7 +74759,8 @@ window.GITA_COMMENTARY = {
               "gloss": "-ness"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "tatpuruṣa: 'the character of being intent on (para-tva) praise (stuti)'"
         },
         {
           "i": 134,
@@ -73308,7 +74881,8 @@ window.GITA_COMMENTARY = {
               "gloss": "matter, meaning"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "compound": "tatpuruṣa: 'in a matter (artha) contradicting (viruddha) the other texts (itara-grantha)'"
         },
         {
           "i": 142,
@@ -73328,7 +74902,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(abstract)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√mā"
         },
         {
           "i": 143,
@@ -73368,7 +74943,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 146,
@@ -73397,7 +74973,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "moha"
+          "glossaryKey": "moha",
+          "root": "√muh"
         },
         {
           "i": 148,
@@ -73409,7 +74986,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to emit, create"
             }
           ],
-          "morph": "present indicative, 1st singular"
+          "morph": "present indicative, 1st singular",
+          "root": "√sṛj"
         },
         {
           "i": 149,
@@ -73465,7 +75043,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(future)"
             }
           ],
-          "morph": "future, 3rd singular"
+          "morph": "future, 3rd singular",
+          "root": "√muh"
         },
         {
           "i": 153,
@@ -73537,7 +75116,8 @@ window.GITA_COMMENTARY = {
               "gloss": "scripture"
             }
           ],
-          "morph": "accusative plural neuter"
+          "morph": "accusative plural neuter",
+          "compound": "tatpuruṣa: 'delusion-scriptures (moha-śāstra)'"
         },
         {
           "i": 158,
@@ -73553,7 +75133,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative imperative)"
             }
           ],
-          "morph": "causative imperative, 2nd singular"
+          "morph": "causative imperative, 2nd singular",
+          "root": "√kṛ"
         },
         {
           "i": 159,
@@ -73605,7 +75186,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(middle imperative)"
             }
           ],
-          "morph": "causative imperative, 2nd singular middle"
+          "morph": "causative imperative, 2nd singular middle",
+          "root": "√dṛś"
         },
         {
           "i": 162,
@@ -73641,7 +75223,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√kāś"
         },
         {
           "i": 164,
@@ -73653,7 +75236,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to do, make"
             }
           ],
-          "morph": "imperative, 2nd singular"
+          "morph": "imperative, 2nd singular",
+          "root": "√kṛ"
         },
         {
           "i": 165,
@@ -73702,7 +75286,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√kāś"
         },
         {
           "i": 168,
@@ -73726,7 +75311,8 @@ window.GITA_COMMENTARY = {
               "gloss": "me"
             }
           ],
-          "morph": "accusative singular"
+          "morph": "accusative singular",
+          "karaka": "karma"
         },
         {
           "i": 170,
@@ -73738,7 +75324,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to do, make"
             }
           ],
-          "morph": "imperative, 2nd singular"
+          "morph": "imperative, 2nd singular",
+          "root": "√kṛ"
         },
         {
           "i": 171,
@@ -73778,7 +75365,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "accusative plural neuter"
+          "morph": "accusative plural neuter",
+          "root": "√kuts"
         },
         {
           "i": 174,
@@ -73843,7 +75431,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visnu"
+          "glossaryKey": "visnu",
+          "compound": "tatpuruṣa: 'impelled (pracodita) by Viṣṇu (viṣṇu)'"
         },
         {
           "i": 178,
@@ -73859,7 +75448,8 @@ window.GITA_COMMENTARY = {
               "gloss": "perfect stem"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 179,
@@ -73892,7 +75482,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "vibhu"
+          "glossaryKey": "vibhu",
+          "root": "√bhū"
         },
         {
           "i": 181,
@@ -73928,7 +75519,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "compound": "tatpuruṣa: 'impelled (pracodita) by Him (tat)'"
         },
         {
           "i": 183,
@@ -73944,7 +75536,8 @@ window.GITA_COMMENTARY = {
               "gloss": "etc."
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "compound": "bahuvrīhi: 'Dadhīci and the rest (dadhīci-ādi)'"
         },
         {
           "i": 184,
@@ -73976,7 +75569,8 @@ window.GITA_COMMENTARY = {
               "gloss": "convention, doctrine"
             }
           ],
-          "morph": "instrumental singular masculine"
+          "morph": "instrumental singular masculine",
+          "compound": "tatpuruṣa: 'by the convention (samaya) of that scripture (tat-śāstra)'"
         },
         {
           "i": 186,
@@ -74004,7 +75598,8 @@ window.GITA_COMMENTARY = {
               "gloss": "perfect 3rd plural"
             }
           ],
-          "morph": "perfect, 3rd plural"
+          "morph": "perfect, 3rd plural",
+          "root": "√kṛ"
         },
         {
           "i": 188,
@@ -74021,7 +75616,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental plural masculine",
-          "glossaryKey": "sruti"
+          "glossaryKey": "sruti",
+          "root": "√vid"
         },
         {
           "i": 189,
@@ -74083,7 +75679,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative (adverbial)",
-          "glossaryKey": "visnu"
+          "glossaryKey": "visnu",
+          "compound": "tatpuruṣa: 'from the Viṣṇu-veda (viṣṇu-veda)'"
         },
         {
           "i": 193,
@@ -74139,7 +75736,8 @@ window.GITA_COMMENTARY = {
               "gloss": "Rāmāyaṇa"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "karmadhāraya: 'the original (mūla) Rāmāyaṇa (rāmāyaṇa)'"
         },
         {
           "i": 197,
@@ -74232,7 +75830,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√īr"
         },
         {
           "i": 204,
@@ -74276,7 +75875,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√yuj"
         },
         {
           "i": 207,
@@ -74369,7 +75969,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 213,
@@ -74381,7 +75982,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to become, be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 214,
@@ -74410,7 +76012,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "moksa"
+          "glossaryKey": "moksa",
+          "root": "√muc"
         },
         {
           "i": 216,
@@ -74475,7 +76078,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "abhava"
+          "glossaryKey": "abhava",
+          "compound": "tatpuruṣa: 'an absence (abhāva) of (yogic) union (yukti)'"
         },
         {
           "i": 220,
@@ -74492,7 +76096,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine (present participle)",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "root": "√smṛ"
         },
         {
           "i": 221,
@@ -74504,7 +76109,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to abandon"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√tyaj"
         },
         {
           "i": 222,
@@ -74544,7 +76150,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'a designation (apadeśa) in the present tense (vartamāna)'"
         },
         {
           "i": 224,
@@ -74572,7 +76179,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√kṛ"
         },
         {
           "i": 226,
@@ -74612,7 +76220,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 229,
@@ -74629,7 +76238,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 230,
@@ -74650,7 +76260,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "karma"
+          "glossaryKey": "karma",
+          "compound": "tatpuruṣa: 'joined with (yukta) karma (karman)'"
         },
         {
           "i": 231,
@@ -74670,7 +76281,8 @@ window.GITA_COMMENTARY = {
               "gloss": "moment"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'the moment (kṣaṇa) of casting off (tyāga) the body (kāya)'"
         },
         {
           "i": 232,
@@ -74699,7 +76311,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "maya"
+          "glossaryKey": "maya",
+          "compound": "tatpuruṣa: 'the māyā of Viṣṇu (viṣṇu)'"
         },
         {
           "i": 234,
@@ -74740,7 +76353,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "manas"
+          "glossaryKey": "manas",
+          "root": "√man"
         },
         {
           "i": 237,
@@ -74764,7 +76378,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to do, make"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 239,
@@ -74865,7 +76480,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "root": "√smṛ"
         },
         {
           "i": 247,
@@ -74877,7 +76493,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to become, be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 248,
@@ -74897,7 +76514,8 @@ window.GITA_COMMENTARY = {
               "gloss": "ripening, maturing"
             }
           ],
-          "morph": "instrumental singular masculine"
+          "morph": "instrumental singular masculine",
+          "compound": "tatpuruṣa: 'by the maturing (vipāka) of many (bahu) births (janman)'"
         },
         {
           "i": 249,
@@ -74914,7 +76532,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular neuter",
-          "glossaryKey": "bhakti"
+          "glossaryKey": "bhakti",
+          "compound": "dvandva: 'by devotion and knowledge (bhakti-jñāna)'"
         },
         {
           "i": 250,
@@ -74951,7 +76570,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to share, worship"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√bhaj"
         },
         {
           "i": 253,
@@ -75020,7 +76640,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go, grant"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√yā"
         },
         {
           "i": 258,
@@ -75092,7 +76713,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative)"
             }
           ],
-          "morph": "ablative singular feminine"
+          "morph": "ablative singular feminine",
+          "root": "√vac"
         },
         {
           "i": 263,
@@ -75225,7 +76847,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "root": "√dhā"
         },
         {
           "i": 272,
@@ -75269,7 +76892,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√stambh"
         },
         {
           "i": 275,
@@ -75305,7 +76929,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative)"
             }
           ],
-          "morph": "ablative singular masculine"
+          "morph": "ablative singular masculine",
+          "root": "√yuj"
         },
         {
           "i": 277,
@@ -75350,7 +76975,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "sabda"
+          "glossaryKey": "sabda",
+          "compound": "tatpuruṣa: 'the establishing (pratipādana) of the word (śabda) nirbāṇa'"
         },
         {
           "i": 279,
@@ -75455,7 +77081,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "bahuvrīhi: 'well-known (prasiddhā) from all the Purāṇas and the rest (sarva-purāṇa-ādi)'"
         },
         {
           "i": 285,
@@ -75475,7 +77102,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(action noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√kṛ"
         },
         {
           "i": 286,
@@ -75508,7 +77136,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(middle)"
             }
           ],
-          "morph": "present indicative middle, 3rd singular"
+          "morph": "present indicative middle, 3rd singular",
+          "root": "√pad"
         },
         {
           "i": 288,
@@ -75681,7 +77310,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√śabd"
         },
         {
           "i": 301,
@@ -75760,7 +77390,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "karmadhāraya: 'the supreme (para) Brahman (brahman)'"
         },
         {
           "i": 307,
@@ -75781,7 +77412,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visnu"
+          "glossaryKey": "visnu",
+          "root": "√ard"
         },
         {
           "i": 308,
@@ -75850,7 +77482,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√kṣar"
         },
         {
           "i": 313,
@@ -75870,7 +77503,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√i"
         },
         {
           "i": 314,
@@ -75902,7 +77536,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "ablative singular masculine"
+          "morph": "ablative singular masculine",
+          "root": "√kṣar"
         },
         {
           "i": 316,
@@ -75991,7 +77626,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "indriya"
+          "glossaryKey": "indriya",
+          "compound": "tatpuruṣa: 'to be grasped (grāhya) beyond the senses (ati-indriya)'"
         },
         {
           "i": 322,
@@ -76015,7 +77651,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 324,
@@ -76031,7 +77668,8 @@ window.GITA_COMMENTARY = {
               "gloss": "equal"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "tatpuruṣa: 'equal (sama) to Nārāyaṇa (nārāyaṇa)'"
         },
         {
           "i": 325,
@@ -76059,7 +77697,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√bhū"
         },
         {
           "i": 327,
@@ -76087,7 +77726,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(future)"
             }
           ],
-          "morph": "future, 3rd singular"
+          "morph": "future, 3rd singular",
+          "root": "√bhū"
         },
         {
           "i": 329,
@@ -76115,7 +77755,8 @@ window.GITA_COMMENTARY = {
               "gloss": "equal"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'equal (sama) to you (tvat)'"
         },
         {
           "i": 331,
@@ -76127,7 +77768,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 332,
@@ -76284,7 +77926,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√kḷp"
         },
         {
           "i": 343,
@@ -76357,7 +78000,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "ananda"
+          "glossaryKey": "ananda",
+          "compound": "bahuvrīhi: 'having the form (rūpa) of bliss (ānanda)'"
         },
         {
           "i": 347,
@@ -76377,7 +78021,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√mṛ"
         },
         {
           "i": 348,
@@ -76397,7 +78042,8 @@ window.GITA_COMMENTARY = {
               "gloss": "light"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "karmadhāraya: 'golden (suvarṇa) light (jyotis)'"
         },
         {
           "i": 349,
@@ -76437,7 +78083,8 @@ window.GITA_COMMENTARY = {
               "gloss": "space, ether"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "karmadhāraya: 'the inner (antar) space (ākāśa)'"
         },
         {
           "i": 352,
@@ -76509,7 +78156,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 358,
@@ -76530,7 +78178,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative/nominative singular neuter",
-          "glossaryKey": "ananda"
+          "glossaryKey": "ananda",
+          "root": "√nand"
         },
         {
           "i": 359,
@@ -76566,7 +78215,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 362,
@@ -76667,7 +78317,8 @@ window.GITA_COMMENTARY = {
               "gloss": "-ness"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "compound": "tatpuruṣa: 'golden-form-ness (suvarṇa-rūpa-tva)'"
         },
         {
           "i": 369,
@@ -76679,7 +78330,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "optative, 3rd singular"
+          "morph": "optative, 3rd singular",
+          "root": "√as"
         },
         {
           "i": 370,
@@ -76743,7 +78395,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'standing (stha) in the small (dahara)', the dweller-in-the-cave"
         },
         {
           "i": 374,
@@ -76844,7 +78497,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√vac"
         },
         {
           "i": 381,
@@ -76860,7 +78514,8 @@ window.GITA_COMMENTARY = {
               "gloss": "head"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'thousand-headed (sahasra-śīrṣan)'"
         },
         {
           "i": 382,
@@ -76889,7 +78544,8 @@ window.GITA_COMMENTARY = {
               "gloss": "color, hue"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "compound": "bahuvrīhi: 'gold-hued (rugma-varṇa)'"
         },
         {
           "i": 384,
@@ -76906,7 +78562,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular masculine",
-          "glossaryKey": "kartr"
+          "glossaryKey": "kartr",
+          "root": "√kṛ"
         },
         {
           "i": 385,
@@ -76922,7 +78579,8 @@ window.GITA_COMMENTARY = {
               "gloss": "color, hue"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "compound": "bahuvrīhi: 'sun-hued (āditya-varṇa)'"
         },
         {
           "i": 386,
@@ -76983,7 +78641,8 @@ window.GITA_COMMENTARY = {
               "gloss": "foot"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "dvandva: 'hands and feet (pāṇi-pāda)'"
         },
         {
           "i": 390,
@@ -77095,7 +78754,8 @@ window.GITA_COMMENTARY = {
               "gloss": "etc."
             }
           ],
-          "morph": "ablative singular masculine"
+          "morph": "ablative singular masculine",
+          "compound": "tatpuruṣa: 'the Viśvarūpa chapter and the rest (viśvarūpa-adhyāya-ādi)'"
         },
         {
           "i": 397,
@@ -77143,7 +78803,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√sā"
         },
         {
           "i": 400,
@@ -77200,7 +78861,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "bhagavan"
+          "glossaryKey": "bhagavan",
+          "compound": "bahuvrīhi: 'possessed of (mat) utterly-perfect (ati-paripūrṇatama) knowledge, lordship, vigor, bliss, beauty, power and the rest (jñāna-aiśvarya-vīrya-ānanda-śrī-śakti-ādi)'"
         },
         {
           "i": 401,
@@ -77270,7 +78932,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "sakti"
+          "glossaryKey": "sakti",
+          "root": "√śak"
         },
         {
           "i": 406,
@@ -77314,7 +78977,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√śru"
         },
         {
           "i": 409,
@@ -77360,7 +79024,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "dvandva: 'knowing, strength and action (jñāna-bala-kriyā)'"
         },
         {
           "i": 411,
@@ -77405,7 +79070,9 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā",
+          "compound": "bahuvrīhi: 'one to whom all (sarva) is known (jña)', all-knowing"
         },
         {
           "i": 414,
@@ -77496,7 +79163,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle, noun)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√bhū"
         },
         {
           "i": 421,
@@ -77528,7 +79196,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(3rd plural)"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√jīv"
         },
         {
           "i": 423,
@@ -77552,7 +79221,8 @@ window.GITA_COMMENTARY = {
               "gloss": "end"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "bahuvrīhi: 'without beginning, middle, or end (anādi-madhya-anta)'"
         },
         {
           "i": 424,
@@ -77572,7 +79242,8 @@ window.GITA_COMMENTARY = {
               "gloss": "vigor"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "bahuvrīhi: 'of endless (an-anta) vigor (vīrya)'"
         },
         {
           "i": 425,
@@ -77604,7 +79275,8 @@ window.GITA_COMMENTARY = {
               "gloss": "lovely"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'lovely (kānta) with measureless (a-mita) thousand-lakh (sahasra-lakṣa) radiance (kānti)'"
         },
         {
           "i": 426,
@@ -77637,7 +79309,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "guna"
+          "glossaryKey": "guna",
+          "compound": "bahuvrīhi: 'of endless (an-anta) qualities (guṇa)'"
         },
         {
           "i": 428,
@@ -77690,7 +79363,8 @@ window.GITA_COMMENTARY = {
               "gloss": "form, body"
             }
           ],
-          "morph": "locative singular masculine"
+          "morph": "locative singular masculine",
+          "compound": "bahuvrīhi: 'of endless (an-anta) form (vigraha)'"
         },
         {
           "i": 431,
@@ -77715,7 +79389,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "sakti"
+          "glossaryKey": "sakti",
+          "compound": "tatpuruṣa: 'the power (śakti) of knowledge (vijñāna)'"
         },
         {
           "i": 432,
@@ -77743,7 +79418,8 @@ window.GITA_COMMENTARY = {
               "gloss": "imperfect stem"
             }
           ],
-          "morph": "imperfect, 1st singular"
+          "morph": "imperfect, 1st singular",
+          "root": "√as"
         },
         {
           "i": 434,
@@ -77808,7 +79484,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "nominative singular"
+          "morph": "nominative singular",
+          "compound": "bahuvrīhi: 'all-seeing (sarva-dṛś)'"
         },
         {
           "i": 438,
@@ -77885,7 +79562,8 @@ window.GITA_COMMENTARY = {
               "gloss": "with present sense"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√vid"
         },
         {
           "i": 444,
@@ -77902,7 +79580,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√vid"
         },
         {
           "i": 445,
@@ -77918,7 +79597,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(one of many)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'one among the many (anya-tama)', any other"
         },
         {
           "i": 446,
@@ -77988,7 +79668,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "bhagavan"
+          "glossaryKey": "bhagavan",
+          "compound": "tatpuruṣa: 'the essence (artha) of the word (pada) bhagavat'"
         },
         {
           "i": 451,
@@ -78057,7 +79738,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√pṝ"
         },
         {
           "i": 455,
@@ -78178,7 +79860,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√yuj"
         },
         {
           "i": 463,
@@ -78195,7 +79878,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "infinitive",
-          "glossaryKey": "smrti"
+          "glossaryKey": "smrti",
+          "root": "√smṛ"
         },
         {
           "i": 464,
@@ -78223,7 +79907,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√śak"
         },
         {
           "i": 466,
@@ -78239,7 +79924,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√kṛ"
         },
         {
           "i": 467,
@@ -78348,7 +80034,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "svarupa"
+          "glossaryKey": "svarupa",
+          "compound": "bahuvrīhi: 'of one another's (anyonya) own-nature (svarūpa)'"
         },
         {
           "i": 475,
@@ -78450,7 +80137,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "imperfect, 3rd singular",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "root": "√jñā"
         },
         {
           "i": 482,
@@ -78538,7 +80226,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "bahuvrīhi: 'whose austerity (tapas) consists of (maya) knowledge (jñāna)'"
         },
         {
           "i": 488,
@@ -78554,7 +80243,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√tap"
         },
         {
           "i": 489,
@@ -78606,7 +80296,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to enter"
             }
           ],
-          "morph": "imperative, 2nd singular"
+          "morph": "imperative, 2nd singular",
+          "root": "√viś"
         },
         {
           "i": 493,
@@ -78663,7 +80354,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "prakrti"
+          "glossaryKey": "prakrti",
+          "root": "√kṛ"
         },
         {
           "i": 497,
@@ -78679,7 +80371,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√mūrch"
         },
         {
           "i": 498,
@@ -78711,7 +80404,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(adj.)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "compound": "bahuvrīhi: 'sprung (sambhava) of flesh, marrow and bone (māṃsa-medas-asthi)'"
         },
         {
           "i": 499,
@@ -78747,7 +80441,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "root": "√yuj"
         },
         {
           "i": 501,
@@ -78806,7 +80501,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "visnu"
+          "glossaryKey": "visnu",
+          "root": "√cyu"
         },
         {
           "i": 504,
@@ -78827,7 +80523,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "vibhu"
+          "glossaryKey": "vibhu",
+          "root": "√bhū"
         },
         {
           "i": 505,
@@ -78844,7 +80541,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sat"
+          "glossaryKey": "sat",
+          "compound": "bahuvrīhi: 'possessed of a true (sat) body (deha)'"
         },
         {
           "i": 506,
@@ -78860,7 +80558,8 @@ window.GITA_COMMENTARY = {
               "gloss": "fragrance"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "bahuvrīhi: 'of pleasant (sukha) fragrance (gandha)'"
         },
         {
           "i": 507,
@@ -78889,7 +80588,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "bahuvrīhi: 'radiant (bhā) with knowledge (jñāna)'"
         },
         {
           "i": 509,
@@ -78906,7 +80606,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sat"
+          "glossaryKey": "sat",
+          "compound": "bahuvrīhi: 'of true (sat) valor (parākrama)'"
         },
         {
           "i": 510,
@@ -78927,7 +80628,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "karmadhāraya (paradox): 'knowing-yet-(seemingly)-unknowing (jñāna-ajñāna)'"
         },
         {
           "i": 511,
@@ -78947,7 +80649,8 @@ window.GITA_COMMENTARY = {
               "gloss": "pleasure"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "karmadhāraya (paradox): 'blissful-yet-(beyond)-pleasure (sukha-asukha)'"
         },
         {
           "i": 512,
@@ -79004,7 +80707,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√kṣar"
         },
         {
           "i": 516,
@@ -79086,7 +80790,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "ananda"
+          "glossaryKey": "ananda",
+          "compound": "bahuvrīhi: 'ever-blissful (sadā-ānanda)'"
         },
         {
           "i": 522,
@@ -79135,7 +80840,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "prakrti"
+          "glossaryKey": "prakrti",
+          "compound": "tatpuruṣa: 'fashioned (nirmita) of nature (prakṛti)'"
         },
         {
           "i": 525,
@@ -79155,7 +80861,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√pṝ"
         },
         {
           "i": 526,
@@ -79219,7 +80926,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to be"
             }
           ],
-          "morph": "present indicative, 1st singular"
+          "morph": "present indicative, 1st singular",
+          "root": "√as"
         },
         {
           "i": 531,
@@ -79361,7 +81069,8 @@ window.GITA_COMMENTARY = {
               "gloss": "form"
             }
           ],
-          "morph": "instrumental singular neuter"
+          "morph": "instrumental singular neuter",
+          "compound": "tatpuruṣa: 'in a seemingly-limited form and the rest (paricchinna-ādi-rūpa)'"
         },
         {
           "i": 541,
@@ -79377,7 +81086,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(causative)"
             }
           ],
-          "morph": "causative present, 3rd singular"
+          "morph": "causative present, 3rd singular",
+          "root": "√dṛś"
         },
         {
           "i": 542,
@@ -79446,7 +81156,8 @@ window.GITA_COMMENTARY = {
               "gloss": "imperfect stem"
             }
           ],
-          "morph": "imperfect, 3rd singular"
+          "morph": "imperfect, 3rd singular",
+          "root": "√vas"
         },
         {
           "i": 547,
@@ -79574,7 +81285,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√jan"
         },
         {
           "i": 557,
@@ -79643,7 +81355,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "ananda"
+          "glossaryKey": "ananda",
+          "compound": "karmadhāraya: 'ever- (nitya) blissful (ānanda)'"
         },
         {
           "i": 562,
@@ -79700,7 +81413,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(middle)"
             }
           ],
-          "morph": "present indicative middle, 3rd singular"
+          "morph": "present indicative middle, 3rd singular",
+          "root": "√krīḍ"
         },
         {
           "i": 566,
@@ -79721,7 +81435,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "darsana"
+          "glossaryKey": "darsana",
+          "compound": "bahuvrīhi: 'of unfailing (a-mogha) vision (darśana)'"
         },
         {
           "i": 567,
@@ -79811,7 +81526,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "atman"
+          "glossaryKey": "atman",
+          "compound": "bahuvrīhi: 'those who possess (vat) the self (ātman)', the self-possessed"
         },
         {
           "i": 574,
@@ -79828,7 +81544,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "isvara"
+          "glossaryKey": "isvara",
+          "compound": "tatpuruṣa: 'the over- (adhi) lord (īśvara)'"
         },
         {
           "i": 575,
@@ -79840,7 +81557,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to enjoy, experience"
             }
           ],
-          "morph": "present indicative middle, 3rd singular"
+          "morph": "present indicative middle, 3rd singular",
+          "root": "√bhuj"
         },
         {
           "i": 576,
@@ -79915,7 +81633,8 @@ window.GITA_COMMENTARY = {
               "gloss": "etc."
             }
           ],
-          "morph": "genitive singular masculine"
+          "morph": "genitive singular masculine",
+          "compound": "tatpuruṣa: 'of creation and the rest (sarga-ādi)'"
         },
         {
           "i": 581,
@@ -79932,7 +81651,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "isvara"
+          "glossaryKey": "isvara",
+          "root": "√īś"
         },
         {
           "i": 582,
@@ -79952,7 +81672,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√jan"
         },
         {
           "i": 583,
@@ -79972,7 +81693,8 @@ window.GITA_COMMENTARY = {
               "gloss": "treasure"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'the treasure (nidhi) of supreme (parama) bliss (sukha)'"
         },
         {
           "i": 584,
@@ -79993,7 +81715,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "jnana"
+          "glossaryKey": "jnana",
+          "compound": "bahuvrīhi: 'of the form (rūpa) of awareness (bodha)'"
         },
         {
           "i": 585,
@@ -80025,7 +81748,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "root": "√budh"
         },
         {
           "i": 587,
@@ -80057,7 +81781,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√dṛś"
         },
         {
           "i": 589,
@@ -80106,7 +81831,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "locative singular masculine",
-          "glossaryKey": "muni"
+          "glossaryKey": "muni",
+          "compound": "tatpuruṣa: 'for the sake (artha) of the dear one (priya) whose self (ātman) was stolen (hṛta) by the sage's son (muni-suta)'"
         },
         {
           "i": 591,
@@ -80122,7 +81848,8 @@ window.GITA_COMMENTARY = {
               "gloss": "perfect stem"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 592,
@@ -80159,7 +81886,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "brahman"
+          "glossaryKey": "brahman",
+          "compound": "bahuvrīhi: 'whose feet (caraṇa) are to be worshipped (vandya) by Brahmā (brahman)'"
         },
         {
           "i": 594,
@@ -80195,7 +81923,9 @@ window.GITA_COMMENTARY = {
               "gloss": "(agent)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√lap",
+          "compound": "tatpuruṣa: 'prattling (pralāpin) like a man (nara-vat)'"
         },
         {
           "i": 596,
@@ -80215,7 +81945,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(possessor)"
             }
           ],
-          "morph": "genitive plural masculine"
+          "morph": "genitive plural masculine",
+          "compound": "bahuvrīhi: 'those attached (saṅgin) to women (strī)'"
         },
         {
           "i": 597,
@@ -80243,7 +81974,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√ram"
         },
         {
           "i": 599,
@@ -80263,7 +81995,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(present participle)"
             }
           ],
-          "morph": "nominative singular masculine (present participle)"
+          "morph": "nominative singular masculine (present participle)",
+          "root": "√prath"
         },
         {
           "i": 600,
@@ -80279,7 +82012,8 @@ window.GITA_COMMENTARY = {
               "gloss": "perfect stem"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√kṛ"
         },
         {
           "i": 601,
@@ -80299,7 +82033,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative/genitive)"
             }
           ],
-          "morph": "ablative/genitive singular neuter"
+          "morph": "ablative/genitive singular neuter",
+          "root": "√pṝ"
         },
         {
           "i": 602,
@@ -80324,7 +82059,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "acintya"
+          "glossaryKey": "acintya",
+          "compound": "bahuvrīhi: 'of inconceivable (a-cintya) vigor (vīrya)'"
         },
         {
           "i": 603,
@@ -80376,7 +82112,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(patronymic)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "tatpuruṣa: 'the son of Daśaratha (dāśarathi)'"
         },
         {
           "i": 607,
@@ -80404,7 +82141,8 @@ window.GITA_COMMENTARY = {
               "gloss": "word, utterance"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "tatpuruṣa: 'the word (vākya) of Rudra (rudra)'"
         },
         {
           "i": 609,
@@ -80432,7 +82170,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(infinitive)"
             }
           ],
-          "morph": "infinitive"
+          "morph": "infinitive",
+          "root": "√kṛ"
         },
         {
           "i": 611,
@@ -80452,7 +82191,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√ji"
         },
         {
           "i": 612,
@@ -80472,7 +82212,8 @@ window.GITA_COMMENTARY = {
               "gloss": "like, as"
             }
           ],
-          "morph": "indeclinable"
+          "morph": "indeclinable",
+          "root": "√ji"
         },
         {
           "i": 613,
@@ -80488,7 +82229,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√sthā"
         },
         {
           "i": 614,
@@ -80520,7 +82262,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√ji"
         },
         {
           "i": 616,
@@ -80540,7 +82283,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "root": "√ji"
         },
         {
           "i": 617,
@@ -80561,7 +82305,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular feminine",
-          "glossaryKey": "bhakti"
+          "glossaryKey": "bhakti",
+          "root": "√bhaj"
         },
         {
           "i": 618,
@@ -80577,7 +82322,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(patronymic)"
             }
           ],
-          "morph": "accusative singular masculine"
+          "morph": "accusative singular masculine",
+          "compound": "tatpuruṣa: 'the son of Gaṅgā (gāṅgeya)', Bhīṣma"
         },
         {
           "i": 619,
@@ -80605,7 +82351,8 @@ window.GITA_COMMENTARY = {
               "gloss": "perfect stem"
             }
           ],
-          "morph": "perfect, 3rd singular"
+          "morph": "perfect, 3rd singular",
+          "root": "√han"
         },
         {
           "i": 621,
@@ -80673,7 +82420,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(periphrastic perfect)"
             }
           ],
-          "morph": "periphrastic perfect causative, 3rd singular"
+          "morph": "periphrastic perfect causative, 3rd singular",
+          "root": "√grah"
         },
         {
           "i": 626,
@@ -80689,7 +82437,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(adj.)"
             }
           ],
-          "morph": "nominative singular masculine"
+          "morph": "nominative singular masculine",
+          "compound": "karmadhāraya: 'the compassionate (karuṇa) one'"
         },
         {
           "i": 627,
@@ -80822,7 +82571,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural masculine",
-          "glossaryKey": "samsara"
+          "glossaryKey": "samsara",
+          "compound": "tatpuruṣa: 'the attributes (dharma) of saṃsāra (saṃsāra)'"
         },
         {
           "i": 637,
@@ -80842,7 +82592,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative plural masculine"
+          "morph": "nominative plural masculine",
+          "root": "√rūp"
         },
         {
           "i": 638,
@@ -80887,7 +82638,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "bheda"
+          "glossaryKey": "bheda",
+          "compound": "tatpuruṣa: 'a distinction (bheda) of higher and lower (para-avara)'"
         },
         {
           "i": 641,
@@ -80907,7 +82659,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(passive)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd singular",
+          "root": "√gam"
         },
         {
           "i": 642,
@@ -80944,7 +82697,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular feminine",
-          "glossaryKey": "buddhi"
+          "glossaryKey": "buddhi",
+          "compound": "tatpuruṣa: 'the understanding (buddhi) of the ignorant (ajña)'"
         },
         {
           "i": 644,
@@ -80964,7 +82718,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√īkṣ"
         },
         {
           "i": 645,
@@ -80996,7 +82751,8 @@ window.GITA_COMMENTARY = {
               "gloss": "form"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "bahuvrīhi: 'whose form (rūpa) is the universe (viśva)', the universal form"
         },
         {
           "i": 647,
@@ -81016,7 +82772,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√īkṣ"
         },
         {
           "i": 648,
@@ -81072,7 +82829,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 652,
@@ -81092,7 +82850,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√pṝ"
         },
         {
           "i": 653,
@@ -81140,7 +82899,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative)"
             }
           ],
-          "morph": "ablative (adverbial)"
+          "morph": "ablative (adverbial)",
+          "compound": "tatpuruṣa: 'from the standpoint of all (akhila) form (rūpa)'"
         },
         {
           "i": 656,
@@ -81184,7 +82944,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(absolutive)"
             }
           ],
-          "morph": "absolutive"
+          "morph": "absolutive",
+          "root": "√īkṣ"
         },
         {
           "i": 659,
@@ -81212,7 +82973,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular feminine"
+          "morph": "accusative singular feminine",
+          "root": "√dṛś"
         },
         {
           "i": 661,
@@ -81288,7 +83050,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to speak"
             }
           ],
-          "morph": "present indicative, 3rd plural"
+          "morph": "present indicative, 3rd plural",
+          "root": "√vad"
         },
         {
           "i": 667,
@@ -81329,7 +83092,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive plural masculine",
-          "glossaryKey": "bhakti"
+          "glossaryKey": "bhakti",
+          "compound": "tatpuruṣa: 'of the non-devotees (a-bhakta)'"
         },
         {
           "i": 670,
@@ -81349,7 +83113,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "locative singular neuter"
+          "morph": "locative singular neuter",
+          "root": "√muh"
         },
         {
           "i": 671,
@@ -81449,7 +83214,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "nominative singular feminine"
+          "morph": "nominative singular feminine",
+          "root": "√car"
         },
         {
           "i": 678,
@@ -81465,7 +83231,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(gerundive)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 679,
@@ -81494,7 +83261,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular feminine",
-          "glossaryKey": "acintya"
+          "glossaryKey": "acintya",
+          "compound": "tatpuruṣa (causal): 'because of His inconceivable (a-cintya) power (śakti)'"
         },
         {
           "i": 680,
@@ -81522,7 +83290,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(ablative)"
             }
           ],
-          "morph": "ablative singular neuter"
+          "morph": "ablative singular neuter",
+          "compound": "tatpuruṣa (causal): 'because of the manifoldness (vaicitrya) of things (pada-artha)'"
         },
         {
           "i": 681,
@@ -81562,7 +83331,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√vac"
         },
         {
           "i": 684,
@@ -81586,7 +83356,8 @@ window.GITA_COMMENTARY = {
               "gloss": "form"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "compound": "tatpuruṣa: 'the forms (rūpa) of Kṛṣṇa, Rāma and the rest (kṛṣṇa-rāma-ādi)'"
         },
         {
           "i": 685,
@@ -81606,7 +83377,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative plural neuter"
+          "morph": "nominative plural neuter",
+          "root": "√pṝ"
         },
         {
           "i": 686,
@@ -81680,7 +83452,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative plural neuter",
-          "glossaryKey": "bheda"
+          "glossaryKey": "bheda",
+          "root": "√bhid"
         },
         {
           "i": 691,
@@ -81736,7 +83509,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(2nd singular)"
             }
           ],
-          "morph": "present indicative, 2nd singular"
+          "morph": "present indicative, 2nd singular",
+          "root": "√muh"
         },
         {
           "i": 695,
@@ -81869,7 +83643,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "guna"
+          "glossaryKey": "guna",
+          "compound": "bahuvrīhi: 'whose innumerable (a-parigaṇita) endless (an-anta) host (gaṇa) of qualities (guṇa)'"
         },
         {
           "i": 703,
@@ -81905,7 +83680,8 @@ window.GITA_COMMENTARY = {
               "gloss": "fault"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "bahuvrīhi: 'ever (nitya) free of (nir-asta) every (a-śeṣa) fault (doṣa)'"
         },
         {
           "i": 704,
@@ -81941,7 +83717,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(noun)"
             }
           ],
-          "morph": "accusative singular neuter"
+          "morph": "accusative singular neuter",
+          "compound": "bahuvrīhi: 'named (ākhya) Nārāyaṇa (nārāyaṇa)'"
         },
         {
           "i": 706,
@@ -81991,7 +83768,8 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "aparoksa-jnana"
+          "glossaryKey": "aparoksa-jnana",
+          "compound": "bahuvrīhi: 'the knower (jñānin) of direct (a-parokṣa) knowledge'"
         },
         {
           "i": 709,
@@ -82003,7 +83781,8 @@ window.GITA_COMMENTARY = {
               "gloss": "to go, reach"
             }
           ],
-          "morph": "present indicative, 3rd singular"
+          "morph": "present indicative, 3rd singular",
+          "root": "√ṛ"
         },
         {
           "i": 710,
@@ -82031,7 +83810,8 @@ window.GITA_COMMENTARY = {
               "gloss": "(past participle)"
             }
           ],
-          "morph": "nominative singular neuter"
+          "morph": "nominative singular neuter",
+          "root": "√sidh"
         }
       ],
       "english": "{0:He sums up} by {1:‘eṣā’}. The {3:‘Brahmic’} {4:state} is {6:the abiding} {5:whose object is Brahman}, {7:the mark}. {8:Even at the final time}, {9:even} {11:having abided} {10:in it}, {14:he goes} {13:to Brahman}; {15:otherwise} {17:he attains} {16:another birth}, since {23:it will be said} {18:‘whom} {19:whomsoever} {20:or} {21:even}{22:’} (one remembers at the end). For {24:knowers} {25:too}, {26:while} {27:commenced karma} remains, {28:another body} {29:is fitting}; for {35:it is said} {30:‘but by experience} {32:the others}{33:’} (exhaust their karma); and {36:there are} {37:indeed} {40:some} {39:karmas} {38:whose fruit is many bodies}, as {42:‘the brāhmaṇa} {43:would be (born)} {41:in seven lifetimes’} {44:and} {45:so on}; and {46:it is seen} {49:that even} {48:knowers} {50:attain many bodies}. As {53:stated} {52:for} it in {68:the Garuḍa}: {54:‘Even the sthita-prajña} {55:even} {56:who} {57:indeed} {58:is high}, {59:having attained} {60:the Raudra station}, {61:then} {63:then} {62:the Sāṅkarṣaṇa}, {65:went} {64:to liberation} {66:by the grace of Viṣṇu}{67:’}. And in {76:the Nāradīya}, {69:‘O Mahādeva}, {72:your} {73:liberation} {74:is determined} {70:in a further} {71:birth}{75:’}. And {79:knowledge} {77:has a determined fruit} {78:and}, by the {93:śrutis} {80:‘for him} {81:so long} {82:only} is there {83:delay’}, {84:‘and he who} {85:indeed} {86:and} {88:to the flame} {89:indeed} {90:attains’} {91:and} {92:the rest}. {94:Nor} {95:and} is there {96:dependence on a body-aggregate}, by the {108:statements} {97:‘that} {98:as} {99:a reed-tuft’} (is burnt), {100:‘that} {101:as} {102:a lotus-leaf’} (is not wetted), {103:‘the fire of knowledge} (burns up) {104:all} {105:karmas’} {106:and} {107:the like}. {110:But} {109:in commenced karma} {111:there is no contradiction}; {113:and} {112:for want of evidence} (to the contrary). {114:And} {115:that} {116:scripture} {117:is not authoritative}, since {127:it is censured}: {125:‘Those of little mind} {122:who}, {121:relying on} {120:the doctrine} {118:of the followers of Akṣapāda and Kaṇāda} {119:and the matted-haired of Sāṅkhya and Yoga}, {124:find fault with} {123:the Veda}’ {126:thus}. But {128:where} {129:but} there is {130:praise}, {131:there} it is {133:merely the character of praise} {134:merely} {132:of the devotees of Śiva}, {135:not} {136:its truth}; for {139:they} {137:have} {138:for} {140:even} {142:no authority} {141:in a matter contradicting the other texts}. {143:Likewise} {144:for} {145:it is said}: {146:‘This} {147:delusion} {148:I send forth} {149:quickly}, {150:which} {152:will delude} {151:men}; {153:and you}, {155:O Rudra} {156:of mighty arm}, {158:cause to be made} {157:moha-scriptures (the delusion that clouds discernment)} — {161:show forth} {159:the untrue} {160:the false}, {162:O mighty-armed}; {164:make} {166:yourself} {163:manifest} {165:and} {170:make} {169:Me} {167:unmanifest} {168:and}’ — {171:thus} in {172:the Vārāha}. {173:‘The base} {174:and} {175:mixed} {179:scriptures} {176:Rudra}, {177:impelled by Viṣṇu}, {178:made} — {180:the all-pervading one}; {181:the sages} {182:impelled by him}, {183:Dadhīci and the rest}, {184:the Purāṇas} {185:by the convention of that scripture} {186:while}; {188:by the Vedas} {189:and} {187:they made} {190:the Brahminical texts}, and {191:the Vaiṣṇava} {192:from the Viṣṇu-veda}: {193:the Pañcarātra}, {194:the Bhārata} {195:and}, {196:the original Rāmāyaṇa} {197:and likewise}, {198:and likewise} {200:the Bhāgavata} {199:Purāṇa} {201:is the Viṣṇu-veda} {203:declared} {202:thus}; {204:hence} {205:the Śaiva Purāṇas} {206:are to be applied} {207:without contradiction to the others}’ {208:thus} {209:and} in {210:the Nāradīya}. {211:Therefore} for {212:knowers} {213:there is} {214:indeed} {215:liberation}; {217:but} for {216:Bhīṣma and the rest} {218:at that moment} there was {219:an absence of yogic union}. {220:‘Remembering}, {221:he gives up’} {222:thus} — {223:a present-tense designation} {224:indeed} {225:was made}. {226:That} {227:and} {228:is stated} in {241:the Garuḍa}: {229:‘For knowers} {230:joined with karma}, {232:when} {231:the moment of casting off the body} comes, {234:then} {233:Viṣṇu’s māyā} {238:makes} {235:their} {236:mind} {237:outward} {239:indeed}’. {242:And} {243:nor} {247:is there} {246:remembrance} {244:of others} {245:at that time}: {250:‘Those who}, {248:by the maturing of many births}, {249:by devotion and knowledge}, {252:worship} {251:Hari}, {256:the God} {257:grants} {253:the remembrance of Him} {255:at the end} {254:indeed}, {258:and not} {259:and} {260:otherwise’} — by {262:this statement} {261:thus} in {263:the Brahmavaivarta}. {264:The word nirvāṇa} {265:means bodiless}, by the {271:statement} {266:‘kāya}, {267:bāṇa} {268:and śarīra} {269:and’} {270:thus} (are synonyms for body), and by the {276:usage} {274:‘leaning upon} {272:this} {273:bāṇa (body)’} {275:thus} {277:and}; {278:the establishing of the word nirbāṇa} is like {279:‘senseless’} {280:thus} {281:and the like}. {282:How} {283:else} would {285:the form} {284:well-known from all the Purāṇas} {286:of the Lord} {287:be intelligible}? {288:And} {289:nor} is there {290:other} {293:supreme Brahman} {292:supreme} {291:than the Lord}, by {294:‘Brahman} {295:as}, {296:Paramātman} {297:as}, {298:Bhagavān} {299:as} {300:He is spoken of’} {301:thus} in {302:the Bhāgavata}; {303:‘Bhagavān}, {304:the supreme} {305:Brahman’}, {306:‘the supreme Brahman} {307:is Janārdana’}, {308:‘the supreme} {309:who} {310:is the great Brahman’}, {311:‘since} {313:beyond} {312:the perishable} {314:I am} {316:and even} {317:and} {318:higher} {315:than the imperishable’}, {319:‘He who}, {320:that one}, {321:is grasped beyond the senses’}, {322:‘there is} {323:not} {324:equal to Nārāyaṇa}, {325:nor} {326:has been} {327:nor} {328:shall be’}, {329:‘there is} {331:not} {330:equal to you} {332:nor greater} — {333:whence} {334:another?’} {335:thus} {336:and the like}. {337:Nor} {338:and} is {341:this} {342:to be supposed} (a mere figure) {340:because of the bodilessness} {339:of that Brahman}, since {345:a body is heard of} {343:for it} {344:too}, in {346:‘the bliss-formed} {347:immortal’}, {348:‘golden light’}, {349:‘small} {351:is the inner space} {350:within this} (heart)’ {352:thus} {353:and the like}. {354:If} {355:form} {357:were} {356:not}, {358:‘bliss’} {360:merely} {359:thus} {361:it would say}, {362:not} {363:but} {364:‘bliss-formed’} {365:thus}; and {366:how} {367:and} {369:could there be} {368:golden-form-ness} {370:for the formless}? {371:How} {372:dwelling-in-the-small}? And {373:the dweller-in-the-small} {374:and} is, in {378:the passage} {375:‘some} (see Him) in {376:their own body’} {377:thus}, {380:said to be} {379:having form}. By {381:‘thousand-headed} {382:is the Person’}, {383:‘the golden-hued} {384:maker’}, {385:‘sun-hued}, {387:beyond} {386:darkness’}, {389:‘hands and feet} {388:on every side} {390:that has’}, {391:‘on every side} {392:eye} {393:also’} {394:thus} {395:and like statements}, {397:and} {396:from the Viśvarūpa chapter etc.}, {399:He is concluded to be} {398:having form}. {401:And} {402:the Lord} is {400:possessed of utterly perfect knowledge, lordship, vigor, bliss, beauty, power and the rest}, by {403:‘His supreme} {404:His} {405:power} {408:is heard of} {406:as manifold} {407:indeed}; {409:natural} is {410:His knowing, strength, and action} {411:and’}, {412:‘He who} {413:is all-knowing’}, {414:‘the bliss} {415:of Brahman’}, {420:‘the other beings} {419:other} {422:subsist upon} {421:a fragment} {416:of this} {417:very} {418:bliss’}, {423:‘of beginningless, middleless, endless} {424:endless vigor’}, {425:‘of measureless thousand-lakh radiant beauty’}, {426:‘in Me} {427:of endless qualities}, {428:endless}, {429:qualitatively} {430:of endless form’}, {431:‘of the power of knowledge} {432:I} {433:am}, {434:of endless power’}, {435:‘the fourth}, {436:that} {437:all-seeing}, {438:ever’}, {439:‘the Self} {440:and the other} {441:and} {443:knows} {442:he} {444:the knower’}, {445:‘who other} {446:than Mukunda} {447:who} {448:indeed} {450:is the bhagavat-essence} {449:in the world?’}, {451:‘of majesty} {452:entire’}; {453:‘exceedingly} {454:full} {455:are your} {456:bliss}, {457:knowledge} {458:and} {459:good fortune}, {460:which} {461:and} {462:is utterly impossible} {463:to recollect}, {464:let alone} {466:to do} {465:able}, {468:the highest} {467:than this’} — by {470:these and the rest} {469:thus}. {471:And those} {472:and} {473:all} are {474:of one another’s very nature}: {475:‘knowledge}, {476:bliss} {477:is Brahman’}, {478:‘bliss} {479:is Brahman}, {481:he knew’} {480:thus}, {482:‘truth}, {483:knowledge}, {484:the endless} {485:is Brahman’}, {486:‘whose} {487:made of knowledge} {488:is austerity’}, {489:‘he} {490:me} {491:O Bhaga}, {492:enter} {493:hail’}. {494:‘not} {495:His} {496:material} {497:form} {498:sprung of flesh, marrow and bone}; {499:not} by {500:His yoga-hood} {501:and lordship} {502:the truth-formed} {503:Acyuta} {504:is all-pervading’}; {505:‘possessed of a true body}, {506:of pleasing fragrance} {507:and}, {508:shining with knowledge}, {509:of true valor}, {510:knowing-yet-unknowing}, {511:blissful-yet-(beyond)-pleasure} — {512:that} {513:Viṣṇu} {514:is the supreme} {515:imperishable’} — {516:thus} in {517:the Paiṅgī-khila}. {518:‘This body} {519:this} {520:of Mine} {521:is ever-blissful}, {522:not} {523:this} {524:fashioned of nature}, {525:and full} {526:and} {527:everywhere}; {528:therefore} {531:I} {530:am} {529:Nārāyaṇa’} {532:thus} — by {533:these and the rest} in {534:the Brahmavaivarta}. {535:That very (Lord)} {536:very}, {537:in sport} {538:and}, {539:He} {541:shows} Himself {542:by māyā} {540:in a seemingly limited form}: {543:‘neither} {544:and} {546:did He dwell} {545:in the womb} {547:of the goddess}, {548:nor} {549:and} {550:also} (was He born) {551:of Vasudeva}, {552:nor} {553:and} {554:also} {556:born} {555:of Rāghava}, {557:nor} {558:and} {559:also} {560:of Jamadagni}; {561:ever-blissful}, {562:non-dual}, {563:yet} {564:thus} {565:He sports}, {566:of unfailing vision’} — {567:thus} in {568:the Pādma}. {569:‘not} {570:indeed} {571:that} {572:Self}, {574:the over-lord} {573:of the self-possessed}, {578:the Lord} {579:Vāsudeva}, {575:does (really) experience} {576:indeed} {577:suffering’}; {581:‘the ruler} {580:of creation and the rest}, {582:the unborn}, {583:the treasure of supreme bliss}, {584:of the form of awareness}, {585:yet} {588:showing} {586:unawareness} {587:to the worlds}, {589:who} {591:went} {590:for the sake of the dear one whose self was stolen by the sage’s son’}; {592:‘He} {593:whose feet are worshipped by Brahmā}, {595:prattling} {594:like a man}, {599:spread out} {598:love} {596:among the women} {597:thus} {600:made’}; {602:‘of inconceivable vigor} {601:through the (Pūrta) rites}, {603:who} {604:and who} {605:and} {606:is the son of Daśaratha} {607:himself}, {610:to make} {608:Rudra’s word} {609:true}, {611:the unconquered} {613:stood} {612:as if conquered’}; {614:‘who}, {615:unconquered}, {616:was conquered} {617:by devotion}, {619:did not} {620:slay} {621:indeed} {618:the son of Gaṅgā}, {622:nor} {623:and} {625:caused to be seized} {624:Ambā}, {626:who, the compassionate}, {627:who} {628:is there more so} {629:than He?’} — by {631:these and the rest} {630:thus} {632:and} in {633:the Skānda}, {634:not} {635:in Him} {636:the attributes of saṃsāra} {637:are to be predicated}. And {638:where} {639:and} {640:a difference of higher and lower} {641:is understood}, {642:there} {644:in dependence on} {643:the understanding of the ignorant} is {645:the lower-ness}; {648:elsewhere} (it is) {646:the universal form} {647:having regard to}. {649:That} {650:and} {651:is stated}: {652:‘utterly full} are {653:the forms}, {654:all alike} {655:from the standpoint of all form}; {656:yet} {657:even}, {658:having regard to} {659:of the dull} {660:the sight}, {662:the seers} {663:too} {664:indeed} {661:you} {666:speak of} {665:higher and lower} {667:thus}, {668:for} {670:the deluding} {669:of the non-devotees’} — {671:thus} in {672:the Garuḍa}. {673:Nor} {674:and} {675:here} is {676:anything} {678:to be called} {677:figurative}; for {683:it is said} that, {679:by reason of His inconceivable power} {680:and the manifoldness of things} {681:and} {682:thus}, (all is literally true). {684:‘The forms of Kṛṣṇa, Rāma and the rest} {685:are utterly full} {686:ever}, {687:not} {688:and} {690:differing} {689:by even an atom}; {691:yet} {692:even} {694:You delude} {693:us’} {695:thus} {696:and the like} {697:and}, in {698:the Nāradīya}. {699:Therefore} {709:attains} {708:the knower of the direct knowledge} {706:the supreme} {707:Brahman} {705:named Nārāyaṇa}, who, {700:always} {701:in all His forms}, is {702:of innumerable endless hosts of qualities} {704:and} {703:ever free of every fault} — {710:thus} {711:this is established}.",
