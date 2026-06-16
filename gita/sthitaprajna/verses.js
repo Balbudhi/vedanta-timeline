@@ -570,7 +570,7 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "प्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान्।\nआत्मन्य् एवात्मना तुष्टः स्थितप्रज्ञस् तदोच्यते॥",
     "iast": "prajahāti yadā kāmān sarvān pārtha manogatān |\nātmany evātmanā tuṣṭaḥ sthitaprajñas tadocyate ||",
-    "sense": "Kṛṣṇa answers: when a man casts off every kāma (desire as craving) that rises in the manas (the mind as the seat of thought and intention), and is content in the self by the self alone, then he is called a man of settled wisdom.",
+    "sense": "Kṛṣṇa answers: when a man casts off every kāma (desire as craving) that rises in the manas (the manas as the seat of thought and intention), and is content in the self by the self alone, then he is called a man of settled wisdom.",
     "english": "{1:When} he {0:utterly casts off} {3:all} {2:the kāmas} {5:that arise in the manas}, {4:Pārtha}, {7:content} {6:in the self} {8:by the self} {9:alone} — {11:then} {12:he is called} {10:one of settled prajñā}.",
     "words": [
       {
@@ -865,7 +865,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.55",
         "sanskrit": "ātmany evātmanā manasā ātmaikāvalambanena tuṣṭaḥ, tena toṣeṇa tadvyatiriktān sarvān manogatān kāmān yadā prakarṣeṇa jahāti, tadāyaṃ sthitaprajña ity ucyate / jñānaniṣṭhā-kāṣṭhā iyam /",
-        "ourRendering": "Content in the self alone, by the self — that is, by the manas (the mind as the seat of thought and intention) whose sole support is the self — and through that contentment, when he utterly casts off all the kāmas (desire as craving) within the manas other than that self, then this man is called sthitaprajña. This is the summit of steadfastness in jñāna (liberating knowledge of the self).",
+        "ourRendering": "Content in the self alone, by the self — that is, by the manas (the manas as the seat of thought and intention) whose sole support is the self — and through that contentment, when he utterly casts off all the kāmas (desire as craving) within the manas other than that self, then this man is called sthitaprajña. This is the summit of steadfastness in jñāna (liberating knowledge of the self).",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -2532,7 +2532,7 @@ window.GITA_VERSES = [
     "devanagari": "यदा संहरते चायं कूर्मो ऽङ्गानीव सर्वशः।\nइन्द्रियाणीन्द्रियार्थेभ्यस् तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "yadā saṃharate cāyaṃ kūrmo 'ṅgānīva sarvaśaḥ |\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā ||",
     "sense": "And when, like a tortoise drawing in its limbs from every side, this one withdraws his indriyas (the sense-faculties, the channels between mind and world) from the objects of sense, his prajñā is firmly established.",
-    "english": "{1:And} {0:when} {3:this one} {2:withdraws} {8:the indriyas} {9:from the objects of sense}, {7:from every side}, {6:like} {4:a tortoise} {5:its limbs} — {10:his} {11:prajñā} {12:is firmly established}.",
+    "english": "{1:And} {0:when} {3:this one} {2:withdraws} {8:the indriyas} {9:from the objects of indriya}, {7:from every side}, {6:like} {4:a tortoise} {5:its limbs} — {10:his} {11:prajñā} {12:is firmly established}.",
     "words": [
       {
         "i": 0,
@@ -3171,7 +3171,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{0:When} {1:the indriyas} {3:to touch} {2:the objects of sense} {4:are poised}, {5:then} {6:and there} — {9:like} {7:a tortoise} {8:its limbs} — {12:having drawn} {1:them} {11:entirely} {12:in} {10:from the objects of sense}, he {15:settles} {13:the manas} {14:in the self}: {16:he} {17:too} is {18:a man of steady wisdom}. {19:Thus} {21:steadfastness in knowledge} is {20:of four kinds}, {22:each earlier one} {23:to be accomplished by the one that follows}.",
+        "english": "{0:When} {1:the indriyas} {3:to touch} {2:the objects of indriya} {4:are poised}, {5:then} {6:and there} — {9:like} {7:a tortoise} {8:its limbs} — {12:having drawn} {1:them} {11:entirely} {12:in} {10:from the objects of indriya}, he {15:settles} {13:the manas} {14:in the self}: {16:he} {17:too} is {18:a man of steady wisdom}. {19:Thus} {21:steadfastness in knowledge} is {20:of four kinds}, {22:each earlier one} {23:to be accomplished by the one that follows}.",
         "segments": [
           {
             "from": 0,
@@ -11346,7 +11346,7 @@ window.GITA_VERSES = [
     "devanagari": "तस्माद् यस्य महाबाहो निगृहीतानि सर्वशः।\nइन्द्रियाणीन्द्रियार्थेभ्यस् तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "tasmād yasya mahābāho nigṛhītāni sarvaśaḥ |\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā ||",
     "sense": "Therefore, mighty-armed one, the prajñā of him whose indriyas are wholly held back from the sense-objects is firmly established.",
-    "english": "{0:Therefore}, {2:mighty-armed one}, {1:he whose} {6:indriyas} {5:are held back} {4:wholly} {7:from the sense-objects} — {8:of him} {9:the prajñā} {10:is firmly established}.",
+    "english": "{0:Therefore}, {2:mighty-armed one}, {1:he whose} {6:indriyas} {5:are held back} {4:wholly} {7:from the indriya-objects} — {8:of him} {9:the prajñā} {10:is firmly established}.",
     "words": [
       {
         "i": 0,
@@ -11838,7 +11838,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Therefore}, {2:in the manner} {1:already stated}, {5:of the one whose manas is fixed} {4:on me}, {3:the auspicious resort} — {6:he whose} {7:indriyas} {9:are wholly} {10:held back} {8:from the sense-objects} — {11:of him} {12:alone} {16:is} {14:the prajñā} {15:firmly established} {13:upon the self}.",
+        "english": "{0:Therefore}, {2:in the manner} {1:already stated}, {5:of the one whose manas is fixed} {4:on me}, {3:the auspicious resort} — {6:he whose} {7:indriyas} {9:are wholly} {10:held back} {8:from the indriya-objects} — {11:of him} {12:alone} {16:is} {14:the prajñā} {15:firmly established} {13:upon the self}.",
         "segments": [
           {
             "from": 0,
