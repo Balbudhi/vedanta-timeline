@@ -204,7 +204,7 @@ Decide per term and apply it consistently; the lists below are the current
 decisions — extend them deliberately, never ad hoc.
 
 - **Preserve in IAST** (irreducible philosophical load / root-imagery English can't
-  hold), glossary-linked: *rāga, dveṣa, guṇa, dharma, kāma, saṅga, prajñā, buddhi,
+  hold), glossary-linked: *rāga, dveṣa, guṇa, dharma, kāma, prajñā, buddhi,
   manas, indriya, karma, yoga, rasa, ahaṅkāra, tṛṣṇā, samādhi, saṃsāra*. Note
   *prajñā* (the *sthita-prajña* title concept, ≠ buddhi, ≠ jñāna), *buddhi* (the
   discriminating faculty, kept distinct from manas/prajñā), and *karma* (action +
@@ -213,7 +213,10 @@ decisions — extend them deliberately, never ad hoc.
 - **Translate** (plain English carries it fully): *krodha* → anger, *bhaya* → fear,
   *moha* → delusion, *duḥkha* → sorrow, *sukha* → pleasure, *spṛhā* → longing,
   *sneha* → affection, *prīti* → fondness, *vidheya* → governable / disciplined,
-  *jñāna* → knowledge, *mokṣa* → liberation. (In set compounds keep the natural
+  *jñāna* → knowledge, *mokṣa* → liberation, *saṅga* → clinging (the English
+  "clinging" carries the √sañj *sticking/adhering* sense, so no abstraction is lost;
+  a cited lemma — Śaṅkara's "‘saṅga’ — clinging…" — keeps the Sanskrit). (In set
+  compounds keep the natural
   form: *jñāna-yoga* "the yoga of knowledge", *jñāna-niṣṭhā* "steadfastness in
   knowledge".)
 - **Use multiple English words when one will not do** — two precise English words

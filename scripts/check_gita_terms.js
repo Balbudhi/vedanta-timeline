@@ -22,7 +22,6 @@ const PRESERVE = {
   guna:    { det: /(^|-)guṇa/,       iast: "guṇa", bad: [] },
   dharma:  { det: /(^|-)dharma/,     iast: "dharma", bad: ["duty"] },
   kama:    { det: /(^|-)kāma/,       iast: "kāma", bad: [] },
-  sanga:   { det: /(^|-)saṅga/,      iast: "saṅga", bad: ["attachment", "clinging"] },
   prajna:  { det: /prajñā/,          iast: "prajñā", bad: ["wisdom", "insight"] },
   buddhi:  { det: /(^|-)buddh/,      iast: "buddhi", bad: ["intellect"] },
   karma:   { det: /(^|-)karma/,      iast: "karma", bad: ["action"] },
@@ -41,6 +40,7 @@ const TRANSLATE = {
   sneha:  { det: /sneh/,                  en: "affection", iast: "sneha" },
   jnana:  { det: /(^|-)jñāna/,            en: "knowledge", iast: "jñāna" },
   moksa:  { det: /(^|-)(mokṣa|mukti)/,    en: "liberation", iast: "mokṣa" },
+  sanga:  { det: /(^|-)saṅga/,            en: "clinging",  iast: "saṅga" },
 };
 // legit glossaryKey synonym/epithet maps (word root -> allowed key)
 const SYN = {
@@ -122,7 +122,9 @@ function checkUnit(label, words, english) {
         for (const badw of d.bad) if (new RegExp(`\\b${badw}\\b`, "i").test(phrases) && !phrases.includes(d.iast)) { console.log(`D ${label} [${w.i}] ${w.iast} (${t}): rendered "${badw}" not IAST — "${phrases}"`); D++; }
       } else if (TRANSLATE[t]) {
         const d = TRANSLATE[t];
-        if (new RegExp(d.iast.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).test(phrases)) { console.log(`C ${label} [${w.i}] ${w.iast} (${t}): left IAST "${d.iast}" — should be "${d.en}" — "${phrases}"`); C++; }
+        const esc2 = d.iast.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        const quoted = new RegExp("[‘'\"“]\\s*" + esc2).test(phrases);   // cited lemma, not used
+        if (!quoted && new RegExp(esc2).test(phrases)) { console.log(`C ${label} [${w.i}] ${w.iast} (${t}): left IAST "${d.iast}" — should be "${d.en}" — "${phrases}"`); C++; }
       }
       // B: rendered as a DIFFERENT preserve-term's IAST (but not when that IAST is
       // a quoted lemma — ‘rasa’, "the word X" — which legitimately cites the word)
