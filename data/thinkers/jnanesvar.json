@@ -34,7 +34,7 @@
       "ascription_notes": "The Marathi *Jñāneśvarī* is securely attributed to Jñāneśvar in the Maharashtrian tradition and modern scholarship.",
       "genre": "gita-bhashya",
       "language": "marathi",
-      "source_status": "acceptable-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "primary_corpus_paths": [
         "data/sources/marathi/vedanta/jnanesvar_jnaneshwari_archive_ocr.txt"
       ],
@@ -53,7 +53,7 @@
       "ascription_notes": "Securely attributed to Jñāneśvar in the Marathi Vedānta and Vārkarī traditions.",
       "genre": "prakarana",
       "language": "marathi",
-      "source_status": "acceptable-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "primary_corpus_paths": [
         "data/sources/english/vedanta/jnanesvar_amritanubhava_pradhan_ocr.txt"
       ],

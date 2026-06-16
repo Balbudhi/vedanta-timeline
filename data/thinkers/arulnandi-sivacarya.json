@@ -31,7 +31,7 @@
       "ascription_notes": "Standardly transmitted as Aruḷnandi Śivācārya's major Tamil Śaiva Siddhānta treatise.",
       "genre": "prakarana",
       "language": "tamil",
-      "source_status": "acceptable-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "primary_corpus_paths": [
         "data/sources/english/saiva_siddhanta/arulnandi_sivajnana_siddhiyar_nallaswami_ocr.txt"
       ],

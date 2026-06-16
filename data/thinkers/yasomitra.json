@@ -30,7 +30,7 @@
       "ascription_notes": "The Sanskrit commentary is standardly ascribed to Yaśomitra and survives in printed editions, including Wogihara's 1932-1936 edition.",
       "genre": "tika",
       "language": "sanskrit",
-      "source_status": "degraded-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A Sanskrit commentary on Vasubandhu's *Abhidharmakośa* and *Kośabhāṣya*. The work explains the technical vocabulary and doctrinal sequence of the Kośa chapters: dhātus, faculties, cosmology, karma, latent defilements, path, knowledge, meditative attainments, and the no-self argument. Its importance lies in its preservation of a Sanskrit scholastic reading of Vasubandhu, especially where the bhāṣya stages Vaibhāṣika and Sautrāntika alternatives. The local source is an Archive.org OCR of the Wogihara edition; it should be treated as degraded until corrected against page images.",
       "key_passage_ids": [],
       "entry_status": "draft"

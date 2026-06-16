@@ -26,7 +26,7 @@
       "ascription_notes": "The *Tātparyadīpikā* is printed as Śrīkumāra's commentary on Bhoja's *Tattvaprakāśa* in the Travancore Sanskrit Series edition.",
       "genre": "tika",
       "language": "sanskrit",
-      "source_status": "acceptable-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "primary_corpus_paths": [
         "data/sources/sanskrit/saiva_siddhanta/srikumara_tattvaprakasa_tatparyadipika_archive_ocr.txt"
       ],

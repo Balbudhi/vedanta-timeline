@@ -31,7 +31,7 @@
       "ascription_notes": "The printed and translated Śrīvidyā tradition attributes the work to Puṇyānandanātha.",
       "genre": "prakarana",
       "language": "sanskrit",
-      "source_status": "acceptable-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "primary_corpus_paths": [
         "data/sources/english/srividya/punyananda_kamakalavilasa_avalon_ocr.txt"
       ],

@@ -33,7 +33,7 @@
       "ascription_notes": "The work is standardly transmitted as Māṇikyanandi's Jaina logic manual and is the base text for Prabhācandra's commentary.",
       "genre": "prakarana",
       "language": "sanskrit",
-      "source_status": "degraded-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "summary": "A concise Digambara Jaina manual of logic and epistemology. The text introduces the marks of valid cognition, the structure of inferential reasoning, and the role of standpoint-conditioned predication in Jaina debate. Its form is compact enough to function as a teaching text, which explains why later commentators, especially Prabhācandra, use it as the basis for more extensive scholastic argument. The local OCR source is a modern edition/translation from Archive.org and is useful for orientation, but it is not clean enough for exact Sanskrit citation without correction.",
       "key_passage_ids": [],
       "entry_status": "draft"

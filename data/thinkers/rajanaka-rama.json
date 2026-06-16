@@ -33,7 +33,7 @@
       "ascription_notes": "The commentary is transmitted under Rājānaka Rāma/Rāmakaṇṭha I in the Spanda commentarial tradition.",
       "genre": "tika",
       "language": "sanskrit",
-      "source_status": "acceptable-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "primary_corpus_paths": [
         "data/sources/sanskrit/kashmir_shaiva/rajanaka_rama_spanda_vivrti_archive_ocr.txt"
       ],

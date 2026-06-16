@@ -32,7 +32,7 @@
       "ascription_notes": "Standardly attributed to Bhaṭṭa Nārāyaṇakaṇṭha in the Śaiva Siddhānta edition and secondary literature.",
       "genre": "tika",
       "language": "sanskrit",
-      "source_status": "acceptable-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "primary_corpus_paths": [
         "data/sources/sanskrit/saiva_siddhanta/narayanakantha_mrgendra_vrtti_archive_ocr.txt"
       ],

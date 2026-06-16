@@ -28,7 +28,7 @@
       "ascription_notes": "The *Śāradātilaka* is standardly attributed to Lakṣmaṇa Deśikendra in the printed tantric tradition.",
       "genre": "prakarana",
       "language": "sanskrit",
-      "source_status": "acceptable-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "primary_corpus_paths": [
         "data/sources/sanskrit/srividya/laksmana_desikendra_sarada_tilaka_archive_ocr.txt"
       ],

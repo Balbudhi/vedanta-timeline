@@ -1,62 +1,21 @@
 # Source collection — what we have, what to get
 
-Generated 2026-06-15. 250 thinkers; 602 engaged-works across visible entries.
+Generated 2026-06-15. 250 thinkers; 602 engaged-works (visible entries).
+
+**Quality rule:** only cleanly-digitized Sanskrit (e.g. GRETIL) is trusted/cited. Deeply-corrupt or wrong-language OCR is NOT kept in this public corpus; such works are marked `primary-text-not-in-corpus` and listed below as needing clean digitization.
 
 ## Engaged-works by source status
-- `primary-text-not-in-corpus`: 360
+- `primary-text-not-in-corpus`: 372
 - `clean-on-disk`: 162
-- `acceptable-on-disk`: 39
-- `degraded-on-disk`: 24
+- `acceptable-on-disk`: 29
+- `degraded-on-disk`: 22
 - `english-original`: 9
 - `bengali-original`: 8
 
-## Primary texts on disk now: 172 files under data/sources/
-- english/aurobindo: 1
-- english/coomaraswamy: 2
-- english/saiva_siddhanta: 1
-- english/srividya: 1
-- english/vedanta: 1
-- english/vivekananda_complete_works: 9
-- english/whitehead: 4
-- german/adorno: 4
-- german/freud: 3
-- german/hegel: 2
-- german/heidegger: 5
-- german/husserl: 7
-- german/kant: 4
-- german/marx: 3
-- german/nietzsche: 16
-- marathi/vedanta: 1
-- prakrit/jaina: 1
-- sanskrit/_kashmir_saivism: 1
-- sanskrit/buddhist: 18
-- sanskrit/caitanya_gaudiya: 5
-- sanskrit/carvaka: 1
-- sanskrit/comparator: 10
-- sanskrit/grammar: 3
-- sanskrit/jaina: 3
-- sanskrit/kala_cakra: 1
-- sanskrit/kashmir_shaiva: 12
-- sanskrit/mimamsa: 3
-- sanskrit/nyaya: 7
-- sanskrit/poetics: 2
-- sanskrit/saiva_siddhanta: 2
-- sanskrit/samkhya: 1
-- sanskrit/srividya: 1
-- sanskrit/vedanta: 12
-- sanskrit/vedanta/full_corpus: 12
-- sanskrit/vedic: 12
-- tamil/saiva_siddhanta: 1
+## Primary texts on disk now: 160 files
+Acquisition URLs (FREE/SCAN/POINT) per author: see docs/PRIMARY_SOURCE_INVENTORY.md and the four docs/ROSTER_GAPS_*.md.
 
-## To acquire — detailed, with availability + URLs
-The legitimately-obtainable targets (FREE etext / SCAN / POINT) are catalogued per author in:
-- `docs/PRIMARY_SOURCE_INVENTORY.md` — full 256-row feasibility table (Sanskrit primaries)
-- `docs/ROSTER_GAPS_vedanta.md`, `docs/ROSTER_GAPS_darsanas.md`, `docs/ROSTER_GAPS_saiva_sakta_regional.md`, `docs/ROSTER_GAPS_citation_mined.md` — newly-added authors' texts + availability flags (FREE/SCAN/POINT/NONE)
-- `to-do/ACQUISITION_NEEDED.md` + `to-do/ROSTER_ADD_DEFERRED.md` — specific gaps flagged during grounding
-
-## Works still off-disk (not-in-corpus): 377
-These are the want-list. Many are FREE on GRETIL/archive (see the gap docs for exact URLs); some are scan-only or copyrighted (→ point to editions / private parishishta).
-
+## Off-disk / want-list: 389 works
 | Thinker | Work | Lang | status |
 |---|---|---|---|
 | Abhinanda Yogin | Mahārtha-Mañjarī (mūla-gāthās) | sanskrit | primary-text-not-in-corpus |
@@ -105,6 +64,7 @@ These are the want-list. Many are FREE on GRETIL/archive (see the gap docs for e
 | Arindam Chakrabarti | Realisms Interlinked: Objects, Subjects, and Other Subjects | english | primary-text-not-in-corpus |
 | Arindam Chakrabarti | The Bloomsbury Research Handbook of Indian Aesthetics and the Philosophy of Art | english | primary-text-not-in-corpus |
 | Arulnandi Sivacarya | Irupā-irupatu | tamil | primary-text-not-in-corpus |
+| Arulnandi Sivacarya | Śivajñānasiddhiyār | tamil | primary-text-not-in-corpus |
 | Asanga | Abhidharma-Samuccaya | sanskrit | primary-text-not-in-corpus |
 | Asanga | Bodhisattva-Bhūmi | sanskrit | primary-text-not-in-corpus |
 | Asanga | Mahāyāna-Saṅgraha | sanskrit | primary-text-not-in-corpus |
@@ -118,6 +78,7 @@ These are the want-list. Many are FREE on GRETIL/archive (see the gap docs for e
 | Bannanje Govindacharya | Mahābhārata-Tātparya-Nirṇaya Sanskrit Vyākhyāna | sanskrit | primary-text-not-in-corpus |
 | Bannanje Govindacharya | Stuti-Candrikā on Vāyu-Stuti | sanskrit | primary-text-not-in-corpus |
 | Bannanje Govindacharya | Ācārya Madhva: Baḍuku-Bareha | kannada | primary-text-not-in-corpus |
+| Bhagavadutpala | Spandapradīpikā | sanskrit | primary-text-not-in-corpus |
 | Bhaktisiddhanta Saraswati | Anubhāṣya on Caitanya-Caritāmṛta | bengali | bengali-original |
 | Bhaktisiddhanta Saraswati | Bhāgavata-Purāṇa Bengali-Sanskrit Commentary | bengali | bengali-original |
 | Bhaktisiddhanta Saraswati | Brahma-Saṃhitā Commentary | bengali | bengali-original |
@@ -179,4 +140,12 @@ These are the want-list. Many are FREE on GRETIL/archive (see the gap docs for e
 | Dharmaraja Adhvarindra | Vedānta-Paribhāṣā | sanskrit | primary-text-not-in-corpus |
 | Dharmottara | Apoha-Prakaraṇa | sanskrit | primary-text-not-in-corpus |
 | Dharmottara | Nyāya-Bindu-Ṭīkā | sanskrit | primary-text-not-in-corpus |
-| … | (+257 more) | | |
+| Dharmottara | Pramāṇa-Viniścaya-Ṭīkā | sanskrit | primary-text-not-in-corpus |
+| Dignaga | Pramāṇa-Samuccaya | sanskrit | primary-text-not-in-corpus |
+| Dignaga | Ālambana-Parīkṣā | sanskrit | primary-text-not-in-corpus |
+| Gangesha Upadhyaya | Tattva-Cintāmaṇi | sanskrit | primary-text-not-in-corpus |
+| Gopala Bhatta Gosvami | Sat-kriyā-sāra-dīpikā | sanskrit | primary-text-not-in-corpus |
+| Goswami Gokulnatha | Caurāsī-Vaiṣṇavan-kī-Vārtā | vraja-bhasha | primary-text-not-in-corpus |
+| Goswami Gokulnatha | Sarva-Nirṇaya-Prakaraṇa-Vivṛti | sanskrit | primary-text-not-in-corpus |
+| Goswami Hariraya | Hariraya-Vivaraṇa on Ṣoḍaśa-Granthāḥ | sanskrit | primary-text-not-in-corpus |
+| … | (+259 more) | | |

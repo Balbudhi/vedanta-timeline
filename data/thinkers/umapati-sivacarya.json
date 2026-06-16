@@ -32,7 +32,7 @@
       "ascription_notes": "Standardly transmitted as Umāpati Śivācārya's Tamil Śaiva Siddhānta treatise.",
       "genre": "prakarana",
       "language": "tamil",
-      "source_status": "acceptable-on-disk",
+      "source_status": "primary-text-not-in-corpus",
       "primary_corpus_paths": [
         "data/sources/tamil/saiva_siddhanta/umapati_sivaprakasam_archive_ocr.txt"
       ],
