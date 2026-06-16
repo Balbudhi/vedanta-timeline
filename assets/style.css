@@ -604,6 +604,17 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   z-index: 5;
 }
 
+/* Dense-cluster declutter: inside a 3+ member cluster, collapse each label to
+   just its name line (drop the italic dates) so the stack of names is shorter
+   and the connector lines stay legible. The full dates reappear the moment a
+   dot is hovered / focused / active, and every name remains fully clickable —
+   so no information is lost, the resting state is just calmer. Zooming in
+   spreads the dots apart, the de-collision pass relaxes, and the cluster marker
+   logic stops applying once they no longer pile up. */
+.thinker-dot--in-cluster:not(:hover):not(:focus-within):not(.is-active) .dates {
+  display: none;
+}
+
 /* edges */
 .lineage-edge {
   fill: none;

@@ -1037,17 +1037,30 @@ function renderDots() {
   // overlapping and labels settle back toward slot 0 — i.e. zoom declutters
   // the labels too. Process in x order so neighbours resolve consistently.
   const LABEL_BASE = 11;     // px from dot to the near edge of a slot-0 label
-  const LABEL_TIER_DY = 30;  // extra px per outward slot
-  const LABEL_H = 28;        // label box height (name + italic dates line)
+  const LABEL_TIER_DY = 19;  // extra px per outward slot
+  // Box height used for packing. In-cluster labels render name-only at rest
+  // (dates hidden via CSS — see .thinker-dot--in-cluster .dates) so they pack
+  // as a single line; sparse standalone labels keep their two-line height.
+  const LABEL_H_FULL = 36;   // name + italic dates line (matches rendered box)
+  const LABEL_H_NAME = 24;   // name line only (dense-cluster resting state)
   const GAP_X = 5;           // min horizontal breathing room between labels
   const GAP_Y = 4;           // min vertical breathing room between labels
-  const MAX_LABEL_SLOTS = 12;
+  const MAX_LABEL_SLOTS = 22;
+  // The dots layer starts at canvas y=0; anything with a negative top edge is
+  // clipped by the sticky era-strip / scroll viewport above the first lane.
+  // No label box may have its top edge above this floor — the topmost lane's
+  // labels are therefore forced to fan downward instead of off-screen. We must
+  // NOT move the dots (that would desync the sticky lane-rail), only the labels.
+  const TOP_FLOOR = 6;
+  const bottomFloor = plotHeight() - 4;  // keep last lane's labels in-canvas too
   const placedBoxes = [];    // [{x1,x2,y1,y2}] in canvas-absolute px
   const slotOf = new Map();  // thinker id → { where, dy }
   const sortedLayout = [...state.layout.values()].sort((a, b) => a.x - b.x);
   for (const p of sortedLayout) {
     const t = p.thinker;
     const nm = t.name || t.id;
+    const inCluster = denseClusters.has(clusterOf.get(t.id));
+    const LABEL_H = inCluster ? LABEL_H_NAME : LABEL_H_FULL;
     const labelW = nm.length * 6 + 14;
     const x1 = p.x - labelW / 2;
     const x2 = p.x + labelW / 2;
@@ -1056,7 +1069,11 @@ function renderDots() {
       const dy = LABEL_BASE + Math.floor(slot / 2) * LABEL_TIER_DY;
       const y2 = where === "above" ? p.y - dy : p.y + dy + LABEL_H;
       const y1 = y2 - LABEL_H;
-      return { where, dy, x1, x2, y1, y2 };
+      // Out of bounds: an "above" box that pokes past the top, or a "below"
+      // box that pokes past the bottom, is unusable — mark it so the search
+      // skips it and falls through to a downward (or upward) slot instead.
+      const inBounds = where === "above" ? y1 >= TOP_FLOOR : y2 <= bottomFloor;
+      return { where, dy, x1, x2, y1, y2, inBounds };
     };
     const overlaps = (b) => placedBoxes.some((q) =>
       !(q.x2 < b.x1 - GAP_X || q.x1 > b.x2 + GAP_X ||
@@ -1066,6 +1083,7 @@ function renderDots() {
     let bestClearance = -Infinity;
     for (let s = 0; s < MAX_LABEL_SLOTS; s++) {
       const b = boxFor(s);
+      if (!b.inBounds) continue;
       if (!overlaps(b)) { placed = b; break; }
       // Track the least-bad fallback by max nearest-neighbour clearance.
       let clr = Infinity;
@@ -1078,6 +1096,13 @@ function renderDots() {
       if (clr > bestClearance) { bestClearance = clr; bestBox = b; }
     }
     if (!placed) placed = bestBox;
+    // Last resort (every in-bounds slot rejected): a clamped slot-0 below the
+    // dot, kept inside the canvas so the label is at least never clipped.
+    if (!placed) {
+      const dy = LABEL_BASE;
+      const y2 = Math.min(p.y + dy + LABEL_H, bottomFloor);
+      placed = { where: "below", dy, x1, x2, y1: y2 - LABEL_H, y2 };
+    }
     placedBoxes.push({ x1: placed.x1, x2: placed.x2, y1: placed.y1, y2: placed.y2 });
     slotOf.set(t.id, { where: placed.where, dy: placed.dy });
   }
