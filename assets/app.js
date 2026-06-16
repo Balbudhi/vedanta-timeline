@@ -4252,24 +4252,11 @@ if (readingModeBtn) {
     setReadingMode(on);
   });
 }
-
-// A brief, muted hint that the R key full-screens the reading. Shown once per
-// session when the Gītā reading opens (and only when R will actually work —
-// i.e. inside the app, not already in reading mode). Fades itself out.
-let readingHintShown = false;
-function showReadingHint() {
-  if (readingHintShown) return;
-  if (document.body.classList.contains("is-reading-mode")) return;
-  readingHintShown = true;
-  const hint = document.createElement("div");
-  hint.className = "reading-hint";
-  hint.innerHTML = `Press <kbd>R</kbd> for full screen`;
-  document.body.appendChild(hint);
-  requestAnimationFrame(() => hint.classList.add("is-visible"));
-  setTimeout(() => {
-    hint.classList.remove("is-visible");
-    setTimeout(() => hint.remove(), 600);
-  }, 3200);
+// In full-screen reading mode, the panel's minimize button drops back to the
+// in-panel view (keeps the panel open; just exits full screen).
+const dpMinimizeBtn = document.getElementById("dpMinimize");
+if (dpMinimizeBtn) {
+  dpMinimizeBtn.addEventListener("click", () => setReadingMode(false));
 }
 
 // ---------- view toggle (Lanes / Network) -----------
@@ -4758,12 +4745,11 @@ async function openGitaReading() {
     dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
       <p class="dp-title">Bhagavad-Gītā 2.54–72</p>
       <p class="dp-attrib">The <em>sthitaprajña</em> answer — word by word, with the commentators in their own voices.</p>
-      <button class="dp-standalone" id="gitaFullBtn" type="button">Read full screen ⤢ <kbd class="dp-kbd">R</kbd></button>`;
+      <button class="dp-standalone" id="gitaFullBtn" type="button">Read full screen ⤢</button>`;
     // Full screen = the app's in-app reading mode (keeps the real site glossary),
     // not the old external standalone page.
     const fullBtn = document.getElementById("gitaFullBtn");
     if (fullBtn) fullBtn.addEventListener("click", () => setReadingMode(true));
-    showReadingHint();
   }
   if (window.GitaReader && dpArticleBody) {
     window.GitaReader.render(dpArticleBody, {
