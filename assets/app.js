@@ -1684,6 +1684,19 @@ function showTab(tab) {
   if (btn) btn.hidden = false;
 }
 
+// Show only the tabs that belong to the current panel content. A thinker shows
+// Thinker + Source (Translation/Citation are revealed lazily by showTab() as a
+// work or citation is opened). A standalone article (e.g. the Gītā reading) has
+// no thinker, so it shows only the Article tab — no empty Thinker/Source tabs.
+// Re-running this also clears stale lazy tabs when switching content.
+function applyTabContext(kind) {
+  if (!dpTabBar) return;
+  const visible = kind === "article" ? ["article"] : ["thinker", "source"];
+  dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
+    btn.hidden = !visible.includes(btn.dataset.pane);
+  });
+}
+
 if (dpTabBar) {
   dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -1847,6 +1860,7 @@ function openThinker(id) {
   panelState.loaded.thinker = true;
   detailContent.scrollTop = 0;
   openPanel("thinker");
+  applyTabContext("thinker");
   scrollDotIntoView(t);
   // wire read-full buttons
   detailContent.querySelectorAll("[data-read-full]").forEach((btn) => {
@@ -4469,7 +4483,8 @@ async function openArticle(a) {
   // chooser modal closes on selection (the user picked one already).
   articlesModal.classList.remove("is-open");
   articlesModal.setAttribute("aria-hidden", "true");
-  showTab("article");
+  // A standalone article has no thinker context: show only the Article tab.
+  applyTabContext("article");
   if (dpArticleHead) {
     const pill = a.kind === "perspective"
       ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> '
