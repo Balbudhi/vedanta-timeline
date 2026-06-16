@@ -154,73 +154,79 @@ html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; 
 .vchip.is-active .vdot { opacity: 1; }
 
 /* ---------- recitation bar ---------- */
-/* The last element in the reading flow, sticky to the BOTTOM of the scroll
-   context in BOTH modes — thumb-reachable on a phone. Standalone it pins to the
-   bottom of the viewport; embedded it pins to the bottom of the article pane.
-   No viewport-fixed positioning, so the app shell is untouched. */
+/* A slim, low-profile player — the last element in the reading flow, sticky to
+   the BOTTOM of the scroll context in BOTH modes (thumb-reachable on a phone).
+   It is meant to recede: a translucent surface over a hairline border, no loud
+   fill, so it sits under the text rather than competing with it. No
+   viewport-fixed positioning, so the app shell is untouched. */
 .recite-bar {
-  --recite-fill: #b8740f;
+  --recite-fill: #a98a4e;
   position: sticky; bottom: 12px; z-index: 30;
-  display: flex; flex-direction: column; gap: 8px;
-  margin: 24px 0 0; padding: 10px 14px;
-  background: var(--bg-warm);
-  border: 1px solid var(--rule); border-radius: 14px;
-  box-shadow: 0 6px 22px -10px rgba(0,0,0,.28);
+  display: flex; align-items: center; gap: 12px;
+  margin: 24px 0 4px; padding: 7px 12px;
+  background: color-mix(in srgb, var(--bg-warm) 86%, transparent);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+  border: 1px solid var(--hairline); border-radius: 12px;
+  box-shadow: 0 2px 10px -6px rgba(0,0,0,.22);
   font-family: var(--sans);
 }
-[data-theme="dark"] .recite-bar { --recite-fill: #e0a43a; }
+[data-theme="dark"] .recite-bar { --recite-fill: #c9ad6a; }
 
-.rb-track-row { display: flex; align-items: center; gap: 10px; }
-.rb-controls { display: flex; align-items: center; gap: 10px; }
+.rb-controls { display: flex; align-items: center; gap: 4px; flex: none; }
 
-.rb-play, .rb-skip {
-  flex: none; font-family: var(--sans); cursor: pointer;
-  border: 1px solid var(--rule); background: var(--bg); color: var(--ink);
-  border-radius: 999px; transition: border-color .15s, background .15s;
+.rb-play {
+  flex: none; width: 34px; height: 34px; display: grid; place-items: center; padding: 0;
+  cursor: pointer; color: var(--ink);
+  border: 1px solid var(--rule); background: var(--bg);
+  border-radius: 50%; transition: border-color .15s, background .15s, color .15s;
 }
-.rb-play { width: 40px; height: 40px; display: grid; place-items: center; padding: 0; }
-.rb-play:hover, .rb-skip:hover { border-color: var(--muted-soft); background: var(--bg-warmer); }
+.rb-play:hover { border-color: var(--muted-soft); background: var(--bg-warmer); }
 .rb-icon { width: 0; height: 0; border-style: solid;
-  border-width: 8px 0 8px 13px; border-color: transparent transparent transparent currentColor;
+  border-width: 6px 0 6px 10px; border-color: transparent transparent transparent currentColor;
   margin-left: 2px; }
 .rb-play.is-playing .rb-icon {
-  width: 11px; height: 13px; border: none; margin: 0;
-  border-left: 4px solid currentColor; border-right: 4px solid currentColor;
+  width: 9px; height: 11px; border: none; margin: 0;
+  border-left: 3px solid currentColor; border-right: 3px solid currentColor;
 }
-/* skip ±15s */
+
+/* skip ±15s — circular-arrow glyph with the interval set in the centre */
 .rb-skip {
-  height: 36px; padding: 0 11px; color: var(--muted);
-  display: inline-flex; align-items: center; gap: 1px;
+  flex: none; width: 30px; height: 30px; padding: 0; display: grid; place-items: center;
+  cursor: pointer; color: var(--muted); background: none; border: none;
+  border-radius: 50%; transition: color .15s, background .15s;
 }
-.rb-skip-chev { font-size: 13px; line-height: 1; letter-spacing: -2px; }
-.rb-skip-n { font-size: 11px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.rb-skip:hover { color: var(--ink); background: color-mix(in srgb, var(--ink) 8%, transparent); }
+.rb-skip-ic { width: 21px; height: 21px; fill: currentColor; }
+.rb-skip-num { fill: currentColor; font-family: var(--sans); font-size: 8px; font-weight: 700; }
 
 .rb-progress {
-  --track-h: 6px;
-  position: relative; flex: 1 1 auto; min-width: 60px; height: 20px;
+  --track-h: 4px;
+  position: relative; flex: 1 1 auto; min-width: 50px; height: 18px;
   display: flex; align-items: center; cursor: pointer; touch-action: none;
 }
 .rb-progress::after {                    /* unplayed track */
   content: ""; position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%);
   height: var(--track-h); border-radius: 999px; background: var(--rule-warm); pointer-events: none;
 }
-.rb-bar {                                /* played portion — warm fill */
+.rb-bar {                                /* played portion — quiet fill */
   position: absolute; left: 0; top: 50%; transform: translateY(-50%);
   height: var(--track-h); width: 0; border-radius: 999px;
   background: var(--recite-fill); pointer-events: none; z-index: 1;
 }
-.rb-bar::after {                         /* playhead knob */
-  content: ""; position: absolute; right: -6px; top: 50%; transform: translate(0, -50%);
-  width: 12px; height: 12px; border-radius: 50%;
-  background: var(--recite-fill); box-shadow: 0 0 0 2px var(--bg-warm);
+.rb-bar::after {                         /* playhead knob — revealed on hover / play */
+  content: ""; position: absolute; right: -5px; top: 50%; transform: translate(0, -50%);
+  width: 10px; height: 10px; border-radius: 50%;
+  background: var(--recite-fill); opacity: 0; transition: opacity .15s;
 }
+.rb-progress:hover .rb-bar::after, .recite-bar.is-playing .rb-bar::after { opacity: 1; }
 .rb-progress:focus-visible { outline: 2px solid var(--muted-soft); outline-offset: 2px; border-radius: 4px; }
 
 .rb-time { flex: none; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
 .rb-reciter {
-  flex: 0 1 auto; min-width: 0; margin-left: auto; font-size: 12px; color: var(--ink-soft);
+  flex: 0 1 auto; min-width: 0; font-size: 11px; color: var(--muted-soft);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
+@media (max-width: 430px) { .rb-reciter { display: none; } }
 
 /* ---------- per-verse play button ---------- */
 .verse-play {

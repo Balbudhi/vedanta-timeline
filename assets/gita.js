@@ -229,18 +229,20 @@ function renderRecitationBar() {
   const attrib = esc(window.GITA_AUDIO.attribution || "");
   const reciter = esc(window.GITA_AUDIO.reciter || window.GITA_AUDIO.attribution || "");
   return `<div class="recite-bar" id="reciteBar">
-    <div class="rb-track-row">
-      <div class="rb-progress" id="rbProgress" role="slider" aria-label="Seek" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-        <div class="rb-bar" id="rbBar"></div>
-      </div>
-      <span class="rb-time" id="rbTime">0:00&thinsp;/&thinsp;0:00</span>
-    </div>
     <div class="rb-controls">
-      <button class="rb-skip" id="rbBack" type="button" aria-label="Back 15 seconds" title="Back 15 seconds"><span class="rb-skip-chev" aria-hidden="true">‹‹</span><span class="rb-skip-n">15</span></button>
+      <button class="rb-skip" id="rbBack" type="button" aria-label="Back 15 seconds" title="Back 15 seconds">
+        <svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">15</text></svg>
+      </button>
       <button class="rb-play" id="rbPlay" type="button" aria-label="Play" title="Play / pause (space)"><span class="rb-icon" aria-hidden="true"></span></button>
-      <button class="rb-skip" id="rbFwd" type="button" aria-label="Forward 15 seconds" title="Forward 15 seconds"><span class="rb-skip-n">15</span><span class="rb-skip-chev" aria-hidden="true">››</span></button>
-      ${reciter ? `<span class="rb-reciter" title="${attrib}">${reciter}</span>` : ""}
+      <button class="rb-skip" id="rbFwd" type="button" aria-label="Forward 15 seconds" title="Forward 15 seconds">
+        <svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">15</text></svg>
+      </button>
     </div>
+    <div class="rb-progress" id="rbProgress" role="slider" aria-label="Seek" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="rb-bar" id="rbBar"></div>
+    </div>
+    <span class="rb-time" id="rbTime">0:00&thinsp;/&thinsp;0:00</span>
+    ${reciter ? `<span class="rb-reciter" title="${attrib}">${reciter}</span>` : ""}
   </div>`;
 }
 
