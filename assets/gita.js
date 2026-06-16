@@ -51,16 +51,21 @@ let SCOPE_N = 0;
 const SCOPES = Object.create(null);
 function newScope(words) { const id = "s" + (++SCOPE_N); SCOPES[id] = words; return id; }
 
+// Free (non-slotted) English text — the connective prose and any inserted
+// Sanskrit (e.g. a clarifying "[indriyas]") — is glossary-linkified by the host
+// so those terms are tappable too. Slotted phrases keep the .we behaviour
+// (highlight + open the word card), so we only linkify the gaps between slots.
+function freeText(s) { return HOST_LINKIFY ? HOST_LINKIFY(s) : esc(s); }
 function renderEnglish(english) {
   const re = /\{([\d,\s]+):([^}]*)\}/g;
   let out = "", last = 0, m;
   while ((m = re.exec(english)) !== null) {
-    if (m.index > last) out += esc(english.slice(last, m.index));
+    if (m.index > last) out += freeText(english.slice(last, m.index));
     const idx = m[1].split(",").map(s => s.trim()).filter(Boolean).join(" ");
     out += `<span class="we" data-wi="${idx}">${esc(m[2])}</span>`;
     last = m.index + m[0].length;
   }
-  if (last < english.length) out += esc(english.slice(last));
+  if (last < english.length) out += freeText(english.slice(last));
   return out;
 }
 function wordSpan(w) {
@@ -250,6 +255,8 @@ function renderRecitationBar() {
 let VERSES = [], VOICES = [], BYVERSE = {}, ROOT = null, GLOSS_BASE = "../../data/glossary/", AUDIO_BASE = "";
 let HOST_GLOSSARY = null;   // when embedded, the app's real glossary popover
 let HOST_THINKER = null;    // when embedded, opens a thinker in the Thinker tab
+let HOST_LINKIFY = null;    // when embedded, wraps glossary terms in the free
+                            // (non-slotted) English text as clickable .term spans
 const VOICE_KEY = "gita-voices";
 let active = new Set();
 
@@ -286,6 +293,7 @@ function render(root, opts) {
   AUDIO_BASE = opts.audioBase != null ? opts.audioBase : AUDIO_BASE;
   HOST_GLOSSARY = typeof opts.onGlossary === "function" ? opts.onGlossary : null;
   HOST_THINKER = typeof opts.onThinker === "function" ? opts.onThinker : null;
+  HOST_LINKIFY = typeof opts.linkifyGlossary === "function" ? opts.linkifyGlossary : null;
   VERSES = window.GITA_VERSES || [];
 
   AUDIO_SEG = Object.create(null);

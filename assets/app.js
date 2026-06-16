@@ -4729,6 +4729,17 @@ function loadScriptOnce(src) {
   });
 }
 
+// Escape text and wrap any glossary headword/alias in a clickable .term span
+// (the document-level handler opens the glossary popover). Used by the Gītā
+// reader for free English text so inserted Sanskrit terms are tappable.
+function linkifyGlossaryText(s) {
+  let out = escape(s);
+  if (state.glossaryRegex) {
+    out = out.replace(state.glossaryRegex, (m) => `<span class="term" data-term="${escape(m)}">${m}</span>`);
+  }
+  return out;
+}
+
 // Render the interactive Gītā reading into the Article pane.
 async function openGitaReading() {
   const base = "gita/sthitaprajna/";
@@ -4757,6 +4768,7 @@ async function openGitaReading() {
       audioBase: "gita/sthitaprajna/",
       onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),  // the site's real glossary popover
       onThinker: (id) => openThinker(id),                        // jump to the Thinker tab
+      linkifyGlossary: linkifyGlossaryText,                      // tappable Sanskrit in free English text
     });
   }
 }
