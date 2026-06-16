@@ -2966,10 +2966,15 @@ let activeGlossDock = null;
 //   • anchorEl  — element to anchor the popover against on desktop. If
 //                 null, the popover is anchored to the topbar Glossary
 //                 button (or top-right of the viewport as a last resort).
-function openGlossary(termKey, anchorEl) {
+function openGlossary(termKey, anchorEl, opts) {
   // If a termKey was passed but is not in the glossary, abort silently
   // (matches the previous behaviour of "click-only" entry points).
   if (termKey != null && !state.glossary.get(termKey)) return;
+  // `fromReader` (opened from the Gītā word-card "Explain …" button): the
+  // popover must persist until the user explicitly closes it (× / Esc) — no
+  // close-on-scroll or click-away — and it parks in the reading column's side
+  // margin so it never covers the text being read.
+  const fromReader = !!(opts && opts.fromReader);
   const isMobile = window.matchMedia("(max-width: 720px)").matches;
   // Mobile: if the bottom dock is already up, update it in place and expand —
   // no full close→reopen, so tapping a new term while docked never flickers.
@@ -3292,6 +3297,27 @@ function openGlossary(termKey, anchorEl) {
     }
     activeGlossDock = { el: pop, show };
     setDockState("expanded");
+  } else if (fromReader) {
+    // Side-pin into the reading column's margin so the popover never covers
+    // the text. Prefer the wider margin; clamp to the viewport.
+    document.body.appendChild(pop);
+    pop.style.position = "fixed";
+    const popW = pop.offsetWidth || 420;
+    const popH = pop.offsetHeight || 320;
+    const margin = 12;
+    const vw = window.innerWidth, vh = window.innerHeight;
+    const colEl = document.querySelector(".dp-article-body") || document.getElementById("detailPanel");
+    const col = colEl ? colEl.getBoundingClientRect() : null;
+    const ar = anchorEl && anchorEl.getBoundingClientRect ? anchorEl.getBoundingClientRect() : null;
+    let left;
+    if (col && (vw - col.right) >= popW + margin * 2) left = col.right + margin;
+    else if (col && col.left >= popW + margin * 2) left = col.left - popW - margin;
+    else left = vw - popW - margin;
+    left = Math.max(margin, Math.min(left, vw - popW - margin));
+    let top = ar ? Math.min(ar.top, vh - popH - margin) : 70;
+    top = Math.max(margin, top);
+    pop.style.left = left + "px";
+    pop.style.top = top + "px";
   } else {
     document.body.appendChild(pop);
     pop.style.position = "fixed";
@@ -3314,26 +3340,15 @@ function openGlossary(termKey, anchorEl) {
     pop.remove();
     if (scrim) scrim.remove();
     if (activeGlossDock && activeGlossDock.el === pop) activeGlossDock = null;
-    document.removeEventListener("click", outsideClose);
     document.removeEventListener("keydown", escClose);
     popoverManager.notifyClosed(closeGloss);
   }
-  function outsideClose(e) {
-    if (pop.contains(e.target)) return;
-    if (e.target === anchorEl || e.target === scrim) return;
-    // On mobile the dock is non-blocking: an outside tap (e.g. on the reading)
-    // must NOT close it — the user reads above the dock. Only the ×, Esc, or a
-    // swipe-down-to-close gesture dismisses it.
-    if (isMobile) return;
-    // Don't auto-close when the user clicks the Glossary topbar button —
-    // that button is the open/close affordance for the summon path.
-    if (e.target.closest && e.target.closest("#glossaryBtn")) return;
-    closeGloss();
-  }
   function escClose(e) { if (e.key === "Escape") closeGloss(); }
   pop.querySelector(".gp-close").addEventListener("click", closeGloss);
-  // defer outside-click handler to next tick so it doesn't fire on the opening click
-  setTimeout(() => document.addEventListener("click", outsideClose), 0);
+  // The popover is sticky: a click outside it does NOT dismiss it. It stays put
+  // until the user explicitly closes it (× button, Esc, or — on the mobile dock —
+  // the scrim/swipe-down gesture), so they can read and click around the page
+  // (timeline, article text, other terms) while keeping the definition open.
   document.addEventListener("keydown", escClose);
   makePopoverDraggable(pop, { storageKey: "vedanta-gloss-popover-pos" });
   popoverManager.open(closeGloss);
@@ -4238,6 +4253,25 @@ if (readingModeBtn) {
   });
 }
 
+// A brief, muted hint that the R key full-screens the reading. Shown once per
+// session when the Gītā reading opens (and only when R will actually work —
+// i.e. inside the app, not already in reading mode). Fades itself out.
+let readingHintShown = false;
+function showReadingHint() {
+  if (readingHintShown) return;
+  if (document.body.classList.contains("is-reading-mode")) return;
+  readingHintShown = true;
+  const hint = document.createElement("div");
+  hint.className = "reading-hint";
+  hint.innerHTML = `Press <kbd>R</kbd> for full screen`;
+  document.body.appendChild(hint);
+  requestAnimationFrame(() => hint.classList.add("is-visible"));
+  setTimeout(() => {
+    hint.classList.remove("is-visible");
+    setTimeout(() => hint.remove(), 600);
+  }, 3200);
+}
+
 // ---------- view toggle (Lanes / Network) -----------
 function wireViewToggle() {
   document.querySelectorAll(".view-toggle-btn").forEach((b) => {
@@ -4721,17 +4755,18 @@ async function openGitaReading() {
     dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
       <p class="dp-title">Bhagavad-Gītā 2.54–72</p>
       <p class="dp-attrib">The <em>sthitaprajña</em> answer — word by word, with the commentators in their own voices.</p>
-      <button class="dp-standalone" id="gitaFullBtn" type="button">Read full screen ⤢</button>`;
+      <button class="dp-standalone" id="gitaFullBtn" type="button">Read full screen ⤢ <kbd class="dp-kbd">R</kbd></button>`;
     // Full screen = the app's in-app reading mode (keeps the real site glossary),
     // not the old external standalone page.
     const fullBtn = document.getElementById("gitaFullBtn");
     if (fullBtn) fullBtn.addEventListener("click", () => setReadingMode(true));
+    showReadingHint();
   }
   if (window.GitaReader && dpArticleBody) {
     window.GitaReader.render(dpArticleBody, {
       glossaryBase: "data/glossary/",
       audioBase: "gita/sthitaprajna/",
-      onGlossary: (term, anchor) => openGlossary(term, anchor),  // the site's real glossary popover
+      onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),  // the site's real glossary popover
       onThinker: (id) => openThinker(id),                        // jump to the Thinker tab
     });
   }
