@@ -3254,49 +3254,55 @@ sup.cite-fn .cite-fn-link:hover {
    subtle warm-grey steps (not brown plateaus), accent colors are
    saturated enough to read clearly on the deep ground. */
 html[data-theme="dark"] {
-  --bg:           #0c0b09;
-  --bg-warm:      #14120f;
-  --bg-warmer:    #1c1a16;
-  --pane-bg:      #0f0e0c;
-  --ink:          #ece8d8;
-  --ink-soft:     #b5b0a0;
-  --muted:        #6e695c;
-  --muted-soft:   #4a463c;
-  --rule:         #25221d;
-  --rule-warm:    #2f2c25;
-  --hairline:     #1a1814;
-  --shadow-sm:    0 1px 3px rgba(0,0,0,.6);
-  --shadow-md:    0 6px 18px rgba(0,0,0,.7);
-  --shadow-lg:    0 18px 44px rgba(0,0,0,.75);
+  /* Warm-NEUTRAL charcoal, not brown. At very low lightness any warm tint
+     reads as dingy mud, so the canvas is kept near-neutral and the warmth of
+     the light theme is carried instead by the cream ink and the accents.
+     Surfaces step up in lightness for honest elevation; text contrast is high
+     (≈14:1 primary, ≈8:1 secondary) for comfortable long-form reading. */
+  --bg:           #1a1a18;
+  --bg-warm:      #222220;
+  --bg-warmer:    #2c2c29;
+  --pane-bg:      #161614;
+  --ink:          #ece8df;
+  --ink-soft:     #b7b2a7;
+  --muted:        #888377;
+  --muted-soft:   #5b584f;
+  --rule:         #302f2b;
+  --rule-warm:    #38362f;
+  --hairline:     #242320;
+  --shadow-sm:    0 1px 3px rgba(0,0,0,.5);
+  --shadow-md:    0 6px 18px rgba(0,0,0,.6);
+  --shadow-lg:    0 18px 44px rgba(0,0,0,.66);
 
-  --label-bg:     rgba(20,18,15,0.96);
-  --label-bg-soft: rgba(20,18,15,0.86);
+  --label-bg:     rgba(26,26,24,0.96);
+  --label-bg-soft: rgba(26,26,24,0.86);
   --close-btn-bg: transparent;
-  --scrollbar-thumb: #2f2c24;
-  --scrollbar-thumb-hover: #47433a;
-  --dot-border:   #0c0b09;
-  --on-ink:       #0c0b09;
+  --scrollbar-thumb: #34332d;
+  --scrollbar-thumb-hover: #4c4a40;
+  --dot-border:   #1a1a18;
+  --on-ink:       #1a1a18;
 
-  /* School palette — saturated to register as accents on the deep
-     canvas, not pastel washouts. */
-  --c-advaita: #82b6ff;
-  --c-vishishtadvaita: #4dd49c;
-  --c-dvaita: #ffae5c;
-  --c-bhedabheda: #cfa6ff;
-  --c-acintya: #ff96c5;
-  --c-shuddha: #ff7a96;
-  --c-avibhaga: #5fd0e5;
-  --c-trika: #b5c2da;
-  --c-cross: #b5c2da;
-  --c-proto: #ada89e;
+  /* School palette — luminous but not neon: lifted off the canvas with
+     enough chroma to read as accents, dialled back from the old near-
+     fluorescent set so they sit calmly on the neutral ground. */
+  --c-advaita: #7fb0f5;
+  --c-vishishtadvaita: #4ecb98;
+  --c-dvaita: #f0a85a;
+  --c-bhedabheda: #c2a3f0;
+  --c-acintya: #f193bd;
+  --c-shuddha: #f27f95;
+  --c-avibhaga: #5fc9dd;
+  --c-trika: #b1bdd2;
+  --c-cross: #b1bdd2;
+  --c-proto: #a8a399;
 }
 
 /* Surface elevation: cards lift modestly off the canvas. */
 html[data-theme="dark"] .work-card { background: var(--bg-warm); }
 html[data-theme="dark"] .compclaim-card { background: var(--bg-warm); }
-html[data-theme="dark"] .source-status--present { background: #0c1f13; color: #6fd897; }
+html[data-theme="dark"] .source-status--present { background: #14271a; color: #6fd897; }
 html[data-theme="dark"] .source-status--present .dot { background: #4ade80; }
-html[data-theme="dark"] .source-status--missing { background: #1f1408; color: #f0a955; }
+html[data-theme="dark"] .source-status--missing { background: #2a2012; color: #f0a955; }
 html[data-theme="dark"] .source-status--missing .dot { background: #f59e0b; }
 
 /* Translator notes / pending callouts — deep elevated surface with
@@ -3307,31 +3313,32 @@ html[data-theme="dark"] .perspective-bubble,
 html[data-theme="dark"] .compclaim-note,
 html[data-theme="dark"] .articles-modal .articles-list .article-card,
 html[data-theme="dark"] .perspective-card {
-  background: #100f0d;
+  background: var(--bg-warm);
   color: var(--ink);
   border: 1px solid var(--rule);
 }
 
-/* Verdict pills — saturated fg on a near-black tinted surface. */
+/* Verdict pills — saturated fg on a tinted surface lifted just off the
+   canvas so the hue registers without glowing. */
 html[data-theme="dark"] .compclaim-card[data-verdict="genuine-disagreement"],
 html[data-theme="dark"] .compclaim-card[data-verdict="real-disagreement"] {
-  --verdict-color: #ff6b6b; --verdict-bg: #1a0a0a; --verdict-fg: #ff9a9a;
+  --verdict-color: #ff6b6b; --verdict-bg: #2a1715; --verdict-fg: #ff9a9a;
 }
 html[data-theme="dark"] .compclaim-card[data-verdict="terminological"],
 html[data-theme="dark"] .compclaim-card[data-verdict="terminological-equivalence"] {
-  --verdict-color: #82b6ff; --verdict-bg: #0a1322; --verdict-fg: #b8d4ff;
+  --verdict-color: #82b6ff; --verdict-bg: #16202f; --verdict-fg: #b8d4ff;
 }
 html[data-theme="dark"] .compclaim-card[data-verdict="parallel-structure"],
 html[data-theme="dark"] .compclaim-card[data-verdict="shared-presupposition"] {
-  --verdict-color: #4dd49c; --verdict-bg: #081a12; --verdict-fg: #95ecc0;
+  --verdict-color: #4dd49c; --verdict-bg: #142a20; --verdict-fg: #95ecc0;
 }
 html[data-theme="dark"] .compclaim-card[data-verdict="contested"] {
-  --verdict-color: #ffae5c; --verdict-bg: #190f04; --verdict-fg: #ffd190;
+  --verdict-color: #ffae5c; --verdict-bg: #281d10; --verdict-fg: #ffd190;
 }
 
 /* Glossary popover school-framing — quiet steel-blue, not warm. */
 html[data-theme="dark"] .glossary-popover .gp-framing {
-  background: #0c1019;
+  background: #161d2a;
   border-left-color: #6f8fc0;
 }
 html[data-theme="dark"] .glossary-popover .gp-framing-status,
@@ -3343,9 +3350,9 @@ html[data-theme="dark"] .glossary-popover .gp-regtag {
 html[data-theme="dark"] .glossary-popover .gp-translator .gp-label { color: #f0a955; }
 
 /* Coverage pills inside translation pane. */
-html[data-theme="dark"] .dp-translation-body .tx-coverage-full .tx-coverage-tag { color: #6fd897; background: #0c1f13; }
-html[data-theme="dark"] .dp-translation-body .tx-coverage-selection .tx-coverage-tag { color: #f0a955; background: #1f1408; }
-html[data-theme="dark"] .dp-translation-body .tx-coverage-placeholder .tx-coverage-tag { color: #ff8aa5; background: #1f0b0c; }
+html[data-theme="dark"] .dp-translation-body .tx-coverage-full .tx-coverage-tag { color: #6fd897; background: #14271a; }
+html[data-theme="dark"] .dp-translation-body .tx-coverage-selection .tx-coverage-tag { color: #f0a955; background: #2a2012; }
+html[data-theme="dark"] .dp-translation-body .tx-coverage-placeholder .tx-coverage-tag { color: #ff8aa5; background: #2a1517; }
 
 /* Close button — flat icon, no fill. The previous "pale background
    ring" treatment read as a heavy pill against the dark canvas. */

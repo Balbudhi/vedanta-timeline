@@ -271,11 +271,11 @@ html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; 
   font-family: var(--sans); font-size: 9px; letter-spacing: .06em; text-transform: uppercase;
   color: var(--muted); opacity: .8; margin: 0 4px 0 1px; vertical-align: 1px;
 }
-html[data-theme="dark"] .seg-gloss          { background: #26241d; }
-html[data-theme="dark"] .seg-interpretation { background: #1e2636; }
-html[data-theme="dark"] .seg-citation       { background: #322a1a; }
-html[data-theme="dark"] .seg-objection      { background: #3a2421; }
-html[data-theme="dark"] .seg-reply          { background: #20301e; }
+html[data-theme="dark"] .seg-gloss          { background: #2a2922; }
+html[data-theme="dark"] .seg-interpretation { background: #1c2434; }
+html[data-theme="dark"] .seg-citation       { background: #2c2616; }
+html[data-theme="dark"] .seg-objection      { background: #322320; }
+html[data-theme="dark"] .seg-reply          { background: #1e2c1d; }
 
 .seg-legend { font-family: var(--sans); font-size: 10.5px; color: var(--muted-soft); display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 0 0 12px; }
 .seg-legend-label { letter-spacing: .03em; }
