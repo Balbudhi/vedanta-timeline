@@ -1805,9 +1805,15 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     border: none;
     border-top: 1px solid var(--rule);
     box-shadow: 0 -8px 24px rgba(0,0,0,0.12);
-    padding: 8px 22px 32px;
+    padding: 2px 22px 0;
     max-height: 72vh;
-    overflow-y: auto;
+    /* Flex column so the handle + search row stay pinned and only .gp-body
+       scrolls. (position:sticky on the search row is unreliable on iOS Safari
+       when the scroll container mixes overflow-x:hidden + overflow-y:auto, which
+       is what made the bar scroll away and a gap appear.) */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     font-size: 15px;
     line-height: 1.6;
     animation: gloss-slide-up 240ms cubic-bezier(.4,.0,.2,1);
@@ -1819,8 +1825,17 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
                 padding 200ms ease;
     z-index: 280;
   }
-  /* The body scrolls; only the handle + search row are drag surfaces. */
-  .glossary-popover .gp-body { touch-action: pan-y; }
+  /* The body is the scroll area; the handle + search row sit above it and stay
+     put. touch-action pan-y so vertical scroll works but the drag-to-minimize
+     gesture (on the handle/search row) isn't hijacked. */
+  .glossary-popover .gp-body {
+    touch-action: pan-y;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 32px;
+  }
   .glossary-popover::before { content: none; }
   .glossary-popover .gp-close {
     font-size: 24px;
@@ -1833,8 +1848,8 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   .glossary-popover .gp-handle {
     display: block;
     width: 100%;
-    padding: 8px 0 6px;
-    margin: 0 0 2px;
+    padding: 6px 0 4px;
+    margin: 0;
     background: none; border: none;
     cursor: grab;
     touch-action: none;
@@ -1849,10 +1864,14 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   }
 
   .glossary-popover .gp-search-row {
-    margin: 0 -22px 12px;
-    top: 0;
+    position: static;
+    flex: 0 0 auto;
+    margin: 0 -22px 8px;
+    padding: 10px 22px;
     touch-action: none;
   }
+  /* 16px stops iOS Safari from auto-zooming the page when the field is focused. */
+  .glossary-popover .gp-search-input { font-size: 16px; }
   .glossary-popover .gp-term { font-size: 22px; }
   .glossary-popover .gp-row { font-size: 14px; }
 
