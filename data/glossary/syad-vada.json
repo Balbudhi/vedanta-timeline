@@ -16,8 +16,8 @@
   "invariant_definition": "The Jaina discipline of conditioned predication, usually presented as the sevenfold scheme (*sapta-bhaṅgī*). It is the formal counterpart of *anekānta-vāda*: because an existent has many aspects, assertion must state the respect under which it speaks. The indeclinable *syāt* does that work. It does not mean bare possibility in the modern modal sense; it means \"from a certain standpoint,\" \"in some respect,\" or \"under a certain condition.\" On that basis the tradition permits seven exhaustive predicative forms: affirmation, negation, affirmation-and-negation under different respects, and combinations involving *avaktavya* or inexpressibility when incompatible predicates are being forced into one unmarked assertion. The scheme is therefore not a license for contradiction. Its task is to preserve fine-grained realism about substances and modes while preventing unqualified claims from masquerading as total descriptions. In Jaina logic, *syād-vāda* belongs with *naya* analysis, not with a generalized skepticism about truth.",
   "school_framing": {
     "framing_status": "different_concepts",
-    "shared_core": "*Syād-vāda* names **the Jain seven-fold conditioned-predication: every claim is qualified by *syāt* ('from a standpoint') and distributed across seven modes** (*Sūtra-kṛtāṅga*; Akalaṅka's *Aṣṭa-śatī*). The Brāhma-ṇical schools cited in the entry do not have an internal doctrine answering to *syād-vāda*; they engage it polemically. Methodology Case 8 takes *syādvāda* as a discipline-of-predication, not a metaphysical thesis.",
-    "register_axes_note": "**Different concept** outside Jainism: when Advaita, Viśiṣṭādvaita, Tattva-vāda, etc. discuss *syād-vāda* they engage the Jain doctrine as *pūrva-pakṣa* and refuse its discipline. *Syād-vāda* is SL+LD+E in register (methodology §1 SL); the Brāhmaṇical engagement is LD. Genuine cross-tradition convergence with Nietzschean perspectivism is partial (Case 8); convergence with KCB's alternative-absolutes is closer (KCB explicitly endorses the Jain naya-pluralism)."
+    "shared_core": "*Syād-vāda* names **the Jain sevenfold conditioned predication: every claim is qualified by *syāt* ('from a standpoint') and distributed across seven modes**. The Brāhmaṇical schools cited in the entry have no internal doctrine answering to *syād-vāda*; they treat it critically as a *pūrva-pakṣa*. It is best taken as a discipline of predication rather than as a metaphysical thesis.",
+    "register_axes_note": "Outside Jainism *syād-vāda* is a different concept: when Advaita, Viśiṣṭādvaita, Tattva-vāda, and others discuss it, they treat the Jain doctrine as a *pūrva-pakṣa* and reject it. Within Jainism it is a positive discipline of standpoint-conditioned assertion; the Brāhmaṇical engagement with it is purely critical."
   },
   "per_school": [
     {
@@ -32,7 +32,7 @@
           "locus_short": "BSBh 2.2.33-36"
         }
       ],
-      "register_tag": "LD; polemicist [REAL-DISAGREEMENT: rejected]"
+      "register_tag": "LD; polemicist"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -46,7 +46,7 @@
           "locus_short": "ŚrīBh 2.2.33-36"
         }
       ],
-      "register_tag": "LD; polemicist [REAL-DISAGREEMENT: rejected]"
+      "register_tag": "LD; polemicist"
     },
     {
       "school": "Tattva-vāda",
@@ -60,7 +60,7 @@
           "locus_short": "Anuvy 2.2.236-237"
         }
       ],
-      "register_tag": "LD; polemicist [REAL-DISAGREEMENT: rejected]"
+      "register_tag": "LD; polemicist"
     },
     {
       "school": "Bhedābheda",
@@ -169,7 +169,6 @@
   ],
   "see_also": [
     "anekanta-vada",
-    "naya",
     "anumana"
   ],
   "translator_note": "\"Conditional predication\" is safer than \"maybe-doctrine.\" The lazy rendering of *syāt* as \"perhaps\" imports epistemic uncertainty and makes the system sound skeptical or probabilistic. In the Jaina technical register, *syāt* marks standpoint-conditioned assertion, not hesitation."

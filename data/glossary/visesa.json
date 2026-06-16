@@ -201,11 +201,16 @@
     },
     {
       "school": "Yogācāra",
-      "definition": "Yogācāra does not install viśeṣa as an independent padārtha; instead, determinate appearances arise from a seed that has reached pariṇāma-viśeṣa within consciousness itself. (cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*) Accordingly the appeal to external bhūtaviśeṣas is rejected in favor of consciousness's own specific transformation and stream-conditioned regulation. (cite://vasubandhu/vimsatika/Karma, Vāsanā, and Scriptural Objection cite://vasubandhu/vimsatika/9 and Entry into *Pudgala-Nairātmya*)",
+      "definition": "Yogācāra does not install viśeṣa as an independent padārtha; instead, determinate appearances arise from a seed that has reached pariṇāma-viśeṣa within consciousness itself. (cite://vasubandhu/vimsatika/9) Accordingly the appeal to external bhūta-viśeṣas is rejected in favor of consciousness's own specific transformation and stream-conditioned regulation. (cite://vasubandhu/vimsatika/9)",
       "primary_loci": [
-        "Viṃśatikā, Vvs 6-9 with vṛtti"
+        "Viṃśatikā 6-9 with vṛtti"
       ],
-      "citations": []
+      "citations": [
+        {
+          "cite": "cite://vasubandhu/vimsatika/9",
+          "locus_short": "Viṃś 9"
+        }
+      ]
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -239,10 +244,10 @@
     }
   ],
   "see_also": [
-    "visistadvaita",
     "dvaita",
-    "samanya",
-    "padartha",
+    "advaita",
+    "samanyalaksana",
+    "bheda",
     "aprthak-siddhi"
   ],
   "translator_note": "\"Particularity\" is often too vague, and simply translating *viśeṣa* as \"difference\" can be worse, because each school is using the term to solve a different structural problem. In Vaiśeṣika it is an ultimate differentiator; in Viśiṣṭādvaita it belongs to the grammar of qualified unity; in Tattva-vāda it is a technical device for internal distinction without separability. English glosses that erase those differences import an analytic sameness the Sanskrit debates are explicitly resisting.",

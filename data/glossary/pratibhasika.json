@@ -34,7 +34,7 @@
         "Nyāya-Sūtra 4.2 [NOT YET RETRIEVED]",
         "Tattva-Cintāmaṇi, pratyakṣa-khaṇḍa [NOT YET RETRIEVED]"
       ],
-      "register_tag": "E+LD; reflective reader [REAL-DISAGREEMENT: anyathā-khyāti, no third tier]"
+      "register_tag": "E+LD; reflective reader"
     },
     {
       "school": "Tattva-vāda",
@@ -43,14 +43,12 @@
         "Madhva, Mithyātva-Anumāna-Khaṇḍana [NOT YET RETRIEVED]",
         "Vyāsatīrtha, Nyāyāmṛta, mithyātva-bhaṅga [NOT YET RETRIEVED]"
       ],
-      "register_tag": "E+LD; Tattvavādin [REAL-DISAGREEMENT: no third tier]"
+      "register_tag": "E+LD; Tattvavādin"
     }
   ],
   "see_also": [
     "vyavaharika",
     "paramarthika",
-    "satta-traya",
-    "rajju-sarpa",
     "anirvacaniya",
     "adhyasa",
     "khyati"

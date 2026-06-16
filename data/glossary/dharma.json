@@ -6,9 +6,16 @@
   "cognates": {
     "pie_root": "*dʰer- ‘to hold fast, support’",
     "items": [
-      {"lang": "Latin", "form": "firmus", "sense": "firm, steadfast"},
-      {"lang": "Latin", "form": "fortis (Old Lat. forctus)", "sense": "strong"},
-      {"lang": "English", "form": "firm (via Latin)", "sense": ""}
+      {
+        "lang": "Latin",
+        "form": "firmus",
+        "sense": "firm, steadfast"
+      },
+      {
+        "lang": "Latin",
+        "form": "fortis (Old Lat. forctus)",
+        "sense": "strong"
+      }
     ],
     "note": "Skt. √dhṛ < PIE *dʰer- ‘hold, support’ is secure. The Latin firmus/fortis link to the same root is the traditional (Pokorny) reconstruction and is plausible but not universally accepted; Eng. ‘firm’ is a Latin loan, not a native cognate."
   },
@@ -21,7 +28,7 @@
     "dharmāḥ",
     "dharmān"
   ],
-  "last_verified_at": "2026-05-10",
+  "last_verified_at": "2026-06-15",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Dharma* is a load-bearing term across ritual theory, jurisprudence, ontology, yoga, and Buddhist phenomenology. The root sense is 'that which upholds,' but philosophical use immediately splits into several linked registers. In Mīmāṃsā, *dharma* is what is known through Vedic injunction and enacted through prescribed performance; the debate then turns on whether an act is *kratvartha* or *puruṣārtha*, and on how unseen efficacy connects action and result. In epic and social discourse, *dharma* becomes the right ordering of role, relation, and circumstance. In Nyāya-Vaiśeṣika, a *dharma* of a *dharmin* is a property borne by a substance. In Buddhism, *dharma* or *dhamma* can name both the teaching and the elementary factors analyzed as the constituents of experience. Vedānta inherits all these uses but reorders them around liberation: which *dharma* binds, which purifies, which continues as devotion, and whether the highest state lies beyond enjoinment or fulfills it.",
   "school_framing": {
@@ -343,7 +350,7 @@
           "locus_short": "TS 10.8"
         }
       ],
-      "register_tag": "M+C; reflective reader [different concept: motion-medium]"
+      "register_tag": "M+C; reflective reader"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -395,7 +402,7 @@
         "locus": "Mīmāṃsā-sūtra 1.1.2 (Jaimini; on-disk comparator text)",
         "sanskrit": "codanālakṣaṇo 'rtho dharmaḥ",
         "rendering": "Dharma is the good (artha) characterised by [Vedic] injunction (codanā).",
-        "note": "The ritual-ordinance sense made into a formal definition: dharma is precisely whatever the Vedic injunctive utterance (*codanā*) enjoins, knowable only through *śabda* and not through perception (cf. MS 1.1.4–5). This is the Mīmāṃsaka crystallisation of the Brāhmaṇa duty-sense — dharma as enjoined performance — and the foil against which the Gītā's *sva-dharma* and Vedānta's subordination of duty to knowledge are both defined."
+        "note": "The ritual-ordinance sense made into a formal definition: dharma is precisely whatever the Vedic injunctive utterance (*codanā*) enjoins, knowable only through *śabda* and not through perception (cf. MS 1.1.4–5). This is the Mīmāṃsaka crystallisation of the Brāhmaṇa duty-sense — dharma as enjoined performance. The Gītā's *sva-dharma* and Vedānta's subordination of duty to knowledge each take up dharma in their own way."
       },
       {
         "era": "Bhagavad-Gītā",

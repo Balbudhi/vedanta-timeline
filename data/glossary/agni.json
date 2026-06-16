@@ -2,7 +2,7 @@
   "term_key": "agni",
   "term_iast": "agni",
   "term_devanagari": "अग्नि",
-  "literal": "fire; from PIE *h₁ngʷnis (cf. Latin *ignis*); in Sanskrit a masculine *i*-stem (*agniḥ*, nom. sg.) naming both the physical element fire and the deity who presides over it. The name is not derived from a verbal root *ag-* but is the inherited Indo-European word for fire.",
+  "literal": "fire; from PIE *h₁ngʷnis (cf. Latin *ignis*); in Sanskrit a masculine *i*-stem (*agniḥ*, nom. sg.) naming both the physical element fire and the deity who presides over it. The name is the inherited Indo-European word for fire, and traces to PIE rather than to any Sanskrit verbal root *ag-*.",
   "aliases": [
     "agni",
     "Agni",
@@ -12,12 +12,12 @@
     "vaiśvānara"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "glossary-imagery-restructure",
-  "invariant_definition": "*Agni* is the Vedic fire-deity and the sacred fire kindled on the ritual altar, and at the same time — from the Ṛgveda onward — the god 'seated in the secret place' (*guhā niṣīdan*) of the heart, whose mantras are 'fashioned by the heart' (*hṛdā taṣṭān*). The figure sustains two valences that run in parallel across the textual tradition: (1) the ritual-cosmic fire, divine mediator between humans and gods, and (2) the interior flame, the immortal within the mortal, the deathless will-force or divine presence dwelling in the cave of the heart. In the Upaniṣads the word *agni* gradually yields to *jyotis* (light, flame) as the name for the inner self, but the figure — a smokeless, windless, self-luminous flame in the heart — persists. In the Bhagavad-Gītā this tradition of the interior flame becomes the background for two distinct images: the windless lamp that does *not* flicker (6.19), figuring the steadied yogin's mind, and the extinction-into-Brahman (*brahma-nirvāṇa*) where the flame of desire is blown out. The extinction-image of *nirvāṇa* (nir- + √vā, 'blown out') and the flame-image of Agni are therefore the same fire-figure at opposite poles of valence: *nirvāṇa* is the flame extinguished; Agni is the flame kindled and tended. The connection between them is resonance of imagery, not a single textual genealogy.",
+  "last_verified_by": "glossary-deeditorialize",
+  "invariant_definition": "*Agni* is the Vedic fire-deity and the sacred fire kindled on the ritual altar, and at the same time — from the Ṛgveda onward — the god 'seated in the secret place' (*guhā niṣīdan*) of the heart, whose mantras are 'fashioned by the heart' (*hṛdā taṣṭān*). The figure runs in parallel across the textual tradition in two aspects: (1) the ritual-cosmic fire, divine mediator between humans and gods, and (2) the interior flame, the immortal within the mortal, the deathless divine presence dwelling in the cave of the heart. In the Upaniṣads the word *agni* gradually yields to *jyotis* (light, flame) as the name for the inner self, but the figure — a smokeless, windless, self-luminous flame in the heart — persists. In the Bhagavad-Gītā this tradition of the interior flame becomes the background for two distinct images: the windless lamp that does not flicker (6.19), figuring the steadied yogin's mind, and the going-out into Brahman (*brahma-nirvāṇa*) where the flame of desire is blown out. Both bodies of text use a fire-and-flame vocabulary: *nirvāṇa* (nir- + √vā) names a flame going out, while Agni is the fire kindled and tended. The Gītā does not cite the Vedic heart-fire when it speaks of *brahma-nirvāṇa*; the shared vocabulary is not a cited source.",
   "school_framing": {
     "framing_status": "shared",
     "shared_core": "**Agni as the divine fire — cosmic mediator on the altar, immortal flame in the heart.** All textual layers share the fire-figure; they differ only in which aspect they foreground (ritual, cosmic, interior, psychological) and in the vocabulary they use (agni → jyotis → dīpa → nirvāṇa's blown-out flame).",
-    "register_axes_note": "The three interpretive layers below (Ṛgvedic, Upaniṣadic, Aurobindo) are not rival doctrinal schools contesting the same proposition; they are successive textual strata and one modern hermeneutic lens. **No real doctrinal disagreement** divides them on the fire-figure itself. The important note of difference is the valence: Aurobindo's reading foregrounds the flame as the divine will-force *kindled and tended* in man; the *nirvāṇa* image in the Gītā and Buddhist usage presupposes the same flame but inverts the valence — it is the flame *blown out*. These are not contradictory claims but opposite uses of the same underlying figure. Aurobindo's psychological reading is a hermeneutic lens, not a philological claim; it is marked as such below."
+    "register_axes_note": "The three interpretive layers below (Ṛgvedic, Upaniṣadic, Aurobindo) are not rival doctrinal schools contesting the same proposition; they are successive textual strata and one modern hermeneutic lens. No real doctrinal disagreement divides them on the fire-figure itself. Aurobindo's reading foregrounds the flame as the divine will-force *kindled and tended* in man; the *nirvāṇa* image in the Gītā and Buddhist usage uses the same flame going out. These are not contradictory claims but different uses of the same underlying figure. Aurobindo's psychological reading is a hermeneutic lens, not a philological claim; it is marked as such below."
   },
   "per_school": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "school": "Upaniṣadic (interiorisation)",
-      "definition": "The Upaniṣads interiorise the Vedic fire-image. The inner self is now figured explicitly as a smokeless flame: 'the Person the measure of a thumb, like a light without smoke' (*jyotir iva adhūmakaḥ*, Kaṭha 2.1.13). The word *agni* steps back and *jyotis* (light, flame) steps forward, but the figure — a self-luminous, smokeless fire dwelling in the heart — is continuous with the Ṛgvedic hidden Agni in the *guhā*. The Bhagavad-Gītā will later extend both poles: the windless lamp (*dīpa*, 6.19) that does not flicker figures the stable yogin's mind, while the extinct flame of *nirvāṇa* figures the going-out of desire. These two uses — the undying inner flame and the extinguished flame — inherit the same Vedic-Upaniṣadic fire-figure at opposite valences.",
+      "definition": "The Upaniṣads interiorise the Vedic fire-image. The inner self is now figured explicitly as comparable to a smokeless flame: 'the Person the measure of a thumb, like a light without smoke' (*jyotir iva adhūmakaḥ*, Kaṭha 2.1.13). The word *agni* steps back and *jyotis* (light, flame) steps forward, but the figure — a self-luminous, smokeless fire dwelling in the heart — is continuous with the Ṛgvedic hidden Agni in the *guhā*. The Bhagavad-Gītā will later extend the fire-figure in two directions: the windless lamp (*dīpa*, 6.19) that does not flicker figures the stable yogin's mind, while the flame of *nirvāṇa* going out figures the cessation of desire. These two uses — the undying inner flame and the flame going out — both inherit the same Vedic-Upaniṣadic fire-figure.",
       "primary_loci": [
         "Kaṭha 2.1.13 (= GRETIL kau_4.13)",
         "Bhagavad-Gītā 6.19 (verbatim from Śaṅkara's Gītā-Bhāṣya)"
@@ -41,16 +41,16 @@
     },
     {
       "school": "Aurobindo (psychological reading)",
-      "definition": "Aurobindo reads Agni in the Ṛgveda as 'the god in human beings, the immortal in mortals, the divine guest' and identifies him as 'the divine Will or Conscious-Power which is the Master' (Aurobindo, *The Secret of the Veda*, ch. 'Agni, the Divine Will-Force'). On this lens the guhā is the inner psychological depth of the human being, and the concealment-and-finding of Agni dramatises the soul's discovery of its own divine will-force. **This is Aurobindo's psychological-hermeneutic lens, not a philological claim.** The textual datum (Agni in the guhā, mantras heart-fashioned) is genuine; the identification of *guhā* with a psychological register, and of Agni with 'divine will-force', is an interpretive construction belonging to Aurobindo's late 19th–early 20th c. esoteric reading of the Veda.",
+      "definition": "The Ṛgvedic text gives Agni as 'the god in human beings, the immortal in mortals' — the fire seated in the secret place, whose mantras are heart-fashioned (RV 1.67.3–4). A modern psychological reading of this imagery exists: Sri Aurobindo (*The Secret of the Veda*, ch. 'Agni, the Divine Will-Force') identifies Agni with 'the divine Will or Conscious-Power which is the Master' and reads the *guhā* as the inner psychological depth of the human being. The textual datum (Agni in the guhā, mantras heart-fashioned) is genuine; the identification of *guhā* with a psychological register and of Agni with 'divine will-force' is Aurobindo's interpretive construction, not a philological conclusion.",
       "primary_loci": [
         "Aurobindo, The Secret of the Veda, ch. 'Agni, the Divine Will-Force'",
         "RV 1.67.3–4 (as cited by Aurobindo)"
       ],
-      "register_tag": "Φ+I; interpretive lens — Aurobindo's psychological reading, NOT philological proof [INTERPRETIVE-LENS]"
+      "register_tag": "Φ+I; Aurobindo's psychological reading"
     }
   ],
   "textual_history": {
-    "summary": "The career of Agni in the texts traces an arc from the altar and the hidden guhā of the Ṛgveda, through the interiorisation of the flame in the Upaniṣads, to the windless lamp and the extinct flame of the Bhagavad-Gītā. In the Ṛgveda (RV 1.67.3–4) Agni is simultaneously the cosmic fire and the god 'seated in the secret place' (*guhā*) whose mantras are heart-fashioned — the earliest pole of the imagery: a flame at once concealed and luminous in an interior place. The epithet Vaiśvānara ('common to all men') and the description 'the immortal growing in body' (RV 6.9.4) already give Agni a universal-interior character, the deathless within the mortal. In the Upaniṣads the word-figure shifts: *agni* yields to *jyotis*, and the inner flame becomes the explicit metaphor for the self — 'a light without smoke' in the heart (Kaṭha 2.1.13). The Bhagavad-Gītā inherits both ends of the figure: the steadied lamp that does *not* flicker (6.19, the positive inner flame) and the extinct flame of *nirvāṇa* (2.72, 5.24–26, 6.15, the going-out of desire). The connection between Agni kindled and *nirvāṇa*'s flame blown out is **resonance of imagery, not a documented textual genealogy**: the Gītā nowhere cites the heart-fire of RV 1.67 when it speaks of *brahma-nirvāṇa*, and the immediate counterpart for its extinction-language is Buddhist *nibbāna*. What the Vedic and Upaniṣadic Agni-figure supplies is the intelligibility of the interior fire that can, at one extreme, be tended and kindled (Agni), and at the other, blown out (*nirvāṇa*).",
+    "summary": "The career of Agni in the texts traces an arc from the altar and the hidden guhā of the Ṛgveda, through the interiorisation of the flame in the Upaniṣads, to the windless lamp and the flame going out in the Bhagavad-Gītā. In the Ṛgveda (RV 1.67.3–4) Agni is simultaneously the cosmic fire and the god 'seated in the secret place' (*guhā*) whose mantras are heart-fashioned — the earliest stratum of the imagery: a flame at once concealed and luminous in an interior place. The epithet Vaiśvānara ('common to all men') and the description 'the immortal growing in body' (RV 6.9.4) already give Agni a universal-interior character, the deathless within the mortal. In the Upaniṣads the word-figure shifts: *agni* yields to *jyotis*, and the inner flame becomes the explicit metaphor for the self — the inner Person compared to 'a light without smoke' in the heart (Kaṭha 2.1.13). The Bhagavad-Gītā inherits both aspects of the figure: the steadied lamp that does not flicker (6.19, the inner flame tended and stilled) and the flame of *nirvāṇa* going out (2.72, 5.24–26, 6.15, the cessation of desire). The Gītā nowhere cites the heart-fire of RV 1.67 when it speaks of *brahma-nirvāṇa*, and the immediate counterpart for its extinction-language is Buddhist *nibbāna*. The Vedic and Upaniṣadic Agni-figure gives the interior fire that can, at one extreme, be tended and kindled (Agni), and at the other, blown out (*nirvāṇa*).",
     "stages": [
       {
         "era": "Ṛg-veda — Agni in the guhā",
@@ -85,7 +85,7 @@
         "locus": "Bhagavad-Gītā 6.19 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
         "sanskrit": "yathā dīpo nivāta-stho neṅgate sopamā smṛtā",
         "rendering": "As a lamp in a windless place does not flicker — that is the simile remembered.",
-        "note": "The only place the Gītā makes the flame-figure explicit for the yogin's steadied mind. The lamp (*dīpa*) that does NOT flicker is the positive pole: the inner fire tended and stilled, not extinguished. Contrast with the *nirvāṇa* image in the same text (2.72, 5.24–26): there the flame of desire is blown OUT. Same fire-figure; opposite valence. The connection between Agni kindled in the guhā (RV) and the lamp not blown out (Gītā 6.19) is continuous; the connection to *nirvāṇa*'s blown-out flame is resonance of imagery inverted, not a genealogical citation."
+        "note": "The only place the Gītā makes the flame-figure explicit for the yogin's steadied mind. The lamp (*dīpa*) that does not flicker is the inner fire tended and stilled, not extinguished. Contrast with the *nirvāṇa* image in the same text (2.72, 5.24–26): there the flame of desire is blown out. The connection between Agni kindled in the guhā (RV) and the lamp not blown out (Gītā 6.19) is continuous; the Gītā does not cite that Vedic lineage when it speaks of *nirvāṇa*'s flame going out."
       }
     ]
   },
@@ -98,23 +98,13 @@
     "brahmanirvana",
     "atman"
   ],
-  "translator_note": "Do not flatten the three senses of *agni* into one. (1) Agni the deity: a divine person, the cosmic fire-god, first-born mediator between mortals and immortals — not 'fire' in a generic sense. (2) Fire the element: the physical sacrificial flame on the altar, which is also the vehicle for Agni the person. (3) The inner flame: the hidden fire in the cave of the heart, the immortal within the mortal, the smokeless self-luminous presence — a reading that begins in the Ṛgveda (*guhā niṣīdan*, RV 1.67.3) and is made explicit as a trope in the Upaniṣads (*jyotir iva adhūmakaḥ*, Kaṭha 2.1.13). The heart-fire reading is interpretive in the sense that it requires taking the *guhā* of the Ṛgvedic Agni-hymns as the interior of the human person, not merely a ritual pit or cosmic hiding-place; the tradition itself (including the Upaniṣads) performs this interiorisation, so it is not external allegory but an internal textual development. Aurobindo's further step — identifying the inner flame with a 'divine will-force' or 'conscious-power' — is his own psychological hermeneutic; it is well-grounded in the imagery but is not a neutral philological reading and should be attributed to him. Finally: *nirvāṇa*'s flame (nir- + √vā, 'blown out') and Agni's flame are the same figure at opposite poles — kindled vs extinguished. The resonance is real and illuminating; the genealogy is not documented. Do not claim a textual citation where only image-resonance exists.",
+  "translator_note": "Do not flatten the three senses of *agni* into one. (1) Agni the deity: a divine person, the cosmic fire-god, first-born mediator between mortals and immortals — not 'fire' in a generic sense. (2) Fire the element: the physical sacrificial flame on the altar, which is also the vehicle for Agni the person. (3) The inner flame: the hidden fire in the cave of the heart, the immortal within the mortal, the smokeless self-luminous presence — a reading that begins in the Ṛgveda (*guhā niṣīdan*, RV 1.67.3) and is made explicit as a trope in the Upaniṣads (*jyotir iva adhūmakaḥ*, Kaṭha 2.1.13). The heart-fire reading is interpretive in the sense that it requires taking the *guhā* of the Ṛgvedic Agni-hymns as the interior of the human person, not merely a ritual pit or cosmic hiding-place; the tradition itself (including the Upaniṣads) performs this interiorisation, so it is not external allegory but an internal textual development. Aurobindo's further step — identifying the inner flame with a 'divine will-force' or 'conscious-power' — is his own psychological hermeneutic; it is well-grounded in the imagery but is not a neutral philological reading and should be attributed to him. The vocabulary of *nirvāṇa* (nir- + √vā, 'blown out') and the vocabulary of Agni both draw on the fire-and-flame figure: one names a flame kindled, the other a flame going out. The Gītā does not cite the Vedic heart-fire tradition when it uses *brahma-nirvāṇa*; do not assert a genealogical citation where none is given.",
   "cognates": {
     "pie_root": "*h₁n̥gʷnis ‘fire (as animate force)’",
     "items": [
       {
         "lang": "Latin",
         "form": "ignis",
-        "sense": "fire"
-      },
-      {
-        "lang": "Lithuanian",
-        "form": "ugnìs",
-        "sense": "fire"
-      },
-      {
-        "lang": "Old Church Slavonic",
-        "form": "ognь",
         "sense": "fire"
       }
     ],

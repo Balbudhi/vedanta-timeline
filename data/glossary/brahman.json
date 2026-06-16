@@ -72,7 +72,7 @@
           "locus_short": "BR 1.1 ṭīkā"
         }
       ],
-      "register_tag": "M+E; mumukṣu [REAL-DISAGREEMENT vs. Viśiṣṭādvaita/Tattva-vāda on nirviśeṣatva]"
+      "register_tag": "M+E; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -95,7 +95,7 @@
           "locus_short": "Vedārtha-Saṅgraha §6"
         }
       ],
-      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT vs. Advaita on saviśeṣatva]"
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -123,7 +123,7 @@
           "locus_short": "TD 1.1"
         }
       ],
-      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT vs. Advaita on jīveśvara-bheda]"
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Bhedābheda",
@@ -228,7 +228,7 @@
           "locus_short": "SK 68 comm."
         }
       ],
-      "register_tag": "C; reflective reader [different concept: avyakta/prakṛti]"
+      "register_tag": "C; reflective reader"
     },
     {
       "school": "Yoga",
@@ -294,7 +294,7 @@
           "locus_short": "NB 1.1.22"
         }
       ],
-      "register_tag": "M+E; reflective reader [functional analogue: Īśvara]"
+      "register_tag": "M+E; reflective reader"
     },
     {
       "school": "Pūrva-Mīmāṃsā",
@@ -302,7 +302,7 @@
       "primary_loci": [],
       "citations": [],
       "not_applicable_reason": "In the on-disk Pūrva-Mīmāṃsā corpus, brahman-language is used for the Brahman priest, brahmasāman, or other ritual designata; the school's autonomous topic is dharma/apūrva rather than brahman as an ultimate reality.",
-      "register_tag": "RN; adhikārin [different concept: priestly designata]"
+      "register_tag": "RN; adhikārin"
     },
     {
       "school": "Mādhyamaka",
@@ -326,7 +326,7 @@
           "locus_short": "MAv 6.189-190"
         }
       ],
-      "register_tag": "LD+M; reflective reader [no brahman; functional analogue paramārtha/tathatā]"
+      "register_tag": "LD+M; reflective reader"
     },
     {
       "school": "Yogācāra",
@@ -345,7 +345,7 @@
           "locus_short": "Viṃśatikā 10"
         }
       ],
-      "register_tag": "Φ+M; reflective reader [functional analogue: tathatā/vijñaptimātratā]"
+      "register_tag": "Φ+M; reflective reader"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -420,11 +420,10 @@
     "saccidananda",
     "isvara",
     "bhagavan",
-    "para-brahman",
     "vivarta",
     "parinama"
   ],
   "translator_note": "Avoid lazy equivalences such as 'the Absolute' or 'God' without qualification. 'The Absolute' imports German-idealist baggage; 'God' imports a personal creator model that fits some Vedāntic schools and not others. The Sanskrit term carries a causal and soteriological apparatus: world-ground, object of liberating knowledge, and, in many schools, the real Lord of worship. Also keep the distinctions clear: *brahman* (neuter) is not *brahmā* (the creator deity) and not *brāhmaṇa* (the ritual-social designation).",
-  "last_verified_at": "2026-05-10",
+  "last_verified_at": "2026-06-15",
   "last_verified_by": "glossary-wave2-codex54"
 }

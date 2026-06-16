@@ -2,7 +2,7 @@
   "term_key": "brahmanirvana",
   "term_iast": "brahma-nirvāṇa",
   "term_devanagari": "ब्रह्मनिर्वाण",
-  "literal": "extinction in / into Brahman; *nirvāṇa* (nir- + √vā 'to blow', past participle, 'blown out, as a flame') compounded with *brahman* — read as a locative or genitive tatpuruṣa, 'the going-out [of ego and desire] that is in / unto Brahman'",
+  "literal": "the going-out into Brahman; *nirvāṇa* (nir- + √vā 'to blow', past participle, 'blown out, as a flame') compounded with *brahman* — read as a locative or genitive tatpuruṣa, 'the going-out [of ego and desire] that is in / unto Brahman'",
   "aliases": [
     "brahmanirvana",
     "brahma-nirvāṇa",
@@ -12,12 +12,12 @@
     "brahma-nirvāṇam"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "glossary-encyclopedic-pass",
-  "invariant_definition": "*Brahma-nirvāṇa* is a compound for liberation characteristic of the *Bhagavad-Gītā*: the 'blowing-out' (*nirvāṇa*) of the fire of ego and desire taken, in the same movement, as a mergence or extinction *into* Brahman. The image in *nirvāṇa* is the going-out of a flame (nir + √vā, 'to blow out'): when the fuel of attachment is withdrawn, the flame of craving is extinguished. The *Gītā* joins this extinction-image to a positive absolute — *brahman* — so that what is extinguished is the limited, desire-driven self, while what remains or is attained is the unconditioned reality of Brahman. The compound is largely confined to the *Gītā* among the major texts: it occurs there a small number of times (2.72; 5.24–26; cf. 6.15, *brahma-bhūta*) and is uncommon elsewhere. Its interest is comparative. *Nirvāṇa* is the central term for the Buddhist goal, where the extinction of the three fires (*rāga, dveṣa, moha*) is asserted *without* positing any permanent self or absolute substrate into which one merges. In compounding *nirvāṇa* with *brahman*, the *Gītā* applies the flame-extinction image while supplying a metaphysical substrate that the Buddhist usage withholds: extinction understood as extinction-into-the-absolute. The compound therefore marks the goal as positive (Brahman) in contrast with the apophatic, substrate-refusing Buddhist *nibbāna*.",
+  "last_verified_by": "glossary-deeditorialize",
+  "invariant_definition": "*Brahma-nirvāṇa* is a compound for liberation characteristic of the *Bhagavad-Gītā*: the going-out (*nirvāṇa*) of the fire of ego and desire taken, in the same movement, as a reaching of or mergence into Brahman. The image in *nirvāṇa* is a flame going out (nir + √vā, 'to blow out'): when the fuel of attachment is withdrawn, the flame of craving goes out. The *Gītā* joins this image to *brahman*, so that what goes out is the limited, desire-driven self, while what is reached is the unconditioned reality of Brahman. The compound is largely confined to the *Gītā* among the major texts: it occurs there a small number of times (2.72; 5.24–26; cf. 6.15, *brahma-bhūta*) and is uncommon elsewhere. *Nirvāṇa* is also the central term for the Buddhist goal, where the going-out of the three fires (*rāga, dveṣa, moha*) is described without positing a permanent self or a substrate into which one merges. In compounding *nirvāṇa* with *brahman*, the *Gītā* uses the going-out image while naming Brahman as the absolute reached.",
   "school_framing": {
     "framing_status": "mixed",
-    "shared_core": "*Brahma-nirvāṇa* names **the extinction of the desire-and-ego fire that is at once attainment of, or mergence in, Brahman — liberation described through a flame-going-out metaphor reoriented toward a positive absolute** (the *Gītā*'s compound). Vedāntic schools share this Brahman-positive reading and contrast it with the Buddhist apophatic *nirvāṇa*; they differ on what 'reaching Brahman' consists in.",
-    "register_axes_note": "**Real disagreement** with the Buddhist usage: Buddhist *nibbāna/nirvāṇa* is the extinction of the three fires, the unconditioned, asserted *without* positing an *ātman* or *brahman* substrate — an apophatic terminus. The *Gītā*'s compound deliberately supplies the substrate the Buddhists refuse. **Same concept, different aspect** within Vedānta: Advaita reads *brahma-nirvāṇa* as identity-realization and the jīva's mergence, Viśiṣṭādvaita as the reoriented reaching of the Brahman-state under Bhagavān rather than absorption-erasure."
+    "shared_core": "*Brahma-nirvāṇa* names the going-out of the desire-and-ego fire taken at once as a reaching of, or mergence in, Brahman — liberation described through a flame-going-out image with Brahman as the absolute reached (the *Gītā*'s compound). Vedāntic schools share this Brahman-positive reading; they differ on what 'reaching Brahman' consists in.",
+    "register_axes_note": "Buddhist *nibbāna/nirvāṇa* describes the going-out of the three fires, the unconditioned, without positing an *ātman* or *brahman* substrate — an apophatic terminus. The *Gītā*'s compound names Brahman as the absolute reached. Within Vedānta: Advaita reads *brahma-nirvāṇa* as identity-realization and the jīva's mergence; Viśiṣṭādvaita reads it as the reaching of the Brahman-state under Bhagavān, the distinct self persisting rather than being erased."
   },
   "per_school": [
     {
@@ -39,17 +39,17 @@
       "register_tag": "M+S; prapanna (reaching the Brahman-state, not absorption-erasure)"
     },
     {
-      "school": "Buddhist (contrast)",
-      "definition": "In Buddhist usage *nibbāna/nirvāṇa* is the going-out of the three fires — *rāga* (greed), *dveṣa* (hatred), *moha* (delusion) — and the unconditioned (*asaṃskṛta*) state freed of craving and rebirth. Crucially the classical traditions refuse to posit any permanent self (*anātman*) or Brahman-substrate as that which is liberated or into which one merges; the terminus is characteristically apophatic, described by negation rather than as union with a positive absolute, and Madhyamaka explicitly holds nirvāṇa to be neither existent nor non-existent. The *Gītā*'s compound *brahma-nirvāṇa* is best read against exactly this: it takes the flame-extinction image and supplies the substrate (Brahman) that the Buddhist usage withholds.",
+      "school": "Buddhist",
+      "definition": "In Buddhist usage *nibbāna/nirvāṇa* is the going-out of the three fires — *rāga* (greed), *dveṣa* (hatred), *moha* (delusion) — and the unconditioned (*asaṃskṛta*) state freed of craving and rebirth. The classical traditions do not posit a permanent self (*anātman*) or a Brahman-substrate as that which is liberated or into which one merges; the terminus is described apophatically, by negation rather than as union with a positive absolute, and Madhyamaka does not assign nirvāṇa the categories 'existent' or 'non-existent'. The *Gītā*'s compound *brahma-nirvāṇa* uses the same going-out image but names Brahman as the absolute reached.",
       "primary_loci": [
         "Dhammapada / the Ādittapariyāya (Fire) discourse (the going-out of the fires)",
         "Mūla-Madhyamaka-Kārikā 25 (nirvāṇa as the unconditioned, neither existent nor non-existent)"
       ],
-      "register_tag": "Φ+S; reflective reader [REAL-DISAGREEMENT: apophatic nibbāna, no ātman/brahman substrate]"
+      "register_tag": "Φ+S; reflective reader"
     }
   ],
   "textual_history": {
-    "summary": "The *Gītā*'s compound *brahma-nirvāṇa* turns on the image carried by *nirvāṇa* itself — a flame *blown out* (nir-√vā) once its fuel is withdrawn. That fire-image is legible against a long Vedic-and-Upaniṣadic career of the flame and the hidden light: in the Ṛgveda Agni is the fire seated in the secret cave (*guhā*) and kindled in the heart; in the Upaniṣads the inner light becomes the smokeless flame, the thumb-sized *puruṣa* dwelling in the heart, and the self-luminous Brahman 'by whose shining all this shines'. The *Gītā* then yokes the extinction-of-flame image to that positive light-absolute, so that what is blown out is the desire-and-ego fire while what remains is Brahman. The arc is one of resonant imagery, not of an explicit textual genealogy: the *Gītā* nowhere cites the Vedic heart-flame when it says *brahma-nirvāṇa*, and the immediate foil for its extinction-language is the Buddhist *nibbāna* (see the contrast in the per-school material). What the Vedic and Upaniṣadic light-imagery supplies is the intelligibility of the *positive* pole — the light that is not extinguished but attained.",
+    "summary": "The *Gītā*'s compound *brahma-nirvāṇa* turns on the image carried by *nirvāṇa* itself — a flame blown out (nir-√vā) once its fuel is withdrawn. The Vedic and Upaniṣadic texts have their own long career of the flame and the hidden light: in the Ṛgveda Agni is the fire seated in the secret place (*guhā*) and kindled in the heart; in the Upaniṣads the inner self is figured as a flame, 'like a light without smoke' (Kaṭha 2.1.13), the thumb-sized *puruṣa* dwelling in the heart, and the self-luminous Brahman 'by whose shining all this shines'. The *Gītā* joins the going-out image to *brahman*, so that what is blown out is the desire-and-ego fire while what is reached is Brahman. The *Gītā* does not cite the Vedic heart-flame when it says *brahma-nirvāṇa*; the connection to the older fire-and-light imagery is a shared vocabulary rather than a cited source. The stages below give the Vedic and Upaniṣadic loci of that imagery alongside the *Gītā*'s compound; see also agni, jyoti, guha, hrdaya, and dipa.",
     "stages": [
       {
         "era": "Ṛg-veda",
@@ -63,49 +63,49 @@
         "locus": "RV 3.1.9 (Aufrecht ed.)",
         "sanskrit": "guhā carantaṃ sakhibhiḥ śivebhir divo yahvībhir na guhā babhūva",
         "rendering": "[They found] him moving in the secret place (guhā) with his benign companions; by the mighty [streams] of heaven the secret place was [his] no longer [i.e. he was disclosed].",
-        "note": "Aurobindo cites this very ṛc (verbatim, *The Secret of the Veda*, Mandala III hymns) and reads the *guhā* psychologically: 'These are the four eternal worlds hidden in the guhā, the secret, unmanifest or superconscient parts of being' (Aurobindo). For him Agni is 'the ever-wakeful flame in the house … the lord in the creature … the immortal in mortals' (Aurobindo, ch. 'Agni, the Divine Will-Force'). His is a lens, not a philological proof; we mark it as his reading. What the text plainly gives is the recurring formula of the fire hidden in, and recovered from, a secret inner place."
+        "note": "The recurring Ṛgvedic formula of the fire hidden in, and recovered from, a secret inner place: in the first half Agni moves 'in the guhā', and the second half marks his disclosure. A modern psychological reading of the *guhā* as a hidden register of the psyche exists (Sri Aurobindo, The Secret of the Veda); it is one interpretive lens and is not the basis for the plain sense given here."
       },
       {
         "era": "Upaniṣads",
         "locus": "Kaṭha 2.1.13 (= GRETIL kau_4.13)",
         "sanskrit": "aṅguṣṭhamātraḥ puruṣo jyotir iva adhūmakaḥ | īśāno bhūtabhavyasya sa evādya sa u śvaḥ",
         "rendering": "The Person the measure of a thumb, like a light without smoke — lord of what has been and what will be — he is today and he is tomorrow.",
-        "note": "The Vedic hidden fire is now interiorised as the *puruṣa* in the heart, figured precisely as a *flame*: 'a light without smoke' (jyotir iva adhūmakaḥ). The extinction-image of *nirvāṇa* presupposes exactly such a flame; here that flame is the deathless self. The thumb-measured Person seated in the heart recurs at Kaṭha 2.3.17 (kau_6.17): 'aṅguṣṭhamātraḥ puruṣo 'ntarātmā sadā janānāṃ hṛdaye saṃniviṣṭaḥ' — 'the thumb-sized Person, the inner self, ever seated in the heart of beings.'"
+        "note": "The Vedic hidden fire is here interiorised as the *puruṣa* in the heart, figured through a flame-simile: the thumb-sized Person is 'like a light without smoke' (jyotir iva adhūmakaḥ) — the smokelessness qualifies the light-simile, not the Person directly. Here that light figures the deathless self. The thumb-measured Person seated in the heart recurs at Kaṭha 2.3.17 (kau_6.17): 'aṅguṣṭhamātraḥ puruṣo 'ntarātmā sadā janānāṃ hṛdaye saṃniviṣṭaḥ' — 'the thumb-sized Person, the inner self, ever seated in the heart of beings.'"
       },
       {
         "era": "Upaniṣads",
         "locus": "Kaṭha 2.2.15 (= GRETIL kau_5.15); parallel at Muṇḍaka 2.2.10 and Śvetāśvatara 6.14",
         "sanskrit": "na tatra sūryo bhāti na candratārakaṃ nemā vidyuto bhānti kuto 'yam agniḥ | tam eva bhāntam anu bhāti sarvaṃ tasya bhāsā sarvam idaṃ vibhāti",
         "rendering": "There the sun does not shine, nor moon and stars; these lightnings do not shine — how then this fire? Him alone, as he shines, all things shine after; by his shining all this shines.",
-        "note": "The positive pole made explicit: the inner light is self-luminous, the source from which even fire (agni) borrows its shining. Commenting on the parallel Muṇḍaka verse, Śaṅkara glosses the self-luminosity with the lamp-image — 'no lamp shines after another lamp' (nahi pradīpaḥ pradīpāntaram anubhāti, Brahma-sūtra-bhāṣya) — keeping the flame-figure in view. This is the light that *brahma-nirvāṇa* attains: not extinguished but unborrowed."
+        "note": "The inner light is self-luminous, the source from which even fire (agni) borrows its shining. Commenting on the parallel Muṇḍaka verse, Śaṅkara glosses the self-luminosity with the lamp-image — 'no lamp shines after another lamp' (nahi pradīpaḥ pradīpāntaram anubhāti, Brahma-sūtra-bhāṣya) — keeping the flame-figure in view. This is the light reached in *brahma-nirvāṇa*: not blown out but unborrowed."
       },
       {
         "era": "Upaniṣads",
         "locus": "Muṇḍaka 2.2.8–9 (numbering varies by recension; verbatim as quoted in Śaṅkara, Brahma-sūtra-bhāṣya)",
         "sanskrit": "bhidyate hṛdayagranthiśchidyante sarvasaṃśayāḥ | kṣīyante cāsya karmāṇi tasmin dṛṣṭe parāvare || hiraṇmaye pare kośe virajaṃ brahma niṣkalam | tacchubhraṃ jyotiṣāṃ jyotis tad yad ātmavido viduḥ",
         "rendering": "The knot of the heart is cut, all doubts are sundered, and his works dwindle away, when That is seen — the higher-and-lower. || In the supreme golden sheath is Brahman, stainless, without parts; that is the radiant, the light of lights, which the knowers of the self know.",
-        "note": "Two motifs converge here that the *Gītā*'s compound later joins. The 'knot of the heart' is cut and 'his works (karman) dwindle' — a dwindling/cessation language adjacent to the *kṣaya* of fuel that *nirvāṇa* names. And the goal is 'the light of lights' (jyotiṣāṃ jyotiḥ) lodged in the heart's golden sheath: extinction of bondage on one side, attainment of the inner light on the other. (Our verbatim is taken from the embedded śruti-quotations in our on-disk Śaṅkara Brahma-sūtra-bhāṣya, which reads 'niṣphalam' for the more common 'niṣkalam'; we print the standard 'niṣkalam' and flag the variant.)"
+        "note": "Two motifs appear together here. The 'knot of the heart' is cut and 'his works (karman) dwindle' (kṣīyante) — a dwindling/cessation language alongside the *kṣaya* of fuel that *nirvāṇa* names. And the goal is 'the light of lights' (jyotiṣāṃ jyotiḥ) lodged in the heart's golden sheath: the going-out of bondage on one side, the reaching of the inner light on the other. (Our verbatim is taken from the embedded śruti-quotations in our on-disk Śaṅkara Brahma-sūtra-bhāṣya, which reads 'niṣphalam' for the more common 'niṣkalam'; we print the standard 'niṣkalam' and flag the variant.)"
       },
       {
         "era": "Bhagavad-Gītā",
         "locus": "Bhagavad-Gītā 2.72 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
         "sanskrit": "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati | sthitvāsyām anta-kāle 'pi brahma-nirvāṇam ṛcchati",
-        "rendering": "This is the Brahman-founded standing, Pārtha; having reached it one is not deluded. Established in it even at the last hour, one attains extinction-into-Brahman (brahma-nirvāṇa).",
-        "note": "The compound's first occurrence. *Nirvāṇa* — the flame blown out — is bound to *brahman* so that the going-out is at once an attaining: the desire-and-ego fire is extinguished, the Brahman-state is reached. The Vedic-Upaniṣadic flame/light career makes the positive half of this paradox legible; the text itself, however, does not invoke the heart-flame here."
+        "rendering": "This is the Brahman-founded standing, Pārtha; having reached it one is not deluded. Established in it even at the last hour, one comes to the going-out into Brahman (brahma-nirvāṇa).",
+        "note": "The compound's first occurrence. *Nirvāṇa* — the flame gone out — is bound to *brahman* so that the going-out is at once an attaining: the desire-and-ego fire goes out, the Brahman-state is reached. The text does not invoke the Vedic heart-flame here."
       },
       {
         "era": "Bhagavad-Gītā",
         "locus": "Bhagavad-Gītā 5.24 (verbatim from Śaṅkara's Gītā-Bhāṣya); cf. 5.25–26",
         "sanskrit": "yo 'ntaḥ-sukho 'ntarārāmas tathāntar-jyotir eva yaḥ | sa yogī brahma-nirvāṇaṃ brahma-bhūto 'dhigacchati",
-        "rendering": "He whose happiness is within, whose delight is within, and whose light too is within (antar-jyotiḥ) — that yogin, having become Brahman, attains extinction-into-Brahman.",
-        "note": "Here the *Gītā* comes closest to the inner-light strand: the one who attains *brahma-nirvāṇa* is 'antar-jyotiḥ', having the light within — the same interior luminosity the Upaniṣads localise in the heart. This is the strongest textual support for reading *brahma-nirvāṇa* against the light-in-the-heart imagery, though the figure is light/jyotis here rather than the flame of *nir-√vā* as such."
+        "rendering": "He whose happiness is within, whose delight is within, and whose light too is within (antar-jyotiḥ) — that yogin, having become Brahman, comes to the going-out into Brahman.",
+        "note": "Here the *Gītā* comes closest to the inner-light strand: the one who reaches *brahma-nirvāṇa* is 'antar-jyotiḥ', having the light within — the same interior luminosity the Upaniṣads localise in the heart. In this verse the figure is light/jyotis rather than the flame of *nir-√vā* as such."
       },
       {
         "era": "Bhagavad-Gītā",
         "locus": "Bhagavad-Gītā 6.15 (verbatim from Śaṅkara's Gītā-Bhāṣya)",
         "sanskrit": "yuñjann evaṃ sadātmānaṃ yogī niyata-mānasaḥ | śāntiṃ nirvāṇa-paramāṃ mat-saṃsthām adhigacchati",
         "rendering": "Thus ever yoking the self, the yogin of governed mind attains the peace that culminates in nirvāṇa (nirvāṇa-paramā śānti), the peace that abides in Me.",
-        "note": "Here *nirvāṇa* qualifies *śānti* (peace) and is referred to Kṛṣṇa ('that abides in Me', mat-saṃsthā) — the extinction-term is again reoriented toward a positive, personal absolute, anticipating the Viśiṣṭādvaita reading. Cf. the related verse 6.19, where the steadied yogin's mind is 'a lamp in a windless place' (dīpo nivātastho), the only place the *Gītā* makes the flame-figure explicit — and it is the lamp that does *not* flicker, not one blown out."
+        "note": "Here *nirvāṇa* qualifies *śānti* (peace) and is referred to Kṛṣṇa ('that abides in Me', mat-saṃsthā) — the term is here referred to a personal absolute, in line with the Viśiṣṭādvaita reading. Cf. the related verse 6.19, where the steadied yogin's mind is 'a lamp in a windless place' (dīpo nivātastho), the one place the *Gītā* makes the flame-figure explicit — and there it is the lamp that does not flicker, rather than one blown out."
       }
     ]
   },
@@ -123,5 +123,5 @@
     "guha",
     "dipa"
   ],
-  "translator_note": "Do not collapse *brahma-nirvāṇa* into Buddhist nirvāṇa. The *Gītā* uses the word *nirvāṇa* — flame-extinction — but yokes it to *brahman* precisely to make the goal positive: what is extinguished is the ego-and-desire fire, what is reached is the absolute, Brahman. Rendering it simply as 'nirvāṇa' or 'extinction' loses the deliberate contrast with the Buddhist apophatic usage, which extinguishes the fires of greed, hatred, and delusion without affirming any self or Brahman to be liberated. 'Extinction-into-Brahman', or 'the peace/bliss of Brahman', keeps both the flame-image and the positive absolute in view; and the Advaitic 'mergence' should not be read as annihilation."
+  "translator_note": "Do not collapse *brahma-nirvāṇa* into Buddhist nirvāṇa. The *Gītā* uses the word *nirvāṇa* — a flame going out — and joins it to *brahman*: what goes out is the ego-and-desire fire, what is reached is the absolute, Brahman. Render with the going-out image rather than 'extinction', which in English connotes destruction: 'the going-out into Brahman', 'blown out into Brahman', or 'the peace/bliss of Brahman' keep both the flame-image and the positive absolute in view. The Advaitic 'mergence' should not be read as annihilation. Keeping the going-out image marks the difference from the Buddhist usage, which describes the going-out of the fires of greed, hatred, and delusion without affirming a self or Brahman to be liberated."
 }

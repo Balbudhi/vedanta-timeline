@@ -27,7 +27,7 @@
         "Bhagavad-Gītā-Bhāṣya 10.12-13",
         "Bhakti-Rasāyana 1.1"
       ],
-      "register_tag": "P+S+AD; mumukṣu and stotrakāra [Bhagavān as upāsanā-relative + AD-survivor]"
+      "register_tag": "P+S+AD; mumukṣu and stotrakāra"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -61,10 +61,7 @@
   "see_also": [
     "isvara",
     "brahman",
-    "paramatman",
-    "visnu",
-    "krsna",
-    "svayam-bhagavan"
+    "visnu"
   ],
   "translator_note": "\"God\" and \"the Lord\" are sometimes usable, but both are thinner than the Sanskrit. They import Abrahamic or generic-monotheist baggage and erase the technical claim that *Bhagavān* is the possessor of full divine excellences. The term is not a warm devotional synonym floating free of metaphysics."
 }

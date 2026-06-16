@@ -76,7 +76,7 @@
           "locus_short": "Upādhi-Khaṇḍana 13"
         }
       ],
-      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT: śakti as bheda-related]"
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Bhedābheda",
@@ -279,7 +279,7 @@
           "locus_short": "ĪPK 3.1.7-8"
         }
       ],
-      "register_tag": "M+S; sādhaka [REAL-DISAGREEMENT: svātantrya-śakti as ultimate]"
+      "register_tag": "M+S; sādhaka"
     },
     {
       "school": "Jainism",
@@ -292,7 +292,7 @@
       "definition": "[NOT YET RETRIEVED]",
       "primary_loci": [],
       "citations": [],
-      "register_tag": "SL; reflective reader [different concept: semantic potency]"
+      "register_tag": "SL; reflective reader"
     },
     {
       "school": "Śākta",
@@ -306,7 +306,7 @@
     "spanda",
     "isvara",
     "maya",
-    "sabda-pramana"
+    "sabda"
   ],
   "translator_note": "\"Power\" is usually better than \"energy.\" The modern yogic or occult use of \"shakti\" as a vague force blurs the term's technical range and strips away its semantic, causal, and theological precision. One must also ask in every context: power of what, in relation to what bearer, and with what metaphysical status?"
 }

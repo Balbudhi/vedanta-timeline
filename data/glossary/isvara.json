@@ -13,7 +13,7 @@
     "ishvara",
     "ishwar"
   ],
-  "last_verified_at": "2026-05-10",
+  "last_verified_at": "2026-06-15",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "The Lord as governing consciousness: the principle that rules, orders, and dispenses. In Sanskrit philosophical use, *Īśvara* does more work than the English \"God.\" It is the term around which disputes about causality, providence, the fruits of *karma*, worship, and scriptural authority are organized. Vedānta asks whether *Īśvara* is merely the efficient cause or both efficient and material cause of the world, whether *Īśvara* is the highest description of reality or a conditioned one, and how the Lord stands to *māyā*, *prakṛti*, and bound selves. Yoga uses the term differently again: there *Īśvara* is a special *puruṣa*, untouched by affliction and karmic residue, and functions as a meditative and salvific ideal without needing the full Vedāntic creator-theology. The invariant core is therefore rule, sovereignty, and spiritual authority; the surrounding metaphysical commitments differ sharply. Any translation has to keep that causal and soteriological structure in view.",
   "school_framing": {
@@ -62,7 +62,7 @@
           "locus_short": "RTS 104-105"
         }
       ],
-      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT with Advaita on pāramārthikatva]"
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -204,7 +204,7 @@
           "locus_short": "SK 44"
         }
       ],
-      "register_tag": "C; reflective reader [no Īśvara; nirīśvara]"
+      "register_tag": "C; reflective reader (nirīśvara)"
     },
     {
       "school": "Yoga",
@@ -223,7 +223,7 @@
           "locus_short": "YV 1.23"
         }
       ],
-      "register_tag": "M+S; yogin [different concept: viśeṣa-puruṣa, YS 1.24]"
+      "register_tag": "M+S; yogin (viśeṣa-puruṣa, YS 1.24)"
     },
     {
       "school": "Nyāya-Vaiśeṣika",
@@ -266,7 +266,7 @@
           "locus_short": "ŚVṬ 96-98"
         }
       ],
-      "register_tag": "RN; adhikārin [no Īśvara role]"
+      "register_tag": "RN; adhikārin (no Īśvara role)"
     },
     {
       "school": "Mādhyamaka",
@@ -285,7 +285,7 @@
           "locus_short": "MMK 8.2-4"
         }
       ],
-      "register_tag": "LD; reflective reader [Īśvara-pratiṣedha]"
+      "register_tag": "LD; reflective reader (Īśvara-pratiṣedha)"
     },
     {
       "school": "Yogācāra",
@@ -299,7 +299,7 @@
           "locus_short": "Tr 21-24"
         }
       ],
-      "register_tag": "Φ; reflective reader [no creator-Īśvara]"
+      "register_tag": "Φ; reflective reader (no creator-Īśvara)"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -325,7 +325,7 @@
       "definition": "[NOT YET RETRIEVED]",
       "primary_loci": [],
       "citations": [],
-      "register_tag": "M+C; reflective reader [no creator-Īśvara]"
+      "register_tag": "M+C; reflective reader (no creator-Īśvara)"
     },
     {
       "school": "Pāṇinian-Vaiyākaraṇa",
@@ -338,7 +338,6 @@
   "see_also": [
     "brahman",
     "bhagavan",
-    "paramatman",
     "maya",
     "karma",
     "visnu",

@@ -6,9 +6,11 @@
   "cognates": {
     "pie_root": "*bʰewdʰ- ‘to be awake, be aware, take heed’",
     "items": [
-      {"lang": "Greek", "form": "peúthomai / punthánomai (πεύθομαι)", "sense": "to learn, inquire, find out"},
-      {"lang": "Old English", "form": "bēodan", "sense": "to offer, announce, command"},
-      {"lang": "English", "form": "bid; forebode", "sense": ""}
+      {
+        "lang": "Greek",
+        "form": "peúthomai / punthánomai (πεύθομαι)",
+        "sense": "to learn, inquire, find out"
+      }
     ],
     "note": "True cognate: Skt. √budh and Greek peúthomai both continue PIE *bʰewdʰ-. The Germanic reflex (Eng. ‘bid/forebode’) developed the sense ‘announce, give notice’ from ‘make aware’; the link is etymological, the meanings have drifted."
   },
@@ -347,7 +349,7 @@
     "ahankara",
     "vrtti",
     "akhandakara-vrtti",
-    "cidabhasa"
+    "abhasa"
   ],
   "translator_note": "'Intellect' is serviceable but can import specifically modern faculty-psychology assumptions. *Buddhi* is the determinative function or settled cognition-point within a wider inner apparatus, and in Nyāya it can even mean cognition as a quality. Translating every occurrence as 'reason' is especially misleading because much of what *buddhi* does is pre-theoretical determination rather than discursive inference.",
   "last_verified_at": "2026-05-10",

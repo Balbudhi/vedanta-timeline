@@ -6,9 +6,16 @@
   "cognates": {
     "pie_root": "*h₁es- ‘to be’ (sat = the participle *h₁s-n̥t- ‘being’)",
     "items": [
-      {"lang": "Latin", "form": "est; (prae)sēns ‘being-present’", "sense": "is; present"},
-      {"lang": "Greek", "form": "estí (ἐστί); ón / ónt- (ὄν, ὄντος)", "sense": "is; being (cf. ‘ontology’)"},
-      {"lang": "English", "form": "is; sooth (‘that which is’); sin (via *sont-)", "sense": ""}
+      {
+        "lang": "Latin",
+        "form": "est; (prae)sēns ‘being-present’",
+        "sense": "is; present"
+      },
+      {
+        "lang": "Greek",
+        "form": "estí (ἐστί); ón / ónt- (ὄν, ὄντος)",
+        "sense": "is; being (cf. ‘ontology’)"
+      }
     ],
     "note": "True cognate, and unusually exact: Skt. sat is the present participle of √as, formed on PIE *h₁s-n̥t-, the very same participial stem behind Greek ón(t)- (‘ontology’), Latin -sēns, and English ‘sooth’ and ‘sin’. The finite verb √as = Latin est = Greek estí = Eng. ‘is’."
   },
@@ -54,7 +61,7 @@
           "locus_short": "Advaita-Siddhi 1"
         }
       ],
-      "register_tag": "M+E; mumukṣu [REAL-DISAGREEMENT with realist Vedāntas on strict-sense sat]"
+      "register_tag": "M+E; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita",
@@ -74,7 +81,7 @@
     },
     {
       "school": "Tattva-vāda",
-      "definition": "In Tattva-vāda, *sat* is said without reservation of the *prapañca* articulated by *bhedapañcaka*; the fivefold difference is *satya* and beginningless [[Anuvy. 1.4.111-112](cite://madhva/anuvyakhyana/1.4.111-112)]. Texts of apparent non-difference are therefore read through *sādṛśya* and dependence, never as *svarūpābhidā*; even in liberation the *jīva* retains qualities similar to the Lord's while remaining distinct [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)]. Madhva's anti-māyāvāda polemic accordingly concludes that, once the rival account fails, *satyatā* belongs to difference itself [[Māyāvāda-Khaṇḍana p. 238](cite://madhva/mayavada-khandana/would instead be true)].",
+      "definition": "In Tattva-vāda, *sat* is said without reservation of the *prapañca* articulated by *bhedapañcaka*; the fivefold difference is *satya* and beginningless [[Anuvy. 1.4.111-112](cite://madhva/anuvyakhyana/1.4.111-112)]. Texts of apparent non-difference are therefore read through *sādṛśya* and dependence, never as *svarūpābhidā*; even in liberation the *jīva* retains qualities similar to the Lord's while remaining distinct [[Anuvy. 2.3.66-69](cite://madhva/anuvyakhyana/2.3.66-69)]. Madhva's critique of māyāvāda accordingly concludes that, once the rival account fails, *satyatā* belongs to difference itself [[Māyāvāda-Khaṇḍana p. 238](cite://madhva/mayavada-khandana/would instead be true)].",
       "primary_loci": [
         "Anuvyākhyāna 1.4.111-112",
         "Anuvyākhyāna 2.3.66-69",
@@ -90,7 +97,7 @@
           "locus_short": "Anuvy. 2.3.66-69"
         }
       ],
-      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT with Advaita on bhedapañcaka-sattva]"
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Bhedābheda",
@@ -254,7 +261,7 @@
           "locus_short": "MMK 24.9"
         }
       ],
-      "register_tag": "LD+M; reflective reader [different framing: two-truths]"
+      "register_tag": "LD+M; reflective reader"
     },
     {
       "school": "Yogācāra",
@@ -273,7 +280,7 @@
           "locus_short": "Pramāṇavārttika 2.3"
         }
       ],
-      "register_tag": "E+M; reflective reader [different framing: arthakriyā-sat]"
+      "register_tag": "E+M; reflective reader"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -324,7 +331,6 @@
     "asat",
     "mithya",
     "saccidananda",
-    "satya",
     "anirvacaniya"
   ],
   "translator_note": "Avoid treating *sat* as mere existential vocabulary. English 'being' and 'existence' encourage a thin, quantificational reading, whereas Sanskrit usage often marks robust reality, causal persistence, and resistance to sublation. Also keep *sat* distinct from *satya* ('true') and from the Advaita contrast-term *mithyā*.",

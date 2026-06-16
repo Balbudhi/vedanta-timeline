@@ -6,9 +6,16 @@
   "cognates": {
     "pie_root": "*ǵneh₃- ‘to know’ (the √jñā element)",
     "items": [
-      {"lang": "Greek", "form": "gnôsis (γνῶσις)", "sense": "knowledge"},
-      {"lang": "Latin", "form": "(co)gnōscere", "sense": "to come to know"},
-      {"lang": "English", "form": "know", "sense": ""}
+      {
+        "lang": "Greek",
+        "form": "gnôsis (γνῶσις)",
+        "sense": "knowledge"
+      },
+      {
+        "lang": "Latin",
+        "form": "(co)gnōscere",
+        "sense": "to come to know"
+      }
     ],
     "note": "Only the √jñā root is cognate (PIE *ǵneh₃-); the prefix pra- (PIE *pro-, cf. Greek pró, Latin prō, Eng. ‘fore-/for-’) is a separate true cognate. The compound itself has no single Indo-European counterpart."
   },
@@ -58,7 +65,7 @@
         "Visuddhimagga (paññā section)",
         "the three sikkhā (sīla-samādhi-paññā) of the suttas"
       ],
-      "register_tag": "Φ+S; reflective reader [REAL-DISAGREEMENT: prajñā as insight into śūnyatā/anātman]"
+      "register_tag": "Φ+S; reflective reader"
     },
     {
       "school": "Bhagavad-Gītā",

@@ -8,7 +8,7 @@
     "Kaivalya",
     "kaivalyam"
   ],
-  "last_verified_at": "2026-05-10",
+  "last_verified_at": "2026-06-15",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "*Kaivalya* does not mean loneliness. It is the technical state of being \"alone\" in the sense of standing free of what had been falsely or contingently associated with one. In Sāṅkhya and Yoga, that means the isolation of *puruṣa* from *prakṛti* through discriminative knowledge: the guṇas withdraw to their source and consciousness abides in its own form. In Vedāntic usage the term can widen or shift. Some Advaita texts use it nearly synonymously with *mokṣa*, meaning exclusive abiding as *brahman*. Vaiṣṇava theologians, by contrast, often narrow it to a lower attainment in which the self enjoys its own conscious nature apart from matter but without full *bhagavat-prāpti*. The term therefore sits at the junction of ontology and soteriology: whether the highest end is self-isolation, identity with the absolute, or eternal relation to the Lord. Its practical force depends on that larger frame.",
   "school_framing": {
@@ -58,7 +58,7 @@
           "locus_short": "BhG Bhāṣya 13 intro"
         }
       ],
-      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT: kaivalya lower than Bhagavat-prāpti]"
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -116,7 +116,7 @@
           "locus_short": "Sat-Sandarbha on BhP 11.20.34"
         }
       ],
-      "register_tag": "M+AD; bhakta [REAL-DISAGREEMENT: prema > kaivalya]"
+      "register_tag": "M+AD; bhakta"
     },
     {
       "school": "Dvaitādvaita",
@@ -159,7 +159,7 @@
           "locus_short": "SK 68"
         }
       ],
-      "register_tag": "M+S; mumukṣu [REAL-DISAGREEMENT: puruṣa-isolation, no Īśvara]"
+      "register_tag": "M+S; mumukṣu"
     },
     {
       "school": "Yoga",
@@ -203,7 +203,7 @@
           "locus_short": "ŚV comm. 166"
         }
       ],
-      "register_tag": "RN; adhikārin [partially different concept]"
+      "register_tag": "RN; adhikārin (kaivalya = mokṣa)"
     },
     {
       "school": "Mādhyamaka",
@@ -213,7 +213,7 @@
       ],
       "citations": [],
       "not_applicable_reason": "The inspected Mādhyamaka primary presents the school's final end under `nirvāṇa`, not under `kaivalya`. (cite://nagarjuna/mula-madhyamaka-karika/25.19)",
-      "register_tag": "LD+S; reflective reader [functional analogue: nirvāṇa]"
+      "register_tag": "LD+S; reflective reader (functional analogue: nirvāṇa)"
     },
     {
       "school": "Yogācāra",

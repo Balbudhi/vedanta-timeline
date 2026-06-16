@@ -37,16 +37,16 @@
         "Vigraha-Vyāvartanī 1–4",
         "Vigraha-Vyāvartanī 21–29"
       ],
-      "register_tag": "LD; reflective reader [REAL-DISAGREEMENT: third/fourth corners incoherent]"
+      "register_tag": "LD; reflective reader"
     },
     {
       "school": "Advaita",
       "definition": "Advaita does not adopt the Mādhyamaka method as such, but it does employ four-corner refusal in describing the world's *anirvacanīya* status and in the Ajātivāda strain of Gauḍapāda. That formal convergence is one reason rivals call Advaita *pracchanna-bauddha*. Advaitins answer that the convergence is only formal, since the negation of the world as independently real is paired with the affirmation of *brahman* as *pāramārthika* reality.",
       "primary_loci": [
         "Māṇḍūkya-Kārikā 2.32",
-        "Bhāskara, Brahma-Sūtra-Bhāṣya 1.1.1–4"
+        "Māṇḍūkya-Kārikā 4.83–84 (ajātivāda)"
       ],
-      "register_tag": "S+Φ; mumukṣu [different operation: apophatic withdrawal]"
+      "register_tag": "S+Φ; mumukṣu"
     }
   ],
   "see_also": [
@@ -55,9 +55,7 @@
     "paramartha-satya",
     "samvrti-satya",
     "anirvacaniya",
-    "anumana",
-    "vyapti",
-    "prasanga"
+    "anumana"
   ],
   "translator_note": "Rendering *catuṣkoṭi* as \"tetralemma\" is often convenient, but it can import a modern logical picture too quickly, as though Nāgārjuna were mainly proposing a four-valued semantics. The classical use is dialectical before it is formal. The term should not be flattened to \"both true and false\" or any other single corner. What matters is the exhaustion of the opponent's options, not the introduction of a new truth table.",
   "last_verified_at": "2026-05-10",

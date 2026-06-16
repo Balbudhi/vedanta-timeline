@@ -15,7 +15,7 @@
     "vibhinnāṃśa",
     "aṃśas"
   ],
-  "last_verified_at": "2026-05-10",
+  "last_verified_at": "2026-06-15",
   "last_verified_by": "glossary-wave2-codex54",
   "invariant_definition": "Part, portion, or share. In Vedānta the term becomes a controlled way of saying that a dependent reality belongs to *brahman* or Bhagavān without immediately collapsing into strict identity. It therefore sits beside *prakāra*, *śakti*, *apṛthak-siddhi*, and the many forms of *bhedābheda*. A major scriptural driver is *Bhagavad-Gītā* 15.7, *mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ*: the eternal *jīva* is 'my very own *aṃśa*.' Schools then ask what sort of partness this can be. Is the self a literal part of the Lord, a mode inseparable from Him, a dependent energy, or only figuratively called a part because of similarity or subordination? Gauḍīya Vaiṣṇavas distinguish *svāṃśa* manifestations of Bhagavān from *vibhinnāṃśa* selves; Bhāskara reads partness through real transformation; Advaita refuses literal partness because *brahman* is partless; Tattva-vāda (the school often labeled Dvaita) rejects it because the *jīva* is eternally distinct. 'Part' is thus never enough by itself; one must specify the metaphysics of the whole.",
   "school_framing": {
@@ -54,7 +54,7 @@
           "locus_short": "Vedārtha-Saṃgraha §6"
         }
       ],
-      "register_tag": "M+S; prapanna [REAL-DISAGREEMENT: jīva as real aṃśa]"
+      "register_tag": "M+S; prapanna"
     },
     {
       "school": "Tattva-vāda",
@@ -249,10 +249,11 @@
     }
   ],
   "see_also": [
-    "svamsa",
-    "vibhinnamsa",
     "bhedabheda",
-    "tatastha-sakti"
+    "aprthak-siddhi",
+    "sakti",
+    "jiva",
+    "brahman"
   ],
   "translator_note": "The lazy gloss is 'part.' In English that usually suggests a detachable piece cut from a larger whole. Most Sanskrit debates are precisely about refusing that picture while still preserving dependence, derivation, or manifestation. Translating *aṃśa* without noting whether the school means mode, power, transformation, or only figurative belonging imports a crude mereology the texts are arguing over."
 }

@@ -117,7 +117,7 @@
           "locus_short": "TD 1.3"
         }
       ],
-      "register_tag": "M+S; Tattvavādin [REAL-DISAGREEMENT with Advaita on bhedapañcaka]"
+      "register_tag": "M+S; Tattvavādin"
     },
     {
       "school": "Bhedābheda",
@@ -328,7 +328,7 @@
           "locus_short": "MMK 18.10"
         }
       ],
-      "register_tag": "Φ+LD; reflective reader [REAL-DISAGREEMENT: no jīva-substance]"
+      "register_tag": "Φ+LD; reflective reader"
     },
     {
       "school": "Yogācāra",
@@ -359,7 +359,7 @@
           "locus_short": "Triṃśikā 30"
         }
       ],
-      "register_tag": "Φ+E; reflective reader [REAL-DISAGREEMENT: jīva as upacāra]"
+      "register_tag": "Φ+E; reflective reader"
     },
     {
       "school": "Pratyabhijñā / Trika",
@@ -397,7 +397,7 @@
           "locus_short": "TattvS 2.8-10"
         }
       ],
-      "register_tag": "M+S; reflective reader [partially different concept]"
+      "register_tag": "M+S; reflective reader (jīva as a soul-substance tattva)"
     }
   ],
   "see_also": [
@@ -413,6 +413,6 @@
     "amsa"
   ],
   "translator_note": "Avoid flattening *jīva* to 'soul' or even to 'individual self'. 'Soul' imports Christian substance-language, while 'individual self' can sound like a modern psychological ego. The Sanskrit term ordinarily means the living bearer of embodiment, agency, and karmic continuity. It is therefore close to neither a bare metaphysical substance nor a merely autobiographical person, and it is not simply interchangeable with *ātman*.",
-  "last_verified_at": "2026-05-10",
+  "last_verified_at": "2026-06-15",
   "last_verified_by": "glossary-wave2-codex54"
 }

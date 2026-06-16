@@ -18,7 +18,7 @@
   "school_framing": {
     "framing_status": "mixed",
     "shared_core": "*Khyāti* as the appearing of a content in awareness — the bare fact that something shows up as what it does in cognition — is the shared genus-concept. All schools accept that this is the phenomenon to be explained; they differ radically on what kind of being the appearing content has.",
-    "register_axes_note": "The error-theory sense (*khyāti-vāda*) is the locus of REAL-DISAGREEMENT between schools: Nyāya, Mīmāṃsā (Bhāṭṭa and Prābhākara), Yogācāra, and Advaita give incompatible answers about the ontological status of the erroneous object, and the disagreement has direct consequences for their accounts of *adhyāsa*, *avidyā*, and liberation. The Yoga sense (*viveka-khyāti* = discriminative discernment) is a distinct lexical use; it shares the root and the 'appearing to awareness' semantics but is not part of the error-theory dispute and must not be collapsed into it."
+    "register_axes_note": "The error-theory sense (*khyāti-vāda*) is the locus of real disagreement between schools: Nyāya, Mīmāṃsā (Bhāṭṭa and Prābhākara), Yogācāra, and Advaita give incompatible answers about the ontological status of the erroneous object, and the disagreement has direct consequences for their accounts of *adhyāsa*, *avidyā*, and liberation. The Yoga sense (*viveka-khyāti* = discriminative discernment) is a distinct lexical use; it shares the root and the 'appearing to awareness' semantics but is not part of the error-theory dispute and must not be collapsed into it."
   },
   "per_school": [
     {
@@ -28,7 +28,7 @@
         "Nyāya-Sūtra 4.2.31–36",
         "Nyāya-Bhāṣya 4.2.31–36"
       ],
-      "register_tag": "Φ+S [REAL-DISAGREEMENT: anyathā-khyāti — error is real object apprehended otherwise, realist]"
+      "register_tag": "Φ+S; reflective reader (anyathā-khyāti — error is a real object apprehended otherwise; realist)"
     },
     {
       "school": "Prābhākara Mīmāṃsā (akhyāti)",
@@ -37,7 +37,7 @@
         "Prabhākara, Bṛhatī",
         "Śālikanātha, Prakaraṇa-Pañcikā"
       ],
-      "register_tag": "Φ+S [REAL-DISAGREEMENT: akhyāti — no false content, only non-discrimination; Prābhākara reductionist]"
+      "register_tag": "Φ+S; reflective reader (akhyāti — no false content, only non-discrimination)"
     },
     {
       "school": "Yogācāra (ātma-khyāti)",
@@ -46,7 +46,7 @@
         "Vasubandhu, Viṃśatikā 1–5",
         "Vasubandhu, Triṃśikā 17, 20"
       ],
-      "register_tag": "Φ+S [REAL-DISAGREEMENT: ātma-khyāti — error-content is consciousness-internal, idealist]"
+      "register_tag": "Φ+S; reflective reader (ātma-khyāti — error-content is consciousness-internal; idealist)"
     },
     {
       "school": "Advaita (anirvacanīya-khyāti)",
@@ -55,7 +55,7 @@
         "Śaṅkara, Brahma-Sūtra-Bhāṣya, adhyāsa-bhāṣya (preamble)",
         "Madhusūdana Sarasvatī, Advaita-Siddhi, khyāti-vāda section"
       ],
-      "register_tag": "Φ+S [REAL-DISAGREEMENT: anirvacanīya-khyāti — error-content indescribable-as-real-or-unreal, avidyā-generated]"
+      "register_tag": "Φ+S; mumukṣu (anirvacanīya-khyāti — error-content indescribable as real or unreal; avidyā-generated)"
     },
     {
       "school": "Yoga (viveka-khyāti — discernment, not error)",
@@ -65,7 +65,7 @@
         "Yoga-Sūtra 2.5 (Pātañjala)",
         "Vyāsa-Bhāṣya on YS 2.26"
       ],
-      "register_tag": "M+S; mumukṣu [DISTINCT-SENSE: viveka-khyāti as discriminative discernment toward kaivalya, not error-theory]"
+      "register_tag": "M+S; mumukṣu (viveka-khyāti as discriminative discernment toward kaivalya, a distinct sense from the error-theory)"
     }
   ],
   "textual_history": {

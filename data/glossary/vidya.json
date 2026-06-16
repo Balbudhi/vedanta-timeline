@@ -6,10 +6,21 @@
   "cognates": {
     "pie_root": "*weid- ‘to see; (perfect) to know’",
     "items": [
-      {"lang": "Greek", "form": "eîdos / idéā (εἶδος, ἰδέα)", "sense": "form, appearance, idea"},
-      {"lang": "Greek", "form": "oîda (οἶδα)", "sense": "I know (lit. ‘I have seen’)"},
-      {"lang": "Latin", "form": "vidēre", "sense": "to see"},
-      {"lang": "English", "form": "wit; -vision (via Latin)", "sense": ""}
+      {
+        "lang": "Greek",
+        "form": "eîdos / idéā (εἶδος, ἰδέα)",
+        "sense": "form, appearance, idea"
+      },
+      {
+        "lang": "Greek",
+        "form": "oîda (οἶδα)",
+        "sense": "I know (lit. ‘I have seen’)"
+      },
+      {
+        "lang": "Latin",
+        "form": "vidēre",
+        "sense": "to see"
+      }
     ],
     "note": "True cognate: Skt. √vid ‘know’ continues the PIE perfect ‘have seen → know’, the same stem behind Greek oîda and English ‘wit’. The original sense ‘see’ survives in Latin vidēre and Eng. ‘vision’."
   },
@@ -349,7 +360,7 @@
   "see_also": [
     "avidya",
     "jnana",
-    "upasana",
+    "sravana",
     "brahman",
     "moksa"
   ],

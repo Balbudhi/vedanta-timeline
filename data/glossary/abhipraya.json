@@ -3,31 +3,54 @@
   "term_iast": "abhiprāya",
   "term_devanagari": "अभिप्राय",
   "literal": "intended meaning, directed purpose, what one is aiming to convey",
-  "aliases": ["abhipraya", "abhiprāya", "Abhiprāya", "abhiprāyasya", "abhipraya-bheda"],
+  "aliases": [
+    "abhipraya",
+    "abhiprāya",
+    "Abhiprāya",
+    "abhiprāyasya",
+    "abhipraya-bheda"
+  ],
   "invariant_definition": "*Abhiprāya* is the intended point or operative intention behind an utterance, passage, or teaching strategy. It is closely related to *tātparya* but not identical with it. *Tātparya* is the settled purport established from the whole discourse; *abhiprāya* is often the speaker's or text's immediate intended direction, the reason this statement is being made here. The term therefore sits beside *abhidhā*, *lakṣaṇā*, and contextual interpretation without collapsing into any of them. In practice commentators invoke *abhiprāya* when arguing that a literal reading misses what the text is actually trying to do, or when they distinguish principal teaching from pedagogical concession. This makes the term important in polemics, because rival schools often agree on the words while contesting the intention those words serve. It also matters in *prayoga*: teachers, ritualists, and preachers use the category to distinguish the wording of a passage from the doctrinal or practical direction it is meant to produce.",
   "per_school": [
     {
       "school": "Pūrva-Mīmāṃsā",
       "definition": "In Mīmāṃsā the relevant intention is not an author's private psychology but the operative intention of Vedic discourse as recovered from sentence-function and context. A passage's *abhiprāya* is therefore tied to whether it enjoins, praises, restricts, or supplements an act. The category is practical before it is speculative.",
-      "primary_loci": ["Mīmāṃsā-Sūtra 1.1.2", "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2"]
+      "primary_loci": [
+        "Mīmāṃsā-Sūtra 1.1.2",
+        "Śabara-Bhāṣya on Mīmāṃsā-Sūtra 1.1.2"
+      ]
     },
     {
       "school": "Advaita",
       "definition": "Advaita frequently argues that passages apparently teaching plurality, agency, or divine qualification do not express the final *abhiprāya* of the Upaniṣads. Their real intention is to lead the hearer to non-dual recognition, with provisional teachings functioning as preparation. *Abhiprāya* thus tracks pedagogical direction inside a larger *tātparya* claim.",
-      "primary_loci": ["Brahma-Sūtra-Bhāṣya 1.1.4", "Chāndogya-Upaniṣad-Bhāṣya 6.8.7", "Bhagavad-Gītā-Bhāṣya 2.16"]
+      "primary_loci": [
+        "Brahma-Sūtra-Bhāṣya 1.1.4",
+        "Chāndogya-Upaniṣad-Bhāṣya 6.8.7",
+        "Bhagavad-Gītā-Bhāṣya 2.16"
+      ]
     },
     {
       "school": "Tattva-vāda",
       "definition": "Tattva-vāda (the school often labeled Dvaita) deploys *abhiprāya* polemically to insist that apparently non-dualist passages cannot have identity as their intended meaning, because that would violate the wider scriptural intention centered on Viṣṇu, real difference, and dependence. The category therefore helps subordinate isolated statements to a theistic and realist interpretive whole.",
-      "primary_loci": ["Mahābhārata-Tātparya-Nirṇaya 1.1–12", "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.4", "Viṣṇu-Tattva-Vinirṇaya 1–3"]
+      "primary_loci": [
+        "Mahābhārata-Tātparya-Nirṇaya 1.1–12",
+        "Brahma-Sūtra-Bhāṣya (Madhva) 1.1.4",
+        "Viṣṇu-Tattva-Vinirṇaya 1–3"
+      ]
     },
     {
       "school": "Mahāyāna Buddhism",
       "definition": "In Mahāyāna exegesis *abhiprāya* often marks the Buddha's teaching-intention behind apparently divergent doctrines. A statement may be literally framed for one audience while its deeper aim is to move hearers toward a broader path. The category therefore sits close to *upāya-kauśalya* and to the distinction between provisional and definitive teaching.",
-      "primary_loci": ["Saddharma-Puṇḍarīka-Sūtra ch. 2", "Saṃdhinirmocana-Sūtra 7 [NOT YET RETRIEVED]"]
+      "primary_loci": [
+        "Saddharma-Puṇḍarīka-Sūtra ch. 2",
+        "Saṃdhinirmocana-Sūtra 7 [NOT YET RETRIEVED]"
+      ]
     }
   ],
-  "see_also": ["tatparya", "abhidha", "laksana", "upakrama-upasamhara"],
+  "see_also": [
+    "tatparya",
+    "laksana"
+  ],
   "translator_note": "The lazy gloss is 'intent' or 'opinion.' 'Opinion' is too weak and psychologizing; 'intent' is usable only if one remembers that the traditions often mean the operative intention of a discourse recovered by hermeneutic rules, not the inaccessible private state of a historical author. *Abhiprāya* is an exegetical category before it is a psychological one.",
   "last_verified_at": "2026-05-10",
   "last_verified_by": "wave-glossary-depth-opus"

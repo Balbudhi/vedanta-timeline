@@ -6,9 +6,16 @@
   "cognates": {
     "pie_root": "*yewg- ‘to join, to yoke’",
     "items": [
-      {"lang": "Greek", "form": "zugón (ζυγόν)", "sense": "yoke"},
-      {"lang": "Latin", "form": "iugum; iungere", "sense": "yoke; to join"},
-      {"lang": "English", "form": "yoke", "sense": ""}
+      {
+        "lang": "Greek",
+        "form": "zugón (ζυγόν)",
+        "sense": "yoke"
+      },
+      {
+        "lang": "Latin",
+        "form": "iugum; iungere",
+        "sense": "yoke; to join"
+      }
     ],
     "note": "True cognate: Skt. yoga and English ‘yoke’ descend from the same PIE root *yewg-; ‘yoke’ is the inherited Germanic reflex, not a borrowing. Latin iungere also gives Eng. ‘join, junction, conjugate’."
   },

@@ -16,7 +16,7 @@
   "school_framing": {
     "framing_status": "mixed",
     "shared_core": "*Śūnyatā* names **the emptiness of *svabhāva*: the ontological structure that no dharma has self-standing essential nature**, fixed by *Mūla-Madhyamaka-Kārikā* 24.18 (*yaḥ pratītyasamutpādaḥ śūnyatāṃ tāṃ pracakṣmahe*). Mādhyamaka and Yogācāra share the structural role. They differ on whether *śūnyatā* is (i) the absence of *svabhāva* alone (Mādhyamaka) or (ii) the *parinispanna* absence of *parikalpita* on the *paratantra* substrate (Yogācāra, *Madhyānta-Vibhāga* I.1).",
-    "register_axes_note": "Same LD+M register, same scope-inside, real disagreement on substrate: Yogācāra's *śūnyatā* presupposes *para-tantra-svabhāva* as bearer; Mādhyamaka's *śūnyatā* presupposes none (*sarva-dharma-nairātmya*). Methodology AF1 holds. **Real disagreement** with Advaita: Advaita's *nirviśeṣa-brahman* is a positive substrate; Mādhyamaka's *śūnyatā* is non-substantialist (*Madhyamakāvatāra* 6)."
+    "register_axes_note": "Yogācāra's *śūnyatā* presupposes *paratantra-svabhāva* as its bearer; Mādhyamaka's *śūnyatā* presupposes none (*sarva-dharma-nairātmya*). A further real disagreement separates both from Advaita: Advaita's *nirviśeṣa-brahman* is a positive substrate, whereas Mādhyamaka's *śūnyatā* is non-substantialist (*Madhyamakāvatāra* 6)."
   },
   "per_school": [
     {
@@ -47,7 +47,7 @@
         "Māṇḍūkya-Kārikā 2.32",
         "Bhāmatī ad Brahma-Sūtra-Bhāṣya 2.2.32"
       ],
-      "register_tag": "M+LD; mumukṣu [REAL-DISAGREEMENT: positive substrate vs. śūnya]"
+      "register_tag": "M+LD; mumukṣu"
     },
     {
       "school": "Viśiṣṭādvaita and Tattva-vāda (Dvaita)",
@@ -56,7 +56,7 @@
         "Śrī-Bhāṣya 2.2.27–32",
         "Madhva, Tattva-Saṅkhyāna 1–8"
       ],
-      "register_tag": "M+LD; polemicist [REAL-DISAGREEMENT: śūnya-vāda rejected]"
+      "register_tag": "M+LD; polemicist"
     }
   ],
   "see_also": [

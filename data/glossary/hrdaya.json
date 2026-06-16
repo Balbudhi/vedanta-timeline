@@ -14,8 +14,8 @@
     "hṛnmanīṣā"
   ],
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "glossary-imagery-restructure",
-  "invariant_definition": "*Hṛdaya* — the heart — functions across the Vedic and Upaniṣadic literature as the primary interior locus of the self, of cognition, of the inner light, and of liberation. Three recurring motifs define it: (1) the heart as the place where the mantra is *fashioned* and the light is *set* (Ṛgveda); (2) the heart as the dwelling of the thumb-sized *puruṣa*, the 'small space' (*dahara-ākāśa*) in which Brahman is meditated, and the place where the self is smaller than a grain of rice yet greater than the worlds (Upaniṣads); (3) the *hṛdaya-granthi*, the 'knot of the heart', which is cut at liberation. The heart is therefore both the seat of bondage — tied by the knot — and the seat of release: the inner light and the inner self dwell *here*, and extinction of bondage (*nirvāṇa*) takes place *here*. This makes *hṛdaya* the spatial anchor of the imagery cluster that also includes *jyoti* (light), *agni* (fire), *guhā* (the hidden cave), and *dīpa* (lamp). The link between *hṛdaya* and *brahma-nirvāṇa* is one of **resonant imagery rather than explicit genealogy**: the *Gītā* does not invoke the Vedic or Upaniṣadic heart-texts when it uses *brahma-nirvāṇa*, but the intelligibility of liberation described as the extinction of the inner fire in favour of the inner light depends on a long prior career of exactly this imagery centred on the heart.",
+  "last_verified_by": "glossary-deeditorialize",
+  "invariant_definition": "*Hṛdaya* — the heart — functions across the Vedic and Upaniṣadic literature as the primary interior locus of the self, of cognition, of the inner light, and of liberation. Three recurring motifs define it: (1) the heart as the place where the mantra is *fashioned* and the light is *set* (Ṛgveda); (2) the heart as the dwelling of the thumb-sized *puruṣa*, the 'small space' (*dahara-ākāśa*) in which Brahman is meditated, and the place where the self is smaller than a grain of rice yet greater than the worlds (Upaniṣads); (3) the *hṛdaya-granthi*, the 'knot of the heart', which is cut at liberation. The heart is therefore both the seat of bondage — tied by the knot — and the seat of release: the inner light and the inner self dwell here, and the going-out (*nirvāṇa*) takes place here. This makes *hṛdaya* the spatial anchor of the imagery cluster that also includes *jyoti* (light), *agni* (fire), *guhā* (the hidden cave), and *dīpa* (lamp). The link between *hṛdaya* and *brahma-nirvāṇa* is one of **resonant imagery rather than explicit genealogy**: the *Gītā* does not invoke the Vedic or Upaniṣadic heart-texts when it uses *brahma-nirvāṇa*, but the intelligibility of liberation described as the going-out of the inner fire in favour of the inner light depends on a long prior career of exactly this imagery centred on the heart.",
   "school_framing": {
     "framing_status": "shared",
     "shared_core": "The heart (*hṛdaya*) is the **inner seat of the self, of cognition, and of the light of consciousness** — the locus in which the divine or the real is hidden, found, and from which liberation proceeds.",
@@ -54,7 +54,7 @@
     }
   ],
   "textual_history": {
-    "summary": "The heart (*hṛdaya*) first appears in the Ṛgveda as the seat of inner fashioning and as the place in which the light (*jyotis*) is 'set'. The Upaniṣads elaborate this into a systematic localization of the self: the thumb-sized *puruṣa* in the heart, the paradoxical small-yet-infinite *dahara-ākāśa* of the Chāndogya, and the *hṛdaya-granthi* whose cutting marks liberation (Muṇḍaka). This makes the heart simultaneously the site of bondage and of liberation, the seat of the inner light and the place where that light is finally unrestricted. The imagery cluster — heart, inner light, cave/hidden-place, flame — supplies the spatial and luminous presuppositions that make the *Gītā*'s *brahma-nirvāṇa* intelligible: extinction of the desire-fire happens *in* the heart (where the inner *puruṣa* and the knot both reside), and what is attained is the inner light that was always present there. This connection is one of **resonant imagery and shared spatial metaphysics rather than explicit cross-citation**: no Upaniṣadic verse on the heart is quoted in the *Gītā*'s *brahma-nirvāṇa* passages, and no *brahma-nirvāṇa* text names the *dahara-vidyā*. Honest reading holds the link as structural and imagistic.",
+    "summary": "The heart (*hṛdaya*) first appears in the Ṛgveda as the seat of inner fashioning and as the place in which the light (*jyotis*) is 'set'. The Upaniṣads elaborate this into a systematic localization of the self: the thumb-sized *puruṣa* in the heart, the paradoxical small-yet-infinite *dahara-ākāśa* of the Chāndogya, and the *hṛdaya-granthi* whose cutting marks liberation (Muṇḍaka). This makes the heart simultaneously the site of bondage and of liberation, the seat of the inner light and the place where that light is finally unrestricted. The imagery cluster — heart, inner light, cave/hidden-place, flame — supplies the spatial and luminous presuppositions that make the *Gītā*'s *brahma-nirvāṇa* intelligible: the going-out of the desire-fire happens in the heart (where the inner *puruṣa* and the knot both reside), and what is attained is the inner light that was always present there. This connection is one of **resonant imagery and shared spatial metaphysics rather than explicit cross-citation**: no Upaniṣadic verse on the heart is quoted in the *Gītā*'s *brahma-nirvāṇa* passages, and no *brahma-nirvāṇa* text names the *dahara-vidyā*. Honest reading holds the link as structural and imagistic.",
     "stages": [
       {
         "era": "Ṛg-veda",
@@ -96,7 +96,7 @@
         "locus": "Muṇḍaka 2.2.8 (verbatim from Śaṅkara, Brahma-sūtra-bhāṣya)",
         "sanskrit": "bhidyate hṛdayagranthiśchidyante sarvasaṃśayāḥ | kṣīyante cāsya karmāṇi tasmin dṛṣṭe parāvare",
         "rendering": "The knot of the heart is cut, all doubts are sundered, and his works dwindle, when That — the higher-and-lower — is seen.",
-        "note": "The 'knot of the heart' (hṛdaya-granthi) is the nodal image for bondage understood as a constraint lodged precisely in the heart. Liberation is expressed as its being cut (bhidyate) — a cutting that happens in the heart. The verb kṣīyante ('dwindle', from kṣi, 'to diminish, waste away') describes the dissipation of accumulated karman; this dwindling-to-nothing in the heart is structurally cognate with the flame-extinction of *nirvāṇa*, making the heart the site where both the inner light is enshrined and bondage is extinguished. Aurobindo (The Secret of the Veda) reads the Vedic hṛd as the seat of the intuitive thought and the secret place where the Truth and the divine flame are lodged in man — his is a psychological and symbolic lens, not a philological argument, and is marked as such."
+        "note": "The 'knot of the heart' (hṛdaya-granthi) is the nodal image for bondage understood as a constraint lodged precisely in the heart. Liberation is expressed as its being cut (bhidyate) — a cutting that happens in the heart. The verb kṣīyante ('dwindle', from kṣi, 'to diminish, waste away') describes the dissipation of accumulated karman; this dwindling-to-nothing in the heart is structurally cognate with the flame going out in *nirvāṇa*, making the heart the site where both the inner light is enshrined and bondage is extinguished. A modern psychological reading of the Vedic hṛd as the seat of intuitive thought and the secret locus of the divine flame exists — Sri Aurobindo, *The Secret of the Veda* — but it is a symbolic-interpretive lens, not a philological argument."
       }
     ]
   },
@@ -123,16 +123,6 @@
       {
         "lang": "Latin",
         "form": "cor, cordis",
-        "sense": "heart"
-      },
-      {
-        "lang": "English",
-        "form": "heart",
-        "sense": "heart"
-      },
-      {
-        "lang": "Lithuanian",
-        "form": "širdìs",
         "sense": "heart"
       }
     ],

@@ -77,10 +77,10 @@
       },
       {
         "era": "Classical Sāṅkhya",
-        "locus": "Sāṅkhya-sūtra (Kāpila) 2.18–19, 2.26, 2.29 (GRETIL kapss_2.18–2.29) — the on-disk witness to the elevenfold scheme the Sāṅkhya-Kārikā 24–27 also gives",
-        "sanskrit": "sātvikaṃ ekādaśakaṃ pravartate vaikṛtād ahaṅkārāt | … karmendriya-buddhīndriyair āntaram ekādaśakam | … ubhayātmakaṃ ca manaḥ | … draṣṭṛtvādir ātmanaḥ karaṇatvam indriyāṇām",
-        "rendering": "The sattvic group of eleven proceeds from the 'transformative' (vaikṛta) ego. … The inner set of eleven consists of the action-faculties and the knowledge-faculties [with the mind]. … And the mind is of both natures [knowing and acting]. … Seer-hood and the rest belong to the self; instrumentality belongs to the senses.",
-        "note": "Sāṅkhya fixes the canonical inventory: the *indriyas* are eleven — five *buddhīndriyas*, five *karmendriyas*, and *manas* as the eleventh, 'of both natures' (ubhayātmaka), the same doctrine as Sāṅkhya-Kārikā 27. Two further sūtras anchor the glossary's invariant: 'draṣṭṛtvādir ātmanaḥ karaṇatvam indriyāṇām' makes the senses mere instruments of the seeing self (kapss_2.29), and 'atīndriyaṃ indriyaṃ bhrāntānām adhiṣṭhāne' (kapss_2.23) holds that the sense is supra-sensible — the deluded mistake its locus, the gross organ (golaka), for the faculty itself. (We cite the on-disk Sāṅkhya-sūtra verbatim; the Sāṅkhya-Kārikā 24–27, the locus usually given, is not present in our sources as primary text.)"
+        "locus": "Sāṅkhya-Kārikā 25–27 (on disk: isvarakrsna_samkhya_karika.txt, isk_25–27); cf. Sāṅkhya-sūtra (Kāpila) 2.23, 2.26, 2.29",
+        "sanskrit": "buddhīndriyāṇi śrotratvakcakṣūrasananāsikākhyāni | vākpāṇipādapāyūpasthān karmendriyāṇy āhuḥ || ubhayātmakam atra manaḥ saṅkalpakam indriyaṃ ca sādharmyāt",
+        "rendering": "The knowledge-faculties are named hearing, touch, sight, taste, and smell; voice, hands, feet, anus, and generative organ they call the action-faculties. Among these the mind is of both natures, having volition [as its function], and is a faculty too, by sharing their character.",
+        "note": "Sāṅkhya fixes the canonical inventory: the *indriyas* are eleven — five *buddhīndriyas* and five *karmendriyas* (SK 26), with *manas* as the eleventh, 'of both natures' (ubhayātmaka), since it both knows and acts (SK 27); the whole sattvic group of eleven proceeds from the 'transformative' (vaikṛta) ahaṃkāra (SK 25). Two Sāṅkhya-sūtra lines anchor the glossary's invariant: 'draṣṭṛtvādir ātmanaḥ karaṇatvam indriyāṇāṃ' makes the senses mere instruments of the seeing self (kapss_2.29), and 'atīndriyaṃ indriyaṃ bhrāntānām adhiṣṭhāne' (kapss_2.23) holds that the sense is supra-sensible — the deluded mistake its locus, the gross organ (golaka), for the faculty itself."
       },
       {
         "era": "Bhagavad-Gītā",

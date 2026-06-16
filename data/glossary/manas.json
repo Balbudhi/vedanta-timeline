@@ -6,10 +6,21 @@
   "cognates": {
     "pie_root": "*men- ‘to think’",
     "items": [
-      {"lang": "Greek", "form": "menos (μένος)", "sense": "spirit, force of mind"},
-      {"lang": "Greek", "form": "mnē- / mémona (μνη-)", "sense": "to be mindful, to remember"},
-      {"lang": "Latin", "form": "mēns (gen. mentis)", "sense": "mind"},
-      {"lang": "English", "form": "mind", "sense": ""}
+      {
+        "lang": "Greek",
+        "form": "menos (μένος)",
+        "sense": "spirit, force of mind"
+      },
+      {
+        "lang": "Greek",
+        "form": "mnē- / mémona (μνη-)",
+        "sense": "to be mindful, to remember"
+      },
+      {
+        "lang": "Latin",
+        "form": "mēns (gen. mentis)",
+        "sense": "mind"
+      }
     ],
     "note": "True cognate: Skt. manas and Greek menos are exact formal matches (PIE *men-os), with Latin mēns and English ‘mind’ from the same root."
   },
@@ -326,8 +337,7 @@
     "citta",
     "ahankara",
     "indriya",
-    "atman",
-    "sankalpa-vikalpa"
+    "atman"
   ],
   "translator_note": "'Mind' is too broad and usually wrong if left unqualified. *Manas* is one function within a larger inner apparatus; it does not cover the whole mental life and certainly not pure consciousness. Translating it as 'mind' without noting the contrast with *buddhi*, *citta*, and *ahaṅkāra* imports a modern unitary notion of mind that the Sanskrit psychological models explicitly resist.",
   "last_verified_at": "2026-05-10",
