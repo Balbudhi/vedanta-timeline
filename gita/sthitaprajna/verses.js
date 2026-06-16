@@ -1188,7 +1188,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{0:In the self} {1:alone}, {2:by the self} — that is, {3:by the manas} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {10:the manas-arisen} {11:kāmas} {8:other than that self}, {15:then} {16:this one} {18:is} {19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in jñāna}.",
+        "english": "{0:In the self} {1:alone}, {2:by the self} — that is, {3:by the manas} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {11:the kāmas} {10:that arise in the manas} {8:other than that self}, {15:then} {16:this one} {18:is} {19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in jñāna}.",
         "segments": [
           {
             "from": 0,
@@ -13893,7 +13893,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Just as} {7:the} {6:river-}{7:waters} {8:enter} {5:the ocean} — {3:which is filled} {1:by itself} {2:alone} and {4:is of one unchanging form} — and {11:at the entering} {12:even} {9:of those} {10:waters} {14:and equally} {13:at their non-entering} {15:the ocean} {19:undergoes} {16:no} {18:alteration} {17:whatever}; {20:so} {21:all} {22:kāmas}, {24:the objects} {23:such as sound and the rest}, {27:which enter} {25:the} {26:man of restraint} — that is, {29:come} {28:within range of his indriyas} — {30:he} {32:attains} {31:peace}. {35:When} {33:the objects such as sound} {35:have come} {34:within range of the indriyas} {37:and equally} {36:when they have not}, {40:he who}, {38:by the contentment of gazing on his own self} {39:alone}, {43:undergoes} {41:no} {42:change} — {44:he} {45:alone} {47:attains} {46:peace}: {48:this is the}{49:meaning}. {50:Not} {51:the kāma-craver}: {52:he who} {54:is altered} {53:by sound and the rest} {55:he} {58:never} {56:at any} {57:time} {60:attains} {59:peace}.",
+        "english": "{0:Just as} {7:the} {6:river-}{7:waters} {8:enter} {5:the ocean} — {3:which is filled} {1:by itself} {2:alone} and {4:is of one unchanging form} — and {11:at the entering} {12:even} {9:of those} {10:waters} {14:and equally} {13:at their non-entering} {15:the ocean} {19:undergoes} {16:no} {18:alteration} {17:whatever}; {20:so} {21:all} {22:kāmas}, {24:the objects} {23:such as sound and the rest}, {27:which enter} {25:the} {26:man of restraint} — that is, {29:come} {28:within range of his indriyas} — {30:he} {32:attains} {31:peace}. {35:When} {33:the objects such as sound} {35:have come} {34:within range of the indriyas} {37:and equally} {36:when they have not}, {40:he who}, {38:by the contentment of gazing on his own self} {39:alone}, {43:undergoes} {41:no} {42:change} — {44:he} {45:alone} {47:attains} {46:peace}: {48:this is the}{49:meaning}. {50:Not} {51:the kāma-craver}: {52:he who} {54:is altered} {53:by sound and the rest}, {55:he} {58:never}, {56:at any} {57:time}, {60:attains} {59:peace}.",
         "segments": [
           {
             "from": 0,
