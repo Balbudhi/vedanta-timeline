@@ -1,0 +1,179 @@
+{
+  "id": "chakrabarti",
+  "name": "Arindam Chakrabarti",
+  "name_iast": "Arindam Chakrabarti",
+  "alternate_names": [],
+  "dates_low": 1957,
+  "dates_high": 2050,
+  "dates_tier": "contested",
+  "dates_notes": "Living scholar; dates_high uses the repo's living-thinker sentinel (2050). Birth year is commonly given as 1957 but could not be confirmed from Wikipedia, Stony Brook, Ashoka, or other primary biographical records consulted (2026-06-15); his B.A. (Calcutta, 1976) and M.A. (Calcutta, 1978) imply a mid-to-late-1950s birth. dates_tier is contested rather than confirmed-from-records.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Public institutional and bibliographic records: B.A. (1976) and M.A. (1978) from the University of Calcutta; DPhil, Oxford (1982), supervised by Sir Peter Strawson and Sir Michael Dummett. Taught at the University of Calcutta, University College London, the University of Washington, the University of Delhi, and for ca. 26 years at the University of Hawaiʻi at Mānoa (founding director of the EPOCH cross-cultural philosophy project); subsequently Mattoo Endowed Chair in Indic Humanities, Department of Philosophy, Stony Brook University (from 2018), and later Ashoka University."
+    }
+  ],
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Analytic-comparative / Navya-Nyāya",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Arindam Chakrabarti is an analytic philosopher working in cross-cultural and comparative philosophy, classical Indian philosophy (especially Nyāya and Navya-Nyāya), philosophy of language, epistemology, perception, and aesthetics. Trained at Oxford under P. F. Strawson and Michael Dummett, he brings the apparatus of analytic philosophy into sustained dialogue with the Nyāya tradition of Gautama and Gaṅgeśa. *Denying Existence* (Kluwer / Synthese Library, 1997) treats the logic, epistemology, and pragmatics of singular negative existentials and fictional discourse, working the problem of how one can truly deny the existence of something across both Western analytic and Nyāya resources. *Realisms Interlinked: Objects, Subjects, and Other Subjects* (Bloomsbury, 2019) gathers decades of his work into an interlinked defense of three realisms — about external objects, about the perceiving self, and about other minds — drawing on Nyāya refutations of idealism, the definability of truth, non-conceptual perception, and knowledge of other minds. He co-edited *Knowing from Words* (with B. K. Matilal, Kluwer, 1993) on the epistemology of testimony (*śabda-pramāṇa*), *Comparative Philosophy without Borders* (Bloomsbury, 2015) arguing for a philosophy that reasons across traditions rather than merely comparing them, and the *Bloomsbury Research Handbook of Indian Aesthetics and the Philosophy of Art* (2016). His engagement runs from the *Nyāya-sūtra* and Gaṅgeśa's *Tattvacintāmaṇi* to contemporary analytic metaphysics and epistemology.",
+  "engaged_works": [
+    {
+      "work_id": "denying-existence",
+      "title": "Denying Existence: The Logic, Epistemology and Pragmatics of Negative Existentials and Fictional Discourse",
+      "title_iast": "Denying Existence: The Logic, Epistemology and Pragmatics of Negative Existentials and Fictional Discourse",
+      "alternate_titles": [],
+      "composition_dates_low": 1997,
+      "composition_dates_high": 1997,
+      "composition_dates_notes": "Published 1997, Kluwer Academic (Synthese Library, vol. 261).",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored monograph (Kluwer / Synthese Library, 1997).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record; the title appears in the Synthese Library series catalogue."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A monograph on the long-standing logical problem of how one can meaningfully and truly deny the existence of something — the puzzle of singular negative existentials (\"Pegasus does not exist\") and of reference to and discourse about fictional and non-existent objects. Chakrabarti works the problem across both Western analytic philosophy (Russell, Frege, Strawson, the descriptivist and direct-reference traditions on reference and presupposition) and classical Indian philosophy of language and epistemology (the Nyāya and Navya-Nyāya treatment of *abhāva*, absence, and of cognition of the non-existent). The book develops an account integrating the logic, epistemology, and pragmatics of negative existentials, and is one of his earliest sustained demonstrations that Nyāya analysis can be brought to bear on a problem at the center of analytic philosophy of language.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "realisms-interlinked",
+      "title": "Realisms Interlinked: Objects, Subjects, and Other Subjects",
+      "title_iast": "Realisms Interlinked: Objects, Subjects, and Other Subjects",
+      "alternate_titles": [],
+      "composition_dates_low": 2019,
+      "composition_dates_high": 2019,
+      "composition_dates_notes": "Published 2019, Bloomsbury (London).",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored monograph (Bloomsbury, 2019).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record; widely reviewed in comparative and analytic philosophy."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A large monograph drawing together over twenty-five years of Chakrabarti's research in epistemology, metaphysics, and philosophy of mind, organized around three interlinked concepts: objects in the world, the self who perceives them, and other subjects (other minds). The book argues for an interlinked set of realisms — realism about external objects, about the perceiving self, and about other subjects — defending each against idealist and eliminativist alternatives. It engages topics including the refutation of idealism, the definability of truth, the existence of non-conceptual perception, and our knowledge of other minds, working classical Indian (especially Nyāya) and modern Western analytic resources together rather than treating them as separate traditions. The book is the principal synthetic statement of Chakrabarti's cross-cultural analytic metaphysics and epistemology.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "knowing-from-words-ed",
+      "title": "Knowing from Words: Western and Indian Philosophical Analysis of Understanding and Testimony",
+      "title_iast": "Knowing from Words: Western and Indian Philosophical Analysis of Understanding and Testimony",
+      "alternate_titles": [],
+      "composition_dates_low": 1994,
+      "composition_dates_high": 1994,
+      "composition_dates_notes": "Co-edited with B. K. Matilal; published in the Synthese Library by Kluwer Academic (records give 1993/1994).",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Co-edited by Bimal Krishna Matilal and Arindam Chakrabarti (Kluwer / Synthese Library).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record; foundational collection on the epistemology of testimony in comparative philosophy."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A co-edited collection (with B. K. Matilal) on the epistemology of testimony — how we come to know things from the words of others — bringing Western analytic epistemology of testimony into dialogue with the Indian (especially Nyāya and Mīmāṃsā) treatment of *śabda-pramāṇa*, verbal testimony as an independent source of knowledge. The volume gathers essays on understanding, meaning, and the warrant of testimonial belief across the two traditions, and is one of the founding works of the comparative epistemology of testimony.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "comparative-philosophy-without-borders-ed",
+      "title": "Comparative Philosophy without Borders",
+      "title_iast": "Comparative Philosophy without Borders",
+      "alternate_titles": [],
+      "composition_dates_low": 2015,
+      "composition_dates_high": 2015,
+      "composition_dates_notes": "Co-edited with Ralph Weber; published 2015, Bloomsbury (Continuum).",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Co-edited volume (Bloomsbury, 2015).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record for the edited volume."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A co-edited programmatic collection arguing for a practice of comparative philosophy that reasons across traditions to address philosophical problems directly, rather than merely cataloguing similarities and differences between bounded traditions. The editors' framing — \"without borders\" — calls for treating Indian, Chinese, and Western sources as co-participants in a single philosophical inquiry. The volume articulates the methodological position underlying Chakrabarti's own cross-cultural work in epistemology and metaphysics.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "bloomsbury-handbook-indian-aesthetics-ed",
+      "title": "The Bloomsbury Research Handbook of Indian Aesthetics and the Philosophy of Art",
+      "title_iast": "The Bloomsbury Research Handbook of Indian Aesthetics and the Philosophy of Art",
+      "alternate_titles": [],
+      "composition_dates_low": 2016,
+      "composition_dates_high": 2016,
+      "composition_dates_notes": "Edited volume; published by Bloomsbury (records give 2016/2017).",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Edited by Arindam Chakrabarti (Bloomsbury).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record for the edited handbook."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An edited research handbook on Indian aesthetics and the philosophy of art, gathering essays on classical Indian theories of *rasa*, aesthetic emotion, the ontology of the artwork, and the relation between aesthetic and philosophical experience, set in dialogue with Western philosophy of art. As editor, Chakrabarti frames Indian aesthetics as a body of philosophical theory worth engaging on its own argumentative terms; the handbook extends his cross-cultural method into the domain of aesthetics.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Read within analytic, comparative, and classical-Indian philosophy; founding director of the EPOCH cross-cultural philosophy project at the University of Hawaiʻi at Mānoa.",
+  "entry_status": "draft",
+  "entry_owner_agent": "secondary-source-cleanup-opus",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "secondary-source-cleanup-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "epistemic_authority",
+      "value": "reasoned-argument-across-traditions",
+      "register": "epistemological",
+      "citation_locus": "Comparative Philosophy without Borders (2015), Introduction",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "method_of_critique",
+      "value": "analytic-and-nyaya-argument",
+      "register": "methodological",
+      "citation_locus": "Realisms Interlinked (2019), Introduction",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "realism-about-objects-self-and-other-minds",
+      "register": "metaphysical",
+      "citation_locus": "Realisms Interlinked (2019), Part I-III",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "finite_cognition_model",
+      "value": "non-conceptual-perception-admitted",
+      "register": "epistemological",
+      "citation_locus": "Realisms Interlinked (2019), on non-conceptual perception",
+      "confidence": "low"
+    }
+  ],
+  "cross_engagements": []
+}

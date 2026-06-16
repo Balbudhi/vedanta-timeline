@@ -1,0 +1,172 @@
+{
+  "id": "banerji",
+  "name": "Debashish Banerji",
+  "name_iast": "Debashish Banerji",
+  "alternate_names": [],
+  "dates_low": 1954,
+  "dates_high": 2050,
+  "dates_tier": "contested",
+  "dates_notes": "Living scholar; dates_high uses the repo's living-thinker sentinel (2050). Birth year is commonly given as 1954 but could not be confirmed from CIIS, Wikipedia, or other primary biographical records consulted (2026-06-15), hence dates_tier is contested rather than confirmed-from-records.",
+  "dates_evidence": [
+    {
+      "kind": "court-record",
+      "description": "Public institutional records: appointed Haridas Chaudhuri Endowed Chair for Indian Philosophies and Cultures and Doshi Professor of Asian Art at the California Institute of Integral Studies (CIIS), San Francisco, in fall 2016; previously Professor of Indian Studies and Dean of Academics at the University of Philosophical Research, Los Angeles. Chair of the CIIS East-West Psychology department."
+    }
+  ],
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Integral / Aurobindonian studies — Indian aesthetic modernity",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Debashish Banerji is an art historian and Indologist whose scholarly project reconstructs Sri Aurobindo's evolutionary Integral Yoga psychology and the aesthetic modernity of the Bengal school. *Seven Quartets of Becoming: A Transformative Yoga Psychology Based on the Diaries of Sri Aurobindo* (Nalanda International / D.K. Printworld, 2012) reads Sri Aurobindo's *Record of Yoga* diaries to reconstruct a developmental psychology of consciousness organized into seven \"quartets\" of faculties undergoing transformation. *The Alternate Nation of Abanindranath Tagore* (Sage, 2010) treats the painter Abanindranath Tagore — of whom Banerji is a descendant — as articulating a non-nationalist, cosmopolitan visual modernity against the homogenizing nation-form. *Meditations on the Isha Upanishad: Tracing the Philosophical Vision of Sri Aurobindo* (Maha Bodhi, 2020) follows Sri Aurobindo's reading of the *Īśā Upaniṣad*. His edited volumes extend these axes: *Integral Yoga Psychology* (Lotus Press, 2020), *Rabindranath Tagore in the 21st Century* (Springer, 2014), and *Critical Posthumanism and Planetary Futures* (Springer, 2016), which places Integral-Yoga and Indian thought in dialogue with posthumanist and planetary-futures discourse. Across the corpus Banerji works at the intersection of consciousness studies, Integral Yoga, and the visual and intellectual history of the Bengal Renaissance.",
+  "engaged_works": [
+    {
+      "work_id": "seven-quartets-of-becoming",
+      "title": "Seven Quartets of Becoming: A Transformative Yoga Psychology Based on the Diaries of Sri Aurobindo",
+      "title_iast": "Seven Quartets of Becoming: A Transformative Yoga Psychology Based on the Diaries of Sri Aurobindo",
+      "alternate_titles": [],
+      "composition_dates_low": 2012,
+      "composition_dates_high": 2012,
+      "composition_dates_notes": "Published 2012, Nalanda International (Los Angeles) and D.K. Printworld (New Delhi).",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored monograph (Nalanda International / D.K. Printworld, 2012).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record for the title; widely cited in Integral Yoga studies."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A monograph reconstructing a transformative yoga psychology from Sri Aurobindo's private spiritual diaries (the *Record of Yoga*). Banerji organizes Sri Aurobindo's account of the faculties of consciousness undergoing yogic transformation into seven \"quartets\" of becoming, tracing how the diaries document a developmental psychology distinct from Sri Aurobindo's more systematic published works such as *The Life Divine* and *The Synthesis of Yoga*. The book reads the *Record of Yoga* as primary evidence for the experiential and processual side of Integral Yoga — the actual phenomenology of the sādhanā rather than its metaphysical exposition — and so positions itself as a psychology-of-transformation derived from Sri Aurobindo's own first-person record. It is the principal sustained engagement in Banerji's corpus with the diaries as a source for Integral Yoga psychology.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "alternate-nation-abanindranath-tagore",
+      "title": "The Alternate Nation of Abanindranath Tagore",
+      "title_iast": "The Alternate Nation of Abanindranath Tagore",
+      "alternate_titles": [],
+      "composition_dates_low": 2010,
+      "composition_dates_high": 2010,
+      "composition_dates_notes": "Published 2010, Sage Publications.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored monograph (Sage, 2010).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record; reference work on Abanindranath Tagore and Bengal-school art."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An art-historical monograph on the Bengal-school painter Abanindranath Tagore. Banerji reads Abanindranath's visual practice as articulating an \"alternate nation\" — a cosmopolitan, syncretic, and non-homogenizing imagination of community set against the totalizing nation-form of colonial and nationalist modernity. The book situates Abanindranath within the cultural ferment of the Bengal Renaissance and the wider Asian-modernist network (including the Japanese connections of the Tagore circle), arguing that his art proposes a model of cultural identity that resists both colonial mimicry and chauvinist nationalism. It is Banerji's principal contribution to the intellectual and visual history of Indian aesthetic modernity.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "meditations-isha-upanishad",
+      "title": "Meditations on the Isha Upanishad: Tracing the Philosophical Vision of Sri Aurobindo",
+      "title_iast": "Meditations on the Īśā Upaniṣad: Tracing the Philosophical Vision of Sri Aurobindo",
+      "alternate_titles": [],
+      "composition_dates_low": 2020,
+      "composition_dates_high": 2020,
+      "composition_dates_notes": "Published 2020, Maha Bodhi.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored monograph (Maha Bodhi, 2020).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record for the title."
+        }
+      ],
+      "genre": "upanisad-bhashya",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A meditative commentary tracing Sri Aurobindo's interpretation of the *Īśā Upaniṣad*. Banerji follows the *Īśā Upaniṣad*'s reconciliation of opposed terms — the manifest and the unmanifest, action and renunciation, knowledge and ignorance — as Sri Aurobindo read them, drawing out the philosophical vision (the integral non-dualism of *The Life Divine*) that Sri Aurobindo found latent in the text. The work engages the *Īśā Upaniṣad* through the lens of Sri Aurobindo's own commentarial and translation work on the Upaniṣads, and so functions as a study of Aurobindonian Upaniṣadic hermeneutics rather than as an independent classical commentary.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "integral-yoga-psychology-ed",
+      "title": "Integral Yoga Psychology: Metaphysics and Transformation as Taught by Sri Aurobindo",
+      "title_iast": "Integral Yoga Psychology: Metaphysics and Transformation as Taught by Sri Aurobindo",
+      "alternate_titles": [],
+      "composition_dates_low": 2020,
+      "composition_dates_high": 2020,
+      "composition_dates_notes": "Edited volume, published 2020, Lotus Press.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Edited by Banerji (Lotus Press, 2020).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record for the edited volume."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An edited volume gathering studies of the psychology and metaphysics of Sri Aurobindo's Integral Yoga. The collection treats the metaphysical framework of Integral Yoga — the evolutionary ascent of consciousness, the planes of being, the role of the psychic being — and the practice of transformation that follows from it. As editor, Banerji frames Integral Yoga psychology as a distinct contribution to consciousness studies; the volume extends the project of *Seven Quartets of Becoming* into a collaborative scholarly register.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "critical-posthumanism-planetary-futures-ed",
+      "title": "Critical Posthumanism and Planetary Futures",
+      "title_iast": "Critical Posthumanism and Planetary Futures",
+      "alternate_titles": [],
+      "composition_dates_low": 2016,
+      "composition_dates_high": 2016,
+      "composition_dates_notes": "Co-edited volume, published 2016, Springer.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Co-edited volume (Springer, 2016).",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Standard bibliographic record for the edited volume."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A co-edited collection placing posthumanist and planetary-futures discourse in dialogue with Indian philosophical and contemplative traditions, including Integral Yoga. The volume gathers essays on the limits of the humanist subject, the planetary scale of contemporary thought, and the resources Indian thought offers for re-imagining the human. Banerji's editorial framing connects the Aurobindonian account of an evolutionary transformation of consciousness to the posthumanist critique of the bounded liberal subject.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Read primarily within Integral Yoga studies, consciousness studies, and the art history of the Bengal Renaissance; associated institutionally with CIIS (San Francisco) and previously the University of Philosophical Research (Los Angeles).",
+  "entry_status": "draft",
+  "entry_owner_agent": "secondary-source-cleanup-opus",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "secondary-source-cleanup-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "method_of_critique",
+      "value": "comparative-reading",
+      "register": "methodological",
+      "citation_locus": "Seven Quartets of Becoming (2012), Introduction",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "practice_path",
+      "value": "integral-transformation-of-consciousness",
+      "register": "soteriological",
+      "citation_locus": "Seven Quartets of Becoming (2012), on the Record of Yoga",
+      "confidence": "low"
+    },
+    {
+      "primitive": "epistemic_authority",
+      "value": "transformative-experience-and-text",
+      "register": "epistemological",
+      "citation_locus": "Meditations on the Isha Upanishad (2020), Introduction",
+      "confidence": "low"
+    }
+  ],
+  "cross_engagements": []
+}
