@@ -110,8 +110,8 @@ a { color: inherit; }
 /* the live count + span reads as a continuation of the italic tagline,
    separated by a thin vertical rule */
 .topbar .subtitle {
-  font-family: var(--serif); font-style: italic;
-  font-size: 13px; color: var(--muted-soft);
+  font-family: var(--serif); font-style: italic; font-weight: 500;
+  font-size: 13.5px; color: var(--muted);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -119,12 +119,13 @@ a { color: inherit; }
   min-width: 0;
 }
 .topbar .subtitle::before {
-  content: "|"; margin-right: 9px; opacity: .5; font-style: normal;
+  content: "|"; margin-right: 9px; opacity: .55; font-style: normal;
 }
-/* quiet tagline beside the title — present, not imposed */
+/* quiet tagline beside the title — present, not imposed (but legible: weight 500
+   in --muted, not the near-invisible --muted-soft) */
 .topbar .title-tagline {
-  font-family: var(--serif); font-style: italic;
-  font-size: 13px; color: var(--muted-soft);
+  font-family: var(--serif); font-style: italic; font-weight: 500;
+  font-size: 13.5px; color: var(--muted);
   white-space: nowrap; flex-shrink: 0;
 }
 @media (max-width: 980px) { .topbar .title-tagline { display: none; } }
@@ -2709,12 +2710,14 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   .dp-article-body, .dp-translation-body, #dpPaneThinker > #detailContent {
     padding: 22px 18px 80px;
   }
-  .topbar { padding: 0 12px; gap: 8px; }
-  .topbar h1 { font-size: 16px; font-weight: 700; }
+  .topbar { padding: 0 12px; gap: 6px; }
+  /* the brand name must never truncate to "Ved…"; it's short, so let the
+     flexible spacer absorb the slack instead of the title */
+  .topbar h1 { font-size: 16px; font-weight: 700; flex-shrink: 0; overflow: visible; }
   .topbar h1 .title-full { display: none; }
   .topbar h1 .title-short { display: inline; }
   .topbar .subtitle { display: none; }
-  .topbar-btn--icon { padding: 7px 8px; }
+  .topbar-btn--icon { padding: 7px 7px; }
   .topbar-btn--icon .btn-text { display: none; }
   /* Detail-pane tabbar must scroll horizontally on narrow viewports —
      otherwise the "Translation" tab wraps mid-word at 375 px width. */
@@ -2924,6 +2927,14 @@ body.view-network .lineage-edge { stroke-width: 1.1px; }
   .network-legend-toggle { padding: 6px 10px; font-size: 11px; }
   .network-legend-list { padding: 2px 8px 8px; }
   .network-legend-list li { font-size: 10.5px; }
+}
+
+/* Very narrow phones (≤400px): tighten the topbar so the full "Vedānta"
+   brand + all controls fit on one row without overflow. */
+@media (max-width: 400px) {
+  .topbar { gap: 4px; padding: 0 10px; }
+  .view-toggle-btn { padding: 6px 8px; font-size: 11px; }
+  .topbar-btn--icon { padding: 6px 6px; }
 }
 
 /* =============================================================
