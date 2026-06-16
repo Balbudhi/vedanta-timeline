@@ -136,3 +136,92 @@ The English may read smoothly, but the grammatical fields must be formally exact
   conflated or mislabeled. Even particles get a clear, complete, concise gloss.
 - **No fabrication** — if a root/affix is genuinely uncertain, give the best
   standard analysis and flag it; never invent a dhātu or pratyaya.
+
+## 7. Faithful rendering — rules against distortion
+
+The English must be **literal and complete**: it renders exactly what the Sanskrit
+says — every grammatical element, no more, no less — in natural English. The
+recurring failure is *distortion*: silently adding, dropping, or shading meaning.
+The rules below name each way that happens and forbid it. They apply to **all**
+rendered text — mūla, every commentary voice, the one-line `sense`, and
+`ourRendering`. Two scripts enforce the mechanical part and must both pass after
+any edit: `node scripts/validate_gita_slots.js` (slot integrity) and
+`node scripts/check_gita_terms.js` (term policy, §7.6 + §8).
+
+### 7.1 Do not collapse meaning
+Every word and grammatical feature present in `words[]` must surface in the English
+— scope/quantifier words (*sarvatra* "everywhere/in all things", *api* "even",
+*hi* "for"), connectives, negations, number, gender, voice, person, and case-force.
+Never drop a word's force to make a sentence shorter or smoother. A slightly longer
+English rendering is correct when that is what keeps the meaning whole.
+
+### 7.2 Render the word; do not interpret it
+Translate the literal word in the grammatical form it actually has — participle as
+participle, passive as passive, the case in its force. Do not replace a word with
+an interpretation of it. *yukta* (kta of √yuj) is "yoked / joined / united", **not**
+"absorbed" (which imports an immersion the word does not state).
+
+### 7.3 Do not insert words the Sanskrit lacks
+Add nothing not in the text. If a word's complement is implied (elliptical) in the
+Sanskrit, keep it implied in the English. *yukta* is "yoked", **not** "yoked in
+yoga" — "yoga" is not in the word; the implied object stays implied, and the
+glossary link carries the depth. Any genuinely needed clarifier belongs in the
+word-card / glossary, never silently in the line. (No `[bracket]` inserts.)
+
+### 7.4 Choose the sense that fits the usage — and keep the root's image
+A word has a range of senses; pick the one the context actually uses, grounded in
+the commentators (their Sanskrit + our renderings sit beside each unit). Keep the
+image the root carries when the Sanskrit carries it; do not flatten it, and do not
+add an image the Sanskrit lacks.
+- *saṃ-√yam* → "rein in / curb" (the sense-horses), not flat "restrain".
+- *√car* taking an object (*viṣayān caran*) → "engaging the sense-objects", not the
+  merely spatial "moving among" — the philosophical sense is engagement, not
+  locomotion. (Where *√car* is intransitive of the wandering senses, "roving" is
+  right — so judge per usage.)
+
+### 7.5 Match the connotation; do not shade it
+Pick the English whose connotation matches the Sanskrit's, and reject words that
+import a wrong overtone. *vidheya* ("to be directed, governable") is "governable /
+self-governed", not "biddable" (servility). *sneha* is the warm love-bond
+"affection" (Madhusūdana: the bond by which another's loss/gain becomes one's own),
+not the mild "fondness".
+
+### 7.6 Never render one Sanskrit word as a *different* Sanskrit word
+A word is rendered either in its **own** IAST or in English — never as a different
+Sanskrit term. Do not print *saṅga* for *sneha*, or *manas* for *cetas*. Distinct
+near-synonyms get **distinct** English words; never collapse two Sanskrit words into
+one (e.g. *sneha* "affection" vs *prīti* "fondness"; *spṛhā* "longing" vs *tṛṣṇā*).
+
+### 7.7 Render the same word the same way
+Translate a given word consistently across the mūla and all commentaries, unless
+the context genuinely shifts its sense. Inconsistency (e.g. *saṅga* as "saṅga" in
+one place, "attachment" in another) is itself a distortion.
+
+## 8. Preserve or translate — which words stay Sanskrit
+
+Keep a term in Sanskrit only when a plain English word cannot carry its meaning.
+Decide per term and apply it consistently; the lists below are the current
+decisions — extend them deliberately, never ad hoc.
+
+- **Preserve in IAST** (irreducible philosophical load / root-imagery English can't
+  hold), glossary-linked: *rāga, dveṣa, guṇa, dharma, kāma, saṅga, prajñā, buddhi,
+  manas, indriya, karma, jñāna, yoga, rasa, ahaṅkāra, tṛṣṇā, samādhi, mokṣa,
+  saṃsāra*. Established renderings kept: *ātman* → "the self", *brahman* → "Brahman".
+- **Translate** (plain English carries it fully): *krodha* → anger, *bhaya* → fear,
+  *moha* → delusion, *duḥkha* → sorrow, *sukha* → pleasure, *spṛhā* → longing,
+  *sneha* → affection, *prīti* → fondness, *vidheya* → governable / disciplined.
+- **Use multiple English words when one will not do** — two precise English words
+  beat one lossy word, and beat needlessly keeping the Sanskrit. Keep the Sanskrit
+  only when even several English words would still distort.
+- **Don't bloat** the reader with Sanskrit English can carry; **don't flatten** to
+  English a term that genuinely needs its Sanskrit.
+
+### The decision procedure (apply to every term)
+1. List the word's attested senses (dhātu + usage + the commentators *here*).
+2. Does a plain English word — or a short phrase — carry the operative sense
+   without adding, dropping, or shading anything (§7.1–§7.5)? If yes, translate.
+3. If no English fits without distortion (irreducible load), keep it IAST and
+   glossary-link it.
+4. Whatever you choose: apply it consistently (§7.7) and never as a different
+   Sanskrit word (§7.6). When a single best choice is genuinely unclear, leave the
+   current rendering and flag it rather than guess.
