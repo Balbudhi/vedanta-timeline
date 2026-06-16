@@ -1367,6 +1367,16 @@ body.is-reading-mode .passage-card .sanskrit { font-size: 18px; }
 body.is-reading-mode .work-card .summary { font-size: 15.5px; }
 body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 
+/* Article pane (e.g. the Gītā reading) in full-screen reading mode: give it the
+   same comfortable centered column as the thinker pane instead of running the
+   text edge-to-edge, and hide the now-redundant "Read full screen" button. */
+body.is-reading-mode #dpArticleHead,
+body.is-reading-mode #dpArticleBody {
+  max-width: 820px; margin-left: auto; margin-right: auto;
+}
+body.is-reading-mode #dpArticleBody { padding-bottom: 120px; }
+body.is-reading-mode .dp-standalone { display: none; }
+
 .reading-nav {
   display: flex; justify-content: space-between; align-items: center;
   font-family: var(--sans);

@@ -120,6 +120,7 @@ html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; 
 .gita-reader { font-family: var(--serif); color: var(--ink); }
 .dp-standalone {
   display: inline-block; font-family: var(--sans); font-size: 12px; color: var(--muted);
+  background: none; cursor: pointer;
   border: 1px solid var(--rule); border-radius: 14px; padding: 4px 12px; margin-top: 10px; text-decoration: none;
 }
 .dp-standalone:hover { background: var(--bg-warm); color: var(--ink); }

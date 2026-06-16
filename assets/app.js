@@ -1634,6 +1634,9 @@ function openPanel(tab) {
 }
 
 function closePanel() {
+  // Closing while full-screen must also leave reading mode, or the timeline
+  // stays hidden behind a now-empty panel (blank screen).
+  if (document.body.classList.contains("is-reading-mode")) setReadingMode(false);
   panelState.open = false;
   document.body.classList.remove("is-detail-open");
   clearDetailPaneWidth();
@@ -3945,7 +3948,10 @@ function setReadingMode(on) {
     readingModeBtn.setAttribute("aria-label", on ? "Back to timeline" : "Reading mode");
     readingModeBtn.classList.toggle("is-active", on);
   }
-  if (on && !state.activeId && state.thinkers.length) {
+  // Only auto-open a thinker when nothing is already open. If a panel is up
+  // (e.g. the Gītā reading in the Article tab), reading mode should just
+  // full-screen that — not hijack to a thinker.
+  if (on && !state.activeId && !panelState.open && state.thinkers.length) {
     const sorted = [...state.thinkers].sort((a, b) => (a.dates_low + thinkerHigh(a))/2 - (b.dates_low + thinkerHigh(b))/2);
     openThinker(sorted[0].id);
   }
@@ -4440,7 +4446,11 @@ async function openGitaReading() {
     dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
       <p class="dp-title">Bhagavad-Gītā 2.54–72</p>
       <p class="dp-attrib">The <em>sthitaprajña</em> answer — word by word, with the commentators in their own voices.</p>
-      <a class="dp-standalone" href="gita/sthitaprajna/" target="_blank" rel="noopener">Open as a full page ↗</a>`;
+      <button class="dp-standalone" id="gitaFullBtn" type="button">Read full screen ⤢</button>`;
+    // Full screen = the app's in-app reading mode (keeps the real site glossary),
+    // not the old external standalone page.
+    const fullBtn = document.getElementById("gitaFullBtn");
+    if (fullBtn) fullBtn.addEventListener("click", () => setReadingMode(true));
   }
   if (window.GitaReader && dpArticleBody) {
     window.GitaReader.render(dpArticleBody, {
