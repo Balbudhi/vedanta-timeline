@@ -75,6 +75,10 @@ html, body {
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  /* Stop iOS Safari from auto-inflating text in narrow columns (made the
+     reading title and prose render larger than specified on phones). */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 button { font: inherit; color: inherit; }
 a { color: inherit; }
@@ -2928,6 +2932,12 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   .topbar-btn--circle { width: 32px; height: 32px; }
   .topbar-btn--icon { padding: 6px 7px; }
   .topbar-btn--icon .btn-text { display: none; }
+  /* Reading/article header: compact on mobile so the title sits close to the
+     topbar's small label size rather than dominating the top of the panel. */
+  .dp-pane-head { padding: 8px 16px 8px; }
+  .dp-pane-head .dp-eyebrow { font-size: 9px; margin-bottom: 2px; }
+  .dp-pane-head .dp-title { font-size: 12.5px; font-weight: 600; line-height: 1.25; }
+  .dp-pane-head .dp-attrib { font-size: 11px; margin-top: 2px; }
   /* Detail-pane tabbar must scroll horizontally on narrow viewports —
      otherwise the "Translation" tab wraps mid-word at 375 px width. */
   .dp-tabbar {
