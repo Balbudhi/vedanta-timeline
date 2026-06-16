@@ -2006,7 +2006,7 @@ window.GITA_VERSES = [
     "devanagari": "यः सर्वत्रानभिस्नेहस् तत् तत् प्राप्य शुभाशुभम्।\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham |\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā ||",
     "sense": "He who is without saṅga (clinging attachment that binds) toward anything anywhere, and on meeting this or that good or evil neither rejoices nor feels dveṣa (the recoil of aversion) — his prajñā (clear discriminative insight into reality) is firmly established.",
-    "english": "{0:He who} {2:is without fondness} {1:everywhere}, {4:on meeting} {3:this and that} {5:good and evil}, {6:neither} {7:rejoices} {8:nor} {9:feels dveṣa} — {10:his} {11:prajñā} {12:is firmly established}.",
+    "english": "{0:He who} {2:is without affection} {1:everywhere}, {4:on meeting} {3:this and that} {5:good and evil}, {6:neither} {7:rejoices} {8:nor} {9:feels dveṣa} — {10:his} {11:prajñā} {12:is firmly established}.",
     "words": [
       {
         "i": 0,
@@ -2512,7 +2512,7 @@ window.GITA_VERSES = [
             "glossaryKey": "sthitaprajna"
           }
         ],
-        "english": "{0:He who}, {1:in all cases}, {2:among things dear} {3:is without fondness}, {4:indifferent}; who, {7:on meeting} {6:the good and the bad}, {5:which take the form of union with and separation from the dear}, is {8:devoid of rejoicing and of dveṣa} — {9:he} {10:too} is {11:a man of steady wisdom}.",
+        "english": "{0:He who}, {1:in all cases}, {2:among things dear} {3:is without affection}, {4:indifferent}; who, {7:on meeting} {6:the good and the bad}, {5:which take the form of union with and separation from the dear}, is {8:devoid of rejoicing and of dveṣa} — {9:he} {10:too} is {11:a man of steady wisdom}.",
         "segments": [
           {
             "from": 0,

@@ -38,7 +38,7 @@ const TRANSLATE = {
   bhaya:  { det: /(^|-)bhay/,             en: "fear",      iast: "bhaya" },
   moha:   { det: /(saṃmoh|(^|-)moha|mūḍh|vimuh|vimoh)/, en: "delusion", iast: "moha" },
   sprha:  { det: /spṛh/,                  en: "longing",   iast: "spṛhā" },
-  sneha:  { det: /sneh/,                  en: "fondness",  iast: "sneha" },
+  sneha:  { det: /sneh/,                  en: "affection", iast: "sneha" },
 };
 // legit glossaryKey synonym/epithet maps (word root -> allowed key)
 const SYN = {
