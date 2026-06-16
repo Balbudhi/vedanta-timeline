@@ -1989,7 +1989,15 @@ function renderHero(t) {
     "contested": "Dates contested",
     "oral-tradition-only": "Oral tradition only",
   }[t.dates_tier] || (t.dates_tier || "");
-  const subSchool = t.sub_school ? " · " + escape(t.sub_school) : "";
+  // School-pill terms are glossary-linked where a headword exists, so a short
+  // Sanskrit name (Tattva-vāda, Viśiṣṭādvaita…) can be tapped to learn what it
+  // means. (Recognized terms only; English/comparator names stay plain.)
+  const linkGlossaryText = (s) => {
+    let out = escape(s || "");
+    if (state.glossaryRegex) out = out.replace(state.glossaryRegex, (m) => `<span class="term" data-term="${m}">${m}</span>`);
+    return out;
+  };
+  const subSchool = t.sub_school ? " · " + linkGlossaryText(t.sub_school) : "";
   // Number citations in the core thesis. The footnote counter is local to
   // the hero block; engaged-works cards each start their own counter so
   // numbering does not balloon across the whole entry.
@@ -2005,7 +2013,7 @@ function renderHero(t) {
       <h2>${escape(t.name_iast || t.name || t.id)}</h2>
       ${t.name && t.name !== t.name_iast ? `<p class="romanization">${escape(t.name)}</p>` : ""}
       <div class="meta-row">
-        <span class="school-pill">${escape(t.school || "")}${subSchool}</span>
+        <span class="school-pill">${linkGlossaryText(t.school || "")}${subSchool}</span>
         ${tierLabel ? `<span class="tier-pill">${escape(tierLabel)}</span>` : ""}
       </div>
       <p class="dates-line">${escape(formatDatesLong(t))}${t.dates_notes ? " · " + md(t.dates_notes) : ""}</p>
