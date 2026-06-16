@@ -126,8 +126,10 @@
       "key_passage_ids": []
     }
   ],
-  "entry_status": "stub-from-backlog",
-  "core_thesis": "Vivekananda restates Advaita as a practical metaphysic: the ātman is non-different from Brahman, and this identity obliges the re-reading of work, worship, and service as modes of realizing the same truth in life. Jñāna therefore does not abolish the world into insignificance; it grounds a Practical Vedānta in which fearlessness, strength, and service follow from seeing the one Self in all beings ([Complete Works I, Jnana-Yoga](cite://vivekananda/complete-works/1.jnana-yoga); [Complete Works II, Practical Vedanta](cite://vivekananda/complete-works/2.practical-vedanta)).",
+  "entry_status": "reviewed",
+  "core_thesis": "Vivekananda teaches within Advaita Vedanta: he presents Vedanta as interpreted through Dvaita, Vishishtadvaita, and Advaita, identifies Advaita proper with Shankaracharya's followers, and says Shankara worked out the coherent Advaita system ([The Vedanta Philosophy](cite://vivekananda/vol-1/the-vedanta-philosophy); [The Absolute and Manifestation](cite://vivekananda/vol-2/the-absolute-and-manifestation)). His non-dual claim is that the Absolute appears as the universe through time, space, and causation, while the real Self is Brahman rather than an object known from outside ([The Absolute and Manifestation](cite://vivekananda/vol-2/the-absolute-and-manifestation)). He treats maya as neither absolute existence nor non-existence, and describes Advaita's goal as jivanmukti, living freedom in which the world is no longer a prison of misery but Sat-Chit-Ananda ([The Vedanta Philosophy](cite://vivekananda/vol-1/the-vedanta-philosophy)). He therefore reads renunciation as seeing the world in God rather than merely rejecting it, and he grounds ethics in the same Self in all beings: love, non-injury, fearlessness, strength, practical service, and disciplined self-trust follow from Advaita brought into daily, public, and inward life ([God in Everything](cite://vivekananda/vol-2/god-in-everything); [The Vedanta](cite://vivekananda/vol-3/the-vedanta)).",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "codex-blurb-pass",
   "primitive_commitments": [
     {
       "primitive": "epistemic_authority",
