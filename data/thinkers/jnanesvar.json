@@ -1,0 +1,71 @@
+{
+  "id": "jnanesvar",
+  "name": "Jnanesvar",
+  "name_iast": "Jñāneśvar",
+  "alternate_names": [
+    "Jñānadeva",
+    "Dnyaneshwar",
+    "Jnaneshwar"
+  ],
+  "dates_low": 1275,
+  "dates_high": 1296,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Thirteenth-century Maharashtra author; the traditional biographical range is c. 1275-1296, with the *Jñāneśvarī* dated to 1290 in the tradition.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Marathi Advaita / Nāth-inflected Vārkarī",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Jñāneśvar is the Marathi philosopher-poet whose *Jñāneśvarī* gives a philosophical vernacular commentary on the *Bhagavadgītā* and whose *Amṛtānubhava* is an independent metaphysical work. His Vedānta is Advaita-oriented but presented through Marathi, Nāth, and devotional idioms rather than the Sanskrit scholastic format. The safe claim is literary and doctrinally broad: he expounds non-dual realization, the relation of knowledge and devotion, and the experience of the self through a regional philosophical language. The local sources are archive OCRs, so exact verse-level claims remain deferred.",
+  "engaged_works": [
+    {
+      "work_id": "jnanesvari",
+      "title": "Jnanesvari",
+      "title_iast": "Jñāneśvarī",
+      "alternate_titles": [
+        "Bhāvārtha-Dīpikā",
+        "Jnaneshwari"
+      ],
+      "composition_dates_low": 1290,
+      "composition_dates_high": 1290,
+      "composition_dates_notes": "Traditionally dated to 1290 CE.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The Marathi *Jñāneśvarī* is securely attributed to Jñāneśvar in the Maharashtrian tradition and modern scholarship.",
+      "genre": "gita-bhashya",
+      "language": "marathi",
+      "source_status": "acceptable-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/marathi/vedanta/jnanesvar_jnaneshwari_archive_ocr.txt"
+      ],
+      "summary": "A Marathi commentary on the *Bhagavadgītā*, also called *Bhāvārtha-Dīpikā*. It translates and interprets the Gītā into a regional philosophical idiom, joining Advaita-oriented non-dual realization with devotion and yogic discipline. Its importance for this corpus is that it is a major vernacular Vedānta work rather than a Sanskrit scholastic bhāṣya. The local text is Internet Archive OCR of a Marathi/Devanāgarī scan.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "amrtanubhava",
+      "title": "Amrtanubhava",
+      "title_iast": "Amṛtānubhava",
+      "alternate_titles": [
+        "Anubhavamṛta"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Jñāneśvar in the Marathi Vedānta and Vārkarī traditions.",
+      "genre": "prakarana",
+      "language": "marathi",
+      "source_status": "acceptable-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/english/vedanta/jnanesvar_amritanubhava_pradhan_ocr.txt"
+      ],
+      "summary": "An independent Marathi metaphysical work associated with Jñāneśvar. It treats realization and the relation of word, knowledge, and direct experience in a non-dual register, without being simply a commentary on another scripture. The local corpus contains Internet Archive OCR of an English rendering of the Marathi text; exact passage claims are not asserted here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

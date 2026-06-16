@@ -1,0 +1,63 @@
+{
+  "id": "patanjali-grammarian",
+  "name": "Patanjali the Grammarian",
+  "name_iast": "Patañjali Mahābhāṣyakāra",
+  "alternate_names": [
+    "Mahābhāṣyakāra",
+    "Patañjali the grammarian",
+    "Vyākaraṇa-Patañjali"
+  ],
+  "dates_low": -200,
+  "dates_high": -100,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "The grammarian Patañjali is conventionally dated to the second century BCE on internal historical grounds in the Mahābhāṣya; the traditional identity with Yoga-Patañjali is debated and is not assumed here.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Vyākaraṇa philosophy of language",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "panini",
+    "katyayana-varttikakara"
+  ],
+  "lineage_out": [
+    "bhartrhari"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Patañjali the grammarian is the author of the *Mahābhāṣya*, the great commentary on Pāṇini's *Aṣṭādhyāyī* and Kātyāyana's vārttikas. This entry is deliberately distinct from the existing Yoga-Patañjali entry: the traditional identification of the grammarian, the Yoga-sūtra author, and sometimes the medical author is well known, but modern scholarship commonly treats the grammarian as a second-century-BCE figure separate from the Yoga author. The *Mahābhāṣya* turns grammar into a public argumentative discipline. It defends why grammar is needed, tests Pāṇini's rules against usage, debates Kātyāyana's proposed corrections, and supplies the early scholastic model for later Vyākaraṇa reflection on rule, exception, convention, and semantic force. Its philosophical importance is therefore not a free-standing metaphysics but a disciplined theory of linguistic analysis that later Bhartṛhari and the semantic debates of Nyāya, Mīmāṃsā, and Vedānta presuppose.",
+  "engaged_works": [
+    {
+      "work_id": "mahabhasya",
+      "title": "Mahabhashya",
+      "title_iast": "Mahābhāṣya",
+      "alternate_titles": [
+        "Vyākaraṇa-Mahābhāṣya"
+      ],
+      "composition_dates_low": -200,
+      "composition_dates_high": -100,
+      "composition_dates_notes": "Conventionally assigned to the second century BCE.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to the grammarian Patañjali in the grammatical tradition; this does not settle the separate question of identity with Yoga-Patañjali.",
+      "ascription_evidence": [
+        {
+          "kind": "school-acceptance",
+          "description": "Uniform Vyākaraṇa tradition transmits the Mahābhāṣya under Patañjali's name."
+        }
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/grammar/patanjali_mahabhasya_gretil.txt"
+      ],
+      "summary": "A major commentary on selected portions of Pāṇini's *Aṣṭādhyāyī* and Kātyāyana's vārttikas. The *Mahābhāṣya* stages grammatical reasoning as debate: a sūtra is stated, possible defects and objections are raised, vārttika proposals are examined, and usage is reconciled with rule-economy. The work is the direct textual source through which many Kātyāyana vārttikas survive and the main early witness to the self-understanding of Pāṇinian grammar as a śāstra. Its on-disk GRETIL text is the source for this entry.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

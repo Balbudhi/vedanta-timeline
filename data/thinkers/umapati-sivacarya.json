@@ -1,0 +1,81 @@
+{
+  "id": "umapati-sivacarya",
+  "name": "Umapati Sivacarya",
+  "name_iast": "Umāpati Śivācārya",
+  "alternate_names": [
+    "Umāpati Sivam",
+    "Umapathi Sivam"
+  ],
+  "dates_low": 1300,
+  "dates_high": 1350,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Early fourteenth-century Tamil Śaiva Siddhānta author; the *Saṅkarpanirākaraṇam* is traditionally dated to 1313 CE.",
+  "school": "Cross-tradition",
+  "school_color_token": "kashmir-shaiva-dualist",
+  "sub_school": "Tamil Śaiva-Siddhānta (Meykaṇṭār lineage)",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "meykantar",
+    "arulnandi-sivacarya"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Umāpati Śivācārya is an early fourteenth-century Tamil Śaiva Siddhānta author who extends the Meykaṇṭār lineage in both doctrinal and polemical directions. His *Śivaprakāśam* states the Siddhānta account of Śiva, souls, bonds, grace, and liberation in Tamil scholastic form. The *Tiruvaruṭpayan* gives a compact treatment of divine grace, and the *Saṅkarpanirākaraṇam* is the dated polemical work through which the tradition distinguishes its Śaiva non-identity position from rival non-dualist readings. This entry records those textual facts without asserting passage-level doctrine from the OCR.",
+  "engaged_works": [
+    {
+      "work_id": "sivaprakasam",
+      "title": "Sivaprakasam",
+      "title_iast": "Śivaprakāśam",
+      "alternate_titles": [
+        "Sivaprakasam of Umapathi Sivam"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standardly transmitted as Umāpati Śivācārya's Tamil Śaiva Siddhānta treatise.",
+      "genre": "prakarana",
+      "language": "tamil",
+      "source_status": "acceptable-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/tamil/saiva_siddhanta/umapati_sivaprakasam_archive_ocr.txt"
+      ],
+      "summary": "A Tamil Śaiva Siddhānta treatise presenting the doctrinal architecture of the Meykaṇṭār lineage. It treats Śiva, the finite soul, bondage, grace, and liberation within the Siddhānta framework rather than as Advaitic identity. The local file is Internet Archive OCR of a Tamil edition scan and should be treated as acquisition-level evidence, not yet as a passage-verified text.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "tiruvarutpayan",
+      "title": "Tiruvarutpayan",
+      "title_iast": "Tiruvaruṭpayan",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standardly transmitted as one of Umāpati Śivācārya's Tamil Śaiva Siddhānta works.",
+      "genre": "verse-summary",
+      "language": "tamil",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A compact Tamil work on divine grace in the Śaiva Siddhānta setting. It is relevant because grace is not an ornament to the system but part of its explanation of how the bound soul is released from real bonds under Śiva's agency. No clean local text has been added here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sankarpanirakaranam",
+      "title": "Sankarpanirakaranam",
+      "title_iast": "Saṅkarpanirākaraṇam",
+      "alternate_titles": [],
+      "composition_dates_low": 1313,
+      "composition_dates_high": 1313,
+      "composition_dates_notes": "Traditionally dated to 1313 CE.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Accepted in the Tamil Śaiva Siddhānta tradition as Umāpati Śivācārya's polemical work.",
+      "genre": "polemical-tract",
+      "language": "tamil",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A polemical Tamil work used by the Śaiva Siddhānta tradition to reject rival doctrinal constructions and to mark the school's position against non-Siddhānta accounts of liberation and ultimate reality. The gap report identifies it as a dated 1313 work; no clean local text has been acquired for direct citation.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

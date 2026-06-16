@@ -1,0 +1,50 @@
+{
+  "id": "bhagavadutpala",
+  "name": "Bhagavadutpala",
+  "name_iast": "Bhagavadutpala",
+  "alternate_names": [
+    "Utpala Vaiṣṇava",
+    "Utpalācārya"
+  ],
+  "dates_low": 900,
+  "dates_high": 1000,
+  "dates_tier": "contested",
+  "dates_notes": "Placed in the tenth-century Kashmirian Spanda milieu; he is distinct from the Pratyabhijñā author Utpaladeva.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Spanda commentarial",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "vasugupta",
+    "bhatta-kallata"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Bhagavadutpala, also known as Utpala Vaiṣṇava or Utpalācārya in the Spanda commentarial record, is the author of the *Spandapradīpikā*, a Sanskrit commentary on the *Spandakārikā*. He is not Utpaladeva, the Pratyabhijñā philosopher. His contribution is exegetical rather than system-founding: the *Pradīpikā* illuminates the Spanda verses within the Kashmirian Śaiva milieu and is one of the witnesses to how the doctrine of *spanda* was read before later standardizations. This entry limits claims to the attested commentary and its place in the Spanda tradition.",
+  "engaged_works": [
+    {
+      "work_id": "spanda-pradipika",
+      "title": "Spanda-pradipika",
+      "title_iast": "Spandapradīpikā",
+      "alternate_titles": [
+        "Spandapradīpikā on the Spandakārikā"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Printed editions transmit the commentary under Bhagavadutpala/Utpalācārya; the gap report flags him as distinct from Utpaladeva.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "acceptable-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/kashmir_shaiva/bhagavadutpala_spanda_pradipika_archive_ocr.txt"
+      ],
+      "summary": "A Sanskrit commentary on the *Spandakārikā* and one of the independent Spanda exegetical witnesses. It explains the verses through the vocabulary of the Kashmirian Śaiva tradition and therefore helps distinguish early Spanda interpretation from both Kallaṭa's prose and Kṣemarāja's later synthesis. The local source is Internet Archive OCR of an 1898 printed Sanskrit edition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

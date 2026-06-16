@@ -1,0 +1,49 @@
+{
+  "id": "punyananda",
+  "name": "Punyananda",
+  "name_iast": "Puṇyānanda",
+  "alternate_names": [
+    "Puṇyānandanātha"
+  ],
+  "dates_low": 1200,
+  "dates_high": 1300,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Placed in the thirteenth-century Śrīvidyā Hādimata tradition and treated as earlier than Amṛtānandanātha and Bhāskararāya in the Śrīvidyā reception chain.",
+  "school": "Bhairava-tantra",
+  "school_color_token": "shakta-srividya",
+  "sub_school": "Śrīvidyā (Hādimata)",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "amrtananda",
+    "bhaskararaya"
+  ],
+  "core_thesis": "Puṇyānanda is the Śrīvidyā author of the *Kāmakalāvilāsa*, a foundational treatment of *kāmakalā* and Śrīcakra cosmology in the Hādimata stream. His contribution is not a general devotional theology but a technical Śrīvidyā account of how mantra, bindu, triangle, and goddess cosmology are articulated. The work becomes important for later Śrīvidyā authors and commentators, including the line represented in the roster by Amṛtānandanātha, Lakṣmīdhara, and Bhāskararāya. This entry keeps doctrinal claims at the level of the attested text and its tradition.",
+  "engaged_works": [
+    {
+      "work_id": "kamakalavilasa",
+      "title": "Kamakalavilasa",
+      "title_iast": "Kāmakalāvilāsa",
+      "alternate_titles": [
+        "Kāma-Kalā-Vilāsa"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The printed and translated Śrīvidyā tradition attributes the work to Puṇyānandanātha.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "acceptable-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/english/srividya/punyananda_kamakalavilasa_avalon_ocr.txt"
+      ],
+      "summary": "A Śrīvidyā treatise on *kāmakalā*, the bindu/triangle symbolism, and the cosmological structure associated with the Goddess and Śrīcakra. The work is important because it gives a technical account of Śrīvidyā cosmology rather than a general hymn or ritual manual. The local source is Internet Archive OCR of the Arthur Avalon translation/edition and should be reviewed before passage-level use.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

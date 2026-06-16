@@ -1,0 +1,44 @@
+{
+  "id": "srikumara",
+  "name": "Srikumara",
+  "name_iast": "Śrīkumāra",
+  "alternate_names": [],
+  "dates_low": 1075,
+  "dates_high": 1125,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Placed around the early twelfth century as the commentator on Bhoja's *Tattvaprakāśa*.",
+  "school": "Cross-tradition",
+  "school_color_token": "kashmir-shaiva-dualist",
+  "sub_school": "Sanskrit Śaiva-Siddhānta (commentarial)",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Śrīkumāra is the Sanskrit Śaiva Siddhānta commentator whose *Tātparyadīpikā* explains Bhojadeva's *Tattvaprakāśa*. Since Bhoja already has a person-level entry in the roster, Śrīkumāra is the missing author needed to represent the commentarial layer around that text. His contribution is to read the *Tattvaprakāśa*'s account of *pati*, *paśu*, and *pāśa* through a scholastic explanatory apparatus. The local source is OCR of the Travancore Sanskrit Series volume containing both the root text and commentary.",
+  "engaged_works": [
+    {
+      "work_id": "tatparyadipika",
+      "title": "Tatparyadipika",
+      "title_iast": "Tātparyadīpikā",
+      "alternate_titles": [
+        "Tattvaprakāśa-vṛtti"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The *Tātparyadīpikā* is printed as Śrīkumāra's commentary on Bhoja's *Tattvaprakāśa* in the Travancore Sanskrit Series edition.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "acceptable-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/saiva_siddhanta/srikumara_tattvaprakasa_tatparyadipika_archive_ocr.txt"
+      ],
+      "summary": "A commentary on Bhojadeva's *Tattvaprakāśa*, the Śaiva Siddhānta verse treatise on Lord, soul, and bonds. Śrīkumāra's work matters because it records how the concise root verses were explained within the Sanskrit Siddhānta scholastic tradition. The local corpus contains OCR of the 1920 Travancore Sanskrit Series volume; no fine-grained passage claims are made here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

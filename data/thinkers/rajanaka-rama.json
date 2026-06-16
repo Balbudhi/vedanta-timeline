@@ -1,0 +1,51 @@
+{
+  "id": "rajanaka-rama",
+  "name": "Rajanaka Rama",
+  "name_iast": "Rājānaka Rāma",
+  "alternate_names": [
+    "Rāmakaṇṭha I",
+    "Rama",
+    "Ramakantha I"
+  ],
+  "dates_low": 900,
+  "dates_high": 975,
+  "dates_tier": "contested",
+  "dates_notes": "Generally placed in tenth-century Kashmir; he must be kept distinct from the already-present Bhaṭṭa Rāmakaṇṭha II of the dualist Śaiva Siddhānta line.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Spanda commentarial",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "vasugupta",
+    "bhatta-kallata"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Rājānaka Rāma, also called Rāmakaṇṭha I in the Spanda literature, is a Kashmirian commentator on the *Spandakārikā*. His *Spandavivṛti* belongs to the early layer of Spanda exegesis and must not be conflated with the dualist Saiddhāntika Bhaṭṭa Rāmakaṇṭha II already in the roster. The work's role is commentarial: it explains the *Spanda* verses as a doctrine of the dynamic activity of consciousness in the Trika milieu. Because the local source is OCR of a printed edition, the entry records the attested work and lineage placement without using exact loci.",
+  "engaged_works": [
+    {
+      "work_id": "spanda-vivrti",
+      "title": "Spanda-vivrti",
+      "title_iast": "Spandavivṛti",
+      "alternate_titles": [
+        "Vivṛti on the Spandakārikā"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The commentary is transmitted under Rājānaka Rāma/Rāmakaṇṭha I in the Spanda commentarial tradition.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "acceptable-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/kashmir_shaiva/rajanaka_rama_spanda_vivrti_archive_ocr.txt"
+      ],
+      "summary": "A Sanskrit commentary on the *Spandakārikā*, explaining the foundational verses of the Spanda tradition. It belongs to the early exegetical layer between Kallaṭa's first systematization and the later syntheses of Kṣemarāja. The work is important because it preserves an independent Spanda commentarial voice, distinct from the dualist Śaiva Siddhānta Rāmakaṇṭha. The local corpus contains Internet Archive OCR of the printed edition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

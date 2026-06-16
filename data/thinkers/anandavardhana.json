@@ -1,0 +1,62 @@
+{
+  "id": "anandavardhana",
+  "name": "Anandavardhana",
+  "name_iast": "Ānandavardhana",
+  "alternate_names": [
+    "Rājānaka Ānandavardhana"
+  ],
+  "dates_low": 820,
+  "dates_high": 890,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Ānandavardhana is conventionally placed in ninth-century Kashmir, in the milieu of Avantivarman; the 820-890 range is the standard textual-historical window.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Kashmir poetics and dhvani theory",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "abhinavagupta"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Ānandavardhana is the ninth-century Kashmiri theorist of *dhvani*, poetic suggestion. The *Dhvanyāloka* argues that a poem's highest force is not exhausted by denoted meaning (*abhidhā*), indicated meaning (*lakṣaṇā*), figures, or qualities; the decisive poetic event is suggested meaning (*vyañjanā*), especially the suggestion of *rasa*. The programmatic opening states that learned critics have called *dhvani* the soul of poetry, [*Dhvanyāloka* 1.1](cite://anandavardhana/dhvanyaloka/1.1), *kāvyasyātmā dhvanir iti*. For this site he matters both as a philosopher of language and as the direct object of Abhinavagupta's *Locana*, where dhvani-theory is defended and integrated with Trika-inflected aesthetics. The entry should not overread him as a Vedāntin or Trika author; his own securely attested work is a poetics treatise whose philosophical weight lies in semantic and aesthetic theory.",
+  "engaged_works": [
+    {
+      "work_id": "dhvanyaloka",
+      "title": "Dhvanyaloka",
+      "title_iast": "Dhvanyāloka",
+      "alternate_titles": [
+        "Sahṛdayāloka"
+      ],
+      "composition_dates_low": 850,
+      "composition_dates_high": 890,
+      "composition_dates_notes": "Usually placed in Ānandavardhana's ninth-century Kashmiri career.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the GRETIL text and the later commentarial tradition transmit the work under Ānandavardhana's name.",
+      "ascription_evidence": [
+        {
+          "kind": "school-acceptance",
+          "description": "Abhinavagupta's Locana comments on the Dhvanyāloka as Ānandavardhana's work."
+        },
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern scholarship treats the Dhvanyāloka as Ānandavardhana's foundational work."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/poetics/anandavardhana_dhvanyaloka_gretil.txt"
+      ],
+      "summary": "A Sanskrit poetics treatise in four *uddyotas* establishing *dhvani*, suggestion, as the defining excellence of poetry. The first *uddyota* states and defends the thesis that *dhvani* is the soul of poetry against critics who reduce poetic value to denotation, indication, figure, or verbal charm. Later sections classify kinds of suggested meaning and give *rasa-dhvani* a central place. The on-disk GRETIL text includes the root verses and prose exposition, beginning with the programmatic *kāvyasyātmā dhvanir iti*.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

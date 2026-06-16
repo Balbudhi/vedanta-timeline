@@ -1,0 +1,63 @@
+{
+  "id": "arulnandi-sivacarya",
+  "name": "Arulnandi Sivacarya",
+  "name_iast": "Aruḷnandi Śivācārya",
+  "alternate_names": [
+    "Aruṇandi Śivācārya",
+    "Aruḷnandi Sivam"
+  ],
+  "dates_low": 1200,
+  "dates_high": 1300,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Placed in the thirteenth-century Tamil Meykaṇṭār lineage as the immediate post-Meykaṇṭār systematizer of Tamil Śaiva Siddhānta.",
+  "school": "Cross-tradition",
+  "school_color_token": "kashmir-shaiva-dualist",
+  "sub_school": "Tamil Śaiva-Siddhānta (Meykaṇṭār lineage)",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "meykantar"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Aruḷnandi Śivācārya is the thirteenth-century Tamil Śaiva Siddhānta author whose *Śivajñānasiddhiyār* expands Meykaṇṭār's concise *Civañāṉapōtam* into a larger argumentative work. The text is organized around the standard Siddhānta triad of *pati* (Śiva), *paśu* (the soul), and *pāśa* (the bonds), and its *Parapakkam* section formally examines and rejects rival philosophical positions. The safe doctrinal claim is that Aruḷnandi gives the Meykaṇṭār school a scholastic, polemical form: liberation is not an Advaitic erasure of difference, but the soul's release from real bondage through Śiva's grace and knowledge of the Siddhānta categories.",
+  "engaged_works": [
+    {
+      "work_id": "sivajnana-siddhiyar",
+      "title": "Sivajnana-siddhiyar",
+      "title_iast": "Śivajñānasiddhiyār",
+      "alternate_titles": [
+        "Sivagnana Siddhiyar"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standardly transmitted as Aruḷnandi Śivācārya's major Tamil Śaiva Siddhānta treatise.",
+      "genre": "prakarana",
+      "language": "tamil",
+      "source_status": "acceptable-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/english/saiva_siddhanta/arulnandi_sivajnana_siddhiyar_nallaswami_ocr.txt"
+      ],
+      "summary": "A large Tamil Śaiva Siddhānta treatise, traditionally counted at 729 verses, that expands the doctrinal program of Meykaṇṭār's *Civañāṉapōtam*. Its importance is both constructive and polemical: it states the relation of Lord, soul, and bond in the Meykaṇṭār lineage, and the *Parapakkam* section examines rival schools in order to distinguish the Siddhānta position from Buddhist, Jaina, Vedāntic, and other alternatives. The local corpus contains an Internet Archive OCR of J. M. Nallaswami Pillai's English translation/edition; no verse-level claims are asserted here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "irupa-irupathu",
+      "title": "Irupa-irupathu",
+      "title_iast": "Irupā-irupatu",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Aruḷnandi in the Tamil Śaiva Siddhānta corpus.",
+      "genre": "verse-summary",
+      "language": "tamil",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A shorter Tamil doctrinal composition associated with Aruḷnandi and the Meykaṇṭār lineage. It belongs to the same Śaiva Siddhānta teaching environment as the *Śivajñānasiddhiyār*, but no clean local text has been acquired for passage-level use.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

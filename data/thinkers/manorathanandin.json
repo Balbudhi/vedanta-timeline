@@ -1,0 +1,53 @@
+{
+  "id": "manorathanandin",
+  "name": "Manorathanandin",
+  "name_iast": "Manorathanandin",
+  "alternate_names": [],
+  "dates_low": 850,
+  "dates_high": 1000,
+  "dates_tier": "contested",
+  "dates_notes": "Manorathanandin is conventionally placed in the ninth to tenth century as a later commentator on Dharmakīrti's Pramāṇa-Vārttika; exact dates are uncertain.",
+  "school": "Buddhist Pramāṇa",
+  "school_color_token": "buddhist-pramana-comparator",
+  "sub_school": "Dharmakīrti commentary tradition",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "dharmakirti"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Manorathanandin is a Buddhist pramāṇa commentator known for his *Pramāṇavārttika-vṛtti* on Dharmakīrti. His importance is textual and exegetical: the work is one of the principal Sanskrit commentaries through which Dharmakīrti's difficult verses are read, arranged, and debated. It does not replace Dharmakīrti's system with a new one; it clarifies the inherited apparatus of perception, inference, apoha, *svabhāva-pratibandha*, and the Buddha-as-authority argument. The roster report marks availability as scan rather than clean etext, so this entry records the attested text but does not claim a local source.",
+  "engaged_works": [
+    {
+      "work_id": "pramanavarttika-vrtti",
+      "title": "Pramanavarttika-vrtti",
+      "title_iast": "Pramāṇavārttika-vṛtti",
+      "alternate_titles": [
+        "Vṛtti on Dharmakīrti's Pramāṇa-Vārttika"
+      ],
+      "composition_dates_low": 850,
+      "composition_dates_high": 1000,
+      "composition_dates_notes": "Composed in the later Indian commentary tradition on Dharmakīrti.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Manorathanandin in the Buddhist pramāṇa commentarial tradition.",
+      "ascription_evidence": [
+        {
+          "kind": "school-acceptance",
+          "description": "Buddhist pramāṇa scholastic tradition transmits the commentary under Manorathanandin's name."
+        }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit commentary on Dharmakīrti's *Pramāṇa-Vārttika*. It explains the structure and meaning of Dharmakīrti's verses across the major topics of Buddhist epistemology: perception, inference, apoha, the analysis of the inferential mark, and the establishment of reliable authority. Its role in the corpus is exegetical and preservative, making it a necessary comparator for any serious treatment of Dharmakīrti's reception.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

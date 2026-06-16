@@ -1,0 +1,61 @@
+{
+  "id": "mukula-bhatta",
+  "name": "Mukula Bhatta",
+  "name_iast": "Mukula Bhaṭṭa",
+  "alternate_names": [
+    "Mukula"
+  ],
+  "dates_low": 875,
+  "dates_high": 950,
+  "dates_tier": "contested",
+  "dates_notes": "Mukula Bhaṭṭa is placed in the ninth to tenth century by his position in the pre- or early-Abhinavagupta debate over linguistic powers and dhvani.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Sanskrit semantics and poetics",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "abhinavagupta"
+  ],
+  "lineage_polemical": [
+    {
+      "thinker_id": "abhinavagupta",
+      "direction": "is-refuted-by",
+      "note": "Abhinavagupta's Locana defends Ānandavardhana's dhvani theory against positions associated with Mukula Bhaṭṭa and other reductionist accounts of suggested meaning."
+    }
+  ],
+  "core_thesis": "Mukula Bhaṭṭa is a Sanskrit theorist of linguistic function known for the *Abhidhā-vṛtti-mātṛkā*. His importance lies in the semantic debate around whether poetic suggestion requires an independent power such as *vyañjanā*, as Ānandavardhana's dhvani theory requires, or whether the phenomena can be explained through already accepted functions of language, especially denotation and secondary indication. The roster gap report marks the work as extant in scan rather than clean local etext, so this entry stays documentary: Mukula is included as an attested author whose position becomes visible through his own treatise and through Abhinavagupta's engagement, without claiming a clean on-disk text or reducing his doctrine to an opponent's caricature.",
+  "engaged_works": [
+    {
+      "work_id": "abhidha-vrtti-matrka",
+      "title": "Abhidha-vrtti-matrka",
+      "title_iast": "Abhidhā-vṛtti-mātṛkā",
+      "alternate_titles": [
+        "Abhidhāvṛttamātṛkā"
+      ],
+      "composition_dates_low": 875,
+      "composition_dates_high": 950,
+      "composition_dates_notes": "Assigned to the ninth or tenth century by relative position in the dhvani and semantic debates.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Mukula Bhaṭṭa in the Sanskrit semantics and poetics tradition; a clean local etext was not verified in this pass.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern studies of Sanskrit poetics and semantics treat the Abhidhā-vṛtti-mātṛkā as Mukula Bhaṭṭa's work."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A focused treatise on linguistic function, especially the scope of *abhidhā* and related semantic operations. Its relevance for the timeline is the challenge it poses to dhvani theory: if the phenomena of poetic suggestion can be explained by established semantic functions, then an independent *vyañjanā* is unnecessary. Abhinavagupta's *Locana* preserves the later dhvani-side response to this reduction, but Mukula's entry should be grounded in the fact of the extant treatise rather than in Abhinavagupta's polemical framing alone.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "prajnakaragupta",
+  "name": "Prajnakaragupta",
+  "name_iast": "Prajñākaragupta",
+  "alternate_names": [],
+  "dates_low": 750,
+  "dates_high": 810,
+  "dates_tier": "contested",
+  "dates_notes": "Prajñākaragupta is usually placed in the late eighth to early ninth century by his position after Dharmakīrti and before later Buddhist pramāṇa reception; exact dates are not secure.",
+  "school": "Buddhist Pramāṇa",
+  "school_color_token": "buddhist-pramana-comparator",
+  "sub_school": "Dharmakīrti commentary tradition",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "dharmakirti"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Prajñākaragupta is a major commentator in the Dharmakīrti pramāṇa tradition. His *Pramāṇavārttikālaṅkāra* comments on Dharmakīrti's *Pramāṇa-Vārttika* and is especially important for the reception of the *pramāṇa-siddhi* material, where epistemology, Buddhist soteriology, and the status of the Buddha as reliable authority meet. He is also associated with the compact *Sahopalambhaniyama-siddhi*, an argument in the Yogācāra orbit that object and cognition are invariably apprehended together. The roster report marks the witnesses as Sanskrit manuscript/facsimile plus Tibetan rather than clean local etext, so this entry records attested works without claiming on-disk primary text.",
+  "engaged_works": [
+    {
+      "work_id": "pramanavarttika-alankara",
+      "title": "Pramanavarttika-alankara",
+      "title_iast": "Pramāṇavārttikālaṅkāra",
+      "alternate_titles": [
+        "Pramāṇavārttikālaṃkāra"
+      ],
+      "composition_dates_low": 770,
+      "composition_dates_high": 810,
+      "composition_dates_notes": "Composed in the later Dharmakīrti commentary period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Prajñākaragupta in the Buddhist pramāṇa commentarial tradition.",
+      "ascription_evidence": [
+        {
+          "kind": "school-acceptance",
+          "description": "Buddhist pramāṇa tradition transmits the work as Prajñākaragupta's commentary on Dharmakīrti."
+        }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A major Sanskrit commentary on Dharmakīrti's *Pramāṇa-Vārttika*. It participates in the technical exposition of inference, perception, apoha, and the *pramāṇa-siddhi* argument for the Buddha's authority. For the timeline it belongs with the Buddhist pramāṇa comparators that later Nyāya, Mīmāṃsā, and Vedānta inherit as live opponents or technical sources.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sahopalambhaniyama-siddhi",
+      "title": "Sahopalambhaniyama-siddhi",
+      "title_iast": "Sahopalambhaniyama-siddhi",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally associated with Prajñākaragupta; included here because the roster gap report names it with his corpus, but the entry does not rely on a local etext.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A short argument concerning the invariable co-apprehension of cognition and object, used in Yogācāra-oriented debates over whether the object can be established as external to cognition. The work is relevant to the sākāra/nirākāra and Buddhist pramāṇa debates, but this entry keeps the ascription cautious because no clean local witness was verified in this pass.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

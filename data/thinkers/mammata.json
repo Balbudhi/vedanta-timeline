@@ -1,0 +1,63 @@
+{
+  "id": "mammata",
+  "name": "Mammata Bhatta",
+  "name_iast": "Mammaṭa Bhaṭṭa",
+  "alternate_names": [
+    "Mammaṭa",
+    "Mammaṭācārya"
+  ],
+  "dates_low": 1050,
+  "dates_high": 1125,
+  "dates_tier": "contested",
+  "dates_notes": "Mammaṭa is generally placed in late-eleventh- to early-twelfth-century Kashmir; the precise dates remain approximate.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Sanskrit poetics and rasa theory",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "anandavardhana",
+    "abhinavagupta"
+  ],
+  "lineage_out": [
+    "rupa-gosvami",
+    "kavi-karnapura"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Mammaṭa Bhaṭṭa is the author of the *Kāvyaprakāśa*, a compact and highly influential synthesis of Sanskrit poetics. His work is not a metaphysical system; it is a technical account of what counts as *kāvya*, how word and meaning contribute to poetic force, how defects, qualities, figures, and suggestion are to be distinguished, and how *rasa* functions within poetic experience. The treatise absorbs the post-Ānandavardhana settlement that *dhvani* and suggested meaning must be included in poetics, while arranging the topic as a teachable śāstra. The on-disk text includes the well-known definition of poetry as faultless word and meaning with qualities, sometimes ornamented, and with excellence where suggested meaning predominates ([*Kāvyaprakāśa* kārikā 4](cite://mammata/kavyaprakasa/karika-4)). Later Gauḍīya authors cite Mammaṭa as the classical aesthetic baseline when arguing for *bhakti-rasa*.",
+  "engaged_works": [
+    {
+      "work_id": "kavyaprakasa",
+      "title": "Kavyaprakasa",
+      "title_iast": "Kāvyaprakāśa",
+      "alternate_titles": [
+        "Kāvyaprakāśa-kārikāvalī"
+      ],
+      "composition_dates_low": 1075,
+      "composition_dates_high": 1125,
+      "composition_dates_notes": "Conventionally assigned to Mammaṭa's late-eleventh- or early-twelfth-century Kashmiri milieu.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Mammaṭa in the Sanskrit poetics tradition and in modern scholarship.",
+      "ascription_evidence": [
+        {
+          "kind": "school-acceptance",
+          "description": "Poetics commentarial and scholastic tradition transmits the work as Mammaṭa's."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/poetics/mammata_kavyaprakasa_gretil.txt"
+      ],
+      "summary": "A systematic Sanskrit poetics manual that treats the aims of poetry, poetic cause, definition of *kāvya*, verbal powers, defects, qualities, figures, suggestion, and rasa. The text became a standard baseline for later discussions because it combines the earlier alaṅkāra, dhvani, and rasa materials into a compact curricular form. For this project it is especially useful where Vedānta-adjacent bhakti authors appeal to classical poetics to argue that devotional emotion can be treated as a genuine *rasa*.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "sucarita-misra",
+  "name": "Sucarita Misra",
+  "name_iast": "Sucarita Miśra",
+  "alternate_names": [
+    "Sucarita"
+  ],
+  "dates_low": 1000,
+  "dates_high": 1100,
+  "dates_tier": "contested",
+  "dates_notes": "Sucarita Miśra is conventionally placed in the eleventh century by his position in the Bhāṭṭa Mīmāṃsā sub-commentarial tradition on Kumārila.",
+  "school": "Pūrva-Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Bhāṭṭa Mīmāṃsā",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "kumarila"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Sucarita Miśra is a Bhāṭṭa Mīmāṃsaka and one of the principal sub-commentators on Kumārila's *Śloka-Vārttika*. His *Kāśikā* is not an independent system replacing Kumārila; it is a detailed exegetical aid to the Bhāṭṭa positions on Vedic authority, intrinsic validity, perception, word-meaning, and the critique of rival Buddhist and Brahmanical views as they appear in the *Śloka-Vārttika*. The timeline already treats Kumārila as the central author of mature Bhāṭṭa epistemology; Sucarita's entry records the commentarial layer through which that system was studied and stabilized. The source is already on disk at `data/sources/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt`.",
+  "engaged_works": [
+    {
+      "work_id": "kasika-on-sloka-varttika",
+      "title": "Kasika on Kumarila's Shloka-Varttika",
+      "title_iast": "Kāśikā on Kumārila's Śloka-Vārttika",
+      "alternate_titles": [
+        "Śloka-Vārttika-Kāśikā"
+      ],
+      "composition_dates_low": 1000,
+      "composition_dates_high": 1100,
+      "composition_dates_notes": "Eleventh-century placement follows Sucarita's conventional position in the post-Kumārila Bhāṭṭa tradition.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Sucarita Miśra as a principal commentary on Kumārila's Śloka-Vārttika.",
+      "ascription_evidence": [
+        {
+          "kind": "school-acceptance",
+          "description": "Bhāṭṭa Mīmāṃsā tradition treats Sucarita's Kāśikā as a principal sub-commentary on the Śloka-Vārttika."
+        }
+      ],
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt"
+      ],
+      "summary": "A Sanskrit sub-commentary on Kumārila Bhaṭṭa's *Śloka-Vārttika*. The work explains and defends the Bhāṭṭa reading of the *Tarka-Pāda* topics: the definition of dharma, Vedic authorlessness, intrinsic validity, perception, word-meaning, and the critique of rival accounts. Its importance is exegetical and doctrinally conservative: it preserves the scholastic detail needed to understand how Kumārila's compact verses became a working Mīmāṃsā curriculum.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

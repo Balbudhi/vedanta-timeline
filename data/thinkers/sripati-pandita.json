@@ -1,0 +1,43 @@
+{
+  "id": "sripati-pandita",
+  "name": "Sripati Pandita",
+  "name_iast": "Śrīpati Paṇḍita",
+  "alternate_names": [
+    "Paṇḍitārādhya"
+  ],
+  "dates_low": 1100,
+  "dates_high": 1400,
+  "dates_tier": "contested",
+  "dates_notes": "Dating is disputed between an early Vīraśaiva placement around the twelfth century and later placements around the late fourteenth century.",
+  "school": "Vīraśaiva",
+  "school_color_token": "virashaiva-comparator",
+  "sub_school": "Vīraśaiva Vedānta / Śakti-viśiṣṭādvaita",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Śrīpati Paṇḍita is the Vīraśaiva Vedānta author of the *Śrīkarabhāṣya* on the *Brahma-sūtras*. The work is the major Vīraśaiva engagement with the Vedānta sūtra tradition and is reported to argue a Śaiva, Śakti-qualified Vedānta position while refuting rival Vedānta readings, including Rāmānuja. Because the date is genuinely contested and the available text is scan-level rather than a clean local source, this entry records the author, work, affiliation, and broad polemical setting without asserting detailed sūtra-level doctrine.",
+  "engaged_works": [
+    {
+      "work_id": "srikara-bhasya",
+      "title": "Srikara-bhasya",
+      "title_iast": "Śrīkarabhāṣya",
+      "alternate_titles": [
+        "Śrīkara-bhāṣya on the Brahma-sūtras"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standardly attributed to Śrīpati Paṇḍita in the Vīraśaiva Vedānta tradition; the author's date remains disputed.",
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Vīraśaiva commentary on the *Brahma-sūtras* and the principal textual basis for Śrīpati Paṇḍita's Śaiva Vedānta. It is important because it places Vīraśaiva theology into direct conversation with the pan-Vedānta sūtra-commentary format and argues against rival Vedānta positions. No clean local text has been acquired; the gap report notes scan availability.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

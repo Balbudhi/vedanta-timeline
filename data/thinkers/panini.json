@@ -1,0 +1,65 @@
+{
+  "id": "panini",
+  "name": "Panini",
+  "name_iast": "Pāṇini",
+  "alternate_names": [
+    "Pāṇini",
+    "Śālāturīya"
+  ],
+  "dates_low": -500,
+  "dates_high": -350,
+  "dates_tier": "contested",
+  "dates_notes": "Pāṇini is conventionally placed in the mid-first millennium BCE, with most modern discussions ranging between the fifth and fourth centuries BCE; the historical data are internal and relative rather than inscriptional.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Vyākaraṇa philosophy of language",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "katyayana-varttikakara",
+    "patanjali-grammarian",
+    "bhartrhari"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Pāṇini is the foundational author of the Sanskrit grammatical discipline as later scholastic India receives it. The *Aṣṭādhyāyī* is not a philosophical treatise in the later polemical sense; it is a rule-system for Sanskrit derivation whose metalinguistic economy, technical markers, ordered operations, and treatment of phonology, morphology, compounds, and derivational semantics make grammar a formal śāstra. Its philosophical importance for the timeline is methodological: later debates over *śabda*, sentence meaning, Vedic interpretation, and rule-governed analysis presuppose the Pāṇinian apparatus. The work begins with definitional rules such as [*Aṣṭādhyāyī* 1.1.1](cite://panini/astadhyayi/1.1.1), *vṛddhir ād-aic*, and proceeds through a compact generative system in eight chapters. Kātyāyana's *vārttikas*, Patañjali's *Mahābhāṣya*, and Bhartṛhari's *Vākyapadīya* all develop the philosophical consequences of this grammatical base.",
+  "engaged_works": [
+    {
+      "work_id": "astadhyayi",
+      "title": "Ashtadhyayi",
+      "title_iast": "Aṣṭādhyāyī",
+      "alternate_titles": [
+        "Pāṇini-Sūtra"
+      ],
+      "composition_dates_low": -500,
+      "composition_dates_high": -350,
+      "composition_dates_notes": "Composition is conventionally placed in the fifth to fourth centuries BCE; the precise date remains contested.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Pāṇini by the entire grammatical tradition and by modern scholarship; questions concern date and textual stratification, not the basic authorial attribution.",
+      "ascription_evidence": [
+        {
+          "kind": "school-acceptance",
+          "description": "Uniform Pāṇinian grammatical tradition, including Kātyāyana's vārttikas and Patañjali's Mahābhāṣya."
+        },
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern scholarship treats the Aṣṭādhyāyī as Pāṇini's foundational work."
+        }
+      ],
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/grammar/panini_astadhyayi_gretil.txt"
+      ],
+      "summary": "A compact sūtra-system of Sanskrit grammar in eight chapters. The text lays out phonological operations, technical markers, nominal and verbal derivation, compounds, affixes, accent, and sandhi through ordered rules. For the timeline its importance is not a single doctrinal thesis but the creation of a formal grammatical śāstra: later philosophers inherit Pāṇini's categories when they argue about word-meaning, sentence cognition, Vedic injunction, and the relation between rule and usage. The on-disk GRETIL text gives the sūtras in sequence with references such as *ps_1,1.1*.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

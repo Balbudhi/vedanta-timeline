@@ -1,0 +1,83 @@
+{
+  "id": "ratnakarasanti",
+  "name": "Ratnakarasanti",
+  "name_iast": "Ratnākaraśānti",
+  "alternate_names": [
+    "Ratnākaraśānti",
+    "Śāntipa"
+  ],
+  "dates_low": 970,
+  "dates_high": 1045,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Ratnākaraśānti is conventionally placed in the late tenth to mid-eleventh century as a Vikramaśīla scholar associated with the late Indian Buddhist scholastic and tantric milieu.",
+  "school": "Buddhist Pramāṇa",
+  "school_color_token": "buddhist-pramana-comparator",
+  "sub_school": "Vikramaśīla Yogācāra-Pramāṇa",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "dharmakirti",
+    "dharmapala"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Ratnākaraśānti is a late Indian Buddhist scholar associated with Vikramaśīla and with the mature Yogācāra-pramāṇa debate. His corpus is mixed: epistemological, Yogācāra, Madhyamaka-facing, Prajñāpāramitā exegetical, and tantric works are all attributed to him. For this roster request the relevant point is his role in the Buddhist pramāṇa and sākāra/nirākāra debates, especially works such as the *Antarvyāptisamarthana*, which concerns internal pervasion in inference, and the *Vijñaptimātratāsiddhi*, which defends cognition-only. The gap report marks the corpus as scan/point, with many Tibetan witnesses and some Sanskrit/scans, so this entry includes only attested works and does not claim a clean local Sanskrit etext.",
+  "engaged_works": [
+    {
+      "work_id": "antarvyaptisamarthana",
+      "title": "Antarvyaptisamarthana",
+      "title_iast": "Antarvyāptisamarthana",
+      "alternate_titles": [],
+      "composition_dates_low": 990,
+      "composition_dates_high": 1045,
+      "composition_dates_notes": "Assigned to Ratnākaraśānti's late-tenth- to early-eleventh-century scholastic career.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally attributed to Ratnākaraśānti; the roster report identifies it as an attested work but not as a clean local etext.",
+      "ascription_evidence": [
+        {
+          "kind": "school-acceptance",
+          "description": "Late Buddhist scholastic transmission associates the work with Ratnākaraśānti."
+        }
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A treatise on *antarvyāpti*, internal pervasion, in the theory of inference. It belongs to the late Buddhist effort to refine Dharmakīrtian inferential theory against rival Nyāya and Mīmāṃsā accounts of universal concomitance. This entry does not assert a clean local witness; the work is included because the roster request and gap report identify it as an attested Ratnākaraśānti text.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "vijnaptimatratasiddhi",
+      "title": "Vijnaptimatratasiddhi",
+      "title_iast": "Vijñaptimātratāsiddhi",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally attributed to Ratnākaraśānti in the late Yogācāra corpus; witness conditions are not reduced to a clean local Sanskrit text here.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A defense of cognition-only or representation-only in the late Yogācāra setting. It is relevant to the sākāra/nirākāra dispute because Ratnākaraśānti is a key later author in debates over whether cognition has internally structured phenomenal form and how that bears on external-object realism.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "madhyamakalankaropadesa",
+      "title": "Madhyamakalankaropadesa",
+      "title_iast": "Madhyamakālaṃkāropadeśa",
+      "alternate_titles": [],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally attributed to Ratnākaraśānti; included as part of his broader late Buddhist scholastic corpus.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Madhyamaka-facing scholastic work in Ratnākaraśānti's broader corpus. It matters here as evidence that his pramāṇa and Yogācāra commitments sit within a larger late Buddhist attempt to coordinate epistemology, cognition-only analysis, and Madhyamaka reasoning.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

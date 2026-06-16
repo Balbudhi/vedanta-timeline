@@ -1,0 +1,60 @@
+{
+  "id": "jayarasi-bhatta",
+  "name": "Jayarasi Bhatta",
+  "name_iast": "Jayarāśi Bhaṭṭa",
+  "alternate_names": [
+    "Jayarāśi"
+  ],
+  "dates_low": 770,
+  "dates_high": 840,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Jayarāśi is usually dated to the late eighth or early ninth century; the range follows the standard dating used for the Tattvopaplava-siṃha in modern studies.",
+  "school": "Cārvāka",
+  "school_color_token": "carvaka-comparator",
+  "sub_school": "Cārvāka-adjacent skepticism",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Jayarāśi Bhaṭṭa is the author of the *Tattvopaplava-siṃha*, the exceptional Cārvāka-adjacent Sanskrit treatise that survives as a continuous text rather than as hostile fragments. His school placement should be stated carefully: the text is often classified as Lokāyata or Cārvāka, but its method is radical skepticism rather than a simple statement of materialist doctrine. Jayarāśi examines the standard means of knowledge and argues that their definitions cannot establish stable *tattvas*. The work opens by turning the promised inquiry into reality against the very possibility of such reality-claims, and its first major section takes up perception by testing definitions such as the Nyāya formula for *pratyakṣa* ([*Tattvopaplava-siṃha* 1](cite://jayarasi-bhatta/tattvopaplavasimha/1)). Its importance for the roster is documentary: unlike the reconstructed Bārhaspatya fragments, this is a surviving authorial skeptical text.",
+  "engaged_works": [
+    {
+      "work_id": "tattvopaplavasimha",
+      "title": "Tattvopaplavasimha",
+      "title_iast": "Tattvopaplava-siṃha",
+      "alternate_titles": [
+        "Tattvopaplavasiṃha"
+      ],
+      "composition_dates_low": 770,
+      "composition_dates_high": 840,
+      "composition_dates_notes": "Composed in Jayarāśi's late-eighth- or early-ninth-century period.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Jayarāśi Bhaṭṭa in the edited Sanskrit tradition; classification as Cārvāka, Lokāyata, or sui generis skepticism remains debated.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "The Baroda edition and later studies transmit the text as Jayarāśi Bhaṭṭa's Tattvopaplava-siṃha."
+        },
+        {
+          "kind": "scholarly-dispute",
+          "description": "Modern scholarship debates whether the text should be counted as Cārvāka/Lokāyata or as an independent skeptical work."
+        }
+      ],
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/carvaka/jayarasi_tattvopaplavasimha_gretil.txt"
+      ],
+      "summary": "A skeptical Sanskrit treatise testing and destabilizing the accepted *pramāṇas* and the *tattvas* established through them. The text proceeds through analyses of perception, inference, comparison, testimony, and associated realist assumptions. It is Cārvāka-adjacent because it shares the anti-inferential and anti-śāstric pressure visible in Lokāyata reports, but it is methodologically more destructive than a straightforward positive materialist system. The GRETIL plaintext is now on disk.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

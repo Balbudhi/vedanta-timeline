@@ -1,0 +1,46 @@
+{
+  "id": "laksmana-desikendra",
+  "name": "Laksmana Desikendra",
+  "name_iast": "Lakṣmaṇa Deśikendra",
+  "alternate_names": [
+    "Lakṣmaṇa Deśika"
+  ],
+  "dates_low": 1000,
+  "dates_high": 1100,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Commonly placed around the eleventh century as the author of the *Śāradātilaka*.",
+  "school": "Bhairava-tantra",
+  "school_color_token": "shakta-srividya",
+  "sub_school": "Śaiva-Śākta Tantra / Mantraśāstra",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Lakṣmaṇa Deśikendra is the author of the *Śāradātilaka*, a systematic Sanskrit manual of mantra, initiation, worship, and tantric doctrine. The work is not a single-sect philosophical treatise in the Vedānta sense, but it is an argued and organized source for Śaiva-Śākta mantraśāstra and later Śrīvidyā-adjacent practice. Its relevance here is that it records the technical categories through which tantric ritual, mantra, deity visualization, and metaphysical assumptions are coordinated. The local text is archive OCR of a Sanskrit edition.",
+  "engaged_works": [
+    {
+      "work_id": "sarada-tilaka",
+      "title": "Sarada-tilaka",
+      "title_iast": "Śāradātilaka",
+      "alternate_titles": [
+        "Śāradātilaka-tantra"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The *Śāradātilaka* is standardly attributed to Lakṣmaṇa Deśikendra in the printed tantric tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "acceptable-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/srividya/laksmana_desikendra_sarada_tilaka_archive_ocr.txt"
+      ],
+      "summary": "A Sanskrit tantric manual covering mantra, initiation, worship, deity practice, and associated doctrinal categories. It became a widely cited source in Śaiva-Śākta and Śrīvidyā-adjacent ritual literature. The local corpus contains Internet Archive OCR of a Sanskrit edition; no passage-level claims are made from it yet.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}
