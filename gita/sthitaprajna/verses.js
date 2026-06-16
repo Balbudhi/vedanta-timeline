@@ -4525,8 +4525,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "tāni sarvāṇi saṃyamya yukta āsīta matparaḥ |\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā ||",
-    "sense": "Kṛṣṇa instructs: having restrained all those indriyas, one should sit yoked, holding me as the supreme; for he whose indriyas are under control — his prajñā stands firm.",
-    "english": "{2:Having restrained} {1:all} {0:those indriyas}, {3:yoked} and {5:holding me as the supreme}, he {4:should sit}; {7:for} {8:the one whose} {9:indriyas} are {6:in control} — {10:his} {11:prajñā} {12:stands firm}.",
+    "sense": "Kṛṣṇa instructs: having reined in all those indriyas, one should sit absorbed in yoga, holding me as the supreme; for he whose indriyas are under control — his prajñā stands firm.",
+    "english": "{2:Having reined in} {1:all} {0:those indriyas}, {3:absorbed in yoga} and {5:holding me as the supreme}, he {4:should sit}; {7:for} {8:the one whose} {9:indriyas} are {6:in control} — {10:his} {11:prajñā} {12:stands firm}.",
     "words": [
       {
         "i": 0,
