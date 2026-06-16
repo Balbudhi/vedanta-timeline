@@ -8651,7 +8651,7 @@ window.GITA_VERSES = [
     "devanagari": "रागद्वेषवियुक्तैस् तु विषयान् इन्द्रियैश् चरन्।\nआत्मवश्यैर् विधेयात्मा प्रसादम् अधिगच्छति॥",
     "iast": "rāgadveṣaviyuktais tu viṣayān indriyaiś caran |\nātmavaśyair vidheyātmā prasādam adhigacchati ||",
     "sense": "But one whose self is under control, moving among sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, attains serenity.",
-    "english": "{1:But} {6:moving} among {5:the sense-objects} with {4:the indriyas} {0:freed from rāga and dveṣa} and {7:obedient to the self}, {2:he whose self is disciplined} {9:attains} {8:serenity}.",
+    "english": "{1:But} {6:engaging} {5:the sense-objects} with {4:the indriyas} {0:freed from rāga and dveṣa} and {7:obedient to the self}, {2:he whose self is disciplined} {9:attains} {8:serenity}.",
     "words": [
       {
         "i": 0,
@@ -8886,7 +8886,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.64",
         "sanskrit": "uktena prakāreṇa mayi sarveśvare cetasaś śubhāśrayabhūte nyastamanāḥ nirdagdhāśeṣakalmaṣatayā rāgadveṣaviyuktair ātmavaśyair indriyaiḥ viṣayāṃś caran viṣayāṃs tiraskṛtya vartamānaḥ vidheyātmā vidheyamanāḥ prasādam adhigacchati nirmalāntaḥkaraṇo bhavatītyarthaḥ /",
-        "ourRendering": "In the manner already stated, having placed his manas on Me, the Lord of all, who am the auspicious resort of the thinking faculty — his every taint burnt away — moving among the sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, that is, abiding with the sense-objects pushed aside; he whose self is disciplined, whose manas is disciplined, attains serenity: the meaning is that he becomes one whose inner organ is pure.",
+        "ourRendering": "In the manner already stated, having placed his manas on Me, the Lord of all, who am the auspicious resort of the thinking faculty — his every taint burnt away — engaging the sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, that is, abiding with the sense-objects pushed aside; he whose self is disciplined, whose manas is disciplined, attains serenity: the meaning is that he becomes one whose inner organ is pure.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -9256,7 +9256,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. masc."
           }
         ],
-        "english": "{1:In the manner} {0:already stated}, {6:having placed his manas} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:moving} {11:among the sense-objects} {10:with indriyas} {8:freed from rāga and dveṣa} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is disciplined}, {17:whose manas is disciplined}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}.",
+        "english": "{1:In the manner} {0:already stated}, {6:having placed his manas} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:engaging} {11:the sense-objects} {10:with indriyas} {8:freed from rāga and dveṣa} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is disciplined}, {17:whose manas is disciplined}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}.",
         "segments": [
           {
             "from": 0,
