@@ -1403,8 +1403,24 @@ body.is-reading-mode #dpArticleHead,
 body.is-reading-mode #dpArticleBody {
   max-width: 820px; margin-left: auto; margin-right: auto;
 }
-body.is-reading-mode #dpArticleBody { padding-bottom: 120px; }
+body.is-reading-mode #dpArticleBody { padding-bottom: 96px; }
 body.is-reading-mode .dp-standalone { display: none; }
+/* Anchor the audio player to the bottom as a floating dock. (It was floating
+   mid-page because the sticky bar sat above the body's bottom padding.)
+   Desktop reading mode: a centered dock matching the reading column. */
+body.is-reading-mode .recite-bar {
+  position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%);
+  width: min(720px, calc(100vw - 40px)); margin: 0; z-index: 60;
+}
+/* Mobile (article pane is full-screen): dock to the bottom edge, full width. */
+@media (max-width: 720px) {
+  body.is-reading-mode .recite-bar,
+  .dp-article-body .recite-bar {
+    position: fixed; left: 10px; right: 10px; bottom: 10px;
+    width: auto; transform: none; margin: 0; z-index: 60;
+  }
+  .dp-article-body { padding-bottom: 90px; }
+}
 
 .reading-nav {
   display: flex; justify-content: space-between; align-items: center;
@@ -2726,7 +2742,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   :root {
     --lane-h: 64px;
     --lane-rail-w: 124px;
-    --topbar-h: 52px;
+    --topbar-h: 44px;
     --era-strip-h: 22px;
   }
   .filter-chip-solo { padding: 0 7px; font-size: 9.5px; }
@@ -2763,7 +2779,10 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   .topbar h1 .title-full { display: none; }
   .topbar h1 .title-short { display: inline; }
   .topbar .subtitle { display: none; }
-  .topbar-btn--icon { padding: 7px 7px; }
+  /* compact controls so the bar fits the shorter mobile --topbar-h (44px) */
+  .topbar-btn { min-height: 34px; }
+  .topbar-btn--circle { width: 32px; height: 32px; }
+  .topbar-btn--icon { padding: 6px 7px; }
   .topbar-btn--icon .btn-text { display: none; }
   /* Detail-pane tabbar must scroll horizontally on narrow viewports —
      otherwise the "Translation" tab wraps mid-word at 375 px width. */
