@@ -1,0 +1,23 @@
+{
+  "term_key": "nyaya",
+  "term_iast": "Nyāya",
+  "term_devanagari": "न्याय",
+  "literal": "rule, method, logical argument; from ni + √ī, \"that into which [reasoning] leads\"",
+  "aliases": [
+    "nyaya",
+    "Nyaya",
+    "Nyāya",
+    "nyāya",
+    "Nyāya-darśana"
+  ],
+  "invariant_definition": "Nyāya is one of the six orthodox (āstika) darśanas, the school of logic, epistemology, and debate founded on Gautama (Akṣapāda)'s Nyāya-Sūtra (c. 2nd c. CE) with Vātsyāyana's Bhāṣya. Its enduring contribution is a systematic theory of the means of valid knowledge (pramāṇa) — recognizing perception, inference, comparison, and testimony — and a rigorous account of inference (anumāna) through the five-membered syllogism. Ontologically a pluralist realism (closely allied with Vaiśeṣika as the Nyāya-Vaiśeṣika synthesis), it argues for an enduring self, a creator Īśvara, and liberation as release from suffering attained through correct knowledge of reality.",
+  "see_also": [
+    "vaisesika",
+    "navya-nyaya",
+    "pramana",
+    "anumana",
+    "pratyaksa",
+    "darsana"
+  ],
+  "last_verified_at": "2026-06-16"
+}

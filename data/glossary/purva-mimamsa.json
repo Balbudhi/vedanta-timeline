@@ -1,0 +1,27 @@
+{
+  "term_key": "purva-mimamsa",
+  "term_iast": "Pūrva-Mīmāṃsā",
+  "term_devanagari": "पूर्वमीमांसा",
+  "literal": "the prior inquiry; pūrva (prior, earlier) + mīmāṃsā (investigation, reflection)",
+  "aliases": [
+    "purva-mimamsa",
+    "Purva-mimamsa",
+    "Pūrva-Mīmāṃsā",
+    "pūrva-mīmāṃsā",
+    "Purva Mimamsa",
+    "Mīmāṃsā",
+    "mimamsa",
+    "Mimamsa",
+    "Karma-Mīmāṃsā"
+  ],
+  "invariant_definition": "Pūrva-Mīmāṃsā (the \"prior inquiry,\" as opposed to Uttara-Mīmāṃsā / Vedānta) is one of the six orthodox darśanas, founded on Jaimini's Mīmāṃsā-Sūtra (c. 2nd c. BCE) and Śabara's Bhāṣya, with the later schools of Kumārila (Bhāṭṭa) and Prabhākara (Prābhākara). Its concern is the correct interpretation and authority of the Vedic ritual injunctions (the karma-kāṇḍa): it holds the Veda to be authorless and eternal, and treats injunction (vidhi) and duty (dharma) as the primary import of scripture. To defend this it built sophisticated theories of language, the self-validity of cognition (svataḥ-prāmāṇya), and the means of valid knowledge. Liberation is a later, secondary concern; the school's defining work is hermeneutic and ritual-philosophical.",
+  "see_also": [
+    "karma-kanda",
+    "dharma",
+    "vidhi-mukha",
+    "sabda",
+    "pramana",
+    "sphota"
+  ],
+  "last_verified_at": "2026-06-16"
+}

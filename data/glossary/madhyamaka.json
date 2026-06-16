@@ -1,0 +1,25 @@
+{
+  "term_key": "madhyamaka",
+  "term_iast": "Mādhyamaka",
+  "term_devanagari": "माध्यमक",
+  "literal": "the middle (way) school; from madhyama (middle), the doctrine of the madhyamā pratipad",
+  "aliases": [
+    "madhyamaka",
+    "Madhyamaka",
+    "Mādhyamaka",
+    "mādhyamaka",
+    "Madhyamika",
+    "Mādhyamika",
+    "Middle Way school"
+  ],
+  "invariant_definition": "Mādhyamaka is the Mahāyāna Buddhist philosophical school founded by Nāgārjuna (c. 2nd c. CE) and developed by Āryadeva, Buddhapālita, Bhāvaviveka, and Candrakīrti. Its central thesis is the emptiness (śūnyatā) of all phenomena: nothing possesses intrinsic, independent nature (svabhāva), because everything arises dependently (pratītya-samutpāda). It steers a \"middle\" course between eternalism (things truly exist) and nihilism (nothing exists at all). Mādhyamaka operates with two truths — conventional (saṃvṛti) and ultimate (paramārtha) — and uses reductio dialectic (especially in the Prāsaṅgika line) to dismantle every fixed position, including its own, without asserting a positive metaphysics.",
+  "see_also": [
+    "sunyata",
+    "svabhava",
+    "pratitya-samutpada",
+    "catuskoti",
+    "samvrti-satya",
+    "paramartha-satya"
+  ],
+  "last_verified_at": "2026-06-16"
+}

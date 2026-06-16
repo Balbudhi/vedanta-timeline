@@ -1,0 +1,26 @@
+{
+  "term_key": "sankhya",
+  "term_iast": "Sāṅkhya",
+  "term_devanagari": "साङ्ख्य",
+  "literal": "enumeration, reckoning; from saṅkhyā (number) — the school that enumerates the principles (tattvas)",
+  "aliases": [
+    "sankhya",
+    "Sankhya",
+    "Sāṅkhya",
+    "sāṅkhya",
+    "Sāṃkhya",
+    "samkhya",
+    "Samkhya",
+    "Sankhya-darśana"
+  ],
+  "invariant_definition": "Sāṅkhya is one of the oldest of the six orthodox darśanas, classically systematized in Īśvarakṛṣṇa's Sāṅkhya-Kārikā (c. 4th c. CE). It is a dualist enumeration of reality into two ultimate, irreducible principles: puruṣa, the plural, inactive, pure consciousness, and prakṛti, the single, unconscious, active material nature constituted of three strands (guṇas: sattva, rajas, tamas). The manifest world evolves from prakṛti through a determinate sequence of twenty-three further principles (tattvas). Bondage is the non-discrimination of puruṣa from prakṛti; liberation (kaivalya) is the discriminative knowledge (viveka) that isolates consciousness from nature. Classical Sāṅkhya is non-theistic and supplies the metaphysics for which Yoga is the practical complement.",
+  "see_also": [
+    "purusa",
+    "prakrti",
+    "guna",
+    "kaivalya",
+    "satkarya-vada",
+    "yoga"
+  ],
+  "last_verified_at": "2026-06-16"
+}

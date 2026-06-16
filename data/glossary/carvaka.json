@@ -1,0 +1,24 @@
+{
+  "term_key": "carvaka",
+  "term_iast": "Cārvāka",
+  "term_devanagari": "चार्वाक",
+  "literal": "uncertain; perhaps from cāru-vāk \"sweet/agreeable speech,\" or a proper name; also called Lokāyata, \"that which is found among the people / this-worldly\"",
+  "aliases": [
+    "carvaka",
+    "Carvaka",
+    "Cārvāka",
+    "cārvāka",
+    "Charvaka",
+    "Lokāyata",
+    "lokayata",
+    "Lokayata"
+  ],
+  "invariant_definition": "Cārvāka (also Lokāyata) is the materialist and skeptical school of classical India, the principal heterodox (nāstika) tradition rejecting the authority of the Veda. Its texts survive only in fragments and in the hostile reports of opponents (notably the doxography of Mādhava's Sarva-Darśana-Saṅgraha). It accepts perception (pratyakṣa) as the sole reliable means of knowledge and rejects inference and testimony as grounds for unseen entities. Consequently it denies a soul distinct from the body, rebirth, karmic retribution, and any other world: consciousness is an emergent property of the material elements, and the self perishes at death. Its ethics is broadly this-worldly, taking pleasure as a real and legitimate human end.",
+  "see_also": [
+    "pratyaksa",
+    "anumana",
+    "pramana",
+    "darsana"
+  ],
+  "last_verified_at": "2026-06-16"
+}

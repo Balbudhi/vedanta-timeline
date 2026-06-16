@@ -1,0 +1,24 @@
+{
+  "term_key": "vaisesika",
+  "term_iast": "Vaiśeṣika",
+  "term_devanagari": "वैशेषिक",
+  "literal": "concerning the particular; from viśeṣa (particularity, the ultimate differentiator)",
+  "aliases": [
+    "vaisesika",
+    "Vaisesika",
+    "Vaiśeṣika",
+    "vaiśeṣika",
+    "Vaisheshika",
+    "Vaiśeṣika-darśana"
+  ],
+  "invariant_definition": "Vaiśeṣika is one of the six orthodox darśanas, the school of natural-philosophical realism founded on Kaṇāda's Vaiśeṣika-Sūtra (c. 2nd c. BCE–1st c. CE). It analyzes reality into a fixed set of categories (padārtha) — substance, quality, motion, universal, particular (viśeṣa), inherence, and (later) absence — and is known for its atomism: composite objects are built from eternal indivisible atoms (aṇu). The category of viśeṣa, the ultimate individuator that distinguishes otherwise identical atoms, gives the school its name. It is closely allied with Nyāya (which supplied the epistemology) in the combined Nyāya-Vaiśeṣika system, sharing a pluralist realist ontology and a liberation-through-knowledge soteriology.",
+  "see_also": [
+    "nyaya",
+    "visesa",
+    "anu",
+    "dravya",
+    "samanyalaksana",
+    "darsana"
+  ],
+  "last_verified_at": "2026-06-16"
+}

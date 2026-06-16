@@ -1989,15 +1989,23 @@ function renderHero(t) {
     "contested": "Dates contested",
     "oral-tradition-only": "Oral tradition only",
   }[t.dates_tier] || (t.dates_tier || "");
-  // School-pill terms are glossary-linked where a headword exists, so a short
-  // Sanskrit name (Tattva-vāda, Viśiṣṭādvaita…) can be tapped to learn what it
-  // means. (Recognized terms only; English/comparator names stay plain.)
+  // The pill shows the SCHOOL name(s) only — the parenthetical English
+  // *description* (e.g. "(modern dharmic-political revivalism)", "(self-enquiry)")
+  // is not part of the pill. Sanskrit terms are glossary-linked where a headword
+  // exists so a short name (Śuddhādvaita, Pūrṇa-Advaita…) can be tapped to learn
+  // what it means; the longest match wins so the whole compound links, not a part.
+  const stripDesc = (s) => String(s || "").replace(/\s*\([^)]*\)\s*/g, " ").trim();
   const linkGlossaryText = (s) => {
-    let out = escape(s || "");
+    let out = escape(stripDesc(s));
     if (state.glossaryRegex) out = out.replace(state.glossaryRegex, (m) => `<span class="term" data-term="${m}">${m}</span>`);
     return out;
   };
-  const subSchool = t.sub_school ? " · " + linkGlossaryText(t.sub_school) : "";
+  // A sub-school that, once its English description is stripped, is identical to
+  // the school name is just repetition (e.g. "Tattva-vāda · Tattva-vāda") — drop it.
+  const schoolText = stripDesc(t.school);
+  const subSchoolText = stripDesc(t.sub_school);
+  const subSchool = subSchoolText && subSchoolText !== schoolText
+    ? " · " + linkGlossaryText(t.sub_school) : "";
   // Number citations in the core thesis. The footnote counter is local to
   // the hero block; engaged-works cards each start their own counter so
   // numbering does not balloon across the whole entry.

@@ -1,0 +1,22 @@
+{
+  "term_key": "navya-nyaya",
+  "term_iast": "Navya-Nyāya",
+  "term_devanagari": "नव्यन्याय",
+  "literal": "new logic; navya (new) + nyāya (logic)",
+  "aliases": [
+    "navya-nyaya",
+    "Navya-nyaya",
+    "Navya-Nyāya",
+    "navya-nyāya",
+    "Navya Nyaya",
+    "New Nyāya"
+  ],
+  "invariant_definition": "Navya-Nyāya (\"new logic\") is the reformed phase of the Nyāya tradition inaugurated by Gaṅgeśa Upādhyāya's Tattva-cintāmaṇi (c. 14th c.) and elaborated by the Navadvīpa school (Raghunātha Śiromaṇi, Gadādhara, and others). It retains the realist ontology of Nyāya-Vaiśeṣika but develops a highly precise technical language for analyzing cognition, relation, and inference — built on notions such as qualifier and qualificand, limitor (avacchedaka), and the structure of relational properties. This metalanguage allowed unprecedented rigor in stating epistemic and logical conditions and became the lingua franca of late scholastic Sanskrit philosophy across schools.",
+  "see_also": [
+    "nyaya",
+    "vaisesika",
+    "anumana",
+    "pramana"
+  ],
+  "last_verified_at": "2026-06-16"
+}
