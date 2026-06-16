@@ -1,0 +1,34 @@
+{
+  "term_key": "vidheya",
+  "term_iast": "vidheya",
+  "term_devanagari": "विधेय",
+  "literal": "to be directed, to be ordained/disposed; hence governable, subject to control, manageable — gerundive (kṛtya) of vi-√dhā 'to ordain, arrange, direct' (vi + √dhā + -ya)",
+  "aliases": [
+    "vidheya",
+    "Vidheya",
+    "vidheyaḥ",
+    "vidheyātmā",
+    "vidheyamanāḥ"
+  ],
+  "last_verified_at": "2026-06-16",
+  "last_verified_by": "glossary-disambiguation",
+  "invariant_definition": "*Vidheya* is the gerundive of *vi-√dhā* ('to ordain, dispose, direct') — literally 'to be directed, to be brought under arrangement', hence **governable, subject to control, manageable**. In the *Bhagavad-Gītā* it appears at 2.64 in the bahuvrīhi *vidheyātmā*, 'he whose self (the inner organ) is governable': the disciplined man who, moving among sense-objects with senses freed from rāga and dveṣa, keeps his mind under his own direction and so attains *prasāda* (serenity). Śaṅkara glosses *vidheya* as the self being *āyatta* — under one's command; it is the positive counterpart of the senses that 'violently carry away the mind' (2.60). *Vidheya* is not docility imposed from without but self-governance: the mind made answerable to one's own discriminating will.",
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "At 2.64 *vidheyātmā* names the man whose self/mind is governable — held under the direction of the discriminating will — by which, even while engaging objects, he reaches serenity (*prasāda*). The commentators read *vidheya* as *āyatta* / *vaśya*, 'under control'; Rāmānuja restates *vidheyātmā* as *vidheya-manāḥ*, 'whose mind is governable'.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.64 (ātma-vaśyaiḥ ... vidheyātmā prasādam adhigacchati)"
+      ],
+      "register_tag": "M+S; sādhaka"
+    }
+  ],
+  "see_also": [
+    "atman",
+    "manas",
+    "buddhi",
+    "indriya",
+    "prasada"
+  ],
+  "translator_note": "Render *vidheya* as 'governable' or 'under control / self-governed' — the gerundive force is 'to be directed'. Avoid 'biddable' or 'docile', which connote servility; *vidheyātmā* is self-mastery, the mind answerable to one's own discriminating will."
+}
