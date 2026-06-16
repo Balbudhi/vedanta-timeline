@@ -39,7 +39,7 @@ window.GITA_AUROBINDO = {
     {
       work: "Essays on the Gita",
       ref: "The Yoga of the Intelligent Will",
-      text: "It retains the pleasure of the sense in the object, the rasa, the liking and disliking … the soul must, on the contrary, be capable of enduring the physical contact without suffering inwardly this sensuous reaction. But how is this desireless contact with objects, this unsensuous use of the senses possible? It is possible, paraṁ dṛṣṭvā, by the vision of the supreme, — param, the Soul, the Purusha."
+      text: "It retains the pleasure of the sense in the object, the rasa, the liking and disliking … the soul must, on the contrary, be capable of enduring the physical contact without suffering inwardly this sensuous reaction. … But how is this desireless contact with objects, this unsensuous use of the senses possible? It is possible, paraṁ dṛṣṭvā, by the vision of the supreme, — param, the Soul, the Purusha."
     }
   ],
   "2.61": [

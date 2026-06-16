@@ -14416,8 +14416,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति।\nस्थित्वास्याम् अन्तकाले ऽपि ब्रह्मनिर्वाणम् ऋच्छति॥",
     "iast": "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati |\nsthitvāsyām antakāle 'pi brahmanirvāṇam ṛcchati ||",
-    "sense": "This is the brahman-state, Pārtha; having attained it one is not deluded; standing in it even at the hour of death, one reaches extinction in brahman.",
-    "english": "{0:This} is {1:the brahman-} {2:state}, {3:Pārtha}; {4:not} {6:having attained} {5:it} does one {7:fall into delusion}; {8:standing} {9:in it} {11:even} {10:at the hour of death}, one {13:reaches} {12:extinction in brahman}.",
+    "sense": "This is the brahman-state, Pārtha; having attained it one is not deluded; standing in it even at the hour of death, one reaches the blowing-out into brahman.",
+    "english": "{0:This} is {1:the brahman-} {2:state}, {3:Pārtha}; {4:not} {6:having attained} {5:it} does one {7:fall into delusion}; {8:standing} {9:in it} {11:even} {10:at the hour of death}, one {13:reaches} {12:the blowing-out into brahman}.",
     "words": [
       {
         "i": 0,
@@ -14675,7 +14675,7 @@ window.GITA_VERSES = [
         "i": 12,
         "deva": "ब्रह्मनिर्वाणम्",
         "iast": "brahmanirvāṇam",
-        "gloss": "extinction in brahman, the blowing-out that is brahman",
+        "gloss": "the blowing-out into brahman, the going-out that is brahman",
         "stem": "brahma-nirvāṇa",
         "root": null,
         "affix": "am (dvitīyā ekavacana)",
@@ -14698,7 +14698,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "nirvāṇa",
-            "gloss": "extinction, blowing-out"
+            "gloss": "blowing-out, going-out (as a lamp)"
           }
         ]
       },

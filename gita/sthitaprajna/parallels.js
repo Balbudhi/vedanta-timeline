@@ -2,10 +2,11 @@
    Bhagavad-Gītā 2.54–72 — "Across traditions" parallels.
    window.GITA_PARALLELS — keyed by verse locus.
 
-   These are NOT Gītā commentary. Each entry is a DIFFERENT text in
-   another tradition that describes the SAME state — the realized one
-   (sthitaprajña / jīvanmukta / vītarāga / arahant) — mapped to the
-   Gītā verse it most closely illuminates.
+   These are not Gītā commentary. Each entry is a separate text in
+   another tradition that describes the same state — the realized one
+   (sthitaprajña / jīvanmukta / vītarāga / arahant) — presented as a
+   thematic parallel, attributed, not derived from the Gītā, and mapped
+   to the Gītā verse it most closely illuminates.
 
    Every `sanskrit` field is verbatim from the cited source (Sanskrit,
    Pali, or Prakrit, in the source's own orthography). `ourRendering`
@@ -96,8 +97,8 @@ window.GITA_PARALLELS = {
       thinker: "Saṃyutta Nikāya",
       work: "Kummopama-sutta (SN 35.240)",
       locus: "verse",
-      sanskrit: "kummova aṅgāni sake kapāle, samodahaṃ bhikkhu manovitakke; anissito aññamaheṭhayāno, parinibbuto nūpavadeyya kañci.",
-      ourRendering: "As a tortoise its limbs within its own shell, let the monk gather in the mind's stirrings; unsupported, harming no other, fully quenched, let him reproach no one.",
+      sanskrit: "kummova aṅgāni sake kapāle, samodahaṃ bhikkhu manovitakke; anissito aññamaheṭhayāno, parinibbuto nūpavadeyya kañcī.",
+      ourRendering: "As a tortoise its limbs within its own shell, let the monk gather in the mind's stirrings; unsupported, harming no other, fully gone out, let him reproach no one.",
       source: "data/sources/pali/suttacentral/sn35.240_kummopamasutta_root-pli-ms.json (SN 35.240, closing verse)"
     },
     {
@@ -196,7 +197,7 @@ window.GITA_PARALLELS = {
 
   // 2.72 — "This is the state grounded in Brahman, Pārtha; reaching it one is
   //         not deluded. Standing in it even at the last hour, one attains
-  //         extinction in Brahman."
+  //         the going-out into Brahman (brahma-nirvāṇa)."
   "2.72": [
     {
       school: "Trika (Pratyabhijñā)",
