@@ -1013,20 +1013,77 @@ function renderDots() {
     });
   }
 
-  // For label collision, place above by default; collect bands of placed labels.
-  const placedAbove = [];
-  const placedBelow = [];
+  // Label de-collision (lanes view): names are anchored at the dot's x with
+  // nowrap text, so in dense periods (e.g. Advaita ~1850–1990) they pile onto
+  // the same pixels and become unreadable / unclickable. A binary above/below
+  // flip gives only two slots and is exhausted instantly.
+  //
+  // We instead place every label as a real box in canvas-absolute coordinates
+  // and fan each new one outward from its dot — slot 0 just above the dot,
+  // slot 1 just below, then progressively farther above/below — taking the
+  // first offset whose box overlaps no already-placed box in BOTH x and y.
+  // Working in absolute y (not slot index) is essential: dots in the same lane
+  // sit on different sub-rows, so two labels in nominally different "slots" can
+  // still collide if their dots' y differ — the earlier slot-index-only scheme
+  // missed exactly that and left Aurobindo / K.C. Bhattacharyya overlapping.
+  //
+  // Zooming in (larger pxPerYear) spreads the dot x's apart, so boxes stop
+  // overlapping and labels settle back toward slot 0 — i.e. zoom declutters
+  // the labels too. Process in x order so neighbours resolve consistently.
+  const LABEL_BASE = 11;     // px from dot to the near edge of a slot-0 label
+  const LABEL_TIER_DY = 30;  // extra px per outward slot
+  const LABEL_H = 28;        // label box height (name + italic dates line)
+  const GAP_X = 5;           // min horizontal breathing room between labels
+  const GAP_Y = 4;           // min vertical breathing room between labels
+  const MAX_LABEL_SLOTS = 12;
+  const placedBoxes = [];    // [{x1,x2,y1,y2}] in canvas-absolute px
+  const slotOf = new Map();  // thinker id → { where, dy }
+  const sortedLayout = [...state.layout.values()].sort((a, b) => a.x - b.x);
+  for (const p of sortedLayout) {
+    const t = p.thinker;
+    const nm = t.name || t.id;
+    const labelW = nm.length * 6 + 14;
+    const x1 = p.x - labelW / 2;
+    const x2 = p.x + labelW / 2;
+    const boxFor = (slot) => {
+      const where = slot % 2 === 0 ? "above" : "below";
+      const dy = LABEL_BASE + Math.floor(slot / 2) * LABEL_TIER_DY;
+      const y2 = where === "above" ? p.y - dy : p.y + dy + LABEL_H;
+      const y1 = y2 - LABEL_H;
+      return { where, dy, x1, x2, y1, y2 };
+    };
+    const overlaps = (b) => placedBoxes.some((q) =>
+      !(q.x2 < b.x1 - GAP_X || q.x1 > b.x2 + GAP_X ||
+        q.y2 < b.y1 - GAP_Y || q.y1 > b.y2 + GAP_Y));
+    let placed = null;
+    let bestBox = null;
+    let bestClearance = -Infinity;
+    for (let s = 0; s < MAX_LABEL_SLOTS; s++) {
+      const b = boxFor(s);
+      if (!overlaps(b)) { placed = b; break; }
+      // Track the least-bad fallback by max nearest-neighbour clearance.
+      let clr = Infinity;
+      for (const q of placedBoxes) {
+        const dx = Math.max(q.x1 - b.x2, b.x1 - q.x2, 0);
+        const dyv = Math.max(q.y1 - b.y2, b.y1 - q.y2, 0);
+        const d = Math.hypot(dx, dyv);
+        if (d < clr) clr = d;
+      }
+      if (clr > bestClearance) { bestClearance = clr; bestBox = b; }
+    }
+    if (!placed) placed = bestBox;
+    placedBoxes.push({ x1: placed.x1, x2: placed.x2, y1: placed.y1, y2: placed.y2 });
+    slotOf.set(t.id, { where: placed.where, dy: placed.dy });
+  }
+
   for (const [, p] of state.layout) {
     const t = p.thinker;
-    const labelW = (t.name || t.id).length * 6 + 14;
-    let where = "above";
-    const conflictsAbove = placedAbove.some((q) => Math.abs(q.y - p.y) < 24 && !(q.x2 < p.x - labelW/2 - 4 || q.x1 > p.x + labelW/2 + 4));
-    if (conflictsAbove) where = "below";
-    const arr = where === "above" ? placedAbove : placedBelow;
-    arr.push({ y: p.y, x1: p.x - labelW/2, x2: p.x + labelW/2 });
+    const slot = slotOf.get(t.id) || { where: "above", dy: LABEL_BASE };
+    const where = slot.where;
 
     const dot = document.createElement("div");
     dot.className = `thinker-dot thinker-dot--tier-${p.tier} label-${where}`;
+    dot.style.setProperty("--label-dy", slot.dy + "px");
     if (t.dates_tier === "oral-tradition-only") dot.classList.add("thinker-dot--oral");
     dot.dataset.id = t.id;
     dot.dataset.school = t.school_color_token;

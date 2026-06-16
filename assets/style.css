@@ -533,8 +533,35 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   outline: 2px solid var(--dot-color);
   outline-offset: 1px;
 }
-.thinker-dot.label-above .label { bottom: 10px; }
-.thinker-dot.label-below .label { top: 10px; }
+/* Vertical offset is driven by --label-dy, computed per-label by the
+   de-collision pass so dense lanes fan their names into a readable stack
+   instead of piling onto the same pixels. Falls back to the old 10px. */
+.thinker-dot.label-above .label { bottom: var(--label-dy, 10px); }
+.thinker-dot.label-below .label { top: var(--label-dy, 10px); }
+/* A faint connector tethers an offset label back to its dot so the reader
+   can tell which name belongs to which point. Hidden for slot-0 labels
+   (dy small) where the gap is negligible. */
+.thinker-dot .label::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 1px;
+  background: var(--dot-color);
+  opacity: 0.28;
+  pointer-events: none;
+}
+.thinker-dot.label-above .label::before { top: 100%; height: calc(var(--label-dy, 10px) - 4px); }
+.thinker-dot.label-below .label::before { bottom: 100%; height: calc(var(--label-dy, 10px) - 4px); }
+/* Hovering / focusing a label raises it above neighbours and gives it a
+   solid backdrop so its click always lands even when names overlap. */
+.thinker-dot:hover .label,
+.thinker-dot:focus-within .label,
+.thinker-dot.is-active .label { z-index: 8; }
+.thinker-dot:hover .name,
+.thinker-dot:focus-within .name {
+  background: var(--label-bg);
+  box-shadow: 0 0 0 2px var(--label-bg);
+}
 .thinker-dot .name {
   display: inline-block;
   font-family: var(--sans);
