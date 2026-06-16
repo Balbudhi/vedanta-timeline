@@ -1738,33 +1738,84 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     bottom: 0 !important;
     width: 100% !important;
     max-width: 100% !important;
-    border-radius: 14px 14px 0 0;
+    border-radius: 16px 16px 0 0;
     border: none;
     border-top: 1px solid var(--rule);
     box-shadow: 0 -8px 24px rgba(0,0,0,0.12);
-    padding: 22px 22px 32px;
-    max-height: 70vh;
+    padding: 8px 22px 32px;
+    max-height: 72vh;
     overflow-y: auto;
     font-size: 15px;
     line-height: 1.6;
     animation: gloss-slide-up 240ms cubic-bezier(.4,.0,.2,1);
+    /* Transition for the swipe minimize/expand spring-back. The transform
+       is cleared while dragging (JS sets transition:none) so the finger
+       leads, then this eases the snap on release. */
+    transition: transform 260ms cubic-bezier(.4,.0,.2,1),
+                max-height 260ms cubic-bezier(.4,.0,.2,1),
+                padding 200ms ease;
+    z-index: 280;
   }
-  /* Bottom-sheet drag-handle disabled: the in-popover search row now sits
-     at the top of the sheet and provides the visual anchor. */
+  /* The body scrolls; only the handle + search row are drag surfaces. */
+  .glossary-popover .gp-body { touch-action: pan-y; }
   .glossary-popover::before { content: none; }
   .glossary-popover .gp-close {
     font-size: 24px;
     width: 32px; height: 32px;
     display: flex; align-items: center; justify-content: center;
   }
-  /* Match mobile padding so the sticky search row's negative margin
-     bleeds correctly to the bottom-sheet edges. */
+
+  /* Drag handle — a tappable pill at the top of the sheet. Grabbable for the
+     swipe gesture; also the visual affordance that the sheet can be dragged. */
+  .glossary-popover .gp-handle {
+    display: block;
+    width: 100%;
+    padding: 8px 0 6px;
+    margin: 0 0 2px;
+    background: none; border: none;
+    cursor: grab;
+    touch-action: none;
+  }
+  .glossary-popover .gp-handle::before {
+    content: "";
+    display: block;
+    width: 40px; height: 5px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: var(--muted-soft);
+  }
+
   .glossary-popover .gp-search-row {
-    margin: -22px -22px 12px;
-    top: -22px;
+    margin: 0 -22px 12px;
+    top: 0;
+    touch-action: none;
   }
   .glossary-popover .gp-term { font-size: 22px; }
   .glossary-popover .gp-row { font-size: 14px; }
+
+  /* Minimized dock: collapse to a slim strip showing only the handle + the
+     search field ("Look up another term…") pinned at the bottom, so the
+     reading stays visible above it. Tap or swipe up to expand. */
+  .glossary-popover.gloss-dock.is-minimized {
+    max-height: 88px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    box-shadow: 0 -4px 16px rgba(0,0,0,0.10);
+  }
+  .glossary-popover.gloss-dock.is-minimized .gp-body {
+    max-height: 0;
+    overflow: hidden;
+    margin: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .glossary-popover.gloss-dock.is-minimized .gp-search-row {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+  .glossary-popover.gloss-dock.is-minimized .gp-handle {
+    cursor: pointer;
+  }
 }
 @keyframes gloss-slide-up {
   from { transform: translateY(100%); opacity: 0; }
@@ -2555,15 +2606,23 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   }
 }
 
-/* mobile: scrim behind glossary bottom sheet for tap-out-to-close */
+/* mobile: light dim behind the expanded glossary dock. The dock is a
+   non-blocking bottom sheet, so the dim is gentle (reading stays legible) and
+   disappears entirely when the dock is minimized (.is-hidden). */
 .gloss-scrim { display: none; }
 @media (max-width: 720px) {
   .gloss-scrim {
     display: block;
     position: fixed; inset: 0;
-    background: rgba(20,20,20,0.35);
+    background: rgba(20,20,20,0.18);
     z-index: 149;
-    animation: gloss-scrim-in 200ms ease;
+    opacity: 1;
+    transition: opacity 220ms ease;
+    animation: gloss-scrim-in 220ms ease;
+  }
+  .gloss-scrim.is-hidden {
+    opacity: 0;
+    pointer-events: none;
   }
 }
 @keyframes gloss-scrim-in {

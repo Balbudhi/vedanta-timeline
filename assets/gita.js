@@ -321,6 +321,29 @@ function wordOf(span) {
   const ws = SCOPES[sc.dataset.wscope]; if (!ws) return null;
   return ws.find(w => String(w.i) === String(span.dataset.wi));
 }
+// An English .we span maps to one or more Sanskrit word indices (data-wi).
+// Return the first underlying word that carries a glossaryKey, if any — so a
+// reader who taps a preserved IAST term (rāga, dharma, …) goes straight to its
+// glossary entry rather than getting a dangling word-card.
+function glossWordOfWe(we) {
+  const sc = scopeOf(we); if (!sc) return null;
+  const ws = SCOPES[sc.dataset.wscope]; if (!ws) return null;
+  const idxs = String(we.dataset.wi || "").split(/\s+/).filter(Boolean);
+  for (const i of idxs) {
+    const w = ws.find(x => String(x.i) === String(i));
+    if (w && w.glossaryKey) return w;
+  }
+  return null;
+}
+// Single entry point for opening the site glossary from the reader: dismiss the
+// word-card first so it can never sit on top of and block the glossary, then
+// delegate to the host popover (embedded) or our own (standalone, deprecated).
+function openTermGlossary(key, anchor) {
+  clearSticky();
+  hideCard();
+  if (HOST_GLOSSARY) HOST_GLOSSARY(key, anchor || ROOT);
+  else openGlossary(key, anchor);
+}
 function activate(span) {
   const sc = scopeOf(span); if (!sc) return;
   const i = span.dataset.wi;
@@ -369,10 +392,14 @@ function wireWords() {
     if (who) { e.stopPropagation(); if (HOST_THINKER) HOST_THINKER(who.dataset.thinker); return; }
     const w = e.target.closest(".w");
     if (w) { e.stopPropagation(); pinWord(w); return; }
-    // bidirectional: click an English phrase → highlight + card its Sanskrit word
+    // Click an English phrase. If it preserves a glossary term (an IAST word
+    // with a glossaryKey — rāga, dharma, …), open that entry directly. Otherwise
+    // fall back to bidirectional highlight + card on its Sanskrit word.
     const we = e.target.closest(".we");
     if (we) {
       e.stopPropagation();
+      const gw = glossWordOfWe(we);
+      if (gw) { openTermGlossary(gw.glossaryKey, we); return; }
       const sc = we.closest("[data-wscope]"); if (!sc) return;
       const firstI = we.dataset.wi.split(/\s+/)[0];
       const wspan = sc.querySelector(`.w[data-wi="${firstI}"]`);
@@ -420,15 +447,15 @@ function showCard(span, w) {
     gram.push(`<span class="wc-gram-main">${esc(plain)}</span>${cs ? ` <span class="wc-gram-sense">→ “${esc(cs)}”</span>` : ""}`); }
   if (w.compound) gram.push(`<span class="wc-gram-cmp">${esc(w.compound.type)}: <span lang="sa-Latn">${esc(w.compound.vigraha)}</span></span>`);
   if (gram.length) rows.push(`<div class="wc-gram">${gram.join("<br>")}</div>`);
-  if (w.glossaryKey) rows.push(`<button class="wc-gl" data-term="${esc(w.glossaryKey)}" type="button">${esc(w.iast)} in the glossary →</button>`);
+  if (w.glossaryKey) rows.push(`<button class="wc-gl" data-term="${esc(w.glossaryKey)}" type="button">Explain ‘<span lang="sa-Latn">${esc(w.iast)}</span>’ →</button>`);
   card.innerHTML = rows.join("");
   card.style.visibility = "hidden"; card.hidden = false; place(card, span); card.style.visibility = "visible";
   const gl = card.querySelector(".wc-gl");
   if (gl) gl.addEventListener("click", ev => {
     ev.stopPropagation();
-    // Embedded: use the site's real glossary popover. Standalone: our own.
-    if (HOST_GLOSSARY) HOST_GLOSSARY(gl.dataset.term, gl);
-    else openGlossary(gl.dataset.term, gl);
+    // openTermGlossary dismisses the word-card before the glossary opens, so the
+    // card never sits on top of / blocks the popover (worst on mobile).
+    openTermGlossary(gl.dataset.term, span);
   });
 }
 function hideCard() { if (cardEl) cardEl.hidden = true; }

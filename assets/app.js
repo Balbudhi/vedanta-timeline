@@ -2928,6 +2928,11 @@ function buildGlossaryRegex() {
   );
 }
 
+// Active mobile glossary dock (swipeable bottom dock). Held so a re-tap on a
+// new term updates it in place rather than tearing it down and rebuilding —
+// avoiding a close→reopen flicker. Null when no dock is open or on desktop.
+let activeGlossDock = null;
+
 // Open the glossary popover.
 //   • termKey   — surface form the user clicked. If null/undefined, the
 //                 popover opens with the search input focused and no term
@@ -2939,12 +2944,18 @@ function openGlossary(termKey, anchorEl) {
   // If a termKey was passed but is not in the glossary, abort silently
   // (matches the previous behaviour of "click-only" entry points).
   if (termKey != null && !state.glossary.get(termKey)) return;
+  const isMobile = window.matchMedia("(max-width: 720px)").matches;
+  // Mobile: if the bottom dock is already up, update it in place and expand —
+  // no full close→reopen, so tapping a new term while docked never flickers.
+  if (isMobile && activeGlossDock && document.body.contains(activeGlossDock.el)) {
+    activeGlossDock.show(termKey);
+    return;
+  }
   // Single-popover discipline: any other open popover (glossary, citation)
   // is dismissed before this one opens.
   popoverManager.closeAll();
   // Belt-and-braces cleanup in case a popover failed to register itself.
   document.querySelectorAll(".glossary-popover, .gloss-scrim").forEach((el) => el.remove());
-  const isMobile = window.matchMedia("(max-width: 720px)").matches;
   const pop = document.createElement("div");
   pop.className = "glossary-popover";
   const fallbackAnchor = anchorEl || document.getElementById("glossaryBtn");
@@ -3143,12 +3154,112 @@ function openGlossary(termKey, anchorEl) {
 
   let scrim = null;
   if (isMobile) {
+    // ---- Mobile: swipeable, minimizable bottom dock ----
+    // The sheet has three states: expanded (full content, light dim behind),
+    // minimized (a slim dock pinned at the bottom showing just the search row +
+    // current term name, no dim, reading visible above), and closed (gone).
+    // Gestures (pointer events, touch + mouse):
+    //   • swipe the handle/header DOWN from expanded  → minimize
+    //   • swipe DOWN again, or past a large threshold  → close
+    //   • swipe the handle/header UP, or TAP the dock  → expand
+    //   • the × button or Esc                          → close
+    pop.classList.add("gloss-dock");
+    const handle = document.createElement("button");
+    handle.className = "gp-handle";
+    handle.type = "button";
+    handle.setAttribute("aria-label", "Drag to minimize or expand the glossary");
+    pop.insertBefore(handle, pop.firstChild);
+
     scrim = document.createElement("div");
     scrim.className = "gloss-scrim";
     document.body.appendChild(scrim);
     document.body.appendChild(pop);
-    // mobile uses CSS-positioned fixed bottom-sheet (see style.css @media block)
     scrim.addEventListener("click", () => closeGloss());
+
+    let dockState = "expanded";          // "expanded" | "minimized"
+    function setDockState(next) {
+      dockState = next;
+      const min = next === "minimized";
+      pop.classList.toggle("is-minimized", min);
+      pop.setAttribute("aria-expanded", String(!min));
+      scrim.classList.toggle("is-hidden", min);
+      // Clear any in-flight drag transform so the CSS resting position wins.
+      pop.style.transform = "";
+      pop.style.transition = "";
+      if (!min) setTimeout(() => { try { inputEl.focus({ preventScroll: true }); } catch (_) {} }, 0);
+    }
+
+    // Tap the minimized dock (anywhere outside the search input / close button)
+    // to expand it again. Suppressed right after a drag so a minimize gesture's
+    // trailing click doesn't immediately re-expand.
+    pop.addEventListener("click", (e) => {
+      if (suppressClick) { suppressClick = false; return; }
+      if (dockState !== "minimized") return;
+      if (e.target.closest(".gp-search-input") || e.target.closest(".gp-close")) return;
+      setDockState("expanded");
+    });
+
+    // Pointer-drag gestures on the handle and the header (handle + search row).
+    // Dragging on the scrolling body is left alone so content can scroll.
+    const dragZone = [handle, pop.querySelector(".gp-search-row")];
+    let dragId = null, startY = 0, lastY = 0, dragging = false, suppressClick = false;
+    const MINIMIZE_THRESHOLD = 60;       // px down from expanded to minimize
+    const CLOSE_THRESHOLD = 110;         // px down from minimized to close
+    const EXPAND_THRESHOLD = 40;         // px up from minimized to expand
+
+    function onPointerDown(e) {
+      if (e.target.closest(".gp-search-input") || e.target.closest(".gp-close")) return;
+      dragId = e.pointerId; startY = lastY = e.clientY; dragging = true;
+      pop.style.transition = "none";
+      try { e.currentTarget.setPointerCapture(e.pointerId); } catch (_) {}
+    }
+    function onPointerMove(e) {
+      if (!dragging || e.pointerId !== dragId) return;
+      lastY = e.clientY;
+      const dy = lastY - startY;
+      if (dockState === "expanded") {
+        // Follow the finger when pulling down; resist pulling up past the top.
+        pop.style.transform = `translateY(${Math.max(0, dy)}px)`;
+      } else {
+        // Minimized: allow a small downward nudge (toward close) and upward
+        // movement is absorbed (expand happens on release).
+        pop.style.transform = `translateY(${Math.max(-4, Math.min(dy, CLOSE_THRESHOLD + 30))}px)`;
+      }
+      e.preventDefault();
+    }
+    function onPointerUp(e) {
+      if (!dragging || e.pointerId !== dragId) return;
+      dragging = false; dragId = null;
+      const dy = lastY - startY;
+      if (Math.abs(dy) > 6) suppressClick = true;   // it was a drag, not a tap
+      pop.style.transition = "";
+      pop.style.transform = "";
+      if (dockState === "expanded") {
+        if (dy > MINIMIZE_THRESHOLD) setDockState("minimized");
+      } else {
+        if (dy > CLOSE_THRESHOLD) closeGloss();
+        else if (dy < -EXPAND_THRESHOLD) setDockState("expanded");
+      }
+    }
+    dragZone.forEach((z) => {
+      if (!z) return;
+      z.addEventListener("pointerdown", onPointerDown);
+      z.addEventListener("pointermove", onPointerMove);
+      z.addEventListener("pointerup", onPointerUp);
+      z.addEventListener("pointercancel", onPointerUp);
+    });
+
+    // In-place update for re-taps while docked: swap content, expand smoothly.
+    function show(nextKey) {
+      if (nextKey != null && !state.glossary.get(nextKey)) return;
+      termKey = nextKey;
+      inputEl.value = "";
+      if (nextKey) renderTermView(nextKey); else renderEmptyView();
+      pop.scrollTop = 0;
+      setDockState("expanded");
+    }
+    activeGlossDock = { el: pop, show };
+    setDockState("expanded");
   } else {
     document.body.appendChild(pop);
     pop.style.position = "fixed";
@@ -3170,6 +3281,7 @@ function openGlossary(termKey, anchorEl) {
   function closeGloss() {
     pop.remove();
     if (scrim) scrim.remove();
+    if (activeGlossDock && activeGlossDock.el === pop) activeGlossDock = null;
     document.removeEventListener("click", outsideClose);
     document.removeEventListener("keydown", escClose);
     popoverManager.notifyClosed(closeGloss);
@@ -3177,6 +3289,10 @@ function openGlossary(termKey, anchorEl) {
   function outsideClose(e) {
     if (pop.contains(e.target)) return;
     if (e.target === anchorEl || e.target === scrim) return;
+    // On mobile the dock is non-blocking: an outside tap (e.g. on the reading)
+    // must NOT close it — the user reads above the dock. Only the ×, Esc, or a
+    // swipe-down-to-close gesture dismisses it.
+    if (isMobile) return;
     // Don't auto-close when the user clicks the Glossary topbar button —
     // that button is the open/close affordance for the summon path.
     if (e.target.closest && e.target.closest("#glossaryBtn")) return;
