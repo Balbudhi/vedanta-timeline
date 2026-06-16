@@ -6,9 +6,13 @@
   "dates_high": 1975,
   "school": "Pūrṇa-Advaita",
   "school_color_token": "purna-advaita",
-  "sub_school": "Integralism (Pūrṇa-Advaita lineage)",
-  "lineage_in": ["aurobindo"],
-  "lineage_out": ["banerji"],
+  "sub_school": "Integralism",
+  "lineage_in": [
+    "aurobindo"
+  ],
+  "lineage_out": [
+    "banerji"
+  ],
   "summary": "Haridas Chaudhuri is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",
   "engaged_works": [
     {
