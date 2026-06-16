@@ -15,7 +15,7 @@ window.GITA_VERSES = [
     "devanagari": "स्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव।\nस्थितधीः किं प्रभाषते किम् आसीत व्रजेत किम्॥",
     "iast": "sthitaprajñasya kā bhāṣā samādhisthasya keśava |\nsthitadhīḥ kiṃ prabhāṣate kim āsīta vrajeta kim ||",
     "sense": "Arjuna asks: the man of settled wisdom, absorbed in samādhi — how does he speak, how does he sit, how does he move? What outwardly marks him?",
-    "english": "{0:Of one whose wisdom stands firm}, {3:settled in samādhi} — {1:what} is {2:the speech}, {4:Keśava}? {6:How} does {5:the steady-minded one} {7:speak}? {8:How} does he {9:sit}? {11:How} does he {10:move}?",
+    "english": "{0:Of one whose prajñā stands firm}, {3:settled in samādhi} — {1:what} is {2:the speech}, {4:Keśava}? {6:How} does {5:the steady-minded one} {7:speak}? {8:How} does he {9:sit}? {11:How} does he {10:move}?",
     "words": [
       {
         "i": 0,
@@ -571,7 +571,7 @@ window.GITA_VERSES = [
     "devanagari": "प्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान्।\nआत्मन्य् एवात्मना तुष्टः स्थितप्रज्ञस् तदोच्यते॥",
     "iast": "prajahāti yadā kāmān sarvān pārtha manogatān |\nātmany evātmanā tuṣṭaḥ sthitaprajñas tadocyate ||",
     "sense": "Kṛṣṇa answers: when a man casts off every kāma (desire as craving) that rises in the manas (the mind as the seat of thought and intention), and is content in the self by the self alone, then he is called a man of settled wisdom.",
-    "english": "{1:When} he {0:utterly casts off} {3:all} {2:the kāmas} {5:that arise in the manas}, {4:Pārtha}, {7:content} {6:in the self} {8:by the self} {9:alone} — {11:then} {12:he is called} {10:one of settled wisdom}.",
+    "english": "{1:When} he {0:utterly casts off} {3:all} {2:the kāmas} {5:that arise in the manas}, {4:Pārtha}, {7:content} {6:in the self} {8:by the self} {9:alone} — {11:then} {12:he is called} {10:one of settled prajñā}.",
     "words": [
       {
         "i": 0,
@@ -1188,7 +1188,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{0:In the self} {1:alone}, {2:by the self} — that is, {3:by the manas} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {11:the kāmas} {10:that arise in the manas} {8:other than that self}, {15:then} {16:this one} {18:is} {19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in jñāna}.",
+        "english": "{0:In the self} {1:alone}, {2:by the self} — that is, {3:by the manas} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {11:the kāmas} {10:that arise in the manas} {8:other than that self}, {15:then} {16:this one} {18:is} {19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in knowledge}.",
         "segments": [
           {
             "from": 0,
@@ -2006,7 +2006,7 @@ window.GITA_VERSES = [
     "devanagari": "यः सर्वत्रानभिस्नेहस् तत् तत् प्राप्य शुभाशुभम्।\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham |\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā ||",
     "sense": "He who is without saṅga (clinging attachment that binds) toward anything anywhere, and on meeting this or that good or evil neither rejoices nor feels dveṣa (the recoil of aversion) — his prajñā (clear discriminative insight into reality) is firmly established.",
-    "english": "{0:He who} {2:is without affection} {1:everywhere}, {4:on meeting} {3:this and that} {5:good and evil}, {6:neither} {7:rejoices} {8:nor} {9:feels dveṣa} — {10:his} {11:prajñā} {12:is firmly established}.",
+    "english": "{0:He who} {2:is without affection} {1:everywhere}, {4:on meeting} {3:this and that}, {5:good and evil}, {6:neither} {7:rejoices} {8:nor} {9:feels dveṣa} — {10:his} {11:prajñā} {12:is firmly established}.",
     "words": [
       {
         "i": 0,
@@ -3171,7 +3171,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{0:When} {1:the indriyas} {3:to touch} {2:the objects of sense} {4:are poised}, {5:then} {6:and there} — {9:like} {7:a tortoise} {8:its limbs} — {12:having drawn} {1:them} {11:entirely} {12:in} {10:from the objects of sense}, he {15:settles} {13:the manas} {14:in the self}: {16:he} {17:too} is {18:a man of steady wisdom}. {19:Thus} {21:steadfastness in jñāna} is {20:of four kinds}, {22:each earlier one} {23:to be accomplished by the one that follows}.",
+        "english": "{0:When} {1:the indriyas} {3:to touch} {2:the objects of sense} {4:are poised}, {5:then} {6:and there} — {9:like} {7:a tortoise} {8:its limbs} — {12:having drawn} {1:them} {11:entirely} {12:in} {10:from the objects of sense}, he {15:settles} {13:the manas} {14:in the self}: {16:he} {17:too} is {18:a man of steady wisdom}. {19:Thus} {21:steadfastness in knowledge} is {20:of four kinds}, {22:each earlier one} {23:to be accomplished by the one that follows}.",
         "segments": [
           {
             "from": 0,
@@ -4501,7 +4501,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:Without} {0:the vision of the self}, {2:saṅga toward objects} {3:does not} {4:cease}; and {5:when} {6:saṅga toward objects} {5:has not ceased}, {11:the indriyas} {9:even} {10:of a man} {7:who is discerning} {8:and striving} are {12:turbulent} and {13:powerful}, and {15:forcibly} {16:carry away} {14:his manas}. {17:Thus} {18:mastery of the indriyas} {19:depends on the vision of the self}, and {20:the vision of the self} {21:depends on mastery of the indriyas} — {22:so} {23:steadfastness in jñāna} {24:is hard to attain}.",
+        "english": "{1:Without} {0:the vision of the self}, {2:saṅga toward objects} {3:does not} {4:cease}; and {5:when} {6:saṅga toward objects} {5:has not ceased}, {11:the indriyas} {9:even} {10:of a man} {7:who is discerning} {8:and striving} are {12:turbulent} and {13:powerful}, and {15:forcibly} {16:carry away} {14:his manas}. {17:Thus} {18:mastery of the indriyas} {19:depends on the vision of the self}, and {20:the vision of the self} {21:depends on mastery of the indriyas} — {22:so} {23:steadfastness in knowledge} {24:is hard to attain}.",
         "segments": [
           {
             "from": 0,
@@ -14425,7 +14425,7 @@ window.GITA_VERSES = [
     "devanagari": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति।\nस्थित्वास्याम् अन्तकाले ऽपि ब्रह्मनिर्वाणम् ऋच्छति॥",
     "iast": "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati |\nsthitvāsyām antakāle 'pi brahmanirvāṇam ṛcchati ||",
     "sense": "This is the brahman-state, Pārtha; having attained it one does not fall into delusion; standing in it even at the hour of death, one is extinguished into Brahman.",
-    "english": "{0:This} is {1:the brahman-} {2:state}, {3:Pārtha}; {4:not} {6:having attained} {5:it} does one {7:fall into delusion}; {8:standing} {9:in it} {11:even} {10:at the hour of death}, one {12,13:is extinguished into Brahman}.",
+    "english": "{0:This} is {1:the Brahman} {2:state}, {3:Pārtha}; {4:not} {6:having attained} {5:it} does one {7:fall into delusion}; {8:standing} {9:in it} {11:even} {10:at the hour of death}, one {12,13:is extinguished into Brahman}.",
     "words": [
       {
         "i": 0,
