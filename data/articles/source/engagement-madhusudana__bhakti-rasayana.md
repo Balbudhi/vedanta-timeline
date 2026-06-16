@@ -32,7 +32,7 @@ Cross-engagement: Adi Sankara lands on `adhyasa-or-superimposition` for the fini
 
 The third *ullāsa* begins with four explicit questions: what rasa is, where it resides, what manifests it, and what sort of cognition its apprehension is (6423-6441). It first gives the classical answer that *sthāyibhāva* manifested through *vibhāva*, *anubhāva*, and *vyabhicāribhāva* is rasa (6428-6449), then deepens it by way of *dhvani* theory and verbal manifestation (6609-6740). Its strongest doctrinal move comes near the close: rasa is the manifestation of self-luminous bliss itself, and this can be defended not only by rasa-theory but also by Mīmāṃsā debates on verbal cognition and by Vedāntic claims about *parānanda* (6739-6780). The final conclusion is that words, whether taken as independent or context-bound, manifest *parānanda* in accordance with the relevant auxiliaries (6869-6878). Polemically, this *ullāsa* turns outward most explicitly toward the *tārkika*, the rasa-theorist, and the Mīmāṃsaka.
 
-Cross-engagement: on the epistemic authority axis Ayon Maharaj reads `comparative-theological-reading` ([primary text](cite://maharaj/infinite-paths-to-infinite-reality/1)); the present section reads `scripture-dominant`.
+Cross-engagement: on the epistemic authority axis Ayon Maharaj reads `comparative-theological-reading` ([primary text](cite://medhananda/infinite-paths-to-infinite-reality/1)); the present section reads `scripture-dominant`.
 
 ## 4. Load-bearing passages — engaged at depth
 

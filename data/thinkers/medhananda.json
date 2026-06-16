@@ -1,39 +1,133 @@
 {
   "id": "medhananda",
   "name": "Swami Medhananda",
-  "name_iast": "Swami Medhananda",
-  "school": "Comparative Philosophy",
-  "school_color_token": "cross-tradition",
-  "entry_status": "stub-from-article-phase2",
-  "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/medhananda.md`.",
+  "name_iast": "Svāmī Medhānanda",
+  "alternate_names": [
+    "Ayon Maharaj (academic name, used until c. 2020)"
+  ],
+  "dates_low": 1970,
+  "dates_high": 2050,
+  "dates_tier": "contested",
+  "dates_notes": "Living scholar; the high date is the site's living-thinker placeholder, not a death year. Published as 'Ayon Maharaj' until c. 2020, then as 'Swami Medhananda' after taking sannyāsa in the Ramakrishna Order. Senior Research Fellow at the Ramakrishna Mission Vivekananda Educational and Research Institute (RKMVERI), Belur Math. Birth year approximate.",
+  "school": "Modern Vedanta",
+  "school_color_token": "advaita",
+  "sub_school": "Ramakrishna-Vivekananda Vedānta (academic philosophy of religion)",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "ramakrishna",
+    "vivekananda"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Swami Medhananda — who published as Ayon Maharaj until taking sannyāsa in the Ramakrishna Order around 2020, and is a Senior Research Fellow at RKMVERI, Belur Math — reconstructs the philosophies of Sri Ramakrishna and Swami Vivekananda as rigorous positions in cross-cultural philosophy of religion. In *Infinite Paths to Infinite Reality* (Oxford, 2018) he reads Ramakrishna's *vijñāna* — the post-*nirvikalpa* \"intimate knowledge\" that Brahman has *become* the universe — as a structured manifestationist metaphysics on which the Infinite is irreducibly both personal and impersonal, with form and without, so that religious diversity answers to real manifestations rather than projections of an unknowable noumenon ([ch. 1](cite://medhananda/infinite-paths-to-infinite-reality/1); the honey / taste-of-honey passage of *Kathāmṛta* 288 glossed at [pp. 80–81](cite://medhananda/infinite-paths-to-infinite-reality/80)). In *Swami Vivekananda's Vedāntic Cosmopolitanism* (Oxford, 2022) he reconstructs Vivekananda's mature \"Integral Advaita\" as the systematic extension of that *vijñāna* into ethics, the epistemology of mystical experience, and religious pluralism ([ch. 1](cite://medhananda/vedantic-cosmopolitanism/1)).",
+  "engaged_works": [
+    {
+      "work_id": "infinite-paths-to-infinite-reality",
+      "title": "Infinite Paths to Infinite Reality",
+      "title_iast": "Infinite Paths to Infinite Reality: Sri Ramakrishna and Cross-Cultural Philosophy of Religion",
+      "alternate_titles": [],
+      "composition_dates_low": 2018,
+      "composition_dates_high": 2018,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Single-author monograph, Oxford University Press, 2018, published under the name Ayon Maharaj.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Oxford University Press publication record (2018)."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A philosophical reconstruction of Sri Ramakrishna as a systematic thinker in cross-cultural philosophy of religion. The book reads Ramakrishna's *vijñāna* — the post-*nirvikalpa-samādhi* recognition that the Brahman realized by *neti, neti* is then found to have *become* the universe — as a structured metaphysics rather than a devotional mood, and develops from it a \"manifestationist\" account of religious diversity offered as an alternative to John Hick's pluralistic hypothesis: divergent paths disclose real, distinct aspects of one Infinite Reality that is both personal and impersonal, with form and without. The argument is built on the Bengali *Kathāmṛta* (the *Gospel of Sri Ramakrishna*) read at source — e.g. the roof-and-stairs analogy and the honey / taste-of-honey passage (*Kathāmṛta* 288), glossed at pp. 80–81 — and engages Western philosophy of religion (Hick, Marion) on its own terms. A later chapter treats Ramakrishna's response to evil as a multi-track theodicy.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
+      "work_id": "vedantic-cosmopolitanism",
+      "title": "Swami Vivekananda's Vedantic Cosmopolitanism",
+      "title_iast": "Swami Vivekananda's Vedāntic Cosmopolitanism",
+      "alternate_titles": [],
+      "composition_dates_low": 2022,
+      "composition_dates_high": 2022,
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Single-author monograph, Oxford University Press, 2022, published under the monastic name Swami Medhananda.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Oxford University Press publication record (2022)."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "english",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A chapter-by-chapter reconstruction of Swami Vivekananda's mature philosophy as a coherent position the book names \"Integral Advaita\" (or cosmopolitan Vedānta), arguing that it is the systematic-philosophical extension of Ramakrishna's *vijñāna*. Working from Vivekananda's *Complete Works* (lectures and letters) read closely, it presents his positions at the level of metaphysics, ethics, the epistemology of mystical experience, religious pluralism, and philosophy of mind (including a panentheist-leaning reading), against the older receptions of Vivekananda as either a nationalist ideologue or a popularizing dilution of Śaṅkarite Advaita. The book situates these positions in dialogue with modern analytic philosophy of religion.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "reviewed",
+  "entry_owner_agent": "secondary-source-cleanup-opus",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "secondary-source-cleanup-opus",
   "primitive_commitments": [
     {
       "primitive": "epistemic_authority",
       "value": "comparative-theological-reading",
       "register": "epistemological",
-      "citation_locus": "Swami Vivekananda's Vedantic Cosmopolitanism, Introduction",
-      "confidence": "high"
+      "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "manifestation_status",
+      "value": "expressive-manifestation",
+      "register": "metaphysical",
+      "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
+      "confidence": "medium"
     },
     {
       "primitive": "method_of_critique",
       "value": "comparative-reading",
       "register": "methodological",
-      "citation_locus": "Swami Vivekananda's Vedantic Cosmopolitanism, ch. 1",
-      "confidence": "high"
+      "citation_locus": "cite://medhananda/vedantic-cosmopolitanism/1",
+      "confidence": "medium"
     },
     {
       "primitive": "modal_structure_of_truth",
       "value": "context-indexed-without-final-hierarchy",
       "register": "epistemological",
-      "citation_locus": "Swami Vivekananda's Vedantic Cosmopolitanism, chs. 4-5",
+      "citation_locus": "cite://medhananda/vedantic-cosmopolitanism/4",
       "confidence": "medium"
     },
     {
       "primitive": "relation_to_perspectivism",
       "value": "irreducible-true-perspectives",
       "register": "epistemological",
-      "citation_locus": "Swami Vivekananda's Vedantic Cosmopolitanism, chs. 4-5",
+      "citation_locus": "cite://medhananda/vedantic-cosmopolitanism/4",
       "confidence": "medium"
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
+      "confidence": "low"
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
+      "confidence": "low"
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
+      "confidence": "low"
     }
   ],
   "cross_engagements": [
@@ -42,7 +136,7 @@
       "primitive": "epistemic_authority",
       "agreement_type": "genuine-disagreement",
       "register": "epistemological",
-      "brief": "Abhinavagupta presses the same epistemic authority axis in the epistemological register, but with the value `scripture-plus-transformative-experience` rather than `comparative-theological-reading`.",
+      "brief": "Abhinavagupta presses the same epistemic-authority axis in the epistemological register, but with the value `scripture-plus-transformative-experience` rather than `comparative-theological-reading`.",
       "citations": [
         "cite://abhinavagupta/tantraloka/1.16"
       ]
@@ -52,7 +146,7 @@
       "primitive": "method_of_critique",
       "agreement_type": "genuine-disagreement",
       "register": "methodological",
-      "brief": "Akshapada Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `comparative-reading`.",
+      "brief": "Akṣapāda Gautama presses the same method axis in the methodological register, but with the value `formal-proof-or-inference` rather than `comparative-reading`.",
       "citations": [
         "cite://aksapada/nyaya-sutra/1.1.1"
       ]
@@ -62,7 +156,7 @@
       "primitive": "modal_structure_of_truth",
       "agreement_type": "genuine-disagreement",
       "register": "epistemological",
-      "brief": "Adi Sankara presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `context-indexed-without-final-hierarchy`.",
+      "brief": "Ādi Śaṅkara presses the same truth-structure axis in the epistemological register, but with the value `hierarchical-standpoint-truth` rather than `context-indexed-without-final-hierarchy`.",
       "citations": [
         "cite://sankara/brahma-sutra-bhasya/1.1.1"
       ]
@@ -72,7 +166,7 @@
       "primitive": "relation_to_perspectivism",
       "agreement_type": "genuine-disagreement",
       "register": "epistemological",
-      "brief": "Baladeva Vidyabhushana presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `irreducible-true-perspectives`.",
+      "brief": "Baladeva Vidyābhūṣaṇa presses the same perspectivism axis in the epistemological register, but with the value `partial-perspectives-ranked` rather than `irreducible-true-perspectives`.",
       "citations": [
         "cite://badarayana/brahma-sutra/1.1.1"
       ]

@@ -52,7 +52,7 @@ Cross-engagement: Adi Sankara lands on `adhyasa-or-superimposition` for the fini
 
 **Locus:** Digest 2, opening extracted witness, lines 194-232.
 
-Cross-engagement: on the epistemic authority axis Ayon Maharaj reads `comparative-theological-reading` ([primary text](cite://maharaj/infinite-paths-to-infinite-reality/1)); the present section reads `scripture-dominant`.
+Cross-engagement: on the epistemic authority axis Ayon Maharaj reads `comparative-theological-reading` ([primary text](cite://medhananda/infinite-paths-to-infinite-reality/1)); the present section reads `scripture-dominant`.
 
 **Sanskrit (IAST):** `tatra tāvan muni-śreṣṭhāḥ śravaṇaṃ nāma kevalam | upakramādibhir liṅgaiḥ śakti-tātparya-nirṇayaḥ ||`
 

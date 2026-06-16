@@ -5564,43 +5564,43 @@
         "confidence": "medium"
       },
       {
-        "thinker": "maharaj",
+        "thinker": "medhananda",
         "primitive": "epistemic_authority",
         "value": "comparative-theological-reading",
         "register": "epistemological",
-        "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+        "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
         "confidence": "low"
       },
       {
-        "thinker": "maharaj",
+        "thinker": "medhananda",
         "primitive": "manifestation_status",
         "value": "expressive-manifestation",
         "register": "metaphysical",
-        "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+        "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
         "confidence": "low"
       },
       {
-        "thinker": "maharaj",
+        "thinker": "medhananda",
         "primitive": "practice_path",
         "value": "knowledge-discipline",
         "register": "soteriological",
-        "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+        "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
         "confidence": "low"
       },
       {
-        "thinker": "maharaj",
+        "thinker": "medhananda",
         "primitive": "soteric_end",
         "value": "identity-with-ground",
         "register": "soteriological",
-        "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+        "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
         "confidence": "low"
       },
       {
-        "thinker": "maharaj",
+        "thinker": "medhananda",
         "primitive": "substrate_structure",
         "value": "one-self-standing",
         "register": "metaphysical",
-        "citation_locus": "cite://maharaj/infinite-paths-to-infinite-reality/1",
+        "citation_locus": "cite://medhananda/infinite-paths-to-infinite-reality/1",
         "confidence": "low"
       },
       {
@@ -12090,13 +12090,13 @@
       },
       {
         "thinker": "madhusudana",
-        "counter_thinker": "maharaj",
+        "counter_thinker": "medhananda",
         "primitive": "epistemic_authority",
         "agreement_type": "genuine-disagreement",
         "register": "epistemological",
         "brief": "Ayon Maharaj presses the same epistemic authority axis in the epistemological register, but with the value `comparative-theological-reading` rather than `scripture-dominant`.",
         "citations": [
-          "cite://maharaj/infinite-paths-to-infinite-reality/1"
+          "cite://medhananda/infinite-paths-to-infinite-reality/1"
         ]
       },
       {
@@ -12850,13 +12850,13 @@
       },
       {
         "thinker": "sankara",
-        "counter_thinker": "maharaj",
+        "counter_thinker": "medhananda",
         "primitive": "epistemic_authority",
         "agreement_type": "genuine-disagreement",
         "register": "epistemological",
         "brief": "Ayon Maharaj presses the same epistemic authority axis in the epistemological register, but with the value `comparative-theological-reading` rather than `scripture-dominant`.",
         "citations": [
-          "cite://maharaj/infinite-paths-to-infinite-reality/1"
+          "cite://medhananda/infinite-paths-to-infinite-reality/1"
         ]
       },
       {
@@ -13202,13 +13202,13 @@
       },
       {
         "thinker": "vidyaranya",
-        "counter_thinker": "maharaj",
+        "counter_thinker": "medhananda",
         "primitive": "epistemic_authority",
         "agreement_type": "genuine-disagreement",
         "register": "epistemological",
         "brief": "Ayon Maharaj presses the same epistemic authority axis in the epistemological register, but with the value `comparative-theological-reading` rather than `scripture-dominant`.",
         "citations": [
-          "cite://maharaj/infinite-paths-to-infinite-reality/1"
+          "cite://medhananda/infinite-paths-to-infinite-reality/1"
         ]
       },
       {

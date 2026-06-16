@@ -57,7 +57,7 @@ Range:
 ### P4. `causation_substrate_to_world`
 *What kind of causal relation holds between Brahman and the world?*
 
-Cross-engagement: on the epistemic authority axis Ayon Maharaj reads `comparative-theological-reading` ([primary text](cite://maharaj/infinite-paths-to-infinite-reality/1)); the present section reads `scripture-dominant`.
+Cross-engagement: on the epistemic authority axis Ayon Maharaj reads `comparative-theological-reading` ([primary text](cite://medhananda/infinite-paths-to-infinite-reality/1)); the present section reads `scripture-dominant`.
 
 Range:
 - `vivarta` — apparent transformation; substrate is unchanged, world is its appearance. (Classical Advaita post-Maṇḍana; Sureśvara, Vivaraṇa.)
