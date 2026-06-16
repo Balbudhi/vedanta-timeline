@@ -105,3 +105,34 @@ every technical term in the text and its commentaries is covered.
 5. Ensure glossary coverage (§4).
 
 Deviations from this standard should be deliberate and noted.
+
+## 6. Pāṇinian formalism (strict)
+
+Every word breakdown must follow Pāṇini and traditional vyākaraṇa to the letter.
+The English may read smoothly, but the grammatical fields must be formally exact.
+
+- **Root (`root`)** — cite the verbal root in its dhātupāṭha form with its **gaṇa**
+  (class) and pada: e.g. `√bhū (bhvādi, 1P)`, `√vā (adādi, 2P, 'to blow')`,
+  `√hu (juhotyādi, 3P)`, `√as (adādi, 2P)`. Not a loose romanized stem.
+- **Affix (`affix`)** — name the **pratyaya**, not just the case. Nominal endings
+  are the **sup** series (su, au, jas; am, auṭ, śas; ṭā, bhyām, bhis; ṅe…; ṅasi…;
+  ṅas…; ṅi, os, sup) given with their **vibhakti** (prathamā … saptamī) and
+  **vacana** (eka/dvi/bahu). Finite verbs take **tiṅ** endings (tip, tas, jhi…).
+  Primary derivatives carry their **kṛt** affix (kta, ktavatu, ktvā, lyap, tumun,
+  śatṛ, śānac, tavya, anīyar, ṇvul, tṛc…); secondary derivatives their
+  **taddhita**. Give the Pāṇinian name plus a plain-English label.
+- **Morphology (`morph`)** — state vibhakti + vacana + liṅga (or tense/mood +
+  person + number for verbs) in traditional terms with an English gloss.
+- **Sandhi** — when a surface form is a euphonic product, note it (and, where
+  useful, the operative rule), so the split in `parts[]` is honest.
+- **Compound (`compound`)** — classify strictly: tatpuruṣa (incl. its sub-types),
+  karmadhāraya, dvigu, bahuvrīhi, dvandva, avyayībhāva — with a correct
+  **vigraha** and the member list.
+- **Kāraka (`karaka`)** — assign per Pāṇini's kāraka-sūtras: kartṛ, karman,
+  karaṇa, sampradāna, apādāna, adhikaraṇa — matched to the actual case and
+  governing verb, not guessed from English.
+- **`parts[]`** — the morpheme split must be real and complete (prefix(es) +
+  root + affix(es); stem + ending), each piece with an accurate gloss; no piece
+  conflated or mislabeled. Even particles get a clear, complete, concise gloss.
+- **No fabrication** — if a root/affix is genuinely uncertain, give the best
+  standard analysis and flag it; never invent a dhātu or pratyaya.
