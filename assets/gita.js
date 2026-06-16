@@ -257,6 +257,8 @@ let HOST_GLOSSARY = null;   // when embedded, the app's real glossary popover
 let HOST_THINKER = null;    // when embedded, opens a thinker in the Thinker tab
 let HOST_LINKIFY = null;    // when embedded, wraps glossary terms in the free
                             // (non-slotted) English text as clickable .term spans
+let HOST_RESOLVE = null;    // when embedded, maps a part form / glossaryKey to
+                            // { key, iast } so word cards link to the right sub-terms
 const VOICE_KEY = "gita-voices";
 let active = new Set();
 
@@ -294,6 +296,7 @@ function render(root, opts) {
   HOST_GLOSSARY = typeof opts.onGlossary === "function" ? opts.onGlossary : null;
   HOST_THINKER = typeof opts.onThinker === "function" ? opts.onThinker : null;
   HOST_LINKIFY = typeof opts.linkifyGlossary === "function" ? opts.linkifyGlossary : null;
+  HOST_RESOLVE = typeof opts.glossaryResolve === "function" ? opts.glossaryResolve : null;
   VERSES = window.GITA_VERSES || [];
 
   AUDIO_SEG = Object.create(null);
@@ -443,16 +446,28 @@ function showCard(span, w) {
     gram.push(`<span class="wc-gram-main">${esc(plain)}</span>${cs ? ` <span class="wc-gram-sense">→ “${esc(cs)}”</span>` : ""}`); }
   if (w.compound) gram.push(`<span class="wc-gram-cmp">${esc(w.compound.type)}: <span lang="sa-Latn">${esc(w.compound.vigraha)}</span></span>`);
   if (gram.length) rows.push(`<div class="wc-gram">${gram.join("<br>")}</div>`);
-  if (w.glossaryKey) rows.push(`<button class="wc-gl" data-term="${esc(w.glossaryKey)}" type="button">Explain ‘<span lang="sa-Latn">${esc(w.iast)}</span>’ →</button>`);
+  // "Explain …" links. A compound is glossed by its parts, so link to each
+  // sub-term that has a glossary entry (labelled by the sub-term it opens, not by
+  // the whole inflected word). Single, self-contained terms link to themselves.
+  if (HOST_RESOLVE) {
+    const seen = new Set(), targets = [];
+    const add = (r) => { if (r && r.key && !seen.has(r.key)) { seen.add(r.key); targets.push(r); } };
+    (w.parts || []).forEach(p => add(HOST_RESOLVE(p.form)));
+    if (w.glossaryKey) add(HOST_RESOLVE(w.glossaryKey));
+    if (targets.length) rows.push(`<div class="wc-gls">${targets.map(t =>
+      `<button class="wc-gl" data-term="${esc(t.key)}" type="button">Explain ‘<span lang="sa-Latn">${esc(t.iast)}</span>’ →</button>`).join("")}</div>`);
+    else if (w.glossaryKey) rows.push(`<button class="wc-gl" data-term="${esc(w.glossaryKey)}" type="button">Explain ‘<span lang="sa-Latn">${esc(w.iast)}</span>’ →</button>`);
+  } else if (w.glossaryKey) {
+    rows.push(`<button class="wc-gl" data-term="${esc(w.glossaryKey)}" type="button">Explain ‘<span lang="sa-Latn">${esc(w.iast)}</span>’ →</button>`);
+  }
   card.innerHTML = rows.join("");
   card.style.visibility = "hidden"; card.hidden = false; place(card, span); card.style.visibility = "visible";
-  const gl = card.querySelector(".wc-gl");
-  if (gl) gl.addEventListener("click", ev => {
+  card.querySelectorAll(".wc-gl").forEach(gl => gl.addEventListener("click", ev => {
     ev.stopPropagation();
     // openTermGlossary dismisses the word-card before the glossary opens, so the
     // card never sits on top of / blocks the popover (worst on mobile).
     openTermGlossary(gl.dataset.term, span);
-  });
+  }));
 }
 function hideCard() { if (cardEl) cardEl.hidden = true; }
 

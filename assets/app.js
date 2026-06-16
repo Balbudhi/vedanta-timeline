@@ -4740,6 +4740,15 @@ function linkifyGlossaryText(s) {
   return out;
 }
 
+// Resolve a word-part form (e.g. "vidheya", "ātman") or a glossaryKey to the
+// glossary entry it belongs to, for the reader's word-card "Explain …" buttons.
+// Returns { key, iast } (the canonical term to link + its display form) or null.
+function gitaGlossaryResolve(form) {
+  if (!form) return null;
+  const e = state.glossary.get(form) || state.glossary.get(String(form).normalize("NFC"));
+  return e ? { key: e.term_key, iast: e.term_iast || e.term_key } : null;
+}
+
 // Render the interactive Gītā reading into the Article pane.
 async function openGitaReading() {
   const base = "gita/sthitaprajna/";
@@ -4769,6 +4778,7 @@ async function openGitaReading() {
       onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),  // the site's real glossary popover
       onThinker: (id) => openThinker(id),                        // jump to the Thinker tab
       linkifyGlossary: linkifyGlossaryText,                      // tappable Sanskrit in free English text
+      glossaryResolve: gitaGlossaryResolve,                      // word-card "Explain <subword>" → glossary
     });
   }
 }

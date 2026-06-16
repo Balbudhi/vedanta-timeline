@@ -334,7 +334,8 @@ html[data-theme="dark"] .w:focus, html[data-theme="dark"] .w.hi, html[data-theme
 .wc-gram-main { color: var(--ink-soft); }
 .wc-gram-sense { color: var(--muted); }
 .wc-gram-cmp { color: var(--muted); }
-.wc-gl { font-family: var(--sans); font-size: 12px; cursor: pointer; background: none; border: none; color: #8a6d1f; padding: 0; font-weight: 600; }
+.wc-gls { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
+.wc-gl { font-family: var(--sans); font-size: 12px; cursor: pointer; background: none; border: none; color: #8a6d1f; padding: 0; font-weight: 600; text-align: left; max-width: 100%; overflow-wrap: anywhere; }
 .wc-gl:hover { text-decoration: underline; }
 html[data-theme="dark"] .wc-gl { color: #d8c074; }
 
