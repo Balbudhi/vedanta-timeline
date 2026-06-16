@@ -478,7 +478,7 @@ function colorFor(thinker, paletteIdx = 2) {
   const base = {
     advaita: "#2563eb", vishishtadvaita: "#059669", dvaita: "#d97706",
     bhedabheda: "#9333ea", acintya: "#db2777", shuddha: "#be123c",
-    avibhaga: "#0891b2", "purna-advaita": "#0d9488", "trika-comparator": "#475569",
+    avibhaga: "#0891b2", "purna-advaita": "#38bdf8", "trika-comparator": "#475569",
     "cross-tradition": "#475569", proto: "#6b7280",
     "sankhya-comparator": "#16a34a", "yoga-comparator": "#14b8a6",
     "nyaya-comparator": "#ca8a04", "navya-nyaya-comparator": "#a16207",
