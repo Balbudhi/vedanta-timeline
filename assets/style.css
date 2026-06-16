@@ -1549,7 +1549,12 @@ body.is-reading-mode .recite-bar {
 .glossary-popover .gp-search-row {
   display: flex; align-items: center; gap: 8px;
   margin: 0 -20px 12px;
-  padding: 12px 12px;
+  /* must override the defensive `* { max-width:100% }` so the negative margins
+     can full-bleed the row to both popover edges (otherwise it ends short and
+     the content below looks wider than the search bar) */
+  max-width: none;
+  width: auto;
+  padding: 12px 20px;
   border-bottom: 1px solid var(--rule);
   background: var(--bg);
   position: sticky;
