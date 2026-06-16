@@ -133,8 +133,11 @@ a { color: inherit; }
 .topbar-btn {
   background: none;
   border: 1px solid var(--rule);
-  padding: 6px 11px;
-  min-height: 44px;
+  /* match the height of the Lanes/Network toggle (33px) and the circular
+     icon buttons (32px) — not a fat 44px slab */
+  height: 33px;
+  padding: 0 11px;
+  display: inline-flex; align-items: center; gap: 6px;
   border-radius: 4px;
   cursor: pointer;
   font-family: var(--sans);
@@ -1501,7 +1504,9 @@ body.is-reading-mode .recite-bar {
   border: 1px solid var(--rule);
   border-radius: 4px;
   box-shadow: var(--shadow-md);
-  padding: 16px 20px 18px;
+  /* no top padding: the sticky search row is the flush top element (its own
+     padding provides the spacing), so nothing peeks above it when scrolled */
+  padding: 0 20px 18px;
   max-width: min(420px, calc(100vw - 20px));
   width: 420px;
   max-height: min(70vh, 640px);
@@ -1516,8 +1521,10 @@ body.is-reading-mode .recite-bar {
   font-size: 14px;
   line-height: 1.55;
 }
-/* defensive: nothing inside may force its own width past the box */
-.glossary-popover * { max-width: 100%; }
+/* defensive: nothing inside may force its own width past the box.
+   min-width:0 stops flex children (search row, etc.) refusing to shrink;
+   overflow-wrap:anywhere breaks any long IAST string / citation / token. */
+.glossary-popover * { max-width: 100%; min-width: 0; overflow-wrap: anywhere; }
 .glossary-popover::-webkit-scrollbar { width: 6px; }
 .glossary-popover::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
 .glossary-popover .gp-close {
@@ -1541,12 +1548,12 @@ body.is-reading-mode .recite-bar {
    searching while reading. */
 .glossary-popover .gp-search-row {
   display: flex; align-items: center; gap: 8px;
-  margin: -16px -20px 12px;
-  padding: 10px 12px;
+  margin: 0 -20px 12px;
+  padding: 12px 12px;
   border-bottom: 1px solid var(--rule);
   background: var(--bg);
   position: sticky;
-  top: -16px;
+  top: 0;
   z-index: 3;
 }
 .glossary-popover .gp-search-row svg {
@@ -1679,16 +1686,17 @@ body.is-reading-mode .recite-bar {
      hidden until the scheme is finalized and explained to readers. */
   display: none;
 }
+/* clean filled callout — light blue to match the steel-blue accents; a
+   self-contained rounded box (no border, no negative-margin full-bleed) so it
+   renders cleanly in both the desktop popover and the mobile dock */
 .glossary-popover .gp-translator {
-  margin-top: 14px;
-  border-top: 1px solid var(--rule);
-  padding-top: 10px;
-  background: #fffaf0;
-  margin-left: -20px; margin-right: -20px;
-  padding-left: 20px; padding-right: 20px; padding-bottom: 10px;
-  border-radius: 0 0 4px 4px;
+  margin: 14px 0 0;
+  padding: 12px 14px;
+  background: #eef3fb;
+  border: none;
+  border-radius: 8px;
 }
-.glossary-popover .gp-translator .gp-label { color: #92400e; }
+.glossary-popover .gp-translator .gp-label { color: #2a5d8f; }
 /* diachronic "Across the texts" */
 .glossary-popover .gp-history { margin-top: 14px; }
 .glossary-popover .gp-history-summary { font-size: 13px; color: var(--ink-soft); margin: 4px 0 6px; line-height: 1.5; }
@@ -3507,6 +3515,11 @@ html[data-theme="dark"] .perspective-card {
   color: var(--ink);
   border: 1px solid var(--rule);
 }
+/* translator-note callout: light-blue tint (dark), clean filled box, no border */
+html[data-theme="dark"] .glossary-popover .gp-translator {
+  background: #161d2a; border: none; color: var(--ink);
+}
+html[data-theme="dark"] .glossary-popover .gp-translator .gp-label { color: #84b3e4; }
 
 /* Verdict pills — saturated fg on a tinted surface lifted just off the
    canvas so the hue registers without glowing. */
