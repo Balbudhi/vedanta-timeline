@@ -170,6 +170,7 @@ const dpTabBar = detailPane && detailPane.querySelector(".dp-tabbar");
 const dpTranslationHead = document.getElementById("dpTranslationHead");
 const dpTranslationBody = document.getElementById("dpTranslationBody");
 const dpArticleHead = document.getElementById("dpArticleHead");
+const dpTabTitle = document.getElementById("dpTabTitle");
 const dpArticleBody = document.getElementById("dpArticleBody");
 const dpCitationBody = document.getElementById("dpCitationBody");
 const dpSourceSearch = document.getElementById("dpSourceSearch");
@@ -1886,6 +1887,7 @@ function openThinker(id) {
   detailContent.scrollTop = 0;
   openPanel("thinker");
   applyTabContext("thinker");
+  if (dpTabTitle) dpTabTitle.textContent = "";
   scrollDotIntoView(t);
   // wire read-full buttons
   detailContent.querySelectorAll("[data-read-full]").forEach((btn) => {
@@ -4510,6 +4512,8 @@ async function openArticle(a) {
   articlesModal.setAttribute("aria-hidden", "true");
   // A standalone article has no thinker context: show only the Article tab.
   applyTabContext("article");
+  // Title for the tab-row (shown in full-screen reading mode); plain text.
+  if (dpTabTitle) dpTabTitle.textContent = String(a.title || "").replace(/[*_`\[\]]/g, "");
   if (dpArticleHead) {
     const pill = a.kind === "perspective"
       ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> '

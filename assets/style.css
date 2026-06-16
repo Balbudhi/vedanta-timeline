@@ -767,6 +767,17 @@ body.is-detail-open .detail-pane {
   border-bottom-color: var(--ink);
 }
 .dp-tab-spacer { flex: 1; }
+/* In full-screen reading mode the article title moves up into the tab row
+   (the "menu header") so the reading column isn't topped by a small title
+   block. Empty / off-screen otherwise, where it just acts as the spacer. */
+.dp-tab-title {
+  text-align: center; padding: 0 12px; min-width: 0;
+  font-family: var(--serif); font-weight: 600; font-size: 14.5px; color: var(--ink);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  opacity: 0; pointer-events: none;
+}
+body.is-reading-mode .dp-tab-title { opacity: 1; }
+body.is-reading-mode #dpArticleHead { display: none; }
 /* Close button: an explicit affordance so the panel can be dismissed.
    Bordered + labeled so it reads as a button rather than glyph noise. */
 .dp-close {
