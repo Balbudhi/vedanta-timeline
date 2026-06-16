@@ -107,14 +107,19 @@ a { color: inherit; }
 }
 .topbar h1 .title-short { display: none; }
 .topbar h1 .title-full { display: inline; }
+/* the live count + span reads as a continuation of the italic tagline,
+   separated by a thin vertical rule */
 .topbar .subtitle {
-  font-family: var(--sans);
-  font-size: 12px; color: var(--muted);
+  font-family: var(--serif); font-style: italic;
+  font-size: 13px; color: var(--muted-soft);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   flex-shrink: 1;
   min-width: 0;
+}
+.topbar .subtitle::before {
+  content: "|"; margin-right: 9px; opacity: .5; font-style: normal;
 }
 /* quiet tagline beside the title — present, not imposed */
 .topbar .title-tagline {

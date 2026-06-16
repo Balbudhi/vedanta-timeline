@@ -385,7 +385,7 @@ function updateSubtitle() {
     (t.school_color_token || "proto") !== "cross-tradition"
   ).length;
   const span = state.range.high - state.range.low;
-  subtitleEl.textContent = `${n} thinkers across ~${span} years.`;
+  subtitleEl.textContent = `${n} thinkers across ~${span} years`;
 }
 
 // ---------- layout -----------
