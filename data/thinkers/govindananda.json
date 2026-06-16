@@ -1,0 +1,46 @@
+{
+  "id": "govindananda",
+  "name": "Govindananda",
+  "name_iast": "Govindānanda",
+  "alternate_names": [
+    "Govindānanda Sarasvatī"
+  ],
+  "dates_low": 1500,
+  "dates_high": 1600,
+  "dates_tier": "contested",
+  "dates_notes": "Usually placed around the fifteenth to sixteenth century from the printed Advaita sub-commentarial tradition, but secure biographical dates are not available.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Advaita sub-commentarial",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "sankara"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Govindānanda is the Advaita author associated with the *Bhāṣya-ratnaprabhā*, a widely transmitted gloss on Śaṅkara's *Brahma-Sūtra-Bhāṣya*. His entry represents the instructional and commentarial layer through which Śaṅkara's terse Brahma-sūtra exegesis is made usable for later students. The work does not mark a new lane like Bhāmatī or Vivaraṇa; it belongs to the broader Advaita sub-commentarial tradition, clarifying the bhāṣya's wording, argument sequence, and doctrinal implications. A GRETIL plaintext of the *Brahmasūtra* with the Ratnaprabhāvyākhyā was fetched into the local source corpus.",
+  "engaged_works": [
+    {
+      "work_id": "bhasya-ratnaprabha",
+      "title": "Bhasya-ratnaprabha",
+      "title_iast": "Bhāṣya-ratnaprabhā",
+      "alternate_titles": [
+        "Ratnaprabhā",
+        "Ratnaprabhāvyākhyā"
+      ],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally associated with Govindānanda in the Advaita printed and GRETIL/Sansknet cataloguing tradition; the local source header preserves the transmitted Ratnaprabhāvyākhyā title.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "summary": "A Sanskrit gloss on Śaṅkara's *Brahma-Sūtra-Bhāṣya*, transmitted as the *Bhāṣya-ratnaprabhā* or *Ratnaprabhāvyākhyā*. The work follows the Brahma-sūtra sequence and explains Śaṅkara's comments in a compact scholastic style, helping later readers track topic boundaries, objections, replies, and doctrinal conclusions in the bhāṣya. It is included here as a representative of the non-sectarian Advaita sub-commentarial layer rather than as the foundation of a separate sub-school. The GRETIL plaintext fetched for this pass is under `data/sources/sanskrit/vedanta/govindananda_bhasya_ratnaprabha_gretil.txt`.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

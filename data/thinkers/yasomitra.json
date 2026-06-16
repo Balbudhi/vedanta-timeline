@@ -1,0 +1,45 @@
+{
+  "id": "yasomitra",
+  "name": "Yasomitra",
+  "name_iast": "Yaśomitra",
+  "alternate_names": [
+    "Yaśomitra Sthavira"
+  ],
+  "dates_low": 500,
+  "dates_high": 600,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Yaśomitra is normally placed in the sixth century from his position as a post-Vasubandhu commentator on the Abhidharmakośa tradition.",
+  "school": "Cross-tradition",
+  "school_color_token": "sarvastivada-comparator",
+  "sub_school": "Sautrāntika",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "vasubandhu-abhidharma"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Yaśomitra is the author of the *Sphuṭārthā Abhidharmakośavyākhyā*, the major surviving Sanskrit commentary on Vasubandhu's *Abhidharmakośa* and *Kośabhāṣya*. His role is exegetical rather than sect-founding: he clarifies Vasubandhu's verses and prose, preserves technical Abhidharma definitions, and helps later readers distinguish the Vaibhāṣika positions presented in the verses from the Sautrāntika-leaning critiques often advanced in the bhāṣya. For this roster he supplies the main Sanskrit commentarial bridge between Vasubandhu's Abhidharma and later scholastic reception. A Wogihara-edition OCR has been added locally as a degraded source, but no doctrinal point is cited to exact loci here until that text is cleaned.",
+  "engaged_works": [
+    {
+      "work_id": "sphutartha-abhidharmakosavyakhya",
+      "title": "Sphutartha Abhidharmakosavyakhya",
+      "title_iast": "Sphuṭārthā Abhidharmakośavyākhyā",
+      "alternate_titles": [
+        "Sphuṭārthā"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The Sanskrit commentary is standardly ascribed to Yaśomitra and survives in printed editions, including Wogihara's 1932-1936 edition.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "degraded-on-disk",
+      "summary": "A Sanskrit commentary on Vasubandhu's *Abhidharmakośa* and *Kośabhāṣya*. The work explains the technical vocabulary and doctrinal sequence of the Kośa chapters: dhātus, faculties, cosmology, karma, latent defilements, path, knowledge, meditative attainments, and the no-self argument. Its importance lies in its preservation of a Sanskrit scholastic reading of Vasubandhu, especially where the bhāṣya stages Vaibhāṣika and Sautrāntika alternatives. The local source is an Archive.org OCR of the Wogihara edition; it should be treated as degraded until corrected against page images.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

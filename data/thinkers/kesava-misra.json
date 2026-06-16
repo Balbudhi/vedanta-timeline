@@ -1,0 +1,47 @@
+{
+  "id": "kesava-misra",
+  "name": "Kesava Misra",
+  "name_iast": "Keśava Miśra",
+  "alternate_names": [
+    "Keśava Miśra Nyāyācārya"
+  ],
+  "dates_low": 1200,
+  "dates_high": 1300,
+  "dates_tier": "contested",
+  "dates_notes": "Keśava Miśra is usually placed around the thirteenth century by the reception of the Tarka-Bhāṣā before the fully developed Navya-Nyāya curriculum.",
+  "school": "Nyāya",
+  "school_color_token": "nyaya-comparator",
+  "sub_school": "Old-Nyāya (Prācīna-Nyāya)",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "aksapada",
+    "vatsyayana",
+    "uddyotakara",
+    "udayana"
+  ],
+  "lineage_out": [
+    "gangesa"
+  ],
+  "core_thesis": "Keśava Miśra is the Nyāya author of the Tarka-Bhāṣā, a teaching manual that presents the older Nyāya system in a compact form before Navya-Nyāya's fully technical idiom dominates the curriculum. Its importance is introductory and transitional: it gives students definitions of pramāṇa, inference, debate categories, fallacies, and realist ontology in a manageable prose format. The clean GRETIL file titled Tarkabhāṣā inspected in this run is a Buddhist text, so this entry does not mark Keśava's Tarka-Bhāṣā as present in the corpus.",
+  "engaged_works": [
+    {
+      "work_id": "tarka-bhasa",
+      "title": "Tarka-Bhasa",
+      "title_iast": "Tarka-Bhāṣā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Keśava Miśra in the Nyāya pedagogical tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A concise Nyāya manual. The Tarka-Bhāṣā presents the school's epistemology and logic in teachable prose: perception, inference, comparison, testimony, the structure of inference, fallacies, debate, and the realist categories inherited from Nyāya-Vaiśeṣika. It is important because it represents a pre- or early-Navya curricular form of Nyāya, standing between the older sūtra-commentary stack and the later technical literature of Gaṅgeśa and his successors.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

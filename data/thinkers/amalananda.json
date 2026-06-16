@@ -1,0 +1,61 @@
+{
+  "id": "amalananda",
+  "name": "Amalananda",
+  "name_iast": "Amalānanda",
+  "alternate_names": [
+    "Amalānanda Sarasvatī"
+  ],
+  "dates_low": 1200,
+  "dates_high": 1300,
+  "dates_tier": "contested",
+  "dates_notes": "Generally placed in the thirteenth century from his position between Vāchaspati Miśra and later Bhāmatī-line commentators.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Bhāmatī-Advaita",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "vacaspati",
+    "sankara"
+  ],
+  "lineage_out": [
+    "appayya"
+  ],
+  "core_thesis": "Amalānanda is the Bhāmatī-line Advaitin whose *Vedānta-kalpataru* comments on Vāchaspati Miśra's *Bhāmatī*, itself a sub-commentary on Śaṅkara's *Brahma-Sūtra-Bhāṣya*. His place in the tradition is therefore structurally precise: he transmits and elaborates the Bhāmatī reading of Śaṅkara, including the school's concern with the locus of ignorance, the role of preparatory discipline, and the interpretive handling of Brahma-sūtra topics through Vāchaspati's lens. The local corpus already has Vāchaspati's *Bhāmatī*; the Kalpataru composite scan found online exceeded the requested size limit and was not imported.",
+  "engaged_works": [
+    {
+      "work_id": "vedanta-kalpataru",
+      "title": "Vedanta-kalpataru",
+      "title_iast": "Vedānta-kalpataru",
+      "alternate_titles": [
+        "Kalpataru"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Amalānanda in the Bhāmatī commentarial tradition.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A sub-commentary on Vāchaspati Miśra's *Bhāmatī* that became the middle layer of the Bhāmatī scholastic stack: Śaṅkara's *Brahma-Sūtra-Bhāṣya*, Vāchaspati's *Bhāmatī*, Amalānanda's *Kalpataru*, and Appayya Dīkṣita's *Parimala*. The text works through Brahma-sūtra loci by clarifying Vāchaspati's often compressed arguments and preserving Bhāmatī positions for later study. It is especially important for understanding how the Bhāmatī line continued after Vāchaspati and before Appayya. A large Archive composite containing *Bhāmatī*, *Kalpataru*, and *Parimala* was found, but its OCR file exceeded the approximately 10 MB cutoff and was not imported.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sastra-darpana",
+      "title": "Sastra-darpana",
+      "title_iast": "Śāstra-darpaṇa",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally attributed to Amalānanda; included here as an attested Advaita work, though the present entry relies chiefly on the better-known *Vedānta-kalpataru*.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An Advaita work traditionally associated with Amalānanda outside the direct *Bhāmatī* sub-commentarial chain. It is included to record the broader ascription, but the author's roster significance rests principally on the securely transmitted *Vedānta-kalpataru*. No clean local text was fetched for this work in this pass.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

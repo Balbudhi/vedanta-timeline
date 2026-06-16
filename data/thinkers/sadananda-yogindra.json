@@ -1,0 +1,47 @@
+{
+  "id": "sadananda-yogindra",
+  "name": "Sadananda Yogindra",
+  "name_iast": "Sadānanda Yogīndra",
+  "alternate_names": [
+    "Sadānanda Yogendra Sarasvatī",
+    "Sadānanda Sarasvatī"
+  ],
+  "dates_low": 1450,
+  "dates_high": 1500,
+  "dates_tier": "contested",
+  "dates_notes": "Usually placed in the mid- to late-fifteenth century from internal dependence on earlier Advaita manuals and later commentarial reception.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Advaita pedagogical-prakaraṇa",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "sankara",
+    "vidyaranya"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Sadānanda Yogīndra is the author of the *Vedāntasāra*, a compact Sanskrit *prakaraṇa* that presents Advaita doctrine as a teachable sequence: qualifications for study, superimposition, the individual and cosmic forms of ignorance, the meaning of the mahāvākyas, discipline through hearing, reflection, meditation, and the marks of liberation. Its importance for this roster is pedagogical rather than innovative. The text gathers earlier Advaita positions into a structured primer, making it one of the standard entry points for later students of Advaita. The available Archive scans and OCR were located, but sampled OCR was not clean enough for local corpus use.",
+  "engaged_works": [
+    {
+      "work_id": "vedantasara",
+      "title": "Vedantasara",
+      "title_iast": "Vedāntasāra",
+      "alternate_titles": [
+        "Vedānta-Sāra"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Sadānanda Yogīndra in the printed and commentarial tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A concise Advaita manual that organizes the school's teaching into a curriculum. The text begins with the qualified student and teacher, proceeds through superimposition and ignorance, distinguishes individual and total causal conditions, explains the mahāvākya teaching, and ends with practices leading to knowledge and the state of the liberated person. Its doctrinal register is synthetic: it does not found a new sub-school, but summarizes positions associated with Śaṅkara, Sureśvara, Gauḍapāda, and later manuals such as Vidyāraṇya's *Pañcadaśī*. The work is available in several printed editions and Archive scans; the sampled OCR was mixed and noisy, so it was not imported as clean Sanskrit text.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

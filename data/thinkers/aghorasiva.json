@@ -1,0 +1,42 @@
+{
+  "id": "aghorasiva",
+  "name": "Aghorasiva",
+  "name_iast": "Aghoraśiva",
+  "alternate_names": [
+    "Aghoraśivācārya"
+  ],
+  "dates_low": 1125,
+  "dates_high": 1175,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Aghoraśiva is placed in the twelfth century, with 1157 CE commonly cited as his floruit in the Śaiva Siddhānta ritual and scholastic tradition.",
+  "school": "Cross-tradition",
+  "school_color_token": "kashmir-shaiva-dualist",
+  "sub_school": "Śaiva-Siddhānta (ritual-scholastic)",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "sadyojyotis"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Aghoraśivācārya is a twelfth-century Śaiva Siddhānta author associated above all with the *Kriyākramadyotikā*, a ritual-scholastic digest of Saiddhāntika procedure and doctrine. He belongs to the Sanskrit Śaiva Siddhānta world that treats initiation, ritual action, mantras, temple procedure, and doctrinal categories as one integrated system. The safe doctrinal claim is therefore institutional and textual: Aghoraśiva codifies the ritual order through which Śaiva Siddhānta understands the soul's purification and approach to liberation under Śiva's authority. Available references are edition/scan level rather than a clean local source, so no exact textual citations are asserted.",
+  "engaged_works": [
+    {
+      "work_id": "kriyakramadyotika",
+      "title": "Kriyakramadyotika",
+      "title_iast": "Kriyākramadyotikā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The work is standardly attributed to Aghoraśivācārya in Śaiva Siddhānta ritual and scholastic literature.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Śaiva Siddhānta ritual-scholastic treatise setting out the sequence of rites and the doctrinal assumptions behind them. The work is especially relevant because Śaiva Siddhānta does not separate metaphysics from initiation and ritual practice: the soul's bondage, purification, and liberation are handled through Śiva's grace as mediated by the initiated ritual order. The *Kriyākramadyotikā* therefore records the practical side of the same *pati-paśu-pāśa* framework that philosophical Śaiva Siddhānta texts state doctrinally. No clean local Sanskrit text has been added.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

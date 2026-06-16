@@ -1,0 +1,48 @@
+{
+  "id": "candrananda",
+  "name": "Candrananda",
+  "name_iast": "Candrānanda",
+  "alternate_names": [
+    "Candrānanda"
+  ],
+  "dates_low": 600,
+  "dates_high": 800,
+  "dates_tier": "contested",
+  "dates_notes": "Candrānanda is placed broadly in the seventh to eighth century as an early commentator on the Vaiśeṣika-Sūtra; exact biographical evidence is sparse.",
+  "school": "Vaiśeṣika",
+  "school_color_token": "vaisesika-comparator",
+  "sub_school": "Old Vaiśeṣika",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "kanada"
+  ],
+  "lineage_out": [
+    "prashastapada",
+    "vyomasiva"
+  ],
+  "core_thesis": "Candrānanda is the early Vaiśeṣika commentator associated with a Vṛtti on the Vaiśeṣika-Sūtra. The work matters because it represents sūtra-level Vaiśeṣika exegesis rather than Praśastapāda's later systematic re-presentation. Its doctrinal field is the old Vaiśeṣika category scheme: substance, quality, motion, universal, particularity, inherence, atomism, adṛṣṭa, dharma, and liberation. Because a clean Candrānanda text was not located in this run, the entry does not ground specific doctrinal claims in passages from his Vṛtti.",
+  "engaged_works": [
+    {
+      "work_id": "vaisesika-sutra-vrtti",
+      "title": "Vaisesika-Sutra-Vrtti",
+      "title_iast": "Vaiśeṣika-Sūtra-Vṛtti",
+      "alternate_titles": [
+        "Candrānanda-Vṛtti"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Traditionally and scholarly associated with Candrānanda as an early commentary on the Vaiśeṣika-Sūtra.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An early commentary on Kaṇāda's Vaiśeṣika-Sūtra. The Vṛtti explains the old sūtra order and the school's core categories before the Padārtha-Dharma-Saṅgraha becomes the dominant frame for later Vaiśeṣika study. It is valuable because it keeps the reader close to the sūtra text, especially on the six padārthas, atomism, dharma, inference, and the path to niḥśreyasa.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

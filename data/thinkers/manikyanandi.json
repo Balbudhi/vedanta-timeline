@@ -1,0 +1,48 @@
+{
+  "id": "manikyanandi",
+  "name": "Manikyanandi",
+  "name_iast": "Māṇikyanandi",
+  "alternate_names": [
+    "Māṇikyanandin"
+  ],
+  "dates_low": 750,
+  "dates_high": 850,
+  "dates_tier": "contested",
+  "dates_notes": "Māṇikyanandi is generally placed around the eighth to ninth century from his position after Akalaṅka and before Prabhācandra's commentary tradition.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara-dialectical",
+  "sub_school_shade": 5,
+  "lineage_in": [
+    "akalanka",
+    "samantabhadra"
+  ],
+  "lineage_out": [
+    "prabhacandra"
+  ],
+  "core_thesis": "Māṇikyanandi is the Digambara Jaina author of the *Parīkṣāmukha*, a concise sūtra-style entrance text for Jaina logic. The work gives a compact statement of the Jaina theory of valid cognition, inference, and standpoint-governed predication, and it became important because Prabhācandra's *Prameya-Kamala-Mārtaṇḍa* made it the base for a fuller scholastic commentary. The doctrinal content should be stated at this level: Māṇikyanandi condenses the mature Digambara pramāṇa tradition after Akalaṅka into a teaching text, framing knowledge and debate through a realist but many-sided account of objects. A readable archive OCR of a modern non-copyright edition/translation has been added, but the Sanskrit OCR is not citation-grade.",
+  "engaged_works": [
+    {
+      "work_id": "pariksamukha",
+      "title": "Pariksamukha",
+      "title_iast": "Parīkṣāmukha",
+      "alternate_titles": [
+        "Parīkṣāmukha-Sūtra"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The work is standardly transmitted as Māṇikyanandi's Jaina logic manual and is the base text for Prabhācandra's commentary.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "degraded-on-disk",
+      "summary": "A concise Digambara Jaina manual of logic and epistemology. The text introduces the marks of valid cognition, the structure of inferential reasoning, and the role of standpoint-conditioned predication in Jaina debate. Its form is compact enough to function as a teaching text, which explains why later commentators, especially Prabhācandra, use it as the basis for more extensive scholastic argument. The local OCR source is a modern edition/translation from Archive.org and is useful for orientation, but it is not clean enough for exact Sanskrit citation without correction.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

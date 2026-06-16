@@ -1,0 +1,74 @@
+{
+  "id": "prabodhananda-sarasvati",
+  "name": "Prabodhananda Sarasvati",
+  "name_iast": "Prabodhānanda Sarasvatī",
+  "alternate_names": [
+    "Prabodhānanda"
+  ],
+  "dates_low": 1500,
+  "dates_high": 1600,
+  "dates_tier": "contested",
+  "dates_notes": "Late-fifteenth or sixteenth-century author associated in Gauḍīya tradition with Śrīraṅgam and Vṛndāvana; precise dates and some identifications are contested.",
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "caitanya"
+  ],
+  "lineage_out": [
+    "gopala-bhatta-gosvami"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Prabodhānanda Sarasvatī is a sixteenth-century devotional author associated with the Gauḍīya turn from Śrīvaiṣṇava Lakṣmī-Nārāyaṇa worship toward Rādhā-Kṛṣṇa devotion centered on Vṛndāvana and Caitanya. His Caitanya-candrāmṛta praises Caitanya in Sanskrit verse; the Vṛndāvana-mahimāmṛta and other attributed works praise Vṛndāvana and Rādhā-centered devotion. Because his corpus is mostly stotra and devotional poetry, this entry records him as a Gauḍīya theological poet rather than a scholastic system-builder. Attributions that are shared or contested with other lineages are marked cautiously.",
+  "engaged_works": [
+    {
+      "work_id": "caitanya-candramrta",
+      "title": "Caitanya-candramrta",
+      "title_iast": "Caitanya-candrāmṛta",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Prabodhānanda Sarasvatī in Gauḍīya publication and cataloguing traditions.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/caitanya_gaudiya/prabodhananda_caitanya_candramrta.txt"
+      ],
+      "summary": "A Sanskrit hymn collection praising Caitanya. It is important as an early poetic witness to Caitanya's theological elevation within the Gauḍīya tradition and to the affective vocabulary by which Caitanya devotion was Sanskritized. A clean plain-text extraction from the Gaudiya Grantha Mandira DOCX was added in this pass.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "vrndavana-mahimamrta",
+      "title": "Vrndavana-mahimamrta",
+      "title_iast": "Vṛndāvana-mahimāmṛta",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Prabodhānanda Sarasvatī; the work is accepted in Gauḍīya devotional transmission.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit devotional work praising Vṛndāvana. Its theological role is to present Vṛndāvana not merely as geography but as the privileged field of Rādhā-Kṛṣṇa devotion and contemplative aspiration in the Gauḍīya imagination.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "radha-rasa-sudha-nidhi",
+      "title": "Radha-rasa-sudha-nidhi",
+      "title_iast": "Rādhā-rasa-sudhā-nidhi",
+      "ascription_tier": "disputed",
+      "ascription_notes": "Often associated with Prabodhānanda Sarasvatī in Gauḍīya contexts, but also claimed in the Rādhāvallabha lineage for Hita Harivaṃśa; the entry records the disputed attribution without using it for firm doctrinal claims.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit devotional hymn centered on Rādhā-rasa. Because attribution is disputed across devotional lineages, it should be treated as a contextual work rather than a secure anchor for Prabodhānanda's individual doctrine until a future source note resolves the attribution for this corpus.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

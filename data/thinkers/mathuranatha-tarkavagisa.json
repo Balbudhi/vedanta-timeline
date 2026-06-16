@@ -1,0 +1,61 @@
+{
+  "id": "mathuranatha-tarkavagisa",
+  "name": "Mathuranatha Tarkavagisa",
+  "name_iast": "Mathurānātha Tarkavāgīśa",
+  "alternate_names": [
+    "Māthurī-kāra",
+    "Mathurānātha"
+  ],
+  "dates_low": 1550,
+  "dates_high": 1620,
+  "dates_tier": "contested",
+  "dates_notes": "Mathurānātha is dated to the late sixteenth and early seventeenth century by his place in the post-Raghunātha Navadvīpa Navya-Nyāya sub-commentarial line.",
+  "school": "Navya-Nyāya",
+  "school_color_token": "navya-nyaya-comparator",
+  "sub_school": "Navadvīpa Navya-Nyāya",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "gangesa",
+    "raghunatha-siromani"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Mathurānātha Tarkavāgīśa is a Navadvīpa Navya-Nyāya commentator whose Māthurī glosses belong to the technical sub-commentarial stack on Gaṅgeśa and Raghunātha. His role is not to found a new school but to stabilize and extend the analytic language of Navya-Nyāya after the Dīdhiti. The importance of the Māthurī lies in its handling of definitions, delimiters, relations, and inferential conditions in the post-Raghunātha idiom. For Vedānta, Mīmāṃsā, and Vyākaraṇa materials, Mathurānātha helps represent the technical Nyāya language that early-modern scholastic opponents had to use or answer.",
+  "engaged_works": [
+    {
+      "work_id": "tattvacintamani-mathuri",
+      "title": "Tattvacintamani-Mathuri",
+      "title_iast": "Tattva-Cintāmaṇi-Māthurī",
+      "alternate_titles": [
+        "Māthurī",
+        "Tattva-Cintāmaṇi-Rahasya"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely associated with Mathurānātha in the Navya-Nyāya commentarial tradition.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A technical Navya-Nyāya sub-commentarial work on the Tattva-Cintāmaṇi tradition. The Māthurī explains and refines the dense post-Gaṅgeśa analyses of perception, inference, comparison, and testimony, especially where the Dīdhiti leaves compact formulations requiring scholastic unpacking. Its importance is tied to the Navadvīpa curriculum: it is part of the apparatus by which later students learn the exact force of avacchedaka, pratiyogin, vyāpti, and related technical notions.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "didhiti-mathuri",
+      "title": "Didhiti-Mathuri",
+      "title_iast": "Dīdhiti-Māthurī",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Traditionally transmitted as Mathurānātha's gloss on Raghunātha Śiromaṇi's Dīdhiti.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A sub-commentary on Raghunātha Śiromaṇi's Dīdhiti. The work belongs to the technical Navya-Nyāya practice of explaining a compact master-text through layered clarification, objection, and reformulation. It is important for documenting how Raghunātha's revisions to Gaṅgeśa were received and made teachable in the Navadvīpa scholastic line.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

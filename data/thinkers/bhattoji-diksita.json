@@ -1,0 +1,73 @@
+{
+  "id": "bhattoji-diksita",
+  "name": "Bhattoji Diksita",
+  "name_iast": "Bhaṭṭoji Dīkṣita",
+  "alternate_names": [
+    "Bhaṭṭoji",
+    "Bhaṭṭojī Dīkṣita"
+  ],
+  "dates_low": 1550,
+  "dates_high": 1630,
+  "dates_tier": "contested",
+  "dates_notes": "Bhaṭṭoji is placed in the late sixteenth and early seventeenth century by his relation to the early-modern Vārāṇasī grammatical scholastic network and by the reception history of his students and family line.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Vyākaraṇa philosophy of language",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "patanjali",
+    "bhartrhari"
+  ],
+  "lineage_out": [
+    "kondabhatta",
+    "nagesa-bhatta"
+  ],
+  "core_thesis": "Bhaṭṭoji Dīkṣita is the early-modern grammarian whose Siddhānta-Kaumudī reorganized Pāṇini's Aṣṭādhyāyī into a pedagogically teachable sequence while retaining the Pāṇinian rule-system as authoritative. His work is not a new grammar in the sense of abandoning Pāṇini; it is a reordering and exposition of the inherited system for scholastic use. The Śabda-Kaustubha and Prauḍha-Manoramā show the same project at a more argumentative level, defending rule-interpretations and explaining how Pāṇinian derivation is to be learned. The later philosophical line through Koṇḍabhaṭṭa receives Bhaṭṭoji's grammatical system and turns its semantic commitments into a focused arthavicāra.",
+  "engaged_works": [
+    {
+      "work_id": "siddhanta-kaumudi",
+      "title": "Siddhanta-Kaumudi",
+      "title_iast": "Siddhānta-Kaumudī",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored and uniformly transmitted under Bhaṭṭoji's name in the grammatical tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A systematic reorganization of Pāṇini's Aṣṭādhyāyī for instruction. Rather than following the sūtra order, the Siddhānta-Kaumudī groups rules by derivational topic, allowing students to learn nominal forms, verbal forms, compounds, taddhita derivations, and other grammatical domains in a usable sequence. Its philosophical importance is indirect but real: it fixes the pedagogical form in which early-modern Sanskrit intellectuals receive Pāṇinian grammar, and it gives later grammarians a stable base for debates about sphoṭa, sentence meaning, case meaning, and the relation between derivation and semantic understanding.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sabda-kaustubha",
+      "title": "Sabda-Kaustubha",
+      "title_iast": "Śabda-Kaustubha",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Bhaṭṭoji in the grammatical tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A more advanced grammatical treatise associated with Bhaṭṭoji's technical defense of Pāṇinian grammar. It belongs to the argumentative side of his corpus rather than the elementary pedagogical side represented by the Siddhānta-Kaumudī. The work is relevant for the timeline because it shows that Bhaṭṭoji's project was not only curricular reordering but also the defense of Pāṇinian analysis as a rigorous śāstra capable of supporting later semantic and philosophical reflection.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "praudha-manorama",
+      "title": "Praudha-Manorama",
+      "title_iast": "Prauḍha-Manoramā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Bhaṭṭoji as his own commentary on the Siddhānta-Kaumudī.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Bhaṭṭoji's commentary on the Siddhānta-Kaumudī. The text expands the compressed pedagogical ordering of the Kaumudī into explicit reasoning, explanations of rule interaction, and defenses of selected derivations. It is therefore the natural bridge between the schoolroom form of the Pāṇinian system and the later scholastic debates in which grammarians, Naiyāyikas, Mīmāṃsakas, and Vedāntins argue over the semantics and epistemology of śabda.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

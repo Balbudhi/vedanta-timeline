@@ -1,0 +1,75 @@
+{
+  "id": "krsnadasa-kaviraja",
+  "name": "Krsnadasa Kaviraja",
+  "name_iast": "Kṛṣṇadāsa Kavirāja",
+  "alternate_names": [
+    "Kṛṣṇadāsa Kavirāja Gosvāmī"
+  ],
+  "dates_low": 1496,
+  "dates_high": 1588,
+  "dates_tier": "contested",
+  "dates_notes": "His lifetime is reconstructed from Gauḍīya biographical tradition and the late-sixteenth-century composition of the Caitanya-caritāmṛta; exact birth and death dates remain uncertain.",
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "caitanya",
+    "rupa-gosvami",
+    "raghunatha-dasa-gosvami"
+  ],
+  "lineage_out": [
+    "visvanatha",
+    "baladeva",
+    "bhaktivinoda"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Kṛṣṇadāsa Kavirāja is the Gauḍīya author of the Caitanya-caritāmṛta, the Bengali theological biography that became the tradition's mature narrative and doctrinal presentation of Caitanya. The work draws on earlier Caitanya biographies, the memory of Svarūpa Dāmodara's and Raghunātha dāsa Gosvāmī's circle, and the Sanskrit Gosvāmī theology of Vṛndāvana. Its doctrinal importance lies in presenting Caitanya as Kṛṣṇa in the mood and complexion of Rādhā, in coordinating that claim with acintya-bhedābheda, and in making nāma-saṅkīrtana and prema-bhakti the practical and soteriological center of the tradition. This entry does not add a fetched Bengali corpus file, so passage-level doctrinal claims remain unset.",
+  "engaged_works": [
+    {
+      "work_id": "caitanya-caritamrta",
+      "title": "Caitanya-caritamrta",
+      "title_iast": "Caitanya-caritāmṛta",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored; the work itself and the Gauḍīya tradition identify Kṛṣṇadāsa Kavirāja as author.",
+      "genre": "prakarana",
+      "language": "bengali",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Bengali theological biography of Caitanya divided into Ādi-, Madhya-, and Antya-līlā. The text combines narrative, doctrinal exposition, Sanskrit citation, and devotional instruction. It presents Caitanya as Rādhā-Kṛṣṇa united, gives a mature account of acintya-bhedābheda through the energy-and-energetic relation, and foregrounds nāma-saṅkīrtana as the characteristic practice of the age. It also serves as the bridge between the Vṛndāvana Gosvāmī Sanskrit theology and Bengali Gauḍīya devotional communities.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "govinda-lilamrta",
+      "title": "Govinda-lilamrta",
+      "title_iast": "Govinda-līlāmṛta",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Kṛṣṇadāsa Kavirāja in the Gauḍīya tradition.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit devotional poem describing the daily cycle of Rādhā-Kṛṣṇa līlā. Its relevance for the timeline is not as a formal Vedānta manual but as a text that shows Kṛṣṇadāsa's participation in the same Vṛndāvana devotional theology presupposed by the Caitanya-caritāmṛta.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sarartha-darsini",
+      "title": "Sarartha-darsini",
+      "title_iast": "Sārārtha-darśinī",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Kṛṣṇadāsa Kavirāja as a commentary on Kṛṣṇa-karṇāmṛta; the entry records the traditional attribution without using it for unsupported doctrinal claims.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A commentary associated with the Gauḍīya reception of Bilvamaṅgala's Kṛṣṇa-karṇāmṛta. It belongs to the devotional exegetical side of Kṛṣṇadāsa's attributed corpus and should be rechecked against manuscript and print evidence before being used for passage-level claims.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

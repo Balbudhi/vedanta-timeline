@@ -1,0 +1,696 @@
+Source: https://grantha.jiva.org/index.php?show=entry&e_no=241 (DOCX download: caitanya-candramrta_-_prabodhananda_sarasvati.docx)
+Acquired: 2026-06-15
+License: Gaudiya Grantha Mandira public repository; reuse status not explicitly stated on source page.
+
+
+
+śrī-caitanya-candrāmṛtam
+
+Version 2.01
+
+The editions used were Stava-kalpa-druma, (ed.) Bhakti Saranga Goswami. Vrindavan, 1959 and Śrī-śrī-caitanya-candrāmṛta, (ed.) Bhakti Vilasa Tirtha. Mayapur, Chaitanya Math. 3rd edition, 1992. Texts without an alternative number are not found in either one of the editions. 
+
+There are two numbering systems for this text. The material is sometimes organized into twelve themes and numbered accordingly. Those numbers are given in brackets. See GGM file 719 to see the other version with the commentary of Anandi.
+
+Jagat
+śrī-caitanya-candrāmṛtam
+
+śrīla-prabodhānanda-sarasvatī-pāda-viracitam
+
+stumas taṁ caitanyākṛtim ativimaryāda-paramā-
+dbhutaudāryaṁ varyaṁ vraja-pati-kumāraṁ rasayitum |
+viśuddha-sva-premonmada-madhura-pīyuṣa-laharīṁ
+pradātuṁ cānyebhyaḥ para-pada-navadvīpa-prakaṭam ||1|| (1)
+
+sarvair āmnāya-cūḍāmaṇibhir api na saṁlakṣyate yat svarūpaṁ
+śrīśa-brahmādy-agamyā sumadhura-padavī kāpi yasyāsti ramyā |
+yenākasmāj jagac-chrī-hari-rasa-madirā-mattam etad vyadhāyi
+śrīmac-caitanya-candraḥ sa kim u mama girāṁ gocaraś cetaso vā ||2|| (137)
+
+dharme niṣṭhāṁ dadhad anupamāṁ viṣṇu-bhaktiṁ gariṣṭhāṁ
+sambibhrāṇo dadhad ahaha hṛt-tiṣṭhatīvāśma-sāram |
+nīco go-ghnād api jagad aho plāvayaty aśru-pūraiḥ
+ko vā jānāty ahaha gahanaṁ hema-gaurāṅga-raṅgam ||3|| (127)
+
+dharmāspṛṣṭaḥ satata-paramāviṣṭa evātyadharme 
+dṛṣṭiṁ prāpto na hi khalu satāṁ sṛṣṭiṣu kvāpi no san |
+yad-datta-śrī-hari-rasa-sudhā-svāda-mattaḥ pranṛtyaty
+uccair gāyaty atha viluṭhati staumi taṁ kañcid īśam ||4|| (2)
+
+akasmād evāvirbhavati bhagavan-nāma-laharī
+parītānāṁ pāpair api purubhir eṣāṁ tanu-bhṛtām |
+aho vajra-prāyaṁ hṛd api navanītāyitam abhūn
+nṝṇāṁ yasmin loke’vatarati sa gauro mama gatiḥ ||5|| (110)
+
+na yogo na dhyānaṁ na ca japa-tapas-tyāga-niyamā
+na vedā nācāraḥ kva nu bata niṣiddhādy-uparatiḥ |
+akasmāc caitanye’vatarati dayāsāra-hṛdaye 
+pumarthānāṁ mauliṁ param iha mudā luṇṭhati janaḥ ||6|| (111)
+
+yan nāptaṁ karma-niṣṭhair na ca samadhigataṁ yat tapo-dhyāna-yogair
+vairāgyais tyāga-tattva-stutibhir api na yat tarkitaṁ cāpi kaiścit |
+govinda-prema-bhājām api na ca kalitaṁ yad rahasyaṁ svayaṁ tan
+nāmnaiva prādurāsīd avatarati pare yatra taṁ naumi gauram ||7|| (3)
+
+dhig astu brahmāhaṁ vadana-pariphullān jaḍa-matīn
+kriyāsaktān dhig dhig vikaḍa-tapaso dhik ca yaminaḥ |
+kim etān śocāmo viṣaya-rasa-mattān nara-paśūn
+na keṣāṁcil leśo’py ahaha milito gaura-madhunaḥ ||8|| (32)
+
+badhnan prema-bhara-prakampita-karo granthīn kaṭi-ḍorakaiḥ 
+saṅkhyātuṁ nija-loka-maṅgala-hare-kṛṣṇeti-nāmnāṁ japan |aśru-snāta-mukhaḥ svam eva hi jagannāthaṁ didṛkṣur gatā-
+yātair gaura-tanur vilocana-mudaṁ tanvan hariḥ pātu vaḥ ||9|| (16)
+
+pāṣāṇaḥ pariṣocito’mṛta-rasair naivāṅkuraḥ sambhavet
+lāṅgūlaṁ saramāpater vivṛṇataḥ syād asya naivārjavam |
+hastāv unnayatā budhāḥ katham aho dhāryaṁ vidhor maṇḍalaṁ
+sarvaṁ sādhanam astu gaura-karuṇābhāve na bhāvotsavaḥ ||10|| (36)
+
+saundarye kāma-koṭiḥ sakala-jana-samāhlādane candra-koṭir
+vātsalye mātṛ-koṭis tridaśa-viṭapito’py adbhutaudārya-koṭiḥ |
+gāmbhīrye’mbhodhi-koṭir madhuramaṇi sudhā-kṣīra-mādhvīka-koṭir
+gauro devaḥ sa jīyān praṇaya-rasa-pade darśitāś carya-koṭiḥ ||11|| (101)
+
+premā nāmādbhutārthaḥ śravaṇa-patha-gataḥ kasya nāmnāṁ mahimnaḥ
+ko vettā kasya vṛndāvana-vipina-mahā-mādhurīṣu praveśaḥ |
+ko vā jānāti rādhāṁ parama-rasa-camatkāra-mādhurya-sīmām
+ekaś caitanya-candraḥ parama-karuṇayā sarvam āviścakāra ||12|| (130)
+
+namaś caitanya-candrāya koṭi-candrānana-tviṣe |premānandābdhi-candrāya cāru-candrāṁśu-hāsine ||13|| (8)
+
+yasyaiva pādāmbuja-bhakti-labhyaḥ
+premābhidhānaḥ paramaḥ pumarthaḥ |
+tasmai jagan-maṅgala-maṅgalāya
+caitanya-candrāya namo namas te ||14|| (9) 
+
+dadhan mūrdhany ūrdhvaṁ mukulita-karāmbhoja-yugalaṁ
+galan-netrāmbhobhiḥ snapita-mṛdu-gaṇḍa-sthala-yugam |dukūlenāvītaṁ nava-kamala-kiñjalka-rucinā
+paraṁ jyotir gauraṁ kanaka-rucira-cauraṁ praṇamata ||15|| (81)
+
+siṁha-skandhaṁ madhura-madhuraṁ smera-gaṇḍa-sthalāntaṁ
+durvijñeyojjvala-rasa-mayāścarya-nānā-vikāram |
+bibhrat kāntiṁ vikaca-kanakāmbhoja-garbhābhirāmām 
+ekībhūtaṁ vapur avatu vo rādhayā mādhavasya ||16|| (13)
+
+pūrṇa-prema-rasāmṛtābdhi-laharī-lolāṅga-gaura-cchaṭā-
+koṭy-ācchādita-viśvam īśvara-vidhi-vyāsādibhiḥ saṁstutam |
+durlakṣyāṁ śruti-koṭibhiḥ prakaṭayan mūrtiṁ jagan-mohinīm
+āścaryaṁ lavaṇoda-rodhasi paraṁ brahma svayaṁ nṛtyati ||17|| (131)
+
+uddāma-dāmanaka-dāma gaṇābhirāmam
+ārāma-rāmam avirāma-gṛhīta-nāma |
+kāruṇya-dhāma kanakojjvala-gaura-dhāma
+caitanya-nāma paramaṁ kalayāma dhāma ||18|| (69)
+
+avatīrṇe gaura-candre vistīrṇe prema-sāgare |
+suprakāśita-ratnaughe yo dīno dīna eva saḥ ||19|| (34)
+
+śravaṇa-manana-saṅkīrtyādi-bhaktyā murārer
+yadi parama-pumarthaṁ sādhayet ko’pi bhadram |
+mama tu parama-pāra-prema-pīyūṣa-sindhoḥ 
+kim api rasa-rahasyaṁ dhāma gauraṁ namasyam ||20|| (58)
+
+niṣṭhāṁ prāptā vyavahṛti-tatir laukikī vaidikī yā
+yā vā lajjā prahasan-samudgāna-nāṭyotsaveṣu |
+ye vābhuvann ahaha sahaja-prāṇa-dehārtha-dharmā
+gauraś cauraḥ sakalam aharat ko’pi me tīvra-vīryaḥ ||21|| (60)
+
+mahā-karma-sroto-nipatitam api sthairyam ayate
+mahā-pāṣāṇebhyo’py atikaṭhinam eti drava-daśām |
+naṭaty ūrdhvaṁ niḥsādhanam api mahā-yogi-manasāṁ
+bhuvi śrī-caitanye’vatarati manaś citra-vibhave ||22|| (112)
+
+strī-putrādi-kathāṁ jahur viṣayiṇaḥ śāstra-pravādaṁ budhā
+yogīndrā vijahur marun-niyama-ja-kleśaṁ tapas tāpasāḥ |
+jñānābhyāsa-vidhiṁ jahuś ca yatayaś caitanya-candre parām
+āviṣkurvati bhakti-yoga-padavīṁ naivānya āsīd rasaḥ ||23|| (113)
+
+bhrāntaṁ yatra munīśvarair api purā yasmin kṣamā-maṇḍale
+kasyāpi praviveśa naiva dhiṣaṇā yad veda no vā śukaḥ |
+yatra kvāpi kṛpāmayena ca nije’py udghāṭitaṁ śauriṇā
+tasminn ujjvala-bhakti-vartmani sukhaṁ khelanti gaura-priyāḥ ||24|| (18)
+
+īśaṁ bhajantu puruṣārtha-catuṣṭayāśā
+dāsā bhavantu ca vidhāya harer upāsāḥ |
+kiñcid rahasya-pada-lobhita-dhīr ahaṁ tu
+caitanya-candra-caraṇaṁ śaraṇaṁ karomi ||25|| (59)
+
+apy agaṇya-mahā-puṇyam ananya-śaraṇaṁ hareḥ |
+anupāsita-caitanyam adhanyaṁ manyate matiḥ ||26|| (31)
+
+bhrātaḥ kīrtaya nāma gokula-pater uddāma-nāmāvalīṁ
+yad vā bhāvaya tasya divya-madhuraṁ rūpaṁ jagan-mohanam |hanta prema-mahā-rasojjvala-pade nāśāpi te sambhavet
+śrī-caitanya-mahāprabhor yadi kṛpā-dṛṣṭiḥ paten na tvayi ||27|| (82)
+
+bhūto vā bhavitāpi vā bhavati vā kasyāpi yaḥ ko’pi vā
+sambandho bhagavat-padāmbuja-rase nāsmin jagan-maṇḍale |
+tat sarvaṁ nija-bhakti-rūpa-paramaiśvaryeṇa vikrīḍato
+gaurasyaiva kṛpā-vijṛmbhitatayā jānanti nirmatsarāḥ ||28|| (28)
+
+svādaṁ svādaṁ madhurima-bharaṁ svīya-nāmāvalīnāṁ
+mādaṁ mādaṁ kim api vivaśībhūta-visrasta-gātraḥ |
+vāraṁ vāraṁ vraja-pati-guṇān gāya gāyeti jalpan
+gauro dṛṣṭaḥ sakṛd api na yair durghaṭā teṣu bhaktiḥ ||29|| (38)
+
+abhūd gehe gehe tumula-hari-saṅkīrtana-ravo
+babhau dehe dehe vipula-pulakāśru-vyatikaraḥ |
+api snehe snehe parama-madhurotkarṣa-padavī
+davīyasyāmnāyād api jagati gaure’vatarati ||30|| (114)
+
+jāḍyaṁ karmasu kutracij japa-tapo-yogādikaṁ kutracid
+govindārcana-vikriyā kvacid api jñānābhimānaḥ kvacit |
+śrī-bhaktiḥ kvacid ujjvalāpi ca harer vāṅ-mātra eva sthitā
+hā caitanya kuto gato’si padavī kutrāpi te nekṣyate ||31|| (138)
+
+vinā bījaṁ kiṁ nāṅkura-jananam andho’pi na kathaṁ
+prapaśyen no paṅgur giri-śikharam ārohati katham |
+yadi śrī-caitanye hari-rasa-mayāścarya-vibhave’
+py abhaktānāṁ bhāvī katham api para-prema-rabhasaḥ ||32|| (39)
+
+akasmād evaitad bhuvanam abhitaḥ plāvitam abhūn
+mahā-premāmbhodheḥ kim api rasa-vanyābhir akhilam |
+akasmāc cādṛṣṭa-śruta-cara-vikārair alam abhūc
+camatkāraḥ kṛṣṇe kanaka-rucirāṅge’vatarati ||33||  (115)
+
+are mūḍhā gūḍhāṁ vicinuta harer bhakti-padavīṁ
+davīyasyā dṛṣṭyāpy aparicita-pūrvāṁ muni-varaiḥ |
+na viśrambhaś citte yadi yadi ca daurlabhyam iva tat
+parityajyāśeṣaṁ vrajata śaraṇaṁ gaura-caraṇam ||34|| (80)
+
+tāvad brahma-kathā vimukti-padavī tāvan na tiktī-bhavet
+tāvac cāpi viśṛṅkhalatvam ayate no loka-veda-sthitiḥ |
+tāvac chāstra-vidāṁ mithaḥ kala-kalo nānā-bahir-vartmasu
+śrī-caitanya-padāmbuja-priya-jano yāvan na dṛg-gocaraḥ ||35|| (19)
+
+sadā raṅge nīlācala-śikhara-śṛṅge vilasato
+harer eva bhrājan-mukha-kamala-bhṛṅgekṣaṇa-yugam |
+samuttuṅga-premonmada-rasa-taraṅgaṁ mṛga-dṛśām
+anaṅgaṁ gaurāṅgaṁ smaratu gata-saṅgaṁ mama manaḥ ||36|| (70)
+
+kvacit kṛṣṇāveśān naṭati bahu-bhaṅgīm abhinayan
+kvacid rādhāviṣṭo hari hari harīty ārta-ruditaḥ |
+kvacid riṅgan bālaḥ kvacid api ca gopāla-carito
+jagad gauro vismāpayati bahu-bhaṅgī-madhurimā ||37|| (128)
+
+aye na kuru sāhasaṁ tava hasanti sarvodyamaṁ
+janāḥ parita unmadā hari-rasāmṛtāsvādinaḥ |
+idaṁ tu nibhṛtaṁ śṛṇu praṇaya-vastu prastūyate
+yad eva nigameṣu tat patir ayaṁ hi gauraḥ param ||38|| (83)
+
+udgṛhṇanti samasta-śāstram abhito durvāra-garvāyitā
+dhanyaṁ-manya-dhiyaś ca karma-tapa-ādy-uccāvaceṣu sthitāḥ |
+dvitrāṇy eva japanti kecana harer nāmāni vāmāśayāḥ 
+pūrvaṁ samprati gauracandra udite premāpi sādhāraṇaḥ ||39|| (116)
+
+pāpīyān api hīna-jātir api duḥśīlo’pi duṣkarmaṇāṁ 
+sīmāpi śvapacādhamo’pi satataṁ durvāsanāḍhyo’pi ca |
+durdeśa-prabhavo’pi tatra vihitāvāso’pi duḥsaṅgato
+naṣṭo’py uddhṛta eva yena kṛpayā taṁ gauram eva stumaḥ ||40|| (78)
+
+acaitanyam idaṁ viśvaṁ yadi caitanyam īśvaram |
+na viduḥ sarva-śāstra-jñā hy api bhrāmyanti te janāḥ ||41|| (37)
+
+deve caitanya-nāmany avatarati sura-prārthya-pādābja-seve
+viṣvadrīcīḥ pravistārayati sumadhura-prema-pīyūṣa-vīcīḥ |
+ko bālaḥ kaś ca vṛddhaḥ ka iha jaḍa-matiḥ ko budhaḥ ko varākaḥ
+sarveṣām aikarasyaṁ kim api hari-pade bhakti-bhājāṁ babhūva ||42|| (117)
+
+dattvā yaḥ kam api prasādam atha sambhāṣya smita-śrī-mukhaṁ
+dūrāt snigdha-dṛśā nirīkṣya ca mahā-premotsavaṁ yacchati |
+yeṣāṁ hanta kutarka-karkaśa-dhiyāṁ tatrāpi nātyādaraḥ
+sākṣāt pūrṇa-rasāvatāriṇi harau duṣṭā amī kevalam ||43|| (45)
+
+kāśī-vāsīn api na gaṇaye kiṁ gayāṁ mārgaye’haṁ
+muktiḥ śuktībhavati yadi me kaḥ parārtha-prasaṅgaḥ |
+trāsābhāsaḥ sphurati na mahā-raurave’pi kva bhītiḥ
+strī-putrādau yadi kṛpayate deva-devaḥ sa gauraḥ ||44|| (99)
+
+velāyāṁ lavaṇodadher madhurima-prāg-bhāva-sāra-sphural-
+līlāyāṁ nava-vallavī-rasa-nidher āveśayantī jagat |
+khelāyām api śaiśave nija-rucā viśvaika-saṁmohinī
+mūrtiḥ kācana kāñcana-drava-mayī cittāya me rocate ||45|| (129)
+
+dṛṣṭvā mādyati nūtanāmbuda-cayaṁ saṁvīkṣya barhaṁ bhaved 
+atyantaṁ vikalo vilokya valitāṁ guñjāvalīṁ vepate |
+dṛṣṭe śyāma-kiśorake’pi cakitaṁ dhatte camatkāritām
+itthaṁ gaura-tanuḥ pracārita-nija-premā hariḥ pātu vaḥ ||46|| (14)
+
+duṣkarma-koṭi-niratasya duranta-ghora-
+durvāsanā-nigaḍa-śṛṅkhalitasya gāḍham |
+kliśyan mateḥ kumati-koṭi-kadarthitasya
+gauraṁ vinādya mama ko bhaviteha bandhuḥ ||47|| (51)
+
+hā hanta citta-bhuvi me paramoṣarāyāṁ 
+sad-bhakti-kalpa-latikāṅkuritā kathaṁ syāt |
+hṛdy ekam eva paramāśvasanīyam asti
+caitanya-nāma kalayan na kadāpi śocyaḥ ||48|| (53)
+
+kṛpā-sindhuḥ sandhyāruṇa-rucira-citrāmbara-daro-
+jjvalaḥ pūrṇa-premāmṛta-maya-mahājyotir amalaḥ |
+śacī-garbha-kṣīrāmbudhi-bhava udārādbhuta-kalaḥ
+kalānāthaḥ śrīmān udayatu mama svānta-nabhasi ||49|| (15)
+
+kva tāvad vairāgyaṁ kva ca viṣaya-vārtāsu narakeṣv
+ivodvegaḥ kvāsau vinaya-bhara-mādhurya-laharī |
+kva tat tejo vālaukikam atha mahā-bhakti-padavī 
+kva sā vā sambhāvyā yad avakalitaṁ gaura-gatiṣu ||50|| (20)
+
+sva-pādāmbhojaika-praṇaya-laharī-sādhana-bhṛtāṁ
+śiva-brahmādīnām api ca sumahā-vismaya-bhṛtām |
+mahā-premāveśāt kim api naṭatām unmada iva
+prabhur gauro jīyāt prakaṭa-paramāścarya-mahimā ||51|| (102)
+
+sarve nārada-śaṅkarādaya ihāyātāḥ svayaṁ śrīr api 
+prāptā deva-halāyudho’pi milito jātāś ca te vṛṣṇayaḥ |
+bhūyaḥ kiṁ vraja-vāsino’pi prakaṭā gopāla-gopy-ādayaḥ
+pūrṇa-prema-raseśvare’vatarati śrī-gauracandre bhuvi ||52|| (118)
+
+bhṛtyāḥ snigdhā atha sumadhura-projjvalodāra-bhājas
+tat-pādābja-dvitaya-savidhe sarva evāvatīrṇāḥ |
+prāpuḥ pūrvādhikatara-mahāprema-pīyūṣa-lakṣmīṁ
+sva-premāṇaṁ vitarati jagaty adbhutaṁ hema-gaure ||53|| (119)
+
+alaukikyā premonmada-rasa-vilāsa-prathanayā
+na yaḥ śrī-govindānucara-saciveṣv eṣu kṛtiṣu |mahāścaryaṁ premotsavam api haṭhād dātari na yan
+matir gaure sākṣāt para iha sa mūḍho nara-paśuḥ ||54|| (40)
+
+asaṅkhyāḥ śruty-ādau bhagavad-avatārā nigaditāḥ
+prabhāvaṁ kaḥ sambhāvayatu param īśād itarataḥ |
+kim anyat mat-preṣṭhe kati kati satāṁ nāpy anubhavās
+tathāpi śrī-gaure hari hari na mūḍhā hari-dhiyaḥ ||55|| (41)
+
+rakṣo-daitya-kulaṁ hataṁ kiyad idaṁ yogādi-vartma-kriyā-
+mārgo vā prakaṭī-kṛtaḥ kiyad idaṁ sṛṣṭy-ādikaṁ vā kiyat |
+mediny-uddharaṇādikaṁ kiyad idaṁ premojjvalāyā mahā-
+bhakter vartma-karīṁ parāṁ bhagavataś caitanya-mūrtiṁ stumaḥ ||56|| (7)
+
+sākṣān-mokṣādikārthān vividha-vikṛtibhis tucchatāṁ darśayantaṁ
+premānandaṁ prasūte sakala-tanu-bhṛtāṁ yasya līlā-kaṭākṣaḥ |
+nāsau vedeṣu gūḍho jagati yadi bhaved īśvaro gauracandras
+tat-prāpto’nīśa-vādaḥ śiva śiva gahane viṣṇu-māye namaste ||57|| (42)
+
+vāso me varam astu ghora-dahana-vyālāvalī-pañjare
+śrī-caitanya-padāravinda-vimukhair mā kutracit saṅgamaḥ |
+vaikuṇṭhādi-padaṁ svayaṁ ca militaṁ no me mano lipsate
+pādāmbhoja-rasa-cchaṭā yadi manāk gaurasya no rasyate ||58|| (65)
+
+sakṛn nayana-gocarīkṛta-tad-aśru-dhārākula-
+praphulla-kamalekṣaṇa-praṇaya-kātara-śrī-mukhaḥ |
+na gaura-caraṇaṁ jihāsati kadāpi lokottara-
+sphuran-madhurimārṇavaṁ nava-navānurāgonmadaḥ ||59|| (21)
+
+ācarya dharmaṁ paricarya viṣṇuṁ 
+vicarya tīrthāni vicārya vedān |
+vinā na gaura-priya-pāda-sevāṁ
+vedādi-duṣprāpa-padaṁ vidanti ||60|| (22)
+
+jñānādi-vartma-viruciṁ vraja-nātha-bhakti-
+rītiṁ na vedmi na ca sad-guravo milanti |
+hā hanta hanta mama kaḥ śaraṇaṁ nigūḍha-
+gauro haris tava na karṇa-pathaṁ gato’sti ||61|| (84)
+
+mṛgyāpi sā śiva-śukoddhava-nāradādyair
+āścarya-bhakti-padavī na davīyastī naḥ |
+durbodha-vaibhava-pate mayi pāmare’pi 
+caitanya-candra yadi te karuṇā-kaṭākṣaḥ ||62|| (55)
+
+vṛthāveśaṁ karmasv apanayata vārtām api manāk
+na karṇābhyarṇe’pi kvacana nayatādhyātma-saraṇeḥ |
+na mohaṁ dehādau bhajata paramāścarya-madhuraḥ 
+pumarthānāṁ maulir milati bhavatāṁ gaura-kṛpayā ||63|| (85)
+
+alaṁ śāstrābhyāsair alam ahaha tīrthāṭanikayā 
+sadā yoṣid-vyāghryās trasata vitathaṁ thūtkuruta re |
+tṛṇaṁ-manyā dhanyāḥ śrayata kila sannyāsi-kapaṭaṁ
+naṭantaṁ gaurāṅgaṁ nija-rasa-madād ambudhi-taṭe ||64|| (86)
+
+uccair āsphālayantaṁ kara-caraṇam aho hema-daṇḍa-prakāṇḍau 
+bāhū proddhṛtya sat-tāṇḍava-tarala-tanuṁ puṇḍarīkāyatākṣam |
+viśvasyāmaṅgalaghnaṁ kim api hari-harīty unmadānanda-nādair
+vande taṁ deva-cūḍāmaṇim atula-rasāviṣṭa-caitanya-candram ||65|| (10)
+
+huṅkārair daśa-diṅ-mukhaṁ mukharayann aṭṭāṭṭa-hāsa-cchaṭā-
+vīcībhiḥ sphuṭa-kunda-kairava-gaṇa-prodbhāsi kurvan nabhaḥ |
+sarvāṅgaṁ pavanoccalac-cala-dala-prāya-prakampaṁ dadhan
+mattaḥ prema-rasonmadāpluta-gatir gauro hariḥ śobhate ||66|| (106)
+
+kva sā niraṅkuśa-kṛpā kva tad-vaibhavam adbhutam |
+kva sā vatsalatā śaure yādṛk gaure tavātmani ||67|| (56)
+
+ānanda-līlā-maya-vigrahāya 
+hemābha-divya-cchavi-sundarāya |
+tasmai mahā-prema-rasa-pradāya 
+caitanya-candrāya namo namas te ||68|| (11)
+
+mahā-puruṣa-mānināṁ sura-munīśvarāṇāṁ nijaṁ
+padāmbujam ajānatāṁ kim api garva-nirvāsanam |
+aho nayana-gocaraṁ nigama-cakra-cūḍā-cayaṁ
+śacī-sutam acīkarat ka iha bhūri-bhāgyodayaḥ ||69|| (29)
+
+āstāṁ nāma mahān mahān iti ravaḥ sarva-kṣamā-maṇḍale
+loke vā prakaṭāstu nāma mahatī siddhiś camatkāriṇī |kāmaṁ cāru-caturbhujatva-mayatām ārādhya viśveśvaraṁ
+ceto me bahu-manyate nahi nahi śrī-gaura-bhaktiṁ vinā ||70|| (66)
+
+nirdoṣaś cāru-nṛtyo vidhuta-malinatā-vakra-bhāvaḥ kadācin
+niḥśeṣa-prāṇi-tāpa-traya-haraṇa-mahā-prema-pīyūṣa-varṣī |udbhūtaḥ ko’pi bhāgyodaya-rucira-śacī-garbha-dugdhāmbu-rāśer
+bhaktānāṁ hṛc-cakora-svadita-pada-rucir bhāti gaurāṅga-candraḥ ||71|| (107)
+
+devā dundubhi-vādanaṁ vidadhire gandharva-mukhyā jaguḥ
+siddhāḥ santata-puṣpa-vṛṣṭibhir imāṁ pṛthvīṁ samācchādayan |
+divya-stotra-parā maharṣi-nivahāḥ prītyopatasthur nija-
+premonmādini tāṇḍavaṁ racayati śrī-gauracandre bhuvi ||72|| (133)
+
+matta-keśari-kiśora-vikramaḥ
+prema-sindhu-jagad-āplavodyamaḥ |
+ko’pi divya-nava-hema-kandalī-
+komalo jayati gaura-candramāḥ ||73|| (100)
+
+alaṅkāraḥ paṅkeruha-nayana-niḥsyandi-payasāṁ
+pṛṣadbhiḥ san-muktā-phala-sulalitair yasya vapuṣi |
+udañcad-romāñcair api ca paramā yasya suṣamā
+tam ālambe gauraṁ harim aruṇa-rociṣṇu-vasanam ||74|| (71)
+
+kandarpād api sundaraḥ surasarit-pūrād aho pāvanaḥ
+śītāṁśor api śītalaḥ sumadhuro mādhvīka-sārād api |
+dātā kalpa-mahīruhād api mahān snigdho jananyā api 
+premṇā gaura-hariḥ kadā nu hṛdi me dhyātuḥ padaṁ dhāsyati ||75|| (72)
+
+puñjaṁ puñjaṁ madhura-madhura-prema-mādhvī-rasānāṁ
+dattvā dattvā svayam uru-dayo modayan viśvam etat |
+eko devaḥ kaṭi-taṭa-milan-mañju-māñjiṣṭha-vāsā
+bhāsā nirbhartsita-nava-taḍit-koṭir eva priyo me ||76|| (73)
+
+dṛṣṭaḥ spṛṣṭaḥ kīrtitaḥ saṁsmṛto vā
+dūrasthair apy ānato vādṛto vā |
+premṇaḥ sāraṁ dātum īśo ya ekaḥ 
+śrī-caitanyaṁ naumi devaṁ dayālum ||77|| (4) 
+
+siñcan siñcan nayana-payasā pāṇḍu-gaṇḍa-sthalāntaṁ
+muñcan muñcan pratimuhur aho dīrgha-niḥśvāsa-jātam |
+uccaiḥ krandan karuṇa-karuṇo dīrgha-hā-heti-nādo
+gauraḥ ko’pi vraja-virahiṇī-bhāva-magnaś cakāsti ||78|| (108)
+
+kiṁ tāvad bata durgameṣu viphalaṁ yogādi-mārgeṣv aho
+bhaktiṁ kṛṣṇa-padāmbuje vidadhataḥ sarvārtham āluṇṭhataḥ |
+āśā prema-mahotsave yadi śiva-brahmādy-alabhye’dbhute
+gaure dhāmani durvigāha-mahimodāre tadā rajyatām ||79|| (87)
+
+hasanty uccair uccair ahaha kula-vadhvo’pi parito
+dravībhāvaṁ gacchanty api kuviṣaya-grāva-ghaṭitāḥ |
+tiraskurvanty ajñā api sakala-śāstrajña-samitiṁ
+kṣitau śrī-caitanye’dbhuta-mahima-sāre’vatarati ||80|| (120)
+
+prāyaś caitanyam āsīd api sakala-vidāṁ neha pūrvaṁ yad eṣāṁ
+kharvā sarvārtha-sāre’py akṛta nahi padaṁ kuṇṭhitā buddhi-vṛttiḥ |
+gambhīrodāra-bhāvojjvala-rasa-madhura-prema-bhakti-praveśaḥ
+keṣāṁ nāsīd idānīṁ jagati karuṇayā gaura-candre’vatīrṇe ||81|| (121)
+
+abhivyakto yatra druta-kanaka-gauro harir abhūn
+mahimnā tasyaiva praṇaya-rasa-magnaṁ jagad abhūt |
+abhūd uccair uccais tumula-hari-saṅkīrtana-vidhiḥ 
+sa kālaḥ kiṁ bhūyo’py ahaha parivartate madhuraḥ ||82|| (139)
+
+saiveyaṁ bhuvi dhanya-gauḍa-nagarī velāpi saivāmbudheḥ 
+so’yaṁ śrī-puruṣottamo madhupates tāny eva nāmāni ca |
+no kutrāpi nirīkṣyate hari hari  premotsavas tādṛśo
+hā caitanya kṛpā-nidhāna tava kiṁ vikṣye punar vaibhavam ||83|| (140)
+
+apārāvāraṁ ced amṛtamaya-pāthodhim adhikaṁ 
+vimathya prāptaṁ syāt kim api paramaṁ sāram atulam |
+tathāpi śrī-gaurākṛti-madana-gopāla-caraṇa-
+cchaṭā-spṛṣṭānāṁ tad vahati vikaṭām eva kaṭutām ||84|| (23)
+
+tṛṇād api sunīcatā sahaja-saumya-mugdhākṛtiḥ
+sudhā-madhura-bhāṣitā viṣaya-gandha-thūthūtkṛtiḥ |hari-praṇaya-vihvalā kim api dhīr anārambhitā
+bhavanti kila sad-guṇā jagati gaura-bhājām amī ||85|| (24)
+
+kadā śaure gaure vapuṣi parama-prema-rasade 
+sad-eka-prāṇe niṣkapaṭa-kṛta-bhāvo’smi bhavitā |
+kadā vā tasyālaukika-sad-anumānena mama hṛdy
+akasmāt śrī-rādhā-pada-nakha-maṇi-jyotir udabhūt ||86|| (68)
+
+aśrūṇāṁ kim api pravāha-nivahaiḥ kṣauṇīṁ puraḥ paṅkilī-
+kurvan pāṇi-tale nidhāya badarī-pāṇḍuṁ kapola-sthalīm |
+āścaryaṁ lavaṇoda-rodhasi vasan śoṇaṁ dadhāno’ṁśukaṁ
+gaurībhūya hariḥ svayaṁ vitanute rādhā-padābje ratim ||87|| (135)
+
+sāndrānandojjvala-nava-rasa-prema-pīyūṣa-sindhoḥ
+koṭiṁ varṣan kim api karuṇā-snigdha-netrāñcalena |
+ko’yaṁ devaḥ kanaka-kadalī-garbha-gaurāṅga-yaṣṭiś
+ceto’kasmān mama nija-pade gāḍham uptaṁ cakāra ||88|| (61)
+
+yathā yathā gaura-padāravinde
+vindeta bhaktiṁ kṛta-puṇya-rāśiḥ |
+tathā tathotsarpati hṛdy akasmāt
+rādhā-padāmbhoja-sudhāṁśu-rāśiḥ ||89|| (88) 
+
+ko’yaṁ paṭṭa-ghaṭī-virājita-kaṭī-deśaḥ kare kaṅkaṇaṁ
+hāraṁ vakṣasi kuṇḍalaṁ śravaṇayor bibhrat pade nūpurau |
+ūrdhvīkṛtya nibaddha-kuntala-bhara-protphulla-mallī-sragā-
+pīḍaḥ krīḍati gaura-nāgara-varo nṛtyan nijair nāmabhiḥ ||90|| (132)
+
+saṁsāra-duḥkha-jaladhau patitasya kāma-
+krodhādi-nakra-makaraiḥ kavalīkṛtasya |
+durvāsanā-nigaḍitasya nirāśrayasya
+caitanya-candra mama dehi padāvalambam ||91|| (54)
+
+kāntyā nindita-koṭi-koṭi-madanaḥ śrīman-mukhendu-cchaṭā-
+vicchāyīkṛta-koṭi-koṭi-śarad-unmīlat-tuṣāra-cchaviḥ |
+audāryeṇa ca koṭi-koṭi-guṇitaṁ kalpa-drumaṁ hy alpayan
+gauro me hṛdi koṭi-koṭi-januṣāṁ bhāgyaiḥ padaṁ dhāsyati ||92|| (74)
+
+kṣaṇaṁ hasati roditi kṣaṇam atha kṣaṇaṁ mūrcchati 
+kṣaṇaṁ luṭhati dhāvati kṣaṇam atha kṣaṇaṁ nṛtyati |
+kṣaṇaṁ śvasiti muñcati kṣaṇam udāra-hāhā-ravaṁ
+mahā-praṇaya-līlayā viharatīha gauro hariḥ ||93|| (134)
+
+kṣaṇaṁ kṣīṇaḥ pīnaḥ kṣaṇam ahaha sāśruḥ kṣaṇam atha
+kṣaṇaṁ smeraḥ śītaḥ kṣaṇam anala-taptaḥ kṣaṇaṁ api |
+kṣaṇaṁ dhāvan stabdhaḥ kṣaṇam adhika-jalpan kṣaṇam aho
+kṣaṇaṁ mūko gauraḥ sphuratu mama deho bhagavataḥ ||94|| (76)
+
+kaivalyaṁ narakāyate tri-daśa-pūr ākāśa-puṣpāyate
+durdāntendriya-kāla-sarpa-paṭalī protkhāta-daṁṣṭrāyate |
+viśvaṁ pūrṇa-sukhāyate vidhi-mahendrādiś ca kīṭāyate
+yat-kāruṇya-kaṭākṣa-vaibhavavatāṁ taṁ gauram eva stumaḥ ||95|| (5)
+
+pravāhair aśrūṇāṁ nava-jalada-koṭīr iva dṛśor
+dadhānaṁ premārdhyā parama-pada-koṭi-prahasanam |
+vamantaṁ mādhuryair amṛta-nidhi-koṭīr iva tanū-
+cchaṭābhis taṁ vande harim ahaha sannyāsa-kapaṭam ||96|| (12)
+
+sva-tejasā kṛṣṇa-padāravinde 
+mahā-rasāveśita-viśvam īśam |
+kam apy aśeṣa-śruti-gūḍha-veśaṁ 
+gaurāṅgam aṅgīkuru mūḍha-cetaḥ ||97|| (57)
+
+caitanyeti kṛpāmayeti paramodāreti nānā-vidha-
+premāveśita-sarva-bhūta-hṛdayety āścarya-dhāmann iti |
+gaurāṅgeti guṇārṇaveti rasarūpeti sva-nāma-priyety 
+aśrāntaṁ mama jalpato janir iyaṁ yāyād iti prārthaye ||98|| (67)
+
+mādyantaḥ paripīya yasya caraṇāmbhoja-sravat-projjvala-
+premānanda-mayāmṛtādbhuta-rasān sarve suparveḍitāḥ |
+brahmādīṁś ca hasanti nātibahumanyante mahā-vaiṣṇavān
+dhik-kurvanti ca jñāna-karma-viduṣas taṁ gauram eva stumaḥ ||99|| (6)
+
+yo mārgo dura-śūnyo ya iha bata balat-kaṇṭako yo’tidurgo
+mithyārtha-bhrāmako yaḥ sapadi rasamayānanda-niḥsyandano yaḥ |
+sadyaḥ pradyotayaṁs taṁ prakaṭita-mahimā snehavad-dhṛd-guhāyāṁ
+ko’py antar-dhvānta-hantā sa jayati navadvīpa-dīpyat-pradīpaḥ ||100|| (104)
+
+dūrād eva dahan kutarka-śalabhān koṭīndu-saṁśītala-
+jyotiḥ-kandala-saṁvalan-madhurimā bāhyāntara-dhvānta-hṛt |
+sa-snehāśaya-vṛtti-divya-visarat-tejāḥ suvarṇa-dyutiḥ
+kāruṇyād iha jājvalīti sa navadvīpa-pradīpo’dbhutaḥ ||101|| (105)
+
+svayaṁ devo yatra druta-kanaka-gauraḥ karuṇayā
+mahā-premānandojjvala-rasa-vapuḥ prādurabhavat |
+navadvīpe tasmin prati-bhavana-bhakty-utsava-maye
+mano me vaikuṇṭhād api ca madhure dhāmni ramate ||102|| (62)
+
+bibhrad varṇaṁ kim api dahanottīrṇa-sauvarṇa-sāraṁ
+divyākāraṁ kim api kalayan dṛpta-gopāla-mauleḥ |
+āviṣkurvan kvacid avasare tat-tad-āścarya-līlāṁ
+sākṣād rādhā-madhuripu-vapur bhāti gaurāṅga-candraḥ ||103|| (109)
+
+yat tad vadantu śāstrāṇi yat tad vyākhyāntu tārkikāḥ |
+jīvanaṁ mama caitanya-pādāmbhoja-sudhaiva tu ||104|| (63)
+
+pādāghāta-ravair diśo mukharayan netrāmbhasāṁ veṇībhiḥ
+kṣauṇiṁ paṅkilayann aho viśadayann aṭṭāṭṭa-hāsair nabhaḥ |
+candra-jyotir udāra-sundara-kaṭi-vyālola-śoṇāmbaraḥ
+ko devo lavaṇoda-kūla-kusumodyāne mudā nṛtyati ||105|| (136)
+
+dhig astu kulam ujjvalaṁ dhig api  vāgmitāṁ dhig yaśo
+dhig adhyayanam ākṛtiṁ nava-vayaḥ śriyaṁ cāpi dhik |
+dvijatvam api dhik para:a vimalam āśramādyaṁ ca dhik
+na cet paricitaḥ kalau prakaṭa-gaura-gopī-patiḥ ||106|| (43)
+
+dhyāyanto giri-kandareṣu bahavo brahmānubhūyāsate 
+yogābhyāsa-parāś ca santi bahavaḥ siddhā mahī-maṇḍale |
+vidyā-śaurya-dhanādibhiś ca bahavo valganti mithyoddhatāḥ
+ko vā gaura-kṛpāṁ vinādya jagati premonmado nṛtyatu ||107|| (98)
+
+antar-dhvānta-cayaṁ samasta-jagatām unmūlayantī haṭhāt
+premānanda-rasāmbudhiṁ niravadhiṁ prodvelayantī balāt |
+viśvaṁ śītalayanty atīva vikalaṁ tāpa-trayeṇāniśaṁ
+sāsmākaṁ hṛdaye cakāstu satataṁ caitanya-candra-cchaṭā ||108|| (17,75)
+
+upāsatāṁ vā guru-varya-koṭīr
+adhīyatāṁ vā śruti-śāstra-koṭīḥ |
+caitanya-kāruṇya-kaṭākṣa-bhājāṁ
+sadyaḥ paraṁ syād dhi rahasya-lābhaḥ ||109|| (25)
+
+apārasya premojjvala-rasa-rahasyāmṛta-nidher
+nidhānaṁ brahmeśārcita iha hi caitanya-caraṇaḥ |
+atas taṁ dhyāyantu praṇaya-bharato yāntu śaraṇaṁ
+tam eva pronmattās tam iha kila gāyantu kṛtinaḥ ||110|| (89)
+
+śrīmad-bhāgavatasya yatra paramaṁ tātparyam uṭṭaṅkitaṁ
+śrī-vaiyāsakinā duranvayatayā rāsa-prasaṅge’pi yat |
+yad rādhā-rati-keli-nāgara-rasāsvādaika-sad-bhājanaṁ
+tad-vastu-prathanāya gaura-vapuṣā loke’vatīrṇo hariḥ ||111|| (122)
+
+pātrāpātra-vicāraṇaṁ na kurute na svaṁ paraṁ vīkṣate
+deyādeya-vimarśako na hi na vā kāla-pratīkṣaḥ prabhuḥ |
+sadyo yaḥ śravaṇekṣaṇa-praṇamana-dhyānādinā durlabhaṁ
+datte bhakti-rasaṁ sa eva bhagavān gauraḥ paraṁ me gatiḥ ||112|| (77)
+
+kecid dāsyam avāpur uddhava-mukhāḥ ślāghyaṁ pare lebhire
+śrī-dāmādi-padaṁ vrajāmbuja-dṛśāṁ bhāvaṁ ca bhejuḥ pare |
+anye dhanyatamā dhayanti madhuraṁ rādhā-rasāmbhonidhiṁ
+śrī-caitanya-mahāprabhoḥ karuṇayā lokasya kāḥ sampadaḥ ||113|| (123)
+
+sarvajñair muni-puṅgavaiḥ pravitate tat-tan-mate yuktibhiḥ
+pūrvaṁ naikataratra ko’pi sudṛḍhaṁ viśvasta āsīj janaḥ |
+sampraty apratima-prabhāva udite gaurāṅga-candre punaḥ
+śruty-artho hari-bhaktir eva paramaḥ kair vā na nirdhāryate ||114|| (124)
+
+vañcito’smi vañcito’smi vañcito’smi na saṁśayaḥ |
+viśvaṁ gaura-rase magnaṁ sparśo’pi mama nābhavat ||115|| (46)
+
+aho vaikuṇṭha-sthair api ca bhagavat-pārṣada-varaiḥ 
+sa-romāñcaṁ dṛṣṭā yad anucara-vakreśvara-mukhāḥ |
+mahāścarya-premojjvala-rasa-sadāveśa-vivaśī-
+kṛtāṅgās taṁ gauraṁ katham akṛta-puṇyaḥ praṇayatu ||116|| (44)
+
+kair vā sarva-pumartha-maulir akṛtāyāsair ihāsādito
+nāsīd gaura-padāravinda-rajasā spṛṣṭe mahī-maṇḍale |
+hā hā dhig mama jīvitaṁ dhig api me vidyāṁ dhig apy āśramaṁ
+yad daurbhāgya-bharād aho mama na tat-sambandha-gandho’py abhūt ||117|| (47)
+
+viśvaṁ mahā-praṇaya-sīdhu-sudhā-rasaika-
+pāthonidhau sakalam eva nimajjayantam |
+gaurāṅga-candra-nakha-candra-maṇi-cchaṭāyāḥ
+kañcid vicitram anubhāvam ahaṁ smarāmi ||118|| (125)
+
+jitaṁ jitaṁ mayādyāpi gaura-smṛty-anubhāvataḥ |
+tīrṇāḥ kumata-kāntārāḥ pūrṇāḥ sarva-manorathāḥ ||119|| (?)
+
+dante nidhāya tṛṇakaṁ padayor nipatya
+kṛtvā ca kāku-śatam etad ahaṁ bravīmi |
+he sādhavaḥ sakalam eva vihāya dūrād
+gaurāṅga-candra-caraṇe kurutānurāgam ||120|| (90)
+
+patanti yadi siddhayaḥ kara-tale svayaṁ durlabhāḥ
+svayaṁ ca yadi sevakī-bhavitum āgatāḥ syuḥ surāḥ |
+kim anyad idam eva me yadi caturbhujaṁ syād vapus
+tathāpi na mano manāk calati gauracandrān mama ||121|| (64)
+
+aho na durlabhā muktir na ca bhaktiḥ sudurlabhā |
+gauracandra-prasādas tu vaikuṇṭhe’pi sudurlabhaḥ ||122|| (91)
+
+so’py āścarya-mayaḥ prabhur nayanayor yan nābhavad gocaro
+yan nāsvādi hareḥ padāmbuja-rasas tad yad gataṁ tad gatam |
+etāvan mama tāvad astu jagatīṁ ye’dyāpy alaṅkurvate
+śrī-caitanya-pade nikhāta-manasas tair yat prasaṅgotsavaḥ ||123|| (50)
+
+utsasarpa jagad eva pūrayan
+gauracandra-karuṇā-mahārṇavaḥ |
+bindu-mātram api nāpatan mahā-
+durbhage mayi kim etad adbhutam ||124|| (48)
+
+kālaḥ kalir balina indriya-vairi-vargāḥ
+śrī-bhakti-mārga iha kaṇṭaka-koṭi-ruddhaḥ |
+hā hā kva yāmi vikalaḥ kim ahaṁ karomi 
+caitanya-candra yadi nādya kṛpāṁ karoṣi ||125|| (49)
+
+kalinda-tanayā-taṭe sphurad-amanda-vṛndāvanaṁ
+vihāya lavaṇāmbudheḥ pulina-puṣpa-vāṭīṁ gataḥ |
+dhṛtāruṇa-paṭaḥ parākṛta-supīta-vāsā haris
+tirohita-nija-cchaviḥ prakaṭa-gaurimā me gatiḥ ||126|| (79)
+
+āstāṁ vairāgya-koṭir bhavatu śama-dama-kṣānti-maitry-ādi-koṭis
+tattvānudhyāna-koṭir bhavatu bhavatu vā vaiṣṇavī bhakti-koṭiḥ |
+koṭy-aṁśo’py asya na syāt tad api guṇa-gaṇo yaḥ svataḥ-siddha āste
+śrīmac-caitanya-candra-priya-caraṇa-nakha-jyotir-āmoda-bhājām ||127|| (26)
+
+bhajantu caitanya-padāravindaṁ 
+bhavantu sad-bhakti-rasena pūrṇāḥ |
+ānandayantu tri-jagad-vicitra-
+mādhurya-saubhāgya-dayā-kṣamādyaiḥ ||128|| (92)
+
+jñāna-vairāgya-bhakty-ādi
+sādhayantu yathā tathā |
+caitanya-caraṇāmbhoja-
+bhakti-labhya-samaṁ kutaḥ ||129|| (94)
+
+hā hanta hanta paramoṣara-citta-bhūmau
+vyarthībhavanti mama sādhana-koṭayo’pi |
+sarvātmanā tad aham adbhuta-bhakti-bījaṁ
+śrī-gauracandra-caraṇaṁ śaraṇaṁ karomi ||130|| (52)
+
+sarva-sādhana-hīno’pi paramāścarya-vaibhave |
+gaurāṅge nyasta-bhāvo yaḥ sarvārtha-pūrṇa eva saḥ ||131|| (30)
+
+brahmeśādi-mahāścarya-mahimāpi mahāprabhuḥ |
+mugdha-bāloditaṁ śrutvā snigdho’vaśyaṁ bhaviṣyati ||132|| (142)
+
+dṛṣṭaṁ na śāstraṁ guravo na pṛṣṭā
+vivecitaṁ nāpi budhaiḥ sva-buddhyā |
+yathā tathā jalpatu bāla-bhāvāt
+tathāpi me gaurahariḥ prasīdatu ||133|| (143)
+
+kecit sāgara-bhūdharān api parākrāmanti nṛtyanti vai
+kecid deva-purandarādiṣu mahā-kṣepaṁ kṣipanto muhuḥ |
+ānandodbhaṭa-jāla-vihvalatayā te’dvaita-candrādayaḥ
+ke kiṁ no kṛtavanta īdṛśi punaś caitanya-nṛtyotsave ||134|| (27)
+
+avatīrṇe gauracandre vistīrṇe prema-sāgare |ye na majjanti majjanti te mahānartha-sāgare ||135|| (35)
+
+prasārita-mahā-prema-pīyūṣa-rasa-sāgare |
+caitanya-candre prakaṭe yo dīno dīna eva saḥ ||136|| (36)
+
+gītā-bhāgavataṁ paṭhatv avirataṁ tīrthāni saṁsevatāṁ
+śālagrāma-śilāṁ samarcayatu vā kāla-trayaṁ pratyaham |
+muktibhyo mahatīṁ pumān na labhate tat-koṣa-bhūṣāṅkarīṁ
+bhaktiṁ premamayīṁ śacīsuta-pada-dvandvānukampāṁ vinā ||137|| (?)
+
+āśā yasya pada-dvandve  caitanyasya mahāprabhoḥ |
+tasyendro dāsavad bhāti kā kathā nṛpa-kīṭake ||138|| (96)
+
+yasyāśā kṛṣṇa-caitanye rāja-dvāri kim arthinaḥ |
+cintāmaṇi-cayaṁ prāpya ko mūḍho rajataṁ vrajet ||139|| (97)
+
+mādyat-koṭi-mṛgendra-huṅkṛti-ravas tigmāṁśu-koṭi-cchaviḥ
+koṭīndūdbhava-śītalo gati-jita-pronmatta-koṭi-dvipaḥ |
+nāmnā duṣkṛta-koṭi-niṣkṛti-karo brahmādi-koḍīśvaraḥ
+koṭy-advaita-śiromaṇir vijayate śrī-śrī-śacī-nandanaḥ ||140|| (103)
+
+ati-puṇyair ati-sukṛtaiḥ kṛtārthīkṛtaḥ ko’pi pūrvaiḥ |
+evaṁ kair api na kṛtaṁ yat premābdhau nimajjitaṁ viśvam ||141|| (126)
+
+yadi nigadita-mīnādy-aṁśavad gauracandro
+na tad api sa hi kaścic chakti-līlā-vikāśaḥ |
+atula-sakala-śaktyāścarya-līlā-prakāśair
+anadhigata-mahattvaḥ pūrṇa evāvatīrṇaḥ ||142|| (141)
+
+saṁsāra-sindhu-taraṇe hṛdayaṁ yadi syāt
+saṅkīrtanāmṛta-rase ramate manaś cet |
+premāmbudhau viharaṇe yadi citta-vṛttiś
+caitanya-candra-caraṇe śaraṇaṁ prayātu ||143|| (93)
+
+acaitanyam idaṁ viśvaṁ yadi caitanyam īśvaram |
+bhajet sarvato mṛtyur upāsyam amarottamaiḥ ||??|| (95)
+

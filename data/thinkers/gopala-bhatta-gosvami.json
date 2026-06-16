@@ -1,0 +1,62 @@
+{
+  "id": "gopala-bhatta-gosvami",
+  "name": "Gopala Bhatta Gosvami",
+  "name_iast": "Gopāla Bhaṭṭa Gosvāmī",
+  "alternate_names": [
+    "Gopāla Bhaṭṭa"
+  ],
+  "dates_low": 1503,
+  "dates_high": 1578,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Sixteenth-century Gauḍīya author and one of the Vṛndāvana Gosvāmīs; dates are conventional reconstructions from sectarian biography and textual transmission.",
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "caitanya",
+    "rupa-gosvami",
+    "sanatana-gosvami",
+    "prabodhananda-sarasvati"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Gopāla Bhaṭṭa Gosvāmī is a sixteenth-century Gauḍīya author from a Śrīvaiṣṇava background who became one of the Vṛndāvana Gosvāmīs. His principal textual importance is the Hari-bhakti-vilāsa, the Vaiṣṇava ritual and conduct manual associated with his compilation and Sanātana Gosvāmī's direction or commentary in the received tradition. The work matters for Vedānta-family history because it shows how Gauḍīya acintya-bhedābheda was institutionalized in initiation, deity worship, vrata, calendar, and daily conduct, rather than remaining only a metaphysical or rasa-theological doctrine.",
+  "engaged_works": [
+    {
+      "work_id": "hari-bhakti-vilasa",
+      "title": "Hari-bhakti-vilasa",
+      "title_iast": "Hari-bhakti-vilāsa",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "The received Gauḍīya tradition connects the work with Gopāla Bhaṭṭa Gosvāmī and Sanātana Gosvāmī; authorship and the Dig-darśinī commentary are discussed in the tradition, so this entry records the attribution cautiously.",
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/caitanya_gaudiya/gopala_bhatta_hari_bhakti_vilasa_01-10.txt"
+      ],
+      "summary": "A Sanskrit Vaiṣṇava-smṛti and ritual manual in twenty vilāsas. It treats guru and dīkṣā, mantra, śauca, arcana, Vaiṣṇava markings, prasāda, association, daily practice, Ekādaśī, festivals, vrata, puraścaraṇa, installation, and related ritual conduct. The work's doctrinal importance is practical: it gives the Gauḍīya community a rule-governed institutional body corresponding to its theology of bhakti. The on-disk source added in this pass covers vilāsas 1-10 from the Gaudiya Grantha Mandira DOCX; the remaining vilāsas still need clean-text ingestion.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sat-kriya-sara-dipika",
+      "title": "Sat-kriya-sara-dipika",
+      "title_iast": "Sat-kriyā-sāra-dīpikā",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Gopāla Bhaṭṭa Gosvāmī in Gauḍīya lists of ritual works.",
+      "genre": "rahasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A ritual manual associated with life-cycle rites in a Gauḍīya Vaiṣṇava setting. Its relevance is continuous with the Hari-bhakti-vilāsa: it documents the move from doctrine and devotional identity into concrete ritual practice.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "prakasananda",
+  "name": "Prakasananda",
+  "name_iast": "Prakāśānanda",
+  "alternate_names": [
+    "Prakāśānanda Sarasvatī"
+  ],
+  "dates_low": 1550,
+  "dates_high": 1600,
+  "dates_tier": "contested",
+  "dates_notes": "Placed in the sixteenth century by the reception of the *Vedānta-siddhānta-muktāvalī* and its early printed tradition, but exact dates are uncertain.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "sankara",
+    "prakasatman"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Prakāśānanda is the Advaita author associated with the *Vedānta-siddhānta-muktāvalī*, a Sanskrit treatise remembered especially for its dṛṣṭi-sṛṣṭi orientation: the experienced world is treated through the dependence of manifestation on cognition, rather than through a realist sequence in which a world first stands independently and is then perceived. This remains an Advaita, not Yogācāra, strategy: Brahman alone is finally real, while empirical appearance is explained within the school's hierarchy of reality. Because the available online text is scan/OCR and the sampled OCR was not clean, the entry records the work without local passage claims.",
+  "engaged_works": [
+    {
+      "work_id": "vedanta-siddhanta-muktavali",
+      "title": "Vedanta-siddhanta-muktavali",
+      "title_iast": "Vedānta-siddhānta-muktāvalī",
+      "alternate_titles": [
+        "Vedāntasiddhāntamuktāvalī"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely associated with Prakāśānanda in the Advaita printed tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit Advaita treatise that presents the school through a dṛṣṭi-sṛṣṭi style of explanation. Its primary concern is not to produce a full Brahma-sūtra commentary, but to state the Advaita siddhānta in a compact doctrinal sequence, with special attention to how cognition and appearance are related. The work is therefore useful for representing a late-medieval Advaita strand in which the world is analyzed as manifestation bound to cognition, while Brahman remains the final reality. Archive copies of the work were located, including Sanskrit and Hindi materials, but sampled OCR was too degraded for clean corpus import.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

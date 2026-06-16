@@ -1,0 +1,78 @@
+{
+  "id": "vadiraja-tirtha",
+  "name": "Vadiraja Tirtha",
+  "name_iast": "Vādirāja Tīrtha",
+  "alternate_names": [
+    "Vādirāja",
+    "Bhūvarāha"
+  ],
+  "dates_low": 1480,
+  "dates_high": 1600,
+  "dates_tier": "contested",
+  "dates_notes": "The 1480-1600 range is the common Dvaita-tradition chronology but implies a very long lifespan, so the entry flags the dates as contested.",
+  "school": "Tattva-vāda",
+  "school_color_token": "dvaita",
+  "sub_school": "Tattva-vāda",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "madhva",
+    "jayatirtha",
+    "vyasatirtha"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "sankara",
+      "direction": "refutes",
+      "note": "The Yuktimallikā and Nyāyaratnāvalī argue from a Tattva-vāda standpoint against Advaita positions."
+    }
+  ],
+  "core_thesis": "Vādirāja Tīrtha is a sixteenth-century Tattva-vāda author and pontiff associated with the Sode maṭha. His philosophical writing continues the Madhva-Jayatīrtha-Vyāsatīrtha line: Viṣṇu is the independent reality, the world and selves are real dependents, and liberation does not erase difference. The Yuktimallikā presents Tattva-vāda through a sequence of reasoned arguments against rival Vedānta positions, while the Nyāyaratnāvalī gives a shorter polemical treatment. His Tīrthaprabandha belongs to the pilgrimage and devotional register rather than formal metaphysics, but it documents the same Vaiṣṇava orientation in a different genre.",
+  "engaged_works": [
+    {
+      "work_id": "yuktimallika",
+      "title": "Yuktimallika",
+      "title_iast": "Yuktimallikā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Vādirāja Tīrtha in the Dvaita tradition and modern catalogues.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit Tattva-vāda treatise organized into topical sections that defend the Madhva school's realist Vaiṣṇava metaphysics against rival Vedānta positions. The work is associated with the standard Tattva-vāda claims of Viṣṇu's independence, the reality of the world, the reality of difference, and the rejection of Advaitic world-illusion. The Internet Archive OCR sample checked in this pass was heavily corrupted and was not suitable for ingestion as a clean source file.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "nyayaratnavali",
+      "title": "Nyayaratnavali",
+      "title_iast": "Nyāyaratnāvalī",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed in lists of Vādirāja's scholastic works.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A concise Tattva-vāda polemical work, traditionally grouped with Vādirāja's arguments against Advaita. It is relevant to the timeline as evidence of the continued late-medieval Dvaita practice of presenting Madhva's realism in compact argumentative form.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "tirthaprabandha",
+      "title": "Tirthaprabandha",
+      "title_iast": "Tīrthaprabandha",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Vādirāja Tīrtha.",
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit pilgrimage work describing sacred places from a Vaiṣṇava perspective. It is not a technical Vedānta treatise, but it records the devotional geography and ritual imagination of the same Tattva-vāda milieu in which Vādirāja's polemical works stand.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

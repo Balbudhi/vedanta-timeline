@@ -1,0 +1,50 @@
+{
+  "id": "katyayana-varttikakara",
+  "name": "Katyayana / Varttikakara",
+  "name_iast": "Kātyāyana / Vārttikakāra",
+  "alternate_names": [
+    "Vararuci",
+    "Vārttikakāra"
+  ],
+  "dates_low": -300,
+  "dates_high": -200,
+  "dates_tier": "contested",
+  "dates_notes": "Kātyāyana is dated by relative position between Pāṇini and Patañjali; the vārttikas are known chiefly because Patañjali quotes and debates them in the Mahābhāṣya.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Vyākaraṇa philosophy of language",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "patanjali",
+    "bhartrhari"
+  ],
+  "core_thesis": "Kātyāyana is the grammarian remembered as the Vārttikakāra, the author of critical vārttikas on Pāṇini's Aṣṭādhyāyī. The vārttikas do not survive as a separately transmitted authorial book; they are embedded in Patañjali's Mahābhāṣya, where they function as proposals to supplement, restrict, or reinterpret Pāṇini's sūtras. Their philosophical importance lies in the method they establish for Sanskrit grammar: a sūtra is not merely recited but tested for over-application, under-application, economy, exception, and explanatory fit. This makes Kātyāyana a structural source for later Vyākaraṇa reflection on rule, usage, semantic expectation, and the relation between inherited śāstra and observed speech.",
+  "engaged_works": [
+    {
+      "work_id": "varttikas-on-astadhyayi",
+      "title": "Varttikas on Panini's Ashtadhyayi",
+      "title_iast": "Vārttikas on Pāṇini's Aṣṭādhyāyī",
+      "alternate_titles": [
+        "Kātyāyana-vārttikas"
+      ],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally ascribed to Kātyāyana; the text is preserved through Patañjali's Mahābhāṣya rather than as an independent recension.",
+      "genre": "varttika",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/grammar/patanjali_mahabhasya_gretil.txt"
+      ],
+      "summary": "The vārttikas on Pāṇini are short critical observations, additions, restrictions, and interpretive proposals cited within the Mahābhāṣya. They supply a second-order grammar around the Aṣṭādhyāyī: when a rule needs an exception, when an affix requires restriction, when a formulation is too broad or too narrow, and when actual learned usage must be reconciled with sūtra economy. Because Patañjali regularly stages discussion around these vārttikas, the work is also a witness to an early scholastic method of grammatical argument. For the timeline, the important point is documentary rather than doctrinal overreach: Kātyāyana is the middle member of the Pāṇini-Kātyāyana-Patañjali grammatical triad, and his vārttikas are the form in which later Vyākaraṇa inherits the discipline of testing śāstra against usage and rule-coherence.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

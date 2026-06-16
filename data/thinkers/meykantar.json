@@ -1,0 +1,45 @@
+{
+  "id": "meykantar",
+  "name": "Meykantar",
+  "name_iast": "Meykaṇṭār",
+  "alternate_names": [
+    "Meykaṇḍadeva",
+    "Meykandar"
+  ],
+  "dates_low": 1200,
+  "dates_high": 1275,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Meykaṇṭār is conventionally placed in the thirteenth century as the founding author of the Tamil Meykaṇṭār Śaiva Siddhānta lineage.",
+  "school": "Cross-tradition",
+  "school_color_token": "kashmir-shaiva-dualist",
+  "sub_school": "Tamil Śaiva-Siddhānta (Meykaṇṭār lineage)",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Meykaṇṭār is the thirteenth-century Tamil Śaiva Siddhānta author of the *Civañāṉapōtam*, also known in Sanskritized title as *Śivajñānabodham*. The work is the doctrinal starting point of the Meykaṇṭār lineage and states Śaiva Siddhānta through the triad of *pati* (Śiva), *paśu* (soul), and *pāśa* (bond). Its position is pluralist and theistic: Śiva, souls, and bonds are not collapsed into Advaitic identity, and liberation depends on Śiva's grace and removal of bondage rather than on a simple recognition that the soul was always identical with Śiva. This entry avoids verse-level doctrinal claims because no clean local Tamil text has been added.",
+  "engaged_works": [
+    {
+      "work_id": "civananapotam",
+      "title": "Civananapotam",
+      "title_iast": "Civañāṉapōtam",
+      "alternate_titles": [
+        "Śivajñānabodham",
+        "Sivajnanabodham"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The work is the standardly transmitted foundational text of Meykaṇṭār in the Tamil Śaiva Siddhānta tradition.",
+      "genre": "prakarana",
+      "language": "tamil",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A short Tamil doctrinal text that functions as the root treatise of the Meykaṇṭār Śaiva Siddhānta lineage. It sets out the relation of Lord, soul, and bond, and frames liberation as the soul's release from bondage through Śiva's grace. Its importance for the Vedānta timeline is comparative: it gives a classical South Indian Śaiva Siddhānta alternative to Advaita, one in which the real difference between Śiva and individual souls remains doctrinally significant even when liberation is attained. The text is available in editions and translations, but no clean local corpus text has been acquired here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

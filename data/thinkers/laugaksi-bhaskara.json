@@ -1,0 +1,44 @@
+{
+  "id": "laugaksi-bhaskara",
+  "name": "Laugaksi Bhaskara",
+  "name_iast": "Laugākṣi Bhāskara",
+  "alternate_names": [
+    "Laugākṣi Bhāskara"
+  ],
+  "dates_low": 1600,
+  "dates_high": 1700,
+  "dates_tier": "contested",
+  "dates_notes": "Laugākṣi Bhāskara is generally placed in the seventeenth century by the early-modern reception of the Artha-Saṃgraha as a short Mīmāṃsā primer.",
+  "school": "Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Early Modern Bhāṭṭa Mīmāṃsā",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "jaimini",
+    "shabara",
+    "kumarila"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Laugākṣi Bhāskara is known for the Artha-Saṃgraha, a short primer of Pūrva-Mīmāṃsā. Like Āpadeva's manual, it does not claim to replace the Jaimini-Śabara-Kumārila tradition; it compresses the topics needed for instruction. The work introduces the interpretive logic by which Vedic sentences are classified and coordinated: vidhi, niṣedha, mantra, nāmadheya, arthavāda, apūrva, adhikāra, and the relation between principal and subsidiary ritual elements. Its value for the timeline is as a clear entry point into the Mīmāṃsā theory of Vedic meaning that Vedānta inherits and disputes.",
+  "engaged_works": [
+    {
+      "work_id": "artha-samgraha",
+      "title": "Artha-Samgraha",
+      "title_iast": "Artha-Saṃgraha",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Laugākṣi Bhāskara in the Mīmāṃsā pedagogical tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A compact primer on Pūrva-Mīmāṃsā categories. The Artha-Saṃgraha introduces the student to the basic hermeneutical machinery for interpreting Vedic injunctions and ritual texts: the authority of Vedic sentences, the kinds of Vedic statements, the role of apūrva, and the relation between main and subordinate rites. It is among the shortest standard gateways into Mīmāṃsā and is especially useful for understanding the ritual-hermeneutical background presupposed by Vedānta authors.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "srinivasa-dasa",
+  "name": "Srinivasa Dasa",
+  "name_iast": "Śrīnivāsa Dāsa",
+  "alternate_names": [
+    "Śrīnivāsadāsa"
+  ],
+  "dates_low": 1550,
+  "dates_high": 1700,
+  "dates_tier": "contested",
+  "dates_notes": "Usually placed in the late sixteenth or seventeenth century; the broad range reflects uncertain biographical records and dating chiefly from textual transmission.",
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Śrīvaiṣṇava scholastic manual tradition",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "ramanuja",
+    "vedanta-desika",
+    "pillai-lokacarya"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Śrīnivāsa Dāsa is known through the Yatīndramatadīpikā, a concise Sanskrit manual of Rāmānuja's doctrine. The work summarizes Viśiṣṭādvaita ontology, epistemology, and soteriology for students rather than proposing a new school position. Its central role is pedagogical: it presents the tradition's standard account of Brahman as Nārāyaṇa qualified by cit and acit, the reality of the individual self and world, the rejection of an indeterminate nirviśeṣa Brahman, and the devotional path in a compact scholastic format. Because his biography is thin and the work is the secure anchor, this entry treats him primarily as the author of that manual.",
+  "engaged_works": [
+    {
+      "work_id": "yatindramatadipika",
+      "title": "Yatindramatadipika",
+      "title_iast": "Yatīndramatadīpikā",
+      "alternate_titles": [
+        "Yatindra-mata-dipika",
+        "Yatīndra-mata-dīpikā"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Śrīnivāsa Dāsa in the printed and pedagogical Śrīvaiṣṇava tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A concise Sanskrit handbook of Viśiṣṭādvaita Vedānta. The text arranges the school's inherited positions into a teachable sequence: valid means of knowledge, the categories of reality, the nature of Brahman, the status of selves and matter, bondage, liberation, and the means to liberation. It is not a polemical expansion on the scale of Rāmānuja's Śrī-Bhāṣya or Vedānta Deśika's Śatadūṣaṇī; its value is as a stable manual that preserves the school consensus in compressed form. The available archive OCR checked in this pass was too corrupt to ingest as clean text.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

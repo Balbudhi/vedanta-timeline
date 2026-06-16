@@ -1,0 +1,55 @@
+{
+  "id": "vadideva-suri",
+  "name": "Vadideva Suri",
+  "name_iast": "Vādideva Sūri",
+  "alternate_names": [
+    "Vādidevasūri"
+  ],
+  "dates_low": 1086,
+  "dates_high": 1169,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "The 1086-1169 range is the standard Śvetāmbara Jaina chronological placement for Vādideva Sūri in modern accounts of medieval Jaina logic.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Śvetāmbara — Navya-Nyāya-engaged",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "hemacandra"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Vādideva Sūri is a medieval Śvetāmbara Jaina logician associated with the *Pramāṇa-Naya-Tattvāloka-Alaṅkāra* and its large auto-commentarial exposition, the *Syādvāda-Ratnākara*. The works present Jaina epistemology through the paired categories of *pramāṇa* and *naya*: valid cognition gives a reliable grasp of an object, while standpoints articulate partial but legitimate modes of predication. The doctrinal claim that can be stated safely here is the standard Jaina one the work elaborates: *syādvāda* is not bare relativism but standpoint-conditioned predication about real objects with multiple aspects. The available primary text is scan-level rather than a clean local text, so no exact passage citations are asserted.",
+  "engaged_works": [
+    {
+      "work_id": "pramana-naya-tattvaloka-alankara",
+      "title": "Pramana-Naya-Tattvaloka-Alankara",
+      "title_iast": "Pramāṇa-Naya-Tattvāloka-Alaṅkāra",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The base treatise is standardly ascribed to Vādideva Sūri in the Śvetāmbara Jaina scholastic tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A systematic Śvetāmbara Jaina treatise on valid cognition and standpoints. Its title already marks the structure: *pramāṇa* supplies valid cognition of real things, while *naya* explains how partial predications can be true under specified standpoints. The work stands in the Jaina logic tradition after Siddhasena, Akalaṅka, Haribhadra, and Hemacandra, and it prepares the more expansive argumentation of the *Syādvāda-Ratnākara*. It is included here as the base text for Vādideva's account of Jaina epistemology.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "syadvada-ratnakara",
+      "title": "Syadvada-Ratnakara",
+      "title_iast": "Syādvāda-Ratnākara",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The large explanatory work is transmitted with Vādideva Sūri's base treatise and is standardly treated as his own exposition.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A large exposition of the *Pramāṇa-Naya-Tattvāloka-Alaṅkāra*. It develops the Jaina analysis of *syādvāda*, *naya*, and pramāṇa in debate-facing form, defending standpoint-conditioned predication against rival claims that truth must be either single-aspect or self-contradictory. For the Vedānta timeline it matters as a major medieval Śvetāmbara presentation of the Jaina position later Brahmanical authors meet under the headings of *anekānta* and *syādvāda*. The work is available in scans, but no clean local Sanskrit text has been added.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

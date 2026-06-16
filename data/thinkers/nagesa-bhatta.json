@@ -1,0 +1,71 @@
+{
+  "id": "nagesa-bhatta",
+  "name": "Nagesa Bhatta",
+  "name_iast": "Nāgeśa Bhaṭṭa",
+  "alternate_names": [
+    "Nāgoji Bhaṭṭa",
+    "Nāgeśabhaṭṭa"
+  ],
+  "dates_low": 1670,
+  "dates_high": 1750,
+  "dates_tier": "contested",
+  "dates_notes": "Nāgeśa is placed in the late seventeenth and early eighteenth century by his position after Bhaṭṭoji's school and by the reception of his grammatical works in the Vārāṇasī scholastic curriculum.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Vyākaraṇa philosophy of language",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "bhattoji-diksita",
+    "kondabhatta",
+    "bhartrhari"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Nāgeśa Bhaṭṭa is the late early-modern grammarian who consolidates the Pāṇinian scholastic system and its philosophical semantics. His Mañjūṣā works and Sphoṭavāda continue the grammatical defense of sphoṭa, sentence meaning, and the autonomy of śabda-analysis against Nyāya and Mīmāṃsā alternatives. His wider grammatical corpus, including the Paribhāṣenduśekhara, also systematizes the interpretive rules by which Pāṇinian sūtras are applied. In the timeline he belongs with the grammarian interlocutors of Vedānta because disputes over śabda, sentence cognition, and Vedic meaning cannot be understood from Nyāya and Mīmāṃsā alone.",
+  "engaged_works": [
+    {
+      "work_id": "vaiyakarana-siddhanta-laghu-manjusa",
+      "title": "Vaiyakarana-Siddhanta-Laghu-Manjusa",
+      "title_iast": "Vaiyākaraṇa-Siddhānta-Laghu-Mañjūṣā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Nāgeśa in the grammatical tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A compact philosophical treatment of grammarian doctrine. The Laghu-Mañjūṣā addresses semantic and metaphysical questions internal to Vyākaraṇa: what a word signifies, how sentence meaning arises, how sphoṭa is to be defended, and how grammatical categories relate to cognition. It is a late synthesis rather than a beginner's grammar, and it represents the mature post-Bhaṭṭoji phase of grammatical philosophy.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "parama-laghu-manjusa",
+      "title": "Parama-Laghu-Manjusa",
+      "title_iast": "Parama-Laghu-Mañjūṣā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Nāgeśa as a shorter Mañjūṣā presentation.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A still shorter presentation of Nāgeśa's grammatical-philosophical doctrine. It distills the larger Mañjūṣā material for study while retaining the core issues of sphoṭa, śabda, syntactic expectancy, and verbal cognition. Its value is curricular: it is one of the forms in which later students encounter the grammarian alternative to Nyāya and Mīmāṃsā semantic analysis.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sphota-vada",
+      "title": "Sphota-Vada",
+      "title_iast": "Sphoṭa-Vāda",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Nāgeśa in lists of his grammatical-philosophical works.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A focused defense of the sphoṭa doctrine, the grammarian account of the meaning-bearing linguistic unit distinct from the sequence of audible phonetic events. The work belongs to the long post-Bhartṛhari debate over whether meaning is grounded in phonemes, words, sentence-wholes, or an indivisible linguistic disclosure. For Vedānta-facing use, it marks the late grammatical form of the śabda debate.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "parasara-bhattar",
+  "name": "Parasara Bhattar",
+  "name_iast": "Parāśara Bhaṭṭar",
+  "alternate_names": [
+    "Parāśara Bhaṭṭārya"
+  ],
+  "dates_low": 1122,
+  "dates_high": 1174,
+  "dates_tier": "contested",
+  "dates_notes": "Twelfth-century Śrīvaiṣṇava teacher; the c. 1122-1174 range is a traditional-scholarly approximation rather than a securely epigraphic lifespan.",
+  "school": "Viśiṣṭādvaita",
+  "school_color_token": "vishishtadvaita",
+  "sub_school": "Śrīvaiṣṇava",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "ramanuja",
+    "yamuna"
+  ],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Parāśara Bhaṭṭar is an early post-Rāmānuja Śrīvaiṣṇava author associated with the Śrīraṅgam community and the transmission of Rāmānuja's Viśiṣṭādvaita. His best-known work, the Bhagavad-guṇa-darpaṇa, reads the Viṣṇu-sahasranāma as a compact theological disclosure of Nārāyaṇa's auspicious qualities rather than as a merely liturgical name-list. His Śrī Guṇa-ratna-kośa gives a parallel devotional-theological presentation of Śrī as inseparable from Nārāyaṇa in the tradition's worship and soteriology. The entry should be read as documenting his place in Śrīvaiṣṇava textual transmission, not as a fresh reconstruction of doctrine from an on-disk primary corpus.",
+  "engaged_works": [
+    {
+      "work_id": "bhagavad-guna-darpana",
+      "title": "Bhagavad-guna-darpana",
+      "title_iast": "Bhagavad-guṇa-darpaṇa",
+      "alternate_titles": [
+        "Vishnu-sahasranama-bhashya",
+        "Viṣṇu-sahasranāma-bhāṣya"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Parāśara Bhaṭṭar in the Śrīvaiṣṇava commentarial tradition and in modern cataloguing.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit commentary on the Viṣṇu-sahasranāma. Bhaṭṭar treats the thousand names as a structured account of Bhagavān's auspicious qualities and salvific accessibility, reading the name-sequence through the Śrīvaiṣṇava theological grammar inherited from Yāmuna and Rāmānuja. The work is important for the way it brings Viśiṣṭādvaita's account of a qualified, personal Brahman into the devotional and liturgical setting of sahasranāma recitation. Because no clean primary text was added in this pass, specific doctrinal claims should be verified against a future corpus copy before citation.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sri-guna-ratna-kosa",
+      "title": "Sri Guna-ratna-kosa",
+      "title_iast": "Śrī Guṇa-ratna-kośa",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed in the Śrīvaiṣṇava tradition.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit hymn to Śrī that presents her theological role in Śrīvaiṣṇava devotion. The work belongs to the same post-Rāmānuja milieu that treats Śrī not as an optional devotional figure but as integral to the worship of Nārāyaṇa and to the devotee's appeal for grace. Its relevance for the timeline is the early Śrīvaiṣṇava articulation of Śrī's place in the tradition's devotional and soteriological vocabulary.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

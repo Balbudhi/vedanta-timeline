@@ -1,0 +1,72 @@
+{
+  "id": "nrsimhasrama",
+  "name": "Nrsimhasrama",
+  "name_iast": "Nṛsiṃhāśrama",
+  "alternate_names": [
+    "Nṛsiṃhāśrama Muni",
+    "Nṛsiṃhāśramin"
+  ],
+  "dates_low": 1500,
+  "dates_high": 1575,
+  "dates_tier": "contested",
+  "dates_notes": "Usually placed in the sixteenth century from his relation to Appayya Dīkṣita and Dharmarāja Adhvarīndra, but precise chronology is uncertain.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Vivaraṇa-Advaita",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "prakasatman",
+    "sarvajnatman"
+  ],
+  "lineage_out": [
+    "dharmaraja"
+  ],
+  "core_thesis": "Nṛsiṃhāśrama is a sixteenth-century Advaitin associated with the Vivaraṇa scholastic stream and with polemical defenses of non-duality against difference-realism. The works attributed to him include the *Vedānta-tattva-viveka*, *Bhedadhikkāra*, *Advaitadīpikā*, and a *Tattvabodhinī* on Sarvajñātman's *Saṃkṣepa-śārīraka*. The profile is that of a systematizing and defensive Advaitin: he consolidates inherited Advaita positions, replies to objections centered on real difference, and helps form the pedagogical context from which Dharmarāja's *Vedānta-paribhāṣā* emerges. The available online text sampled for *Vedānta-tattva-viveka* was OCR from scan and not clean corpus text.",
+  "engaged_works": [
+    {
+      "work_id": "vedanta-tattva-viveka",
+      "title": "Vedanta-tattva-viveka",
+      "title_iast": "Vedānta-tattva-viveka",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Attested in the Advaita printed tradition as a work of Nṛsiṃhāśrama.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit Advaita treatise attributed to Nṛsiṃhāśrama and used to represent his systematic side. The work belongs to the scholastic Advaita environment in which questions about Brahman, ignorance, difference, and the means of liberating knowledge are handled in compact technical prose and verse. Archive records for the work were found, including a Dakṣiṇāmūrti Maṭha scan, but the available OCR sample was not clean enough to import as plaintext.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "bhedadhikkara",
+      "title": "Bhedadhikkara",
+      "title_iast": "Bhedadhikkāra",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Attested as a polemical Advaita work of Nṛsiṃhāśrama.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A polemical treatise whose title indicates censure or rejection of *bheda*, real difference. The work is included because it represents Nṛsiṃhāśrama's defensive Advaita register: objections to non-duality are answered by challenging the final coherence of independently real difference. No clean local plaintext was found in this pass.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "advaitadipika",
+      "title": "Advaitadipika",
+      "title_iast": "Advaitadīpikā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Attested among Nṛsiṃhāśrama's Advaita works.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An Advaita treatise attributed to Nṛsiṃhāśrama and included to capture the breadth of his scholastic output beyond the *Vedānta-tattva-viveka*. No local corpus text was fetched for this work.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

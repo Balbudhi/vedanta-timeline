@@ -1,0 +1,62 @@
+{
+  "id": "kondabhatta",
+  "name": "Kondabhatta",
+  "name_iast": "Koṇḍabhaṭṭa",
+  "alternate_names": [
+    "Kauṇḍabhaṭṭa",
+    "Koṇḍa Bhaṭṭa"
+  ],
+  "dates_low": 1600,
+  "dates_high": 1670,
+  "dates_tier": "contested",
+  "dates_notes": "Koṇḍabhaṭṭa is generally placed in the early to mid-seventeenth century as a close successor in Bhaṭṭoji Dīkṣita's grammatical line.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Vyākaraṇa philosophy of language",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "bhattoji-diksita",
+    "bhartrhari"
+  ],
+  "lineage_out": [
+    "nagesa-bhatta"
+  ],
+  "core_thesis": "Koṇḍabhaṭṭa is the grammarian-philosopher who turns the Bhaṭṭoji line toward explicit semantic theory. The Vaiyākaraṇa-Bhūṣaṇa and its shorter Bhūṣaṇa-Sāra are not elementary grammar manuals; they are arthavicāra, investigations into meaning. Their topics include the relation between word and meaning, the function of case endings, the status of sphoṭa, sentence-meaning, and the grammarian account of verbal cognition. The work matters as a post-Bhartṛhari grammatical response to Nyāya and Mīmāṃsā accounts of śabda: it preserves the grammarian commitment that linguistic analysis cannot be reduced to atomized word-denotation alone.",
+  "engaged_works": [
+    {
+      "work_id": "vaiyakarana-bhusana",
+      "title": "Vaiyakarana-Bhusana",
+      "title_iast": "Vaiyākaraṇa-Bhūṣaṇa",
+      "alternate_titles": [
+        "Bṛhad-Vaiyākaraṇa-Bhūṣaṇa"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Koṇḍabhaṭṭa in the grammatical tradition.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A sustained grammatical-philosophical treatise on meaning. The Vaiyākaraṇa-Bhūṣaṇa works from within the Pāṇinian and Bhartṛhari inheritance, but its immediate function is early-modern debate: it answers competing Nyāya and Mīmāṃsā semantic analyses by clarifying the grammarian account of denotation, syntactic connection, verbal roots, case endings, sphoṭa, and sentence cognition. Its importance is that it gives the Bhaṭṭoji school a doctrinally explicit philosophy of language rather than only a derivational grammar.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "vaiyakarana-bhusana-sara",
+      "title": "Vaiyakarana-Bhusana-Sara",
+      "title_iast": "Vaiyākaraṇa-Bhūṣaṇa-Sāra",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely transmitted as Koṇḍabhaṭṭa's abridged presentation of the Bhūṣaṇa material.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A shorter and more teachable presentation of the semantic doctrine associated with the Vaiyākaraṇa-Bhūṣaṇa. The Sāra became the more accessible form of Koṇḍabhaṭṭa's arthavicāra, carrying the same core topics into the scholastic curriculum: sphoṭa, word-meaning, sentence-meaning, the semantics of verbal roots and suffixes, and the grammarian alternative to Naiyāyika and Mīmāṃsaka theories of śābda-bodha.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

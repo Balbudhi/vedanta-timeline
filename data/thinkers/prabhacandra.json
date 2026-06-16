@@ -1,0 +1,56 @@
+{
+  "id": "prabhacandra",
+  "name": "Prabhacandra",
+  "name_iast": "Prabhācandra",
+  "alternate_names": [
+    "Prabhācandra Sūri"
+  ],
+  "dates_low": 980,
+  "dates_high": 1065,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Prabhācandra is conventionally placed in the late tenth to mid-eleventh century from Jaina scholastic succession and from the works he comments on and extends.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara-dialectical",
+  "sub_school_shade": 5,
+  "lineage_in": [
+    "manikyanandi",
+    "akalanka"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Prabhācandra is a Digambara Jaina logician whose major works continue the Akalaṅka-Māṇikyanandi line of Jaina pramāṇa theory. The *Prameya-Kamala-Mārtaṇḍa* comments on Māṇikyanandi's *Parīkṣāmukha* and expands its concise account of valid cognition, inference, standpoints, and Jaina realism into a large scholastic commentary. The *Nyāya-Kumuda-Candra* is a sustained Jaina work of logic and epistemology, engaging Buddhist pramāṇa theory and Brahmanical Nyāya from the standpoint of Jaina anekānta, naya analysis, and the substance-mode account of real things. The entry treats his doctrine only at this established level: Prabhācandra is a commentator and systematizer of Digambara Jaina logic, not an independent source for claims not grounded in those named works.",
+  "engaged_works": [
+    {
+      "work_id": "prameya-kamala-martanda",
+      "title": "Prameya-Kamala-Martanda",
+      "title_iast": "Prameya-Kamala-Mārtaṇḍa",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standard Digambara Jaina and modern scholarly references ascribe the commentary to Prabhācandra.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A large commentary on Māṇikyanandi's *Parīkṣāmukha*, explaining the Jaina account of valid cognition and the categories needed for inference and debate. The work receives the compact sūtra-style base text and develops its positions in the post-Akalaṅka scholastic idiom: cognition is assessed through the Jaina pramāṇa framework, predication is conditioned by standpoint, and real things are treated as substance-mode complexes rather than as either momentary particulars or unqualified substances. Its importance for this roster is mainly genealogical and dialectical: it shows how the shorter Jaina logic manual became a fully developed commentary tradition in conversation with Buddhist and Naiyāyika opponents.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "nyaya-kumuda-candra",
+      "title": "Nyaya-Kumuda-Candra",
+      "title_iast": "Nyāya-Kumuda-Candra",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standard Jaina bibliographies and modern accounts of Jaina logic treat the work as Prabhācandra's.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An extensive Jaina treatise in logic and epistemology. The work belongs to the same scholastic environment as the *Prameya-Kamala-Mārtaṇḍa* and develops Jaina replies to rival accounts of cognition, inference, universals, and ontological determination. Its Jaina position is the mature Digambara dialectical one: cognition and predication must be handled through a many-sided account of real objects, while one-sided Buddhist and Naiyāyika analyses are rejected where they cannot account for the persistence and modal variation of things. The surviving printed editions are scan-level resources rather than a clean corpus text here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

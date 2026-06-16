@@ -1,0 +1,64 @@
+{
+  "id": "annambhatta",
+  "name": "Annambhatta",
+  "name_iast": "Annambhaṭṭa",
+  "alternate_names": [
+    "Annaṃbhaṭṭa"
+  ],
+  "dates_low": 1600,
+  "dates_high": 1700,
+  "dates_tier": "contested",
+  "dates_notes": "Annambhaṭṭa is generally placed in the seventeenth century; precise biographical anchors are sparse, but the Tarka-Saṃgraha's curricular reception is early-modern.",
+  "school": "Nyāya",
+  "school_color_token": "nyaya-comparator",
+  "sub_school": "Nyāya-Vaiśeṣika pedagogical",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "aksapada",
+    "kanada",
+    "prashastapada",
+    "udayana"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Annambhaṭṭa is the author of the Tarka-Saṃgraha and its Dīpikā, the compact teaching manual through which many students first learn the Nyāya-Vaiśeṣika category system. The work presents the seven padārthas, the nine substances, twenty-four qualities, five motions, universals, particulars, inherence, and absence, together with the pramāṇa framework needed for elementary logic. It is not a radical innovation over Udayana or the Navya-Nyāya authors; its importance is that it makes the mature Nyāya-Vaiśeṣika synthesis teachable in a small, durable text.",
+  "engaged_works": [
+    {
+      "work_id": "tarka-samgraha",
+      "title": "Tarka-Samgraha",
+      "title_iast": "Tarka-Saṃgraha",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Annambhaṭṭa and uniformly transmitted with his name.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/nyaya/annambhatta_tarka_sangraha.txt"
+      ],
+      "summary": "A concise Nyāya-Vaiśeṣika primer. The Tarka-Saṃgraha begins with the seven padārthas and proceeds through substance, quality, action, universals, particulars, inherence, absence, and the pramāṇas. Its presentation is deliberately compressed and curricular. The work is valuable for the timeline because it gives the standard introductory form of the realist category ontology that Vedānta, Buddhist pramāṇa, Jaina logic, Mīmāṃsā, and grammar texts repeatedly engage.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "tarka-samgraha-dipika",
+      "title": "Tarka-Samgraha-Dipika",
+      "title_iast": "Tarka-Saṃgraha-Dīpikā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely transmitted as Annambhaṭṭa's own commentary on the Tarka-Saṃgraha.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/nyaya/annambhatta_tarka_sangraha_comm.txt"
+      ],
+      "summary": "Annambhaṭṭa's explanatory commentary on the Tarka-Saṃgraha. The Dīpikā expands the root manual's terse category lists and definitions, making explicit the intended Nyāya-Vaiśeṣika interpretation. It is often read together with the root text because the manual by itself is too compressed for independent study.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

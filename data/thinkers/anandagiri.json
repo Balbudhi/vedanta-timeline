@@ -1,0 +1,60 @@
+{
+  "id": "anandagiri",
+  "name": "Anandagiri",
+  "name_iast": "Ānandagiri",
+  "alternate_names": [
+    "Ānandajñāna",
+    "Anandajnana"
+  ],
+  "dates_low": 1250,
+  "dates_high": 1325,
+  "dates_tier": "contested",
+  "dates_notes": "Usually placed in the late thirteenth to early fourteenth century from his sub-commentarial position in the Śaṅkara-bhāṣya tradition.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Advaita sub-commentarial",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "sankara",
+    "sureshvara"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Ānandagiri, also called Ānandajñāna, is known for sub-commentaries on Śaṅkara's bhāṣyas, often transmitted under the title *Nyāyanirṇaya* or as *ṭīkās* on individual bhāṣyas. His work belongs to the stabilizing layer of Advaita commentary: he explains difficult points in Śaṅkara, records earlier interpretive alternatives, and sometimes preserves information about pre-Śaṅkara or rival Vedānta positions through labels and scholastic summaries. The roster value is therefore textual and interpretive. He is not presented here as founding a new doctrinal sub-school, but as a major witness to the received reading of Śaṅkara in the medieval Advaita curriculum.",
+  "engaged_works": [
+    {
+      "work_id": "nyaya-nirnaya-subcommentaries",
+      "title": "Nyaya-nirnaya sub-commentaries",
+      "title_iast": "Nyāyanirṇaya sub-commentaries",
+      "alternate_titles": [
+        "Ānandagiri-ṭīkās"
+      ],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "The sub-commentaries on Śaṅkara's bhāṣyas circulate under Ānandagiri or Ānandajñāna in the Advaita printed tradition; individual attributions can vary by edition.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A body of sub-commentaries on Śaṅkara's bhāṣyas, especially on Upaniṣad and related Advaita texts, transmitted in printed editions as Ānandagiri's explanatory layer. The works clarify Śaṅkara's arguments, supply grammatical and philosophical glosses, and preserve scholastic identifications of opponents and alternative readings. Their philosophical importance lies less in a new independent thesis than in the mediation of the Śaṅkara corpus for later Advaita study. Some Ānandagiri material is printed in standard bhāṣya editions, but no clean standalone local plaintext for these sub-commentaries was fetched in this pass.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "gita-bhasya-tika",
+      "title": "Gita-bhasya-tika",
+      "title_iast": "Gītā-bhāṣya-ṭīkā",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Traditionally transmitted as Ānandagiri's gloss on Śaṅkara's Bhagavad-Gītā-bhāṣya, though exact title usage varies.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A sub-commentarial gloss on Śaṅkara's Bhagavad-Gītā-bhāṣya in the Advaita tradition. It represents the same explanatory function as the *Nyāyanirṇaya* materials: clarifying Śaṅkara's wording and doctrinal sequence for later readers. No clean local plaintext was imported in this pass.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

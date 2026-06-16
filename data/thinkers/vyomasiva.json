@@ -1,0 +1,46 @@
+{
+  "id": "vyomasiva",
+  "name": "Vyomasiva",
+  "name_iast": "Vyomaśiva",
+  "alternate_names": [
+    "Vyomaśivācārya"
+  ],
+  "dates_low": 900,
+  "dates_high": 1000,
+  "dates_tier": "contested",
+  "dates_notes": "Vyomaśiva is usually placed around the tenth century, before Śrīdhara and Udayana in the commentary tradition on Praśastapāda.",
+  "school": "Vaiśeṣika",
+  "school_color_token": "vaisesika-comparator",
+  "sub_school": "Classical Vaiśeṣika",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "kanada",
+    "prashastapada"
+  ],
+  "lineage_out": [
+    "sridhara",
+    "udayana"
+  ],
+  "core_thesis": "Vyomaśiva is an early commentator on Praśastapāda's Padārtha-Dharma-Saṅgraha. The Vyomavatī is one of the three major classical commentaries on that text, alongside Śrīdhara's Nyāya-Kandalī and Udayana's Kiraṇāvalī. Its role is exegetical and dialectical: it explains Praśastapāda's categorial realism, argues through difficult points in substance, quality, motion, universal, particularity, inherence, and absence, and records an early mature stage of Vaiśeṣika reasoning before the full Nyāya-Vaiśeṣika synthesis. The entry is therefore a necessary counterpart to Śrīdhara and Udayana, not a new doctrinal school.",
+  "engaged_works": [
+    {
+      "work_id": "vyomavati",
+      "title": "Vyomavati",
+      "title_iast": "Vyomavatī",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Vyomaśiva in the Vaiśeṣika commentarial tradition.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A commentary on Praśastapāda's Padārtha-Dharma-Saṅgraha. The Vyomavatī proceeds through the Vaiśeṣika category scheme and explains the ontological commitments of classical Vaiśeṣika: substances and their qualities, the status of motion, universals and ultimate particulars, inherence, and the debated status of absence. It is especially valuable because it preserves an early stage of the Padārtha-Dharma-Saṅgraha's interpretation, before Śrīdhara and Udayana's better-known treatments became dominant in later study.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

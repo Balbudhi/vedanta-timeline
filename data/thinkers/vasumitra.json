@@ -1,0 +1,56 @@
+{
+  "id": "vasumitra",
+  "name": "Vasumitra",
+  "name_iast": "Vasumitra",
+  "dates_low": 100,
+  "dates_high": 200,
+  "dates_tier": "contested",
+  "dates_notes": "The Sarvāstivāda Vasumitra is usually placed around the second century CE, but the name is shared by more than one Buddhist scholastic figure and the chronology remains approximate.",
+  "school": "Cross-tradition",
+  "school_color_token": "sarvastivada-comparator",
+  "sub_school": "Sarvāstivāda-Vaibhāṣika",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [
+    "sanghabhadra",
+    "vasubandhu-abhidharma"
+  ],
+  "core_thesis": "Vasumitra is a Sarvāstivāda Abhidharma authority associated with the *Prakaraṇapāda* and, in the tradition, with the Vaibhāṣika analysis of how dharmas exist across the three times. Because the name and chronology are not documentary in the same way as later Sanskrit authors, the entry keeps the claims narrow: Vasumitra represents an early Sarvāstivāda scholastic stratum behind the system Vasubandhu summarizes and Saṅghabhadra defends. In later reports of Sarvāstivāda temporal theory, his view is the *avasthā-anyathātva* account, on which a dharma is understood through differences of state across past, present, and future rather than through a wholly different substance at each time.",
+  "engaged_works": [
+    {
+      "work_id": "prakaranapada",
+      "title": "Prakaranapada",
+      "title_iast": "Prakaraṇapāda",
+      "alternate_titles": [
+        "Prakaraṇapāda-Śāstra"
+      ],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "The work is traditionally associated with Vasumitra in Sarvāstivāda Abhidharma lists; the Sanskrit text is not available here as a clean corpus source.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An early Sarvāstivāda Abhidharma treatise in the scholastic corpus behind the later Vaibhāṣika system. It belongs to the analytic literature that classifies dharmas, mental factors, conditioned processes, and path categories. For this timeline its value is as background to Vasubandhu's *Abhidharmakośa*: the Kośa inherits and reorganizes this older Abhidharma taxonomy, while later Vedāntic and Buddhist debates meet Sarvāstivāda largely through that reorganized form. The ascription is traditional rather than documented by an extant Sanskrit authorial colophon available here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "dhatukaya",
+      "title": "Dhatukaya",
+      "title_iast": "Dhātukāya",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Sarvāstivāda tradition also associates the Dhātukāya with Vasumitra, but the authorial and textual situation is not secure enough for stronger claims.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sarvāstivāda Abhidharma text organized around the analysis of dhātus and related classificatory categories. Its inclusion records the traditional association with Vasumitra and the role of early Abhidharma taxonomy in the formation of the later Vaibhāṣika system. Since the accessible form is not a clean Sanskrit corpus text here, the entry does not use it for exact doctrinal citation.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

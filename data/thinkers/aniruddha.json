@@ -1,0 +1,47 @@
+{
+  "id": "aniruddha",
+  "name": "Aniruddha",
+  "name_iast": "Aniruddha",
+  "alternate_names": [
+    "Aniruddhācārya"
+  ],
+  "dates_low": 1400,
+  "dates_high": 1500,
+  "dates_tier": "contested",
+  "dates_notes": "Aniruddha is commonly placed around the fifteenth century as an early commentator on the Sāṅkhya-Sūtra before Vijñānabhikṣu's later Sāṅkhya-Pravacana-Bhāṣya.",
+  "school": "Sāṅkhya",
+  "school_color_token": "sankhya-comparator",
+  "sub_school": "Classical Sāṅkhya commentarial",
+  "sub_school_shade": 2,
+  "lineage_in": [
+    "isvara-krsna"
+  ],
+  "lineage_out": [
+    "vijnanabhiksu"
+  ],
+  "core_thesis": "Aniruddha is known for the Sāṅkhya-Sūtra-Vṛtti, an early commentary on the Sāṅkhya-Sūtra. The work belongs to the later sūtra-based Sāṅkhya tradition rather than to the older Sāṅkhya-Kārikā line alone. Its importance is chronological and exegetical: it witnesses how Sāṅkhya categories such as prakṛti, puruṣa, the guṇas, satkāryavāda, bondage, and kaivalya were read in a sūtra-commentarial format before Vijñānabhikṣu's Vedānta-Yoga-Sāṅkhya synthesis. Because the clean text was not located in this run, this entry avoids specific doctrinal claims beyond the standard Sāṅkhya commitments attached to the work.",
+  "engaged_works": [
+    {
+      "work_id": "sankhya-sutra-vrtti",
+      "title": "Sankhya-Sutra-Vrtti",
+      "title_iast": "Sāṅkhya-Sūtra-Vṛtti",
+      "alternate_titles": [
+        "Sāṅkhya-Pravacana-Sūtra-Vṛtti"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Traditionally and scholarly attributed to Aniruddha as a commentary on the Sāṅkhya-Sūtra.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A commentary on the Sāṅkhya-Sūtra. The Vṛtti explains the sūtra presentation of Sāṅkhya's core categories and arguments: the distinction between prakṛti and puruṣa, the plurality of puruṣas, the guṇas, satkāryavāda, the production of the tattvas, bondage through non-discrimination, and liberation through discriminative knowledge. It is important as a pre-Vijñānabhikṣu witness to sūtra-based Sāṅkhya exegesis.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

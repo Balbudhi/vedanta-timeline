@@ -1,0 +1,45 @@
+{
+  "id": "sri-harsa",
+  "name": "Sri Harsa",
+  "name_iast": "Śrī Harṣa",
+  "alternate_names": [
+    "Śrīharṣa"
+  ],
+  "dates_low": 1150,
+  "dates_high": 1180,
+  "dates_tier": "contested",
+  "dates_notes": "Usually placed in the later twelfth century from literary and court-context evidence, but exact dates remain debated.",
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Advaita dialectical-polemical",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "sankara"
+  ],
+  "lineage_out": [],
+  "core_thesis": "Śrī Harṣa is the Advaita author of the *Khaṇḍanakhaṇḍakhādya*, a Sanskrit polemical treatise directed chiefly against Nyāya accounts of definition, proof, categories, and realist metaphysics. The work does not present Advaita by a full constructive commentary on scripture; it works destructively, pressing rival definitions until they fail to secure the determinate objects and relations they claim to explain. Its Advaita use is clear: the failure of realist categorial definition supports the school's insistence that empirical discourse is valid only at the practical level and cannot finally define Brahman or the world as independent reals. Because the available Archive OCR is noisy, no specific textual passage has been added to the local corpus.",
+  "engaged_works": [
+    {
+      "work_id": "khandanakhandakhadya",
+      "title": "Khandanakhandakhadya",
+      "title_iast": "Khaṇḍanakhaṇḍakhādya",
+      "alternate_titles": [
+        "Khaṇḍana-Khaṇḍa-Khādya"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Śrī Harṣa in the Advaita and Nyāya reception of the text.",
+      "genre": "polemical-tract",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit polemical treatise whose central method is the destructive testing of Nyāya definitions and realist categories. Śrī Harṣa examines proposed definitions of cognition, means of knowledge, absence, perception, inference, relation, causality, and related categories, arguing that the definitions fail by overextension, underextension, circularity, or dependence on further undefined notions. The work belongs to Advaita's dialectical register: it does not replace Śaṅkara's commentarial project, but clears space for non-dualism by showing that the opponent's supposedly determinate ontology cannot be made finally coherent. The text is freely visible in Archive scans and OCR, but the sampled OCR was too corrupt to treat as clean local plaintext.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

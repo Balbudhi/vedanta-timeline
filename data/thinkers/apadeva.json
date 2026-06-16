@@ -1,0 +1,51 @@
+{
+  "id": "apadeva",
+  "name": "Apadeva",
+  "name_iast": "Āpadeva",
+  "alternate_names": [
+    "Āpadeva Miśra",
+    "Āpadevī-kāra"
+  ],
+  "dates_low": 1600,
+  "dates_high": 1650,
+  "dates_tier": "contested",
+  "dates_notes": "Āpadeva is placed in the early seventeenth century by family and scholastic references connected with his son Anantadeva and the early-modern Bhāṭṭa Mīmāṃsā curriculum.",
+  "school": "Mīmāṃsā",
+  "school_color_token": "mimamsa-comparator",
+  "sub_school": "Early Modern Bhāṭṭa Mīmāṃsā",
+  "sub_school_shade": 4,
+  "lineage_in": [
+    "jaimini",
+    "shabara",
+    "kumarila",
+    "parthasarathi"
+  ],
+  "lineage_out": [
+    "khandadeva"
+  ],
+  "core_thesis": "Āpadeva is the author of the Mīmāṃsā-Nyāya-Prakāśa, the standard early-modern introductory manual of Bhāṭṭa Pūrva-Mīmāṃsā. The work's importance is pedagogical and systematic: it compresses the technical apparatus of Mīmāṃsā into teachable topics such as dharma, codanā, vidhi, niṣedha, arthavāda, mantra, nāmadheya, sentence meaning, pramāṇa, and the relation of principal and subsidiary ritual acts. Āpadeva does not replace Kumārila or Pārthasārathi; he makes the Bhāṭṭa system portable for later scholastic use.",
+  "engaged_works": [
+    {
+      "work_id": "mimamsa-nyaya-prakasa",
+      "title": "Mimamsa-Nyaya-Prakasa",
+      "title_iast": "Mīmāṃsā-Nyāya-Prakāśa",
+      "alternate_titles": [
+        "Āpadevī"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Āpadeva and transmitted as his standard Mīmāṃsā manual.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A concise Bhāṭṭa Mīmāṃsā manual. The Mīmāṃsā-Nyāya-Prakāśa introduces the interpretive categories required to read Vedic injunctions: the marks of vidhi, the function of arthavāda, the roles of mantra and nāmadheya, the relation between principal acts and auxiliaries, and the Mīmāṃsā account of scriptural authority. It became one of the standard gateways into Pūrva-Mīmāṃsā because it presents the system without requiring the reader to begin from the full Jaimini-Śabara-Kumārila commentarial stack.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}

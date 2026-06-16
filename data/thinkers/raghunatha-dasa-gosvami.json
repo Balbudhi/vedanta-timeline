@@ -1,0 +1,76 @@
+{
+  "id": "raghunatha-dasa-gosvami",
+  "name": "Raghunatha dasa Gosvami",
+  "name_iast": "Raghunātha dāsa Gosvāmī",
+  "alternate_names": [
+    "Raghunātha Dāsa Gosvāmī"
+  ],
+  "dates_low": 1494,
+  "dates_high": 1586,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Sixteenth-century Gauḍīya author and associate of Caitanya's later circle; dates are conventional reconstructions from Gauḍīya biographical sources.",
+  "school": "Acintya-Bhedābheda",
+  "school_color_token": "acintya",
+  "sub_school": "Gauḍīya",
+  "sub_school_shade": 3,
+  "lineage_in": [
+    "caitanya",
+    "rupa-gosvami",
+    "sanatana-gosvami"
+  ],
+  "lineage_out": [
+    "krsnadasa-kaviraja"
+  ],
+  "lineage_polemical": [],
+  "core_thesis": "Raghunātha dāsa Gosvāmī is a sixteenth-century Gauḍīya author whose surviving corpus is primarily devotional verse rather than scholastic Vedānta. His importance for the timeline is that his poems and instructions preserve the interior devotional discipline of the Caitanya circle as received by later Vṛndāvana authors. The Stavāvalī, Manaḥ-śikṣā, Vilāpa-kusumāñjali, and related works articulate renunciation, remembrance, and aspiration for service to Rādhā-Kṛṣṇa in the Gauḍīya idiom. Kṛṣṇadāsa Kavirāja's dependence on Raghunātha's circle also makes him a key transmission figure behind the Caitanya-caritāmṛta.",
+  "engaged_works": [
+    {
+      "work_id": "stavavali",
+      "title": "Stavavali",
+      "title_iast": "Stavāvalī",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Raghunātha dāsa Gosvāmī in the Gauḍīya tradition.",
+      "genre": "stotra",
+      "language": "sanskrit",
+      "source_status": "clean-on-disk",
+      "primary_corpus_paths": [
+        "data/sources/sanskrit/caitanya_gaudiya/raghunatha_dasa_stavavali.txt"
+      ],
+      "summary": "A collection of Sanskrit hymns and devotional poems, including works such as Vilāpa-kusumāñjali and other prayers centered on Rādhā-Kṛṣṇa devotion. The collection is not a formal metaphysical treatise, but it is a primary source for Gauḍīya devotional interiority and the affective discipline presupposed by later rasa-theological writing. A clean plain-text export from the Gaudiya Grantha Mandira linked Google document was added in this pass.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "manah-siksa",
+      "title": "Manah-siksa",
+      "title_iast": "Manaḥ-śikṣā",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely ascribed to Raghunātha dāsa Gosvāmī.",
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A short Sanskrit instruction to the mind. It distills Gauḍīya devotional discipline into direct exhortation, emphasizing humility, renunciation of honor-seeking, and orientation toward Rādhā-Kṛṣṇa service. Its importance is practical and formative rather than systematic.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "mukta-carita",
+      "title": "Mukta-carita",
+      "title_iast": "Mukta-carita",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Ascribed to Raghunātha dāsa Gosvāmī in Gauḍīya textual lists and etext catalogues.",
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit devotional narrative poem within the Gauḍīya corpus. It belongs to Raghunātha's wider poetic presentation of Vraja devotion and should be used as a literary-theological source rather than as a standalone systematic Vedānta treatise.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "gap-fill-codex",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "gap-fill-codex"
+}
