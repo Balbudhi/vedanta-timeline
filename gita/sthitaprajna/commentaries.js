@@ -66852,7 +66852,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 37,
           "iast": "brahma-nirvāṇam",
-          "gloss": "the going-out into Brahman",
+          "gloss": "extinguished into Brahman",
           "parts": [
             {
               "form": "brahma",
@@ -67103,7 +67103,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 54,
           "iast": "brahma-nirvāṇam",
-          "gloss": "the going-out into Brahman",
+          "gloss": "extinguished into Brahman",
           "parts": [
             {
               "form": "brahma",
@@ -68111,7 +68111,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 61,
           "iast": "brahma-nirvāṇam",
-          "gloss": "the going-out into Brahman",
+          "gloss": "extinguished into Brahman",
           "parts": [
             {
               "form": "brahman",
@@ -68481,7 +68481,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 85,
           "iast": "brahma-nirvāṇam",
-          "gloss": "the going-out into Brahman",
+          "gloss": "extinguished into Brahman",
           "parts": [
             {
               "form": "brahman",
