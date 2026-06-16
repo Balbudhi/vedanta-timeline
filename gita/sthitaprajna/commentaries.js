@@ -9776,7 +9776,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sneha"
         },
         {
           "i": 88,
@@ -18313,7 +18313,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sanga",
+          "glossaryKey": "sneha",
           "compound": "bahuvrīhi: he in whom there is no fondness (sneha)"
         },
         {
@@ -18966,7 +18966,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sneha"
         },
         {
           "i": 8,
@@ -19226,7 +19226,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sneha"
         },
         {
           "i": 24,
@@ -20786,7 +20786,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sanga"
+          "glossaryKey": "sneha"
         },
         {
           "i": 118,
@@ -21321,7 +21321,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "sanga",
+          "glossaryKey": "sneha",
           "compound": "bahuvrīhi: he in whom there is no fondness (sneha)"
         },
         {
@@ -34919,7 +34919,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular",
-          "glossaryKey": "raga",
+          "glossaryKey": "sanga",
           "root": "√gam"
         },
         {
@@ -35030,7 +35030,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular",
-          "glossaryKey": "raga"
+          "glossaryKey": "sanga"
         },
         {
           "i": 16,
@@ -36339,7 +36339,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "raga",
+          "glossaryKey": "sanga",
           "root": "√sañj"
         },
         {
@@ -36525,7 +36525,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "ablative singular masculine",
-          "glossaryKey": "raga",
+          "glossaryKey": "sanga",
           "root": "√sañj"
         },
         {

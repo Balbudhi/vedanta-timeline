@@ -2060,7 +2060,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "predicate of yaḥ",
-        "glossaryKey": "sanga",
+        "glossaryKey": "sneha",
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi (nañ-tatpuruṣa abhisneha negated → 'one in whom there is no attachment'); the prefix abhi- governs the directedness of the sneha",
@@ -2372,7 +2372,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "nom. sg. masc.",
-            "glossaryKey": "sanga"
+            "glossaryKey": "sneha"
           },
           {
             "i": 4,
@@ -5693,7 +5693,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of upajāyate)",
-        "glossaryKey": "raga",
+        "glossaryKey": "sanga",
         "translatable": true,
         "parts": [
           {
@@ -5754,7 +5754,7 @@ window.GITA_VERSES = [
         "affix": "ṅasi (pañcamī ekavacana)",
         "morph": "abl. sg. masc.",
         "karaka": "apādāna (source: 'from attachment')",
-        "glossaryKey": "raga",
+        "glossaryKey": "sanga",
         "translatable": true,
         "parts": [
           {
@@ -6151,7 +6151,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "nom. sg. masc.",
-            "glossaryKey": "raga"
+            "glossaryKey": "sanga"
           },
           {
             "i": 18,
@@ -6192,7 +6192,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "abl. sg. masc.",
-            "glossaryKey": "raga"
+            "glossaryKey": "sanga"
           },
           {
             "i": 21,
@@ -6258,7 +6258,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "gen. sg. masc.",
-            "glossaryKey": "raga"
+            "glossaryKey": "sanga"
           },
           {
             "i": 26,
@@ -7660,7 +7660,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "nom. sg. masc.",
-            "glossaryKey": "raga"
+            "glossaryKey": "sanga"
           },
           {
             "i": 18,
@@ -7701,7 +7701,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "abl. sg. masc.",
-            "glossaryKey": "raga"
+            "glossaryKey": "sanga"
           },
           {
             "i": 21,
@@ -7767,7 +7767,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "gen. sg. masc.",
-            "glossaryKey": "raga"
+            "glossaryKey": "sanga"
           },
           {
             "i": 26,

@@ -1,0 +1,37 @@
+{
+  "term_key": "sneha",
+  "term_iast": "sneha",
+  "term_devanagari": "स्नेह",
+  "literal": "oil, grease, viscidity, stickiness; from √snih 'to be sticky/moist, to be fond of' — figuratively the 'oiliness' of the heart: affection, fondness, tender love",
+  "aliases": [
+    "sneha",
+    "Sneha",
+    "snehaḥ",
+    "snehāt",
+    "sneham",
+    "abhisneha",
+    "abhisnehaḥ"
+  ],
+  "last_verified_at": "2026-06-16",
+  "last_verified_by": "glossary-disambiguation",
+  "invariant_definition": "*Sneha* is affection or fondness — literally 'oiliness, viscidity' (√snih, 'to be sticky, to be moist with feeling'), the heart's tender adhesion to what is dear. In the *Bhagavad-Gītā* it appears at 2.57 in the negated compound *anabhisneha*: the man of settled wisdom is *sarvatra anabhisneha*, 'without fondness anywhere', meeting fortune and misfortune without elation or recoil. The commentators treat it as a movement of the mind: Madhusūdana Sarasvatī glosses the *sneha* to be given up as *premāpara-paryāyas tāmaso vṛtti-viśeṣaḥ* — 'a tāmasic particular modification of mind, another name for love (*prema*)' — by which another's loss or gain is superimposed upon oneself; he adds that *sneha* toward the Lord is to be kept, only fondness for the non-self being renounced. *Sneha* is close to *saṅga* (clinging) and *rāga* (the mind's coloring) but is not identical to either: where *saṅga* is the adhering of √sañj and *rāga* the dyeing of √rañj, *sneha* is the warm, oily tenderness of √snih — affection felt, not merely attachment formed.",
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "At 2.57 the *sthitaprajña* is *sarvatra anabhisneha* — 'without fondness anywhere' — neither rejoicing on gaining the auspicious nor recoiling from the inauspicious. Śaṅkara reads *anabhisneha* as the absence of attachment even toward body and life; Madhusūdana defines the renounced *sneha* as a *tāmasa vṛtti-viśeṣa*, a synonym of *prema*, and is careful to except *sneha* toward the Lord — only fondness for the non-self is to be removed.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.57 (yaḥ sarvatra anabhisnehaḥ)",
+        "Madhusūdana, Gūḍhārtha-dīpikā ad 2.57 (premāpara-paryāyas tāmaso vṛtti-viśeṣaḥ snehaḥ)"
+      ],
+      "register_tag": "M+S; mumukṣu"
+    }
+  ],
+  "see_also": [
+    "sanga",
+    "raga",
+    "prema",
+    "kama",
+    "vairagya"
+  ],
+  "translator_note": "Render *sneha* as 'fondness' or 'affection', keeping its root sense of 'oiliness' — the warm adhesion of the heart, distinct from *saṅga* (clinging, √sañj) and *rāga* (coloring, √rañj). The Gītā word at 2.57 is the negation *anabhisneha*, 'without fondness'; do not collapse it into *saṅga* or *rāga* — the commentators treat *sneha* as its own movement of mind (Madhusūdana: a synonym of *prema*), and 2.57 specifically targets fond affection, not attachment in general."
+}
