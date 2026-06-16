@@ -3303,7 +3303,7 @@ window.GITA_VERSES = [
         "affix": "-am (avyayībhāva adverb in -varjam, 'excepting')",
         "morph": "indeclinable (adverbial, 'with the exception of')",
         "karaka": "kriyāviśeṣaṇa (restricts vinivartante: 'they fall away, the relish excepted')",
-        "glossaryKey": "raga",
+        "glossaryKey": "rasa",
         "translatable": true,
         "compound": {
           "type": "ṇamul / avyayībhāva-type (with -varjam, “excepting”)",
@@ -3334,7 +3334,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "kartṛ (subject of nivartate)",
-        "glossaryKey": "raga",
+        "glossaryKey": "rasa",
         "translatable": true,
         "parts": [
           {
@@ -3627,7 +3627,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "adverbial",
-            "glossaryKey": "raga"
+            "glossaryKey": "rasa"
           },
           {
             "i": 10,
@@ -3660,7 +3660,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "nom. sg. masc.",
-            "glossaryKey": "raga"
+            "glossaryKey": "rasa"
           },
           {
             "i": 12,
