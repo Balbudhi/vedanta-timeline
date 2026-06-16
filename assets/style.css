@@ -3301,37 +3301,39 @@ sup.cite-fn .cite-fn-link:hover {
 /* =============================================================
    DARK THEME — truly-black palette
    ============================================================= */
-/* True dark theme: near-pure black canvas, surface elevations are
-   subtle warm-grey steps (not brown plateaus), accent colors are
+/* Dark theme: neutral charcoal canvas, surface elevations are subtle
+   neutral-grey steps (no brown/yellow tint), accent colors are
    saturated enough to read clearly on the deep ground. */
 html[data-theme="dark"] {
-  /* Warm-NEUTRAL charcoal, not brown. At very low lightness any warm tint
-     reads as dingy mud, so the canvas is kept near-neutral and the warmth of
-     the light theme is carried instead by the cream ink and the accents.
-     Surfaces step up in lightness for honest elevation; text contrast is high
-     (≈14:1 primary, ≈8:1 secondary) for comfortable long-form reading. */
-  --bg:           #1a1a18;
-  --bg-warm:      #222220;
-  --bg-warmer:    #2c2c29;
-  --pane-bg:      #161614;
-  --ink:          #ece8df;
-  --ink-soft:     #b7b2a7;
-  --muted:        #888377;
-  --muted-soft:   #5b584f;
-  --rule:         #302f2b;
-  --rule-warm:    #38362f;
-  --hairline:     #242320;
+  /* Neutral charcoal — true grey, no warm (brown/yellow) tint. Following
+     common dark-theme guidance (Material): avoid pure black, sit the canvas
+     near #1a1a1a, and step surfaces up in lightness for honest elevation;
+     text is a neutral off-white (not pure white, to avoid glare). Contrast is
+     high (≈13:1 primary, ≈7:1 secondary) for comfortable long-form reading.
+     Warmth lives only in the accents (school colors, gold highlights), not the
+     ground. */
+  --bg:           #1a1a1a;
+  --bg-warm:      #232323;
+  --bg-warmer:    #2d2d2d;
+  --pane-bg:      #151515;
+  --ink:          #e9e9e9;
+  --ink-soft:     #b2b2b2;
+  --muted:        #888888;
+  --muted-soft:   #595959;
+  --rule:         #2f2f2f;
+  --rule-warm:    #383838;
+  --hairline:     #242424;
   --shadow-sm:    0 1px 3px rgba(0,0,0,.5);
   --shadow-md:    0 6px 18px rgba(0,0,0,.6);
   --shadow-lg:    0 18px 44px rgba(0,0,0,.66);
 
-  --label-bg:     rgba(26,26,24,0.96);
-  --label-bg-soft: rgba(26,26,24,0.86);
+  --label-bg:     rgba(26,26,26,0.96);
+  --label-bg-soft: rgba(26,26,26,0.86);
   --close-btn-bg: transparent;
-  --scrollbar-thumb: #34332d;
-  --scrollbar-thumb-hover: #4c4a40;
-  --dot-border:   #1a1a18;
-  --on-ink:       #1a1a18;
+  --scrollbar-thumb: #343434;
+  --scrollbar-thumb-hover: #4c4c4c;
+  --dot-border:   #1a1a1a;
+  --on-ink:       #1a1a1a;
 
   /* School palette — luminous but not neon: lifted off the canvas with
      enough chroma to read as accents, dialled back from the old near-
