@@ -1,0 +1,199 @@
+{
+  "id": "ramana",
+  "name": "Ramana Maharshi",
+  "name_iast": "Ramaṇa Maharṣi",
+  "alternate_names": [
+    "Venkataraman Iyer (birth name)",
+    "Bhagavān Śrī Ramaṇa Maharṣi",
+    "Veṅkaṭarāman Aiyar"
+  ],
+  "dates_low": 1879,
+  "dates_high": 1950,
+  "dates_tier": "confirmed-from-records",
+  "dates_notes": "Born 30 December 1879 at Tiruchuzhi (Madurai district); died 14 April 1950 at Sri Ramanasramam, Tiruvannamalai, at the foot of Aruṇācala. Dates are fixed by contemporary records of the āśrama and modern documentation.",
+  "dates_evidence": [
+    {
+      "kind": "manuscript-colophon",
+      "description": "Sri Ramanasramam publication records and first editions of the Tamil works (Nāṉ Yār? c. 1902; Upadeśa Undiyār 1927; Ulladu Nārpadu 1928), with datable composition occasions recorded by the āśrama."
+    }
+  ],
+  "school": "Advaita",
+  "school_color_token": "advaita",
+  "sub_school": "Modern Advaita / ātma-vicāra (self-enquiry)",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Ramaṇa Maharṣi — born Veṅkaṭarāman Aiyar, who from 1896 lived at Aruṇācala (Tiruvannamalai) — taught ātma-vicāra, the enquiry \"Who am I?\" (Tamil *Nāṉ Yār?*). His written teaching is short but his own. In *Nāṉ Yār?* (c. 1902) he directs the seeker to trace every thought back to the first thought, the \"I\"-thought (*ahaṃ-vṛtti*), and to seek its source; when the source is reached the \"I\"-thought subsides and what remains is the Self (*ātman*). *Ulladu Nārpadu* (\"Forty [Verses] on That-Which-Is,\" 1928, Tamil; circulated in a Sanskrit rendering as *Saddarśanam*) sets out the metaphysics: the one reality (*sat*, *ulladu*) alone is, the ego rises and sets while the Self abides, and liberation is abidance as the Self. *Upadeśa Sāram* / *Upadeśa Undiyār* (1927, Sanskrit and Tamil) ranks action, devotion, and yoga as preparatory to the enquiry into the \"I,\" which ends in *ahaṃ-sphuraṇa*, the shining-forth of the Self as \"I-I.\" The *Akṣaramaṇamālai* and the *Five Hymns to Aruṇācala* render the same non-dual identity in the devotional register, addressing Aruṇācala as the Self.",
+  "engaged_works": [
+    {
+      "work_id": "nan-yar",
+      "title": "Nan Yar (Who Am I?)",
+      "title_iast": "Nāṉ Yār?",
+      "alternate_titles": [
+        "Who Am I?"
+      ],
+      "composition_dates_low": 1902,
+      "composition_dates_high": 1923,
+      "composition_dates_notes": "Originating c. 1902 as written answers to questions put by the devotee Sivaprakasam Pillai; later edited by Ramaṇa himself into a continuous essay (the essay recension is the standard form).",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored: the answers are Ramaṇa's own, and the essay form was prepared and approved by him.",
+      "ascription_evidence": [
+        {
+          "kind": "manuscript-tradition",
+          "description": "Sri Ramanasramam publication tradition; the question-and-answer original and the essay recension both attributed to Ramaṇa."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "tamil",
+      "summary": "A short Tamil prose teaching on self-enquiry, framed as answers to a seeker. The method is stated directly: all knowledge and all activity rest on the sense \"I\"; therefore one should not pursue the objects of thought but enquire into the \"I\" itself — \"Who am I?\" — tracing the \"I\"-thought (*ahaṃ-vṛtti*) to its source. As the enquiry holds, other thoughts subside; when the \"I\"-thought itself is sought, it too subsides, and the Self (*ātman*) remains as that from which the \"I\" arose. The text describes the practice negatively (the \"I\" is not the body, the senses, the breath, or the mind) and positively (the residue is pure awareness), and treats this enquiry as itself the direct means, with breath-control and other disciplines as auxiliaries. It is the most cited prose statement of Ramaṇa's ātma-vicāra.",
+      "source_status": "primary-text-not-in-corpus",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "ulladu-narpadu",
+      "title": "Ulladu Narpadu (Forty Verses on Reality)",
+      "title_iast": "Ulladu Nārpadu",
+      "alternate_titles": [
+        "Forty Verses on Reality",
+        "Saddarśanam (Sanskrit rendering)",
+        "Sad-Vidyā"
+      ],
+      "composition_dates_low": 1928,
+      "composition_dates_high": 1928,
+      "composition_dates_notes": "Composed in Tamil in 1928 (with a supplement, Ulladu Nārpadu Anubandham); the verses were subsequently rendered into Sanskrit and circulated as Saddarśanam.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The Tamil verses are securely Ramaṇa's own composition. The Sanskrit rendering circulated as Saddarśanam is a translation of his verses and is not claimed here as his Sanskrit authorship.",
+      "ascription_evidence": [
+        {
+          "kind": "manuscript-tradition",
+          "description": "Sri Ramanasramam first edition and publication tradition; the Tamil verse text is attributed to Ramaṇa."
+        }
+      ],
+      "genre": "verse-summary",
+      "language": "tamil",
+      "summary": "Forty Tamil verses (with a forty-verse supplement) on \"that which is\" (*ulladu*, *sat*) — the doctrinal core of Ramaṇa's teaching in verse. The opening establishes that reality (*sat*) alone is, that being and awareness are not two, and that the world, the seer, and the seen all depend on a prior \"I.\" The verses argue that the ego (the \"I\"-thought) is the knot binding the conscious Self to the inert body, that it rises and sets while the Self neither rises nor sets, and that to seek the source of this rising \"I\" is to be established as the Self. Liberation is therefore not the gaining of a new state but the cessation of the false \"I\" and abidance as the reality that always is. The work is the most compressed statement of the metaphysics that *Nāṉ Yār?* presents as method; it is widely studied in the Sanskrit rendering Saddarśanam.",
+      "source_status": "primary-text-not-in-corpus",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "upadesa-saram",
+      "title": "Upadesa Saram (The Essence of Instruction)",
+      "title_iast": "Upadeśa Sāram",
+      "alternate_titles": [
+        "Upadeśa Undiyār (Tamil)",
+        "The Essence of Instruction"
+      ],
+      "composition_dates_low": 1927,
+      "composition_dates_high": 1927,
+      "composition_dates_notes": "Composed in 1927; the Tamil form is Upadeśa Undiyār and a Sanskrit form circulates as Upadeśa Sāram (thirty verses).",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored by Ramaṇa in Tamil (Upadeśa Undiyār), with a Sanskrit version (Upadeśa Sāram) also attributed to him in the āśrama tradition.",
+      "ascription_evidence": [
+        {
+          "kind": "manuscript-tradition",
+          "description": "Sri Ramanasramam publication tradition; thirty-verse Tamil and Sanskrit recensions attributed to Ramaṇa."
+        }
+      ],
+      "genre": "verse-summary",
+      "language": "sanskrit",
+      "summary": "Thirty verses on \"the essence of instruction,\" arranged as a graded path. The opening verses treat ritual action (*karma*) as fruit-bound and unable in itself to liberate, then rank devotion, breath-control, and meditation as progressively interior disciplines that purify and steady the mind. The argument then turns inward: mental japa and one-pointed meditation lead to the enquiry into the source of the mind, and the source of the mind is the \"I.\" Seeking whence the \"I\" arises, the \"I\"-sense subsides and there shines the Self as \"I-I\" (*ahaṃ-sphuraṇa*); this abidance, in which knower, knowing, and known are one, is liberation. The work situates Ramaṇa's ātma-vicāra within the classical sequence of *karma*, *bhakti*, and *yoga*, presenting self-enquiry as their consummation rather than their rival.",
+      "source_status": "primary-text-not-in-corpus",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "aksaramanamalai",
+      "title": "Aksaramanamalai (Marital Garland of Letters)",
+      "title_iast": "Akṣaramaṇamālai",
+      "alternate_titles": [
+        "The Marital Garland of Letters",
+        "Aruṇācala Akṣaramaṇamālai"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored Tamil devotional hymn, composed for the devotees who circumambulated Aruṇācala.",
+      "ascription_evidence": [
+        {
+          "kind": "manuscript-tradition",
+          "description": "Sri Ramanasramam publication tradition; attributed to Ramaṇa and sung daily at the āśrama."
+        }
+      ],
+      "genre": "stotra",
+      "language": "tamil",
+      "summary": "An abecedarian Tamil hymn — its verses run through the letters of the alphabet — addressed to Aruṇācala (the hill identified with Śiva and with the Self). Framed as the cry of a bride to her lord, the hymn voices longing, surrender, and the dissolving of the separate \"I\" into Aruṇācala. Doctrinally it renders in the devotional register the same non-duality the prose and verse works state directly: Aruṇācala is addressed not as an external deity but as the very Self that the enquiry \"Who am I?\" discloses, so that devotion and self-enquiry converge. It is the best known of Ramaṇa's hymns and is sung in procession around the hill.",
+      "source_status": "primary-text-not-in-corpus",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "five-hymns-arunachala",
+      "title": "Five Hymns to Arunachala",
+      "title_iast": "Aruṇācala Pañcaratna (and the Five Hymns)",
+      "alternate_titles": [
+        "Śrī Aruṇācala Stuti Pañcakam",
+        "The Five Hymns to Arunachala"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely authored set of five devotional hymns to Aruṇācala (including the Akṣaramaṇamālai, Navamaṇimālai, Padikam, Aṣṭakam, and the Sanskrit Pañcaratna).",
+      "ascription_evidence": [
+        {
+          "kind": "manuscript-tradition",
+          "description": "Sri Ramanasramam publication tradition; the five hymns are collected and attributed to Ramaṇa."
+        }
+      ],
+      "genre": "stotra",
+      "language": "tamil",
+      "summary": "A collection of five hymns to Aruṇācala, the hill at Tiruvannamalai, composed over Ramaṇa's years there; the set includes the Akṣaramaṇamālai and concludes with the Aruṇācala Pañcaratna, five verses Ramaṇa composed in Sanskrit. Across the hymns Aruṇācala is praised as being-awareness, the heart, and the Self, and the devotee's longing is resolved by the same movement as the enquiry: the separate \"I\" is drawn in and consumed, leaving only the one reality. The collection shows that Ramaṇa's bhakti and his jñāna are a single teaching in two registers — the hill that the pilgrim circles is the Self that the enquiry seeks.",
+      "source_status": "primary-text-not-in-corpus",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Ramaṇa's written corpus and recorded dialogues circulate through Sri Ramanasramam (Tiruvannamalai). His ātma-vicāra is widely received in twentieth-century non-dual teaching.",
+  "entry_status": "draft",
+  "entry_owner_agent": "secondary-source-cleanup-opus",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "secondary-source-cleanup-opus",
+  "primitive_commitments": [
+    {
+      "primitive": "selfhood_structure",
+      "value": "witness-self",
+      "register": "phenomenological",
+      "citation_locus": "cite://ramana/nan-yar/source-of-i",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "identity_relation",
+      "value": "non-otherness",
+      "register": "metaphysical",
+      "citation_locus": "cite://ramana/ulladu-narpadu/2",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "soteric_end",
+      "value": "identity-with-ground",
+      "register": "soteriological",
+      "citation_locus": "cite://ramana/ulladu-narpadu/26",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "practice_path",
+      "value": "knowledge-discipline",
+      "register": "soteriological",
+      "citation_locus": "cite://ramana/upadesa-saram/16-19",
+      "confidence": "medium"
+    },
+    {
+      "primitive": "substrate_structure",
+      "value": "one-self-standing",
+      "register": "metaphysical",
+      "citation_locus": "cite://ramana/ulladu-narpadu/1",
+      "confidence": "low"
+    }
+  ],
+  "cross_engagements": []
+}
