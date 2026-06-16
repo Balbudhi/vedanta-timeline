@@ -2006,7 +2006,7 @@ window.GITA_VERSES = [
     "devanagari": "यः सर्वत्रानभिस्नेहस् तत् तत् प्राप्य शुभाशुभम्।\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham |\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā ||",
     "sense": "He who is without saṅga (clinging attachment that binds) toward anything anywhere, and on meeting this or that good or evil neither rejoices nor feels dveṣa (the recoil of aversion) — his prajñā (clear discriminative insight into reality) is firmly established.",
-    "english": "{0:He who} {2:is without saṅga} {1:everywhere}, {4:on meeting} {3:this and that} {5:good and evil}, {6:neither} {7:rejoices} {8:nor} {9:feels dveṣa} — {10:his} {11:prajñā} {12:is firmly established}.",
+    "english": "{0:He who} {2:is without fondness} {1:everywhere}, {4:on meeting} {3:this and that} {5:good and evil}, {6:neither} {7:rejoices} {8:nor} {9:feels dveṣa} — {10:his} {11:prajñā} {12:is firmly established}.",
     "words": [
       {
         "i": 0,
@@ -2512,7 +2512,7 @@ window.GITA_VERSES = [
             "glossaryKey": "sthitaprajna"
           }
         ],
-        "english": "{0:He who}, {1:in all cases}, {2:among things dear} {3:is without saṅga}, {4:indifferent}; who, {7:on meeting} {6:the good and the bad}, {5:which take the form of union with and separation from the dear}, is {8:devoid of rejoicing and of dveṣa} — {9:he} {10:too} is {11:a man of steady wisdom}.",
+        "english": "{0:He who}, {1:in all cases}, {2:among things dear} {3:is without fondness}, {4:indifferent}; who, {7:on meeting} {6:the good and the bad}, {5:which take the form of union with and separation from the dear}, is {8:devoid of rejoicing and of dveṣa} — {9:he} {10:too} is {11:a man of steady wisdom}.",
         "segments": [
           {
             "from": 0,
@@ -3882,7 +3882,7 @@ window.GITA_VERSES = [
     "devanagari": "यततो ह्य् अपि कौन्तेय पुरुषस्य विपश्चितः।\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः॥",
     "iast": "yatato hy api kaunteya puruṣasya vipaścitaḥ |\nindriyāṇi pramāthīni haranti prasabhaṃ manaḥ ||",
     "sense": "Kṛṣṇa warns: even in the case of a striving, discerning man, the turbulent indriyas violently carry away the manas.",
-    "english": "{1:For} {2:even} {0:of one who is striving}, {3:Kaunteya} — {4:of a man} {5:who is discerning} — {7:the turbulent} {6:indriyas} {9:violently} {8:carry away} {10:the manas}.",
+    "english": "{1:For} {2:even} {0:of one who is striving}, {3:Kaunteya} — {4:of a man} {5:who is discerning} — {7:the turbulent} {6:indriyas} {9:violently} {8:carry away} {10:his manas}.",
     "words": [
       {
         "i": 0,
@@ -8651,7 +8651,7 @@ window.GITA_VERSES = [
     "devanagari": "रागद्वेषवियुक्तैस् तु विषयान् इन्द्रियैश् चरन्।\nआत्मवश्यैर् विधेयात्मा प्रसादम् अधिगच्छति॥",
     "iast": "rāgadveṣaviyuktais tu viṣayān indriyaiś caran |\nātmavaśyair vidheyātmā prasādam adhigacchati ||",
     "sense": "But one whose self is under control, moving among sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, attains serenity.",
-    "english": "{1:But} {6:moving} among {5:the sense-objects} with {4:the indriyas} {0:freed from rāga and dveṣa} and {7:obedient to the self}, {2:he whose self is biddable} {9:attains} {8:serenity}.",
+    "english": "{1:But} {6:moving} among {5:the sense-objects} with {4:the indriyas} {0:freed from rāga and dveṣa} and {7:obedient to the self}, {2:he whose self is disciplined} {9:attains} {8:serenity}.",
     "words": [
       {
         "i": 0,
@@ -8712,7 +8712,7 @@ window.GITA_VERSES = [
         "i": 2,
         "deva": "विधेयात्मा",
         "iast": "vidheyātmā",
-        "gloss": "one whose self (mind) is amenable, subject to command",
+        "gloss": "one whose self (mind) is governable, to be directed",
         "stem": "vidheya-ātman",
         "root": null,
         "affix": "su (prathamā ekavacana)",
@@ -8731,7 +8731,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "vidheya",
-            "gloss": "to be controlled, amenable"
+            "gloss": "to be directed, governable"
           },
           {
             "form": "ātman",
@@ -8886,7 +8886,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.64",
         "sanskrit": "uktena prakāreṇa mayi sarveśvare cetasaś śubhāśrayabhūte nyastamanāḥ nirdagdhāśeṣakalmaṣatayā rāgadveṣaviyuktair ātmavaśyair indriyaiḥ viṣayāṃś caran viṣayāṃs tiraskṛtya vartamānaḥ vidheyātmā vidheyamanāḥ prasādam adhigacchati nirmalāntaḥkaraṇo bhavatītyarthaḥ /",
-        "ourRendering": "In the manner already stated, having placed his manas on Me, the Lord of all, who am the auspicious resort of the thinking faculty — his every taint burnt away — moving among the sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, that is, abiding with the sense-objects pushed aside; he whose self is amenable, whose manas is biddable, attains serenity: the meaning is that he becomes one whose inner organ is pure.",
+        "ourRendering": "In the manner already stated, having placed his manas on Me, the Lord of all, who am the auspicious resort of the thinking faculty — his every taint burnt away — moving among the sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, that is, abiding with the sense-objects pushed aside; he whose self is disciplined, whose manas is disciplined, attains serenity: the meaning is that he becomes one whose inner organ is pure.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -9143,11 +9143,11 @@ window.GITA_VERSES = [
           {
             "i": 16,
             "iast": "vidheyātmā",
-            "gloss": "whose self is amenable",
+            "gloss": "whose self is governable",
             "parts": [
               {
                 "form": "vidheya",
-                "gloss": "biddable, amenable"
+                "gloss": "governable, to be directed"
               },
               {
                 "form": "ātman",
@@ -9160,11 +9160,11 @@ window.GITA_VERSES = [
           {
             "i": 17,
             "iast": "vidheyamanāḥ",
-            "gloss": "whose mind is biddable",
+            "gloss": "whose mind is governable",
             "parts": [
               {
                 "form": "vidheya",
-                "gloss": "biddable"
+                "gloss": "governable"
               },
               {
                 "form": "manas",
@@ -9256,7 +9256,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. masc."
           }
         ],
-        "english": "{1:In the manner} {0:already stated}, {6:having placed his manas} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:moving} {11:among the sense-objects} {10:with indriyas} {8:freed from rāga and dveṣa} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is amenable}, {17:whose manas is biddable}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}.",
+        "english": "{1:In the manner} {0:already stated}, {6:having placed his manas} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:moving} {11:among the sense-objects} {10:with indriyas} {8:freed from rāga and dveṣa} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is disciplined}, {17:whose manas is disciplined}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}.",
         "segments": [
           {
             "from": 0,
@@ -9281,7 +9281,7 @@ window.GITA_VERSES = [
     "devanagari": "प्रसादे सर्वदुःखानां हानिर् अस्योपजायते।\nप्रसन्नचेतसो ह्य् आशु बुद्धिः पर्यवतिष्ठते॥",
     "iast": "prasāde sarvaduḥkhānāṃ hānir asyopajāyate |\nprasannacetaso hy āśu buddhiḥ paryavatiṣṭhate ||",
     "sense": "When serenity is attained, the cessation of all his sorrows arises; for in one whose manas is serene the buddhi soon becomes firmly settled.",
-    "english": "{0:When serenity is reached}, {3:the cessation} {1:of all sorrows} {4:of his} {5:arises}; {6:for} in {7:one whose manas is serene} {10:the buddhi} {9:soon} {11:becomes firmly settled}.",
+    "english": "{0:When serenity is reached}, {3:the cessation} {1:of all sorrows} {5:arises} {4:for him}; {6:for} in {7:one whose mind is serene} {10:the buddhi} {9:soon} {11:becomes firmly settled}.",
     "words": [
       {
         "i": 0,
