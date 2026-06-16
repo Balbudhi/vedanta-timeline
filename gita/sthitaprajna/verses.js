@@ -71,7 +71,7 @@ window.GITA_VERSES = [
         "i": 2,
         "deva": "भाषा",
         "iast": "bhāṣā",
-        "gloss": "speech; the way he is spoken of (kā bhāṣā = 'what is said of him')",
+        "gloss": "speech, manner of speaking; here, how one would describe him",
         "stem": "bhāṣā",
         "root": "√bhāṣ",
         "affix": "su (prathamā ekavacana)",
@@ -5561,8 +5561,12 @@ window.GITA_VERSES = [
                 "gloss": "to stand"
               },
               {
-                "form": "-tā",
-                "gloss": "(past participle, fem.)"
+                "form": "-ta-",
+                "gloss": "(kta, past passive participle)"
+              },
+              {
+                "form": "-ā",
+                "gloss": "(ṭāp, feminine ending)"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -11810,8 +11814,12 @@ window.GITA_VERSES = [
                 "gloss": "to stand"
               },
               {
-                "form": "-tā",
-                "gloss": "(past participle, fem.)"
+                "form": "-ta-",
+                "gloss": "(kta, past passive participle)"
+              },
+              {
+                "form": "-ā",
+                "gloss": "(ṭāp, feminine ending)"
               }
             ],
             "morph": "nom. sg. fem.",
