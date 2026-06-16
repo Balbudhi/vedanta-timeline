@@ -10681,7 +10681,7 @@ window.GITA_VERSES = [
         "affix": "tiṅ — laṭ, prathama-puruṣa ekavacana, karmaṇi (passive)",
         "morph": "present, 3 sg., passive (karmaṇi)",
         "karaka": "kriyā (of the relative clause)",
-        "glossaryKey": "anu",
+        "glossaryKey": null,
         "translatable": true,
         "parts": [
           {
@@ -10992,7 +10992,7 @@ window.GITA_VERSES = [
                 "gloss": "after, along"
               }
             ],
-            "glossaryKey": "anu"
+            "glossaryKey": null
           },
           {
             "i": 6,
@@ -11071,7 +11071,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "pres. passive 3 sg.",
-            "glossaryKey": "anu"
+            "glossaryKey": null
           },
           {
             "i": 11,

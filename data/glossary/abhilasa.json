@@ -1,0 +1,24 @@
+{
+  "term_key": "abhilasa",
+  "term_iast": "abhilāṣa",
+  "term_devanagari": "अभिलाष",
+  "literal": "longing, desire, eager wish, appetite; action-noun from abhi-√laṣ 'to desire, to long toward' (abhi + laṣ + ghañ) — the directed reaching-wish for an object",
+  "aliases": [
+    "abhilasa",
+    "abhilāṣa",
+    "Abhilāṣa",
+    "abhilāṣaḥ",
+    "abhilāṣasya",
+    "abhilāṣam"
+  ],
+  "last_verified_at": "2026-06-16",
+  "last_verified_by": "glossary-disambiguation",
+  "invariant_definition": "*Abhilāṣa* is directed longing — the appetite or eager wish that reaches *toward* (abhi-) an object (√laṣ, 'to desire'). It is a near-relative of *kāma* (desire), *tṛṣṇā* (thirst), and *spṛhā* (hankering), and the commentators on the *sthitaprajña* verses use it for the craving-wish that the freed one no longer has; but it is its own word — the leaning-toward of appetite — not identical to the standing thirst of *tṛṣṇā* or the formed desire of *kāma*.",
+  "see_also": [
+    "trsna",
+    "sprha",
+    "kama",
+    "raga"
+  ],
+  "translator_note": "Render *abhilāṣa* as 'longing' or 'desire' — the directed appetite reaching toward an object (abhi-√laṣ). Keep it distinct from *tṛṣṇā* (thirst) and *spṛhā* (hankering): the commentators use these as allied but not identical words for wanting."
+}

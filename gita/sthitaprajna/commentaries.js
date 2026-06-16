@@ -3498,7 +3498,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present indicative, 3rd singular",
-          "glossaryKey": "anu",
+          "glossaryKey": null,
           "root": "√vad"
         },
         {
@@ -11671,7 +11671,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "indeclinable",
-          "glossaryKey": "anu"
+          "glossaryKey": null
         },
         {
           "i": 26,
@@ -15744,7 +15744,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "indeclinable",
-          "glossaryKey": "anu"
+          "glossaryKey": null
         },
         {
           "i": 230,
@@ -21425,7 +21425,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "accusative singular neuter",
-          "glossaryKey": "anu"
+          "glossaryKey": null
         },
         {
           "i": 20,
@@ -27131,7 +27131,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular",
-          "glossaryKey": "trsna",
+          "glossaryKey": "abhilasa",
           "root": "√laṣ"
         },
         {
@@ -27161,7 +27161,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "genitive singular",
-          "glossaryKey": "trsna"
+          "glossaryKey": "abhilasa"
         },
         {
           "i": 36,
@@ -43329,7 +43329,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine, present participle",
-          "glossaryKey": "anu",
+          "glossaryKey": null,
           "root": "√bhū"
         },
         {
@@ -47223,7 +47223,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "anu"
+          "glossaryKey": null
         },
         {
           "i": 30,
@@ -49101,7 +49101,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present passive, 3rd singular",
-          "glossaryKey": "anu",
+          "glossaryKey": null,
           "root": "√dhā"
         },
         {
@@ -49123,7 +49123,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present middle, 3rd singular",
-          "glossaryKey": "anu",
+          "glossaryKey": null,
           "root": "√vṛt"
         },
         {
@@ -49974,7 +49974,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "absolutive",
-          "glossaryKey": "anu",
+          "glossaryKey": null,
           "root": "√kṛ"
         },
         {
@@ -50189,7 +50189,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular neuter",
-          "glossaryKey": "anu",
+          "glossaryKey": null,
           "root": "√sṛ"
         },
         {
@@ -51323,7 +51323,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present passive, 3rd singular",
-          "glossaryKey": "anu",
+          "glossaryKey": null,
           "root": "√dhā"
         },
         {
@@ -51969,7 +51969,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "present passive, 3rd singular",
-          "glossaryKey": "anu",
+          "glossaryKey": null,
           "root": "√dhā"
         },
         {
@@ -52035,7 +52035,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "indeclinable",
-          "glossaryKey": "anu"
+          "glossaryKey": null
         },
         {
           "i": 14,
