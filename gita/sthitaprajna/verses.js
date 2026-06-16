@@ -3882,7 +3882,7 @@ window.GITA_VERSES = [
     "devanagari": "यततो ह्य् अपि कौन्तेय पुरुषस्य विपश्चितः।\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः॥",
     "iast": "yatato hy api kaunteya puruṣasya vipaścitaḥ |\nindriyāṇi pramāthīni haranti prasabhaṃ manaḥ ||",
     "sense": "Kṛṣṇa warns: even in the case of a striving, discerning man, the turbulent indriyas violently carry away the manas.",
-    "english": "{1:For} {2:even} {0:of one who is striving}, {3:Kaunteya} — {4:of a man} {5:who is discerning} — {7:the turbulent} {6:indriyas} {9:by force} {8:carry away} {10:the manas}.",
+    "english": "{1:For} {2:even} {0:of one who is striving}, {3:Kaunteya} — {4:of a man} {5:who is discerning} — {7:the turbulent} {6:indriyas} {9:violently} {8:carry away} {10:the manas}.",
     "words": [
       {
         "i": 0,
@@ -4525,8 +4525,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "tāni sarvāṇi saṃyamya yukta āsīta matparaḥ |\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā ||",
-    "sense": "Kṛṣṇa instructs: having restrained all those indriyas, one should sit yoked, intent on me; for he whose indriyas are under control — his prajñā stands firm.",
-    "english": "{2:Having restrained} {1:all} {0:those indriyas}, {3:yoked} and {5:intent on me}, he {4:should sit}; {7:for} {8:the one whose} {9:indriyas} are {6:in control} — {10:his} {11:prajñā} {12:stands firm}.",
+    "sense": "Kṛṣṇa instructs: having restrained all those indriyas, one should sit yoked, holding me as the supreme; for he whose indriyas are under control — his prajñā stands firm.",
+    "english": "{2:Having restrained} {1:all} {0:those indriyas}, {3:yoked} and {5:holding me as the supreme}, he {4:should sit}; {7:for} {8:the one whose} {9:indriyas} are {6:in control} — {10:his} {11:prajñā} {12:stands firm}.",
     "words": [
       {
         "i": 0,
