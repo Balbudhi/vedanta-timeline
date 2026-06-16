@@ -640,11 +640,22 @@ async function openGlossary(key, anchor) {
   glossEl.className = "gpop"; glossEl.setAttribute("role", "dialog"); glossEl.setAttribute("aria-labelledby", "gpTerm");
   if (!e) glossEl.innerHTML = `<button class="gp-x" aria-label="Close glossary">×</button><div class="gp-term" id="gpTerm">${esc(key)}</div><p class="gp-def">No glossary entry yet.</p>`;
   else {
-    const perSchool = (e.per_school || []).map(s =>
-      `<div class="gp-row"><span class="gp-school">${esc(s.school)}</span><span class="gp-def">${mdInline(s.definition)}</span></div>`).join("");
+    const isPlaceholderDef = (t) => {
+      const x = String(t || "").trim();
+      return x === "" || x === "NOT-APPLICABLE" || x === "NOT-APPLICABLE." || x === "[NOT YET RETRIEVED]";
+    };
+    const stripMarker = (t) => String(t || "").replace(/^\[NOT YET RETRIEVED\]\s*/, "");
+    const perSchool = (e.per_school || []).filter(s => !isPlaceholderDef(s.definition)).map(s =>
+      `<div class="gp-row"><span class="gp-school">${esc(s.school)}</span><span class="gp-def">${mdInline(stripMarker(s.definition))}</span></div>`).join("");
     const cog = e.cognates;
+    const cogClass = (lang) => {
+      const l = String(lang || "").toLowerCase();
+      if (l.includes("greek")) return "cog-greek";
+      if (l.includes("latin")) return "cog-latin";
+      return "cog-other";
+    };
     const cognates = (cog && cog.items && cog.items.length)
-      ? `<div class="gp-cognates"><span class="gp-cog-label">Cognates</span> <span class="gp-cog-tags">${cog.items.map(i => `<span class="gp-cog-tag">${esc(i.lang)} <i>${esc(i.form)}</i></span>`).join("")}</span></div>`
+      ? `<div class="gp-cognates"><span class="gp-cog-label">Cognates</span> <span class="gp-cog-tags">${cog.items.map(i => `<span class="gp-cog-tag ${cogClass(i.lang)}">${esc(i.lang)} <i>${esc(i.form)}</i></span>`).join("")}</span></div>`
       : "";
     const th = e.textual_history;
     const stripParen = (s) => String(s || "").replace(/\s*\([^)]*\)\s*/g, " ").trim();

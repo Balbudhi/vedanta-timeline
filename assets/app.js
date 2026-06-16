@@ -2841,8 +2841,15 @@ function openGlossary(termKey, anchorEl) {
     const popCtr = { n: 0 };
     const invariantR = numberCitations(md(entry.invariant_definition || ""), popCtr);
     const allFootnotes = invariantR.footnotes.slice();
-    const perSchool = (entry.per_school || []).map((s) => {
-      const r = numberCitations(md(s.definition), popCtr);
+    // Skip placeholder rows (a school where the term doesn't apply, or whose
+    // loci we haven't sourced yet) — internal state, not for readers.
+    const isPlaceholderDef = (t) => {
+      const x = String(t || "").trim();
+      return x === "" || x === "NOT-APPLICABLE" || x === "NOT-APPLICABLE." || x === "[NOT YET RETRIEVED]";
+    };
+    const stripMarker = (t) => String(t || "").replace(/^\[NOT YET RETRIEVED\]\s*/, "");
+    const perSchool = (entry.per_school || []).filter((s) => !isPlaceholderDef(s.definition)).map((s) => {
+      const r = numberCitations(md(stripMarker(s.definition)), popCtr);
       allFootnotes.push(...r.footnotes);
       const tag = s.register_tag
         ? `<span class="gp-regtag" title="register tuple">${escape(s.register_tag)}</span>`
@@ -2895,8 +2902,14 @@ function openGlossary(termKey, anchorEl) {
       : "";
     // Cognates: compact tags only (Greek/Latin/…), no markdown, no prose.
     const cog = entry.cognates;
+    const cogClass = (lang) => {
+      const l = String(lang || "").toLowerCase();
+      if (l.includes("greek")) return "cog-greek";
+      if (l.includes("latin")) return "cog-latin";
+      return "cog-other";
+    };
     const cognatesBlock = (cog && cog.items && cog.items.length)
-      ? `<div class="gp-cognates"><span class="gp-cog-label">Cognates</span> <span class="gp-cog-tags">${cog.items.map((i) => `<span class="gp-cog-tag">${escape(i.lang)} <i>${escape(i.form)}</i></span>`).join("")}</span></div>`
+      ? `<div class="gp-cognates"><span class="gp-cog-label">Cognates</span> <span class="gp-cog-tags">${cog.items.map((i) => `<span class="gp-cog-tag ${cogClass(i.lang)}">${escape(i.lang)} <i>${escape(i.form)}</i></span>`).join("")}</span></div>`
       : "";
     const footnoteList = renderFootnoteList(allFootnotes);
     // Heading: prefer the surface form the user actually clicked when it

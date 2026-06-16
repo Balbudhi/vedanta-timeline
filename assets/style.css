@@ -1627,11 +1627,23 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 .glossary-popover .gp-history-cites { font-family: var(--sans); font-size: 11px; color: var(--muted); line-height: 1.7; }
 .glossary-popover .gp-cite { white-space: nowrap; }
 .glossary-popover .gp-cite:not(:last-child)::after { content: " · "; color: var(--muted-soft); }
-/* cognates: compact inline tags, no prose */
+/* cognates: small colour-coded pills (Latin · Greek) */
 .glossary-popover .gp-cognates { margin: 6px 0; font-family: var(--sans); font-size: 12px; color: var(--muted); }
-.glossary-popover .gp-cog-label { font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: 10px; color: var(--muted-soft); margin-right: 6px; }
-.glossary-popover .gp-cog-tag:not(:last-child)::after { content: " · "; color: var(--muted-soft); }
-.glossary-popover .gp-cog-tag i { color: var(--ink-soft); }
+.glossary-popover .gp-cog-label { font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: 10px; color: var(--muted-soft); margin-right: 6px; vertical-align: middle; }
+.glossary-popover .gp-cog-tags { display: inline-flex; flex-wrap: wrap; gap: 5px; vertical-align: middle; }
+.glossary-popover .gp-cog-tag {
+  --c: var(--muted);
+  display: inline-flex; align-items: baseline; gap: 4px;
+  padding: 1px 9px; border-radius: 999px; font-size: 11px; line-height: 1.55;
+  color: var(--c);
+  background: color-mix(in srgb, var(--c) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--c) 32%, transparent);
+}
+.glossary-popover .gp-cog-tag i { font-style: italic; }
+.glossary-popover .gp-cog-tag.cog-latin { --c: #a87a1e; }
+.glossary-popover .gp-cog-tag.cog-greek { --c: #3a6ea5; }
+html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-latin { --c: #d8b85a; }
+html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; }
 /* per-school: compact stacked label, full-width definition (no wide left column) */
 .glossary-popover .gp-row { margin: 10px 0; font-size: 13px; }
 .glossary-popover .gp-school {
