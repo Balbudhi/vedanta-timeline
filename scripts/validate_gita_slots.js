@@ -56,6 +56,13 @@ for (const locus of Object.keys(com)) {
   }
 }
 
+const par = load("gita/sthitaprajna/parallels.js", "GITA_PARALLELS");
+for (const locus of Object.keys(par)) {
+  for (const p of par[locus]) {
+    checkUnit(`parallel ${locus} / ${p.thinker || p.school || "?"}`, p.words, p.english);
+  }
+}
+
 console.log(`Checked ${unitCount} interactive units.`);
 console.log(`Literal [..] bracket inserts remaining in ${brackets.length} units:`);
 for (const b of brackets) console.log(`  ${b.label}: ${b.items.join("  ")}`);
