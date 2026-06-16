@@ -815,7 +815,7 @@ The closest published precedent to the user's Sarvāmnāya position. The user's 
 
 ### *Intuitive Mentality* (2017)
 
-Already cited extensively in Part IV. *Acta Psychopathologica* 3.5, art. 64. Open access. Full text on disk. Banerji's most concentrated single-paper treatment of (i) the Aurobindonian neo-Vedantic knowledge project as response to Enlightenment-epistemology failures, (ii) the three knowledge ontologies (*adhibhautika* / *adhidaivika* / *adhyātmika*), (iii) the Quartet of Knowledge with its four sub-faculties (*dṛṣṭi*, *śruti*, *smṛti*, *viveka*), and (iv) the Bergson-Whitehead bridge through *saṃjñāna* and *ājñāna*. This is the paper to read for the technical Aurobindonian epistemology behind T11.
+Already cited extensively in Part IV. *Acta Psychopathologica* 3.5, art. 64. Open access. Full text on disk. Banerji's most concentrated single-paper treatment of (i) the Aurobindonian Vedāntic knowledge project as response to Enlightenment-epistemology failures, (ii) the three knowledge ontologies (*adhibhautika* / *adhidaivika* / *adhyātmika*), (iii) the Quartet of Knowledge with its four sub-faculties (*dṛṣṭi*, *śruti*, *smṛti*, *viveka*), and (iv) the Bergson-Whitehead bridge through *saṃjñāna* and *ājñāna*. This is the paper to read for the technical Aurobindonian epistemology behind T11.
 
 Five Enlightenment-epistemology failures Banerji diagnoses (p. 2):
 
