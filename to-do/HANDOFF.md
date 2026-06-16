@@ -48,6 +48,14 @@ huge files (>~2 MB). Sources: GRETIL (Sanskrit/Prakrit), SuttaCentral (Pali), Gu
 - **Sanskrit word-by-word translation is NOT being done for every text** — only where it already
   exists. Do not over-claim coverage in prose or UI.
 
+## Glossary content gaps (see `to-do/GLOSSARY_GAPS.md`)
+Glossary popover now hides placeholder per-school rows (NOT-APPLICABLE / [NOT YET
+RETRIEVED]); data keeps them as honest internal state. **117 missing school-views**
+across 43 entries — sourcing split: **21 FILL** (primary text already on disk →
+writable now), 31 PARTIAL (thin: Jaina-prakrit / grammar only), 65 NO-CORPUS (minor
+Vedānta sub-schools — needs external sourcing, do NOT fabricate). Plus 302 unsourced
+`primary_loci` markers. Full per-entry list + FILL/PARTIAL/NO-CORPUS tags in the doc.
+
 ## Concurrency
 A separate agent is adding a glossary "cognate pills" feature (touches `data/glossary/*`,
 `assets/app.js` `openGlossary`, `assets/style.css` `gp-cog`, `assets/gita.*`). Leave its uncommitted
