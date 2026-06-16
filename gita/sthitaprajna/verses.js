@@ -1298,7 +1298,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "viśeṣaṇa / predicate of the subject (muni)",
-        "glossaryKey": "trsna",
+        "glossaryKey": "sprha",
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi",
@@ -1582,7 +1582,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "nom. sg. masc.",
-            "glossaryKey": "trsna"
+            "glossaryKey": "sprha"
           },
           {
             "i": 8,
@@ -1642,7 +1642,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "nom. sg. masc.",
-            "glossaryKey": "trsna"
+            "glossaryKey": "sprha"
           },
           {
             "i": 12,
@@ -1696,7 +1696,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "nom. sg. fem.",
-            "glossaryKey": "trsna"
+            "glossaryKey": "sprha"
           },
           {
             "i": 15,
@@ -14048,7 +14048,7 @@ window.GITA_VERSES = [
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
         "karaka": "viśeṣaṇa of pumān (predicative)",
-        "glossaryKey": "trsna",
+        "glossaryKey": "sprha",
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi (nañ / prādi: nis- 'without')",
@@ -14231,7 +14231,7 @@ window.GITA_VERSES = [
               }
             ],
             "morph": "nom. sg. masc.",
-            "glossaryKey": "trsna"
+            "glossaryKey": "sprha"
           },
           {
             "i": 2,

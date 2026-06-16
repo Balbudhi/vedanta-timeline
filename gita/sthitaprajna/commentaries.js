@@ -11559,7 +11559,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 18,
@@ -11718,7 +11718,7 @@ window.GITA_COMMENTARY = {
           ],
           "morph": "nominative singular masculine",
           "compound": "bahuvrīhi: he from whom longing (spṛhā) has departed (vigata)",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 29,
@@ -14254,7 +14254,7 @@ window.GITA_COMMENTARY = {
           ],
           "morph": "nominative singular masculine",
           "compound": "bahuvrīhi: he from whom longing (spṛhā) has departed (vigata)",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 130,
@@ -14287,7 +14287,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 131,
@@ -14300,7 +14300,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 132,
@@ -15021,7 +15021,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 180,
@@ -15793,7 +15793,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 233,
@@ -17464,7 +17464,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 15,
@@ -66341,7 +66341,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "trsna",
+          "glossaryKey": "sprha",
           "compound": "bahuvrīhi: 'one from whom longing (spṛhā) has gone out (niḥ-)', free of longing"
         },
         {
@@ -66409,7 +66409,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular feminine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 19,
@@ -66450,7 +66450,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 22,
@@ -67307,7 +67307,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 24,
@@ -68401,7 +68401,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "nominative singular masculine",
-          "glossaryKey": "trsna"
+          "glossaryKey": "sprha"
         },
         {
           "i": 13,
@@ -68886,7 +68886,7 @@ window.GITA_COMMENTARY = {
             }
           ],
           "morph": "instrumental singular feminine",
-          "glossaryKey": "trsna",
+          "glossaryKey": "sprha",
           "compound": "tatpuruṣa: 'by the state of being free of longing (niḥspṛha-tā)'"
         },
         {

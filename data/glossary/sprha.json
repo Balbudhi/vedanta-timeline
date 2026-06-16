@@ -1,0 +1,29 @@
+{
+  "term_key": "sprha",
+  "term_iast": "spṛhā",
+  "term_devanagari": "स्पृहा",
+  "literal": "eager longing, hankering, covetousness; action-noun from √spṛh 'to desire eagerly, to long for, to envy' (spṛh + a → spṛhā) — the mind's forward-reaching wish toward an anticipated object",
+  "aliases": [
+    "sprha",
+    "spṛhā",
+    "Spṛhā",
+    "spṛhāḥ",
+    "spṛhām",
+    "spṛhayā",
+    "vigata-spṛha",
+    "vigataspṛhaḥ",
+    "niḥspṛha",
+    "nisspṛhaḥ",
+    "niḥspṛhaḥ"
+  ],
+  "last_verified_at": "2026-06-16",
+  "last_verified_by": "glossary-disambiguation",
+  "invariant_definition": "*Spṛhā* is eager longing — the forward-reaching *hankering* after a particular anticipated pleasure or object, the mind leaning toward what it does not yet have. It is allied to *tṛṣṇā* (thirst) and *kāma* (desire) but carries its own coloring: where *tṛṣṇā* is the standing, insatiable thirst and *kāma* the wish for a present object, *spṛhā* is the anticipatory ache, the reaching-toward itself. In the *Bhagavad-Gītā* it appears as a negation: the sage of settled wisdom is *vigata-spṛha*, 'with hankering gone', amid pleasures (2.56), and *niḥspṛha*, 'free of longing', as he moves through the world (2.71). Śaṅkara glosses *spṛhā* as longing toward things not yet come; Madhusūdana analyzes it as the *tṛṣṇātmikā citta-vṛtti* — the thirst-natured movement of mind that vainly reaches for future pleasure. So *spṛhā* names the wanting-as-reaching, the covetous lean toward an object held in prospect, rather than the deep insatiable thirst (*tṛṣṇā*) or the formed desire for a thing at hand (*kāma*).",
+  "see_also": [
+    "trsna",
+    "kama",
+    "raga",
+    "vairagya"
+  ],
+  "translator_note": "Render *spṛhā* as 'longing' or 'hankering' — the eager forward-reaching wish, kept distinct from *tṛṣṇā* (the standing thirst) and *kāma* (desire for a present object). Do not collapse it into *tṛṣṇā*: there is a real poetic difference — *spṛhā* is the anticipatory reaching toward what is not yet had. The Gītā words are the negations *vigata-spṛha* / *niḥspṛha*, 'free of longing'."
+}
