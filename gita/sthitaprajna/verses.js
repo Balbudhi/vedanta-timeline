@@ -570,8 +570,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "प्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान्।\nआत्मन्य् एवात्मना तुष्टः स्थितप्रज्ञस् तदोच्यते॥",
     "iast": "prajahāti yadā kāmān sarvān pārtha manogatān |\nātmany evātmanā tuṣṭaḥ sthitaprajñas tadocyate ||",
-    "sense": "Kṛṣṇa answers: when a man casts off every desire that rises in the mind, and is content in the self by the self alone, then he is called a man of settled wisdom.",
-    "english": "{1:When} he {0:utterly casts off} {3:all} {2:the desires} {5:that arise in the mind}, {4:Pārtha}, {7:content} {6:in the self} {8:by the self} {9:alone} — {11:then} {12:he is called} {10:one of settled wisdom}.",
+    "sense": "Kṛṣṇa answers: when a man casts off every kāma (desire as craving) that rises in the manas (the mind as the seat of thought and intention), and is content in the self by the self alone, then he is called a man of settled wisdom.",
+    "english": "{1:When} he {0:utterly casts off} {3:all} {2:the kāmas} {5:that arise in the manas}, {4:Pārtha}, {7:content} {6:in the self} {8:by the self} {9:alone} — {11:then} {12:he is called} {10:one of settled wisdom}.",
     "words": [
       {
         "i": 0,
@@ -865,7 +865,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.55",
         "sanskrit": "ātmany evātmanā manasā ātmaikāvalambanena tuṣṭaḥ, tena toṣeṇa tadvyatiriktān sarvān manogatān kāmān yadā prakarṣeṇa jahāti, tadāyaṃ sthitaprajña ity ucyate / jñānaniṣṭhā-kāṣṭhā iyam /",
-        "ourRendering": "Content in the self alone, by the self — that is, by the mind whose sole support is the self — and through that contentment, when he utterly casts off all the desires within the mind other than that [self], then this man is called sthitaprajña. This is the summit of steadfastness in knowledge.",
+        "ourRendering": "Content in the self alone, by the self — that is, by the manas (the mind as the seat of thought and intention) whose sole support is the self — and through that contentment, when he utterly casts off all the kāmas (desire as craving) within the manas other than that [self], then this man is called sthitaprajña. This is the summit of steadfastness in jñāna (liberating knowledge of the self).",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -1188,7 +1188,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:Alone} {0:in the self}, {2:by the self} — {3:by the mind} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {10:the mind-arisen} {11:desires} {8:other than that [self]}, {15:then} {16:this one} {18:is}{19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in knowledge}.",
+        "english": "{1:Alone} {0:in the self}, {2:by the self} — {3:by the manas} {4:whose sole support is the self} — {5:content}, and {6:by that} {7:contentment}, {12:when} he {13:utterly} {14:casts off} {9:all} {10:the manas-arisen} {11:kāmas} {8:other than that [self]}, {15:then} {16:this one} {18:is}{19:called} {17:the man of steady wisdom}. {22:This} is {21:the summit} {20:of steadfastness in jñāna}.",
         "segments": [
           {
             "from": 0,
@@ -1212,8 +1212,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "दुःखेष्व् अनुद्विग्नमनाः सुखेषु विगतस्पृहः।\nवीतरागभयक्रोधः स्थितधीर् मुनिर् उच्यते॥",
     "iast": "duḥkheṣv anudvignamanāḥ sukheṣu vigataspṛhaḥ |\nvītarāgabhayakrodhaḥ sthitadhīr munir ucyate ||",
-    "sense": "He whose mind is unshaken amid sorrows, who is free of longing amid pleasures, and from whom passion, fear, and anger have departed — such a sage is called a man of steady wisdom.",
-    "english": "{1:Whose mind is unagitated} {0:amid sorrows}, {3:free of longing} {2:amid pleasures}, {4:from whom passion, fear, and anger have departed} — he {7:is called} {6:a sage} {5:of steady wisdom}.",
+    "sense": "He whose manas is unshaken amid sorrows, who is free of longing amid pleasures, and from whom rāga (the pull of attraction and attachment), fear, and krodha (kindled anger) have departed — such a sage is called a man of steady wisdom.",
+    "english": "{1:Whose manas is unagitated} {0:amid sorrows}, {3:free of longing} {2:amid pleasures}, {4:from whom rāga, fear, and krodha have departed} — he {7:is called} {6:a sage} {5:of steady wisdom}.",
     "words": [
       {
         "i": 0,
@@ -1442,7 +1442,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.56",
         "sanskrit": "priyaviśleṣādiduḥkhanimitteṣu upasthiteṣu anudvignamanāḥ -- na duḥkhī bhavati; sukheṣu vigataspṛhaḥ -- priyeṣu sannihiteṣv api vigataspṛhaḥ, vītarāgabhayakrodhaḥ -- anāgateṣu spṛhā rāgaḥ, tadrahitaḥ; priyaviśleṣāpriyāgamanahetudarśananimittaṃ duḥkhaṃ bhayam, tadrahitaḥ; priyaviśleṣāpriyāgamanahetubhūtacetanāntaragataduḥkhahetubhūtasvamanovikāraḥ krodhaḥ, tadrahitaḥ; evaṃbhūtaḥ muniḥ -- ātmamananaśīlaḥ sthitadhīr ity ucyate",
-        "ourRendering": "When occasions of sorrow such as separation from what is dear present themselves, he is 'one whose mind is unagitated' — he does not become sorrowful; 'free of longing amid pleasures' — even when objects of liking are at hand, he is free of longing; 'from whom passion, fear, and anger have departed' — longing toward things not yet come is rāga (passion), and he is without it; the sorrow that arises from foreseeing the cause of separation from the dear or the coming of the un-dear is fear, and he is without it; the perturbation of one's own mind that becomes a cause of the inner suffering of another conscious being, the cause of separation from the dear or the arrival of the un-dear, is anger, and he is without it. One who has become thus — a muni, whose nature is to contemplate (manana) the self — is called 'one of steady intellect'.",
+        "ourRendering": "When occasions of sorrow such as separation from what is dear present themselves, he is 'one whose manas is unagitated' — he does not become sorrowful; 'free of longing amid pleasures' — even when objects of liking are at hand, he is free of longing; 'from whom rāga (the pull of attraction and attachment), fear, and krodha (kindled anger) have departed' — longing toward things not yet come is rāga, and he is without it; the sorrow that arises from foreseeing the cause of separation from the dear or the coming of the un-dear is fear, and he is without it; the perturbation of one's own manas that becomes a cause of the inner suffering of another conscious being, the cause of separation from the dear or the arrival of the un-dear, is krodha, and he is without it. One who has become thus — a muni, whose nature is to contemplate (manana) the self — is called 'one of steady intellect'.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -1986,7 +1986,7 @@ window.GITA_VERSES = [
             "morph": "pres. passive 3 sg."
           }
         ],
-        "english": "{1:When} {0:occasions of sorrow such as separation from the dear} {1:present themselves}, he is {2:one whose mind is unagitated} — he {3:does} {3:not} {5:become} {4:sorrowful}; {7:free of longing} {6:amid pleasures} — {10:even} {9:when} {8:things dear} {9:are at hand}, he is {11:free of longing}; {12:from whom passion, fear, and anger have departed} — {14:longing} {13:toward things not yet come} {15:is passion}, and he is {16:without it}; {18:the sorrow} {17:occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear} {19:is fear}, and he is {20:without it}; {21:the perturbation of one's own mind that becomes a cause of the inner suffering of another conscious being} {22:is anger}, and he is {23:without it}. {24:One who has become thus} — {25:a sage}, {26:whose nature is to contemplate the self} — {29:is}{28:called} {27:one of steady intellect}.",
+        "english": "{1:When} {0:occasions of sorrow such as separation from the dear} {1:present themselves}, he is {2:one whose manas is unagitated} — he {3:does} {3:not} {5:become} {4:sorrowful}; {7:free of longing} {6:amid pleasures} — {10:even} {9:when} {8:things dear} {9:are at hand}, he is {11:free of longing}; {12:from whom rāga, fear, and krodha have departed} — {14:longing} {13:toward things not yet come} {15:is rāga}, and he is {16:without it}; {18:the sorrow} {17:occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear} {19:is fear}, and he is {20:without it}; {21:the perturbation of one's own manas that becomes a cause of the inner suffering of another conscious being} {22:is krodha}, and he is {23:without it}. {24:One who has become thus} — {25:a sage}, {26:whose nature is to contemplate the self} — {29:is}{28:called} {27:one of steady intellect}.",
         "segments": [
           {
             "from": 0,
@@ -2005,8 +2005,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "यः सर्वत्रानभिस्नेहस् तत् तत् प्राप्य शुभाशुभम्।\nनाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "yaḥ sarvatrānabhisnehas tat tat prāpya śubhāśubham |\nnābhinandati na dveṣṭi tasya prajñā pratiṣṭhitā ||",
-    "sense": "He who is without attachment toward anything anywhere, and on meeting this or that good or evil neither rejoices nor recoils — his wisdom is firmly established.",
-    "english": "{0:He who} {2:is without attachment} {1:everywhere}, {4:on meeting} {3:this and that} {5:good and evil}, {6:neither} {7:rejoices} {8:nor} {9:recoils} — {10:his} {11:wisdom} {12:is firmly established}.",
+    "sense": "He who is without saṅga (clinging attachment that binds) toward anything anywhere, and on meeting this or that good or evil neither rejoices nor feels dveṣa (the recoil of aversion) — his prajñā (clear discriminative insight into reality) is firmly established.",
+    "english": "{0:He who} {2:is without saṅga} {1:everywhere}, {4:on meeting} {3:this and that} {5:good and evil}, {6:neither} {7:rejoices} {8:nor} {9:feels dveṣa} — {10:his} {11:prajñā} {12:is firmly established}.",
     "words": [
       {
         "i": 0,
@@ -2311,7 +2311,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.57",
         "sanskrit": "yaḥ sarvatra priyeṣu anabhisnehaḥ udāsīnaḥ; priyasaṃśleṣaviśleṣarūpaṃ śubhāśubhaṃ prāpyābhinandanadveṣarahitaḥ, so 'pi sthitaprajñaḥ",
-        "ourRendering": "He who, in all cases, among things dear is without attachment — indifferent; who, on meeting the good and the bad, which take the form of union with and separation from what is dear, is devoid of rejoicing and aversion — he too is a man of steady wisdom.",
+        "ourRendering": "He who, in all cases, among things dear is without saṅga (clinging attachment that binds) — indifferent; who, on meeting the good and the bad, which take the form of union with and separation from what is dear, is devoid of rejoicing and of dveṣa (the recoil of aversion) — he too is a man of steady wisdom.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -2512,7 +2512,7 @@ window.GITA_VERSES = [
             "glossaryKey": "sthitaprajna"
           }
         ],
-        "english": "{0:He who}, {1:in all cases}, {2:among things dear} {3:is without attachment}, {4:indifferent}; who, {7:on meeting} {6:the good and the bad}, {5:which take the form of union with and separation from the dear}, is {8:devoid of rejoicing and aversion} — {9:he} {10:too} is {11:a man of steady wisdom}.",
+        "english": "{0:He who}, {1:in all cases}, {2:among things dear} {3:is without saṅga}, {4:indifferent}; who, {7:on meeting} {6:the good and the bad}, {5:which take the form of union with and separation from the dear}, is {8:devoid of rejoicing and of dveṣa} — {9:he} {10:too} is {11:a man of steady wisdom}.",
         "segments": [
           {
             "from": 0,
@@ -2531,8 +2531,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "यदा संहरते चायं कूर्मो ऽङ्गानीव सर्वशः।\nइन्द्रियाणीन्द्रियार्थेभ्यस् तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "yadā saṃharate cāyaṃ kūrmo 'ṅgānīva sarvaśaḥ |\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā ||",
-    "sense": "And when, like a tortoise drawing in its limbs from every side, this one withdraws his senses from the objects of sense, his wisdom is firmly established.",
-    "english": "{1:And} {0:when} {3:this one} {2:withdraws} {8:the senses} {9:from the objects of sense}, {7:from every side}, {6:like} {4:a tortoise} {5:its limbs} — {10:his} {11:wisdom} {12:is firmly established}.",
+    "sense": "And when, like a tortoise drawing in its limbs from every side, this one withdraws his indriyas (the sense-faculties, the channels between mind and world) from the objects of sense, his prajñā is firmly established.",
+    "english": "{1:And} {0:when} {3:this one} {2:withdraws} {8:the indriyas} {9:from the objects of sense}, {7:from every side}, {6:like} {4:a tortoise} {5:its limbs} — {10:his} {11:prajñā} {12:is firmly established}.",
     "words": [
       {
         "i": 0,
@@ -2818,7 +2818,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.58",
         "sanskrit": "yadendriyāṇīndriyārthān spṛṣṭum udyuktāni, tadaiva kūrmo 'ṅgānīva, indriyārthebhyaḥ sarvaśaḥ pratisaṃhṛtya mana ātmany avasthāpayati, so 'pi sthitaprajñaḥ / evaṃ caturvidhā jñānaniṣṭhā / pūrvapūrvā uttarottraniṣpādyā",
-        "ourRendering": "When the senses are poised to touch the objects of sense, then and there — like a tortoise its limbs — having drawn them in entirely from the objects of sense, he settles the mind in the self: he too is a man of steady wisdom. Thus steadfastness in knowledge is of four kinds, each earlier one to be accomplished by the one that follows.",
+        "ourRendering": "When the indriyas are poised to touch the objects of sense, then and there — like a tortoise its limbs — having drawn them in entirely from the objects of sense, he settles the manas in the self: he too is a man of steady wisdom. Thus steadfastness in jñāna is of four kinds, each earlier one to be accomplished by the one that follows.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -3171,7 +3171,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{0:When} {1:the senses} {3:to touch} {2:the objects of sense} {4:are poised}, {5:then} {6:and there} — {9:like} {7:a tortoise} {8:its limbs} — {12:having drawn} {1:them} {11:entirely} {12:in} {10:from the objects of sense}, he {15:settles} {13:the mind} {14:in the self}: {16:he} {17:too} is {18:a man of steady wisdom}. {19:Thus} {21:steadfastness in knowledge} is {20:of four kinds}, {22:each earlier one} {23:to be accomplished by the one that follows}.",
+        "english": "{0:When} {1:the indriyas} {3:to touch} {2:the objects of sense} {4:are poised}, {5:then} {6:and there} — {9:like} {7:a tortoise} {8:its limbs} — {12:having drawn} {1:them} {11:entirely} {12:in} {10:from the objects of sense}, he {15:settles} {13:the manas} {14:in the self}: {16:he} {17:too} is {18:a man of steady wisdom}. {19:Thus} {21:steadfastness in jñāna} is {20:of four kinds}, {22:each earlier one} {23:to be accomplished by the one that follows}.",
         "segments": [
           {
             "from": 0,
@@ -3455,7 +3455,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.59",
         "sanskrit": "indriyāṇām āhārā viṣayāḥ; nirāhārasya viṣayebhyaḥ pratyāhṛtendriyasya dehino viṣayā vinivartamānā rasavarjaṃ vinivartante; rasaḥ rāgaḥ / viṣayarāgo na nivartata ityarthaḥ / rāgo 'py ātmasvarūpaṃ viṣayebhyaḥ paraṃ sukhataraṃ dṛṣṭvā nivartate",
-        "ourRendering": "The 'food' of the senses are the sense-objects; for the embodied one who is 'foodless' — that is, whose senses have been withdrawn from the objects — the sense-objects, as they recede, recede with the relish excepted; the 'relish' is rāga (passion). The meaning is: passion for the objects does not [yet] turn back. Even that passion turns back when he has seen the self's own nature as higher (para) — as more blissful — than the objects.",
+        "ourRendering": "The 'food' of the indriyas are the sense-objects; for the embodied one who is 'foodless' — that is, whose indriyas have been withdrawn from the objects — the sense-objects, as they recede, recede with the relish excepted; the 'relish' is rāga. The meaning is: rāga for the objects does not [yet] turn back. Even that rāga turns back when he has seen the self's own nature as higher (para) — as more blissful — than the objects.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -3857,7 +3857,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{2:The sense-objects} are {1:the food} {0:of the senses}; {6:for the embodied one} {3:who is foodless} — {5:whose senses have been withdrawn} {4:from the objects} — {7:the sense-objects}, {8:as they recede}, {10:recede} {9:with the relish excepted}; {11:the relish} {12:is passion}. {13:Passion for the objects} {14:does} {14:not} {15:turn back} — {16:thus}{17:is the meaning}. {19:Even} {18:that passion} {25:turns back} {24:when he has seen} {20:the self's own nature} as {22:higher} — {23:as more blissful} — {21:than the objects}.",
+        "english": "{2:The sense-objects} are {1:the food} {0:of the indriyas}; {6:for the embodied one} {3:who is foodless} — {5:whose indriyas have been withdrawn} {4:from the objects} — {7:the sense-objects}, {8:as they recede}, {10:recede} {9:with the relish excepted}; {11:the relish} {12:is rāga}. {13:rāga for the objects} {14:does} {14:not} {15:turn back} — {16:thus}{17:is the meaning}. {19:Even} {18:that rāga} {25:turns back} {24:when he has seen} {20:the self's own nature} as {22:higher} — {23:as more blissful} — {21:than the objects}.",
         "segments": [
           {
             "from": 0,
@@ -3881,8 +3881,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "यततो ह्य् अपि कौन्तेय पुरुषस्य विपश्चितः।\nइन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः॥",
     "iast": "yatato hy api kaunteya puruṣasya vipaścitaḥ |\nindriyāṇi pramāthīni haranti prasabhaṃ manaḥ ||",
-    "sense": "Kṛṣṇa warns: even in the case of a striving, discerning man, the turbulent senses violently carry away the mind.",
-    "english": "{1:For} {2:even} {0:of one who is striving}, {3:Kaunteya} — {4:of a man} {5:who is discerning} — {7:the turbulent} {6:senses} {9:by force} {8:carry away} {10:the mind}.",
+    "sense": "Kṛṣṇa warns: even in the case of a striving, discerning man, the turbulent indriyas violently carry away the manas.",
+    "english": "{1:For} {2:even} {0:of one who is striving}, {3:Kaunteya} — {4:of a man} {5:who is discerning} — {7:the turbulent} {6:indriyas} {9:by force} {8:carry away} {10:the manas}.",
     "words": [
       {
         "i": 0,
@@ -4114,7 +4114,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.60",
         "sanskrit": "ātmadarśanena vinā viṣayarāgo na nivartate, anivṛtte viṣayarāge vipaścito yatamānasyāpi puruṣasyendriyāṇi pramāthīni balavanti, manaḥ prasahya haranti / evam indriyajayaḥ ātmadarśanādhīnaḥ, ātmadarśanam indriyajayādhīnam iti jñānaniṣṭhā duṣprāpā /",
-        "ourRendering": "Without the vision of the self, attachment to objects does not cease; and when attachment to objects has not ceased, the senses of even a discerning man who is striving are turbulent and powerful, and forcibly carry away his mind. Thus mastery of the senses depends on the vision of the self, and the vision of the self depends on mastery of the senses — so steadfastness in knowledge is hard to attain.",
+        "ourRendering": "Without the vision of the self, saṅga toward objects does not cease; and when saṅga toward objects has not ceased, the indriyas of even a discerning man who is striving are turbulent and powerful, and forcibly carry away his manas. Thus mastery of the indriyas depends on the vision of the self, and the vision of the self depends on mastery of the indriyas — so steadfastness in jñāna is hard to attain.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -4501,7 +4501,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:Without} {0:the vision of the self}, {2:attachment to objects} {3:does} {3:not} {4:cease}; and {5:when} {6:attachment to objects} {5:has not ceased}, {11:the senses} {9:even} {10:of a man} {7:who is discerning} {8:and striving} are {12:turbulent} and {13:powerful}, and {15:forcibly} {16:carry away} {14:his mind}. {17:Thus} {18:mastery of the senses} {19:depends on the vision of the self}, and {20:the vision of the self} {21:depends on mastery of the senses} — {22:so} {23:steadfastness in knowledge} {24:is hard to attain}.",
+        "english": "{1:Without} {0:the vision of the self}, {2:saṅga toward objects} {3:does} {3:not} {4:cease}; and {5:when} {6:saṅga toward objects} {5:has not ceased}, {11:the indriyas} {9:even} {10:of a man} {7:who is discerning} {8:and striving} are {12:turbulent} and {13:powerful}, and {15:forcibly} {16:carry away} {14:his manas}. {17:Thus} {18:mastery of the indriyas} {19:depends on the vision of the self}, and {20:the vision of the self} {21:depends on mastery of the indriyas} — {22:so} {23:steadfastness in jñāna} {24:is hard to attain}.",
         "segments": [
           {
             "from": 0,
@@ -4525,8 +4525,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "तानि सर्वाणि संयम्य युक्त आसीत मत्परः।\nवशे हि यस्येन्द्रियाणि तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "tāni sarvāṇi saṃyamya yukta āsīta matparaḥ |\nvaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā ||",
-    "sense": "Kṛṣṇa instructs: having restrained all those senses, one should sit yoked, intent on me; for he whose senses are under control — his wisdom stands firm.",
-    "english": "{2:Having restrained} {1:all} {0:those} [senses], {3:yoked} {5:intent on me} he {4:should sit}; {7:for} {8:of whom} {9:the senses} are {6:in control}, {10:of him} {11:the wisdom} {12:stands firm}.",
+    "sense": "Kṛṣṇa instructs: having restrained all those indriyas, one should sit yoked, intent on me; for he whose indriyas are under control — his prajñā stands firm.",
+    "english": "{2:Having restrained} {1:all} {0:those} [indriyas], {3:yoked} {5:intent on me} he {4:should sit}; {7:for} {8:of whom} {9:the indriyas} are {6:in control}, {10:of him} {11:the prajñā} {12:stands firm}.",
     "words": [
       {
         "i": 0,
@@ -4808,7 +4808,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.61",
         "sanskrit": "asya sarvasya parijihīrṣayā viṣayānurāgayuktatayā durjayānīndriyāṇi saṃyamya, cetasaś śubhāśrayabhūte mayi mano 'vasthāpya samāhita āsīta / manasi madviṣaye sati nirdagdhāśeṣakalmaṣatayā nirmalīkṛtaṃ viṣayānurāgarahitaṃ mana indriyāṇi svavaśāni karoti / tato vaśyendriyaṃ mana ātmadarśanāya prabhavati / yathoktam, \"yathāgnir uddhataśikhaḥ kakṣaṃ dahati sānilaḥ / tathā cittasthito viṣṇur yogināṃ sarvakilbiṣam //\" iti / tadāha \"vaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā\" iti /",
-        "ourRendering": "Wishing to ward off all this, having restrained the senses — hard to conquer because they are joined to attachment for objects — and having fixed the mind on me, who am the auspicious resting-place of the mind, one should sit collected. When the mind has me for its object, being purified by the burning away of every taint, the mind, freed of attachment to objects, brings the senses under its own control. Then the mind, with senses mastered, becomes capable of the vision of the self. As it is said: 'As fire with raised flame, fanned by wind, burns up the brushwood, so Viṣṇu seated in the mind burns up all the sins of yogins.' This is what he states in: 'For he whose senses are in control — his wisdom stands firm.'",
+        "ourRendering": "Wishing to ward off all this, having restrained the indriyas — hard to conquer because they are joined to saṅga for objects — and having fixed the manas on me, who am the auspicious resting-place of the manas, one should sit collected. When the manas has me for its object, being purified by the burning away of every taint, the manas, freed of saṅga toward objects, brings the indriyas under its own control. Then the manas, with indriyas mastered, becomes capable of the vision of the self. As it is said: 'As fire with raised flame, fanned by wind, burns up the brushwood, so Viṣṇu seated in the manas burns up all the sins of yogins.' This is what he states in: 'For he whose indriyas are in control — his prajñā (clear discriminative insight into reality) stands firm.'",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -5584,7 +5584,7 @@ window.GITA_VERSES = [
             ]
           }
         ],
-        "english": "{2:Wishing to ward off} {0:all} {1:this}, {6:having restrained} {5:the senses} — {4:hard to conquer} {3:because they are joined to attachment for objects} — and {11:having fixed} {10:the mind} {9:on me}, {8:who am the auspicious resting-place} {7:of the mind}, {12:collected} {13:one should sit}. {16:When} {14:the mind} {15:has me for its object}, being {18:made pure} {17:by the burning away of every taint}, {20:the mind}, {19:freed of attachment to objects}, {23:brings} {21:the senses} {22:under its own control}. {24:Then} {26:the mind}, {25:with senses mastered}, {28:becomes capable} {27:of the vision of the self}. {29:As it is said}: {30:just as} {31:fire} {32:with raised flame}, {35:fanned by wind}, {34:burns up} {33:the brushwood}, {36:so} {38:Viṣṇu} {37:seated in the mind} burns up {40:all the sins} {39:of yogins} — {41:thus}. {43:This is what he states} {42:in}: {45:for} {46:he whose} {47:senses} are {44:in control}, {48:his} {49:wisdom} {50:stands firm} — {51:thus}.",
+        "english": "{2:Wishing to ward off} {0:all} {1:this}, {6:having restrained} {5:the indriyas} — {4:hard to conquer} {3:because they are joined to saṅga for objects} — and {11:having fixed} {10:the manas} {9:on me}, {8:who am the auspicious resting-place} {7:of the manas}, {12:collected} {13:one should sit}. {16:When} {14:the manas} {15:has me for its object}, being {18:made pure} {17:by the burning away of every taint}, {20:the manas}, {19:freed of saṅga toward objects}, {23:brings} {21:the indriyas} {22:under its own control}. {24:Then} {26:the manas}, {25:with indriyas mastered}, {28:becomes capable} {27:of the vision of the self}. {29:As it is said}: {30:just as} {31:fire} {32:with raised flame}, {35:fanned by wind}, {34:burns up} {33:the brushwood}, {36:so} {38:Viṣṇu} {37:seated in the manas} burns up {40:all the sins} {39:of yogins} — {41:thus}. {43:This is what he states} {42:in}: {45:for} {46:he whose} {47:indriyas} are {44:in control}, {48:his} {49:prajñā} {50:stands firm} — {51:thus}.",
         "segments": [
           {
             "from": 0,
@@ -5623,8 +5623,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "ध्यायतो विषयान् पुंसः सङ्गस् तेषूपजायते।\nसङ्गात् सञ्जायते कामः कामात् क्रोधोऽभिजायते॥",
     "iast": "dhyāyato viṣayān puṃsaḥ saṅgas teṣūpajāyate |\nsaṅgāt saṃjāyate kāmaḥ kāmāt krodho 'bhijāyate ||",
-    "sense": "Kṛṣṇa describes the descent: in a man dwelling on sense-objects, attachment to them is born; from attachment desire is born; from desire arises anger.",
-    "english": "{2:Of a man} {0:dwelling on} {1:the objects}, {3:attachment} {4:to them} {5:is born}; {6:from attachment} {8:desire} {7:is born}; {9:from desire} {10:anger} {11:arises}.",
+    "sense": "Kṛṣṇa describes the descent: in a man dwelling on sense-objects, saṅga toward them is born; from saṅga kāma is born; from kāma arises krodha.",
+    "english": "{2:Of a man} {0:dwelling on} {1:the objects}, {3:saṅga} {4:to them} {5:is born}; {6:from saṅga} {8:kāma} {7:is born}; {9:from kāma} {10:krodha} {11:arises}.",
     "words": [
       {
         "i": 0,
@@ -5879,7 +5879,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.62-63",
         "sanskrit": "anirastaviṣayānurāgasya hi mayy aniveśitamanasa indriyāṇi saṃyamyāvasthitasyāpi anādipāpavāsanayā viṣayadhyānam avarjanīyaṃ syāt / dhyāyato viṣayān puṃsaḥ punar api saṅgo 'tipravṛddho jāyate / saṅgāt saṃjāte kāmaḥ / kāmo nāma saṅgasya vipākadaśā / puruṣo yāṃ daśām āpanno viṣayān abhuktvā sthātuṃ na śaknoti, sa kāmaḥ // kāmāt krodho 'bhijāyate / kāme vartamāne, viṣaye cāsannihite, sannihitān puruṣān prati, ebhir asmadiṣṭaṃ vihitam iti krodho bhavati / krodhād bhavati saṃmohaḥ / saṃmohaḥ kṛtyākṛtyavivekaśūnyatā / tayā sarvaṃ karoti / tataś ca prārabdhe indriyajayādike prayatne smṛtibhraṃśo bhavati / smṛtibhraṃśād buddhināśaḥ ātmajñāne yo vyavasāyaḥ kṛtaḥ, tasya nāśaḥ syāt / buddhināśāt punar api saṃsāre nimagno vinaṣṭo bhavati /",
-        "ourRendering": "[On 2.62:] For of one whose attachment to objects is not yet expelled and whose mind is not fixed on me, even though he has restrained the senses and is sitting still, brooding on objects becomes unavoidable on account of beginningless evil tendencies. In a man dwelling on objects, attachment to them, grown excessive, is born once more. From attachment, when it is born, comes desire. Desire is the ripened state of attachment: the state a man has fallen into when he cannot remain without enjoying the objects — that is desire. From desire anger is born: while desire persists and the object is not at hand, anger arises toward men who are at hand, in the thought 'by these has what I wished been thwarted.' [On 2.63:] From anger comes delusion. Delusion is the absence of discrimination between what is to be done and what is not; through it he does anything at all. And thereupon, in the effort already begun at mastering the senses and the rest, there comes a lapse of memory. From the lapse of memory comes the destruction of the buddhi: the resolve that had been made toward knowledge of the self is destroyed. From the destruction of the buddhi he is once more sunk in saṃsāra and perishes.",
+        "ourRendering": "[On 2.62:] For of one whose saṅga toward objects is not yet expelled and whose manas is not fixed on me, even though he has restrained the indriyas and is sitting still, brooding on objects becomes unavoidable on account of beginningless evil tendencies. In a man dwelling on objects, saṅga toward them, grown excessive, is born once more. From saṅga, when it is born, comes kāma. kāma is the ripened state of saṅga: the state a man has fallen into when he cannot remain without enjoying the objects — that is kāma. From kāma krodha is born: while kāma persists and the object is not at hand, krodha arises toward men who are at hand, in the thought 'by these has what I wished been thwarted.' [On 2.63:] From krodha comes moha (the delusion that clouds discernment). moha is the absence of discrimination between what is to be done and what is not; through it he does anything at all. And thereupon, in the effort already begun at mastering the indriyas and the rest, there comes a lapse of memory. From the lapse of memory comes the destruction of the buddhi (the discerning intellect): the resolve that had been made toward jñāna of the self is destroyed. From the destruction of the buddhi he is once more sunk in saṃsāra (the round of birth, death, and rebirth) and perishes.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -7117,7 +7117,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{1:For} {0:of one whose attachment to objects is not expelled} and {3:whose mind is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the senses}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:attachment}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From attachment}, {21:when it is born}, comes {22:desire}. {23:Desire} {24:namely} is {26:the ripened state} {25:of attachment}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is desire}. {38:From desire} {39:anger} {40:is born}: {42:while} {41:desire} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:anger} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the senses and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward knowledge of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}.",
+        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:saṅga}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma} {24:namely} is {26:the ripened state} {25:of saṅga}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is kāma}. {38:From kāma} {39:krodha} {40:is born}: {42:while} {41:kāma} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:krodha} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From krodha} {56:comes} {57:moha}. {58:moha} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward jñāna of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}.",
         "segments": [
           {
             "from": 0,
@@ -7141,8 +7141,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "क्रोधाद् भवति संमोहः संमोहात् स्मृतिविभ्रमः।\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात् प्रणश्यति॥",
     "iast": "krodhād bhavati saṃmohaḥ saṃmohāt smṛtivibhramaḥ |\nsmṛtibhraṃśād buddhināśo buddhināśāt praṇaśyati ||",
-    "sense": "Kṛṣṇa completes the descent: from anger comes delusion; from delusion, confusion of memory; from the ruin of memory, the destruction of the intellect; and from the destruction of the intellect, the man perishes.",
-    "english": "{0:From anger} {1:comes} {2:delusion}; {3:from delusion} {4:confusion of memory}; {5:from the collapse of memory} {6:the destruction of the intellect}; {7:from the destruction of the intellect} {8:he perishes}.",
+    "sense": "Kṛṣṇa completes the descent: from krodha comes moha (the delusion that clouds discernment); from moha, confusion of memory; from the ruin of memory, the destruction of the buddhi (the discerning intellect); and from the destruction of the buddhi, the man perishes.",
+    "english": "{0:From krodha} {1:comes} {2:moha}; {3:from moha} {4:confusion of memory}; {5:from the collapse of memory} {6:the destruction of the buddhi}; {7:from the destruction of the buddhi} {8:he perishes}.",
     "words": [
       {
         "i": 0,
@@ -7388,7 +7388,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.62-63",
         "sanskrit": "anirastaviṣayānurāgasya hi mayy aniveśitamanasa indriyāṇi saṃyamyāvasthitasyāpi anādipāpavāsanayā viṣayadhyānam avarjanīyaṃ syāt / dhyāyato viṣayān puṃsaḥ punar api saṅgo 'tipravṛddho jāyate / saṅgāt saṃjāte kāmaḥ / kāmo nāma saṅgasya vipākadaśā / puruṣo yāṃ daśām āpanno viṣayān abhuktvā sthātuṃ na śaknoti, sa kāmaḥ // kāmāt krodho 'bhijāyate / kāme vartamāne, viṣaye cāsannihite, sannihitān puruṣān prati, ebhir asmadiṣṭaṃ vihitam iti krodho bhavati / krodhād bhavati saṃmohaḥ / saṃmohaḥ kṛtyākṛtyavivekaśūnyatā / tayā sarvaṃ karoti / tataś ca prārabdhe indriyajayādike prayatne smṛtibhraṃśo bhavati / smṛtibhraṃśād buddhināśaḥ ātmajñāne yo vyavasāyaḥ kṛtaḥ, tasya nāśaḥ syāt / buddhināśāt punar api saṃsāre nimagno vinaṣṭo bhavati /",
-        "ourRendering": "[On 2.63:] From anger comes delusion. Delusion is the absence of discrimination between what is to be done and what is not; through it he does anything at all. And thereupon, in the effort already begun at mastering the senses and the rest, there comes a lapse of memory. From the lapse of memory comes the destruction of the buddhi: the resolve that had been made toward knowledge of the self is destroyed. From the destruction of the buddhi he is once more sunk in saṃsāra and perishes. [On 2.62, in the same block:] For of one whose attachment to objects is not yet expelled and whose mind is not fixed on me, even though he has restrained the senses and sits still, brooding on objects becomes unavoidable through beginningless evil tendencies; in a man dwelling on objects attachment grows excessive and is reborn, from attachment desire (the ripened state of attachment) is born, and from desire, thwarted, anger arises toward those at hand.",
+        "ourRendering": "[On 2.63:] From krodha comes moha. moha is the absence of discrimination between what is to be done and what is not; through it he does anything at all. And thereupon, in the effort already begun at mastering the indriyas and the rest, there comes a lapse of memory. From the lapse of memory comes the destruction of the buddhi: the resolve that had been made toward jñāna of the self is destroyed. From the destruction of the buddhi he is once more sunk in saṃsāra and perishes. [On 2.62, in the same block:] For of one whose saṅga toward objects is not yet expelled and whose manas is not fixed on me, even though he has restrained the indriyas and sits still, brooding on objects becomes unavoidable through beginningless evil tendencies; in a man dwelling on objects saṅga grows excessive and is reborn, from saṅga kāma (the ripened state of saṅga) is born, and from kāma, thwarted, krodha arises toward those at hand.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -8626,7 +8626,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{1:For} {0:of one whose attachment to objects is not expelled} and {3:whose mind is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the senses}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:attachment}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From attachment}, {21:when it is born}, comes {22:desire}. {23:Desire} {24:namely} is {26:the ripened state} {25:of attachment}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is desire}. {38:From desire} {39:anger} {40:is born}: {42:while} {41:desire} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:anger} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the senses and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward knowledge of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}.",
+        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {12:In a man brooding} {13:on the objects}, {14:in a man}, {17:saṅga}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma} {24:namely} is {26:the ripened state} {25:of saṅga}: {27:the man} {30:having fallen} into {28:the} {29:state} in which he {35:is} {34:not} {33:able} {32:without enjoying} {31:the objects} {33:to remain} — {36:that} {37:is kāma}. {38:From kāma} {39:krodha} {40:is born}: {42:while} {41:kāma} {42:persists}, {44:and} {43:the object} {45:not being at hand}, {48:toward} {46:men at hand} {47:[who are present]}, {53:krodha} {54:arises} {52:in the thought} {49:by these} {50:what I wished} {51:has been thwarted}. {55:From krodha} {56:comes} {57:moha}. {58:moha} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {63:And thereupon} {64:,} {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:that had been made} {72:toward jñāna of the self} — {76:of it} {77:the destruction} {78:would be}. {79:From the destruction of the buddhi} {81:once} {80:more} {83:sunk} {82:in saṃsāra} he {85:becomes} {84:ruined}.",
         "segments": [
           {
             "from": 0,
@@ -8650,8 +8650,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "रागद्वेषवियुक्तैस् तु विषयान् इन्द्रियैश् चरन्।\nआत्मवश्यैर् विधेयात्मा प्रसादम् अधिगच्छति॥",
     "iast": "rāgadveṣaviyuktais tu viṣayān indriyaiś caran |\nātmavaśyair vidheyātmā prasādam adhigacchati ||",
-    "sense": "But one whose self is under control, moving among sense-objects with senses freed from attraction and aversion and obedient to the self, attains serenity.",
-    "english": "{1:But} {6:moving} among {5:the sense-objects} with {4:the senses} {0:freed from attraction and aversion} and {7:obedient to the self}, {2:he whose self is biddable} {9:attains} {8:serenity}.",
+    "sense": "But one whose self is under control, moving among sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, attains serenity.",
+    "english": "{1:But} {6:moving} among {5:the sense-objects} with {4:the indriyas} {0:freed from rāga and dveṣa} and {7:obedient to the self}, {2:he whose self is biddable} {9:attains} {8:serenity}.",
     "words": [
       {
         "i": 0,
@@ -8886,7 +8886,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.64",
         "sanskrit": "uktena prakāreṇa mayi sarveśvare cetasaś śubhāśrayabhūte nyastamanāḥ nirdagdhāśeṣakalmaṣatayā rāgadveṣaviyuktair ātmavaśyair indriyaiḥ viṣayāṃś caran viṣayāṃs tiraskṛtya vartamānaḥ vidheyātmā vidheyamanāḥ prasādam adhigacchati nirmalāntaḥkaraṇo bhavatītyarthaḥ /",
-        "ourRendering": "In the manner already stated, having placed his mind on Me, the Lord of all, who am the auspicious resort of the thinking faculty — his every taint burnt away — moving among the sense-objects with senses freed from attraction and aversion and obedient to the self, that is, abiding with the sense-objects pushed aside; he whose self is amenable, whose mind is biddable, attains serenity: the meaning is that he becomes one whose inner organ is pure.",
+        "ourRendering": "In the manner already stated, having placed his manas on Me, the Lord of all, who am the auspicious resort of the thinking faculty — his every taint burnt away — moving among the sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, that is, abiding with the sense-objects pushed aside; he whose self is amenable, whose manas is biddable, attains serenity: the meaning is that he becomes one whose inner organ is pure.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -9256,7 +9256,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. masc."
           }
         ],
-        "english": "{1:In the manner} {0:already stated}, {6:having placed his mind} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:moving} {11:among the sense-objects} {10:with senses} {8:freed from attraction and aversion} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is amenable}, {17:whose mind is biddable}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}.",
+        "english": "{1:In the manner} {0:already stated}, {6:having placed his manas} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:moving} {11:among the sense-objects} {10:with indriyas} {8:freed from rāga and dveṣa} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is amenable}, {17:whose manas is biddable}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}.",
         "segments": [
           {
             "from": 0,
@@ -9280,8 +9280,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "प्रसादे सर्वदुःखानां हानिर् अस्योपजायते।\nप्रसन्नचेतसो ह्य् आशु बुद्धिः पर्यवतिष्ठते॥",
     "iast": "prasāde sarvaduḥkhānāṃ hānir asyopajāyate |\nprasannacetaso hy āśu buddhiḥ paryavatiṣṭhate ||",
-    "sense": "When serenity is attained, the cessation of all his sorrows arises; for in one whose mind is serene the intellect soon becomes firmly settled.",
-    "english": "{0:When serenity is reached}, {3:the cessation} {1:of all sorrows} {4:of his} {5:arises}; {6:for} in {7:one whose mind is serene} {10:the intellect} {9:soon} {11:becomes firmly settled}.",
+    "sense": "When serenity is attained, the cessation of all his sorrows arises; for in one whose manas is serene the buddhi soon becomes firmly settled.",
+    "english": "{0:When serenity is reached}, {3:the cessation} {1:of all sorrows} {4:of his} {5:arises}; {6:for} in {7:one whose manas is serene} {10:the buddhi} {9:soon} {11:becomes firmly settled}.",
     "words": [
       {
         "i": 0,
@@ -9526,7 +9526,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.65",
         "sanskrit": "asya puruṣasya manaḥprasāde sati prakṛtisaṃsargaprayuktasarvaduḥkhānāṃ hānir upajāyate / prasannacetasaḥ ātmāvalokanavirodhidoṣarahitamanasaḥ tadānīm eva hi viviktātmaviṣayā buddhiḥ paryavatiṣṭhate / ato manaḥprasāde sarvaduḥkhānāṃ hānir bhavaty eva /",
-        "ourRendering": "When this man's mind is serene, the cessation of all the sorrows brought on by contact with prakṛti arises. For of one whose mind is serene — whose mind is free of the faults that obstruct the beholding of the self — at that very moment the intellect, whose object is the self in its purity, becomes firmly settled. Therefore, when the mind is serene, the cessation of all sorrows certainly comes about.",
+        "ourRendering": "When this man's manas is serene, the cessation of all the sorrows brought on by contact with prakṛti (primordial material nature) arises. For of one whose manas is serene — whose manas is free of the faults that obstruct the beholding of the self — at that very moment the buddhi, whose object is the self in its purity, becomes firmly settled. Therefore, when the manas is serene, the cessation of all sorrows certainly comes about.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -9862,7 +9862,7 @@ window.GITA_VERSES = [
             ]
           }
         ],
-        "english": "{3:When} {0:this} {1:man's} {2:mind is serene}, {5:the cessation} {4:of all the sorrows brought on by contact with prakṛti} {6:arises}. {11:For} {7:of one whose mind is serene} — {8:whose mind is free of the faults that obstruct the beholding of the self} — {9:at that very moment} {10:indeed} {13:the intellect} {12:whose object is the self in its purity} {14:becomes firmly settled}. {15:Therefore}, {16:when the mind is serene}, {18:the cessation} {17:of all sorrows} {20:certainly} {19:comes about}.",
+        "english": "{3:When} {0:this} {1:man's} {2:manas is serene}, {5:the cessation} {4:of all the sorrows brought on by contact with prakṛti} {6:arises}. {11:For} {7:of one whose manas is serene} — {8:whose manas is free of the faults that obstruct the beholding of the self} — {9:at that very moment} {10:indeed} {13:the buddhi} {12:whose object is the self in its purity} {14:becomes firmly settled}. {15:Therefore}, {16:when the manas is serene}, {18:the cessation} {17:of all sorrows} {20:certainly} {19:comes about}.",
         "segments": [
           {
             "from": 0,
@@ -9886,8 +9886,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "नास्ति बुद्धिर् अयुक्तस्य न चायुक्तस्य भावना।\nन चाभावयतः शान्तिर् अशान्तस्य कुतः सुखम्॥",
     "iast": "nāsti buddhir ayuktasya na cāyuktasya bhāvanā |\nna cābhāvayataḥ śāntir aśāntasya kutaḥ sukham ||",
-    "sense": "The undisciplined man has no intellect and no contemplation; without contemplation there is no peace, and for the peaceless one where is happiness?",
-    "english": "{0:There is no} {1:intellect} {2:for the undisciplined man}, {4:and} {3:no} {6:contemplation} {5:for the undisciplined}; {8:and} {7:no} {10:peace} {9:for the one who does not contemplate}; and {11:for the peaceless one} {12:whence} {13:happiness}?",
+    "sense": "The undisciplined man has no buddhi and no contemplation; without contemplation there is no peace, and for the peaceless one where is happiness?",
+    "english": "{0:There is no} {1:buddhi} {2:for the undisciplined man}, {4:and} {3:no} {6:contemplation} {5:for the undisciplined}; {8:and} {7:no} {10:peace} {9:for the one who does not contemplate}; and {11:for the peaceless one} {12:whence} {13:happiness}?",
     "words": [
       {
         "i": 0,
@@ -10188,7 +10188,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.66",
         "sanskrit": "mayi sannyastamanorahitasya svayatnenendriyaniyamane pravṛttasya kadācid api viviktātmaviṣayā buddhir na setsyati / ata eva tasya tadbhāvanā ca na saṃbhavati / viviktātmānam abhāvayato viṣayaspṛhāśāntir na bhavati / aśāntasya viṣayaspṛhāyuktasya kuto nityaniratiśayasukhaprāptiḥ /",
-        "ourRendering": "For one who has not surrendered his mind to Me, who has set out to restrain the senses by his own effort alone, the intellect whose object is the self in its purity will never come to be. For that very reason his contemplation of that [self] too is impossible. For one who does not contemplate the self in its purity there is no peace from craving for sense-objects. And for the peaceless one — the one bound to craving for sense-objects — whence the attainment of the eternal, unsurpassed happiness?",
+        "ourRendering": "For one who has not surrendered his manas to Me, who has set out to restrain the indriyas by his own effort alone, the buddhi whose object is the self in its purity will never come to be. For that very reason his contemplation of that [self] too is impossible. For one who does not contemplate the self in its purity there is no peace from craving for sense-objects. And for the peaceless one — the one bound to craving for sense-objects — whence the attainment of the eternal, unsurpassed happiness?",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -10592,7 +10592,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. fem."
           }
         ],
-        "english": "{1:For one who has not surrendered his mind} {0:to me}, {4:who has set out} {3:to restrain the senses} {2:by his own effort} alone, {7:the} {8:intellect} {7:whose object is the self in its purity} {9:will} {6:not} {5:ever} {10:come to be}. {11:For} {12:that very reason} {13:his} {14:contemplation of that} {15:too} {16:is} {16:not} {17:possible}. {19:For one who does not contemplate} {18:the self in its purity} {22:there is} {21:no} {20:peace from craving for sense-objects}. And {23:for the peaceless one} — {24:the one bound to craving for sense-objects} — {25:whence} {26:the attainment of the eternal, unsurpassed happiness}?",
+        "english": "{1:For one who has not surrendered his manas} {0:to me}, {4:who has set out} {3:to restrain the indriyas} {2:by his own effort} alone, {7:the} {8:buddhi} {7:whose object is the self in its purity} {9:will} {6:not} {5:ever} {10:come to be}. {11:For} {12:that very reason} {13:his} {14:contemplation of that} {15:too} {16:is} {16:not} {17:possible}. {19:For one who does not contemplate} {18:the self in its purity} {22:there is} {21:no} {20:peace from craving for sense-objects}. And {23:for the peaceless one} — {24:the one bound to craving for sense-objects} — {25:whence} {26:the attainment of the eternal, unsurpassed happiness}?",
         "segments": [
           {
             "from": 0,
@@ -10611,8 +10611,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "इन्द्रियाणां हि चरतां यन् मनो ऽनुविधीयते।\nतद् अस्य हरति प्रज्ञां वायुर् नावम् इवाम्भसि॥",
     "iast": "indriyāṇāṃ hi caratāṃ yan mano 'nuvidhīyate |\ntad asya harati prajñāṃ vāyur nāvam ivāmbhasi ||",
-    "sense": "For when the mind follows after the roving senses, that mind carries off his wisdom, as the wind carries off a boat upon the water.",
-    "english": "{1:For} {7:the mind} {6:which} {5:is made to follow} {0:after the senses} {3:as they rove}, {8:that} {10:carries off} {9:his} {11:wisdom}, {12:as} {13:the wind} {10:[carries off]} {14:a boat} {17:on the water}.",
+    "sense": "For when the manas follows after the roving indriyas, that manas carries off his prajñā, as the wind carries off a boat upon the water.",
+    "english": "{1:For} {7:the manas} {6:which} {5:is made to follow} {0:after the indriyas} {3:as they rove}, {8:that} {10:carries off} {9:his} {11:prajñā}, {12:as} {13:the wind} {10:[carries off]} {14:a boat} {17:on the water}.",
     "words": [
       {
         "i": 0,
@@ -10905,7 +10905,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.67",
         "sanskrit": "indriyāṇāṃ viṣayeṣu caratāṃ vartamānānāṃ vartanam anu yan mano vidhīyate puruṣeṇānuvartyate, tan mano 'sya viviktātmapravaṇāṃ prajñāṃ harati viṣayapravaṇāṃ karotītyarthaḥ; yathāmbhasi nīyamānāṃ nāvaṃ pratikūlo vāyuḥ prasahya harati /",
-        "ourRendering": "Of the senses roving — that is, moving among their objects — the mind which is made to follow their movement, which is made by the person to conform to it: that mind carries off his wisdom that was inclined toward the self in its purity — the meaning is, it makes that wisdom incline toward the sense-objects; just as, when a boat is being steered upon the water, an adverse wind carries it forcibly away.",
+        "ourRendering": "Of the indriyas roving — that is, moving among their objects — the manas which is made to follow their movement, which is made by the person to conform to it: that manas carries off his prajñā that was inclined toward the self in its purity — the meaning is, it makes that prajñā incline toward the sense-objects; just as, when a boat is being steered upon the water, an adverse wind carries it forcibly away.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -11316,7 +11316,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Of the senses} {2:roving} — that is, {3:moving} {1:among their objects} — {7:the mind} {6:which} {8:is made} {5:to follow} {4:their movement}, {10:which is made to conform} {9:by the person}: {11:that} {12:mind} {16:carries off} {13:his} {15:wisdom} {14:that was inclined toward the self in its purity} — {19:the}{20:meaning} is, {18:it makes} that wisdom {17:incline toward the sense-objects}; {21:just as}, {23:when a boat is being steered} {22:upon the water}, {25:an adverse} {26:wind} {27:forcibly} {28:carries} {24:it} {28:away}.",
+        "english": "{0:Of the indriyas} {2:roving} — that is, {3:moving} {1:among their objects} — {7:the manas} {6:which} {8:is made} {5:to follow} {4:their movement}, {10:which is made to conform} {9:by the person}: {11:that} {12:manas} {16:carries off} {13:his} {15:prajñā} {14:that was inclined toward the self in its purity} — {19:the}{20:meaning} is, {18:it makes} that prajñā {17:incline toward the sense-objects}; {21:just as}, {23:when a boat is being steered} {22:upon the water}, {25:an adverse} {26:wind} {27:forcibly} {28:carries} {24:it} {28:away}.",
         "segments": [
           {
             "from": 0,
@@ -11345,8 +11345,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "तस्माद् यस्य महाबाहो निगृहीतानि सर्वशः।\nइन्द्रियाणीन्द्रियार्थेभ्यस् तस्य प्रज्ञा प्रतिष्ठिता॥",
     "iast": "tasmād yasya mahābāho nigṛhītāni sarvaśaḥ |\nindriyāṇīndriyārthebhyas tasya prajñā pratiṣṭhitā ||",
-    "sense": "Therefore, mighty-armed one, the wisdom of him whose senses are wholly held back from the sense-objects is firmly established.",
-    "english": "{0:Therefore}, {2:mighty-armed one}, {1:he whose} {6:senses} {5:are held back} {4:wholly} {7:from the sense-objects} — {8:of him} {9:the wisdom} {10:is firmly established}.",
+    "sense": "Therefore, mighty-armed one, the prajñā of him whose indriyas are wholly held back from the sense-objects is firmly established.",
+    "english": "{0:Therefore}, {2:mighty-armed one}, {1:he whose} {6:indriyas} {5:are held back} {4:wholly} {7:from the sense-objects} — {8:of him} {9:the prajñā} {10:is firmly established}.",
     "words": [
       {
         "i": 0,
@@ -11591,7 +11591,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.68",
         "sanskrit": "tasmād uktena prakāreṇa śubhāśraye mayi niviṣṭamanaso yasyendriyāṇi indriyārthebhyaḥ sarvaśo nigṛhītāni, tasyaivātmani prajñā pratiṣṭhitā bhavati /",
-        "ourRendering": "Therefore, in the manner already stated, of the one whose mind is fixed on Me, the auspicious resort — he whose senses are wholly held back from the sense-objects — of him alone is the wisdom firmly established upon the self.",
+        "ourRendering": "Therefore, in the manner already stated, of the one whose manas is fixed on Me, the auspicious resort — he whose indriyas are wholly held back from the sense-objects — of him alone is the prajñā firmly established upon the self.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -11838,7 +11838,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Therefore}, {2:in the manner} {1:already stated}, {5:of the one whose mind is fixed} {4:on me}, {3:the auspicious resort} — {6:he whose} {7:senses} {9:are wholly} {10:held back} {8:from the sense-objects} — {11:of him} {12:alone} {16:is} {14:the wisdom} {15:firmly established} {13:upon the self}.",
+        "english": "{0:Therefore}, {2:in the manner} {1:already stated}, {5:of the one whose manas is fixed} {4:on me}, {3:the auspicious resort} — {6:he whose} {7:indriyas} {9:are wholly} {10:held back} {8:from the sense-objects} — {11:of him} {12:alone} {16:is} {14:the prajñā} {15:firmly established} {13:upon the self}.",
         "segments": [
           {
             "from": 0,
@@ -12136,7 +12136,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.69",
         "sanskrit": "yā ātmaviṣayā buddhiḥ sarvabhūtānāṃ niśā niśevāprakāśā, tasyām ātmaviṣayāyāṃ buddhau indriyasaṃyamī prasannamanāḥ jāgarti ātmānam avalokayan āsta ityarthaḥ / yasyāṃ śabdādiviṣayāyāṃ buddhau sarvāṇi bhūtāni jāgrati prabuddhāni bhavanti; sā śabdādiviṣayā buddhir ātmānaṃ paśyato muner niśevāprakāśā bhavati",
-        "ourRendering": "The cognition that has the self for its object is night — unlit, like night — for all beings; in that self-directed cognition the man who restrains the senses, his mind serene, is awake: the meaning is that he abides gazing upon the self. And the cognition whose object is sound and the other sense-objects, in which all beings are awake — that is, are alert — that cognition of sound and the rest is, for the sage who sees the self, unlit, like night.",
+        "ourRendering": "The buddhi that has the self for its object is night — unlit, like night — for all beings; in that self-directed buddhi the man who restrains the indriyas, his manas serene, is awake: the meaning is that he abides gazing upon the self. And the buddhi whose object is sound and the other sense-objects, in which all beings are awake — that is, are alert — that buddhi of sound and the rest is, for the sage who sees the self, unlit, like night.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -12656,7 +12656,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:The} {2:cognition} {0:that} {1:has the self for its object} {4:is night} — {7:unlit}, {6:like} {5:night} — {3:for all beings}; {8:in that} {9:self-directed} {10:cognition} {11:the man who restrains the senses}, {12:his mind serene}, {13:is awake}: {17:the}{18:meaning} is that he {16:abides} {15:gazing} {14:upon the self}. And {19:in which} {20:its object is sound and the rest} {21:cognition}, {19:in which} {22:all} {23:beings} {24:are awake} — that is, {26:are} {25:alert} — {27:that} {29:cognition} {28:whose object is sound and the rest} {36:is}, {32:for the sage} {31:who} {30:sees} {30:the self}, {35:unlit}, {34:like} {33:night}.",
+        "english": "{0:The} {2:buddhi} {0:that} {1:has the self for its object} {4:is night} — {7:unlit}, {6:like} {5:night} — {3:for all beings}; {8:in that} {9:self-directed} {10:buddhi} {11:the man who restrains the indriyas}, {12:his manas serene}, {13:is awake}: {17:the}{18:meaning} is that he {16:abides} {15:gazing} {14:upon the self}. And {19:in which} {20:its object is sound and the rest} {21:buddhi}, {19:in which} {22:all} {23:beings} {24:are awake} — that is, {26:are} {25:alert} — {27:that} {29:buddhi} {28:whose object is sound and the rest} {36:is}, {32:for the sage} {31:who} {30:sees} {30:the self}, {35:unlit}, {34:like} {33:night}.",
         "segments": [
           {
             "from": 0,
@@ -12685,8 +12685,8 @@ window.GITA_VERSES = [
     "meter": "triṣṭubh (upajāti)",
     "devanagari": "आपूर्यमाणम् अचलप्रतिष्ठं समुद्रम् आपः प्रविशन्ति यद्वत्।\nतद्वत् कामा यं प्रविशन्ति सर्वे स शान्तिम् आप्नोति न कामकामी॥",
     "iast": "āpūryamāṇam acalapratiṣṭhaṃ samudram āpaḥ praviśanti yadvat |\ntadvat kāmā yaṃ praviśanti sarve sa śāntim āpnoti na kāmakāmī ||",
-    "sense": "Just as the waters enter the ocean — which, though being filled, stays unmoved and fixed in its own measure — so the one whom all desires enter likewise attains peace; not the one who hankers after desires.",
-    "english": "{5:Just as} {3:the waters} {4:enter} {2:the ocean} — {0:ever being filled}, {1:unmoved and fixed in its place} — {6:so} {8:he whom} {10:all} {7:desires} {9:enter}, {11:that one} {13:attains} {12:peace}; {14:not} {15:the one who hankers after desires}.",
+    "sense": "Just as the waters enter the ocean — which, though being filled, stays unmoved and fixed in its own measure — so the one whom all kāmas enter likewise attains peace; not the one who hankers after kāmas.",
+    "english": "{5:Just as} {3:the waters} {4:enter} {2:the ocean} — {0:ever being filled}, {1:unmoved and fixed in its place} — {6:so} {8:he whom} {10:all} {7:kāmas} {9:enter}, {11:that one} {13:attains} {12:peace}; {14:not} {15:the one who hankers after kāmas}.",
     "words": [
       {
         "i": 0,
@@ -13041,7 +13041,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.70",
         "sanskrit": "yathā svenaivāpūryamāṇam ekarūpaṃ samudraṃ nādeyya āpaḥ praviśanti, āsām apāṃ praveśe 'py apraveśe ca samudro na kañcana viśeṣam āpadyate -- evaṃ sarve kāmāḥ śabdādayo viṣayāḥ yaṃ saṃyaminaṃ praviśanti indriyagocaratāṃ yānti, sa śāntim āpnoti / śabdādiṣv indriyagocaratām āpanneṣv anāpanneṣu ca svātmāvalokanatṛptyaiva yo na vikāram āpnoti, sa eva śāntim āpnotītyarthaḥ / na kāmakāmī / yaḥ śabdādibhir vikriyate, sa kadācid api na śāntim āpnoti",
-        "ourRendering": "Just as the river-waters enter the ocean — which is filled by itself alone and is of one unchanging form — and at the entering of those waters and equally at their non-entering the ocean undergoes no alteration whatever; so all desires, the objects such as sound and the rest, which enter the man of restraint — that is, come within range of his senses — he attains peace. When the objects such as sound come within range of the senses and equally when they do not, he who, by the contentment of gazing on his own self alone, undergoes no change — he alone attains peace: this is the meaning. Not the desire-craver: he who is altered by sound and the rest never at any time attains peace.",
+        "ourRendering": "Just as the river-waters enter the ocean — which is filled by itself alone and is of one unchanging form — and at the entering of those waters and equally at their non-entering the ocean undergoes no alteration whatever; so all kāmas, the objects such as sound and the rest, which enter the man of restraint — that is, come within range of his indriyas — he attains peace. When the objects such as sound come within range of the indriyas and equally when they do not, he who, by the contentment of gazing on his own self alone, undergoes no change — he alone attains peace: this is the meaning. Not the kāma-craver: he who is altered by sound and the rest never at any time attains peace.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -13893,7 +13893,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Just as} {7:the} {6:river-}{7:waters} {8:enter} {5:the ocean} — {3:which is filled} {1:by itself} {2:alone} and {4:is of one unchanging form} — and {11:at the entering} {12:even} {9:of those} {10:waters} {14:and equally} {13:at their non-entering} {15:the ocean} {19:undergoes} {16:no} {18:alteration} {17:whatever}; {20:so} {21:all} {22:desires}, {24:the objects} {23:such as sound and the rest}, {27:which enter} {25:the} {26:man of restraint} — that is, {29:come} {28:within range of his senses} — {30:he} {32:attains} {31:peace}. {35:When} {33:the objects such as sound} {35:have come} {34:within range of the senses} {37:and equally} {36:when they have not}, {40:he who}, {38:by the contentment of gazing on his own self} {39:alone}, {43:undergoes} {41:no} {42:change} — {44:he} {45:alone} {47:attains} {46:peace}: {48:this is the}{49:meaning}. {50:Not} {51:the desire-craver}: {52:he who} {54:is altered} {53:by sound and the rest} {55:he} {58:never} {56:at any} {57:time} {60:attains} {59:peace}.",
+        "english": "{0:Just as} {7:the} {6:river-}{7:waters} {8:enter} {5:the ocean} — {3:which is filled} {1:by itself} {2:alone} and {4:is of one unchanging form} — and {11:at the entering} {12:even} {9:of those} {10:waters} {14:and equally} {13:at their non-entering} {15:the ocean} {19:undergoes} {16:no} {18:alteration} {17:whatever}; {20:so} {21:all} {22:kāmas}, {24:the objects} {23:such as sound and the rest}, {27:which enter} {25:the} {26:man of restraint} — that is, {29:come} {28:within range of his indriyas} — {30:he} {32:attains} {31:peace}. {35:When} {33:the objects such as sound} {35:have come} {34:within range of the indriyas} {37:and equally} {36:when they have not}, {40:he who}, {38:by the contentment of gazing on his own self} {39:alone}, {43:undergoes} {41:no} {42:change} — {44:he} {45:alone} {47:attains} {46:peace}: {48:this is the}{49:meaning}. {50:Not} {51:the kāma-craver}: {52:he who} {54:is altered} {53:by sound and the rest} {55:he} {58:never} {56:at any} {57:time} {60:attains} {59:peace}.",
         "segments": [
           {
             "from": 0,
@@ -13917,8 +13917,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "विहाय कामान् यः सर्वान् पुमांश् चरति निःस्पृहः।\nनिर्ममो निरहंकारः स शान्तिम् अधिगच्छति॥",
     "iast": "vihāya kāmān yaḥ sarvān pumāṃś carati nisspṛhaḥ |\nnirmamo nirahaṅkāraḥ sa śāntim adhigacchati ||",
-    "sense": "The man who, abandoning all desires, moves about free of longing, without 'mine' and without ego-sense, attains peace.",
-    "english": "{2:The man who}, {0:having abandoned} {3:all} {1:desires}, {5:moves about} {6:free of longing}, {7:without 'mine'} and {8:without ego-sense}, {9:he} {11:attains} {10:peace}.",
+    "sense": "The man who, abandoning all kāmas, moves about free of longing, without 'mine' and without ahaṅkāra (the I-making that misidentifies the self with body and mind), attains peace.",
+    "english": "{2:The man who}, {0:having abandoned} {3:all} {1:kāmas}, {5:moves about} {6:free of longing}, {7:without 'mine'} and {8:without ahaṅkāra}, {9:he} {11:attains} {10:peace}.",
     "words": [
       {
         "i": 0,
@@ -14202,7 +14202,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.71",
         "sanskrit": "tatra nisspṛhaḥ tatra mamatārahitaś ca, anātmani dehe ātmābhimānarahitaś carati; sa ātmānaṃ dṛṣṭvā śāntim adhigacchati",
-        "ourRendering": "Therein free of longing, and therein free of the sense of 'mine', he moves about free of the conceit of self in the body, which is not the self; he, having seen the self, attains peace.",
+        "ourRendering": "Therein free of longing, and therein free of the sense of 'mine', he moves about free of ahaṅkāra (the I-making that misidentifies the self with body and mind) — the conceit of selfhood in the body, which is not the self; he, having seen the self, attains peace.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -14405,7 +14405,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{0:Therein} {1:free of longing}, and {2:therein} {3:free of the sense of 'mine'}, {4:and} he {8:moves about} {7:free of the conceit of self} {5:in what is not the self}, {6:the body}; {9:he}, {11:having seen} {10:the self}, {13:attains} {12:peace}.",
+        "english": "{0:Therein} {1:free of longing}, and {2:therein} {3:free of the sense of 'mine'}, {4:and} he {8:moves about} {7:free of ahaṅkāra, the conceit of selfhood} {5:in what is not the self}, {6:the body}; {9:he}, {11:having seen} {10:the self}, {13:attains} {12:peace}.",
         "segments": [
           {
             "from": 0,
@@ -14424,8 +14424,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "एषा ब्राह्मी स्थितिः पार्थ नैनां प्राप्य विमुह्यति।\nस्थित्वास्याम् अन्तकाले ऽपि ब्रह्मनिर्वाणम् ऋच्छति॥",
     "iast": "eṣā brāhmī sthitiḥ pārtha naināṃ prāpya vimuhyati |\nsthitvāsyām antakāle 'pi brahmanirvāṇam ṛcchati ||",
-    "sense": "This is the brahman-state, Pārtha; having attained it one is not deluded; standing in it even at the hour of death, one is extinguished into Brahman.",
-    "english": "{0:This} is {1:the brahman-} {2:state}, {3:Pārtha}; {4:not} {6:having attained} {5:it} does one {7:fall into delusion}; {8:standing} {9:in it} {11:even} {10:at the hour of death}, one {12,13:is extinguished into Brahman}.",
+    "sense": "This is the brahman-state, Pārtha; having attained it one does not fall into moha; standing in it even at the hour of death, one is extinguished into Brahman.",
+    "english": "{0:This} is {1:the brahman-} {2:state}, {3:Pārtha}; {4:not} {6:having attained} {5:it} does one {7:fall into moha}; {8:standing} {9:in it} {11:even} {10:at the hour of death}, one {12,13:is extinguished into Brahman}.",
     "words": [
       {
         "i": 0,
@@ -14742,7 +14742,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.72",
         "sanskrit": "evam ātmayāthātmyaṃ yuddhākhyasya ca karmaṇas tatprāptisādhanatām ajānataḥ śarīrātmajñānena mohitasya, tena ca mohena yuddhān nivṛttasya mohaśāntaye nityātmaviṣayā sāṅkhyabuddhiḥ, tatpūrvikā ca asaṅgakarmānuṣṭhānarūpakarmayogaviṣayā buddhiḥ sthitaprajñatāyogasādhanabhūtā dvitīye adhyāye proktā; tad uktam, \"nityātmāsaṅgakarmehāgocarā sāṅkhyayogadhīḥ / dvitīye sthitadhīlakṣā proktā tanmohaśāntaye\" iti",
-        "ourRendering": "Thus, for the one who did not know the true nature of the self and that the work called battle is a means to its attainment — deluded by taking the body for the self, and by that delusion withdrawn from battle — for the quieting of that delusion, the Sāṅkhya-cognition whose object is the eternal self, and, founded upon it, the cognition whose object is karma-yoga in the form of the practice of detached action — the means to the yoga of being a sthitaprajña — has been declared in the second chapter. As it is said: 'The Sāṅkhya-yoga understanding, ranging over the eternal self and over detached action, has been declared in the second chapter, marked by the steady-minded one, for the quieting of that delusion.'",
+        "ourRendering": "Thus, for the one who did not know the true nature of the self and that the work called battle is a means to its attainment — fallen into moha by taking the body for the self, and by that moha withdrawn from battle — for the quieting of that moha, the Sāṅkhya-buddhi whose object is the eternal self, and, founded upon it, the buddhi whose object is karma-yoga (the yoga of action — acting without attachment to its fruit) in the form of the practice of detached karma (action and its binding momentum) — the means to the yoga (disciplined practice that yokes one to the goal) of being a sthitaprajña — has been declared in the second chapter. As it is said: 'The Sāṅkhya-yoga buddhi, ranging over the eternal self and over detached karma, has been declared in the second chapter, marked by the steady-minded one, for the quieting of that moha.'",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -15303,7 +15303,7 @@ window.GITA_VERSES = [
             ]
           }
         ],
-        "english": "{0:Thus}, {6:for the one who did not know} {1:the true nature of the self} {3:and} {5:that it is a means to the attainment of it} — {4:the work} {2:called battle} — {8:deluded} {7:by taking the body for the self}, {10:and} {9:by that} {11:delusion} {13:withdrawn} {12:from battle} — {14:for the quieting of delusion}, {16:the Sāṅkhya-cognition} {15:whose object is the eternal self}, {18:and}, {17:founded upon it}, {20:the cognition} {19:whose object is karma-yoga in the form of the practice of detached action} — {21:the means to the yoga of being a sthitaprajña} — {24:has been declared} {22:in the second} {23:chapter}. {25:This}{26:is said}: {28:the Sāṅkhya-yoga understanding}, {27:ranging over the eternal self and over detached action}, {31:has been declared} {29:in the second [chapter]}, {30:marked by the steady-minded one}, {32:for the quieting of that delusion} — {33:thus}.",
+        "english": "{0:Thus}, {6:for the one who did not know} {1:the true nature of the self} {3:and} {5:that it is a means to the attainment of it} — {4:the work} {2:called battle} — {8:fallen into moha} {7:by taking the body for the self}, {10:and} {9:by that} {11:moha} {13:withdrawn} {12:from battle} — {14:for the quieting of moha}, {16:the Sāṅkhya-buddhi} {15:whose object is the eternal self}, {18:and}, {17:founded upon it}, {20:the buddhi} {19:whose object is karma-yoga in the form of the practice of detached karma} — {21:the means to the yoga of being a sthitaprajña} — {24:has been declared} {22:in the second} {23:chapter}. {25:This}{26:is said}: {28:the Sāṅkhya-yoga buddhi}, {27:ranging over the eternal self and over detached karma}, {31:has been declared} {29:in the second [chapter]}, {30:marked by the steady-minded one}, {32:for the quieting of that moha} — {33:thus}.",
         "segments": [
           {
             "from": 0,

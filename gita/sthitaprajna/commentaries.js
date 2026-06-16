@@ -729,7 +729,7 @@ window.GITA_COMMENTARY = {
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.54",
       "sanskrit": "evam labdhāvasaraḥ sthita-prajña-lakṣaṇaṃ jñātum arjuna uvāca | yāny eva hi jīvan-muktānāṃ lakṣaṇāni tāny eva mumukṣūṇāṃ mokṣopāya-bhūtānīti manvānaḥ | sthitā niścalā ahaṃ-brahmāsmi iti prajñā yasya sa sthita-prajño 'vasthā-dvayavān samādhistho vyutthita-cittaś ceti | ato viśinaṣṭi samādhi-sthasya sthita-prajñasya kā bhāṣā ? karmaṇi ṣaṣṭhī | bhāṣyate 'nayeti bhāṣā lakṣaṇam | samādhi-sthaḥ sthita-prajñaḥ kena lakṣaṇenānyair vyavahriyata ity arthaḥ | sa ca vyutthita-cittaḥ sthita-dhīḥ sthita-prajñaḥ svayaṃ kiṃ prabhāṣeta ? stuti-nindādāv abhinandana-dveṣādi-lakṣaṇaṃ kiṃ kathaṃ prabhāṣeta ? sarvatra sambhāvanāyāṃ liṅ | tathā kim āsīteti vyutthita-citta-nigrahāya kathaṃ bahir indriyāṇāṃ nigrahaṃ karoti ? tan-nigrāhābhāva-kāle kiṃ vrajeta kathaṃ viṣayān prāpnoti ? tat-kartṛka-bhāṣaṇāsana-vrajanāni mūḍha-jana-vilakṣaṇāni kīdṛśānīity arthaḥ | tad evaṃ catvāraḥ praśnāḥ samādhi-sthe sthita-prajña ekaḥ | vyutthite sthita-prajñe traya iti | keśaveti sambodhayan sarvāntaryāmitayā tvam evaitādṛśaṃ rahasyaṃ vaktuṃ samartho 'sīti sūcayati ||54||",
-      "ourRendering": "Now, finding the occasion, Arjuna speaks in order to learn the marks of the man of settled wisdom — taking it that the very marks of those liberated-while-living are also, for seekers of release, the means to liberation. He whose insight ‘I am Brahman’ stands unmoving is the sthita-prajña, possessed of two states: established-in-samādhi and risen-up (active). So he qualifies it: of the sthita-prajña who is in samādhi, what is the ‘speech’? — a genitive of object. ‘bhāṣā’ is the mark by which he is spoken of. The sense: by what mark is the sthita-prajña, settled in samādhi, referred to by others? And he who has risen up, the steady-minded one — what does he himself say? Amid praise and blame and the like, what marks of rejoicing, aversion and so on does he show? — the optative throughout in the sense of supposition. ‘How does he sit?’ — to restrain the risen-up mind, how does he restrain the outer senses? When that restraint is absent, ‘how does he move’ — how does he approach objects? What are his speaking, sitting and moving, that are unlike the ignorant crowd? Thus there are four questions: one about the sthita-prajña in samādhi, three about the risen-up one. By addressing him ‘Keśava’, Arjuna hints: ‘You alone, as the inner controller of all, are able to tell such a secret.’",
+      "ourRendering": "Now, finding the occasion, Arjuna speaks in order to learn the marks of the man of settled wisdom — taking it that the very marks of those liberated-while-living are also, for seekers of release, the means to liberation. He whose insight ‘I am Brahman’ stands unmoving is the sthita-prajña, possessed of two states: established-in-samādhi and risen-up (active). So he qualifies it: of the sthita-prajña who is in samādhi, what is the ‘speech’? — a genitive of object. ‘bhāṣā’ is the mark by which he is spoken of. The sense: by what mark is the sthita-prajña, settled in samādhi, referred to by others? And he who has risen up, the steady-minded one — what does he himself say? Amid praise and blame and the like, what marks of rejoicing, dveṣa (the recoil of aversion) and so on does he show? — the optative throughout in the sense of supposition. ‘How does he sit?’ — to restrain the risen-up mind, how does he restrain the outer senses? When that restraint is absent, ‘how does he move’ — how does he approach objects? What are his speaking, sitting and moving, that are unlike the ignorant crowd? Thus there are four questions: one about the sthita-prajña in samādhi, three about the risen-up one. By addressing him ‘Keśava’, Arjuna hints: ‘You alone, as the inner controller of all, are able to tell such a secret.’",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -2463,7 +2463,7 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:Now}, {1:finding the occasion}, {4:Arjuna} {5:speaks} {3:in order to learn} {2:the marks of the man of settled wisdom} — {16:taking it} that {6:the very} {10:marks} {8:that} {7:are precisely} {9:of those liberated-while-living} {11:are} {12:also}, {13:for seekers of release}, {14:the means to liberation}{15:}. He {24:whose} {23:insight} {19:‘I} {21:am} {20:Brahman’} {17:stands} {18:unmoving} is {26:the sthita-prajña}, {27:possessed of two states}: {28:established-in-samādhi} and {29:risen-up (active)}{30:}. So {32:hence} {33:he qualifies} it: {34:of the one in samādhi}, {35:the sthita-prajña}, {36:what} is the {37:‘speech’}? — {38:in the object} {39:a genitive}{38:}. {43:the description} is {44:the mark} {40:by which he is described} {41:by this}{42:}. The {52:sense}: {47:by what} {48:mark} is {46:the sthita-prajña}, {45:settled in samādhi}, {50:referred to} {49:by others}{51:}? {53:And he} {55:who has risen up}, {56:the steady-minded one}, {57:the sthita-prajña} — {59:what} does he {58:himself} {60:say}? {61:Amid praise and blame and the like}, {63:what} {62:marks of rejoicing, aversion and so on} {64:how} does he {65:show}? — {68:the optative} {66:throughout} {67:in the sense of supposition}{69:}. {70:‘How} does he {71:sit}?’{72:} — {73:to restrain the risen-up mind}, {74:how} does he {77:restrain} the {75:outer} {76:senses}? {79:When that restraint is absent}, {80:‘how} does he {81:move’} — {82:how} does he {84:approach} {83:objects}? {85:What are his speaking, sitting and moving}, that are {86:unlike the ignorant crowd}, {87:of what sort}{88:}? — the {89:meaning}{90:}. {91:Thus} there are {92:four} {93:questions}: {96:one} {94:about the one in samādhi}, {95:the sthita-prajña}, {99:three} {97:about the risen-up} {98:sthita-prajña}{100:}. {103:By addressing him} {101:‘Keśava’}{102:}, he {113:hints}: {105:‘You} {106:alone}, {104:as the inner controller of all}, {110:are able} {109:to tell} {107:such} {108:a secret’}{111:}{112:}.",
+      "english": "{0:Now}, {1:finding the occasion}, {4:Arjuna} {5:speaks} {3:in order to learn} {2:the marks of the man of settled wisdom} — {16:taking it} that {6:the very} {10:marks} {8:that} {7:are precisely} {9:of those liberated-while-living} {11:are} {12:also}, {13:for seekers of release}, {14:the means to liberation}{15:}. He {24:whose} {23:insight} {19:‘I} {21:am} {20:Brahman’} {17:stands} {18:unmoving} is {26:the sthita-prajña}, {27:possessed of two states}: {28:established-in-samādhi} and {29:risen-up (active)}{30:}. So {32:hence} {33:he qualifies} it: {34:of the one in samādhi}, {35:the sthita-prajña}, {36:what} is the {37:‘speech’}? — {38:in the object} {39:a genitive}{38:}. {43:the description} is {44:the mark} {40:by which he is described} {41:by this}{42:}. The {52:sense}: {47:by what} {48:mark} is {46:the sthita-prajña}, {45:settled in samādhi}, {50:referred to} {49:by others}{51:}? {53:And he} {55:who has risen up}, {56:the steady-minded one}, {57:the sthita-prajña} — {59:what} does he {58:himself} {60:say}? {61:Amid praise and blame and the like}, {63:what} {62:marks of rejoicing, dveṣa (the recoil of aversion) and so on} {64:how} does he {65:show}? — {68:the optative} {66:throughout} {67:in the sense of supposition}{69:}. {70:‘How} does he {71:sit}?’{72:} — {73:to restrain the risen-up mind}, {74:how} does he {77:restrain} the {75:outer} {76:senses}? {79:When that restraint is absent}, {80:‘how} does he {81:move’} — {82:how} does he {84:approach} {83:objects}? {85:What are his speaking, sitting and moving}, that are {86:unlike the ignorant crowd}, {87:of what sort}{88:}? — the {89:meaning}{90:}. {91:Thus} there are {92:four} {93:questions}: {96:one} {94:about the one in samādhi}, {95:the sthita-prajña}, {99:three} {97:about the risen-up} {98:sthita-prajña}{100:}. {103:By addressing him} {101:‘Keśava’}{102:}, he {113:hints}: {105:‘You} {106:alone}, {104:as the inner controller of all}, {110:are able} {109:to tell} {107:such} {108:a secret’}{111:}{112:}.",
       "segments": [
         {
           "from": 0,
@@ -4393,7 +4393,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.55",
       "sanskrit": "prajahāti prakarṣeṇa jahāti parityajati yadā yasmin kāle sarvān samastān kāmān icchā-bhedān he pārtha, mano-gatān manasi praviṣṭāan hṛdi praviṣṭān | sarva-kāma-parityāge tuṣṭi-kāraṇābhāvāt śarīra-dhāraṇa-nimitta-śeṣe ca sati unmatta-pramattasyeva pravṛttiḥ prāptā, ity ata ucyate --- ātmany eva pratyag-ātma-svarūpe eva ātmanā svenaiva bāhya-lābha-nirapekṣas tuṣṭāḥ paramārtha-darśanāmṛta-rasa-lābhena anyasmād alaṃ-pratyayavān sthita-prajñaḥ sthitā pratiṣṭhitā ātmānātma-vivekajā prajñā yasya saḥ sthita-prajñaḥ vidvān tadā ucyate | tyakta-putra-vitta-lokaiṣaṇaḥ saṃnyāsī ātmārāma ātma-krīḍāḥ sthita-prajña ity arthaḥ",
-      "ourRendering": "‘prajahāti’: he thoroughly relinquishes, abandons, when — at what time — he gives up all desires, the varieties of craving, that have entered the mind, entered the heart, O Pārtha. Since, on giving up every desire, there would be no cause for contentment, and with only the residue needed to sustain the body remaining, an activity like that of a madman or a drunkard might follow — therefore it is said: content ‘in the Self alone’, in the inmost-Self’s own nature, ‘by the Self’, by oneself alone, independent of any external gain, content through gaining the nectar-taste of the vision of the highest reality, holding ‘enough’ to anything else — that learned one is then called sthita-prajña, he whose insight born of the discrimination of Self from non-Self stands firm. The meaning is: a renunciant who has cast off the craving for sons, wealth and worlds, who delights in the Self and sports in the Self, is the man of settled wisdom.",
+      "ourRendering": "‘prajahāti’: he thoroughly relinquishes, abandons, when — at what time — he gives up all kāmas (desire as craving for objects), the varieties of craving, that have entered the mind, entered the heart, O Pārtha. Since, on giving up every desire, there would be no cause for contentment, and with only the residue needed to sustain the body remaining, an activity like that of a madman or a drunkard might follow — therefore it is said: content ‘in the Self alone’, in the inmost-Self’s own nature, ‘by the Self’, by oneself alone, independent of any external gain, content through gaining the nectar-taste of the vision of the highest reality, holding ‘enough’ to anything else — that learned one is then called sthita-prajña, he whose insight born of the discrimination of Self from non-Self stands firm. The meaning is: a renunciant who has cast off the craving for sons, wealth and worlds, who delights in the Self and sports in the Self, is the man of settled wisdom.",
       "source": "data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt (GRETIL: gretil/1_sanskr/6_sastra/3_phil/vedanta/bhgsbh_u.htm)",
       "words": [
         {
@@ -5346,7 +5346,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:He thoroughly relinquishes}, {1:thoroughly} {2:abandons}, {3:gives up entirely}, {4:when} — {5:at which} {6:time} — he gives up {7:all} {8:entire} {9:desires}, {10:the varieties of craving}, {11:O} {12:Pārtha}, {13:gone into the mind}, {15:entered} {14:in the mind}, {17:entered} {16:in the heart}. Since, {18:on giving up every desire}, {19:there would be no cause for contentment}, {21:and} {20:with only the residue needed to sustain the body} remaining {22:being so}, an {25:activity} like {24:that of} {23:a madman or a drunkard} {26:might ensue}, {27:thus} {28:therefore} {29:it is said}: {38:content} {30:in the Self} {31:alone}, {32:in the inmost-Self’s own nature} {33:verily}, {34:by the Self}, {35:by oneself} {36:alone}, {37:independent of external gain}, content {39:by gaining the nectar-taste of the vision of the highest reality}, {41:holding ‘enough’} to {40:anything else} — that {50:learned one} {51:then} {52:is called} {49:sthita-prajña}, he {47:whose} {46:insight} {45:born of the discrimination of Self from non-Self} {43:stands} {44:firm}. The meaning is: a {54:renunciant} {53:who has cast off the craving for sons, wealth and worlds}, who {55:delights in the Self} and {56:sports in the Self}, is the {57:man of settled wisdom}, {58:thus} the {59:meaning}.",
+      "english": "{0:He thoroughly relinquishes}, {1:thoroughly} {2:abandons}, {3:gives up entirely}, {4:when} — {5:at which} {6:time} — he gives up {7:all} {8:entire} {9:kāmas (desire as craving for objects)}, {10:the varieties of craving}, {11:O} {12:Pārtha}, {13:gone into the mind}, {15:entered} {14:in the mind}, {17:entered} {16:in the heart}. Since, {18:on giving up every desire}, {19:there would be no cause for contentment}, {21:and} {20:with only the residue needed to sustain the body} remaining {22:being so}, an {25:activity} like {24:that of} {23:a madman or a drunkard} {26:might ensue}, {27:thus} {28:therefore} {29:it is said}: {38:content} {30:in the Self} {31:alone}, {32:in the inmost-Self’s own nature} {33:verily}, {34:by the Self}, {35:by oneself} {36:alone}, {37:independent of external gain}, content {39:by gaining the nectar-taste of the vision of the highest reality}, {41:holding ‘enough’} to {40:anything else} — that {50:learned one} {51:then} {52:is called} {49:sthita-prajña}, he {47:whose} {46:insight} {45:born of the discrimination of Self from non-Self} {43:stands} {44:firm}. The meaning is: a {54:renunciant} {53:who has cast off the craving for sons, wealth and worlds}, who {55:delights in the Self} and {56:sports in the Self}, is the {57:man of settled wisdom}, {58:thus} the {59:meaning}.",
       "segments": [
         {
           "from": 0,
@@ -5377,7 +5377,7 @@ window.GITA_COMMENTARY = {
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.55",
       "sanskrit": "eteṣāṃ catūrṇāṃ praśnānāṃ krameṇottaraṃ bhagavān uvāca prajahātīti yāvad-adhyāya-samāpti | kāmān kāma-saṅkalpādīn mano-vṛtti-viśeṣān pramāṇa-viparyaya-vikalpa-nidrā-smṛti-bhedena tantrāntare pañcadhā prapañcitān sarvān niravaśeṣān prakarṣeṇa kāraṇa-bādhena yadā jahāti parityajati sarva-vṛtti-śūnya eva yadā bhavati sthita-prajñas tadocyate samādhistha iti śeṣaḥ | kāmānām anātma-dharmatvena parityāga-yogyatām āha manogatān iti | yadi hy ātma-dharmāḥ syus tadā na tyaktuṃ śakyeran vahny-auṣṇyavat svābhāvikatvāt | manasas tu dharmā ete | atas tat-parityāgena parityaktuaṃ śakyā evety arthaḥ | nanu sthita-prajñasya mukha-prasāda-liṅga-gamyaḥ santoṣa-viśeṣaḥ pratīyate sa kathaṃ sarva-kāma-parityāge syād ity āha - ātmany eva paramānanda-rūpe na tv anātmani tuccha ātmnaā svaprakāśa-cid-rūpeṇa bhāsamānena na tu vṛttyā tuṣṭaḥ paritṛptaḥ parama-puruṣārtha-lābhāt | tathā ca śrutiḥ - yadā sarve pramucyante kāmā ye 'sya hṛdi śritāḥ | atha martyo 'mṛto bhavaty atra brahma samaśnute || [KaṭhU 2.3.14] iti | tathā ca samādhi-sthaḥ sthita-prajña evaṃvidhair lakṣaṇa-vācibhiḥ śabdair bhāṣyata iti prathama-praśnasyottaram ||55||",
-      "ourRendering": "To these four questions the Lord answers in order, from ‘prajahāti’ up to the chapter’s end. ‘Desires’ — the particular modifications of the mind, comprising desire, intention, and the rest, elaborated fivefold in another treatise as valid cognition, error, conceptual construction, sleep, and memory — all of them, without remainder, when he thoroughly abandons them by sublating their cause, when he becomes entirely devoid of all mental modifications, he is then called sthita-prajña, ‘standing in samādhi’ being supplied. He shows that desires are fit to be abandoned, since they are properties of the non-Self, by citing ‘mano-gatān’: for were they properties of the Self they could not be given up, being innate like the heat of fire; but these are properties of the mind, so by abandoning that they can indeed be abandoned. — But a particular contentment, to be inferred from the sign of facial serenity, is perceived in the sthita-prajña; how can that exist when all desires are totally abandoned? He says: content in the Self alone, whose nature is supreme bliss, not in the non-Self which is trifling; by the Self — by the self-luminous consciousness-nature shining of itself, not by a mental modification — fully satisfied through the attainment of the supreme human goal. So too the revealed scripture: ‘When all the desires that lodge in his heart are fully released, then the mortal becomes immortal and fully attains Brahman here.’ Thus the sthita-prajña standing in samādhi is spoken of with such mark-expressing words — this is the answer to the first question.",
+      "ourRendering": "To these four questions the Lord answers in order, from ‘prajahāti’ up to the chapter’s end. ‘Desires’ — the particular modifications of the mind, comprising desire, intention, and the rest, elaborated fivefold in another treatise as valid cognition, error, conceptual construction, sleep, and memory — all of them, without remainder, when he thoroughly abandons them by sublating their cause, when he becomes entirely devoid of all mental modifications, he is then called sthita-prajña, ‘standing in samādhi’ being supplied. He shows that kāmas (desire as craving for objects) are fit to be abandoned, since they are properties of the non-Self, by citing ‘mano-gatān’: for were they properties of the Self they could not be given up, being innate like the heat of fire; but these are properties of the mind, so by abandoning that they can indeed be abandoned. — But a particular contentment, to be inferred from the sign of facial serenity, is perceived in the sthita-prajña; how can that exist when all kāmas are totally abandoned? He says: content in the Self alone, whose nature is supreme bliss, not in the non-Self which is trifling; by the Self — by the self-luminous consciousness-nature shining of itself, not by a mental modification — fully satisfied through the attainment of the supreme human goal. So too the revealed scripture: ‘When all the kāmas that lodge in his heart are fully released, then the mortal becomes immortal and fully attains Brahman here.’ Thus the sthita-prajña standing in samādhi is spoken of with such mark-expressing words — this is the answer to the first question.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -7360,7 +7360,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{6:To} {0:these} {1:four} {2:questions} {5:the Lord} {6:answers} {3:in order}, from {7:’prajahāti’} {9:up to the chapter’s end}{8:}. {10:’Desires’} — {12:the particular modifications of the mind} {11:of desire, intention, and the rest}, {16:elaborated} {15:fivefold} {14:in another treatise} as {13:valid cognition, error, conceptual construction, sleep, and memory} — {17:all} of them, {18:without remainder}, {21:when} he {19:thoroughly} {22:abandons} {23:them completely} {20:by sublating their cause}, {26:when} he {27:becomes} {24:devoid of all mental modifications}{25:}, he is {29:then} {30:called} {28:sthita-prajña}, {31:standing in samādhi} {33:being supplied}{32:}. {37:He shows} {36:the fitness of desires for abandonment}, {35:since they are properties of the non-Self}, by citing {38:’mano-gatān’}{39:}: {41:for} {40:if} they were {42:properties of the Self}, {44:then} they {47:could} {45:not} be {46:given up}, {49:being innate} {48:like the heat of fire}; {51:but} {53:these} are {52:properties} {50:of the mind}, {54:so} {55:by abandoning that} they {57:are capable of being} {58:indeed} {56:abandoned}{59:}{60:}. — {61:But surely} {64:a particular contentment}, {63:to be inferred from the sign of facial serenity}, {65:is perceived} {62:of the sthita-prajña}; {67:how} can {66:that} {69:exist}, {68:in the total abandonment of desires}{70:}? {71:He says}: content {72:in the Self} {73:alone}, {74:whose nature is supreme bliss}, {75:not} {76:but} {77:in the non-Self} which is {78:trifling}; ‘by the Self’, {80:by the self-luminous consciousness-nature} {81:shining} of itself, {82:not} {83:but} {84:by a mental modification} — {85:satisfied}, {86:fully satisfied} {87:through the attainment of the supreme human goal}. {88:So} {89:too} {90:the revealed scripture}: ‘{91:When} {92:all} {94:the desires} {95:that} {98:dwell} {96:in his} {97:heart} {93:are fully released}, {99:then} {100:the mortal} {102:becomes} {101:immortal} {105:and fully attains} {104:Brahman} {103:here}{106:}.’ {107:Thus} {108:too} the {110:sthita-prajña} {109:standing in samādhi} {114:is spoken of} {113:by others with} {111:such} {112:mark-expressing} words {115:—} this is {117:the answer} {116:to the first question}.",
+      "english": "{6:To} {0:these} {1:four} {2:questions} {5:the Lord} {6:answers} {3:in order}, from {7:’prajahāti’} {9:up to the chapter’s end}{8:}. {10:’Desires’} — {12:the particular modifications of the mind} {11:of kāma (desire as craving for objects), intention, and the rest}, {16:elaborated} {15:fivefold} {14:in another treatise} as {13:valid cognition, error, conceptual construction, sleep, and memory} — {17:all} of them, {18:without remainder}, {21:when} he {19:thoroughly} {22:abandons} {23:them completely} {20:by sublating their cause}, {26:when} he {27:becomes} {24:devoid of all mental modifications}{25:}, he is {29:then} {30:called} {28:sthita-prajña}, {31:standing in samādhi} {33:being supplied}{32:}. {37:He shows} {36:the fitness of kāmas for abandonment}, {35:since they are properties of the non-Self}, by citing {38:’mano-gatān’}{39:}: {41:for} {40:if} they were {42:properties of the Self}, {44:then} they {47:could} {45:not} be {46:given up}, {49:being innate} {48:like the heat of fire}; {51:but} {53:these} are {52:properties} {50:of the mind}, {54:so} {55:by abandoning that} they {57:are capable of being} {58:indeed} {56:abandoned}{59:}{60:}. — {61:But surely} {64:a particular contentment}, {63:to be inferred from the sign of facial serenity}, {65:is perceived} {62:of the sthita-prajña}; {67:how} can {66:that} {69:exist}, {68:in the total abandonment of kāmas}{70:}? {71:He says}: content {72:in the Self} {73:alone}, {74:whose nature is supreme bliss}, {75:not} {76:but} {77:in the non-Self} which is {78:trifling}; ‘by the Self’, {80:by the self-luminous consciousness-nature} {81:shining} of itself, {82:not} {83:but} {84:by a mental modification} — {85:satisfied}, {86:fully satisfied} {87:through the attainment of the supreme human goal}. {88:So} {89:too} {90:the revealed scripture}: ‘{91:When} {92:all} {94:the kāmas} {95:that} {98:dwell} {96:in his} {97:heart} {93:are fully released}, {99:then} {100:the mortal} {102:becomes} {101:immortal} {105:and fully attains} {104:Brahman} {103:here}{106:}.’ {107:Thus} {108:too} the {110:sthita-prajña} {109:standing in samādhi} {114:is spoken of} {113:by others with} {111:such} {112:mark-expressing} words {115:—} this is {117:the answer} {116:to the first question}.",
       "segments": [
         {
           "from": 0,
@@ -7406,7 +7406,7 @@ window.GITA_COMMENTARY = {
       "work": "Subodhinī",
       "locus": "2.55",
       "sanskrit": "atra ca yāni sādhakasya jñāna-sādhanāni tāny eva svābhāvikāni siddhasya lakṣaṇāni | ataḥ siddhasya lakṣaṇāni kathayann evāntaraṅgāni jñāna-sādhanāny āha yāvad adhyāya-samāpti | tatra prathama-praśnasyottaram āha prajahātīti dvābhyām | manasi sthitān kāmān yadā prakarṣeṇa jahāti | tyāge hetum āha ātmanīti | ātmany eva svasminn eva paramānanda-rūpe ātmanā svayam eva tuṣṭa ity ātmārāmaḥ san yadā kṣudra-viṣayābhilāṣāṃs tyajati tadā tena lakṣaṇena muniḥ sthita-prajña ucyate ||55||",
-      "ourRendering": "Here the very means of knowledge for the aspirant are, for the accomplished one, his innate marks. Hence, while stating the marks of the accomplished one, He states the inner means of knowledge — up to the chapter’s end. There He gives the answer to the first question by ‘prajahāti’ in two verses. When he thoroughly abandons the desires seated in the mind — He gives the cause of the abandonment by ‘ātmani’: content in the Self alone, his own self, of the nature of supreme bliss, content by himself — being thus one who delights in the Self, when he abandons the cravings for petty objects, then by that mark the sage is called sthita-prajña.",
+      "ourRendering": "Here the very means of knowledge for the aspirant are, for the accomplished one, his innate marks. Hence, while stating the marks of the accomplished one, He states the inner means of knowledge — up to the chapter’s end. There He gives the answer to the first question by ‘prajahāti’ in two verses. When he thoroughly abandons the kāmas (desire as craving for objects) seated in the mind — He gives the cause of the abandonment by ‘ātmani’: content in the Self alone, his own self, of the nature of supreme bliss, content by himself — being thus one who delights in the Self, when he abandons the cravings for petty objects, then by that mark the sage is called sthita-prajña.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -8222,7 +8222,7 @@ window.GITA_COMMENTARY = {
           "morph": "present passive, 3rd singular"
         }
       ],
-      "english": "{0:Here} {1:also}, {2:which} {4:means of knowledge} there are {3:for the aspirant}, {5:those very} {6:ones} are, {8:for the accomplished one}, {7:his innate} {9:marks}. {10:Hence}, {13:while stating} {12:the marks} {11:of the accomplished one}, He {17:states} {14:just} {15:the inner} {16:means of knowledge} — {18:up to} {19:the chapter’s end}. {20:There} {23:He gives} {22:the answer} {21:to the first question} {25:by} {24:‘prajahāti’} {26:in two verses}. {30:When} he {31:thoroughly} {32:abandons} {29:the desires} {28:seated} {27:in the mind} — {35:He states} {34:the cause} {33:of the abandonment} {37:by} {36:‘ātmani’}: {39:content} {38:in the Self} {39:alone}, {41:in} {40:his own self} {41:alone}, {42:of the nature of supreme bliss}, {44:content} {43:by himself} {45:himself}{46:,} {47:thus} being {48:one who delights in the Self} {49:—} {50:when} he {52:abandons} {51:the cravings for petty objects}, {53:then} {54:by that} {55:mark} {56:the sage} {58:is called} {57:sthita-prajña}.",
+      "english": "{0:Here} {1:also}, {2:which} {4:means of knowledge} there are {3:for the aspirant}, {5:those very} {6:ones} are, {8:for the accomplished one}, {7:his innate} {9:marks}. {10:Hence}, {13:while stating} {12:the marks} {11:of the accomplished one}, He {17:states} {14:just} {15:the inner} {16:means of knowledge} — {18:up to} {19:the chapter’s end}. {20:There} {23:He gives} {22:the answer} {21:to the first question} {25:by} {24:‘prajahāti’} {26:in two verses}. {30:When} he {31:thoroughly} {32:abandons} {29:the kāmas (desire as craving for objects)} {28:seated} {27:in the mind} — {35:He states} {34:the cause} {33:of the abandonment} {37:by} {36:‘ātmani’}: {39:content} {38:in the Self} {39:alone}, {41:in} {40:his own self} {41:alone}, {42:of the nature of supreme bliss}, {44:content} {43:by himself} {45:himself}{46:,} {47:thus} being {48:one who delights in the Self} {49:—} {50:when} he {52:abandons} {51:the cravings for petty objects}, {53:then} {54:by that} {55:mark} {56:the sage} {58:is called} {57:sthita-prajña}.",
       "segments": [
         {
           "from": 0,
@@ -11042,7 +11042,7 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "jiva"
         }
       ],
-      "english": "{0:His movement and other activity} is {1:not} {2:preceded by strong deliberate intent}, {3:like the activity of a madman and so on} — {8:intending to show} this {7:‘yā niśā’} later, he {10:first} {11:states} {9:the mark} {12:by ‘prajahāti’}. The drift of {21:the question}: {14:being thus} {15:satisfied in supreme bliss}, {16:why} {19:does he} {17:thus} engage in {18:activity} at all? {29:With the intent} that, {23:for one whose Brahman is slightly veiled} {22:by commenced karma}, {26:an activity with little deliberate intent} {25:generally} {27:arises} {24:through latent impressions}, he {30:resolves} it. He {33:abandons} {31:‘almost’} {32:all} — {35:for even} {34:in Śuka and the rest} {36:a little is seen}; since {42:it is said}, {39:‘the knowers}, {40:the seers of truth}, {38:desire} {37:devotion to your feet’}, they {44:desire} {43:that}. {45:When} {49:is seen} {48:insistence} {47:in Indra and the others}, {50:then} {52:their} {53:knowledge} is {51:overcome}. {56:As stated}: {57:‘In men of office}, {59:by reason of their great karmic load}, {60:arising and overcoming} occur {61:in knowledge}; {62:thereby} {64:they differ} {63:from others’}. {66:Hence} {68:by such difference}, {71:if} {70:insistence and the like} {72:there be} {69:in the unqualified}, {74:they} {73:are not} {75:knowers} {77:— that should be known}. {79:Nor} {84:is} {83:the mark} {80:here} being stated {82:of one engaged in} {81:samādhi}, {89:since by ‘he who is unattached everywhere’ attachment is denied}; {91:for} {96:there is} {90:no} {95:encountering of good or ill} {94:for him} {93:engaged in} {92:samādhi} — {97:that being unconscious samādhi}; {98:in the conscious} one {99:though} {100:there is no contradiction}, {101:yet} {103:there is no} {107:rule} {105:that it be} {104:only} there. As the {118:smṛti says}: {108:‘desires and the rest} {109:do not} {110:arise} {112:even} {111:indeed} {113:in the distracted-minded} {114:knowers}, {115:whose impurities are burnt away by knowledge}, {116:through resort to the Lord’}. {121:Desires} are {120:indeed} {119:mind-seated}; {122:hence}, {123:in that} {124:very} mind, {125:when a knowledge opposed to them arises}, {127:their relinquishment} {126:is fitting} {128:of them} — he {130:shows} this {131:by ‘mano-gatān’}. {133:The opposition} {135:is stated}: {136:‘his relish} {137:too} {141:turns away} {140:on seeing} {139:the Supreme’}. {144:And} {145:this} {147:is not to be explained away as fruitless} {146:without that seeing}, {148:because of the distinction among persons}. {149:‘By the Self’} means {150:by the Supreme Self}; {153:established} {151:in the Supreme Self} {152:alone} {154:being}; {157:for one established} {156:in That} {155:called the Self}, {160:contentment} {161:arises} {158:from His grace} {159:alone}, as in the {176:Nārāyaṇa-Rāma-kalpa}: {164:‘having given up} {162:the objects}, {166:for one established} {165:in Rāma}, {167:thereupon} {170:contentment} {169:comes} {168:from the Lord} {171:and not} {172:otherwise} {174:in any way whatsoever’}. {177:Therefore} {179:the self} is {178:not} {180:the individual soul}.",
+      "english": "{0:His movement and other activity} is {1:not} {2:preceded by strong deliberate intent}, {3:like the activity of a madman and so on} — {8:intending to show} this {7:‘yā niśā’} later, he {10:first} {11:states} {9:the mark} {12:by ‘prajahāti’}. The drift of {21:the question}: {14:being thus} {15:satisfied in supreme bliss}, {16:why} {19:does he} {17:thus} engage in {18:activity} at all? {29:With the intent} that, {23:for one whose Brahman is slightly veiled} {22:by commenced karma}, {26:an activity with little deliberate intent} {25:generally} {27:arises} {24:through latent impressions}, he {30:resolves} it. He {33:abandons} {31:‘almost’} {32:all} — {35:for even} {34:in Śuka and the rest} {36:a little is seen}; since {42:it is said}, {39:‘the knowers}, {40:the seers of truth}, {38:desire} {37:devotion to your feet’}, they {44:desire} {43:that}. {45:When} {49:is seen} {48:insistence} {47:in Indra and the others}, {50:then} {52:their} {53:knowledge} is {51:overcome}. {56:As stated}: {57:‘In men of office}, {59:by reason of their great karmic load}, {60:arising and overcoming} occur {61:in knowledge}; {62:thereby} {64:they differ} {63:from others’}. {66:Hence} {68:by such difference}, {71:if} {70:insistence and the like} {72:there be} {69:in the unqualified}, {74:they} {73:are not} {75:knowers} {77:— that should be known}. {79:Nor} {84:is} {83:the mark} {80:here} being stated {82:of one engaged in} {81:samādhi}, {89:since by ‘he who is unattached everywhere’ attachment is denied}; {91:for} {96:there is} {90:no} {95:encountering of good or ill} {94:for him} {93:engaged in} {92:samādhi} — {97:that being unconscious samādhi}; {98:in the conscious} one {99:though} {100:there is no contradiction}, {101:yet} {103:there is no} {107:rule} {105:that it be} {104:only} there. As the {118:smṛti says}: {108:‘kāmas (desire as craving for objects) and the rest} {109:do not} {110:arise} {112:even} {111:indeed} {113:in the distracted-minded} {114:knowers}, {115:whose impurities are burnt away by knowledge}, {116:through resort to the Lord’}. {121:Desires} are {120:indeed} {119:mind-seated}; {122:hence}, {123:in that} {124:very} mind, {125:when a knowledge opposed to them arises}, {127:their relinquishment} {126:is fitting} {128:of them} — he {130:shows} this {131:by ‘mano-gatān’}. {133:The opposition} {135:is stated}: {136:‘his relish} {137:too} {141:turns away} {140:on seeing} {139:the Supreme’}. {144:And} {145:this} {147:is not to be explained away as fruitless} {146:without that seeing}, {148:because of the distinction among persons}. {149:‘By the Self’} means {150:by the Supreme Self}; {153:established} {151:in the Supreme Self} {152:alone} {154:being}; {157:for one established} {156:in That} {155:called the Self}, {160:contentment} {161:arises} {158:from His grace} {159:alone}, as in the {176:Nārāyaṇa-Rāma-kalpa}: {164:‘having given up} {162:the objects}, {166:for one established} {165:in Rāma}, {167:thereupon} {170:contentment} {169:comes} {168:from the Lord} {171:and not} {172:otherwise} {174:in any way whatsoever’}. {177:Therefore} {179:the self} is {178:not} {180:the individual soul}.",
       "segments": [
         {
           "from": 0,
@@ -11110,7 +11110,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.56",
       "sanskrit": "duḥkheṣv ādhyātmikādiṣu prāpteṣu na udvignaṃ na prakṣubhitaṃ duḥkha-prāptau mano yasya so 'yam anudvigna-manāḥ | tathā sukheṣu prāpteṣu vigatā spṛhā tṛṣṇā yasya, na agnir iva indhanādy-ādhāne sukhāny anu vivardhate sa vigata-spṛhaḥ | vīta-rāga-bhaya-krodhaḥ rāga ca bhayaṃ ca krodha ca vītā vigatā yasmāt sa vīta-rāga-bhaya-krodhaḥ | sthita-dhīḥ sthita-prajño muniḥ saṃnyāsī tadā ucyate",
-      "ourRendering": "Amid sorrows — the bodily-personal and the rest — when they arrive, he whose mind is not agitated, not disturbed at the onset of pain, is ‘not-agitated-in-mind’. Likewise, amid pleasures when they arrive, he whose thirst, whose craving, has departed — who, unlike fire when fuel is added, does not swell up after pleasures — is ‘free of longing’. ‘vīta-rāga-bhaya-krodhaḥ’: he from whom passion and fear and anger have departed, are gone. The steady-minded one, the sthita-prajña, the sage, the renunciant, is then so called.",
+      "ourRendering": "Amid sorrows — the bodily-personal and the rest — when they arrive, he whose mind is not agitated, not disturbed at the onset of pain, is ‘not-agitated-in-mind’. Likewise, amid pleasures when they arrive, he whose thirst, whose craving, has departed — who, unlike fire when fuel is added, does not swell up after pleasures — is ‘free of longing’. ‘vīta-rāga-bhaya-krodhaḥ’: he from whom rāga (the pull of attraction and attachment) and fear and krodha (the blaze of anger) have departed, are gone. The steady-minded one, the sthita-prajña, the sage, the renunciant, is then so called.",
       "source": "data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt (GRETIL: gretil/1_sanskr/6_sastra/3_phil/vedanta/bhgsbh_u.htm)",
       "words": [
         {
@@ -11849,7 +11849,7 @@ window.GITA_COMMENTARY = {
           "morph": "present passive, 3rd singular"
         }
       ],
-      "english": "{0:Amid sorrows} — {1:the bodily-personal and the rest} — {2:when they arrive}, he {9:whose} {8:mind} is {3:not} {4:agitated}, {5:not} {6:disturbed} {7:at the onset of pain}, {10:is} {11:this one} {12:‘not-agitated-in-mind’}. {13:Likewise}, {14:amid pleasures} {15:when they arrive}, he {19:whose} {17:thirst}, {18:whose craving}, has {16:departed} — who, {22:unlike} {21:fire} {23:when fuel and the like is added}, does {20:not} {26:swell up} {25:after} {24:pleasures} — {27:he} is {28:‘free of longing’}. {29:‘vīta-rāga-bhaya-krodhaḥ’}: he {38:from whom} {30:passion} {31:and} {32:fear} {33:and} {34:anger} {36:have gone}, {37:are departed} — {39:he} is {40:free of passion, fear and anger}. The {41:steady-minded one}, the {42:sthita-prajña}, the {43:sage}, the {44:renunciant}, is {45:then} {46:so called}.",
+      "english": "{0:Amid sorrows} — {1:the bodily-personal and the rest} — {2:when they arrive}, he {9:whose} {8:mind} is {3:not} {4:agitated}, {5:not} {6:disturbed} {7:at the onset of pain}, {10:is} {11:this one} {12:‘not-agitated-in-mind’}. {13:Likewise}, {14:amid pleasures} {15:when they arrive}, he {19:whose} {17:thirst}, {18:whose craving}, has {16:departed} — who, {22:unlike} {21:fire} {23:when fuel and the like is added}, does {20:not} {26:swell up} {25:after} {24:pleasures} — {27:he} is {28:‘free of longing’}. {29:‘vīta-rāga-bhaya-krodhaḥ’}: he {38:from whom} {30:rāga (the pull of attraction and attachment)} {31:and} {32:fear} {33:and} {34:krodha (the blaze of anger)} {36:have gone}, {37:are departed} — {39:he} is {40:free of rāga, fear and krodha}. The {41:steady-minded one}, the {42:sthita-prajña}, the {43:sage}, the {44:renunciant}, is {45:then} {46:so called}.",
       "segments": [
         {
           "from": 0,
@@ -11865,7 +11865,7 @@ window.GITA_COMMENTARY = {
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.56",
       "sanskrit": "idānīṃ vyutthitasya sthita-prajñasya bhāṣaṇopaveśana-gamanāni mūḍha-jana-vilakṣaṇāni vyākhyeyāni | tatra kiṃ prabhāṣetety asyottaram āha duḥkheṣv iti dvyābhyām | duḥkhāni trividhāni śoka-moha-jvara-śiro-rogādi-nimittāny ādhyātmikāni vyāghra-sarpādi-prayuktāny ādhibhautikāni ativātātivṛṣṭy-ādi-hetukāny ādhidaivikāni teṣu duḥkheṣu rajaḥ-pariṇāma-santāpātmaka-citta-vṛtti-viśeṣeṣu prārabdha-pāpa-karma-prāpiteṣu nodvignaṃ duḥkha-parihārākṣamatayā vyākulaṃ na bhavati mano yasya so 'nudvigna-manāḥ | avivekino hi duḥkha-prāptau satyām aho pāpo 'haṃ dhiṅ māṃ durātmānam etādṛśa-duḥkha-bhāginaṃ ko me duḥkham īdṛśaṃ nirākuryād ity anutāpātmako bhrānti-rūpas tāmasaś citta-vṛtti-viśeṣa udvegākhyo jāyate | yady ayaṃ pāpānuṣṭhāna-samaye syāt tadā tat-pravṛtti-pratibandhakatvena saphalaḥ syāt | bhoga-kāle tu bhavan kāraṇe sati kāryasyocchettum aśakyatvān niṣprayojano duḥkha-kāraṇe saty api kim iti mama duḥkhaṃ jāyate iti avivekaja-bhrama-rūpatvān na vivekinaḥ sthita-prajñasya sambhavati | duḥkha-mātraṃ hi prārabdha-karmaṇā prāpyate na tu tad-uttara-kālīno bhramo 'pi | nanu duḥkhāntara-kāraṇatvāt so 'pi prārabdha-karmāntareṇa prāpyatām iti cet, na | sthita-prajñasya bhramopādānājñāna-nāśena bhramāsambhavaāt taj-janya-duḥkha-prāpaka-prārabdhābhāvāt | yathā-kathaṃcid deha-yātrā-mātra-nirvāhaka-prārabdha-karma-phalasya bhramābhāve 'pi bādhitānuvṛttyopapatter iti vistareṇāgre vakṣyate | tathā sukheṣu sattva-pariṇāma-rūpa-prītyātmaka-citta-vṛtti-viśeṣeṣu trividheṣu prārabdha-puṇya-karma-prāpiteṣu vigata-spṛha āgāmi-taj-jātīya-sukha-spṛhā-rahitaḥ | spṛhā hi nāma sukhānubhava-kāle taj-jātīya-sukhasya kāraṇaṃ dharmam ananuṣṭhāya vṛthaiva tad-ākāṅkṣā-rūpā tāmasī citta-vṛttir bhrāntir eva | sā cāvivekina eva jāyate | na hi kāraṇābhāve kāryaṃ bhavitum arhati | ato yathā sati kāraṇe kāryaṃ mā bhūd iti vṛthākāṅkṣā-rūpa udvego vivekino na sambhavati tathaivāsati kāraṇe kāryaṃ bhūyād iti vṛthākāṅkṣā-rūpā tṛṣṇātmikā spṛhāpi nopapadyate prārabdha-karmaṇaḥ sukha-mātra-prāpakatvāt | harṣātmikā vā citta-vṛttiḥ spṛhā-śabdenoktā | sāpi bhrāntir eva | aho dhanyo 'haṃ yasya mamedṛśaṃ sukham upasthitaṃ ko vā mayā tulas tribhuvane kena vopāyena mamedṛśaṃ sukhaṃ na vicchidyetety evam ātmikotphullatā-rūpā tāmasī citta-vṛttiḥ | ataevoktaṃ bhāṣye - nāgnir ivendhanādy-ādhāne yaḥ sukhāny anuvivardhate sa vigata-spṛhaḥ iti | vakṣyati ca -- na prahṛṣyet priyaṃ prāpya nodvijet prāpya cāpriyam [Gītā 5.20] iti | sāpi na vivekinaḥ sambhavati bhrāntitvāt | tathā vīta-rāga-bhaya-krodhaḥ | rāgaḥ śobhanādhyāsa-nibandhano viṣayeṣu rañjanātmakaś citta-vṛtti-viśeṣo 'tyantābhiniveśa-rūpaḥ | rāga-viṣayasya nāśake samupasthite tan-nivāraṇāsāmarthyam ātmano manyamānasya dainyātmakaś citta-vṛtti-viśeṣo bhayam | evaṃ rāga-viṣaya-vināśake samupasthite tan-nivāraṇa-sāmarthyam ātmano manyamānasyābhijvalanātmakaś citta-vṛtti-viśeṣaḥ krodhaḥ | te sarve viparyaya-rūpatvād vigatā yasmāt sa tathā | etādṛśo munir manana-śīlaḥ saṃnyāsī sthita-prajña ucyate | evaṃ-lakṣaṇaḥ sthita-dhīḥ svānubhava-prakaṭanena śiṣya-śikṣārtham anudvega-nispṛhatvādi-vācaḥ prabhāṣeta ity anvaya uktaḥ | evaṃ cānyo 'pi mumukṣur duḥkhe nodvijet sukhe na prahṛṣyet, rāga-bhaya-krodha-rahitaś ca bhaved ity abhiprāyaḥ ||56||",
-      "ourRendering": "Now the speaking, sitting and moving of the risen-up sthita-prajña, which are unlike the deluded crowd, are to be expounded. There, to the question ‘how does he speak’ He answers by ‘duḥkheṣu’ in two verses. Sorrows are threefold: the personal (ādhyātmika), caused by grief, delusion, fever, headache and the like; the elemental (ādhibhautika), caused by tigers, snakes and so on; the divine-sent (ādhidaivika), caused by excess of wind, excess of rain and the like — amid these sorrows, particular mental modifications of the nature of the heat that is a transformation of rajas, brought on by commenced evil karma, he whose mind does not become agitated, not distraught through inability to remove the pain, is ‘not-agitated-in-mind’. For in the undiscerning, when pain arrives, there arises a tāmasic mental modification of the nature of remorse, of the form of delusion, called ‘agitation’: ‘Alas, sinful am I; fie on me, the wicked one, who get such pain; who would remove my pain like this?’ Were this to arise at the time of doing the evil deed it would be fruitful, as obstructing that activity; but arising at the time of experiencing the result, since an effect cannot be cut off while its cause exists, it is purposeless — ‘why does this pain arise in me even though its cause exists?’ — and being of the form of a delusion born of non-discrimination, it does not occur in the discerning sthita-prajña. For mere pain is what is obtained by commenced karma, not the delusion subsequent to it. — If it be said that, since it is the cause of further pain, that too should be obtained by some other commenced karma — no: in the sthita-prajña, since the ignorance that is the material cause of delusion is destroyed, delusion is impossible, and the commenced karma that would procure the pain born of it is absent. As will be elaborated later, even where the commenced karma sustaining mere bodily existence is somehow present, it is intelligible as a sublated continuance though delusion be absent. Likewise amid pleasures — particular mental modifications of the nature of the joy that is a transformation of sattva, threefold, brought on by commenced good karma — he is ‘free of longing’, devoid of longing for future pleasure of the same kind. For ‘longing’ is, at the time of experiencing pleasure, that tāmasic mental modification, a mere delusion of the form of craving for pleasure of the same kind without performing the dharma that is its cause. And that arises only in the undiscerning, for an effect cannot come to be in the absence of its cause. So just as the purposeless craving of the form ‘let the effect not occur though the cause exists’, which is agitation, does not occur in the discerning, so too the longing, of the nature of thirst and of the form ‘let the effect occur though there is no cause’, is unintelligible, since commenced karma only procures mere pleasure. Or, a mental modification of the form of elation is expressed by the word ‘longing’; that too is just delusion: ‘Ah, fortunate am I, to whom such pleasure has come; who in the three worlds equals me; by what means may this pleasure of mine not be cut off?’ — such a tāmasic mental modification of the form of self-puffery. Hence it was said in the Bhāṣya, ‘who, unlike fire at the adding of fuel, does not swell up after pleasures, is free of longing.’ And He will say: ‘Let him not exult on gaining the pleasant nor recoil on gaining the unpleasant.’ That too does not occur in the discerning, being a delusion. Likewise ‘free of passion, fear and anger’: passion is a particular mental modification, occasioned by the superimposition of attractiveness, of the form of coloring toward objects, of the nature of intense clinging. When a destroyer of the object of passion presents itself, that particular mental modification of the form of abjectness, in one who thinks himself unable to ward it off, is fear. Likewise, when a destroyer of the object of passion presents itself, that particular mental modification of the form of flaring up, in one who thinks himself able to ward it off, is anger. All these, being of the nature of error, have departed from him. Such a sage, of meditative nature, a renunciant, is called sthita-prajña. Such a steady-minded one, for the instruction of disciples by displaying his own experience, would speak words of non-agitation, of being free of longing and the rest. And the import is that any other seeker of release too should not recoil in sorrow nor exult in pleasure, and should become free of passion, fear and anger.",
+      "ourRendering": "Now the speaking, sitting and moving of the risen-up sthita-prajña, which are unlike the deluded crowd, are to be expounded. There, to the question ‘how does he speak’ He answers by ‘duḥkheṣu’ in two verses. Sorrows are threefold: the personal (ādhyātmika), caused by grief, delusion, fever, headache and the like; the elemental (ādhibhautika), caused by tigers, snakes and so on; the divine-sent (ādhidaivika), caused by excess of wind, excess of rain and the like — amid these sorrows, particular mental modifications of the nature of the heat that is a transformation of rajas, brought on by commenced evil karma, he whose mind does not become agitated, not distraught through inability to remove the pain, is ‘not-agitated-in-mind’. For in the undiscerning, when pain arrives, there arises a tāmasic mental modification of the nature of remorse, of the form of delusion, called ‘agitation’: ‘Alas, sinful am I; fie on me, the wicked one, who get such pain; who would remove my pain like this?’ Were this to arise at the time of doing the evil deed it would be fruitful, as obstructing that activity; but arising at the time of experiencing the result, since an effect cannot be cut off while its cause exists, it is purposeless — ‘why does this pain arise in me even though its cause exists?’ — and being of the form of a delusion born of non-discrimination, it does not occur in the discerning sthita-prajña. For mere pain is what is obtained by commenced karma, not the delusion subsequent to it. — If it be said that, since it is the cause of further pain, that too should be obtained by some other commenced karma — no: in the sthita-prajña, since the ignorance that is the material cause of delusion is destroyed, delusion is impossible, and the commenced karma that would procure the pain born of it is absent. As will be elaborated later, even where the commenced karma sustaining mere bodily existence is somehow present, it is intelligible as a sublated continuance though delusion be absent. Likewise amid pleasures — particular mental modifications of the nature of the joy that is a transformation of sattva, threefold, brought on by commenced good karma — he is ‘free of longing’, devoid of longing for future pleasure of the same kind. For ‘longing’ is, at the time of experiencing pleasure, that tāmasic mental modification, a mere delusion of the form of craving for pleasure of the same kind without performing the dharma that is its cause. And that arises only in the undiscerning, for an effect cannot come to be in the absence of its cause. So just as the purposeless craving of the form ‘let the effect not occur though the cause exists’, which is agitation, does not occur in the discerning, so too the longing, of the nature of thirst and of the form ‘let the effect occur though there is no cause’, is unintelligible, since commenced karma only procures mere pleasure. Or, a mental modification of the form of elation is expressed by the word ‘longing’; that too is just delusion: ‘Ah, fortunate am I, to whom such pleasure has come; who in the three worlds equals me; by what means may this pleasure of mine not be cut off?’ — such a tāmasic mental modification of the form of self-puffery. Hence it was said in the Bhāṣya, ‘who, unlike fire at the adding of fuel, does not swell up after pleasures, is free of longing.’ And He will say: ‘Let him not exult on gaining the pleasant nor recoil on gaining the unpleasant.’ That too does not occur in the discerning, being a delusion. Likewise ‘free of rāga (the pull of attraction and attachment), fear and krodha (the blaze of anger)’: rāga is a particular mental modification, occasioned by the superimposition of attractiveness, of the form of coloring toward objects, of the nature of intense clinging. When a destroyer of the object of rāga presents itself, that particular mental modification of the form of abjectness, in one who thinks himself unable to ward it off, is fear. Likewise, when a destroyer of the object of rāga presents itself, that particular mental modification of the form of flaring up, in one who thinks himself able to ward it off, is krodha. All these, being of the nature of error, have departed from him. Such a sage, of meditative nature, a renunciant, is called sthita-prajña. Such a steady-minded one, for the instruction of disciples by displaying his own experience, would speak words of non-agitation, of being free of longing and the rest. And the import is that any other seeker of release too should not recoil in sorrow nor exult in pleasure, and should become free of rāga, fear and krodha.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -16977,7 +16977,7 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "abhipraya"
         }
       ],
-      "english": "{0:Now} the {3:speaking, sitting and moving} {1:of the risen-up} {2:sthita-prajña}, which are {4:unlike the deluded crowd}, {5:are to be expounded}. {6:There}, to the question {7:‘what} {8:would he speak}{9:’}, {12:He answers} {11:the answer} {10:to this} {13:by ‘duḥkheṣu’}{14:} {15:in two verses}. {16:Sorrows} are {17:threefold}: {19:the personal}, {18:caused by grief, delusion, fever, headache and the like}; {21:the elemental}, {20:brought on by tigers, snakes and so on}; {23:the divine-sent}, {22:caused by excess of wind, excess of rain and the like} — {24:amid those} {25:sorrows}, {26:particular mental modifications of the nature of the heat that is a transformation of rajas}, {27:brought on by commenced evil karma}, he {35:whose} {34:mind} does {28:not} become {29:agitated}, {32:not} {31:distraught} {30:through inability to remove the pain}, {36:is} {37:‘not-agitated-in-mind’}. {39:For} {38:in the undiscerning}, {40:when pain} {41:arrives}, there arises {55:of the nature of remorse}, {56:of the form of delusion}, a {57:tāmasic} {58:mental modification} {59:called ‘agitation’} {60:—}: {42:‘Alas}, {43:sinful} {44:am I}; {45:fie on} {46:me}, {47:the wicked one}, {48:who get such pain}; {49:who} {53:would remove} {50:my} {52:such} {51:pain}{54:?’} {61:Were} {62:this} {64:to arise} {63:at the time of doing the evil deed} {65:it would} {68:be} {67:fruitful}, {66:as obstructing that activity}; but {71:arising} {69:at the time of experiencing the result}, {70:since} {74:an effect} {75:cannot} {76:be} {75:cut off} while {72:its cause} {73:exists}, it is {77:purposeless} — {81:‘why} does {84:pain} {85:arise} {83:in me} {80:even} though {78:its cause} {79:exists}{82:?’} {86:—} and {87:being of the form of a delusion born of non-discrimination}, it does {88:not} {91:occur} {89:in the discerning} {90:sthita-prajña}. {93:For} {92:mere pain} is what {95:is obtained} {94:by commenced karma}, {96:not} {97:but} {99:the delusion} {98:subsequent to it} {100:too}. — {101:If it be objected} that, {102:since it is the cause of further pain}, {103:that} {104:too} {106:should be obtained} {105:by some other commenced karma} {107:—} {108:if so} {109:—} no: {110:in the sthita-prajña}, {111:by the destruction of the ignorance that is the material cause of delusion}, {112:delusion is impossible}, {113:and the commenced karma that would procure the pain born of it is absent}. As {123:will be} {121:elaborated} {122:later}, {114:somehow} {117:even} where {115:the commenced karma sustaining mere bodily existence} is present, it {119:is intelligible} {118:as a sublated continuance} {116:though delusion be absent} {120:—}. {124:Likewise} {125:amid pleasures} — {126:particular mental modifications of the nature of the joy that is a transformation of sattva}, {127:threefold}, {128:brought on by commenced good karma} — he is {129:‘free of longing’}, {130:devoid of longing for future pleasure of the same kind}. {132:For} {131:‘longing’} {133:is}, {134:at the time of experiencing pleasure}, that {142:tāmasic} {143:mental modification}, a {144:mere delusion} {141:of the form of craving} {139:vainly} {140:without} {138:performing} {137:the dharma} that is {136:its cause}, {135:of pleasure of the same kind}. {147:And} {146:that} {150:arises} {148:only in the undiscerning} {149:—}, {152:for} {154:an effect} {155:cannot} {156:come to be} {153:in the absence of its cause}. {157:So} {158:just as} {165:the purposeless craving of the form} {162:‘let} {161:the effect} {163:not occur} {159:though the cause} {160:exists’}, {164:which} {166:is agitation}, does {168:not} {169:occur} {167:in the discerning}, {170:so too} {171:just} {179:the longing}, {178:of the nature of thirst} {177:and of the form} {172:‘let} {174:the effect} {175:occur} though {172:there is no} {173:cause’}, {180:too} {181:is} {182:unintelligible}, {184:since commenced karma only procures mere pleasure} {183:—}. {186:Or}, {187:a mental modification} {185:of the form of elation} {189:is expressed} {188:by the word ‘longing’}; {190:that} {191:too} is {192:just} {193:delusion} {192:—}: {194:‘Ah}, {195:fortunate} {196:am I}, {197:to whom} {198:my} {199:such} {200:pleasure} {201:has come}; {202:who} {203:indeed} {206:in the three worlds} is {205:equal} {204:to me}; {207:by what} {208:or} {209:means} {213:may} {210:my} {211:such} {212:pleasure} {214:not be cut off}{215:?’} — {216:such} a {218:tāmasic} {219:mental modification} {217:of the form of self-puffery}. {220:Hence} {221:it was said} {222:in the Bhāṣya}, {223:‘who}, {225:unlike} {224:fire} {226:at the adding of fuel and the like}, does {229:not} {230:swell up} {229:after} {228:pleasures}, {231:is} {232:free of longing}{233:.’} {234:And He will say} {235::} {236:‘Let him} {237:not exult} {239:on gaining} {238:the pleasant} {240:nor} {241:recoil} {242:on gaining} {243:and} {244:the unpleasant}{245:.’} {246:That} {247:too} does {248:not} {250:occur} {249:in the discerning}, {251:being a delusion}. {252:Likewise} {253:‘free of passion, fear and anger’}: {254:passion} {255:is occasioned by the superimposition of attractiveness}, {257:of the form of coloring} {256:toward objects}, {258:a particular mental modification}, {259:of the nature of intense clinging}. When {261:a destroyer} {260:of the object of passion} {262:presents itself}, {267:that particular mental modification} {266:of the form of abjectness}, {265:in one who thinks} {264:himself} {263:unable to ward it off}, {268:is fear}. {269:Likewise}, when {270:a destroyer of the object of passion} {271:presents itself}, {276:that particular mental modification} {275:of the form of flaring up}, {274:in one who thinks} {273:himself} {272:able to ward it off}, {277:is anger}. {278:All} {279:these}, {280:being of the nature of error}, {281:have departed} {282:from whom} — {283:he} is {284:so named}. {285:Such} a {286:sage}, {287:of meditative nature}, {288:a renunciant}, {290:is called} {289:sthita-prajña}. {291:Such a one of these characteristics}, {292:the steady-minded one}, {294:for the instruction of disciples} {293:by displaying his own experience}, {296:would speak} {295:words of non-agitation, of being free of longing and the rest} — {297:thus} {298:the construction} {299:has been stated}. {300:And thus} {301:—} {302:any other} {303:too} {304:seeker of release} {307:should} {306:not} {305:recoil in sorrow} {309:nor} {310:exult} {308:in pleasure}, {312:and} {313:should become} {311:free of passion, fear and anger} {314:—} {315:this is the import}.",
+      "english": "{0:Now} the {3:speaking, sitting and moving} {1:of the risen-up} {2:sthita-prajña}, which are {4:unlike the deluded crowd}, {5:are to be expounded}. {6:There}, to the question {7:‘what} {8:would he speak}{9:’}, {12:He answers} {11:the answer} {10:to this} {13:by ‘duḥkheṣu’}{14:} {15:in two verses}. {16:Sorrows} are {17:threefold}: {19:the personal}, {18:caused by grief, delusion, fever, headache and the like}; {21:the elemental}, {20:brought on by tigers, snakes and so on}; {23:the divine-sent}, {22:caused by excess of wind, excess of rain and the like} — {24:amid those} {25:sorrows}, {26:particular mental modifications of the nature of the heat that is a transformation of rajas}, {27:brought on by commenced evil karma}, he {35:whose} {34:mind} does {28:not} become {29:agitated}, {32:not} {31:distraught} {30:through inability to remove the pain}, {36:is} {37:‘not-agitated-in-mind’}. {39:For} {38:in the undiscerning}, {40:when pain} {41:arrives}, there arises {55:of the nature of remorse}, {56:of the form of delusion}, a {57:tāmasic} {58:mental modification} {59:called ‘agitation’} {60:—}: {42:‘Alas}, {43:sinful} {44:am I}; {45:fie on} {46:me}, {47:the wicked one}, {48:who get such pain}; {49:who} {53:would remove} {50:my} {52:such} {51:pain}{54:?’} {61:Were} {62:this} {64:to arise} {63:at the time of doing the evil deed} {65:it would} {68:be} {67:fruitful}, {66:as obstructing that activity}; but {71:arising} {69:at the time of experiencing the result}, {70:since} {74:an effect} {75:cannot} {76:be} {75:cut off} while {72:its cause} {73:exists}, it is {77:purposeless} — {81:‘why} does {84:pain} {85:arise} {83:in me} {80:even} though {78:its cause} {79:exists}{82:?’} {86:—} and {87:being of the form of a delusion born of non-discrimination}, it does {88:not} {91:occur} {89:in the discerning} {90:sthita-prajña}. {93:For} {92:mere pain} is what {95:is obtained} {94:by commenced karma}, {96:not} {97:but} {99:the delusion} {98:subsequent to it} {100:too}. — {101:If it be objected} that, {102:since it is the cause of further pain}, {103:that} {104:too} {106:should be obtained} {105:by some other commenced karma} {107:—} {108:if so} {109:—} no: {110:in the sthita-prajña}, {111:by the destruction of the ignorance that is the material cause of delusion}, {112:delusion is impossible}, {113:and the commenced karma that would procure the pain born of it is absent}. As {123:will be} {121:elaborated} {122:later}, {114:somehow} {117:even} where {115:the commenced karma sustaining mere bodily existence} is present, it {119:is intelligible} {118:as a sublated continuance} {116:though delusion be absent} {120:—}. {124:Likewise} {125:amid pleasures} — {126:particular mental modifications of the nature of the joy that is a transformation of sattva}, {127:threefold}, {128:brought on by commenced good karma} — he is {129:‘free of longing’}, {130:devoid of longing for future pleasure of the same kind}. {132:For} {131:‘longing’} {133:is}, {134:at the time of experiencing pleasure}, that {142:tāmasic} {143:mental modification}, a {144:mere delusion} {141:of the form of craving} {139:vainly} {140:without} {138:performing} {137:the dharma} that is {136:its cause}, {135:of pleasure of the same kind}. {147:And} {146:that} {150:arises} {148:only in the undiscerning} {149:—}, {152:for} {154:an effect} {155:cannot} {156:come to be} {153:in the absence of its cause}. {157:So} {158:just as} {165:the purposeless craving of the form} {162:‘let} {161:the effect} {163:not occur} {159:though the cause} {160:exists’}, {164:which} {166:is agitation}, does {168:not} {169:occur} {167:in the discerning}, {170:so too} {171:just} {179:the longing}, {178:of the nature of thirst} {177:and of the form} {172:‘let} {174:the effect} {175:occur} though {172:there is no} {173:cause’}, {180:too} {181:is} {182:unintelligible}, {184:since commenced karma only procures mere pleasure} {183:—}. {186:Or}, {187:a mental modification} {185:of the form of elation} {189:is expressed} {188:by the word ‘longing’}; {190:that} {191:too} is {192:just} {193:delusion} {192:—}: {194:‘Ah}, {195:fortunate} {196:am I}, {197:to whom} {198:my} {199:such} {200:pleasure} {201:has come}; {202:who} {203:indeed} {206:in the three worlds} is {205:equal} {204:to me}; {207:by what} {208:or} {209:means} {213:may} {210:my} {211:such} {212:pleasure} {214:not be cut off}{215:?’} — {216:such} a {218:tāmasic} {219:mental modification} {217:of the form of self-puffery}. {220:Hence} {221:it was said} {222:in the Bhāṣya}, {223:‘who}, {225:unlike} {224:fire} {226:at the adding of fuel and the like}, does {229:not} {230:swell up} {229:after} {228:pleasures}, {231:is} {232:free of longing}{233:.’} {234:And He will say} {235::} {236:‘Let him} {237:not exult} {239:on gaining} {238:the pleasant} {240:nor} {241:recoil} {242:on gaining} {243:and} {244:the unpleasant}{245:.’} {246:That} {247:too} does {248:not} {250:occur} {249:in the discerning}, {251:being a delusion}. {252:Likewise} {253:‘free of rāga (the pull of attraction and attachment), fear and krodha (the blaze of anger)’}: {254:rāga} {255:is occasioned by the superimposition of attractiveness}, {257:of the form of coloring} {256:toward objects}, {258:a particular mental modification}, {259:of the nature of intense clinging}. When {261:a destroyer} {260:of the object of rāga} {262:presents itself}, {267:that particular mental modification} {266:of the form of abjectness}, {265:in one who thinks} {264:himself} {263:unable to ward it off}, {268:is fear}. {269:Likewise}, when {270:a destroyer of the object of rāga} {271:presents itself}, {276:that particular mental modification} {275:of the form of flaring up}, {274:in one who thinks} {273:himself} {272:able to ward it off}, {277:is krodha}. {278:All} {279:these}, {280:being of the nature of error}, {281:have departed} {282:from whom} — {283:he} is {284:so named}. {285:Such} a {286:sage}, {287:of meditative nature}, {288:a renunciant}, {290:is called} {289:sthita-prajña}. {291:Such a one of these characteristics}, {292:the steady-minded one}, {294:for the instruction of disciples} {293:by displaying his own experience}, {296:would speak} {295:words of non-agitation, of being free of longing and the rest} — {297:thus} {298:the construction} {299:has been stated}. {300:And thus} {301:—} {302:any other} {303:too} {304:seeker of release} {307:should} {306:not} {305:recoil in sorrow} {309:nor} {310:exult} {308:in pleasure}, {312:and} {313:should become} {311:free of rāga, fear and krodha} {314:—} {315:this is the import}.",
       "segments": [
         {
           "from": 0,
@@ -17043,7 +17043,7 @@ window.GITA_COMMENTARY = {
       "work": "Subodhinī",
       "locus": "2.56",
       "sanskrit": "kiṃ ca duḥkheṣv iti | duḥkheṣu prāpteṣv api anudvignam akṣubhitaṃ mano yasya saḥ | sukheṣu vigatā spṛhā yasya saḥ | tatra hetuḥ - vītā apagatā rāga-bhaya-krodhā yasmāt | tatra rāgaḥ prītiḥ | sa muniḥ sthita-dhīr ucyate ||56||",
-      "ourRendering": "Moreover, ‘duḥkheṣu’: he whose mind is unagitated, undisturbed, even when sorrows arrive; he whose longing has departed amid pleasures. The cause of that: he from whom passion, fear and anger are gone. There ‘passion’ is fondness. That sage is called steady-minded.",
+      "ourRendering": "Moreover, ‘duḥkheṣu’: he whose mind is unagitated, undisturbed, even when sorrows arrive; he whose longing has departed amid pleasures. The cause of that: he from whom rāga (the pull of attraction and attachment), fear and krodha (the blaze of anger) are gone. There ‘rāga’ is fondness. That sage is called steady-minded.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -17478,7 +17478,7 @@ window.GITA_COMMENTARY = {
           "morph": "present passive, 3rd singular"
         }
       ],
-      "english": "{1:Moreover}, {3:} {2:‘duḥkheṣu’}: he {10:whose} {9:mind} is {7:unagitated}, {8:undisturbed}, {6:even} {5:when} {4:sorrows} {5:arrive}{11:,} {16:he} {15:whose} {14:longing} {13:has departed} {12:amid pleasures}. {17:There} {18:the cause}: he {22:from whom} {21:passion, fear and anger} are {19:gone}, {20:departed}. {23:There} {24:‘passion’} is {25:fondness}. {26:That} {27:sage} {29:is called} {28:steady-minded}.",
+      "english": "{1:Moreover}, {3:} {2:‘duḥkheṣu’}: he {10:whose} {9:mind} is {7:unagitated}, {8:undisturbed}, {6:even} {5:when} {4:sorrows} {5:arrive}{11:,} {16:he} {15:whose} {14:longing} {13:has departed} {12:amid pleasures}. {17:There} {18:the cause}: he {22:from whom} {21:rāga (the pull of attraction and attachment), fear and krodha (the blaze of anger)} are {19:gone}, {20:departed}. {23:There} {24:‘rāga’} is {25:fondness}. {26:That} {27:sage} {29:is called} {28:steady-minded}.",
       "segments": [
         {
           "from": 0,
@@ -17504,7 +17504,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.56",
       "sanskrit": "tadeva spaṣṭayatyuttaraistribhiḥ ślokaiḥ| etānyeva jñānopāyāni ca| taccoktam- ‘tadvai jijñāsubhiḥ sādhyaṃ jñānināṃ yat tu lakṣaṇam’ iti| śobhanādhyāso rāgaḥ| ‘ raso rāgastathā raktiḥ śobhanādhyāsa ucyate ’ iti hyabhidhānam",
-      "ourRendering": "He makes that very thing clear by the next three verses; and these same are the means to knowledge. As stated: ‘That which is the mark of the knowers is to be accomplished by those who would know.’ The superimposition of attractiveness is passion; for it is said, ‘rasa, rāga, and likewise rakti — the superimposition of attractiveness is so called.’",
+      "ourRendering": "He makes that very thing clear by the next three verses; and these same are the means to knowledge. As stated: ‘That which is the mark of the knowers is to be accomplished by those who would know.’ The superimposition of attractiveness is rāga (the pull of attraction and attachment); for it is said, ‘rasa, rāga, and likewise rakti — the superimposition of attractiveness is so called.’",
       "source": "data/sources/sanskrit/vedanta/madhva_gita_bhasya.txt (srimadhvyasa.wordpress.com, Unicode ed. of Madhva's Gītā-bhāṣya)",
       "words": [
         {
@@ -17966,7 +17966,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "He {2:makes} {0:that very thing} {2:clear} {3:by the next} {4:three} {5:verses}; and {6:these} {7:same} are {8:the means to knowledge}. {12:As stated}: {14:‘that} {13:which} {18:is what} {20:is the mark} {17:of the knowers} {16:is to be accomplished} {15:by those who would know’}. {22:The superimposition of attractiveness} is {23:passion}; {31:for} {32:it is said}, {24:‘rasa}, {25:rāga}, {26:and likewise} {27:rakti} {28:— the superimposition of attractiveness} {29:is so called’}.",
+      "english": "He {2:makes} {0:that very thing} {2:clear} {3:by the next} {4:three} {5:verses}; and {6:these} {7:same} are {8:the means to knowledge}. {12:As stated}: {14:‘that} {13:which} {18:is what} {20:is the mark} {17:of the knowers} {16:is to be accomplished} {15:by those who would know’}. {22:The superimposition of attractiveness} is {23:rāga (the pull of attraction and attachment)}; {31:for} {32:it is said}, {24:‘rasa}, {25:rāga}, {26:and likewise} {27:rakti} {28:— the superimposition of attractiveness} {29:is so called’}.",
       "segments": [
         {
           "from": 0,
@@ -18620,7 +18620,7 @@ window.GITA_COMMENTARY = {
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.57",
       "sanskrit": "kiṃ ca | sarva-deheṣu jīvanādiṣv api yo munir anabhisnehaḥ, yasmin saty anyadīye hāni-vṛddhī svasminn āropyete sa tādṛśo 'nya-viṣayaḥ premāpara-paryāyas tāmaso vṛtti-viśeṣaḥ snehaḥ sarva-prakāreṇa tad-rahito 'nabhisnehaḥ | bhagavati paramātmani tu sarvathābhisnehavān bhaved eva | anātman-snehābhāvasya tad-arthatvād iti draṣṭavyam | tat-tat-prārabdha-karma-pariprāpitaṃ śubhaṃ sukha-hetuṃ viṣayaṃ prāpya nābhinandati harṣa-viśeṣa-puraḥsaraṃ na praśaṃsati | aśubhaṃ duḥkha-hetuṃ viṣayaṃ prāpya na dveṣṭi antar-asūyā-pūrvakaṃ na nindati | ajñasya hi sukha-hetur yaḥ sva-kalatrādiḥ sa śubho viṣayas tad-guṇa-kathanādi-pravartikā dhī-vṛttir bhrānti-rūpābhinandaḥ | sa ca tāmasaḥ, tad-guṇa-kathanādeḥ para-prarocanārthatvābhāvena vyarthatvāt | evam asūyotpādanena duḥkha-hetuḥ parakīya-vidyā-prakarṣādir enaṃ pratyaśubho viṣayas tan-nindādi-pravartikā bhrānti-rūpā dhī-vṛtti-viśeṣaḥ | so 'pi tāmasaḥ | tan-nindāyā nivāraṇārthatvābhāvena vyarthatvāt | tāv abhinanda-dveṣau bhrānti-rūpau tāmasau katham abhrānte śuddha-sattve sthita-prajñe sambhavatām | tasmād vicālakābhāvāt tasyānabhisnehasya harṣa-viṣāda-rahitasya muneḥ prajñā paramātma-tattva-viṣayā pratiṣṭhitā phala-paryavasāyinī sa sthita-prajña ity arthaḥ | evam anyo 'pi mumukṣuḥ sarvatrānabhisneho bhavet | śubhaṃ prāpya na praśaṃset, aśubhaṃ prāpya na ninded ity abhiprāyaḥ | atra ca nindā-praśaṃsādi-rūpā vāco na prabhāṣeteti vyatireka uktaḥ ||57||",
-      "ourRendering": "Moreover: the sage who, in all bodies, in life and the rest, is without fondness — that ‘fondness’ (sneha) is a tāmasic particular modification, a synonym of love directed elsewhere, whereby another’s loss or gain is superimposed upon oneself — wholly devoid of it, he is ‘without fondness’. But toward the Lord, the Supreme Self, he should indeed have fondness in every way; for the absence of fondness toward the non-Self is for that very purpose, it should be understood. On gaining this or that auspicious object, a cause of pleasure, procured by this or that commenced karma, he does not rejoice — does not, with elation, praise it. On gaining the inauspicious, a cause of pain, he does not revile — does not, with inner spite, censure it. For in the ignorant, the auspicious object that is a cause of pleasure, such as one’s own wife, prompts a mental modification of praising its qualities, a deluded rejoicing; and that is tāmasic, being purposeless since the praising of its qualities serves no inducement of another. Likewise the inauspicious object — another’s superior learning and the like, which is a cause of pain by generating envy — prompts a deluded mental modification of censuring it; that too is tāmasic, being purposeless since the censure serves no warding-off. Those two, rejoicing and aversion, being of the nature of error and tāmasic, how could they occur in the unerring sthita-prajña established in pure sattva? Therefore, since there is nothing to perturb him, for that sage who is without fondness, devoid of elation and dejection, the insight whose object is the truth of the Supreme Self stands firm, culminating in its fruit — he is the sthita-prajña, that is the sense. And the import is that any other seeker of release too should be without fondness everywhere, should not praise on gaining the auspicious nor censure on gaining the inauspicious. And here the exclusion is stated, that he would not utter words of the form of censure, praise and the like.",
+      "ourRendering": "Moreover: the sage who, in all bodies, in life and the rest, is without fondness — that ‘fondness’ (sneha) is a tāmasic particular modification, a synonym of love directed elsewhere, whereby another’s loss or gain is superimposed upon oneself — wholly devoid of it, he is ‘without fondness’. But toward the Lord, the Supreme Self, he should indeed have fondness in every way; for the absence of fondness toward the non-Self is for that very purpose, it should be understood. On gaining this or that auspicious object, a cause of pleasure, procured by this or that commenced karma, he does not rejoice — does not, with elation, praise it. On gaining the inauspicious, a cause of pain, he does not revile — does not, with inner spite, censure it. For in the ignorant, the auspicious object that is a cause of pleasure, such as one’s own wife, prompts a mental modification of praising its qualities, a deluded rejoicing; and that is tāmasic, being purposeless since the praising of its qualities serves no inducement of another. Likewise the inauspicious object — another’s superior learning and the like, which is a cause of pain by generating envy — prompts a deluded mental modification of censuring it; that too is tāmasic, being purposeless since the censure serves no warding-off. Those two, rejoicing and dveṣa (the recoil of aversion), being of the nature of error and tāmasic, how could they occur in the unerring sthita-prajña established in pure sattva? Therefore, since there is nothing to perturb him, for that sage who is without fondness, devoid of elation and dejection, the insight whose object is the truth of the Supreme Self stands firm, culminating in its fruit — he is the sthita-prajña, that is the sense. And the import is that any other seeker of release too should be without fondness everywhere, should not praise on gaining the auspicious nor censure on gaining the inauspicious. And here the exclusion is stated, that he would not utter words of the form of censure, praise and the like.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -20824,7 +20824,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:Moreover}{1:}: {6:the sage} {5:who}, {2:in all bodies}, {3:in life and the rest}, {4:even}, {7:is without fondness} — that ‘fondness’ (sneha), {8:in which} {9:being present}, {11:another’s loss or gain} {10:belonging to another} {13:is superimposed} {12:upon oneself} — {14:he}, {15:such}, {16:directed elsewhere}, {17:a synonym of love}, {18:a tāmasic} {19:particular modification}, {20:fondness} — {21:in every way} {22:devoid of it}, he is {23:‘without fondness’}. {26:But} {24:toward the Lord}, {25:the Supreme Self}, he {29:should} {27:indeed} {28:have fondness} {27:in every way}{30:}; for {31:the absence of fondness toward the non-Self} is {32:for that very purpose}, {34:it should be understood}{33:}. On {39:gaining} {36:this auspicious} {38:object}, {37:a cause of pleasure}, {35:procured by this or that commenced karma}, he does {40:not} {41:rejoice} — does not, {42:with elation}, {44:praise} it{43:}. On {48:gaining} {45:the inauspicious}, {46:a cause of pain}, {47:object}, he does {49:not} {50:revile} — does not, {51:with inner spite}, {53:censure} it{52:}. {55:For} {54:in the ignorant}, {56:the auspicious object that is a cause of pleasure}, {58:such as one’s own wife}, {57:which} {59:— that} {60:auspicious} {61:object} {62:prompts the praising of its qualities} — {63:a mental modification} {65:of praising}, {64:a deluded rejoicing}; {66:and that} {67:is} {68:tāmasic}, {71:being purposeless} {70:since the praising of its qualities} {69:serves no inducement of another}. {72:Likewise} {78:the inauspicious} {79:object} — {75:another’s superior learning and the like}, {74:a cause of pain} {73:by generating envy} {77:toward} {76:him} — {80:prompts a deluded mental modification of censuring it}{81:} {82:a particular mental modification}; {83:that} {84:too} {85:is tāmasic}, {88:being purposeless} {87:since the censure} {86:of it} {87:serves no warding-off}. {89:Those two}, {90:rejoicing and aversion}, {91:being of the nature of error} {92:and tāmasic}, {93:how} could they {97:occur} {96:in the} {94:unerring} {96:sthita-prajña} {95:established in pure sattva}? {98:Therefore}, {99:since there is nothing to perturb him}, for {100:that} {103:sage} {101:who is without fondness}, {102:devoid of elation and dejection}, {104:the insight} {105:whose object is the truth of the Supreme Self} {106:stands firm}, {107:culminating in its fruit} — {108:he} is {109:the sthita-prajña}, {111:that is the sense}{110:}. {112:And} {114:too} {113:any other} {115:seeker of release} {116:everywhere} {118:should be} {117:without fondness}, {120:on gaining} {119:the auspicious} {121:should} {122:not} {121:praise} nor {126:censure} {124:on gaining} {123:the inauspicious}{125:}{127:}, is {128:the import}. {129:And here} {130:} {137:the exclusion is stated}, that {134:he would} {133:not} {134:utter} {132:words} {131:of the form of censure, praise and the like}{135:} {136:the exclusion}.",
+      "english": "{0:Moreover}{1:}: {6:the sage} {5:who}, {2:in all bodies}, {3:in life and the rest}, {4:even}, {7:is without fondness} — that ‘fondness’ (sneha), {8:in which} {9:being present}, {11:another’s loss or gain} {10:belonging to another} {13:is superimposed} {12:upon oneself} — {14:he}, {15:such}, {16:directed elsewhere}, {17:a synonym of love}, {18:a tāmasic} {19:particular modification}, {20:fondness} — {21:in every way} {22:devoid of it}, he is {23:‘without fondness’}. {26:But} {24:toward the Lord}, {25:the Supreme Self}, he {29:should} {27:indeed} {28:have fondness} {27:in every way}{30:}; for {31:the absence of fondness toward the non-Self} is {32:for that very purpose}, {34:it should be understood}{33:}. On {39:gaining} {36:this auspicious} {38:object}, {37:a cause of pleasure}, {35:procured by this or that commenced karma}, he does {40:not} {41:rejoice} — does not, {42:with elation}, {44:praise} it{43:}. On {48:gaining} {45:the inauspicious}, {46:a cause of pain}, {47:object}, he does {49:not} {50:revile} — does not, {51:with inner spite}, {53:censure} it{52:}. {55:For} {54:in the ignorant}, {56:the auspicious object that is a cause of pleasure}, {58:such as one’s own wife}, {57:which} {59:— that} {60:auspicious} {61:object} {62:prompts the praising of its qualities} — {63:a mental modification} {65:of praising}, {64:a deluded rejoicing}; {66:and that} {67:is} {68:tāmasic}, {71:being purposeless} {70:since the praising of its qualities} {69:serves no inducement of another}. {72:Likewise} {78:the inauspicious} {79:object} — {75:another’s superior learning and the like}, {74:a cause of pain} {73:by generating envy} {77:toward} {76:him} — {80:prompts a deluded mental modification of censuring it}{81:} {82:a particular mental modification}; {83:that} {84:too} {85:is tāmasic}, {88:being purposeless} {87:since the censure} {86:of it} {87:serves no warding-off}. {89:Those two}, {90:rejoicing and dveṣa (the recoil of aversion)}, {91:being of the nature of error} {92:and tāmasic}, {93:how} could they {97:occur} {96:in the} {94:unerring} {96:sthita-prajña} {95:established in pure sattva}? {98:Therefore}, {99:since there is nothing to perturb him}, for {100:that} {103:sage} {101:who is without fondness}, {102:devoid of elation and dejection}, {104:the insight} {105:whose object is the truth of the Supreme Self} {106:stands firm}, {107:culminating in its fruit} — {108:he} is {109:the sthita-prajña}, {111:that is the sense}{110:}. {112:And} {114:too} {113:any other} {115:seeker of release} {116:everywhere} {118:should be} {117:without fondness}, {120:on gaining} {119:the auspicious} {121:should} {122:not} {121:praise} nor {126:censure} {124:on gaining} {123:the inauspicious}{125:}{127:}, is {128:the import}. {129:And here} {130:} {137:the exclusion is stated}, that {134:he would} {133:not} {134:utter} {132:words} {131:of the form of censure, praise and the like}{135:} {136:the exclusion}.",
       "segments": [
         {
           "from": 0,
@@ -23538,7 +23538,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.59",
       "sanskrit": "yadyapi viṣayāḥ viṣayopalakṣitāni viṣaya-śabda-vācyāni indriyāṇi nirāhārasya anāhriyamāṇa-viṣayasya kaṣṭe tapasi sthitasya mūrkhasyāpi vinivartante dehino dehavataḥ rasa-varjaṃ raso rāgo viṣayeṣu yas taṃ varjayitvā | rasa-śabdo rāge prasiddhaḥ, sva-rasena pravṛttaḥ rasikaḥ rasajñaḥ, ity ādi-darśanāt | so 'pi raso rañjana-rūpaḥ sūkṣmo 'sya yateḥ paraṃ paramārtha-tattvaṃ brahma dṛṣṭvā upalabhya aham eva tat iti vartamānasya nivartate nirbījaṃ viṣaya-vijñānaṃ saṃpadyate ity arthaḥ | nāsati samyag-darśane rasasya ucchedaḥ | tasmāt samyag-darśanātmikāyāḥ prajñāyāḥ sthairyaṃ kartavyam ity abhiprāyaḥ",
-      "ourRendering": "Although the senses — denoted by the word ‘objects’, that is, indicated by their objects — turn away, even for the abstinent (one whose objects are not being drawn in), even for a fool established in harsh austerity, of the embodied one possessed of a body — yet ‘leaving out the relish’: relish (rasa) is passion toward objects; leaving that aside. The word ‘rasa’ is well known in the sense of passion — ‘proceeding by his own relish’, ‘the relisher, the connoisseur’, and so on are seen. That relish too, of the nature of coloring, subtle, of this ascetic, on seeing — on apprehending — the Supreme, the truth of the highest reality, Brahman, abiding as ‘I am verily That’, turns away; the cognition of objects becomes seedless, that is the meaning. Without right vision the relish is not cut off. Therefore the steadiness of the insight that is right vision should be made — this is the import.",
+      "ourRendering": "Although the senses — denoted by the word ‘objects’, that is, indicated by their objects — turn away, even for the abstinent (one whose objects are not being drawn in), even for a fool established in harsh austerity, of the embodied one possessed of a body — yet ‘leaving out the relish’: relish (rasa) is rāga (the pull of attraction and attachment) toward objects; leaving that aside. The word ‘rasa’ is well known in the sense of rāga — ‘proceeding by his own relish’, ‘the relisher, the connoisseur’, and so on are seen. That relish too, of the nature of coloring, subtle, of this ascetic, on seeing — on apprehending — the Supreme, the truth of the highest reality, Brahman, abiding as ‘I am verily That’, turns away; the cognition of objects becomes seedless, that is the meaning. Without right vision the relish is not cut off. Therefore the steadiness of the insight that is right vision should be made — this is the import.",
       "source": "data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt (GRETIL: gretil/1_sanskr/6_sastra/3_phil/vedanta/bhgsbh_u.htm)",
       "words": [
         {
@@ -24536,7 +24536,7 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "abhipraya"
         }
       ],
-      "english": "{0:Although} the {4:senses} — {3:denoted by the word ‘objects’}, that is, {2:indicated by their objects} (the {1:objects}) — {12:turn away}, even for {5:the abstinent} ({6:one whose objects are not being drawn in}), even for {10:a fool} {9:established} {7:in harsh} {8:austerity}, {13:of the embodied one} {14:possessed of a body} — yet {15:‘leaving out the relish’}: {16:relish} is {17:passion} {18:toward objects}, {19:which}; {20:that} {21:leaving aside}. {22:The word “relish”} {24:is well known} {23:in the sense of passion} — {26:“proceeding} {25:by his own relish”}, {27:“the relisher}, {28:the connoisseur”}, {29:and} {30:so on are seen}. {31:That} {33:relish} {32:too}, {34:of the nature of coloring}, {35:subtle}, {36:of this} {37:ascetic}, {41:on seeing} — {42:on apprehending} — {38:the Supreme}, {39:the truth of the highest reality}, {40:Brahman}, {47:abiding} {43:as ‘I} {44:verily} {45:That’} {46:—}, {48:turns away}; the {50:cognition of objects} {51:becomes} {49:seedless}, {52:that is} {53:the meaning}. {54:Not}, {55:in the absence of} {56:right vision}, is there {58:the cutting off} {57:of the relish}. {59:Therefore} {62:the steadiness} {61:of the insight} {60:whose nature is right vision} {63:should be made} {64:—} {65:this is the import}.",
+      "english": "{0:Although} the {4:senses} — {3:denoted by the word ‘objects’}, that is, {2:indicated by their objects} (the {1:objects}) — {12:turn away}, even for {5:the abstinent} ({6:one whose objects are not being drawn in}), even for {10:a fool} {9:established} {7:in harsh} {8:austerity}, {13:of the embodied one} {14:possessed of a body} — yet {15:‘leaving out the relish’}: {16:relish} is {17:rāga (the pull of attraction and attachment)} {18:toward objects}, {19:which}; {20:that} {21:leaving aside}. {22:The word “relish”} {24:is well known} {23:in the sense of rāga} — {26:“proceeding} {25:by his own relish”}, {27:“the relisher}, {28:the connoisseur”}, {29:and} {30:so on are seen}. {31:That} {33:relish} {32:too}, {34:of the nature of coloring}, {35:subtle}, {36:of this} {37:ascetic}, {41:on seeing} — {42:on apprehending} — {38:the Supreme}, {39:the truth of the highest reality}, {40:Brahman}, {47:abiding} {43:as ‘I} {44:verily} {45:That’} {46:—}, {48:turns away}; the {50:cognition of objects} {51:becomes} {49:seedless}, {52:that is} {53:the meaning}. {54:Not}, {55:in the absence of} {56:right vision}, is there {58:the cutting off} {57:of the relish}. {59:Therefore} {62:the steadiness} {61:of the insight} {60:whose nature is right vision} {63:should be made} {64:—} {65:this is the import}.",
       "segments": [
         {
           "from": 0,
@@ -24577,7 +24577,7 @@ window.GITA_COMMENTARY = {
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.59",
       "sanskrit": "nanu mūḍhasyāpi rogādi-vaśād viṣayebhya indriyāṇām upasaṃharaṇaṃ bhavati tat kathaṃ tasya prajñā pratiṣṭhitety uktam ? ata āha viṣayā iti | nirāhārasya indriyāir indriyāir viṣayān anāharato dehino dehābhimānavato mūḍhasyāpi rogiṇaḥ kāṣṭha-tapasvino vā viṣayāḥ śabdādayo vinivartante kintu rasa-varjaṃ rasa-tṛṣṇā taṃ varjayitvā | ajñasya viṣayā nivartante tad-viṣayo rāgas tu na nivartata ity arthaḥ | asya tu sthita-prajñasya paraṃ puruṣārthaṃ dṛṣṭvā tad evāham asmīti sākṣātkṛtya sthitasya raso 'pi kṣudra-sukha-rāgo 'pi nivartate | api-śabdād viṣayāś ca | tathā ca yāvān artha ity ādau vyākhyātam | evaṃ ca sa-rāga-viṣaya-nivṛttiḥ sthita-prajña-lakṣaṇam iti na mūḍhe vyabhicāra ity arthaḥ | yasmān nāsati paramātma-samyag-darśane sa-rāga-viṣayocchedas tasmāt sa-rāga-viṣayocchedikāyāḥ samyag-darśanātmikāyāḥ prajñāyāḥ sthairyaṃ mahatā yatnena sampādayed ity abhiprāyaḥ ||59||",
-      "ourRendering": "But surely even in a fool, by reason of disease and the like, there is a withdrawal of the senses from objects — how then was it said that his insight stands firm? To this He says ‘viṣayāḥ’. Of the abstinent — one who, by the senses, does not take in objects by the senses — of the embodied one possessed of the conceit of the body, even of a fool, a sick man, or one of wooden austerity, the objects, sound and the rest, turn away; but ‘leaving out the relish’ — the thirst that is relish, leaving that aside. For the ignorant the objects turn away, but the passion toward them does not turn away — that is the meaning. But for this sthita-prajña, who, having seen the supreme human goal and directly realized ‘That very thing am I’, abides, the relish too, even the passion toward petty pleasure, turns away. From the word ‘api’ (too), the objects also. And so it has been explained under ‘yāvān artha’. Thus the turning-away of object-along-with-passion is the mark of the sthita-prajña, so there is no over-extension to the fool — that is the meaning. Since without right vision of the Supreme Self there is no rooting-out of object-along-with-passion, therefore one should, with great effort, bring about the steadiness of the insight that is right vision and that roots out object-along-with-passion — this is the import.",
+      "ourRendering": "But surely even in a fool, by reason of disease and the like, there is a withdrawal of the senses from objects — how then was it said that his insight stands firm? To this He says ‘viṣayāḥ’. Of the abstinent — one who, by the senses, does not take in objects by the senses — of the embodied one possessed of the conceit of the body, even of a fool, a sick man, or one of wooden austerity, the objects, sound and the rest, turn away; but ‘leaving out the relish’ — the thirst that is relish, leaving that aside. For the ignorant the objects turn away, but the rāga (the pull of attraction and attachment) toward them does not turn away — that is the meaning. But for this sthita-prajña, who, having seen the supreme human goal and directly realized ‘That very thing am I’, abides, the relish too, even the rāga toward petty pleasure, turns away. From the word ‘api’ (too), the objects also. And so it has been explained under ‘yāvān artha’. Thus the turning-away of object-along-with-rāga is the mark of the sthita-prajña, so there is no over-extension to the fool — that is the meaning. Since without right vision of the Supreme Self there is no rooting-out of object-along-with-rāga, therefore one should, with great effort, bring about the steadiness of the insight that is right vision and that roots out object-along-with-rāga — this is the import.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -26149,7 +26149,7 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "abhipraya"
         }
       ],
-      "english": "{0:But surely} {2:even} {1:in a fool}, {3:by reason of disease and the like}, there is {6:a withdrawal} {5:of the senses} {4:from objects} {7:—} {8:that being so}, {9:how} {14:was it said} that {10:his} {11:insight} {12:stands firm} {13:?} {15:To this} {16:He says} {17:‘viṣayāḥ’} {18:—}. {19:Of the abstinent} — one who, {20:by the senses}, {23:does not take in} {22:objects} {21:by the senses} — {24:of the embodied one} {25:possessed of the conceit of the body}, {27:even} {26:of a fool}, {28:a sick man}, {30:or} {29:one of wooden austerity}, {31:the objects}, {32:sound and the rest}, {33:turn away}; {34:but} {35:‘leaving out the relish’} — {36:the thirst that is relish}, {37:that} {38:leaving aside}. {39:For the ignorant} {40:the objects} {41:turn away}, {44:but} {43:the passion} {42:toward them} {45:does not} {46:turn away} {47:—} that is {48:the meaning}. {50:But} {49:for this} {51:sthita-prajña}, who, {54:having seen} {52:the supreme} {53:human goal} and {60:directly realized} {55:‘That} {56:very} thing {57:am I’}, {58:abides}, {62:the relish} {63:too}, {65:even} {64:the passion toward petty pleasure}, {66:turns away}. {67:From ‘api’ (too)}, {68:the objects} {69:also}. {70:And so} {71:it} has {76:been explained} under {72:‘yāvān} {73:artha’} {74:and} {75:so on}. {77:Thus} {78:and} {79:the turning-away of object-along-with-passion} is {80:the mark of the sthita-prajña}, {81:so} {82:there is no} {84:over-extension} {83:to the fool} {85:—} that is {86:the meaning}. {87:Since} {88:without} {90:right vision of the Supreme Self} {89:there is no} {91:rooting-out of object-along-with-passion}, {92:therefore} one should, {97:with great} {98:effort}, {99:bring about} {96:the steadiness} {95:of the insight} {94:that is right vision} and {93:that roots out object-along-with-passion} {100:—} this is {101:the import}.",
+      "english": "{0:But surely} {2:even} {1:in a fool}, {3:by reason of disease and the like}, there is {6:a withdrawal} {5:of the senses} {4:from objects} {7:—} {8:that being so}, {9:how} {14:was it said} that {10:his} {11:insight} {12:stands firm} {13:?} {15:To this} {16:He says} {17:‘viṣayāḥ’} {18:—}. {19:Of the abstinent} — one who, {20:by the senses}, {23:does not take in} {22:objects} {21:by the senses} — {24:of the embodied one} {25:possessed of the conceit of the body}, {27:even} {26:of a fool}, {28:a sick man}, {30:or} {29:one of wooden austerity}, {31:the objects}, {32:sound and the rest}, {33:turn away}; {34:but} {35:‘leaving out the relish’} — {36:the thirst that is relish}, {37:that} {38:leaving aside}. {39:For the ignorant} {40:the objects} {41:turn away}, {44:but} {43:the rāga (the pull of attraction and attachment)} {42:toward them} {45:does not} {46:turn away} {47:—} that is {48:the meaning}. {50:But} {49:for this} {51:sthita-prajña}, who, {54:having seen} {52:the supreme} {53:human goal} and {60:directly realized} {55:‘That} {56:very} thing {57:am I’}, {58:abides}, {62:the relish} {63:too}, {65:even} {64:the rāga toward petty pleasure}, {66:turns away}. {67:From ‘api’ (too)}, {68:the objects} {69:also}. {70:And so} {71:it} has {76:been explained} under {72:‘yāvān} {73:artha’} {74:and} {75:so on}. {77:Thus} {78:and} {79:the turning-away of object-along-with-rāga} is {80:the mark of the sthita-prajña}, {81:so} {82:there is no} {84:over-extension} {83:to the fool} {85:—} that is {86:the meaning}. {87:Since} {88:without} {90:right vision of the Supreme Self} {89:there is no} {91:rooting-out of object-along-with-rāga}, {92:therefore} one should, {97:with great} {98:effort}, {99:bring about} {96:the steadiness} {95:of the insight} {94:that is right vision} and {93:that roots out object-along-with-rāga} {100:—} this is {101:the import}.",
       "segments": [
         {
           "from": 0,
@@ -26175,7 +26175,7 @@ window.GITA_COMMENTARY = {
       "work": "Subodhinī",
       "locus": "2.59",
       "sanskrit": "nanu nendriyāṇāṃ viṣayeṣv apravṛttir sthita-prajñasya lakṣaṇaṃ bhavitum arhati | jaḍānām āturāṇām upavāsa-parāṇāṃ ca viṣayeṣv pravṛtter aviśeṣāt | tatrāha viṣayā iti | indriyāir viṣayāṇām āharaṇaṃ grahaṇam āhāraḥ | nirāhārasya indriyāir viṣaya-grahaṇam akurvato dehino dehābhimānino 'jñasya rāgo 'bhilāṣas tad-varjaṃ | abhilāṣasya na nivartata ity arthaḥ | yad vā nirāhārasya upavāsa-parasya viṣayāḥ prāyaśo nivartante kṣudhā-santaptasya śabda-sparśādy-apekṣābhāvāt, kintu rasa-varjaṃ rasāpekṣā tu na nivartata ity arthaḥ | śeṣaṃ samānam ||59||",
-      "ourRendering": "But surely the non-engagement of the senses with objects cannot be the mark of the sthita-prajña, since there is no difference in the non-engagement with objects of the dull, the sick, and those given to fasting. To that He says ‘viṣayāḥ’. The taking-in, the grasping, of objects by the senses is ‘āhāra’ (intake). Of the abstinent, who does not take in objects by the senses, of the embodied one possessed of body-conceit, of the ignorant, passion, craving — leaving that out; his craving does not turn away, that is the meaning. Or: of the abstinent, one given to fasting, the objects mostly turn away, because, scorched by hunger, there is no expectation of sound, touch and the rest; but ‘leaving out the relish’, the expectation of relish does not turn away — that is the meaning. The rest is the same.",
+      "ourRendering": "But surely the non-engagement of the senses with objects cannot be the mark of the sthita-prajña, since there is no difference in the non-engagement with objects of the dull, the sick, and those given to fasting. To that He says ‘viṣayāḥ’. The taking-in, the grasping, of objects by the senses is ‘āhāra’ (intake). Of the abstinent, who does not take in objects by the senses, of the embodied one possessed of body-conceit, of the ignorant, rāga (the pull of attraction and attachment), craving — leaving that out; his craving does not turn away, that is the meaning. Or: of the abstinent, one given to fasting, the objects mostly turn away, because, scorched by hunger, there is no expectation of sound, touch and the rest; but ‘leaving out the relish’, the expectation of relish does not turn away — that is the meaning. The rest is the same.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -27044,7 +27044,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:But surely} {1:the non-}{4:engagement} {2:of the senses} {3:with objects} {8:cannot} {7:be} {6:the mark} {5:of the sthita-prajña}, {15:since there is no difference} {14:in the non-engagement} {13:with objects} {9:of the dull}, {10:the sick}, {12:and} {11:those given to fasting}. {16:To that} {17:He says}, {19:with} {18:‘viṣayāḥ’}. {22:The taking-in}, {23:the grasping}, {21:of objects} {20:by the senses} is {24:intake}. {25:Of the abstinent}, {28:who does not do} {27:the grasping of objects} {26:by the senses}, {29:of the embodied one} {30:possessed of body-conceit}, {31:of the ignorant}, {32:passion}, {33:craving} — {34:leaving that out}; {35:his craving} {36:does not} {37:turn away}, {38:that is} {39:the meaning}. {40:Or}: {41:of the abstinent}, {42:one given to fasting}, {43:the objects} {44:mostly} {45:turn away}, {47:because, scorched by hunger, there is no expectation of sound, touch and the rest}{46:,} {48:but} {49:‘leaving out the relish’}, {50:the expectation of relish} {51:but} {52:does not} {53:turn away} — {54:that is} {55:the meaning}. {56:The rest} {57:is the same}.",
+      "english": "{0:But surely} {1:the non-}{4:engagement} {2:of the senses} {3:with objects} {8:cannot} {7:be} {6:the mark} {5:of the sthita-prajña}, {15:since there is no difference} {14:in the non-engagement} {13:with objects} {9:of the dull}, {10:the sick}, {12:and} {11:those given to fasting}. {16:To that} {17:He says}, {19:with} {18:‘viṣayāḥ’}. {22:The taking-in}, {23:the grasping}, {21:of objects} {20:by the senses} is {24:intake}. {25:Of the abstinent}, {28:who does not do} {27:the grasping of objects} {26:by the senses}, {29:of the embodied one} {30:possessed of body-conceit}, {31:of the ignorant}, {32:rāga (the pull of attraction and attachment)}, {33:craving} — {34:leaving that out}; {35:his craving} {36:does not} {37:turn away}, {38:that is} {39:the meaning}. {40:Or}: {41:of the abstinent}, {42:one given to fasting}, {43:the objects} {44:mostly} {45:turn away}, {47:because, scorched by hunger, there is no expectation of sound, touch and the rest}{46:,} {48:but} {49:‘leaving out the relish’}, {50:the expectation of relish} {51:but} {52:does not} {53:turn away} — {54:that is} {55:the meaning}. {56:The rest} {57:is the same}.",
       "segments": [
         {
           "from": 0,
@@ -27090,7 +27090,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.59",
       "sanskrit": "na caitallakṣaṇaṃ jñānamayatnato'pi bhavatītyāhottaraślokaiḥ| nirāhāratvena viṣayabhogasāmarthyābhāva eva bhavati| itaraviṣayākāṅkṣābhāvo vā| rasākāṅkṣādirna nivartate| sa tvaparokṣajñānādeva nivartata ityāha – viṣayā iti| ‘ indriyāṇi jayantyāśu nirāhāra manīṣiṇaḥ| varjayitvā tu rasanāmāsau rasye tu vardhate ‘ iti vacanādbhāgavate| rasaśabdasyarāgavācitvācca",
-      "ourRendering": "He states by the following verses that this mark, knowledge, does not arise even without effort. By abstinence there comes about merely the absence of capacity to enjoy objects, or the absence of craving for the remaining objects; the craving for relish and the rest does not turn away. That turns away only from direct knowledge — He says this by ‘viṣayāḥ’. As stated in the Bhāgavata, ‘The thoughtful quickly conquer the senses by abstinence; but excepting the tongue (taste), in that taste it grows.’ And because the word ‘rasa’ denotes passion.",
+      "ourRendering": "He states by the following verses that this mark, knowledge, does not arise even without effort. By abstinence there comes about merely the absence of capacity to enjoy objects, or the absence of craving for the remaining objects; the craving for relish and the rest does not turn away. That turns away only from direct knowledge — He says this by ‘viṣayāḥ’. As stated in the Bhāgavata, ‘The thoughtful quickly conquer the senses by abstinence; but excepting the tongue (taste), in that taste it grows.’ And because the word ‘rasa’ denotes rāga (the pull of attraction and attachment).",
       "source": "data/sources/sanskrit/vedanta/madhva_gita_bhasya.txt (srimadhvyasa.wordpress.com, Unicode ed. of Madhva's Gītā-bhāṣya)",
       "words": [
         {
@@ -27753,7 +27753,7 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "He {8:states} {9:by the following verses} that {2:this mark}, {3:knowledge}, {0:does not} {6:arise} {5:even} {4:without effort}. {10:By abstinence} {13:there comes about} {12:merely} {11:the absence of capacity to enjoy objects}, {15:or} {14:the absence of craving for the remaining objects}; {16:the craving for relish and the rest} {17:does not} {18:turn away}. {19:That} {20:however} {23:turns away} {22:only} {21:from direct knowledge} — he {25:says} this {26:by ‘viṣayāḥ’}. {41:As stated} {42:in the Bhāgavata}: {32:‘the thoughtful} {29:conquer} {28:the senses} {30:quickly} {31:by abstinence}; {34:but} {33:excepting} {35:the tongue}, {38:but} {37:in that taste} {36:it} {39:grows’}. {45:And} {44:because the word ‘rasa’ denotes passion} {43:—}.",
+      "english": "He {8:states} {9:by the following verses} that {2:this mark}, {3:knowledge}, {0:does not} {6:arise} {5:even} {4:without effort}. {10:By abstinence} {13:there comes about} {12:merely} {11:the absence of capacity to enjoy objects}, {15:or} {14:the absence of craving for the remaining objects}; {16:the craving for relish and the rest} {17:does not} {18:turn away}. {19:That} {20:however} {23:turns away} {22:only} {21:from direct knowledge} — he {25:says} this {26:by ‘viṣayāḥ’}. {41:As stated} {42:in the Bhāgavata}: {32:‘the thoughtful} {29:conquer} {28:the senses} {30:quickly} {31:by abstinence}; {34:but} {33:excepting} {35:the tongue}, {38:but} {37:in that taste} {36:it} {39:grows’}. {45:And} {44:because the word ‘rasa’ denotes rāga (the pull of attraction and attachment)} {43:—}.",
       "segments": [
         {
           "from": 0,
@@ -34134,7 +34134,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.62-63",
       "sanskrit": "dhyāyataś cintayato viṣayāt śabdādīn viṣaya-viśeṣān ālocayataḥ puṃsaḥ puruṣasya saṅgaḥ āsaktiḥ prītis teṣu viṣayeṣu upajāyate utpadyate | saṅgāt prīteḥ saṃjāyate samutpadyate kāmas tṛṣṇā | kāmāt kutaścit pratihatāt krodho 'bhijāyate | krodhād bhavati saṃmoho 'vivekaḥ kāryākārya-viṣayaḥ | kruddho hi saṃmūḍhaḥ san gurum apy ākrośati | saṃmohāt smṛti-vibhramaḥ śāstrācāryopadeśāhita-saṃskāra-janitāyāḥ smṛte syāt vibhramo bhraṃśaḥ smṛty-utpatti-nimitta-prāptau anutpattiḥ | tataḥ smṛti-bhraṃśāt buddhi-nāśaḥ buddhi-nāśaḥ | kāryākārya-viṣaya-vivekāyogyatā antaḥ-karaṇasya buddher nāśa ucyate | buddher nāśāt praṇaśyati | tāvad eva hi puruṣaḥ yāvad antaḥkaraṇaṃ tadīyaṃ kāryākārya-viṣaya-viveka-yogyam | tad-ayogyatve naṣṭa eva puruṣo bhavati | ataḥ tasyāntaḥ-karaṇasya buddher nāśāt praṇaśyati puruṣārthāyogyo bhavatīty arthaḥ",
-      "ourRendering": "Of a man meditating on — pondering — objects, dwelling on the particular objects sound and the rest, ‘attachment’, clinging, fondness toward those objects arises, comes to be. From attachment, from fondness, is born, arises, ‘desire’, thirst. From desire, when thwarted somewhere, anger arises. From anger comes delusion, non-discrimination as to what should and should not be done; for the angry man, become deluded, reviles even his elder. From delusion, ‘confusion of memory’: of the memory generated by the impressions laid down by the teaching of scripture and teacher, there is confusion, a lapse — when the occasion for its arising is present, its non-arising. Then from the lapse of memory, ‘ruin of the understanding’: the unfitness of the inner organ, the understanding, for discriminating what should and should not be done is called the ruin of the understanding. From the ruin of the understanding ‘he perishes’: for a man is a man only so long as his inner organ is fit to discriminate what should and should not be done; when it becomes unfit, the man is as good as destroyed. Hence, from the ruin of his inner organ, the understanding, he perishes, becomes unfit for the human goal — that is the meaning.",
+      "ourRendering": "Of a man meditating on — pondering — objects, dwelling on the particular objects sound and the rest, ‘saṅga (clinging attachment to objects)’, clinging, fondness toward those objects arises, comes to be. From saṅga, from fondness, is born, arises, ‘kāma (desire as craving for objects)’, thirst. From kāma, when thwarted somewhere, krodha (the blaze of anger) arises. From krodha comes moha (the delusion that clouds discernment), non-discrimination as to what should and should not be done; for the angry man, become deluded, reviles even his elder. From moha, ‘confusion of memory’: of the memory generated by the impressions laid down by the teaching of scripture and teacher, there is confusion, a lapse — when the occasion for its arising is present, its non-arising. Then from the lapse of memory, ‘ruin of the understanding’: the unfitness of the inner organ, the understanding, for discriminating what should and should not be done is called the ruin of the understanding. From the ruin of the understanding ‘he perishes’: for a man is a man only so long as his inner organ is fit to discriminate what should and should not be done; when it becomes unfit, the man is as good as destroyed. Hence, from the ruin of his inner organ, the understanding, he perishes, becomes unfit for the human goal — that is the meaning.",
       "source": "data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt (GRETIL: gretil/1_sanskr/6_sastra/3_phil/vedanta/bhgsbh_u.htm)",
       "words": [
         {
@@ -35434,7 +35434,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "{0:Of a man meditating on} — {1:pondering} — {2:objects}, {5:dwelling on} {4:the particular objects} {3:sound and the rest}, {8:‘attachment’}, {9:clinging}, {10:fondness} {11:toward those} {12:objects} {13:arises}, {14:comes to be}. {15:From attachment}, {16:from fondness}, {17:is born}, {18:arises}, {19:‘desire’}, {20:thirst}. {21:From desire}, {23:when thwarted} {22:somewhere}, {24:anger} {25:arises}. {26:From anger} {27:comes} {28:delusion}, {29:non-discrimination} {30:as to what should and should not be done}; {32:for} {31:the angry man}, {33:become deluded} {34:being}, {37:reviles} {36:even} {35:his elder}. {38:From delusion}, {39:‘confusion of memory’}: {41:of the memory} {40:generated by the impressions laid down by the teaching of scripture and teacher}, {42:there would be} {43:confusion}, {44:a lapse} — {45:when the occasion for its arising is present}, {46:its non-arising}. {47:Then} {48:from the lapse of memory}, {49:‘ruin of the understanding’}: {51:the unfitness for discriminating what should and should not be done} {52:of the inner organ}, {53:the understanding}, {54:the ruin} {55:is called}. {57:From the ruin} {56:of the understanding} {58:he perishes}: {61:for} {62:a man} is a man {59:only so long} {60:as} {63:as long as} {65:his} {64:inner organ} {66:is fit to discriminate what should and should not be done}; {67:when it becomes unfit} {70:the man} {68:is as good as} {69:destroyed} {71:becomes}. {72:Hence}, {76:from the ruin} {73:of his} {74:inner organ}, {75:the understanding}, {77:he perishes}, {78:becomes unfit for the human goal} {79:becomes} — {80,81:that is the meaning}.",
+      "english": "{0:Of a man meditating on} — {1:pondering} — {2:objects}, {5:dwelling on} {4:the particular objects} {3:sound and the rest}, {8:‘attachment’}, {9:clinging}, {10:fondness} {11:toward those} {12:objects} {13:arises}, {14:comes to be}. {15:From saṅga (clinging attachment to objects)}, {16:from fondness}, {17:is born}, {18:arises}, {19:‘kāma (desire as craving for objects)’}, {20:thirst}. {21:From kāma}, {23:when thwarted} {22:somewhere}, {24:krodha (the blaze of anger)} {25:arises}. {26:From krodha} {27:comes} {28:delusion}, {29:non-discrimination} {30:as to what should and should not be done}; {32:for} {31:the angry man}, {33:become deluded} {34:being}, {37:reviles} {36:even} {35:his elder}. {38:From moha (the delusion that clouds discernment)}, {39:‘confusion of memory’}: {41:of the memory} {40:generated by the impressions laid down by the teaching of scripture and teacher}, {42:there would be} {43:confusion}, {44:a lapse} — {45:when the occasion for its arising is present}, {46:its non-arising}. {47:Then} {48:from the lapse of memory}, {49:‘ruin of the understanding’}: {51:the unfitness for discriminating what should and should not be done} {52:of the inner organ}, {53:the understanding}, {54:the ruin} {55:is called}. {57:From the ruin} {56:of the understanding} {58:he perishes}: {61:for} {62:a man} is a man {59:only so long} {60:as} {63:as long as} {65:his} {64:inner organ} {66:is fit to discriminate what should and should not be done}; {67:when it becomes unfit} {70:the man} {68:is as good as} {69:destroyed} {71:becomes}. {72:Hence}, {76:from the ruin} {73:of his} {74:inner organ}, {75:the understanding}, {77:he perishes}, {78:becomes unfit for the human goal} {79:becomes} — {80,81:that is the meaning}.",
       "segments": [
         {
           "from": 0,
@@ -35465,7 +35465,7 @@ window.GITA_COMMENTARY = {
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.62-63",
       "sanskrit": "nigṛhīta-bāhyendriyasyāpi śabdādīnviṣayān dhyāyato manasā punaḥ punaś cintayataḥ puṃsas teṣu viṣayeṣu saṅga āsaṅgo mamātyantaṃ sukha-hetava eta ity evaṃ śobhanādhyāsa-lakṣaṇaḥ prīti-viśeṣa upajāyate saṅgāt sukha-hetutva-jñāna-lakṣaṇāt saṃjāyate kāmo mamaite bhavantv iti tṛṣṇā-viśeṣaḥ | tasmāt kāmāt kutaścit pratihanyamānāt tat-pratighāta-viṣayaḥ krodho 'bhijvalanātmābhijāyate | krodhād bhavati saṃmohaḥ kāryākārya-vivekābhāva-rūpaḥ | saṃmohāt smṛti-vibhramaḥ smṛteḥ śāstrācāryopadiṣṭārthānusandhānasya vibhramo vicalanaṃ vibhraṃśaḥ | tasmāc ca smṛti-bhraṃśād buddher aikātmyākāra-mano-vṛtter nāśo viparīta-bhāvanopacaya-doṣeṇa pratibandhād anutpattir utpannāyāś ca phalāyogyatvena vilayaḥ | buddhi-nāśāt praṇaśyati tasyāś ca phala-bhūtāyā buddher vilopāt praṇaśyati sarva-puruṣārthāyogyo bhavati | yo hi puruṣārthāyogyo jātaḥ sa mṛta eveti loke vyavahriyate | ataḥ praṇaśyatīty uktam | yasmād evaṃ manaso nigrahābhāve nigṛhīta-bāhyendriyasyāpi paramānartha-prāptis taramān mahatā prayatnena mano nigṛhṇīyād ity abhiprāyaḥ | ato yuktam uktaṃ tāni sarvāṇi saṃyamya yukta āsīteti ||62-63||",
-      "ourRendering": "Even of one whose outer senses are restrained, but who meditates on — again and again ponders in the mind — the objects sound and the rest, toward those objects ‘attachment’, clinging, of the form ‘these are an exceeding cause of pleasure for me’, a particular fondness marked by the superimposition of attractiveness, arises. From attachment, marked by the cognition that they are a cause of pleasure, is born ‘desire’, a particular thirst, ‘let these be mine’. From that desire, when thwarted somewhere, anger, of the nature of flaring up, directed at that which thwarts it, arises. From anger comes delusion, of the form of the absence of discrimination of what should and should not be done. From delusion, ‘confusion of memory’: of the memory, the bringing-to-mind of the meaning taught by scripture and teacher, there is confusion, a wandering, a lapse. And from that lapse of memory, ‘ruin of the understanding’: of the understanding, the mental modification of the form of unity (with the Self), there is ruin — by the fault of the accumulation of contrary conviction it is obstructed, so it does not arise, or, having arisen, it dissolves by being unfit for its fruit. From the ruin of the understanding ‘he perishes’: by the loss of that fruitful understanding he perishes, becomes unfit for every human goal. For he who has become unfit for the human goal is, in the world, spoken of as ‘dead’; hence ‘he perishes’ is said. Since thus, when restraint of the mind is absent, there is, even for one whose outer senses are restrained, the attainment of supreme calamity — therefore one should restrain the mind with great effort — this is the import. Hence it was rightly said, ‘restraining all of them, let him sit absorbed.’",
+      "ourRendering": "Even of one whose outer senses are restrained, but who meditates on — again and again ponders in the mind — the objects sound and the rest, toward those objects ‘saṅga (clinging attachment to objects)’, clinging, of the form ‘these are an exceeding cause of pleasure for me’, a particular fondness marked by the superimposition of attractiveness, arises. From saṅga, marked by the cognition that they are a cause of pleasure, is born ‘kāma (desire as craving for objects)’, a particular thirst, ‘let these be mine’. From that desire, when thwarted somewhere, krodha (the blaze of anger), of the nature of flaring up, directed at that which thwarts it, arises. From krodha comes moha (the delusion that clouds discernment), of the form of the absence of discrimination of what should and should not be done. From moha, ‘confusion of memory’: of the memory, the bringing-to-mind of the meaning taught by scripture and teacher, there is confusion, a wandering, a lapse. And from that lapse of memory, ‘ruin of the understanding’: of the understanding, the mental modification of the form of unity (with the Self), there is ruin — by the fault of the accumulation of contrary conviction it is obstructed, so it does not arise, or, having arisen, it dissolves by being unfit for its fruit. From the ruin of the understanding ‘he perishes’: by the loss of that fruitful understanding he perishes, becomes unfit for every human goal. For he who has become unfit for the human goal is, in the world, spoken of as ‘dead’; hence ‘he perishes’ is said. Since thus, when restraint of the mind is absent, there is, even for one whose outer senses are restrained, the attainment of supreme calamity — therefore one should restrain the mind with great effort — this is the import. Hence it was rightly said, ‘restraining all of them, let him sit absorbed.’",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -37349,7 +37349,7 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "{1:Even} {0:of one whose outer senses are restrained}, but {4:who meditates on} — {6:again} {7:and again} {8:ponders} {5:in the mind} — {2:the objects sound and the rest}, {3:objects}, {10:toward those} {11:objects} {12:‘attachment’}, {13:clinging}, of the form {17:‘these} {16:are an exceeding cause of pleasure} {15:exceedingly} {14:for me’}, {18:—} {19:thus} {21:a particular fondness} {20:marked by the superimposition of attractiveness}, {22:arises}. {23:From attachment}, {24:marked by the cognition that they are a cause of pleasure}, {25:is born} {26:‘desire’}, {31:a particular thirst}, {27:‘mine} {28:let these} {29:be’} {30:—}. {32:From that} {33:desire}, {35:when thwarted} {34:somewhere}, {37:anger}, {38:of the nature of flaring up}, {36:directed at that which thwarts it}, {39:arises}. {40:From anger} {41:comes} {42:delusion}, {43:of the form of the absence of discrimination of what should and should not be done}. {44:From delusion}, {45:‘confusion of memory’}: {46:of the memory}, {47:the bringing-to-mind of the meaning taught by scripture and teacher}, there is {48:confusion}, {49:a wandering}, {50:a lapse}. {51:And from that} {52:—} {53:lapse of memory}, ‘ruin of the understanding’: {54:of the understanding}, {55:the mental modification of the form of unity (with the Self)}, there is {56:ruin} — {57:by the fault of the accumulation of contrary conviction} {58:it is obstructed}, so {59:it does not arise}, {61:or}, {60:having arisen}, {63:it dissolves} {62:by being unfit for its fruit}. {64:From the ruin of the understanding} {65:‘he perishes’}: {70:by the loss} {66:of that} {67:and} {68:fruitful} {69:understanding} {71:he perishes}, {73:becomes} {72:unfit for every human goal}. {75:For} {74:he who} {77:has become} {76:unfit for the human goal} {78:is}, {82:in the world}, {83:spoken of} as {79:‘dead’} {80:verily} {81:—}; {84:hence} {85:‘he perishes’} {87:is said} {86:—}. {88:Since} {89:thus}, {91:when restraint} {90:of the mind} is absent, there is, {93:even} {92:for one whose outer senses are restrained}, {94:the attainment of supreme calamity} — {95:therefore} one should {99:restrain} {98:the mind} {96:with great} {97:effort} {100:—} {101:this is the import}. {102:Hence} {103:it was rightly} {104:said}, {107:‘restraining} {105:all} {106:of them}, {109:let him sit} {108:absorbed} {110:.’}",
+      "english": "{1:Even} {0:of one whose outer senses are restrained}, but {4:who meditates on} — {6:again} {7:and again} {8:ponders} {5:in the mind} — {2:the objects sound and the rest}, {3:objects}, {10:toward those} {11:objects} {12:‘attachment’}, {13:clinging}, of the form {17:‘these} {16:are an exceeding cause of pleasure} {15:exceedingly} {14:for me’}, {18:—} {19:thus} {21:a particular fondness} {20:marked by the superimposition of attractiveness}, {22:arises}. {23:From saṅga (clinging attachment to objects)}, {24:marked by the cognition that they are a cause of pleasure}, {25:is born} {26:‘kāma (desire as craving for objects)’}, {31:a particular thirst}, {27:‘mine} {28:let these} {29:be’} {30:—}. {32:From that} {33:desire}, {35:when thwarted} {34:somewhere}, {37:krodha (the blaze of anger)}, {38:of the nature of flaring up}, {36:directed at that which thwarts it}, {39:arises}. {40:From krodha} {41:comes} {42:delusion}, {43:of the form of the absence of discrimination of what should and should not be done}. {44:From moha (the delusion that clouds discernment)}, {45:‘confusion of memory’}: {46:of the memory}, {47:the bringing-to-mind of the meaning taught by scripture and teacher}, there is {48:confusion}, {49:a wandering}, {50:a lapse}. {51:And from that} {52:—} {53:lapse of memory}, ‘ruin of the understanding’: {54:of the understanding}, {55:the mental modification of the form of unity (with the Self)}, there is {56:ruin} — {57:by the fault of the accumulation of contrary conviction} {58:it is obstructed}, so {59:it does not arise}, {61:or}, {60:having arisen}, {63:it dissolves} {62:by being unfit for its fruit}. {64:From the ruin of the understanding} {65:‘he perishes’}: {70:by the loss} {66:of that} {67:and} {68:fruitful} {69:understanding} {71:he perishes}, {73:becomes} {72:unfit for every human goal}. {75:For} {74:he who} {77:has become} {76:unfit for the human goal} {78:is}, {82:in the world}, {83:spoken of} as {79:‘dead’} {80:verily} {81:—}; {84:hence} {85:‘he perishes’} {87:is said} {86:—}. {88:Since} {89:thus}, {91:when restraint} {90:of the mind} is absent, there is, {93:even} {92:for one whose outer senses are restrained}, {94:the attainment of supreme calamity} — {95:therefore} one should {99:restrain} {98:the mind} {96:with great} {97:effort} {100:—} {101:this is the import}. {102:Hence} {103:it was rightly} {104:said}, {107:‘restraining} {105:all} {106:of them}, {109:let him sit} {108:absorbed} {110:.’}",
       "segments": [
         {
           "from": 0,
@@ -37370,7 +37370,7 @@ window.GITA_COMMENTARY = {
       "work": "Subodhinī",
       "locus": "2.62-63",
       "sanskrit": "bāhyendriya-saṃyamābhāve doṣam uktvā manaḥ-saṃyamābhāve doṣam āha dhyāyata iti dvābhyām | guṇa-buddhyā viṣayān dhyāyataḥ puṃsaḥ teṣu saṅga āsaktir bhavati | āsaktyā ca teṣu adhikaḥ kāmo bhavati | kāmāc ca kenacit pratihatāt krodho bhavati | kiṃ ca, krodhād iti | krodhāt saṃmohaḥ kāryākārya-vivekābhāvaḥ | tataḥ śāstrācāryopadiṣṭa-smṛter vibhramo vicalanaṃ bhraṃśaḥ | tato buddheś cetanāyā nāśaḥ | vṛkṣādiṣv ivābhibhavaḥ | tataḥ praṇaśyati mṛta-tulyo bhavati ||62-63||",
-      "ourRendering": "Having stated the fault in the absence of restraint of the outer senses, He states the fault in the absence of restraint of the mind by ‘dhyāyataḥ’ in two verses. Of a man meditating on objects with the notion of their being good, toward those there is ‘attachment’, clinging. And by that clinging there comes greater desire toward them. And from desire, when thwarted by someone, comes anger. Moreover, ‘krodhāt’: from anger comes delusion, the absence of discrimination of what should and should not be done. Thence there is confusion, a wandering, a lapse of the memory taught by scripture and teacher. Thence the ruin of the understanding, of consciousness — an eclipse, as in trees and the like. Thence ‘he perishes’, becomes equal to the dead.",
+      "ourRendering": "Having stated the fault in the absence of restraint of the outer senses, He states the fault in the absence of restraint of the mind by ‘dhyāyataḥ’ in two verses. Of a man meditating on objects with the notion of their being good, toward those there is ‘saṅga (clinging attachment to objects)’, clinging. And by that clinging there comes greater kāma toward them. And from kāma (desire as craving for objects), when thwarted by someone, comes krodha (the blaze of anger). Moreover, ‘krodhāt’: from krodha comes moha (the delusion that clouds discernment), the absence of discrimination of what should and should not be done. Thence there is confusion, a wandering, a lapse of the memory taught by scripture and teacher. Thence the ruin of the understanding, of consciousness — an eclipse, as in trees and the like. Thence ‘he perishes’, becomes equal to the dead.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -38155,7 +38155,7 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{2:Having stated} {1:the fault} {0:in the absence of restraint of the outer senses}, {5:He states} {4:the fault} {3:in the absence of restraint of the mind} {7:with} {6:‘dhyāyataḥ’} {8:in two verses}. {11:Of a man meditating on} {10:objects} {9:with the notion of their being good}, {13:toward those} {14:‘attachment’}, {15:clinging}, {16:there is}{12:,} {18:and} {17:by that clinging} {20:greater} {21:desire} {19:toward them} {22:comes to be}. {24:And} {23:from desire}, {26:when thwarted} {25:by someone}, {27:anger} {28:comes}. {30:Moreover}, {32:} {31:‘krodhāt’}: {33:from anger} {34:delusion}, {35:the absence of discrimination of what should and should not be done}. {36:Thence} there is {38:confusion}, {39:a wandering}, {40:a lapse} {37:of the memory taught by scripture and teacher}. {41:Thence} {44:the ruin} {42:of the understanding}, {43:of consciousness} — {47:an eclipse}, {46:as} {45:in trees and the like}. {48:Thence} {49:‘he perishes’}, {51:becomes} {50:equal to the dead}.",
+      "english": "{2:Having stated} {1:the fault} {0:in the absence of restraint of the outer senses}, {5:He states} {4:the fault} {3:in the absence of restraint of the mind} {7:with} {6:‘dhyāyataḥ’} {8:in two verses}. {11:Of a man meditating on} {10:objects} {9:with the notion of their being good}, {13:toward those} {14:‘attachment’}, {15:clinging}, {16:there is}{12:,} {18:and} {17:by that clinging} {20:greater} {21:desire} {19:toward them} {22:comes to be}. {24:And} {23:from kāma (desire as craving for objects)}, {26:when thwarted} {25:by someone}, {27:krodha (the blaze of anger)} {28:comes}. {30:Moreover}, {32:} {31:‘krodhāt’}: {33:from krodha} {34:delusion}, {35:the absence of discrimination of what should and should not be done}. {36:Thence} there is {38:confusion}, {39:a wandering}, {40:a lapse} {37:of the memory taught by scripture and teacher}. {41:Thence} {44:the ruin} {42:of the understanding}, {43:of consciousness} — {47:an eclipse}, {46:as} {45:in trees and the like}. {48:Thence} {49:‘he perishes’}, {51:becomes} {50:equal to the dead}.",
       "segments": [
         {
           "from": 0,
@@ -38191,7 +38191,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.62-63",
       "sanskrit": "rāgādidoṣakāraṇamāha parihārāya ślokadvayena| sammohaḥ akāryecchā| tathāhi mohaśabdārtha ukta upagītāsu – ‘mohasajñitam| adharmalakṣaṇaṃ caiva niyataṃ pāpakarmasu’ iti| tathā yānyatra ‘sammoho'dharmakāmitā’ iti| smṛtivibhramaḥ – pratiṣedhādismṛtināśaḥ| buddhināśaḥ – sarvātmanā doṣabuddhināśaḥ| vinaśyati narakādyanarthaṃ prāpnoti| tathāhyuktam – adharmakāminaḥ śāstre vismṛtirjāyate yadā| doṣādṛṣṭestatkṛteśca narakaṃ pratipadyate ’ iti",
-      "ourRendering": "He states the cause of the faults beginning with passion, in order to ward them off, by the pair of verses. ‘Delusion’ (sammoha) is the desire for what ought not to be done; for thus the meaning of the word ‘moha’ is given in the Upagītā: ‘called moha, marked by unrighteousness, ever present in sinful deeds.’ And elsewhere, ‘delusion is the desiring of unrighteousness.’ ‘Confusion of memory’ is the loss of the memory of prohibitions and the like. ‘Ruin of the understanding’ is the complete ruin of the discernment of faults. ‘He perishes’ — he attains the calamity of hell and the like. As stated: ‘When forgetfulness of scripture arises in one who desires unrighteousness, then, by not seeing the fault and by the deed done from it, he goes to hell.’",
+      "ourRendering": "He states the cause of the faults beginning with rāga (the pull of attraction and attachment), in order to ward them off, by the pair of verses. ‘moha (the delusion that clouds discernment)’ is the desire for what ought not to be done; for thus the meaning of the word ‘moha’ is given in the Upagītā: ‘called moha, marked by unrighteousness, ever present in sinful deeds.’ And elsewhere, ‘moha is the desiring of unrighteousness.’ ‘Confusion of memory’ is the loss of the memory of prohibitions and the like. ‘Ruin of the understanding’ is the complete ruin of the discernment of faults. ‘He perishes’ — he attains the calamity of hell and the like. As stated: ‘When forgetfulness of scripture arises in one who desires unrighteousness, then, by not seeing the fault and by the deed done from it, he goes to hell.’",
       "source": "data/sources/sanskrit/vedanta/madhva_gita_bhasya.txt (srimadhvyasa.wordpress.com, Unicode ed. of Madhva's Gītā-bhāṣya)",
       "words": [
         {
@@ -38934,7 +38934,7 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "He {1:states} {0:the cause of the faults beginning with passion}, {2:in order to ward them off}, {3:by the pair of verses}. {4:‘Delusion’ (sammoha)} is {5:the desire for what ought not to be done}; {7:for} {6:thus} {8:the meaning of the word ‘moha’} {9:is given} {10:in the Upagītā}: {11:‘called moha}, {12:marked by unrighteousness} {14:indeed}, {15:ever present} {16:in sinful deeds’}. {18:And likewise} {19:that which} is said {20:elsewhere}, {21:‘delusion} is {22:the desiring of unrighteousness’}. {24:‘Confusion of memory’} is {25:the loss of the memory of prohibitions and the like}. {26:‘Ruin of the understanding’} is {27:the complete} {28:ruin of the discernment of faults}. {29:‘He perishes’} — he {31:attains} {30:the calamity of hell and the like}. {34:As stated}: {39:‘when} {37:forgetfulness} {36:of scripture} {38:arises} {35:in one who desires unrighteousness}, then {42:by} {40:not seeing the fault} {41:and by the deed done from it}, he {44:goes to} {43:hell’}.",
+      "english": "He {1:states} {0:the cause of the faults beginning with rāga (the pull of attraction and attachment)}, {2:in order to ward them off}, {3:by the pair of verses}. {4:‘moha (the delusion that clouds discernment)’} is {5:the desire for what ought not to be done}; {7:for} {6:thus} {8:the meaning of the word ‘moha’} {9:is given} {10:in the Upagītā}: {11:‘called moha}, {12:marked by unrighteousness} {14:indeed}, {15:ever present} {16:in sinful deeds’}. {18:And likewise} {19:that which} is said {20:elsewhere}, {21:‘moha} is {22:the desiring of unrighteousness’}. {24:‘Confusion of memory’} is {25:the loss of the memory of prohibitions and the like}. {26:‘Ruin of the understanding’} is {27:the complete} {28:ruin of the discernment of faults}. {29:‘He perishes’} — he {31:attains} {30:the calamity of hell and the like}. {34:As stated}: {39:‘when} {37:forgetfulness} {36:of scripture} {38:arises} {35:in one who desires unrighteousness}, then {42:by} {40:not seeing the fault} {41:and by the deed done from it}, he {44:goes to} {43:hell’}.",
       "segments": [
         {
           "from": 0,
@@ -38987,7 +38987,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.64",
       "sanskrit": "rāga-dveṣa-viyuktai rāgaś ca dveṣaś ca rāga-dveṣau, tat-puraḥsarā hi indriyāṇāṃ pravṛttiḥ svābhāvikī, tatra yo mumukṣuḥ bhavati saḥ tābhyāṃ viyuktaiḥ śrotrādibhir indriyair viṣayān avarjanīyān caran upalabhamānaḥ ātma-vaśyair ātmano vaśyāni vaśībhūtāni indriyāṇi tair ātma-vaśyair vidheyātmā icchātaḥ vidheya ātmā antaḥ-karaṇaṃ yasya so 'yaṃ prasādam adhigacchati | prasādaḥ prasannatā svāsthyam",
-      "ourRendering": "‘With passion and aversion gone’ — passion and aversion, the ‘passion-and-aversion’ pair; the engagement of the senses is naturally preceded by them. There, the seeker of release, by senses — hearing and the rest — freed of those two, ranging over the unavoidable objects, apprehending them, by senses that are under the Self’s control, that have become subject to him, he whose inner organ is governable at will, attains serenity. ‘Serenity’ (prasāda) is clearness, well-being, of the self.",
+      "ourRendering": "‘With rāga and dveṣa gone’ — rāga and dveṣa, the rāga-dveṣa pair; the engagement of the senses is naturally preceded by them. There, the seeker of release, by senses — hearing and the rest — freed of those two, ranging over the unavoidable objects, apprehending them, by senses that are under the Self’s control, that have become subject to him, he whose inner organ is governable at will, attains serenity. ‘Serenity’ (prasāda) is clearness, well-being, of the self.",
       "source": "data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt (GRETIL: gretil/1_sanskr/6_sastra/3_phil/vedanta/bhgsbh_u.htm)",
       "words": [
         {
@@ -39655,7 +39655,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:‘With passion and aversion gone’} — {1:passion} {2:and} {3:aversion}, {5:the ‘passion-and-aversion’ pair}; {9:the engagement} {8:of the senses} is {10:naturally} {6:preceded by them} {7:indeed}. {11:There}, {12:the} {13:seeker of release} {14:is}, {15:he}, by {19:senses} — {18:hearing and the rest} — {17:freed} {16:of those two}, {22:ranging over} {21:the unavoidable} {20:objects}, {23:apprehending them}, by {30:senses that are under the Self’s control} {24:by those under the Self’s control}, {26:that have become subject} {27:to him} — {25:of the Self} {28:the senses} {29:by those} — {31:he whose inner organ is governable} {32:at will}: {33:governable} {34:is the self}, {35:the inner organ}, {36:of whom} — {37:he} {38:this one} {40:attains} {39:serenity}. {41:‘Serenity’} is {42:clearness}, {43:well-being}, of the self.",
+      "english": "{0:‘With rāga (the pull of attraction and attachment) and dveṣa (the recoil of aversion) gone’} — {1:rāga} {2:and} {3:dveṣa}, {5:the rāga-dveṣa pair}; {9:the engagement} {8:of the senses} is {10:naturally} {6:preceded by them} {7:indeed}. {11:There}, {12:the} {13:seeker of release} {14:is}, {15:he}, by {19:senses} — {18:hearing and the rest} — {17:freed} {16:of those two}, {22:ranging over} {21:the unavoidable} {20:objects}, {23:apprehending them}, by {30:senses that are under the Self’s control} {24:by those under the Self’s control}, {26:that have become subject} {27:to him} — {25:of the Self} {28:the senses} {29:by those} — {31:he whose inner organ is governable} {32:at will}: {33:governable} {34:is the self}, {35:the inner organ}, {36:of whom} — {37:he} {38:this one} {40:attains} {39:serenity}. {41:‘Serenity’} is {42:clearness}, {43:well-being}, of the self.",
       "segments": [
         {
           "from": 0,
@@ -39686,7 +39686,7 @@ window.GITA_COMMENTARY = {
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.64",
       "sanskrit": "manasi nigṛhīte tu bāhyendriya-nigrahābhāve 'pi na doṣa iti vadan kiṃ vrajetety asyottaram āhāṣṭabhiḥ | yo 'samāhita-cetāḥ sa bāhyendriyāṇi nigṛhyāpi rāga-dveṣa-duṣṭena manasā viṣayāṃś cintayan puruṣārthād bhraṣṭo bhavati | vidheyātmā tu tu-śabdhaḥ pūrvasmād vyatirekārthaḥ | vaśīkṛtāntaḥ-karaṇas tu ātma-vaśyair mano 'dhīnaiḥ svādhīnair iti vā rāga-dveṣābhyāṃ viyuktair virahitair indriyaiḥ śrotrādibhir viṣayān śabdādīn aniṣiddhāṃś carann upalabhamānaḥ prasādaṃ prasannātāṃ cittasya svacchatāṃ paramātma-sākṣātkāra-yogyatām adhigacchati | rāga-dveṣa-prayuktānīndriyāṇi doṣa-hetutāṃ pratipadyante | manasi sva-vaśe tu na rāga-dveṣau | tayor abhāve ca na tad-adhīnendriya-pravṛttiḥ | avarjanīyatayā tu viṣayopalambho na doṣam āvahatīti na śuddhi-vyāghāta iti bhāvaḥ | etena viṣayāṇāṃ smaraṇam api ced anartha-kāraṇaṃ sutarāṃ tarhi bhogas tena jīvanārthaṃ viṣayān bhuñjānaḥ katham anarthaṃ na pratipadyeteti śaṅkā nirastā | svādhīnair indriyair viṣayān prāpnotīti ca kiṃ vrajeteti praśnasyottaram uktaṃ bhavati ||64||",
-      "ourRendering": "Saying that, when the mind is restrained, there is no fault even in the absence of restraint of the outer senses, He gives the answer to ‘how does he move’ in eight verses. He whose mind is uncomposed, even restraining the outer senses, while pondering objects with a mind tainted by passion and aversion, falls from the human goal. But the governable-self one — the word ‘tu’ (but) marks the difference from the former: but he whose inner organ is mastered, by senses that are under the Self (subject to the mind, i.e. self-controlled), or that are freed of passion and aversion, ranging over the non-prohibited objects, sound and the rest, apprehending them, attains serenity, the clearness of the mind, its limpidity, its fitness for the direct realization of the Supreme Self. Senses prompted by passion and aversion become a cause of fault; but when the mind is in his control there is no passion and aversion; and in their absence there is no engagement of the senses dependent on them; and the apprehension of objects, being unavoidable, brings no fault — so there is no obstruction to purity, that is the sense. By this the doubt is dispelled: ‘If even the mere remembering of objects be a cause of calamity, then all the more enjoyment; how, then, enjoying objects for the sake of living, does he not incur calamity?’ And by ‘he reaches objects with senses under his own control’, the answer to ‘how does he move’ comes to be stated.",
+      "ourRendering": "Saying that, when the mind is restrained, there is no fault even in the absence of restraint of the outer senses, He gives the answer to ‘how does he move’ in eight verses. He whose mind is uncomposed, even restraining the outer senses, while pondering objects with a mind tainted by rāga (the pull of attraction and attachment) and dveṣa (the recoil of aversion), falls from the human goal. But the governable-self one — the word ‘tu’ (but) marks the difference from the former: but he whose inner organ is mastered, by senses that are under the Self (subject to the mind, i.e. self-controlled), or that are freed of rāga and dveṣa, ranging over the non-prohibited objects, sound and the rest, apprehending them, attains serenity, the clearness of the mind, its limpidity, its fitness for the direct realization of the Supreme Self. Senses prompted by rāga and dveṣa become a cause of fault; but when the mind is in his control there is no rāga and dveṣa; and in their absence there is no engagement of the senses dependent on them; and the apprehension of objects, being unavoidable, brings no fault — so there is no obstruction to purity, that is the sense. By this the doubt is dispelled: ‘If even the mere remembering of objects be a cause of calamity, then all the more enjoyment; how, then, enjoying objects for the sake of living, does he not incur calamity?’ And by ‘he reaches objects with senses under his own control’, the answer to ‘how does he move’ comes to be stated.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -41437,7 +41437,7 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{8:Saying} that, when {0:the mind} {1:is restrained}, {2:but} there is {5:no} {6:fault} {4:even} {3:in the absence of restraint of the outer senses} — {7:that}, {14:He gives} {13:the answer} {12:to} ‘{9:how} {10:does he move}’ {15:in eight verses}. {16:He who}, {17:whose mind is uncomposed}, {18:he}, {20:even restraining} {21:—} {19:the outer senses}, {25:while pondering} {24:objects} {23:with a mind} {22:tainted by passion and aversion}, {27:falls} {28:becomes} {26:from the human goal}. {29:But the governable-self one} — {31:the word ‘tu’ (but)} {33:marks the difference} {32:from the former}: but {34:he whose inner organ is mastered}, {44:by senses} {36:that are under the Self} ({37:subject to the mind}, i.e. {38:self-controlled}), {39:—} {40:or} {43:that are freed} {42:separated} {41:of passion and aversion}, {49:ranging over} {48:the non-prohibited} {46:objects}, {45:hearing and the rest}, {47:sound and the rest}, {50:apprehending} them, {56:attains} {51:serenity}, {52:the clearness} {54:the limpidity} {53:of the mind}, {55:its fitness for the direct realization of the Supreme Self}. {57:Senses prompted by passion and aversion} {58:—} {60:become} {59:a cause of fault}; but {61:when the mind} {62:is in his control} {63:—} {64:there is no} {65:passion and aversion}; {68:and} {67:in the absence} {66:of those two} {69:there is no} {70:engagement of the senses dependent on them}; and {73:the apprehension of objects}, {71:being unavoidable}, {76:brings} {74:no} {75:fault} — {78:so there is no} {79:obstruction to purity}, {80:that} {81:is the sense}. {82:By this} {100:the doubt} {101:is dispelled}: ‘{86:If} {85:even} {84:the mere remembering} {83:of objects} {86:be} {87:a cause of calamity}, {89:then} {88:all the more} {90:enjoyment}; {95:how}, then, {94:enjoying} {93:objects} {92:for the sake of living}, {97:does he} {98:not incur} {96:calamity}?’ {107:And} {110:by} ‘{105:he reaches} {104:objects} {103:with senses} {102:under his own control}’, {112:the answer} {108:to} ‘{108:how} {109:does he move}’ {114:comes} {113:to be stated}.",
+      "english": "{8:Saying} that, when {0:the mind} {1:is restrained}, {2:but} there is {5:no} {6:fault} {4:even} {3:in the absence of restraint of the outer senses} — {7:that}, {14:He gives} {13:the answer} {12:to} ‘{9:how} {10:does he move}’ {15:in eight verses}. {16:He who}, {17:whose mind is uncomposed}, {18:he}, {20:even restraining} {21:—} {19:the outer senses}, {25:while pondering} {24:objects} {23:with a mind} {22:tainted by rāga (the pull of attraction and attachment) and dveṣa (the recoil of aversion)}, {27:falls} {28:becomes} {26:from the human goal}. {29:But the governable-self one} — {31:the word ‘tu’ (but)} {33:marks the difference} {32:from the former}: but {34:he whose inner organ is mastered}, {44:by senses} {36:that are under the Self} ({37:subject to the mind}, i.e. {38:self-controlled}), {39:—} {40:or} {43:that are freed} {42:separated} {41:of rāga and dveṣa}, {49:ranging over} {48:the non-prohibited} {46:objects}, {45:hearing and the rest}, {47:sound and the rest}, {50:apprehending} them, {56:attains} {51:serenity}, {52:the clearness} {54:the limpidity} {53:of the mind}, {55:its fitness for the direct realization of the Supreme Self}. {57:Senses prompted by rāga and dveṣa} {58:—} {60:become} {59:a cause of fault}; but {61:when the mind} {62:is in his control} {63:—} {64:there is no} {65:rāga and dveṣa}; {68:and} {67:in the absence} {66:of those two} {69:there is no} {70:engagement of the senses dependent on them}; and {73:the apprehension of objects}, {71:being unavoidable}, {76:brings} {74:no} {75:fault} — {78:so there is no} {79:obstruction to purity}, {80:that} {81:is the sense}. {82:By this} {100:the doubt} {101:is dispelled}: ‘{86:If} {85:even} {84:the mere remembering} {83:of objects} {86:be} {87:a cause of calamity}, {89:then} {88:all the more} {90:enjoyment}; {95:how}, then, {94:enjoying} {93:objects} {92:for the sake of living}, {97:does he} {98:not incur} {96:calamity}?’ {107:And} {110:by} ‘{105:he reaches} {104:objects} {103:with senses} {102:under his own control}’, {112:the answer} {108:to} ‘{108:how} {109:does he move}’ {114:comes} {113:to be stated}.",
       "segments": [
         {
           "from": 0,
@@ -41463,7 +41463,7 @@ window.GITA_COMMENTARY = {
       "work": "Subodhinī",
       "locus": "2.64",
       "sanskrit": "nanv indriyāṇāṃ viṣaya-pravaṇa-svabhāvānāṃ niroddhum aśakyatvād ayaṃ doṣo duṣparihara iti sthita-prajñatvaṃ kathaṃ syāt ? ity āśaṅkyāha rāga-dveṣa iti dvābhyām | rāga-dveṣa-rahitaiḥ vigata-darpair indriyaiḥ viṣayāṃś carann upabhuñjāno 'pi prasādaṃ śāntiṃ prāpnoti | rāga-dveṣa-rāhityam evāha ātmeti | ātmano manasaḥ vaśyair indriyaiḥ vidheyo vaśavartī ātmā mano yasyeti | anenaiva kathaṃ vrajetety asya caturtha-praśnasya svādhīnair indriyair viṣayān gacchatīty uttaram uktaṃ bhavati ||64||",
-      "ourRendering": "But surely, since the senses, whose nature is to incline toward objects, cannot be checked, this fault is hard to avert — how then can there be sthita-prajña-hood? Anticipating this, He says ‘rāga-dveṣa’ in two verses. By senses free of passion and aversion, devoid of arrogance, ranging over objects, enjoying them, he nonetheless attains serenity, peace. The freedom from passion and aversion He states by ‘ātma’: by senses under the control of the self, the mind, he whose self, the mind, is governable, subject to him. By this very thing the answer to the fourth question, ‘how does he move’, comes to be stated: ‘he reaches objects with senses under his own control.’",
+      "ourRendering": "But surely, since the senses, whose nature is to incline toward objects, cannot be checked, this fault is hard to avert — how then can there be sthita-prajña-hood? Anticipating this, He says ‘rāga-dveṣa’ in two verses. By senses free of rāga (the pull of attraction and attachment) and dveṣa (the recoil of aversion), devoid of arrogance, ranging over objects, enjoying them, he nonetheless attains serenity, peace. The freedom from rāga and dveṣa He states by ‘ātma’: by senses under the control of the self, the mind, he whose self, the mind, is governable, subject to him. By this very thing the answer to the fourth question, ‘how does he move’, comes to be stated: ‘he reaches objects with senses under his own control.’",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -42325,7 +42325,7 @@ window.GITA_COMMENTARY = {
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:But surely}, {4:since} {3:to check} {1:the senses}, {2:whose nature is to incline toward objects}, {4:is impossible}, {5:this} {6:fault} is {7:hard to avert} — {8:so} {10:how} {11:can there be} {9:the state of settled wisdom}? {12:Thus} {13:anticipating}, {14:He says}, {16:} {15:‘rāga-dveṣa’} {17:in two verses}. {20:By senses} {18:free of passion and aversion}, {19:devoid of arrogance}, {22:ranging} {21:over objects}, {23:enjoying} them, {24:he nonetheless} {27:attains} {25:serenity}, {26:peace}. {28:The freedom from passion and aversion} {30:He states} {29:very} {32:} {31:‘ātma’}: {36:by senses} {35:under the control} {33:of the self}, {34:the mind}, {37:governable}, {38:subject to him}; {41:he whose} {39:self}, {40:the mind} {42:—}. {44:By} {43:this} {44:very thing} the answer to {48:this}, {47:—} {49:the fourth question}, {45:‘how} {46:does he move’} {54:—} {56:comes to be} {55:stated}: {53:he reaches} {52:objects} {51:with senses} {50:under his own control}{57:.}",
+      "english": "{0:But surely}, {4:since} {3:to check} {1:the senses}, {2:whose nature is to incline toward objects}, {4:is impossible}, {5:this} {6:fault} is {7:hard to avert} — {8:so} {10:how} {11:can there be} {9:the state of settled wisdom}? {12:Thus} {13:anticipating}, {14:He says}, {16:} {15:‘rāga-dveṣa’} {17:in two verses}. {20:By senses} {18:free of rāga (the pull of attraction and attachment) and dveṣa (the recoil of aversion)}, {19:devoid of arrogance}, {22:ranging} {21:over objects}, {23:enjoying} them, {24:he nonetheless} {27:attains} {25:serenity}, {26:peace}. {28:The freedom from rāga and dveṣa} {30:He states} {29:very} {32:} {31:‘ātma’}: {36:by senses} {35:under the control} {33:of the self}, {34:the mind}, {37:governable}, {38:subject to him}; {41:he whose} {39:self}, {40:the mind} {42:—}. {44:By} {43:this} {44:very thing} the answer to {48:this}, {47:—} {49:the fourth question}, {45:‘how} {46:does he move’} {54:—} {56:comes to be} {55:stated}: {53:he reaches} {52:objects} {51:with senses} {50:under his own control}{57:.}",
       "segments": [
         {
           "from": 0,
@@ -42643,7 +42643,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.65",
       "sanskrit": "prasāde sarva-duḥkhānām ādhyātmikādīnāṃ hānir vināśo 'sya yater upajāyate | kiṃ ca - prasanna-cetasaḥ svasthāntaḥ-karaṇasya hi yasmāt āśu śīghraṃ buddhiḥ paryavatiṣṭhate ākāśam iva pari samantāt avatiṣṭhate, ātma-svarūpeṇaiva niścalībhavatīty arthaḥ | evaṃ prasanna-cetaso 'vasthita-buddhiḥ kṛta-kṛtyatā yataḥ, tasmāt rāga-dveṣa-viyuktair indriyaiḥ śāstrā-viruddheṣu avarjanīyeṣu yuktaḥ samācaret iti vākyārthaḥ",
-      "ourRendering": "On serenity, there arises for that ascetic the destruction, the cessation, of all his sorrows — the personal and the rest. Moreover: for one of serene mind, of well-settled inner organ — since the understanding ‘paryavatiṣṭhate’, quickly comes to abide all around, like space all around, abides everywhere, becomes unmoving in the very nature of the Self, that is the meaning. Thus, since for one of serene mind, with settled understanding, there is the state of having-done-what-was-to-be-done — therefore by senses freed of passion and aversion let him act, composed, amid the unavoidable that is not contrary to scripture — this is the sense of the sentence.",
+      "ourRendering": "On serenity, there arises for that ascetic the destruction, the cessation, of all his sorrows — the personal and the rest. Moreover: for one of serene mind, of well-settled inner organ — since the understanding ‘paryavatiṣṭhate’, quickly comes to abide all around, like space all around, abides everywhere, becomes unmoving in the very nature of the Self, that is the meaning. Thus, since for one of serene mind, with settled understanding, there is the state of having-done-what-was-to-be-done — therefore by senses freed of rāga (the pull of attraction and attachment) and dveṣa (the recoil of aversion) let him act, composed, amid the unavoidable that is not contrary to scripture — this is the sense of the sentence.",
       "source": "data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt (GRETIL: gretil/1_sanskr/6_sastra/3_phil/vedanta/bhgsbh_u.htm)",
       "words": [
         {
@@ -43350,7 +43350,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "{0:On serenity}, there {7:arises} {5:for that} {6:ascetic} {3:the destruction}, {4:the cessation}, {1:of all sorrows} — {2:the personal and the rest}. {8,9:Moreover}: {10:for one of serene mind}, {11:of well-settled inner organ} — {12:since} {13:since} {16:the understanding} {17:“comes to abide firmly”}, {14:quickly} {15:quickly} comes to abide all around, {18:like space} {19:like} {20:all around}, {21:on all sides}, {22:abides} everywhere, {25:becomes unmoving} {23:in the very nature of the Self} {24:itself}, {26,27:that is the meaning}. {28:Thus}, {32:since} for {29:one of serene mind}, {30:with settled understanding}, there is {31:the state of having-done-what-was-to-be-done} — {33:therefore} by {35:senses} {34:freed of passion and aversion} {38:composed} {39:let him act}, amid {37:the unavoidable} {36:that is not contrary to scripture} — {40,41:this is the sense of the sentence}.",
+      "english": "{0:On serenity}, there {7:arises} {5:for that} {6:ascetic} {3:the destruction}, {4:the cessation}, {1:of all sorrows} — {2:the personal and the rest}. {8,9:Moreover}: {10:for one of serene mind}, {11:of well-settled inner organ} — {12:since} {13:since} {16:the understanding} {17:“comes to abide firmly”}, {14:quickly} {15:quickly} comes to abide all around, {18:like space} {19:like} {20:all around}, {21:on all sides}, {22:abides} everywhere, {25:becomes unmoving} {23:in the very nature of the Self} {24:itself}, {26,27:that is the meaning}. {28:Thus}, {32:since} for {29:one of serene mind}, {30:with settled understanding}, there is {31:the state of having-done-what-was-to-be-done} — {33:therefore} by {35:senses} {34:freed of rāga (the pull of attraction and attachment) and dveṣa (the recoil of aversion)} {38:composed} {39:let him act}, amid {37:the unavoidable} {36:that is not contrary to scripture} — {40,41:this is the sense of the sentence}.",
       "segments": [
         {
           "from": 0,
@@ -53203,6 +53203,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhū",
               "gloss": "to be, become"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -53451,6 +53455,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√jāgṛ",
               "gloss": "to be awake, watch"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -53660,6 +53668,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√jāgṛ",
               "gloss": "to be awake"
+            },
+            {
+              "form": "-ati",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -53684,6 +53696,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√vac",
               "gloss": "to speak, say"
+            },
+            {
+              "form": "-ante",
+              "gloss": "(3rd pl. passive present)"
             }
           ],
           "morph": "present passive, 3rd plural"
@@ -53921,6 +53937,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√cud",
               "gloss": "to impel, enjoin"
+            },
+            {
+              "form": "-ante",
+              "gloss": "(3rd pl. passive present)"
             }
           ],
           "morph": "present passive, 3rd plural"
@@ -54100,6 +54120,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√gam",
               "gloss": "to go"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -54282,6 +54306,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√pad",
               "gloss": "to go, attain"
+            },
+            {
+              "form": "-te",
+              "gloss": "(3rd sg. middle present)"
             }
           ],
           "morph": "present middle, 3rd singular"
@@ -54513,6 +54541,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√vṛt",
               "gloss": "to turn, proceed"
+            },
+            {
+              "form": "-te",
+              "gloss": "(3rd sg. middle present)"
             }
           ],
           "morph": "present middle, 3rd singular"
@@ -55320,6 +55352,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhū",
               "gloss": "to be, become"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -55470,6 +55506,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "-ī-bhū",
               "gloss": "to become"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular",
@@ -56005,6 +56045,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√ah",
               "gloss": "to say"
+            },
+            {
+              "form": "-a",
+              "gloss": "(perfect 3rd sg.)"
             }
           ],
           "morph": "perfect 3rd singular (present sense)"
@@ -56119,6 +56163,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√as",
               "gloss": "to be"
+            },
+            {
+              "form": "-mi",
+              "gloss": "(1st sg. present)"
             }
           ],
           "morph": "present indicative, 1st singular"
@@ -56335,6 +56383,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√jāgṛ",
               "gloss": "to be awake/watch"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -56420,6 +56472,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√vṛt",
               "gloss": "to turn/be"
+            },
+            {
+              "form": "-te",
+              "gloss": "(3rd sg. middle present)"
             }
           ],
           "morph": "present indicative, 3rd singular (middle)"
@@ -56617,6 +56673,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√jāgṛ",
               "gloss": "to be awake"
+            },
+            {
+              "form": "-ati",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -56653,6 +56713,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√hṛ",
               "gloss": "to carry/deal"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -56705,6 +56769,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√kāś",
               "gloss": "to shine"
+            },
+            {
+              "form": "-te",
+              "gloss": "(3rd sg. middle present)"
             }
           ],
           "morph": "present indicative, 3rd singular (middle)",
@@ -56846,6 +56914,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "-ya-",
               "gloss": "(passive/middle)"
+            },
+            {
+              "form": "-te",
+              "gloss": "(3rd sg. middle present)"
             }
           ],
           "morph": "present indicative, 3rd singular (middle)"
@@ -57144,7 +57216,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 91,
           "iast": "vīkṣyante",
-          "gloss": "is seen",
+          "gloss": "are seen",
           "parts": [
             {
               "form": "vi-",
@@ -57157,9 +57229,13 @@ window.GITA_COMMENTARY = {
             {
               "form": "-ya-",
               "gloss": "(passive)"
+            },
+            {
+              "form": "-ante",
+              "gloss": "(3rd pl. passive present)"
             }
           ],
-          "morph": "present passive, 3rd singular"
+          "morph": "present passive, 3rd plural"
         },
         {
           "i": 92,
@@ -57392,6 +57468,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√vac",
               "gloss": "to say"
+            },
+            {
+              "form": "-at",
+              "gloss": "(aorist 3rd sg.)"
             }
           ],
           "morph": "aorist 3rd singular"
@@ -57831,6 +57911,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√as",
               "gloss": "to be"
+            },
+            {
+              "form": "-yāt",
+              "gloss": "(optative 3rd sg.)"
             }
           ],
           "morph": "optative 3rd singular"
@@ -57879,6 +57963,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√paś",
               "gloss": "to see"
+            },
+            {
+              "form": "-et",
+              "gloss": "(optative 3rd sg.)"
             }
           ],
           "morph": "optative 3rd singular"
@@ -57964,6 +58052,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhū",
               "gloss": "to be/become"
+            },
+            {
+              "form": "-t",
+              "gloss": "(aorist 3rd sg.)"
             }
           ],
           "morph": "aorist 3rd singular"
@@ -58012,6 +58104,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√paś",
               "gloss": "to see"
+            },
+            {
+              "form": "-et",
+              "gloss": "(optative 3rd sg.)"
             }
           ],
           "morph": "optative 3rd singular"
@@ -58073,6 +58169,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√ah",
               "gloss": "to say"
+            },
+            {
+              "form": "-a",
+              "gloss": "(perfect 3rd sg.)"
             }
           ],
           "morph": "perfect 3rd singular (present sense)"
@@ -58418,6 +58518,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√as",
               "gloss": "to be"
+            },
+            {
+              "form": "-yāt",
+              "gloss": "(optative 3rd sg.)"
             }
           ],
           "morph": "optative 3rd singular"
@@ -58740,6 +58844,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√dṛś",
               "gloss": "to see"
+            },
+            {
+              "form": "-te",
+              "gloss": "(3rd sg. passive present)"
             }
           ],
           "morph": "present passive, 3rd singular"
@@ -58825,6 +58933,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√ah",
               "gloss": "to say"
+            },
+            {
+              "form": "-a",
+              "gloss": "(perfect 3rd sg.)"
             }
           ],
           "morph": "perfect, 3rd singular"
@@ -59107,6 +59219,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√jāgṛ",
               "gloss": "to be awake"
+            },
+            {
+              "form": "-ati",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd singular (locative noun 'in waking')"
@@ -59123,6 +59239,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√budh",
               "gloss": "to wake"
+            },
+            {
+              "form": "-ante",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -59254,6 +59374,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√as",
               "gloss": "to be"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -59318,6 +59442,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhū",
               "gloss": "to be, become"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -59755,6 +59883,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√ah",
               "gloss": "to say"
+            },
+            {
+              "form": "-a",
+              "gloss": "(perfect 3rd sg.)"
             }
           ],
           "morph": "perfect, 3rd singular"
@@ -59932,6 +60064,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√jñā",
               "gloss": "to know"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -59990,6 +60126,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√jāgṛ",
               "gloss": "to be awake"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -60027,6 +60167,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√paś",
               "gloss": "to see"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -60121,6 +60265,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√jāgṛ",
               "gloss": "to be awake"
+            },
+            {
+              "form": "-ati",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -60209,6 +60357,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√jñā",
               "gloss": "to know"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -60507,6 +60659,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√ah",
               "gloss": "to say"
+            },
+            {
+              "form": "-a",
+              "gloss": "(perfect 3rd sg.)"
             }
           ],
           "morph": "perfect, 3rd singular"
@@ -60550,7 +60706,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.70",
       "sanskrit": "āpūryamāṇam adbhir acala-pratiṣṭham acalatayā pratiṣṭhā avasthitiḥ yasya tam acala-pratiṣṭhaṃ samudram āpaḥ sarvato gatāḥ praviśanti svātmastham avikriyam eva santaṃ yadvat, tadvat kāmāḥ viṣaya-saṃnidhāv api sarvataḥ icchā-viśeṣāḥ yaṃ puruṣam --- samudram iva āpaḥ -- avikurvantaḥ praviśanti sarve ātmany eva pralīyante na svātma-vaśaṃ kurvanti, sa śāntir mokṣam āpnoti, netaraḥ kāma-kāmī, kāmyanta iti kāmāḥ viṣayāḥ tān kāmayituṃ śīlaṃ yasya saḥ kāma-kāmī, naiva prāpnotīty arthaḥ",
-      "ourRendering": "Just as into the sea, filled by the waters, ‘unmoving in its station’ — that whose station, whose abiding, is unmoving — into that unmoving-stationed sea the waters, come from every side, enter, it remaining established in itself, unmodified — so the desires, even in the presence of objects, the particular cravings from every side, which enter a man — as the waters the sea — without modifying him, all dissolve in the Self alone, do not bring him under their own sway — he attains peace, liberation; not the other, the desire-desirer. ‘kāmāḥ’ are objects, ‘that which is desired’; he whose nature is to desire them is the ‘desirer-of-desires’; he does not attain it at all, that is the meaning.",
+      "ourRendering": "Just as into the sea, filled by the waters, ‘unmoving in its station’ — that whose station, whose abiding, is unmoving — into that unmoving-stationed sea the waters, come from every side, enter, it remaining established in itself, unmodified — so the kāmas, even in the presence of objects, the particular cravings from every side, which enter a man — as the waters the sea — without modifying him, all dissolve in the Self alone, do not bring him under their own sway — he attains peace, liberation; not the other, the kāma-desirer. ‘kāmāḥ’ are objects, ‘that which is desired’; he whose nature is to desire them is the ‘desirer-of-kāmas’; he does not attain it at all, that is the meaning.",
       "source": "data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt (GRETIL: gretil/1_sanskr/6_sastra/3_phil/vedanta/bhgsbh_u.htm)",
       "words": [
         {
@@ -60780,6 +60936,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√viś",
               "gloss": "to enter"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -61065,6 +61225,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√viś",
               "gloss": "to enter"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -61118,6 +61282,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√lī",
               "gloss": "to dissolve, merge"
+            },
+            {
+              "form": "-ante",
+              "gloss": "(3rd pl. middle present)"
             }
           ],
           "morph": "present middle, 3rd plural"
@@ -61163,6 +61331,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√kṛ",
               "gloss": "to do, make"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -61221,6 +61393,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to reach, attain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -61278,6 +61454,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "-ya-",
               "gloss": "passive"
+            },
+            {
+              "form": "-ante",
+              "gloss": "(3rd pl. passive present)"
             }
           ],
           "morph": "present passive, 3rd plural"
@@ -61438,6 +61618,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to reach, attain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -61467,7 +61651,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{18:Just as} into {9:the sea}, {0:being filled} {1:by the waters}, {2:unmoving in its station} — {6:that whose} {4:station}, {5:abiding}, {3:is by unmovingness} — into {7:that} {8:unmoving-stationed} sea {10:the waters}, {12:come} {11:from every side}, {13:enter}, it {17:remaining} {14:established in itself}, {15:unmodified} {16:indeed} — {19:so} {20:the desires}, {22:even} {21:in the presence of objects}, {24:the particular cravings} {23:from every side}, which {31:enter} {25:the} {26:man} — {28:as} {29:the waters} {27:the sea} — {30:without modifying him}, {32:all} {35:dissolve} {33:in the Self} {34:alone}, {38:do} {36:not} {38:bring} him {37:under their own sway} — {39:he} {42:attains} {40:peace}, {41:liberation}; {43:not} {44:the other}, {45:the desire-desirer}. {48:‘kāmāḥ’} are {49:objects}, {46:‘that which is desired’} {47:so called}; {53:he whose} {52:habit} is {51:to desire} {50:them} {54:he} is {55:the desirer-of-desires}; {58:he does} {56:not} {57:at all} {58:attain} it, {59:thus} is the {60:meaning}.",
+      "english": "{18:Just as} into {9:the sea}, {0:being filled} {1:by the waters}, {2:unmoving in its station} — {6:that whose} {4:station}, {5:abiding}, {3:is by unmovingness} — into {7:that} {8:unmoving-stationed} sea {10:the waters}, {12:come} {11:from every side}, {13:enter}, it {17:remaining} {14:established in itself}, {15:unmodified} {16:indeed} — {19:so} {20:the kāmas (desire as craving for objects)}, {22:even} {21:in the presence of objects}, {24:the particular cravings} {23:from every side}, which {31:enter} {25:the} {26:man} — {28:as} {29:the waters} {27:the sea} — {30:without modifying him}, {32:all} {35:dissolve} {33:in the Self} {34:alone}, {38:do} {36:not} {38:bring} him {37:under their own sway} — {39:he} {42:attains} {40:peace}, {41:liberation}; {43:not} {44:the other}, {45:the kāma-desirer}. {48:‘kāmāḥ’} are {49:objects}, {46:‘that which is desired’} {47:so called}; {53:he whose} {52:habit} is {51:to desire} {50:them} {54:he} is {55:the desirer-of-kāmas}; {58:he does} {56:not} {57:at all} {58:attain} it, {59:thus} is the {60:meaning}.",
       "segments": [
         {
           "from": 0,
@@ -61488,7 +61672,7 @@ window.GITA_COMMENTARY = {
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.70",
       "sanskrit": "etādṛśasya sthita-prajñasya sarva-vikṣepa-śāntir apy artha-siddheti sa-dṛṣṭāntam āha āpūryamāṇam iti | sarvābhir nadībhir āpūryamāṇaṃ santaṃ vṛṣṭy-ādi-prabhavā api sarvā āpaḥ samudraṃ praviśanti | kīdṛśam acala-pratiṣṭham anatikrānta-maryādam | acalānāṃ mainākādīnāṃ pratiṣṭhā yasminn iti vā gāmbhīryātiśaya uktaḥ | yadvad yena prakāreṇa nirvikāratvena tadvat tenaiva nirvikāratva-prakāreṇa yaṃ sthita-prajñaṃ nirvikāram eva santaṃ kāmā ajñair lokaiḥ kāmyamānāḥ śabdādyāḥ sarve viṣayā avarjanīyatayā prārabdha-karma-vaśāt praviśanti na tu vikartuṃ śaknuvanti sa mahā-samudra-sthānīyaḥ sthita-prajñaḥ śāntiṃ sarva-laukikālaukika-karma-vikṣepa-nivṛttiṃ bādhitānuvṛttāvidyā-kārya-nivṛttiṃ cāpnoti jñāna-balena | na kāma-kāmī kāmān viṣayān kāmayituṃ śīlaṃ yasya sa kāma-kāmy ajñaḥ śāntiṃ samākhyātāṃ nāpnoti | api tu sarvadā laukikālaukika-karma-vikṣepeṇa mahati kleśārṇave magno bhavatīti vākyārthaḥ | etena jñānina eva phala-bhūto vidvat-saṃnyāsas tasyaiva ca sarva-vikṣepa-nivṛtti-rūpā jīvan-muktir daivāddhnīna-viṣaya-bhoge 'pi nirvikāratety-ādikam uktaṃ veditavyam ||70||",
-      "ourRendering": "That for such a sthita-prajña even the calming of all distraction is automatically achieved, He states with an illustration by ‘āpūryamāṇam’. The sea, being filled by all the rivers, the waters too, sprung from rain and the rest, all of them, enter; what kind of sea? ‘Unmoving in its station’, not overstepping its bound; or ‘the station of the unmoving’ — that in which the unmoving (mountains), Maināka and the rest, have their seat — by which excess of depth is stated. ‘Just as’, in the manner of being unmodified, ‘so’, by that very manner of being unmodified, the sthita-prajña whom, remaining unmodified, the desires — the objects, sound and the rest, desired by the ignorant folk — all enter unavoidably by force of commenced karma but cannot modify, that one, in the place of the great sea, the sthita-prajña, attains peace — the cessation of all worldly and supra-worldly distraction of action, and the cessation of the effects of the sublated-but-continuing ignorance — by the power of knowledge. Not the desire-desirer: he whose nature is to desire the desires, the objects, the desire-desirer, the ignorant, does not attain the aforesaid peace; rather he is, at all times, sunk in the great ocean of affliction by the distraction of worldly and supra-worldly action — that is the sense of the sentence. By this it is to be understood that the renunciation-of-the-knower, which is the fruit of the knower alone, and his liberation-while-living, of the form of the cessation of all distraction, and the being-unmodified even in the experience of objects fallen to one by fate, and so on, are stated.",
+      "ourRendering": "That for such a sthita-prajña even the calming of all distraction is automatically achieved, He states with an illustration by ‘āpūryamāṇam’. The sea, being filled by all the rivers, the waters too, sprung from rain and the rest, all of them, enter; what kind of sea? ‘Unmoving in its station’, not overstepping its bound; or ‘the station of the unmoving’ — that in which the unmoving (mountains), Maināka and the rest, have their seat — by which excess of depth is stated. ‘Just as’, in the manner of being unmodified, ‘so’, by that very manner of being unmodified, the sthita-prajña whom, remaining unmodified, the kāmas — the objects, sound and the rest, desired by the ignorant folk — all enter unavoidably by force of commenced karma but cannot modify, that one, in the place of the great sea, the sthita-prajña, attains peace — the cessation of all worldly and supra-worldly distraction of action, and the cessation of the effects of the sublated-but-continuing ignorance — by the power of knowledge. Not the kāma-desirer: he whose nature is to desire the kāmas, the objects, the kāma-desirer, the ignorant, does not attain the aforesaid peace; rather he is, at all times, sunk in the great ocean of affliction by the distraction of worldly and supra-worldly action — that is the sense of the sentence. By this it is to be understood that the renunciation-of-the-knower, which is the fruit of the knower alone, and his liberation-while-living, of the form of the cessation of all distraction, and the being-unmodified even in the experience of objects fallen to one by fate, and so on, are stated.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -61605,6 +61789,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√ah",
               "gloss": "to say"
+            },
+            {
+              "form": "-a",
+              "gloss": "(perfect 3rd sg.)"
             }
           ],
           "morph": "perfect, 3rd singular"
@@ -61785,6 +61973,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√viś",
               "gloss": "to enter"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -62316,6 +62508,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√viś",
               "gloss": "to enter"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -62372,6 +62568,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√śak",
               "gloss": "to be able"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -62524,6 +62724,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to attain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -62746,6 +62950,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to attain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -62868,6 +63076,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhū",
               "gloss": "to be, become"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -63177,7 +63389,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter (gerundive)"
         }
       ],
-      "english": "That for {0:such a one}, the {1:sthita-prajña}, {3:even} {2:the calming of all distraction} is {4:automatically achieved}, {5:thus} {7:He states} {6:with an illustration} by {8:‘āpūryamāṇam’} {9:—}. {12:Being filled} {10:by all} {11:the rivers}, {13:being} so, the {14:waters arising from rain and the rest} {15:too}, {16:all of them}, {17:the waters}, {19:enter} the {18:sea}. {20:What kind of} sea? {21:‘Unmoving in its station’}, {22:not overstepping its bound}; {28:or} {25:‘the station} {23:of the unmoving} (mountains), {24:Maināka and the rest} {26:that in which} they have, {27:thus} — by which {29:excess of depth} {30:is stated}. {31:Just as}, {32:by which} {33:manner} {34:of being unmodified}, {35:so}, {36:by that} {37:very} {38:manner of being unmodified}, the {40:sthita-prajña} {39:whom}, {43:remaining} {41:unmodified} {42:verily}, the {44:desires} — the {50:objects}, {48:sound and the rest}, {47:being desired} {45:by the ignorant} {46:folk} — {49:all} {53:enter} {51:unavoidably} {52:by force of commenced karma} {54:but} {57:cannot} {56:modify} {55:—}, {58:that one}, {59:in the place of the great sea}, the {60:sthita-prajña}, {65:attains} {61:peace} — {62:the cessation of all worldly and supra-worldly distraction of action}, {64:and} {63:the cessation of the effects of the sublated-but-continuing ignorance} — {66:by the power of knowledge}. {67:Not} the {68:desire-desirer}: {73:he whose} {72:nature} is {71:to desire} the {69:desires}, the {70:objects}, {74:he}, the {75:desire-desirer}, {76:the ignorant}, {79:does not} {80:attain} the {78:aforesaid} {77:peace}; {81:rather} {82:but} he is, {83:at all times}, {87:sunk} {85:in the great} {86:ocean of affliction} {84:by the distraction of worldly and supra-worldly action} {88:is} {89:—} {90:that is the sense of the sentence}. {91:By this} it {107:is stated and} {108:is to be understood} that {95:the renunciation-of-the-knower}, {94:being the fruit} {92:of the knower} {93:alone}, {98:and} {99:of the form of the cessation of all distraction}, {97:alone} {96:his} {100:liberation-while-living}, {103:and even} {104:the being-unmodified} {102:in the experience of objects fallen to one} {101:by fate}, {105:and} {106:so on}, are stated.",
+      "english": "That for {0:such a one}, the {1:sthita-prajña}, {3:even} {2:the calming of all distraction} is {4:automatically achieved}, {5:thus} {7:He states} {6:with an illustration} by {8:‘āpūryamāṇam’} {9:—}. {12:Being filled} {10:by all} {11:the rivers}, {13:being} so, the {14:waters arising from rain and the rest} {15:too}, {16:all of them}, {17:the waters}, {19:enter} the {18:sea}. {20:What kind of} sea? {21:‘Unmoving in its station’}, {22:not overstepping its bound}; {28:or} {25:‘the station} {23:of the unmoving} (mountains), {24:Maināka and the rest} {26:that in which} they have, {27:thus} — by which {29:excess of depth} {30:is stated}. {31:Just as}, {32:by which} {33:manner} {34:of being unmodified}, {35:so}, {36:by that} {37:very} {38:manner of being unmodified}, the {40:sthita-prajña} {39:whom}, {43:remaining} {41:unmodified} {42:verily}, the {44:kāmas (desire as craving for objects)} — the {50:objects}, {48:sound and the rest}, {47:being desired} {45:by the ignorant} {46:folk} — {49:all} {53:enter} {51:unavoidably} {52:by force of commenced karma} {54:but} {57:cannot} {56:modify} {55:—}, {58:that one}, {59:in the place of the great sea}, the {60:sthita-prajña}, {65:attains} {61:peace} — {62:the cessation of all worldly and supra-worldly distraction of action}, {64:and} {63:the cessation of the effects of the sublated-but-continuing ignorance} — {66:by the power of knowledge}. {67:Not} the {68:kāma-desirer}: {73:he whose} {72:nature} is {71:to desire} the {69:kāmas}, the {70:objects}, {74:he}, the {75:kāma-desirer}, {76:the ignorant}, {79:does not} {80:attain} the {78:aforesaid} {77:peace}; {81:rather} {82:but} he is, {83:at all times}, {87:sunk} {85:in the great} {86:ocean of affliction} {84:by the distraction of worldly and supra-worldly action} {88:is} {89:—} {90:that is the sense of the sentence}. {91:By this} it {107:is stated and} {108:is to be understood} that {95:the renunciation-of-the-knower}, {94:being the fruit} {92:of the knower} {93:alone}, {98:and} {99:of the form of the cessation of all distraction}, {97:alone} {96:his} {100:liberation-while-living}, {103:and even} {104:the being-unmodified} {102:in the experience of objects fallen to one} {101:by fate}, {105:and} {106:so on}, are stated.",
       "segments": [
         {
           "from": 0,
@@ -63203,7 +63415,7 @@ window.GITA_COMMENTARY = {
       "work": "Subodhinī",
       "locus": "2.70",
       "sanskrit": "nanu viṣayeṣu dṛṣṭy-abhāve katham asau tān bhuṅkte ity apekṣāyām āha āpūryamāṇam iti | nānā-nada-nadīnbhir āpūryamāṇam api acala-pratiṣṭham anatikrānta-maryādam eva samudraṃ punar api anyā āpo yathā praviśanti tathā kāmā viṣayā yaṃ munim antar-dṛṣṭiṃ bhogair avikriyamāṇam eva prārabdha-karmabhir ākṣiptāḥ santaḥ praviśanti sa śāntim kaivalyaṃ prāpnoti | na tu kāma-kāmī bhoga-kāmanā-śīlaḥ ||70||",
-      "ourRendering": "But surely, in the absence of sight toward objects, how does he enjoy them? Expecting this, He says ‘āpūryamāṇam’. Just as into the sea, though filled by various streams and rivers yet ‘unmoving in its station’, not overstepping its bound, other waters again enter, so the desires, the objects, enter the sage of inward sight, who is unmodified by the enjoyments, drawn in by commenced karma; he attains peace, isolation (kaivalya). But not the desire-desirer, whose nature is the craving for enjoyment.",
+      "ourRendering": "But surely, in the absence of sight toward objects, how does he enjoy them? Expecting this, He says ‘āpūryamāṇam’. Just as into the sea, though filled by various streams and rivers yet ‘unmoving in its station’, not overstepping its bound, other waters again enter, so the kāmas, the objects, enter the sage of inward sight, who is unmodified by the enjoyments, drawn in by commenced karma; he attains peace, isolation (kaivalya). But not the kāma-desirer, whose nature is the craving for enjoyment.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -63292,6 +63504,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhuj",
               "gloss": "to enjoy, eat"
+            },
+            {
+              "form": "-te",
+              "gloss": "(3rd sg. middle present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -63336,6 +63552,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√ah",
               "gloss": "to say"
+            },
+            {
+              "form": "-a",
+              "gloss": "(perfect 3rd sg.)"
             }
           ],
           "morph": "perfect, 3rd singular"
@@ -63565,6 +63785,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√viś",
               "gloss": "to enter"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -63765,6 +63989,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√viś",
               "gloss": "to enter"
+            },
+            {
+              "form": "-anti",
+              "gloss": "(3rd pl. present)"
             }
           ],
           "morph": "present indicative, 3rd plural"
@@ -63827,6 +64055,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to obtain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -63893,7 +64125,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:But surely}, {2:in the absence of sight} {1:toward objects}, {3:how} {4:does he} {6:enjoy} {5:them}? {7:Thus} {8:expecting this}, {9:He says}, {11:} {10:‘āpūryamāṇam’}. {23:Just as} into {18:the sea}, {13:though filled} {12:by various streams and rivers} {14:yet} {15:‘unmoving in its station’}, {16:not overstepping its bound}{17:,} {21:other} {22:waters} {19:again} {20:also} {24:enter}, {25:so} {26:the desires}, {27:the objects}, {37:enter} {29:the sage} {28:whom}, {30:of inward sight}, {32:who is unmodified} {31:by the enjoyments}{33:,} {35:drawn in} {34:by commenced karma}, {36:being}; {38:he} {41:attains} {39:peace}, {40:isolation (kaivalya)}. {42:But not} {44:the desire-desirer}, {45:whose nature is the craving for enjoyment}.",
+      "english": "{0:But surely}, {2:in the absence of sight} {1:toward objects}, {3:how} {4:does he} {6:enjoy} {5:them}? {7:Thus} {8:expecting this}, {9:He says}, {11:} {10:‘āpūryamāṇam’}. {23:Just as} into {18:the sea}, {13:though filled} {12:by various streams and rivers} {14:yet} {15:‘unmoving in its station’}, {16:not overstepping its bound}{17:,} {21:other} {22:waters} {19:again} {20:also} {24:enter}, {25:so} {26:the kāmas (desire as craving for objects)}, {27:the objects}, {37:enter} {29:the sage} {28:whom}, {30:of inward sight}, {32:who is unmodified} {31:by the enjoyments}{33:,} {35:drawn in} {34:by commenced karma}, {36:being}; {38:he} {41:attains} {39:peace}, {40:isolation (kaivalya)}. {42:But not} {44:the kāma-desirer}, {45:whose nature is the craving for enjoyment}.",
       "segments": [
         {
           "from": 0,
@@ -63963,6 +64195,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√ah",
               "gloss": "to say"
+            },
+            {
+              "form": "-a",
+              "gloss": "(perfect 3rd sg.)"
             }
           ],
           "morph": "perfect, 3rd singular"
@@ -64085,6 +64321,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhū",
               "gloss": "to be"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -64133,6 +64373,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to obtain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -64189,6 +64433,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√kṛ",
               "gloss": "to do"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -64238,6 +64486,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√śuṣ",
               "gloss": "to dry"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -64339,6 +64591,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to obtain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -64383,6 +64639,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√kṛ",
               "gloss": "to do"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -64427,6 +64687,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to obtain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -64484,7 +64748,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.71",
       "sanskrit": "vihāya parityajya kāmān yaḥ saṃnyāsī pumān sarvān aśeṣataḥ kārtsnyena carati, jīvana-mātra-ceṣṭāśeṣaḥ paryaṭatīty arthaḥ | niḥspṛhaḥ śarīra-jīvana-mātre 'pi nirgatā spṛhā yasya saḥ niḥspṛhaḥ san nirmamaḥ śarīra-jīvana-mātrākṣipta-parigrahe 'pi mamedam ity abhiniveśa-varjitaḥ, nirahaṃkāraḥ vidyāvattvādi-nimittātma-saṃbhāvanā-rahitaḥ ity etat | sa evaṃbhūtaḥ sthita-prajñaḥ brahmavit śāntiṃ sarva-saṃsāra-duḥkhoparama-lakṣaṇāṃ nirvāṇākhyām adhigacchati prāpnoti brahma-bhūto bhavati ity arthaḥ",
-      "ourRendering": "Giving up, abandoning, desires — he, the renunciant man, all of them, without remainder, in their entirety, ‘moves’: he goes about with effort confined to mere living, that is the meaning. ‘Free of longing’: he from whom longing has departed even toward mere bodily living is ‘free of longing’; being so, ‘without mineness’: devoid of the clinging ‘this is mine’ even toward the possessions drawn in for mere bodily living; ‘without I-making’: devoid of the self-imagining occasioned by being learned and the like — that is what is meant. Such a one, the sthita-prajña, the knower of Brahman, attains peace, marked by the cessation of all the sorrow of saṃsāra, called nirvāṇa — he becomes Brahman, that is the meaning.",
+      "ourRendering": "Giving up, abandoning, kāmas (desire as craving for objects) — he, the renunciant man, all of them, without remainder, in their entirety, ‘moves’: he goes about with effort confined to mere living, that is the meaning. ‘Free of longing’: he from whom longing has departed even toward mere bodily living is ‘free of longing’; being so, ‘without mineness’: devoid of the clinging ‘this is mine’ even toward the possessions drawn in for mere bodily living; ‘without I-making’: devoid of the self-imagining occasioned by being learned and the like — that is what is meant. Such a one, the sthita-prajña, the knower of Brahman, attains peace, marked by the cessation of all the sorrow of saṃsāra, called nirvāṇa — he becomes Brahman, that is the meaning.",
       "source": "data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt (GRETIL: gretil/1_sanskr/6_sastra/3_phil/vedanta/bhgsbh_u.htm)",
       "words": [
         {
@@ -64645,6 +64909,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√car",
               "gloss": "to move, range"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -64685,6 +64953,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√aṭ",
               "gloss": "to roam, wander"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -65171,6 +65443,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√gam",
               "gloss": "to go"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -65187,6 +65463,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to reach, attain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -65216,6 +65496,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhū",
               "gloss": "to be, become"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -65245,7 +65529,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{0:Giving up}, {1:abandoning}, {2:desires} — {3:he}, {4:the renunciant} {5:man}, {6:all of them}, {7:without remainder}, {8:in their entirety}, {9:moves}: {11:he goes about} {10:with effort confined to mere living}, {12:that is} the {13:meaning}. {14:‘Free of longing’}: {19:he from whom} {18:longing} {17:has departed} {16:even} {15:toward mere bodily living} {20:is} {21:‘free of longing’}; {22:being} so, {23:‘without mineness’}: {29:devoid of the clinging} {26:‘this} {27:is mine’} {28:—} {25:even} {24:toward the possessions drawn in for mere bodily living}; {30:‘without I-making’}: {31:devoid of the self-imagining occasioned by being learned and the like} {32:—that} {33:is what is meant}. {34:Such a one}, {35:being so}, {36:the sthita-prajña}, {37:the knower of Brahman}, {41:attains} {38:peace}, {39:marked by the cessation of all the sorrow of saṃsāra}, {40:called nirvāṇa} {42:— he attains it}, {43:he becomes Brahman}, {44:he becomes (that)}, {45:thus} is the {46:meaning}.",
+      "english": "{0:Giving up}, {1:abandoning}, {2:kāmas (desire as craving for objects)} — {3:he}, {4:the renunciant} {5:man}, {6:all of them}, {7:without remainder}, {8:in their entirety}, {9:moves}: {11:he goes about} {10:with effort confined to mere living}, {12:that is} the {13:meaning}. {14:‘Free of longing’}: {19:he from whom} {18:longing} {17:has departed} {16:even} {15:toward mere bodily living} {20:is} {21:‘free of longing’}; {22:being} so, {23:‘without mineness’}: {29:devoid of the clinging} {26:‘this} {27:is mine’} {28:—} {25:even} {24:toward the possessions drawn in for mere bodily living}; {30:‘without I-making’}: {31:devoid of the self-imagining occasioned by being learned and the like} {32:—that} {33:is what is meant}. {34:Such a one}, {35:being so}, {36:the sthita-prajña}, {37:the knower of Brahman}, {41:attains} {38:peace}, {39:marked by the cessation of all the sorrow of saṃsāra}, {40:called nirvāṇa} {42:— he attains it}, {43:he becomes Brahman}, {44:he becomes (that)}, {45:thus} is the {46:meaning}.",
       "segments": [
         {
           "from": 0,
@@ -65276,7 +65560,7 @@ window.GITA_COMMENTARY = {
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.71",
       "sanskrit": "yasmād evaṃ tasmāt vihāyeti | prāptān api sarvān bāhyān gṛha-kṣetrādīnāntarān manorājya-rūpān vāsanā-mātra-rūpāṃś ca pathi gacchaṃs tṛṇa-sparśa-rūpān kāmāṃs trividhān vihāyopekṣya śarīra-jīvana-mātre 'pi nispṛhaḥ san | yato nirahaṅkāra śarīrendriyādāv ayam aham ity abhimāna-śūnyaḥ | vidyāvattvādi-nimittātma-sambhāvanā-rahita iti vā | ato nirmamaḥ śarīra-yātrā-mātrārthe 'pi prārabdha-karmākṣipte kaupīnācchādanādau mamedam ity abhimāna-varjitaḥ san yaḥ pumāṃś carati prārabdha-karma-vaśena bhogān bhuṅkte yādṛcchikatayā yatra kvāpi gacchatīti vā | sa evaṃbhūtaḥ sthita-prajñaḥ śāntiṃ sarva-saṃsāra-duḥkhoparama-lakṣaṇām avidyā-tat-kārya-nivṛttim adhigacchati jñāna-balena prāpnoti | tad etad īdṛśaṃ vrajanaṃ sthita-prajñasyeti caturtha-praśnasyottaraṃ parisamāptam ||71||",
-      "ourRendering": "Since it is thus, therefore ‘vihāya’. Even the gained ones — all the outer, house, field and the rest; the inner, of the form of mental kingdom; and the mere latent impressions; and, while walking the path, of the form of the touch of grass — these threefold desires, giving up, disregarding, being free of longing even toward mere bodily living; since he is ‘without I-making’, void of the conceit ‘this I am’ toward body, senses and the rest, or devoid of the self-imagining occasioned by being learned and the like; hence ‘without mineness’, devoid of the conceit ‘this is mine’ even toward the loincloth, covering and the like drawn in by commenced karma for mere bodily sustenance — being so, the man who ‘moves’, who by force of commenced karma enjoys enjoyments, or goes wherever spontaneously — such a one, the sthita-prajña, attains peace, marked by the cessation of all the sorrow of saṃsāra, the cessation of ignorance and its effect, gains it by the power of knowledge. Thus this kind of ‘moving’ is the sthita-prajña’s — the answer to the fourth question is completed.",
+      "ourRendering": "Since it is thus, therefore ‘vihāya’. Even the gained ones — all the outer, house, field and the rest; the inner, of the form of mental kingdom; and the mere latent impressions; and, while walking the path, of the form of the touch of grass — these threefold kāmas (desire as craving for objects), giving up, disregarding, being free of longing even toward mere bodily living; since he is ‘without I-making’, void of the conceit ‘this I am’ toward body, senses and the rest, or devoid of the self-imagining occasioned by being learned and the like; hence ‘without mineness’, devoid of the conceit ‘this is mine’ even toward the loincloth, covering and the like drawn in by commenced karma for mere bodily sustenance — being so, the man who ‘moves’, who by force of commenced karma enjoys enjoyments, or goes wherever spontaneously — such a one, the sthita-prajña, attains peace, marked by the cessation of all the sorrow of saṃsāra, the cessation of ignorance and its effect, gains it by the power of knowledge. Thus this kind of ‘moving’ is the sthita-prajña’s — the answer to the fourth question is completed.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -66044,6 +66328,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√car",
               "gloss": "to move, wander"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -66089,6 +66377,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhuj",
               "gloss": "to enjoy, consume"
+            },
+            {
+              "form": "-te",
+              "gloss": "(3rd sg. middle present)"
             }
           ],
           "morph": "present middle, 3rd singular"
@@ -66149,6 +66441,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√gam",
               "gloss": "to go"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -66305,6 +66601,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√gam",
               "gloss": "to go, attain"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -66338,6 +66638,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to obtain, gain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -66476,7 +66780,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:Since} it is {1:thus}, {2:therefore} {3:‘vihāya’} {4:—}. {6:Even} {5:the gained ones} — {7:all} the {8:outer}, {9:house, field and the rest}; the {10:inner}, {11:of the form of mental kingdom}; {13:and} {12:the mere latent impressions}; and, {15:while walking} {14:the path}, {16:of the form of the touch of grass} — these {18:threefold} {17:desires}, {19:giving up}, {20:disregarding}, {23:being free of longing} {22:even} toward {21:mere bodily living}; {25:since} he is {26:‘without I-making’}, {31:void of the conceit} {28:‘this} {29:I} {30:am’} toward {27:body, senses and the rest}, {34:or} {32:devoid of the self-imagining occasioned by being learned and the like} {33:—}; {35:hence} {36:‘without mineness’}, {44:devoid of the conceit} {41:‘this} {42:is mine’} {43:—} {38:even} toward {40:the loincloth, covering and the like} {39:drawn in by commenced karma} {37:for mere bodily sustenance} — {45:being so}, the {47:man} {46:who} {48:‘moves’}, who {49:by force of commenced karma} {51:enjoys} {50:enjoyments}, {57:or} {55:goes} {53:wherever} {54:anywhere at all} {52:spontaneously} {56:—}, {58:such a one}, {59:being so}, the {60:sthita-prajña}, {64:attains} {61:peace}, {62:marked by the cessation of all the sorrow of saṃsāra}, {63:the cessation of ignorance and its effect}, {66:gains it} {65:by the power of knowledge}. {67:Thus} {68:this} {69:kind of} {70:‘moving’} is {71:the sthita-prajña’s} {72:—} the {74:answer} {73:to the fourth question} {75:is completed}.",
+      "english": "{0:Since} it is {1:thus}, {2:therefore} {3:‘vihāya’} {4:—}. {6:Even} {5:the gained ones} — {7:all} the {8:outer}, {9:house, field and the rest}; the {10:inner}, {11:of the form of mental kingdom}; {13:and} {12:the mere latent impressions}; and, {15:while walking} {14:the path}, {16:of the form of the touch of grass} — these {18:threefold} {17:kāmas (desire as craving for objects)}, {19:giving up}, {20:disregarding}, {23:being free of longing} {22:even} toward {21:mere bodily living}; {25:since} he is {26:‘without I-making’}, {31:void of the conceit} {28:‘this} {29:I} {30:am’} toward {27:body, senses and the rest}, {34:or} {32:devoid of the self-imagining occasioned by being learned and the like} {33:—}; {35:hence} {36:‘without mineness’}, {44:devoid of the conceit} {41:‘this} {42:is mine’} {43:—} {38:even} toward {40:the loincloth, covering and the like} {39:drawn in by commenced karma} {37:for mere bodily sustenance} — {45:being so}, the {47:man} {46:who} {48:‘moves’}, who {49:by force of commenced karma} {51:enjoys} {50:enjoyments}, {57:or} {55:goes} {53:wherever} {54:anywhere at all} {52:spontaneously} {56:—}, {58:such a one}, {59:being so}, the {60:sthita-prajña}, {64:attains} {61:peace}, {62:marked by the cessation of all the sorrow of saṃsāra}, {63:the cessation of ignorance and its effect}, {66:gains it} {65:by the power of knowledge}. {67:Thus} {68:this} {69:kind of} {70:‘moving’} is {71:the sthita-prajña’s} {72:—} the {74:answer} {73:to the fourth question} {75:is completed}.",
       "segments": [
         {
           "from": 0,
@@ -66497,7 +66801,7 @@ window.GITA_COMMENTARY = {
       "work": "Subodhinī",
       "locus": "2.71",
       "sanskrit": "yasmād evaṃ tasmāt vihāyeti | prāptān kāmān vihāya tyaktvopekṣya aprāpteṣu ca niḥspṛhaḥ yato nirahaṅkāro 'taeva tad-bhoga-sādhaneṣu nirmamaḥ sann antar-dṛṣṭir bhūtvā yaś carati prārabdha-vaśena bhogān bhuṅkte | yatra kutrāpi gacchati vā | sa śāntim prāpnoti ||71||",
-      "ourRendering": "Since it is thus, therefore ‘vihāya’. Giving up the gained desires, abandoning, disregarding them, and ‘free of longing’ toward the ungained; since he is ‘without I-making’, and hence ‘without mineness’ toward the means of their enjoyment, having become of inward sight, the man who ‘moves’, who by force of commenced karma enjoys enjoyments, or goes anywhere whatever — he attains peace.",
+      "ourRendering": "Since it is thus, therefore ‘vihāya’. Giving up the gained kāmas (desire as craving for objects), abandoning, disregarding them, and ‘free of longing’ toward the ungained; since he is ‘without I-making’, and hence ‘without mineness’ toward the means of their enjoyment, having become of inward sight, the man who ‘moves’, who by force of commenced karma enjoys enjoyments, or goes anywhere whatever — he attains peace.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -66852,6 +67156,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√car",
               "gloss": "to move, go about"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -66897,6 +67205,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√bhuj",
               "gloss": "to enjoy, eat"
+            },
+            {
+              "form": "-te",
+              "gloss": "(3rd sg. middle present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -66945,6 +67257,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√gam",
               "gloss": "to go"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -67002,12 +67318,16 @@ window.GITA_COMMENTARY = {
             {
               "form": "√āp",
               "gloss": "to obtain"
+            },
+            {
+              "form": "-oti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
         }
       ],
-      "english": "{0:Since} {1:it is thus}, {2:therefore} {4:} {3:‘vihāya’}. {7:Giving up} {5:the gained} {6:desires}, {8:abandoning}, {9:disregarding} them, {11:and} {12:‘free of longing’} {10:toward the ungained}; {13:since} he is {14:‘without I-making’}, {15:and hence} {17:‘without mineness’} {16:toward the means of their enjoyment}, {18:being}, {20:having become} {19:of inward sight}, {21:the man who} {22:‘moves’}, who {23:by force of commenced karma} {25:enjoys} {24:enjoyments}, {26:wherever} {27:anywhere} {28:whatever} {30:or} {29:goes} — {31:he} {33:attains} {32:peace}.",
+      "english": "{0:Since} {1:it is thus}, {2:therefore} {4:} {3:‘vihāya’}. {7:Giving up} {5:the gained} {6:kāmas (desire as craving for objects)}, {8:abandoning}, {9:disregarding} them, {11:and} {12:‘free of longing’} {10:toward the ungained}; {13:since} he is {14:‘without I-making’}, {15:and hence} {17:‘without mineness’} {16:toward the means of their enjoyment}, {18:being}, {20:having become} {19:of inward sight}, {21:the man who} {22:‘moves’}, who {23:by force of commenced karma} {25:enjoys} {24:enjoyments}, {26:wherever} {27:anywhere} {28:whatever} {30:or} {29:goes} — {31:he} {33:attains} {32:peace}.",
       "segments": [
         {
           "from": 0,
@@ -67033,7 +67353,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.71",
       "sanskrit": "etadeva prapañcayati – vihāyeti| kāmān viṣayān nispṛhatayā vihāya yaścarati – bhakṣayati| bhakṣayāmītyādyahaṅkāra mamakāravarjitaśca| sa hi pumān| sa eva muktimadhigacchatītyarthaḥ",
-      "ourRendering": "He elaborates that very thing by ‘vihāya’. Giving up desires, objects, with freedom from longing, he who ‘moves’ — eats; and is devoid of the I-making and mineness ‘I eat’ and the like — he indeed is the (true) man; he alone attains liberation, that is the meaning.",
+      "ourRendering": "He elaborates that very thing by ‘vihāya’. Giving up kāmas (desire as craving for objects), objects, with freedom from longing, he who ‘moves’ — eats; and is devoid of the I-making and mineness ‘I eat’ and the like — he indeed is the (true) man; he alone attains liberation, that is the meaning.",
       "source": "data/sources/sanskrit/vedanta/madhva_gita_bhasya.txt (srimadhvyasa.wordpress.com, Unicode ed. of Madhva's Gītā-bhāṣya)",
       "words": [
         {
@@ -67199,6 +67519,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√car",
               "gloss": "to move"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -67380,6 +67704,10 @@ window.GITA_COMMENTARY = {
             {
               "form": "√gam",
               "gloss": "to go"
+            },
+            {
+              "form": "-ti",
+              "gloss": "(3rd sg. present)"
             }
           ],
           "morph": "present indicative, 3rd singular"
@@ -67409,7 +67737,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "He {2:elaborates} {0:that very thing} {3:by ‘vihāya’}. {8:Giving up} {5:desires}, {6:objects}, {7:with freedom from longing}, {9:he who} {10:‘moves’} {11:— eats}; {16:and} {15:is devoid of the I-making and mineness} {12:‘I eat’} {14:and the like} — {17:he} {18:indeed} {19:is the (true) man}; {20:he} {21:alone} {23:attains} {22:liberation}, {25:that is the meaning}.",
+      "english": "He {2:elaborates} {0:that very thing} {3:by ‘vihāya’}. {8:Giving up} {5:kāmas (desire as craving for objects)}, {6:objects}, {7:with freedom from longing}, {9:he who} {10:‘moves’} {11:— eats}; {16:and} {15:is devoid of the I-making and mineness} {12:‘I eat’} {14:and the like} — {17:he} {18:indeed} {19:is the (true) man}; {20:he} {21:alone} {23:attains} {22:liberation}, {25:that is the meaning}.",
       "segments": [
         {
           "from": 0,
@@ -69877,7 +70205,7 @@ window.GITA_COMMENTARY = {
       "work": "Subodhinī",
       "locus": "2.72",
       "sanskrit": "uktāṃ jñāna-niṣṭhāṃ stuvann upasaṃharati eṣeti | brāhmī sthitir brahma-jñāna-niṣṭhā | eṣaivaṃvidhā | enāṃ parameśvarārādhanena viśuddhāntaḥkaraṇaḥ pumān prāpya na vimuhyati | punaḥ saṃsāra-mohaṃ na prāpnoti | yato 'nta-kāle mṛtyu-samaye 'py asyāṃ lakṣa-mātram api sthitvā brahma-nirvāṇam brahmaṇi nirvāṇaṃ layam ṛcchati prāpnoti | kiṃ punar vaktavyaṃ bālyam ārabhya sthitvā prāpnotīti ||72|| śoka-paṅka-nimagnaṃ yaḥ sāṅkhya-yogopadeśataḥ | ujjahārārjunaṃ bhaktaṃ sa kṛṣṇa-śaraṇaṃ mama || iti śrī-śrīdhara-svāmikṛtāyāṃ bhagavad-gītā-ṭīkāyāṃ subodhinyāṃ dvitīyo 'dhyāyaḥ ||2||",
-      "ourRendering": "Praising the steadfastness in knowledge stated, He sums up by ‘eṣā’. The ‘Brahmic state’ is the steadfastness in the knowledge of Brahman; such is ‘this’. Attaining it, the man whose inner organ is purified by the worship of the Supreme Lord is not deluded; he does not again attain the delusion of saṃsāra. Since, at the final time, the time of death, having abided in it even for a mere instant, he attains brahma-nirvāṇa, dissolution in Brahman; how much more is to be said of one who attains it having abided from childhood on. [So ends, in the Subodhinī, the gloss on the Bhagavad-gītā composed by Śrī Śrīdhara Svāmin, the second chapter; with the closing verse: ‘He who, by the teaching of Sāṅkhya and Yoga, lifted up his devotee Arjuna sunk in the mire of grief — that Kṛṣṇa is my refuge.’]",
+      "ourRendering": "Praising the steadfastness in knowledge stated, He sums up by ‘eṣā’. The ‘Brahmic state’ is the steadfastness in the knowledge of Brahman; such is ‘this’. Attaining it, the man whose inner organ is purified by the worship of the Supreme Lord is not deluded; he does not again attain the moha (the delusion that clouds discernment) of saṃsāra. Since, at the final time, the time of death, having abided in it even for a mere instant, he attains brahma-nirvāṇa, dissolution in Brahman; how much more is to be said of one who attains it having abided from childhood on. [So ends, in the Subodhinī, the gloss on the Bhagavad-gītā composed by Śrī Śrīdhara Svāmin, the second chapter; with the closing verse: ‘He who, by the teaching of Sāṅkhya and Yoga, lifted up his devotee Arjuna sunk in the mire of grief — that Kṛṣṇa is my refuge.’]",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_ch2.txt (GRETIL: gretil/1_sanskr/2_epic/mbh/ext/bhg4c02u.htm)",
       "words": [
         {
@@ -70795,7 +71123,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular masculine"
         }
       ],
-      "english": "{2:Praising} {0:the stated} {1:steadfastness in knowledge}, {3:He sums up} {5:by} {4:‘eṣā’}. {6:The ‘Brahmic’} {7:state} {8:is the steadfastness in the knowledge of Brahman}; {9:such is this}, {10:of such a kind}. {15:Attaining} {11:it}, {14:the man} {13:whose inner organ is purified} {12:by the worship of the Supreme Lord} {16:is not} {17:deluded}; {18:he} {20:does} {21:not} {18:again} {21:attain} {19:the delusion of saṃsāra}. {22:Since}, {23:at the final time}, {24:the time of death}, {25:even} {29:having abided} {26:in it} {28:even} {27:for a mere instant}, {34:he reaches}, {35:attains}, {30:brahma-nirvāṇa}, {32:dissolution} {31:in Brahman}, {33:dissolution}; {36:how} {37:much more} {38:is to be said} of one who {42:attains it} {40:beginning from} {39:childhood} {41:having abided} — {43:so}. {45:He who}, {46:by the teaching of Sāṅkhya and Yoga}, {47:lifted up} {49:his devotee} {48:Arjuna} {44:sunk in the mire of grief} — {50:that} {51:Kṛṣṇa} {52:is the refuge} {53:my}. {54:Thus, here ends}, {57:in the Subodhinī}, {56:the gloss on the Bhagavad-gītā} {55:composed by Śrī Śrīdhara Svāmin}, {58:the second} {59:chapter}.",
+      "english": "{2:Praising} {0:the stated} {1:steadfastness in knowledge}, {3:He sums up} {5:by} {4:‘eṣā’}. {6:The ‘Brahmic’} {7:state} {8:is the steadfastness in the knowledge of Brahman}; {9:such is this}, {10:of such a kind}. {15:Attaining} {11:it}, {14:the man} {13:whose inner organ is purified} {12:by the worship of the Supreme Lord} {16:is not} {17:deluded}; {18:he} {20:does} {21:not} {18:again} {21:attain} {19:the moha (the delusion that clouds discernment) of saṃsāra}. {22:Since}, {23:at the final time}, {24:the time of death}, {25:even} {29:having abided} {26:in it} {28:even} {27:for a mere instant}, {34:he reaches}, {35:attains}, {30:brahma-nirvāṇa}, {32:dissolution} {31:in Brahman}, {33:dissolution}; {36:how} {37:much more} {38:is to be said} of one who {42:attains it} {40:beginning from} {39:childhood} {41:having abided} — {43:so}. {45:He who}, {46:by the teaching of Sāṅkhya and Yoga}, {47:lifted up} {49:his devotee} {48:Arjuna} {44:sunk in the mire of grief} — {50:that} {51:Kṛṣṇa} {52:is the refuge} {53:my}. {54:Thus, here ends}, {57:in the Subodhinī}, {56:the gloss on the Bhagavad-gītā} {55:composed by Śrī Śrīdhara Svāmin}, {58:the second} {59:chapter}.",
       "segments": [
         {
           "from": 0,
@@ -70831,7 +71159,7 @@ window.GITA_COMMENTARY = {
       "work": "Gītā-bhāṣya",
       "locus": "2.72",
       "sanskrit": "upasaṃharati – eṣeti| brāhmī sthitiḥ – brahmaviṣayā sthitirlakṣaṇam| anta-kāle'pyasyāṃ sthitvaiva brahma gacchati| anyathā janmāntaraṃ prāpnoti| ‘yaṃ yaṃ vā'pi’ iti vakṣyamāṇatvāt| jñānīnāmapi sati prārabdhakarmāṇi śarīrāntaraṃ yuktam| ‘bhogena tvitare ’ iti hyuktam| santi hi bahuśarīraphalāni karmāṇi kānicit| ‘saptajanmani vipraḥ syāt’ ityādeḥ| daṣṭeśca jñānināmapi bahuśarīraprāpteḥ| tathāhyuktam – ‘ sthitaprajño'pi yastūrdhvaḥ prāpya raudrapadaṃ tataḥ| sāṅkarṣaṇaṃ tato muktimagādviṣṇuprasādataḥ ’ iti gāruḍe| ‘ mahādeva pare janmaṃstava muktirnirūpyate ’ iti nāradīye| niścitaphalaṃ ca jñānam – ‘tasya tāvadeva ciram ’, ‘yadu ca nārciṣamevābhisambhavati’ ityādi śṛtibhyaḥ|na ca kāyavyūhāpekṣā| ‘tadyathaiṣīkātūlam’ , ‘tadyathā puṣkaraphalāśe’, ‘jñānāgniḥ sarva karmāṇi ’ ityādi vacanebhyaḥ| prārabde tvavirodhaḥ| pramāṇābhāvācca| na ca tacchāstraṃ pramāṇam – ‘ akṣapādakaṇādānāṃ sāṅkhyayogajaṭābhṛtām| matamālambya ye vedaṃ dūṣayantyalpacetasaḥ ’ iti nindanāt| yatra tu stutistatra śivabhaktānāṃ stutiparatvameva na satyatvam| na hi teṣāmapītaragranthaviruddhārthe prāmāṇyam| tathā hyuktam eṣa mohaṃ sṛjāmyāśu yo janān mohayiṣyati| ‘ tvaṃ ca rudra mahābāho mohaśāstrāṇi kāraya| atathyāni vitathyāni darśayasva mahābhuja ’ prakāśaṃ kuru cātmānamaprakāśaṃ ca māṃ kuru||iti vārāhe| ‘ kutsitāni ca miśrāṇi rudro viṣṇupracoditaḥ| cakāra śāstrāṇi vibhur ‌ ṛṣayastatpracoditāḥ| dadhīcyādyāḥ purāṇāni tacchāstrasamayena tu| cakrurvedaiśca brāhmāṇi vaiṣṇavān viṣṇuvedataḥ| pañcarātraṃ bhārataṃ ca mūlarāmāyaṇaṃ tathā| tathā purāṇaṃ bhāgavataṃ viṣṇuveda itīritaḥ| ataḥ śaivapurāṇāni yojyānyanyāvirodhataḥ ’ iti ca nāradīye| ato jñānīnāṃ bhavatyeva muktiḥ| bhīṣmādīnāṃ tu tatkṣaṇe yuktyabhāvaḥ| ‘smaraṃstyajati’ iti vartamānāpadeśo hi kṛtaḥ| taccoktam – ‘ jñānināṃ karmayuktānāṃ kāyatyāgakṣaṇo yadā| viṣṇumāyā tadā teṣāṃ mano bāhyaṃ karoti hi ’ iti gāruḍe| na cānyeṣāṃ tadā smṛtirbhavati- ‘ bahujanmavipākena bhaktijñānena ye harim| bhajanti tatsmṛtiṃ tvante devo yāti na cānyathā ’ ityukterbrahmavaivarte| nirbāṇamaśarīram| ‘kāyo bāṇaṃ śarīraṃ ca’ ityabhidhānāt| ‘etadbāṇamavaṣṭabhya’ iti prayogācca| nirbāṇaśabda­pratipādanam’anindriyāḥ’ ityādivat| kathamanyathā sarvapurāṇādi prasiddhā''kṛtirbhagavata upapadyate ? na cānyadbagavata uttamaṃ brahma – ‘ brahmeti paramātmeti bhagavāniti śabdyate ’ iti bhāgavate| ‘bhagavantaṃ paraṃ brahma’ ‘parabrahma janārdanaḥ’ , ‘paramaṃ yo mahadbrahma ’, ‘yasmāt kṣaramatīto'hamakṣarādapi cottamaḥ’, ‘yo'sāvatīndriyagrāhyaḥ’ , ‘nāsti nārāyaṇasamaṃ na bhūtaṃ na bhaviṣyati’, ‘na tvatsamo'styabhyadhikaḥ kuto'nyaḥ’ ityādibhyaḥ| na ca tadbrahmaṇo'śarīratvādetat kalpyam| tasyāpi śarīraśravaṇāt ‘ānandarūpamamṛtam’ , ‘suvarṇajyotiḥ’, ‘daharo'sminnantarākāśaḥ’ ityādiṣu| yadi rūpaṃ na syāt , ānandamityeva syāt , na tvānandarūpamiti| kathaṃ ca suvarṇarūpatvaṃ syādarūpasya ? kathaṃ daharatvam ? daharasthaśca ‘kecit svadeha – ’ ityādau rūpavānucyate| ‘sahasraśīrṣā puruṣaḥ’ , ‘rugmavarṇaṃ kartāram ’ , ‘ādityavarṇaṃ tamasaḥ parastāt’, ‘sarvataḥ pāṇi pādaṃ tat’, ‘viśvataścakṣuruta’ ityādivacanāt| viśvarūpādhyāyādeśca rūpavānavasīyate| atiparipūrṇatama­jñānaiśvarya­vīryānandaśrīśaktyādimāṃśca bhagavān ‘parā'sya śaktirvividhaiva śrūyate svābhāvikī jñānabalakriyā ca’ ‘yaḥ sarvajñaḥ’,‘ānandaṃ brahmaṇaḥ’ ,‘etasyaivānandasyānyāni bhūtāni mātrāmupajīvanti’, ‘anādimadhyāntamanantavīryam’,‘sahasralakṣāmitakāntikāntaḥ’, ‘mayyanantaguṇe'nante guṇato'nantavigrahe’, ‘vijñānaśaktirahamāsamanantaśakteḥ’, ‘turyaṃ tat sarvadṛk sadā’ , ‘ātmānamanyaṃ ca sa veda vidvān’, ‘anyatamo mukundāt ko nāma loke bhagavatpadārthaḥ ’ ¸‘aiśvaryasya samagrasya’| ‘ atīva paripūrṇaṃ te sukhaṃ jñānaṃ ca saubhagam| yaccātyayuktaṃ smartuṃ va śaktaḥ kartumataḥ paraḥ ’ ityādibhyaḥ| tāni ca sarvāṇyanyonyasvarūpāṇi – ‘vijñānamānandaṃ brahma’, ‘ānando brahmeti vyajānāt ’,‘satyaṃ jñānamanantaṃ brahma’, ‘yasya jñānamayaṃ tapaḥ’, ‘sa mā bhaga praviśa svāhā’| ‘ na tasya prākṛtā mūrtirmāṃsamedosthisambhavā| na yogitvādīśvaratvāt satyarūpācyuto vibhuḥ ’ || ‘ saddehaḥ sukhagandhaśca jñānabhāḥ satparākramaḥ| jñānājñānaḥ sukhasukhaḥ sa viṣṇuḥ paramo'kṣaraḥ ’ iti paiṅgīkhile| ‘ deho'yaṃ me sadānando nāyaṃ prakṛtinirmitaḥ| paripūrṇaśca sarvatra tena nārāyaṇo'smyaham ’ ityādibhyo brahmavaivarte| tadeva līlayā cāsau paricchinnādirūpeṇa darśayati māyayā – ‘ na ca garbhe'vasaddevyā na cāpi vasudevataḥ| na cāpi rāghavājjāto na cāpi jamadagnitaḥ| nityānando'dvayo'pyevaṃ krīḍate'moghadarśanaḥ ’ iti pādme| ‘ na vai sa ātmā''tmavatāmadhīśvaro bhuṅte hi duḥkhaṃ bhagavān vāsudevaḥ ’, ‘sargāderīśitā'jaḥ paramasukhanidhirbhodharūpo'pyabhodaṃ lokānāṃ darśayan yo munisutahṛtātmapriyārthe jagāma’| ‘ sa brahmavandyacaraṇo naravat pralāpī strīsaṅgināmiti ratiṃ prathayaṃścakāra ’, ‘ pūrteracintyavīryo yo yaśca dāśarathiḥ svayam| rudravākyamṛtaṃ kartumajito jitavat sthitaḥ|| ‘ yo'jito vijito bhaktyā gāṅgeyaṃ na jaghāna ha| na cāmbāṃ grāhayāmāsa karuṇaḥ ko'parastataḥ ’ ityādibhyaśca skānde na tatra saṃsāradharmā nirūpyāḥ| yatra ca parāvarabhedo'vagamyate tatrājñabuddhimapekṣyāvaratvam| viśvarūpamapekṣyānyatra| taccoktam – ‘ paripūrṇāni rūpāṇi samānyakhilarūpataḥ| tathā'pyapekṣya mandānāṃ dṛṣṭiṃ tvāmṛṣayo'pi tu| parāvaraṃ vadantyevaṃ hyabhaktānāṃ vimohane ’ iti gāruḍe| na cātra kiñcidupacaritā vācyam| acintyaśakteḥ padārthavaicitryāccetyuktam| ‘ kṛṣṇarāmādirūpāṇi paripūrṇāni sarvadā| na cāṇumātraṃ bhinnāni tathā'pyasmān vimohasi ’ ||ityādeśca nāradīye| tasmāt sarvadā sarvarūpeṣvaparigaṇitānānantaguṇagaṇaṃ nityanirastā­śeṣadoṣaṃ ca nārāyaṇākhyaṃ paraṃ brahmāparokṣajñānī ṛcchatīti siddham",
-      "ourRendering": "He sums up by ‘eṣā’. The ‘Brahmic state’ is the abiding whose object is Brahman, the mark. Even at the final time, having abided in it, he goes to Brahman; otherwise he attains another birth, since it will be said ‘whomsoever (one remembers at the end…)’. For knowers too, while commenced karma remains, another body is fitting; for it is said ‘but the others by experience (exhaust their karma)’; and there are indeed some karmas whose fruit is many bodies, as ‘the brāhmaṇa would be (born) in seven lifetimes’ and so on; and it is seen that even knowers attain many bodies. As stated in the Garuḍa: ‘Even the sthita-prajña who is high, having attained the Raudra station, then the Sāṅkarṣaṇa, then went to liberation by the grace of Viṣṇu.’ And in the Nāradīya, ‘O Mahādeva, your liberation is determined in a further birth.’ And knowledge has a determined fruit, by the śrutis ‘for him only so long is there delay’, ‘and he who (goes) to the flame…’ and the rest. Nor is there dependence on a body-aggregate, by the statements ‘as a reed-tuft (is burnt)’, ‘as a lotus-leaf (is not wetted)’, ‘the fire of knowledge (burns up) all karmas’, and the like. But in commenced karma there is no contradiction; and for want of evidence (to the contrary). And that scripture (of the rivals) is not authoritative, since it is censured: ‘Those of little mind who, relying on the doctrine of the followers of Akṣapāda, Kaṇāda, and the matted-haired ones of Sāṅkhya and Yoga, find fault with the Veda…’ But where there is praise, there it is merely the praise of the devotees of Śiva, not its truth; for they have no authority in a matter contradicting the other texts. As stated: ‘I quickly send forth this delusion which will delude men; and you, O Rudra of mighty arm, cause delusion-scriptures to be made — show forth the untrue and the false, O mighty-armed; make yourself manifest and make Me unmanifest.’ — thus in the Vārāha. ‘The base and mixed scriptures Rudra, impelled by Viṣṇu, made — the sages impelled by him, Dadhīci and the rest, the Purāṇas — by the convention of that scripture; while by the Vedas they made the Brahminical (texts), and the Vaiṣṇava from the Viṣṇu-veda: the Pañcarātra, the Bhārata, the original Rāmāyaṇa, and likewise the Purāṇa Bhāgavata — declared the Viṣṇu-veda; hence the Śaiva Purāṇas are to be applied without contradiction to the others’ — thus in the Nāradīya. Therefore for knowers there is indeed liberation; but for Bhīṣma and the rest there was, at that moment, an absence of yogic union. ‘Remembering, he gives up’ — a present-tense designation was made. As stated in the Garuḍa: ‘For knowers joined with karma, when the moment of casting off the body comes, then Viṣṇu’s māyā makes their mind turned outward.’ And for others there is no remembrance at that time: ‘Those who, by the maturing of many births, by devotion and knowledge, worship Hari, the God grants the remembrance of Him at the end, and not otherwise’ — by this statement in the Brahmavaivarta. ‘nirbāṇa’ means bodiless, by the statement ‘kāya, bāṇa, and śarīra (are synonyms for body)’, and by the usage ‘leaning upon this bāṇa (body)’; the establishing of the word nirbāṇa (as ‘bodiless’) is like ‘senseless (anindriya)’ and so forth. How else would the form of the Lord, well-known from all Purāṇas, be intelligible? And there is no supreme Brahman other than the Lord, by ‘He is spoken of as Brahman, as Paramātman, as Bhagavān’ in the Bhāgavata; ‘Bhagavān, the supreme Brahman’, ‘the supreme Brahman is Janārdana’, ‘the supreme who is the great Brahman’, ‘since I am beyond the perishable and higher even than the imperishable’, ‘He who is grasped beyond the senses’, ‘there is none equal to Nārāyaṇa, none has been nor shall be’, ‘there is none equal to you nor greater — whence another?’ and the like. Nor is this to be supposed (a mere figure) because that Brahman is bodiless, since a body too is heard of for It, in ‘the bliss-formed immortal’, ‘golden light’, ‘small is this inner space within (the heart)’ and the like. Were there no form, it would say merely ‘bliss’, not ‘bliss-formed’; and how could there be golden-form-ness for the formless? How dwelling-in-the-small (in the heart)? And the dweller-in-the-small is, in ‘some (see Him) in their own body’ and the like, said to have form. By ‘the Person is thousand-headed’, ‘the golden-hued maker’, ‘sun-hued, beyond darkness’, ‘that has hands and feet on every side’, ‘eyes on every side’ and like statements, and from the Viśvarūpa chapter, He is concluded to have form. And the Lord is possessed of utterly perfect knowledge, lordship, vigor, bliss, beauty, power and the rest, by ‘His supreme power is heard of as manifold; natural is His knowing, strength, and action’, ‘He who is all-knowing’, ‘the bliss of Brahman’, ‘upon a fragment of this very bliss the other beings subsist’, ‘of beginningless, middleless, endless vigor’, ‘of measureless thousand-lakh radiant beauty’, ‘in Me of endless qualities, endless, of qualitatively endless form’, ‘I am of the power of knowledge, of endless power’, ‘the fourth, that all-seeing, ever’, ‘the knower knows the Self and the other’, ‘who in the world is the bhagavat-essence other than Mukunda?’, ‘of entire majesty’; ‘exceedingly full are your bliss, knowledge and good fortune, which the highest is unable even to recollect, let alone to do’ — by these and the rest. And all those (qualities) are of one another’s very nature: ‘knowledge, bliss is Brahman’, ‘bliss is Brahman, he knew’, ‘truth, knowledge, the endless is Brahman’, ‘whose austerity is made of knowledge’, ‘enter Me, O Bhaga, hail’. ‘His form is not material, sprung of flesh, marrow and bone; by His yoga-hood and lordship the truth-formed Acyuta is all-pervading’; ‘possessed of a true body, of pleasing fragrance, shining with knowledge, of true valor, knowing-yet-unknowing, blissful-yet-(beyond)-pleasure — that Viṣṇu is the supreme imperishable’ — thus in the Paiṅgī-khila. ‘This body of Mine is ever-blissful, not fashioned of nature, and full everywhere; therefore I am Nārāyaṇa’ — by these and the rest in the Brahmavaivarta. That very (Lord), in sport, shows Himself by māyā in a seemingly limited form: ‘He neither dwelt in the womb of the goddess, nor (was He born) of Vasudeva, nor born of Rāghava, nor of Jamadagni; ever-blissful, non-dual, yet thus He sports, of unfailing vision’ — thus in the Pādma. ‘That Self, the over-lord of the self-possessed, the Lord Vāsudeva, does not (really) experience suffering’; ‘the ruler of creation and the rest, the unborn, the treasure of supreme bliss, of the form of awareness, yet showing unawareness to the worlds, who went for the sake of the dear one whose self was stolen by the sage’s son’; ‘He whose feet are worshipped by Brahmā, prattling like a man, spread out love among the women’; ‘He of inconceivable vigor through (the merit of) the (Pūrta) rites, and He who is Himself the son of Daśaratha, the unconquered, to make Rudra’s word true, stood as if conquered’; ‘He who, unconquered, was conquered by devotion, did not slay the son of Gaṅgā (Bhīṣma), nor caused Ambā to be seized — who, the compassionate, is there more so than He?’ — by these and the rest in the Skānda, the attributes of saṃsāra are not to be predicated of Him. And where a difference of higher and lower is understood, there the lower-ness is in dependence on the understanding of the ignorant; elsewhere (it is) the universal form. As stated: ‘His forms are utterly full, all alike from the standpoint of all form; yet, having regard to the sight of the dull, the seers too speak of higher and lower thus, for the deluding of the non-devotees’ — thus in the Garuḍa. Nor is anything here to be called figurative; for it is said that, by reason of His inconceivable power and the manifoldness of things, (all is literally true). ‘The forms of Kṛṣṇa, Rāma and the rest are ever utterly full, not differing by even an atom; yet thus do You delude us’ and the like, in the Nāradīya. Therefore the knower of the direct knowledge attains the supreme Brahman named Nārāyaṇa, who, in all His forms always, is of innumerable endless hosts of qualities and ever free of every fault — this is established.",
+      "ourRendering": "He sums up by ‘eṣā’. The ‘Brahmic state’ is the abiding whose object is Brahman, the mark. Even at the final time, having abided in it, he goes to Brahman; otherwise he attains another birth, since it will be said ‘whomsoever (one remembers at the end…)’. For knowers too, while commenced karma remains, another body is fitting; for it is said ‘but the others by experience (exhaust their karma)’; and there are indeed some karmas whose fruit is many bodies, as ‘the brāhmaṇa would be (born) in seven lifetimes’ and so on; and it is seen that even knowers attain many bodies. As stated in the Garuḍa: ‘Even the sthita-prajña who is high, having attained the Raudra station, then the Sāṅkarṣaṇa, then went to liberation by the grace of Viṣṇu.’ And in the Nāradīya, ‘O Mahādeva, your liberation is determined in a further birth.’ And knowledge has a determined fruit, by the śrutis ‘for him only so long is there delay’, ‘and he who (goes) to the flame…’ and the rest. Nor is there dependence on a body-aggregate, by the statements ‘as a reed-tuft (is burnt)’, ‘as a lotus-leaf (is not wetted)’, ‘the fire of knowledge (burns up) all karmas’, and the like. But in commenced karma there is no contradiction; and for want of evidence (to the contrary). And that scripture (of the rivals) is not authoritative, since it is censured: ‘Those of little mind who, relying on the doctrine of the followers of Akṣapāda, Kaṇāda, and the matted-haired ones of Sāṅkhya and Yoga, find fault with the Veda…’ But where there is praise, there it is merely the praise of the devotees of Śiva, not its truth; for they have no authority in a matter contradicting the other texts. As stated: ‘I quickly send forth this moha which will delude men; and you, O Rudra of mighty arm, cause moha-scriptures (the delusion that clouds discernment) to be made — show forth the untrue and the false, O mighty-armed; make yourself manifest and make Me unmanifest.’ — thus in the Vārāha. ‘The base and mixed scriptures Rudra, impelled by Viṣṇu, made — the sages impelled by him, Dadhīci and the rest, the Purāṇas — by the convention of that scripture; while by the Vedas they made the Brahminical (texts), and the Vaiṣṇava from the Viṣṇu-veda: the Pañcarātra, the Bhārata, the original Rāmāyaṇa, and likewise the Purāṇa Bhāgavata — declared the Viṣṇu-veda; hence the Śaiva Purāṇas are to be applied without contradiction to the others’ — thus in the Nāradīya. Therefore for knowers there is indeed liberation; but for Bhīṣma and the rest there was, at that moment, an absence of yogic union. ‘Remembering, he gives up’ — a present-tense designation was made. As stated in the Garuḍa: ‘For knowers joined with karma, when the moment of casting off the body comes, then Viṣṇu’s māyā makes their mind turned outward.’ And for others there is no remembrance at that time: ‘Those who, by the maturing of many births, by devotion and knowledge, worship Hari, the God grants the remembrance of Him at the end, and not otherwise’ — by this statement in the Brahmavaivarta. ‘nirbāṇa’ means bodiless, by the statement ‘kāya, bāṇa, and śarīra (are synonyms for body)’, and by the usage ‘leaning upon this bāṇa (body)’; the establishing of the word nirbāṇa (as ‘bodiless’) is like ‘senseless (anindriya)’ and so forth. How else would the form of the Lord, well-known from all Purāṇas, be intelligible? And there is no supreme Brahman other than the Lord, by ‘He is spoken of as Brahman, as Paramātman, as Bhagavān’ in the Bhāgavata; ‘Bhagavān, the supreme Brahman’, ‘the supreme Brahman is Janārdana’, ‘the supreme who is the great Brahman’, ‘since I am beyond the perishable and higher even than the imperishable’, ‘He who is grasped beyond the senses’, ‘there is none equal to Nārāyaṇa, none has been nor shall be’, ‘there is none equal to you nor greater — whence another?’ and the like. Nor is this to be supposed (a mere figure) because that Brahman is bodiless, since a body too is heard of for It, in ‘the bliss-formed immortal’, ‘golden light’, ‘small is this inner space within (the heart)’ and the like. Were there no form, it would say merely ‘bliss’, not ‘bliss-formed’; and how could there be golden-form-ness for the formless? How dwelling-in-the-small (in the heart)? And the dweller-in-the-small is, in ‘some (see Him) in their own body’ and the like, said to have form. By ‘the Person is thousand-headed’, ‘the golden-hued maker’, ‘sun-hued, beyond darkness’, ‘that has hands and feet on every side’, ‘eyes on every side’ and like statements, and from the Viśvarūpa chapter, He is concluded to have form. And the Lord is possessed of utterly perfect knowledge, lordship, vigor, bliss, beauty, power and the rest, by ‘His supreme power is heard of as manifold; natural is His knowing, strength, and action’, ‘He who is all-knowing’, ‘the bliss of Brahman’, ‘upon a fragment of this very bliss the other beings subsist’, ‘of beginningless, middleless, endless vigor’, ‘of measureless thousand-lakh radiant beauty’, ‘in Me of endless qualities, endless, of qualitatively endless form’, ‘I am of the power of knowledge, of endless power’, ‘the fourth, that all-seeing, ever’, ‘the knower knows the Self and the other’, ‘who in the world is the bhagavat-essence other than Mukunda?’, ‘of entire majesty’; ‘exceedingly full are your bliss, knowledge and good fortune, which the highest is unable even to recollect, let alone to do’ — by these and the rest. And all those (qualities) are of one another’s very nature: ‘knowledge, bliss is Brahman’, ‘bliss is Brahman, he knew’, ‘truth, knowledge, the endless is Brahman’, ‘whose austerity is made of knowledge’, ‘enter Me, O Bhaga, hail’. ‘His form is not material, sprung of flesh, marrow and bone; by His yoga-hood and lordship the truth-formed Acyuta is all-pervading’; ‘possessed of a true body, of pleasing fragrance, shining with knowledge, of true valor, knowing-yet-unknowing, blissful-yet-(beyond)-pleasure — that Viṣṇu is the supreme imperishable’ — thus in the Paiṅgī-khila. ‘This body of Mine is ever-blissful, not fashioned of nature, and full everywhere; therefore I am Nārāyaṇa’ — by these and the rest in the Brahmavaivarta. That very (Lord), in sport, shows Himself by māyā in a seemingly limited form: ‘He neither dwelt in the womb of the goddess, nor (was He born) of Vasudeva, nor born of Rāghava, nor of Jamadagni; ever-blissful, non-dual, yet thus He sports, of unfailing vision’ — thus in the Pādma. ‘That Self, the over-lord of the self-possessed, the Lord Vāsudeva, does not (really) experience suffering’; ‘the ruler of creation and the rest, the unborn, the treasure of supreme bliss, of the form of awareness, yet showing unawareness to the worlds, who went for the sake of the dear one whose self was stolen by the sage’s son’; ‘He whose feet are worshipped by Brahmā, prattling like a man, spread out love among the women’; ‘He of inconceivable vigor through (the merit of) the (Pūrta) rites, and He who is Himself the son of Daśaratha, the unconquered, to make Rudra’s word true, stood as if conquered’; ‘He who, unconquered, was conquered by devotion, did not slay the son of Gaṅgā (Bhīṣma), nor caused Ambā to be seized — who, the compassionate, is there more so than He?’ — by these and the rest in the Skānda, the attributes of saṃsāra are not to be predicated of Him. And where a difference of higher and lower is understood, there the lower-ness is in dependence on the understanding of the ignorant; elsewhere (it is) the universal form. As stated: ‘His forms are utterly full, all alike from the standpoint of all form; yet, having regard to the sight of the dull, the seers too speak of higher and lower thus, for the deluding of the non-devotees’ — thus in the Garuḍa. Nor is anything here to be called figurative; for it is said that, by reason of His inconceivable power and the manifoldness of things, (all is literally true). ‘The forms of Kṛṣṇa, Rāma and the rest are ever utterly full, not differing by even an atom; yet thus do You delude us’ and the like, in the Nāradīya. Therefore the knower of the direct knowledge attains the supreme Brahman named Nārāyaṇa, who, in all His forms always, is of innumerable endless hosts of qualities and ever free of every fault — this is established.",
       "source": "data/sources/sanskrit/vedanta/madhva_gita_bhasya.txt (srimadhvyasa.wordpress.com, Unicode ed. of Madhva's Gītā-bhāṣya)",
       "words": [
         {
@@ -81706,7 +82034,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular neuter"
         }
       ],
-      "english": "{0:He sums up} by {1:‘eṣā’}. The {3:‘Brahmic’} {4:state} is {6:the abiding} {5:whose object is Brahman}, {7:the mark}. {8:Even at the final time}, {9:even} {11:having abided} {10:in it}, {14:he goes} {13:to Brahman}; {15:otherwise} {17:he attains} {16:another birth}, since {23:it will be said} {18:‘whom} {19:whomsoever} {20:or} {21:even}{22:’} (one remembers at the end). For {24:knowers} {25:too}, {26:while} {27:commenced karma} remains, {28:another body} {29:is fitting}; for {35:it is said} {30:‘but by experience} {32:the others}{33:’} (exhaust their karma); and {36:there are} {37:indeed} {40:some} {39:karmas} {38:whose fruit is many bodies}, as {42:‘the brāhmaṇa} {43:would be (born)} {41:in seven lifetimes’} {44:and} {45:so on}; and {46:it is seen} {49:that even} {48:knowers} {50:attain many bodies}. As {53:stated} {52:for} it in {68:the Garuḍa}: {54:‘Even the sthita-prajña} {55:even} {56:who} {57:indeed} {58:is high}, {59:having attained} {60:the Raudra station}, {61:then} {63:then} {62:the Sāṅkarṣaṇa}, {65:went} {64:to liberation} {66:by the grace of Viṣṇu}{67:’}. And in {76:the Nāradīya}, {69:‘O Mahādeva}, {72:your} {73:liberation} {74:is determined} {70:in a further} {71:birth}{75:’}. And {79:knowledge} {77:has a determined fruit} {78:and}, by the {93:śrutis} {80:‘for him} {81:so long} {82:only} is there {83:delay’}, {84:‘and he who} {85:indeed} {86:and} {88:to the flame} {89:indeed} {90:attains’} {91:and} {92:the rest}. {94:Nor} {95:and} is there {96:dependence on a body-aggregate}, by the {108:statements} {97:‘that} {98:as} {99:a reed-tuft’} (is burnt), {100:‘that} {101:as} {102:a lotus-leaf’} (is not wetted), {103:‘the fire of knowledge} (burns up) {104:all} {105:karmas’} {106:and} {107:the like}. {110:But} {109:in commenced karma} {111:there is no contradiction}; {113:and} {112:for want of evidence} (to the contrary). {114:And} {115:that} {116:scripture} {117:is not authoritative}, since {127:it is censured}: {125:‘Those of little mind} {122:who}, {121:relying on} {120:the doctrine} {118:of the followers of Akṣapāda and Kaṇāda} {119:and the matted-haired of Sāṅkhya and Yoga}, {124:find fault with} {123:the Veda}’ {126:thus}. But {128:where} {129:but} there is {130:praise}, {131:there} it is {133:merely the character of praise} {134:merely} {132:of the devotees of Śiva}, {135:not} {136:its truth}; for {139:they} {137:have} {138:for} {140:even} {142:no authority} {141:in a matter contradicting the other texts}. {143:Likewise} {144:for} {145:it is said}: {146:‘This} {147:delusion} {148:I send forth} {149:quickly}, {150:which} {152:will delude} {151:men}; {153:and you}, {155:O Rudra} {156:of mighty arm}, {158:cause to be made} {157:delusion-scriptures} — {161:show forth} {159:the untrue} {160:the false}, {162:O mighty-armed}; {164:make} {166:yourself} {163:manifest} {165:and} {170:make} {169:Me} {167:unmanifest} {168:and}’ — {171:thus} in {172:the Vārāha}. {173:‘The base} {174:and} {175:mixed} {179:scriptures} {176:Rudra}, {177:impelled by Viṣṇu}, {178:made} — {180:the all-pervading one}; {181:the sages} {182:impelled by him}, {183:Dadhīci and the rest}, {184:the Purāṇas} {185:by the convention of that scripture} {186:while}; {188:by the Vedas} {189:and} {187:they made} {190:the Brahminical texts}, and {191:the Vaiṣṇava} {192:from the Viṣṇu-veda}: {193:the Pañcarātra}, {194:the Bhārata} {195:and}, {196:the original Rāmāyaṇa} {197:and likewise}, {198:and likewise} {200:the Bhāgavata} {199:Purāṇa} {201:is the Viṣṇu-veda} {203:declared} {202:thus}; {204:hence} {205:the Śaiva Purāṇas} {206:are to be applied} {207:without contradiction to the others}’ {208:thus} {209:and} in {210:the Nāradīya}. {211:Therefore} for {212:knowers} {213:there is} {214:indeed} {215:liberation}; {217:but} for {216:Bhīṣma and the rest} {218:at that moment} there was {219:an absence of yogic union}. {220:‘Remembering}, {221:he gives up’} {222:thus} — {223:a present-tense designation} {224:indeed} {225:was made}. {226:That} {227:and} {228:is stated} in {241:the Garuḍa}: {229:‘For knowers} {230:joined with karma}, {232:when} {231:the moment of casting off the body} comes, {234:then} {233:Viṣṇu’s māyā} {238:makes} {235:their} {236:mind} {237:outward} {239:indeed}’. {242:And} {243:nor} {247:is there} {246:remembrance} {244:of others} {245:at that time}: {250:‘Those who}, {248:by the maturing of many births}, {249:by devotion and knowledge}, {252:worship} {251:Hari}, {256:the God} {257:grants} {253:the remembrance of Him} {255:at the end} {254:indeed}, {258:and not} {259:and} {260:otherwise’} — by {262:this statement} {261:thus} in {263:the Brahmavaivarta}. {264:The word nirvāṇa} {265:means bodiless}, by the {271:statement} {266:‘kāya}, {267:bāṇa} {268:and śarīra} {269:and’} {270:thus} (are synonyms for body), and by the {276:usage} {274:‘leaning upon} {272:this} {273:bāṇa (body)’} {275:thus} {277:and}; {278:the establishing of the word nirbāṇa} is like {279:‘senseless’} {280:thus} {281:and the like}. {282:How} {283:else} would {285:the form} {284:well-known from all the Purāṇas} {286:of the Lord} {287:be intelligible}? {288:And} {289:nor} is there {290:other} {293:supreme Brahman} {292:supreme} {291:than the Lord}, by {294:‘Brahman} {295:as}, {296:Paramātman} {297:as}, {298:Bhagavān} {299:as} {300:He is spoken of’} {301:thus} in {302:the Bhāgavata}; {303:‘Bhagavān}, {304:the supreme} {305:Brahman’}, {306:‘the supreme Brahman} {307:is Janārdana’}, {308:‘the supreme} {309:who} {310:is the great Brahman’}, {311:‘since} {313:beyond} {312:the perishable} {314:I am} {316:and even} {317:and} {318:higher} {315:than the imperishable’}, {319:‘He who}, {320:that one}, {321:is grasped beyond the senses’}, {322:‘there is} {323:not} {324:equal to Nārāyaṇa}, {325:nor} {326:has been} {327:nor} {328:shall be’}, {329:‘there is} {331:not} {330:equal to you} {332:nor greater} — {333:whence} {334:another?’} {335:thus} {336:and the like}. {337:Nor} {338:and} is {341:this} {342:to be supposed} (a mere figure) {340:because of the bodilessness} {339:of that Brahman}, since {345:a body is heard of} {343:for it} {344:too}, in {346:‘the bliss-formed} {347:immortal’}, {348:‘golden light’}, {349:‘small} {351:is the inner space} {350:within this} (heart)’ {352:thus} {353:and the like}. {354:If} {355:form} {357:were} {356:not}, {358:‘bliss’} {360:merely} {359:thus} {361:it would say}, {362:not} {363:but} {364:‘bliss-formed’} {365:thus}; and {366:how} {367:and} {369:could there be} {368:golden-form-ness} {370:for the formless}? {371:How} {372:dwelling-in-the-small}? And {373:the dweller-in-the-small} {374:and} is, in {378:the passage} {375:‘some} (see Him) in {376:their own body’} {377:thus}, {380:said to be} {379:having form}. By {381:‘thousand-headed} {382:is the Person’}, {383:‘the golden-hued} {384:maker’}, {385:‘sun-hued}, {387:beyond} {386:darkness’}, {389:‘hands and feet} {388:on every side} {390:that has’}, {391:‘on every side} {392:eye} {393:also’} {394:thus} {395:and like statements}, {397:and} {396:from the Viśvarūpa chapter etc.}, {399:He is concluded to be} {398:having form}. {401:And} {402:the Lord} is {400:possessed of utterly perfect knowledge, lordship, vigor, bliss, beauty, power and the rest}, by {403:‘His supreme} {404:His} {405:power} {408:is heard of} {406:as manifold} {407:indeed}; {409:natural} is {410:His knowing, strength, and action} {411:and’}, {412:‘He who} {413:is all-knowing’}, {414:‘the bliss} {415:of Brahman’}, {420:‘the other beings} {419:other} {422:subsist upon} {421:a fragment} {416:of this} {417:very} {418:bliss’}, {423:‘of beginningless, middleless, endless} {424:endless vigor’}, {425:‘of measureless thousand-lakh radiant beauty’}, {426:‘in Me} {427:of endless qualities}, {428:endless}, {429:qualitatively} {430:of endless form’}, {431:‘of the power of knowledge} {432:I} {433:am}, {434:of endless power’}, {435:‘the fourth}, {436:that} {437:all-seeing}, {438:ever’}, {439:‘the Self} {440:and the other} {441:and} {443:knows} {442:he} {444:the knower’}, {445:‘who other} {446:than Mukunda} {447:who} {448:indeed} {450:is the bhagavat-essence} {449:in the world?’}, {451:‘of majesty} {452:entire’}; {453:‘exceedingly} {454:full} {455:are your} {456:bliss}, {457:knowledge} {458:and} {459:good fortune}, {460:which} {461:and} {462:is utterly impossible} {463:to recollect}, {464:let alone} {466:to do} {465:able}, {468:the highest} {467:than this’} — by {470:these and the rest} {469:thus}. {471:And those} {472:and} {473:all} are {474:of one another’s very nature}: {475:‘knowledge}, {476:bliss} {477:is Brahman’}, {478:‘bliss} {479:is Brahman}, {481:he knew’} {480:thus}, {482:‘truth}, {483:knowledge}, {484:the endless} {485:is Brahman’}, {486:‘whose} {487:made of knowledge} {488:is austerity’}, {489:‘he} {490:me} {491:O Bhaga}, {492:enter} {493:hail’}. {494:‘not} {495:His} {496:material} {497:form} {498:sprung of flesh, marrow and bone}; {499:not} by {500:His yoga-hood} {501:and lordship} {502:the truth-formed} {503:Acyuta} {504:is all-pervading’}; {505:‘possessed of a true body}, {506:of pleasing fragrance} {507:and}, {508:shining with knowledge}, {509:of true valor}, {510:knowing-yet-unknowing}, {511:blissful-yet-(beyond)-pleasure} — {512:that} {513:Viṣṇu} {514:is the supreme} {515:imperishable’} — {516:thus} in {517:the Paiṅgī-khila}. {518:‘This body} {519:this} {520:of Mine} {521:is ever-blissful}, {522:not} {523:this} {524:fashioned of nature}, {525:and full} {526:and} {527:everywhere}; {528:therefore} {531:I} {530:am} {529:Nārāyaṇa’} {532:thus} — by {533:these and the rest} in {534:the Brahmavaivarta}. {535:That very (Lord)} {536:very}, {537:in sport} {538:and}, {539:He} {541:shows} Himself {542:by māyā} {540:in a seemingly limited form}: {543:‘neither} {544:and} {546:did He dwell} {545:in the womb} {547:of the goddess}, {548:nor} {549:and} {550:also} (was He born) {551:of Vasudeva}, {552:nor} {553:and} {554:also} {556:born} {555:of Rāghava}, {557:nor} {558:and} {559:also} {560:of Jamadagni}; {561:ever-blissful}, {562:non-dual}, {563:yet} {564:thus} {565:He sports}, {566:of unfailing vision’} — {567:thus} in {568:the Pādma}. {569:‘not} {570:indeed} {571:that} {572:Self}, {574:the over-lord} {573:of the self-possessed}, {578:the Lord} {579:Vāsudeva}, {575:does (really) experience} {576:indeed} {577:suffering’}; {581:‘the ruler} {580:of creation and the rest}, {582:the unborn}, {583:the treasure of supreme bliss}, {584:of the form of awareness}, {585:yet} {588:showing} {586:unawareness} {587:to the worlds}, {589:who} {591:went} {590:for the sake of the dear one whose self was stolen by the sage’s son’}; {592:‘He} {593:whose feet are worshipped by Brahmā}, {595:prattling} {594:like a man}, {599:spread out} {598:love} {596:among the women} {597:thus} {600:made’}; {602:‘of inconceivable vigor} {601:through the (Pūrta) rites}, {603:who} {604:and who} {605:and} {606:is the son of Daśaratha} {607:himself}, {610:to make} {608:Rudra’s word} {609:true}, {611:the unconquered} {613:stood} {612:as if conquered’}; {614:‘who}, {615:unconquered}, {616:was conquered} {617:by devotion}, {619:did not} {620:slay} {621:indeed} {618:the son of Gaṅgā}, {622:nor} {623:and} {625:caused to be seized} {624:Ambā}, {626:who, the compassionate}, {627:who} {628:is there more so} {629:than He?’} — by {631:these and the rest} {630:thus} {632:and} in {633:the Skānda}, {634:not} {635:in Him} {636:the attributes of saṃsāra} {637:are to be predicated}. And {638:where} {639:and} {640:a difference of higher and lower} {641:is understood}, {642:there} {644:in dependence on} {643:the understanding of the ignorant} is {645:the lower-ness}; {648:elsewhere} (it is) {646:the universal form} {647:having regard to}. {649:That} {650:and} {651:is stated}: {652:‘utterly full} are {653:the forms}, {654:all alike} {655:from the standpoint of all form}; {656:yet} {657:even}, {658:having regard to} {659:of the dull} {660:the sight}, {662:the seers} {663:too} {664:indeed} {661:you} {666:speak of} {665:higher and lower} {667:thus}, {668:for} {670:the deluding} {669:of the non-devotees’} — {671:thus} in {672:the Garuḍa}. {673:Nor} {674:and} {675:here} is {676:anything} {678:to be called} {677:figurative}; for {683:it is said} that, {679:by reason of His inconceivable power} {680:and the manifoldness of things} {681:and} {682:thus}, (all is literally true). {684:‘The forms of Kṛṣṇa, Rāma and the rest} {685:are utterly full} {686:ever}, {687:not} {688:and} {690:differing} {689:by even an atom}; {691:yet} {692:even} {694:You delude} {693:us’} {695:thus} {696:and the like} {697:and}, in {698:the Nāradīya}. {699:Therefore} {709:attains} {708:the knower of the direct knowledge} {706:the supreme} {707:Brahman} {705:named Nārāyaṇa}, who, {700:always} {701:in all His forms}, is {702:of innumerable endless hosts of qualities} {704:and} {703:ever free of every fault} — {710:thus} {711:this is established}.",
+      "english": "{0:He sums up} by {1:‘eṣā’}. The {3:‘Brahmic’} {4:state} is {6:the abiding} {5:whose object is Brahman}, {7:the mark}. {8:Even at the final time}, {9:even} {11:having abided} {10:in it}, {14:he goes} {13:to Brahman}; {15:otherwise} {17:he attains} {16:another birth}, since {23:it will be said} {18:‘whom} {19:whomsoever} {20:or} {21:even}{22:’} (one remembers at the end). For {24:knowers} {25:too}, {26:while} {27:commenced karma} remains, {28:another body} {29:is fitting}; for {35:it is said} {30:‘but by experience} {32:the others}{33:’} (exhaust their karma); and {36:there are} {37:indeed} {40:some} {39:karmas} {38:whose fruit is many bodies}, as {42:‘the brāhmaṇa} {43:would be (born)} {41:in seven lifetimes’} {44:and} {45:so on}; and {46:it is seen} {49:that even} {48:knowers} {50:attain many bodies}. As {53:stated} {52:for} it in {68:the Garuḍa}: {54:‘Even the sthita-prajña} {55:even} {56:who} {57:indeed} {58:is high}, {59:having attained} {60:the Raudra station}, {61:then} {63:then} {62:the Sāṅkarṣaṇa}, {65:went} {64:to liberation} {66:by the grace of Viṣṇu}{67:’}. And in {76:the Nāradīya}, {69:‘O Mahādeva}, {72:your} {73:liberation} {74:is determined} {70:in a further} {71:birth}{75:’}. And {79:knowledge} {77:has a determined fruit} {78:and}, by the {93:śrutis} {80:‘for him} {81:so long} {82:only} is there {83:delay’}, {84:‘and he who} {85:indeed} {86:and} {88:to the flame} {89:indeed} {90:attains’} {91:and} {92:the rest}. {94:Nor} {95:and} is there {96:dependence on a body-aggregate}, by the {108:statements} {97:‘that} {98:as} {99:a reed-tuft’} (is burnt), {100:‘that} {101:as} {102:a lotus-leaf’} (is not wetted), {103:‘the fire of knowledge} (burns up) {104:all} {105:karmas’} {106:and} {107:the like}. {110:But} {109:in commenced karma} {111:there is no contradiction}; {113:and} {112:for want of evidence} (to the contrary). {114:And} {115:that} {116:scripture} {117:is not authoritative}, since {127:it is censured}: {125:‘Those of little mind} {122:who}, {121:relying on} {120:the doctrine} {118:of the followers of Akṣapāda and Kaṇāda} {119:and the matted-haired of Sāṅkhya and Yoga}, {124:find fault with} {123:the Veda}’ {126:thus}. But {128:where} {129:but} there is {130:praise}, {131:there} it is {133:merely the character of praise} {134:merely} {132:of the devotees of Śiva}, {135:not} {136:its truth}; for {139:they} {137:have} {138:for} {140:even} {142:no authority} {141:in a matter contradicting the other texts}. {143:Likewise} {144:for} {145:it is said}: {146:‘This} {147:delusion} {148:I send forth} {149:quickly}, {150:which} {152:will delude} {151:men}; {153:and you}, {155:O Rudra} {156:of mighty arm}, {158:cause to be made} {157:moha-scriptures (the delusion that clouds discernment)} — {161:show forth} {159:the untrue} {160:the false}, {162:O mighty-armed}; {164:make} {166:yourself} {163:manifest} {165:and} {170:make} {169:Me} {167:unmanifest} {168:and}’ — {171:thus} in {172:the Vārāha}. {173:‘The base} {174:and} {175:mixed} {179:scriptures} {176:Rudra}, {177:impelled by Viṣṇu}, {178:made} — {180:the all-pervading one}; {181:the sages} {182:impelled by him}, {183:Dadhīci and the rest}, {184:the Purāṇas} {185:by the convention of that scripture} {186:while}; {188:by the Vedas} {189:and} {187:they made} {190:the Brahminical texts}, and {191:the Vaiṣṇava} {192:from the Viṣṇu-veda}: {193:the Pañcarātra}, {194:the Bhārata} {195:and}, {196:the original Rāmāyaṇa} {197:and likewise}, {198:and likewise} {200:the Bhāgavata} {199:Purāṇa} {201:is the Viṣṇu-veda} {203:declared} {202:thus}; {204:hence} {205:the Śaiva Purāṇas} {206:are to be applied} {207:without contradiction to the others}’ {208:thus} {209:and} in {210:the Nāradīya}. {211:Therefore} for {212:knowers} {213:there is} {214:indeed} {215:liberation}; {217:but} for {216:Bhīṣma and the rest} {218:at that moment} there was {219:an absence of yogic union}. {220:‘Remembering}, {221:he gives up’} {222:thus} — {223:a present-tense designation} {224:indeed} {225:was made}. {226:That} {227:and} {228:is stated} in {241:the Garuḍa}: {229:‘For knowers} {230:joined with karma}, {232:when} {231:the moment of casting off the body} comes, {234:then} {233:Viṣṇu’s māyā} {238:makes} {235:their} {236:mind} {237:outward} {239:indeed}’. {242:And} {243:nor} {247:is there} {246:remembrance} {244:of others} {245:at that time}: {250:‘Those who}, {248:by the maturing of many births}, {249:by devotion and knowledge}, {252:worship} {251:Hari}, {256:the God} {257:grants} {253:the remembrance of Him} {255:at the end} {254:indeed}, {258:and not} {259:and} {260:otherwise’} — by {262:this statement} {261:thus} in {263:the Brahmavaivarta}. {264:The word nirvāṇa} {265:means bodiless}, by the {271:statement} {266:‘kāya}, {267:bāṇa} {268:and śarīra} {269:and’} {270:thus} (are synonyms for body), and by the {276:usage} {274:‘leaning upon} {272:this} {273:bāṇa (body)’} {275:thus} {277:and}; {278:the establishing of the word nirbāṇa} is like {279:‘senseless’} {280:thus} {281:and the like}. {282:How} {283:else} would {285:the form} {284:well-known from all the Purāṇas} {286:of the Lord} {287:be intelligible}? {288:And} {289:nor} is there {290:other} {293:supreme Brahman} {292:supreme} {291:than the Lord}, by {294:‘Brahman} {295:as}, {296:Paramātman} {297:as}, {298:Bhagavān} {299:as} {300:He is spoken of’} {301:thus} in {302:the Bhāgavata}; {303:‘Bhagavān}, {304:the supreme} {305:Brahman’}, {306:‘the supreme Brahman} {307:is Janārdana’}, {308:‘the supreme} {309:who} {310:is the great Brahman’}, {311:‘since} {313:beyond} {312:the perishable} {314:I am} {316:and even} {317:and} {318:higher} {315:than the imperishable’}, {319:‘He who}, {320:that one}, {321:is grasped beyond the senses’}, {322:‘there is} {323:not} {324:equal to Nārāyaṇa}, {325:nor} {326:has been} {327:nor} {328:shall be’}, {329:‘there is} {331:not} {330:equal to you} {332:nor greater} — {333:whence} {334:another?’} {335:thus} {336:and the like}. {337:Nor} {338:and} is {341:this} {342:to be supposed} (a mere figure) {340:because of the bodilessness} {339:of that Brahman}, since {345:a body is heard of} {343:for it} {344:too}, in {346:‘the bliss-formed} {347:immortal’}, {348:‘golden light’}, {349:‘small} {351:is the inner space} {350:within this} (heart)’ {352:thus} {353:and the like}. {354:If} {355:form} {357:were} {356:not}, {358:‘bliss’} {360:merely} {359:thus} {361:it would say}, {362:not} {363:but} {364:‘bliss-formed’} {365:thus}; and {366:how} {367:and} {369:could there be} {368:golden-form-ness} {370:for the formless}? {371:How} {372:dwelling-in-the-small}? And {373:the dweller-in-the-small} {374:and} is, in {378:the passage} {375:‘some} (see Him) in {376:their own body’} {377:thus}, {380:said to be} {379:having form}. By {381:‘thousand-headed} {382:is the Person’}, {383:‘the golden-hued} {384:maker’}, {385:‘sun-hued}, {387:beyond} {386:darkness’}, {389:‘hands and feet} {388:on every side} {390:that has’}, {391:‘on every side} {392:eye} {393:also’} {394:thus} {395:and like statements}, {397:and} {396:from the Viśvarūpa chapter etc.}, {399:He is concluded to be} {398:having form}. {401:And} {402:the Lord} is {400:possessed of utterly perfect knowledge, lordship, vigor, bliss, beauty, power and the rest}, by {403:‘His supreme} {404:His} {405:power} {408:is heard of} {406:as manifold} {407:indeed}; {409:natural} is {410:His knowing, strength, and action} {411:and’}, {412:‘He who} {413:is all-knowing’}, {414:‘the bliss} {415:of Brahman’}, {420:‘the other beings} {419:other} {422:subsist upon} {421:a fragment} {416:of this} {417:very} {418:bliss’}, {423:‘of beginningless, middleless, endless} {424:endless vigor’}, {425:‘of measureless thousand-lakh radiant beauty’}, {426:‘in Me} {427:of endless qualities}, {428:endless}, {429:qualitatively} {430:of endless form’}, {431:‘of the power of knowledge} {432:I} {433:am}, {434:of endless power’}, {435:‘the fourth}, {436:that} {437:all-seeing}, {438:ever’}, {439:‘the Self} {440:and the other} {441:and} {443:knows} {442:he} {444:the knower’}, {445:‘who other} {446:than Mukunda} {447:who} {448:indeed} {450:is the bhagavat-essence} {449:in the world?’}, {451:‘of majesty} {452:entire’}; {453:‘exceedingly} {454:full} {455:are your} {456:bliss}, {457:knowledge} {458:and} {459:good fortune}, {460:which} {461:and} {462:is utterly impossible} {463:to recollect}, {464:let alone} {466:to do} {465:able}, {468:the highest} {467:than this’} — by {470:these and the rest} {469:thus}. {471:And those} {472:and} {473:all} are {474:of one another’s very nature}: {475:‘knowledge}, {476:bliss} {477:is Brahman’}, {478:‘bliss} {479:is Brahman}, {481:he knew’} {480:thus}, {482:‘truth}, {483:knowledge}, {484:the endless} {485:is Brahman’}, {486:‘whose} {487:made of knowledge} {488:is austerity’}, {489:‘he} {490:me} {491:O Bhaga}, {492:enter} {493:hail’}. {494:‘not} {495:His} {496:material} {497:form} {498:sprung of flesh, marrow and bone}; {499:not} by {500:His yoga-hood} {501:and lordship} {502:the truth-formed} {503:Acyuta} {504:is all-pervading’}; {505:‘possessed of a true body}, {506:of pleasing fragrance} {507:and}, {508:shining with knowledge}, {509:of true valor}, {510:knowing-yet-unknowing}, {511:blissful-yet-(beyond)-pleasure} — {512:that} {513:Viṣṇu} {514:is the supreme} {515:imperishable’} — {516:thus} in {517:the Paiṅgī-khila}. {518:‘This body} {519:this} {520:of Mine} {521:is ever-blissful}, {522:not} {523:this} {524:fashioned of nature}, {525:and full} {526:and} {527:everywhere}; {528:therefore} {531:I} {530:am} {529:Nārāyaṇa’} {532:thus} — by {533:these and the rest} in {534:the Brahmavaivarta}. {535:That very (Lord)} {536:very}, {537:in sport} {538:and}, {539:He} {541:shows} Himself {542:by māyā} {540:in a seemingly limited form}: {543:‘neither} {544:and} {546:did He dwell} {545:in the womb} {547:of the goddess}, {548:nor} {549:and} {550:also} (was He born) {551:of Vasudeva}, {552:nor} {553:and} {554:also} {556:born} {555:of Rāghava}, {557:nor} {558:and} {559:also} {560:of Jamadagni}; {561:ever-blissful}, {562:non-dual}, {563:yet} {564:thus} {565:He sports}, {566:of unfailing vision’} — {567:thus} in {568:the Pādma}. {569:‘not} {570:indeed} {571:that} {572:Self}, {574:the over-lord} {573:of the self-possessed}, {578:the Lord} {579:Vāsudeva}, {575:does (really) experience} {576:indeed} {577:suffering’}; {581:‘the ruler} {580:of creation and the rest}, {582:the unborn}, {583:the treasure of supreme bliss}, {584:of the form of awareness}, {585:yet} {588:showing} {586:unawareness} {587:to the worlds}, {589:who} {591:went} {590:for the sake of the dear one whose self was stolen by the sage’s son’}; {592:‘He} {593:whose feet are worshipped by Brahmā}, {595:prattling} {594:like a man}, {599:spread out} {598:love} {596:among the women} {597:thus} {600:made’}; {602:‘of inconceivable vigor} {601:through the (Pūrta) rites}, {603:who} {604:and who} {605:and} {606:is the son of Daśaratha} {607:himself}, {610:to make} {608:Rudra’s word} {609:true}, {611:the unconquered} {613:stood} {612:as if conquered’}; {614:‘who}, {615:unconquered}, {616:was conquered} {617:by devotion}, {619:did not} {620:slay} {621:indeed} {618:the son of Gaṅgā}, {622:nor} {623:and} {625:caused to be seized} {624:Ambā}, {626:who, the compassionate}, {627:who} {628:is there more so} {629:than He?’} — by {631:these and the rest} {630:thus} {632:and} in {633:the Skānda}, {634:not} {635:in Him} {636:the attributes of saṃsāra} {637:are to be predicated}. And {638:where} {639:and} {640:a difference of higher and lower} {641:is understood}, {642:there} {644:in dependence on} {643:the understanding of the ignorant} is {645:the lower-ness}; {648:elsewhere} (it is) {646:the universal form} {647:having regard to}. {649:That} {650:and} {651:is stated}: {652:‘utterly full} are {653:the forms}, {654:all alike} {655:from the standpoint of all form}; {656:yet} {657:even}, {658:having regard to} {659:of the dull} {660:the sight}, {662:the seers} {663:too} {664:indeed} {661:you} {666:speak of} {665:higher and lower} {667:thus}, {668:for} {670:the deluding} {669:of the non-devotees’} — {671:thus} in {672:the Garuḍa}. {673:Nor} {674:and} {675:here} is {676:anything} {678:to be called} {677:figurative}; for {683:it is said} that, {679:by reason of His inconceivable power} {680:and the manifoldness of things} {681:and} {682:thus}, (all is literally true). {684:‘The forms of Kṛṣṇa, Rāma and the rest} {685:are utterly full} {686:ever}, {687:not} {688:and} {690:differing} {689:by even an atom}; {691:yet} {692:even} {694:You delude} {693:us’} {695:thus} {696:and the like} {697:and}, in {698:the Nāradīya}. {699:Therefore} {709:attains} {708:the knower of the direct knowledge} {706:the supreme} {707:Brahman} {705:named Nārāyaṇa}, who, {700:always} {701:in all His forms}, is {702:of innumerable endless hosts of qualities} {704:and} {703:ever free of every fault} — {710:thus} {711:this is established}.",
       "segments": [
         {
           "from": 0,
