@@ -1089,6 +1089,13 @@ body.is-reading-mode #dpArticleHead { display: none; }
   color: #92400e;
 }
 .source-status--missing .dot { background: #d97706; }
+/* Copyright / private-reference: neutral slate, not an alarming amber — this is
+   an honest acknowledgement, not a defect. */
+.source-status--copyright {
+  background: #f1f5f9;
+  color: #475569;
+}
+.source-status--copyright .dot { background: #64748b; }
 /* Dim "Read full work" button when text is not in corpus — translation will be a placeholder */
 .work-card[data-source-status="primary-text-not-in-corpus"] .read-full-link,
 .work-card[data-source-status="degraded-on-disk"] .read-full-link {
@@ -1479,15 +1486,22 @@ body.is-reading-mode .dp-standalone { display: none; }
   border-radius: 4px;
   box-shadow: var(--shadow-md);
   padding: 16px 20px 18px;
-  max-width: 420px;
+  max-width: min(420px, calc(100vw - 20px));
   width: 420px;
   max-height: min(70vh, 640px);
   overflow-y: auto;
+  overflow-x: hidden;
+  /* never let a long citation / IAST string / cite token push a horizontal
+     scrollbar or spill past the edge — wrap instead */
+  overflow-wrap: break-word;
+  word-break: break-word;
   z-index: 280;
   font-family: var(--serif);
   font-size: 14px;
   line-height: 1.55;
 }
+/* defensive: nothing inside may force its own width past the box */
+.glossary-popover * { max-width: 100%; }
 .glossary-popover::-webkit-scrollbar { width: 6px; }
 .glossary-popover::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
 .glossary-popover .gp-close {
@@ -3400,6 +3414,8 @@ html[data-theme="dark"] .source-status--present { background: #14271a; color: #6
 html[data-theme="dark"] .source-status--present .dot { background: #4ade80; }
 html[data-theme="dark"] .source-status--missing { background: #2a2012; color: #f0a955; }
 html[data-theme="dark"] .source-status--missing .dot { background: #f59e0b; }
+html[data-theme="dark"] .source-status--copyright { background: #1c2433; color: #9fb0c4; }
+html[data-theme="dark"] .source-status--copyright .dot { background: #7c8aa0; }
 
 /* Translator notes / pending callouts — deep elevated surface with
    a 1px rule, not a sepia patch. */

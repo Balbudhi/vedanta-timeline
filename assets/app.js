@@ -2046,19 +2046,79 @@ function renderEngagedWorks(t) {
   return `<h3 class="section-head">Engaged works</h3>${cards}`;
 }
 
+// Distinguish *why* a primary text is absent from the corpus, so the panel can
+// be honest rather than emit a vague "not in corpus" that reads like a bug:
+//
+//   "on-disk"          — a Sanskrit witness is present (clean / acceptable / degraded).
+//   "original"         — the work's own language IS on disk (english/bengali/tamil-original).
+//   "copyright"        — a modern, in-copyright work we will never redistribute; held
+//                        in the private reference library only.
+//   "not-yet-acquired" — public-domain primary we simply have not acquired yet.
+//
+// The copyright test keys off the *author's* dates: a living author, or one who
+// died recently enough that copyright has not lapsed (~70 yr; threshold tuned so
+// classical/medieval/early-modern authors are never flagged). It is deliberately
+// conservative — when unsure we say "not yet acquired", which is the safe,
+// non-accusatory default.
+function isModernCopyrightAuthor(thinker) {
+  if (!thinker) return false;
+  const lo = thinker.dates_low;
+  const hi = thinker.dates_high;
+  if (hi == null && typeof lo === "number" && lo >= 1900) return true; // living
+  if (typeof hi === "number" && hi >= 1956) return true;               // died recently
+  return false;
+}
+
+function classifyWorkSource(w, thinker) {
+  const status = w.source_status || "";
+  if (status === "clean-on-disk" || status === "acceptable-on-disk") return "on-disk";
+  if (status === "degraded-on-disk") return "on-disk-degraded";
+  if (status === "english-original" || status === "bengali-original" ||
+      status === "tamil-original" || status === "primary-text-consulted") return "original";
+  if (status === "primary-text-not-in-corpus") {
+    return isModernCopyrightAuthor(thinker) ? "copyright" : "not-yet-acquired";
+  }
+  return "unknown";
+}
+
+// Honest message for a citation whose Sanskrit was not found in the index,
+// keyed off whether the cited work is copyrighted-and-private vs. simply
+// not-yet-acquired. Used by both the citation popover and the citation tab.
+function citationAbsenceMessage(thinkerId, workId) {
+  const thinker = state.thinkersById.get(thinkerId);
+  const work = thinker && (thinker.engaged_works || []).find((x) => x.work_id === workId);
+  const kind = work ? classifyWorkSource(work, thinker) : "unknown";
+  if (kind === "copyright") {
+    return "The cited work is under copyright and is held in the private reference library, not reproduced in this public corpus. The locus and attribution are preserved; the passage text is not shown here.";
+  }
+  if (kind === "not-yet-acquired") {
+    return "The cited locus is named here, but its primary text is not yet in our corpus (it is on the acquisition list). Open the thinker entry below to see what <em>is</em> currently engaged.";
+  }
+  return "This passage is not yet engaged line-by-line in our corpus. The cited locus is named here; open the thinker entry below to see what <em>is</em> currently engaged.";
+}
+
 function renderWorkCard(w, passages, thinkerId) {
   const ascr = (w.ascription_tier || "").replace(/-/g, " ");
   const status = w.source_status || "";
+  const thinker = state.thinkersById.get(thinkerId);
+  const sourceKind = classifyWorkSource(w, thinker);
   const statusLabel = {
-    "clean-on-disk": "Sanskrit text in our corpus",
-    "acceptable-on-disk": "Sanskrit text in our corpus (OCR — usable)",
-    "degraded-on-disk": "Sanskrit text on disk but degraded — locus-only",
-    "primary-text-not-in-corpus": "Primary text not in our corpus",
-    "english-original": "English original",
-    "bengali-original": "Bengali original",
-    "tamil-original": "Tamil original",
-  }[status] || "";
-  const statusKind = (status === "primary-text-not-in-corpus" || status === "degraded-on-disk") ? "missing" : "present";
+    "on-disk": status === "acceptable-on-disk"
+      ? "Sanskrit text in our corpus (OCR — usable)"
+      : "Sanskrit text in our corpus",
+    "on-disk-degraded": "Sanskrit text on disk but degraded — locus-only",
+    "original": {
+      "english-original": "English original (in our corpus)",
+      "bengali-original": "Bengali original (in our corpus)",
+      "tamil-original": "Tamil original (in our corpus)",
+      "primary-text-consulted": "Primary text consulted",
+    }[status] || "Primary text in our corpus",
+    "copyright": "Under copyright — held in the private reference library, not in this public corpus",
+    "not-yet-acquired": "Primary text not yet in our corpus (on the acquisition list)",
+  }[sourceKind] || "";
+  const statusKind = (sourceKind === "on-disk-degraded" || sourceKind === "not-yet-acquired")
+    ? "missing"
+    : (sourceKind === "copyright" ? "copyright" : "present");
   // Number citations in the work summary + ascription notes. One counter
   // per card so the user sees [1] [2] … fresh in each work.
   const workCtr = { n: 0 };
@@ -2082,9 +2142,18 @@ function renderWorkCard(w, passages, thinkerId) {
         ${passages.map(renderPassageCard).join("")}
       </div>`;
   }
+  // The Translation tab is only worth opening when there is something to read:
+  // a full on-disk translation, or at least one engaged passage. Otherwise the
+  // tab would only have shown the old (misleading) "queued for a future pass"
+  // placeholder, so we suppress the button entirely and let the source-status
+  // line carry the honest acknowledgement.
+  const hasReadable = hasFullTx || passages.length > 0;
   const readLabel = hasFullTx
     ? "Read the full work in translation"
-    : "Open Translation tab (status + engaged passages)";
+    : "Open engaged passages";
+  const readButton = hasReadable
+    ? `<button class="read-full-link" data-read-full="${escape(w.work_id)}" data-thinker="${escape(thinkerId)}">${readLabel}</button>`
+    : "";
   return `
     <div class="work-card" data-work-id="${escape(w.work_id)}" data-source-status="${escape(status)}">
       <div class="title-line">
@@ -2094,7 +2163,7 @@ function renderWorkCard(w, passages, thinkerId) {
       <p class="summary">${summaryRendered.html}</p>
       ${ascrRendered.html ? `<p class="ascr-notes">${ascrRendered.html}</p>` : ""}
       ${statusLabel ? `<p class="source-status source-status--${statusKind}"><span class="dot"></span>${escape(statusLabel)}</p>` : ""}
-      <button class="read-full-link" data-read-full="${escape(w.work_id)}" data-thinker="${escape(thinkerId)}">${readLabel}</button>
+      ${readButton}
       ${renderFootnoteList(allFootnotes)}
       ${passagesBlock}
     </div>
@@ -2276,8 +2345,13 @@ async function openReader(workId, thinkerId) {
   if (r.ok) {
     body = await r.text();
   } else {
-    // No extended translation on disk — synthesize a placeholder from key_passages.
+    // No extended translation .md on disk. Build an honest page from the
+    // work-summary + any engaged key-passages, with a "Status" section whose
+    // wording matches *why* the full translation is absent (copyrighted and
+    // held privately vs. public-domain and not yet acquired). No "pipeline" /
+    // "Codex" framing — most works legitimately have no word-by-word edition.
     const passages = (t.key_passages || []).filter((p) => p.work_id === workId);
+    const sourceKind = classifyWorkSource(work, t);
     const passagesBlock = passages.length
       ? "## Engaged passages\n\n" + passages.map((p) => {
           // Strip an authored whole-verse `*…*` wrapper before re-wrapping, so a
@@ -2289,20 +2363,30 @@ async function openReader(workId, thinkerId) {
           return `### ${p.locus_long || p.locus_short || ""}\n\n${sk}\n\n${en}${why}`;
         }).join("\n\n---\n\n")
       : "";
+
+    // The leading sentence of the Status section, by source kind.
+    const statusLead =
+      sourceKind === "copyright"
+        ? "This work is under copyright. It is held in the private reference library and is **not** reproduced in this public corpus, so no word-by-word translation is published here."
+        : sourceKind === "not-yet-acquired"
+        ? "No word-by-word translation has been produced for this text. Its primary source is public-domain but **not yet in our corpus** — it is on the acquisition list."
+        : sourceKind === "on-disk-degraded"
+        ? "No word-by-word translation has been produced for this text. The on-disk witness is degraded (locus-only), so only the engaged loci below are surfaced."
+        : "No word-by-word translation has been produced for this text yet.";
+
+    const engagedLine = passages.length
+      ? `${passages.length} engaged passage${passages.length === 1 ? "" : "s"} below carr${passages.length === 1 ? "ies" : "y"} the Sanskrit (IAST), a faithful English rendering, and the *why-this-passage* justification.`
+      : "There are no engaged key-passages for this work; the work-summary above is what the site currently presents.";
+
     body = `${work.summary || ""}
 
 ---
 
 ## Status of translation
 
-A complete extended-passage translation of this work — line-by-line with full Pāṇinian breakdown per line — has not yet been produced. The corpus dispatch pipeline produces these in waves; this work is queued for a future Codex 5.4 pass.
+${statusLead}
 
-What is currently engaged on the site:
-- The work-summary above (a 100-200 word account of what the work does and where it sits in the thinker's larger position).
-- ${passages.length ? `${passages.length} key-passage card${passages.length === 1 ? "" : "s"} below, each carrying the Sanskrit (IAST), a faithful English rendering, the *why-this-passage* justification, and a collapsed Pāṇinian breakdown table (pada-analysis, samāsa-vigraha, kāraka structure, verb modality).` : "No key-passage cards yet — the primary text is queued for Codex extraction."}
-- The thinker's *core thesis* (in the detail panel) cites this work where it is load-bearing.
-
-For the cited-but-not-fully-translated portions: where a standard scholarly English edition exists (Ganganatha Jha for Mīmāṃsā, Mayeda for *Upadeśa-Sāhasrī*, Thibaut / Gambhirananda for Brahma-Sūtra-Bhāṣya, Carman / Lester for Rāmānuja, Sharma for Madhva, etc.), it is referenced in the work-summary's *source_edition* field. The site does not redistribute those translations.
+${engagedLine}
 
 ${passagesBlock}`;
   }
@@ -3165,8 +3249,8 @@ async function openCitationPopover(key, anchorEl) {
     const isPending = entry.verified === "pending-acquisition";
     const pendingBlock = isPending
       ? `<div class="cp-block cp-pending"><span class="cp-label">Pending acquisition</span><p>${entry.pending_target_work
-          ? `<em>${escape(entry.pending_target_work)}</em>${entry.pending_target_thinker ? ` (${escape(entry.pending_target_thinker)})` : ""} is not yet on disk in clean form.`
-          : `The cited work is not yet on disk in clean form.`} The claim above relies on this work; its acquisition is queued at <code>parishishta/notes/USER_NEEDED.md</code>. The text shown below is the locus on which it comments, included as context — not itself the attestation.${entry.pending_acquisition_note || entry.verification_note ? ` <em>${escape(entry.pending_acquisition_note || entry.verification_note)}</em>` : ""}</p></div>`
+          ? `<em>${escape(entry.pending_target_work)}</em>${entry.pending_target_thinker ? ` (${escape(entry.pending_target_thinker)})` : ""} is not yet in our corpus in clean form.`
+          : `The cited work is not yet in our corpus in clean form.`} The claim above relies on this work; its primary text is on the acquisition list. The text shown below is the locus on which it comments, included as context — not itself the attestation.${entry.pending_acquisition_note || entry.verification_note ? ` <em>${escape(entry.pending_acquisition_note || entry.verification_note)}</em>` : ""}</p></div>`
       : "";
     const sk = entry.sanskrit_iast
       ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${isPending ? "Sanskrit (IAST) — context" : "Sanskrit (IAST)"}</span><div class="cp-sk">${mdVerse(entry.sanskrit_iast)}</div></div>`
@@ -3195,7 +3279,7 @@ async function openCitationPopover(key, anchorEl) {
         <div class="cp-attrib">${escape(thinkerName)}${workTitle ? ` · <em>${escape(workTitle)}</em>` : ""}</div>
       </div>
       <div class="cp-block cp-pending">
-        <p>Passage not yet extracted. The cited locus is named in this entry but its primary-source Sanskrit (line-by-line, with Pāṇinian breakdown) has not been transcribed into the on-disk corpus yet. Open the thinker entry below to see what <em>is</em> currently engaged.</p>
+        <p>${citationAbsenceMessage(tid, wid)}</p>
       </div>
       <div class="cp-actions">${openWork}</div>
     `;
@@ -3332,8 +3416,8 @@ function renderCitationTab(key) {
         <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
         <div class="cpa-pending">
           <strong>Pending acquisition</strong>${pendingTargetWork
-            ? ` — <em>${escape(pendingTargetWork)}</em>${pendingTargetThinker ? ` (${escape(pendingTargetThinker)})` : ""} is not yet on disk in clean form.`
-            : "."} The claim above relies on this work; its acquisition is queued at <code>parishishta/notes/USER_NEEDED.md</code>. The cited text shown below is the locus on which it comments, included as context — not itself the attestation.
+            ? ` — <em>${escape(pendingTargetWork)}</em>${pendingTargetThinker ? ` (${escape(pendingTargetThinker)})` : ""} is not yet in our corpus in clean form.`
+            : "."} The claim above relies on this work; its primary text is on the acquisition list. The cited text shown below is the locus on which it comments, included as context — not itself the attestation.
           ${pendingNote ? `<div class="cpa-note"><em>${escape(pendingNote)}</em></div>` : ""}
         </div>
         ${entry.sanskrit_iast ? `<div class="cpa-sk cpa-sk--context">${mdVerse(entry.sanskrit_iast)}</div>` : ""}
@@ -3362,7 +3446,7 @@ function renderCitationTab(key) {
     : `
       <div class="cite-passage-anchor">
         <div class="cpa-locus">Locus · ${escape(locusDisplay)}</div>
-        <div class="cpa-pending">Passage not yet extracted into the on-disk corpus. The locus is named in this entry; the surrounding work has not been transcribed line-by-line yet. Open the thinker entry to see what <em>is</em> currently engaged.</div>
+        <div class="cpa-pending">${citationAbsenceMessage(tid, wid)}</div>
       </div>
     `;
 
