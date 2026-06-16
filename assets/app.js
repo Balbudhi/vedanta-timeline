@@ -840,7 +840,11 @@ function renderLaneRail() {
 // ---------- render: era strip -----------
 function renderEraStrip() {
   eraStripEl.innerHTML = "";
-  eraStripEl.style.width = totalWidth() + "px";
+  // The canvas is pushed right by the lane-label gutter (.canvas has
+  // margin-left: --lane-rail-w); the strip is not, so every label must add the
+  // same offset to sit over its band. Without this they were shifted left by
+  // one rail-width and the period colors didn't line up with the bands.
+  eraStripEl.style.width = (LANE_RAIL_W + totalWidth()) + "px";
   for (const era of ERA_BANDS) {
     if (era.high < state.range.low || era.low > state.range.high) continue;
     const lo = Math.max(era.low, state.range.low);
@@ -849,7 +853,7 @@ function renderEraStrip() {
     const w = yearToX(hi) - x;
     const el = document.createElement("div");
     el.className = "era-label";
-    el.style.left = x + "px";
+    el.style.left = (LANE_RAIL_W + x) + "px";
     el.style.width = w + "px";
     // Tint each label with its canonical period color so lanes-view and
     // network-view share the same color-vocabulary for periods.
