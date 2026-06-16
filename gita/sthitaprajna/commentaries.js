@@ -3,7 +3,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.54",
       "sanskrit": "sthitā pratiṣṭhitā aham asmi paraṃ brahma iti prajñā yasya saḥ sthita-prajñas tasya sthita-prajñasya kā bhāṣā kiṃ bhāṣaṇaṃ vacanaṃ katham asau parair bhāṣyate samādhi-sthasya samādhau sthitasya he keśava | sthita-dhīḥ sthita-prajñaḥ svayaṃ vā kiṃ prabhāṣeta | kim āsīta vrajeta kim āsanaṃ vrajanaṃ vā tasya katham ity arthaḥ | sthita-prajñasya lakṣaṇam anena lokena pṛcchayate",
@@ -743,7 +743,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.54",
       "sanskrit": "evam labdhāvasaraḥ sthita-prajña-lakṣaṇaṃ jñātum arjuna uvāca | yāny eva hi jīvan-muktānāṃ lakṣaṇāni tāny eva mumukṣūṇāṃ mokṣopāya-bhūtānīti manvānaḥ | sthitā niścalā ahaṃ-brahmāsmi iti prajñā yasya sa sthita-prajño 'vasthā-dvayavān samādhistho vyutthita-cittaś ceti | ato viśinaṣṭi samādhi-sthasya sthita-prajñasya kā bhāṣā ? karmaṇi ṣaṣṭhī | bhāṣyate 'nayeti bhāṣā lakṣaṇam | samādhi-sthaḥ sthita-prajñaḥ kena lakṣaṇenānyair vyavahriyata ity arthaḥ | sa ca vyutthita-cittaḥ sthita-dhīḥ sthita-prajñaḥ svayaṃ kiṃ prabhāṣeta ? stuti-nindādāv abhinandana-dveṣādi-lakṣaṇaṃ kiṃ kathaṃ prabhāṣeta ? sarvatra sambhāvanāyāṃ liṅ | tathā kim āsīteti vyutthita-citta-nigrahāya kathaṃ bahir indriyāṇāṃ nigrahaṃ karoti ? tan-nigrāhābhāva-kāle kiṃ vrajeta kathaṃ viṣayān prāpnoti ? tat-kartṛka-bhāṣaṇāsana-vrajanāni mūḍha-jana-vilakṣaṇāni kīdṛśānīity arthaḥ | tad evaṃ catvāraḥ praśnāḥ samādhi-sthe sthita-prajña ekaḥ | vyutthite sthita-prajñe traya iti | keśaveti sambodhayan sarvāntaryāmitayā tvam evaitādṛśaṃ rahasyaṃ vaktuṃ samartho 'sīti sūcayati ||54||",
@@ -3245,7 +3245,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.54",
       "sanskrit": "sthitāprajñā jñānaṃ yasya sa – sthithaprajñaḥ| bhāṣyate'nayeti – bhāṣā| lakṣaṇamityarthaḥ| uktaṃ lakṣaṇamanuvadati lakṣaṇāntaraṃ pṛcchāmīti jñāpayitum samādhisthasyeti| kaṃ brahmāṇamīśaṃ rudraṃ ca vartayatīti – keśavaḥ| tathā'hi niruktiḥ kṛtā harivaṃśeṣu rudreṇa kailāsayātrāyām| ‘ hiraṇyagarbhaḥ kaḥ prokta īśaḥ śaṅkara eva ca| sṛṣṭyādinā vartayati tau yataḥ keśavo bhavān ’ iti vacanāntarācca| ’ kimāsīta ? kiṃ pratyāsīta ? na cārjuno na jānāti tallakṣaṇādikam ­- ‘ jānanti pūrvarājāno devarṣayastathaiva hi| tathā'pi dharmān pṛcchanti vārtāyai guhyavittaye| na te guhyāḥ pratīyante purāṇeṣvalpabuddhinām ’ iti vacanāt",
@@ -4471,7 +4471,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.55",
       "sanskrit": "prajahāti prakarṣeṇa jahāti parityajati yadā yasmin kāle sarvān samastān kāmān icchā-bhedān he pārtha, mano-gatān manasi praviṣṭāan hṛdi praviṣṭān | sarva-kāma-parityāge tuṣṭi-kāraṇābhāvāt śarīra-dhāraṇa-nimitta-śeṣe ca sati unmatta-pramattasyeva pravṛttiḥ prāptā, ity ata ucyate --- ātmany eva pratyag-ātma-svarūpe eva ātmanā svenaiva bāhya-lābha-nirapekṣas tuṣṭāḥ paramārtha-darśanāmṛta-rasa-lābhena anyasmād alaṃ-pratyayavān sthita-prajñaḥ sthitā pratiṣṭhitā ātmānātma-vivekajā prajñā yasya saḥ sthita-prajñaḥ vidvān tadā ucyate | tyakta-putra-vitta-lokaiṣaṇaḥ saṃnyāsī ātmārāma ātma-krīḍāḥ sthita-prajña ity arthaḥ",
@@ -5476,7 +5476,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.55",
       "sanskrit": "eteṣāṃ catūrṇāṃ praśnānāṃ krameṇottaraṃ bhagavān uvāca prajahātīti yāvad-adhyāya-samāpti | kāmān kāma-saṅkalpādīn mano-vṛtti-viśeṣān pramāṇa-viparyaya-vikalpa-nidrā-smṛti-bhedena tantrāntare pañcadhā prapañcitān sarvān niravaśeṣān prakarṣeṇa kāraṇa-bādhena yadā jahāti parityajati sarva-vṛtti-śūnya eva yadā bhavati sthita-prajñas tadocyate samādhistha iti śeṣaḥ | kāmānām anātma-dharmatvena parityāga-yogyatām āha manogatān iti | yadi hy ātma-dharmāḥ syus tadā na tyaktuṃ śakyeran vahny-auṣṇyavat svābhāvikatvāt | manasas tu dharmā ete | atas tat-parityāgena parityaktuaṃ śakyā evety arthaḥ | nanu sthita-prajñasya mukha-prasāda-liṅga-gamyaḥ santoṣa-viśeṣaḥ pratīyate sa kathaṃ sarva-kāma-parityāge syād ity āha - ātmany eva paramānanda-rūpe na tv anātmani tuccha ātmnaā svaprakāśa-cid-rūpeṇa bhāsamānena na tu vṛttyā tuṣṭaḥ paritṛptaḥ parama-puruṣārtha-lābhāt | tathā ca śrutiḥ - yadā sarve pramucyante kāmā ye 'sya hṛdi śritāḥ | atha martyo 'mṛto bhavaty atra brahma samaśnute || [KaṭhU 2.3.14] iti | tathā ca samādhi-sthaḥ sthita-prajña evaṃvidhair lakṣaṇa-vācibhiḥ śabdair bhāṣyata iti prathama-praśnasyottaram ||55||",
@@ -8367,7 +8367,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.55",
       "sanskrit": "gamanādipravṛttirnātyabhisandhipūrvikā mattādipravṛttivaditi ‘yā niśā’ ityādinā darśayiṣyan lakṣaṇaṃ prathamata āha – prajāhātīti| evaṃ paramānandatṛptaḥ kimarthamevaṃ pravṛttiṃ karotīti praśnābhiprāyaḥ| prārabdhakarmaṇeṣattirohita brahmaṇo vāsanayā prāyo'lpābhisandhipravṛttiḥ sambhavatītyāśayavān pariharati| prāyaḥ sarvān prajahāti| śukādīnāmapīṣaddarśanāt| ‘tvatpādabhaktimicchanti jñāninastatvadarśinaḥ’ ityuktestāmicchanti| yadā tvindrādīnāmāgraho dṛśyate tada'bhibhūtaṃ teṣāṃ jñānam| taccoktam – ‘ adhikārikapuṃsāṃ tu bṛhatkarmatvakāraṇāt| udbhavābhibhavau jñāne tato'nyebhyo vilakṣaṇāḥ ’ iti ata eva vailakṣaṇyādanadhikāriṇāmāgrahādi cedasti na te jñānina ityavagantavyam| na cātra samādhiṃ kurvato lakṣaṇamucyate| ‘yaḥ sarvatrānabhisnehaḥ’ iti snehaniṣedhāt | nahi samādhiṃ kurvatastasya śubhāśubhaprāptirasti| asamprajñātasamādheḥ | samprajñāte tvavirodhaḥ| tathā'pi na tatraiveti niyamaḥ| kāmādayo na jāyante hyapi vikṣiptacetasām| jñānināṃ jñānanirdhūtamalānāṃ devasaṃśrayāt ’ iti smṛteḥ| manogatā hi kāmāḥ| atastatraiva tadviruddhajñānotpāttau yuktaṃ hānaṃ teṣāmiti darśayati -manogatāniti| virodhaścocyate ‘raso'pyasya paraṃ dṛṣṭvānivartate’ iti| na caitadadṛṣṭvā'phalapanīyam| puruṣavaiśeṣyāt| ātmanā paramātmanā| paramātmanyeva sthitaḥ san| ātmākhye tasmin sthitasya tatprasādādeva tuṣṭirbhavati| ‘ viṣayāṃstu parityajya rāme sthitimatastataḥ| devādbhavati vaituṣṭirnānyathā tu kathañcana ‘ iti nārāyaṇarāmakalpe ’ |ato nātmā jīvaḥ",
@@ -11269,7 +11269,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.56",
       "sanskrit": "duḥkheṣv ādhyātmikādiṣu prāpteṣu na udvignaṃ na prakṣubhitaṃ duḥkha-prāptau mano yasya so 'yam anudvigna-manāḥ | tathā sukheṣu prāpteṣu vigatā spṛhā tṛṣṇā yasya, na agnir iva indhanādy-ādhāne sukhāny anu vivardhate sa vigata-spṛhaḥ | vīta-rāga-bhaya-krodhaḥ rāga ca bhayaṃ ca krodha ca vītā vigatā yasmāt sa vīta-rāga-bhaya-krodhaḥ | sthita-dhīḥ sthita-prajño muniḥ saṃnyāsī tadā ucyate",
@@ -12040,7 +12040,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.56",
       "sanskrit": "idānīṃ vyutthitasya sthita-prajñasya bhāṣaṇopaveśana-gamanāni mūḍha-jana-vilakṣaṇāni vyākhyeyāni | tatra kiṃ prabhāṣetety asyottaram āha duḥkheṣv iti dvyābhyām | duḥkhāni trividhāni śoka-moha-jvara-śiro-rogādi-nimittāny ādhyātmikāni vyāghra-sarpādi-prayuktāny ādhibhautikāni ativātātivṛṣṭy-ādi-hetukāny ādhidaivikāni teṣu duḥkheṣu rajaḥ-pariṇāma-santāpātmaka-citta-vṛtti-viśeṣeṣu prārabdha-pāpa-karma-prāpiteṣu nodvignaṃ duḥkha-parihārākṣamatayā vyākulaṃ na bhavati mano yasya so 'nudvigna-manāḥ | avivekino hi duḥkha-prāptau satyām aho pāpo 'haṃ dhiṅ māṃ durātmānam etādṛśa-duḥkha-bhāginaṃ ko me duḥkham īdṛśaṃ nirākuryād ity anutāpātmako bhrānti-rūpas tāmasaś citta-vṛtti-viśeṣa udvegākhyo jāyate | yady ayaṃ pāpānuṣṭhāna-samaye syāt tadā tat-pravṛtti-pratibandhakatvena saphalaḥ syāt | bhoga-kāle tu bhavan kāraṇe sati kāryasyocchettum aśakyatvān niṣprayojano duḥkha-kāraṇe saty api kim iti mama duḥkhaṃ jāyate iti avivekaja-bhrama-rūpatvān na vivekinaḥ sthita-prajñasya sambhavati | duḥkha-mātraṃ hi prārabdha-karmaṇā prāpyate na tu tad-uttara-kālīno bhramo 'pi | nanu duḥkhāntara-kāraṇatvāt so 'pi prārabdha-karmāntareṇa prāpyatām iti cet, na | sthita-prajñasya bhramopādānājñāna-nāśena bhramāsambhavaāt taj-janya-duḥkha-prāpaka-prārabdhābhāvāt | yathā-kathaṃcid deha-yātrā-mātra-nirvāhaka-prārabdha-karma-phalasya bhramābhāve 'pi bādhitānuvṛttyopapatter iti vistareṇāgre vakṣyate | tathā sukheṣu sattva-pariṇāma-rūpa-prītyātmaka-citta-vṛtti-viśeṣeṣu trividheṣu prārabdha-puṇya-karma-prāpiteṣu vigata-spṛha āgāmi-taj-jātīya-sukha-spṛhā-rahitaḥ | spṛhā hi nāma sukhānubhava-kāle taj-jātīya-sukhasya kāraṇaṃ dharmam ananuṣṭhāya vṛthaiva tad-ākāṅkṣā-rūpā tāmasī citta-vṛttir bhrāntir eva | sā cāvivekina eva jāyate | na hi kāraṇābhāve kāryaṃ bhavitum arhati | ato yathā sati kāraṇe kāryaṃ mā bhūd iti vṛthākāṅkṣā-rūpa udvego vivekino na sambhavati tathaivāsati kāraṇe kāryaṃ bhūyād iti vṛthākāṅkṣā-rūpā tṛṣṇātmikā spṛhāpi nopapadyate prārabdha-karmaṇaḥ sukha-mātra-prāpakatvāt | harṣātmikā vā citta-vṛttiḥ spṛhā-śabdenoktā | sāpi bhrāntir eva | aho dhanyo 'haṃ yasya mamedṛśaṃ sukham upasthitaṃ ko vā mayā tulas tribhuvane kena vopāyena mamedṛśaṃ sukhaṃ na vicchidyetety evam ātmikotphullatā-rūpā tāmasī citta-vṛttiḥ | ataevoktaṃ bhāṣye - nāgnir ivendhanādy-ādhāne yaḥ sukhāny anuvivardhate sa vigata-spṛhaḥ iti | vakṣyati ca -- na prahṛṣyet priyaṃ prāpya nodvijet prāpya cāpriyam [Gītā 5.20] iti | sāpi na vivekinaḥ sambhavati bhrāntitvāt | tathā vīta-rāga-bhaya-krodhaḥ | rāgaḥ śobhanādhyāsa-nibandhano viṣayeṣu rañjanātmakaś citta-vṛtti-viśeṣo 'tyantābhiniveśa-rūpaḥ | rāga-viṣayasya nāśake samupasthite tan-nivāraṇāsāmarthyam ātmano manyamānasya dainyātmakaś citta-vṛtti-viśeṣo bhayam | evaṃ rāga-viṣaya-vināśake samupasthite tan-nivāraṇa-sāmarthyam ātmano manyamānasyābhijvalanātmakaś citta-vṛtti-viśeṣaḥ krodhaḥ | te sarve viparyaya-rūpatvād vigatā yasmāt sa tathā | etādṛśo munir manana-śīlaḥ saṃnyāsī sthita-prajña ucyate | evaṃ-lakṣaṇaḥ sthita-dhīḥ svānubhava-prakaṭanena śiṣya-śikṣārtham anudvega-nispṛhatvādi-vācaḥ prabhāṣeta ity anvaya uktaḥ | evaṃ cānyo 'pi mumukṣur duḥkhe nodvijet sukhe na prahṛṣyet, rāga-bhaya-krodha-rahitaś ca bhaved ity abhiprāyaḥ ||56||",
@@ -17704,7 +17704,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.56",
       "sanskrit": "tadeva spaṣṭayatyuttaraistribhiḥ ślokaiḥ| etānyeva jñānopāyāni ca| taccoktam- ‘tadvai jijñāsubhiḥ sādhyaṃ jñānināṃ yat tu lakṣaṇam’ iti| śobhanādhyāso rāgaḥ| ‘ raso rāgastathā raktiḥ śobhanādhyāsa ucyate ’ iti hyabhidhānam",
@@ -18212,7 +18212,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.57",
       "sanskrit": "yaḥ muniḥ sarvatra deha-jīvitādiṣv api anabhisneho 'bhisneha-varjitas tat tat prāpya śubhāśubhaṃ tat tat śubhaṃ aśubhaṃ vā labdhvā nābhinandati na dveṣṭi śubhaṃ prāpya na tuṣyati na hṛṣyati, aśubhaṃ ca prāpya na dveṣṭi ity arthaḥ | tasya evaṃ harṣa-viṣāda-varjitasya vivekajā prajñā pratiṣṭhitā bhavati",
@@ -18846,7 +18846,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.57",
       "sanskrit": "kiṃ ca | sarva-deheṣu jīvanādiṣv api yo munir anabhisnehaḥ, yasmin saty anyadīye hāni-vṛddhī svasminn āropyete sa tādṛśo 'nya-viṣayaḥ premāpara-paryāyas tāmaso vṛtti-viśeṣaḥ snehaḥ sarva-prakāreṇa tad-rahito 'nabhisnehaḥ | bhagavati paramātmani tu sarvathābhisnehavān bhaved eva | anātman-snehābhāvasya tad-arthatvād iti draṣṭavyam | tat-tat-prārabdha-karma-pariprāpitaṃ śubhaṃ sukha-hetuṃ viṣayaṃ prāpya nābhinandati harṣa-viśeṣa-puraḥsaraṃ na praśaṃsati | aśubhaṃ duḥkha-hetuṃ viṣayaṃ prāpya na dveṣṭi antar-asūyā-pūrvakaṃ na nindati | ajñasya hi sukha-hetur yaḥ sva-kalatrādiḥ sa śubho viṣayas tad-guṇa-kathanādi-pravartikā dhī-vṛttir bhrānti-rūpābhinandaḥ | sa ca tāmasaḥ, tad-guṇa-kathanādeḥ para-prarocanārthatvābhāvena vyarthatvāt | evam asūyotpādanena duḥkha-hetuḥ parakīya-vidyā-prakarṣādir enaṃ pratyaśubho viṣayas tan-nindādi-pravartikā bhrānti-rūpā dhī-vṛtti-viśeṣaḥ | so 'pi tāmasaḥ | tan-nindāyā nivāraṇārthatvābhāvena vyarthatvāt | tāv abhinanda-dveṣau bhrānti-rūpau tāmasau katham abhrānte śuddha-sattve sthita-prajñe sambhavatām | tasmād vicālakābhāvāt tasyānabhisnehasya harṣa-viṣāda-rahitasya muneḥ prajñā paramātma-tattva-viṣayā pratiṣṭhitā phala-paryavasāyinī sa sthita-prajña ity arthaḥ | evam anyo 'pi mumukṣuḥ sarvatrānabhisneho bhavet | śubhaṃ prāpya na praśaṃset, aśubhaṃ prāpya na ninded ity abhiprāyaḥ | atra ca nindā-praśaṃsādi-rūpā vāco na prabhāṣeteti vyatireka uktaḥ ||57||",
@@ -21759,7 +21759,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.57",
       "sanskrit": "sarvatrānabhisnehatvācchubhāśubhaṃ prāpya nābhinandati na dveṣṭi",
@@ -21907,7 +21907,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.58",
       "sanskrit": "yadā saṃharate samyag upasaṃharate cāyaṃ jñāna-niṣṭhāyāṃ pravṛtto yatiḥ kūrmo 'ṅgāni iva yathā kūrmo bhayāt svāny aṅgāni upasaṃharati sarvaśaḥ sarvataḥ, evaṃ jñāna-niṣṭhaḥ indriyāṇi indriyārthebhyaḥ sarva-viṣayebhya upasaṃharate | tasya prajñā pratiṣṭhitā ity uktārthaṃ vākyam",
@@ -22424,7 +22424,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.58",
       "sanskrit": "idānīṃ kim āsīteti praśnasyottaraṃ vaktum ārabhate bhagavān ṣaḍbhiḥ ślokaiḥ | tatra prārabdha-karma-vaśād vyutthānena vikṣiptānīndriyāṇi punar upasaṃhṛtya samādhy-artham eva sthita-prajñasyopaveśanam iti darśayitum āha yadeti | ayaṃ vyutthitaḥ sarvaśaḥ sarvāṇīndriyārthebhyaḥ śabdādibhyaḥ sarvebhyaḥ | caḥ punar-arthe | yadā saṃharate punar upasaṃharati saṅkocayati | tatra dṛṣṭāntaḥ kūrmo 'ṅgānīva | tadā tasya prajñāḥ pratiṣṭhiteti spaṣṭam | pūrva-ślokābhyāṃ vyutthāna-daśāyām api sakala-tāmasa-vṛtty-abhāva uktaḥ | adhunā tu punaḥ samādhy-avasthāyāṃ sakala-vṛtty-abhāva iti viśeṣaḥ ||58||",
@@ -23897,7 +23897,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.59",
       "sanskrit": "yadyapi viṣayāḥ viṣayopalakṣitāni viṣaya-śabda-vācyāni indriyāṇi nirāhārasya anāhriyamāṇa-viṣayasya kaṣṭe tapasi sthitasya mūrkhasyāpi vinivartante dehino dehavataḥ rasa-varjaṃ raso rāgo viṣayeṣu yas taṃ varjayitvā | rasa-śabdo rāge prasiddhaḥ, sva-rasena pravṛttaḥ rasikaḥ rasajñaḥ, ity ādi-darśanāt | so 'pi raso rañjana-rūpaḥ sūkṣmo 'sya yateḥ paraṃ paramārtha-tattvaṃ brahma dṛṣṭvā upalabhya aham eva tat iti vartamānasya nivartate nirbījaṃ viṣaya-vijñānaṃ saṃpadyate ity arthaḥ | nāsati samyag-darśane rasasya ucchedaḥ | tasmāt samyag-darśanātmikāyāḥ prajñāyāḥ sthairyaṃ kartavyam ity abhiprāyaḥ",
@@ -24965,7 +24965,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.59",
       "sanskrit": "nanu mūḍhasyāpi rogādi-vaśād viṣayebhya indriyāṇām upasaṃharaṇaṃ bhavati tat kathaṃ tasya prajñā pratiṣṭhitety uktam ? ata āha viṣayā iti | nirāhārasya indriyāir indriyāir viṣayān anāharato dehino dehābhimānavato mūḍhasyāpi rogiṇaḥ kāṣṭha-tapasvino vā viṣayāḥ śabdādayo vinivartante kintu rasa-varjaṃ rasa-tṛṣṇā taṃ varjayitvā | ajñasya viṣayā nivartante tad-viṣayo rāgas tu na nivartata ity arthaḥ | asya tu sthita-prajñasya paraṃ puruṣārthaṃ dṛṣṭvā tad evāham asmīti sākṣātkṛtya sthitasya raso 'pi kṣudra-sukha-rāgo 'pi nivartate | api-śabdād viṣayāś ca | tathā ca yāvān artha ity ādau vyākhyātam | evaṃ ca sa-rāga-viṣaya-nivṛttiḥ sthita-prajña-lakṣaṇam iti na mūḍhe vyabhicāra ity arthaḥ | yasmān nāsati paramātma-samyag-darśane sa-rāga-viṣayocchedas tasmāt sa-rāga-viṣayocchedikāyāḥ samyag-darśanātmikāyāḥ prajñāyāḥ sthairyaṃ mahatā yatnena sampādayed ity abhiprāyaḥ ||59||",
@@ -27536,7 +27536,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.59",
       "sanskrit": "na caitallakṣaṇaṃ jñānamayatnato'pi bhavatītyāhottaraślokaiḥ| nirāhāratvena viṣayabhogasāmarthyābhāva eva bhavati| itaraviṣayākāṅkṣābhāvo vā| rasākāṅkṣādirna nivartate| sa tvaparokṣajñānādeva nivartata ityāha – viṣayā iti| ‘ indriyāṇi jayantyāśu nirāhāra manīṣiṇaḥ| varjayitvā tu rasanāmāsau rasye tu vardhate ‘ iti vacanādbhāgavate| rasaśabdasyarāgavācitvācca",
@@ -28244,7 +28244,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.60",
       "sanskrit": "yatataḥ prayatnaṃ kurvataḥ hi yasmāt kaunteya puruṣasya vipaścitaḥ medhāvino 'pi iti vyavahitena saṃbandhaḥ | indriyāṇi pramāthīni pramathana-śīlāni viṣayābhimukhaṃ hi puruṣaṃ vikṣobhayanti ākulīkurvanti, ākulīkṛtya ca haranti prasabhaṃ prasahya prakāśam eva paśyato viveka-vijñāna-yuktaṃ manaḥ",
@@ -28756,7 +28756,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.60",
       "sanskrit": "tatra prajñā-sthairye bāhyendriya-nigraho mano-nigrahaś cāsādhāraṇaṃ kāraṇaṃ tad-ubhayābhāve prajñā-nāśa-darśanād iti vaktuṃ bāhyendriya-nigrahābhāve prathamaṃ doṣam āha yatata iti | he kaunteya ! yatato bhūyo bhūyo viṣaya-doṣa-darśanātmakaṃ yatnaṃ kurvato 'pi, cakṣiṅo ṅitva-karaṇād anudātteto 'nāvaśyakam ātmanepadam iti jñāpanāt parasmaipadam aviruddham | vipaścito 'tyanta-vivekino 'pi puruṣasya manaḥ kṣaṇa-mātraṃ nirvikāraṃ kṛtam apīndriyāṇi haranti vikāraṃ prāpayanti | nanu virodhinī viveke sati kuto vikāra-prāptis tatrāha pramāthīni pramathana-śīlāni atibalīyastvād vivekopamardana-kṣamāṇi | ataḥ prasabhaṃ prasahya balātkāreṇa paśyaty eva vipaściti svāmini viveke ca rakṣake sati sarva-pramāthītvād evendriyāṇi vivekaja-prajñāyāṃ praviṣṭaṃ manas tataḥ pracyāvya sva-viṣayāviṣṭatvena harantīty arthaḥ | hi-śabdaḥ prasiddhiṃ dyotayati | prasiddho hy ayam artho loke yathā pramāthino dasyavaḥ prasabham eva dhaninaṃ dhana-rakṣakaṃ cābhibhūya tayoḥ paśyator eva dhanaṃ haranti tathendriyāṇy api viṣaya-sannidhāne mano harantīti ||60||",
@@ -31126,7 +31126,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.60",
       "sanskrit": "aparokṣajñānarahitajñānino'pi sādhāraṇayatnavato'pi manoharatī­ndriyāṇi|puruṣasya śarīrābhimāninaḥ| ko doṣastataḥ ? pramāthīni pramathanaśīlāni puruṣasya",
@@ -31380,7 +31380,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.61",
       "sanskrit": "tāni sarvāṇi saṃyamya saṃyamanaṃ vaśīkaraṇaṃ kṛtvā yuktaḥ samāhitaḥ san āsīta mat-paro 'haṃ vāsudevaḥ sarva-pratyag-ātmā paro yasya sa mat-paraḥ, nānyo 'haṃ tasmāt ity āsīta ity arthaḥ | evam āsīnasya yater vaśe hi yasyendriyāṇi vartante abhyāsa-balāt tasya prajñā pratiṣṭhitā",
@@ -31977,7 +31977,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.61",
       "sanskrit": "evaṃ tarhi tatra kaḥ pratīkāra ity ata āha tānīti | tānīndriyāṇi sarvāṇi jñāna-karma-sādhana-bhūtāni saṃyamya vaśīkṛtya yuktaḥ samāhito nigṛhīta-manāḥ sann āsīta nirvāpāras tiṣṭhet | pramāthināṃ kathaṃ sva-vaśīkaraṇam iti cet tatrāha mat-para iti | ahaṃ sarvātmā vāsudeva eva para utkṛṣṭa upādeyo yasya sa mat-para ekānta-mad-bhakta ity arthaḥ | tathā coktam na vāsudeva-bhaktānām aśubhaṃ vidyate kvacit iti | yathā hi loke balavantaṃ rājānam āśritya dasyavo nigṛhyante rājāśrito 'yam iti jñātvā ca svayam eva tad-vaśyā bhavanti tathaiva bhagavantaṃ sarvāntaryāminam āśritya tat-prabhāveṇaiva duṣṭānīndriyāṇi nigrāhyāṇi punaś ca bhagavad-āśrito 'yam iti matvā tāni tad-vaśyāny eva bhavantīti bhāvaḥ | yathā ca bhagavad-bhakter mahā-prabhāvatvaṃ tathā vistareṇāgre vyākhyāsyāmaḥ | indriya-vaśīkāre phalam āha vaśe hīti | spaṣṭam | tad etad vaśīkṛtendriyaḥ sann āsīteti kim āsīteti praśnasyottaram uktaṃ bhavati ||61||",
@@ -34291,7 +34291,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.61",
       "sanskrit": "tarhyaśaktyānyevetyata āha – tānīti| bahuyatnavataḥ śakyāni| ato yatnaṃ kuryādityāśayaḥ| yukto – mayi manoyuktaḥ| ahameva paraḥ sarvasmādutkṛṣṭo yasya sa matparaḥ| phalamāha – vaśe hīti",
@@ -34767,7 +34767,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.62-63",
       "sanskrit": "dhyāyataś cintayato viṣayāt śabdādīn viṣaya-viśeṣān ālocayataḥ puṃsaḥ puruṣasya saṅgaḥ āsaktiḥ prītis teṣu viṣayeṣu upajāyate utpadyate | saṅgāt prīteḥ saṃjāyate samutpadyate kāmas tṛṣṇā | kāmāt kutaścit pratihatāt krodho 'bhijāyate | krodhād bhavati saṃmoho 'vivekaḥ kāryākārya-viṣayaḥ | kruddho hi saṃmūḍhaḥ san gurum apy ākrośati | saṃmohāt smṛti-vibhramaḥ śāstrācāryopadeśāhita-saṃskāra-janitāyāḥ smṛte syāt vibhramo bhraṃśaḥ smṛty-utpatti-nimitta-prāptau anutpattiḥ | tataḥ smṛti-bhraṃśāt buddhi-nāśaḥ buddhi-nāśaḥ | kāryākārya-viṣaya-vivekāyogyatā antaḥ-karaṇasya buddher nāśa ucyate | buddher nāśāt praṇaśyati | tāvad eva hi puruṣaḥ yāvad antaḥkaraṇaṃ tadīyaṃ kāryākārya-viṣaya-viveka-yogyam | tad-ayogyatve naṣṭa eva puruṣo bhavati | ataḥ tasyāntaḥ-karaṇasya buddher nāśāt praṇaśyati puruṣārthāyogyo bhavatīty arthaḥ",
@@ -36132,7 +36132,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.62-63",
       "sanskrit": "nigṛhīta-bāhyendriyasyāpi śabdādīnviṣayān dhyāyato manasā punaḥ punaś cintayataḥ puṃsas teṣu viṣayeṣu saṅga āsaṅgo mamātyantaṃ sukha-hetava eta ity evaṃ śobhanādhyāsa-lakṣaṇaḥ prīti-viśeṣa upajāyate saṅgāt sukha-hetutva-jñāna-lakṣaṇāt saṃjāyate kāmo mamaite bhavantv iti tṛṣṇā-viśeṣaḥ | tasmāt kāmāt kutaścit pratihanyamānāt tat-pratighāta-viṣayaḥ krodho 'bhijvalanātmābhijāyate | krodhād bhavati saṃmohaḥ kāryākārya-vivekābhāva-rūpaḥ | saṃmohāt smṛti-vibhramaḥ smṛteḥ śāstrācāryopadiṣṭārthānusandhānasya vibhramo vicalanaṃ vibhraṃśaḥ | tasmāc ca smṛti-bhraṃśād buddher aikātmyākāra-mano-vṛtter nāśo viparīta-bhāvanopacaya-doṣeṇa pratibandhād anutpattir utpannāyāś ca phalāyogyatvena vilayaḥ | buddhi-nāśāt praṇaśyati tasyāś ca phala-bhūtāyā buddher vilopāt praṇaśyati sarva-puruṣārthāyogyo bhavati | yo hi puruṣārthāyogyo jātaḥ sa mṛta eveti loke vyavahriyate | ataḥ praṇaśyatīty uktam | yasmād evaṃ manaso nigrahābhāve nigṛhīta-bāhyendriyasyāpi paramānartha-prāptis taramān mahatā prayatnena mano nigṛhṇīyād ity abhiprāyaḥ | ato yuktam uktaṃ tāni sarvāṇi saṃyamya yukta āsīteti ||62-63||",
@@ -38945,7 +38945,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.62-63",
       "sanskrit": "rāgādidoṣakāraṇamāha parihārāya ślokadvayena| sammohaḥ akāryecchā| tathāhi mohaśabdārtha ukta upagītāsu – ‘mohasajñitam| adharmalakṣaṇaṃ caiva niyataṃ pāpakarmasu’ iti| tathā yānyatra ‘sammoho'dharmakāmitā’ iti| smṛtivibhramaḥ – pratiṣedhādismṛtināśaḥ| buddhināśaḥ – sarvātmanā doṣabuddhināśaḥ| vinaśyati narakādyanarthaṃ prāpnoti| tathāhyuktam – adharmakāminaḥ śāstre vismṛtirjāyate yadā| doṣādṛṣṭestatkṛteśca narakaṃ pratipadyate ’ iti",
@@ -39764,7 +39764,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.64",
       "sanskrit": "rāga-dveṣa-viyuktai rāgaś ca dveṣaś ca rāga-dveṣau, tat-puraḥsarā hi indriyāṇāṃ pravṛttiḥ svābhāvikī, tatra yo mumukṣuḥ bhavati saḥ tābhyāṃ viyuktaiḥ śrotrādibhir indriyair viṣayān avarjanīyān caran upalabhamānaḥ ātma-vaśyair ātmano vaśyāni vaśībhūtāni indriyāṇi tair ātma-vaśyair vidheyātmā icchātaḥ vidheya ātmā antaḥ-karaṇaṃ yasya so 'yaṃ prasādam adhigacchati | prasādaḥ prasannatā svāsthyam",
@@ -40478,7 +40478,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.64",
       "sanskrit": "manasi nigṛhīte tu bāhyendriya-nigrahābhāve 'pi na doṣa iti vadan kiṃ vrajetety asyottaram āhāṣṭabhiḥ | yo 'samāhita-cetāḥ sa bāhyendriyāṇi nigṛhyāpi rāga-dveṣa-duṣṭena manasā viṣayāṃś cintayan puruṣārthād bhraṣṭo bhavati | vidheyātmā tu tu-śabdhaḥ pūrvasmād vyatirekārthaḥ | vaśīkṛtāntaḥ-karaṇas tu ātma-vaśyair mano 'dhīnaiḥ svādhīnair iti vā rāga-dveṣābhyāṃ viyuktair virahitair indriyaiḥ śrotrādibhir viṣayān śabdādīn aniṣiddhāṃś carann upalabhamānaḥ prasādaṃ prasannātāṃ cittasya svacchatāṃ paramātma-sākṣātkāra-yogyatām adhigacchati | rāga-dveṣa-prayuktānīndriyāṇi doṣa-hetutāṃ pratipadyante | manasi sva-vaśe tu na rāga-dveṣau | tayor abhāve ca na tad-adhīnendriya-pravṛttiḥ | avarjanīyatayā tu viṣayopalambho na doṣam āvahatīti na śuddhi-vyāghāta iti bhāvaḥ | etena viṣayāṇāṃ smaraṇam api ced anartha-kāraṇaṃ sutarāṃ tarhi bhogas tena jīvanārthaṃ viṣayān bhuñjānaḥ katham anarthaṃ na pratipadyeteti śaṅkā nirastā | svādhīnair indriyair viṣayān prāpnotīti ca kiṃ vrajeteti praśnasyottaram uktaṃ bhavati ||64||",
@@ -43226,7 +43226,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.64",
       "sanskrit": "indriyajayaphalamāhottarābhyāṃ ślokābhyām| viṣayānanubhavannapi vidheya ātmāmano yasya| jitātmetyarthaḥ| prasādaṃ – manaḥprasādam",
@@ -43505,7 +43505,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.65",
       "sanskrit": "prasāde sarva-duḥkhānām ādhyātmikādīnāṃ hānir vināśo 'sya yater upajāyate | kiṃ ca - prasanna-cetasaḥ svasthāntaḥ-karaṇasya hi yasmāt āśu śīghraṃ buddhiḥ paryavatiṣṭhate ākāśam iva pari samantāt avatiṣṭhate, ātma-svarūpeṇaiva niścalībhavatīty arthaḥ | evaṃ prasanna-cetaso 'vasthita-buddhiḥ kṛta-kṛtyatā yataḥ, tasmāt rāga-dveṣa-viyuktair indriyaiḥ śāstrā-viruddheṣu avarjanīyeṣu yuktaḥ samācaret iti vākyārthaḥ",
@@ -44235,7 +44235,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.65",
       "sanskrit": "prasādam adhigacchatīty uktaṃ tatra prasāde sati kiṃ syād ity ucyate prasāda iti | cittasya prasāde svacchatva-rūpe sati sarva-duḥkhānām ādhyātmikādīnām ajñāna-vilasitānāṃ hānir vināśo 'sya yater upajāyate | hi yasmāt prasanna-cetaso yater āśu śīghram eva buddhir brahmātmaikyākārā paryavatiṣṭhate pari samantād avatiṣṭhate sthirā bhavati viparīta-bhāvanādi-pratibandhābhāvāt | tataś ca prasāde sati buddhi-paryavasthānaṃ tatas tad-virodhy-ajñāna-nivṛttiḥ | tatas tat-kārya-sakala-duḥkha-hānir iti krame 'pi prasāde yatrādhikyāya sarva-duḥkha-hāni-karatva-kathanam iti na virodhaḥ ||65||",
@@ -45576,7 +45576,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.65",
       "sanskrit": "kathaṃ prasādamātreṇa sarvaduḥkhahāniḥ ? prasannacetaso hi buddhiḥ paryavatiṣṭhati| brahmāparokṣeṇa samyak sthitiṃ karoti| prasādo nāma svato'pi prāyo viṣayāgatiḥ",
@@ -45909,7 +45909,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.66",
       "sanskrit": "nāsti na vidyate na bhavatīty arthaḥ, buddhiḥ ātma-svarūpa-viṣayā ayuktasya asamāhitāntaḥ-karaṇasya | na ca asti ayuktasya bhāvanā ātma-jñānābhiniveśaḥ | tathā -- na cāsty abhāvayata ātma-jñānābhiniveśam akurvataḥ śāntir upaśamaḥ | aśāntasya kutaḥ sukham ? indriyāṇāṃ hi viṣaya-sevā-tṛṣṇātaḥ nivṛttir yā tat-sukham, na viṣaya-viṣayā tṛṣṇā | duḥkham eva hi sā | na tṛṣṇāyāṃ satyāṃ sukhasya gandha-mātram apy upapadyate ity arthaḥ",
@@ -46732,7 +46732,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.66",
       "sanskrit": "imam evārthaṃ vyatireka-mukhena draḍhayati nāstīti | ayuktasyājita-cittasya buddhir ātma-viṣayā śravaṇa-mananākhya-vedānta-vicāra-janyā nāsti notpadyate | tad-buddhy-abhāve na cāyuktasya bhāvanā nididhyāsanātmikā vijātīya-pratyayānantaritasajātīya-pratyaya-pravāha-rūpā | sarvatra naño 'stīty anenānvayaḥ | na cābhāvayata ātmānaṃ śāntiḥ sakāryāvidyā-nivṛtti-rūpā vedānta-vākya-janyā brahmātmaikya-sākṣāt-kṛtiḥ | aśāntasyātma-sākṣātkāra-śūnyasya kutaḥ sukhaṃ mokṣānanda ity arthaḥ ||66||",
@@ -48447,7 +48447,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.66",
       "sanskrit": "prasādābhāve doṣamāhottaraślokābhyām| nahi prasādābhāve yuktiścittanirodhaḥ| ayuktasya ca buddhiḥ – samyag jñānaṃ, nāsti| tadevopapādayati na cāyuktasyeti| śānti muktiḥ| ‘ śāntirmokṣo'tha nirvāṇam ’ ityabhidhānāt",
@@ -48957,7 +48957,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.67",
       "sanskrit": "indriyāṇāṃ hi yasmāt caratāṃ sva-sva-viṣayeṣu pravartamānānāṃ yat mano 'nuvidhīyate anupravartate tat indriya-viṣaya-vikalpanena pravṛttaṃ mano 'sya yateḥ harati prajñām ātmānātma-vivekajāṃ nāśayati | katham ? vāyuḥ nāvam iva ambhasi udake jigamiṣatāṃ mārgāduddhṛtya unmārge yathā vāyuḥ nāvaṃ pravartayati, evam ātma-viṣayāṃ prajñāṃ hṛtvā mano viṣaya-viṣayāṃ karoti",
@@ -49639,7 +49639,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.67",
       "sanskrit": "ayuktasya kuto nāsti buddhir ity ata āha indriyāṇām iti | caratāṃ sva-viṣayeṣu sva-sva-viṣayeṣu pravartamānānām avaśīkṛtānām indriyāṇāṃ madhye yad ekam apīndriyam anulakṣyīkṛtya mano vidhīyate preryate pravartate iti yāvat | karma-kartari la-kāraḥ | tat indriyam ekam api manasānusṛtam asya sādhakasya manaso vā prajñām ātma-viṣayāṃ śāstrīyāṃ harati apanayati manasas tad-viṣayāviṣṭatvāt | yadaikam apīndriyaṃ prajñāṃ harati tadā sarvāṇi harantīti kim u vaktavyam ity arthaḥ | dṛṣṭāntas tu spaṣṭaḥ | abhyasyeti vāyor naukā-haraṇa-sāmarthyaṃ na bhuvīti sūcayitum ambhasīty uktam | evaṃ dārṣṭāntike 'py ambhaḥ-sthānīye manaś cāñcalye saty eva prajñā-haraṇa-sāmarthyam indriyasya na tu bhū-sthānīye manaḥ-sthairya iti sūcitam ||67||",
@@ -51829,7 +51829,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.67",
       "sanskrit": "kathamayuktasya bhāvanā na bhavati ? āha – indriyāṇāmiti| anuvidhīyate – kriyate| nanvīśvareṇendriyāṇāmanu| ‘buddhirjñānam’ ityādi vakṣyamāṇatvāt| prajñāṃ -prajñānam| utpatsyadapi nivārayatītyarthaḥ| utpannasyāpyabhibhavo bhavati",
@@ -52343,7 +52343,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.68",
       "sanskrit": "indriyāṇāṃ pravṛttau doṣa upapādito yasmāt tasmāt yasya yateḥ he mahābāho, nigṛhītāni sarvaśaḥ sarva-prakāraiḥ mānasādi-bhedaiḥ indriyāṇi indriyārthebhyaḥ śabdādibhyas tasya prajñā pratiṣṭhitā",
@@ -52692,7 +52692,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.68",
       "sanskrit": "hi yasmād evaṃ tasmād iti | sarvaśaḥ sarvāṇi samanaskāni | he mahābāho iti sambodhayan sarva-śatru-nivāraṇa-kṣamatvād indriya-śatru-nivāraṇe 'pi tvaṃ kṣamo 'sīti sūcayati | spaṣṭam anyat | tasyeti siddhasya sādhakasya ca parāmarśaḥ | indriya-saṃyamasya sthita-prajñaṃ prati lakṣaṇatvasya mumukṣuṃ prati prajñā-sādhanatvasya copasaṃharaṇīyatvāt ||68||",
@@ -53774,7 +53774,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.68",
       "sanskrit": "tasmāt sarvātmanā nigṛhītendriya eva jñānīti nigamayati – tasmāditi",
@@ -53934,7 +53934,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.69",
       "sanskrit": "yā niśā rātriḥ sarva-padārthānām aviveka-karī tamaḥ-svabhāvatvāt sarva-bhūtānāṃ sarveṣāṃ bhūtānām | kiṃ tat paramārtha-tattvaṃ sthita-prajñasya viṣayaḥ | yathā naktaṃ-carāṇām ahar eva sad anyeṣāṃ niśā bhavati, tadvat naktaṃ-cara-sthānīyānām ajñānāṃ sarva-bhūtānāṃ niśeva niśā paramārtha-tattvam, agocaratvād atad-buddhīnām | tasyāṃ paramārtha-tattva-lakṣaṇāyām ajñāna-nidrāyāḥ prabuddho jāgarti saṃyamī saṃyamavān, jitendriyo yogīty arthaḥ | yasyāṃ grāhya-grāhaka-bheda-lakṣaṇāyām avidyā-niśāyāṃ prasuptāny eva bhūtāni jāgrati iti ucyante, yasyāṃ niśāyāṃ prasuptā iva svapna-dṛśaḥ, sā niśā avidyā-rūpatvāt paramārtha-tattvaṃ paśyato muneḥ | ataḥ karmāṇi avidyāvasthāyām eva codyante, na vidyāvasthāyām | vidyāyāṃ hi satyām udite savitari śārvaram iva tamaḥ praṇāśam upagacchati avidyā | prāk vidyotpatteḥ avidyā pramāṇa-buddhyā gṛhyamāṇā kriyā-kāraka-phala-bheda-rūpā satī sarva-karma-hetutvaṃ pratipadyate | na apramāṇa-buddhyā gṛhyamāṇāyāḥ karma-hetutvopapattiḥ, pramāṇa-bhūtena vedena mama coditaṃ kartavyaṃ karma iti hi karmaṇi kartā pravartate, na avidyā-mātram idaṃ sarvaṃ bheda-jātam iti jñānaṃ tasya ātmajñasya sarva-karma-saṃnyāse eva adhikāro na pravṛttau | tathā ca darśayiṣyati --- tad-buddhayas tad-ātmānaḥ ity ādinā jñāna-niṣṭhāyām eva tasya adhikāram | tatrāpi pravartaka-pramāṇābhāve pravṛtty-anupapattiḥ iti cet, na | svātma-viṣayatvād ātma-vijñānasya | na hy ātmanaḥ svātmani pravartaka-pramāṇāpekṣatā, ātmatvād eva | tad-antatvāc ca sarva-pramāṇānāṃ pramāṇatvasya | na hy ātma-svarūpādhigame sati punaḥ pramāṇa-prameya-vyavahāraḥ saṃbhavati | pramātṛtvaṃ hy ātmanaḥ nivartayati antyaṃ pramāṇam | nivartayad eva cāpramāṇībhavati, svapna-kāla-pramāṇam iva prabodhe | loke ca vastv-adhigame pravṛtti-hetutvādarśanāt pramāṇasya | tasmān nātma-vidaḥ karmaṇy adhikāra iti siddham",
@@ -56912,7 +56912,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.69",
       "sanskrit": "tad evaṃ mumukṣuṇā prajñā-sthairyāya prayatna-pūrvakam indriya-saṃyamaḥ kartavya ity uktaṃ sthita-prajñasya tu svataḥ siddha eva sarvendriya-saṃyama ity āha yā niśeti | yā vedānta-vākya-janita-sākṣātkāra-rūpāhaṃ brahmāsmīti prajñā sarva-bhūtānām ajñānāṃ niśeva niśā tān praty aprakāśa-rūpatvāt | tasyāṃ brahma-vidyā-lakṣaṇāyāṃ sarva-bhūta-niśāyāṃ jāgarti ajñāna-nidrāyāḥ prabuddhaḥ san sāvadhāno vartate saṃyamīndriya-saṃyamavān sthita-prajña ity arthaḥ | yasyāṃ tu dvaita-darśana-lakṣaṇāyām avidyā-nidrāyāṃ prasuptāny eva bhūtāni jāgrati svapnavad vyavaharanti sā niśā na prakāśata ātma-tattvaṃ paśyato 'parokṣatayā muneḥ sthita-prajñasya | yāvad dhi na prabudhyate tāvad eva svapna-darśanaṃ bodhya-paryantatvād bhramasya tattva-jñāna-kāle tu na bhrama-nimittaḥ kaścid vyavahāraḥ | tad uktaṃ vārtika-kāraiḥ - kāraka-vyavahāre hi śuddhaṃ vastu na vīkṣyante | śuddhe vastuni siddhe ca kāraka-vyāpṛtis tathā || kākolūka-niśevāyaṃ saṃsāro 'jñātma-vedinoḥ | yā niśā sarva-bhūtānām ity avocat svayaṃ hariḥ || iti | tathā ca yasya viparīta-darśanaṃ tasya na vastu-darśanaṃ viparīta-darśanasya vastv-adarśana-janyatvāt | yasya ca vastu-darśanaṃ tasya na viparīta-darśanaṃ viparīta-darśana-kāraṇasya vastv-adarśanasya vastu-darśanena bādhitatvāt | tathā ca śrutiḥ - yatra vā anyad iva syāt tatrānyo 'nyat paśyet | yatra svasya sarvam ātmaivābhūt tat kena kaṃ paśyet || iti vidyāvidyayor vyavasthām āha | yathā kākasya rātry-andhasya dinam ulūkasya divāndhasya niśā rātrau paśyataś colūkasya yad dinaṃ rātrir eva sā kākasyeti mahad āścaryam etat | atas tattva-darśibhiḥ katham āvidyaka-kriyā-kārakādi-vyavahāraḥ syād iti svataḥ siddha eva tasyendriya-saṃyama ity arthaḥ ||69||",
@@ -61021,7 +61021,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.69",
       "sanskrit": "uktaṃ lakṣaṇaṃ piṇḍīkṛtyāha – yā niśeti – yā sarvabhūtānāṃ niśā parameśvarasvarūpalakṣaṇā, yasyāṃ suptānīva na kiñcijjānanti, tasyāmindriya – saṃyamayukto jñānī jāgarti – samyagāparokṣyeṇa paśyati, paramātmānamityarthaḥ| yasyāṃ -viṣayalakṣaṇāyāṃ bhūtāni, jāgrati tasyāṃ niśāyāmiva suptaḥ prāyo na jānāti| mattādivadgamanādipravṛttiḥ| taduktam – ‘ dehaṃ tu tanna caramam ’ ‘ deho'pi daivavaśagaḥ ’ iti ślokābhyām ‘ mananayukto muniḥ| paśyata ityasya sādhanamāha",
@@ -61930,7 +61930,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.70",
       "sanskrit": "āpūryamāṇam adbhir acala-pratiṣṭham acalatayā pratiṣṭhā avasthitiḥ yasya tam acala-pratiṣṭhaṃ samudram āpaḥ sarvato gatāḥ praviśanti svātmastham avikriyam eva santaṃ yadvat, tadvat kāmāḥ viṣaya-saṃnidhāv api sarvataḥ icchā-viśeṣāḥ yaṃ puruṣam --- samudram iva āpaḥ -- avikurvantaḥ praviśanti sarve ātmany eva pralīyante na svātma-vaśaṃ kurvanti, sa śāntir mokṣam āpnoti, netaraḥ kāma-kāmī, kāmyanta iti kāmāḥ viṣayāḥ tān kāmayituṃ śīlaṃ yasya saḥ kāma-kāmī, naiva prāpnotīty arthaḥ",
@@ -62923,7 +62923,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.70",
       "sanskrit": "etādṛśasya sthita-prajñasya sarva-vikṣepa-śāntir apy artha-siddheti sa-dṛṣṭāntam āha āpūryamāṇam iti | sarvābhir nadībhir āpūryamāṇaṃ santaṃ vṛṣṭy-ādi-prabhavā api sarvā āpaḥ samudraṃ praviśanti | kīdṛśam acala-pratiṣṭham anatikrānta-maryādam | acalānāṃ mainākādīnāṃ pratiṣṭhā yasminn iti vā gāmbhīryātiśaya uktaḥ | yadvad yena prakāreṇa nirvikāratvena tadvat tenaiva nirvikāratva-prakāreṇa yaṃ sthita-prajñaṃ nirvikāram eva santaṃ kāmā ajñair lokaiḥ kāmyamānāḥ śabdādyāḥ sarve viṣayā avarjanīyatayā prārabdha-karma-vaśāt praviśanti na tu vikartuṃ śaknuvanti sa mahā-samudra-sthānīyaḥ sthita-prajñaḥ śāntiṃ sarva-laukikālaukika-karma-vikṣepa-nivṛttiṃ bādhitānuvṛttāvidyā-kārya-nivṛttiṃ cāpnoti jñāna-balena | na kāma-kāmī kāmān viṣayān kāmayituṃ śīlaṃ yasya sa kāma-kāmy ajñaḥ śāntiṃ samākhyātāṃ nāpnoti | api tu sarvadā laukikālaukika-karma-vikṣepeṇa mahati kleśārṇave magno bhavatīti vākyārthaḥ | etena jñānina eva phala-bhūto vidvat-saṃnyāsas tasyaiva ca sarva-vikṣepa-nivṛtti-rūpā jīvan-muktir daivāddhnīna-viṣaya-bhoge 'pi nirvikāratety-ādikam uktaṃ veditavyam ||70||",
@@ -65463,7 +65463,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.70",
       "sanskrit": "tena viṣayānubhavaprakāramāha – apūryamāṇamiti| yo viṣayairāpūryamāṇo'pyacalapratiṣṭho bhavati| notsekaṃ prāpnoti| na ca prayatnaṃ karoti| na cābhāve śuṣyati| nahi samudraḥ saritpraveśāpraveśanimittavṛddhiśoṣau bahutarau prāpnoti| prayatnaṃ vā karoti| sa muktiṃ prāpnotītyarthaḥ",
@@ -66078,7 +66078,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.71",
       "sanskrit": "vihāya parityajya kāmān yaḥ saṃnyāsī pumān sarvān aśeṣataḥ kārtsnyena carati, jīvana-mātra-ceṣṭāśeṣaḥ paryaṭatīty arthaḥ | niḥspṛhaḥ śarīra-jīvana-mātre 'pi nirgatā spṛhā yasya saḥ niḥspṛhaḥ san nirmamaḥ śarīra-jīvana-mātrākṣipta-parigrahe 'pi mamedam ity abhiniveśa-varjitaḥ, nirahaṃkāraḥ vidyāvattvādi-nimittātma-saṃbhāvanā-rahitaḥ ity etat | sa evaṃbhūtaḥ sthita-prajñaḥ brahmavit śāntiṃ sarva-saṃsāra-duḥkhoparama-lakṣaṇāṃ nirvāṇākhyām adhigacchati prāpnoti brahma-bhūto bhavati ity arthaḥ",
@@ -66916,7 +66916,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.71",
       "sanskrit": "yasmād evaṃ tasmāt vihāyeti | prāptān api sarvān bāhyān gṛha-kṣetrādīnāntarān manorājya-rūpān vāsanā-mātra-rūpāṃś ca pathi gacchaṃs tṛṇa-sparśa-rūpān kāmāṃs trividhān vihāyopekṣya śarīra-jīvana-mātre 'pi nispṛhaḥ san | yato nirahaṅkāra śarīrendriyādāv ayam aham ity abhimāna-śūnyaḥ | vidyāvattvādi-nimittātma-sambhāvanā-rahita iti vā | ato nirmamaḥ śarīra-yātrā-mātrārthe 'pi prārabdha-karmākṣipte kaupīnācchādanādau mamedam ity abhimāna-varjitaḥ san yaḥ pumāṃś carati prārabdha-karma-vaśena bhogān bhuṅkte yādṛcchikatayā yatra kvāpi gacchatīti vā | sa evaṃbhūtaḥ sthita-prajñaḥ śāntiṃ sarva-saṃsāra-duḥkhoparama-lakṣaṇām avidyā-tat-kārya-nivṛttim adhigacchati jñāna-balena prāpnoti | tad etad īdṛśaṃ vrajanaṃ sthita-prajñasyeti caturtha-praśnasyottaraṃ parisamāptam ||71||",
@@ -68757,7 +68757,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.71",
       "sanskrit": "etadeva prapañcayati – vihāyeti| kāmān viṣayān nispṛhatayā vihāya yaścarati – bhakṣayati| bhakṣayāmītyādyahaṅkāra mamakāravarjitaśca| sa hi pumān| sa eva muktimadhigacchatītyarthaḥ",
@@ -69178,7 +69178,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "shankara",
       "author": "Śaṅkara",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gītā-bhāṣya",
       "locus": "2.72",
       "sanskrit": "eṣā yathoktā brāhmī brahmaṇi bhavā iyaṃ sthitiḥ sarvaṃ karma saṃnyasya brahma-rūpeṇaiva avasthānam ity etat | he pārtha, naināṃ sthitiṃ prāpya labdhvā na vimuhyati na mohaṃ prāpnoti | sthitvāsyāṃ sthitau brāhmyāṃ yathoktāyāṃ anta-kāle 'pi antye vayasy api brahma-nirvāṇaṃ brahma-nirvṛtiṃ mokṣam ṛcchati gacchati | kim u vaktavyaṃ brahmacaryād eva saṃnyasya yāvaj jīvaṃ yo brahmaṇy eva avatiṣṭhate sa brahma-nirvāṇam ṛcchati iti",
@@ -70077,7 +70077,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhusudana",
       "author": "Madhusūdana Sarasvatī",
-      "school": "Advaita Vedānta",
+      "school": "Advaita",
       "work": "Gūḍhārtha-dīpikā",
       "locus": "2.72",
       "sanskrit": "tad evaṃ caturṇāṃ praśnānām uttara-vyājena sarvāṇi sthita-prajña-lakṣaṇāni mumukṣu-kartavyatayā kathitāni | samprati karma-yoga-phala-bhūtāṃ sāṅkhya-niṣṭhāṃ stuvann upasaṃharati eṣeti | eṣā sthita-prajña-lakṣaṇa-vyājena kathitā | eṣā te 'bhihitā sāṅkhye buddhir iti ca prāg uktā sthitir niṣṭhā sarva-karma-saṃnyāsa-pūrvaka-paramātma-jñāna-lakṣaṇā brāhmī brahma-viṣayā | he pārtha ! enāṃ sthitiṃ prāpya yaḥ kaścid api pnar na vimuhyati | na hi jñāna-bādhitasyājñānasya punaḥ sambhavo 'sti anāditvenotpatty-asambhavāt | asyāṃ sthitāv anta-kāle 'pi antye 'pi vaayasi sthitvā brahma-nirvāṇaṃ brahmaṇi nirvāṇaṃ nirvṛttiṃ brahma-rūpaṃ nirvāṇam iti vā | ṛcchati gacchaty abhedena | kim u vaktavyaṃ yo bramacaryād eva saṃnyasya yāvaj-jīvam asyāṃ brāhmyāṃ sthitāv avatiṣṭhate sa brahma-nirvāṇam ṛcchatīty api-śabdārthaḥ ||72|| iti śrīmat-paramahaṃsa-parivrājakācārya-śrī-viśveśvara-sarasvatī-pāda-śiṣya-śrī-madhusūdana-sarasvatī-viracitāyāṃ śrīmad-bhagavad-gītā-gūḍhārtha-dīpikāyām sarva-gītārtha-sūtraṇaṃ nāma dvitīyo 'dhyāyaḥ ||2||",
@@ -72672,7 +72672,7 @@ window.GITA_COMMENTARY = {
     {
       "voiceId": "madhva",
       "author": "Madhva (Ānandatīrtha)",
-      "school": "Dvaita Vedānta",
+      "school": "Tattva-vāda",
       "work": "Gītā-bhāṣya",
       "locus": "2.72",
       "sanskrit": "upasaṃharati – eṣeti| brāhmī sthitiḥ – brahmaviṣayā sthitirlakṣaṇam| anta-kāle'pyasyāṃ sthitvaiva brahma gacchati| anyathā janmāntaraṃ prāpnoti| ‘yaṃ yaṃ vā'pi’ iti vakṣyamāṇatvāt| jñānīnāmapi sati prārabdhakarmāṇi śarīrāntaraṃ yuktam| ‘bhogena tvitare ’ iti hyuktam| santi hi bahuśarīraphalāni karmāṇi kānicit| ‘saptajanmani vipraḥ syāt’ ityādeḥ| daṣṭeśca jñānināmapi bahuśarīraprāpteḥ| tathāhyuktam – ‘ sthitaprajño'pi yastūrdhvaḥ prāpya raudrapadaṃ tataḥ| sāṅkarṣaṇaṃ tato muktimagādviṣṇuprasādataḥ ’ iti gāruḍe| ‘ mahādeva pare janmaṃstava muktirnirūpyate ’ iti nāradīye| niścitaphalaṃ ca jñānam – ‘tasya tāvadeva ciram ’, ‘yadu ca nārciṣamevābhisambhavati’ ityādi śṛtibhyaḥ|na ca kāyavyūhāpekṣā| ‘tadyathaiṣīkātūlam’ , ‘tadyathā puṣkaraphalāśe’, ‘jñānāgniḥ sarva karmāṇi ’ ityādi vacanebhyaḥ| prārabde tvavirodhaḥ| pramāṇābhāvācca| na ca tacchāstraṃ pramāṇam – ‘ akṣapādakaṇādānāṃ sāṅkhyayogajaṭābhṛtām| matamālambya ye vedaṃ dūṣayantyalpacetasaḥ ’ iti nindanāt| yatra tu stutistatra śivabhaktānāṃ stutiparatvameva na satyatvam| na hi teṣāmapītaragranthaviruddhārthe prāmāṇyam| tathā hyuktam eṣa mohaṃ sṛjāmyāśu yo janān mohayiṣyati| ‘ tvaṃ ca rudra mahābāho mohaśāstrāṇi kāraya| atathyāni vitathyāni darśayasva mahābhuja ’ prakāśaṃ kuru cātmānamaprakāśaṃ ca māṃ kuru||iti vārāhe| ‘ kutsitāni ca miśrāṇi rudro viṣṇupracoditaḥ| cakāra śāstrāṇi vibhur ‌ ṛṣayastatpracoditāḥ| dadhīcyādyāḥ purāṇāni tacchāstrasamayena tu| cakrurvedaiśca brāhmāṇi vaiṣṇavān viṣṇuvedataḥ| pañcarātraṃ bhārataṃ ca mūlarāmāyaṇaṃ tathā| tathā purāṇaṃ bhāgavataṃ viṣṇuveda itīritaḥ| ataḥ śaivapurāṇāni yojyānyanyāvirodhataḥ ’ iti ca nāradīye| ato jñānīnāṃ bhavatyeva muktiḥ| bhīṣmādīnāṃ tu tatkṣaṇe yuktyabhāvaḥ| ‘smaraṃstyajati’ iti vartamānāpadeśo hi kṛtaḥ| taccoktam – ‘ jñānināṃ karmayuktānāṃ kāyatyāgakṣaṇo yadā| viṣṇumāyā tadā teṣāṃ mano bāhyaṃ karoti hi ’ iti gāruḍe| na cānyeṣāṃ tadā smṛtirbhavati- ‘ bahujanmavipākena bhaktijñānena ye harim| bhajanti tatsmṛtiṃ tvante devo yāti na cānyathā ’ ityukterbrahmavaivarte| nirbāṇamaśarīram| ‘kāyo bāṇaṃ śarīraṃ ca’ ityabhidhānāt| ‘etadbāṇamavaṣṭabhya’ iti prayogācca| nirbāṇaśabda­pratipādanam’anindriyāḥ’ ityādivat| kathamanyathā sarvapurāṇādi prasiddhā''kṛtirbhagavata upapadyate ? na cānyadbagavata uttamaṃ brahma – ‘ brahmeti paramātmeti bhagavāniti śabdyate ’ iti bhāgavate| ‘bhagavantaṃ paraṃ brahma’ ‘parabrahma janārdanaḥ’ , ‘paramaṃ yo mahadbrahma ’, ‘yasmāt kṣaramatīto'hamakṣarādapi cottamaḥ’, ‘yo'sāvatīndriyagrāhyaḥ’ , ‘nāsti nārāyaṇasamaṃ na bhūtaṃ na bhaviṣyati’, ‘na tvatsamo'styabhyadhikaḥ kuto'nyaḥ’ ityādibhyaḥ| na ca tadbrahmaṇo'śarīratvādetat kalpyam| tasyāpi śarīraśravaṇāt ‘ānandarūpamamṛtam’ , ‘suvarṇajyotiḥ’, ‘daharo'sminnantarākāśaḥ’ ityādiṣu| yadi rūpaṃ na syāt , ānandamityeva syāt , na tvānandarūpamiti| kathaṃ ca suvarṇarūpatvaṃ syādarūpasya ? kathaṃ daharatvam ? daharasthaśca ‘kecit svadeha – ’ ityādau rūpavānucyate| ‘sahasraśīrṣā puruṣaḥ’ , ‘rugmavarṇaṃ kartāram ’ , ‘ādityavarṇaṃ tamasaḥ parastāt’, ‘sarvataḥ pāṇi pādaṃ tat’, ‘viśvataścakṣuruta’ ityādivacanāt| viśvarūpādhyāyādeśca rūpavānavasīyate| atiparipūrṇatama­jñānaiśvarya­vīryānandaśrīśaktyādimāṃśca bhagavān ‘parā'sya śaktirvividhaiva śrūyate svābhāvikī jñānabalakriyā ca’ ‘yaḥ sarvajñaḥ’,‘ānandaṃ brahmaṇaḥ’ ,‘etasyaivānandasyānyāni bhūtāni mātrāmupajīvanti’, ‘anādimadhyāntamanantavīryam’,‘sahasralakṣāmitakāntikāntaḥ’, ‘mayyanantaguṇe'nante guṇato'nantavigrahe’, ‘vijñānaśaktirahamāsamanantaśakteḥ’, ‘turyaṃ tat sarvadṛk sadā’ , ‘ātmānamanyaṃ ca sa veda vidvān’, ‘anyatamo mukundāt ko nāma loke bhagavatpadārthaḥ ’ ¸‘aiśvaryasya samagrasya’| ‘ atīva paripūrṇaṃ te sukhaṃ jñānaṃ ca saubhagam| yaccātyayuktaṃ smartuṃ va śaktaḥ kartumataḥ paraḥ ’ ityādibhyaḥ| tāni ca sarvāṇyanyonyasvarūpāṇi – ‘vijñānamānandaṃ brahma’, ‘ānando brahmeti vyajānāt ’,‘satyaṃ jñānamanantaṃ brahma’, ‘yasya jñānamayaṃ tapaḥ’, ‘sa mā bhaga praviśa svāhā’| ‘ na tasya prākṛtā mūrtirmāṃsamedosthisambhavā| na yogitvādīśvaratvāt satyarūpācyuto vibhuḥ ’ || ‘ saddehaḥ sukhagandhaśca jñānabhāḥ satparākramaḥ| jñānājñānaḥ sukhasukhaḥ sa viṣṇuḥ paramo'kṣaraḥ ’ iti paiṅgīkhile| ‘ deho'yaṃ me sadānando nāyaṃ prakṛtinirmitaḥ| paripūrṇaśca sarvatra tena nārāyaṇo'smyaham ’ ityādibhyo brahmavaivarte| tadeva līlayā cāsau paricchinnādirūpeṇa darśayati māyayā – ‘ na ca garbhe'vasaddevyā na cāpi vasudevataḥ| na cāpi rāghavājjāto na cāpi jamadagnitaḥ| nityānando'dvayo'pyevaṃ krīḍate'moghadarśanaḥ ’ iti pādme| ‘ na vai sa ātmā''tmavatāmadhīśvaro bhuṅte hi duḥkhaṃ bhagavān vāsudevaḥ ’, ‘sargāderīśitā'jaḥ paramasukhanidhirbhodharūpo'pyabhodaṃ lokānāṃ darśayan yo munisutahṛtātmapriyārthe jagāma’| ‘ sa brahmavandyacaraṇo naravat pralāpī strīsaṅgināmiti ratiṃ prathayaṃścakāra ’, ‘ pūrteracintyavīryo yo yaśca dāśarathiḥ svayam| rudravākyamṛtaṃ kartumajito jitavat sthitaḥ|| ‘ yo'jito vijito bhaktyā gāṅgeyaṃ na jaghāna ha| na cāmbāṃ grāhayāmāsa karuṇaḥ ko'parastataḥ ’ ityādibhyaśca skānde na tatra saṃsāradharmā nirūpyāḥ| yatra ca parāvarabhedo'vagamyate tatrājñabuddhimapekṣyāvaratvam| viśvarūpamapekṣyānyatra| taccoktam – ‘ paripūrṇāni rūpāṇi samānyakhilarūpataḥ| tathā'pyapekṣya mandānāṃ dṛṣṭiṃ tvāmṛṣayo'pi tu| parāvaraṃ vadantyevaṃ hyabhaktānāṃ vimohane ’ iti gāruḍe| na cātra kiñcidupacaritā vācyam| acintyaśakteḥ padārthavaicitryāccetyuktam| ‘ kṛṣṇarāmādirūpāṇi paripūrṇāni sarvadā| na cāṇumātraṃ bhinnāni tathā'pyasmān vimohasi ’ ||ityādeśca nāradīye| tasmāt sarvadā sarvarūpeṣvaparigaṇitānānantaguṇagaṇaṃ nityanirastā­śeṣadoṣaṃ ca nārāyaṇākhyaṃ paraṃ brahmāparokṣajñānī ṛcchatīti siddham",
