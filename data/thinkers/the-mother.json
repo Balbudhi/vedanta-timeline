@@ -4,8 +4,12 @@
   "name_iast": "The Mother",
   "dates_low": 1878,
   "dates_high": 1973,
-  "school": "Integral Yoga",
-  "school_color_token": "advaita",
+  "school": "Pūrṇa-Advaita",
+  "school_color_token": "purna-advaita",
+  "sub_school": "Integral Yoga (Pūrṇa-Advaita)",
+  "lineage_in": [
+    "aurobindo"
+  ],
   "summary": "The Mother is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",
   "engaged_works": [
     {
