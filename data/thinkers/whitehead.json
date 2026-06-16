@@ -61,8 +61,10 @@
       "key_passage_ids": []
     }
   ],
-  "entry_status": "stub-from-backlog",
-  "core_thesis": "Whitehead holds that the final real things are actual occasions, momentary events of becoming rather than enduring substances ([Process and Reality I.2](cite://whitehead/process-and-reality/1.2); [Process and Reality II.3](cite://whitehead/process-and-reality/2.3)). Each occasion prehends others and integrates that data into a novel unity, so relation is internal to actuality itself. The many become one and are increased by one: process, not self-identical substratum, is metaphysically basic.",
+  "entry_status": "reviewed",
+  "core_thesis": "Alfred North Whitehead is included here as a process-philosophy comparator. Process and Reality presents a \"philosophy of organism\" in which actual entities, also called actual occasions, are the final real things; they are drops of experience, complex and interdependent, with relatedness prior to isolated quality ([Process and Reality, Preface](cite://whitehead/processrealityes0000unse/Preface); [Process and Reality I.II.I](cite://whitehead/processrealityes0000unse/Part-I-Ch-II-Sec-I)). Its categoreal scheme treats creativity, many, and one as ultimate notions: the many become one and are increased by one, so actuality is a process of concrescence rather than an enduring substrate ([Process and Reality I.II.II](cite://whitehead/processrealityes0000unse/Part-I-Ch-II-Sec-II)). In the later chapter on process, Whitehead distinguishes concrescence from transition: each actual occasion becomes a determinate unity and then serves as datum for new occasions ([Process and Reality II.X.II](cite://whitehead/processrealityes0000unse/Part-II-Ch-X-Sec-II)). Adventures of Ideas restates the vocabulary of prehension, concrescence, and creativity, and develops a value theory in which beauty is harmony among prehensions and civilized life requires truth, beauty, adventure, art, and peace ([Adventures, Philosophic Method XV-XVI](cite://whitehead/adventures-of-ideas/Philosophic-Method-XV-XVI); [Adventures, Beauty I](cite://whitehead/adventures-of-ideas/Beauty-I); [Adventures, Adventure](cite://whitehead/adventures-of-ideas/Adventure)).",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "codex-blurb-pass",
   "primitive_commitments": [
     {
       "primitive": "causation_model",

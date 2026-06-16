@@ -217,8 +217,10 @@
       "key_passage_ids": []
     }
   ],
-  "entry_status": "stub-from-backlog",
-  "core_thesis": "Nietzsche denies that there is a doer behind the deed; truths and values are interpretations of contending forms of life ([BGE §22](cite://nietzsche/beyond-good-and-evil/22); [Genealogy I.13](cite://nietzsche/on-the-genealogy-of-morality/1.13)). His polemic therefore cuts against grammar and moral absolutes ([Twilight, 'Reason in Philosophy' §5](cite://nietzsche/twilight-of-the-idols/reason-in-philosophy.5)). The positive demand is affirmation under eternal recurrence: whether one can will one's life again without remainder ([GS §341](cite://nietzsche/the-gay-science/341); [Zarathustra III, 'Convalescent'](cite://nietzsche/thus-spoke-zarathustra/3.the-convalescent)).",
+  "entry_status": "reviewed",
+  "core_thesis": "Friedrich Nietzsche is included here as a comparator for a philosophy that treats truth, morality, and selfhood as interpretive formations rather than access to a fixed metaphysical subject. In Beyond Good and Evil he calls the physicist's law-governed nature an interpretation, not a text, and offers will to power as another interpretation of the same world ([Beyond Good and Evil §22](cite://nietzsche/en-beyond-good-and-evil/22)). In the Genealogy, he rejects a neutral doer behind action and reads moral responsibility as a linguistic and social construction that lets weakness appear as merit ([Genealogy I.13](cite://nietzsche/en-genealogy-of-morals/1.13)). Twilight of the Idols attacks the grammar of substance, ego, and \"true world\" metaphysics while defending becoming and sensory evidence ([Twilight, \"Reason in Philosophy\" §§2-6](cite://nietzsche/en-twilight-idols/reason-in-philosophy.2-6)). His affirmative test is eternal recurrence: whether one can will this life again, posed in The Joyful Wisdom and dramatized in Zarathustra's convalescence ([Joyful Wisdom §341](cite://nietzsche/en-joyful-wisdom/341); [Zarathustra LVII](cite://nietzsche/en-thus-spake-zarathustra/LVII)).",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "codex-blurb-pass",
   "primitive_commitments": [
     {
       "primitive": "affective_motive_force",

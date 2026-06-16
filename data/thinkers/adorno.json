@@ -61,8 +61,10 @@
       "key_passage_ids": []
     }
   ],
-  "entry_status": "stub-from-backlog",
-  "core_thesis": "Adorno's negative dialectic denies that thought can close the gap between concept and object: the object is nonidentical with the forms that claim to master it, so philosophy must persist with contradiction rather than force reconciliation ([Negative Dialectics, Part Two](cite://adorno/negative-dialectics/2); [Minima Moralia §29](cite://adorno/minima-moralia/29)). Identity-thinking is false not because it thinks, but because it treats abstraction as dominion. Truth survives only as determinate attention to what the concept leaves wounded or unassimilated.",
+  "entry_status": "reviewed",
+  "core_thesis": "Theodor W. Adorno is included here as a comparator for critical theory: philosophy remains necessary, but only as self-critical thought under damaged social conditions. In Negative Dialektik he defines dialectic by the fact that objects do not go up into their concepts; contradiction indexes the untruth of identity, and the task is to reach the conceptless with concepts without making it identical to them ([Negative Dialektik, Einleitung](cite://adorno/theodoradorno-negativedialektik/Einleitung)). The same work links this method to the priority of the object and to a materialist turn away from the primacy of the subject ([Negative Dialektik, Vorrang des Objekts](cite://adorno/theodoradorno-negativedialektik/Vorrang-des-Objekts)). In Dialectic of Enlightenment, with Horkheimer, he argues that enlightenment must reflect on its own regressive moment: myth is already enlightenment, and enlightenment can revert to mythology and domination ([Dialectic of Enlightenment, Preface and Concept](cite://adorno/dialecticofenlightenmenttheodorw-adornomaxhorkheimer/preface-concept)). The culture-industry chapter applies this to standardized mass culture, where technical rationality functions as domination ([Culture Industry](cite://adorno/dialecticofenlightenmenttheodorw-adornomaxhorkheimer/culture-industry)). The Jargon of Authenticity extends the critique to existential language that presents social conformity as inward depth ([Jargon of Authenticity, ch. 5](cite://adorno/adorno-jargon/5)).",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "codex-blurb-pass",
   "primitive_commitments": [
     {
       "primitive": "affective_motive_force",
