@@ -13,14 +13,14 @@
       "description": "Public institutional records: appointed Haridas Chaudhuri Endowed Chair for Indian Philosophies and Cultures and Doshi Professor of Asian Art at the California Institute of Integral Studies (CIIS), San Francisco, in fall 2016; previously Professor of Indian Studies and Dean of Academics at the University of Philosophical Research, Los Angeles. Chair of the CIIS East-West Psychology department."
     }
   ],
-  "school": "Cross-tradition",
-  "school_color_token": "cross-tradition",
+  "school": "Integral Yoga",
+  "school_color_token": "advaita",
   "sub_school": "Integral / Aurobindonian studies — Indian aesthetic modernity",
   "sub_school_shade": 3,
   "lineage_in": [],
   "lineage_out": [],
   "lineage_polemical": [],
-  "core_thesis": "Debashish Banerji is an art historian and Indologist whose scholarly project reconstructs Sri Aurobindo's evolutionary Integral Yoga psychology and the aesthetic modernity of the Bengal school. *Seven Quartets of Becoming: A Transformative Yoga Psychology Based on the Diaries of Sri Aurobindo* (Nalanda International / D.K. Printworld, 2012) reads Sri Aurobindo's *Record of Yoga* diaries to reconstruct a developmental psychology of consciousness organized into seven \"quartets\" of faculties undergoing transformation. *The Alternate Nation of Abanindranath Tagore* (Sage, 2010) treats the painter Abanindranath Tagore — of whom Banerji is a descendant — as articulating a non-nationalist, cosmopolitan visual modernity against the homogenizing nation-form. *Meditations on the Isha Upanishad: Tracing the Philosophical Vision of Sri Aurobindo* (Maha Bodhi, 2020) follows Sri Aurobindo's reading of the *Īśā Upaniṣad*. His edited volumes extend these axes: *Integral Yoga Psychology* (Lotus Press, 2020), *Rabindranath Tagore in the 21st Century* (Springer, 2014), and *Critical Posthumanism and Planetary Futures* (Springer, 2016), which places Integral-Yoga and Indian thought in dialogue with posthumanist and planetary-futures discourse. Across the corpus Banerji works at the intersection of consciousness studies, Integral Yoga, and the visual and intellectual history of the Bengal Renaissance.",
+  "core_thesis": "Banerji's work joins Integral Yoga psychology to a historical account of modern Indian subjectivity. In *Seven Quartets of Becoming*, he reads Sri Aurobindo's *Record of Yoga* as a practical, experimental psychology: the seven quartets organize transformations of attention, volition, affect, perception, body, being, and action, without reducing yoga to fixed techniques or identity politics. The aim is a creative practice in which human agency meets an immanent field of conscious evolution, so that subjectivity can be freed from colonial, nationalist, and market formations rather than merely adjusted to them (Banerji, *Seven Quartets of Becoming*, Introduction; \"The Seven Quartets\"; \"Experimental Psychologies\"). In *The Alternate Nation of Abanindranath Tagore*, Banerji applies a similar concern with agency to art history. Abanindranath's painting is not treated as a simple Orientalist or nationalist style, but as a series of strategic practices that fashion dialogic, intersubjective, and intercultural forms of community through rasa, regional subaltern motifs, performance, and late practices of sympathetic relation (Banerji, *The Alternate Nation of Abanindranath Tagore*, Introduction; chs. 1-5).",
   "engaged_works": [
     {
       "work_id": "seven-quartets-of-becoming",
@@ -141,10 +141,10 @@
   "key_passages": [],
   "comparative_claim_ids": [],
   "reception_notes": "Read primarily within Integral Yoga studies, consciousness studies, and the art history of the Bengal Renaissance; associated institutionally with CIIS (San Francisco) and previously the University of Philosophical Research (Los Angeles).",
-  "entry_status": "draft",
+  "entry_status": "reviewed",
   "entry_owner_agent": "secondary-source-cleanup-opus",
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "secondary-source-cleanup-opus",
+  "last_verified_by": "codex-blurb-pass",
   "primitive_commitments": [
     {
       "primitive": "method_of_critique",

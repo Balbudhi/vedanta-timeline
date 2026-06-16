@@ -35,8 +35,10 @@
       "key_passage_ids": []
     }
   ],
-  "entry_status": "stub-from-backlog",
-  "core_thesis": "Coomaraswamy holds that art is properly an intellectual and sacramental operation: making is a mode of knowing, and beauty names the shining-forth of form grounded in supra-individual truth rather than private expression. His comparative method accordingly treats Hindu and Buddhist doctrines not as local curiosities but as exact statements of a metaphysics of participation, symbol, and liberation ([The Transformation of Nature in Art, ch. 1](cite://coomaraswamy/the-transformation-of-nature-in-art/1); [Hinduism and Buddhism, II](cite://coomaraswamy/hinduism-and-buddhism/2)).",
+  "entry_status": "reviewed",
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "codex-blurb-pass",
+  "core_thesis": "Coomaraswamy presents art as a disciplined intellectual and contemplative act, not as private self-expression or naturalistic copying. In *The Transformation of Nature in Art*, the artist's work begins from inward visualization: the form is known in the heart through concentration, then made outwardly as a symbolic body for an intelligible reality. Images are therefore not fetishes but supports for meditation, comparable to diagrams, and their truth depends on canonical form, symbolic fitness, and the worshipper's contemplative use rather than empirical likeness ([The Transformation of Nature in Art, ch. I](cite://coomaraswamy/thetransformationofnatureinartanandcoomaraswamy/chapter-i-the-theory-of-art-in-asia); [The Transformation of Nature in Art, ch. VII](cite://coomaraswamy/thetransformationofnatureinartanandcoomaraswamy/chapter-vii-origin-and-use-of-images-in-india)). In *The Dance of Siva*, the same metaphysics appears aesthetically: rasa is a supersensuous experience akin to spiritual realization, while Nataraja's dance images cosmic creation, preservation, destruction, veiling, and release as one rhythmic divine activity ([Dance of Siva, Theory of Beauty](cite://coomaraswamy/dli-ernet-234006/hindu-view-of-art-theory-of-beauty); [Dance of Siva](cite://coomaraswamy/dli-ernet-234006/the-dance-of-siva)).",
   "primitive_commitments": [
     {
       "primitive": "affective_motive_force",

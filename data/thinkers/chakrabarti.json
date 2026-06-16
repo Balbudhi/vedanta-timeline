@@ -20,7 +20,7 @@
   "lineage_in": [],
   "lineage_out": [],
   "lineage_polemical": [],
-  "core_thesis": "Arindam Chakrabarti is an analytic philosopher working in cross-cultural and comparative philosophy, classical Indian philosophy (especially Nyāya and Navya-Nyāya), philosophy of language, epistemology, perception, and aesthetics. Trained at Oxford under P. F. Strawson and Michael Dummett, he brings the apparatus of analytic philosophy into sustained dialogue with the Nyāya tradition of Gautama and Gaṅgeśa. *Denying Existence* (Kluwer / Synthese Library, 1997) treats the logic, epistemology, and pragmatics of singular negative existentials and fictional discourse, working the problem of how one can truly deny the existence of something across both Western analytic and Nyāya resources. *Realisms Interlinked: Objects, Subjects, and Other Subjects* (Bloomsbury, 2019) gathers decades of his work into an interlinked defense of three realisms — about external objects, about the perceiving self, and about other minds — drawing on Nyāya refutations of idealism, the definability of truth, non-conceptual perception, and knowledge of other minds. He co-edited *Knowing from Words* (with B. K. Matilal, Kluwer, 1993) on the epistemology of testimony (*śabda-pramāṇa*), *Comparative Philosophy without Borders* (Bloomsbury, 2015) arguing for a philosophy that reasons across traditions rather than merely comparing them, and the *Bloomsbury Research Handbook of Indian Aesthetics and the Philosophy of Art* (2016). His engagement runs from the *Nyāya-sūtra* and Gaṅgeśa's *Tattvacintāmaṇi* to contemporary analytic metaphysics and epistemology.",
+  "core_thesis": "Chakrabarti argues for a linked realism in which external objects, enduring subjects, and other subjects stand or fall together. In *Realisms Interlinked*, cross-sensory re-identification supplies the opening case: the object touched and the object seen must be one object, and that act of re-identification also requires a subject that owns and compares experiences. Against Buddhist, Humean, Parfitian, and fictionalist reductions, he uses Nyāya and analytic arguments to defend a substantial self without collapsing that self into introspected mental episodes or bodily processes (Chakrabarti, *Realisms Interlinked*, Introduction; chs. 1, 13, 16). The same framework extends to mind and language. The inner sense, or *manas*, mediates attention, introspection, cross-modal comparison, and imaginative perception; testimony and teaching are genuine sources of understanding because objectivity is public and intersubjective, not sealed within a solitary first person. Knowledge of other minds is therefore difficult but indispensable: the \"you\" is distinct from the \"I,\" yet communication, emotion, and shared reference require real other subjects (Chakrabarti, *Realisms Interlinked*, chs. 13, 17, 20).",
   "engaged_works": [
     {
       "work_id": "denying-existence",
@@ -141,10 +141,10 @@
   "key_passages": [],
   "comparative_claim_ids": [],
   "reception_notes": "Read within analytic, comparative, and classical-Indian philosophy; founding director of the EPOCH cross-cultural philosophy project at the University of Hawaiʻi at Mānoa.",
-  "entry_status": "draft",
+  "entry_status": "reviewed",
   "entry_owner_agent": "secondary-source-cleanup-opus",
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "secondary-source-cleanup-opus",
+  "last_verified_by": "codex-blurb-pass",
   "primitive_commitments": [
     {
       "primitive": "epistemic_authority",
