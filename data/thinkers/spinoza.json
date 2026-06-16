@@ -1,5 +1,6 @@
 {
   "id": "spinoza",
+  "display": false,
   "name": "Spinoza",
   "name_iast": "Spinoza",
   "dates_low": 1632,

@@ -1,5 +1,6 @@
 {
   "id": "kant",
+  "display": false,
   "name": "Immanuel Kant",
   "name_iast": "Immanuel Kant",
   "dates_low": 1724,

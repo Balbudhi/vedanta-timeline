@@ -1,5 +1,6 @@
 {
   "id": "freud",
+  "display": false,
   "name": "Sigmund Freud",
   "name_iast": "Sigmund Freud",
   "dates_low": 1856,

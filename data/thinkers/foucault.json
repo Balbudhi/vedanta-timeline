@@ -1,5 +1,6 @@
 {
   "id": "foucault",
+  "display": false,
   "name": "Michel Foucault",
   "name_iast": "Michel Foucault",
   "school": "Critical Theory",

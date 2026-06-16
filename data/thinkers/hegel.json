@@ -1,5 +1,6 @@
 {
   "id": "hegel",
+  "display": false,
   "name": "G. W. F. Hegel",
   "name_iast": "G. W. F. Hegel",
   "dates_low": 1770,

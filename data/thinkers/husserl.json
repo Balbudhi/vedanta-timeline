@@ -1,5 +1,6 @@
 {
   "id": "husserl",
+  "display": false,
   "name": "Edmund Husserl",
   "name_iast": "Edmund Husserl",
   "dates_low": 1859,

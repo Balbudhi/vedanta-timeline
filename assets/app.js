@@ -283,7 +283,9 @@ async function loadAll() {
   const thinkers = await Promise.all(
     (manifest.thinkers || []).map((f) => loadJSON(`data/thinkers/${f}`))
   );
-  state.thinkers = thinkers.filter(Boolean);
+  // display:false entries (e.g. the imported Western comparators) are kept in
+  // the data but hidden from the public timeline/network and all links.
+  state.thinkers = thinkers.filter(Boolean).filter((t) => t.display !== false);
   state.thinkers.forEach((t) => state.thinkersById.set(t.id, t));
 
   // Set of "<thinker_id>__<work_id>" identifiers for which a full translation

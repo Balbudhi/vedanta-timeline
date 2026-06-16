@@ -1,5 +1,6 @@
 {
   "id": "marx",
+  "display": false,
   "name": "Karl Marx",
   "name_iast": "Karl Marx",
   "dates_low": 1818,

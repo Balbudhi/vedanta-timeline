@@ -1,5 +1,6 @@
 {
   "id": "schopenhauer",
+  "display": false,
   "name": "Arthur Schopenhauer",
   "name_iast": "Arthur Schopenhauer",
   "dates_low": 1788,

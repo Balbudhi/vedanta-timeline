@@ -1,5 +1,6 @@
 {
   "id": "levinas",
+  "display": false,
   "name": "Emmanuel Levinas",
   "name_iast": "Emmanuel Levinas",
   "school": "Phenomenology",

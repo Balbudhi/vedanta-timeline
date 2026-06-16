@@ -1,5 +1,6 @@
 {
   "id": "heidegger",
+  "display": false,
   "name": "Martin Heidegger",
   "name_iast": "Martin Heidegger",
   "dates_low": 1889,

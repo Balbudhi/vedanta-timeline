@@ -1,5 +1,6 @@
 {
   "id": "nietzsche",
+  "display": false,
   "name": "Friedrich Nietzsche",
   "name_iast": "Friedrich Nietzsche",
   "dates_low": 1844,

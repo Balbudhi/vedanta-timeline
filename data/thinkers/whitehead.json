@@ -1,5 +1,6 @@
 {
   "id": "whitehead",
+  "display": false,
   "name": "Alfred North Whitehead",
   "name_iast": "Alfred North Whitehead",
   "dates_low": 1861,
