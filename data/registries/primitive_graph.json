@@ -2916,46 +2916,6 @@
         "confidence": "medium"
       },
       {
-        "thinker": "clooney",
-        "primitive": "epistemic_authority",
-        "value": "comparative-theological-reading",
-        "register": "epistemological",
-        "citation_locus": "cite://badarayana/brahma-sutra/1.1.1",
-        "confidence": "high"
-      },
-      {
-        "thinker": "clooney",
-        "primitive": "method_of_critique",
-        "value": "comparative-reading",
-        "register": "methodological",
-        "citation_locus": "cite://badarayana/brahma-sutra/1.1.1",
-        "confidence": "high"
-      },
-      {
-        "thinker": "coomaraswamy",
-        "primitive": "affective_motive_force",
-        "value": "aesthetic-rapture",
-        "register": "aesthetic",
-        "citation_locus": "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
-        "confidence": "medium"
-      },
-      {
-        "thinker": "coomaraswamy",
-        "primitive": "method_of_critique",
-        "value": "comparative-reading",
-        "register": "methodological",
-        "citation_locus": "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
-        "confidence": "medium"
-      },
-      {
-        "thinker": "coomaraswamy",
-        "primitive": "semantic_mediation",
-        "value": "language-as-creative-manifestation",
-        "register": "aesthetic",
-        "citation_locus": "cite://coomaraswamy/the-transformation-of-nature-in-art/1",
-        "confidence": "low"
-      },
-      {
         "thinker": "deleuze",
         "primitive": "determination_operator",
         "value": "difference-without-negation",
@@ -12136,17 +12096,6 @@
       },
       {
         "thinker": "madhva",
-        "counter_thinker": "coomaraswamy",
-        "primitive": "method_of_critique",
-        "agreement_type": "genuine-disagreement",
-        "register": "methodological",
-        "brief": "Ananda K. Coomaraswamy presses the same method axis in the methodological register, but with the value `comparative-reading` rather than `formal-proof-or-inference`.",
-        "citations": [
-          "cite://coomaraswamy/the-transformation-of-nature-in-art/1"
-        ]
-      },
-      {
-        "thinker": "madhva",
         "counter_thinker": "akalanka",
         "primitive": "modal_structure_of_truth",
         "agreement_type": "genuine-disagreement",
@@ -12346,17 +12295,6 @@
       },
       {
         "thinker": "nietzsche",
-        "counter_thinker": "coomaraswamy",
-        "primitive": "affective_motive_force",
-        "agreement_type": "genuine-disagreement",
-        "register": "ethical",
-        "brief": "Ananda K. Coomaraswamy touches the same motive force axis, but not in the same register. This section works it as `will-to-power` in the ethical register; Ananda K. Coomaraswamy approaches it through the aesthetic register.",
-        "citations": [
-          "cite://coomaraswamy/the-transformation-of-nature-in-art/1"
-        ]
-      },
-      {
-        "thinker": "nietzsche",
         "counter_thinker": "aksapada",
         "primitive": "soteric_end",
         "agreement_type": "genuine-disagreement",
@@ -12551,17 +12489,6 @@
         "brief": "Bhatta Kallata presses the same determination axis in the logical-dialectical register, but with the value `self-expression` rather than `non-sublatable-difference`.",
         "citations": [
           "cite://bhatta-kallata/spanda-karika/1.1"
-        ]
-      },
-      {
-        "thinker": "raghavendra",
-        "counter_thinker": "coomaraswamy",
-        "primitive": "method_of_critique",
-        "agreement_type": "genuine-disagreement",
-        "register": "methodological",
-        "brief": "Ananda K. Coomaraswamy presses the same method axis in the methodological register, but with the value `comparative-reading` rather than `formal-proof-or-inference`.",
-        "citations": [
-          "cite://coomaraswamy/the-transformation-of-nature-in-art/1"
         ]
       },
       {
