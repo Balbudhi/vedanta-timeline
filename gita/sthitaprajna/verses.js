@@ -3195,8 +3195,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "विषया विनिवर्तन्ते निराहारस्य देहिनः।\nरसवर्जं रसो ऽप्य् अस्य परं दृष्ट्वा निवर्तते॥",
     "iast": "viṣayā vinivartante nirāhārasya dehinaḥ |\nrasavarjaṃ raso 'py asya paraṃ dṛṣṭvā nivartate ||",
-    "sense": "For the embodied one who abstains, the sense-objects fall away — all but the relish for them; and even that relish falls away on his seeing the Supreme.",
-    "english": "{0:The sense-objects} {1:fall away} from {3:the embodied one} {2:who abstains}, {4:except the relish}; {6:even} {5:the relish} {7:of this one} {10:falls away} {8:on seeing} {9:the Supreme}.",
+    "sense": "For the embodied one who abstains, the sense-objects fall away — all but the rasa for them; and even that rasa falls away on his seeing the Supreme.",
+    "english": "{0:The sense-objects} {1:fall away} from {3:the embodied one} {2:who abstains}, {4:except the rasa}; {6:even} {5:the rasa} {7:of this one} {10:falls away} {8:on seeing} {9:the Supreme}.",
     "words": [
       {
         "i": 0,
@@ -3455,7 +3455,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.59",
         "sanskrit": "indriyāṇām āhārā viṣayāḥ; nirāhārasya viṣayebhyaḥ pratyāhṛtendriyasya dehino viṣayā vinivartamānā rasavarjaṃ vinivartante; rasaḥ rāgaḥ / viṣayarāgo na nivartata ityarthaḥ / rāgo 'py ātmasvarūpaṃ viṣayebhyaḥ paraṃ sukhataraṃ dṛṣṭvā nivartate",
-        "ourRendering": "The 'food' of the indriyas are the sense-objects; for the embodied one who is 'foodless' — that is, whose indriyas have been withdrawn from the objects — the sense-objects, as they recede, recede with the relish excepted; the 'relish' is rāga. The meaning is: rāga for the objects does not [yet] turn back. Even that rāga turns back when he has seen the self's own nature as higher (para) — as more blissful — than the objects.",
+        "ourRendering": "The 'food' of the indriyas are the sense-objects; for the embodied one who is 'foodless' — that is, whose indriyas have been withdrawn from the objects — the sense-objects, as they recede, recede with the rasa excepted; the 'rasa' is rāga. The meaning is: rāga for the objects does not [yet] turn back. Even that rāga turns back when he has seen the self's own nature as higher (para) — as more blissful — than the objects.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -3857,7 +3857,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{2:The sense-objects} are {1:the food} {0:of the indriyas}; {6:for the embodied one} {3:who is foodless} — {5:whose indriyas have been withdrawn} {4:from the objects} — {7:the sense-objects}, {8:as they recede}, {10:recede} {9:with the relish excepted}; {11:the relish} {12:is rāga}. {13:rāga for the objects} {14:does not} {15:turn back} — {16:thus}{17:is the meaning}. {19:Even} {18:that rāga} {25:turns back} {24:when he has seen} {20:the self's own nature} as {22:higher} — {23:as more blissful} — {21:than the objects}.",
+        "english": "{2:The sense-objects} are {1:the food} {0:of the indriyas}; {6:for the embodied one} {3:who is foodless} — {5:whose indriyas have been withdrawn} {4:from the objects} — {7:the sense-objects}, {8:as they recede}, {10:recede} {9:with the rasa excepted}; {11:the rasa} {12:is rāga}. {13:rāga for the objects} {14:does not} {15:turn back} — {16:thus}{17:is the meaning}. {19:Even} {18:that rāga} {25:turns back} {24:when he has seen} {20:the self's own nature} as {22:higher} — {23:as more blissful} — {21:than the objects}.",
         "segments": [
           {
             "from": 0,
