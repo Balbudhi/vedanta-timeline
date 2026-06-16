@@ -4,9 +4,9 @@
   "name_iast": "Debashish Banerji",
   "alternate_names": [],
   "dates_low": 1954,
-  "dates_high": 2050,
+  "dates_high": null,
   "dates_tier": "contested",
-  "dates_notes": "Living scholar; dates_high uses the repo's living-thinker sentinel (2050). Birth year is commonly given as 1954 but could not be confirmed from CIIS, Wikipedia, or other primary biographical records consulted (2026-06-15), hence dates_tier is contested rather than confirmed-from-records.",
+  "dates_notes": "Living scholar. Birth year is commonly given as 1954 but could not be confirmed from CIIS, Wikipedia, or other primary biographical records consulted (2026-06-15), hence dates_tier is contested rather than confirmed-from-records.",
   "dates_evidence": [
     {
       "kind": "court-record",

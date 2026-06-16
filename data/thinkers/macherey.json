@@ -3,7 +3,7 @@
   "name": "Pierre Macherey",
   "name_iast": "Pierre Macherey",
   "dates_low": 1938,
-  "dates_high": 2050,
+  "dates_high": null,
   "school": "Continental Philosophy",
   "school_color_token": "cross-tradition",
   "summary": "Pierre Macherey is represented here by a minimal backlog stub so routed on-disk source texts can surface in the Source tab pending fuller review.",

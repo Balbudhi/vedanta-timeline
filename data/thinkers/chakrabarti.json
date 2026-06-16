@@ -4,9 +4,9 @@
   "name_iast": "Arindam Chakrabarti",
   "alternate_names": [],
   "dates_low": 1957,
-  "dates_high": 2050,
+  "dates_high": null,
   "dates_tier": "contested",
-  "dates_notes": "Living scholar; dates_high uses the repo's living-thinker sentinel (2050). Birth year is commonly given as 1957 but could not be confirmed from Wikipedia, Stony Brook, Ashoka, or other primary biographical records consulted (2026-06-15); his B.A. (Calcutta, 1976) and M.A. (Calcutta, 1978) imply a mid-to-late-1950s birth. dates_tier is contested rather than confirmed-from-records.",
+  "dates_notes": "Living scholar. Birth year is commonly given as 1957 but could not be confirmed from Wikipedia, Stony Brook, Ashoka, or other primary biographical records consulted (2026-06-15); his B.A. (Calcutta, 1976) and M.A. (Calcutta, 1978) imply a mid-to-late-1950s birth. dates_tier is contested rather than confirmed-from-records.",
   "dates_evidence": [
     {
       "kind": "court-record",

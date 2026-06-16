@@ -368,7 +368,7 @@ function computeRange() {
   let lo = Infinity, hi = -Infinity;
   for (const t of state.thinkers) {
     if (typeof t.dates_low === "number") lo = Math.min(lo, t.dates_low);
-    if (typeof t.dates_high === "number") hi = Math.max(hi, t.dates_high);
+    if (typeof t.dates_low === "number") hi = Math.max(hi, thinkerHigh(t));
   }
   state.range.low = Math.floor(lo / 50) * 50 - 50;
   // Snap to the next 50-year tick above hi, then clamp to RANGE_HIGH_MAX.
@@ -579,9 +579,9 @@ function computeLanesLayout() {
     if (!isThinkerVisible(t)) continue;
     const lane = laneIndex(t.school_color_token);
     if (lane < 0) continue;
-    const xMid = yearToX((t.dates_low + t.dates_high) / 2);
+    const xMid = yearToX((t.dates_low + thinkerHigh(t)) / 2);
     const x1 = yearToX(t.dates_low);
-    const x2 = yearToX(t.dates_high);
+    const x2 = yearToX(thinkerHigh(t));
     const entry = {
       t, xMid, x1, x2,
       tier: tierOf(t),
@@ -707,7 +707,7 @@ function computeNetworkLayout() {
     const al = (typeof a.dates_low === "number") ? a.dates_low : 0;
     const bl = (typeof b.dates_low === "number") ? b.dates_low : 0;
     if (al !== bl) return al - bl;
-    return ((a.dates_low + a.dates_high) / 2) - ((b.dates_low + b.dates_high) / 2);
+    return ((a.dates_low + thinkerHigh(a)) / 2) - ((b.dates_low + thinkerHigh(b)) / 2);
   });
 
   const placed = []; // [{x, y, r, id}]
@@ -722,9 +722,9 @@ function computeNetworkLayout() {
     if (!isThinkerVisible(t)) continue;
     const tok = t.school_color_token || "proto";
     const tier = tierOf(t);
-    const xMid = yearToX((t.dates_low + t.dates_high) / 2);
+    const xMid = yearToX((t.dates_low + thinkerHigh(t)) / 2);
     const x1 = yearToX(t.dates_low);
-    const x2 = yearToX(t.dates_high);
+    const x2 = yearToX(thinkerHigh(t));
 
     // Lineage gravity: average y of already-placed predecessors.
     let lineageY = null;
@@ -3904,9 +3904,16 @@ function renderMarkdown(s) {
     .replace(/^/, "<p>") + "</p>";
 }
 
+// Living thinkers carry dates_high == null: layout extends them to the current
+// year, but display shows an open-ended dash — no fabricated death year.
+const CURRENT_YEAR = new Date().getFullYear();
+function thinkerHigh(t) { return (typeof t.dates_high === "number") ? t.dates_high : CURRENT_YEAR; }
+function isLiving(t) { return t.dates_high == null && typeof t.dates_low === "number"; }
+
 function formatDates(t) {
   if (t.dates_low == null && t.dates_high == null) return "";
   const fmt = (y) => y < 0 ? `${-y} BCE` : `${y}`;
+  if (isLiving(t)) return `${fmt(t.dates_low)}–`;
   if (t.dates_low === t.dates_high) return fmt(t.dates_low);
   return `${fmt(t.dates_low)}–${fmt(t.dates_high)}`;
 }
@@ -3914,6 +3921,7 @@ function formatDatesLong(t) {
   if (t.dates_low == null) return "";
   const lo = t.dates_low, hi = t.dates_high;
   const fmt = (y) => y < 0 ? `${-y} BCE` : `${y} CE`;
+  if (isLiving(t)) return `${fmt(lo)} – present`;
   return lo === hi ? fmt(lo) : `${fmt(lo)} – ${fmt(hi)}`;
 }
 
@@ -3934,7 +3942,7 @@ function setReadingMode(on) {
     readingModeBtn.classList.toggle("is-active", on);
   }
   if (on && !state.activeId && state.thinkers.length) {
-    const sorted = [...state.thinkers].sort((a, b) => (a.dates_low + a.dates_high)/2 - (b.dates_low + b.dates_high)/2);
+    const sorted = [...state.thinkers].sort((a, b) => (a.dates_low + thinkerHigh(a))/2 - (b.dates_low + thinkerHigh(b))/2);
     openThinker(sorted[0].id);
   }
 }
@@ -4630,7 +4638,7 @@ document.addEventListener("keydown", (e) => {
 });
 
 function navigateByDate(dir) {
-  const sorted = [...state.thinkers].sort((a, b) => (a.dates_low + a.dates_high)/2 - (b.dates_low + b.dates_high)/2);
+  const sorted = [...state.thinkers].sort((a, b) => (a.dates_low + thinkerHigh(a))/2 - (b.dates_low + thinkerHigh(b))/2);
   const idx = sorted.findIndex((t) => t.id === state.activeId);
   if (idx < 0) return;
   const next = sorted[idx + dir];
