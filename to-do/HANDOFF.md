@@ -47,6 +47,14 @@ huge files (>~2 MB). Sources: GRETIL (Sanskrit/Prakrit), SuttaCentral (Pali), Gu
   for Codex extraction" — update to the new "AI-generated" framing once app.js is safe to edit.
 - **Sanskrit word-by-word translation is NOT being done for every text** — only where it already
   exists. Do not over-claim coverage in prose or UI.
+- **Format the long romanized-Sanskrit "blobs" in thinker entries** (key_passages / quoted IAST
+  run on as one hard-to-read block). Bring them *closer* to the Gītā reader's treatment — not
+  necessarily full word-by-word (too heavy), but at least: break on daṇḍa (`|` / `॥`) into lines,
+  add spacing/line-height, separate IAST from its English rendering. Lighter is fine; goal is just
+  legibility. (User: don't burn tokens; do the quick version if cheap, else leave here.)
+- **Remaining school-pill headwords** — niche school names still lacking glossary entries so their
+  pills aren't yet clickable: Vyākaraṇa, Alaṅkāra, Vijñāna Vedānta, Bhairava-tantra, proto-Vedānta
+  (meta-category), and the Western/comparator names (intentionally not Sanskrit — leave plain).
 
 ## Glossary content gaps (see `to-do/GLOSSARY_GAPS.md`)
 Glossary popover now hides placeholder per-school rows (NOT-APPLICABLE / [NOT YET
