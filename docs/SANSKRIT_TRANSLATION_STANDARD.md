@@ -205,11 +205,17 @@ decisions — extend them deliberately, never ad hoc.
 
 - **Preserve in IAST** (irreducible philosophical load / root-imagery English can't
   hold), glossary-linked: *rāga, dveṣa, guṇa, dharma, kāma, saṅga, prajñā, buddhi,
-  manas, indriya, karma, jñāna, yoga, rasa, ahaṅkāra, tṛṣṇā, samādhi, mokṣa,
-  saṃsāra*. Established renderings kept: *ātman* → "the self", *brahman* → "Brahman".
+  manas, indriya, karma, yoga, rasa, ahaṅkāra, tṛṣṇā, samādhi, saṃsāra*. Note
+  *prajñā* (the *sthita-prajña* title concept, ≠ buddhi, ≠ jñāna), *buddhi* (the
+  discriminating faculty, kept distinct from manas/prajñā), and *karma* (action +
+  its result + the law of action — no English equivalent) stay Sanskrit. Established
+  renderings kept: *ātman* → "the self", *brahman* → "Brahman".
 - **Translate** (plain English carries it fully): *krodha* → anger, *bhaya* → fear,
   *moha* → delusion, *duḥkha* → sorrow, *sukha* → pleasure, *spṛhā* → longing,
-  *sneha* → affection, *prīti* → fondness, *vidheya* → governable / disciplined.
+  *sneha* → affection, *prīti* → fondness, *vidheya* → governable / disciplined,
+  *jñāna* → knowledge, *mokṣa* → liberation. (In set compounds keep the natural
+  form: *jñāna-yoga* "the yoga of knowledge", *jñāna-niṣṭhā* "steadfastness in
+  knowledge".)
 - **Use multiple English words when one will not do** — two precise English words
   beat one lossy word, and beat needlessly keeping the Sanskrit. Keep the Sanskrit
   only when even several English words would still distort.

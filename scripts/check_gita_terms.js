@@ -23,11 +23,11 @@ const PRESERVE = {
   dharma:  { det: /(^|-)dharma/,     iast: "dharma", bad: ["duty"] },
   kama:    { det: /(^|-)kāma/,       iast: "kāma", bad: [] },
   sanga:   { det: /(^|-)saṅga/,      iast: "saṅga", bad: ["attachment", "clinging"] },
-  prajna:  { det: /prajñā/,          iast: "prajñā", bad: [] },
-  buddhi:  { det: /(^|-)buddh/,      iast: "buddhi", bad: [] },
+  prajna:  { det: /prajñā/,          iast: "prajñā", bad: ["wisdom", "insight"] },
+  buddhi:  { det: /(^|-)buddh/,      iast: "buddhi", bad: ["intellect"] },
+  karma:   { det: /(^|-)karma/,      iast: "karma", bad: ["action"] },
   manas:   { det: /(^|-)(manas|mano|manaḥ|manā)/, iast: "manas", bad: [] },
   indriya: { det: /indriy/,          iast: "indriya", bad: [] },
-  jnana:   { det: /jñāna/,           iast: "jñāna", bad: [] },
   yoga:    { det: /(^|-)yoga/,       iast: "yoga", bad: [] },
   rasa:    { det: /(^|-)rasa/,       iast: "rasa", bad: ["relish"] },
   ahankara:{ det: /ahaṅkār/,         iast: "ahaṅkāra", bad: ["I-maker", "I-making"] },
@@ -39,6 +39,8 @@ const TRANSLATE = {
   moha:   { det: /(saṃmoh|(^|-)moha|mūḍh|vimuh|vimoh)/, en: "delusion", iast: "moha" },
   sprha:  { det: /spṛh/,                  en: "longing",   iast: "spṛhā" },
   sneha:  { det: /sneh/,                  en: "affection", iast: "sneha" },
+  jnana:  { det: /(^|-)jñāna/,            en: "knowledge", iast: "jñāna" },
+  moksa:  { det: /(^|-)(mokṣa|mukti)/,    en: "liberation", iast: "mokṣa" },
 };
 // legit glossaryKey synonym/epithet maps (word root -> allowed key)
 const SYN = {
