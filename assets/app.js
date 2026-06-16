@@ -3036,9 +3036,15 @@ function openGlossary(termKey, anchorEl) {
     // "Across the texts": an encyclopedic one-paragraph summary of how the term's
     // usage evolved, plus compact citations the reader can look up — NOT the full
     // verses (kept in the data for grounding, but not rendered).
-    const stripParen = (s) => String(s || "").replace(/\s*\([^)]*\)\s*/g, " ").trim();
+    // A citation chip shows the bare locus only: strip parentheticals and any
+    // appended note after a ' ; ' or ' — ' (e.g. "…4.4.7 ; the first hemistich
+    // is verbatim identical to…"), which otherwise runs off the popover.
+    const cleanCite = (s) => String(s || "")
+      .replace(/\s*\([^)]*\)\s*/g, " ")
+      .split(/\s+[;—]\s+/)[0]
+      .trim();
     const th = entry.textual_history;
-    const cites = (th && th.stages || []).map((s) => stripParen(s.locus)).filter(Boolean);
+    const cites = (th && th.stages || []).map((s) => cleanCite(s.locus)).filter(Boolean);
     const historyBlock = (th && th.summary)
       ? `<div class="gp-history"><span class="gp-label">Across the texts</span>
            <div class="gp-history-summary">${md(th.summary)}</div>

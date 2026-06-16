@@ -1700,9 +1700,18 @@ body.is-reading-mode .recite-bar {
 /* diachronic "Across the texts" */
 .glossary-popover .gp-history { margin-top: 14px; }
 .glossary-popover .gp-history-summary { font-size: 13px; color: var(--ink-soft); margin: 4px 0 6px; line-height: 1.5; }
-.glossary-popover .gp-history-cites { font-family: var(--sans); font-size: 11px; color: var(--muted); line-height: 1.7; }
-.glossary-popover .gp-cite { white-space: nowrap; }
-.glossary-popover .gp-cite:not(:last-child)::after { content: " · "; color: var(--muted-soft); }
+/* citations wrap as a flex list (each locus an item that wraps to the next
+   line); the old white-space:nowrap made the whole line un-wrappable. Long
+   note-text is stripped off chips in JS, and min-width:0 + overflow-wrap let
+   any stubborn item shrink and break rather than spill. */
+.glossary-popover .gp-history-cites {
+  font-family: var(--sans); font-size: 11px; color: var(--muted); line-height: 1.7;
+  display: flex; flex-wrap: wrap; column-gap: 12px; row-gap: 2px;
+}
+.glossary-popover .gp-cite { position: relative; min-width: 0; overflow-wrap: anywhere; }
+.glossary-popover .gp-cite:not(:last-child)::after {
+  content: "·"; position: absolute; right: -8px; color: var(--muted-soft);
+}
 /* cognates: small colour-coded pills (Latin · Greek) */
 .glossary-popover .gp-cognates { margin: 6px 0; font-family: var(--sans); font-size: 12px; color: var(--muted); }
 .glossary-popover .gp-cog-label { font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: 10px; color: var(--muted-soft); margin-right: 6px; vertical-align: middle; }
