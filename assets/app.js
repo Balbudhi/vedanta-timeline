@@ -4396,6 +4396,9 @@ function renderFilterChips() {
     const on = state.visibleLanes.has(key);
     const wrap = document.createElement("span");
     wrap.className = "filter-chip-wrap" + (on ? " is-on" : "");
+    // Set the school colour on the wrap so both the toggle and its solo button
+    // inherit it (the "on" highlight is the school's own colour).
+    wrap.style.setProperty("--chip-color", color);
 
     const btn = document.createElement("button");
     btn.className = "filter-chip" + (on ? " is-on" : "");

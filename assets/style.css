@@ -2727,12 +2727,15 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   white-space: nowrap;
 }
 .filter-chip:hover { border-color: var(--ink); color: var(--ink); }
+/* "On" = the school is shown: highlight the chip in the school's own colour
+   (a soft tint, coloured border) rather than solid black. "Off" stays the
+   neutral light-grey outline above. */
 .filter-chip.is-on {
-  background: var(--ink);
-  border-color: var(--ink);
-  color: var(--on-ink);
+  background: color-mix(in srgb, var(--chip-color, #888) 15%, transparent);
+  border-color: color-mix(in srgb, var(--chip-color, #888) 60%, var(--rule));
+  color: var(--ink);
 }
-.filter-chip.is-on .chip-swatch { box-shadow: 0 0 0 1.5px #fff; }
+.filter-chip.is-on .chip-swatch { box-shadow: none; }
 .filter-chip .chip-swatch {
   display: inline-block;
   width: 8px; height: 8px;
@@ -2795,18 +2798,18 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   transition: color 140ms ease, background 140ms ease, border-color 140ms ease;
 }
 .filter-chip-wrap.is-on .filter-chip-solo {
-  border-color: var(--ink);
-  color: #cbd5e1;
-  background: var(--ink);
-  border-left-color: rgba(255,255,255,0.18);
+  border-color: color-mix(in srgb, var(--chip-color, #888) 60%, var(--rule));
+  color: var(--ink-soft);
+  background: color-mix(in srgb, var(--chip-color, #888) 15%, transparent);
+  border-left-color: color-mix(in srgb, var(--chip-color, #888) 35%, var(--rule));
 }
 .filter-chip-solo:hover {
   color: var(--ink);
   background: rgba(0,0,0,0.04);
 }
 .filter-chip-wrap.is-on .filter-chip-solo:hover {
-  color: var(--on-ink);
-  background: var(--ink);
+  color: var(--ink);
+  background: color-mix(in srgb, var(--chip-color, #888) 28%, transparent);
 }
 /* Subtle pill shown in the topbar when solo-mode is active. */
 .filter-solo-pill {
@@ -3657,12 +3660,12 @@ html[data-theme="dark"] .filter-chip:hover {
   color: var(--ink);
 }
 html[data-theme="dark"] .filter-chip.is-on {
-  background: var(--bg-warmer);
-  border-color: var(--ink-soft);
+  background: color-mix(in srgb, var(--chip-color, #888) 26%, transparent);
+  border-color: color-mix(in srgb, var(--chip-color, #888) 70%, var(--rule));
   color: var(--ink);
 }
 html[data-theme="dark"] .filter-chip.is-on .chip-swatch {
-  box-shadow: 0 0 0 1.5px var(--ink);
+  box-shadow: none;
 }
 html[data-theme="dark"] .filter-chip-solo {
   border-color: var(--rule);
@@ -3670,18 +3673,18 @@ html[data-theme="dark"] .filter-chip-solo {
   background: var(--bg-warm);
 }
 html[data-theme="dark"] .filter-chip-wrap.is-on .filter-chip-solo {
-  border-color: var(--ink-soft);
-  background: var(--bg-warmer);
+  border-color: color-mix(in srgb, var(--chip-color, #888) 70%, var(--rule));
+  background: color-mix(in srgb, var(--chip-color, #888) 26%, transparent);
   color: var(--ink-soft);
-  border-left-color: var(--rule);
+  border-left-color: color-mix(in srgb, var(--chip-color, #888) 40%, var(--rule));
 }
 html[data-theme="dark"] .filter-chip-solo:hover {
   background: var(--bg-warmer);
   color: var(--ink);
 }
 html[data-theme="dark"] .filter-chip-wrap.is-on .filter-chip-solo:hover {
-  background: var(--ink);
-  color: var(--on-ink);
+  background: color-mix(in srgb, var(--chip-color, #888) 40%, transparent);
+  color: var(--ink);
 }
 html[data-theme="dark"] .filter-chip--preset {
   background: transparent;
