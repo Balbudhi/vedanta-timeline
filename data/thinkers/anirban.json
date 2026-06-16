@@ -1,11 +1,15 @@
 {
   "id": "anirban",
-  "name": "Anirvan",
-  "name_iast": "Anirvan",
+  "name": "Anirban Bandyopadhyay",
+  "name_iast": "Anirban Bandyopadhyay",
+  "dates_low": 1971,
+  "dates_high": null,
+  "dates_tier": "contested",
+  "dates_notes": "Living materials scientist (National Institute for Materials Science, Tsukuba); birth year approximate.",
   "school": "Sāṅkhya",
-  "school_color_token": "cross-tradition",
-  "entry_status": "stub-from-article-phase2",
-  "core_thesis": "Article-backed thinker stub created during primitives_v2 Phase 2 from `data/articles/source/sankhya-anirban.md`.",
+  "school_color_token": "sankhya-comparator",
+  "entry_status": "reviewed",
+  "core_thesis": "Anirban Bandyopadhyay is a contemporary physicist — Principal Researcher at the National Institute for Materials Science (Tsukuba, Japan), an experimental collaborator in the Penrose–Hameroff Orch-OR program, and author of *Nanobrain* (2020) — who proposes the first formalization of the three *guṇas* of classical Sāṅkhya since Vijñānabhikṣu. He treats Sāṅkhya as a metaphysics of form to be taken literally: *prakṛti* really transforms (*pariṇāma*), *puruṣa* really witnesses, and the *guṇas* are real constituents of the manifest world rather than psychological or moral categories. On his mapping the three *guṇas* are physical operations on a single mathematical primitive, the Phase Prime Metric (PPM), which he identifies with *puruṣa*: *sattva* is projection from infinity, *rajas* is the transformation of one geometric shape into another at a singularity, and *tamas* is the bonding of shapes at undefined points — one substrate carrying three simultaneous modes, with consciousness as their co-presence. The reading sets Īśvarakṛṣṇa's *Sāṅkhya-Kārikā* (with Gauḍapāda and Vācaspati Miśra) and the *Yoga-Sūtra* of Patañjali with Vyāsa's *Bhāṣya* in counterpoint with his time-crystal and fractal-information mathematics, landing on real-transformation (*pariṇāma*) where Advaita reads the manifest as sublatable-not-null and Abhinavagupta reads the substrate as one-self-standing.",
   "primitive_commitments": [
     {
       "primitive": "causation_model",
@@ -128,5 +132,7 @@
         "cite://badarayana/brahma-sutra/1.1.1"
       ]
     }
-  ]
+  ],
+  "last_verified_at": "2026-06-15",
+  "last_verified_by": "bio-review-opus"
 }

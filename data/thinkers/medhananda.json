@@ -8,7 +8,7 @@
   "dates_low": 1970,
   "dates_high": null,
   "dates_tier": "contested",
-  "dates_notes": "Living scholar. Published as 'Ayon Maharaj' until c. 2020, then as 'Swami Medhananda' after taking sannyāsa in the Ramakrishna Order. Senior Research Fellow at the Ramakrishna Mission Vivekananda Educational and Research Institute (RKMVERI), Belur Math. Birth year approximate.",
+  "dates_notes": "Living scholar. Published as 'Ayon Maharaj' until c. 2020, then as 'Swami Medhananda' after taking sannyāsa in the Ramakrishna Order. Long associated with RKMVERI, Belur Math; more recently at the Vedanta Society of Southern California. Birth year approximate.",
   "school": "Vijñāna Vedānta",
   "school_color_token": "advaita",
   "sub_school": "Ramakrishna-Vivekananda Vedānta (academic philosophy of religion)",
@@ -18,7 +18,7 @@
   ],
   "lineage_out": [],
   "lineage_polemical": [],
-  "core_thesis": "Swami Medhananda — who published as Ayon Maharaj until taking sannyāsa in the Ramakrishna Order around 2020, and is a Senior Research Fellow at RKMVERI, Belur Math — reconstructs the philosophies of Sri Ramakrishna and Swami Vivekananda as positions in cross-cultural philosophy of religion. In *Infinite Paths to Infinite Reality* (Oxford, 2018) he reads Ramakrishna's *vijñāna* — the post-*nirvikalpa* \"intimate knowledge\" that Brahman has *become* the universe — as a structured manifestationist metaphysics on which the Infinite is irreducibly both personal and impersonal, with form and without, so that religious diversity answers to real manifestations rather than projections of an unknowable noumenon ([ch. 1](cite://medhananda/infinite-paths-to-infinite-reality/1); the honey / taste-of-honey passage of *Kathāmṛta* 288 glossed at [pp. 80–81](cite://medhananda/infinite-paths-to-infinite-reality/80)). In *Swami Vivekananda's Vedāntic Cosmopolitanism* (Oxford, 2022) he reconstructs Vivekananda's mature \"Integral Advaita\" as the systematic extension of that *vijñāna* into ethics, the epistemology of mystical experience, and religious pluralism ([ch. 1](cite://medhananda/vedantic-cosmopolitanism/1)).",
+  "core_thesis": "Swami Medhananda — who published as Ayon Maharaj before taking sannyāsa in the Ramakrishna Order — began as a scholar of German aesthetics and Idealism: he took his Ph.D. in English at the University of California, Berkeley (2009) and wrote *The Dialectics of Aesthetic Agency: Revaluating German Aesthetics from Kant to Adorno* (2013) before turning to Indian philosophy. He headed the philosophy program at the Ramakrishna Mission Vivekananda Educational and Research Institute (RKMVERI), Belur Math, edited *The Bloomsbury Research Handbook of Vedānta* (2020), and now works as a Senior Research Fellow at the Vedanta Society of Southern California. He reconstructs the philosophies of Sri Ramakrishna and Swami Vivekananda as positions in cross-cultural philosophy of religion. In *Infinite Paths to Infinite Reality* (Oxford, 2018) he reads Ramakrishna's *vijñāna* — the post-*nirvikalpa* \"intimate knowledge\" that Brahman has *become* the universe — as a structured manifestationist metaphysics on which the Infinite is irreducibly both personal and impersonal, with form and without, so that religious diversity answers to real manifestations rather than projections of an unknowable noumenon ([ch. 1](cite://medhananda/infinite-paths-to-infinite-reality/1); the honey / taste-of-honey passage of *Kathāmṛta* 288 glossed at [pp. 80–81](cite://medhananda/infinite-paths-to-infinite-reality/80)). In *Swami Vivekananda's Vedāntic Cosmopolitanism* (Oxford, 2022) he reconstructs Vivekananda's mature \"Integral Advaita\" as the systematic extension of that *vijñāna* into ethics, the epistemology of mystical experience, and religious pluralism ([ch. 1](cite://medhananda/vedantic-cosmopolitanism/1)).",
   "engaged_works": [
     {
       "work_id": "infinite-paths-to-infinite-reality",
@@ -70,7 +70,7 @@
   "entry_status": "reviewed",
   "entry_owner_agent": "secondary-source-cleanup-opus",
   "last_verified_at": "2026-06-15",
-  "last_verified_by": "secondary-source-cleanup-opus",
+  "last_verified_by": "bio-review-opus",
   "primitive_commitments": [
     {
       "primitive": "epistemic_authority",
