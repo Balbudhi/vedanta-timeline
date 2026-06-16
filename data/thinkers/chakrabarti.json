@@ -13,9 +13,9 @@
       "description": "Public institutional and bibliographic records: B.A. (1976) and M.A. (1978) from the University of Calcutta; DPhil, Oxford (1982), supervised by Sir Peter Strawson and Sir Michael Dummett. Taught at the University of Calcutta, University College London, the University of Washington, the University of Delhi, and for ca. 26 years at the University of Hawaiʻi at Mānoa (founding director of the EPOCH cross-cultural philosophy project); subsequently Mattoo Endowed Chair in Indic Humanities, Department of Philosophy, Stony Brook University (from 2018), and later Ashoka University."
     }
   ],
-  "school": "Cross-tradition",
-  "school_color_token": "cross-tradition",
-  "sub_school": "Analytic-comparative / Navya-Nyāya",
+  "school": "Navya-Nyāya",
+  "school_color_token": "navya-nyaya-comparator",
+  "sub_school": "Analytic / cross-cultural Navya-Nyāya",
   "sub_school_shade": 3,
   "lineage_in": [],
   "lineage_out": [],
