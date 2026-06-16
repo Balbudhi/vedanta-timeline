@@ -1408,6 +1408,36 @@ body.is-reading-mode #dpArticleBody {
 }
 body.is-reading-mode #dpArticleBody { padding-bottom: 96px; }
 body.is-reading-mode .dp-standalone { display: none; }
+
+/* Inline keycap on the "Read full screen" button — a tiny, muted affordance
+   that R is the shortcut. */
+.dp-kbd, .reading-hint kbd {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 10.5px; font-weight: 600;
+  line-height: 1; letter-spacing: .02em;
+  padding: 3px 5px; margin-left: 4px;
+  border: 1px solid var(--rule); border-radius: 4px;
+  background: var(--bg-warm); color: var(--muted);
+  vertical-align: middle;
+}
+.reading-hint kbd { margin: 0 2px; }
+
+/* One-shot, self-fading hint that R full-screens the reading. */
+.reading-hint {
+  position: fixed;
+  left: 50%; bottom: 28px;
+  transform: translate(-50%, 12px);
+  z-index: 1200;
+  display: flex; align-items: center;
+  padding: 8px 14px;
+  font-family: var(--sans); font-size: 12.5px; color: var(--muted);
+  background: var(--bg); border: 1px solid var(--rule); border-radius: 999px;
+  box-shadow: var(--shadow-md);
+  opacity: 0; pointer-events: none;
+  transition: opacity 480ms ease, transform 480ms cubic-bezier(.4,.0,.2,1);
+}
+.reading-hint.is-visible { opacity: 1; transform: translate(-50%, 0); }
 /* Anchor the audio player to the bottom as a floating dock. (It was floating
    mid-page because the sticky bar sat above the body's bottom padding.)
    Desktop reading mode: a centered dock matching the reading column. */

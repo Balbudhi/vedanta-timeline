@@ -321,27 +321,16 @@ function wordOf(span) {
   const ws = SCOPES[sc.dataset.wscope]; if (!ws) return null;
   return ws.find(w => String(w.i) === String(span.dataset.wi));
 }
-// An English .we span maps to one or more Sanskrit word indices (data-wi).
-// Return the first underlying word that carries a glossaryKey, if any — so a
-// reader who taps a preserved IAST term (rāga, dharma, …) goes straight to its
-// glossary entry rather than getting a dangling word-card.
-function glossWordOfWe(we) {
-  const sc = scopeOf(we); if (!sc) return null;
-  const ws = SCOPES[sc.dataset.wscope]; if (!ws) return null;
-  const idxs = String(we.dataset.wi || "").split(/\s+/).filter(Boolean);
-  for (const i of idxs) {
-    const w = ws.find(x => String(x.i) === String(i));
-    if (w && w.glossaryKey) return w;
-  }
-  return null;
-}
 // Single entry point for opening the site glossary from the reader: dismiss the
 // word-card first so it can never sit on top of and block the glossary, then
 // delegate to the host popover (embedded) or our own (standalone, deprecated).
 function openTermGlossary(key, anchor) {
   clearSticky();
   hideCard();
-  if (HOST_GLOSSARY) HOST_GLOSSARY(key, anchor || ROOT);
+  // `fromReader` tells the host popover to (a) persist until explicitly closed
+  // — no close-on-scroll / click-away — and (b) park itself in the side margin
+  // rather than on top of the tapped word.
+  if (HOST_GLOSSARY) HOST_GLOSSARY(key, anchor || ROOT, { fromReader: true });
   else openGlossary(key, anchor);
 }
 function activate(span) {
@@ -392,14 +381,13 @@ function wireWords() {
     if (who) { e.stopPropagation(); if (HOST_THINKER) HOST_THINKER(who.dataset.thinker); return; }
     const w = e.target.closest(".w");
     if (w) { e.stopPropagation(); pinWord(w); return; }
-    // Click an English phrase. If it preserves a glossary term (an IAST word
-    // with a glossaryKey — rāga, dharma, …), open that entry directly. Otherwise
-    // fall back to bidirectional highlight + card on its Sanskrit word.
+    // Click an English phrase → bidirectional highlight + word-card on its
+    // Sanskrit word. The glossary opens ONLY from the card's "Explain …"
+    // button, never directly from a word click (so the reader always sees the
+    // card's morphology first, and the glossary never surprises them).
     const we = e.target.closest(".we");
     if (we) {
       e.stopPropagation();
-      const gw = glossWordOfWe(we);
-      if (gw) { openTermGlossary(gw.glossaryKey, we); return; }
       const sc = we.closest("[data-wscope]"); if (!sc) return;
       const firstI = we.dataset.wi.split(/\s+/)[0];
       const wspan = sc.querySelector(`.w[data-wi="${firstI}"]`);
@@ -472,6 +460,33 @@ function place(el, anchor) {
   if (top < window.scrollY + margin) top = r.bottom + 10 + window.scrollY;
   const maxT = window.scrollY + window.innerHeight - er.height - margin;
   if (top > maxT) top = Math.max(window.scrollY + margin, maxT);
+  el.style.left = left + "px"; el.style.top = top + "px";
+}
+
+// Side-pin the glossary into the page margin (viewport-fixed) so it never
+// covers the text being read and stays put while scrolling. Prefers the wider
+// margin; clamps to the viewport. On narrow screens it docks flush to the right
+// edge near the top, which the CSS widens to a near-full-width sheet.
+function placeGlossarySide(el, anchor) {
+  el.style.position = "fixed";
+  el.style.left = "0px"; el.style.top = "0px";
+  const er = el.getBoundingClientRect();
+  const vw = document.documentElement.clientWidth;
+  const vh = window.innerHeight;
+  const margin = 12;
+  const col = ROOT ? ROOT.getBoundingClientRect() : null;
+  const ar = anchor && anchor.getBoundingClientRect ? anchor.getBoundingClientRect() : null;
+  let left;
+  if (col && (vw - col.right) >= er.width + margin * 2) {
+    left = col.right + margin;                          // park in the right margin
+  } else if (col && col.left >= er.width + margin * 2) {
+    left = col.left - er.width - margin;                // …or the left margin
+  } else {
+    left = vw - er.width - margin;                      // narrow: flush right
+  }
+  left = Math.max(margin, Math.min(left, vw - er.width - margin));
+  let top = ar ? Math.min(ar.top, vh - er.height - margin) : margin;
+  top = Math.max(margin, top);
   el.style.left = left + "px"; el.style.top = top + "px";
 }
 
@@ -702,7 +717,7 @@ async function openGlossary(key, anchor) {
       ${e.translator_note ? `<div class="gp-note"><span class="gp-note-label">Translator note</span>${mdInline(e.translator_note)}</div>` : ""}`;
   }
   document.body.appendChild(glossEl);
-  place(glossEl, anchor);
+  placeGlossarySide(glossEl, anchor);
   const x = glossEl.querySelector(".gp-x"); x.addEventListener("click", closeGlossary); x.focus();
 }
 function closeGlossary() {
@@ -711,7 +726,9 @@ function closeGlossary() {
   if (glossReturn && glossReturn.focus) { try { glossReturn.focus(); } catch (_) {} }
   glossReturn = null;
 }
-window.addEventListener("scroll", () => { if (glossEl) closeGlossary(); }, { passive: true, capture: true });
+// The glossary persists until the user explicitly closes it (× button or
+// Escape). It deliberately does NOT close on scroll or click-away, so a reader
+// can scroll the text while keeping a term's definition open beside it.
 
 /* ---------- expose ---------- */
 window.GitaReader = { render };
