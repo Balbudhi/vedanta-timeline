@@ -9886,8 +9886,8 @@ window.GITA_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "नास्ति बुद्धिर् अयुक्तस्य न चायुक्तस्य भावना।\nन चाभावयतः शान्तिर् अशान्तस्य कुतः सुखम्॥",
     "iast": "nāsti buddhir ayuktasya na cāyuktasya bhāvanā |\nna cābhāvayataḥ śāntir aśāntasya kutaḥ sukham ||",
-    "sense": "The undisciplined man has no buddhi and no contemplation; without contemplation there is no peace, and for the peaceless one where is happiness?",
-    "english": "{0:There is no} {1:buddhi} {2:for the undisciplined man}, {4:and} {3:no} {6:contemplation} {5:for the undisciplined}; {8:and} {7:no} {10:peace} {9:for the one who does not contemplate}; and {11:for the peaceless one} {12:whence} {13:happiness}?",
+    "sense": "The unyoked has no buddhi and no contemplation; without contemplation there is no peace, and for the peaceless one where is happiness?",
+    "english": "{0:There is no} {1:buddhi} {2:for the unyoked}, {4:and} {3:no} {6:contemplation} {5:for the unyoked}; {8:and} {7:no} {10:peace} {9:for the one who does not contemplate}; and {11:for the peaceless one} {12:whence} {13:happiness}?",
     "words": [
       {
         "i": 0,
