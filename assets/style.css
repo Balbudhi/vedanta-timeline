@@ -1429,7 +1429,7 @@ strong { font-weight: 600; }
 body.is-reading-mode .timeline-pane { display: none; }
 body.is-reading-mode .stage { grid-template-columns: 100%; }
 body.is-reading-mode .detail-pane {
-  background: var(--bg-warm);
+  background: var(--pane-bg);
   border-left: none;
   opacity: 1;
   pointer-events: auto;
