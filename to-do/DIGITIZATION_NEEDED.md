@@ -9,7 +9,7 @@ flip to on-disk and the entries can be text-grounded.
 This is distinct from "need to find" (no source located at all — see the want-list in
 `docs/SOURCE_COLLECTION.md` + the `ROSTER_GAPS_*.md` availability flags).
 
-## Have a scan → OCR later (12)
+## Have a scan → OCR later (17)
 | Thinker | Work | Scan source (edition) | Lang |
 |---|---|---|---|
 | Aruḷnandi Śivācārya | Śivajñāna-siddhiyār | archive.org (Nallaswami Pillai ed.) | Tamil |
@@ -24,6 +24,11 @@ This is distinct from "need to find" (no source located at all — see the want-
 | Nārāyaṇakaṇṭha | Mṛgendra-vṛtti | archive.org (Institut Français d'Indologie ed.) | Sanskrit |
 | Śrīkumāra | Tattvaprakāśa-tātparyadīpikā | archive.org | Sanskrit |
 | Lakṣmaṇa Deśikendra | Śāradā-tilaka | archive.org | Sanskrit |
+| Vijñānabhikṣu | Sāṅkhya-Pravacana-Bhāṣya | archive.org (Kashi Sanskrit Series / Jangamwadi Math scan) | Sanskrit |
+| Vijñānabhikṣu | Yoga-Vārttika | archive.org / DLI scan; title-page verification needed before OCR | Sanskrit |
+| Vijñānabhikṣu | Brahma-Sūtra Vijñānāmṛta-Bhāṣyam | archive.org (Kashi Hindu University scan) | Sanskrit |
+| Mahendranath Gupta (`Sri M`) | Śrī Śrī Rāmakṛṣṇa Kathāmṛta | archive.org / West Bengal Public Library Network / DLI scan | Bengali |
+| Sarada Devi tradition | Śrī Śrī Māyer Kathā | archive.org / DLI scan; edition and redistribution status need verification | Bengali |
 
 ## Process
 1. Re-fetch the scan (PDF/djvu) for the work.
