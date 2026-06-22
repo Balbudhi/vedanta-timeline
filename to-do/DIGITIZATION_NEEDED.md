@@ -16,7 +16,7 @@ This is distinct from "need to find" (no source located at all — see the want-
 |---|---|---|---|
 | Aruḷnandi Śivācārya | Śivajñāna-siddhiyār | archive.org (Nallaswami Pillai ed.) | Tamil |
 | Umāpati Śivācārya | Śivaprakāśam | archive.org | Tamil |
-| Puṇyānanda | Kāmakalāvilāsa | archive.org (Arthur Avalon ed.) | Sanskrit |
+| Puṇyānanda | Kāmakalāvilāsa | DLI Sanskrit scan now in repo at `data/sources/sanskrit/sakta/punyananda_kamakalavilasa_1918_dli_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
 | Jñāneśvar | Jñāneśvarī | archive.org | Marathi |
 | Jñāneśvar | Amṛtānubhava | archive.org (Pradhan ed.) | Marathi |
 | Yaśomitra | Sphuṭārthā Abhidharmakośavyākhyā | archive.org (Wogihara 1932–36) | Sanskrit |

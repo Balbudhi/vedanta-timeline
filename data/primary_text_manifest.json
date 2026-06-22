@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-06-22T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 94,
+  "file_count": 95,
   "note": "Site-mirrored subset of the primary-text corpus. The full corpus (~8 GB) lives outside the repo at materials/primary_texts/; this manifest lists only the files shipped to GitHub Pages, which the Source tab fetches from data/sources/.",
   "files": [
     {
@@ -1259,6 +1259,20 @@
       "source_url": "https://archive.org/details/lPDE_tarka-tandavam-with-the-commentary-of-nyaya-pada-by-vyasa-tirtha-edited-by-madva",
       "verification_status": "scan-on-disk; clean OCR needed",
       "size_bytes": 46618962,
+      "line_count": 0
+    },
+    {
+      "path": "sanskrit/sakta/punyananda_kamakalavilasa_1918_dli_scan.pdf",
+      "language": "sanskrit",
+      "category": "sakta",
+      "title": "Kamakalavilasa of Punyananda, 1918 DLI scan",
+      "edition": "Internet Archive / Digital Library of India scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "punyananda",
+      "work_id": "kamakalavilasa",
+      "source_url": "https://archive.org/details/in.ernet.dli.2015.326825",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 2494855,
       "line_count": 0
     }
   ]
