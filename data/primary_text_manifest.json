@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-06-22T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 98,
+  "file_count": 101,
   "note": "Site-mirrored subset of the primary-text corpus. The full corpus (~8 GB) lives outside the repo at materials/primary_texts/; this manifest lists only the files shipped to GitHub Pages, which the Source tab fetches from data/sources/.",
   "files": [
     {
@@ -1259,6 +1259,48 @@
       "source_url": "https://archive.org/details/lPDE_tarka-tandavam-with-the-commentary-of-nyaya-pada-by-vyasa-tirtha-edited-by-madva",
       "verification_status": "scan-on-disk; clean OCR needed",
       "size_bytes": 46618962,
+      "line_count": 0
+    },
+    {
+      "path": "sanskrit/dvaita/nyayamrta_advaitasiddhi_1934_calcutta_sanskrit_scan_part1.pdf",
+      "language": "sanskrit",
+      "category": "dvaita",
+      "title": "Nyayamrta and Advaitasiddhi with seven commentaries, 1934 Calcutta Sanskrit Series scan, part 1",
+      "edition": "Calcutta Sanskrit Series no. 9 / Internet Archive Public Domain Mark scan, split pages 1-420 from original 840-page PDF for GitHub storage",
+      "format": "image-pdf-scan",
+      "thinker_id": "vyasatirtha",
+      "work_id": "nyayamrta-advaitasiddhi",
+      "source_url": "https://archive.org/details/NyayamrtaAdvaitasiddhi",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 55646470,
+      "line_count": 0
+    },
+    {
+      "path": "sanskrit/dvaita/nyayamrta_advaitasiddhi_1934_calcutta_sanskrit_scan_part2.pdf",
+      "language": "sanskrit",
+      "category": "dvaita",
+      "title": "Nyayamrta and Advaitasiddhi with seven commentaries, 1934 Calcutta Sanskrit Series scan, part 2",
+      "edition": "Calcutta Sanskrit Series no. 9 / Internet Archive Public Domain Mark scan, split pages 421-840 from original 840-page PDF for GitHub storage",
+      "format": "image-pdf-scan",
+      "thinker_id": "vyasatirtha",
+      "work_id": "nyayamrta-advaitasiddhi",
+      "source_url": "https://archive.org/details/NyayamrtaAdvaitasiddhi",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 57109280,
+      "line_count": 0
+    },
+    {
+      "path": "sanskrit/kashmir_shaiva/spanda_pradipika_1898_vizianagaram_scan.pdf",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Spanda-pradipika of Utpalacarya, 1898 Vizianagaram Sanskrit Series scan",
+      "edition": "Vizianagaram Sanskrit Series no. 16 / Internet Archive CC0 scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "bhagavadutpala",
+      "work_id": "spanda-pradipika",
+      "source_url": "https://archive.org/details/TfQs_spanda-pradipika-of-utpalacharya-tika-on-spanda-karika-by-pt.-vaman-shastri-isla",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 41957657,
       "line_count": 0
     },
     {

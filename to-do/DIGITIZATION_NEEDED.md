@@ -11,7 +11,7 @@ flip to on-disk and the entries can be text-grounded.
 This is distinct from "need to find" (no source located at all — see the want-list in
 `docs/SOURCE_COLLECTION.md` + the `ROSTER_GAPS_*.md` availability flags).
 
-## Have a scan → OCR later (27)
+## Have a scan → OCR later (28)
 | Thinker | Work | Scan source (edition) | Lang |
 |---|---|---|---|
 | Aruḷnandi Śivācārya | Śivajñāna-siddhiyār | archive.org (Nallaswami Pillai ed.) | Tamil |
@@ -21,7 +21,8 @@ This is distinct from "need to find" (no source located at all — see the want-
 | Jñāneśvar | Amṛtānubhava | archive.org (Pradhan ed.) | Marathi |
 | Yaśomitra | Sphuṭārthā Abhidharmakośavyākhyā | archive.org (Wogihara 1932–36) | Sanskrit |
 | Māṇikyanandi | Parīkṣāmukha | archive.org | Sanskrit |
-| Bhagavadutpala | Spanda-pradīpikā | archive.org | Sanskrit |
+| Vyāsatīrtha / Madhusūdana Sarasvatī | Nyāyāmṛta & Advaitasiddhi with seven commentaries | Public Domain Mark Sanskrit scan split into `data/sources/sanskrit/dvaita/nyayamrta_advaitasiddhi_1934_calcutta_sanskrit_scan_part1.pdf` and `...part2.pdf`; full source cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/dvaita/nyayamrta_advaitasiddhi_1934_calcutta_sanskrit_scan.pdf`; rendered samples are legible | Sanskrit |
+| Bhagavadutpala | Spanda-pradīpikā | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/kashmir_shaiva/spanda_pradipika_1898_vizianagaram_scan.pdf`; rendered sample is clear Devanāgarī; embedded OCR/text is not a verified clean transcription | Sanskrit |
 | Rājānaka Rāma (Rāmakaṇṭha I) | Spanda-vivṛti | archive.org | Sanskrit |
 | Nārāyaṇakaṇṭha | Mṛgendra-vṛtti / Śrī Mṛgendra Tantram | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/saiva/narayanakantha_mrgendra_tantram_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
 | Bhojadeva / Śrīkumāra tradition | Tattvaprakāśa with Tātparyadīpikā | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/saiva/bhojadeva_tattvaprakasa_tatparyadipika_1920_tss_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
