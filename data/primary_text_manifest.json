@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-06-22T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 81,
+  "file_count": 82,
   "note": "Site-mirrored subset of the primary-text corpus. The full corpus (~8 GB) lives outside the repo at materials/primary_texts/; this manifest lists only the files shipped to GitHub Pages, which the Source tab fetches from data/sources/.",
   "files": [
     {
@@ -1077,6 +1077,20 @@
       "source_url": "https://archive.org/details/yogavartikavigyanabhikshuramakrishnasastripatvardhankesavasastri1884_202003_300_C",
       "verification_status": "scan-on-disk; clean OCR needed",
       "size_bytes": 20915349,
+      "line_count": 0
+    },
+    {
+      "path": "sanskrit/vijnanabhiksu/vijnanabhiksu_vijnanamrta_bhasya_vol1_kashi_scan_compressed.pdf",
+      "language": "sanskrit",
+      "category": "vijnanabhiksu",
+      "title": "Brahma Sutra Vijnanamrita Bhashyam of Vijnanabhiksu, vol. 1, Kashi Hindu Vishvavidyalaya (compressed scan)",
+      "edition": "Internet Archive JP2 image archive, Kedar Natha Tripathi / Prachyavidya Granthamala vol. 1; converted to compressed image PDF for GitHub storage",
+      "format": "image-pdf-scan",
+      "thinker_id": "vijnanabhiksu",
+      "work_id": "vijnanamrta-bhasya",
+      "source_url": "https://archive.org/details/NXwz_brahma-sutra-vigyana-amrita-bhashyam-of-vigyana-bhikshu-with-pt.-kedar-natha-tri",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 91940862,
       "line_count": 0
     }
   ]

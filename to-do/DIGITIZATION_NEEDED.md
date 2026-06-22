@@ -28,7 +28,7 @@ This is distinct from "need to find" (no source located at all — see the want-
 | Lakṣmaṇa Deśikendra | Śāradā-tilaka | archive.org | Sanskrit |
 | Vijñānabhikṣu | Sāṅkhya-Pravacana-Bhāṣya | compressed Devanāgarī scan now in repo at `data/sources/sanskrit/vijnanabhiksu/vijnanabhiksu_samkhya_pravacana_bhasya_kashi_scan_compressed.pdf`; full-size source cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/vijnanabhiksu/vijnanabhiksu_samkhya_pravacana_bhasya_kashi_scan.pdf` | Sanskrit |
 | Vijñānabhikṣu | Yoga-Vārttika | scan now in repo at `data/sources/sanskrit/vijnanabhiksu/vijnanabhiksu_yoga_varttika_1884_scan.pdf`; rendered sample is OCR-worthy | Sanskrit |
-| Vijñānabhikṣu | Brahma-Sūtra Vijñānāmṛta-Bhāṣyam | archive.org JP2 image archive cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/vijnanabhiksu/vijnanabhiksu_vijnanamrta_bhasya_vol1_jp2.zip` | Sanskrit |
+| Vijñānabhikṣu | Brahma-Sūtra Vijñānāmṛta-Bhāṣyam | compressed vol. 1 Devanāgarī scan now in repo at `data/sources/sanskrit/vijnanabhiksu/vijnanabhiksu_vijnanamrta_bhasya_vol1_kashi_scan_compressed.pdf`; full JP2 source cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/vijnanabhiksu/vijnanabhiksu_vijnanamrta_bhasya_vol1_jp2.zip` | Sanskrit |
 | Mahendranath Gupta (`Sri M`) | Śrī Śrī Rāmakṛṣṇa Kathāmṛta | vol. 1 scan now in repo at `data/sources/bengali/ramakrishna/ramakrishna_kathamrita_vol1_ed9_scan.pdf`; rendered sample is OCR-worthy | Bengali |
 | Sarada Devi tradition | Śrī Śrī Māyer Kathā | vols. 1-2 scans cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/bengali/sarada/`; edition and redistribution status need verification before public mirroring | Bengali |
 
