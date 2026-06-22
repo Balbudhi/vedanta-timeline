@@ -11,10 +11,16 @@ flip to on-disk and the entries can be text-grounded.
 This is distinct from "need to find" (no source located at all — see the want-list in
 `docs/SOURCE_COLLECTION.md` + the `ROSTER_GAPS_*.md` availability flags).
 
-## Have a scan → OCR later (28)
+## Clean text acquired in this pass
+
+| Thinker | Work | Source now in repo | Lang |
+|---|---|---|---|
+| Meykaṇḍār | Śivajñāna-bodham | Project Madurai Unicode text at `data/sources/tamil/saiva_siddhanta/meykandar_sivajnana_bodham_project_madurai.txt`; redistribution header retained | Tamil |
+| Aruḷnandi Śivācārya | Śivajñāna-siddhiyār | Project Madurai Unicode text at `data/sources/tamil/saiva_siddhanta/arulnandi_sivajnana_siddhiyar_project_madurai.txt`; redistribution header retained | Tamil |
+
+## Have a scan → OCR later (27)
 | Thinker | Work | Scan source (edition) | Lang |
 |---|---|---|---|
-| Aruḷnandi Śivācārya | Śivajñāna-siddhiyār | archive.org (Nallaswami Pillai ed.) | Tamil |
 | Umāpati Śivācārya | Śivaprakāśam / Civappirakācam | Tamil scan now in repo at `data/sources/tamil/saiva_siddhanta/umapati_sivaprakasam_1908_scan.pdf`; rendered sample is legible; embedded OCR is rough | Tamil |
 | Puṇyānanda | Kāmakalāvilāsa | DLI Sanskrit scan now in repo at `data/sources/sanskrit/sakta/punyananda_kamakalavilasa_1918_dli_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
 | Jñāneśvar | Jñāneśvarī | archive.org | Marathi |

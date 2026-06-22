@@ -2,6 +2,13 @@
 
 This pass keeps bad OCR out of the public corpus. A file counts as acquired here only if it is a useful page-image scan or image archive that can support a later OCR/transcription pass.
 
+## Clean public texts added to this repo
+
+| Work | Local path | Source | sha256 | Size | Status |
+|---|---|---|---|---:|---|
+| Meykaṇḍār, *Śivajñāna-bodham* | `data/sources/tamil/saiva_siddhanta/meykandar_sivajnana_bodham_project_madurai.txt` | `https://www.projectmadurai.org/pm_etexts/utf8/pmuni0080.html` | `e7703480bcaf497c193239e48341bc4f5788dd6f89a93e11bac71104ae27325a` | 74,857 | Clean Project Madurai Unicode Tamil etext converted to plain text with the redistribution header retained; usable now as a text witness. |
+| Aruḷnandi Śivācārya, *Śivajñāna-siddhiyār* | `data/sources/tamil/saiva_siddhanta/arulnandi_sivajnana_siddhiyar_project_madurai.txt` | `https://www.projectmadurai.org/pm_etexts/utf8/pmuni0255.html` | `cd93dd567fe686473fc7b64039921911d20bab8099f7b51cece67dd288006b20` | 438,942 | Clean Project Madurai Unicode Tamil etext converted to plain text with the redistribution header retained; usable now as a text witness. |
+
 ## Added to this repo
 
 | Work | Local path | Source | sha256 | Size | Status |
