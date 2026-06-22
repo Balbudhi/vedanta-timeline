@@ -1826,7 +1826,7 @@ const router = {
     if (!target) return;
     if (location.hash === target) return;
     try {
-      history.replaceState(null, "", target);
+      history.replaceState(null, "", location.pathname + location.search + target);
     } catch (_) {
       location.hash = target.replace(/^#/, "");
     }
@@ -1874,6 +1874,30 @@ const router = {
     }
   },
 };
+
+function setUrlViewState(patch) {
+  const params = new URLSearchParams(location.search);
+  for (const [key, value] of Object.entries(patch || {})) {
+    if (value == null || value === "") params.delete(key);
+    else params.set(key, String(value));
+  }
+  const qs = params.toString();
+  const next = `${location.pathname}${qs ? `?${qs}` : ""}${location.hash || ""}`;
+  try { history.replaceState(null, "", next); } catch (_) {}
+}
+
+function restoreGlossaryFromUrl(value) {
+  const q = String(value || "").trim();
+  if (!q) return;
+  openGlossary(null, document.getElementById("glossaryBtn"), { initialQuery: q, fromUrl: true });
+}
+
+function applyUrlViewState() {
+  const params = new URLSearchParams(location.search);
+  if (params.get("r") === "1") setReadingMode(true);
+  const glossaryQuery = params.get("g");
+  if (glossaryQuery) restoreGlossaryFromUrl(glossaryQuery);
+}
 
 window.addEventListener("hashchange", () => {
   const parsed = router.parse(location.hash);
@@ -2967,9 +2991,16 @@ let activeGlossDock = null;
 //                 null, the popover is anchored to the topbar Glossary
 //                 button (or top-right of the viewport as a last resort).
 function openGlossary(termKey, anchorEl, opts) {
+  const initialQuery = String((opts && opts.initialQuery) || "").trim();
+  const syncGlossaryUrl = (value) => {
+    const next = String(value || "").trim();
+    setUrlViewState({ g: next || null });
+  };
   // If a termKey was passed but is not in the glossary, abort silently
   // (matches the previous behaviour of "click-only" entry points).
   if (termKey != null && !state.glossary.get(termKey)) return;
+  if (termKey) syncGlossaryUrl(termKey);
+  else if (initialQuery) syncGlossaryUrl(initialQuery);
   // `fromReader` (opened from the Gītā word-card "Explain …" button): the
   // popover must persist until the user explicitly closes it (× / Esc) — no
   // close-on-scroll or click-away — and it parks in the reading column's side
@@ -3142,13 +3173,20 @@ function openGlossary(termKey, anchorEl, opts) {
 
   // Initial body content.
   if (termKey) renderTermView(termKey);
-  else renderEmptyView();
+  else if (initialQuery) {
+    inputEl.value = initialQuery;
+    renderResultsView(initialQuery);
+  } else {
+    renderEmptyView();
+  }
 
   // Search-input handlers. As the user types, the body region becomes the
   // results list; clearing the input restores the previously-selected term
   // (or the empty hint when the popover was summoned with no term).
   inputEl.addEventListener("input", () => {
     const q = inputEl.value;
+    if (normalizeDia(q)) syncGlossaryUrl(q);
+    else syncGlossaryUrl(termKey || "");
     if (!normalizeDia(q)) {
       if (termKey) renderTermView(termKey);
       else renderEmptyView();
@@ -3186,6 +3224,7 @@ function openGlossary(termKey, anchorEl, opts) {
     const key = btn.dataset.key;
     termKey = key;
     inputEl.value = "";
+    syncGlossaryUrl(key);
     renderTermView(key);
   });
 
@@ -3291,6 +3330,7 @@ function openGlossary(termKey, anchorEl, opts) {
       if (nextKey != null && !state.glossary.get(nextKey)) return;
       termKey = nextKey;
       inputEl.value = "";
+      syncGlossaryUrl(nextKey || "");
       if (nextKey) renderTermView(nextKey); else renderEmptyView();
       pop.scrollTop = 0;
       setDockState("expanded");
@@ -3340,6 +3380,7 @@ function openGlossary(termKey, anchorEl, opts) {
     pop.remove();
     if (scrim) scrim.remove();
     if (activeGlossDock && activeGlossDock.el === pop) activeGlossDock = null;
+    syncGlossaryUrl("");
     document.removeEventListener("keydown", escClose);
     popoverManager.notifyClosed(closeGloss);
   }
@@ -4230,6 +4271,7 @@ function showEmptyState(msg) {
 // ---------- reading mode -----------
 function setReadingMode(on) {
   document.body.classList.toggle("is-reading-mode", on);
+  setUrlViewState({ r: on ? "1" : null });
   if (readingModeBtn) {
     const txt = readingModeBtn.querySelector(".btn-text");
     const label = on ? "Back to timeline" : "Reading";
@@ -5094,4 +5136,5 @@ loadAll().then(() => {
   // Deep-link / reload / share: apply any hash present at boot.
   const initialParsed = router.parse(location.hash);
   if (initialParsed) router.apply(initialParsed);
+  applyUrlViewState();
 });
