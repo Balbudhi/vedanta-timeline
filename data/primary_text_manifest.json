@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-06-22T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 107,
+  "file_count": 109,
   "note": "Site-mirrored subset of the primary-text corpus. The full corpus (~8 GB) lives outside the repo at materials/primary_texts/; this manifest lists only the files shipped to GitHub Pages, which the Source tab fetches from data/sources/.",
   "files": [
     {
@@ -1385,6 +1385,34 @@
       "source_url": "https://archive.org/details/gc-sh1-0221",
       "verification_status": "scan-on-disk; rough OCR present but clean OCR needed",
       "size_bytes": 21231895,
+      "line_count": 0
+    },
+    {
+      "path": "tamil/saiva_siddhanta/sivajnana_siddhiyar_subakkam_1896_scan.pdf",
+      "language": "tamil",
+      "category": "saiva_siddhanta",
+      "title": "Sivajnana Siddhiyar Subakkam, 1896 Tamil scan",
+      "edition": "Roja Muthiah Research Library / Internet Archive scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "arulnandi-sivacarya",
+      "work_id": "sivajnana-siddhiyar-subakkam",
+      "source_url": "https://archive.org/details/dli.rmrl.027374",
+      "verification_status": "scan-on-disk; rough OCR present but clean OCR needed",
+      "size_bytes": 28607689,
+      "line_count": 0
+    },
+    {
+      "path": "tamil/saiva_siddhanta/arulnandi_sivajnana_siddhiyar_subakkam_1926_text_pdf.pdf",
+      "language": "tamil",
+      "category": "saiva_siddhanta",
+      "title": "Arulnandi Sivacarya, Sivajnana Siddhiyar Subakkam, 1926 compressed text-PDF witness",
+      "edition": "Tamil Digital Library / Internet Archive derivative; full 250 MB source scan retained locally",
+      "format": "image-pdf-scan",
+      "thinker_id": "arulnandi-sivacarya",
+      "work_id": "sivajnana-siddhiyar-subakkam",
+      "source_url": "https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZIel0Yy.TVA_BOK_0009304",
+      "verification_status": "compressed scan-on-disk; rough OCR present but clean OCR needed",
+      "size_bytes": 22838457,
       "line_count": 0
     },
     {

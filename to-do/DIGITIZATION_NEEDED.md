@@ -18,9 +18,10 @@ This is distinct from "need to find" (no source located at all — see the want-
 | Meykaṇḍār | Śivajñāna-bodham | Project Madurai Unicode text at `data/sources/tamil/saiva_siddhanta/meykandar_sivajnana_bodham_project_madurai.txt`; redistribution header retained | Tamil |
 | Aruḷnandi Śivācārya | Śivajñāna-siddhiyār | Project Madurai Unicode text at `data/sources/tamil/saiva_siddhanta/arulnandi_sivajnana_siddhiyar_project_madurai.txt`; redistribution header retained | Tamil |
 
-## Have a scan → OCR later (27)
+## Have a scan → OCR later (28)
 | Thinker | Work | Scan source (edition) | Lang |
 |---|---|---|---|
+| Aruḷnandi Śivācārya | Śivajñāna-siddhiyār Subakkam commentary witnesses | 1896 Tamil scan now in repo at `data/sources/tamil/saiva_siddhanta/sivajnana_siddhiyar_subakkam_1896_scan.pdf`; 1926 compressed text-PDF witness now in repo at `data/sources/tamil/saiva_siddhanta/arulnandi_sivajnana_siddhiyar_subakkam_1926_text_pdf.pdf`; full 250 MB 1926 source scan cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/tamil/saiva_siddhanta/arulnandi_sivajnana_siddhiyar_subakkam_1926_full_source_scan.pdf` | Tamil |
 | Umāpati Śivācārya | Śivaprakāśam / Civappirakācam | Tamil scan now in repo at `data/sources/tamil/saiva_siddhanta/umapati_sivaprakasam_1908_scan.pdf`; rendered sample is legible; embedded OCR is rough | Tamil |
 | Puṇyānanda | Kāmakalāvilāsa | DLI Sanskrit scan now in repo at `data/sources/sanskrit/sakta/punyananda_kamakalavilasa_1918_dli_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
 | Jñāneśvar | Jñāneśvarī | Public Domain Mark compressed page-image/text PDF now in repo at `data/sources/marathi/jnaneshwar/jnaneshwari_rajwade_1909_text_pdf.pdf`; full 375 MB source scan cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/marathi/jnaneshwar/jnaneshwari_rajwade_1909_full_source_scan.pdf`; rendered samples are readable; OCR is rough | Marathi |
