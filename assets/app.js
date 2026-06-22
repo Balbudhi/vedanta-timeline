@@ -1894,7 +1894,7 @@ function restoreGlossaryFromUrl(value) {
 
 function applyUrlViewState() {
   const params = new URLSearchParams(location.search);
-  if (params.get("r") === "1") setReadingMode(true);
+  if (params.get("r") === "1") setReadingMode(true, { skipAutoOpen: true });
   const glossaryQuery = params.get("g");
   if (glossaryQuery) restoreGlossaryFromUrl(glossaryQuery);
 }
@@ -4269,7 +4269,7 @@ function showEmptyState(msg) {
 }
 
 // ---------- reading mode -----------
-function setReadingMode(on) {
+function setReadingMode(on, opts = {}) {
   document.body.classList.toggle("is-reading-mode", on);
   setUrlViewState({ r: on ? "1" : null });
   if (readingModeBtn) {
@@ -4283,7 +4283,7 @@ function setReadingMode(on) {
   // Only auto-open a thinker when nothing is already open. If a panel is up
   // (e.g. the Gītā reading in the Article tab), reading mode should just
   // full-screen that — not hijack to a thinker.
-  if (on && !state.activeId && !panelState.open && state.thinkers.length) {
+  if (on && !opts.skipAutoOpen && !state.activeId && !panelState.open && state.thinkers.length) {
     const sorted = [...state.thinkers].sort((a, b) => (a.dates_low + thinkerHigh(a))/2 - (b.dates_low + thinkerHigh(b))/2);
     openThinker(sorted[0].id);
   }
