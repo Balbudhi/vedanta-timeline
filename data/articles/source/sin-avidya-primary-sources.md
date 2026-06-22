@@ -379,32 +379,31 @@ The one thing she does forbid is the posture Bhaskar's "neurotic shame" warns ag
 
 ---
 
-## Part X — The positions at a glance
+## Part X — Source comparison
 
-A neutral summary, so the differences are visible side by side. Each row is what that position actually says, in its own terms; none is endorsed here.
+Bhaskar's essay identifies sin with *hamartia*, "missing the mark," and with a distortion of Truth. It also says that this condition is, at root, **none other than avidyā**. The essay keeps the language of grace and of recognizing oneself as a sinner, while treating sin as a condition of ignorance rather than only as discrete wrongful acts.
 
-| Position | What "sin" / fault is | Why we suffer | Whose fault | Forgiveness? | Divine or fallen? |
-|---|---|---|---|---|---|
-| **Bhaskar's essay** | *hamartia*, "missing the mark"; a distortion of Truth — and at root **none other than avidyā** | Because of ignorance at every level of the being (intellect, will, appetite, body, soul) | Ours, but as a *condition* (the "law of sin"), not only as acts | Yes — by grace; and one *should* "recognize oneself as a sinner" | **Both**: fallen *and* divine, resolved non-dually |
-| **Vedic (Varuṇa hymns)** | *enas / āgas* — an offence/transgression against the cosmic order (*ṛta*), structured as a **debt** | A god's wrath provoked by the offence | Partly ours, partly *acittī* — "thoughtlessness," "not my own will" | **Yes** — the god relents (*mṛḷa*); sin is "loosed" like a calf from a rope | (Not yet thematized) |
-| **Upaniṣads** | *pāpa / pāpman* — a **stain** the knower is "not smeared by," even left behind entirely | *avidyā* — "dwelling in the midst of ignorance," the blind led by the blind | One's own ignorance | Not pardoned but **transcended / burnt up / shaken off** by knowledge | **Divine**: the Self is *apahata-pāpman*, intrinsically free of evil |
-| **Bhagavad-Gītā** | *pāpa* as an **accretion** one incurs (*āpnoti*) or is "smeared by" (*lipyate*) | *kāma* and *krodha* drive sin "**as if by force**" (3.36–37) | One's own desire-born compulsion, not sovereign choice | **Dissolved** by the fire of knowledge (4.37); **removed by surrender** — "I shall free you from all sins" (18.66) | **Divine**: the embodied Self is untouched, deathless |
-| **Nyāya / Yoga** | *doṣa* (fault) above *mithyā-jñāna* / *avidyā* at the root | *avidyā* is "the **seed** of the whole mass of suffering"; the model is **medical** (disease–cause–health–cure) | One's own false knowledge | Not pardon — *tattva-jñāna* / *samyag-darśana* removes the root and the faults "depart" | Bondage is adventitious; liberation (*apavarga*) is one's nature |
-| **Dharmaśāstra (Manu) / Mīmāṃsā** | *pāpa* as a **graded, committed act** (*mahā-/upa-pātaka*); plus *pratyavāya*, the **omission-sin** | Real consequence: *naraka* (graded hells), a "torment-body," degraded rebirth | The agent's — intention (*kāmataḥ / akāmataḥ*) matters | **Yes** — by *prāyaścitta* (expiation); and the king's *daṇḍa* punishes | (Ritual-juridical register; not the focus) |
-| **Vedānta — Śaṅkara** | *pāpa* belongs to the empirical self under *avidyā*; the knower is "not stained" | Beginningless karma + *avidyā*; God is "**like rain**," a common cause | One's own karma — "**no fault of God's**" (BS 2.1.34) | Transcended by knowledge of Brahman | **Divine**: identity of Ātman and Brahman |
-| **Vedānta — Rāmānuja** | *sarva-pāpa* — **real** sin, of commission *and* omission, "accumulated from beginningless time" | Real bondage by real karma | The soul's own, across beginningless births | **Yes** — by the Lord's **grace** in answer to surrender (*prapatti*) (18.66) | The soul is real, dependent on God (its "body"), not identical |
-| **Vivekananda** | "**The Vedanta recognises no sin, it only recognises error**"; sin = **weakness** | Self-imposed "hypnotism" — the false belief "I am weak, a sinner" | Ours — but as *weakness/error*, to be thrown off; non-resistance from weakness is itself sin | The "error" is undone by realizing the Self; calling man a sinner is itself "a sin" | **Divine**: "children of immortal bliss" (*amṛtasya putrāḥ*) |
-| **Sri Aurobindo** | Evil/falsehood are "**creations of the Ignorance and Inconscience**," not rooted in the Real | A self-limiting Ignorance; "the sombre flowers… root in the black soil of the Inconscient" | A wrong movement of the lower Nature, not a guilt | "**Not a question of pardon or punishment**" — the past is effaced by inner change; sin is **outgrown / transformed** | **Divine** in becoming; the "sense of sin" belongs to "the religious, not the yogic mentality" |
-| **The Mother** | "**For the Supreme Lord, sin does not exist**"; only *la vraie chose* (the true thing) done or not done | Imperfection / unconsciousness to be transformed | A "mistake," not a guilt — "a mistake recognised is a mistake pardoned" | **Grace** "alone… changes the course of Universal Justice" and effaces faults | **Divine**: the one real fault is **discouragement**, not sin |
+The Vedic Varuṇa hymns use *enas* and *āgas* for offence, transgression, and debt before the keeper of *ṛta*. The speaker asks Varuṇa to loosen the bond, and the hymns also speak of *acittī*, thoughtlessness or lack of conscious intention. This indicates a fault before divine order, with release sought through the god's relenting.
 
-The comparison comes down to a few plain points:
+The Upaniṣads use *pāpa* and *pāpman* as a stain that does not adhere to the knower of the Self. They also describe *avidyā* as the condition in which the blind are led by the blind. This implies a difference between fault as an empirical condition and the Self described as *apahata-pāpman*, free from evil.
 
-- **There is always a notion of sin.** Every position reckons with sin — *pāpa* — as a real fault to be overcome, not an illusion to shrug off (some prefer to call it *error* or *weakness*), pictured variously as an act, a debt, a stain, or a condition.
+The Bhagavad-Gītā speaks of *pāpa* as something incurred or smeared on the agent, and says desire and anger drive a person toward sin "as if by force." It also says knowledge burns sin as fire burns fuel, and 18.66 promises release from all sins through surrender. The text therefore keeps both moral consequence and removal through knowledge or surrender.
 
-- **Sin is broadly tied to a privation of awareness.** The Veda already traces *enas* to *acittī*, "un-consciousness" (RV 7.86.6, 7.89.5); the Gītā has *kāma* and *krodha* compel sin "as if by force" (3.36–37); the Upaniṣads, Nyāya, and Yoga name the root *avidyā* / *mithyā-jñāna* (Kaṭha 1.2.5; Nyāya-sūtra 1.1.2; Yoga-sūtra 2.3–5).
-- **The real divergence is over "sinner."** Every tradition keeps a notion of *sin*; what the *jñāna* texts and the modern voices decline is **"sinner"** as a name for the Self — grounded in the Self that is *apahata-pāpman* and *na lipyate*, and stated plainly by Vivekananda ("weakness," not wickedness), Aurobindo (the "sense of sin" is "religious, not yogic"), and the Mother ("for the Supreme Lord, sin does not exist"). Even the theistic schools, which keep sin fully weighty, locate the soul's truth in dependence on God — *śeṣatva*, *dainya* before Him — not in sinfulness.
+Nyāya and Yoga place *doṣa* above *mithyā-jñāna* or *avidyā* in the causal chain of suffering. Their account is diagnostic: false knowledge gives rise to faults, faults give rise to activity, and the chain ends through right knowledge or right seeing.
 
-This is where the comparison meets Bhaskar's essay, which finds "truth and merit in recognizing oneself as a sinner": on *sin* the traditions agree more than the popular framing allows; on *sinner* they part. The cross-cultural contrast is just that — one tradition makes "sinner" a name to own before a personal God, the other a description to be seen through.
+Dharmaśāstra and Mīmāṃsā treat *pāpa* and *pratyavāya* as committed action and omitted duty, with graded consequences, expiation, punishment, and rebirth. This is a ritual-juridical register rather than a claim about the final nature of the Self.
+
+Śaṅkara places *pāpa* within the empirical self governed by *avidyā* and beginningless karma. His Brahma-sūtra commentary says God is a common cause like rain and that the inequalities of experience arise from each soul's own karma; this is why he says there is no fault in God.
+
+Rāmānuja treats *sarva-pāpa* as real sin, including acts of commission and omission accumulated from beginningless time. His reading of Gītā 18.66 makes the Lord's grace, received through surrender, the means by which these sins are removed.
+
+Vivekananda says that Vedanta recognizes error rather than sin, and he names weakness as the central error. He rejects "sinner" as a name for the Self, while still treating weakness, non-resistance from weakness, and false self-understanding as serious faults to be overcome.
+
+Sri Aurobindo describes falsehood, wrong, and evil as products of the Ignorance and the Inconscient, not as absolutes rooted in the Real. He rejects the frame of pardon and punishment, and instead speaks of rejection, inner change, growth, and transformation.
+
+The Mother denies sin in relation to the Supreme Lord and retains the language of mistake, fault, Grace, and transformation. Her statements distinguish doing the true thing from not doing it, and they treat discouragement and self-abuse as obstacles rather than remedies.
+
+The difference is therefore not only whether *pāpa*, fault, evil, or wrongdoing exists. The sources differ on the status of the person so described: Vedic and ritual-juridical sources can speak in terms of offence, debt, act, omission, expiation, and divine relenting; the Upaniṣadic, yogic, Vedāntic, and modern sources repeatedly move the deepest identity away from the label "sinner" and toward ignorance to be known through, surrendered, removed, outgrown, or transformed. Bhaskar's essay stands at the intersection of these vocabularies: it joins sin to *avidyā*, while retaining the pastoral claim that one should recognize oneself as a sinner.
 
 ---
 
