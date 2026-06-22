@@ -15,7 +15,7 @@ This is distinct from "need to find" (no source located at all — see the want-
 | Thinker | Work | Scan source (edition) | Lang |
 |---|---|---|---|
 | Aruḷnandi Śivācārya | Śivajñāna-siddhiyār | archive.org (Nallaswami Pillai ed.) | Tamil |
-| Umāpati Śivācārya | Śivaprakāśam | archive.org | Tamil |
+| Umāpati Śivācārya | Śivaprakāśam / Civappirakācam | Tamil scan now in repo at `data/sources/tamil/saiva_siddhanta/umapati_sivaprakasam_1908_scan.pdf`; rendered sample is legible; embedded OCR is rough | Tamil |
 | Puṇyānanda | Kāmakalāvilāsa | DLI Sanskrit scan now in repo at `data/sources/sanskrit/sakta/punyananda_kamakalavilasa_1918_dli_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
 | Jñāneśvar | Jñāneśvarī | archive.org | Marathi |
 | Jñāneśvar | Amṛtānubhava | archive.org (Pradhan ed.) | Marathi |
@@ -23,8 +23,8 @@ This is distinct from "need to find" (no source located at all — see the want-
 | Māṇikyanandi | Parīkṣāmukha | archive.org | Sanskrit |
 | Bhagavadutpala | Spanda-pradīpikā | archive.org | Sanskrit |
 | Rājānaka Rāma (Rāmakaṇṭha I) | Spanda-vivṛti | archive.org | Sanskrit |
-| Nārāyaṇakaṇṭha | Mṛgendra-vṛtti | archive.org (Institut Français d'Indologie ed.) | Sanskrit |
-| Śrīkumāra | Tattvaprakāśa-tātparyadīpikā | archive.org | Sanskrit |
+| Nārāyaṇakaṇṭha | Mṛgendra-vṛtti / Śrī Mṛgendra Tantram | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/saiva/narayanakantha_mrgendra_tantram_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
+| Bhojadeva / Śrīkumāra tradition | Tattvaprakāśa with Tātparyadīpikā | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/saiva/bhojadeva_tattvaprakasa_tatparyadipika_1920_tss_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
 | Lakṣmaṇa Deśikendra | Śāradā-tilaka | archive.org | Sanskrit |
 | Vijñānabhikṣu | Sāṅkhya-Pravacana-Bhāṣya | compressed Devanāgarī scan now in repo at `data/sources/sanskrit/vijnanabhiksu/vijnanabhiksu_samkhya_pravacana_bhasya_kashi_scan_compressed.pdf`; full-size source cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/vijnanabhiksu/vijnanabhiksu_samkhya_pravacana_bhasya_kashi_scan.pdf` | Sanskrit |
 | Vijñānabhikṣu | Yoga-Vārttika | scan now in repo at `data/sources/sanskrit/vijnanabhiksu/vijnanabhiksu_yoga_varttika_1884_scan.pdf`; rendered sample is OCR-worthy | Sanskrit |

@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-06-22T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 95,
+  "file_count": 98,
   "note": "Site-mirrored subset of the primary-text corpus. The full corpus (~8 GB) lives outside the repo at materials/primary_texts/; this manifest lists only the files shipped to GitHub Pages, which the Source tab fetches from data/sources/.",
   "files": [
     {
@@ -1273,6 +1273,48 @@
       "source_url": "https://archive.org/details/in.ernet.dli.2015.326825",
       "verification_status": "scan-on-disk; clean OCR needed",
       "size_bytes": 2494855,
+      "line_count": 0
+    },
+    {
+      "path": "sanskrit/saiva/bhojadeva_tattvaprakasa_tatparyadipika_1920_tss_scan.pdf",
+      "language": "sanskrit",
+      "category": "saiva",
+      "title": "Tattvaprakasa of Bhojadeva with Tatparyadipika, 1920 TSS scan",
+      "edition": "Trivandrum Sanskrit Series no. 68 / Internet Archive CC0 scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "bhojadeva",
+      "work_id": "tattvaprakasa",
+      "source_url": "https://archive.org/details/TSS068TattvaprakasaOfBhojadevaWithTatparyadipikaTGSastri1920_201809",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 11022902,
+      "line_count": 0
+    },
+    {
+      "path": "sanskrit/saiva/narayanakantha_mrgendra_tantram_scan.pdf",
+      "language": "sanskrit",
+      "category": "saiva",
+      "title": "Sri Mrgendra Tantram with Narayanakantha Vritti, scan",
+      "edition": "Internet Archive CC0 scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "narayanakantha",
+      "work_id": "mrgendra-vritti",
+      "source_url": "https://archive.org/details/SriMrgendraTantramNarayanaKantha",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 71921055,
+      "line_count": 0
+    },
+    {
+      "path": "tamil/saiva_siddhanta/umapati_sivaprakasam_1908_scan.pdf",
+      "language": "tamil",
+      "category": "saiva_siddhanta",
+      "title": "Civappirakacam / Sivaprakasam, 1908 Tamil scan",
+      "edition": "Internet Archive scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "umapati-sivacarya",
+      "work_id": "sivaprakasam",
+      "source_url": "https://archive.org/details/gc-sh1-0221",
+      "verification_status": "scan-on-disk; rough OCR present but clean OCR needed",
+      "size_bytes": 21231895,
       "line_count": 0
     }
   ]
