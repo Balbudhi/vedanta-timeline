@@ -11,7 +11,7 @@ flip to on-disk and the entries can be text-grounded.
 This is distinct from "need to find" (no source located at all — see the want-list in
 `docs/SOURCE_COLLECTION.md` + the `ROSTER_GAPS_*.md` availability flags).
 
-## Have a scan → OCR later (17)
+## Have a scan → OCR later (27)
 | Thinker | Work | Scan source (edition) | Lang |
 |---|---|---|---|
 | Aruḷnandi Śivācārya | Śivajñāna-siddhiyār | archive.org (Nallaswami Pillai ed.) | Tamil |
@@ -31,6 +31,15 @@ This is distinct from "need to find" (no source located at all — see the want-
 | Vijñānabhikṣu | Brahma-Sūtra Vijñānāmṛta-Bhāṣyam | compressed vol. 1 Devanāgarī scan now in repo at `data/sources/sanskrit/vijnanabhiksu/vijnanabhiksu_vijnanamrta_bhasya_vol1_kashi_scan_compressed.pdf`; full JP2 source cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/vijnanabhiksu/vijnanabhiksu_vijnanamrta_bhasya_vol1_jp2.zip` | Sanskrit |
 | Mahendranath Gupta (`Sri M`) | Śrī Śrī Rāmakṛṣṇa Kathāmṛta | vol. 1 scan now in repo at `data/sources/bengali/ramakrishna/ramakrishna_kathamrita_vol1_ed9_scan.pdf`; rendered sample is OCR-worthy | Bengali |
 | Sarada Devi tradition | Śrī Śrī Māyer Kathā | vols. 1-2 scans cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/bengali/sarada/`; edition and redistribution status need verification before public mirroring | Bengali |
+| Satchidanandendra Saraswati | Mūlāvidyānirāsaḥ / Śrī Śaṅkara Hṛdaya | DLI scan now in repo at `data/sources/sanskrit/satchidanandendra/satchidanandendra_mulavidya_nirasa_sri_sankara_hridaya_dli_scan.pdf`; rendered sample is sharp | Sanskrit |
+| Sarada Devi tradition | Śrī Śrī Māyer Kathā | DLI Bengali scan now in repo at `data/sources/bengali/sarada/sarada_sri_sri_mayer_katha_dli_scan.pdf`; rendered sample is OCR-worthy | Bengali |
+| Mahendranath Gupta / Swami Nikhilananda translation witness | The Gospel of Sri Ramakrishna, 1st ed. | DLI English scan split into `data/sources/english/ramakrishna/ramakrishna_gospel_nikhilananda_1942_dli_scan_part1.pdf` and `...part2.pdf`; source full PDF cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/english/ramakrishna/ramakrishna_gospel_nikhilananda_1942_dli_scan.pdf` | English |
+| Rāmānuja | Śrī-bhāṣya | 1914 DLI Sanskrit scan now in repo at `data/sources/sanskrit/ramanuja/ramanuja_sri_bhashya_part_1_2_1914_dli_scan.pdf`; rendered sample is OCR-worthy | Sanskrit |
+| Rāmānuja tradition | Śrī-bhāṣya-vārttika | 1907 DLI Sanskrit scan now in repo at `data/sources/sanskrit/ramanuja/ramanuja_sri_bhashya_vartika_1907_dli_scan.pdf`; lower-resolution but usable | Sanskrit |
+| Jīva Gosvāmī | Sarva-saṃvādinī | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/gaudiya/jiva_sarva_samvadini_sanskrit_scan.pdf`; rendered sample is high-quality | Sanskrit |
+| Baladeva Vidyābhūṣaṇa | Siddhānta-ratna, part 1 | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/baladeva/baladeva_siddhanta_ratna_part1_1924_scan.pdf`; rendered sample is high-quality | Sanskrit |
+| Baladeva Vidyābhūṣaṇa | Siddhānta-ratna, part 2 | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/baladeva/baladeva_siddhanta_ratna_part2_1927_scan.pdf`; rendered sample is high-quality | Sanskrit |
+| Vyāsatīrtha | Tarka-tāṇḍava with Nyāya-pāda commentary | CC0 Sanskrit scan split into `data/sources/sanskrit/dvaita/vyasatirtha_tarka_tandava_nyaya_pada_1938_scan_part1.pdf`, `...part2.pdf`, and `...part3.pdf`; full 189MB source cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/dvaita/vyasatirtha_tarka_tandava_nyaya_pada_1938_scan.pdf`; rendered samples are high-quality | Sanskrit |
 
 ## Process
 1. Re-fetch the scan (PDF/djvu) for the work.
