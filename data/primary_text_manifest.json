@@ -1,10 +1,24 @@
 {
   "version": 3,
-  "generated_at": "2026-05-10T18:30:52Z",
+  "generated_at": "2026-06-22T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 78,
+  "file_count": 81,
   "note": "Site-mirrored subset of the primary-text corpus. The full corpus (~8 GB) lives outside the repo at materials/primary_texts/; this manifest lists only the files shipped to GitHub Pages, which the Source tab fetches from data/sources/.",
   "files": [
+    {
+      "path": "bengali/ramakrishna/ramakrishna_kathamrita_vol1_ed9_scan.pdf",
+      "language": "bengali",
+      "category": "ramakrishna",
+      "title": "Sri Sri Ramkrishna Kathamrita, Vol. 1, 9th ed. (scan)",
+      "edition": "Internet Archive / West Bengal Public Library Network DLI scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "ramakrishna",
+      "work_id": "kathamrita-vol-1",
+      "source_url": "https://archive.org/details/dli.bengal.10689.16806",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 10232125,
+      "line_count": 0
+    },
     {
       "path": "sanskrit/_djvu/gretil_sa_maNDanamizra-vibhramaviveka.txt",
       "language": "sanskrit",
@@ -1036,6 +1050,34 @@
       "format": "plain-text",
       "thinker_id": "vacaspati",
       "work_id": "bhamati"
+    },
+    {
+      "path": "sanskrit/vijnanabhiksu/vijnanabhiksu_samkhya_pravacana_bhasya_kashi_scan_compressed.pdf",
+      "language": "sanskrit",
+      "category": "vijnanabhiksu",
+      "title": "Samkhya Darshan with Pravacana Bhashya of Vijnanabhiksu, Kashi Sanskrit Series (compressed scan)",
+      "edition": "Internet Archive / Jangamwadi Math Collection / Kashi Sanskrit Series scan; compressed from original page-image PDF for GitHub storage",
+      "format": "image-pdf-scan",
+      "thinker_id": "vijnanabhiksu",
+      "work_id": "sankhya-pravacana-bhasya",
+      "source_url": "https://archive.org/details/AJdS_samkhya-darshan-with-pravachan-bhashya-of-gyan-bhikshu-no.-67-kashi-sanskrit-series",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 50303369,
+      "line_count": 0
+    },
+    {
+      "path": "sanskrit/vijnanabhiksu/vijnanabhiksu_yoga_varttika_1884_scan.pdf",
+      "language": "sanskrit",
+      "category": "vijnanabhiksu",
+      "title": "Yoga Varttika of Vijnanabhiksu, 1884 (scan)",
+      "edition": "Internet Archive / DLI 1884 Sanskrit scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "vijnanabhiksu",
+      "work_id": "yoga-varttika",
+      "source_url": "https://archive.org/details/yogavartikavigyanabhikshuramakrishnasastripatvardhankesavasastri1884_202003_300_C",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 20915349,
+      "line_count": 0
     }
   ]
 }

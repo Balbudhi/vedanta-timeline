@@ -1,5 +1,7 @@
 # Digitization needed — scans we have, clean OCR pending
 
+Updated 2026-06-22: bad `archive.org` OCR is not considered useful and should not be re-added. This list tracks good page-image scans or image archives only. See `docs/PRIMARY_SCAN_ACQUISITIONS_2026-06-22.md` for the files acquired in this pass and their hashes.
+
 These works have a **good Sanskrit/vernacular SCAN available** (mostly archive.org),
 but the auto-OCR `.txt` was too corrupt to trust, so it was removed from the public
 corpus and the entries are marked `primary-text-not-in-corpus`. The visual source is
@@ -24,11 +26,11 @@ This is distinct from "need to find" (no source located at all — see the want-
 | Nārāyaṇakaṇṭha | Mṛgendra-vṛtti | archive.org (Institut Français d'Indologie ed.) | Sanskrit |
 | Śrīkumāra | Tattvaprakāśa-tātparyadīpikā | archive.org | Sanskrit |
 | Lakṣmaṇa Deśikendra | Śāradā-tilaka | archive.org | Sanskrit |
-| Vijñānabhikṣu | Sāṅkhya-Pravacana-Bhāṣya | archive.org (Kashi Sanskrit Series / Jangamwadi Math scan) | Sanskrit |
-| Vijñānabhikṣu | Yoga-Vārttika | archive.org / DLI scan; title-page verification needed before OCR | Sanskrit |
-| Vijñānabhikṣu | Brahma-Sūtra Vijñānāmṛta-Bhāṣyam | archive.org (Kashi Hindu University scan) | Sanskrit |
-| Mahendranath Gupta (`Sri M`) | Śrī Śrī Rāmakṛṣṇa Kathāmṛta | archive.org / West Bengal Public Library Network / DLI scan | Bengali |
-| Sarada Devi tradition | Śrī Śrī Māyer Kathā | archive.org / DLI scan; edition and redistribution status need verification | Bengali |
+| Vijñānabhikṣu | Sāṅkhya-Pravacana-Bhāṣya | compressed Devanāgarī scan now in repo at `data/sources/sanskrit/vijnanabhiksu/vijnanabhiksu_samkhya_pravacana_bhasya_kashi_scan_compressed.pdf`; full-size source cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/vijnanabhiksu/vijnanabhiksu_samkhya_pravacana_bhasya_kashi_scan.pdf` | Sanskrit |
+| Vijñānabhikṣu | Yoga-Vārttika | scan now in repo at `data/sources/sanskrit/vijnanabhiksu/vijnanabhiksu_yoga_varttika_1884_scan.pdf`; rendered sample is OCR-worthy | Sanskrit |
+| Vijñānabhikṣu | Brahma-Sūtra Vijñānāmṛta-Bhāṣyam | archive.org JP2 image archive cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/vijnanabhiksu/vijnanabhiksu_vijnanamrta_bhasya_vol1_jp2.zip` | Sanskrit |
+| Mahendranath Gupta (`Sri M`) | Śrī Śrī Rāmakṛṣṇa Kathāmṛta | vol. 1 scan now in repo at `data/sources/bengali/ramakrishna/ramakrishna_kathamrita_vol1_ed9_scan.pdf`; rendered sample is OCR-worthy | Bengali |
+| Sarada Devi tradition | Śrī Śrī Māyer Kathā | vols. 1-2 scans cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/bengali/sarada/`; edition and redistribution status need verification before public mirroring | Bengali |
 
 ## Process
 1. Re-fetch the scan (PDF/djvu) for the work.
