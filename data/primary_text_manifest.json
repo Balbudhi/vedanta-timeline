@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-06-22T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 103,
+  "file_count": 107,
   "note": "Site-mirrored subset of the primary-text corpus. The full corpus (~8 GB) lives outside the repo at materials/primary_texts/; this manifest lists only the files shipped to GitHub Pages, which the Source tab fetches from data/sources/.",
   "files": [
     {
@@ -1304,6 +1304,34 @@
       "line_count": 0
     },
     {
+      "path": "sanskrit/kashmir_shaiva/spandakarika_vivriti_ramakantha_1912_dli_scan.pdf",
+      "language": "sanskrit",
+      "category": "kashmir_shaiva",
+      "title": "Spandakarika Vivriti of Ramakantha, 1912 DLI scan",
+      "edition": "DLI / Internet Archive scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "rajanaka-rama",
+      "work_id": "spanda-vivriti",
+      "source_url": "https://archive.org/details/in.ernet.dli.2015.496171",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 14228178,
+      "line_count": 0
+    },
+    {
+      "path": "sanskrit/jaina/pariksamukha_laghuvrtti_1909_dli_scan.pdf",
+      "language": "sanskrit",
+      "category": "jaina",
+      "title": "Pariksamukha with Laghuvrtti, 1909 DLI scan",
+      "edition": "Satish Chandra Vidyabhusana edition / DLI scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "manikyanandi",
+      "work_id": "pariksamukha-laghuvrtti",
+      "source_url": "https://archive.org/details/in.ernet.dli.2015.345191",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 5990118,
+      "line_count": 0
+    },
+    {
       "path": "sanskrit/sakta/punyananda_kamakalavilasa_1918_dli_scan.pdf",
       "language": "sanskrit",
       "category": "sakta",
@@ -1386,6 +1414,34 @@
       "verification_status": "clean-on-disk; Project Madurai redistribution header retained",
       "size_bytes": 438942,
       "line_count": 3876
+    },
+    {
+      "path": "marathi/jnaneshwar/jnaneshwari_rajwade_1909_text_pdf.pdf",
+      "language": "marathi",
+      "category": "jnaneshwar",
+      "title": "Jnaneshwari, Rajwade 1909 edition, compressed text-PDF witness",
+      "edition": "Internet Archive Public Domain Mark derivative of the 1909 Rajwade edition; full 375 MB source scan retained locally",
+      "format": "image-pdf-scan",
+      "thinker_id": "jnaneshwar",
+      "work_id": "jnaneshwari",
+      "source_url": "https://archive.org/details/20220709_20220709_1407",
+      "verification_status": "compressed scan-on-disk; rough OCR present but clean OCR needed",
+      "size_bytes": 22903120,
+      "line_count": 0
+    },
+    {
+      "path": "marathi/jnaneshwar/amrtanubhava_1876_dli_scan.pdf",
+      "language": "marathi",
+      "category": "jnaneshwar",
+      "title": "Amrtanubhava, 1876 DLI scan",
+      "edition": "DLI / National Library source scan",
+      "format": "image-pdf-scan",
+      "thinker_id": "jnaneshwar",
+      "work_id": "amrtanubhava",
+      "source_url": "https://archive.org/details/dli.ministry.27601",
+      "verification_status": "scan-on-disk; clean OCR needed",
+      "size_bytes": 7124583,
+      "line_count": 0
     }
   ]
 }

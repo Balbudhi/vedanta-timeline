@@ -23,13 +23,13 @@ This is distinct from "need to find" (no source located at all — see the want-
 |---|---|---|---|
 | Umāpati Śivācārya | Śivaprakāśam / Civappirakācam | Tamil scan now in repo at `data/sources/tamil/saiva_siddhanta/umapati_sivaprakasam_1908_scan.pdf`; rendered sample is legible; embedded OCR is rough | Tamil |
 | Puṇyānanda | Kāmakalāvilāsa | DLI Sanskrit scan now in repo at `data/sources/sanskrit/sakta/punyananda_kamakalavilasa_1918_dli_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
-| Jñāneśvar | Jñāneśvarī | archive.org | Marathi |
-| Jñāneśvar | Amṛtānubhava | archive.org (Pradhan ed.) | Marathi |
+| Jñāneśvar | Jñāneśvarī | Public Domain Mark compressed page-image/text PDF now in repo at `data/sources/marathi/jnaneshwar/jnaneshwari_rajwade_1909_text_pdf.pdf`; full 375 MB source scan cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/marathi/jnaneshwar/jnaneshwari_rajwade_1909_full_source_scan.pdf`; rendered samples are readable; OCR is rough | Marathi |
+| Jñāneśvar | Amṛtānubhava | 1876 DLI Marathi scan now in repo at `data/sources/marathi/jnaneshwar/amrtanubhava_1876_dli_scan.pdf`; rendered sample is readable but needs clean OCR | Marathi |
 | Yaśomitra | Sphuṭārthā Abhidharmakośavyākhyā | archive.org (Wogihara 1932–36) | Sanskrit |
-| Māṇikyanandi | Parīkṣāmukha | archive.org | Sanskrit |
+| Māṇikyanandi | Parīkṣāmukha | 1909 DLI Sanskrit scan now in repo at `data/sources/sanskrit/jaina/pariksamukha_laghuvrtti_1909_dli_scan.pdf`; rendered sample is sharp; text extraction is empty | Sanskrit |
 | Vyāsatīrtha / Madhusūdana Sarasvatī | Nyāyāmṛta & Advaitasiddhi with seven commentaries | Public Domain Mark Sanskrit scan split into `data/sources/sanskrit/dvaita/nyayamrta_advaitasiddhi_1934_calcutta_sanskrit_scan_part1.pdf` and `...part2.pdf`; full source cached locally at `/Users/eeshan/Dev/source-acquisitions/primary_texts/sanskrit/dvaita/nyayamrta_advaitasiddhi_1934_calcutta_sanskrit_scan.pdf`; rendered samples are legible | Sanskrit |
 | Bhagavadutpala | Spanda-pradīpikā | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/kashmir_shaiva/spanda_pradipika_1898_vizianagaram_scan.pdf`; rendered sample is clear Devanāgarī; embedded OCR/text is not a verified clean transcription | Sanskrit |
-| Rājānaka Rāma (Rāmakaṇṭha I) | Spanda-vivṛti | archive.org | Sanskrit |
+| Rājānaka Rāma (Rāmakaṇṭha I) | Spanda-vivṛti | 1912 DLI Sanskrit scan now in repo at `data/sources/sanskrit/kashmir_shaiva/spandakarika_vivriti_ramakantha_1912_dli_scan.pdf`; rendered sample is high-contrast; text extraction is empty | Sanskrit |
 | Nārāyaṇakaṇṭha | Mṛgendra-vṛtti / Śrī Mṛgendra Tantram | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/saiva/narayanakantha_mrgendra_tantram_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
 | Bhojadeva / Śrīkumāra tradition | Tattvaprakāśa with Tātparyadīpikā | CC0 Sanskrit scan now in repo at `data/sources/sanskrit/saiva/bhojadeva_tattvaprakasa_tatparyadipika_1920_tss_scan.pdf`; rendered sample is clean and legible; text extraction is empty | Sanskrit |
 | Lakṣmaṇa Deśikendra | Śāradā-tilaka | archive.org | Sanskrit |
