@@ -330,6 +330,7 @@ html[data-theme="dark"] .w:focus, html[data-theme="dark"] .w.hi, html[data-theme
 .wc-part { display: inline-flex; align-items: baseline; gap: 5px; background: var(--bg-warm); border-radius: 5px; padding: 3px 7px; }
 .wc-pf { font-family: var(--serif); font-style: italic; font-size: 13px; color: var(--ink); }
 .wc-pg { font-size: 11.5px; color: var(--muted); }
+.wc-root { display: inline-flex; align-items: baseline; gap: 6px; background: var(--bg-warm); border-radius: 5px; padding: 3px 8px; margin-bottom: 9px; }
 .wc-gram { font-size: 12px; color: var(--muted); line-height: 1.55; margin-bottom: 8px; }
 .wc-gram-main { color: var(--ink-soft); }
 .wc-gram-sense { color: var(--muted); }

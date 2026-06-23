@@ -441,6 +441,11 @@ function showCard(span, w) {
     rows.push(`<div class="wc-parts">${parts.map(p =>
       `<span class="wc-part"><span class="wc-pf" lang="sa-Latn">${esc(p.form)}</span>${p.gloss ? `<span class="wc-pg">${esc(p.gloss)}</span>` : ""}</span>`).join("")}</div>`);
   }
+  // Sanskrit verbal root, shown only when illuminating (friend-style: "√kṛ: to do,
+  // make…"). Plain gloss-list only — cognates and etymology stay behind "Explain".
+  if (w.root && w.rootGloss) {
+    rows.push(`<div class="wc-root"><span class="wc-pf" lang="sa-Latn">${esc(w.root)}</span><span class="wc-pg">${esc(w.rootGloss)}</span></div>`);
+  }
   const gram = [];
   if (w.morph) { const plain = plainMorph(w.morph); const cs = caseSense(plain);
     gram.push(`<span class="wc-gram-main">${esc(plain)}</span>${cs ? ` <span class="wc-gram-sense">→ “${esc(cs)}”</span>` : ""}`); }
