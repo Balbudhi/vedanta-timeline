@@ -146,7 +146,42 @@ for (const v of V) { checkUnit(`v${v.locus}`, v.words, v.english); for (const c 
 const C2 = load("gita/sthitaprajna/commentaries.js", "GITA_COMMENTARY");
 for (const loc of Object.keys(C2)) for (const c of C2[loc]) checkUnit(`c${loc}/${c.voiceId||c.author}`, c.words, c.english);
 
-console.log(`\nA(glossaryKey mismatch)=${A}  B(prints other term)=${B}  C(translate left IAST)=${C}  D(preserve flattened)=${D}`);
-const total = A + B + C + D;
+// ---- card-field hygiene (the word-card pop-up) ---------------------------
+// The small pop-up is gloss-LISTS only: synonyms, stem, and a plain Sanskrit
+// root line. Two things must never appear in the card fields (gloss, parts[].gloss,
+// rootGloss): cross-language etymology/cognates (those live behind "Explain"), and
+// single-word collapses of a loaded concept term (the whole point of the redesign).
+let E = 0, F = 0;
+// E: cross-language cognate / etymology prose leaking into a card field.
+const BANNED_ETYM = /\b(Latin|Greek|Proto-Indo|PIE)\b|cognate with|\bkin to\b|English ['‘’"]/;
+// F: a loaded PRESERVE concept glossed as a single bare word (no sense list).
+// Match the part form EXACTLY to a concept stem (not a substring — "buddha"
+// 'awakened' is not buddhi, "karmayoga" is not karma), and flag only a truly
+// single-token gloss (a multi-word phrase like "the yoga of action" is fine).
+const PRES_FORMS = new Set(["raga", "dvesa", "guna", "dharma", "kama", "prajna", "buddhi", "karma", "manas", "mano", "indriya", "yoga", "rasa", "ahankara", "trsna"]);
+const concept = (form) => PRES_FORMS.has(normd(form));
+const collapsed = (s) => s && !/[\s,;/]/.test(s);
+function checkCardFields(label, words) {
+  for (const w of words || []) {
+    const fields = [["gloss", w.gloss], ["rootGloss", w.rootGloss], ...(w.parts || []).map((p) => [`part:${p.form}`, p.gloss])];
+    for (const [fld, val] of fields) {
+      if (val && BANNED_ETYM.test(val)) { console.log(`E ${label} [${w.i}] ${w.iast} ${fld}: cross-language etymology in card — "${val}"`); E++; }
+    }
+    for (const p of w.parts || []) {
+      if (concept(p.form) && collapsed(p.gloss)) { console.log(`F ${label} [${w.i}] ${w.iast} part:${p.form}: loaded term collapsed to one sense — "${p.gloss}"`); F++; }
+    }
+  }
+}
+const P = (() => { try { return load("gita/sthitaprajna/parallels.js", "GITA_PARALLELS"); } catch { return null; } })();
+function eachParallelWords(node, cb) {
+  if (Array.isArray(node)) node.forEach((n) => eachParallelWords(n, cb));
+  else if (node && typeof node === "object") { if (Array.isArray(node.words)) cb(node.words); for (const v of Object.values(node)) if (v && typeof v === "object") eachParallelWords(v, cb); }
+}
+for (const v of V) { checkCardFields(`v${v.locus}`, v.words); for (const c of v.commentaries || []) checkCardFields(`v${v.locus}/${c.voiceId||c.author}`, c.words); }
+for (const loc of Object.keys(C2)) for (const c of C2[loc]) checkCardFields(`c${loc}/${c.voiceId||c.author}`, c.words);
+if (P) eachParallelWords(P, (words) => checkCardFields("parallel", words));
+
+console.log(`\nA(glossaryKey mismatch)=${A}  B(prints other term)=${B}  C(translate left IAST)=${C}  D(preserve flattened)=${D}  E(card etymology)=${E}  F(card single-word collapse)=${F}`);
+const total = A + B + C + D + E + F;
 if (total) { console.error(`\n${total} term-consistency violation(s).`); process.exit(1); }
 console.log("Term consistency OK.");

@@ -37,11 +37,12 @@ window.GITA_PARALLELS = {
           iast: "sthitaprajñaḥ",
           gloss: "of settled wisdom",
           parts: [
-            { form: "sthita", gloss: "stood firm, steady" },
-            { form: "prajñā", gloss: "wisdom, insight" }
+            { form: "sthita", gloss: "stood firm, steady, settled, established" },
+            { form: "prajñā", gloss: "wisdom, insight, discernment, understanding" }
           ],
           stem: "sthita-prajña",
-          root: null,
+          root: "√jñā",
+          rootGloss: "to know, to understand, to discern",
           affix: "su (prathamā ekavacana)",
           morph: "nom. sg. masc.",
           karaka: "kartṛ (agent of aśnute)",
@@ -97,8 +98,8 @@ window.GITA_PARALLELS = {
           iast: "sadānandam",
           gloss: "ever-bliss",
           parts: [
-            { form: "sadā", gloss: "always, ever" },
-            { form: "ānanda", gloss: "bliss" }
+            { form: "sadā", gloss: "always, ever, at all times" },
+            { form: "ānanda", gloss: "bliss, joy, felicity, beatitude" }
           ],
           stem: "sadānanda",
           root: null,
@@ -114,7 +115,7 @@ window.GITA_PARALLELS = {
           iast: "aśnute",
           gloss: "feeds on, enjoys",
           parts: [
-            { form: "√aś", gloss: "to eat, partake of, enjoy" },
+            { form: "√aś", gloss: "to eat, to partake of, to enjoy, to feed on" },
             { form: "-te", gloss: "(present, 3rd sg. ātmanepada)" }
           ],
           stem: null,
@@ -128,7 +129,7 @@ window.GITA_PARALLELS = {
           iast: "brahmaṇi",
           gloss: "in Brahman",
           parts: [
-            { form: "brahman", gloss: "the Absolute" }
+            { form: "brahman", gloss: "the Absolute; the supreme reality, the vast, the boundless" }
           ],
           stem: "brahman",
           root: null,
@@ -156,10 +157,10 @@ window.GITA_PARALLELS = {
           iast: "vilīnātmā",
           gloss: "his self dissolved",
           parts: [
-            { form: "vi-", gloss: "completely, away" },
-            { form: "√lī", gloss: "to dissolve, merge" },
+            { form: "vi-", gloss: "completely, away, apart" },
+            { form: "√lī", gloss: "to dissolve, to merge, to melt away, to cling" },
             { form: "-na", gloss: "(past participle)" },
-            { form: "ātman", gloss: "self" }
+            { form: "ātman", gloss: "self, the innermost self, soul" }
           ],
           stem: "vilīna-ātman",
           root: "√lī (līṅ, divādi, 4A / juhotyādi, 'to dissolve, cling, melt')",
@@ -175,8 +176,8 @@ window.GITA_PARALLELS = {
           iast: "nirvikāraḥ",
           gloss: "unchanging",
           parts: [
-            { form: "nis-", gloss: "without, free of" },
-            { form: "vikāra", gloss: "modification, change" }
+            { form: "nis-", gloss: "without, free of, devoid of" },
+            { form: "vikāra", gloss: "modification, change, alteration, transformation" }
           ],
           stem: "nirvikāra",
           root: null,
@@ -191,9 +192,9 @@ window.GITA_PARALLELS = {
           iast: "viniṣkriyaḥ",
           gloss: "free of all activity",
           parts: [
-            { form: "vi-", gloss: "completely" },
-            { form: "nis-", gloss: "without" },
-            { form: "kriyā", gloss: "action, activity" }
+            { form: "vi-", gloss: "completely, out" },
+            { form: "nis-", gloss: "without, free of, devoid of" },
+            { form: "kriyā", gloss: "action, activity, doing, performance" }
           ],
           stem: "viniṣkriya",
           root: "√kṛ (ḍukṛñ, tanādi, 8U, 'to do, make')",
@@ -223,9 +224,9 @@ window.GITA_PARALLELS = {
           parts: [
             { form: "dṛṣṭa", gloss: "seen (√dṛś + kta)" },
             { form: "ānuśravika", gloss: "heard-of, scriptural (derived from anuśrava 'tradition, what is heard')" },
-            { form: "viṣaya", gloss: "object" },
-            { form: "vi-", gloss: "away from" },
-            { form: "tṛṣṇā", gloss: "thirst, craving" }
+            { form: "viṣaya", gloss: "object, sense-object, sphere, domain" },
+            { form: "vi-", gloss: "away from, free of" },
+            { form: "tṛṣṇā", gloss: "thirst, craving, longing, eager desire" }
           ],
           stem: "dṛṣṭa-ānuśravika-viṣaya-vitṛṣṇa",
           root: "√tṛṣ (tṛṣa pipāsāyām, divādi, 4P, 'to be thirsty')",
@@ -242,7 +243,7 @@ window.GITA_PARALLELS = {
           gloss: "named/marked by mastery",
           parts: [
             { form: "vaśī-kāra", gloss: "the act of bringing under control, mastery (vaśa + √kṛ + cvi)" },
-            { form: "saṃjñā", gloss: "designation, name, mark" }
+            { form: "saṃjñā", gloss: "designation, name, mark, sign" }
           ],
           stem: "vaśīkāra-saṃjñā",
           root: null,
@@ -257,8 +258,8 @@ window.GITA_PARALLELS = {
           iast: "vairāgyam",
           gloss: "dispassion",
           parts: [
-            { form: "vi-", gloss: "away from" },
-            { form: "rāga", gloss: "coloring, passion" },
+            { form: "vi-", gloss: "away from, free of" },
+            { form: "rāga", gloss: "coloring, hue, dye; attachment, attraction" },
             { form: "-ya", gloss: "(abstract-noun taddhita, with vṛddhi: 'the state of being uncolored')" }
           ],
           stem: "vairāgya",
@@ -371,8 +372,8 @@ window.GITA_PARALLELS = {
           iast: "vītarāgā",
           gloss: "the passion-free",
           parts: [
-            { form: "vīta", gloss: "gone away, departed (vi + √i + ta; Skt vīta)" },
-            { form: "rāga", gloss: "passion, coloring (Skt rāga)" }
+            { form: "vīta", gloss: "gone away, departed, vanished (vi + √i + ta; Skt vīta)" },
+            { form: "rāga", gloss: "coloring, hue; attachment, attraction (Skt rāga)" }
           ],
           stem: "vīta-rāga",
           root: null,
@@ -427,8 +428,8 @@ window.GITA_PARALLELS = {
           iast: "kāmagavesino",
           gloss: "seekers of pleasures",
           parts: [
-            { form: "kāma", gloss: "pleasure, sense-desire (Skt kāma)" },
-            { form: "gavesin", gloss: "seeking, in quest of (Skt gaveṣin, from gaveṣ 'to seek')" }
+            { form: "kāma", gloss: "desire, longing, wish; sense-pleasure (Skt kāma)" },
+            { form: "gavesin", gloss: "seeking, searching for, in quest of (Skt gaveṣin, from gaveṣ 'to seek')" }
           ],
           stem: "kāma-gavesin",
           root: null,
@@ -468,8 +469,8 @@ window.GITA_PARALLELS = {
           iast: "indiyatthā",
           gloss: "the objects of the senses",
           parts: [
-            { form: "indiya", gloss: "sense-faculty (Skt indriya)" },
-            { form: "attha", gloss: "object (Skt artha)" }
+            { form: "indiya", gloss: "sense-faculty, sense-organ, power (Skt indriya)" },
+            { form: "attha", gloss: "object, thing, aim (Skt artha)" }
           ],
           stem: "indiya-attha",
           root: null,
@@ -497,7 +498,7 @@ window.GITA_PARALLELS = {
           iast: "maṇassa",
           gloss: "of the mind",
           parts: [
-            { form: "maṇa", gloss: "mind (Skt manas)" }
+            { form: "maṇa", gloss: "mind; the inner organ of thought (Skt manas)" }
           ],
           stem: "maṇa",
           root: null,
@@ -524,7 +525,7 @@ window.GITA_PARALLELS = {
           iast: "dukkhassa",
           gloss: "of suffering",
           parts: [
-            { form: "dukkha", gloss: "suffering (Skt duḥkha)" }
+            { form: "dukkha", gloss: "suffering, sorrow, pain, distress (Skt duḥkha)" }
           ],
           stem: "dukkha",
           root: null,
@@ -564,7 +565,7 @@ window.GITA_PARALLELS = {
           iast: "rāgiṇo",
           gloss: "who has passion",
           parts: [
-            { form: "rāga", gloss: "passion (Skt rāga)" },
+            { form: "rāga", gloss: "coloring, hue; attachment, attraction (Skt rāga)" },
             { form: "-in", gloss: "(possessive: 'having'; Skt -in)" }
           ],
           stem: "rāgin",
@@ -645,7 +646,7 @@ window.GITA_PARALLELS = {
           iast: "dukkhaṃ",
           gloss: "suffering",
           parts: [
-            { form: "dukkha", gloss: "suffering (Skt duḥkha)" }
+            { form: "dukkha", gloss: "suffering, sorrow, pain, distress (Skt duḥkha)" }
           ],
           stem: "dukkha",
           root: null,
@@ -673,7 +674,7 @@ window.GITA_PARALLELS = {
           gloss: "for the passion-free one",
           parts: [
             { form: "vīya", gloss: "gone away, departed (Skt vīta)" },
-            { form: "rāga", gloss: "passion (Skt rāga)" }
+            { form: "rāga", gloss: "coloring, hue; attachment, attraction (Skt rāga)" }
           ],
           stem: "vīya-rāga",
           root: null,
@@ -728,13 +729,13 @@ window.GITA_PARALLELS = {
           iast: "iṣṭāniṣṭārthasamprāptau",
           gloss: "when the welcome and the unwelcome arrive",
           parts: [
-            { form: "iṣṭa", gloss: "desired, welcome (√iṣ + kta)" },
-            { form: "an-", gloss: "not" },
-            { form: "iṣṭa", gloss: "desired" },
-            { form: "artha", gloss: "thing, object" },
+            { form: "iṣṭa", gloss: "desired, wished-for, welcome (√iṣ + kta)" },
+            { form: "an-", gloss: "not, un-" },
+            { form: "iṣṭa", gloss: "desired, wished-for" },
+            { form: "artha", gloss: "thing, object, aim, purpose" },
             { form: "sam-", gloss: "together, fully" },
             { form: "pra-", gloss: "forth" },
-            { form: "āpti", gloss: "arrival, attainment (√āp + ktin)" }
+            { form: "āpti", gloss: "arrival, attainment, reaching (√āp + ktin)" }
           ],
           stem: "iṣṭa-aniṣṭa-artha-samprāpti",
           root: "√āp (āpḷ vyāptau, svādi, 5P, 'to reach, attain')",
@@ -749,8 +750,8 @@ window.GITA_PARALLELS = {
           iast: "samadarśitayā",
           gloss: "by even-sightedness",
           parts: [
-            { form: "sama", gloss: "even, equal" },
-            { form: "darśin", gloss: "seeing (√dṛś + ṇini)" },
+            { form: "sama", gloss: "even, equal, alike, impartial" },
+            { form: "darśin", gloss: "seeing, beholding, regarding (√dṛś + ṇini)" },
             { form: "-tā", gloss: "(abstract-noun taddhita: 'the state of')" }
           ],
           stem: "sama-darśi-tā",
@@ -811,8 +812,8 @@ window.GITA_PARALLELS = {
           iast: "jīvanmuktasya",
           gloss: "of one liberated while living",
           parts: [
-            { form: "jīvat", gloss: "living (√jīv + śatṛ)" },
-            { form: "mukta", gloss: "liberated, released (√muc + kta)" }
+            { form: "jīvat", gloss: "living, alive, while living (√jīv + śatṛ)" },
+            { form: "mukta", gloss: "liberated, released, freed, set loose (√muc + kta)" }
           ],
           stem: "jīvan-mukta",
           root: "√muc (muca mocane, tudādi, 6U, 'to release, free')",
@@ -828,7 +829,7 @@ window.GITA_PARALLELS = {
           iast: "lakṣaṇam",
           gloss: "the mark",
           parts: [
-            { form: "√lakṣ", gloss: "to mark, characterize" },
+            { form: "√lakṣ", gloss: "to mark, to characterize, to define, to denote" },
             { form: "-ana", gloss: "(action/instrument noun: 'characteristic')" }
           ],
           stem: "lakṣaṇa",
@@ -861,8 +862,8 @@ window.GITA_PARALLELS = {
           iast: "pathavisamo",
           gloss: "like the earth",
           parts: [
-            { form: "pathavī", gloss: "earth (Skt pṛthivī)" },
-            { form: "sama", gloss: "equal to, like (Skt sama)" }
+            { form: "pathavī", gloss: "earth, ground, soil (Skt pṛthivī)" },
+            { form: "sama", gloss: "equal to, like, the same as (Skt sama)" }
           ],
           stem: "pathavi-sama",
           root: null,
@@ -989,7 +990,7 @@ window.GITA_PARALLELS = {
           gloss: "the rounds of wandering",
           parts: [
             { form: "saṃ-", gloss: "together, around (Skt saṃ-)" },
-            { form: "√sar", gloss: "to flow, run on (Skt √sṛ)" },
+            { form: "√sar", gloss: "to flow, to run on, to move, to wander (Skt √sṛ)" },
             { form: "-a", gloss: "(action noun: 'faring on, transmigration')" }
           ],
           stem: "saṃsāra",
@@ -1155,8 +1156,8 @@ window.GITA_PARALLELS = {
           iast: "manovitakke",
           gloss: "the mind's stirrings",
           parts: [
-            { form: "mano", gloss: "mind (Skt manas)" },
-            { form: "vitakka", gloss: "thought, applied reasoning, stirring (Skt vitarka)" }
+            { form: "mano", gloss: "mind; the inner organ of thought (Skt manas)" },
+            { form: "vitakka", gloss: "thought, applied thinking, reasoning, stirring (Skt vitarka)" }
           ],
           stem: "mano-vitakka",
           root: null,
@@ -1269,12 +1270,12 @@ window.GITA_PARALLELS = {
           iast: "svaviṣayāsaṃprayoge",
           gloss: "in the disengagement from their own objects",
           parts: [
-            { form: "sva", gloss: "own" },
-            { form: "viṣaya", gloss: "object, sense-field" },
+            { form: "sva", gloss: "own, one's own" },
+            { form: "viṣaya", gloss: "object, sense-object, sense-field, domain" },
             { form: "a-", gloss: "non-, un-" },
             { form: "sam-", gloss: "together" },
             { form: "pra-", gloss: "forth" },
-            { form: "yoga", gloss: "joining, contact (√yuj + ghañ)" }
+            { form: "yoga", gloss: "joining, union, contact, conjunction (√yuj + ghañ)" }
           ],
           stem: "sva-viṣaya-asaṃprayoga",
           root: "√yuj (yujir yoge, rudhādi, 7U, 'to join')",
@@ -1290,10 +1291,10 @@ window.GITA_PARALLELS = {
           iast: "cittasvarūpānukāraḥ",
           gloss: "conforming to the nature of the mind",
           parts: [
-            { form: "citta", gloss: "mind, mind-stuff" },
-            { form: "svarūpa", gloss: "own-form, intrinsic nature" },
-            { form: "anu-", gloss: "after, following" },
-            { form: "kāra", gloss: "doing, conforming (√kṛ + ghañ)" }
+            { form: "citta", gloss: "mind, mind-stuff, the thinking faculty, consciousness" },
+            { form: "svarūpa", gloss: "own-form, intrinsic nature, essential character" },
+            { form: "anu-", gloss: "after, following, in conformity with" },
+            { form: "kāra", gloss: "doing, making, conforming (√kṛ + ghañ)" }
           ],
           stem: "citta-svarūpa-anukāra",
           root: "√kṛ (ḍukṛñ, tanādi, 8U, 'to do, make')",
@@ -1322,7 +1323,7 @@ window.GITA_PARALLELS = {
           iast: "indriyāṇām",
           gloss: "of the senses",
           parts: [
-            { form: "indriya", gloss: "sense-faculty" }
+            { form: "indriya", gloss: "sense-faculty, sense-organ, power" }
           ],
           stem: "indriya",
           root: null,
@@ -1400,8 +1401,8 @@ window.GITA_PARALLELS = {
           iast: "puruṣakhyāteḥ",
           gloss: "from the discernment of the puruṣa",
           parts: [
-            { form: "puruṣa", gloss: "the spirit, conscious self" },
-            { form: "khyāti", gloss: "discernment, clear vision (√khyā + ktin)" }
+            { form: "puruṣa", gloss: "the spirit, the conscious self, the witnessing person" },
+            { form: "khyāti", gloss: "discernment, clear vision, discriminative insight (√khyā + ktin)" }
           ],
           stem: "puruṣa-khyāti",
           root: "√khyā (khyā prakathane, adādi, 2P, 'to make known, perceive')",
@@ -1417,9 +1418,9 @@ window.GITA_PARALLELS = {
           iast: "guṇavaitṛṣṇyam",
           gloss: "the cessation of thirst even for the guṇas",
           parts: [
-            { form: "guṇa", gloss: "constituent strand (of prakṛti)" },
-            { form: "vi-", gloss: "away from" },
-            { form: "tṛṣṇā", gloss: "thirst, craving" },
+            { form: "guṇa", gloss: "strand, constituent, quality; the constituent strand of prakṛti" },
+            { form: "vi-", gloss: "away from, free of" },
+            { form: "tṛṣṇā", gloss: "thirst, craving, longing, eager desire" },
             { form: "-ya", gloss: "(abstract-noun taddhita, with vṛddhi: 'the state of being free of')" }
           ],
           stem: "guṇa-vaitṛṣṇya",
@@ -1466,7 +1467,7 @@ window.GITA_PARALLELS = {
           iast: "indriyāni",
           gloss: "senses",
           parts: [
-            { form: "indriya", gloss: "sense-faculty (Skt indriya)" }
+            { form: "indriya", gloss: "sense-faculty, sense-organ, power (Skt indriya)" }
           ],
           stem: "indriya",
           root: null,
@@ -1534,8 +1535,8 @@ window.GITA_PARALLELS = {
           iast: "sudantā",
           gloss: "well-tamed",
           parts: [
-            { form: "su-", gloss: "well (Skt su-)" },
-            { form: "danta", gloss: "tamed, subdued (√dam + ta; Skt dānta)" }
+            { form: "su-", gloss: "well, thoroughly (Skt su-)" },
+            { form: "danta", gloss: "tamed, subdued, restrained, disciplined (√dam + ta; Skt dānta)" }
           ],
           stem: "su-danta",
           root: "√dam (Pali; Skt √dam, divādi, 4P, 'to tame, subdue')",
@@ -1548,8 +1549,8 @@ window.GITA_PARALLELS = {
           iast: "pahīnamānassa",
           gloss: "with conceit abandoned",
           parts: [
-            { form: "pahīna", gloss: "abandoned, given up (pra + √hā + ta/na; Skt prahīṇa)" },
-            { form: "māna", gloss: "conceit, pride (Skt māna)" }
+            { form: "pahīna", gloss: "abandoned, given up, relinquished (pra + √hā + ta/na; Skt prahīṇa)" },
+            { form: "māna", gloss: "conceit, pride, self-regard (Skt māna)" }
           ],
           stem: "pahīna-māna",
           root: "√hā (Pali; Skt √hā, juhotyādi, 3P, 'to abandon')",
@@ -1685,7 +1686,7 @@ window.GITA_PARALLELS = {
           iast: "vaśyatā",
           gloss: "mastery, subjugation",
           parts: [
-            { form: "vaśya", gloss: "to be controlled, subject to will (√vaś + ṇyat)" },
+            { form: "vaśya", gloss: "to be controlled, subject to will, governable (√vaś + ṇyat)" },
             { form: "-tā", gloss: "(abstract-noun taddhita: 'the state of')" }
           ],
           stem: "vaśya-tā",
@@ -1700,7 +1701,7 @@ window.GITA_PARALLELS = {
           iast: "indriyāṇām",
           gloss: "of the senses",
           parts: [
-            { form: "indriya", gloss: "sense-faculty" }
+            { form: "indriya", gloss: "sense-faculty, sense-organ, power" }
           ],
           stem: "indriya",
           root: null,
@@ -1758,7 +1759,7 @@ window.GITA_PARALLELS = {
           iast: "manaṃ",
           gloss: "mind",
           parts: [
-            { form: "mana", gloss: "mind (Skt manas)" }
+            { form: "mana", gloss: "mind; the inner organ of thought (Skt manas)" }
           ],
           stem: "mana",
           root: null,
@@ -1825,7 +1826,7 @@ window.GITA_PARALLELS = {
           iast: "kamma",
           gloss: "action",
           parts: [
-            { form: "kamma", gloss: "action, deed (Skt karman)" }
+            { form: "kamma", gloss: "action, deed, work (Skt karman)" }
           ],
           stem: "kamma",
           root: null,
@@ -1852,9 +1853,9 @@ window.GITA_PARALLELS = {
           iast: "sammadaññāvimuttassa",
           gloss: "for the one freed by right knowledge",
           parts: [
-            { form: "sammad", gloss: "rightly, perfectly (sammā before vowel; Skt samyak)" },
-            { form: "aññā", gloss: "final/perfect knowledge, gnosis (ā + √ñā; Skt ājñā)" },
-            { form: "vimutta", gloss: "released, liberated (vi + √muc + ta; Skt vimukta)" }
+            { form: "sammad", gloss: "rightly, perfectly, fully (sammā before vowel; Skt samyak)" },
+            { form: "aññā", gloss: "final knowledge, perfect knowing, gnosis (ā + √ñā; Skt ājñā)" },
+            { form: "vimutta", gloss: "released, liberated, set free, delivered (vi + √muc + ta; Skt vimukta)" }
           ],
           stem: "sammadaññā-vimutta",
           root: "√muc (Pali; Skt √muc, tudādi, 6U, 'to release')",
@@ -1907,10 +1908,10 @@ window.GITA_PARALLELS = {
           iast: "maitrīkaruṇāmuditopekṣāṇām",
           gloss: "of friendliness, compassion, gladness and equanimity",
           parts: [
-            { form: "maitrī", gloss: "friendliness, loving-kindness (from mitra 'friend')" },
-            { form: "karuṇā", gloss: "compassion" },
-            { form: "muditā", gloss: "gladness, sympathetic joy" },
-            { form: "upekṣā", gloss: "equanimity, indifference (upa + √īkṣ)" }
+            { form: "maitrī", gloss: "friendliness, loving-kindness, goodwill (from mitra 'friend')" },
+            { form: "karuṇā", gloss: "compassion, pity, mercy" },
+            { form: "muditā", gloss: "gladness, sympathetic joy, rejoicing" },
+            { form: "upekṣā", gloss: "equanimity, even-mindedness, indifference (upa + √īkṣ)" }
           ],
           stem: "maitrī-karuṇā-muditā-upekṣā",
           root: null,
@@ -1925,12 +1926,12 @@ window.GITA_PARALLELS = {
           iast: "sukhaduḥkhapuṇyāpuṇyaviṣayāṇām",
           gloss: "having as their objects the happy, the suffering, the meritorious and the unmeritorious",
           parts: [
-            { form: "sukha", gloss: "pleasure, the happy" },
-            { form: "duḥkha", gloss: "sorrow, the suffering" },
-            { form: "puṇya", gloss: "merit, the meritorious" },
+            { form: "sukha", gloss: "pleasure, happiness, ease; the happy" },
+            { form: "duḥkha", gloss: "sorrow, suffering, pain; the suffering" },
+            { form: "puṇya", gloss: "merit, virtue, the meritorious" },
             { form: "a-", gloss: "non-, un-" },
-            { form: "puṇya", gloss: "merit" },
-            { form: "viṣaya", gloss: "object, sphere" }
+            { form: "puṇya", gloss: "merit, virtue" },
+            { form: "viṣaya", gloss: "object, sphere, domain, field" }
           ],
           stem: "sukha-duḥkha-puṇya-apuṇya-viṣaya",
           root: null,
@@ -1946,7 +1947,7 @@ window.GITA_PARALLELS = {
           iast: "bhāvanātaḥ",
           gloss: "by cultivating",
           parts: [
-            { form: "bhāvanā", gloss: "cultivation, repeated meditative practice (√bhū caus. + yuc)" },
+            { form: "bhāvanā", gloss: "cultivation, repeated practice, meditative development (√bhū caus. + yuc)" },
             { form: "-tas", gloss: "(ablatival taddhita: 'from, by means of')" }
           ],
           stem: "bhāvanā",
@@ -1962,9 +1963,9 @@ window.GITA_PARALLELS = {
           iast: "cittaprasādanam",
           gloss: "the serenity of the mind",
           parts: [
-            { form: "citta", gloss: "mind, mind-stuff" },
+            { form: "citta", gloss: "mind, mind-stuff, the thinking faculty, consciousness" },
             { form: "pra-", gloss: "forth, fully" },
-            { form: "√sad", gloss: "to settle, become clear" },
+            { form: "√sad", gloss: "to settle, to sink, to become clear, to grow calm" },
             { form: "-ana", gloss: "(action noun: 'a making serene')" }
           ],
           stem: "citta-prasādana",
@@ -1998,7 +1999,7 @@ window.GITA_PARALLELS = {
           iast: "vartamāne",
           gloss: "persisting, continuing",
           parts: [
-            { form: "√vṛt", gloss: "to turn, continue, exist" },
+            { form: "√vṛt", gloss: "to turn, to continue, to persist, to exist" },
             { form: "-māna", gloss: "(present middle participle, śānac)" }
           ],
           stem: "vartamāna",
@@ -2068,8 +2069,8 @@ window.GITA_PARALLELS = {
           iast: "anuvartini",
           gloss: "following after",
           parts: [
-            { form: "anu-", gloss: "after, along" },
-            { form: "√vṛt", gloss: "to turn, follow" },
+            { form: "anu-", gloss: "after, along, following" },
+            { form: "√vṛt", gloss: "to turn, to follow, to attend, to accompany" },
             { form: "-in", gloss: "(possessive/agentive: 'one who follows', ṇini)" }
           ],
           stem: "anuvartin",
@@ -2084,9 +2085,9 @@ window.GITA_PARALLELS = {
           iast: "ahantāmamatābhāvaḥ",
           gloss: "the absence of 'I'-ness and 'mine'-ness",
           parts: [
-            { form: "ahantā", gloss: "the sense of 'I', I-ness (aham + tā)" },
-            { form: "mamatā", gloss: "the sense of 'mine', mine-ness (mama + tā)" },
-            { form: "abhāva", gloss: "absence, non-existence (a + bhāva)" }
+            { form: "ahantā", gloss: "I-ness, the sense of 'I', egoity (aham + tā)" },
+            { form: "mamatā", gloss: "mine-ness, the sense of 'mine', possessiveness (mama + tā)" },
+            { form: "abhāva", gloss: "absence, non-existence, want (a + bhāva)" }
           ],
           stem: "ahantā-mamatā-abhāva",
           root: null,
@@ -2102,8 +2103,8 @@ window.GITA_PARALLELS = {
           iast: "jīvanmuktasya",
           gloss: "of one liberated while living",
           parts: [
-            { form: "jīvat", gloss: "living (√jīv + śatṛ)" },
-            { form: "mukta", gloss: "liberated, released (√muc + kta)" }
+            { form: "jīvat", gloss: "living, alive, while living (√jīv + śatṛ)" },
+            { form: "mukta", gloss: "liberated, released, freed, set loose (√muc + kta)" }
           ],
           stem: "jīvan-mukta",
           root: "√muc (muca mocane, tudādi, 6U, 'to release, free')",
@@ -2119,7 +2120,7 @@ window.GITA_PARALLELS = {
           iast: "lakṣaṇam",
           gloss: "the mark",
           parts: [
-            { form: "√lakṣ", gloss: "to mark, characterize" },
+            { form: "√lakṣ", gloss: "to mark, to characterize, to define, to denote" },
             { form: "-ana", gloss: "(action/instrument noun: 'characteristic')" }
           ],
           stem: "lakṣaṇa",
@@ -2147,7 +2148,7 @@ window.GITA_PARALLELS = {
           iast: "bhāve",
           gloss: "from objects/things",
           parts: [
-            { form: "bhāva", gloss: "existing thing, object, mental object (Skt bhāva)" }
+            { form: "bhāva", gloss: "existing thing, object, state of being, mental object (Skt bhāva)" }
           ],
           stem: "bhāva",
           root: null,
@@ -2161,8 +2162,8 @@ window.GITA_PARALLELS = {
           iast: "viratto",
           gloss: "detached",
           parts: [
-            { form: "vi-", gloss: "away from (Skt vi-)" },
-            { form: "ratta", gloss: "attached, colored (√raj + ta; Skt rakta)" }
+            { form: "vi-", gloss: "away from, free of (Skt vi-)" },
+            { form: "ratta", gloss: "attached, colored, dyed, impassioned (√raj + ta; Skt rakta)" }
           ],
           stem: "vi-ratta",
           root: "√raj (Prakrit; Skt √rañj, bhvādi, 1U, 'to be dyed, attached')",
@@ -2189,7 +2190,7 @@ window.GITA_PARALLELS = {
           gloss: "free of sorrow",
           parts: [
             { form: "vi-", gloss: "without, free of (Skt vi-)" },
-            { form: "soga", gloss: "sorrow, grief (Skt śoka)" }
+            { form: "soga", gloss: "sorrow, grief, lamentation (Skt śoka)" }
           ],
           stem: "vi-soga",
           root: null,
@@ -2216,7 +2217,7 @@ window.GITA_PARALLELS = {
           iast: "dukkhohaparaṃpareṇa",
           gloss: "succession of floods of suffering",
           parts: [
-            { form: "dukkha", gloss: "suffering (Skt duḥkha)" },
+            { form: "dukkha", gloss: "suffering, sorrow, pain, distress (Skt duḥkha)" },
             { form: "oha", gloss: "flood, stream (Skt ogha)" },
             { form: "paraṃparā", gloss: "succession, unbroken series (Skt paramparā)" }
           ],
@@ -2260,8 +2261,8 @@ window.GITA_PARALLELS = {
           iast: "bhavamajjhe",
           gloss: "in the midst of existence",
           parts: [
-            { form: "bhava", gloss: "existence, worldly becoming (Skt bhava)" },
-            { form: "majjha", gloss: "middle, midst (Skt madhya)" }
+            { form: "bhava", gloss: "existence, becoming, worldly being (Skt bhava)" },
+            { form: "majjha", gloss: "middle, midst, center (Skt madhya)" }
           ],
           stem: "bhava-majjha",
           root: null,
@@ -2362,9 +2363,9 @@ window.GITA_PARALLELS = {
           iast: "cidānandalābhe",
           gloss: "on the attainment of the bliss of consciousness",
           parts: [
-            { form: "cit", gloss: "consciousness, pure awareness" },
-            { form: "ānanda", gloss: "bliss" },
-            { form: "lābha", gloss: "attainment, gaining (√labh + ghañ)" }
+            { form: "cit", gloss: "consciousness, pure awareness, sentience" },
+            { form: "ānanda", gloss: "bliss, joy, felicity, beatitude" },
+            { form: "lābha", gloss: "attainment, gaining, obtaining, acquisition (√labh + ghañ)" }
           ],
           stem: "cit-ānanda-lābha",
           root: "√labh (ḍulabhaṣ prāptau, bhvādi, 1A, 'to obtain')",
@@ -2424,10 +2425,10 @@ window.GITA_PARALLELS = {
           iast: "cidaikātmyapratipattidārḍhyam",
           gloss: "the firmness of the realization of oneness with consciousness",
           parts: [
-            { form: "cit", gloss: "consciousness" },
-            { form: "aikātmya", gloss: "oneness, identity of self (eka-ātman + ṣyañ, vṛddhi)" },
-            { form: "pratipatti", gloss: "realization, ascertainment (prati + √pad + ktin)" },
-            { form: "dārḍhya", gloss: "firmness, steadfastness (dṛḍha + ṣyañ)" }
+            { form: "cit", gloss: "consciousness, pure awareness, sentience" },
+            { form: "aikātmya", gloss: "oneness, identity of self, sameness of essence (eka-ātman + ṣyañ, vṛddhi)" },
+            { form: "pratipatti", gloss: "realization, ascertainment, conviction (prati + √pad + ktin)" },
+            { form: "dārḍhya", gloss: "firmness, steadfastness, solidity (dṛḍha + ṣyañ)" }
           ],
           stem: "cit-aikātmya-pratipatti-dārḍhya",
           root: "√pad (pada gatau, divādi, 4A, 'to go, attain')",
@@ -2444,7 +2445,7 @@ window.GITA_PARALLELS = {
           gloss: "liberation-while-living",
           parts: [
             { form: "jīvat", gloss: "living (√jīv + śatṛ)" },
-            { form: "mukti", gloss: "liberation, release (√muc + ktin)" }
+            { form: "mukti", gloss: "liberation, release, freedom, deliverance (√muc + ktin)" }
           ],
           stem: "jīvan-mukti",
           root: "√muc (muca mocane, tudādi, 6U, 'to release, free')",
@@ -2472,9 +2473,9 @@ window.GITA_PARALLELS = {
           iast: "puruṣārthaśūnyānām",
           gloss: "empty of any purpose for the puruṣa",
           parts: [
-            { form: "puruṣa", gloss: "the spirit, conscious self" },
-            { form: "artha", gloss: "purpose, goal, object" },
-            { form: "śūnya", gloss: "empty, devoid of" }
+            { form: "puruṣa", gloss: "the spirit, the conscious self, the witnessing person" },
+            { form: "artha", gloss: "purpose, goal, aim, object" },
+            { form: "śūnya", gloss: "empty, void, devoid of, without" }
           ],
           stem: "puruṣārtha-śūnya",
           root: null,
@@ -2490,7 +2491,7 @@ window.GITA_PARALLELS = {
           iast: "guṇānām",
           gloss: "of the guṇas",
           parts: [
-            { form: "guṇa", gloss: "constituent strand (of prakṛti)" }
+            { form: "guṇa", gloss: "strand, constituent, quality; the constituent strand of prakṛti" }
           ],
           stem: "guṇa",
           root: null,
@@ -2522,7 +2523,7 @@ window.GITA_PARALLELS = {
           iast: "kaivalyam",
           gloss: "aloneness",
           parts: [
-            { form: "kevala", gloss: "alone, sole, isolated" },
+            { form: "kevala", gloss: "alone, sole, isolated, pure, absolute" },
             { form: "-ya", gloss: "(abstract-noun taddhita, with vṛddhi: 'the state of being alone')" }
           ],
           stem: "kaivalya",
@@ -2538,9 +2539,9 @@ window.GITA_PARALLELS = {
           iast: "svarūpapratiṣṭhā",
           gloss: "standing firm in its own nature",
           parts: [
-            { form: "svarūpa", gloss: "own-form, intrinsic nature" },
+            { form: "svarūpa", gloss: "own-form, intrinsic nature, essential character" },
             { form: "prati-", gloss: "firmly" },
-            { form: "√sthā", gloss: "to stand" },
+            { form: "√sthā", gloss: "to stand, to stay, to abide, to be established" },
             { form: "-ā", gloss: "(action noun: 'establishment', with strī -ā)" }
           ],
           stem: "svarūpa-pratiṣṭhā",
@@ -2570,8 +2571,8 @@ window.GITA_PARALLELS = {
           iast: "citiśaktiḥ",
           gloss: "the power of pure consciousness",
           parts: [
-            { form: "citi", gloss: "pure consciousness, awareness (√cit + ktin)" },
-            { form: "śakti", gloss: "power, capacity" }
+            { form: "citi", gloss: "pure consciousness, awareness, the power of awareness (√cit + ktin)" },
+            { form: "śakti", gloss: "power, capacity, energy, potency" }
           ],
           stem: "citi-śakti",
           root: "√cit (cita saṃjñāne, bhvādi, 1P, 'to perceive, be conscious')",

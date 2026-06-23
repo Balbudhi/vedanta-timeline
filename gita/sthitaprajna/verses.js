@@ -44,7 +44,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "prajñā",
-            "gloss": "wisdom, insight"
+            "gloss": "wisdom, insight, discernment, understanding"
           }
         ]
       },
@@ -71,7 +71,7 @@ window.GITA_VERSES = [
         "i": 2,
         "deva": "भाषा",
         "iast": "bhāṣā",
-        "gloss": "speech, manner of speaking; here, how one would describe him",
+        "gloss": "speech, manner of speaking; description",
         "stem": "bhāṣā",
         "root": "√bhāṣ",
         "affix": "su (prathamā ekavacana)",
@@ -84,7 +84,8 @@ window.GITA_VERSES = [
             "form": "bhāṣā",
             "gloss": "speech, way of speaking"
           }
-        ]
+        ],
+        "rootGloss": "to speak, to say, to tell"
       },
       {
         "i": 3,
@@ -109,7 +110,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "samādhi",
-            "gloss": "deep absorption"
+            "gloss": "deep absorption, profound concentration, settled meditation"
           },
           {
             "form": "stha",
@@ -132,7 +133,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "keśa",
-            "gloss": "hair"
+            "gloss": "hair, hair of the head"
           },
           {
             "form": "-va",
@@ -167,7 +168,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "dhī",
-            "gloss": "intellect, thought"
+            "gloss": "intelligence, thought, understanding, intellect; insight"
           }
         ]
       },
@@ -211,7 +212,8 @@ window.GITA_VERSES = [
             "form": "√bhāṣ",
             "gloss": "to speak"
           }
-        ]
+        ],
+        "rootGloss": "to speak forth, to declare, to discourse"
       },
       {
         "i": 8,
@@ -249,7 +251,8 @@ window.GITA_VERSES = [
             "form": "√ās",
             "gloss": "to sit, remain"
           }
-        ]
+        ],
+        "rootGloss": "to sit, to remain, to abide, to stay, to dwell"
       },
       {
         "i": 10,
@@ -268,7 +271,8 @@ window.GITA_VERSES = [
             "form": "√vraj",
             "gloss": "to walk, move"
           }
-        ]
+        ],
+        "rootGloss": "to walk, to move, to go, to proceed, to wander"
       },
       {
         "i": 11,
@@ -312,7 +316,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "samādhi",
-                "gloss": "absorption"
+                "gloss": "deep absorption, profound concentration, settled meditation"
               },
               {
                 "form": "stha",
@@ -333,7 +337,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "prajña",
-                "gloss": "wisdom"
+                "gloss": "wisdom, discernment, insight, understanding"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -402,7 +406,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śabda",
-                "gloss": "word, sound"
+                "gloss": "word, sound, speech, utterance"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -483,7 +487,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "prajña",
-                "gloss": "wisdom"
+                "gloss": "wisdom, discernment, insight, understanding"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -594,7 +598,8 @@ window.GITA_VERSES = [
             "form": "√hā",
             "gloss": "to abandon, cast off"
           }
-        ]
+        ],
+        "rootGloss": "to abandon, to relinquish, to give up wholly"
       },
       {
         "i": 1,
@@ -630,7 +635,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "kāma",
-            "gloss": "desire"
+            "gloss": "desire, longing, wish; the wish for an object"
           }
         ]
       },
@@ -699,7 +704,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "manas",
-            "gloss": "mind"
+            "gloss": "mind; the inner organ of thought and doubt"
           },
           {
             "form": "gata",
@@ -722,7 +727,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "ātman",
-            "gloss": "the self"
+            "gloss": "the self, the inner self; soul, spirit; oneself"
           }
         ]
       },
@@ -743,7 +748,8 @@ window.GITA_VERSES = [
             "form": "√tuṣ",
             "gloss": "to be content"
           }
-        ]
+        ],
+        "rootGloss": "to be content, to be satisfied, to be pleased, to rejoice"
       },
       {
         "i": 8,
@@ -760,7 +766,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "ātman",
-            "gloss": "the self"
+            "gloss": "the self, the inner self; soul, spirit; oneself"
           }
         ]
       },
@@ -810,7 +816,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "prajñā",
-            "gloss": "wisdom, insight"
+            "gloss": "wisdom, insight, discernment, understanding"
           }
         ]
       },
@@ -850,7 +856,8 @@ window.GITA_VERSES = [
             "form": "√vac",
             "gloss": "to say, call"
           }
-        ]
+        ],
+        "rootGloss": "to speak, to say, to tell, to declare, to call"
       }
     ],
     "grammar": {
@@ -875,7 +882,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātman",
-                "gloss": "the self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -899,7 +906,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātman",
-                "gloss": "the self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "instr. sg. masc.",
@@ -912,7 +919,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "instr. sg. neut.",
@@ -925,7 +932,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "eka",
@@ -1017,7 +1024,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               },
               {
                 "form": "gata",
@@ -1034,7 +1041,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "acc. pl. masc.",
@@ -1113,7 +1120,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "prajña",
-                "gloss": "wisdom"
+                "gloss": "wisdom, discernment, insight, understanding"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1153,11 +1160,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "jñāna",
-                "gloss": "knowledge"
+                "gloss": "knowledge, cognition, knowing, understanding"
               },
               {
                 "form": "niṣṭhā",
-                "gloss": "steadfastness"
+                "gloss": "steadfastness, firm standing, devotion, settled state"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -1230,7 +1237,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "duḥkha",
-            "gloss": "sorrow, pain"
+            "gloss": "sorrow, pain, suffering, distress"
           }
         ]
       },
@@ -1265,7 +1272,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "manas",
-            "gloss": "mind"
+            "gloss": "mind; the inner organ of thought and doubt"
           }
         ]
       },
@@ -1284,7 +1291,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "sukha",
-            "gloss": "pleasure, ease"
+            "gloss": "pleasure, happiness, ease, comfort, joy"
           }
         ]
       },
@@ -1315,7 +1322,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "spṛhā",
-            "gloss": "longing, craving"
+            "gloss": "longing, craving, eager desire, yearning"
           }
         ]
       },
@@ -1323,7 +1330,7 @@ window.GITA_VERSES = [
         "i": 4,
         "deva": "वीतरागभयक्रोधः",
         "iast": "vītarāgabhayakrodhaḥ",
-        "gloss": "from whom passion, fear, and anger have departed",
+        "gloss": "from whom rāga, fear, and anger have departed",
         "stem": "vīta-rāga-bhaya-krodha",
         "root": null,
         "affix": "su (prathamā ekavacana)",
@@ -1348,15 +1355,15 @@ window.GITA_VERSES = [
           },
           {
             "form": "rāga",
-            "gloss": "passion, attraction"
+            "gloss": "coloring, hue; attachment, attraction; passion"
           },
           {
             "form": "bhaya",
-            "gloss": "fear"
+            "gloss": "fear, dread, alarm, apprehension"
           },
           {
             "form": "krodha",
-            "gloss": "anger"
+            "gloss": "anger, wrath, rage, indignation"
           }
         ]
       },
@@ -1387,7 +1394,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "dhī",
-            "gloss": "intellect, thought"
+            "gloss": "intelligence, thought, understanding, intellect; insight"
           }
         ]
       },
@@ -1406,7 +1413,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "muni",
-            "gloss": "sage, silent one"
+            "gloss": "sage, seer; the silent one, the contemplative"
           }
         ]
       },
@@ -1427,7 +1434,8 @@ window.GITA_VERSES = [
             "form": "√vac",
             "gloss": "to say, call"
           }
-        ]
+        ],
+        "rootGloss": "to speak, to say, to tell, to declare, to call"
       }
     ],
     "grammar": {
@@ -1452,11 +1460,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "priya",
-                "gloss": "the dear"
+                "gloss": "the dear, the pleasant, the agreeable, the beloved"
               },
               {
                 "form": "viśleṣa",
-                "gloss": "separation"
+                "gloss": "separation, disjunction, parting"
               },
               {
                 "form": "ādi",
@@ -1464,7 +1472,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "duḥkha",
-                "gloss": "sorrow"
+                "gloss": "sorrow, pain, suffering, distress"
               },
               {
                 "form": "nimitta",
@@ -1509,7 +1517,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1533,7 +1541,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "duḥkha",
-                "gloss": "sorrow"
+                "gloss": "sorrow, pain, suffering, distress"
               },
               {
                 "form": "-in",
@@ -1562,7 +1570,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "sukha",
-                "gloss": "pleasure"
+                "gloss": "pleasure, happiness, ease, comfort, joy"
               }
             ],
             "morph": "loc. pl. neut."
@@ -1578,7 +1586,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "spṛhā",
-                "gloss": "longing"
+                "gloss": "longing, craving, eager desire, yearning"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1591,7 +1599,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "priya",
-                "gloss": "dear"
+                "gloss": "the dear, the pleasant, the agreeable, the beloved"
               }
             ],
             "morph": "loc. pl. neut."
@@ -1638,7 +1646,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "spṛhā",
-                "gloss": "longing"
+                "gloss": "longing, craving, eager desire, yearning"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1647,7 +1655,7 @@ window.GITA_VERSES = [
           {
             "i": 12,
             "iast": "vītarāgabhayakrodhaḥ",
-            "gloss": "from whom passion, fear, and anger have departed",
+            "gloss": "from whom rāga, fear, and anger have departed",
             "parts": [
               {
                 "form": "vīta",
@@ -1655,15 +1663,15 @@ window.GITA_VERSES = [
               },
               {
                 "form": "rāga",
-                "gloss": "passion"
+                "gloss": "coloring, hue; attachment, attraction; passion"
               },
               {
                 "form": "bhaya",
-                "gloss": "fear"
+                "gloss": "fear, dread, alarm, apprehension"
               },
               {
                 "form": "krodha",
-                "gloss": "anger"
+                "gloss": "anger, wrath, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1692,7 +1700,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "spṛhā",
-                "gloss": "longing, craving"
+                "gloss": "longing, craving, eager desire, yearning"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -1701,11 +1709,11 @@ window.GITA_VERSES = [
           {
             "i": 15,
             "iast": "rāgaḥ",
-            "gloss": "is passion",
+            "gloss": "is rāga",
             "parts": [
               {
                 "form": "rāga",
-                "gloss": "passion, attraction"
+                "gloss": "coloring, hue; attachment, attraction; passion"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1734,15 +1742,15 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "priya",
-                "gloss": "the dear"
+                "gloss": "the dear, the pleasant, the agreeable, the beloved"
               },
               {
                 "form": "viśleṣa",
-                "gloss": "separation"
+                "gloss": "separation, disjunction, parting"
               },
               {
                 "form": "apriya",
-                "gloss": "the un-dear"
+                "gloss": "the un-dear, the unpleasant, the disagreeable"
               },
               {
                 "form": "āgamana",
@@ -1754,7 +1762,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "darśana",
-                "gloss": "seeing, foreseeing"
+                "gloss": "seeing, sight, vision, beholding; insight"
               },
               {
                 "form": "nimitta",
@@ -1771,7 +1779,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "duḥkha",
-                "gloss": "sorrow"
+                "gloss": "sorrow, pain, suffering, distress"
               }
             ],
             "morph": "nom. sg. neut.",
@@ -1784,7 +1792,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "bhaya",
-                "gloss": "fear"
+                "gloss": "fear, dread, alarm, apprehension"
               }
             ],
             "morph": "nom. sg. neut."
@@ -1812,15 +1820,15 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "priya",
-                "gloss": "the dear"
+                "gloss": "the dear, the pleasant, the agreeable, the beloved"
               },
               {
                 "form": "viśleṣa",
-                "gloss": "separation"
+                "gloss": "separation, disjunction, parting"
               },
               {
                 "form": "apriya",
-                "gloss": "the un-dear"
+                "gloss": "the un-dear, the unpleasant, the disagreeable"
               },
               {
                 "form": "āgamana",
@@ -1840,7 +1848,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "duḥkha",
-                "gloss": "suffering"
+                "gloss": "sorrow, pain, suffering, distress"
               },
               {
                 "form": "hetubhūta",
@@ -1852,11 +1860,11 @@ window.GITA_VERSES = [
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               },
               {
                 "form": "vikāra",
-                "gloss": "perturbation, modification"
+                "gloss": "modification, change, perturbation, alteration"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1869,7 +1877,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger"
+                "gloss": "anger, wrath, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1914,7 +1922,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "muni",
-                "gloss": "sage"
+                "gloss": "sage, seer; the silent one, the contemplative"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1927,15 +1935,15 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "manana",
-                "gloss": "contemplation"
+                "gloss": "reflection, contemplation, pondering, deliberation"
               },
               {
                 "form": "śīla",
-                "gloss": "disposition, nature"
+                "gloss": "disposition, character, nature, conduct"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1952,7 +1960,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "dhī",
-                "gloss": "intellect"
+                "gloss": "intelligence, thought, understanding, intellect; insight"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -2080,7 +2088,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "sneha",
-            "gloss": "affection, attachment"
+            "gloss": "affection, fondness, tenderness; attachment, stickiness"
           }
         ]
       },
@@ -2124,7 +2132,8 @@ window.GITA_VERSES = [
             "form": "√āp",
             "gloss": "to reach, obtain"
           }
-        ]
+        ],
+        "rootGloss": "to reach, to attain, to obtain, to arrive at, to gain"
       },
       {
         "i": 5,
@@ -2197,7 +2206,8 @@ window.GITA_VERSES = [
             "form": "√nand",
             "gloss": "to rejoice, welcome"
           }
-        ]
+        ],
+        "rootGloss": "to rejoice at, to welcome, to delight in, to greet with joy"
       },
       {
         "i": 8,
@@ -2235,7 +2245,8 @@ window.GITA_VERSES = [
             "form": "√dviṣ",
             "gloss": "to hate, recoil from"
           }
-        ]
+        ],
+        "rootGloss": "to hate, to dislike, to be hostile to, to recoil from"
       },
       {
         "i": 10,
@@ -2271,7 +2282,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "prajñā",
-            "gloss": "wisdom, insight"
+            "gloss": "wisdom, insight, discernment, understanding"
           }
         ]
       },
@@ -2296,7 +2307,8 @@ window.GITA_VERSES = [
             "form": "√sthā",
             "gloss": "to stand, be set"
           }
-        ]
+        ],
+        "rootGloss": "to stand firm, to be established, to rest upon, to be founded"
       }
     ],
     "grammar": {
@@ -2348,7 +2360,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "priya",
-                "gloss": "dear"
+                "gloss": "the dear, the pleasant, the agreeable, the beloved"
               }
             ],
             "morph": "loc. pl. neut."
@@ -2368,7 +2380,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "sneha",
-                "gloss": "affection"
+                "gloss": "affection, fondness, tenderness; attachment, stickiness"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -2401,15 +2413,15 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "priya",
-                "gloss": "the dear"
+                "gloss": "the dear, the pleasant, the agreeable, the beloved"
               },
               {
                 "form": "saṃśleṣa",
-                "gloss": "union"
+                "gloss": "union, close contact, conjunction, embrace"
               },
               {
                 "form": "viśleṣa",
-                "gloss": "separation"
+                "gloss": "separation, disjunction, parting"
               },
               {
                 "form": "rūpa",
@@ -2461,7 +2473,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "dveṣa",
-                "gloss": "aversion"
+                "gloss": "aversion, dislike, hatred, repulsion"
               },
               {
                 "form": "rahita",
@@ -2505,7 +2517,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "prajña",
-                "gloss": "wisdom"
+                "gloss": "wisdom, discernment, insight, understanding"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -2593,7 +2605,8 @@ window.GITA_VERSES = [
             "form": "√hṛ",
             "gloss": "to draw, take"
           }
-        ]
+        ],
+        "rootGloss": "to draw together, to withdraw, to gather in, to retract"
       },
       {
         "i": 3,
@@ -2629,7 +2642,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "kūrma",
-            "gloss": "tortoise"
+            "gloss": "tortoise, turtle"
           }
         ]
       },
@@ -2648,7 +2661,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "aṅga",
-            "gloss": "limb"
+            "gloss": "limb, member, part of the body"
           }
         ]
       },
@@ -2709,7 +2722,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "indriya",
-            "gloss": "sense, sense-faculty"
+            "gloss": "sense-faculty, sense-organ; power, faculty"
           }
         ]
       },
@@ -2736,7 +2749,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "indriya",
-            "gloss": "sense"
+            "gloss": "sense-faculty, sense-organ; power, faculty"
           },
           {
             "form": "artha",
@@ -2778,7 +2791,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "prajñā",
-            "gloss": "wisdom, insight"
+            "gloss": "wisdom, insight, discernment, understanding"
           }
         ]
       },
@@ -2803,7 +2816,8 @@ window.GITA_VERSES = [
             "form": "√sthā",
             "gloss": "to stand, be set"
           }
-        ]
+        ],
+        "rootGloss": "to stand firm, to be established, to rest upon, to be founded"
       }
     ],
     "grammar": {
@@ -2839,7 +2853,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "nom. pl. neut.",
@@ -2852,7 +2866,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "artha",
@@ -2924,7 +2938,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kūrma",
-                "gloss": "tortoise"
+                "gloss": "tortoise, turtle"
               }
             ],
             "morph": "nom. sg. masc."
@@ -2936,7 +2950,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "aṅga",
-                "gloss": "limb"
+                "gloss": "limb, member, part of the body"
               }
             ],
             "morph": "acc. pl. neut."
@@ -2959,7 +2973,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "artha",
@@ -3011,7 +3025,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "acc. sg. neut.",
@@ -3024,7 +3038,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātman",
-                "gloss": "the self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -3084,7 +3098,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "prajña",
-                "gloss": "wisdom"
+                "gloss": "wisdom, discernment, insight, understanding"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -3124,11 +3138,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "jñāna",
-                "gloss": "knowledge"
+                "gloss": "knowledge, cognition, knowing, understanding"
               },
               {
                 "form": "niṣṭhā",
-                "gloss": "steadfastness"
+                "gloss": "steadfastness, firm standing, devotion, settled state"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -3213,7 +3227,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "viṣaya",
-            "gloss": "sense-object"
+            "gloss": "sense-object, object of perception; domain, sphere, range"
           }
         ]
       },
@@ -3242,7 +3256,8 @@ window.GITA_VERSES = [
             "form": "√vṛt",
             "gloss": "to turn"
           }
-        ]
+        ],
+        "rootGloss": "to turn away, to cease, to desist, to withdraw entirely"
       },
       {
         "i": 2,
@@ -3270,7 +3285,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "āhāra",
-            "gloss": "food, intake"
+            "gloss": "food, intake, nourishment; that which is taken in"
           }
         ]
       },
@@ -3289,7 +3304,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "dehin",
-            "gloss": "the embodied one"
+            "gloss": "the embodied one, the soul that bears a body, the self in the body"
           }
         ]
       },
@@ -3316,7 +3331,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "rasa",
-            "gloss": "relish, taste"
+            "gloss": "taste, flavor; relish, liking, savor; the lingering inclination"
           },
           {
             "form": "varjam",
@@ -3328,7 +3343,7 @@ window.GITA_VERSES = [
         "i": 5,
         "deva": "रसः",
         "iast": "rasaḥ",
-        "gloss": "relish, the taste / hankering (for objects); here glossed by Rāmānuja as rāga",
+        "gloss": "relish, taste; hankering (for objects)",
         "stem": "rasa",
         "root": null,
         "affix": "su (prathamā ekavacana)",
@@ -3339,7 +3354,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "rasa",
-            "gloss": "relish, hankering"
+            "gloss": "taste, flavor; relish, liking, savor; the lingering inclination"
           }
         ]
       },
@@ -3417,7 +3432,8 @@ window.GITA_VERSES = [
             "form": "√dṛś",
             "gloss": "to see"
           }
-        ]
+        ],
+        "rootGloss": "to see, to behold, to look at, to perceive"
       },
       {
         "i": 10,
@@ -3440,7 +3456,8 @@ window.GITA_VERSES = [
             "form": "√vṛt",
             "gloss": "to turn"
           }
-        ]
+        ],
+        "rootGloss": "to turn back, to cease, to desist, to withdraw, to come to rest"
       }
     ],
     "grammar": {
@@ -3465,7 +3482,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "gen. pl. neut.",
@@ -3498,7 +3515,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "nom. pl. masc.",
@@ -3515,7 +3532,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "āhāra",
-                "gloss": "food"
+                "gloss": "food, intake, nourishment; that which is taken in"
               }
             ],
             "morph": "gen. sg. masc."
@@ -3527,7 +3544,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "abl. pl. masc.",
@@ -3552,7 +3569,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -3565,7 +3582,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "deha",
-                "gloss": "body"
+                "gloss": "body, the physical frame, bodily form"
               },
               {
                 "form": "-in",
@@ -3582,7 +3599,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "nom. pl. masc.",
@@ -3619,7 +3636,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "rasa",
-                "gloss": "relish, taste"
+                "gloss": "taste, flavor; relish, liking, savor; the lingering inclination"
               },
               {
                 "form": "varja",
@@ -3656,7 +3673,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "rasa",
-                "gloss": "relish, taste"
+                "gloss": "taste, flavor; relish, liking, savor; the lingering inclination"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -3665,11 +3682,11 @@ window.GITA_VERSES = [
           {
             "i": 12,
             "iast": "rāgaḥ",
-            "gloss": "is passion",
+            "gloss": "is rāga",
             "parts": [
               {
                 "form": "rāga",
-                "gloss": "passion"
+                "gloss": "coloring, hue; attachment, attraction; passion"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -3678,15 +3695,15 @@ window.GITA_VERSES = [
           {
             "i": 13,
             "iast": "viṣayarāgaḥ",
-            "gloss": "passion for the objects",
+            "gloss": "rāga for the objects",
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "rāga",
-                "gloss": "passion"
+                "gloss": "coloring, hue; attachment, attraction; passion"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -3745,11 +3762,11 @@ window.GITA_VERSES = [
           {
             "i": 18,
             "iast": "rāgaḥ",
-            "gloss": "passion",
+            "gloss": "rāga",
             "parts": [
               {
                 "form": "rāga",
-                "gloss": "passion"
+                "gloss": "coloring, hue; attachment, attraction; passion"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -3773,11 +3790,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "svarūpa",
-                "gloss": "own-nature"
+                "gloss": "own-form, own-nature, true essence, intrinsic nature"
               }
             ],
             "morph": "acc. sg. neut.",
@@ -3790,7 +3807,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "abl. pl. masc.",
@@ -3815,7 +3832,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "sukha",
-                "gloss": "happiness"
+                "gloss": "pleasure, happiness, ease, comfort, joy"
               },
               {
                 "form": "-tara",
@@ -3901,7 +3918,8 @@ window.GITA_VERSES = [
             "form": "√yat",
             "gloss": "to strive, exert"
           }
-        ]
+        ],
+        "rootGloss": "to strive, to exert oneself, to endeavour, to make effort"
       },
       {
         "i": 1,
@@ -3979,7 +3997,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "puruṣa",
-            "gloss": "man, person"
+            "gloss": "man, person; the spirit, the conscious self"
           }
         ]
       },
@@ -3998,7 +4016,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "vipaścit",
-            "gloss": "discerning, wise"
+            "gloss": "discerning, wise, learned, sagacious"
           }
         ]
       },
@@ -4017,7 +4035,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "indriya",
-            "gloss": "sense"
+            "gloss": "sense-faculty, sense-organ; power, faculty"
           }
         ]
       },
@@ -4042,7 +4060,8 @@ window.GITA_VERSES = [
             "form": "√math",
             "gloss": "to churn, agitate"
           }
-        ]
+        ],
+        "rootGloss": "to churn violently, to agitate, to stir up, to shatter"
       },
       {
         "i": 8,
@@ -4061,7 +4080,8 @@ window.GITA_VERSES = [
             "form": "√hṛ",
             "gloss": "to carry off, snatch"
           }
-        ]
+        ],
+        "rootGloss": "to take, to carry, to bear; to carry off, to seize, to draw"
       },
       {
         "i": 9,
@@ -4097,7 +4117,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "manas",
-            "gloss": "mind"
+            "gloss": "mind; the inner organ of thought and doubt"
           }
         ]
       }
@@ -4124,11 +4144,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "darśana",
-                "gloss": "vision, beholding"
+                "gloss": "seeing, sight, vision, beholding; insight"
               }
             ],
             "morph": "instr. sg. neut.",
@@ -4152,11 +4172,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "rāga",
-                "gloss": "passion"
+                "gloss": "coloring, hue; attachment, attraction; passion"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -4216,11 +4236,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "rāga",
-                "gloss": "passion"
+                "gloss": "coloring, hue; attachment, attraction; passion"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -4233,7 +4253,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "vipaścit",
-                "gloss": "wise, discerning"
+                "gloss": "discerning, wise, learned, sagacious"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -4273,7 +4293,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "puruṣa",
-                "gloss": "man, person"
+                "gloss": "man, person; the spirit, the conscious self"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -4286,7 +4306,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "nom. pl. neut.",
@@ -4319,7 +4339,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "bala",
-                "gloss": "strength"
+                "gloss": "strength, power, force, might"
               },
               {
                 "form": "-vat",
@@ -4335,7 +4355,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "acc. sg. neut.",
@@ -4387,11 +4407,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "jaya",
-                "gloss": "conquest, mastery"
+                "gloss": "conquest, victory, mastery, winning"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -4404,11 +4424,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "darśana",
-                "gloss": "vision"
+                "gloss": "seeing, sight, vision, beholding; insight"
               },
               {
                 "form": "adhīna",
@@ -4425,11 +4445,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "darśana",
-                "gloss": "vision"
+                "gloss": "seeing, sight, vision, beholding; insight"
               }
             ],
             "morph": "nom. sg. neut.",
@@ -4442,11 +4462,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "jaya",
-                "gloss": "mastery"
+                "gloss": "conquest, victory, mastery, winning"
               },
               {
                 "form": "adhīna",
@@ -4474,11 +4494,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "jñāna",
-                "gloss": "knowledge"
+                "gloss": "knowledge, cognition, knowing, understanding"
               },
               {
                 "form": "niṣṭhā",
-                "gloss": "steadfastness"
+                "gloss": "steadfastness, firm standing, devotion, settled state"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -4587,7 +4607,8 @@ window.GITA_VERSES = [
             "form": "√yam",
             "gloss": "to restrain, hold"
           }
-        ]
+        ],
+        "rootGloss": "to hold in, to restrain fully, to control, to curb"
       },
       {
         "i": 3,
@@ -4606,7 +4627,8 @@ window.GITA_VERSES = [
             "form": "√yuj",
             "gloss": "to yoke, join"
           }
-        ]
+        ],
+        "rootGloss": "to yoke, to join, to unite, to harness, to engage"
       },
       {
         "i": 4,
@@ -4625,7 +4647,8 @@ window.GITA_VERSES = [
             "form": "√ās",
             "gloss": "to sit, remain"
           }
-        ]
+        ],
+        "rootGloss": "to sit, to remain, to abide, to stay, to dwell"
       },
       {
         "i": 5,
@@ -4730,7 +4753,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "indriya",
-            "gloss": "sense"
+            "gloss": "sense-faculty, sense-organ; power, faculty"
           }
         ]
       },
@@ -4768,7 +4791,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "prajñā",
-            "gloss": "wisdom, insight"
+            "gloss": "wisdom, insight, discernment, understanding"
           }
         ]
       },
@@ -4793,7 +4816,8 @@ window.GITA_VERSES = [
             "form": "√sthā",
             "gloss": "to stand, be set"
           }
-        ]
+        ],
+        "rootGloss": "to stand firm, to be established, to rest upon, to be founded"
       }
     ],
     "grammar": {
@@ -4866,7 +4890,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "anurāga",
@@ -4895,7 +4919,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "jaya",
-                "gloss": "conquerable"
+                "gloss": "conquest, victory, mastery, winning"
               }
             ],
             "morph": "acc. pl. neut."
@@ -4907,7 +4931,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "acc. pl. neut.",
@@ -4936,7 +4960,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "cetas",
-                "gloss": "thinking faculty, mind"
+                "gloss": "mind, thought, the thinking faculty; awareness, heart"
               }
             ],
             "morph": "gen. sg. neut.",
@@ -4981,7 +5005,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "acc. sg. neut.",
@@ -5046,7 +5070,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "loc. sg. neut.",
@@ -5063,7 +5087,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "viṣaya",
-                "gloss": "object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -5100,7 +5124,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "kalmaṣa",
-                "gloss": "taint, stain"
+                "gloss": "taint, stain, impurity, defilement"
               },
               {
                 "form": "-tā",
@@ -5132,7 +5156,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "anurāga",
@@ -5153,7 +5177,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "nom. sg. neut.",
@@ -5166,7 +5190,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "acc. pl. neut.",
@@ -5222,7 +5246,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "nom. sg. neut.",
@@ -5235,7 +5259,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "nom. sg. neut.",
@@ -5248,11 +5272,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "darśana",
-                "gloss": "vision"
+                "gloss": "seeing, sight, vision, beholding; insight"
               }
             ],
             "morph": "dat. sg. neut.",
@@ -5308,7 +5332,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "agni",
-                "gloss": "fire"
+                "gloss": "fire, flame"
               }
             ],
             "morph": "nom. sg. masc."
@@ -5364,7 +5388,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "anila",
-                "gloss": "wind"
+                "gloss": "wind, air, breeze"
               }
             ],
             "morph": "nom. sg. masc."
@@ -5387,7 +5411,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "citta",
-                "gloss": "mind"
+                "gloss": "mind, thought, attention, the reflecting faculty"
               },
               {
                 "form": "sthita",
@@ -5417,7 +5441,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "yogin",
-                "gloss": "yogin"
+                "gloss": "yogin, one who is yoked; an adept in yoga"
               }
             ],
             "morph": "gen. pl. masc.",
@@ -5434,7 +5458,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "kilbiṣa",
-                "gloss": "sin, taint"
+                "gloss": "taint, stain, fault; sin, defilement"
               }
             ],
             "morph": "acc. sg. neut."
@@ -5516,7 +5540,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "nom. pl. neut.",
@@ -5541,7 +5565,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "prajñā",
-                "gloss": "wisdom, insight"
+                "gloss": "wisdom, insight, discernment, understanding"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -5643,7 +5667,8 @@ window.GITA_VERSES = [
             "form": "√dhyai",
             "gloss": "to dwell on, brood over"
           }
-        ]
+        ],
+        "rootGloss": "to meditate on, to brood over, to contemplate, to dwell upon"
       },
       {
         "i": 1,
@@ -5660,7 +5685,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "viṣaya",
-            "gloss": "sense-object"
+            "gloss": "sense-object, object of perception; domain, sphere, range"
           }
         ]
       },
@@ -5679,7 +5704,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "puṃs",
-            "gloss": "man, person"
+            "gloss": "man, male, person; the spirit"
           }
         ]
       },
@@ -5698,9 +5723,10 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "saṅga",
-            "gloss": "attachment, clinging"
+            "gloss": "attachment, clinging, contact, association"
           }
-        ]
+        ],
+        "rootGloss": "to cling, to adhere, to attach, to be attached to"
       },
       {
         "i": 4,
@@ -5742,7 +5768,8 @@ window.GITA_VERSES = [
             "form": "√jan",
             "gloss": "to be born, arise"
           }
-        ]
+        ],
+        "rootGloss": "to arise, to spring up, to be produced near, to come into being"
       },
       {
         "i": 6,
@@ -5759,9 +5786,10 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "saṅga",
-            "gloss": "attachment, clinging"
+            "gloss": "attachment, clinging, contact, association"
           }
-        ]
+        ],
+        "rootGloss": "to cling, to adhere, to attach, to be attached to"
       },
       {
         "i": 7,
@@ -5784,7 +5812,8 @@ window.GITA_VERSES = [
             "form": "√jan",
             "gloss": "to be born, arise"
           }
-        ]
+        ],
+        "rootGloss": "to arise, to be produced, to come into being together"
       },
       {
         "i": 8,
@@ -5801,7 +5830,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "kāma",
-            "gloss": "desire"
+            "gloss": "desire, longing, wish; the wish for an object"
           }
         ]
       },
@@ -5820,7 +5849,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "kāma",
-            "gloss": "desire"
+            "gloss": "desire, longing, wish; the wish for an object"
           }
         ]
       },
@@ -5841,7 +5870,8 @@ window.GITA_VERSES = [
             "form": "√krudh",
             "gloss": "to be angry"
           }
-        ]
+        ],
+        "rootGloss": "to be angry, to be wrathful, to rage"
       },
       {
         "i": 11,
@@ -5864,7 +5894,8 @@ window.GITA_VERSES = [
             "form": "√jan",
             "gloss": "to be born, arise"
           }
-        ]
+        ],
+        "rootGloss": "to be born, to arise, to spring up, to come forth"
       }
     ],
     "grammar": {
@@ -5897,7 +5928,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "anurāga",
@@ -5945,7 +5976,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -5958,7 +5989,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "acc. pl. neut.",
@@ -6022,11 +6053,11 @@ window.GITA_VERSES = [
               },
               {
                 "form": "pāpa",
-                "gloss": "evil"
+                "gloss": "evil, wrong, harm; sin, misdeed"
               },
               {
                 "form": "vāsanā",
-                "gloss": "latent tendency"
+                "gloss": "latent tendency, mental impression, predisposition, residual inclination"
               }
             ],
             "morph": "instr. sg. fem.",
@@ -6039,7 +6070,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "dhyāna",
@@ -6100,7 +6131,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "acc. pl. masc.",
@@ -6113,7 +6144,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "puṃs",
-                "gloss": "man"
+                "gloss": "man, male, person; the spirit"
               }
             ],
             "morph": "gen. sg. masc."
@@ -6147,7 +6178,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "saṅga",
-                "gloss": "attachment, clinging"
+                "gloss": "attachment, clinging, contact, association"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6188,7 +6219,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "saṅga",
-                "gloss": "attachment"
+                "gloss": "attachment, clinging, contact, association"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -6217,7 +6248,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6230,7 +6261,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6254,7 +6285,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "saṅga",
-                "gloss": "attachment"
+                "gloss": "attachment, clinging, contact, association"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -6271,7 +6302,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "daśā",
-                "gloss": "state, condition"
+                "gloss": "state, condition, stage, circumstance"
               }
             ],
             "morph": "nom. sg. fem."
@@ -6283,7 +6314,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "puruṣa",
-                "gloss": "man, person"
+                "gloss": "man, person; the spirit, the conscious self"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6308,7 +6339,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "daśā",
-                "gloss": "state, condition"
+                "gloss": "state, condition, stage, circumstance"
               }
             ],
             "morph": "acc. sg. fem."
@@ -6336,7 +6367,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "acc. pl. masc.",
@@ -6420,7 +6451,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6433,7 +6464,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -6446,7 +6477,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger"
+                "gloss": "anger, wrath, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6475,7 +6506,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -6504,7 +6535,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -6556,7 +6587,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "puruṣa",
-                "gloss": "man, person"
+                "gloss": "man, person; the spirit, the conscious self"
               }
             ],
             "morph": "acc. pl. masc.",
@@ -6596,7 +6627,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "iṣṭa",
-                "gloss": "wished, desired"
+                "gloss": "wished, desired, sought, cherished"
               }
             ],
             "morph": "nom. sg. neut."
@@ -6635,7 +6666,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger"
+                "gloss": "anger, wrath, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6660,7 +6691,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger"
+                "gloss": "anger, wrath, rage, indignation"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -6689,7 +6720,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "moha",
-                "gloss": "delusion"
+                "gloss": "delusion, bewilderment, confusion, infatuation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6706,7 +6737,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "moha",
-                "gloss": "delusion"
+                "gloss": "delusion, bewilderment, confusion, infatuation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6727,7 +6758,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "viveka",
-                "gloss": "discrimination"
+                "gloss": "discrimination, discernment, judgment, right distinction"
               },
               {
                 "form": "śūnyatā",
@@ -6822,11 +6853,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "jaya",
-                "gloss": "mastery"
+                "gloss": "conquest, victory, mastery, winning"
               },
               {
                 "form": "ādi",
@@ -6847,7 +6878,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "yatna",
-                "gloss": "effort"
+                "gloss": "effort, exertion, endeavour, striving"
               }
             ],
             "morph": "loc. sg. masc."
@@ -6859,11 +6890,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "smṛti",
-                "gloss": "memory"
+                "gloss": "memory, recollection, remembrance, mindfulness"
               },
               {
                 "form": "bhraṃśa",
-                "gloss": "falling away, lapse"
+                "gloss": "falling away, lapse, slipping, loss, downfall"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6888,11 +6919,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "smṛti",
-                "gloss": "memory"
+                "gloss": "memory, recollection, remembrance, mindfulness"
               },
               {
                 "form": "bhraṃśa",
-                "gloss": "lapse"
+                "gloss": "falling away, lapse, slipping, loss, downfall"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -6905,11 +6936,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               },
               {
                 "form": "nāśa",
-                "gloss": "destruction"
+                "gloss": "destruction, loss, ruin, perishing, disappearance"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6922,11 +6953,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "jñāna",
-                "gloss": "knowledge"
+                "gloss": "knowledge, cognition, knowing, understanding"
               }
             ],
             "morph": "loc. sg. neut.",
@@ -7003,7 +7034,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "nāśa",
-                "gloss": "destruction, loss"
+                "gloss": "destruction, loss, ruin, perishing, disappearance"
               }
             ],
             "morph": "nom. sg. masc."
@@ -7027,11 +7058,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               },
               {
                 "form": "nāśa",
-                "gloss": "destruction"
+                "gloss": "destruction, loss, ruin, perishing, disappearance"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -7066,7 +7097,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "saṃsāra",
-                "gloss": "the round of rebirth"
+                "gloss": "the round of rebirth, the cycle of existence, transmigration"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -7161,7 +7192,8 @@ window.GITA_VERSES = [
             "form": "√krudh",
             "gloss": "to be angry"
           }
-        ]
+        ],
+        "rootGloss": "to be angry, to be wrathful, to rage"
       },
       {
         "i": 1,
@@ -7180,7 +7212,8 @@ window.GITA_VERSES = [
             "form": "√bhū",
             "gloss": "to become, arise"
           }
-        ]
+        ],
+        "rootGloss": "to be, to become, to come into being, to arise"
       },
       {
         "i": 2,
@@ -7203,7 +7236,8 @@ window.GITA_VERSES = [
             "form": "√muh",
             "gloss": "to be deluded"
           }
-        ]
+        ],
+        "rootGloss": "to be utterly deluded, to be bewildered, to be confounded"
       },
       {
         "i": 3,
@@ -7226,7 +7260,8 @@ window.GITA_VERSES = [
             "form": "√muh",
             "gloss": "to be deluded"
           }
-        ]
+        ],
+        "rootGloss": "to be utterly deluded, to be bewildered, to be confounded"
       },
       {
         "i": 4,
@@ -7251,7 +7286,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "smṛti",
-            "gloss": "memory"
+            "gloss": "memory, recollection, remembrance, mindfulness"
           },
           {
             "form": "vibhrama",
@@ -7282,11 +7317,11 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "smṛti",
-            "gloss": "memory"
+            "gloss": "memory, recollection, remembrance, mindfulness"
           },
           {
             "form": "bhraṃśa",
-            "gloss": "collapse, loss"
+            "gloss": "falling away, lapse, slipping, loss, downfall"
           }
         ]
       },
@@ -7313,11 +7348,11 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "buddhi",
-            "gloss": "intellect"
+            "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
           },
           {
             "form": "nāśa",
-            "gloss": "destruction, ruin"
+            "gloss": "destruction, loss, ruin, perishing, disappearance"
           }
         ]
       },
@@ -7344,11 +7379,11 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "buddhi",
-            "gloss": "intellect"
+            "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
           },
           {
             "form": "nāśa",
-            "gloss": "destruction, ruin"
+            "gloss": "destruction, loss, ruin, perishing, disappearance"
           }
         ]
       },
@@ -7373,7 +7408,8 @@ window.GITA_VERSES = [
             "form": "√naś",
             "gloss": "to perish, be lost"
           }
-        ]
+        ],
+        "rootGloss": "to perish utterly, to be lost, to vanish, to be destroyed"
       }
     ],
     "grammar": {
@@ -7406,7 +7442,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "anurāga",
@@ -7454,7 +7490,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -7467,7 +7503,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "acc. pl. neut.",
@@ -7531,11 +7567,11 @@ window.GITA_VERSES = [
               },
               {
                 "form": "pāpa",
-                "gloss": "evil"
+                "gloss": "evil, wrong, harm; sin, misdeed"
               },
               {
                 "form": "vāsanā",
-                "gloss": "latent tendency"
+                "gloss": "latent tendency, mental impression, predisposition, residual inclination"
               }
             ],
             "morph": "instr. sg. fem.",
@@ -7548,7 +7584,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "dhyāna",
@@ -7609,7 +7645,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "acc. pl. masc.",
@@ -7622,7 +7658,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "puṃs",
-                "gloss": "man"
+                "gloss": "man, male, person; the spirit"
               }
             ],
             "morph": "gen. sg. masc."
@@ -7656,7 +7692,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "saṅga",
-                "gloss": "attachment, clinging"
+                "gloss": "attachment, clinging, contact, association"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -7697,7 +7733,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "saṅga",
-                "gloss": "attachment"
+                "gloss": "attachment, clinging, contact, association"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -7726,7 +7762,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -7739,7 +7775,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -7763,7 +7799,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "saṅga",
-                "gloss": "attachment"
+                "gloss": "attachment, clinging, contact, association"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -7780,7 +7816,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "daśā",
-                "gloss": "state, condition"
+                "gloss": "state, condition, stage, circumstance"
               }
             ],
             "morph": "nom. sg. fem."
@@ -7792,7 +7828,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "puruṣa",
-                "gloss": "man, person"
+                "gloss": "man, person; the spirit, the conscious self"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -7817,7 +7853,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "daśā",
-                "gloss": "state, condition"
+                "gloss": "state, condition, stage, circumstance"
               }
             ],
             "morph": "acc. sg. fem."
@@ -7845,7 +7881,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "acc. pl. masc.",
@@ -7929,7 +7965,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -7942,7 +7978,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -7955,7 +7991,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger"
+                "gloss": "anger, wrath, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -7984,7 +8020,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -8013,7 +8049,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -8065,7 +8101,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "puruṣa",
-                "gloss": "man, person"
+                "gloss": "man, person; the spirit, the conscious self"
               }
             ],
             "morph": "acc. pl. masc.",
@@ -8105,7 +8141,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "iṣṭa",
-                "gloss": "wished, desired"
+                "gloss": "wished, desired, sought, cherished"
               }
             ],
             "morph": "nom. sg. neut."
@@ -8144,7 +8180,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger"
+                "gloss": "anger, wrath, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -8169,7 +8205,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger"
+                "gloss": "anger, wrath, rage, indignation"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -8198,7 +8234,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "moha",
-                "gloss": "delusion"
+                "gloss": "delusion, bewilderment, confusion, infatuation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -8215,7 +8251,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "moha",
-                "gloss": "delusion"
+                "gloss": "delusion, bewilderment, confusion, infatuation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -8236,7 +8272,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "viveka",
-                "gloss": "discrimination"
+                "gloss": "discrimination, discernment, judgment, right distinction"
               },
               {
                 "form": "śūnyatā",
@@ -8331,11 +8367,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "jaya",
-                "gloss": "mastery"
+                "gloss": "conquest, victory, mastery, winning"
               },
               {
                 "form": "ādi",
@@ -8356,7 +8392,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "yatna",
-                "gloss": "effort"
+                "gloss": "effort, exertion, endeavour, striving"
               }
             ],
             "morph": "loc. sg. masc."
@@ -8368,11 +8404,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "smṛti",
-                "gloss": "memory"
+                "gloss": "memory, recollection, remembrance, mindfulness"
               },
               {
                 "form": "bhraṃśa",
-                "gloss": "falling away, lapse"
+                "gloss": "falling away, lapse, slipping, loss, downfall"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -8397,11 +8433,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "smṛti",
-                "gloss": "memory"
+                "gloss": "memory, recollection, remembrance, mindfulness"
               },
               {
                 "form": "bhraṃśa",
-                "gloss": "lapse"
+                "gloss": "falling away, lapse, slipping, loss, downfall"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -8414,11 +8450,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               },
               {
                 "form": "nāśa",
-                "gloss": "destruction"
+                "gloss": "destruction, loss, ruin, perishing, disappearance"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -8431,11 +8467,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "jñāna",
-                "gloss": "knowledge"
+                "gloss": "knowledge, cognition, knowing, understanding"
               }
             ],
             "morph": "loc. sg. neut.",
@@ -8512,7 +8548,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "nāśa",
-                "gloss": "destruction, loss"
+                "gloss": "destruction, loss, ruin, perishing, disappearance"
               }
             ],
             "morph": "nom. sg. masc."
@@ -8536,11 +8572,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               },
               {
                 "form": "nāśa",
-                "gloss": "destruction"
+                "gloss": "destruction, loss, ruin, perishing, disappearance"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -8575,7 +8611,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "saṃsāra",
-                "gloss": "the round of rebirth"
+                "gloss": "the round of rebirth, the cycle of existence, transmigration"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -8677,11 +8713,11 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "rāga",
-            "gloss": "attraction, passion"
+            "gloss": "coloring, hue; attachment, attraction; passion"
           },
           {
             "form": "dveṣa",
-            "gloss": "aversion, hatred"
+            "gloss": "aversion, dislike, hatred, repulsion"
           },
           {
             "form": "viyukta",
@@ -8735,7 +8771,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "ātman",
-            "gloss": "self, mind"
+            "gloss": "the self, the inner self; soul, spirit; oneself"
           }
         ]
       },
@@ -8754,7 +8790,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "indriya",
-            "gloss": "sense"
+            "gloss": "sense-faculty, sense-organ; power, faculty"
           }
         ]
       },
@@ -8773,7 +8809,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "viṣaya",
-            "gloss": "sense-object"
+            "gloss": "sense-object, object of perception; domain, sphere, range"
           }
         ]
       },
@@ -8794,7 +8830,8 @@ window.GITA_VERSES = [
             "form": "√car",
             "gloss": "to move, engage"
           }
-        ]
+        ],
+        "rootGloss": "to move, to go, to roam, to engage in, to practice"
       },
       {
         "i": 7,
@@ -8819,7 +8856,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "ātman",
-            "gloss": "self"
+            "gloss": "the self, the inner self; soul, spirit; oneself"
           },
           {
             "form": "vaśya",
@@ -8848,7 +8885,8 @@ window.GITA_VERSES = [
             "form": "√sad",
             "gloss": "to settle, grow clear"
           }
-        ]
+        ],
+        "rootGloss": "to settle, to grow clear, to become serene, to be gracious"
       },
       {
         "i": 9,
@@ -8871,7 +8909,8 @@ window.GITA_VERSES = [
             "form": "√gam",
             "gloss": "to go, attain"
           }
-        ]
+        ],
+        "rootGloss": "to go to, to reach, to attain, to find, to obtain"
       }
     ],
     "grammar": {
@@ -8949,7 +8988,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "cetas",
-                "gloss": "thinking faculty, mind"
+                "gloss": "mind, thought, the thinking faculty; awareness, heart"
               }
             ],
             "morph": "gen. sg. neut.",
@@ -8986,7 +9025,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -9007,7 +9046,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "kalmaṣa",
-                "gloss": "taint"
+                "gloss": "taint, stain, impurity, defilement"
               },
               {
                 "form": "-tā",
@@ -9023,11 +9062,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "rāga",
-                "gloss": "attraction"
+                "gloss": "coloring, hue; attachment, attraction; passion"
               },
               {
                 "form": "dveṣa",
-                "gloss": "aversion"
+                "gloss": "aversion, dislike, hatred, repulsion"
               },
               {
                 "form": "viyukta",
@@ -9044,7 +9083,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "vaśya",
@@ -9060,7 +9099,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "instr. pl. neut.",
@@ -9073,7 +9112,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "acc. pl. masc.",
@@ -9102,7 +9141,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "acc. pl. masc.",
@@ -9151,7 +9190,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "ātman",
-                "gloss": "self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -9168,7 +9207,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -9181,7 +9220,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "prasāda",
-                "gloss": "serenity, grace"
+                "gloss": "clearness, serenity, calm; grace, favor"
               }
             ],
             "morph": "acc. sg. masc.",
@@ -9304,7 +9343,8 @@ window.GITA_VERSES = [
             "form": "√sad",
             "gloss": "to settle, grow clear"
           }
-        ]
+        ],
+        "rootGloss": "to settle, to grow clear, to become serene, to be gracious"
       },
       {
         "i": 1,
@@ -9333,7 +9373,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "duḥkha",
-            "gloss": "sorrow, pain"
+            "gloss": "sorrow, pain, suffering, distress"
           }
         ]
       },
@@ -9354,7 +9394,8 @@ window.GITA_VERSES = [
             "form": "√hā",
             "gloss": "to leave, cease"
           }
-        ]
+        ],
+        "rootGloss": "to abandon, to leave, to forsake, to cast off, to give up"
       },
       {
         "i": 4,
@@ -9396,7 +9437,8 @@ window.GITA_VERSES = [
             "form": "√jan",
             "gloss": "to be born, arise"
           }
-        ]
+        ],
+        "rootGloss": "to arise, to spring up, to be produced near, to come into being"
       },
       {
         "i": 6,
@@ -9440,11 +9482,11 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "prasanna",
-            "gloss": "clear, serene"
+            "gloss": "clear, serene, tranquil, gracious, bright"
           },
           {
             "form": "cetas",
-            "gloss": "mind, thought"
+            "gloss": "mind, thought, the thinking faculty; awareness, heart"
           }
         ]
       },
@@ -9484,7 +9526,8 @@ window.GITA_VERSES = [
             "form": "√budh",
             "gloss": "to wake, know (intellect)"
           }
-        ]
+        ],
+        "rootGloss": "to wake, to be awake; to know, to perceive, to understand"
       },
       {
         "i": 11,
@@ -9511,7 +9554,8 @@ window.GITA_VERSES = [
             "form": "√sthā",
             "gloss": "to stand, be set"
           }
-        ]
+        ],
+        "rootGloss": "to stand all around, to be firmly fixed, to be established"
       }
     ],
     "grammar": {
@@ -9548,7 +9592,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "puruṣa",
-                "gloss": "man, person"
+                "gloss": "man, person; the spirit, the conscious self"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -9561,11 +9605,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               },
               {
                 "form": "prasāda",
-                "gloss": "serenity"
+                "gloss": "clearness, serenity, calm; grace, favor"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -9594,11 +9638,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "prakṛti",
-                "gloss": "primordial nature"
+                "gloss": "primordial nature, the material principle, the original substance"
               },
               {
                 "form": "saṃsarga",
-                "gloss": "contact"
+                "gloss": "contact, association, union, conjunction"
               },
               {
                 "form": "prayukta",
@@ -9610,7 +9654,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "duḥkha",
-                "gloss": "sorrow"
+                "gloss": "sorrow, pain, suffering, distress"
               }
             ],
             "morph": "gen. pl. neut.",
@@ -9623,7 +9667,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "hāni",
-                "gloss": "cessation, loss"
+                "gloss": "loss, cessation, abandonment, diminution"
               }
             ],
             "morph": "nom. sg. fem."
@@ -9651,11 +9695,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "prasanna",
-                "gloss": "serene, clear"
+                "gloss": "clear, serene, tranquil, gracious, bright"
               },
               {
                 "form": "cetas",
-                "gloss": "mind"
+                "gloss": "mind, thought, the thinking faculty; awareness, heart"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -9668,7 +9712,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "avalokana",
@@ -9680,7 +9724,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "doṣa",
-                "gloss": "fault"
+                "gloss": "fault, flaw, defect, blemish"
               },
               {
                 "form": "rahita",
@@ -9688,7 +9732,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -9738,11 +9782,11 @@ window.GITA_VERSES = [
               },
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "viṣaya",
-                "gloss": "object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -9755,7 +9799,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -9799,11 +9843,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               },
               {
                 "form": "prasāda",
-                "gloss": "serenity"
+                "gloss": "clearness, serenity, calm; grace, favor"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -9820,7 +9864,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "duḥkha",
-                "gloss": "sorrow"
+                "gloss": "sorrow, pain, suffering, distress"
               }
             ],
             "morph": "gen. pl. neut.",
@@ -9833,7 +9877,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "hāni",
-                "gloss": "cessation, loss"
+                "gloss": "loss, cessation, abandonment, diminution"
               }
             ],
             "morph": "nom. sg. fem."
@@ -9910,7 +9954,8 @@ window.GITA_VERSES = [
             "form": "√as",
             "gloss": "to be, exist"
           }
-        ]
+        ],
+        "rootGloss": "to be, to exist, to live"
       },
       {
         "i": 1,
@@ -9929,7 +9974,8 @@ window.GITA_VERSES = [
             "form": "√budh",
             "gloss": "to wake, know (intellect)"
           }
-        ]
+        ],
+        "rootGloss": "to wake, to be awake; to know, to perceive, to understand"
       },
       {
         "i": 2,
@@ -9952,7 +9998,8 @@ window.GITA_VERSES = [
             "form": "√yuj",
             "gloss": "to yoke, join"
           }
-        ]
+        ],
+        "rootGloss": "to yoke, to join, to unite, to harness, to engage"
       },
       {
         "i": 3,
@@ -10013,7 +10060,8 @@ window.GITA_VERSES = [
             "form": "√yuj",
             "gloss": "to yoke, join"
           }
-        ]
+        ],
+        "rootGloss": "to yoke, to join, to unite, to harness, to engage"
       },
       {
         "i": 6,
@@ -10032,7 +10080,8 @@ window.GITA_VERSES = [
             "form": "√bhū",
             "gloss": "to cause to be, cultivate (here: contemplation)"
           }
-        ]
+        ],
+        "rootGloss": "to bring into being, to produce, to cultivate, to make become"
       },
       {
         "i": 7,
@@ -10093,7 +10142,8 @@ window.GITA_VERSES = [
             "form": "√bhū",
             "gloss": "to cultivate, contemplate"
           }
-        ]
+        ],
+        "rootGloss": "to bring into being, to produce, to cultivate, to make become"
       },
       {
         "i": 10,
@@ -10112,7 +10162,8 @@ window.GITA_VERSES = [
             "form": "√śam",
             "gloss": "to be calm, at peace"
           }
-        ]
+        ],
+        "rootGloss": "to be calm, to be at peace, to cease, to be quieted, to grow tranquil"
       },
       {
         "i": 11,
@@ -10135,7 +10186,8 @@ window.GITA_VERSES = [
             "form": "√śam",
             "gloss": "to be calm, at peace"
           }
-        ]
+        ],
+        "rootGloss": "to be calm, to be at peace, to cease, to be quieted, to grow tranquil"
       },
       {
         "i": 12,
@@ -10171,7 +10223,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "sukha",
-            "gloss": "happiness, ease"
+            "gloss": "pleasure, happiness, ease, comfort, joy"
           }
         ]
       }
@@ -10214,7 +10266,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               },
               {
                 "form": "rahita",
@@ -10235,7 +10287,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "yatna",
-                "gloss": "effort"
+                "gloss": "effort, exertion, endeavour, striving"
               }
             ],
             "morph": "instr. sg. masc."
@@ -10247,7 +10299,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "niyamana",
@@ -10306,11 +10358,11 @@ window.GITA_VERSES = [
               },
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "viṣaya",
-                "gloss": "object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -10323,7 +10375,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -10397,7 +10449,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "bhāvanā",
-                "gloss": "contemplation, cultivation"
+                "gloss": "contemplation, cultivation, calling to mind, mental dwelling"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -10452,7 +10504,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "ātman",
-                "gloss": "self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "acc. sg. masc.",
@@ -10481,15 +10533,15 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "spṛhā",
-                "gloss": "craving"
+                "gloss": "longing, craving, eager desire, yearning"
               },
               {
                 "form": "śānti",
-                "gloss": "peace"
+                "gloss": "peace, calm, tranquillity, quieting, stillness"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -10529,7 +10581,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "śānta",
-                "gloss": "at peace"
+                "gloss": "calmed, at peace, tranquil, quieted, serene"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -10542,11 +10594,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "spṛhā",
-                "gloss": "craving"
+                "gloss": "longing, craving, eager desire, yearning"
               },
               {
                 "form": "yukta",
@@ -10582,7 +10634,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "sukha",
-                "gloss": "happiness"
+                "gloss": "pleasure, happiness, ease, comfort, joy"
               },
               {
                 "form": "prāpti",
@@ -10629,7 +10681,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "indriya",
-            "gloss": "sense"
+            "gloss": "sense-faculty, sense-organ; power, faculty"
           }
         ]
       },
@@ -10669,7 +10721,8 @@ window.GITA_VERSES = [
             "form": "√car",
             "gloss": "to rove, move"
           }
-        ]
+        ],
+        "rootGloss": "to move, to go, to roam, to engage in, to practice"
       },
       {
         "i": 5,
@@ -10696,7 +10749,8 @@ window.GITA_VERSES = [
             "form": "√dhā",
             "gloss": "to set, direct"
           }
-        ]
+        ],
+        "rootGloss": "to arrange in order, to fix, to settle, to determine"
       },
       {
         "i": 6,
@@ -10732,7 +10786,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "manas",
-            "gloss": "mind"
+            "gloss": "mind; the inner organ of thought and doubt"
           }
         ]
       },
@@ -10791,7 +10845,8 @@ window.GITA_VERSES = [
             "form": "√hṛ",
             "gloss": "to carry off, seize"
           }
-        ]
+        ],
+        "rootGloss": "to take, to carry, to bear; to carry off, to seize, to draw"
       },
       {
         "i": 11,
@@ -10814,7 +10869,8 @@ window.GITA_VERSES = [
             "form": "√jñā",
             "gloss": "to know (wisdom)"
           }
-        ]
+        ],
+        "rootGloss": "to know thoroughly, to discern, to be wise, to understand fully"
       },
       {
         "i": 12,
@@ -10850,7 +10906,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "vāyu",
-            "gloss": "wind"
+            "gloss": "wind, air, the moving air"
           }
         ]
       },
@@ -10869,7 +10925,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "nau",
-            "gloss": "boat"
+            "gloss": "boat, ship, vessel"
           }
         ]
       },
@@ -10888,7 +10944,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "ambhas",
-            "gloss": "water"
+            "gloss": "water, the waters, flood"
           }
         ]
       }
@@ -10915,7 +10971,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "gen. pl. neut.",
@@ -10928,7 +10984,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "loc. pl. masc.",
@@ -11013,7 +11069,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "nom. sg. neut.",
@@ -11046,7 +11102,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "puruṣa",
-                "gloss": "man, person"
+                "gloss": "man, person; the spirit, the conscious self"
               }
             ],
             "morph": "instr. sg. masc.",
@@ -11092,7 +11148,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "nom. sg. neut.",
@@ -11121,7 +11177,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "pravaṇa",
@@ -11138,7 +11194,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "prajñā",
-                "gloss": "wisdom, insight"
+                "gloss": "wisdom, insight, discernment, understanding"
               }
             ],
             "morph": "acc. sg. fem.",
@@ -11163,7 +11219,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               },
               {
                 "form": "pravaṇa",
@@ -11226,7 +11282,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ambhas",
-                "gloss": "water"
+                "gloss": "water, the waters, flood"
               }
             ],
             "morph": "loc. sg. neut."
@@ -11254,7 +11310,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "nau",
-                "gloss": "boat, ship"
+                "gloss": "boat, ship, vessel"
               }
             ],
             "morph": "acc. sg. fem."
@@ -11270,7 +11326,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "kūla",
-                "gloss": "bank, side"
+                "gloss": "bank, shore, side, slope"
               }
             ],
             "morph": "nom. sg. masc."
@@ -11282,7 +11338,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "vāyu",
-                "gloss": "wind"
+                "gloss": "wind, air, the moving air"
               }
             ],
             "morph": "nom. sg. masc."
@@ -11413,7 +11469,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "bāhu",
-            "gloss": "arm"
+            "gloss": "arm, forearm"
           }
         ]
       },
@@ -11461,7 +11517,8 @@ window.GITA_VERSES = [
             "form": "√grah",
             "gloss": "to hold, restrain"
           }
-        ]
+        ],
+        "rootGloss": "to hold back, to restrain, to check, to curb"
       },
       {
         "i": 6,
@@ -11478,7 +11535,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "indriya",
-            "gloss": "sense"
+            "gloss": "sense-faculty, sense-organ; power, faculty"
           }
         ]
       },
@@ -11505,7 +11562,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "indriya",
-            "gloss": "sense"
+            "gloss": "sense-faculty, sense-organ; power, faculty"
           },
           {
             "form": "artha",
@@ -11553,7 +11610,8 @@ window.GITA_VERSES = [
             "form": "√jñā",
             "gloss": "to know (wisdom)"
           }
-        ]
+        ],
+        "rootGloss": "to know thoroughly, to discern, to be wise, to understand fully"
       },
       {
         "i": 10,
@@ -11576,7 +11634,8 @@ window.GITA_VERSES = [
             "form": "√sthā",
             "gloss": "to stand, be set"
           }
-        ]
+        ],
+        "rootGloss": "to stand firm, to be established, to rest upon, to be founded"
       }
     ],
     "grammar": {
@@ -11672,7 +11731,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -11697,7 +11756,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense-faculty"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               }
             ],
             "morph": "nom. pl. neut.",
@@ -11710,7 +11769,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "artha",
@@ -11781,7 +11840,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātman",
-                "gloss": "the self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -11794,7 +11853,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "prajñā",
-                "gloss": "wisdom, insight"
+                "gloss": "wisdom, insight, discernment, understanding"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -11965,7 +12024,8 @@ window.GITA_VERSES = [
             "form": "√jāgṛ",
             "gloss": "to be awake, keep watch"
           }
-        ]
+        ],
+        "rootGloss": "to be awake, to keep watch, to be vigilant"
       },
       {
         "i": 5,
@@ -11988,7 +12048,8 @@ window.GITA_VERSES = [
             "form": "√yam",
             "gloss": "to restrain (the controlled one)"
           }
-        ]
+        ],
+        "rootGloss": "to hold in, to restrain fully, to control, to curb"
       },
       {
         "i": 6,
@@ -12026,7 +12087,8 @@ window.GITA_VERSES = [
             "form": "√jāgṛ",
             "gloss": "to be awake"
           }
-        ]
+        ],
+        "rootGloss": "to be awake, to keep watch, to be vigilant"
       },
       {
         "i": 8,
@@ -12102,7 +12164,8 @@ window.GITA_VERSES = [
             "form": "√dṛś",
             "gloss": "to see (the seeing one)"
           }
-        ]
+        ],
+        "rootGloss": "to see, to behold, to look at, to perceive"
       },
       {
         "i": 12,
@@ -12119,7 +12182,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "muni",
-            "gloss": "sage, silent one"
+            "gloss": "sage, seer; the silent one, the contemplative"
           }
         ]
       }
@@ -12158,11 +12221,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "viṣaya",
-                "gloss": "object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -12175,7 +12238,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect, cognition"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -12243,7 +12306,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "prakāśa",
-                "gloss": "light, illumination"
+                "gloss": "light, radiance, illumination, brightness, clarity"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -12268,11 +12331,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "viṣaya",
-                "gloss": "object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "loc. sg. fem.",
@@ -12285,7 +12348,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect, cognition"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               }
             ],
             "morph": "loc. sg. fem.",
@@ -12298,7 +12361,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "saṃyamin",
@@ -12315,11 +12378,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "prasanna",
-                "gloss": "serene, clear"
+                "gloss": "clear, serene, tranquil, gracious, bright"
               },
               {
                 "form": "manas",
-                "gloss": "mind"
+                "gloss": "mind; the inner organ of thought and doubt"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -12344,7 +12407,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātman",
-                "gloss": "self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "acc. sg. masc.",
@@ -12424,7 +12487,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śabda",
-                "gloss": "sound"
+                "gloss": "word, sound, speech, utterance"
               },
               {
                 "form": "ādi",
@@ -12432,7 +12495,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "viṣaya",
-                "gloss": "object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "loc. sg. fem.",
@@ -12445,7 +12508,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect, cognition"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               }
             ],
             "morph": "loc. sg. fem.",
@@ -12534,7 +12597,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śabda",
-                "gloss": "sound"
+                "gloss": "word, sound, speech, utterance"
               },
               {
                 "form": "ādi",
@@ -12542,7 +12605,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "viṣaya",
-                "gloss": "object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -12555,7 +12618,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "intellect, cognition"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -12568,7 +12631,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātman",
-                "gloss": "self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "acc. sg. masc.",
@@ -12597,7 +12660,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "muni",
-                "gloss": "sage"
+                "gloss": "sage, seer; the silent one, the contemplative"
               }
             ],
             "morph": "gen. sg. masc.",
@@ -12637,7 +12700,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "prakāśa",
-                "gloss": "light, illumination"
+                "gloss": "light, radiance, illumination, brightness, clarity"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -12709,7 +12772,8 @@ window.GITA_VERSES = [
             "form": "√pṝ",
             "gloss": "to fill, be filled"
           }
-        ]
+        ],
+        "rootGloss": "to fill up, to make full, to fill completely"
       },
       {
         "i": 1,
@@ -12738,7 +12802,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "pratiṣṭhā",
-            "gloss": "foundation, standing"
+            "gloss": "foundation, firm standing, ground, establishment"
           }
         ]
       },
@@ -12757,7 +12821,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "samudra",
-            "gloss": "ocean"
+            "gloss": "ocean, sea, the gathered waters"
           }
         ]
       },
@@ -12776,7 +12840,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "ap",
-            "gloss": "water"
+            "gloss": "water, the waters"
           }
         ]
       },
@@ -12801,7 +12865,8 @@ window.GITA_VERSES = [
             "form": "√viś",
             "gloss": "to enter, flow into"
           }
-        ]
+        ],
+        "rootGloss": "to enter, to go into, to penetrate, to settle into"
       },
       {
         "i": 5,
@@ -12856,7 +12921,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "kāma",
-            "gloss": "desire"
+            "gloss": "desire, longing, wish; the wish for an object"
           }
         ]
       },
@@ -12900,7 +12965,8 @@ window.GITA_VERSES = [
             "form": "√viś",
             "gloss": "to enter"
           }
-        ]
+        ],
+        "rootGloss": "to enter, to go into, to penetrate, to settle into"
       },
       {
         "i": 10,
@@ -12957,7 +13023,8 @@ window.GITA_VERSES = [
             "form": "√śam",
             "gloss": "to be calm (peace)"
           }
-        ]
+        ],
+        "rootGloss": "to be calm, to be at peace, to cease, to be quieted, to grow tranquil"
       },
       {
         "i": 13,
@@ -12976,7 +13043,8 @@ window.GITA_VERSES = [
             "form": "√āp",
             "gloss": "to attain, obtain"
           }
-        ]
+        ],
+        "rootGloss": "to reach, to attain, to obtain, to gain, to pervade"
       },
       {
         "i": 14,
@@ -13020,11 +13088,11 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "kāma",
-            "gloss": "desire"
+            "gloss": "desire, longing, wish; the wish for an object"
           },
           {
             "form": "kāmin",
-            "gloss": "desiring, hankering"
+            "gloss": "desiring, longing, craving, hankering"
           }
         ]
       }
@@ -13137,7 +13205,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "nadī",
-                "gloss": "river"
+                "gloss": "river, stream, flowing water"
               },
               {
                 "form": "-eyya",
@@ -13153,7 +13221,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ap",
-                "gloss": "water"
+                "gloss": "water, the waters"
               }
             ],
             "morph": "nom. pl. fem."
@@ -13193,7 +13261,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ap",
-                "gloss": "water"
+                "gloss": "water, the waters"
               }
             ],
             "morph": "gen. pl. fem."
@@ -13263,7 +13331,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "samudra",
-                "gloss": "ocean"
+                "gloss": "ocean, sea, the gathered waters"
               }
             ],
             "morph": "nom. sg. masc."
@@ -13356,7 +13424,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               }
             ],
             "morph": "nom. pl. masc.",
@@ -13369,7 +13437,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śabda",
-                "gloss": "sound"
+                "gloss": "word, sound, speech, utterance"
               },
               {
                 "form": "ādi",
@@ -13386,7 +13454,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "viṣaya",
-                "gloss": "sense-object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "nom. pl. masc.",
@@ -13443,11 +13511,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "gocara",
-                "gloss": "range, sphere"
+                "gloss": "range, sphere, field; the reach of the senses, scope"
               },
               {
                 "form": "-tā",
@@ -13488,7 +13556,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śānti",
-                "gloss": "peace"
+                "gloss": "peace, calm, tranquillity, quieting, stillness"
               }
             ],
             "morph": "acc. sg. fem.",
@@ -13513,7 +13581,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śabda",
-                "gloss": "sound"
+                "gloss": "word, sound, speech, utterance"
               },
               {
                 "form": "ādi",
@@ -13530,11 +13598,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "indriya",
-                "gloss": "sense"
+                "gloss": "sense-faculty, sense-organ; power, faculty"
               },
               {
                 "form": "gocara",
-                "gloss": "range"
+                "gloss": "range, sphere, field; the reach of the senses, scope"
               },
               {
                 "form": "-tā",
@@ -13598,7 +13666,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "avalokana",
@@ -13606,7 +13674,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "tṛpti",
-                "gloss": "contentment"
+                "gloss": "contentment, satisfaction, satiety"
               }
             ],
             "morph": "instr. sg. fem.",
@@ -13704,7 +13772,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śānti",
-                "gloss": "peace"
+                "gloss": "peace, calm, tranquillity, quieting, stillness"
               }
             ],
             "morph": "acc. sg. fem.",
@@ -13763,11 +13831,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "kāma",
-                "gloss": "desire"
+                "gloss": "desire, longing, wish; the wish for an object"
               },
               {
                 "form": "kāmin",
-                "gloss": "craving"
+                "gloss": "desiring, longing, craving, hankering"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -13792,7 +13860,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śabda",
-                "gloss": "sound"
+                "gloss": "word, sound, speech, utterance"
               },
               {
                 "form": "ādi",
@@ -13874,7 +13942,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śānti",
-                "gloss": "peace"
+                "gloss": "peace, calm, tranquillity, quieting, stillness"
               }
             ],
             "morph": "acc. sg. fem.",
@@ -13941,7 +14009,8 @@ window.GITA_VERSES = [
             "form": "√hā",
             "gloss": "to abandon, cast aside"
           }
-        ]
+        ],
+        "rootGloss": "to abandon, to cast aside, to leave behind, to relinquish"
       },
       {
         "i": 1,
@@ -13958,7 +14027,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "kāma",
-            "gloss": "desire"
+            "gloss": "desire, longing, wish; the wish for an object"
           }
         ]
       },
@@ -14015,7 +14084,7 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "puṃs",
-            "gloss": "man, person"
+            "gloss": "man, male, person; the spirit"
           }
         ]
       },
@@ -14036,7 +14105,8 @@ window.GITA_VERSES = [
             "form": "√car",
             "gloss": "to move, go through life"
           }
-        ]
+        ],
+        "rootGloss": "to move, to go, to roam, to engage in, to practice"
       },
       {
         "i": 6,
@@ -14064,7 +14134,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "spṛhā",
-            "gloss": "longing, craving"
+            "gloss": "longing, craving, eager desire, yearning"
           }
         ]
       },
@@ -14124,7 +14194,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "ahaṅkāra",
-            "gloss": "the I-maker, ego"
+            "gloss": "the I-maker; the ego-sense, self-conceit, the principle of individuation"
           }
         ]
       },
@@ -14164,7 +14234,8 @@ window.GITA_VERSES = [
             "form": "√śam",
             "gloss": "to be calm (peace)"
           }
-        ]
+        ],
+        "rootGloss": "to be calm, to be at peace, to cease, to be quieted, to grow tranquil"
       },
       {
         "i": 11,
@@ -14187,7 +14258,8 @@ window.GITA_VERSES = [
             "form": "√gam",
             "gloss": "to go, attain"
           }
-        ]
+        ],
+        "rootGloss": "to go to, to reach, to attain, to find, to obtain"
       }
     ],
     "grammar": {
@@ -14227,7 +14299,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "spṛhā",
-                "gloss": "longing"
+                "gloss": "longing, craving, eager desire, yearning"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -14251,7 +14323,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "mamatā",
-                "gloss": "mine-ness, possessiveness"
+                "gloss": "mine-ness, possessiveness, the sense of 'mine'"
               },
               {
                 "form": "rahita",
@@ -14282,7 +14354,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "ātman",
-                "gloss": "self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -14295,7 +14367,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "deha",
-                "gloss": "body"
+                "gloss": "body, the physical frame, bodily form"
               }
             ],
             "morph": "loc. sg. masc.",
@@ -14308,11 +14380,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "abhimāna",
-                "gloss": "conceit, self-identification"
+                "gloss": "self-identification, conceit, pride, the sense of 'I'"
               },
               {
                 "form": "rahita",
@@ -14353,7 +14425,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātman",
-                "gloss": "self"
+                "gloss": "the self, the inner self; soul, spirit; oneself"
               }
             ],
             "morph": "acc. sg. masc.",
@@ -14382,7 +14454,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śānti",
-                "gloss": "peace"
+                "gloss": "peace, calm, tranquillity, quieting, stillness"
               }
             ],
             "morph": "acc. sg. fem.",
@@ -14480,9 +14552,10 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "sthiti",
-            "gloss": "state, standing"
+            "gloss": "standing, state, condition; stability, abiding"
           }
-        ]
+        ],
+        "rootGloss": "to stand, to remain, to abide, to be established, to stay firm"
       },
       {
         "i": 3,
@@ -14566,7 +14639,8 @@ window.GITA_VERSES = [
             "form": "√āp",
             "gloss": "to reach, attain"
           }
-        ]
+        ],
+        "rootGloss": "to reach, to attain, to obtain, to arrive at, to gain"
       },
       {
         "i": 7,
@@ -14589,7 +14663,8 @@ window.GITA_VERSES = [
             "form": "√muh",
             "gloss": "to be deluded"
           }
-        ]
+        ],
+        "rootGloss": "to be deluded, to be confused, to go astray, to be bewildered"
       },
       {
         "i": 8,
@@ -14608,7 +14683,8 @@ window.GITA_VERSES = [
             "form": "√sthā",
             "gloss": "to stand firm, abide"
           }
-        ]
+        ],
+        "rootGloss": "to stand, to remain, to abide, to be established, to stay firm"
       },
       {
         "i": 9,
@@ -14656,7 +14732,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "kāla",
-            "gloss": "time, hour"
+            "gloss": "time, hour, season; the right moment"
           }
         ]
       },
@@ -14702,11 +14778,11 @@ window.GITA_VERSES = [
         "parts": [
           {
             "form": "brahman",
-            "gloss": "brahman, the Absolute"
+            "gloss": "brahman, the Absolute, the supreme Reality, the boundless"
           },
           {
             "form": "nirvāṇa",
-            "gloss": "blown out, extinguished (as a lamp)"
+            "gloss": "blown out, extinguished; final release, cessation"
           }
         ]
       },
@@ -14727,7 +14803,8 @@ window.GITA_VERSES = [
             "form": "√ṛ",
             "gloss": "to reach, go to"
           }
-        ]
+        ],
+        "rootGloss": "to go, to reach, to fall upon, to befall, to attain"
       }
     ],
     "grammar": {
@@ -14763,7 +14840,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "yāthātmya",
@@ -14780,7 +14857,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "yuddha",
-                "gloss": "battle, war"
+                "gloss": "battle, war, fight, combat"
               },
               {
                 "form": "ākhya",
@@ -14807,7 +14884,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "karman",
-                "gloss": "action, work"
+                "gloss": "action, work, deed; rite, performance"
               }
             ],
             "morph": "gen. sg. neut.",
@@ -14861,15 +14938,15 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "śarīra",
-                "gloss": "body"
+                "gloss": "body, the bodily frame, physical form"
               },
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "jñāna",
-                "gloss": "knowledge"
+                "gloss": "knowledge, cognition, knowing, understanding"
               }
             ],
             "morph": "instr. sg. neut.",
@@ -14917,7 +14994,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "moha",
-                "gloss": "delusion"
+                "gloss": "delusion, bewilderment, confusion, infatuation"
               }
             ],
             "morph": "instr. sg. masc.",
@@ -14930,7 +15007,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "yuddha",
-                "gloss": "battle, war"
+                "gloss": "battle, war, fight, combat"
               }
             ],
             "morph": "abl. sg. neut."
@@ -14958,11 +15035,11 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "moha",
-                "gloss": "delusion"
+                "gloss": "delusion, bewilderment, confusion, infatuation"
               },
               {
                 "form": "śānti",
-                "gloss": "quieting, peace"
+                "gloss": "peace, calm, tranquillity, quieting, stillness"
               }
             ],
             "morph": "dat. sg. fem.",
@@ -14979,11 +15056,11 @@ window.GITA_VERSES = [
               },
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "viṣaya",
-                "gloss": "object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -15000,7 +15077,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "buddhi",
-                "gloss": "cognition"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -15044,7 +15121,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "karma",
-                "gloss": "action"
+                "gloss": "action, work, deed, rite"
               },
               {
                 "form": "anuṣṭhāna",
@@ -15060,7 +15137,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "viṣaya",
-                "gloss": "object"
+                "gloss": "sense-object, object of perception; domain, sphere, range"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -15073,7 +15150,7 @@ window.GITA_VERSES = [
             "parts": [
               {
                 "form": "buddhi",
-                "gloss": "cognition, intellect"
+                "gloss": "intellect, the discerning faculty; understanding, judgment, cognition"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -15090,7 +15167,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "yoga",
-                "gloss": "yoga"
+                "gloss": "yoga; union, yoking, discipline, application"
               },
               {
                 "form": "sādhana",
@@ -15179,7 +15256,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "ātma",
-                "gloss": "self"
+                "gloss": "self, the inner self; oneself"
               },
               {
                 "form": "asaṅga",
@@ -15187,7 +15264,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "karma",
-                "gloss": "action"
+                "gloss": "action, work, deed, rite"
               },
               {
                 "form": "īhā",
@@ -15195,7 +15272,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "gocara",
-                "gloss": "ranging over, sphere"
+                "gloss": "range, sphere, field; the reach of the senses, scope"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -15212,11 +15289,11 @@ window.GITA_VERSES = [
               },
               {
                 "form": "yoga",
-                "gloss": "yoga"
+                "gloss": "yoga; union, yoking, discipline, application"
               },
               {
                 "form": "dhī",
-                "gloss": "understanding, intellect"
+                "gloss": "intelligence, thought, understanding, intellect; insight"
               }
             ],
             "morph": "nom. sg. fem.",
@@ -15245,7 +15322,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "dhī",
-                "gloss": "intellect, minded"
+                "gloss": "intelligence, thought, understanding, intellect; insight"
               },
               {
                 "form": "lakṣā",
@@ -15281,11 +15358,11 @@ window.GITA_VERSES = [
               },
               {
                 "form": "moha",
-                "gloss": "delusion"
+                "gloss": "delusion, bewilderment, confusion, infatuation"
               },
               {
                 "form": "śānti",
-                "gloss": "quieting, peace"
+                "gloss": "peace, calm, tranquillity, quieting, stillness"
               }
             ],
             "morph": "dat. sg. fem.",
