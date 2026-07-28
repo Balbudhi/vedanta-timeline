@@ -12,10 +12,10 @@ window.GITA_VERSES = [
     "locus": "2.54",
     "speaker": "arjuna",
     "meter": "anuṣṭubh",
-    "devanagari": "स्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव।\nस्थितधीः किं प्रभाषते किम् आसीत व्रजेत किम्॥",
-    "iast": "sthitaprajñasya kā bhāṣā samādhisthasya keśava |\nsthitadhīḥ kiṃ prabhāṣate kim āsīta vrajeta kim ||",
-    "sense": "Arjuna asks: the man of settled wisdom, absorbed in samādhi — how does he speak, how does he sit, how does he move? What outwardly marks him?",
-    "english": "{0:Of one whose prajñā stands firm}, {3:settled in samādhi} — {1:what} is {2:the speech}, {4:Keśava}? {6:How} does {5:the steady-minded one} {7:speak}? {8:How} does he {9:sit}? {11:How} does he {10:move}?",
+    "devanagari": "स्थितप्रज्ञस्य का भाषा समाधिस्थस्य केशव।\nस्थितधीः किं प्रभाषेत किम् आसीत व्रजेत किम्॥",
+    "iast": "sthitaprajñasya kā bhāṣā samādhisthasya keśava |\nsthitadhīḥ kiṃ prabhāṣeta kim āsīta vrajeta kim ||",
+    "sense": "Arjuna asks: the man of settled wisdom, absorbed in samādhi — how would he speak, how would he sit, how would he move? What outwardly marks him?",
+    "english": "{0:Of one whose prajñā stands firm}, {3:settled in samādhi} — {1:what} is {2:the speech}, {4:Keśava}? {6:How} would {5:the steady-minded one} {7:speak}? {8:How} would he {9:sit}? {11:How} would he {10:move}?",
     "words": [
       {
         "i": 0,
@@ -150,7 +150,7 @@ window.GITA_VERSES = [
         "root": null,
         "affix": "su (prathamā ekavacana)",
         "morph": "nom. sg. masc.",
-        "karaka": "kartṛ (subject of prabhāṣate, āsīta, vrajeta)",
+        "karaka": "kartṛ (subject of prabhāṣeta, āsīta, vrajeta)",
         "glossaryKey": "buddhi",
         "translatable": true,
         "compound": {
@@ -181,7 +181,7 @@ window.GITA_VERSES = [
         "root": null,
         "affix": "adverbial (acc. sg. neut.)",
         "morph": "interrogative, adverbial",
-        "karaka": "kriyāviśeṣaṇa (qualifies prabhāṣate)",
+        "karaka": "kriyāviśeṣaṇa (qualifies prabhāṣeta)",
         "glossaryKey": null,
         "translatable": true,
         "parts": [
@@ -193,13 +193,13 @@ window.GITA_VERSES = [
       },
       {
         "i": 7,
-        "deva": "प्रभाषते",
-        "iast": "prabhāṣate",
-        "gloss": "does he speak, talk",
+        "deva": "प्रभाषेत",
+        "iast": "prabhāṣeta",
+        "gloss": "would he speak, talk",
         "stem": null,
         "root": "√bhāṣ (pra-)",
-        "affix": "tiṅ — laṭ, prathama-puruṣa ekavacana, ātmanepada",
-        "morph": "present indic., 3 sg., ātmanepada",
+        "affix": "tiṅ — liṅ, prathama-puruṣa ekavacana, ātmanepada",
+        "morph": "optative, 3 sg., ātmanepada",
         "karaka": "kriyā",
         "glossaryKey": null,
         "translatable": true,
@@ -295,8 +295,8 @@ window.GITA_VERSES = [
       }
     ],
     "grammar": {
-      "karakaSummary": "Line 1 is a nominal sentence (copula 'asti' implied): bhāṣā — kartṛ (nom.); kā — predicate (nom. fem.); sthitaprajñasya / samādhisthasya — sambandha (gen., 'of him'); keśava — āmantraṇa (voc.). Line 2: sthitadhīḥ — kartṛ governing prabhāṣate, āsīta, vrajeta; kiṃ (×3) — kriyāviśeṣaṇa ('how').",
-      "verbalModality": "prabhāṣate — laṭ (present), 3 sg., ātmanepada, kartari. āsīta — vidhi-liṅ (optative, 'should/would'), 3 sg., ātmanepada (√ās). vrajeta — vidhi-liṅ, 3 sg.; √vraj is normally parasmaipada (expected vrajet) — the form vrajeta is metrically licensed."
+      "karakaSummary": "Line 1 is a nominal sentence (copula 'asti' implied): bhāṣā — kartṛ (nom.); kā — predicate (nom. fem.); sthitaprajñasya / samādhisthasya — sambandha (gen., 'of him'); keśava — āmantraṇa (voc.). Line 2: sthitadhīḥ — kartṛ governing prabhāṣeta, āsīta, vrajeta; kiṃ (×3) — kriyāviśeṣaṇa ('how').",
+      "verbalModality": "All three verbs of line 2 are liṅ. prabhāṣeta — liṅ, 3 sg., ātmanepada, kartari (√bhāṣ). āsīta — liṅ, 3 sg., ātmanepada (√ās). vrajeta — liṅ, 3 sg.; √vraj is normally parasmaipada (expected vrajet) — the form vrajeta is metrically licensed. Madhusūdana states the modality of all three at once: sarvatra sambhāvanāyāṃ liṅ — 'throughout, the liṅ is in the sense of what is possible', i.e. Arjuna asks not what such a man does but how he would speak, sit and move."
     },
     "commentaries": [
       {
@@ -11915,7 +11915,7 @@ window.GITA_VERSES = [
     "speaker": "krishna",
     "meter": "anuṣṭubh",
     "devanagari": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी।\nयस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः॥",
-    "iast": "yā niśā sarvabhūtānāṃ tasyāṃ jāgarti saṃyamī |\nyasyāṃ jāgarti bhūtāni sā niśā paśyato muneḥ ||",
+    "iast": "yā niśā sarvabhūtānāṃ tasyāṃ jāgarti saṃyamī |\nyasyāṃ jāgrati bhūtāni sā niśā paśyato muneḥ ||",
     "sense": "What is night for all beings, in that the self-controlled one is awake; that in which beings are awake is night for the sage who truly sees.",
     "english": "{0:What} is {1:night} {2:for all beings}, {3:in that} {5:the self-controlled one} {4:is awake}; {6:that in which} {8:beings} {7:are awake}, {9:that} {10:is night} {12:for the sage} {11:who sees}.",
     "words": [
@@ -13983,8 +13983,9 @@ window.GITA_VERSES = [
     "locus": "2.71",
     "speaker": "krishna",
     "meter": "anuṣṭubh",
-    "devanagari": "विहाय कामान् यः सर्वान् पुमांश् चरति निःस्पृहः।\nनिर्ममो निरहंकारः स शान्तिम् अधिगच्छति॥",
+    "devanagari": "विहाय कामान् यः सर्वान् पुमांश् चरति निस्स्पृहः।\nनिर्ममो निरहङ्कारः स शान्तिम् अधिगच्छति॥",
     "iast": "vihāya kāmān yaḥ sarvān pumāṃś carati nisspṛhaḥ |\nnirmamo nirahaṅkāraḥ sa śāntim adhigacchati ||",
+    "textualNote": "Spelling only, not a difference of reading. This line follows the commentators' orthography — nisspṛhaḥ (visarga assimilated before s) and nirahaṅkāraḥ (anusvāra written as the homorganic ṅ before k); Rāmānuja's bhāṣya on this verse glosses nisspṛhaḥ in that form. The BORI critical edition prints niḥspṛhaḥ and nirahaṃkāraḥ. The words are the same.",
     "sense": "The man who, abandoning all kāmas, moves about free of longing, without 'mine' and without ahaṅkāra (the I-making that misidentifies the self with body and mind), attains peace.",
     "english": "{2:The man who}, {0:having abandoned} {3:all} {1:kāmas}, {5:moves about} {6:free of longing}, {7:without 'mine'} and {8:without ahaṅkāra}, {9:he} {11:attains} {10:peace}.",
     "words": [

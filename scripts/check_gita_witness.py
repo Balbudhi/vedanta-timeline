@@ -53,22 +53,30 @@ def fold(text: str) -> str:
     return text.replace("ṁ", "ṃ").replace("m", "ṃ")
 
 
-def load_reading(path: pathlib.Path) -> dict:
-    """Evaluate a reading's data files and hand back their globals as JSON."""
+MULA = "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt"
+
+
+def load_reading(path: pathlib.Path) -> tuple[dict, list]:
+    """Evaluate a reading's data files and hand back its commentary and verses."""
     script = f"""
       const fs = require("fs");
       global.window = {{}};
       for (const f of {json.dumps([str(p) for p in sorted(path.glob("*.js"))])}) {{
         try {{ eval(fs.readFileSync(f, "utf8")); }} catch (e) {{}}
       }}
-      const out = {{}};
-      for (const k in global.window) if (/COMMENTARY$/.test(k)) Object.assign(out, global.window[k]);
-      process.stdout.write(JSON.stringify(out));
+      const commentary = {{}};
+      let verses = [];
+      for (const k in global.window) {{
+        if (/COMMENTARY$/.test(k)) Object.assign(commentary, global.window[k]);
+        if (/VERSES$/.test(k)) verses = global.window[k];
+      }}
+      process.stdout.write(JSON.stringify({{ commentary, verses }}));
     """
     proc = subprocess.run(["node", "-e", script], capture_output=True, text=True)
     if proc.returncode != 0:
         raise RuntimeError(f"could not evaluate {path}: {proc.stderr[:400]}")
-    return json.loads(proc.stdout or "{}")
+    data = json.loads(proc.stdout or '{"commentary":{},"verses":[]}')
+    return data["commentary"], data["verses"]
 
 
 _witness_cache: dict[str, str] = {}
@@ -78,6 +86,11 @@ def witness(rel_path: str) -> str | None:
     """The witness file's text, transliterated to IAST if it is Devanāgarī."""
     if rel_path in _witness_cache:
         return _witness_cache[rel_path]
+    # Raw OCR is not a witness. Validating against it would confirm readings
+    # the scanner invented — see data/sources/_unverified_ocr/README.md.
+    if "_unverified_ocr" in rel_path:
+        _witness_cache[rel_path] = None
+        return None
     full = REPO / rel_path
     if not full.exists():
         _witness_cache[rel_path] = None
@@ -116,8 +129,30 @@ def main() -> int:
     failures: list[str] = []
     unresolved: list[str] = []
 
+    # The mūla is checked against the critical edition, whose per-hemistich
+    # reference tags have to come out before the verse reads continuously.
+    mula_text = (REPO / MULA).read_text(encoding="utf-8") if (REPO / MULA).exists() else ""
+    mula_text = re.sub(r"\[=MBh_[^\]]*\]", " ", mula_text)
+    mula = fold(re.sub(r"Bhg_\d+\.\d+[a-z]?", " ", mula_text))
+    mula_ok = mula_variant = 0
+
     for reading in readings:
-        entries = load_reading(reading)
+        entries, verses = load_reading(reading)
+        for verse in verses:
+            label = f"{reading.name} {verse.get('locus', '?')} mūla"
+            if not mula:
+                unresolved.append(f"{label}: critical edition not on disk — {MULA}")
+                break
+            if fold(verse.get("iast", "")) in mula:
+                mula_ok += 1
+            elif verse.get("textualNote"):
+                mula_variant += 1
+                print(f"  variant     {label}\n              {verse['textualNote'][:110]}")
+            else:
+                at = divergence_point(fold(verse.get("iast", "")), mula)
+                failures.append(
+                    f"{label}: departs from the critical edition at char {at} "
+                    f"with no textualNote\n      …{fold(verse.get('iast', ''))[max(0, at - 30):at + 20]}…")
         for locus in entries:
             for entry in entries[locus]:
                 label = f"{reading.name} {locus} {entry.get('author', '?')}"
@@ -146,7 +181,9 @@ def main() -> int:
                         f"{label}: diverges from {rel} at char {at}/{len(needle)} "
                         f"with no textualNote\n      …{context}…")
 
-    print(f"\nverbatim against witness : {verbatim}")
+    print(f"\nmūla matching BORI crit.  : {mula_ok}")
+    print(f"documented mūla variants : {mula_variant}")
+    print(f"verbatim against witness : {verbatim}")
     print(f"documented emendations   : {emended}")
     print(f"undocumented divergences : {len(failures)}")
     if unresolved:
