@@ -1349,10 +1349,10 @@ window.GITA3_COMMENTARY = {
       "school": "Bhakti / Advaita",
       "work": "Subodhinī",
       "locus": "3.36",
-      "sanskrit": "tayor na vaśam āgacchet [gītā 3.34] ity uktam | tad etad aśakyaṃ manvāno 'rjuna uvāca atheti | vṛṣṇer vaṃśe avatīrṇo vārṣṇeyaḥ | he vārṣṇeya ! anartha-rūpaṃ pāpaṃ kartum anicchann api kena prayuktaḥ prerito 'yaṃ puruṣaḥ pāpaṃ carati ? kāma-krodhau viveka-balena niruddhato 'pi puruṣasya punaḥ pāpe pravṛtti-darśanāt | anyo 'pi tayor mūlabhūtaḥ kaścit pravartako bhaved iti sambhāvanayā praśnaḥ",
+      "sanskrit": "tayor na vaśam āgacchet [gītā 3.34] ity uktam | tad etad aśakyaṃ manvāno 'rjuna uvāca atheti | vṛṣṇer vaṃśe avatīrṇo vārṣṇeyaḥ | he vārṣṇeya ! anartha-rūpaṃ pāpaṃ kartum icchann api kena prayuktaḥ prerito 'yaṃ puruṣaḥ pāpaṃ carati ? kāma-krodhau viveka-balena niruddhato 'pi puruṣasya punaḥ pāpe pravṛtti-darśanāt | anyo 'pi tayor mūlabhūtaḥ kaścit pravartako bhaved iti sambhāvanayā praśnaḥ",
       "ourRendering": "‘Let him not come under the sway of those two’ (Gītā 3.34) — so it was said. Thinking this very thing to be impossible, Arjuna says, ‘atha…’. ‘Vārṣṇeya’ is one descended in the lineage of Vṛṣṇi. O Vārṣṇeya! Not wishing to do evil, whose very form is misfortune, even so — by what, impelled — driven — does this man engage in evil? Kāma and krodha, even though held in check by the strength of discrimination — a propensity is seen on the part of the man again towards evil. Some other thing too, being the root of those two, a certain prompter, might be — so: by way of surmising this is the question.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_full.txt (GRETIL: corpustei sa_bhagavadgItA-4comm), ad 3.36",
-      "textualNote": "The witness reads kartum icchann api (lacking the negative prefix an-). The verse itself has anicchann api (Gītā 3.36d), and Madhusūdana's gloss on this same locus, three lines later in this same source file, reads karmācarati svayaṃ kartum anicchann api — the reading is corrected accordingly.",
+      "textualNote": "The witness reads anartha-rūpaṃ pāpaṃ kartum icchann api, ‘though wishing to do the harmful deed’, where the verse it glosses reads anicchann api, ‘though NOT wishing’ (BG 3.36d), and Madhusūdana on this same verse glosses kartum anicchann api. The witness reading is nevertheless printed here unaltered: every digital copy of this commentary traces to a single transcription, and no independent edition was found to settle it, so the reading is reported rather than emended.",
       "segments": [
         {
           "from": 0,
@@ -1385,7 +1385,7 @@ window.GITA3_COMMENTARY = {
           "kind": "interpretation"
         }
       ],
-      "english": "{0:Of those two}, {1:not} {2:into the sway} {3:let him come}’ {4:(Gītā 3.34)} {5,6:— so it was said}. {7,8:This very thing} {9:being impossible}, {10:thinking}, {11:Arjuna} {12:says}, ‘{13:atha}…’ {14:thus}. ‘{18:Vārṣṇeya}’ {17:is one descended} {16:in the lineage} {15:of Vṛṣṇi}. {19:O} {20:Vārṣṇeya}! {24:Not wishing} {23:to do} {22:evil}, {21:whose very form is misfortune}, {25:even so}, {26:by what}, {27:impelled} — {28:driven} — {29:does} {30:this man} {32:engage in} {31:evil}? {33:Kāma and krodha}, {35,36:even though held in check} {34:by the strength of discrimination} — {40:a propensity is seen} {37:on the part of the man} {38:again} {39:towards evil}. {41,42:Some other thing too}, {44:being the root} {43:of those two}, {45:a certain} {46:prompter}, {47:might be} — {48:so}: {49:by way of surmising this} {50:is the question}.",
+      "english": "{0:Of those two}, {1:not} {2:into the sway} {3:let him come}’ {4:(Gītā 3.34)} {5,6:— so it was said}. {7,8:This very thing} {9:being impossible}, {10:thinking}, {11:Arjuna} {12:says}, ‘{13:atha}…’ {14:thus}. ‘{18:Vārṣṇeya}’ {17:is one descended} {16:in the lineage} {15:of Vṛṣṇi}. {19:O} {20:Vārṣṇeya}! {24:Wishing} {23:to do} {22:evil}, {21:whose very form is misfortune}, {25:even so}, {26:by what}, {27:impelled} — {28:driven} — {29:does} {30:this man} {32:engage in} {31:evil}? {33:Kāma and krodha}, {35,36:even though held in check} {34:by the strength of discrimination} — {40:a propensity is seen} {37:on the part of the man} {38:again} {39:towards evil}. {41,42:Some other thing too}, {44:being the root} {43:of those two}, {45:a certain} {46:prompter}, {47:might be} — {48:so}: {49:by way of surmising this} {50:is the question}.",
       "words": [
         {
           "i": 0,
@@ -1768,25 +1768,22 @@ window.GITA3_COMMENTARY = {
         },
         {
           "i": 24,
-          "iast": "anicchan",
-          "gloss": "not wishing",
-          "morph": "nom. sg. masc.; pres. act. part., negated",
-          "root": "√iṣ (tudādi, 6P)",
-          "rootGloss": "to wish, to want, to desire",
+          "iast": "icchan",
+          "gloss": "wishing",
+          "morph": "nom. sg. masc.; pres. act. part.",
+          "root": "√iṣ",
+          "rootGloss": "to wish, to desire, to seek",
           "parts": [
             {
-              "form": "an-",
-              "gloss": "not (the negative prefix nañ)"
-            },
-            {
               "form": "√iṣ",
-              "gloss": "to wish, to want"
+              "gloss": "to wish, to desire"
             },
             {
               "form": "-at",
-              "gloss": "(śatṛ, present active participle)"
+              "gloss": "(present active participle)"
             }
-          ]
+          ],
+          "note": "The witness reads icchan, ‘wishing’. The verse being glossed reads anicchann api, ‘though not wishing’ (BG 3.36d), and Madhusūdana glosses the same words as kartum anicchann api. The witness form is printed here as it stands; no independent edition was found that reads otherwise."
         },
         {
           "i": 25,
@@ -43113,10 +43110,10 @@ window.GITA3_COMMENTARY = {
       "school": "Gauḍīya",
       "work": "Sārārtha-varṣiṇī",
       "locus": "3.41",
-      "sanskrit": "vairiṇaḥ khalv āśraye jite sati vairī jīyata iti nītir ataḥ kāmasyāśrayeṣv indriyādiṣu yathottaraṃ durjayatvādhikyam | ataḥ prathama-prāptānīndriyāṇi durjayāny apy uttarāpekṣayā sujayāni | prathamaṃ te jīyantām ity āha tasmād iti | indriyāṇi niyamya yadyapi para-strī-para-dravyādy-apaharaṇe durnivāraṃ mano gacchaty eva | tad api tatra tatra netra-śrotra-kara-caraṇādīndriya-vyāpāra-stha-gaṇanād indriyāṇi na gamayety arthaḥ | pāpmānam atyugraṃ kāmaṃ jahītīndriya-vyāpāra-stha-gaṇanam atikālena mano 'pi kāmād vicyutaṃ bhavatīti bhāvaḥ",
+      "sanskrit": "vairiṇaḥ khalv āśraye jite sati vairī jīyata iti nītir ataḥ kāmasyāśrayeṣv indriyādiṣu yathottaraṃ durjayatvādhikyam | ataḥ prathama-prāptānīndriyāṇi durjayāny apy uttarāpekṣayā sujayāni | prathamaṃ te jīyantām ity āha tasmād iti | indriyāṇi niyamyena yadyapi para-strī-para-dravyādy-apaharaṇe durnivāraṃ mano gacchaty eva | tad api tatra tatra netra-śrotra-kara-caraṇādīndriya-vyāpāra-stha-gaṇanād indriyāṇi na gamayety arthaḥ | pāpmānam atyugraṃ kāmaṃ jahītīndriya-vyāpāra-stha-gaṇanam atikālena mano 'pi kāmād vicyutaṃ bhavatīti bhāvaḥ",
       "ourRendering": "Indeed, of the enemy, when the base has been conquered, the enemy is conquered — so runs the maxim. Therefore, of kāma, among the supports — the indriyas and the rest — successively there is an increase in the difficulty of conquering. Therefore, the indriyas, obtained first, though hard to conquer, relative to what comes after, are easy to conquer. ‘Let them be conquered first’ — thus he states, in the word ‘tasmāt’. Having restrained the indriyas, even so, in the seizing of another's wife, another's property and the like, manas, hard to hold back, does indeed go. That too — again and again, because of the reckoning that stands within the working of the indriyas — the eye, the ear, the hand, the foot and the rest — does not let it pass beyond the indriyas — that is the sense. ‘Slay the evil, exceedingly fierce kāma’ — so it says: through the reckoning that stands within the working of the indriyas, over time, manas too comes to be dislodged from kāma — that is the point.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_full.txt (GRETIL: corpustei sa_bhagavadgItA-4comm), ad 3.41",
-      "textualNote": "The on-disk witness prints indriyāṇi niyamyena yadyapi, where niyamyena is not a standard form for what the sentence needs — an absolutive, ‘having restrained’, is required by the following yadyapi (‘even having restrained the indriyas, even so…’). The reading given is niyamya (ni + √yam + lyap), dropping the witness's extra -ena.",
+      "textualNote": "The witness prints indriyāṇi niyamyena yadyapi. The sentence leads one to expect the absolutive niyamya, ‘having restrained’ — the verse being glossed reads indriyāṇy ādau niyamya (BG 3.41a) — but niyamyena is a possible form and every digital copy of this commentary descends from one transcription, so the witness reading is printed unaltered rather than emended.",
       "segments": [
         {
           "from": 0,
@@ -43144,7 +43141,7 @@ window.GITA3_COMMENTARY = {
           "kind": "interpretation"
         }
       ],
-      "english": "{0,1:Indeed, of the enemy,} {2,3,4:when the base has been conquered,} {5,6:the enemy is conquered} {7,8:— so runs the maxim.} {9:Therefore}, {10:of kāma,} {11:among the supports} — {12:the indriyas and the rest} — {13:successively} {14:there is an increase in the difficulty of conquering.} {15:Therefore}, {16,17:the indriyas, obtained first,} {19:though} {18:hard to conquer,} {20:relative to what comes after,} {21:are easy to conquer.} {22,23,24:‘Let them be conquered first’} {25,26:— thus he states,} {27,28:in the word ‘tasmāt’.} {29,30:Having restrained the indriyas,} {31,32:even so,} {33:in the seizing of another's wife, another's property and the like,} {35:manas,} {34:hard to hold back,} {36,37:does indeed go.} {38,39:That too} — {40,41:again and again,} {42:because of the reckoning that stands within the working of the indriyas — the eye, the ear, the hand, the foot and the rest —} {44,45:does not let it pass} {43:beyond the indriyas} {46,47:— that is the sense.} {48,49,50,51:‘Slay the evil, exceedingly fierce kāma’} {52:— so it says}: {53:through the reckoning that stands within the working of the indriyas,} {54:over time,} {55,56:manas too} {58,59:comes to be dislodged} {57:from kāma} {60,61:— that is the point.}",
+      "english": "{0,1:Indeed, of the enemy,} {2,3,4:when the base has been conquered,} {5,6:the enemy is conquered} {7,8:— so runs the maxim.} {9:Therefore}, {10:of kāma,} {11:among the supports} — {12:the indriyas and the rest} — {13:successively} {14:there is an increase in the difficulty of conquering.} {15:Therefore}, {16,17:the indriyas, obtained first,} {19:though} {18:hard to conquer,} {20:relative to what comes after,} {21:are easy to conquer.} {22,23,24:‘Let them be conquered first’} {25,26:— thus he states,} {27,28:in the word ‘tasmāt’.} {29,30:By restraining the indriyas,} {31,32:even so,} {33:in the seizing of another's wife, another's property and the like,} {35:manas,} {34:hard to hold back,} {36,37:does indeed go.} {38,39:That too} — {40,41:again and again,} {42:because of the reckoning that stands within the working of the indriyas — the eye, the ear, the hand, the foot and the rest —} {44,45:does not let it pass} {43:beyond the indriyas} {46,47:— that is the sense.} {48,49,50,51:‘Slay the evil, exceedingly fierce kāma’} {52:— so it says}: {53:through the reckoning that stands within the working of the indriyas,} {54:over time,} {55,56:manas too} {58,59:comes to be dislodged} {57:from kāma} {60,61:— that is the point.}",
       "words": [
         {
           "i": 0,
@@ -43709,25 +43706,26 @@ window.GITA3_COMMENTARY = {
         },
         {
           "i": 30,
-          "iast": "niyamya",
-          "gloss": "having restrained",
-          "morph": "indeclinable absolutive",
-          "root": "√yam (bhvādi, 1P)",
-          "rootGloss": "to hold, to restrain, to control",
+          "iast": "niyamyena",
+          "gloss": "by restraining",
+          "morph": "instr. sg.; the witness form, where an absolutive niyamya would be expected",
+          "root": "√yam",
+          "rootGloss": "to hold, to restrain, to check",
           "parts": [
             {
               "form": "ni-",
-              "gloss": "down, in check"
+              "gloss": "down, back"
             },
             {
               "form": "√yam",
-              "gloss": "to hold, to restrain"
+              "gloss": "to restrain, to hold in check"
             },
             {
-              "form": "-ya",
-              "gloss": "(lyap: ‘having —ed’)"
+              "form": "-ena",
+              "gloss": "(instrumental singular)"
             }
-          ]
+          ],
+          "note": "Printed as the witness has it. The construction leads one to expect the absolutive niyamya, ‘having restrained’, which is what the verse itself reads (indriyāṇy ādau niyamya, BG 3.41a); niyamyena is left standing because no independent edition was found to settle it."
         },
         {
           "i": 31,
