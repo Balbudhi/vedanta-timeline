@@ -181,9 +181,11 @@ function renderVoiceInner(entry) {
   return `<div class="voice-src">${esc(c.work || "")}${c.locus ? " · " + esc(c.locus) : ""}</div>${body}`;
 }
 
-// Map locus → audio segment, populated from window.GITA_AUDIO at render time.
+// The reading's audio manifest (opts.data.audio, else window.GITA_AUDIO) and
+// its locus → segment map, both populated at render time.
+let AUDIO_MANIFEST = null;
 let AUDIO_SEG = Object.create(null);
-function hasAudio() { return !!(window.GITA_AUDIO && Array.isArray(window.GITA_AUDIO.verses) && window.GITA_AUDIO.verses.length); }
+function hasAudio() { return !!(AUDIO_MANIFEST && Array.isArray(AUDIO_MANIFEST.verses) && AUDIO_MANIFEST.verses.length); }
 
 function renderVerse(v, vb) {
   const sp = speakerLabel(v.speaker);
@@ -231,8 +233,8 @@ function fmtTime(s) {
 }
 function renderRecitationBar() {
   if (!hasAudio()) return "";
-  const attrib = esc(window.GITA_AUDIO.attribution || "");
-  const reciter = esc(window.GITA_AUDIO.reciter || window.GITA_AUDIO.attribution || "");
+  const attrib = esc(AUDIO_MANIFEST.attribution || "");
+  const reciter = esc(AUDIO_MANIFEST.reciter || AUDIO_MANIFEST.attribution || "");
   return `<div class="recite-bar" id="reciteBar">
     <div class="rb-controls">
       <button class="rb-skip" id="rbBack" type="button" aria-label="Back 15 seconds" title="Back 15 seconds">
@@ -297,12 +299,20 @@ function render(root, opts) {
   HOST_THINKER = typeof opts.onThinker === "function" ? opts.onThinker : null;
   HOST_LINKIFY = typeof opts.linkifyGlossary === "function" ? opts.linkifyGlossary : null;
   HOST_RESOLVE = typeof opts.glossaryResolve === "function" ? opts.glossaryResolve : null;
-  VERSES = window.GITA_VERSES || [];
+  // Which reading to render. `opts.data` lets a host name the reading's own
+  // globals ({verses, commentary, aurobindo, parallels, audio}), so several
+  // readings can coexist in one SPA session; omitting it keeps the original
+  // window.GITA_* contract used by the sthitaprajña page.
+  const data = opts.data || {};
+  VERSES = data.verses || window.GITA_VERSES || [];
 
+  AUDIO_MANIFEST = data.audio !== undefined ? data.audio : window.GITA_AUDIO;
   AUDIO_SEG = Object.create(null);
-  if (hasAudio()) for (const seg of window.GITA_AUDIO.verses) AUDIO_SEG[seg.locus] = seg;
+  if (hasAudio()) for (const seg of AUDIO_MANIFEST.verses) AUDIO_SEG[seg.locus] = seg;
   const built = buildVoices(VERSES, {
-    commentary: window.GITA_COMMENTARY, aurobindo: window.GITA_AUROBINDO, parallels: window.GITA_PARALLELS,
+    commentary: data.commentary || (opts.data ? null : window.GITA_COMMENTARY),
+    aurobindo: data.aurobindo || (opts.data ? null : window.GITA_AUROBINDO),
+    parallels: data.parallels || (opts.data ? null : window.GITA_PARALLELS),
   });
   VOICES = built.voices; BYVERSE = built.byVerse;
 
@@ -556,7 +566,7 @@ function setActiveVerse(locus) {
 
 function locusAt(t) {
   if (!hasAudio()) return null;
-  for (const seg of window.GITA_AUDIO.verses) {
+  for (const seg of AUDIO_MANIFEST.verses) {
     if (t >= seg.start && t < seg.end) return seg.locus;
   }
   return null;
@@ -574,13 +584,13 @@ function wireRecitation() {
   const timeEl  = bar.querySelector("#rbTime");
 
   const audio = ensureAudio();
-  const src = AUDIO_BASE + window.GITA_AUDIO.src;
+  const src = AUDIO_BASE + AUDIO_MANIFEST.src;
   // (Re)point the element at this reading's clip without restarting if same.
   if (!audio.src.endsWith(src)) { audio.src = src; }
   segLimit = null;
   activeLocus = null;
 
-  const total = () => audio.duration || (window.GITA_AUDIO.verses[window.GITA_AUDIO.verses.length - 1].end);
+  const total = () => audio.duration || (AUDIO_MANIFEST.verses[AUDIO_MANIFEST.verses.length - 1].end);
   const paint = () => {
     const dur = total();
     const pct = dur ? Math.max(0, Math.min(100, (audio.currentTime / dur) * 100)) : 0;
@@ -765,9 +775,18 @@ window.GitaReader = { render };
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("gitaRoot");
   if (!root) return;
-  render(root, { glossaryBase: "../../data/glossary/", audioBase: "", voicebarSlot: document.getElementById("voicebarSlot") });
+  // A standalone page may declare which reading it is via window.GITA_READING
+  // ({ data, backSlug }); with none declared this is the sthitaprajña page and
+  // the window.GITA_* globals are the reading.
+  const reading = window.GITA_READING || {};
+  render(root, {
+    glossaryBase: "../../data/glossary/", audioBase: "",
+    voicebarSlot: document.getElementById("voicebarSlot"),
+    data: reading.data,
+  });
+  const backSlug = reading.backSlug || "gita-sthitaprajna";
   const b = document.getElementById("gitaClose");
-  if (b) b.addEventListener("click", () => { window.location.href = "../../#/article/gita-sthitaprajna"; });
+  if (b) b.addEventListener("click", () => { window.location.href = "../../#/article/" + backSlug; });
   buildVerseRail(root);
 });
 

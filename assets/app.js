@@ -4792,12 +4792,41 @@ function gitaGlossaryResolve(form) {
 }
 
 // Render the interactive Gītā reading into the Article pane.
-async function openGitaReading() {
-  const base = "gita/sthitaprajna/";
+// The word-by-word Sanskrit readings. Each declares where its data files live,
+// which globals they populate, and the header the Article pane shows. Several
+// readings can be open in one session, so the data is handed to GitaReader
+// explicitly rather than being read off a single fixed set of globals.
+const GITA_READINGS = {
+  "gita-sthitaprajna": {
+    base: "gita/sthitaprajna/",
+    files: ["verses.js", "audio.js", "commentaries.js", "aurobindo.js", "parallels.js"],
+    title: "Bhagavad-Gītā 2.54–72",
+    blurb: "The <em>sthitaprajña</em> answer — word by word, with the commentators in their own voices.",
+    data: () => ({
+      verses: window.GITA_VERSES, commentary: window.GITA_COMMENTARY,
+      aurobindo: window.GITA_AUROBINDO, parallels: window.GITA_PARALLELS,
+      audio: window.GITA_AUDIO,
+    }),
+  },
+  "gita-kama": {
+    base: "gita/kama/",
+    files: ["verses.js", "commentaries.js"],
+    title: "Bhagavad-Gītā 3.36–43",
+    blurb: "<em>kāma</em>, the enemy — word by word, with Śaṅkara, Rāmānuja and Madhva in their own voices.",
+    // No recitation clip and no Aurobindo or cross-tradition material for this
+    // passage yet; the reader renders without those bars when they are absent.
+    data: () => ({
+      verses: window.GITA3_VERSES, commentary: window.GITA3_COMMENTARY,
+      aurobindo: null, parallels: null, audio: null,
+    }),
+  },
+};
+
+async function openGitaReading(slug) {
+  const reading = GITA_READINGS[slug];
+  if (!reading) return;
   try {
-    for (const f of ["verses.js", "audio.js", "commentaries.js", "aurobindo.js", "parallels.js"]) {
-      await loadScriptOnce(base + f);
-    }
+    for (const f of reading.files) await loadScriptOnce(reading.base + f);
     await loadScriptOnce("assets/gita.js");
   } catch (e) {
     if (dpArticleBody) dpArticleBody.innerHTML = "<article><p>Could not load the reading.</p></article>";
@@ -4805,8 +4834,8 @@ async function openGitaReading() {
   }
   if (dpArticleHead) {
     dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
-      <p class="dp-title">Bhagavad-Gītā 2.54–72</p>
-      <p class="dp-attrib">The <em>sthitaprajña</em> answer — word by word, with the commentators in their own voices.</p>
+      <p class="dp-title">${reading.title}</p>
+      <p class="dp-attrib">${reading.blurb}</p>
       <button class="dp-standalone" id="gitaFullBtn" type="button">Read full screen ⤢</button>`;
     // Full screen = the app's in-app reading mode (keeps the real site glossary),
     // not the old external standalone page.
@@ -4816,7 +4845,8 @@ async function openGitaReading() {
   if (window.GitaReader && dpArticleBody) {
     window.GitaReader.render(dpArticleBody, {
       glossaryBase: "data/glossary/",
-      audioBase: "gita/sthitaprajna/",
+      audioBase: reading.base,
+      data: reading.data(),
       onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),  // the site's real glossary popover
       onThinker: (id) => openThinker(id),                        // jump to the Thinker tab
       linkifyGlossary: linkifyGlossaryText,                      // tappable Sanskrit in free English text
@@ -4850,8 +4880,8 @@ async function openArticle(a) {
 
   // Interactive readings (e.g. the Gītā word-by-word page) render via their
   // own engine into the article body instead of fetching a markdown file.
-  if (a.interactive === "gita-sthitaprajna") {
-    await openGitaReading();
+  if (a.interactive && GITA_READINGS[a.interactive]) {
+    await openGitaReading(a.interactive);
     panelState.loaded.article = true;
     router.push({ kind: "article", slug: a.slug });
     return;
