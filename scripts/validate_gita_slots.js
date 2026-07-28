@@ -41,25 +41,40 @@ function checkUnit(label, words, english) {
   if (bs) brackets.push({ label, items: bs });
 }
 
-const verses = load("gita/sthitaprajna/verses.js", "GITA_VERSES");
-for (const v of verses) {
-  checkUnit(`verse ${v.locus} (mūla)`, v.words, v.english);
-  for (const c of v.commentaries || []) {
-    checkUnit(`verse ${v.locus} / ${c.voiceId || c.author || "?"}`, c.words, c.english);
-  }
+// Every word-by-word reading on the site: its directory and the globals its
+// data files populate. A file that does not exist for a reading is skipped
+// (not every reading has parallels or an Aurobindo layer).
+const READINGS = [
+  { dir: "gita/sthitaprajna", verses: "GITA_VERSES", commentary: "GITA_COMMENTARY", parallels: "GITA_PARALLELS" },
+  { dir: "gita/kama", verses: "GITA3_VERSES", commentary: "GITA3_COMMENTARY", parallels: "GITA3_PARALLELS" },
+];
+
+function loadIfPresent(file, globalName) {
+  if (!fs.existsSync(path.join(ROOT, file))) return null;
+  return load(file, globalName);
 }
 
-const com = load("gita/sthitaprajna/commentaries.js", "GITA_COMMENTARY");
-for (const locus of Object.keys(com)) {
-  for (const c of com[locus]) {
-    checkUnit(`comm ${locus} / ${c.voiceId || c.author || "?"}`, c.words, c.english);
+for (const r of READINGS) {
+  const verses = loadIfPresent(`${r.dir}/verses.js`, r.verses) || [];
+  for (const v of verses) {
+    checkUnit(`${r.dir} verse ${v.locus} (mūla)`, v.words, v.english);
+    for (const c of v.commentaries || []) {
+      checkUnit(`${r.dir} verse ${v.locus} / ${c.voiceId || c.author || "?"}`, c.words, c.english);
+    }
   }
-}
 
-const par = load("gita/sthitaprajna/parallels.js", "GITA_PARALLELS");
-for (const locus of Object.keys(par)) {
-  for (const p of par[locus]) {
-    checkUnit(`parallel ${locus} / ${p.thinker || p.school || "?"}`, p.words, p.english);
+  const com = loadIfPresent(`${r.dir}/commentaries.js`, r.commentary) || {};
+  for (const locus of Object.keys(com)) {
+    for (const c of com[locus]) {
+      checkUnit(`${r.dir} comm ${locus} / ${c.voiceId || c.author || "?"}`, c.words, c.english);
+    }
+  }
+
+  const par = loadIfPresent(`${r.dir}/parallels.js`, r.parallels) || {};
+  for (const locus of Object.keys(par)) {
+    for (const p of par[locus]) {
+      checkUnit(`${r.dir} parallel ${locus} / ${p.thinker || p.school || "?"}`, p.words, p.english);
+    }
   }
 }
 

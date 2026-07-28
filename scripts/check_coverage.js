@@ -51,9 +51,11 @@ const used = new Set();
 const scanForSources = (obj) => sourcePathsIn(JSON.stringify(obj)).forEach((s) => used.add(s));
 thinkers.forEach(scanForSources);
 for (const f of walk(path.join(ROOT, "data/glossary"))) if (f.endsWith(".json")) scanForSources(readJSON(f));
-for (const f of ["verses.js", "commentaries.js", "parallels.js"]) {
-  const p = path.join(ROOT, "gita/sthitaprajna", f);
-  if (fs.existsSync(p)) sourcePathsIn(fs.readFileSync(p, "utf8")).forEach((s) => used.add(s));
+for (const dir of ["gita/sthitaprajna", "gita/kama"]) {
+  for (const f of ["verses.js", "commentaries.js", "parallels.js"]) {
+    const p = path.join(ROOT, dir, f);
+    if (fs.existsSync(p)) sourcePathsIn(fs.readFileSync(p, "utf8")).forEach((s) => used.add(s));
+  }
 }
 const citIdx = path.join(ROOT, "data/citation_index.json");
 if (fs.existsSync(citIdx)) {

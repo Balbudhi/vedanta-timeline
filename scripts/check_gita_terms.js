@@ -63,6 +63,9 @@ const SYN = {
   bhagavan: [/bhagav|paripūrṇ/],
   nirodha: [/nirudh|nirodh/],
   bheda: [/bhinn|bhid|bhed/],
+  krodha: [/kop/],                                  // kopa is a plain synonym of krodha
+  saksin: [/draṣṭ|dṛś|sākṣ/],                       // draṣṭṛ, the seer, = the sākṣin
+  jnanendriya: [/śrotr|cakṣu|ghrāṇ|rasan|tvac/],    // a named sense-power → its category
 };
 function detectTerms(w) {
   const hay = [w.stem, w.iast, ...(w.parts || []).map(p => p.form)].filter(Boolean).join(" ");
@@ -133,6 +136,13 @@ function checkUnit(label, words, english) {
         if (!phrases.includes(od.iast)) continue;
         const hay = [w.stem, w.iast, ...(w.parts || []).map(p => p.form)].filter(Boolean).join(" ");
         if (od.det.test(hay)) continue;                       // word actually is that term too
+        // A compound legitimately prints its own members — §8 keeps the natural
+        // form for set compounds (jñāna-yoga → "the yoga of knowledge"). The
+        // joined `hay` misses this because the det patterns anchor at ^ or "-"
+        // and an inflected member reads "yogāya", not "yoga"; so test each
+        // morpheme piece and compound member on its own as well.
+        const pieces = [...(w.parts || []).map(p => p.form), ...((w.compound && w.compound.members) || [])].filter(Boolean);
+        if (pieces.some((pc) => od.det.test(pc))) continue;   // that term is a member of this compound
         const quoted = new RegExp("[‘'\"“]\\s*" + od.iast.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).test(phrases);
         if (quoted) continue;                                 // cited lemma, not used
         console.log(`B ${label} [${w.i}] ${w.iast} (${t}): slot prints other term "${od.iast}" — "${phrases}"`); B++;
@@ -141,10 +151,25 @@ function checkUnit(label, words, english) {
   }
 }
 
-const V = load("gita/sthitaprajna/verses.js", "GITA_VERSES");
-for (const v of V) { checkUnit(`v${v.locus}`, v.words, v.english); for (const c of v.commentaries || []) checkUnit(`v${v.locus}/${c.voiceId||c.author}`, c.words, c.english); }
-const C2 = load("gita/sthitaprajna/commentaries.js", "GITA_COMMENTARY");
-for (const loc of Object.keys(C2)) for (const c of C2[loc]) checkUnit(`c${loc}/${c.voiceId||c.author}`, c.words, c.english);
+// Every word-by-word reading on the site: its directory and the globals its
+// data files populate. Missing files are skipped, so a reading without
+// parallels (or without an Aurobindo layer) needs no special-casing here.
+const READINGS = [
+  { dir: "gita/sthitaprajna", verses: "GITA_VERSES", commentary: "GITA_COMMENTARY", parallels: "GITA_PARALLELS" },
+  { dir: "gita/kama", verses: "GITA3_VERSES", commentary: "GITA3_COMMENTARY", parallels: "GITA3_PARALLELS" },
+];
+const loadIfPresent = (f, g) => (fs.existsSync(path.join(ROOT, f)) ? load(f, g) : null);
+const ALL = READINGS.map((r) => ({
+  tag: r.dir.split("/").pop(),
+  verses: loadIfPresent(`${r.dir}/verses.js`, r.verses) || [],
+  commentary: loadIfPresent(`${r.dir}/commentaries.js`, r.commentary) || {},
+  parallels: loadIfPresent(`${r.dir}/parallels.js`, r.parallels),
+}));
+
+for (const R of ALL) {
+  for (const v of R.verses) { checkUnit(`${R.tag} v${v.locus}`, v.words, v.english); for (const c of v.commentaries || []) checkUnit(`${R.tag} v${v.locus}/${c.voiceId||c.author}`, c.words, c.english); }
+  for (const loc of Object.keys(R.commentary)) for (const c of R.commentary[loc]) checkUnit(`${R.tag} c${loc}/${c.voiceId||c.author}`, c.words, c.english);
+}
 
 // ---- card-field hygiene (the word-card pop-up) ---------------------------
 // The small pop-up is gloss-LISTS only: synonyms, stem, and a plain Sanskrit
@@ -172,14 +197,15 @@ function checkCardFields(label, words) {
     }
   }
 }
-const P = (() => { try { return load("gita/sthitaprajna/parallels.js", "GITA_PARALLELS"); } catch { return null; } })();
 function eachParallelWords(node, cb) {
   if (Array.isArray(node)) node.forEach((n) => eachParallelWords(n, cb));
   else if (node && typeof node === "object") { if (Array.isArray(node.words)) cb(node.words); for (const v of Object.values(node)) if (v && typeof v === "object") eachParallelWords(v, cb); }
 }
-for (const v of V) { checkCardFields(`v${v.locus}`, v.words); for (const c of v.commentaries || []) checkCardFields(`v${v.locus}/${c.voiceId||c.author}`, c.words); }
-for (const loc of Object.keys(C2)) for (const c of C2[loc]) checkCardFields(`c${loc}/${c.voiceId||c.author}`, c.words);
-if (P) eachParallelWords(P, (words) => checkCardFields("parallel", words));
+for (const R of ALL) {
+  for (const v of R.verses) { checkCardFields(`${R.tag} v${v.locus}`, v.words); for (const c of v.commentaries || []) checkCardFields(`${R.tag} v${v.locus}/${c.voiceId||c.author}`, c.words); }
+  for (const loc of Object.keys(R.commentary)) for (const c of R.commentary[loc]) checkCardFields(`${R.tag} c${loc}/${c.voiceId||c.author}`, c.words);
+  if (R.parallels) eachParallelWords(R.parallels, (words) => checkCardFields(`${R.tag} parallel`, words));
+}
 
 console.log(`\nA(glossaryKey mismatch)=${A}  B(prints other term)=${B}  C(translate left IAST)=${C}  D(preserve flattened)=${D}  E(card etymology)=${E}  F(card single-word collapse)=${F}`);
 const total = A + B + C + D + E + F;
