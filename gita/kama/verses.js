@@ -1966,7 +1966,8 @@ window.GITA3_VERSES = [
             "form": "-iya",
             "gloss": "(taddhita ghac: ‘belonging to Indra’ — hence a power of the indwelling ruler)"
           }
-        ]
+        ],
+        "note": "Accusative, as object of āhuḥ — and this is a departure from the model. Kaṭha Upaniṣad 1.3.10, whose third pāda this verse repeats word for word (manasas tu parā buddhir), opens instead with the ablative indriyebhyaḥ: ‘higher than the indriyas are the objects’. Recast as an accusative, the rung loses the thing it is higher than: the other three rungs each name their standard of comparison (indriyebhyaḥ, manasaḥ, buddheḥ) and this one names none. Śaṅkara supplies ‘than the body’. The Kaṭha ladder also has a rung this one drops, arthāḥ, the objects."
       },
       {
         "i": 1,
@@ -2252,7 +2253,7 @@ window.GITA3_VERSES = [
             "gloss": "(taddhita tasil: ‘from —’, ‘on the — side’)"
           }
         ],
-        "note": "Not the adjective para but para + -tas (the affix tasil), an indeclinable with ablative force — ‘on the far side of’. It locates rather than qualifies, and unlike the three preceding rungs it agrees with nothing, there being no noun here for it to agree with. The pāda is anuṣṭubh and wants eight syllables, which the concordant paraḥ would not supply; Rāmānuja’s lemma nevertheless quotes the shorter yo buddheḥ paras tu saḥ."
+        "note": "Not the adjective para but para + -tas (the affix tasil), an indeclinable with ablative force — ‘on the far side of’. It locates rather than qualifies, and unlike the three preceding rungs it agrees with nothing, there being no noun here for it to agree with. The pāda is anuṣṭubh and wants eight syllables, which the concordant paraḥ would not supply; Rāmānuja’s lemma nevertheless quotes the shorter yo buddheḥ paras tu saḥ. Against the model, the choice is plain. Kaṭha 1.3.10 closes buddher ātmā mahān paraḥ — it names the fourth rung (ātmā mahān) and uses the concordant masculine paraḥ, in eight syllables. This verse closes yo buddheḥ paratas tu saḥ — also eight syllables, but with the noun deleted and the concordant adjective exchanged for the indeclinable. Whatever pressure the metre exerts, it does not account for this: the model already fit."
       },
       {
         "i": 13,
