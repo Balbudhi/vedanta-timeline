@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <!-- The reading lives inside the app (proper site glossary, full-screen
+       reading mode). This external page is kept only as a stable shareable URL
+       and immediately forwards into the in-app article. -->
+  <script>location.replace("../../#/article/gita-kama");</script>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2" />
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Bhagavad-Gītā 3.36–43</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/style.css" />
+  <link rel="stylesheet" href="../../assets/gita.css" />
+  <script>
+    try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <main class="gita-page">
+    <div class="gita-stage" id="gitaStage" data-voice="">
+
+      <!-- full-width header band -->
+      <header class="gita-masthead">
+        <div class="gita-mast-inner">
+          <button class="gita-close" id="gitaClose" type="button" aria-label="Close and return">
+            <span class="gita-close-x" aria-hidden="true">←</span>
+            <span class="gita-close-label">Back</span>
+          </button>
+          <div class="gita-mast-center">
+            <p class="gita-kicker">Bhagavad-Gītā · Chapter III</p>
+            <h1 class="gita-title">Kāma, the Enemy</h1>
+            <p class="gita-sub">Verses 3.36&ndash;43 &mdash; what drives a man into evil against his will, and how it is to be killed</p>
+            <p class="gita-voices-line">Read with the voices of Śaṅkara · Rāmānuja · Madhva</p>
+          </div>
+        </div>
+      </header>
+
+      <!-- three-column reading grid: nav rail · reading column · (commentary rail handled in flow) -->
+      <div class="gita-layout">
+
+        <!-- left rail: verse navigation (collapses to top on mobile) -->
+        <aside class="gita-rail" id="gitaRail" aria-label="Verse navigation">
+          <div class="gita-rail-inner">
+            <p class="gita-rail-title">Verses</p>
+            <nav class="gita-rail-nav" id="gitaRailNav"></nav>
+          </div>
+        </aside>
+
+        <!-- reading column -->
+        <div class="gita-col">
+          <div class="gita-toolbar" id="voicebarSlot"></div>
+          <section class="gita-root" id="gitaRoot"></section>
+        </div>
+
+      </div>
+
+      <div class="sr-only" id="voiceStatus" aria-live="polite"></div>
+    </div>
+  </main>
+
+  <script src="verses.js"></script>
+  <script src="commentaries.js" onerror="this.remove()"></script>
+  <script>
+    // Tell the shared reader which reading this page is. Without this it would
+    // fall back to the window.GITA_* globals of the sthitaprajña reading.
+    window.GITA_READING = {
+      backSlug: "gita-kama",
+      data: {
+        verses: window.GITA3_VERSES,
+        commentary: window.GITA3_COMMENTARY,
+        aurobindo: null, parallels: null, audio: null,
+      },
+    };
+  </script>
+  <script src="../../assets/gita.js"></script>
+</body>
+</html>
