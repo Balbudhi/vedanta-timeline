@@ -1,5 +1,5 @@
 /* =============================================================
-   Bhagavad-Gītā 3.36–43 — the ācāryas on kāma.
+   Bhagavad-Gītā 3.36–43 — the ācāryas on these verses.
    window.GITA3_COMMENTARY — { "<locus>": [ entry, … ] }.
 
    Each entry carries the commentator's VERBATIM Sanskrit (`sanskrit`), this
@@ -1068,7 +1068,7 @@ window.GITA3_COMMENTARY = {
       "school": "Viśiṣṭādvaita",
       "work": "Gītā-bhāṣya",
       "locus": "3.42",
-      "sanskrit": "sarveṣu buddhiparyanteṣu uparateṣv apīcchāparyāyaḥ kāmo rajassamudbhavo vartate cet, sa evaitānīndriyādīny api svaviṣaye vartayitvā ātmajñānaṃ niruṇaddhi / tad idam ucyate, yo buddheḥ paras tu sa iti / buddher api yaḥ paras sa kāma ityarthaḥ",
+      "sanskrit": "sarveṣu buddhiparyanteṣu uparateṣv apīcchāparyāyaḥ kāmo rajassamudbhavo vartate cet, sa evaitānīndriyādīny api svaviṣaye vartayitvā ātmajñānaṃ niruṇaddhi / tad idam ucyate, yo buddheḥ paras tu saḥ iti / buddher api yaḥ paras sa kāma ityarthaḥ",
       "ourRendering": "Even if all of them, up to and including buddhi, have come to rest — if kāma, which is another name for wanting, arisen from rajas, is still there, then that very one, having set these, the indriyas and the rest, too, going in its own object, shuts off the knowledge of the self. This is what is said in the words: ‘he who but is beyond buddhi — he.’ Who is beyond buddhi as well — that is kāma: that is the sense.",
       "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt, BhGR_3.42",
       "excerpt": true,
