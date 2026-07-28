@@ -141,8 +141,21 @@ html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; 
   border-bottom: 1px solid var(--hairline);
 }
 .voicebar-label { font-family: var(--sans); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted-soft); flex: none; }
-.voicebar-chips { display: flex; gap: 6px; overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px; }
+/* `flex: 1 1 auto` + `min-width: 0` is load-bearing. A flex item defaults to
+   min-width:auto, which refuses to shrink below its content — so overflow-x
+   never engaged and the chips past the edge were simply clipped, with no way
+   to reach them. That stranded commentators on any narrow screen. */
+.voicebar-chips {
+  display: flex; gap: 6px; flex: 1 1 auto; min-width: 0;
+  overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px;
+}
 .voicebar-chips::-webkit-scrollbar { height: 0; }
+/* Inside the app's Article pane the column is narrow at any window size, and
+   a reading now carries up to ten voices. Wrap them onto as many rows as they
+   need — every voice visible at once beats a sideways scroll nobody finds. */
+.gita-reader .voicebar { align-items: flex-start; }
+.gita-reader .voicebar-label { padding-top: 6px; }
+.gita-reader .voicebar-chips { flex-wrap: wrap; overflow: visible; }
 .vchip {
   flex: none; cursor: pointer; white-space: nowrap; display: inline-flex; align-items: center;
   font-family: var(--sans); font-size: 12.5px; color: var(--ink-soft);
