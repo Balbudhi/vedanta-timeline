@@ -64,6 +64,8 @@
 
   <script src="verses.js"></script>
   <script src="commentaries.js" onerror="this.remove()"></script>
+  <script src="aurobindo.js" onerror="this.remove()"></script>
+  <script src="parallels.js" onerror="this.remove()"></script>
   <script>
     // Tell the shared reader which reading this page is. Without this it would
     // fall back to the window.GITA_* globals of the sthitaprajña reading.
@@ -72,7 +74,9 @@
       data: {
         verses: window.GITA3_VERSES,
         commentary: window.GITA3_COMMENTARY,
-        aurobindo: null, parallels: null, audio: null,
+        aurobindo: window.GITA3_AUROBINDO,
+        parallels: window.GITA3_PARALLELS,
+        audio: null,   // no recitation clip for this passage yet
       },
     };
   </script>
