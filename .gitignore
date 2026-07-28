@@ -15,6 +15,10 @@ sin_research/
 # Gītā reading-page scratch: grounded-source extracts, audit report, and the
 # full Aurobindo epub text (copyrighted — only short cited excerpts ship in
 # aurobindo.js). Local-only.
-gita/sthitaprajna/_build/
+gita/*/_build/
 # Raw HTML downloads of primary sources — the cleaned .txt is what we keep.
 data/sources/**/*_RAW.htm
+# Acquired texts whose licence could not be established. This repo is public
+# and ships only material we can show a licence for, so these stay local until
+# their rights status is settled. See data/sources/_unverified_ocr/README.md.
+/_acquisition_holding/
