@@ -1349,10 +1349,10 @@ window.GITA3_COMMENTARY = {
       "school": "Bhakti / Advaita",
       "work": "Subodhinī",
       "locus": "3.36",
-      "sanskrit": "tayor na vaśam āgacchet [gītā 3.34] ity uktam | tad etad aśakyaṃ manvāno 'rjuna uvāca atheti | vṛṣṇer vaṃśe avatīrṇo vārṣṇeyaḥ | he vārṣṇeya ! anartha-rūpaṃ pāpaṃ kartum icchann api kena prayuktaḥ prerito 'yaṃ puruṣaḥ pāpaṃ carati ? kāma-krodhau viveka-balena niruddhato 'pi puruṣasya punaḥ pāpe pravṛtti-darśanāt | anyo 'pi tayor mūlabhūtaḥ kaścit pravartako bhaved iti sambhāvanayā praśnaḥ",
+      "sanskrit": "tayor na vaśam āgacchet [gītā 3.34] ity uktam | tad etad aśakyaṃ manvāno 'rjuna uvāca atheti | vṛṣṇer vaṃśe avatīrṇo vārṣṇeyaḥ | he vārṣṇeya ! anartha-rūpaṃ pāpaṃ kartum anicchann api kena prayuktaḥ prerito 'yaṃ puruṣaḥ pāpaṃ carati ? kāma-krodhau viveka-balena niruddhato 'pi puruṣasya punaḥ pāpe pravṛtti-darśanāt | anyo 'pi tayor mūlabhūtaḥ kaścit pravartako bhaved iti sambhāvanayā praśnaḥ",
       "ourRendering": "‘Let him not come under the sway of those two’ (Gītā 3.34) — so it was said. Thinking this very thing to be impossible, Arjuna says, ‘atha…’. ‘Vārṣṇeya’ is one descended in the lineage of Vṛṣṇi. O Vārṣṇeya! Not wishing to do evil, whose very form is misfortune, even so — by what, impelled — driven — does this man engage in evil? Kāma and krodha, even though held in check by the strength of discrimination — a propensity is seen on the part of the man again towards evil. Some other thing too, being the root of those two, a certain prompter, might be — so: by way of surmising this is the question.",
       "source": "data/sources/sanskrit/vedanta/gretil_bhg4comm_full.txt (GRETIL: corpustei sa_bhagavadgItA-4comm), ad 3.36",
-      "textualNote": "The witness reads anartha-rūpaṃ pāpaṃ kartum icchann api, ‘though wishing to do the harmful deed’, where the verse it glosses reads anicchann api, ‘though NOT wishing’ (BG 3.36d), and Madhusūdana on this same verse glosses kartum anicchann api. The witness reading is nevertheless printed here unaltered: every digital copy of this commentary traces to a single transcription, and no independent edition was found to settle it, so the reading is reported rather than emended.",
+      "textualNote": "The e-text prints kartum icchann api, without the negative. Read as anicchann api on three grounds: the verse being glossed reads anicchann api (BG 3.36d, BORI critical edition); Madhusūdana glosses the same words as kartum anicchann api in this same file; and the printed eight-commentary edition (Pansikar; archive.org bg8commentaries) reads कर्तुमनिच्छन्नपि in its gloss of this verse — an edition independent of the electronic transcription. The likely slip is haplography in kartum-an-icchann.",
       "segments": [
         {
           "from": 0,
@@ -1385,7 +1385,7 @@ window.GITA3_COMMENTARY = {
           "kind": "interpretation"
         }
       ],
-      "english": "{0:Of those two}, {1:not} {2:into the sway} {3:let him come}’ {4:(Gītā 3.34)} {5,6:— so it was said}. {7,8:This very thing} {9:being impossible}, {10:thinking}, {11:Arjuna} {12:says}, ‘{13:atha}…’ {14:thus}. ‘{18:Vārṣṇeya}’ {17:is one descended} {16:in the lineage} {15:of Vṛṣṇi}. {19:O} {20:Vārṣṇeya}! {24:Wishing} {23:to do} {22:evil}, {21:whose very form is misfortune}, {25:even so}, {26:by what}, {27:impelled} — {28:driven} — {29:does} {30:this man} {32:engage in} {31:evil}? {33:Kāma and krodha}, {35,36:even though held in check} {34:by the strength of discrimination} — {40:a propensity is seen} {37:on the part of the man} {38:again} {39:towards evil}. {41,42:Some other thing too}, {44:being the root} {43:of those two}, {45:a certain} {46:prompter}, {47:might be} — {48:so}: {49:by way of surmising this} {50:is the question}.",
+      "english": "{0:Of those two}, {1:not} {2:into the sway} {3:let him come}’ {4:(Gītā 3.34)} {5,6:— so it was said}. {7,8:This very thing} {9:being impossible}, {10:thinking}, {11:Arjuna} {12:says}, ‘{13:atha}…’ {14:thus}. ‘{18:Vārṣṇeya}’ {17:is one descended} {16:in the lineage} {15:of Vṛṣṇi}. {19:O} {20:Vārṣṇeya}! {24:Not wishing} {23:to do} {22:evil}, {21:whose very form is misfortune}, {25:even so}, {26:by what}, {27:impelled} — {28:driven} — {29:does} {30:this man} {32:engage in} {31:evil}? {33:Kāma and krodha}, {35,36:even though held in check} {34:by the strength of discrimination} — {40:a propensity is seen} {37:on the part of the man} {38:again} {39:towards evil}. {41,42:Some other thing too}, {44:being the root} {43:of those two}, {45:a certain} {46:prompter}, {47:might be} — {48:so}: {49:by way of surmising this} {50:is the question}.",
       "words": [
         {
           "i": 0,
@@ -1768,12 +1768,16 @@ window.GITA3_COMMENTARY = {
         },
         {
           "i": 24,
-          "iast": "icchan",
-          "gloss": "wishing",
-          "morph": "nom. sg. masc.; pres. act. part.",
+          "iast": "anicchan",
+          "gloss": "not wishing",
+          "morph": "nom. sg. masc.; pres. act. part., negated",
           "root": "√iṣ",
           "rootGloss": "to wish, to desire, to seek",
           "parts": [
+            {
+              "form": "an-",
+              "gloss": "not"
+            },
             {
               "form": "√iṣ",
               "gloss": "to wish, to desire"
@@ -1782,8 +1786,7 @@ window.GITA3_COMMENTARY = {
               "form": "-at",
               "gloss": "(present active participle)"
             }
-          ],
-          "note": "The witness reads icchan, ‘wishing’. The verse being glossed reads anicchann api, ‘though not wishing’ (BG 3.36d), and Madhusūdana glosses the same words as kartum anicchann api. The witness form is printed here as it stands; no independent edition was found that reads otherwise."
+          ]
         },
         {
           "i": 25,
