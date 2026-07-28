@@ -150,12 +150,22 @@ html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; 
   overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 2px;
 }
 .voicebar-chips::-webkit-scrollbar { height: 0; }
-/* Inside the app's Article pane the column is narrow at any window size, and
-   a reading now carries up to ten voices. Wrap them onto as many rows as they
-   need — every voice visible at once beats a sideways scroll nobody finds. */
-.gita-reader .voicebar { align-items: flex-start; }
-.gita-reader .voicebar-label { padding-top: 6px; }
-.gita-reader .voicebar-chips { flex-wrap: wrap; overflow: visible; }
+/* One row, always: the chips scroll sideways rather than wrapping. Wrapping
+   ten voices ate several rows of vertical space above the verse on a phone.
+   The fade below signals there is more to the right. */
+.gita-reader .voicebar { align-items: center; }
+.gita-reader .voicebar-chips {
+  flex-wrap: nowrap;
+  scroll-snap-type: x proximity;
+  scroll-padding-left: 4px;
+}
+.gita-reader .voicebar-chips .vchip { scroll-snap-align: start; }
+/* Mask the right edge so a half-visible chip reads as "scrollable", not
+   "clipped" — the complaint that started this was chips that looked cut off. */
+.gita-reader .voicebar {
+  -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 22px), transparent 100%);
+  mask-image: linear-gradient(to right, #000 calc(100% - 22px), transparent 100%);
+}
 .vchip {
   flex: none; cursor: pointer; white-space: nowrap; display: inline-flex; align-items: center;
   font-family: var(--sans); font-size: 12.5px; color: var(--ink-soft);

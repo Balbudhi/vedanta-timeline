@@ -4045,6 +4045,20 @@ function inlineMarkdown(s) {
 // The transformation runs in source space (before HTML-escaping). It only
 // touches text that already contains a `(cite://…)` URL, so non-citation
 // prose is never altered.
+// A bare citation carries no visible text, so derive a readable one from the
+// key itself: cite://nagarjuna/mula-madhyamaka-karika/3.1 → "Mula Madhyamaka
+// Karika 3.1". Slugs cannot carry diacritics, so this is a fallback label —
+// numberCitations replaces it with a numbered superscript wherever footnotes
+// are on, and the footnote row shows the resolved passage.
+function citeLabelFromKey(url) {
+  const parts = String(url).replace(/^cite:\/\//, "").split("/").filter(Boolean);
+  if (!parts.length) return "citation";
+  const locus = parts.length > 2 ? parts[parts.length - 1] : "";
+  const work = parts.length > 1 ? parts[parts.length - 2] : parts[0];
+  const pretty = work.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  return locus ? `${pretty} ${locus}` : pretty;
+}
+
 function normalizeCitationSyntax(s) {
   if (s == null) return s;
   let out = String(s);
@@ -4052,6 +4066,22 @@ function normalizeCitationSyntax(s) {
   out = out.replace(
     /\[((?:\[[^\]]+?\]\(cite:\/\/[^)\n]+\)(?:[;,]?\s*)?)+)\]/g,
     "$1",
+  );
+  //   3. Bare bracketed citation     → `[cite://X]`  → `[label](cite://X)`
+  //      (and chained `[cite://X, cite://Y]`.) This form has no visible text
+  //      and no parentheses, so neither the URL regex nor rule 2 matched it —
+  //      it reached the reader as literal "[cite://…]" markup. 148 of these
+  //      sit in data/glossary alone.
+  // Keys may contain spaces (…/mayavada-khandana/Upaniṣad 1.3.10), so the key
+  // charset excludes only the separators and the closing bracket.
+  out = out.replace(
+    /\[((?:cite:\/\/[^\],;]+)(?:\s*[;,]\s*cite:\/\/[^\],;]+)*)\]/g,
+    (_m, inner) => inner
+      .split(/\s*[;,]\s*/)
+      .map((k) => k.trim())
+      .filter(Boolean)
+      .map((k) => `[${citeLabelFromKey(k)}](${k})`)
+      .join(" "),
   );
   return out;
 }

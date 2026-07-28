@@ -947,6 +947,13 @@ body.is-reading-mode .dp-min { display: inline-flex; }
   flex: 1;
   overflow-y: auto;
   min-height: 0;
+  /* min-width:0 for the same reason as min-height:0 — a flex item defaults to
+     min-width:auto and will not shrink below its content's min-content width.
+     Anything inside that cannot wrap (a single-row chip rail, a wide table)
+     would otherwise force this pane wider than the viewport, and since the
+     ancestors clip overflow the excess is unreachable: text simply cut off at
+     the right edge on a phone. */
+  min-width: 0;
   font-size: 14px;
   line-height: 1.55;
 }
@@ -1448,7 +1455,13 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
    text edge-to-edge, and hide the now-redundant "Read full screen" button. */
 body.is-reading-mode #dpArticleHead,
 body.is-reading-mode #dpArticleBody {
-  max-width: 820px; margin-left: auto; margin-right: auto;
+  /* min(820px, 100%), not 820px: this is a flex item, so its base size comes
+     from its content and a bare max-width becomes the *used* width whenever
+     the content is wider than the phone. The pane then rendered 820px inside a
+     390px viewport, and because the ancestors clip overflow, every line was
+     chopped off at the right edge with no way to scroll to it. */
+  max-width: min(820px, 100%);
+  margin-left: auto; margin-right: auto;
 }
 body.is-reading-mode #dpArticleBody { padding-bottom: 96px; }
 body.is-reading-mode .dp-standalone { display: none; }
