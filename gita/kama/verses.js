@@ -1,5 +1,5 @@
 /* =============================================================
-   Bhagavad-Gītā 3.36–43 — kāma, the enemy (close of adhyāya III).
+   Bhagavad-Gītā 3.36–43 (close of adhyāya III).
    window.GITA3_VERSES — one object per verse.
    Schema + policy: docs/SANSKRIT_TRANSLATION_STANDARD.md (§3 data, §6
    Pāṇinian formalism, §7 faithful rendering, §8 preserve/translate).

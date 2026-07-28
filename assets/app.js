@@ -4812,7 +4812,7 @@ const GITA_READINGS = {
     base: "gita/kama/",
     files: ["verses.js", "commentaries.js"],
     title: "Bhagavad-Gītā 3.36–43",
-    blurb: "<em>kāma</em>, the enemy — word by word, with Śaṅkara, Rāmānuja and Madhva in their own voices.",
+    blurb: "Word by word, with Śaṅkara, Rāmānuja and Madhva in their own voices.",
     // No recitation clip and no Aurobindo or cross-tradition material for this
     // passage yet; the reader renders without those bars when they are absent.
     data: () => ({
