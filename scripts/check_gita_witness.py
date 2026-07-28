@@ -34,14 +34,27 @@ REPO = pathlib.Path(__file__).resolve().parent.parent
 # Orthography that carries no textual information at this level of comparison.
 _INVISIBLE = "­​‌‍"          # soft hyphen, ZWSP, ZWNJ, ZWJ
 _AVAGRAHA = "’‘'`ʼ"
-_PUNCT = r"[-–—|।॥!?,.;:()\[\]\"“”/]"
+_PUNCT = r"[-–—|।॥!?,.;:()\[\]\"“”/&*]"
 
 DEVANAGARI = re.compile(r"[ऀ-ॿ]")
+
+
+# Reference apparatus the e-texts interleave with the text itself: GRETIL's
+# "|| ys_2.7 ||" / "BhGS_3.36" / "Bhg_03.036a" sigla and the critical
+# edition's "[=MBh_06,025.036a]" concordance. A passage that spans two
+# numbered units has these sitting in the middle of it.
+_REFS = [
+    re.compile(r"\[=[^\]]*\]"),
+    re.compile(r"\b[A-Za-zĀ-ž]{2,12}_\d+[.,]\d+[a-z]?\b"),
+    re.compile(r"\d+"),   # bare verse numbers: GRETIL's "// 426 //", "||37||"
+]
 
 
 def fold(text: str) -> str:
     """Reduce Sanskrit to the bare letter stream editions agree on."""
     text = unicodedata.normalize("NFC", text)
+    for pattern in _REFS:
+        text = pattern.sub(" ", text)
     text = "".join(ch for ch in text if ch not in _INVISIBLE)
     text = re.sub(f"[{_AVAGRAHA}]", "", text)
     text = re.sub(_PUNCT, "", text)
@@ -64,11 +77,18 @@ def load_reading(path: pathlib.Path) -> tuple[dict, list]:
       for (const f of {json.dumps([str(p) for p in sorted(path.glob("*.js"))])}) {{
         try {{ eval(fs.readFileSync(f, "utf8")); }} catch (e) {{}}
       }}
-      const commentary = {{}};
+      const commentary = {{}}, parallels = {{}};
       let verses = [];
       for (const k in global.window) {{
         if (/COMMENTARY$/.test(k)) Object.assign(commentary, global.window[k]);
+        if (/PARALLELS$/.test(k)) Object.assign(parallels, global.window[k]);
         if (/VERSES$/.test(k)) verses = global.window[k];
+      }}
+      // A parallel quotes another tradition's text, so it is held to the same
+      // standard as a commentary entry: verbatim against its own witness.
+      for (const loc in parallels) {{
+        commentary[loc] = (commentary[loc] || []).concat(parallels[loc].map(p =>
+          Object.assign({{}}, p, {{ author: (p.school || "parallel") + " · " + (p.work || "") }})));
       }}
       process.stdout.write(JSON.stringify({{ commentary, verses }}));
     """
@@ -96,6 +116,14 @@ def witness(rel_path: str) -> str | None:
         _witness_cache[rel_path] = None
         return None
     text = full.read_text(encoding="utf-8", errors="replace")
+    # SuttaCentral Pali witnesses are JSON: {"dhp90:1": "Gataddhino visokassa, ", …}.
+    # The passage runs across several keyed segments, so join the values and
+    # drop the keys — otherwise no multi-line quotation can ever match.
+    if full.suffix == ".json":
+        try:
+            text = " ".join(str(v) for v in json.loads(text).values())
+        except (json.JSONDecodeError, AttributeError):
+            pass
     sample = text[:200000]
     if len(DEVANAGARI.findall(sample)) > 200:
         from indic_transliteration import sanscript
