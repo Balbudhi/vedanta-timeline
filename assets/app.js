@@ -4296,6 +4296,17 @@ if (readingModeBtn) {
 }
 // In full-screen reading mode, the panel's minimize button drops back to the
 // in-panel view (keeps the panel open; just exits full screen).
+// Full-screen reading mode hides #dpArticleHead, and with it the Share button
+// that lives there — which is precisely the mode a phone reader is in. So the
+// reading-mode header carries its own.
+const dpShareBtn = document.getElementById("dpShare");
+if (dpShareBtn) {
+  dpShareBtn.addEventListener("click", () => {
+    const label = dpShareBtn.querySelector(".dp-min-label") || dpShareBtn;
+    shareCurrentView(dpTabTitle?.textContent || document.title, label, "Copied ✓");
+  });
+}
+
 const dpMinimizeBtn = document.getElementById("dpMinimize");
 if (dpMinimizeBtn) {
   dpMinimizeBtn.addEventListener("click", () => setReadingMode(false));
@@ -4821,6 +4832,31 @@ const GITA_READINGS = {
   },
 };
 
+// Share the exact view the reader is looking at. The router already mirrors
+// every navigable state into the hash, so location.href IS the shareable
+// address — the only thing missing was a way to get at it on a phone, where
+// there is no address bar to copy from. Native share sheet when the browser
+// has one, clipboard otherwise, and the button says which happened.
+async function shareCurrentView(title, labelEl, doneText) {
+  const url = location.href;
+  const original = labelEl ? labelEl.textContent : "";
+  if (navigator.share) {
+    try { await navigator.share({ title: title || document.title, url }); return; }
+    catch (e) { if (e && e.name === "AbortError") return; }   // user dismissed the sheet
+  }
+  try {
+    await navigator.clipboard.writeText(url);
+    if (labelEl) {
+      labelEl.textContent = doneText || "Link copied ✓";
+      setTimeout(() => { labelEl.textContent = original; }, 1600);
+    }
+  } catch (_) {
+    // Clipboard blocked (insecure context, denied permission) — fall back to a
+    // selectable field so the link is still gettable by hand.
+    window.prompt("Copy this link:", url);
+  }
+}
+
 async function openGitaReading(slug) {
   const reading = GITA_READINGS[slug];
   if (!reading) return;
@@ -4835,11 +4871,14 @@ async function openGitaReading(slug) {
     dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
       <p class="dp-title">${reading.title}</p>
       <p class="dp-attrib">${reading.blurb}</p>
-      <button class="dp-standalone" id="gitaFullBtn" type="button">Read full screen ⤢</button>`;
+      <button class="dp-standalone" id="gitaFullBtn" type="button">Read full screen ⤢</button>
+      <button class="dp-standalone" id="gitaShareBtn" type="button">Share link</button>`;
     // Full screen = the app's in-app reading mode (keeps the real site glossary),
     // not the old external standalone page.
     const fullBtn = document.getElementById("gitaFullBtn");
     if (fullBtn) fullBtn.addEventListener("click", () => setReadingMode(true));
+    const shareBtn = document.getElementById("gitaShareBtn");
+    if (shareBtn) shareBtn.addEventListener("click", () => shareCurrentView(reading.title, shareBtn));
   }
   if (window.GitaReader && dpArticleBody) {
     window.GitaReader.render(dpArticleBody, {
