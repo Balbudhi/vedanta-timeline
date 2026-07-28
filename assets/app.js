@@ -4810,15 +4810,13 @@ const GITA_READINGS = {
   },
   "gita-kama": {
     base: "gita/kama/",
-    files: ["verses.js", "commentaries.js", "aurobindo.js", "parallels.js"],
+    files: ["verses.js", "audio.js", "commentaries.js", "aurobindo.js", "parallels.js"],
     title: "Bhagavad-Gītā 3.36–43",
     blurb: "Word by word, with the commentators in their own voices.",
-    // No recitation clip for this passage yet; the reader renders without the
-    // audio bar when it is absent.
     data: () => ({
       verses: window.GITA3_VERSES, commentary: window.GITA3_COMMENTARY,
       aurobindo: window.GITA3_AUROBINDO, parallels: window.GITA3_PARALLELS,
-      audio: null,
+      audio: window.GITA3_AUDIO,
     }),
   },
 };
