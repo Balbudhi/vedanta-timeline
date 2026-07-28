@@ -35,7 +35,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "atha", "gloss": "now, next, thereupon; and so" }
+          {
+            "form": "atha",
+            "gloss": "now, next, thereupon; and so"
+          }
         ],
         "note": "Madhva reads it as arthāntara — the marker of a new topic — and ties the question back to 3.34 (‘let him not come under the sway of those two’)."
       },
@@ -52,8 +55,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ka-", "gloss": "the interrogative stem: who?, what?" },
-          { "form": "-ena", "gloss": "(instrumental singular: ‘by’)" }
+          {
+            "form": "ka-",
+            "gloss": "the interrogative stem: who?, what?"
+          },
+          {
+            "form": "-ena",
+            "gloss": "(instrumental singular: ‘by’)"
+          }
         ],
         "note": "Masculine and neuter are formally identical here; Arjuna's question leaves it open whether the impelling thing is a who or a what."
       },
@@ -71,9 +80,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "pra-", "gloss": "forth, forward; onward into action" },
-          { "form": "√yuj", "gloss": "to yoke, to harness, to set to a task" },
-          { "form": "-ta", "gloss": "(past passive participle: ‘having been —ed’)" }
+          {
+            "form": "pra-",
+            "gloss": "forth, forward; onward into action"
+          },
+          {
+            "form": "√yuj",
+            "gloss": "to yoke, to harness, to set to a task"
+          },
+          {
+            "form": "-ta",
+            "gloss": "(past passive participle: ‘having been —ed’)"
+          }
         ],
         "note": "Śaṅkara supplies the image the participle carries: ‘set to it as a servant is by a king’ (rājñeva bhṛtyaḥ)."
       },
@@ -90,7 +108,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "idam", "gloss": "this, this one here (proximate demonstrative)" }
+          {
+            "form": "idam",
+            "gloss": "this, this one here (proximate demonstrative)"
+          }
         ],
         "sandhi": "prayukto 'yam ← prayuktaḥ + ayam (visarga → o before a-, and the a- elided as 'a)"
       },
@@ -107,7 +128,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "pāpa", "gloss": "evil, bad, wrong; evil-doing, wickedness" }
+          {
+            "form": "pāpa",
+            "gloss": "evil, bad, wrong; evil-doing, wickedness"
+          }
         ],
         "note": "Śaṅkara supplies the noun: pāpaṃ karma, ‘evil action’. Rāmānuja narrows it to the specific evil in view — the pull back into sense-experience that wrecks jñāna-yoga."
       },
@@ -125,9 +149,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "√car", "gloss": "to move, to roam; to engage in, to practise" },
-          { "form": "-a-", "gloss": "(śap, the present-stem marker of the bhvādi class)" },
-          { "form": "-ti", "gloss": "(3rd person singular, active)" }
+          {
+            "form": "√car",
+            "gloss": "to move, to roam; to engage in, to practise"
+          },
+          {
+            "form": "-a-",
+            "gloss": "(śap, the present-stem marker of the bhvādi class)"
+          },
+          {
+            "form": "-ti",
+            "gloss": "(3rd person singular, active)"
+          }
         ],
         "note": "√car takes an object here, so the sense is engagement — ‘practises evil’ — not the merely spatial ‘moves’. Śaṅkara glosses it with ācarati, ‘carries out’."
       },
@@ -144,7 +177,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "pūruṣa", "gloss": "man, person, human being" }
+          {
+            "form": "pūruṣa",
+            "gloss": "man, person, human being"
+          }
         ],
         "note": "Śaṅkara equates the forms outright — ‘pūruṣaḥ puruṣaḥ’. Here the word is the ordinary ‘man’, not the puruṣa of Sāṅkhya."
       },
@@ -162,10 +198,22 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "an-", "gloss": "not (the negative prefix nañ, an- before a vowel)" },
-          { "form": "√iṣ", "gloss": "to wish, to want, to desire" },
-          { "form": "-cch-", "gloss": "(śa, the present-stem marker of the tudādi class, with the ch of icchati)" },
-          { "form": "-at", "gloss": "(present active participle: ‘—ing’)" }
+          {
+            "form": "an-",
+            "gloss": "not (the negative prefix nañ, an- before a vowel)"
+          },
+          {
+            "form": "√iṣ",
+            "gloss": "to wish, to want, to desire"
+          },
+          {
+            "form": "-cch-",
+            "gloss": "(śa, the present-stem marker of the tudādi class, with the ch of icchati)"
+          },
+          {
+            "form": "-at",
+            "gloss": "(present active participle: ‘—ing’)"
+          }
         ],
         "sandhi": "anicchann api ← anicchan + api (n doubled before a vowel after a short vowel)"
       },
@@ -182,7 +230,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "api", "gloss": "even, also; although (concessive, after a participle)" }
+          {
+            "form": "api",
+            "gloss": "even, also; although (concessive, after a participle)"
+          }
         ]
       },
       {
@@ -198,8 +249,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "vṛṣṇi", "gloss": "Vṛṣṇi, the Yādava clan-ancestor" },
-          { "form": "-eya", "gloss": "(taddhita ḍhak: ‘descendant of —’, with vṛddhi of the first vowel)" }
+          {
+            "form": "vṛṣṇi",
+            "gloss": "Vṛṣṇi, the Yādava clan-ancestor"
+          },
+          {
+            "form": "-eya",
+            "gloss": "(taddhita ḍhak: ‘descendant of —’, with vṛddhi of the first vowel)"
+          }
         ],
         "note": "Śaṅkara reads the epithet out: vṛṣṇi-kula-prasūta, ‘born in the line of Vṛṣṇi’."
       },
@@ -216,8 +273,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "bala", "gloss": "strength, force, might" },
-          { "form": "-āt", "gloss": "(ablative singular: ‘from’, here of cause)" }
+          {
+            "form": "bala",
+            "gloss": "strength, force, might"
+          },
+          {
+            "form": "-āt",
+            "gloss": "(ablative singular: ‘from’, here of cause)"
+          }
         ]
       },
       {
@@ -233,7 +296,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "iva", "gloss": "like, as if, as it were" }
+          {
+            "form": "iva",
+            "gloss": "like, as if, as it were"
+          }
         ],
         "note": "iva keeps the coercion a comparison, not a claim: the man is not literally harnessed by another — he acts, and yet as though driven."
       },
@@ -251,10 +317,22 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ni-", "gloss": "down, into; fastened down onto" },
-          { "form": "√yuj", "gloss": "to yoke, to harness, to set to a task" },
-          { "form": "-i-", "gloss": "(ṇic, the causative marker: ‘to make —’)" },
-          { "form": "-ta", "gloss": "(past passive participle: ‘having been —ed’)" }
+          {
+            "form": "ni-",
+            "gloss": "down, into; fastened down onto"
+          },
+          {
+            "form": "√yuj",
+            "gloss": "to yoke, to harness, to set to a task"
+          },
+          {
+            "form": "-i-",
+            "gloss": "(ṇic, the causative marker: ‘to make —’)"
+          },
+          {
+            "form": "-ta",
+            "gloss": "(past passive participle: ‘having been —ed’)"
+          }
         ],
         "note": "The causative is the point of the verse: someone made him do it. Arjuna's question is who or what that someone is."
       }
@@ -264,7 +342,6 @@ window.GITA3_VERSES = [
       "verbalModality": "One finite verb, carati (laṭ, present indicative) — the evil-doing is stated as ongoing fact, not as possibility. The two participles (prayuktaḥ, niyojitaḥ) are both passive: the man is grammatically done-to even while he is the one acting."
     }
   },
-
   {
     "locus": "3.37",
     "speaker": "krishna",
@@ -288,8 +365,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "kama",
         "translatable": false,
         "parts": [
-          { "form": "√kam", "gloss": "to wish, to long for, to desire" },
-          { "form": "-a", "gloss": "(ghañ, forming the action-noun with vṛddhi: ‘the wanting’)" }
+          {
+            "form": "√kam",
+            "gloss": "to wish, to long for, to desire"
+          },
+          {
+            "form": "-a",
+            "gloss": "(ghañ, forming the action-noun with vṛddhi: ‘the wanting’)"
+          }
         ],
         "note": "Rāmānuja specifies it as kāma for the objects of sense (śabdādi-viṣaya), thrown up by prior vāsanās."
       },
@@ -306,7 +389,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "etad", "gloss": "this, this here (the nearer demonstrative)" }
+          {
+            "form": "etad",
+            "gloss": "this, this here (the nearer demonstrative)"
+          }
         ],
         "sandhi": "kāma eṣa ← kāmaḥ + eṣaḥ (visarga → a before e; and eṣaḥ → eṣa before a following consonant)"
       },
@@ -324,8 +410,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "krodha",
         "translatable": true,
         "parts": [
-          { "form": "√krudh", "gloss": "to be angry, to grow wroth" },
-          { "form": "-a", "gloss": "(ghañ, forming the action-noun with guṇa: ‘the being-angry’)" }
+          {
+            "form": "√krudh",
+            "gloss": "to be angry, to grow wroth"
+          },
+          {
+            "form": "-a",
+            "gloss": "(ghañ, forming the action-noun with guṇa: ‘the being-angry’)"
+          }
         ],
         "note": "Śaṅkara: the same kāma, when blocked by something, turns into anger — so the two are one enemy under two aspects. Madhva presses it further: without kāma no anger arises at all."
       },
@@ -342,7 +434,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "etad", "gloss": "this, this here (the nearer demonstrative)" }
+          {
+            "form": "etad",
+            "gloss": "this, this here (the nearer demonstrative)"
+          }
         ]
       },
       {
@@ -361,13 +456,29 @@ window.GITA3_VERSES = [
         "compound": {
           "type": "bahuvrīhi (with a karmadhāraya first member)",
           "vigraha": "rajaś ca sa guṇaś ca rajo-guṇaḥ; rajo-guṇaḥ samudbhavo yasya saḥ",
-          "members": ["rajas", "guṇa", "samudbhava"]
+          "members": [
+            "rajas",
+            "guṇa",
+            "samudbhava"
+          ]
         },
         "parts": [
-          { "form": "rajas", "gloss": "rajas — the guṇa of motion, urge and restlessness" },
-          { "form": "guṇa", "gloss": "guṇa — one of the three constitutive strands of prakṛti" },
-          { "form": "sam-ud-√bhū", "gloss": "to arise fully up out of; to originate" },
-          { "form": "-a", "gloss": "(the action-noun ending: ‘the arising’)" }
+          {
+            "form": "rajas",
+            "gloss": "rajas — the guṇa of motion, urge and restlessness"
+          },
+          {
+            "form": "guṇa",
+            "gloss": "guṇa — one of the three constitutive strands of prakṛti"
+          },
+          {
+            "form": "sam-ud-√bhū",
+            "gloss": "to arise fully up out of; to originate"
+          },
+          {
+            "form": "-a",
+            "gloss": "(the action-noun ending: ‘the arising’)"
+          }
         ],
         "note": "Śaṅkara offers the alternative reading too — either ‘whose origin is the guṇa rajas’ (bahuvrīhi) or ‘the arising of the guṇa rajas’ (ṣaṣṭhī-tatpuruṣa), since kāma once risen sets rajas going."
       },
@@ -387,12 +498,24 @@ window.GITA3_VERSES = [
         "compound": {
           "type": "bahuvrīhi",
           "vigraha": "mahad aśanaṃ yasya saḥ",
-          "members": ["mahat", "aśana"]
+          "members": [
+            "mahat",
+            "aśana"
+          ]
         },
         "parts": [
-          { "form": "mahā-", "gloss": "great, vast (the compounding form of mahat)" },
-          { "form": "√aś", "gloss": "to eat, to consume, to devour" },
-          { "form": "-ana", "gloss": "(lyuṭ, the action-noun: ‘eating’)" }
+          {
+            "form": "mahā-",
+            "gloss": "great, vast (the compounding form of mahat)"
+          },
+          {
+            "form": "√aś",
+            "gloss": "to eat, to consume, to devour"
+          },
+          {
+            "form": "-ana",
+            "gloss": "(lyuṭ, the action-noun: ‘eating’)"
+          }
         ],
         "note": "Śaṅkara's vigraha is exactly this — mahad aśanam asyeti mahāśanaḥ. Madhva turns it the other way: what kāma has to eat is itself vast."
       },
@@ -411,11 +534,20 @@ window.GITA3_VERSES = [
         "compound": {
           "type": "bahuvrīhi",
           "vigraha": "mahān pāpmā yasya saḥ",
-          "members": ["mahat", "pāpman"]
+          "members": [
+            "mahat",
+            "pāpman"
+          ]
         },
         "parts": [
-          { "form": "mahā-", "gloss": "great, vast (the compounding form of mahat)" },
-          { "form": "pāpman", "gloss": "evil, wickedness; the evil in a person" }
+          {
+            "form": "mahā-",
+            "gloss": "great, vast (the compounding form of mahat)"
+          },
+          {
+            "form": "pāpman",
+            "gloss": "evil, wickedness; the evil in a person"
+          }
         ],
         "note": "Śaṅkara grounds it in the causal chain: driven by kāma a creature does evil. Madhva makes it the cause of the gravest evils of all, brahmin-killing and the like."
       },
@@ -433,8 +565,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "√vid", "gloss": "to know, to be aware of, to recognize" },
-          { "form": "-dhi", "gloss": "(hi, the 2nd-singular imperative, as -dhi after a consonant)" }
+          {
+            "form": "√vid",
+            "gloss": "to know, to be aware of, to recognize"
+          },
+          {
+            "form": "-dhi",
+            "gloss": "(hi, the 2nd-singular imperative, as -dhi after a consonant)"
+          }
         ],
         "sandhi": "viddhy enam ← viddhi + enam (i → y before a dissimilar vowel)"
       },
@@ -451,7 +589,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "enad", "gloss": "him, this one (the unstressed anaphoric pronoun, only ever non-initial)" }
+          {
+            "form": "enad",
+            "gloss": "him, this one (the unstressed anaphoric pronoun, only ever non-initial)"
+          }
         ]
       },
       {
@@ -467,7 +608,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "iha", "gloss": "here, in this place, in this world" }
+          {
+            "form": "iha",
+            "gloss": "here, in this place, in this world"
+          }
         ],
         "note": "Śaṅkara reads iha as iha saṃsāre — ‘here in saṃsāra’."
       },
@@ -484,8 +628,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "vaira", "gloss": "enmity, hostility, feud" },
-          { "form": "-in", "gloss": "(taddhita ini: ‘the one who has —’)" }
+          {
+            "form": "vaira",
+            "gloss": "enmity, hostility, feud"
+          },
+          {
+            "form": "-in",
+            "gloss": "(taddhita ini: ‘the one who has —’)"
+          }
         ],
         "note": "Madhva gives the reason for the word: it opposes every one of the puruṣārthas, the ends a human life is for."
       }
@@ -495,7 +645,6 @@ window.GITA3_VERSES = [
       "verbalModality": "One finite form only, and it is an imperative (loṭ): the verse does not argue, it identifies and commands recognition. Everything else is nominal apposition piling up epithets on the one named thing."
     }
   },
-
   {
     "locus": "3.38",
     "speaker": "krishna",
@@ -518,8 +667,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "dhūma", "gloss": "smoke" },
-          { "form": "-ena", "gloss": "(instrumental singular: ‘by, with’)" }
+          {
+            "form": "dhūma",
+            "gloss": "smoke"
+          },
+          {
+            "form": "-ena",
+            "gloss": "(instrumental singular: ‘by, with’)"
+          }
         ],
         "note": "Śaṅkara marks the smoke as sahaja — born together with the fire, not added to it from outside. The image is chosen for that."
       },
@@ -537,10 +692,22 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ā-", "gloss": "all over, right around" },
-          { "form": "√vṛ", "gloss": "to cover, to enclose, to veil" },
-          { "form": "-ya-", "gloss": "(yak, the passive marker)" },
-          { "form": "-te", "gloss": "(3rd person singular, ātmanepada)" }
+          {
+            "form": "ā-",
+            "gloss": "all over, right around"
+          },
+          {
+            "form": "√vṛ",
+            "gloss": "to cover, to enclose, to veil"
+          },
+          {
+            "form": "-ya-",
+            "gloss": "(yak, the passive marker)"
+          },
+          {
+            "form": "-te",
+            "gloss": "(3rd person singular, ātmanepada)"
+          }
         ]
       },
       {
@@ -557,8 +724,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "√vah", "gloss": "to carry, to bear, to convey" },
-          { "form": "-ni", "gloss": "(kṛt ni: ‘the carrier’ — fire as what bears the offering)" }
+          {
+            "form": "√vah",
+            "gloss": "to carry, to bear, to convey"
+          },
+          {
+            "form": "-ni",
+            "gloss": "(kṛt ni: ‘the carrier’ — fire as what bears the offering)"
+          }
         ],
         "note": "Śaṅkara sets the terms in opposition: fire is prakāśātmaka, of the nature of light; smoke aprakāśātmaka, of the nature of not-light."
       },
@@ -575,8 +748,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "yad", "gloss": "which, what (the relative stem)" },
-          { "form": "-thā", "gloss": "(taddhita thāl: ‘in the manner of —’)" }
+          {
+            "form": "yad",
+            "gloss": "which, what (the relative stem)"
+          },
+          {
+            "form": "-thā",
+            "gloss": "(taddhita thāl: ‘in the manner of —’)"
+          }
         ]
       },
       {
@@ -593,9 +772,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ā-", "gloss": "back, towards (the seeing turned back on itself)" },
-          { "form": "√dṛś", "gloss": "to see, to look at, to behold" },
-          { "form": "-a", "gloss": "(ghañ, forming the instrument-noun with vṛddhi: ‘what one sees by’)" }
+          {
+            "form": "ā-",
+            "gloss": "back, towards (the seeing turned back on itself)"
+          },
+          {
+            "form": "√dṛś",
+            "gloss": "to see, to look at, to behold"
+          },
+          {
+            "form": "-a",
+            "gloss": "(ghañ, forming the instrument-noun with vṛddhi: ‘what one sees by’)"
+          }
         ],
         "sandhi": "yathādarśaḥ ← yathā + ādarśaḥ (ā + ā → ā)",
         "note": "Madhva takes the mirror as the antaḥkaraṇa: dirtied, it stops being the thing by which something else shows up."
@@ -613,8 +801,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "mala", "gloss": "dirt, filth, impurity, tarnish" },
-          { "form": "-ena", "gloss": "(instrumental singular: ‘by, with’)" }
+          {
+            "form": "mala",
+            "gloss": "dirt, filth, impurity, tarnish"
+          },
+          {
+            "form": "-ena",
+            "gloss": "(instrumental singular: ‘by, with’)"
+          }
         ]
       },
       {
@@ -630,7 +824,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ca", "gloss": "and, also (enclitic — never first in its clause)" }
+          {
+            "form": "ca",
+            "gloss": "and, also (enclitic — never first in its clause)"
+          }
         ]
       },
       {
@@ -646,8 +843,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "yad", "gloss": "which, what (the relative stem)" },
-          { "form": "-thā", "gloss": "(taddhita thāl: ‘in the manner of —’)" }
+          {
+            "form": "yad",
+            "gloss": "which, what (the relative stem)"
+          },
+          {
+            "form": "-thā",
+            "gloss": "(taddhita thāl: ‘in the manner of —’)"
+          }
         ]
       },
       {
@@ -663,7 +866,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ulba", "gloss": "the caul, the amnion; the membrane around the embryo" }
+          {
+            "form": "ulba",
+            "gloss": "the caul, the amnion; the membrane around the embryo"
+          }
         ],
         "sandhi": "yatholbena ← yathā + ulbena (ā + u → o)",
         "note": "Śaṅkara glosses it jarāyu, garbha-veṣṭana — the womb-wrapping. This third image is the strongest: the covering is total and the covered thing has never yet been seen."
@@ -682,9 +888,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ā-", "gloss": "all over, right around" },
-          { "form": "√vṛ", "gloss": "to cover, to enclose, to veil" },
-          { "form": "-ta", "gloss": "(past passive participle: ‘having been —ed’)" }
+          {
+            "form": "ā-",
+            "gloss": "all over, right around"
+          },
+          {
+            "form": "√vṛ",
+            "gloss": "to cover, to enclose, to veil"
+          },
+          {
+            "form": "-ta",
+            "gloss": "(past passive participle: ‘having been —ed’)"
+          }
         ]
       },
       {
@@ -700,7 +915,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "garbha", "gloss": "womb; what is in the womb, the embryo" }
+          {
+            "form": "garbha",
+            "gloss": "womb; what is in the womb, the embryo"
+          }
         ],
         "note": "Madhva reads the image allegorically: as the caul binds the embryo, so kāma binds the jīva."
       },
@@ -717,8 +935,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "tad", "gloss": "that (the correlative stem)" },
-          { "form": "-thā", "gloss": "(taddhita thāl: ‘in the manner of —’)" }
+          {
+            "form": "tad",
+            "gloss": "that (the correlative stem)"
+          },
+          {
+            "form": "-thā",
+            "gloss": "(taddhita thāl: ‘in the manner of —’)"
+          }
         ]
       },
       {
@@ -734,8 +958,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "tad", "gloss": "that, it (the anaphoric demonstrative)" },
-          { "form": "-ena", "gloss": "(instrumental singular: ‘by, with’)" }
+          {
+            "form": "tad",
+            "gloss": "that, it (the anaphoric demonstrative)"
+          },
+          {
+            "form": "-ena",
+            "gloss": "(instrumental singular: ‘by, with’)"
+          }
         ],
         "note": "The referent is left as a pronoun in the verse; both Śaṅkara and Rāmānuja supply kāmena."
       },
@@ -752,7 +982,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "idam", "gloss": "this, this here (proximate demonstrative)" }
+          {
+            "form": "idam",
+            "gloss": "this, this here (proximate demonstrative)"
+          }
         ],
         "note": "Deliberately unspecified — 3.39 takes it up and says what ‘this’ is. Rāmānuja supplies jantu-jātam, ‘the whole race of creatures’; Madhva reads it of the paramātman and the antaḥkaraṇa alike."
       },
@@ -770,9 +1003,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ā-", "gloss": "all over, right around" },
-          { "form": "√vṛ", "gloss": "to cover, to enclose, to veil" },
-          { "form": "-ta", "gloss": "(past passive participle: ‘having been —ed’)" }
+          {
+            "form": "ā-",
+            "gloss": "all over, right around"
+          },
+          {
+            "form": "√vṛ",
+            "gloss": "to cover, to enclose, to veil"
+          },
+          {
+            "form": "-ta",
+            "gloss": "(past passive participle: ‘having been —ed’)"
+          }
         ]
       }
     ],
@@ -781,7 +1023,6 @@ window.GITA3_VERSES = [
       "verbalModality": "One finite verb for the whole verse — āvriyate, present passive. Nothing here is commanded or wished; the covering is stated as what is simply the case."
     }
   },
-
   {
     "locus": "3.39",
     "speaker": "krishna",
@@ -805,9 +1046,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ā-", "gloss": "all over, right around" },
-          { "form": "√vṛ", "gloss": "to cover, to enclose, to veil" },
-          { "form": "-ta", "gloss": "(past passive participle: ‘having been —ed’)" }
+          {
+            "form": "ā-",
+            "gloss": "all over, right around"
+          },
+          {
+            "form": "√vṛ",
+            "gloss": "to cover, to enclose, to veil"
+          },
+          {
+            "form": "-ta",
+            "gloss": "(past passive participle: ‘having been —ed’)"
+          }
         ],
         "note": "Picks up āvṛtam from the end of 3.38 and answers its ‘this’."
       },
@@ -825,8 +1075,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "jnana",
         "translatable": true,
         "parts": [
-          { "form": "√jñā", "gloss": "to know, to understand, to recognize" },
-          { "form": "-ana", "gloss": "(lyuṭ, the action-noun: ‘the knowing’)" }
+          {
+            "form": "√jñā",
+            "gloss": "to know, to understand, to recognize"
+          },
+          {
+            "form": "-ana",
+            "gloss": "(lyuṭ, the action-noun: ‘the knowing’)"
+          }
         ],
         "note": "Śaṅkara takes it as the understanding of the self and the rest, got from śāstra and from a teacher; Rāmānuja as knowledge whose object is the nature of the self."
       },
@@ -843,8 +1099,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "etad", "gloss": "this, this here (the nearer demonstrative)" },
-          { "form": "-ena", "gloss": "(instrumental singular: ‘by, with’)" }
+          {
+            "form": "etad",
+            "gloss": "this, this here (the nearer demonstrative)"
+          },
+          {
+            "form": "-ena",
+            "gloss": "(instrumental singular: ‘by, with’)"
+          }
         ]
       },
       {
@@ -861,8 +1123,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "jnana",
         "translatable": true,
         "parts": [
-          { "form": "jñāna", "gloss": "knowledge, the knowing" },
-          { "form": "-in", "gloss": "(taddhita ini: ‘the one who has —’)" }
+          {
+            "form": "jñāna",
+            "gloss": "knowledge, the knowing"
+          },
+          {
+            "form": "-in",
+            "gloss": "(taddhita ini: ‘the one who has —’)"
+          }
         ],
         "note": "Śaṅkara's point turns on the genitive: kāma is the knower's perpetual enemy and not the fool's, because only the knower sees, at the time of craving, what the craving is doing to him. The fool sees it as a friend and only learns better once the pain arrives."
       },
@@ -881,12 +1149,24 @@ window.GITA3_VERSES = [
         "compound": {
           "type": "karmadhāraya",
           "vigraha": "nityaś cāsau vairī ca — nitya-vairī; tena",
-          "members": ["nitya", "vairin"]
+          "members": [
+            "nitya",
+            "vairin"
+          ]
         },
         "parts": [
-          { "form": "nitya", "gloss": "constant, perpetual, unceasing" },
-          { "form": "vaira", "gloss": "enmity, hostility, feud" },
-          { "form": "-in", "gloss": "(taddhita ini: ‘the one who has —’)" }
+          {
+            "form": "nitya",
+            "gloss": "constant, perpetual, unceasing"
+          },
+          {
+            "form": "vaira",
+            "gloss": "enmity, hostility, feud"
+          },
+          {
+            "form": "-in",
+            "gloss": "(taddhita ini: ‘the one who has —’)"
+          }
         ]
       },
       {
@@ -904,11 +1184,20 @@ window.GITA3_VERSES = [
         "compound": {
           "type": "bahuvrīhi",
           "vigraha": "kāma eva rūpaṃ yasya saḥ — tena",
-          "members": ["kāma", "rūpa"]
+          "members": [
+            "kāma",
+            "rūpa"
+          ]
         },
         "parts": [
-          { "form": "kāma", "gloss": "kāma — desire as craving, the wanting that reaches for its object" },
-          { "form": "rūpa", "gloss": "form, shape; the visible aspect a thing has" }
+          {
+            "form": "kāma",
+            "gloss": "kāma — desire as craving, the wanting that reaches for its object"
+          },
+          {
+            "form": "rūpa",
+            "gloss": "form, shape; the visible aspect a thing has"
+          }
         ],
         "note": "Śaṅkara's vigraha: kāma icchaiva rūpam asya — its form is nothing but wanting."
       },
@@ -925,8 +1214,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "kuntī", "gloss": "Kuntī, Arjuna's mother" },
-          { "form": "-eya", "gloss": "(taddhita ḍhak: ‘son of —’, with vṛddhi of the first vowel)" }
+          {
+            "form": "kuntī",
+            "gloss": "Kuntī, Arjuna's mother"
+          },
+          {
+            "form": "-eya",
+            "gloss": "(taddhita ḍhak: ‘son of —’, with vṛddhi of the first vowel)"
+          }
         ]
       },
       {
@@ -943,9 +1238,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "dus-", "gloss": "hard to —, ill, difficult (as duṣ- before p)" },
-          { "form": "√pṝ", "gloss": "to fill, to fill up, to satisfy" },
-          { "form": "-a", "gloss": "(khal, the kṛt affix that makes ‘hard to be —ed’)" }
+          {
+            "form": "dus-",
+            "gloss": "hard to —, ill, difficult (as duṣ- before p)"
+          },
+          {
+            "form": "√pṝ",
+            "gloss": "to fill, to fill up, to satisfy"
+          },
+          {
+            "form": "-a",
+            "gloss": "(khal, the kṛt affix that makes ‘hard to be —ed’)"
+          }
         ],
         "note": "Śaṅkara: duḥkhena pūraṇam asya — the filling of it is done only with pain. Madhva: the rank of Indra is not got easily.",
         "sandhi": "duṣ- ← dus- (s → ṣ before the following p, by ṣatva)"
@@ -963,9 +1267,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "an-", "gloss": "not (the negative prefix nañ, an- before a vowel)" },
-          { "form": "alam", "gloss": "enough, sufficient" },
-          { "form": "-a", "gloss": "(the derivational vowel of the resulting adjective/noun)" }
+          {
+            "form": "an-",
+            "gloss": "not (the negative prefix nañ, an- before a vowel)"
+          },
+          {
+            "form": "alam",
+            "gloss": "enough, sufficient"
+          },
+          {
+            "form": "-a",
+            "gloss": "(the derivational vowel of the resulting adjective/noun)"
+          }
         ],
         "note": "The commentators take the etymology and not the ordinary lexical sense: Śaṅkara — nāsyālaṃ paryāptir vidyata ity analaḥ, ‘there is no “enough”, no sufficiency, for it — hence analá’; Madhva makes the same point with the ladder from Indra's rank to Brahmā's. The word's other and commoner meaning, ‘fire’, is not what is being read here, though the fire of 3.38 is still in earshot."
       },
@@ -982,7 +1295,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ca", "gloss": "and, also (enclitic — never first in its clause)" }
+          {
+            "form": "ca",
+            "gloss": "and, also (enclitic — never first in its clause)"
+          }
         ],
         "sandhi": "duṣpūreṇānalena ← duṣpūreṇa + analena (a + a → ā)"
       }
@@ -992,7 +1308,6 @@ window.GITA3_VERSES = [
       "verbalModality": "No finite verb at all. The whole verse is one participial predication, which is why it reads as a description of a standing condition rather than an event."
     }
   },
-
   {
     "locus": "3.40",
     "speaker": "krishna",
@@ -1015,8 +1330,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "indriya",
         "translatable": false,
         "parts": [
-          { "form": "indra", "gloss": "Indra; the lord, the ruling power" },
-          { "form": "-iya", "gloss": "(taddhita ghac: ‘belonging to Indra’ — hence a power of the indwelling ruler)" }
+          {
+            "form": "indra",
+            "gloss": "Indra; the lord, the ruling power"
+          },
+          {
+            "form": "-iya",
+            "gloss": "(taddhita ghac: ‘belonging to Indra’ — hence a power of the indwelling ruler)"
+          }
         ]
       },
       {
@@ -1033,8 +1354,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "manas",
         "translatable": false,
         "parts": [
-          { "form": "√man", "gloss": "to think, to consider, to have in mind" },
-          { "form": "-as", "gloss": "(asun, the neuter action/agent noun)" }
+          {
+            "form": "√man",
+            "gloss": "to think, to consider, to have in mind"
+          },
+          {
+            "form": "-as",
+            "gloss": "(asun, the neuter action/agent noun)"
+          }
         ],
         "note": "Śaṅkara's definition, given at 3.42: saṅkalpa-vikalpātmaka — manas is the faculty of proposing and doubting, as against buddhi which decides."
       },
@@ -1052,8 +1379,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "buddhi",
         "translatable": false,
         "parts": [
-          { "form": "√budh", "gloss": "to wake, to be aware of, to understand" },
-          { "form": "-ti", "gloss": "(ktin, the feminine action-noun: ‘the awakening / the understanding’)" }
+          {
+            "form": "√budh",
+            "gloss": "to wake, to be aware of, to understand"
+          },
+          {
+            "form": "-ti",
+            "gloss": "(ktin, the feminine action-noun: ‘the awakening / the understanding’)"
+          }
         ],
         "note": "Śaṅkara at 3.42: niścayātmikā — buddhi is of the nature of settling what is the case."
       },
@@ -1070,7 +1403,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "idam", "gloss": "this, this one here (proximate demonstrative)" }
+          {
+            "form": "idam",
+            "gloss": "this, this one here (proximate demonstrative)"
+          }
         ]
       },
       {
@@ -1087,9 +1423,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "adhi-", "gloss": "over, upon; taking one's stand on" },
-          { "form": "√sthā", "gloss": "to stand, to abide, to be situated" },
-          { "form": "-ana", "gloss": "(lyuṭ, the place-noun: ‘the place of —ing’)" }
+          {
+            "form": "adhi-",
+            "gloss": "over, upon; taking one's stand on"
+          },
+          {
+            "form": "√sthā",
+            "gloss": "to stand, to abide, to be situated"
+          },
+          {
+            "form": "-ana",
+            "gloss": "(lyuṭ, the place-noun: ‘the place of —ing’)"
+          }
         ],
         "sandhi": "asyādhiṣṭhānam ← asya + adhiṣṭhānam (a + a → ā)",
         "note": "Śaṅkara glosses it āśraya, ‘support’; Rāmānuja upakaraṇa, ‘the instruments by which it takes its stand on the self’. Both readings are of the same military image — the enemy's position, which is why 3.41 says to take it first."
@@ -1108,10 +1453,22 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "√vac", "gloss": "to speak, to say, to call" },
-          { "form": "-uc-", "gloss": "(samprasāraṇa: the va of √vac becomes u before the passive)" },
-          { "form": "-ya-", "gloss": "(yak, the passive marker)" },
-          { "form": "-te", "gloss": "(3rd person singular, ātmanepada)" }
+          {
+            "form": "√vac",
+            "gloss": "to speak, to say, to call"
+          },
+          {
+            "form": "-uc-",
+            "gloss": "(samprasāraṇa: the va of √vac becomes u before the passive)"
+          },
+          {
+            "form": "-ya-",
+            "gloss": "(yak, the passive marker)"
+          },
+          {
+            "form": "-te",
+            "gloss": "(3rd person singular, ātmanepada)"
+          }
         ],
         "note": "Singular verb with a plural-plus-singular subject: it agrees with the predicate adhiṣṭhānam, not with the list."
       },
@@ -1128,8 +1485,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "etad", "gloss": "this, this here (the nearer demonstrative)" },
-          { "form": "-aiḥ", "gloss": "(instrumental plural: ‘by, with’)" }
+          {
+            "form": "etad",
+            "gloss": "this, this here (the nearer demonstrative)"
+          },
+          {
+            "form": "-aiḥ",
+            "gloss": "(instrumental plural: ‘by, with’)"
+          }
         ]
       },
       {
@@ -1146,10 +1509,22 @@ window.GITA3_VERSES = [
         "glossaryKey": "moha",
         "translatable": true,
         "parts": [
-          { "form": "vi-", "gloss": "apart, in various directions (here: in every way)" },
-          { "form": "√muh", "gloss": "to be bewildered, to be deluded" },
-          { "form": "-aya-", "gloss": "(ṇic, the causative marker: ‘to make —’)" },
-          { "form": "-ti", "gloss": "(3rd person singular, active)" }
+          {
+            "form": "vi-",
+            "gloss": "apart, in various directions (here: in every way)"
+          },
+          {
+            "form": "√muh",
+            "gloss": "to be bewildered, to be deluded"
+          },
+          {
+            "form": "-aya-",
+            "gloss": "(ṇic, the causative marker: ‘to make —’)"
+          },
+          {
+            "form": "-ti",
+            "gloss": "(3rd person singular, active)"
+          }
         ],
         "note": "Śaṅkara reads the prefix distributively — vividhaṃ mohayati, ‘deludes in many ways’."
       },
@@ -1166,7 +1541,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "etad", "gloss": "this, this here (the nearer demonstrative)" }
+          {
+            "form": "etad",
+            "gloss": "this, this here (the nearer demonstrative)"
+          }
         ],
         "sandhi": "vimohayaty eṣa ← vimohayati + eṣaḥ (i → y before a dissimilar vowel)"
       },
@@ -1184,8 +1562,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "jnana",
         "translatable": true,
         "parts": [
-          { "form": "√jñā", "gloss": "to know, to understand, to recognize" },
-          { "form": "-ana", "gloss": "(lyuṭ, the action-noun: ‘the knowing’)" }
+          {
+            "form": "√jñā",
+            "gloss": "to know, to understand, to recognize"
+          },
+          {
+            "form": "-ana",
+            "gloss": "(lyuṭ, the action-noun: ‘the knowing’)"
+          }
         ]
       },
       {
@@ -1202,9 +1586,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ā-", "gloss": "all over, right around" },
-          { "form": "√vṛ", "gloss": "to cover, to enclose, to veil" },
-          { "form": "-ya", "gloss": "(lyap: ‘having —ed’, the absolutive used when the root carries a prefix)" }
+          {
+            "form": "ā-",
+            "gloss": "all over, right around"
+          },
+          {
+            "form": "√vṛ",
+            "gloss": "to cover, to enclose, to veil"
+          },
+          {
+            "form": "-ya",
+            "gloss": "(lyap: ‘having —ed’, the absolutive used when the root carries a prefix)"
+          }
         ],
         "note": "The absolutive fixes the order of operations: the covering comes first, the delusion follows from it. Śaṅkara glosses it ācchādya, ‘having screened off’."
       },
@@ -1221,8 +1614,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "dehin",
         "translatable": true,
         "parts": [
-          { "form": "deha", "gloss": "body" },
-          { "form": "-in", "gloss": "(taddhita ini: ‘the one who has —’)" }
+          {
+            "form": "deha",
+            "gloss": "body"
+          },
+          {
+            "form": "-in",
+            "gloss": "(taddhita ini: ‘the one who has —’)"
+          }
         ],
         "note": "Śaṅkara glosses it śarīrin, ‘the one possessed of a body’; Rāmānuja prakṛti-saṃsṛṣṭa, ‘the one bound up with prakṛti’."
       }
@@ -1232,7 +1631,6 @@ window.GITA3_VERSES = [
       "verbalModality": "A passive present (ucyate) reporting settled usage, then a causative present (vimohayati) for what kāma actively does. The switch from ‘is said’ to ‘this one deludes’ is the verse turning from a definition into an account of an attack."
     }
   },
-
   {
     "locus": "3.41",
     "speaker": "krishna",
@@ -1255,8 +1653,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "tad", "gloss": "that, it (the anaphoric demonstrative)" },
-          { "form": "-smāt", "gloss": "(ablative singular of the pronominal declension: ‘from that’)" }
+          {
+            "form": "tad",
+            "gloss": "that, it (the anaphoric demonstrative)"
+          },
+          {
+            "form": "-smāt",
+            "gloss": "(ablative singular of the pronominal declension: ‘from that’)"
+          }
         ]
       },
       {
@@ -1272,7 +1676,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "yuṣmad", "gloss": "you (the second-person stem)" }
+          {
+            "form": "yuṣmad",
+            "gloss": "you (the second-person stem)"
+          }
         ],
         "note": "The pronoun is not needed grammatically; it is there for emphasis — you, Arjuna, are the one who must do this."
       },
@@ -1289,8 +1696,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "indriya",
         "translatable": false,
         "parts": [
-          { "form": "indra", "gloss": "Indra; the lord, the ruling power" },
-          { "form": "-iya", "gloss": "(taddhita ghac: ‘belonging to Indra’ — hence a power of the indwelling ruler)" }
+          {
+            "form": "indra",
+            "gloss": "Indra; the lord, the ruling power"
+          },
+          {
+            "form": "-iya",
+            "gloss": "(taddhita ghac: ‘belonging to Indra’ — hence a power of the indwelling ruler)"
+          }
         ],
         "sandhi": "indriyāṇy ādau ← indriyāṇi + ādau (i → y before a dissimilar vowel)"
       },
@@ -1307,8 +1720,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ādi", "gloss": "beginning, start; the first of a series" },
-          { "form": "-au", "gloss": "(locative singular: ‘in, at’)" }
+          {
+            "form": "ādi",
+            "gloss": "beginning, start; the first of a series"
+          },
+          {
+            "form": "-au",
+            "gloss": "(locative singular: ‘in, at’)"
+          }
         ],
         "note": "Śaṅkara reads it pūrvam eva, ‘right at the start’; Rāmānuja mokṣopāya-ārambha-samaya eva, ‘at the very moment of beginning the means to liberation’. The word is doing strategic work — this is the first move, not one move among others."
       },
@@ -1326,9 +1745,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ni-", "gloss": "down, in; holding down and in" },
-          { "form": "√yam", "gloss": "to hold, to check, to rein in" },
-          { "form": "-ya", "gloss": "(lyap: ‘having —ed’, the absolutive used when the root carries a prefix)" }
+          {
+            "form": "ni-",
+            "gloss": "down, in; holding down and in"
+          },
+          {
+            "form": "√yam",
+            "gloss": "to hold, to check, to rein in"
+          },
+          {
+            "form": "-ya",
+            "gloss": "(lyap: ‘having —ed’, the absolutive used when the root carries a prefix)"
+          }
         ],
         "note": "Śaṅkara glosses it vaśīkṛtya, ‘having brought under your sway’."
       },
@@ -1347,11 +1775,20 @@ window.GITA3_VERSES = [
         "compound": {
           "type": "tatpuruṣa (ṣaṣṭhī)",
           "vigraha": "bharatānām ṛṣabhaḥ",
-          "members": ["bharata", "ṛṣabha"]
+          "members": [
+            "bharata",
+            "ṛṣabha"
+          ]
         },
         "parts": [
-          { "form": "bharata", "gloss": "Bharata; the line descended from him" },
-          { "form": "ṛṣabha", "gloss": "a bull; by extension, the best and strongest of a kind" }
+          {
+            "form": "bharata",
+            "gloss": "Bharata; the line descended from him"
+          },
+          {
+            "form": "ṛṣabha",
+            "gloss": "a bull; by extension, the best and strongest of a kind"
+          }
         ],
         "sandhi": "bharatarṣabha ← bharata + ṛṣabha (a + ṛ → ar)"
       },
@@ -1368,8 +1805,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "pāpa", "gloss": "evil, bad, wrong" },
-          { "form": "-man", "gloss": "(manin, forming the masculine noun: ‘the evil one’)" }
+          {
+            "form": "pāpa",
+            "gloss": "evil, bad, wrong"
+          },
+          {
+            "form": "-man",
+            "gloss": "(manin, forming the masculine noun: ‘the evil one’)"
+          }
         ],
         "note": "Śaṅkara glosses it pāpācāraṃ kāmam — ‘kāma, whose conduct is evil’; the epithet from 3.37 (mahā-pāpmā) returns here as the name."
       },
@@ -1387,10 +1830,22 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "pra-", "gloss": "forth, away (throwing clean away)" },
-          { "form": "√hā", "gloss": "to leave, to abandon, to let go" },
-          { "form": "ja-", "gloss": "(the reduplicating syllable of the juhotyādi present)" },
-          { "form": "-hi", "gloss": "(the 2nd-singular imperative ending)" }
+          {
+            "form": "pra-",
+            "gloss": "forth, away (throwing clean away)"
+          },
+          {
+            "form": "√hā",
+            "gloss": "to leave, to abandon, to let go"
+          },
+          {
+            "form": "ja-",
+            "gloss": "(the reduplicating syllable of the juhotyādi present)"
+          },
+          {
+            "form": "-hi",
+            "gloss": "(the 2nd-singular imperative ending)"
+          }
         ],
         "note": "Śaṅkara reads the form as prajahihi and glosses parityaja, ‘let it go entirely’ — an abandoning, not a killing. The killing word comes only at 3.43 (jahi, √han)."
       },
@@ -1407,7 +1862,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "hi", "gloss": "for, indeed, surely (enclitic — never first in its clause)" }
+          {
+            "form": "hi",
+            "gloss": "for, indeed, surely (enclitic — never first in its clause)"
+          }
         ],
         "sandhi": "prajahi hy enam ← prajahi hi + enam (i → y before a dissimilar vowel)"
       },
@@ -1424,7 +1882,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "enad", "gloss": "him, this one (the unstressed anaphoric pronoun, only ever non-initial)" }
+          {
+            "form": "enad",
+            "gloss": "him, this one (the unstressed anaphoric pronoun, only ever non-initial)"
+          }
         ]
       },
       {
@@ -1443,13 +1904,29 @@ window.GITA3_VERSES = [
         "compound": {
           "type": "tatpuruṣa (ṣaṣṭhī), with a dvandva first member",
           "vigraha": "jñānaṃ ca vijñānaṃ ca jñāna-vijñāne; tayor nāśanam",
-          "members": ["jñāna", "vijñāna", "nāśana"]
+          "members": [
+            "jñāna",
+            "vijñāna",
+            "nāśana"
+          ]
         },
         "parts": [
-          { "form": "jñāna", "gloss": "knowledge, the knowing" },
-          { "form": "vijñāna", "gloss": "discernment — knowledge that distinguishes, taken to its particular case" },
-          { "form": "√naś", "gloss": "to perish, to be lost; (causative) to destroy" },
-          { "form": "-ana", "gloss": "(lyuṭ, here agentive: ‘what destroys’)" }
+          {
+            "form": "jñāna",
+            "gloss": "knowledge, the knowing"
+          },
+          {
+            "form": "vijñāna",
+            "gloss": "discernment — knowledge that distinguishes, taken to its particular case"
+          },
+          {
+            "form": "√naś",
+            "gloss": "to perish, to be lost; (causative) to destroy"
+          },
+          {
+            "form": "-ana",
+            "gloss": "(lyuṭ, here agentive: ‘what destroys’)"
+          }
         ],
         "note": "The two commentators divide the pair differently. Śaṅkara: jñāna is what one comes to understand of the self from śāstra and teacher, vijñāna the particular first-hand experience of it. Rāmānuja: jñāna has the self's own nature for its object, vijñāna the discriminating of it. Both keep vijñāna as the finer, more particular knowing — which is why it is rendered by a different English word than jñāna, not by the same one twice."
       }
@@ -1459,7 +1936,6 @@ window.GITA3_VERSES = [
       "verbalModality": "One finite verb, and it is an imperative (loṭ) — the first thing in this passage Arjuna is told to do. The absolutive niyamya subordinates the reining-in to it, so the verse also states the order: the indriyas first, then the enemy behind them."
     }
   },
-
   {
     "locus": "3.42",
     "speaker": "krishna",
@@ -1482,8 +1958,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "indriya",
         "translatable": false,
         "parts": [
-          { "form": "indra", "gloss": "Indra; the lord, the ruling power" },
-          { "form": "-iya", "gloss": "(taddhita ghac: ‘belonging to Indra’ — hence a power of the indwelling ruler)" }
+          {
+            "form": "indra",
+            "gloss": "Indra; the lord, the ruling power"
+          },
+          {
+            "form": "-iya",
+            "gloss": "(taddhita ghac: ‘belonging to Indra’ — hence a power of the indwelling ruler)"
+          }
         ]
       },
       {
@@ -1499,9 +1981,12 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "para", "gloss": "further, beyond, higher; other" }
+          {
+            "form": "para",
+            "gloss": "further, beyond, higher; other"
+          }
         ],
-        "note": "Śaṅkara supplies the comparison the verse leaves out: higher than the body — subtler, more inward, more pervading.",
+        "note": "Śaṅkara supplies the comparison the verse leaves out: higher than the body — subtler, more inward, more pervading. Grammatically this is simply para, agreeing with indriyāṇi (neut. pl.). The same word returns at each rung, each time taking the gender and number of whatever it is said of — parāṇi (neut. pl.), param (neut. sg.), parā (fem. sg.). The variation is concord, not vocabulary.",
         "sandhi": "parāṇy āhuḥ ← parāṇi + āhuḥ (i → y before a dissimilar vowel)"
       },
       {
@@ -1518,8 +2003,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "āha-", "gloss": "(the substitute stem prescribed for the first five endings of √brū)" },
-          { "form": "-uḥ", "gloss": "(3rd person plural)" }
+          {
+            "form": "āha-",
+            "gloss": "(the substitute stem prescribed for the first five endings of √brū)"
+          },
+          {
+            "form": "-uḥ",
+            "gloss": "(3rd person plural)"
+          }
         ],
         "note": "The form looks like a perfect but is not: Pāṇini substitutes āha for bravī- in the first five present endings, so this is a present tense. Śaṅkara names the unnamed speakers: paṇḍitāḥ, those who have thought it through."
       },
@@ -1536,9 +2027,18 @@ window.GITA3_VERSES = [
         "glossaryKey": "indriya",
         "translatable": false,
         "parts": [
-          { "form": "indra", "gloss": "Indra; the lord, the ruling power" },
-          { "form": "-iya", "gloss": "(taddhita ghac: ‘belonging to Indra’ — hence a power of the indwelling ruler)" },
-          { "form": "-bhyaḥ", "gloss": "(ablative plural: ‘from, than’)" }
+          {
+            "form": "indra",
+            "gloss": "Indra; the lord, the ruling power"
+          },
+          {
+            "form": "-iya",
+            "gloss": "(taddhita ghac: ‘belonging to Indra’ — hence a power of the indwelling ruler)"
+          },
+          {
+            "form": "-bhyaḥ",
+            "gloss": "(ablative plural: ‘from, than’)"
+          }
         ]
       },
       {
@@ -1554,8 +2054,12 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "para", "gloss": "further, beyond, higher; other" }
-        ]
+          {
+            "form": "para",
+            "gloss": "further, beyond, higher; other"
+          }
+        ],
+        "note": "The same para as at parāṇi, now neut. sg. because it is said of manaḥ."
       },
       {
         "i": 5,
@@ -1571,8 +2075,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "manas",
         "translatable": false,
         "parts": [
-          { "form": "√man", "gloss": "to think, to consider, to have in mind" },
-          { "form": "-as", "gloss": "(asun, the neuter action/agent noun)" }
+          {
+            "form": "√man",
+            "gloss": "to think, to consider, to have in mind"
+          },
+          {
+            "form": "-as",
+            "gloss": "(asun, the neuter action/agent noun)"
+          }
         ],
         "note": "Śaṅkara here gives the definition: saṅkalpa-vikalpātmaka — manas is what proposes and what doubts."
       },
@@ -1590,9 +2100,18 @@ window.GITA3_VERSES = [
         "glossaryKey": "manas",
         "translatable": false,
         "parts": [
-          { "form": "√man", "gloss": "to think, to consider, to have in mind" },
-          { "form": "-as", "gloss": "(asun, the neuter action/agent noun)" },
-          { "form": "-aḥ", "gloss": "(ablative singular: ‘from, than’)" }
+          {
+            "form": "√man",
+            "gloss": "to think, to consider, to have in mind"
+          },
+          {
+            "form": "-as",
+            "gloss": "(asun, the neuter action/agent noun)"
+          },
+          {
+            "form": "-aḥ",
+            "gloss": "(ablative singular: ‘from, than’)"
+          }
         ]
       },
       {
@@ -1608,7 +2127,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "tu", "gloss": "but, however, on the other hand (enclitic — never first in its clause)" }
+          {
+            "form": "tu",
+            "gloss": "but, however, on the other hand (enclitic — never first in its clause)"
+          }
         ]
       },
       {
@@ -1624,9 +2146,16 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "para", "gloss": "further, beyond, higher; other" },
-          { "form": "-ā", "gloss": "(ṭāp, the feminine ending, agreeing with the feminine buddhi)" }
-        ]
+          {
+            "form": "para",
+            "gloss": "further, beyond, higher; other"
+          },
+          {
+            "form": "-ā",
+            "gloss": "(ṭāp, the feminine ending, agreeing with the feminine buddhi)"
+          }
+        ],
+        "note": "The same para again, now fem. sg. because it is said of buddhiḥ. This is the last rung at which the word can agree with anything: what follows is named by no noun."
       },
       {
         "i": 9,
@@ -1642,8 +2171,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "buddhi",
         "translatable": false,
         "parts": [
-          { "form": "√budh", "gloss": "to wake, to be aware of, to understand" },
-          { "form": "-ti", "gloss": "(ktin, the feminine action-noun: ‘the awakening / the understanding’)" }
+          {
+            "form": "√budh",
+            "gloss": "to wake, to be aware of, to understand"
+          },
+          {
+            "form": "-ti",
+            "gloss": "(ktin, the feminine action-noun: ‘the awakening / the understanding’)"
+          }
         ],
         "note": "Śaṅkara here: niścayātmikā — buddhi is of the nature of settling what is the case."
       },
@@ -1660,7 +2195,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "yad", "gloss": "who, which (the relative stem)" }
+          {
+            "form": "yad",
+            "gloss": "who, which (the relative stem)"
+          }
         ],
         "note": "Masculine, where the three rungs below were neuter and feminine — the change of gender is itself part of what the commentators argue about."
       },
@@ -1678,9 +2216,18 @@ window.GITA3_VERSES = [
         "glossaryKey": "buddhi",
         "translatable": false,
         "parts": [
-          { "form": "√budh", "gloss": "to wake, to be aware of, to understand" },
-          { "form": "-ti", "gloss": "(ktin, the feminine action-noun)" },
-          { "form": "-eḥ", "gloss": "(ablative singular: ‘from, than’)" }
+          {
+            "form": "√budh",
+            "gloss": "to wake, to be aware of, to understand"
+          },
+          {
+            "form": "-ti",
+            "gloss": "(ktin, the feminine action-noun)"
+          },
+          {
+            "form": "-eḥ",
+            "gloss": "(ablative singular: ‘from, than’)"
+          }
         ]
       },
       {
@@ -1696,9 +2243,16 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "para", "gloss": "further, beyond, higher; other" },
-          { "form": "-tas", "gloss": "(taddhita tasil: ‘from —’, ‘on the — side’)" }
-        ]
+          {
+            "form": "para",
+            "gloss": "further, beyond, higher; other"
+          },
+          {
+            "form": "-tas",
+            "gloss": "(taddhita tasil: ‘from —’, ‘on the — side’)"
+          }
+        ],
+        "note": "Not the adjective para but para + -tas (the affix tasil), an indeclinable with ablative force — ‘on the far side of’. It locates rather than qualifies, and unlike the three preceding rungs it agrees with nothing, there being no noun here for it to agree with. The pāda is anuṣṭubh and wants eight syllables, which the concordant paraḥ would not supply; Rāmānuja’s lemma nevertheless quotes the shorter yo buddheḥ paras tu saḥ."
       },
       {
         "i": 13,
@@ -1713,7 +2267,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "tu", "gloss": "but, however, on the other hand (enclitic — never first in its clause)" }
+          {
+            "form": "tu",
+            "gloss": "but, however, on the other hand (enclitic — never first in its clause)"
+          }
         ]
       },
       {
@@ -1729,9 +2286,12 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "tad", "gloss": "that, he (the correlative demonstrative)" }
+          {
+            "form": "tad",
+            "gloss": "that, he (the correlative demonstrative)"
+          }
         ],
-        "note": "The verse simply says ‘he’ and stops, and the three commentators fill the blank in three different ways: for Śaṅkara it is the ātman, the seer of buddhi; for Rāmānuja it is kāma itself, which outranks buddhi because it can still move buddhi; for Madhva it is the paramātman, higher even than the unmanifest. The English keeps the blank."
+        "note": "The verse simply says ‘he’ and stops, and the three commentators fill the blank in three different ways: for Śaṅkara it is the ātman, the seer of buddhi; for Rāmānuja it is kāma itself, which outranks buddhi because it can still move buddhi; for Madhva it is the paramātman, higher even than the unmanifest. The English keeps the blank. The genders climb as the verse climbs: indriyāṇi neut. pl., manaḥ neut. sg., buddhiḥ fem. sg., saḥ masc. sg. — plural to singular, and impersonal to personal. The line ends on this bare pronoun with no noun, no adjective and no verb."
       }
     ],
     "grammar": {
@@ -1739,7 +2299,6 @@ window.GITA3_VERSES = [
       "verbalModality": "One finite verb in the whole verse (āhuḥ, present), and it belongs to the reporting frame rather than to the ladder. What is being described is not an event but a standing order of things — hence the copula is left unsaid throughout."
     }
   },
-
   {
     "locus": "3.43",
     "speaker": "krishna",
@@ -1762,7 +2321,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "evam", "gloss": "thus, so, in this way" }
+          {
+            "form": "evam",
+            "gloss": "thus, so, in this way"
+          }
         ]
       },
       {
@@ -1779,9 +2341,18 @@ window.GITA3_VERSES = [
         "glossaryKey": "buddhi",
         "translatable": false,
         "parts": [
-          { "form": "√budh", "gloss": "to wake, to be aware of, to understand" },
-          { "form": "-ti", "gloss": "(ktin, the feminine action-noun)" },
-          { "form": "-eḥ", "gloss": "(ablative singular: ‘from, than’)" }
+          {
+            "form": "√budh",
+            "gloss": "to wake, to be aware of, to understand"
+          },
+          {
+            "form": "-ti",
+            "gloss": "(ktin, the feminine action-noun)"
+          },
+          {
+            "form": "-eḥ",
+            "gloss": "(ablative singular: ‘from, than’)"
+          }
         ]
       },
       {
@@ -1797,7 +2368,10 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "para", "gloss": "further, beyond, higher; other" }
+          {
+            "form": "para",
+            "gloss": "further, beyond, higher; other"
+          }
         ],
         "note": "The same blank as at the end of 3.42, and filled the same three ways: Śaṅkara reads ātmānam, Rāmānuja kāmam, Madhva the paramātman."
       },
@@ -1815,8 +2389,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "√budh", "gloss": "to wake, to be aware of, to understand" },
-          { "form": "-tvā", "gloss": "(ktvā: ‘having —ed’, the absolutive of an unprefixed root)" }
+          {
+            "form": "√budh",
+            "gloss": "to wake, to be aware of, to understand"
+          },
+          {
+            "form": "-tvā",
+            "gloss": "(ktvā: ‘having —ed’, the absolutive of an unprefixed root)"
+          }
         ],
         "note": "Śaṅkara glosses it jñātvā. The waking sense of the root is not dead in it: the knowing here is a coming-to, not a piece of information."
       },
@@ -1834,9 +2414,18 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "sam-", "gloss": "together, fully, thoroughly" },
-          { "form": "√stambh", "gloss": "to prop, to make firm, to hold fast" },
-          { "form": "-ya", "gloss": "(lyap: ‘having —ed’, the absolutive used when the root carries a prefix)" }
+          {
+            "form": "sam-",
+            "gloss": "together, fully, thoroughly"
+          },
+          {
+            "form": "√stambh",
+            "gloss": "to prop, to make firm, to hold fast"
+          },
+          {
+            "form": "-ya",
+            "gloss": "(lyap: ‘having —ed’, the absolutive used when the root carries a prefix)"
+          }
         ],
         "sandhi": "saṃstabhyātmānam ← saṃstabhya + ātmānam (a + ā → ā)",
         "note": "Śaṅkara: samyak stambhanaṃ kṛtvā — having made it fully firm; and he reads the result as samādhāya, a gathering of the manas into composure."
@@ -1854,7 +2443,10 @@ window.GITA3_VERSES = [
         "glossaryKey": "atman",
         "translatable": true,
         "parts": [
-          { "form": "ātman", "gloss": "the self; oneself" }
+          {
+            "form": "ātman",
+            "gloss": "the self; oneself"
+          }
         ],
         "note": "Both Śaṅkara and Rāmānuja read this first ātman as the manas, and Madhva says so in as many words — ātmānaṃ manaḥ. The word in the verse is ātman all the same, and stays so here."
       },
@@ -1871,8 +2463,14 @@ window.GITA3_VERSES = [
         "glossaryKey": "atman",
         "translatable": true,
         "parts": [
-          { "form": "ātman", "gloss": "the self; oneself" },
-          { "form": "-ā", "gloss": "(instrumental singular: ‘by, with’)" }
+          {
+            "form": "ātman",
+            "gloss": "the self; oneself"
+          },
+          {
+            "form": "-ā",
+            "gloss": "(instrumental singular: ‘by, with’)"
+          }
         ],
         "note": "The second ātman is read differently by each: Śaṅkara, by one's own manas once it has been refined; Rāmānuja and Madhva, by the buddhi. The verse itself repeats one word, and the repetition is the point — the steadying has no instrument outside the one being steadied."
       },
@@ -1890,8 +2488,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "ja-", "gloss": "(the substitute Pāṇini prescribes for han before this imperative ending)" },
-          { "form": "-hi", "gloss": "(the 2nd-singular imperative ending)" }
+          {
+            "form": "ja-",
+            "gloss": "(the substitute Pāṇini prescribes for han before this imperative ending)"
+          },
+          {
+            "form": "-hi",
+            "gloss": "(the 2nd-singular imperative ending)"
+          }
         ],
         "note": "3.41 said prajahi, ‘cast it off’ (√hā). This is a different root and a harder word: √han, to kill. The chapter ends by escalating from abandonment to killing."
       },
@@ -1909,8 +2513,14 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "√śad", "gloss": "to fall, to fall away, to perish" },
-          { "form": "-tru", "gloss": "(the uṇādi affix: ‘the one who makes another fall’)" }
+          {
+            "form": "√śad",
+            "gloss": "to fall, to fall away, to perish"
+          },
+          {
+            "form": "-tru",
+            "gloss": "(the uṇādi affix: ‘the one who makes another fall’)"
+          }
         ]
       },
       {
@@ -1928,11 +2538,20 @@ window.GITA3_VERSES = [
         "compound": {
           "type": "bahuvrīhi",
           "vigraha": "mahāntau bāhū yasya saḥ",
-          "members": ["mahat", "bāhu"]
+          "members": [
+            "mahat",
+            "bāhu"
+          ]
         },
         "parts": [
-          { "form": "mahā-", "gloss": "great, vast (the compounding form of mahat)" },
-          { "form": "bāhu", "gloss": "arm" }
+          {
+            "form": "mahā-",
+            "gloss": "great, vast (the compounding form of mahat)"
+          },
+          {
+            "form": "bāhu",
+            "gloss": "arm"
+          }
         ],
         "note": "The epithet is chosen for the sentence it sits in: the arm that is being called great is being told to strike."
       },
@@ -1951,11 +2570,20 @@ window.GITA3_VERSES = [
         "compound": {
           "type": "bahuvrīhi",
           "vigraha": "kāma eva rūpaṃ yasya saḥ — tam",
-          "members": ["kāma", "rūpa"]
+          "members": [
+            "kāma",
+            "rūpa"
+          ]
         },
         "parts": [
-          { "form": "kāma", "gloss": "kāma — desire as craving, the wanting that reaches for its object" },
-          { "form": "rūpa", "gloss": "form, shape; the visible aspect a thing has" }
+          {
+            "form": "kāma",
+            "gloss": "kāma — desire as craving, the wanting that reaches for its object"
+          },
+          {
+            "form": "rūpa",
+            "gloss": "form, shape; the visible aspect a thing has"
+          }
         ]
       },
       {
@@ -1972,10 +2600,22 @@ window.GITA3_VERSES = [
         "glossaryKey": null,
         "translatable": true,
         "parts": [
-          { "form": "dur-", "gloss": "hard to —, ill, difficult (dus- before a vowel)" },
-          { "form": "ā-", "gloss": "up to, towards" },
-          { "form": "√sad", "gloss": "to sit, to settle; to approach, to reach" },
-          { "form": "-a", "gloss": "(khal, the kṛt affix that makes ‘hard to be —ed’)" }
+          {
+            "form": "dur-",
+            "gloss": "hard to —, ill, difficult (dus- before a vowel)"
+          },
+          {
+            "form": "ā-",
+            "gloss": "up to, towards"
+          },
+          {
+            "form": "√sad",
+            "gloss": "to sit, to settle; to approach, to reach"
+          },
+          {
+            "form": "-a",
+            "gloss": "(khal, the kṛt affix that makes ‘hard to be —ed’)"
+          }
         ],
         "note": "Śaṅkara's gloss is exactly the compound taken apart — duḥkhena āsadaḥ āsādanaṃ prāptir yasya, ‘the one whose being-reached is got only with difficulty’ — and he adds why: it has endless forms, and they are hard to tell apart."
       }
