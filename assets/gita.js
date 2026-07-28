@@ -106,16 +106,23 @@ const VOICE_YEAR = {
   "Madhva (Ānandatīrtha)": 1238, "Madhva": 1238,
   "Śrīdhara Svāmī": 1400, "Śrīdhara": 1400, "Keśava Kāśmīrī": 1480,
   "Madhusūdana Sarasvatī": 1565, "Madhusūdana": 1565,
-  "Baladeva": 1720, "Sri Aurobindo": 1916,
+  "Viśvanātha Cakravartī": 1650,
+  "Baladeva Vidyābhūṣaṇa": 1720, "Baladeva": 1720, "Sri Aurobindo": 1916,
 };
 function vYear(n) { return VOICE_YEAR[n] != null ? VOICE_YEAR[n] : 9000; }
 // commentator → timeline thinker id (so the reader can see who they are)
 const VOICE_THINKER = {
   "Śaṅkara": "sankara", "Rāmānuja": "ramanuja",
   "Madhva (Ānandatīrtha)": "madhva", "Madhva": "madhva",
-  "Śrīdhara Svāmī": "sridhara", "Śrīdhara": "sridhara",
   "Madhusūdana Sarasvatī": "madhusudana", "Madhusūdana": "madhusudana",
+  "Viśvanātha Cakravartī": "visvanatha",
+  "Baladeva Vidyābhūṣaṇa": "baladeva", "Baladeva": "baladeva",
   "Sri Aurobindo": "aurobindo",
+  // Śrīdhara Svāmī (Subodhinī, c. 14th c.) is deliberately NOT mapped.
+  // data/thinkers/sridhara.json is Śrīdhara Bhaṭṭa, the 10th-century
+  // Vaiśeṣika of the Nyāya-Kandalī — a different man who wrote nothing on
+  // the Gītā. Linking the two sent readers to the wrong thinker. His chip
+  // renders unlinked until a Śrīdhara Svāmī entry exists.
 };
 // distinct, theme-safe colours assigned in voice order
 const PALETTE = ["#b8860b", "#1d7874", "#9b2226", "#3a5a98", "#6a4c93", "#4d7c2f", "#a15c2b", "#7d5fa3"];
