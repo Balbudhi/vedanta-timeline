@@ -157,6 +157,7 @@ function checkUnit(label, words, english) {
 const READINGS = [
   { dir: "gita/sthitaprajna", verses: "GITA_VERSES", commentary: "GITA_COMMENTARY", parallels: "GITA_PARALLELS" },
   { dir: "gita/kama", verses: "GITA3_VERSES", commentary: "GITA3_COMMENTARY", parallels: "GITA3_PARALLELS" },
+  { dir: "gita/ch5", verses: "CH5_VERSES", commentary: "CH5_COMMENTARY", parallels: "CH5_PARALLELS" },
 ];
 const loadIfPresent = (f, g) => (fs.existsSync(path.join(ROOT, f)) ? load(f, g) : null);
 const ALL = READINGS.map((r) => ({
@@ -183,7 +184,7 @@ const BANNED_ETYM = /\b(Latin|Greek|Proto-Indo|PIE)\b|cognate with|\bkin to\b|En
 // Match the part form EXACTLY to a concept stem (not a substring — "buddha"
 // 'awakened' is not buddhi, "karmayoga" is not karma), and flag only a truly
 // single-token gloss (a multi-word phrase like "the yoga of action" is fine).
-const PRES_FORMS = new Set(["raga", "dvesa", "guna", "dharma", "kama", "prajna", "buddhi", "karma", "manas", "mano", "indriya", "yoga", "rasa", "ahankara", "trsna"]);
+const PRES_FORMS = new Set(["raga", "dvesa", "guna", "dharma", "kama", "prajna", "buddhi", "karma", "manas", "mano", "indriya", "yoga", "rasa", "ahankara", "trsna", "krodha"]);
 const concept = (form) => PRES_FORMS.has(normd(form));
 const collapsed = (s) => s && !/[\s,;/]/.test(s);
 function checkCardFields(label, words) {

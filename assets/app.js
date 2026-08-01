@@ -4860,6 +4860,18 @@ const GITA_READINGS = {
       audio: window.GITA3_AUDIO,
     }),
   },
+  "gita-ch5": {
+    base: "gita/ch5/",
+    files: ["verses.js"],
+    title: "Bhagavad-Gītā 5",
+    blurb: "The adhyāya entire — the root text, word by word.",
+    // Mūla only: no commentary, no recitation. The reader renders without
+    // the voice bar and the audio dock when they are absent.
+    data: () => ({
+      verses: window.CH5_VERSES, commentary: null,
+      aurobindo: null, parallels: null, audio: null,
+    }),
+  },
 };
 
 // Share the exact view the reader is looking at. The router already mirrors
