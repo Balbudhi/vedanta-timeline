@@ -2085,7 +2085,7 @@ window.GITA_PARALLELS = {
       "work": "Dhammapada, Arahantavagga",
       "locus": "94",
       "sanskrit": "yassindriyāni samathaṅgatāni, assā yathā sārathinā sudantā; pahīnamānassa anāsavassa, devāpi tassa pihayanti tādino.",
-      "ourRendering": "Whose senses have come to calm, like horses well-tamed by the charioteer — with conceit abandoned, free of taints — even the gods envy such a one, the one who is Such.",
+      "ourRendering": "Whose senses have come to calm, like horses well-tamed by the charioteer — with conceit abandoned, free of the āsavas — even the gods envy such a one, the one who is Such.",
       "source": "data/sources/pali/suttacentral/dhammapada_arahantavagga_90-99_root-pli-ms.json (dhp 94)",
       "words": [
         {
@@ -2248,7 +2248,7 @@ window.GITA_PARALLELS = {
         {
           "i": 8,
           "iast": "anāsavassa",
-          "gloss": "free of taints",
+          "gloss": "free of the āsavas",
           "parts": [
             {
               "form": "an-",
@@ -2256,7 +2256,7 @@ window.GITA_PARALLELS = {
             },
             {
               "form": "āsava",
-              "gloss": "taint, influx, canker (ā + √sru; Skt āsrava)"
+              "gloss": "impurity, influx, canker — that which flows in (ā + √sru; Skt āsrava)"
             }
           ],
           "stem": "an-āsava",
@@ -2358,7 +2358,7 @@ window.GITA_PARALLELS = {
           "translatable": true
         }
       ],
-      "english": "{0:Whose} {1:senses} {2:have come to calm}, {4:like} {3:horses} {6:well-tamed} {5:by the charioteer} — {7:with conceit abandoned}, {8:free of taints} — {9:the gods} {10:even} {12:envy} {11:such a one}, {13:the one who is Such}."
+      "english": "{0:Whose} {1:senses} {2:have come to calm}, {4:like} {3:horses} {6:well-tamed} {5:by the charioteer} — {7:with conceit abandoned}, {8:free of the āsavas} — {9:the gods} {10:even} {12:envy} {11:such a one}, {13:the one who is Such}."
     },
     {
       "school": "Yoga (Pātañjala)",

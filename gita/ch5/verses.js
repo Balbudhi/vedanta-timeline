@@ -686,7 +686,7 @@ window.CH5_VERSES = [
     "devanagari": "ज्ञेयः स नित्यसंन्यासी यो न द्वेष्टि न काङ्क्षति ।\nनिर्द्वंद्वो हि महाबाहो सुखं बन्धात् प्रमुच्यते ॥",
     "iast": "jñeyaḥ sa nityasaṃnyāsī yo na dveṣṭi na kāṅkṣati |\nnirdvaṃdvo hi mahābāho sukhaṃ bandhāt pramucyate ||",
     "sense": "He is to be known as the constant renunciant who neither feels dveṣa nor desires; free from the pairs of opposites, O Arjuna, he is easily released from bondage.",
-    "english": "{1:He} is {0:to be known as} {2:the eternal renunciant} — {3:who} {4:neither} {5:feels dveṣa} {6:nor} {7:desires}. {9:For}, {10:O mighty-armed one}, {8:free from the dualities}, {11:easily} {13:is released} {12:from bondage}.",
+    "english": "{1:He} is {0:to be known as} {2:the eternal renunciant} — {3:who} {4:neither} {5:feels dveṣa} {6:nor} {7:longs for anything}. {9:For}, {10:O mighty-armed one}, {8:free from the dualities}, he {13:is released} {11:easily} {12:from bondage}.",
     "words": [
       {
         "i": 0,
@@ -2029,7 +2029,7 @@ window.CH5_VERSES = [
     "devanagari": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः ।\nसर्वभूतात्मभूतात्मा कुर्वन्न् अपि न लिप्यते ॥",
     "iast": "yogayukto viśuddhātmā vijitātmā jitendriyaḥ |\nsarvabhūtātmabhūtātmā kurvann api na lipyate ||",
     "sense": "One yoked in yoga, purified and self-mastered in mind, senses conquered, whose self has become the self of all beings — even while acting, is not tainted.",
-    "english": "{0:Yoked in yoga}, {1:pure in self}, {2:self-conquered}, {3:the indriyas conquered}, {4:whose self has become the self of all beings} — {6:even} {5:while acting}, {7:is not} {8:tainted}.",
+    "english": "{0:Yoked in yoga}, {1:pure in self}, {2:self-conquered}, {3:the indriyas conquered}, {4:whose self has become the self of all beings} — {6:even} {5:while acting}, he {7:is not} {8:stained}.",
     "words": [
       {
         "i": 0,
@@ -2286,7 +2286,7 @@ window.CH5_VERSES = [
         "i": 8,
         "deva": "लिप्यते",
         "iast": "lipyate",
-        "gloss": "is smeared, is tainted, is defiled",
+        "gloss": "is smeared, is stained, is defiled",
         "stem": null,
         "root": "√lip (tudādi, 6U)",
         "rootGloss": "to smear, to anoint, to stain",
@@ -3066,7 +3066,7 @@ window.CH5_VERSES = [
     "devanagari": "ब्रह्मण्य् आधाय कर्माणि सङ्गं त्यक्त्वा करोति यः ।\nलिप्यते न स पापेन पद्मपत्रम् इवाम्भसा ॥",
     "iast": "brahmaṇy ādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ |\nlipyate na sa pāpena padmapatram ivāmbhasā ||",
     "sense": "Whoever acts having consigned his works to Brahman and given up clinging is not stained by evil, as a lotus-leaf is not wetted by water.",
-    "english": "{6:Whoever}, {0:in Brahman} {1:having placed} {2:karmas}, {4:having abandoned} {3:clinging}, {5:acts} — {9:he} {7:is} {8:not} {10:tainted by evil}, {12:as} {11:a lotus-leaf} {13:by water}.",
+    "english": "{6:Whoever}, {0:in Brahman} {1:having placed} {2:karmas}, {4:having abandoned} {3:clinging}, {5:acts} — {9:he} {7:is} {8:not} {10:stained by evil}, {12:as} {11:a lotus-leaf} {13:by water}.",
     "words": [
       {
         "i": 0,
@@ -3246,7 +3246,7 @@ window.CH5_VERSES = [
         "i": 7,
         "deva": "लिप्यते",
         "iast": "lipyate",
-        "gloss": "is smeared, is tainted, is defiled",
+        "gloss": "is smeared, is stained, is defiled",
         "stem": null,
         "root": "√lip (tudādi, 6U)",
         "rootGloss": "to smear, to anoint, to stain",
@@ -4436,7 +4436,7 @@ window.CH5_VERSES = [
     "devanagari": "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभुः ।\nन कर्मफलसंयोगं स्वभावस् तु प्रवर्तते ॥",
     "iast": "na kartṛtvaṃ na karmāṇi lokasya sṛjati prabhuḥ |\nna karmaphalasaṃyogaṃ svabhāvas tu pravartate ||",
     "sense": "The self as sovereign creates neither agency nor karmas for the world, nor the linking of karma to its fruit; that is the work of one's own nature operating by itself.",
-    "english": "{0:Not} {1:agency}, {2:nor} {3:karmas} {4:for the world}, {6:the Lord} {5:creates} — {7:nor} {8:the union of karma and its fruit}; {10:but} {9:own-nature} {11:operates}.",
+    "english": "{6:The Lord} {5:creates} {0:neither} {1:agency} {2:nor} {3:karmas} {4:for the world}, {7:nor} {8:the union of karma with its fruit}; {10:but} {9:own-nature} {11:operates}.",
     "words": [
       {
         "i": 0,
@@ -5489,7 +5489,7 @@ window.CH5_VERSES = [
     "devanagari": "तद्बुद्धयस् तदात्मानस् तन्निष्ठास् तत्परायणाः ।\nगच्छन्त्य् अपुनरावृत्तिं ज्ञाननिर्धूतकल्मषाः ॥",
     "iast": "tadbuddhayas tadātmānas tanniṣṭhās tatparāyaṇāḥ |\ngacchanty apunarāvṛttiṃ jñānanirdhūtakalmaṣāḥ ||",
     "sense": "Their understanding, their mind, their foundation, and their final goal all fixed on That — their impurities shaken off by knowledge — such people go to the state of never returning.",
-    "english": "{0:Those whose buddhi is fixed on That}, {1:whose self is on That}, {2:who are grounded in That}, {3:for whom That is the final goal} — {6:their taints shaken off by knowledge} — {4:attain} {5:non-return}.",
+    "english": "{0:Those whose buddhi is fixed on That}, {1:whose self is on That}, {2:who are grounded in That}, {3:for whom That is the final goal} — {6:their impurities shaken off by knowledge} — {4:attain} {5:non-return}.",
     "words": [
       {
         "i": 0,
@@ -5722,7 +5722,7 @@ window.CH5_VERSES = [
         "i": 6,
         "deva": "ज्ञाननिर्धूतकल्मषाः",
         "iast": "jñāna-nirdhūta-kalmaṣāḥ",
-        "gloss": "those whose taints have been shaken off by knowledge",
+        "gloss": "those whose impurities have been shaken off by knowledge",
         "stem": "jñāna-nirdhūta-kalmaṣa",
         "root": "√dhū (svādi, 5U)",
         "rootGloss": "to shake, to shake off, to remove",
@@ -6472,7 +6472,7 @@ window.CH5_VERSES = [
     "devanagari": "न प्रहृष्येत् प्रियं प्राप्य नोद्विजेत् प्राप्य चाप्रियम् ।\nस्थिरबुद्धिर् असंमूढो ब्रह्मविद् ब्रह्मणि स्थितः ॥",
     "iast": "na prahṛṣyet priyaṃ prāpya nodvijet prāpya cāpriyam |\nsthirabuddhir asaṃmūḍho brahmavid brahmaṇi sthitaḥ ||",
     "sense": "One should not rejoice on getting what is pleasant, nor be distressed on getting what is unpleasant — steadfast in buddhi, undeluded, a knower of Brahman, established in Brahman.",
-    "english": "{0:Not} {1:should he rejoice}, {3:having gotten} {2:what is pleasant}; {4:nor} {5:should he be distressed}, {6:having gotten} {7:and} {8:what is unpleasant} — {9:steadfast in buddhi}, {10:undeluded}, {11:a knower of Brahman}, {12:in Brahman} {13:he stands}.",
+    "english": "{0:Not} {1:should he rejoice}, {3:having gotten} {2:what is pleasant}; {4,7:nor} {5:should he be distressed}, {6:having gotten} {8:what is unpleasant} — {9:steadfast in buddhi}, {10:undeluded}, {11:a knower of Brahman}, {12:in Brahman} {13:he stands}.",
     "words": [
       {
         "i": 0,
@@ -7193,7 +7193,7 @@ window.CH5_VERSES = [
     "devanagari": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते ।\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः ॥",
     "iast": "ye hi saṃsparśajā bhogā duḥkhayonaya eva te |\nādyantavantaḥ kaunteya na teṣu ramate budhaḥ ||",
     "sense": "The enjoyments that are born of contact are indeed wombs of sorrow, Kaunteya — they have a beginning and an end; the wise do not delight in them.",
-    "english": "{1:For} {3:the enjoyments} {0:that} {2:are born of contact}, {6:they} {5:indeed} {4:have sorrow as their source}; {7:having a beginning and an end} — {8:O son of Kuntī}, {12:the wise one} {9:does not} {11:delight} {10:in them}.",
+    "english": "{1:For} {3:the enjoyments} {0:that} {2:are born of contact} — {6:they} {5:indeed} {4:are sources of sorrow}, {7:having a beginning and an end}. {8:O son of Kuntī}, {12:the wise one} {9:does not} {11:delight} {10:in them}.",
     "words": [
       {
         "i": 0,
@@ -7301,7 +7301,7 @@ window.CH5_VERSES = [
         "i": 4,
         "deva": "दुःखयोनयः",
         "iast": "duḥkhayonayaḥ",
-        "gloss": "having sorrow for their womb, sourced in sorrow",
+        "gloss": "sources of sorrow, wombs from which sorrow is born",
         "stem": "duḥkha-yoni",
         "root": null,
         "affix": "jas (prathamā bahuvacana)",
@@ -7311,7 +7311,7 @@ window.CH5_VERSES = [
         "translatable": true,
         "compound": {
           "type": "bahuvrīhi",
-          "vigraha": "duḥkham yoniḥ yeṣāṃ te",
+          "vigraha": "duḥkhasya yonayaḥ",
           "members": [
             "duḥkha",
             "yoni"
@@ -7326,7 +7326,8 @@ window.CH5_VERSES = [
             "form": "yoni",
             "gloss": "womb, source, origin"
           }
-        ]
+        ],
+        "note": "A tatpuruṣa: duḥkhasya yonayaḥ, the wombs or causes OF sorrow — these enjoyments give rise to it. Not the reverse."
       },
       {
         "i": 5,
@@ -8233,7 +8234,7 @@ window.CH5_VERSES = [
     "devanagari": "लभन्ते ब्रह्मनिर्वाणम् ऋषयः क्षीणकल्मषाः ।\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ॥",
     "iast": "labhante brahmanirvāṇam ṛṣayaḥ kṣīṇakalmaṣāḥ |\nchinnadvaidhā yatātmānaḥ sarvabhūtahite ratāḥ ||",
     "sense": "Seers who have worn away their taints, cut off from doubt, self-controlled, and devoted to the welfare of all beings, attain the beatitude that is Brahman.",
-    "english": "{2:Seers} {3:whose taints are worn away}, {4:free of doubt}, {5:whose selves are controlled}, {7:delighting} {6:in the welfare of all beings}, {0:attain} {1:brahma-nirvāṇa}.",
+    "english": "{2:Seers} {3:whose impurities are worn away}, {4:free of doubt}, {5:whose selves are controlled}, {7:delighting} {6:in the welfare of all beings}, {0:attain} {1:brahma-nirvāṇa}.",
     "words": [
       {
         "i": 0,
@@ -8328,7 +8329,7 @@ window.CH5_VERSES = [
         "i": 3,
         "deva": "क्षीणकल्मषाः",
         "iast": "kṣīṇa-kalmaṣāḥ",
-        "gloss": "whose taints are worn away, whose sins have waned",
+        "gloss": "whose impurities are worn away, whose sins have waned",
         "stem": "kṣīṇa-kalmaṣa",
         "root": "√kṣi (svādi, 5U)",
         "rootGloss": "to waste away, to diminish, to perish; (transitive) to destroy",
@@ -8775,7 +8776,7 @@ window.CH5_VERSES = [
     "devanagari": "स्पर्शान् कृत्वा बहिर् बाह्यांश् चक्षुश् चैवान्तरे भ्रुवोः ।\nप्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ ॥",
     "iast": "sparśān kṛtvā bahir bāhyāṃś cakṣuś caivāntare bhruvoḥ |\nprāṇāpānau samau kṛtvā nāsābhyantaracāriṇau ||",
     "sense": "He shuts the external sense-contacts outside, fixes the gaze between the eyebrows, and evens out the prāṇa and apāna moving within the nostrils —",
-    "english": "{1:Having put} {0:the sense-contacts} {3:external} {2:outside}, {5:and} {4:the eye} {6:indeed} {7:between} {8:the eyebrows}; {11:having made} {9:the prāṇa and the apāna}, {12:moving within the nostrils}, {10:equal} —",
+    "english": "{1:Having put} {3:external} {0:contacts} {2:outside}, {5:and} {4:the eye} {6:indeed} {7:between} {8:the eyebrows}; {11:having made} {9:the prāṇa and the apāna}, {12:moving within the nostrils}, {10:equal} —",
     "words": [
       {
         "i": 0,

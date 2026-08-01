@@ -4832,7 +4832,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.61",
         "sanskrit": "asya sarvasya parijihīrṣayā viṣayānurāgayuktatayā durjayānīndriyāṇi saṃyamya, cetasaś śubhāśrayabhūte mayi mano 'vasthāpya samāhita āsīta / manasi madviṣaye sati nirdagdhāśeṣakalmaṣatayā nirmalīkṛtaṃ viṣayānurāgarahitaṃ mana indriyāṇi svavaśāni karoti / tato vaśyendriyaṃ mana ātmadarśanāya prabhavati / yathoktam, \"yathāgnir uddhataśikhaḥ kakṣaṃ dahati sānilaḥ / tathā cittasthito viṣṇur yogināṃ sarvakilbiṣam //\" iti / tadāha \"vaśe hi yasyendriyāṇi tasya prajñā pratiṣṭhitā\" iti /",
-        "ourRendering": "Wishing to ward off all this, having restrained the indriyas — hard to conquer because they are joined to saṅga for objects — and having fixed the manas on me, who am the auspicious resting-place of the manas, one should sit collected. When the manas has me for its object, being purified by the burning away of every taint, the manas, freed of saṅga toward objects, brings the indriyas under its own control. Then the manas, with indriyas mastered, becomes capable of the vision of the self. As it is said: 'As fire with raised flame, fanned by wind, burns up the brushwood, so Viṣṇu seated in the manas burns up all the sins of yogins.' This is what he states in: 'For he whose indriyas are in control — his prajñā (clear discriminative prajñā into reality) stands firm.'",
+        "ourRendering": "Wishing to ward off all this, having restrained the indriyas — hard to conquer because they are joined to saṅga for objects — and having fixed the manas on me, who am the auspicious resting-place of the manas, one should sit collected. When the manas has me for its object, being purified by the burning away of every impurity, the manas, freed of saṅga toward objects, brings the indriyas under its own control. Then the manas, with indriyas mastered, becomes capable of the vision of the self. As it is said: 'As fire with raised flame, fanned by wind, burns up the brushwood, so Viṣṇu seated in the manas burns up all the sins of yogins.' This is what he states in: 'For he whose indriyas are in control — his prajñā (clear discriminative prajñā into reality) stands firm.'",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -5112,7 +5112,7 @@ window.GITA_VERSES = [
           {
             "i": 17,
             "iast": "nirdagdhāśeṣakalmaṣatayā",
-            "gloss": "by the burning away of every taint",
+            "gloss": "by the burning away of every impurity",
             "parts": [
               {
                 "form": "nirdagdha",
@@ -5608,7 +5608,7 @@ window.GITA_VERSES = [
             ]
           }
         ],
-        "english": "{2:Wishing to ward off} {0:all} {1:this}, {6:having restrained} {5:the indriyas} — {4:hard to conquer} {3:because they are joined to saṅga for objects} — and {11:having fixed} {10:the manas} {9:on me}, {8:who am the auspicious resting-place} {7:of the manas}, {12:collected} {13:one should sit}. {16:When} {14:the manas} {15:has me for its object}, being {18:made pure} {17:by the burning away of every taint}, {20:the manas}, {19:freed of saṅga toward objects}, {23:brings} {21:the indriyas} {22:under its own control}. {24:Then} {26:the manas}, {25:with indriyas mastered}, {28:becomes capable} {27:of the vision of the self}. {29:As it is said}: {30:just as} {31:fire} {32:with raised flame}, {35:fanned by wind}, {34:burns up} {33:the brushwood}, {36:so} {38:Viṣṇu} {37:seated in the manas} burns up {40:all the sins} {39:of yogins} — {41:thus}. {43:This is what he states} {42:in}: {45:for} {46:he whose} {47:indriyas} are {44:in control}, {48:his} {49:prajñā} {50:stands firm} — {51:thus}.",
+        "english": "{2:Wishing to ward off} {0:all} {1:this}, {6:having restrained} {5:the indriyas} — {4:hard to conquer} {3:because they are joined to saṅga for objects} — and {11:having fixed} {10:the manas} {9:on me}, {8:who am the auspicious resting-place} {7:of the manas}, {12:collected} {13:one should sit}. {16:When} {14:the manas} {15:has me for its object}, being {18:made pure} {17:by the burning away of every impurity}, {20:the manas}, {19:freed of saṅga toward objects}, {23:brings} {21:the indriyas} {22:under its own control}. {24:Then} {26:the manas}, {25:with indriyas mastered}, {28:becomes capable} {27:of the vision of the self}. {29:As it is said}: {30:just as} {31:fire} {32:with raised flame}, {35:fanned by wind}, {34:burns up} {33:the brushwood}, {36:so} {38:Viṣṇu} {37:seated in the manas} burns up {40:all the sins} {39:of yogins} — {41:thus}. {43:This is what he states} {42:in}: {45:for} {46:he whose} {47:indriyas} are {44:in control}, {48:his} {49:prajñā} {50:stands firm} — {51:thus}.",
         "segments": [
           {
             "from": 0,
@@ -8925,7 +8925,7 @@ window.GITA_VERSES = [
         "work": "Gītā-bhāṣya",
         "locus": "2.64",
         "sanskrit": "uktena prakāreṇa mayi sarveśvare cetasaś śubhāśrayabhūte nyastamanāḥ nirdagdhāśeṣakalmaṣatayā rāgadveṣaviyuktair ātmavaśyair indriyaiḥ viṣayāṃś caran viṣayāṃs tiraskṛtya vartamānaḥ vidheyātmā vidheyamanāḥ prasādam adhigacchati nirmalāntaḥkaraṇo bhavatītyarthaḥ /",
-        "ourRendering": "In the manner already stated, having placed his manas on Me, the Lord of all, who am the auspicious resort of the thinking faculty — his every taint burnt away — engaging the sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, that is, abiding with the sense-objects pushed aside; he whose self is disciplined, whose manas is disciplined, attains serenity: the meaning is that he becomes one whose inner organ is pure.",
+        "ourRendering": "In the manner already stated, having placed his manas on Me, the Lord of all, who am the auspicious resort of the thinking faculty — his every impurity burnt away — engaging the sense-objects with indriyas freed from rāga and dveṣa and obedient to the self, that is, abiding with the sense-objects pushed aside; he whose self is disciplined, whose manas is disciplined, attains serenity: the meaning is that he becomes one whose inner organ is pure.",
         "source": "data/sources/sanskrit/vedanta/ramanuja_gita_bhasya.txt",
         "words": [
           {
@@ -9034,7 +9034,7 @@ window.GITA_VERSES = [
           {
             "i": 7,
             "iast": "nirdagdhāśeṣakalmaṣatayā",
-            "gloss": "his every taint burnt away",
+            "gloss": "his every impurity burnt away",
             "parts": [
               {
                 "form": "nirdagdha",
@@ -9295,7 +9295,7 @@ window.GITA_VERSES = [
             "morph": "nom. sg. masc."
           }
         ],
-        "english": "{1:In the manner} {0:already stated}, {6:having placed his manas} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every taint burnt away} — {12:engaging} {11:the sense-objects} {10:with indriyas} {8:freed from rāga and dveṣa} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is disciplined}, {17:whose manas is disciplined}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}.",
+        "english": "{1:In the manner} {0:already stated}, {6:having placed his manas} {2:on me}, {3:the Lord of all}, {5:who am the auspicious resort} {4:of the thinking faculty} — {7:his every impurity burnt away} — {12:engaging} {11:the sense-objects} {10:with indriyas} {8:freed from rāga and dveṣa} and {9:obedient to the self}, that is, {15:abiding} {14:having pushed aside} {13:the sense-objects}; he {16:whose self is disciplined}, {17:whose manas is disciplined}, {19:attains} {18:serenity}: {22:the}{23:meaning} is that he {21:becomes} {20:one whose inner organ is pure}.",
         "segments": [
           {
             "from": 0,
