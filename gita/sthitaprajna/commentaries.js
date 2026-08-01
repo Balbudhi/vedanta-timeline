@@ -11893,7 +11893,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 29,
           "iast": "vīta-rāga-bhaya-krodhaḥ",
-          "gloss": "free of passion, fear and anger",
+          "gloss": "free of passion, fear and krodha",
           "parts": [
             {
               "form": "vīta",
@@ -11909,7 +11909,7 @@ window.GITA_COMMENTARY = {
             },
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             }
           ],
           "morph": "nominative singular masculine",
@@ -11980,7 +11980,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 34,
           "iast": "krodhaḥ",
-          "gloss": "anger",
+          "gloss": "krodha",
           "parts": [
             {
               "form": "√krudh",
@@ -12079,7 +12079,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 40,
           "iast": "vīta-rāga-bhaya-krodhaḥ",
-          "gloss": "free of passion, fear and anger",
+          "gloss": "free of passion, fear and krodha",
           "parts": [
             {
               "form": "vīta",
@@ -12095,7 +12095,7 @@ window.GITA_COMMENTARY = {
             },
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             }
           ],
           "morph": "nominative singular masculine",
@@ -12205,7 +12205,7 @@ window.GITA_COMMENTARY = {
           "rootGloss": "to speak, to say, to tell, to declare, to utter"
         }
       ],
-      "english": "{0:Amid sorrows} — {1:the bodily-personal and the rest} — {2:when they arrive}, he {9:whose} {8:manas} is {3:not} {4:agitated}, {5:not} {6:disturbed} {7:at the onset of pain}, {10:is} {11:this one} {12:‘not-agitated-in-manas’}. {13:Likewise}, {14:amid pleasures} {15:when they arrive}, he {19:whose} {17:longing}, {18:whose tṛṣṇā}, has {16:departed} — who, {22:unlike} {21:fire} {23:when fuel and the like is added}, does {20:not} {26:swell up} {25:after} {24:pleasures} — {27:he} is {28:‘free of longing’}. {29:‘vīta-rāga-bhaya-krodhaḥ’}: he {38:from whom} {30:rāga} {31:and} {32:fear} {33:and} {34:anger} {36:have gone}, {37:are departed} — {39:he} is {40:free of rāga, fear and anger}. The {41:steady-minded one}, the {42:sthita-prajña}, the {43:sage}, the {44:renunciant}, is {45:then} {46:so called}.",
+      "english": "{0:Amid sorrows} — {1:the bodily-personal and the rest} — {2:when they arrive}, he {9:whose} {8:manas} is {3:not} {4:agitated}, {5:not} {6:disturbed} {7:at the onset of pain}, {10:is} {11:this one} {12:‘not-agitated-in-manas’}. {13:Likewise}, {14:amid pleasures} {15:when they arrive}, he {19:whose} {17:longing}, {18:whose tṛṣṇā}, has {16:departed} — who, {22:unlike} {21:fire} {23:when fuel and the like is added}, does {20:not} {26:swell up} {25:after} {24:pleasures} — {27:he} is {28:‘free of longing’}. {29:‘vīta-rāga-bhaya-krodhaḥ’}: he {38:from whom} {30:rāga} {31:and} {32:fear} {33:and} {34:krodha} {36:have gone}, {37:are departed} — {39:he} is {40:free of rāga, fear and krodha}. The {41:steady-minded one}, the {42:sthita-prajña}, the {43:sage}, the {44:renunciant}, is {45:then} {46:so called}.",
       "segments": [
         {
           "from": 0,
@@ -16283,7 +16283,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 253,
           "iast": "vīta-rāga-bhaya-krodhaḥ",
-          "gloss": "free of passion, fear and anger",
+          "gloss": "free of passion, fear and krodha",
           "parts": [
             {
               "form": "vīta",
@@ -16299,7 +16299,7 @@ window.GITA_COMMENTARY = {
             },
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             }
           ],
           "morph": "nominative singular masculine",
@@ -16731,7 +16731,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 277,
           "iast": "krodhaḥ",
-          "gloss": "is anger",
+          "gloss": "is krodha",
           "parts": [
             {
               "form": "√krudh",
@@ -17284,7 +17284,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 311,
           "iast": "rāga-bhaya-krodha-rahitaḥ",
-          "gloss": "free of passion, fear and anger",
+          "gloss": "free of passion, fear and krodha",
           "parts": [
             {
               "form": "rāga",
@@ -17296,7 +17296,7 @@ window.GITA_COMMENTARY = {
             },
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             },
             {
               "form": "rahita",
@@ -17368,7 +17368,7 @@ window.GITA_COMMENTARY = {
           "glossaryKey": "abhipraya"
         }
       ],
-      "english": "{0:Now} the {3:speaking, sitting and moving} {1:of the risen-up} {2:sthita-prajña}, which are {4:unlike the deluded crowd}, {5:are to be expounded}. {6:There}, to the question {7:‘what} {8:would he speak}{9:’}, {12:He gives} {11:the answer} {10:to this} — {13:by ‘duḥkheṣu’}{14:} {15:in two verses}. {16:Sorrows} are {17:threefold}: {19:the personal}, {18:caused by grief, delusion, fever, headache and the like}; {21:the elemental}, {20:brought on by tigers, snakes and so on}; {23:the divine-sent}, {22:caused by excess of wind, excess of rain and the like} — {24:amid those} {25:sorrows}, {26:particular mental modifications of the nature of the heat that is a transformation of rajas}, {27:brought on by commenced evil karma}, he {35:whose} {34:manas} does {28:not} become {29:agitated}, {32:not} {31:distraught} {30:through inability to remove the pain}, {36:is} {37:‘not-agitated-in-manas’}. {39:For} {38:in the undiscerning}, {40:when pain} {41:arrives}, there arises {55:of the nature of remorse}, {56:of the form of delusion}, a {57:tāmasic} {58:mental modification} {59:called ‘agitation’} {60:—}: {42:‘Alas}, {43:sinful} {44:am I}; {45:fie on} {46:me}, {47:the wicked one}, {48:who get such pain}; {49:who} {53:would remove} {50:my} {52:such} {51:pain}{54:?’} {61:Were} {62:this} {64:to arise} {63:at the time of doing the evil deed} {65:it would} {68:be} {67:fruitful}, {66:as obstructing that activity}; but {71:arising} {69:at the time of experiencing the result}, {70:since} {74:an effect} {75:cannot} {76:be} {75:cut off} while {72:its cause} {73:exists}, it is {77:purposeless} — {81:‘why} does {84:pain} {85:arise} {83:in me} {80:even} though {78:its cause} {79:exists}{82:?’} {86:—} and {87:being of the form of a delusion born of non-discrimination}, it does {88:not} {91:occur} {89:in the discerning} {90:sthita-prajña}. {93:For} {92:mere pain} is what {95:is obtained} {94:by commenced karma}, {96:not} {97:but} {99:the delusion} {98:subsequent to it} {100:too}. — {101:If it be objected} that, {102:since it is the cause of further pain}, {103:that} {104:too} {106:should be obtained} {105:by some other commenced karma} {107:—} {108:if so} {109:—} no: {110:in the sthita-prajña}, {111:by the destruction of the ignorance that is the material cause of delusion}, {112:delusion is impossible}, {113:and the commenced karma that would procure the pain born of it is absent}. As {123:will be} {121:elaborated} {122:later}, {114:somehow} {117:even} where {115:the commenced karma sustaining mere bodily existence} is present, it {119:is intelligible} {118:as a sublated continuance} {116:though delusion be absent} {120:—}. {124:Likewise} {125:amid pleasures} — {126:particular mental modifications of the nature of the joy that is a transformation of sattva}, {127:threefold}, {128:brought on by commenced good karma} — he is {129:‘free of longing’}, {130:devoid of longing for future pleasure of the same kind}. {132:For} {131:‘longing’} {133:is}, {134:at the time of experiencing pleasure}, that {142:tāmasic} {143:mental modification}, a {144:mere delusion} {141:of the form of craving} {139:vainly} {140:without} {138:performing} {137:the dharma} that is {136:its cause}, {135:of pleasure of the same kind}. {147:And} {146:that} {150:arises} {148:only in the undiscerning} {149:—}, {152:for} {154:an effect} {155:cannot} {156:come to be} {153:in the absence of its cause}. {157:So} {158:just as} {165:the purposeless craving of the form} {162:‘let} {161:the effect} {163:not occur} {159:though the cause} {160:exists’}, {164:which} {166:is agitation}, does {168:not} {169:occur} {167:in the discerning}, {170:so too} {171:just} {179:the longing}, {178:of the nature of tṛṣṇā} {177:and of the form} {172:‘let} {174:the effect} {175:occur} though {172:there is no} {173:cause’}, {180:too} {181:is} {182:unintelligible}, {184:since commenced karma only procures mere pleasure} {183:—}. {186:Or}, {187:a mental modification} {185:of the form of elation} {189:is expressed} {188:by the word ‘longing’}; {190:that} {191:too} is {192:just} {193:delusion} {192:—}: {194:‘Ah}, {195:fortunate} {196:am I}, {197:to whom} {198:my} {199:such} {200:pleasure} {201:has come}; {202:who} {203:indeed} {206:in the three worlds} is {205:equal} {204:to me}; {207:by what} {208:or} {209:means} {213:may} {210:my} {211:such} {212:pleasure} {214:not be cut off}{215:?’} — {216:such} a {218:tāmasic} {219:mental modification} {217:of the form of self-puffery}. {220:Hence} {221:it was said} {222:in the Bhāṣya}, {223:‘who}, {225:unlike} {224:fire} {226:at the adding of fuel and the like}, does {229:not} {230:swell up} {229:after} {228:pleasures}, {231:is} {232:free of longing}{233:.’} {234:And He will say} {235::} {236:‘Let him} {237:not exult} {239:on gaining} {238:the pleasant} {240:nor} {241:recoil} {242:on gaining} {244:the unpleasant} {243:either}{245:.’} {246:That} {247:too} does {248:not} {250:occur} {249:in the discerning}, {251:being a delusion}. {252:Likewise} {253:‘free of rāga, fear and anger’}: {254:rāga} {255:is occasioned by the superimposition of attractiveness}, {257:of the form of coloring} {256:toward objects}, {258:a particular mental modification}, {259:of the nature of intense clinging}. When {261:a destroyer} {260:of the object of rāga} {262:presents itself}, {267:that particular mental modification} {266:of the form of abjectness}, {265:in one who thinks} {264:himself} {263:unable to ward it off}, {268:is fear}. {269:Likewise}, when {270:a destroyer of the object of rāga} {271:presents itself}, {276:that particular mental modification} {275:of the form of flaring up}, {274:in one who thinks} {273:himself} {272:able to ward it off}, {277:is anger}. {278:All} {279:these}, {280:being of the nature of error}, {281:have departed} {282:from whom} — {283:he} is {284:so named}. {285:Such} a {286:sage}, {287:of meditative nature}, {288:a renunciant}, {290:is called} {289:sthita-prajña}. {291:Such a one of these characteristics}, {292:the steady-minded one}, {294:for the instruction of disciples} {293:by displaying his own experience}, {296:would speak} {295:words of non-agitation, of being free of longing and the rest} — {297:thus} {298:the construction} {299:has been stated}. {300:And thus} {301:—} {302:any other} {303:too} {304:seeker of release} {307:should} {306:not} {305:recoil in sorrow} {309:nor} {310:exult} {308:in pleasure}, {312:and} {313:should become} {311:free of rāga, fear and anger} {314:—} {315:this is the import}.",
+      "english": "{0:Now} the {3:speaking, sitting and moving} {1:of the risen-up} {2:sthita-prajña}, which are {4:unlike the deluded crowd}, {5:are to be expounded}. {6:There}, to the question {7:‘what} {8:would he speak}{9:’}, {12:He gives} {11:the answer} {10:to this} — {13:by ‘duḥkheṣu’}{14:} {15:in two verses}. {16:Sorrows} are {17:threefold}: {19:the personal}, {18:caused by grief, delusion, fever, headache and the like}; {21:the elemental}, {20:brought on by tigers, snakes and so on}; {23:the divine-sent}, {22:caused by excess of wind, excess of rain and the like} — {24:amid those} {25:sorrows}, {26:particular mental modifications of the nature of the heat that is a transformation of rajas}, {27:brought on by commenced evil karma}, he {35:whose} {34:manas} does {28:not} become {29:agitated}, {32:not} {31:distraught} {30:through inability to remove the pain}, {36:is} {37:‘not-agitated-in-manas’}. {39:For} {38:in the undiscerning}, {40:when pain} {41:arrives}, there arises {55:of the nature of remorse}, {56:of the form of delusion}, a {57:tāmasic} {58:mental modification} {59:called ‘agitation’} {60:—}: {42:‘Alas}, {43:sinful} {44:am I}; {45:fie on} {46:me}, {47:the wicked one}, {48:who get such pain}; {49:who} {53:would remove} {50:my} {52:such} {51:pain}{54:?’} {61:Were} {62:this} {64:to arise} {63:at the time of doing the evil deed} {65:it would} {68:be} {67:fruitful}, {66:as obstructing that activity}; but {71:arising} {69:at the time of experiencing the result}, {70:since} {74:an effect} {75:cannot} {76:be} {75:cut off} while {72:its cause} {73:exists}, it is {77:purposeless} — {81:‘why} does {84:pain} {85:arise} {83:in me} {80:even} though {78:its cause} {79:exists}{82:?’} {86:—} and {87:being of the form of a delusion born of non-discrimination}, it does {88:not} {91:occur} {89:in the discerning} {90:sthita-prajña}. {93:For} {92:mere pain} is what {95:is obtained} {94:by commenced karma}, {96:not} {97:but} {99:the delusion} {98:subsequent to it} {100:too}. — {101:If it be objected} that, {102:since it is the cause of further pain}, {103:that} {104:too} {106:should be obtained} {105:by some other commenced karma} {107:—} {108:if so} {109:—} no: {110:in the sthita-prajña}, {111:by the destruction of the ignorance that is the material cause of delusion}, {112:delusion is impossible}, {113:and the commenced karma that would procure the pain born of it is absent}. As {123:will be} {121:elaborated} {122:later}, {114:somehow} {117:even} where {115:the commenced karma sustaining mere bodily existence} is present, it {119:is intelligible} {118:as a sublated continuance} {116:though delusion be absent} {120:—}. {124:Likewise} {125:amid pleasures} — {126:particular mental modifications of the nature of the joy that is a transformation of sattva}, {127:threefold}, {128:brought on by commenced good karma} — he is {129:‘free of longing’}, {130:devoid of longing for future pleasure of the same kind}. {132:For} {131:‘longing’} {133:is}, {134:at the time of experiencing pleasure}, that {142:tāmasic} {143:mental modification}, a {144:mere delusion} {141:of the form of craving} {139:vainly} {140:without} {138:performing} {137:the dharma} that is {136:its cause}, {135:of pleasure of the same kind}. {147:And} {146:that} {150:arises} {148:only in the undiscerning} {149:—}, {152:for} {154:an effect} {155:cannot} {156:come to be} {153:in the absence of its cause}. {157:So} {158:just as} {165:the purposeless craving of the form} {162:‘let} {161:the effect} {163:not occur} {159:though the cause} {160:exists’}, {164:which} {166:is agitation}, does {168:not} {169:occur} {167:in the discerning}, {170:so too} {171:just} {179:the longing}, {178:of the nature of tṛṣṇā} {177:and of the form} {172:‘let} {174:the effect} {175:occur} though {172:there is no} {173:cause’}, {180:too} {181:is} {182:unintelligible}, {184:since commenced karma only procures mere pleasure} {183:—}. {186:Or}, {187:a mental modification} {185:of the form of elation} {189:is expressed} {188:by the word ‘longing’}; {190:that} {191:too} is {192:just} {193:delusion} {192:—}: {194:‘Ah}, {195:fortunate} {196:am I}, {197:to whom} {198:my} {199:such} {200:pleasure} {201:has come}; {202:who} {203:indeed} {206:in the three worlds} is {205:equal} {204:to me}; {207:by what} {208:or} {209:means} {213:may} {210:my} {211:such} {212:pleasure} {214:not be cut off}{215:?’} — {216:such} a {218:tāmasic} {219:mental modification} {217:of the form of self-puffery}. {220:Hence} {221:it was said} {222:in the Bhāṣya}, {223:‘who}, {225:unlike} {224:fire} {226:at the adding of fuel and the like}, does {229:not} {230:swell up} {229:after} {228:pleasures}, {231:is} {232:free of longing}{233:.’} {234:And He will say} {235::} {236:‘Let him} {237:not exult} {239:on gaining} {238:the pleasant} {240:nor} {241:recoil} {242:on gaining} {244:the unpleasant} {243:either}{245:.’} {246:That} {247:too} does {248:not} {250:occur} {249:in the discerning}, {251:being a delusion}. {252:Likewise} {253:‘free of rāga, fear and krodha’}: {254:rāga} {255:is occasioned by the superimposition of attractiveness}, {257:of the form of coloring} {256:toward objects}, {258:a particular mental modification}, {259:of the nature of intense clinging}. When {261:a destroyer} {260:of the object of rāga} {262:presents itself}, {267:that particular mental modification} {266:of the form of abjectness}, {265:in one who thinks} {264:himself} {263:unable to ward it off}, {268:is fear}. {269:Likewise}, when {270:a destroyer of the object of rāga} {271:presents itself}, {276:that particular mental modification} {275:of the form of flaring up}, {274:in one who thinks} {273:himself} {272:able to ward it off}, {277:is krodha}. {278:All} {279:these}, {280:being of the nature of error}, {281:have departed} {282:from whom} — {283:he} is {284:so named}. {285:Such} a {286:sage}, {287:of meditative nature}, {288:a renunciant}, {290:is called} {289:sthita-prajña}. {291:Such a one of these characteristics}, {292:the steady-minded one}, {294:for the instruction of disciples} {293:by displaying his own experience}, {296:would speak} {295:words of non-agitation, of being free of longing and the rest} — {297:thus} {298:the construction} {299:has been stated}. {300:And thus} {301:—} {302:any other} {303:too} {304:seeker of release} {307:should} {306:not} {305:recoil in sorrow} {309:nor} {310:exult} {308:in pleasure}, {312:and} {313:should become} {311:free of rāga, fear and krodha} {314:—} {315:this is the import}.",
       "segments": [
         {
           "from": 0,
@@ -17760,7 +17760,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 21,
           "iast": "rāga-bhaya-krodhāḥ",
-          "gloss": "passion, fear and anger",
+          "gloss": "passion, fear and krodha",
           "parts": [
             {
               "form": "rāga",
@@ -17772,7 +17772,7 @@ window.GITA_COMMENTARY = {
             },
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             }
           ],
           "morph": "nominative plural masculine",
@@ -17884,7 +17884,7 @@ window.GITA_COMMENTARY = {
           "rootGloss": "to speak, to say, to tell, to declare, to utter"
         }
       ],
-      "english": "{1:Moreover}, {3:} {2:‘duḥkheṣu’}: he {10:whose} {9:manas} is {7:unagitated}, {8:undisturbed}, {6:even} {5:when} {4:sorrows} {5:arrive}{11:,} {16:he} {15:whose} {14:longing} {13:has departed} {12:amid pleasures}. {17:There} {18:the cause}: he {22:from whom} {21:rāga, fear and anger} are {19:gone}, {20:departed}. {23:There} {24:‘rāga’} is {25:fondness}. {26:That} {27:sage} {29:is called} {28:steady-minded}.",
+      "english": "{1:Moreover}, {3:} {2:‘duḥkheṣu’}: he {10:whose} {9:manas} is {7:unagitated}, {8:undisturbed}, {6:even} {5:when} {4:sorrows} {5:arrive}{11:,} {16:he} {15:whose} {14:longing} {13:has departed} {12:amid pleasures}. {17:There} {18:the cause}: he {22:from whom} {21:rāga, fear and krodha} are {19:gone}, {20:departed}. {23:There} {24:‘rāga’} is {25:fondness}. {26:That} {27:sage} {29:is called} {28:steady-minded}.",
       "segments": [
         {
           "from": 0,
@@ -35633,11 +35633,11 @@ window.GITA_COMMENTARY = {
         {
           "i": 24,
           "iast": "krodhaḥ",
-          "gloss": "anger",
+          "gloss": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             }
           ],
           "morph": "nominative singular",
@@ -35668,11 +35668,11 @@ window.GITA_COMMENTARY = {
         {
           "i": 26,
           "iast": "krodhāt",
-          "gloss": "from anger",
+          "gloss": "from krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             }
           ],
           "morph": "ablative singular",
@@ -36590,7 +36590,7 @@ window.GITA_COMMENTARY = {
           "morph": "nominative singular"
         }
       ],
-      "english": "{0:Of a man meditating on} — {1:pondering} — {2:objects}, {5:dwelling on} {4:the particular objects} {3:sound and the rest}, {8:‘saṅga’}, {9:clinging}, {10:fondness} {11:toward those} {12:objects} {13:arises}, {14:comes to be}. {15:From saṅga}, {16:from fondness}, {17:is born}, {18:arises}, {19:‘kāma’}, {20:tṛṣṇā}. {21:From kāma}, {23:when thwarted} {22:somewhere}, {24:anger} {25:arises}. {26:From anger} {27:comes} {28:delusion}, {29:non-discrimination} {30:as to what should and should not be done}; {32:for} {31:the angry man}, {33:become deluded} {34:being}, {37:reviles} {36:even} {35:his elder}. {38:From delusion}, {39:‘confusion of memory’}: {41:of the memory} {40:generated by the impressions laid down by the teaching of scripture and teacher}, {42:there would be} {43:confusion}, {44:a lapse} — {45:when the occasion for its arising is present}, {46:its non-arising}. {47:Then} {48:from the lapse of memory}, {49:‘ruin of the understanding’}: {51:the unfitness for discriminating what should and should not be done} {52:of the inner organ}, {53:the understanding}, {54:the ruin} {55:is called}. {57:From the ruin} {56:of the understanding} {58:he perishes}: {61:for} {62:a man} is a man {59:only so long} {60:as} {63:as long as} {65:his} {64:inner organ} {66:is fit to discriminate what should and should not be done}; {67:when it becomes unfit} {70:the man} {68:is as good as} {69:destroyed} {71:becomes}. {72:Hence}, {76:from the ruin} {73:of his} {74:inner organ}, {75:the understanding}, {77:he perishes}, {78:becomes unfit for the human goal} {79:becomes} — {80,81:that is the meaning}.",
+      "english": "{0:Of a man meditating on} — {1:pondering} — {2:objects}, {5:dwelling on} {4:the particular objects} {3:sound and the rest}, {8:‘saṅga’}, {9:clinging}, {10:fondness} {11:toward those} {12:objects} {13:arises}, {14:comes to be}. {15:From saṅga}, {16:from fondness}, {17:is born}, {18:arises}, {19:‘kāma’}, {20:tṛṣṇā}. {21:From kāma}, {23:when thwarted} {22:somewhere}, {24:krodha} {25:arises}. {26:From krodha} {27:comes} {28:delusion}, {29:non-discrimination} {30:as to what should and should not be done}; {32:for} {31:the angry man}, {33:become deluded} {34:being}, {37:reviles} {36:even} {35:his elder}. {38:From delusion}, {39:‘confusion of memory’}: {41:of the memory} {40:generated by the impressions laid down by the teaching of scripture and teacher}, {42:there would be} {43:confusion}, {44:a lapse} — {45:when the occasion for its arising is present}, {46:its non-arising}. {47:Then} {48:from the lapse of memory}, {49:‘ruin of the understanding’}: {51:the unfitness for discriminating what should and should not be done} {52:of the inner organ}, {53:the understanding}, {54:the ruin} {55:is called}. {57:From the ruin} {56:of the understanding} {58:he perishes}: {61:for} {62:a man} is a man {59:only so long} {60:as} {63:as long as} {65:his} {64:inner organ} {66:is fit to discriminate what should and should not be done}; {67:when it becomes unfit} {70:the man} {68:is as good as} {69:destroyed} {71:becomes}. {72:Hence}, {76:from the ruin} {73:of his} {74:inner organ}, {75:the understanding}, {77:he perishes}, {78:becomes unfit for the human goal} {79:becomes} — {80,81:that is the meaning}.",
       "segments": [
         {
           "from": 0,
@@ -37256,7 +37256,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 37,
           "iast": "krodhaḥ",
-          "gloss": "anger",
+          "gloss": "krodha",
           "parts": [
             {
               "form": "√krudh",
@@ -37319,7 +37319,7 @@ window.GITA_COMMENTARY = {
         {
           "i": 40,
           "iast": "krodhāt",
-          "gloss": "from anger",
+          "gloss": "from krodha",
           "parts": [
             {
               "form": "√krudh",
@@ -38613,7 +38613,7 @@ window.GITA_COMMENTARY = {
           "morph": "indeclinable"
         }
       ],
-      "english": "{1:Even} {0:of one whose outer indriyas are restrained}, but {4:who meditates on} — {6:again} {7:and again} {8:ponders} {5:in the manas} — {2:the objects sound and the rest}, {3:objects}, {10:toward those} {11:objects} {12:‘saṅga’}, {13:clinging}, of the form {17:‘these} {16:are an exceeding cause of pleasure} {15:exceedingly} {14:for me’}, {18:—} {19:thus} {21:a particular fondness} {20:marked by the superimposition of attractiveness}, {22:arises}. {23:From saṅga}, {24:marked by the cognition that they are a cause of pleasure}, {25:is born} {26:‘kāma’}, {31:a particular tṛṣṇā}, {27:‘mine} {28:let these} {29:be’} {30:—}. {32:From that} {33:kāma}, {35:when thwarted} {34:somewhere}, {37:anger}, {38:of the nature of flaring up}, {36:directed at that which thwarts it}, {39:arises}. {40:From anger} {41:comes} {42:delusion}, {43:of the form of the absence of discrimination of what should and should not be done}. {44:From delusion}, {45:‘confusion of memory’}: {46:of the memory}, {47:the bringing-to-mind of the meaning taught by scripture and teacher}, there is {48:confusion}, {49:a wandering}, {50:a lapse}. {51:And from that} {52:—} {53:lapse of memory}, ‘ruin of the understanding’: {54:of the understanding}, {55:the mental modification of the form of unity (with the Self)}, there is {56:ruin} — {57:by the fault of the accumulation of contrary conviction} {58:it is obstructed}, so {59:it does not arise}, {61:or}, {60:having arisen}, {63:it dissolves} {62:by being unfit for its fruit}. {64:From the ruin of the understanding} {65:‘he perishes’}: {70:by the loss} {66:of that} {67:and} {68:fruitful} {69:understanding} {71:he perishes}, {73:becomes} {72:unfit for every human goal}. {75:For} {74:he who} {77:has become} {76:unfit for the human goal} {78:is}, {82:in the world}, {83:spoken of} as {79:‘dead’} {80:verily} {81:—}; {84:hence} {85:‘he perishes’} {87:is said} {86:—}. {88:Since} {89:thus}, {91:when restraint} {90:of the manas} is absent, there is, {93:even} {92:for one whose outer indriyas are restrained}, {94:the attainment of supreme calamity} — {95:therefore} one should {99:restrain} {98:the manas} {96:with great} {97:effort} {100:—} {101:this is the import}. {102:Hence} {103:it was rightly} {104:said}, {107:‘reining in} {105:all} {106:of them}, {109:let him sit} {108:yoked} {110:.’}",
+      "english": "{1:Even} {0:of one whose outer indriyas are restrained}, but {4:who meditates on} — {6:again} {7:and again} {8:ponders} {5:in the manas} — {2:the objects sound and the rest}, {3:objects}, {10:toward those} {11:objects} {12:‘saṅga’}, {13:clinging}, of the form {17:‘these} {16:are an exceeding cause of pleasure} {15:exceedingly} {14:for me’}, {18:—} {19:thus} {21:a particular fondness} {20:marked by the superimposition of attractiveness}, {22:arises}. {23:From saṅga}, {24:marked by the cognition that they are a cause of pleasure}, {25:is born} {26:‘kāma’}, {31:a particular tṛṣṇā}, {27:‘mine} {28:let these} {29:be’} {30:—}. {32:From that} {33:kāma}, {35:when thwarted} {34:somewhere}, {37:krodha}, {38:of the nature of flaring up}, {36:directed at that which thwarts it}, {39:arises}. {40:From krodha} {41:comes} {42:delusion}, {43:of the form of the absence of discrimination of what should and should not be done}. {44:From delusion}, {45:‘confusion of memory’}: {46:of the memory}, {47:the bringing-to-mind of the meaning taught by scripture and teacher}, there is {48:confusion}, {49:a wandering}, {50:a lapse}. {51:And from that} {52:—} {53:lapse of memory}, ‘ruin of the understanding’: {54:of the understanding}, {55:the mental modification of the form of unity (with the Self)}, there is {56:ruin} — {57:by the fault of the accumulation of contrary conviction} {58:it is obstructed}, so {59:it does not arise}, {61:or}, {60:having arisen}, {63:it dissolves} {62:by being unfit for its fruit}. {64:From the ruin of the understanding} {65:‘he perishes’}: {70:by the loss} {66:of that} {67:and} {68:fruitful} {69:understanding} {71:he perishes}, {73:becomes} {72:unfit for every human goal}. {75:For} {74:he who} {77:has become} {76:unfit for the human goal} {78:is}, {82:in the world}, {83:spoken of} as {79:‘dead’} {80:verily} {81:—}; {84:hence} {85:‘he perishes’} {87:is said} {86:—}. {88:Since} {89:thus}, {91:when restraint} {90:of the manas} is absent, there is, {93:even} {92:for one whose outer indriyas are restrained}, {94:the attainment of supreme calamity} — {95:therefore} one should {99:restrain} {98:the manas} {96:with great} {97:effort} {100:—} {101:this is the import}. {102:Hence} {103:it was rightly} {104:said}, {107:‘reining in} {105:all} {106:of them}, {109:let him sit} {108:yoked} {110:.’}",
       "segments": [
         {
           "from": 0,
@@ -39062,11 +39062,11 @@ window.GITA_COMMENTARY = {
         {
           "i": 27,
           "iast": "krodhaḥ",
-          "gloss": "anger",
+          "gloss": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             }
           ],
           "morph": "nominative singular",
@@ -39117,11 +39117,11 @@ window.GITA_COMMENTARY = {
         {
           "i": 31,
           "iast": "krodhāt",
-          "gloss": "'krodhāt' (from anger)",
+          "gloss": "'krodhāt' (from krodha)",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             }
           ],
           "morph": "ablative singular",
@@ -39142,11 +39142,11 @@ window.GITA_COMMENTARY = {
         {
           "i": 33,
           "iast": "krodhāt",
-          "gloss": "from anger",
+          "gloss": "from krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath; rage, fury; indignation"
+              "gloss": "krodha, krodha; rage, fury; indignation"
             }
           ],
           "morph": "ablative singular",
@@ -39456,7 +39456,7 @@ window.GITA_COMMENTARY = {
           "rootGloss": "to be, to become, to exist, to come into being, to arise; to happen, to occur"
         }
       ],
-      "english": "{2:Having stated} {1:the fault} {0:in the absence of reining in the outer indriyas}, {5:He states} {4:the fault} {3:in the absence of reining in the manas} {7:with} {6:‘dhyāyataḥ’} {8:in two verses}. {11:Of a man brooding on} {10:the objects} {9:with the notion that they are good}, {13:toward those} {14:‘saṅga’}, {15:clinging}, {16:arises}{12:;} {18:and} {17:by that clinging} {20:a greater} {21:kāma} {19:toward them} {22:comes to be}. {24:And} {23:from kāma}, {26:when thwarted} {25:by someone}, {27:anger} {28:comes to be}. {30:Moreover}, {32:} {31:‘krodhāt’}: {33:from anger} {34:delusion} arises, {35:the absence of discrimination of what should and should not be done}. {36:Thence} there arises {38:confusion}, {39:a wavering}, {40:a lapse} {37:of the memory taught by scripture and teacher}. {41:Thence} {44:the ruin} {42:of the understanding}, {43:that is, of awareness} — {47:an overpowering of it}, {46:as} {45:in trees and the like}. {48:Thence} {49:‘he perishes’}, {51:becomes} {50:equal to a dead man}.",
+      "english": "{2:Having stated} {1:the fault} {0:in the absence of reining in the outer indriyas}, {5:He states} {4:the fault} {3:in the absence of reining in the manas} {7:with} {6:‘dhyāyataḥ’} {8:in two verses}. {11:Of a man brooding on} {10:the objects} {9:with the notion that they are good}, {13:toward those} {14:‘saṅga’}, {15:clinging}, {16:arises}{12:;} {18:and} {17:by that clinging} {20:a greater} {21:kāma} {19:toward them} {22:comes to be}. {24:And} {23:from kāma}, {26:when thwarted} {25:by someone}, {27:krodha} {28:comes to be}. {30:Moreover}, {32:} {31:‘krodhāt’}: {33:from krodha} {34:delusion} arises, {35:the absence of discrimination of what should and should not be done}. {36:Thence} there arises {38:confusion}, {39:a wavering}, {40:a lapse} {37:of the memory taught by scripture and teacher}. {41:Thence} {44:the ruin} {42:of the understanding}, {43:that is, of awareness} — {47:an overpowering of it}, {46:as} {45:in trees and the like}. {48:Thence} {49:‘he perishes’}, {51:becomes} {50:equal to a dead man}.",
       "segments": [
         {
           "from": 0,

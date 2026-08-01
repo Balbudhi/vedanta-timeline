@@ -31,9 +31,9 @@ const PRESERVE = {
   rasa:    { det: /(^|-)rasa/,       iast: "rasa", bad: ["relish"] },
   ahankara:{ det: /ahaṅkār/,         iast: "ahaṅkāra", bad: ["I-maker", "I-making"] },
   trsna:   { det: /(^|-)tṛṣṇā/,      iast: "tṛṣṇā", bad: [] },
+  krodha:  { det: /(^|-)krodh/,      iast: "krodha", bad: ["anger", "wrath"] },
 };
 const TRANSLATE = {
-  krodha: { det: /(^|-)krodh/,            en: "anger",     iast: "krodha" },
   bhaya:  { det: /(^|-)bhay/,             en: "fear",      iast: "bhaya" },
   moha:   { det: /(saṃmoh|(^|-)moha|mūḍh|vimuh|vimoh)/, en: "delusion", iast: "moha" },
   sprha:  { det: /spṛh/,                  en: "longing",   iast: "spṛhā" },

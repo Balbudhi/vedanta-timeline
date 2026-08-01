@@ -29,8 +29,6 @@
    ============================================================= */
 
 window.GITA3_COMMENTARY = {
-
-  /* ------------------------------------------------------------------ 3.36 */
   "3.36": [
     {
       "voiceId": "shankara",
@@ -962,7 +960,7 @@ window.GITA3_COMMENTARY = {
           "kind": "interpretation"
         }
       ],
-      "english": "{0:Many} {1:causes of karma} {2:there are} — {3:anger and the rest}, {5:and} {4:kāma}. {6:Among these}, {7:which} {8:is the strong one}? {9:Such} {10:is what he asks}, {11,12:in the word ‘atha’}. {13,14:The word ‘atha’} {15:marks a further matter}: {16,17,18,19:‘let him not come under the sway of those two’} {20:— so the earlier verse ran} — {21:and that is what brings this question on}.",
+      "english": "{0:Many} {1:causes of karma} {2:there are} — {3:krodha and the rest}, {5:and} {4:kāma}. {6:Among these}, {7:which} {8:is the strong one}? {9:Such} {10:is what he asks}, {11,12:in the word ‘atha’}. {13,14:The word ‘atha’} {15:marks a further matter}: {16,17,18,19:‘let him not come under the sway of those two’} {20:— so the earlier verse ran} — {21:and that is what brings this question on}.",
       "words": [
         {
           "i": 0,
@@ -1028,7 +1026,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 3,
           "iast": "krodhādayaḥ",
-          "gloss": "anger and the rest",
+          "gloss": "krodha and the rest",
           "morph": "nom. pl. masc.",
           "glossaryKey": "krodha",
           "compound": {
@@ -1042,7 +1040,7 @@ window.GITA3_COMMENTARY = {
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             },
             {
               "form": "ādi",
@@ -1940,7 +1938,7 @@ window.GITA3_COMMENTARY = {
             },
             {
               "form": "krodha",
-              "gloss": "krodha — anger, wrath"
+              "gloss": "krodha — krodha, krodha"
             }
           ]
         },
@@ -6734,8 +6732,6 @@ window.GITA3_COMMENTARY = {
       ]
     }
   ],
-
-  /* ------------------------------------------------------------------ 3.37 */
   "3.37": [
     {
       "voiceId": "shankara",
@@ -6795,7 +6791,7 @@ window.GITA3_COMMENTARY = {
           "kind": "gloss"
         }
       ],
-      "english": "{0,1:‘kāma’ —} {2:kāma} {3:is this}: {4:the enemy of every world}, {5:on account of which} {6:the arrival of every misfortune} {7:befalls living beings}. {8,9:This same} {10:kāma}, {11:blocked} {12:by something or other}, {14:turns} {13:into the state of anger}. {15:Hence} {16:anger} {17:too} {19:is just} {18:this same one}. {20:‘Arisen from the guṇa rajas’} — {21:rajas}, {22:and} {23:it a guṇa}, {24:and so} {25:‘the guṇa rajas’}; {28:that of which} {27:the arising} {26:is that} — {29:that} {30:kāma} {31:is ‘arisen from the guṇa rajas’}. {33:Or else}: {34:the arising} {32:of the guṇa rajas}. {35:For kāma}, {36:indeed}, {37:once risen}, {39:setting} {38:rajas} going, {41:sets} {40:the man} in motion. {42:‘By tṛṣṇā} {43:indeed} {44:I} {45:have been made to act’} {46:— so it runs}: {51:that is the lament} {52:one hears} {47:of the miserable}, {50:who have taken up} {48:the work of rajas}, {49:service and the like}. {53:‘The great devourer’} — {54:great} {55:is the eating} {56:of it}, {57:and so} {58:‘the great devourer’}. {59,60:Just for that reason} {61:‘the great evildoer’}: {63:for} {64:driven} {62:by kāma} {65:a creature} {67:does} {66:evil}. {68:Therefore} {69:know} {70:it} — {71:kāma} — {72:here} {73:in saṃsāra} {74:to be the enemy}.",
+      "english": "{0,1:‘kāma’ —} {2:kāma} {3:is this}: {4:the enemy of every world}, {5:on account of which} {6:the arrival of every misfortune} {7:befalls living beings}. {8,9:This same} {10:kāma}, {11:blocked} {12:by something or other}, {14:turns} {13:into the state of krodha}. {15:Hence} {16:krodha} {17:too} {19:is just} {18:this same one}. {20:‘Arisen from the guṇa rajas’} — {21:rajas}, {22:and} {23:it a guṇa}, {24:and so} {25:‘the guṇa rajas’}; {28:that of which} {27:the arising} {26:is that} — {29:that} {30:kāma} {31:is ‘arisen from the guṇa rajas’}. {33:Or else}: {34:the arising} {32:of the guṇa rajas}. {35:For kāma}, {36:indeed}, {37:once risen}, {39:setting} {38:rajas} going, {41:sets} {40:the man} in motion. {42:‘By tṛṣṇā} {43:indeed} {44:I} {45:have been made to act’} {46:— so it runs}: {51:that is the lament} {52:one hears} {47:of the miserable}, {50:who have taken up} {48:the work of rajas}, {49:service and the like}. {53:‘The great devourer’} — {54:great} {55:is the eating} {56:of it}, {57:and so} {58:‘the great devourer’}. {59,60:Just for that reason} {61:‘the great evildoer’}: {63:for} {64:driven} {62:by kāma} {65:a creature} {67:does} {66:evil}. {68:Therefore} {69:know} {70:it} — {71:kāma} — {72:here} {73:in saṃsāra} {74:to be the enemy}.",
       "words": [
         {
           "i": 0,
@@ -7046,13 +7042,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 13,
           "iast": "krodhatvena",
-          "gloss": "into the state of being anger",
+          "gloss": "into the state of being krodha",
           "morph": "instr. sg. neut.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             },
             {
               "form": "-tva",
@@ -7106,7 +7102,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 16,
           "iast": "krodhaḥ",
-          "gloss": "anger, wrath",
+          "gloss": "krodha, krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "root": "√krudh (divādi, 4P)",
@@ -8190,7 +8186,7 @@ window.GITA3_COMMENTARY = {
           "kind": "gloss"
         }
       ],
-      "english": "{8:kāma} — {5:arisen from the guṇa rajas}, {6:born of vāsanās laid down before}, {7:having sound and the rest for its objects}, {9:the great devourer}, {10:the enemy} — {13:drags} {12:this man} {11:into the objects of sense}: {0:the man who}, {2:bound up with prakṛti made of the guṇas} {1:in their form of rising and being overborne}, {4:has set out} {3:for knowledge}. {14,15:This very one}, {16:its course blocked}, {20:turning} {19:into the form of anger} {18:towards} {17:the conscious beings that are the cause of the blocking}, {21:the great evildoer}, {23:sets him going} {22:in the harming of others and the like}. {29:Know} {24:this one} — {25:arisen from the guṇa rajas}, {26:born along with him}, {27:the obstructer of the yoga of knowledge} — {28:to be the enemy}.",
+      "english": "{8:kāma} — {5:arisen from the guṇa rajas}, {6:born of vāsanās laid down before}, {7:having sound and the rest for its objects}, {9:the great devourer}, {10:the enemy} — {13:drags} {12:this man} {11:into the objects of sense}: {0:the man who}, {2:bound up with prakṛti made of the guṇas} {1:in their form of rising and being overborne}, {4:has set out} {3:for knowledge}. {14,15:This very one}, {16:its course blocked}, {20:turning} {19:into the form of krodha} {18:towards} {17:the conscious beings that are the cause of the blocking}, {21:the great evildoer}, {23:sets him going} {22:in the harming of others and the like}. {29:Know} {24:this one} — {25:arisen from the guṇa rajas}, {26:born along with him}, {27:the obstructer of the yoga of knowledge} — {28:to be the enemy}.",
       "words": [
         {
           "i": 0,
@@ -8626,7 +8622,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 19,
           "iast": "krodha-rūpeṇa",
-          "gloss": "into the form of anger",
+          "gloss": "into the form of krodha",
           "morph": "instr. sg. neut.",
           "glossaryKey": "krodha",
           "compound": {
@@ -8640,7 +8636,7 @@ window.GITA3_COMMENTARY = {
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             },
             {
               "form": "rūpa",
@@ -8942,7 +8938,7 @@ window.GITA3_COMMENTARY = {
           "kind": "gloss"
         }
       ],
-      "english": "{0:What} {1:however} {2:is the strong one}, {3:the instigator} — {4,5:that is this} {6:kāma}. {7:Anger} {8:too} {9,10:is just this same one}, {11:since it is born of it}. {12:‘From kāma} {14:is born} {13:anger’} {15:— so it runs}, {16:indeed}, {17:as has been said}. {18:Wherever} {19:even} {21:anger} {20:has the reviling of a teacher and the like for its occasion}, {22:there} {23:too}, {25:the reviling} {24:having bhakti for its occasion}, {26:it is occasioned by kāma} {27:and by nothing else}. {28:Those who} {29:however} {31:say} {30:otherwise} — {32:they}, {33:out of confusion}, {34:do not} {36:know} {35:the fine point}. {38:And} {37:it has been said}: {39:‘Apart from} {40:kāma}, {42:anger and the rest} {41:do not} {43:arise} {44:at all}, {45:in any way whatever’} {46:— so it runs}. {47:‘The great devourer’}: {49:for} {48:great} {50:is what kāma has to enjoy}. {52:‘The great evildoer’}, {51:because it is the cause of the great evils — the killing of a brahmin and the rest}. {54:The enemy}, {53:because it stands against every one of the ends a human life is for}.",
+      "english": "{0:What} {1:however} {2:is the strong one}, {3:the instigator} — {4,5:that is this} {6:kāma}. {7:krodha} {8:too} {9,10:is just this same one}, {11:since it is born of it}. {12:‘From kāma} {14:is born} {13:krodha’} {15:— so it runs}, {16:indeed}, {17:as has been said}. {18:Wherever} {19:even} {21:krodha} {20:has the reviling of a teacher and the like for its occasion}, {22:there} {23:too}, {25:the reviling} {24:having bhakti for its occasion}, {26:it is occasioned by kāma} {27:and by nothing else}. {28:Those who} {29:however} {31:say} {30:otherwise} — {32:they}, {33:out of confusion}, {34:do not} {36:know} {35:the fine point}. {38:And} {37:it has been said}: {39:‘Apart from} {40:kāma}, {42:anger and the rest} {41:do not} {43:arise} {44:at all}, {45:in any way whatever’} {46:— so it runs}. {47:‘The great devourer’}: {49:for} {48:great} {50:is what kāma has to enjoy}. {52:‘The great evildoer’}, {51:because it is the cause of the great evils — the killing of a brahmin and the rest}. {54:The enemy}, {53:because it stands against every one of the ends a human life is for}.",
       "words": [
         {
           "i": 0,
@@ -9053,7 +9049,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 7,
           "iast": "krodhaḥ",
-          "gloss": "anger, wrath",
+          "gloss": "krodha, krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "root": "√krudh (divādi, 4P)",
@@ -9166,13 +9162,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 13,
           "iast": "krodhaḥ",
-          "gloss": "anger, wrath",
+          "gloss": "krodha, krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             }
           ]
         },
@@ -9314,13 +9310,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 21,
           "iast": "krodhaḥ",
-          "gloss": "anger, wrath",
+          "gloss": "krodha, krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             }
           ]
         },
@@ -10031,7 +10027,7 @@ window.GITA3_COMMENTARY = {
           "kind": "interpretation"
         }
       ],
-      "english": "{0:On this point} {1:the answer} — {2:the Blessed Lord} {3:said} — {8:thus}: ‘{4:kāma} {5:is this}, {6:anger} {7:is this}’. {12:The cause} {9:that} {11:was asked} {10:by you} {13:indeed} {15:is precisely} {14:kāma}. {16:But,} {17:anger} {18:too} {19:before} {21:was said} {20:by you}, {24:in that connection}, ‘{22:in the object of each several indriya}’ {23:thus} — {25:true}. {27:It} {26:is not} {29:separate} {28:from that}. {30:Rather,} {31:anger} {32:too} {33:is just this}. {36:For} {34:kāma} {35:itself}, {38:thwarted} {37:by something}, {40:transforms} {39:into the very nature of anger}. {41:Though previously} {43:spoken of} {42:as a separate thing}, {44:even so}, {49:treating it as one and the same}, {50:it is said}, {48:with the intention}, {47:that} {46:indeed} {45:it is anger born of kāma}. {51:‘From the guṇa rajas} {52:it arises}’ {53:— so}, {54:likewise}. {55:By this} {65:it is indicated} {64:that}, {56:by the increase of sattva}, {57:when rajas} {59,60:has been brought} {58:to decline}, {61:kāma} {62:is not} {63:born}. {71:Know} {66:this} {67:kāma}, {68:here} {69:on the path to liberation}, {70:to be the enemy}. {72:And} {73:this one} {76:indeed} {75:is to be slain} {74:by the method about to be stated}. {77:Since} {79:it} {78:is not} {82:able} {81:to be reconciled} {80:by a gift}, {84:he says}, {83:thus}, ‘{85:the great devourer}’ — {86:great is the eating} {87:of whom} {88:he is} — ‘{89:insatiable}’, {90:that is}, {91:is the sense}. {92:Nor} {93:also} {96:can it} {95:be reconciled} {94:by conciliation}, {97:since} {98:it is the great evildoer}, {99:exceedingly fierce}.",
+      "english": "{0:On this point} {1:the answer} — {2:the Blessed Lord} {3:said} — {8:thus}: ‘{4:kāma} {5:is this}, {6:krodha} {7:is this}’. {12:The cause} {9:that} {11:was asked} {10:by you} {13:indeed} {15:is precisely} {14:kāma}. {16:But,} {17:krodha} {18:too} {19:before} {21:was said} {20:by you}, {24:in that connection}, ‘{22:in the object of each several indriya}’ {23:thus} — {25:true}. {27:It} {26:is not} {29:separate} {28:from that}. {30:Rather,} {31:krodha} {32:too} {33:is just this}. {36:For} {34:kāma} {35:itself}, {38:thwarted} {37:by something}, {40:transforms} {39:into the very nature of krodha}. {41:Though previously} {43:spoken of} {42:as a separate thing}, {44:even so}, {49:treating it as one and the same}, {50:it is said}, {48:with the intention}, {47:that} {46:indeed} {45:it is krodha born of kāma}. {51:‘From the guṇa rajas} {52:it arises}’ {53:— so}, {54:likewise}. {55:By this} {65:it is indicated} {64:that}, {56:by the increase of sattva}, {57:when rajas} {59,60:has been brought} {58:to decline}, {61:kāma} {62:is not} {63:born}. {71:Know} {66:this} {67:kāma}, {68:here} {69:on the path to liberation}, {70:to be the enemy}. {72:And} {73:this one} {76:indeed} {75:is to be slain} {74:by the method about to be stated}. {77:Since} {79:it} {78:is not} {82:able} {81:to be reconciled} {80:by a gift}, {84:he says}, {83:thus}, ‘{85:the great devourer}’ — {86:great is the eating} {87:of whom} {88:he is} — ‘{89:insatiable}’, {90:that is}, {91:is the sense}. {92:Nor} {93:also} {96:can it} {95:be reconciled} {94:by conciliation}, {97:since} {98:it is the great evildoer}, {99:exceedingly fierce}.",
       "words": [
         {
           "i": 0,
@@ -10135,13 +10131,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 6,
           "iast": "krodhaḥ",
-          "gloss": "‘krodha’, anger (the verse's word, cited)",
+          "gloss": "‘krodha’, krodha (the verse's word, cited)",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             }
           ]
         },
@@ -10282,13 +10278,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 17,
           "iast": "krodhaḥ",
-          "gloss": "krodha, anger",
+          "gloss": "krodha, krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             }
           ]
         },
@@ -10489,13 +10485,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 31,
           "iast": "krodhaḥ",
-          "gloss": "krodha, anger",
+          "gloss": "krodha, krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             }
           ]
         },
@@ -10602,7 +10598,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 39,
           "iast": "krodha-ātmanā",
-          "gloss": "into the very nature of anger",
+          "gloss": "into the very nature of krodha",
           "morph": "instr. sg. masc.",
           "glossaryKey": "krodha",
           "compound": {
@@ -10616,7 +10612,7 @@ window.GITA3_COMMENTARY = {
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             },
             {
               "form": "ātman",
@@ -10715,7 +10711,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 45,
           "iast": "krodha-kāmajaḥ",
-          "gloss": "anger, born of kāma",
+          "gloss": "krodha, born of kāma",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "compound": {
@@ -10732,7 +10728,7 @@ window.GITA3_COMMENTARY = {
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             },
             {
               "form": "kāma",
@@ -11738,7 +11734,7 @@ window.GITA3_COMMENTARY = {
           "kind": "gloss"
         }
       ],
-      "english": "{0:The Blessed Lord} {1:said}, {2:‘kāma’} {3:—} {4:the one that}, {5:by you}, {6:was asked about} {7:as the cause}, {10:impelling}, {8:by force}, {9:on the path of misfortune}: {11:that}, {12:this}, {13:is kāma} {14:indeed}, {15:the great} {16:enemy}. {17:On account of which} {18:the arrival of every misfortune} {19:befalls living beings}. {20:Now}: {21:anger} {22:too}, {23:in black magic and the like}, {24:is an impeller} {25:is seen} {26:— so it might seem}. {27:Hence} {28:he states}: {29:‘krodha’} {30:— this} {31:kāma} {32:itself}, {35:blocked} {33:by something or other}, {34:by some cause}, {37:turns} {36:into the state of being anger}. {38:Hence} {39:anger} {40:too} {41:is} {42:this same} {43:very kāma}. {44:In this} {45:very} {46:great enemy} {47:being warded off}, {48:the attainment of every human goal follows} {49:— thus} {50:is the sense}. {51:For the sake of knowing the means of warding it off}, {53:he states} {52:its cause}: {54:‘arisen from the guṇa rajas’} — {55:having for its essence the force that impels towards sorrow}, {56:the guṇa rajas} {57:itself} {58:is the arising}, {59:the cause}, {60:of which it is the effect}. {61:Hence}, {63:because of the effect's} {62:conforming to its cause}, {64:it} {65:too} {66:is likewise}. {67:Although} {68:the guṇa tamas} {69:also} {71:is a cause} {70:of it}, {72:nevertheless}, {75:and} {73:in sorrow} {74:in impelling to action}, {77:because} {76:of rajas} {78:alone having the primacy}, {80:alone} {79:its} {81:designation follows}. {82:By this} {91:it is implied}: {83:by a sāttvika} {84:disposition}, {85:when rajas} {86:is diminished}, {87:it} {88:too} {89:is diminished} {90:—}. {92:Or else}: {94:how} {93:is rajas} {96:the impeller} {95:on the path of misfortune}? {97:— one might ask} — {98:hence} {99:he states}: {102:the arising} {100:is of the guṇa rajas} {101:characterized by impelling and the like}, {103:since} {104:kāma}, {105:indeed}, {106:whose nature is longing for the objects of sense}, {107:itself} {108:having arisen}, {109:rajas}, {110:setting it in motion}, {114:impels} {111:the man} {113:into karma} {112:whose nature is sorrow}. {115:By this}, {117:necessarily}, {116:this} {118:is to be slain} {119:—} {120:such is the purport}. {121:Now}: {122:conciliation, gift, division, and force} {123:are} {124:four expedients}; {125:among them}, {126:the first triad} {127:if impossible}, {128:the fourth}, {129:force}, {130:should be employed} — {131:not} {132:but} {134:merely} {133:out of sheer violence}. {136:Anticipating this} {135:—if this is the objection—}, {139:in order to state} {138:the impossibility} {137:of the three former means}, {140:he specifies}: {141:‘the great devourer’}, {142:‘the great evildoer’} {143:—} {144:great} {145:is the eating} {146:of it} {147:—} {148:hence ‘the great devourer’}. {149:‘Whatever} {150:is on earth} — {151:rice and barley}, {152:gold}, {153:cattle}, {154:women} — {155:is not} {156:enough} {157:for one man}, {158:that}, {159:the whole of it}’ {160:—} {161:reckoning so}, {163:let him go to} {162:contentment}: {164:so} {165:runs a smṛti verse}. {166:Hence} {167:not} {168:by a gift} {170:is it possible} {169:to bring it to terms}; {171:nor} {172:even} {173:by conciliation and division}, {174:since} {175:the great evildoer} {176:is exceedingly fierce}. {177:By it}, {178:for indeed}, {180:driven on} {179:by force}, {183:knowing} {181:an undesired result}, {182:even}, {185:he does} {184:evil}. {186:Therefore}: {187:know}, {188:understand}, {189:this} {190:kāma}, {191:here} {192:in saṃsāra}, {193:to be the enemy}.",
+      "english": "{0:The Blessed Lord} {1:said}, {2:‘kāma’} {3:—} {4:the one that}, {5:by you}, {6:was asked about} {7:as the cause}, {10:impelling}, {8:by force}, {9:on the path of misfortune}: {11:that}, {12:this}, {13:is kāma} {14:indeed}, {15:the great} {16:enemy}. {17:On account of which} {18:the arrival of every misfortune} {19:befalls living beings}. {20:Now}: {21:krodha} {22:too}, {23:in black magic and the like}, {24:is an impeller} {25:is seen} {26:— so it might seem}. {27:Hence} {28:he states}: {29:‘krodha’} {30:— this} {31:kāma} {32:itself}, {35:blocked} {33:by something or other}, {34:by some cause}, {37:turns} {36:into the state of being krodha}. {38:Hence} {39:krodha} {40:too} {41:is} {42:this same} {43:very kāma}. {44:In this} {45:very} {46:great enemy} {47:being warded off}, {48:the attainment of every human goal follows} {49:— thus} {50:is the sense}. {51:For the sake of knowing the means of warding it off}, {53:he states} {52:its cause}: {54:‘arisen from the guṇa rajas’} — {55:having for its essence the force that impels towards sorrow}, {56:the guṇa rajas} {57:itself} {58:is the arising}, {59:the cause}, {60:of which it is the effect}. {61:Hence}, {63:because of the effect's} {62:conforming to its cause}, {64:it} {65:too} {66:is likewise}. {67:Although} {68:the guṇa tamas} {69:also} {71:is a cause} {70:of it}, {72:nevertheless}, {75:and} {73:in sorrow} {74:in impelling to action}, {77:because} {76:of rajas} {78:alone having the primacy}, {80:alone} {79:its} {81:designation follows}. {82:By this} {91:it is implied}: {83:by a sāttvika} {84:disposition}, {85:when rajas} {86:is diminished}, {87:it} {88:too} {89:is diminished} {90:—}. {92:Or else}: {94:how} {93:is rajas} {96:the impeller} {95:on the path of misfortune}? {97:— one might ask} — {98:hence} {99:he states}: {102:the arising} {100:is of the guṇa rajas} {101:characterized by impelling and the like}, {103:since} {104:kāma}, {105:indeed}, {106:whose nature is longing for the objects of sense}, {107:itself} {108:having arisen}, {109:rajas}, {110:setting it in motion}, {114:impels} {111:the man} {113:into karma} {112:whose nature is sorrow}. {115:By this}, {117:necessarily}, {116:this} {118:is to be slain} {119:—} {120:such is the purport}. {121:Now}: {122:conciliation, gift, division, and force} {123:are} {124:four expedients}; {125:among them}, {126:the first triad} {127:if impossible}, {128:the fourth}, {129:force}, {130:should be employed} — {131:not} {132:but} {134:merely} {133:out of sheer violence}. {136:Anticipating this} {135:—if this is the objection—}, {139:in order to state} {138:the impossibility} {137:of the three former means}, {140:he specifies}: {141:‘the great devourer’}, {142:‘the great evildoer’} {143:—} {144:great} {145:is the eating} {146:of it} {147:—} {148:hence ‘the great devourer’}. {149:‘Whatever} {150:is on earth} — {151:rice and barley}, {152:gold}, {153:cattle}, {154:women} — {155:is not} {156:enough} {157:for one man}, {158:that}, {159:the whole of it}’ {160:—} {161:reckoning so}, {163:let him go to} {162:contentment}: {164:so} {165:runs a smṛti verse}. {166:Hence} {167:not} {168:by a gift} {170:is it possible} {169:to bring it to terms}; {171:nor} {172:even} {173:by conciliation and division}, {174:since} {175:the great evildoer} {176:is exceedingly fierce}. {177:By it}, {178:for indeed}, {180:driven on} {179:by force}, {183:knowing} {181:an undesired result}, {182:even}, {185:he does} {184:evil}. {186:Therefore}: {187:know}, {188:understand}, {189:this} {190:kāma}, {191:here} {192:in saṃsāra}, {193:to be the enemy}.",
       "words": [
         {
           "i": 0,
@@ -12105,7 +12101,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 21,
           "iast": "krodhaḥ",
-          "gloss": "anger",
+          "gloss": "krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "root": "√krudh (divādi, 4P)",
@@ -12252,7 +12248,7 @@ window.GITA3_COMMENTARY = {
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             }
           ]
         },
@@ -12352,13 +12348,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 36,
           "iast": "krodhatvena",
-          "gloss": "into the state of being anger",
+          "gloss": "into the state of being krodha",
           "morph": "instr. sg. neut.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             },
             {
               "form": "-tva",
@@ -12411,13 +12407,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 39,
           "iast": "krodhaḥ",
-          "gloss": "anger",
+          "gloss": "krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             }
           ]
         },
@@ -15158,7 +15154,7 @@ window.GITA3_COMMENTARY = {
           "kind": "citation"
         }
       ],
-      "english": "{0,1,2:This very kāma}, {3:whose nature is craving for objects}, {6:sets} {4:the man} {5:going into evil}; {7,8:by that very thing} {9:impelled}, {10:the man} {12:engages in} {11:evil} {13,14:— that is the sense.} {15,16,17:This same kāma}, {18,19:seen separately}, {20:itself} {23:becomes} {21:visible} {22:anger.} {24,25:kāma itself}, {28:having} {27:been thwarted} {26:by something}, {30:turns} {29:into the form of anger} {31,32:— that is the sense.} {33:‘kāma} {34:is arisen from the guṇa rajas’} {35:— thus (the verse says)}: {36,37:from the rājasic kāma} {38:alone} {41:is born} {39,40:the tāmasic anger} {42,43:— that is the sense.} {44:Of kāma}, {45:through the filling of what is sought}, {46,47:might cessation occur}? {48,49:— if it be objected} — {50,51:no}: {52:to this he states} {53:‘the great devourer’} — {54,55,56,57:‘whose food is great’.}",
+      "english": "{0,1,2:This very kāma}, {3:whose nature is craving for objects}, {6:sets} {4:the man} {5:going into evil}; {7,8:by that very thing} {9:impelled}, {10:the man} {12:engages in} {11:evil} {13,14:— that is the sense.} {15,16,17:This same kāma}, {18,19:seen separately}, {20:itself} {23:becomes} {21:visible} {22:krodha.} {24,25:kāma itself}, {28:having} {27:been thwarted} {26:by something}, {30:turns} {29:into the form of krodha} {31,32:— that is the sense.} {33:‘kāma} {34:is arisen from the guṇa rajas’} {35:— thus (the verse says)}: {36,37:from the rājasic kāma} {38:alone} {41:is born} {39,40:the tāmasic krodha} {42,43:— that is the sense.} {44:Of kāma}, {45:through the filling of what is sought}, {46,47:might cessation occur}? {48,49:— if it be objected} — {50,51:no}: {52:to this he states} {53:‘the great devourer’} — {54,55,56,57:‘whose food is great’.}",
       "words": [
         {
           "i": 0,
@@ -15515,7 +15511,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 22,
           "iast": "krodhaḥ",
-          "gloss": "anger, wrath",
+          "gloss": "krodha, krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "root": "√krudh (divādi, 4P)",
@@ -15638,7 +15634,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 29,
           "iast": "krodhākāreṇa",
-          "gloss": "into the form of anger",
+          "gloss": "into the form of krodha",
           "morph": "instr. sg. masc.",
           "glossaryKey": "krodha",
           "root": "√kṛ (tanādi, 8U)",
@@ -15654,7 +15650,7 @@ window.GITA3_COMMENTARY = {
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             },
             {
               "form": "ā-√kṛ",
@@ -15841,7 +15837,7 @@ window.GITA3_COMMENTARY = {
         {
           "i": 40,
           "iast": "krodhaḥ",
-          "gloss": "anger, wrath",
+          "gloss": "krodha, krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "root": "√krudh (divādi, 4P)",
@@ -16189,7 +16185,7 @@ window.GITA3_COMMENTARY = {
           "kind": "interpretation"
         }
       ],
-      "english": "{0:There} {2:the Lord} {1:replies}, {3,4:in the word ‘kāma’}. {5:kāma} — {6:whose cause is a former vāsanā}, {7:whose object is sound and the rest} — {8:is a longing that} {11:impels} {9:a person} {10:toward evil}, {13:though he is not desirous} {12:of that}, {14:even so}: {15:he}, {16:of it}, {17:is the impeller} — {18,19:that is the sense}. {20:But}: {21:in things beginning with sorcery}, {22:anger} {23:too} {25:is seen} {24:to be an impeller}; {26,27:and that}, {28,29,30:too, in the verse beginning with ‘indriyasya’,} {31:by you} {32:as well} {33:distinctly} {34:was stated} — {35,36:if this is the objection}: {37:true}. {39:That} {38:is not} {41:separate} {40:from that}; {42:rather}, {45:this very} {43,44:kāma}, {48:when repelled} {46:by some} {47:conscious agent}, {50:becomes} {49:anger}. {51:Like milk}, {52:as it were}, {54:joined} {53:with something sour}, {55:becomes curd}. {56:The conquest of kāma} {57:alone} {59,60:— that is the point —} {58:is the conquest of anger}. {61:What sort of thing} {62:is kāma}? — {63,64:to this he replies,} {65,66:in the word ‘rajo-guṇa’.} {67:By the increase of sattva}, {68:when rajas} {69:is conquered}, {70:kāma} {71:would be conquered} {72:—}: {73,74:that is the sense}. {75,76:And not} {77:by the giving of what is expected} {78:does kāma's} {79:cessation come} — {80,81:this he states,} {82,83:in the word ‘mahāśana’.} ‘{84:Whatever} {85:there is on earth} — {86:rice and barley}, {87:gold}, {88:cattle}, {89:women} — {90,91:is not enough} {92:for one person}: {94:all} {93:that}, {95,96:having thus understood}, {98:let him go} {97:to tranquility}’ — {99,100:since so it is recollected}. {101,102:And not} {103:by conciliation} {105:or} {104:by division} {106:would it,} {107:come under control} — {108,109:this he states,} {110,111:in the word ‘mahāpāpmā’,} {112:which}, {113:being extremely fierce}, {114:through the destruction of discriminating knowledge}, {117:impels one to act} {116:even} {115:in what is forbidden}; {118:therefore}, {119:here}, {120:by way of giving this knowledge}, {123:know} {121:this one} {122:to be the enemy}; {124,125:and so}, {130:because it is impossible} {129:to come to terms with it} {126,127,128:by the three means beginning with jñāna}, {133:it} {134:must be slain} {132:by the daṇḍa} {131:about to be stated} — {135,136:that is the point}. {137:Īśvara}, {138:mediated by karma}, {139:like a rain-cloud}, {140:everywhere} {141:is the impeller}; {142:kāma}, {143:however}, {144:of its own accord}, {145:itself}, {146:is at the forefront of evil} — {147,148,149:so it is said}.",
+      "english": "{0:There} {2:the Lord} {1:replies}, {3,4:in the word ‘kāma’}. {5:kāma} — {6:whose cause is a former vāsanā}, {7:whose object is sound and the rest} — {8:is a longing that} {11:impels} {9:a person} {10:toward evil}, {13:though he is not desirous} {12:of that}, {14:even so}: {15:he}, {16:of it}, {17:is the impeller} — {18,19:that is the sense}. {20:But}: {21:in things beginning with sorcery}, {22:krodha} {23:too} {25:is seen} {24:to be an impeller}; {26,27:and that}, {28,29,30:too, in the verse beginning with ‘indriyasya’,} {31:by you} {32:as well} {33:distinctly} {34:was stated} — {35,36:if this is the objection}: {37:true}. {39:That} {38:is not} {41:separate} {40:from that}; {42:rather}, {45:this very} {43,44:kāma}, {48:when repelled} {46:by some} {47:conscious agent}, {50:becomes} {49:krodha}. {51:Like milk}, {52:as it were}, {54:joined} {53:with something sour}, {55:becomes curd}. {56:The conquest of kāma} {57:alone} {59,60:— that is the point —} {58:is the conquest of krodha}. {61:What sort of thing} {62:is kāma}? — {63,64:to this he replies,} {65,66:in the word ‘rajo-guṇa’.} {67:By the increase of sattva}, {68:when rajas} {69:is conquered}, {70:kāma} {71:would be conquered} {72:—}: {73,74:that is the sense}. {75,76:And not} {77:by the giving of what is expected} {78:does kāma's} {79:cessation come} — {80,81:this he states,} {82,83:in the word ‘mahāśana’.} ‘{84:Whatever} {85:there is on earth} — {86:rice and barley}, {87:gold}, {88:cattle}, {89:women} — {90,91:is not enough} {92:for one person}: {94:all} {93:that}, {95,96:having thus understood}, {98:let him go} {97:to tranquility}’ — {99,100:since so it is recollected}. {101,102:And not} {103:by conciliation} {105:or} {104:by division} {106:would it,} {107:come under control} — {108,109:this he states,} {110,111:in the word ‘mahāpāpmā’,} {112:which}, {113:being extremely fierce}, {114:through the destruction of discriminating knowledge}, {117:impels one to act} {116:even} {115:in what is forbidden}; {118:therefore}, {119:here}, {120:by way of giving this knowledge}, {123:know} {121:this one} {122:to be the enemy}; {124,125:and so}, {130:because it is impossible} {129:to come to terms with it} {126,127,128:by the three means beginning with jñāna}, {133:it} {134:must be slain} {132:by the daṇḍa} {131:about to be stated} — {135,136:that is the point}. {137:Īśvara}, {138:mediated by karma}, {139:like a rain-cloud}, {140:everywhere} {141:is the impeller}; {142:kāma}, {143:however}, {144:of its own accord}, {145:itself}, {146:is at the forefront of evil} — {147,148,149:so it is said}.",
       "words": [
         {
           "i": 0,
@@ -16568,13 +16564,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 22,
           "iast": "krodhaḥ",
-          "gloss": "krodha — anger",
+          "gloss": "krodha — krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             }
           ]
         },
@@ -16942,13 +16938,13 @@ window.GITA3_COMMENTARY = {
         {
           "i": 49,
           "iast": "krodhaḥ",
-          "gloss": "krodha — anger",
+          "gloss": "krodha — krodha",
           "morph": "nom. sg. masc.",
           "glossaryKey": "krodha",
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             }
           ]
         },
@@ -17105,7 +17101,7 @@ window.GITA3_COMMENTARY = {
           "parts": [
             {
               "form": "krodha",
-              "gloss": "anger, wrath"
+              "gloss": "krodha, krodha"
             },
             {
               "form": "√ji",
@@ -18605,8 +18601,6 @@ window.GITA3_COMMENTARY = {
       ]
     }
   ],
-
-  /* ------------------------------------------------------------------ 3.38 */
   "3.38": [
     {
       "voiceId": "shankara",
@@ -25624,8 +25618,6 @@ window.GITA3_COMMENTARY = {
       ]
     }
   ],
-
-  /* ------------------------------------------------------------------ 3.39 */
   "3.39": [
     {
       "voiceId": "shankara",
@@ -34966,8 +34958,6 @@ window.GITA3_COMMENTARY = {
       ]
     }
   ],
-
-  /* ------------------------------------------------------------------ 3.40 */
   "3.40": [
     {
       "voiceId": "shankara",
@@ -39278,8 +39268,6 @@ window.GITA3_COMMENTARY = {
       ]
     }
   ],
-
-  /* ------------------------------------------------------------------ 3.41 */
   "3.41": [
     {
       "voiceId": "shankara",
@@ -45210,8 +45198,6 @@ window.GITA3_COMMENTARY = {
       ]
     }
   ],
-
-  /* ------------------------------------------------------------------ 3.42 */
   "3.42": [
     {
       "voiceId": "shankara",
@@ -55522,8 +55508,6 @@ window.GITA3_COMMENTARY = {
       ]
     }
   ],
-
-  /* ------------------------------------------------------------------ 3.43 */
   "3.43": [
     {
       "voiceId": "shankara",
@@ -60250,5 +60234,4 @@ window.GITA3_COMMENTARY = {
       ]
     }
   ]
-
 };

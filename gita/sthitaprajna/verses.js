@@ -1220,7 +1220,7 @@ window.GITA_VERSES = [
     "devanagari": "दुःखेष्व् अनुद्विग्नमनाः सुखेषु विगतस्पृहः।\nवीतरागभयक्रोधः स्थितधीर् मुनिर् उच्यते॥",
     "iast": "duḥkheṣv anudvignamanāḥ sukheṣu vigataspṛhaḥ |\nvītarāgabhayakrodhaḥ sthitadhīr munir ucyate ||",
     "sense": "He whose manas is unshaken amid sorrows, who is free of longing amid pleasures, and from whom rāga (the pull of attraction and attachment), fear, and anger have departed — such a sage is called a man of steady wisdom.",
-    "english": "{1:Whose manas is unagitated} {0:amid sorrows}, {3:free of longing} {2:amid pleasures}, {4:from whom rāga, fear, and anger have departed} — he {7:is called} {6:a sage} {5:of steady wisdom}.",
+    "english": "{1:Whose manas is unagitated} {0:amid sorrows}, {3:free of longing} {2:amid pleasures}, {4:from whom rāga, fear, and krodha have departed} — he {7:is called} {6:a sage} {5:of steady wisdom}.",
     "words": [
       {
         "i": 0,
@@ -1330,7 +1330,7 @@ window.GITA_VERSES = [
         "i": 4,
         "deva": "वीतरागभयक्रोधः",
         "iast": "vītarāgabhayakrodhaḥ",
-        "gloss": "from whom rāga, fear, and anger have departed",
+        "gloss": "from whom rāga, fear, and krodha have departed",
         "stem": "vīta-rāga-bhaya-krodha",
         "root": null,
         "affix": "su (prathamā ekavacana)",
@@ -1363,7 +1363,7 @@ window.GITA_VERSES = [
           },
           {
             "form": "krodha",
-            "gloss": "anger, wrath, rage, indignation"
+            "gloss": "krodha, krodha, rage, indignation"
           }
         ]
       },
@@ -1655,7 +1655,7 @@ window.GITA_VERSES = [
           {
             "i": 12,
             "iast": "vītarāgabhayakrodhaḥ",
-            "gloss": "from whom rāga, fear, and anger have departed",
+            "gloss": "from whom rāga, fear, and krodha have departed",
             "parts": [
               {
                 "form": "vīta",
@@ -1671,7 +1671,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "krodha",
-                "gloss": "anger, wrath, rage, indignation"
+                "gloss": "krodha, krodha, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1873,11 +1873,11 @@ window.GITA_VERSES = [
           {
             "i": 22,
             "iast": "krodhaḥ",
-            "gloss": "is anger",
+            "gloss": "is krodha",
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger, wrath, rage, indignation"
+                "gloss": "krodha, krodha, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -1994,7 +1994,7 @@ window.GITA_VERSES = [
             "morph": "pres. passive 3 sg."
           }
         ],
-        "english": "{1:When} {0:occasions of sorrow such as separation from the dear} {1:present themselves}, he is {2:one whose manas is unagitated} — he {3:does not} {5:become} {4:sorrowful}; {7:free of longing} {6:amid pleasures} — {10:even} {9:when} {8:things dear} {9:are at hand}, he is {11:free of longing}; {12:from whom rāga, fear, and anger have departed} — {14:longing} {13:toward things not yet come} {15:is rāga}, and he is {16:without it}; {18:the sorrow} {17:occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear} {19:is fear}, and he is {20:without it}; {21:the perturbation of one's own manas that becomes a cause of the inner suffering of another conscious being} {22:is anger}, and he is {23:without it}. {24:One who has become thus} — {25:a sage}, {26:whose nature is to contemplate the self} — {29:is}{28:called} {27:one of steady intellect}.",
+        "english": "{1:When} {0:occasions of sorrow such as separation from the dear} {1:present themselves}, he is {2:one whose manas is unagitated} — he {3:does not} {5:become} {4:sorrowful}; {7:free of longing} {6:amid pleasures} — {10:even} {9:when} {8:things dear} {9:are at hand}, he is {11:free of longing}; {12:from whom rāga, fear, and krodha have departed} — {14:longing} {13:toward things not yet come} {15:is rāga}, and he is {16:without it}; {18:the sorrow} {17:occasioned by foreseeing the cause of separation from the dear or the coming of the un-dear} {19:is fear}, and he is {20:without it}; {21:the perturbation of one's own manas that becomes a cause of the inner suffering of another conscious being} {22:is krodha}, and he is {23:without it}. {24:One who has become thus} — {25:a sage}, {26:whose nature is to contemplate the self} — {29:is}{28:called} {27:one of steady intellect}.",
         "segments": [
           {
             "from": 0,
@@ -5648,7 +5648,7 @@ window.GITA_VERSES = [
     "devanagari": "ध्यायतो विषयान् पुंसः सङ्गस् तेषूपजायते।\nसङ्गात् सञ्जायते कामः कामात् क्रोधोऽभिजायते॥",
     "iast": "dhyāyato viṣayān puṃsaḥ saṅgas teṣūpajāyate |\nsaṅgāt saṃjāyate kāmaḥ kāmāt krodho 'bhijāyate ||",
     "sense": "Kṛṣṇa describes the descent: in a man dwelling on sense-objects, saṅga toward them is born; from saṅga kāma is born; from kāma arises anger.",
-    "english": "{2:Of a man} {0:dwelling on} {1:the objects}, {3:clinging} {4:to them} {5:is born}; {6:from clinging} {8:kāma} {7:is born}; {9:from kāma} {10:anger} {11:arises}.",
+    "english": "{2:Of a man} {0:dwelling on} {1:the objects}, {3:clinging} {4:to them} {5:is born}; {6:from clinging} {8:kāma} {7:is born}; {9:from kāma} {10:krodha} {11:arises}.",
     "words": [
       {
         "i": 0,
@@ -5857,7 +5857,7 @@ window.GITA_VERSES = [
         "i": 10,
         "deva": "क्रोधः",
         "iast": "krodhaḥ",
-        "gloss": "anger",
+        "gloss": "krodha",
         "stem": "krodha",
         "root": "√krudh",
         "affix": "su (prathamā ekavacana)",
@@ -6473,11 +6473,11 @@ window.GITA_VERSES = [
           {
             "i": 39,
             "iast": "krodhaḥ",
-            "gloss": "anger",
+            "gloss": "krodha",
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger, wrath, rage, indignation"
+                "gloss": "krodha, krodha, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6662,11 +6662,11 @@ window.GITA_VERSES = [
           {
             "i": 53,
             "iast": "krodhaḥ",
-            "gloss": "anger",
+            "gloss": "krodha",
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger, wrath, rage, indignation"
+                "gloss": "krodha, krodha, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -6687,11 +6687,11 @@ window.GITA_VERSES = [
           {
             "i": 55,
             "iast": "krodhāt",
-            "gloss": "from anger",
+            "gloss": "from krodha",
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger, wrath, rage, indignation"
+                "gloss": "krodha, krodha, rage, indignation"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -7148,7 +7148,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {14:In a man} {12:brooding} {13:on the objects}, {17:clinging}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma}, {24:namely}, is {26:the ripened state} {25:of clinging}: {28:the} {29:state} {27:a man} {30:has fallen} into when {35:he is} {34:not} {33:able to remain} {32:without enjoying} {31:the objects} — {36:that} {37:is kāma}. {38:From kāma} {39:anger} {40:is born}: {42:while} {41:kāma} {42:persists} {44:and} {43:the object} {45:is not at hand}, {53:anger} {54:arises} {48:toward} {47:the men} {46:present at hand}, {52:in the thought}, ‘{49:by these} {50:what I wished} {51:has been thwarted}.’ {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {64:And} {63:thereupon}, {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:made} {72:toward jñāna of the self} — {76:of it} {78:there would be} {77:destruction}. {79:From the destruction of the buddhi} he, {81:once} {80:more} {83:sunk} {82:in saṃsāra}, {85:becomes} {84:ruined}.",
+        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {14:In a man} {12:brooding} {13:on the objects}, {17:clinging}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma}, {24:namely}, is {26:the ripened state} {25:of clinging}: {28:the} {29:state} {27:a man} {30:has fallen} into when {35:he is} {34:not} {33:able to remain} {32:without enjoying} {31:the objects} — {36:that} {37:is kāma}. {38:From kāma} {39:krodha} {40:is born}: {42:while} {41:kāma} {42:persists} {44:and} {43:the object} {45:is not at hand}, {53:krodha} {54:arises} {48:toward} {47:the men} {46:present at hand}, {52:in the thought}, ‘{49:by these} {50:what I wished} {51:has been thwarted}.’ {55:From krodha} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {64:And} {63:thereupon}, {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:made} {72:toward jñāna of the self} — {76:of it} {78:there would be} {77:destruction}. {79:From the destruction of the buddhi} he, {81:once} {80:more} {83:sunk} {82:in saṃsāra}, {85:becomes} {84:ruined}.",
         "segments": [
           {
             "from": 0,
@@ -7173,13 +7173,13 @@ window.GITA_VERSES = [
     "devanagari": "क्रोधाद् भवति संमोहः संमोहात् स्मृतिविभ्रमः।\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात् प्रणश्यति॥",
     "iast": "krodhād bhavati saṃmohaḥ saṃmohāt smṛtivibhramaḥ |\nsmṛtibhraṃśād buddhināśo buddhināśāt praṇaśyati ||",
     "sense": "Kṛṣṇa completes the descent: from anger comes delusion; from delusion, confusion of memory; from the ruin of memory, the destruction of the buddhi (the discerning buddhi); and from the destruction of the buddhi, the man perishes.",
-    "english": "{0:From anger} {1:comes} {2:delusion}; {3:from delusion} {4:confusion of memory}; {5:from the collapse of memory} {6:the destruction of the buddhi}; {7:from the destruction of the buddhi} {8:he perishes}.",
+    "english": "{0:From krodha} {1:comes} {2:delusion}; {3:from delusion} {4:confusion of memory}; {5:from the collapse of memory} {6:the destruction of the buddhi}; {7:from the destruction of the buddhi} {8:he perishes}.",
     "words": [
       {
         "i": 0,
         "deva": "क्रोधात्",
         "iast": "krodhāt",
-        "gloss": "from anger",
+        "gloss": "from krodha",
         "stem": "krodha",
         "root": "√krudh",
         "affix": "ṅasi (pañcamī ekavacana)",
@@ -7987,11 +7987,11 @@ window.GITA_VERSES = [
           {
             "i": 39,
             "iast": "krodhaḥ",
-            "gloss": "anger",
+            "gloss": "krodha",
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger, wrath, rage, indignation"
+                "gloss": "krodha, krodha, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -8176,11 +8176,11 @@ window.GITA_VERSES = [
           {
             "i": 53,
             "iast": "krodhaḥ",
-            "gloss": "anger",
+            "gloss": "krodha",
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger, wrath, rage, indignation"
+                "gloss": "krodha, krodha, rage, indignation"
               }
             ],
             "morph": "nom. sg. masc.",
@@ -8201,11 +8201,11 @@ window.GITA_VERSES = [
           {
             "i": 55,
             "iast": "krodhāt",
-            "gloss": "from anger",
+            "gloss": "from krodha",
             "parts": [
               {
                 "form": "krodha",
-                "gloss": "anger, wrath, rage, indignation"
+                "gloss": "krodha, krodha, rage, indignation"
               }
             ],
             "morph": "abl. sg. masc.",
@@ -8662,7 +8662,7 @@ window.GITA_VERSES = [
             "morph": "pres. indic. 3 sg."
           }
         ],
-        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {14:In a man} {12:brooding} {13:on the objects}, {17:clinging}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma}, {24:namely}, is {26:the ripened state} {25:of clinging}: {28:the} {29:state} {27:a man} {30:has fallen} into when {35:he is} {34:not} {33:able to remain} {32:without enjoying} {31:the objects} — {36:that} {37:is kāma}. {38:From kāma} {39:anger} {40:is born}: {42:while} {41:kāma} {42:persists} {44:and} {43:the object} {45:is not at hand}, {53:anger} {54:arises} {48:toward} {47:the men} {46:present at hand}, {52:in the thought}, ‘{49:by these} {50:what I wished} {51:has been thwarted}.’ {55:From anger} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {64:And} {63:thereupon}, {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:made} {72:toward jñāna of the self} — {76:of it} {78:there would be} {77:destruction}. {79:From the destruction of the buddhi} he, {81:once} {80:more} {83:sunk} {82:in saṃsāra}, {85:becomes} {84:ruined}.",
+        "english": "{1:For} {0:of one whose saṅga toward objects is not expelled} and {3:whose manas is not fixed} {2:on me}, {7:even} {6:though he is sitting still} {5:having restrained} {4:the indriyas}, {9:brooding on objects} {11:would be} {10:unavoidable} {8:on account of beginningless evil tendencies}. {14:In a man} {12:brooding} {13:on the objects}, {17:clinging}, {18:grown excessive}, {19:is born} {15:once} {16:more}. {20:From saṅga}, {21:when it is born}, comes {22:kāma}. {23:kāma}, {24:namely}, is {26:the ripened state} {25:of clinging}: {28:the} {29:state} {27:a man} {30:has fallen} into when {35:he is} {34:not} {33:able to remain} {32:without enjoying} {31:the objects} — {36:that} {37:is kāma}. {38:From kāma} {39:krodha} {40:is born}: {42:while} {41:kāma} {42:persists} {44:and} {43:the object} {45:is not at hand}, {53:krodha} {54:arises} {48:toward} {47:the men} {46:present at hand}, {52:in the thought}, ‘{49:by these} {50:what I wished} {51:has been thwarted}.’ {55:From krodha} {56:comes} {57:delusion}. {58:Delusion} {59:is the absence of discrimination between what is to be done and what is not}; {60:through it} {62:he does} {61:anything at all}. {64:And} {63:thereupon}, {67:in the effort} {65:already begun} {66:at mastering the indriyas and the rest}, {69:there comes} {68:a lapse of memory}. {70:From the lapse of memory} comes {71:the destruction of the buddhi}: {73:the} {74:resolve} {75:made} {72:toward jñāna of the self} — {76:of it} {78:there would be} {77:destruction}. {79:From the destruction of the buddhi} he, {81:once} {80:more} {83:sunk} {82:in saṃsāra}, {85:becomes} {84:ruined}.",
         "segments": [
           {
             "from": 0,

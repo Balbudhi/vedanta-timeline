@@ -349,7 +349,7 @@ window.GITA3_VERSES = [
     "devanagari": "काम एष क्रोध एष रजोगुणसमुद्भवः।\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम्॥",
     "iast": "kāma eṣa krodha eṣa rajo-guṇa-samudbhavaḥ |\nmahāśano mahā-pāpmā viddhy enam iha vairiṇam ||",
     "sense": "Kṛṣṇa names it: kāma — and anger, which is the same thing turned back on itself. Born of the guṇa rajas, it eats without end and does great harm; know it for the enemy.",
-    "english": "{1:This is} {0:kāma}, {3:this is} {2:anger} — {4:arisen from the guṇa rajas}, {5:the great devourer}, {6:the great evildoer}. {7:Know} {8:it} {9:here} to be {10:the enemy}.",
+    "english": "{1:This is} {0:kāma}, {3:this is} {2:krodha} — {4:arisen from the guṇa rajas}, {5:the great devourer}, {6:the great evildoer}. {7:Know} {8:it} {9:here} to be {10:the enemy}.",
     "words": [
       {
         "i": 0,
@@ -400,7 +400,7 @@ window.GITA3_VERSES = [
         "i": 2,
         "deva": "क्रोधः",
         "iast": "krodhaḥ",
-        "gloss": "anger, wrath",
+        "gloss": "krodha, krodha",
         "stem": "krodha",
         "root": "√krudh (divādi, 4P)",
         "rootGloss": "to be angry, to grow wroth",
