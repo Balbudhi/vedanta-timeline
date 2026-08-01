@@ -21,6 +21,7 @@ const BRACKET_RE = /\[[^\]]*\]/g;
 let errors = 0;
 let unitCount = 0;
 const brackets = [];
+const coverage = { words: 0, uncovered: 0, doubled: 0, units: [] };
 
 function checkUnit(label, words, english) {
   if (!english) return;
@@ -28,14 +29,31 @@ function checkUnit(label, words, english) {
   // Slots reference the word's `i` *value* (which may be non-contiguous), not
   // its array position, so validate against the actual set of i values present.
   const present = new Set(Array.isArray(words) ? words.map((w) => w.i) : []);
+  const seen = new Map();   // word i -> how many slots referenced it
   let m;
   SLOT_RE.lastIndex = 0;
   while ((m = SLOT_RE.exec(english)) !== null) {
     const idxs = m[1].split(",").map((s) => s.trim()).filter(Boolean).map(Number);
     for (const i of idxs) {
       if (!present.has(i)) { console.error(`✗ ${label}: slot {${i}:…} has no matching word (i values: ${[...present].join(",")})`); errors++; }
+      seen.set(i, (seen.get(i) || 0) + 1);
     }
   }
+  // Reported, not failed. A word in no slot still opens its card; it simply
+  // highlights nothing, which is the right outcome for a particle the English
+  // does not render separately (iti closing a quotation, ca, tu, hi, eva).
+  // A word in two slots highlights in two places, which is right when one
+  // Sanskrit word governs two English phrases. Both are judgement calls the
+  // authoring makes deliberately, so they surface as coverage numbers rather
+  // than as build failures. A slot pointing at a word that does not exist is
+  // the genuinely broken case, and that still fails above.
+  const uncovered = [...present].filter((i) => !seen.has(i));
+  if (uncovered.length) {
+    coverage.uncovered += uncovered.length;
+    coverage.units.push(`${label}: ${uncovered.map((i) => (words.find((w) => w.i === i) || {}).iast || i).join(", ")}`);
+  }
+  coverage.doubled += [...seen].filter(([, n]) => n > 1).length;
+  coverage.words += present.size;
   // record literal bracket inserts (informational)
   const bs = english.match(BRACKET_RE);
   if (bs) brackets.push({ label, items: bs });
@@ -80,6 +98,8 @@ for (const r of READINGS) {
 }
 
 console.log(`Checked ${unitCount} interactive units.`);
+console.log(`Word-slot coverage: ${coverage.words - coverage.uncovered}/${coverage.words} words highlight an English phrase`);
+console.log(`  ${coverage.uncovered} unslotted (particles the English does not render separately), ${coverage.doubled} in two slots`);
 console.log(`Literal [..] bracket inserts remaining in ${brackets.length} units:`);
 for (const b of brackets) console.log(`  ${b.label}: ${b.items.join("  ")}`);
 if (errors) { console.error(`\n${errors} slot error(s).`); process.exit(1); }
