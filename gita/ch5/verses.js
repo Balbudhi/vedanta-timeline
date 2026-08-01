@@ -2028,7 +2028,7 @@ window.CH5_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः ।\nसर्वभूतात्मभूतात्मा कुर्वन्न् अपि न लिप्यते ॥",
     "iast": "yogayukto viśuddhātmā vijitātmā jitendriyaḥ |\nsarvabhūtātmabhūtātmā kurvann api na lipyate ||",
-    "sense": "One yoked in yoga, purified and self-mastered in mind, senses conquered, whose self has become the self of all beings — even while acting, is not tainted.",
+    "sense": "One yoked in yoga, purified and self-mastered in mind, senses conquered, whose self has become the self of all beings — even while acting, he is not stained.",
     "english": "{0:Yoked in yoga}, {1:pure in self}, {2:self-conquered}, {3:the indriyas conquered}, {4:whose self has become the self of all beings} — {6:even} {5:while acting}, he {7:is not} {8:stained}.",
     "words": [
       {
@@ -5759,7 +5759,7 @@ window.CH5_VERSES = [
           },
           {
             "form": "kalmaṣa",
-            "gloss": "taint, impurity, moral stain, sin"
+            "gloss": "impurity, moral stain, sin"
           }
         ]
       }
@@ -8233,7 +8233,7 @@ window.CH5_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "लभन्ते ब्रह्मनिर्वाणम् ऋषयः क्षीणकल्मषाः ।\nछिन्नद्वैधा यतात्मानः सर्वभूतहिते रताः ॥",
     "iast": "labhante brahmanirvāṇam ṛṣayaḥ kṣīṇakalmaṣāḥ |\nchinnadvaidhā yatātmānaḥ sarvabhūtahite ratāḥ ||",
-    "sense": "Seers who have worn away their taints, cut off from doubt, self-controlled, and devoted to the welfare of all beings, attain the beatitude that is Brahman.",
+    "sense": "Seers who have worn away their impurities, cut off from doubt, self-controlled, and devoted to the welfare of all beings, attain the beatitude that is Brahman.",
     "english": "{2:Seers} {3:whose impurities are worn away}, {4:free of doubt}, {5:whose selves are controlled}, {7:delighting} {6:in the welfare of all beings}, {0:attain} {1:brahma-nirvāṇa}.",
     "words": [
       {
@@ -8357,7 +8357,7 @@ window.CH5_VERSES = [
           },
           {
             "form": "kalmaṣa",
-            "gloss": "taint, stain, impurity, sin"
+            "gloss": "impurity, stain, sin"
           }
         ]
       },

@@ -5124,7 +5124,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "kalmaṣa",
-                "gloss": "taint, stain, impurity, defilement"
+                "gloss": "impurity, stain, defilement"
               },
               {
                 "form": "-tā",
@@ -5458,7 +5458,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "kilbiṣa",
-                "gloss": "taint, stain, fault; sin, defilement"
+                "gloss": "impurity, stain, fault; sin, defilement"
               }
             ],
             "morph": "acc. sg. neut."
@@ -9046,7 +9046,7 @@ window.GITA_VERSES = [
               },
               {
                 "form": "kalmaṣa",
-                "gloss": "taint, stain, impurity, defilement"
+                "gloss": "impurity, stain, defilement"
               },
               {
                 "form": "-tā",

@@ -10349,7 +10349,7 @@ window.GITA_COMMENTARY = {
             },
             {
               "form": "mala",
-              "gloss": "impurity, dirt, filth; defilement, taint; moral stain"
+              "gloss": "impurity, dirt, filth; defilement; moral stain"
             },
             {
               "form": "-ānām",
@@ -41391,12 +41391,12 @@ window.GITA_COMMENTARY = {
             },
             {
               "form": "duṣṭa",
-              "gloss": "tainted, spoiled, corrupt, vitiated, wicked, faulty, depraved"
+              "gloss": "corrupted, spoiled, vitiated, wicked, faulty, depraved"
             }
           ],
           "morph": "instrumental singular neuter",
           "glossaryKey": "raga",
-          "compound": "tatpuruṣa: tainted (duṣṭa) by passion (rāga) and aversion (dveṣa)"
+          "compound": "tatpuruṣa: corrupted (duṣṭa) by rāga and dveṣa"
         },
         {
           "i": 23,
