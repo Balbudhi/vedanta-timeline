@@ -824,6 +824,24 @@
       "status": "unpublished"
     },
     {
+      "slug": "engagement-madhva__nonobjectifying-advaita",
+      "title": "Madhva’s Challenge to Non-objectifying Advaita",
+      "subtitle": "A primary-text control reading of whether Tattvavāda refutes the claim that the empirical agent is not Brahman, or the stronger claim of ultimate *ātman–Brahman* non-difference.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-madhva__nonobjectifying-advaita.md",
+      "tags": [
+        "Madhva",
+        "Tattvavāda",
+        "Advaita",
+        "bheda",
+        "jīva",
+        "non-difference"
+      ],
+      "word_count_approx": 1200,
+      "date": "2026-08-04",
+      "status": "unpublished"
+    },
+    {
       "slug": "engagement-nimbarka_srinivasa__vedanta-parijata-saurabha-kaustubha",
       "title": "Nimbārka's *Vedānta-Pārijāta-Saurabha* with Śrīnivāsa's *Vedānta-Kaustubha*",
       "subtitle": "Dvaitādvaita's parallel-realism reading of the Brahma-Sūtras — *bheda* and *abheda* as equiprimordial, the cit–acit–Brahman triad, where Nimbārka sits between Rāmānuja and Madhva.",
