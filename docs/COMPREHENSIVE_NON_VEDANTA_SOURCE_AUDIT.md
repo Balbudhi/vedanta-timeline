@@ -1,22 +1,23 @@
 # Comprehensive non-Vedānta source audit
 
-Research audit, 2026-08-04. This is a curation and source-recovery document;
-it does not itself supply the roster data. The initial person and position
-recommendations marked below have been implemented separately, with their
-survival and attribution limits made explicit. Its continuing purpose is to
-make the timeline more comprehensive without confusing a surviving authorial
-work, a translated work, an opponent's report, a traditional attribution, and
-a modern reconstruction.
+Research audit, 2026-08-04. This is a curation and source-recovery document,
+not a roster-import list. It records texts, schools, and source hubs that may
+be needed to understand a thinker, but none of those is itself a timeline card.
+The timeline is person-centered: a card must identify a named thinker or
+teacher with a recoverable intellectual contribution. Its purpose is to keep
+that standard from being weakened by confusing a surviving work, a translated
+work, an opponent's report, a traditional attribution, and a modern
+reconstruction.
 
 ## Inclusion rule
 
 Add a person only when a real historical contribution can be stated and the
 person's thought is recoverable from an authored text, secure fragments, or
-substantial attributed material. Add a **school / position** when the movement
-is historically attested but no authorial corpus survives. Add an anonymous or
-attribution-qualified **text node** when the text, not its supposed author, is
-the evidential unit. Do not turn an eponym, a mythic founder, or a bare name in
-a hostile catalogue into a normal author card.
+substantial attributed material. A named teacher may be included when the
+teacher—not an anonymous text or a school—is the historical intellectual unit.
+Do not add schools, positions, anonymous texts, collective corpora, eponyms,
+mythic founders, or bare names in hostile catalogues as thinker cards. Keep
+those only as source context for qualified people.
 
 ### Survival labels
 
@@ -30,7 +31,7 @@ Use these visible labels on every non-standard entry.
 | `Opponent reconstruction` | No own text; doctrine is reported by rivals and must be stated as such. |
 | `Attribution complex` | Text survives, but its author, date, or historical identity remains uncertain. |
 
-## Initial implementation wave: indisputably substantive gaps
+## Research candidates and source map
 
 ### Lost and early Śramaṇa traditions
 

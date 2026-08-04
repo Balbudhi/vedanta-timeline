@@ -265,19 +265,7 @@
       "#0369a1",
       "#082f49"
     ],
-    "short_description": "The Nāth and Haṭha-yoga textual traditions, represented here as comparators for their accounts of body, breath, practice, and liberation rather than as a single uniform philosophical school."
-  },
-  "rasesvara-comparator": {
-    "display_name": "Raseśvara / Rasaśāstra",
-    "color_hex": "#a16207",
-    "color_palette": [
-      "#fef3c7",
-      "#fcd34d",
-      "#f59e0b",
-      "#a16207",
-      "#451a03"
-    ],
-    "short_description": "Alchemical traditions in which mercurial and bodily transformation can be linked to liberation; represented through textual positions rather than an assumed continuous institutional lineage."
+    "short_description": "Haṭha-yoga as represented here by named authors such as Svātmārāma, whose work gives body, breath, and vital process an explicitly soteriological role."
   },
   "vaisesika-comparator": {
     "display_name": "Vaiśeṣika",
@@ -314,32 +302,7 @@
       "#0f766e",
       "#134e4a"
     ],
-    "short_description": "An early śramaṇa movement known principally through Buddhist and Jaina reports, associated with Makkhali Gosāla and a strong doctrine of niyati (necessity); its own textual corpus is not extant."
-  },
-  "pudgalavada-comparator": {
-    "display_name": "Pudgalavāda",
-    "color_hex": "#9a3412",
-    "color_palette": [
-      "#ffedd5",
-      "#fdba74",
-      "#f97316",
-      "#9a3412",
-      "#431407"
-    ],
-    "short_description": "Buddhist person-theory traditions that sought to account for continuity and karmic responsibility without treating the person as identical with, or wholly separate from, the aggregates."
-  },
-  "mahasamghika-comparator": {
-    "display_name": "Mahāsāṃghika–Lokottaravāda",
-    "aliases": ["Mahāsāṃghika-Lokottaravāda"],
-    "color_hex": "#be123c",
-    "color_palette": [
-      "#ffe4e6",
-      "#fda4af",
-      "#fb7185",
-      "#be123c",
-      "#4c0519"
-    ],
-    "short_description": "Early Buddhist traditions represented chiefly by the Lokottaravāda *Mahāvastu*, whose hagiographic and doctrinal materials preserve a distinctive account of the Buddha's transmundane status."
+    "short_description": "The early śramaṇa movement represented here only through its named teacher Makkhali Gosāla; its doctrine is reconstructed from Buddhist and Jaina reports because no Ājīvika authorial corpus survives."
   },
   "alankara-comparator": {
     "display_name": "Alaṅkāra / Sanskrit poetics",
