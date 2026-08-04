@@ -207,6 +207,28 @@ sublatable. Neither inference follows from a neutral grammatical fact alone.
 
 Source: [*Anuvyākhyāna* 2.3.44–48](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2754).
 
+## 8. He does address *mithyā* and the “indescribable” category
+
+Madhva records the familiar dream-style inference—“the disputed [world] is
+*mithyā* because it is perceived, like a dream”—and attacks its logical form.
+He argues that if the dream-example is itself *mithyā*, the conclusion is
+already assumed; if it is not, the proposed pervasion fails. He then argues
+from the witness's cognition and distinguishes a stable cognition from a
+merely appearance-like one. This is not a decisive refutation of Advaita, but
+it shows that he is engaging an inference for *mithyātva*, not only the crude
+claim that the manifest world is sheer nonexistence.
+
+Likewise, in the immediately preceding sequence he explicitly introduces
+**anirvācyatva** (“indescribability”) as a possible residual category and
+rejects it on his own pramāṇa theory. The critical question is therefore not
+whether Madhva knew there was an Advaitic distinction between *sat* and *asat*.
+It is whether his premise—that any determinate object of cognition must be
+finally real and difference-bearing—is sound. Advaita says no; Madhva says that
+the denial makes the very cognition and scripture Advaita relies upon
+unintelligible.
+
+Sources: [*Anuvyākhyāna* 2.2.217–21](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2351) and [2.3.42–43](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2745).
+
 ## Finding
 
 Madhva does **not** refute the limited claim that the empirical agent is not
