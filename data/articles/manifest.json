@@ -1229,6 +1229,26 @@
       "word_count_approx": 61893,
       "date": "2026-05-12",
       "status": "unpublished"
+    },
+    {
+      "slug": "engagement-medhananda__vijnana-vedanta-and-sankara",
+      "title": "Does Vijñāna Vedānta Require a New Vedānta?",
+      "subtitle": "A source-controlled audit of Medhananda's Ramakrishna–Śaṅkara contrast: Bengali non-difference, Śaṅkara's direct allness-knowledge, and the hard limits imposed by name-and-form negation.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-medhananda__vijnana-vedanta-and-sankara.md",
+      "tags": [
+        "Medhananda",
+        "Ramakrishna",
+        "Śaṅkara",
+        "Vijñāna-Vedānta",
+        "Bengali",
+        "Advaita",
+        "Śakti",
+        "comparative-method"
+      ],
+      "word_count_approx": 2331,
+      "date": "2026-08-04",
+      "status": "unpublished"
     }
   ]
 }
