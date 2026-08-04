@@ -1,4 +1,4 @@
-# Ramakrishna, Śaṅkara, and *Vijñāna Vedānta*: a claim audit
+# Does *Vijñāna Vedānta* Require a New Vedānta?
 
 ## Question
 
@@ -14,15 +14,24 @@ In the 22 September 1883 *Kathāmṛta* entry, Ramakrishna says:
 
 > “The very one who is Brahman is Śakti. … When [that one] creates, sustains, and dissolves, [that one] is called Śakti. They are not two separate things. [They are] the same thing.”
 
-The construction **যিনিই … তিনিই** (*jini-i … tini-i*) is a relative–correlative: “the very one who … is that very one who.” The focus particle **-ই** strengthens co-reference. **অভেদ** (*abheda*, Sanskrit *a-* + *bheda*, “non-difference”) and **একই জিনিস** (“the same thing”) likewise deny separateness. The wording supports an identity/non-separation reading. The change in designation—“when [the one] creates … [the one] is called Śakti”—is keyed to activity.
+The construction **যিনিই … তিনিই** (*jini-i … tini-i*) is a relative–correlative: “the very one who … is that very one who.” The focus particle **-ই** strengthens co-reference. **একই জিনিস** (“the same thing”) denies separateness. The wording supports an identity/non-separation reading. The change in designation—“when [the one] creates … [the one] is called Śakti”—is keyed to activity.
 
-The same corpus gives the *vijñāna* formulation in the roof-and-stairs image: the one reached through *neti neti* is recognized as the one that “has become” living beings and world; the *vijñānī* sees the same material in roof and stairs. This is strong evidence that Ramakrishna presents realization as more than a blank negation of experience. It is not, by itself, a technical determination of the final ontological standing of differentiated forms.
+The 5 April 1884 roof-and-stairs passage makes the *vijñāna* claim more
+explicit: after ascending by *neti neti*, “on reaching the roof one sees that
+the very material of which the roof is made—brick, lime, and brick-dust—is
+also the material of the stairs”; “the one who is Parabrahman has become
+living beings and the world, and has become the twenty-four principles.” This
+is strong evidence that
+Ramakrishna presents realization as more than a blank negation of experience.
+It is not, by itself, a technical determination that differentiated form is a
+second, co-ultimate substance: the passage identifies roof and stairs by their
+one material rather than assigning them independent being.
 
 **What these passages establish:** Brahman and Śakti are not two separate things; their distinction is tied to a difference of designation and activity; *vijñāna* includes a positive recognition of allness.
 
 **What they do not state:** that two numerically distinct entities mutually produce, sustain, or give being to one another.
 
-Sources: [*Kathāmṛta*, Bengali UTF-8 control text](/Users/eeshan/Dev/parishishta/materials/ramakrishna/kathamrita_official_portal_unicode/kathamrita_utf8_text.txt:81) and [the roof-and-stairs passage](/Users/eeshan/Dev/parishishta/materials/ramakrishna/kathamrita_official_portal_unicode/kathamrita_utf8_text.txt:73).
+Sources: [*Kathāmṛta*, 22 September 1883 Bengali portal capture](/Users/eeshan/Dev/parishishta/materials/ramakrishna/kathamrita_official_portal_unicode/unicode_pages/16_y_brahma_shakti_269_274.html) and [5 April 1884 Bengali portal capture](/Users/eeshan/Dev/parishishta/materials/ramakrishna/kathamrita_official_portal_unicode/unicode_pages/20_u_with_prankrishna_413_416.html).
 
 ## 2. Medhananda's claim
 
@@ -83,13 +92,36 @@ This is not a temporary instruction to beginners. It prevents attributing to Śa
 
 Source: [*Brahma-sūtra-bhāṣya* 2.1.14](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt:2424).
 
-### D. *Vijñāna* is not merely conceptual
+### D. The *Gītā*: dependence without modifying inherence
+
+At *Gītā* 9.4, Śaṅkara explains “all beings are in Me” as follows:
+
+> *mat-sthāni mayātmanā ātmavattvena sthitāni*.
+
+> “They are in Me because, with Me as their Self, they subsist as having a
+> self.”
+
+He immediately denies that this means that the beings are attached to or
+inherent in Brahman as modifications: no independent thing can stand in the
+relation of something supported by Brahman; Brahman is not “situated” in them
+through contact. At 9.5 he restates the two claims: beings are supported by
+the Self, but do not stand in Brahman as modifying contents; Brahman sustains
+them while remaining unassociated.
+
+This is a direct Śaṅkarian resource for the distinction between ontological
+dependence and transformative change. It supports the claim that every
+appearing being has no self-standing being apart from Brahman. It does not
+make differentiated conditions intrinsic predicates of the final Brahman.
+
+Sources: [*Bhagavad-gītā-bhāṣya* 9.4](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:6026) and [9.5](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:6044).
+
+### E. *Vijñāna* is not merely conceptual
 
 At *Gītā* 7.2, Śaṅkara glosses **sa-vijñānam** as knowledge joined to one’s own direct experience (**svānubhava-yuktam**). At 9.1 he again calls it knowledge joined with experience and identifies its content with *Vāsudevaḥ sarvam*, *ātmaivedaṃ sarvam*, and *ekam evādvitīyam*. Thus it is inaccurate to represent Śaṅkarian complete knowledge as an empty state that knows only an abstract self-nature.
 
 This does not prove that Śaṅkara gives Ramakrishna’s particular roof-and-stairs pedagogy or a positive Śakti ontology. It establishes the more limited point: Śaṅkara’s *jñāna/vijñāna* is direct realization of allness under the condition that allness is not a second reality alongside Brahman.
 
-Source: [*Bhagavad-gītā-bhāṣya* 7.2 and 9.1](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:4945).
+Sources: [*Bhagavad-gītā-bhāṣya* 7.2](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:4945) and [9.1](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:5977).
 
 ## Finding
 

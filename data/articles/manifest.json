@@ -837,9 +837,27 @@
         "jīva",
         "non-difference"
       ],
-      "word_count_approx": 2110,
+      "word_count_approx": 3310,
       "date": "2026-08-04",
-      "status": "unpublished"
+      "status": "published"
+    },
+    {
+      "slug": "engagement-madhva__witness-and-ramana",
+      "title": "Madhva’s Witness and Ramaṇa’s ‘I’",
+      "subtitle": "A primary-text comparison of Madhva’s final, difference-cognizing *jīva* and Ramaṇa’s analysis of the arising *aham*.",
+      "kind": "engagement",
+      "source_doc": "data/articles/source/engagement-madhva__witness-and-ramana.md",
+      "tags": [
+        "Madhva",
+        "Ramaṇa Maharṣi",
+        "sākṣin",
+        "jīva",
+        "ātma-vicāra",
+        "Advaita"
+      ],
+      "word_count_approx": 2015,
+      "date": "2026-08-04",
+      "status": "published"
     },
     {
       "slug": "engagement-nimbarka_srinivasa__vedanta-parijata-saurabha-kaustubha",
@@ -1282,9 +1300,9 @@
         "Śakti",
         "comparative-method"
       ],
-      "word_count_approx": 1660,
+      "word_count_approx": 1473,
       "date": "2026-08-04",
-      "status": "unpublished"
+      "status": "published"
     }
   ]
 }

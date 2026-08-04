@@ -1,4 +1,4 @@
-# Madhva’s challenge to non-objectifying Advaita
+# Madhva’s Challenge to Non-objectifying Advaita
 
 ## Question and scope
 
@@ -44,6 +44,28 @@ of essential nature.
 
 Sources: [*Anuvyākhyāna* 2.3.94](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2910) and [3.3.16](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:3641).
 
+### Independent control: *Tattvaviveka*
+
+Madhva states the same asymmetry in the independent short work
+*Tattvaviveka*:
+
+> *svatantraṃ paratantraṃ ca prameyaṃ dvividhaṃ matam / svatantro bhagavān
+> viṣṇur … // … ya etat paratantraṃ tu sarvam eva hareḥ sadā / vaśam ity eva
+> jānāti saṃsārān mucyate hi saḥ //*
+
+> “The knowable is held to be twofold: independent and dependent. The
+> independent is Bhagavān Viṣṇu … Whoever knows that all this dependent [reality]
+> is always under Hari's control is released from saṃsāra.”
+
+This is significant for the present comparison. Madhva does not teach two
+co-independent or mutually productive ultimates; he makes the knowledge of
+universal dependence on Hari liberating. That part is compatible with the
+user's rejection of a co-dependent Brahman–Śakti pair. The incompatible point
+appears elsewhere in the same framework: Madhva holds dependent jīvas to be
+real, eternal conscious entities, not non-different from Hari in *svarūpa*.
+
+Sources: [*Tattvaviveka* 1](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_tattvaviveka_madhva_in.txt:3) and [13](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_tattvaviveka_madhva_in.txt:39).
+
 ## 2. The *Māyāvāda-khaṇḍana* makes the target explicit
 
 Madhva's short polemical treatise opens its argument with the technical
@@ -74,6 +96,32 @@ Madhva's further *Anuvyākhyāna* arguments show that he explicitly rejects
 that reply; it should not be dismissed as though he had not heard it.
 
 Source: [*Māyāvāda-khaṇḍana*](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_mayavada_khandana_anandamakaranda.txt:6).
+
+### The adjunct objection is conditional
+
+The *Upādhi-khaṇḍana* attacks a particular explanatory route by which an
+Advaitin might account for individual difference.  It treats the differentiation
+of karmic conditions and the differentiation of adjuncts as mutually dependent:
+
+> *siddhau hi karmabhedasya syād upādhivibhinnatā / tat-siddhau caiva
+> tat-siddhir ity anyonyavyapāśrayaḥ //*
+
+> “If difference of karma is established, there would be differentiation of
+> adjuncts; and once that is established, that [difference] is established:
+> this is reciprocal dependence.”
+
+The force is real against a model that explains apparent individual plurality
+by distinct adjuncts while grounding the adjuncts in the beginningless karmic
+plurality that the same model must explain.  It does not, by itself, prove
+Madhva’s stronger thesis that difference is intrinsically final.  It presupposes
+that difference among selves and karmas needs a causal explanation through
+separate adjuncts.  An Advaitin who treats the entire causal field—including
+the question “which adjunct belongs to which self?”—as dependent name-and-form
+does not accept that starting point.  Madhva’s argument against that deeper
+reply occurs in his positive *bheda-svarūpa* thesis, not in this circularity
+charge alone.
+
+Source: [*Upādhi-khaṇḍana* 10](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_upadhi_khandana_anandamakaranda.wikitext:32).
 
 ## 3. The claim he directly denies
 
@@ -151,7 +199,7 @@ Source: [*Anuvyākhyāna* 2.3.63–69](/Users/eeshan/Dev/vedanta-timeline/data/s
 
 Madhva does not ignore *abheda* texts. He gives them restricted readings:
 
-> *ato ’bhedavade vaitāḥ śrutayaḥ pravadanti hi …
+> *ato ’bhedavad evaitāḥ śrutayaḥ pravadanti hi …
 > sādṛśyāc ca pradhānatvāt svātantryād api cābhidām /
 > āhur īśena jīvasya na svarūpābhidāṃ kvacit //*
 
@@ -169,6 +217,58 @@ dependence on the independent Lord and a scriptural language of intimacy; he
 refuses the inference from dependence to essential non-difference.
 
 Source: [*Anuvyākhyāna* 2.3.67–70](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2824).
+
+### *Tattvodyota*: the full counterargument
+
+*Tattvodyota* confirms that Madhva does not leave the deepest version of the
+claim untouched.  First, he gives the *Chāndogya* *vācārambhaṇa* formula a
+non-Advaitic reading: the passage establishes the primacy of the eternal Vedic
+name “clay” over a conventional, impermanent name, not the ontological
+non-being of the effect.  Therefore the sentence cannot be assumed to settle
+the dispute before one has chosen a hermeneutic.
+
+More importantly, he makes an argument addressed exactly to the distinction
+between liberated and bound consciousness:
+
+> *muktāmuktayor bhedābhāve muktasya saṃsāraḥ saṃsāriṇo vā muktatvaṃ syāt /
+> yady ajñānakṛto bhedas tarhīśvarasyājñānābhāvāt saṃsāriṇaikyaṃ tenānubhūyeta /
+> tataś ca duḥkhitvaṃ syāt … tato ’naupādhikatvād eva bhedasya na
+> muktasyeśvaraikyam.*
+
+> “If there were no difference between liberated and unliberated, the liberated
+> would have transmigration, or the transmigrating [person] liberation.  If
+> difference were caused by ignorance, then, because Īśvara has no ignorance,
+> he would experience unity with the transmigrator; and thus there would be
+> suffering … Therefore, because difference is not conditioned by adjuncts,
+> the liberated does not have identity with Īśvara.”
+
+The grammar fixes the scope.  *muktāmuktayoḥ* is genitive dual (“of the
+liberated and unliberated”), qualifying *bhedābhāve* (“in the absence of
+difference”); *ajñāna-kṛtaḥ* is a nominative adjective of *bhedaḥ*
+(“difference made by ignorance”); *īśvarasya … ajñāna-abhāvāt* gives the
+reason (“because Īśvara lacks ignorance”); and *anaupādhikatvāt* is an
+ablative of reason (“because it is non-adjunct-conditioned”).  The sentence is
+therefore not grammatical advice for a merely embodied ego.  It asserts that
+the liberated and Īśvara remain different in their own reality.
+
+This is Madhva’s most pointed answer to the claim that the only false thing is
+the localized agent.  He says that the difference between the liberated witness
+and Īśvara cannot be relegated to body, ego, or adjunct; it must remain even in
+liberation.  He then explicitly prescribes how apparently non-difference
+statements are to be read: statements whose subject appears to be
+non-difference, but which conflict with perception, inference, and scripture,
+are to be assigned the senses of likeness and the like (*sādṛśyādi*).
+
+The argument has a determinate Advaitic pressure point.  Its suffering premise
+treats the experience of suffering as something a non-different Self would
+have to possess, whereas Advaita calls precisely that possession a
+superimposition on the Self.  Madhva anticipates the simpler “different
+adjuncts” reply and rejects it by appeal to one experiencer across bodily
+members.  The dispute therefore does not vanish, but it is not settled by
+calling the Advaitic Self a finite subject either: Madhva must establish that
+the separate experiencer is finally real, and Śaṅkara denies exactly that.
+
+Sources: [*Tattvodyota*, *vācārambhaṇa* reading](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_tattvodyota_anandamakaranda.wikitext:103), [liberated/bound argument](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_tattvodyota_anandamakaranda.wikitext:107), [unconditioned difference](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_tattvodyota_anandamakaranda.wikitext:115), and [his rule for *abheda* statements](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_tattvodyota_anandamakaranda.wikitext:126).
 
 ## 6. Direct realization does not remove the disagreement
 
@@ -210,14 +310,32 @@ Source: [*Anuvyākhyāna* 2.3.44–48](/Users/eeshan/Dev/vedanta-timeline/data/s
 
 ## 8. He does address *mithyā* and the “indescribable” category
 
-Madhva records the familiar dream-style inference—“the disputed [world] is
-*mithyā* because it is perceived, like a dream”—and attacks its logical form.
-He argues that if the dream-example is itself *mithyā*, the conclusion is
-already assumed; if it is not, the proposed pervasion fails. He then argues
-from the witness's cognition and distinguishes a stable cognition from a
-merely appearance-like one. This is not a decisive refutation of Advaita, but
-it shows that he is engaging an inference for *mithyātva*, not only the crude
-claim that the manifest world is sheer nonexistence.
+Madhva's compact *Prapañca-mithyātvānumāna-khaṇḍana* opens by stating an
+Advaitic inference in formal Nyāya terms:
+
+> *vimataṃ mithyā dṛśyatvāt, yad itthaṃ tat tathā, yathā
+> sampratipannam (śuktirajatam).*
+
+> “The disputed [world] is *mithyā*, because it is perceived: whatever is
+> such is so, like the agreed case [of shell-silver].”
+
+It then lists objections under the technical heads *āśrayāsiddhi*,
+*aprasiddha-viśeṣaṇa*, *siddha-sādhana*, *asiddha*, *viruddha*,
+*anaikāntika*, and so on.  In particular, Madhva explicitly takes up a
+definition of *mithyātva* as *sadasad-vailakṣaṇya* (“difference from both real
+and unreal”) and the category *anirvacanīya*.  This establishes the limited
+but important textual point: he is arguing against a technical Advaitic
+inference for *mithyātva*, not merely the crude proposition that the manifest
+world is a sheer nonentity.
+
+The list itself does not decide whether the inference is a fair reconstruction
+of every Advaitin.  For example, an Advaitin will deny that an
+*āśrayāsiddhi* objection may simply treat the empirical world as absent while
+the very debate is being conducted; and will supply independent arguments for
+*anirvacanīyatva*.  Madhva’s short text does not neutrally establish those
+premises; it records how they look within his pramāṇa theory.  That is why the
+disagreement remains philosophical rather than a correction obtainable from
+one Sanskrit word alone.
 
 Likewise, in the immediately preceding sequence he explicitly introduces
 **anirvācyatva** (“indescribability”) as a possible residual category and
@@ -228,7 +346,7 @@ finally real and difference-bearing—is sound. Advaita says no; Madhva says tha
 the denial makes the very cognition and scripture Advaita relies upon
 unintelligible.
 
-Sources: [*Anuvyākhyāna* 2.2.217–21](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2351) and [2.3.42–43](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2745).
+Sources: [*Prapañca-mithyātvānumāna-khaṇḍana*](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_prapanca_mithyatva_anumana_khandana_anandamakaranda.wikitext:5), [*Anuvyākhyāna* 2.2.217–21](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2351), and [2.3.42–43](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2745).
 
 ## 9. Non-objectification is not an easy escape from Madhva
 
@@ -251,6 +369,44 @@ including the liberated knower.
 
 Source: [*Anuvyākhyāna* 2.2.222–26](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2368).
 
+## 10. A second major work confirms the target
+
+The *Viṣṇutattvavinirṇaya* independently makes the same argument.  It first
+denies that jīva–Īśvara non-difference has been established, and argues that
+when difference is established by perception and inference, an *abheda*
+statement cannot overturn the means of knowledge on which its own subject
+matter depends:
+
+> *na ca jīveśvarābhedaḥ siddhaḥ … pratyakṣānumānasiddhatve ca bhedasya
+> tad-nirodhād evāprāmāṇyam abhedāgamasya … nopajīvyapramāṇavirodhe
+> prāmāṇyam.*
+
+> “Nor has non-difference of jīva and Lord been established … When difference
+> is established by perception and inference, the non-difference scripture is
+> unauthoritative precisely because it would negate that [difference] … A
+> testimony has no authority when it conflicts with a means of knowledge on
+> which it depends.”
+
+Later the work says, *bhinnau sarvadaiva vilakṣaṇau*—“the jīva and Lord are
+different, distinct at all times”—and develops the premise as a general
+metaphysical thesis: *bhedas tu sarvavastūnāṃ svarūpaṃ naijam avyayam*,
+“difference is the innate, imperishable essential nature of all things.”
+
+This is independently important because it removes two evasions at once.
+Madhva does not merely oppose a careless identification of a body-bound ego
+with Viṣṇu, and he does not leave the final status of difference unstated.  He
+explicitly makes its finality the condition for interpreting *abheda* language
+and for maintaining the authority of knowledge.  An Advaitin may reject that
+condition by denying that the final Self is a differentiated *vastu* at all;
+but that is a reply to Madhva, not a position Madhva has already conceded.
+
+The currently retained witness is a complete public Sanskrit transcription
+with editorial notes, not a critical edition.  The argument above uses only
+the plainly visible continuous text; any variant-sensitive claim requires a
+printed or critical witness before publication.
+
+Sources: [*Viṣṇutattvavinirṇaya*, discussion of jīva–Īśvara non-difference](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_visnutattvavinirnaya_wikisource.wikitext:117), [difference as *svarūpa*](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_visnutattvavinirnaya_wikisource.wikitext:255), and [jīva–Īśvara difference](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_visnutattvavinirnaya_wikisource.wikitext:387).
+
 ## Finding
 
 Madhva does **not** refute the limited claim that the empirical agent is not
@@ -259,11 +415,12 @@ way the world is apprehended. He agrees that Viṣṇu alone is independent and
 insists more strongly than many Advaitin caricatures that the world is real.
 
 He does directly reject the user’s ultimate claim if “I am Brahman” means that
-the purified Self and Brahman are non-different in *svarūpa*. He denies this
-of the liberated jīva, interprets *abheda* as likeness/primacy/dependence rather
-than identity, and makes the persistence of difference a condition of his
-account of knowledge and liberation. Calling his target only a vulgar Advaita
-would therefore be inaccurate.
+the purified Self and Brahman are non-different in *svarūpa*. Across two major
+works and a focused anti-Māyāvāda treatise, he denies this of the liberated
+jīva, interprets *abheda* as likeness/primacy/dependence rather than identity,
+and makes the persistence of difference a condition of his account of knowledge
+and liberation. Calling his target only a vulgar Advaita would therefore be
+inaccurate.
 
 The fair conclusion is not that one side has been textually eliminated. It is
 that the two systems make incompatible final claims about what dependence is.
