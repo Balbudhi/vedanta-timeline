@@ -820,7 +820,7 @@
       ],
       "word_count_approx": 2314,
       "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_mayavada_khandanam_archive_djvu.txt",
+      "source_text_path": "data/sources/sanskrit/vedanta/madhva_mayavada_khandana_anandamakaranda.txt",
       "status": "unpublished"
     },
     {
@@ -837,7 +837,7 @@
         "jīva",
         "non-difference"
       ],
-      "word_count_approx": 1200,
+      "word_count_approx": 1750,
       "date": "2026-08-04",
       "status": "unpublished"
     },
@@ -1246,6 +1246,24 @@
       "depth": "comprehensive_keystone",
       "word_count_approx": 61893,
       "date": "2026-05-12",
+      "status": "unpublished"
+    },
+    {
+      "slug": "primary-source-inventory__ramakrishna-sarada-vivekananda",
+      "title": "Ramakrishna, Sarada Devi, and Vivekananda: primary-source inventory",
+      "subtitle": "A citation-readiness audit: original Bengali controls, English translation witnesses, searchable working texts, and the gaps that may not be silently filled by OCR.",
+      "kind": "source-inventory",
+      "source_doc": "data/articles/source/primary-source-inventory__ramakrishna-sarada-vivekananda.md",
+      "tags": [
+        "Ramakrishna",
+        "Sarada Devi",
+        "Vivekananda",
+        "Bengali",
+        "primary sources",
+        "provenance"
+      ],
+      "word_count_approx": 560,
+      "date": "2026-08-04",
       "status": "unpublished"
     },
     {

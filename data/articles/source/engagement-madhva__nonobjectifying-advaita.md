@@ -26,17 +26,13 @@ differences:
 > and of material things from one another.”
 
 The next verse calls this fivefold difference **satya** (“real”) and **anādi**
-(“beginningless”) and calls the denial of duality the view of the unknowing.
-The noun *bhidā* is an abstract from √*bhid*, “split, distinguish”; the
-compound *jīveśvara-bhidā* is plainly a distinction *between* jīva and Īśvara,
-not merely an empirical contrast within a single self.
+(“beginningless”) and calls the doctrine “duality does not exist” the view of
+the unknowing. The noun *bhidā* is an abstract from √*bhid*, “split,
+distinguish”; the compound *jīveśvara-bhidā* is plainly a distinction
+*between* jīva and Īśvara, not merely an empirical contrast within a single
+self.
 
-Madhva makes the same thesis even more programmatically in *Mahābhārata-
-tātparya-nirṇaya* 1.67–70: Viṣṇu's qualities, jīva–Lord difference,
-jīva–jīva difference, and this world are true; the five differences are
-eternal “in all states,” explicitly including the liberated.
-
-Sources: [*Anuvyākhyāna* 1.4.110–12](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:1298) and [*Mahābhārata-tātparya-nirṇaya* 1.67–70](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_mahabharata_tatparya.txt:44).
+Source: [*Anuvyākhyāna* 1.4.110–12](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:1298).
 
 This is not a doctrine of two independent ultimates. Madhva calls Viṣṇu alone
 *svatantra* (“independent”) even in liberation, and calls the Lord the giver of
@@ -47,7 +43,38 @@ of essential nature.
 
 Sources: [*Anuvyākhyāna* 2.3.94](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2910) and [3.3.16](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:3641).
 
-## 2. The claim he directly denies
+## 2. The *Māyāvāda-khaṇḍana* makes the target explicit
+
+Madhva's short polemical treatise opens its argument with the technical
+expression **brahmātmaikya**:
+
+> *na hi brahmātmaikyasya yāthārthyaṃ tatpakṣe / advaitahāneḥ
+> svarūpātireke; anatireke svaprakāśatvād ātmanaḥ siddhasādhanatā.*
+
+> “For the factual truth of Brahman–Self identity does not obtain on that
+> position: if there is an otherness of essential nature, non-duality is lost;
+> if there is no such otherness, then, since the Self is self-luminous, the
+> claim proves what is already established.”
+
+The syntax is compressed, but the alternatives are clear. **yāthārthya** is
+“factuality” or “being as the thing truly is”; **svarūpa-atireka** is an
+otherness of essential nature; and **siddha-sādhana** is the Nyāya fault of
+trying to establish what is already established. Madhva is not here rebutting
+only the equation of an embodied ego with Viṣṇu. He asks whether a real
+*brahman–ātman* identity can be asserted at all. His answer is no: actual
+otherness yields duality; no otherness yields a redundant identity-claim.
+
+That is a serious objection to the user's ultimate formulation, but it
+contains Madhva's own framing premise: that the Advaitic claim must either
+assert an identity between terms possessing a fixed *svarūpa* or collapse into
+a tautology. An Advaitin can deny that dichotomy by treating the empirical
+*jīva* as superimposition and “Self” in *brahmātmaikya* as Brahman itself.
+Madhva's further *Anuvyākhyāna* arguments show that he explicitly rejects
+that reply; it should not be dismissed as though he had not heard it.
+
+Source: [*Māyāvāda-khaṇḍana*](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_mayavada_khandana_anandamakaranda.txt:6).
+
+## 3. The claim he directly denies
 
 Madhva states:
 
@@ -73,7 +100,7 @@ could there be non-difference?”
 
 Sources: [*Anuvyākhyāna* 2.1.85–86](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:1595) and [2.3.38–39](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2733).
 
-## 3. His strongest epistemic argument
+## 4. His strongest epistemic argument
 
 The most important passage for a realization-based Advaita is not a simple
 appeal to ordinary perception. Madhva explicitly frames the issue through the
@@ -96,6 +123,15 @@ that the very evidence Advaita needs to establish a pure witnessing self also
 discloses distinction, so Advaita cannot retain the former while cancelling the
 latter without undermining its own epistemic basis.
 
+The preceding argument prevents an easy reduction of **sākṣī** to the
+body-mind ego. Madhva says that the relevant distinctions are all objects of
+witness-cognition (*sākṣi-pratyaya-gocarāḥ*) and that, for all recognized
+practice and transaction to be possible, the one witness must be accepted as
+non-defective (*sākṣī nirdoṣa eva*). He then asks what becomes of suffering
+once this **pure** witness is established. The argument is therefore aimed at
+the enduring knowing subject as Madhva understands it—not at a merely worldly
+psychological “I.”
+
 That is a genuine argument, and it cannot fairly be described as a refutation
 only of the proposition “the ego is God.” Its force, however, depends on a
 Madhva premise: witness-cognition and scripture’s difference-statements are
@@ -108,9 +144,9 @@ does not escape it merely by renaming all difference “appearance.” It owes a
 account of why the witness’s apparent grasp of difference does not survive as a
 second reality.
 
-Source: [*Anuvyākhyāna* 2.3.63–69](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2818).
+Source: [*Anuvyākhyāna* 2.3.63–69](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2810).
 
-## 4. Madhva’s interpretation of non-difference language
+## 5. Madhva’s interpretation of non-difference language
 
 Madhva does not ignore *abheda* texts. He gives them restricted readings:
 
@@ -122,16 +158,18 @@ Madhva does not ignore *abheda* texts. He gives them restricted readings:
 > between the Lord and jīva because of likeness, primacy, and dependence—not
 > of non-difference in essential nature, ever.”
 
-**sādṛśya** is likeness; **pradhānatva** is primacy; **svātantrya** is
-independence; and **svarūpa-abhidā** is identity/non-difference of essential
-nature. This is the direct Madhva answer to an asymmetrical “all is Brahman in
-being” formulation. He can accept dependence on the independent Lord and a
-scriptural language of intimacy; he refuses the inference from dependence to
-essential non-difference.
+**sādṛśya** is likeness; **pradhānatva** is primacy; and **svātantrya** is
+independence. In **abhidām**, the initial *a-* is privative—“non-difference,”
+not the unrelated noun *abhidā* (“denotation”); the sandhi in *api cābhidām*
+does not mark the boundary. Thus **svarūpābhidā** means non-difference in
+essential nature, precisely what Madhva denies. This is the direct Madhva
+answer to an asymmetrical “all is Brahman in being” formulation. He can accept
+dependence on the independent Lord and a scriptural language of intimacy; he
+refuses the inference from dependence to essential non-difference.
 
 Source: [*Anuvyākhyāna* 2.3.67–70](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2824).
 
-## 5. Direct realization does not remove the disagreement
+## 6. Direct realization does not remove the disagreement
 
 Madhva explicitly permits immediate realization: *āparokṣyaṃ bhaved viṣṇoḥ*
 (“there is immediate realization of Viṣṇu”) through steadfast devotion and
@@ -142,6 +180,32 @@ knowledge that is devotional, immediate, and non-illusory without becoming
 identity.
 
 Source: [*Anuvyākhyāna* 3.3.1–4](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:3595).
+
+## 7. The precise point of collision with Śaṅkara
+
+Śaṅkara's own argument is not the claim that an independent empirical ego is
+Viṣṇu. In *Brahma-sūtra-bhāṣya* 2.1.14, he says that the effect-world is
+ultimately non-other than its cause because it is absent apart from the cause
+(*kāraṇāt … ananyatvaṃ vyatirekeṇa abhāvaḥ kāryasya*); a modification has no
+separate entity-status in the way a pot does over and above clay. In the same
+discussion, Śaṅkara makes the non-negotiable limit explicit: unity alone is
+ultimately real; plurality is the expansion of false cognition. His
+*Chāndogya* commentary then gives the formula most relevant here: all name and
+form is true **with Sat as its Self** (*sadātmanā*), while as other than Sat it
+is untrue (*sato ’nyatvena anṛtatvam*).
+
+Sources: [Śaṅkara on *Brahma-sūtra* 2.1.14](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt:2426) and [Śaṅkara on *Chāndogya* 6.3.2](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedic/chandogya_upanisad_gretil.txt:6914).
+
+That is a real Advaitic answer to Madhva, not a change of subject. But Madhva
+has a reply to exactly its mechanism: he argues that sublation (*bādha*) cannot
+establish non-being, because only something existing can be sublated—“a barren
+woman's son is not killed; Yajñadatta is killed.” The two systems thus differ
+at the level of what sublation and dependence can establish. Śaṅkara infers
+non-otherness from the effect's lack of a separate being; Madhva infers the
+reality of a dependent difference from the very cognition that Advaita calls
+sublatable. Neither inference follows from a neutral grammatical fact alone.
+
+Source: [*Anuvyākhyāna* 2.3.44–48](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2754).
 
 ## Finding
 
