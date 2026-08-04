@@ -229,6 +229,27 @@ unintelligible.
 
 Sources: [*Anuvyākhyāna* 2.2.217–21](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2351) and [2.3.42–43](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2745).
 
+## 9. Non-objectification is not an easy escape from Madhva
+
+Madhva also blocks the thought that *bheda* applies only to two already
+objectified things. He writes: *svarūpaṃ vastuno bhedo yanna tasya grahe
+grahaḥ*—difference is the essential nature of a thing; without it, the thing
+is not grasped in being grasped. This is a thesis about what a thing is, not
+only about a relation subsequently imposed by a finite knower. On Madhva's
+account, the jīva–Īśvara distinction therefore survives the removal of bodily
+identification and the purification of knowing.
+
+The user’s appeal to a non-objectifying Self is still a coherent Advaitic
+move: it denies that the final Self is one more object with a bounded
+*svarūpa*. But it is not a point Madhva simply overlooks. His contention is
+that an alleged consciousness without real differentiating character cannot
+support cognition, scripture, or liberation. The dispute is now exactly
+located: Advaita denies that final reality is a set of distinct *vastu*s at
+all; Madhva affirms that difference is intrinsic to the real jīva and Lord,
+including the liberated knower.
+
+Source: [*Anuvyākhyāna* 2.2.222–26](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt:2368).
+
 ## Finding
 
 Madhva does **not** refute the limited claim that the empirical agent is not
