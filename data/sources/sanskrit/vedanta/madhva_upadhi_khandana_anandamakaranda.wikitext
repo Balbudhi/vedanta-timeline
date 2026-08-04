@@ -1,0 +1,50 @@
+<div class="gr-doc-title" data-has-moola="1" data-has-ullekha="1">उपाधिखण्डनम्</div>
+__TOC__
+
+<span id="gr-C1" class="gr-toc-anchor" data-level="1" data-title="उपाधिखण्डनम्"></span>
+== उपाधिखण्डनम् ==
+<div class="verse-block" id="UK_C01_V01" data-block-id="UK_C01_V01" data-doc="UK" data-chapter="UK_C01" data-verse-type="shloka"><span class="shloka-block"><span class="shloka-line">नारायणोऽगण्यगुणनित्यैकनिलयाकृतिः ।</span><span class="shloka-line">अशेषदोषरहितः प्रीयतां कमलालयः ॥1॥</span></span></div>
+
+<div class="bhashyam-block" id="UK_C01_B01" data-verse="UK_C01" data-block-id="UK_C01_B01">अज्ञताऽखिलसंवेत्तुर्घटते न कुतश्चन ।<br/> उपाधिभेदाद्धटत इति चेत् स स्वभावतः ॥2॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B02" data-verse="UK_C01" data-block-id="UK_C01_B02">अज्ञानतो वा द्वैतस्य सत्यता स्वत एव चेत् ।<br/> अनवस्थितिरज्ञानहेतौ वाऽन्योन्यसिद्धिता ॥3॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B03" data-verse="UK_C01" data-block-id="UK_C01_B03">चक्रकापत्तिरथवा भेदश्चोपाधितः कुतः ।<br/> विद्यमानस्य भेदस्य ज्ञापको नैव कारकः ॥4॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B04" data-verse="UK_C01" data-block-id="UK_C01_B04">उपाधिर्दृष्टपूर्वो हि खेऽपि देशान्तरस्य सः ।<br/> ज्ञापको विद्यमानस्य मूढबुद्धिव्यपेक्षया ॥5॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B05" data-verse="UK_C01" data-block-id="UK_C01_B05">न चेदुपाधिसम्बन्ध एकदेशेऽथ सर्वगः ।<br/> एकदेशेऽनवस्था स्यात् सर्वगश्चेन्न भेदकः ॥6॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B06" data-verse="UK_C01" data-block-id="UK_C01_B06">सुखदुःखादिभोगश्च स्वरूपैक्ये न भेदतः ।<br/> दृश्यो ह्युपाधिभेदेऽपि हस्तपादादिगो यथा ॥7॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B07" data-verse="UK_C01" data-block-id="UK_C01_B07">नानादेहगभोगानुसन्धानं योगिनो यथा ।<br/> न चेद्भोगानुसन्धानं तदिच्छा योगिनः कुतः ॥8॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B08" data-verse="UK_C01" data-block-id="UK_C01_B08">अनुसन्धानरहितदेहबाहुल्यमन्यथा ।<br/> सिद्धमेव हि तत्पक्षे विशेषो योगिनः कुतः ॥9॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B09" data-verse="UK_C01" data-block-id="UK_C01_B09">सिद्धौ हि कर्मभेदस्य स्यादुपाधिविभिन्नता ।<br/> तत्सिद्धौ चैव तत्सिद्धिरित्यन्योन्यव्यपाश्रयः ॥10॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B10" data-verse="UK_C01" data-block-id="UK_C01_B10">आत्मस्वभावभेदस्य विदोषत्वेन चाखिलः ।<br/> प्रत्यक्षादिविरोधाच्च दुष्टः पक्षोऽयमञ्जसा ॥11॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B11" data-verse="UK_C01" data-block-id="UK_C01_B11">चेष्टालिङ्गेन सात्मत्वे परदेहस्य साधिते ।<br/> अन्यत्वं स्वात्मनस्तस्मात् सर्वैरेवानुभूयते ॥12॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B12" data-verse="UK_C01" data-block-id="UK_C01_B12">अज्ञता चाल्पशक्तित्वं दुःखित्वं स्वल्पकर्तृता ।<br/> सर्वज्ञतादीशगुणविरुद्धा ह्यनुभूतिगाः ॥13॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B13" data-verse="UK_C01" data-block-id="UK_C01_B13">सार्वज्ञादिगुणा विष्णोः श्रुतिषु प्रतिपादिताः ।<br/> <span class="gr-blockquote"><span class="gr-reference gr-ref-Rigveda-id">‘सत्यः सो अस्य महिमे’(ऋ.सं.८.३.४)</span></span>त्यादिवाक्यान्मृषा न च ॥14॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B14" data-verse="UK_C01" data-block-id="UK_C01_B14">न च वेदोक्तमिथ्यात्वे मानं तन्मानताऽपि न ।<br/> अतोऽज्ञासम्भवादेव नाधिकार्यैक्यवादिनाम् ॥15॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B15" data-verse="UK_C01" data-block-id="UK_C01_B15">अतो नाज्ञातमिति च विषयो विषयान्तरे ।<br/> अज्ञाभावात् फलं कस्य योगः शशनृशृङ्गयोः ॥16॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B16" data-verse="UK_C01" data-block-id="UK_C01_B16">दुर्घटत्वं भूषणं चेत् स्यादविद्यात्वमात्मनः ।<br/> अन्धन्तमोऽप्यलङ्कारो नित्यदुःखं शिरोमणिः ॥17॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B17" data-verse="UK_C01" data-block-id="UK_C01_B17">अतो <span class="gr-blockquote"><span class="gr-reference gr-ref-Rigveda-id">‘परो मात्रये’(ऋ.सं.७.९९)</span></span>ति पूर्वश्रुतिनिदर्शितः ।<br/>  <span class="gr-blockquote"><span class="gr-reference gr-ref-Shwetashwatropanishat-id">‘अन्यमीश’(श्वे.उ.४.७)</span></span>मिति श्रुत्या भिन्नजीवदृशं गतः ॥ भिन्नत्वेनात्मसादृश्यदो <span class="gr-blockquote"><span class="gr-reference gr-ref-Atharvanopanishat-id">‘यदे’(आथ.उ.३.१.३)</span></span>ति श्रुतेः सदा ॥18॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B18" data-verse="UK_C01" data-block-id="UK_C01_B18">मायावादतमोव्याप्तमिति तत्त्वदृशा जगत् ।<br/> भातं सर्वज्ञसूर्येण प्रीतये श्रीपतेः सदा ॥19॥</div>
+
+<div class="bhashyam-block" id="UK_C01_B19" data-verse="UK_C01" data-block-id="UK_C01_B19">नमोऽमन्दनिजानन्दसान्द्रसुन्दरमूर्तये ।<br/> इन्दिरापतये नित्याऽनन्दभोजनदायिने ॥20॥</div>
+
+<div class="gr-author-note">इति श्रीमदानन्दतीर्थभगवत्पादाचार्यविरचितम् उपाधिखण्डनं समाप्तम् ॥</div>
+
+
+[[Category:Sanskrit Documents]]
+[[Category:Upadhikhandanam]]
