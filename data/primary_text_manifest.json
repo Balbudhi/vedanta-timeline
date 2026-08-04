@@ -1052,6 +1052,20 @@
       "work_id": "bhamati"
     },
     {
+      "path": "sanskrit/vijnanabhiksu/vijnanabhiksu_samkhya_pravacana_bhasya_dli_scan.pdf",
+      "language": "sanskrit",
+      "category": "vijnanabhiksu",
+      "title": "Sāṃkhya Darśana with Pravacana Bhāṣya of Vijñānabhikṣu (DLI page-image scan)",
+      "edition": "DLI page-image witness; source identifier has not yet been independently recovered",
+      "format": "image-pdf-scan",
+      "thinker_id": "vijnanabhiksu",
+      "work_id": "sankhya-pravacana-bhasya",
+      "source_url": "UNKNOWN; migrated from the documented acquisition workspace on 2026-08-04",
+      "verification_status": "scan-on-disk; clean OCR and bibliographical identification needed",
+      "size_bytes": 20387969,
+      "line_count": 0
+    },
+    {
       "path": "sanskrit/vijnanabhiksu/vijnanabhiksu_samkhya_pravacana_bhasya_kashi_scan_compressed.pdf",
       "language": "sanskrit",
       "category": "vijnanabhiksu",
