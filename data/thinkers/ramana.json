@@ -35,9 +35,9 @@
       ],
       "composition_dates_low": 1902,
       "composition_dates_high": 1923,
-      "composition_dates_notes": "Originating c. 1902 as written answers to questions put by the devotee Sivaprakasam Pillai; later edited by Ramaṇa himself into a continuous essay (the essay recension is the standard form).",
+      "composition_dates_notes": "Originating c. 1902 as written answers to questions put by the devotee Sivaprakasam Pillai. The Ramanasramam edition records thirteen-answer, twenty-eight-answer, and continuous-essay recensions; the precise editorial relation among them requires text-critical documentation.",
       "ascription_tier": "securely-authored",
-      "ascription_notes": "Securely authored: the answers are Ramaṇa's own, and the essay form was prepared and approved by him.",
+      "ascription_notes": "The early answers are represented as Ramaṇa's written replies. The later recensional history should be kept distinct from direct composition: the Ramanasramam edition calls the question-and-answer material recollected and recorded by Sivaprakasam Pillai and does not, by itself, establish the authorship of every editorial arrangement.",
       "ascription_evidence": [
         {
           "kind": "manuscript-tradition",
@@ -47,7 +47,7 @@
       "genre": "prakarana",
       "language": "tamil",
       "summary": "A short Tamil prose teaching on self-enquiry, framed as answers to a seeker. The method is stated directly: all knowledge and all activity rest on the sense \"I\"; therefore one should not pursue the objects of thought but enquire into the \"I\" itself — \"Who am I?\" — tracing the \"I\"-thought (*ahaṃ-vṛtti*) to its source. As the enquiry holds, other thoughts subside; when the \"I\"-thought itself is sought, it too subsides, and the Self (*ātman*) remains as that from which the \"I\" arose. The text describes the practice negatively (the \"I\" is not the body, the senses, the breath, or the mind) and positively (the residue is pure awareness), and treats this enquiry as itself the direct means, with breath-control and other disciplines as auxiliaries. It is the most cited prose statement of Ramaṇa's ātma-vicāra.",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "primary-text-private-witness",
       "key_passage_ids": [],
       "entry_status": "draft"
     },
@@ -74,7 +74,7 @@
       "genre": "verse-summary",
       "language": "tamil",
       "summary": "Forty Tamil verses (with a forty-verse supplement) on \"that which is\" (*ulladu*, *sat*) — the doctrinal core of Ramaṇa's teaching in verse. The opening establishes that reality (*sat*) alone is, that being and awareness are not two, and that the world, the seer, and the seen all depend on a prior \"I.\" The verses argue that the ego (the \"I\"-thought) is the knot binding the conscious Self to the inert body, that it rises and sets while the Self neither rises nor sets, and that to seek the source of this rising \"I\" is to be established as the Self. Liberation is therefore not the gaining of a new state but the cessation of the false \"I\" and abidance as the reality that always is. The work is the most compressed statement of the metaphysics that *Nāṉ Yār?* presents as method; it is widely studied in the Sanskrit rendering Saddarśanam.",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "primary-text-private-witness",
       "key_passage_ids": [],
       "entry_status": "draft"
     },
@@ -90,7 +90,7 @@
       "composition_dates_high": 1927,
       "composition_dates_notes": "Composed in 1927; the Tamil form is Upadeśa Undiyār and a Sanskrit form circulates as Upadeśa Sāram (thirty verses).",
       "ascription_tier": "securely-authored",
-      "ascription_notes": "Securely authored by Ramaṇa in Tamil (Upadeśa Undiyār), with a Sanskrit version (Upadeśa Sāram) also attributed to him in the āśrama tradition.",
+      "ascription_notes": "The source witness presents the Sanskrit as Ramaṇa's own rendering of the Tamil Upadeśa Undiyār. Its retained historical note says that the Tamil verse 30 was composed by Murugaṇār; detailed verse-by-verse compositional history should therefore be documented rather than assumed uniform.",
       "ascription_evidence": [
         {
           "kind": "manuscript-tradition",
@@ -100,8 +100,11 @@
       "genre": "verse-summary",
       "language": "sanskrit",
       "summary": "Thirty verses on \"the essence of instruction,\" arranged as a graded path. The opening verses treat ritual action (*karma*) as fruit-bound and unable in itself to liberate, then rank devotion, breath-control, and meditation as progressively interior disciplines that purify and steady the mind. The argument then turns inward: mental japa and one-pointed meditation lead to the enquiry into the source of the mind, and the source of the mind is the \"I.\" Seeking whence the \"I\" arises, the \"I\"-sense subsides and there shines the Self as \"I-I\" (*ahaṃ-sphuraṇa*); this abidance, in which knower, knowing, and known are one, is liberation. The work situates Ramaṇa's ātma-vicāra within the classical sequence of *karma*, *bhakti*, and *yoga*, presenting self-enquiry as their consummation rather than their rival.",
-      "source_status": "primary-text-not-in-corpus",
-      "key_passage_ids": [],
+      "source_status": "primary-text-private-witness",
+      "key_passage_ids": [
+        "upadesa-saram-19",
+        "upadesa-saram-20-27"
+      ],
       "entry_status": "draft"
     },
     {
