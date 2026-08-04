@@ -26,10 +26,16 @@ ontological dependence.” That conclusion requires a separate argument.
 | *Śrī Śrī Māyer Kathā*, DLI/Internet Archive scan | Bengali; public page-image witness | Present citation and edition control. The Internet Archive OCR is useful for locating candidate pages, but contains errors and is not a quotation witness. |
 | RKMVU *Mayer Katha* web transcription | Bengali; private discovery copy | **Do not quote.** It labels itself AI-assisted, and its extracted plaintext has encoding corruption. It remains only to find a possible passage for verification in the scan or a future verified edition. |
 
-No verified clean Bengali transcription of Sarada Devi is currently committed.
-That absence is recorded rather than covered by a silent machine-OCR
-substitution. A Sarada quotation in a published analytical article must be
-transcribed from the page image, cite its edition/page, and be independently
+No complete verified clean Bengali transcription of Sarada Devi is currently
+committed. That absence is recorded rather than covered by a silent
+machine-OCR substitution. A page-image check has nevertheless verified one
+frequently relevant line: when a visitor says that Mother appears “deeply bound
+by māyā,” the printed *Māyer Kathā* records her quiet reply, **“কি করব, মা,
+নিজেই মায়া”** (“What can I do, child? [I am] Māyā itself”), p. 233. This is a
+mediated record within a disciple-compiled volume, not an unmediated writing
+by Sarada Devi; it establishes the transmitted Bengali wording, not a complete
+metaphysical theory. Any additional Sarada quotation must likewise be
+transcribed from the page image, cited by edition/page, and independently
 checked before use.
 
 ## Vivekananda
@@ -37,7 +43,16 @@ checked before use.
 | Witness | Language and status | Proper use |
 |---|---|---|
 | *Complete Works*, vols. 1–9 | English; public, searchable local text captures | Full English working corpus. Each file names its portal volume source and retained page routes; cite the volume, work/lecture/letter, and local line/page route. |
-| *Bāṇī o Racanā* | Bengali | Not yet held as a verified local edition. It may not be silently replaced with an English *Complete Works* passage when the claim concerns Bengali wording. |
+| *Svāmī Vivekānander Bāṇī o Racanā*, vols. 1–10 | Bengali; private clean Unicode HTML and plain-text working corpus captured from the RKMVU host | A controlled Bengali transmission witness with volume and section headings. It may locate and quote Bengali composition or Bengali editorial translation, but an English lecture or letter in Bengali translation must still be checked against its English original where wording is at issue. |
+
+The corpus contains material directly relevant to the current question, but it
+does not license a flattening of Vivekananda into a single doctrinal slogan.
+For example, a letter in volume 8 says that the same Being appears as inert
+matter to ignorance and as God to knowledge, and that the knower sees the
+formless in form. Another letter gives devotional language of complete
+belonging to God. These are passages to be analysed with their addressee,
+date, genre, and original English control where applicable—not free-standing
+proof-texts for either an acosmic or an equal-parity doctrine.
 
 ## Required discipline
 
