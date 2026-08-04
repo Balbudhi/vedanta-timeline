@@ -1,0 +1,28 @@
+{
+  "id": "devasena-jaina",
+  "name": "Devasena",
+  "name_iast": "Devasena",
+  "alternate_names": ["Devasena Bhaṭṭāraka", "Jaina Devasena"],
+  "dates_low": 850,
+  "dates_high": 950,
+  "dates_tier": "reconstructed",
+  "dates_notes": "The author is conventionally placed in the late ninth or tenth century. The dating and biographical identifications depend on colophons and later Digambara tradition and remain provisional.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara doxography",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Devasena is significant for Digambara self-description and historical classification. His works organize doctrinal categories, ascetic practice, and accounts of Jaina subtraditions, providing evidence for how medieval Jains understood their own internal diversity.",
+  "engaged_works": [
+    {"work_id":"darsanasara-devasena","title":"Darsanasara","title_iast":"Darśanasāra","ascription_tier":"securely-authored","ascription_notes":"Traditionally and generally ascribed to Devasena, though detailed historical claims in the text require independent source criticism.","genre":"doxography","language":"prakrit","source_status":"primary-text-not-in-corpus","summary":"A concise account of Jaina sects and lineages. It is indispensable evidence for medieval Digambara sectarian memory but should not be used as an uncritical record of early history.","key_passage_ids":[],"entry_status":"draft"},
+    {"work_id":"bhavasangraha","title":"Bhavasangraha","title_iast":"Bhāvasaṃgraha","ascription_tier":"traditionally-ascribed","ascription_notes":"Attributed to Devasena in Digambara transmission; work-level attribution should be checked against a critical edition before reader implementation.","genre":"prakarana","language":"prakrit","source_status":"primary-text-not-in-corpus","summary":"A compendious treatment of Jaina categories and spiritual states. It is included provisionally as a source for Devasena's doctrinal reception, not as a basis for unverified quotations.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

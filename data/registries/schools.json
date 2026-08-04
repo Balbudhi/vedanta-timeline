@@ -84,6 +84,19 @@
     ],
     "short_description": "Non-difference-without-identity: Vijñānabhikṣu's harmonizing thesis that Brahman and world are inseparable yet not numerically one."
   },
+  "purna-advaita": {
+    "display_name": "Pūrṇa-Advaita / Integral Yoga",
+    "aliases": ["Pūrṇa-Advaita"],
+    "color_hex": "#0f766e",
+    "color_palette": [
+      "#ccfbf1",
+      "#5eead4",
+      "#2dd4bf",
+      "#0f766e",
+      "#134e4a"
+    ],
+    "short_description": "Sri Aurobindo's modern integral reading of Advaita, in which the supramental transformation of life and matter is integral to spiritual realization."
+  },
   "proto": {
     "display_name": "Proto-Vedānta",
     "color_hex": "#6b7280",
@@ -120,8 +133,33 @@
     ],
     "short_description": "The dualist Kashmirian Saiddhāntika tradition (Sadyojyotis, Bhaṭṭa Rāmakaṇṭha): pati, paśu, and pāśa as three eternally distinct realities, defended against the non-dual Pratyabhijñā position; distinct from the southern Tamil Śaiva-Siddhānta."
   },
+  "saiva-siddhanta-comparator": {
+    "display_name": "Śaiva Siddhānta",
+    "color_hex": "#9a3412",
+    "color_palette": [
+      "#ffedd5",
+      "#fdba74",
+      "#f97316",
+      "#9a3412",
+      "#431407"
+    ],
+    "short_description": "The pan-regional Śaiva Siddhānta traditions of Sanskrit ritual theology and Tamil Meykaṇṭār scholasticism, organized around Śiva (pati), the bound soul (paśu), and its bonds (pāśa); distinct from the dualist Kashmirian Saiddhāntika line represented separately."
+  },
+  "sivadvaita-comparator": {
+    "display_name": "Śivādvaita",
+    "color_hex": "#7e22ce",
+    "color_palette": [
+      "#f3e8ff",
+      "#d8b4fe",
+      "#a855f7",
+      "#7e22ce",
+      "#3b0764"
+    ],
+    "short_description": "Śaiva readings of Vedānta, especially the tradition associated with Śrīkaṇṭha and later Appayya Dīkṣita, that identify Vedāntic Brahman with Śiva while giving Śakti a constitutive role in manifestation."
+  },
   "shakta-srividya": {
     "display_name": "Śākta — Śrīvidyā",
+    "aliases": ["Śākta · Śrīvidyā"],
     "color_hex": "#be185d",
     "color_palette": [
       "#fce7f3",
@@ -134,6 +172,7 @@
   },
   "shakta-kalakula": {
     "display_name": "Śākta — Krama / Kālīkula",
+    "aliases": ["Śākta · Krama / Kālīkula"],
     "color_hex": "#9d174d",
     "color_palette": [
       "#fbcfe8",
@@ -216,6 +255,30 @@
     ],
     "short_description": "Pātañjala-Yoga: the praxis-darśana that holds the Sāṅkhya twenty-five-tattva ontology within an eight-limbed disciplinary frame, admits īśvara as a special puruṣa, and supplies the standard pre-modern phenomenology of samādhi inherited by every Vedāntic school."
   },
+  "nath-hatha-comparator": {
+    "display_name": "Nāth–Haṭha Yoga",
+    "color_hex": "#0369a1",
+    "color_palette": [
+      "#e0f2fe",
+      "#7dd3fc",
+      "#38bdf8",
+      "#0369a1",
+      "#082f49"
+    ],
+    "short_description": "The Nāth and Haṭha-yoga textual traditions, represented here as comparators for their accounts of body, breath, practice, and liberation rather than as a single uniform philosophical school."
+  },
+  "rasesvara-comparator": {
+    "display_name": "Raseśvara / Rasaśāstra",
+    "color_hex": "#a16207",
+    "color_palette": [
+      "#fef3c7",
+      "#fcd34d",
+      "#f59e0b",
+      "#a16207",
+      "#451a03"
+    ],
+    "short_description": "Alchemical traditions in which mercurial and bodily transformation can be linked to liberation; represented through textual positions rather than an assumed continuous institutional lineage."
+  },
   "vaisesika-comparator": {
     "display_name": "Vaiśeṣika",
     "color_hex": "#6d28d9",
@@ -240,8 +303,72 @@
     ],
     "short_description": "The Jaina tradition: anekānta-vāda, syād-vāda, and the two-naya structure (vyavahāra/niścaya) whose formal parallel with the Advaita vyāvahārika/pāramārthika distinction is structurally instructive and is engaged at Brahma-Sūtra-Bhāṣya 2.2.33–36."
   },
+  "ajivika-comparator": {
+    "display_name": "Ājīvika",
+    "aliases": ["Ajivika"],
+    "color_hex": "#0f766e",
+    "color_palette": [
+      "#ccfbf1",
+      "#5eead4",
+      "#2dd4bf",
+      "#0f766e",
+      "#134e4a"
+    ],
+    "short_description": "An early śramaṇa movement known principally through Buddhist and Jaina reports, associated with Makkhali Gosāla and a strong doctrine of niyati (necessity); its own textual corpus is not extant."
+  },
+  "pudgalavada-comparator": {
+    "display_name": "Pudgalavāda",
+    "color_hex": "#9a3412",
+    "color_palette": [
+      "#ffedd5",
+      "#fdba74",
+      "#f97316",
+      "#9a3412",
+      "#431407"
+    ],
+    "short_description": "Buddhist person-theory traditions that sought to account for continuity and karmic responsibility without treating the person as identical with, or wholly separate from, the aggregates."
+  },
+  "mahasamghika-comparator": {
+    "display_name": "Mahāsāṃghika–Lokottaravāda",
+    "aliases": ["Mahāsāṃghika-Lokottaravāda"],
+    "color_hex": "#be123c",
+    "color_palette": [
+      "#ffe4e6",
+      "#fda4af",
+      "#fb7185",
+      "#be123c",
+      "#4c0519"
+    ],
+    "short_description": "Early Buddhist traditions represented chiefly by the Lokottaravāda *Mahāvastu*, whose hagiographic and doctrinal materials preserve a distinctive account of the Buddha's transmundane status."
+  },
+  "alankara-comparator": {
+    "display_name": "Alaṅkāra / Sanskrit poetics",
+    "aliases": ["Alaṅkāra", "Alaṅkāra / Poetics"],
+    "color_hex": "#a21caf",
+    "color_palette": [
+      "#fae8ff",
+      "#f0abfc",
+      "#e879f9",
+      "#a21caf",
+      "#4a044e"
+    ],
+    "short_description": "Sanskrit traditions of literary theory and poetics, included where their accounts of language, meaning, suggestion, and aesthetic experience illuminate the intellectual setting shared with philosophical debate."
+  },
+  "vyakarana-comparator": {
+    "display_name": "Vyākaraṇa",
+    "color_hex": "#0e7490",
+    "color_palette": [
+      "#cffafe",
+      "#67e8f9",
+      "#22d3ee",
+      "#0e7490",
+      "#083344"
+    ],
+    "short_description": "The Sanskrit grammatical tradition, included as a comparator for its theories of linguistic form, sentence meaning, and the relation of language to knowledge."
+  },
   "carvaka-comparator": {
     "display_name": "Cārvāka / Lokāyata",
+    "aliases": ["Cārvāka"],
     "color_hex": "#57534e",
     "color_palette": [
       "#f5f5f4",
@@ -314,6 +441,7 @@
   },
   "tathagatagarbha-comparator": {
     "display_name": "Tathāgatagarbha / Buddha-nature",
+    "aliases": ["Tathāgatagarbha"],
     "color_hex": "#0e7490",
     "color_palette": [
       "#cffafe",
@@ -338,6 +466,7 @@
   },
   "pancaratra-comparator": {
     "display_name": "Pāñcarātra (Vaiṣṇava-Tantric comparator)",
+    "aliases": ["Pāñcarātra"],
     "color_hex": "#1e40af",
     "color_palette": [
       "#dbeafe",
@@ -350,6 +479,7 @@
   },
   "virashaiva-comparator": {
     "display_name": "Vīraśaiva (Bhakti-tradition comparator)",
+    "aliases": ["Vīraśaiva"],
     "color_hex": "#831843",
     "color_palette": [
       "#fce7f3",

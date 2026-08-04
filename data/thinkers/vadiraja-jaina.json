@@ -1,0 +1,27 @@
+{
+  "id": "vadiraja-jaina",
+  "name": "Vādirāja",
+  "name_iast": "Vādirāja",
+  "alternate_names": ["Vādirāja Sūri", "Jaina Vādirāja"],
+  "dates_low": 1000,
+  "dates_high": 1100,
+  "dates_tier": "reconstructed",
+  "dates_notes": "Usually placed in the eleventh century from the Akalaṅka commentarial tradition. This Digambara author must be distinguished from later Mādhva Vādirājas.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara Jaina Logic",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Vādirāja continues the Digambara logical tradition through an extended exposition of Akalaṅka's theory of valid cognition. His contribution is to clarify and transmit Jaina epistemology in a debate-facing scholastic idiom rather than to found a separate doctrinal school.",
+  "engaged_works": [
+    {"work_id":"nyaya-viniscaya-vivarana","title":"Nyaya-Viniscaya-Vivarana","title_iast":"Nyāya-Viniścaya-Vivaraṇa","ascription_tier":"securely-authored","ascription_notes":"Securely transmitted as Vādirāja's commentary on Akalaṅka's *Nyāya-Viniścaya*.","genre":"tika","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A detailed commentary on Akalaṅka's treatment of perception, inference, and testimony. It is an important source for the mature Digambara reading of Jaina pramāṇa theory and its disputes with Buddhist epistemology.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

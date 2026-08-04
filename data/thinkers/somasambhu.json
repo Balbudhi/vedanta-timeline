@@ -1,0 +1,39 @@
+{
+  "id": "somasambhu",
+  "name": "Somasambhu",
+  "name_iast": "Somaśambhu",
+  "alternate_names": ["Somaśambhu Śivācārya"],
+  "dates_low": 1050,
+  "dates_high": 1125,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Usually placed in the late eleventh century; later Śaiva manuals cite and adapt his ritual synthesis.",
+  "school": "Śaiva Siddhānta",
+  "school_color_token": "saiva-siddhanta-comparator",
+  "sub_school": "Sanskrit Śaiva Siddhānta — ritual theology",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Somaśambhu's *Kriyākāṇḍakramāvalī* is a major Sanskrit Śaiva Siddhānta synthesis of ritual procedure. It treats regular, occasional, and goal-directed rites, including initiation, consecration, and installation, within a Śaiva theological order. The work's historical importance is not a claim that ritual is philosophically secondary: it is a key witness to the way Siddhānta integrated doctrine, initiation, and temple or domestic practice. Later manuals drew extensively on it.",
+  "engaged_works": [
+    {
+      "work_id": "kriyakandakramavali",
+      "title": "Kriyakandakramavali",
+      "title_iast": "Kriyākāṇḍakramāvalī",
+      "alternate_titles": ["Karmakāṇḍakramāvalī", "Somaśambhupaddhati"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely transmitted as Somaśambhu's ritual manual; later commentary and manuscript traditions also call it the *Somaśambhupaddhati*.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A large Śaiva Siddhānta ritual manual that orders daily worship, initiation, installation, expiation, and related procedures. It has received a multi-volume critical edition, translation, and annotation, but no verified local primary-text witness is linked here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "shaiva-shakta-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "shaiva-shakta-implementation"
+}

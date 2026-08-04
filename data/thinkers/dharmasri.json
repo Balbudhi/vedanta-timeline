@@ -1,0 +1,27 @@
+{
+  "id": "dharmasri",
+  "name": "Dharmaśrī",
+  "name_iast": "Dharmaśrī",
+  "alternate_names": ["Dharmaśreṣṭhin", "Fa-sheng"],
+  "dates_low": 150,
+  "dates_high": 300,
+  "dates_tier": "reconstructed",
+  "dates_notes": "The author predates the fourth-century Chinese translation of the work. Modern identifications and chronological estimates vary, and no date should be read as biographically secure.",
+  "school": "Cross-tradition",
+  "school_color_token": "sarvastivada-comparator",
+  "sub_school": "Sarvāstivāda Abhidharma",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Dharmaśrī's *Abhidharmahṛdaya* is an early systematic Sarvāstivāda manual. It organizes the school’s analysis of dharmas, causation, practice, and liberation in a compact form that became an important background for later Abhidharma compendia, including the *Kośa* tradition.",
+  "engaged_works": [
+    {"work_id":"abhidharmahrdaya","title":"Abhidharmahrdaya","title_iast":"Abhidharmahṛdaya","alternate_titles":["Abhidharmahṛdaya-śāstra","Apitan xin lun"],"ascription_tier":"securely-authored","ascription_notes":"The work is transmitted under Dharmaśrī's name. Its Sanskrit original is lost; an early Chinese translation is extant, and later expanded recensions must not be conflated with the base work.","genre":"prakarana","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A concise Sarvāstivāda Abhidharma treatise, traditionally counted at 250 verses, covering doctrinal categories, paths, and meditative attainment. The original survives only through Chinese translation, making it a recoverable translated primary source rather than an on-disk Sanskrit text.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

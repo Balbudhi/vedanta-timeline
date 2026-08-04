@@ -1,0 +1,31 @@
+{
+  "id": "udbhata-carvaka",
+  "name": "Udbhata",
+  "name_iast": "Udbhaṭa",
+  "alternate_names": [
+    "Udbhaṭabhaṭṭa"
+  ],
+  "dates_low": 700,
+  "dates_high": 900,
+  "dates_tier": "contested",
+  "dates_notes": "The Cārvāka Udbhaṭa should not be conflated with the better documented Sanskrit poetician of the same name. The proposed early-medieval placement and the connection to a Tattvavṛtti are based on fragmentary later preservation.",
+  "school": "Cārvāka / Lokāyata",
+  "school_color_token": "carvaka-comparator",
+  "sub_school": "Cārvāka / Lokāyata (fragmentary)",
+  "sub_school_shade": 2,
+  "entity_kind": "historical_author",
+  "evidence_basis": "Fragments and reports attributed to a Cārvāka Tattvavṛtti in later philosophical sources.",
+  "own_corpus_survival": "No independent text survives; attributed fragments require source-by-source verification.",
+  "reconstruction_confidence": "low",
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Udbhaṭa is a fragmentarily preserved Cārvāka thinker whose attributed *Tattvavṛtti* is reported to rework questions about valid means of knowledge, objects of knowledge, and the relation of consciousness to the body. The importance of the attribution is historical rather than systematic: it indicates that Lokāyata debates included internal revisions and technical responses, not only a single fixed slogan about perception. Because the text survives only through later preservation and the name is shared with other authors, this entry makes no claim beyond the recoverable fragmentary position.",
+  "engaged_works": [],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "source_status": "fragments-cited-voice",
+  "entry_owner_agent": "early-teachers-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "early-teachers-implementation"
+}

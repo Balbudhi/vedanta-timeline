@@ -1,0 +1,53 @@
+{
+  "id": "sivagrayogin",
+  "name": "Sivagrayogin",
+  "name_iast": "Śivāgrayogin",
+  "alternate_names": ["Śivāgra Yogin", "Śivāgrayogīndra Jñānaśivācārya"],
+  "dates_low": 1500,
+  "dates_high": 1600,
+  "dates_tier": "contested",
+  "dates_notes": "Usually assigned to sixteenth-century South India, but the available biographical notices and manuscript evidence do not justify a more precise date range here.",
+  "school": "Śaiva Siddhānta",
+  "school_color_token": "saiva-siddhanta-comparator",
+  "sub_school": "Sanskrit and Tamil Śaiva Siddhānta — technical exposition",
+  "sub_school_shade": 5,
+  "lineage_in": ["meykantar", "arulnandi-sivacarya"],
+  "lineage_out": [],
+  "core_thesis": "Śivāgrayogin is a South Indian Śaiva Siddhānta author who composed Sanskrit and Tamil expositions of the Meykaṇṭār tradition. His *Śaivaparibhāṣā* organizes its technical vocabulary and categories, while his Sanskrit commentary on *Śivajñānabodham* relates the Tamil foundational work to wider āgamic materials. His importance lies in this conceptual and bilingual mediation: he supplies later scholastic readers with a technical map of Siddhānta rather than founding a separate system.",
+  "engaged_works": [
+    {
+      "work_id": "saiva-paribhasa",
+      "title": "Saiva-paribhasa",
+      "title_iast": "Śaivaparibhāṣā",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The text is securely transmitted under Śivāgrayogin's name and has been edited and translated.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit manual in five sections that defines and orders key Śaiva Siddhānta technical terms and categories. A modern edition and English translation exist; no verified local primary-text witness has been linked here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    },
+    {
+      "work_id": "sivajnana-bodha-bhasya",
+      "title": "Sivajnana-bodha-bhasya",
+      "title_iast": "Śivajñānabodha-bhāṣya",
+      "alternate_titles": ["Śivāgra-bhāṣya"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standardly transmitted as Śivāgrayogin's extensive Sanskrit commentary on Meykaṇṭār's *Śivajñānabodham*.",
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An extensive Sanskrit commentary on Meykaṇṭār's Tamil *Śivajñānabodham*. It is significant for bringing āgamic parallels into the interpretation of the Meykaṇṭār school; passage-level claims are deferred until a primary text is acquired and checked.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "shaiva-shakta-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "shaiva-shakta-implementation"
+}

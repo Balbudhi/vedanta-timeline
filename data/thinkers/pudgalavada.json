@@ -1,0 +1,67 @@
+{
+  "id": "pudgalavada",
+  "name": "Pudgalavada (position-entry)",
+  "name_iast": "Pudgalavāda",
+  "alternate_names": [
+    "Vatsiputriya-Sammitiya",
+    "Vātsīputrīya-Sāṃmitīya"
+  ],
+  "entity_kind": "school_or_community",
+  "evidence_basis": "Translation-preserved school texts, supplemented by Pali and Sanskrit opponents.",
+  "own_corpus_survival": "The Indic originals of the principal school treatises are lost; substantial Chinese translations survive.",
+  "reconstruction_confidence": "medium",
+  "dates_low": -200,
+  "dates_high": 700,
+  "dates_tier": "contested",
+  "dates_notes": "This is a school entry, not a biography of Vatsiputra. The chronology of the Vatsiputriya and Sammitiya branches is reconstructed from sectarian catalogues, translated texts, and their opponents. The range marks the securely attested historical horizon of the tradition rather than a claim about a single institutional continuity.",
+  "school": "Pudgalavāda",
+  "school_color_token": "pudgalavada-comparator",
+  "sub_school": "Vātsīputrīya-Sāṃmitīya",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [
+    {
+      "thinker_id": "vasubandhu",
+      "direction": "is-refuted-by",
+      "note": "The ninth chapter of Vasubandhu's Abhidharmakosa-Bhasya preserves and criticizes a Vatsiputriya account of the person; it is an important opponent source, not a neutral statement of the school."
+    }
+  ],
+  "core_thesis": "Pudgalavada is the family name for Buddhist schools, especially the Vatsiputriya and Sammitiya, that defended a person (pudgala) as neither identical with nor wholly different from the five aggregates. The proposal addresses a problem shared across Buddhist philosophy: how moral responsibility, personal continuity, and liberation can be described while rejecting a permanent self. The doctrine does not straightforwardly restore an atman; its proponents present the person as a distinct, conventionally indispensable subject of designation. The position is recoverable through translated school treatises and sustained criticism by other Buddhist traditions, but its Indic textual form is largely lost.",
+  "engaged_works": [
+    {
+      "work_id": "sammitiya-nikaya-sastra",
+      "title": "Sammitiya Nikaya Sastra",
+      "title_iast": "Sammitiyanikāyaśāstra",
+      "alternate_titles": [
+        "Sāṃmitīyanikāyaśāstra"
+      ],
+      "composition_dates_low": 100,
+      "composition_dates_high": 500,
+      "composition_dates_notes": "The Indic original is undated; the surviving Chinese translation provides a terminus for its transmitted form, not a secure original composition date.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "A school treatise rather than a work securely attributable to a known individual author. The Sanskrit original is lost; it survives in Chinese translation.",
+      "ascription_evidence": [
+        {
+          "kind": "translation-tradition",
+          "description": "Preserved in the Chinese Buddhist canon as Taisho 1649."
+        }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A translated school treatise that preserves a systematic presentation of Sammitiya doctrine. It is the strongest direct witness for this entry, but it survives only in Chinese; the Indic original and a secure individual author are not available. Claims about the school should therefore distinguish the translated witness from reconstructions based on its critics.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Pudgalavada was a major target of interschool Buddhist debate. The Pali Kathavatthu and Vasubandhu's critique preserve objections to the person doctrine, while Chinese translations preserve material internal to the school. The contrast between these sources is essential: the opponent texts explain why the doctrine was controversial; the translated school texts are needed to establish what its proponents actually maintained.",
+  "entry_status": "draft",
+  "entry_owner_agent": "position-entries-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "position-entries-implementation",
+  "primitive_commitments": [],
+  "cross_engagements": []
+}

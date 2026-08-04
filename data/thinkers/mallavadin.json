@@ -1,0 +1,27 @@
+{
+  "id": "mallavadin",
+  "name": "Mallavādin",
+  "name_iast": "Mallavādin",
+  "alternate_names": ["Malliṣena? (not identical)"],
+  "dates_low": 700,
+  "dates_high": 800,
+  "dates_tier": "reconstructed",
+  "dates_notes": "Mallavādin's date and sectarian location are inferred from the transmission and reception of the *Nayacakra*. He must not be conflated with the later author Malliṣeṇa.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Jaina doxography",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Mallavādin's *Nayacakra* is an important Jaina map of philosophical standpoints. Rather than reducing rival positions to errors without content, it organizes them as limited claims whose partial force can be assessed through the Jaina analysis of standpoints and multi-aspectual reality.",
+  "engaged_works": [
+    {"work_id":"nayacakra","title":"Nayacakra","title_iast":"Nayacakra","alternate_titles":["Dvādaśāranayacakra"],"ascription_tier":"securely-authored","ascription_notes":"The work is transmitted under Mallavādin's name. Its interpretation depends heavily on the later commentary tradition, and the author must not be confused with similarly named Jaina authors.","genre":"doxography","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A systematic Jaina classification and examination of philosophical standpoints. Its reception through later commentary makes it a major source for the history of Jaina doxographical method, though a reader edition requires a verified textual basis.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

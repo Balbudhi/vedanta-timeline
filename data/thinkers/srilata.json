@@ -1,0 +1,28 @@
+{
+  "id": "srilata",
+  "name": "Śrīlāta",
+  "name_iast": "Śrīlāta",
+  "alternate_names": ["Bhadanta Śrīlāta"],
+  "dates_low": 250,
+  "dates_high": 400,
+  "dates_tier": "reconstructed",
+  "dates_notes": "His dates and biography are reconstructed from later Abhidharma reports. Proposed relations to Vasubandhu and to other Sautrāntika authors are not securely established.",
+  "school": "Cross-tradition",
+  "school_color_token": "sarvastivada-comparator",
+  "sub_school": "Sautrāntika / Dārṣṭāntika reconstruction",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Śrīlāta is known through later debates as a Sautrāntika or Dārṣṭāntika critic of Vaibhāṣika Abhidharma. Reports connect him with accounts of causal continuity and the rejection of some Sarvāstivāda categories, but they come from opponents and commentators rather than a surviving independent treatise.",
+  "engaged_works": [
+    {"work_id":"sautrantika-vibhasa","title":"Sautrantika-Vibhasa","title_iast":"Sautrāntika-Vibhāṣā","ascription_tier":"disputed","ascription_notes":"Later sources attribute a work of this title to Śrīlāta, but no independent Indic, Tibetan, or Chinese witness establishes its contents or even permits a secure reconstruction of the title.","genre":"lost-work","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A reported lost work. Śrīlāta's positions must instead be reconstructed cautiously from Vasubandhu's *Abhidharmakośabhāṣya*, Yaśomitra's commentary, and Saṅghabhadra's critique.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "This is an opponent-reconstruction entry. Its claims should be tied to individual reports, not generalized into an unrecoverable school platform.",
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

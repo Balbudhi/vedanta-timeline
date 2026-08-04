@@ -1,0 +1,39 @@
+{
+  "id": "krsnananda-agamavagisa",
+  "name": "Krsnananda Agamavagisa",
+  "name_iast": "Kṛṣṇānanda Āgamavāgīśa",
+  "alternate_names": ["Kṛṣṇānanda Bhaṭṭācārya"],
+  "dates_low": 1550,
+  "dates_high": 1625,
+  "dates_tier": "contested",
+  "dates_notes": "A Bengali Śākta compiler conventionally placed around 1575–1600; the exact biographical dates remain uncertain.",
+  "school": "Cross-tradition",
+  "school_color_token": "shakta-srividya",
+  "sub_school": "Śākta Tantra — digest tradition",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Kṛṣṇānanda Āgamavāgīśa is associated with the *Bṛhat-Tantrasāra*, a large early-modern Bengali Sanskrit digest of Tantric sources. Its contribution is chiefly editorial and systematic: it selects, orders, and transmits a wide body of ritual, mantra, and doctrinal material across Śākta and related Tantric traditions. The record treats the digest as evidence for early-modern organization and reception, not as evidence that all of its cited materials share one doctrine or historical origin.",
+  "engaged_works": [
+    {
+      "work_id": "brhat-tantrasara",
+      "title": "Brhat-Tantrasara",
+      "title_iast": "Bṛhat-Tantrasāra",
+      "alternate_titles": ["Bṛhattantrasāra"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standardly transmitted as Kṛṣṇānanda Āgamavāgīśa's Tantric digest.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An encyclopedic early-modern Tantric digest that compiles and organizes material on ritual, mantra, worship, and allied technical topics. Printed editions exist, including editions in Bengali script; passage-level interpretation should await a verified local text witness.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "shaiva-shakta-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "shaiva-shakta-implementation"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "purnananda",
+  "name": "Purnananda",
+  "name_iast": "Pūrṇānanda",
+  "alternate_names": ["Pūrṇānanda Giri", "Pūrṇānanda Svāmī"],
+  "dates_low": 1525,
+  "dates_high": 1600,
+  "dates_tier": "contested",
+  "dates_notes": "A Bengali Śākta author active in the sixteenth century; *Śrītattvacintāmaṇi* is conventionally dated 1577, but biographical dates are not secure.",
+  "school": "Cross-tradition",
+  "school_color_token": "shakta-srividya",
+  "sub_school": "Śākta Tantra — subtle-body synthesis",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Pūrṇānanda is the sixteenth-century Bengali Śākta author of the *Śrītattvacintāmaṇi*. Its sixth section, the *Ṣaṭcakranirūpaṇa*, became an especially influential textual presentation of six principal cakras, the channels, and the ascent of kuṇḍalinī in the early modern reception of Tantra. The work should be read as a historically specific Śākta synthesis, not as an unqualified description of a single pan-Indian or timeless yogic system. This record therefore names the text's structural contribution while reserving its detailed practice claims for source-verified treatment.",
+  "engaged_works": [
+    {
+      "work_id": "sritattvacintamani",
+      "title": "Sritattvacintamani",
+      "title_iast": "Śrītattvacintāmaṇi",
+      "alternate_titles": [],
+      "composition_dates_low": 1577,
+      "composition_dates_high": 1577,
+      "composition_dates_notes": "Conventionally dated to 1577 CE.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standardly transmitted as Pūrṇānanda's Śākta compendium.",
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Śākta compendium in twenty-six sections. The sixth, *Ṣaṭcakranirūpaṇa*, presents a subtle-body and cakra sequence that became highly influential in later global accounts of kuṇḍalinī; a printed Sanskrit text and translations exist, but no verified local primary witness is linked here.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "shaiva-shakta-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "shaiva-shakta-implementation"
+}

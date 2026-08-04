@@ -1,0 +1,49 @@
+{
+  "id": "vamana",
+  "name": "Vamana",
+  "name_iast": "Vāmana",
+  "alternate_names": [],
+  "dates_low": 750,
+  "dates_high": 850,
+  "dates_tier": "contested",
+  "dates_notes": "Vāmana is usually assigned to the eighth century. The dating follows relative textual chronology rather than fixed biographical records.",
+  "school": "Alaṅkāra",
+  "school_color_token": "alankara-comparator",
+  "sub_school": "Rīti theory",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Vāmana gives the classical statement of *rīti* theory: the organization of words in a distinctive style is what gives poetry its defining character, and such style is constituted by poetic qualities. This claim shifts attention from a catalogue of ornaments to the patterned texture of expression itself. His work remains important because later poetics does not merely replace this position; theories of suggestion and rasa continue to reckon with the relation between linguistic form, stylistic quality, and aesthetic effect.",
+  "engaged_works": [
+    {
+      "work_id": "kavyalankara-sutra-vrtti",
+      "title": "Kavyalankara-Sutra-Vrtti",
+      "title_iast": "Kāvyālaṅkāra-Sūtra-Vṛtti",
+      "alternate_titles": ["Kāvyālaṅkārasūtravṛtti"],
+      "composition_dates_low": 750,
+      "composition_dates_high": 850,
+      "composition_dates_notes": "Conventionally dated to the eighth century.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "The treatise and its explanatory vṛtti are securely attributed to Vāmana.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern scholarship recognizes Vāmana as the author of the foundational rīti treatise."
+        }
+      ],
+      "genre": "sutra-vrtti",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A concise Sanskrit poetics treatise composed in sūtra form with explanatory prose. It develops rīti, the distinctive arrangement of words, through an analysis of guṇas, stylistic modes, and ornaments. The work is the principal classical source for the thesis that style, rather than ornament alone, is central to poetic identity.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "other-authors-impl",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "other-authors-impl"
+}

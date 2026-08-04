@@ -1,0 +1,49 @@
+{
+  "id": "jagannatha-panditaraja",
+  "name": "Jagannatha Panditaraja",
+  "name_iast": "Jagannātha Paṇḍitarāja",
+  "alternate_names": ["Paṇḍitarāja Jagannātha"],
+  "dates_low": 1590,
+  "dates_high": 1670,
+  "dates_tier": "contested",
+  "dates_notes": "Jagannātha was active in the Mughal period, including at Shah Jahan's court. His birth and death years are approximate; the range records the conventional late-sixteenth- to mid-seventeenth-century placement.",
+  "school": "Alaṅkāra",
+  "school_color_token": "alankara-comparator",
+  "sub_school": "Early modern Sanskrit poetics",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Jagannātha Paṇḍitarāja is a major early modern theorist of Sanskrit poetics whose *Rasagaṅgādhara* reopens questions that earlier syntheses had made appear settled. He gives aesthetic beauty and the experience of rasa a particularly demanding analysis, while engaging inherited accounts of poetic definition, linguistic function, and figure. The text is unfinished in its transmitted form, but its arguments and later reception make it indispensable for understanding the continued vitality of Sanskrit literary theory in the Mughal period.",
+  "engaged_works": [
+    {
+      "work_id": "rasa-gangadhara",
+      "title": "Rasa-Gangadhara",
+      "title_iast": "Rasagaṅgādhara",
+      "alternate_titles": [],
+      "composition_dates_low": 1620,
+      "composition_dates_high": 1670,
+      "composition_dates_notes": "Composed during Jagannātha's seventeenth-century career; the received work is incomplete.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely attributed to Jagannātha Paṇḍitarāja; the text breaks off before the projected treatment is complete.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "The work is uniformly transmitted and studied as Jagannātha's principal poetics treatise."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An unfinished Sanskrit treatise on poetics centered on the definition of poetry, aesthetic beauty, rasa, and related questions of linguistic and literary theory. Its dense argumentative style and wide engagement with earlier authorities make it a major early modern reappraisal of the classical poetics tradition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "other-authors-impl",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "other-authors-impl"
+}

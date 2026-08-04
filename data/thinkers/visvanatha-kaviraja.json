@@ -1,0 +1,49 @@
+{
+  "id": "visvanatha-kaviraja",
+  "name": "Vishvanatha Kaviraja",
+  "name_iast": "Viśvanātha Kavirāja",
+  "alternate_names": ["Viśvanātha Deva"],
+  "dates_low": 1300,
+  "dates_high": 1400,
+  "dates_tier": "contested",
+  "dates_notes": "The author of the Sāhityadarpaṇa is usually assigned to the fourteenth century. He must be distinguished from the later Gauḍīya theologian Viśvanātha Cakravartī.",
+  "school": "Alaṅkāra",
+  "school_color_token": "alankara-comparator",
+  "sub_school": "Rasa-centered Sanskrit poetics",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Viśvanātha Kavirāja's *Sāhityadarpaṇa* is a widely influential synthesis that places rasa at the center of poetic theory while retaining the established analytical resources of word, meaning, qualities, defects, figures, and suggestion. Rather than simply repeating a single predecessor, it gives a compact scholastic ordering to the major strands of Sanskrit poetics and makes their relation teachable. Its definition of poetry through rasa is especially consequential for later literary criticism and devotional aesthetic theory. This author is a poetics theorist, not the distinct Gauḍīya commentator Viśvanātha Cakravartī.",
+  "engaged_works": [
+    {
+      "work_id": "sahitya-darpana",
+      "title": "Sahitya-Darpana",
+      "title_iast": "Sāhityadarpaṇa",
+      "alternate_titles": [],
+      "composition_dates_low": 1300,
+      "composition_dates_high": 1400,
+      "composition_dates_notes": "Conventionally assigned to the fourteenth century.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely transmitted as Viśvanātha Kavirāja's compendium of Sanskrit poetics.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "The Sanskrit poetics tradition and modern scholarship treat the Sāhityadarpaṇa as Viśvanātha Kavirāja's work."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A systematic compendium of Sanskrit poetics, traditionally divided into ten chapters. It treats poetry and its purposes, word and sentence, rasa and bhāva, dramatic theory, defects, qualities, figures, and modes of literary expression. It became one of the standard pedagogical texts for the rasa-centered synthesis of the tradition.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "other-authors-impl",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "other-authors-impl"
+}

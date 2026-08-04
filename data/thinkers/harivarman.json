@@ -1,0 +1,28 @@
+{
+  "id": "harivarman",
+  "name": "Harivarman",
+  "name_iast": "Harivarman",
+  "alternate_names": ["Harivarman (Satyasiddhi author)"],
+  "dates_low": 250,
+  "dates_high": 350,
+  "dates_tier": "reconstructed",
+  "dates_notes": "A third- to fourth-century placement is conventional, but rests chiefly on the Chinese transmission of the work and later historical reports rather than on a securely dated Indian record.",
+  "school": "Cross-tradition",
+  "school_color_token": "sarvastivada-comparator",
+  "sub_school": "Early Abhidharma; affiliation contested",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Harivarman's *Tattvasiddhi* is a substantial early Abhidharma synthesis that rejects important Sarvāstivāda positions, including the three-times existence of dharmas, while developing an analysis of persons and conditioned phenomena. The affiliations proposed for its author and text—Sautrāntika, Dārṣṭāntika, Bahuśrutīya, and Dharmaguptaka—are disputed; the entry therefore presents the treatise rather than assigning Harivarman a settled sectarian identity.",
+  "engaged_works": [
+    {"work_id":"tattvasiddhi","title":"Tattvasiddhi","title_iast":"Tattvasiddhi-Śāstra","alternate_titles":["Satyasiddhi-śāstra","Chengshi lun"],"ascription_tier":"securely-authored","ascription_notes":"The work is transmitted under Harivarman's name in the early Chinese translation tradition. Its Indic original is lost; Kumārajīva's Chinese translation (Taishō 1646) is the principal complete witness.","genre":"prakarana","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A systematic Abhidharma treatise preserved in Chinese translation. It organizes doctrinal questions around the analysis of dharmas, persons, causal conditions, meditative practice, and liberation, while frequently differing from orthodox Sarvāstivāda-Vaibhāṣika interpretations. Any direct reader implementation must work from the Chinese witness or a reliable translation, since no complete Sanskrit text survives.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The text founded the influential Chinese Satyasiddhi school. Its Indian sectarian location remains a problem of reconstruction, so later labels should not be treated as self-descriptions.",
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

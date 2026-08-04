@@ -1,0 +1,39 @@
+{
+  "id": "bhaskarabhatta",
+  "name": "Bhaskarabhatta",
+  "name_iast": "Bhāskarabhaṭṭa",
+  "alternate_names": ["Bhāskara Bhaṭṭa"],
+  "dates_low": 900,
+  "dates_high": 1000,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Placed around the turn of the tenth century on the basis of the textual and cataloguing tradition for the *Śivasūtravārttika*.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Early Kashmir Śaiva exegesis",
+  "sub_school_shade": 2,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Bhāskarabhaṭṭa is the early Kashmirian commentator credited with the *Śivasūtravārttika*, an independent extended exegesis of the *Śiva-sūtras*. The work belongs to the formative reception of the sūtras before the later summaries of Kṣemarāja. Its roster value is textual and philosophical: it preserves an early interpretive line for the Śiva-sūtra doctrine rather than merely repeating the better-known Kṣemarāja tradition. Fine-grained doctrinal claims should await a verified text witness.",
+  "engaged_works": [
+    {
+      "work_id": "sivasutra-varttika",
+      "title": "Sivasutra-varttika",
+      "title_iast": "Śivasūtravārttika",
+      "alternate_titles": [],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Catalogued and edited as Bhāskarabhaṭṭa's commentary on the *Śiva-sūtras*.",
+      "genre": "varttika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An extended Sanskrit commentary on the *Śiva-sūtras*. It is a significant witness to early Kashmir Śaiva interpretation of the sūtra corpus; a Kashmir Series edition is known, but no verified local text has been linked to this entry.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "shaiva-shakta-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "shaiva-shakta-implementation"
+}

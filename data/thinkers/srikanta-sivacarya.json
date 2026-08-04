@@ -1,0 +1,39 @@
+{
+  "id": "srikanta-sivacarya",
+  "name": "Srikanta Sivacarya",
+  "name_iast": "Śrīkaṇṭha Śivācārya",
+  "alternate_names": ["Nīlakaṇṭha Śivācārya", "Śrīkaṇṭha"],
+  "dates_low": 1100,
+  "dates_high": 1500,
+  "dates_tier": "contested",
+  "dates_notes": "The date, intellectual setting, and relation of Śrīkaṇṭha to the Nīlakaṇṭha of later Vīraśaiva materials remain disputed; modern scholarship does not support a narrow secure date.",
+  "school": "Śivādvaita",
+  "school_color_token": "sivadvaita-comparator",
+  "sub_school": "Śivādvaita Vedānta",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Śrīkaṇṭha Śivācārya is the author traditionally associated with the *Brahmamīmāṃsābhāṣya*, a Śaiva commentary on the *Brahma-sūtras* later called the *Śrīkaṇṭha-bhāṣya*. The commentary reads the Vedāntic Brahman as Śiva and gives Śakti a constitutive role in explaining manifestation. Its relation to Rāmānuja's theology, Vīraśaiva materials, and later Śivādvaita is a central scholarly question rather than a settled genealogy. The text matters because Appayya Dīkṣita made it the principal earlier authority for his sixteenth-century Śaiva Vedānta; this record does not treat that later reception as proof of every doctrine attributed to Śrīkaṇṭha.",
+  "engaged_works": [
+    {
+      "work_id": "brahmamimamsa-bhasya",
+      "title": "Brahmamimamsa-bhasya",
+      "title_iast": "Brahmamīmāṃsābhāṣya",
+      "alternate_titles": ["Śrīkaṇṭha-bhāṣya", "Brahma-sūtra-bhāṣya"],
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "The commentary is consistently transmitted under Śrīkaṇṭha's name, while the identity and historical profile of its author remain debated.",
+      "genre": "sutra-bhashya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A complete Śaiva reading of the *Brahma-sūtras*. It identifies the ultimate referent of Vedāntic scriptural language with Śiva and interprets the relation of the supreme, souls, and world through a Śaiva theological framework. Printed Sanskrit editions exist, but no verified local witness has been linked for passage-level use.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "shaiva-shakta-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "shaiva-shakta-implementation"
+}

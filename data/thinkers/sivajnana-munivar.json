@@ -1,0 +1,39 @@
+{
+  "id": "sivajnana-munivar",
+  "name": "Sivajnana Munivar",
+  "name_iast": "Śivajñāna Munivar",
+  "alternate_names": ["Śivajñāna Svāmikaḷ", "Mādhava Śivajñāna Munivar"],
+  "dates_low": 1700,
+  "dates_high": 1785,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "An eighteenth-century Tamil Śaiva Siddhānta scholar, conventionally placed in the Tirunelveli and Tamil scholastic milieu.",
+  "school": "Śaiva Siddhānta",
+  "school_color_token": "saiva-siddhanta-comparator",
+  "sub_school": "Tamil Śaiva Siddhānta — later commentary",
+  "sub_school_shade": 5,
+  "lineage_in": ["meykantar", "arulnandi-sivacarya"],
+  "lineage_out": [],
+  "core_thesis": "Śivajñāna Munivar is a major eighteenth-century exegete of the Tamil Śaiva Siddhānta tradition. His *Śivajñāna Māpaṭiyam* offers an extensive commentary on Meykaṇṭār's *Śivajñānabodham*, making the foundational compact text available for later scholastic argument. He also wrote across Tamil grammatical and doctrinal genres. His contribution in this timeline is the sustained late commentary through which the Meykaṇṭār school remained an active intellectual tradition, not a new independent school attributed to a single teacher.",
+  "engaged_works": [
+    {
+      "work_id": "sivajnana-mapadiyam",
+      "title": "Sivajnana Mapadiyam",
+      "title_iast": "Śivajñāna Māpāṭiyam",
+      "alternate_titles": ["Sivagnana Mapadiyam"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Standardly transmitted as Śivajñāna Munivar's major commentary on Meykaṇṭār's *Śivajñānabodham*.",
+      "genre": "tika",
+      "language": "tamil",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "An extensive Tamil commentary on Meykaṇṭār's *Śivajñānabodham*. It belongs to the later scholastic development of Tamil Śaiva Siddhānta and is an important source for its technical interpretation; detailed passage claims await acquisition and verification of a primary witness.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "shaiva-shakta-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "shaiva-shakta-implementation"
+}

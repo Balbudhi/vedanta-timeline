@@ -1,0 +1,49 @@
+{
+  "id": "rajasekhara",
+  "name": "Rajasekhara",
+  "name_iast": "Rājaśekhara",
+  "alternate_names": [],
+  "dates_low": 880,
+  "dates_high": 920,
+  "dates_tier": "contested",
+  "dates_notes": "Rājaśekhara is conventionally placed around 880–920, based on his association with the Gurjara-Pratihāra court and internal historical references. The precise chronology remains approximate.",
+  "school": "Alaṅkāra",
+  "school_color_token": "alankara-comparator",
+  "sub_school": "Poetics, literary geography, and composition",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Rājaśekhara expands Sanskrit poetics beyond the classification of figures into an account of literary production itself. The *Kāvyamīmāṃsā* asks what training, languages, genres, audiences, places, and forms of learning make a poet possible. Its importance lies in treating poetry as a social and intellectual practice with a history and geography, while retaining the technical concerns of alaṅkāra-śāstra. The surviving text is therefore a major witness to how a medieval Sanskrit author conceptualized the literary field rather than only the finished poem.",
+  "engaged_works": [
+    {
+      "work_id": "kavya-mimamsa",
+      "title": "Kavya-Mimamsa",
+      "title_iast": "Kāvyamīmāṃsā",
+      "alternate_titles": [],
+      "composition_dates_low": 880,
+      "composition_dates_high": 920,
+      "composition_dates_notes": "Conventionally dated to Rājaśekhara's late-ninth- or early-tenth-century courtly career.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely transmitted as Rājaśekhara's work; the extant text is incomplete relative to the larger work it announces.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "Modern scholarship treats the Kāvyamīmāṃsā as Rājaśekhara's surviving theoretical work."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A Sanskrit reflection on the making and study of poetry. The received portion, often called the Kavirahasya, addresses the education and capacities of poets, literary languages, genres, and the cultural geography of composition. It is an important source for the institutional and social history of Sanskrit literary theory as well as for poetics proper.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "other-authors-impl",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "other-authors-impl"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "makkhaligosaala",
+  "name": "Makkhali Gosala",
+  "name_iast": "Makkhali Gosāla",
+  "alternate_names": [
+    "Maskarin Gośāla",
+    "Gosāla Maṅkhaliputta"
+  ],
+  "dates_low": -550,
+  "dates_high": -400,
+  "dates_tier": "contested",
+  "dates_notes": "Placed broadly among the early Śramaṇa teachers associated with the Buddha's period. The biographical sequence is preserved only in later, competing Buddhist and Jaina accounts.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Ājīvika (reconstructed)",
+  "sub_school_shade": 2,
+  "entity_kind": "reconstructed_position",
+  "evidence_basis": "Buddhist and Jaina reports of Gosāla's teaching, read alongside inscriptions independently attesting the Ājīvika community.",
+  "own_corpus_survival": "No known Ājīvika authorial corpus survives.",
+  "reconstruction_confidence": "low",
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Makkhali Gosāla is the teacher conventionally associated with the Ājīvikas, a community independently attested in early inscriptions but without a surviving authorial corpus. Buddhist and Jaina polemical reports associate his position with *niyati*, an order of necessity that limits the efficacy of agency, moral action, and ascetic effort. This is an opponent reconstruction, not a self-statement: it establishes the Ājīvikas as a major early challenge to karmic and voluntarist accounts of liberation, while leaving the precise content of Gosāla's teaching uncertain.",
+  "engaged_works": [],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "source_status": "opponent-reconstruction",
+  "entry_owner_agent": "early-teachers-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "early-teachers-implementation"
+}

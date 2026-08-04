@@ -1,0 +1,39 @@
+{
+  "id": "yogaraja",
+  "name": "Yogaraja",
+  "name_iast": "Yogarāja",
+  "alternate_names": ["Rājānaka Yogarāja"],
+  "dates_low": 1050,
+  "dates_high": 1125,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Usually placed in the eleventh century as the commentator on Abhinavagupta's *Paramārthasāra*.",
+  "school": "Pratyabhijñā/Trika",
+  "school_color_token": "trika-comparator",
+  "sub_school": "Kashmir Śaiva non-dualism — commentator",
+  "sub_school_shade": 3,
+  "lineage_in": ["abhinavagupta"],
+  "lineage_out": [],
+  "core_thesis": "Yogarāja's *Paramārthasāravivṛti* is a substantial exposition of Abhinavagupta's concise account of non-dual Śaivism. The commentary clarifies the *Paramārthasāra*'s presentation of the limited subject, bondage, and liberation in the Trika framework, including its emphasis on liberation while living. Yogarāja is therefore not only a transmitter of Abhinavagupta's text: his commentary is one of the principal surviving interpretive guides to that work. This entry confines itself to that secure textual role pending a local passage-verified witness.",
+  "engaged_works": [
+    {
+      "work_id": "paramarthasara-vivrti",
+      "title": "Paramarthasara-vivrti",
+      "title_iast": "Paramārthasāravivṛti",
+      "alternate_titles": ["Paramārthasāra commentary"],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely transmitted as Yogarāja's commentary on Abhinavagupta's *Paramārthasāra*.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A detailed Sanskrit commentary on Abhinavagupta's *Paramārthasāra*. Modern editions and an annotated English translation of the text with Yogarāja's commentary exist; no verified local primary-text witness has yet been associated with this record.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "shaiva-shakta-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "shaiva-shakta-implementation"
+}

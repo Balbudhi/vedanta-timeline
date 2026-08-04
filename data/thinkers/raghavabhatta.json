@@ -1,0 +1,42 @@
+{
+  "id": "raghavabhatta",
+  "name": "Raghavabhatta",
+  "name_iast": "Rāghavabhaṭṭa",
+  "alternate_names": ["Rāghava Bhaṭṭa"],
+  "dates_low": 1470,
+  "dates_high": 1530,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "Placed around the late fifteenth and early sixteenth century; his *Padārthādarśa* is dated 1493/94 in the scholarly record.",
+  "school": "Cross-tradition",
+  "school_color_token": "shakta-srividya",
+  "sub_school": "Tantra — Sanskrit commentary",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Rāghavabhaṭṭa is the author of the *Padārthādarśa*, a major commentary on Lakṣmaṇadeśikendra's *Śāradātilaka*. The commentary makes an influential mantra- and ritual-theoretical manual available through sustained explanation of its technical vocabulary and procedures. Rāghavabhaṭṭa also wrote in the wider Sanskrit commentarial world, but this record is included for his Tantric exegesis rather than for a generalized biographical reputation.",
+  "engaged_works": [
+    {
+      "work_id": "padarthadarsa",
+      "title": "Padarthadarsa",
+      "title_iast": "Padārthādarśa",
+      "alternate_titles": [],
+      "composition_dates_low": 1493,
+      "composition_dates_high": 1494,
+      "composition_dates_notes": "Conventionally dated 1493/94 CE.",
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Securely transmitted as Rāghavabhaṭṭa's commentary on the *Śāradātilaka*.",
+      "genre": "tika",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A detailed commentary on the *Śāradātilaka*, clarifying its technical vocabulary and Tantric ritual and mantra instructions. Printed editions of the *Śāradātilaka* with the commentary are available, but no verified local witness has been linked for direct citation.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "shaiva-shakta-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "shaiva-shakta-implementation"
+}

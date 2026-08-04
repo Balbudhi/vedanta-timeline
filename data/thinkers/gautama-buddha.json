@@ -1,0 +1,32 @@
+{
+  "id": "gautama-buddha",
+  "name": "Gautama Buddha",
+  "name_iast": "Gautama Buddha",
+  "alternate_names": [
+    "Śākyamuni",
+    "Siddhārtha Gautama"
+  ],
+  "dates_low": -480,
+  "dates_high": -400,
+  "dates_tier": "contested",
+  "dates_notes": "The chronology of the historical Buddha remains disputed. This broad fifth-century BCE placement follows the range commonly used in modern scholarship and is not a claim for any single traditional dating.",
+  "school": "Cross-tradition",
+  "school_color_token": "cross-tradition",
+  "sub_school": "Early Buddhism",
+  "sub_school_shade": 2,
+  "entity_kind": "canonical_teacher",
+  "evidence_basis": "Teachings transmitted in the early Buddhist canons and parallel recensions; no autograph text survives.",
+  "own_corpus_survival": "No autograph corpus; early teachings survive in transmitted Pāli, Chinese, Sanskrit, and Tibetan canons and parallels.",
+  "reconstruction_confidence": "medium",
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "The Buddha is the canonical teacher around whom the early Buddhist traditions preserve a path organized by the diagnosis and cessation of suffering. The early transmitted discourses present dependent arising, impermanence, and the analysis of persons and experience without a permanent self as mutually connected tools for loosening craving and ignorance. Because the materials are recensional and the historical teacher left no autograph treatise, this entry represents a canonical teaching corpus rather than a recoverable authorial system in the later scholastic sense.",
+  "engaged_works": [],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "source_status": "transmitted-canonical-corpus",
+  "entry_owner_agent": "early-teachers-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "early-teachers-implementation"
+}

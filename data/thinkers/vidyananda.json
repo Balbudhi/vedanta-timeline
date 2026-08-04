@@ -1,0 +1,28 @@
+{
+  "id": "vidyananda",
+  "name": "Vidyānanda",
+  "name_iast": "Vidyānanda",
+  "alternate_names": ["Vidyānandin"],
+  "dates_low": 775,
+  "dates_high": 850,
+  "dates_tier": "reconstructed",
+  "dates_notes": "Conventionally assigned to the late eighth or early ninth century from his place after Akalaṅka and before later Digambara authors; the precise span is uncertain.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara Jaina Logic",
+  "sub_school_shade": 5,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Vidyānanda extends mature Digambara dialectics through detailed commentaries on Samantabhadra and Akalaṅka. His work develops the Jaina defense of multi-aspectual reality, conditional predication, and the authority of the omniscient Jina in sustained engagement with Buddhist and Brahmanical philosophical positions.",
+  "engaged_works": [
+    {"work_id":"ashtasahasri-vidyananda","title":"Ashtasahasri","title_iast":"Aṣṭasahasrī","ascription_tier":"securely-authored","ascription_notes":"Securely transmitted as Vidyānanda's large commentary on Akalaṅka's *Aṣṭaśatī*, itself a commentary on Samantabhadra's *Āpta-Mīmāṃsā*. The nested commentarial relation should not be reversed.","genre":"tika","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A major Digambara commentary that develops Akalaṅka's reading of Samantabhadra's *Āpta-Mīmāṃsā*, including its defense of the Jina as a trustworthy source and its critique of one-sided philosophical claims.","key_passage_ids":[],"entry_status":"draft"},
+    {"work_id":"tattvartha-sloka-varttika","title":"Tattvartha-Sloka-Varttika","title_iast":"Tattvārtha-Śloka-Vārttika","ascription_tier":"securely-authored","ascription_notes":"Securely transmitted as Vidyānanda's extended engagement with the *Tattvārthasūtra* and Akalaṅka's commentary.","genre":"varttika","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"An extensive scholastic treatment of the *Tattvārthasūtra* in dialogue with the Digambara commentary tradition. It is a principal source for mature Jaina epistemology and dialectics.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

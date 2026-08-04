@@ -1,0 +1,32 @@
+{
+  "id": "mahavira",
+  "name": "Mahavira",
+  "name_iast": "Mahāvīra",
+  "alternate_names": [
+    "Vardhamāna",
+    "Nigaṇṭha Nātaputta"
+  ],
+  "dates_low": -600,
+  "dates_high": -400,
+  "dates_tier": "contested",
+  "dates_notes": "Jaina traditional chronologies and modern historical reconstructions differ substantially. The entry therefore uses a broad fifth-century BCE setting rather than treating a traditional birth-and-death chronology as settled history.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Early Jainism",
+  "sub_school_shade": 2,
+  "entity_kind": "canonical_teacher",
+  "evidence_basis": "Śvetāmbara canonical transmission, later Jaina biography, Digambara counter-traditions, and early non-Jaina reports; no autograph text survives.",
+  "own_corpus_survival": "No autograph corpus; teachings are transmitted through sectarian canonical and commentarial traditions.",
+  "reconstruction_confidence": "medium",
+  "lineage_in": [],
+  "lineage_out": [],
+  "core_thesis": "Mahāvīra is the canonical teacher of the Jaina tradition as preserved in its Śvetāmbara and Digambara transmissions. The tradition centers liberation on the soul's release from karmic accretion through ethical restraint, non-violence, ascetic discipline, and knowledge. Later Jaina philosophy develops these commitments into detailed accounts of many-sided reality, conditional predication, and the varieties of knowledge; those later systems should not be projected without qualification onto a historical teacher known through transmitted canon rather than an autograph work.",
+  "engaged_works": [],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "source_status": "transmitted-canonical-corpus",
+  "entry_owner_agent": "early-teachers-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "early-teachers-implementation"
+}

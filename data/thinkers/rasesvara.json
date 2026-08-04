@@ -1,0 +1,59 @@
+{
+  "id": "rasesvara",
+  "name": "Rasesvara / Rasasastra (position-entry)",
+  "name_iast": "Raseśvara / Rasaśāstra",
+  "alternate_names": [
+    "Rasaśāstra",
+    "Indian alchemical tradition"
+  ],
+  "entity_kind": "school_or_community",
+  "evidence_basis": "Anonymous Sanskrit alchemical texts and medieval doxographical notices.",
+  "own_corpus_survival": "A substantial but heterogeneous Sanskrit rasa literature survives; it does not establish a single bounded institution or founder.",
+  "reconstruction_confidence": "medium",
+  "dates_low": 900,
+  "dates_high": 1400,
+  "dates_tier": "contested",
+  "dates_notes": "This is a textual and doxographical position entry, not a biography of an alleged founder. The date range covers the medieval period in which surviving rasa texts and doxographical accounts make a liberation-oriented Rasesvara position visible; the dating and relation of individual works remain disputed.",
+  "school": "Raseśvara",
+  "school_color_token": "rasesvara-comparator",
+  "sub_school": "Rasaśāstra and alchemical soteriology",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Rasesvara is the name given in medieval doxography to an alchemical current within the wider Sanskrit rasa literature. Its characteristic claim is that disciplined work with mercury and related substances can transform the body, with bodily perfection or longevity treated in some texts as relevant to liberation. The surviving literature includes practical, medical, ritual, and soteriological materials, so it should not be presented as a uniform darshana analogous to Nyaya or Vedanta. Its philosophical importance lies in making embodied transformation, rather than renunciation of embodiment alone, a serious candidate for religious attainment.",
+  "engaged_works": [
+    {
+      "work_id": "rasarnava",
+      "title": "Rasarnava",
+      "title_iast": "Rasārṇava",
+      "alternate_titles": [],
+      "composition_dates_low": 1000,
+      "composition_dates_high": 1300,
+      "composition_dates_notes": "The work’s dating is disputed; this broad range is used only to place its surviving textual form in the medieval rasa tradition.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "Anonymous or attribution-complex. The text should be represented as a source node rather than assigned to a secure historical author.",
+      "ascription_evidence": [
+        {
+          "kind": "manuscript-tradition",
+          "description": "A Sanskrit textual tradition survives in multiple editions and manuscripts."
+        }
+      ],
+      "genre": "shastra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A major medieval Sanskrit work of the rasa tradition. It treats alchemical operations and bodily transformation in a religious setting, making it a suitable source anchor for the Rasesvara entry. Its anonymous or uncertain attribution and disputed date mean that it should not be used to construct a biography or a single-lineage institutional history.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Rasesvara is catalogued as a distinct position in medieval doxography, including the Sarva-Darsana-Samgraha. That classification is valuable evidence for its intellectual visibility, but it should not be projected backward as proof of a homogeneous community. The surviving rasa corpus must be read text by text.",
+  "entry_status": "draft",
+  "entry_owner_agent": "position-entries-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "position-entries-implementation",
+  "primitive_commitments": [],
+  "cross_engagements": []
+}

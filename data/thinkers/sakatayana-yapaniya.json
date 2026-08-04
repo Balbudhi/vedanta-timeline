@@ -1,0 +1,29 @@
+{
+  "id": "sakatayana-yapaniya",
+  "name": "Śākaṭāyana (Yāpanīya)",
+  "name_iast": "Śākaṭāyana",
+  "alternate_names": ["Yāpanīya Śākaṭāyana"],
+  "dates_low": 800,
+  "dates_high": 875,
+  "dates_tier": "reconstructed",
+  "dates_notes": "The author is placed in the ninth century from the textual and epigraphic chronology of the Yāpanīya community. He must be distinguished from the similarly named Jaina grammarian.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Yāpanīya Jaina",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Śākaṭāyana is the principal surviving philosophical voice of the extinct Yāpanīya Jaina tradition. His treatises argue for the possibility of women's liberation and defend the claim that an omniscient liberated teacher may eat; these are carefully reasoned interventions in debates over ascetic embodiment, omniscience, and liberation, not merely markers of sectarian difference.",
+  "engaged_works": [
+    {"work_id":"strinirvanaprakarana","title":"Strinirvanaprakarana","title_iast":"Strīnirvāṇaprakaraṇa","ascription_tier":"securely-authored","ascription_notes":"Transmitted with Śākaṭāyana's auto-commentary and securely associated with the Yāpanīya author; it is not a work of the namesake grammarian.","genre":"polemical-tract","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A Sanskrit argument that women can attain liberation, engaging contrary Digambara claims through scriptural interpretation and philosophical reasoning. The text and its auto-commentary are extant.","key_passage_ids":[],"entry_status":"draft"},
+    {"work_id":"kevalibhuktiprakarana","title":"Kevalibhuktiprakarana","title_iast":"Kevalibhuktiprakaraṇa","ascription_tier":"securely-authored","ascription_notes":"Transmitted with an auto-commentary under Śākaṭāyana's name in the Yāpanīya tradition.","genre":"polemical-tract","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A Sanskrit treatise arguing that an omniscient being may take food. It preserves a lost school's sustained debate over the implications of omniscience and embodied liberation.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The Yāpanīyas are extinct as an institutional lineage, but their arguments are recoverable from their own surviving texts, inscriptions, and the responses of other Jaina traditions.",
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

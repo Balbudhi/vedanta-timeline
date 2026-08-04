@@ -1,0 +1,61 @@
+{
+  "id": "nath-hatha-yoga",
+  "name": "Nath-Hatha Yoga (position-entry)",
+  "name_iast": "Nāth-Haṭha Yoga",
+  "alternate_names": [
+    "Hatha Yoga",
+    "Haṭhayoga"
+  ],
+  "entity_kind": "school_or_community",
+  "evidence_basis": "Surviving Sanskrit practice manuals with attribution-qualified lineage traditions.",
+  "own_corpus_survival": "Substantial Indic-language texts survive, but authorship, institutional affiliation, and the relation between Nath and wider Hatha traditions vary by work.",
+  "reconstruction_confidence": "medium",
+  "dates_low": 1100,
+  "dates_high": 1700,
+  "dates_tier": "contested",
+  "dates_notes": "This is a tradition and textual-practice entry, not a biography of Goraksanatha or a claim that all Hatha sources belong to one Nath institution. The range covers the medieval and early-modern textual horizon of the practices represented by the Hatha Yoga Pradipika and related manuals.",
+  "school": "Nāth-Haṭha Yoga",
+  "school_color_token": "nath-hatha-comparator",
+  "sub_school": "Medieval Hatha Yoga",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Nath-Hatha Yoga names a cluster of medieval body-centered yogic traditions rather than a single classical darshana. Their texts develop disciplined practice with posture, breath regulation, seals and locks, and control of vital processes as means to stabilize the mind and attain higher yogic realization. The Hatha Yoga Pradipika presents hatha practice in relation to rajayoga, but the meanings of its techniques and their relation to Nath lineages vary across sources. This entry therefore records a recoverable textual-practice tradition, while reserving claims about individual founders and lineages for attribution-qualified records.",
+  "engaged_works": [
+    {
+      "work_id": "hatha-yoga-pradipika",
+      "title": "Hatha Yoga Pradipika",
+      "title_iast": "Haṭhayogapradīpikā",
+      "alternate_titles": [
+        "Hatha Pradipika"
+      ],
+      "composition_dates_low": 1400,
+      "composition_dates_high": 1500,
+      "composition_dates_notes": "Usually placed in the fifteenth century; the exact date and the author’s historical identity remain uncertain.",
+      "ascription_tier": "traditionally-ascribed",
+      "ascription_notes": "The text is traditionally attributed to Svatmarama. The attribution does not by itself establish a secure biography or a simple institutional affiliation.",
+      "ascription_evidence": [
+        {
+          "kind": "manuscript-tradition",
+          "description": "The Sanskrit textual tradition transmits the work under the name Svatmarama."
+        }
+      ],
+      "genre": "prakarana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "A foundational Sanskrit manual of medieval Hatha Yoga. It organizes bodily and respiratory disciplines in relation to yogic concentration and higher realization, and is a direct textual basis for representing Hatha Yoga as more than a modern posture practice. The work remains an attribution-qualified source: its transmitted author-name should not be expanded into claims about a securely documented life.",
+      "key_passage_ids": [],
+      "entry_status": "draft"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "The entry should remain distinct from Patanjala Yoga: it shares an interest in concentration and liberation but is organized around a different textual-practical repertoire. It should also remain distinct from a generic modern category of yoga; the historical evidence lies in particular manuals and their transmission networks.",
+  "entry_status": "draft",
+  "entry_owner_agent": "position-entries-implementation",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "position-entries-implementation",
+  "primitive_commitments": [],
+  "cross_engagements": []
+}

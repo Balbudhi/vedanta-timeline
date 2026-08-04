@@ -1,0 +1,28 @@
+{
+  "id": "nemicandra",
+  "name": "Nemicandra Siddhāntacakravartin",
+  "name_iast": "Nemicandra Siddhāntacakravartin",
+  "alternate_names": ["Nemichandra", "Nemicandra"],
+  "dates_low": 925,
+  "dates_high": 1000,
+  "dates_tier": "reconstructed",
+  "dates_notes": "He is conventionally placed in the tenth century, with a late-tenth-century floruit inferred from traditional patronage and textual chronology.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara Siddhānta",
+  "sub_school_shade": 4,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Nemicandra systematizes Digambara doctrine in concise pedagogical works on substances, karma, cosmology, and the stages of liberation. His texts became standard vehicles for presenting the technical structure of the tradition beyond the aphoristic framework of the *Tattvārthasūtra*.",
+  "engaged_works": [
+    {"work_id":"dravyasangraha","title":"Dravyasangraha","title_iast":"Dravyasaṃgraha","ascription_tier":"securely-authored","ascription_notes":"Securely ascribed to Nemicandra in Digambara transmission.","genre":"verse-summary","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A compact exposition of the six substances and the soul's bondage and liberation, with a long and influential commentarial history.","key_passage_ids":[],"entry_status":"draft"},
+    {"work_id":"gommaasara","title":"Gommaṭasāra","title_iast":"Gommaṭasāra","alternate_titles":["Jīvakāṇḍa","Karmakāṇḍa"],"ascription_tier":"securely-authored","ascription_notes":"Securely ascribed to Nemicandra; transmitted in two principal sections with extensive later commentary.","genre":"prakarana","language":"prakrit","source_status":"primary-text-not-in-corpus","summary":"A systematic Digambara account of souls and karma. The two sections provide detailed classifications of living beings, karmic matter, bondage, and the processes of release.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

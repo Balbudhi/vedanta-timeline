@@ -1,0 +1,28 @@
+{
+  "id": "abhayadeva-suri",
+  "name": "Abhayadeva Sūri",
+  "name_iast": "Abhayadeva Sūri",
+  "alternate_names": ["Abhayadevasūri"],
+  "dates_low": 1050,
+  "dates_high": 1135,
+  "dates_tier": "consensus-textual",
+  "dates_notes": "A late eleventh- to early twelfth-century placement is supported by colophons and the Śvetāmbara commentary tradition, though individual work dates need separate verification.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Śvetāmbara canonical exegesis",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Abhayadeva Sūri is a central Śvetāmbara exegete whose commentaries made extensive portions of the Jaina canon and the logical tradition accessible to later scholarship. His work is primarily interpretive, but it preserves technical vocabulary, doctrinal distinctions, and readings essential for reconstructing the Śvetāmbara intellectual tradition.",
+  "engaged_works": [
+    {"work_id":"sanmati-tarka-tika","title":"Sanmati-Tarka-Tika","title_iast":"Sanmati-Tarka-Ṭīkā","ascription_tier":"securely-authored","ascription_notes":"Securely attributed to Abhayadeva in the Śvetāmbara commentary tradition.","genre":"tika","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"An extensive Sanskrit commentary on Siddhasena Divākara's Prakrit *Sanmati-Tarka*. It is a major witness to the Śvetāmbara interpretation of naya, knowledge, and conditional predication.","key_passage_ids":[],"entry_status":"draft"},
+    {"work_id":"agamas-tika-abhayadeva","title":"Agama Commentaries","title_iast":"Āgama-Ṭīkās","ascription_tier":"securely-authored","ascription_notes":"A large body of canonical commentaries is transmitted under Abhayadeva's name; each commentary requires work-level verification before detailed citation.","genre":"tika","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"Commentaries on Śvetāmbara canonical texts that preserve and systematize inherited doctrinal and exegetical traditions. They are a major source base, not a single independent philosophical treatise.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "pujyapada",
+  "name": "Pūjyapāda Devanandin",
+  "name_iast": "Pūjyapāda Devanandin",
+  "alternate_names": ["Pūjyapāda", "Devanandi"],
+  "dates_low": 500,
+  "dates_high": 600,
+  "dates_tier": "reconstructed",
+  "dates_notes": "Usually placed in the sixth century, but the dates derive from literary and traditional evidence rather than a contemporary dated record.",
+  "school": "Jaina",
+  "school_color_token": "jaina-comparator",
+  "sub_school": "Digambara Jaina",
+  "sub_school_shade": 3,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Pūjyapāda's *Sarvārthasiddhi* is the earliest extant Digambara commentary on Umāsvāti's *Tattvārthasūtra*. It makes the compact doctrinal framework of the root text usable as a systematic account of knowledge, substances, karma, ethical discipline, and liberation, and became a foundational source for later Digambara scholasticism.",
+  "engaged_works": [
+    {"work_id":"sarvarthasiddhi","title":"Sarvarthasiddhi","title_iast":"Sarvārthasiddhi","ascription_tier":"securely-authored","ascription_notes":"Uniformly ascribed to Pūjyapāda in the Digambara commentary tradition; the Sanskrit text survives in editions and translations.","genre":"bhasya","language":"sanskrit","source_status":"primary-text-not-in-corpus","summary":"A Sanskrit commentary on all ten chapters of the *Tattvārthasūtra*. It gives a sustained Digambara exposition of its categories and supplies an essential bridge between Umāsvāti's aphoristic text and the later dialectical commentaries of Akalaṅka and Vidyānanda.","key_passage_ids":[],"entry_status":"draft"}
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "entry_status": "draft",
+  "entry_owner_agent": "buddhist-jaina-expansion",
+  "last_verified_at": "2026-08-04",
+  "last_verified_by": "buddhist-jaina-expansion"
+}
