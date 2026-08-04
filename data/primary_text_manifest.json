@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-08-04T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 87,
+  "file_count": 89,
   "note": "Public source corpus held in this repository. This manifest lists only paths present under data/sources/. Privately retained or restricted witnesses are catalogued separately in the parishishta repository provenance records.",
   "files": [
     {
@@ -32,6 +32,34 @@
       "verification_status": "clean local GRETIL transformation; commentary attribution is recorded as ascribed in the source header",
       "size_bytes": 595524,
       "line_count": 10095
+    },
+    {
+      "path": "sanskrit/vedanta/madhva_tattvaviveka_madhva_in.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "तत्त्वविवेकः",
+      "edition": "madhva.in structured web transcription; normalized sandhi in the local text is traceable to its line-by-line portal witness",
+      "format": "web-transcription",
+      "thinker_id": "madhva",
+      "work_id": "tattva-viveka",
+      "source_url": "https://madhva.in/tatvaviveka/tatvaviveka_ltocd.html",
+      "verification_status": "complete 13-verse local transcript checked against individual Sanskrit portal pages",
+      "size_bytes": 3432,
+      "line_count": 42
+    },
+    {
+      "path": "sanskrit/vedanta/madhva_visnutattvavinirnaya_wikisource.wikitext",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "विष्णुतत्त्वविनिर्णयः",
+      "edition": "Sanskrit Wikisource transcription, revision as captured 2026-08-04; includes the site's editorial notes and variants",
+      "format": "wikitext",
+      "thinker_id": "madhva",
+      "work_id": "visnu-tattva-vinirnaya",
+      "source_url": "https://sa.wikisource.org/wiki/विष्णुतत्त्वविनिर्णय:",
+      "verification_status": "complete public transcription captured; citation-safe after passage-level comparison with a critical or print witness where a variant matters",
+      "size_bytes": 256703,
+      "line_count": 2025
     },
     {
       "path": "english/vivekananda_complete_works/vol_1.txt",
