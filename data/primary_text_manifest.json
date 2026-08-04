@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-08-04T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 86,
+  "file_count": 87,
   "note": "Public source corpus held in this repository. This manifest lists only paths present under data/sources/. Privately retained or restricted witnesses are catalogued separately in the parishishta repository provenance records.",
   "files": [
     {
@@ -18,6 +18,20 @@
       "verification_status": "scan-on-disk; clean OCR needed",
       "size_bytes": 10232125,
       "line_count": 0
+    },
+    {
+      "path": "sanskrit/vedic/chandogya_upanisad_gretil.txt",
+      "language": "sanskrit",
+      "category": "vedic",
+      "title": "Chāndogyopaniṣad with the commentary ascribed to Śaṅkara",
+      "edition": "GRETIL TEI corpus transformation; source edition and licence retained in file header",
+      "format": "plain-text",
+      "thinker_id": "sankara",
+      "work_id": "chandogya-upanisad-bhasya",
+      "source_url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_chAndogyopaniSad-comm.xml",
+      "verification_status": "clean local GRETIL transformation; commentary attribution is recorded as ascribed in the source header",
+      "size_bytes": 595524,
+      "line_count": 10095
     },
     {
       "path": "english/vivekananda_complete_works/vol_1.txt",

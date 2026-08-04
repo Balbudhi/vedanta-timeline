@@ -9,9 +9,10 @@ has no independent being outside Brahman. Madhva's central texts are unusually
 well suited to this test because they argue specifically about the liberated
 and witnessing self, not only about an embodied ego.
 
-This is a control reading of four passages from Madhva's *Anuvyākhyāna* and
-the parallel formulation in his *Mahābhārata-tātparya-nirṇaya*. It does not
-claim to reconstruct every work in the *Sarvamūla* corpus.
+This is a control reading of selected passages from Madhva's *Anuvyākhyāna*
+and his short *Māyāvāda-khaṇḍana*, set against two securely attributed
+Śaṅkara passages. It does not claim to reconstruct every work in the
+*Sarvamūla* corpus.
 
 ## 1. Madhva’s positive commitment
 
