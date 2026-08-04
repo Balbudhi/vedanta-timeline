@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-08-04T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 91,
+  "file_count": 92,
   "note": "Public source corpus held in this repository. This manifest lists only paths present under data/sources/. Privately retained or restricted witnesses are catalogued separately in the parishishta repository provenance records.",
   "files": [
     {
@@ -88,6 +88,20 @@
       "verification_status": "complete public Unicode witness for the compact root text; formatted as source wikitext, with block identifiers retained",
       "size_bytes": 3715,
       "line_count": 16
+    },
+    {
+      "path": "sanskrit/vedanta/madhva_tattvodyota_anandamakaranda.wikitext",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "तत्त्वोद्योतः",
+      "edition": "Ānandamakaranda MediaWiki structured transcription, captured through its public API",
+      "format": "wikitext",
+      "thinker_id": "madhva",
+      "work_id": "tattvodyota",
+      "source_url": "https://anandamakaranda.in/Tattvodyota",
+      "verification_status": "complete public Unicode witness; formatted as source wikitext, with individual argumentative block identifiers retained",
+      "size_bytes": 55117,
+      "line_count": 171
     },
     {
       "path": "english/vivekananda_complete_works/vol_1.txt",
