@@ -158,23 +158,23 @@
     },
     {
       "slug": "madhva",
-      "title": "Madhva — *pañcabheda*, *viśeṣa*, and the *māyāvāda* critique",
-      "subtitle": "A reading-session through the *Brahmasūtra-bhāṣya*, *Anuvyākhyāna*, *Viṣṇu-tattva-vinirṇaya*, and *Māyāvāda-khaṇḍana*.",
+      "title": "Madhva and Advaita: Difference, Dependence, and the Witness",
+      "subtitle": "A primary-text reading of Tattvavāda’s account of real dependence, the final witness, and its historical debate with Advaita.",
       "kind": "essay",
       "source_doc": "data/articles/source/madhva.md",
       "tags": [
         "Madhva",
         "Tattva-vāda",
         "pañcabheda",
-        "viśeṣa",
-        "māyāvāda-khaṇḍana",
+        "Advaita",
+        "sākṣin",
         "Anuvyākhyāna",
-        "Viṣṇu-tattva-vinirṇaya"
+        "Māyāvāda-khaṇḍana"
       ],
-      "word_count_approx": 15701,
-      "date": "2026-05-10",
+      "word_count_approx": 1893,
+      "date": "2026-08-04",
       "for_thinker_id": "madhva",
-      "status": "unpublished"
+      "status": "published"
     },
     {
       "slug": "caitanya",
@@ -766,100 +766,6 @@
       "superseded_note": "Its four-verdict schema now lives inside the primitive graph as a classification of critique and subsumption edges."
     },
     {
-      "slug": "engagement-madhva__brahma-sutra-bhasya",
-      "title": "Madhva's *Brahma-Sūtra-Bhāṣya* with Tattva-Prakāśikā, Tātparya-Candrikā, Nyāya-Sudhā, Parimaḷa",
-      "subtitle": "A walk-through across three commentarial layers covering BS 1.1–1.2 — the *bheda-pañcaka*, the realism-recovery move on BS 1.1.1, the constructive thesis that *mithyā ≠ asat*.",
-      "kind": "engagement",
-      "source_doc": "data/articles/source/engagement-madhva__brahma-sutra-bhasya.md",
-      "tags": [
-        "Madhva",
-        "Tattvavāda",
-        "Brahma-Sūtra",
-        "Jayatīrtha",
-        "Vyāsatīrtha",
-        "Rāghavendra",
-        "realism",
-        "bheda-pañcaka"
-      ],
-      "word_count_approx": 2463,
-      "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_brahma_sutra_bhasya_3comm_vol{1,2,3}_archive_djvu.txt",
-      "status": "unpublished"
-    },
-    {
-      "slug": "engagement-madhva__bhagavata-tatparya-nirnaya",
-      "title": "Madhva's *Bhāgavata-Tātparya-Nirṇaya*",
-      "subtitle": "Madhva's settling-of-purport reading of the *Bhāgavata Purāṇa* — the *bhakti* axis of Tattvavāda, the gradation of *jīva*s, the locus of Viṣṇu's primacy in scripture.",
-      "kind": "engagement",
-      "source_doc": "data/articles/source/engagement-madhva__bhagavata-tatparya-nirnaya.md",
-      "tags": [
-        "Madhva",
-        "Bhāgavata",
-        "tātparya",
-        "bhakti",
-        "Vaiṣṇavism"
-      ],
-      "word_count_approx": 2330,
-      "date": "2026-05-10",
-      "source_text_path": "materials/primary_texts/sanskrit/_replaced/madhva_bhagavata_tatparya_nirnaya_archive_djvu.txt",
-      "status": "unpublished"
-    },
-    {
-      "slug": "engagement-madhva__mayavada-khandana",
-      "title": "Madhva's *Māyāvāda-Khaṇḍana*",
-      "subtitle": "The polemical demolition of Advaitic *māyāvāda* — Madhva's argument that *mithyā* construed as ontological non-existence is incoherent, and the constructive corollary for the realism-recovery trajectory.",
-      "kind": "engagement",
-      "source_doc": "data/articles/source/engagement-madhva__mayavada-khandana.md",
-      "tags": [
-        "Madhva",
-        "māyāvāda",
-        "polemic",
-        "mithyā",
-        "realism",
-        "anti-Advaita"
-      ],
-      "word_count_approx": 2314,
-      "date": "2026-05-10",
-      "source_text_path": "data/sources/sanskrit/vedanta/madhva_mayavada_khandana_anandamakaranda.txt",
-      "status": "unpublished"
-    },
-    {
-      "slug": "engagement-madhva__nonobjectifying-advaita",
-      "title": "Madhva’s Challenge to Non-objectifying Advaita",
-      "subtitle": "A primary-text control reading of whether Tattvavāda refutes the claim that the empirical agent is not Brahman, or the stronger claim of ultimate *ātman–Brahman* non-difference.",
-      "kind": "engagement",
-      "source_doc": "data/articles/source/engagement-madhva__nonobjectifying-advaita.md",
-      "tags": [
-        "Madhva",
-        "Tattvavāda",
-        "Advaita",
-        "bheda",
-        "jīva",
-        "non-difference"
-      ],
-      "word_count_approx": 4013,
-      "date": "2026-08-04",
-      "status": "published"
-    },
-    {
-      "slug": "engagement-madhva__witness-and-ramana",
-      "title": "Madhva’s Witness and Ramaṇa’s ‘I’",
-      "subtitle": "A primary-text comparison of Madhva’s final, difference-cognizing *jīva* and Ramaṇa’s analysis of the arising *aham*.",
-      "kind": "engagement",
-      "source_doc": "data/articles/source/engagement-madhva__witness-and-ramana.md",
-      "tags": [
-        "Madhva",
-        "Ramaṇa Maharṣi",
-        "sākṣin",
-        "jīva",
-        "ātma-vicāra",
-        "Advaita"
-      ],
-      "word_count_approx": 2015,
-      "date": "2026-08-04",
-      "status": "published"
-    },
-    {
       "slug": "engagement-nimbarka_srinivasa__vedanta-parijata-saurabha-kaustubha",
       "title": "Nimbārka's *Vedānta-Pārijāta-Saurabha* with Śrīnivāsa's *Vedānta-Kaustubha*",
       "subtitle": "Dvaitādvaita's parallel-realism reading of the Brahma-Sūtras — *bheda* and *abheda* as equiprimordial, the cit–acit–Brahman triad, where Nimbārka sits between Rāmānuja and Madhva.",
@@ -1286,8 +1192,8 @@
     },
     {
       "slug": "engagement-medhananda__vijnana-vedanta-and-sankara",
-      "title": "Does Vijñāna Vedānta Require a New Vedānta?",
-      "subtitle": "A source-controlled audit of Medhananda's Ramakrishna–Śaṅkara contrast: Bengali non-difference, Śaṅkara's direct allness-knowledge, and the hard limits imposed by name-and-form negation.",
+      "title": "Ramakrishna, Vijñāna Vedānta, and Śaṅkara",
+      "subtitle": "Ramakrishna’s Brahman–Śakti teaching, Medhananda’s reconstruction, and the relevant limits and affirmations in Śaṅkara’s primary texts.",
       "kind": "engagement",
       "source_doc": "data/articles/source/engagement-medhananda__vijnana-vedanta-and-sankara.md",
       "tags": [
@@ -1300,7 +1206,7 @@
         "Śakti",
         "comparative-method"
       ],
-      "word_count_approx": 1473,
+      "word_count_approx": 907,
       "date": "2026-08-04",
       "status": "published"
     }
