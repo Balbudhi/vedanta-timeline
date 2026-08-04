@@ -121,7 +121,7 @@ does not accept that starting point.  Madhva’s argument against that deeper
 reply occurs in his positive *bheda-svarūpa* thesis, not in this circularity
 charge alone.
 
-Source: [*Upādhi-khaṇḍana* 10](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_upadhi_khandana_anandamakaranda.wikitext:32).
+Source: [*Upādhi-khaṇḍana* 10](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_upadhi_khandana_anandamakaranda.wikitext:24).
 
 ## 3. The claim he directly denies
 
@@ -406,6 +406,84 @@ the plainly visible continuous text; any variant-sensitive claim requires a
 printed or critical witness before publication.
 
 Sources: [*Viṣṇutattvavinirṇaya*, discussion of jīva–Īśvara non-difference](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_visnutattvavinirnaya_wikisource.wikitext:117), [difference as *svarūpa*](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_visnutattvavinirnaya_wikisource.wikitext:255), and [jīva–Īśvara difference](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/madhva_visnutattvavinirnaya_wikisource.wikitext:387).
+
+## 11. The historical dialectic: successors, targets, and limits
+
+The Madhva–Advaita controversy is not one undifferentiated dispute between two
+fixed systems. It has a stable core and a changing technical vocabulary.
+Madhva's own *Khaṇḍana* works and *Anuvyākhyāna* give the core: dependent
+entities are not thereby non-different in essential nature; cognition and
+scripture establish a real difference; and the liberated *jīva* does not
+acquire *brahmabhāva*. Those are the claims examined in the preceding sections.
+
+Jayatīrtha made that polemic into a more systematic scholastic programme. His
+*Nyāyasudhā* is a subcommentary on Madhva's *Anuvyākhyāna*, and its integrated
+text preserves the argument over whether a *mithyā* means of knowledge can
+establish a conclusion: if it is real, Madhva presses, duality is already
+established; if not, it cannot establish anything. Jayatīrtha immediately
+records the Advaitin reply that ordinary means of knowledge can function even
+though they are *mithyā*. This is already the central pressure point: not
+whether anyone experiences a world, but what the eventual authority of that
+experience is.
+
+The local *Nyāyasudhā* witness is a non-proofread scholarly transcription with
+a documented lacuna; it is used here only for that limited textual continuity,
+not to settle a variant-sensitive reading. The direct text is still valuable:
+the debate was already addressing the relation of *pramāṇa*, error, and
+liberation, not merely opposing devotional sentiment to monism.
+
+Sources: [*Nyāyasudhā* integrated witness, its stated limits](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/jayatirtha_nyaya_sudha.txt:1) and [the *mithyā-pramāṇa* exchange](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/jayatirtha_nyaya_sudha.txt:858).
+
+With Vyāsatīrtha's *Nyāyāmṛta*, the controversy changes scale. Its first
+*mithyātvabhaṅga* attacks formal definitions and inferences for *mithyātva*;
+the positive side develops a realist account of existence, cognition, and
+difference. The decisive historical qualification is that this target is not
+simply the prose of Śaṅkara's secure commentaries. It is the technically
+developed Advaita of Ānandabodha, Citsukha, the Vivaraṇa tradition, and their
+successors—where *anirvacanīyatva*, *avidyā*, sublation, and *mithyātva* had
+become objects of explicit Navya-Nyāya analysis.
+
+Madhusūdana Sarasvatī's *Advaita-siddhi* is the corresponding reply. It does
+not evade the technical attack by returning to a merely devotional or
+ineffable formulation; it accepts the argumentative terrain and defends
+Advaitic accounts of indeterminacy, sublation, and the scope of inference.
+The result is a genuine development on both sides. Vyāsatīrtha’s criticisms
+are not automatically objections to every sentence in Śaṅkara, and
+Madhusūdana’s defenses are not simply a repetition of Śaṅkara’s bhāṣya. Yet
+they bear directly on a modern Advaitin who uses *mithyā*, *upādhi*,
+*anirvacanīya*, or sublation to answer Madhva.
+
+The exchange continued rather than ending with two books. Mādhva commentators
+Vyāsa Rāmācārya and Ānanda Bhaṭṭāraka criticized the *Advaita-siddhi*;
+Advaitin commentators including Balabhadra and Brahmānanda answered those
+rejoinders. The history is best described as a sustained debate over the
+conditions of valid definition and inference, not as a single decisive
+refutation or a set of mutually harmless perspectives. The primary texts for
+these later commentaries are not yet controlled in this corpus; this paragraph
+therefore reports the transmission history but makes no new doctrinal claim on
+their authority.
+
+For the chronology and commentarial map, see Michael T. Williams,
+[*Existence and Perception in Medieval Vedānta* (2024), ch. 2](https://uplopen.com/books/m/10.1515/9783110728521), an open-access historical study. For primary text control presently held here, see the [1934 *Nyāyāmṛta*–*Advaita-siddhi* scan, part 1](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/dvaita/nyayamrta_advaitasiddhi_1934_calcutta_sanskrit_scan_part1.pdf) and [part 2](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/dvaita/nyayamrta_advaitasiddhi_1934_calcutta_sanskrit_scan_part2.pdf). The scan is a visual witness, not a clean searchable citation layer.
+
+### What this history does—and does not—show
+
+The strongest result is twofold. It corrects the claim that Madhva only meets a
+vulgar doctrine in which the empirical ego declares itself to be God: Madhva
+and his successors repeatedly make the final status of the knowing *jīva* and
+the validity of *abheda* inference the issue. But it also corrects the opposite
+claim that the *Nyāyāmṛta* disposes of Śaṅkara by itself. Its most elaborate
+objections are aimed at post-Śaṅkara technical constructions, and their force
+depends upon Tattvavādin commitments about *pramāṇa*, bivalence, and
+*bheda-svarūpa* that Advaita explicitly rejects.
+
+For the user's non-objectifying formulation, then, the dialectic yields a
+definite burden rather than a quick verdict. It must explain why the
+difference-cognizing witness does not establish a final differentiated subject,
+and why an *anirvacanīya* or sublation account is not merely an ad hoc escape.
+Madhva's own texts do not permit that burden to be dismissed. Conversely,
+Madhva's realism does not follow from grammar alone: it depends on precisely
+the finality of difference that Advaita contests.
 
 ## Finding
 
