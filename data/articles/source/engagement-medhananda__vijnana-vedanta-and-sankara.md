@@ -40,7 +40,7 @@ living beings, the world, and the twenty-four principles. *Vijñāna* therefore
 names recognition of the one Reality in the field that had first been negated
 as separately real.
 
-Sources: *Śrīśrīrāmakṛṣṇakathāmṛta* (public Bengali contents: https://www.ramakrishnavivekananda.info/kathamrita/unicodekathamrita/kathamrita_contents.html), 22 September 1883 and 5 April 1884; compare the [public *Gospel of Sri Ramakrishna* text](https://www.ramakrishnavivekananda.info/gospel/volume_1/).
+Sources: [*Śrīśrīrāmakṛṣṇakathāmṛta* (public Bengali text)](https://www.ramakrishnavivekananda.info/kathamrita/unicodekathamrita/kathamrita_contents.html), 22 September 1883 and 5 April 1884; compare the [public *Gospel of Sri Ramakrishna* text](https://www.ramakrishnavivekananda.info/gospel/volume_1/).
 
 Maharaj takes the analogies of fire and burning power, water and wetness, and
 gem and radiance as the philosophical form of this teaching. From their

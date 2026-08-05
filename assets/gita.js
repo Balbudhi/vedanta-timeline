@@ -361,6 +361,7 @@ function renderPassages(root, passages, opts) {
       <div class="article-passage-sa" lang="sa-Latn">${esc(p.iast || "").replace(/\n/g, "<br>")}</div>
       ${interactiveBlock(p.words, p.english)}
       ${p.grammar ? `<div class="article-passage-grammar">${esc(p.grammar)}</div>` : ""}
+      ${p.cite ? `<div class="article-passage-source"><a href="cite://${esc(p.cite)}">Source: ${esc(p.source_label || p.locus || "primary text")}</a></div>` : ""}
     </section>`;
   }
   wireWords();
@@ -493,8 +494,12 @@ function showCard(span, w) {
   const gram = [];
   if (w.morph) { const plain = plainMorph(w.morph); const cs = caseSense(plain);
     gram.push(`<span class="wc-gram-main">${esc(plain)}</span>${cs ? ` <span class="wc-gram-sense">→ “${esc(cs)}”</span>` : ""}`); }
+  if (w.stem) gram.push(`<span class="wc-gram-stem">stem: <span lang="sa-Latn">${esc(w.stem)}</span></span>`);
+  if (w.affix) gram.push(`<span class="wc-gram-affix">formation: ${esc(w.affix)}</span>`);
+  if (w.karaka) gram.push(`<span class="wc-gram-karaka">syntax: ${esc(w.karaka)}</span>`);
   if (w.compound) gram.push(`<span class="wc-gram-cmp">${esc(w.compound.type)}: <span lang="sa-Latn">${esc(w.compound.vigraha)}</span></span>`);
   if (gram.length) rows.push(`<div class="wc-gram">${gram.join("<br>")}</div>`);
+  if (w.note) rows.push(`<div class="wc-note">${esc(w.note)}</div>`);
   // "Explain …" links. A compound is glossed by its parts, so link to each
   // sub-term that has a glossary entry (labelled by the sub-term it opens, not by
   // the whole inflected word). Single, self-contained terms link to themselves.

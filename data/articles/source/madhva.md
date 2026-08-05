@@ -227,7 +227,7 @@ is already established; if it is not, it cannot establish non-difference. The
 Advaitin reply recorded there is that ordinary *pramāṇas* function within the
 empirical order even while their objects are not ultimately independent.
 
-Source: Jayatīrtha, *Nyāyasudhā*, on *Anuvyākhyāna* 1.1.17 (public archive: https://archive.org/details/NyayasudhaSamagra).
+Source: [Jayatīrtha, *Nyāyasudhā*, on *Anuvyākhyāna* 1.1.17 (public archive)](https://archive.org/details/NyayasudhaSamagra).
 
 Vyāsatīrtha’s *Nyāyāmṛta* then criticizes the technically developed Advaita of
 authors such as Ānandabodha, Citsukha, and the Vivaraṇa tradition. Its scope is

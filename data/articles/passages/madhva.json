@@ -3,6 +3,8 @@
     {
       "id": "anuvy-1-4-111-112",
       "locus": "Anuvyākhyāna 1.4.111–12",
+      "cite": "madhva/anuvyakhyana/1.4.111-112",
+      "source_label": "Anuvyākhyāna 1.4.111–12",
       "iast": "jīveśvarabhidā caiva jaḍeśvarabhidā tathā /\njīvabhedo mithaścaiva jaḍajīvabhidā tathā /\nmithaśca jaḍabhedo yaḥ prapañco bhedapañcakaḥ //\nso 'yaṃ satyo hyanādiśca sādiścennāśamāpnuyāt /\ndvaitaṃ na vidyata iti tasmādajñānināṃ matam //",
       "english": "The world is the fivefold difference: difference of jīva and Lord, of insentient matter and Lord, of jīvas from one another, of matter and jīva, and of insentient things from one another. This is real and beginningless; if it had a beginning, it would come to destruction. Therefore the statement “duality does not exist” is the view of the ignorant.",
       "grammar": "The passage is built from five relational compounds naming the five bhedas Madhva treats as real. I have kept the compounds as single clickable units where that preserves the transmitted form; the internal vigraha is noted in the word cards. The phrase sādiḥ is slightly compressed in the transmitted sandhi; it is read here as “having a beginning.”",
@@ -751,6 +753,8 @@
     {
       "id": "anuvy-2-3-66-69-witness",
       "locus": "Anuvyākhyāna 2.3.66–69, witness argument",
+      "cite": "madhva/anuvyakhyana/2.3.66-69",
+      "source_label": "Anuvyākhyāna 2.3.66–69",
       "iast": "śuddhaḥ sākṣī yadā siddho duḥkhitvaṃ vāryate katham /\nupajīvyapramāṇaṃ tad bhedagrāhakam eva hi /\nato jīveśayor bhedaḥ śrutisāmarthyasusthiraḥ //",
       "english": "When the pure witness is established, how can the condition of being a sufferer be denied? That means of knowledge on which one relies apprehends difference. Therefore the difference between jīva and Lord is firmly established by the force of scripture.",
       "grammar": "This is the first half of the quoted locus in the article. It hinges on śuddha-sākṣī and upajīvyapramāṇa. I have kept the compact compounds intact and given their internal vigraha in the cards.",
@@ -900,6 +904,8 @@
     {
       "id": "anuvy-2-3-66-69-abheda",
       "locus": "Anuvyākhyāna 2.3.66–69, abheda-language",
+      "cite": "madhva/anuvyakhyana/2.3.66-69",
+      "source_label": "Anuvyākhyāna 2.3.66–69",
       "iast": "tathāpi tu cidānandapūrvā statsadṛśā guṇāḥ /\nsārasvarūpam asyāpi muktāv apy avaśiṣyate //\nato 'bhedavadevaitāḥ śrutayaḥ pravadanti hi /\npaurāṇāni ca vākyāni sādṛśyābhedasaṃśrayāt //\nsādṛśyācca pradhānatvāt svātantryād api cābhidām /\nāhur īśena jīvasya na svarūpābhidāṃ kvacit //",
       "english": "Yet qualities beginning with consciousness and bliss still remain as similar to that [Lord], and the essential nature of this [jīva] remains even in liberation. Therefore these scriptural statements speak as if of non-difference. The Purāṇic statements do so too, because they rest on similarity-grounded non-difference. And because of similarity, primacy, and sovereignty, they apply Lord-language to the jīva, but never essential identity.",
       "grammar": "This is the hermeneutic half of the locus. The key contrast is between abhedavat language and svarūpābhidā, which Madhva explicitly denies. The compact clauses are preserved as transmitted; the English makes the inferential structure explicit.",
