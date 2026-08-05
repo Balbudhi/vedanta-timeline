@@ -36,7 +36,7 @@ Source: [*Tattvaviveka* (public text)](https://madhva.in/tatvaviveka/tatvaviveka
 The correlative positive doctrine is *pañcabheda*. *Anuvyākhyāna* 1.4.110–12
 calls the manifest world fivefold difference:
 
-::: gita-passage anuvy-1-4-111-112-strict
+::: gita-passage anuvy-1-4-111-112
 :::
 
 The following verse calls this difference *satya* (“real”) and *anādi*
@@ -111,7 +111,7 @@ Madhva’s sharpest argument concerns the purified witness, not ordinary
 perception alone. The following two verses also state what he holds remains in
 liberation:
 
-::: gita-passage anuvy-2-3-66-67-witness-strict
+::: gita-passage anuvy-2-3-66-69-witness
 :::
 
 The preceding verses call the relevant distinctions objects of
@@ -126,7 +126,7 @@ Source: [*Anuvyākhyāna* 2.3.66–69](cite://madhva/anuvyakhyana/2.3.66-69).
 
 Madhva also supplies a hermeneutic for apparent *abheda* statements:
 
-::: gita-passage anuvy-2-3-68-69-abheda-strict
+::: gita-passage anuvy-2-3-66-69-abheda
 :::
 
 The decisive term is *svarūpābhidā*, non-difference in essential nature,
