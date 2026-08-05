@@ -177,11 +177,7 @@ Source: [*Upadeśa Sāram* 24 (public Sanskrit text)](https://sanskritdocuments.
 *Brahma-sūtra-bhāṣya* 2.1.14 he defines an effect’s *ananyatva* from its cause
 as the effect’s absence apart from the cause:
 
-::: sanskrit-aside
-:::: sanskrit
-*kāraṇāt paramārthato ’nanyatvaṃ vyatirekeṇābhāvaḥ kāryasya.*
-:::: english
-“Ultimate non-otherness from the cause is the effect’s absence when [the cause is] excluded.”
+::: gita-passage bsbh-2-1-14-ananyatva
 :::
 
 He adds that no modification exists with the status of an independently real
@@ -193,11 +189,7 @@ Source: [*Brahma-sūtra-bhāṣya* 2.1.14](cite://sankara/brahma-sutra-bhasya/2.
 
 The complementary *Chāndogya* formulation is equally important:
 
-::: sanskrit-aside
-:::: sanskrit
-*sarvaṃ ca nāmarūpādi sadātmanaiva satyaṃ; vikārajātaṃ svatas tv anṛtam eva.*
-:::: english
-“All name-and-form and so on is true only with Sat as its Self; the class of modifications is untrue in its own right.”
+::: gita-passage chando-6-3-2-sadatmana
 :::
 
 *Sadātmanā* makes Sat the being or self of name and form; *svatas* means “in

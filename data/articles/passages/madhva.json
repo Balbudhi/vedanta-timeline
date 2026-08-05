@@ -1,4 +1,5 @@
 {
+  "includes": ["data/articles/passages/medhananda.json"],
   "passages": [
     {
       "id": "chu-6-3-2",

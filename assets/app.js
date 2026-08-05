@@ -5005,8 +5005,16 @@ async function openArticle(a) {
         const pr = await fetch(a.passages_doc);
         const pd = pr.ok ? await pr.json() : null;
         if (pd && Array.isArray(pd.passages)) {
+          const included = Array.isArray(pd.includes) ? pd.includes : [];
+          const includeData = await Promise.all(included.map(async (path) => {
+            const rr = await fetch(path);
+            return rr.ok ? await rr.json() : null;
+          }));
+          const allPassages = pd.passages.concat(...includeData
+            .filter((x) => x && Array.isArray(x.passages))
+            .map((x) => x.passages));
           await loadScriptOnce("assets/gita.js");
-          if (window.GitaReader) window.GitaReader.renderPassages(dpArticleBody, pd.passages, {
+          if (window.GitaReader) window.GitaReader.renderPassages(dpArticleBody, allPassages, {
             glossaryBase: "data/glossary/",
             onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
             onThinker: (id) => openThinker(id),
