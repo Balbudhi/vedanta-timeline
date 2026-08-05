@@ -1,5 +1,8 @@
 {
-  "includes": ["data/articles/passages/medhananda.json"],
+  "includes": [
+    "data/articles/passages/medhananda.json",
+    "data/articles/passages/madhva-audited.json"
+  ],
   "passages": [
     {
       "id": "chu-6-3-2",
@@ -224,7 +227,7 @@
       "cite": "madhva/anuvyakhyana/1.4.111-112",
       "source_label": "Anuvyākhyāna 1.4.111–12",
       "iast": "jīveśvarabhidā caiva jaḍeśvarabhidā tathā /\njīvabhedo mithaścaiva jaḍajīvabhidā tathā /\nmithaśca jaḍabhedo yaḥ prapañco bhedapañcakaḥ //\nso 'yaṃ satyo hyanādiśca sādiścennāśamāpnuyāt /\ndvaitaṃ na vidyata iti tasmādajñānināṃ matam //",
-      "english": "The world is the fivefold difference: difference of jīva and Lord, of insentient matter and Lord, of jīvas from one another, of matter and jīva, and of insentient things from one another. This is real and beginningless; if it had a beginning, it would come to destruction. Therefore the statement “duality does not exist” is the view of the ignorant.",
+      "english": "{0:Difference between the jīva and Lord}, {1:and indeed}, {2:difference between the insentient and Lord}, {3:likewise}; {4:difference among jīvas}, {5:mutually and indeed}; {6:difference between the insentient and jīva}, {7:likewise}; {8:mutually}, {9:difference among insentient things}, {10:which} {11:world-manifold} [is] {12:the fivefold aggregate of differences}. {13:That} {14:this} [world-manifold is] {15:real}, {16:indeed}, {17:beginningless}, {18:and}; {20:if} [it were] {19:possessed of a beginning}, [it] {22:would attain} {21:destruction}. {23:Duality} {24:not} {25:exists}, {26:thus}; {27:therefore}, [this is] {28:of non-knowers} {29:the view}.",
       "grammar": "The passage is built from five relational compounds naming the five bhedas Madhva treats as real. I have kept the compounds as single clickable units where that preserves the transmitted form; the internal vigraha is noted in the word cards. The phrase sādiḥ is slightly compressed in the transmitted sandhi; it is read here as “having a beginning.”",
       "words": [
         {
@@ -974,7 +977,7 @@
       "cite": "madhva/anuvyakhyana/2.3.66-69",
       "source_label": "Anuvyākhyāna 2.3.66–69",
       "iast": "śuddhaḥ sākṣī yadā siddho duḥkhitvaṃ vāryate katham /\nupajīvyapramāṇaṃ tad bhedagrāhakam eva hi /\nato jīveśayor bhedaḥ śrutisāmarthyasusthiraḥ //",
-      "english": "When the pure witness is established, how can the condition of being a sufferer be denied? That means of knowledge on which one relies apprehends difference. Therefore the difference between jīva and Lord is firmly established by the force of scripture.",
+      "english": "{0:The pure} {1:witness}, {2:when} {3:established}, {6:how} can {4:sufferer-status} be {5:excluded}? {8:That} {7:means of knowledge that must be relied on} is {9:an apprehender of difference} {10:indeed}, {11:for}; {12:therefore} {14:difference} {13:between the jīva and Īśa} is {15:very firmly established by the force of scripture}.",
       "grammar": "This is the first half of the quoted locus in the article. It hinges on śuddha-sākṣī and upajīvyapramāṇa. I have kept the compact compounds intact and given their internal vigraha in the cards.",
       "words": [
         {
@@ -1124,8 +1127,8 @@
       "locus": "Anuvyākhyāna 2.3.66–69, abheda-language",
       "cite": "madhva/anuvyakhyana/2.3.66-69",
       "source_label": "Anuvyākhyāna 2.3.66–69",
-      "iast": "tathāpi tu cidānandapūrvā statsadṛśā guṇāḥ /\nsārasvarūpam asyāpi muktāv apy avaśiṣyate //\nato 'bhedavadevaitāḥ śrutayaḥ pravadanti hi /\npaurāṇāni ca vākyāni sādṛśyābhedasaṃśrayāt //\nsādṛśyācca pradhānatvāt svātantryād api cābhidām /\nāhur īśena jīvasya na svarūpābhidāṃ kvacit //",
-      "english": "Yet qualities beginning with consciousness and bliss still remain as similar to that [Lord], and the essential nature of this [jīva] remains even in liberation. Therefore these scriptural statements speak as if of non-difference. The Purāṇic statements do so too, because they rest on similarity-grounded non-difference. And because of similarity, primacy, and sovereignty, they apply Lord-language to the jīva, but never essential identity.",
+      "iast": "tathāpi tu cidānandapūrvāḥ tatsadṛśā guṇāḥ /\nsārasvarūpam asyāpi muktāv apy avaśiṣyate //\nataḥ abhedavad evaitāḥ śrutayaḥ pravadanti hi /\npaurāṇāni ca vākyāni sādṛśyābhedasaṃśrayāt //\nsādṛśyāt ca pradhānatvāt svātantryāt api ca abhidām /\nāhuḥ īśena jīvasya na svarūpābhidāṃ kvacit //",
+      "english": "{0:Even so}, {1:however}, {4:qualities} {2:beginning with consciousness and bliss}, {3:similar to those [of the Supreme Self]}, [are present]; {5:the essential nature} {6:of this [jīva]} {7:also}, {8:even} {9:in liberation}, {10:remains}. {11:Therefore} {14:these} {15:scriptural utterances} {12:as if of non-difference} {13:indeed} {16:speak}, {17:for}; {18:Purāṇic} {20:utterances} {19:also} [speak so] {21:because they rest on similarity-non-difference}. {22:From similarity} {23:and} {24:from predominance}, {25:from autonomy} {26:also} {27:and}, {29:they apply} {28:a designation} {30:by/as Īśa} {31:to the jīva}; {32:not} {33:a designation of essential identity} {34:ever}.",
       "grammar": "This is the hermeneutic half of the locus. The key contrast is between abhedavat language and svarūpābhidā, which Madhva explicitly denies. The compact clauses are preserved as transmitted; the English makes the inferential structure explicit.",
       "words": [
         {
@@ -1411,6 +1414,90 @@
         {"i":2,"iast":"sat-svabhāvataḥ","deva":"सत्स्वभावतः","gloss":"with respect to nature as Sat","parts":[{"form":"sat","gloss":"being; Sat"},{"form":"sva","gloss":"own"},{"form":"bhāva","gloss":"being; nature"},{"form":"-tas","gloss":"from; as to"}],"stem":"sat-svabhāva","root":"√as (adādi, 2P); √bhū (bhvādi, 1P)","rootGloss":"be","affix":"tasil (tas, adverbial)","morph":"avyaya","karaka":"adverbial qualification","compound":{"type":"semantically ambiguous compound","vigraha":"sat ātmā/svabhāvaḥ yasya; or san svabhāvaḥ","members":["sat","sva","bhāva"]},"note":"The verse alone does not decide the internal compound classification; the uncertainty is retained."},
         {"i":3,"iast":"vastu","deva":"वस्तु","gloss":"reality; a thing","parts":[{"form":"vastu","gloss":"reality; a thing"}],"stem":"vastu","affix":"sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut.","karaka":"subject of the nominal clause","note":"No precise kṛt or unādi derivation is asserted without a checked lexical source."},
         {"i":4,"iast":"kevalam","deva":"केवलम्","gloss":"alone; only","parts":[{"form":"kevala","gloss":"alone; exclusive"}],"stem":"kevala","affix":"sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut.","karaka":"predicate modifier agreeing with vastu"}
+      ]
+    },
+    {
+      "id": "tattvaviveka-1-13",
+      "locus": "Tattvaviveka 1, 13",
+      "cite": "madhva/tattvaviveka/1-13",
+      "source_label": "Tattvaviveka 1, 13",
+      "iast": "svatantraṃ paratantraṃ ca prameyaṃ dvividhaṃ matam /\nsvatantro bhagavān viṣṇur nirdoṣākhila-sad-guṇaḥ //\n...\nya etat paratantraṃ tu sarvam eva hareḥ sadā /\nvaśam ity eva jānāti saṃsārān mucyate hi saḥ //",
+      "devanagari": "स्वतन्त्रं परतन्त्रं च प्रमेयं द्विविधं मतम् ।\nस्वतन्त्रो भगवान् विष्णुर्निर्दोषाखिलसद्गुणः ॥\n...\nय एतत् परतन्त्रं तु सर्वम् एव हरेः सदा ।\nवशम् इत्येव जानाति संसारान् मुच्यते हि सः ॥",
+      "english": "The knowable is held to be twofold: independent and dependent. The independent is Bhagavān Viṣṇu, faultless and endowed with every good quality. ... Whoever knows that all this dependent reality is always under Hari's control is released from saṃsāra.",
+      "grammar": "Verse 1 defines the ontological split between svatantra and paratantra. Verse 13 turns that dependence into the liberation condition: knowledge of Hari's control over all the dependent is itself emancipating.",
+      "words": [
+        {"i":0,"iast":"svatantraṃ","deva":"स्वतन्त्रं","gloss":"independent","parts":[{"form":"sva","gloss":"self, own"},{"form":"tantra","gloss":"dependent on; governed by"}],"stem":"svatantra","morph":"nom. sg. neut.","karaka":"first member of the knowable's twofold division"},
+        {"i":1,"iast":"paratantraṃ","deva":"परतन्त्रं","gloss":"dependent","parts":[{"form":"para","gloss":"other"},{"form":"tantra","gloss":"governed, dependent"}],"stem":"paratantra","morph":"nom. sg. neut.","karaka":"second member of the knowable's twofold division"},
+        {"i":2,"iast":"ca","deva":"च","gloss":"and","parts":[{"form":"ca","gloss":"and"}],"stem":"ca","affix":"avyaya (nipāta)","morph":"indeclinable","karaka":"coordination"},
+        {"i":3,"iast":"prameyaṃ","deva":"प्रमेयं","gloss":"the knowable","parts":[{"form":"pra","gloss":"forth"},{"form":"√mā","gloss":"measure"},{"form":"-ya","gloss":"to be measured"}],"stem":"prameya","root":"pra-√mā","rootGloss":"measure","affix":"kṛtya -ya + sup","morph":"nom. sg. neut.","karaka":"subject of matam"},
+        {"i":4,"iast":"dvividhaṃ","deva":"द्विविधं","gloss":"twofold","parts":[{"form":"dvi","gloss":"two"},{"form":"vidha","gloss":"kind, division"}],"stem":"dvividha","morph":"nom. sg. neut.","karaka":"predicate adjective"},
+        {"i":5,"iast":"matam","deva":"मतम्","gloss":"held, opinion","parts":[{"form":"√man","gloss":"think"},{"form":"-ta","gloss":"past participle"}],"stem":"mata","root":"√man","rootGloss":"think","affix":"kta + sup","morph":"nom. sg. neut.","karaka":"predicate nominal"},
+        {"i":6,"iast":"svatantro","deva":"स्वतन्त्रो","gloss":"independent one","parts":[{"form":"sva","gloss":"own"},{"form":"tantra","gloss":"dependent on; governed by"}],"stem":"svatantra","morph":"nom. sg. masc.","karaka":"subject of the second statement"},
+        {"i":7,"iast":"bhagavān","deva":"भगवान्","gloss":"the Lord","parts":[{"form":"bhaga","gloss":"lordly fortune, majesty"},{"form":"-vān","gloss":"possessed of"}],"stem":"bhagavat","morph":"nom. sg. masc.","karaka":"apposition to svatantro"},
+        {"i":8,"iast":"viṣṇuḥ","deva":"विष्णुः","gloss":"Viṣṇu","parts":[{"form":"viṣṇu","gloss":"Viṣṇu"}],"stem":"viṣṇu","morph":"nom. sg. masc.","karaka":"apposition to bhagavān"},
+        {"i":9,"iast":"nirdoṣākhila-sad-guṇaḥ","deva":"निर्दोषाखिलसद्गुणः","gloss":"faultless, with every true good quality","parts":[{"form":"nirdoṣa","gloss":"faultless"},{"form":"akhila","gloss":"whole, complete"},{"form":"sat","gloss":"true"},{"form":"guṇa","gloss":"quality"}],"stem":"nirdoṣa-akhila-sat-guṇa","morph":"nom. sg. masc.","karaka":"predicate modifier of viṣṇuḥ","compound":{"type":"bahuvrīhi / karmadhāraya cluster","vigraha":"nirdoṣāḥ akhilāḥ sad-guṇāḥ yasya saḥ","members":["nirdoṣa","akhila","sat","guṇa"]}},
+        {"i":10,"iast":"yaḥ","deva":"यः","gloss":"whoever","morph":"nom. sg. masc."},
+        {"i":11,"iast":"etat","deva":"एतत्","gloss":"this","morph":"acc. sg. neut."},
+        {"i":12,"iast":"paratantraṃ","deva":"परतन्त्रं","gloss":"dependent reality","morph":"acc. sg. neut."},
+        {"i":13,"iast":"tu","deva":"तु","gloss":"indeed; however","morph":"indeclinable"},
+        {"i":14,"iast":"sarvam","deva":"सर्वम्","gloss":"all","morph":"acc. sg. neut."},
+        {"i":15,"iast":"eva","deva":"एव","gloss":"indeed; just","morph":"indeclinable"},
+        {"i":16,"iast":"hareḥ","deva":"हरेः","gloss":"of Hari","morph":"gen. sg. masc."},
+        {"i":17,"iast":"sadā","deva":"सदा","gloss":"always","morph":"indeclinable"},
+        {"i":18,"iast":"vaśam","deva":"वशम्","gloss":"under control","morph":"acc. sg. masc."},
+        {"i":19,"iast":"ity","deva":"इत्य्","gloss":"thus","morph":"indeclinable"},
+        {"i":20,"iast":"eva","deva":"एव","gloss":"indeed","morph":"indeclinable"},
+        {"i":21,"iast":"jānāti","deva":"जानाति","gloss":"knows","morph":"3sg pres ind P","root":"√jñā","rootGloss":"know"},
+        {"i":22,"iast":"saṃsārān","deva":"संसारान्","gloss":"from saṃsāra","morph":"acc. pl. masc."},
+        {"i":23,"iast":"mucyate","deva":"मुच्यते","gloss":"is released","morph":"3sg pres ind passive","root":"√muc","rootGloss":"release"},
+        {"i":24,"iast":"hi","deva":"हि","gloss":"indeed","morph":"indeclinable"},
+        {"i":25,"iast":"saḥ","deva":"सः","gloss":"he","morph":"nom. sg. masc."}
+      ]
+    },
+    {
+      "id": "mayavada-khandana-identity-dilemma",
+      "locus": "Māyāvāda-khaṇḍana, opening argument",
+      "cite": "madhva/mayavada-khandana/identity-dilemma",
+      "source_label": "Māyāvāda-khaṇḍana",
+      "iast": "na hi brahmātmaikyasya yāthārthyaṃ tatpakṣe / advaitahāneḥ svarūpātireke / anatireke svaprakāśatvād ātmanaḥ siddhasādhanatā",
+      "devanagari": "न हि ब्रह्मात्मैक्यस्य याथार्थ्यं तत्पक्षे । अद्वैतहानेः स्वरूपातिरेके । अनतिरेके स्वप्रकाशत्वाद् आत्मनः सिद्धसाधनता ।",
+      "english": "For the factual correctness of Brahman–Self identity does not obtain on that position. If there is otherness of intrinsic nature, non-duality is lost; if there is no such otherness, then, because the Self is self-luminous, the claim proves what is already established.",
+      "grammar": "The source is a compressed prose dilemma, not a full conditional sentence. The three alternatives are stated elliptically and the omitted copula belongs to the argument's context.",
+      "words": [
+        {"i":0,"iast":"na","deva":"न","gloss":"not","morph":"indeclinable"},
+        {"i":1,"iast":"hi","deva":"हि","gloss":"indeed; for","morph":"indeclinable"},
+        {"i":2,"iast":"brahmātmaikyasya","deva":"ब्रह्मात्मैक्यस्य","gloss":"of Brahman–Self identity","morph":"gen. sg. neut."},
+        {"i":3,"iast":"yāthārthyaṃ","deva":"याथार्थ्यं","gloss":"factual correctness","morph":"nom. sg. neut."},
+        {"i":4,"iast":"tatpakṣe","deva":"तत्पक्षे","gloss":"in that position","morph":"loc. sg. masc."},
+        {"i":5,"iast":"advaitahāneḥ","deva":"अद्वैतहानेः","gloss":"of the loss of non-duality","morph":"gen./abl. sg. fem."},
+        {"i":6,"iast":"svarūpātireke","deva":"स्वरूपातिरेके","gloss":"in the case of being other than intrinsic nature","morph":"loc. sg. masc."},
+        {"i":7,"iast":"anatireke","deva":"अनतिरेके","gloss":"in the case of non-distinctness","morph":"loc. sg. masc."},
+        {"i":8,"iast":"svaprakāśatvāt","deva":"स्वप्रकाशत्वात्","gloss":"because of self-luminosity","morph":"abl. sg. neut."},
+        {"i":9,"iast":"ātmanaḥ","deva":"आत्मनः","gloss":"of the Self","morph":"gen. sg. masc."},
+        {"i":10,"iast":"siddhasādhanatā","deva":"सिद्धसाधनता","gloss":"the fault of proving what is already established","morph":"nom. sg. fem."}
+      ]
+    },
+    {
+      "id": "anuvyakhyana-2-1-85",
+      "locus": "Anuvyākhyāna 2.1.85",
+      "cite": "madhva/anuvyakhyana/2.1.85-86",
+      "source_label": "Anuvyākhyāna 2.1.85",
+      "iast": "nānyadanyatvamāpannaṃ kvacid dṛṣṭaṃ kathañcana /\nato jīvasya na brahmabhāvaḥ syād dhi kadācana //",
+      "devanagari": "नान्यदन्यत्वमापन्नं क्वचिद् दृष्टं कथञ्चन ।\nअतो जीवस्य न ब्रह्मभावः स्याद् धि कदाचन ॥",
+      "english": "No other entity having acquired non-otherness is seen anywhere in any manner. Therefore the jīva can never have Brahman-nature at any time.",
+      "grammar": "The first half is a compressed denial of any observed case where an already other entity has acquired non-otherness. The second half states the universal conclusion for the jīva.",
+      "words": [
+        {"i":0,"iast":"nānyadanyatvamāpannaṃ","deva":"नान्यदन्यत्वमापन्नं","gloss":"no other entity having acquired non-otherness","morph":"compressed negative participial phrase","note":"Saṃhitā combines na + anyat + ananyatvam āpannam."},
+        {"i":1,"iast":"kvacid","deva":"क्वचिद्","gloss":"anywhere","morph":"indecl."},
+        {"i":2,"iast":"dṛṣṭaṃ","deva":"दृष्टं","gloss":"seen","morph":"PPP, nom./acc. sg. neut."},
+        {"i":3,"iast":"kathañcana","deva":"कथञ्चन","gloss":"in any manner","morph":"indecl."},
+        {"i":4,"iast":"ataḥ","deva":"अतः","gloss":"therefore","morph":"indecl."},
+        {"i":5,"iast":"jīvasya","deva":"जीवस्य","gloss":"for the jīva","morph":"gen. sg. masc."},
+        {"i":6,"iast":"na","deva":"न","gloss":"not","morph":"indecl."},
+        {"i":7,"iast":"brahmabhāvaḥ","deva":"ब्रह्मभावः","gloss":"Brahman-nature","morph":"nom. sg. masc."},
+        {"i":8,"iast":"syāt","deva":"स्यात्","gloss":"could be","morph":"3sg optative"},
+        {"i":9,"iast":"hi","deva":"हि","gloss":"indeed","morph":"indecl."},
+        {"i":10,"iast":"kadācana","deva":"कदाचन","gloss":"at any time","morph":"indecl."}
       ]
     }
   ]

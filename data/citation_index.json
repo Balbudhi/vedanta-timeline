@@ -2983,6 +2983,17 @@
       "source": "full_translations/madhva__mayavada-khandana.md#Opening benediction (p. 238)",
       "verified": "unknown"
     },
+    "madhva/tattvaviveka/1-13": {
+      "thinker_id": "madhva",
+      "work_id": "tattvaviveka",
+      "locus": "Tattvaviveka 1, 13",
+      "locus_short": "Tattvaviveka 1, 13",
+      "sanskrit_iast": "svatantraṃ paratantraṃ ca prameyaṃ dvividhaṃ matam / svatantro bhagavān viṣṇur nirdoṣākhilasadguṇaḥ // … ya etatparatantraṃ tu sarvam eva hareḥ sadā / vaśam ity eva jānāti saṃsārān mucyate hi saḥ //",
+      "english_close": "The knowable is held to be twofold: independent and dependent. The independent one is Bhagavān Viṣṇu, possessing every faultless good quality. Whoever knows all dependent reality always to be under Hari’s control is released from saṃsāra.",
+      "source": "sanskrit/vedanta/madhva_tattvaviveka_madhva_in.txt#1,13",
+      "source_url": "https://madhva.in/tatvaviveka/tatvaviveka_ltocd.html",
+      "verified": true
+    },
     "madhva/mayavada-khandana/thesis": {
       "thinker_id": "madhva",
       "work_id": "mayavada-khandana",
@@ -2992,6 +3003,16 @@
       "english_close": "The disputed thesis is not fit to be undertaken, because it presents matters otherwise than they are. Whatever is of such a kind is indeed so, as is presently admitted.",
       "source": "full_translations/madhva__mayavada-khandana.md#Inferential thesis (p. 238)",
       "verified": "unknown"
+    },
+    "madhva/mayavada-khandana/identity-dilemma": {
+      "thinker_id": "madhva",
+      "work_id": "mayavada-khandana",
+      "locus": "Māyāvāda-khaṇḍana, opening argument",
+      "locus_short": "Māyāvāda-khaṇḍana",
+      "sanskrit_iast": "na hi brahmātmaikyasya yāthārthyaṃ tatpakṣe. advaitahāneḥ svarūpātireke. anatireke svaprakāśatvād ātmanaḥ siddhasādhanatā.",
+      "english_close": "For, on that position, Brahman–Self identity has no factual correctness. [There is] loss of non-duality in the case of being other than intrinsic nature; in the case of non-distinctness, because the Self is self-luminous, [there is] the fault of proving what is already established.",
+      "source": "sanskrit/vedanta/madhva_mayavada_khandana_anandamakaranda.txt#opening-prose",
+      "verified": true
     },
     "madhva/mayavada-khandana/genuine identity-thesis on the opponent's side": {
       "thinker_id": "madhva",

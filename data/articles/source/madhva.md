@@ -20,13 +20,10 @@ assigning them different registers. It cannot be Madhva’s own conclusion.
 ## 1. Madhva’s positive ontology
 
 Madhva begins with an asymmetry, not with two coequal substances. In
-*Tattvaviveka* he divides what is knowable into *svatantra* and *paratantra*:
+*Tattvaviveka* he divides what is knowable into *svatantra* and *paratantra*;
+verses 1 and 13 make the asymmetry explicit:
 
-::: sanskrit-aside
-:::: sanskrit
-*svatantraṃ paratantraṃ ca prameyaṃ dvividhaṃ matam / svatantro bhagavān viṣṇur … // … ya etat paratantraṃ tu sarvam eva hareḥ sadā / vaśam ity eva jānāti saṃsārān mucyate hi saḥ //*
-:::: english
-“The knowable is held to be twofold: independent and dependent. The independent is Bhagavān Viṣṇu … Whoever knows that all this dependent [reality] is always under Hari’s control is released from saṃsāra.”
+::: gita-passage tattvaviveka-1-13
 :::
 
 *Svatantra* means self-dependent; *paratantra* means dependent on another.
@@ -39,7 +36,7 @@ Source: [*Tattvaviveka* (public text)](https://madhva.in/tatvaviveka/tatvaviveka
 The correlative positive doctrine is *pañcabheda*. *Anuvyākhyāna* 1.4.110–12
 calls the manifest world fivefold difference:
 
-::: gita-passage anuvy-1-4-111-112
+::: gita-passage anuvy-1-4-111-112-strict
 :::
 
 The following verse calls this difference *satya* (“real”) and *anādi*
@@ -65,13 +62,10 @@ Sources: [*Anuvyākhyāna* 1.1.108](cite://madhva/anuvyakhyana/1.1.108) and [1.1
 ## 2. What Madhva denies
 
 The *Māyāvāda-khaṇḍana* names its target *brahmātmaikya*, Brahman–Self
-identity:
+identity. Its opening argument is an elliptical prose cluster; the reader
+keeps the three source-members distinct:
 
-::: sanskrit-aside
-:::: sanskrit
-*na hi brahmātmaikyasya yāthārthyaṃ tatpakṣe / advaitahāneḥ svarūpātireke; anatireke svaprakāśatvād ātmanaḥ siddhasādhanatā.*
-:::: english
-“For the factual truth of Brahman–Self identity does not obtain on that position: if there is otherness of essential nature, non-duality is lost; if there is no such otherness, then, since the Self is self-luminous, the claim proves what is already established.”
+::: gita-passage mayavada-khandana-identity-dilemma
 :::
 
 The dilemma is directed at a real final identity claim. If *brahmātmaikya*
@@ -90,11 +84,7 @@ not merely on whether Advaita has a word for it.
 
 He states the conclusion directly in *Anuvyākhyāna*:
 
-::: sanskrit-aside
-:::: sanskrit
-*nānyad anyatvam āpannaṃ kvacid dṛṣṭaṃ kathañcana / ato jīvasya na brahmabhāvaḥ syād dhi kadācana //*
-:::: english
-“Therefore the jīva can never have *brahmabhāva*, the state or nature of Brahman.”
+::: gita-passage anuvyakhyana-2-1-85
 :::
 
 Here *jīvasya* is “of the jīva,” *brahmabhāvaḥ* is “Brahman-nature/state,”
@@ -118,9 +108,10 @@ Source: [*Mithyātvānumāna-khaṇḍana*, opening inference](cite://madhva/mit
 ## 4. The witness argument
 
 Madhva’s sharpest argument concerns the purified witness, not ordinary
-perception alone:
+perception alone. The following two verses also state what he holds remains in
+liberation:
 
-::: gita-passage anuvy-2-3-66-69-witness
+::: gita-passage anuvy-2-3-66-67-witness-strict
 :::
 
 The preceding verses call the relevant distinctions objects of
@@ -135,7 +126,7 @@ Source: [*Anuvyākhyāna* 2.3.66–69](cite://madhva/anuvyakhyana/2.3.66-69).
 
 Madhva also supplies a hermeneutic for apparent *abheda* statements:
 
-::: gita-passage anuvy-2-3-66-69-abheda
+::: gita-passage anuvy-2-3-68-69-abheda-strict
 :::
 
 The decisive term is *svarūpābhidā*, non-difference in essential nature,
