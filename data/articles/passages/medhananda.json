@@ -1,0 +1,45 @@
+{
+  "passages": [
+    {
+      "id": "chando-6-3-2-sadatmana",
+      "locus": "Chāndogya Upaniṣad Bhāṣya 6.3.2",
+      "cite": "sankara/chandogya-upanisad-bhasya/6.3.2-sadatmana",
+      "source_label": "Chāndogya Upaniṣad Bhāṣya 6.3.2",
+      "iast": "sarvaṃ ca nāmarūpādi sadātmanaiva satyaṃ; vikārajātaṃ svatastvanṛtameva.",
+      "devanagari": "सर्वं च नामरूपादि सदात्मनैव सत्यम्; विकारजातं स्वतस्त्वनृतमेव।",
+      "english": "{0:All} {1:indeed}, {2:name, form, and the rest}, {3:with Sat as its self} {4:itself}, {5:is true}; {6:the whole class of modifications}, {7:in itself}, {8:however}, {9:is untrue} {10:indeed}.",
+      "grammar": "Two nominal clauses. The source immediately explains the contrast: all is true with Sat as self, while modifications are untrue as other than Sat. The pada line resolves the source sandhi svatastvanṛtameva without omitting any particle.",
+      "words": [
+        {"i":0,"iast":"sarvam","deva":"सर्वम्","gloss":"all","parts":[{"form":"sarva","gloss":"all"}],"stem":"sarva","affix":"sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut., collective","karaka":"subject of satyam"},
+        {"i":1,"iast":"ca","deva":"च","gloss":"and; indeed","parts":[{"form":"ca","gloss":"and; indeed"}],"stem":"ca","affix":"avyaya (nipāta)","morph":"indeclinable","karaka":"coordination/emphasis; no kāraka"},
+        {"i":2,"iast":"nāmarūpādi","deva":"नामरूपादि","gloss":"name, form, and the rest","parts":[{"form":"nāma","gloss":"name"},{"form":"rūpa","gloss":"form"},{"form":"ādi","gloss":"beginning with; and the rest"}],"stem":"nāmarūpādi","affix":"sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut., collective","karaka":"apposition to sarvam","compound":{"type":"itaretara-dvandva with lexicalized -ādi extension","vigraha":"nāma ca rūpaṃ ca, ādiḥ","members":["nāma","rūpa","ādi"]}},
+        {"i":3,"iast":"sadātmanā","deva":"सदात्मना","gloss":"with Sat as its self","parts":[{"form":"sat","gloss":"being; Sat"},{"form":"ātman","gloss":"self"},{"form":"-nā","gloss":"by; with"}],"stem":"sat-ātman","root":"√as (adādi, 2P)","rootGloss":"be","affix":"ṭā (tṛtīyā-ekavacana; surface -nā)","morph":"instr. sg. masc./neut.","karaka":"karaṇa/ground: true with Sat as self","compound":{"type":"possessive bahuvrīhi (contextually preferred; formal ambiguity noted)","vigraha":"sat ātmā yasya tat","members":["sat","ātman"]},"note":"sat + ātmanā gives sadātmanā by sandhi; a karmadhāraya analysis is formally possible, but the surrounding prose supports this possessive construal."},
+        {"i":4,"iast":"eva","deva":"एव","gloss":"indeed; just","parts":[{"form":"eva","gloss":"indeed; just"}],"stem":"eva","affix":"avyaya (nipāta)","morph":"indeclinable","karaka":"avadhāraṇa (restriction/emphasis)"},
+        {"i":5,"iast":"satyam","deva":"सत्यम्","gloss":"true","parts":[{"form":"sat","gloss":"being; real"},{"form":"-ya","gloss":"having that character"}],"stem":"satya","affix":"sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut., predicate","karaka":"predicate nominal agreeing with sarvam","note":"The etymology through sat is clear; no unchecked specific derivation of -ya is asserted."},
+        {"i":6,"iast":"vikārajātam","deva":"विकारजातम्","gloss":"the whole class of modifications","parts":[{"form":"vi-","gloss":"apart; differently"},{"form":"kāra","gloss":"making; change"},{"form":"jāta","gloss":"born; produced"}],"stem":"vikāra-jāta","root":"√jan (divādi, 4Ā)","rootGloss":"be born; arise","affix":"jāta: kta + sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut., collective","karaka":"subject of anṛtam","compound":{"type":"ṣaṣṭhī-tatpuruṣa","vigraha":"vikārasya jātam","members":["vikāra","jāta"]},"note":"The conventional collective sense is 'the class of modifications'; the derivation of lexical vikāra is not over-specified."},
+        {"i":7,"iast":"svataḥ","deva":"स्वतः","gloss":"from itself; in itself","parts":[{"form":"sva","gloss":"own; self"},{"form":"-tas","gloss":"from; in respect of"}],"stem":"sva","affix":"tasil (tas, adverbial)","morph":"avyaya","karaka":"adverbial of standpoint"},
+        {"i":8,"iast":"tu","deva":"तु","gloss":"but; however","parts":[{"form":"tu","gloss":"but; however"}],"stem":"tu","affix":"avyaya (nipāta)","morph":"indeclinable","karaka":"contrast; no kāraka"},
+        {"i":9,"iast":"anṛtam","deva":"अनृतम्","gloss":"untrue","parts":[{"form":"an-","gloss":"not"},{"form":"ṛta","gloss":"true; right"}],"stem":"anṛta","affix":"sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut., predicate","karaka":"predicate nominal agreeing with vikārajātam","compound":{"type":"nañ-tatpuruṣa","vigraha":"na ṛtam","members":["an-","ṛta"]}},
+        {"i":10,"iast":"eva","deva":"एव","gloss":"indeed; just","parts":[{"form":"eva","gloss":"indeed; just"}],"stem":"eva","affix":"avyaya (nipāta)","morph":"indeclinable","karaka":"avadhāraṇa (restriction/emphasis)"}
+      ]
+    },
+    {
+      "id": "bsbh-2-1-14-ananyatva",
+      "locus": "Brahma-sūtra-bhāṣya 2.1.14",
+      "cite": "sankara/brahma-sutra-bhasya/2.1.14",
+      "source_label": "Brahma-sūtra-bhāṣya 2.1.14",
+      "iast": "kāraṇāt paramārthato ’nanyatvaṃ vyatirekeṇābhāvaḥ kāryasya.",
+      "devanagari": "कारणात् परमार्थतोऽनन्यत्वं व्यतिरेकेणाभावः कार्यस्य ।",
+      "english": "{0:From the cause}, {1:ultimately}, {2:non-difference}: {3:through exclusion}, {4:the absence} {5:of the effect}.",
+      "grammar": "Excerpt: the source continues with avagamyate ('is understood'). vyatirekeṇābhāvaḥ is Śaṅkara’s explanatory apposition to ananyatvam, not a second independent predicate.",
+      "words": [
+        {"i":0,"iast":"kāraṇāt","deva":"कारणात्","gloss":"from the cause","parts":[{"form":"√kṛ","gloss":"make"},{"form":"-ana","gloss":"making; that which makes"},{"form":"-āt","gloss":"from"}],"stem":"kāraṇa","root":"√kṛ (tanādi, 8U)","rootGloss":"make; do","affix":"lyuṭ (ana, action/result noun) + ṅasi (pañcamī-ekavacana)","morph":"abl. sg. neut.","karaka":"apādāna/relation-point of ananyatva"},
+        {"i":1,"iast":"paramārthataḥ","deva":"परमार्थतः","gloss":"ultimately; with regard to ultimate reality","parts":[{"form":"parama","gloss":"highest; ultimate"},{"form":"artha","gloss":"meaning; reality"},{"form":"-tas","gloss":"from; as to"}],"stem":"paramārtha","affix":"tasil (tas, adverbial)","morph":"avyaya","karaka":"adverbial qualification","compound":{"type":"karmadhāraya","vigraha":"paramaḥ arthaḥ","members":["parama","artha"]}},
+        {"i":2,"iast":"ananyatvam","deva":"अनन्यत्वम्","gloss":"non-otherness; non-difference","parts":[{"form":"an-","gloss":"not"},{"form":"anya","gloss":"other"},{"form":"-tva","gloss":"state; -ness"}],"stem":"ananyatva","affix":"tva (abstract suffix) + sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut.","karaka":"subject of the following omitted passive avagamyate","compound":{"type":"nañ-tatpuruṣa","vigraha":"na anyaḥ; anyāt abhāvaḥ","members":["an-","anya","tva"]}},
+        {"i":3,"iast":"vyatirekeṇa","deva":"व्यतिरेकेण","gloss":"through exclusion; in separation","parts":[{"form":"vi-","gloss":"apart"},{"form":"ati-","gloss":"across; beyond"},{"form":"√ric","gloss":"separate; leave"},{"form":"-a","gloss":"act; state"},{"form":"-ena","gloss":"by; with"}],"stem":"vyatireka","root":"√ric (rudhādi, 7U)","rootGloss":"separate; leave","affix":"ghañ (a, action noun) + ṭā (tṛtīyā-ekavacana)","morph":"instr. sg. masc.","karaka":"karaṇa of explanatory abhāvaḥ"},
+        {"i":4,"iast":"abhāvaḥ","deva":"अभावः","gloss":"absence","parts":[{"form":"a-","gloss":"not"},{"form":"bhāva","gloss":"being"},{"form":"-ḥ","gloss":"nominative singular"}],"stem":"abhāva","root":"√bhū (bhvādi, 1P)","rootGloss":"be","affix":"ghañ (a, abstract noun) + sup su (prathamā-ekavacana)","morph":"nom. sg. masc.","karaka":"apposition/explanatory gloss to ananyatvam","compound":{"type":"nañ-tatpuruṣa","vigraha":"na bhāvaḥ","members":["a-","bhāva"]}},
+        {"i":5,"iast":"kāryasya","deva":"कार्यस्य","gloss":"of the effect","parts":[{"form":"√kṛ","gloss":"make"},{"form":"-ya","gloss":"to be made; what is made"},{"form":"-sya","gloss":"of"}],"stem":"kārya","root":"√kṛ (tanādi, 8U)","rootGloss":"make; do","affix":"ṇyat (kṛtya) + ṅas (ṣaṣṭhī-ekavacana)","morph":"gen. sg. neut.","karaka":"sambandha, complement of abhāvaḥ"}
+      ]
+    }
+  ]
+}

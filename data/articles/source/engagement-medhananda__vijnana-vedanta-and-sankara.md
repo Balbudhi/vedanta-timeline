@@ -65,11 +65,7 @@ Source: [*Brahma-sūtra-bhāṣya* 1.1.12](cite://sankara/brahma-sutra-bhasya/1.
 The more precise statement occurs in Śaṅkara’s commentary on *Chāndogya
 Upaniṣad* 6.3.2:
 
-::: sanskrit-aside
-:::: sanskrit
-*sarvaṃ ca nāmarūpādi sadātmanaiva satyaṃ; vikārajātaṃ svatas tv anṛtam eva.*
-:::: english
-“All name-and-form and so on is true only with Sat as its Self; the class of modifications is untrue in its own right.”
+::: gita-passage chando-6-3-2-sadatmana
 :::
 
 *Sadātmanā* means “with Sat as its Self”; *svatas* means “in its own right.”
@@ -82,11 +78,7 @@ Source: [*Chāndogya Upaniṣad Bhāṣya* 6.3.2](cite://sankara/chandogya-upani
 
 *Brahma-sūtra-bhāṣya* 2.1.14 states the same asymmetry as *ananyatva*:
 
-::: sanskrit-aside
-:::: sanskrit
-*kāraṇāt paramārthato ’nanyatvaṃ vyatirekeṇābhāvaḥ kāryasya.*
-:::: english
-“Ultimate non-otherness from the cause is the effect’s absence when [the cause is] excluded.”
+::: gita-passage bsbh-2-1-14-ananyatva
 :::
 
 Śaṅkara there rejects the view that unity and plurality are equally ultimate,
