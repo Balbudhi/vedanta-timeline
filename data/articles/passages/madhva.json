@@ -1,6 +1,223 @@
 {
   "passages": [
     {
+      "id": "chu-6-3-2",
+      "locus": "Chāndogya Upaniṣad Bhāṣya 6.3.2",
+      "cite": "sankara/chandogya-upanisad-bhasya/6.3.2-sadatmana",
+      "source_label": "ChU Bh 6.3.2",
+      "iast": "sarvaṃ ca nāmarūpādi sadātmanaiva satyaṃ vikārajātaṃ svastvanṛtameva",
+      "english": "All name-and-form and the like is true only with Sat as its Self; the class of modifications is untrue in its own right.",
+      "grammar": "sarvaṃ is the subject. ca links the series. nāmarūpādi is a collective nominal expression, 'name-and-form and the like'. sadātmanaiva is sat-ātmanā eva in sandhi: 'with Sat alone as its Self'. satyaṃ and anṛtam are the opposed predicates. vikārajātaṃ is the arisen class of modifications. svastvanṛtameva is svatas tu anṛtam eva in sandhi, an adverbial exclusion: 'however, in its own right, untrue'.",
+      "words": [
+        { "i": 0, "iast": "sarvaṃ", "gloss": "all", "morph": "nom. sg. neut." },
+        { "i": 1, "iast": "ca", "gloss": "and", "morph": "indecl." },
+        {
+          "i": 2,
+          "iast": "nāmarūpādi",
+          "gloss": "name-and-form and the like",
+          "morph": "collective nominal; nāma-rūpa + ādi",
+          "parts": [
+            { "form": "nāma", "gloss": "name" },
+            { "form": "rūpa", "gloss": "form" },
+            { "form": "ādi", "gloss": "and the like" }
+          ]
+        },
+        {
+          "i": 3,
+          "iast": "sadātmanaiva",
+          "gloss": "with Sat alone as its Self",
+          "morph": "instr. sg. + eva in sandhi",
+          "parts": [
+            { "form": "sat", "gloss": "Sat, Being" },
+            { "form": "ātmanā", "gloss": "as Self; instr. sg." },
+            { "form": "eva", "gloss": "alone" }
+          ]
+        },
+        { "i": 4, "iast": "satyaṃ", "gloss": "true", "morph": "nom. sg. neut." },
+        {
+          "i": 5,
+          "iast": "vikārajātaṃ",
+          "gloss": "the class of modifications",
+          "morph": "nom. sg. neut. collective noun from vikāra + jāta",
+          "parts": [
+            { "form": "vikāra", "gloss": "modification" },
+            { "form": "jāta", "gloss": "born, arisen" }
+          ]
+        },
+        {
+          "i": 6,
+          "iast": "svastvanṛtameva",
+          "gloss": "untrue in its own right",
+          "morph": "svatas + tu + anṛtam + eva in sandhi",
+          "parts": [
+            { "form": "svatas", "gloss": "in its own right" },
+            { "form": "tu", "gloss": "however" },
+            { "form": "anṛtam", "gloss": "untrue" },
+            { "form": "eva", "gloss": "indeed" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bsbh-2-1-14",
+      "locus": "Brahma-Sūtra-Bhāṣya 2.1.14",
+      "cite": "sankara/brahma-sutra-bhasya/2.1.14",
+      "source_label": "BSBh 2.1.14",
+      "iast": "kāraṇāt paramārthato ’nanyatvaṃ vyatirekeṇābhāvaḥ kāryasya",
+      "english": "Ultimate non-otherness from the cause is the effect’s absence when the cause is excluded.",
+      "grammar": "kāraṇāt is apādāna, ablative of separation: 'from the cause'. paramārthataḥ is an adverbial ablative, 'ultimately / in ultimate truth'. ’nanyatvam is the abstract noun 'non-otherness'. vyatirekeṇa is an instrumental of exclusion: 'by exclusion, apart from'. abhāvaḥ is the nominal predicate 'absence'. kāryasya is a genitive dependent on abhāvaḥ: 'of the effect'.",
+      "words": [
+        { "i": 0, "iast": "kāraṇāt", "gloss": "from the cause", "morph": "abl. sg. neut." },
+        { "i": 1, "iast": "paramārthato", "gloss": "ultimately", "morph": "adverbial ablative" },
+        { "i": 2, "iast": "’nanyatvaṃ", "gloss": "non-otherness", "morph": "nom. sg. neut." },
+        {
+          "i": 3,
+          "iast": "vyatirekeṇābhāvaḥ",
+          "gloss": "absence by exclusion",
+          "morph": "vyatirekeṇa + abhāvaḥ in sandhi",
+          "parts": [
+            { "form": "vyatirekeṇa", "gloss": "by exclusion; apart from" },
+            { "form": "abhāvaḥ", "gloss": "absence" }
+          ]
+        },
+        { "i": 4, "iast": "kāryasya", "gloss": "of the effect", "morph": "gen. sg. neut." }
+      ]
+    },
+    {
+      "id": "gita-7-14",
+      "locus": "Bhagavad-Gītā Bhāṣya 7.14",
+      "cite": "sankara/gita-bhasya/7.14-svabhava-bhuta",
+      "source_label": "BhGBh 7.14",
+      "iast": "daivī devasya mameśvarasya viṣṇoḥ svabhāva-bhūtā hi yasmād eṣā yathoktā guṇa-mayī mama māyā duratyayā",
+      "english": "This divine māyā of mine, made of the guṇas, is of the nature of the Lord Viṣṇu and is hard to cross.",
+      "grammar": "daivī is nominative singular feminine. devasya, mameśvarasya, and viṣṇoḥ are genitives of relation. svabhāva-bhūtā is a compound participial adjective, 'become / constituted as its own nature'. hi is emphatic. yasmād introduces the reason. eṣā and yathoktā are nominative feminine forms referring to māyā. guṇa-mayī is a karmadhāraya compound, 'made of the guṇas'. duratyayā is a feminine adjective, 'hard to cross'.",
+      "words": [
+        { "i": 0, "iast": "daivī", "gloss": "divine", "morph": "nom. sg. fem." },
+        { "i": 1, "iast": "devasya", "gloss": "of the Lord", "morph": "gen. sg. masc." },
+        { "i": 2, "iast": "mameśvarasya", "gloss": "of me, the Lord", "morph": "gen. sg. masc. in sandhi" },
+        { "i": 3, "iast": "viṣṇoḥ", "gloss": "of Viṣṇu", "morph": "gen. sg. masc." },
+        {
+          "i": 4,
+          "iast": "svabhāva-bhūtā",
+          "gloss": "constituted as its own nature",
+          "morph": "nom. sg. fem. participial compound",
+          "parts": [
+            { "form": "svabhāva", "gloss": "own nature" },
+            { "form": "bhūta", "gloss": "become, constituted" }
+          ]
+        },
+        { "i": 5, "iast": "hi", "gloss": "indeed", "morph": "indecl." },
+        { "i": 6, "iast": "yasmād", "gloss": "because", "morph": "abl. sg. relative adverb" },
+        { "i": 7, "iast": "eṣā", "gloss": "this", "morph": "nom. sg. fem." },
+        { "i": 8, "iast": "yathoktā", "gloss": "as stated", "morph": "nom. sg. fem. ppp." },
+        {
+          "i": 9,
+          "iast": "guṇa-mayī",
+          "gloss": "made of the guṇas",
+          "morph": "nom. sg. fem. karmadhāraya compound",
+          "parts": [
+            { "form": "guṇa", "gloss": "guṇa" },
+            { "form": "mayī", "gloss": "made of" }
+          ]
+        },
+        { "i": 10, "iast": "mama", "gloss": "my", "morph": "gen. sg. pronoun" },
+        { "i": 11, "iast": "māyā", "gloss": "māyā", "morph": "nom. sg. fem." },
+        { "i": 12, "iast": "duratyayā", "gloss": "hard to cross", "morph": "nom. sg. fem." }
+      ]
+    },
+    {
+      "id": "gita-9-4-5",
+      "locus": "Bhagavad-Gītā Bhāṣya 9.4–5",
+      "cite": "sankara/gita-bhasya/9.4-5",
+      "source_label": "BhGBh 9.4–5",
+      "iast": "mayā tatam idaṃ sarvaṃ jagad avyakta-mūrtinā\nmat-sthāni sarva-bhūtāni na cāhaṃ teṣv avasthitaḥ\nna ca mat-sthāni bhūtāni paśya me yogam aiśvaram\nbhūta-bhṛn na ca bhūta-stho mamātmā bhūta-bhāvanaḥ",
+      "english": "All this world is pervaded by me in my unmanifest form. All beings are situated in me, yet I am not situated in them. And yet beings are not situated in me: behold my divine yoga. I bear beings but am not established in them; my Self is the sustainer and generator of beings.",
+      "grammar": "mayā is instrumental, the agent of pervasion. tatam is the past passive participle 'pervaded'. idaṃ sarvaṃ jagat is the full extent of the pervaded world. avyakta-mūrtinā qualifies the mode of presence. mat-sthāni uses a locative relation, 'situated in me'. teṣu and mat-sthāni are reciprocally opposed in the two verses. bhūta-bhṛt, bhūta-sthaḥ, and bhūta-bhāvanaḥ are nominal epithets that preserve non-involvement while asserting sustaining power.",
+      "words": [
+        { "i": 0, "iast": "mayā", "gloss": "by me", "morph": "instr. sg. pronoun" },
+        { "i": 1, "iast": "tatam", "gloss": "pervaded", "morph": "ppp, nom./acc. sg. neut." },
+        { "i": 2, "iast": "idaṃ", "gloss": "this", "morph": "nom./acc. sg. neut." },
+        { "i": 3, "iast": "sarvaṃ", "gloss": "all", "morph": "nom./acc. sg. neut." },
+        { "i": 4, "iast": "jagad", "gloss": "world", "morph": "nom./acc. sg. neut." },
+        {
+          "i": 5,
+          "iast": "avyakta-mūrtinā",
+          "gloss": "by the unmanifest form",
+          "morph": "instr. sg. compound",
+          "parts": [
+            { "form": "avyakta", "gloss": "unmanifest" },
+            { "form": "mūrti", "gloss": "form" }
+          ]
+        },
+        { "i": 6, "iast": "mat-sthāni", "gloss": "situated in me", "morph": "locative relation / compound" },
+        { "i": 7, "iast": "sarva-bhūtāni", "gloss": "all beings", "morph": "nom. pl. neut.", "parts": [{ "form": "sarva", "gloss": "all" }, { "form": "bhūta", "gloss": "being" }] },
+        { "i": 8, "iast": "na", "gloss": "not", "morph": "indecl." },
+        { "i": 9, "iast": "ca", "gloss": "and", "morph": "indecl." },
+        { "i": 10, "iast": "aham", "gloss": "I", "morph": "nom. sg. pronoun" },
+        { "i": 11, "iast": "teṣu", "gloss": "in them", "morph": "loc. pl. pronoun" },
+        { "i": 12, "iast": "avasthitaḥ", "gloss": "situated", "morph": "ppp, nom. sg. masc." },
+        { "i": 13, "iast": "na", "gloss": "not", "morph": "indecl." },
+        { "i": 14, "iast": "ca", "gloss": "and", "morph": "indecl." },
+        { "i": 15, "iast": "mat-sthāni", "gloss": "situated in me", "morph": "locative relation / compound" },
+        { "i": 16, "iast": "bhūtāni", "gloss": "beings", "morph": "nom. pl. neut." },
+        { "i": 17, "iast": "paśya", "gloss": "see", "morph": "impv. 2 sg. parasmaipada" },
+        { "i": 18, "iast": "me", "gloss": "my", "morph": "gen. sg. pronoun" },
+        { "i": 19, "iast": "yogam", "gloss": "yoga, power", "morph": "acc. sg. masc." },
+        { "i": 20, "iast": "aiśvaram", "gloss": "divine, lordly", "morph": "acc. sg. masc." },
+        { "i": 21, "iast": "bhūta-bhṛt", "gloss": "bearer of beings", "morph": "nom. sg. masc. epithet", "parts": [{ "form": "bhūta", "gloss": "beings" }, { "form": "bhṛt", "gloss": "bearing, sustaining" }] },
+        { "i": 22, "iast": "na", "gloss": "not", "morph": "indecl." },
+        { "i": 23, "iast": "ca", "gloss": "and", "morph": "indecl." },
+        { "i": 24, "iast": "bhūta-sthaḥ", "gloss": "situated in beings", "morph": "nom. sg. masc. compound", "parts": [{ "form": "bhūta", "gloss": "beings" }, { "form": "stha", "gloss": "standing, situated" }] },
+        { "i": 25, "iast": "mama", "gloss": "my", "morph": "gen. sg. pronoun" },
+        { "i": 26, "iast": "ātmā", "gloss": "Self", "morph": "nom. sg. masc." },
+        { "i": 27, "iast": "bhūta-bhāvanaḥ", "gloss": "sustainer / originator of beings", "morph": "nom. sg. masc. epithet", "parts": [{ "form": "bhūta", "gloss": "beings" }, { "form": "bhāvana", "gloss": "bringing into being, sustaining" }] }
+      ]
+    },
+    {
+      "id": "ramana-24",
+      "locus": "Upadeśa Sāram 24",
+      "cite": "ramana/upadesa-saram/24",
+      "source_label": "Upadeśa Sāram 24",
+      "iast": "īśa-jīvayor veṣa-dhī-bhidā / sat-svabhāvato vastu kevalam",
+      "english": "Between Īśvara and jīva there is a difference of guise and cognition; in their nature as Being, the reality is one alone.",
+      "grammar": "īśa-jīvayor is a genitive dual: 'of Īśa and jīva'. veṣa-dhī-bhidā is a compound nominal, 'difference of guise and cognition'. sat-svabhāvataḥ is an ablative of respect / cause: 'by nature as Being'. vastu is the neutral noun 'reality / thing'. kevalam is the limiting adjective 'alone'.",
+      "words": [
+        {
+          "i": 0,
+          "iast": "īśa-jīvayor",
+          "gloss": "of Īśvara and jīva",
+          "morph": "gen. dual",
+          "parts": [
+            { "form": "īśa", "gloss": "Īśvara, lord" },
+            { "form": "jīva", "gloss": "jīva, individual self" }
+          ]
+        },
+        {
+          "i": 1,
+          "iast": "veṣa-dhī-bhidā",
+          "gloss": "difference of guise and cognition",
+          "morph": "nom. sg. fem. compound",
+          "parts": [
+            { "form": "veṣa", "gloss": "guise, appearance" },
+            { "form": "dhī", "gloss": "cognition, mind" },
+            { "form": "bhidā", "gloss": "difference" }
+          ]
+        },
+        {
+          "i": 2,
+          "iast": "sat-svabhāvataḥ",
+          "gloss": "by nature as Being",
+          "morph": "abl. sg. adverbial compound",
+          "parts": [
+            { "form": "sat", "gloss": "Being" },
+            { "form": "svabhāva", "gloss": "own nature" }
+          ]
+        },
+        { "i": 3, "iast": "vastu", "gloss": "reality", "morph": "nom./acc. sg. neut." },
+        { "i": 4, "iast": "kevalam", "gloss": "alone", "morph": "nom./acc. sg. neut. adjective" }
+      ]
+    },
+    {
       "id": "anuvy-1-4-111-112",
       "locus": "Anuvyākhyāna 1.4.111–12",
       "cite": "madhva/anuvyakhyana/1.4.111-112",
@@ -1176,6 +1393,23 @@
           "gloss": "ever, anywhere",
           "morph": "indeclinable"
         }
+      ]
+    },
+    {
+      "id": "ramana-upadesa-saram-24",
+      "locus": "Upadeśa Sāram 24",
+      "cite": "ramana/upadesa-saram/24",
+      "source_label": "Upadeśa Sāram 24",
+      "iast": "īśa-jīvayor veṣa-dhī-bhidā / sat-svabhāvato vastu kevalam //",
+      "devanagari": "ईशजीवयोर्वेषधीभिदा । सत्स्वभावतो वस्तु केवलम् ॥",
+      "english": "{0:Of the Lord and the living being}: {1:a difference of guise-cognition}; {2:with respect to nature as Sat}, {3:reality} {4:alone}.",
+      "grammar": "Two nominal clauses; no finite verb is present. The internal relation in veṣa-dhī-bhidā is genuinely underdetermined by the verse alone and is left marked as such rather than silently settled.",
+      "words": [
+        {"i":0,"iast":"īśa-jīvayoḥ","deva":"ईशजीवयोः","gloss":"of the Lord and the living being","parts":[{"form":"īśa","gloss":"Lord"},{"form":"jīva","gloss":"living being"},{"form":"-yoḥ","gloss":"of the two"}],"stem":"īśa-jīva","affix":"os (ṣaṣṭhī-dvivacana; genitive dual)","morph":"gen. dual masc.","karaka":"sambandha, governed by bhidā","compound":{"type":"itaretara-dvandva","vigraha":"īśaś ca jīvaś ca, tayoḥ","members":["īśa","jīva"]}},
+        {"i":1,"iast":"veṣa-dhī-bhidā","deva":"वेषधीभिदा","gloss":"difference of guise-cognition","parts":[{"form":"veṣa","gloss":"guise; limiting presentation"},{"form":"dhī","gloss":"cognition; intellect"},{"form":"bhidā","gloss":"division; difference"}],"stem":"veṣa-dhī-bhidā","root":"√bhid (rudhādi, 7U)","rootGloss":"split; cleave","affix":"sup su (prathamā-ekavacana, feminine; zero surface)","morph":"nom. sg. fem.","karaka":"predicate nominal","note":"The verse alone does not decide between 'difference in cognition of guise' and a compressed co-ordinate relation; no decisive vigraha is invented."},
+        {"i":2,"iast":"sat-svabhāvataḥ","deva":"सत्स्वभावतः","gloss":"with respect to nature as Sat","parts":[{"form":"sat","gloss":"being; Sat"},{"form":"sva","gloss":"own"},{"form":"bhāva","gloss":"being; nature"},{"form":"-tas","gloss":"from; as to"}],"stem":"sat-svabhāva","root":"√as (adādi, 2P); √bhū (bhvādi, 1P)","rootGloss":"be","affix":"tasil (tas, adverbial)","morph":"avyaya","karaka":"adverbial qualification","compound":{"type":"semantically ambiguous compound","vigraha":"sat ātmā/svabhāvaḥ yasya; or san svabhāvaḥ","members":["sat","sva","bhāva"]},"note":"The verse alone does not decide the internal compound classification; the uncertainty is retained."},
+        {"i":3,"iast":"vastu","deva":"वस्तु","gloss":"reality; a thing","parts":[{"form":"vastu","gloss":"reality; a thing"}],"stem":"vastu","affix":"sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut.","karaka":"subject of the nominal clause","note":"No precise kṛt or unādi derivation is asserted without a checked lexical source."},
+        {"i":4,"iast":"kevalam","deva":"केवलम्","gloss":"alone; only","parts":[{"form":"kevala","gloss":"alone; exclusive"}],"stem":"kevala","affix":"sup su (prathamā-ekavacana, neuter; zero surface)","morph":"nom. sg. neut.","karaka":"predicate modifier agreeing with vastu"}
       ]
     }
   ]

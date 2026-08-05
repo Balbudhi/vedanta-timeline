@@ -160,11 +160,7 @@ Source: [*Anuvyākhyāna* 3.3.1](cite://madhva/anuvyakhyana/3.3.1).
 This provides the right comparison with Ramaṇa Maharshi. In Sanskrit
 *Upadeśa Sāram* 24, Ramaṇa says:
 
-::: sanskrit-aside
-:::: sanskrit
-*īśa-jīvayor veṣa-dhī-bhidā / sat-svabhāvato vastu kevalam //*
-:::: english
-“Between Īśvara and jīva there is difference of appearance and cognition; in their nature as Being, the reality is one alone.”
+::: gita-passage ramana-upadesa-saram-24
 :::
 
 Ramaṇa does not identify the body-mind person with Īśvara. He treats the
