@@ -4266,7 +4266,16 @@ function renderMarkdownParagraphs(src) {
       const trimmed = block.trim();
       if (!trimmed) return "";
       if (/^<(?:h[1-6]|blockquote|pre|ul|ol|div\b|table\b|hr\b)/.test(trimmed)) return trimmed;
-      return `<p>${trimmed.replace(/\n+/g, "<br>")}</p>`;
+      // Markdown source is softly wrapped for editing. A single newline is
+      // therefore a space in rendered prose; only Markdown's explicit hard
+      // breaks (two trailing spaces or a backslash) become <br>.
+      const hardBreak = "\u0000MDHARDBREAK\u0000";
+      const paragraph = trimmed
+        .replace(/[ \t]{2,}\n/g, hardBreak)
+        .replace(/\\\n/g, hardBreak)
+        .replace(/[ \t]*\n[ \t]*/g, " ")
+        .replaceAll(hardBreak, "<br>");
+      return `<p>${paragraph}</p>`;
     })
     .filter(Boolean)
     .join("\n");
