@@ -353,6 +353,8 @@ function renderPassages(root, passages, opts) {
   HOST_THINKER = typeof opts.onThinker === "function" ? opts.onThinker : null;
   HOST_LINKIFY = typeof opts.linkifyGlossary === "function" ? opts.linkifyGlossary : null;
   HOST_RESOLVE = typeof opts.glossaryResolve === "function" ? opts.glossaryResolve : null;
+  GRAMMAR_NOTES.clear();
+  grammarNoteN = 0;
   for (const p of passages || []) {
     const host = root.querySelector(`[data-gita-passage="${CSS.escape(p.id)}"]`);
     if (!host || !Array.isArray(p.words) || !p.words.length || !p.english) continue;
@@ -360,11 +362,75 @@ function renderPassages(root, passages, opts) {
       <div class="article-passage-head">${esc(p.locus || "Sanskrit passage")}</div>
       <div class="article-passage-sa" lang="sa-Latn">${esc(p.iast || "").replace(/\n/g, "<br>")}</div>
       ${interactiveBlock(p.words, p.english)}
-      ${p.grammar ? `<div class="article-passage-grammar">${esc(p.grammar)}</div>` : ""}
+      ${p.grammar ? `<div class="article-passage-grammar">${renderGrammarNote(p)}</div>` : ""}
       ${p.cite ? `<div class="article-passage-source"><a href="cite://${esc(p.cite)}">Source: ${esc(p.source_label || p.locus || "primary text")}</a></div>` : ""}
     </section>`;
   }
   wireWords();
+}
+
+// Reader notes sometimes name a Sanskrit form or a compact grammatical label
+// which is not otherwise visible as a tappable word. These are *reader-local*
+// explanations, not glossary entries: clicking a quoted form opens its existing
+// word card; clicking a technical label opens a short, self-contained note.
+const GRAMMAR_HELP = {
+  "nominal analysis": "A clause organized around nouns and adjectives rather than a finite verb. English normally supplies ‘is’ or ‘are.’",
+  "nominal sentence": "A sentence with no expressed finite verb; the relation is understood from case agreement and context.",
+  "nominal clauses": "Clauses without an expressed finite verb; English supplies the necessary ‘is’ or ‘are.’",
+  "finite conditional sentence": "A full ‘if … then …’ construction with an expressed finite verb. The cited prose is not one.",
+  "kta resultative": "kta is the past passive participial suffix. Here it marks a resultative sense: ‘held’ or ‘considered so.’",
+  "iti-content": "iti closes quoted or mentally represented content. The preceding words are what the verb ‘knows,’ ‘says,’ or ‘thinks.’",
+  "sandhi": "The regular phonetic joining of adjacent Sanskrit sounds at a word boundary.",
+  "Aṣṭādhyāyī 8.4.45": "Pāṇini 8.4.45 permits the cited nasal substitution before a following consonant; it accounts for the transmitted sandhi form.",
+  "kāraka": "The syntactic-semantic role a word bears in relation to the action, such as agent or object.",
+  "kartṛ": "The agent or syntactic subject: the one presented as doing or being in the clause.",
+  "karman": "The object most directly affected by the verbal action.",
+  "sambandha-genitive": "A genitive (‘of’) expressing relation or possession, rather than an object of an action.",
+  "predicate nominative": "A nominative word that says what the nominative subject is, as in ‘the world-manifold is a fivefold difference.’",
+  "appositional": "A co-referential expression placed beside another: two descriptions of the same referent.",
+  "copula": "The understood linking verb ‘is/are.’ Sanskrit nominal clauses often leave it unspoken.",
+  "saṃhitā": "The continuous, sandhied text as transmitted, before it is separated into individual words (pada-pāṭha)."
+};
+let grammarNoteN = 0;
+const GRAMMAR_NOTES = new Map();
+let grammarCardEl = null;
+
+function regexEscape(s) { return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+function renderGrammarNote(p) {
+  const annotations = [];
+  // Only forms of three or more characters are auto-linked. Short particles
+  // such as ya are explained only where the passage supplies an explicit note,
+  // so an ordinary English word cannot accidentally become a Sanskrit target.
+  for (const w of p.words || []) {
+    if (w && w.iast && String(w.iast).length >= 3 && String(p.grammar).includes(w.iast)) {
+      annotations.push({ label: String(w.iast), wi: w.i });
+    }
+  }
+  for (const [label, note] of Object.entries(GRAMMAR_HELP)) {
+    if (String(p.grammar).includes(label)) annotations.push({ label, note });
+  }
+  for (const a of p.grammar_annotations || []) {
+    if (a && a.label && (a.note || a.wi != null)) annotations.push(a);
+  }
+  const unique = new Map();
+  for (const a of annotations) if (!unique.has(a.label)) unique.set(a.label, a);
+  const items = [...unique.values()].sort((a, b) => b.label.length - a.label.length);
+  if (!items.length) return esc(p.grammar);
+  const re = new RegExp(items.map(a => regexEscape(a.label)).join("|"), "g");
+  let last = 0, out = "", match;
+  while ((match = re.exec(p.grammar)) !== null) {
+    out += esc(p.grammar.slice(last, match.index));
+    const a = unique.get(match[0]);
+    if (a.wi != null) {
+      out += `<button class="grammar-ref" type="button" data-grammar-wi="${esc(a.wi)}" aria-label="Explain ${esc(a.label)}">${esc(a.label)}</button>`;
+    } else {
+      const id = `gn${++grammarNoteN}`;
+      GRAMMAR_NOTES.set(id, { label: a.label, note: a.note });
+      out += `<button class="grammar-ref" type="button" data-grammar-note="${id}" aria-label="Explain ${esc(a.label)}">${esc(a.label)}</button>`;
+    }
+    last = match.index + match[0].length;
+  }
+  return out + esc(p.grammar.slice(last));
 }
 
 /* ---------- word ↔ English highlight + card (CLICK ONLY) ---------- */
@@ -404,6 +470,7 @@ function deactivate(span) {
 function clearSticky() { if (sticky) { deactivate(sticky); sticky = null; } }
 
 function pinWord(w) {
+  hideGrammarCard();
   if (sticky === w) { clearSticky(); return; }
   if (sticky) deactivate(sticky);
   sticky = w; activate(w);
@@ -433,6 +500,20 @@ function wireWords() {
     const h = hoverTargets(t); if (h) hoverSet(h.sc, h.idxs, false);
   });
   ROOT.addEventListener("click", e => {
+    const grammarRef = e.target.closest(".grammar-ref");
+    if (grammarRef) {
+      e.stopPropagation();
+      const wi = grammarRef.dataset.grammarWi;
+      if (wi != null) {
+        const section = grammarRef.closest(".article-passage");
+        const word = section && section.querySelector(`.w[data-wi="${CSS.escape(wi)}"]`);
+        if (word) pinWord(word);
+      } else {
+        const note = GRAMMAR_NOTES.get(grammarRef.dataset.grammarNote);
+        if (note) showGrammarCard(grammarRef, note);
+      }
+      return;
+    }
     const who = e.target.closest(".voice-who-link");
     if (who) { e.stopPropagation(); if (HOST_THINKER) HOST_THINKER(who.dataset.thinker); return; }
     const w = e.target.closest(".w");
@@ -456,13 +537,16 @@ function wireWords() {
   });
   document.addEventListener("click", e => {
     if (cardEl && cardEl.contains(e.target)) return;
+    if (grammarCardEl && grammarCardEl.contains(e.target)) return;
     if (glossEl && glossEl.contains(e.target)) return;
     clearSticky();
+    hideGrammarCard();
   });
   document.addEventListener("keydown", e => {
     if (e.key !== "Escape") return;
     if (glossEl) { closeGlossary(); return; }
     clearSticky();
+    hideGrammarCard();
   });
   window.addEventListener("scroll", hideCard, { passive: true, capture: true });
 }
@@ -524,6 +608,26 @@ function showCard(span, w) {
   }));
 }
 function hideCard() { if (cardEl) cardEl.hidden = true; }
+
+function ensureGrammarCard() {
+  if (grammarCardEl) return grammarCardEl;
+  grammarCardEl = document.createElement("div");
+  grammarCardEl.className = "wcard grammar-card";
+  grammarCardEl.setAttribute("role", "tooltip");
+  grammarCardEl.hidden = true;
+  document.body.appendChild(grammarCardEl);
+  return grammarCardEl;
+}
+function showGrammarCard(anchor, note) {
+  clearSticky();
+  const card = ensureGrammarCard();
+  card.innerHTML = `<div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(note.label)}</span></div><div class="wc-mean">${esc(note.note)}</div>`;
+  card.style.visibility = "hidden";
+  card.hidden = false;
+  place(card, anchor);
+  card.style.visibility = "visible";
+}
+function hideGrammarCard() { if (grammarCardEl) grammarCardEl.hidden = true; }
 
 function place(el, anchor) {
   const r = anchor.getBoundingClientRect();

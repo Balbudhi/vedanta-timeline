@@ -2738,6 +2738,28 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   font-size: 12px;
   line-height: 1.5;
 }
+.dp-article-body .grammar-ref {
+  appearance: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px dotted currentColor;
+  border-radius: 0;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  text-align: inherit;
+}
+.dp-article-body .grammar-ref:hover,
+.dp-article-body .grammar-ref:focus-visible {
+  color: var(--ink);
+  border-bottom-style: solid;
+  outline: none;
+}
+.grammar-card { max-width: min(340px, calc(100vw - 24px)); }
 .dp-article-body .article-passage-source {
   margin-top: 10px;
   font-family: var(--sans);
@@ -2774,6 +2796,9 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   .dp-article-body .article-passage .ix {
     min-width: 0;
     overflow-wrap: anywhere;
+  }
+  .dp-article-body .grammar-ref {
+    padding: 2px 0;
   }
 }
 
