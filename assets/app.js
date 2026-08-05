@@ -3473,6 +3473,9 @@ async function openCitationPopover(key, anchorEl) {
       ? `<div class="cp-block cp-english"><span class="cp-label">${isPending ? "Close English — context" : "Close English"}</span><div class="cp-en">${md(entry.english_close)}</div></div>`
       : "";
     const openWork = `<button class="cp-open-thinker" data-thinker-id="${escape(tid)}">Open ${escape(thinkerName)} →</button>`;
+    const openSource = entry.source_url
+      ? `<a class="cp-open-source" href="${escape(entry.source_url)}" target="_blank" rel="noopener">Open public source ↗</a>`
+      : "";
     bodyHtml = `
       <div class="cp-header">
         <div class="cp-locus">${escape(locusDisplay)}${isPending ? ` <span class="cp-pending-badge">Pending</span>` : ""}</div>
@@ -3481,7 +3484,7 @@ async function openCitationPopover(key, anchorEl) {
       ${pendingBlock}
       ${sk}
       ${en}
-      <div class="cp-actions">${openWork}</div>
+      <div class="cp-actions">${openSource}${openWork}</div>
     `;
   } else {
     const openWork = t
@@ -5020,10 +5023,11 @@ function renderMarkdownFull(src) {
   // touching them.
   const asides = [];
   // The convention accepts ":::: <lang>" as the label for the left pane.
-  // Recognised lang tokens: sanskrit, german, french, latin, greek, pali,
-  // tibetan, arabic, hebrew. Anything else is rendered as-is, capitalised.
+  // Recognised lang tokens: Sanskrit, Bengali, German, French, Latin, Greek,
+  // Pali, Tibetan, Arabic, Hebrew. Anything else is rendered as-is,
+  // capitalised.
   src = src.replace(/^::: sanskrit-aside\s*\n([\s\S]*?)\n:::\s*$/gm, (_m, body) => {
-    const langMatch = body.match(/^:::: (sanskrit|german|french|latin|greek|pali|tibetan|arabic|hebrew)\s*\n/i);
+    const langMatch = body.match(/^:::: (sanskrit|bengali|german|french|latin|greek|pali|tibetan|arabic|hebrew)\s*\n/i);
     const sourceLang = langMatch ? langMatch[1].toLowerCase() : "sanskrit";
     const skRe = new RegExp(":::: " + sourceLang + "\\s*\\n([\\s\\S]*?)(?=\\n:::: english|\\s*$)", "i");
     const skMatch = body.match(skRe);
@@ -5073,12 +5077,18 @@ function renderMarkdownFull(src) {
     },
   );
   // Standard markdown
+  // A contiguous Markdown blockquote is one quotation, even when it has
+  // several physical lines. Rendering every `>` line as its own `<blockquote>`
+  // produced a stack of deeply indented strips on narrow screens.
+  src = src.replace(/(?:^> .+(?:\n|$))+/gm, (block) => {
+    const lines = block.trimEnd().split("\n").map((line) => line.replace(/^>\s?/, ""));
+    return `<blockquote>${lines.join("<br>")}</blockquote>`;
+  });
   let out = src
     .replace(/^### (.+)$/gm, "<h3>$1</h3>")
     .replace(/^## (.+)$/gm, "<h2>$1</h2>")
     .replace(/^# (.+)$/gm, "<h1>$1</h1>")
-    .replace(/^&gt; (.+)$/gm, "<blockquote>$1</blockquote>")
-    .replace(/^> (.+)$/gm, "<blockquote>$1</blockquote>");
+    .replace(/^&gt; (.+)$/gm, "<blockquote>$1</blockquote>");
   out = applyEmphasis(out);
   out = renderMarkdownParagraphs(out);
   // Glossary tagging — parity with the thinker-prose md() path. Done

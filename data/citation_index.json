@@ -13777,6 +13777,77 @@
       "source": "pending-acquisition — Bhāskara's *Brahma-Sūtra-Bhāṣya* not yet on disk in clean OCR form; locus preserved.",
       "verified": "pending-acquisition",
       "verification_note": "Re-targeted from cite://sankara/brahma-sutra-bhasya/* (audit WRONG-TARGET fix, Phase 3, 2026-05-12). Bhāskara's own *Brahma-Sūtra-Bhāṣya* — distinct from Śaṅkara's — is the host text the prose discusses; passage awaits acquisition. Print edition reference: V. P. Dvivedī, ed., *Brahmasūtra-Bhāṣya* of Bhāskara (Chowkhamba 1903 / Achyut Granthamala 1915)."
+    },
+    "sankara/chandogya-upanisad-bhasya/6.3.2-sadatmana": {
+      "thinker_id": "sankara",
+      "work_id": "chandogya-upanisad-bhasya",
+      "locus": "Chāndogya Upaniṣad Bhāṣya 6.3.2",
+      "locus_short": "ChU Bh 6.3.2",
+      "sanskrit_iast": "sadātmanā satyatvābhyupagamāt / sarvaṃ ca nāmarūpādi sadātmanaiva satyaṃ vikārajātaṃ svatas tv anṛtam eva / … ataḥ sadātmanā sarvavyavahārāṇāṃ sarvavikārāṇāṃ ca satyatvaṃ sato ’nyatvenānṛtatvam iti",
+      "english_close": "Because their truth is admitted only with Sat as their self: all name and form and the like is true only with Sat as its self; the class of modifications is untrue in itself. Therefore all transactions and all modifications are true with Sat as their self, and untrue as other than Sat.",
+      "source": "sanskrit/vedic/chandogya_upanisad_gretil.txt#6914-6920",
+      "source_url": "http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_chAndogyopaniSad-comm.xml",
+      "verified": true
+    },
+    "sankara/brahma-sutra-bhasya/1.1.12-dvirupam": {
+      "thinker_id": "sankara",
+      "work_id": "brahma-sutra-bhasya",
+      "locus": "Brahma-Sūtra-Bhāṣya 1.1.12, introduction",
+      "locus_short": "BSBh 1.1.12",
+      "sanskrit_iast": "dvirūpaṃ hi brahmāvagamyate, nāmarūpavikārabhedopādhiviśiṣṭaṃ, tadviparītaṃ ca sarvopādhivivarjitam / tatrāvidyāvasthāyāṃ brahmaṇa upāsyopāsakādikṣaṇaḥ sarvo vyavahāraḥ / eka eva tu paramātmeśvaras tais tair guṇaviśeṣair viśiṣṭa upāsyo …",
+      "english_close": "Brahman is understood in two modes: as qualified by name, form, modification, difference, and limiting adjuncts, and as the contrary, free of every limiting adjunct. In the state of ignorance, all transaction consisting in Brahman as worshipped and worshipper takes place. Yet the supreme Self, the Lord, is one and is worshipped as qualified by the various particular qualities.",
+      "source": "sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt#337",
+      "verified": true
+    },
+    "sankara/gita-bhasya/7.4-maya-sakti": {
+      "thinker_id": "sankara",
+      "work_id": "gita-bhasya",
+      "locus": "Bhagavad-Gītā Bhāṣya 7.4",
+      "locus_short": "BhGBh 7.4",
+      "sanskrit_iast": "itīyaṃ yathoktā prakṛtir me mamaiśvarī māyā-śaktir aṣṭadhā bhinnā bhedam āgatā",
+      "english_close": "This prakṛti just described is mine—my sovereign māyā-power—divided eightfold and come to differentiation.",
+      "source": "sanskrit/vedanta/shankara_gita_bhasya.txt#4979",
+      "verified": true
+    },
+    "sankara/gita-bhasya/7.14-svabhava-bhuta": {
+      "thinker_id": "sankara",
+      "work_id": "gita-bhasya",
+      "locus": "Bhagavad-Gītā Bhāṣya 7.14",
+      "locus_short": "BhGBh 7.14",
+      "sanskrit_iast": "daivī devasya mameśvarasya viṣṇoḥ svabhāva-bhūtā hi yasmād eṣā yathoktā guṇa-mayī mama māyā duratyayā",
+      "english_close": "This divine, guṇa-made māyā of mine is of the nature of the god—of me, the Lord Viṣṇu—and is difficult to cross.",
+      "source": "sanskrit/vedanta/shankara_gita_bhasya.txt#5139-5141",
+      "verified": true
+    },
+    "sankara/gita-bhasya/9.1-vijnana": {
+      "thinker_id": "sankara",
+      "work_id": "gita-bhasya",
+      "locus": "Bhagavad-Gītā Bhāṣya 9.1",
+      "locus_short": "BhGBh 9.1",
+      "sanskrit_iast": "idam eva tu samyagjñānaṃ sākṣāt mokṣaprāptisādhanam vāsudevaḥ sarvam iti, ātmaivedaṃ sarvam, ekam evādvitīyam ityādiśrutismṛtibhyaḥ … vijñānasahitam anubhavayuktam",
+      "english_close": "This alone is right knowledge, directly the means to liberation: ‘Vāsudeva is all,’ ‘this all is the Self,’ ‘one only, without a second,’ and the like. It is joined with vijñāna, that is, joined with experience.",
+      "source": "sanskrit/vedanta/shankara_gita_bhasya.txt#5965-6005",
+      "verified": true
+    },
+    "sankara/gita-bhasya/9.4-5": {
+      "thinker_id": "sankara",
+      "work_id": "gita-bhasya",
+      "locus": "Bhagavad-Gītā Bhāṣya 9.4–5",
+      "locus_short": "BhGBh 9.4–5",
+      "sanskrit_iast": "na hi nirātmakaṃ kiṃcid bhūtaṃ vyavahārāyāvakalpate / ato matsthāni mayātmanā ātmavattvena sthitāni … na cāhaṃ teṣu bhūteṣv avasthitaḥ … na hy asaṃsargi vastu kvacid ādheyabhāvenāvasthitaṃ bhavati",
+      "english_close": "No being devoid of the Self can be available for transaction. Therefore beings are said to be in me because they stand with me as their self. Yet I do not abide in those beings: a non-connected reality cannot anywhere abide as a contained thing.",
+      "source": "sanskrit/vedanta/shankara_gita_bhasya.txt#6005-6070",
+      "verified": true
+    },
+    "madhva/anuvyakhyana/2.1.85-86": {
+      "thinker_id": "madhva",
+      "work_id": "anuvyakhyana",
+      "locus": "Anuvyākhyāna 2.1.85–86",
+      "locus_short": "Anuvy. 2.1.85–86",
+      "sanskrit_iast": "nānyad anyatvam āpannaṃ kvacid dṛṣṭaṃ kathañcana / ato jīvasya na brahmabhāvaḥ syād dhi kadācana // kvacid bhinnatayā dṛṣṭaṃ tadabhinnatayā katham / dṛśyen no dṛṣṭapūrvaṃ hi tādṛśaṃ na ca dṛśyate //",
+      "english_close": "Nothing that has acquired otherness is ever seen anywhere not to be other. Therefore the jīva can never have Brahman-nature. If something is seen as different somewhere, how could it be seen as non-different? Such a thing has not previously been seen, nor is it seen.",
+      "source": "sanskrit/vedanta/full_corpus/madhva_anuvyakhyana_gretil.txt#manuv_2,1.85-86",
+      "verified": true
     }
   },
   "aliases": {

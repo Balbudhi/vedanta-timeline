@@ -20,11 +20,12 @@ independent plurality entails the opposition Maharaj draws.
 
 In the *Kathāmṛta* entry of 22 September 1883, Ramakrishna says:
 
-> **যিনিই ব্রহ্ম তিনিই শক্তি। … যখন সৃষ্টি, স্থিতি, প্রলয় করেন তখন তাঁকে শক্তি বলে। দুটা আলাদা জিনিস নয়। একই জিনিস।**
-
-> “The very one who is Brahman is Śakti. … When [that one] creates, sustains,
-> and dissolves, [that one] is called Śakti. They are not two separate things.
-> [They are] the same thing.”
+::: sanskrit-aside
+:::: bengali
+**যিনিই ব্রহ্ম তিনিই শক্তি। … যখন সৃষ্টি, স্থিতি, প্রলয় করেন তখন তাঁকে শক্তি বলে। দুটা আলাদা জিনিস নয়। একই জিনিস।**
+:::: english
+“The very one who is Brahman is Śakti. … When [that one] creates, sustains, and dissolves, [that one] is called Śakti. They are not two separate things. [They are] the same thing.”
+:::
 
 The emphatic relative–correlative construction **যিনিই … তিনিই** (*jini-i …
 tini-i*) identifies one referent; **একই জিনিস** states “the same thing.” The
@@ -39,14 +40,14 @@ living beings, the world, and the twenty-four principles. *Vijñāna* therefore
 names recognition of the one Reality in the field that had first been negated
 as separately real.
 
-Sources: [*Kathāmṛta*, 22 September 1883](/Users/eeshan/Dev/parishishta/materials/ramakrishna/kathamrita_official_portal_unicode/unicode_pages/16_y_brahma_shakti_269_274.html) and [5 April 1884](/Users/eeshan/Dev/parishishta/materials/ramakrishna/kathamrita_official_portal_unicode/unicode_pages/20_u_with_prankrishna_413_416.html).
+Sources: *Śrīśrīrāmakṛṣṇakathāmṛta*, 22 September 1883 and 5 April 1884; compare the [public *Gospel of Sri Ramakrishna* text](https://www.ramakrishnavivekananda.info/gospel/volume_1/).
 
 Maharaj takes the analogies of fire and burning power, water and wetness, and
 gem and radiance as the philosophical form of this teaching. From their
 inseparability he draws the conclusion that Brahman and Śakti have equal
 ontological status and mutual ontological dependence.
 
-Source: [Maharaj, *Infinite Paths to Infinite Reality*, pp. 36–38](/Users/eeshan/Dev/parishishta/materials/medhananda/maharaj_2018_infinite_paths_to_infinite_reality.txt:1785).
+Source: [Ayon Maharaj, *Infinite Paths to Infinite Reality* (Oxford University Press, 2018), pp. 36–38](https://academic.oup.com/book/6103).
 
 ## 2. Śaṅkara on worship, name and form, and the world
 
@@ -59,15 +60,17 @@ hierarchy between relational worship and nondual knowledge. It does not turn
 the worshipped Lord into a second substance, and the passage does not describe
 the one Lord, his powers, or worship as simple nonentities.
 
-Source: [*Brahma-sūtra-bhāṣya* 1.1.12](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt:337).
+Source: [*Brahma-sūtra-bhāṣya* 1.1.12](cite://sankara/brahma-sutra-bhasya/1.1.12-dvirupam).
 
 The more precise statement occurs in Śaṅkara’s commentary on *Chāndogya
 Upaniṣad* 6.3.2:
 
-> *sarvaṃ ca nāmarūpādi sadātmanaiva satyaṃ; vikārajātaṃ svatas tv anṛtam eva.*
-
-> “All name-and-form and so on is true only with Sat as its Self; the class of
-> modifications is untrue in its own right.”
+::: sanskrit-aside
+:::: sanskrit
+*sarvaṃ ca nāmarūpādi sadātmanaiva satyaṃ; vikārajātaṃ svatas tv anṛtam eva.*
+:::: english
+“All name-and-form and so on is true only with Sat as its Self; the class of modifications is untrue in its own right.”
+:::
 
 *Sadātmanā* means “with Sat as its Self”; *svatas* means “in its own right.”
 The statement makes a strict distinction. Name and form are true as
@@ -75,21 +78,23 @@ non-separate from Sat; name and form considered as a reality apart from Sat are
 untrue. Śaṅkara is not saying that perceptible content disappears into a blank;
 he is denying that it possesses self-standing being.
 
-Source: [*Chāndogya Upaniṣad Bhāṣya* 6.3.2](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedic/chandogya_upanisad_gretil.txt:6901).
+Source: [*Chāndogya Upaniṣad Bhāṣya* 6.3.2](cite://sankara/chandogya-upanisad-bhasya/6.3.2-sadatmana).
 
 *Brahma-sūtra-bhāṣya* 2.1.14 states the same asymmetry as *ananyatva*:
 
-> *kāraṇāt paramārthato ’nanyatvaṃ vyatirekeṇābhāvaḥ kāryasya.*
-
-> “Ultimate non-otherness from the cause is the effect’s absence when [the
-> cause is] excluded.”
+::: sanskrit-aside
+:::: sanskrit
+*kāraṇāt paramārthato ’nanyatvaṃ vyatirekeṇābhāvaḥ kāryasya.*
+:::: english
+“Ultimate non-otherness from the cause is the effect’s absence when [the cause is] excluded.”
+:::
 
 Śaṅkara there rejects the view that unity and plurality are equally ultimate,
 and says that unity alone is ultimate. Thus his texts rule out an ontology in
 which manifested plurality is an independent or coordinate second reality.
 They do not rule out the truth of name and form as Brahman’s own being.
 
-Source: [*Brahma-sūtra-bhāṣya* 2.1.14](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_brahma_sutra_bhasya.txt:2424).
+Source: [*Brahma-sūtra-bhāṣya* 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14).
 
 The *Gītā-bhāṣya* applies this account to divine allness. At 9.4, beings are
 in Kṛṣṇa because they subsist with him as their Self; at 9.5, they do not stand
@@ -99,7 +104,7 @@ identifies its content with *Vāsudevaḥ sarvam*, *ātmaivedaṃ sarvam*, and *
 evādvitīyam*. Complete knowledge is therefore direct experiential allness,
 not an abstract cognition of a self cut off from manifestation.
 
-Sources: [*Gītā-bhāṣya* 7.2](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:4945), [9.1](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:5977), [9.4](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:6026), and [9.5](/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:6044).
+Sources: [*Bhagavad-gītā-bhāṣya* 7.4](cite://sankara/gita-bhasya/7.4-maya-sakti), [7.14](cite://sankara/gita-bhasya/7.14-svabhava-bhuta), [9.1](cite://sankara/gita-bhasya/9.1-vijnana), and [9.4–5](cite://sankara/gita-bhasya/9.4-5).
 
 ## Finding
 
