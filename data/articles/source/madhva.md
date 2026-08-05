@@ -39,11 +39,7 @@ Source: [*Tattvaviveka* (public text)](https://madhva.in/tatvaviveka/tatvaviveka
 The correlative positive doctrine is *pañcabheda*. *Anuvyākhyāna* 1.4.110–12
 calls the manifest world fivefold difference:
 
-::: sanskrit-aside
-:::: sanskrit
-*jīveśvarabhidā caiva jaḍeśvarabhidā tathā / jīvabhedo mithaś caiva jaḍajīvabhidā tathā // mithaś ca jaḍabhedo yaḥ prapañco bhedapañcakaḥ //*
-:::: english
-“The world is the fivefold difference: difference of jīva and Lord, of insentient [matter] and Lord, of jīvas from one another, of matter and jīva, and of material things from one another.”
+::: gita-passage anuvy-1-4-111-112
 :::
 
 The following verse calls this difference *satya* (“real”) and *anādi*
@@ -86,7 +82,7 @@ identity statement is not a separately real jīva but Brahman, while the jīva
 is superimposition. Madhva knows that strategy and rejects it, rather than
 merely attacking the body-mind ego.
 
-Sources: [*Māyāvāda-khaṇḍana*, identity thesis](cite://madhva/mayavada-khandana/genuine identity-thesis on the opponent's side) and [its dilemma](cite://madhva/mayavada-khandana/the loss of non-duality stands apart from the self's nature).
+Sources: [*Māyāvāda-khaṇḍana*, identity thesis](cite://madhva/mayavada-khandana/thesis) and [its dilemma](cite://madhva/mayavada-khandana/the loss of non-duality stands apart from the self's nature).
 
 Madhva further asks how ignorance can cover a self-luminous, featureless
 reality. The question bears on the locus, object, and removal of ignorance,
@@ -124,11 +120,7 @@ Source: [*Mithyātvānumāna-khaṇḍana*, opening inference](cite://madhva/mit
 Madhva’s sharpest argument concerns the purified witness, not ordinary
 perception alone:
 
-::: sanskrit-aside
-:::: sanskrit
-*śuddhaḥ sākṣī yadā siddho duḥkhitvaṃ vāryate katham / upajīvyapramāṇaṃ tad bhedagrāhakam eva hi / ato jīveśayor bhedaḥ śrutisāmarthyasusthiraḥ //*
-:::: english
-“When a pure witness is established, how is the state of being a sufferer to be excluded? For the means of knowledge on which one relies apprehends difference itself. Therefore difference between jīva and Lord is firmly established by the force of scripture.”
+::: gita-passage anuvy-2-3-66-69-witness
 :::
 
 The preceding verses call the relevant distinctions objects of
@@ -143,11 +135,7 @@ Source: [*Anuvyākhyāna* 2.3.66–69](cite://madhva/anuvyakhyana/2.3.66-69).
 
 Madhva also supplies a hermeneutic for apparent *abheda* statements:
 
-::: sanskrit-aside
-:::: sanskrit
-*sādṛśyāc ca pradhānatvāt svātantryād api cābhidām / āhur īśena jīvasya na svarūpābhidāṃ kvacit //*
-:::: english
-“They speak of non-difference of the jīva from the Lord because of likeness, primacy, and dependence—not of non-difference in essential nature, ever.”
+::: gita-passage anuvy-2-3-66-69-abheda
 :::
 
 The decisive term is *svarūpābhidā*, non-difference in essential nature,
@@ -239,7 +227,7 @@ is already established; if it is not, it cannot establish non-difference. The
 Advaitin reply recorded there is that ordinary *pramāṇas* function within the
 empirical order even while their objects are not ultimately independent.
 
-Source: Jayatīrtha, *Nyāyasudhā*, on *Anuvyākhyāna* 1.1.17.
+Source: Jayatīrtha, *Nyāyasudhā*, on *Anuvyākhyāna* 1.1.17 (public archive: https://archive.org/details/NyayasudhaSamagra).
 
 Vyāsatīrtha’s *Nyāyāmṛta* then criticizes the technically developed Advaita of
 authors such as Ānandabodha, Citsukha, and the Vivaraṇa tradition. Its scope is

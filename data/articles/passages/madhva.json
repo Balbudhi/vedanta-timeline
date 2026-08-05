@@ -1,0 +1,1176 @@
+{
+  "passages": [
+    {
+      "id": "anuvy-1-4-111-112",
+      "locus": "Anuvyākhyāna 1.4.111–12",
+      "iast": "jīveśvarabhidā caiva jaḍeśvarabhidā tathā /\njīvabhedo mithaścaiva jaḍajīvabhidā tathā /\nmithaśca jaḍabhedo yaḥ prapañco bhedapañcakaḥ //\nso 'yaṃ satyo hyanādiśca sādiścennāśamāpnuyāt /\ndvaitaṃ na vidyata iti tasmādajñānināṃ matam //",
+      "english": "The world is the fivefold difference: difference of jīva and Lord, of insentient matter and Lord, of jīvas from one another, of matter and jīva, and of insentient things from one another. This is real and beginningless; if it had a beginning, it would come to destruction. Therefore the statement “duality does not exist” is the view of the ignorant.",
+      "grammar": "The passage is built from five relational compounds naming the five bhedas Madhva treats as real. I have kept the compounds as single clickable units where that preserves the transmitted form; the internal vigraha is noted in the word cards. The phrase sādiḥ is slightly compressed in the transmitted sandhi; it is read here as “having a beginning.”",
+      "words": [
+        {
+          "i": 0,
+          "iast": "jīveśvarabhidā",
+          "gloss": "difference between jīva and Īśvara",
+          "morph": "nom sg fem; compound noun",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "jīvasya īśvarasya ca bhidā"
+          },
+          "parts": [
+            {
+              "form": "jīva",
+              "gloss": "jīva, individual soul"
+            },
+            {
+              "form": "īśvara",
+              "gloss": "Lord, ruler"
+            },
+            {
+              "form": "bhidā",
+              "gloss": "difference, distinction"
+            }
+          ]
+        },
+        {
+          "i": 1,
+          "iast": "caiva",
+          "gloss": "and indeed / and likewise",
+          "morph": "particle cluster"
+        },
+        {
+          "i": 2,
+          "iast": "jaḍeśvarabhidā",
+          "gloss": "difference between matter and Īśvara",
+          "morph": "nom sg fem; compound noun",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "jaḍasya īśvarasya ca bhidā"
+          },
+          "parts": [
+            {
+              "form": "jaḍa",
+              "gloss": "insentient, material"
+            },
+            {
+              "form": "īśvara",
+              "gloss": "Lord"
+            },
+            {
+              "form": "bhidā",
+              "gloss": "difference, distinction"
+            }
+          ]
+        },
+        {
+          "i": 3,
+          "iast": "tathā",
+          "gloss": "likewise",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 4,
+          "iast": "jīvabhedaḥ",
+          "gloss": "difference among jīvas",
+          "morph": "nom sg masc; compound noun",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "jīvānāṃ bhedaḥ"
+          },
+          "parts": [
+            {
+              "form": "jīva",
+              "gloss": "jīva, individual soul"
+            },
+            {
+              "form": "bhedaḥ",
+              "gloss": "difference"
+            }
+          ]
+        },
+        {
+          "i": 5,
+          "iast": "mithaścaiva",
+          "gloss": "and mutually / and likewise among themselves",
+          "morph": "particle cluster"
+        },
+        {
+          "i": 6,
+          "iast": "jaḍajīvabhidā",
+          "gloss": "difference between matter and jīva",
+          "morph": "nom sg fem; compound noun",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "jaḍasya jīvasya ca bhidā"
+          },
+          "parts": [
+            {
+              "form": "jaḍa",
+              "gloss": "insentient, material"
+            },
+            {
+              "form": "jīva",
+              "gloss": "jīva, individual soul"
+            },
+            {
+              "form": "bhidā",
+              "gloss": "difference, distinction"
+            }
+          ]
+        },
+        {
+          "i": 7,
+          "iast": "tathā",
+          "gloss": "likewise",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 8,
+          "iast": "mithaśca",
+          "gloss": "and mutual / and among themselves",
+          "morph": "particle cluster"
+        },
+        {
+          "i": 9,
+          "iast": "jaḍabhedaḥ",
+          "gloss": "difference among insentient things",
+          "morph": "nom sg masc; compound noun",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "jaḍānāṃ bhedaḥ"
+          },
+          "parts": [
+            {
+              "form": "jaḍa",
+              "gloss": "insentient, material"
+            },
+            {
+              "form": "bhedaḥ",
+              "gloss": "difference"
+            }
+          ]
+        },
+        {
+          "i": 10,
+          "iast": "yaḥ",
+          "gloss": "which / that which",
+          "morph": "nom sg masc relative pronoun"
+        },
+        {
+          "i": 11,
+          "iast": "prapañcaḥ",
+          "gloss": "world-manifold",
+          "morph": "nom sg masc",
+          "rootGloss": "expansion, manifold appearance"
+        },
+        {
+          "i": 12,
+          "iast": "bhedapañcakaḥ",
+          "gloss": "the fivefold difference",
+          "morph": "nom sg masc; compound noun",
+          "compound": {
+            "type": "karmadhāraya",
+            "vigraha": "pañca bhedāḥ"
+          },
+          "parts": [
+            {
+              "form": "bheda",
+              "gloss": "difference"
+            },
+            {
+              "form": "pañcakaḥ",
+              "gloss": "fivefold set"
+            }
+          ]
+        },
+        {
+          "i": 13,
+          "iast": "saḥ",
+          "gloss": "that",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 14,
+          "iast": "ayam",
+          "gloss": "this",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 15,
+          "iast": "satyaḥ",
+          "gloss": "real, true",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 16,
+          "iast": "hi",
+          "gloss": "indeed",
+          "morph": "particle"
+        },
+        {
+          "i": 17,
+          "iast": "anādiḥ",
+          "gloss": "beginningless",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 18,
+          "iast": "ca",
+          "gloss": "and",
+          "morph": "particle"
+        },
+        {
+          "i": 19,
+          "iast": "sādiḥ",
+          "gloss": "having a beginning",
+          "morph": "nom sg masc",
+          "note": "The transmitted sandhi is compressed; the intended sense is ‘if it had a beginning’."
+        },
+        {
+          "i": 20,
+          "iast": "cet",
+          "gloss": "if",
+          "morph": "particle"
+        },
+        {
+          "i": 21,
+          "iast": "nāśam",
+          "gloss": "destruction",
+          "morph": "acc sg masc"
+        },
+        {
+          "i": 22,
+          "iast": "āpnuyāt",
+          "gloss": "it would attain",
+          "morph": "3sg opt ind Ā",
+          "root": "√āp",
+          "rootGloss": "attain, obtain"
+        },
+        {
+          "i": 23,
+          "iast": "dvaitam",
+          "gloss": "duality",
+          "morph": "nom/acc sg neut"
+        },
+        {
+          "i": 24,
+          "iast": "na",
+          "gloss": "not",
+          "morph": "particle"
+        },
+        {
+          "i": 25,
+          "iast": "vidyate",
+          "gloss": "exists",
+          "morph": "3sg pres ind Ā",
+          "root": "√vid",
+          "rootGloss": "be found, exist"
+        },
+        {
+          "i": 26,
+          "iast": "iti",
+          "gloss": "thus",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 27,
+          "iast": "tasmāt",
+          "gloss": "therefore",
+          "morph": "abl sg indecl"
+        },
+        {
+          "i": 28,
+          "iast": "ajñāninām",
+          "gloss": "of the ignorant",
+          "morph": "gen pl masc",
+          "root": "a-jñānin",
+          "rootGloss": "one lacking knowledge"
+        },
+        {
+          "i": 29,
+          "iast": "matam",
+          "gloss": "view, opinion",
+          "morph": "nom/acc sg neut"
+        }
+      ]
+    },
+    {
+      "id": "anuvy-2-3-66-69",
+      "locus": "Anuvyākhyāna 2.3.66–69",
+      "iast": "śuddhaḥ sākṣī yadā siddho duḥkhitvaṃ vāryate katham /\nupajīvyapramāṇaṃ tad bhedagrāhakam eva hi /\nato jīveśayor bhedaḥ śrutisāmarthyasusthiraḥ //\ntathāpi tu cidānandapūrvāstatsadṛśā guṇāḥ /\nsārasvarūpamasyāpi muktāvapyavaśiṣyate //\nato 'bhedavadevaitāḥ śrutayaḥ pravadanti hi /\npaurāṇāni ca vākyāni sādṛśyābhedasaṃśrayāt //\nsādṛśyācca pradhānatvāt svātantryādapicābhidām /\nāhurīśena jīvasya na svarūpābhidāṃ kvacit //",
+      "english": "When the pure witness is established, how can the condition of being a sufferer be denied? That means of knowledge on which one relies apprehends difference. Therefore the difference between jīva and Lord is firmly established by the force of scripture. Yet qualities beginning with consciousness and bliss still remain as similar to that [Lord], and the essential nature of this [jīva] remains even in liberation. Therefore these scriptural statements speak as if of non-difference. The Purāṇic statements do so too, because they rest on similarity-grounded non-difference. And because of similarity, primacy, and sovereignty, they apply Lord-language to the jīva, but never essential identity.",
+      "grammar": "This passage runs in two parts in the article: the first establishes the witness and the firmness of difference; the second explains why abheda-language can still be used without granting svarūpa-abheda. Several compounds are dense; where a compact reading is uncertain I have kept the transmitted form as a single unit and expanded the sense in the word gloss or compound vigraha.",
+      "words": [
+        {
+          "i": 0,
+          "iast": "śuddhaḥ",
+          "gloss": "pure",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 1,
+          "iast": "sākṣī",
+          "gloss": "witness",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 2,
+          "iast": "yadā",
+          "gloss": "when",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 3,
+          "iast": "siddhaḥ",
+          "gloss": "established",
+          "morph": "nom sg masc",
+          "note": "Taken predicatively with sākṣī."
+        },
+        {
+          "i": 4,
+          "iast": "duḥkhitvam",
+          "gloss": "state of suffering",
+          "morph": "nom/acc sg neut"
+        },
+        {
+          "i": 5,
+          "iast": "vāryate",
+          "gloss": "is excluded / is denied",
+          "morph": "3sg pres ind Ā",
+          "root": "√vṛ",
+          "rootGloss": "ward off, exclude"
+        },
+        {
+          "i": 6,
+          "iast": "katham",
+          "gloss": "how",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 7,
+          "iast": "upajīvyapramāṇam",
+          "gloss": "the underlying / relied-on means of knowledge",
+          "morph": "nom/acc sg neut; compound noun",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "upajīvyaṃ pramāṇam"
+          },
+          "parts": [
+            {
+              "form": "upajīvya",
+              "gloss": "relied upon, depended on"
+            },
+            {
+              "form": "pramāṇa",
+              "gloss": "means of knowledge"
+            }
+          ]
+        },
+        {
+          "i": 8,
+          "iast": "tat",
+          "gloss": "that",
+          "morph": "nom/acc sg neut"
+        },
+        {
+          "i": 9,
+          "iast": "bhedagrāhakam",
+          "gloss": "apprehending difference",
+          "morph": "nom/acc sg neut; participial compound",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "bhedaṃ grāhakam"
+          },
+          "parts": [
+            {
+              "form": "bheda",
+              "gloss": "difference"
+            },
+            {
+              "form": "grāhaka",
+              "gloss": "grasping, apprehending"
+            }
+          ]
+        },
+        {
+          "i": 10,
+          "iast": "eva",
+          "gloss": "indeed",
+          "morph": "particle"
+        },
+        {
+          "i": 11,
+          "iast": "hi",
+          "gloss": "for, indeed",
+          "morph": "particle"
+        },
+        {
+          "i": 12,
+          "iast": "ato",
+          "gloss": "therefore",
+          "morph": "indecl. form"
+        },
+        {
+          "i": 13,
+          "iast": "jīveśayor",
+          "gloss": "of jīva and Lord",
+          "morph": "gen du masc",
+          "compound": {
+            "type": "dvandva",
+            "vigraha": "jīvasya īśvarasya ca"
+          },
+          "parts": [
+            {
+              "form": "jīva",
+              "gloss": "jīva, individual soul"
+            },
+            {
+              "form": "īśvara",
+              "gloss": "Lord"
+            }
+          ]
+        },
+        {
+          "i": 14,
+          "iast": "bhedaḥ",
+          "gloss": "difference",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 15,
+          "iast": "śrutisāmarthyasusthiraḥ",
+          "gloss": "firmly established by the force of scripture",
+          "morph": "nom sg masc; compound adjective",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "śruteḥ sāmarthyena su-sthiraḥ"
+          },
+          "parts": [
+            {
+              "form": "śruti",
+              "gloss": "scripture, revelation"
+            },
+            {
+              "form": "sāmarthya",
+              "gloss": "force, efficacy"
+            },
+            {
+              "form": "su-sthira",
+              "gloss": "very firm"
+            }
+          ]
+        },
+        {
+          "i": 16,
+          "iast": "tathāpi",
+          "gloss": "even so",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 17,
+          "iast": "tu",
+          "gloss": "however",
+          "morph": "particle"
+        },
+        {
+          "i": 18,
+          "iast": "cidānandapūrvāḥ",
+          "gloss": "those beginning with consciousness and bliss",
+          "morph": "nom pl masc/fem; compound adjective",
+          "compound": {
+            "type": "bahuvrīhi / adjective chain",
+            "vigraha": "cid-ānandaṃ pūrvaṃ yāsām"
+          },
+          "parts": [
+            {
+              "form": "cid",
+              "gloss": "consciousness"
+            },
+            {
+              "form": "ānanda",
+              "gloss": "bliss"
+            },
+            {
+              "form": "pūrva",
+              "gloss": "preceded by / beginning with"
+            }
+          ]
+        },
+        {
+          "i": 19,
+          "iast": "tad",
+          "gloss": "that",
+          "morph": "demonstrative"
+        },
+        {
+          "i": 20,
+          "iast": "sadṛśāḥ",
+          "gloss": "similar to that",
+          "morph": "nom pl masc"
+        },
+        {
+          "i": 21,
+          "iast": "guṇāḥ",
+          "gloss": "qualities",
+          "morph": "nom pl masc"
+        },
+        {
+          "i": 22,
+          "iast": "sārasvarūpam",
+          "gloss": "the essential form",
+          "morph": "nom/acc sg neut; compound noun",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "sāraḥ eva svarūpam"
+          },
+          "parts": [
+            {
+              "form": "sāra",
+              "gloss": "essence"
+            },
+            {
+              "form": "svarūpa",
+              "gloss": "essential nature, own form"
+            }
+          ]
+        },
+        {
+          "i": 23,
+          "iast": "asya",
+          "gloss": "of this [jīva]",
+          "morph": "gen sg masc/neut"
+        },
+        {
+          "i": 24,
+          "iast": "api",
+          "gloss": "even",
+          "morph": "particle"
+        },
+        {
+          "i": 25,
+          "iast": "muktau",
+          "gloss": "in liberation",
+          "morph": "loc sg fem"
+        },
+        {
+          "i": 26,
+          "iast": "api",
+          "gloss": "also, even",
+          "morph": "particle"
+        },
+        {
+          "i": 27,
+          "iast": "avaśiṣyate",
+          "gloss": "remains",
+          "morph": "3sg pres ind Ā",
+          "root": "ava-√śiṣ",
+          "rootGloss": "remain, be left over"
+        },
+        {
+          "i": 28,
+          "iast": "ato",
+          "gloss": "therefore",
+          "morph": "indecl. form"
+        },
+        {
+          "i": 29,
+          "iast": "'bhedavat",
+          "gloss": "as if non-different",
+          "morph": "indeclinable / adverbial compound"
+        },
+        {
+          "i": 30,
+          "iast": "eva",
+          "gloss": "indeed",
+          "morph": "particle"
+        },
+        {
+          "i": 31,
+          "iast": "etāḥ",
+          "gloss": "these",
+          "morph": "nom pl fem"
+        },
+        {
+          "i": 32,
+          "iast": "śrutayaḥ",
+          "gloss": "scriptural statements",
+          "morph": "nom pl fem"
+        },
+        {
+          "i": 33,
+          "iast": "pravadanti",
+          "gloss": "speak",
+          "morph": "3pl pres ind P",
+          "root": "pra-√vad",
+          "rootGloss": "speak, declare"
+        },
+        {
+          "i": 34,
+          "iast": "hi",
+          "gloss": "indeed",
+          "morph": "particle"
+        },
+        {
+          "i": 35,
+          "iast": "paurāṇāni",
+          "gloss": "Purāṇic",
+          "morph": "nom/acc pl neut"
+        },
+        {
+          "i": 36,
+          "iast": "ca",
+          "gloss": "and",
+          "morph": "particle"
+        },
+        {
+          "i": 37,
+          "iast": "vākyāni",
+          "gloss": "statements",
+          "morph": "nom/acc pl neut"
+        },
+        {
+          "i": 38,
+          "iast": "sādṛśyābhedasaṃśrayāt",
+          "gloss": "because they rest on similarity-grounded non-difference",
+          "morph": "abl sg masc/neut; compound",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "sādṛśya-ābheda-saṃśrayāt"
+          },
+          "parts": [
+            {
+              "form": "sādṛśya",
+              "gloss": "similarity"
+            },
+            {
+              "form": "abheda",
+              "gloss": "non-difference"
+            },
+            {
+              "form": "saṃśraya",
+              "gloss": "dependence, resort"
+            }
+          ]
+        },
+        {
+          "i": 39,
+          "iast": "sādṛśyāt",
+          "gloss": "because of similarity",
+          "morph": "abl sg neut"
+        },
+        {
+          "i": 40,
+          "iast": "ca",
+          "gloss": "and",
+          "morph": "particle"
+        },
+        {
+          "i": 41,
+          "iast": "pradhānatvāt",
+          "gloss": "because of primacy",
+          "morph": "abl sg neut"
+        },
+        {
+          "i": 42,
+          "iast": "svātantryāt",
+          "gloss": "because of sovereignty / independence",
+          "morph": "abl sg neut"
+        },
+        {
+          "i": 43,
+          "iast": "api",
+          "gloss": "also",
+          "morph": "particle"
+        },
+        {
+          "i": 44,
+          "iast": "ca",
+          "gloss": "and",
+          "morph": "particle"
+        },
+        {
+          "i": 45,
+          "iast": "abhidām",
+          "gloss": "Lord-designation",
+          "morph": "acc sg fem",
+          "note": "The transmitted form is compact; the point is the application of īśvara-language."
+        },
+        {
+          "i": 46,
+          "iast": "āhuḥ",
+          "gloss": "they say / they apply",
+          "morph": "3pl perf ind P",
+          "root": "√ah",
+          "rootGloss": "say"
+        },
+        {
+          "i": 47,
+          "iast": "īśena",
+          "gloss": "by the Lord / with respect to the Lord",
+          "morph": "instr sg masc"
+        },
+        {
+          "i": 48,
+          "iast": "jīvasya",
+          "gloss": "of the jīva",
+          "morph": "gen sg masc"
+        },
+        {
+          "i": 49,
+          "iast": "na",
+          "gloss": "not",
+          "morph": "particle"
+        },
+        {
+          "i": 50,
+          "iast": "svarūpābhidām",
+          "gloss": "essential identity",
+          "morph": "acc sg fem; compound noun",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "svarūpasya abhidām"
+          },
+          "parts": [
+            {
+              "form": "svarūpa",
+              "gloss": "essential nature"
+            },
+            {
+              "form": "abhidā",
+              "gloss": "identity, non-difference"
+            }
+          ]
+        },
+        {
+          "i": 51,
+          "iast": "kvacit",
+          "gloss": "ever, anywhere",
+          "morph": "indeclinable"
+        }
+      ]
+    },
+    {
+      "id": "anuvy-2-3-66-69-witness",
+      "locus": "Anuvyākhyāna 2.3.66–69, witness argument",
+      "iast": "śuddhaḥ sākṣī yadā siddho duḥkhitvaṃ vāryate katham /\nupajīvyapramāṇaṃ tad bhedagrāhakam eva hi /\nato jīveśayor bhedaḥ śrutisāmarthyasusthiraḥ //",
+      "english": "When the pure witness is established, how can the condition of being a sufferer be denied? That means of knowledge on which one relies apprehends difference. Therefore the difference between jīva and Lord is firmly established by the force of scripture.",
+      "grammar": "This is the first half of the quoted locus in the article. It hinges on śuddha-sākṣī and upajīvyapramāṇa. I have kept the compact compounds intact and given their internal vigraha in the cards.",
+      "words": [
+        {
+          "i": 0,
+          "iast": "śuddhaḥ",
+          "gloss": "pure",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 1,
+          "iast": "sākṣī",
+          "gloss": "witness",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 2,
+          "iast": "yadā",
+          "gloss": "when",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 3,
+          "iast": "siddhaḥ",
+          "gloss": "established",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 4,
+          "iast": "duḥkhitvam",
+          "gloss": "state of suffering",
+          "morph": "nom/acc sg neut"
+        },
+        {
+          "i": 5,
+          "iast": "vāryate",
+          "gloss": "is excluded",
+          "morph": "3sg pres ind Ā",
+          "root": "√vṛ",
+          "rootGloss": "ward off, exclude"
+        },
+        {
+          "i": 6,
+          "iast": "katham",
+          "gloss": "how",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 7,
+          "iast": "upajīvyapramāṇam",
+          "gloss": "the underlying / relied-on means of knowledge",
+          "morph": "nom/acc sg neut; compound noun",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "upajīvyaṃ pramāṇam"
+          },
+          "parts": [
+            {
+              "form": "upajīvya",
+              "gloss": "relied upon"
+            },
+            {
+              "form": "pramāṇa",
+              "gloss": "means of knowledge"
+            }
+          ]
+        },
+        {
+          "i": 8,
+          "iast": "tat",
+          "gloss": "that",
+          "morph": "nom/acc sg neut"
+        },
+        {
+          "i": 9,
+          "iast": "bhedagrāhakam",
+          "gloss": "apprehending difference",
+          "morph": "nom/acc sg neut",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "bhedaṃ grāhakam"
+          },
+          "parts": [
+            {
+              "form": "bheda",
+              "gloss": "difference"
+            },
+            {
+              "form": "grāhaka",
+              "gloss": "grasping, apprehending"
+            }
+          ]
+        },
+        {
+          "i": 10,
+          "iast": "eva",
+          "gloss": "indeed",
+          "morph": "particle"
+        },
+        {
+          "i": 11,
+          "iast": "hi",
+          "gloss": "for",
+          "morph": "particle"
+        },
+        {
+          "i": 12,
+          "iast": "ato",
+          "gloss": "therefore",
+          "morph": "indecl. form"
+        },
+        {
+          "i": 13,
+          "iast": "jīveśayor",
+          "gloss": "of jīva and Lord",
+          "morph": "gen du masc",
+          "compound": {
+            "type": "dvandva",
+            "vigraha": "jīvasya īśvarasya ca"
+          },
+          "parts": [
+            {
+              "form": "jīva",
+              "gloss": "jīva, individual soul"
+            },
+            {
+              "form": "īśvara",
+              "gloss": "Lord"
+            }
+          ]
+        },
+        {
+          "i": 14,
+          "iast": "bhedaḥ",
+          "gloss": "difference",
+          "morph": "nom sg masc"
+        },
+        {
+          "i": 15,
+          "iast": "śrutisāmarthyasusthiraḥ",
+          "gloss": "firmly established by the force of scripture",
+          "morph": "nom sg masc"
+        }
+      ]
+    },
+    {
+      "id": "anuvy-2-3-66-69-abheda",
+      "locus": "Anuvyākhyāna 2.3.66–69, abheda-language",
+      "iast": "tathāpi tu cidānandapūrvā statsadṛśā guṇāḥ /\nsārasvarūpam asyāpi muktāv apy avaśiṣyate //\nato 'bhedavadevaitāḥ śrutayaḥ pravadanti hi /\npaurāṇāni ca vākyāni sādṛśyābhedasaṃśrayāt //\nsādṛśyācca pradhānatvāt svātantryād api cābhidām /\nāhur īśena jīvasya na svarūpābhidāṃ kvacit //",
+      "english": "Yet qualities beginning with consciousness and bliss still remain as similar to that [Lord], and the essential nature of this [jīva] remains even in liberation. Therefore these scriptural statements speak as if of non-difference. The Purāṇic statements do so too, because they rest on similarity-grounded non-difference. And because of similarity, primacy, and sovereignty, they apply Lord-language to the jīva, but never essential identity.",
+      "grammar": "This is the hermeneutic half of the locus. The key contrast is between abhedavat language and svarūpābhidā, which Madhva explicitly denies. The compact clauses are preserved as transmitted; the English makes the inferential structure explicit.",
+      "words": [
+        {
+          "i": 0,
+          "iast": "tathāpi",
+          "gloss": "even so",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 1,
+          "iast": "tu",
+          "gloss": "however",
+          "morph": "particle"
+        },
+        {
+          "i": 2,
+          "iast": "cidānandapūrvāḥ",
+          "gloss": "those beginning with consciousness and bliss",
+          "morph": "nom pl masc/fem",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "cid-ānandaṃ pūrvaṃ yāsām"
+          },
+          "parts": [
+            {
+              "form": "cid",
+              "gloss": "consciousness"
+            },
+            {
+              "form": "ānanda",
+              "gloss": "bliss"
+            },
+            {
+              "form": "pūrva",
+              "gloss": "beginning with"
+            }
+          ]
+        },
+        {
+          "i": 3,
+          "iast": "tatsadṛśāḥ",
+          "gloss": "similar to that",
+          "morph": "nom pl masc"
+        },
+        {
+          "i": 4,
+          "iast": "guṇāḥ",
+          "gloss": "qualities",
+          "morph": "nom pl masc"
+        },
+        {
+          "i": 5,
+          "iast": "sārasvarūpam",
+          "gloss": "the essential form",
+          "morph": "nom/acc sg neut",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "sāraḥ eva svarūpam"
+          },
+          "parts": [
+            {
+              "form": "sāra",
+              "gloss": "essence"
+            },
+            {
+              "form": "svarūpa",
+              "gloss": "essential nature"
+            }
+          ]
+        },
+        {
+          "i": 6,
+          "iast": "asya",
+          "gloss": "of this [jīva]",
+          "morph": "gen sg masc/neut"
+        },
+        {
+          "i": 7,
+          "iast": "api",
+          "gloss": "also",
+          "morph": "particle"
+        },
+        {
+          "i": 8,
+          "iast": "muktau",
+          "gloss": "in liberation",
+          "morph": "loc sg fem"
+        },
+        {
+          "i": 9,
+          "iast": "api",
+          "gloss": "even",
+          "morph": "particle"
+        },
+        {
+          "i": 10,
+          "iast": "avaśiṣyate",
+          "gloss": "remains",
+          "morph": "3sg pres ind Ā",
+          "root": "ava-√śiṣ",
+          "rootGloss": "remain"
+        },
+        {
+          "i": 11,
+          "iast": "ato",
+          "gloss": "therefore",
+          "morph": "indecl. form"
+        },
+        {
+          "i": 12,
+          "iast": "'bhedavat",
+          "gloss": "as if non-different",
+          "morph": "indeclinable"
+        },
+        {
+          "i": 13,
+          "iast": "eva",
+          "gloss": "indeed",
+          "morph": "particle"
+        },
+        {
+          "i": 14,
+          "iast": "etāḥ",
+          "gloss": "these",
+          "morph": "nom pl fem"
+        },
+        {
+          "i": 15,
+          "iast": "śrutayaḥ",
+          "gloss": "scriptural statements",
+          "morph": "nom pl fem"
+        },
+        {
+          "i": 16,
+          "iast": "pravadanti",
+          "gloss": "speak",
+          "morph": "3pl pres ind P",
+          "root": "pra-√vad",
+          "rootGloss": "speak"
+        },
+        {
+          "i": 17,
+          "iast": "hi",
+          "gloss": "indeed",
+          "morph": "particle"
+        },
+        {
+          "i": 18,
+          "iast": "paurāṇāni",
+          "gloss": "Purāṇic",
+          "morph": "nom/acc pl neut"
+        },
+        {
+          "i": 19,
+          "iast": "ca",
+          "gloss": "and",
+          "morph": "particle"
+        },
+        {
+          "i": 20,
+          "iast": "vākyāni",
+          "gloss": "statements",
+          "morph": "nom/acc pl neut"
+        },
+        {
+          "i": 21,
+          "iast": "sādṛśyābhedasaṃśrayāt",
+          "gloss": "because they rest on similarity-grounded non-difference",
+          "morph": "abl sg masc/neut",
+          "compound": {
+            "type": "tatpuruṣa",
+            "vigraha": "sādṛśya-abheda-saṃśrayāt"
+          },
+          "parts": [
+            {
+              "form": "sādṛśya",
+              "gloss": "similarity"
+            },
+            {
+              "form": "abheda",
+              "gloss": "non-difference"
+            },
+            {
+              "form": "saṃśraya",
+              "gloss": "dependence, resort"
+            }
+          ]
+        },
+        {
+          "i": 22,
+          "iast": "sādṛśyāt",
+          "gloss": "because of similarity",
+          "morph": "abl sg neut"
+        },
+        {
+          "i": 23,
+          "iast": "ca",
+          "gloss": "and",
+          "morph": "particle"
+        },
+        {
+          "i": 24,
+          "iast": "pradhānatvāt",
+          "gloss": "because of primacy",
+          "morph": "abl sg neut"
+        },
+        {
+          "i": 25,
+          "iast": "svātantryāt",
+          "gloss": "because of sovereignty",
+          "morph": "abl sg neut"
+        },
+        {
+          "i": 26,
+          "iast": "api",
+          "gloss": "also",
+          "morph": "particle"
+        },
+        {
+          "i": 27,
+          "iast": "ca",
+          "gloss": "and",
+          "morph": "particle"
+        },
+        {
+          "i": 28,
+          "iast": "abhidām",
+          "gloss": "Lord-designation",
+          "morph": "acc sg fem"
+        },
+        {
+          "i": 29,
+          "iast": "āhuḥ",
+          "gloss": "they say / they apply",
+          "morph": "3pl perf ind P",
+          "root": "√ah",
+          "rootGloss": "say"
+        },
+        {
+          "i": 30,
+          "iast": "īśena",
+          "gloss": "by the Lord",
+          "morph": "instr sg masc"
+        },
+        {
+          "i": 31,
+          "iast": "jīvasya",
+          "gloss": "of the jīva",
+          "morph": "gen sg masc"
+        },
+        {
+          "i": 32,
+          "iast": "na",
+          "gloss": "not",
+          "morph": "particle"
+        },
+        {
+          "i": 33,
+          "iast": "svarūpābhidām",
+          "gloss": "essential identity",
+          "morph": "acc sg fem"
+        },
+        {
+          "i": 34,
+          "iast": "kvacit",
+          "gloss": "ever, anywhere",
+          "morph": "indeclinable"
+        }
+      ]
+    }
+  ]
+}

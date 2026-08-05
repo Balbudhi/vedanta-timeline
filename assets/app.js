@@ -4998,6 +4998,24 @@ async function openArticle(a) {
     const articleR = numberCitations(renderMarkdownFull(text), articleCtr);
     const fnList = renderFootnoteList(articleR.footnotes);
     dpArticleBody.innerHTML = `<article>${articleR.html}${fnList}</article>`;
+    // Full primary-language passages use the same interactive reader as the
+    // Gītā pages; prose only supplies their placement markers.
+    if (a.passages_doc) {
+      try {
+        const pr = await fetch(a.passages_doc);
+        const pd = pr.ok ? await pr.json() : null;
+        if (pd && Array.isArray(pd.passages)) {
+          await loadScriptOnce("assets/gita.js");
+          if (window.GitaReader) window.GitaReader.renderPassages(dpArticleBody, pd.passages, {
+            glossaryBase: "data/glossary/",
+            onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
+            onThinker: (id) => openThinker(id),
+            linkifyGlossary: linkifyGlossaryText,
+            glossaryResolve: gitaGlossaryResolve,
+          });
+        }
+      } catch (_) {}
+    }
     dpArticleBody.scrollTop = 0;
   }
   panelState.loaded.article = true;
@@ -5018,6 +5036,12 @@ function renderMarkdownFull(src) {
   // `cite://` URL, so plain prose is untouched.
   src = normalizeCitationSyntax(src);
   const esc = (s) => s.replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+  const gitaPassages = [];
+  src = src.replace(/^::: gita-passage ([^\n]+)\n:::\s*$/gm, (_m, id) => {
+    const marker = `GITAPASSAGE_${gitaPassages.length}_ENDGITAPASSAGE`;
+    gitaPassages.push(id.trim());
+    return marker;
+  });
   // Sanskrit-aside blocks — extracted before any other processing so the inner
   // panes can be rendered recursively without any of the outer-pass regexes
   // touching them.
@@ -5115,8 +5139,9 @@ function renderMarkdownFull(src) {
     const langLabel = a.sourceLang ? a.sourceLang[0].toUpperCase() + a.sourceLang.slice(1) : "Sanskrit";
     return `<div class="sk-aside"><div class="sk-aside-pane sk-aside-sanskrit"><div class="sk-aside-label">${langLabel}</div>${renderMarkdownFull(a.sk)}</div><div class="sk-aside-pane sk-aside-english"><div class="sk-aside-label">English</div>${renderMarkdownFull(a.en)}</div></div>`;
   });
+  out = out.replace(/GITAPASSAGE_(\d+)_ENDGITAPASSAGE/g, (_m, i) => `<div data-gita-passage="${escape(gitaPassages[+i])}"></div>`);
   // Don't wrap headings / blockquotes / tables / asides in <p>.
-  out = out.replace(/<p>(\s*)(<h[123]|<blockquote|<div class="md-table-wrap"|<table|<pre|<ul|<ol|<div class="sk-aside|<hr)/g, "$1$2");
+  out = out.replace(/<p>(\s*)(<h[123]|<blockquote|<div class="md-table-wrap"|<table|<pre|<ul|<ol|<div class="sk-aside|<div data-gita-passage|<hr)/g, "$1$2");
   out = out.replace(/(<\/h[123]>|<\/blockquote>|<\/div>|<\/table>|<\/pre>|<\/ul>|<\/ol>|<hr>)(\s*)<\/p>/g, "$1$2");
   return out;
 }

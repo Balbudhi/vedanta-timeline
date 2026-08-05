@@ -341,6 +341,31 @@ function render(root, opts) {
   applyActive();
 }
 
+// Render selected, fully annotated Sanskrit passages inside a prose article.
+// The article itself owns headings and argument; this reader supplies the same
+// clickable pada-pāṭha and word-card grammar as the Gītā without introducing a
+// second page or a competing voice bar.
+function renderPassages(root, passages, opts) {
+  opts = opts || {};
+  ROOT = root;
+  GLOSS_BASE = opts.glossaryBase || GLOSS_BASE;
+  HOST_GLOSSARY = typeof opts.onGlossary === "function" ? opts.onGlossary : null;
+  HOST_THINKER = typeof opts.onThinker === "function" ? opts.onThinker : null;
+  HOST_LINKIFY = typeof opts.linkifyGlossary === "function" ? opts.linkifyGlossary : null;
+  HOST_RESOLVE = typeof opts.glossaryResolve === "function" ? opts.glossaryResolve : null;
+  for (const p of passages || []) {
+    const host = root.querySelector(`[data-gita-passage="${CSS.escape(p.id)}"]`);
+    if (!host || !Array.isArray(p.words) || !p.words.length || !p.english) continue;
+    host.innerHTML = `<section class="article-passage">
+      <div class="article-passage-head">${esc(p.locus || "Sanskrit passage")}</div>
+      <div class="article-passage-sa" lang="sa-Latn">${esc(p.iast || "").replace(/\n/g, "<br>")}</div>
+      ${interactiveBlock(p.words, p.english)}
+      ${p.grammar ? `<div class="article-passage-grammar">${esc(p.grammar)}</div>` : ""}
+    </section>`;
+  }
+  wireWords();
+}
+
 /* ---------- word ↔ English highlight + card (CLICK ONLY) ---------- */
 let sticky = null;
 function scopeOf(span) { return span.closest("[data-wscope]"); }
@@ -396,6 +421,8 @@ function hoverTargets(t) {
   return { sc, idxs };
 }
 function wireWords() {
+  if (!ROOT || ROOT.dataset.gitaWordsBound) return;
+  ROOT.dataset.gitaWordsBound = "1";
   ROOT.addEventListener("mouseover", e => {
     const t = e.target.closest(".w, .we"); if (!t) return;
     const h = hoverTargets(t); if (h) hoverSet(h.sc, h.idxs, true);
@@ -776,7 +803,7 @@ function closeGlossary() {
 // can scroll the text while keeping a term's definition open beside it.
 
 /* ---------- expose ---------- */
-window.GitaReader = { render };
+window.GitaReader = { render, renderPassages };
 
 // Standalone page bootstrap (no-op inside the app, where #gitaRoot is absent).
 document.addEventListener("DOMContentLoaded", () => {

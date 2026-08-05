@@ -162,6 +162,7 @@
       "subtitle": "A primary-text reading of Tattvavāda’s account of real dependence, the final witness, and its historical debate with Advaita.",
       "kind": "essay",
       "source_doc": "data/articles/source/madhva.md",
+      "passages_doc": "data/articles/passages/madhva.json",
       "tags": [
         "Madhva",
         "Tattva-vāda",
