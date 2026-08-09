@@ -23,6 +23,16 @@ equal ontological status means mutual ontological dependence. The question below
 is whether the cited Bengali and Sanskrit texts require each step of that
 argument.
 
+Maharaj does **not** present Brahman and Śakti as two self-standing substances.
+In the same discussion, he calls the personal and impersonal equally real aspects
+of a single Infinite Reality and explains “Brahman” and “Śakti” through the
+actionless and active designations of that one Reality. That formulation is
+therefore his way of rejecting a one-way hierarchy, not a claim that two
+independent beings support one another. The remaining philosophical question is
+narrower: whether reciprocal inseparability between non-separate aspects is
+accurately called *ontological dependence*, or more exactly co-essential
+non-separateness.
+
 The primary texts agree that Ramakrishna’s *vijñāna* is not a merely negative
 or empty realization. They also show that Śaṅkara’s non-duality is not an
 empty realization of a private self. The issue is whether Śaṅkara’s denial of
