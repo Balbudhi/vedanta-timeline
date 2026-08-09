@@ -3,13 +3,25 @@
 ## The contrast at issue
 
 In *Infinite Paths to Infinite Reality*, Ayon Maharaj (Swami Medhananda)
-reconstructs Ramakrishna’s teaching as *Vijñāna Vedānta*. The reconstruction
-has two connected claims: Ramakrishna’s realization includes the positive
-recognition of Brahman as Śakti and as the world; and this differs from
-Śaṅkara’s Advaita, which Maharaj presents as treating the personal God, Śakti,
-and world as ultimately unreal limiting appearances of *nirguṇa* Brahman.
-Maharaj consequently describes Brahman and Śakti in Ramakrishna as equally
-real and mutually ontologically dependent.
+reconstructs Ramakrishna’s teaching as *Vijñāna Vedānta*. He argues both that
+*vijñāna* includes the positive recognition of Brahman as Śakti and as the
+world, and that this differs from Śaṅkara’s Advaita. The distinction is
+Maharaj’s stated philosophical reconstruction, not a wording supplied here.
+
+## Maharaj’s stated argument
+
+Maharaj’s position is explicit, and it should be stated in his own words. He
+reads Ramakrishna’s analogies as bi-directional: “Brahman and Śakti mutually
+entail each other.” He then gives his conclusion: “mutual ontological dependence
+of Brahman and Śakti.” In the contrast he draws with Advaita, he writes that
+“the personal God of theism is empirically real but ontologically unreal.”
+
+These are Maharaj’s claims in *Infinite Paths*, pp. 36–38, not paraphrases
+invented by this article. His argument is: inseparability in the analogies means
+reciprocal entailment; reciprocal entailment means equal ontological status; and
+equal ontological status means mutual ontological dependence. The question below
+is whether the cited Bengali and Sanskrit texts require each step of that
+argument.
 
 The primary texts agree that Ramakrishna’s *vijñāna* is not a merely negative
 or empty realization. They also show that Śaṅkara’s non-duality is not an
@@ -42,23 +54,24 @@ as separately real.
 
 Sources: [*Śrīśrīrāmakṛṣṇakathāmṛta* (public Bengali text)](https://www.ramakrishnavivekananda.info/kathamrita/unicodekathamrita/kathamrita_contents.html), 22 September 1883 and 5 April 1884; compare the [public *Gospel of Sri Ramakrishna* text](https://www.ramakrishnavivekananda.info/gospel/volume_1/).
 
-Maharaj takes the analogies of fire and burning power, water and wetness, and
-gem and radiance as the philosophical form of this teaching. From their
-inseparability he draws the conclusion that Brahman and Śakti have equal
-ontological status and mutual ontological dependence.
+Maharaj reads these analogies as bi-directional entailment and, from that,
+infers equal ontological status and mutual ontological dependence. The Bengali
+passage quoted above instead directly says **দুটা আলাদা জিনিস নয়** (“not two
+separate things”) and **একই জিনিস** (“the same thing”). It establishes
+non-separateness and a difference of designation; whether that entails mutual
+dependence is the interpretive dispute.
 
 Source: [Ayon Maharaj, *Infinite Paths to Infinite Reality* (Oxford University Press, 2018), pp. 36–38](https://academic.oup.com/book/6103).
 
 ## 2. Śaṅkara on worship, name and form, and the world
 
-Śaṅkara’s *Brahma-sūtra-bhāṣya* 1.1.12 calls Brahman *dvirūpam*, “apprehended
-in two forms/modes of teaching”: Brahman with name, form, powers, difference,
-and limiting adjuncts as the object of worship; and the same Brahman free of
-all adjuncts as the object of knowledge. The worshipper–worshipped relation is
-located in *avidyāvasthā*, the condition of ignorance. This gives Śaṅkara a
-hierarchy between relational worship and nondual knowledge. It does not turn
-the worshipped Lord into a second substance, and the passage does not describe
-the one Lord, his powers, or worship as simple nonentities.
+Śaṅkara’s *Brahma-sūtra-bhāṣya* 1.1.12 says *dvirūpaṃ hi brahma
+avagamyate*: “For Brahman is cognized as twofold”—qualified by name, form,
+modification, difference, and adjuncts; and, conversely, devoid of every
+adjunct. He places the whole transaction of worshipper, worshipped, and worship
+in the state of *avidyā*. That is a hierarchy between relational worship and
+knowledge free of adjuncts. The sentence itself does not say that the Lord of
+worship is a nonentity.
 
 Source: [*Brahma-sūtra-bhāṣya* 1.1.12](cite://sankara/brahma-sutra-bhasya/1.1.12-dvirupam).
 
@@ -68,11 +81,12 @@ Upaniṣad* 6.3.2:
 ::: gita-passage chando-6-3-2-sadatmana
 :::
 
-*Sadātmanā* means “with Sat as its Self”; *svatas* means “in its own right.”
-The statement makes a strict distinction. Name and form are true as
-non-separate from Sat; name and form considered as a reality apart from Sat are
-untrue. Śaṅkara is not saying that perceptible content disappears into a blank;
-he is denying that it possesses self-standing being.
+The literal force is: “All name-and-form, and the rest, is true precisely by
+having Sat as its Self; the entire class of modifications, however, is in itself
+indeed untrue.” Śaṅkara immediately restates the point: truth belongs to all
+transactions and modifications by having Sat as their Self; untruth belongs by
+their being other than Sat. This is not a claim that phenomena vanish; it is a
+claim about the standpoint under which they are called *satya* or *anṛta*.
 
 Source: [*Chāndogya Upaniṣad Bhāṣya* 6.3.2](cite://sankara/chandogya-upanisad-bhasya/6.3.2-sadatmana).
 
@@ -81,20 +95,23 @@ Source: [*Chāndogya Upaniṣad Bhāṣya* 6.3.2](cite://sankara/chandogya-upani
 ::: gita-passage bsbh-2-1-14-ananyatva
 :::
 
-Śaṅkara there rejects the view that unity and plurality are equally ultimate,
-and says that unity alone is ultimate. Thus his texts rule out an ontology in
-which manifested plurality is an independent or coordinate second reality.
-They do not rule out the truth of name and form as Brahman’s own being.
+The clause means: “From that cause, the effect’s non-otherness is understood in
+the ultimate sense—namely, its absence in separation [from the cause].” Śaṅkara
+then rejects the opponent’s claim that unity and plurality
+are both *satya*, and says that unity alone is ultimate. The passage rules out a
+coordinate second reality. It does not, by itself, settle every positive theory
+of manifestation.
 
 Source: [*Brahma-sūtra-bhāṣya* 2.1.14](cite://sankara/brahma-sutra-bhasya/2.1.14).
 
-The *Gītā-bhāṣya* applies this account to divine allness. At 9.4, beings are
-in Kṛṣṇa because they subsist with him as their Self; at 9.5, they do not stand
-in him as modifications that attach to or delimit him. At 7.2 and 9.1,
-Śaṅkara defines *sa-vijñāna* as knowledge joined with one’s own experience and
-identifies its content with *Vāsudevaḥ sarvam*, *ātmaivedaṃ sarvam*, and *ekam
-evādvitīyam*. Complete knowledge is therefore direct experiential allness,
-not an abstract cognition of a self cut off from manifestation.
+The *Gītā-bhāṣya* supplies related, but more specific, claims. At 9.4 Śaṅkara
+glosses “all beings are in me” as their standing in him because he is their
+Self; he denies at 9.5 a relation of conjunction or containment like that of
+physical things. At 9.1 he glosses *vijñāna-sahitam* as *anubhava-yuktam*,
+“joined with direct experience,” and identifies the knowledge at issue with
+*Vāsudevaḥ sarvam*, *ātmaivedaṃ sarvam*, and *ekam evādvitīyam*. These are
+Śaṅkara’s words; “a world-inclusive realization” is an interpretation of their
+joint force, not a translation.
 
 Sources: [*Bhagavad-gītā-bhāṣya* 7.4](cite://sankara/gita-bhasya/7.4-maya-sakti), [7.14](cite://sankara/gita-bhasya/7.14-svabhava-bhuta), [9.1](cite://sankara/gita-bhasya/9.1-vijnana), and [9.4–5](cite://sankara/gita-bhasya/9.4-5).
 
@@ -102,16 +119,14 @@ Sources: [*Bhagavad-gītā-bhāṣya* 7.4](cite://sankara/gita-bhasya/7.4-maya-s
 
 Ramakrishna teaches that Brahman and Śakti are non-separate, and that
 *vijñāna* recognizes the one reality in living beings and the world. Śaṅkara
-teaches that name and form are true with Sat as their Self, while false only
-when posited apart from Sat; he also describes complete knowledge as direct
-experiential allness. On these points, the primary texts do not sustain a
-contrast between Ramakrishna’s world-inclusive realization and an allegedly
-empty Śaṅkarian realization.
+states that name and form are true by having Sat as their Self and untrue by
+being other than Sat; he also defines *vijñāna* as knowledge joined with direct
+experience. Those texts do not describe realization as an empty private state.
 
 Śaṅkara nevertheless denies that differentiated manifestation is co-ultimate
 with Brahman or an intrinsic limiting predicate of Brahman. Ramakrishna’s
 Brahman–Śakti statements do not introduce two separate entities; their grammar
-identifies one Reality under distinct names. The difference between the two
-presentations is therefore not “unreal Śaṅkara” versus “real Ramakrishna.” It
-is between Śaṅkara’s strict account of non-otherness and Ramakrishna’s more
-explicitly devotional language of the one Reality’s power and manifestation.
+identifies one Reality under distinct names. Maharaj’s mutual-dependence thesis
+is a further philosophical inference from those statements and analogies. The
+primary texts establish the shared material for comparison; they do not, by
+themselves, settle that inference.

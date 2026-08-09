@@ -311,6 +311,28 @@
       "entry_status": "reviewed"
     },
     {
+      "work_id": "rg-bhashya",
+      "title": "Rg-Bhashya",
+      "title_iast": "Ṛg-Bhāṣya",
+      "alternate_titles": [
+        "Ṛgbhāṣyam"
+      ],
+      "ascription_tier": "securely-authored",
+      "ascription_notes": "Transmitted as Madhva's Ṛgvedic commentary in the Sarva-Mūla tradition. The modern Dvaita Vedanta Studies and Research Foundation edition attributes the base text to Ānandatīrtha/Madhva and prints it with the later commentarial tradition.",
+      "ascription_evidence": [
+        {
+          "kind": "scholarly-consensus",
+          "description": "K. T. Pandurangi's two-volume Dvaita Vedanta Studies and Research Foundation edition (Bangalore, 1999–) and the B. N. K. Sharma–K. Narasimhan–K. T. Pandurangi Sanskrit–English edition (2009) both transmit it as Madhva's work."
+        }
+      ],
+      "genre": "veda-bhashya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "summary": "Madhva's commentary on the first forty sūktas (hymns) of the Ṛgveda, not a commentary on the whole Ṛgveda. A two-volume Sanskrit edition, with Jayatīrtha, Rāghavendra, Śrīnivāsa Tīrtha, K. T. Pandurangi, Chalāri Narasiṃhācārya, and Satyanātha Yati in its later exegetical apparatus, was published by the Dvaita Vedanta Studies and Research Foundation (Bangalore, 1999–). A 2009 Sanskrit–English edition covers the same forty hymns. No clean, legally reusable digital transcription of Madhva's base commentary has been verified for this corpus; accordingly, this entry records the work and its scope but offers no passage-level claims or translations.",
+      "key_passage_ids": [],
+      "entry_status": "reviewed"
+    },
+    {
       "work_id": "tattva-sankhyana",
       "title": "Tattva-Sankhyana",
       "title_iast": "Tattva-Saṅkhyāna",
