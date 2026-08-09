@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-08-04T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 92,
+  "file_count": 93,
   "note": "Public source corpus held in this repository. This manifest lists only paths present under data/sources/. Privately retained or restricted witnesses are catalogued separately in the parishishta repository provenance records.",
   "files": [
     {
@@ -60,6 +60,20 @@
       "verification_status": "complete public transcription captured; citation-safe after passage-level comparison with a critical or print witness where a variant matters",
       "size_bytes": 256703,
       "line_count": 2025
+    },
+    {
+      "path": "sanskrit/vedanta/madhva_rig_bhashya_wikisource.wikitext",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "ऋग्भाष्यम् श्रीमदानन्दतीर्थविरचितम्",
+      "edition": "Sanskrit Wikisource Unicode transcription, captured 2026-08-09; the first forty Ṛgvedic sūktas with embedded Vedic-text references and editorial notes retained",
+      "format": "wikitext",
+      "thinker_id": "madhva",
+      "work_id": "rg-bhashya",
+      "source_url": "https://sa.wikisource.org/wiki/ऋग्भाष्यम्_श्रीमदानन्दतीर्थविरचितम्",
+      "verification_status": "complete public Unicode witness captured; independently checked at the quoted opening and RV 1.28 loci against a separately typed Kannada-script edition; citation-safe after print-witness collation where a variant matters",
+      "size_bytes": 240213,
+      "line_count": 1774
     },
     {
       "path": "sanskrit/vedanta/madhva_upadhi_khandana_anandamakaranda.wikitext",

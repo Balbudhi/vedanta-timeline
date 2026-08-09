@@ -182,6 +182,30 @@
       ]
     },
     {
+      "id": "rg-bhashya-1-1-8-9",
+      "locus": "Madhva, Ṛg-Bhāṣya 1.1.8–9",
+      "cite": "madhva/rg-bhashya/1.1.8-9",
+      "source_label": "Ṛg-Bhāṣya 1.1.8–9 (public Devanagari witness)",
+      "source_iast": "yathaivāgnyādayaḥ śabdāḥ pravartante janārdane / tathā niruktiṃ vakṣyāmo jñānināṃ jñānasiddhaye //",
+      "iast": "yathā eva agni-ādayaḥ śabdāḥ pravartante janārdane / tathā niruktim vakṣyāmaḥ jñāninām jñāna-siddhaye //",
+      "devanagari": "यथैवाग्न्यादयः शब्दाः प्रवर्तन्ते जनार्दने । तथा निरुक्तिं वक्ष्यामो ज्ञानिनां ज्ञानसिद्धये ॥",
+      "english": "{0:Just as} {1:indeed} {2:words such as ‘Agni’} {3:are applied} {4:to Janārdana}, {5:so} {7:we shall set out} {6:the etymological explanation} {10:for the establishment of knowledge} {9:among the wise}.",
+      "grammar": "The first half makes agnyādayaḥ śabdāḥ the subject of pravartante; janārdane is a locative marking the person to whom the words apply. Yathā … tathā is the standard correlative construction. In the second half niruktim is the object of vakṣyāmaḥ, jñānasiddhaye is a dative of purpose, and jñāninām is a genitive dependent on siddhi.",
+      "words": [
+        {"i":0,"iast":"yathā","deva":"यथा","gloss":"just as","parts":[{"form":"yathā","gloss":"just as"}],"stem":"yathā","root":null,"affix":"avyaya","morph":"correlative indeclinable","karaka":"introduces the first member of the yathā … tathā correlation"},
+        {"i":1,"iast":"eva","deva":"एव","gloss":"indeed; precisely","parts":[{"form":"eva","gloss":"indeed; precisely"}],"stem":"eva","root":null,"affix":"avyaya","morph":"indeclinable emphatic particle","karaka":"emphasis with yathā"},
+        {"i":2,"iast":"agnyādayaḥ","deva":"अग्न्यादयः","gloss":"Agni and the rest; such words as Agni","parts":[{"form":"agni","gloss":"Agni"},{"form":"ādi","gloss":"beginning; and the rest"},{"form":"-aḥ","gloss":"nominative plural masculine"}],"stem":"agny-ādi","root":null,"affix":"ādi + sup jas","morph":"nom. pl. masc. adjective","karaka":"qualifier of śabdāḥ","compound":{"type":"bahuvrīhi","vigraha":"agniḥ ādir yeṣāṃ te","members":["agni","ādi"]}},
+        {"i":3,"iast":"śabdāḥ","deva":"शब्दाः","gloss":"words","parts":[{"form":"śabda","gloss":"word; expression"},{"form":"-āḥ","gloss":"nominative plural masculine"}],"stem":"śabda","root":null,"affix":"sup jas","morph":"nom. pl. masc.","karaka":"subject of pravartante"},
+        {"i":4,"iast":"pravartante","deva":"प्रवर्तन्ते","gloss":"are applied; function in usage","parts":[{"form":"pra-","gloss":"forth; onward"},{"form":"√vṛt","gloss":"turn; proceed; be in use"},{"form":"-ante","gloss":"third-person plural middle"}],"stem":"pravart-","root":"pra + √vṛt (bhvādi, 1Ā)","rootGloss":"proceed; function; be applied","affix":"śap + laṭ + jha","morph":"laṭ, 3rd pl., ātmanepada","karaka":"finite verb; śabdāḥ is its kartṛ"},
+        {"i":5,"iast":"janārdane","deva":"जनार्दने","gloss":"with reference to Janārdana","parts":[{"form":"janārdana","gloss":"Janārdana (Viṣṇu)"},{"form":"-e","gloss":"locative singular"}],"stem":"janārdana","root":null,"affix":"sup ṅi","morph":"loc. sg. masc. proper name","karaka":"locative of scope: the person to whom the words apply"},
+        {"i":6,"iast":"tathā","deva":"तथा","gloss":"so; in that way","parts":[{"form":"tathā","gloss":"so; in that way"}],"stem":"tathā","root":null,"affix":"avyaya","morph":"correlative indeclinable","karaka":"answers yathā and introduces the second member"},
+        {"i":7,"iast":"niruktim","deva":"निरुक्तिम्","gloss":"the etymological explanation","parts":[{"form":"nir-","gloss":"out; distinctly"},{"form":"√vac","gloss":"speak; state"},{"form":"-ti","gloss":"action-noun suffix"},{"form":"-m","gloss":"accusative singular"}],"stem":"nirukti","root":"nir + √vac","rootGloss":"state distinctly; explain","affix":"kti + sup am","morph":"acc. sg. fem.","karaka":"karman of vakṣyāmaḥ"},
+        {"i":8,"iast":"vakṣyāmaḥ","deva":"वक्ष्यामः","gloss":"we shall explain; set out","parts":[{"form":"√vac","gloss":"speak; explain"},{"form":"-syāmaḥ","gloss":"first-person plural future"}],"stem":"vakṣya-","root":"√vac (adādi, 2P)","rootGloss":"speak; explain","affix":"lṛṭ + mas","morph":"simple future, 1st pl., parasmaipada","karaka":"finite verb; niruktim is its karman"},
+        {"i":9,"iast":"jñāninām","deva":"ज्ञानिनाम्","gloss":"of; among the knowers","parts":[{"form":"jñāna","gloss":"knowledge"},{"form":"-in","gloss":"possessing"},{"form":"-ām","gloss":"genitive plural"}],"stem":"jñānin","root":"√jñā (kryādi, 9P)","rootGloss":"know","affix":"jñāna: lyuṭ; jñānin: ini; sup ṅas","morph":"gen. pl. masc.","karaka":"sambandha-genitive dependent on jñānasiddhi"},
+        {"i":10,"iast":"jñānasiddhaye","deva":"ज्ञानसिद्धये","gloss":"for the establishment of knowledge","parts":[{"form":"jñāna","gloss":"knowledge"},{"form":"siddhi","gloss":"accomplishment; establishment"},{"form":"-e","gloss":"dative singular"}],"stem":"jñāna-siddhi","root":"√sidh (divādi, 4P)","rootGloss":"be established; succeed","affix":"siddhi: kti; sup ṅe","morph":"dat. sg. fem.","karaka":"dative of purpose","compound":{"type":"ṣaṣṭhī-tatpuruṣa","vigraha":"jñānasya siddhaye","members":["jñāna","siddhi"]}}
+      ]
+    },
+    {
       "id": "anuvy-2-3-68-69-abheda-strict",
       "locus": "Madhva, Anuvyākhyāna 2.3.68–69",
       "cite": "madhva/anuvyakhyana/2.3.66-69",

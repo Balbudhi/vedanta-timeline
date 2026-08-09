@@ -59,6 +59,73 @@ additions.
 
 Sources: [*Anuvyākhyāna* 1.1.108](cite://madhva/anuvyakhyana/1.1.108) and [1.1.109](cite://madhva/anuvyakhyana/1.1.109).
 
+### The *Ṛg-Bhāṣya*: ritual, deity, and interior discipline
+
+Madhva’s *Ṛg-Bhāṣya* is a commentary on the first forty *sūktas*, not a
+lexicon in which each Vedic noun receives one replacement-word. Its opening
+sets a theological *tātparya*: Nārāyaṇa is “the meaning of the entire Veda”
+and “the meaning of every word” (*sarvavedārthaḥ*, *sarvaśabdārthaḥ*, vv.
+1.5–6). That is a claim about the governing purport of the Veda. It is not a
+claim that the ordinary ritual referent, the named deity, and the inner
+disciplinary referent have ceased to be distinguishable.
+
+That distinction is built into his stated method. In 1.1.56–58, Madhva says
+that the *mūrtayaḥ* (forms) of Keśava are to be expressed through Vedic and
+devatā-designations, “separately with respect to *tātparya*”
+(*tātparyataḥ pṛthak*), in accordance with *samāsa* and *vyāsa*—compound and
+analytical modes of expression. The plural *mūrtayaḥ* and the adverb *pṛthak*
+matter. The interpretation does not eliminate differentiated designation;
+*tātparya* orders it. Madhva is offering a theory of layered reference in which
+the final purport governs without making every use of a word a flat lexical
+identity statement.
+
+The first hymn shows the procedure. On *agnim īḷe*, Madhva first gives an
+etymological account of *agni* through leadership (*agraṇītvam*), then states:
+
+::: gita-passage rg-bhashya-1-1-8-9
+:::
+
+The verb *pravartante* is a present plural: the words are used of Janārdana.
+The verse does not say that the word *agni* has no ritual or deity-reference.
+The immediately following glosses preserve those registers: Agni is the
+regulator of the ritual officiants (*ṛtviṅ-niyāmaka*), is called *ṛtvij* in
+relation to sacrifices, and is connected to the *hotṛ* and to “the form
+situated as Agni” (*agnisaṃsthena rūpeṇa*, 1.1.10–13). The commentary therefore
+relocates the hymn in a hierarchy headed by Viṣṇu; it does not erase ritual
+function or the deity-language of the *saṃhitā*.
+
+Madhva also gives explicitly interior readings, but they are concrete and
+text-specific. In his explanation of RV 1.28 he writes *somo mana ity īritaḥ*
+(“Soma is said to be mind”), and then *pavitram buddhir evātra, manaḥśuddhis
+tayā yataḥ* (“here the filter is precisely intellect, since through it there
+is purification of mind,” 1.28.142, 150). The same sequence maps other ritual
+items to body, speech, and mental activity. This is not a modern translator’s
+psychological substitution, nor is it a reduction of *Agni* to “mind”: the
+word *manas* occurs in Madhva’s own Sanskrit, and in this passage it glosses
+*Soma*. Conversely, in the opening Agni hymn, *manas*, action, and speech name
+the devotee’s modes of approach—*upayāma manaḥkarmavāgbhis* (“we approach with
+mind, action, and speech,” 1.1.22)—not an equation “Agni = mind.”
+
+The result is a layered, theologically ordered Vedic exegesis. A ritual scene
+is retained; a devatā can be named; an inner discipline can be articulated;
+and their final purport is fixed as Viṣṇu. Madhva’s own terms require all of
+those distinctions.
+
+The comparison with Aurobindo must be drawn without a false opposition.
+Aurobindo does not read Agni as “mind.” In *The Secret of the Veda*, Agni is
+the divine or cosmic “Seer-Will,” a conscious force that works through and
+beyond mind; the physical fire and external rite are the figure or support of
+that inner sacrifice. Madhva’s commentary likewise does not flatten the hymn
+into a single psychological code. The relevant difference is instead one of
+theological organization: Madhva fixes the final Vedic purport in Viṣṇu and
+orders ritual, devatā, and interior readings within that *tātparya*; Aurobindo
+develops the Vedic gods as powers in a spiritual psychology and cosmology.
+Neither account is accurately represented by “Agni = mind.”
+
+Sources: [*Ṛg-Bhāṣya*, first hymn](https://sa.wikisource.org/wiki/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A5%8D_%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%A4%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A4%AE%E0%A5%8D#%E0%A4%85%E0%A4%97%E0%A5%8D%E0%A4%A8%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%AE%E0%A5%8D) and [RV 1.28](https://sa.wikisource.org/wiki/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A5%8D_%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%A4%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A4%AE%E0%A5%8D#%E0%A4%AA%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%A3%E0%A4%AE%E0%A5%8D); [public typed Kannada-script edition](https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/07/rug-bhashyam-09082013.pdf).
+
+For the comparison: [Sri Aurobindo, *The Secret of the Veda*](https://www.motherandsriaurobindo.in/Sri-Aurobindo/books/sabcl/the-secret-of-the-veda/), “The Foundations of the Psychological Theory” and “The Seven Rivers.”
+
 ## 2. What Madhva denies
 
 The *Māyāvāda-khaṇḍana* names its target *brahmātmaikya*, Brahman–Self

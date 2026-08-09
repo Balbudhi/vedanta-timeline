@@ -327,8 +327,8 @@
       ],
       "genre": "veda-bhashya",
       "language": "sanskrit",
-      "source_status": "primary-text-not-in-corpus",
-      "summary": "Madhva's commentary on the first forty sūktas (hymns) of the Ṛgveda, not a commentary on the whole Ṛgveda. A two-volume Sanskrit edition, with Jayatīrtha, Rāghavendra, Śrīnivāsa Tīrtha, K. T. Pandurangi, Chalāri Narasiṃhācārya, and Satyanātha Yati in its later exegetical apparatus, was published by the Dvaita Vedanta Studies and Research Foundation (Bangalore, 1999–). A 2009 Sanskrit–English edition covers the same forty hymns. A [public typed, proofread Kannada-script Sanskrit edition](https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/07/rug-bhashyam-09082013.pdf) is also available online; its publisher invites corrections and offers an editable copy on request, but gives no reuse licence, and it has not been independently collated for this corpus. Accordingly, the corpus offers no passage-level claims or translations from it yet.",
+      "source_status": "primary-text-consulted",
+      "summary": "Madhva's commentary on the first forty sūktas (hymns) of the Ṛgveda, not a commentary on the whole Ṛgveda. A two-volume Sanskrit edition, with Jayatīrtha, Rāghavendra, Śrīnivāsa Tīrtha, K. T. Pandurangi, Chalāri Narasiṃhācārya, and Satyanātha Yati in its later exegetical apparatus, was published by the Dvaita Vedanta Studies and Research Foundation (Bangalore, 1999–). A 2009 Sanskrit–English edition covers the same forty hymns.\n\nA complete public Unicode Devanagari witness is now held in the corpus as a Wikimedia transcription; its opening and RV 1.28 were collated against an independently typed Kannada-script Sanskrit edition. Those loci show a layered method: ritual action and named devatās are retained, certain terms receive interior readings (for example, Soma as *manas* and the filter as *buddhi* in the RV 1.28 exposition), and the final *tātparya* is fixed as Viṣṇu. The source is usable for identified passages, while variants still require collation against a printed witness before broader textual claims.",
       "key_passage_ids": [],
       "entry_status": "reviewed"
     },
