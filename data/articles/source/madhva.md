@@ -59,7 +59,7 @@ additions.
 
 Sources: [*Anuvyākhyāna* 1.1.108](cite://madhva/anuvyakhyana/1.1.108) and [1.1.109](cite://madhva/anuvyakhyana/1.1.109).
 
-### The *Ṛg-Bhāṣya*: ritual, deity, and interior discipline
+### The *Ṛg-Bhāṣya*: methodological starting point
 
 Madhva’s *Ṛg-Bhāṣya* is a commentary on the first forty *sūktas*, not a
 lexicon in which each Vedic noun receives one replacement-word. Its opening
@@ -125,6 +125,129 @@ Neither account is accurately represented by “Agni = mind.”
 Sources: [*Ṛg-Bhāṣya*, first hymn](https://sa.wikisource.org/wiki/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A5%8D_%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%A4%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A4%AE%E0%A5%8D#%E0%A4%85%E0%A4%97%E0%A5%8D%E0%A4%A8%E0%A4%BF%E0%A4%B8%E0%A5%82%E0%A4%95%E0%A5%8D%E0%A4%A4%E0%A4%AE%E0%A5%8D) and [RV 1.28](https://sa.wikisource.org/wiki/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A5%8D_%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%A4%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A4%AE%E0%A5%8D#%E0%A4%AA%E0%A4%B5%E0%A4%BF%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%82%E0%A4%AA%E0%A4%A3%E0%A4%AE%E0%A5%8D); [public typed Kannada-script edition](https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/07/rug-bhashyam-09082013.pdf).
 
 For the comparison: [Sri Aurobindo, *The Secret of the Veda*](https://www.motherandsriaurobindo.in/Sri-Aurobindo/books/sabcl/the-secret-of-the-veda/), “The Foundations of the Psychological Theory” and “The Seven Rivers.”
+
+### Comparative readings in the early hymns
+
+The right unit of comparison is a hymn or a connected sequence, not an
+isolated Sanskrit word. The textual boundaries are not identical: Madhva
+comments on RV 1.1–40; Kapali Śāstri’s *Siddhāñjana* continues through RV
+1.121; and Aurobindo identifies RV 1.1–11 as the illustrative block in
+chapter 6 of *The Secret of the Veda*. Aurobindo also translates and comments
+on many hymns outside that block. The direct three-way dossier is therefore
+the opening 1.1–11, while 1.20–40 supports a Madhva–Kapali comparison with
+selective Aurobindonian parallels. It would be inaccurate to call all three
+works commentaries on the same forty hymns.
+
+#### RV 1.1: Agni, sacrifice, and the governing reality
+
+Madhva makes Nārāyaṇa the governing Vedic referent and accounts for *agni*
+through *agraṇītvam*, leadership. Yet the rest of his reading preserves the
+internal movement of the hymn: Agni is *ṛtvij* and *hotṛ*, brings the gods,
+gives inexhaustible wealth, protects the rite, does good for the giver, and is
+approached day after day with mind, action, and speech. The resulting claim is
+not that the ritual language has become empty. It is that ritual office,
+devatā, and spiritual result are ordered beneath a final Viṣṇu-purport.
+
+Madhva: *Ṛg-Bhāṣya* 1.1.5–24.
+
+Kapali Śāstri follows the sequence of RV 1.1 even more closely. His discussion
+of verses 1–9 moves from Agni as *purohita* and *ṛtvij*, through wealth that
+does not decay, the protected sacrifice, *kavi-kratu*, *satya*, and *ṛta*, to
+the daily inward approach in thought and Agni’s growth in his own *dāma*.
+He expressly rejects two reductions: the devatās are not only qualities or
+powers of the supreme, and Agni is not merely the external sacrificial priest.
+The physical fire remains the outer sign; the hymn concerns a divine person
+and power whose action is inwardly transformative.
+
+Kapali Śāstri: *Siddhāñjana*, RV 1.1, introductory synthesis and commentary
+on verses 1–9.
+
+Aurobindo reads the same four-verse centre (RV 1.1.5–8) as the disclosure of
+Agni’s divine Will. *Kavi-kratu* is a will effective in action and informed by
+seer-knowledge; *satya* and *ṛta* name truth of being and right action; the
+sacrifice figures a continuous offering of the mortal to the immortal. He
+insists that the fire, priest, and rite are outward figures which the hymn
+deliberately retains. Thus none of the three reads “Agni” as “mind.” They
+diverge over the final ordering: Madhva fixes it in the absolute supremacy of
+Viṣṇu, while Kapali and Aurobindo organize the hymn around the awakening of a
+divine power in the human being.
+
+Aurobindo: *The Secret of the Veda*, ch. 6, discussion of RV 1.1.5–8.
+
+#### RV 1.2–3: a sequence, not a cipher
+
+The second and third hymns show why a single-word equation fails. Kapali reads
+RV 1.2 as a connected movement: Vāyu is cosmic and bodily life-force and the
+support of the *manomaya* field; Soma is a divine bliss-current from the
+truth-consciousness; Indra governs the mental plane; Mitra and Varuṇa form a
+luminous *dhī*. The soma-creeper is retained as the outer ritual sign. RV 1.3
+then moves through the Aśvins’ vital action and delight, Indra’s luminous
+mind, the collective action of the Viśve Devas, and Sarasvatī’s inspired flow.
+
+Aurobindo reads precisely this kind of ordered ascent. In RV 1.2 Vāyu prepares
+the vital forces, Indra and Vāyu prepare the mentality, and Mitra–Varuṇa bring
+truth into that mentality. In RV 1.3 the Aśvins perfect vital action and
+enjoyment, Indra establishes delight in luminous mind, the Viśve Devas complete
+the work, and Sarasvatī brings the inspired word. His claim is not that these
+gods are impersonal abstractions, but that they are divine powers active in an
+inner sacrifice.
+
+Madhva also gives inner correspondences, but in a different theological
+grammar. In the RV 1.2 exposition he permits Soma to be read in relation to
+mind and uses the standard indicators of *tātparya* to identify the final
+meaning. At RV 1.28 he states the correspondence explicitly: *somo mana ity
+īritaḥ* (“Soma is said to be mind”) and *pavitram buddhir evātra* (“here the
+filter is precisely intellect”); the result is purification of mind. These are
+genuine interior readings. They do not make Madhva an Aurobindonian: he retains
+real devatā-difference and makes Hari the final purport, whereas Aurobindo and
+Kapali use the sequence to articulate the transformation of the human
+instrument.
+
+Madhva: *Ṛg-Bhāṣya* 1.1.117–24, 135–70, and RV 1.28.142, 150. Kapali Śāstri:
+*Siddhāñjana*, RV 1.2–3. Aurobindo: *The Secret of the Veda*, chs. 7–8.
+
+#### RV 1.32: Vṛtra and the released waters
+
+The Vṛtra hymn shows why outer narrative and inner reading should not be
+treated as mutually exclusive. Madhva recounts Vṛtra as a real daemonic
+opponent while also making interior identifications: the *vajra* can be
+knowledge or *buddhi*; Vṛtra can be darkness, false cognition, or doubt; and
+the released waters can be forms of knowledge and mental movement
+(1.32.212–33). The cosmic and interior registers are both active in the same
+commentary.
+
+Kapali’s commentary on RV 1.32 likewise gives the visible narrative—cloud,
+rain, thunderbolt, rivers, and Vṛtra—then says that its secret sense will be
+considered without contradicting the gross meaning. The exposition already
+keeps an inward pressure visible: the waters flowing over defeated Vṛtra are
+said to “mount the mind” in RV 1.32.8. Aurobindo reads Vṛtra as the Coverer,
+the obstruction of the waters of truth and the light-cows. The shared lesson is
+multi-register interpretation, not a shared Vedāntic conclusion: Madhva’s
+reading remains governed by *tāratamya* and final jīva–Īśvara difference.
+
+Madhva: *Ṛg-Bhāṣya* 2.212–33. Kapali Śāstri: *Siddhāñjana*, RV 1.32.
+Aurobindo: *The Secret of the Veda*, esp. chs. 10–22 on the waters, cows,
+Vṛtra, and the Angiras myth.
+
+#### What the first forty establish
+
+The first forty hymns show that Madhva is not a flat ritualist and cannot be
+summarized by “Agni = mind.” His commentary coordinates ritual action, divine
+persons, cosmic events, and interior discipline across Agni and the officiants
+(1.1; 1.12–19), the Vāyu–Indra–Mitra–Varuṇa sequence (1.2), the Aśvins,
+Sarasvatī, and collective gods (1.3), Indra’s victories (1.4–11; 1.32–34),
+Savitṛ (1.35), and the Maruts (1.37–40). Kapali covers this material within a
+larger 1.1–121 commentary. Aurobindo’s closest sustained analysis is 1.1–11,
+with a broader but selective Vedic corpus elsewhere.
+
+The primary evidence supports a precise conclusion. All three can read a hymn
+as ritual, divine, cosmic, and interior at once. Madhva, however, gives that
+plurality a Dvaita ordering: Viṣṇu alone is fully independent and the devatās
+remain genuinely differentiated. Kapali and Aurobindo agree that the hymns are
+symbolically and spiritually operative, but do not share Madhva’s final
+metaphysical ordering.
+
+Sources: [Madhva, *Ṛg-Bhāṣya*](https://sa.wikisource.org/wiki/%E0%A4%8B%E0%A4%97%E0%A5%8D%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%AF%E0%A4%AE%E0%A5%8D_%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%AE%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A4%A4%E0%A5%80%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A4%9A%E0%A4%BF%E0%A4%A4%E0%A4%AE%E0%A5%8D); [Kapali Śāstri, RV 1.1–19](https://motherandsriaurobindo.in/disciples/t-v-kapali-sastry/books/collected-works/volume-4/); [RV 1.20–32](https://motherandsriaurobindo.in/disciples/t-v-kapali-sastry/books/collected-works/volume-6/); [Sanskrit commentary, RV 1.20–121](https://motherandsriaurobindo.in/disciples/t-v-kapali-sastry/books/collected-works/volume-5/); [Aurobindo, *The Secret of the Veda*, ch. 6](https://sri-aurobindo.co.in/workings/sa/37_15/0006_e.htm).
 
 ## 2. What Madhva denies
 
