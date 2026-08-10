@@ -42,7 +42,23 @@ And on *Surādhyakṣaḥ*: "When in the **Heaven of our bosom**, the thought-an
 
 This — that *deva* and *asura* name two orientations inside one person — is the heart of the teaching, and it is not his invention. It is Śaṅkara's, verbatim (§V below).
 
-**So the "harmony" gloss does not appear in his printed commentaries on the Viṣṇu Sahasranāma, the Kena, the Īśāvāsya, the Praśna, the Aitareya, the Taittirīya, or the Ātmabodha.** Where he explains the word, he gives *su* + √*rā*. If he taught the harmony reading, it belongs to the oral corpus — the talks — rather than the books, and it should be understood as homiletics rather than grammar. Which is not a demotion: §IV shows it has excellent warrant of a different kind.
+In *The Holy Geeta*, his fullest treatment of the theme — the commentary on chapter 16, *daivāsura-sampad-vibhāga-yoga* — he classifies "the entire mankind, of all times and of all ages" under three types: "(a) **the Divinely Good** (Devas), (b) **the Diabolically Fallen** (Asuras) and (c) **the Incorrigibly Indifferent** (Rakshasas)." He offers no derivation of *asura* there at all.
+
+**So the "harmony" gloss appears nowhere in his printed corpus** — not in *The Holy Geeta*, the *Viṣṇu Sahasranāma*, the *Vivekacūḍāmaṇi* talks, or the commentaries on the Kena, Īśāvāsya, Praśna, Aitareya, Taittirīya and Ātmabodha. Where he explains the word, he gives *su* + √*rā*.
+
+### The idiom, however, is unmistakably his
+
+What the printed corpus *does* show is that the musical metaphor for spiritual failure is Chinmayananda's own, used constantly — just never welded to the etymology. From *The Holy Geeta*:
+
+> "An individual becomes incapable of facing the challenges of life and meeting its rising demands, because, in his false estimation of things and beings, **he comes to play out of tune with the whole orchestra of life**. … He, **who is capable of tuning himself up thus with the whole**, is the one who is marked out for sure success and complete victory in life."
+
+> "Intemperance would bring discordant and riotous agitations in the various matter layers of the personality, **shattering the harmonious melody of integration**."
+
+> "to a great musician, **to sing deliberately out of tune, in disharmonious notes**, is as difficult as it is for a beginner to sing correctly."
+
+That is the whole gloss, in his voice, minus only the word *asura*. A man who habitually describes the fallen life as "playing out of tune with the whole orchestra of life," and who elsewhere derives *sura* as *su* + √*rā*, needs one sentence in one talk to arrive at "the *asura* is the one out of tune" — and talks are where he spent most of his life. So the attribution is entirely plausible even though it is unverified in print; and what he would have been doing is **homiletics, not grammar**.
+
+That is not a demotion. §IV shows the reading has excellent warrant of a different kind.
 
 ---
 
@@ -322,6 +338,6 @@ And the replacement is not a loss. The grammarians derive *sura* from √*sur*, 
 
 ### A note on sources
 
-Sanskrit texts are quoted from the GRETIL electronic editions: Yāska's *Nirukta*; Pāṇini's *Aṣṭādhyāyī*; Patañjali's *Mahābhāṣya* (*Paspaśāhnika*); the Ṛgveda in Aufrecht's recension; and the Chāndogya, Bṛhadāraṇyaka and Īśā Upaniṣads with Śaṅkara's *bhāṣya*. Lexicographical material is from the Cologne Digital Sanskrit Dictionaries: Monier-Williams, Apte, the *Śabdakalpadruma* and the *Vācaspatyam*. Root citations follow the *Dhātupāṭha*; the Uṇādi-sūtras are cited in the *pañcapādī* recension, with the *Siddhānta-Kaumudī*, and the *Kāśikā-vṛtti* is used for Pāṇini's *gaṇa*s and examples. Chinmayananda is quoted from his commentary on the *Viṣṇu Sahasranāma* (names 85 *Sureśaḥ*, 134 *Surādhyakṣaḥ*, 286 *Sureśvaraḥ*) and his *Discourses on Kenopaniṣad* (ch. IV).
+Sanskrit texts are quoted from the GRETIL electronic editions: Yāska's *Nirukta*; Pāṇini's *Aṣṭādhyāyī*; Patañjali's *Mahābhāṣya* (*Paspaśāhnika*); the Ṛgveda in Aufrecht's recension; and the Chāndogya, Bṛhadāraṇyaka and Īśā Upaniṣads with Śaṅkara's *bhāṣya*. Lexicographical material is from the Cologne Digital Sanskrit Dictionaries: Monier-Williams, Apte, the *Śabdakalpadruma* and the *Vācaspatyam*. Root citations follow the *Dhātupāṭha*; the Uṇādi-sūtras are cited in the *pañcapādī* recension, with the *Siddhānta-Kaumudī*, and the *Kāśikā-vṛtti* is used for Pāṇini's *gaṇa*s and examples. Chinmayananda is quoted from his commentary on the *Viṣṇu Sahasranāma* (names 85 *Sureśaḥ*, 134 *Surādhyakṣaḥ*, 286 *Sureśvaraḥ*), his *Discourses on Kenopaniṣad* (ch. IV), and *The Holy Geeta* (commentary on chapters 4, 6, 8 and 16). The survey covers those works together with his *Talks on Śaṅkara's Vivekacūḍāmaṇi* and his commentaries on the Īśāvāsya, Praśna, Aitareya and Taittirīya Upaniṣads and the Ātmabodha — eleven volumes in all. It does not cover the recorded talks, which are far more extensive than the books and which are where the "harmony" gloss, if he gave it, most likely belongs.
 
-Two limitations should be stated. First, the survey of Chinmayananda covers his published commentaries on the Viṣṇu Sahasranāma, the Kena, Īśāvāsya, Praśna, Aitareya and Taittirīya Upaniṣads, and the Ātmabodha; it does not cover *The Holy Geeta* or the recorded talks, and the "harmony" gloss may well belong to the oral corpus. Second, the Rāmāyaṇa verse on *surā* is quoted here at second hand, from Śabdakalpadruma, rather than from the epic directly.
+Two further cautions. The Rāmāyaṇa verse on *surā* is quoted here at second hand, from Śabdakalpadruma, rather than from the epic directly. And a claim now circulating widely online — that "*sura* denotes chromatic musical harmony" and that *asura* means "a person who cannot properly pronounce the words of the Vedas or sing in chromatic harmony" — should be treated with care: it propagates through encyclopedia mirrors and aggregator sites without a source, it corresponds to nothing in the Sanskrit lexica, and it is not traceable to Chinmayananda or to any traditional authority. The genuine version of that intuition is the *udgītha-brāhmaṇa* material set out in §IV.
