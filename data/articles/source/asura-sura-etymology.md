@@ -56,7 +56,19 @@ What the printed corpus *does* show is that the musical metaphor for spiritual f
 
 > "to a great musician, **to sing deliberately out of tune, in disharmonious notes**, is as difficult as it is for a beginner to sing correctly."
 
-That is the whole gloss, in his voice, minus only the word *asura*. A man who habitually describes the fallen life as "playing out of tune with the whole orchestra of life," and who elsewhere derives *sura* as *su* + √*rā*, needs one sentence in one talk to arrive at "the *asura* is the one out of tune" — and talks are where he spent most of his life. So the attribution is entirely plausible even though it is unverified in print; and what he would have been doing is **homiletics, not grammar**.
+That is the whole gloss, in his voice, minus only the word *asura*.
+
+### And so is the method
+
+The other half of the gloss — splitting a word at a privative *a-* and reading the remainder morally — is likewise demonstrably his habit. In a recorded talk on the significance of the Rāmāyaṇa he runs the technique twice in fifteen seconds:
+
+> "Thus we are told in **Ayodhyā** — *yudh*, conflict. **Ayodhyā: where there is no conflict.**"
+
+> "To **Daśaratha** — **one who has conquered all the ten sense organs** — was born the Supreme Lord Śrī Rāma."
+
+*A-yodhyā*, "not-to-be-fought," is exactly the *a-sura* move: prefix read as negation, remainder given an inward sense, the whole turned into a description of a state of mind. A teacher who derives *Ayodhyā* that way, describes the fallen life as "playing out of tune with the whole orchestra of life," and elsewhere glosses *sura* as *su* + √*rā*, needs one sentence in one talk to arrive at "the *asura* is the one out of tune."
+
+So the attribution is entirely plausible, even though it remains unverified in print; and what he would have been doing is **homiletics, not grammar** — the same genre as *Ayodhyā*, "where there is no conflict," which is also not what the word historically means.
 
 That is not a demotion. §IV shows the reading has excellent warrant of a different kind.
 
