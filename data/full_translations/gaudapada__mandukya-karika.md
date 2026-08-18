@@ -3,11 +3,11 @@ coverage: selection
 coverage_evidence: 'locus-scope describes restricted range'
 ---
 
-# Māṇḍūkya-Kārikā — Extended Translation
+# Māṇḍūkya-Kārikā — Annotated Passage Dossier
 **By:** Gauḍapāda  
 **Locus scope:** Āgama-prakaraṇa 1.13-18; Vaitathya-prakaraṇa 2.1-6; Advaita-prakaraṇa 3.1-21  
 **Source edition transcribed from:** Vinayaka Ganesha Apate, ed., *Āgamaśāstra / Gauḍapādakārikā* (Pune: Anandasrama Sanskrit Series 10, 1921), as transcribed in the GRETIL file `gaudapada_mandukya_karika_gretil.txt` (version dated 2020-07-31).  
-**Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-09.
+**Translation status:** Source-linked literal working translation for the selected passages below; this is not a complete edition of the work.
 
 ---
 

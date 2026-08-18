@@ -414,7 +414,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "20260818-exemplars";
+const DATA_VERSION = "20260818-gaudapada-refinement";
 
 async function loadJSON(path) {
   try {
@@ -1821,7 +1821,8 @@ function ensureResetViewButton() {
 }
 
 // ---------- unified right-side panel (tabs) -----------
-// Single panel hosts five tabs: Thinker / Translation / Article / Citation / Source.
+// Single panel hosts the reader-facing tabs. The legacy raw-source pane remains
+// internally reachable for maintenance but is not a public reading surface.
 // One tab is active at a time; the others retain their last-rendered content.
 const PANEL_TABS = ["thinker", "translation", "article", "citation", "source"];
 const panelState = {
@@ -1925,13 +1926,13 @@ function showTab(tab) {
 }
 
 // Show only the tabs that belong to the current panel content. A thinker shows
-// Thinker + Source (Translation/Citation are revealed lazily by showTab() as a
-// work or citation is opened). A standalone article (e.g. the Gītā reading) has
-// no thinker, so it shows only the Article tab — no empty Thinker/Source tabs.
+// Thinker (Translation/Citation are revealed lazily by showTab() as a work or
+// citation is opened). A standalone article (e.g. the Gītā reading) has no
+// thinker, so it shows only the Article tab.
 // Re-running this also clears stale lazy tabs when switching content.
 function applyTabContext(kind) {
   if (!dpTabBar) return;
-  const visible = kind === "article" ? ["article"] : ["thinker", "source"];
+  const visible = kind === "article" ? ["article"] : ["thinker"];
   dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
     btn.hidden = !visible.includes(btn.dataset.pane);
   });
@@ -1947,8 +1948,6 @@ if (dpTabBar) {
       // the URL so back / forward / reload restores the same view.
       if (t === "thinker" && state.activeId) {
         router.push({ kind: "thinker", thinkerId: state.activeId });
-      } else if (t === "source" && sourceTabState.activeFilePath) {
-        router.push({ kind: "source", thinkerId: state.activeId || "", sourcePath: sourceTabState.activeFilePath });
       } else if (t === "citation" && sourceTabState.activeCiteKey) {
         router.push({ kind: "citation", thinkerId: state.activeId || sourceTabState.activeCiteKey.split("/")[0], citeKey: sourceTabState.activeCiteKey });
       }
@@ -1963,7 +1962,6 @@ if (dpTabBar) {
 //   #/thinker/<id>
 //   #/thinker/<id>/translation/<work_id>
 //   #/thinker/<id>/citation/<thinker>/<work>/<locus...>
-//   #/thinker/<id>/source/<file_path...>
 //   #/article/<slug>
 //   #/perspective/<slug>
 // The router is reentrancy-guarded: when we apply a parsed hash we set a
@@ -1985,9 +1983,6 @@ const router = {
       if (parts[2] === "citation" && parts[3]) {
         return { kind: "citation", thinkerId: tid, citeKey: parts.slice(3).join("/") };
       }
-      if (parts[2] === "source" && parts[3]) {
-        return { kind: "source", thinkerId: tid, sourcePath: parts.slice(3).join("/") };
-      }
       return { kind: "thinker", thinkerId: tid };
     }
     if (parts[0] === "article" && parts[1]) {
@@ -1995,9 +1990,6 @@ const router = {
     }
     if (parts[0] === "perspective" && parts[1]) {
       return { kind: "perspective", slug: parts[1] };
-    }
-    if (parts[0] === "source" && parts[1]) {
-      return { kind: "source", sourcePath: parts.slice(1).join("/") };
     }
     return null;
   },
@@ -2011,13 +2003,6 @@ const router = {
       const tid = state.thinkerId || (state.citeKey || "").split("/")[0] || "";
       const keyParts = (state.citeKey || "").split("/").map(enc).join("/");
       return `#/thinker/${enc(tid)}/citation/${keyParts}`;
-    }
-    if (state.kind === "source") {
-      const tid = state.thinkerId || "";
-      const pathParts = (state.sourcePath || "").split("/").map(enc).join("/");
-      return tid
-        ? `#/thinker/${enc(tid)}/source/${pathParts}`
-        : `#/source/${pathParts}`;
     }
     if (state.kind === "article") return `#/article/${enc(state.slug)}`;
     if (state.kind === "perspective") return `#/perspective/${enc(state.slug)}`;
@@ -2048,12 +2033,6 @@ const router = {
       } else if (parsed.kind === "citation") {
         openThinker(parsed.thinkerId);
         openCitationPanel(parsed.citeKey, null);
-      } else if (parsed.kind === "source") {
-        if (parsed.thinkerId) openThinker(parsed.thinkerId);
-        setPanelTab("source");
-        ensureSourceTreeRendered().then(() => {
-          if (parsed.sourcePath) selectSourceFile(parsed.sourcePath);
-        });
       } else if (parsed.kind === "article" || parsed.kind === "perspective") {
         const list = parsed.kind === "perspective"
           ? ((perspectivesManifest && perspectivesManifest.perspectives) || [])
@@ -2172,7 +2151,7 @@ closeDetail.addEventListener("click", closePanel);
   detailPane.addEventListener(type, (e) => {
     // Exempt the resize handle: this capture-phase guard otherwise swallows
     // the handle's own mousedown/pointerdown before it can start a drag.
-    if (e.target && e.target.closest && e.target.closest(".dp-resize-handle, [data-chronology-toggle]")) return;
+    if (e.target && e.target.closest && e.target.closest(".dp-resize-handle, [data-chronology-toggle], a[href^='cite://']")) return;
     e.stopPropagation();
   }, true);
 });
@@ -2312,7 +2291,18 @@ function renderHero(t) {
 function renderLineageBlock(t) {
   const linkList = (ids) => (ids || []).map(linkThinker).filter(Boolean).join(", ");
   const inHTML = linkList(t.lineage_in);
-  const outHTML = linkList(t.lineage_out);
+  const traditional = t.traditional_succession;
+  const successionHTML = traditional && Array.isArray(traditional.chain) && traditional.chain.length
+    ? traditional.chain.map((member) => {
+      const label = escape(member.name_iast || member.name || "");
+      const linked = member.thinker_id ? linkThinker(member.thinker_id) : "";
+      return linked || label;
+    }).filter(Boolean).join(" <span class=\"lin-arrow\" aria-hidden=\"true\">→</span> ")
+    : "";
+  // A traditional chain that names an intermediate teacher is more precise
+  // than the compressed graph edge, so do not repeat it as a false direct
+  // teacher/student "To" relation in the reader-facing profile.
+  const outHTML = successionHTML ? "" : linkList(t.lineage_out);
   const polHTML = (t.lineage_polemical || [])
     .map((p) => {
       const link = linkThinker(p.thinker_id);
@@ -2320,11 +2310,12 @@ function renderLineageBlock(t) {
       return `${link} <em>(${escape(p.direction || "engages")})</em>`;
     })
     .filter(Boolean).join(", ");
-  if (!inHTML && !outHTML && !polHTML) return "";
+  if (!inHTML && !outHTML && !polHTML && !successionHTML) return "";
   return `
     <h3 class="section-head">Lineage</h3>
     <div class="lineage-block">
       ${inHTML ? `<div class="lin-row"><span class="lin-label">From</span>${inHTML}</div>` : ""}
+      ${successionHTML ? `<div class="lin-row"><span class="lin-label">${escape(traditional.label || "Traditional succession")}</span>${successionHTML}${traditional.note ? `<div class="lin-note">${escape(traditional.note)}</div>` : ""}</div>` : ""}
       ${outHTML ? `<div class="lin-row"><span class="lin-label">To</span>${outHTML}</div>` : ""}
       ${polHTML ? `<div class="lin-row"><span class="lin-label">Polemics</span>${polHTML}</div>` : ""}
     </div>
@@ -2337,8 +2328,8 @@ function renderEngagedWorks(t) {
   const allPassages = t.key_passages || [];
   const cards = works.map((w) => {
     const passages = allPassages.filter((p) => p.work_id === w.work_id);
-    // Flag whether a full translation .md is on disk so the work card can
-    // decide between "Read the full work in translation" + suppressed
+    // Flag whether an annotated translation dossier is on disk so the work card can
+    // decide between opening that dossier + suppressed
     // passage list, or surfacing the key passages with an honest
     // "(full work pending)" framing.
     const txKey = `${t.id}__${w.work_id}`;
@@ -2440,9 +2431,9 @@ function renderWorkCard(w, passages, thinkerId) {
     ? numberCitations(md(w.ascription_notes), workCtr)
     : { html: "", footnotes: [] };
   const allFootnotes = summaryRendered.footnotes.concat(ascrRendered.footnotes);
-  // Passages section framing — depends on whether a full translation is on
-  // disk. When the full work is available the user reads it via the
-  // "Read the full work in translation" button; the partial passage cards
+  // Passages section framing — depends on whether an annotated translation
+  // dossier is on disk. When it is available the user reads it via the
+  // dossier button; the partial passage cards
   // would be redundant. When only key_passages exist on disk, surface them
   // under an honest "Engaged passages (full work pending)" header so the
   // user knows these are selected loci, not a representative sample.
@@ -2462,7 +2453,7 @@ function renderWorkCard(w, passages, thinkerId) {
   // line carry the honest acknowledgement.
   const hasReadable = hasFullTx || passages.length > 0;
   const readLabel = hasFullTx
-    ? "Read the full work in translation"
+    ? "Open translation dossier"
     : "Open engaged passages";
   const readButton = hasReadable
     ? `<button class="read-full-link" data-read-full="${escape(w.work_id)}" data-thinker="${escape(thinkerId)}">${readLabel}</button>`
@@ -2864,7 +2855,7 @@ function renderCoverageBanner(meta, work, thinker) {
     return `<div class="tx-coverage tx-coverage-full"><span class="tx-coverage-tag">Full text</span> The complete <em>${escape(title)}</em>.</div>`;
   }
   if (cov === "selection") {
-    return `<div class="tx-coverage tx-coverage-selection"><span class="tx-coverage-tag">Selected passages</span> An excerpt from <em>${escape(title)}</em>; the full text extends beyond what is rendered here.<button class="tx-coverage-source" data-tx-open-source="${escape(thinker ? thinker.id : "")}">Open Source tab →</button></div>`;
+    return `<div class="tx-coverage tx-coverage-selection"><span class="tx-coverage-tag">Selected passages</span> An annotated dossier from <em>${escape(title)}</em>; the full text extends beyond what is rendered here.</div>`;
   }
   if (cov === "placeholder") {
     return `<div class="tx-coverage tx-coverage-placeholder"><span class="tx-coverage-tag">Acquisition queued</span> A defensible Sanskrit witness for <em>${escape(title)}</em> is not yet on disk; the page below summarizes what is and is not engaged.</div>`;
@@ -3031,13 +3022,6 @@ function wireTranslationDisclosures(root, ctx) {
   root.querySelectorAll("details[data-tx-disclosure]").forEach((d) => {
     d.addEventListener("toggle", () => {
       writeDisclosureState(d.dataset.txDisclosure, d.open);
-    });
-  });
-  // "Open Source tab →" link in the coverage banner switches tabs.
-  root.querySelectorAll("[data-tx-open-source]").forEach((b) => {
-    b.addEventListener("click", (e) => {
-      e.preventDefault();
-      if (typeof showTab === "function") showTab("source");
     });
   });
 }
@@ -3730,14 +3714,15 @@ async function openCitationPopover(key, anchorEl) {
           : `The cited work is not yet in our corpus in clean form.`} The claim above relies on this work; its primary text is on the acquisition list. The text shown below is the locus on which it comments, included as context — not itself the attestation.${entry.pending_acquisition_note || entry.verification_note ? ` <em>${escape(entry.pending_acquisition_note || entry.verification_note)}</em>` : ""}</p></div>`
       : "";
     const sk = entry.sanskrit_iast
-      ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${isPending ? "Sanskrit (IAST) — context" : "Sanskrit (IAST)"}</span><div class="cp-sk">${mdVerse(entry.sanskrit_iast)}</div></div>`
+      ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${isPending ? "Sanskrit (IAST) — context" : "Verified witness (IAST)"}</span><div class="cp-sk">${mdVerse(entry.sanskrit_iast)}</div></div>`
       : "";
     const en = entry.english_close
-      ? `<div class="cp-block cp-english"><span class="cp-label">${isPending ? "Close English — context" : "Close English"}</span><div class="cp-en">${md(entry.english_close)}</div></div>`
+      ? `<div class="cp-block cp-english"><span class="cp-label">${isPending ? "Literal English — context" : "Literal English rendering"}</span><div class="cp-en">${md(entry.english_close)}</div></div>`
       : "";
     const openWork = `<button class="cp-open-thinker" data-thinker-id="${escape(tid)}">Open ${escape(thinkerName)} →</button>`;
-    const openSource = entry.source_url
-      ? `<a class="cp-open-source" href="${escape(entry.source_url)}" target="_blank" rel="noopener">Open public source ↗</a>`
+    const hasDossier = state.fullTranslationSet && state.fullTranslationSet.has(`${tid}__${wid}`);
+    const openDossier = hasDossier
+      ? `<button class="cp-open-dossier" data-work-id="${escape(wid)}" data-thinker-id="${escape(tid)}">Open annotated passage dossier →</button>`
       : "";
     bodyHtml = `
       <div class="cp-header">
@@ -3747,7 +3732,7 @@ async function openCitationPopover(key, anchorEl) {
       ${pendingBlock}
       ${sk}
       ${en}
-      <div class="cp-actions">${openSource}${openWork}</div>
+      <div class="cp-actions">${openDossier}${openWork}</div>
     `;
   } else {
     const openWork = t
@@ -3803,6 +3788,13 @@ async function openCitationPopover(key, anchorEl) {
     openBtn.addEventListener("click", () => {
       closeCite();
       openThinker(openBtn.dataset.thinkerId);
+    });
+  }
+  const dossierBtn = pop.querySelector(".cp-open-dossier");
+  if (dossierBtn) {
+    dossierBtn.addEventListener("click", () => {
+      closeCite();
+      openReader(dossierBtn.dataset.workId, dossierBtn.dataset.thinkerId);
     });
   }
   setTimeout(() => document.addEventListener("click", outsideClose), 0);
@@ -3907,7 +3899,7 @@ function renderCitationTab(key) {
         : entry.verified === false
         ? `
       <div class="cite-passage-anchor cite-passage-anchor--unverified">
-        <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
+        <div class="cpa-locus">Unverified cited locus · ${escape(entry.locus_short || locusDisplay)}</div>
         <div class="cpa-pending">
           The Sanskrit passage referenced here was not located in the on-disk
           source by the citation audit. Locus and attribution are preserved;
@@ -3918,9 +3910,9 @@ function renderCitationTab(key) {
     `
         : `
       <div class="cite-passage-anchor">
-        <div class="cpa-locus">Locus · ${escape(entry.locus_short || locusDisplay)}</div>
+        <div class="cpa-locus">Verified source passage · ${escape(entry.locus_short || locusDisplay)}</div>
         ${entry.sanskrit_iast ? `<div class="cpa-sk">${mdVerse(entry.sanskrit_iast)}</div>` : ""}
-        ${entry.english_close ? `<div class="cpa-en">${md(entry.english_close)}</div>` : ""}
+        ${entry.english_close ? `<div class="cpa-en"><span class="cpa-translation-label">Literal English rendering</span>${md(entry.english_close)}</div>` : ""}
       </div>
     `)
     : `
@@ -3934,10 +3926,11 @@ function renderCitationTab(key) {
     ? `<p class="ccb-note">No surrounding key-passages indexed for this work yet.</p>`
     : "";
 
+  const hasDossier = state.fullTranslationSet && state.fullTranslationSet.has(`${tid}__${wid}`);
   const actions = `
     <div class="ccb-actions">
+      ${hasDossier ? `<button class="ccb-action" data-act="open-dossier" data-thinker-id="${escape(tid)}" data-work-id="${escape(wid)}">Open annotated passage dossier →</button>` : ""}
       ${t ? `<button class="ccb-action ccb-action--primary" data-act="open-thinker" data-thinker-id="${escape(tid)}">Open ${escape(thinkerName)} →</button>` : ""}
-      <button class="ccb-action" data-act="open-source" data-thinker-id="${escape(tid)}" data-work-id="${escape(wid)}">Open in Source tab →</button>
     </div>
   `;
 
@@ -3964,10 +3957,8 @@ function renderCitationTab(key) {
       const act = btn.dataset.act;
       if (act === "open-thinker") {
         openThinker(btn.dataset.thinkerId);
-      } else if (act === "open-source") {
-        const guess = guessSourceFileForCitation(btn.dataset.thinkerId, btn.dataset.workId);
-        setPanelTab("source");
-        if (guess) selectSourceFile(guess);
+      } else if (act === "open-dossier") {
+        openReader(btn.dataset.workId, btn.dataset.thinkerId);
       }
     });
   });

@@ -9,13 +9,15 @@ mini-encyclopedia of every doctrine nearby.
 
 ## Core thesis
 
-Target: 90–180 words, one to three paragraphs.
+Target: 180–320 words, normally three to five short paragraphs.
 
 1. Name the author and historical/intellectual location.
 2. State the distinctive philosophical or exegetical contribution.
 3. Name the work or corpus that bears the claim.
 4. State the real interlocutor, disagreement, or limitation when relevant.
-5. Use `cite://` links for claims supported by public engaged sources.
+5. State a traditional succession separately from the philosophical argument;
+   do not draw a direct teacher edge when an intermediate teacher is known.
+6. Use `cite://` links for claims supported by public engaged sources.
 
 Do not use ranking language (“greatest,” “unmatched,” “most important”), turn a
 school affiliation into a philosophical claim, or merge a modern scholar's
@@ -26,9 +28,12 @@ label reconstruction and this site's synthesis separately.
 
 Target: 50–160 words per work.
 
-- Say what the work is, its genre/language, the question it addresses, and the
-  position or method it develops.
+- Say what the work is, its genre/language, its internal movement or structure,
+  the question it addresses, and the position or method it develops.
 - Identify ascription status in the card, never bury it in prose.
+- Do not make a settled authorship question the work summary's subject. A
+  necessary unresolved qualification belongs in a compact editorial note, not
+  in the account of what the work argues.
 - Do not claim a full translation, exact source wording, or local text witness
   when `source_status` says otherwise.
 - For a traditional devotional work, state both the traditional attribution and
@@ -61,3 +66,12 @@ Every source-dependent statement must be legible as one of:
 3. Run the thinker-content report and relevant citation/source checks.
 4. Send the changed entry to an independent source/grammar reviewer.
 5. Mark `reviewed` only after the evidence and labels match the rendered text.
+
+## Citation interaction
+
+A public citation opens a compact verified-passage view: locus, witness text
+(source script where the verified record supplies it, otherwise IAST), and a
+literal English rendering. It may offer an annotated translation dossier for
+the relevant text. Do not expose a raw repository file as if it were a finished
+reader or a complete critical edition; raw mirrors are maintenance material,
+not a public scholarly interface.

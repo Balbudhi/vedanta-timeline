@@ -15,6 +15,15 @@
   "lineage_out": [
     "sankara"
   ],
+  "traditional_succession": {
+    "label": "Traditional succession",
+    "chain": [
+      {"name_iast": "Gauḍapāda", "thinker_id": "gaudapada"},
+      {"name_iast": "Govindapāda"},
+      {"name_iast": "Ādi Śaṅkara", "thinker_id": "sankara"}
+    ],
+    "note": "The direct timeline connection to Śaṅkara represents this traditionally received intermediate succession; Govindapāda is not yet a rostered author-entry."
+  },
   "lineage_polemical": [],
   "editorial_contract": "v1",
   "source_record_ids": [
@@ -74,7 +83,6 @@
         "Gauḍapāda-Kārikā"
       ],
       "ascription_tier": "securely-authored",
-      "ascription_notes": "Securely authored as a unified work, though authorship of the four prakaraṇas individually has been disputed; modern consensus accepts Gauḍapādan authorship of all four.",
       "ascription_evidence": [
         {
           "kind": "scholarly-consensus",
@@ -84,7 +92,7 @@
       "genre": "varttika",
       "language": "sanskrit",
       "source_status": "clean-on-disk",
-      "summary": "A verse *prakaraṇa* in four parts; also titled *Āgama-Śāstra*. *Āgama-Prakaraṇa* (1) is the most directly Upaniṣadic, glossing the twelve verses of the Māṇḍūkya on the four states of *ātman* and the four quarters of *Oṃ*. *Vaitathya-Prakaraṇa* (2) sets out the unreality argument: waking and dream are mind-projected and epistemically equivalent; the well-known reasoning at [MK 2.5–6](cite://gaudapada/mandukya-karika/2.5-6) turns on the parity of differentiations and on the inference that what is absent at the beginning and end of an experience is no different in the middle. *Advaita-Prakaraṇa* (3) gives the positive exposition of non-duality, the doctrine of *ajāti*, and the simile of space delimited by pots (*ghaṭākāśa*) at [MK 3.3–7](cite://gaudapada/mandukya-karika/3.3-7) — the classic anchor for Gauḍapāda's account of the *jīva*-*ātman* relation. *Alātaśānti-Prakaraṇa* (4) develops the firebrand-circle argument and engages Buddhist analytic categories most heavily. Authorship is contested. Traditionally the four are by a single Gauḍapāda, Śaṅkara's *parama-guru*. Modern scholarship has variously argued for separate authors, especially for a Buddhist hand on the fourth *prakaraṇa* (Bhattacharya, V. Bhattacharya 1943; King 1995). Current consensus broadly accepts unified Gauḍapādan authorship while recognizing the fourth *prakaraṇa*'s heaviest Mahāyāna intertextuality. The work is the foundational pre-Śaṅkara Advaita treatise; Śaṅkara's commentary on it canonizes its place in the Advaita *prasthāna*.",
+      "summary": "A four-part verse treatise also called *Āgama-Śāstra*. The first section extends the Māṇḍūkya Upaniṣad's analysis of waking, dream, deep sleep, *turīya*, and Oṃ. The second asks what reality waking and dream can claim when their differentiations are tested together. The third develops *ajāti*: the unborn cannot become divided or mortal, and the pot-space comparison denies that *jīvas* are parts of the Self. The fourth returns to the problem of origination through the firebrand-circle image. The work is therefore a sustained philosophical exegesis, not a collection of detachable Advaita slogans. [MK 1.16–18](cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18) [MK 2.5–6](cite://gaudapada/mandukya-karika/2.Vaitathya-prakaraṇa.5-6) [MK 3.3–7](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7) [MK 3.19–21](cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21)",
       "key_passage_ids": [
         "mk-1-16-18__awakening-and-duality-as-maya",
         "mk-2-5-6__dream-and-waking-as-one",

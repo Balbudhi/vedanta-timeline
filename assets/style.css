@@ -1091,6 +1091,8 @@ body.is-reading-mode .dp-min { display: inline-flex; }
   line-height: 1.55;
 }
 .lineage-block .lin-row { margin: 4px 0; }
+.lineage-block .lin-arrow { color: var(--muted); padding: 0 3px; }
+.lineage-block .lin-note { margin: 3px 0 0; color: var(--muted); font-size: 12px; }
 .lineage-block .lin-label {
   font-family: var(--sans);
   font-size: 11px; font-weight: 600;
@@ -2081,7 +2083,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   cursor: pointer;
 }
 .citation-popover .cp-open-thinker:hover { opacity: 0.85; }
-.citation-popover .cp-open-source {
+.citation-popover .cp-open-dossier {
   display: inline-flex;
   align-items: center;
   font-family: var(--sans);
@@ -2093,7 +2095,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   color: var(--ink-soft);
   text-decoration: none;
 }
-.citation-popover .cp-open-source:hover { color: var(--ink); border-color: var(--muted-soft); }
+.citation-popover .cp-open-dossier:hover { color: var(--ink); border-color: var(--muted-soft); }
 
 .cite-scrim { display: none; }
 
@@ -2228,6 +2230,16 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   font-family: var(--serif);
   font-size: 13px;
   color: var(--ink);
+}
+.cite-passage-anchor .cpa-translation-label {
+  display: block;
+  margin-bottom: 4px;
+  font-family: var(--sans);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 .cite-passage-anchor .cpa-pending {
   font-family: var(--serif);
