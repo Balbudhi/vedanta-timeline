@@ -9,6 +9,20 @@
   "dates_high": 250,
   "dates_tier": "contested",
   "dates_notes": "The dating of Nāgārjuna is unusually contested. Walleser (1923) places him in the second century on the basis of the Tibetan and Chinese hagiographies and his apparent dependence on early Mahāyāna sūtra material; Lindtner (Nagarjuniana, 1982) defends a c. 150–250 CE window on the basis of the citation-pattern in Āryadeva and the Kuṣāṇa-period iconography of the texts ascribed to him. Walser (Nāgārjuna in Context, 2005) argues a Sātavāhana-court setting in the late second century from the Ratnāvalī's epistolary frame. The hagiographical claim of a six-hundred-year lifespan is universally rejected; the historical figure is one author behind the philosophical core (MMK, Vigraha-Vyāvartanī, Yukti-Ṣaṣṭikā, Śūnyatā-Saptati, Ratnāvalī).",
+  "chronology": {
+    "default_variant": "academic",
+    "traditional_status": "not-attested",
+    "variants": {
+      "academic": {
+        "low": 150,
+        "high": 250,
+        "tier": "contested",
+        "source_kind": "academic",
+        "publication_status": "pending-acquisition",
+        "notes": "The inherited academic range awaits a reviewed secondary-source packet; it remains usable for layout but is not displayed as a sourced public date."
+      }
+    }
+  },
   "school": "Cross-tradition",
   "school_color_token": "madhyamaka-comparator",
   "sub_school": "Mādhyamaka-founder",
@@ -173,6 +187,26 @@
           "reason": "The current primary-source packet does not establish this historical conclusion; it belongs in a separately sourced reception section."
         }
       ]
+    },
+    "lineage_in": {
+      "status": "intentionally-omitted",
+      "reason": "No reviewed direct predecessor relation record is currently attached."
+    },
+    "lineage_out": {
+      "status": "intentionally-omitted",
+      "reason": "The inherited successor list has not been converted into source-backed relation records."
+    },
+    "lineage_polemical": {
+      "status": "intentionally-omitted",
+      "reason": "The inherited comparative polemics need distinct source packets; they are not a substitute for the thinker’s own argument."
+    },
+    "engaged_work_summaries": {
+      "status": "intentionally-omitted",
+      "reason": "Only the reviewed MMK and Vigraha-Vyāvartanī cards have substantive public prose; inherited work summaries remain unavailable until source-reviewed."
+    },
+    "chronology": {
+      "status": "intentionally-omitted",
+      "reason": "No reviewed academic or traditional chronology source record has been added; the legacy range is retained only for non-assertoric layout."
     }
   },
   "core_thesis": "Nāgārjuna's middle way is the position that no entity bears *svabhāva* (own-being): everything that arises does so in dependence on conditions, and dependent arising is itself what *śūnyatā* (emptiness) names. *Yaḥ pratītya-samutpādaḥ śūnyatāṃ tāṃ pracakṣmahe* (MMK 24.18) is the central identification: emptiness is not a metaphysical reality behind appearances but the very fact of conditioned co-arising. The dialectical instrument is the *catuṣkoṭi* (four-cornered logic): for any candidate metaphysical thesis P, Nāgārjuna refutes (i) P, (ii) ¬P, (iii) P ∧ ¬P, and (iv) ¬(P ∧ ¬P). The refutation is *prasaṅga*-style — drawing out the unwanted consequences of each corner — and produces no positive thesis of its own; this is the famous *na me kācana pratijñā asti* of the *Vigraha-Vyāvartanī*. The *saṃvṛti-satya* / *paramārtha-satya* distinction (MMK 24.8–10) is the load-bearing apparatus that lets ordinary discourse remain intact while ultimate analysis dissolves every posited entity. The Vedāntic engagement is structural: Advaita's *vyāvahārika* / *pāramārthika* scheme is formally homologous, which is exactly what makes the *pracchanna-bauddha* charge against Śaṅkara stick or fail.",

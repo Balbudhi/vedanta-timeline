@@ -10,7 +10,7 @@
   "dates_high": 1137,
   "dates_tier": "contested",
   "dates_notes": "Traditional Sri Vaishnava sectarian dates 1017–1137 give a 120-year lifespan that modern academic scholarship largely rejects. Carman (1974) and Lester argue for c. 1077–1157 (an 80-year lifespan); others place him a generation later still. The corpus retains the traditional range as the school-internal datum but flags the academic alternative as live.",
-  "chronology": {"default_variant": "traditional", "variants": {"academic": {"low": 1077, "high": 1157, "tier": "contested", "source_kind": "academic", "notes": "Approximate range argued by Carman and Lester."}, "traditional": {"low": 1017, "high": 1137, "tier": "lineage-internal", "source_kind": "sectarian-traditional", "notes": "Śrīvaiṣṇava school-internal range."}}},
+  "chronology": {"default_variant": "traditional", "traditional_status": "pending-evidence", "variants": {"academic": {"low": 1077, "high": 1157, "tier": "contested", "source_kind": "academic", "publication_status": "pending-acquisition", "notes": "Approximate range attributed in inherited notes to Carman and Lester; a reviewed secondary-source packet is still required."}, "traditional": {"low": 1017, "high": 1137, "tier": "lineage-internal", "source_kind": "sectarian-traditional", "publication_status": "pending-acquisition", "notes": "Inherited Śrīvaiṣṇava school-internal range; a traditional witness record is still required."}}},
   "school": "Viśiṣṭādvaita",
   "school_color_token": "vishishtadvaita",
   "sub_school": "Viśiṣṭādvaita (school-defining)",
@@ -167,6 +167,26 @@
           "reason": "Those works must be retained with traditional-ascription status, but public exposition waits for an attestation record and a usable primary witness."
         }
       ]
+    },
+    "lineage_in": {
+      "status": "intentionally-omitted",
+      "reason": "The inherited relation list has not been converted into source-backed teacher, textual, or institutional relation records."
+    },
+    "lineage_out": {
+      "status": "intentionally-omitted",
+      "reason": "The inherited successor list has not been converted into source-backed relation records."
+    },
+    "lineage_polemical": {
+      "status": "intentionally-omitted",
+      "reason": "The inherited polemical claims need exact primary or named secondary source packets."
+    },
+    "engaged_work_summaries": {
+      "status": "intentionally-omitted",
+      "reason": "Only the reviewed Vedārtha-Saṃgraha card has substantive public prose; inherited work summaries remain unavailable until source-reviewed."
+    },
+    "chronology": {
+      "status": "intentionally-omitted",
+      "reason": "Both inherited ranges await their own reviewed academic and traditional source records; neither is presented as public dating evidence yet."
     }
   },
   "core_thesis": "Rāmānuja gives Viśiṣṭādvaita its school-defining form. Brahman — Nārāyaṇa-with-Śrī — is the sole independent reality, but its unity is *viśiṣṭa* (qualified), not undifferentiated. The infinite plurality of conscious selves (*cit*) and non-conscious matter (*acit*) constitutes Brahman's body (*śarīra*); Brahman is their *śarīrin* and *antaryāmin* (inner controller). *Cit* and *acit* are really distinct from each other and from Brahman, yet inseparable (*apṛthak-siddha*) — they cannot exist or be conceived apart from him. There is therefore no unqualified *nirviśeṣa* Brahman; *neti neti* negates limiting attributes, not all distinction. Against Śaṅkara's *māyāvāda* the [*Vedārtha-Saṃgraha* §76](cite://ramanuja/vedartha-samgraha/76) ff. unfolds the *sapta-vidhānupapatti* — seven distinct destructive arguments against Advaitin *avidyā*. Two examples make the structure visible. (i) *Āśrayānupapatti*: locate avidyā's substrate. If in Brahman, Brahman ceases to be self-luminous *cit*; if in the *jīva*, the *jīva* is itself a product of *avidyā* and the explanation circles. (ii) *Tirodhānānupapatti*: avidyā is supposed to conceal Brahman; but Brahman is by definition *svayam-prakāśa*, so concealment of Brahman is concealment of light by darkness as such — an event with no possible mechanism. The remaining five (against avidyā's nature, indeterminability, *pramāṇa*, *nivartaka*, and cessation) operate by the same destructive technique: take the Advaitin's own characterization, run it through its consequences, exhibit the contradiction. The constructive position then follows. The *jīva* is an atomic, eternal *jñātṛ* (knower) with *dharmi-bhūta-jñāna* — substance-awareness bearing real attributes ([*Vedārtha-Saṃgraha* §§88–93](cite://ramanuja/vedartha-samgraha/88-93); *Śrī-Bhāṣya* on [*Brahma-Sūtra* 2.3.18](cite://badarayana/brahma-sutra/2.3.18) ff.). *Tat tvam asi* is read on the body-soul model of *sāmānādhikaraṇya* ([*Vedārtha-Saṃgraha* §§19–34](cite://ramanuja/vedartha-samgraha/19-34), glossing *Chāndogya* 6.8.7): *tat* and *tvam* co-predicate one substratum because Brahman is the inner self of the *jīva*, not because they are numerically identical. *Mokṣa* is the *jīva*'s perfected *kaiṅkarya* (beatific service) to Nārāyaṇa, not the dissolution of personhood (*Śrī-Bhāṣya* on [*Brahma-Sūtra* 4.4](cite://badarayana/brahma-sutra/4.4), the *mukti-pāda*). *Bhakti-yoga* — meditative devotion as enjoined *upāsanā* — is the constitutive form of *mokṣa* (*Śrī-Bhāṣya* on [*Brahma-Sūtra* 1.1.1](cite://badarayana/brahma-sutra/1.1.1), the *Mahā-Siddhānta*'s closing *bhakti-rūpāpannā smṛti-santati*); *prapatti* (utter self-surrender) is a parallel path, open especially to those incapable of sustained *bhakti-yoga* (*Gītā-Bhāṣya* on *Bhagavad-Gītā* 18.66, the *carama-śloka*; *Śaraṇāgati-Gadya*).",

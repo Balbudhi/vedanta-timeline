@@ -103,6 +103,30 @@
     "invariant_definition": {
       "status": "fully-migrated",
       "mapped_sections": ["self-and-body", "contested-self"]
+    },
+    "per_school": {
+      "status": "intentionally-omitted",
+      "reason": "The inherited school rows mix verified and unresolved citation targets. They remain editorial migration material until each school reading has a reviewed source packet."
+    },
+    "school_framing": {
+      "status": "intentionally-omitted",
+      "reason": "The inherited cross-school synthesis makes broad historical claims without a reviewed comparative evidence packet."
+    },
+    "textual_history": {
+      "status": "intentionally-omitted",
+      "reason": "The diachronic account requires a separately reviewed series of primary loci before it can be public exposition."
+    },
+    "translator_note": {
+      "status": "intentionally-omitted",
+      "reason": "The inherited translator note is editorial guidance, not yet tied to a reviewed lexical source packet."
+    },
+    "literal": {
+      "status": "intentionally-omitted",
+      "reason": "The legacy lexical gloss needs an identified lexicographic or primary-language source record."
+    },
+    "cognates": {
+      "status": "intentionally-omitted",
+      "reason": "The inherited comparative-etymology claims need a dedicated linguistic source record."
     }
   },
   "invariant_definition": "The self in the strict sense: not body, not sense-organ, not *manas*, not *ahaṅkāra*, but the subject for whom experience occurs and to whom ownership is ordinarily ascribed. The term carries a large technical burden. Upaniṣadic inquiry approaches it through negation (*neti neti*), through the three-state analysis of waking, dream, and deep sleep, and through the witness register later called *sākṣin*. Vedāntic debates then ask whether that witnessing self is identical with *brahman*, a mode of *brahman*, or an eternally distinct knower. The term is also sharpened polemically by nearby positions: Sāṅkhya's *puruṣa*, Nyāya's enduring self as substrate of cognition, and the Buddhist denial that any permanent *ātman* can be found behind the five aggregates. In practice, *ātman* is the term one reaches for when the question is not merely who lives this embodied life, but what the referent of 'I' really is once misidentification with body, role, and psychophysical process has been corrected.",

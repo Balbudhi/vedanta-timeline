@@ -7,6 +7,20 @@
   "dates_high": 700,
   "dates_tier": "consensus-textual",
   "dates_notes": "The current corpus has an academic date range, but no traditional witness that warrants a numerical alternative. The received succession through Govindapāda to Śaṅkara is displayed separately as a traditional lineage claim, not converted into a date.",
+  "chronology": {
+    "default_variant": "academic",
+    "traditional_status": "not-attested",
+    "variants": {
+      "academic": {
+        "low": 600,
+        "high": 700,
+        "tier": "consensus-textual",
+        "source_kind": "academic",
+        "publication_status": "pending-acquisition",
+        "notes": "The inherited academic range awaits a reviewed secondary-source packet; it remains usable for layout but is not displayed as a sourced public date."
+      }
+    }
+  },
   "school": "Advaita",
   "school_color_token": "advaita",
   "sub_school": "Proto-Advaita",
@@ -144,6 +158,29 @@
           "reason": "The current reference packet does not contain a separately documented scholarly source sufficient for that historical conclusion."
         }
       ]
+    },
+    "lineage_in": {
+      "status": "intentionally-omitted",
+      "reason": "No documented direct predecessor relation is currently in the source ledger."
+    },
+    "lineage_out": {
+      "status": "intentionally-omitted",
+      "reason": "The compressed direct graph relation is replaced by the qualified traditional succession below."
+    },
+    "lineage_polemical": {
+      "status": "intentionally-omitted",
+      "reason": "No reviewed polemical relationship packet is currently attached."
+    },
+    "engaged_work_summaries": {
+      "status": "intentionally-omitted",
+      "reason": "The v2 work card uses its reviewed summary; remaining inherited work-summary claims await passage-level review."
+    },
+    "chronology": {
+      "status": "intentionally-omitted",
+      "reason": "No reviewed academic or traditional chronology source record has been added; the legacy range is retained only for non-assertoric layout."
+    },
+    "traditional_succession": {
+      "status": "retained-below"
     }
   },
   "core_thesis": "Gauḍapāda's central thesis is *ajāti-vāda*: the doctrine of non-origination ([Māṇḍūkya-Kārikā 3.48, 4.71](cite://gaudapada/mandukya-karika/3.48, 4.71)). He argues it within a verse-exegesis of the Māṇḍūkya-Upaniṣad's four-fold *ātman* — *vaiśvānara* (waking), *taijasa* (dream), *prājña* (deep sleep), *turīya* (the fourth) (Māṇḍūkya-Upaniṣad 3–7; Māṇḍūkya-Kārikā 1.1–10). *Turīya* corresponds to the silent *amātra* fourth of *Oṃ* and is the non-dual ground (Māṇḍūkya-Upaniṣad 12; Māṇḍūkya-Kārikā 1.16–18). The first major argumentative move is the *vaitathya* (unreality) argument of *prakaraṇa* 2: the *jāgrat* and *svapna* states are epistemically symmetrical because both are mind-projected, and what is not present at the beginning and end is also not present in the middle ([Māṇḍūkya-Kārikā 2.5–6](cite://gaudapada/mandukya-karika/2.5-6)). *Turīya* alone is *advaita*, free of cause and effect, *ajaḥ* (unborn) ([Māṇḍūkya-Kārikā 3.31–37](cite://gaudapada/mandukya-karika/3.31-37)). The second major move is causal: in [*Māṇḍūkya-Kārikā* 3.19–21](cite://gaudapada/mandukya-karika/3.19-21) he argues that if the unborn deathless were really differentiated, it would have to become mortal — which is impossible. Hence [*Māṇḍūkya-Kārikā* 4](cite://gaudapada/mandukya-karika/4).71's conclusion that no *jīva* is ever truly born. The third move is the *alāta-cakra* analogy: apparent multiplicity is the trace of an unmoving consciousness, as a firebrand whirled in a circle traces a fiery ring that has no real existence ([Māṇḍūkya-Kārikā 4.47–52](cite://gaudapada/mandukya-karika/4.47-52)). Mahāyāna analytic vocabulary (*catuṣkoṭi*, the dialectic of origination) appears throughout ([Māṇḍūkya-Kārikā 4.83–84](cite://gaudapada/mandukya-karika/4.83-84)), but the unborn ground here is *ātman*-*brahman*, positively asserted ([Māṇḍūkya-Kārikā 3.32–33](cite://gaudapada/mandukya-karika/3.32-33)), not the Mādhyamika *śūnya*. Liberation is *pratibodha* — recognition of one's identity with the unborn fourth — not a process of becoming ([Māṇḍūkya-Kārikā 1.16; 4.96–98](cite://gaudapada/mandukya-karika/1.16; 4.96-98)).",

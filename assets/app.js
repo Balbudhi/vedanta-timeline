@@ -332,6 +332,8 @@ function resolveChronology(t, requestedMode = state.chronologyMode) {
     notes: record?.notes || t?.dates_notes || "",
     sourceKind: record?.source_kind || "legacy",
     evidence: record?.evidence || null,
+    publicationStatus: record?.publication_status || (t?.editorial_contract === "v2" ? "pending-acquisition" : "legacy"),
+    publiclySupported: t?.editorial_contract !== "v2" || record?.publication_status === "verified",
     isLiving,
     highForLayout: typeof high === "number" ? high : CURRENT_YEAR,
     availability: {
@@ -414,7 +416,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "20260818-layered-editorial-v2";
+const DATA_VERSION = "20260818-evidence-gated-v3";
 
 async function loadJSON(path) {
   try {
@@ -2237,7 +2239,16 @@ function renderProfileSections(t) {
       <div class="profile-section-body"><p class="argument-claim">${rendered.html}</p></div>
     </section>`;
   }
-  return html ? `${html}${renderFootnoteList(footnotes)}` : "";
+  const sourceLimits = (t.intro_claims || []).filter((claim) => claim &&
+    (claim.status === "pending-acquisition" || claim.status === "private-rights-restricted") && claim.text
+  );
+  const sourceLimitHtml = sourceLimits.length
+    ? `<section class="profile-section profile-section--source-limit">
+        <h3 class="section-head">Source scope</h3>
+        <div class="profile-section-body">${sourceLimits.map((claim) => `<p class="argument-claim argument-claim--source-limit">${md(claim.text)}</p>`).join("")}</div>
+      </section>`
+    : "";
+  return html || sourceLimitHtml ? `${html}${sourceLimitHtml}${renderFootnoteList(footnotes)}` : "";
 }
 
 function renderHero(t) {
@@ -2281,11 +2292,13 @@ function renderHero(t) {
     const record = t?.chronology?.variants?.[mode] || null;
     const isSelected = state.chronologyMode === mode;
     const hasRange = typeof record?.low === "number";
-    const range = hasRange
+    const range = hasRange && chronology.publiclySupported
       ? formatDatesLong(t, { low: record.low, high: record.high, isLiving: record.high == null })
-      : mode === "academic" && typeof t.dates_low === "number"
+      : mode === "academic" && typeof t.dates_low === "number" && t.editorial_contract !== "v2"
         ? formatDatesLong(t, chronology)
-        : "Date not yet documented";
+        : mode === "traditional" && t?.chronology?.traditional_status === "not-attested"
+          ? "No traditional date documented"
+          : "Date record pending evidence";
     // A lineage relation is valuable historical information, but it is not a
     // licence to manufacture a numeric traditional date.
     const evidence = record?.notes || (mode === "academic"
@@ -2324,8 +2337,9 @@ function renderHero(t) {
 }
 
 function renderLineageBlock(t) {
+  const v2 = t.editorial_contract === "v2";
   const linkList = (ids) => (ids || []).map(linkThinker).filter(Boolean).join(", ");
-  const inHTML = linkList(t.lineage_in);
+  const inHTML = v2 ? "" : linkList(t.lineage_in);
   const traditional = t.traditional_succession;
   const successionHTML = traditional && Array.isArray(traditional.chain) && traditional.chain.length
     ? traditional.chain.map((member) => {
@@ -2337,8 +2351,8 @@ function renderLineageBlock(t) {
   // A traditional chain that names an intermediate teacher is more precise
   // than the compressed graph edge, so do not repeat it as a false direct
   // teacher/student "To" relation in the reader-facing profile.
-  const outHTML = successionHTML ? "" : linkList(t.lineage_out);
-  const polHTML = (t.lineage_polemical || [])
+  const outHTML = successionHTML || v2 ? "" : linkList(t.lineage_out);
+  const polHTML = (v2 ? [] : (t.lineage_polemical || []))
     .map((p) => {
       const link = linkThinker(p.thinker_id);
       if (!link) return "";
@@ -2429,7 +2443,8 @@ function citationAbsenceMessage(thinkerId, workId) {
 }
 
 function renderWorkCard(w, passages, thinkerId) {
-  const ascr = {
+  const v2 = w.__entryContract === "v2";
+  const rawAscription = {
     "securely-authored": "Authorship secure",
     "traditionally-ascribed": "Traditionally ascribed",
     "traditionally-attributed": "Traditionally attributed",
@@ -2439,6 +2454,12 @@ function renderWorkCard(w, passages, thinkerId) {
     "attributed": "Attributed",
     "disputed": "Disputed attribution",
   }[w.ascription_tier] || (w.ascription_tier || "").replace(/-/g, " ");
+  const hasAscriptionRecord = Array.isArray(w.ascription_source_record_ids) && w.ascription_source_record_ids.length > 0;
+  const ascr = v2 && !hasAscriptionRecord
+    ? (w.ascription_tier === "traditionally-ascribed" || w.ascription_tier === "traditionally-attributed"
+      ? "Traditional attribution — attestation pending"
+      : "Authorship record pending")
+    : rawAscription;
   const status = w.source_status || "";
   const thinker = state.thinkersById.get(thinkerId);
   const sourceKind = classifyWorkSource(w, thinker);
@@ -2466,7 +2487,7 @@ function renderWorkCard(w, passages, thinkerId) {
     ? "This work is retained with the displayed attribution and source-status label. A reader-facing account of its arguments will be added only after a reviewed source packet supplies exact public loci."
     : (w.summary || ""));
   const summaryRendered = numberCitations(md(summary), workCtr);
-  const ascriptionNote = w.editorial_ascription_note || (w.__entryContract === "v2"
+  const ascriptionNote = w.editorial_ascription_note || (v2
     ? (w.ascription_tier === "traditionally-ascribed" || w.ascription_tier === "traditionally-attributed"
       ? "Traditional attribution is preserved here; a public attestation packet is still required before this card makes further historical or doctrinal claims."
       : "")
@@ -3334,6 +3355,8 @@ function openGlossary(termKey, anchorEl, opts) {
   function renderTermView(key) {
     const entry = state.glossary.get(key);
     if (!entry) { bodyEl.innerHTML = ""; return; }
+    const v2 = entry.editorial_contract === "v2";
+    const legacyVisible = (field) => !v2 || entry.legacy_coverage?.[field]?.status === "retained-below";
     // One footnote counter for the entire body so [1] [2] … is continuous
     // across the invariant definition, per-school rows, and translator note.
     const popCtr = { n: 0 };
@@ -3374,19 +3397,19 @@ function openGlossary(termKey, anchorEl, opts) {
       return x === "" || x === "NOT-APPLICABLE" || x === "NOT-APPLICABLE." || x === "[NOT YET RETRIEVED]";
     };
     const stripMarker = (t) => String(t || "").replace(/^\[NOT YET RETRIEVED\]\s*/, "");
-    const perSchool = (entry.per_school || []).filter((s) => !isPlaceholderDef(s.definition)).map((s) => {
+    const perSchool = (legacyVisible("per_school") ? (entry.per_school || []) : []).filter((s) => !isPlaceholderDef(s.definition)).map((s) => {
       const r = numberCitations(md(stripMarker(s.definition)), popCtr);
       allFootnotes.push(...r.footnotes);
       return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${r.html}</span></div>`;
     }).join("");
-    const translatorR = entry.translator_note
+    const translatorR = legacyVisible("translator_note") && entry.translator_note
       ? numberCitations(md(entry.translator_note), popCtr)
       : { html: "", footnotes: [] };
     allFootnotes.push(...translatorR.footnotes);
-    const translatorNote = entry.translator_note
+    const translatorNote = legacyVisible("translator_note") && entry.translator_note
       ? `<div class="gp-translator"><span class="gp-label">Translator note</span><div>${translatorR.html}</div></div>`
       : "";
-    const framing = entry.school_framing;
+    const framing = legacyVisible("school_framing") ? entry.school_framing : null;
     const framingLabel = (() => {
       if (!framing || !framing.framing_status) return "";
       switch (framing.framing_status) {
@@ -3419,7 +3442,7 @@ function openGlossary(termKey, anchorEl, opts) {
       .replace(/\s*\([^)]*\)\s*/g, " ")
       .split(/\s+[;—]\s+/)[0]
       .trim();
-    const th = entry.textual_history;
+    const th = legacyVisible("textual_history") ? entry.textual_history : null;
     const cites = (th && th.stages || []).map((s) => cleanCite(s.locus)).filter(Boolean);
     const historyBlock = (th && th.summary)
       ? `<div class="gp-history"><span class="gp-label">Across the texts</span>
@@ -3435,7 +3458,7 @@ function openGlossary(termKey, anchorEl, opts) {
       if (l.includes("latin")) return "cog-latin";
       return "cog-other";
     };
-    const cognatesBlock = (cog && cog.items && cog.items.length)
+    const cognatesBlock = legacyVisible("cognates") && (cog && cog.items && cog.items.length)
       ? `<div class="gp-cognates"><span class="gp-cog-label">Cognates</span> <span class="gp-cog-tags">${cog.items.map((i) => `<span class="gp-cog-tag ${cogClass(i.lang)}">${escape(i.lang)} <i>${escape(i.form)}</i></span>`).join("")}</span></div>`
       : "";
     const footnoteList = renderFootnoteList(allFootnotes);
@@ -3451,10 +3474,11 @@ function openGlossary(termKey, anchorEl, opts) {
       : `<div class="gp-term">${escape(canonical)}</div>`;
     bodyEl.innerHTML = `
       ${heading}
-      ${entry.literal ? `<div class="gp-literal">Literally: <em>${inlineMarkdown(entry.literal)}</em></div>` : ""}
+      ${legacyVisible("literal") && entry.literal ? `<div class="gp-literal">Literally: <em>${inlineMarkdown(entry.literal)}</em></div>` : ""}
       ${cognatesBlock}
       <div class="gp-invariant"><span class="gp-label">${definitionClaims.length ? "Reader orientation" : entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantHtml}</div></div>
       ${expositionHtml}
+      ${v2 && Object.values(entry.legacy_coverage || {}).some((coverage) => coverage?.status === "intentionally-omitted") ? `<div class="gp-source-scope"><span class="gp-label">Source scope</span><div>Only the reviewed sections above are public exposition. Earlier supplemental material remains in the editorial record until it has a source packet or an explicit migration decision.</div></div>` : ""}
       ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
       ${historyBlock}
       ${translatorNote}
@@ -4624,6 +4648,7 @@ function thinkerHigh(t) { return resolveChronology(t).highForLayout; }
 function isLiving(t) { return resolveChronology(t).isLiving; }
 
 function formatDates(t, chronology = resolveChronology(t)) {
+  if (chronology.publiclySupported === false) return "Sources pending";
   if (chronology.low == null && chronology.high == null) return "";
   const fmt = (y) => y < 0 ? `${-y} BCE` : `${y}`;
   if (chronology.isLiving) return `${fmt(chronology.low)}–`;
@@ -4631,6 +4656,7 @@ function formatDates(t, chronology = resolveChronology(t)) {
   return `${fmt(chronology.low)}–${fmt(chronology.high)}`;
 }
 function formatDatesLong(t, chronology = resolveChronology(t)) {
+  if (chronology.publiclySupported === false) return "Date record pending evidence";
   if (chronology.low == null) return "";
   const lo = chronology.low, hi = chronology.high;
   const fmt = (y) => y < 0 ? `${-y} BCE` : `${y} CE`;

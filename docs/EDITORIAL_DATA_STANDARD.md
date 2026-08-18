@@ -124,6 +124,12 @@ All visible figures eventually receive an academic record and either a
 traditional record or an explicit status. A range is preferable to false
 precision. `high: null` means living; UI supplies “present.”
 
+For a v2 entry, each numeric variant also declares `publication_status`:
+`verified`, `pending-acquisition`, or `private-rights-restricted`. Only a
+verified range with its own evidence array may appear as a public date. Pending
+ranges may continue to support non-assertoric timeline layout while the reader
+sees that its source record is still needed.
+
 ## 7. Sanskrit reader template
 
 For verified Sanskrit text: source script → IAST → slotted literal English.
@@ -161,6 +167,18 @@ otherwise the UI shows only the work's attribution and source-status limit.
 `pending-acquisition` and `private-rights-restricted` source-limit records may
 state the scope of a gap without pretending that the missing source proves a
 claim. They do not render as verified doctrine.
+
+For a v2 glossary entry, inherited literal glosses, cognates, school framing,
+school rows, textual history, and translator notes are also public claims.
+Each is either retained under a reviewed contract or marked in
+`legacy_coverage` as intentionally omitted. The renderer must not display an
+unreviewed legacy field merely because it is still preserved in JSON.
+
+For a v2 thinker entry, the same discipline applies to lineage relations,
+polemic notes, work summaries, ascription notes, and chronology. An unsourced
+legacy relationship is hidden rather than treated as a documented teacher,
+student, or debate. An unsourced numeric date may serve layout while its
+public label says that evidence is pending.
 
 ## 9. Agent protocol and hooks
 

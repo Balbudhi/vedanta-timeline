@@ -54,6 +54,16 @@ function validateClaim(claim, label, contract, prefixSet, citationIndex, errors,
   }
 }
 
+function validateLegacyCoverage(coverage, field, label, errors) {
+  if (!coverage || !["fully-migrated", "retained-below", "intentionally-omitted"].includes(coverage.status)) {
+    add(errors, label, `requires ${field} legacy coverage status`);
+  } else if (coverage.status === "fully-migrated" && (!Array.isArray(coverage.mapped_sections) || coverage.mapped_sections.length === 0)) {
+    add(errors, label, `fully-migrated ${field} requires mapped_sections`);
+  } else if (coverage.status === "intentionally-omitted" && !isNonEmpty(coverage.reason)) {
+    add(errors, label, `intentionally-omitted ${field} requires reason`);
+  }
+}
+
 function validateEntry(file, type, ledgerIds, prefixSet, citationIndex, contract, errors) {
   const record = readJson(file);
   if (!(contract.supported_contracts || [contract.opt_in_value]).includes(record.editorial_contract)) return false;
@@ -87,14 +97,11 @@ function validateEntry(file, type, ledgerIds, prefixSet, citationIndex, contract
         validateClaim(claim, `${sectionLabel}.claims[${claimIndex}]`, contract, prefixSet, citationIndex, errors, true);
       }
     }
-    const legacyField = type === "thinker" ? "core_thesis" : "invariant_definition";
-    const coverage = record.legacy_coverage && record.legacy_coverage[legacyField];
-    if (!coverage || !["fully-migrated", "retained-below", "intentionally-omitted"].includes(coverage.status)) {
-      add(errors, label, `v2 ${type} entry requires ${legacyField} legacy coverage status`);
-    } else if (coverage.status === "fully-migrated" && (!Array.isArray(coverage.mapped_sections) || coverage.mapped_sections.length === 0)) {
-      add(errors, label, `fully-migrated ${legacyField} requires mapped_sections`);
-    } else if (coverage.status === "intentionally-omitted" && !isNonEmpty(coverage.reason)) {
-      add(errors, label, `intentionally-omitted ${legacyField} requires reason`);
+    const legacyFields = type === "thinker"
+      ? ["core_thesis", "lineage_in", "lineage_out", "lineage_polemical", "engaged_work_summaries", "chronology", ...(record.traditional_succession ? ["traditional_succession"] : [])]
+      : ["invariant_definition", "per_school", "school_framing", "textual_history", "translator_note", "literal", "cognates"].filter((field) => Object.hasOwn(record, field));
+    for (const legacyField of legacyFields) {
+      validateLegacyCoverage(record.legacy_coverage?.[legacyField], legacyField, `${label} v2 ${type}`, errors);
     }
     const dependencyAreas = record.editorial_dependencies?.review_areas;
     const updateEvents = record.editorial_dependencies?.update_when;
@@ -105,6 +112,23 @@ function validateEntry(file, type, ledgerIds, prefixSet, citationIndex, contract
       add(errors, label, "v2 entry requires non-empty editorial_dependencies.update_when");
     }
     if (type === "thinker") {
+      const chronology = record.chronology;
+      if (!chronology || !["academic", "traditional"].includes(chronology.default_variant)) {
+        add(errors, label, "v2 thinker requires chronology.default_variant");
+      }
+      if (!chronology?.variants || typeof chronology.variants !== "object" || !chronology.variants.academic) {
+        add(errors, label, "v2 thinker requires an academic chronology variant");
+      }
+      if (!chronology?.traditional_status || !isNonEmpty(chronology.traditional_status)) {
+        add(errors, label, "v2 thinker requires chronology.traditional_status");
+      }
+      for (const [mode, variant] of Object.entries(chronology?.variants || {})) {
+        const chronoLabel = `${label} chronology.${mode}`;
+        if (!["academic", "traditional"].includes(mode)) add(errors, chronoLabel, "unsupported variant");
+        if (typeof variant?.low !== "number" || !(typeof variant?.high === "number" || variant?.high === null)) add(errors, chronoLabel, "requires numeric low and numeric/null high");
+        if (!["verified", "pending-acquisition", "private-rights-restricted"].includes(variant?.publication_status)) add(errors, chronoLabel, "requires publication_status");
+        if (variant?.publication_status === "verified" && (!Array.isArray(variant.evidence) || variant.evidence.length === 0)) add(errors, chronoLabel, "verified range requires evidence");
+      }
       for (const [workIndex, work] of (record.engaged_works || []).entries()) {
         const workLabel = `${label} engaged_works[${workIndex}]`;
         if (!isNonEmpty(work?.ascription_tier)) add(errors, workLabel, "v2 work requires ascription_tier");

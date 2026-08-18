@@ -1806,6 +1806,15 @@ body.is-reading-mode .recite-bar {
   border: none;
   border-radius: 8px;
 }
+.glossary-popover .gp-source-scope {
+  margin-top: 14px;
+  padding: 9px 10px;
+  border-left: 2px solid var(--rule-dark);
+  background: var(--bg-warm);
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
 .glossary-popover .gp-translator .gp-label { color: #2a5d8f; }
 /* diachronic "Across the texts" */
 .glossary-popover .gp-history { margin-top: 14px; }
