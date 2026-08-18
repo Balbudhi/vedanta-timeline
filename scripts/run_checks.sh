@@ -42,6 +42,8 @@ if command -v node >/dev/null 2>&1; then
     run_check "Gita term consistency" node scripts/check_gita_terms.js
     run_check "Corpus coverage report" node scripts/check_coverage.js
     run_check "Source inventory integrity" node scripts/check_source_inventory.js
+    run_check "Editorial contract integrity" node scripts/check_editorial_contracts.js
+    run_check "Editorial readiness report" node scripts/report_editorial_readiness.js
     run_check "Unmanifested public-source report" node scripts/report_unmanifested_sources.js
     run_check "Glossary completeness report" node scripts/report_glossary_completeness.js
     run_check "Thinker content-shape report" node scripts/report_thinker_content.js

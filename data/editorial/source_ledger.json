@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "gaudapada-mandukya-karika-apate-gretil",
+      "title_iast": "Āgamaśāstra / Gauḍapādakārikā",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt",
+      "witness": "Vinayaka Ganesha Apate, ed., Anandasrama Sanskrit Series 10 (1921), transcribed in the GRETIL text witness",
+      "rights_status": "public-witness-under-review",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://gaudapada/mandukya-karika/"
+      ],
+      "review_areas": [
+        "gaudapada",
+        "atman",
+        "maya",
+        "advaita"
+      ],
+      "notes": "This ledger record identifies the local witness and its public citation namespace. It does not by itself certify every translation or interpretation derived from the witness."
+    }
+  ]
+}

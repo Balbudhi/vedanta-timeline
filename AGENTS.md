@@ -18,7 +18,10 @@ with the site glossary. Reference implementation: `gita/sthitaprajna/` + `assets
 
 Before adding or rewriting a public thinker, work, citation, glossary, reader,
 or comparative claim, read `docs/EDITORIAL_DATA_STANDARD.md` and
-`docs/CONTENT_AND_SOURCE_STANDARD.md`. Audit/queue work may identify gaps; it
+`docs/CONTENT_AND_SOURCE_STANDARD.md`, then follow `.agent/EDITORIAL_WORKFLOW.md`.
+Use `scripts/report_editorial_readiness.js --json` to form a source batch and
+`scripts/report_content_impacts.js --changed <source-path>` before revision.
+Audit/queue work may identify gaps; it
 does not authorize filling them with uncited prose, inferred dates, generated
 Sanskrit, or unverified quotations.
 

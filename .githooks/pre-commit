@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+# Opt-in repository hook. Enable with:
+#   git config core.hooksPath .githooks
+# It deliberately runs only when staged content/source files are present.
+
+set -eu
+changed=$(git diff --cached --name-only -- data/ data/editorial/)
+[ -n "$changed" ] || exit 0
+
+# shellcheck disable=SC2086 -- file paths in this repository contain no spaces
+exec scripts/preflight_content_change.sh $changed

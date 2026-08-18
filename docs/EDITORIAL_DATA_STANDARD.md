@@ -49,8 +49,11 @@ Required public sections, in order:
 1. **Identity and entry kind** — stable ID; name/IAST; `entity_kind`.
 2. **Chronology** — academic and traditional records separately, each with its
    own evidence/status; no traditional claim is inferred from a lineage.
-3. **Core thesis** — 90–180 words: author, serious text/corpus, distinctive
-   claim, and actual interlocutor or limitation. It is not a biography.
+3. **Philosophical introduction** — normally 180–320 words in five connected
+   moves: identity/context; text and problem; argument or method; philosophical
+   consequence; reception or source limit. It is an introduction to a thinker,
+   not a one-line blurb and not an undifferentiated research memo. Each move is
+   grounded in a claim record.
 4. **Works** — a structured list; no generic “major works” blob.
 5. **Lineage and controversy** — only evidence-backed relations, typed as
    teacher/student, textual influence, institutional succession, or polemic.
@@ -149,3 +152,21 @@ Before any content mutation an agent must:
 Automated hooks/checks may reject malformed data, unresolved citations, missing
 source status, invalid lineage, or UI regression evidence. They cannot prove a
 philosophical interpretation; that still requires source review.
+
+## 10. Executable workflow
+
+The machine-readable contract is `data/editorial/authoring_contract.json`; the
+source ledger is `data/editorial/source_ledger.json`. The following commands
+are part of the editorial process:
+
+```sh
+node scripts/report_editorial_readiness.js --json
+node scripts/report_content_impacts.js --changed <changed-source-path>
+scripts/preflight_content_change.sh <changed-content-path>
+```
+
+The readiness report produces the acquisition and migration worklist. The
+impact report names every current public record that cites a changed witness.
+The preflight validates the ledger and any opted-in v1 content record. Existing
+legacy data is deliberately reported for planned migration rather than silently
+rewritten or falsely certified.

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "opt_in_field": "editorial_contract",
+  "opt_in_value": "v1",
+  "source_record": {
+    "required": [
+      "id",
+      "title_iast",
+      "source_level",
+      "source_path",
+      "rights_status",
+      "citation_status",
+      "stable_cite_prefixes"
+    ]
+  },
+  "claim": {
+    "required": [
+      "id",
+      "text",
+      "claim_kind",
+      "evidence_level",
+      "citations",
+      "status"
+    ],
+    "allowed_statuses": [
+      "verified",
+      "disputed",
+      "pending-acquisition",
+      "private-rights-restricted"
+    ],
+    "public_statuses": [
+      "verified",
+      "disputed"
+    ]
+  },
+  "thinker_entry": {
+    "required": [
+      "source_record_ids",
+      "intro_claims",
+      "engaged_works"
+    ],
+    "intro_claim_order": [
+      "identity_or_context",
+      "text_and_problem",
+      "argument_or_method",
+      "philosophical_consequence",
+      "source_limit_or_reception"
+    ]
+  },
+  "glossary_entry": {
+    "required": [
+      "source_record_ids",
+      "definition_claims",
+      "per_school"
+    ],
+    "definition_claim_order": [
+      "reader_definition",
+      "textual_function",
+      "school_reading_or_limit"
+    ]
+  }
+}
