@@ -1021,13 +1021,34 @@ body.is-reading-mode .dp-min { display: inline-flex; }
   background: var(--rule-warm);
   color: var(--ink-soft);
 }
-.detail-hero .dates-line {
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 12.5px;
-  color: var(--muted);
-  margin: 4px 0 16px;
+.chronology-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin: 12px 0 8px;
 }
+.chronology-card {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  padding: 9px 10px;
+  border: 1px solid var(--rule);
+  border-radius: 7px;
+  background: var(--bg-warm);
+}
+.chronology-card.is-selected { border-color: var(--dot-color); box-shadow: inset 0 0 0 1px var(--dot-color); }
+.chronology-card-label {
+  font-family: var(--sans);
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.chronology-card strong { font: 600 12.5px/1.25 var(--sans); color: var(--ink); }
+.chronology-card-note { font: 12px/1.35 var(--serif); color: var(--muted); }
+.chronology-card-note p { margin: 0; }
+.chronology-fallback { margin: 0 0 14px; font: italic 12px/1.4 var(--serif); color: var(--muted); }
 
 .thesis {
   font-family: var(--serif);
@@ -2889,6 +2910,15 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
 .filter-chip-row {
   display: flex; gap: 6px; flex-wrap: wrap;
 }
+.filter-comparator-groups { display: grid; gap: 8px; margin-top: 4px; }
+.filter-group-title { margin: 4px 0 0; font: 600 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.filter-group { border-top: 1px solid var(--hairline); padding-top: 7px; }
+.filter-group summary { cursor: pointer; list-style: none; font: 600 12px var(--sans); color: var(--ink-soft); }
+.filter-group summary::-webkit-details-marker { display: none; }
+.filter-group summary::before { content: "▸"; display: inline-block; margin-right: 6px; transition: transform 140ms ease; }
+.filter-group[open] summary::before { transform: rotate(90deg); }
+.filter-group summary span { margin-left: 5px; font-weight: 500; color: var(--muted); }
+.filter-chip-row--nested { padding: 8px 0 1px 14px; }
 .filter-chip--preset {
   font-weight: 600;
   border-style: dashed;
@@ -3004,6 +3034,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     --era-strip-h: 22px;
   }
   .filter-chip-solo { padding: 0 7px; font-size: 9.5px; }
+  .chronology-cards { grid-template-columns: 1fr; }
   .filter-solo-pill { font-size: 11px; padding: 0 8px; height: 22px; }
   /* Mobile: panel takes the full screen as a top-layer overlay so the
      short-form lanes still scroll behind. The grid still allocates space

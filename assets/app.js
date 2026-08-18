@@ -150,7 +150,29 @@ const COMPARATOR_LANES = [
   "virashaiva-comparator", "bhairava-tantra-comparator",
 ];
 const COMPARATOR_GROUP_KEY = "__comparator_group__";
-const COMPARATOR_GROUP_LABEL = "Other darśanas";
+const COMPARATOR_GROUP_LABEL = "Indic interlocutors";
+
+// A navigation taxonomy, not a claim that all traditions in a group agree.
+// Vedānta remains the centre of the map; these categories make its actual
+// historical interlocutors independently navigable rather than an "other" bin.
+const COMPARATOR_FILTER_GROUPS = [
+  { label: "Other Hindu traditions", tokens: [
+    "sankhya-comparator", "yoga-comparator", "nath-hatha-comparator",
+    "nyaya-comparator", "navya-nyaya-comparator", "vaisesika-comparator",
+    "mimamsa-comparator", "vyakarana-comparator", "alankara-comparator",
+    "trika-comparator", "kashmir-shaiva-dualist", "saiva-siddhanta-comparator",
+    "sivadvaita-comparator", "shakta-kalakula", "shakta-srividya",
+    "pasupata-comparator", "pancaratra-comparator", "virashaiva-comparator",
+    "bhairava-tantra-comparator",
+  ] },
+  { label: "Buddhist traditions", tokens: [
+    "madhyamaka-comparator", "yogacara-comparator", "buddhist-pramana-comparator",
+    "sarvastivada-comparator", "theravada-comparator", "tathagatagarbha-comparator",
+  ] },
+  { label: "Jain and materialist traditions", tokens: [
+    "jaina-comparator", "ajivika-comparator", "carvaka-comparator",
+  ] },
+];
 
 // One canonical color per historical period. Used by both views:
 //   • the lanes view era-band overlay (full vertical stripes)
@@ -221,8 +243,10 @@ const state = {
   clusters: [],              // [{ids: [...]}] groups of 3+ dots tight in x within a lane
   activeId: null,
   // Filter state: which top-level lane tokens are currently visible.
-  // Comparator group is a single virtual lane until expanded.
+  // Comparator traditions share a lane only until expanded; each remains
+  // independently selectable in the filter.
   visibleLanes: new Set([...VEDANTA_LANES, COMPARATOR_GROUP_KEY]),
+  comparatorTokens: new Set(COMPARATOR_LANES),
   comparatorExpanded: true,
   // Effective render order, recomputed when filter / expansion changes.
   renderLanes: [],
@@ -586,7 +610,7 @@ function computeRenderLanes() {
     if (state.comparatorExpanded) {
       lanes.push({ key: COMPARATOR_GROUP_KEY, kind: "group", token: COMPARATOR_GROUP_KEY, expanded: true });
       for (const tok of COMPARATOR_LANES) {
-        lanes.push({ key: tok, kind: "sub", token: tok });
+        if (state.comparatorTokens.has(tok)) lanes.push({ key: tok, kind: "sub", token: tok });
       }
     } else {
       lanes.push({ key: COMPARATOR_GROUP_KEY, kind: "group", token: COMPARATOR_GROUP_KEY, expanded: false });
@@ -619,7 +643,7 @@ function isThinkerVisible(t) {
   // on the timeline — the timeline is for the Indic darśanas only.
   if (tok === "cross-tradition") return false;
   if (VEDANTA_LANES.has(tok)) return state.visibleLanes.has(tok);
-  return state.visibleLanes.has(COMPARATOR_GROUP_KEY);
+  return state.visibleLanes.has(COMPARATOR_GROUP_KEY) && state.comparatorTokens.has(tok);
 }
 function tierOf(t) {
   if (TIER_1.has(t.id)) return 1;
@@ -959,7 +983,7 @@ function renderLaneRail() {
     counts.set(tok, (counts.get(tok) || 0) + 1);
   }
   let comparatorTotal = 0;
-  for (const tok of COMPARATOR_LANES) comparatorTotal += counts.get(tok) || 0;
+  for (const tok of state.comparatorTokens) comparatorTotal += counts.get(tok) || 0;
 
   for (const lane of state.renderLanes) {
     const row = document.createElement("div");
@@ -971,10 +995,15 @@ function renderLaneRail() {
       row.setAttribute("role", "button");
       row.setAttribute("tabindex", "0");
       row.setAttribute("aria-expanded", lane.expanded ? "true" : "false");
-      const groupLabel = isNarrowViewport() ? COMPARATOR_GROUP_LABEL_COMPACT : COMPARATOR_GROUP_LABEL;
+      const selectedGroups = COMPARATOR_FILTER_GROUPS
+        .filter((group) => group.tokens.some((tok) => state.comparatorTokens.has(tok)))
+        .map((group) => group.label);
+      const groupLabel = isNarrowViewport()
+        ? COMPARATOR_GROUP_LABEL_COMPACT
+        : selectedGroups.length === 1 ? selectedGroups[0] : COMPARATOR_GROUP_LABEL;
       const groupCount = isNarrowViewport()
-        ? `${comparatorTotal} · ${COMPARATOR_LANES.length}`
-        : `${comparatorTotal} thinkers · ${COMPARATOR_LANES.length} schools`;
+        ? `${comparatorTotal} · ${state.comparatorTokens.size}`
+        : `${comparatorTotal} thinkers · ${state.comparatorTokens.size} schools`;
       row.innerHTML = `
         <span class="swatch-bar"></span>
         <div class="lane-meta">
@@ -1400,6 +1429,17 @@ function renderAxis() {
 function renderAll() {
   refreshLayoutConstants();
   computeRenderLanes();
+  // Narrowing the field should create room to read, not preserve the same
+  // cramped density. Network geometry intentionally stays unchanged.
+  if (state.viewMode === "lanes") {
+    const baseLaneHeight = LANE_H;
+    if (state.renderLanes.length <= 2) LANE_H = Math.round(baseLaneHeight * 1.75);
+    else if (state.renderLanes.length <= 4) LANE_H = Math.round(baseLaneHeight * 1.35);
+  }
+  // The rail stylesheet locks its rows to the custom property so labels and
+  // canvas coordinates cannot drift. Scope the temporary density override to
+  // the rail rather than changing the root value used as next-render baseline.
+  laneRailEl.style.setProperty("--lane-h", `${LANE_H}px`);
   // Reapply layout in case visibleLanes / expansion / view-mode changed.
   computeLayout();
   document.body.classList.toggle("view-network", state.viewMode === "network");
@@ -2201,6 +2241,28 @@ function renderHero(t) {
   );
   const heroThesisHtml = heroRendered.html;
   const heroFootnotes = renderFootnoteList(heroRendered.footnotes);
+  const chronologyCard = (mode) => {
+    const record = t?.chronology?.variants?.[mode] || null;
+    const isSelected = state.chronologyMode === mode;
+    const hasRange = typeof record?.low === "number";
+    const range = hasRange
+      ? formatDatesLong(t, { low: record.low, high: record.high, isLiving: record.high == null })
+      : mode === "academic" && typeof t.dates_low === "number"
+        ? formatDatesLong(t, chronology)
+        : "Date not yet documented";
+    // A lineage relation is valuable historical information, but it is not a
+    // licence to manufacture a numeric traditional date.
+    const evidence = record?.notes || (mode === "academic"
+      ? (t.dates_notes || "Academic evidence note pending.")
+      : (t?.chronology?.traditional_status === "not-attested"
+        ? "No traditional date claim is currently attested in this corpus."
+        : "A traditional placement requires a dated traditional witness; lineage alone is not converted into a year."));
+    return `<div class="chronology-card${isSelected ? " is-selected" : ""}">
+      <span class="chronology-card-label">${escape(chronologyModeLabel(mode))}</span>
+      <strong>${escape(range)}</strong>
+      <span class="chronology-card-note">${md(evidence)}</span>
+    </div>`;
+  };
   return `
     <div class="detail-hero">
       <h2>${escape(t.name_iast || t.name || t.id)}</h2>
@@ -2209,7 +2271,11 @@ function renderHero(t) {
         <span class="school-pill">${linkGlossaryText(schoolText)}${subSchool}</span>
         ${tierLabel ? `<span class="tier-pill">${escape(tierLabel)}</span>` : ""}
       </div>
-      <p class="dates-line">${escape(formatDatesLong(t, chronology))}${chronology.notes ? " · " + md(chronology.notes) : ""}${chronology.availability.isFallback && (chronology.availability.academic || chronology.availability.traditional) ? " · <span class=\"chronology-fallback\">" + escape(`${chronologyModeLabel()} chronology unavailable; ${chronology.availability.effective === "legacy" ? "legacy" : chronologyModeLabel(chronology.availability.effective)} dates shown`) + "</span>" : ""}</p>
+      <div class="chronology-cards" aria-label="Academic and traditional chronology evidence">
+        ${chronologyCard("academic")}
+        ${chronologyCard("traditional")}
+      </div>
+      ${chronology.availability.isFallback ? `<p class="chronology-fallback">Timeline placement currently uses the only stored numeric range; it does not manufacture the selected chronology.</p>` : ""}
       <div class="thesis">${heroThesisHtml}</div>
       ${heroFootnotes}
     </div>
@@ -3228,10 +3294,7 @@ function openGlossary(termKey, anchorEl, opts) {
     const perSchool = (entry.per_school || []).filter((s) => !isPlaceholderDef(s.definition)).map((s) => {
       const r = numberCitations(md(stripMarker(s.definition)), popCtr);
       allFootnotes.push(...r.footnotes);
-      const tag = s.register_tag
-        ? `<span class="gp-regtag" title="register tuple">${escape(s.register_tag)}</span>`
-        : "";
-      return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${tag}${r.html}</span></div>`;
+      return `<div class="gp-row"><span class="gp-school">${escape(s.school)}</span><span class="gp-def">${r.html}</span></div>`;
     }).join("");
     const translatorR = entry.translator_note
       ? numberCitations(md(entry.translator_note), popCtr)
@@ -3251,15 +3314,13 @@ function openGlossary(termKey, anchorEl, opts) {
         default: return escape(framing.framing_status);
       }
     })();
-    // Framing blocks are methodological prose; we route them through md() only,
-    // not numberCitations, since the inline references are short locus mentions
-    // (e.g. *Anuvyākhyāna* 2.3.66–69) rather than `cite://` anchors that need
-    // footnote numbering.
+    // The public encyclopedia presents ordinary-language school framing. The
+    // retired internal register/axis notation remains migration metadata only;
+    // it must not leak into a reader's definition.
     const framingBlock = framing
       ? `<div class="gp-framing"><span class="gp-label">School framing</span>
            <div class="gp-framing-status">${framingLabel}</div>
            ${framing.shared_core ? `<div class="gp-shared-core">${md(framing.shared_core)}</div>` : ""}
-           ${framing.register_axes_note ? `<div class="gp-axes">${md(framing.register_axes_note)}</div>` : ""}
          </div>`
       : "";
     // Diachronic "Across the texts": earliest attestations and how the term /
@@ -4708,8 +4769,43 @@ function renderFilterChips() {
     const color = state.schools[tok]?.color_palette?.[2] || colorFor({ school_color_token: tok }, 2);
     chipsRow.appendChild(makeChip(tok, label, color));
   }
-  chipsRow.appendChild(makeChip(COMPARATOR_GROUP_KEY, COMPARATOR_GROUP_LABEL, "#475569"));
   filterChipsEl.appendChild(chipsRow);
+
+  const makeComparatorChip = (key) => {
+    const label = laneDisplayLabel(key);
+    const color = state.schools[key]?.color_palette?.[2] || colorFor({ school_color_token: key }, 2);
+    const on = state.comparatorTokens.has(key);
+    const btn = document.createElement("button");
+    btn.className = "filter-chip" + (on ? " is-on" : "");
+    btn.type = "button";
+    btn.style.setProperty("--chip-color", color);
+    btn.innerHTML = `<span class="chip-swatch"></span>${escape(label)}`;
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      if (state.comparatorTokens.has(key)) state.comparatorTokens.delete(key);
+      else state.comparatorTokens.add(key);
+      if (state.comparatorTokens.size) state.visibleLanes.add(COMPARATOR_GROUP_KEY);
+      else state.visibleLanes.delete(COMPARATOR_GROUP_KEY);
+      rerender();
+    });
+    return btn;
+  };
+  const comparatorGroups = document.createElement("div");
+  comparatorGroups.className = "filter-comparator-groups";
+  comparatorGroups.innerHTML = `<p class="filter-group-title">Indic interlocutors</p>`;
+  for (const group of COMPARATOR_FILTER_GROUPS) {
+    const section = document.createElement("details");
+    section.className = "filter-group";
+    section.open = group.tokens.some((key) => state.comparatorTokens.has(key));
+    const selected = group.tokens.filter((key) => state.comparatorTokens.has(key)).length;
+    section.innerHTML = `<summary>${escape(group.label)} <span>${selected}/${group.tokens.length}</span></summary>`;
+    const row = document.createElement("div");
+    row.className = "filter-chip-row filter-chip-row--nested";
+    for (const key of group.tokens) row.appendChild(makeComparatorChip(key));
+    section.appendChild(row);
+    comparatorGroups.appendChild(section);
+  }
+  filterChipsEl.appendChild(comparatorGroups);
 
   // Wire presets.
   filterChipsEl.querySelectorAll("[data-preset]").forEach((btn) => {
@@ -4721,10 +4817,12 @@ function renderFilterChips() {
         for (const t of VEDANTA_LANES) state.visibleLanes.add(t);
       } else if (p === "comparators") {
         state.visibleLanes.add(COMPARATOR_GROUP_KEY);
+        state.comparatorTokens = new Set(COMPARATOR_LANES);
         state.comparatorExpanded = true;
       } else {
         for (const t of VEDANTA_LANES) state.visibleLanes.add(t);
         state.visibleLanes.add(COMPARATOR_GROUP_KEY);
+        state.comparatorTokens = new Set(COMPARATOR_LANES);
       }
       rerender();
     });
@@ -4738,6 +4836,7 @@ function renderFilterChips() {
       state.visibleLanes.clear();
       if (action === "all") {
         for (const k of allLaneKeys()) state.visibleLanes.add(k);
+        state.comparatorTokens = new Set(COMPARATOR_LANES);
       }
       rerender();
     });
@@ -4789,6 +4888,7 @@ if (filterSoloPill) {
     state.visibleLanes.clear();
     for (const t of VEDANTA_LANES) state.visibleLanes.add(t);
     state.visibleLanes.add(COMPARATOR_GROUP_KEY);
+    state.comparatorTokens = new Set(COMPARATOR_LANES);
     rerender();
   });
 }
