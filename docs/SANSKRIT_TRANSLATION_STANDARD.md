@@ -106,6 +106,9 @@ every technical term in the text and its commentaries is covered.
    and glossary coverage.
 4. Render with `GitaReader` (standalone page + in-app Article via `app.js`).
 5. Ensure glossary coverage (§4).
+6. If audio is added, follow `docs/AUDIO_ALIGNMENT_STANDARD.md`; the current
+   supported granularity is verified verse-level timing, not inferred word or
+   pada synchronization.
 
 Deviations from this standard should be deliberate and noted.
 
