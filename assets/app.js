@@ -414,9 +414,13 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
+const DATA_VERSION = "20260818-exemplars";
+
 async function loadJSON(path) {
   try {
-    const r = await fetch(path);
+    const url = new URL(path, location.href);
+    url.searchParams.set("v", DATA_VERSION);
+    const r = await fetch(url);
     if (!r.ok) return null;
     return await r.json();
   } catch (e) { return null; }
