@@ -11,6 +11,7 @@
   "dates_high": 750,
   "dates_tier": "consensus-textual",
   "dates_notes": "Traditional dates from sectarian chronicles place him 788–820; academic consensus (associated with Hacker and Mayeda) is somewhat earlier. Mayeda's *A Thousand Teachings: The Upadeśasāhasrī of Śaṅkara* (SUNY 1992; on-disk PDF at materials/primary_texts/sanskrit/vedanta/full_corpus/shankara_upadesa_sahasri_mayeda_1992_archive.pdf) supplies the standard critical apparatus for the securely-authored corpus, which is much smaller than the traditional ascription set. Paul Hacker's *Untersuchungen über Texte des frühen Advaitavāda* (1950) and the related German monograph series are referenced as field-orientation only.",
+  "chronology": {"default_variant": "academic", "variants": {"academic": {"low": 700, "high": 750, "tier": "consensus-textual", "source_kind": "academic", "notes": "Modern academic range retained by this site."}, "traditional": {"low": 788, "high": 820, "tier": "lineage-internal", "source_kind": "sectarian-traditional", "notes": "Range preserved in sectarian chronicles."}}},
   "school": "Advaita",
   "school_color_token": "advaita",
   "sub_school": "Advaita (school-defining)",

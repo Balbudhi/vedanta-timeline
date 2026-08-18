@@ -9,6 +9,7 @@
   "dates_high": 1041,
   "dates_tier": "oral-tradition-only",
   "dates_notes": "Sectarian chronicle dating only; long lifespan in tradition is suspect.",
+  "chronology": {"default_variant": "traditional", "variants": {"academic": {"low": 967, "high": 1042, "tier": "contested", "source_kind": "academic", "notes": "Approximate modern reconstruction cited in the dating audit."}, "traditional": {"low": 916, "high": 1041, "tier": "oral-tradition-only", "source_kind": "sectarian-traditional", "notes": "Long lifespan preserved in sectarian chronicle tradition."}}},
   "school": "Viśiṣṭādvaita",
   "school_color_token": "vishishtadvaita",
   "sub_school": "Proto-systematic Viśiṣṭādvaita",
