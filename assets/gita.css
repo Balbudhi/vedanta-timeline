@@ -282,8 +282,10 @@ html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; 
 }
 
 /* interactive block (pada line + slotted English) — mūla and commentary */
+.ix-deva { font-size: 17px; line-height: 1.7; color: var(--ink); margin: 0 0 8px; overflow-wrap: anywhere; }
 .ix-pada { font-size: 18px; line-height: 2.15; margin-bottom: 14px; overflow-wrap: anywhere; }
 .ix-en { font-size: 17px; line-height: 1.72; color: var(--ink); }
+.voice-block .ix-deva { font-size: 15px; line-height: 1.7; margin-bottom: 6px; }
 .voice-block .ix-pada { font-size: 15px; line-height: 2.0; margin-bottom: 9px; }
 .voice-block .ix-en { font-size: 14.5px; line-height: 1.62; color: var(--ink-soft); }
 

@@ -3,7 +3,7 @@
    window.GITA3_VERSES — one object per verse.
    Schema + policy: docs/SANSKRIT_TRANSLATION_STANDARD.md (§3 data, §6
    Pāṇinian formalism, §7 faithful rendering, §8 preserve/translate).
-   Site renders IAST only; words[].deva / devanagari are kept for local use.
+   Site renders verified Devanāgarī, then IAST, then literal English.
    Interactive line = pada-pāṭha built from words[]; `iast` = saṃhitā.
 
    Mūla witnesses on disk, cross-checked against one another:

@@ -1,7 +1,7 @@
 /* =============================================================
    Bhagavad-Gītā 2.54–72 — the Sthitaprajña answer.
    window.GITA_VERSES — one object per verse. Schema: _build/DESIGN.md.
-   Site renders IAST only; words[].deva / devanagari kept for local use.
+   Site renders verified Devanāgarī, then IAST, then literal English.
    Interactive line = pada-pāṭha built from words[]; iast = saṃhitā.
    2.54–2.55 hand-authored; 2.56–2.72 by the per-verse data pass,
    grounded in the on-disk mūla + Rāmānuja, audited.

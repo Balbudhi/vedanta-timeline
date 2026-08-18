@@ -89,14 +89,16 @@ function renderPadaSegmented(words, segments) {
   }).join(" ");
 }
 
-/* An interactive Sanskrit block: tappable pada line + slotted English.
+/* An interactive Sanskrit block: verified source script (when supplied),
+   tappable IAST pada line, then slotted English.
    Used for the mūla and for any commentary entry that carries words[]+english.
    When `segments` is present (commentary), the pada is colour-coded by move. */
-function interactiveBlock(words, english, segments) {
+function interactiveBlock(words, english, segments, devanagari) {
   const id = newScope(words);
   const pada = (segments && segments.length) ? renderPadaSegmented(words, segments) : renderPada(words);
   const en = english ? renderEnglish(english) : "";
   return `<div class="ix" data-wscope="${id}">
+    ${devanagari ? `<div class="ix-deva" lang="sa-Deva">${esc(devanagari).replace(/\n/g, "<br>")}</div>` : ""}
     <div class="ix-pada" lang="sa-Latn">${pada}</div>
     ${en ? `<div class="ix-en">${en}</div>` : ""}
   </div>`;
@@ -177,7 +179,7 @@ function renderVoiceInner(entry) {
   if (entry.kind === "parallels") {
     return entry.list.map(p => {
       const body = (p.words && p.english)
-        ? interactiveBlock(p.words, p.english, p.segments)
+        ? interactiveBlock(p.words, p.english, p.segments, p.devanagari)
         : `<div class="voice-sa" lang="sa-Latn">${esc(p.sanskrit)}</div>${p.ourRendering ? `<div class="voice-en">${esc(p.ourRendering)}</div>` : ""}`;
       return `<div class="voice-src">${esc(p.school || "")}${p.thinker ? " · " + esc(p.thinker) : ""} · ${esc(p.work || "")}${p.locus ? " " + esc(p.locus) : ""}</div>${body}`;
     }).join('<hr class="voice-rule">');
@@ -185,7 +187,7 @@ function renderVoiceInner(entry) {
   // commentary
   const c = entry.data;
   const body = (c.words && c.english)
-    ? interactiveBlock(c.words, c.english, c.segments)
+    ? interactiveBlock(c.words, c.english, c.segments, c.devanagari)
     : `<div class="voice-sa" lang="sa-Latn">${esc(c.sanskrit)}</div>${c.ourRendering ? `<div class="voice-en">${esc(c.ourRendering)}</div>` : ""}`;
   return `<div class="voice-src">${esc(c.work || "")}${c.locus ? " · " + esc(c.locus) : ""}</div>${body}`;
 }
