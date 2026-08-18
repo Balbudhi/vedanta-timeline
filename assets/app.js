@@ -2371,6 +2371,7 @@ function renderEngagedWorks(t) {
     w.__hasFullTranslation = state.fullTranslationSet
       ? state.fullTranslationSet.has(txKey)
       : false;
+    w.__entryContract = t.editorial_contract || "legacy";
     return renderWorkCard(w, passages, t.id);
   }).join("");
   return `<h3 class="section-head">Engaged works</h3>${cards}`;
@@ -2461,9 +2462,17 @@ function renderWorkCard(w, passages, thinkerId) {
   // Number citations in the work summary + ascription notes. One counter
   // per card so the user sees [1] [2] … fresh in each work.
   const workCtr = { n: 0 };
-  const summaryRendered = numberCitations(md(w.summary || ""), workCtr);
-  const ascrRendered = w.ascription_notes
-    ? numberCitations(md(w.ascription_notes), workCtr)
+  const summary = w.editorial_summary || (w.__entryContract === "v2"
+    ? "This work is retained with the displayed attribution and source-status label. A reader-facing account of its arguments will be added only after a reviewed source packet supplies exact public loci."
+    : (w.summary || ""));
+  const summaryRendered = numberCitations(md(summary), workCtr);
+  const ascriptionNote = w.editorial_ascription_note || (w.__entryContract === "v2"
+    ? (w.ascription_tier === "traditionally-ascribed" || w.ascription_tier === "traditionally-attributed"
+      ? "Traditional attribution is preserved here; a public attestation packet is still required before this card makes further historical or doctrinal claims."
+      : "")
+    : w.ascription_notes);
+  const ascrRendered = ascriptionNote
+    ? numberCitations(md(ascriptionNote), workCtr)
     : { html: "", footnotes: [] };
   const allFootnotes = summaryRendered.footnotes.concat(ascrRendered.footnotes);
   // Passages section framing — depends on whether an annotated translation

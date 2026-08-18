@@ -78,7 +78,8 @@ as transmitted corpora, not autograph authors.
   "ascription_tier": "securely-authored | traditionally-ascribed | school-ascribed | disputed",
   "ascription_evidence": [{"kind": "...", "description": "..."}],
   "source_status": "clean-on-disk | working-witness | primary-text-not-in-corpus | private-rights-unresolved | quarantined-ocr",
-  "summary": "50–160 words: question, method, position, scope.",
+  "editorial_summary": "50–160 reviewed words: question, method, position, scope; required before a v2 card can use substantive prose.",
+  "summary": "Legacy migration text; it does not render for a v2 entry until migrated to editorial_summary.",
   "key_passage_ids": []
 }
 ```
@@ -151,6 +152,11 @@ and uncertainty. Preserve legacy primitive records only as migration evidence.
 - `legacy_coverage`, which makes any omission visible to review rather than
   silently shortening an article; and
 - `editorial_dependencies`, a small set of review areas and update events.
+
+For v2 work cards, legacy `summary` and `ascription_notes` are migration
+material only. Substantive reader-facing prose must move to
+`editorial_summary` or `editorial_ascription_note` and carry verified loci;
+otherwise the UI shows only the work's attribution and source-status limit.
 
 `pending-acquisition` and `private-rights-restricted` source-limit records may
 state the scope of a gap without pretending that the missing source proves a

@@ -16,6 +16,7 @@ const LEDGER_PATH = path.join(ROOT, "data/editorial/source_ledger.json");
 const CONTRACT_PATH = path.join(ROOT, "data/editorial/authoring_contract.json");
 const CITATION_INDEX_PATH = path.join(ROOT, "data/citation_index.json");
 const CITE = /^cite:\/\/[^\s)\]>,]+/;
+const CITE_IN_TEXT = /cite:\/\/[^\s)\]>,]+/g;
 
 function readJson(file) { return JSON.parse(fs.readFileSync(file, "utf8")); }
 function jsonFiles(dir) {
@@ -102,6 +103,26 @@ function validateEntry(file, type, ledgerIds, prefixSet, citationIndex, contract
     }
     if (!Array.isArray(updateEvents) || updateEvents.length === 0 || !updateEvents.every(isNonEmpty)) {
       add(errors, label, "v2 entry requires non-empty editorial_dependencies.update_when");
+    }
+    if (type === "thinker") {
+      for (const [workIndex, work] of (record.engaged_works || []).entries()) {
+        const workLabel = `${label} engaged_works[${workIndex}]`;
+        if (!isNonEmpty(work?.ascription_tier)) add(errors, workLabel, "v2 work requires ascription_tier");
+        if (!isNonEmpty(work?.source_status)) add(errors, workLabel, "v2 work requires source_status");
+        if (!isNonEmpty(work?.editorial_summary)) continue;
+        const workCitations = work.editorial_summary.match(CITE_IN_TEXT) || [];
+        if (!workCitations.length) add(errors, workLabel, "v2 editorial_summary requires a verified cite:// locus");
+        for (const [citeIndex, cite] of workCitations.entries()) {
+          validateClaim({
+            id: `work-summary-${citeIndex}`,
+            text: work.editorial_summary,
+            claim_kind: "textual",
+            evidence_level: "primary",
+            citations: [cite],
+            status: "verified"
+          }, `${workLabel}.editorial_summary`, contract, prefixSet, citationIndex, errors, true);
+        }
+      }
     }
   }
   return true;
