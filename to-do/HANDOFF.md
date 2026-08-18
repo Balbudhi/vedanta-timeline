@@ -12,7 +12,9 @@ Secondary scholars belong only in `ascription_notes` / `dates_evidence` (the san
 "state of scholarly opinion" fields). Critical-edition citations (Thibaut, Kuppuswami
 Sastri, Mayeda) are legitimate provenance — keep them.
 Reference example: **`data/thinkers/karpatri.json`** (commit `03e84b1`).
-Living-thinker date convention: `dates_high: 2050` (sentinel — see `assets/app.js:143`), never the current year.
+Living-thinker date convention: `dates_high: null`; the chronology resolver
+uses the current year only for layout and displays “present.” Never store a
+future sentinel or a rolling current year in the data.
 
 ## Done this session (pushed to main)
 - UI: audio player slim redesign (gita) · dark-theme rebuilt (neutral charcoal) · lanes-view
@@ -21,7 +23,8 @@ Living-thinker date convention: `dates_high: 2050` (sentinel — see `assets/app
   (whole site AI-generated; unbiased/literal framing; per-model Opus/Codex attribution dropped).
 - Karpātrī regrounded on primary sources (the template).
 - Merged duplicate Ayon Maharaj + Swami Medhananda → canonical `medhananda` (living; both OUP books).
-- Fixed false 2026 death-dates: Melamed, Butler, Rambhadracharya, Macherey → 2050; Spinoza → 1632–1677.
+- Fixed false current-year death dates: living records use `dates_high: null`;
+  Spinoza → 1632–1677.
 - Added Debashish Banerji + Arindam Chakrabarti (draft; birth years marked contested/unverified).
 
 ## Task #4 — secondary-source audit fix-wave (PENDING)
