@@ -416,7 +416,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "20260818-evidence-gated-v4";
+const DATA_VERSION = "20260818-evidence-gated-v5";
 
 async function loadJSON(path) {
   try {
@@ -2457,7 +2457,7 @@ function renderWorkCard(w, passages, thinkerId) {
   const hasAscriptionRecord = Array.isArray(w.ascription_source_record_ids) && w.ascription_source_record_ids.length > 0;
   const ascr = v2 && !hasAscriptionRecord
     ? (w.ascription_tier === "traditionally-ascribed" || w.ascription_tier === "traditionally-attributed"
-      ? "Traditional attribution — attestation pending"
+      ? "Reported traditional attribution — attestation pending"
       : "Authorship record pending")
     : rawAscription;
   const status = w.source_status || "";
@@ -2489,7 +2489,7 @@ function renderWorkCard(w, passages, thinkerId) {
   const summaryRendered = numberCitations(md(summary), workCtr);
   const ascriptionNote = w.editorial_ascription_note || (v2
     ? (w.ascription_tier === "traditionally-ascribed" || w.ascription_tier === "traditionally-attributed"
-      ? "Traditional attribution is preserved here; a public attestation packet is still required before this card makes further historical or doctrinal claims."
+      ? "A reported traditional attribution is retained here; a public attestation packet is still required before this card makes further historical or doctrinal claims."
       : "")
     : w.ascription_notes);
   const ascrRendered = ascriptionNote
