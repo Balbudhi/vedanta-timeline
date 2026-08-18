@@ -1,0 +1,53 @@
+#!/usr/bin/env sh
+# Run the repository's committed, read-only validation scripts.
+#
+# This intentionally does not build the site or infer checks from tooling that
+# is not present in the repository.  A missing optional runtime is reported as
+# a skip so contributors can still run the checks their environment supports;
+# CI provisions all declared runtimes and therefore runs every check.
+
+set -u
+
+repo_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$repo_root" || exit 1
+
+failures=0
+skips=0
+
+run_check() {
+    label=$1
+    shift
+
+    printf '\n== %s ==\n' "$label"
+    if "$@"; then
+        printf 'PASS: %s\n' "$label"
+    else
+        printf 'FAIL: %s\n' "$label" >&2
+        failures=$((failures + 1))
+    fi
+}
+
+skip_check() {
+    printf '\n== %s ==\nSKIP: %s\n' "$1" "$2"
+    skips=$((skips + 1))
+}
+
+if command -v node >/dev/null 2>&1; then
+    run_check "Gita slot integrity" node scripts/validate_gita_slots.js
+    run_check "Gita term consistency" node scripts/check_gita_terms.js
+    run_check "Corpus coverage report" node scripts/check_coverage.js
+else
+    skip_check "Gita term consistency" "node is not installed"
+    skip_check "Corpus coverage report" "node is not installed"
+fi
+
+if ! command -v python3 >/dev/null 2>&1; then
+    skip_check "Gita witness verification" "python3 is not installed"
+elif ! python3 -c 'import indic_transliteration' >/dev/null 2>&1; then
+    skip_check "Gita witness verification" "Python package indic_transliteration is not installed"
+else
+    run_check "Gita witness verification" python3 scripts/check_gita_witness.py
+fi
+
+printf '\nValidation complete: %s failure(s), %s skipped.\n' "$failures" "$skips"
+test "$failures" -eq 0
