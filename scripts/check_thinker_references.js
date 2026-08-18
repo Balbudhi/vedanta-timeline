@@ -13,6 +13,7 @@ const readJson = (relative) => JSON.parse(fs.readFileSync(path.join(ROOT, relati
 const manifest = readJson("data/manifest.json");
 const schools = readJson("data/registries/schools.json");
 const failures = [];
+const entityKinds = new Set(["historical_author", "canonical_teacher", "reconstructed_position", "reception_teacher", "comparator"]);
 
 function fail(message) { failures.push(message); }
 function expectArray(value, label) { if (!Array.isArray(value)) fail(`${label} must be an array`); return Array.isArray(value) ? value : []; }
@@ -33,6 +34,7 @@ for (const filename of expectArray(manifest.thinkers, "manifest.thinkers")) {
   thinkers.push({ filename, thinker });
   if (path.basename(filename, ".json") !== thinker.id) fail(`${filename}: id must match filename stem (${thinker.id})`);
   if (!schools[thinker.school_color_token]) fail(`${filename}: unknown school_color_token ${String(thinker.school_color_token)}`);
+  if (thinker.entity_kind != null && !entityKinds.has(thinker.entity_kind)) fail(`${filename}: unsupported entity_kind ${thinker.entity_kind}`);
   if (thinker.display !== false && typeof thinker.dates_low !== "number") fail(`${filename}: visible thinker dates_low must be numeric`);
   if (thinker.display !== false && !(typeof thinker.dates_high === "number" || thinker.dates_high === null || thinker.dates_high === 0)) fail(`${filename}: visible thinker dates_high must be numeric, null, or legacy 0`);
   const workIds = new Set();

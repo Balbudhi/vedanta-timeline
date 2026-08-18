@@ -67,6 +67,12 @@ Every roster entry must state why it belongs in one of these roles:
    interpretive, reception, or contextual function, not as primary authority
    for an earlier tradition.
 
+Where a record declares `entity_kind`, use the controlled value
+`historical_author`, `canonical_teacher`, `reconstructed_position`,
+`reception_teacher`, or `comparator`. Older records may omit the field during
+migration; new records should not. `reception_teacher` requires named compilers
+and witnesses and must never imply autograph authorship.
+
 Use existing `entry_status` values (`draft`, `reviewed`, `audited`, or an
 existing explicitly named backlog status) honestly. A reviewed entry is not a
 warrant for unsupported claims, and `display: false` is an editorial choice,
