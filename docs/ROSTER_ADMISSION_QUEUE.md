@@ -38,18 +38,14 @@ authors and defeat the provenance policy.
 - **Puruṣottama Prasāda:** acquire a readable, identified *Śruty-anta* witness
   and verify that the author is distinct from similarly named Nimbārka figures.
 
-## Editorial decision required: Ramakrishna
+## Excluded unless an attributed philosophical text is identified
 
-Ramakrishna is not currently a thinker record. The public scan and the
-*Kathāmṛta* / *Gospel* tradition document reception, but not an authored
-treatise by Ramakrishna. The existing author-only curation rule therefore
-excludes him; Buddha and Mahāvīra are different, explicitly labelled
-canonical-teacher cases. Before adding Ramakrishna, choose one transparent
-policy:
+Ramakrishna and Śāradā Devī are not currently thinker records. Their public
+reception materials remain valuable article and source context, but disciple
+records alone do not meet the roster's author/attributed-text criterion. Do not
+add either as a public thinker unless a serious philosophical text can be
+identified with a documented authorship or traditional-attribution status.
 
-1. retain the author/canonical-teacher distinction and keep Ramakrishna in
-   articles, sources, and reception context only; or
-2. create a third, clearly labelled reception-teacher category that identifies
-   the compiler and witness rather than assigning authorship to Ramakrishna.
-
-No automatic addition should decide this distinction by implication.
+The existing Buddha and Mahāvīra `canonical_teacher` records are a separate
+legacy exception under review; they do not establish a general mystic or oral-
+teacher category and must never be described as autograph authors.

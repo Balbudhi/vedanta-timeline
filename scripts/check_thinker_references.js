@@ -13,7 +13,7 @@ const readJson = (relative) => JSON.parse(fs.readFileSync(path.join(ROOT, relati
 const manifest = readJson("data/manifest.json");
 const schools = readJson("data/registries/schools.json");
 const failures = [];
-const entityKinds = new Set(["historical_author", "canonical_teacher", "reconstructed_position", "reception_teacher", "comparator"]);
+const entityKinds = new Set(["historical_author", "canonical_teacher", "reconstructed_position", "comparator"]);
 
 function fail(message) { failures.push(message); }
 function expectArray(value, label) { if (!Array.isArray(value)) fail(`${label} must be an array`); return Array.isArray(value) ? value : []; }

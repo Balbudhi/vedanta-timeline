@@ -53,7 +53,11 @@ genuine disagreement or contestation where it remains.
 
 ## 4. Roster and completeness
 
-Every roster entry must state why it belongs in one of these roles:
+Every ordinary public roster entry must be an author of a serious
+philosophical, exegetical, doctrinal, or systematic text, or the named subject
+of such a text's documented traditional attribution. Devotional, oral, or
+charismatic importance alone is insufficient. Every admitted entry must state
+why it belongs in one of these roles:
 
 1. **School-defining or lineage-shaping thinker** — central to a tradition's
    doctrine or transmission.
@@ -69,9 +73,10 @@ Every roster entry must state why it belongs in one of these roles:
 
 Where a record declares `entity_kind`, use the controlled value
 `historical_author`, `canonical_teacher`, `reconstructed_position`,
-`reception_teacher`, or `comparator`. Older records may omit the field during
-migration; new records should not. `reception_teacher` requires named compilers
-and witnesses and must never imply autograph authorship.
+or `comparator`. Older records may omit the field during migration; new records
+should not. The existing `canonical_teacher` records are explicitly labelled
+exceptions whose transmitted canon is not treated as autograph authorship; do
+not add further exceptions without an owner decision.
 
 Use existing `entry_status` values (`draft`, `reviewed`, `audited`, or an
 existing explicitly named backlog status) honestly. A reviewed entry is not a
