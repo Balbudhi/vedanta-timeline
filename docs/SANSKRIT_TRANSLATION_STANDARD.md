@@ -26,11 +26,12 @@ present and make it inspectable, rather than paraphrasing.
 
 ## 2. The reading UX (what `GitaReader` renders)
 
-- **IAST only on screen.** Devanāgarī is authored and kept in the data
-  (`words[].deva`, top-level `devanagari`) but not displayed.
-- Per unit: a **saṃhitā** line (natural, sandhi'd) for reading, then an
-  interactive **pada-pāṭha** (sandhi-resolved, space-separated — every word a
-  tappable token), then the **literal English**.
+- **Source script, then IAST, then English.** For Sanskrit, display the
+  source-script saṃhitā line in Devanāgarī first; below it show the interactive
+  IAST **pada-pāṭha** (sandhi-resolved, space-separated — every word a tappable
+  token); below that show the **literal English**. Author and retain both
+  top-level `devanagari` and `words[].deva`; never substitute a generated script
+  conversion for a verified source witness.
 - **Tap a word → a card** with: the word; its whole-word gloss; the
   **morpheme pieces, each translated** (`pra-` "forth" + `√bhāṣ` "to speak");
   the grammar in plain English (case/number/gender or tense/voice, with the
@@ -71,8 +72,10 @@ Per word object (mūla and commentary alike):
 
 Per unit: `iast` (saṃhitā), `devanagari`, `english` (the slotted literal
 rendering — `"{0:…} {1,2:…}"` referencing `words[].i`), and `grammar`
-(`karakaSummary`, `verbalModality`). Commentary entries carry the same
-`words[]` + `english`, alongside their verbatim `sanskrit` and our `ourRendering`.
+(`karakaSummary`, `verbalModality`). Commentary entries carry the same complete
+source-script, `words[]`, and `english` fields alongside their verbatim Sanskrit
+and our `ourRendering`. A reader may not show a commentary as source-script
+complete until that data has been verified against its witness.
 
 Invariants (CI-checkable): `i` contiguous from 0; every `english` `{i:…}` slot
 resolves to a real word index; the concatenated `iast` tokens faithfully
