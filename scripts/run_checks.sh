@@ -34,6 +34,7 @@ skip_check() {
 
 if command -v node >/dev/null 2>&1; then
     run_check "Chronology resolver" node scripts/check_chronology.js
+    run_check "Sanskrit reader completeness report" node scripts/report_reader_completeness.js
     run_check "Gita slot integrity" node scripts/validate_gita_slots.js
     run_check "Gita term consistency" node scripts/check_gita_terms.js
     run_check "Corpus coverage report" node scripts/check_coverage.js
