@@ -10,9 +10,17 @@ All Sanskrit on this site — root text **and** commentary — is translated and
 presented per **`docs/SANSKRIT_TRANSLATION_STANDARD.md`**: literal and faithful to
 the grammar, **word-by-word interactive** (tap a word for its morpheme-by-morpheme
 translation + grammar + glossary link), bidirectional highlight, voice-by-voice
-commentary, IAST on screen (Devanāgarī kept in data), and integrated with the
-site glossary. Reference implementation: `gita/sthitaprajna/` + `assets/gita.js`
+commentary, source script followed by IAST and literal English, and integrated
+with the site glossary. Reference implementation: `gita/sthitaprajna/` + `assets/gita.js`
 (`window.GitaReader`). Follow this standard for any new Sanskrit text.
+
+## Content evidence rule
+
+Before adding or rewriting a public thinker, work, citation, glossary, reader,
+or comparative claim, read `docs/EDITORIAL_DATA_STANDARD.md` and
+`docs/CONTENT_AND_SOURCE_STANDARD.md`. Audit/queue work may identify gaps; it
+does not authorize filling them with uncited prose, inferred dates, generated
+Sanskrit, or unverified quotations.
 
 ## Hard rules
 

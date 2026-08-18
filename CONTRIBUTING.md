@@ -4,6 +4,11 @@ This is a public research and reading project. Contributions must make their
 evidence, uncertainty, and editorial intervention visible. `AGENTS.md` governs
 shared-worktree and commit practice; this guide governs content.
 
+Before making a public content change, read
+[`docs/EDITORIAL_DATA_STANDARD.md`](docs/EDITORIAL_DATA_STANDARD.md). It is the
+controlling template for claims, thinker prose, work summaries, chronology,
+sources, Sanskrit readers, glossary entries, and comparative material.
+
 ## Before editing
 
 - Declare a narrow file scope and inspect `git status --short` and
