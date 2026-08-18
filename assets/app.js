@@ -202,6 +202,7 @@ const laneRailEl = document.getElementById("laneRail");
 const eraStripEl = document.getElementById("eraStrip");
 const subtitleEl = document.getElementById("subtitle");
 const readingModeBtn = document.getElementById("readingModeBtn");
+const chronologyToggle = document.querySelector(".chronology-toggle");
 
 // ---------- state -----------
 const state = {
@@ -235,7 +236,141 @@ const state = {
       return v === "network" ? "network" : "lanes";
     } catch (_) { return "lanes"; }
   })(),
+  // Selected date basis. It is initialized after thinker data has loaded so a
+  // corpus-level default_variant can be honoured when neither URL nor storage
+  // makes an explicit choice.
+  chronologyMode: null,
 };
+
+// ---------- chronology ----------------------------------------------------
+// Thinker records may carry the backwards-compatible structured form:
+//
+// chronology: {
+//   default_variant: "academic" | "traditional",
+//   variants: { academic?: {low, high, tier, source_kind, notes, evidence},
+//               traditional?: {low, high, tier, source_kind, notes, evidence} }
+// }
+//
+// Existing top-level dates_* fields remain the authoritative legacy fallback.
+// A missing traditional variant never becomes an invented traditional date: its
+// resolver result is explicitly marked as a fallback to a real available range.
+const CHRONOLOGY_MODES = new Set(["academic", "traditional"]);
+const CHRONOLOGY_STORAGE_KEY = "vedanta-chronology-mode";
+
+function validChronologyMode(value) {
+  return CHRONOLOGY_MODES.has(value) ? value : null;
+}
+
+function requestedChronologyMode() {
+  try {
+    const fromUrl = validChronologyMode(new URLSearchParams(location.search).get("chronology"));
+    if (fromUrl) return fromUrl;
+  } catch (_) {}
+  try { return validChronologyMode(localStorage.getItem(CHRONOLOGY_STORAGE_KEY)); } catch (_) { return null; }
+}
+
+function chronologyVariant(t, mode) {
+  const candidate = t?.chronology?.variants?.[mode];
+  return candidate && typeof candidate === "object" && typeof candidate.low === "number"
+    ? candidate : null;
+}
+
+function defaultChronologyMode(t) {
+  return validChronologyMode(t?.chronology?.default_variant) || "academic";
+}
+
+function resolveChronology(t, requestedMode = state.chronologyMode) {
+  const requested = validChronologyMode(requestedMode) || defaultChronologyMode(t);
+  const variants = t?.chronology?.variants || {};
+  const requestedVariant = chronologyVariant(t, requested);
+  const defaultVariant = chronologyVariant(t, defaultChronologyMode(t));
+  const academicVariant = chronologyVariant(t, "academic");
+  const traditionalVariant = chronologyVariant(t, "traditional");
+  const legacyAvailable = typeof t?.dates_low === "number";
+
+  // Prefer the requested evidence record. If it is absent, use another actual
+  // stored record, then the historical top-level fields; both cases are marked
+  // so display code can distinguish a fallback from the selected chronology.
+  const record = requestedVariant || defaultVariant || academicVariant || traditionalVariant || null;
+  const fallback = !requestedVariant;
+  const effective = requestedVariant ? requested
+    : record === traditionalVariant ? "traditional"
+      : record ? "academic" : "legacy";
+  const low = record ? record.low : (legacyAvailable ? t.dates_low : null);
+  const high = record ? (typeof record.high === "number" ? record.high : null)
+    : (typeof t?.dates_high === "number" ? t.dates_high : null);
+  const isLiving = typeof low === "number" && high === null;
+
+  return {
+    low,
+    high,
+    tier: record?.tier || t?.dates_tier || "",
+    notes: record?.notes || t?.dates_notes || "",
+    sourceKind: record?.source_kind || "legacy",
+    evidence: record?.evidence || null,
+    isLiving,
+    highForLayout: typeof high === "number" ? high : CURRENT_YEAR,
+    availability: {
+      academic: Boolean(academicVariant),
+      traditional: Boolean(traditionalVariant),
+      legacy: legacyAvailable,
+      requested,
+      effective,
+      requestedAvailable: Boolean(requestedVariant),
+      isFallback: fallback,
+    },
+  };
+}
+
+function chronologyModeLabel(mode = state.chronologyMode) {
+  return mode === "traditional" ? "Traditional" : "Academic";
+}
+
+function chooseInitialChronologyMode() {
+  return requestedChronologyMode()
+    || state.thinkers.map(defaultChronologyMode).find((mode) => validChronologyMode(mode))
+    || "academic";
+}
+
+function updateChronologyControl() {
+  if (!chronologyToggle) return;
+  chronologyToggle.querySelectorAll("[data-chronology]").forEach((button) => {
+    const active = button.dataset.chronology === state.chronologyMode;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", active ? "true" : "false");
+  });
+}
+
+function setChronologyMode(mode, options = {}) {
+  if (!validChronologyMode(mode)) return;
+  const changed = state.chronologyMode !== mode;
+  state.chronologyMode = mode;
+  if (options.persist !== false) {
+    try { localStorage.setItem(CHRONOLOGY_STORAGE_KEY, mode); } catch (_) {}
+  }
+  if (options.syncUrl !== false) {
+    try {
+      const url = new URL(location.href);
+      url.searchParams.set("chronology", mode);
+      history.replaceState(null, "", url.pathname + url.search + url.hash);
+    } catch (_) {}
+  }
+  updateChronologyControl();
+  if (!changed || options.render === false || !state.thinkers.length) return;
+  state.hasInitialScroll = false;
+  renderAll();
+  renderFilterChips();
+  updateSubtitle();
+  scrollToInitialFocus();
+  if (state.activeId) openThinker(state.activeId);
+}
+
+if (chronologyToggle) {
+  chronologyToggle.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-chronology]");
+    if (button) setChronologyMode(button.dataset.chronology);
+  });
+}
 
 function setViewMode(mode) {
   if (mode !== "lanes" && mode !== "network") return;
@@ -305,6 +440,13 @@ async function loadAll() {
   // the data but hidden from the public timeline/network and all links.
   state.thinkers = thinkers.filter(Boolean).filter((t) => t.display !== false);
   state.thinkers.forEach((t) => state.thinkersById.set(t.id, t));
+  setChronologyMode(chooseInitialChronologyMode(), {
+    // Query/local storage decide the mode; do not rewrite the initial URL or
+    // persistence while simply resolving the data-provided default.
+    persist: false,
+    syncUrl: false,
+    render: false,
+  });
 
   // Set of "<thinker_id>__<work_id>" identifiers for which a full translation
   // markdown lives on disk under data/full_translations/. Used by
@@ -387,9 +529,11 @@ function computeRange() {
   if (!state.thinkers.length) return;
   let lo = Infinity, hi = -Infinity;
   for (const t of state.thinkers) {
-    if (typeof t.dates_low === "number") lo = Math.min(lo, t.dates_low);
-    if (typeof t.dates_low === "number") hi = Math.max(hi, thinkerHigh(t));
+    const chronology = resolveChronology(t);
+    if (typeof chronology.low === "number") lo = Math.min(lo, chronology.low);
+    if (typeof chronology.low === "number") hi = Math.max(hi, chronology.highForLayout);
   }
+  if (!Number.isFinite(lo) || !Number.isFinite(hi)) return;
   state.range.low = Math.floor(lo / 50) * 50 - 50;
   // Snap to the next 50-year tick above hi, then clamp to RANGE_HIGH_MAX.
   const snapped = Math.ceil(hi / 50) * 50 + 50;
@@ -479,7 +623,7 @@ function isThinkerVisible(t) {
 }
 function tierOf(t) {
   if (TIER_1.has(t.id)) return 1;
-  if (t.dates_tier === "oral-tradition-only") return 3;
+  if (resolveChronology(t).tier === "oral-tradition-only") return 3;
   return 2;
 }
 
@@ -600,11 +744,13 @@ function computeLanesLayout() {
   const byLane = new Map();
   for (const t of state.thinkers) {
     if (!isThinkerVisible(t)) continue;
+    const chronology = resolveChronology(t);
+    if (typeof chronology.low !== "number") continue;
     const lane = laneIndex(t.school_color_token);
     if (lane < 0) continue;
-    const xMid = yearToX((t.dates_low + thinkerHigh(t)) / 2);
-    const x1 = yearToX(t.dates_low);
-    const x2 = yearToX(thinkerHigh(t));
+    const xMid = yearToX((chronology.low + chronology.highForLayout) / 2);
+    const x1 = yearToX(chronology.low);
+    const x2 = yearToX(chronology.highForLayout);
     const entry = {
       t, xMid, x1, x2,
       tier: tierOf(t),
@@ -719,7 +865,7 @@ function computeLanesLayout() {
 // Greedy date-ordered placement with lineage gravity + per-school band centroids.
 // Deterministic given the input data. No external libs.
 //
-// For each thinker, in dates_low order:
+// For each thinker, in the active chronology's low-date order:
 //   1. desired y = blend(school-band centroid, mean-y of already-placed lineage_in)
 //   2. step outward in 18 px increments from desired y until no other dot's
 //      bounding box intersects within ± xPad of x.
@@ -727,10 +873,12 @@ function computeLanesLayout() {
 function computeNetworkLayout() {
   state.layout.clear();
   const sorted = [...state.thinkers].sort((a, b) => {
-    const al = (typeof a.dates_low === "number") ? a.dates_low : 0;
-    const bl = (typeof b.dates_low === "number") ? b.dates_low : 0;
+    const aChronology = resolveChronology(a);
+    const bChronology = resolveChronology(b);
+    const al = (typeof aChronology.low === "number") ? aChronology.low : 0;
+    const bl = (typeof bChronology.low === "number") ? bChronology.low : 0;
     if (al !== bl) return al - bl;
-    return ((a.dates_low + thinkerHigh(a)) / 2) - ((b.dates_low + thinkerHigh(b)) / 2);
+    return ((al + aChronology.highForLayout) / 2) - ((bl + bChronology.highForLayout) / 2);
   });
 
   const placed = []; // [{x, y, r, id}]
@@ -743,11 +891,13 @@ function computeNetworkLayout() {
 
   for (const t of sorted) {
     if (!isThinkerVisible(t)) continue;
+    const chronology = resolveChronology(t);
+    if (typeof chronology.low !== "number") continue;
     const tok = t.school_color_token || "proto";
     const tier = tierOf(t);
-    const xMid = yearToX((t.dates_low + thinkerHigh(t)) / 2);
-    const x1 = yearToX(t.dates_low);
-    const x2 = yearToX(thinkerHigh(t));
+    const xMid = yearToX((chronology.low + chronology.highForLayout) / 2);
+    const x1 = yearToX(chronology.low);
+    const x2 = yearToX(chronology.highForLayout);
 
     // Lineage gravity: average y of already-placed predecessors.
     let lineageY = null;
@@ -999,7 +1149,7 @@ function renderDateBars() {
   for (const [, p] of state.layout) {
     const t = p.thinker;
     if (p.barX2 - p.barX1 < 4) continue;
-    if (t.dates_tier === "oral-tradition-only") {
+    if (resolveChronology(t).tier === "oral-tradition-only") {
       const line = document.createElementNS(ns, "line");
       line.setAttribute("class", "date-bar--oral");
       line.setAttribute("x1", p.barX1);
@@ -1136,7 +1286,7 @@ function renderDots() {
     const dot = document.createElement("div");
     dot.className = `thinker-dot thinker-dot--tier-${p.tier} label-${where}`;
     dot.style.setProperty("--label-dy", slot.dy + "px");
-    if (t.dates_tier === "oral-tradition-only") dot.classList.add("thinker-dot--oral");
+    if (resolveChronology(t).tier === "oral-tradition-only") dot.classList.add("thinker-dot--oral");
     dot.dataset.id = t.id;
     dot.dataset.school = t.school_color_token;
     dot.dataset.shade = p.shade;
@@ -2017,12 +2167,13 @@ function renderDetail(t) {
 }
 
 function renderHero(t) {
+  const chronology = resolveChronology(t);
   const tierLabel = {
     "confirmed-from-records": "Dates confirmed (records)",
     "consensus-textual": "Dates by textual consensus",
     "contested": "Dates contested",
     "oral-tradition-only": "Oral tradition only",
-  }[t.dates_tier] || (t.dates_tier || "");
+  }[chronology.tier] || (chronology.tier || "");
   // The pill shows the SCHOOL name(s) only — the parenthetical English
   // *description* (e.g. "(modern dharmic-political revivalism)", "(self-enquiry)")
   // is not part of the pill. Sanskrit terms are glossary-linked where a headword
@@ -2058,7 +2209,7 @@ function renderHero(t) {
         <span class="school-pill">${linkGlossaryText(t.school || "")}${subSchool}</span>
         ${tierLabel ? `<span class="tier-pill">${escape(tierLabel)}</span>` : ""}
       </div>
-      <p class="dates-line">${escape(formatDatesLong(t))}${t.dates_notes ? " · " + md(t.dates_notes) : ""}</p>
+      <p class="dates-line">${escape(formatDatesLong(t, chronology))}${chronology.notes ? " · " + md(chronology.notes) : ""}${chronology.availability.isFallback && (chronology.availability.academic || chronology.availability.traditional) ? " · <span class=\"chronology-fallback\">" + escape(`${chronologyModeLabel()} chronology unavailable; ${chronology.availability.effective === "legacy" ? "legacy" : chronologyModeLabel(chronology.availability.effective)} dates shown`) + "</span>" : ""}</p>
       <div class="thesis">${heroThesisHtml}</div>
       ${heroFootnotes}
     </div>
@@ -4294,24 +4445,26 @@ function renderMarkdown(s) {
     .replace(/^/, "<p>") + "</p>";
 }
 
-// Living thinkers carry dates_high == null: layout extends them to the current
-// year, but display shows an open-ended dash — no fabricated death year.
+// The active chronology resolver preserves open-ended historical records:
+// layout extends them to the current year, but display never fabricates a
+// death year. Copyright classification below deliberately reads legacy author
+// dates and must not depend on this display preference.
 const CURRENT_YEAR = new Date().getFullYear();
-function thinkerHigh(t) { return (typeof t.dates_high === "number") ? t.dates_high : CURRENT_YEAR; }
-function isLiving(t) { return t.dates_high == null && typeof t.dates_low === "number"; }
+function thinkerHigh(t) { return resolveChronology(t).highForLayout; }
+function isLiving(t) { return resolveChronology(t).isLiving; }
 
-function formatDates(t) {
-  if (t.dates_low == null && t.dates_high == null) return "";
+function formatDates(t, chronology = resolveChronology(t)) {
+  if (chronology.low == null && chronology.high == null) return "";
   const fmt = (y) => y < 0 ? `${-y} BCE` : `${y}`;
-  if (isLiving(t)) return `${fmt(t.dates_low)}–`;
-  if (t.dates_low === t.dates_high) return fmt(t.dates_low);
-  return `${fmt(t.dates_low)}–${fmt(t.dates_high)}`;
+  if (chronology.isLiving) return `${fmt(chronology.low)}–`;
+  if (chronology.low === chronology.high) return fmt(chronology.low);
+  return `${fmt(chronology.low)}–${fmt(chronology.high)}`;
 }
-function formatDatesLong(t) {
-  if (t.dates_low == null) return "";
-  const lo = t.dates_low, hi = t.dates_high;
+function formatDatesLong(t, chronology = resolveChronology(t)) {
+  if (chronology.low == null) return "";
+  const lo = chronology.low, hi = chronology.high;
   const fmt = (y) => y < 0 ? `${-y} BCE` : `${y} CE`;
-  if (isLiving(t)) return `${fmt(lo)} – present`;
+  if (chronology.isLiving) return `${fmt(lo)} – present`;
   return lo === hi ? fmt(lo) : `${fmt(lo)} – ${fmt(hi)}`;
 }
 
@@ -4347,7 +4500,12 @@ function setReadingMode(on, opts = {}) {
   // (e.g. the Gītā reading in the Article tab), reading mode should just
   // full-screen that — not hijack to a thinker.
   if (on && !opts.skipAutoOpen && !state.activeId && !panelState.open && state.thinkers.length) {
-    const sorted = [...state.thinkers].sort((a, b) => (a.dates_low + thinkerHigh(a))/2 - (b.dates_low + thinkerHigh(b))/2);
+    const sorted = [...state.thinkers].sort((a, b) => {
+      const aChronology = resolveChronology(a);
+      const bChronology = resolveChronology(b);
+      return (aChronology.low + aChronology.highForLayout) / 2
+        - (bChronology.low + bChronology.highForLayout) / 2;
+    });
     openThinker(sorted[0].id);
   }
 }
@@ -5201,7 +5359,12 @@ document.addEventListener("keydown", (e) => {
 });
 
 function navigateByDate(dir) {
-  const sorted = [...state.thinkers].sort((a, b) => (a.dates_low + thinkerHigh(a))/2 - (b.dates_low + thinkerHigh(b))/2);
+  const sorted = [...state.thinkers].sort((a, b) => {
+    const aChronology = resolveChronology(a);
+    const bChronology = resolveChronology(b);
+    return (aChronology.low + aChronology.highForLayout) / 2
+      - (bChronology.low + bChronology.highForLayout) / 2;
+  });
   const idx = sorted.findIndex((t) => t.id === state.activeId);
   if (idx < 0) return;
   const next = sorted[idx + dir];

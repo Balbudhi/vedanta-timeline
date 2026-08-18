@@ -3163,6 +3163,37 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   color: var(--on-ink);
 }
 
+/* Chronology basis uses the same compact segmented language as the view
+   toggle, while remaining a pair of ordinary toggle buttons rather than tabs:
+   it changes the evidence basis for dates, not the visible application pane. */
+.chronology-toggle {
+  display: inline-flex;
+  align-items: stretch;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--bg);
+}
+.chronology-toggle-btn {
+  background: none;
+  border: 0;
+  padding: 6px 9px;
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--ink);
+  transition: background 140ms ease, color 140ms ease;
+  white-space: nowrap;
+}
+.chronology-toggle-btn + .chronology-toggle-btn { border-left: 1px solid var(--rule); }
+.chronology-toggle-btn:hover { background: var(--bg-warm); }
+.chronology-toggle-btn.is-active {
+  background: var(--ink);
+  color: var(--on-ink);
+}
+
 /* =============================================================
    NETWORK VIEW
    ============================================================= */
@@ -3252,6 +3283,7 @@ body.view-network .lineage-edge { stroke-width: 1.1px; }
 @media (max-width: 720px) {
   /* Replace icon-button text labels with a single condensed control on mobile */
   .view-toggle-btn { padding: 6px 10px; font-size: 11.5px; }
+  .chronology-toggle-btn { padding: 6px 7px; font-size: 10.5px; }
   .network-legend { top: 6px; right: 8px; max-width: min(44vw, 152px); font-size: 10.5px; }
   .network-legend-toggle { padding: 6px 10px; font-size: 11px; }
   .network-legend-list { padding: 2px 8px 8px; }
@@ -3263,6 +3295,10 @@ body.view-network .lineage-edge { stroke-width: 1.1px; }
 @media (max-width: 400px) {
   .topbar { gap: 4px; padding: 0 10px; }
   .view-toggle-btn { padding: 6px 8px; font-size: 11px; }
+  .chronology-toggle-btn { width: 23px; padding: 0; font-size: 0; }
+  .chronology-toggle-btn::before { font-size: 10px; }
+  .chronology-toggle-btn[data-chronology="academic"]::before { content: "A"; }
+  .chronology-toggle-btn[data-chronology="traditional"]::before { content: "T"; }
   .topbar-btn--icon { padding: 6px 6px; }
 }
 
