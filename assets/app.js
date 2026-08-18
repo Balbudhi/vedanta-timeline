@@ -416,7 +416,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "20260818-evidence-gated-v3";
+const DATA_VERSION = "20260818-evidence-gated-v4";
 
 async function loadJSON(path) {
   try {

@@ -26,7 +26,7 @@
   "definition_claims": [
     {
       "id": "reader_definition",
-      "text": "*Māyā* has no single definition across the traditions represented here. A reader should first ask whether a text is using it for appearance, divine power, a causal material principle, or a condition of ignorance.",
+      "text": "The reviewed source packet does not license one universal definition of *māyā*. A reader should first ask what a particular text makes the term do, rather than importing a definition from another school.",
       "claim_kind": "textual",
       "evidence_level": "primary",
       "citations": ["cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18"],
@@ -78,7 +78,7 @@
         },
         {
           "id": "school-diversity",
-          "text": "The wider entry keeps the distinctions visible: some traditions use *māyā* for divine power, some for an explanatory condition of apparent plurality, and some relocate the relevant causal work under *prakṛti*. The question is always what a particular text makes the term do, not whether a reader already knows one universal dictionary definition.",
+      "text": "The two reviewed source packets already show why a universal gloss would mislead: Gauḍapāda describes duality as *māyāmātra*, while Rāmānuja rejects a position in which Brahman becomes the ignorant transmigrator and describes conscious and non-conscious reality as dependent on the inner controller. Further school-specific usages remain a source-review queue, not evidence for a generalization here.",
           "claim_kind": "comparative",
           "evidence_level": "primary",
           "citations": ["cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18", "cite://ramanuja/vedartha-samgraha/§6"],
