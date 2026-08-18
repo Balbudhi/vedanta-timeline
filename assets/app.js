@@ -2217,12 +2217,6 @@ function renderDetail(t) {
 
 function renderHero(t) {
   const chronology = resolveChronology(t);
-  const tierLabel = {
-    "confirmed-from-records": "Dates confirmed (records)",
-    "consensus-textual": "Dates by textual consensus",
-    "contested": "Dates contested",
-    "oral-tradition-only": "Oral tradition only",
-  }[chronology.tier] || (chronology.tier || "");
   // The pill shows the SCHOOL name(s) only — the parenthetical English
   // *description* (e.g. "(modern dharmic-political revivalism)", "(self-enquiry)")
   // is not part of the pill. Sanskrit terms are glossary-linked where a headword
@@ -2279,7 +2273,6 @@ function renderHero(t) {
       ${t.name && t.name !== t.name_iast ? `<p class="romanization">${escape(t.name)}</p>` : ""}
       <div class="meta-row">
         <span class="school-pill">${linkGlossaryText(schoolText)}${subSchool}</span>
-        ${tierLabel ? `<span class="tier-pill">${escape(tierLabel)}</span>` : ""}
       </div>
       <div class="chronology-summary" aria-label="Academic and traditional chronology evidence">
         ${chronologyPill(academicChronology)}
