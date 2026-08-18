@@ -2238,12 +2238,27 @@ function renderHero(t) {
   // the hero block; engaged-works cards each start their own counter so
   // numbering does not balloon across the whole entry.
   const heroCtr = { n: 0 };
-  const heroRendered = numberCitations(
-    md(t.core_thesis || "Core thesis: not yet written."),
-    heroCtr,
-  );
-  const heroThesisHtml = heroRendered.html;
-  const heroFootnotes = renderFootnoteList(heroRendered.footnotes);
+  const structuredClaims = t.editorial_contract === "v1" && Array.isArray(t.intro_claims)
+    ? t.intro_claims.filter((claim) => claim && claim.status !== "pending-acquisition" && claim.status !== "private-rights-restricted")
+    : [];
+  let heroThesisHtml = "";
+  let heroFootnotes = "";
+  if (structuredClaims.length) {
+    const footnotes = [];
+    const claims = structuredClaims.map((claim) => {
+      const cites = (claim.citations || []).map((cite) => `cite://${cite.replace(/^cite:\/\//, "")}`);
+      const citationTail = cites.length ? ` [${cites.join("; ")}]` : "";
+      const rendered = numberCitations(md(`${claim.text}${citationTail}`), heroCtr);
+      footnotes.push(...rendered.footnotes);
+      return `<p class="thesis-claim thesis-claim--${escape(claim.claim_kind || "textual")}">${rendered.html}</p>`;
+    }).join("");
+    heroThesisHtml = `<div class="thesis-claims">${claims}</div>`;
+    heroFootnotes = renderFootnoteList(footnotes);
+  } else {
+    const heroRendered = numberCitations(md(t.core_thesis || "Core thesis: not yet written."), heroCtr);
+    heroThesisHtml = heroRendered.html;
+    heroFootnotes = renderFootnoteList(heroRendered.footnotes);
+  }
   const chronologyInfo = (mode) => {
     const record = t?.chronology?.variants?.[mode] || null;
     const isSelected = state.chronologyMode === mode;
@@ -3290,8 +3305,23 @@ function openGlossary(termKey, anchorEl, opts) {
     // One footnote counter for the entire body so [1] [2] … is continuous
     // across the invariant definition, per-school rows, and translator note.
     const popCtr = { n: 0 };
-    const invariantR = numberCitations(md(entry.invariant_definition || ""), popCtr);
-    const allFootnotes = invariantR.footnotes.slice();
+    const definitionClaims = entry.editorial_contract === "v1" && Array.isArray(entry.definition_claims)
+      ? entry.definition_claims.filter((claim) => claim && claim.status !== "pending-acquisition" && claim.status !== "private-rights-restricted")
+      : [];
+    const allFootnotes = [];
+    const invariantHtml = definitionClaims.length
+      ? definitionClaims.map((claim) => {
+        const cites = (claim.citations || []).map((cite) => `cite://${cite.replace(/^cite:\/\//, "")}`);
+        const citationTail = cites.length ? ` [${cites.join("; ")}]` : "";
+        const rendered = numberCitations(md(`${claim.text}${citationTail}`), popCtr);
+        allFootnotes.push(...rendered.footnotes);
+        return `<p class="gp-claim gp-claim--${escape(claim.claim_kind || "textual")}">${rendered.html}</p>`;
+      }).join("")
+      : (() => {
+        const rendered = numberCitations(md(entry.invariant_definition || ""), popCtr);
+        allFootnotes.push(...rendered.footnotes);
+        return rendered.html;
+      })();
     // Skip placeholder rows (a school where the term doesn't apply, or whose
     // loci we haven't sourced yet) — internal state, not for readers.
     const isPlaceholderDef = (t) => {
@@ -3378,7 +3408,7 @@ function openGlossary(termKey, anchorEl, opts) {
       ${heading}
       ${entry.literal ? `<div class="gp-literal">Literally: <em>${inlineMarkdown(entry.literal)}</em></div>` : ""}
       ${cognatesBlock}
-      <div class="gp-invariant"><span class="gp-label">${entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantR.html}</div></div>
+      <div class="gp-invariant"><span class="gp-label">${definitionClaims.length ? "Reader orientation" : entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantHtml}</div></div>
       ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
       ${historyBlock}
       ${translatorNote}

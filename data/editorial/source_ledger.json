@@ -19,6 +19,61 @@
         "advaita"
       ],
       "notes": "This ledger record identifies the local witness and its public citation namespace. It does not by itself certify every translation or interpretation derived from the witness."
+    },
+    {
+      "id": "ramanuja-vedartha-samgraha-gretil",
+      "title_iast": "Vedārtha-Saṃgraha",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/vedanta/ramanuja_vedartha_sangraha.txt",
+      "witness": "Local GRETIL transcription of sa_rAmAnuja-vedArthasaMgraha.xml; the local header does not identify the underlying print edition.",
+      "rights_status": "public-witness-under-review",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://ramanuja/vedartha-samgraha/"
+      ],
+      "review_areas": [
+        "ramanuja",
+        "atman",
+        "maya",
+        "vishishtadvaita"
+      ],
+      "notes": "The current public witness supports the cited opening sections. Claims beyond its verified locus remain separately qualified."
+    },
+    {
+      "id": "nagarjuna-mmk-gretil",
+      "title_iast": "Mūla-Madhyamaka-Kārikā",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/buddhist/nagarjuna_mula_madhyamaka_karika.txt",
+      "witness": "GRETIL electronic text of Nāgārjuna's Mūlamadhyamakakārikā, input by Douglas Bachman and revised by Richard Mahoney.",
+      "rights_status": "public-witness-under-review",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://nagarjuna/mula-madhyamaka-karika/"
+      ],
+      "review_areas": [
+        "nagarjuna",
+        "atman",
+        "maya",
+        "madhyamaka"
+      ],
+      "notes": "The local reader dossier covers MMK 1, 18, 24, and 25. Other works traditionally or academically ascribed to Nāgārjuna require their own source records."
+    },
+    {
+      "id": "isvarakrsna-samkhya-karika-witness",
+      "title_iast": "Sāṅkhya-Kārikā",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/comparator/isvarakrsna_samkhya_karika.txt",
+      "witness": "Local Sanskrit witness for Īśvarakṛṣṇa's Sāṅkhya-Kārikā.",
+      "rights_status": "public-witness-under-review",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://isvarakrsna/sankhya-karika/"
+      ],
+      "review_areas": [
+        "prakrti",
+        "samkhya"
+      ],
+      "notes": "The ledger record is limited to the local witness and cited passages; it does not settle disputed chronology or commentarial attribution."
     }
   ]
 }

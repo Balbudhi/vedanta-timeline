@@ -14,6 +14,37 @@
     "māyāvādin",
     "Maya"
   ],
+  "editorial_contract": "v1",
+  "source_record_ids": [
+    "gaudapada-mandukya-karika-apate-gretil",
+    "ramanuja-vedartha-samgraha-gretil"
+  ],
+  "definition_claims": [
+    {
+      "id": "reader_definition",
+      "text": "*Māyā* has no single definition across the traditions represented here. A reader should first ask whether a text is using it for appearance, divine power, a causal material principle, or a condition of ignorance.",
+      "claim_kind": "textual",
+      "evidence_level": "primary",
+      "citations": ["cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18"],
+      "status": "verified"
+    },
+    {
+      "id": "textual_function",
+      "text": "In Gauḍapāda's argument, duality is described as *māyāmātra* and the unborn as differentiated by *māyā*, not in reality. The term there bears the weight of an account of apparent multiplicity and non-origination.",
+      "claim_kind": "interpretive",
+      "evidence_level": "primary",
+      "citations": ["cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18", "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21"],
+      "status": "verified"
+    },
+    {
+      "id": "school_reading_or_limit",
+      "text": "Rāmānuja's opening polemic rejects the account on which Brahman itself becomes the ignorant transmigrator; his positive account makes the world-order dependent on an inner-controlling Brahman. It is therefore misleading to export the Advaitin technical sense of *māyā* into this framework.",
+      "claim_kind": "comparative",
+      "evidence_level": "primary",
+      "citations": ["cite://ramanuja/vedartha-samgraha/§2", "cite://ramanuja/vedartha-samgraha/§6"],
+      "status": "verified"
+    }
+  ],
   "invariant_definition": "*Māyā* has no single pan-Indian meaning. The thinnest common core is this: it names a power or condition through which manifest plurality is produced, sustained, or experienced. Beyond that, the term becomes school-specific. In Vedic and purāṇic usage it can mean divine skill, wondrous power, or formative capacity. In Advaita it becomes the cosmic register of *avidyā*, the principle by which the non-dual appears as manifold without undergoing real modification. In realist Vedāntas it names a real divine power, often identified with *prakṛti* or with the Lord's external energy. In Trika it is not illusion at all but a real self-contractive phase of Śiva's *svātantrya*, linked to the *kañcuka* analysis and the production of differentiated subjects and objects. The term therefore sits amid disputes over causality, *pariṇāma* versus *vivarta*, the status of the world, and the relation between God and manifestation. In practice *māyā* explains embodiment, limitation, and cosmic display, but what sort of explanation this is depends entirely on the metaphysics of the school using it.",
   "school_framing": {
     "framing_status": "mixed",

@@ -25,6 +25,38 @@
     "ātmānam",
     "ātmanā"
   ],
+  "editorial_contract": "v1",
+  "source_record_ids": [
+    "gaudapada-mandukya-karika-apate-gretil",
+    "ramanuja-vedartha-samgraha-gretil",
+    "nagarjuna-mmk-gretil"
+  ],
+  "definition_claims": [
+    {
+      "id": "reader_definition",
+      "text": "*Ātman* is the word through which many Brāhmaṇical texts ask what the self is once it is not identified with body, sense, or passing cognition. It should not be treated as a neutral equivalent of every tradition's word for person, consciousness, or subject.",
+      "claim_kind": "textual",
+      "evidence_level": "primary",
+      "citations": ["cite://ramanuja/vedartha-samgraha/§4"],
+      "status": "verified"
+    },
+    {
+      "id": "textual_function",
+      "text": "For Gauḍapāda, the self disclosed as *turīya* is unborn and non-dual; the pot-space comparison denies that the plurality of *jīvas* divides or modifies that Self.",
+      "claim_kind": "interpretive",
+      "evidence_level": "primary",
+      "citations": ["cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18", "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7"],
+      "status": "verified"
+    },
+    {
+      "id": "school_reading_or_limit",
+      "text": "Rāmānuja instead treats the individual self as real and body-distinct while locating it within the dependence of the inner-controller relation. Nāgārjuna's analysis tests whether a self can be established either as identical with or apart from the appropriated factors. These are not interchangeable doctrines under one generic label.",
+      "claim_kind": "comparative",
+      "evidence_level": "primary",
+      "citations": ["cite://ramanuja/vedartha-samgraha/§4", "cite://ramanuja/vedartha-samgraha/§6", "cite://nagarjuna/mula-madhyamaka-karika/18.4", "cite://nagarjuna/mula-madhyamaka-karika/18.7"],
+      "status": "verified"
+    }
+  ],
   "invariant_definition": "The self in the strict sense: not body, not sense-organ, not *manas*, not *ahaṅkāra*, but the subject for whom experience occurs and to whom ownership is ordinarily ascribed. The term carries a large technical burden. Upaniṣadic inquiry approaches it through negation (*neti neti*), through the three-state analysis of waking, dream, and deep sleep, and through the witness register later called *sākṣin*. Vedāntic debates then ask whether that witnessing self is identical with *brahman*, a mode of *brahman*, or an eternally distinct knower. The term is also sharpened polemically by nearby positions: Sāṅkhya's *puruṣa*, Nyāya's enduring self as substrate of cognition, and the Buddhist denial that any permanent *ātman* can be found behind the five aggregates. In practice, *ātman* is the term one reaches for when the question is not merely who lives this embodied life, but what the referent of 'I' really is once misidentification with body, role, and psychophysical process has been corrected.",
   "school_framing": {
     "framing_status": "mixed",

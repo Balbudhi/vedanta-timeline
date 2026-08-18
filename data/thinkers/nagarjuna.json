@@ -40,6 +40,56 @@
       "note": "Madhva's anti-Buddhist polemic is sustained and explicit. The Tattva-Saṅkhyāna and the Māyāvāda-Khaṇḍana / Mithyātvānumāna-Khaṇḍana / Upādhi-Khaṇḍana cluster treat Mādhyamaka as the doctrinal extreme of the māyā-line: the world's reality cannot be qualified into a middle category between sat and asat without collapsing into the śūnyavādin conclusion. The Vedāntic project, on Madhva's reading, must hold the world as svatantra-paratantra-tattva and refuse the catuṣkoṭi-style refusal of all four positions on any matter of ontology."
     }
   ],
+  "editorial_contract": "v1",
+  "source_record_ids": [
+    "nagarjuna-mmk-gretil"
+  ],
+  "intro_claims": [
+    {
+      "id": "identity_or_context",
+      "text": "Nāgārjuna's *Mūla-Madhyamaka-Kārikā* is an argumentative examination of how things are said to arise, persist, and cease. It begins by refusing the four proposed models of origination—from self, from another, from both, or without cause.",
+      "claim_kind": "textual",
+      "evidence_level": "primary",
+      "citations": [
+        "cite://nagarjuna/mula-madhyamaka-karika/1.1"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "text_and_problem",
+      "text": "This is not a second theory of a hidden substance. The analysis asks whether any phenomenon has *svabhāva*—a self-establishing nature that would make it independent of conditions—and presses the consequences of treating such a nature as either identical with, different from, or otherwise separable from its conditions.",
+      "claim_kind": "interpretive",
+      "evidence_level": "primary",
+      "citations": [
+        "cite://nagarjuna/mula-madhyamaka-karika/1.1",
+        "cite://nagarjuna/mula-madhyamaka-karika/18.4"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "argument_or_method",
+      "text": "The self is tested by the same method: a self cannot simply be identified with its appropriated factors, but neither can it be established independently of them. The point is to loosen reification, not to exchange one ordinary object for an ineffable metaphysical object.",
+      "claim_kind": "interpretive",
+      "evidence_level": "primary",
+      "citations": [
+        "cite://nagarjuna/mula-madhyamaka-karika/18.4",
+        "cite://nagarjuna/mula-madhyamaka-karika/18.7"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "philosophical_consequence",
+      "text": "The central formulation identifies dependent arising with emptiness and the middle way; the two truths preserve the difference between ordinary practice and ultimate analysis. Nirvāṇa is consequently not introduced as a separately existing escape-object, but examined under the same refusal to reify.",
+      "claim_kind": "interpretive",
+      "evidence_level": "primary",
+      "citations": [
+        "cite://nagarjuna/mula-madhyamaka-karika/24.8",
+        "cite://nagarjuna/mula-madhyamaka-karika/24.18",
+        "cite://nagarjuna/mula-madhyamaka-karika/25.19"
+      ],
+      "status": "verified"
+    }
+  ],
   "core_thesis": "Nāgārjuna's middle way is the position that no entity bears *svabhāva* (own-being): everything that arises does so in dependence on conditions, and dependent arising is itself what *śūnyatā* (emptiness) names. *Yaḥ pratītya-samutpādaḥ śūnyatāṃ tāṃ pracakṣmahe* (MMK 24.18) is the central identification: emptiness is not a metaphysical reality behind appearances but the very fact of conditioned co-arising. The dialectical instrument is the *catuṣkoṭi* (four-cornered logic): for any candidate metaphysical thesis P, Nāgārjuna refutes (i) P, (ii) ¬P, (iii) P ∧ ¬P, and (iv) ¬(P ∧ ¬P). The refutation is *prasaṅga*-style — drawing out the unwanted consequences of each corner — and produces no positive thesis of its own; this is the famous *na me kācana pratijñā asti* of the *Vigraha-Vyāvartanī*. The *saṃvṛti-satya* / *paramārtha-satya* distinction (MMK 24.8–10) is the load-bearing apparatus that lets ordinary discourse remain intact while ultimate analysis dissolves every posited entity. The Vedāntic engagement is structural: Advaita's *vyāvahārika* / *pāramārthika* scheme is formally homologous, which is exactly what makes the *pracchanna-bauddha* charge against Śaṅkara stick or fail.",
   "engaged_works": [
     {

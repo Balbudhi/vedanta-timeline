@@ -16,6 +16,53 @@
     "sankara"
   ],
   "lineage_polemical": [],
+  "editorial_contract": "v1",
+  "source_record_ids": [
+    "gaudapada-mandukya-karika-apate-gretil"
+  ],
+  "intro_claims": [
+    {
+      "id": "identity_or_context",
+      "text": "Gauḍapāda is known philosophically through the *Māṇḍūkya-Kārikā*, a four-part verse work that develops the Māṇḍūkya Upaniṣad's inquiry into waking, dream, deep sleep, and the fourth (*turīya*).",
+      "claim_kind": "textual",
+      "evidence_level": "primary",
+      "citations": [
+        "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "text_and_problem",
+      "text": "The decisive distinction is not simply between ordinary consciousness and sleep: *prājña* still carries the seed-condition of sleep, whereas *turīya* is presented as unborn, sleepless, dreamless, and non-dual.",
+      "claim_kind": "interpretive",
+      "evidence_level": "primary",
+      "citations": [
+        "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "argument_or_method",
+      "text": "His *vaitathya* argument tests waking experience against dream: the two are said to share a parity of differentiations, and what is absent at the beginning and end is not thereby secured as real in the middle.",
+      "claim_kind": "interpretive",
+      "evidence_level": "primary",
+      "citations": [
+        "cite://gaudapada/mandukya-karika/2.Vaitathya-prakaraṇa.5-6"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "philosophical_consequence",
+      "text": "The resulting doctrine of non-origination (*ajāti*) is not a claim that an entity once born later disappears: the text argues that an unborn and deathless reality could not become differentiated or mortal without ceasing to be what it is. Its pot-space comparison consequently denies that individual selves are parts or modifications of the Self.",
+      "claim_kind": "interpretive",
+      "evidence_level": "primary",
+      "citations": [
+        "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21",
+        "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7"
+      ],
+      "status": "verified"
+    }
+  ],
   "core_thesis": "Gauḍapāda's central thesis is *ajāti-vāda*: the doctrine of non-origination ([Māṇḍūkya-Kārikā 3.48, 4.71](cite://gaudapada/mandukya-karika/3.48, 4.71)). He argues it within a verse-exegesis of the Māṇḍūkya-Upaniṣad's four-fold *ātman* — *vaiśvānara* (waking), *taijasa* (dream), *prājña* (deep sleep), *turīya* (the fourth) (Māṇḍūkya-Upaniṣad 3–7; Māṇḍūkya-Kārikā 1.1–10). *Turīya* corresponds to the silent *amātra* fourth of *Oṃ* and is the non-dual ground (Māṇḍūkya-Upaniṣad 12; Māṇḍūkya-Kārikā 1.16–18). The first major argumentative move is the *vaitathya* (unreality) argument of *prakaraṇa* 2: the *jāgrat* and *svapna* states are epistemically symmetrical because both are mind-projected, and what is not present at the beginning and end is also not present in the middle ([Māṇḍūkya-Kārikā 2.5–6](cite://gaudapada/mandukya-karika/2.5-6)). *Turīya* alone is *advaita*, free of cause and effect, *ajaḥ* (unborn) ([Māṇḍūkya-Kārikā 3.31–37](cite://gaudapada/mandukya-karika/3.31-37)). The second major move is causal: in [*Māṇḍūkya-Kārikā* 3.19–21](cite://gaudapada/mandukya-karika/3.19-21) he argues that if the unborn deathless were really differentiated, it would have to become mortal — which is impossible. Hence [*Māṇḍūkya-Kārikā* 4](cite://gaudapada/mandukya-karika/4).71's conclusion that no *jīva* is ever truly born. The third move is the *alāta-cakra* analogy: apparent multiplicity is the trace of an unmoving consciousness, as a firebrand whirled in a circle traces a fiery ring that has no real existence ([Māṇḍūkya-Kārikā 4.47–52](cite://gaudapada/mandukya-karika/4.47-52)). Mahāyāna analytic vocabulary (*catuṣkoṭi*, the dialectic of origination) appears throughout ([Māṇḍūkya-Kārikā 4.83–84](cite://gaudapada/mandukya-karika/4.83-84)), but the unborn ground here is *ātman*-*brahman*, positively asserted ([Māṇḍūkya-Kārikā 3.32–33](cite://gaudapada/mandukya-karika/3.32-33)), not the Mādhyamika *śūnya*. Liberation is *pratibodha* — recognition of one's identity with the unborn fourth — not a process of becoming ([Māṇḍūkya-Kārikā 1.16; 4.96–98](cite://gaudapada/mandukya-karika/1.16; 4.96-98)).",
   "engaged_works": [
     {
