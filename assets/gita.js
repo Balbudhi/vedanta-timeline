@@ -10,7 +10,9 @@
      English below highlights. Cards open on CLICK only (never hover).
    - Voices (ācāryas · Aurobindo · other traditions) are multi-select and
      colour-coded; pick several at once.
-   IAST only on screen.
+   Mūla Sanskrit is shown source-script first, then IAST pada-pāṭha, then
+   literal English. Commentary follows the same order when its source-script
+   data is available.
    ============================================================= */
 (function () {
 "use strict";
@@ -197,6 +199,12 @@ function hasAudio() { return !!(AUDIO_MANIFEST && Array.isArray(AUDIO_MANIFEST.v
 function renderVerse(v, vb) {
   const sp = speakerLabel(v.speaker);
   const muIx = interactiveBlock(v.words, v.english);
+  const grammar = v.grammar && (v.grammar.karakaSummary || v.grammar.verbalModality)
+    ? `<details class="verse-grammar"><summary>Word-by-word and grammar</summary>
+        ${v.grammar.karakaSummary ? `<p><strong>Relations:</strong> ${esc(v.grammar.karakaSummary)}</p>` : ""}
+        ${v.grammar.verbalModality ? `<p><strong>Verbal form:</strong> ${esc(v.grammar.verbalModality)}</p>` : ""}
+      </details>`
+    : "";
   const blocks = (VOICES || []).map(voice => {
     const entry = vb[voice.id];
     if (!entry) return "";
@@ -213,8 +221,9 @@ function renderVerse(v, vb) {
     : "";
   return `<article class="verse" id="v-${esc(v.locus)}">
     <header class="verse-head"><span class="verse-locus">${esc(v.locus)}</span>${sp ? `<span class="verse-speaker">${esc(sp)}</span>` : ""}${playBtn}</header>
-    <div class="verse-sa" lang="sa-Latn">${esc(v.iast).replace(/\n/g, "<br>")}</div>
+    ${v.devanagari ? `<div class="verse-deva" lang="sa-Deva">${esc(v.devanagari).replace(/\n/g, "<br>")}</div>` : ""}
     ${muIx}
+    ${grammar}
     ${blocks ? `<div class="verse-voices">${blocks}</div>` : ""}
   </article>`;
 }
