@@ -57,17 +57,30 @@ function main() {
   const records = [...walk(path.join(ROOT, "data/thinkers")), ...walk(path.join(ROOT, "data/glossary"))]
     .map((file) => ({ file, record: JSON.parse(fs.readFileSync(file, "utf8")) }));
   const report = sources.map((source) => {
-    const impacted = records.filter(({ record }) => citations(record).some((cite) =>
+    const directCitationRecords = records.filter(({ record }) => citations(record).some((cite) =>
       (source.stable_cite_prefixes || []).some((prefix) => cite.startsWith(prefix))
     )).map(({ file, record }) => recordLabel(file, record));
-    return { source_id: source.id, source_path: source.source_path, review_areas: source.review_areas || [], impacted_records: impacted.sort() };
+    const sourceAreas = new Set(source.review_areas || []);
+    const dependencyReviewRecords = records.filter(({ record }) =>
+      (record.editorial_dependencies?.review_areas || []).some((area) => sourceAreas.has(area))
+    ).map(({ file, record }) => recordLabel(file, record));
+    return {
+      source_id: source.id,
+      source_path: source.source_path,
+      review_areas: [...sourceAreas],
+      direct_citation_records: directCitationRecords.sort(),
+      dependency_review_records: dependencyReviewRecords.sort(),
+      impacted_records: [...new Set([...directCitationRecords, ...dependencyReviewRecords])].sort()
+    };
   });
   if (options.json) console.log(JSON.stringify({ changed_paths: options.paths, impacts: report }, null, 2));
   else if (!report.length) console.log("No ledger source matches the supplied changed paths.");
   else for (const item of report) {
     console.log(`\n${item.source_id} (${item.source_path})`);
     console.log(`  review areas: ${item.review_areas.join(", ") || "none declared"}`);
-    console.log(`  affected entries: ${item.impacted_records.join(", ") || "none found"}`);
+    console.log(`  direct citation review: ${item.direct_citation_records.join(", ") || "none found"}`);
+    console.log(`  dependency review: ${item.dependency_review_records.join(", ") || "none declared"}`);
+    console.log(`  total affected entries: ${item.impacted_records.join(", ") || "none found"}`);
   }
 }
 

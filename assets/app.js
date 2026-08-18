@@ -414,7 +414,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "20260818-gaudapada-refinement";
+const DATA_VERSION = "20260818-layered-editorial";
 
 async function loadJSON(path) {
   try {
@@ -2190,12 +2190,54 @@ closeDetail.addEventListener("click", closePanel);
 function renderDetail(t) {
   return [
     renderHero(t),
+    renderProfileSections(t),
     renderLineageBlock(t),
     renderEngagedWorks(t),
     renderOrphanPassages(t),
     renderComparativeBlock(t),
     renderPerspectivesBlock(t),
   ].filter(Boolean).join("");
+}
+
+function renderClaimParagraphs(claims, counter, className) {
+  const footnotes = [];
+  const html = (claims || []).filter((claim) => claim &&
+    claim.status !== "pending-acquisition" && claim.status !== "private-rights-restricted"
+  ).map((claim) => {
+    const cites = (claim.citations || []).map((cite) => `cite://${cite.replace(/^cite:\/\//, "")}`);
+    const citationTail = cites.length ? ` [${cites.join("; ")}]` : "";
+    const rendered = numberCitations(md(`${claim.text || ""}${citationTail}`), counter);
+    footnotes.push(...rendered.footnotes);
+    return `<p class="${className} ${className}--${escape(claim.claim_kind || "textual")}">${rendered.html}</p>`;
+  }).join("");
+  return { html, footnotes };
+}
+
+function renderProfileSections(t) {
+  const sections = Array.isArray(t.argument_sections) ? t.argument_sections : [];
+  const ctr = { n: 0 };
+  const footnotes = [];
+  let html = sections.map((section) => {
+    const rendered = renderClaimParagraphs(section.claims, ctr, "argument-claim");
+    footnotes.push(...rendered.footnotes);
+    if (!rendered.html) return "";
+    return `<section class="profile-section profile-section--${escape(section.kind || "argument")}">
+      <h3 class="section-head">${escape(section.title || "Argument")}</h3>
+      <div class="profile-section-body">${rendered.html}</div>
+    </section>`;
+  }).filter(Boolean).join("");
+  // v1 is an additive migration format. Its orientation is useful, but it
+  // may not silently replace the legacy analysis before that analysis has
+  // been broken into verified argument sections.
+  if (!html && t.editorial_contract === "v1" && t.core_thesis) {
+    const rendered = numberCitations(md(t.core_thesis), ctr);
+    footnotes.push(...rendered.footnotes);
+    html = `<section class="profile-section profile-section--legacy-depth">
+      <h3 class="section-head">Philosophical development</h3>
+      <div class="profile-section-body"><p class="argument-claim">${rendered.html}</p></div>
+    </section>`;
+  }
+  return html ? `${html}${renderFootnoteList(footnotes)}` : "";
 }
 
 function renderHero(t) {
@@ -2221,22 +2263,15 @@ function renderHero(t) {
   // the hero block; engaged-works cards each start their own counter so
   // numbering does not balloon across the whole entry.
   const heroCtr = { n: 0 };
-  const structuredClaims = t.editorial_contract === "v1" && Array.isArray(t.intro_claims)
+  const structuredClaims = ["v1", "v2"].includes(t.editorial_contract) && Array.isArray(t.intro_claims)
     ? t.intro_claims.filter((claim) => claim && claim.status !== "pending-acquisition" && claim.status !== "private-rights-restricted")
     : [];
   let heroThesisHtml = "";
   let heroFootnotes = "";
   if (structuredClaims.length) {
-    const footnotes = [];
-    const claims = structuredClaims.map((claim) => {
-      const cites = (claim.citations || []).map((cite) => `cite://${cite.replace(/^cite:\/\//, "")}`);
-      const citationTail = cites.length ? ` [${cites.join("; ")}]` : "";
-      const rendered = numberCitations(md(`${claim.text}${citationTail}`), heroCtr);
-      footnotes.push(...rendered.footnotes);
-      return `<p class="thesis-claim thesis-claim--${escape(claim.claim_kind || "textual")}">${rendered.html}</p>`;
-    }).join("");
-    heroThesisHtml = `<div class="thesis-claims">${claims}</div>`;
-    heroFootnotes = renderFootnoteList(footnotes);
+    const rendered = renderClaimParagraphs(structuredClaims, heroCtr, "thesis-claim");
+    heroThesisHtml = `<div class="thesis-claims">${rendered.html}</div>`;
+    heroFootnotes = renderFootnoteList(rendered.footnotes);
   } else {
     const heroRendered = numberCitations(md(t.core_thesis || "Core thesis: not yet written."), heroCtr);
     heroThesisHtml = heroRendered.html;
@@ -3293,7 +3328,7 @@ function openGlossary(termKey, anchorEl, opts) {
     // One footnote counter for the entire body so [1] [2] … is continuous
     // across the invariant definition, per-school rows, and translator note.
     const popCtr = { n: 0 };
-    const definitionClaims = entry.editorial_contract === "v1" && Array.isArray(entry.definition_claims)
+    const definitionClaims = ["v1", "v2"].includes(entry.editorial_contract) && Array.isArray(entry.definition_claims)
       ? entry.definition_claims.filter((claim) => claim && claim.status !== "pending-acquisition" && claim.status !== "private-rights-restricted")
       : [];
     const allFootnotes = [];
@@ -3310,6 +3345,19 @@ function openGlossary(termKey, anchorEl, opts) {
         allFootnotes.push(...rendered.footnotes);
         return rendered.html;
       })();
+    const expositionSections = entry.editorial_contract === "v2" && Array.isArray(entry.exposition_sections)
+      ? entry.exposition_sections : [];
+    let expositionHtml = expositionSections.map((section) => {
+      const rendered = renderClaimParagraphs(section.claims, popCtr, "gp-exposition-claim");
+      allFootnotes.push(...rendered.footnotes);
+      if (!rendered.html) return "";
+      return `<section class="gp-exposition"><span class="gp-label">${escape(section.title || "Conceptual exposition")}</span>${rendered.html}</section>`;
+    }).filter(Boolean).join("");
+    if (!expositionHtml && entry.editorial_contract === "v1" && entry.invariant_definition) {
+      const rendered = numberCitations(md(entry.invariant_definition), popCtr);
+      allFootnotes.push(...rendered.footnotes);
+      expositionHtml = `<section class="gp-exposition"><span class="gp-label">Conceptual exposition</span><div>${rendered.html}</div></section>`;
+    }
     // Skip placeholder rows (a school where the term doesn't apply, or whose
     // loci we haven't sourced yet) — internal state, not for readers.
     const isPlaceholderDef = (t) => {
@@ -3397,6 +3445,7 @@ function openGlossary(termKey, anchorEl, opts) {
       ${entry.literal ? `<div class="gp-literal">Literally: <em>${inlineMarkdown(entry.literal)}</em></div>` : ""}
       ${cognatesBlock}
       <div class="gp-invariant"><span class="gp-label">${definitionClaims.length ? "Reader orientation" : entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantHtml}</div></div>
+      ${expositionHtml}
       ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
       ${historyBlock}
       ${translatorNote}

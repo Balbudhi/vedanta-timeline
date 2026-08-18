@@ -59,6 +59,24 @@
       "notes": "The local reader dossier covers MMK 1, 18, 24, and 25. Other works traditionally or academically ascribed to Nāgārjuna require their own source records."
     },
     {
+      "id": "nagarjuna-vigraha-vyavartani-witness",
+      "title_iast": "Vigraha-Vyāvartanī",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/buddhist/nagarjuna_vigraha_vyavartani.txt",
+      "witness": "Local Sanskrit witness; only citations individually marked verified in the citation index may support public claims.",
+      "rights_status": "public-witness-under-review",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://nagarjuna/vigraha-vyavartani/"
+      ],
+      "review_areas": [
+        "nagarjuna",
+        "prasanga",
+        "pramana"
+      ],
+      "notes": "Some existing Vigraha-Vyāvartanī citation entries are explicitly unverified. They must remain unavailable for v2 public claims until a witness review resolves them."
+    },
+    {
       "id": "isvarakrsna-samkhya-karika-witness",
       "title_iast": "Sāṅkhya-Kārikā",
       "source_level": "primary",

@@ -35,8 +35,8 @@ function main() {
   }
   const report = {
     generated_by: "scripts/report_editorial_readiness.js",
-    profile_contract_migration: thinkers.filter(({ record }) => record.editorial_contract !== "v1").map(({ record, path: file }) => ({ id: record.id, file })),
-    encyclopedia_contract_migration: glossary.filter(({ record }) => record.editorial_contract !== "v1").map(({ record, path: file }) => ({ term_key: record.term_key, file })),
+    profile_contract_migration: thinkers.filter(({ record }) => !["v1", "v2"].includes(record.editorial_contract)).map(({ record, path: file }) => ({ id: record.id, file })),
+    encyclopedia_contract_migration: glossary.filter(({ record }) => !["v1", "v2"].includes(record.editorial_contract)).map(({ record, path: file }) => ({ term_key: record.term_key, file })),
     primary_texts_not_in_public_corpus: textsNotInCorpus,
   };
   if (json) return console.log(JSON.stringify(report, null, 2));

@@ -1074,6 +1074,11 @@ body.is-reading-mode .dp-min { display: inline-flex; }
 }
 .thesis-claims { display: grid; gap: 11px; }
 .thesis-claim { margin: 0; }
+.profile-section { margin: 32px 0; }
+.profile-section .section-head { margin-top: 0; }
+.profile-section-body { font-family: var(--serif); font-size: 14.5px; line-height: 1.6; color: var(--ink); }
+.argument-claim { margin: 0 0 12px; }
+.argument-claim:last-child { margin-bottom: 0; }
 
 .section-head {
   font-family: var(--sans);
@@ -1768,6 +1773,8 @@ body.is-reading-mode .recite-bar {
 .glossary-popover .gp-perschool { border-top: 1px solid var(--rule); padding-top: 10px; }
 .glossary-popover .gp-claim { margin: 0 0 9px; }
 .glossary-popover .gp-claim:last-child { margin-bottom: 0; }
+.glossary-popover .gp-exposition { border-top: 1px solid var(--rule); padding-top: 10px; margin: 14px 0; }
+.glossary-popover .gp-exposition-claim { margin: 8px 0; }
 .glossary-popover .gp-framing {
   margin: 6px 0 12px 0;
   padding: 8px 10px;

@@ -9,7 +9,9 @@ mini-encyclopedia of every doctrine nearby.
 
 ## Core thesis
 
-Target: 180–320 words, normally three to five short paragraphs.
+Target: 180–320 words for the orientation, normally three to five short
+paragraphs, followed by two or more short argument sections where the source
+packet can support them.
 
 1. Name the author and historical/intellectual location.
 2. State the distinctive philosophical or exegetical contribution.
@@ -18,6 +20,12 @@ Target: 180–320 words, normally three to five short paragraphs.
 5. State a traditional succession separately from the philosophical argument;
    do not draw a direct teacher edge when an intermediate teacher is known.
 6. Use `cite://` links for claims supported by public engaged sources.
+
+The orientation is a map, not a substitute for the argument. Preserve the
+philosophical development of a well-sourced existing entry by migrating it
+into titled, readable sections. If a former claim cannot survive source review,
+record it in `legacy_coverage.omitted_claims` with the reason; do not quietly
+make the profile thinner.
 
 Do not use ranking language (“greatest,” “unmatched,” “most important”), turn a
 school affiliation into a philosophical claim, or merge a modern scholar's
@@ -64,8 +72,11 @@ Every source-dependent statement must be legible as one of:
 1. Read the source record and cited locus before editing prose.
 2. Draft core thesis and each work summary against the target shape.
 3. Run the thinker-content report and relevant citation/source checks.
-4. Send the changed entry to an independent source/grammar reviewer.
-5. Mark `reviewed` only after the evidence and labels match the rendered text.
+4. Run `node scripts/report_content_impacts.js --changed <source-path>` for
+   each new or changed witness; inspect both direct citation and dependency
+   review queues.
+5. Send the changed entry to an independent source/grammar reviewer.
+6. Mark `reviewed` only after the evidence and labels match the rendered text.
 
 ## Citation interaction
 

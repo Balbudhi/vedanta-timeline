@@ -48,7 +48,7 @@
       "locus_short": "MK 1.16-18",
       "sanskrit_iast": "anādimāyayā supto yadā jīvaḥ prabudhyate\najam anidram asvapnam advaitaṃ budhyate tadā //\n\nprapañco yadi vidyeta nivarteta na saṃśayaḥ\nmāyāmātram idaṃ dvaitam advaitaṃ paramārthataḥ //\n\nvikalpo vinivarteta kalpito yadi kenacit\nupadeśād ayaṃ vādo jñāte dvaitaṃ na vidyate //",
       "english_close": "When the jīva, asleep through beginningless māyā, awakens, then it comes to know the unborn, sleepless, dreamless non-dual. If the manifold world were real, it would cease; there is no doubt. This duality is mere māyā; non-duality is the ultimate reality. Conceptual construction would cease, if it had been projected by anyone; this teaching is by way of instruction. When That is known, duality is not found.",
-      "source": "thinker_jsons/gaudapada.json#key_passages[0]",
+      "source": "data/sources/sanskrit/vedanta/full_corpus/gaudapada_mandukya_karika_gretil.txt#Āgama-prakaraṇa.16-18",
       "verified": true
     },
     "gaudapada/mandukya-karika/2.Vaitathya-prakaraṇa.5-6": {
@@ -5788,7 +5788,7 @@
       "sanskrit_iast": "aśeṣacidacidvastuviśeṣiṇe śeṣaśāyine\nnirmalānantakalyāṇanidhaye viṣṇave namaḥ",
       "english_close": "Salutation to Viṣṇu, who is qualified by the totality of conscious and non-conscious entities, who reclines upon Śeṣa. Salutation to him who is the treasury of stainless and infinite auspicious qualities.",
       "source": "full_translations/ramanuja__vedartha-samgraha.md#§1",
-      "verified": "unknown"
+      "verified": true
     },
     "ramanuja/vedartha-samgraha/§2": {
       "thinker_id": "ramanuja",
@@ -5798,7 +5798,7 @@
       "sanskrit_iast": "paraṃ brahmaivājñaṃ bhramaparigataṃ saṃsarati\ntatparopādhyālīḍhaṃ vivaśam aśubhasyāspadam iti\nśrutinyāyāpetaṃ jagati vitataṃ mohanam idaṃ\ntamo yenāpāstaṃ sa hi vijayate yāmunamuniḥ",
       "english_close": "\"The supreme Brahman itself, as ignorant, seized by error, transmigrates; it is overrun by adjuncts other than itself, helpless, the abode of evil\" such is this delusion, spread throughout the world, devoid of scripture and reasoning. The sage Yāmuna, by whom that darkness was driven away, he indeed triumphs.",
       "source": "full_translations/ramanuja__vedartha-samgraha.md#§2",
-      "verified": "unknown"
+      "verified": true
     },
     "ramanuja/vedartha-samgraha/§3": {
       "thinker_id": "ramanuja",
@@ -5808,7 +5808,7 @@
       "sanskrit_iast": "aśeṣajagaddhitānuśāsanaśrutinikaraśirasi samadhigato 'yam arthaḥ jīvaparamātmayāthātmyajñānapūrvakavarṇāśramadharmetikartavyatākaparamapuruṣacaraṇayugaladhyānārcanapraṇāmādir atyarthapriyas tatprāptiphalaḥ",
       "english_close": "At the head of the mass of scriptural texts that instruct for the welfare of the whole world, this meaning has been established: meditation upon, worship of, prostration before, and the like, directed to the pair of feet of the supreme Person, and preceded by knowledge of the true nature of the *jīva* and the supreme Self and by the proper carrying out of the duties of *varṇa* and *āśrama*, are supremely dear to him; and the fruit is the attainment of him.",
       "source": "full_translations/ramanuja__vedartha-samgraha.md#§3",
-      "verified": "unknown"
+      "verified": true
     },
     "ramanuja/vedartha-samgraha/§4": {
       "thinker_id": "ramanuja",
@@ -5818,7 +5818,7 @@
       "sanskrit_iast": "asya jīvātmano 'nādyavidyāsaṃcitapuṇyapāparūpakarmapravāhahetukabrahmādisuranaratiryaksthāvarātmakacaturvidhadehapraveśakṛtatattadabhimānajanitāvarjanīyabhavabhayavidhvaṃsanāya dehātiriktātmasvarūpatatsvabhāvatadantarayāmiparamātmasvarūpatatsvabhāvatadupāsanatatphalabhūtātmasvarūpāvirbhāvapūrvakānavadhikātiśayānandabrahmānubhavajñāpane pravṛttaṃ hi vedāntavākyajātam, tat tvam asi | ayam ātmā brahma | ya ātmani tiṣṭhann ātmano 'ntaro yam ātmā na veda yasyātmā śarīraṃ ya ātmānam antaro yamayati sa ta ātmāntaryāmy amṛtaḥ | eṣa sarvabhūtāntarātmāpahatapāpmā divyo deva eko nārāyaṇaḥ | tam etaṃ vedānuvacanena brāhmaṇā vividiṣanti yajñena dānena tapasānāśakena | brahmavid āpnoti param | tam evaṃ vidvān amṛta iha bhavati nānyaḥ panthā ayanāya vidyata ity ādikam",
       "english_close": "For the destruction of the inescapable fear of becoming, born from the several identifications produced by this individual self's entry into the four kinds of bodies consisting in Brahmā, gods, humans, animals, and immovables, an entry caused by the stream of karmas in the form of merit and demerit accumulated through beginningless ignorance, the whole body of Vedāntic sentences is indeed set in motion to make known: the self's nature as distinct from body; its intrinsic character; the nature of the supreme Self who is its inner controller; that supreme Self's intrinsic character; the worship of him; and the experience of Brahman as limitless and unsurpassed bliss, preceded by the manifestation of the self's own nature that is the fruit of that worship. \"That thou art.\" \"This self is Brahman.\" \"He who stands in the self, who is within the self, whom the self does not know, whose body is the self, who from within controls the self, he is thy Self, the inner controller, the immortal.\" \"This one, the inner Self of all beings, free from evil, divine, the one god, is Nārāyaṇa.\" \"By recitation of the Veda, by sacrifice, by gift, and by austerity unaccompanied by self-seeking, the Brāhmaṇas desire to know that very one.\" \"The knower of Brahman attains the supreme.\" \"One who knows him thus becomes immortal here; there is no other path for going there\" and the like.",
       "source": "full_translations/ramanuja__vedartha-samgraha.md#§4",
-      "verified": "unknown"
+      "verified": true
     },
     "ramanuja/vedartha-samgraha/§5": {
       "thinker_id": "ramanuja",
@@ -5838,7 +5838,7 @@
       "sanskrit_iast": "evaṃvidhacidacidātmakaprapañcasyodbhavasthitipralayasaṃsāranirvartanaikahetubhūtaḥ samastaheyapratyanīkānantakalyāṇatayā ca svetarasamastavastuvilakṣaṇasvarūpo 'navadhikātiśayāsaṃkhyeyakalyāṇaguṇagaṇaḥ sarvātmaparabrahmaparajyotiḥparatattvaparamātmasadādiśabdabhedair nikhilavedāntavedyo bhagavān nārāyaṇaḥ puruṣottama ity antaryāmisvarūpam | asya ca vaibhavapratipādanaparāḥ śrutayaḥ svetarasamastacidacidvastujātāntarātmatayā nikhilaniyamanaṃ tacchaktitadaṃśatadvibhūtitadrūpataccharīratattanuprabhṛtibhiḥ śabdais tatsāmānādhikaraṇyena ca pratipādayanti",
       "english_close": "The nature of the inner controller is this: Bhagavān Nārāyaṇa, the supreme Person, who is the single cause of the origination, subsistence, dissolution, and continuance of transmigratory existence for this cosmos constituted by sentient and non-sentient reality; whose own nature is distinct from all other things whatsoever because he is opposed to every defect and possessed of infinite auspiciousness; who is a host of innumerable and unsurpassed auspicious qualities; and who is known through the whole Vedānta under the diverse words \"the Self of all,\" \"the supreme Brahman,\" \"the supreme light,\" \"the supreme reality,\" \"the supreme Self,\" \"sat,\" and the like. And the śrutis that aim to proclaim his glory teach, by terms such as \"his power,\" \"his part,\" \"his manifestation,\" \"his form,\" \"his body,\" \"his person,\" and the like, and also by their co-reference with him, that he is the inner self of every class of sentient and non-sentient entity other than himself and that he governs them all.",
       "source": "full_translations/ramanuja__vedartha-samgraha.md#§6",
-      "verified": "unknown"
+      "verified": true
     },
     "rupa-gosvami/bhakti-rasamrta-sindhu/1.1.7": {
       "thinker_id": "rupa-gosvami",
@@ -9141,7 +9141,8 @@
       "locus_short": "SK 17-19",
       "sanskrit_iast": "saṅghātaparārthatvāt triguṇādiviparyayād adhiṣṭhānāt / puruṣo 'sti bhoktṛbhāvāt kaivalyārthapravṛtteś ca // janmamaraṇakaraṇānāṃ pratiniyamād ayugapatpravṛtteś ca / puruṣabahutvaṃ siddhaṃ traiguṇyaviparyayāc caiva // tasmāc ca viparyāsāt siddhaṃ sākṣitvam asya puruṣasya / kaivalyaṃ mādhyasthyaṃ draṣṭṛtvam akartṛbhāvaś ca //",
       "english_close": "Puruṣa exists because the composite exists for another, because of the opposite of the three guṇa-s and the rest, because of superintendence, because of enjoyership, and because of striving for kaivalya. The plurality of puruṣa-s is established because births, deaths, and instruments are individually ordered, because activity does not occur all at once, and because of the opposite of the three guṇa-s. From that very contrariety are established its witnesshood, neutrality, seerhood, and non-agency.",
-      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L49-L56"
+      "source": "data/sources/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L49-L56",
+      "verified": true
     },
     "isvarakrsna/sankhya-karika/62-65": {
       "thinker_id": "isvarakrsna",
@@ -9150,7 +9151,8 @@
       "locus_short": "SK 62-65",
       "sanskrit_iast": "tasmān na badhyate nāpi mucyate nāpi saṃsarati kaścit / saṃsarati badhyate mucyate ca nānāśrayā prakṛtiḥ // rūpaiḥ saptabhir evaṃ badhnāty ātmānam ātmanā prakṛtiḥ / saiva ca puruṣasyārthaṃ prati vimocayaty ekarūpeṇa // evaṃ tattvābhyāsān nāsmi na me nāham ity apariśeṣam / aviparyayād viśuddhaṃ kevalam utpadyate jñānam // tena nivṛttaprasavām arthavaśāt saptarūpavinivṛttām / prakṛtiṃ paśyati puruṣaḥ prekṣakavad avasthitaḥ svasthaḥ //",
       "english_close": "Therefore no one is really bound, released, or transmigrating; it is prakṛti, resting on various bases, that transmigrates, is bound, and is released. By seven forms prakṛti binds itself by itself, and by a single form it releases itself for the sake of puruṣa. Through repeated practice of the tattva-s there arises the pure knowledge, leaving nothing over, that 'I am not, nothing is mine, I am not this.' Then the puruṣa, established in itself like a spectator, sees prakṛti, whose production has ceased and whose seven forms have withdrawn because its purpose is fulfilled.",
-      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L184-L194"
+      "source": "data/sources/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L184-L194",
+      "verified": true
     },
     "patanjali/yoga-sutra/2.17-25": {
       "thinker_id": "patanjali",
@@ -9663,7 +9665,8 @@
       "locus_short": "SK 57",
       "sanskrit_iast": "vatsavivṛddhinimittaṃ kṣīrasya yathā pravṛttir ajñasya /\npuruṣavimokṣanimittaṃ tathā pravṛttiḥ pradhānasya //",
       "english_close": "Just as milk, though unconscious, acts for the calf's growth, so the activity of pradhāna is for the sake of the puruṣa's release.",
-      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_57"
+      "source": "data/sources/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_57",
+      "verified": true
     },
     "isvarakrsna/sankhya-karika/62": {
       "thinker_id": "isvarakrsna",
@@ -10041,7 +10044,8 @@
       "locus_short": "SK 19-20",
       "sanskrit_iast": "tasmāc ca viparyāsāt siddhaṃ sākṣitvam asya puruṣasya /\nkaivalyaṃ mādhyasthyaṃ draṣṭṛtvam akartṛbhāvaś ca //\n\ntasmāt tatsaṃyogād acetanaṃ cetanāvad iva liṅgam /\nguṇakartṛtve 'pi tathā karteva bhavaty udāsīnaḥ //",
       "english_close": "Therefore, from that inversion it is established that this puruṣa is a witness; and likewise isolation, neutrality, seerhood, and non-agenthood. Therefore, through conjunction with that, the non-conscious subtle body appears as if conscious; though the guṇas are the agents, the indifferent puruṣa appears as if a doer.",
-      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L55"
+      "source": "data/sources/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L55",
+      "verified": true
     },
     "isvarakrsna/sankhya-karika-comm/20": {
       "thinker_id": "isvarakrsna",
@@ -10653,7 +10657,8 @@
       "locus_short": "SK 56",
       "sanskrit_iast": "ity eṣa prakṛtikṛto mahadādiviṣayabhūtaparyantaḥ / pratipuruṣavimokṣārthaṃ svārtha iva parārtha ārambhaḥ //",
       "english_close": "Thus this evolution produced by prakṛti, extending from mahat down to the elements and their objects, though for another, proceeds as if for itself, for the sake of each puruṣa's liberation.",
-      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_56"
+      "source": "data/sources/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#isk_56",
+      "verified": true
     },
     "isvarakrsna/sankhya-karika/68": {
       "thinker_id": "isvarakrsna",
@@ -11085,7 +11090,8 @@
       "locus_short": "SK 11-14",
       "sanskrit_iast": "triguṇam aviveki viṣayaḥ sāmānyam acetana prasavadharmi / vyaktaṃ tathā pradhānaṃ tadviparītas tathā ca pumān // prītyaprītiviṣādātmakāḥ prakāśapravṛttiniyamārthāḥ / anyo 'nyābhibhavāśrayajananamithunavṛttayaś ca guṇāḥ // sattvaṃ laghu prakāśakam iṣṭam upaṣṭambhakaṃ calaṃ ca rajaḥ / guru varaṇakam eva tamaḥ pradīpavac cārthato vṛttiḥ // avivekyādiḥ siddhas traiguṇyāt tadviparyayābhāvāt / kāraṇaguṇātmakatvāt kāryasyāvyaktam api siddham //",
       "english_close": "The manifest and the primal source are tri-guṇic, non-discriminating, objective, common, non-conscious, and productive; puruṣa is the opposite. The guṇas are of the nature of pleasure, pain, and delusion, and of illumination, activity, and restraint; they operate by mutual overpowering, support, generation, and coupling. Sattva is light and illuminating, rajas mobile and stimulating, tamas heavy and obscuring. Because the effect is constituted by the guṇas of the cause, the unmanifest too is established.",
-      "source": "materials/primary_texts/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L31-L41"
+      "source": "data/sources/sanskrit/comparator/isvarakrsna_samkhya_karika.txt#L31-L41",
+      "verified": true
     },
     "isvarakrsna/sankhya-karika/60": {
       "thinker_id": "isvarakrsna",

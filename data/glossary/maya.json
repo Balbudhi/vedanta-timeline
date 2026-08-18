@@ -14,11 +14,15 @@
     "māyāvādin",
     "Maya"
   ],
-  "editorial_contract": "v1",
+  "editorial_contract": "v2",
   "source_record_ids": [
     "gaudapada-mandukya-karika-apate-gretil",
     "ramanuja-vedartha-samgraha-gretil"
   ],
+  "editorial_dependencies": {
+    "review_areas": ["maya", "gaudapada", "ramanuja", "advaita", "vishishtadvaita"],
+    "update_when": ["new-primary-witness", "new-school-reading", "citation-revision"]
+  },
   "definition_claims": [
     {
       "id": "reader_definition",
@@ -45,6 +49,50 @@
       "status": "verified"
     }
   ],
+  "exposition_sections": [
+    {
+      "id": "gaudapada-use",
+      "title": "A technical Advaita use",
+      "claims": [
+        {
+          "id": "duality-and-non-origination",
+          "text": "Gauḍapāda’s usage is neither a casual synonym for illusion nor a statement that ordinary experience is simply absent. The awakened *jīva* knows the unborn non-dual; duality is described as *māyāmātra*. The causal argument then says that real differentiation would make the deathless mortal, which is impossible. In this setting *māyā* names the way multiplicity is presented without giving it the status of a real division in the unborn.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18", "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21"],
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "terminological-boundary",
+      "title": "Why the term cannot be exported unchanged",
+      "claims": [
+        {
+          "id": "ramanuja-boundary",
+          "text": "Rāmānuja’s proem explicitly rejects the view that Brahman itself, overtaken by ignorance and alien adjuncts, becomes the suffering transmigrator. His positive account instead describes a world of conscious and non-conscious beings dependent upon the inner-controlling Lord. A reader should therefore not carry Gauḍapāda’s technical account of *māyā* into Viśiṣṭādvaita as if the word already settled the same metaphysical question.",
+          "claim_kind": "comparative",
+          "evidence_level": "primary",
+          "citations": ["cite://ramanuja/vedartha-samgraha/§2", "cite://ramanuja/vedartha-samgraha/§6"],
+          "status": "verified"
+        },
+        {
+          "id": "school-diversity",
+          "text": "The wider entry keeps the distinctions visible: some traditions use *māyā* for divine power, some for an explanatory condition of apparent plurality, and some relocate the relevant causal work under *prakṛti*. The question is always what a particular text makes the term do, not whether a reader already knows one universal dictionary definition.",
+          "claim_kind": "comparative",
+          "evidence_level": "primary",
+          "citations": ["cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18", "cite://ramanuja/vedartha-samgraha/§6"],
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "legacy_coverage": {
+    "invariant_definition": {
+      "status": "fully-migrated",
+      "mapped_sections": ["gaudapada-use", "terminological-boundary"]
+    }
+  },
   "invariant_definition": "*Māyā* has no single pan-Indian meaning. The thinnest common core is this: it names a power or condition through which manifest plurality is produced, sustained, or experienced. Beyond that, the term becomes school-specific. In Vedic and purāṇic usage it can mean divine skill, wondrous power, or formative capacity. In Advaita it becomes the cosmic register of *avidyā*, the principle by which the non-dual appears as manifold without undergoing real modification. In realist Vedāntas it names a real divine power, often identified with *prakṛti* or with the Lord's external energy. In Trika it is not illusion at all but a real self-contractive phase of Śiva's *svātantrya*, linked to the *kañcuka* analysis and the production of differentiated subjects and objects. The term therefore sits amid disputes over causality, *pariṇāma* versus *vivarta*, the status of the world, and the relation between God and manifestation. In practice *māyā* explains embodiment, limitation, and cosmic display, but what sort of explanation this is depends entirely on the metaphysics of the school using it.",
   "school_framing": {
     "framing_status": "mixed",

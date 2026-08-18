@@ -25,12 +25,16 @@
     "ātmānam",
     "ātmanā"
   ],
-  "editorial_contract": "v1",
+  "editorial_contract": "v2",
   "source_record_ids": [
     "gaudapada-mandukya-karika-apate-gretil",
     "ramanuja-vedartha-samgraha-gretil",
     "nagarjuna-mmk-gretil"
   ],
+  "editorial_dependencies": {
+    "review_areas": ["atman", "gaudapada", "ramanuja", "nagarjuna"],
+    "update_when": ["new-primary-witness", "new-school-reading", "citation-revision"]
+  },
   "definition_claims": [
     {
       "id": "reader_definition",
@@ -57,6 +61,50 @@
       "status": "verified"
     }
   ],
+  "exposition_sections": [
+    {
+      "id": "self-and-body",
+      "title": "The inquiry into the self",
+      "claims": [
+        {
+          "id": "body-distinct-self",
+          "text": "The question is not merely what personality persists through time. Rāmānuja’s account makes the self distinct from body and explains Vedāntic teaching as disclosing the self, the supreme inner Self, the path of worship, and the fulfilment in Brahman. The term therefore carries an inquiry into the subject of embodiment and knowledge, not a modern psychological portrait of the ego.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://ramanuja/vedartha-samgraha/§4"],
+          "status": "verified"
+        },
+        {
+          "id": "turya-and-jivas",
+          "text": "Gauḍapāda’s four-state analysis sharpens one Advaitin answer: the *turīya* known on awakening is unborn and non-dual, while the pot-space comparison denies that the plurality of *jīvas* divides or modifies the Self. This is not a generic Indian conclusion; it is a particular account of the relation between individuality and the self.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18", "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7"],
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "contested-self",
+      "title": "A contested term, not a universal conclusion",
+      "claims": [
+        {
+          "id": "ramanuja-and-nagarjuna",
+          "text": "Rāmānuja retains a real, body-distinct individual self within the inner-controller relation. Nāgārjuna tests whether a self can be established as identical with, or independent of, the factors appropriated as “mine.” These are not two paraphrases of one doctrine: they make different claims about what can be established when the self is analyzed.",
+          "claim_kind": "comparative",
+          "evidence_level": "primary",
+          "citations": ["cite://ramanuja/vedartha-samgraha/§4", "cite://ramanuja/vedartha-samgraha/§6", "cite://nagarjuna/mula-madhyamaka-karika/18.4", "cite://nagarjuna/mula-madhyamaka-karika/18.7"],
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "legacy_coverage": {
+    "invariant_definition": {
+      "status": "fully-migrated",
+      "mapped_sections": ["self-and-body", "contested-self"]
+    }
+  },
   "invariant_definition": "The self in the strict sense: not body, not sense-organ, not *manas*, not *ahaṅkāra*, but the subject for whom experience occurs and to whom ownership is ordinarily ascribed. The term carries a large technical burden. Upaniṣadic inquiry approaches it through negation (*neti neti*), through the three-state analysis of waking, dream, and deep sleep, and through the witness register later called *sākṣin*. Vedāntic debates then ask whether that witnessing self is identical with *brahman*, a mode of *brahman*, or an eternally distinct knower. The term is also sharpened polemically by nearby positions: Sāṅkhya's *puruṣa*, Nyāya's enduring self as substrate of cognition, and the Buddhist denial that any permanent *ātman* can be found behind the five aggregates. In practice, *ātman* is the term one reaches for when the question is not merely who lives this embodied life, but what the referent of 'I' really is once misidentification with body, role, and psychophysical process has been corrected.",
   "school_framing": {
     "framing_status": "mixed",

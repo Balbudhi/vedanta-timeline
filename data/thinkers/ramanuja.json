@@ -48,10 +48,14 @@
       "note": "Rāmānuja's Śrī-Bhāṣya on the utpatty-asambhavādhikaraṇa (BS 2.2.42–45) continues Yāmuna's defense: the vyūha-production is read as an internal differentiation of one Brahman-substance into manifestations rather than as the production of one substance from another. Pāñcarātra ritual remains the canonical liturgical frame of Śrīvaiṣṇava worship throughout."
     }
   ],
-  "editorial_contract": "v1",
+  "editorial_contract": "v2",
   "source_record_ids": [
     "ramanuja-vedartha-samgraha-gretil"
   ],
+  "editorial_dependencies": {
+    "review_areas": ["ramanuja", "atman", "maya", "vishishtadvaita"],
+    "update_when": ["new-primary-witness", "traditional-ascription-attestation", "citation-revision"]
+  },
   "intro_claims": [
     {
       "id": "identity_or_context",
@@ -93,8 +97,78 @@
         "cite://ramanuja/vedartha-samgraha/§6"
       ],
       "status": "verified"
+    },
+    {
+      "id": "source_limit_or_reception",
+      "text": "The current reviewed public packet is strongest for the opening of the *Vedārtha-Saṃgraha*. It does not yet contain a verified public packet for the full sevenfold critique of *avidyā*, the detailed *Śrī-Bhāṣya* arguments, or the traditional attributions of the *Gadya-Trayam* and *Nitya-Grantha*; those topics remain visible as source-status records rather than as settled exposition here.",
+      "claim_kind": "source-limit",
+      "evidence_level": "site-synthesis",
+      "citations": [],
+      "status": "pending-acquisition"
     }
   ],
+  "argument_sections": [
+    {
+      "id": "qualified-unity",
+      "title": "A qualified unity of sentient and non-sentient reality",
+      "claims": [
+        {
+          "id": "cit-acit-and-brahman",
+          "text": "The opening salutation speaks of Viṣṇu as qualified by the totality of conscious and non-conscious entities. The text therefore begins its systematic account with a Brahman already specified in relation to *cit* and *acit*, rather than with an undifferentiated remainder from which those terms must later be explained away.",
+          "claim_kind": "textual",
+          "evidence_level": "primary",
+          "citations": ["cite://ramanuja/vedartha-samgraha/§1"],
+          "status": "verified"
+        },
+        {
+          "id": "inner-controller",
+          "text": "The account of the inner controller calls Nārāyaṇa the cause of origination, persistence, dissolution, and the ongoing world of transmigration, and describes him as the inner self and governor of every class of sentient and non-sentient thing. This supplies the textual basis for the body–self framework; its more detailed technical vocabulary awaits a separate locus packet.",
+          "claim_kind": "textual",
+          "evidence_level": "primary",
+          "citations": ["cite://ramanuja/vedartha-samgraha/§6"],
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "scripture-practice-and-liberation",
+      "title": "Scripture, practice, and liberation",
+      "claims": [
+        {
+          "id": "connected-vedanta-teaching",
+          "text": "The *Vedārtha-Saṃgraha* presents the Vedāntic teaching as a connected account: the self distinct from body, the supreme Self as inner controller, worship, the manifestation of the self’s own nature, and the experience of Brahman. Its philosophical argument therefore remains tied to a theory of practice and attainment.",
+          "claim_kind": "textual",
+          "evidence_level": "primary",
+          "citations": ["cite://ramanuja/vedartha-samgraha/§4"],
+          "status": "verified"
+        },
+        {
+          "id": "advaita-target",
+          "text": "The proem attacks the claim that supreme Brahman itself, through ignorance and limiting adjuncts, becomes the transmigrating subject. It treats this as an error of interpretation, rejected by scripture and reasoning; a full account of the later sevenfold critique will be added only when its precise source loci are reviewed.",
+          "claim_kind": "textual",
+          "evidence_level": "primary",
+          "citations": ["cite://ramanuja/vedartha-samgraha/§2"],
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "legacy_coverage": {
+    "core_thesis": {
+      "status": "fully-migrated",
+      "mapped_sections": ["qualified-unity", "scripture-practice-and-liberation"],
+      "omitted_claims": [
+        {
+          "claim": "Enumeration and detailed examples of the sevenfold critique of *avidyā*, and the technical accounts of *dharmi-bhūta-jñāna* and *sāmānādhikaraṇya*.",
+          "reason": "The present source ledger and verified citation packet do not yet support those detailed claims at click-through citation level."
+        },
+        {
+          "claim": "The exact status and doctrinal detail of traditionally ascribed devotional and ritual works.",
+          "reason": "Those works must be retained with traditional-ascription status, but public exposition waits for an attestation record and a usable primary witness."
+        }
+      ]
+    }
+  },
   "core_thesis": "Rāmānuja gives Viśiṣṭādvaita its school-defining form. Brahman — Nārāyaṇa-with-Śrī — is the sole independent reality, but its unity is *viśiṣṭa* (qualified), not undifferentiated. The infinite plurality of conscious selves (*cit*) and non-conscious matter (*acit*) constitutes Brahman's body (*śarīra*); Brahman is their *śarīrin* and *antaryāmin* (inner controller). *Cit* and *acit* are really distinct from each other and from Brahman, yet inseparable (*apṛthak-siddha*) — they cannot exist or be conceived apart from him. There is therefore no unqualified *nirviśeṣa* Brahman; *neti neti* negates limiting attributes, not all distinction. Against Śaṅkara's *māyāvāda* the [*Vedārtha-Saṃgraha* §76](cite://ramanuja/vedartha-samgraha/76) ff. unfolds the *sapta-vidhānupapatti* — seven distinct destructive arguments against Advaitin *avidyā*. Two examples make the structure visible. (i) *Āśrayānupapatti*: locate avidyā's substrate. If in Brahman, Brahman ceases to be self-luminous *cit*; if in the *jīva*, the *jīva* is itself a product of *avidyā* and the explanation circles. (ii) *Tirodhānānupapatti*: avidyā is supposed to conceal Brahman; but Brahman is by definition *svayam-prakāśa*, so concealment of Brahman is concealment of light by darkness as such — an event with no possible mechanism. The remaining five (against avidyā's nature, indeterminability, *pramāṇa*, *nivartaka*, and cessation) operate by the same destructive technique: take the Advaitin's own characterization, run it through its consequences, exhibit the contradiction. The constructive position then follows. The *jīva* is an atomic, eternal *jñātṛ* (knower) with *dharmi-bhūta-jñāna* — substance-awareness bearing real attributes ([*Vedārtha-Saṃgraha* §§88–93](cite://ramanuja/vedartha-samgraha/88-93); *Śrī-Bhāṣya* on [*Brahma-Sūtra* 2.3.18](cite://badarayana/brahma-sutra/2.3.18) ff.). *Tat tvam asi* is read on the body-soul model of *sāmānādhikaraṇya* ([*Vedārtha-Saṃgraha* §§19–34](cite://ramanuja/vedartha-samgraha/19-34), glossing *Chāndogya* 6.8.7): *tat* and *tvam* co-predicate one substratum because Brahman is the inner self of the *jīva*, not because they are numerically identical. *Mokṣa* is the *jīva*'s perfected *kaiṅkarya* (beatific service) to Nārāyaṇa, not the dissolution of personhood (*Śrī-Bhāṣya* on [*Brahma-Sūtra* 4.4](cite://badarayana/brahma-sutra/4.4), the *mukti-pāda*). *Bhakti-yoga* — meditative devotion as enjoined *upāsanā* — is the constitutive form of *mokṣa* (*Śrī-Bhāṣya* on [*Brahma-Sūtra* 1.1.1](cite://badarayana/brahma-sutra/1.1.1), the *Mahā-Siddhānta*'s closing *bhakti-rūpāpannā smṛti-santati*); *prapatti* (utter self-surrender) is a parallel path, open especially to those incapable of sustained *bhakti-yoga* (*Gītā-Bhāṣya* on *Bhagavad-Gītā* 18.66, the *carama-śloka*; *Śaraṇāgati-Gadya*).",
   "engaged_works": [
     {

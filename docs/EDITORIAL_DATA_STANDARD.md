@@ -49,11 +49,14 @@ Required public sections, in order:
 1. **Identity and entry kind** — stable ID; name/IAST; `entity_kind`.
 2. **Chronology** — academic and traditional records separately, each with its
    own evidence/status; no traditional claim is inferred from a lineage.
-3. **Philosophical introduction** — normally 180–320 words in five connected
-   moves: identity/context; text and problem; argument or method; philosophical
-   consequence; reception or source limit. It is an introduction to a thinker,
-   not a one-line blurb and not an undifferentiated research memo. Each move is
-   grounded in a claim record.
+3. **Philosophical introduction and development** — normally a 180–320-word
+   orientation in five connected moves (identity/context; text and problem;
+   argument or method; philosophical consequence; reception or source limit),
+   followed by two or more short, sourced argument sections. It is an
+   introduction to a thinker, not a one-line blurb and not an undifferentiated
+   research memo. The orientation does not replace earlier substantive material:
+   every public legacy paragraph is mapped into a section, retained below it,
+   or explicitly omitted with a source-based reason.
 4. **Works** — a structured list; no generic “major works” blob.
 5. **Lineage and controversy** — only evidence-backed relations, typed as
    teacher/student, textual influence, institutional succession, or polemic.
@@ -138,6 +141,21 @@ A comparative encyclopedia entry is a **claim card**, not an axis tuple:
 claim; source/work/locus; register/scope; compared claim; verdict; evidence;
 and uncertainty. Preserve legacy primitive records only as migration evidence.
 
+### Layered-entry migration gate
+
+`editorial_contract: "v2"` is the public depth contract. It requires:
+
+- a verified witness for every rendered verified/disputed claim;
+- `argument_sections` (thinkers) or `exposition_sections` (terms), with source
+  citations on each claim;
+- `legacy_coverage`, which makes any omission visible to review rather than
+  silently shortening an article; and
+- `editorial_dependencies`, a small set of review areas and update events.
+
+`pending-acquisition` and `private-rights-restricted` source-limit records may
+state the scope of a gap without pretending that the missing source proves a
+claim. They do not render as verified doctrine.
+
 ## 9. Agent protocol and hooks
 
 Before any content mutation an agent must:
@@ -166,7 +184,10 @@ scripts/preflight_content_change.sh <changed-content-path>
 ```
 
 The readiness report produces the acquisition and migration worklist. The
-impact report names every current public record that cites a changed witness.
+impact report names every current public record that cites a changed witness
+and every v2 entry whose declared dependency areas match the newly changed or
+ingested source. This produces review notices; it never silently rewrites an
+article.
 The preflight validates the ledger and any opted-in v1 content record. Existing
 legacy data is deliberately reported for planned migration rather than silently
 rewritten or falsely certified.

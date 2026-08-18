@@ -1,7 +1,8 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "opt_in_field": "editorial_contract",
   "opt_in_value": "v1",
+  "supported_contracts": ["v1", "v2"],
   "source_record": {
     "required": [
       "id",
@@ -45,7 +46,13 @@
       "argument_or_method",
       "philosophical_consequence",
       "source_limit_or_reception"
-    ]
+    ],
+    "v2_required": [
+      "argument_sections",
+      "legacy_coverage",
+      "editorial_dependencies"
+    ],
+    "minimum_argument_sections": 2
   },
   "glossary_entry": {
     "required": [
@@ -57,6 +64,12 @@
       "reader_definition",
       "textual_function",
       "school_reading_or_limit"
-    ]
+    ],
+    "v2_required": [
+      "exposition_sections",
+      "legacy_coverage",
+      "editorial_dependencies"
+    ],
+    "minimum_exposition_sections": 1
   }
 }

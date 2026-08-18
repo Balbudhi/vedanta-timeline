@@ -40,10 +40,15 @@
       "note": "Madhva's anti-Buddhist polemic is sustained and explicit. The Tattva-Saṅkhyāna and the Māyāvāda-Khaṇḍana / Mithyātvānumāna-Khaṇḍana / Upādhi-Khaṇḍana cluster treat Mādhyamaka as the doctrinal extreme of the māyā-line: the world's reality cannot be qualified into a middle category between sat and asat without collapsing into the śūnyavādin conclusion. The Vedāntic project, on Madhva's reading, must hold the world as svatantra-paratantra-tattva and refuse the catuṣkoṭi-style refusal of all four positions on any matter of ontology."
     }
   ],
-  "editorial_contract": "v1",
+  "editorial_contract": "v2",
   "source_record_ids": [
-    "nagarjuna-mmk-gretil"
+    "nagarjuna-mmk-gretil",
+    "nagarjuna-vigraha-vyavartani-witness"
   ],
+  "editorial_dependencies": {
+    "review_areas": ["nagarjuna", "atman", "maya", "madhyamaka", "prasanga"],
+    "update_when": ["new-primary-witness", "traditional-ascription-attestation", "citation-revision"]
+  },
   "intro_claims": [
     {
       "id": "identity_or_context",
@@ -90,6 +95,86 @@
       "status": "verified"
     }
   ],
+  "argument_sections": [
+    {
+      "id": "four-alternatives",
+      "title": "The four alternatives are target-specific",
+      "claims": [
+        {
+          "id": "causal-four-alternatives",
+          "text": "At the opening of the *Mūla-Madhyamaka-Kārikā*, the four alternatives concern origination: no entity is found to arise from itself, from another, from both, or without cause. This is an examination of how arising might be made self-establishing; it is not yet the simple true/false tetralemma.",
+          "claim_kind": "textual",
+          "evidence_level": "primary",
+          "citations": ["cite://nagarjuna/mula-madhyamaka-karika/1.1"],
+          "status": "verified"
+        },
+        {
+          "id": "truth-status-tetralemma",
+          "text": "MMK 18.8 gives the form readers often have in mind: true, not true, both true and not true, neither untrue nor true. It is not a claim that every proposition receives one permanently fixed logical value. The verse marks the inadequacy of fixing the matter under any one of these self-standing characterizations.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://nagarjuna/mula-madhyamaka-karika/18.8"],
+          "status": "verified"
+        },
+        {
+          "id": "nirvana-tetralemma",
+          "text": "The point becomes especially sharp in the treatment of the Tathāgata after final cessation: existence, non-existence, both, and neither are all refused. The alternatives vary with the question under examination; the procedure is not a detachable proof formula imposed on every subject matter.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://nagarjuna/mula-madhyamaka-karika/25.17"],
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "dependent-arising-and-two-truths",
+      "title": "Dependent arising, emptiness, and the two truths",
+      "claims": [
+        {
+          "id": "two-truths",
+          "text": "The two truths do not add an optional second theory to the dialectic. The text states that Buddhist teaching rests on worldly convention and ultimate truth, then identifies dependent arising with emptiness and the middle way. Conventional practice is therefore not discarded when own-being is denied.",
+          "claim_kind": "textual",
+          "evidence_level": "primary",
+          "citations": ["cite://nagarjuna/mula-madhyamaka-karika/24.8", "cite://nagarjuna/mula-madhyamaka-karika/24.18"],
+          "status": "verified"
+        },
+        {
+          "id": "four-noble-truths",
+          "text": "Nāgārjuna’s reply to the objection that emptiness destroys the four noble truths reverses the charge: if things were non-empty in the required self-established sense, arising and passing away would be impossible, and the four truths would not obtain. This is why emptiness is presented as the condition of intelligible dependence rather than as a denial of ordinary causation.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://nagarjuna/mula-madhyamaka-karika/24.20"],
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "vigraha-vyavartani",
+      "title": "Answering the self-undermining objection",
+      "claims": [
+        {
+          "id": "vv-refutation-and-convention",
+          "text": "The *Vigraha-Vyāvartanī* takes up the objection that a critique of self-grounded things must itself be self-grounded. In the currently verified portion of the witness, the reply denies that the statement has intrinsic grounding and insists that Madhyamaka speech does not proceed without accepting conventional transaction. This is a response within a debate about proof and convention, not a license to turn Nāgārjuna into the slogan that he simply has no view whatsoever.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://nagarjuna/vigraha-vyavartani/24", "cite://nagarjuna/vigraha-vyavartani/28"],
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "legacy_coverage": {
+    "core_thesis": {
+      "status": "fully-migrated",
+      "mapped_sections": ["four-alternatives", "dependent-arising-and-two-truths", "vigraha-vyavartani"],
+      "omitted_claims": [
+        {
+          "claim": "A direct structural debt of Advaita to Mādhyamaka.",
+          "reason": "The current primary-source packet does not establish this historical conclusion; it belongs in a separately sourced reception section."
+        }
+      ]
+    }
+  },
   "core_thesis": "Nāgārjuna's middle way is the position that no entity bears *svabhāva* (own-being): everything that arises does so in dependence on conditions, and dependent arising is itself what *śūnyatā* (emptiness) names. *Yaḥ pratītya-samutpādaḥ śūnyatāṃ tāṃ pracakṣmahe* (MMK 24.18) is the central identification: emptiness is not a metaphysical reality behind appearances but the very fact of conditioned co-arising. The dialectical instrument is the *catuṣkoṭi* (four-cornered logic): for any candidate metaphysical thesis P, Nāgārjuna refutes (i) P, (ii) ¬P, (iii) P ∧ ¬P, and (iv) ¬(P ∧ ¬P). The refutation is *prasaṅga*-style — drawing out the unwanted consequences of each corner — and produces no positive thesis of its own; this is the famous *na me kācana pratijñā asti* of the *Vigraha-Vyāvartanī*. The *saṃvṛti-satya* / *paramārtha-satya* distinction (MMK 24.8–10) is the load-bearing apparatus that lets ordinary discourse remain intact while ultimate analysis dissolves every posited entity. The Vedāntic engagement is structural: Advaita's *vyāvahārika* / *pāramārthika* scheme is formally homologous, which is exactly what makes the *pracchanna-bauddha* charge against Śaṅkara stick or fail.",
   "engaged_works": [
     {

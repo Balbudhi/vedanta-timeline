@@ -13,11 +13,15 @@
     "prakriti",
     "prakṛtis"
   ],
-  "editorial_contract": "v1",
+  "editorial_contract": "v2",
   "source_record_ids": [
     "isvarakrsna-samkhya-karika-witness",
     "ramanuja-vedartha-samgraha-gretil"
   ],
+  "editorial_dependencies": {
+    "review_areas": ["prakrti", "samkhya", "ramanuja", "vishishtadvaita"],
+    "update_when": ["new-primary-witness", "new-school-reading", "citation-revision"]
+  },
   "definition_claims": [
     {
       "id": "reader_definition",
@@ -44,6 +48,50 @@
       "status": "verified"
     }
   ],
+  "exposition_sections": [
+    {
+      "id": "sankhya-causal-architecture",
+      "title": "The Sāṅkhya causal architecture",
+      "claims": [
+        {
+          "id": "three-gunas-and-unmanifest",
+          "text": "In the Sāṅkhya account, the manifest and the primal source are marked by the three *guṇas*, while *puruṣa* is defined in contrast to that non-conscious, productive order. *Prakṛti* is therefore the causal side of a world that can develop bodies, sense capacities, and cognitive instruments without turning consciousness itself into an effect of matter.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://isvarakrsna/sankhya-karika/11-14", "cite://isvarakrsna/sankhya-karika/17-19", "cite://isvarakrsna/sankhya-karika/19-20"],
+          "status": "verified"
+        },
+        {
+          "id": "evolution-and-purpose",
+          "text": "The text describes an evolution from *prakṛti* through *mahat* toward the elements and their objects, while also saying that the activity of *pradhāna* is for the sake of the *puruṣa*’s release. This is why *prakṛti* is not simply a synonym for the visible world: it is the causal matrix whose activity makes experience and discrimination possible.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://isvarakrsna/sankhya-karika/56", "cite://isvarakrsna/sankhya-karika/57", "cite://isvarakrsna/sankhya-karika/62-65"],
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "vedantic-reworking",
+      "title": "Why Vedāntic reuse changes the question",
+      "claims": [
+        {
+          "id": "dependence-question",
+          "text": "Vedāntic authors can inherit the causal vocabulary without granting *prakṛti* independent ultimacy. Rāmānuja’s opening description makes the conscious and non-conscious orders qualifications of Viṣṇu, and his inner-controller account treats the material order as dependent on Brahman. The enduring dispute is therefore not whether there is embodiment and causal transformation, but whether the material principle is independent, a dependent mode, or an appearance under a different ontology.",
+          "claim_kind": "comparative",
+          "evidence_level": "primary",
+          "citations": ["cite://ramanuja/vedartha-samgraha/§1", "cite://ramanuja/vedartha-samgraha/§6"],
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "legacy_coverage": {
+    "invariant_definition": {
+      "status": "fully-migrated",
+      "mapped_sections": ["sankhya-causal-architecture", "vedantic-reworking"]
+    }
+  },
   "invariant_definition": "*Prakṛti* is the fabric of material manifestation: the unmanifest causal substrate woven from the three *guṇa*s, whose disturbed equilibrium unfolds as *mahat*, *ahaṅkāra*, the subtle elements, the gross elements, the body, and the cognitive apparatus. The image of a fabric is explanatory, not a claim that Sanskrit uses a modern physical textile metaphor: the *guṇa*s are the constitutive strands or qualities by which Sāṅkhya analyzes this material order. The term therefore does not mean 'nature' in the modern contrast between nature and culture. It names the causal matrix presupposed by embodiment, *saṃsāra*, and the whole debate over whether the effect pre-exists in the cause. In Sāṅkhya it is *avyakta* and *pradhāna*: unconscious, eternal, and independent of *puruṣa* even while acting for *puruṣa*'s experience and liberation. Vedānta takes over the causal grammar but refuses that independence. *Prakṛti* is then redescribed as *māyā*, *acit*, external *śakti*, or dependent material principle under *brahman* or Īśvara. Across these redescriptions one point remains stable: the body, senses, pleasure-pain apparatus, and inner instrument belong to the *prakṛti* side, not to consciousness as such. The disputes concern whether *prakṛti* is ultimate or dependent, whether its transformations are fully real or only *vyāvahārika*, and whether the Lord stands to it as controller, substrate, or merely apparent possessor of an *upādhi*.",
   "school_framing": {
     "framing_status": "mixed",

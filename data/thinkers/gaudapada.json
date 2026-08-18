@@ -6,7 +6,7 @@
   "dates_low": 600,
   "dates_high": 700,
   "dates_tier": "consensus-textual",
-  "dates_notes": "Traditionally Śaṅkara's parama-guru (teacher's teacher); on the modern Hacker / Nakamura dating of Śaṅkara to 700–750, Gauḍapāda is now placed late-6th to mid-7th c. (Bhattacharya, King). Academic dating from internal Buddhist-philosophical references (engagement with developed Yogācāra and Madhyamaka).",
+  "dates_notes": "The current corpus has an academic date range, but no traditional witness that warrants a numerical alternative. The received succession through Govindapāda to Śaṅkara is displayed separately as a traditional lineage claim, not converted into a date.",
   "school": "Advaita",
   "school_color_token": "advaita",
   "sub_school": "Proto-Advaita",
@@ -22,13 +22,17 @@
       {"name_iast": "Govindapāda"},
       {"name_iast": "Ādi Śaṅkara", "thinker_id": "sankara"}
     ],
-    "note": "The direct timeline connection to Śaṅkara represents this traditionally received intermediate succession; Govindapāda is not yet a rostered author-entry."
+    "note": "Received lineage claim; a traditional source record has not yet been added. Govindapāda is not yet a rostered author-entry."
   },
   "lineage_polemical": [],
-  "editorial_contract": "v1",
+  "editorial_contract": "v2",
   "source_record_ids": [
     "gaudapada-mandukya-karika-apate-gretil"
   ],
+  "editorial_dependencies": {
+    "review_areas": ["gaudapada", "atman", "maya", "advaita"],
+    "update_when": ["new-primary-witness", "traditional-lineage-attestation", "citation-revision"]
+  },
   "intro_claims": [
     {
       "id": "identity_or_context",
@@ -70,8 +74,78 @@
         "cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7"
       ],
       "status": "verified"
+    },
+    {
+      "id": "source_limit_or_reception",
+      "text": "The present public dossier verifies selected passages from the first three sections. It does not yet provide a reviewed public translation or citation packet for the fourth section, so claims about its firebrand image and later formulations are not used as evidence in this profile.",
+      "claim_kind": "source-limit",
+      "evidence_level": "site-synthesis",
+      "citations": [],
+      "status": "pending-acquisition"
     }
   ],
+  "argument_sections": [
+    {
+      "id": "four-states-and-awakening",
+      "title": "The fourth is not deep sleep",
+      "claims": [
+        {
+          "id": "deep-sleep-and-turiya",
+          "text": "The work distinguishes the deep-sleep condition from *turīya*. The former is described through the seed-condition of sleep; the latter is called unborn, sleepless, dreamless, and non-dual. The distinction prevents non-duality from being treated as mere unconsciousness.",
+          "claim_kind": "textual",
+          "evidence_level": "primary",
+          "citations": ["cite://gaudapada/mandukya-karika/1.13", "cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18"],
+          "status": "verified"
+        },
+        {
+          "id": "waking-and-dream",
+          "text": "The *Vaitathya-prakaraṇa* makes waking and dream a problem together: waking objects are not secured as ultimately real merely because waking is ordinarily shared or prolonged. The argument asks what sort of reality can be assigned to differentiated experience when its beginning and end are examined.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://gaudapada/mandukya-karika/2.Vaitathya-prakaraṇa.5-6"],
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "nonorigination-and-self",
+      "title": "Non-origination and the status of the individual self",
+      "claims": [
+        {
+          "id": "pot-space",
+          "text": "The pot-space comparison is used to deny that the individual self is a modification or portion of the Self. A pot may delimit space for practical description without producing a fragment of space; the comparison makes dependence and apparent differentiation intelligible without treating the self as a generated piece of a larger substance.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.3-7"],
+          "status": "verified"
+        },
+        {
+          "id": "unborn-and-mortal",
+          "text": "The argument for *ajāti* presses a consequence of attributing real differentiation to what is unborn and deathless: if it became a mortal differentiated thing, it would no longer be what the argument began by calling unborn and deathless. The claim is therefore an analysis of origination, not a report that an already existing entity later vanishes.",
+          "claim_kind": "interpretive",
+          "evidence_level": "primary",
+          "citations": ["cite://gaudapada/mandukya-karika/3.Advaita-prakaraṇa.19-21"],
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "legacy_coverage": {
+    "core_thesis": {
+      "status": "fully-migrated",
+      "mapped_sections": ["four-states-and-awakening", "nonorigination-and-self"],
+      "omitted_claims": [
+        {
+          "claim": "Detailed interpretation of the fourth section, including the firebrand-circle image and later liberation verses.",
+          "reason": "The local public dossier presently stops before those passages; they require a reviewed witness-and-translation packet before appearing as public evidence."
+        },
+        {
+          "claim": "A definitive historical account of Buddhist terminology or authorship consensus.",
+          "reason": "The current reference packet does not contain a separately documented scholarly source sufficient for that historical conclusion."
+        }
+      ]
+    }
+  },
   "core_thesis": "Gauḍapāda's central thesis is *ajāti-vāda*: the doctrine of non-origination ([Māṇḍūkya-Kārikā 3.48, 4.71](cite://gaudapada/mandukya-karika/3.48, 4.71)). He argues it within a verse-exegesis of the Māṇḍūkya-Upaniṣad's four-fold *ātman* — *vaiśvānara* (waking), *taijasa* (dream), *prājña* (deep sleep), *turīya* (the fourth) (Māṇḍūkya-Upaniṣad 3–7; Māṇḍūkya-Kārikā 1.1–10). *Turīya* corresponds to the silent *amātra* fourth of *Oṃ* and is the non-dual ground (Māṇḍūkya-Upaniṣad 12; Māṇḍūkya-Kārikā 1.16–18). The first major argumentative move is the *vaitathya* (unreality) argument of *prakaraṇa* 2: the *jāgrat* and *svapna* states are epistemically symmetrical because both are mind-projected, and what is not present at the beginning and end is also not present in the middle ([Māṇḍūkya-Kārikā 2.5–6](cite://gaudapada/mandukya-karika/2.5-6)). *Turīya* alone is *advaita*, free of cause and effect, *ajaḥ* (unborn) ([Māṇḍūkya-Kārikā 3.31–37](cite://gaudapada/mandukya-karika/3.31-37)). The second major move is causal: in [*Māṇḍūkya-Kārikā* 3.19–21](cite://gaudapada/mandukya-karika/3.19-21) he argues that if the unborn deathless were really differentiated, it would have to become mortal — which is impossible. Hence [*Māṇḍūkya-Kārikā* 4](cite://gaudapada/mandukya-karika/4).71's conclusion that no *jīva* is ever truly born. The third move is the *alāta-cakra* analogy: apparent multiplicity is the trace of an unmoving consciousness, as a firebrand whirled in a circle traces a fiery ring that has no real existence ([Māṇḍūkya-Kārikā 4.47–52](cite://gaudapada/mandukya-karika/4.47-52)). Mahāyāna analytic vocabulary (*catuṣkoṭi*, the dialectic of origination) appears throughout ([Māṇḍūkya-Kārikā 4.83–84](cite://gaudapada/mandukya-karika/4.83-84)), but the unborn ground here is *ātman*-*brahman*, positively asserted ([Māṇḍūkya-Kārikā 3.32–33](cite://gaudapada/mandukya-karika/3.32-33)), not the Mādhyamika *śūnya*. Liberation is *pratibodha* — recognition of one's identity with the unborn fourth — not a process of becoming ([Māṇḍūkya-Kārikā 1.16; 4.96–98](cite://gaudapada/mandukya-karika/1.16; 4.96-98)).",
   "engaged_works": [
     {
