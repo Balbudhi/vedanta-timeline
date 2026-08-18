@@ -2309,7 +2309,16 @@ function citationAbsenceMessage(thinkerId, workId) {
 }
 
 function renderWorkCard(w, passages, thinkerId) {
-  const ascr = (w.ascription_tier || "").replace(/-/g, " ");
+  const ascr = {
+    "securely-authored": "Authorship secure",
+    "traditionally-ascribed": "Traditionally ascribed",
+    "traditionally-attributed": "Traditionally attributed",
+    "school-ascribed": "School ascribed",
+    "lineage-attributed": "Lineage attributed",
+    "compiled-redacted": "Compiled or redacted",
+    "attributed": "Attributed",
+    "disputed": "Disputed attribution",
+  }[w.ascription_tier] || (w.ascription_tier || "").replace(/-/g, " ");
   const status = w.source_status || "";
   const thinker = state.thinkersById.get(thinkerId);
   const sourceKind = classifyWorkSource(w, thinker);
