@@ -2187,7 +2187,7 @@ function renderHero(t) {
   };
   // A sub-school that, once its English description is stripped, is identical to
   // the school name is just repetition (e.g. "Tattva-vāda · Tattva-vāda") — drop it.
-  const schoolText = stripDesc(t.school);
+  const schoolText = stripDesc(state.schools[t.school_color_token]?.display_name || t.school);
   const subSchoolText = stripDesc(t.sub_school);
   const subSchool = subSchoolText && subSchoolText !== schoolText
     ? " · " + linkGlossaryText(t.sub_school) : "";
@@ -2206,7 +2206,7 @@ function renderHero(t) {
       <h2>${escape(t.name_iast || t.name || t.id)}</h2>
       ${t.name && t.name !== t.name_iast ? `<p class="romanization">${escape(t.name)}</p>` : ""}
       <div class="meta-row">
-        <span class="school-pill">${linkGlossaryText(t.school || "")}${subSchool}</span>
+        <span class="school-pill">${linkGlossaryText(schoolText)}${subSchool}</span>
         ${tierLabel ? `<span class="tier-pill">${escape(tierLabel)}</span>` : ""}
       </div>
       <p class="dates-line">${escape(formatDatesLong(t, chronology))}${chronology.notes ? " · " + md(chronology.notes) : ""}${chronology.availability.isFallback && (chronology.availability.academic || chronology.availability.traditional) ? " · <span class=\"chronology-fallback\">" + escape(`${chronologyModeLabel()} chronology unavailable; ${chronology.availability.effective === "legacy" ? "legacy" : chronologyModeLabel(chronology.availability.effective)} dates shown`) + "</span>" : ""}</p>
