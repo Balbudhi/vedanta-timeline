@@ -1,0 +1,58 @@
+name: Deploy static site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # The checked-in source mirror is about 1.2 GB.  Citation excerpts are
+      # already in citation_index.json and the Source tab falls back to the
+      # repository's raw endpoint on demand, so do not make every Pages build
+      # download and publish the entire mirror.
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/data/sources/
+      - uses: actions/configure-pages@v5
+      - name: Assemble static artifact
+        run: |
+          mkdir -p _site
+          rsync -a --delete \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='.agent/' \
+            --exclude='data/sources/' \
+            --exclude='docs/' \
+            --exclude='scripts/' \
+            --exclude='audit/' \
+            ./ _site/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

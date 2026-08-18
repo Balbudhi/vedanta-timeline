@@ -4008,6 +4008,10 @@ function collectSurroundingPassages(tid, wid, entry) {
 // to reflect what is actually shipped to GitHub Pages. Thus the manifest +
 // the fetch path must agree on `data/sources/<path>` (see fetch below).
 const SOURCE_FETCH_BASE = "data/sources/";
+// Pages deploys the reader and its verified citation excerpts as a compact
+// static artifact. The much larger raw-primary mirror stays in the repository
+// and is fetched only when a reader explicitly opens a source file.
+const SOURCE_RAW_FALLBACK_BASE = "https://raw.githubusercontent.com/Balbudhi/vedanta-timeline/main/data/sources/";
 
 async function ensureSourceTreeRendered() {
   if (sourceTabState.manifestLoaded) return;
@@ -4121,7 +4125,12 @@ async function selectSourceFile(path) {
   if (text == null) {
     try {
       const r = await fetch(SOURCE_FETCH_BASE + path);
-      text = r.ok ? await r.text() : "[failed to load — file not present in site/data/sources/]";
+      if (r.ok) {
+        text = await r.text();
+      } else {
+        const raw = await fetch(SOURCE_RAW_FALLBACK_BASE + path);
+        text = raw.ok ? await raw.text() : "[failed to load — source mirror is unavailable]";
+      }
     } catch (_) {
       text = "[failed to load]";
     }
