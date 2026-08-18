@@ -2127,6 +2127,15 @@ function openThinker(id) {
   detailContent.querySelectorAll("[data-read-full]").forEach((btn) => {
     btn.addEventListener("click", () => openReader(btn.dataset.readFull, btn.dataset.thinker));
   });
+  detailContent.querySelectorAll("[data-chronology-toggle]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const notes = detailContent.querySelector(`#${btn.getAttribute("aria-controls")}`);
+      if (!notes) return;
+      const opening = notes.hidden;
+      notes.hidden = !opening;
+      btn.setAttribute("aria-expanded", opening ? "true" : "false");
+    });
+  });
   // wire perspective open buttons
   detailContent.querySelectorAll(".perspective-open").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -2159,7 +2168,7 @@ closeDetail.addEventListener("click", closePanel);
   detailPane.addEventListener(type, (e) => {
     // Exempt the resize handle: this capture-phase guard otherwise swallows
     // the handle's own mousedown/pointerdown before it can start a drag.
-    if (e.target && e.target.closest && e.target.closest(".dp-resize-handle")) return;
+    if (e.target && e.target.closest && e.target.closest(".dp-resize-handle, [data-chronology-toggle]")) return;
     e.stopPropagation();
   }, true);
 });
@@ -2241,7 +2250,7 @@ function renderHero(t) {
   );
   const heroThesisHtml = heroRendered.html;
   const heroFootnotes = renderFootnoteList(heroRendered.footnotes);
-  const chronologyCard = (mode) => {
+  const chronologyInfo = (mode) => {
     const record = t?.chronology?.variants?.[mode] || null;
     const isSelected = state.chronologyMode === mode;
     const hasRange = typeof record?.low === "number";
@@ -2257,12 +2266,13 @@ function renderHero(t) {
       : (t?.chronology?.traditional_status === "not-attested"
         ? "No traditional date claim is currently attested in this corpus."
         : "A traditional placement requires a dated traditional witness; lineage alone is not converted into a year."));
-    return `<div class="chronology-card${isSelected ? " is-selected" : ""}">
-      <span class="chronology-card-label">${escape(chronologyModeLabel(mode))}</span>
-      <strong>${escape(range)}</strong>
-      <span class="chronology-card-note">${md(evidence)}</span>
-    </div>`;
+    return { label: chronologyModeLabel(mode), range, evidence, isSelected };
   };
+  const academicChronology = chronologyInfo("academic");
+  const traditionalChronology = chronologyInfo("traditional");
+  const chronologyPill = (item) => `<span class="chronology-pill${item.isSelected ? " is-selected" : ""}">
+    <span>${escape(item.label)}</span><strong>${escape(item.range)}</strong>
+  </span>`;
   return `
     <div class="detail-hero">
       <h2>${escape(t.name_iast || t.name || t.id)}</h2>
@@ -2271,11 +2281,16 @@ function renderHero(t) {
         <span class="school-pill">${linkGlossaryText(schoolText)}${subSchool}</span>
         ${tierLabel ? `<span class="tier-pill">${escape(tierLabel)}</span>` : ""}
       </div>
-      <div class="chronology-cards" aria-label="Academic and traditional chronology evidence">
-        ${chronologyCard("academic")}
-        ${chronologyCard("traditional")}
+      <div class="chronology-summary" aria-label="Academic and traditional chronology evidence">
+        ${chronologyPill(academicChronology)}
+        ${chronologyPill(traditionalChronology)}
+        <button class="chronology-details-toggle" type="button" data-chronology-toggle aria-expanded="false" aria-controls="chronology-notes-${escape(t.id)}">Dating notes</button>
+        <div class="chronology-details" id="chronology-notes-${escape(t.id)}" hidden>
+          <div><strong>Academic.</strong> ${md(academicChronology.evidence)}</div>
+          <div><strong>Traditional.</strong> ${md(traditionalChronology.evidence)}</div>
+          ${chronology.availability.isFallback ? `<p>Timeline placement currently uses the only stored numeric range; it does not manufacture the selected chronology.</p>` : ""}
+        </div>
       </div>
-      ${chronology.availability.isFallback ? `<p class="chronology-fallback">Timeline placement currently uses the only stored numeric range; it does not manufacture the selected chronology.</p>` : ""}
       <div class="thesis">${heroThesisHtml}</div>
       ${heroFootnotes}
     </div>

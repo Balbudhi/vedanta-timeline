@@ -1021,34 +1021,47 @@ body.is-reading-mode .dp-min { display: inline-flex; }
   background: var(--rule-warm);
   color: var(--ink-soft);
 }
-.chronology-cards {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 8px;
-  margin: 12px 0 8px;
+.chronology-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  margin: 9px 0 14px;
 }
-.chronology-card {
-  display: grid;
-  gap: 3px;
-  min-width: 0;
-  padding: 9px 10px;
+.chronology-pill {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  padding: 3px 8px;
   border: 1px solid var(--rule);
-  border-radius: 7px;
+  border-radius: 999px;
   background: var(--bg-warm);
-}
-.chronology-card.is-selected { border-color: var(--dot-color); box-shadow: inset 0 0 0 1px var(--dot-color); }
-.chronology-card-label {
-  font-family: var(--sans);
-  font-size: 9.5px;
-  font-weight: 700;
-  letter-spacing: .09em;
-  text-transform: uppercase;
   color: var(--muted);
+  font: 10.5px/1.3 var(--sans);
+  letter-spacing: .03em;
 }
-.chronology-card strong { font: 600 12.5px/1.25 var(--sans); color: var(--ink); }
-.chronology-card-note { font: 12px/1.35 var(--serif); color: var(--muted); }
-.chronology-card-note p { margin: 0; }
-.chronology-fallback { margin: 0 0 14px; font: italic 12px/1.4 var(--serif); color: var(--muted); }
+.chronology-pill strong { color: var(--ink-soft); font-weight: 600; }
+.chronology-pill.is-selected { border-color: var(--dot-color); color: var(--ink-soft); }
+.chronology-details-toggle {
+  margin-left: 3px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  color: var(--muted);
+  font: 11px var(--sans);
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: 3px;
+}
+.chronology-details { flex-basis: 100%; }
+.chronology-details > div, .chronology-details > p {
+  max-width: 52rem;
+  margin: 8px 0 0;
+  color: var(--muted);
+  font: 12px/1.42 var(--serif);
+}
+.chronology-details p { font-style: italic; }
 
 .thesis {
   font-family: var(--serif);
@@ -3034,7 +3047,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     --era-strip-h: 22px;
   }
   .filter-chip-solo { padding: 0 7px; font-size: 9.5px; }
-  .chronology-cards { grid-template-columns: 1fr; }
+  .chronology-details { flex-basis: 100%; margin: 2px 0 0; }
   .filter-solo-pill { font-size: 11px; padding: 0 8px; height: 22px; }
   /* Mobile: panel takes the full screen as a top-layer overlay so the
      short-form lanes still scroll behind. The grid still allocates space
