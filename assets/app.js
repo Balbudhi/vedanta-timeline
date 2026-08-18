@@ -4323,6 +4323,17 @@ function showEmptyState(msg) {
 // ---------- reading mode -----------
 function setReadingMode(on, opts = {}) {
   document.body.classList.toggle("is-reading-mode", on);
+  // A resized panel stores its grid columns inline. That declaration outranks
+  // the reading-mode stylesheet, so it otherwise leaves the article confined
+  // to its old side-pane width while the timeline is hidden. Clear it for the
+  // duration of reading mode and reapply the saved preference on return.
+  if (on) {
+    clearDetailPaneWidth();
+  } else if (panelState.open) {
+    applyDetailPaneWidth();
+  } else {
+    clearDetailPaneWidth();
+  }
   setUrlViewState({ r: on ? "1" : null });
   if (readingModeBtn) {
     const txt = readingModeBtn.querySelector(".btn-text");
