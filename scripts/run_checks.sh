@@ -36,6 +36,7 @@ if command -v node >/dev/null 2>&1; then
     run_check "Chronology resolver" node scripts/check_chronology.js
     run_check "Chronology coverage report" node scripts/report_chronology_coverage.js
     run_check "Thinker references" node scripts/check_thinker_references.js
+    run_check "Citation-link integrity" node scripts/check_citation_links.js
     run_check "Sanskrit reader completeness report" node scripts/report_reader_completeness.js
     run_check "Gita slot integrity" node scripts/validate_gita_slots.js
     run_check "Gita term consistency" node scripts/check_gita_terms.js
