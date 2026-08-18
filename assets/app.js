@@ -414,7 +414,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "20260818-layered-editorial";
+const DATA_VERSION = "20260818-layered-editorial-v2";
 
 async function loadJSON(path) {
   try {
