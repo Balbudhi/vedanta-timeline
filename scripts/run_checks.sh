@@ -40,6 +40,7 @@ if command -v node >/dev/null 2>&1; then
     run_check "Gita term consistency" node scripts/check_gita_terms.js
     run_check "Corpus coverage report" node scripts/check_coverage.js
     run_check "Source inventory integrity" node scripts/check_source_inventory.js
+    run_check "Unmanifested public-source report" node scripts/report_unmanifested_sources.js
 else
     skip_check "Gita term consistency" "node is not installed"
     skip_check "Corpus coverage report" "node is not installed"
