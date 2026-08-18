@@ -1942,8 +1942,8 @@ window.GITA3_VERSES = [
     "meter": "anuṣṭubh",
     "devanagari": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः।\nमनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः॥",
     "iast": "indriyāṇi parāṇy āhur indriyebhyaḥ paraṃ manaḥ |\nmanasas tu parā buddhir yo buddheḥ paratas tu saḥ ||",
-    "sense": "A ladder, each rung higher than the last: the indriyas, then manas, then buddhi — and then, unnamed, whatever stands beyond buddhi. The commentators divide sharply over what that last one is.",
-    "english": "{1:Higher} {2:they call} {0:the indriyas}; {4:higher} {3:than the indriyas} {5:is manas}; {7:but} {8:higher} {6:than manas} {9:is buddhi}; {13:and} {10:he who} {12:is beyond} {11:buddhi} — {14:he}.",
+    "sense": "A ladder, each rung higher than the last: the indriyas, then manas, then buddhi — and beyond buddhi, he. The commentators divide sharply over how that final pronoun is to be identified.",
+    "english": "{1:Higher} {2:they call} {0:the indriyas}; {4:higher} {3:than the indriyas} {5:is manas}; {7:but} {8:higher} {6:than manas} {9:is buddhi}; {13:and} {12:beyond} {11:buddhi} {10,14:is he}.",
     "words": [
       {
         "i": 0,
