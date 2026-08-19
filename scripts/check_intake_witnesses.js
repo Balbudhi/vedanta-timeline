@@ -19,6 +19,7 @@ function findProvenance(dir, out = []) {
 const provenanceFiles = findProvenance(INTAKE_ROOT);
 let checked = 0;
 const pairedWitnesses = new Map();
+const declaredFiles = new Set();
 for (const provenancePath of provenanceFiles) {
   const provenance = JSON.parse(fs.readFileSync(provenancePath, "utf8"));
   const witnessRoot = path.dirname(provenancePath);
@@ -46,6 +47,7 @@ for (const provenancePath of provenanceFiles) {
   if (!target.startsWith(witnessRoot + path.sep) || !fs.existsSync(target)) {
     errors += 1; console.error(`${label}: intake path missing or escapes intake root`); continue;
   }
+  declaredFiles.add(target);
   if (!candidates.has(witness.candidate_id)) { errors += 1; console.error(`${label}: missing source-candidate record`); }
   const bytes = fs.readFileSync(target);
   const actual = crypto.createHash("sha256").update(bytes).digest("hex");
@@ -65,6 +67,20 @@ for (const provenancePath of provenanceFiles) {
   }
   if (!/[\u0900-\u097Fāīūṛṝḷṅñṭḍṇśṣṃḥ]/u.test(text)) { errors += 1; console.error(`${label}: no Sanskrit-script or IAST signal`); }
   if (target.endsWith(".xml") && !/^\s*<\?xml[\s\S]*<TEI\b/m.test(text)) { errors += 1; console.error(`${label}: expected TEI XML root`); }
+  }
+}
+function intakeFiles(dir, out = []) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const target = path.join(dir, entry.name);
+    if (entry.isDirectory()) intakeFiles(target, out);
+    else if (entry.isFile() && entry.name !== "PROVENANCE.json") out.push(target);
+  }
+  return out;
+}
+for (const file of intakeFiles(INTAKE_ROOT)) {
+  if (!declaredFiles.has(file)) {
+    errors += 1;
+    console.error(`untracked intake file: ${path.relative(ROOT, file)}`);
   }
 }
 for (const [key, witnesses] of pairedWitnesses) {
