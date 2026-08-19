@@ -52,6 +52,21 @@ date, provider, named edition/inputter, rights/reuse posture, coverage,
 normalization log, and sample-collation result. A citation-safe passage also
 needs its own verified locus in the citation index.
 
+## Paired-script Muktabodha snapshots
+
+When Muktabodha supplies both IAST and Devanāgarī downloads, retain both raw
+files under the same catalogue number in quarantine. They are parallel
+witnesses for comparison, not interchangeable conversions. The IAST file is
+often easiest to search; the Devanāgarī file is essential for detecting a
+transliteration or encoding defect. Checksum both before doing any repair.
+
+The August 2026 intake demonstrated why this matters: some otherwise useful
+Muktabodha files contain replacement characters, while three selected
+Devanāgarī files are not valid UTF-8. Those are documented quarantine issues,
+not data to normalize by guesswork. A repair requires identifying the original
+encoding or comparing the paired script and a named edition, then recording
+every changed locus.
+
 ## Commands
 
 ```sh
@@ -61,6 +76,8 @@ node scripts/check_source_candidates.js
 node scripts/fetch_source_candidate.js <candidate-id>
 node scripts/check_source_inventory.js
 node scripts/discover_gretil_candidates.js /path/to/gretil-path-index.txt --json
+node scripts/discover_muktabodha_candidates.js /path/to/muktabodha-path-index.txt --json
+node scripts/discover_muktabodha_catalog.js /path/to/muktabodha-catalog.csv --json
 ```
 
 The queue reports every current missing or degraded work from thinker JSON.

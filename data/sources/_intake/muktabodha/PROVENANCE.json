@@ -1,0 +1,29 @@
+{
+  "status": "downloaded-quarantine",
+  "provider": "Muktabodha Digital Library searchable e-text corpus",
+  "license": "CC BY-NC 4.0; attribution to Muktabodha required",
+  "retrieved_at": "2026-08-19",
+  "retrieval_path": "Muktabodha cumulative IAST e-text corpus mirror; individual catalogue records checked in the official browser interface",
+  "policy": "These text witnesses are not public-manifest or citation-safe until title-level coverage review and sample collation are recorded.",
+  "mechanical_changes": [],
+  "witnesses": [
+    {"candidate_id":"abhinavagupta-ipvv-muktabodha-v1","path":"kashmir_saiva/abhinavagupta_ipv_v1_muktabodha.txt","catalog_no":"M00020","sha256":"888dbc346cf4479dabe226f0a0e5419732055b970ce3a77ba3456e92ffd84883"},
+    {"candidate_id":"abhinavagupta-ipvv-muktabodha-v2","path":"kashmir_saiva/abhinavagupta_ipv_v2_muktabodha.txt","catalog_no":"M00021","sha256":"47f64f0c4070cc47945fc5209ca5fe141026b9062d6626e0a1e74c4033961c65"},
+    {"candidate_id":"abhinavagupta-ipvv-muktabodha-v3","path":"kashmir_saiva/abhinavagupta_ipv_v3_muktabodha.txt","catalog_no":"M00022","sha256":"b23140dd532f1f2cc21729ce7b5e27c5519618177e0650c44cb81a049f240b44"},
+    {"candidate_id":"abhinavagupta-paratrisika-vivrti-muktabodha","path":"kashmir_saiva/abhinavagupta_paratrisika_vivrti_muktabodha.txt","catalog_no":"M00154","sha256":"8ac8d2b5a2ed7c60c694921fd9f766494258d9bb904a2ddad93f88b718306387"},
+    {"candidate_id":"somananda-sivadrsti-muktabodha","path":"kashmir_saiva/somananda_sivadrsti_muktabodha.txt","catalog_no":"M00081","sha256":"db791cf1377c60a12f60ce5916e10a2f886d3ba8ca3f36f9941f6c48d87a9a90"},
+    {"candidate_id":"utpaladeva-ajadapramatrsiddhi-muktabodha","path":"kashmir_saiva/utpaladeva_ajadapramatrsiddhi_muktabodha.txt","catalog_no":"M00502","sha256":"bc1b2c4e7d962d277aba5eec295f1517a8bf651e4d9c58a9856bb8bac0fbbede"},
+    {"candidate_id":"utpaladeva-isvarasiddhi-muktabodha","path":"kashmir_saiva/utpaladeva_isvarasiddhi_muktabodha.txt","catalog_no":"M00023","sha256":"d6f9881e94dbcfa23b33de2f89139ba2373cb16647e2d6bf0ef5eab7ba3bd8b8"},
+    {"candidate_id":"utpaladeva-sambandhasiddhi-muktabodha","path":"kashmir_saiva/utpaladeva_sambandhasiddhi_muktabodha.txt","catalog_no":"M00080","sha256":"d8c7ae7de7019fd72f45c7c7cceb7e60afba4c5bb5dcea61be40424f1112cfcf"},
+    {"candidate_id":"sadyojyotis-tattvasamgraha-muktabodha","path":"saiva_siddhanta/sadyojyotis_tattvasamgraha_muktabodha.txt","catalog_no":"M00011","sha256":"f1b74bfba1d87c2dbd8a52380bc34c27b7c167f1db67b600b3ba13a2b233fdae"},
+    {"candidate_id":"sadyojyotis-tattvatrayanirnaya-muktabodha","path":"saiva_siddhanta/sadyojyotis_tattvatrayanirnaya_muktabodha.txt","catalog_no":"M00012","sha256":"5db1b4602a024c639514d19531575924ac579b64f710650ac73ef4e02146f2a7"},
+    {"candidate_id":"sadyojyotis-naresvarapariksa-muktabodha","path":"saiva_siddhanta/sadyojyotis_naresvarapariksa_muktabodha.txt","catalog_no":"M00039","sha256":"ee52c175dfc77ab0adbbfaf3dab56f2afdef32bde04959064ef8a015156ef817","known_issues":["replacement-characters"]},
+    {"candidate_id":"aghorasiva-kriyakramadyotika-muktabodha","path":"saiva_siddhanta/aghorasiva_kriyakramadyotika_muktabodha.txt","catalog_no":"M00126","sha256":"21c75ec5c2f62aee68db400150dfa2fe7d54c6121a14f7c2d458c81b70d7a6ec","known_issues":["replacement-characters"]},
+    {"candidate_id":"sivagrayogin-saivaparibhasa-muktabodha","path":"saiva_siddhanta/sivagrayogin_saivaparibhasa_muktabodha.txt","catalog_no":"M00075","sha256":"3cf8a2e540755036da5b47552e70ecd9d2a06917527978720addcc89f9ef3dbb"},
+    {"candidate_id":"ahirbudhnya-samhita-muktabodha-v1","path":"pancaratra/ahirbudhnya_samhita_v1_muktabodha.txt","catalog_no":"M00002a","sha256":"92017116adc93b51b4fbe10d7f892b8a0a1280ffeee621701c74cfc0d5e7afbf"},
+    {"candidate_id":"ahirbudhnya-samhita-muktabodha-v2","path":"pancaratra/ahirbudhnya_samhita_v2_muktabodha.txt","catalog_no":"M00002b","sha256":"625491dde5613d94c11b5c9ca2783c4df32ef26a2204f979c24b1bb5fe5fdd5f"},
+    {"candidate_id":"jayakhya-samhita-muktabodha","path":"pancaratra/jayakhya_samhita_muktabodha.txt","catalog_no":"M00123","sha256":"b3a43cbc74ba2e57f1a61284e22ad1e3a0ae7f61975031776ef961a606827b3d"},
+    {"candidate_id":"lakshmi-tantra-muktabodha","path":"pancaratra/lakshmi_tantra_muktabodha.txt","catalog_no":"M00206","sha256":"fdb0fe3f23b2b877a0ea1f6023424704dd2aa9ac373cda653da16e883d988a11","known_issues":["replacement-characters"]},
+    {"candidate_id":"svatmarama-hathayogapradipika-muktabodha","path":"yoga/svatmarama_hathayogapradipika_muktabodha.txt","catalog_no":"M00243","sha256":"20cccd0a3b0c23918b665f4ef0a4a2fba8ceeffe3ee2abe3f209830e1c79246c"}
+  ]
+}
