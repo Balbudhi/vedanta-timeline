@@ -1,0 +1,31 @@
+#!/usr/bin/env node
+"use strict";
+
+const crypto = require("crypto");
+const fs = require("fs");
+const path = require("path");
+const ROOT = path.resolve(__dirname, "..");
+const INTAKE_ROOT = path.join(ROOT, "data/sources/_intake/gretil");
+const provenance = JSON.parse(fs.readFileSync(path.join(INTAKE_ROOT, "PROVENANCE.json"), "utf8"));
+const candidates = new Set(JSON.parse(fs.readFileSync(path.join(ROOT, "data/editorial/source_candidates.json"), "utf8")).candidates.map((candidate) => candidate.id));
+let errors = 0;
+for (const witness of provenance.witnesses || []) {
+  const label = witness.candidate_id || witness.path;
+  const target = path.resolve(INTAKE_ROOT, witness.path || "");
+  if (!target.startsWith(INTAKE_ROOT + path.sep) || !fs.existsSync(target)) {
+    errors += 1; console.error(`${label}: intake path missing or escapes intake root`); continue;
+  }
+  if (!candidates.has(witness.candidate_id)) { errors += 1; console.error(`${label}: missing source-candidate record`); }
+  const bytes = fs.readFileSync(target);
+  const actual = crypto.createHash("sha256").update(bytes).digest("hex");
+  if (actual !== witness.sha256) { errors += 1; console.error(`${label}: checksum mismatch`); }
+  if (bytes.subarray(0, 4).toString("ascii") === "%PDF") { errors += 1; console.error(`${label}: PDF is not allowed in clean-text intake`); }
+  let text;
+  try { text = new TextDecoder("utf-8", { fatal: true }).decode(bytes); }
+  catch (_) { errors += 1; console.error(`${label}: malformed UTF-8`); continue; }
+  if (text.includes("\uFFFD")) { errors += 1; console.error(`${label}: replacement character in witness`); }
+  if (!/[\u0900-\u097Fāīūṛṝḷṅñṭḍṇśṣṃḥ]/u.test(text)) { errors += 1; console.error(`${label}: no Sanskrit-script or IAST signal`); }
+  if (target.endsWith(".xml") && !/^\s*<\?xml[\s\S]*<TEI\b/m.test(text)) { errors += 1; console.error(`${label}: expected TEI XML root`); }
+}
+console.log(`Intake witnesses: ${(provenance.witnesses || []).length} checked; ${errors} error(s).`);
+process.exitCode = errors ? 1 : 0;
