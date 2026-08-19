@@ -87,7 +87,10 @@
       ],
       "genre": "polemical-tract",
       "language": "sanskrit",
-      "source_status": "primary-text-not-in-corpus",
+      "source_status": "acceptable-on-disk",
+      "source_paths": [
+        "data/sources/sanskrit/vedanta/yamuna_catuhshloki_ambuda.txt"
+      ],
       "summary": "A *prakaraṇa* defending the scriptural authority (*prāmāṇya*) of the Pāñcarātra *saṃhitā*-corpus against the Mīmāṃsaka objection that, being non-Vedic and authored by a personal Bhagavān, the Pāñcarātra cannot count as *śruti* and its initiates fall outside the four *varṇa*-orders. Yāmuna's reply has three moves. First, on authorship: the Pāñcarātra is the utterance of Nārāyaṇa, who is the source of the Veda itself; an utterance of the *vedasya kartā* is not weaker in authority than the Veda. Second, on content: the Pāñcarātra prescriptions do not contradict *śruti* but determine what *śruti* leaves undetermined regarding Vaiṣṇava liturgy, and so stand to *śruti* as supplementary smṛti rather than as rival. Third, on social order: Pāñcarātra initiates (*bhāgavata*-s) are not a fifth *varṇa* outside Vedic order but qualified *brāhmaṇa*-s practicing a particular *kalpa*. The work secured the institutional legitimacy of the Śrīvaiṣṇava temple-cultus as Vaidika orthodoxy. Philosophically, it bequeaths to Rāmānuja and Vedānta Deśika a layered theory of *prāmāṇya* on which scriptural authority can be carried by texts other than the four Vedas without descending into sectarian innovation.",
       "key_passage_ids": [],
       "entry_status": "reviewed"

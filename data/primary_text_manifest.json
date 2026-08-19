@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-08-19T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 95,
+  "file_count": 96,
   "note": "Public source corpus held in this repository. This manifest lists only paths present under data/sources/. Privately retained or restricted witnesses are catalogued separately in the parishishta repository provenance records.",
   "files": [
     {
@@ -1291,6 +1291,20 @@
       "verification_status": "licensed CC BY-SA 4.0 TEI witness on disk; root/commentary and correction encoding are documented in the header; public claims require locus-level collation",
       "size_bytes": 586304,
       "line_count": 1973
+    },
+    {
+      "path": "sanskrit/vedanta/yamuna_catuhshloki_ambuda.txt",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Yāmuna, Catuḥślokī",
+      "edition": "Ambuda downloadable transcription, explicitly identified by Ambuda as based on its GRETIL source; exported 2025-12-23",
+      "format": "plain-text",
+      "thinker_id": "yamuna",
+      "work_id": "catuh-shloki",
+      "source_url": "https://ambuda.org/texts/downloads/catuhshloki.txt",
+      "verification_status": "public four-verse working witness on disk; Ambuda reports 6/8 proofing checks; public claims require locus-level collation",
+      "size_bytes": 2275,
+      "line_count": 13
     }
   ]
 }

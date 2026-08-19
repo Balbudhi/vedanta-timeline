@@ -6,7 +6,8 @@ const fs = require("fs");
 const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const INTAKE_ROOT = path.join(ROOT, "data/sources/_intake");
-const candidates = new Set(JSON.parse(fs.readFileSync(path.join(ROOT, "data/editorial/source_candidates.json"), "utf8")).candidates.map((candidate) => candidate.id));
+const candidateRecords = JSON.parse(fs.readFileSync(path.join(ROOT, "data/editorial/source_candidates.json"), "utf8")).candidates;
+const candidates = new Map(candidateRecords.map((candidate) => [candidate.id, candidate]));
 let errors = 0;
 function findProvenance(dir, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -48,7 +49,12 @@ for (const provenancePath of provenanceFiles) {
     errors += 1; console.error(`${label}: intake path missing or escapes intake root`); continue;
   }
   declaredFiles.add(target);
-  if (!candidates.has(witness.candidate_id)) { errors += 1; console.error(`${label}: missing source-candidate record`); }
+  const candidate = candidates.get(witness.candidate_id);
+  if (!candidate) { errors += 1; console.error(`${label}: missing source-candidate record`); }
+  else if (["discovered", "retrieval-confirmed"].includes(candidate.acquisition_status)) {
+    errors += 1;
+    console.error(`${label}: provenance-tracked witness requires downloaded-quarantine or later candidate state`);
+  }
   const bytes = fs.readFileSync(target);
   const actual = crypto.createHash("sha256").update(bytes).digest("hex");
   if (actual !== witness.sha256) { errors += 1; console.error(`${label}: checksum mismatch`); }

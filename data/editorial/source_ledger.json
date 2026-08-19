@@ -128,6 +128,24 @@
         "pramana"
       ],
       "notes": "The TEI distinguishes base-text quotations and vṛtti paragraphs and records correction loci. Public citations need individual comparison with the named edition."
+    },
+    {
+      "id": "yamuna-catuhshloki-ambuda",
+      "title_iast": "Catuḥślokī",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/vedanta/yamuna_catuhshloki_ambuda.txt",
+      "witness": "Ambuda downloadable transcription, identified by the provider as based on its GRETIL source; export header dated 2025-12-23 and provider reports 6/8 proofing checks.",
+      "rights_status": "source-specific-review-required",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://yamuna/catuh-shloki/"
+      ],
+      "review_areas": [
+        "yamuna",
+        "vishishtadvaita",
+        "sri"
+      ],
+      "notes": "The short downloaded witness is suitable for source review. Verify each public locus against the documented source before using it to substantiate editorial claims."
     }
   ]
 }
