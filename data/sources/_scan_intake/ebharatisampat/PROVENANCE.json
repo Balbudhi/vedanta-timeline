@@ -1,0 +1,12 @@
+{
+  "status": "downloaded-scan-quarantine",
+  "provider": "E-Bharatisampat public e-book PDF endpoint",
+  "policy": "Scans are retained as edition and collation witnesses only. They are not clean-text intake and must not be cited as extracted text without a separately reviewed transcription.",
+  "witnesses": [
+    {"thinker_id":"baladeva","work_id":"prameya-ratnavali","catalog_no":"Ebharati-12640","path":"baladeva_prameya_ratnavali_ebharati12640.pdf","sha256":"5ee069f52251a13af38ab39f245f5350c8ab87f4c9f4796a0fc5a8810f9d0de3"},
+    {"thinker_id":"ramanuja","work_id":"gadya-trayam","catalog_no":"Ebharati-10503","path":"ramanuja_gadya_trayam_ebharati10503.pdf","sha256":"864208b269d27be32bec81e972732edfe56eb16ad16b1951e339236ea9816963"}
+  ],
+  "failed_retrievals": [
+    {"thinker_id":"ramanuja","work_id":"nitya-grantha","catalog_no":"Ebharati-10486","url":"https://www.ebharatisampat.in/pdfs/1771932264NityaGrantha1941.pdf","result":"HTTP 404 on 2026-08-19; retry from authenticated reader or refreshed record URL"}
+  ]
+}
