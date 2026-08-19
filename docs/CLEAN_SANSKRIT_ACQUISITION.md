@@ -165,7 +165,8 @@ catalogue serial and the collection boundary before retrieval; do not infer a
 single-work witness from a multi-work volume. Current thinker-first records
 include Madhva *Tattva-Saṅkhyāna* (Ebharati-10564), a Madhva prakaraṇa
 collection (Ebharati-10237), and Vedānta Deśika *Nyāyapariśuddhi* with
-*Nyāyasāra* (Ebharati-9490).
+*Nyāyasāra* (Ebharati-9490), as well as Baladeva's *Prameya-Ratnāvalī*
+(Ebharati-12640) and *Siddhānta-ratna* part 1 (Ebharati-10476).
 
 ## Research matrix: August 2026
 
