@@ -15,7 +15,7 @@ partitions consume its recorded results first.
 | Sanskrit Documents | Volunteer Unicode HTML/ITX with contributor fields | Candidate/discovery source; respect page permission notice and collate | Full 87-page sitemap, 9,823 records compared to current gaps |
 | Ambuda | Readable/downloadable Sanskrit texts with proofing indicators | Working witness only when source identity and proofing status are retained | Targeted validated route; expand through work partitions |
 | DSBC | Buddhist Digital Sanskrit Canon reader/transcriptions | Read/collate/bibliography only; its policy does not authorise republication | Buddhist gap sweep complete |
-| JainQQ / Jain eLibrary | Large Jain scan/OCR and romanized-text catalogue | Edition discovery/collation only; not a clean intake source | Jain gap sweep complete |
+| JainQQ / Jain eLibrary | Large Jain scan library with page images, download controls, Book Text, and Romanized Text | Downloadable scan/OCR intake and edition/collation source; do not mistake its raw OCR/romanization for a proofread clean witness | Jain gap sweep complete |
 | Project Madurai | Headered Unicode Tamil originals | Native-language primary witness candidate; retain header and follow redistribution condition | Relevant Tamil thinker sweep complete |
 | Marathi Wikisource | Revisioned Marathi public transcription | Native-language primary witness candidate; capture revision and sample | Relevant Marathi thinker sweep complete |
 | Vachana Sanchaya | Research Vachana corpus with author/verse citations | Allama discovery/collation route; text-data licence still unclear | Relevant Kannada thinker sweep complete |
