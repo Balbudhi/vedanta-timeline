@@ -1,0 +1,17 @@
+{
+  "status": "downloaded-quarantine",
+  "provider": "E-Bharatisampat public Unicode chapter reader",
+  "retrieved_from": "https://www.ebharatisampat.in/",
+  "policy": "Raw public reader HTML is retained unmodified, with its individual reader URL recorded in the candidate registry. It includes site chrome and may contain machine-conversion defects. No HTML is normalized or promoted until text body extraction, source metadata review, and sampled collation are separately recorded.",
+  "mechanical_changes": [],
+  "witnesses": [
+    {"candidate_id":"baladeva-prameya-ratnavali-ebharati-unicode","path":"baladeva-prameya-ratnavali-ebharati-unicode.html","sha256":"6cacff74ba47d4e6d9167a9c68a9bcd6a3953011d55368ddee7ffa24d7fd002c"},
+    {"candidate_id":"pancaratra-ahirbudhnya-ebharati-unicode","path":"pancaratra-ahirbudhnya-ebharati-unicode.html","sha256":"dbb2fa37fd51b62a46df0ec47c02f575a7af0b972bb9afb9415039be0f95e440"},
+    {"candidate_id":"pancaratra-jayakhya-ebharati-unicode","path":"pancaratra-jayakhya-ebharati-unicode.html","sha256":"2c8bbca079e87e1cd76d251d8833155776b287e0790768b80f9ed13c6a8a04b6"},
+    {"candidate_id":"pancaratra-lakshmi-ebharati-unicode","path":"pancaratra-lakshmi-ebharati-unicode.html","sha256":"97bc0df331f7df5b5c7ffd68be4d404bf18d56fdb76d49547f2da5b1535da240"},
+    {"candidate_id":"pancaratra-satvata-ebharati-unicode","path":"pancaratra-satvata-ebharati-unicode.html","sha256":"71d484a9b1b51866620b7054a1d912babf7c2492f708eb590a876c887b4bfc90"},
+    {"candidate_id":"srinivasa-yatindramatadipika-ebharati-unicode","path":"srinivasa-yatindramatadipika-ebharati-unicode.html","sha256":"7ad779efa1a005b47a2f8f90c59e5974ef749d63f4291d5dd339d666c5d97d65"},
+    {"candidate_id":"vedanta-desika-adhikarana-saravali-ebharati-unicode","path":"vedanta-desika-adhikarana-saravali-ebharati-unicode.html","sha256":"87f25b896235f67a9c5f7c446a3045a2840b5dc4c23f4ebe8c59e454cc043dda"},
+    {"candidate_id":"vedanta-desika-nyayaparishuddhi-ebharati-unicode","path":"vedanta-desika-nyayaparishuddhi-ebharati-unicode.html","sha256":"937f8bcd3cef4c31de74f4ce280c51bd7f5198d780840185eba1a2a1a875c27c"}
+  ]
+}
