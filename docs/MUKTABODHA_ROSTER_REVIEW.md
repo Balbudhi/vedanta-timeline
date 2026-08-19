@@ -75,3 +75,14 @@ than only ritual procedure:
 This is deliberately a review list—not an automatic roster expansion. The
 next gate is a source packet with the witness, named locus scheme, attribution
 posture, and a concise description of the work’s philosophical claims.
+
+## Nepalese Sarvāmnāya result
+
+The July 2026 catalogue snapshot contains 23 records tagged `Nepalese
+Sarvāmnāya`. The tradition-scoped report finds no existing thinker text and no
+named non-ritual author ready for roster review. Twenty-two records are
+explicit Siddhalakṣmī, pūjā, mantra, or paddhati materials; the remaining
+*Parātantra* is anonymous and lacks enough catalogue description to establish
+a philosophical author or system. This is a real source-family lead, but not
+evidence for a fabricated list of Nepali thinkers. Re-run the scoped command
+when a newer catalogue gives an identifiable author or theory-bearing text.
