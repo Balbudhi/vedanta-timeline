@@ -1,0 +1,4743 @@
+[
+  {
+    "work": {
+      "thinker_id": "baladeva",
+      "work_id": "prameya-ratnavali",
+      "title_iast": "Prameya-Ratnāvalī",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Prameya Ratnavali",
+    "record": {
+      "title": "Prameya Ratnavali",
+      "id": "12640",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDgwNDEyNDA1MjkzMzEyMQ==",
+      "category": [
+        "Category : भक्तिसम्प्रदायः",
+        "Sub-Category : भक्तिसम्प्रदायसम्बद्धपुस्तकानि"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   प्रमेयरत्नावली",
+        "AUTHOR  :   बलदेव-विद्याभूषणः",
+        "PUBLISHER  :   संस्कृत-साहित्य-परिषत्",
+        "PUBLISH YEAR  :   1927",
+        "DOMAIN  :   भक्तिसम्प्रदायः",
+        "SUB-DOMAIN  :   भक्तिसम्प्रदायसम्बद्धपुस्तकानि",
+        "PAGES  :   168",
+        "LANGUAGE  :   संस्कृतम् वङ्गभाषा",
+        "TRANSLATOR  :   अक्षयकुमार-शर्मा",
+        "EDITOR  :   अक्षयकुमार-शर्मा",
+        "PRIMARY COMMENTATOR  :   कृष्णदेव-वेदान्त-वागीशः",
+        "COMMENTARY NAME  :   कान्तिमाला",
+        "PRINTER  :   सिद्धेश्वर-प्रेस्",
+        "SERIAL NO. : Ebharati-12640"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDgwNDEyNDA1MjkzMzEyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhaktivinoda",
+      "work_id": "vedanta-adhikarana-mala",
+      "title_iast": "Vedānta-Adhikaraṇa-Mālā",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Vedanta Adhikarana Mala",
+    "record": {
+      "title": "Vedanta Adhikarana Mala",
+      "id": "10560",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDIzNjc5OTEzMDI3MzEwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्ताधिकरणमाला",
+        "AUTHOR  :   पुरुषोत्तम-गोस्वामी",
+        "PUBLISHER  :   मूलचन्द्र-तुलसीदास-तेलीवाला धैर्यलाल-ब्रजदास-सांकलीया",
+        "PUBLISH YEAR  :   1919",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   विशिष्टाद्वैतदर्शनम्",
+        "PAGES  :   90",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   मूलचन्द्र-तुलसीदास-तेलीवाला",
+        "SECOND EDITOR  :   धैर्यलाल-ब्रजदास-सांकलीया",
+        "PRINTER  :   निर्णयसागर-प्रेस्",
+        "SERIAL NO. : Ebharati-10560"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDIzNjc5OTEzMDI3MzEwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "amalananda",
+      "work_id": "vedanta-kalpataru",
+      "title_iast": "Vedānta-kalpataru",
+      "school": "Advaita"
+    },
+    "query": "Vedanta kalpataru",
+    "record": {
+      "title": "Vedanta Kalpataru Parimala (Part 1)",
+      "id": "7960",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDIxOTc2OTgwMDMxNDY3",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : दर्शनसम्बद्धपुस्तकानि"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तकल्पतरुपरिमलः (प्रथमभागः)",
+        "AUTHOR  :   अप्पयदीक्षितः",
+        "PUBLISHER  :   ई-जे-लाजरस्-एण्ड्-को",
+        "PUBLISH YEAR  :   1896",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   दर्शनसम्बद्धपुस्तकानि",
+        "PAGES  :   232",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   तेलङ्ग्-राम-शास्त्री",
+        "PRINTER  :   मेडिकल्-हाल्-यन्त्रालयः",
+        "SERIAL NO. : Ebharati-7960"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDIxOTc2OTgwMDMxNDY3",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "amalananda",
+      "work_id": "vedanta-kalpataru",
+      "title_iast": "Vedānta-kalpataru",
+      "school": "Advaita"
+    },
+    "query": "Vedanta kalpataru",
+    "record": {
+      "title": "Vedanta Kalpataru Parimala (Part 2)",
+      "id": "12555",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDEyODA2MzI4MjMyNTAyMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तकल्पतरुपरिमलः (द्वितीयभागः)",
+        "AUTHOR  :   अप्पयदीक्षितः",
+        "PUBLISHER  :   ई-जे-लाजरस्-एण्ड्-को",
+        "PUBLISH YEAR  :   1896",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   276",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   तेलङ्ग्-राम-शास्त्री",
+        "PRINTER  :   मेडिकल्-हाल्-यन्त्रालयः",
+        "SERIAL NO. : Ebharati-12555"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDEyODA2MzI4MjMyNTAyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "amalananda",
+      "work_id": "vedanta-kalpataru",
+      "title_iast": "Vedānta-kalpataru",
+      "school": "Advaita"
+    },
+    "query": "Vedanta kalpataru",
+    "record": {
+      "title": "Vedanta Kalpataru Parimala (Part 3)",
+      "id": "12556",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjM2MDU4OTE4ODIzNTAyMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तकल्पतरुपरिमलः (तृतीयभागः)",
+        "AUTHOR  :   अप्पयदीक्षितः",
+        "PUBLISHER  :   ई-जे-लाजरस्-एण्ड्-को",
+        "PUBLISH YEAR  :   1898",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   260",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   तेलङ्ग्-राम-शास्त्री",
+        "PRINTER  :   मेडिकल्-हाल्-यन्त्रालयः",
+        "SERIAL NO. : Ebharati-12556"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjM2MDU4OTE4ODIzNTAyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "anandabodha",
+      "work_id": "pramana-mala",
+      "title_iast": "Pramāṇa-Mālā",
+      "school": "Advaita"
+    },
+    "query": "Pramana Mala",
+    "record": {
+      "title": "Pramana Mala",
+      "id": "12944",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODYzMDE5MTYzNTc1MjQyMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   प्रमाणमाला",
+        "AUTHOR  :   आनन्द-बोधाचार्यः",
+        "PUBLISHER  :   अद्वैत-सभा-कुम्बकोणम्",
+        "PUBLISH YEAR  :   1956",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   130",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   एस्. सुब्रह्मण्य-शास्त्री",
+        "PRIMARY COMMENTATOR  :   अनुभूति-स्वरूपाचार्यः",
+        "SECONDARY COMMENTATOR  :   चित्सुखाचार्यः",
+        "COMMENTARY NAME  :   निबन्धः  सम्बन्धोक्तिः",
+        "PRINTER  :   वाणीविलास-प्रेस्",
+        "SERIAL NO. : Ebharati-12944"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODYzMDE5MTYzNTc1MjQyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "anantakrishna-sastri",
+      "work_id": "advaita-dipika",
+      "title_iast": "Advaita-Dīpikā",
+      "school": "Advaita"
+    },
+    "query": "Advaita Dipika",
+    "record": {
+      "title": "Advaita Dipika",
+      "id": "10857",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDU2NTc5MzAyMTMyMjQwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   अद्वैतदीपिका",
+        "AUTHOR  :   कामाक्षिः",
+        "PUBLISHER  :   टि. एस्. नटेश-शास्त्री",
+        "PUBLISH YEAR  :   1910",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   84",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "TRANSLATOR  :   टि. एस्. नटेश-शास्त्री",
+        "EDITOR  :   टि. एस्. नटेश-शास्त्री",
+        "BOOKS CONTRIBUTOR  :   राकेशदाशः",
+        "PRINTER  :   श्रीविद्या-प्रेस्",
+        "SERIAL NO. : Ebharati-10857"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDU2NTc5MzAyMTMyMjQwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nrsimhasrama",
+      "work_id": "advaitadipika",
+      "title_iast": "Advaitadīpikā",
+      "school": "Advaita"
+    },
+    "query": "Advaitadipika",
+    "record": {
+      "title": "Advaitadipika",
+      "id": "2111",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjQ4MjU3NzYwODQ2MjAy",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   अद्वैतदीपिका",
+        "AUTHOR  :   श्रीयुक्तानन्तकृष्णशास्त्री",
+        "PUBLISHER  :   श्रीयुक्तानन्तकृष्णशास्त्री",
+        "PUBLISH YEAR  :   1922",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   205",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRINTER  :   वणिक्-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-2111"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MjQ4MjU3NzYwODQ2MjAy&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjQ4MjU3NzYwODQ2MjAy",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nrsimhasrama",
+      "work_id": "advaitadipika",
+      "title_iast": "Advaitadīpikā",
+      "school": "Advaita"
+    },
+    "query": "Advaitadipika",
+    "record": {
+      "title": "Advaitadipika (Part-2)",
+      "id": "9691",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjA2MTEzNTg1OTkyMDM5",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   अद्वैतदीपिका (द्वितीयो भागः)",
+        "AUTHOR  :   अनन्तकृष्णशास्त्री",
+        "PUBLISH YEAR  :   1923",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   253",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   कर्णाटकसंस्कृतविश्वविद्यालयः-बेङ्गलूरु",
+        "SERIAL NO. : Ebharati-9691"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjA2MTEzNTg1OTkyMDM5",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nrsimhasrama",
+      "work_id": "advaitadipika",
+      "title_iast": "Advaitadīpikā",
+      "school": "Advaita"
+    },
+    "query": "Advaitadipika",
+    "record": {
+      "title": "Advaitadipika Vatagama",
+      "id": "12510",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDIyOTk2Mjk5MjE5MDAyMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   अद्वैतदीपिका-वातागमः",
+        "AUTHOR  :   गौडगेरि-वेङ्कटरमणाचार्यः",
+        "PUBLISHER  :   डि-श्रीनिवासाचार्यः",
+        "PUBLISH YEAR  :   1924",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "PAGES  :   302",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRINTER  :   वि-वि-सुब्बय्य-एण्ड्-सन्स् मुद्रणालयः",
+        "SERIAL NO. : Ebharati-12510"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDIyOTk2Mjk5MjE5MDAyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nrsimhasrama",
+      "work_id": "bhedadhikkara",
+      "title_iast": "Bhedadhikkāra",
+      "school": "Advaita"
+    },
+    "query": "Bhedadhikkara",
+    "record": {
+      "title": "Bhedadhikkara",
+      "id": "9371",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjY1NjM3Nzg3MDg1OTk4",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   भेदधिक्कारः",
+        "AUTHOR  :   श्रीनरसिंहाश्रममुनिः",
+        "PUBLISH YEAR  :   1904",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   184",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   पण्डितलक्ष्मणशास्त्री-द्राविड",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "PRINTER  :   विद्याविलासप्रेस्",
+        "SERIAL NO. : Ebharati-9371"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjY1NjM3Nzg3MDg1OTk4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nrsimhasrama",
+      "work_id": "bhedadhikkara",
+      "title_iast": "Bhedadhikkāra",
+      "school": "Advaita"
+    },
+    "query": "Bhedadhikkara",
+    "record": {
+      "title": "Bhedadhikkara",
+      "id": "7630",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDY4OTc2OTIzMTU0MjM3",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   भेदाधिक्कारः",
+        "AUTHOR  :   श्रीनारायणाश्रममुनिः",
+        "PUBLISHER  :   ब्रिज्-बि-दासः",
+        "PUBLISH YEAR  :   1904",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   97",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   लक्ष्मणशास्त्री",
+        "PRIMARY COMMENTATOR  :   अप्पय्यदीक्षितः",
+        "COMMENTARY NAME  :   उपक्रमपराक्रमः",
+        "PRINTER  :   विद्याविलास-मुद्रणलयः तारा-मुद्रणलयः",
+        "SERIAL NO. : Ebharati-7630"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDY4OTc2OTIzMTU0MjM3",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "prakasananda",
+      "work_id": "vedanta-siddhanta-muktavali",
+      "title_iast": "Vedānta-siddhānta-muktāvalī",
+      "school": "Advaita"
+    },
+    "query": "Vedanta siddhanta muktavali",
+    "record": {
+      "title": "Vedanta Siddhanta Muktavali",
+      "id": "10937",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDE0OTYzMzA5MDE5OTQwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसिद्धान्तमुक्तावली",
+        "AUTHOR  :   प्रकाशानन्दः",
+        "PUBLISHER  :   इ. जे. लजरस्-एण्ड्-को",
+        "PUBLISH YEAR  :   1898",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   206",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "TRANSLATOR  :   आर्थर्-वेनिस्",
+        "EDITOR  :   आर्थर्-वेनिस्",
+        "BOOKS CONTRIBUTOR  :   राकेशदाशः",
+        "PRINTER  :   द-मेडिकल्-हल्-प्रेस्",
+        "SERIAL NO. : Ebharati-10937"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDE0OTYzMzA5MDE5OTQwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "sadananda-yogindra",
+      "work_id": "vedantasara",
+      "title_iast": "Vedāntasāra",
+      "school": "Advaita"
+    },
+    "query": "Vedantasara",
+    "record": {
+      "title": "Vedantasara",
+      "id": "9508",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjczODQ5MjcyMjM3MjE5",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : भारतीयदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसारः",
+        "AUTHOR  :   सदानन्दः",
+        "PUBLISH YEAR  :   1911",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   भारतीयदर्शनम्",
+        "PAGES  :   229",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   कर्णाटकसंस्कृतविश्वविद्यालयः-बेङ्गलूरु",
+        "PRIMARY COMMENTATOR  :   आपदेवः",
+        "COMMENTARY NAME  :   बालबोधिनी",
+        "PRINTER  :   श्रीवाणीविलास-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-9508"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjczODQ5MjcyMjM3MjE5",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "sadananda-yogindra",
+      "work_id": "vedantasara",
+      "title_iast": "Vedāntasāra",
+      "school": "Advaita"
+    },
+    "query": "Vedantasara",
+    "record": {
+      "title": "Vedantasara",
+      "id": "7789",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODU5NDIyMjM3NDE3NzQ3",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : दर्शनसम्बद्धपुस्तकानि"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसारः",
+        "AUTHOR  :   सदानन्दः",
+        "PUBLISH YEAR  :   1850",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   दर्शनसम्बद्धपुस्तकानि",
+        "PAGES  :   95",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "PRINTER  :   प्रेस्बिटेरियन्-मिशन्-प्रेस्",
+        "SERIAL NO. : Ebharati-7789"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODU5NDIyMjM3NDE3NzQ3",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "sadananda-yogindra",
+      "work_id": "vedantasara",
+      "title_iast": "Vedāntasāra",
+      "school": "Advaita"
+    },
+    "query": "Vedantasara",
+    "record": {
+      "title": "Vedantasara",
+      "id": "9390",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDg1MjQzNjE3NDA0MTA5",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसारः",
+        "AUTHOR  :   सदानन्दः",
+        "PUBLISHER  :   पाण्डुरङ्ग-जावजी",
+        "PUBLISH YEAR  :   1934",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   190",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "EDITOR  :   कलोनेल-जि-ए-जेकोभ्",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "COMMENTARY NAME  :   नृसिंहसारस्वती रामतीर्थः",
+        "PRINTER  :   निर्णयसागर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-9390"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDg1MjQzNjE3NDA0MTA5",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "sadananda-yogindra",
+      "work_id": "vedantasara",
+      "title_iast": "Vedāntasāra",
+      "school": "Advaita"
+    },
+    "query": "Vedantasara",
+    "record": {
+      "title": "Vedantasara",
+      "id": "2514",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODA5ODQ0MzU1NDMzMTQy",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसारः",
+        "AUTHOR  :   सदानन्द-योगीन्द्रः",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "SERIAL NO. : Ebharati-2514"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=ODA5ODQ0MzU1NDMzMTQy&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "sadananda-yogindra",
+      "work_id": "vedantasara",
+      "title_iast": "Vedāntasāra",
+      "school": "Advaita"
+    },
+    "query": "Vedantasara",
+    "record": {
+      "title": "Vedantasara",
+      "id": "8403",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjYwMjcwNTI0NjU2NjA4",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसारः",
+        "AUTHOR  :   सदानन्दयोगीन्द्रः",
+        "PUBLISHER  :   आशुबोध विद्याभूषणः नित्यबोधविद्यारत्नः",
+        "PUBLISH YEAR  :   1915",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   195",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRIMARY COMMENTATOR  :   शङ्कराचार्यः",
+        "SECONDARY COMMENTATOR  :   नृसिंहसरस्वती रामतीर्थयतिः",
+        "COMMENTARY NAME  :   सुबोधिनी विद्वन्मनोरञ्जनी",
+        "PRINTER  :   वि. वि. मुखर्जी वाचस्पतियन्त्रम् कलिकातानगरी",
+        "SERIAL NO. : Ebharati-8403"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjYwMjcwNTI0NjU2NjA4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "sadananda-yogindra",
+      "work_id": "vedantasara",
+      "title_iast": "Vedāntasāra",
+      "school": "Advaita"
+    },
+    "query": "Vedantasara",
+    "record": {
+      "title": "Vedantasara and Sridakshinamurtistotra",
+      "id": "10402",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDQ2Mzc2MzE5MjU1ODk5",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : दर्शनसम्बद्धपुस्तकानि"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसारः तथा श्रीदक्षिणामूर्तिस्तोत्रम्",
+        "PUBLISHER  :   रमापतिमिश्रा",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   दर्शनसम्बद्धपुस्तकानि",
+        "PAGES  :   118",
+        "LANGUAGE  :   संस्कृतम् गुजराति",
+        "TRANSLATOR  :   शास्त्रीमाणेकलालः",
+        "EDITOR  :   तुलजाशंकरशास्त्री",
+        "BOOKS CONTRIBUTOR  :   प्राचीन-इतिहास-संस्कृति-केन्द्रम् जैनविश्वविद्यालयः बेङ्गुलुरू",
+        "PRIMARY COMMENTATOR  :   रमापतिमिश्रा",
+        "SECONDARY COMMENTATOR  :   यतिवरः",
+        "PRINTER  :   वैभवमुद्रणालयः मुंबई",
+        "SERIAL NO. : Ebharati-10402"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDQ2Mzc2MzE5MjU1ODk5",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "sadananda-yogindra",
+      "work_id": "vedantasara",
+      "title_iast": "Vedāntasāra",
+      "school": "Advaita"
+    },
+    "query": "Vedantasara",
+    "record": {
+      "title": "Vedantasara-Vyakhyanamatram",
+      "id": "2515",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDMzMTk2OTQ1MDM0MTQy",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसारः-व्याख्यानमात्रम्",
+        "AUTHOR  :   डा. लम्बोदर-मिश्रः",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "SERIAL NO. : Ebharati-2515"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MDMzMTk2OTQ1MDM0MTQy&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "sri-harsa",
+      "work_id": "khandanakhandakhadya",
+      "title_iast": "Khaṇḍanakhaṇḍakhādya",
+      "school": "Advaita"
+    },
+    "query": "Khandanakhandakhadya",
+    "record": {
+      "title": "Khandanakhandakhadyam",
+      "id": "9480",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDY1MDYxODczNDQwMDE5",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   खण्डनखण्डखाद्यम्",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   820",
+        "LANGUAGE  :   संस्कृतम् हिन्दी",
+        "EDITOR  :   योगीन्द्रानन्दः",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "PRIMARY COMMENTATOR  :   आनन्दपूर्णसरस्वती",
+        "COMMENTARY NAME  :   खण्डनफक्किकाविभजनी",
+        "SERIAL NO. : Ebharati-9480"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDY1MDYxODczNDQwMDE5",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "laksmana-desikendra",
+      "work_id": "sarada-tilaka",
+      "title_iast": "Śāradātilaka",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Saradatilaka",
+    "record": {
+      "title": "Saradatilakam",
+      "id": "6048",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjUyODYxNDcyNTg1MDg1",
+      "category": [
+        "Category : आगमः",
+        "Sub-Category : शाक्तम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   शारदातिलकम्",
+        "AUTHOR  :   लक्ष्मणदेशिकेन्द्रः",
+        "PUBLISHER  :   जयकृष्णदास-हरिदासगुप्तः",
+        "PUBLISH YEAR  :   1934",
+        "DOMAIN  :   आगमः",
+        "SUB-DOMAIN  :   शाक्तम्",
+        "PAGES  :   591",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   एम्. एम्. पण्डितः मुकुन्द-झा-भशी",
+        "PRIMARY COMMENTATOR  :   राघवभट्टः",
+        "COMMENTARY NAME  :   पदार्थादर्शः",
+        "PRINTER  :   जयकृष्णदासगुप्तः",
+        "SERIAL NO. : Ebharati-6048"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=NjUyODYxNDcyNTg1MDg1&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjUyODYxNDcyNTg1MDg1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "laksmana-desikendra",
+      "work_id": "sarada-tilaka",
+      "title_iast": "Śāradātilaka",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Saradatilaka",
+    "record": {
+      "title": "Saradatilakam",
+      "id": "6049",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODc2MDE0MDcyMTg2MDg1",
+      "category": [
+        "Category : आगमः",
+        "Sub-Category : शाक्तम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   शारदातिलकम्",
+        "AUTHOR  :   लक्ष्मणाचार्यः",
+        "PUBLISHER  :   जीवानन्दविद्यासागरभट्टाचार्यः",
+        "PUBLISH YEAR  :   1892",
+        "DOMAIN  :   आगमः",
+        "SUB-DOMAIN  :   शाक्तम्",
+        "PAGES  :   293",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   जीवानन्दविद्यासागरभट्टाचार्यः",
+        "PRINTER  :   सरस्वतीयन्त्रम् कलिकाता",
+        "SERIAL NO. : Ebharati-6049"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=ODc2MDE0MDcyMTg2MDg1&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODc2MDE0MDcyMTg2MDg1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "punyananda",
+      "work_id": "kamakalavilasa",
+      "title_iast": "Kāmakalāvilāsa",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Kamakalavilasa",
+    "record": {
+      "title": "Kamakalavilasa",
+      "id": "8850",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDA3NDM0NTQ3NjY1OTQ4",
+      "category": [
+        "Category : आगमः",
+        "Sub-Category : तन्त्रशास्त्रम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   कामकलाविलासः",
+        "AUTHOR  :   पुण्यानन्दः",
+        "PUBLISHER  :   गणेश-एण्ड-क.",
+        "PUBLISH YEAR  :   1953",
+        "DOMAIN  :   आगमः",
+        "SUB-DOMAIN  :   तन्त्रशास्त्रम्",
+        "PAGES  :   229",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRIMARY COMMENTATOR  :   नटनानन्दः",
+        "COMMENTARY NAME  :   चिद्वल्ल्या",
+        "PRINTER  :   वसन्त-यन्त्रालयः",
+        "SERIAL NO. : Ebharati-8850"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MDA3NDM0NTQ3NjY1OTQ4&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDA3NDM0NTQ3NjY1OTQ4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "svacchanda-tantra",
+      "work_id": "svacchanda-tantra-text",
+      "title_iast": "Svacchanda-Tantra",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Svacchanda Tantra",
+    "record": {
+      "title": "Svacchanda Tantram (Vol. 3)",
+      "id": "7571",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjY5NjczMTU1Nzg3NjI3",
+      "category": [
+        "Category : आगमः",
+        "Sub-Category : शैवतन्त्रम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   श्रीस्वच्छन्दतन्त्रम् (तृतीयो भागः)",
+        "PUBLISHER  :   ओथोरिटि-आफ्-गवर्नमेण्ट्",
+        "PUBLISH YEAR  :   1926",
+        "DOMAIN  :   आगमः",
+        "SUB-DOMAIN  :   शैवतन्त्रम्",
+        "PAGES  :   356",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   मधुसूदनकौल-शास्त्री",
+        "PRIMARY COMMENTATOR  :   खेमराजः",
+        "PRINTER  :   निर्णयसागर-यन्त्रालयः",
+        "SERIAL NO. : Ebharati-7571"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MjY5NjczMTU1Nzg3NjI3&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjY5NjczMTU1Nzg3NjI3",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "ratnakirti",
+      "work_id": "ratnakirti-nibandhavali",
+      "title_iast": "Ratnakīrti-Nibandhāvalī",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Ratnakirti Nibandhavali",
+    "record": {
+      "title": "Ratnakirti Nibandhavali",
+      "id": "10597",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDM5NTQ5MDgxMjcyNzEwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नकीर्तिनिबन्धावली",
+        "PUBLISHER  :   ए-एस्-अल्टेकरः",
+        "PUBLISH YEAR  :   1957",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "PAGES  :   220",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "EDITOR  :   अनन्दलाल-ठक्कुरदेव-शर्मा",
+        "PRINTER  :   पाट्ना-यूनिवर्सिटि-प्र्स्",
+        "SERIAL NO. : Ebharati-10597"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDM5NTQ5MDgxMjcyNzEwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhaskararaya",
+      "work_id": "setubandha",
+      "title_iast": "Setubandha",
+      "school": "Cross-tradition"
+    },
+    "query": "Setubandha",
+    "record": {
+      "title": "Setubandha",
+      "id": "10571",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjY5MjQ2ODcyNjc3NDEwMQ==",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : काव्यसम्बद्धपुस्तकानि"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   सेतुबन्धम्",
+        "AUTHOR  :   प्रवरसेनः",
+        "PUBLISHER  :   तुकाराम-जावजी",
+        "PUBLISH YEAR  :   1895",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   काव्यसम्बद्धपुस्तकानि",
+        "PAGES  :   512",
+        "LANGUAGE  :   संस्कृतम् प्राकृतम्",
+        "EDITOR  :   शिवदत्तः",
+        "SECOND EDITOR  :   काशीनाथ-शर्मा",
+        "PRIMARY COMMENTATOR  :   रामदासभूपतिः",
+        "COMMENTARY NAME  :   रामसेतुप्रदीपः",
+        "PRINTER  :   निर्णयसागर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-10571"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MjY5MjQ2ODcyNjc3NDEwMQ==&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjY5MjQ2ODcyNjc3NDEwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhaskararaya",
+      "work_id": "varivasya-rahasya",
+      "title_iast": "Varivasyā-Rahasya",
+      "school": "Cross-tradition"
+    },
+    "query": "Varivasya Rahasya",
+    "record": {
+      "title": "Varivasya Rahasyam",
+      "id": "12616",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjU5NTkzNDk1ODgwMTEyMQ==",
+      "category": [
+        "Category : आगमः",
+        "Sub-Category : तन्त्रशास्त्रम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वरिवस्यारहस्यम्",
+        "AUTHOR  :   भास्कर-रायः",
+        "PUBLISHER  :   अड्यार्-लैब्रेरी",
+        "PUBLISH YEAR  :   1948",
+        "DOMAIN  :   आगमः",
+        "SUB-DOMAIN  :   तन्त्रशास्त्रम्",
+        "PAGES  :   186",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "EDITOR  :   एस्-सुब्रह्मण्य-शास्त्री",
+        "COMMENTARY NAME  :   प्रकाशा",
+        "PRINTER  :   वसन्त-प्रेस् मद्रास्",
+        "SERIAL NO. : Ebharati-12616"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjU5NTkzNDk1ODgwMTEyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "buddhaghosa",
+      "work_id": "atthasalini",
+      "title_iast": "Aṭṭhasālinī",
+      "school": "Cross-tradition"
+    },
+    "query": "Atthasalini",
+    "record": {
+      "title": "Atthasalini",
+      "id": "10833",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjI1NzUxNDkyNzI5OTMwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   अट्ठसालिनी",
+        "PUBLISHER  :   हेन्री-फ्रोव्डी",
+        "PUBLISH YEAR  :   1897",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "PAGES  :   448",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "EDITOR  :   एड्वार्ड्-मुल्लर्",
+        "PRINTER  :   ऑक्सफोर्ड्-यूनिवर्सिटी- प्रेस वेयर्हौस्",
+        "SERIAL NO. : Ebharati-10833"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjI1NzUxNDkyNzI5OTMwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "buddhaghosa",
+      "work_id": "atthasalini",
+      "title_iast": "Aṭṭhasālinī",
+      "school": "Cross-tradition"
+    },
+    "query": "Atthasalini",
+    "record": {
+      "title": "Atthasalini",
+      "id": "10682",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDA4MTU1MTY4MTM0NTIwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   अट्ठसालिनी",
+        "PUBLISH YEAR  :   1942",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "PAGES  :   452",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "EDITOR  :   पी.वी.बापत्",
+        "SECOND EDITOR  :   आर्.डी.वाडेकर",
+        "SERIAL NO. : Ebharati-10682"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDA4MTU1MTY4MTM0NTIwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "buddhaghosa",
+      "work_id": "sumangala-vilasini",
+      "title_iast": "Sumaṅgala-Vilāsinī",
+      "school": "Cross-tradition"
+    },
+    "query": "Sumangala Vilasini",
+    "record": {
+      "title": "Sumangala Vilasini",
+      "id": "12902",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDQ2ODI3OTE1MzQ1ODMyMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   सुमङ्गल-विलासिनी",
+        "AUTHOR  :   बुद्ध-घोषः",
+        "PUBLISHER  :   द-पालि-टेक्स्ट्-सोयायिटि",
+        "PUBLISH YEAR  :   1886",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "PAGES  :   377",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "EDITOR  :   त. व. रस्-डेविड्स्",
+        "SECOND EDITOR  :   जे. एस्ट्लिन्-कर्पेण्टर्",
+        "PRINTER  :   आक्स्फोर्ड्-यूनिवर्सिटि-प्रेस्",
+        "SERIAL NO. : Ebharati-12902"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDQ2ODI3OTE1MzQ1ODMyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "lankavatara",
+      "work_id": "lankavatara-sutra",
+      "title_iast": "Laṅkāvatāra-Sūtra",
+      "school": "Cross-tradition"
+    },
+    "query": "Lankavatara Sutra",
+    "record": {
+      "title": "Lankavatara Sutra",
+      "id": "8820",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDQwMjYxODU4Njg2NjQ4",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   लङ्कावतारसूत्रम्",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "PAGES  :   213",
+        "LANGUAGE  :   आङ्ग्लम्",
+        "SERIAL NO. : Ebharati-8820"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDQwMjYxODU4Njg2NjQ4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "5542",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDI3MjA1NTcxMTEwMjM1",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : नाटकम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "AUTHOR  :   श्रीहर्षः",
+        "PUBLISH YEAR  :   1888",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   नाटकम्",
+        "PAGES  :   89",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   काशीनाथः विश्वनाथशास्त्री",
+        "PRINTER  :   निर्णयसागर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-5542"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDI3MjA1NTcxMTEwMjM1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "5544",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODY1Nzg5NzYxMzAyMjM1",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : नाटकम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "AUTHOR  :   श्रीहर्षः",
+        "PUBLISHER  :   ब्रजेन्द्रलालमित्रा",
+        "PUBLISH YEAR  :   1903",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   नाटकम्",
+        "PAGES  :   276",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम् वङ्गभाषा",
+        "TRANSLATOR  :   सतीशचन्द्रविद्याभूषणः",
+        "PRINTER  :   गिरीशविद्यारत्न-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-5544"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODY1Nzg5NzYxMzAyMjM1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "5545",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDk5OTIyNDYxOTkyMjM1",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : नाटकम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "AUTHOR  :   श्रीहर्षः",
+        "PUBLISHER  :   एशियाटिक्-सोसैटी",
+        "PUBLISH YEAR  :   1832",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   नाटकम्",
+        "PAGES  :   131",
+        "LANGUAGE  :   संस्कृतम्",
+        "COMMENTARY NAME  :   प्राकृतभाषा",
+        "PRINTER  :   एज्युकेशन्-प्रेस्",
+        "SERIAL NO. : Ebharati-5545"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDk5OTIyNDYxOTkyMjM1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "5546",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjE0Mjc0MDYxNTkzMjM1",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : नाटकम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "AUTHOR  :   श्रीहर्षः",
+        "PUBLISH YEAR  :   1876",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   नाटकम्",
+        "PAGES  :   138",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   जीवानन्दविद्यासागरभट्टाचार्यः",
+        "PRIMARY COMMENTATOR  :   जीवानन्दविद्यासागरभट्टाचार्यः",
+        "PRINTER  :   सरस्वती-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-5546"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjE0Mjc0MDYxNTkzMjM1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "5547",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDM4NDE3NjUxMTk0MjM1",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : नाटकम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "AUTHOR  :   श्रीहर्षः",
+        "PUBLISHER  :   हरिरामधरः",
+        "PUBLISH YEAR  :   1902",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   नाटकम्",
+        "PAGES  :   411",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम् वङ्गभाषा",
+        "TRANSLATOR  :   श्रीशचन्द्र-चक्रवर्ती",
+        "EDITOR  :   श्रीशचन्द्रचक्रवर्ती",
+        "SERIAL NO. : Ebharati-5547"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDM4NDE3NjUxMTk0MjM1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "5548",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjUyNzU5MjUxNzg1MjM1",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : नाटकम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "AUTHOR  :   श्रीहर्षः",
+        "PUBLISHER  :   अशुबोधविद्याभूषणः नित्यबोधविद्यारत्नः",
+        "PUBLISH YEAR  :   1910",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   नाटकम्",
+        "PAGES  :   121",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   अशुबोधविद्याभूषणः नित्यबोधविद्यारत्नः",
+        "PRIMARY COMMENTATOR  :   जीवानन्दविद्यासागरभट्टाचार्यः",
+        "PRINTER  :   घोष-यन्त्रालयः",
+        "SERIAL NO. : Ebharati-5548"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjUyNzU5MjUxNzg1MjM1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "5549",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODc2OTkxOTQxMzg2MjM1",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : नाटकम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "AUTHOR  :   श्रीहर्षः",
+        "PUBLISHER  :   डि. सि. बसू",
+        "PUBLISH YEAR  :   1939",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   नाटकम्",
+        "PAGES  :   520",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम् वङ्गभाषा",
+        "EDITOR  :   अशोकनाथभट्टाचार्यः महेश्वरदासः",
+        "PRINTER  :   शक्ति-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-5549"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODc2OTkxOTQxMzg2MjM1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "8379",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODM5MzUyNTE1MjUzNDA4",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : नाटकम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "AUTHOR  :   श्रीहर्षः",
+        "PUBLISHER  :   आशुबोध-विद्याभुषणः नित्यबोधविद्यारत्नः",
+        "PUBLISH YEAR  :   1910",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   नाटकम्",
+        "PAGES  :   121",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRINTER  :   घोष-यन्त्रालयः",
+        "SERIAL NO. : Ebharati-8379"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODM5MzUyNTE1MjUzNDA4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "3778",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjEzMDc4MzA4Mzc2MjYz",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "SERIAL NO. : Ebharati-3778"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "record": {
+      "title": "Ratnavali",
+      "id": "7934",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODQxNjczNzgxNDM2MTY3",
+      "category": [
+        "Category : काव्यानि",
+        "Sub-Category : नाटकम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   रत्नावली",
+        "AUTHOR  :   कालिदासः",
+        "PUBLISHER  :   पाण्डुरङ्ग-जावजी",
+        "PUBLISH YEAR  :   1920",
+        "DOMAIN  :   काव्यानि",
+        "SUB-DOMAIN  :   नाटकम्",
+        "PAGES  :   218",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   वासुदेव-लक्ष्मण-शर्मा",
+        "BOOKS CONTRIBUTOR  :   संस्कृतभारती बेङ्गलूरु",
+        "PRINTER  :   निर्णयसागर-यन्त्रालयः",
+        "SERIAL NO. : Ebharati-7934"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODQxNjczNzgxNDM2MTY3",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "sadyojyotis",
+      "work_id": "tattva-sangraha",
+      "title_iast": "Tattva-Saṅgraha",
+      "school": "Cross-tradition"
+    },
+    "query": "Tattva Sangraha",
+    "record": {
+      "title": "Tattva Sangraha (Vol. II)",
+      "id": "1377",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDkwNTE4NTI4NjgxMjMx",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   तत्त्वसङ्ग्रहः (द्वितीयः भागः)",
+        "AUTHOR  :   शान्तरक्षितः",
+        "PUBLISHER  :   बौद्धभारती",
+        "PUBLISH YEAR  :   1968",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "PAGES  :   650",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   स्वामिद्वारिकादासशास्त्री",
+        "PRIMARY COMMENTATOR  :   कमलशीलः",
+        "COMMENTARY NAME  :   पञ्जिका-व्याख्या",
+        "PRINTER  :   गौरीशङ्कर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-1377"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=NDkwNTE4NTI4NjgxMjMx&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDkwNTE4NTI4NjgxMjMx",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "mallisena",
+      "work_id": "syadvada-manjari",
+      "title_iast": "Syādvāda-Mañjarī",
+      "school": "Jaina"
+    },
+    "query": "Syadvada Manjari",
+    "record": {
+      "title": "Syadvada Manjari",
+      "id": "12577",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDk0MTQ5MDQ3NDQzNzAyMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : जैनदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   स्याद्वादमञ्जरी",
+        "AUTHOR  :   महालिङ्गेश्वरः",
+        "PUBLISHER  :   भाण्डारकर-ओरिएण्टल्-रिसर्च्-इंस्टिट्यूट्",
+        "PUBLISH YEAR  :   1933",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   जैनदर्शनम्",
+        "PAGES  :   790",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "EDITOR  :   ए. बि. ध्रुवः",
+        "PRIMARY COMMENTATOR  :   हेमचन्द्रः",
+        "COMMENTARY NAME  :   अन्ययोग-व्यवच्छेद-द्वित्रिंशिका",
+        "PRINTER  :   तत्वविवेचक-प्रेस्",
+        "SERIAL NO. : Ebharati-12577"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDk0MTQ5MDQ3NDQzNzAyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "prabhacandra",
+      "work_id": "prameya-kamala-martanda",
+      "title_iast": "Prameya-Kamala-Mārtaṇḍa",
+      "school": "Jaina"
+    },
+    "query": "Prameya Kamala Martanda",
+    "record": {
+      "title": "Prameya Kamala Martanda",
+      "id": "12568",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=Njk2OTU3NDc3MDg0NjAyMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : जैनदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   प्रमेयकमलमार्त्तण्डः",
+        "AUTHOR  :   प्रभाचन्द्रः",
+        "PUBLISHER  :   सत्यभामा-बाई-पाण्डुरङ्गः",
+        "PUBLISH YEAR  :   1941",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   जैनदर्शनम्",
+        "PAGES  :   928",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   महेन्द्र-कुमार-शास्त्री",
+        "PRINTER  :   निर्णयसागर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-12568"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=Njk2OTU3NDc3MDg0NjAyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "kamalasila",
+      "work_id": "madhyamakaloka",
+      "title_iast": "Madhyamakāloka",
+      "school": "Mādhyamaka"
+    },
+    "query": "Madhyamakaloka",
+    "record": {
+      "title": "Madhyamakaloka",
+      "id": "9083",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjIwOTE5OTY4MzM5MTc4",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   मध्यमकालोकः",
+        "AUTHOR  :   कमलशीलः",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "PAGES  :   113",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   गोपबन्धुमिश्रः",
+        "SERIAL NO. : Ebharati-9083"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjIwOTE5OTY4MzM5MTc4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "santaraksita",
+      "work_id": "tattva-sangraha-santaraksita",
+      "title_iast": "Tattva-Saṅgraha",
+      "school": "Mādhyamaka"
+    },
+    "query": "Tattva Sangraha",
+    "record": {
+      "title": "Tattva Sangraha (Vol. II)",
+      "id": "1377",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDkwNTE4NTI4NjgxMjMx",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   तत्त्वसङ्ग्रहः (द्वितीयः भागः)",
+        "AUTHOR  :   शान्तरक्षितः",
+        "PUBLISHER  :   बौद्धभारती",
+        "PUBLISH YEAR  :   1968",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "PAGES  :   650",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   स्वामिद्वारिकादासशास्त्री",
+        "PRIMARY COMMENTATOR  :   कमलशीलः",
+        "COMMENTARY NAME  :   पञ्जिका-व्याख्या",
+        "PRINTER  :   गौरीशङ्कर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-1377"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=NDkwNTE4NTI4NjgxMjMx&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDkwNTE4NTI4NjgxMjMx",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "santideva",
+      "work_id": "bodhicaryavatara",
+      "title_iast": "Bodhicaryāvatāra",
+      "school": "Mādhyamaka"
+    },
+    "query": "Bodhicaryavatara",
+    "record": {
+      "title": "Bodhicaryavatara Panjika",
+      "id": "10444",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODYzNTU4NTU3NDg1MjAwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : बौद्धदर्शनम्"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   बोधिचर्यावतारपञ्जिका",
+        "PUBLISHER  :   द-एशियाटिक्-सोसायिटि-आफ्-बेङ्गाल्",
+        "PUBLISH YEAR  :   1902",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   बौद्धदर्शनम्",
+        "PAGES  :   106",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   हेरिटेज्-फाउण्डेशन्-पुणे",
+        "PRIMARY COMMENTATOR  :   प्रज्ञाकरमतिः",
+        "PRINTER  :   बाप्टिस्ट्-मिशन्-प्रेस्",
+        "SERIAL NO. : Ebharati-10444"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODYzNTU4NTU3NDg1MjAwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "khandadeva",
+      "work_id": "bhatta-dipika",
+      "title_iast": "Bhāṭṭa-Dīpikā",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Bhatta Dipika",
+    "record": {
+      "title": "Bhatta Dipika voll- 2",
+      "id": "10443",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjQ5MjE2OTU3ODg0MjAwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : मीमांसादर्शनम्"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   भट्टदीपिका (द्वितीयो भागः)",
+        "PUBLISHER  :   द-एशियाटिक्-सोसायिटि-आफ्-बेङ्गाल्",
+        "PUBLISH YEAR  :   1909",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   मीमांसादर्शनम्",
+        "PAGES  :   204",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   चन्द्रकान्त-तर्कालङ्कारः",
+        "BOOKS CONTRIBUTOR  :   हेरिटेज्-फाउण्डेशन्-पुणे",
+        "PRINTER  :   बाप्तिष्ट्-मिशन्-प्रेस्",
+        "SERIAL NO. : Ebharati-10443"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjQ5MjE2OTU3ODg0MjAwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "parthasarathi",
+      "work_id": "nyaya-ratna-mala",
+      "title_iast": "Nyāya-Ratna-Mālā",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Nyaya Ratna Mala",
+    "record": {
+      "title": "Nyaya Ratnamala",
+      "id": "10430",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDY0MTY0ODA4MDQyMTAwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : न्यायदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   न्यायरत्नमाला",
+        "AUTHOR  :   पार्थसारथी-मिश्रः",
+        "PUBLISHER  :   हरिदास-गुप्तः",
+        "PUBLISH YEAR  :   1900",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   न्यायदर्शनम्",
+        "PAGES  :   216",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   गङ्गाधर-मानवल्ली-शास्त्री",
+        "PRINTER  :   तारा-यन्त्रालयः",
+        "SERIAL NO. : Ebharati-10430"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDY0MTY0ODA4MDQyMTAwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "jayanta-bhatta",
+      "work_id": "nyaya-manjari",
+      "title_iast": "Nyāya-Mañjarī",
+      "school": "Nyāya"
+    },
+    "query": "Nyaya Manjari",
+    "record": {
+      "title": "Nyaya Manjari (Part-I)",
+      "id": "11650",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDAzNjEyNDIyNjUzODExMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : न्यायदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   न्यायमञ्जरी (प्रथमखण्डः)",
+        "AUTHOR  :   जयन्त-भट्टः",
+        "PUBLISHER  :   कलिकाता-विश्वविद्यालयः",
+        "PUBLISH YEAR  :   1939",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   न्यायदर्शनम्",
+        "PAGES  :   500",
+        "LANGUAGE  :   संस्कृतम् वङ्गभाषा",
+        "TRANSLATOR  :   पञ्चानन-तर्कवागीशः",
+        "EDITOR  :   पञ्चानन-तर्कवागीशः",
+        "BOOKS CONTRIBUTOR  :   राकेशदाशः",
+        "PRINTER  :   कलकत्ता-विश्वविद्यालय-प्रेस्",
+        "SERIAL NO. : Ebharati-11650"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDAzNjEyNDIyNjUzODExMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "jayanta-bhatta",
+      "work_id": "nyaya-manjari",
+      "title_iast": "Nyāya-Mañjarī",
+      "school": "Nyāya"
+    },
+    "query": "Nyaya Manjari",
+    "record": {
+      "title": "Nyaya Manjari (Part-II)",
+      "id": "10762",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDY1NTQ5MDY1MTExMzMwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : न्यायदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   न्यायमञ्जरी (द्वितीयो भागः)",
+        "AUTHOR  :   जयन्त-भट्टः",
+        "PUBLISHER  :   जयकृष्णदास-हरिदास-गुप्तः",
+        "PUBLISH YEAR  :   1934",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   न्यायदर्शनम्",
+        "PAGES  :   219",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   सूर्यनारायण-शुक्लः",
+        "BOOKS CONTRIBUTOR  :   राकेशदाशः",
+        "PRINTER  :   विद्याविलास-प्रेस्",
+        "SERIAL NO. : Ebharati-10762"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDY1NTQ5MDY1MTExMzMwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "jayanta-bhatta",
+      "work_id": "nyaya-manjari",
+      "title_iast": "Nyāya-Mañjarī",
+      "school": "Nyāya"
+    },
+    "query": "Nyaya Manjari",
+    "record": {
+      "title": "Nyaya Manjari (Part-II)",
+      "id": "11651",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjI3ODU0MDIyMjU0ODExMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : न्यायदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   न्यायमञ्जरी (द्वितीयखण्डः)",
+        "AUTHOR  :   जयन्त-भट्टः",
+        "PUBLISHER  :   कलिकाता-विश्वविद्यालयः",
+        "PUBLISH YEAR  :   1941",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   न्यायदर्शनम्",
+        "PAGES  :   226",
+        "LANGUAGE  :   संस्कृतम् वङ्गभाषा",
+        "TRANSLATOR  :   पञ्चानन-तर्कवागीशः",
+        "EDITOR  :   पञ्चानन-तर्कवागीशः",
+        "BOOKS CONTRIBUTOR  :   राकेशदाशः",
+        "PRINTER  :   कलकत्ता-विश्वविद्यालय-प्रेस्",
+        "SERIAL NO. : Ebharati-11651"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjI3ODU0MDIyMjU0ODExMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "jayakhya-samhita",
+      "title_iast": "Jayākhya-Saṃhitā",
+      "school": "Pāñcarātra"
+    },
+    "query": "Jayakhya Samhita",
+    "record": {
+      "title": "Jayakhya Samhita",
+      "id": "10127",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDk1NzAwNzQ5MzUxMjc5",
+      "category": [
+        "Category : आगमः",
+        "Sub-Category : आगमसम्बद्धपुस्तकानि"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   जयाख्यसंहिता",
+        "PUBLISHER  :   महाराजा-गायकवाड-ओफ्-बडोदा",
+        "PUBLISH YEAR  :   1931",
+        "DOMAIN  :   आगमः",
+        "SUB-DOMAIN  :   आगमसम्बद्धपुस्तकानि",
+        "PAGES  :   588",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "EDITOR  :   एम्बार्-कृष्णमाचार्यः",
+        "PRINTER  :   तत्त्व-विवेचक-प्रेस्",
+        "SERIAL NO. : Ebharati-10127"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=NDk1NzAwNzQ5MzUxMjc5&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDk1NzAwNzQ5MzUxMjc5",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "lakulisha",
+      "work_id": "pasupata-sutra",
+      "title_iast": "Pāśupata-Sūtra",
+      "school": "Pāśupata"
+    },
+    "query": "Pasupata Sutra",
+    "record": {
+      "title": "Pasupata Sutram",
+      "id": "12506",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjM1OTI3NzAwOTI1MDAyMQ==",
+      "category": [
+        "Category : आगमः",
+        "Sub-Category : शैवतन्त्रम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   पाशुपतसूत्रम्",
+        "PUBLISHER  :   यूनिवर्सिटि-आफ्-ट्रावन्कोर्",
+        "PUBLISH YEAR  :   1940",
+        "DOMAIN  :   आगमः",
+        "SUB-DOMAIN  :   शैवतन्त्रम्",
+        "PAGES  :   186",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "EDITOR  :   आर्-अनन्तकृष्ण-शास्त्री",
+        "PRINTER  :   भास्कर-प्रेस्",
+        "SERIAL NO. : Ebharati-12506"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjM1OTI3NzAwOTI1MDAyMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhagavadutpala",
+      "work_id": "spanda-pradipika",
+      "title_iast": "Spandapradīpikā",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Spandapradipika",
+    "record": {
+      "title": "Spanda Pradipika",
+      "id": "11077",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDk0ODAzNzczMDUzMzYwMQ==",
+      "category": [
+        "Category : आगमः",
+        "Sub-Category : शैवतन्त्रम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   स्पन्दप्रदीपिका",
+        "AUTHOR  :   उत्पलाचार्यः",
+        "PUBLISH YEAR  :   1898",
+        "DOMAIN  :   आगमः",
+        "SUB-DOMAIN  :   शैवतन्त्रम्",
+        "PAGES  :   84",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   वामनशास्त्री",
+        "PRINTER  :   मेडिकल्-हाल्-मुद्रायन्त्रालयः",
+        "SERIAL NO. : Ebharati-11077"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDk0ODAzNzczMDUzMzYwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "utpaladeva",
+      "work_id": "sambandha-siddhi",
+      "title_iast": "Sambandha-Siddhi",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Sambandha Siddhi",
+    "record": {
+      "title": "Sambandhasiddhi",
+      "id": "11917",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDc5MjQ5MDIyNzg5MzQxMQ==",
+      "category": [
+        "Category : आगमः",
+        "Sub-Category : शैवतन्त्रम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   संबन्धसिद्धिः",
+        "AUTHOR  :   उत्पलदेवः",
+        "DOMAIN  :   आगमः",
+        "SUB-DOMAIN  :   शैवतन्त्रम्",
+        "LANGUAGE  :   संस्कृतम्",
+        "SERIAL NO. : Ebharati-11917"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=NDc5MjQ5MDIyNzg5MzQxMQ==&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "purusottama",
+      "work_id": "prasthana-ratnakara",
+      "title_iast": "Prasthāna-Ratnākara",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Prasthana Ratnakara",
+    "record": {
+      "title": "Prasthana Ratnakara",
+      "id": "11073",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjA4ODMzMjkzNjY5MjYwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   प्रस्थानरत्नाकरः",
+        "AUTHOR  :   पुरुषोत्तम-गोस्वामी",
+        "PUBLISHER  :   ज्येष्ठराम-मुकुन्दजी",
+        "PUBLISH YEAR  :   1909",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   236",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   रत्नगोपालभट्टः",
+        "PRINTER  :   विद्याविलास-प्रेस् बनारस्",
+        "SERIAL NO. : Ebharati-11073"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjA4ODMzMjkzNjY5MjYwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vallabha",
+      "work_id": "subodhini",
+      "title_iast": "Subodhinī",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Subodhini",
+    "record": {
+      "title": "Subodhini",
+      "id": "4091",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjA0ODQ3NzI2MDI3Mjkz",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : न्यायदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   सुबोधिनी",
+        "AUTHOR  :   रामवर्मा-परीक्षित्-तम्पुरन्",
+        "PUBLISH YEAR  :   1956",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   न्यायदर्शनम्",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   मन्दिट्टा-कुन्चु-नंबून्द्री",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "SERIAL NO. : Ebharati-4091"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MjA0ODQ3NzI2MDI3Mjkz&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vallabha",
+      "work_id": "subodhini",
+      "title_iast": "Subodhinī",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Subodhini",
+    "record": {
+      "title": "Subodhini-paddhati (Samaveda)",
+      "id": "6347",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDM0MjU2MDUxODgyOTA2",
+      "category": [
+        "Category : धर्मशास्त्रम्",
+        "Sub-Category : स्मृतिः"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   सुबोधिनिपद्धतिः",
+        "AUTHOR  :   श्रीशिवरामः",
+        "PUBLISHER  :   चौखम्बा-संस्कृत-सीरिज्",
+        "PUBLISH YEAR  :   1941",
+        "DOMAIN  :   धर्मशास्त्रम्",
+        "SUB-DOMAIN  :   स्मृतिः",
+        "PAGES  :   373",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   श्रीदुर्गादत्त-शास्त्री-त्रिपाठी",
+        "PRINTER  :   जयकृष्णदास-हरिदासगुप्तः",
+        "SERIAL NO. : Ebharati-6347"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDM0MjU2MDUxODgyOTA2",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vallabha",
+      "work_id": "tattvartha-dipa-nibandha",
+      "title_iast": "Tattvārtha-Dīpa-Nibandha",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Tattvartha Dipa Nibandha",
+    "record": {
+      "title": "Tattvartha Dipa Nibandha",
+      "id": "10408",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjcxODIxMTk4ODIxOTk5",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : वल्लभदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   तत्त्वार्थदीपनिबन्धः",
+        "AUTHOR  :   वल्लभाचार्यः",
+        "PUBLISHER  :   शेठ-नारायणदास-एण्ड्-जेठानन्द-आसनमल्ल-चैरिटी-ट्रास्ट्",
+        "PUBLISH YEAR  :   1943",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   वल्लभदर्शनम्",
+        "PAGES  :   471",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   हरिशङ्कर-शास्त्री",
+        "PRINTER  :   निर्णयसागर-प्रेस्",
+        "SERIAL NO. : Ebharati-10408"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjcxODIxMTk4ODIxOTk5",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "jayatirtha",
+      "work_id": "vadavali",
+      "title_iast": "Vādāvalī",
+      "school": "Tattva-vāda"
+    },
+    "query": "Vadavali",
+    "record": {
+      "title": "Vadavali",
+      "id": "5686",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=Mjk0MTE0NDM2NDM4NTQ1",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वादावली",
+        "AUTHOR  :   जयतीर्थः",
+        "PUBLISHER  :   अड्यारपुस्तकालयः",
+        "PUBLISH YEAR  :   1943",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "PAGES  :   129",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "TRANSLATOR  :   पि. नागराज-राव्",
+        "EDITOR  :   पि. नागराजराव्",
+        "PRINTER  :   वसन्त-प्रेस् मद्रास्",
+        "SERIAL NO. : Ebharati-5686"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=Mjk0MTE0NDM2NDM4NTQ1",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "jayatirtha",
+      "work_id": "vadavali",
+      "title_iast": "Vādāvalī",
+      "school": "Tattva-vāda"
+    },
+    "query": "Vadavali",
+    "record": {
+      "title": "Vadavali",
+      "id": "10592",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDI4MzM3OTkxMjk3NjEwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : मीमांसादर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वादावलिः",
+        "AUTHOR  :   पुरुषोत्तम-गोस्वामी",
+        "PUBLISHER  :   रमानाथः",
+        "PUBLISH YEAR  :   1920",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   मीमांसादर्शनम्",
+        "PAGES  :   360",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   रमानाथ-शर्मा",
+        "PRIMARY COMMENTATOR  :   रमानाथः",
+        "COMMENTARY NAME  :   टिप्पणी",
+        "PRINTER  :   निर्णयसागर-प्रेस्",
+        "SERIAL NO. : Ebharati-10592"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDI4MzM3OTkxMjk3NjEwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "jayatirtha",
+      "work_id": "vadavali",
+      "title_iast": "Vādāvalī",
+      "school": "Tattva-vāda"
+    },
+    "query": "Vadavali",
+    "record": {
+      "title": "Vadavali",
+      "id": "3530",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDY2OTQ3NTM3NjY4ODMz",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वादावली",
+        "AUTHOR  :   श्रीजयतीर्थयतिः",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "LANGUAGE  :   संस्कृतम्",
+        "SERIAL NO. : Ebharati-3530"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "karma-nirnaya",
+      "title_iast": "Karma-Nirṇaya",
+      "school": "Tattva-vāda"
+    },
+    "query": "Karma Nirnaya",
+    "record": {
+      "title": "karmanirnayatiikaa",
+      "id": "9007",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDU5NDk0NTUxODM2NDY4",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : दर्शनसम्बद्धपुस्तकानि"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   कर्मनिर्णयटीका",
+        "PUBLISH YEAR  :   1822",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   दर्शनसम्बद्धपुस्तकानि",
+        "PAGES  :   180",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   कर्णाटकसंस्कृतविश्वविद्यालयः-बेङ्गलूरु",
+        "SERIAL NO. : Ebharati-9007"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=NDU5NDk0NTUxODM2NDY4&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDU5NDk0NTUxODM2NDY4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "tattvodyota",
+      "title_iast": "Tattvodyota",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tattvodyota",
+    "record": {
+      "title": "Tattvodyota",
+      "id": "2261",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjQxNjExNDA1NzQwNzEy",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   तत्वोद्योतम्",
+        "AUTHOR  :   श्रीमदानन्दतीर्थभगवत्पादाः",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "PAGES  :   871",
+        "LANGUAGE  :   संस्कृतम्",
+        "SERIAL NO. : Ebharati-2261"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MjQxNjExNDA1NzQwNzEy&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjQxNjExNDA1NzQwNzEy",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "tattvodyota",
+      "title_iast": "Tattvodyota",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tattvodyota",
+    "record": {
+      "title": "Tattvodyota-prakarana-grantha",
+      "id": "3197",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDMxMzIwNzg5OTk4NjAz",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   तत्त्वोद्योतः प्रकरणविशेषः",
+        "AUTHOR  :   श्रीमदानन्दतीर्थभगवत्पादाचार्याः",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "SERIAL NO. : Ebharati-3197"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=NDMxMzIwNzg5OTk4NjAz&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "tattvodyota",
+      "title_iast": "Tattvodyota",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tattvodyota",
+    "record": {
+      "title": "Tattvodyota-vishamapadava-kyarthaVivarana",
+      "id": "3201",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjI4Mjk5MTc5MzgyNzAz",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   तत्त्वोद्योत-विषमपदवाक्यार्थविवरणम्",
+        "AUTHOR  :   केशवः",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "LANGUAGE  :   संस्कृतम्",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "SERIAL NO. : Ebharati-3201"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MjI4Mjk5MTc5MzgyNzAz&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "nyayaratnavali",
+      "title_iast": "Nyāyaratnāvalī",
+      "school": "Tattva-vāda"
+    },
+    "query": "Nyayaratnavali",
+    "record": {
+      "title": "Nyayaratnavali",
+      "id": "1852",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDQ1NTY5MDQwNTg3Nzcx",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : न्यायदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   न्यायरत्नावली",
+        "AUTHOR  :   श्रीमद्वादिराजयतीन्द्रः",
+        "PUBLISHER  :   श्रीविश्वेन्द्रतीर्थशिरोमणिः",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   न्यायदर्शनम्",
+        "PAGES  :   165",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   वि. अनन्तकृष्णोपाध्यायः",
+        "PRIMARY COMMENTATOR  :   पडमुन्नूरु-नारायणाचार्यः",
+        "COMMENTARY NAME  :   प्रकाशसङ्ग्रहः",
+        "PRINTER  :   प्रभाकर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-1852"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=NDQ1NTY5MDQwNTg3Nzcx&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDQ1NTY5MDQwNTg3Nzcx",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "yuktimallika",
+      "title_iast": "Yuktimallikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Yuktimallika",
+    "record": {
+      "title": "Yuktimallika (Bhedasaurabham)",
+      "id": "11970",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDQzMTk3MTIwNTcwOTQxMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   युक्तिमल्लिका (भेदसौरभम्)",
+        "AUTHOR  :   वादिराज-तीर्थः",
+        "PUBLISHER  :   टी-आर्-कृष्णाचार्यः",
+        "PUBLISH YEAR  :   1903",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "PAGES  :   430",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRIMARY COMMENTATOR  :   सुरोत्तम-तीर्थः",
+        "COMMENTARY NAME  :   भावविलासिनी",
+        "PRINTER  :   निर्णयसागर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-11970"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDQzMTk3MTIwNTcwOTQxMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "yuktimallika",
+      "title_iast": "Yuktimallikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Yuktimallika",
+    "record": {
+      "title": "Yuktimallika (Gunasaurabham)",
+      "id": "11968",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=Njk0NjAzOTIwMzg4ODQxMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   युक्तिमल्लिका (गुणसौरभम्)",
+        "AUTHOR  :   वादिराज-तीर्थः",
+        "PUBLISHER  :   टी-आर्-कृष्णाचार्यः",
+        "PUBLISH YEAR  :   1903",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "PAGES  :   270",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRIMARY COMMENTATOR  :   सुरोत्तम-तीर्थः",
+        "COMMENTARY NAME  :   भावविलासिनी",
+        "PRINTER  :   निर्णयसागर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-11968"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=Njk0NjAzOTIwMzg4ODQxMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "yuktimallika",
+      "title_iast": "Yuktimallikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Yuktimallika",
+    "record": {
+      "title": "Yuktimallika (Phalasaurabham)",
+      "id": "11972",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDgxNjcyNDEwNzYyOTQxMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   युक्तिमल्लिका (फलसौरभम्)",
+        "AUTHOR  :   वादिराज-तीर्थः",
+        "PUBLISHER  :   टी-आर्-कृष्णाचार्यः",
+        "PUBLISH YEAR  :   1903",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "PAGES  :   277",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRIMARY COMMENTATOR  :   सुरोत्तम-तीर्थः",
+        "COMMENTARY NAME  :   भावविलासिनी",
+        "PRINTER  :   निर्णयसागर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-11972"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDgxNjcyNDEwNzYyOTQxMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "yuktimallika",
+      "title_iast": "Yuktimallikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Yuktimallika",
+    "record": {
+      "title": "Yuktimallika (Shuddhisaurabham)",
+      "id": "11969",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODE5ODQ1NTIwOTc5ODQxMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   युक्तिमल्लिका (शुद्धिसौरभम्)",
+        "AUTHOR  :   वादिराज-तीर्थः",
+        "PUBLISHER  :   टी-आर्-कृष्णाचार्यः",
+        "PUBLISH YEAR  :   1903",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "PAGES  :   168",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRIMARY COMMENTATOR  :   सुरोत्तम-तीर्थः",
+        "COMMENTARY NAME  :   भावविलासिनी",
+        "PRINTER  :   निर्णयसागर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-11969"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODE5ODQ1NTIwOTc5ODQxMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "yuktimallika",
+      "title_iast": "Yuktimallikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Yuktimallika",
+    "record": {
+      "title": "Yuktimallika (Vishwasaurabham)",
+      "id": "11971",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjY3MzMwODEwMTcxOTQxMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : द्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   युक्तिमल्लिका (विश्वसौरभम्)",
+        "AUTHOR  :   वादिराज-तीर्थः",
+        "PUBLISHER  :   टी-आर्-कृष्णाचार्यः",
+        "PUBLISH YEAR  :   1903",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   द्वैतदर्शनम्",
+        "PAGES  :   288",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRIMARY COMMENTATOR  :   सुरोत्तम-तीर्थः",
+        "COMMENTARY NAME  :   भावविलासिनी",
+        "PRINTER  :   निर्णयसागर-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-11971"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjY3MzMwODEwMTcxOTQxMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "gadya-trayam",
+      "title_iast": "Gadya-Trayam",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Gadya Trayam",
+    "record": {
+      "title": "Gadya Trayam",
+      "id": "10503",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjYyODUxNDM1ODQyODAwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   गद्यत्रयम्",
+        "AUTHOR  :   रामानुजः",
+        "PUBLISH YEAR  :   1910",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   विशिष्टाद्वैतदर्शनम्",
+        "PAGES  :   116",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   रायपेट्ट-कृष्णमाचार्यः",
+        "PRINTER  :   वाणीविलास-प्रेस्",
+        "SERIAL NO. : Ebharati-10503"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjYyODUxNDM1ODQyODAwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "nitya-grantha",
+      "title_iast": "Nitya-Grantha",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Nitya Grantha",
+    "record": {
+      "title": "Nitya Grantha",
+      "id": "10486",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjkwNzMwODk1NjE2NjAwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   नित्यग्रन्थः",
+        "AUTHOR  :   रामानुजः",
+        "PUBLISHER  :   वि. पेरुमळ्-चेट्टि-एण्ड्-सन्स्",
+        "PUBLISH YEAR  :   1941",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   विशिष्टाद्वैतदर्शनम्",
+        "PAGES  :   98",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   अनन्ताचार्यः",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "PRIMARY COMMENTATOR  :   वङ्गि-वंशेश्वरः",
+        "COMMENTARY NAME  :   आह्निक-कारिका",
+        "PRINTER  :   मद्राज्-वि. पेरुमळ्-चेट्टि-एण्ड्-सन्स्-प्रेस्",
+        "SERIAL NO. : Ebharati-10486"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjkwNzMwODk1NjE2NjAwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-dipa",
+      "title_iast": "Vedānta-Dīpa",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Vedanta Dipa",
+    "record": {
+      "title": "Vedanta Dipa",
+      "id": "10538",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjMwMzQ2MjA0ODA2MTEwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तदीपः",
+        "AUTHOR  :   रामानुजः",
+        "PUBLISHER  :   हरिदास-गुप्तः",
+        "PUBLISH YEAR  :   1902",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   विशिष्टाद्वैतदर्शनम्",
+        "PAGES  :   254",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   भट्टनाथ-स्वामी",
+        "PRINTER  :   विद्याविलास-प्रेस्",
+        "SERIAL NO. : Ebharati-10538"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjMwMzQ2MjA0ODA2MTEwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-sara",
+      "title_iast": "Vedānta-Sāra",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Vedanta Sara",
+    "record": {
+      "title": "Vedanta Sara",
+      "id": "10912",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDY4ODAzNzk5MDE1NzQwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्त-सारः",
+        "AUTHOR  :   सदानन्द-योगीन्द्रः",
+        "PUBLISHER  :   द-ख्रिस्टान्-लिटरेचर-सोसायिटि-फर्-इण्डिया",
+        "PUBLISH YEAR  :   1898",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   148",
+        "LANGUAGE  :   आङ्ग्लम्",
+        "TRANSLATOR  :   जे. आर्. बलेण्टाइन्",
+        "EDITOR  :   जे. आर्. बलेण्टाइन्",
+        "BOOKS CONTRIBUTOR  :   राकेशदाशः",
+        "SERIAL NO. : Ebharati-10912"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDY4ODAzNzk5MDE1NzQwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-sara",
+      "title_iast": "Vedānta-Sāra",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Vedanta Sara",
+    "record": {
+      "title": "Vedanta Sara",
+      "id": "10913",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjgyMTU1Mzk5NjA2NzQwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसारः",
+        "AUTHOR  :   सदानन्द-योगीन्द्रः",
+        "PUBLISHER  :   सतीश-चन्द्र-मुखोपाध्यायः",
+        "PUBLISH YEAR  :   1932",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   168",
+        "LANGUAGE  :   संस्कृतम् वङ्गभाषा",
+        "EDITOR  :   उपेन्द्रनाथ-मुखोपाध्यायः",
+        "BOOKS CONTRIBUTOR  :   राकेशदाशः",
+        "PRIMARY COMMENTATOR  :   नृसिंह-सरस्तती",
+        "COMMENTARY NAME  :   सुबोधिनी",
+        "PRINTER  :   वसुमती-वैद्युतिक-वोटावी-यन्द्रः",
+        "SERIAL NO. : Ebharati-10913"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjgyMTU1Mzk5NjA2NzQwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-sara",
+      "title_iast": "Vedānta-Sāra",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Vedanta Sara",
+    "record": {
+      "title": "Vedanta Sara",
+      "id": "10914",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODA3Mzk3OTg5MjA3NzQwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्त-सारः",
+        "AUTHOR  :   सदानन्द-योगीन्द्रः",
+        "PUBLISHER  :   कानाइलाल-ढोल-एण्ड्-ब्रादार्स्",
+        "PUBLISH YEAR  :   1902",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   148",
+        "LANGUAGE  :   वङ्गभाषा",
+        "TRANSLATOR  :   कालीवर-वेदान्तवागीशः",
+        "EDITOR  :   हीरालाल-ढोलः",
+        "BOOKS CONTRIBUTOR  :   राकेशदाशः",
+        "PRINTER  :   इलिशियम्-प्रेस् कलकाता",
+        "SERIAL NO. : Ebharati-10914"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODA3Mzk3OTg5MjA3NzQwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-sara",
+      "title_iast": "Vedānta-Sāra",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Vedanta Sara",
+    "record": {
+      "title": "Vedanta Sara",
+      "id": "10948",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjUwNjMwMjY4NjY5MDUwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : अद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वेदान्तसारः",
+        "AUTHOR  :   सदानन्द-योगीन्द्रः",
+        "PUBLISHER  :   स्वामि-विश्वेश्वरानन्दः",
+        "PUBLISH YEAR  :   1931",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   अद्वैतदर्शनम्",
+        "PAGES  :   138",
+        "LANGUAGE  :   संस्कृतम् आङ्ग्लम्",
+        "TRANSLATOR  :   स्वामि-निखिलानन्दः",
+        "EDITOR  :   स्वामि-निखिलानन्दः",
+        "BOOKS CONTRIBUTOR  :   राकेशदाशः",
+        "SECONDARY COMMENTATOR  :   स्वामि-निखिलानन्दः",
+        "PRINTER  :   द-आर्ट्-प्रेस् कलकाता",
+        "SERIAL NO. : Ebharati-10948"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjUwNjMwMjY4NjY5MDUwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "srinivasa-dasa",
+      "work_id": "yatindramatadipika",
+      "title_iast": "Yatīndramatadīpikā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Yatindramatadipika",
+    "record": {
+      "title": "Yatindramata-dipika",
+      "id": "8541",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjAzNjI1NjA5MzA5OTE4",
+      "category": [
+        "Category : धर्मशास्त्रम्",
+        "Sub-Category : धर्मशास्त्रसम्बद्धपुस्तकानि"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   यतीन्द्रमतदीपिका",
+        "AUTHOR  :   श्रीनिवासदासः",
+        "PUBLISHER  :   विनायक-गणेश-आप्टे",
+        "PUBLISH YEAR  :   1934",
+        "DOMAIN  :   धर्मशास्त्रम्",
+        "SUB-DOMAIN  :   धर्मशास्त्रसम्बद्धपुस्तकानि",
+        "PAGES  :   127",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   वासुदेवशास्त्री",
+        "PRIMARY COMMENTATOR  :   वासुदेवशास्त्री",
+        "COMMENTARY NAME  :   प्रकाशा",
+        "PRINTER  :   आनन्दाश्रम-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-8541"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjAzNjI1NjA5MzA5OTE4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "vedanta-desika",
+      "work_id": "nyaya-siddhanjana",
+      "title_iast": "Nyāya-Siddhāñjana",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Nyaya Siddhanjana",
+    "record": {
+      "title": "Nyaya Siddhanjanam",
+      "id": "10485",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDc2NDk3MTA2MDI1NjAwMQ==",
+      "category": [
+        "Category : दर्शनानि",
+        "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   न्यायसिद्धाञ्जनम्",
+        "AUTHOR  :   रङ्ग-रामानुजः",
+        "PUBLISHER  :   श्रीवैष्णव-सिद्धान्त-प्रचार-सभाध्यक्षः",
+        "PUBLISH YEAR  :   1934",
+        "DOMAIN  :   दर्शनानि",
+        "SUB-DOMAIN  :   विशिष्टाद्वैतदर्शनम्",
+        "PAGES  :   434",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   वेदान्तदेशिकः",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "PRINTER  :   कबीर-एण्ड्-कों",
+        "SERIAL NO. : Ebharati-10485"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MDc2NDk3MTA2MDI1NjAwMQ==&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDc2NDk3MTA2MDI1NjAwMQ==",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhartrhari",
+      "work_id": "vakyapadiya",
+      "title_iast": "Vākyapadīya",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vakyapadiya",
+    "record": {
+      "title": "Vakyapadiya",
+      "id": "9415",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDMxMzA0MjI2NDA4MzA5",
+      "category": [
+        "Category : वेदाङ्गानि",
+        "Sub-Category : व्याकरणम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वाक्यपदीयम्",
+        "AUTHOR  :   भर्तृहरिः",
+        "PUBLISH YEAR  :   1942",
+        "DOMAIN  :   वेदाङ्गानि",
+        "SUB-DOMAIN  :   व्याकरणम्",
+        "PAGES  :   305",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   एल्. ए. रविवर्मा",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "PRIMARY COMMENTATOR  :   हेलराजः",
+        "COMMENTARY NAME  :   प्रकीर्णप्रकाशः",
+        "SERIAL NO. : Ebharati-9415"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDMxMzA0MjI2NDA4MzA5",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhartrhari",
+      "work_id": "vakyapadiya",
+      "title_iast": "Vākyapadīya",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vakyapadiya",
+    "record": {
+      "title": "Vakyapadiyam",
+      "id": "861",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjQzNTI3NDY3MjU2Mjg=",
+      "category": [
+        "Category : वेदाङ्गानि",
+        "Sub-Category : व्याकरणम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वाक्यपदीयम्(द्वितीयकाण्डम्)",
+        "AUTHOR  :   भर्तृहरिः",
+        "DOMAIN  :   वेदाङ्गानि",
+        "SUB-DOMAIN  :   व्याकरणम्",
+        "PAGES  :   98",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRIMARY COMMENTATOR  :   हरिवृषभः",
+        "SECONDARY COMMENTATOR  :   पुण्यराजः",
+        "TERTIARY COMMENTATOR  :   रघुनाथशर्मा",
+        "COMMENTARY NAME  :   स्वोपज्ञवृत्तिः प्रकाश-व्याख्या अम्बाकर्त्रो-टीका",
+        "SERIAL NO. : Ebharati-861"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MjQzNTI3NDY3MjU2Mjg=&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjQzNTI3NDY3MjU2Mjg=",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhartrhari",
+      "work_id": "vakyapadiya",
+      "title_iast": "Vākyapadīya",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vakyapadiya",
+    "record": {
+      "title": "Vakyapadiyam (brahmakandam)",
+      "id": "864",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=ODA2MjU0MzU3MDQ5Mjg=",
+      "category": [
+        "Category : वेदाङ्गानि",
+        "Sub-Category : व्याकरणम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वाक्यपदीयम् (ब्रह्मकाण्डम्)",
+        "AUTHOR  :   भर्तृहरिः",
+        "DOMAIN  :   वेदाङ्गानि",
+        "SUB-DOMAIN  :   व्याकरणम्",
+        "PAGES  :   622",
+        "LANGUAGE  :   संस्कृतम्",
+        "PRIMARY COMMENTATOR  :   हरिवृषभः",
+        "SECONDARY COMMENTATOR  :   रघुनाथशर्मा",
+        "COMMENTARY NAME  :   स्वोपज्ञवृत्तिः अम्बाकर्त्रो-टीका",
+        "SERIAL NO. : Ebharati-864"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=ODA2MjU0MzU3MDQ5Mjg=",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhartrhari",
+      "work_id": "vakyapadiya",
+      "title_iast": "Vākyapadīya",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vakyapadiya",
+    "record": {
+      "title": "Vakyapadiyam (Tritiya Kanda)",
+      "id": "862",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NDY3NzY5MDY3ODQ3Mjg=",
+      "category": [
+        "Category : वेदाङ्गानि",
+        "Sub-Category : व्याकरणम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वाक्यपदीयम् (तृतीयकाण्डम्)",
+        "AUTHOR  :   भर्तृहरिः",
+        "PUBLISHER  :   ब्रज्दास-एण्ड-कम्पनी",
+        "PUBLISH YEAR  :   1905",
+        "DOMAIN  :   वेदाङ्गानि",
+        "SUB-DOMAIN  :   व्याकरणम्",
+        "PAGES  :   296",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   पं. रामचन्द्रशास्त्री-कोटिभास्करः",
+        "PRIMARY COMMENTATOR  :   हेलराजः",
+        "PRINTER  :   विद्याविलास-प्रेस्",
+        "SERIAL NO. : Ebharati-862"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=NDY3NzY5MDY3ODQ3Mjg=&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NDY3NzY5MDY3ODQ3Mjg=",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhartrhari",
+      "work_id": "vakyapadiya",
+      "title_iast": "Vākyapadīya",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vakyapadiya",
+    "record": {
+      "title": "Vakyapadiyam (Vol-3)",
+      "id": "9103",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=NjY0NzY3NDk3MzU4Mzc4",
+      "category": [
+        "Category : वेदाङ्गानि",
+        "Sub-Category : व्याकरणम्"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   वाक्यपदीयम् (तृतीयकाण्डम्)",
+        "AUTHOR  :   भर्तृहरिः",
+        "PUBLISHER  :   गवर्नमेण्ट्-आफ्-ट्रवण्कोर्",
+        "PUBLISH YEAR  :   1935",
+        "DOMAIN  :   वेदाङ्गानि",
+        "SUB-DOMAIN  :   व्याकरणम्",
+        "PAGES  :   196",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   के. साम्बशिवशास्त्री",
+        "BOOKS CONTRIBUTOR  :   कर्णाटकसंस्कृतविश्वविद्यालयः-बेङ्गलूरु",
+        "PRIMARY COMMENTATOR  :   हेलाराजः",
+        "COMMENTARY NAME  :   प्रकीर्णकप्रकाशः",
+        "PRINTER  :   गवर्नमेण्ट्-मुद्रणालयः",
+        "SERIAL NO. : Ebharati-9103"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=NjY0NzY3NDk3MzU4Mzc4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "kondabhatta",
+      "work_id": "vaiyakarana-bhusana",
+      "title_iast": "Vaiyākaraṇa-Bhūṣaṇa",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vaiyakarana Bhusana",
+    "record": {
+      "title": "Vaiyakarana Bhusanasara",
+      "id": "9280",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MDYxNjc2OTIxNTQ4MDk4",
+      "category": [
+        "Category : वेदाङ्गानि",
+        "Sub-Category : व्याकरणम्"
+      ]
+    },
+    "match": "expected-prefix",
+    "detail": {
+      "headings": [
+        "TITLE  :   वैयाकरणभूषणसारः",
+        "AUTHOR  :   महामहोपाध्यायाः कौण्डभट्टः",
+        "PUBLISHER  :   जयकृष्णदास-हरिदासगुप्तः",
+        "PUBLISH YEAR  :   1939",
+        "DOMAIN  :   वेदाङ्गानि",
+        "SUB-DOMAIN  :   व्याकरणम्",
+        "PAGES  :   506",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   श्रीसदाशिवशास्त्री-जोशी",
+        "BOOKS CONTRIBUTOR  :   राष्ट्रियसंस्कृतविश्वविद्यालयः-तिरुपतिः",
+        "PRINTER  :   चौखाम्बा-संस्कृत-सिरिज्-अफिस्",
+        "SERIAL NO. : Ebharati-9280"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MDYxNjc2OTIxNTQ4MDk4",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  },
+  {
+    "work": {
+      "thinker_id": "bhojaraja",
+      "work_id": "raja-martanda",
+      "title_iast": "Rāja-Mārtaṇḍa",
+      "school": "Yoga"
+    },
+    "query": "Raja Martanda",
+    "record": {
+      "title": "Rajamartanda",
+      "id": "10316",
+      "link": "https://www.ebharatisampat.in/readSearch.php?id=MjUzNTI4NjMyNzkyMDk5",
+      "category": [
+        "Category : उपवेदाः",
+        "Sub-Category : आयुर्वेदः"
+      ]
+    },
+    "match": "exact-stem",
+    "detail": {
+      "headings": [
+        "TITLE  :   राजमार्तण्डः",
+        "AUTHOR  :   भोजराजः",
+        "PUBLISHER  :   यादव-आचार्यः",
+        "PUBLISH YEAR  :   1924",
+        "DOMAIN  :   उपवेदाः",
+        "SUB-DOMAIN  :   आयुर्वेदः",
+        "PAGES  :   166",
+        "LANGUAGE  :   संस्कृतम्",
+        "EDITOR  :   यादव-आचार्यः",
+        "PRINTER  :   सुबोधिनी-प्रिण्टिंग-प्रेस्",
+        "SERIAL NO. : Ebharati-10316"
+      ],
+      "links": [
+        {
+          "href": "https://www.ebharatisampat.in/pdf?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/pdf.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "E-Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/unicodetype.php?cat=All&sub_cat=All&author=All&publisher=All&contributor=All&language=All&sort=ASC",
+          "text": "Proofread Books"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/readbook3.php?bookid=MjUzNTI4NjMyNzkyMDk5&pageno=MjI0MjQyNjk5NTk=",
+          "text": "Read Unicode"
+        },
+        {
+          "href": "https://www.ebharatisampat.in/ebook/index.php?bookid=MjUzNTI4NjMyNzkyMDk5",
+          "text": "Read E-Book"
+        }
+      ]
+    }
+  }
+]

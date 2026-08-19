@@ -1,0 +1,6177 @@
+[
+  {
+    "work": {
+      "thinker_id": "baladeva",
+      "work_id": "prameya-ratnavali",
+      "title_iast": "Prameya-Ratnāvalī",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Prameya Ratnavali",
+    "cats": [
+      "Category : भक्तिसम्प्रदायः",
+      "Sub-Category : भक्तिसम्प्रदायसम्बद्धपुस्तकानि"
+    ],
+    "ids": [
+      "12640"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDgwNDEyNDA1MjkzMzEyMQ=="
+    ],
+    "titles": [
+      "Prameya Ratnavali"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "baladeva",
+      "work_id": "siddhanta-ratnam",
+      "title_iast": "Siddhānta-Ratnam",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Siddhanta Ratnam",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhaktivinoda",
+      "work_id": "bhagavatarka-marici-mala",
+      "title_iast": "Bhāgavatārka-Marīci-Mālā",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Bhagavatarka Marici Mala",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhaktivinoda",
+      "work_id": "tattva-sutra",
+      "title_iast": "Tattva-Sūtra",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Tattva Sutra",
+    "cats": [
+      "Category : भक्तिसम्प्रदायः",
+      "Sub-Category : भक्तिसम्प्रदायसम्बद्धपुस्तकानि"
+    ],
+    "ids": [
+      "12868"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjkyNjg0NzQ2OTcyNTMyMQ=="
+    ],
+    "titles": [
+      "Para Tattva Sutram"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "bhaktivinoda",
+      "work_id": "vedanta-adhikarana-mala",
+      "title_iast": "Vedānta-Adhikaraṇa-Mālā",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Vedanta Adhikarana Mala",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "10560"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDIzNjc5OTEzMDI3MzEwMQ=="
+    ],
+    "titles": [
+      "Vedanta Adhikarana Mala"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "gopala-bhatta-gosvami",
+      "work_id": "sat-kriya-sara-dipika",
+      "title_iast": "Sat-kriyā-sāra-dīpikā",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Sat kriya sara dipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "jiva-gosvami",
+      "work_id": "sarva-samvadini",
+      "title_iast": "Sarva-Saṃvādinī",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Sarva Samvadini",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kavi-karnapura",
+      "work_id": "alankara-kaustubha",
+      "title_iast": "Alaṅkāra-Kaustubha",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Alankara Kaustubha",
+    "cats": [
+      "Category : काव्यानि",
+      "Sub-Category : पद्यम्"
+    ],
+    "ids": [
+      "3012"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDYwNTcxMjg2MDQxOTgy"
+    ],
+    "titles": [
+      "Udhava-sandhesha"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "kavi-karnapura",
+      "work_id": "ananda-vrndavana-campu",
+      "title_iast": "Ānanda-Vṛndāvana-Campū",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Ananda Vrndavana Campu",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kavi-karnapura",
+      "work_id": "caitanya-candrodaya-nataka",
+      "title_iast": "Caitanya-Candrodaya-Nāṭaka",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Caitanya Candrodaya Nataka",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "krsnadasa-kaviraja",
+      "work_id": "govinda-lilamrta",
+      "title_iast": "Govinda-līlāmṛta",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Govinda lilamrta",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "krsnadasa-kaviraja",
+      "work_id": "sarartha-darsini",
+      "title_iast": "Sārārtha-darśinī",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Sarartha darsini",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "prabodhananda-sarasvati",
+      "work_id": "radha-rasa-sudha-nidhi",
+      "title_iast": "Rādhā-rasa-sudhā-nidhi",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Radha rasa sudha nidhi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "prabodhananda-sarasvati",
+      "work_id": "vrndavana-mahimamrta",
+      "title_iast": "Vṛndāvana-mahimāmṛta",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Vrndavana mahimamrta",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "raghunatha-dasa-gosvami",
+      "work_id": "manah-siksa",
+      "title_iast": "Manaḥ-śikṣā",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Manah siksa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "raghunatha-dasa-gosvami",
+      "work_id": "mukta-carita",
+      "title_iast": "Mukta-carita",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Mukta carita",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sanatana-gosvami",
+      "work_id": "brhad-bhagavatamrta",
+      "title_iast": "Bṛhad-Bhāgavatāmṛta",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Brhad Bhagavatamrta",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sanatana-gosvami",
+      "work_id": "hari-bhakti-vilasa",
+      "title_iast": "Hari-Bhakti-Vilāsa",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Hari Bhakti Vilasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sanatana-gosvami",
+      "work_id": "vaisnava-toshani",
+      "title_iast": "Vaiṣṇava-Toṣaṇī",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Vaisnava Tosani",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "visvanatha",
+      "work_id": "madhurya-kadambini",
+      "title_iast": "Mādhurya-Kādambinī",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Madhurya Kadambini",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "visvanatha",
+      "work_id": "raga-vartma-candrika",
+      "title_iast": "Rāga-Vartma-Candrikā",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Raga Vartma Candrika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "visvanatha",
+      "work_id": "sararthadarshini",
+      "title_iast": "Sārārtha-Darśinī",
+      "school": "Acintya-Bhedābheda"
+    },
+    "query": "Sarartha Darsini",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "amalananda",
+      "work_id": "sastra-darpana",
+      "title_iast": "Śāstra-darpaṇa",
+      "school": "Advaita"
+    },
+    "query": "Sastra darpana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "amalananda",
+      "work_id": "vedanta-kalpataru",
+      "title_iast": "Vedānta-kalpataru",
+      "school": "Advaita"
+    },
+    "query": "Vedanta kalpataru",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : दर्शनसम्बद्धपुस्तकानि",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "7960",
+      "12555",
+      "12556"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDIxOTc2OTgwMDMxNDY3",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDEyODA2MzI4MjMyNTAyMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjM2MDU4OTE4ODIzNTAyMQ=="
+    ],
+    "titles": [
+      "Vedanta Kalpataru Parimala (Part 1)",
+      "Vedanta Kalpataru Parimala (Part 2)",
+      "Vedanta Kalpataru Parimala (Part 3)"
+    ],
+    "raw_count": 3
+  },
+  {
+    "work": {
+      "thinker_id": "anandabodha",
+      "work_id": "nyaya-dipavali",
+      "title_iast": "Nyāya-Dīpāvalī",
+      "school": "Advaita"
+    },
+    "query": "Nyaya Dipavali",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "anandabodha",
+      "work_id": "nyaya-makaranda",
+      "title_iast": "Nyāya-Makaranda",
+      "school": "Advaita"
+    },
+    "query": "Nyaya Makaranda",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "anandabodha",
+      "work_id": "pramana-mala",
+      "title_iast": "Pramāṇa-Mālā",
+      "school": "Advaita"
+    },
+    "query": "Pramana Mala",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "12944"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=ODYzMDE5MTYzNTc1MjQyMQ=="
+    ],
+    "titles": [
+      "Pramana Mala"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "anandagiri",
+      "work_id": "gita-bhasya-tika",
+      "title_iast": "Gītā-bhāṣya-ṭīkā",
+      "school": "Advaita"
+    },
+    "query": "Gita bhasya tika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "anandagiri",
+      "work_id": "nyaya-nirnaya-subcommentaries",
+      "title_iast": "Nyāyanirṇaya sub-commentaries",
+      "school": "Advaita"
+    },
+    "query": "Nyayanirnaya sub commentaries",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "anantakrishna-sastri",
+      "work_id": "advaita-dipika",
+      "title_iast": "Advaita-Dīpikā",
+      "school": "Advaita"
+    },
+    "query": "Advaita Dipika",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "10857"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDU2NTc5MzAyMTMyMjQwMQ=="
+    ],
+    "titles": [
+      "Advaita Dipika"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "anantakrishna-sastri",
+      "work_id": "advaita-tattva-sudha",
+      "title_iast": "Advaita-Tattva-Sudhā",
+      "school": "Advaita"
+    },
+    "query": "Advaita Tattva Sudha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "anantakrishna-sastri",
+      "work_id": "editions-of-advaita-siddhi-and-nyayamrita",
+      "title_iast": "Advaita-Siddhi (Laghu-Candrikā-sahitā) and Nyāyāmṛta editions",
+      "school": "Advaita"
+    },
+    "query": "Advaita Siddhi (Laghu Candrika sahita) and Nyayamrta editions",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "anantakrishna-sastri",
+      "work_id": "shatabhushani",
+      "title_iast": "Śatabhūṣaṇī",
+      "school": "Advaita"
+    },
+    "query": "Satabhusani",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "anantakrishna-sastri",
+      "work_id": "vedanta-paribhasha-edition",
+      "title_iast": "Vedānta-Paribhāṣā edition",
+      "school": "Advaita"
+    },
+    "query": "Vedanta Paribhasa edition",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "anantakrishna-sastri",
+      "work_id": "vedanta-raksha-mani",
+      "title_iast": "Vedānta-Rakṣā-Maṇi",
+      "school": "Advaita"
+    },
+    "query": "Vedanta Raksa Mani",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "appayya",
+      "work_id": "ananda-lahari-vyakhya",
+      "title_iast": "Ānanda-Laharī-Vyākhyā",
+      "school": "Advaita"
+    },
+    "query": "Ananda Lahari Vyakhya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "appayya",
+      "work_id": "parimala",
+      "title_iast": "Parimala",
+      "school": "Advaita"
+    },
+    "query": "Parimala",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : दर्शनसम्बद्धपुस्तकानि",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "11952",
+      "11953",
+      "11954",
+      "11955",
+      "3092",
+      "7960",
+      "12555",
+      "12556"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDQ3NzI0OTgwNzQzNzQxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjYxMDc2NTgwMzQ0NzQxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODg1MjE5MTgwOTM1NzQxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDEwNTUxODcwNTM2NzQxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDI4ODY1MTgzMDI4Njky",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDIxOTc2OTgwMDMxNDY3",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDEyODA2MzI4MjMyNTAyMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjM2MDU4OTE4ODIzNTAyMQ=="
+    ],
+    "titles": [
+      "Nyayasudha Parimalam (Vol.1)",
+      "Nyayasudha Parimalam (Vol.2)",
+      "Nyayasudha Parimalam (Vol.3)",
+      "Nyayasudha Parimalam (Vol.4)",
+      "Sriman-nyayasudha-parimala",
+      "Vedanta Kalpataru Parimala (Part 1)",
+      "Vedanta Kalpataru Parimala (Part 2)",
+      "Vedanta Kalpataru Parimala (Part 3)"
+    ],
+    "raw_count": 8
+  },
+  {
+    "work": {
+      "thinker_id": "appayya",
+      "work_id": "siddhanta-lesha-samgraha",
+      "title_iast": "Siddhānta-Leśa-Saṃgraha",
+      "school": "Advaita"
+    },
+    "query": "Siddhanta Lesa Samgraha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "appayya",
+      "work_id": "sivarka-mani-dipika",
+      "title_iast": "Śivārka-Maṇi-Dīpikā",
+      "school": "Advaita"
+    },
+    "query": "Sivarka Mani Dipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "brahmananda",
+      "work_id": "gauda-brahmanandi",
+      "title_iast": "Gauḍa-Brahmānandī",
+      "school": "Advaita"
+    },
+    "query": "Gauda Brahmanandi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "brahmananda",
+      "work_id": "laghu-candrika",
+      "title_iast": "Laghu-Candrikā",
+      "school": "Advaita"
+    },
+    "query": "Laghu Candrika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "candrasekhara-bharati",
+      "work_id": "gururaja-sukti-malika",
+      "title_iast": "Gururāja-Sūkti-Mālikā",
+      "school": "Advaita"
+    },
+    "query": "Gururaja Sukti Malika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "candrasekhara-bharati",
+      "work_id": "recorded-discourses",
+      "title_iast": "Recorded oral discourses",
+      "school": "Advaita"
+    },
+    "query": "Recorded oral discourses",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "candrasekhara-bharati",
+      "work_id": "vivekachudamani-bhashya",
+      "title_iast": "Vivekacūḍāmaṇi-Bhāṣya",
+      "school": "Advaita"
+    },
+    "query": "Vivekacudamani Bhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dharmaraja",
+      "work_id": "vedanta-paribhasha",
+      "title_iast": "Vedānta-Paribhāṣā",
+      "school": "Advaita"
+    },
+    "query": "Vedanta Paribhasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "hastamalaka",
+      "work_id": "hastamalaka-stotra",
+      "title_iast": "Hastāmalaka-Stotra",
+      "school": "Advaita"
+    },
+    "query": "Hastamalaka Stotra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "karpatri",
+      "work_id": "vedartha-parijata",
+      "title_iast": "Vedārtha-Pārijāta",
+      "school": "Advaita"
+    },
+    "query": "Vedartha Parijata",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nrsimhasrama",
+      "work_id": "advaitadipika",
+      "title_iast": "Advaitadīpikā",
+      "school": "Advaita"
+    },
+    "query": "Advaitadipika",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्"
+    ],
+    "ids": [
+      "2111",
+      "9691",
+      "12510"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjQ4MjU3NzYwODQ2MjAy",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjA2MTEzNTg1OTkyMDM5",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDIyOTk2Mjk5MjE5MDAyMQ=="
+    ],
+    "titles": [
+      "Advaitadipika",
+      "Advaitadipika (Part-2)",
+      "Advaitadipika Vatagama"
+    ],
+    "raw_count": 3
+  },
+  {
+    "work": {
+      "thinker_id": "nrsimhasrama",
+      "work_id": "bhedadhikkara",
+      "title_iast": "Bhedadhikkāra",
+      "school": "Advaita"
+    },
+    "query": "Bhedadhikkara",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "9371",
+      "7630"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjY1NjM3Nzg3MDg1OTk4",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDY4OTc2OTIzMTU0MjM3"
+    ],
+    "titles": [
+      "Bhedadhikkara",
+      "Bhedadhikkara"
+    ],
+    "raw_count": 2
+  },
+  {
+    "work": {
+      "thinker_id": "nrsimhasrama",
+      "work_id": "vedanta-tattva-viveka",
+      "title_iast": "Vedānta-tattva-viveka",
+      "school": "Advaita"
+    },
+    "query": "Vedanta tattva viveka",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "prakasananda",
+      "work_id": "vedanta-siddhanta-muktavali",
+      "title_iast": "Vedānta-siddhānta-muktāvalī",
+      "school": "Advaita"
+    },
+    "query": "Vedanta siddhanta muktavali",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "10937"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDE0OTYzMzA5MDE5OTQwMQ=="
+    ],
+    "titles": [
+      "Vedanta Siddhanta Muktavali"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "sadananda-yogindra",
+      "work_id": "vedantasara",
+      "title_iast": "Vedāntasāra",
+      "school": "Advaita"
+    },
+    "query": "Vedantasara",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : भारतीयदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : दर्शनसम्बद्धपुस्तकानि",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : दर्शनसम्बद्धपुस्तकानि",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "9508",
+      "7789",
+      "9390",
+      "2514",
+      "8403",
+      "10402",
+      "2515",
+      "12487"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjczODQ5MjcyMjM3MjE5",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODU5NDIyMjM3NDE3NzQ3",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDg1MjQzNjE3NDA0MTA5",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODA5ODQ0MzU1NDMzMTQy",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjYwMjcwNTI0NjU2NjA4",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDQ2Mzc2MzE5MjU1ODk5",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDMzMTk2OTQ1MDM0MTQy",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDE1MzIxOTcwNTA3ODkxMQ=="
+    ],
+    "titles": [
+      "Vedantasara",
+      "Vedantasara",
+      "Vedantasara",
+      "Vedantasara",
+      "Vedantasara",
+      "Vedantasara and Sridakshinamurtistotra",
+      "Vedantasara-Vyakhyanamatram",
+      "Vedavedantasara shiromani"
+    ],
+    "raw_count": 8
+  },
+  {
+    "work": {
+      "thinker_id": "sankara",
+      "work_id": "aparoksanubhuti",
+      "title_iast": "Aparokṣānubhūti",
+      "school": "Advaita"
+    },
+    "query": "Aparoksanubhuti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sankara",
+      "work_id": "bhaja-govindam",
+      "title_iast": "Bhaja-Govindam",
+      "school": "Advaita"
+    },
+    "query": "Bhaja Govindam",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sankara",
+      "work_id": "kena-bhasya",
+      "title_iast": "Kena-Upaniṣad-Bhāṣya (Pada-Bhāṣya and Vākya-Bhāṣya)",
+      "school": "Advaita"
+    },
+    "query": "Kena Upanisad Bhasya (Pada Bhasya and Vakya Bhasya)",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sankara",
+      "work_id": "mundaka-bhasya",
+      "title_iast": "Muṇḍaka-Upaniṣad-Bhāṣya",
+      "school": "Advaita"
+    },
+    "query": "Mundaka Upanisad Bhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sankara",
+      "work_id": "saundarya-lahari",
+      "title_iast": "Saundarya-Laharī",
+      "school": "Advaita"
+    },
+    "query": "Saundarya Lahari",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sankara",
+      "work_id": "sivananda-lahari",
+      "title_iast": "Śivānanda-Laharī",
+      "school": "Advaita"
+    },
+    "query": "Sivananda Lahari",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sarvajnatman",
+      "work_id": "panca-prakriya",
+      "title_iast": "Pañca-Prakriyā",
+      "school": "Advaita"
+    },
+    "query": "Panca Prakriya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "satchidanandendra",
+      "work_id": "mandukya-rahasya-vivriti",
+      "title_iast": "Māṇḍūkya-Rahasya-Vivṛti",
+      "school": "Advaita"
+    },
+    "query": "Mandukya Rahasya Vivrti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "satchidanandendra",
+      "work_id": "mulavidya-nirasa",
+      "title_iast": "Mūlāvidyā-Nirāsa",
+      "school": "Advaita"
+    },
+    "query": "Mulavidya Nirasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "satchidanandendra",
+      "work_id": "shuddha-shankara-prakriya-bhaskara",
+      "title_iast": "Śuddha-Śāṅkara-Prakriyā-Bhāskara",
+      "school": "Advaita"
+    },
+    "query": "Suddha Sankara Prakriya Bhaskara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "satchidanandendra",
+      "work_id": "vedanta-prakriya-pratyabhijna",
+      "title_iast": "Vedānta-Prakriyā-Pratyabhijñā",
+      "school": "Advaita"
+    },
+    "query": "Vedanta Prakriya Pratyabhijna",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sri-harsa",
+      "work_id": "khandanakhandakhadya",
+      "title_iast": "Khaṇḍanakhaṇḍakhādya",
+      "school": "Advaita"
+    },
+    "query": "Khandanakhandakhadya",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "9480"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDY1MDYxODczNDQwMDE5"
+    ],
+    "titles": [
+      "Khandanakhandakhadyam"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "totaka",
+      "work_id": "srutisara-samuddharana",
+      "title_iast": "Śrutisāra-Samuddharaṇa",
+      "school": "Advaita"
+    },
+    "query": "Srutisara Samuddharana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "totaka",
+      "work_id": "totakashtaka",
+      "title_iast": "Toṭakāṣṭaka",
+      "school": "Advaita"
+    },
+    "query": "Totakastaka",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vacaspati",
+      "work_id": "nyaya-varttika-tatparya-tika",
+      "title_iast": "Nyāya-Vārttika-Tātparya-Ṭīkā",
+      "school": "Advaita"
+    },
+    "query": "Nyaya Varttika Tatparya Tika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vacaspati",
+      "work_id": "tattva-vaisaradi",
+      "title_iast": "Tattva-Vaiśāradī",
+      "school": "Advaita"
+    },
+    "query": "Tattva Vaisaradi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vidyaranya",
+      "work_id": "sarva-darshana-samgraha",
+      "title_iast": "Sarva-Darśana-Saṃgraha",
+      "school": "Advaita"
+    },
+    "query": "Sarva Darsana Samgraha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "mukula-bhatta",
+      "work_id": "abhidha-vrtti-matrka",
+      "title_iast": "Abhidhā-vṛtti-mātṛkā",
+      "school": "Alaṅkāra"
+    },
+    "query": "Abhidha vrtti matrka",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhava-ganesa",
+      "work_id": "pradipa-on-sankhya-pravacana-bhasya",
+      "title_iast": "Pradīpa",
+      "school": "Avibhāgādvaita"
+    },
+    "query": "Pradipa",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : जैनदर्शनम्",
+      "Category : उपनिषदः",
+      "Sub-Category : उपनिषदसम्बद्धपुस्तकानि",
+      "Category : साहित्यम्",
+      "Sub-Category : अलङ्कारशास्त्रम्",
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्",
+      "Category : गीताः",
+      "Sub-Category : भगवद्गीता",
+      "Category : आगमः",
+      "Sub-Category : तन्त्रशास्त्रम्"
+    ],
+    "ids": [
+      "1390",
+      "3232",
+      "626",
+      "3670",
+      "3693",
+      "3694",
+      "1467",
+      "3707",
+      "6255",
+      "120"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDg1NjY5Njc3NDM0MzMx",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDA5NzA1NTU4OTUyMDEz",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjcxNjU3NzQ2MzkwMDY=",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDQ3ODg2OTAyNjAzMjUz",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjQ0NDYyMzIxNDE1NDUz",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODY4NjA1OTExMDE2NDUz",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDcwMzM2Nzg0NjI4MDQx",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDUzODU2MDcwODU4NTUz",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDE2OTQzNjk0NjU0MDA2",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDQ2MDkwOTQ1OTE1MTE="
+    ],
+    "titles": [
+      "Achara-pradipa",
+      "Aitareyopanishad-bhavapradipa",
+      "Alankarapradipa",
+      "Bodhi-patha-pradipa",
+      "Charyamelavanapradipa",
+      "Charyasangrahapradipa",
+      "Dharmottara-pradipa",
+      "Dharmottarapradipa",
+      "Gitayoga-pradiparyya-bhashya",
+      "Karmapradipa"
+    ],
+    "raw_count": 10
+  },
+  {
+    "work": {
+      "thinker_id": "bhava-ganesa",
+      "work_id": "tattva-yatharthya-dipana",
+      "title_iast": "Tattva-Yāthārthya-Dīpana",
+      "school": "Avibhāgādvaita"
+    },
+    "query": "Tattva Yatharthya Dipana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vijnanabhiksu",
+      "work_id": "sankhya-pravacana-bhasya",
+      "title_iast": "Sāṅkhya-Pravacana-Bhāṣya",
+      "school": "Avibhāgādvaita"
+    },
+    "query": "Sankhya Pravacana Bhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "amrtananda",
+      "work_id": "cidvilasa-stava",
+      "title_iast": "Cidvilāsa-Stava",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Cidvilasa Stava",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "amrtananda",
+      "work_id": "yogini-hrdaya-dipika",
+      "title_iast": "Yoginī-Hṛdaya-Dīpikā",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Yogini Hrdaya Dipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "cidambarananda",
+      "work_id": "mahanaya-prakasa-commentary",
+      "title_iast": "Mahānaya-Prakāśa",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Mahanaya Prakasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "hrasvanatha",
+      "work_id": "krama-sadbhava",
+      "title_iast": "Krama-Sadbhāva",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Krama Sadbhava",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "laksmana-desikendra",
+      "work_id": "sarada-tilaka",
+      "title_iast": "Śāradātilaka",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Saradatilaka",
+    "cats": [
+      "Category : आगमः",
+      "Sub-Category : शाक्तम्",
+      "Category : आगमः",
+      "Sub-Category : शाक्तम्"
+    ],
+    "ids": [
+      "6048",
+      "6049"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjUyODYxNDcyNTg1MDg1",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODc2MDE0MDcyMTg2MDg1"
+    ],
+    "titles": [
+      "Saradatilakam",
+      "Saradatilakam"
+    ],
+    "raw_count": 2
+  },
+  {
+    "work": {
+      "thinker_id": "malini-vijaya-tantra",
+      "work_id": "malini-vijaya-tantra-text",
+      "title_iast": "Mālinī-Vijaya-Tantra",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Malini Vijaya Tantra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "punyananda",
+      "work_id": "kamakalavilasa",
+      "title_iast": "Kāmakalāvilāsa",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Kamakalavilasa",
+    "cats": [
+      "Category : आगमः",
+      "Sub-Category : तन्त्रशास्त्रम्"
+    ],
+    "ids": [
+      "8850"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDA3NDM0NTQ3NjY1OTQ4"
+    ],
+    "titles": [
+      "Kamakalavilasa"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "sivananda-yogin",
+      "work_id": "rju-vimarsini",
+      "title_iast": "Ṛju-Vimarśinī",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Rju Vimarsini",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "svacchanda-tantra",
+      "work_id": "svacchanda-tantra-text",
+      "title_iast": "Svacchanda-Tantra",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Svacchanda Tantra",
+    "cats": [
+      "Category : आगमः",
+      "Sub-Category : शैवतन्त्रम्"
+    ],
+    "ids": [
+      "7571"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjY5NjczMTU1Nzg3NjI3"
+    ],
+    "titles": [
+      "Svacchanda Tantram (Vol. 3)"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "trisirobhairava-tantra",
+      "work_id": "trisirobhairava-tantra-text",
+      "title_iast": "Triśirobhairava-Tantra",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Trisirobhairava Tantra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vijnana-bhairava-tantra",
+      "work_id": "vijnana-bhairava-tantra-text",
+      "title_iast": "Vijñāna-Bhairava-Tantra",
+      "school": "Bhairava-tantra"
+    },
+    "query": "Vijnana Bhairava Tantra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhartrprapanca",
+      "work_id": "brhadaranyaka-commentary-fragments",
+      "title_iast": "Bṛhadāraṇyaka commentary fragments (reconstructed)",
+      "school": "Bhedābheda"
+    },
+    "query": "Brhadaranyaka commentary fragments (reconstructed)",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhaskara",
+      "work_id": "gita-bhasya-fragments",
+      "title_iast": "Gītā-Bhāṣya fragments",
+      "school": "Bhedābheda"
+    },
+    "query": "Gita Bhasya fragments",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kesava-kasmiri",
+      "work_id": "tattva-prakashika",
+      "title_iast": "Tattva-Prakāśikā",
+      "school": "Bhedābheda"
+    },
+    "query": "Tattva Prakasika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nimbarka",
+      "work_id": "dasa-shloki",
+      "title_iast": "Daśa-Ślokī",
+      "school": "Bhedābheda"
+    },
+    "query": "Dasa Sloki",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "yadava-prakasa",
+      "work_id": "lost-bhedabheda-corpus",
+      "title_iast": "Lost Bhedābheda corpus",
+      "school": "Bhedābheda"
+    },
+    "query": "Lost Bhedabheda corpus",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dharmottara",
+      "work_id": "apoha-prakarana",
+      "title_iast": "Apoha-Prakaraṇa",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Apoha Prakarana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dharmottara",
+      "work_id": "nyaya-bindu-tika",
+      "title_iast": "Nyāya-Bindu-Ṭīkā",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Nyaya Bindu Tika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dharmottara",
+      "work_id": "pramana-viniscaya-tika",
+      "title_iast": "Pramāṇa-Viniścaya-Ṭīkā",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Pramana Viniscaya Tika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "jnanasrimitra",
+      "work_id": "jnanasrimitra-nibandhavali",
+      "title_iast": "Jñānaśrīmitra-Nibandhāvalī",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Jnanasrimitra Nibandhavali",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "manorathanandin",
+      "work_id": "pramanavarttika-vrtti",
+      "title_iast": "Pramāṇavārttika-vṛtti",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Pramanavarttika vrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "prajnakaragupta",
+      "work_id": "pramanavarttika-alankara",
+      "title_iast": "Pramāṇavārttikālaṅkāra",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Pramanavarttikalankara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "prajnakaragupta",
+      "work_id": "sahopalambhaniyama-siddhi",
+      "title_iast": "Sahopalambhaniyama-siddhi",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Sahopalambhaniyama siddhi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ratnakarasanti",
+      "work_id": "antarvyaptisamarthana",
+      "title_iast": "Antarvyāptisamarthana",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Antarvyaptisamarthana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ratnakarasanti",
+      "work_id": "madhyamakalankaropadesa",
+      "title_iast": "Madhyamakālaṃkāropadeśa",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Madhyamakalamkaropadesa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ratnakarasanti",
+      "work_id": "vijnaptimatratasiddhi",
+      "title_iast": "Vijñaptimātratāsiddhi",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Vijnaptimatratasiddhi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ratnakirti",
+      "work_id": "ratnakirti-nibandhavali",
+      "title_iast": "Ratnakīrti-Nibandhāvalī",
+      "school": "Buddhist Pramāṇa"
+    },
+    "query": "Ratnakirti Nibandhavali",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्"
+    ],
+    "ids": [
+      "10597"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDM5NTQ5MDgxMjcyNzEwMQ=="
+    ],
+    "titles": [
+      "Ratnakirti Nibandhavali"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "carvaka",
+      "work_id": "barhaspatya-sutra-fragments",
+      "title_iast": "Bārhaspatya-Sūtra (fragments)",
+      "school": "Cārvāka"
+    },
+    "query": "Barhaspatya Sutra (fragments)",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "abhinanda",
+      "work_id": "mahartha-manjari-verses",
+      "title_iast": "Mahārtha-Mañjarī (mūla-gāthās)",
+      "school": "Cross-tradition"
+    },
+    "query": "Mahartha Manjari (mula gathas)",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "asanga",
+      "work_id": "abhidharma-samuccaya",
+      "title_iast": "Abhidharma-Samuccaya",
+      "school": "Cross-tradition"
+    },
+    "query": "Abhidharma Samuccaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "asanga",
+      "work_id": "bodhisattva-bhumi",
+      "title_iast": "Bodhisattva-Bhūmi",
+      "school": "Cross-tradition"
+    },
+    "query": "Bodhisattva Bhumi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "asanga",
+      "work_id": "mahayana-sangraha",
+      "title_iast": "Mahāyāna-Saṅgraha",
+      "school": "Cross-tradition"
+    },
+    "query": "Mahayana Sangraha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "asanga",
+      "work_id": "yogacara-bhumi-shastra",
+      "title_iast": "Yogācāra-Bhūmi-Śāstra",
+      "school": "Cross-tradition"
+    },
+    "query": "Yogacara Bhumi Sastra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhaskararaya",
+      "work_id": "saubhagya-bhaskara",
+      "title_iast": "Saubhāgya-Bhāskara",
+      "school": "Cross-tradition"
+    },
+    "query": "Saubhagya Bhaskara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhaskararaya",
+      "work_id": "setubandha",
+      "title_iast": "Setubandha",
+      "school": "Cross-tradition"
+    },
+    "query": "Setubandha",
+    "cats": [
+      "Category : काव्यानि",
+      "Sub-Category : काव्यसम्बद्धपुस्तकानि"
+    ],
+    "ids": [
+      "10571"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjY5MjQ2ODcyNjc3NDEwMQ=="
+    ],
+    "titles": [
+      "Setubandha"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "bhaskararaya",
+      "work_id": "varivasya-rahasya",
+      "title_iast": "Varivasyā-Rahasya",
+      "school": "Cross-tradition"
+    },
+    "query": "Varivasya Rahasya",
+    "cats": [
+      "Category : आगमः",
+      "Sub-Category : तन्त्रशास्त्रम्"
+    ],
+    "ids": [
+      "12616"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjU5NTkzNDk1ODgwMTEyMQ=="
+    ],
+    "titles": [
+      "Varivasya Rahasyam"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "bhatta-ramakantha",
+      "work_id": "kirana-vrtti",
+      "title_iast": "Kiraṇa-Vṛtti",
+      "school": "Cross-tradition"
+    },
+    "query": "Kirana Vrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhatta-ramakantha",
+      "work_id": "matanga-vrtti",
+      "title_iast": "Mataṅga-Vṛtti",
+      "school": "Cross-tradition"
+    },
+    "query": "Matanga Vrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhatta-ramakantha",
+      "work_id": "naresvara-pariksa-prakasa",
+      "title_iast": "Nareśvara-Parīkṣā-Prakāśa",
+      "school": "Cross-tradition"
+    },
+    "query": "Naresvara Pariksa Prakasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhatta-ramakantha",
+      "work_id": "sardha-tri-shatika-lokulisvaragama-vrtti",
+      "title_iast": "Sārdha-Tri-Śatikā-Lokulīśvarāgama-Vṛtti",
+      "school": "Cross-tradition"
+    },
+    "query": "Sardha Tri Satika Lokulisvaragama Vrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhaviveka",
+      "work_id": "prajna-pradipa",
+      "title_iast": "Prajñā-Pradīpa",
+      "school": "Cross-tradition"
+    },
+    "query": "Prajna Pradipa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhaviveka",
+      "work_id": "tarkajvala",
+      "title_iast": "Tarkajvālā",
+      "school": "Cross-tradition"
+    },
+    "query": "Tarkajvala",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "buddhaghosa",
+      "work_id": "atthasalini",
+      "title_iast": "Aṭṭhasālinī",
+      "school": "Cross-tradition"
+    },
+    "query": "Atthasalini",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्"
+    ],
+    "ids": [
+      "10833",
+      "10682"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjI1NzUxNDkyNzI5OTMwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDA4MTU1MTY4MTM0NTIwMQ=="
+    ],
+    "titles": [
+      "Atthasalini",
+      "Atthasalini"
+    ],
+    "raw_count": 2
+  },
+  {
+    "work": {
+      "thinker_id": "buddhaghosa",
+      "work_id": "sumangala-vilasini",
+      "title_iast": "Sumaṅgala-Vilāsinī",
+      "school": "Cross-tradition"
+    },
+    "query": "Sumangala Vilasini",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्"
+    ],
+    "ids": [
+      "12902"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDQ2ODI3OTE1MzQ1ODMyMQ=="
+    ],
+    "titles": [
+      "Sumangala Vilasini"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "candrakirti",
+      "work_id": "prasanna-pada",
+      "title_iast": "Prasanna-Padā",
+      "school": "Cross-tradition"
+    },
+    "query": "Prasanna Pada",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dharmakirti",
+      "work_id": "hetu-bindu",
+      "title_iast": "Hetu-Bindu",
+      "school": "Cross-tradition"
+    },
+    "query": "Hetu Bindu",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dharmakirti",
+      "work_id": "pramana-vinishchaya",
+      "title_iast": "Pramāṇa-Viniścaya",
+      "school": "Cross-tradition"
+    },
+    "query": "Pramana Viniscaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dharmakirti",
+      "work_id": "sambandha-pariksha",
+      "title_iast": "Sambandha-Parīkṣā",
+      "school": "Cross-tradition"
+    },
+    "query": "Sambandha Pariksa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dharmakirti",
+      "work_id": "vada-nyaya",
+      "title_iast": "Vāda-Nyāya",
+      "school": "Cross-tradition"
+    },
+    "query": "Vada Nyaya",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्"
+    ],
+    "ids": [
+      "12400",
+      "12403",
+      "10349",
+      "11030",
+      "12166"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDA4MjMwNjA0MzUzMDkxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjYwMDY3NDkzMTQ2MDkxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODcyNTI4MjExNTY0Mzk5",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDY2NDE5MzU1ODM4ODUwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjUwNjAzNTgyMDk4NzYxMQ=="
+    ],
+    "titles": [
+      "Gadadhara Nyunatavada",
+      "Mayavadanirasa",
+      "Shakti Vada (Shabdakhanda Grantha)",
+      "Vada Sudhakara",
+      "Vyutpattivada Tarani"
+    ],
+    "raw_count": 5
+  },
+  {
+    "work": {
+      "thinker_id": "dharmasri",
+      "work_id": "abhidharmahrdaya",
+      "title_iast": "Abhidharmahṛdaya",
+      "school": "Cross-tradition"
+    },
+    "query": "Abhidharmahrdaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dignaga",
+      "work_id": "alambana-pariksha",
+      "title_iast": "Ālambana-Parīkṣā",
+      "school": "Cross-tradition"
+    },
+    "query": "Alambana Pariksa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dignaga",
+      "work_id": "pramana-samuccaya",
+      "title_iast": "Pramāṇa-Samuccaya",
+      "school": "Cross-tradition"
+    },
+    "query": "Pramana Samuccaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "harivarman",
+      "work_id": "tattvasiddhi",
+      "title_iast": "Tattvasiddhi-Śāstra",
+      "school": "Cross-tradition"
+    },
+    "query": "Tattvasiddhi Sastra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "krsnananda-agamavagisa",
+      "work_id": "brhat-tantrasara",
+      "title_iast": "Bṛhat-Tantrasāra",
+      "school": "Cross-tradition"
+    },
+    "query": "Brhat Tantrasara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kumaralata",
+      "work_id": "kalpanamanditika",
+      "title_iast": "Kalpanāmaṇḍitikā",
+      "school": "Cross-tradition"
+    },
+    "query": "Kalpanamanditika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "lakshmidhara",
+      "work_id": "saundarya-lahari-vrtti",
+      "title_iast": "Saundarya-Laharī-Vṛtti",
+      "school": "Cross-tradition"
+    },
+    "query": "Saundarya Lahari Vrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "lankavatara",
+      "work_id": "lankavatara-sutra",
+      "title_iast": "Laṅkāvatāra-Sūtra",
+      "school": "Cross-tradition"
+    },
+    "query": "Lankavatara Sutra",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्"
+    ],
+    "ids": [
+      "8820"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDQwMjYxODU4Njg2NjQ4"
+    ],
+    "titles": [
+      "Lankavatara Sutra"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "mahesvarananda",
+      "work_id": "mahartha-manjari-with-parimala",
+      "title_iast": "Mahārtha-Mañjarī with Parimala",
+      "school": "Cross-tradition"
+    },
+    "query": "Mahartha Manjari with Parimala",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "maitreya-attributed",
+      "work_id": "abhisamayalamkara",
+      "title_iast": "Abhisamayālaṃkāra",
+      "school": "Cross-tradition"
+    },
+    "query": "Abhisamayalamkara",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्",
+      "Category : साहित्यम्",
+      "Sub-Category : अलङ्कारशास्त्रम्"
+    ],
+    "ids": [
+      "9089",
+      "5984"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=ODU1MzczNzQ4OTA1Mjc4",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODQyMzU2NDE1MTQ0NDc1"
+    ],
+    "titles": [
+      "Abhisamayalankara",
+      "Sahitya-darpana"
+    ],
+    "raw_count": 2
+  },
+  {
+    "work": {
+      "thinker_id": "maitreya-attributed",
+      "work_id": "dharma-dharmata-vibhaga",
+      "title_iast": "Dharma-Dharmatā-Vibhāga",
+      "school": "Cross-tradition"
+    },
+    "query": "Dharma Dharmata Vibhaga",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "maitreya-attributed",
+      "work_id": "madhyanta-vibhaga",
+      "title_iast": "Madhyānta-Vibhāga",
+      "school": "Cross-tradition"
+    },
+    "query": "Madhyanta Vibhaga",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "maitreya-attributed",
+      "work_id": "mahayana-sutra-alamkara",
+      "title_iast": "Mahāyāna-Sūtra-Alaṃkāra",
+      "school": "Cross-tradition"
+    },
+    "query": "Mahayana Sutra Alamkara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "catuh-stava",
+      "title_iast": "Catuḥ-Stava",
+      "school": "Cross-tradition"
+    },
+    "query": "Catuh Stava",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "school": "Cross-tradition"
+    },
+    "query": "Ratnavali",
+    "cats": [
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्",
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्",
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्",
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्",
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्",
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्",
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्",
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्",
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्",
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्"
+    ],
+    "ids": [
+      "5542",
+      "5544",
+      "5545",
+      "5546",
+      "5547",
+      "5548",
+      "5549",
+      "8379",
+      "3778",
+      "7934"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDI3MjA1NTcxMTEwMjM1",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODY1Nzg5NzYxMzAyMjM1",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDk5OTIyNDYxOTkyMjM1",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjE0Mjc0MDYxNTkzMjM1",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDM4NDE3NjUxMTk0MjM1",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjUyNzU5MjUxNzg1MjM1",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODc2OTkxOTQxMzg2MjM1",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODM5MzUyNTE1MjUzNDA4",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjEzMDc4MzA4Mzc2MjYz",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODQxNjczNzgxNDM2MTY3"
+    ],
+    "titles": [
+      "Ratnavali",
+      "Ratnavali",
+      "Ratnavali",
+      "Ratnavali",
+      "Ratnavali",
+      "Ratnavali",
+      "Ratnavali",
+      "Ratnavali",
+      "Ratnavali",
+      "Ratnavali"
+    ],
+    "raw_count": 10
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "sunyata-saptati",
+      "title_iast": "Śūnyatā-Saptati",
+      "school": "Cross-tradition"
+    },
+    "query": "Sunyata Saptati",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nagarjuna",
+      "work_id": "yukti-sastika",
+      "title_iast": "Yukti-Ṣaṣṭikā",
+      "school": "Cross-tradition"
+    },
+    "query": "Yukti Sastika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "narayanakantha",
+      "work_id": "mrgendra-vrtti",
+      "title_iast": "Mṛgendravṛtti",
+      "school": "Cross-tradition"
+    },
+    "query": "Mrgendravrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "purnananda",
+      "work_id": "sritattvacintamani",
+      "title_iast": "Śrītattvacintāmaṇi",
+      "school": "Cross-tradition"
+    },
+    "query": "Sritattvacintamani",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्"
+    ],
+    "ids": [
+      "3130"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDY4MDg3ODMyODY0MDAz"
+    ],
+    "titles": [
+      "TarkaTandavaVivrti (NyayaDeepa)"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "raghavabhatta",
+      "work_id": "padarthadarsa",
+      "title_iast": "Padārthādarśa",
+      "school": "Cross-tradition"
+    },
+    "query": "Padarthadarsa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sadyojyotis",
+      "work_id": "bhoga-karika",
+      "title_iast": "Bhoga-Kārikā",
+      "school": "Cross-tradition"
+    },
+    "query": "Bhoga Karika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sadyojyotis",
+      "work_id": "moksha-karika",
+      "title_iast": "Mokṣa-Kārikā",
+      "school": "Cross-tradition"
+    },
+    "query": "Moksa Karika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sadyojyotis",
+      "work_id": "naresvara-pariksa",
+      "title_iast": "Nareśvara-Parīkṣā",
+      "school": "Cross-tradition"
+    },
+    "query": "Naresvara Pariksa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sadyojyotis",
+      "work_id": "tattva-sangraha",
+      "title_iast": "Tattva-Saṅgraha",
+      "school": "Cross-tradition"
+    },
+    "query": "Tattva Sangraha",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्"
+    ],
+    "ids": [
+      "1377"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDkwNTE4NTI4NjgxMjMx"
+    ],
+    "titles": [
+      "Tattva Sangraha (Vol. II)"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "sadyojyotis",
+      "work_id": "tattva-trayanirnaya",
+      "title_iast": "Tattva-Trayanirṇaya",
+      "school": "Cross-tradition"
+    },
+    "query": "Tattva Trayanirnaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sanghabhadra",
+      "work_id": "abhidharma-samaya-pradipika",
+      "title_iast": "Abhidharma-Samaya-Pradīpikā",
+      "school": "Cross-tradition"
+    },
+    "query": "Abhidharma Samaya Pradipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sanghabhadra",
+      "work_id": "nyayanusara",
+      "title_iast": "Nyāyānusāra",
+      "school": "Cross-tradition"
+    },
+    "query": "Nyayanusara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "srilata",
+      "work_id": "sautrantika-vibhasa",
+      "title_iast": "Sautrāntika-Vibhāṣā",
+      "school": "Cross-tradition"
+    },
+    "query": "Sautrantika Vibhasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vasubandhu",
+      "work_id": "abhidharma-kosa-bhasya",
+      "title_iast": "Abhidharma-Kośa-Bhāṣya",
+      "school": "Cross-tradition"
+    },
+    "query": "Abhidharma Kosa Bhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vasubandhu",
+      "work_id": "karma-siddhi-prakarana",
+      "title_iast": "Karma-Siddhi-Prakaraṇa",
+      "school": "Cross-tradition"
+    },
+    "query": "Karma Siddhi Prakarana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vasubandhu",
+      "work_id": "trisvabhava-nirdesa",
+      "title_iast": "Trisvabhāva-Nirdeśa",
+      "school": "Cross-tradition"
+    },
+    "query": "Trisvabhava Nirdesa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vasubandhu-abhidharma",
+      "work_id": "abhidharma-kosa-bhasya",
+      "title_iast": "Abhidharma-Kośa-Bhāṣya",
+      "school": "Cross-tradition"
+    },
+    "query": "Abhidharma Kosa Bhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vasubandhu-abhidharma",
+      "work_id": "abhidharma-kosa-karika",
+      "title_iast": "Abhidharma-Kośa-Kārikā",
+      "school": "Cross-tradition"
+    },
+    "query": "Abhidharma Kosa Karika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vasumitra",
+      "work_id": "dhatukaya",
+      "title_iast": "Dhātukāya",
+      "school": "Cross-tradition"
+    },
+    "query": "Dhatukaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vasumitra",
+      "work_id": "prakaranapada",
+      "title_iast": "Prakaraṇapāda",
+      "school": "Cross-tradition"
+    },
+    "query": "Prakaranapada",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "yasomitra",
+      "work_id": "sphutartha-abhidharmakosavyakhya",
+      "title_iast": "Sphuṭārthā Abhidharmakośavyākhyā",
+      "school": "Cross-tradition"
+    },
+    "query": "Sphutartha Abhidharmakosavyakhya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "abhayadeva-suri",
+      "work_id": "agamas-tika-abhayadeva",
+      "title_iast": "Āgama-Ṭīkās",
+      "school": "Jaina"
+    },
+    "query": "Agama Tikas",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "abhayadeva-suri",
+      "work_id": "sanmati-tarka-tika",
+      "title_iast": "Sanmati-Tarka-Ṭīkā",
+      "school": "Jaina"
+    },
+    "query": "Sanmati Tarka Tika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "akalanka",
+      "work_id": "ashta-sahasri",
+      "title_iast": "Aṣṭa-Sahasrī",
+      "school": "Jaina"
+    },
+    "query": "Asta Sahasri",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "akalanka",
+      "work_id": "laghiyastraya",
+      "title_iast": "Laghīyastraya",
+      "school": "Jaina"
+    },
+    "query": "Laghiyastraya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "akalanka",
+      "work_id": "nyaya-viniscaya",
+      "title_iast": "Nyāya-Viniścaya",
+      "school": "Jaina"
+    },
+    "query": "Nyaya Viniscaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "akalanka",
+      "work_id": "pramana-sangraha",
+      "title_iast": "Pramāṇa-Saṅgraha",
+      "school": "Jaina"
+    },
+    "query": "Pramana Sangraha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "akalanka",
+      "work_id": "siddhi-viniscaya",
+      "title_iast": "Siddhi-Viniścaya",
+      "school": "Jaina"
+    },
+    "query": "Siddhi Viniscaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "akalanka",
+      "work_id": "tattvartha-varttika",
+      "title_iast": "Tattvārtha-Vārttika",
+      "school": "Jaina"
+    },
+    "query": "Tattvartha Varttika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "amrtacandra",
+      "work_id": "atmakhyati",
+      "title_iast": "Ātmakhyāti",
+      "school": "Jaina"
+    },
+    "query": "Atmakhyati",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "amrtacandra",
+      "work_id": "purusarthasiddhyupaya",
+      "title_iast": "Puruṣārthasiddhyupāya",
+      "school": "Jaina"
+    },
+    "query": "Purusarthasiddhyupaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "haribhadra",
+      "work_id": "sad-darsana-samuccaya",
+      "title_iast": "Ṣaḍ-Darśana-Samuccaya",
+      "school": "Jaina"
+    },
+    "query": "Sad Darsana Samuccaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "haribhadra",
+      "work_id": "yoga-bindu",
+      "title_iast": "Yoga-Bindu",
+      "school": "Jaina"
+    },
+    "query": "Yoga Bindu",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "haribhadra",
+      "work_id": "yoga-drsti-samuccaya",
+      "title_iast": "Yoga-Dṛṣṭi-Samuccaya",
+      "school": "Jaina"
+    },
+    "query": "Yoga Drsti Samuccaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "hemacandra",
+      "work_id": "yoga-shastra",
+      "title_iast": "Yoga-Śāstra",
+      "school": "Jaina"
+    },
+    "query": "Yoga Sastra",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : योगदर्शनम्"
+    ],
+    "ids": [
+      "10254"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=ODgxNTk3OTY0NTQzNDg5"
+    ],
+    "titles": [
+      "Brihadyoga Tarangini (Part-II)"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "kundakunda",
+      "work_id": "pancastikaya",
+      "title_iast": "Pañcāstikāya",
+      "school": "Jaina"
+    },
+    "query": "Pancastikaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kundakunda",
+      "work_id": "pravacana-sara",
+      "title_iast": "Pravacana-Sāra",
+      "school": "Jaina"
+    },
+    "query": "Pravacana Sara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kundakunda",
+      "work_id": "samaya-sara",
+      "title_iast": "Samaya-Sāra",
+      "school": "Jaina"
+    },
+    "query": "Samaya Sara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "mallavadin",
+      "work_id": "nayacakra",
+      "title_iast": "Nayacakra",
+      "school": "Jaina"
+    },
+    "query": "Nayacakra",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : जैनदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : जैनदर्शनम्"
+    ],
+    "ids": [
+      "1421",
+      "1422"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjY2MTg0MDY2MDE0NjMx",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDgwNDI3NjU2NjA1NjMx"
+    ],
+    "titles": [
+      "Dvadasharam-nayacakram (Part I)",
+      "Dvadasharam-nayacakram (Part II)"
+    ],
+    "raw_count": 2
+  },
+  {
+    "work": {
+      "thinker_id": "mallisena",
+      "work_id": "syadvada-manjari",
+      "title_iast": "Syādvāda-Mañjarī",
+      "school": "Jaina"
+    },
+    "query": "Syadvada Manjari",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : जैनदर्शनम्"
+    ],
+    "ids": [
+      "12577"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDk0MTQ5MDQ3NDQzNzAyMQ=="
+    ],
+    "titles": [
+      "Syadvada Manjari"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "manikyanandi",
+      "work_id": "pariksamukha",
+      "title_iast": "Parīkṣāmukha",
+      "school": "Jaina"
+    },
+    "query": "Pariksamukha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nemicandra",
+      "work_id": "dravyasangraha",
+      "title_iast": "Dravyasaṃgraha",
+      "school": "Jaina"
+    },
+    "query": "Dravyasamgraha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "prabhacandra",
+      "work_id": "nyaya-kumuda-candra",
+      "title_iast": "Nyāya-Kumuda-Candra",
+      "school": "Jaina"
+    },
+    "query": "Nyaya Kumuda Candra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "prabhacandra",
+      "work_id": "prameya-kamala-martanda",
+      "title_iast": "Prameya-Kamala-Mārtaṇḍa",
+      "school": "Jaina"
+    },
+    "query": "Prameya Kamala Martanda",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : जैनदर्शनम्"
+    ],
+    "ids": [
+      "12568"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=Njk2OTU3NDc3MDg0NjAyMQ=="
+    ],
+    "titles": [
+      "Prameya Kamala Martanda"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "sakatayana-yapaniya",
+      "work_id": "kevalibhuktiprakarana",
+      "title_iast": "Kevalibhuktiprakaraṇa",
+      "school": "Jaina"
+    },
+    "query": "Kevalibhuktiprakarana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sakatayana-yapaniya",
+      "work_id": "strinirvanaprakarana",
+      "title_iast": "Strīnirvāṇaprakaraṇa",
+      "school": "Jaina"
+    },
+    "query": "Strinirvanaprakarana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "samantabhadra",
+      "work_id": "apta-mimamsa",
+      "title_iast": "Āpta-Mīmāṃsā",
+      "school": "Jaina"
+    },
+    "query": "Apta Mimamsa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "samantabhadra",
+      "work_id": "svayambhu-stotra",
+      "title_iast": "Svayambhū-Stotra",
+      "school": "Jaina"
+    },
+    "query": "Svayambhu Stotra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "siddhasena-divakara",
+      "work_id": "nyayavatara",
+      "title_iast": "Nyāyāvatāra",
+      "school": "Jaina"
+    },
+    "query": "Nyayavatara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vadideva-suri",
+      "work_id": "pramana-naya-tattvaloka-alankara",
+      "title_iast": "Pramāṇa-Naya-Tattvāloka-Alaṅkāra",
+      "school": "Jaina"
+    },
+    "query": "Pramana Naya Tattvaloka Alankara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vadideva-suri",
+      "work_id": "syadvada-ratnakara",
+      "title_iast": "Syādvāda-Ratnākara",
+      "school": "Jaina"
+    },
+    "query": "Syadvada Ratnakara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-jaina",
+      "work_id": "nyaya-viniscaya-vivarana",
+      "title_iast": "Nyāya-Viniścaya-Vivaraṇa",
+      "school": "Jaina"
+    },
+    "query": "Nyaya Viniscaya Vivarana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vidyananda",
+      "work_id": "ashtasahasri-vidyananda",
+      "title_iast": "Aṣṭasahasrī",
+      "school": "Jaina"
+    },
+    "query": "Astasahasri",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vidyananda",
+      "work_id": "tattvartha-sloka-varttika",
+      "title_iast": "Tattvārtha-Śloka-Vārttika",
+      "school": "Jaina"
+    },
+    "query": "Tattvartha Sloka Varttika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "yashovijaya",
+      "work_id": "adhyatma-sara",
+      "title_iast": "Adhyātma-Sāra",
+      "school": "Jaina"
+    },
+    "query": "Adhyatma Sara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "yashovijaya",
+      "work_id": "jaina-tarka-bhasha",
+      "title_iast": "Jaina-Tarka-Bhāṣā",
+      "school": "Jaina"
+    },
+    "query": "Jaina Tarka Bhasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "yashovijaya",
+      "work_id": "nyaya-loka",
+      "title_iast": "Nyāya-Loka",
+      "school": "Jaina"
+    },
+    "query": "Nyaya Loka",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "yashovijaya",
+      "work_id": "pramana-mimamsa-vyakhyana",
+      "title_iast": "Pramāṇa-Mīmāṃsā-Vyākhyāna",
+      "school": "Jaina"
+    },
+    "query": "Pramana Mimamsa Vyakhyana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "aryadeva",
+      "work_id": "catuhsataka",
+      "title_iast": "Catuḥśataka",
+      "school": "Mādhyamaka"
+    },
+    "query": "Catuhsataka",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "atisha",
+      "work_id": "bodhi-patha-pradipa",
+      "title_iast": "Bodhi-Patha-Pradīpa",
+      "school": "Mādhyamaka"
+    },
+    "query": "Bodhi Patha Pradipa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "atisha",
+      "work_id": "madhyamakopadesha",
+      "title_iast": "Madhyamakopadeśa",
+      "school": "Mādhyamaka"
+    },
+    "query": "Madhyamakopadesa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "buddhapalita",
+      "work_id": "buddhapalita-vrtti",
+      "title_iast": "Buddhapālita-Mūlamadhyamakavṛtti",
+      "school": "Mādhyamaka"
+    },
+    "query": "Buddhapalita Mulamadhyamakavrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "jnanagarbha",
+      "work_id": "satya-dvaya-vibhanga",
+      "title_iast": "Satya-Dvaya-Vibhaṅga",
+      "school": "Mādhyamaka"
+    },
+    "query": "Satya Dvaya Vibhanga",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kamalasila",
+      "work_id": "bhavana-krama-i",
+      "title_iast": "Bhāvanā-Krama I",
+      "school": "Mādhyamaka"
+    },
+    "query": "Bhavana Krama I",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kamalasila",
+      "work_id": "madhyamakaloka",
+      "title_iast": "Madhyamakāloka",
+      "school": "Mādhyamaka"
+    },
+    "query": "Madhyamakaloka",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्"
+    ],
+    "ids": [
+      "9083"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjIwOTE5OTY4MzM5MTc4"
+    ],
+    "titles": [
+      "Madhyamakaloka"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "kamalasila",
+      "work_id": "tattva-sangraha-panjika",
+      "title_iast": "Tattva-Saṅgraha-Pañjikā",
+      "school": "Mādhyamaka"
+    },
+    "query": "Tattva Sangraha Panjika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "santaraksita",
+      "work_id": "madhyamakalankara",
+      "title_iast": "Madhyamakālaṅkāra",
+      "school": "Mādhyamaka"
+    },
+    "query": "Madhyamakalankara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "santaraksita",
+      "work_id": "tattva-sangraha-santaraksita",
+      "title_iast": "Tattva-Saṅgraha",
+      "school": "Mādhyamaka"
+    },
+    "query": "Tattva Sangraha",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्"
+    ],
+    "ids": [
+      "1377"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDkwNTE4NTI4NjgxMjMx"
+    ],
+    "titles": [
+      "Tattva Sangraha (Vol. II)"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "santideva",
+      "work_id": "bodhicaryavatara",
+      "title_iast": "Bodhicaryāvatāra",
+      "school": "Mādhyamaka"
+    },
+    "query": "Bodhicaryavatara",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्"
+    ],
+    "ids": [
+      "10444"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=ODYzNTU4NTU3NDg1MjAwMQ=="
+    ],
+    "titles": [
+      "Bodhicaryavatara Panjika"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "santideva",
+      "work_id": "shiksa-samuccaya",
+      "title_iast": "Śikṣā-Samuccaya",
+      "school": "Mādhyamaka"
+    },
+    "query": "Siksa Samuccaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "apadeva",
+      "work_id": "mimamsa-nyaya-prakasa",
+      "title_iast": "Mīmāṃsā-Nyāya-Prakāśa",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Mimamsa Nyaya Prakasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "khandadeva",
+      "work_id": "bhatta-dipika",
+      "title_iast": "Bhāṭṭa-Dīpikā",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Bhatta Dipika",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : मीमांसादर्शनम्"
+    ],
+    "ids": [
+      "10443"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjQ5MjE2OTU3ODg0MjAwMQ=="
+    ],
+    "titles": [
+      "Bhatta Dipika voll- 2"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "khandadeva",
+      "work_id": "bhatta-kaustubha",
+      "title_iast": "Bhāṭṭa-Kaustubha",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Bhatta Kaustubha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "laugaksi-bhaskara",
+      "work_id": "artha-samgraha",
+      "title_iast": "Artha-Saṃgraha",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Artha Samgraha",
+    "cats": [
+      "Category : गीताः",
+      "Sub-Category : भगवद्गीता",
+      "Category : दर्शनानि",
+      "Sub-Category : मीमांसादर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : वेदाङ्गानि",
+      "Sub-Category : व्याकरणम्",
+      "Category : वेदाङ्गानि",
+      "Sub-Category : व्याकरणम्"
+    ],
+    "ids": [
+      "10487",
+      "10438",
+      "11873",
+      "10352",
+      "10353"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDE1OTcyNDk1MjE3NjAwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjM4MDA0ODc3ODAwMjAwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjA0NjcyNjgzMzY3OTMxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDQ1MjU1MTAxMzU3Mzk5",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjY5NDk3NzkwOTQ4Mzk5"
+    ],
+    "titles": [
+      "Gitartha Samgraha Raksha and Gita Bhashya Tatparya Chandrika",
+      "Jaiminiya Sutrartha Samgraha",
+      "Shrautartha Samgraha",
+      "Vadartha Samgraha (Part-III)",
+      "Vadartha Samgraha (Part-IV)"
+    ],
+    "raw_count": 5
+  },
+  {
+    "work": {
+      "thinker_id": "parthasarathi",
+      "work_id": "nyaya-ratna-mala",
+      "title_iast": "Nyāya-Ratna-Mālā",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Nyaya Ratna Mala",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्"
+    ],
+    "ids": [
+      "10430"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDY0MTY0ODA4MDQyMTAwMQ=="
+    ],
+    "titles": [
+      "Nyaya Ratnamala"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "parthasarathi",
+      "work_id": "shastra-dipika",
+      "title_iast": "Śāstra-Dīpikā",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Sastra Dipika",
+    "cats": [
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्"
+    ],
+    "ids": [
+      "2852"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDQ1NzgzMzgyMTg3Mzcy"
+    ],
+    "titles": [
+      "Prema-pareeksha"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "salikanatha",
+      "work_id": "prakarana-pancika",
+      "title_iast": "Prakaraṇa-Pañcikā",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Prakarana Pancika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "salikanatha",
+      "work_id": "rju-vimala",
+      "title_iast": "Ṛju-Vimalā",
+      "school": "Mīmāṃsā"
+    },
+    "query": "Rju Vimala",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "svatmarama",
+      "work_id": "hatha-yoga-pradipika",
+      "title_iast": "Haṭha-Yoga-Pradīpikā",
+      "school": "Nāth–Haṭha Yoga"
+    },
+    "query": "Hatha Yoga Pradipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "gangesa",
+      "work_id": "tattva-cintamani",
+      "title_iast": "Tattva-Cintāmaṇi",
+      "school": "Navya-Nyāya"
+    },
+    "query": "Tattva Cintamani",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "mathuranatha-tarkavagisa",
+      "work_id": "didhiti-mathuri",
+      "title_iast": "Dīdhiti-Māthurī",
+      "school": "Navya-Nyāya"
+    },
+    "query": "Didhiti Mathuri",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "mathuranatha-tarkavagisa",
+      "work_id": "tattvacintamani-mathuri",
+      "title_iast": "Tattva-Cintāmaṇi-Māthurī",
+      "school": "Navya-Nyāya"
+    },
+    "query": "Tattva Cintamani Mathuri",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "raghunatha-siromani",
+      "work_id": "padartha-tattva-nirupana",
+      "title_iast": "Padārtha-Tattva-Nirūpaṇa",
+      "school": "Navya-Nyāya"
+    },
+    "query": "Padartha Tattva Nirupana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "raghunatha-siromani",
+      "work_id": "tattva-cintamani-didhiti",
+      "title_iast": "Tattva-Cintāmaṇi-Dīdhiti",
+      "school": "Navya-Nyāya"
+    },
+    "query": "Tattva Cintamani Didhiti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhasarvajna",
+      "work_id": "nyaya-bhushana",
+      "title_iast": "Nyāya-Bhūṣaṇa",
+      "school": "Nyāya"
+    },
+    "query": "Nyaya Bhusana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhasarvajna",
+      "work_id": "nyaya-sara",
+      "title_iast": "Nyāya-Sāra",
+      "school": "Nyāya"
+    },
+    "query": "Nyaya Sara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "jayanta-bhatta",
+      "work_id": "nyaya-kalika",
+      "title_iast": "Nyāya-Kalikā",
+      "school": "Nyāya"
+    },
+    "query": "Nyaya Kalika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "jayanta-bhatta",
+      "work_id": "nyaya-manjari",
+      "title_iast": "Nyāya-Mañjarī",
+      "school": "Nyāya"
+    },
+    "query": "Nyaya Manjari",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्"
+    ],
+    "ids": [
+      "11650",
+      "10762",
+      "11651"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDAzNjEyNDIyNjUzODExMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDY1NTQ5MDY1MTExMzMwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjI3ODU0MDIyMjU0ODExMQ=="
+    ],
+    "titles": [
+      "Nyaya Manjari (Part-I)",
+      "Nyaya Manjari (Part-II)",
+      "Nyaya Manjari (Part-II)"
+    ],
+    "raw_count": 3
+  },
+  {
+    "work": {
+      "thinker_id": "kesava-misra",
+      "work_id": "tarka-bhasa",
+      "title_iast": "Tarka-Bhāṣā",
+      "school": "Nyāya"
+    },
+    "query": "Tarka Bhasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "udayana",
+      "work_id": "atma-tattva-viveka",
+      "title_iast": "Ātma-Tattva-Viveka",
+      "school": "Nyāya"
+    },
+    "query": "Atma Tattva Viveka",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "udayana",
+      "work_id": "nyaya-varttika-tatparya-parisuddhi",
+      "title_iast": "Nyāya-Vārttika-Tātparya-Pariśuddhi",
+      "school": "Nyāya"
+    },
+    "query": "Nyaya Varttika Tatparya Parisuddhi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "uddyotakara",
+      "work_id": "nyaya-varttika",
+      "title_iast": "Nyāya-Vārttika",
+      "school": "Nyāya"
+    },
+    "query": "Nyaya Varttika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "ahirbudhnya-samhita",
+      "title_iast": "Ahirbudhnya-Saṃhitā",
+      "school": "Pāñcarātra"
+    },
+    "query": "Ahirbudhnya Samhita",
+    "cats": [
+      "Category : आगमः",
+      "Sub-Category : आगमसम्बद्धपुस्तकानि"
+    ],
+    "ids": [
+      "10511"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjQ2NzkwNDA1NjEwOTAwMQ=="
+    ],
+    "titles": [
+      "Introduction to the Pancaratra and the Ahirbudhnya Samhita"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "jayakhya-samhita",
+      "title_iast": "Jayākhya-Saṃhitā",
+      "school": "Pāñcarātra"
+    },
+    "query": "Jayakhya Samhita",
+    "cats": [
+      "Category : आगमः",
+      "Sub-Category : आगमसम्बद्धपुस्तकानि"
+    ],
+    "ids": [
+      "10127"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDk1NzAwNzQ5MzUxMjc5"
+    ],
+    "titles": [
+      "Jayakhya Samhita"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "lakshmi-tantra",
+      "title_iast": "Lakṣmī-Tantra",
+      "school": "Pāñcarātra"
+    },
+    "query": "Laksmi Tantra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "pauskara-samhita",
+      "title_iast": "Pauṣkara-Saṃhitā",
+      "school": "Pāñcarātra"
+    },
+    "query": "Pauskara Samhita",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "satvata-samhita",
+      "title_iast": "Sātvata-Saṃhitā",
+      "school": "Pāñcarātra"
+    },
+    "query": "Satvata Samhita",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kaundinya",
+      "work_id": "pancartha-bhasya",
+      "title_iast": "Pañcārtha-Bhāṣya",
+      "school": "Pāśupata"
+    },
+    "query": "Pancartha Bhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "lakulisha",
+      "work_id": "pasupata-sutra",
+      "title_iast": "Pāśupata-Sūtra",
+      "school": "Pāśupata"
+    },
+    "query": "Pasupata Sutra",
+    "cats": [
+      "Category : आगमः",
+      "Sub-Category : शैवतन्त्रम्"
+    ],
+    "ids": [
+      "12506"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjM1OTI3NzAwOTI1MDAyMQ=="
+    ],
+    "titles": [
+      "Pasupata Sutram"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "abhinavagupta",
+      "work_id": "abhinava-bharati",
+      "title_iast": "Abhinava-Bhāratī",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Abhinava Bharati",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "abhinavagupta",
+      "work_id": "dhvanyaloka-locana",
+      "title_iast": "Dhvanyāloka-Locana",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Dhvanyaloka Locana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "abhinavagupta",
+      "work_id": "isvara-pratyabhijna-vivrti-vimarsini",
+      "title_iast": "Īśvara-Pratyabhijñā-Vivṛti-Vimarśinī",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Isvara Pratyabhijna Vivrti Vimarsini",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "abhinavagupta",
+      "work_id": "paratrishika-vivarana",
+      "title_iast": "Parātrīśikā-Vivaraṇa",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Paratrisika Vivarana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhagavadutpala",
+      "work_id": "spanda-pradipika",
+      "title_iast": "Spandapradīpikā",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Spandapradipika",
+    "cats": [
+      "Category : आगमः",
+      "Sub-Category : शैवतन्त्रम्"
+    ],
+    "ids": [
+      "11077"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDk0ODAzNzczMDUzMzYwMQ=="
+    ],
+    "titles": [
+      "Spanda Pradipika"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "bhaskarabhatta",
+      "work_id": "sivasutra-varttika",
+      "title_iast": "Śivasūtravārttika",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Sivasutravarttika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhatta-kallata",
+      "work_id": "spanda-sarva-sva",
+      "title_iast": "Spanda-Sarva-Sva",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Spanda Sarva Sva",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "jayaratha",
+      "work_id": "tantraloka-viveka",
+      "title_iast": "Tantrāloka-Viveka",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Tantraloka Viveka",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ksemaraja",
+      "work_id": "shiva-sutra-vimarshini",
+      "title_iast": "Śiva-Sūtra-Vimarśinī",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Siva Sutra Vimarsini",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ksemaraja",
+      "work_id": "spanda-sandoha",
+      "title_iast": "Spanda-Sandoha",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Spanda Sandoha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ksemaraja",
+      "work_id": "stava-cintamani-tika",
+      "title_iast": "Stava-Cintāmaṇi-Ṭīkā",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Stava Cintamani Tika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "rajanaka-rama",
+      "work_id": "spanda-vivrti",
+      "title_iast": "Spandavivṛti",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Spandavivrti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "somananda",
+      "work_id": "shiva-drsti",
+      "title_iast": "Śiva-Dṛṣṭi",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Siva Drsti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "utpaladeva",
+      "work_id": "ajada-pramatr-siddhi",
+      "title_iast": "Ajaḍa-Pramātṛ-Siddhi",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Ajada Pramatr Siddhi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "utpaladeva",
+      "work_id": "isvara-siddhi",
+      "title_iast": "Īśvara-Siddhi",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Isvara Siddhi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "utpaladeva",
+      "work_id": "sambandha-siddhi",
+      "title_iast": "Sambandha-Siddhi",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Sambandha Siddhi",
+    "cats": [
+      "Category : आगमः",
+      "Sub-Category : शैवतन्त्रम्"
+    ],
+    "ids": [
+      "11917"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDc5MjQ5MDIyNzg5MzQxMQ=="
+    ],
+    "titles": [
+      "Sambandhasiddhi"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "yogaraja",
+      "work_id": "paramarthasara-vivrti",
+      "title_iast": "Paramārthasāravivṛti",
+      "school": "Pratyabhijñā/Trika"
+    },
+    "query": "Paramarthasaravivrti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "asmarathya",
+      "work_id": "bs-citation-fragments",
+      "title_iast": "Brahma-Sūtra citation fragments",
+      "school": "proto-Vedānta"
+    },
+    "query": "Brahma Sutra citation fragments",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "audulomi",
+      "work_id": "bs-citation-fragments",
+      "title_iast": "Brahma-Sūtra citation fragments",
+      "school": "proto-Vedānta"
+    },
+    "query": "Brahma Sutra citation fragments",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bodhayana",
+      "work_id": "brahma-sutra-vrtti",
+      "title_iast": "Brahma-Sūtra-Vṛtti",
+      "school": "proto-Vedānta"
+    },
+    "query": "Brahma Sutra Vrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "brahmadatta",
+      "work_id": "lost-upanisad-commentary",
+      "title_iast": "Lost Upaniṣad commentary",
+      "school": "proto-Vedānta"
+    },
+    "query": "Lost Upanisad commentary",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kasakrtsna",
+      "work_id": "bs-citation-fragments",
+      "title_iast": "Brahma-Sūtra citation fragments",
+      "school": "proto-Vedānta"
+    },
+    "query": "Brahma Sutra citation fragments",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sundara-pandya",
+      "work_id": "lost-verses",
+      "title_iast": "Lost verses cited in Naiṣkarmya-Siddhi",
+      "school": "proto-Vedānta"
+    },
+    "query": "Lost verses cited in Naiskarmya Siddhi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "upavarsa",
+      "work_id": "lost-vedantic-citations",
+      "title_iast": "Lost Vedāntic citations",
+      "school": "proto-Vedānta"
+    },
+    "query": "Lost Vedantic citations",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kumarila",
+      "work_id": "tantra-varttika",
+      "title_iast": "Tantra-Vārttika",
+      "school": "Pūrva-Mīmāṃsā"
+    },
+    "query": "Tantra Varttika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "prabhakara",
+      "work_id": "brhati",
+      "title_iast": "Bṛhatī",
+      "school": "Pūrva-Mīmāṃsā"
+    },
+    "query": "Brhati",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "aghorasiva",
+      "work_id": "kriyakramadyotika",
+      "title_iast": "Kriyākramadyotikā",
+      "school": "Śaiva Siddhānta"
+    },
+    "query": "Kriyakramadyotika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sivagrayogin",
+      "work_id": "saiva-paribhasa",
+      "title_iast": "Śaivaparibhāṣā",
+      "school": "Śaiva Siddhānta"
+    },
+    "query": "Saivaparibhasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sivagrayogin",
+      "work_id": "sivajnana-bodha-bhasya",
+      "title_iast": "Śivajñānabodha-bhāṣya",
+      "school": "Śaiva Siddhānta"
+    },
+    "query": "Sivajnanabodha bhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "somasambhu",
+      "work_id": "kriyakandakramavali",
+      "title_iast": "Kriyākāṇḍakramāvalī",
+      "school": "Śaiva Siddhānta"
+    },
+    "query": "Kriyakandakramavali",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "srikumara",
+      "work_id": "tatparyadipika",
+      "title_iast": "Tātparyadīpikā",
+      "school": "Śaiva Siddhānta"
+    },
+    "query": "Tatparyadipika",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "10422"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDgwMjI1ODM4Mjc0MDAwMQ=="
+    ],
+    "titles": [
+      "Vedarthasangraha"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "trilocanasiva",
+      "work_id": "prayascittasamuccaya",
+      "title_iast": "Prāyaścittasamuccaya",
+      "school": "Śaiva Siddhānta"
+    },
+    "query": "Prayascittasamuccaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "trilocanasiva",
+      "work_id": "siddhantasamuccaya",
+      "title_iast": "Siddhāntasamuccaya",
+      "school": "Śaiva Siddhānta"
+    },
+    "query": "Siddhantasamuccaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "trilocanasiva",
+      "work_id": "siddhantasaravali",
+      "title_iast": "Siddhāntasārāvalī",
+      "school": "Śaiva Siddhānta"
+    },
+    "query": "Siddhantasaravali",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "aniruddha",
+      "work_id": "sankhya-sutra-vrtti",
+      "title_iast": "Sāṅkhya-Sūtra-Vṛtti",
+      "school": "Sāṅkhya"
+    },
+    "query": "Sankhya Sutra Vrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "srikanta-sivacarya",
+      "work_id": "brahmamimamsa-bhasya",
+      "title_iast": "Brahmamīmāṃsābhāṣya",
+      "school": "Śivādvaita"
+    },
+    "query": "Brahmamimamsabhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "gokulnatha",
+      "work_id": "sarva-nirnaya-vivrti",
+      "title_iast": "Sarva-Nirṇaya-Prakaraṇa-Vivṛti",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Sarva Nirnaya Prakarana Vivrti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "hariraya",
+      "work_id": "hariraya-vivarana-on-shodasha-granthah",
+      "title_iast": "Hariraya-Vivaraṇa on Ṣoḍaśa-Granthāḥ",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Hariraya Vivarana on Sodasa Granthah",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "purusottama",
+      "work_id": "avarana-bhanga",
+      "title_iast": "Avaraṇa-Bhaṅga",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Avarana Bhanga",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "purusottama",
+      "work_id": "bhasya-prakasha",
+      "title_iast": "Bhāṣya-Prakāśa",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Bhasya Prakasa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "purusottama",
+      "work_id": "prasthana-ratnakara",
+      "title_iast": "Prasthāna-Ratnākara",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Prasthana Ratnakara",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "11073"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjA4ODMzMjkzNjY5MjYwMQ=="
+    ],
+    "titles": [
+      "Prasthana Ratnakara"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "vallabha",
+      "work_id": "shodasha-granthah",
+      "title_iast": "Ṣoḍaśa-Granthāḥ",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Sodasa Granthah",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vallabha",
+      "work_id": "subodhini",
+      "title_iast": "Subodhinī",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Subodhini",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्",
+      "Category : धर्मशास्त्रम्",
+      "Sub-Category : स्मृतिः",
+      "Category : वेदः",
+      "Sub-Category : सामवेदः",
+      "Category : वेदः",
+      "Sub-Category : वेदसम्बद्धपुस्तकानि",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "4091",
+      "6347",
+      "2464",
+      "9277",
+      "10637",
+      "9857"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjA0ODQ3NzI2MDI3Mjkz",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDM0MjU2MDUxODgyOTA2",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODA4NzIzMTQ3NDM1NjMy",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDk4ODQ5MDQxNzU1MDk4",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDE4MjQ2MDMwMjExMTIwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDU2MzU1MTY5NDMyNjQ5"
+    ],
+    "titles": [
+      "Subodhini",
+      "Subodhini-paddhati (Samaveda)",
+      "Samavediya Subodhini-paddhati",
+      "Samavediya-Shrisubodhini-paddhati",
+      "Shri Subodhini",
+      "Srisubodhini"
+    ],
+    "raw_count": 6
+  },
+  {
+    "work": {
+      "thinker_id": "vallabha",
+      "work_id": "tattvartha-dipa-nibandha",
+      "title_iast": "Tattvārtha-Dīpa-Nibandha",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Tattvartha Dipa Nibandha",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : वल्लभदर्शनम्"
+    ],
+    "ids": [
+      "10408"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjcxODIxMTk4ODIxOTk5"
+    ],
+    "titles": [
+      "Tattvartha Dipa Nibandha"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "vallabha-balaka",
+      "work_id": "balaka-bhasya-on-anu-bhasya",
+      "title_iast": "Bālaka-Bhāṣya",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Balaka Bhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vitthalanatha",
+      "work_id": "subodhini-completion",
+      "title_iast": "Subodhinī completion",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Subodhini completion",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vitthalanatha",
+      "work_id": "vidvan-mandana",
+      "title_iast": "Vidvan-Maṇḍana",
+      "school": "Śuddhādvaita"
+    },
+    "query": "Vidvan Mandana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "aksobhya-tirtha",
+      "work_id": "tat-tvam-asi-khandana",
+      "title_iast": "Tat-Tvam-Asi-Khaṇḍana",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tat Tvam Asi Khandana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bannanje",
+      "work_id": "bhagavata-vyakhyana",
+      "title_iast": "Bhāgavata-Purāṇa Sanskrit Vyākhyāna",
+      "school": "Tattva-vāda"
+    },
+    "query": "Bhagavata Purana Sanskrit Vyakhyana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bannanje",
+      "work_id": "mahabharata-tatparya-nirnaya-vyakhyana",
+      "title_iast": "Mahābhārata-Tātparya-Nirṇaya Sanskrit Vyākhyāna",
+      "school": "Tattva-vāda"
+    },
+    "query": "Mahabharata Tatparya Nirnaya Sanskrit Vyakhyana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bannanje",
+      "work_id": "sarva-mula-grantha-edition",
+      "title_iast": "Sarva-Mūla-Granthāḥ critical edition",
+      "school": "Tattva-vāda"
+    },
+    "query": "Sarva Mula Granthah critical edition",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bannanje",
+      "work_id": "stuti-chandrika",
+      "title_iast": "Stuti-Candrikā on Vāyu-Stuti",
+      "school": "Tattva-vāda"
+    },
+    "query": "Stuti Candrika on Vayu Stuti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bannanje",
+      "work_id": "upanishad-bhashyas-edition-and-commentary",
+      "title_iast": "Madhva Upaniṣad-Bhāṣya Edition and Commentary",
+      "school": "Tattva-vāda"
+    },
+    "query": "Madhva Upanisad Bhasya Edition and Commentary",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "jayatirtha",
+      "work_id": "vadavali",
+      "title_iast": "Vādāvalī",
+      "school": "Tattva-vāda"
+    },
+    "query": "Vadavali",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : मीमांसादर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : विमर्शः - Criticism",
+      "Sub-Category : विमर्शसम्बद्धपुस्तकानि",
+      "Category : दर्शनानि",
+      "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "5686",
+      "10592",
+      "3530",
+      "311",
+      "9125"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=Mjk0MTE0NDM2NDM4NTQ1",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDI4MzM3OTkxMjk3NjEwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDY2OTQ3NTM3NjY4ODMz",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjQyMzkzMTM4NDU4OTI=",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDU3MDAxMjE3NTY5NTc4"
+    ],
+    "titles": [
+      "Vadavali",
+      "Vadavali",
+      "Vadavali",
+      "Avataravadavali (Part-1)",
+      "Vedantavadavali (Vol-1)"
+    ],
+    "raw_count": 5
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "karma-nirnaya",
+      "title_iast": "Karma-Nirṇaya",
+      "school": "Tattva-vāda"
+    },
+    "query": "Karma Nirnaya",
+    "cats": [
+      "Category : साहित्यम्",
+      "Sub-Category : अलङ्कारशास्त्रम्",
+      "Category : दर्शनानि",
+      "Sub-Category : दर्शनसम्बद्धपुस्तकानि"
+    ],
+    "ids": [
+      "5905",
+      "9007"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDE5MTA1MTE4NzU4NjY1",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDU5NDk0NTUxODM2NDY4"
+    ],
+    "titles": [
+      "Alankarasutram",
+      "karmanirnayatiikaa"
+    ],
+    "raw_count": 2
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "mithyatvanumana-khandana",
+      "title_iast": "Mithyātvānumāna-Khaṇḍana",
+      "school": "Tattva-vāda"
+    },
+    "query": "Mithyatvanumana Khandana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "tattva-sankhyana",
+      "title_iast": "Tattva-Saṅkhyāna",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tattva Sankhyana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "tattvodyota",
+      "title_iast": "Tattvodyota",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tattvodyota",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्"
+    ],
+    "ids": [
+      "2261",
+      "3197",
+      "3201"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjQxNjExNDA1NzQwNzEy",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDMxMzIwNzg5OTk4NjAz",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjI4Mjk5MTc5MzgyNzAz"
+    ],
+    "titles": [
+      "Tattvodyota",
+      "Tattvodyota-prakarana-grantha",
+      "Tattvodyota-vishamapadava-kyarthaVivarana"
+    ],
+    "raw_count": 3
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "upadhi-khandana",
+      "title_iast": "Upādhi-Khaṇḍana",
+      "school": "Tattva-vāda"
+    },
+    "query": "Upadhi Khandana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "madhva",
+      "work_id": "visnu-tattva-vinirnaya",
+      "title_iast": "Viṣṇu-Tattva-Vinirṇaya",
+      "school": "Tattva-vāda"
+    },
+    "query": "Visnu Tattva Vinirnaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "narahari-tirtha",
+      "work_id": "gita-bhasya-vivarana",
+      "title_iast": "Gītā-Bhāṣya-Vivaraṇa",
+      "school": "Tattva-vāda"
+    },
+    "query": "Gita Bhasya Vivarana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "narayana-panditacarya",
+      "work_id": "sumadhva-vijaya",
+      "title_iast": "Sumadhva-Vijaya",
+      "school": "Tattva-vāda"
+    },
+    "query": "Sumadhva Vijaya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "padmanabha-tirtha",
+      "work_id": "sannyaya-dipika",
+      "title_iast": "Sannyāya-Dīpikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Sannyaya Dipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "padmanabha-tirtha",
+      "work_id": "sannyaya-ratnavali",
+      "title_iast": "Sannyāya-Ratnāvalī",
+      "school": "Tattva-vāda"
+    },
+    "query": "Sannyaya Ratnavali",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "raghavendra",
+      "work_id": "prakasha-sub-commentaries",
+      "title_iast": "Prakāśa sub-commentaries",
+      "school": "Tattva-vāda"
+    },
+    "query": "Prakasa sub commentaries",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "raghavendra",
+      "work_id": "tarka-tandava-parimala",
+      "title_iast": "Tarka-Tāṇḍava-Pariṃala",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tarka Tandava Parimala",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "raghavendra",
+      "work_id": "tatparya-dipika",
+      "title_iast": "Tātparya-Dīpikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tatparya Dipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "trivikrama-pandita",
+      "work_id": "tattva-pradipa",
+      "title_iast": "Tattva-Pradīpa",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tattva Pradipa",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : जैनदर्शनम्",
+      "Category : वेदाङ्गानि",
+      "Sub-Category : ज्योतिषम्"
+    ],
+    "ids": [
+      "7784",
+      "4976"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=ODQ4MjEwMTU3NDMyNzQ3",
+      "https://www.ebharatisampat.in/readSearch.php?id=Mjc4MTkyMjAzNzc2Nzc0"
+    ],
+    "titles": [
+      "Jainatattva-pradeepa",
+      "Shatpanchashika"
+    ],
+    "raw_count": 2
+  },
+  {
+    "work": {
+      "thinker_id": "trivikrama-pandita",
+      "work_id": "vayu-stuti",
+      "title_iast": "Vāyu-Stuti",
+      "school": "Tattva-vāda"
+    },
+    "query": "Vayu Stuti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "nyayaratnavali",
+      "title_iast": "Nyāyaratnāvalī",
+      "school": "Tattva-vāda"
+    },
+    "query": "Nyayaratnavali",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्"
+    ],
+    "ids": [
+      "1852"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDQ1NTY5MDQwNTg3Nzcx"
+    ],
+    "titles": [
+      "Nyayaratnavali"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "tirthaprabandha",
+      "title_iast": "Tīrthaprabandha",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tirthaprabandha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "yuktimallika",
+      "title_iast": "Yuktimallikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Yuktimallika",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : द्वैतदर्शनम्"
+    ],
+    "ids": [
+      "11970",
+      "11968",
+      "11972",
+      "11969",
+      "11971"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDQzMTk3MTIwNTcwOTQxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=Njk0NjAzOTIwMzg4ODQxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDgxNjcyNDEwNzYyOTQxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODE5ODQ1NTIwOTc5ODQxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjY3MzMwODEwMTcxOTQxMQ=="
+    ],
+    "titles": [
+      "Yuktimallika (Bhedasaurabham)",
+      "Yuktimallika (Gunasaurabham)",
+      "Yuktimallika (Phalasaurabham)",
+      "Yuktimallika (Shuddhisaurabham)",
+      "Yuktimallika (Vishwasaurabham)"
+    ],
+    "raw_count": 5
+  },
+  {
+    "work": {
+      "thinker_id": "vijayindra",
+      "work_id": "madhva-tantra-mukha-mardana",
+      "title_iast": "Madhva-Tantra-Mukha-Mardana",
+      "school": "Tattva-vāda"
+    },
+    "query": "Madhva Tantra Mukha Mardana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vijayindra",
+      "work_id": "nyayadhva-dipika",
+      "title_iast": "Nyāyādhva-Dīpikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Nyayadhva Dipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vijayindra",
+      "work_id": "nyayamrta-vyakhya",
+      "title_iast": "Nyāyāmṛta-Vyākhyā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Nyayamrta Vyakhya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vyasatirtha",
+      "work_id": "nyayamrta",
+      "title_iast": "Nyāyāmṛta",
+      "school": "Tattva-vāda"
+    },
+    "query": "Nyayamrta",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vyasatirtha",
+      "work_id": "tatparya-candrika",
+      "title_iast": "Tātparya-Candrikā",
+      "school": "Tattva-vāda"
+    },
+    "query": "Tatparya Candrika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "candrananda",
+      "work_id": "vaisesika-sutra-vrtti",
+      "title_iast": "Vaiśeṣika-Sūtra-Vṛtti",
+      "school": "Vaiśeṣika"
+    },
+    "query": "Vaisesika Sutra Vrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "prashastapada",
+      "work_id": "padartha-dharma-sangraha",
+      "title_iast": "Padārtha-Dharma-Saṅgraha",
+      "school": "Vaiśeṣika"
+    },
+    "query": "Padartha Dharma Sangraha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sridhara",
+      "work_id": "nyaya-kandali",
+      "title_iast": "Nyāya-Kandalī",
+      "school": "Vaiśeṣika"
+    },
+    "query": "Nyaya Kandali",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vyomasiva",
+      "work_id": "vyomavati",
+      "title_iast": "Vyomavatī",
+      "school": "Vaiśeṣika"
+    },
+    "query": "Vyomavati",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : वैशेषिकदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : वैशेषिकदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : वैशेषिकदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : वैशेषिकदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : वैशेषिकदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : वैशेषिकदर्शनम्"
+    ],
+    "ids": [
+      "12273",
+      "12274",
+      "12276",
+      "12278",
+      "12279",
+      "12280"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjAyNTQyMzg4MTYxODcxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODI2Nzg0OTc4NzUyODcxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=Mjc0Mjc5MTc4OTQ0ODcxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjEzNzU0NDY4MTQ2ODcxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODM3OTk2MDY4NzM3ODcxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=MDYxMjQ5NjU4MzM4ODcxMQ=="
+    ],
+    "titles": [
+      "Prashastapada Bhashyam (Part 1)",
+      "Prashastapada Bhashyam (Part 2)",
+      "Prashastapada Bhashyam (Part 3)",
+      "Prashastapada Bhashyam (Part 4)",
+      "Prashastapada Bhashyam (Part 5)",
+      "Prashastapada Bhashyam (Part 6)"
+    ],
+    "raw_count": 6
+  },
+  {
+    "work": {
+      "thinker_id": "sripati-pandita",
+      "work_id": "srikara-bhasya",
+      "title_iast": "Śrīkarabhāṣya",
+      "school": "Vīraśaiva"
+    },
+    "query": "Srikarabhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nathamuni",
+      "work_id": "nyaya-tattva",
+      "title_iast": "Nyāya-Tattva",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Nyaya Tattva",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nathamuni",
+      "work_id": "yoga-rahasya",
+      "title_iast": "Yoga-Rahasya",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Yoga Rahasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "parasara-bhattar",
+      "work_id": "bhagavad-guna-darpana",
+      "title_iast": "Bhagavad-guṇa-darpaṇa",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Bhagavad guna darpana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "parasara-bhattar",
+      "work_id": "sri-guna-ratna-kosa",
+      "title_iast": "Śrī Guṇa-ratna-kośa",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sri Guna ratna kosa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ramabhadracarya",
+      "work_id": "ashtadhyayi-pradipa",
+      "title_iast": "Aṣṭādhyāyī-Pradīpa",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Astadhyayi Pradipa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ramabhadracarya",
+      "work_id": "shri-raghava-kripa-bhashyam-brahma-sutra",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Brahma-Sūtra",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sriraghavakrpa Bhasyam on Brahma Sutra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ramabhadracarya",
+      "work_id": "shri-raghava-kripa-bhashyam-gita",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Bhagavad-Gītā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sriraghavakrpa Bhasyam on Bhagavad Gita",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ramabhadracarya",
+      "work_id": "shri-raghava-kripa-bhashyam-narada-bhakti-sutra",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Nārada-Bhakti-Sūtra",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sriraghavakrpa Bhasyam on Narada Bhakti Sutra",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ramabhadracarya",
+      "work_id": "shri-raghava-kripa-bhashyam-upanishads",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Eleven Principal Upaniṣads",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sriraghavakrpa Bhasyam on Eleven Principal Upanisads",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "gadya-trayam",
+      "title_iast": "Gadya-Trayam",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Gadya Trayam",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "10503"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjYyODUxNDM1ODQyODAwMQ=="
+    ],
+    "titles": [
+      "Gadya Trayam"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "nitya-grantha",
+      "title_iast": "Nitya-Grantha",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Nitya Grantha",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "10486"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjkwNzMwODk1NjE2NjAwMQ=="
+    ],
+    "titles": [
+      "Nitya Grantha"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-dipa",
+      "title_iast": "Vedānta-Dīpa",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Vedanta Dipa",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "10538"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NjMwMzQ2MjA0ODA2MTEwMQ=="
+    ],
+    "titles": [
+      "Vedanta Dipa"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-sara",
+      "title_iast": "Vedānta-Sāra",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Vedanta Sara",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "10912",
+      "10913",
+      "10914",
+      "10948"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDY4ODAzNzk5MDE1NzQwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjgyMTU1Mzk5NjA2NzQwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODA3Mzk3OTg5MjA3NzQwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjUwNjMwMjY4NjY5MDUwMQ=="
+    ],
+    "titles": [
+      "Vedanta Sara",
+      "Vedanta Sara",
+      "Vedanta Sara",
+      "Vedanta Sara"
+    ],
+    "raw_count": 4
+  },
+  {
+    "work": {
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "nyaya-siddhanjana-vyakhya",
+      "title_iast": "Nyāya-Siddhāñjana-Vyākhyā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Nyaya Siddhanjana Vyakhya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "shariraka-shastra-dipika",
+      "title_iast": "Śārīraka-Śāstra-Dīpikā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sariraka Sastra Dipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "siddhanta-sara",
+      "title_iast": "Siddhānta-Sāra",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Siddhanta Sara",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : अद्वैतदर्शनम्",
+      "Category : दर्शनानि",
+      "Sub-Category : दर्शनसम्बद्धपुस्तकानि",
+      "Category : दर्शनानि",
+      "Sub-Category : बौद्धदर्शनम्"
+    ],
+    "ids": [
+      "10861",
+      "12592",
+      "11709",
+      "12578"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjQzNTQ5ODgxNTE2MjQwMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDI4Nzc1NDg2NDg3ODAyMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODkxOTE1MjAwMDIwNDIxMQ==",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjE5MzgxNzM3MDQ0NzAyMQ=="
+    ],
+    "titles": [
+      "Advaita Siddhanta Sara Samgraha",
+      "Advaita Siddhi Siddhanta Sara",
+      "Sarva Vedanta Siddhanta Sara Samgraha",
+      "Saugata Siddhanta Sara Samgraha"
+    ],
+    "raw_count": 4
+  },
+  {
+    "work": {
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "sruta-prakashika-bhava-prakashika",
+      "title_iast": "Śruta-Prakāśikā-Bhāva-Prakāśikā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sruta Prakasika Bhava Prakasika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "upanishad-bhashyas",
+      "title_iast": "Upaniṣad-Bhāṣyāḥ",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Upanisad Bhasyah",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "vishaya-vakya-dipika",
+      "title_iast": "Viṣaya-Vākya-Dīpikā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Visaya Vakya Dipika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "srinivasa-dasa",
+      "work_id": "yatindramatadipika",
+      "title_iast": "Yatīndramatadīpikā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Yatindramatadipika",
+    "cats": [
+      "Category : काव्यानि",
+      "Sub-Category : नाटकम्",
+      "Category : धर्मशास्त्रम्",
+      "Sub-Category : धर्मशास्त्रसम्बद्धपुस्तकानि"
+    ],
+    "ids": [
+      "5517",
+      "8541"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=NDcxMjQ0OTYyMTE2OTI1",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjAzNjI1NjA5MzA5OTE4"
+    ],
+    "titles": [
+      "Abhijnana-shakuntalam",
+      "Yatindramata-dipika"
+    ],
+    "raw_count": 2
+  },
+  {
+    "work": {
+      "thinker_id": "sudarsana",
+      "work_id": "shruta-prakashika",
+      "title_iast": "Śruta-Prakāśikā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sruta Prakasika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "mimamsa-nyaya-prakasha-vyakhya",
+      "title_iast": "Mīmāṃsā-Nyāya-Prakāśa-Vyākhyā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Mimamsa Nyaya Prakasa Vyakhya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "nyaya-kusumanjali-vyakhya",
+      "title_iast": "Nyāya-Kusumāñjali-Vyākhyā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Nyaya Kusumanjali Vyakhya",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : न्यायदर्शनम्"
+    ],
+    "ids": [
+      "10361"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjQzNDM3NzYwNzE2NDk5"
+    ],
+    "titles": [
+      "Kusumanjali Vyakhya Vivriti"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "nyaya-parishuddhi-vyakhya",
+      "title_iast": "Nyāya-Pariśuddhi-Vyākhyā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Nyaya Parisuddhi Vyakhya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "paramartha-bhushana",
+      "title_iast": "Paramārtha-Bhūṣaṇa",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Paramartha Bhusana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "sarvartha-siddhi-vyakhya",
+      "title_iast": "Sarvārtha-Siddhi-Vyākhyā",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sarvartha Siddhi Vyakhya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "shri-bhashyartha-darpana",
+      "title_iast": "Śrī-Bhāṣyārtha-Darpaṇa",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sri Bhasyartha Darpana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "vaisheshika-rasayana",
+      "title_iast": "Vaiśeṣika-Rasāyana",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Vaisesika Rasayana",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vedanta-desika",
+      "work_id": "adhikarana-saravali",
+      "title_iast": "Adhikaraṇa-Sārāvalī",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Adhikarana Saravali",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vedanta-desika",
+      "work_id": "nyaya-parishuddhi",
+      "title_iast": "Nyāya-Pariśuddhi",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Nyaya Parisuddhi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vedanta-desika",
+      "work_id": "nyaya-siddhanjana",
+      "title_iast": "Nyāya-Siddhāñjana",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Nyaya Siddhanjana",
+    "cats": [
+      "Category : दर्शनानि",
+      "Sub-Category : विशिष्टाद्वैतदर्शनम्"
+    ],
+    "ids": [
+      "10485"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDc2NDk3MTA2MDI1NjAwMQ=="
+    ],
+    "titles": [
+      "Nyaya Siddhanjanam"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "vedanta-desika",
+      "work_id": "sarvartha-siddhi",
+      "title_iast": "Sarvārtha-Siddhi",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sarvartha Siddhi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vedanta-desika",
+      "work_id": "shata-dushani",
+      "title_iast": "Śata-Dūṣaṇī",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Sata Dusani",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "vedanta-desika",
+      "work_id": "tattva-mukta-kalapa",
+      "title_iast": "Tattva-Muktā-Kalāpa",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Tattva Mukta Kalapa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "yamuna",
+      "work_id": "agama-pramanya",
+      "title_iast": "Āgama-Prāmāṇya",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Agama Pramanya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "yamuna",
+      "work_id": "catuh-shloki",
+      "title_iast": "Catuḥ-Ślokī",
+      "school": "Viśiṣṭādvaita"
+    },
+    "query": "Catuh Sloki",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhartrhari",
+      "work_id": "vakyapadiya",
+      "title_iast": "Vākyapadīya",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vakyapadiya",
+    "cats": [
+      "Category : वेदाङ्गानि",
+      "Sub-Category : व्याकरणम्",
+      "Category : वेदाङ्गानि",
+      "Sub-Category : व्याकरणम्",
+      "Category : वेदाङ्गानि",
+      "Sub-Category : व्याकरणम्",
+      "Category : वेदाङ्गानि",
+      "Sub-Category : व्याकरणम्",
+      "Category : वेदाङ्गानि",
+      "Sub-Category : व्याकरणम्"
+    ],
+    "ids": [
+      "9415",
+      "861",
+      "864",
+      "862",
+      "9103"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDMxMzA0MjI2NDA4MzA5",
+      "https://www.ebharatisampat.in/readSearch.php?id=MjQzNTI3NDY3MjU2Mjg=",
+      "https://www.ebharatisampat.in/readSearch.php?id=ODA2MjU0MzU3MDQ5Mjg=",
+      "https://www.ebharatisampat.in/readSearch.php?id=NDY3NzY5MDY3ODQ3Mjg=",
+      "https://www.ebharatisampat.in/readSearch.php?id=NjY0NzY3NDk3MzU4Mzc4"
+    ],
+    "titles": [
+      "Vakyapadiya",
+      "Vakyapadiyam",
+      "Vakyapadiyam (brahmakandam)",
+      "Vakyapadiyam (Tritiya Kanda)",
+      "Vakyapadiyam (Vol-3)"
+    ],
+    "raw_count": 5
+  },
+  {
+    "work": {
+      "thinker_id": "bhattoji-diksita",
+      "work_id": "praudha-manorama",
+      "title_iast": "Prauḍha-Manoramā",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Praudha Manorama",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhattoji-diksita",
+      "work_id": "sabda-kaustubha",
+      "title_iast": "Śabda-Kaustubha",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Sabda Kaustubha",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhattoji-diksita",
+      "work_id": "siddhanta-kaumudi",
+      "title_iast": "Siddhānta-Kaumudī",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Siddhanta Kaumudi",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "kondabhatta",
+      "work_id": "vaiyakarana-bhusana",
+      "title_iast": "Vaiyākaraṇa-Bhūṣaṇa",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vaiyakarana Bhusana",
+    "cats": [
+      "Category : वेदाङ्गानि",
+      "Sub-Category : व्याकरणम्"
+    ],
+    "ids": [
+      "9280"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MDYxNjc2OTIxNTQ4MDk4"
+    ],
+    "titles": [
+      "Vaiyakarana Bhusanasara"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "kondabhatta",
+      "work_id": "vaiyakarana-bhusana-sara",
+      "title_iast": "Vaiyākaraṇa-Bhūṣaṇa-Sāra",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vaiyakarana Bhusana Sara",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nagesa-bhatta",
+      "work_id": "parama-laghu-manjusa",
+      "title_iast": "Parama-Laghu-Mañjūṣā",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Parama Laghu Manjusa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nagesa-bhatta",
+      "work_id": "sphota-vada",
+      "title_iast": "Sphoṭa-Vāda",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Sphota Vada",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "nagesa-bhatta",
+      "work_id": "vaiyakarana-siddhanta-laghu-manjusa",
+      "title_iast": "Vaiyākaraṇa-Siddhānta-Laghu-Mañjūṣā",
+      "school": "Vyākaraṇa"
+    },
+    "query": "Vaiyakarana Siddhanta Laghu Manjusa",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "bhojaraja",
+      "work_id": "raja-martanda",
+      "title_iast": "Rāja-Mārtaṇḍa",
+      "school": "Yoga"
+    },
+    "query": "Raja Martanda",
+    "cats": [
+      "Category : उपवेदाः",
+      "Sub-Category : आयुर्वेदः"
+    ],
+    "ids": [
+      "10316"
+    ],
+    "links": [
+      "https://www.ebharatisampat.in/readSearch.php?id=MjUzNTI4NjMyNzkyMDk5"
+    ],
+    "titles": [
+      "Rajamartanda"
+    ],
+    "raw_count": 1
+  },
+  {
+    "work": {
+      "thinker_id": "dharmapala",
+      "work_id": "alambana-pariksa-vrtti",
+      "title_iast": "Ālambana-Parīkṣā-Vṛtti",
+      "school": "Yogācāra"
+    },
+    "query": "Alambana Pariksa Vrtti",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "dharmapala",
+      "work_id": "dharmapala-trimsika-vrtti",
+      "title_iast": "Triṃśikā-Vṛtti (Dharmapāla)",
+      "school": "Yogācāra"
+    },
+    "query": "Trimsika Vrtti (Dharmapala)",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sthiramati",
+      "work_id": "madhyanta-vibhaga-tika",
+      "title_iast": "Madhyānta-Vibhāga-Bhāṣya-Ṭīkā",
+      "school": "Yogācāra"
+    },
+    "query": "Madhyanta Vibhaga Bhasya Tika",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  },
+  {
+    "work": {
+      "thinker_id": "sthiramati",
+      "work_id": "trimsika-bhasya",
+      "title_iast": "Triṃśikā-Bhāṣya",
+      "school": "Yogācāra"
+    },
+    "query": "Trimsika Bhasya",
+    "cats": [],
+    "ids": [],
+    "links": [],
+    "titles": [],
+    "raw_count": 0
+  }
+]
