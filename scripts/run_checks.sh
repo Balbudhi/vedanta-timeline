@@ -48,6 +48,7 @@ if command -v node >/dev/null 2>&1; then
     run_check "Work witness-link report" node scripts/report_work_witness_links.js
     run_check "School source-coverage report" node scripts/report_school_source_coverage.js
     run_check "E-Bharatisampat sweep coverage" node scripts/check_ebharatisampat_sweep.js
+    run_check "Partition sweep coverage" node scripts/report_partition_coverage.js
     run_check "Editorial contract integrity" node scripts/check_editorial_contracts.js
     run_check "Editorial readiness report" node scripts/report_editorial_readiness.js
     run_check "Unmanifested public-source report" node scripts/report_unmanifested_sources.js

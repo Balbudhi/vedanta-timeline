@@ -1,0 +1,379 @@
+{
+  "generated_at": "2026-08-19",
+  "scope": "All 31 current Sanskrit missing/degraded work rows belonging to the Tattva-vada roster in report_acquisition_queue plus cross-tradition title corrections found while auditing them. The initial count of 30 was corrected after enumerating the six separate Bannañje rows.",
+  "method": {
+    "catalogues_searched": [
+      "E-Bharatisampat public title and author search, including Devanagari spellings and all result pages",
+      "E-Bharatisampat public Unicode-reader endpoints",
+      "SRIMADHVYASA WordPress archive and direct wp-content downloads",
+      "existing local raw_etexts discovery clone (not an intake source)",
+      "existing GRETIL/Muktabodha/GitHub discovery findings",
+      "Internet Archive advanced search for the remaining exact titles"
+    ],
+    "important_access_rule": "E-Bharatisampat public Unicode text is machine-converted and explicitly not proofread; it is a discovery/collation witness only. Account-gated e-books are retrieval leads, never automatically public-corpus text.",
+    "important_quality_rule": "SRIMADHVYASA direct PDFs are downloadable but typographic extraction is visibly damaged in samples. Quarantine and collate against an edition before promotion."
+  },
+  "rows": [
+    {
+      "thinker_id": "aksobhya-tirtha",
+      "work_id": "tat-tvam-asi-khandana",
+      "title_iast": "Tat-Tvam-Asi-Khandana",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "no-match-in-audited-lanes",
+      "evidence": "No exact result in E-Bharatisampat Roman or Devanagari title search, SRIMADHVYASA index, raw_etexts Dvaita subtree, or Internet Archive exact-title search.",
+      "candidate_urls": []
+    },
+    {
+      "thinker_id": "bannanje",
+      "work_id": "acharya-madhva-baduku-bareha",
+      "title_iast": "Acarya Madhva: Baduku-Bareha",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "out-of-scope-modern-edition",
+      "evidence": "Modern Kannada scholarly work; not a public-domain Sanskrit primary text and no clean public witness should be sought as a priority.",
+      "candidate_urls": []
+    },
+    {
+      "thinker_id": "bannanje",
+      "work_id": "bhagavata-vyakhyana",
+      "title_iast": "Bhagavata-Purana Sanskrit Vyakhyana",
+      "source_status": "degraded-on-disk",
+      "result": "out-of-scope-modern-edition",
+      "evidence": "Modern Bannañje commentary/edition: a copyright-sensitive edition, not a replacement for primary Madhva witnesses.",
+      "candidate_urls": []
+    },
+    {
+      "thinker_id": "bannanje",
+      "work_id": "mahabharata-tatparya-nirnaya-vyakhyana",
+      "title_iast": "Mahabharata-Tatparya-Nirnaya Sanskrit Vyakhyana",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "out-of-scope-modern-edition",
+      "evidence": "Modern Bannañje commentary/edition. Prioritize Madhva's base text rather than a contemporary copyrighted edition.",
+      "candidate_urls": []
+    },
+    {
+      "thinker_id": "bannanje",
+      "work_id": "sarva-mula-grantha-edition",
+      "title_iast": "Sarva-Mula-Granthah critical edition",
+      "source_status": "degraded-on-disk",
+      "result": "edition-access-only",
+      "evidence": "The Bannañje critical edition is a valuable collation target, but not a substitute for public-domain/root text acquisition. Treat current local degraded copy as a separate repair decision.",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/acharya-madhwa/"
+      ]
+    },
+    {
+      "thinker_id": "bannanje",
+      "work_id": "stuti-chandrika",
+      "title_iast": "Stuti-Candrika on Vayu-Stuti",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "out-of-scope-modern-edition",
+      "evidence": "Modern Bannañje commentary, not an ancient primary source; no public digitization selected.",
+      "candidate_urls": []
+    },
+    {
+      "thinker_id": "bannanje",
+      "work_id": "upanishad-bhashyas-edition-and-commentary",
+      "title_iast": "Madhva Upanisad-Bhasya Edition and Commentary",
+      "source_status": "degraded-on-disk",
+      "result": "edition-access-only",
+      "evidence": "Modern critical-edition/commentary bundle. Base Madhva Upanisad bhasyas are discoverable in SRIMADHVYASA; do not identify Bannañje's edition with a freely reusable primary witness.",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/acharya-madhwa/"
+      ]
+    },
+    {
+      "thinker_id": "jayatirtha",
+      "work_id": "vadavali",
+      "title_iast": "Vadavali",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2013/11/sanskrit-vadavali-20112013.pdf",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=Mjk0MTE0NDM2NDM4NTQ1"
+      ],
+      "catalogue": "E-Bharatisampat-5686; Jayatirtha; Sanskrit/English; 129 pages; e-book account-gated. E-Bharatisampat-3530 is a second, public-Unicode-only record.",
+      "quality": "SRIMADHVYASA PDF is 39 pages, direct and unencrypted; its own first page says first proof is pending and extracted text has font corruption."
+    },
+    {
+      "thinker_id": "madhva",
+      "work_id": "karma-nirnaya",
+      "title_iast": "Karma-Nirnaya",
+      "source_status": "degraded-on-disk",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/04/s-10-sanskrit-karmanirnaya28082013.pdf",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=NDEwNDc2MzM1MzE3Mjg5"
+      ],
+      "catalogue": "E-Bharatisampat-10237, 63-page Dasaprakaranas collection; exact work boundary must be verified after retrieval."
+    },
+    {
+      "thinker_id": "madhva",
+      "work_id": "mithyatvanumana-khandana",
+      "title_iast": "Mithyatvanumana-Khandana",
+      "source_status": "degraded-on-disk",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/03/s-07-sanskrit-prapanchamithyathwanumanakhandanam-28082013.pdf",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=ODA1MDIxMDI4MjQxMDM="
+      ],
+      "catalogue": "E-Bharatisampat-314 lists Mithyatvanumana-khandana-Mandaramanjari-prarambha; source/author metadata is incomplete, so it is comparison-only until title-page verification."
+    },
+    {
+      "thinker_id": "madhva",
+      "work_id": "tattva-sankhyana",
+      "title_iast": "Tattva-Sankhyana",
+      "source_status": "degraded-on-disk",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/03/s-03-sanskrit-tathwasankhyana28082013.pdf",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=ODAwNjQ5NDAzNDAxNDEwMQ=="
+      ],
+      "catalogue": "E-Bharatisampat-10564, Madhva, Sanskrit, 98 pages; also public Unicode record 3192."
+    },
+    {
+      "thinker_id": "madhva",
+      "work_id": "tattvodyota",
+      "title_iast": "Tattvodyota",
+      "source_status": "degraded-on-disk",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/03/s-08-sanskrit-thantvodhyotha-28082013.pdf",
+        "https://www.ebharatisampat.in/readbook3.php?bookid=MjQxNjExNDA1NzQwNzEy&pageno=MjI0MjQyNjk5NTk=",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=NDEwNDc2MzM1MzE3Mjg5"
+      ],
+      "catalogue": "E-Bharatisampat-2261 has public machine-converted Unicode text and an 871-page e-book; 3197 is a second Unicode record; 10237 is the Dasaprakaranas collection."
+    },
+    {
+      "thinker_id": "madhva",
+      "work_id": "upadhi-khandana",
+      "title_iast": "Upadhi-Khandana",
+      "source_status": "degraded-on-disk",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/03/s-05-sanskrit-upadhikhandana-28082013.pdf",
+        "https://www.ebharatisampat.in/readbook3.php?bookid=NDM1MDUyMTE4NDcwMDU5&pageno=MjI0MjQyNjk5NTk=",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=NDEwNDc2MzM1MzE3Mjg5"
+      ],
+      "catalogue": "E-Bharatisampat-3200 is Unicode-only; 9897 is Madhva, Sanskrit, 116 pages and has Unicode/e-book; 10237 is the collection."
+    },
+    {
+      "thinker_id": "madhva",
+      "work_id": "visnu-tattva-vinirnaya",
+      "title_iast": "Visnu-Tattva-Vinirnaya",
+      "source_status": "degraded-on-disk",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/03/s-09-sanskritvishnutathwanirnaya-28082013.pdf",
+        "https://www.ebharatisampat.in/readbook3.php?bookid=MDE2MTY2NjI1MTc0NjEy&pageno=MjI0MjQyNjk5NTk=",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=NDEwNDc2MzM1MzE3Mjg5"
+      ],
+      "catalogue": "E-Bharatisampat-2255 is Madhva, Sanskrit, 44 pages, Unicode/e-book; 3202/3203 are additional root records; 11937 is a tika, not a root witness."
+    },
+    {
+      "thinker_id": "narahari-tirtha",
+      "work_id": "gita-bhasya-vivarana",
+      "title_iast": "Gita-Bhasya-Vivarana",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "no-match-in-audited-lanes",
+      "evidence": "No exact E-Bharatisampat, SRIMADHVYASA, raw_etexts Dvaita-tree, GRETIL/Muktabodha, or Internet Archive exact-title match found.",
+      "candidate_urls": []
+    },
+    {
+      "thinker_id": "narayana-panditacarya",
+      "work_id": "sumadhva-vijaya",
+      "title_iast": "Sumadhva-Vijaya",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2011/12/srimadhwavijaya-12022014.pdf",
+        "https://www.ebharatisampat.in/readbook3.php?bookid=NDU0NjQxOTE1MzY2NjEy&pageno=MjI0MjQyNjk5NTk=",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=NDU0NjQxOTE1MzY2NjEy"
+      ],
+      "catalogue": "E-Bharatisampat-2257 is Narayana Panditacarya, Sanskrit, 152 pages. 3170 is an alternate Unicode record; 6179 is a 453-page record requiring edition identification."
+    },
+    {
+      "thinker_id": "padmanabha-tirtha",
+      "work_id": "sannyaya-dipika",
+      "title_iast": "Sannyaya-Dipika",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "no-match-in-audited-lanes",
+      "evidence": "No exact result in E-Bharatisampat Roman/Devanagari title or author searches, SRIMADHVYASA, raw_etexts Dvaita tree, or Internet Archive exact-title search.",
+      "candidate_urls": []
+    },
+    {
+      "thinker_id": "padmanabha-tirtha",
+      "work_id": "sannyaya-ratnavali",
+      "title_iast": "Sannyaya-Ratnavali",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "no-match-in-audited-lanes",
+      "evidence": "No exact result in the audited lanes; do not mistake Vadiraja's Nyayaratnavali for this work.",
+      "candidate_urls": []
+    },
+    {
+      "thinker_id": "raghavendra",
+      "work_id": "prakasha-sub-commentaries",
+      "title_iast": "Prakasa sub-commentaries",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "source-family-confirmed-needs-work-level-disambiguation",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/sri-raghavendra/",
+        "https://www.ebharatisampat.in/search.php?ebs=%E0%A4%B0%E0%A4%BE%E0%A4%98%E0%A4%B5%E0%A5%87%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%8D%E0%A4%B0&type=author"
+      ],
+      "evidence": "SRIMADHVYASA explicitly says Raghavendra has tippanis on six of Madhva's ten prakarana texts, but the queue row is a heterogeneous corpus, not one bibliographic work. Split it before acquisition."
+    },
+    {
+      "thinker_id": "raghavendra",
+      "work_id": "tarka-tandava-parimala",
+      "title_iast": "Tarka-Tandava-Parimala",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "requires-title-correction-candidate-found",
+      "candidate_urls": [
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=NDgyMTMxOTkwODcwNjY4",
+        "https://www.ebharatisampat.in/readbook3.php?bookid=MDY4MDg3ODMyODY0MDAz&pageno=MjI0MjQyNjk5NTk="
+      ],
+      "correction": "E-Bharatisampat-9022 title page identifies Vyasa-tirtha's Tarka-Tandava with Raghavendra's Nyayadipa commentary. Record 3130 is Tarka-Tandava-Vivrti (Nyayadipa). Neither supports calling this work Tarka-Tandava-Parimala without further bibliographic evidence."
+    },
+    {
+      "thinker_id": "raghavendra",
+      "work_id": "tatparya-dipika",
+      "title_iast": "Tatparya-Dipika",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "requires-title-correction-no-direct-witness-yet",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/sri-raghavendra/"
+      ],
+      "correction": "The verified Raghavendra source calls his gloss on Vyasa-tirtha's Tatparya-Candrika Prakasa, and distinguishes it from Tantra-Dipika. Do not preserve Tatparya-Dipika as a Raghavendra work-title pending bibliography."
+    },
+    {
+      "thinker_id": "trivikrama-pandita",
+      "work_id": "tattva-pradipa",
+      "title_iast": "Tattva-Pradipa",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "no-clean-candidate-recorded",
+      "evidence": "E-Bharatisampat Tattvapradipika-9738 is Citsukhi/Pratyaktattvapradipika, not Trivikrama. No exact Trivikrama candidate was found in audited lanes.",
+      "candidate_urls": []
+    },
+    {
+      "thinker_id": "trivikrama-pandita",
+      "work_id": "vayu-stuti",
+      "title_iast": "Vayu-Stuti",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "archive-family-lead-not-exact-witness",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/2016/04/"
+      ],
+      "evidence": "SRIMADHVYASA has a Vadiraja small-grantha compilation including a Vayustuti-related work, but E-Bharatisampat's Vayustuti search only returned later Vadiraja works; no exact Trivikrama root witness was selected."
+    },
+    {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "nyayaratnavali",
+      "title_iast": "Nyayaratnavali",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "account-gated-and-public-unicode-candidate",
+      "candidate_urls": [
+        "https://www.ebharatisampat.in/readbook3.php?bookid=NDQ1NTY5MDQwNTg3Nzcx&pageno=MjI0MjQyNjk5NTk=",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=NDQ1NTY5MDQwNTg3Nzcx"
+      ],
+      "catalogue": "E-Bharatisampat-1852, Vadiraja, Sanskrit, 165 pages. The similarly named SRIMADHVYASA link resolves to Nyayamuktavali and must not be silently substituted."
+    },
+    {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "tirthaprabandha",
+      "title_iast": "Tirthaprabandha",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2012/01/sanskrit-tirthaprabhandha-14092013.pdf",
+        "https://tirthaprabandha.wordpress.com/"
+      ],
+      "quality": "Direct SRIMADHVYASA PDF is 55 pages and unencrypted; test rendering/text extraction found non-clean glyph mapping, requiring collation."
+    },
+    {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "yuktimallika",
+      "title_iast": "Yuktimallika",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "direct-download-quarantine-candidate",
+      "candidate_urls": [
+        "https://srimadhvyasa.wordpress.com/wp-content/uploads/2013/07/sanskrit-yukthimallika-kannada-02102013.pdf",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=MDQzMTk3MTIwNTcwOTQxMQ=="
+      ],
+      "catalogue": "E-Bharatisampat has all five Saurabhas: 11968, 11969, 11970, 11971, 11972. They are e-book records, so use the direct PDF only as quarantined comparison until corrected."
+    },
+    {
+      "thinker_id": "vijayindra",
+      "work_id": "madhva-tantra-mukha-mardana",
+      "title_iast": "Madhva-Tantra-Mukha-Mardana",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "wrong-author-and-title-requires-correction",
+      "candidate_urls": [
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=MjIyMjQ2ODMwNTU0NjQwMQ==",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=NDc1MjkxNTQyOTk3NjM4"
+      ],
+      "correction": "This is Appayya Diksita's Advaita attack, not Vijayindra's work (E-Bharatisampat-10901 and -8717 list Appayya). Descriptive catalogue records Vijayindra's relevant response-titles as Madhvatantramukhabhusana, Madhvatantranayamanjari, and Madhvadhvakanthakoddhara."
+    },
+    {
+      "thinker_id": "vijayindra",
+      "work_id": "nyayadhva-dipika",
+      "title_iast": "Nyayadhva-Dipika",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "account-gated-and-public-unicode-candidate",
+      "candidate_urls": [
+        "https://www.ebharatisampat.in/readbook3.php?bookid=ODM3ODYyNTEzNzc3MDcx&pageno=MjI0MjQyNjk5NTk=",
+        "https://www.ebharatisampat.in/ebook/index.php?bookid=ODM3ODYyNTEzNzc3MDcx"
+      ],
+      "catalogue": "E-Bharatisampat-1779, Vijayindra-bhiksu, Sanskrit, part 1, 52 pages."
+    },
+    {
+      "thinker_id": "vijayindra",
+      "work_id": "nyayamrta-vyakhya",
+      "title_iast": "Nyayamrta-Vyakhya",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "unverified-work-identity-no-exact-candidate",
+      "candidate_urls": [],
+      "evidence": "No exact match in E-Bharatisampat, SRIMADHVYASA, raw_etexts Dvaita tree, or Internet Archive exact-title search. Confirm title and attribution before new searching."
+    },
+    {
+      "thinker_id": "vyasatirtha",
+      "work_id": "nyayamrta",
+      "title_iast": "Nyayamrta",
+      "source_status": "degraded-on-disk",
+      "result": "account-gated-or-machine-unicode-candidate",
+      "candidate_urls": [
+        "https://www.ebharatisampat.in/readSearch.php?id=NjMxOTk1NjkzNjM0Njky",
+        "https://www.ebharatisampat.in/search.php?ebs=%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A5%83%E0%A4%A4%E0%A4%AE%E0%A5%8D&type=book"
+      ],
+      "catalogue": "E-Bharatisampat-3088 is catalogued as Nyayamrita under a malformed author field 'Vedavyasa Maharshi'; because metadata is unreliable, use only after title-page/authorship verification."
+    },
+    {
+      "thinker_id": "vyasatirtha",
+      "work_id": "tatparya-candrika",
+      "title_iast": "Tatparya-Candrika",
+      "source_status": "primary-text-not-in-corpus",
+      "result": "account-gated-or-machine-unicode-candidate",
+      "candidate_urls": [
+        "https://www.ebharatisampat.in/readSearch.php?id=NDQzNjUzMDg3OTcxMjEz",
+        "https://www.ebharatisampat.in/readSearch.php?id=ODA0NTYyNTM3MTMzMzEz"
+      ],
+      "catalogue": "E-Bharatisampat-3252 (vol. I) and -3264 (vol. II), both catalogued under Vyasatirtha. E-books are account-gated; download and inspect volume coverage before registration."
+    }
+  ],
+  "nomenclature_corrections": [
+    {
+      "current_record": "vijayindra/madhva-tantra-mukha-mardana",
+      "correction": "Madhva-Tantra-Mukha-Mardana is Appayya Diksita's critique, not Vijayindra. Replace only after a bibliographic review identifies the intended Vijayindra response work."
+    },
+    {
+      "current_record": "raghavendra/tarka-tandava-parimala",
+      "correction": "The inspected witness is Vyasatirtha's Tarka-Tandava with Raghavendra's Nyayadipa, not a work called Tarka-Tandava-Parimala."
+    },
+    {
+      "current_record": "raghavendra/tatparya-dipika",
+      "correction": "The archive calls Raghavendra's gloss on Tatparya-Candrika Prakasa, while Tantra-Dipika is a different work. Do not conflate them."
+    },
+    {
+      "current_record": "trivikrama/tattva-pradipa",
+      "correction": "Do not use E-Bharatisampat-9738: it is Citsukhi/Pratyaktattvapradipika, not Trivikrama's work."
+    }
+  ]
+}

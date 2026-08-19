@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-08-19",
+  "scope": "All 41 rows still reported under missing by scripts/report_partition_coverage.js. This is a read-only acquisition audit: candidate witnesses are not public-corpus promotions and no result creates a thinker or substitute work.",
+  "catalogues_and_registries_checked": [
+    "data/editorial/source_candidates.json",
+    "Muktabodha user-downloaded metadata snapshot (569 records) and paired IAST bundle",
+    "GRETIL GitHub corpus tree (tokushige-koyasan/gretil-corpus, shallow clone checked 2026-08-19)",
+    "SARIT corpus tree (sarit/SARIT-corpus, shallow clone checked 2026-08-19)",
+    "E-Bharatisampat title sweep and author-confirmed metadata sweep committed in data/editorial/catalogue_sweeps/",
+    "Sanskrit Wikisource / SanskritDocuments routes as captured in existing sweep records",
+    "DSBC only where a Sanskrit witness was plausible; translations do not satisfy this Sanskrit queue"
+  ],
+  "outcome_legend": {
+    "candidate-exact": "An exact work witness is available for quarantine/intake, subject to the normal provenance and collation gate.",
+    "candidate-partial": "Only fragments or an incomplete witness are available; it cannot silently satisfy a whole-work row.",
+    "scan-or-book-only": "An edition is discoverable but no clean public typed Sanskrit witness was found.",
+    "lost-or-citation-only": "The row identifies a lost work or source fragments embedded in another work, not an independently downloadable text.",
+    "no-exact-sanskrit-witness-found": "No exact Sanskrit witness was found in the surveyed catalogues; nearby roots, translations, or homonymous works were rejected."
+  },
+  "rows": [
+    {
+      "work_key": "abhinanda/mahartha-manjari-verses",
+      "outcome": "no-exact-sanskrit-witness-found",
+      "sources": [
+        {"provider": "Muktabodha", "id": "M00035", "url": "https://muktabodha-digital-library.org/texts/IAST/M00035", "access": "public typed IAST and paired Devanagari"}
+      ],
+      "notes": "M00035 contains Mahārthamañjarī with Parimala, but its own catalogue header explicitly says both work and commentary are by Maheśvarānanda. It is therefore evidence against treating it as an Abhinanda witness, not a substitute for this row; the current row's authorship claim needs separate editorial review."
+    },
+    {
+      "work_key": "asmarathya/bs-citation-fragments",
+      "outcome": "lost-or-citation-only",
+      "sources": [],
+      "notes": "A citation-fragment row, not a surviving independent work. No standalone Sanskrit witness was found; preserve only with exact host-locus evidence in Brahma-sūtra/commentarial transmission."
+    },
+    {
+      "work_key": "audulomi/bs-citation-fragments",
+      "outcome": "lost-or-citation-only",
+      "sources": [],
+      "notes": "A citation-fragment row, not a surviving independent work. No standalone Sanskrit witness was found; preserve only with exact host-locus evidence in Brahma-sūtra/commentarial transmission."
+    },
+    {
+      "work_key": "bhaskararaya/saubhagya-bhaskara",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00057", "url": "https://muktabodha-digital-library.org/texts/IAST/M00057", "access": "public paired-script transcription", "coverage": "Saubhāgyabhāskara commentary on Lalitāsahasranāma"}],
+      "notes": "Exact author/title match in the downloaded catalogue; needs normal quarantine provenance and collation before promotion."
+    },
+    {
+      "work_key": "bhaskararaya/setubandha",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00052", "url": "https://muktabodha-digital-library.org/texts/IAST/M00052", "access": "public paired-script transcription", "coverage": "Nityāṣoḍaśikārṇavatantra with Bhāskararāya's Setubandha"}],
+      "notes": "Exact commentary witness. The E-Bharatisampat title hit 'Setubandha' is a different kāvya and is rejected."
+    },
+    {
+      "work_key": "bhaskararaya/varivasya-rahasya",
+      "outcome": "candidate-exact",
+      "sources": [
+        {"provider": "Muktabodha", "id": "M00098", "url": "https://muktabodha-digital-library.org/texts/IAST/M00098", "access": "public paired-script transcription"},
+        {"provider": "E-Bharatisampat", "id": "Ebharati-12616", "url": "https://www.ebharatisampat.in/readSearch.php?id=MjU5NTkzNDk1ODgwMTEyMQ==", "access": "e-book reader", "coverage": "1948 Adyar edition, author field Bhāskararāya"}
+      ],
+      "notes": "Two exact catalogue matches; Muktabodha is the typed acquisition route."
+    },
+    {
+      "work_key": "bhatta-ramakantha/matanga-vrtti",
+      "outcome": "scan-or-book-only",
+      "sources": [],
+      "notes": "The work is bibliographically attested, but no public typed Sanskrit witness was found in Muktabodha, GRETIL, SARIT, E-Bharatisampat, Wikisource, or SanskritDocuments. Do not substitute the Mataṅga root tantra."
+    },
+    {
+      "work_key": "bhatta-ramakantha/kirana-vrtti",
+      "outcome": "scan-or-book-only",
+      "sources": [{"provider": "Google Books bibliographic record", "url": "https://books.google.com/books/about/Kira%E1%B9%87avr%CC%A5ttih%CC%A4_chapt_1_6.html?id=yT4qAAAAYAAJ", "access": "metadata/snippet", "coverage": "critical edition, chapters 1-6"}],
+      "notes": "GRETIL has Kiraṇatantra root only, not Rāmakaṇṭha's commentary. A published critical edition is discoverable but no public typed witness was found."
+    },
+    {
+      "work_key": "bhatta-ramakantha/naresvara-pariksa-prakasa",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00039", "url": "https://muktabodha-digital-library.org/texts/IAST/M00039", "access": "public paired-script transcription", "coverage": "Nareśvaraparīkṣā with Prakāśa commentary by Rāmakaṇṭha"}],
+      "notes": "Catalogue header explicitly identifies the requested Prakāśa commentary; this is an exact candidate."
+    },
+    {
+      "work_key": "bhatta-ramakantha/sardha-tri-shatika-lokulisvaragama-vrtti",
+      "outcome": "scan-or-book-only",
+      "sources": [],
+      "notes": "Scholarly discussions locate the commentary in manuscript/edition traditions, but no exact public typed Sanskrit witness was found in the surveyed sources."
+    },
+    {
+      "work_key": "bodhayana/brahma-sutra-vrtti",
+      "outcome": "lost-or-citation-only",
+      "sources": [],
+      "notes": "No independent Sanskrit witness located. Do not treat later works bearing Bodhāyana's name (for example ritual/prayoga records) as this lost Brahma-sūtra vṛtti."
+    },
+    {
+      "work_key": "brahmadatta/lost-upanisad-commentary",
+      "outcome": "lost-or-citation-only",
+      "sources": [],
+      "notes": "The queue itself identifies the work as lost; no independent Sanskrit witness was found."
+    },
+    {
+      "work_key": "dharmasri/abhidharmahrdaya",
+      "outcome": "no-exact-sanskrit-witness-found",
+      "sources": [],
+      "notes": "No complete Sanskrit witness found in the surveyed repositories. Translation/catalogue records do not satisfy the Sanskrit queue."
+    },
+    {
+      "work_key": "harivarman/tattvasiddhi",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "GRETIL", "url": "https://raw.githubusercontent.com/tokushige-koyasan/gretil-corpus/main/6_sastra/3_phil/sa_harivarman-satyasiddhizAstram.txt", "access": "public Unicode transcription", "coverage": "Satyasiddhiśāstra, title variant of Tattvasiddhi-Śāstra"}],
+      "notes": "Header names Harivarman and Satyasiddhiśāstra; record the title variant and retain provenance/collation requirements."
+    },
+    {
+      "work_key": "kasakrtsna/bs-citation-fragments",
+      "outcome": "lost-or-citation-only",
+      "sources": [],
+      "notes": "A citation-fragment row, not a surviving independent work. No standalone Sanskrit witness was found."
+    },
+    {
+      "work_key": "krsnananda-agamavagisa/brhat-tantrasara",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00013", "url": "https://muktabodha-digital-library.org/texts/IAST/M00013", "access": "public paired-script transcription"}],
+      "notes": "Exact author/title catalogue match; quarantine and collate before promotion."
+    },
+    {
+      "work_key": "kumaralata/kalpanamanditika",
+      "outcome": "candidate-partial",
+      "sources": [{"provider": "GRETIL", "url": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_kumAralAta-kalpanAmaNDitikA.xml", "access": "public transcription", "coverage": "edited manuscript fragments, not a complete work"}],
+      "notes": "Already present in the candidate registry. The GRETIL file opens with manuscript-fragment notices; it must remain explicitly partial."
+    },
+    {
+      "work_key": "lakshmidhara/saundarya-lahari-vrtti",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00672", "url": "https://muktabodha-digital-library.org/texts/IAST/M00672", "access": "public paired-script transcription", "coverage": "Saundaryalaharī with Lakṣmīdhara commentary"}],
+      "notes": "The local Muktabodha HTML header and colophon explicitly identify Lakṣmīdhara's commentary."
+    },
+    {
+      "work_key": "lankavatara/lankavatara-sutra",
+      "outcome": "candidate-exact",
+      "sources": [
+        {"provider": "GRETIL", "url": "https://raw.githubusercontent.com/tokushige-koyasan/gretil-corpus/main/4_rellit/buddh/sa_saddharmalaGkAvatArasUtra.txt", "access": "public Unicode transcription", "coverage": "Saddharmalaṅkāvatārasūtra"},
+        {"provider": "E-Bharatisampat", "id": "Ebharati-8820", "url": "https://www.ebharatisampat.in/readSearch.php?id=MDQwMjYxODU4Njg2NjQ4", "access": "catalogued book reader"}
+      ],
+      "notes": "GRETIL supplies the typed candidate; E-Bharatisampat is a secondary edition route."
+    },
+    {
+      "work_key": "mahesvarananda/mahartha-manjari-with-parimala",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00035", "url": "https://muktabodha-digital-library.org/texts/IAST/M00035", "access": "public paired-script transcription", "coverage": "Mahārthamañjarī with self-commentary Parimala, catalogue credits both to Maheśvarānanda"}],
+      "notes": "Already in the candidate registry as a downloaded quarantine witness."
+    },
+    {
+      "work_key": "maitreya-attributed/mahayana-sutra-alamkara",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "GRETIL", "url": "https://raw.githubusercontent.com/tokushige-koyasan/gretil-corpus/main/4_rellit/buddh/sa_asaGga-mahAyAnasUtrAlaMkAra.txt", "access": "public Unicode transcription", "coverage": "root verses with transmitted commentary"}],
+      "notes": "The source file is named for Asaṅga but contains the requested work; preserve the site entry's stated Maitreya-attributed status rather than silently changing attribution."
+    },
+    {
+      "work_key": "maitreya-attributed/madhyanta-vibhaga",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "GRETIL", "url": "https://raw.githubusercontent.com/tokushige-koyasan/gretil-corpus/main/6_sastra/3_phil/sa_maitreya-madhyAntavibhAgakArikA.txt", "access": "public Unicode transcription", "coverage": "Madhyāntavibhāgakārikā"}],
+      "notes": "Exact root-text candidate."
+    },
+    {
+      "work_key": "maitreya-attributed/dharma-dharmata-vibhaga",
+      "outcome": "no-exact-sanskrit-witness-found",
+      "sources": [],
+      "notes": "No complete exact Sanskrit witness found in GRETIL, SARIT, Muktabodha, E-Bharatisampat, Wikisource, SanskritDocuments, or the existing registry. Do not substitute a translation."
+    },
+    {
+      "work_key": "maitreya-attributed/abhisamayalamkara",
+      "outcome": "candidate-exact",
+      "sources": [
+        {"provider": "GRETIL", "url": "https://raw.githubusercontent.com/tokushige-koyasan/gretil-corpus/main/4_rellit/buddh/sa_maitreyanAtha-abhisamayAlaMkaranAmaprajJApAramitopadezazAstra.txt", "access": "public Unicode transcription", "coverage": "root text"},
+        {"provider": "E-Bharatisampat", "id": "Ebharati-9089", "url": "https://www.ebharatisampat.in/readSearch.php?id=ODU1MzczNzQ4OTA1Mjc4", "access": "catalogued book reader"}
+      ],
+      "notes": "The GRETIL header expressly calls the work Āryamaitreyanātha-viracita; retain the site's qualified attribution label."
+    },
+    {
+      "work_key": "narayanakantha/mrgendra-vrtti",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00663", "url": "https://muktabodha-digital-library.org/texts/IAST/M00663", "access": "public paired-script transcription", "coverage": "Mṛgendravṛtti, catalogue credits Bhaṭṭanārāyaṇakaṇṭha"}],
+      "notes": "Already in the candidate registry as a downloaded quarantine witness."
+    },
+    {
+      "work_key": "purnananda/sritattvacintamani",
+      "outcome": "candidate-exact",
+      "sources": [
+        {"provider": "Muktabodha", "id": "M00085", "url": "https://muktabodha-digital-library.org/texts/IAST/M00085", "access": "public paired-script transcription", "coverage": "chapters 1-5"},
+        {"provider": "Muktabodha", "id": "M00086", "url": "https://muktabodha-digital-library.org/texts/IAST/M00086", "access": "public paired-script transcription", "coverage": "chapters 6-10"},
+        {"provider": "Muktabodha", "id": "M00087", "url": "https://muktabodha-digital-library.org/texts/IAST/M00087", "access": "public paired-script transcription", "coverage": "chapters 11-15"},
+        {"provider": "Muktabodha", "id": "M00088", "url": "https://muktabodha-digital-library.org/texts/IAST/M00088", "access": "public paired-script transcription", "coverage": "chapters 16-end"}
+      ],
+      "notes": "The four exact Muktabodha records jointly cover the work; intake must preserve the four-part witness relationship."
+    },
+    {
+      "work_key": "raghavabhatta/padarthadarsa",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00077", "url": "https://muktabodha-digital-library.org/texts/IAST/M00077", "access": "public paired-script transcription", "coverage": "Śāradātilaka with Rāghavabhaṭṭa's Padārthādarśa"}],
+      "notes": "The source header and repeated colophons identify the requested commentary."
+    },
+    {
+      "work_key": "sadyojyotis/bhoga-karika",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00005", "url": "https://muktabodha-digital-library.org/texts/IAST/M00005", "access": "public paired-script transcription", "coverage": "Āṣṭaprakaraṇa Bhogakārikā with Aghoraśiva commentary"}],
+      "notes": "Exact source discovered in the downloaded Muktabodha catalogue."
+    },
+    {
+      "work_key": "sadyojyotis/moksha-karika",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00006", "url": "https://muktabodha-digital-library.org/texts/IAST/M00006", "access": "public paired-script transcription", "coverage": "Āṣṭaprakaraṇa Mokṣakārikā with Rāmakaṇṭha commentary"}],
+      "notes": "Exact source discovered in the downloaded Muktabodha catalogue."
+    },
+    {
+      "work_key": "sadyojyotis/tattva-sangraha",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00011", "url": "https://muktabodha-digital-library.org/texts/IAST/M00011", "access": "public paired-script transcription", "coverage": "Āṣṭaprakaraṇa Tattvasaṃgraha with Aghoraśiva commentary"}],
+      "notes": "Exact source is already a downloaded quarantine candidate. Reject E-Bharatisampat's homonymous Buddhist Tattvasaṃgraha hit."
+    },
+    {
+      "work_key": "sadyojyotis/tattva-trayanirnaya",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00012", "url": "https://muktabodha-digital-library.org/texts/IAST/M00012", "access": "public paired-script transcription", "coverage": "Āṣṭaprakaraṇa Tattvatrayanirṇaya with Aghoraśiva commentary"}],
+      "notes": "Exact source is already a downloaded quarantine candidate."
+    },
+    {
+      "work_key": "sadyojyotis/naresvara-pariksa",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "Muktabodha", "id": "M00039", "url": "https://muktabodha-digital-library.org/texts/IAST/M00039", "access": "public paired-script transcription", "coverage": "Nareśvaraparīkṣā with Rāmakaṇṭha's Prakāśa"}],
+      "notes": "Exact source is already a downloaded quarantine candidate."
+    },
+    {
+      "work_key": "srikanta-sivacarya/brahmamimamsa-bhasya",
+      "outcome": "no-exact-sanskrit-witness-found",
+      "sources": [],
+      "notes": "No exact Śrīkaṇṭha Śivācārya witness found in surveyed typed catalogues or E-Bharatisampat. Do not confuse it with Nimbārka's differently authored Brahmamīmāṃsābhāṣya."
+    },
+    {
+      "work_key": "srilata/sautrantika-vibhasa",
+      "outcome": "no-exact-sanskrit-witness-found",
+      "sources": [],
+      "notes": "No complete Sanskrit witness found in surveyed sources; translations and reconstruction claims do not satisfy this queue."
+    },
+    {
+      "work_key": "sundara-pandya/lost-verses",
+      "outcome": "lost-or-citation-only",
+      "sources": [],
+      "notes": "The row is explicitly for verses lost except where cited in Naiṣkarmyasiddhi; no independent work witness was found."
+    },
+    {
+      "work_key": "upavarsa/lost-vedantic-citations",
+      "outcome": "lost-or-citation-only",
+      "sources": [],
+      "notes": "The row is explicitly for lost citations; no independent Sanskrit work witness was found."
+    },
+    {
+      "work_key": "vasubandhu-abhidharma/abhidharma-kosa-karika",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "GRETIL", "url": "https://raw.githubusercontent.com/tokushige-koyasan/gretil-corpus/main/6_sastra/3_phil/sa_vasubandhu-abhidharmakoza.txt", "access": "public Unicode transcription", "coverage": "Abhidharmakośa verses"}],
+      "notes": "Typed witness found; title/header needs preserved as transmitted rather than silently normalized."
+    },
+    {
+      "work_key": "vasubandhu-abhidharma/abhidharma-kosa-bhasya",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "GRETIL", "url": "https://raw.githubusercontent.com/tokushige-koyasan/gretil-corpus/main/6_sastra/3_phil/sa_vasubandhu-abhidharmakozabhASya.txt", "access": "public Unicode transcription", "coverage": "Abhidharmakośabhāṣya"}],
+      "notes": "Typed commentary witness found."
+    },
+    {
+      "work_key": "vasumitra/prakaranapada",
+      "outcome": "no-exact-sanskrit-witness-found",
+      "sources": [],
+      "notes": "No complete exact Sanskrit witness found in the surveyed catalogues; do not replace it with a translation or catalogue description."
+    },
+    {
+      "work_key": "vasumitra/dhatukaya",
+      "outcome": "no-exact-sanskrit-witness-found",
+      "sources": [],
+      "notes": "No complete exact Sanskrit witness found in the surveyed catalogues; do not replace it with a translation or catalogue description."
+    },
+    {
+      "work_key": "yasomitra/sphutartha-abhidharmakosavyakhya",
+      "outcome": "candidate-exact",
+      "sources": [{"provider": "GRETIL", "url": "https://raw.githubusercontent.com/tokushige-koyasan/gretil-corpus/main/6_sastra/3_phil/sa_yazomitra-sphuTArthA-abhidharmakozavyAkhyA.txt", "access": "public Unicode transcription", "coverage": "Sphuṭārthā Abhidharmakośavyākhyā"}],
+      "notes": "Exact typed commentary candidate."
+    }
+  ]
+}

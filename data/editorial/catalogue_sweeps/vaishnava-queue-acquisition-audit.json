@@ -1,0 +1,2065 @@
+{
+  "generated": "2026-08-19T18:59:56.205Z",
+  "scope": [
+    "Viśiṣṭādvaita",
+    "Acintya-Bhedābheda",
+    "Śuddhādvaita",
+    "Bhedābheda",
+    "Pāñcarātra"
+  ],
+  "databases_checked": [
+    "E-Bharatisampat Unicode 4,212-public-record crawl",
+    "E-Bharatisampat existing all-title e-book sweep",
+    "GRETIL 1,279-path index + inspected TEI headers",
+    "Muktabodha 569-record local metadata + user downloads",
+    "existing Sanskrit Wikisource candidates"
+  ],
+  "works": [
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "baladeva",
+      "work_id": "prameya-ratnavali",
+      "title_iast": "Prameya-Ratnāvalī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/baladeva.json",
+      "candidate_ids": [
+        "baladeva-prameya-ratnavali-ebharati"
+      ],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "candidate-found",
+      "audit": {
+        "classification": "public-typed-witness-candidate",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "MDY5MDk2OTI5OTYyNzUy",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=MDY5MDk2OTI5OTYyNzUy",
+            "content": "https://www.ebharatisampat.in/read_chapter.php?bookid=MDY5MDk2OTI5OTYyNzUy",
+            "evidence": "Baladeva author exact; 9 sections"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "baladeva",
+      "work_id": "siddhanta-ratnam",
+      "title_iast": "Siddhānta-Ratnam",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/baladeva.json",
+      "candidate_ids": [
+        "baladeva-siddhanta-ratnam-ebharati-v1"
+      ],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "candidate-found",
+      "audit": {
+        "classification": "public scan candidate only",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat",
+            "serial": "Ebharati-10476",
+            "pdf": "https://www.ebharatisampat.in/pdfs/1771921451.pdf",
+            "evidence": "public 200 PDF; part 1 only"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "bhaktivinoda",
+      "work_id": "bhagavatarka-marici-mala",
+      "title_iast": "Bhāgavatārka-Marīci-Mālā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/bhaktivinoda.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "bhaktivinoda",
+      "work_id": "tattva-sutra",
+      "title_iast": "Tattva-Sūtra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/bhaktivinoda.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "bhaktivinoda",
+      "work_id": "vedanta-adhikarana-mala",
+      "title_iast": "Vedānta-Adhikaraṇa-Mālā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/bhaktivinoda.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "caitanya",
+      "work_id": "doctrine-recorded-by-disciples",
+      "title_iast": "Doctrine recorded by disciples",
+      "language": "bengali",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "school-ascribed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/caitanya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "gopala-bhatta-gosvami",
+      "work_id": "sat-kriya-sara-dipika",
+      "title_iast": "Sat-kriyā-sāra-dīpikā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/gopala-bhatta-gosvami.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "exclude/deprioritize ritual manual under project policy",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "jiva-gosvami",
+      "work_id": "sarva-samvadini",
+      "title_iast": "Sarva-Saṃvādinī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/jiva-gosvami.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "kavi-karnapura",
+      "work_id": "alankara-kaustubha",
+      "title_iast": "Alaṅkāra-Kaustubha",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/kavi-karnapura.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "kavi-karnapura",
+      "work_id": "ananda-vrndavana-campu",
+      "title_iast": "Ānanda-Vṛndāvana-Campū",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/kavi-karnapura.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "kavi-karnapura",
+      "work_id": "caitanya-candrodaya-nataka",
+      "title_iast": "Caitanya-Candrodaya-Nāṭaka",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/kavi-karnapura.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "typed record confirmed; public full-content endpoint absent",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "NjYwNjA4Nzk2NzY2ODE1",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=NjYwNjA4Nzk2NzY2ODE1",
+            "evidence": "Caitanyacandrodayanāṭaka; Karṇapūra author exact; no read_chapter endpoint"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "krsnadasa-kaviraja",
+      "work_id": "caitanya-caritamrta",
+      "title_iast": "Caitanya-caritāmṛta",
+      "language": "bengali",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/krsnadasa-kaviraja.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "krsnadasa-kaviraja",
+      "work_id": "govinda-lilamrta",
+      "title_iast": "Govinda-līlāmṛta",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/krsnadasa-kaviraja.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "krsnadasa-kaviraja",
+      "work_id": "sarartha-darsini",
+      "title_iast": "Sārārtha-darśinī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/krsnadasa-kaviraja.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "prabodhananda-sarasvati",
+      "work_id": "radha-rasa-sudha-nidhi",
+      "title_iast": "Rādhā-rasa-sudhā-nidhi",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "disputed",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/prabodhananda-sarasvati.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "prabodhananda-sarasvati",
+      "work_id": "vrndavana-mahimamrta",
+      "title_iast": "Vṛndāvana-mahimāmṛta",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/prabodhananda-sarasvati.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "raghunatha-dasa-gosvami",
+      "work_id": "manah-siksa",
+      "title_iast": "Manaḥ-śikṣā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/raghunatha-dasa-gosvami.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "raghunatha-dasa-gosvami",
+      "work_id": "mukta-carita",
+      "title_iast": "Mukta-carita",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/raghunatha-dasa-gosvami.json",
+      "candidate_ids": [
+        "raghunatha-dasa-mukta-carita-gretil"
+      ],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "candidate-found",
+      "audit": {
+        "classification": "public-typed GRETIL candidate",
+        "sources": [
+          {
+            "provider": "GRETIL",
+            "path": "1_sanskr/sa_raghunAthadAsagosvAmin-muktAcarita.xml",
+            "content": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_raghunAthadAsagosvAmin-muktAcarita.xml",
+            "evidence": "author exact; CC BY-NC-SA; header/collation pending"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "sanatana-gosvami",
+      "work_id": "brhad-bhagavatamrta",
+      "title_iast": "Bṛhad-Bhāgavatāmṛta",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/sanatana-gosvami.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "sanatana-gosvami",
+      "work_id": "hari-bhakti-vilasa",
+      "title_iast": "Hari-Bhakti-Vilāsa",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/sanatana-gosvami.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "exclude/deprioritize ritual manual under project policy",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "sanatana-gosvami",
+      "work_id": "vaisnava-toshani",
+      "title_iast": "Vaiṣṇava-Toṣaṇī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/sanatana-gosvami.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "visvanatha",
+      "work_id": "madhurya-kadambini",
+      "title_iast": "Mādhurya-Kādambinī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/visvanatha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "visvanatha",
+      "work_id": "raga-vartma-candrika",
+      "title_iast": "Rāga-Vartma-Candrikā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/visvanatha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Acintya-Bhedābheda",
+      "thinker_id": "visvanatha",
+      "work_id": "sararthadarshini",
+      "title_iast": "Sārārtha-Darśinī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/visvanatha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Bhedābheda",
+      "thinker_id": "bhartrprapanca",
+      "work_id": "brhadaranyaka-commentary-fragments",
+      "title_iast": "Bṛhadāraṇyaka commentary fragments (reconstructed)",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "disputed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/bhartrprapanca.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Bhedābheda",
+      "thinker_id": "bhaskara",
+      "work_id": "gita-bhasya-fragments",
+      "title_iast": "Gītā-Bhāṣya fragments",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "disputed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/bhaskara.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Bhedābheda",
+      "thinker_id": "kesava-kasmiri",
+      "work_id": "tattva-prakashika",
+      "title_iast": "Tattva-Prakāśikā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/kesava-kasmiri.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Bhedābheda",
+      "thinker_id": "nimbarka",
+      "work_id": "dasa-shloki",
+      "title_iast": "Daśa-Ślokī",
+      "language": "sanskrit",
+      "source_status": "degraded-on-disk",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/nimbarka.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Bhedābheda",
+      "thinker_id": "yadava-prakasa",
+      "work_id": "lost-bhedabheda-corpus",
+      "title_iast": "Lost Bhedābheda corpus",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "disputed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/yadava-prakasa.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Pāñcarātra",
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "ahirbudhnya-samhita",
+      "title_iast": "Ahirbudhnya-Saṃhitā",
+      "language": "sanskrit",
+      "source_status": "degraded-on-disk",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/pancaratra-tradition.json",
+      "candidate_ids": [
+        "pancaratra-ahirbudhnya-samhita-wikisource",
+        "ahirbudhnya-samhita-muktabodha-v1",
+        "ahirbudhnya-samhita-muktabodha-v2"
+      ],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "candidate-found",
+      "audit": {
+        "classification": "public-typed-witness-candidate; existing quarantine pair for collation",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "NDAzNjI3NjczMDc0MTQ=",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=NDAzNjI3NjczMDc0MTQ=",
+            "content": "https://www.ebharatisampat.in/read_chapter.php?bookid=NDAzNjI3NjczMDc0MTQ=",
+            "evidence": "35 sections/302833 chars; metadata author blank"
+          },
+          {
+            "provider": "Muktabodha",
+            "id": "M00002a/M00002b",
+            "content": "https://muktabodha-digital-library.org/texts/IAST/M00002a",
+            "evidence": "paired IAST/Devanagari quarantine already downloaded"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Pāñcarātra",
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "jayakhya-samhita",
+      "title_iast": "Jayākhya-Saṃhitā",
+      "language": "sanskrit",
+      "source_status": "degraded-on-disk",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/pancaratra-tradition.json",
+      "candidate_ids": [
+        "pancaratra-jayakhya-samhita-wikisource",
+        "jayakhya-samhita-muktabodha"
+      ],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "candidate-found",
+      "audit": {
+        "classification": "public-typed-witness-candidate; existing quarantine candidate for collation",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "MDc1MzU0NTYzODU3MTQ=",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=MDc1MzU0NTYzODU3MTQ=",
+            "content": "https://www.ebharatisampat.in/read_chapter.php?bookid=MDc1MzU0NTYzODU3MTQ=",
+            "evidence": "33 sections/489410 chars; metadata lists editor Embar Krishnamacharya"
+          },
+          {
+            "provider": "Muktabodha",
+            "id": "M00123",
+            "content": "https://muktabodha-digital-library.org/texts/IAST/M00123",
+            "evidence": "quarantine downloaded"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Pāñcarātra",
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "lakshmi-tantra",
+      "title_iast": "Lakṣmī-Tantra",
+      "language": "sanskrit",
+      "source_status": "degraded-on-disk",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/pancaratra-tradition.json",
+      "candidate_ids": [
+        "pancaratra-lakshmi-tantra-wikisource",
+        "lakshmi-tantra-muktabodha"
+      ],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "candidate-found",
+      "audit": {
+        "classification": "public full typed witness candidate plus Muktabodha paired-script comparison",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "NDE0ODM5NzUzMDU5MTQ=",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=NDE0ODM5NzUzMDU5MTQ=",
+            "content": "https://www.ebharatisampat.in/read_chapter.php?bookid=NDE0ODM5NzUzMDU5MTQ=",
+            "evidence": "56 public chapters / 8.1MB; metadata Krishnamacharya edition role to verify"
+          },
+          {
+            "provider": "Muktabodha",
+            "id": "M00206/M00332",
+            "content": "https://muktabodha-digital-library.org/texts/IAST/M00206",
+            "evidence": "paired IAST/Devanagari quarantine existing; documented corruptions require collation"
+          },
+          {
+            "provider": "Sanskrit Wikisource",
+            "content": "https://sa.wikisource.org/wiki/लक्ष्मीतन्त्रम्",
+            "evidence": "revision capture and sampling required"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Pāñcarātra",
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "pauskara-samhita",
+      "title_iast": "Pauṣkara-Saṃhitā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/pancaratra-tradition.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "public-paired-script-witness-candidate; full work",
+        "sources": [
+          {
+            "provider": "Muktabodha",
+            "id": "M00259",
+            "content": "https://muktabodha-digital-library.org/texts/IAST/M00259",
+            "local_iast": "/Users/eeshan/Downloads/muktalib_IAST_download_2026-07-22/M00259 - pauSkara saMhitA.htm",
+            "local_devanagari": "/Users/eeshan/Downloads/MUKTABODHA-LIBRARY-DEVANAGARI/pauSkara saMhitA-M00259-DEV.txt",
+            "evidence": "full 1934 edition; pair present locally"
+          },
+          {
+            "provider": "GRETIL",
+            "path": "1_sanskr/sa_pauSkarasaMhitA-27-43.xml",
+            "content": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_pauSkarasaMhitA-27-43.xml",
+            "evidence": "CC BY-NC-SA; partial chapters 27–43 only"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Pāñcarātra",
+      "thinker_id": "pancaratra-tradition",
+      "work_id": "satvata-samhita",
+      "title_iast": "Sātvata-Saṃhitā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/pancaratra-tradition.json",
+      "candidate_ids": [
+        "satvata-tantra-gretil"
+      ],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "candidate-found",
+      "audit": {
+        "classification": "public-typed-witness-candidate; GRETIL quarantine available",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "NjY2MzM2OTc0Mzg0NTEx",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=NjY2MzM2OTc0Mzg0NTEx",
+            "content": "https://www.ebharatisampat.in/read_chapter.php?bookid=NjY2MzM2OTc0Mzg0NTEx",
+            "evidence": "32 sections/1019669 chars; metadata Alasiṃhabhaṭṭa needs edition-role verification"
+          },
+          {
+            "provider": "GRETIL",
+            "path": "1_sanskr/sa_sAtvatatantra.xml",
+            "content": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_sAtvatatantra.xml",
+            "evidence": "CC BY-NC-SA 4.0; Phadke 1934 header; already quarantine"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "gokulnatha",
+      "work_id": "caurasi-varta",
+      "title_iast": "Caurāsī-Vaiṣṇavan-kī-Vārtā",
+      "language": "vraja-bhasha",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "compiled-redacted",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/gokulnatha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "gokulnatha",
+      "work_id": "sarva-nirnaya-vivrti",
+      "title_iast": "Sarva-Nirṇaya-Prakaraṇa-Vivṛti",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/gokulnatha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "hariraya",
+      "work_id": "hariraya-vivarana-on-shodasha-granthah",
+      "title_iast": "Hariraya-Vivaraṇa on Ṣoḍaśa-Granthāḥ",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/hariraya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "hariraya",
+      "work_id": "shiksha-patra",
+      "title_iast": "Śikṣā-Patra",
+      "language": "sanskrit-vraja-mixed",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/hariraya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "purusottama",
+      "work_id": "avarana-bhanga",
+      "title_iast": "Avaraṇa-Bhaṅga",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/purusottama.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "purusottama",
+      "work_id": "bhasya-prakasha",
+      "title_iast": "Bhāṣya-Prakāśa",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/purusottama.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "purusottama",
+      "work_id": "prasthana-ratnakara",
+      "title_iast": "Prasthāna-Ratnākara",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/purusottama.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "public scan candidate only",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat",
+            "serial": "Ebharati-11073",
+            "pdf": "https://www.ebharatisampat.in/pdfs/1779077125.pdf",
+            "evidence": "public 200 PDF; author exact"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "vallabha",
+      "work_id": "shodasha-granthah",
+      "title_iast": "Ṣoḍaśa-Granthāḥ",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vallabha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "vallabha",
+      "work_id": "subodhini",
+      "title_iast": "Subodhinī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vallabha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "vallabha",
+      "work_id": "tattvartha-dipa-nibandha",
+      "title_iast": "Tattvārtha-Dīpa-Nibandha",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vallabha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "public scan candidate only",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat",
+            "serial": "Ebharati-10408",
+            "pdf": "https://www.ebharatisampat.in/pdfs/1770620769.pdf",
+            "evidence": "public 200 PDF; author exact"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "vallabha-balaka",
+      "work_id": "balaka-bhasya-on-anu-bhasya",
+      "title_iast": "Bālaka-Bhāṣya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vallabha-balaka.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "vitthalanatha",
+      "work_id": "subodhini-completion",
+      "title_iast": "Subodhinī completion",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vitthalanatha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Śuddhādvaita",
+      "thinker_id": "vitthalanatha",
+      "work_id": "vidvan-mandana",
+      "title_iast": "Vidvan-Maṇḍana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vitthalanatha.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "manavala-mamunigal",
+      "work_id": "mumukshuppadi-vyakhyana",
+      "title_iast": "Mumukṣuppadi-Vyākhyāna",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/manavala-mamunigal.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "manavala-mamunigal",
+      "work_id": "rahasya-corpus-commentaries",
+      "title_iast": "Rahasya-corpus commentaries",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/manavala-mamunigal.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "manavala-mamunigal",
+      "work_id": "tiruvaymoli-vyakhyana",
+      "title_iast": "Tiruvāymoḻi-Vyākhyāna",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/manavala-mamunigal.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "manavala-mamunigal",
+      "work_id": "yatindra-pravana-prabhava",
+      "title_iast": "Yatīndra-Pravaṇa-Prabhāva",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/manavala-mamunigal.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "nathamuni",
+      "work_id": "nyaya-tattva",
+      "title_iast": "Nyāya-Tattva",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "disputed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/nathamuni.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "nathamuni",
+      "work_id": "yoga-rahasya",
+      "title_iast": "Yoga-Rahasya",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "disputed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/nathamuni.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "parasara-bhattar",
+      "work_id": "bhagavad-guna-darpana",
+      "title_iast": "Bhagavad-guṇa-darpaṇa",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/parasara-bhattar.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "parasara-bhattar",
+      "work_id": "sri-guna-ratna-kosa",
+      "title_iast": "Śrī Guṇa-ratna-kośa",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/parasara-bhattar.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "periyavaccan-pillai",
+      "work_id": "stotra-ratna-vyakhyana",
+      "title_iast": "Stotra-Ratna-Vyākhyāna",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/periyavaccan-pillai.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "periyavaccan-pillai",
+      "work_id": "tiruppavai-vyakhyana",
+      "title_iast": "Tiruppāvai-Vyākhyāna",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/periyavaccan-pillai.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "periyavaccan-pillai",
+      "work_id": "tiruvaymoli-vyakhyana-twenty-four-thousand",
+      "title_iast": "Tiruvāymoḻi-Vyākhyāna (Irupatti-nāl-āyira-paṭi)",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/periyavaccan-pillai.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "pillai-lokacarya",
+      "work_id": "artha-pancaka",
+      "title_iast": "Artha-Pañcaka",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/pillai-lokacarya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "pillai-lokacarya",
+      "work_id": "mumukshuppadi",
+      "title_iast": "Mumukṣuppadi",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/pillai-lokacarya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "pillai-lokacarya",
+      "work_id": "shri-vacana-bhushana",
+      "title_iast": "Śrī-Vacana-Bhūṣaṇa",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/pillai-lokacarya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "pillai-lokacarya",
+      "work_id": "tattva-trayam",
+      "title_iast": "Tattva-Trayam",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/pillai-lokacarya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "ramabhadracarya",
+      "work_id": "ashtadhyayi-pradipa",
+      "title_iast": "Aṣṭādhyāyī-Pradīpa",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/ramabhadracarya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "ramabhadracarya",
+      "work_id": "shri-raghava-kripa-bhashyam-brahma-sutra",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Brahma-Sūtra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/ramabhadracarya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "ramabhadracarya",
+      "work_id": "shri-raghava-kripa-bhashyam-gita",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Bhagavad-Gītā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/ramabhadracarya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "ramabhadracarya",
+      "work_id": "shri-raghava-kripa-bhashyam-narada-bhakti-sutra",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Nārada-Bhakti-Sūtra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/ramabhadracarya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "ramabhadracarya",
+      "work_id": "shri-raghava-kripa-bhashyam-upanishads",
+      "title_iast": "Śrīrāghavakṛpā-Bhāṣyam on Eleven Principal Upaniṣads",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/ramabhadracarya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "ramanuja",
+      "work_id": "gadya-trayam",
+      "title_iast": "Gadya-Trayam",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/ramanuja.json",
+      "candidate_ids": [
+        "ramanuja-gadya-trayam-sharanagati-wikisource"
+      ],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "candidate-found",
+      "audit": {
+        "classification": "public scan candidate; partial Wikisource typed alternative",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat",
+            "serial": "Ebharati-10503",
+            "pdf": "https://www.ebharatisampat.in/pdfs/1772018530.pdf",
+            "evidence": "public 200 PDF; author exact"
+          },
+          {
+            "provider": "Sanskrit Wikisource",
+            "content": "https://sa.wikisource.org/wiki/शरणागतिगद्यम्",
+            "evidence": "only one member of triad"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "ramanuja",
+      "work_id": "nitya-grantha",
+      "title_iast": "Nitya-Grantha",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "traditionally-ascribed",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/ramanuja.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "public scan candidate only",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat",
+            "serial": "Ebharati-10486",
+            "pdf": "https://www.ebharatisampat.in/pdfs/ebharati-pdf-1771932264NityaGrantha1941.pdf",
+            "evidence": "public 200 PDF; author exact"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-dipa",
+      "title_iast": "Vedānta-Dīpa",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/ramanuja.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "public scan candidate only",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat",
+            "serial": "Ebharati-10538",
+            "pdf": "https://www.ebharatisampat.in/pdfs/1772537731.pdf",
+            "evidence": "public 200 PDF; author exact"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-sara",
+      "title_iast": "Vedānta-Sāra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/ramanuja.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "nyaya-siddhanjana-vyakhya",
+      "title_iast": "Nyāya-Siddhāñjana-Vyākhyā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/rangaramanuja-muni.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "shariraka-shastra-dipika",
+      "title_iast": "Śārīraka-Śāstra-Dīpikā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/rangaramanuja-muni.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "siddhanta-sara",
+      "title_iast": "Siddhānta-Sāra",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/rangaramanuja-muni.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "sruta-prakashika-bhava-prakashika",
+      "title_iast": "Śruta-Prakāśikā-Bhāva-Prakāśikā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/rangaramanuja-muni.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "public full typed candidate; title relationship needs verification before mapping",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "MjI4NDE0NDEyMDgyMzA0",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=MjI4NDE0NDEyMDgyMzA0",
+            "content": "https://www.ebharatisampat.in/read_chapter.php?bookid=MjI4NDE0NDEyMDgyMzA0",
+            "evidence": "Bhāva-prakāśikā author Raṅgarāmānuja exact; 4 public sections; queue composite title relation unverified"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "upanishad-bhashyas",
+      "title_iast": "Upaniṣad-Bhāṣyāḥ",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/rangaramanuja-muni.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "rangaramanuja-muni",
+      "work_id": "vishaya-vakya-dipika",
+      "title_iast": "Viṣaya-Vākya-Dīpikā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/rangaramanuja-muni.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "typed record confirmed; public full-content endpoint absent",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "NDQ4NTE5NzM1MjUxODAwMQ==",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=NDQ4NTE5NzM1MjUxODAwMQ==",
+            "evidence": "Viṣayavākyadīpikā; Raṅgarāmānuja author exact; no read_chapter endpoint"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "srinivasa-dasa",
+      "work_id": "yatindramatadipika",
+      "title_iast": "Yatīndramatadīpikā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "draft",
+      "record_path": "data/thinkers/srinivasa-dasa.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "public-typed-witness-candidate",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "NjAxODQ3MTMxMjkzNTA0",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=NjAxODQ3MTMxMjkzNTA0",
+            "content": "https://www.ebharatisampat.in/read_chapter.php?bookid=NjAxODQ3MTMxMjkzNTA0",
+            "evidence": "Śrīnivāsadāsa author exact; 10 sections/68897 chars"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "sudarsana",
+      "work_id": "shruta-prakashika",
+      "title_iast": "Śruta-Prakāśikā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/sudarsana.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "mimamsa-nyaya-prakasha-vyakhya",
+      "title_iast": "Mīmāṃsā-Nyāya-Prakāśa-Vyākhyā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/uttamur-viraraghavacharya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "nyaya-kusumanjali-vyakhya",
+      "title_iast": "Nyāya-Kusumāñjali-Vyākhyā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/uttamur-viraraghavacharya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "nyaya-parishuddhi-vyakhya",
+      "title_iast": "Nyāya-Pariśuddhi-Vyākhyā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/uttamur-viraraghavacharya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "paramartha-bhushana",
+      "title_iast": "Paramārtha-Bhūṣaṇa",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/uttamur-viraraghavacharya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "prabandha-raksha",
+      "title_iast": "Prabandha-Rakṣā",
+      "language": "tamil-manipravala",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/uttamur-viraraghavacharya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "sarvartha-siddhi-vyakhya",
+      "title_iast": "Sarvārtha-Siddhi-Vyākhyā",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/uttamur-viraraghavacharya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "shri-bhashyartha-darpana",
+      "title_iast": "Śrī-Bhāṣyārtha-Darpaṇa",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/uttamur-viraraghavacharya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "uttamur-viraraghavacharya",
+      "work_id": "vaisheshika-rasayana",
+      "title_iast": "Vaiśeṣika-Rasāyana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/uttamur-viraraghavacharya.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "vedanta-desika",
+      "work_id": "adhikarana-saravali",
+      "title_iast": "Adhikaraṇa-Sārāvalī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vedanta-desika.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "public-typed-witness-candidate",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "NjU1Nzg2NTIyMjk5MjA0",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=NjU1Nzg2NTIyMjk5MjA0",
+            "content": "https://www.ebharatisampat.in/read_chapter.php?bookid=NjU1Nzg2NTIyMjk5MjA0",
+            "evidence": "exact title, 5 sections/127069 chars; metadata author blank"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "vedanta-desika",
+      "work_id": "nyaya-parishuddhi",
+      "title_iast": "Nyāya-Pariśuddhi",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vedanta-desika.json",
+      "candidate_ids": [
+        "vedanta-desika-nyaya-parishuddhi-ebharati"
+      ],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "candidate-found",
+      "audit": {
+        "classification": "public full typed witness candidate; public scan and partial GRETIL comparison witnesses",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "ODExNTE0MDE3ODA2MDkz",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=ODExNTE0MDE3ODA2MDkz",
+            "content": "https://www.ebharatisampat.in/read_chapter.php?bookid=ODExNTE0MDE3ODA2MDkz",
+            "evidence": "Veṅkaṭanātha author exact; full public chapters"
+          },
+          {
+            "provider": "E-Bharatisampat",
+            "serial": "Ebharati-9490",
+            "pdf": "https://www.ebharatisampat.in/pdfs/1739949447.pdf",
+            "evidence": "public scan comparison"
+          },
+          {
+            "provider": "GRETIL",
+            "path": "1_sanskr/sa_veGkaTanAtha-nyAyaparizuddhibhUmikA-13-5.xml",
+            "content": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_veGkaTanAtha-nyAyaparizuddhibhUmikA-13-5.xml",
+            "evidence": "only Bhūmikā 1.3–5"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "vedanta-desika",
+      "work_id": "nyaya-siddhanjana",
+      "title_iast": "Nyāya-Siddhāñjana",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vedanta-desika.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "title collision rejected; no source for target author",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "vedanta-desika",
+      "work_id": "rahasya-traya-sara",
+      "title_iast": "Rahasya-Traya-Sāra",
+      "language": "tamil-manipravala",
+      "source_status": "degraded-on-disk",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vedanta-desika.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "vedanta-desika",
+      "work_id": "sarvartha-siddhi",
+      "title_iast": "Sarvārtha-Siddhi",
+      "language": "sanskrit",
+      "source_status": "degraded-on-disk",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vedanta-desika.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "vedanta-desika",
+      "work_id": "shata-dushani",
+      "title_iast": "Śata-Dūṣaṇī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vedanta-desika.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "no exact candidate recorded after E-Bharatisampat 4,212 Unicode + existing all-title e-book sweep, GRETIL pathname index, Muktabodha metadata review",
+        "sources": []
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "vedanta-desika",
+      "work_id": "tattva-mukta-kalapa",
+      "title_iast": "Tattva-Muktā-Kalāpa",
+      "language": "sanskrit",
+      "source_status": "degraded-on-disk",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/vedanta-desika.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "no-clean-candidate-recorded",
+      "audit": {
+        "classification": "typed-record-confirmed but public full-content endpoint absent",
+        "sources": [
+          {
+            "provider": "E-Bharatisampat Unicode Books",
+            "id": "MjkwNDA0NDMyMjI2MjY4",
+            "record": "https://www.ebharatisampat.in/readunicode.php?id=MjkwNDA0NDMyMjI2MjY4",
+            "evidence": "Śrī-Vedāntācārya author exact; no read_chapter endpoint"
+          }
+        ]
+      }
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "thinker_id": "yamuna",
+      "work_id": "catuh-shloki",
+      "title_iast": "Catuḥ-Ślokī",
+      "language": "sanskrit",
+      "source_status": "primary-text-not-in-corpus",
+      "ascription_tier": "securely-authored",
+      "entry_status": "reviewed",
+      "record_path": "data/thinkers/yamuna.json",
+      "candidate_ids": [],
+      "local_witness_candidates": [
+        "sanskrit/vedanta/yamuna_catuhshloki_ambuda.txt"
+      ],
+      "local_scan_or_ocr_candidates": [],
+      "research_status": "local-witness-needs-provenance",
+      "audit": {
+        "classification": "public-typed GRETIL candidate (concurrent public intake in worktree)",
+        "sources": [
+          {
+            "provider": "GRETIL",
+            "path": "1_sanskr/sa_yAmuna-catuHzlokI.xml",
+            "content": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_yAmuna-catuHzlokI.xml",
+            "evidence": "Yāmuna author exact; CC BY-NC-SA 4.0; current worktree also has Ambuda intake"
+          }
+        ]
+      }
+    }
+  ],
+  "updated_at": "2026-08-19T19:02:23.711Z",
+  "latest_unicode_corrections": [
+    "Vedānta Deśika Nyāyapariśuddhi: full public Unicode chapters (not scan-only)",
+    "Lakṣmītantra: full public Unicode chapters (not only Muktabodha/Wikisource)",
+    "Raṅgarāmānuja Bhāva-prakāśikā: full public Unicode chapters; mapping to composite queue row still unverified",
+    "Kavi Karṇapūra Caitanyacandrodayanāṭaka and Raṅgarāmānuja Viṣayavākyadīpikā: typed metadata exists but no public chapter endpoint"
+  ]
+}

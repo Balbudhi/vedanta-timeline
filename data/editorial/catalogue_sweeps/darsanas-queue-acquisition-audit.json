@@ -1,0 +1,481 @@
+{
+  "generated_at": "2026-08-19",
+  "scope": "All 41 Sanskrit missing/degraded queue rows in Nyaya, Vaisesika, Mimamsa, Samkhya, Yoga, Vyakarana, Alankara, and Carvaka. Read-only audit; candidates are never promotion approval.",
+  "sources_checked": [
+    "E-Bharatisampat: public Devanagari title and author search plus record metadata",
+    "SARIT exhaustive current file list and TEI headers",
+    "GRETIL 1,279-file corpus TEI index and local headers",
+    "Sanskrit Wikisource / Prakriya source-artifact evidence",
+    "current repository candidate registry and non-quarantine source tree"
+  ],
+  "record_url_template": "https://www.ebharatisampat.in/readSearch.php?id={token}",
+  "rows": [
+    {
+      "school": "Alankara",
+      "thinker_id": "mukula-bhatta",
+      "work_id": "abhidha-vrtti-matrka",
+      "title_iast": "Abhidha-vrtti-matrka",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "MDE1ODMzNjk4NzM2NTcwMQ==", "serial": "Ebharati-11205", "metadata": "Mukula Bhatta; 1916; 30pp; Mangesh Ramakrishna Telang ed."}],
+      "notes": "Exact author-confirmed record from Devanagari title/author search; account-gated e-book intake candidate."
+    },
+    {
+      "school": "Carvaka",
+      "thinker_id": "carvaka",
+      "work_id": "barhaspatya-sutra-fragments",
+      "title_iast": "Barhaspatya-Sutra (fragments)",
+      "outcome": "nonextant-fragmentary",
+      "sources": [],
+      "notes": "No recoverable original work should be fabricated: the target is a modern fragment collection from quotations, not an extant sutra witness."
+    },
+    {
+      "school": "Mimamsa",
+      "thinker_id": "apadeva",
+      "work_id": "mimamsa-nyaya-prakasa",
+      "title_iast": "Mimamsa-Nyaya-Prakasa",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "NDk2OTIyODY2MDc5NDQ1", "serial": "Ebharati-5677", "metadata": "Apadeva; 1937; 232pp; Vasudeva Sastri Abhyankar ed.; Unicode and e-book routes."}],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Mimamsa",
+      "thinker_id": "khandadeva",
+      "work_id": "bhatta-dipika",
+      "title_iast": "Bhatta-Dipika",
+      "outcome": "direct-ebharati-and-gretil-partial",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "MDY1NzI1NDEwMDUwNjY3", "serial": "Ebharati-7980", "metadata": "Khandadeva; 1952; 584pp; Prabhavali."},
+        {"provider": "E-Bharatisampat", "token": "MjI4NDI1NjI0MTYyMzg4", "serial": "Ebharati-9201", "metadata": "Khandadeva; 1922; 649pp; Ananta Krishna Sastri ed."},
+        {"provider": "E-Bharatisampat", "token": "NjYxMjg5NTExODU0MzY3", "serial": "Ebharati-7953", "metadata": "Khandadeva; 1952; 524pp; Prabhavali."},
+        {"provider": "E-Bharatisampat", "token": "MjM0OTA3NDAxNjQ3MzY3", "serial": "Ebharati-7956", "metadata": "Khandadeva; part 2; 1952; 598pp."},
+        {"provider": "E-Bharatisampat", "token": "Mjc0NzE5NTYyOTU0ODM5", "serial": "Ebharati-9776", "metadata": "Purvasatka chapters 3-4; 1957; 486pp."},
+        {"provider": "E-Bharatisampat", "token": "NDk4OTUxMjYyNTU1ODM5", "serial": "Ebharati-9777", "metadata": "Purvasatka chapters 5-6; 1957; 498pp."},
+        {"provider": "E-Bharatisampat", "token": "NjEzMjA0ODUyMTU2ODM5", "serial": "Ebharati-9778", "metadata": "Uttarasatka chapters 7-9; 1957; 515pp."},
+        {"provider": "GRETIL", "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_khaNDadeva-bhATTadIpikA1-3,3.xml", "metadata": "Khandadeva; only Mimamsasutra 1-3.3; Ananta Krishna Sastri, Bombay 1921-22 / 1987 reprint."}
+      ],
+      "notes": "E-Bharati offers substantially broader edition coverage than the partial GRETIL witness."
+    },
+    {
+      "school": "Mimamsa",
+      "thinker_id": "khandadeva",
+      "work_id": "bhatta-kaustubha",
+      "title_iast": "Bhatta-Kaustubha",
+      "outcome": "alias-candidate-needs-bibliographic-confirmation",
+      "sources": [{"provider": "E-Bharatisampat", "token": "Njc4MzU1MzMzMTM3NjM5", "serial": "Ebharati-9758", "metadata": "Khandadeva, Mimamsakaustubha, 1.2; 1902; 87pp."}],
+      "notes": "Do not equate Mimamsakaustubha and the queue title without bibliographic verification."
+    },
+    {
+      "school": "Mimamsa",
+      "thinker_id": "laugaksi-bhaskara",
+      "work_id": "artha-samgraha",
+      "title_iast": "Artha-Samgraha",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "NjE1MjIyMDQ2NDUyMjU4", "serial": "Ebharati-8878", "metadata": "Laugaksi Bhaskara; 1930; 108pp; with Tantraprakashika."}],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Mimamsa",
+      "thinker_id": "parthasarathi",
+      "work_id": "nyaya-ratna-mala",
+      "title_iast": "Nyaya-Ratna-Mala",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "MDY0MTY0ODA4MDQyMTAwMQ==", "serial": "Ebharati-10430", "metadata": "Parthasarathi Misra; 1900; 216pp; Gangadhara Manavalli Sastri ed."}],
+      "notes": "Exact author-confirmed record."
+    },
+    {
+      "school": "Mimamsa",
+      "thinker_id": "parthasarathi",
+      "work_id": "shastra-dipika",
+      "title_iast": "Sastra-Dipika",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "ODM1NDE3MDY2MjYxNTQ1", "serial": "Ebharati-5679", "metadata": "Parthasarathi Misra; 109pp; Lakshmana Sastri Dravid ed.; Yukti-sneha-prapurani and Mayukhamalika."}],
+      "notes": "Exact author-confirmed; earlier Roman hit was a false result."
+    },
+    {
+      "school": "Mimamsa",
+      "thinker_id": "salikanatha",
+      "work_id": "prakarana-pancika",
+      "title_iast": "Prakarana-Pancika",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "ODgxNDg1ODQzNzQzNjM5", "serial": "Ebharati-9754", "metadata": "Salikanatha Misra; 1904; 283pp; Mukunda Sastri ed."}],
+      "notes": "The other title-search result was Narayana and must not be used."
+    },
+    {
+      "school": "Mimamsa",
+      "thinker_id": "salikanatha",
+      "work_id": "rju-vimala",
+      "title_iast": "Rju-Vimala",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "MDk4MjQ4NDI2MDE1OTMy", "serial": "Ebharati-2495", "metadata": "Salikanatha Misra; Rjuvimala-pancika; public chapters route."}],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Nath-Hatha Yoga",
+      "thinker_id": "svatmarama",
+      "work_id": "hatha-yoga-pradipika",
+      "title_iast": "Hatha-Yoga-Pradipika",
+      "outcome": "multiple-direct-candidates",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "ODg3MzI3MDYxODcxOTQx", "serial": "Ebharati-1554", "metadata": "Svatmarama; 1889; 186pp; Jyotsna and Manobhilasini."},
+        {"provider": "E-Bharatisampat", "token": "ODk4NTM5MTQxODU2OTQx", "serial": "Ebharati-1559", "metadata": "Svatmarama; 1972; 310pp; Jyotsna."},
+        {"provider": "E-Bharatisampat", "token": "MDIzODcxODMxNDU3OTQx", "serial": "Ebharati-1560", "metadata": "Svatmarama; part 2; 1933; 238pp; Jyotsna."},
+        {"provider": "GRETIL", "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_svAtmArAma-haThayogapradIpikA.xml", "metadata": "Unicode TEI candidate."},
+        {"provider": "Muktabodha", "url": "https://muktabodha-digital-library.org/texts/IAST/M00243", "metadata": "Downloaded quarantine witness, CC BY-NC 4.0; collation pending."}
+      ],
+      "notes": "Existing candidate registry already records GRETIL and Muktabodha."
+    },
+    {
+      "school": "Navya-Nyaya",
+      "thinker_id": "gangesa",
+      "work_id": "tattva-cintamani",
+      "title_iast": "Tattva-Cintamani",
+      "outcome": "direct-ebharati-plus-gretil-partial",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "Mjg3NDAwNTMyMzM1MjkwMQ==", "serial": "Ebharati-11381", "metadata": "Gangesa Upadhyaya; 2016; 485pp."},
+        {"provider": "E-Bharatisampat", "token": "ODM0MzA3MDYwNDQzMDIwMQ==", "serial": "Ebharati-10629", "metadata": "Gangesa; Pratyaksakhanda; 1957; 916pp."},
+        {"provider": "E-Bharatisampat", "token": "NjMwNjUwMjQzMDQ2NTkx", "serial": "Ebharati-2038", "metadata": "Gangesa; Pratyaksakhanda vol. 1; 1897; 910pp; Rahasyatika."},
+        {"provider": "GRETIL", "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_gAGgeza-tattvacintAmaNizabdakhANDa.xml", "metadata": "Only Sabdakhanda from Sabdapramanyavada through Jatisaktivada; source unknown / Bibliotheca Indica correspondence."}
+      ],
+      "notes": "A local Sabdakhanda exists but lacks provenance; use the GRETIL record to repair its provenance rather than treating it as clean."
+    },
+    {
+      "school": "Navya-Nyaya",
+      "thinker_id": "mathuranatha-tarkavagisa",
+      "work_id": "didhiti-mathuri",
+      "title_iast": "Didhiti-Mathuri",
+      "outcome": "unconfirmed",
+      "sources": [],
+      "notes": "E-Bharati Mathuri title results are different works; no author/title-confirmed Didhiti-Mathuri found in this pass."
+    },
+    {
+      "school": "Navya-Nyaya",
+      "thinker_id": "mathuranatha-tarkavagisa",
+      "work_id": "tattvacintamani-mathuri",
+      "title_iast": "Tattva-Cintamani-Mathuri",
+      "outcome": "unconfirmed",
+      "sources": [],
+      "notes": "No direct author/title-confirmed witness in E-Bharati, SARIT, or GRETIL pass."
+    },
+    {
+      "school": "Navya-Nyaya",
+      "thinker_id": "raghunatha-siromani",
+      "work_id": "padartha-tattva-nirupana",
+      "title_iast": "Padartha-Tattva-Nirupana",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "NDU3ODkyNDM4NDYwMzgx", "serial": "Ebharati-1907", "metadata": "Raghunatha Siromani; 1916; 139pp; Padarthatattvavivecanaprakasa tika."}],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Navya-Nyaya",
+      "thinker_id": "raghunatha-siromani",
+      "work_id": "tattva-cintamani-didhiti",
+      "title_iast": "Tattva-Cintamani-Didhiti",
+      "outcome": "direct-ebharati-partial-scope",
+      "sources": [{"provider": "E-Bharatisampat", "token": "NjIyNjk5NTc2MTY1MTYx", "serial": "Ebharati-1683", "metadata": "Raghunatha Siromani; Anumana-Cintamani-Didhiti; 1872; 234pp."}],
+      "notes": "Confirmed Anumana portion; do not label full Didhiti covered."
+    },
+    {
+      "school": "Nyaya",
+      "thinker_id": "bhasarvajna",
+      "work_id": "nyaya-bhushana",
+      "title_iast": "Nyaya-Bhushana",
+      "outcome": "unconfirmed-title-collision",
+      "sources": [{"provider": "E-Bharatisampat", "token": "ODU5MDcyNTMwMTQ3NTc=", "serial": "Ebharati-789", "metadata": "Nyayabhushana; author Swami Yogindrananda; 1968; 728pp."}],
+      "notes": "This is not Bhasarvajna; must not be registered as his work."
+    },
+    {
+      "school": "Nyaya",
+      "thinker_id": "bhasarvajna",
+      "work_id": "nyaya-sara",
+      "title_iast": "Nyaya-Sara",
+      "outcome": "multiple-direct-ebharati",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "ODgzMDU0MzMwNzc5Nzcx", "serial": "Ebharati-1854", "metadata": "Bhasarvajna; 1921; 101pp."},
+        {"provider": "E-Bharatisampat", "token": "ODQzMDM5MTQ4ODQyNzgz", "serial": "Ebharati-4034", "metadata": "Bhasarvajna; Satis Chandra Vidyabhusana ed."},
+        {"provider": "E-Bharatisampat", "token": "MDkzODU1Nzk4MDk0MzQ3", "serial": "Ebharati-7745", "metadata": "Bhasarvajna; 1931; 175pp; Nyayasarapadapancika."},
+        {"provider": "E-Bharatisampat", "token": "NDMxODY5MDgzOTA5NjY=", "serial": "Ebharati-697", "metadata": "Bhasarvajna; 108pp; Vasudeva Sastri Abhyankar ed."}
+      ],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Nyaya",
+      "thinker_id": "jayanta-bhatta",
+      "work_id": "nyaya-kalika",
+      "title_iast": "Nyaya-Kalika",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "NjgwMTE1NzgxMTQwNDcx", "serial": "Ebharati-1813", "metadata": "Jayanta; 1925; 39pp; Ganganatha Jha ed."}],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Nyaya",
+      "thinker_id": "jayanta-bhatta",
+      "work_id": "nyaya-manjari",
+      "title_iast": "Nyaya-Manjari",
+      "outcome": "multiple-direct-candidates",
+      "sources": [
+        {"provider": "SARIT", "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/nyayamanjari.xml", "metadata": "CC BY-SA 4.0; Varadacharya edition; two volumes + Nyayasaura; downloaded quarantine."},
+        {"provider": "E-Bharatisampat", "token": "MDAzNjEyNDIyNjUzODExMQ==", "serial": "Ebharati-11650", "metadata": "Part 1; 1939; 500pp; Jayanta."},
+        {"provider": "E-Bharatisampat", "token": "NDY1NTQ5MDY1MTExMzMwMQ==", "serial": "Ebharati-10762", "metadata": "Part 2; 1934; 219pp; Jayanta."},
+        {"provider": "E-Bharatisampat", "token": "MjI3ODU0MDIyMjU0ODExMQ==", "serial": "Ebharati-11651", "metadata": "Part 2; 1941; 226pp; Jayanta."}
+      ],
+      "notes": "Use SARIT as typed comparison witness; e-book scan supports collation."
+    },
+    {
+      "school": "Nyaya",
+      "thinker_id": "kesava-misra",
+      "work_id": "tarka-bhasa",
+      "title_iast": "Tarka-Bhasa",
+      "outcome": "multiple-direct-ebharati",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "ODA0MDM0MzU1MzAzMzMwMQ==", "serial": "Ebharati-10764", "metadata": "Kesava Bhatta; 1953; 231pp."},
+        {"provider": "E-Bharatisampat", "token": "MDIxNzQxNTM2MjUxODgx", "serial": "Ebharati-1960", "metadata": "Kesava Misra; 1934; 349pp."},
+        {"provider": "E-Bharatisampat", "token": "MDYwNTU1NzEzNTQwNjg4", "serial": "Ebharati-9230", "metadata": "Kesava Misra; 1953; 74pp."},
+        {"provider": "E-Bharatisampat", "token": "NjcyMjY2MjQ2MDY5Nzgx", "serial": "Ebharati-1958", "metadata": "Kesava Misra; 1934; 250pp; translation."},
+        {"provider": "E-Bharatisampat", "token": "ODk2NDA5ODM2NjUwODgx", "serial": "Ebharati-1959", "metadata": "Kesava Misra; 270pp."},
+        {"provider": "E-Bharatisampat", "token": "MjQ1OTgzMTM2ODQyODgx", "serial": "Ebharati-1961", "metadata": "Kesava Misra; 1953; 228pp."}
+      ],
+      "notes": "SARIT/GRETIL Tarkabhasa is Mokshakaragupta/Jitari, not this work; never use it as a Kesava witness."
+    },
+    {
+      "school": "Nyaya",
+      "thinker_id": "udayana",
+      "work_id": "atma-tattva-viveka",
+      "title_iast": "Atma-Tattva-Viveka",
+      "outcome": "multiple-direct-ebharati",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "Mjk2ODA3NDY4NDI0NTk3", "serial": "Ebharati-8286", "metadata": "Udayana; 1873; 134pp."},
+        {"provider": "E-Bharatisampat", "token": "NjMzODAyNzU2MTQwMjYx", "serial": "Ebharati-1688", "metadata": "Udayana; 1992; 530pp."},
+        {"provider": "E-Bharatisampat", "token": "ODU3MDU0MzU2NzMxMjYx", "serial": "Ebharati-1689", "metadata": "Udayana; 1873; 217pp."},
+        {"provider": "E-Bharatisampat", "token": "MjA2NTM5NTQ2OTIzMjYx", "serial": "Ebharati-1691", "metadata": "Udayana; three tika edition; 217pp."},
+        {"provider": "E-Bharatisampat", "token": "MDY5ODYyNzg2MzcyMTYx", "serial": "Ebharati-1680", "metadata": "Udayana; tika editions; 217pp."},
+        {"provider": "E-Bharatisampat", "token": "MDgxMzk2OTQ2MzMyMjYx", "serial": "Ebharati-1690", "metadata": "Udayana; parts 1-6; 1937; 595pp."}
+      ],
+      "notes": "One title hit, Ebharati-10435, is Dayalacharya and excluded."
+    },
+    {
+      "school": "Nyaya",
+      "thinker_id": "udayana",
+      "work_id": "nyaya-varttika-tatparya-parisuddhi",
+      "title_iast": "Nyaya-Varttika-Tatparya-Parisuddhi",
+      "outcome": "direct-ebharati-and-gretil-vol1",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "ODQ2MzkyODcyODQ2MTA0", "serial": "Ebharati-4184", "metadata": "Udayana; public Unicode route."},
+        {"provider": "GRETIL", "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_udayana-nyAyavArttikatAtparyaparizuddhi-1.xml", "metadata": "Udayana, volume 1 only; legacy source bibl empty."}
+      ],
+      "notes": "The analogous E-Bharati title hit for Uddyotakara is this Udayana work and must not be reused."
+    },
+    {
+      "school": "Nyaya",
+      "thinker_id": "uddyotakara",
+      "work_id": "nyaya-varttika",
+      "title_iast": "Nyaya-Varttika",
+      "outcome": "gretil-legacy-composite-candidate",
+      "sources": [{"provider": "GRETIL legacy", "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/6_sastra/3_phil/nyaya/nystik_u.htm", "metadata": "Nyaya-sutra composite stack reported in inventory as including Vatsyayana, Uddyotakara, and Vācaspati; inspect coverage/header before intake."}],
+      "notes": "No standalone author-confirmed E-Bharati record in this pass."
+    },
+    {
+      "school": "Purva-Mimamsa",
+      "thinker_id": "kumarila",
+      "work_id": "tantra-varttika",
+      "title_iast": "Tantra-Varttika",
+      "outcome": "sarIt-direct-partial",
+      "sources": [
+        {"provider": "SARIT", "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/kumarila-tantravarttika.xml", "metadata": "CC BY-SA 4.0; Anandashrama corrected edition; scope 1.2-3.8; downloaded quarantine."},
+        {"provider": "GRETIL", "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_kumArila-tantravArttika-2,1,1-4.xml", "metadata": "Only 2.1.1-4."}
+      ],
+      "notes": "No exact E-Bharati result in current search output."
+    },
+    {
+      "school": "Purva-Mimamsa",
+      "thinker_id": "prabhakara",
+      "work_id": "brhati",
+      "title_iast": "Brhati",
+      "outcome": "multiple-direct-ebharati",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "ODQxMTM0Mzk3NDI2MTAwMQ==", "serial": "Ebharati-10434", "metadata": "Prabhakara Misra; 1929; 316pp; Sabara and Rjuvimala."},
+        {"provider": "E-Bharatisampat", "token": "Mjk5NTE5NTg3NjE4MTAwMQ==", "serial": "Ebharati-10436", "metadata": "Prabhakara Misra; 1936; 223pp; Bhasyaparisista."},
+        {"provider": "E-Bharatisampat", "token": "NDY2ODg0NTE2NzA5MzMxMQ==", "serial": "Ebharati-11812", "metadata": "Prabhakara Misra, volume 1; 1934; 432pp; Mimamsasutrabhasya and Rjuvimala-pancika."}
+      ],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Samkhya",
+      "thinker_id": "aniruddha",
+      "work_id": "sankhya-sutra-vrtti",
+      "title_iast": "Sankhya-Sutra-Vrtti",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "MjI2ODIzNTAxODg2MTAy", "serial": "Ebharati-2101", "metadata": "Aniruddhacharya; 1888; 360pp; Richard Garbe ed.; tika."}],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Vaisesika",
+      "thinker_id": "candrananda",
+      "work_id": "vaisesika-sutra-vrtti",
+      "title_iast": "Vaisesika-Sutra-Vrtti",
+      "outcome": "unconfirmed",
+      "sources": [],
+      "notes": "No exact author/title hit in E-Bharati, SARIT, or GRETIL pass."
+    },
+    {
+      "school": "Vaisesika",
+      "thinker_id": "prashastapada",
+      "work_id": "padartha-dharma-sangraha",
+      "title_iast": "Padartha-Dharma-Sangraha",
+      "outcome": "sarIt-direct",
+      "sources": [
+        {"provider": "SARIT", "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/prasastapada-padarthadharmasangraha.xml", "metadata": "CC BY-SA 3.0; Dvivedin 1895; root together with Sridhara Nyayakandali; downloaded quarantine."},
+        {"provider": "GRETIL", "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_prazastapAda-pAdArthadharmasaMgraha.xml", "metadata": "PDS; Dvivedin/Sri Garib Dass witness."}
+      ],
+      "notes": "Existing local file needs provenance/quality review."
+    },
+    {
+      "school": "Vaisesika",
+      "thinker_id": "sridhara",
+      "work_id": "nyaya-kandali",
+      "title_iast": "Nyaya-Kandali",
+      "outcome": "sarIt-composite-direct",
+      "sources": [{"provider": "SARIT", "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/prasastapada-padarthadharmasangraha.xml", "metadata": "CC BY-SA 3.0; explicitly PDS with Sridhara Nyayakandali."}],
+      "notes": "Root/commentary segmentation is a required promotion gate."
+    },
+    {
+      "school": "Vaisesika",
+      "thinker_id": "vyomasiva",
+      "work_id": "vyomavati",
+      "title_iast": "Vyomavati",
+      "outcome": "direct-ebharati-six-volume-set",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "NjAyNTQyMzg4MTYxODcxMQ==", "serial": "Ebharati-12273", "metadata": "Praśastapadabhasya part 1; 1925; 110pp; Suktisetu-Vyomavati; Vyomasivacharya tertiary commentator."},
+        {"provider": "E-Bharatisampat", "token": "ODI2Nzg0OTc4NzUyODcxMQ==", "serial": "Ebharati-12274", "metadata": "part 2; 1925; 107pp."},
+        {"provider": "E-Bharatisampat", "token": "Mjc0Mjc5MTc4OTQ0ODcxMQ==", "serial": "Ebharati-12276", "metadata": "part 3; 1927; 103pp."},
+        {"provider": "E-Bharatisampat", "token": "NjEzNzU0NDY4MTQ2ODcxMQ==", "serial": "Ebharati-12278", "metadata": "part 4; 1927; 103pp."},
+        {"provider": "E-Bharatisampat", "token": "ODM3OTk2MDY4NzM3ODcxMQ==", "serial": "Ebharati-12279", "metadata": "part 5; 1928; 97pp."},
+        {"provider": "E-Bharatisampat", "token": "MDYxMjQ5NjU4MzM4ODcxMQ==", "serial": "Ebharati-12280", "metadata": "part 6; 1929; 251pp."}
+      ],
+      "notes": "Record title is Praśastapadabhasya but each record's tertiary commentator and commentary name identify Vyomasiva/Vyomavati."
+    },
+    {
+      "school": "Vyakarana",
+      "thinker_id": "bhartrhari",
+      "work_id": "vakyapadiya",
+      "title_iast": "Vakyapadiya",
+      "outcome": "multiple-direct-candidates",
+      "sources": [
+        {"provider": "SARIT", "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/bhartrhari-vakyapadiya.xml", "metadata": "CC BY-SA 3.0; Wilhelm Rau edition; downloaded quarantine."},
+        {"provider": "E-Bharatisampat", "token": "MDMxMzA0MjI2NDA4MzA5", "serial": "Ebharati-9415", "metadata": "Bhartrhari; 1942; 305pp; Helaraja Prakirnaprakasa."},
+        {"provider": "Sanskrit Wikisource", "url": "https://sa.wikisource.org/wiki/वाक्यपदीयम्", "metadata": "All three kandas; CC BY-SA; Prakriya repair apparatus records exact page IDs and lines."}
+      ],
+      "notes": "Existing local witness remains provenance/collation review material."
+    },
+    {
+      "school": "Vyakarana",
+      "thinker_id": "bhattoji-diksita",
+      "work_id": "praudha-manorama",
+      "title_iast": "Praudha-Manorama",
+      "outcome": "multiple-direct-ebharati",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "NjQ0MTU4MzgxMjg0MDcxMQ==", "serial": "Ebharati-12193", "metadata": "Bhattoji Diksita; 1888; 554pp."},
+        {"provider": "E-Bharatisampat", "token": "MDM4MjU0NTIxNzM0Mzc=", "serial": "Ebharati-765", "metadata": "Bhattoji; 1939; 988pp; tika-traya."},
+        {"provider": "E-Bharatisampat", "token": "ODQyMjMzMTgxMjY0NjQ=", "serial": "Ebharati-484", "metadata": "Bhattoji; 1910; avyayibhavantam; Laghusabdaratna."},
+        {"provider": "E-Bharatisampat", "token": "MDc2NDc1NzcxODU1NjQ=", "serial": "Ebharati-485", "metadata": "Bhattoji; latter half; 1888; 251pp."}
+      ],
+      "notes": "The Prakriya raw witness lacks sufficient independent provenance; use E-Bharati editions instead."
+    },
+    {
+      "school": "Vyakarana",
+      "thinker_id": "bhattoji-diksita",
+      "work_id": "sabda-kaustubha",
+      "title_iast": "Sabda-Kaustubha",
+      "outcome": "multiple-direct-ebharati",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "MjU4Njc0MDA2MjIzMjQz", "serial": "Ebharati-3566", "metadata": "Bhattoji Diksita."},
+        {"provider": "E-Bharatisampat", "token": "NDEzODIwNzY2ODQxNTg=", "serial": "Ebharati-887", "metadata": "Bhattoji; 1925; 453pp."},
+        {"provider": "Sanskrit Wikisource", "url": "https://sa.wikisource.org/wiki/शब्दकौस्तुभः", "metadata": "Extant partial witness; Prakriya apparatus maps pages and marks it uncollated."}
+      ],
+      "notes": "E-Bharati also has Prabha-commentary ahnika volumes 888-891 and 893-895; select edition after completeness audit."
+    },
+    {
+      "school": "Vyakarana",
+      "thinker_id": "bhattoji-diksita",
+      "work_id": "siddhanta-kaumudi",
+      "title_iast": "Siddhanta-Kaumudi",
+      "outcome": "sarIt-direct",
+      "sources": [{"provider": "SARIT", "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/bhattojidiksita-siddhantakaumudi.xml", "metadata": "MIT licensed TEI file; source header needs edition/collation review."}],
+      "notes": "E-Bharati Devanagari query has many editions; SARIT is the immediately machine-readable candidate."
+    },
+    {
+      "school": "Vyakarana",
+      "thinker_id": "kondabhatta",
+      "work_id": "vaiyakarana-bhusana",
+      "title_iast": "Vaiyakarana-Bhusana",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "NDM0NDcwMzkzNDgyNTA3", "serial": "Ebharati-7347", "metadata": "Kondabhatta; 1915; 796pp."}],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Vyakarana",
+      "thinker_id": "kondabhatta",
+      "work_id": "vaiyakarana-bhusana-sara",
+      "title_iast": "Vaiyakarana-Bhusana-Sara",
+      "outcome": "multiple-direct-ebharati-and-wikisource",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "MjY1OTQxNzI3MjE2Mzg=", "serial": "Ebharati-871", "metadata": "Kondabhatta; 387pp; Darpana commentary."},
+        {"provider": "E-Bharatisampat", "token": "MDYxNjc2OTIxNTQ4MDk4", "serial": "Ebharati-9280", "metadata": "Kondabhatta; 1939; 506pp."},
+        {"provider": "Sanskrit Wikisource", "url": "https://sa.wikisource.org/wiki/वैयाकरणभूषणसारः", "metadata": "CC BY-SA witness; Prakriya complete unit mapping; uncollated."}
+      ],
+      "notes": "Do not conflate this abridgement with the full Bhusana."
+    },
+    {
+      "school": "Vyakarana",
+      "thinker_id": "nagesa-bhatta",
+      "work_id": "parama-laghu-manjusa",
+      "title_iast": "Parama-Laghu-Manjusa",
+      "outcome": "multiple-direct-ebharati",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "NDkyNTM2NzAyMDk3NTQ=", "serial": "Ebharati-477", "metadata": "Nagesa; 1917; 117pp."},
+        {"provider": "E-Bharatisampat", "token": "NjE0ODY0NDY0MDY0MzA3", "serial": "Ebharati-7328", "metadata": "Nagesa; 1946; 133pp."},
+        {"provider": "E-Bharatisampat", "token": "MjMyMzE1Mzg3MjcxMjg=", "serial": "Ebharati-856", "metadata": "Vayakarana-siddhanta-parama-laghu-manjusa; 1957; 317pp."}
+      ],
+      "notes": "Prakriya raw text has no sufficient independent upstream/provenance record."
+    },
+    {
+      "school": "Vyakarana",
+      "thinker_id": "nagesa-bhatta",
+      "work_id": "sphota-vada",
+      "title_iast": "Sphota-Vada",
+      "outcome": "direct-ebharati",
+      "sources": [{"provider": "E-Bharatisampat", "token": "MjExMzU5ODAyODg5OTA3", "serial": "Ebharati-7396", "metadata": "Nagesa Bhatta; 1946; 79pp."}],
+      "notes": "Exact author-confirmed."
+    },
+    {
+      "school": "Vyakarana",
+      "thinker_id": "nagesa-bhatta",
+      "work_id": "vaiyakarana-siddhanta-laghu-manjusa",
+      "title_iast": "Vaiyakarana-Siddhanta-Laghu-Manjusa",
+      "outcome": "multiple-direct-ebharati-and-wikisource",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "NDAyNjE4NTg2ODY2NDg=", "serial": "Ebharati-882", "metadata": "Nagesa; 1867; 521pp; Kunjika and Kala tika."},
+        {"provider": "E-Bharatisampat", "token": "NjU0Nzg4NjQ3MTcxNjI5", "serial": "Ebharati-9648", "metadata": "Nagesa; 710pp; Kuncikakala."},
+        {"provider": "Sanskrit Wikisource", "url": "https://sa.wikisource.org/wiki/वैयाकरणसिद्धान्तमञ्जूषा", "metadata": "CC BY-SA; Prakriya repair artifact maps 22+ units; uncollated."}
+      ],
+      "notes": "Record title omits Laghu in some editions; inspect edition identity/scope."
+    },
+    {
+      "school": "Yoga",
+      "thinker_id": "bhojaraja",
+      "work_id": "raja-martanda",
+      "title_iast": "Raja-Martanda",
+      "outcome": "multiple-direct-candidates",
+      "sources": [
+        {"provider": "E-Bharatisampat", "token": "MjUzNTI4NjMyNzkyMDk5", "serial": "Ebharati-10316", "metadata": "Bhojaraja; 1924; 166pp; Yadava Acharya ed."},
+        {"provider": "SARIT", "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/bhoja-rajamartanda.xml", "metadata": "SARIT header records a personal donated transcription and permission claim; manual assessment before reuse."}
+      ],
+      "notes": "SARIT witness is not a substitute for edition-level collation."
+    }
+  ],
+  "quality_rules": [
+    "E-Bharati catalogue metadata proves discovery, not textual cleanliness or publishability.",
+    "Every scan must be quarantined with record URL, edition metadata, hash, OCR/transcription status, and collation gate before promotion.",
+    "A title collision or shared composite must never be mapped to a thinker without explicit author/layer evidence.",
+    "Do not infer a thinker from ritual or generic school materials."
+  ]
+}

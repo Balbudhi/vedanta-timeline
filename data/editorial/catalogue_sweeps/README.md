@@ -21,3 +21,10 @@ and a `public-unicode-reader` entry still needs witness-quality review.
 Run `node scripts/check_ebharatisampat_sweep.js` to ensure the sweep still
 covers every current Sanskrit gap. When the worklist changes, create a new
 dated sweep rather than silently modifying the historical result.
+
+The seven `*-queue-acquisition-audit.json` files are disjoint work-partition
+audits. They preserve positive sources, title collisions, access restrictions,
+lost/fragmentary cases, and verified no-match outcomes. Run
+`node scripts/report_partition_coverage.js` to compare their union against the
+live Sanskrit gap queue; duplicate boundary figures are informational, while a
+missing row is a failure.

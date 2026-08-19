@@ -1,0 +1,2351 @@
+{
+  "generated_at": "2026-08-19T19:03:31.627Z",
+  "scope": "Every current missing/degraded engaged work for 25 Buddhist thinkers (Mādhyamaka, Yogācāra, Pramāṇa and other Buddhist) plus every Jaina thinker in data/thinkers.",
+  "methodology": {
+    "catalogues": [
+      "GRETIL complete git tree (public typed witness discovery)",
+      "SARIT full GitHub repository (open scholarly TEI)",
+      "DSBC complete Romanized browse catalogue (public readers)",
+      "E-Bharatisampat title/author search (catalogue/downloadable scans)",
+      "Sanskrit Wikisource API exact-title sweep",
+      "SanskritDocuments all-title index exact-title sweep"
+    ],
+    "limits": [
+      "A catalogue presence is not a clean/public-source promotion. “typed-witness-route-found” requires the normal provenance, edition, completeness, and collation gate.",
+      "JainQQ.org returned Cloudflare anti-bot interstitial to direct HTTP retrieval; it is neither a positive nor a negative result.",
+      "DSBC reader text is scrapeable/publicly viewable but no bulk export was observed; use it as a reader/verification lane, not an automatically clean download.",
+      "E-Bharatisampat entries are treated as scans/readers unless a record independently proves a corrected Unicode transcription."
+    ]
+  },
+  "summary": {
+    "works": 95,
+    "typed": 32,
+    "reader_or_scan_only": 15,
+    "no_exact_route": 48
+  },
+  "works": [
+    {
+      "group": "Buddhist",
+      "thinker_id": "aryadeva",
+      "school": "Mādhyamaka",
+      "work_id": "catuhsataka",
+      "title_iast": "Catuḥśataka",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "aryadeva/catuhsataka",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_Aryadeva-catuHzatikA.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/237",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "asanga",
+      "school": "Cross-tradition",
+      "work_id": "abhidharma-samuccaya",
+      "title_iast": "Abhidharma-Samuccaya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "asanga/abhidharma-samuccaya",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_asaGga-abhidharmasamuccaya.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/98",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=3625",
+          "note": "Book ID 3625; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "asanga",
+      "school": "Cross-tradition",
+      "work_id": "bodhisattva-bhumi",
+      "title_iast": "Bodhisattva-Bhūmi",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "asanga/bodhisattva-bhumi",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "registered unicode-transcription",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_bodhisattvabhUmi.txt",
+          "note": "downloaded-quarantine; header-checked; collation-pending"
+        },
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_bodhisattvabhUmi.txt",
+          "note": "Title-level GRETIL witness; attribution and scope must be checked before intake."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/328",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "asanga",
+      "school": "Cross-tradition",
+      "work_id": "mahayana-sangraha",
+      "title_iast": "Mahāyāna-Saṅgraha",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "asanga/mahayana-sangraha",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/867",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "asanga",
+      "school": "Cross-tradition",
+      "work_id": "yogacara-bhumi-shastra",
+      "title_iast": "Yogācāra-Bhūmi-Śāstra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "asanga/yogacara-bhumi-shastra",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/341",
+          "note": "DSBC title is Yogācārabhūmiḥ; verify it is the requested Yogācārabhūmi-Śāstra witness."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "atisha",
+      "school": "Mādhyamaka",
+      "work_id": "bodhi-patha-pradipa",
+      "title_iast": "Bodhi-Patha-Pradīpa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "atisha/bodhi-patha-pradipa",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_atiza-bodhipathapradIpa.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/260",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "atisha",
+      "school": "Mādhyamaka",
+      "work_id": "madhyamakopadesha",
+      "title_iast": "Madhyamakopadeśa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "atisha/madhyamakopadesha",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "bhaviveka",
+      "school": "Cross-tradition",
+      "work_id": "prajna-pradipa",
+      "title_iast": "Prajñā-Pradīpa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "bhaviveka/prajna-pradipa",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/246",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "bhaviveka",
+      "school": "Cross-tradition",
+      "work_id": "tarkajvala",
+      "title_iast": "Tarkajvālā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "bhaviveka/tarkajvala",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "buddhaghosa",
+      "school": "Cross-tradition",
+      "work_id": "atthasalini",
+      "title_iast": "Aṭṭhasālinī",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "buddhaghosa/atthasalini",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NjI1NzUxNDkyNzI5OTMwMQ==",
+          "note": "Book ID 10833; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDA4MTU1MTY4MTM0NTIwMQ==",
+          "note": "Book ID 10682; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "buddhaghosa",
+      "school": "Cross-tradition",
+      "work_id": "sumangala-vilasini",
+      "title_iast": "Sumaṅgala-Vilāsinī",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "buddhaghosa/sumangala-vilasini",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDQ2ODI3OTE1MzQ1ODMyMQ==",
+          "note": "Book ID 12902; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "buddhapalita",
+      "school": "Mādhyamaka",
+      "work_id": "buddhapalita-vrtti",
+      "title_iast": "Buddhapālita-Mūlamadhyamakavṛtti",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "buddhapalita/buddhapalita-vrtti",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "candrakirti",
+      "school": "Cross-tradition",
+      "work_id": "prasanna-pada",
+      "title_iast": "Prasanna-Padā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "candrakirti/prasanna-pada",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "registered unicode-transcription",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_candrakIrti-prasannapada.txt",
+          "note": "downloaded-quarantine; header-checked; collation-pending"
+        },
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_candrakIrti-prasannapada.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/247",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dharmakirti",
+      "school": "Cross-tradition",
+      "work_id": "hetu-bindu",
+      "title_iast": "Hetu-Bindu",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dharmakirti/hetu-bindu",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "registered TEI-unicode-transcription",
+          "url": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_dharmakIrti-hetubindu-edsteinkellner.xml",
+          "note": "discovered; filename-and-catalogue-checked; edition-review-pending"
+        },
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-hetubindu.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/288",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=ODI4MDQ5NDI2NTU4NTMyMQ==",
+          "note": "Book ID 12874; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dharmakirti",
+      "school": "Cross-tradition",
+      "work_id": "pramana-vinishchaya",
+      "title_iast": "Pramāṇa-Viniścaya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dharmakirti/pramana-vinishchaya",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-pramANavinizcaya-fragment.txt",
+          "note": "GRETIL explicitly labels this a fragment: not a full-work candidate."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dharmakirti",
+      "school": "Cross-tradition",
+      "work_id": "sambandha-pariksha",
+      "title_iast": "Sambandha-Parīkṣā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dharmakirti/sambandha-pariksha",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-subandhaparIkSA-1-25.txt",
+          "note": "GRETIL filename states 1–25; retain as partial until completeness is verified."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/302",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=1501",
+          "note": "Book ID 1501; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dharmakirti",
+      "school": "Cross-tradition",
+      "work_id": "vada-nyaya",
+      "title_iast": "Vāda-Nyāya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dharmakirti/vada-nyaya",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "registered unicode-transcription",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-vAdanyAya.txt",
+          "note": "downloaded-quarantine; header-checked; collation-pending"
+        },
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_dharmakIrti-vAdanyAya.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/308",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=ODQ5NTQ0Mzk1OTQwODYz",
+          "note": "Book ID 3834; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=Mjg3NDg3MDE4MDc1MjMx",
+          "note": "Book ID 1381; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDAyNzIwNzA4NjY2MjMx",
+          "note": "Book ID 1382; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dharmapala",
+      "school": "Yogācāra",
+      "work_id": "alambana-pariksa-vrtti",
+      "title_iast": "Ālambana-Parīkṣā-Vṛtti",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dharmapala/alambana-pariksa-vrtti",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/284",
+          "note": "Title match only; verify page authorship before associating it with Dharmapāla."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dharmapala",
+      "school": "Yogācāra",
+      "work_id": "dharmapala-trimsika-vrtti",
+      "title_iast": "Triṃśikā-Vṛtti (Dharmapāla)",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dharmapala/dharmapala-trimsika-vrtti",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dharmottara",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "apoha-prakarana",
+      "title_iast": "Apoha-Prakaraṇa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dharmottara/apoha-prakarana",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dharmottara",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "nyaya-bindu-tika",
+      "title_iast": "Nyāya-Bindu-Ṭīkā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dharmottara/nyaya-bindu-tika",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "SARIT",
+          "kind": "registered TEI-XML scholarly transcription",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/dharmottarapradipa.xml",
+          "note": "downloaded-quarantine; official SARIT header: Malvania edition; XML integrity checked; layer separation pending"
+        },
+        {
+          "provider": "SARIT",
+          "kind": "open scholarly TEI witness",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/dharmottarapradipa.xml",
+          "note": "Direct SARIT repository match; retain TEI header and keep quarantine until collation."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/295",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dharmottara",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "pramana-viniscaya-tika",
+      "title_iast": "Pramāṇa-Viniścaya-Ṭīkā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dharmottara/pramana-viniscaya-tika",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dignaga",
+      "school": "Cross-tradition",
+      "work_id": "alambana-pariksha",
+      "title_iast": "Ālambana-Parīkṣā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dignaga/alambana-pariksha",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/283",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=3873",
+          "note": "Book ID 3873; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "dignaga",
+      "school": "Cross-tradition",
+      "work_id": "pramana-samuccaya",
+      "title_iast": "Pramāṇa-Samuccaya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "dignaga/pramana-samuccaya",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "jnanagarbha",
+      "school": "Mādhyamaka",
+      "work_id": "satya-dvaya-vibhanga",
+      "title_iast": "Satya-Dvaya-Vibhaṅga",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "jnanagarbha/satya-dvaya-vibhanga",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "jnanasrimitra",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "jnanasrimitra-nibandhavali",
+      "title_iast": "Jñānaśrīmitra-Nibandhāvalī",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "jnanasrimitra/jnanasrimitra-nibandhavali",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "SARIT",
+          "kind": "registered TEI-XML scholarly transcription",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/jnanasrimitra-nibandhavali.xml",
+          "note": "downloaded-quarantine; official SARIT TEI header names editor/edition; XML and UTF-8 spot checks passed; collation-pending"
+        },
+        {
+          "provider": "SARIT",
+          "kind": "open scholarly TEI witness",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/jnanasrimitra-nibandhavali.xml",
+          "note": "Direct SARIT repository match; retain TEI header and keep quarantine until collation."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "kamalasila",
+      "school": "Mādhyamaka",
+      "work_id": "bhavana-krama-i",
+      "title_iast": "Bhāvanā-Krama I",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "kamalasila/bhavana-krama-i",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_kamalazIla-bhAvanAkrama.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/257",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "kamalasila",
+      "school": "Mādhyamaka",
+      "work_id": "madhyamakaloka",
+      "title_iast": "Madhyamakāloka",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "kamalasila/madhyamakaloka",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_kamalazIla-madhyamakAloka.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/241",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NjIwOTE5OTY4MzM5MTc4",
+          "note": "Book ID 9083; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "kamalasila",
+      "school": "Mādhyamaka",
+      "work_id": "tattva-sangraha-panjika",
+      "title_iast": "Tattva-Saṅgraha-Pañjikā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "kamalasila/tattva-sangraha-panjika",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "SARIT",
+          "kind": "open scholarly TEI witness",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/tattvasangrahapanjika.xml",
+          "note": "Direct scholarly TEI match found in the complete SARIT repository; absent from the current candidate registry."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "manorathanandin",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "pramanavarttika-vrtti",
+      "title_iast": "Pramāṇavārttika-vṛtti",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "manorathanandin/pramanavarttika-vrtti",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "SARIT",
+          "kind": "registered TEI-XML scholarly transcription",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/pramanavarttikavrtti.xml",
+          "note": "downloaded-quarantine; official SARIT TEI header names editor/edition; XML and UTF-8 spot checks passed; collation-pending"
+        },
+        {
+          "provider": "SARIT",
+          "kind": "open scholarly TEI witness",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/pramanavarttikavrtti.xml",
+          "note": "Direct SARIT repository match; retain TEI header and keep quarantine until collation."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "nagarjuna",
+      "school": "Cross-tradition",
+      "work_id": "catuh-stava",
+      "title_iast": "Catuḥ-Stava",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "nagarjuna/catuh-stava",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "nagarjuna",
+      "school": "Cross-tradition",
+      "work_id": "dasabhumika-vibhasa",
+      "title_iast": "Daśabhūmika-vibhāṣā",
+      "language": "chinese",
+      "status": "primary-text-not-in-corpus",
+      "key": "nagarjuna/dasabhumika-vibhasa",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "nagarjuna",
+      "school": "Cross-tradition",
+      "work_id": "dvadasadvara-sastra",
+      "title_iast": "Dvādaśadvāraśāstra",
+      "language": "chinese",
+      "status": "primary-text-not-in-corpus",
+      "key": "nagarjuna/dvadasadvara-sastra",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "nagarjuna",
+      "school": "Cross-tradition",
+      "work_id": "mahaprajnaparamitopadesa",
+      "title_iast": "Mahāprajñāpāramitopadeśa",
+      "language": "chinese",
+      "status": "primary-text-not-in-corpus",
+      "key": "nagarjuna/mahaprajnaparamitopadesa",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "nagarjuna",
+      "school": "Cross-tradition",
+      "work_id": "ratnavali",
+      "title_iast": "Ratnāvalī",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "nagarjuna/ratnavali",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "registered unicode-transcription",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_nAgArjuna-ratnAvalI.txt",
+          "note": "downloaded-quarantine; header-checked; collation-pending"
+        },
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_nAgArjuna-ratnAvalI.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/233",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDI3MjA1NTcxMTEwMjM1",
+          "note": "Book ID 5542; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=ODY1Nzg5NzYxMzAyMjM1",
+          "note": "Book ID 5544; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=MDk5OTIyNDYxOTkyMjM1",
+          "note": "Book ID 5545; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=MjE0Mjc0MDYxNTkzMjM1",
+          "note": "Book ID 5546; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDM4NDE3NjUxMTk0MjM1",
+          "note": "Book ID 5547; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NjUyNzU5MjUxNzg1MjM1",
+          "note": "Book ID 5548; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=ODc2OTkxOTQxMzg2MjM1",
+          "note": "Book ID 5549; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=ODM5MzUyNTE1MjUzNDA4",
+          "note": "Book ID 8379; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=3778",
+          "note": "Book ID 3778; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=7934",
+          "note": "Book ID 7934; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "nagarjuna",
+      "school": "Cross-tradition",
+      "work_id": "sunyata-saptati",
+      "title_iast": "Śūnyatā-Saptati",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "nagarjuna/sunyata-saptati",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "registered unicode-transcription",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_nAgArjuna-zUnyatAsaptati.txt",
+          "note": "downloaded-quarantine; header-checked; collation-pending"
+        },
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_nAgArjuna-zUnyatAsaptati.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/252",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "nagarjuna",
+      "school": "Cross-tradition",
+      "work_id": "yukti-sastika",
+      "title_iast": "Yukti-Ṣaṣṭikā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "nagarjuna/yukti-sastika",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "registered unicode-transcription",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_nAgArjuna-yuktiSaSTikakArikA.txt",
+          "note": "downloaded-quarantine; header-checked; collation-pending"
+        },
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_nAgArjuna-yuktiSaSTikakArikA.txt",
+          "note": "Existing project intake is a Sanskrit reconstruction; do not promote without comparison."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/255",
+          "note": "DSBC title is Yuktiṣaṣṭikārikā; verify completeness and edition."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "prajnakaragupta",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "pramanavarttika-alankara",
+      "title_iast": "Pramāṇavārttikālaṅkāra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "prajnakaragupta/pramanavarttika-alankara",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "SARIT",
+          "kind": "registered TEI-XML scholarly transcription",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/pramanavarttikalankarabhasya.xml",
+          "note": "downloaded-quarantine; official SARIT TEI header names editor/edition; XML and UTF-8 spot checks passed; collation-pending"
+        },
+        {
+          "provider": "SARIT",
+          "kind": "open scholarly TEI witness",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/pramanavarttikalankarabhasya.xml",
+          "note": "Direct SARIT repository match; retain TEI header and keep quarantine until collation."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "prajnakaragupta",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "sahopalambhaniyama-siddhi",
+      "title_iast": "Sahopalambhaniyama-siddhi",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "prajnakaragupta/sahopalambhaniyama-siddhi",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "ratnakarasanti",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "antarvyaptisamarthana",
+      "title_iast": "Antarvyāptisamarthana",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "ratnakarasanti/antarvyaptisamarthana",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_antarvyAptisamarthana.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/285",
+          "note": "DSBC page lists author as “-”; title is exact but attribution must be checked against edition."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "ratnakarasanti",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "madhyamakalankaropadesa",
+      "title_iast": "Madhyamakālaṃkāropadeśa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "ratnakarasanti/madhyamakalankaropadesa",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "ratnakarasanti",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "vijnaptimatratasiddhi",
+      "title_iast": "Vijñaptimātratāsiddhi",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "ratnakarasanti/vijnaptimatratasiddhi",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "ratnakirti",
+      "school": "Buddhist Pramāṇa",
+      "work_id": "ratnakirti-nibandhavali",
+      "title_iast": "Ratnakīrti-Nibandhāvalī",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "ratnakirti/ratnakirti-nibandhavali",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "registered TEI-unicode-transcription",
+          "url": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_ratnakIrti-nibandhAvalI.xml",
+          "note": "discovered; filename-and-catalogue-checked; contents-and-collation-pending"
+        },
+        {
+          "provider": "SARIT",
+          "kind": "registered TEI-XML scholarly transcription",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/ratnakirti-nibandhavali.xml",
+          "note": "downloaded-quarantine; official SARIT TEI header names editor/edition; its editorial note warns that much of this database has errors and misspellings, so it is comparison-only until locus-level collation"
+        },
+        {
+          "provider": "SARIT",
+          "kind": "open scholarly TEI witness",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/ratnakirti-nibandhavali.xml",
+          "note": "Direct SARIT repository match; retain TEI header and keep quarantine until collation."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/300",
+          "note": "DSBC page lists author as “-”; title/work identification is strong but retain attribution check."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDM5NTQ5MDgxMjcyNzEwMQ==",
+          "note": "Book ID 10597; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=3643",
+          "note": "Book ID 3643; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=3729",
+          "note": "Book ID 3729; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=3749",
+          "note": "Book ID 3749; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "sanghabhadra",
+      "school": "Cross-tradition",
+      "work_id": "abhidharma-samaya-pradipika",
+      "title_iast": "Abhidharma-Samaya-Pradīpikā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "sanghabhadra/abhidharma-samaya-pradipika",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "sanghabhadra",
+      "school": "Cross-tradition",
+      "work_id": "nyayanusara",
+      "title_iast": "Nyāyānusāra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "sanghabhadra/nyayanusara",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "santaraksita",
+      "school": "Mādhyamaka",
+      "work_id": "madhyamakalankara",
+      "title_iast": "Madhyamakālaṅkāra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "santaraksita/madhyamakalankara",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "santaraksita",
+      "school": "Mādhyamaka",
+      "work_id": "tattva-sangraha-santaraksita",
+      "title_iast": "Tattva-Saṅgraha",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "santaraksita/tattva-sangraha-santaraksita",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "SARIT",
+          "kind": "registered TEI-XML scholarly transcription",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/tattvasangrahapanjika.xml",
+          "note": "downloaded-quarantine; official SARIT TEI header names editor/edition; XML and UTF-8 spot checks passed; root/commentary segmentation review pending"
+        },
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_zAntarakSita-tattvasaMgraha.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDkwNTE4NTI4NjgxMjMx",
+          "note": "Book ID 1377; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=MjI3NzQyOTkwNDU0MDcwMQ==",
+          "note": "Book ID 11151; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDEyMTc5MzY3MzAzMjMyMQ==",
+          "note": "Book ID 12837; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "santideva",
+      "school": "Mādhyamaka",
+      "work_id": "bodhicaryavatara",
+      "title_iast": "Bodhicaryāvatāra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "santideva/bodhicaryavatara",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_zAntideva-bodhicaryAvatAra.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/258",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=ODYzNTU4NTU3NDg1MjAwMQ==",
+          "note": "Book ID 10444; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "santideva",
+      "school": "Mādhyamaka",
+      "work_id": "shiksa-samuccaya",
+      "title_iast": "Śikṣā-Samuccaya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "santideva/shiksa-samuccaya",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_zAntideva-zikSAsamuccaya.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/269",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "sthiramati",
+      "school": "Yogācāra",
+      "work_id": "madhyanta-vibhaga-tika",
+      "title_iast": "Madhyānta-Vibhāga-Bhāṣya-Ṭīkā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "sthiramati/madhyanta-vibhaga-tika",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "sthiramati",
+      "school": "Yogācāra",
+      "work_id": "trimsika-bhasya",
+      "title_iast": "Triṃśikā-Bhāṣya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "sthiramati/trimsika-bhasya",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "vasubandhu",
+      "school": "Cross-tradition",
+      "work_id": "abhidharma-kosa-bhasya",
+      "title_iast": "Abhidharma-Kośa-Bhāṣya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "vasubandhu/abhidharma-kosa-bhasya",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-abhidharmakozabhASya.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=1293",
+          "note": "Book ID 1293; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=3622",
+          "note": "Book ID 3622; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=1289",
+          "note": "Book ID 1289; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=1288",
+          "note": "Book ID 1288; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=1290",
+          "note": "Book ID 1290; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=1291",
+          "note": "Book ID 1291; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=1292",
+          "note": "Book ID 1292; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "vasubandhu",
+      "school": "Cross-tradition",
+      "work_id": "karma-siddhi-prakarana",
+      "title_iast": "Karma-Siddhi-Prakaraṇa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "vasubandhu/karma-siddhi-prakarana",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Buddhist",
+      "thinker_id": "vasubandhu",
+      "school": "Cross-tradition",
+      "work_id": "trisvabhava-nirdesa",
+      "title_iast": "Trisvabhāva-Nirdeśa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "vasubandhu/trisvabhava-nirdesa",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_vasubandhu-trisvabhAvanirdeza.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "DSBC",
+          "kind": "public browser reader (Romanized; scrapeable but no bulk export observed)",
+          "url": "https://www.dsbcproject.org/canon-text/book/338",
+          "note": "Direct catalogue title match; record edition metadata and verify attribution before use."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=3828",
+          "note": "Book ID 3828; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "abhayadeva-suri",
+      "school": "Jaina",
+      "work_id": "agamas-tika-abhayadeva",
+      "title_iast": "Āgama-Ṭīkās",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "abhayadeva-suri/agamas-tika-abhayadeva",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "abhayadeva-suri",
+      "school": "Jaina",
+      "work_id": "sanmati-tarka-tika",
+      "title_iast": "Sanmati-Tarka-Ṭīkā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "abhayadeva-suri/sanmati-tarka-tika",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "akalanka",
+      "school": "Jaina",
+      "work_id": "ashta-sahasri",
+      "title_iast": "Aṣṭa-Sahasrī",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "akalanka/ashta-sahasri",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "akalanka",
+      "school": "Jaina",
+      "work_id": "laghiyastraya",
+      "title_iast": "Laghīyastraya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "akalanka/laghiyastraya",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "akalanka",
+      "school": "Jaina",
+      "work_id": "nyaya-viniscaya",
+      "title_iast": "Nyāya-Viniścaya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "akalanka/nyaya-viniscaya",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "akalanka",
+      "school": "Jaina",
+      "work_id": "pramana-sangraha",
+      "title_iast": "Pramāṇa-Saṅgraha",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "akalanka/pramana-sangraha",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "akalanka",
+      "school": "Jaina",
+      "work_id": "siddhi-viniscaya",
+      "title_iast": "Siddhi-Viniścaya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "akalanka/siddhi-viniscaya",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "SARIT",
+          "kind": "registered TEI-XML scholarly transcription",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/siddhiviniscayatika.xml",
+          "note": "downloaded-quarantine; official SARIT TEI header names editor/edition; XML and UTF-8 spot checks passed; root/commentary segmentation review pending"
+        },
+        {
+          "provider": "SARIT",
+          "kind": "open scholarly TEI witness",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/siddhiviniscayatika.xml",
+          "note": "SARIT filename is a ṭīkā; current project candidate maps it to the base work. Verify layers before promotion."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "akalanka",
+      "school": "Jaina",
+      "work_id": "tattvartha-varttika",
+      "title_iast": "Tattvārtha-Vārttika",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "akalanka/tattvartha-varttika",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "amrtacandra",
+      "school": "Jaina",
+      "work_id": "atmakhyati",
+      "title_iast": "Ātmakhyāti",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "amrtacandra/atmakhyati",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "amrtacandra",
+      "school": "Jaina",
+      "work_id": "purusarthasiddhyupaya",
+      "title_iast": "Puruṣārthasiddhyupāya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "amrtacandra/purusarthasiddhyupaya",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "devasena-jaina",
+      "school": "Jaina",
+      "work_id": "bhavasangraha",
+      "title_iast": "Bhāvasaṃgraha",
+      "language": "prakrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "devasena-jaina/bhavasangraha",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "devasena-jaina",
+      "school": "Jaina",
+      "work_id": "darsanasara-devasena",
+      "title_iast": "Darśanasāra",
+      "language": "prakrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "devasena-jaina/darsanasara-devasena",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "haribhadra",
+      "school": "Jaina",
+      "work_id": "sad-darsana-samuccaya",
+      "title_iast": "Ṣaḍ-Darśana-Samuccaya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "haribhadra/sad-darsana-samuccaya",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_haribhadrasUri-zAstravArttAsamuccaya.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=3617",
+          "note": "Book ID 3617; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=5728",
+          "note": "Book ID 5728; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "haribhadra",
+      "school": "Jaina",
+      "work_id": "yoga-bindu",
+      "title_iast": "Yoga-Bindu",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "haribhadra/yoga-bindu",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "haribhadra",
+      "school": "Jaina",
+      "work_id": "yoga-drsti-samuccaya",
+      "title_iast": "Yoga-Dṛṣṭi-Samuccaya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "haribhadra/yoga-drsti-samuccaya",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "hemacandra",
+      "school": "Jaina",
+      "work_id": "yoga-shastra",
+      "title_iast": "Yoga-Śāstra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "hemacandra/yoga-shastra",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "kundakunda",
+      "school": "Jaina",
+      "work_id": "pancastikaya",
+      "title_iast": "Pañcāstikāya",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "kundakunda/pancastikaya",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "kundakunda",
+      "school": "Jaina",
+      "work_id": "pravacana-sara",
+      "title_iast": "Pravacana-Sāra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "kundakunda/pravacana-sara",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=6753",
+          "note": "Book ID 6753; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "kundakunda",
+      "school": "Jaina",
+      "work_id": "samaya-sara",
+      "title_iast": "Samaya-Sāra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "kundakunda/samaya-sara",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDMyMDI1ODM3OTY2OTcwMQ==",
+          "note": "Book ID 11247; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDQwNjI2NzA3NDc3MTQ0",
+          "note": "Book ID 4602; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "mallavadin",
+      "school": "Jaina",
+      "work_id": "nayacakra",
+      "title_iast": "Nayacakra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "mallavadin/nayacakra",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "SARIT",
+          "kind": "registered TEI-XML scholarly transcription",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/dvadasara_nayacakra.xml",
+          "note": "downloaded-quarantine; official SARIT TEI header names editor/edition; XML and UTF-8 spot checks passed; root/commentary segmentation review pending"
+        },
+        {
+          "provider": "SARIT",
+          "kind": "open scholarly TEI witness",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/dvadasara_nayacakra.xml",
+          "note": "Direct SARIT repository match; retain TEI header and keep quarantine until collation."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=MjY2MTg0MDY2MDE0NjMx",
+          "note": "Book ID 1421; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDgwNDI3NjU2NjA1NjMx",
+          "note": "Book ID 1422; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "mallisena",
+      "school": "Jaina",
+      "work_id": "syadvada-manjari",
+      "title_iast": "Syādvāda-Mañjarī",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "mallisena/syadvada-manjari",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=NDk0MTQ5MDQ3NDQzNzAyMQ==",
+          "note": "Book ID 12577; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "manikyanandi",
+      "school": "Jaina",
+      "work_id": "pariksamukha",
+      "title_iast": "Parīkṣāmukha",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "manikyanandi/pariksamukha",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "nemicandra",
+      "school": "Jaina",
+      "work_id": "dravyasangraha",
+      "title_iast": "Dravyasaṃgraha",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "nemicandra/dravyasangraha",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "nemicandra",
+      "school": "Jaina",
+      "work_id": "gommaasara",
+      "title_iast": "Gommaṭasāra",
+      "language": "prakrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "nemicandra/gommaasara",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=MjU4MDM0NzkyNjkyNDEwMQ==",
+          "note": "Book ID 10566; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=MDcyMjM3NTk1NzEzMzgwMQ==",
+          "note": "Book ID 11285; retrieve only after record-level edition and scan-quality inspection."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=ODE3MjY0NjE5NjgzNzQ5",
+          "note": "Book ID 9869; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "prabhacandra",
+      "school": "Jaina",
+      "work_id": "nyaya-kumuda-candra",
+      "title_iast": "Nyāya-Kumuda-Candra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "prabhacandra/nyaya-kumuda-candra",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "SARIT",
+          "kind": "registered TEI-XML scholarly transcription",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/nyayakumudacandra.xml",
+          "note": "downloaded-quarantine; official SARIT TEI header names editor/edition; XML and UTF-8 spot checks passed; collation-pending"
+        },
+        {
+          "provider": "SARIT",
+          "kind": "open scholarly TEI witness",
+          "url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/nyayakumudacandra.xml",
+          "note": "Direct SARIT repository match; retain TEI header and keep quarantine until collation."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "prabhacandra",
+      "school": "Jaina",
+      "work_id": "prameya-kamala-martanda",
+      "title_iast": "Prameya-Kamala-Mārtaṇḍa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "prabhacandra/prameya-kamala-martanda",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=Njk2OTU3NDc3MDg0NjAyMQ==",
+          "note": "Book ID 12568; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "sakatayana-yapaniya",
+      "school": "Jaina",
+      "work_id": "kevalibhuktiprakarana",
+      "title_iast": "Kevalibhuktiprakaraṇa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "sakatayana-yapaniya/kevalibhuktiprakarana",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "sakatayana-yapaniya",
+      "school": "Jaina",
+      "work_id": "strinirvanaprakarana",
+      "title_iast": "Strīnirvāṇaprakaraṇa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "sakatayana-yapaniya/strinirvanaprakarana",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "samantabhadra",
+      "school": "Jaina",
+      "work_id": "apta-mimamsa",
+      "title_iast": "Āpta-Mīmāṃsā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "samantabhadra/apta-mimamsa",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "registered unicode-transcription",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_samantabhadra-AptamImAMsA.txt",
+          "note": "downloaded-quarantine; header-checked; collation-pending"
+        },
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_samantabhadra-AptamImAMsA.txt",
+          "note": "Direct GRETIL title/author match; intake as quarantine, then verify edition, completeness, and encoding."
+        },
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=MjMzNTQ4NjE3MDc5NDMx",
+          "note": "Book ID 1406; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "samantabhadra",
+      "school": "Jaina",
+      "work_id": "svayambhu-stotra",
+      "title_iast": "Svayambhū-Stotra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "samantabhadra/svayambhu-stotra",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/search.php?type=id&ebs=1484",
+          "note": "Book ID 1484; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "siddhasena-divakara",
+      "school": "Jaina",
+      "work_id": "nyayavatara",
+      "title_iast": "Nyāyāvatāra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "siddhasena-divakara/nyayavatara",
+      "outcome": "typed-witness-route-found",
+      "findings": [
+        {
+          "provider": "GRETIL",
+          "kind": "public typed Sanskrit witness",
+          "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_siddhasenamahAmati-nyAyAvatAra-comm.txt",
+          "note": "Commentary witness; base-text/layer separation required."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "siddhasena-divakara",
+      "school": "Jaina",
+      "work_id": "sanmati-tarka",
+      "title_iast": "Sanmati-Tarka",
+      "language": "prakrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "siddhasena-divakara/sanmati-tarka",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "vadideva-suri",
+      "school": "Jaina",
+      "work_id": "pramana-naya-tattvaloka-alankara",
+      "title_iast": "Pramāṇa-Naya-Tattvāloka-Alaṅkāra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "vadideva-suri/pramana-naya-tattvaloka-alankara",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "vadideva-suri",
+      "school": "Jaina",
+      "work_id": "syadvada-ratnakara",
+      "title_iast": "Syādvāda-Ratnākara",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "vadideva-suri/syadvada-ratnakara",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "vadiraja-jaina",
+      "school": "Jaina",
+      "work_id": "nyaya-viniscaya-vivarana",
+      "title_iast": "Nyāya-Viniścaya-Vivaraṇa",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "vadiraja-jaina/nyaya-viniscaya-vivarana",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "vidyananda",
+      "school": "Jaina",
+      "work_id": "ashtasahasri-vidyananda",
+      "title_iast": "Aṣṭasahasrī",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "vidyananda/ashtasahasri-vidyananda",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "vidyananda",
+      "school": "Jaina",
+      "work_id": "tattvartha-sloka-varttika",
+      "title_iast": "Tattvārtha-Śloka-Vārttika",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "vidyananda/tattvartha-sloka-varttika",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "yashovijaya",
+      "school": "Jaina",
+      "work_id": "adhyatma-sara",
+      "title_iast": "Adhyātma-Sāra",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "yashovijaya/adhyatma-sara",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=MDk2ODcxODU3NDE5MzMx",
+          "note": "Book ID 1395; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "yashovijaya",
+      "school": "Jaina",
+      "work_id": "jaina-tarka-bhasha",
+      "title_iast": "Jaina-Tarka-Bhāṣā",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "yashovijaya/jaina-tarka-bhasha",
+      "outcome": "reader-or-scan-route-found",
+      "findings": [
+        {
+          "provider": "E-Bharatisampat",
+          "kind": "public catalogue reader / downloadable scan; not a clean e-text",
+          "url": "https://www.ebharatisampat.in/readSearch.php?id=ODQwOTkwMDY4NjI4ODQ5",
+          "note": "Book ID 9884; retrieve only after record-level edition and scan-quality inspection."
+        }
+      ],
+      "notes": [
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "yashovijaya",
+      "school": "Jaina",
+      "work_id": "nyaya-loka",
+      "title_iast": "Nyāya-Loka",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "yashovijaya/nyaya-loka",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    },
+    {
+      "group": "Jaina",
+      "thinker_id": "yashovijaya",
+      "school": "Jaina",
+      "work_id": "pramana-mimamsa-vyakhyana",
+      "title_iast": "Pramāṇa-Mīmāṃsā-Vyākhyāna",
+      "language": "sanskrit",
+      "status": "primary-text-not-in-corpus",
+      "key": "yashovijaya/pramana-mimamsa-vyakhyana",
+      "outcome": "no-exact-route-in-searched-catalogues",
+      "findings": [],
+      "notes": [
+        "No exact work-level hit in complete GRETIL path index, full SARIT repository, DSBC romanized catalogue, E-Bharatisampat title/author search, Sanskrit Wikisource title search, or SanskritDocuments all-title index. JainQQ is Cloudflare-blocked and therefore not counted as a negative result.",
+        "DSBC is Buddhist-only; not searched as a Jain source.",
+        "Sanskrit Wikisource: zero exact title hits across this audit. SanskritDocuments: only Samantabhadra’s Svayambhū-stotra exact title appears; its public page is a text page, but the target still needs provenance/edition inspection."
+      ]
+    }
+  ]
+}
