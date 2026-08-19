@@ -60,6 +60,21 @@ resulting source page only when it actually exposes Sanskrit text or reliable
 metadata. A language-specific article that merely lists titles is a lead, not
 a witness.
 
+### Verified school-site observations
+
+- **Tattvavada E-LIB** is a title-level index for a broad Madhva corpus. Its
+  Madhva page links Sanskrit, Kannada, Tamil, Telugu, and sometimes IAST text
+  for the *Brahmasūtrabhāṣya*, *Anuvyākhyāna*, *Nyāyavivaraṇa*, Gītā works,
+  Upaniṣad commentaries, *Tattvasaṅkhyāna*, *Tattvaviveka*, *Tattvoddyota*,
+  *Viṣṇutattvavinirṇaya*, *Upādhikhaṇḍana*, *Karmanirṇaya*, and related works.
+  Treat it as an excellent multilingual discovery map, not one blanket source:
+  its individual links span websites, Drive, WordPress, and scans, so each
+  candidate still needs format, provenance, and reuse review.
+- **Ramanuja.org/TattvaPedia** confirms the relation of *Vedānta-Dīpa* to
+  *Vedānta-Sāra* and *Śrībhāṣya*, but its currently linked material is a
+  partial scan-derived translation. It is bibliographic context, not a clean
+  Sanskrit witness.
+
 ## Mechanical intake rules
 
 Allowed normalization: UTF-8/NFC, LF line endings, accidental repeated blank
