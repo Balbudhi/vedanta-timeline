@@ -50,6 +50,7 @@ result per **existing thinker/work** rather than downloading a site wholesale.
 | Viśiṣṭādvaita | Ramanuja.org, Sripedia, Sanskrit Wikisource, Adyar/EFEO catalogues | Ramanuja.org is often bibliographic or translation-led; use it to identify texts, then require a clean Sanskrit witness. |
 | Tattva-vāda | Tattvavada E-LIB, Madhva.in, Anandamakaranda, Madhwapracharavedike | Tattvavada E-LIB is a valuable multilingual directory, but its Madhva page is primarily PDF/Drive-linked; its linked Bhagavadgītā IAST endpoint was empty when checked in August 2026. Use it to identify title/script witnesses, then verify the terminal source before intake. Madhwapracharavedike is often scan-first and therefore collation/discovery only. |
 | Advaita | GRETIL, Ambuda, Śṛṅgeri catalogues, Sanskrit Documents | Prefer named-edition born-digital text. Sanskrit Documents is useful discovery but has reuse restrictions. |
+| Buddhist / Jaina scholastic traditions | SARIT official TEI, GRETIL, DSBC, Jain institutional catalogues | SARIT is a high-priority GitHub route where the individual TEI header names editor/edition and carries its own CC licence. Preserve the full header; use the official TEI rather than a derived plaintext mirror for citation or collation. |
 | Pāñcarātra | Muktabodha, Sanskrit Wikisource, Adyar series catalogues | Muktabodha now supplies CC BY-NC IAST/Devanāgarī e-texts for the central *Ahirbudhnya*, *Jayākhya*, and *Lakṣmī* sources; still collate before promotion. |
 | Kashmir Śaiva / Śaiva Siddhānta / Śākta | Muktabodha, GRETIL TEI, IFP catalogue | Muktabodha is the first title-level route. Keep searchable e-texts distinct from restricted IFP transcripts and manuscript images. |
 | Nepalese Sarvāmnāya / Newar material | Muktabodha tradition filter, Nepalese manuscript catalogues | Add source-family/tradition records first. Only add thinkers after named, theory-bearing works are verified. |
@@ -134,6 +135,23 @@ node scripts/match_muktabodha_to_acquisition_queue.js /path/to/muktabodha_metada
 The queue reports every current missing or degraded work from thinker JSON.
 Candidate records are research evidence; they do not authorize publication or
 content rewrites.
+
+## GitHub source posture
+
+GitHub is a discovery surface, not a quality class. `tokushige-koyasan/
+muktabodha-corpus` is a convenient, reproducible IAST derivative of the
+official Muktabodha download, so it is a comparison mirror—not a second
+witness. `project-vyasa/muktabodha.org` is an unfinished processing pipeline
+over older Muktabodha archives and currently publishes only *Yogavāsiṣṭha*;
+it is useful for reviewing parsing methods, never as a source witness.
+
+`sanskrit/raw_etexts` is valuable for finding school-specific and eBhāratī
+leads (notably Mādhva, Śrīvaiṣṇava, and Advaita titles), but it is an
+unlicensed, explicitly non-proofread aggregation. Do not copy from it into
+the corpus. Follow its embedded upstream metadata to a source that can be
+licensed, identified, and collated. By contrast, SARIT's individual TEI
+headers supply named edition and per-file licence information, so official
+SARIT TEI may be quarantined after the normal integrity checks.
 
 ## Research matrix: August 2026
 

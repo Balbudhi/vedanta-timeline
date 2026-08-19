@@ -1,0 +1,19 @@
+{
+  "status": "downloaded-quarantine",
+  "provider": "SARIT official GitHub TEI corpus",
+  "retrieved_from": "https://github.com/sarit/SARIT-corpus",
+  "policy": "Official SARIT TEI files were fetched only for existing thinker-work gaps. Each retains its TEI header, edition statement, and per-file licence. Parsed XML and UTF-8 are necessary intake checks, not a promotion to a public/citation witness; root/commentary segmentation and sampled collation remain required.",
+  "mechanical_changes": [],
+  "witnesses": [
+    {"candidate_id":"jnanasrimitra-nibandhavali-sarit","path":"jnanasrimitra-nibandhavali-sarit.xml","sha256":"c046e5dea164aac396f6c7f3959dd4adb838a6b76684a01c48d388097e6ac986"},
+    {"candidate_id":"ratnakirti-nibandhavali-sarit","path":"ratnakirti-nibandhavali-sarit.xml","sha256":"35a7e0a01948c6289fb9b4c6a8e35c70a23d04881d3de17d1c58e5ad6d92b03b"},
+    {"candidate_id":"prajnakaragupta-pramanavarttikalankara-sarit","path":"prajnakaragupta-pramanavarttikalankara-sarit.xml","sha256":"c58c0999d66d9ee26fffc16e0c6da3d6e94c93497362ce47d27613882d2c7a1c"},
+    {"candidate_id":"manorathanandin-pramanavarttikavrtti-sarit","path":"manorathanandin-pramanavarttikavrtti-sarit.xml","sha256":"166ba729c8de79b4bb26a0528c7f20af7d5fd5bee0856f7c419852592ed81962"},
+    {"candidate_id":"santaraksita-tattvasangraha-sarit","path":"santaraksita-tattvasangraha-sarit.xml","sha256":"a6a445e31c6477379f235bff879fbb7d3ee9e4406c582f1af749f8337be5f21f"},
+    {"candidate_id":"hemacandra-pramanamimamsa-sarit","path":"hemacandra-pramanamimamsa-sarit.xml","sha256":"0f913500146c0b0bd5f84a03c980beedd714e06c395e014db52118272e30d99f"},
+    {"candidate_id":"pujyapada-sarvarthasiddhi-sarit","path":"pujyapada-sarvarthasiddhi-sarit.xml","sha256":"b2b767a893973aa92306ed9bd35566ee20368634e41db8efa5f2e1bb77250e9a"},
+    {"candidate_id":"prabhacandra-nyayakumudacandra-sarit","path":"prabhacandra-nyayakumudacandra-sarit.xml","sha256":"3c95bce2e6ff5dce58b74624586dc909c8396568007d4b8755d7e1563d2cb992"},
+    {"candidate_id":"mallavadin-nayacakra-sarit","path":"mallavadin-nayacakra-sarit.xml","sha256":"6fa9fd1285682f9cc10ab0b319ee2a8a87966cb31ee6d557ed25c1be9658dcb4"},
+    {"candidate_id":"akalanka-siddhiviniscaya-sarit","path":"akalanka-siddhiviniscaya-sarit.xml","sha256":"d673b4aa3c09ac0350a4105d2218c4c4d63b626b750e6133ad2daf3954063c44"}
+  ]
+}
