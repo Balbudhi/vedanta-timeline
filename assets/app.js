@@ -416,7 +416,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "20260818-evidence-gated-v5";
+const DATA_VERSION = "20260819-encyclopedia-prose-v6";
 
 async function loadJSON(path) {
   try {
@@ -2243,10 +2243,10 @@ function renderProfileSections(t) {
     (claim.status === "pending-acquisition" || claim.status === "private-rights-restricted") && claim.text
   );
   const sourceLimitHtml = sourceLimits.length
-    ? `<section class="profile-section profile-section--source-limit">
-        <h3 class="section-head">Source scope</h3>
+    ? `<details class="profile-source-note">
+        <summary>Evidence and source note</summary>
         <div class="profile-section-body">${sourceLimits.map((claim) => `<p class="argument-claim argument-claim--source-limit">${md(claim.text)}</p>`).join("")}</div>
-      </section>`
+      </details>`
     : "";
   return html || sourceLimitHtml ? `${html}${sourceLimitHtml}${renderFootnoteList(footnotes)}` : "";
 }
@@ -3478,7 +3478,7 @@ function openGlossary(termKey, anchorEl, opts) {
       ${cognatesBlock}
       <div class="gp-invariant"><span class="gp-label">${definitionClaims.length ? "Reader orientation" : entry.invariant_definition && entry.invariant_definition.toLowerCase().includes("no shared invariant") ? "No invariant" : "Invariant"}</span><div>${invariantHtml}</div></div>
       ${expositionHtml}
-      ${v2 && Object.values(entry.legacy_coverage || {}).some((coverage) => coverage?.status === "intentionally-omitted") ? `<div class="gp-source-scope"><span class="gp-label">Source scope</span><div>Only the reviewed sections above are public exposition. Earlier supplemental material remains in the editorial record until it has a source packet or an explicit migration decision.</div></div>` : ""}
+      ${v2 && Object.values(entry.legacy_coverage || {}).some((coverage) => coverage?.status === "intentionally-omitted") ? `<details class="gp-source-scope"><summary>Evidence and source note</summary><div>Only the reviewed sections above are public exposition. Earlier supplemental material remains in the editorial record until it has a source packet or an explicit migration decision.</div></details>` : ""}
       ${perSchool ? `<div class="gp-perschool"><span class="gp-label">By school</span>${framingBlock}${perSchool}</div>` : ""}
       ${historyBlock}
       ${translatorNote}

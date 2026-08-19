@@ -66,7 +66,7 @@
   "intro_claims": [
     {
       "id": "identity_or_context",
-      "text": "The reviewed *Mūla-Madhyamaka-Kārikā* passage is an argumentative examination of how things are said to arise, persist, and cease. It begins by refusing the four proposed models of origination—from self, from another, from both, or without cause.",
+      "text": "Nāgārjuna stands at the center of the Mādhyamaka tradition. The *Mūla-Madhyamaka-Kārikā* begins from a question that governs the rest of its argument: what could it mean for anything to arise with a nature of its own? Its opening verse tests the four familiar answers—arising from itself, from another, from both, or without cause—and finds none able to explain arising as self-established.",
       "claim_kind": "textual",
       "evidence_level": "primary",
       "citations": [
@@ -76,7 +76,7 @@
     },
     {
       "id": "text_and_problem",
-      "text": "This is not a second theory of a hidden substance. The analysis asks whether any phenomenon has *svabhāva*—a self-establishing nature that would make it independent of conditions—and presses the consequences of treating such a nature as either identical with, different from, or otherwise separable from its conditions.",
+      "text": "The target is *svabhāva*: a thing’s supposed self-establishing nature, independent of the conditions through which it is known and arises. Nāgārjuna does not replace ordinary things with a hidden substance. He asks what follows when a thing is treated as identical with, different from, or separable from its conditions, and shows why each attempt to fix an independent essence breaks down.",
       "claim_kind": "interpretive",
       "evidence_level": "primary",
       "citations": [
@@ -87,7 +87,7 @@
     },
     {
       "id": "argument_or_method",
-      "text": "The self is tested by the same method: a self cannot simply be identified with its appropriated factors, but neither can it be established independently of them. The point is to loosen reification, not to exchange one ordinary object for an ineffable metaphysical object.",
+      "text": "The same pressure is brought to bear on the self. A self cannot simply be identified with the factors taken as “mine,” but neither can it be established independently of them. This is not a substitute metaphysics of an ineffable object behind experience. It is a discipline of refusing to reify whatever is grasped as a self-standing thing.",
       "claim_kind": "interpretive",
       "evidence_level": "primary",
       "citations": [
@@ -98,7 +98,7 @@
     },
     {
       "id": "philosophical_consequence",
-      "text": "The central formulation identifies dependent arising with emptiness and the middle way; the two truths preserve the difference between ordinary practice and ultimate analysis. Nirvāṇa is consequently not introduced as a separately existing escape-object, but examined under the same refusal to reify.",
+      "text": "The famous identification of dependent arising with emptiness and the middle way gives the argument its positive orientation. The two truths preserve the difference between ordinary practice and ultimate analysis without turning either into a separate realm. Nirvāṇa, therefore, is not a hidden escape-object: it too is examined without reifying it as an independently existing thing.",
       "claim_kind": "interpretive",
       "evidence_level": "primary",
       "citations": [

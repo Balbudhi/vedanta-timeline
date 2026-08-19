@@ -25,7 +25,7 @@
   "definition_claims": [
     {
       "id": "reader_definition",
-      "text": "In the reviewed Sāṅkhya passage, *prakṛti* is the non-conscious productive causal order contrasted with *puruṣa*; it is not merely a synonym for the visible world.",
+      "text": "*Prakṛti* is the fabric of material reality in classical Sāṅkhya: the unmanifest, productive field through which bodies, senses, cognitive instruments, and the visible world unfold. It is not merely a synonym for “nature.” It names the causal side of experience, set in contrast with *puruṣa*, the witnessing consciousness that is not itself a product of material transformation.",
       "claim_kind": "textual",
       "evidence_level": "primary",
       "citations": ["cite://isvarakrsna/sankhya-karika/11-14", "cite://isvarakrsna/sankhya-karika/56"],
@@ -33,7 +33,7 @@
     },
     {
       "id": "textual_function",
-      "text": "The term marks the side of change, embodiment, and causal transformation, in contrast with *puruṣa*. Classical Sāṅkhya uses that distinction to explain experience and release without making consciousness itself a product of material change.",
+      "text": "Its texture is the three *guṇas*: *sattva*, the lucid and illuminating tendency; *rajas*, the restless and activating tendency; and *tamas*, the heavy and obscuring tendency. Their changing equilibrium accounts for the variety and movement of embodied experience. Because *puruṣa* is contrasted with this threefold field, Sāṅkhya can explain change without treating consciousness itself as an effect of matter.",
       "claim_kind": "interpretive",
       "evidence_level": "primary",
       "citations": ["cite://isvarakrsna/sankhya-karika/17-19"],
@@ -41,7 +41,7 @@
     },
     {
       "id": "school_reading_or_limit",
-      "text": "Vedāntic use cannot be presumed to retain Sāṅkhya's independent material principle. In Rāmānuja's opening account, the conscious and non-conscious order is qualified by and dependent on the inner-controlling Brahman; the shared vocabulary therefore carries a different dependence-claim.",
+      "text": "The *Sāṅkhya-Kārikā* describes this as an ordered evolution—from *prakṛti* through *mahat* toward the elements and their objects—whose activity makes experience and discrimination possible. Vedāntic authors can inherit this causal vocabulary without accepting an independent material ultimate: in Rāmānuja, conscious and non-conscious reality are dependent on the inner-controlling Brahman. The decisive question is therefore not whether material causality exists, but what it depends upon.",
       "claim_kind": "comparative",
       "evidence_level": "primary",
       "citations": ["cite://ramanuja/vedartha-samgraha/§1", "cite://ramanuja/vedartha-samgraha/§6"],

@@ -26,7 +26,7 @@
   "definition_claims": [
     {
       "id": "reader_definition",
-      "text": "The reviewed source packet does not license one universal definition of *māyā*. A reader should first ask what a particular text makes the term do, rather than importing a definition from another school.",
+      "text": "*Māyā* names the problem of how multiplicity is presented without simply settling what kind of reality that multiplicity has. It is often translated “illusion,” but that is too blunt: a text may use it for apparent plurality, a power of manifestation, or an account of ignorance. The first question is always what a particular author makes the term do.",
       "claim_kind": "textual",
       "evidence_level": "primary",
       "citations": ["cite://gaudapada/mandukya-karika/1.Āgama-prakaraṇa.16-18"],

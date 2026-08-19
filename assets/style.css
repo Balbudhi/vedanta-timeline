@@ -1815,6 +1815,23 @@ body.is-reading-mode .recite-bar {
   line-height: 1.5;
   color: var(--ink-soft);
 }
+.glossary-popover .gp-source-scope summary,
+.profile-source-note summary {
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.glossary-popover .gp-source-scope > div { margin-top: 7px; }
+.profile-source-note {
+  margin: 24px 0 32px;
+  padding: 10px 12px;
+  border-left: 2px solid var(--rule-dark);
+  background: var(--bg-warm);
+}
+.profile-source-note[open] .profile-section-body { margin-top: 8px; }
 .glossary-popover .gp-translator .gp-label { color: #2a5d8f; }
 /* diachronic "Across the texts" */
 .glossary-popover .gp-history { margin-top: 14px; }

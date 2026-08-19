@@ -50,7 +50,7 @@
   "intro_claims": [
     {
       "id": "identity_or_context",
-      "text": "The reviewed textual basis for this entry is a selected dossier from the *Māṇḍūkya-Kārikā*. Its opening passages develop the Māṇḍūkya inquiry into waking, dream, deep sleep, and the fourth (*turīya*); the work’s traditional and historical attribution are kept separately as source-status questions.",
+      "text": "Gauḍapāda is remembered in the Advaita tradition as the teacher before Govindapāda and Śaṅkara. The *Māṇḍūkya-Kārikā* develops the Upaniṣad’s fourfold account of waking, dream, deep sleep, and *turīya* into a sustained philosophical inquiry: it asks not merely which state is most fundamental, but what it would mean for experience and individuality to arise at all.",
       "claim_kind": "textual",
       "evidence_level": "primary",
       "citations": [
@@ -60,7 +60,7 @@
     },
     {
       "id": "text_and_problem",
-      "text": "The decisive distinction is not simply between ordinary consciousness and sleep: *prājña* still carries the seed-condition of sleep, whereas *turīya* is presented as unborn, sleepless, dreamless, and non-dual.",
+      "text": "The decisive distinction is not simply between ordinary consciousness and sleep. Deep sleep is still a condition with a seed of unawareness; *turīya* is presented as unborn, sleepless, dreamless, and non-dual. The point is to distinguish awakening from blankness: non-duality is not another altered state, but the recognition of what the changing states cannot contain.",
       "claim_kind": "interpretive",
       "evidence_level": "primary",
       "citations": [
@@ -70,7 +70,7 @@
     },
     {
       "id": "argument_or_method",
-      "text": "His *vaitathya* argument tests waking experience against dream: the two are said to share a parity of differentiations, and what is absent at the beginning and end is not thereby secured as real in the middle.",
+      "text": "The *Vaitathya-prakaraṇa* then turns dream into a philosophical test of waking experience. Waking objects cannot claim ultimate reality simply because they are shared and stable for longer: both waking and dream present articulated differences, and what is absent before and after an experience cannot be secured as fully real merely by appearing in its middle.",
       "claim_kind": "interpretive",
       "evidence_level": "primary",
       "citations": [
@@ -80,7 +80,7 @@
     },
     {
       "id": "philosophical_consequence",
-      "text": "The resulting doctrine of non-origination (*ajāti*) is not a claim that an entity once born later disappears: the text argues that an unborn and deathless reality could not become differentiated or mortal without ceasing to be what it is. Its pot-space comparison consequently denies that individual selves are parts or modifications of the Self.",
+      "text": "This yields *ajāti*, non-origination. Gauḍapāda does not mean that a genuinely produced thing first exists and then vanishes; he asks whether what is unborn and deathless could coherently become a divided, mortal thing at all. The pot-space image makes the consequence concrete: individual selves are distinguishable in experience without being fragments or modifications of the Self.",
       "claim_kind": "interpretive",
       "evidence_level": "primary",
       "citations": [
