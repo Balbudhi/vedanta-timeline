@@ -40,6 +40,26 @@ not been registered yet.
 | 6 | Sanskrit Documents | Short clean Unicode texts | Personal-study terms are not blanket permission to mirror. |
 | 7 | Archive/DLI/Hathi | Print collation only | Never use scan or automatic OCR as the public witness. |
 
+### Thinker-first school routes
+
+Use these after the general GRETIL/Muktabodha/SARIT search, and record the
+result per **existing thinker/work** rather than downloading a site wholesale.
+
+| Timeline family | Search routes | Intake posture |
+|---|---|---|
+| Viśiṣṭādvaita | Ramanuja.org, Sripedia, Sanskrit Wikisource, Adyar/EFEO catalogues | Ramanuja.org is often bibliographic or translation-led; use it to identify texts, then require a clean Sanskrit witness. |
+| Tattva-vāda | Tattvavada E-LIB, Madhva.in, Anandamakaranda, Madhwapracharavedike | Tattvavada E-LIB exposes multi-script Sanskrit/Kannada/Tamil/Telugu links; record exact language/script and edition. Madhwapracharavedike is often scan-first and therefore collation/discovery only. |
+| Advaita | GRETIL, Ambuda, Śṛṅgeri catalogues, Sanskrit Documents | Prefer named-edition born-digital text. Sanskrit Documents is useful discovery but has reuse restrictions. |
+| Pāñcarātra | Muktabodha, Sanskrit Wikisource, Adyar series catalogues | Muktabodha now supplies CC BY-NC IAST/Devanāgarī e-texts for the central *Ahirbudhnya*, *Jayākhya*, and *Lakṣmī* sources; still collate before promotion. |
+| Kashmir Śaiva / Śaiva Siddhānta / Śākta | Muktabodha, GRETIL TEI, IFP catalogue | Muktabodha is the first title-level route. Keep searchable e-texts distinct from restricted IFP transcripts and manuscript images. |
+| Nepalese Sarvāmnāya / Newar material | Muktabodha tradition filter, Nepalese manuscript catalogues | Add source-family/tradition records first. Only add thinkers after named, theory-bearing works are verified. |
+
+Use multilingual queries as discovery, not proof. Search title and author in
+Devanāgarī, Tamil, Telugu, Kannada, and local Romanizations; retain the
+resulting source page only when it actually exposes Sanskrit text or reliable
+metadata. A language-specific article that merely lists titles is a lead, not
+a witness.
+
 ## Mechanical intake rules
 
 Allowed normalization: UTF-8/NFC, LF line endings, accidental repeated blank
