@@ -46,6 +46,7 @@ if command -v node >/dev/null 2>&1; then
     run_check "Intake witness integrity" node scripts/check_intake_witnesses.js
     run_check "TEI intake metadata" node scripts/check_tei_intake_metadata.js
     run_check "E-Bharatisampat Unicode intake" node scripts/check_ebharati_unicode_intake.js
+    run_check "Scan intake integrity" node scripts/check_scan_intake.js
     run_check "Work witness-link report" node scripts/report_work_witness_links.js
     run_check "School source-coverage report" node scripts/report_school_source_coverage.js
     run_check "E-Bharatisampat sweep coverage" node scripts/check_ebharatisampat_sweep.js
