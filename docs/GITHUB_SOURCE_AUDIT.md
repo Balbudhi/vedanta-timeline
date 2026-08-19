@@ -46,6 +46,16 @@ or a file is fetched:
 - Modern Dvaita records named in scraped catalogues are title-discovery
   material, not grounds for new thinker entries.
 
+## Direct eBhāratī check
+
+The eBhāratī record behind the `raw_etexts` Appayya lead identifies a 1908
+edition, editor, and serial number, so it is useful bibliographic evidence.
+Its Download PDF/Word/Text controls, however, redirect to sign-in and the
+site states that its material is all rights reserved. Do not use a GitHub copy
+as a workaround or register it as a reusable text witness. Treat eBhāratī as
+a metadata/permission lead until the rightsholder grants a suitable access or
+reuse route.
+
 No source route changes roster membership. A potential new thinker requires a
 separate author/date/attribution review and a theory-bearing work, per the
 roster policy.
