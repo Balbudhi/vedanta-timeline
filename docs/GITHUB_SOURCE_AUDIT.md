@@ -50,11 +50,16 @@ or a file is fetched:
 
 The eBhāratī record behind the `raw_etexts` Appayya lead identifies a 1908
 edition, editor, and serial number, so it is useful bibliographic evidence.
-Its Download PDF/Word/Text controls, however, redirect to sign-in and the
-site states that its material is all rights reserved. Do not use a GitHub copy
-as a workaround or register it as a reusable text witness. Treat eBhāratī as
-a metadata/permission lead until the rightsholder grants a suitable access or
-reuse route.
+Its About page also says that it aims to hold public-domain or freely licensed
+texts that have been verified. It is therefore a high-value direct discovery
+and access route, not merely a scan catalogue.
+
+Its Download PDF/Word/Text controls nevertheless redirect to sign-in, while
+the global footer says that the site is all rights reserved. Treat an account
+as access to inspect/download a particular work—not blanket permission to
+republish it. After an authorised user signs in, capture each work's own
+licence/attribution terms and source record before intake; do not use a GitHub
+copy as a workaround.
 
 No source route changes roster membership. A potential new thinker requires a
 separate author/date/attribution review and a theory-bearing work, per the
