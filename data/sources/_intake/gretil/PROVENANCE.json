@@ -1,0 +1,21 @@
+{
+  "status": "downloaded-quarantine",
+  "retrieved_at": "2026-08-19",
+  "policy": "These are clean-digital Sanskrit candidates retained for header inspection and sample collation. They are not public manifest witnesses or citation-safe sources.",
+  "mechanical_changes": [],
+  "witnesses": [
+    {"candidate_id":"nagarjuna-ratnavali-gretil","path":"buddhist/nagarjuna_ratnavali_gretil.txt","sha256":"103fdc3e21687844bbbc07a42f27051fe96b70dc737b666910c512a21e9687af"},
+    {"candidate_id":"nagarjuna-sunyatasaptati-gretil","path":"buddhist/nagarjuna_sunyatasaptati_gretil.txt","sha256":"e3fa97aca59296dc3d0d7938362b65c92d1de471798dc373ff7e24ca060cb574"},
+    {"candidate_id":"nagarjuna-yuktisastika-gretil","path":"buddhist/nagarjuna_yuktisastika_gretil.txt","sha256":"861dcfc0ef689d263c1ff94577ca60c586e5732eff79d36bc05161f7c6200b7d"},
+    {"candidate_id":"candrakirti-prasannapada-gretil","path":"buddhist/candrakirti_prasannapada_gretil.txt","sha256":"5d15c1fd7f3dba8825fbaa6360278280569a2ea41ffabbd33b17b443880eaa7c"},
+    {"candidate_id":"asanga-bodhisattvabhumi-gretil","path":"buddhist/asanga_bodhisattvabhumi_gretil.txt","sha256":"232721957c75401ce630d8d36bd46b6812f95ceb216b431f1c2c86a6b66b2f39"},
+    {"candidate_id":"dharmakirti-vadanyaya-gretil","path":"buddhist/dharmakirti_vadanyaya_gretil.txt","sha256":"4d82db596b029cfd8184d0db5ebf93b241949ef621c4e573ad8ffc3547ee70a8"},
+    {"candidate_id":"haribhadra-sastravarttasamuccaya-gretil","path":"jaina/haribhadra_sastravarttasamuccaya_gretil.txt","sha256":"6b829cd7cabf8f339e6251c632d234300f6a877e7a8b6039e9f58ea823f628bf"},
+    {"candidate_id":"samantabhadra-aptamimamsa-gretil","path":"jaina/samantabhadra_aptamimamsa_gretil.txt","sha256":"b27a9a71a7d7f5ff10b53acaae6de64aeeb5745ff53cf067a5a51453ac04bb75"},
+    {"candidate_id":"rupa-laghubhagavatamrta-gretil","path":"vaisnava/rupa_laghubhagavatamrta_gretil.txt","sha256":"13072c5b8a1607b81e10abc7948c713a90fc4dea68a6bac9f22a38606bc2a78b"},
+    {"candidate_id":"rupa-ujjvalanilamani-gretil","path":"vaisnava/rupa_ujjvalanilamani_gretil.txt","sha256":"3d8880cf119ca75c5d64873edac2777edfaea20ddf95b83c99b85758e5ff653f"},
+    {"candidate_id":"kaundinya-pancarthabhasya-gretil","path":"pasupata/kaundinya_pancartha_bhasya_gretil.xml","sha256":"1c3d3df5bd3a2b70842c0d721b08fc94c780ec6598ab88c4cce24fc1973df672"},
+    {"candidate_id":"pasupata-sutra-gretil","path":"pasupata/pasupata_sutra_gretil.xml","sha256":"9c860154b7dc6bd1ddbb47f38058ff86fbed224d43a6376fdbefb179b8fa8b23"},
+    {"candidate_id":"satvata-tantra-gretil","path":"pancaratra/satvata_tantra_gretil.xml","sha256":"229b219027cd2a267b88abb2207bbc175b6e370bdc9a885577af4c07ce3dd435"}
+  ]
+}
