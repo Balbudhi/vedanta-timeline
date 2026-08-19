@@ -120,6 +120,7 @@ node scripts/discover_gretil_candidates.js /path/to/gretil-path-index.txt --json
 node scripts/discover_muktabodha_candidates.js /path/to/muktabodha-path-index.txt --json
 node scripts/discover_muktabodha_catalog.js /path/to/muktabodha-catalog.csv --json
 node scripts/report_muktabodha_timeline_candidates.js /path/to/muktabodha_metadata.json --json
+node scripts/match_muktabodha_to_acquisition_queue.js /path/to/muktabodha_metadata.json --json
 ```
 
 The queue reports every current missing or degraded work from thinker JSON.
