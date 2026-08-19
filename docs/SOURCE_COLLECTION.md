@@ -1,5 +1,18 @@
 # Source collection — what we have, what to get
 
+> **Historical snapshot — not a current worklist.** The counts and source
+> feasibility claims below are from June 2026 and are no longer authoritative.
+> Use the current thinker-derived queue, explicit witness-link report, and
+> source-candidate registry instead:
+>
+> ```sh
+> node scripts/report_acquisition_queue.js --language sanskrit --json
+> node scripts/report_work_witness_links.js --json
+> node scripts/check_source_candidates.js
+> ```
+>
+> See `docs/CLEAN_SANSKRIT_ACQUISITION.md` for the intake and promotion rules.
+
 Generated 2026-06-15. 250 thinkers; 602 engaged-works (visible entries).
 
 **Quality rule:** only cleanly-digitized Sanskrit (e.g. GRETIL) is trusted/cited. Deeply-corrupt or wrong-language OCR is NOT kept in this public corpus; such works are marked `primary-text-not-in-corpus` and listed below as needing clean digitization.

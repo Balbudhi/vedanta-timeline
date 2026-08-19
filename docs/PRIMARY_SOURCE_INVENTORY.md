@@ -1,5 +1,19 @@
 # Primary-Source Inventory — vedanta-timeline
 
+> **Historical snapshot — not a current worklist.** This June 2026 audit has
+> stale counts and speculative availability notes. Do not use it to decide
+> whether a work is present or to acquire a text. The authoritative current
+> view is generated from thinker records and the candidate registry:
+>
+> ```sh
+> node scripts/report_acquisition_queue.js --language sanskrit --json
+> node scripts/report_work_witness_links.js --json
+> node scripts/check_source_candidates.js
+> ```
+>
+> Candidate status, rights, coverage, and quarantine provenance are governed by
+> `docs/CLEAN_SANSKRIT_ACQUISITION.md`.
+
 Generated 2026-06-15. Read-only audit of `engaged_works` across `data/thinkers/*.json`, cross-referenced against the on-disk corpus under `data/sources/`. No thinker JSON was modified.
 
 ## 1. Summary counts
