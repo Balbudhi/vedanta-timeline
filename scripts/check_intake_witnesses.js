@@ -18,12 +18,23 @@ function findProvenance(dir, out = []) {
 }
 const provenanceFiles = findProvenance(INTAKE_ROOT);
 let checked = 0;
+const pairedWitnesses = new Map();
 for (const provenancePath of provenanceFiles) {
   const provenance = JSON.parse(fs.readFileSync(provenancePath, "utf8"));
   const witnessRoot = path.dirname(provenancePath);
   for (const witness of provenance.witnesses || []) {
     checked += 1;
   const label = witness.candidate_id || witness.path;
+  if (provenance.paired_download) {
+    if (!provenance.script || !witness.catalog_no) {
+      errors += 1;
+      console.error(`${label}: paired intake requires a script and catalogue number`);
+    } else {
+      const key = `${provenance.paired_download}:${witness.catalog_no}`;
+      if (!pairedWitnesses.has(key)) pairedWitnesses.set(key, []);
+      pairedWitnesses.get(key).push({ label, script: provenance.script });
+    }
+  }
   const target = path.resolve(witnessRoot, witness.path || "");
   if (!target.startsWith(witnessRoot + path.sep) || !fs.existsSync(target)) {
     errors += 1; console.error(`${label}: intake path missing or escapes intake root`); continue;
@@ -47,6 +58,16 @@ for (const provenancePath of provenanceFiles) {
   }
   if (!/[\u0900-\u097Fāīūṛṝḷṅñṭḍṇśṣṃḥ]/u.test(text)) { errors += 1; console.error(`${label}: no Sanskrit-script or IAST signal`); }
   if (target.endsWith(".xml") && !/^\s*<\?xml[\s\S]*<TEI\b/m.test(text)) { errors += 1; console.error(`${label}: expected TEI XML root`); }
+  }
+}
+for (const [key, witnesses] of pairedWitnesses) {
+  const scripts = witnesses.map((witness) => witness.script);
+  const validPair = witnesses.length === 2
+    && scripts.filter((script) => script === "iast").length === 1
+    && scripts.filter((script) => script === "devanagari").length === 1;
+  if (!validPair) {
+    errors += 1;
+    console.error(`${key}: expected exactly one IAST and one Devanāgarī witness; found ${witnesses.map((witness) => `${witness.script}:${witness.label}`).join(", ")}`);
   }
 }
 console.log(`Intake witnesses: ${checked} checked across ${provenanceFiles.length} provenance record(s); ${errors} error(s).`);

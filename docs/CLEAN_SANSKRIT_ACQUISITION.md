@@ -102,12 +102,18 @@ not data to normalize by guesswork. A repair requires identifying the original
 encoding or comparing the paired script and a named edition, then recording
 every changed locus.
 
+The intake checker treats each selected catalogue number as a paired unit: it
+requires exactly one IAST and one Devanāgarī raw witness, checks both hashes,
+and rejects missing or duplicate pairs. This gives later review a reproducible
+comparison base without pretending that either download is error-free.
+
 ## Commands
 
 ```sh
 node scripts/report_acquisition_queue.js --language sanskrit --status missing
 node scripts/report_acquisition_queue.js --language sanskrit --status degraded
 node scripts/check_source_candidates.js
+node scripts/check_intake_witnesses.js
 node scripts/fetch_source_candidate.js <candidate-id>
 node scripts/check_source_inventory.js
 node scripts/discover_gretil_candidates.js /path/to/gretil-path-index.txt --json

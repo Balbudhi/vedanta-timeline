@@ -3,6 +3,8 @@
   "provider": "Muktabodha Digital Library cumulative IAST download",
   "source_archive": "/Users/eeshan/Downloads/muktalib_IAST_download_2026-07-22.zip",
   "archive_snapshot_date": "2026-07-22",
+  "paired_download": "muktabodha-2026-07-22-selected",
+  "script": "iast",
   "retrieved_from_user_download": "2026-08-19",
   "metadata_snapshot": "/Users/eeshan/Downloads/muktabodha_metadata.json",
   "license": "CC BY-NC 4.0; attribute Muktabodha",

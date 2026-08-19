@@ -2,6 +2,8 @@
   "status": "downloaded-quarantine",
   "provider": "Muktabodha Digital Library cumulative Devanāgarī download",
   "archive_snapshot_date": "2026-07-22",
+  "paired_download": "muktabodha-2026-07-22-selected",
+  "script": "devanagari",
   "retrieved_from_user_download": "2026-08-19",
   "license": "CC BY-NC 4.0; attribute Muktabodha",
   "relationship": "Paired raw-script snapshot for the sibling IAST witness with the same Muktabodha catalogue number. Neither script is automatically normalized or treated as authoritative over the other.",
