@@ -13,5 +13,12 @@
     {"candidate_id":"prabhacandra-nyayakumudacandra-sarit","path":"prabhacandra-nyayakumudacandra-sarit.xml","sha256":"3c95bce2e6ff5dce58b74624586dc909c8396568007d4b8755d7e1563d2cb992"},
     {"candidate_id":"mallavadin-nayacakra-sarit","path":"mallavadin-nayacakra-sarit.xml","sha256":"6fa9fd1285682f9cc10ab0b319ee2a8a87966cb31ee6d557ed25c1be9658dcb4"},
     {"candidate_id":"akalanka-siddhiviniscaya-sarit","path":"akalanka-siddhiviniscaya-sarit.xml","sha256":"d673b4aa3c09ac0350a4105d2218c4c4d63b626b750e6133ad2daf3954063c44"}
+    ,{"candidate_id":"bhartrhari-vakyapadiya-sarit","path":"bhartrhari-vakyapadiya-sarit.xml","sha256":"6fc99eb15247dda1be03c87f594f1548457195b35e062bb9472504dfbfa67a93"}
+    ,{"candidate_id":"kumarila-tantravarttika-sarit","path":"kumarila-tantravarttika-sarit.xml","sha256":"f01645a81b66427244323b5c7e6727b259a3c25b2df575cee041a74342c45875"}
+    ,{"candidate_id":"jayanta-nyayamanjari-sarit","path":"jayanta-nyayamanjari-sarit.xml","sha256":"8de5ffbdbbf65ffefec28500f30598576bc33e89b7cbd13d042b90745463bcfb"}
+    ,{"candidate_id":"vacaspati-nyayavarttikatatparyatika-sarit","path":"vacaspati-nyayavarttikatatparyatika-sarit.xml","sha256":"fc530267f203e6119c2b7e1971af8086f176c5993bdf57d946c1663ac3c121f8"}
+    ,{"candidate_id":"prashastapada-padarthadharmasangraha-sarit","path":"prashastapada-padarthadharmasangraha-sarit.xml","sha256":"bc93f626f56965872dcb33f53294329505b08c10a344e16a5cddba4ddcaebf31"}
+    ,{"candidate_id":"vidyaranya-sarvadarsanasangraha-sarit","path":"vidyaranya-sarvadarsanasangraha-sarit.xml","sha256":"409af386c50dd98673154a8c85d5b07622e739085a4856847db77cb16a0cbe97"}
+    ,{"candidate_id":"dharmottara-nyayabindutika-sarit","path":"dharmottara-nyayabindutika-sarit.xml","sha256":"62d678a5f1dc286b184b9d2b9dfe14f1a531c5e6ea0d210c721d1041a2e79db1"}
   ]
 }

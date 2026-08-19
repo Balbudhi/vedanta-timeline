@@ -66,7 +66,7 @@ for (const provenancePath of provenanceFiles) {
     else { errors += 1; console.error(`${label}: undocumented replacement character in witness`); }
   }
   if (!/[\u0900-\u097Fāīūṛṝḷṅñṭḍṇśṣṃḥ]/u.test(text)) { errors += 1; console.error(`${label}: no Sanskrit-script or IAST signal`); }
-  if (target.endsWith(".xml") && !/^\s*<\?xml[\s\S]*<TEI\b/m.test(text)) { errors += 1; console.error(`${label}: expected TEI XML root`); }
+  if (target.endsWith(".xml") && !/^\s*(?:<\?xml[^>]*>\s*)?<TEI\b/m.test(text)) { errors += 1; console.error(`${label}: expected TEI XML root`); }
   }
 }
 function intakeFiles(dir, out = []) {

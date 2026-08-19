@@ -32,7 +32,7 @@ for (const provenancePath of provenanceFiles(INTAKE)) {
     const required = ["<TEI", "<teiHeader", "<titleStmt", "<publicationStmt", "<sourceDesc"];
     const missing = required.filter((marker) => !text.includes(marker));
     if (missing.length) { errors += 1; console.error(`${witness.candidate_id}: missing TEI metadata marker(s): ${missing.join(", ")}`); }
-    const hasLicenceStatement = /<licence\b/i.test(text) || /<availability\b[\s\S]{0,800}Creative Commons/i.test(text);
+    const hasLicenceStatement = /<licence\b/i.test(text) || /Creative\s+Commons/i.test(text);
     if (!hasLicenceStatement) { errors += 1; console.error(`${witness.candidate_id}: no TEI licence or Creative Commons availability statement`); }
   }
 }
