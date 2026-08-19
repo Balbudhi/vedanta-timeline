@@ -92,6 +92,24 @@
         "samkhya"
       ],
       "notes": "The ledger record is limited to the local witness and cited passages; it does not settle disputed chronology or commentarial attribution."
+    },
+    {
+      "id": "pujyapada-sarvarthasiddhi-sarit",
+      "title_iast": "Sarvārthasiddhi",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/jaina/pujyapada_sarvarthasiddhi_sarit.xml",
+      "witness": "Phūlcandra Śāstrī, ed., 5th ed. (1991), encoded in SARIT TEI by Jayandra Soni and proofread with Himal Trikha; the TEI header records CC BY-SA 4.0.",
+      "rights_status": "CC-BY-SA-4.0-attribution-and-sharealike-required",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://pujyapada/sarvarthasiddhi/"
+      ],
+      "review_areas": [
+        "pujyapada",
+        "jaina",
+        "tattvarthasutra"
+      ],
+      "notes": "The TEI header says apparent errors were silently corrected during encoding. Use it for source review and add public citations only after individual loci are collated against the named edition."
     }
   ]
 }
