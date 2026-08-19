@@ -44,6 +44,7 @@ if command -v node >/dev/null 2>&1; then
     run_check "Source inventory integrity" node scripts/check_source_inventory.js
     run_check "Source candidate integrity" node scripts/check_source_candidates.js
     run_check "Intake witness integrity" node scripts/check_intake_witnesses.js
+    run_check "TEI intake metadata" node scripts/check_tei_intake_metadata.js
     run_check "Work witness-link report" node scripts/report_work_witness_links.js
     run_check "Editorial contract integrity" node scripts/check_editorial_contracts.js
     run_check "Editorial readiness report" node scripts/report_editorial_readiness.js

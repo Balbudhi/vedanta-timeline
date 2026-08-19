@@ -121,6 +121,7 @@ node scripts/report_acquisition_queue.js --language sanskrit --status missing
 node scripts/report_acquisition_queue.js --language sanskrit --status degraded
 node scripts/check_source_candidates.js
 node scripts/check_intake_witnesses.js
+node scripts/check_tei_intake_metadata.js
 node scripts/report_work_witness_links.js --json
 node scripts/fetch_source_candidate.js <candidate-id>
 node scripts/check_source_inventory.js
