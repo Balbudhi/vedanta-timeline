@@ -241,6 +241,51 @@
       "rights_status": "CC-BY-SA-revision-attribution-required",
       "acquisition_status": "discovered",
       "review_status": "title-and-branch-checked; oldid-and-collation-pending"
+    },
+    {
+      "id": "ramanuja-gadya-trayam-sharanagati-wikisource",
+      "thinker_id": "ramanuja",
+      "work_id": "gadya-trayam",
+      "title_iast": "Śaraṇāgatigadya (member of Gadya-trayam)",
+      "language": "sanskrit",
+      "provider": "Sanskrit Wikisource",
+      "candidate_url": "https://sa.wikisource.org/wiki/शरणागतिगद्यम्",
+      "access_kind": "revisioned-unicode-transcription",
+      "coverage": "one member of the Gadya-trayam; not a complete three-text witness",
+      "quality_tier": "needs-manual-assessment",
+      "rights_status": "CC-BY-SA-revision-attribution-required",
+      "acquisition_status": "discovered",
+      "review_status": "title-checked; oldid-and-edition-sampling-pending"
+    },
+    {
+      "id": "svatmarama-hathayogapradipika-gretil",
+      "thinker_id": "svatmarama",
+      "work_id": "hatha-yoga-pradipika",
+      "title_iast": "Haṭhayogapradīpikā",
+      "language": "sanskrit",
+      "provider": "GRETIL",
+      "candidate_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_svAtmArAma-haThayogapradIpikA.xml",
+      "access_kind": "TEI-unicode-transcription",
+      "coverage": "work witness; source header and sample collation required",
+      "quality_tier": "candidate-clean",
+      "rights_status": "source-specific-review-required",
+      "acquisition_status": "discovered",
+      "review_status": "catalogue-checked; header-and-collation-pending"
+    },
+    {
+      "id": "utpaladeva-ajada-pramatrsiddhi-gretil",
+      "thinker_id": "utpaladeva",
+      "work_id": "ajada-pramatr-siddhi",
+      "title_iast": "Ajaḍapramātṛsiddhi",
+      "language": "sanskrit",
+      "provider": "GRETIL",
+      "candidate_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_utpaladeva-ajaDapramAtRsiddhi.xml",
+      "access_kind": "TEI-unicode-transcription",
+      "coverage": "work witness; source header and sample collation required",
+      "quality_tier": "candidate-clean",
+      "rights_status": "source-specific-review-required",
+      "acquisition_status": "discovered",
+      "review_status": "catalogue-checked; header-and-collation-pending"
     }
   ]
 }
