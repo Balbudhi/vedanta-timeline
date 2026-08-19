@@ -10,6 +10,19 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const ACTIONABLE = new Set(["primary-text-not-in-corpus", "degraded-on-disk"]);
 const candidates = JSON.parse(fs.readFileSync(path.join(ROOT, "data/editorial/source_candidates.json"), "utf8")).candidates || [];
+const SOURCE_ROOT = path.join(ROOT, "data/sources");
+
+function walk(dir, out = []) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name === "_intake") continue;
+    const absolute = path.join(dir, entry.name);
+    if (entry.isDirectory()) walk(absolute, out);
+    else if (entry.isFile()) out.push(path.relative(SOURCE_ROOT, absolute));
+  }
+  return out;
+}
+function comparable(value) { return String(value || "").toLowerCase().replace(/[^a-z0-9]/g, ""); }
+const localSourceFiles = walk(SOURCE_ROOT);
 
 function options(argv) {
   const result = { json: false, language: null, status: null };
@@ -33,6 +46,17 @@ for (const name of fs.readdirSync(path.join(ROOT, "data/thinkers")).filter((item
   for (const work of thinker.engaged_works || []) {
     if (!ACTIONABLE.has(work.source_status)) continue;
     const matches = candidates.filter((candidate) => candidate.thinker_id === thinker.id && candidate.work_id === work.work_id);
+    const thinkerKey = comparable(thinker.id);
+    const workKey = comparable(work.work_id);
+    const titleKey = comparable(work.title_iast || work.title);
+    const localWitnessCandidates = localSourceFiles.filter((source) => {
+      const key = comparable(path.basename(source, path.extname(source)));
+      const namesThinker = thinkerKey.length >= 5 && key.includes(thinkerKey);
+      const namesWork = (workKey.length >= 6 && key.includes(workKey)) || (titleKey.length >= 8 && key.includes(titleKey));
+      return namesThinker && namesWork;
+    });
+    const localCleanCandidates = localWitnessCandidates.filter((source) => !/\.(pdf|html)$/i.test(source) && !source.includes("_unverified_ocr/"));
+    const localScanOrOcrCandidates = localWitnessCandidates.filter((source) => !localCleanCandidates.includes(source));
     rows.push({
       school: thinker.school || "Unclassified",
       thinker_id: thinker.id,
@@ -44,7 +68,9 @@ for (const name of fs.readdirSync(path.join(ROOT, "data/thinkers")).filter((item
       entry_status: work.entry_status || "unspecified",
       record_path: path.relative(ROOT, file),
       candidate_ids: matches.map((candidate) => candidate.id),
-      research_status: matches.length ? "candidate-found" : "no-clean-candidate-recorded",
+      local_witness_candidates: localCleanCandidates,
+      local_scan_or_ocr_candidates: localScanOrOcrCandidates,
+      research_status: matches.length ? "candidate-found" : localCleanCandidates.length ? "local-witness-needs-provenance" : localScanOrOcrCandidates.length ? "scan-or-ocr-only" : "no-clean-candidate-recorded",
     });
   }
 }
