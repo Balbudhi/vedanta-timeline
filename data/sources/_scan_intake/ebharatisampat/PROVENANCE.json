@@ -4,7 +4,11 @@
   "policy": "Scans are retained as edition and collation witnesses only. They are not clean-text intake and must not be cited as extracted text without a separately reviewed transcription.",
   "witnesses": [
     {"thinker_id":"baladeva","work_id":"prameya-ratnavali","catalog_no":"Ebharati-12640","path":"baladeva_prameya_ratnavali_ebharati12640.pdf","sha256":"5ee069f52251a13af38ab39f245f5350c8ab87f4c9f4796a0fc5a8810f9d0de3"},
-    {"thinker_id":"ramanuja","work_id":"gadya-trayam","catalog_no":"Ebharati-10503","path":"ramanuja_gadya_trayam_ebharati10503.pdf","sha256":"864208b269d27be32bec81e972732edfe56eb16ad16b1951e339236ea9816963"}
+    {"thinker_id":"ramanuja","work_id":"gadya-trayam","catalog_no":"Ebharati-10503","path":"ramanuja_gadya_trayam_ebharati10503.pdf","sha256":"864208b269d27be32bec81e972732edfe56eb16ad16b1951e339236ea9816963"},
+    {"thinker_id":"vedanta-desika","work_id":"nyaya-parishuddhi","catalog_no":"Ebharati-9490","path":"vedanta_desika_nyaya_parishuddhi_ebharati9490.pdf","sha256":"bd6f89cc5f2ad7c27547386bddc21c87d074b21061c4c626ea900268b88ed610"},
+    {"thinker_id":"baladeva","work_id":"siddhanta-ratnam","catalog_no":"Ebharati-10476","path":"baladeva_siddhanta_ratnam_part1_ebharati10476.pdf","sha256":"cd85b9b5767f35e33ab5f22e7c690645376a7c3bde910370dc12b8fe58bd1c83"},
+    {"thinker_id":"purusottama","work_id":"prasthana-ratnakara","catalog_no":"Ebharati-11073","path":"purusottama_prasthana_ratnakara_ebharati11073.pdf","sha256":"214d7a2c1bce03c1828f0e76e1ca66e439730990ebce57dae047332208e18dde"},
+    {"thinker_id":"vallabha","work_id":"tattvartha-dipa-nibandha","catalog_no":"Ebharati-10408","path":"vallabha_tattvartha_dipa_nibandha_ebharati10408.pdf","sha256":"b3ecebd42dcaf10f15fb1a89bdde6d5b56746d1341ffc273cbd65557fe8aee69"}
   ],
   "failed_retrievals": [
     {"thinker_id":"ramanuja","work_id":"nitya-grantha","catalog_no":"Ebharati-10486","url":"https://www.ebharatisampat.in/pdfs/1771932264NityaGrantha1941.pdf","result":"HTTP 404 on 2026-08-19; retry from authenticated reader or refreshed record URL"}

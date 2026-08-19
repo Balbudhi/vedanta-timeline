@@ -1,3 +1,4 @@
 data/sources/sanskrit/kala_cakra/buddhist/*.pdf filter=lfs diff=lfs merge=lfs -text
 data/sources/sanskrit/mathematics/*.pdf filter=lfs diff=lfs merge=lfs -text
 data/sources/_intake/** whitespace=-trailing-space,-space-before-tab
+data/sources/_scan_intake/** -text whitespace=-trailing-space,-space-before-tab
