@@ -1,0 +1,16 @@
+{
+  "status": "downloaded-quarantine",
+  "provider": "Muktabodha Digital Library cumulative paired-script download",
+  "source_archives": [
+    "/Users/eeshan/Downloads/muktalib_IAST_download_2026-07-22.zip",
+    "/Users/eeshan/Downloads/MUKTABODHA-LIBRARY-DEVANAGARI.zip"
+  ],
+  "archive_snapshot_date": "2026-07-22",
+  "paired_download": "muktabodha-2026-07-22-yamuna",
+  "license": "CC BY-NC 4.0; attribute Muktabodha",
+  "policy": "Raw paired witness for an existing thinker work. The IAST witness has documented replacement characters, so both files remain quarantine-only until a named-edition collation resolves each defect.",
+  "mechanical_changes": [],
+  "witnesses": [
+    {"candidate_id":"yamuna-agamapramanya-muktabodha","catalog_no":"M00001","iast_path":"yamuna_agamapramanya.html","devanagari_path":"yamuna_agamapramanya.txt","iast_sha256":"4d877e8129159df432d62e4093b8f5ab04786c7c42ed262859c5845583738980","devanagari_sha256":"c443a2c77f3700bdaa6c2750cca85ce75061b93ec2b13ed5f6becfd86b793a6d","known_issues":["replacement-characters"]}
+  ]
+}
