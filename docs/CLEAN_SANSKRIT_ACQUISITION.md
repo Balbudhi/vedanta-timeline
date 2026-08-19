@@ -60,6 +60,7 @@ node scripts/report_acquisition_queue.js --language sanskrit --status degraded
 node scripts/check_source_candidates.js
 node scripts/fetch_source_candidate.js <candidate-id>
 node scripts/check_source_inventory.js
+node scripts/discover_gretil_candidates.js /path/to/gretil-path-index.txt --json
 ```
 
 The queue reports every current missing or degraded work from thinker JSON.

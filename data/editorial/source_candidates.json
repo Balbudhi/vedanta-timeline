@@ -286,6 +286,66 @@
       "rights_status": "source-specific-review-required",
       "acquisition_status": "discovered",
       "review_status": "catalogue-checked; header-and-collation-pending"
+    },
+    {
+      "id": "dharmakirti-hetubindu-gretil",
+      "thinker_id": "dharmakirti",
+      "work_id": "hetu-bindu",
+      "title_iast": "Hetubindu",
+      "language": "sanskrit",
+      "provider": "GRETIL",
+      "candidate_url": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_dharmakIrti-hetubindu-edsteinkellner.xml",
+      "access_kind": "TEI-unicode-transcription",
+      "coverage": "edition-specific witness; inspect header and select among alternate GRETIL witnesses",
+      "quality_tier": "needs-manual-assessment",
+      "rights_status": "source-specific-review-required",
+      "acquisition_status": "discovered",
+      "review_status": "filename-and-catalogue-checked; edition-review-pending"
+    },
+    {
+      "id": "ratnakirti-nibandhavali-gretil",
+      "thinker_id": "ratnakirti",
+      "work_id": "ratnakirti-nibandhavali",
+      "title_iast": "Ratnakīrti-nibandhāvalī",
+      "language": "sanskrit",
+      "provider": "GRETIL",
+      "candidate_url": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_ratnakIrti-nibandhAvalI.xml",
+      "access_kind": "TEI-unicode-transcription",
+      "coverage": "collected work witness; inspect contents against site work record",
+      "quality_tier": "needs-manual-assessment",
+      "rights_status": "source-specific-review-required",
+      "acquisition_status": "discovered",
+      "review_status": "filename-and-catalogue-checked; contents-and-collation-pending"
+    },
+    {
+      "id": "kumaralata-kalpanamanditika-gretil",
+      "thinker_id": "kumaralata",
+      "work_id": "kalpanamanditika",
+      "title_iast": "Kalpanāmaṇḍitikā",
+      "language": "sanskrit",
+      "provider": "GRETIL",
+      "candidate_url": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_kumAralAta-kalpanAmaNDitikA.xml",
+      "access_kind": "TEI-unicode-transcription",
+      "coverage": "work witness",
+      "quality_tier": "needs-manual-assessment",
+      "rights_status": "source-specific-review-required",
+      "acquisition_status": "discovered",
+      "review_status": "filename-and-catalogue-checked; header-and-collation-pending"
+    },
+    {
+      "id": "raghunatha-dasa-mukta-carita-gretil",
+      "thinker_id": "raghunatha-dasa-gosvami",
+      "work_id": "mukta-carita",
+      "title_iast": "Mukta-carita",
+      "language": "sanskrit",
+      "provider": "GRETIL",
+      "candidate_url": "https://raw.githubusercontent.com/sanskrit-texts/gretil-corpus/main/1_sanskr/sa_raghunAthadAsagosvAmin-muktAcarita.xml",
+      "access_kind": "TEI-unicode-transcription",
+      "coverage": "work witness",
+      "quality_tier": "needs-manual-assessment",
+      "rights_status": "source-specific-review-required",
+      "acquisition_status": "discovered",
+      "review_status": "filename-and-catalogue-checked; header-and-collation-pending"
     }
   ]
 }
