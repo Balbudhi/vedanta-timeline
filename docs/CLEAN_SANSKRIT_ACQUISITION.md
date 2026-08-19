@@ -119,6 +119,7 @@ comparison base without pretending that either download is error-free.
 ```sh
 node scripts/report_acquisition_queue.js --language sanskrit --status missing
 node scripts/report_acquisition_queue.js --language sanskrit --status degraded
+node scripts/report_school_source_coverage.js --json
 node scripts/check_source_candidates.js
 node scripts/check_intake_witnesses.js
 node scripts/check_tei_intake_metadata.js
