@@ -87,6 +87,12 @@ date, provider, named edition/inputter, rights/reuse posture, coverage,
 normalization log, and sample-collation result. A citation-safe passage also
 needs its own verified locus in the citation index.
 
+Every `clean-on-disk` or `degraded-on-disk` engaged work should also carry a
+`source_paths` array of repository-relative public witness paths. A filename
+guess is never sufficient evidence: the work-witness report emits it only as a
+review hint, so falsely reassuring status labels cannot silently remove a work
+from the acquisition queue.
+
 ## Paired-script Muktabodha snapshots
 
 When Muktabodha supplies both IAST and Devanāgarī downloads, retain both raw
@@ -114,6 +120,7 @@ node scripts/report_acquisition_queue.js --language sanskrit --status missing
 node scripts/report_acquisition_queue.js --language sanskrit --status degraded
 node scripts/check_source_candidates.js
 node scripts/check_intake_witnesses.js
+node scripts/report_work_witness_links.js --json
 node scripts/fetch_source_candidate.js <candidate-id>
 node scripts/check_source_inventory.js
 node scripts/discover_gretil_candidates.js /path/to/gretil-path-index.txt --json
