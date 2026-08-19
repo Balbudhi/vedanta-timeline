@@ -22,6 +22,12 @@ Every missing work belongs to one of four states:
 4. **no clean digital witness found** — the work remains a documented gap;
    do not substitute a PDF, bad OCR, translation, or nearby work.
 
+Before downloading, run `node scripts/report_unmanifested_sources.js --json`.
+The current repository has 131 non-quarantine witnesses that are already on
+disk but absent from the manifest. Review those first: a newly found URL may
+duplicate a local GRETIL or institutional witness whose provenance simply has
+not been registered yet.
+
 ## Where to look
 
 | Priority | Provider | Appropriate use | Boundary |
