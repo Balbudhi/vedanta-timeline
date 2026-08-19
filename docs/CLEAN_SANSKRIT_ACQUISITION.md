@@ -48,7 +48,7 @@ result per **existing thinker/work** rather than downloading a site wholesale.
 | Timeline family | Search routes | Intake posture |
 |---|---|---|
 | Viśiṣṭādvaita | Ramanuja.org, Sripedia, Sanskrit Wikisource, Adyar/EFEO catalogues | Ramanuja.org is often bibliographic or translation-led; use it to identify texts, then require a clean Sanskrit witness. |
-| Tattva-vāda | Tattvavada E-LIB, Madhva.in, Anandamakaranda, Madhwapracharavedike | Tattvavada E-LIB exposes multi-script Sanskrit/Kannada/Tamil/Telugu links; record exact language/script and edition. Madhwapracharavedike is often scan-first and therefore collation/discovery only. |
+| Tattva-vāda | Tattvavada E-LIB, Madhva.in, Anandamakaranda, Madhwapracharavedike | Tattvavada E-LIB is a valuable multilingual directory, but its Madhva page is primarily PDF/Drive-linked; its linked Bhagavadgītā IAST endpoint was empty when checked in August 2026. Use it to identify title/script witnesses, then verify the terminal source before intake. Madhwapracharavedike is often scan-first and therefore collation/discovery only. |
 | Advaita | GRETIL, Ambuda, Śṛṅgeri catalogues, Sanskrit Documents | Prefer named-edition born-digital text. Sanskrit Documents is useful discovery but has reuse restrictions. |
 | Pāñcarātra | Muktabodha, Sanskrit Wikisource, Adyar series catalogues | Muktabodha now supplies CC BY-NC IAST/Devanāgarī e-texts for the central *Ahirbudhnya*, *Jayākhya*, and *Lakṣmī* sources; still collate before promotion. |
 | Kashmir Śaiva / Śaiva Siddhānta / Śākta | Muktabodha, GRETIL TEI, IFP catalogue | Muktabodha is the first title-level route. Keep searchable e-texts distinct from restricted IFP transcripts and manuscript images. |
