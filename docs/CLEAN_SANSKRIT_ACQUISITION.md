@@ -101,3 +101,19 @@ The first survey found clean digital candidates in the following lanes:
 Important true gaps include *Nyāyamañjarī*, complete *Tantravārttika*,
 *Yoga-Vārttika*, *Sāṅkhya-Pravacana-Bhāṣya*, *Tattvavaiśāradī*, and several
 lost or fragmentary early Vedānta works. A nearby text is never a substitute.
+
+### Muktabodha correction
+
+The tantric database requested in the acquisition brief is the **Muktabodha
+Digital Library**, not a speculative lead. Dr. **Mark S. G. Dyczkowski**, who
+studied with Swami Lakshman Joo, served as its Academic Advisor and trained the
+team that transcribed many of its searchable e-texts. Muktabodha reports more
+than 570 searchable Sanskrit e-texts and a much larger image/transcript
+collection across Kashmir Śaiva, Śaiva Siddhānta, Pāñcarātra, Śrīvidyā,
+Śākta, Nātha, and Vīraśaiva traditions.
+
+Use <https://muktabodha-digital-library.org/welcome> for its current e-text
+interface and the legacy catalogue for IFP/Vedic holdings. Each title must be
+checked individually for searchable-text availability, completeness, export
+permission, and edition metadata. Muktabodha scans or access-only records are
+discovery/collation aids, not automatic public-witness candidates.
