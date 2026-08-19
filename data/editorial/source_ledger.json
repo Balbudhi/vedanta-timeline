@@ -110,6 +110,24 @@
         "tattvarthasutra"
       ],
       "notes": "The TEI header says apparent errors were silently corrected during encoding. Use it for source review and add public citations only after individual loci are collated against the named edition."
+    },
+    {
+      "id": "hemacandra-pramanamimamsa-sarit",
+      "title_iast": "Pramāṇa-Mīmāṃsā with vṛtti",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/jaina/hemacandra_pramanamimamsa_sarit.xml",
+      "witness": "Sukhlalji Saṅghavi, ed. (1938), encoded in SARIT TEI; the header records CC BY-SA 4.0, source witnesses, and the treatment of correction notices.",
+      "rights_status": "CC-BY-SA-4.0-attribution-and-sharealike-required",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://hemacandra/pramana-mimamsa/"
+      ],
+      "review_areas": [
+        "hemacandra",
+        "jaina",
+        "pramana"
+      ],
+      "notes": "The TEI distinguishes base-text quotations and vṛtti paragraphs and records correction loci. Public citations need individual comparison with the named edition."
     }
   ]
 }

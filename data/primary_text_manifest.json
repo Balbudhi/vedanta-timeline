@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-08-19T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 94,
+  "file_count": 95,
   "note": "Public source corpus held in this repository. This manifest lists only paths present under data/sources/. Privately retained or restricted witnesses are catalogued separately in the parishishta repository provenance records.",
   "files": [
     {
@@ -1277,6 +1277,20 @@
       "verification_status": "licensed CC BY-SA 4.0 TEI witness on disk; source header retains edition and correction policy; acceptable for source review; public claims require locus-level collation",
       "size_bytes": 513076,
       "line_count": 1649
+    },
+    {
+      "path": "sanskrit/jaina/hemacandra_pramanamimamsa_sarit.xml",
+      "language": "sanskrit",
+      "category": "jaina",
+      "title": "Hemacandra, Pramāṇamīmāṃsā with authorial vṛtti",
+      "edition": "Sukhlalji Saṅghavi, ed. (1938), encoded as a SARIT TEI witness; the source header specifies the correction encoding and locus structure",
+      "format": "TEI-XML",
+      "thinker_id": "hemacandra",
+      "work_id": "pramana-mimamsa",
+      "source_url": "https://raw.githubusercontent.com/sarit/SARIT-corpus/master/pramanamimamsa-and-vrtti.xml",
+      "verification_status": "licensed CC BY-SA 4.0 TEI witness on disk; root/commentary and correction encoding are documented in the header; public claims require locus-level collation",
+      "size_bytes": 586304,
+      "line_count": 1973
     }
   ]
 }
