@@ -9,6 +9,7 @@ const fs = require("fs");
 const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 const ACTIONABLE = new Set(["primary-text-not-in-corpus", "degraded-on-disk"]);
+const candidates = JSON.parse(fs.readFileSync(path.join(ROOT, "data/editorial/source_candidates.json"), "utf8")).candidates || [];
 
 function options(argv) {
   const result = { json: false, language: null, status: null };
@@ -31,6 +32,7 @@ for (const name of fs.readdirSync(path.join(ROOT, "data/thinkers")).filter((item
   const thinker = JSON.parse(fs.readFileSync(file, "utf8"));
   for (const work of thinker.engaged_works || []) {
     if (!ACTIONABLE.has(work.source_status)) continue;
+    const matches = candidates.filter((candidate) => candidate.thinker_id === thinker.id && candidate.work_id === work.work_id);
     rows.push({
       school: thinker.school || "Unclassified",
       thinker_id: thinker.id,
@@ -41,6 +43,8 @@ for (const name of fs.readdirSync(path.join(ROOT, "data/thinkers")).filter((item
       ascription_tier: work.ascription_tier || "unspecified",
       entry_status: work.entry_status || "unspecified",
       record_path: path.relative(ROOT, file),
+      candidate_ids: matches.map((candidate) => candidate.id),
+      research_status: matches.length ? "candidate-found" : "no-clean-candidate-recorded",
     });
   }
 }
@@ -57,6 +61,7 @@ const report = {
   total: filtered.length,
   by_status: Object.fromEntries([...ACTIONABLE].map((status) => [status, filtered.filter((row) => row.source_status === status).length])),
   by_language: Object.fromEntries([...new Set(filtered.map((row) => row.language))].sort().map((language) => [language, filtered.filter((row) => row.language === language).length])),
+  by_research_status: Object.fromEntries([...new Set(filtered.map((row) => row.research_status))].sort().map((status) => [status, filtered.filter((row) => row.research_status === status).length])),
   works: filtered,
 };
 
@@ -64,5 +69,5 @@ if (opts.json) console.log(JSON.stringify(report, null, 2));
 else {
   console.log(`Acquisition queue: ${report.total} work(s)`);
   for (const [status, count] of Object.entries(report.by_status)) console.log(`  ${status}: ${count}`);
-  for (const work of report.works) console.log(`${work.school}\t${work.thinker_id}\t${work.work_id}\t${work.title_iast}\t${work.language}\t${work.source_status}`);
+  for (const work of report.works) console.log(`${work.school}\t${work.thinker_id}\t${work.work_id}\t${work.title_iast}\t${work.language}\t${work.source_status}\t${work.research_status}\t${work.candidate_ids.join(",")}`);
 }
