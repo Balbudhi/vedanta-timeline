@@ -22,17 +22,24 @@ const pairedWitnesses = new Map();
 for (const provenancePath of provenanceFiles) {
   const provenance = JSON.parse(fs.readFileSync(provenancePath, "utf8"));
   const witnessRoot = path.dirname(provenancePath);
-  for (const witness of provenance.witnesses || []) {
+  const witnesses = (provenance.witnesses || []).flatMap((witness) => {
+    if (!witness.iast_path && !witness.devanagari_path) return [{ ...witness, script: witness.script || provenance.script }];
+    return [
+      { ...witness, path: witness.iast_path, sha256: witness.iast_sha256, script: "iast" },
+      { ...witness, path: witness.devanagari_path, sha256: witness.devanagari_sha256, script: "devanagari" }
+    ];
+  });
+  for (const witness of witnesses) {
     checked += 1;
   const label = witness.candidate_id || witness.path;
   if (provenance.paired_download) {
-    if (!provenance.script || !witness.catalog_no) {
+    if (!witness.script || !witness.catalog_no) {
       errors += 1;
       console.error(`${label}: paired intake requires a script and catalogue number`);
     } else {
       const key = `${provenance.paired_download}:${witness.catalog_no}`;
       if (!pairedWitnesses.has(key)) pairedWitnesses.set(key, []);
-      pairedWitnesses.get(key).push({ label, script: provenance.script });
+      pairedWitnesses.get(key).push({ label, script: witness.script });
     }
   }
   const target = path.resolve(witnessRoot, witness.path || "");

@@ -13,7 +13,7 @@ const ACTIONABLE = new Set(["primary-text-not-in-corpus", "degraded-on-disk"]);
 const metadataPath = process.argv[2];
 
 if (!metadataPath || process.argv.includes("--help") || process.argv.includes("-h")) {
-  console.error("Usage: node scripts/match_muktabodha_to_acquisition_queue.js <muktabodha_metadata.json> [--json]");
+  console.error("Usage: node scripts/match_muktabodha_to_acquisition_queue.js <muktabodha_metadata.json> [--iast-root path] [--devanagari-root path] [--json]");
   process.exit(1);
 }
 
@@ -39,6 +39,36 @@ function titleMatch(work, record) {
   return null;
 }
 
+function option(name) {
+  const index = process.argv.indexOf(name);
+  return index === -1 ? null : process.argv[index + 1] || null;
+}
+
+function directFiles(root) {
+  if (!root || !fs.existsSync(root)) return [];
+  return fs.readdirSync(root, { withFileTypes: true })
+    .filter((entry) => entry.isFile()).map((entry) => path.join(root, entry.name));
+}
+
+function fileSignal(file) {
+  const bytes = fs.readFileSync(file);
+  let validUtf8 = true;
+  let text = "";
+  try { text = new TextDecoder("utf-8", { fatal: true }).decode(bytes); }
+  catch (_) { validUtf8 = false; }
+  return { path: file, valid_utf8: validUtf8, replacement_characters: validUtf8 && text.includes("\uFFFD") };
+}
+
+const iastFiles = directFiles(option("--iast-root"));
+const devanagariFiles = directFiles(option("--devanagari-root"));
+function downloadedWitnesses(catalogNo) {
+  const marker = new RegExp(`(^|[\\s-])${String(catalogNo).replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&")}([\\s-]|$)`, "i");
+  return {
+    iast: iastFiles.filter((file) => marker.test(path.basename(file))).map(fileSignal),
+    devanagari: devanagariFiles.filter((file) => marker.test(path.basename(file))).map(fileSignal)
+  };
+}
+
 const metadata = Object.values(JSON.parse(fs.readFileSync(metadataPath, "utf8")));
 const matches = [];
 for (const name of fs.readdirSync(path.join(ROOT, "data/thinkers")).filter((entry) => entry.endsWith(".json"))) {
@@ -61,6 +91,7 @@ for (const name of fs.readdirSync(path.join(ROOT, "data/thinkers")).filter((entr
         catalog_author: record.Author || null,
         traditions: record.Traditions || [],
         match_kind: matchKind,
+        downloaded_witnesses: downloadedWitnesses(record["Catalog number"]),
         action: "inspect paired raw download, coverage, named edition, and sample loci before candidate registration"
       });
     }

@@ -1,0 +1,20 @@
+{
+  "status": "downloaded-quarantine",
+  "provider": "Muktabodha Digital Library cumulative paired-script download",
+  "source_archives": [
+    "/Users/eeshan/Downloads/muktalib_IAST_download_2026-07-22.zip",
+    "/Users/eeshan/Downloads/MUKTABODHA-LIBRARY-DEVANAGARI.zip"
+  ],
+  "archive_snapshot_date": "2026-07-22",
+  "paired_download": "muktabodha-2026-07-22-thinker-batch",
+  "license": "CC BY-NC 4.0; attribute Muktabodha",
+  "policy": "Raw files were selected only by strict existing-thinker author-and-title match. They remain noncitable until coverage and sampled collation are recorded. IAST and Devanāgarī files are parallel raw witnesses, not conversions of one another.",
+  "mechanical_changes": [],
+  "witnesses": [
+    {"candidate_id":"bhagavadutpala-spandapradipika-muktabodha","catalog_no":"M00532","iast_path":"kashmir_saiva/bhagavadutpala_spandapradipika.html","devanagari_path":"kashmir_saiva/bhagavadutpala_spandapradipika.txt","iast_sha256":"1bb636b581889a57afd26e58ddf0ef99482e9f239a9151fb7025343c681b8195","devanagari_sha256":"6fc85f3eeeaf98508e6b7b8cba3156ed4e6d136a9773f4f839a9905cf06b31bf"},
+    {"candidate_id":"mahesvarananda-maharthamanjari-muktabodha","catalog_no":"M00035","iast_path":"kashmir_saiva/mahesvarananda_maharthamanjari.html","devanagari_path":"kashmir_saiva/mahesvarananda_maharthamanjari.txt","iast_sha256":"25ab7149e45a476f7253ba7f45c6390cf99d22ef40ecd5dc53de562b3b1f2dc9","devanagari_sha256":"b22c6636ebcff1fc50cd32d80b45e1d35436ac74153c881c3e1a651dc77c2dbd"},
+    {"candidate_id":"narayanakantha-mrgendravrtti-muktabodha","catalog_no":"M00663","iast_path":"saiva_siddhanta/narayanakantha_mrgendravrtti.html","devanagari_path":"saiva_siddhanta/narayanakantha_mrgendravrtti.txt","iast_sha256":"88d15eacf8181b461b1cd605c80839298eee803ec41702c93625bb14f16e1404","devanagari_sha256":"94e960fad324476a50c3bb9dd3abe75878a3a53c62e60a1af7f55afa4624d7a1"},
+    {"candidate_id":"punyananda-kamakalavilasa-muktabodha-m00025","catalog_no":"M00025","iast_path":"srividya/punyananda_kamakalavilasa_m00025.html","devanagari_path":"srividya/punyananda_kamakalavilasa_m00025.txt","iast_sha256":"ecd2584c5a576ee53e3b0f12d49ba68a4cec8d4a7fd24dd356b4685d1370cade","devanagari_sha256":"5f85cfad561452d2f0725f2f5d0cef61f5ddf3cf5985de658fbd0545c6370e0d"},
+    {"candidate_id":"punyananda-kamakalavilasa-muktabodha-m00282","catalog_no":"M00282","iast_path":"srividya/punyananda_kamakalavilasa_m00282.html","devanagari_path":"srividya/punyananda_kamakalavilasa_m00282.txt","iast_sha256":"e945031412c241f457d972f74aa28ddf148ec7742f25c9a8e7fcfe02bc649d60","devanagari_sha256":"87069969836e3256eefd25b2111d1633176cb8288d076ce58eb97aca83590316"}
+  ]
+}
