@@ -156,6 +156,17 @@ licensed, identified, and collated. By contrast, SARIT's individual TEI
 headers supply named edition and per-file licence information, so official
 SARIT TEI may be quarantined after the normal integrity checks.
 
+### E-Bharatisampat verified routes
+
+The public catalogue currently lists 9,519 uploaded books and 5,576 searchable
+texts. It can establish a title, author, edition, page count, serial number,
+and reader URL without an account. Downloads are account-gated. Record the
+catalogue serial and the collection boundary before retrieval; do not infer a
+single-work witness from a multi-work volume. Current thinker-first records
+include Madhva *Tattva-Saṅkhyāna* (Ebharati-10564), a Madhva prakaraṇa
+collection (Ebharati-10237), and Vedānta Deśika *Nyāyapariśuddhi* with
+*Nyāyasāra* (Ebharati-9490).
+
 ## Research matrix: August 2026
 
 The first survey found clean digital candidates in the following lanes:
