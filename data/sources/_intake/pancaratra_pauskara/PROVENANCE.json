@@ -1,0 +1,12 @@
+{
+  "status": "downloaded-quarantine",
+  "provider": "Muktabodha Digital Library cumulative paired-script download",
+  "archive_snapshot_date": "2026-07-22",
+  "paired_download": "muktabodha-2026-07-22-pauskara",
+  "license": "CC BY-NC 4.0; attribute Muktabodha",
+  "policy": "Raw IAST and Devanāgarī witnesses are retained unchanged. They are parallel comparison witnesses, not a normalized public edition.",
+  "mechanical_changes": [],
+  "witnesses": [
+    {"candidate_id":"pancaratra-pauskara-muktabodha","catalog_no":"M00259","iast_path":"pauskara_samhita.html","devanagari_path":"pauskara_samhita.txt","iast_sha256":"56a865dab77a489ec86d2bf79bc8c71edcd938d947929531859c6044645f2a05","devanagari_sha256":"a90c08e5a8ca299c2e5168fb0c61a78d7856ac2b3f180594a5596091b088f33d","known_issues":["replacement-characters","malformed-utf8"]}
+  ]
+}
