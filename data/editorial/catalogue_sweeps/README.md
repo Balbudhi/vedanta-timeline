@@ -11,6 +11,13 @@ strict-title candidate records and their public metadata-page headings. The
 results distinguish public Unicode readers from account-gated e-books only
 after inspecting the individual record.
 
+`ebharatisampat_author_confirmed_2026-08-19.json` is the conservative subset:
+26 existing thinker works (42 editions) where the public catalogue's named
+author matches the thinker record. It excludes title collisions, blank-author
+records, and commentary-only matches. It is the authoritative eBhāratī
+retrieval queue; an `ebook-reader` entry still needs an authenticated download
+and a `public-unicode-reader` entry still needs witness-quality review.
+
 Run `node scripts/check_ebharatisampat_sweep.js` to ensure the sweep still
 covers every current Sanskrit gap. When the worklist changes, create a new
 dated sweep rather than silently modifying the historical result.

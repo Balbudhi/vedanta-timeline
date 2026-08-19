@@ -1,0 +1,873 @@
+{
+  "generated_at": "2026-08-19T18:48:15.442Z",
+  "source": "E-Bharatisampat public catalogue record pages",
+  "scope": "Author-confirmed records from exhaustive title search of all 368 Sanskrit source-gap works.",
+  "caveat": "public-unicode-reader means the record exposes “Read Unicode”; ebook-reader means it exposes “Read E-Book”. Neither label alone establishes a clean, collated public witness. Inspect edition and text before promotion.",
+  "work_count": 26,
+  "works": [
+    {
+      "thinker_id": "baladeva",
+      "work_id": "prameya-ratnavali",
+      "title_iast": "Prameya-Ratnāvalī",
+      "school": "Acintya-Bhedābheda",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-12640",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MDgwNDEyNDA1MjkzMzEyMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Prameya Ratnavali",
+          "title": "प्रमेयरत्नावली",
+          "author": "बलदेव-विद्याभूषणः",
+          "publisher": "संस्कृत-साहित्य-परिषत्",
+          "publish_year": "1927",
+          "pages": "168",
+          "language": "संस्कृतम् वङ्गभाषा",
+          "editor": "अक्षयकुमार-शर्मा",
+          "primary_commentator": "कृष्णदेव-वेदान्त-वागीशः",
+          "commentary_name": "कान्तिमाला"
+        }
+      ]
+    },
+    {
+      "thinker_id": "anandabodha",
+      "work_id": "pramana-mala",
+      "title_iast": "Pramāṇa-Mālā",
+      "school": "Advaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-12944",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=ODYzMDE5MTYzNTc1MjQyMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Pramana Mala",
+          "title": "प्रमाणमाला",
+          "author": "आनन्द-बोधाचार्यः",
+          "publisher": "अद्वैत-सभा-कुम्बकोणम्",
+          "publish_year": "1956",
+          "pages": "130",
+          "language": "संस्कृतम्",
+          "editor": "एस्. सुब्रह्मण्य-शास्त्री",
+          "primary_commentator": "अनुभूति-स्वरूपाचार्यः",
+          "commentary_name": "निबन्धः सम्बन्धोक्तिः"
+        }
+      ]
+    },
+    {
+      "thinker_id": "nrsimhasrama",
+      "work_id": "bhedadhikkara",
+      "title_iast": "Bhedadhikkāra",
+      "school": "Advaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-9371",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MjY1NjM3Nzg3MDg1OTk4",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Bhedadhikkara",
+          "title": "भेदधिक्कारः",
+          "author": "श्रीनरसिंहाश्रममुनिः",
+          "publisher": null,
+          "publish_year": "1904",
+          "pages": "184",
+          "language": "संस्कृतम्",
+          "editor": "पण्डितलक्ष्मणशास्त्री-द्राविड",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "prakasananda",
+      "work_id": "vedanta-siddhanta-muktavali",
+      "title_iast": "Vedānta-siddhānta-muktāvalī",
+      "school": "Advaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-10937",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NDE0OTYzMzA5MDE5OTQwMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vedanta Siddhanta Muktavali",
+          "title": "वेदान्तसिद्धान्तमुक्तावली",
+          "author": "प्रकाशानन्दः",
+          "publisher": "इ. जे. लजरस्-एण्ड्-को",
+          "publish_year": "1898",
+          "pages": "206",
+          "language": "संस्कृतम् आङ्ग्लम्",
+          "editor": "आर्थर्-वेनिस्",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "sadananda-yogindra",
+      "work_id": "vedantasara",
+      "title_iast": "Vedāntasāra",
+      "school": "Advaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-9508",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NjczODQ5MjcyMjM3MjE5",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vedantasara",
+          "title": "वेदान्तसारः",
+          "author": "सदानन्दः",
+          "publisher": null,
+          "publish_year": "1911",
+          "pages": "229",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "आपदेवः",
+          "commentary_name": "बालबोधिनी"
+        },
+        {
+          "serial": "Ebharati-7789",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=ODU5NDIyMjM3NDE3NzQ3",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vedantasara",
+          "title": "वेदान्तसारः",
+          "author": "सदानन्दः",
+          "publisher": null,
+          "publish_year": "1850",
+          "pages": "95",
+          "language": "संस्कृतम् आङ्ग्लम्",
+          "editor": null,
+          "primary_commentator": null,
+          "commentary_name": null
+        },
+        {
+          "serial": "Ebharati-9390",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MDg1MjQzNjE3NDA0MTA5",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vedantasara",
+          "title": "वेदान्तसारः",
+          "author": "सदानन्दः",
+          "publisher": "पाण्डुरङ्ग-जावजी",
+          "publish_year": "1934",
+          "pages": "190",
+          "language": "संस्कृतम् आङ्ग्लम्",
+          "editor": "कलोनेल-जि-ए-जेकोभ्",
+          "primary_commentator": null,
+          "commentary_name": "नृसिंहसारस्वती रामतीर्थः"
+        },
+        {
+          "serial": "Ebharati-2514",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=ODA5ODQ0MzU1NDMzMTQy",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Vedantasara",
+          "title": "वेदान्तसारः",
+          "author": "सदानन्द-योगीन्द्रः",
+          "publisher": null,
+          "publish_year": null,
+          "pages": null,
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": null,
+          "commentary_name": null
+        },
+        {
+          "serial": "Ebharati-8403",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NjYwMjcwNTI0NjU2NjA4",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vedantasara",
+          "title": "वेदान्तसारः",
+          "author": "सदानन्दयोगीन्द्रः",
+          "publisher": "आशुबोध विद्याभूषणः नित्यबोधविद्यारत्नः",
+          "publish_year": "1915",
+          "pages": "195",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "शङ्कराचार्यः",
+          "commentary_name": "सुबोधिनी विद्वन्मनोरञ्जनी"
+        }
+      ]
+    },
+    {
+      "thinker_id": "laksmana-desikendra",
+      "work_id": "sarada-tilaka",
+      "title_iast": "Śāradātilaka",
+      "school": "Bhairava-tantra",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-6048",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NjUyODYxNDcyNTg1MDg1",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Saradatilakam",
+          "title": "शारदातिलकम्",
+          "author": "लक्ष्मणदेशिकेन्द्रः",
+          "publisher": "जयकृष्णदास-हरिदासगुप्तः",
+          "publish_year": "1934",
+          "pages": "591",
+          "language": "संस्कृतम्",
+          "editor": "एम्. एम्. पण्डितः मुकुन्द-झा-भशी",
+          "primary_commentator": "राघवभट्टः",
+          "commentary_name": "पदार्थादर्शः"
+        }
+      ]
+    },
+    {
+      "thinker_id": "punyananda",
+      "work_id": "kamakalavilasa",
+      "title_iast": "Kāmakalāvilāsa",
+      "school": "Bhairava-tantra",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-8850",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MDA3NDM0NTQ3NjY1OTQ4",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Kamakalavilasa",
+          "title": "कामकलाविलासः",
+          "author": "पुण्यानन्दः",
+          "publisher": "गणेश-एण्ड-क.",
+          "publish_year": "1953",
+          "pages": "229",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "नटनानन्दः",
+          "commentary_name": "चिद्वल्ल्या"
+        }
+      ]
+    },
+    {
+      "thinker_id": "bhaskararaya",
+      "work_id": "varivasya-rahasya",
+      "title_iast": "Varivasyā-Rahasya",
+      "school": "Cross-tradition",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-12616",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MjU5NTkzNDk1ODgwMTEyMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Varivasya Rahasyam",
+          "title": "वरिवस्यारहस्यम्",
+          "author": "भास्कर-रायः",
+          "publisher": "अड्यार्-लैब्रेरी",
+          "publish_year": "1948",
+          "pages": "186",
+          "language": "संस्कृतम् आङ्ग्लम्",
+          "editor": "एस्-सुब्रह्मण्य-शास्त्री",
+          "primary_commentator": null,
+          "commentary_name": "प्रकाशा"
+        }
+      ]
+    },
+    {
+      "thinker_id": "buddhaghosa",
+      "work_id": "sumangala-vilasini",
+      "title_iast": "Sumaṅgala-Vilāsinī",
+      "school": "Cross-tradition",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-12902",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NDQ2ODI3OTE1MzQ1ODMyMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Sumangala Vilasini",
+          "title": "सुमङ्गल-विलासिनी",
+          "author": "बुद्ध-घोषः",
+          "publisher": "द-पालि-टेक्स्ट्-सोयायिटि",
+          "publish_year": "1886",
+          "pages": "377",
+          "language": "संस्कृतम् आङ्ग्लम्",
+          "editor": "त. व. रस्-डेविड्स्",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "prabhacandra",
+      "work_id": "prameya-kamala-martanda",
+      "title_iast": "Prameya-Kamala-Mārtaṇḍa",
+      "school": "Jaina",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-12568",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=Njk2OTU3NDc3MDg0NjAyMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Prameya Kamala Martanda",
+          "title": "प्रमेयकमलमार्त्तण्डः",
+          "author": "प्रभाचन्द्रः",
+          "publisher": "सत्यभामा-बाई-पाण्डुरङ्गः",
+          "publish_year": "1941",
+          "pages": "928",
+          "language": "संस्कृतम्",
+          "editor": "महेन्द्र-कुमार-शास्त्री",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "kamalasila",
+      "work_id": "madhyamakaloka",
+      "title_iast": "Madhyamakāloka",
+      "school": "Mādhyamaka",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-9083",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NjIwOTE5OTY4MzM5MTc4",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Madhyamakaloka",
+          "title": "मध्यमकालोकः",
+          "author": "कमलशीलः",
+          "publisher": null,
+          "publish_year": null,
+          "pages": "113",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "parthasarathi",
+      "work_id": "nyaya-ratna-mala",
+      "title_iast": "Nyāya-Ratna-Mālā",
+      "school": "Mīmāṃsā",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-10430",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MDY0MTY0ODA4MDQyMTAwMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Nyaya Ratnamala",
+          "title": "न्यायरत्नमाला",
+          "author": "पार्थसारथी-मिश्रः",
+          "publisher": "हरिदास-गुप्तः",
+          "publish_year": "1900",
+          "pages": "216",
+          "language": "संस्कृतम्",
+          "editor": "गङ्गाधर-मानवल्ली-शास्त्री",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "jayanta-bhatta",
+      "work_id": "nyaya-manjari",
+      "title_iast": "Nyāya-Mañjarī",
+      "school": "Nyāya",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-11650",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MDAzNjEyNDIyNjUzODExMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Nyaya Manjari (Part-I)",
+          "title": "न्यायमञ्जरी (प्रथमखण्डः)",
+          "author": "जयन्त-भट्टः",
+          "publisher": "कलिकाता-विश्वविद्यालयः",
+          "publish_year": "1939",
+          "pages": "500",
+          "language": "संस्कृतम् वङ्गभाषा",
+          "editor": "पञ्चानन-तर्कवागीशः",
+          "primary_commentator": null,
+          "commentary_name": null
+        },
+        {
+          "serial": "Ebharati-10762",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NDY1NTQ5MDY1MTExMzMwMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Nyaya Manjari (Part-II)",
+          "title": "न्यायमञ्जरी (द्वितीयो भागः)",
+          "author": "जयन्त-भट्टः",
+          "publisher": "जयकृष्णदास-हरिदास-गुप्तः",
+          "publish_year": "1934",
+          "pages": "219",
+          "language": "संस्कृतम्",
+          "editor": "सूर्यनारायण-शुक्लः",
+          "primary_commentator": null,
+          "commentary_name": null
+        },
+        {
+          "serial": "Ebharati-11651",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MjI3ODU0MDIyMjU0ODExMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Nyaya Manjari (Part-II)",
+          "title": "न्यायमञ्जरी (द्वितीयखण्डः)",
+          "author": "जयन्त-भट्टः",
+          "publisher": "कलिकाता-विश्वविद्यालयः",
+          "publish_year": "1941",
+          "pages": "226",
+          "language": "संस्कृतम् वङ्गभाषा",
+          "editor": "पञ्चानन-तर्कवागीशः",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "utpaladeva",
+      "work_id": "sambandha-siddhi",
+      "title_iast": "Sambandha-Siddhi",
+      "school": "Pratyabhijñā/Trika",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-11917",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NDc5MjQ5MDIyNzg5MzQxMQ==",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Sambandhasiddhi",
+          "title": "संबन्धसिद्धिः",
+          "author": "उत्पलदेवः",
+          "publisher": null,
+          "publish_year": null,
+          "pages": null,
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "purusottama",
+      "work_id": "prasthana-ratnakara",
+      "title_iast": "Prasthāna-Ratnākara",
+      "school": "Śuddhādvaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-11073",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NjA4ODMzMjkzNjY5MjYwMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Prasthana Ratnakara",
+          "title": "प्रस्थानरत्नाकरः",
+          "author": "पुरुषोत्तम-गोस्वामी",
+          "publisher": "ज्येष्ठराम-मुकुन्दजी",
+          "publish_year": "1909",
+          "pages": "236",
+          "language": "संस्कृतम्",
+          "editor": "रत्नगोपालभट्टः",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "vallabha",
+      "work_id": "tattvartha-dipa-nibandha",
+      "title_iast": "Tattvārtha-Dīpa-Nibandha",
+      "school": "Śuddhādvaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-10408",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NjcxODIxMTk4ODIxOTk5",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Tattvartha Dipa Nibandha",
+          "title": "तत्त्वार्थदीपनिबन्धः",
+          "author": "वल्लभाचार्यः",
+          "publisher": "शेठ-नारायणदास-एण्ड्-जेठानन्द-आसनमल्ल-चैरिटी-ट्रास्ट्",
+          "publish_year": "1943",
+          "pages": "471",
+          "language": "संस्कृतम्",
+          "editor": "हरिशङ्कर-शास्त्री",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "jayatirtha",
+      "work_id": "vadavali",
+      "title_iast": "Vādāvalī",
+      "school": "Tattva-vāda",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-5686",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=Mjk0MTE0NDM2NDM4NTQ1",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vadavali",
+          "title": "वादावली",
+          "author": "जयतीर्थः",
+          "publisher": "अड्यारपुस्तकालयः",
+          "publish_year": "1943",
+          "pages": "129",
+          "language": "संस्कृतम् आङ्ग्लम्",
+          "editor": "पि. नागराजराव्",
+          "primary_commentator": null,
+          "commentary_name": null
+        },
+        {
+          "serial": "Ebharati-3530",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MDY2OTQ3NTM3NjY4ODMz",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vadavali",
+          "title": "वादावली",
+          "author": "श्रीजयतीर्थयतिः",
+          "publisher": null,
+          "publish_year": null,
+          "pages": null,
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "madhva",
+      "work_id": "tattvodyota",
+      "title_iast": "Tattvodyota",
+      "school": "Tattva-vāda",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-2261",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MjQxNjExNDA1NzQwNzEy",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Tattvodyota",
+          "title": "तत्वोद्योतम्",
+          "author": "श्रीमदानन्दतीर्थभगवत्पादाः",
+          "publisher": null,
+          "publish_year": null,
+          "pages": "871",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": null,
+          "commentary_name": null
+        },
+        {
+          "serial": "Ebharati-3197",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NDMxMzIwNzg5OTk4NjAz",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Tattvodyota-prakarana-grantha",
+          "title": "तत्त्वोद्योतः प्रकरणविशेषः",
+          "author": "श्रीमदानन्दतीर्थभगवत्पादाचार्याः",
+          "publisher": null,
+          "publish_year": null,
+          "pages": null,
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "nyayaratnavali",
+      "title_iast": "Nyāyaratnāvalī",
+      "school": "Tattva-vāda",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-1852",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NDQ1NTY5MDQwNTg3Nzcx",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Nyayaratnavali",
+          "title": "न्यायरत्नावली",
+          "author": "श्रीमद्वादिराजयतीन्द्रः",
+          "publisher": "श्रीविश्वेन्द्रतीर्थशिरोमणिः",
+          "publish_year": null,
+          "pages": "165",
+          "language": "संस्कृतम्",
+          "editor": "वि. अनन्तकृष्णोपाध्यायः",
+          "primary_commentator": "पडमुन्नूरु-नारायणाचार्यः",
+          "commentary_name": "प्रकाशसङ्ग्रहः"
+        }
+      ]
+    },
+    {
+      "thinker_id": "vadiraja-tirtha",
+      "work_id": "yuktimallika",
+      "title_iast": "Yuktimallikā",
+      "school": "Tattva-vāda",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-11970",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MDQzMTk3MTIwNTcwOTQxMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Yuktimallika (Bhedasaurabham)",
+          "title": "युक्तिमल्लिका (भेदसौरभम्)",
+          "author": "वादिराज-तीर्थः",
+          "publisher": "टी-आर्-कृष्णाचार्यः",
+          "publish_year": "1903",
+          "pages": "430",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "सुरोत्तम-तीर्थः",
+          "commentary_name": "भावविलासिनी"
+        },
+        {
+          "serial": "Ebharati-11968",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=Njk0NjAzOTIwMzg4ODQxMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Yuktimallika (Gunasaurabham)",
+          "title": "युक्तिमल्लिका (गुणसौरभम्)",
+          "author": "वादिराज-तीर्थः",
+          "publisher": "टी-आर्-कृष्णाचार्यः",
+          "publish_year": "1903",
+          "pages": "270",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "सुरोत्तम-तीर्थः",
+          "commentary_name": "भावविलासिनी"
+        },
+        {
+          "serial": "Ebharati-11972",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NDgxNjcyNDEwNzYyOTQxMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Yuktimallika (Phalasaurabham)",
+          "title": "युक्तिमल्लिका (फलसौरभम्)",
+          "author": "वादिराज-तीर्थः",
+          "publisher": "टी-आर्-कृष्णाचार्यः",
+          "publish_year": "1903",
+          "pages": "277",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "सुरोत्तम-तीर्थः",
+          "commentary_name": "भावविलासिनी"
+        },
+        {
+          "serial": "Ebharati-11969",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=ODE5ODQ1NTIwOTc5ODQxMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Yuktimallika (Shuddhisaurabham)",
+          "title": "युक्तिमल्लिका (शुद्धिसौरभम्)",
+          "author": "वादिराज-तीर्थः",
+          "publisher": "टी-आर्-कृष्णाचार्यः",
+          "publish_year": "1903",
+          "pages": "168",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "सुरोत्तम-तीर्थः",
+          "commentary_name": "भावविलासिनी"
+        },
+        {
+          "serial": "Ebharati-11971",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MjY3MzMwODEwMTcxOTQxMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Yuktimallika (Vishwasaurabham)",
+          "title": "युक्तिमल्लिका (विश्वसौरभम्)",
+          "author": "वादिराज-तीर्थः",
+          "publisher": "टी-आर्-कृष्णाचार्यः",
+          "publish_year": "1903",
+          "pages": "288",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "सुरोत्तम-तीर्थः",
+          "commentary_name": "भावविलासिनी"
+        }
+      ]
+    },
+    {
+      "thinker_id": "ramanuja",
+      "work_id": "gadya-trayam",
+      "title_iast": "Gadya-Trayam",
+      "school": "Viśiṣṭādvaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-10503",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NjYyODUxNDM1ODQyODAwMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Gadya Trayam",
+          "title": "गद्यत्रयम्",
+          "author": "रामानुजः",
+          "publisher": null,
+          "publish_year": "1910",
+          "pages": "116",
+          "language": "संस्कृतम्",
+          "editor": "रायपेट्ट-कृष्णमाचार्यः",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "ramanuja",
+      "work_id": "nitya-grantha",
+      "title_iast": "Nitya-Grantha",
+      "school": "Viśiṣṭādvaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-10486",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MjkwNzMwODk1NjE2NjAwMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Nitya Grantha",
+          "title": "नित्यग्रन्थः",
+          "author": "रामानुजः",
+          "publisher": "वि. पेरुमळ्-चेट्टि-एण्ड्-सन्स्",
+          "publish_year": "1941",
+          "pages": "98",
+          "language": "संस्कृतम्",
+          "editor": "अनन्ताचार्यः",
+          "primary_commentator": "वङ्गि-वंशेश्वरः",
+          "commentary_name": "आह्निक-कारिका"
+        }
+      ]
+    },
+    {
+      "thinker_id": "ramanuja",
+      "work_id": "vedanta-dipa",
+      "title_iast": "Vedānta-Dīpa",
+      "school": "Viśiṣṭādvaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-10538",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NjMwMzQ2MjA0ODA2MTEwMQ==",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vedanta Dipa",
+          "title": "वेदान्तदीपः",
+          "author": "रामानुजः",
+          "publisher": "हरिदास-गुप्तः",
+          "publish_year": "1902",
+          "pages": "254",
+          "language": "संस्कृतम्",
+          "editor": "भट्टनाथ-स्वामी",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    },
+    {
+      "thinker_id": "srinivasa-dasa",
+      "work_id": "yatindramatadipika",
+      "title_iast": "Yatīndramatadīpikā",
+      "school": "Viśiṣṭādvaita",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-8541",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MjAzNjI1NjA5MzA5OTE4",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Yatindramata-dipika",
+          "title": "यतीन्द्रमतदीपिका",
+          "author": "श्रीनिवासदासः",
+          "publisher": "विनायक-गणेश-आप्टे",
+          "publish_year": "1934",
+          "pages": "127",
+          "language": "संस्कृतम्",
+          "editor": "वासुदेवशास्त्री",
+          "primary_commentator": "वासुदेवशास्त्री",
+          "commentary_name": "प्रकाशा"
+        }
+      ]
+    },
+    {
+      "thinker_id": "bhartrhari",
+      "work_id": "vakyapadiya",
+      "title_iast": "Vākyapadīya",
+      "school": "Vyākaraṇa",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-9415",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MDMxMzA0MjI2NDA4MzA5",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vakyapadiya",
+          "title": "वाक्यपदीयम्",
+          "author": "भर्तृहरिः",
+          "publisher": null,
+          "publish_year": "1942",
+          "pages": "305",
+          "language": "संस्कृतम्",
+          "editor": "एल्. ए. रविवर्मा",
+          "primary_commentator": "हेलराजः",
+          "commentary_name": "प्रकीर्णप्रकाशः"
+        },
+        {
+          "serial": "Ebharati-861",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MjQzNTI3NDY3MjU2Mjg=",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Vakyapadiyam",
+          "title": "वाक्यपदीयम्(द्वितीयकाण्डम्)",
+          "author": "भर्तृहरिः",
+          "publisher": null,
+          "publish_year": null,
+          "pages": "98",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "हरिवृषभः",
+          "commentary_name": "स्वोपज्ञवृत्तिः प्रकाश-व्याख्या अम्बाकर्त्रो-टीका"
+        },
+        {
+          "serial": "Ebharati-864",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=ODA2MjU0MzU3MDQ5Mjg=",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vakyapadiyam (brahmakandam)",
+          "title": "वाक्यपदीयम् (ब्रह्मकाण्डम्)",
+          "author": "भर्तृहरिः",
+          "publisher": null,
+          "publish_year": null,
+          "pages": "622",
+          "language": "संस्कृतम्",
+          "editor": null,
+          "primary_commentator": "हरिवृषभः",
+          "commentary_name": "स्वोपज्ञवृत्तिः अम्बाकर्त्रो-टीका"
+        },
+        {
+          "serial": "Ebharati-862",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NDY3NzY5MDY3ODQ3Mjg=",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Vakyapadiyam (Tritiya Kanda)",
+          "title": "वाक्यपदीयम् (तृतीयकाण्डम्)",
+          "author": "भर्तृहरिः",
+          "publisher": "ब्रज्दास-एण्ड-कम्पनी",
+          "publish_year": "1905",
+          "pages": "296",
+          "language": "संस्कृतम्",
+          "editor": "पं. रामचन्द्रशास्त्री-कोटिभास्करः",
+          "primary_commentator": "हेलराजः",
+          "commentary_name": null
+        },
+        {
+          "serial": "Ebharati-9103",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=NjY0NzY3NDk3MzU4Mzc4",
+          "access": "ebook-reader",
+          "catalogue_title_roman": "Vakyapadiyam (Vol-3)",
+          "title": "वाक्यपदीयम् (तृतीयकाण्डम्)",
+          "author": "भर्तृहरिः",
+          "publisher": "गवर्नमेण्ट्-आफ्-ट्रवण्कोर्",
+          "publish_year": "1935",
+          "pages": "196",
+          "language": "संस्कृतम्",
+          "editor": "के. साम्बशिवशास्त्री",
+          "primary_commentator": "हेलाराजः",
+          "commentary_name": "प्रकीर्णकप्रकाशः"
+        }
+      ]
+    },
+    {
+      "thinker_id": "bhojaraja",
+      "work_id": "raja-martanda",
+      "title_iast": "Rāja-Mārtaṇḍa",
+      "school": "Yoga",
+      "verification": "catalogue author matches target thinker",
+      "editions": [
+        {
+          "serial": "Ebharati-10316",
+          "record_url": "https://www.ebharatisampat.in/readSearch.php?id=MjUzNTI4NjMyNzkyMDk5",
+          "access": "public-unicode-reader",
+          "catalogue_title_roman": "Rajamartanda",
+          "title": "राजमार्तण्डः",
+          "author": "भोजराजः",
+          "publisher": "यादव-आचार्यः",
+          "publish_year": "1924",
+          "pages": "166",
+          "language": "संस्कृतम्",
+          "editor": "यादव-आचार्यः",
+          "primary_commentator": null,
+          "commentary_name": null
+        }
+      ]
+    }
+  ]
+}
