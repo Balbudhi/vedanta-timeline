@@ -22,3 +22,7 @@ data/sources/**/*_RAW.htm
 # and ships only material we can show a licence for, so these stay local until
 # their rights status is settled. See data/sources/_unverified_ocr/README.md.
 /_acquisition_holding/
+# Local, auditable API transcription passes. They can contain private source
+# audio-derived text and must never be published automatically.
+bhakti/*/.transcription/
+__pycache__/
