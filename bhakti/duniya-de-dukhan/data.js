@@ -187,13 +187,13 @@ window.SONG_LINES = {
 
   v4a: {
     roman: "Ik vārī maiyā sāḍī jholī nū bhar de",
-    english: "{2:Mother}, {6,7:fill} {3:my} {4:lap} just {0,1:once}.",
+    english: "{2:Mother}, {6,7:fill} {3:my} {4:alms bag} just {0,1:once}.",
     words: [
       { roman: "Ik", gloss: "one" },
       { roman: "vārī", gloss: "time" },
       { roman: "maiyā", gloss: "Mother" },
       { roman: "sāḍī", gloss: "our (my)" },
-      { roman: "jholī", gloss: "lap, alms bag" },
+      { roman: "jholī", gloss: "alms bag, begging pouch" },
       { roman: "nū", gloss: "to (accusative)" },
       { roman: "bhar", gloss: "fill" },
       { roman: "de", gloss: "give" }

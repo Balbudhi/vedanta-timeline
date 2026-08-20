@@ -27,7 +27,7 @@ const LINES = {
 
   refrain: {
     roman: "Main laṛ phaṛyā ae terā, koī hor nahī ae merā",
-    english: "{0:I} {3:have} {2:grabbed onto} the {1:hem} of {4:Your} {1:dress}; {6,7:I have no} {5:one else}.",
+    english: "{0:I} {3:have} {2:grabbed onto} the {1:hem} of {4:Your} {1:garment}; {6,7:I have no} {5:one else}.",
     words: [
       { roman: "Main",     gloss: "I" },
       { roman: "laṛ",      gloss: "hem, edge of a garment" },
