@@ -229,122 +229,190 @@ window.SONG_LINES = {
 };
 
 window.SONG_SEQUENCE = [
-  { ref: "invocation", repeats: 1 },
-  { ref: "refrain", repeats: 4 },
-  { ref: "refrain_b", repeats: 2 },
-  { ref: "refrain", repeats: 2 },
-  { ref: "v1a", repeats: 3 },
-  { ref: "v1b", repeats: 4 },
-  { ref: "v1c", repeats: 2 },
-  { ref: "refrain", repeats: 2 },
-  { ref: "refrain_b", repeats: 2 },
-  { ref: "v2a", repeats: 3 },
-  { ref: "v2b", repeats: 4 },
-  { ref: "v2c", repeats: 2 },
-  { ref: "refrain", repeats: 2 },
-  { ref: "v3a", repeats: 3 },
-  { ref: "v3b", repeats: 4 },
-  { ref: "v3c", repeats: 2 },
-  { ref: "refrain", repeats: 2 },
-  { ref: "v4a", repeats: 3 },
-  { ref: "v4b", repeats: 4 },
-  { ref: "v4c", repeats: 2 },
-  { ref: "refrain", repeats: 2 },
-  { ref: "refrain_b", repeats: 2 },
-  { ref: "closing", repeats: 5 }
+  {
+    ref: "invocation"
+  },
+  {
+    ref: "refrain",
+    repeats: 4
+  },
+  {
+    ref: "refrain_b",
+    repeats: 2
+  },
+  {
+    ref: "refrain",
+    repeats: 2
+  },
+  {
+    ref: "v1a",
+    repeats: 4
+  },
+  {
+    ref: "v1b",
+    repeats: 4
+  },
+  {
+    ref: "v1c",
+    repeats: 2
+  },
+  {
+    ref: "refrain",
+    repeats: 2
+  },
+  {
+    ref: "refrain_b",
+    repeats: 2
+  },
+  {
+    ref: "v2a",
+    repeats: 4
+  },
+  {
+    ref: "v2b",
+    repeats: 4
+  },
+  {
+    ref: "v2c",
+    repeats: 2
+  },
+  {
+    ref: "refrain",
+    repeats: 2
+  },
+  {
+    ref: "v3a",
+    repeats: 4
+  },
+  {
+    ref: "v3b",
+    repeats: 4
+  },
+  {
+    ref: "v3c",
+    repeats: 2
+  },
+  {
+    ref: "refrain",
+    repeats: 2
+  },
+  {
+    ref: "v4a",
+    repeats: 4
+  },
+  {
+    ref: "v4b",
+    repeats: 4
+  },
+  {
+    ref: "v4c",
+    repeats: 2
+  },
+  {
+    ref: "refrain",
+    repeats: 2
+  },
+  {
+    ref: "refrain_b",
+    repeats: 2
+  },
+  {
+    ref: "closing",
+    repeats: 6
+  }
 ];
 
 window.SONG_TIMINGS = [
   {
     start: 0,
-    end: 19
+    end: 11
   },
   {
-    start: 19,
-    end: 58
+    start: 11,
+    end: 50
   },
   {
-    start: 58,
-    end: 75
+    start: 50,
+    end: 68
   },
   {
-    start: 75,
-    end: 95
+    start: 68,
+    end: 87
   },
   {
-    start: 95,
-    end: 119
+    start: 120,
+    end: 144
   },
   {
-    start: 119,
-    end: 137
+    start: 144,
+    end: 167
   },
   {
-    start: 137,
-    end: 155
+    start: 167,
+    end: 185
   },
   {
-    start: 155,
-    end: 172
+    start: 185,
+    end: 202
   },
   {
-    start: 172,
-    end: 190
+    start: 202,
+    end: 221
   },
   {
-    start: 190,
-    end: 213
+    start: 221,
+    end: 245
   },
   {
-    start: 213,
-    end: 236
+    start: 245,
+    end: 268
   },
   {
-    start: 236,
-    end: 254
+    start: 268,
+    end: 286
   },
   {
-    start: 254,
-    end: 272
+    start: 286,
+    end: 303
   },
   {
-    start: 272,
-    end: 295
+    start: 303,
+    end: 327
   },
   {
-    start: 295,
-    end: 318
+    start: 327,
+    end: 350
   },
   {
-    start: 318,
-    end: 336
+    start: 350,
+    end: 365
   },
   {
-    start: 336,
-    end: 354
+    start: 365,
+    end: 383
   },
   {
-    start: 354,
-    end: 378
+    start: 383,
+    end: 407
   },
   {
-    start: 378,
-    end: 401
+    start: 407,
+    end: 431
   },
   {
-    start: 401,
-    end: 419
+    start: 431,
+    end: 450
   },
   {
-    start: 419,
-    end: 436
+    start: 450,
+    end: 468
   },
   {
-    start: 436,
-    end: 454
+    start: 468,
+    end: 481
   },
   {
-    start: 454,
-    end: 512
+    start: 481,
+    end: 512.39
   }
 ];

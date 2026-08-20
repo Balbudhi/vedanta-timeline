@@ -239,7 +239,7 @@ window.SONG_SEQUENCE = [
   },
   {
     ref: "refrain_b",
-    repeats: 1
+    repeats: 2
   },
   {
     ref: "refrain_a",
@@ -247,11 +247,11 @@ window.SONG_SEQUENCE = [
   },
   {
     ref: "v1a",
-    repeats: 3
+    repeats: 4
   },
   {
     ref: "v1b",
-    repeats: 3
+    repeats: 4
   },
   {
     ref: "v1c",
@@ -263,7 +263,7 @@ window.SONG_SEQUENCE = [
   },
   {
     ref: "refrain_b",
-    repeats: 1
+    repeats: 2
   },
   {
     ref: "refrain_a",
@@ -271,11 +271,11 @@ window.SONG_SEQUENCE = [
   },
   {
     ref: "v2a",
-    repeats: 3
+    repeats: 2
   },
   {
     ref: "v2b",
-    repeats: 3
+    repeats: 4
   },
   {
     ref: "v2c",
@@ -287,7 +287,7 @@ window.SONG_SEQUENCE = [
   },
   {
     ref: "refrain_b",
-    repeats: 1
+    repeats: 2
   },
   {
     ref: "refrain_a",
@@ -295,11 +295,11 @@ window.SONG_SEQUENCE = [
   },
   {
     ref: "v3a",
-    repeats: 3
+    repeats: 4
   },
   {
     ref: "v3b",
-    repeats: 3
+    repeats: 2
   },
   {
     ref: "v3c",
@@ -310,20 +310,12 @@ window.SONG_SEQUENCE = [
     repeats: 2
   },
   {
-    ref: "refrain_b",
-    repeats: 1
-  },
-  {
-    ref: "refrain_a",
-    repeats: 2
-  },
-  {
     ref: "v4a",
-    repeats: 3
+    repeats: 4
   },
   {
     ref: "v4b",
-    repeats: 3
+    repeats: 4
   },
   {
     ref: "v4c",
@@ -335,11 +327,11 @@ window.SONG_SEQUENCE = [
   },
   {
     ref: "refrain_b",
-    repeats: 1
+    repeats: 2
   },
   {
     ref: "refrain_a",
-    repeats: 2
+    repeats: 3
   }
 ];
 
@@ -354,102 +346,94 @@ window.SONG_TIMINGS = [
   },
   {
     start: 43,
-    end: 58
+    end: 66
   },
   {
     start: 66,
-    end: 88
+    end: 90
   },
   {
-    start: 88,
-    end: 107
+    start: 90,
+    end: 114
   },
   {
-    start: 107,
-    end: 121
+    start: 114,
+    end: 123
   },
   {
-    start: 121,
-    end: 137
+    start: 123,
+    end: 139
   },
   {
-    start: 137,
-    end: 149
+    start: 139,
+    end: 152
   },
   {
-    start: 149,
-    end: 164
+    start: 152,
+    end: 173
   },
   {
-    start: 165,
-    end: 186
+    start: 173,
+    end: 179
   },
   {
-    start: 186,
-    end: 205
+    start: 179,
+    end: 203
   },
   {
-    start: 205,
-    end: 219
+    start: 203,
+    end: 221
   },
   {
-    start: 219,
-    end: 235
+    start: 221,
+    end: 237
   },
   {
-    start: 235,
-    end: 247
+    start: 237,
+    end: 243
   },
   {
-    start: 247,
-    end: 263
+    start: 243,
+    end: 265
   },
   {
-    start: 264,
-    end: 284
+    start: 265,
+    end: 289
   },
   {
-    start: 284,
-    end: 303
+    start: 289,
+    end: 301
   },
   {
-    start: 303,
-    end: 317
+    start: 301,
+    end: 314
   },
   {
-    start: 317,
-    end: 333
+    start: 314,
+    end: 335
   },
   {
-    start: 333,
-    end: 345
-  },
-  {
-    start: 345,
+    start: 335,
     end: 361
   },
   {
-    start: 362,
-    end: 382
+    start: 361,
+    end: 385
   },
   {
-    start: 382,
-    end: 401
+    start: 385,
+    end: 403
   },
   {
-    start: 401,
-    end: 415
+    start: 403,
+    end: 421
   },
   {
-    start: 415,
-    end: 431
+    start: 421,
+    end: 434
   },
   {
-    start: 431,
-    end: 443
-  },
-  {
-    start: 443,
-    end: 463
+    start: 434,
+    end: 463.02
   }
 ];
