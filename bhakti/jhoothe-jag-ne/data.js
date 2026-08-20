@@ -255,27 +255,96 @@ window.SONG_SEQUENCE = [
 ];
 
 window.SONG_TIMINGS = [
-  { start: 0.00, end: 10.50 },     // 0: invocation
-  { start: 10.50, end: 49.50 },    // 1: refrain x4
-  { start: 49.50, end: 66.50 },    // 2: refrain_b x2
-  { start: 66.50, end: 120.50 },   // 3: refrain x2
-  { start: 120.50, end: 144.50 },  // 4: v1a x3
-  { start: 144.50, end: 167.50 },  // 5: v1b x4
-  { start: 167.50, end: 185.50 },  // 6: v1c x2
-  { start: 185.50, end: 202.50 },  // 7: refrain x2
-  { start: 202.50, end: 220.50 },  // 8: refrain_b x2
-  { start: 220.50, end: 244.50 },  // 9: v2a x3
-  { start: 244.50, end: 267.50 },  // 10: v2b x4
-  { start: 267.50, end: 285.50 },  // 11: v2c x2
-  { start: 285.50, end: 303.50 },  // 12: refrain x2
-  { start: 303.50, end: 326.50 },  // 13: v3a x3
-  { start: 326.50, end: 349.50 },  // 14: v3b x4
-  { start: 349.50, end: 367.50 },  // 15: v3c x2
-  { start: 367.50, end: 385.50 },  // 16: refrain x2
-  { start: 385.50, end: 408.50 },  // 17: v4a x3
-  { start: 408.50, end: 431.50 },  // 18: v4b x4
-  { start: 431.50, end: 448.50 },  // 19: v4c x2
-  { start: 448.50, end: 465.50 },  // 20: refrain x2
-  { start: 465.50, end: 482.50 },  // 21: refrain_b x2
-  { start: 482.50, end: 506.50 }   // 22: closing x5
+  {
+    start: 0,
+    end: 19
+  },
+  {
+    start: 19,
+    end: 58
+  },
+  {
+    start: 58,
+    end: 75
+  },
+  {
+    start: 75,
+    end: 95
+  },
+  {
+    start: 95,
+    end: 119
+  },
+  {
+    start: 119,
+    end: 137
+  },
+  {
+    start: 137,
+    end: 155
+  },
+  {
+    start: 155,
+    end: 172
+  },
+  {
+    start: 172,
+    end: 190
+  },
+  {
+    start: 190,
+    end: 213
+  },
+  {
+    start: 213,
+    end: 236
+  },
+  {
+    start: 236,
+    end: 254
+  },
+  {
+    start: 254,
+    end: 272
+  },
+  {
+    start: 272,
+    end: 295
+  },
+  {
+    start: 295,
+    end: 318
+  },
+  {
+    start: 318,
+    end: 336
+  },
+  {
+    start: 336,
+    end: 354
+  },
+  {
+    start: 354,
+    end: 378
+  },
+  {
+    start: 378,
+    end: 401
+  },
+  {
+    start: 401,
+    end: 419
+  },
+  {
+    start: 419,
+    end: 436
+  },
+  {
+    start: 436,
+    end: 454
+  },
+  {
+    start: 454,
+    end: 512
+  }
 ];

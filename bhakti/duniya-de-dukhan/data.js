@@ -233,50 +233,223 @@ window.SONG_LINES = {
 };
 
 window.SONG_SEQUENCE = [
-  { ref: "invocation" },
-  { ref: "refrain_a", repeats: 6 },
-  { ref: "refrain_b" },
-  { ref: "refrain_a", repeats: 4 },
-  { ref: "v1a" },
-  { ref: "v1b", repeats: 3 },
-  { ref: "v1c", repeats: 2 },
-  { ref: "refrain_a", repeats: 4 },
-  { ref: "v2a" },
-  { ref: "v2b", repeats: 3 },
-  { ref: "v2c", repeats: 3 },
-  { ref: "refrain_a", repeats: 4 },
-  { ref: "v3a" },
-  { ref: "v3b", repeats: 3 },
-  { ref: "v3c", repeats: 4 },
-  { ref: "refrain_a", repeats: 4 },
-  { ref: "v4a" },
-  { ref: "v4b", repeats: 3 },
-  { ref: "v4c", repeats: 4 },
-  { ref: "refrain_a", repeats: 4 },
-  { ref: "refrain_b", repeats: 3 },
-  { ref: "refrain_a", repeats: 7 }
+  {
+    ref: "refrain_a",
+    repeats: 4
+  },
+  {
+    ref: "refrain_b",
+    repeats: 1
+  },
+  {
+    ref: "refrain_a",
+    repeats: 2
+  },
+  {
+    ref: "v1a",
+    repeats: 3
+  },
+  {
+    ref: "v1b",
+    repeats: 3
+  },
+  {
+    ref: "v1c",
+    repeats: 2
+  },
+  {
+    ref: "refrain_a",
+    repeats: 2
+  },
+  {
+    ref: "refrain_b",
+    repeats: 1
+  },
+  {
+    ref: "refrain_a",
+    repeats: 2
+  },
+  {
+    ref: "v2a",
+    repeats: 3
+  },
+  {
+    ref: "v2b",
+    repeats: 3
+  },
+  {
+    ref: "v2c",
+    repeats: 2
+  },
+  {
+    ref: "refrain_a",
+    repeats: 2
+  },
+  {
+    ref: "refrain_b",
+    repeats: 1
+  },
+  {
+    ref: "refrain_a",
+    repeats: 2
+  },
+  {
+    ref: "v3a",
+    repeats: 3
+  },
+  {
+    ref: "v3b",
+    repeats: 3
+  },
+  {
+    ref: "v3c",
+    repeats: 2
+  },
+  {
+    ref: "refrain_a",
+    repeats: 2
+  },
+  {
+    ref: "refrain_b",
+    repeats: 1
+  },
+  {
+    ref: "refrain_a",
+    repeats: 2
+  },
+  {
+    ref: "v4a",
+    repeats: 3
+  },
+  {
+    ref: "v4b",
+    repeats: 3
+  },
+  {
+    ref: "v4c",
+    repeats: 2
+  },
+  {
+    ref: "refrain_a",
+    repeats: 2
+  },
+  {
+    ref: "refrain_b",
+    repeats: 1
+  },
+  {
+    ref: "refrain_a",
+    repeats: 2
+  }
 ];
 
 window.SONG_TIMINGS = [
-  { start: 0.00, end: 44.00 },    // refrain_a x6
-  { start: 44.00, end: 55.00 },    // refrain_b
-  { start: 55.00, end: 83.00 },   // refrain_a x4
-  { start: 106.00, end: 113.50 },  // v1a
-  { start: 113.50, end: 133.50 },  // v1b x3
-  { start: 133.50, end: 143.00 },  // v1c x2
-  { start: 143.00, end: 171.00 },  // refrain_a x4
-  { start: 171.00, end: 178.00 },  // v2a
-  { start: 178.00, end: 197.50 },  // v2b x3
-  { start: 197.50, end: 214.00 },  // v2c x3
-  { start: 214.00, end: 242.00 },  // refrain_a x4
-  { start: 265.50, end: 272.00 },  // v3a
-  { start: 272.00, end: 292.00 },  // v3b x3
-  { start: 292.00, end: 308.50 },  // v3c x4
-  { start: 308.50, end: 336.00 },  // refrain_a x4
-  { start: 336.00, end: 342.00 },  // v4a
-  { start: 342.00, end: 362.00 },  // v4b x3
-  { start: 362.00, end: 378.00 },  // v4c x4
-  { start: 378.00, end: 404.00 },  // refrain_a x4
-  { start: 404.00, end: 413.00 },  // refrain_b x3
-  { start: 413.00, end: 514.00 }   // refrain_a x7
+  {
+    start: 0,
+    end: 31
+  },
+  {
+    start: 31,
+    end: 43
+  },
+  {
+    start: 43,
+    end: 58
+  },
+  {
+    start: 66,
+    end: 88
+  },
+  {
+    start: 88,
+    end: 107
+  },
+  {
+    start: 107,
+    end: 121
+  },
+  {
+    start: 121,
+    end: 137
+  },
+  {
+    start: 137,
+    end: 149
+  },
+  {
+    start: 149,
+    end: 164
+  },
+  {
+    start: 165,
+    end: 186
+  },
+  {
+    start: 186,
+    end: 205
+  },
+  {
+    start: 205,
+    end: 219
+  },
+  {
+    start: 219,
+    end: 235
+  },
+  {
+    start: 235,
+    end: 247
+  },
+  {
+    start: 247,
+    end: 263
+  },
+  {
+    start: 264,
+    end: 284
+  },
+  {
+    start: 284,
+    end: 303
+  },
+  {
+    start: 303,
+    end: 317
+  },
+  {
+    start: 317,
+    end: 333
+  },
+  {
+    start: 333,
+    end: 345
+  },
+  {
+    start: 345,
+    end: 361
+  },
+  {
+    start: 362,
+    end: 382
+  },
+  {
+    start: 382,
+    end: 401
+  },
+  {
+    start: 401,
+    end: 415
+  },
+  {
+    start: 415,
+    end: 431
+  },
+  {
+    start: 431,
+    end: 443
+  },
+  {
+    start: 443,
+    end: 463
+  }
 ];
