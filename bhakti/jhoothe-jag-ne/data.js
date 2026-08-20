@@ -255,27 +255,27 @@ window.SONG_SEQUENCE = [
 ];
 
 window.SONG_TIMINGS = [
-  { start: 0.00, end: 18.00 },     // 0: invocation
-  { start: 18.00, end: 57.00 },    // 1: refrain x4
-  { start: 57.00, end: 74.00 },    // 2: refrain_b x2
-  { start: 74.00, end: 128.00 },   // 3: refrain x2
-  { start: 128.00, end: 152.00 },  // 4: v1a x3
-  { start: 152.00, end: 175.00 },  // 5: v1b x4
-  { start: 175.00, end: 193.00 },  // 6: v1c x2
-  { start: 193.00, end: 210.00 },  // 7: refrain x2
-  { start: 210.00, end: 228.00 },  // 8: refrain_b x2
-  { start: 228.00, end: 252.00 },  // 9: v2a x3
-  { start: 252.00, end: 275.00 },  // 10: v2b x4
-  { start: 275.00, end: 293.00 },  // 11: v2c x2
-  { start: 293.00, end: 311.00 },  // 12: refrain x2
-  { start: 311.00, end: 334.00 },  // 13: v3a x3
-  { start: 334.00, end: 357.00 },  // 14: v3b x4
-  { start: 357.00, end: 375.00 },  // 15: v3c x2
-  { start: 375.00, end: 393.00 },  // 16: refrain x2
-  { start: 393.00, end: 416.00 },  // 17: v4a x3
-  { start: 416.00, end: 439.00 },  // 18: v4b x4
-  { start: 439.00, end: 456.00 },  // 19: v4c x2
-  { start: 456.00, end: 473.00 },  // 20: refrain x2
-  { start: 473.00, end: 490.00 },  // 21: refrain_b x2
-  { start: 490.00, end: 514.00 }   // 22: closing x5
+  { start: 0.00, end: 10.50 },     // 0: invocation
+  { start: 10.50, end: 49.50 },    // 1: refrain x4
+  { start: 49.50, end: 66.50 },    // 2: refrain_b x2
+  { start: 66.50, end: 120.50 },   // 3: refrain x2
+  { start: 120.50, end: 144.50 },  // 4: v1a x3
+  { start: 144.50, end: 167.50 },  // 5: v1b x4
+  { start: 167.50, end: 185.50 },  // 6: v1c x2
+  { start: 185.50, end: 202.50 },  // 7: refrain x2
+  { start: 202.50, end: 220.50 },  // 8: refrain_b x2
+  { start: 220.50, end: 244.50 },  // 9: v2a x3
+  { start: 244.50, end: 267.50 },  // 10: v2b x4
+  { start: 267.50, end: 285.50 },  // 11: v2c x2
+  { start: 285.50, end: 303.50 },  // 12: refrain x2
+  { start: 303.50, end: 326.50 },  // 13: v3a x3
+  { start: 326.50, end: 349.50 },  // 14: v3b x4
+  { start: 349.50, end: 367.50 },  // 15: v3c x2
+  { start: 367.50, end: 385.50 },  // 16: refrain x2
+  { start: 385.50, end: 408.50 },  // 17: v4a x3
+  { start: 408.50, end: 431.50 },  // 18: v4b x4
+  { start: 431.50, end: 448.50 },  // 19: v4c x2
+  { start: 448.50, end: 465.50 },  // 20: refrain x2
+  { start: 465.50, end: 482.50 },  // 21: refrain_b x2
+  { start: 482.50, end: 506.50 }   // 22: closing x5
 ];
