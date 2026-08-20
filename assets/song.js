@@ -398,8 +398,10 @@ function render() {
   const root = document.getElementById("songRoot");
   if (!root) return;
   let html = "";
-  SEQUENCE.forEach((entry, idx) => {
-    const line = LINES[entry.ref];
+  const seq = window.SONG_SEQUENCE || SEQUENCE;
+  const lines = window.SONG_LINES || LINES;
+  seq.forEach((entry, idx) => {
+    const line = lines[entry.ref];
     if (!line) return;
     html += renderLine(line, entry.repeats, entry.sectionLabel, `ln-${idx}-${entry.ref}`);
   });
@@ -536,6 +538,7 @@ function setupKaraoke() {
   if (!audio || !TIMINGS.length) return;
 
   let activeIdx = -1;
+  const seq = window.SONG_SEQUENCE || SEQUENCE;
 
   audio.addEventListener("timeupdate", () => {
     const t = audio.currentTime;
@@ -546,7 +549,7 @@ function setupKaraoke() {
     document.querySelectorAll(".line.is-singing").forEach(el => el.classList.remove("is-singing"));
     if (idx < 0) return;
 
-    const article = document.getElementById(`ln-${idx}-${SEQUENCE[idx].ref}`);
+    const article = document.getElementById(`ln-${idx}-${seq[idx].ref}`);
     if (!article) return;
     article.classList.add("is-singing");
 
