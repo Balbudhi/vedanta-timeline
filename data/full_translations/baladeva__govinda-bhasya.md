@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Baladeva's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Baladeva Vidyābhūṣaṇa).
+- Baladeva's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Baladeva Vidyābhūṣaṇa).
 - Jīva Gosvāmin's *Sat-Sandarbha* file, which articulates the Gauḍīya metaphysics that Baladeva codifies into a *Brahma-Sūtra* commentary.
 
 ## Acquisition queue

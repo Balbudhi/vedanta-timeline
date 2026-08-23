@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Sureśvara's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Sureśvara).
+- Sureśvara's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Sureśvara).
 - Files for Sureśvara's *Naiṣkarmya-Siddhi*, the Bhartṛprapañca reconstruction dossier (which Sureśvara's vārttika is in part directed against), and Mandana's *Brahma-Siddhi*, which together place the vārttika in its eighth-century Advaita-internal context.
 
 ## Acquisition queue

@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Vedānta Deśika's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Vedānta Deśika).
+- Vedānta Deśika's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Vedānta Deśika).
 - Files for Vedānta Deśika's *Tattva-Muktā-Kalāpa*, *Sarvārtha-Siddhi*, *Rahasya-Traya-Sāra*, and *Pāñcarātra-Rakṣā*, which together provide the constructive metaphysics whose polemical face is the *Śatadūṣaṇī*; the Madhusūdana *Advaita-Siddhi* file shows how the Advaita tradition replied.
 
 ## Acquisition queue

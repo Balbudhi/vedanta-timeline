@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Sureśvara's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Sureśvara).
+- Sureśvara's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Sureśvara).
 - Files for Sureśvara's *Naiṣkarmya-Siddhi* and the *Bṛhadāraṇyaka-Vārttika* stub, which together situate the *Taittirīya-Vārttika* within Sureśvara's larger Advaita corpus.
 
 ## Acquisition queue

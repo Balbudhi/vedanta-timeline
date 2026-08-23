@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Jayatīrtha's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Jayatīrtha).
+- Jayatīrtha's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Jayatīrtha).
 - Files for Madhva's *Brahma-Sūtra-Bhāṣya*, Madhva's *Anuvyākhyāna*, Vyāsatīrtha's *Nyāyāmṛta* and *Tarka-Tāṇḍava*, and Rāghavendra's *Tantra-Dīpikā* and *Nyāya-Sudhā-Parimala*, which together situate the commentarial chain on which Jayatīrtha is the central node.
 
 ## Acquisition queue

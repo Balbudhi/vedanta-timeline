@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Bhāskara's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Bhāskara).
+- Bhāskara's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Bhāskara).
 - Surveys of Bhāskara's polemic appear in the secondary scholarship engaged in our Rāmānuja, Yāmuna, and Mandana files; later *bhedābheda* thinkers (Yādavaprakāśa, Nimbārka, Vijñānabhikṣu) all stand in some relation to Bhāskara's position.
 
 ## Acquisition queue

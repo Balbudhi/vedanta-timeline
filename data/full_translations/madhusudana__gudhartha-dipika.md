@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Madhusūdana's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Madhusūdana Sarasvatī).
+- Madhusūdana's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Madhusūdana Sarasvatī).
 - Files for Madhusūdana's *Advaita-Siddhi*, *Bhakti-Rasāyana*, and *Siddhānta-Bindu*, which together articulate the metaphysics and devotional theory presupposed by the *Gūḍhārtha-Dīpikā*.
 
 ## Acquisition queue

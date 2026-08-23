@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Madhva's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Madhva).
+- Madhva's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Madhva).
 - Files for Madhva's *Gītā-Bhāṣya*, *Brahma-Sūtra-Bhāṣya*, *Anuvyākhyāna*, *Mahābhārata-Tātparya-Nirṇaya*, and *Bhāgavata-Tātparya-Nirṇaya*, which together articulate the *tātparya*-method and the doctrines it supports.
 
 ## Acquisition queue

@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Vidyāraṇya's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Vidyāraṇya).
+- Vidyāraṇya's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Vidyāraṇya).
 - Files for Padmapāda's *Pañcapādikā*, Prakāśātman's *Pañcapādikā-Vivaraṇa*, Vidyāraṇya's *Pañcadaśī* and *Jīvanmukti-Viveka*, and Sarvajñātman's *Saṃkṣepa-Śārīraka*, which together situate the *Vivaraṇa-Prameya-Saṃgraha* in its school.
 
 ## Acquisition queue

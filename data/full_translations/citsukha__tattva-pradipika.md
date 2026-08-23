@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Citsukha's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Citsukha).
+- Citsukha's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Citsukha).
 - Madhusūdana's *Advaita-Siddhi* and Vyāsatīrtha's *Nyāyāmṛta* files, which presuppose and engage Citsukha's arguments; the polemic chains there give a partial indirect access to his positions.
 
 ## Acquisition queue

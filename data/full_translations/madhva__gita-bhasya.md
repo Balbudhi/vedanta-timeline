@@ -21,7 +21,7 @@ What is widely known about this work:
 
 What is in our corpus that bears on it:
 
-- Madhva's `core_thesis` and engaged_works summary in the timeline entry (see https://balbudhi.github.io/vedanta-timeline/ and locate Madhva).
+- Madhva's `core_thesis` and engaged_works summary in the timeline entry (see https://vedanta.eeshan.xyz/ and locate Madhva).
 - Files for Madhva's *Brahma-Sūtra-Bhāṣya*, *Anuvyākhyāna*, *Viṣṇu-Tattva-Vinirṇaya*, and the smaller dialectical *prakaraṇas* (*Māyāvāda-Khaṇḍana*, *Mithyātvānumāna-Khaṇḍana*, *Tattvodyota*, *Upādhi-Khaṇḍana*), which articulate the metaphysics presupposed by the *Gītā-Bhāṣya*.
 
 ## Acquisition queue
