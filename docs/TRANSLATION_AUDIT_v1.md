@@ -1,6 +1,6 @@
 # TRANSLATION_AUDIT v1
 Owner: `wave-translation-audit-opus`. Scope: every `key_passages[]` entry in every thinker JSON.
-Audit method: programmatic walker (`/orcd/home/002/eeshan/philosophy/site/.snap-tool/audit_translations.py`) checks line-correspondence, pada-coverage, samāsa-coverage, kāraka presence, verb-modality presence, and `why_this_passage` length. Defects are then fixed in-place via Edit; a second adversarial pass re-runs the same walker.
+Audit method: programmatic walker (`.snap-tool/audit_translations.py`) checks line-correspondence, pada-coverage, samāsa-coverage, kāraka presence, verb-modality presence, and `why_this_passage` length. Defects are then fixed in-place via Edit; a second adversarial pass re-runs the same walker.
 
 ## §A — Defect catalog (Pass 1, raw)
 

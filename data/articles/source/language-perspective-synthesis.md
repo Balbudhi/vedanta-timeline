@@ -1162,7 +1162,7 @@ This appendix gathers the article's methodology references to the corpus's stand
 
 ### B.1 The register taxonomy
 
-The eighteen-register taxonomy used in the article's analysis is in `scope_register_methodology/methodology/SCOPE_REGISTER_FRAMEWORK.md` §1. The article uses the taxonomy operationally throughout; the categorization at every load-bearing cross-engagement uses this taxonomy.
+The eighteen-register taxonomy used in the article's analysis is in `internal/scope_register_methodology/methodology/SCOPE_REGISTER_FRAMEWORK.md` §1. The article uses the taxonomy operationally throughout; the categorization at every load-bearing cross-engagement uses this taxonomy.
 
 ### B.2 The scope taxonomy
 
@@ -1186,9 +1186,9 @@ The ten worked case studies in `SCOPE_REGISTER_FRAMEWORK.md` §5 are training ex
 
 A note for the reader who wants to know how the article was produced. The article was written directly, without paraphrase from memory of primary texts. Where the primary text was in hand at editorial precision, the article quotes it verbatim. Where the primary text was not in hand at editorial precision, the article cites the locus and gives the English translation in a reliable translator's voice, with the original-language reading marked `[NOT YET RETRIEVED]` at the level of editorial pagination. The marked passages are:
 
-- *Mahābhāṣya* opening lines in roman-Sanskrit reconstruction at Appendix A.1: the substantive content is the standard scholarly reconstruction; the Kielhorn edition is available in OCR form at `/orcd/pool/008/eeshan/ocr/acquired_primaries/sanskrit_grammar/patanjali_mahabhasya/kielhorn_vol1_1880_djvu.txt`; the OCR is of insufficient quality to support verbatim quotation, and the article relies on the scholarly text-tradition rather than on the OCR.
+- *Mahābhāṣya* opening lines in roman-Sanskrit reconstruction at Appendix A.1: the substantive content is the standard scholarly reconstruction; the Kielhorn edition is available in OCR form at `ocr/acquired_primaries/sanskrit_grammar/patanjali_mahabhasya/kielhorn_vol1_1880_djvu.txt`; the OCR is of insufficient quality to support verbatim quotation, and the article relies on the scholarly text-tradition rather than on the OCR.
 
-- *Vākyapadīya* selected kārikās at Appendix A.2: the Abhyankar–Limaye edition is available in OCR form at `/orcd/pool/008/eeshan/ocr/acquired_primaries/sanskrit_grammar/bhartrhari_vakyapadiya/vakyapadiya_abhyankar_djvu.txt`; the OCR is of insufficient quality to support verbatim quotation, and the article relies on the standard scholarly text-tradition. The substantive content of VP 1.1, 1.131, and 1.44 is well-attested across the standard editions (Iyer, Pillai, Abhyankar–Limaye, Rau); the readings given here are the consensus readings.
+- *Vākyapadīya* selected kārikās at Appendix A.2: the Abhyankar–Limaye edition is available in OCR form at `ocr/acquired_primaries/sanskrit_grammar/bhartrhari_vakyapadiya/vakyapadiya_abhyankar_djvu.txt`; the OCR is of insufficient quality to support verbatim quotation, and the article relies on the standard scholarly text-tradition. The substantive content of VP 1.1, 1.131, and 1.44 is well-attested across the standard editions (Iyer, Pillai, Abhyankar–Limaye, Rau); the readings given here are the consensus readings.
 
 - *Ślokavārttika* Sanskrit at Appendix A.5: `[NOT YET RETRIEVED]` at editorial precision; the substantive doctrine is well-attested in the secondary literature; the article relies on the Jha translation tradition.
 
@@ -1196,7 +1196,7 @@ A note for the reader who wants to know how the article was produced. The articl
 
 The article's substantive claims do not depend on any of the `[NOT YET RETRIEVED]` markings; the claims are stable across the available readings, and the marking is to record where future textual work could sharpen the citation.
 
-The article was reviewed against the META_QUALITY_BAR (`/orcd/pool/008/eeshan/philosophy_articles/META_QUALITY_BAR.md`) for: (a) deep engagement with each named author including at least one load-bearing primary-text quotation in original language with English gloss; (b) generalization of the methodology to every cross-engagement, not narrowing to worked examples; (c) anti-fabrication AF1–AF9 applied throughout; (d) iterative self-audit before commit; (e) Russell-Chakrabarti register with zero AI-tells per `style_purge/STYLE_GUIDE_v2.md`. The audit was conducted at the close of the first draft and revisions were made to bring the single-sentence-paragraph density below 25% and the em-dash density well below 5 per 1000 words.
+The article was reviewed against the META_QUALITY_BAR (`philosophy_articles/META_QUALITY_BAR.md`) for: (a) deep engagement with each named author including at least one load-bearing primary-text quotation in original language with English gloss; (b) generalization of the methodology to every cross-engagement, not narrowing to worked examples; (c) anti-fabrication AF1–AF9 applied throughout; (d) iterative self-audit before commit; (e) Russell-Chakrabarti register with zero AI-tells per `style_purge/STYLE_GUIDE_v2.md`. The audit was conducted at the close of the first draft and revisions were made to bring the single-sentence-paragraph density below 25% and the em-dash density well below 5 per 1000 words.
 
 The article's purpose was stated at the outset: to be the keystone of a methodological program that runs across the site, identifying the structural convergence among seven traditions on the nature of language and exhibiting the discipline that the convergence produces for reading philosophical texts. The reader who has reached the end has the equipment to read every other article in the corpus with the position's discipline operational.
 
@@ -1653,9 +1653,9 @@ The corpus's broader project is, in the end, the user's; the present article is 
 
 A final appendix records what the article leaves open for future textual and philological work.
 
-**Patañjali primary text.** The OCR at `/orcd/pool/008/eeshan/ocr/acquired_primaries/sanskrit_grammar/patanjali_mahabhasya/` is of insufficient quality to support verbatim quotation. A clean Sanskrit text of the *Paspaśāhnika* and of the *bhāṣya* on *A.* 1.2.45 would allow the article's citations at Part 2.2 to be elevated from scholarly reconstruction to direct quotation. The Joshi–Roodbergen annotated editions are the standard scholarly resource; acquisition of the relevant volumes would close this gap.
+**Patañjali primary text.** The OCR at `ocr/acquired_primaries/sanskrit_grammar/patanjali_mahabhasya/` is of insufficient quality to support verbatim quotation. A clean Sanskrit text of the *Paspaśāhnika* and of the *bhāṣya* on *A.* 1.2.45 would allow the article's citations at Part 2.2 to be elevated from scholarly reconstruction to direct quotation. The Joshi–Roodbergen annotated editions are the standard scholarly resource; acquisition of the relevant volumes would close this gap.
 
-**Bhartṛhari primary text.** Similar to Patañjali. The OCR at `/orcd/pool/008/eeshan/ocr/acquired_primaries/sanskrit_grammar/bhartrhari_vakyapadiya/` is insufficient. The Iyer Sanskrit-and-English edition of *Vākyapadīya* I and II in a clean text would close this gap. The Rau edition (Wiesbaden 1977) is the more recent scholarly standard for the Sanskrit; the Subramania Iyer translations remain the standard English aid.
+**Bhartṛhari primary text.** Similar to Patañjali. The OCR at `ocr/acquired_primaries/sanskrit_grammar/bhartrhari_vakyapadiya/` is insufficient. The Iyer Sanskrit-and-English edition of *Vākyapadīya* I and II in a clean text would close this gap. The Rau edition (Wiesbaden 1977) is the more recent scholarly standard for the Sanskrit; the Subramania Iyer translations remain the standard English aid.
 
 **Helārāja's commentary.** The article cites Helārāja at Part 2.3 and Appendix I.3 on the basis of the standard secondary literature; verbatim quotation of Helārāja on *VP* I.1 and on the *Pada-kāṇḍa* opening is not in the present article's holdings. Future revisions would benefit from the standard edition (the Iyer–Rau editions of Helārāja's commentary on *kāṇḍa* III; the surviving fragments of his commentary on *kāṇḍa* I are scattered in the manuscript tradition).
 
@@ -1665,7 +1665,7 @@ A final appendix records what the article leaves open for future textual and phi
 
 **Kondabhaṭṭa's *Vaiyākaraṇa-bhūṣaṇa-sāra*.** Similar.
 
-**Yāska's *Nirukta*.** The OCR at `/orcd/pool/008/eeshan/ocr/acquired_primaries/sanskrit_grammar/yaska_nirukta/` is of insufficient quality to support full verbatim quotation; the article cites *Nirukta* I.1 and I.20 on the basis of the standard text. The Sarup edition is the canonical English-and-Sanskrit aid; verbatim citation would close this gap.
+**Yāska's *Nirukta*.** The OCR at `ocr/acquired_primaries/sanskrit_grammar/yaska_nirukta/` is of insufficient quality to support full verbatim quotation; the article cites *Nirukta* I.1 and I.20 on the basis of the standard text. The Sarup edition is the canonical English-and-Sanskrit aid; verbatim citation would close this gap.
 
 **Jaimini's *Mīmāṃsā-sūtra* and Śabara's *bhāṣya*.** The article cites *MS* 1.1.1–5 verbatim on the basis of the standard text-tradition. A primary-text version with the Śabara *bhāṣya* in clean Sanskrit would allow the article's citations at Part 3.1–3.2 to be sharpened. The Jha edition (Bibliotheca Indica, 1933–36) is the standard English aid.
 

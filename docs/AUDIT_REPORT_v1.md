@@ -1,7 +1,7 @@
 # Adversarial Factual Audit — `data/thinkers/` JSON corpus
 
 **Auditor:** main agent (Claude Opus 4.7), adversarial register.
-**Scope:** all 74 thinker JSON files in `/orcd/home/002/eeshan/philosophy/site/data/thinkers/`.
+**Scope:** all 74 thinker JSON files in `data/thinkers/`.
 **Method:** dating cross-check against Hacker / Nakamura / Mesquita / Carman / Sanderson / Slaje / Sharma / Stanford-tier sources; lineage cross-reference programmatic check; doctrinal-prohibition grep; banned-phrase grep; spot-checks of locus citations and Sanskrit fragments.
 **Date:** 2026-05-09.
 **Constraint:** no files modified. Findings only.

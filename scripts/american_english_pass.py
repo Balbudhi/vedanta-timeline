@@ -857,7 +857,7 @@ def main() -> int:
             process_markdown_file(path, stats)
 
     # Emit report.
-    project_root = Path("/orcd/home/002/eeshan/philosophy")
+    project_root = Path("philosophy")
     handoff = project_root / "handoffs" / "american_english_pass_2026-05-10.md"
     lines = [
         "# American-English standardization pass — 2026-05-10",

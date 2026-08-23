@@ -1,6 +1,6 @@
 # Opus audit — Śaṅkara article v2 (PR #31)
 
-**Worktree:** `/orcd/home/002/eeshan/worktrees/opus-audits/shankara-v2-audit-1778602411`
+**Worktree:** `worktrees/opus-audits/shankara-v2-audit-1778602411`
 **Article:** `data/articles/source/shankara.md` (871 lines, 19,087 words at start of audit)
 **Branch:** `audit/shankara-v2-audit-1778602411`
 **Auditor:** Opus 4.7

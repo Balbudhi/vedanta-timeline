@@ -6,7 +6,7 @@ coverage_evidence: 'locus-scope describes restricted range'
 # Vidhi-Viveka — Extended Translation
 **By:** Maṇḍana Miśra  
 **Locus scope:** No primary Sanskrit locus for *Vidhi-Viveka* is present in the local corpus. The natural first unit for translation, once the text is supplied, would be the opening discussion of *vidhi* and *bhāvanā*; no exact chapter or page range can be responsibly fixed from the materials now on disk.  
-**Source edition transcribed from:** No transcribed primary edition of *Vidhi-Viveka* is available under `/orcd/home/002/eeshan/philosophy/materials/primary_texts/`. Secondary anchors used here: the Maṇḍana thinker file at `/orcd/home/002/eeshan/philosophy/site/data/thinkers/mandana.json`; the project note at `/orcd/home/002/eeshan/philosophy/site/docs/MIMAMSA_AUROBINDO_HYPOTHESIS_v2.md`, which records that *Vidhi-Viveka* is not on disk and cites Andrew Ollett, “What is Bhāvanā?,” *Journal of Indian Philosophy* 41 (2013), 535–555; and the local *Brahma-Siddhi* GRETIL transcription based on S. Kuppuswami Sastri, *Brahma-Siddhi* (Madras: Government Press, 1937).  
+**Source edition transcribed from:** No transcribed primary edition of *Vidhi-Viveka* is available under `data/sources/`. Secondary anchors used here: the Maṇḍana thinker file at `data/thinkers/mandana.json`; the project note at `docs/MIMAMSA_AUROBINDO_HYPOTHESIS_v2.md`, which records that *Vidhi-Viveka* is not on disk and cites Andrew Ollett, “What is Bhāvanā?,” *Journal of Indian Philosophy* 41 (2013), 535–555; and the local *Brahma-Siddhi* GRETIL transcription based on S. Kuppuswami Sastri, *Brahma-Siddhi* (Madras: Government Press, 1937).  
 **Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
 
 ---

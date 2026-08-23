@@ -2,8 +2,8 @@
 
 **Auditor:** Opus 4.7
 **Scope:** Top-30 priority glossary terms (term frequency in articles + thinker JSONs)
-**Methodology source:** `/orcd/pool/008/eeshan/philosophy_articles/scope_register_methodology/methodology/SCOPE_REGISTER_FRAMEWORK.md`
-**Worktree:** `/orcd/home/002/eeshan/worktrees/ui-fixes/by-school-methodology-1778607240`
+**Methodology source:** `philosophy_articles/scope_register_methodology/methodology/SCOPE_REGISTER_FRAMEWORK.md`
+**Worktree:** `worktrees/ui-fixes/by-school-methodology-1778607240`
 
 ---
 

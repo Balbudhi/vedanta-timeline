@@ -29,7 +29,7 @@ PR being audited: `#35 Add Wittgenstein reader article`.
 ### AF1-AF9 status after audit
 
 - AF1 (no asserted influence where there is independent arrival): satisfied. The Wittgenstein↔Bhartṛhari / Wittgenstein↔Vedānta passes are marked as structural homology, not influence.
-- AF2 (no paraphrase-from-memory of primary text): satisfied. All cited TLP, PI, OC propositions quoted with German+English; sources verified against `/orcd/pool/008/eeshan/ocr/acquired_primaries/wittgenstein/`.
+- AF2 (no paraphrase-from-memory of primary text): satisfied. All cited TLP, PI, OC propositions quoted with German+English; sources verified against `ocr/acquired_primaries/wittgenstein/`.
 - AF3 (preserve real disagreements): satisfied. The Kripke-vs-Wittgenstein disagreement is preserved (§III.10); the Diamond-Hacker disagreement is preserved (§I.7, §V).
 - AF4 (cross-tradition mappings marked as user's reconstruction): satisfied. The hinge↔`adhikāra`/`pramāṇa-vyavasthā` mapping is explicitly marked as the user's reconstruction (§IV.5, §IV.6).
 - AF5 (contested translation flagged where relevant): the `Lebensform`/"form of life" translation is left as the standard rendering; no contested-translation flag was needed at this granularity.

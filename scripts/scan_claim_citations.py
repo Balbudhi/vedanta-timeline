@@ -18,7 +18,7 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path("/orcd/home/002/eeshan/worktrees/ui-fixes/claim-citation-phase3-1778607240")
+ROOT = Path("worktrees/ui-fixes/claim-citation-phase3-1778607240")
 THINKERS = ROOT / "data" / "thinkers"
 
 CITE_PATS = [

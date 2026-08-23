@@ -48,7 +48,7 @@ import sys
 from pathlib import Path
 from typing import Tuple
 
-ROOT = Path("/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit")
+ROOT = Path("data/sources/sanskrit")
 
 DEVANAGARI = re.compile(r"[ऀ-ॿ]")
 LATIN_ALPHA = re.compile(r"[A-Za-zĀāĪīŪūṚṛṜṝḶḷḸḹṄṅÑñṬṭḌḍṆṇŚśṢṣṀṁḤḥ]")

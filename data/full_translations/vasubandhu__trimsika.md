@@ -6,7 +6,7 @@ coverage_evidence: 'locus-scope: \\bthe\\s+entire\\s+\\*?[A-ZĀĪŪṚṜḶḸ�
 # Triṃśikā — Extended Translation
 **By:** Vasubandhu  
 **Locus scope:** The entire *Triṃśikā* (all thirty kārikās), taken as a single natural unit because the work is itself short and architectonically complete: verses 1–17 set out the threefold *vijñāna-pariṇāma* analysis, verses 18–25 map that analysis into *trisvabhāva* and *tri-niḥsvabhāvatā*, and verses 26–30 turn to the path and *āśraya-parāvṛtti*.  
-**Source edition transcribed from:** Local romanized Sanskrit transcription in `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/buddhist/vasubandhu_trimsika.txt`, lightly normalized where the local digital string shows obvious sandhi or spacing artefacts; the thinker metadata for this work identifies Sylvain Lévi's *Vijñaptimātratāsiddhi: Deux traités de Vasubandhu, Viṃśatikā et Triṃśikā* (Paris, 1925), with Sthiramati's bhāṣya, as the governing critical-edition reference.  
+**Source edition transcribed from:** Local romanized Sanskrit transcription in `data/sources/sanskrit/buddhist/vasubandhu_trimsika.txt`, lightly normalized where the local digital string shows obvious sandhi or spacing artefacts; the thinker metadata for this work identifies Sylvain Lévi's *Vijñaptimātratāsiddhi: Deux traités de Vasubandhu, Viṃśatikā et Triṃśikā* (Paris, 1925), with Sthiramati's bhāṣya, as the governing critical-edition reference.  
 **Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
 
 ---

@@ -226,7 +226,7 @@ And where, finally, does KCB stop short, leaving the user's own position to go f
 
 The method followed here is therefore bluntly textual.
 The primary chunks listed for this rewrite were actually read in the local corpus.
-The notes are saved separately at `/orcd/pool/008/eeshan/philosophy_articles/kcb_investigation/deepen_notes.md`.
+The notes are saved separately at `philosophy_articles/kcb_investigation/deepen_notes.md`.
 Where a primary was not retrievable, the text says so.
 Where a passage is central, the article quotes and works through it at some length.
 That is not because quotation is piety.

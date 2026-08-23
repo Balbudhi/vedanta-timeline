@@ -6,7 +6,7 @@ coverage_evidence: 'locus-scope describes restricted range'
 # Bhāgavata-Tātparya-Nirṇaya — Extended Translation
 **By:** Madhva  
 **Locus scope:** *Prathama-skandha*, *prathamo'dhyāyaḥ*, recoverable opening citation-sequence: *Bhāg.* 1.1.2, 1.1.3, 1.1.4, 1.1.7, 1.1.8, 1.1.14, 1.1.18, together with Madhva's brief glosses. The local archive witness preserves the prefatory 1.1.1 *tātparya* block only in unstable OCR, so that opening block is not diplomatically extracted here.  
-**Source edition transcribed from:** *Sarva-Mūla-Granthāḥ*, Saṃpuṭa 2: *Purāṇa-prasthānam*; *Śrī Bhāgavata-Tātparya-Nirṇayaḥ*, ed. Bannañje Govindācārya, Akhila-Bhārata-Mādhva-Mahāmaṇḍala-Prakāśanam, 1980. Quoted *Bhāgavata* verses cross-checked against the local GRETIL-derived [bhagavata_purana.txt](/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/bhagavata_purana.txt).  
+**Source edition transcribed from:** *Sarva-Mūla-Granthāḥ*, Saṃpuṭa 2: *Purāṇa-prasthānam*; *Śrī Bhāgavata-Tātparya-Nirṇayaḥ*, ed. Bannañje Govindācārya, Akhila-Bhārata-Mādhva-Mahāmaṇḍala-Prakāśanam, 1980. Quoted *Bhāgavata* verses cross-checked against the local GRETIL-derived [bhagavata_purana.txt](materials/primary_texts/sanskrit/bhagavata_purana.txt).  
 **Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
 
 ---

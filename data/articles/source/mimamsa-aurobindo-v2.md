@@ -211,20 +211,20 @@ The integral-yoga thesis — that integral yoga is the modern Mīmāṃsā in th
 
 ## Primary sources consulted
 
-- Jaimini, *Mīmāṃsā-Sūtra*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt`. MS 1.1.1–1.1.5 verified verbatim.
-- Śabara, *Bhāṣya* on the *Mīmāṃsā-Sūtra*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/comparator/shabara_mimamsa_sutra_bhasya.txt`. MS 1.1.1–1.1.2 verified verbatim; the *artha-niḥśreyasa* gloss on MS 1.1.2 is the central new evidence brought to bear in this revision. Also drawn from: MS 3.7.6 (the *yāga–puruṣa–apūrva* relation, where Śabara explicitly says the rite's saṃskāras operate on the *puruṣa* to fit them for receiving the *phala*); MS 4.3.38 (where the *phala* is glossed as *ātma-prīti* — "self-pleasure" — locating the result in the agent's interior).
-- Sucaritamiśra, *Kāśikā* on Kumārila's *Śloka-Vārttika*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt`.
-- Mādhava, *Jaiminīya-Nyāya-Mālā-Vistara*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/madhava_jaimini_nyaya_mala.txt`.
-- Maṇḍana Miśra, *Brahma-Siddhi*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/mandana_misra_brahma_siddhi_gretil.txt`. *Vidhi-Viveka* not on disk; cited from secondary literature (Ollett 2013).
-- Sureśvara, *Naiṣkarmya-Siddhi*. Alston 1959: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf`. [NS 1.67](cite://sureshvara/naishkarmya-siddhi/1.67) verified.
-- Sri Aurobindo, *The Synthesis of Yoga*, CWSA Vols. 23–24. On-disk index: `/orcd/home/002/eeshan/philosophy/sources/aurobindo_mother/C2_synthesis_of_yoga_full_index.md`. Loci cited: I.II p. 53; I.IV p. 89; I.V–VI p. 134; I.XI p. 243; IV.III p. 632; IV.IX–X p. 674. Web verification via incarnateword.in for I.IV and I.V.
-- Sri Aurobindo, *The Secret of the Veda*, CWSA Vol. 15. On-disk: `/orcd/home/002/eeshan/philosophy/sources/aurobindo_mother/D_secret_of_veda_deepmine.md`. Pp. 8–9 (double-language thesis); pp. 20–23 (Sāyaṇa's externalization); pp. 56–57 (the Ages of Intuition passing); p. 43 ("primarily intended to serve for spiritual enlightenment and self-culture").
+- Jaimini, *Mīmāṃsā-Sūtra*. GRETIL: `materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt`. MS 1.1.1–1.1.5 verified verbatim.
+- Śabara, *Bhāṣya* on the *Mīmāṃsā-Sūtra*. GRETIL: `data/sources/sanskrit/comparator/shabara_mimamsa_sutra_bhasya.txt`. MS 1.1.1–1.1.2 verified verbatim; the *artha-niḥśreyasa* gloss on MS 1.1.2 is the central new evidence brought to bear in this revision. Also drawn from: MS 3.7.6 (the *yāga–puruṣa–apūrva* relation, where Śabara explicitly says the rite's saṃskāras operate on the *puruṣa* to fit them for receiving the *phala*); MS 4.3.38 (where the *phala* is glossed as *ātma-prīti* — "self-pleasure" — locating the result in the agent's interior).
+- Sucaritamiśra, *Kāśikā* on Kumārila's *Śloka-Vārttika*. GRETIL: `data/sources/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt`.
+- Mādhava, *Jaiminīya-Nyāya-Mālā-Vistara*. GRETIL: `data/sources/sanskrit/mimamsa/madhava_jaimini_nyaya_mala.txt`.
+- Maṇḍana Miśra, *Brahma-Siddhi*. GRETIL: `data/sources/sanskrit/vedanta/full_corpus/mandana_misra_brahma_siddhi_gretil.txt`. *Vidhi-Viveka* not on disk; cited from secondary literature (Ollett 2013).
+- Sureśvara, *Naiṣkarmya-Siddhi*. Alston 1959: `materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf`. [NS 1.67](cite://sureshvara/naishkarmya-siddhi/1.67) verified.
+- Sri Aurobindo, *The Synthesis of Yoga*, CWSA Vols. 23–24. On-disk index: `sources/aurobindo_mother/C2_synthesis_of_yoga_full_index.md`. Loci cited: I.II p. 53; I.IV p. 89; I.V–VI p. 134; I.XI p. 243; IV.III p. 632; IV.IX–X p. 674. Web verification via incarnateword.in for I.IV and I.V.
+- Sri Aurobindo, *The Secret of the Veda*, CWSA Vol. 15. On-disk: `sources/aurobindo_mother/D_secret_of_veda_deepmine.md`. Pp. 8–9 (double-language thesis); pp. 20–23 (Sāyaṇa's externalization); pp. 56–57 (the Ages of Intuition passing); p. 43 ("primarily intended to serve for spiritual enlightenment and self-culture").
 
 ## Secondary sources consulted
 
 - Francis X. Clooney, *Thinking Ritually: Rediscovering the Pūrva Mīmāṃsā of Jaimini*, De Nobili Research Series 17, Vienna 1990. **Not on disk.** Cited via title-thesis only.
 - Francis X. Clooney, "Mīmāṃsā as Introspective Literature and as Philosophy," in *Hinduism and Tribal Religions*, Springer Encyclopedia of Indian Religions, ed. Long et al., 2022, entry 1397. https://link.springer.com/rwe/10.1007/978-94-024-1188-1_1397 (paywalled). **Not on disk.** Cited via title-thesis only.
-- Wilhelm Halbfass, *Tradition and Reflection: Explorations in Indian Thought*, SUNY 1991. **Book not on disk.** Research-summary file based on Google Books snippets and PhilPapers metadata: `/orcd/home/002/eeshan/philosophy/sources/research/R5_halbfass.md`. Cited as field-orientation only.
+- Wilhelm Halbfass, *Tradition and Reflection: Explorations in Indian Thought*, SUNY 1991. **Book not on disk.** Research-summary file based on Google Books snippets and PhilPapers metadata: `sources/research/R5_halbfass.md`. Cited as field-orientation only.
 - Andrew Ollett, "What is Bhāvanā?," *Journal of Indian Philosophy* 41 (2013), pp. 535–555. **Not on disk** (paywalled); cited via search summaries.
 - Elisa Freschi, "Adhikāra and rights," elisafreschi.com, 2024-05-08. https://elisafreschi.com/2024/05/08/adhikara-and-rights/. Web post.
 - Elisa Freschi, "Does Kumārila accept I-cognition as a kind of perception?," elisafreschi.com, 2026-02-15. Web post; cites *Ślokavārttika* ātmavāda 142 on the self-luminous *ātman*.

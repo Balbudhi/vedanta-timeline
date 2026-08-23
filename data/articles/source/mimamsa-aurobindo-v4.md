@@ -243,18 +243,18 @@ These four defeaters are real. The position is not invulnerable. The position is
 
 ## Primary sources consulted
 
-- Jaimini, *Mīmāṃsā-Sūtra*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt`. MS 1.1.1–1.1.5; 2.1.1–5; 3.1–4 verified verbatim where cited.
-- Śabara, *Bhāṣya* on the *Mīmāṃsā-Sūtra*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/comparator/shabara_mimamsa_sutra_bhasya.txt`. MS 1.1.2 (*codanā-lakṣaṇo'rtho dharmaḥ*) and the *Bhāṣya*'s *artha-niḥśreyasa* gloss (lines 8–9) cited verbatim. MS 2.1.1 (*bhāvanā-adhikaraṇa*) consulted.
-- Sucaritamiśra, *Kāśikā* on Kumārila's *Śloka-Vārttika*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt`. Anti-*nirvacana* polemic.
-- Sureśvara, *Naiṣkarmya-Siddhi*. Alston 1959: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf`. [NS 1.67](cite://sureshvara/naishkarmya-siddhi/1.67) cited.
-- Sri Aurobindo, *The Secret of the Veda*, CWSA Vol. 15. On-disk: `/orcd/home/002/eeshan/philosophy/sources/aurobindo_mother/D_secret_of_veda_deepmine.md`. Pp. 8–9 (double-language thesis).
+- Jaimini, *Mīmāṃsā-Sūtra*. GRETIL: `materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt`. MS 1.1.1–1.1.5; 2.1.1–5; 3.1–4 verified verbatim where cited.
+- Śabara, *Bhāṣya* on the *Mīmāṃsā-Sūtra*. GRETIL: `data/sources/sanskrit/comparator/shabara_mimamsa_sutra_bhasya.txt`. MS 1.1.2 (*codanā-lakṣaṇo'rtho dharmaḥ*) and the *Bhāṣya*'s *artha-niḥśreyasa* gloss (lines 8–9) cited verbatim. MS 2.1.1 (*bhāvanā-adhikaraṇa*) consulted.
+- Sucaritamiśra, *Kāśikā* on Kumārila's *Śloka-Vārttika*. GRETIL: `data/sources/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt`. Anti-*nirvacana* polemic.
+- Sureśvara, *Naiṣkarmya-Siddhi*. Alston 1959: `materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf`. [NS 1.67](cite://sureshvara/naishkarmya-siddhi/1.67) cited.
+- Sri Aurobindo, *The Secret of the Veda*, CWSA Vol. 15. On-disk: `sources/aurobindo_mother/D_secret_of_veda_deepmine.md`. Pp. 8–9 (double-language thesis).
 - Sri Aurobindo, *The Synthesis of Yoga*, CWSA Vols. 23–24. Loci cited: I.IV p. 89; I.V–VI p. 134.
 
 ## Secondary sources consulted
 
 - Francis X. Clooney, S.J., *Thinking Ritually: Rediscovering the Pūrva Mīmāṃsā of Jaimini*, Publications of the De Nobili Research Library XVII, Vienna 1990. **Honest scope: not on disk in this project's corpus; engaged via title-thesis, scholarly summaries, and arguments standardly reported in the secondary literature, not via page-level direct quotation.** The principal English-language argument that classical Pūrva-Mīmāṃsā is a coherent reflective system whose *karmin* is constitutively a thinking subject. Engaged in §2.1–2.3.
 - Francis X. Clooney, S.J., "Mīmāṃsā as Introspective Literature and as Philosophy," in *Hinduism and Tribal Religions*, Springer Encyclopedia of Indian Religions, ed. Long et al., 2022, entry 1397. https://link.springer.com/referenceworkentry/10.1007/978-94-024-1188-1_1397 (paywalled). **Honest scope: full text not on disk; engaged via title-thesis, abstract, and the published encyclopedia metadata.** The 2022 sharpening of the 1990 reading: Mīmāṃsā as introspective literature with the practitioner's interior orientation thematised by the school itself. Engaged in §2.4.
-- Wilhelm Halbfass, *Tradition and Reflection: Explorations in Indian Thought*, SUNY 1991. On-disk research file: `/orcd/home/002/eeshan/philosophy/sources/research/R5_halbfass.md`. Background reading of Kumārila and of cultural transformation.
+- Wilhelm Halbfass, *Tradition and Reflection: Explorations in Indian Thought*, SUNY 1991. On-disk research file: `sources/research/R5_halbfass.md`. Background reading of Kumārila and of cultural transformation.
 - Mircea Eliade, *Patterns in Comparative Religion* (1958) and related works on the saturation and de-saturation of religious symbols. **Honest scope: not on disk; the conceptual vocabulary of symbol-saturation is invoked at the level of standard scholarly summary, without page-level engagement.** Cited at §3.2 as one register for the structural-cultural account of symbol-environment change.
 - Alexis Sanderson, scholarship on the rise of Tantric ritual systems in early-medieval India (e.g., "The Śaiva Age," 2009). **Honest scope: not on disk; Sanderson's mapping of Tantric layering over Vedic substrates is invoked at the level of standard scholarly summary.** Cited at §3.2.
 - Elisa Freschi, "Adhikāra and rights," elisafreschi.com, 2024-05-08. Śabara's *bahir-bhūta* / *ātma-vṛtti* distinction in *adhikāra*.

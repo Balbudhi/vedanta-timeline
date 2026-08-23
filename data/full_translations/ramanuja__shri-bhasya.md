@@ -6,7 +6,7 @@ coverage_evidence: 'locus-scope describes restricted range'
 # Śrī-Bhāṣya — Extended Translation
 **By:** Rāmānuja  
 **Locus scope:** Fallback opening dossier on *Brahma-Sūtra* 1.1.1 (*brahmajijñāsādhikaraṇa*): only the securely recoverable opening lines from a noisy partial OCR of the *Catuḥsūtrī* are translated here.  
-**Source edition transcribed from:** No clean full Sanskrit transcript of the *Śrī-Bhāṣya* is on disk in the main corpus. The Sanskrit below is normalized from the partial OCR witness `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt`, reflecting R. D. Karmarkar, *Sribhasya of Ramanuja, Part I: Catuḥsūtrī* (Poona, 1959), and checked against George Thibaut, *The Vedānta-Sūtras with the Commentary by Rāmānuja* (SBE 48, 1904), as locally retrieved in `/orcd/home/002/eeshan/philosophy/sources/research/Q_vedanta_schools_primary_verbatim.md`.  
+**Source edition transcribed from:** No clean full Sanskrit transcript of the *Śrī-Bhāṣya* is on disk in the main corpus. The Sanskrit below is normalized from the partial OCR witness `materials/primary_texts/sanskrit/_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt`, reflecting R. D. Karmarkar, *Sribhasya of Ramanuja, Part I: Catuḥsūtrī* (Poona, 1959), and checked against George Thibaut, *The Vedānta-Sūtras with the Commentary by Rāmānuja* (SBE 48, 1904), as locally retrieved in `sources/research/Q_vedanta_schools_primary_verbatim.md`.  
 **Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
 
 ---
@@ -23,10 +23,10 @@ Even in this reduced state, the opening is doctrinally decisive. Rāmānuja does
 
 No honest full-scope translation can be made from the local corpus alone for this work. What is available on disk is:
 
-- a noisy OCR of the opening *Catuḥsūtrī* portion: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt`
-- a local retrieval dossier for Thibaut's public-domain English witness: `/orcd/home/002/eeshan/philosophy/sources/research/Q_vedanta_schools_primary_verbatim.md`
-- a local source memo listing standard Sanskrit and English witnesses and scholarship: `/orcd/home/002/eeshan/philosophy/sources/sanskrit/30_ramanuja_sribhashya.md`
-- local secondary discussion in `/orcd/home/002/eeshan/philosophy/materials/new_sources/extracted/The Bloomsbury Research Handbook of Vedānta.txt`
+- a noisy OCR of the opening *Catuḥsūtrī* portion: `materials/primary_texts/sanskrit/_more/SribhasyaOfRamanujaPart1Chatuhsutri1959R.D.Karmakar.txt`
+- a local retrieval dossier for Thibaut's public-domain English witness: `sources/research/Q_vedanta_schools_primary_verbatim.md`
+- a local source memo listing standard Sanskrit and English witnesses and scholarship: `sources/sanskrit/30_ramanuja_sribhashya.md`
+- local secondary discussion in `materials/new_sources/extracted/The Bloomsbury Research Handbook of Vedānta.txt`
 
 Accordingly, the Sanskrit below is restricted to lines whose recovery from the OCR is secure enough to normalize without invention. Where normalization has been necessary, the note states so.
 

@@ -6,7 +6,7 @@ coverage_evidence: 'locus-scope: \\bentire(?:\\s+(?:eleven|ten|eight|short)?-?ve
 # Śikṣāṣṭakam — Extended Translation
 **By:** Caitanya Mahāprabhu  
 **Locus scope:** Śikṣāṣṭakam 1-8 (the entire eight-verse hymn, treated as a single natural unit).  
-**Source edition transcribed from:** Rūpa Gosvāmin, *Padyāvalī* local corpus transcript, `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/caitanya_gaudiya/rupa_padyavali.txt`, verses 22, 31, 32, 71, 93, 94, 324, and 337; that witness itself preserves internal cross-references to *Caitanya-Caritāmṛta* 3.20.x.  
+**Source edition transcribed from:** Rūpa Gosvāmin, *Padyāvalī* local corpus transcript, `materials/primary_texts/sanskrit/caitanya_gaudiya/rupa_padyavali.txt`, verses 22, 31, 32, 71, 93, 94, 324, and 337; that witness itself preserves internal cross-references to *Caitanya-Caritāmṛta* 3.20.x.  
 **Translator:** Pāṇinian-rich extraction by Codex 5.4 (reasoning=high), 2026-05-10.
 
 ---

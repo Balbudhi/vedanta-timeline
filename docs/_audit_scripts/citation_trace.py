@@ -18,7 +18,7 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path("/orcd/home/002/eeshan/philosophy")
+ROOT = Path("philosophy")
 THINKERS = ROOT / "site/data/thinkers"
 FULL_TR = ROOT / "site/data/full_translations"
 CORPUS_PREFIX = "materials/primary_texts/"
@@ -44,7 +44,7 @@ def classify_path(text_path: str) -> str:
     text_path = text_path.strip().strip("`*'\"")
     # Try absolute under sanskrit/
     for prefix in (
-        "/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/",
+        "data/sources/sanskrit/",
         "/home/eeshan/philosophy/materials/primary_texts/sanskrit/",
     ):
         if text_path.startswith(prefix):

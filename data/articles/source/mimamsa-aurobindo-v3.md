@@ -165,11 +165,11 @@ These three defeaters are real. The position remains defensible: it takes the sc
 
 ## Primary sources consulted
 
-- Jaimini, *Mīmāṃsā-Sūtra*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt`. MS 1.1.1–1.1.5; 2.1.1–5; 3.1–4 verified verbatim where cited.
-- Śabara, *Bhāṣya* on the *Mīmāṃsā-Sūtra*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/comparator/shabara_mimamsa_sutra_bhasya.txt`. MS 1.1.2 (*codanā-lakṣaṇo'rtho dharmaḥ*) and the *Bhāṣya*'s *artha-niḥśreyasa* gloss (lines 8–9) cited verbatim. MS 2.1.1 (*bhāvanā-adhikaraṇa*) consulted.
-- Sucaritamiśra, *Kāśikā* on Kumārila's *Śloka-Vārttika*. GRETIL: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt`. Anti-*nirvacana* polemic.
-- Sureśvara, *Naiṣkarmya-Siddhi*. Alston 1959: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf`. [NS 1.67](cite://sureshvara/naishkarmya-siddhi/1.67) cited.
-- Sri Aurobindo, *The Secret of the Veda*, CWSA Vol. 15. On-disk: `/orcd/home/002/eeshan/philosophy/sources/aurobindo_mother/D_secret_of_veda_deepmine.md`. Pp. 8–9 (double-language thesis).
+- Jaimini, *Mīmāṃsā-Sūtra*. GRETIL: `materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt`. MS 1.1.1–1.1.5; 2.1.1–5; 3.1–4 verified verbatim where cited.
+- Śabara, *Bhāṣya* on the *Mīmāṃsā-Sūtra*. GRETIL: `data/sources/sanskrit/comparator/shabara_mimamsa_sutra_bhasya.txt`. MS 1.1.2 (*codanā-lakṣaṇo'rtho dharmaḥ*) and the *Bhāṣya*'s *artha-niḥśreyasa* gloss (lines 8–9) cited verbatim. MS 2.1.1 (*bhāvanā-adhikaraṇa*) consulted.
+- Sucaritamiśra, *Kāśikā* on Kumārila's *Śloka-Vārttika*. GRETIL: `data/sources/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt`. Anti-*nirvacana* polemic.
+- Sureśvara, *Naiṣkarmya-Siddhi*. Alston 1959: `materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf`. [NS 1.67](cite://sureshvara/naishkarmya-siddhi/1.67) cited.
+- Sri Aurobindo, *The Secret of the Veda*, CWSA Vol. 15. On-disk: `sources/aurobindo_mother/D_secret_of_veda_deepmine.md`. Pp. 8–9 (double-language thesis).
 - Sri Aurobindo, *The Synthesis of Yoga*, CWSA Vols. 23–24. Loci cited: I.IV p. 89; I.V–VI p. 134.
 
 ## Secondary sources consulted
@@ -177,7 +177,7 @@ These three defeaters are real. The position remains defensible: it takes the sc
 - Francis X. Clooney, S.J., *Thinking Ritually: Rediscovering the Pūrva Mīmāṃsā of Jaimini*, Publications of the De Nobili Research Library XVII, Vienna 1990. **Not on disk.** Cited via title-thesis as the academic precedent for treating classical Pūrva-Mīmāṃsā as a coherent reflective system; the substantive textual work in §2 is from on-disk Sanskrit primary sources.
 - Francis X. Clooney, S.J., "Mīmāṃsā as Introspective Literature and as Philosophy," in *Hinduism and Tribal Religions*, Springer Encyclopedia of Indian Religions, ed. Long et al., 2022, entry 1397. https://link.springer.com/referenceworkentry/10.1007/978-94-024-1188-1_1397 (paywalled). **Not on disk.** Cited via title-thesis only.
 - Francis X. Clooney, S.J., *Theology After Vedānta: An Experiment in Comparative Theology*, SUNY 1993. **Not on disk.** Cited via title and known scholarly summary as methodological background.
-- Wilhelm Halbfass, *Tradition and Reflection: Explorations in Indian Thought*, SUNY 1991. **Book not on disk.** A research-summary file based on Google Books snippets and PhilPapers metadata is at `/orcd/home/002/eeshan/philosophy/sources/research/R5_halbfass.md`; cited as field-orientation only.
+- Wilhelm Halbfass, *Tradition and Reflection: Explorations in Indian Thought*, SUNY 1991. **Book not on disk.** A research-summary file based on Google Books snippets and PhilPapers metadata is at `sources/research/R5_halbfass.md`; cited as field-orientation only.
 - Elisa Freschi, "Adhikāra and rights," elisafreschi.com, 2024-05-08. Web post; cited for the *bahir-bhūta* / *ātma-vṛtti* distinction in *adhikāra*.
 - Andrew Ollett, "What is Bhāvanā?," *Journal of Indian Philosophy* 41 (2013), pp. 535–555. **Not on disk** (paywalled); cited via title and known summary.
 

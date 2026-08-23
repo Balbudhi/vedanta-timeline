@@ -1,7 +1,7 @@
 # Opus audit report — `late-plato.md`
 
 Branch: `audit/late-plato-1778606891`
-Worktree: `/orcd/home/002/eeshan/worktrees/opus-audits/late-plato-audit-1778606891`
+Worktree: `worktrees/opus-audits/late-plato-audit-1778606891`
 Target: `data/articles/source/late-plato.md`
 Plan: `plans/late_plato_plan.md` (heterodox aporetic-protreptic early + unfinished metaphysics late)
 
@@ -37,7 +37,7 @@ All mandatory chunks from the audit checklist now carry Greek primary-text quota
 | Laws X 887b-907d (theology) | Greek 887b, 896a, 899b added |
 | Seventh Letter 341c-344d | Greek 341c-d, 342a-b, 344b added (the existing οὐδὲ μήποτε γένηται σύγγραμμα was already present, expanded to full passage) |
 
-All Greek extracted from `/orcd/pool/008/eeshan/ocr/acquired_primaries/plato/*/plato_*_perseus_grc.xml` (Perseus betacode), converted to Unicode polytonic Greek via a small converter in `/tmp/betacode.py`.
+All Greek extracted from `ocr/acquired_primaries/plato/*/plato_*_perseus_grc.xml` (Perseus betacode), converted to Unicode polytonic Greek via a small converter in `/tmp/betacode.py`.
 
 ## 3. Substantive theses
 

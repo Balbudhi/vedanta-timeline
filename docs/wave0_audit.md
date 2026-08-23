@@ -1,7 +1,7 @@
 # Wave 0 Audit
 
 Wave 0 populated four registry files and 60 thinker skeletons under
-`/orcd/home/002/eeshan/philosophy/site/data/`. All files validate as JSON
+`data/`. All files validate as JSON
 and all internal cross-references resolve.
 
 ## Summary counts

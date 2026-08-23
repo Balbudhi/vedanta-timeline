@@ -9,7 +9,7 @@ The framing-status options are:
   - mixed
 
 Per the methodology in
-/orcd/pool/008/eeshan/philosophy_articles/scope_register_methodology/methodology/
+philosophy_articles/scope_register_methodology/methodology/
 SCOPE_REGISTER_FRAMEWORK.md, the structural BY-SCHOOL display in the popover
 falsely implies that schools name *different concepts*. In most cases they name
 the *same concept* under different registers, scopes, or addressees. Only where

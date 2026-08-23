@@ -48,7 +48,7 @@ The three hypotheses interlock but are independent. A could hold while B fails (
 
 ## 2. Aurobindo on the Vedic interior and its historical occlusion
 
-The textual basis for Aurobindo's reading is *The Secret of the Veda*, CWSA Vol. 15, originally serialized in *Arya* 1914–1916. The on-disk extraction (`/orcd/home/002/eeshan/philosophy/sources/aurobindo_mother/D_secret_of_veda_deepmine.md`) and the verbatim mine in `/orcd/home/002/eeshan/philosophy/sources/modern/08_aurobindo_secret_of_the_veda.md` provide page-anchored access to the relevant passages.
+The textual basis for Aurobindo's reading is *The Secret of the Veda*, CWSA Vol. 15, originally serialized in *Arya* 1914–1916. The on-disk extraction (`sources/aurobindo_mother/D_secret_of_veda_deepmine.md`) and the verbatim mine in `sources/modern/08_aurobindo_secret_of_the_veda.md` provide page-anchored access to the relevant passages.
 
 Cross-engagement: Anandabodha's reading at [primary text](cite://sarvajnatman/samksepa-sariraka/1.319-352) fills the finite cognition axis with `positive-ignorance`. The present section fills it with `adhyasa-or-superimposition`.
 
@@ -94,7 +94,7 @@ Cross-engagement: same epistemological register, different commitments at the tr
 
 ## 3. The Mīmāṃsā position on its own terms
 
-To test the hypothesis, one has to engage what the Mīmāṃsakas actually argue, not the popular caricature. The on-disk corpus gives access to four primary witnesses: Jaimini's *Mīmāṃsā-Sūtra* (`/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt`); Mādhava's *Jaimini-Nyāya-Mālā* (a navya-Mīmāṃsā summary); Sucaritamiśra's *Kāśikā* commentary on Kumārila's *Śloka-Vārttika*; and (by inference from the cross-corpus trace) Sureśvara's *Naiṣkarmya-Siddhi* in the Alston translation, which contains the Advaita polemic against Mīmāṃsā.
+To test the hypothesis, one has to engage what the Mīmāṃsakas actually argue, not the popular caricature. The on-disk corpus gives access to four primary witnesses: Jaimini's *Mīmāṃsā-Sūtra* (`materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt`); Mādhava's *Jaimini-Nyāya-Mālā* (a navya-Mīmāṃsā summary); Sucaritamiśra's *Kāśikā* commentary on Kumārila's *Śloka-Vārttika*; and (by inference from the cross-corpus trace) Sureśvara's *Naiṣkarmya-Siddhi* in the Alston translation, which contains the Advaita polemic against Mīmāṃsā.
 
 Cross-engagement: against Bhaktisiddhanta Saraswati: `bliss-or-delight` rather than `devotion` for the motive force axis ([primary text](cite://mandana/brahma-siddhi/5.29)).
 
@@ -276,12 +276,12 @@ In that form, the hypothesis is worth carrying. In its strongest form, it overre
 
 **Primary sources consulted:**
 
-- Jaimini, *Mīmāṃsā-Sūtra*. GRETIL text on disk: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt` (verified verbatim 1.1.1–1.1.5).
-- Sucaritamiśra, *Kāśikā* on Kumārila's *Śloka-Vārttika*. GRETIL text on disk: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt`.
-- Mādhava, *Jaimini-Nyāya-Mālā*. GRETIL text on disk: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/mimamsa/madhava_jaimini_nyaya_mala.txt`.
-- Maṇḍana Miśra, *Brahma-Siddhi*. GRETIL text on disk: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/mandana_misra_brahma_siddhi_gretil.txt`. English: Kuppuswami Sastri ed. 1937 (PDF on disk).
-- Sureśvara, *Naiṣkarmya-Siddhi*. Alston tr. 1959 (PDF on disk: `/orcd/home/002/eeshan/philosophy/materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf`); cross-checked verse 1.67 against archive.org djvu.
-- Sri Aurobindo, *The Secret of the Veda*, CWSA Vol. 15. Page-anchored extraction on disk: `/orcd/home/002/eeshan/philosophy/sources/aurobindo_mother/D_secret_of_veda_deepmine.md`. Web fetch of canonical text via motherandsriaurobindo.in (Chapters I, II, IV, VI).
+- Jaimini, *Mīmāṃsā-Sūtra*. GRETIL text on disk: `materials/primary_texts/sanskrit/mimamsa/jaimini_mimamsa_sutra.txt` (verified verbatim 1.1.1–1.1.5).
+- Sucaritamiśra, *Kāśikā* on Kumārila's *Śloka-Vārttika*. GRETIL text on disk: `data/sources/sanskrit/mimamsa/sucaritamisra_sloka_varttika.txt`.
+- Mādhava, *Jaimini-Nyāya-Mālā*. GRETIL text on disk: `data/sources/sanskrit/mimamsa/madhava_jaimini_nyaya_mala.txt`.
+- Maṇḍana Miśra, *Brahma-Siddhi*. GRETIL text on disk: `data/sources/sanskrit/vedanta/full_corpus/mandana_misra_brahma_siddhi_gretil.txt`. English: Kuppuswami Sastri ed. 1937 (PDF on disk).
+- Sureśvara, *Naiṣkarmya-Siddhi*. Alston tr. 1959 (PDF on disk: `materials/primary_texts/sanskrit/vedanta/full_corpus/suresvara_naiskarmya_siddhi_alston_1959_archive.pdf`); cross-checked verse 1.67 against archive.org djvu.
+- Sri Aurobindo, *The Secret of the Veda*, CWSA Vol. 15. Page-anchored extraction on disk: `sources/aurobindo_mother/D_secret_of_veda_deepmine.md`. Web fetch of canonical text via motherandsriaurobindo.in (Chapters I, II, IV, VI).
 
 **Secondary references:**
 
