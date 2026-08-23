@@ -1,6 +1,6 @@
 # Opus 4.7 audit — primitive-graph §0 methodology insertion
 
-Worktree: `/orcd/home/002/eeshan/worktrees/opus-audits/primitive-graph-audit-1778601660`
+Worktree: `worktrees/opus-audits/primitive-graph-audit-1778601660`
 Branch: `audit/primitive-graph-audit-1778601660`
 Target: `data/articles/source/primitive-graph.md`
 Audit scope: §0 (lines 3-334), plus Rules 7-8 inserted into §2.
@@ -18,7 +18,7 @@ P1 table present. The article's note about the seventeen-vs-sixteen mismatch in 
 
 ## 4. §0.4 — Sanskrit-grammar layer
 **Pass with caveats.**
-- Patañjali quoted in Sanskrit + English from *Paspaśāhnika* (Kielhorn vol. I, pp. 6-7). The article correctly tags the witness `[local OCR witness]` because the inherited `SCOPE_REGISTER_FRAMEWORK.md` §4 itself flagged the Kielhorn citation as pending verbatim acquisition. Acquired-primary OCR files (`/orcd/pool/008/eeshan/ocr/acquired_primaries/sanskrit_grammar/patanjali_mahabhasya/kielhorn_vol1_1880_djvu.txt`) are Devanagari-only with severe corruption (zero recoverable Latin / clean Devanagari content). The article preserves the inherited caveat correctly under AF8 (flag uncertainty). The Sanskrit lines as quoted are the standard Paspaśāhnika opening, found in every modern critical edition; the OCR caveat is the right disclosure.
+- Patañjali quoted in Sanskrit + English from *Paspaśāhnika* (Kielhorn vol. I, pp. 6-7). The article correctly tags the witness `[local OCR witness]` because the inherited `SCOPE_REGISTER_FRAMEWORK.md` §4 itself flagged the Kielhorn citation as pending verbatim acquisition. Acquired-primary OCR files (`ocr/acquired_primaries/sanskrit_grammar/patanjali_mahabhasya/kielhorn_vol1_1880_djvu.txt`) are Devanagari-only with severe corruption (zero recoverable Latin / clean Devanagari content). The article preserves the inherited caveat correctly under AF8 (flag uncertainty). The Sanskrit lines as quoted are the standard Paspaśāhnika opening, found in every modern critical edition; the OCR caveat is the right disclosure.
 - Bhartṛhari *VP* I.1 quoted: *anādi-nidhanaṃ brahma śabda-tattvaṃ yad akṣaram* / *vivartate 'rtha-bhāvena prakriyā jagato yataḥ*. This is the canonical opening verse of the *Vākyapadīya*, attested universally. Pass.
 - *Vāc*-hierarchy: article flags `[textually-not-fully-confirmed]` at VP I.131, which is appropriate — the *paśyantī* / *madhyamā* / *vaikharī* sequence is well-attested but the exact verse numbering varies (different editors place it across I.131-I.182). Pass.
 - *Sphoṭa* verse quoted at VP I.102: *yaḥ saṃyoga-vibhāgābhyāṃ karaṇair upajanyate / sa sphoṭaḥ śabda-jāḥ śabdā dhvanayo 'nyair udāhṛtāḥ*. **Defect.** The canonical *sphoṭa* discussion sits at *VP* Kāṇḍa I.44-52, 73-95, with the most-cited *sphoṭa* / *dhvani* distinction near I.46-49. The verse-text quoted is closer to wording cited in Helārāja's commentary or in Kaiyaṭa, not to the standard *Vākyapadīya* I.102 reading. The inherited methodology dossier does not quote this verse, and the local OCR witnesses are unreadable. **Fix applied:** mark the citation `[NOT YET RETRIEVED — verse-numbering and verbatim text pending edition acquisition]` and weaken the locus claim to "*Vākyapadīya* Kāṇḍa I, *sphoṭa* discussion (I.44-52 / I.73-95 in standard numberings)."
@@ -35,7 +35,7 @@ P1 table present. The article's note about the seventeen-vs-sixteen mismatch in 
 **Generalization strengthening applied.** The §0.7 opening originally read "The method needs one worked example at the front of the graph. / / This is the one." This phrasing risks worked-example narrowing. Rewritten to make explicit that Case 1A/1B is illustrative of a discipline that applies to every cross-engagement in the corpus.
 
 ## 8. §0.8 — pointer
-**Pass.** Pointer to `scope_register_methodology/methodology/` corpus with the six dossier files listed.
+**Pass.** Pointer to `internal/scope_register_methodology/methodology/` corpus with the six dossier files listed.
 
 ## 9. Rules 7 and 8 in §2
 **Pass.** "Rule 7 — Scope before agreement" and "Rule 8 — The Sanskrit-grammar layer governs cross-translation" added to §2 (article lines 473-485). Both are concise and consistent with §0's longer treatment.

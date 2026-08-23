@@ -1,5 +1,5 @@
 {
-  "generated_by": "tools/glossary_autolink_inventory.py",
+  "generated_by": "internal/tools/glossary_autolink_inventory.py",
   "schema_note": "Each candidate must be verified before a glossary entry is authored. Do not auto-create. Anti-fabrication: only author from primary sources.",
   "total_candidates": 1508,
   "candidates": [

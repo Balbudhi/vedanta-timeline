@@ -2,7 +2,7 @@
 
 Continuation of PR #44 (Wave 1, 31 terms). This wave audits the next 33 glossary
 entries against the register / scope / addressee methodology in
-`scope_register_methodology/methodology/SCOPE_REGISTER_FRAMEWORK.md`, attaching
+`internal/scope_register_methodology/methodology/SCOPE_REGISTER_FRAMEWORK.md`, attaching
 a `school_framing` object and per-school `register_tag`s.
 
 ## Scope

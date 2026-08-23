@@ -39,16 +39,16 @@ Sanskrit, or unverified quotations.
 
 5. **Never force-push to `main`.** History on `main` is shared. Even when a commit message is wrong, leave it — see the recovery section.
 
-6. **Do not edit files outside your declared scope.** If you discover a bug in another scope while reading code, file it as an issue or note it in `mobile_audit/issues_seen/` rather than fixing it in your commit.
+6. **Do not edit files outside your declared scope.** If you discover a bug in another scope while reading code, file it as an issue or note it in `internal/mobile_audit/ISSUES.md` rather than fixing it in your commit.
 
 ## Scope conventions
 
 Agents are expected to declare a scope before they start. Typical scopes:
 
-- **Content / data** — touches `data/`, `docs/`, `scripts/`, `README.md`, content-side audit files. Does not touch `assets/`, `index.html`, or `mobile_audit/screenshots/`.
-- **UI / UX** — touches `index.html`, `assets/app.js`, `assets/style.css`, `assets/song.js` (only the UI of the song page, not its lyrics data), `mobile_audit/`.
+- **Content / data** — touches `data/`, `docs/`, `scripts/`, `README.md`, content-side audit files. Does not touch `assets/`, `index.html`, or `internal/`.
+- **UI / UX** — touches `index.html`, `assets/app.js`, `assets/style.css`, `assets/song.js` (only the UI of the song page, not its lyrics data), `internal/mobile_audit/`.
 - **Song page** — touches `assets/song.js`, `assets/song.css`, `bhakti/`, the song's data files. Does not touch `index.html` (which is the timeline app's shell) or `assets/app.js` (timeline-app logic).
-- **Audit / scripts** — touches `scripts/`, `audit/`, `tools/`. May read everything; only writes to its scope.
+- **Audit / scripts** — touches `scripts/`, `audit/`, `internal/tools/`. May read everything; only writes to its scope.
 
 Cross-scope edits are allowed when genuinely necessary, but they must be called out in the commit message: `UI: dark-theme [+ content: 3 string fixes in data/glossary/]`.
 
@@ -82,7 +82,7 @@ Examples that should never appear (real cases from 2026-05-19, do not repeat):
 
 Do not rewrite history. Instead:
 
-1. Add a clarifying note to `mobile_audit/commit_log.md` (the agent-maintained log of "what is actually in which commit when the message is wrong"). Format:
+1. Add a clarifying note to `internal/mobile_audit/commit_log.md` (the agent-maintained log of "what is actually in which commit when the message is wrong"). Format:
    ```
    - <sha> "<wrong message>" → actually contains: <real list of logical changes>
    ```
@@ -91,7 +91,7 @@ Do not rewrite history. Instead:
 
 ## Live site
 
-The repo deploys to `https://vedanta.eeshan.xyz/` (alias of `https://balbudhi.github.io/vedanta-timeline/`) on every push to `main`. Verify HTTP 200 + spot-check your specific fix is visible after pushing. Auto-deploy takes ~30–90 seconds.
+The repo and the site are both public, but they are **not the same surface**. The Pages build publishes an explicit allow-list (`index.html`, `CNAME`, `robots.txt`, `assets/`, `gita/`, `data/` minus `sources/` and `editorial/`); everything else — agent instructions, audits, notes, tooling — stays in the repository and is never served from the site's origin. If you add a directory the site must serve, add it to that allow-list in `.github/workflows/deploy-pages.yml`; do not switch the build back to an exclude-list. The repo deploys to `https://vedanta.eeshan.xyz/` (which `https://balbudhi.github.io/vedanta-timeline/` 301-redirects to) on every push to `main`. Verify HTTP 200 + spot-check your specific fix is visible after pushing. Auto-deploy takes ~30–90 seconds.
 
 ## Coordination signals
 

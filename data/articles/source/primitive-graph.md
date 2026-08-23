@@ -290,7 +290,7 @@ The case shows why the method is not relativism: one apparent contradiction diss
 
 ### §0.8 — Pointer to the full methodology corpus
 
-This section is only the front-end operating manual. For the full argument, the worked cases, the Sanskrit-grammar expansion, the adversarial review, and the execution briefs, see the methodology corpus at `scope_register_methodology/methodology/`:
+This section is only the front-end operating manual. For the full argument, the worked cases, the Sanskrit-grammar expansion, the adversarial review, and the execution briefs, see the methodology corpus at `internal/scope_register_methodology/methodology/`:
 
 - `PHASE0_INTERNALIZATION.md`
 - `SCOPE_REGISTER_FRAMEWORK.md`
@@ -348,7 +348,7 @@ If a thinker does not yet have a source article, use the thinker's JSON only at 
 
 Do not let a late sub-school dispute rewrite an earlier author.
 
-Śaṅkara is not assigned a settled Bhāmatī or Vivaraṇa locus doctrine simply because later Advaita needs one. The audit in `primitives_revision/audit.md` settled that point and this graph keeps it settled.
+Śaṅkara is not assigned a settled Bhāmatī or Vivaraṇa locus doctrine simply because later Advaita needs one. The audit in `internal/primitives_revision/audit.md` settled that point and this graph keeps it settled.
 
 ### Rule 2 — Keep article claims distinct from school defaults
 
