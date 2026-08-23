@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-08-19T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 96,
+  "file_count": 95,
   "note": "Public source corpus held in this repository. This manifest lists only paths present under data/sources/. Privately retained or restricted witnesses are catalogued separately in the parishishta repository provenance records.",
   "files": [
     {
@@ -233,18 +233,6 @@
       "verification_status": "searchable English working witness; identify original portal page before quotation",
       "size_bytes": 763499,
       "line_count": 24644
-    },
-    {
-      "path": "sanskrit/_kashmir_saivism/AdvaitasiddhiVsNyayamrta.txt",
-      "language": "sanskrit",
-      "category": "_kashmir_saivism",
-      "title": "ADVA1TASIDDHI Vs NYAYAMRTA",
-      "size_bytes": 448262,
-      "line_count": 12544,
-      "edition": null,
-      "format": "plain-text",
-      "thinker_id": "vyasatirtha",
-      "work_id": "nyayamrta"
     },
     {
       "path": "sanskrit/vedanta/madhva_mayavada_khandana_anandamakaranda.txt",

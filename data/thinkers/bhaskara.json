@@ -92,8 +92,7 @@
       "work_id": "advaita-siddhi",
       "locus": "passim",
       "what_quoted": "Madhusūdana's *Advaita-Siddhi* engages the *bhedābheda* position and its *pracchanna-bauddha* charge as the principal Advaita rebuttal-target.",
-      "on_disk": true,
-      "on_disk_path": "/materials/primary_texts/sanskrit/_kashmir_saivism/AdvaitasiddhiVsNyayamrta.txt"
+      "on_disk": false
     }
   ],
   "entry_status": "reviewed",
