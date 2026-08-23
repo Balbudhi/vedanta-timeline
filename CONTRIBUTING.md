@@ -45,8 +45,9 @@ sources, Sanskrit readers, glossary entries, and comparative material.
 Follow [`docs/CONTENT_AND_SOURCE_STANDARD.md`](docs/CONTENT_AND_SOURCE_STANDARD.md)
 for source handling, roster roles, and readiness labels. In particular, raw
 OCR in `data/sources/_unverified_ocr/` is quarantine material: it is never a
-witness or citation. Material with unresolved scan rights stays outside this
-public repository.
+witness or citation. Material with unresolved scan rights, and modern
+scholarship still under copyright, stays outside this repository altogether —
+secondary-source holdings live in the private `parishishta` repository.
 
 ## Checks before handoff
 

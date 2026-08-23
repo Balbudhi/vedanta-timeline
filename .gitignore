@@ -26,3 +26,11 @@ data/sources/**/*_RAW.htm
 # audio-derived text and must never be published automatically.
 bhakti/*/.transcription/
 __pycache__/
+
+# Local agent/tooling scratch and Python virtualenvs — never part of the site.
+.omx/
+venv_gemini/
+
+# Root-level scratch from the Bhakti audio-timing work, which now lives on its
+# own site. Untracked so it cannot be swept into a commit.
+/get_timings.py
