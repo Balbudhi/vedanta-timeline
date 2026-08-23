@@ -4085,10 +4085,13 @@ function collectSurroundingPassages(tid, wid, entry) {
 // to reflect what is actually shipped to GitHub Pages. Thus the manifest +
 // the fetch path must agree on `data/sources/<path>` (see fetch below).
 const SOURCE_FETCH_BASE = "data/sources/";
-// Pages deploys the reader and its verified citation excerpts as a compact
-// static artifact. The much larger raw-primary mirror stays in the repository
-// and is fetched only when a reader explicitly opens a source file.
-const SOURCE_RAW_FALLBACK_BASE = "https://raw.githubusercontent.com/Balbudhi/vedanta-timeline/main/data/sources/";
+// Everything the tree offers is served from this site's own origin. There is
+// deliberately no raw.githubusercontent.com fallback: it made the reader depend
+// on the repository's visibility and on `main` keeping this exact layout. The
+// Pages build copies the manifest-listed text sources into the artifact and
+// republishes the manifest describing only what it copied
+// (.github/workflows/deploy-pages.yml). Page-image PDF scans are listed in the
+// on-disk manifest but are never shipped and are not renderable as text.
 
 async function ensureSourceTreeRendered() {
   if (sourceTabState.manifestLoaded) return;
@@ -4200,16 +4203,15 @@ async function selectSourceFile(path) {
   `;
   let text = sourceTabState.fileCache.get(path);
   if (text == null) {
-    try {
-      const r = await fetch(SOURCE_FETCH_BASE + path);
-      if (r.ok) {
-        text = await r.text();
-      } else {
-        const raw = await fetch(SOURCE_RAW_FALLBACK_BASE + path);
-        text = raw.ok ? await raw.text() : "[failed to load — source mirror is unavailable]";
+    if (/\.pdf$/i.test(path)) {
+      text = "[this witness is a page-image scan, not machine-readable text — it is catalogued here but cannot be displayed in the browser]";
+    } else {
+      try {
+        const r = await fetch(SOURCE_FETCH_BASE + path);
+        text = r.ok ? await r.text() : "[failed to load — this source is not part of the published mirror]";
+      } catch (_) {
+        text = "[failed to load]";
       }
-    } catch (_) {
-      text = "[failed to load]";
     }
     sourceTabState.fileCache.set(path, text);
   }

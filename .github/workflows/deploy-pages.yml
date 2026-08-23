@@ -18,10 +18,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # The checked-in source mirror is about 1.2 GB.  Citation excerpts are
-      # already in citation_index.json and the Source tab falls back to the
-      # repository's raw endpoint on demand, so do not make every Pages build
-      # download and publish the entire mirror.
+      # The checked-in source mirror is ~1.2 GB, and ~1.17 GB of that is
+      # page-image PDF scans the Source tab cannot render.  Check out the
+      # readable text only, and keep the staging and quarantine trees out of
+      # the build entirely -- `_unverified_ocr/` is never publishable.
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
@@ -29,20 +29,64 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /*
-            !/data/sources/
+            !/data/sources/**/*.pdf
+            !/data/sources/_intake/
+            !/data/sources/_scan_intake/
+            !/data/sources/_unverified_ocr/
       - uses: actions/configure-pages@v5
+      # Publish an allow-list, not an exclude-list.  Everything in the working
+      # tree that is not named here -- agent instructions, audits, to-do notes,
+      # mobile-audit screenshots, tooling, editorial ledgers with local paths --
+      # is internal and must not be served from a public origin.  An
+      # exclude-list silently publishes every new directory somebody adds.
       - name: Assemble static artifact
         run: |
-          mkdir -p _site
-          rsync -a --delete \
-            --exclude='.git/' \
-            --exclude='.github/' \
-            --exclude='.agent/' \
+          rm -rf _site && mkdir -p _site
+          rsync -a \
             --exclude='data/sources/' \
-            --exclude='docs/' \
-            --exclude='scripts/' \
-            --exclude='audit/' \
-            ./ _site/
+            --exclude='data/editorial/' \
+            --exclude='_build/' \
+            index.html CNAME robots.txt assets gita data \
+            _site/
+      # Serve the Source tab from this site's own origin rather than from a
+      # raw.githubusercontent.com fallback, which made the reader depend on the
+      # repository's visibility and layout.  Copy exactly the manifest-listed
+      # text sources (~27 MB) and publish a manifest describing only what was
+      # actually copied, so the source tree never offers a file that 404s.
+      - name: Ship manifest-listed text sources
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, shutil
+
+          manifest = json.loads(pathlib.Path("data/primary_text_manifest.json").read_text())
+          out_root = pathlib.Path("_site/data/sources")
+          shipped, skipped_pdf, missing = [], 0, []
+
+          for entry in manifest.get("files", []):
+              rel = entry["path"]
+              if rel.lower().endswith(".pdf"):
+                  skipped_pdf += 1
+                  continue
+              src = pathlib.Path("data/sources") / rel
+              if not src.is_file():
+                  missing.append(rel)
+                  continue
+              dst = out_root / rel
+              dst.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(src, dst)
+              shipped.append(entry)
+
+          manifest["files"] = shipped
+          pathlib.Path("_site/data/primary_text_manifest.json").write_text(
+              json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
+
+          total = sum((out_root / e["path"]).stat().st_size for e in shipped)
+          print(f"shipped {len(shipped)} source files ({total / 1e6:.1f} MB); "
+                f"skipped {skipped_pdf} page-image scans")
+          if missing:
+              raise SystemExit("manifest lists files that are not in the checkout: "
+                               + ", ".join(missing))
+          PY
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
