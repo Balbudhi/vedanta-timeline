@@ -30,6 +30,7 @@ from indic_transliteration.sanscript import transliterate
 ROOT = Path(__file__).resolve().parents[1]
 BORI_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_bori_critical_excerpt.txt"
 COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/chinmayananda.json"
+ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/analysis.json"
 OUTPUT_PATH = ROOT / "gita/vishnu-sahasranama/reader.json"
 
 RECEIVED_URL = "https://sanskritdocuments.org/doc_vishhnu/vsahasranew.itx"
@@ -175,7 +176,7 @@ def parse_word_split(source: str) -> tuple[list[dict], list[dict]]:
     all_names = []
     for record in data:
         stanza_names = []
-        for line in record.get("lines", []):
+        for line_index, line in enumerate(record.get("lines", [])):
             for item in line:
                 if not (isinstance(item, list) and len(item) >= 3 and isinstance(item[2], int)):
                     continue
@@ -190,6 +191,7 @@ def parse_word_split(source: str) -> tuple[list[dict], list[dict]]:
                     "number": number,
                     "citation_iast": citation,
                     "surface_iast": surface,
+                    "line_index": line_index,
                 }
                 if item[2] != number:
                     name["boundary_aid_number"] = item[2]
@@ -287,11 +289,22 @@ def load_commentary(path: Path | None) -> dict[int, dict]:
     return {row["number"]: row for row in rows}
 
 
-def build(received: str, word_split: str, commentary_path: Path | None) -> dict:
+def load_analysis(path: Path | None) -> dict[int, dict]:
+    if not path or not path.exists():
+        return {}
+    data = json.loads(path.read_text(encoding="utf-8"))
+    rows = data.get("names", [])
+    if [row.get("number") for row in rows] != list(range(1, 1001)):
+        raise ValueError("Sanskrit analysis must contain contiguous names 1–1000")
+    return {row["number"]: row for row in rows}
+
+
+def build(received: str, word_split: str, commentary_path: Path | None, analysis_path: Path | None) -> dict:
     stanzas = parse_received_itx(received)
     bori = parse_bori(BORI_PATH)
     boundaries, all_names = parse_word_split(word_split)
     commentary = load_commentary(commentary_path)
+    analyses = load_analysis(analysis_path)
 
     alignment_changes = {}
     for index, stanza in enumerate(stanzas):
@@ -303,10 +316,18 @@ def build(received: str, word_split: str, commentary_path: Path | None) -> dict:
     for number, item in by_number.items():
         if number in SURFACE_OVERRIDES:
             item["surface_iast"] = SURFACE_OVERRIDES[number]
-        item["deva"] = transliterate(item["surface_iast"], sanscript.IAST, sanscript.DEVANAGARI)
+        item["deva_surface"] = transliterate(item["surface_iast"], sanscript.IAST, sanscript.DEVANAGARI)
         item["morph"] = "A nominal epithet or nominal expression applied to Viṣṇu in the stanza."
         item["analysis_status"] = "surface-and-citation-form"
         item["cite"] = f"cite://chinmayananda/thousand-ways-to-the-transcendental/name/{number}"
+        analysis = analyses.get(number)
+        if analysis:
+            item["citation_iast"] = analysis["citation_iast"]
+            item["deva"] = analysis["citation_devanagari"]
+            item["word_analysis"] = analysis
+            item["analysis_status"] = analysis["status"]
+        else:
+            item["deva"] = item["deva_surface"]
         source = commentary.get(number)
         if source:
             item["citation_iast_ocr"] = source.get("heading_roman", "")
@@ -353,7 +374,14 @@ def build(received: str, word_split: str, commentary_path: Path | None) -> dict:
                 "locus": "Mahābhārata 13.135.14–120",
             },
             "name_boundary_aid": {"url": WORD_SPLIT_URL, "sha256": WORD_SPLIT_SHA256},
-            "commentary": str(commentary_path.relative_to(ROOT)) if commentary_path and commentary_path.exists() else None,
+            "commentary": {
+                "path": str(commentary_path.relative_to(ROOT)),
+                "sha256": sha256(commentary_path.read_bytes()),
+            } if commentary_path and commentary_path.exists() else None,
+            "sanskrit_analysis": {
+                "path": str(analysis_path.relative_to(ROOT)),
+                "sha256": sha256(analysis_path.read_bytes()),
+            } if analysis_path and analysis_path.exists() else None,
         },
         "audio": {
             "src": "https://github.com/Balbudhi/vedanta-timeline/releases/download/media-v1/vishnu-sahasranama-sanjeev-abhyankar.m4a?download=1",
@@ -388,7 +416,7 @@ def validate(data: dict, require_commentary: bool) -> dict:
             errors.append(f"stanza {stanza.get('number')} lacks BORI loci")
     for item in names:
         number = item.get("number")
-        if not item.get("citation_iast") or not item.get("deva"):
+        if not item.get("citation_iast") or not item.get("deva") or not item.get("deva_surface"):
             errors.append(f"name {number} lacks citation forms")
         if require_commentary:
             source = item.get("chinmayananda")
@@ -399,6 +427,31 @@ def validate(data: dict, require_commentary: bool) -> dict:
                 errors.append(f"name {number} has an invalid concise meaning length/shape")
             if re.search(r"[*†‡\u0900-\u0dff]", meaning):
                 errors.append(f"name {number} concise meaning contains a footnote marker or source script")
+            analysis = item.get("word_analysis")
+            if not analysis:
+                errors.append(f"name {number} lacks structured word analysis")
+            else:
+                required = ("citation_iast", "citation_devanagari", "whole_gloss", "parts", "stem", "affix", "morph", "sandhi", "grammar", "source_basis", "status", "uncertainty")
+                missing = [field for field in required if field not in analysis or analysis[field] in ("", None)]
+                if missing:
+                    errors.append(f"name {number} word analysis lacks {', '.join(missing)}")
+                for nullable_field in ("root", "compound", "derivation"):
+                    if nullable_field not in analysis:
+                        errors.append(f"name {number} word analysis omits {nullable_field}")
+                if not analysis.get("citation_iast") or not re.search(r"[\u0900-\u097f]", analysis.get("citation_devanagari", "")):
+                    errors.append(f"name {number} lacks validated citation forms")
+                parts = analysis.get("parts", [])
+                if not isinstance(parts, list) or not parts or any(not all(part.get(field) for field in ("form_iast", "gloss", "kind")) for part in parts):
+                    errors.append(f"name {number} has incomplete word-analysis structure")
+                root = analysis.get("root")
+                if root is not None and not all(root.get(field) for field in ("form", "gana", "pada", "gloss")):
+                    errors.append(f"name {number} has an incomplete verbal-root record")
+                compound = analysis.get("compound")
+                if compound is not None and (not all(compound.get(field) for field in ("type", "vigraha", "members")) or not isinstance(compound.get("members"), list)):
+                    errors.append(f"name {number} has an incomplete compound analysis")
+                derivation = analysis.get("derivation")
+                if derivation and comparison_key(derivation) == comparison_key(meaning):
+                    errors.append(f"name {number} derivation merely repeats its English meaning")
             if source and not source.get("scan_pages"):
                 errors.append(f"name {number} lacks scan-page provenance")
     serialized = json.dumps(data, ensure_ascii=False)
@@ -463,6 +516,7 @@ def main() -> None:
     parser.add_argument("--received-source", type=Path)
     parser.add_argument("--word-split-source", type=Path)
     parser.add_argument("--commentary", type=Path, default=COMMENTARY_PATH)
+    parser.add_argument("--analysis", type=Path, default=ANALYSIS_PATH)
     parser.add_argument("--output", type=Path, default=OUTPUT_PATH)
     parser.add_argument("--check", type=Path)
     parser.add_argument("--require-commentary", action="store_true")
@@ -476,7 +530,7 @@ def main() -> None:
 
     received = load_pinned(args.received_source, RECEIVED_URL, RECEIVED_SHA256)
     word_split = load_pinned(args.word_split_source, WORD_SPLIT_URL, WORD_SPLIT_SHA256)
-    data = build(received, word_split, args.commentary)
+    data = build(received, word_split, args.commentary, args.analysis)
     report = validate(data, args.require_commentary)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

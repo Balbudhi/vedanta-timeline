@@ -41,8 +41,19 @@ function range(stanza) {
   return numbers.length ? `${numbers[0]}–${numbers[numbers.length - 1]}` : "";
 }
 
+function renderDevanagari(stanza) {
+  const lines = [0, 1].map(lineIndex => stanza.names.filter(name => name.line_index === lineIndex).map(name => {
+    const form = name.deva_surface || name.deva;
+    return `<span class="w vsn-deva-w" role="button" tabindex="0" data-name-number="${name.number}" aria-label="Name ${name.number}: ${esc(form)}">${esc(form)}</span>`;
+  }).join(" "));
+  return `${lines[0]} <span class="vsn-sep" aria-hidden="true">।</span><br>${lines[1]} <span class="vsn-sep" aria-hidden="true">॥</span>`;
+}
+
 function renderNames(stanza) {
-  return stanza.names.map(name => `<span class="w vsn-w" role="button" tabindex="0" data-name-number="${name.number}" aria-label="Name ${name.number}: ${esc(name.surface_iast)}">${esc(name.surface_iast)}</span>`).join(" ");
+  return stanza.names.map(name => {
+    const form = (name.word_analysis || {}).citation_iast || name.citation_iast || name.surface_iast;
+    return `<span class="w vsn-w" role="button" tabindex="0" data-name-number="${name.number}" aria-label="Name ${name.number}: ${esc(form)}">${esc(form)}</span>`;
+  }).join(" ");
 }
 
 function renderEnglish(stanza) {
@@ -50,8 +61,8 @@ function renderEnglish(stanza) {
 }
 
 function renderCommentary(stanza) {
-  return stanza.names.map(name => `<section class="vsn-commentary-entry" id="vsn-commentary-${name.number}" data-name-number="${name.number}">
-    <div class="voice-src"><span lang="sa-Latn">${esc(name.citation_iast_ocr || name.surface_iast)}</span> · name ${name.number} · scan page${name.chinmayananda.scan_pages.length > 1 ? "s" : ""} ${name.chinmayananda.scan_pages.join(", ")}</div>
+  return stanza.names.map(name => `<section class="vsn-commentary-entry" id="vsn-commentary-${name.number}">
+    <div class="voice-src"><span lang="sa-Latn">${esc((name.word_analysis || {}).citation_iast || name.citation_iast_ocr || name.surface_iast)}</span> · name ${name.number} · scan page${name.chinmayananda.scan_pages.length > 1 ? "s" : ""} ${name.chinmayananda.scan_pages.join(", ")}</div>
     <div class="voice-en">${paragraphs(name.chinmayananda.commentary)}</div>
   </section>`).join("");
 }
@@ -59,7 +70,7 @@ function renderCommentary(stanza) {
 function renderStanza(stanza) {
   return `<article class="verse vsn-verse" id="vsn-stanza-${stanza.number}">
     <header class="verse-head"><span class="verse-locus">${stanza.number}</span><span class="verse-speaker">Names ${range(stanza)}</span></header>
-    <div class="verse-deva" lang="sa-Deva">${esc(stanza.devanagari).replace(/\n/g, "<br>")}</div>
+    <div class="verse-deva vsn-deva" lang="sa-Deva">${renderDevanagari(stanza)}</div>
     <div class="ix" data-stanza="${stanza.number}">
       <div class="ix-pada" lang="sa-Latn">${renderNames(stanza)}</div>
       <div class="ix-en">${renderEnglish(stanza)}</div>
@@ -122,12 +133,38 @@ function openWordCard(number, anchor) {
   closeWordCard();
   ACTIVE_NUMBER = name.number;
   ROOT.querySelectorAll(`[data-name-number="${name.number}"]`).forEach(element => element.classList.add("hi"));
-  const read = COMMENTARY_OPEN ? `<button class="wc-gl vsn-read-commentary" type="button" data-name-number="${name.number}">Read Chinmayananda below</button>` : "";
+  const analysis = name.word_analysis || {};
+  const parts = Array.isArray(analysis.parts) && analysis.parts.length
+    ? `<div class="wc-parts">${analysis.parts.map(part => `<span class="wc-part"><span class="wc-pf" lang="sa-Latn">${esc(part.form_iast)}</span><span class="wc-pg">${esc(part.gloss)}</span></span>`).join("")}</div>`
+    : "";
+  const root = analysis.root
+    ? `<div class="wc-root"><span class="wc-pf">${esc(analysis.root.form)}</span><span class="wc-pg">: ${esc(`${analysis.root.gana}, ${analysis.root.pada} · ${analysis.root.gloss}`)}</span></div>`
+    : "";
+  const derivation = analysis.derivation
+    ? `<div class="wc-derivation"><span class="wc-note-label">Chinmayananda</span>${esc(analysis.derivation)}</div>`
+    : "";
+  const compound = analysis.compound
+    ? `<div class="wc-gram-cmp"><em>${esc(analysis.compound.type)}</em>: ${esc(analysis.compound.vigraha)}</div>`
+    : "";
+  const sandhi = analysis.sandhi && !analysis.sandhi.startsWith("No surface change")
+    ? `<div class="wc-note">${esc(analysis.sandhi)}</div>`
+    : "";
+  const grammar = `<div class="wc-gram"><span class="wc-gram-main">${esc(analysis.morph || "")}</span><br><span class="wc-gram-stem">stem: <span lang="sa-Latn">${esc(analysis.stem || "")}</span></span><br><span class="wc-gram-affix">formation: ${esc(analysis.affix || "")}</span>${compound ? `<br>${compound}` : ""}</div>${sandhi}`;
+  const read = `<button class="wc-gl vsn-read-commentary" type="button" data-name-number="${name.number}">Read Chinmayananda’s full explanation</button>`;
+  const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
+  const deva = analysis.citation_devanagari || name.deva;
   WORD_CARD = document.createElement("div");
   WORD_CARD.className = "wcard vsn-wcard";
   WORD_CARD.setAttribute("role", "dialog");
-  WORD_CARD.innerHTML = `<button class="vsn-wcard-close" type="button" aria-label="Close">×</button><div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(name.surface_iast)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="wc-mean">${esc(name.meaning)}</div>${read}`;
+  WORD_CARD.innerHTML = `<button class="vsn-wcard-close" type="button" aria-label="Close">×</button><div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${parts}${root}${grammar}${derivation}<div class="wc-gls">${read}</div>`;
   document.body.append(WORD_CARD);
+  WORD_CARD.querySelector(".vsn-wcard-close").addEventListener("click", closeWordCard);
+  WORD_CARD.querySelector(".vsn-read-commentary").addEventListener("click", () => {
+    setCommentary(true);
+    const entry = document.getElementById(`vsn-commentary-${name.number}`);
+    closeWordCard();
+    if (entry) entry.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
   placeCard(WORD_CARD, anchor);
 }
 
@@ -156,6 +193,7 @@ function wireWords() {
     if (close) { closeWordCard(); return; }
     const read = event.target.closest(".vsn-read-commentary");
     if (read) {
+      setCommentary(true);
       const entry = document.getElementById(`vsn-commentary-${read.dataset.nameNumber}`);
       closeWordCard();
       if (entry) entry.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -169,7 +207,7 @@ function wireWords() {
     }
   });
   ROOT.addEventListener("keydown", event => {
-    const target = event.target.closest(".vsn-we, .vsn-w");
+    const target = event.target.closest(".vsn-we, .vsn-w, .vsn-deva-w");
     if (target && (event.key === "Enter" || event.key === " ")) {
       event.preventDefault();
       openWordCard(target.dataset.nameNumber, target);
@@ -177,20 +215,25 @@ function wireWords() {
   });
 }
 
-function wireVoice() {
+function setCommentary(open) {
   const chip = ROOT.querySelector(".vsn-voice-chip");
-  chip.addEventListener("click", () => {
-    COMMENTARY_OPEN = !COMMENTARY_OPEN;
-    chip.classList.toggle("is-active", COMMENTARY_OPEN);
-    chip.setAttribute("aria-pressed", String(COMMENTARY_OPEN));
-    ROOT.querySelectorAll(".vsn-commentary-block").forEach(block => {
+  COMMENTARY_OPEN = Boolean(open);
+  chip.classList.toggle("is-active", COMMENTARY_OPEN);
+  chip.setAttribute("aria-pressed", String(COMMENTARY_OPEN));
+  ROOT.querySelectorAll(".vsn-commentary-block").forEach(block => {
       if (COMMENTARY_OPEN && block.dataset.loaded !== "true") {
         const stanza = DATA.stanzas[Number(block.dataset.stanzaNumber) - 1];
         block.querySelector(".vsn-commentary-content").innerHTML = renderCommentary(stanza);
         block.dataset.loaded = "true";
       }
       block.style.display = COMMENTARY_OPEN ? "block" : "none";
-    });
+  });
+}
+
+function wireVoice() {
+  const chip = ROOT.querySelector(".vsn-voice-chip");
+  chip.addEventListener("click", () => {
+    setCommentary(!COMMENTARY_OPEN);
     closeWordCard();
   });
   ROOT.addEventListener("click", event => {
