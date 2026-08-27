@@ -31,6 +31,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BORI_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_bori_critical_excerpt.txt"
 COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/chinmayananda.json"
 ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/analysis.json"
+PREFACE_COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/preface-commentary.json"
+PREFACE_WITNESS_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_performance_preface.json"
 OUTPUT_PATH = ROOT / "gita/vishnu-sahasranama/reader.json"
 WEB_CORE_PATH = ROOT / "gita/vishnu-sahasranama/reader-core.json"
 WEB_DETAILS_PATH = ROOT / "gita/vishnu-sahasranama/reader-details.json"
@@ -141,6 +143,148 @@ def parse_received_itx(source: str) -> list[dict]:
             stanza["received_variant_itx"] = variants
         stanzas.append(stanza)
     return stanzas
+
+
+def transliterate_preface_unit(lines: list[str], unit_id: str, label: str, speaker: str | None = None) -> dict:
+    cleaned = []
+    for line in lines:
+        line = re.sub(r"\s*\([^)]*\)\s*", " ", line).strip()
+        line = line.replace("\\-", "").replace(".h", "")
+        line = re.sub(r"\s*\|{1,2}\s*$", "", line).strip()
+        if line:
+            cleaned.append(line)
+    if not cleaned:
+        raise ValueError(f"performance preface unit {unit_id} is empty")
+    iast = [normalize_iast(transliterate(line, sanscript.ITRANS, sanscript.IAST)) for line in cleaned]
+    deva = [transliterate(line, sanscript.ITRANS, sanscript.DEVANAGARI) for line in cleaned]
+    unit = {
+        "id": unit_id,
+        "label": label,
+        "devanagari": "\n".join(f"{line} {'॥' if index == len(deva) - 1 else '।'}" for index, line in enumerate(deva)),
+        "iast": "\n".join(f"{line} {'||' if index == len(iast) - 1 else '|'}" for index, line in enumerate(iast)),
+        "received_itx": "\n".join(cleaned),
+    }
+    if speaker:
+        unit["speaker"] = speaker
+    return unit
+
+
+def parse_numbered_preface_units(section: str, selected: set[int], prefix: str, speakers: dict[int, str] | None = None) -> list[dict]:
+    for speaker_line in (
+        "shrIvaishampAyana uvAcha \\-\\-\\-",
+        "yudhiShThira uvAcha \\-\\-\\-",
+        "bhIShma uvAcha \\-\\-\\-",
+    ):
+        section = section.replace(speaker_line, "")
+    section = section.replace("\\-\n", "")
+    lines = [line.strip() for line in section.splitlines() if line.strip()]
+    units = []
+    buffered = []
+    for line in lines:
+        if line.startswith("\\section"):
+            continue
+        buffered.append(line)
+        marker = re.search(r"\|\|\s*(\d+)\|\|", line)
+        if not marker:
+            continue
+        number = int(marker.group(1))
+        buffered[-1] = line[: marker.start()].strip()
+        if number in selected:
+            units.append(transliterate_preface_unit(
+                buffered,
+                f"{prefix}-{number}",
+                str(number),
+                (speakers or {}).get(number),
+            ))
+        buffered = []
+    if [int(unit["label"]) for unit in units] != sorted(selected):
+        raise ValueError(f"could not recover the selected {prefix} units from the pinned witness")
+    return units
+
+
+def build_performance_preface(source: str) -> dict:
+    """Recover only the prefatory material actually heard on the selected recording."""
+    opening_start = source.index("shuklAmbaradharaM")
+    opening_end = source.index("\\section{pUrvanyAsaH}", opening_start)
+    opening = source[opening_start:opening_end]
+    opening = re.sub(
+        r"\(namaH samastabhUtAnAm.*?viShNave prabhaviShNave \|\|\)",
+        "",
+        opening,
+        flags=re.S,
+    )
+    standalone_opening = "OM namo viShNave prabhaviShNave ||"
+    opening_numbered = opening.replace(standalone_opening, "")
+    invocation = parse_numbered_preface_units(opening_numbered, {1, 3, 4, 5, 6}, "invocation")
+    invocation.append(transliterate_preface_unit([standalone_opening], "invocation-mantra", "Mantra"))
+
+    dialogue = parse_numbered_preface_units(
+        opening_numbered,
+        set(range(7, 23)),
+        "dialogue",
+        {7: "Vaiśampāyana", 8: "Yudhiṣṭhira", 10: "Bhīṣma"},
+    )
+
+    assignment_start = source.index("OM asya shrIviShNor", opening_end)
+    assignment_end = source.index("           atha nyAsaH", assignment_start)
+    assignment_lines = [line.strip() for line in source[assignment_start:assignment_end].splitlines() if line.strip()]
+    assignment_labels = (
+        "Assignment", "Seer", "Metre", "Deity", "Seed", "Power", "Supreme mantra", "Key",
+        "Weapon", "Eyes", "Armour", "Source", "Boundary", "Meditation", "Purpose",
+    )
+    assignment = [
+        transliterate_preface_unit([line], f"assignment-{index}", assignment_labels[index - 1])
+        for index, line in enumerate(assignment_lines, 1)
+    ]
+
+    meditation_start = source.index("kShIrodanvatpradeshe", assignment_end)
+    meditation_end = source.index("\\section{stotram}", meditation_start)
+    meditation_source = source[meditation_start:meditation_end]
+    meditation_mantra = "OM namo bhagavate vAsudevAya ||"
+    meditation_numbered = meditation_source.replace(meditation_mantra, "")
+    meditation = parse_numbered_preface_units(meditation_numbered, set(range(1, 8)), "meditation")
+    meditation.insert(2, transliterate_preface_unit([meditation_mantra], "meditation-mantra", "Mantra"))
+
+    groups = [
+        {"id": "invocation", "title": "Invocation", "units": invocation},
+        {"id": "dialogue", "title": "Yudhiṣṭhira and Bhīṣma", "units": dialogue},
+        {"id": "assignment", "title": "Ritual assignment", "units": assignment},
+        {"id": "meditation", "title": "Meditation", "units": meditation},
+    ]
+    return {
+        "schema_version": 1,
+        "title": "Opening performed before the thousand names",
+        "source": {
+            "url": RECEIVED_URL,
+            "sha256": RECEIVED_SHA256,
+            "selection_basis": "Exact sequence matched to the selected Sanjeev Abhyankar recording through the official publisher video and its original-language captions; variants and unperformed nyāsa passages are excluded.",
+            "sequence_status": "official-publisher-caption-assisted",
+        },
+        "audio": {
+            "official_reference": "https://www.youtube.com/watch?v=s9S6umIoH6I",
+            "thousand_names_begin_approx_seconds": 498.08,
+            "timing_status": "provisional-section-boundary",
+        },
+        "groups": groups,
+    }
+
+
+def attach_preface_commentary(preface: dict, commentary_path: Path | None) -> dict:
+    enriched = json.loads(json.dumps(preface, ensure_ascii=False))
+    if not commentary_path or not commentary_path.exists():
+        return enriched
+    commentary = json.loads(commentary_path.read_text(encoding="utf-8"))
+    commentary_groups = commentary.get("groups", {})
+    unit_commentary = commentary.get("units", {})
+    for group in enriched["groups"]:
+        context = commentary_groups.get(group["id"])
+        if context:
+            group["chinmayananda"] = context
+        for unit in group["units"]:
+            context = unit_commentary.get(unit["id"])
+            if context:
+                unit["chinmayananda"] = context
+    return enriched
 
 
 def parse_bori(path: Path) -> list[dict]:
@@ -332,6 +476,13 @@ def load_analysis(path: Path | None) -> dict[int, dict]:
 
 
 def build(received: str, word_split: str, commentary_path: Path | None, analysis_path: Path | None) -> dict:
+    generated_preface = build_performance_preface(received)
+    if not PREFACE_WITNESS_PATH.exists():
+        raise ValueError(f"performance preface witness is missing: {PREFACE_WITNESS_PATH}")
+    preface_witness = json.loads(PREFACE_WITNESS_PATH.read_text(encoding="utf-8"))
+    if preface_witness != generated_preface:
+        raise ValueError("performance preface witness does not replay the pinned received text")
+    preface = attach_preface_commentary(preface_witness, PREFACE_COMMENTARY_PATH)
     stanzas = parse_received_itx(received)
     bori = parse_bori(BORI_PATH)
     boundaries, all_names = parse_word_split(word_split)
@@ -415,6 +566,14 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
                 "path": str(analysis_path.relative_to(ROOT)),
                 "sha256": sha256(analysis_path.read_bytes()),
             } if analysis_path and analysis_path.exists() else None,
+            "performance_preface": {
+                "path": str(PREFACE_WITNESS_PATH.relative_to(ROOT)),
+                "sha256": sha256(PREFACE_WITNESS_PATH.read_bytes()),
+            },
+            "preface_commentary": {
+                "path": str(PREFACE_COMMENTARY_PATH.relative_to(ROOT)),
+                "sha256": sha256(PREFACE_COMMENTARY_PATH.read_bytes()),
+            },
         },
         "audio": {
             "src": "https://github.com/Balbudhi/vedanta-timeline/releases/download/media-v1/vishnu-sahasranama-sanjeev-abhyankar.m4a?download=1",
@@ -430,12 +589,27 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
             "delivery": "Original purchased M4A stream; no lossy re-encode; GitHub release asset media-v1.",
             "timing_status": "unsynchronised",
         },
+        "preface": preface,
         "stanzas": stanzas,
     }
 
 
 def validate(data: dict, require_commentary: bool) -> dict:
     errors = []
+    preface = data.get("preface", {})
+    preface_groups = preface.get("groups", [])
+    expected_preface_counts = {"invocation": 6, "dialogue": 16, "assignment": 15, "meditation": 8}
+    if [group.get("id") for group in preface_groups] != list(expected_preface_counts):
+        errors.append("performance preface groups are missing or out of recording order")
+    if {group.get("id"): len(group.get("units", [])) for group in preface_groups} != expected_preface_counts:
+        errors.append("performance preface must contain the exact 6/16/15/8-unit recording sequence")
+    preface_ids = [unit.get("id") for group in preface_groups for unit in group.get("units", [])]
+    if len(preface_ids) != len(set(preface_ids)):
+        errors.append("performance preface has duplicate unit ids")
+    for group in preface_groups:
+        for unit in group.get("units", []):
+            if not unit.get("devanagari") or not unit.get("iast"):
+                errors.append(f"performance preface unit {unit.get('id')} lacks source text")
     stanzas = data.get("stanzas", [])
     names = [name for stanza in stanzas for name in stanza.get("names", [])]
     if len(stanzas) != 107:
@@ -499,6 +673,7 @@ def validate(data: dict, require_commentary: bool) -> dict:
     if errors:
         raise ValueError("\n".join(errors[:80]))
     return {
+        "preface_units": sum(len(group.get("units", [])) for group in preface_groups),
         "stanzas": len(stanzas),
         "names": len(names),
         "with_commentary": sum("chinmayananda" in item for item in names),
@@ -587,7 +762,16 @@ def main() -> None:
     parser.add_argument("--check", type=Path)
     parser.add_argument("--require-commentary", action="store_true")
     parser.add_argument("--update-citation-index", type=Path)
+    parser.add_argument("--write-preface-witness", action="store_true")
     args = parser.parse_args()
+
+    if args.write_preface_witness:
+        received = load_pinned(args.received_source, RECEIVED_URL, RECEIVED_SHA256)
+        preface = build_performance_preface(received)
+        PREFACE_WITNESS_PATH.parent.mkdir(parents=True, exist_ok=True)
+        PREFACE_WITNESS_PATH.write_text(json.dumps(preface, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(json.dumps({"preface_units": sum(len(group["units"]) for group in preface["groups"]), "output": str(PREFACE_WITNESS_PATH)}, ensure_ascii=False, indent=2))
+        return
 
     if args.split_only:
         data = json.loads(args.split_only.read_text(encoding="utf-8"))

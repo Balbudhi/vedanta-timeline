@@ -12,6 +12,8 @@ let DETAILS_OPEN = false;
 let DETAILS_URL = "";
 let DETAILS_PROMISE = null;
 let NAME_BY_NUMBER = new Map();
+let CHANT_ONLY = false;
+const CHANT_VIEW_KEY = "vedanta:vishnu-sahasranama:chant-only";
 
 function esc(value) {
   return String(value == null ? "" : value).replace(/[&<>"']/g, c => ({
@@ -125,10 +127,49 @@ function renderStanza(stanza) {
   </article>`;
 }
 
+function renderPrefaceUnit(unit, groupId) {
+  const english = unit.chinmayananda?.english;
+  const compact = groupId === "assignment" ? " vsn-preface-unit--compact" : "";
+  return `<article class="verse vsn-preface-unit${compact}" id="vsn-${esc(unit.id)}">
+    <header class="verse-head"><span class="verse-locus">${esc(unit.label)}</span>${unit.speaker ? `<span class="verse-speaker">${esc(unit.speaker)}</span>` : ""}</header>
+    <div class="verse-deva vsn-preface-deva" lang="sa-Deva">${esc(unit.devanagari).replace(/\n/g, "<br>")}</div>
+    <div class="ix vsn-preface-ix">
+      <div class="ix-pada vsn-preface-iast" lang="sa-Latn">${esc(unit.iast).replace(/\n/g, "<br>")}</div>
+      ${english ? `<div class="ix-en vsn-preface-en">${esc(english)}</div>` : ""}
+    </div>
+  </article>`;
+}
+
+function renderPrefaceGroup(group) {
+  const commentary = group.chinmayananda;
+  const pages = commentary?.scan_pages || [];
+  return `<section class="vsn-preface-group" data-preface-group="${esc(group.id)}">
+    <h3 class="vsn-preface-group-title">${esc(group.title)}</h3>
+    ${group.units.map(unit => renderPrefaceUnit(unit, group.id)).join("")}
+    ${commentary ? `<aside class="vsn-preface-commentary" hidden>
+      <div class="vsn-preface-commentary-title">${esc(commentary.title)}</div>
+      <p>${esc(commentary.detail)}</p>
+      <div class="vsn-detail-source">Swami Chinmayananda · <em>Thousand Ways to the Transcendental</em> · p${pages.length === 1 ? "." : "p."} ${esc(pages.join("–"))}</div>
+    </aside>` : ""}
+  </section>`;
+}
+
+function renderPreface() {
+  const groups = DATA.preface?.groups || [];
+  if (!groups.length) return "";
+  return `<section class="vsn-preface" aria-labelledby="vsn-preface-title">
+    <header class="vsn-section-head"><span id="vsn-preface-title">Before the thousand names</span><span>Opening in this recording</span></header>
+    <p class="vsn-preface-intro">This performance begins with the invocation, the Mahābhārata dialogue, the ritual assignment, and meditation. The thousand names follow.</p>
+    ${groups.map(renderPrefaceGroup).join("")}
+  </section>
+  <header class="vsn-section-head vsn-names-head"><span>The thousand names</span><span>Names 1–1000</span></header>`;
+}
+
 function renderDetailToggle() {
   return `<div class="voicebar vsn-viewbar">
     <span class="voicebar-label">View —</span>
-    <div class="voicebar-chips" role="group" aria-label="Reader detail">
+    <div class="voicebar-chips" role="group" aria-label="Reading view">
+      <button class="vchip vsn-chant-chip" type="button" aria-pressed="false"><span class="vsn-chant-icon" aria-hidden="true">अ</span>Chant only</button>
       <button class="vchip vsn-detail-chip" type="button" aria-pressed="false"><span class="vsn-detail-icon" aria-hidden="true">+</span>Detailed explanations</button>
     </div>
   </div>`;
@@ -271,6 +312,7 @@ async function setDetails(open) {
   const icon = chip.querySelector(".vsn-detail-icon");
   if (icon) icon.textContent = DETAILS_OPEN ? "−" : "+";
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-details-open", DETAILS_OPEN);
+  ROOT.querySelectorAll(".vsn-preface-commentary").forEach(block => { block.hidden = !DETAILS_OPEN; });
   ROOT.querySelectorAll(".vsn-details-block").forEach(block => {
       if (DETAILS_OPEN && block.dataset.loaded !== "true") {
         const stanza = DATA.stanzas[Number(block.dataset.stanzaNumber) - 1];
@@ -281,12 +323,33 @@ async function setDetails(open) {
   });
 }
 
+function readChantView() {
+  try { return localStorage.getItem(CHANT_VIEW_KEY) === "true"; }
+  catch (_) { return false; }
+}
+
+function setChantView(active, persist) {
+  CHANT_ONLY = Boolean(active);
+  if (CHANT_ONLY && DETAILS_OPEN) setDetails(false);
+  const chip = ROOT.querySelector(".vsn-chant-chip");
+  chip?.classList.toggle("is-active", CHANT_ONLY);
+  chip?.setAttribute("aria-pressed", String(CHANT_ONLY));
+  const detailChip = ROOT.querySelector(".vsn-detail-chip");
+  if (detailChip) detailChip.disabled = CHANT_ONLY;
+  ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-chant-only", CHANT_ONLY);
+  closeWordCard();
+  if (persist !== false) {
+    try { localStorage.setItem(CHANT_VIEW_KEY, String(CHANT_ONLY)); } catch (_) {}
+  }
+}
+
 function wireDetails() {
   const chip = ROOT.querySelector(".vsn-detail-chip");
   chip.addEventListener("click", async () => {
     await setDetails(!DETAILS_OPEN);
     closeWordCard();
   });
+  ROOT.querySelector(".vsn-chant-chip").addEventListener("click", () => setChantView(!CHANT_ONLY));
   ROOT.addEventListener("click", event => {
     if (event.target.closest(".vsn-thinker-link") && ON_THINKER) ON_THINKER("chinmayananda");
   });
@@ -338,6 +401,7 @@ async function render(root, options) {
   LINKIFY = typeof options.linkifyGlossary === "function" ? options.linkifyGlossary : null;
   ON_THINKER = typeof options.onThinker === "function" ? options.onThinker : null;
   DETAILS_OPEN = false;
+  CHANT_ONLY = readChantView();
   closeWordCard();
   root.innerHTML = '<p style="color:var(--muted);font-style:italic">Opening the thousand names…</p>';
   const response = await fetch(options.dataUrl || "gita/vishnu-sahasranama/reader.json");
@@ -348,7 +412,7 @@ async function render(root, options) {
   DETAILS_URL = options.detailsUrl || "";
   DETAILS_PROMISE = null;
   NAME_BY_NUMBER = new Map(DATA.stanzas.flatMap(stanza => stanza.names).map(name => [Number(name.number), name]));
-  root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderDetailToggle()}${DATA.stanzas.map(renderStanza).join("")}${renderAudio()}</div>`;
+  root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderDetailToggle()}${renderPreface()}${DATA.stanzas.map(renderStanza).join("")}${renderAudio()}</div>`;
   const renderedAt = performance.now();
   const reader = root.querySelector(".vsn-reader");
   if (reader) {
@@ -359,6 +423,7 @@ async function render(root, options) {
   }
   wireWords();
   wireDetails();
+  setChantView(CHANT_ONLY, false);
   wireAudio();
 }
 

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "work": {
+    "author": "Swami Chinmayananda",
+    "title": "Thousand Ways to the Transcendental",
+    "edition": "Central Chinmaya Mission Trust, ISBN 978-81-7597-245-2",
+    "witness": "Owner-supplied 272-page scan; cited by scan page below"
+  },
+  "groups": {
+    "dialogue": {
+      "title": "Chinmayananda on the six questions",
+      "detail": "Yudhiṣṭhira, as a righteous man of spiritual inclination, asks a set of questions which the heart of a seeker will always ask. Chinmayananda arranges them as six inquiries: the greatest Lord, the one refuge, whom to glorify, whom to worship, the greatest dharma, and the japa by which a creature goes beyond the bonds of saṃsāra.",
+      "scan_pages": [7, 8, 9],
+      "verification_status": "scan-checked"
+    },
+    "assignment": {
+      "title": "Chinmayananda on the installation",
+      "detail": "Chinmayananda calls this the “Installation of the Lord.” The seeker sanctifies the body as a divine temple and installs the sacred powers within it. He stresses that the practice points beyond a Lord conceived as separate toward identity without differentiation, while establishing the mood for devoted contemplation.",
+      "scan_pages": [12, 13],
+      "verification_status": "scan-checked"
+    },
+    "meditation": {
+      "title": "Chinmayananda on the meditation",
+      "detail": "This is meditation upon the form of the Lord. Visualising Him in His all-comprehensive nature, and meditating upon Him, the seeker starts the Viṣṇusahasranāma chanting.",
+      "scan_pages": [19],
+      "verification_status": "scan-checked"
+    }
+  },
+  "units": {
+    "dialogue-8": {
+      "english": "Who is the greatest Lord in the world? Who is the one refuge for all? By glorifying whom can man reach auspiciousness - peace and prosperity? By worshipping whom can man reach auspiciousness?",
+      "scan_pages": [7, 8],
+      "verification_status": "scan-checked"
+    },
+    "dialogue-9": {
+      "english": "What is, in thy opinion, the greatest dharma? By doing japa of what can creatures go beyond the bonds of saṃsāra?",
+      "scan_pages": [9],
+      "verification_status": "scan-checked"
+    },
+    "dialogue-10": {
+      "english": "The Supreme Puruṣa, who is ever up and doing for the welfare of all, the Lord of the world, the Endless - Śrī Mahā Viṣṇu.",
+      "scan_pages": [8],
+      "verification_status": "scan-checked"
+    },
+    "dialogue-11": {
+      "english": "By meditating upon, by worshipping and by prostrating at the same Puruṣa, man can reach true auspiciousness.",
+      "scan_pages": [9],
+      "verification_status": "scan-checked"
+    },
+    "dialogue-12": {
+      "english": "The greatest dharma is the one Viṣṇu, who has neither a beginning nor an end, the Supreme Lord of the world. All creatures can go beyond the bonds of saṃsāra, and beyond all sorrows, by daily chanting the Sahasranāma and inwardly glorifying the Knower of the world.",
+      "scan_pages": [9],
+      "verification_status": "scan-checked"
+    },
+    "dialogue-15": {
+      "english": "He who is the great effulgence; He who is the great controller; He who is the supreme all-pervading Truth; He who is the highest goal - the Lord Viṣṇu.",
+      "scan_pages": [8],
+      "verification_status": "scan-checked"
+    },
+    "dialogue-16": {
+      "english": "He who is the very sanctity which sanctifies all sacred things; He who is the most auspicious; He who is the God of gods; He who is the eternal Father of all creatures is the one God - Viṣṇu.",
+      "scan_pages": [7],
+      "verification_status": "scan-checked"
+    },
+    "meditation-3": {
+      "english": "We meditate upon the Master of the Universe, Lord Viṣṇu, who is ever peaceful, who lies on the great serpent-bed, from whose navel springs the lotus of the creative power, who is the controller of the gods, whose form is the entire universe, who is all-pervading as the sky, of the hue of the cloud, of fascinating beauty, the Lord of Lakṣmī, the lotus-eyed, He who dwells in the hearts of the yogis and who can be approached and perceived through meditation, He who is the destroyer of the fear of saṃsāra.",
+      "scan_pages": [19],
+      "verification_status": "scan-checked"
+    }
+  }
+}

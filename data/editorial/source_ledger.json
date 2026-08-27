@@ -167,6 +167,45 @@
       "notes": "The reader preserves BORI locus IDs, normalizes ISO 15919 display to standard IAST without changing the Sanskrit, and uses separately reviewed name boundaries. Any recension difference from the Chinmayananda edition must be recorded rather than silently harmonized."
     },
     {
+      "id": "vishnu-sahasranama-sanjeev-abhyankar-performance-preface",
+      "title_iast": "Viṣṇusahasranāma recitation preface (Sanjeev Abhyankar performance sequence)",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/vedanta/vishnu_sahasranama_performance_preface.json",
+      "witness": "Exact performed selection generated from the pinned SanskritDocuments ITRANS witness (SHA-256 b53e64398d0a340dd01d2a83979c13346d6b27ec29f50a46a41b9d14080bb19b) and checked against the official Times Music Spiritual recording; the section boundary near 8:18 remains provisional and is not used for automatic synchronization.",
+      "rights_status": "public-working-witness-with-owner-approved-audio",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://vishnu-sahasranama/recitation-preface/"
+      ],
+      "review_areas": [
+        "vishnu-sahasranama",
+        "vishnu",
+        "sanskrit-reader",
+        "audio"
+      ],
+      "notes": "The selection includes only material heard before name 1 in the chosen recording: five invocatory verses and a mantra, Mahābhārata framing verses 7-22, the performed ritual assignment, and seven meditation verses with the Vāsudeva mantra. Unperformed invocation and nyāsa variants are deliberately excluded."
+    },
+    {
+      "id": "chinmayananda-thousand-ways-preface-authorized-reader",
+      "title_iast": "Thousand Ways to the Transcendental: recitation-preface engagement",
+      "source_level": "secondary",
+      "source_path": "gita/vishnu-sahasranama/preface-commentary.json",
+      "witness": "Swami Chinmayananda, Thousand Ways to the Transcendental: Vishnu Sahasranaama, Central Chinmaya Mission Trust, ISBN 978-81-7597-245-2; the selected English engagement was checked directly against scan pages 7-9, 12-13, and 19 of the owner's 272-page witness.",
+      "rights_status": "owner-attests-publication-permission-from-chinmaya-mission",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://chinmayananda/thousand-ways-to-the-transcendental/preface/"
+      ],
+      "review_areas": [
+        "chinmayananda",
+        "vishnu-sahasranama",
+        "vishnu",
+        "advaita",
+        "sanskrit-reader"
+      ],
+      "notes": "This small source layer covers only Chinmayananda's treatment of the six questions, the installation, and the meditation stanza that occur in the selected recording's preface. It does not assign commentary to invocations he does not discuss."
+    },
+    {
       "id": "chinmayananda-thousand-ways-authorized-reader",
       "title_iast": "Thousand Ways to the Transcendental: Viṣṇu Sahasranāma commentary",
       "source_level": "secondary",
@@ -184,7 +223,7 @@
         "advaita",
         "sanskrit-reader"
       ],
-      "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. The public reader identifies Chinmayananda's English as an attributed traditional Advaita teaching layer and keeps it separate from the name-level interaction. A second OCR of the same edition (SHA-256 8e87779ac1ac0555c9b12b62e895c2338bc8e6c5cf2e0cc82b9f9d69557f36a4) is retained under data/sources/_unverified_ocr for comparison only; it is not a distinct edition and contains missing number markers, malformed scripts, and scan-unsupported text, so the page image remains authoritative."
+      "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. The public reader identifies Chinmayananda's English as an attributed traditional Advaita teaching layer and keeps it separate from the name-level interaction. Scan-checked preface engagement is stored separately in gita/vishnu-sahasranama/preface-commentary.json so it does not get confused with the numbered-name commentary. A second OCR of the same edition (SHA-256 8e87779ac1ac0555c9b12b62e895c2338bc8e6c5cf2e0cc82b9f9d69557f36a4) is retained under data/sources/_unverified_ocr for comparison only; it is not a distinct edition and contains missing number markers, malformed scripts, and scan-unsupported text, so the page image remains authoritative."
     }
   ]
 }

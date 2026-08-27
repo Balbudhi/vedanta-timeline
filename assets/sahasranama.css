@@ -27,6 +27,51 @@
   border-color: var(--ink-soft); color: var(--ink); font-weight: 600;
   box-shadow: inset 0 0 0 1px var(--ink-soft); background: var(--bg-warm);
 }
+.vsn-chant-icon {
+  display: inline-grid; place-items: center; width: 14px; margin-right: 4px;
+  font-family: var(--serif); font-size: 13px; line-height: 1;
+}
+.vsn-chant-chip.is-active {
+  border-color: var(--ink-soft); color: var(--ink); font-weight: 600;
+  box-shadow: inset 0 0 0 1px var(--ink-soft); background: var(--bg-warm);
+}
+.vsn-detail-chip:disabled { opacity: .42; cursor: default; }
+.vsn-section-head {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+  margin: 22px 12px 0; padding: 0 0 9px; border-bottom: 1px solid var(--hairline);
+  color: var(--ink); font: 600 13px/1.35 var(--serif);
+}
+.vsn-section-head > :last-child {
+  color: var(--muted-soft); font: 9px/1.35 var(--sans); letter-spacing: .07em; text-transform: uppercase;
+}
+.vsn-preface-intro {
+  margin: 12px 12px 18px; color: var(--ink-soft); font-size: 14px; line-height: 1.6;
+}
+.vsn-preface-group { margin: 0; }
+.vsn-preface-group-title {
+  margin: 22px 12px 4px; color: var(--muted); font: 700 10px/1.4 var(--sans);
+  letter-spacing: .1em; text-transform: uppercase;
+}
+.vsn-preface-unit { scroll-margin-top: 18px; }
+.vsn-preface-unit .verse-deva { font-size: 19px; line-height: 1.75; }
+.vsn-preface-unit .ix-pada { font-size: 16px; line-height: 1.95; }
+.vsn-preface-unit .ix-en { color: var(--ink-soft); font-size: 15px; line-height: 1.68; }
+.vsn-preface-unit--compact { padding-top: 11px; padding-bottom: 11px; }
+.vsn-preface-unit--compact .verse-head { margin-bottom: 5px; }
+.vsn-preface-unit--compact .verse-deva { margin-bottom: 5px; font-size: 17px; }
+.vsn-preface-unit--compact .ix-pada { margin-bottom: 0; font-size: 15px; line-height: 1.7; }
+.vsn-preface-commentary {
+  margin: 8px 12px 24px; padding: 15px 0 0; border-top: 1px solid var(--hairline);
+  color: var(--ink-soft); font-size: 14.5px; line-height: 1.68;
+}
+.vsn-preface-commentary[hidden] { display: none; }
+.vsn-preface-commentary-title { margin-bottom: 5px; color: var(--ink); font-weight: 600; }
+.vsn-preface-commentary p { margin: 0; }
+.vsn-names-head { margin-top: 34px; }
+.vsn-reader.vsn-chant-only .ix-en,
+.vsn-reader.vsn-chant-only .vsn-preface-intro,
+.vsn-reader.vsn-chant-only .vsn-preface-commentary,
+.vsn-reader.vsn-chant-only .vsn-details-block { display: none !important; }
 .vsn-verse {
   scroll-margin-top: 18px;
   content-visibility: auto;
@@ -79,6 +124,13 @@
   .vsn-attribution { margin-bottom: 10px; padding-bottom: 12px; }
   .vsn-attribution-primary { font-size: 14px; }
   .vsn-detail-name { grid-template-columns: 24px minmax(0, 1fr); }
+  .vsn-section-head { margin-left: 2px; margin-right: 2px; }
+  .vsn-preface-intro,
+  .vsn-preface-group-title,
+  .vsn-preface-commentary { margin-left: 2px; margin-right: 2px; }
+  .vsn-preface-unit { padding-left: 2px; padding-right: 2px; }
+  .vsn-preface-unit .verse-deva { font-size: 18px; }
+  .vsn-preface-unit .ix-pada { font-size: 15.5px; line-height: 1.9; }
   .vsn-detail-deva { grid-column: 2; margin-top: -3px; }
   .vsn-verse {
     padding-left: 2px;

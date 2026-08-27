@@ -28,6 +28,14 @@
     "sanskrit_analysis": {
       "path": "gita/vishnu-sahasranama/analysis.json",
       "sha256": "bc0eb1c7d22fefbb9ba2cd2b95abf36e17a9f85bb9486211e251f41011a8fb49"
+    },
+    "performance_preface": {
+      "path": "data/sources/sanskrit/vedanta/vishnu_sahasranama_performance_preface.json",
+      "sha256": "7c49cec8daef7b71820b26162575ad3437540667cbd14e549bfaf18e1da92219"
+    },
+    "preface_commentary": {
+      "path": "gita/vishnu-sahasranama/preface-commentary.json",
+      "sha256": "85021eb766c6489d7934a0f44157d728db887a0a93182635257c38f9b313221e"
     }
   },
   "audio": {
@@ -43,6 +51,449 @@
     "sha256": "9e3b185314c009376eb1b6b07936b1077bc665a29f9bbdba52491b92a8c5f342",
     "delivery": "Original purchased M4A stream; no lossy re-encode; GitHub release asset media-v1.",
     "timing_status": "unsynchronised"
+  },
+  "preface": {
+    "schema_version": 1,
+    "title": "Opening performed before the thousand names",
+    "source": {
+      "url": "https://sanskritdocuments.org/doc_vishhnu/vsahasranew.itx",
+      "sha256": "b53e64398d0a340dd01d2a83979c13346d6b27ec29f50a46a41b9d14080bb19b",
+      "selection_basis": "Exact sequence matched to the selected Sanjeev Abhyankar recording through the official publisher video and its original-language captions; variants and unperformed nyāsa passages are excluded.",
+      "sequence_status": "official-publisher-caption-assisted"
+    },
+    "audio": {
+      "official_reference": "https://www.youtube.com/watch?v=s9S6umIoH6I",
+      "thousand_names_begin_approx_seconds": 498.08,
+      "timing_status": "provisional-section-boundary"
+    },
+    "groups": [
+      {
+        "id": "invocation",
+        "title": "Invocation",
+        "units": [
+          {
+            "id": "invocation-1",
+            "label": "1",
+            "devanagari": "शुक्लाम्बरधरं विष्णुं शशिवर्णं चतुर्भुजम् ।\nप्रसन्नवदनं ध्यायेत् सर्वविघ्नोपशान्तये ॥",
+            "iast": "śuklāmbaradharaṃ viṣṇuṃ śaśivarṇaṃ caturbhujam |\nprasannavadanaṃ dhyāyet sarvavighnopaśāntaye ||",
+            "received_itx": "shuklAmbaradharaM viShNuM shashivarNaM chaturbhujam\nprasannavadanaM dhyAyet sarvavighnopashAntaye"
+          },
+          {
+            "id": "invocation-3",
+            "label": "3",
+            "devanagari": "व्यासं वसिष्ठनप्तारं शक्तेः पौत्रमकल्मषम् ।\nपराशरात्मजं वन्दे शुकतातं तपोनिधिम् ॥",
+            "iast": "vyāsaṃ vasiṣṭhanaptāraṃ śakteḥ pautramakalmaṣam |\nparāśarātmajaṃ vande śukatātaṃ taponidhim ||",
+            "received_itx": "vyAsaM vasiShThanaptAraM shakteH pautramakalmaSham\nparAsharAtmajaM vande shukatAtaM taponidhim"
+          },
+          {
+            "id": "invocation-4",
+            "label": "4",
+            "devanagari": "व्यासाय विष्णुरूपाय व्यासरूपाय विष्णवे ।\nनमो वै ब्रह्मनिधये वासिष्ठाय नमो नमः ॥",
+            "iast": "vyāsāya viṣṇurūpāya vyāsarūpāya viṣṇave |\nnamo vai brahmanidhaye vāsiṣṭhāya namo namaḥ ||",
+            "received_itx": "vyAsAya viShNurUpAya vyAsarUpAya viShNave\nnamo vai brahmanidhaye vAsiShThAya namo namaH"
+          },
+          {
+            "id": "invocation-5",
+            "label": "5",
+            "devanagari": "अविकाराय शुद्धाय नित्याय परमात्मने ।\nसदैकरूपरूपाय विष्णवे सर्वजिष्णवे ॥",
+            "iast": "avikārāya śuddhāya nityāya paramātmane |\nsadaikarūparūpāya viṣṇave sarvajiṣṇave ||",
+            "received_itx": "avikArAya shuddhAya nityAya paramAtmane\nsadaikarUparUpAya viShNave sarvajiShNave"
+          },
+          {
+            "id": "invocation-6",
+            "label": "6",
+            "devanagari": "यस्य स्मरणमात्रेण जन्मसंसारबन्धनात् ।\nविमुच्यते नमस्तस्मै विष्णवे प्रभविष्णवे ॥",
+            "iast": "yasya smaraṇamātreṇa janmasaṃsārabandhanāt |\nvimucyate namastasmai viṣṇave prabhaviṣṇave ||",
+            "received_itx": "yasya smaraNamAtreNa janmasaMsArabandhanAt\nvimuchyate namastasmai viShNave prabhaviShNave"
+          },
+          {
+            "id": "invocation-mantra",
+            "label": "Mantra",
+            "devanagari": "ॐ नमो विष्णवे प्रभविष्णवे ॥",
+            "iast": "oṃ namo viṣṇave prabhaviṣṇave ||",
+            "received_itx": "OM namo viShNave prabhaviShNave"
+          }
+        ]
+      },
+      {
+        "id": "dialogue",
+        "title": "Yudhiṣṭhira and Bhīṣma",
+        "units": [
+          {
+            "id": "dialogue-7",
+            "label": "7",
+            "devanagari": "श्रुत्वा धर्मानशेषेण पावनानि च सर्वशः ।\nयुधिष्ठिरः शान्तनवं पुनरेवाभ्यभाषत ॥",
+            "iast": "śrutvā dharmānaśeṣeṇa pāvanāni ca sarvaśaḥ |\nyudhiṣṭhiraḥ śāntanavaṃ punarevābhyabhāṣata ||",
+            "received_itx": "shrutvA dharmAnasheSheNa pAvanAni cha sarvashaH\nyudhiShThiraH shAntanavaM punarevAbhyabhAShata",
+            "speaker": "Vaiśampāyana"
+          },
+          {
+            "id": "dialogue-8",
+            "label": "8",
+            "devanagari": "किमेकं दैवतं लोके किं वाप्येकं परायणम् ।\nस्तुवन्तः कं कमर्चन्तः प्राप्नुयुर्मानवाः शुभम् ॥",
+            "iast": "kimekaṃ daivataṃ loke kiṃ vāpyekaṃ parāyaṇam |\nstuvantaḥ kaṃ kamarcantaḥ prāpnuyurmānavāḥ śubham ||",
+            "received_itx": "kimekaM daivataM loke kiM vApyekaM parAyaNam\nstuvantaH kaM kamarchantaH prApnuyurmAnavAH shubham",
+            "speaker": "Yudhiṣṭhira",
+            "chinmayananda": {
+              "english": "Who is the greatest Lord in the world? Who is the one refuge for all? By glorifying whom can man reach auspiciousness - peace and prosperity? By worshipping whom can man reach auspiciousness?",
+              "scan_pages": [
+                7,
+                8
+              ],
+              "verification_status": "scan-checked"
+            }
+          },
+          {
+            "id": "dialogue-9",
+            "label": "9",
+            "devanagari": "को धर्मः सर्वधर्माणां भवतः परमो मतः ।\nकिं जपन्मुच्यते जन्तुर्जन्मसंसारबन्धनात् ॥",
+            "iast": "ko dharmaḥ sarvadharmāṇāṃ bhavataḥ paramo mataḥ |\nkiṃ japanmucyate janturjanmasaṃsārabandhanāt ||",
+            "received_itx": "ko dharmaH sarvadharmANAM bhavataH paramo mataH\nkiM japanmuchyate janturjanmasaMsArabandhanAt",
+            "chinmayananda": {
+              "english": "What is, in thy opinion, the greatest dharma? By doing japa of what can creatures go beyond the bonds of saṃsāra?",
+              "scan_pages": [
+                9
+              ],
+              "verification_status": "scan-checked"
+            }
+          },
+          {
+            "id": "dialogue-10",
+            "label": "10",
+            "devanagari": "जगत्प्रभुं देवदेवमनन्तं पुरुषोत्तमम् ।\nस्तुवन् नामसहस्रेण पुरुषः सततोत्थितः ॥",
+            "iast": "jagatprabhuṃ devadevamanantaṃ puruṣottamam |\nstuvan nāmasahasreṇa puruṣaḥ satatotthitaḥ ||",
+            "received_itx": "jagatprabhuM devadevamanantaM puruShottamam\nstuvan nAmasahasreNa puruShaH satatotthitaH",
+            "speaker": "Bhīṣma",
+            "chinmayananda": {
+              "english": "The Supreme Puruṣa, who is ever up and doing for the welfare of all, the Lord of the world, the Endless - Śrī Mahā Viṣṇu.",
+              "scan_pages": [
+                8
+              ],
+              "verification_status": "scan-checked"
+            }
+          },
+          {
+            "id": "dialogue-11",
+            "label": "11",
+            "devanagari": "तमेव चार्चयन्नित्यं  भक्त्या पुरुषमव्ययम् ।\nध्यायन् स्तुवन् नमस्यंश्च यजमानस्तमेव च ॥",
+            "iast": "tameva cārcayannityaṃ  bhaktyā puruṣamavyayam |\ndhyāyan stuvan namasyaṃśca yajamānastameva ca ||",
+            "received_itx": "tameva chArchayannityaM  bhaktyA puruShamavyayam\ndhyAyan stuvan namasyaMshcha yajamAnastameva cha",
+            "chinmayananda": {
+              "english": "By meditating upon, by worshipping and by prostrating at the same Puruṣa, man can reach true auspiciousness.",
+              "scan_pages": [
+                9
+              ],
+              "verification_status": "scan-checked"
+            }
+          },
+          {
+            "id": "dialogue-12",
+            "label": "12",
+            "devanagari": "अनादिनिधनं विष्णुं सर्वलोकमहेश्वरम् ।\nलोकाध्यक्षं स्तुवन्नित्यं सर्वदुःखातिगो भवेत् ॥",
+            "iast": "anādinidhanaṃ viṣṇuṃ sarvalokamaheśvaram |\nlokādhyakṣaṃ stuvannityaṃ sarvaduḥkhātigo bhavet ||",
+            "received_itx": "anAdinidhanaM viShNuM sarvalokamaheshvaram\nlokAdhyakShaM stuvannityaM sarvaduHkhAtigo bhavet",
+            "chinmayananda": {
+              "english": "The greatest dharma is the one Viṣṇu, who has neither a beginning nor an end, the Supreme Lord of the world. All creatures can go beyond the bonds of saṃsāra, and beyond all sorrows, by daily chanting the Sahasranāma and inwardly glorifying the Knower of the world.",
+              "scan_pages": [
+                9
+              ],
+              "verification_status": "scan-checked"
+            }
+          },
+          {
+            "id": "dialogue-13",
+            "label": "13",
+            "devanagari": "ब्रह्मण्यं सर्वधर्मज्ञं लोकानां कीर्तिवर्धनम् ।\nलोकनाथं महद्भूतं सर्वभूतभवोद्भवम् ॥",
+            "iast": "brahmaṇyaṃ sarvadharmajñaṃ lokānāṃ kīrtivardhanam |\nlokanāthaṃ mahadbhūtaṃ sarvabhūtabhavodbhavam ||",
+            "received_itx": "brahmaNyaM sarvadharmaj~naM lokAnAM kIrtivardhanam\nlokanAthaM mahadbhUtaM sarvabhUtabhavodbhavam"
+          },
+          {
+            "id": "dialogue-14",
+            "label": "14",
+            "devanagari": "एष मे सर्वधर्माणां धर्मोऽधिकतमो मतः ।\nयद्भक्त्या पुण्डरीकाक्षं स्तवैरर्चेन्नरः सदा ॥",
+            "iast": "eṣa me sarvadharmāṇāṃ dharmo'dhikatamo mataḥ |\nyadbhaktyā puṇḍarīkākṣaṃ stavairarcennaraḥ sadā ||",
+            "received_itx": "eSha me sarvadharmANAM dharmo.adhikatamo mataH\nyadbhaktyA puNDarIkAkShaM stavairarchennaraH sadA"
+          },
+          {
+            "id": "dialogue-15",
+            "label": "15",
+            "devanagari": "परमं यो महत्तेजः परमं यो महत्तपः ।\nपरमं यो महद्ब्रह्म परमं यः परायणम् ॥",
+            "iast": "paramaṃ yo mahattejaḥ paramaṃ yo mahattapaḥ |\nparamaṃ yo mahadbrahma paramaṃ yaḥ parāyaṇam ||",
+            "received_itx": "paramaM yo mahattejaH paramaM yo mahattapaH\nparamaM yo mahadbrahma paramaM yaH parAyaNam",
+            "chinmayananda": {
+              "english": "He who is the great effulgence; He who is the great controller; He who is the supreme all-pervading Truth; He who is the highest goal - the Lord Viṣṇu.",
+              "scan_pages": [
+                8
+              ],
+              "verification_status": "scan-checked"
+            }
+          },
+          {
+            "id": "dialogue-16",
+            "label": "16",
+            "devanagari": "पवित्राणां पवित्रं यो मङ्गलानां च मङ्गलम् ।\nदैवतं दैवतानां च भूतानां योऽव्ययः पिता ॥",
+            "iast": "pavitrāṇāṃ pavitraṃ yo maṅgalānāṃ ca maṅgalam |\ndaivataṃ daivatānāṃ ca bhūtānāṃ yo'vyayaḥ pitā ||",
+            "received_itx": "pavitrANAM pavitraM yo ma~NgalAnAM cha ma~Ngalam\ndaivataM daivatAnAM cha bhUtAnAM yo.avyayaH pitA",
+            "chinmayananda": {
+              "english": "He who is the very sanctity which sanctifies all sacred things; He who is the most auspicious; He who is the God of gods; He who is the eternal Father of all creatures is the one God - Viṣṇu.",
+              "scan_pages": [
+                7
+              ],
+              "verification_status": "scan-checked"
+            }
+          },
+          {
+            "id": "dialogue-17",
+            "label": "17",
+            "devanagari": "यतः सर्वाणि भूतानि भवन्त्यादियुगागमे ।\nयस्मिंश्च प्रलयं यान्ति पुनरेव युगक्षये ॥",
+            "iast": "yataḥ sarvāṇi bhūtāni bhavantyādiyugāgame |\nyasmiṃśca pralayaṃ yānti punareva yugakṣaye ||",
+            "received_itx": "yataH sarvANi bhUtAni bhavantyAdiyugAgame\nyasmiMshcha pralayaM yAnti punareva yugakShaye"
+          },
+          {
+            "id": "dialogue-18",
+            "label": "18",
+            "devanagari": "तस्य लोकप्रधानस्य जगन्नाथस्य भूपते ।\nविष्णोर्नामसहस्रं मे शृणु पापभयापहम् ॥",
+            "iast": "tasya lokapradhānasya jagannāthasya bhūpate |\nviṣṇornāmasahasraṃ me śṛṇu pāpabhayāpaham ||",
+            "received_itx": "tasya lokapradhAnasya jagannAthasya bhUpate\nviShNornAmasahasraM me shR^iNu pApabhayApaham"
+          },
+          {
+            "id": "dialogue-19",
+            "label": "19",
+            "devanagari": "यानि नामानि गौणानि विख्यातानि महात्मनः ।\nऋषिभिः परिगीतानि तानि वक्ष्यामि भूतये ॥",
+            "iast": "yāni nāmāni gauṇāni vikhyātāni mahātmanaḥ |\nṛṣibhiḥ parigītāni tāni vakṣyāmi bhūtaye ||",
+            "received_itx": "yAni nAmAni gauNAni vikhyAtAni mahAtmanaH\nR^iShibhiH parigItAni tAni vakShyAmi bhUtaye"
+          },
+          {
+            "id": "dialogue-20",
+            "label": "20",
+            "devanagari": "ऋषिर्नाम्नां सहस्रस्य वेदव्यासो महामुनिः ।\nछन्दोऽनुष्टुप् तथा देवो भगवान् देवकीसुतः ॥",
+            "iast": "ṛṣirnāmnāṃ sahasrasya vedavyāso mahāmuniḥ |\nchando'nuṣṭup tathā devo bhagavān devakīsutaḥ ||",
+            "received_itx": "R^iShirnAmnAM sahasrasya vedavyAso mahAmuniH\nChando.anuShTup tathA devo bhagavAn devakIsutaH"
+          },
+          {
+            "id": "dialogue-21",
+            "label": "21",
+            "devanagari": "अमृतांशूद्भवो बीजं शक्तिर्देवकीनन्दनः ।\nत्रिसामा हृदयं तस्य शान्त्यर्थे विनियोज्यते ॥",
+            "iast": "amṛtāṃśūdbhavo bījaṃ śaktirdevakīnandanaḥ |\ntrisāmā hṛdayaṃ tasya śāntyarthe viniyojyate ||",
+            "received_itx": "amR^itAMshUdbhavo bIjaM shaktirdevakInandanaH\ntrisAmA hR^idayaM tasya shAntyarthe viniyojyate"
+          },
+          {
+            "id": "dialogue-22",
+            "label": "22",
+            "devanagari": "विष्णुं जिष्णुं महाविष्णुं प्रभविष्णुं महेश्वरम् ।\nअनेकरूपदैत्यान्तं नमामि पुरुषोत्तमम् ॥",
+            "iast": "viṣṇuṃ jiṣṇuṃ mahāviṣṇuṃ prabhaviṣṇuṃ maheśvaram |\nanekarūpadaityāntaṃ namāmi puruṣottamam ||",
+            "received_itx": "viShNuM jiShNuM mahAviShNuM prabhaviShNuM maheshvaram\nanekarUpadaityAntaM namAmi puruShottamam"
+          }
+        ],
+        "chinmayananda": {
+          "title": "Chinmayananda on the six questions",
+          "detail": "Yudhiṣṭhira, as a righteous man of spiritual inclination, asks a set of questions which the heart of a seeker will always ask. Chinmayananda arranges them as six inquiries: the greatest Lord, the one refuge, whom to glorify, whom to worship, the greatest dharma, and the japa by which a creature goes beyond the bonds of saṃsāra.",
+          "scan_pages": [
+            7,
+            8,
+            9
+          ],
+          "verification_status": "scan-checked"
+        }
+      },
+      {
+        "id": "assignment",
+        "title": "Ritual assignment",
+        "units": [
+          {
+            "id": "assignment-1",
+            "label": "Assignment",
+            "devanagari": "ॐ अस्य श्रीविष्णोर्दिव्यसहस्रनामस्तोत्रमहामन्त्रस्य ॥",
+            "iast": "oṃ asya śrīviṣṇordivyasahasranāmastotramahāmantrasya ||",
+            "received_itx": "OM asya shrIviShNordivyasahasranAmastotramahAmantrasya"
+          },
+          {
+            "id": "assignment-2",
+            "label": "Seer",
+            "devanagari": "श्रीवेदव्यासो भगवान् ऋषिः ॥",
+            "iast": "śrīvedavyāso bhagavān ṛṣiḥ ||",
+            "received_itx": "shrIvedavyAso bhagavAn R^iShiH"
+          },
+          {
+            "id": "assignment-3",
+            "label": "Metre",
+            "devanagari": "अनुष्टुप् छन्दः ॥",
+            "iast": "anuṣṭup chandaḥ ||",
+            "received_itx": "anuShTup ChandaH"
+          },
+          {
+            "id": "assignment-4",
+            "label": "Deity",
+            "devanagari": "श्रीमहाविष्णुः परमात्मा श्रीमन्नारायणो देवता ॥",
+            "iast": "śrīmahāviṣṇuḥ paramātmā śrīmannārāyaṇo devatā ||",
+            "received_itx": "shrImahAviShNuH paramAtmA shrImannArAyaNo devatA"
+          },
+          {
+            "id": "assignment-5",
+            "label": "Seed",
+            "devanagari": "अमृतांशूद्भवो भानुरिति बीजम् ॥",
+            "iast": "amṛtāṃśūdbhavo bhānuriti bījam ||",
+            "received_itx": "amR^itAMshUdbhavo bhAnuriti bIjam"
+          },
+          {
+            "id": "assignment-6",
+            "label": "Power",
+            "devanagari": "देवकीनन्दनः स्रष्टेति शक्तिः ॥",
+            "iast": "devakīnandanaḥ sraṣṭeti śaktiḥ ||",
+            "received_itx": "devakInandanaH sraShTeti shaktiH"
+          },
+          {
+            "id": "assignment-7",
+            "label": "Supreme mantra",
+            "devanagari": "उद्भवः क्षोभणो देव इति परमो मन्त्रः ॥",
+            "iast": "udbhavaḥ kṣobhaṇo deva iti paramo mantraḥ ||",
+            "received_itx": "udbhavaH kShobhaNo deva iti paramo mantraH"
+          },
+          {
+            "id": "assignment-8",
+            "label": "Key",
+            "devanagari": "शङ्खभृन्नन्दकी चक्रीति कीलकम् ॥",
+            "iast": "śaṅkhabhṛnnandakī cakrīti kīlakam ||",
+            "received_itx": "sha~NkhabhR^innandakI chakrIti kIlakam"
+          },
+          {
+            "id": "assignment-9",
+            "label": "Weapon",
+            "devanagari": "शार्ङ्गधन्वा गदाधर इत्यस्त्रम् ॥",
+            "iast": "śārṅgadhanvā gadādhara ityastram ||",
+            "received_itx": "shAr~NgadhanvA gadAdhara ityastram"
+          },
+          {
+            "id": "assignment-10",
+            "label": "Eyes",
+            "devanagari": "रथाङ्गपाणिरक्षोभ्य इति नेत्रम् ॥",
+            "iast": "rathāṅgapāṇirakṣobhya iti netram ||",
+            "received_itx": "rathA~NgapANirakShobhya iti netram"
+          },
+          {
+            "id": "assignment-11",
+            "label": "Armour",
+            "devanagari": "त्रिसामा सामगः सामेति कवचम् ॥",
+            "iast": "trisāmā sāmagaḥ sāmeti kavacam ||",
+            "received_itx": "trisAmA sAmagaH sAmeti kavacham"
+          },
+          {
+            "id": "assignment-12",
+            "label": "Source",
+            "devanagari": "आनन्दं परब्रह्मेति योनिः ॥",
+            "iast": "ānandaṃ parabrahmeti yoniḥ ||",
+            "received_itx": "AnandaM parabrahmeti yoniH"
+          },
+          {
+            "id": "assignment-13",
+            "label": "Boundary",
+            "devanagari": "ऋतुः सुदर्शनः काल इति दिग्बन्धः ॥",
+            "iast": "ṛtuḥ sudarśanaḥ kāla iti digbandhaḥ ||",
+            "received_itx": "R^ituH sudarshanaH kAla iti digbandhaH"
+          },
+          {
+            "id": "assignment-14",
+            "label": "Meditation",
+            "devanagari": "श्रीविश्वरूप इति ध्यानम् ॥",
+            "iast": "śrīviśvarūpa iti dhyānam ||",
+            "received_itx": "shrIvishvarUpa iti dhyAnam"
+          },
+          {
+            "id": "assignment-15",
+            "label": "Purpose",
+            "devanagari": "श्रीमहाविष्णुप्रीत्यर्थे सहस्रनामस्तोत्रपाठे विनियोगः ॥",
+            "iast": "śrīmahāviṣṇuprītyarthe sahasranāmastotrapāṭhe viniyogaḥ ||",
+            "received_itx": "shrImahAviShNuprItyarthe sahasranAmastotrapAThe viniyogaH"
+          }
+        ],
+        "chinmayananda": {
+          "title": "Chinmayananda on the installation",
+          "detail": "Chinmayananda calls this the “Installation of the Lord.” The seeker sanctifies the body as a divine temple and installs the sacred powers within it. He stresses that the practice points beyond a Lord conceived as separate toward identity without differentiation, while establishing the mood for devoted contemplation.",
+          "scan_pages": [
+            12,
+            13
+          ],
+          "verification_status": "scan-checked"
+        }
+      },
+      {
+        "id": "meditation",
+        "title": "Meditation",
+        "units": [
+          {
+            "id": "meditation-1",
+            "label": "1",
+            "devanagari": "क्षीरोदन्वत्प्रदेशे शुचिमणिविलसत्सैकते मौक्तिकानां ।\nमालाकॢप्तासनस्थः स्फटिकमणिनिभैर्मौक्तिकैर्मण्डिताङ्गः ।\nशुभ्रैरभ्रैरदभ्रैरुपरिविरचितैर्मुक्तपीयूषवर्षैरानन्दी नः पुनीयादरिनलिनगदाशङ्खपाणिर्मुकुन्दः ॥",
+            "iast": "kṣīrodanvatpradeśe śucimaṇivilasatsaikate mauktikānāṃ |\nmālākḷptāsanasthaḥ sphaṭikamaṇinibhairmauktikairmaṇḍitāṅgaḥ |\nśubhrairabhrairadabhrairupariviracitairmuktapīyūṣavarṣairānandī naḥ punīyādarinalinagadāśaṅkhapāṇirmukundaḥ ||",
+            "received_itx": "kShIrodanvatpradeshe shuchimaNivilasatsaikate mauktikAnAM\nmAlAkL^iptAsanasthaH sphaTikamaNinibhairmauktikairmaNDitA~NgaH\nshubhrairabhrairadabhrairuparivirachitairmuktapIyUShavarShairAnandI naH punIyAdarinalinagadAsha~NkhapANirmukundaH"
+          },
+          {
+            "id": "meditation-2",
+            "label": "2",
+            "devanagari": "भूः पादौ यस्य नाभिर्वियदसुरनिलश्चन्द्रसूर्यौ च नेत्रे ।\nकर्णावाशाः शिरो द्यौर्मुखमपि दहनो यस्य वास्तेयमब्धिः ।\nअन्तःस्थं यस्य विश्वं सुरनरखगगोभोगिगन्धर्वदैत्यैः ।\nचित्रं रंरम्यते तं त्रिभुवनवपुषं विष्णुमीशं नमामि ॥",
+            "iast": "bhūḥ pādau yasya nābhirviyadasuranilaścandrasūryau ca netre |\nkarṇāvāśāḥ śiro dyaurmukhamapi dahano yasya vāsteyamabdhiḥ |\nantaḥsthaṃ yasya viśvaṃ suranarakhagagobhogigandharvadaityaiḥ |\ncitraṃ raṃramyate taṃ tribhuvanavapuṣaṃ viṣṇumīśaṃ namāmi ||",
+            "received_itx": "bhUH pAdau yasya nAbhirviyadasuranilashchandrasUryau cha netre\nkarNAvAshAH shiro dyaurmukhamapi dahano yasya vAsteyamabdhiH\nantaHsthaM yasya vishvaM suranarakhagagobhogigandharvadaityaiH\nchitraM raMramyate taM tribhuvanavapuShaM viShNumIshaM namAmi"
+          },
+          {
+            "id": "meditation-mantra",
+            "label": "Mantra",
+            "devanagari": "ॐ नमो भगवते वासुदेवाय ॥",
+            "iast": "oṃ namo bhagavate vāsudevāya ||",
+            "received_itx": "OM namo bhagavate vAsudevAya"
+          },
+          {
+            "id": "meditation-3",
+            "label": "3",
+            "devanagari": "ॐ शान्ताकारं भुजगशयनं पद्मनाभं सुरेशं ।\nविश्वाधारं गगनसदृशं मेघवर्णं शुभाङ्गम् ।\nलक्ष्मीकान्तं कमलनयनं योगिभिर्ध्यानगम्यं ।\nवन्दे विष्णुं भवभयहरं सर्वलोकैकनाथम् ॥",
+            "iast": "oṃ śāntākāraṃ bhujagaśayanaṃ padmanābhaṃ sureśaṃ |\nviśvādhāraṃ gaganasadṛśaṃ meghavarṇaṃ śubhāṅgam |\nlakṣmīkāntaṃ kamalanayanaṃ yogibhirdhyānagamyaṃ |\nvande viṣṇuṃ bhavabhayaharaṃ sarvalokaikanātham ||",
+            "received_itx": "OM shAntAkAraM bhujagashayanaM padmanAbhaM sureshaM\nvishvAdhAraM gaganasadR^ishaM meghavarNaM shubhA~Ngam\nlakShmIkAntaM kamalanayanaM yogibhirdhyAnagamyaM\nvande viShNuM bhavabhayaharaM sarvalokaikanAtham",
+            "chinmayananda": {
+              "english": "We meditate upon the Master of the Universe, Lord Viṣṇu, who is ever peaceful, who lies on the great serpent-bed, from whose navel springs the lotus of the creative power, who is the controller of the gods, whose form is the entire universe, who is all-pervading as the sky, of the hue of the cloud, of fascinating beauty, the Lord of Lakṣmī, the lotus-eyed, He who dwells in the hearts of the yogis and who can be approached and perceived through meditation, He who is the destroyer of the fear of saṃsāra.",
+              "scan_pages": [
+                19
+              ],
+              "verification_status": "scan-checked"
+            }
+          },
+          {
+            "id": "meditation-4",
+            "label": "4",
+            "devanagari": "मेघश्यामं पीतकौशेयवासं ।\nश्रीवत्साङ्कं कौस्तुभोद्भासिताङ्गम् ।\nपुण्योपेतं पुण्डरीकायताक्षं ।\nविष्णुं वन्दे सर्वलोकैकनाथम् ॥",
+            "iast": "meghaśyāmaṃ pītakauśeyavāsaṃ |\nśrīvatsāṅkaṃ kaustubhodbhāsitāṅgam |\npuṇyopetaṃ puṇḍarīkāyatākṣaṃ |\nviṣṇuṃ vande sarvalokaikanātham ||",
+            "received_itx": "meghashyAmaM pItakausheyavAsaM\nshrIvatsA~NkaM kaustubhodbhAsitA~Ngam\npuNyopetaM puNDarIkAyatAkShaM\nviShNuM vande sarvalokaikanAtham"
+          },
+          {
+            "id": "meditation-5",
+            "label": "5",
+            "devanagari": "नमः समस्तभूतानामादिभूताय भूभृते ।\nअनेकरूपरूपाय विष्णवे प्रभविष्णवे ॥",
+            "iast": "namaḥ samastabhūtānāmādibhūtāya bhūbhṛte |\nanekarūparūpāya viṣṇave prabhaviṣṇave ||",
+            "received_itx": "namaH samastabhUtAnAmAdibhUtAya bhUbhR^ite\nanekarUparUpAya viShNave prabhaviShNave"
+          },
+          {
+            "id": "meditation-6",
+            "label": "6",
+            "devanagari": "सशङ्खचक्रं सकिरीटकुण्डलं ।\nसपीतवस्त्रं सरसीरुहेक्षणम् ।\nसहारवक्षःस्थलकौस्तुभश्रियं ।\nनमामि विष्णुं शिरसा चतुर्भुजम् ॥",
+            "iast": "saśaṅkhacakraṃ sakirīṭakuṇḍalaṃ |\nsapītavastraṃ sarasīruhekṣaṇam |\nsahāravakṣaḥsthalakaustubhaśriyaṃ |\nnamāmi viṣṇuṃ śirasā caturbhujam ||",
+            "received_itx": "sasha~NkhachakraM sakirITakuNDalaM\nsapItavastraM sarasIruhekShaNam\nsahAravakShaHsthalakaustubhashriyaM\nnamAmi viShNuM shirasA chaturbhujam"
+          },
+          {
+            "id": "meditation-7",
+            "label": "7",
+            "devanagari": "छायायां पारिजातस्य हेमसिंहासनोपरि ।\nआसीनमम्बुदश्याममायताक्षमलंकृतम् ।\nचन्द्राननं चतुर्बाहुं श्रीवत्साङ्कितवक्षसं ।\nरुक्मिणीसत्यभामाभ्यां सहितं कृष्णमाश्रये ॥",
+            "iast": "chāyāyāṃ pārijātasya hemasiṃhāsanopari |\nāsīnamambudaśyāmamāyatākṣamalaṃkṛtam |\ncandrānanaṃ caturbāhuṃ śrīvatsāṅkitavakṣasaṃ |\nrukmiṇīsatyabhāmābhyāṃ sahitaṃ kṛṣṇamāśraye ||",
+            "received_itx": "ChAyAyAM pArijAtasya hemasiMhAsanopari\nAsInamambudashyAmamAyatAkShamalaMkR^itam\nchandrAnanaM chaturbAhuM shrIvatsA~NkitavakShasaM\nrukmiNIsatyabhAmAbhyAM sahitaM kR^iShNamAshraye"
+          }
+        ],
+        "chinmayananda": {
+          "title": "Chinmayananda on the meditation",
+          "detail": "This is meditation upon the form of the Lord. Visualising Him in His all-comprehensive nature, and meditating upon Him, the seeker starts the Viṣṇusahasranāma chanting.",
+          "scan_pages": [
+            19
+          ],
+          "verification_status": "scan-checked"
+        }
+      }
+    ]
   },
   "stanzas": [
     {
