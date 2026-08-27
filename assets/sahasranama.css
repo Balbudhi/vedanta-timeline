@@ -1,11 +1,31 @@
 /* Sahasranāma-specific details. Primary layout and controls come from gita.css. */
 .vsn-reader { padding-bottom: 72px; }
 .vsn-attribution {
-  margin: -4px 0 18px;
-  color: var(--muted-soft);
+  margin: 0 0 14px;
+  padding: 0 0 14px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--ink-soft);
   font-family: var(--sans);
-  font-size: 11px;
-  line-height: 1.55;
+  font-size: 12px;
+  line-height: 1.45;
+}
+.vsn-attribution-kicker {
+  margin-bottom: 4px; color: var(--muted-soft); font-size: 9px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase;
+}
+.vsn-attribution-primary { color: var(--ink); font-family: var(--serif); font-size: 15px; }
+.vsn-attribution-author {
+  padding: 0; border: 0; background: none; color: inherit; font: inherit;
+  font-weight: 600; cursor: pointer;
+}
+.vsn-attribution-author:hover { text-decoration: underline; }
+.vsn-attribution-role { margin-top: 2px; color: var(--muted); font-size: 11px; }
+.vsn-attribution-text { margin-top: 7px; color: var(--muted-soft); font-size: 10.5px; }
+.vsn-reader .vsn-viewbar { margin-bottom: 4px; -webkit-mask-image: none; mask-image: none; }
+.vsn-detail-icon { display: inline-block; width: 14px; margin-right: 4px; font-size: 15px; line-height: 1; }
+.vsn-detail-chip.is-active {
+  border-color: var(--ink-soft); color: var(--ink); font-weight: 600;
+  box-shadow: inset 0 0 0 1px var(--ink-soft); background: var(--bg-warm);
 }
 .vsn-verse { scroll-margin-top: 18px; }
 .vsn-deva { line-height: 2; }
@@ -13,11 +33,27 @@
 .vsn-verse .ix-pada { margin-bottom: 10px; }
 .vsn-verse .ix-en { color: var(--ink-soft); }
 .vsn-sep { color: var(--muted-soft); }
-.vsn-commentary-entry { padding: 12px 0; border-top: 1px solid var(--hairline); scroll-margin-top: 16px; }
-.vsn-commentary-entry:first-of-type { border-top: 0; padding-top: 4px; }
-.vsn-commentary-entry .voice-en p { margin: 0 0 9px; }
-.vsn-commentary-entry .voice-en p:last-child { margin-bottom: 0; }
-.vsn-wcard { position: fixed; max-width: min(340px, calc(100vw - 20px)); }
+.vsn-details-block { margin-top: 18px; border-top: 1px solid var(--hairline); }
+.vsn-details-block[hidden] { display: none; }
+.vsn-detail-entry { padding: 16px 0 15px; border-top: 1px solid var(--hairline); scroll-margin-top: 16px; }
+.vsn-detail-entry:first-child { border-top: 0; }
+.vsn-detail-name {
+  width: 100%; display: grid; grid-template-columns: 28px minmax(0, 1fr) auto;
+  align-items: baseline; gap: 8px; padding: 0 0 8px;
+  border: 0; background: none; color: var(--ink); cursor: pointer; text-align: left;
+}
+.vsn-detail-name:hover .vsn-detail-iast { text-decoration: underline; text-underline-offset: 3px; }
+.vsn-detail-number { color: var(--muted-soft); font: 700 10px/1 var(--sans); }
+.vsn-detail-iast { min-width: 0; font: 600 15px/1.25 var(--serif); overflow-wrap: anywhere; }
+.vsn-detail-deva { color: var(--muted); font: 14px/1.25 var(--serif); }
+.vsn-detail-copy { color: var(--ink-soft); font-size: 14.5px; line-height: 1.68; }
+.vsn-detail-copy p { margin: 0 0 10px; }
+.vsn-detail-copy p:last-child { margin-bottom: 0; }
+.vsn-detail-source { margin-top: 10px; color: var(--muted-soft); font: 10px/1.45 var(--sans); }
+.vsn-wcard {
+  position: fixed; max-width: min(340px, calc(100vw - 20px));
+  max-height: calc(100vh - 20px); overflow-y: auto;
+}
 .vsn-wcard-close {
   position: absolute; top: 5px; right: 7px;
   width: 26px; height: 26px; padding: 0;
@@ -26,14 +62,28 @@
 }
 .vsn-card-number { margin-left: 5px; color: var(--muted-soft); font-size: 10px; vertical-align: 2px; }
 .vsn-card-deva { margin: 2px 0 9px; color: var(--muted); font-family: var(--serif); font-size: 16px; }
+.vsn-card-definition { padding: 8px 0 10px; border-bottom: 1px solid var(--hairline); line-height: 1.5; }
 .vsn-wcard .wc-root { display: block; }
-.wc-derivation { margin: 8px 0; color: var(--ink-soft); font-size: 12px; line-height: 1.5; }
 .wc-note-label { display: block; margin-bottom: 2px; color: var(--muted-soft); font-size: 9px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+.vsn-card-explanation { margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--hairline); }
+.vsn-card-explanation > summary {
+  color: #8a6d1f; font-size: 12px; font-weight: 600; cursor: pointer; list-style: none;
+}
+.vsn-card-explanation > summary::-webkit-details-marker { display: none; }
+.vsn-card-explanation > summary::after { content: " +"; }
+.vsn-card-explanation[open] > summary::after { content: " −"; }
+.vsn-card-explanation-copy { margin-top: 9px; color: var(--ink-soft); font-family: var(--serif); font-size: 12.5px; line-height: 1.62; }
+.vsn-card-explanation-copy p { margin: 0 0 8px; }
+.vsn-card-explanation-copy p:last-child { margin-bottom: 0; }
+html[data-theme="dark"] .vsn-card-explanation > summary { color: #d8c074; }
 .vsn-recite-bar { margin-top: 28px; }
 
 @media (max-width: 600px) {
   .vsn-reader { padding-bottom: 58px; }
-  .vsn-attribution { margin-bottom: 12px; }
+  .vsn-attribution { margin-bottom: 10px; padding-bottom: 12px; }
+  .vsn-attribution-primary { font-size: 14px; }
+  .vsn-detail-name { grid-template-columns: 24px minmax(0, 1fr); }
+  .vsn-detail-deva { grid-column: 2; margin-top: -3px; }
   .vsn-verse { padding-left: 2px; padding-right: 2px; }
   .vsn-verse .verse-deva { font-size: 19px; }
   .vsn-verse .ix-pada { font-size: 17px; line-height: 2.05; }

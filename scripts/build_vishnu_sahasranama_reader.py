@@ -279,6 +279,35 @@ def traditional_derivation(commentary: str) -> str | None:
     return text if len(text) <= 900 else text[:897].rstrip() + "…"
 
 
+def commentary_detail(commentary: str, concise_meaning: str) -> str:
+    """Return only Chinmayananda's explanation beyond the concise definition."""
+    text = commentary.strip()
+    concise = concise_meaning.strip()
+    target = comparison_key(concise)
+    collected = ""
+    for index, char in enumerate(text):
+        collected += comparison_key(char)
+        if not target.startswith(collected):
+            break
+        if collected == target:
+            return re.sub(r"^[\s.;:*†‡\"'“”‘’()\[\]—–-]+", "", text[index + 1 :]).strip()
+    if text.startswith(concise):
+        return re.sub(r"^[\s.;:—–-]+", "", text[len(concise) :]).strip()
+
+    first_paragraph = text.split("\n\n", 1)[0]
+    boundary = re.search(r"(?<=[.!?])(?:[\"'”’)]*)\s", first_paragraph)
+    opening = first_paragraph[: boundary.end()].strip() if boundary else first_paragraph.strip()
+    opening_without_asides = re.sub(r"\([^)]*\)", "", opening)
+    opening_without_asides = re.sub(r"[*†‡]+", "", opening_without_asides)
+    similarity = max(
+        difflib.SequenceMatcher(a=comparison_key(candidate), b=comparison_key(concise), autojunk=False).ratio()
+        for candidate in (opening, opening_without_asides)
+    )
+    if similarity >= 0.62:
+        return re.sub(r"^[\s.;:—–-]+", "", text[len(opening) :]).strip()
+    return text
+
+
 def load_commentary(path: Path | None) -> dict[int, dict]:
     if not path or not path.exists():
         return {}
@@ -337,6 +366,7 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
             item["meaning_status"] = source.get("short_meaning_status", "derived-opening")
             item["chinmayananda"] = {
                 "commentary": source["commentary"],
+                "detail": commentary_detail(source["commentary"], item["meaning"]),
                 "scan_pages": source["scan_pages"],
                 "verification_status": source["verification_status"],
                 "ocr_notes": source.get("ocr_notes", []),
@@ -454,6 +484,11 @@ def validate(data: dict, require_commentary: bool) -> dict:
                     errors.append(f"name {number} derivation merely repeats its English meaning")
             if source and not source.get("scan_pages"):
                 errors.append(f"name {number} lacks scan-page provenance")
+            if source and "detail" not in source:
+                errors.append(f"name {number} lacks the non-duplicative commentary detail field")
+            detail = source.get("detail", "") if source else ""
+            if detail and detail.lstrip().startswith(meaning.strip()):
+                errors.append(f"name {number} detailed commentary repeats the concise definition")
     serialized = json.dumps(data, ensure_ascii=False)
     for fragment in FORBIDDEN_OCR_FRAGMENTS:
         if fragment.lower() in serialized.lower():

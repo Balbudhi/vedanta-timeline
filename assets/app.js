@@ -1996,6 +1996,7 @@ function showTab(tab) {
 // Re-running this also clears stale lazy tabs when switching content.
 function applyTabContext(kind) {
   if (!dpTabBar) return;
+  document.body.classList.toggle("is-article-context", kind === "article");
   const visible = kind === "article" ? ["article"] : ["thinker"];
   dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
     btn.hidden = !visible.includes(btn.dataset.pane);
@@ -5383,7 +5384,7 @@ const GITA_READINGS = {
 const SAHASRANAMA_READING = {
   slug: "vishnu-sahasranama",
   title: "Viṣṇu Sahasranāma",
-  blurb: "The thousand names with Swami Chinmayananda’s traditional Advaita commentary, word-level study, and an independent recitation player.",
+  blurb: "English definitions and commentary by Swami Chinmayananda, from <em>Thousand Ways to the Transcendental</em>.",
   dataUrl: "gita/vishnu-sahasranama/reader.json",
 };
 
@@ -5415,6 +5416,7 @@ async function shareCurrentView(title, labelEl, doneText) {
 async function openGitaReading(slug) {
   const reading = GITA_READINGS[slug];
   if (!reading) return;
+  if (dpTabTitle) dpTabTitle.textContent = reading.title;
   try {
     for (const f of reading.files) await loadScriptOnce(reading.base + f);
     await loadScriptOnce("assets/gita.js");
@@ -5449,6 +5451,7 @@ async function openGitaReading(slug) {
 }
 
 async function openSahasranamaReading() {
+  if (dpTabTitle) dpTabTitle.textContent = SAHASRANAMA_READING.title;
   try {
     await loadScriptOnce("assets/sahasranama.js");
   } catch (_) {
@@ -5456,10 +5459,7 @@ async function openSahasranamaReading() {
     return;
   }
   if (dpArticleHead) {
-    dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
-      <p class="dp-title">${SAHASRANAMA_READING.title}</p>
-      <p class="dp-attrib">${SAHASRANAMA_READING.blurb}</p>
-      <button class="dp-standalone" id="vsnFullBtn" type="button">Read full screen ⤢</button>
+    dpArticleHead.innerHTML = `<button class="dp-standalone" id="vsnFullBtn" type="button">Read full screen ⤢</button>
       <button class="dp-standalone" id="vsnShareBtn" type="button">Share link</button>`;
     const fullBtn = document.getElementById("vsnFullBtn");
     if (fullBtn) fullBtn.addEventListener("click", () => setReadingMode(true));

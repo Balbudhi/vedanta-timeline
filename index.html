@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20260827-mobile-v6" />
+  <link rel="stylesheet" href="assets/style.css?v=20260827-mobile-v10" />
   <link rel="stylesheet" href="assets/gita.css" />
 </head>
 <body>
@@ -112,9 +112,9 @@
         <button class="dp-tab" data-pane="citation" role="tab" aria-selected="false" type="button" hidden>Citation</button>
         <button class="dp-tab" data-pane="source" role="tab" aria-selected="false" type="button" hidden>Source</button>
         <span class="dp-tab-spacer dp-tab-title" id="dpTabTitle"></span>
-        <button class="dp-min" id="dpShare" aria-label="Copy a link to this reading" title="Share this reading" type="button"><span class="dp-min-glyph" aria-hidden="true">↗</span><span class="dp-min-label">Share</span></button>
-        <button class="dp-min" id="dpMinimize" aria-label="Exit full screen" title="Exit full screen" type="button"><span class="dp-min-glyph" aria-hidden="true">⤡</span><span class="dp-min-label">Minimize</span></button>
-        <button class="dp-close" id="closeDetail" aria-label="Close panel" title="Close panel (Esc)" type="button"><span class="dp-close-glyph" aria-hidden="true">×</span><span class="dp-close-label">Close</span></button>
+        <button class="dp-min" id="dpShare" aria-label="Share this reading" title="Share this reading" type="button"><svg class="dp-action-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 13v6H5V6h6"/></svg><span class="dp-min-label">Share</span></button>
+        <button class="dp-min" id="dpMinimize" aria-label="Exit full screen" title="Exit full screen" type="button"><svg class="dp-action-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10V4h6M4 4l6 6M20 14v6h-6M20 20l-6-6"/></svg><span class="dp-min-label">Minimize</span></button>
+        <button class="dp-close" id="closeDetail" aria-label="Close panel" title="Close panel (Esc)" type="button"><svg class="dp-action-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span class="dp-close-label">Close</span></button>
       </div>
       <div class="dp-panes">
         <section class="dp-pane is-active" id="dpPaneThinker" role="tabpanel" aria-hidden="false">
@@ -150,7 +150,7 @@
     </aside>
   </main>
 
-  <script type="module" src="assets/app.js?v=20260827-mobile-v6"></script>
+  <script type="module" src="assets/app.js?v=20260827-mobile-v10"></script>
   <script src="assets/pwa.js?v=20260827-pwa-v1"></script>
 </body>
 </html>

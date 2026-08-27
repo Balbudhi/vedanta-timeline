@@ -799,46 +799,40 @@ body.is-detail-open .detail-pane {
    (the "menu header") so the reading column isn't topped by a small title
    block. Empty / off-screen otherwise, where it just acts as the spacer. */
 .dp-tab-title {
-  text-align: center; padding: 0 12px; min-width: 0;
+  display: flex; align-items: center;
+  text-align: left; padding: 0 6px; min-width: 0;
   font-family: var(--serif); font-weight: 600; font-size: 14.5px; color: var(--ink);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   opacity: 0; pointer-events: none;
 }
 body.is-reading-mode .dp-tab-title { opacity: 1; }
 body.is-reading-mode #dpArticleHead { display: none; }
-/* Close button: an explicit affordance so the panel can be dismissed.
-   Bordered + labeled so it reads as a button rather than glyph noise. */
+body.is-reading-mode .dp-tab { display: none; }
+body.is-article-context .dp-tab-title { opacity: 1; }
+body.is-article-context .dp-tab { display: none; }
+body.is-article-context .dp-pane-head .dp-eyebrow,
+body.is-article-context .dp-pane-head .dp-title { display: none; }
+/* Compact icon actions preserve the title as the primary element in the
+   reading header; accessible names remain on the buttons themselves. */
 .dp-close {
   position: static;
-  margin: 0 2px 0 4px;
-  height: 26px;
+  margin: 0;
+  width: 28px; height: 28px;
+  flex: 0 0 28px;
   align-self: center;
-  display: inline-flex; align-items: center; gap: 6px;
-  padding: 0 10px;
-  font-family: var(--sans);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 0;
   color: var(--ink-soft);
-  background: var(--bg);
-  border: 1px solid var(--rule);
-  border-radius: 3px;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
   line-height: 1;
   cursor: pointer;
-  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
-}
-.dp-close .dp-close-glyph {
-  font-size: 15px;
-  line-height: 1;
-  font-weight: 500;
-  display: inline-block;
-  transform: translateY(-0.5px);
+  transition: background 140ms ease, color 140ms ease;
 }
 .dp-close:hover {
   background: var(--bg-warm);
   color: var(--ink);
-  border-color: var(--ink-soft);
 }
 .dp-close:focus-visible {
   outline: 2px solid var(--ink);
@@ -849,41 +843,35 @@ body.is-reading-mode #dpArticleHead { display: none; }
    otherwise — the topbar Reading toggle covers the non-reading case. */
 .dp-min {
   display: none;
-  margin: 0 0 0 4px;
-  height: 26px;
+  margin: 0;
+  width: 28px; height: 28px;
+  flex: 0 0 28px;
   align-self: center;
-  align-items: center; gap: 6px;
-  padding: 0 10px;
-  font-family: var(--sans);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  align-items: center; justify-content: center;
+  padding: 0;
   color: var(--ink-soft);
-  background: var(--bg);
-  border: 1px solid var(--rule);
-  border-radius: 3px;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
   line-height: 1;
   cursor: pointer;
-  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
+  transition: background 140ms ease, color 140ms ease;
 }
 body.is-reading-mode .dp-min { display: inline-flex; }
-.dp-min .dp-min-glyph {
-  font-size: 14px;
-  line-height: 1;
-  font-weight: 500;
-  display: inline-block;
-  transform: translateY(-0.5px);
-}
 .dp-min:hover {
   background: var(--bg-warm);
   color: var(--ink);
-  border-color: var(--ink-soft);
 }
 .dp-min:focus-visible {
   outline: 2px solid var(--ink);
   outline-offset: 2px;
 }
+.dp-action-icon {
+  width: 16px; height: 16px;
+  fill: none; stroke: currentColor; stroke-width: 1.8;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+.dp-min-label, .dp-close-label { display: none; }
 
 /* =============================================================
    PANEL OVERFLOW SAFETY
@@ -3265,6 +3253,12 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   }
   .dp-tab-spacer { min-width: 12px; }
   .dp-close { flex-shrink: 0; }
+  body.is-reading-mode .dp-tabbar {
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 8px;
+    gap: 2px;
+  }
   /* In reading mode, expose the "Back to timeline" label so the user can find their way back. */
   body.is-reading-mode #readingModeBtn .btn-text { display: inline; }
   body.is-reading-mode #readingModeBtn { padding: 7px 11px; }

@@ -8,7 +8,7 @@ let LINKIFY = null;
 let ON_THINKER = null;
 let WORD_CARD = null;
 let ACTIVE_NUMBER = null;
-let COMMENTARY_OPEN = false;
+let DETAILS_OPEN = false;
 
 function esc(value) {
   return String(value == null ? "" : value).replace(/[&<>"']/g, c => ({
@@ -36,6 +36,15 @@ function paragraphs(text) {
   ).join("");
 }
 
+function detailFor(name) {
+  return String(name?.chinmayananda?.detail || "").trim();
+}
+
+function pageLabel(name) {
+  const pages = name.chinmayananda.scan_pages || [];
+  return `p${pages.length === 1 ? "." : "p."} ${pages.join("–")}`;
+}
+
 function range(stanza) {
   const numbers = stanza.name_numbers || [];
   return numbers.length ? `${numbers[0]}–${numbers[numbers.length - 1]}` : "";
@@ -60,11 +69,23 @@ function renderEnglish(stanza) {
   return stanza.names.map(name => `<span class="we vsn-we" role="button" tabindex="0" data-name-number="${name.number}">${esc(name.meaning)}</span>`).join('<span class="vsn-sep" aria-hidden="true"> · </span>');
 }
 
-function renderCommentary(stanza) {
-  return stanza.names.map(name => `<section class="vsn-commentary-entry" id="vsn-commentary-${name.number}">
-    <div class="voice-src"><span lang="sa-Latn">${esc((name.word_analysis || {}).citation_iast || name.citation_iast_ocr || name.surface_iast)}</span> · name ${name.number} · scan page${name.chinmayananda.scan_pages.length > 1 ? "s" : ""} ${name.chinmayananda.scan_pages.join(", ")}</div>
-    <div class="voice-en">${paragraphs(name.chinmayananda.commentary)}</div>
-  </section>`).join("");
+function renderDetails(stanza) {
+  return stanza.names.map(name => {
+    const detail = detailFor(name);
+    if (!detail) return "";
+    const analysis = name.word_analysis || {};
+    const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
+    const deva = analysis.citation_devanagari || name.deva;
+    return `<section class="vsn-detail-entry" id="vsn-detail-${name.number}">
+      <button class="vsn-detail-name" type="button" data-name-number="${name.number}" aria-label="Open the analysis for name ${name.number}, ${esc(citation)}">
+        <span class="vsn-detail-number">${name.number}</span>
+        <span class="vsn-detail-iast" lang="sa-Latn">${esc(citation)}</span>
+        <span class="vsn-detail-deva" lang="sa-Deva">${esc(deva)}</span>
+      </button>
+      <div class="vsn-detail-copy">${paragraphs(detail)}</div>
+      <div class="vsn-detail-source">Swami Chinmayananda · <em>Thousand Ways to the Transcendental</em> · ${esc(pageLabel(name))}</div>
+    </section>`;
+  }).join("");
 }
 
 function renderStanza(stanza) {
@@ -75,22 +96,27 @@ function renderStanza(stanza) {
       <div class="ix-pada" lang="sa-Latn">${renderNames(stanza)}</div>
       <div class="ix-en">${renderEnglish(stanza)}</div>
     </div>
-    <div class="verse-voices">
-      <div class="voice-block vsn-commentary-block" data-stanza-number="${stanza.number}" style="--vc:#9b2226">
-        <button class="voice-who voice-who-link vsn-thinker-link" type="button">Swami Chinmayananda <span class="voice-school">Advaita</span> <span class="who-go" aria-hidden="true">›</span></button>
-        <div class="voice-src"><em>Thousand Ways to the Transcendental</em></div>
-        <div class="vsn-commentary-content"></div>
-      </div>
+    <div class="vsn-details-block" data-stanza-number="${stanza.number}" hidden>
+      <div class="vsn-details-content"></div>
     </div>
   </article>`;
 }
 
-function renderVoiceBar() {
-  return `<div class="voicebar">
-    <span class="voicebar-label">Commentary —</span>
-    <div class="voicebar-chips" role="group" aria-label="Commentary voice">
-      <button class="vchip vsn-voice-chip" type="button" aria-pressed="false" style="--vc:#9b2226"><span class="vdot" aria-hidden="true"></span>Swami Chinmayananda</button>
+function renderDetailToggle() {
+  return `<div class="voicebar vsn-viewbar">
+    <span class="voicebar-label">View —</span>
+    <div class="voicebar-chips" role="group" aria-label="Reader detail">
+      <button class="vchip vsn-detail-chip" type="button" aria-pressed="false"><span class="vsn-detail-icon" aria-hidden="true">+</span>Detailed explanations</button>
     </div>
+  </div>`;
+}
+
+function renderAttribution() {
+  return `<div class="vsn-attribution">
+    <div class="vsn-attribution-kicker">Traditional Advaita reading</div>
+    <div class="vsn-attribution-primary"><button class="vsn-attribution-author vsn-thinker-link" type="button">Swami Chinmayananda</button> · <em>Thousand Ways to the Transcendental</em></div>
+    <div class="vsn-attribution-role">English definitions and commentary</div>
+    <div class="vsn-attribution-text">Sanskrit text: <em>Viṣṇusahasranāma</em>, Mahābhārata, Anuśāsanaparvan · received text collated with the BORI critical edition</div>
   </div>`;
 }
 
@@ -140,9 +166,6 @@ function openWordCard(number, anchor) {
   const root = analysis.root
     ? `<div class="wc-root"><span class="wc-pf">${esc(analysis.root.form)}</span><span class="wc-pg">: ${esc(`${analysis.root.gana}, ${analysis.root.pada} · ${analysis.root.gloss}`)}</span></div>`
     : "";
-  const derivation = analysis.derivation
-    ? `<div class="wc-derivation"><span class="wc-note-label">Chinmayananda</span>${esc(analysis.derivation)}</div>`
-    : "";
   const compound = analysis.compound
     ? `<div class="wc-gram-cmp"><em>${esc(analysis.compound.type)}</em>: ${esc(analysis.compound.vigraha)}</div>`
     : "";
@@ -150,21 +173,19 @@ function openWordCard(number, anchor) {
     ? `<div class="wc-note">${esc(analysis.sandhi)}</div>`
     : "";
   const grammar = `<div class="wc-gram"><span class="wc-gram-main">${esc(analysis.morph || "")}</span><br><span class="wc-gram-stem">stem: <span lang="sa-Latn">${esc(analysis.stem || "")}</span></span><br><span class="wc-gram-affix">formation: ${esc(analysis.affix || "")}</span>${compound ? `<br>${compound}` : ""}</div>${sandhi}`;
-  const read = `<button class="wc-gl vsn-read-commentary" type="button" data-name-number="${name.number}">Read Chinmayananda’s full explanation</button>`;
+  const definition = `<div class="wc-mean vsn-card-definition"><span class="wc-note-label">Chinmayananda’s definition</span>${esc(name.meaning)}</div>`;
+  const detail = detailFor(name);
+  const explanation = detail
+    ? `<details class="vsn-card-explanation"><summary>Detailed explanation</summary><div class="vsn-card-explanation-copy">${paragraphs(detail)}</div><div class="vsn-detail-source">Swami Chinmayananda · <em>Thousand Ways to the Transcendental</em> · ${esc(pageLabel(name))}</div></details>`
+    : "";
   const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
   const deva = analysis.citation_devanagari || name.deva;
   WORD_CARD = document.createElement("div");
   WORD_CARD.className = "wcard vsn-wcard";
   WORD_CARD.setAttribute("role", "dialog");
-  WORD_CARD.innerHTML = `<button class="vsn-wcard-close" type="button" aria-label="Close">×</button><div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${parts}${root}${grammar}${derivation}<div class="wc-gls">${read}</div>`;
+  WORD_CARD.innerHTML = `<button class="vsn-wcard-close" type="button" aria-label="Close">×</button><div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${definition}${parts}${root}${grammar}${explanation}`;
   document.body.append(WORD_CARD);
   WORD_CARD.querySelector(".vsn-wcard-close").addEventListener("click", closeWordCard);
-  WORD_CARD.querySelector(".vsn-read-commentary").addEventListener("click", () => {
-    setCommentary(true);
-    const entry = document.getElementById(`vsn-commentary-${name.number}`);
-    closeWordCard();
-    if (entry) entry.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
   placeCard(WORD_CARD, anchor);
 }
 
@@ -189,16 +210,6 @@ function wireWords() {
     if (target && ROOT.contains(target) && Number(target.dataset.nameNumber) !== ACTIVE_NUMBER) highlight(target.dataset.nameNumber, false);
   });
   ROOT.addEventListener("click", event => {
-    const close = event.target.closest(".vsn-wcard-close");
-    if (close) { closeWordCard(); return; }
-    const read = event.target.closest(".vsn-read-commentary");
-    if (read) {
-      setCommentary(true);
-      const entry = document.getElementById(`vsn-commentary-${read.dataset.nameNumber}`);
-      closeWordCard();
-      if (entry) entry.scrollIntoView({ behavior: "smooth", block: "start" });
-      return;
-    }
     const target = event.target.closest("[data-name-number]");
     if (target && ROOT.contains(target)) {
       event.stopPropagation();
@@ -215,25 +226,27 @@ function wireWords() {
   });
 }
 
-function setCommentary(open) {
-  const chip = ROOT.querySelector(".vsn-voice-chip");
-  COMMENTARY_OPEN = Boolean(open);
-  chip.classList.toggle("is-active", COMMENTARY_OPEN);
-  chip.setAttribute("aria-pressed", String(COMMENTARY_OPEN));
-  ROOT.querySelectorAll(".vsn-commentary-block").forEach(block => {
-      if (COMMENTARY_OPEN && block.dataset.loaded !== "true") {
+function setDetails(open) {
+  const chip = ROOT.querySelector(".vsn-detail-chip");
+  DETAILS_OPEN = Boolean(open);
+  chip.classList.toggle("is-active", DETAILS_OPEN);
+  chip.setAttribute("aria-pressed", String(DETAILS_OPEN));
+  const icon = chip.querySelector(".vsn-detail-icon");
+  if (icon) icon.textContent = DETAILS_OPEN ? "−" : "+";
+  ROOT.querySelectorAll(".vsn-details-block").forEach(block => {
+      if (DETAILS_OPEN && block.dataset.loaded !== "true") {
         const stanza = DATA.stanzas[Number(block.dataset.stanzaNumber) - 1];
-        block.querySelector(".vsn-commentary-content").innerHTML = renderCommentary(stanza);
+        block.querySelector(".vsn-details-content").innerHTML = renderDetails(stanza);
         block.dataset.loaded = "true";
       }
-      block.style.display = COMMENTARY_OPEN ? "block" : "none";
+      block.hidden = !DETAILS_OPEN;
   });
 }
 
-function wireVoice() {
-  const chip = ROOT.querySelector(".vsn-voice-chip");
+function wireDetails() {
+  const chip = ROOT.querySelector(".vsn-detail-chip");
   chip.addEventListener("click", () => {
-    setCommentary(!COMMENTARY_OPEN);
+    setDetails(!DETAILS_OPEN);
     closeWordCard();
   });
   ROOT.addEventListener("click", event => {
@@ -285,15 +298,15 @@ async function render(root, options) {
   ROOT = root;
   LINKIFY = typeof options.linkifyGlossary === "function" ? options.linkifyGlossary : null;
   ON_THINKER = typeof options.onThinker === "function" ? options.onThinker : null;
-  COMMENTARY_OPEN = false;
+  DETAILS_OPEN = false;
   closeWordCard();
   root.innerHTML = '<p style="color:var(--muted);font-style:italic">Opening the thousand names…</p>';
   const response = await fetch(options.dataUrl || "gita/vishnu-sahasranama/reader.json");
   if (!response.ok) throw new Error(`Could not load reader data (${response.status})`);
   DATA = await response.json();
-  root.innerHTML = `<div class="gita-reader vsn-reader">${renderVoiceBar()}<div class="vsn-attribution">Mahābhārata · received chanting text collated with the BORI critical edition · commentary from Swami Chinmayananda’s <em>Thousand Ways to the Transcendental</em>, published here with permission</div>${DATA.stanzas.map(renderStanza).join("")}${renderAudio()}</div>`;
+  root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderDetailToggle()}${DATA.stanzas.map(renderStanza).join("")}${renderAudio()}</div>`;
   wireWords();
-  wireVoice();
+  wireDetails();
   wireAudio();
 }
 
