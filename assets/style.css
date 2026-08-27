@@ -3225,6 +3225,43 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   .topbar h1 { font-size: 15px; }
 }
 
+/* A single row cannot contain the brand, both segmented controls, and five
+   actions below ~540px.  Letting flex items keep their intrinsic widths made
+   the header 414px wide on a 390px phone (and 537px wide at 430px), which in
+   turn widened the whole document.  Keep every action visible and reachable
+   by giving compact phones a deliberate two-row app bar. */
+@media (max-width: 540px) {
+  :root { --topbar-h: 82px; }
+  .topbar {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) repeat(5, auto);
+    grid-template-rows: repeat(2, 34px);
+    align-content: center;
+    align-items: center;
+    column-gap: 4px;
+    row-gap: 2px;
+    padding: 5px 10px;
+    white-space: nowrap;
+  }
+  .topbar h1 { grid-column: 1; grid-row: 1; }
+  .topbar .spacer { grid-column: 2; grid-row: 1; }
+  .chronology-toggle {
+    grid-column: 3 / 5;
+    grid-row: 1;
+    justify-self: end;
+  }
+  .view-toggle {
+    grid-column: 5 / 8;
+    grid-row: 1;
+    justify-self: end;
+  }
+  #filterBtn { grid-column: 3; grid-row: 2; }
+  #articlesBtn { grid-column: 4; grid-row: 2; }
+  #glossaryBtn { grid-column: 5; grid-row: 2; }
+  #themeBtn { grid-column: 6; grid-row: 2; }
+  #aboutBtn { grid-column: 7; grid-row: 2; }
+}
+
 /* =============================================================
    VIEW TOGGLE (segmented control: Lanes / Network)
    ============================================================= */
