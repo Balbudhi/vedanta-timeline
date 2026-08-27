@@ -175,17 +175,24 @@ function openWordCard(number, anchor) {
   const grammar = `<div class="wc-gram"><span class="wc-gram-main">${esc(analysis.morph || "")}</span><br><span class="wc-gram-stem">stem: <span lang="sa-Latn">${esc(analysis.stem || "")}</span></span><br><span class="wc-gram-affix">formation: ${esc(analysis.affix || "")}</span>${compound ? `<br>${compound}` : ""}</div>${sandhi}`;
   const definition = `<div class="wc-mean vsn-card-definition"><span class="wc-note-label">Chinmayananda’s definition</span>${esc(name.meaning)}</div>`;
   const detail = detailFor(name);
-  const explanation = detail
-    ? `<details class="vsn-card-explanation"><summary>Detailed explanation</summary><div class="vsn-card-explanation-copy">${paragraphs(detail)}</div><div class="vsn-detail-source">Swami Chinmayananda · <em>Thousand Ways to the Transcendental</em> · ${esc(pageLabel(name))}</div></details>`
+  const explanationAction = detail
+    ? `<div class="wc-gls vsn-card-detail-action"><button class="wc-gl vsn-show-detail" type="button">Show detailed explanation ↓</button></div>`
     : "";
   const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
   const deva = analysis.citation_devanagari || name.deva;
   WORD_CARD = document.createElement("div");
   WORD_CARD.className = "wcard vsn-wcard";
   WORD_CARD.setAttribute("role", "dialog");
-  WORD_CARD.innerHTML = `<button class="vsn-wcard-close" type="button" aria-label="Close">×</button><div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${definition}${parts}${root}${grammar}${explanation}`;
+  WORD_CARD.innerHTML = `<button class="vsn-wcard-close" type="button" aria-label="Close">×</button><div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${definition}${parts}${root}${grammar}${explanationAction}`;
   document.body.append(WORD_CARD);
   WORD_CARD.querySelector(".vsn-wcard-close").addEventListener("click", closeWordCard);
+  const showDetail = WORD_CARD.querySelector(".vsn-show-detail");
+  if (showDetail) showDetail.addEventListener("click", () => {
+    setDetails(true);
+    const entry = document.getElementById(`vsn-detail-${name.number}`);
+    closeWordCard();
+    if (entry) entry.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
   placeCard(WORD_CARD, anchor);
 }
 

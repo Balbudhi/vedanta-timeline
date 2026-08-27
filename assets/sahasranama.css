@@ -65,17 +65,7 @@
 .vsn-card-definition { padding: 8px 0 10px; border-bottom: 1px solid var(--hairline); line-height: 1.5; }
 .vsn-wcard .wc-root { display: block; }
 .wc-note-label { display: block; margin-bottom: 2px; color: var(--muted-soft); font-size: 9px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
-.vsn-card-explanation { margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--hairline); }
-.vsn-card-explanation > summary {
-  color: #8a6d1f; font-size: 12px; font-weight: 600; cursor: pointer; list-style: none;
-}
-.vsn-card-explanation > summary::-webkit-details-marker { display: none; }
-.vsn-card-explanation > summary::after { content: " +"; }
-.vsn-card-explanation[open] > summary::after { content: " −"; }
-.vsn-card-explanation-copy { margin-top: 9px; color: var(--ink-soft); font-family: var(--serif); font-size: 12.5px; line-height: 1.62; }
-.vsn-card-explanation-copy p { margin: 0 0 8px; }
-.vsn-card-explanation-copy p:last-child { margin-bottom: 0; }
-html[data-theme="dark"] .vsn-card-explanation > summary { color: #d8c074; }
+.vsn-card-detail-action { margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--hairline); }
 .vsn-recite-bar { margin-top: 28px; }
 
 @media (max-width: 600px) {
