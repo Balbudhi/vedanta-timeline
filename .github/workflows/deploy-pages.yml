@@ -48,11 +48,14 @@ jobs:
             --exclude='_build/' \
             index.html manifest.webmanifest sw.js CNAME robots.txt assets gita data \
             _site/
+          node scripts/build_timeline_index.js \
+            --output _site/data/timeline_index.json \
+            --glossary-output _site/data/glossary/bundle.json
           # Every deployed revision must produce different service-worker
           # bytes so installed PWAs discover every push without a manual cache
           # version bump. The worker uses this value as its shell-cache key.
-          sed -i "s/__BUILD_ID__/${GITHUB_SHA}/g" _site/sw.js
-          if grep -q '__BUILD_ID__' _site/sw.js; then
+          sed -i "s/__BUILD_ID__/${GITHUB_SHA}/g" _site/sw.js _site/assets/app.js
+          if grep -q '__BUILD_ID__' _site/sw.js _site/assets/app.js; then
             echo "service-worker build ID was not stamped" >&2
             exit 1
           fi

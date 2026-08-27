@@ -125,6 +125,7 @@ a { color: inherit; }
 .topbar .subtitle::before {
   content: "|"; margin-right: 9px; opacity: .55; font-style: normal;
 }
+.mobile-subtitle { display: none; }
 /* quiet tagline beside the title — present, not imposed (but legible: weight 500
    in --muted, not the near-invisible --muted-soft) */
 .topbar .title-tagline {
@@ -221,6 +222,25 @@ body.is-detail-open {
   background: var(--bg);
 }
 
+.timeline-loading {
+  position: absolute;
+  inset: 0;
+  z-index: 7;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  color: var(--muted);
+  font: 500 13px var(--sans);
+  letter-spacing: 0.01em;
+}
+.timeline-loading[hidden] { display: none; }
+.dp-loading {
+  margin: 0;
+  padding: 28px 22px;
+  color: var(--muted);
+  font: 500 13px var(--sans);
+}
+
 /* Reset-view button: visible only in Network mode. Re-frames the canvas at
    default zoom and the initial focus year. */
 .reset-view-btn {
@@ -256,6 +276,7 @@ body.is-space-pan .timeline-scroller * { cursor: grab !important; }
   height: 100%;
   overflow: auto;
   scroll-behavior: auto;
+  overscroll-behavior: contain;
 }
 .timeline-scroller::-webkit-scrollbar { width: 8px; height: 8px; }
 .timeline-scroller::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 4px; }
@@ -2969,6 +2990,11 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   border-radius: 50%;
   background: var(--chip-color, #888);
 }
+.filter-chip-count {
+  color: var(--muted);
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
 .filter-chip-row {
   display: flex; gap: 6px; flex-wrap: wrap;
 }
@@ -3092,7 +3118,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   :root {
     --lane-h: 64px;
     --lane-rail-w: 124px;
-    --topbar-h: 44px;
+    --topbar-h: 48px;
     --era-strip-h: 22px;
   }
   .filter-chip-solo { padding: 0 7px; font-size: 9.5px; }
@@ -3123,18 +3149,100 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   .dp-article-body, .dp-translation-body, #dpPaneThinker > #detailContent {
     padding: 22px 18px 80px;
   }
-  .topbar { padding: 0 12px; gap: 6px; }
+  .topbar {
+    height: var(--topbar-h);
+    padding: 0 6px;
+    gap: 3px;
+    overflow: hidden;
+  }
   /* the brand name must never truncate to "Ved…"; it's short, so let the
      flexible spacer absorb the slack instead of the title */
-  .topbar h1 { font-size: 16px; font-weight: 700; flex-shrink: 0; overflow: visible; }
+  .topbar h1 { font-size: 15px; font-weight: 700; flex-shrink: 0; overflow: visible; }
   .topbar h1 .title-full { display: none; }
   .topbar h1 .title-short { display: inline; }
   .topbar .subtitle { display: none; }
-  /* compact controls so the bar fits the shorter mobile --topbar-h (44px) */
-  .topbar-btn { min-height: 34px; }
-  .topbar-btn--circle { width: 32px; height: 32px; }
-  .topbar-btn--icon { padding: 6px 7px; }
+  .topbar .title-tagline { display: none; }
+  .topbar .mobile-subtitle {
+    display: inline;
+    flex: 0 1 auto;
+    min-width: 0;
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 500;
+    color: var(--muted);
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .topbar .spacer { flex: 1 1 auto; min-width: 0; }
+  /* Every action uses the same 28px visual footprint. Coarse-pointer hit
+     targets remain larger than the visible control. */
+  .topbar-btn,
+  .topbar-btn--circle,
+  .topbar-btn--icon {
+    position: relative;
+    width: 28px;
+    min-width: 28px;
+    height: 28px;
+    min-height: 28px;
+    padding: 0;
+    border-radius: 50%;
+    justify-content: center;
+    gap: 0;
+  }
   .topbar-btn--icon .btn-text { display: none; }
+  .topbar .filter-solo-pill { display: none !important; }
+  .topbar-btn.has-solo::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #f59e0b;
+    box-shadow: 0 0 0 1px var(--bg);
+  }
+  .topbar button,
+  .timeline-scroller button,
+  .lane-row { touch-action: manipulation; }
+  .timeline-scroller,
+  .timeline-scroller * {
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .timeline-scroller { touch-action: pan-x pan-y; }
+  .detail-pane,
+  .detail-pane * {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+  .chronology-toggle,
+  .view-toggle {
+    height: 28px;
+    flex: 0 0 46px;
+    border-radius: 4px;
+  }
+  .chronology-toggle { display: inline-flex; }
+  .chronology-toggle-btn,
+  .view-toggle-btn {
+    width: 23px;
+    min-width: 23px;
+    height: 26px;
+    padding: 0;
+    font-size: 0;
+  }
+  .chronology-toggle-btn::before,
+  .view-toggle-btn::before {
+    font: 600 10px/1 var(--sans);
+  }
+  .chronology-toggle-btn[data-chronology="academic"]::before { content: "A"; }
+  .chronology-toggle-btn[data-chronology="traditional"]::before { content: "T"; }
+  .view-toggle-btn[data-view="lanes"]::before { content: "L"; }
+  .view-toggle-btn[data-view="network"]::before { content: "N"; }
   /* Reading/article header: compact on mobile so the title sits close to the
      topbar's small label size rather than dominating the top of the panel. */
   .dp-pane-head { padding: 8px 16px 8px; }
@@ -3190,6 +3298,11 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     overflow-wrap: anywhere;
   }
   .lane-row .lane-count { font-size: 10px; }
+  .lane-row--tap {
+    cursor: pointer;
+    position: relative;
+  }
+  .lane-row--tap:active { background: var(--bg-warmer); }
   .lane-row .swatch-bar { height: 22px; width: 3px; }
   .lane-row.lane-row--sub { padding-left: 18px; }
   .lane-row.lane-row--sub .lane-name { font-size: 11px; }
@@ -3220,46 +3333,12 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
 }
 @media (max-width: 420px) {
   :root { --lane-rail-w: 116px; }
-  .topbar { padding: 0 10px; gap: 6px; }
-  .topbar-btn--icon { padding: 7px 7px; }
-  .topbar h1 { font-size: 15px; }
+  .topbar { padding: 0 5px; gap: 2px; }
+  .topbar h1 { font-size: 14px; }
+  .topbar .mobile-subtitle { font-size: 9.5px; }
 }
-
-/* A single row cannot contain the brand, both segmented controls, and five
-   actions below ~540px.  Letting flex items keep their intrinsic widths made
-   the header 414px wide on a 390px phone (and 537px wide at 430px), which in
-   turn widened the whole document.  Keep every action visible and reachable
-   by giving compact phones a deliberate two-row app bar. */
-@media (max-width: 540px) {
-  :root { --topbar-h: 82px; }
-  .topbar {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr) repeat(5, auto);
-    grid-template-rows: repeat(2, 34px);
-    align-content: center;
-    align-items: center;
-    column-gap: 4px;
-    row-gap: 2px;
-    padding: 5px 10px;
-    white-space: nowrap;
-  }
-  .topbar h1 { grid-column: 1; grid-row: 1; }
-  .topbar .spacer { grid-column: 2; grid-row: 1; }
-  .chronology-toggle {
-    grid-column: 3 / 5;
-    grid-row: 1;
-    justify-self: end;
-  }
-  .view-toggle {
-    grid-column: 5 / 8;
-    grid-row: 1;
-    justify-self: end;
-  }
-  #filterBtn { grid-column: 3; grid-row: 2; }
-  #articlesBtn { grid-column: 4; grid-row: 2; }
-  #glossaryBtn { grid-column: 5; grid-row: 2; }
-  #themeBtn { grid-column: 6; grid-row: 2; }
-  #aboutBtn { grid-column: 7; grid-row: 2; }
+@media (max-width: 340px) {
+  .topbar .mobile-subtitle { display: none; }
 }
 
 /* =============================================================
@@ -3411,9 +3490,14 @@ body.view-network .lineage-edge { stroke-width: 1.1px; }
 }
 
 @media (max-width: 720px) {
-  /* Replace icon-button text labels with a single condensed control on mobile */
-  .view-toggle-btn { padding: 6px 10px; font-size: 11.5px; }
-  .chronology-toggle-btn { padding: 6px 7px; font-size: 10.5px; }
+  /* Equal compact A/T and L/N segments keep both choices available without
+     forcing the app bar onto a second row. */
+  .chronology-toggle { display: inline-flex; width: 46px; flex-basis: 46px; }
+  .view-toggle { width: 46px; flex-basis: 46px; }
+  .view-toggle-btn { width: 23px; min-width: 23px; padding: 0; font-size: 0; }
+  .view-toggle-btn::before { font: 600 10px/1 var(--sans); }
+  .view-toggle-btn[data-view="lanes"]::before { content: "L"; }
+  .view-toggle-btn[data-view="network"]::before { content: "N"; }
   .network-legend { top: 6px; right: 8px; max-width: min(44vw, 152px); font-size: 10.5px; }
   .network-legend-toggle { padding: 6px 10px; font-size: 11px; }
   .network-legend-list { padding: 2px 8px 8px; }
@@ -3423,13 +3507,9 @@ body.view-network .lineage-edge { stroke-width: 1.1px; }
 /* Very narrow phones (≤400px): tighten the topbar so the full "Vedānta"
    brand + all controls fit on one row without overflow. */
 @media (max-width: 400px) {
-  .topbar { gap: 4px; padding: 0 10px; }
-  .view-toggle-btn { padding: 6px 8px; font-size: 11px; }
-  .chronology-toggle-btn { width: 23px; padding: 0; font-size: 0; }
-  .chronology-toggle-btn::before { font-size: 10px; }
-  .chronology-toggle-btn[data-chronology="academic"]::before { content: "A"; }
-  .chronology-toggle-btn[data-chronology="traditional"]::before { content: "T"; }
-  .topbar-btn--icon { padding: 6px 6px; }
+  .topbar { gap: 2px; padding: 0 5px; }
+  .view-toggle-btn { width: 23px; min-width: 23px; padding: 0; font-size: 0; }
+  .topbar-btn--icon { padding: 0; }
 }
 
 /* =============================================================
@@ -4014,3 +4094,29 @@ html[data-theme="dark"] .filter-chip--preset:hover {
 html[data-theme="dark"] .filter-bulk-btn { color: var(--muted); }
 html[data-theme="dark"] .filter-bulk-btn:hover { color: var(--ink); }
 html[data-theme="dark"] .filter-drawer { background: var(--bg); }
+
+/* Final mobile app-bar compaction lives after the desktop component rules so
+   their intrinsic label padding cannot leak back into the A/T and L/N cells. */
+@media (max-width: 720px) {
+  .chronology-toggle,
+  .view-toggle {
+    width: 46px;
+    flex: 0 0 46px;
+    height: 28px;
+  }
+  .chronology-toggle-btn,
+  .view-toggle-btn {
+    width: 23px;
+    min-width: 23px;
+    height: 26px;
+    padding: 0;
+    overflow: hidden;
+    font-size: 0;
+  }
+  .chronology-toggle-btn::before,
+  .view-toggle-btn::before { font: 600 10px/1 var(--sans); }
+  .chronology-toggle-btn[data-chronology="academic"]::before { content: "A"; }
+  .chronology-toggle-btn[data-chronology="traditional"]::before { content: "T"; }
+  .view-toggle-btn[data-view="lanes"]::before { content: "L"; }
+  .view-toggle-btn[data-view="network"]::before { content: "N"; }
+}

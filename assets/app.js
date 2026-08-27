@@ -223,6 +223,8 @@ const svg = document.getElementById("timelineSvg");
 const laneRailEl = document.getElementById("laneRail");
 const eraStripEl = document.getElementById("eraStrip");
 const subtitleEl = document.getElementById("subtitle");
+const mobileSubtitleEl = document.getElementById("mobileSubtitle");
+const timelineLoadingEl = document.getElementById("timelineLoading");
 const readingModeBtn = document.getElementById("readingModeBtn");
 const chronologyToggle = document.querySelector(".chronology-toggle");
 
@@ -359,8 +361,7 @@ function chooseInitialChronologyMode() {
 }
 
 function updateChronologyControl() {
-  if (!chronologyToggle) return;
-  chronologyToggle.querySelectorAll("[data-chronology]").forEach((button) => {
+  document.querySelectorAll("[data-chronology]").forEach((button) => {
     const active = button.dataset.chronology === state.chronologyMode;
     button.classList.toggle("is-active", active);
     button.setAttribute("aria-pressed", active ? "true" : "false");
@@ -416,7 +417,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "20260819-encyclopedia-prose-v6";
+const DATA_VERSION = "__BUILD_ID__";
 
 async function loadJSON(path) {
   try {
@@ -437,7 +438,8 @@ async function loadPrimitiveGraph() {
 
 async function loadThinkerById(thinkerId) {
   if (!thinkerId) return null;
-  if (state.thinkersById.has(thinkerId)) return state.thinkersById.get(thinkerId);
+  const cached = state.thinkersById.get(thinkerId);
+  if (cached && !cached.__timelineSummary) return cached;
   const thinker = await loadJSON(`data/thinkers/${thinkerId}.json`);
   if (thinker) state.thinkersById.set(thinkerId, thinker);
   return thinker;
@@ -453,23 +455,76 @@ async function getCrossEngagements(thinkerId) {
   return Array.isArray(thinker?.cross_engagements) ? thinker.cross_engagements : [];
 }
 
+async function loadSupportData(manifest) {
+  const [ftIdx, claims, glossBundle] = await Promise.all([
+    loadJSON("data/full_translations/index.json"),
+    Promise.all(
+      (manifest.comparative_claims || []).map((filename) =>
+        loadJSON(`data/comparative_claims/${filename}`)
+      )
+    ),
+    loadJSON("data/glossary/bundle.json"),
+  ]);
+
+  state.fullTranslationSet = new Set();
+  if (ftIdx && Array.isArray(ftIdx.files)) {
+    for (const filename of ftIdx.files) {
+      state.fullTranslationSet.add(String(filename).replace(/\.md$/, ""));
+    }
+  }
+  state.comparativeClaims = claims.filter(Boolean);
+
+  let glossaryTerms = Array.isArray(glossBundle?.terms) ? glossBundle.terms : null;
+  if (!glossaryTerms) {
+    const glossManifest = await loadJSON("data/glossary/manifest.json");
+    if (glossManifest && Array.isArray(glossManifest.terms)) {
+      glossaryTerms = await Promise.all(
+        glossManifest.terms.map((filename) => loadJSON(`data/glossary/${filename}`))
+      );
+    }
+  }
+  for (const term of (glossaryTerms || []).filter(Boolean)) {
+    state.glossary.set(term.term_key, term);
+    for (const alias of (term.aliases || [])) state.glossary.set(alias, term);
+  }
+  buildGlossaryRegex();
+
+  ensurePerspectivesLoaded();
+  loadCitationIndex();
+}
+
 async function loadAll() {
-  const manifest = await loadJSON("data/manifest.json");
+  const [manifest, timelineIndex, schools, subSchools, primitiveGraph] = await Promise.all([
+    loadJSON("data/manifest.json"),
+    loadJSON("data/timeline_index.json"),
+    loadJSON("data/registries/schools.json"),
+    loadJSON("data/registries/sub_schools.json"),
+    loadJSON("data/registries/primitive_graph.json"),
+  ]);
   if (!manifest) {
     showEmptyState("No data yet — corpus pipeline is still populating.");
     return;
   }
-  state.schools     = (await loadJSON("data/registries/schools.json"))     || {};
-  state.subSchools  = (await loadJSON("data/registries/sub_schools.json")) || {};
-  await loadPrimitiveGraph();
+  state.schools = schools || {};
+  state.subSchools = subSchools || {};
+  state.primitiveGraph = primitiveGraph || null;
+  try { window.__primitiveGraph = state.primitiveGraph; } catch (_) {}
 
-  const thinkers = await Promise.all(
-    (manifest.thinkers || []).map((f) => loadJSON(`data/thinkers/${f}`))
-  );
+  const hasTimelineIndex = Array.isArray(timelineIndex?.thinkers);
+  const thinkers = hasTimelineIndex
+    ? timelineIndex.thinkers
+    : await Promise.all(
+        (manifest.thinkers || []).map((filename) => loadJSON(`data/thinkers/${filename}`))
+      );
   // display:false entries (e.g. the imported Western comparators) are kept in
   // the data but hidden from the public timeline/network and all links.
   state.thinkers = thinkers.filter(Boolean).filter((t) => t.display !== false);
-  state.thinkers.forEach((t) => state.thinkersById.set(t.id, t));
+  state.thinkers.forEach((thinker) => {
+    if (hasTimelineIndex) {
+      Object.defineProperty(thinker, "__timelineSummary", { value: true });
+    }
+    state.thinkersById.set(thinker.id, thinker);
+  });
   setChronologyMode(chooseInitialChronologyMode(), {
     // Query/local storage decide the mode; do not rewrite the initial URL or
     // persistence while simply resolving the data-provided default.
@@ -478,48 +533,7 @@ async function loadAll() {
     render: false,
   });
 
-  // Set of "<thinker_id>__<work_id>" identifiers for which a full translation
-  // markdown lives on disk under data/full_translations/. Used by
-  // renderWorkCard to choose between full-translation framing and
-  // "engaged passages (full work pending)" framing. Falls back to empty.
   state.fullTranslationSet = new Set();
-  try {
-    const ftIdx = await loadJSON("data/full_translations/index.json");
-    if (ftIdx && Array.isArray(ftIdx.files)) {
-      for (const fname of ftIdx.files) {
-        state.fullTranslationSet.add(String(fname).replace(/\.md$/, ""));
-      }
-    }
-  } catch (_) {}
-
-  const claims = await Promise.all(
-    (manifest.comparative_claims || []).map((f) => loadJSON(`data/comparative_claims/${f}`))
-  );
-  state.comparativeClaims = claims.filter(Boolean);
-
-  // glossary (optional; absent on first deploy)
-  const glossManifest = await loadJSON("data/glossary/manifest.json");
-  if (glossManifest && Array.isArray(glossManifest.terms)) {
-    const terms = await Promise.all(
-      glossManifest.terms.map((f) => loadJSON(`data/glossary/${f}`))
-    );
-    for (const t of terms.filter(Boolean)) {
-      state.glossary.set(t.term_key, t);
-      for (const alias of (t.aliases || [])) {
-        state.glossary.set(alias, t);
-      }
-    }
-    buildGlossaryRegex();
-  }
-
-  // Perspectives layer (interpretive readings, flagged as such) — load early so the
-  // detail pane's Perspectives section is available on the first thinker open.
-  ensurePerspectivesLoaded();
-
-  // Citation index (clickable primary-source citations). Loaded eagerly so the
-  // first click on a cite-link returns instantly; fallback handler lazy-loads
-  // it if absent.
-  loadCitationIndex();
 
   computeRange();
   computeRenderLanes();
@@ -528,6 +542,11 @@ async function loadAll() {
   renderFilterChips();
   updateSubtitle();
   scrollToInitialFocus();
+  if (timelineLoadingEl) timelineLoadingEl.hidden = true;
+
+  // The visible timeline is now interactive. Reader-only support data loads
+  // behind it instead of holding the first frame hostage.
+  loadSupportData(manifest).catch(() => {});
 }
 
 try {
@@ -580,6 +599,7 @@ function updateSubtitle() {
   ).length;
   const span = state.range.high - state.range.low;
   subtitleEl.textContent = `${n} thinkers across ~${span} years`;
+  if (mobileSubtitleEl) mobileSubtitleEl.textContent = `${n} thinkers`;
 }
 
 // ---------- layout -----------
@@ -1039,10 +1059,46 @@ function renderLaneRail() {
           <span class="lane-count">${count} ${count === 1 ? "thinker" : "thinkers"}</span>
         </div>
       `;
+      if (isNarrowViewport()) {
+        row.classList.add("lane-row--tap");
+        row.setAttribute("role", "button");
+        row.setAttribute("tabindex", "0");
+        row.setAttribute("aria-label", `Show only ${display}, ${count} ${count === 1 ? "thinker" : "thinkers"}`);
+        const activate = () => toggleLaneSolo(tok);
+        row.addEventListener("click", activate);
+        row.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            activate();
+          }
+        });
+      }
     }
     laneRailEl.appendChild(row);
   }
   laneRailEl.style.height = (state.renderLanes.length * LANE_H) + "px";
+}
+
+function toggleLaneSolo(token) {
+  const comparator = COMPARATOR_LANES.includes(token);
+  const alreadySolo = comparator
+    ? state.visibleLanes.size === 1
+      && state.visibleLanes.has(COMPARATOR_GROUP_KEY)
+      && state.comparatorTokens.size === 1
+      && state.comparatorTokens.has(token)
+    : state.visibleLanes.size === 1 && state.visibleLanes.has(token);
+
+  if (alreadySolo) {
+    state.visibleLanes = new Set([...VEDANTA_LANES, COMPARATOR_GROUP_KEY]);
+    state.comparatorTokens = new Set(COMPARATOR_LANES);
+  } else if (comparator) {
+    state.visibleLanes = new Set([COMPARATOR_GROUP_KEY]);
+    state.comparatorTokens = new Set([token]);
+    state.comparatorExpanded = true;
+  } else {
+    state.visibleLanes = new Set([token]);
+  }
+  rerender();
 }
 
 // ---------- render: era strip -----------
@@ -1661,6 +1717,7 @@ function wirePanZoom() {
   let gestureStartScale = 1;
   scroller.addEventListener("gesturestart", (e) => {
     e.preventDefault();
+    if (isNarrowViewport()) return;
     gestureStartScale = e.scale || 1;
     if (!zoomActive) startZoom(e);
     zoomPendingCursorX = e.clientX || (window.innerWidth / 2);
@@ -1668,6 +1725,7 @@ function wirePanZoom() {
   });
   scroller.addEventListener("gesturechange", (e) => {
     e.preventDefault();
+    if (isNarrowViewport()) return;
     if (!zoomActive) startZoom(e);
     // Convert absolute gesture scale into a multiplicative factor relative
     // to the last gesturechange. Without this the zoom would re-apply the
@@ -1684,6 +1742,7 @@ function wirePanZoom() {
   });
   scroller.addEventListener("gestureend", (e) => {
     e.preventDefault();
+    if (isNarrowViewport()) return;
     commitZoom();
   });
 
@@ -1708,6 +1767,7 @@ function wirePanZoom() {
     return (arr[0].x + arr[1].x) / 2;
   }
   scroller.addEventListener("touchstart", (e) => {
+    if (isNarrowViewport()) return;
     for (const t of e.changedTouches) {
       activeTouches.set(t.identifier, { x: t.clientX, y: t.clientY });
     }
@@ -1719,6 +1779,7 @@ function wirePanZoom() {
     }
   }, { passive: true });
   scroller.addEventListener("touchmove", (e) => {
+    if (isNarrowViewport()) return;
     if (activeTouches.size < 2) return;
     for (const t of e.changedTouches) {
       if (activeTouches.has(t.identifier)) {
@@ -1748,6 +1809,7 @@ function wirePanZoom() {
   }
   scroller.addEventListener("touchend", clearPinch, { passive: true });
   scroller.addEventListener("touchcancel", clearPinch, { passive: true });
+  scroller.addEventListener("dblclick", (e) => e.preventDefault());
 
   // If the user clicks or starts dragging mid-zoom (rare on trackpads),
   // commit immediately so hit-detection uses the final layout.
@@ -2089,9 +2151,9 @@ window.addEventListener("hashchange", () => {
   if (parsed) router.apply(parsed);
 });
 
-function openThinker(id) {
-  const t = state.thinkersById.get(id);
-  if (!t) return;
+async function openThinker(id) {
+  const preview = state.thinkersById.get(id);
+  if (!preview) return;
   state.activeId = id;
   document.querySelectorAll(".thinker-dot").forEach((d) => {
     d.classList.toggle("is-active", d.dataset.id === id);
@@ -2099,15 +2161,25 @@ function openThinker(id) {
   document.querySelectorAll(".lineage-edge").forEach((el) => {
     el.classList.toggle("is-lit", el.dataset.from === id || el.dataset.to === id);
   });
-  detailContent.style.setProperty("--dot-color", colorFor(t, 2));
-  detailContent.style.setProperty("--school-light", colorFor(t, 1));
+  detailContent.style.setProperty("--dot-color", colorFor(preview, 2));
+  detailContent.style.setProperty("--school-light", colorFor(preview, 1));
+  detailContent.innerHTML = '<p class="dp-loading">Loading entry…</p>';
+  openPanel("thinker");
+  applyTabContext("thinker");
+  router.push({ kind: "thinker", thinkerId: id });
+  scrollDotIntoView(preview);
+
+  const t = await loadThinkerById(id);
+  if (!t || state.activeId !== id) {
+    if (!t && state.activeId === id) {
+      detailContent.innerHTML = '<p class="dp-empty">This entry could not be loaded.</p>';
+    }
+    return;
+  }
   detailContent.innerHTML = renderDetail(t);
   panelState.loaded.thinker = true;
   detailContent.scrollTop = 0;
-  openPanel("thinker");
-  applyTabContext("thinker");
   if (dpTabTitle) dpTabTitle.textContent = "";
-  scrollDotIntoView(t);
   // wire read-full buttons
   detailContent.querySelectorAll("[data-read-full]").forEach((btn) => {
     btn.addEventListener("click", () => openReader(btn.dataset.readFull, btn.dataset.thinker));
@@ -2130,7 +2202,6 @@ function openThinker(id) {
       if (p) openArticle({ ...p, kind: "perspective" });
     });
   });
-  router.push({ kind: "thinker", thinkerId: id });
 }
 
 function scrollDotIntoView(t) {
@@ -2292,7 +2363,8 @@ function renderHero(t) {
     const record = t?.chronology?.variants?.[mode] || null;
     const isSelected = state.chronologyMode === mode;
     const hasRange = typeof record?.low === "number";
-    const range = hasRange && chronology.publiclySupported
+    const publiclySupported = t.editorial_contract !== "v2" || record?.publication_status === "verified";
+    const range = hasRange && publiclySupported
       ? formatDatesLong(t, { low: record.low, high: record.high, isLiving: record.high == null })
       : mode === "academic" && typeof t.dates_low === "number" && t.editorial_contract !== "v2"
         ? formatDatesLong(t, chronology)
@@ -2306,7 +2378,7 @@ function renderHero(t) {
       : (t?.chronology?.traditional_status === "not-attested"
         ? "No traditional date claim is currently attested in this corpus."
         : "A traditional placement requires a dated traditional witness; lineage alone is not converted into a year."));
-    return { label: chronologyModeLabel(mode), range, evidence, isSelected };
+    return { label: chronologyModeLabel(mode), range, evidence, isSelected, hasPublicRange: hasRange && publiclySupported };
   };
   const academicChronology = chronologyInfo("academic");
   const traditionalChronology = chronologyInfo("traditional");
@@ -2322,11 +2394,11 @@ function renderHero(t) {
       </div>
       <div class="chronology-summary" aria-label="Academic and traditional chronology evidence">
         ${chronologyPill(academicChronology)}
-        ${chronologyPill(traditionalChronology)}
+        ${traditionalChronology.hasPublicRange ? chronologyPill(traditionalChronology) : ""}
         <button class="chronology-details-toggle" type="button" data-chronology-toggle aria-expanded="false" aria-controls="chronology-notes-${escape(t.id)}">Dating notes</button>
         <div class="chronology-details" id="chronology-notes-${escape(t.id)}" hidden>
           <div><strong>Academic.</strong> ${md(academicChronology.evidence)}</div>
-          <div><strong>Traditional.</strong> ${md(traditionalChronology.evidence)}</div>
+          ${traditionalChronology.hasPublicRange ? `<div><strong>Traditional.</strong> ${md(traditionalChronology.evidence)}</div>` : ""}
           ${chronology.availability.isFallback ? `<p>Timeline placement currently uses the only stored numeric range; it does not manufacture the selected chronology.</p>` : ""}
         </div>
       </div>
@@ -4815,6 +4887,7 @@ function currentSoloKey() {
 function updateSoloIndicator() {
   if (!filterSoloPill) return;
   const solo = currentSoloKey();
+  if (filterBtn) filterBtn.classList.toggle("has-solo", Boolean(solo));
   if (solo) {
     filterSoloPill.hidden = false;
     filterSoloPill.textContent = `Solo: ${laneDisplayLabel(solo)}`;
@@ -4828,6 +4901,11 @@ function updateSoloIndicator() {
 function renderFilterChips() {
   if (!filterChipsEl) return;
   filterChipsEl.innerHTML = "";
+  const thinkerCounts = new Map();
+  for (const thinker of state.thinkers) {
+    const token = thinker.school_color_token || "proto";
+    thinkerCounts.set(token, (thinkerCounts.get(token) || 0) + 1);
+  }
 
   // Preset row (named presets).
   const presets = document.createElement("div");
@@ -4864,7 +4942,7 @@ function renderFilterChips() {
     btn.dataset.lane = key;
     btn.type = "button";
     btn.style.setProperty("--chip-color", color);
-    btn.innerHTML = `<span class="chip-swatch"></span>${escape(label)}`;
+    btn.innerHTML = `<span class="chip-swatch"></span><span>${escape(label)}</span><span class="filter-chip-count">${thinkerCounts.get(key) || 0}</span>`;
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
       if (state.visibleLanes.has(key)) state.visibleLanes.delete(key);
@@ -4907,7 +4985,7 @@ function renderFilterChips() {
     btn.className = "filter-chip" + (on ? " is-on" : "");
     btn.type = "button";
     btn.style.setProperty("--chip-color", color);
-    btn.innerHTML = `<span class="chip-swatch"></span>${escape(label)}`;
+    btn.innerHTML = `<span class="chip-swatch"></span><span>${escape(label)}</span><span class="filter-chip-count">${thinkerCounts.get(key) || 0}</span>`;
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
       if (state.comparatorTokens.has(key)) state.comparatorTokens.delete(key);

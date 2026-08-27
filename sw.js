@@ -4,9 +4,9 @@ const SHELL = [
   "/",
   "/index.html",
   "/manifest.webmanifest",
-  "/assets/style.css?v=20260827-mobile-v1",
+  "/assets/style.css?v=20260827-mobile-v6",
   "/assets/gita.css",
-  "/assets/app.js?v=20260819-encyclopedia-prose-v6",
+  "/assets/app.js?v=20260827-mobile-v6",
   "/assets/pwa.js?v=20260827-pwa-v1",
   "/assets/favicon.svg",
   "/assets/favicon.png",
@@ -42,6 +42,26 @@ self.addEventListener("fetch", (event) => {
   const cacheKey = event.request.mode === "navigate"
     ? new Request(url.origin + url.pathname)
     : event.request;
+
+  // Versioned build assets and data are immutable within one deployment.
+  // Serve them from the active build cache on repeat launches instead of
+  // re-downloading hundreds of JSON responses every time the PWA opens.
+  const buildVersioned = url.searchParams.has("v")
+    && (url.pathname.startsWith("/assets/") || url.pathname.startsWith("/data/"));
+  if (buildVersioned) {
+    event.respondWith(
+      caches.match(cacheKey).then((cached) => cached ||
+        fetch(event.request, { cache: "no-store" }).then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            event.waitUntil(caches.open(CACHE).then((cache) => cache.put(cacheKey, copy)));
+          }
+          return response;
+        })
+      )
+    );
+    return;
+  }
 
   event.respondWith(
     fetch(event.request, { cache: "no-store" })
