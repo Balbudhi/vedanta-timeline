@@ -4,9 +4,9 @@ const SHELL = [
   "/",
   "/index.html",
   "/manifest.webmanifest",
-  "/assets/style.css?v=20260827-reader-controls-v3",
+  "/assets/style.css?v=20260827-reader-controls-v4",
   "/assets/gita.css",
-  "/assets/app.js?v=20260827-reader-controls-v3",
+  "/assets/app.js?v=20260827-reader-controls-v4",
   "/assets/pwa.js?v=20260827-pwa-v1",
   "/assets/favicon.svg",
   "/assets/favicon.png",
@@ -47,7 +47,9 @@ self.addEventListener("fetch", (event) => {
   // Serve them from the active build cache on repeat launches instead of
   // re-downloading hundreds of JSON responses every time the PWA opens.
   const buildVersioned = url.searchParams.has("v")
-    && (url.pathname.startsWith("/assets/") || url.pathname.startsWith("/data/"));
+    && (url.pathname.startsWith("/assets/")
+      || url.pathname.startsWith("/data/")
+      || url.pathname.startsWith("/gita/"));
   if (buildVersioned) {
     event.respondWith(
       caches.match(cacheKey).then((cached) => cached ||

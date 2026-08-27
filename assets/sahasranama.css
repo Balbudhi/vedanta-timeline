@@ -27,7 +27,11 @@
   border-color: var(--ink-soft); color: var(--ink); font-weight: 600;
   box-shadow: inset 0 0 0 1px var(--ink-soft); background: var(--bg-warm);
 }
-.vsn-verse { scroll-margin-top: 18px; }
+.vsn-verse {
+  scroll-margin-top: 18px;
+  content-visibility: auto;
+  contain-intrinsic-block-size: 520px;
+}
 .vsn-deva { line-height: 2; }
 .vsn-deva-w { text-decoration-color: var(--rule); }
 .vsn-verse .ix-pada { margin-bottom: 10px; }
@@ -74,7 +78,11 @@
   .vsn-attribution-primary { font-size: 14px; }
   .vsn-detail-name { grid-template-columns: 24px minmax(0, 1fr); }
   .vsn-detail-deva { grid-column: 2; margin-top: -3px; }
-  .vsn-verse { padding-left: 2px; padding-right: 2px; }
+  .vsn-verse {
+    padding-left: 2px;
+    padding-right: 2px;
+    contain-intrinsic-block-size: 760px;
+  }
   .vsn-verse .verse-deva { font-size: 19px; }
   .vsn-verse .ix-pada { font-size: 17px; line-height: 2.05; }
   .vsn-verse .ix-en { font-size: 16px; line-height: 1.68; }

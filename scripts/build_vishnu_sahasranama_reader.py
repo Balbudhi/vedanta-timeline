@@ -32,6 +32,9 @@ BORI_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_bori_critic
 COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/chinmayananda.json"
 ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/analysis.json"
 OUTPUT_PATH = ROOT / "gita/vishnu-sahasranama/reader.json"
+WEB_CORE_PATH = ROOT / "gita/vishnu-sahasranama/reader-core.json"
+WEB_DETAILS_PATH = ROOT / "gita/vishnu-sahasranama/reader-details.json"
+WEB_DETAIL_FIELDS = ("word_analysis", "chinmayananda", "traditional_derivation")
 
 RECEIVED_URL = "https://sanskritdocuments.org/doc_vishhnu/vsahasranew.itx"
 RECEIVED_SHA256 = "b53e64398d0a340dd01d2a83979c13346d6b27ec29f50a46a41b9d14080bb19b"
@@ -504,6 +507,31 @@ def validate(data: dict, require_commentary: bool) -> dict:
     }
 
 
+def write_web_payloads(data: dict, core_path: Path, details_path: Path) -> dict:
+    """Split the validated corpus into fast initial and lazy detail payloads."""
+    core = json.loads(json.dumps(data, ensure_ascii=False))
+    details = []
+    for stanza in core["stanzas"]:
+        for name in stanza["names"]:
+            record = {"number": name["number"]}
+            for field in WEB_DETAIL_FIELDS:
+                if field in name:
+                    record[field] = name.pop(field)
+            details.append(record)
+    if [record["number"] for record in details] != list(range(1, 1001)):
+        raise ValueError("web detail payload is not exactly contiguous names 1–1000")
+    validate(core, require_commentary=False)
+    detail_payload = {"schema_version": 1, "names": details}
+    core_path.parent.mkdir(parents=True, exist_ok=True)
+    details_path.parent.mkdir(parents=True, exist_ok=True)
+    core_path.write_text(json.dumps(core, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    details_path.write_text(json.dumps(detail_payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    return {
+        "web_core_bytes": core_path.stat().st_size,
+        "web_details_bytes": details_path.stat().st_size,
+    }
+
+
 def update_citation_index(data: dict, path: Path) -> int:
     index = json.loads(path.read_text(encoding="utf-8"))
     entries = index.setdefault("entries", {})
@@ -553,10 +581,20 @@ def main() -> None:
     parser.add_argument("--commentary", type=Path, default=COMMENTARY_PATH)
     parser.add_argument("--analysis", type=Path, default=ANALYSIS_PATH)
     parser.add_argument("--output", type=Path, default=OUTPUT_PATH)
+    parser.add_argument("--web-core-output", type=Path, default=WEB_CORE_PATH)
+    parser.add_argument("--web-details-output", type=Path, default=WEB_DETAILS_PATH)
+    parser.add_argument("--split-only", type=Path)
     parser.add_argument("--check", type=Path)
     parser.add_argument("--require-commentary", action="store_true")
     parser.add_argument("--update-citation-index", type=Path)
     args = parser.parse_args()
+
+    if args.split_only:
+        data = json.loads(args.split_only.read_text(encoding="utf-8"))
+        report = validate(data, require_commentary=True)
+        report.update(write_web_payloads(data, args.web_core_output, args.web_details_output))
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        return
 
     if args.check:
         report = validate(json.loads(args.check.read_text(encoding="utf-8")), args.require_commentary)
@@ -569,6 +607,7 @@ def main() -> None:
     report = validate(data, args.require_commentary)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    report.update(write_web_payloads(data, args.web_core_output, args.web_details_output))
     if args.update_citation_index:
         report["citation_entries"] = update_citation_index(data, args.update_citation_index)
     print(json.dumps(report, ensure_ascii=False, indent=2))

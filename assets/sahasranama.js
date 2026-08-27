@@ -9,6 +9,9 @@ let ON_THINKER = null;
 let WORD_CARD = null;
 let ACTIVE_NUMBER = null;
 let DETAILS_OPEN = false;
+let DETAILS_URL = "";
+let DETAILS_PROMISE = null;
+let NAME_BY_NUMBER = new Map();
 
 function esc(value) {
   return String(value == null ? "" : value).replace(/[&<>"']/g, c => ({
@@ -43,6 +46,26 @@ function detailFor(name) {
 function pageLabel(name) {
   const pages = name.chinmayananda.scan_pages || [];
   return `p${pages.length === 1 ? "." : "p."} ${pages.join("–")}`;
+}
+
+async function ensureDetails() {
+  if (!DETAILS_URL) return false;
+  if (!DETAILS_PROMISE) {
+    DETAILS_PROMISE = fetch(DETAILS_URL)
+      .then(response => {
+        if (!response.ok) throw new Error(`Could not load reader details (${response.status})`);
+        return response.json();
+      })
+      .then(payload => {
+        for (const detail of (payload.names || [])) {
+          const name = NAME_BY_NUMBER.get(Number(detail.number));
+          if (name) Object.assign(name, detail);
+        }
+        return true;
+      })
+      .catch(() => false);
+  }
+  return DETAILS_PROMISE;
 }
 
 function range(stanza) {
@@ -153,8 +176,9 @@ function placeCard(card, anchor) {
   card.style.top = `${top}px`;
 }
 
-function openWordCard(number, anchor) {
-  const name = DATA.stanzas.flatMap(stanza => stanza.names).find(item => item.number === Number(number));
+async function openWordCard(number, anchor) {
+  await ensureDetails();
+  const name = NAME_BY_NUMBER.get(Number(number));
   if (!name) return;
   closeWordCard();
   ACTIVE_NUMBER = name.number;
@@ -187,8 +211,8 @@ function openWordCard(number, anchor) {
   document.body.append(WORD_CARD);
   WORD_CARD.querySelector(".vsn-wcard-close").addEventListener("click", closeWordCard);
   const showDetail = WORD_CARD.querySelector(".vsn-show-detail");
-  if (showDetail) showDetail.addEventListener("click", () => {
-    setDetails(true);
+  if (showDetail) showDetail.addEventListener("click", async () => {
+    await setDetails(true);
     const entry = document.getElementById(`vsn-detail-${name.number}`);
     closeWordCard();
     if (entry) entry.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -233,8 +257,14 @@ function wireWords() {
   });
 }
 
-function setDetails(open) {
+async function setDetails(open) {
   const chip = ROOT.querySelector(".vsn-detail-chip");
+  if (open) {
+    chip.setAttribute("aria-busy", "true");
+    const loaded = await ensureDetails();
+    chip.removeAttribute("aria-busy");
+    if (!loaded) return;
+  }
   DETAILS_OPEN = Boolean(open);
   chip.classList.toggle("is-active", DETAILS_OPEN);
   chip.setAttribute("aria-pressed", String(DETAILS_OPEN));
@@ -252,8 +282,8 @@ function setDetails(open) {
 
 function wireDetails() {
   const chip = ROOT.querySelector(".vsn-detail-chip");
-  chip.addEventListener("click", () => {
-    setDetails(!DETAILS_OPEN);
+  chip.addEventListener("click", async () => {
+    await setDetails(!DETAILS_OPEN);
     closeWordCard();
   });
   ROOT.addEventListener("click", event => {
@@ -300,6 +330,7 @@ function wireAudio() {
 }
 
 async function render(root, options) {
+  const startedAt = performance.now();
   options = options || {};
   ensureStyle(options.styleUrl || "assets/sahasranama.css");
   ROOT = root;
@@ -310,8 +341,21 @@ async function render(root, options) {
   root.innerHTML = '<p style="color:var(--muted);font-style:italic">Opening the thousand names…</p>';
   const response = await fetch(options.dataUrl || "gita/vishnu-sahasranama/reader.json");
   if (!response.ok) throw new Error(`Could not load reader data (${response.status})`);
+  const fetchedAt = performance.now();
   DATA = await response.json();
+  const parsedAt = performance.now();
+  DETAILS_URL = options.detailsUrl || "";
+  DETAILS_PROMISE = null;
+  NAME_BY_NUMBER = new Map(DATA.stanzas.flatMap(stanza => stanza.names).map(name => [Number(name.number), name]));
   root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderDetailToggle()}${DATA.stanzas.map(renderStanza).join("")}${renderAudio()}</div>`;
+  const renderedAt = performance.now();
+  const reader = root.querySelector(".vsn-reader");
+  if (reader) {
+    reader.dataset.readyMs = String(Math.round(renderedAt - startedAt));
+    reader.dataset.fetchMs = String(Math.round(fetchedAt - startedAt));
+    reader.dataset.parseMs = String(Math.round(parsedAt - fetchedAt));
+    reader.dataset.renderMs = String(Math.round(renderedAt - parsedAt));
+  }
   wireWords();
   wireDetails();
   wireAudio();

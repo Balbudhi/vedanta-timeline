@@ -491,7 +491,6 @@ async function loadSupportData(manifest) {
   buildGlossaryRegex();
 
   ensurePerspectivesLoaded();
-  loadCitationIndex();
 }
 
 async function loadAll() {
@@ -545,9 +544,15 @@ async function loadAll() {
   scrollToInitialFocus();
   if (timelineLoadingEl) timelineLoadingEl.hidden = true;
 
-  // The visible timeline is now interactive. Reader-only support data loads
-  // behind it instead of holding the first frame hostage.
-  loadSupportData(manifest).catch(() => {});
+  // The visible timeline is now interactive. Reader-only support data starts
+  // only when the main thread is idle, so parsing the glossary cannot compete
+  // with the first pan, tap, or panel open. Citation data remains fully lazy.
+  const loadSupport = () => loadSupportData(manifest).catch(() => {});
+  if (typeof requestIdleCallback === "function") {
+    requestIdleCallback(loadSupport, { timeout: 2500 });
+  } else {
+    setTimeout(loadSupport, 1200);
+  }
 }
 
 try {
@@ -5463,7 +5468,8 @@ const SAHASRANAMA_READING = {
   slug: "vishnu-sahasranama",
   title: "Viṣṇu Sahasranāma",
   blurb: "English definitions and commentary by Swami Chinmayananda, from <em>Thousand Ways to the Transcendental</em>.",
-  dataUrl: "gita/vishnu-sahasranama/reader.json",
+  dataUrl: `gita/vishnu-sahasranama/reader-core.json?v=${DATA_VERSION}`,
+  detailsUrl: `gita/vishnu-sahasranama/reader-details.json?v=${DATA_VERSION}`,
 };
 
 async function openGitaReading(slug) {
@@ -5471,8 +5477,8 @@ async function openGitaReading(slug) {
   if (!reading) return;
   if (dpTabTitle) dpTabTitle.textContent = reading.title;
   try {
-    for (const f of reading.files) await loadScriptOnce(reading.base + f);
-    await loadScriptOnce("assets/gita.js");
+    for (const f of reading.files) await loadScriptOnce(`${reading.base}${f}?v=${DATA_VERSION}`);
+    await loadScriptOnce(`assets/gita.js?v=${DATA_VERSION}`);
   } catch (e) {
     if (dpArticleBody) dpArticleBody.innerHTML = "<article><p>Could not load the reading.</p></article>";
     return;
@@ -5499,7 +5505,7 @@ async function openGitaReading(slug) {
 async function openSahasranamaReading() {
   if (dpTabTitle) dpTabTitle.textContent = SAHASRANAMA_READING.title;
   try {
-    await loadScriptOnce("assets/sahasranama.js");
+    await loadScriptOnce(`assets/sahasranama.js?v=${DATA_VERSION}`);
   } catch (_) {
     if (dpArticleBody) dpArticleBody.innerHTML = "<article><p>Could not load the reading.</p></article>";
     return;
@@ -5512,7 +5518,8 @@ async function openSahasranamaReading() {
     try {
       await window.SahasranamaReader.render(dpArticleBody, {
         dataUrl: SAHASRANAMA_READING.dataUrl,
-        styleUrl: "assets/sahasranama.css",
+        detailsUrl: SAHASRANAMA_READING.detailsUrl,
+        styleUrl: `assets/sahasranama.css?v=${DATA_VERSION}`,
         onThinker: (id) => openThinker(id),
         linkifyGlossary: linkifyGlossaryText,
       });
