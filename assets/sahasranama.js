@@ -95,7 +95,6 @@ function renderEnglish(stanza) {
 function renderDetails(stanza) {
   return stanza.names.map(name => {
     const detail = detailFor(name);
-    if (!detail) return "";
     const analysis = name.word_analysis || {};
     const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
     const deva = analysis.citation_devanagari || name.deva;
@@ -105,7 +104,8 @@ function renderDetails(stanza) {
         <span class="vsn-detail-iast" lang="sa-Latn">${esc(citation)}</span>
         <span class="vsn-detail-deva" lang="sa-Deva">${esc(deva)}</span>
       </button>
-      <div class="vsn-detail-copy">${paragraphs(detail)}</div>
+      <div class="vsn-detail-definition">${esc(name.meaning)}</div>
+      ${detail ? `<div class="vsn-detail-copy">${paragraphs(detail)}</div>` : ""}
       <div class="vsn-detail-source">Swami Chinmayananda · <em>Thousand Ways to the Transcendental</em> · ${esc(pageLabel(name))}</div>
     </section>`;
   }).join("");
@@ -270,6 +270,7 @@ async function setDetails(open) {
   chip.setAttribute("aria-pressed", String(DETAILS_OPEN));
   const icon = chip.querySelector(".vsn-detail-icon");
   if (icon) icon.textContent = DETAILS_OPEN ? "−" : "+";
+  ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-details-open", DETAILS_OPEN);
   ROOT.querySelectorAll(".vsn-details-block").forEach(block => {
       if (DETAILS_OPEN && block.dataset.loaded !== "true") {
         const stanza = DATA.stanzas[Number(block.dataset.stanzaNumber) - 1];

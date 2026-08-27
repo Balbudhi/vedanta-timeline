@@ -39,6 +39,7 @@
 .vsn-sep { color: var(--muted-soft); }
 .vsn-details-block { margin-top: 18px; border-top: 1px solid var(--hairline); }
 .vsn-details-block[hidden] { display: none; }
+.vsn-reader.vsn-details-open .vsn-verse > .ix .ix-en { display: none; }
 .vsn-detail-entry { padding: 16px 0 15px; border-top: 1px solid var(--hairline); scroll-margin-top: 16px; }
 .vsn-detail-entry:first-child { border-top: 0; }
 .vsn-detail-name {
@@ -50,6 +51,7 @@
 .vsn-detail-number { color: var(--muted-soft); font: 700 10px/1 var(--sans); }
 .vsn-detail-iast { min-width: 0; font: 600 15px/1.25 var(--serif); overflow-wrap: anywhere; }
 .vsn-detail-deva { color: var(--muted); font: 14px/1.25 var(--serif); }
+.vsn-detail-definition { margin-bottom: 7px; color: var(--ink); font-size: 14.5px; line-height: 1.68; }
 .vsn-detail-copy { color: var(--ink-soft); font-size: 14.5px; line-height: 1.68; }
 .vsn-detail-copy p { margin: 0 0 10px; }
 .vsn-detail-copy p:last-child { margin-bottom: 0; }

@@ -1,0 +1,18 @@
+{
+  "title": "Vishnu Sahasranama: Thousand Ways to the Transcendental",
+  "author": "Swami Chinmayananda",
+  "edition_identity": "Same Central Chinmaya Mission Trust edition and ISBN 978-81-7597-245-2 as the scan-backed reader witness",
+  "acquired_at": "2026-08-27",
+  "source_filename": "Vishnu_Sahasranama.txt",
+  "repo_path": "data/sources/_unverified_ocr/chinmayananda_vishnu_sahasranama_secondary_ocr_2026-08-27.txt.gz",
+  "compression": "gzip with zeroed timestamp",
+  "source_sha256": "8e87779ac1ac0555c9b12b62e895c2338bc8e6c5cf2e0cc82b9f9d69557f36a4",
+  "stored_sha256": "357a0c9f1d73eff305222abfea6729fe513ae57bbdc14989a02f5e9e3b4271f6",
+  "status": "quarantined-ocr",
+  "use_limit": "Comparison aid only. It is not a distinct edition and may not supply public text without confirmation against the page image.",
+  "observed_limits": [
+    "Only 909 of the 1,000 numbered headings parse uniquely; 91 number markers are missing and several are duplicated.",
+    "The file contains malformed Devanagari and Bengali-script OCR substitutions.",
+    "At least one sentence in name 8 is absent from the printed scan and must not be imported."
+  ]
+}

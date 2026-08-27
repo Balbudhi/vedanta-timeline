@@ -917,6 +917,15 @@ def concise_traditional_gloss(value: str) -> str:
     return text[:160].rstrip(" .;:")
 
 
+def current_derivation_sentences(commentary: str) -> list[str]:
+    sentences = re.split(r"(?<=[.!?])\s+", re.sub(r"\s+", " ", commentary))
+    return [
+        sentence.strip()
+        for sentence in sentences
+        if re.search(r"\b(root|derived|derivation|dissolved|means?|etymolog|pāṇini|panini)\b", sentence, re.I)
+    ]
+
+
 def mw_records(row: dict) -> list[dict]:
     return [record for records in row.get("mw_exact", {}).values() for record in records]
 
@@ -1257,6 +1266,13 @@ def main() -> None:
         raise ValueError("prejoin canonical payload checksum mismatch")
     if sha256(args.mw) != MW_SHA256:
         raise ValueError("Monier-Williams source checksum mismatch")
+    current_commentary = json.loads(COMMENTARY_PATH.read_text(encoding="utf-8"))["names"]
+    if [row.get("number") for row in current_commentary] != list(range(1, 1001)):
+        raise ValueError("current Chinmayananda transcription is not exactly names 1-1000")
+    for packet_row, source_row in zip(packet["rows"], current_commentary):
+        packet_row["chinmayananda"]["short_meaning"] = source_row["short_meaning"]
+        packet_row["chinmayananda"]["scan_pages"] = source_row["scan_pages"]
+        packet_row["chinmayananda"]["derivation_sentences"] = current_derivation_sentences(source_row["commentary"])
     build_mw_index(args.mw, packet)
     sources = json.loads(json.dumps(packet["sources"]))
     sources["received_reader"] = {

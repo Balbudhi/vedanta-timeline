@@ -171,7 +171,7 @@
       "title_iast": "Thousand Ways to the Transcendental: Viṣṇu Sahasranāma commentary",
       "source_level": "secondary",
       "source_path": "gita/vishnu-sahasranama/chinmayananda.json",
-      "witness": "Swami Chinmayananda, Thousand Ways to the Transcendental: Vishnu Sahasranaama, Central Chinmaya Mission Trust, ISBN 978-81-7597-245-2; structured transcription whose detected OCR and page-order anomalies were checked against the owner's 272-page scan.",
+      "witness": "Swami Chinmayananda, Thousand Ways to the Transcendental: Vishnu Sahasranaama, Central Chinmaya Mission Trust, ISBN 978-81-7597-245-2; structured transcription checked against the owner's 272-page scan, with canonical IAST and Devanagari name headings and reviewed normalization of Sanskrit romanization.",
       "rights_status": "owner-attests-publication-permission-from-chinmaya-mission",
       "citation_status": "working-witness",
       "stable_cite_prefixes": [
@@ -184,7 +184,7 @@
         "advaita",
         "sanskrit-reader"
       ],
-      "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. The public reader identifies Chinmayananda's English as an attributed traditional Advaita teaching layer and keeps it separate from the name-level interaction."
+      "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. The public reader identifies Chinmayananda's English as an attributed traditional Advaita teaching layer and keeps it separate from the name-level interaction. A second OCR of the same edition (SHA-256 8e87779ac1ac0555c9b12b62e895c2338bc8e6c5cf2e0cc82b9f9d69557f36a4) is retained under data/sources/_unverified_ocr for comparison only; it is not a distinct edition and contains missing number markers, malformed scripts, and scan-unsupported text, so the page image remains authoritative."
     }
   ]
 }

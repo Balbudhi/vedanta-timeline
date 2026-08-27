@@ -63,10 +63,13 @@ fi
 
 if ! command -v python3 >/dev/null 2>&1; then
     skip_check "Gita witness verification" "python3 is not installed"
-elif ! python3 -c 'import indic_transliteration' >/dev/null 2>&1; then
-    skip_check "Gita witness verification" "Python package indic_transliteration is not installed"
 else
-    run_check "Gita witness verification" python3 scripts/check_gita_witness.py
+    run_check "Chinmayananda transcription normalization" python3 scripts/normalize_chinmayananda_transcription.py --check
+    if ! python3 -c 'import indic_transliteration' >/dev/null 2>&1; then
+        skip_check "Gita witness verification" "Python package indic_transliteration is not installed"
+    else
+        run_check "Gita witness verification" python3 scripts/check_gita_witness.py
+    fi
 fi
 
 printf '\nValidation complete: %s failure(s), %s skipped.\n' "$failures" "$skips"

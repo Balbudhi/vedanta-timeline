@@ -362,9 +362,9 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
             item["deva"] = item["deva_surface"]
         source = commentary.get(number)
         if source:
-            item["citation_iast_ocr"] = source.get("heading_roman", "")
-            if source.get("heading_devanagari"):
-                item["deva_ocr"] = source["heading_devanagari"]
+            item["citation_iast_ocr"] = source.get("source_heading_roman", source.get("heading_roman", ""))
+            if source.get("source_heading_devanagari_ocr"):
+                item["deva_ocr"] = source["source_heading_devanagari_ocr"]
             item["meaning"] = source.get("short_meaning") or first_definition(source["commentary"])
             item["meaning_status"] = source.get("short_meaning_status", "derived-opening")
             item["chinmayananda"] = {
