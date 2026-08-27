@@ -361,6 +361,7 @@ function chooseInitialChronologyMode() {
 }
 
 function updateChronologyControl() {
+  document.body.classList.toggle("chronology-traditional", state.chronologyMode === "traditional");
   document.querySelectorAll("[data-chronology]").forEach((button) => {
     const active = button.dataset.chronology === state.chronologyMode;
     button.classList.toggle("is-active", active);
@@ -598,8 +599,11 @@ function updateSubtitle() {
     (t.school_color_token || "proto") !== "cross-tradition"
   ).length;
   const span = state.range.high - state.range.low;
-  subtitleEl.textContent = `${n} thinkers across ~${span} years`;
-  if (mobileSubtitleEl) mobileSubtitleEl.textContent = `${n} thinkers`;
+  const traditional = state.chronologyMode === "traditional";
+  subtitleEl.textContent = traditional
+    ? `${n} thinkers · traditional ordering; dates under construction`
+    : `${n} thinkers across ~${span} years`;
+  if (mobileSubtitleEl) mobileSubtitleEl.textContent = traditional ? "dates pending" : `${n} thinkers`;
 }
 
 // ---------- layout -----------
@@ -1109,6 +1113,7 @@ function renderEraStrip() {
   // same offset to sit over its band. Without this they were shifted left by
   // one rail-width and the period colors didn't line up with the bands.
   eraStripEl.style.width = (LANE_RAIL_W + totalWidth()) + "px";
+  if (state.chronologyMode === "traditional") return;
   for (const era of ERA_BANDS) {
     if (era.high < state.range.low || era.low > state.range.high) continue;
     const lo = Math.max(era.low, state.range.low);
@@ -1132,6 +1137,10 @@ function renderEraBands() {
   const ns = "http://www.w3.org/2000/svg";
   const g = document.createElementNS(ns, "g");
   g.setAttribute("class", "era-bands");
+  if (state.chronologyMode === "traditional") {
+    svg.appendChild(g);
+    return;
+  }
   const h = plotHeight();
   for (const era of ERA_BANDS) {
     if (era.high < state.range.low || era.low > state.range.high) continue;
@@ -1237,6 +1246,10 @@ function renderDateBars() {
   const ns = "http://www.w3.org/2000/svg";
   const g = document.createElementNS(ns, "g");
   g.setAttribute("class", "date-bars");
+  if (state.chronologyMode === "traditional") {
+    svg.appendChild(g);
+    return;
+  }
   for (const [, p] of state.layout) {
     const t = p.thinker;
     if (p.barX2 - p.barX1 < 4) continue;
@@ -1477,6 +1490,7 @@ function onDotHover(id, on) {
 function renderAxis() {
   axisEl.innerHTML = "";
   axisEl.style.width = totalWidth() + "px";
+  if (state.chronologyMode === "traditional") return;
   const start = Math.ceil(state.range.low / 100) * 100;
   for (let y = start; y <= state.range.high; y += 100) {
     const el = document.createElement("div");
@@ -1916,8 +1930,11 @@ let detailPaneWidthPx = (() => {
 })();
 
 function clampPaneWidth(px) {
-  const min = 360;
-  const max = Math.max(min, window.innerWidth - 120); // keep a sliver of canvas
+  const max = Math.max(360, window.innerWidth - 320);
+  const desiredMin = document.body.classList.contains("is-article-context")
+    ? 680
+    : window.innerWidth <= 1024 ? 380 : 440;
+  const min = Math.min(desiredMin, max);
   return Math.min(max, Math.max(min, px));
 }
 
@@ -2001,6 +2018,9 @@ function applyTabContext(kind) {
   dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
     btn.hidden = !visible.includes(btn.dataset.pane);
   });
+  if (panelState.open && !document.body.classList.contains("is-reading-mode")) {
+    applyDetailPaneWidth();
+  }
 }
 
 if (dpTabBar) {
@@ -2383,6 +2403,9 @@ function renderHero(t) {
   };
   const academicChronology = chronologyInfo("academic");
   const traditionalChronology = chronologyInfo("traditional");
+  // Traditional mode currently expresses ordering only. Numeric traditional
+  // dates remain withheld until the corpus has a coherent sourced chronology.
+  traditionalChronology.hasPublicRange = false;
   const chronologyPill = (item) => `<span class="chronology-pill${item.isSelected ? " is-selected" : ""}">
     <span>${escape(item.label)}</span><strong>${escape(item.range)}</strong>
   </span>`;
@@ -4723,6 +4746,7 @@ function thinkerHigh(t) { return resolveChronology(t).highForLayout; }
 function isLiving(t) { return resolveChronology(t).isLiving; }
 
 function formatDates(t, chronology = resolveChronology(t)) {
+  if (state.chronologyMode === "traditional") return "";
   if (chronology.publiclySupported === false) return "Sources pending";
   if (chronology.low == null && chronology.high == null) return "";
   const fmt = (y) => y < 0 ? `${-y} BCE` : `${y}`;
@@ -4759,6 +4783,7 @@ function setReadingMode(on, opts = {}) {
     clearDetailPaneWidth();
   }
   setUrlViewState({ r: on ? "1" : null });
+  updateFullscreenControl();
   if (readingModeBtn) {
     const txt = readingModeBtn.querySelector(".btn-text");
     const label = on ? "Back to timeline" : "Reading";
@@ -4786,22 +4811,75 @@ if (readingModeBtn) {
     setReadingMode(on);
   });
 }
-// In full-screen reading mode, the panel's minimize button drops back to the
-// in-panel view (keeps the panel open; just exits full screen).
-// Full-screen reading mode hides #dpArticleHead, and with it the Share button
-// that lives there — which is precisely the mode a phone reader is in. So the
-// reading-mode header carries its own.
+let readerControlStatusTimer = 0;
+function showReaderControlStatus(message) {
+  const status = document.getElementById("dpControlStatus");
+  if (!status) return;
+  window.clearTimeout(readerControlStatusTimer);
+  status.textContent = message;
+  status.hidden = false;
+  readerControlStatusTimer = window.setTimeout(() => { status.hidden = true; }, 1800);
+}
+
+async function copyCurrentViewUrl(url) {
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(url);
+      return true;
+    }
+  } catch (_) { /* Fall through to the older-browser path. */ }
+  const input = document.createElement("textarea");
+  input.value = url;
+  input.setAttribute("readonly", "");
+  input.setAttribute("aria-hidden", "true");
+  input.style.cssText = "position:fixed;opacity:0;pointer-events:none";
+  document.body.append(input);
+  input.select();
+  let copied = false;
+  try { copied = document.execCommand("copy"); } catch (_) {}
+  input.remove();
+  return copied;
+}
+
+function shouldUseNativeShare() {
+  if (typeof navigator.share !== "function") return false;
+  return window.matchMedia?.("(pointer: coarse)")?.matches
+    || window.matchMedia?.("(display-mode: standalone)")?.matches
+    || window.matchMedia?.("(display-mode: fullscreen)")?.matches
+    || navigator.userAgentData?.mobile === true;
+}
+
 const dpShareBtn = document.getElementById("dpShare");
 if (dpShareBtn) {
-  dpShareBtn.addEventListener("click", () => {
-    const label = dpShareBtn.querySelector(".dp-min-label") || dpShareBtn;
-    shareCurrentView(dpTabTitle?.textContent || document.title, label, "Copied ✓");
+  dpShareBtn.addEventListener("click", async () => {
+    const title = dpTabTitle?.textContent || document.title;
+    const url = location.href;
+    if (shouldUseNativeShare()) {
+      try {
+        await navigator.share({ title, url });
+        return;
+      } catch (error) {
+        if (error?.name === "AbortError") return;
+      }
+    }
+    showReaderControlStatus(await copyCurrentViewUrl(url) ? "Link copied" : "Could not copy link");
   });
 }
 
-const dpMinimizeBtn = document.getElementById("dpMinimize");
-if (dpMinimizeBtn) {
-  dpMinimizeBtn.addEventListener("click", () => setReadingMode(false));
+const dpFullscreenBtn = document.getElementById("dpFullscreen");
+function updateFullscreenControl() {
+  if (!dpFullscreenBtn) return;
+  const reading = document.body.classList.contains("is-reading-mode");
+  const label = reading ? "Exit full screen" : "Enter full screen";
+  dpFullscreenBtn.setAttribute("aria-label", label);
+  dpFullscreenBtn.title = label;
+  dpFullscreenBtn.setAttribute("aria-pressed", String(reading));
+}
+if (dpFullscreenBtn) {
+  updateFullscreenControl();
+  dpFullscreenBtn.addEventListener("click", () => {
+    setReadingMode(!document.body.classList.contains("is-reading-mode"));
+  });
 }
 
 // ---------- view toggle (Lanes / Network) -----------
@@ -5388,31 +5466,6 @@ const SAHASRANAMA_READING = {
   dataUrl: "gita/vishnu-sahasranama/reader.json",
 };
 
-// Share the exact view the reader is looking at. The router already mirrors
-// every navigable state into the hash, so location.href IS the shareable
-// address — the only thing missing was a way to get at it on a phone, where
-// there is no address bar to copy from. Native share sheet when the browser
-// has one, clipboard otherwise, and the button says which happened.
-async function shareCurrentView(title, labelEl, doneText) {
-  const url = location.href;
-  const original = labelEl ? labelEl.textContent : "";
-  if (navigator.share) {
-    try { await navigator.share({ title: title || document.title, url }); return; }
-    catch (e) { if (e && e.name === "AbortError") return; }   // user dismissed the sheet
-  }
-  try {
-    await navigator.clipboard.writeText(url);
-    if (labelEl) {
-      labelEl.textContent = doneText || "Link copied ✓";
-      setTimeout(() => { labelEl.textContent = original; }, 1600);
-    }
-  } catch (_) {
-    // Clipboard blocked (insecure context, denied permission) — fall back to a
-    // selectable field so the link is still gettable by hand.
-    window.prompt("Copy this link:", url);
-  }
-}
-
 async function openGitaReading(slug) {
   const reading = GITA_READINGS[slug];
   if (!reading) return;
@@ -5425,17 +5478,10 @@ async function openGitaReading(slug) {
     return;
   }
   if (dpArticleHead) {
+    dpArticleHead.hidden = false;
     dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
       <p class="dp-title">${reading.title}</p>
-      <p class="dp-attrib">${reading.blurb}</p>
-      <button class="dp-standalone" id="gitaFullBtn" type="button">Read full screen ⤢</button>
-      <button class="dp-standalone" id="gitaShareBtn" type="button">Share link</button>`;
-    // Full screen = the app's in-app reading mode (keeps the real site glossary),
-    // not the old external standalone page.
-    const fullBtn = document.getElementById("gitaFullBtn");
-    if (fullBtn) fullBtn.addEventListener("click", () => setReadingMode(true));
-    const shareBtn = document.getElementById("gitaShareBtn");
-    if (shareBtn) shareBtn.addEventListener("click", () => shareCurrentView(reading.title, shareBtn));
+      <p class="dp-attrib">${reading.blurb}</p>`;
   }
   if (window.GitaReader && dpArticleBody) {
     window.GitaReader.render(dpArticleBody, {
@@ -5459,12 +5505,8 @@ async function openSahasranamaReading() {
     return;
   }
   if (dpArticleHead) {
-    dpArticleHead.innerHTML = `<button class="dp-standalone" id="vsnFullBtn" type="button">Read full screen ⤢</button>
-      <button class="dp-standalone" id="vsnShareBtn" type="button">Share link</button>`;
-    const fullBtn = document.getElementById("vsnFullBtn");
-    if (fullBtn) fullBtn.addEventListener("click", () => setReadingMode(true));
-    const shareBtn = document.getElementById("vsnShareBtn");
-    if (shareBtn) shareBtn.addEventListener("click", () => shareCurrentView(SAHASRANAMA_READING.title, shareBtn));
+    dpArticleHead.innerHTML = "";
+    dpArticleHead.hidden = true;
   }
   if (window.SahasranamaReader && dpArticleBody) {
     try {
@@ -5490,6 +5532,7 @@ async function openArticle(a) {
   // Title for the tab-row (shown in full-screen reading mode); plain text.
   if (dpTabTitle) dpTabTitle.textContent = String(a.title || "").replace(/[*_`\[\]]/g, "");
   if (dpArticleHead) {
+    dpArticleHead.hidden = false;
     const pill = a.kind === "perspective"
       ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> '
       : "";

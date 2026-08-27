@@ -212,6 +212,11 @@ body.is-detail-open {
   --pane-w-time: 1fr;
   --pane-w-detail: clamp(440px, 36vw, 560px);
 }
+/* Long-form readers need an actual reading measure in the side-by-side state.
+   This is wider than a thinker card, while still leaving the timeline visible. */
+body.is-detail-open.is-article-context {
+  --pane-w-detail: clamp(680px, 58vw, 920px);
+}
 
 /* =============================================================
    TIMELINE
@@ -817,14 +822,14 @@ body.is-article-context .dp-pane-head .dp-title { display: none; }
 .dp-close {
   position: static;
   margin: 0;
-  width: 28px; height: 28px;
-  flex: 0 0 28px;
+  width: 34px; height: 34px;
+  flex: 0 0 34px;
   align-self: center;
   display: inline-flex; align-items: center; justify-content: center;
   padding: 0;
   color: var(--ink-soft);
-  background: transparent;
-  border: 0;
+  background: var(--bg);
+  border: 1px solid var(--rule);
   border-radius: 50%;
   line-height: 1;
   cursor: pointer;
@@ -832,46 +837,68 @@ body.is-article-context .dp-pane-head .dp-title { display: none; }
 }
 .dp-close:hover {
   background: var(--bg-warm);
+  border-color: var(--ink-soft);
   color: var(--ink);
 }
 .dp-close:focus-visible {
   outline: 2px solid var(--ink);
   outline-offset: 2px;
 }
-/* Minimize: exits full-screen reading back to the in-panel view (the way it was)
-   without closing the panel. Only meaningful in reading mode, so it is hidden
-   otherwise — the topbar Reading toggle covers the non-reading case. */
-.dp-min {
+/* Reader actions occupy stable circular slots. The full-screen button swaps a
+   matched corner glyph in place; it never moves or changes shape. */
+.dp-reader-action {
   display: none;
   margin: 0;
-  width: 28px; height: 28px;
-  flex: 0 0 28px;
+  width: 34px; height: 34px;
+  flex: 0 0 34px;
   align-self: center;
   align-items: center; justify-content: center;
   padding: 0;
   color: var(--ink-soft);
-  background: transparent;
-  border: 0;
+  background: var(--bg);
+  border: 1px solid var(--rule);
   border-radius: 50%;
   line-height: 1;
   cursor: pointer;
   transition: background 140ms ease, color 140ms ease;
 }
-body.is-reading-mode .dp-min { display: inline-flex; }
-.dp-min:hover {
+body.is-article-context .dp-reader-action,
+body.is-reading-mode .dp-reader-action { display: inline-flex; }
+.dp-reader-action:hover {
   background: var(--bg-warm);
+  border-color: var(--ink-soft);
   color: var(--ink);
 }
-.dp-min:focus-visible {
+.dp-reader-action:focus-visible {
   outline: 2px solid var(--ink);
   outline-offset: 2px;
 }
 .dp-action-icon {
-  width: 16px; height: 16px;
-  fill: none; stroke: currentColor; stroke-width: 1.8;
+  width: 18px; height: 18px;
+  fill: none; stroke: currentColor; stroke-width: 1.6;
   stroke-linecap: round; stroke-linejoin: round;
 }
-.dp-min-label, .dp-close-label { display: none; }
+.dp-fullscreen-exit { display: none; }
+body.is-reading-mode .dp-fullscreen-enter { display: none; }
+body.is-reading-mode .dp-fullscreen-exit { display: block; }
+.dp-close-label { display: none; }
+.dp-control-status {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 68px;
+  z-index: 5;
+  padding: 6px 10px;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink);
+  background: var(--bg);
+  box-shadow: var(--shadow-md);
+  font: 500 11px/1.2 var(--sans);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.dp-control-status[hidden] { display: none; }
 
 /* =============================================================
    PANEL OVERFLOW SAFETY
@@ -1504,7 +1531,7 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
 
 /* Article pane (e.g. the Gītā reading) in full-screen reading mode: give it the
    same comfortable centered column as the thinker pane instead of running the
-   text edge-to-edge, and hide the now-redundant "Read full screen" button. */
+   text edge-to-edge. Reader actions remain in the stable panel header. */
 body.is-reading-mode #dpArticleHead,
 body.is-reading-mode #dpArticleBody {
   /* min(820px, 100%), not 820px: this is a flex item, so its base size comes
@@ -1516,8 +1543,6 @@ body.is-reading-mode #dpArticleBody {
   margin-left: auto; margin-right: auto;
 }
 body.is-reading-mode #dpArticleBody { padding-bottom: 96px; }
-body.is-reading-mode .dp-standalone { display: none; }
-
 /* Anchor the audio player to the bottom as a floating dock. (It was floating
    mid-page because the sticky bar sat above the body's bottom padding.)
    Desktop reading mode: a centered dock matching the reading column. */
@@ -3119,6 +3144,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     --pane-w-time: 1fr;
     --pane-w-detail: 0px;
   }
+  body.is-detail-open.is-article-context { --pane-w-detail: 0px; }
   body.is-detail-open .detail-pane {
     position: fixed;
     top: var(--topbar-h);
@@ -3252,7 +3278,13 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     font-size: 10.5px;
   }
   .dp-tab-spacer { min-width: 12px; }
-  .dp-close { flex-shrink: 0; }
+  .dp-close,
+  .dp-reader-action {
+    width: 36px;
+    height: 36px;
+    flex: 0 0 36px;
+  }
+  .dp-control-status { right: 72px; }
   body.is-reading-mode .dp-tabbar {
     overflow: hidden;
     padding-left: 10px;

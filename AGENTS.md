@@ -4,6 +4,13 @@ Multiple Claude/Codex agents may operate on this repo concurrently. The rules be
 
 These rules prevent the recurrence.
 
+## UI design authority
+
+Read and follow `docs/UI_DESIGN_STANDARD.md` before changing public layout,
+responsive behavior, reader controls, icons, sharing, full-screen behavior, or
+interaction feedback. Reuse its stable control system instead of introducing a
+second shape or a duplicate action inside content.
+
 ## How we translate Sanskrit
 
 All Sanskrit on this site — root text **and** commentary — is translated and
