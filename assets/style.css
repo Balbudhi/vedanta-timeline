@@ -1552,6 +1552,9 @@ body.is-reading-mode .recite-bar {
 }
 /* Mobile (article pane is full-screen): dock to the bottom edge, full width. */
 @media (max-width: 720px) {
+  /* The article pane already occupies the full mobile stage. A second
+     full-screen action has no distinct state here, so do not advertise it. */
+  #dpFullscreen { display: none !important; }
   body.is-reading-mode .recite-bar,
   .dp-article-body .recite-bar {
     position: fixed; left: 10px; right: 10px; bottom: 10px;

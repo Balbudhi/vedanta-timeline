@@ -97,6 +97,14 @@ for (const r of READINGS) {
   }
 }
 
+const sahasranamaPreface = path.join(ROOT, "gita/vishnu-sahasranama/preface-analysis.json");
+if (fs.existsSync(sahasranamaPreface)) {
+  const data = JSON.parse(fs.readFileSync(sahasranamaPreface, "utf8"));
+  for (const unit of data.units || []) {
+    checkUnit(`gita/vishnu-sahasranama preface ${unit.id}`, unit.words, unit.english);
+  }
+}
+
 console.log(`Checked ${unitCount} interactive units.`);
 console.log(`Word-slot coverage: ${coverage.words - coverage.uncovered}/${coverage.words} words highlight an English phrase`);
 console.log(`  ${coverage.uncovered} unslotted (particles the English does not render separately), ${coverage.doubled} in two slots`);

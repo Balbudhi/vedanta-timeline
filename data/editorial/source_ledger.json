@@ -186,6 +186,25 @@
       "notes": "The selection includes only material heard before name 1 in the chosen recording: five invocatory verses and a mantra, Mahābhārata framing verses 7-22, the performed ritual assignment, and seven meditation verses with the Vāsudeva mantra. Unperformed invocation and nyāsa variants are deliberately excluded."
     },
     {
+      "id": "vishnu-sahasranama-preface-paninian-analysis",
+      "title_iast": "Viṣṇusahasranāma performed preface: word-by-word Pāṇinian analysis",
+      "source_level": "secondary",
+      "source_path": "gita/vishnu-sahasranama/preface-analysis.json",
+      "witness": "Site-authored closed analysis corpus for all 45 performed opening units, grounded in the pinned received witness, with pada segmentation checked against the Vedapedia word divisions, morphology checked with Vidyut 0.4.0, lexical senses checked with Monier-Williams, and manual contextual adjudication of every compound and ambiguous form.",
+      "rights_status": "site-authored-analysis-of-public-working-witness",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://vishnu-sahasranama/recitation-preface/analysis/"
+      ],
+      "review_areas": [
+        "vishnu-sahasranama",
+        "sanskrit-reader",
+        "paninian-grammar",
+        "audio"
+      ],
+      "notes": "The builder requires the exact 45-unit population, contiguous word indices, 100% English slot coverage, complete morpheme translations, reviewed samāsa classification, and exact source replay after sandhi alignment. Genuine textual uncertainty is stated in the relevant word note rather than silently normalized."
+    },
+    {
       "id": "chinmayananda-thousand-ways-preface-authorized-reader",
       "title_iast": "Thousand Ways to the Transcendental: recitation-preface engagement",
       "source_level": "secondary",

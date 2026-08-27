@@ -33,6 +33,7 @@ COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/chinmayananda.json"
 ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/analysis.json"
 PREFACE_COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/preface-commentary.json"
 PREFACE_WITNESS_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_performance_preface.json"
+PREFACE_ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/preface-analysis.json"
 OUTPUT_PATH = ROOT / "gita/vishnu-sahasranama/reader.json"
 WEB_CORE_PATH = ROOT / "gita/vishnu-sahasranama/reader-core.json"
 WEB_DETAILS_PATH = ROOT / "gita/vishnu-sahasranama/reader-details.json"
@@ -242,6 +243,12 @@ def build_performance_preface(source: str) -> dict:
     meditation_source = source[meditation_start:meditation_end]
     meditation_mantra = "OM namo bhagavate vAsudevAya ||"
     meditation_numbered = meditation_source.replace(meditation_mantra, "")
+    # Abhyankar performs the source's parenthetical śobhi-kaustubham variant,
+    # not its primary kaustubha-śriyam reading.
+    meditation_numbered = meditation_numbered.replace(
+        "sahAravakShaHsthalakaustubhashriyaM (sthalashobhikaustubhaM)",
+        "sahAravakShaHsthalashobhikaustubhaM",
+    )
     meditation = parse_numbered_preface_units(meditation_numbered, set(range(1, 8)), "meditation")
     meditation.insert(2, transliterate_preface_unit([meditation_mantra], "meditation-mantra", "Mantra"))
 
@@ -284,6 +291,23 @@ def attach_preface_commentary(preface: dict, commentary_path: Path | None) -> di
             context = unit_commentary.get(unit["id"])
             if context:
                 unit["chinmayananda"] = context
+    return enriched
+
+
+def attach_preface_analysis(preface: dict, analysis_path: Path) -> dict:
+    enriched = json.loads(json.dumps(preface, ensure_ascii=False))
+    analysis = json.loads(analysis_path.read_text(encoding="utf-8"))
+    rows = analysis.get("units", [])
+    expected = [unit["id"] for group in enriched["groups"] for unit in group["units"]]
+    if [row.get("id") for row in rows] != expected:
+        raise ValueError("performance-preface analysis does not exactly cover the performed unit sequence")
+    by_id = {row["id"]: row for row in rows}
+    for group in enriched["groups"]:
+        for unit in group["units"]:
+            row = by_id[unit["id"]]
+            unit["words"] = row["words"]
+            unit["english"] = row["english"]
+            unit["analysis_status"] = row["source_status"]
     return enriched
 
 
@@ -483,6 +507,7 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
     if preface_witness != generated_preface:
         raise ValueError("performance preface witness does not replay the pinned received text")
     preface = attach_preface_commentary(preface_witness, PREFACE_COMMENTARY_PATH)
+    preface = attach_preface_analysis(preface, PREFACE_ANALYSIS_PATH)
     stanzas = parse_received_itx(received)
     bori = parse_bori(BORI_PATH)
     boundaries, all_names = parse_word_split(word_split)
@@ -574,6 +599,10 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
                 "path": str(PREFACE_COMMENTARY_PATH.relative_to(ROOT)),
                 "sha256": sha256(PREFACE_COMMENTARY_PATH.read_bytes()),
             },
+            "preface_analysis": {
+                "path": str(PREFACE_ANALYSIS_PATH.relative_to(ROOT)),
+                "sha256": sha256(PREFACE_ANALYSIS_PATH.read_bytes()),
+            },
         },
         "audio": {
             "src": "https://github.com/Balbudhi/vedanta-timeline/releases/download/media-v1/vishnu-sahasranama-sanjeev-abhyankar.m4a?download=1",
@@ -610,6 +639,12 @@ def validate(data: dict, require_commentary: bool) -> dict:
         for unit in group.get("units", []):
             if not unit.get("devanagari") or not unit.get("iast"):
                 errors.append(f"performance preface unit {unit.get('id')} lacks source text")
+            words = unit.get("words", [])
+            if not words or [word.get("i") for word in words] != list(range(len(words))):
+                errors.append(f"performance preface unit {unit.get('id')} lacks contiguous word analysis")
+            slots = {int(index) for group_text in re.findall(r"\{([\d,\s]+):", unit.get("english", "")) for index in group_text.split(",")}
+            if slots != set(range(len(words))):
+                errors.append(f"performance preface unit {unit.get('id')} lacks complete English slot coverage")
     stanzas = data.get("stanzas", [])
     names = [name for stanza in stanzas for name in stanza.get("names", [])]
     if len(stanzas) != 107:

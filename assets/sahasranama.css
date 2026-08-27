@@ -53,7 +53,8 @@
   letter-spacing: .1em; text-transform: uppercase;
 }
 .vsn-preface-unit { scroll-margin-top: 18px; }
-.vsn-preface-unit .verse-deva { font-size: 19px; line-height: 1.75; }
+.vsn-preface-unit .verse-deva,
+.vsn-preface-unit .ix-deva.vsn-preface-deva { font-size: 19px; line-height: 1.75; margin-bottom: 12px; }
 .vsn-preface-unit .ix-pada { font-size: 16px; line-height: 1.95; }
 .vsn-preface-unit .ix-en { color: var(--ink-soft); font-size: 15px; line-height: 1.68; }
 .vsn-preface-unit--compact { padding-top: 11px; padding-bottom: 11px; }
@@ -67,6 +68,7 @@
 .vsn-preface-commentary[hidden] { display: none; }
 .vsn-preface-commentary-title { margin-bottom: 5px; color: var(--ink); font-weight: 600; }
 .vsn-preface-commentary p { margin: 0; }
+.vsn-preface-unit-commentary { margin-top: 14px; }
 .vsn-names-head { margin-top: 34px; }
 .vsn-reader.vsn-chant-only .ix-en,
 .vsn-reader.vsn-chant-only .vsn-preface-intro,
@@ -129,7 +131,8 @@
   .vsn-preface-group-title,
   .vsn-preface-commentary { margin-left: 2px; margin-right: 2px; }
   .vsn-preface-unit { padding-left: 2px; padding-right: 2px; }
-  .vsn-preface-unit .verse-deva { font-size: 18px; }
+  .vsn-preface-unit .verse-deva,
+  .vsn-preface-unit .ix-deva.vsn-preface-deva { font-size: 18px; }
   .vsn-preface-unit .ix-pada { font-size: 15.5px; line-height: 1.9; }
   .vsn-detail-deva { grid-column: 2; margin-top: -3px; }
   .vsn-verse {

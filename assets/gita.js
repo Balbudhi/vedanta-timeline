@@ -70,11 +70,13 @@ function renderEnglish(english) {
   if (last < english.length) out += freeText(english.slice(last));
   return out;
 }
-function wordSpan(w) {
+function wordSpan(w, script) {
   const cls = w.translatable === false ? "w w-name" : "w";
-  return `<span class="${cls}" data-wi="${w.i}" tabindex="0" role="button">${esc(w.iast)}</span>`;
+  const text = script === "deva" ? (w.deva || w.iast) : w.iast;
+  const lang = script === "deva" ? "sa-Deva" : "sa-Latn";
+  return `<span class="${cls}${script === "deva" ? " w-deva" : ""}" data-wi="${w.i}" tabindex="0" role="button" lang="${lang}">${esc(text)}</span>`;
 }
-function renderPada(words) { return words.map(wordSpan).join(" "); }
+function renderPada(words, script) { return words.map(w => wordSpan(w, script)).join(" "); }
 
 // Commentary pada coloured by rhetorical move (gloss · interpretation ·
 // citation · objection · reply). gloss is the unlabeled baseline; the others
@@ -83,7 +85,7 @@ const SEG_LABEL = { interpretation: "interpretation", citation: "citation", obje
 function renderPadaSegmented(words, segments) {
   return segments.map(s => {
     const ws = [];
-    for (let i = s.from; i <= s.to; i++) { const w = words.find(x => x.i === i); if (w) ws.push(wordSpan(w)); }
+    for (let i = s.from; i <= s.to; i++) { const w = words.find(x => x.i === i); if (w) ws.push(wordSpan(w, "iast")); }
     const tag = SEG_LABEL[s.kind] ? `<span class="seg-tag">${SEG_LABEL[s.kind]}</span>` : "";
     return `<span class="seg seg-${esc(s.kind)}">${tag}${ws.join(" ")}</span>`;
   }).join(" ");
@@ -93,12 +95,15 @@ function renderPadaSegmented(words, segments) {
    tappable IAST pada line, then slotted English.
    Used for the mūla and for any commentary entry that carries words[]+english.
    When `segments` is present (commentary), the pada is colour-coded by move. */
-function interactiveBlock(words, english, segments, devanagari) {
+function interactiveBlock(words, english, segments, devanagari, devaClass) {
   const id = newScope(words);
-  const pada = (segments && segments.length) ? renderPadaSegmented(words, segments) : renderPada(words);
+  const pada = (segments && segments.length) ? renderPadaSegmented(words, segments) : renderPada(words, "iast");
+  const deva = devanagari
+    ? (words.every(w => w.deva && w.surface_iast) ? renderPada(words, "deva") : esc(devanagari).replace(/\n/g, "<br>"))
+    : "";
   const en = english ? renderEnglish(english) : "";
   return `<div class="ix" data-wscope="${id}">
-    ${devanagari ? `<div class="ix-deva" lang="sa-Deva">${esc(devanagari).replace(/\n/g, "<br>")}</div>` : ""}
+    ${deva ? `<div class="ix-deva${devaClass ? ` ${esc(devaClass)}` : ""}" lang="sa-Deva">${deva}</div>` : ""}
     <div class="ix-pada" lang="sa-Latn">${pada}</div>
     ${en ? `<div class="ix-en">${en}</div>` : ""}
   </div>`;
@@ -200,7 +205,7 @@ function hasAudio() { return !!(AUDIO_MANIFEST && Array.isArray(AUDIO_MANIFEST.v
 
 function renderVerse(v, vb) {
   const sp = speakerLabel(v.speaker);
-  const muIx = interactiveBlock(v.words, v.english);
+  const muIx = interactiveBlock(v.words, v.english, null, v.devanagari, "verse-deva");
   const blocks = (VOICES || []).map(voice => {
     const entry = vb[voice.id];
     if (!entry) return "";
@@ -217,7 +222,6 @@ function renderVerse(v, vb) {
     : "";
   return `<article class="verse" id="v-${esc(v.locus)}">
     <header class="verse-head"><span class="verse-locus">${esc(v.locus)}</span>${sp ? `<span class="verse-speaker">${esc(sp)}</span>` : ""}${playBtn}</header>
-    ${v.devanagari ? `<div class="verse-deva" lang="sa-Deva">${esc(v.devanagari).replace(/\n/g, "<br>")}</div>` : ""}
     ${muIx}
     ${blocks ? `<div class="verse-voices">${blocks}</div>` : ""}
   </article>`;
@@ -460,14 +464,14 @@ function openTermGlossary(key, anchor) {
 function activate(span) {
   const sc = scopeOf(span); if (!sc) return;
   const i = span.dataset.wi;
-  span.classList.add("hi");
+  sc.querySelectorAll(`.w[data-wi="${CSS.escape(i)}"]`).forEach(el => el.classList.add("hi"));
   sc.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).includes(i)) el.classList.add("hi"); });
   const w = wordOf(span); if (w) showCard(span, w);
 }
 function deactivate(span) {
   const sc = scopeOf(span); if (!sc) return;
   const i = span.dataset.wi;
-  span.classList.remove("hi");
+  sc.querySelectorAll(`.w[data-wi="${CSS.escape(i)}"]`).forEach(el => el.classList.remove("hi"));
   sc.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).includes(i)) el.classList.remove("hi"); });
   hideCard();
 }
@@ -916,7 +920,23 @@ function closeGlossary() {
 // can scroll the text while keeping a term's definition open beside it.
 
 /* ---------- expose ---------- */
-window.GitaReader = { render, renderPassages };
+function bindWords(root, options) {
+  ROOT = root;
+  options = options || {};
+  HOST_GLOSSARY = options.onGlossary || null;
+  HOST_THINKER = options.onThinker || null;
+  HOST_LINKIFY = options.linkifyGlossary || null;
+  HOST_RESOLVE = options.glossaryResolve || null;
+  wireWords();
+}
+
+function clearWords() {
+  clearSticky();
+  hideCard();
+  hideGrammarCard();
+}
+
+window.GitaReader = { render, renderPassages, interactiveBlock, bindWords, clearWords };
 
 // Standalone page bootstrap (no-op inside the app, where #gitaRoot is absent).
 document.addEventListener("DOMContentLoaded", () => {

@@ -418,7 +418,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "__BUILD_ID__";
+const DATA_VERSION = "__BUILD_ID__-vsn-panini-v3";
 
 async function loadJSON(path) {
   try {
@@ -5505,6 +5505,7 @@ async function openGitaReading(slug) {
 async function openSahasranamaReading() {
   if (dpTabTitle) dpTabTitle.textContent = SAHASRANAMA_READING.title;
   try {
+    await loadScriptOnce(`assets/gita.js?v=${DATA_VERSION}`);
     await loadScriptOnce(`assets/sahasranama.js?v=${DATA_VERSION}`);
   } catch (_) {
     if (dpArticleBody) dpArticleBody.innerHTML = "<article><p>Could not load the reading.</p></article>";
@@ -5521,7 +5522,9 @@ async function openSahasranamaReading() {
         detailsUrl: SAHASRANAMA_READING.detailsUrl,
         styleUrl: `assets/sahasranama.css?v=${DATA_VERSION}`,
         onThinker: (id) => openThinker(id),
+        onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
         linkifyGlossary: linkifyGlossaryText,
+        glossaryResolve: gitaGlossaryResolve,
       });
     } catch (_) {
       dpArticleBody.innerHTML = "<article><p>Could not load the Sahasranāma data.</p></article>";

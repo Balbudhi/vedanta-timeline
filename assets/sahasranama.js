@@ -128,15 +128,19 @@ function renderStanza(stanza) {
 }
 
 function renderPrefaceUnit(unit, groupId) {
-  const english = unit.chinmayananda?.english;
   const compact = groupId === "assignment" ? " vsn-preface-unit--compact" : "";
+  const interactive = unit.words?.length && unit.english && window.GitaReader?.interactiveBlock
+    ? window.GitaReader.interactiveBlock(unit.words, unit.english, null, unit.devanagari, "vsn-preface-deva")
+    : `<div class="verse-deva vsn-preface-deva" lang="sa-Deva">${esc(unit.devanagari).replace(/\n/g, "<br>")}</div>
+       <div class="ix vsn-preface-ix"><div class="ix-pada vsn-preface-iast" lang="sa-Latn">${esc(unit.iast).replace(/\n/g, "<br>")}</div></div>`;
+  const chinmayananda = unit.chinmayananda?.english;
   return `<article class="verse vsn-preface-unit${compact}" id="vsn-${esc(unit.id)}">
     <header class="verse-head"><span class="verse-locus">${esc(unit.label)}</span>${unit.speaker ? `<span class="verse-speaker">${esc(unit.speaker)}</span>` : ""}</header>
-    <div class="verse-deva vsn-preface-deva" lang="sa-Deva">${esc(unit.devanagari).replace(/\n/g, "<br>")}</div>
-    <div class="ix vsn-preface-ix">
-      <div class="ix-pada vsn-preface-iast" lang="sa-Latn">${esc(unit.iast).replace(/\n/g, "<br>")}</div>
-      ${english ? `<div class="ix-en vsn-preface-en">${esc(english)}</div>` : ""}
-    </div>
+    ${interactive}
+    ${chinmayananda ? `<div class="voice-block vsn-preface-unit-commentary" hidden>
+      <div class="voice-who">Swami Chinmayananda <span class="voice-school">Advaita</span></div>
+      <div class="voice-en">${esc(chinmayananda)}</div>
+    </div>` : ""}
   </article>`;
 }
 
@@ -313,6 +317,7 @@ async function setDetails(open) {
   if (icon) icon.textContent = DETAILS_OPEN ? "−" : "+";
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-details-open", DETAILS_OPEN);
   ROOT.querySelectorAll(".vsn-preface-commentary").forEach(block => { block.hidden = !DETAILS_OPEN; });
+  ROOT.querySelectorAll(".vsn-preface-unit-commentary").forEach(block => { block.hidden = !DETAILS_OPEN; });
   ROOT.querySelectorAll(".vsn-details-block").forEach(block => {
       if (DETAILS_OPEN && block.dataset.loaded !== "true") {
         const stanza = DATA.stanzas[Number(block.dataset.stanzaNumber) - 1];
@@ -338,6 +343,7 @@ function setChantView(active, persist) {
   if (detailChip) detailChip.disabled = CHANT_ONLY;
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-chant-only", CHANT_ONLY);
   closeWordCard();
+  window.GitaReader?.clearWords?.();
   if (persist !== false) {
     try { localStorage.setItem(CHANT_VIEW_KEY, String(CHANT_ONLY)); } catch (_) {}
   }
@@ -348,6 +354,7 @@ function wireDetails() {
   chip.addEventListener("click", async () => {
     await setDetails(!DETAILS_OPEN);
     closeWordCard();
+    window.GitaReader?.clearWords?.();
   });
   ROOT.querySelector(".vsn-chant-chip").addEventListener("click", () => setChantView(!CHANT_ONLY));
   ROOT.addEventListener("click", event => {
@@ -422,6 +429,12 @@ async function render(root, options) {
     reader.dataset.renderMs = String(Math.round(renderedAt - parsedAt));
   }
   wireWords();
+  window.GitaReader?.bindWords?.(root, {
+    onGlossary: options.onGlossary,
+    onThinker: options.onThinker,
+    linkifyGlossary: options.linkifyGlossary,
+    glossaryResolve: options.glossaryResolve,
+  });
   wireDetails();
   setChantView(CHANT_ONLY, false);
   wireAudio();
