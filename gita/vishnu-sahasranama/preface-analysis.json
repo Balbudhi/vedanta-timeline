@@ -13407,6 +13407,520 @@
       ],
       "english": "{13:I take refuge in} {12:Kṛṣṇa}, {3:seated} {0:in the shade} {1:of the Pārijāta}, {2:above a golden throne}, {4:dark like a raincloud}, {5:long-eyed}, {6:adorned}, {7:moon-faced}, {8:four-armed}, {9:whose chest is marked with Śrīvatsa}, {11:accompanied} {10:by Rukmiṇī and Satyabhāmā}.",
       "source_status": "received-text + reviewed-pada-analysis"
+    },
+    {
+      "id": "closing-name",
+      "devanagari": "सर्वप्रहरणायुधः । ॐ नम इति ॥",
+      "iast": "sarvapraharaṇāyudhaḥ | oṃ nama iti ||",
+      "words": [
+        {
+          "i": 0,
+          "iast": "sarva-praharaṇa-āyudhaḥ",
+          "deva": "सर्वप्रहरणआयुधः",
+          "gloss": "whose weapons are every implement",
+          "parts": [
+            {
+              "form": "sarva",
+              "gloss": "all; every"
+            },
+            {
+              "form": "praharaṇa",
+              "gloss": "implement of attack; weapon"
+            },
+            {
+              "form": "āyudha",
+              "gloss": "weapon"
+            },
+            {
+              "form": "su",
+              "gloss": "prathamā ekavacana: nominative singular masculine"
+            }
+          ],
+          "stem": "sarva-praharaṇa-āyudha",
+          "root": null,
+          "rootGloss": null,
+          "affix": "su (prathamā ekavacana; nominative singular)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "sarvāṇi praharaṇāni āyudhāni yasya saḥ",
+            "members": [
+              "sarva",
+              "praharaṇa",
+              "āyudha"
+            ]
+          },
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": []
+          },
+          "note": null,
+          "surface_iast": "sarvapraharaṇāyudhaḥ"
+        },
+        {
+          "i": 1,
+          "iast": "oṃ",
+          "deva": "ॐ",
+          "gloss": "Oṃ",
+          "parts": [
+            {
+              "form": "oṃ",
+              "gloss": "Oṃ"
+            }
+          ],
+          "stem": "oṃ",
+          "root": null,
+          "rootGloss": null,
+          "affix": "avyaya (indeclinable)",
+          "morph": "indeclinable",
+          "karaka": null,
+          "compound": null,
+          "uncertainty": [],
+          "surface_iast": "oṃ"
+        },
+        {
+          "i": 2,
+          "iast": "namaḥ",
+          "deva": "नमः",
+          "gloss": "obeisance",
+          "parts": [
+            {
+              "form": "namaḥ",
+              "gloss": "obeisance"
+            }
+          ],
+          "stem": "namaḥ",
+          "root": null,
+          "rootGloss": null,
+          "affix": "avyaya (indeclinable)",
+          "morph": "indeclinable",
+          "karaka": null,
+          "compound": null,
+          "uncertainty": [],
+          "surface_iast": "nama"
+        },
+        {
+          "i": 3,
+          "iast": "iti",
+          "deva": "इति",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "rootGloss": null,
+          "affix": "avyaya (indeclinable)",
+          "morph": "indeclinable",
+          "karaka": null,
+          "compound": null,
+          "uncertainty": [],
+          "surface_iast": "iti"
+        }
+      ],
+      "english": "{0:The one whose weapons are every implement}. {1:Oṃ}; {2:obeisance}, {3:thus}.",
+      "source_status": "received-text + reviewed-pada-analysis"
+    },
+    {
+      "id": "protection",
+      "devanagari": "वनमाली गदी शार्ङ्गी शङ्खी चक्री च नन्दकी ।\nश्रीमान् नारायणो विष्णुर्वासुदेवोऽभिरक्षतु ॥",
+      "iast": "vanamālī gadī śārṅgī śaṅkhī cakrī ca nandakī |\nśrīmān nārāyaṇo viṣṇurvāsudevo'bhirakṣatu ||",
+      "words": [
+        {
+          "i": 0,
+          "iast": "vana-mālī",
+          "deva": "वनमाली",
+          "gloss": "wearer of the forest garland",
+          "parts": [
+            {
+              "form": "vana",
+              "gloss": "forest"
+            },
+            {
+              "form": "mālā",
+              "gloss": "garland"
+            },
+            {
+              "form": "in",
+              "gloss": "possessing"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular masculine"
+            }
+          ],
+          "stem": "vana-mālin",
+          "root": null,
+          "rootGloss": null,
+          "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa + possessive",
+            "vigraha": "vanasya mālā yasya saḥ",
+            "members": [
+              "vana",
+              "mālin"
+            ]
+          },
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": []
+          },
+          "note": null,
+          "surface_iast": "vanamālī"
+        },
+        {
+          "i": 1,
+          "iast": "gadī",
+          "deva": "गदी",
+          "gloss": "mace-bearer",
+          "parts": [
+            {
+              "form": "gadā",
+              "gloss": "mace"
+            },
+            {
+              "form": "in",
+              "gloss": "possessing"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular masculine"
+            }
+          ],
+          "stem": "gadin",
+          "root": null,
+          "rootGloss": null,
+          "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": null,
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": [
+              "gadi",
+              "gadin"
+            ]
+          },
+          "note": null,
+          "surface_iast": "gadī"
+        },
+        {
+          "i": 2,
+          "iast": "śārṅgī",
+          "deva": "शार्ङ्गी",
+          "gloss": "bearer of Śārṅga",
+          "parts": [
+            {
+              "form": "śārṅga",
+              "gloss": "the bow Śārṅga"
+            },
+            {
+              "form": "in",
+              "gloss": "possessing"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular masculine"
+            }
+          ],
+          "stem": "śārṅgin",
+          "root": null,
+          "rootGloss": null,
+          "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": null,
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": [
+              "śārṅgin",
+              "śārṅgī"
+            ]
+          },
+          "note": null,
+          "surface_iast": "śārṅgī"
+        },
+        {
+          "i": 3,
+          "iast": "śaṅkhī",
+          "deva": "शङ्खी",
+          "gloss": "conch-bearer",
+          "parts": [
+            {
+              "form": "śaṅkha",
+              "gloss": "conch"
+            },
+            {
+              "form": "in",
+              "gloss": "possessing"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular masculine"
+            }
+          ],
+          "stem": "śaṅkhin",
+          "root": null,
+          "rootGloss": null,
+          "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": null,
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": [
+              "śaṅkhin"
+            ]
+          },
+          "note": null,
+          "surface_iast": "śaṅkhī"
+        },
+        {
+          "i": 4,
+          "iast": "cakrī",
+          "deva": "चक्री",
+          "gloss": "discus-bearer",
+          "parts": [
+            {
+              "form": "cakra",
+              "gloss": "discus"
+            },
+            {
+              "form": "in",
+              "gloss": "possessing, bearing"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular masculine"
+            }
+          ],
+          "stem": "cakrin",
+          "root": null,
+          "rootGloss": null,
+          "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": null,
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": [
+              "cakrin",
+              "cakrī"
+            ]
+          },
+          "note": null,
+          "surface_iast": "cakrī"
+        },
+        {
+          "i": 5,
+          "iast": "ca",
+          "deva": "च",
+          "gloss": "and",
+          "parts": [
+            {
+              "form": "ca",
+              "gloss": "and"
+            }
+          ],
+          "stem": "ca",
+          "root": null,
+          "rootGloss": null,
+          "affix": "avyaya (indeclinable)",
+          "morph": "indeclinable",
+          "karaka": null,
+          "compound": null,
+          "uncertainty": [],
+          "surface_iast": "ca"
+        },
+        {
+          "i": 6,
+          "iast": "nandakī",
+          "deva": "नन्दकी",
+          "gloss": "bearer of Nandaka",
+          "parts": [
+            {
+              "form": "nandaka",
+              "gloss": "the sword Nandaka"
+            },
+            {
+              "form": "in",
+              "gloss": "possessing, bearing"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular masculine"
+            }
+          ],
+          "stem": "nandakin",
+          "root": null,
+          "rootGloss": null,
+          "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": null,
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": []
+          },
+          "note": null,
+          "surface_iast": "nandakī"
+        },
+        {
+          "i": 7,
+          "iast": "śrīmān",
+          "deva": "श्रीमान्",
+          "gloss": "possessing splendour",
+          "parts": [
+            {
+              "form": "śrī",
+              "gloss": "splendour, prosperity"
+            },
+            {
+              "form": "matup",
+              "gloss": "possessing"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular masculine"
+            }
+          ],
+          "stem": "śrīmat",
+          "root": null,
+          "rootGloss": null,
+          "affix": "matup (taddhita) + su (prathamā ekavacana)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": null,
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": [
+              "śrīmat"
+            ]
+          },
+          "note": null,
+          "surface_iast": "śrīmān"
+        },
+        {
+          "i": 8,
+          "iast": "nārāyaṇaḥ",
+          "deva": "नारायणः",
+          "gloss": "Nārāyaṇa",
+          "parts": [
+            {
+              "form": "nārāyaṇa",
+              "gloss": "Nārāyaṇa"
+            },
+            {
+              "form": "su",
+              "gloss": "prathamā ekavacana: nominative singular masculine"
+            }
+          ],
+          "stem": "nārāyaṇa",
+          "root": null,
+          "rootGloss": null,
+          "affix": "su (prathamā ekavacana; nominative singular)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": null,
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": []
+          },
+          "note": null,
+          "surface_iast": "nārāyaṇo"
+        },
+        {
+          "i": 9,
+          "iast": "viṣṇuḥ",
+          "deva": "विष्णुः",
+          "gloss": "Viṣṇu",
+          "parts": [
+            {
+              "form": "viṣṇu",
+              "gloss": "Viṣṇu"
+            },
+            {
+              "form": "su",
+              "gloss": "prathamā ekavacana: nominative singular masculine"
+            }
+          ],
+          "stem": "viṣṇu",
+          "root": null,
+          "rootGloss": null,
+          "affix": "su (prathamā ekavacana; nominative singular)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": null,
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": []
+          },
+          "note": null,
+          "surface_iast": "viṣṇur"
+        },
+        {
+          "i": 10,
+          "iast": "vāsudevaḥ",
+          "deva": "वासुदेवः",
+          "gloss": "Vāsudeva",
+          "parts": [
+            {
+              "form": "vāsudeva",
+              "gloss": "Vāsudeva"
+            },
+            {
+              "form": "su",
+              "gloss": "prathamā ekavacana: nominative singular masculine"
+            }
+          ],
+          "stem": "vāsudeva",
+          "root": null,
+          "rootGloss": null,
+          "affix": "su (prathamā ekavacana; nominative singular)",
+          "morph": "nominative singular masculine — prathamā ekavacana",
+          "karaka": "prathamā agreement: kartṛ with a verb, or subject/predicate/apposition in a nominal clause",
+          "compound": null,
+          "uncertainty": [],
+          "evidence": {
+            "vidyut_compatible_lemmas": []
+          },
+          "note": null,
+          "surface_iast": "vāsudevo"
+        },
+        {
+          "i": 11,
+          "iast": "abhirakṣatu",
+          "deva": "अभिरक्षतु",
+          "gloss": "may he protect",
+          "parts": [
+            {
+              "form": "abhi-√rakṣ",
+              "gloss": "to protect"
+            },
+            {
+              "form": "tip",
+              "gloss": "loṭ, active, third-person singular"
+            }
+          ],
+          "stem": "abhirakṣ",
+          "root": "abhi-√rakṣ (bhvādi, 1P)",
+          "rootGloss": "to protect",
+          "affix": "tip (prathama-puruṣa ekavacana)",
+          "morph": "loṭ, active, third-person singular",
+          "karaka": "finite verbal predicate",
+          "compound": null,
+          "uncertainty": [],
+          "surface_iast": "bhirakṣatu"
+        }
+      ],
+      "english": "May {7:the splendid} {8:Nārāyaṇa}, {9:Viṣṇu}, {10:Vāsudeva}—{0:wearer of the forest garland}, {1:mace-bearer}, {2:bearer of Śārṅga}, {3:conch-bearer}, {4:discus-bearer}, {5:and} {6:bearer of Nandaka}—{11:protect us}.",
+      "source_status": "received-text + reviewed-pada-analysis"
     }
   ]
 }

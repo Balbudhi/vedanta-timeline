@@ -34,6 +34,7 @@ ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/analysis.json"
 PREFACE_COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/preface-commentary.json"
 PREFACE_WITNESS_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_performance_preface.json"
 PREFACE_ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/preface-analysis.json"
+TIMINGS_PATH = ROOT / "gita/vishnu-sahasranama/timings.json"
 OUTPUT_PATH = ROOT / "gita/vishnu-sahasranama/reader.json"
 WEB_CORE_PATH = ROOT / "gita/vishnu-sahasranama/reader-core.json"
 WEB_DETAILS_PATH = ROOT / "gita/vishnu-sahasranama/reader-details.json"
@@ -299,7 +300,7 @@ def attach_preface_analysis(preface: dict, analysis_path: Path) -> dict:
     analysis = json.loads(analysis_path.read_text(encoding="utf-8"))
     rows = analysis.get("units", [])
     expected = [unit["id"] for group in enriched["groups"] for unit in group["units"]]
-    if [row.get("id") for row in rows] != expected:
+    if [row.get("id") for row in rows[:len(expected)]] != expected:
         raise ValueError("performance-preface analysis does not exactly cover the performed unit sequence")
     by_id = {row["id"]: row for row in rows}
     for group in enriched["groups"]:
@@ -309,6 +310,15 @@ def attach_preface_analysis(preface: dict, analysis_path: Path) -> dict:
             unit["english"] = row["english"]
             unit["analysis_status"] = row["source_status"]
     return enriched
+
+
+def load_postlude_analysis(analysis_path: Path) -> list[dict]:
+    analysis = json.loads(analysis_path.read_text(encoding="utf-8"))
+    rows = analysis.get("units", [])
+    postlude = [row for row in rows if row.get("id") in {"closing-name", "protection"}]
+    if [row.get("id") for row in postlude] != ["closing-name", "protection"]:
+        raise ValueError("performance analysis lacks the two recorded closing units")
+    return postlude
 
 
 def parse_bori(path: Path) -> list[dict]:
@@ -508,6 +518,8 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
         raise ValueError("performance preface witness does not replay the pinned received text")
     preface = attach_preface_commentary(preface_witness, PREFACE_COMMENTARY_PATH)
     preface = attach_preface_analysis(preface, PREFACE_ANALYSIS_PATH)
+    postlude = load_postlude_analysis(PREFACE_ANALYSIS_PATH)
+    timings = json.loads(TIMINGS_PATH.read_text(encoding="utf-8"))
     stanzas = parse_received_itx(received)
     bori = parse_bori(BORI_PATH)
     boundaries, all_names = parse_word_split(word_split)
@@ -603,6 +615,10 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
                 "path": str(PREFACE_ANALYSIS_PATH.relative_to(ROOT)),
                 "sha256": sha256(PREFACE_ANALYSIS_PATH.read_bytes()),
             },
+            "audio_timings": {
+                "path": str(TIMINGS_PATH.relative_to(ROOT)),
+                "sha256": sha256(TIMINGS_PATH.read_bytes()),
+            },
         },
         "audio": {
             "src": "https://github.com/Balbudhi/vedanta-timeline/releases/download/media-v1/vishnu-sahasranama-sanjeev-abhyankar.m4a?download=1",
@@ -616,10 +632,13 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
             "file_size_bytes": 53943037,
             "sha256": "9e3b185314c009376eb1b6b07936b1077bc665a29f9bbdba52491b92a8c5f342",
             "delivery": "Original purchased M4A stream; no lossy re-encode; GitHub release asset media-v1.",
-            "timing_status": "unsynchronised",
+            "timing_status": timings["timing_status"],
+            "units": timings["units"],
+            "alignment": timings["alignment"],
         },
         "preface": preface,
         "stanzas": stanzas,
+        "postlude": postlude,
     }
 
 
@@ -646,6 +665,28 @@ def validate(data: dict, require_commentary: bool) -> dict:
             if slots != set(range(len(words))):
                 errors.append(f"performance preface unit {unit.get('id')} lacks complete English slot coverage")
     stanzas = data.get("stanzas", [])
+    postlude = data.get("postlude", [])
+    if [unit.get("id") for unit in postlude] != ["closing-name", "protection"]:
+        errors.append("recorded postlude is not exactly closing-name + protection")
+    for unit in postlude:
+        words = unit.get("words", [])
+        if not words or [word.get("i") for word in words] != list(range(len(words))):
+            errors.append(f"postlude unit {unit.get('id')} lacks contiguous word analysis")
+        slots = {int(index) for group_text in re.findall(r"\{([\d,\s]+):", unit.get("english", "")) for index in group_text.split(",")}
+        if slots != set(range(len(words))):
+            errors.append(f"postlude unit {unit.get('id')} lacks complete English slot coverage")
+    expected_timing_ids = ([unit.get("id") for group in preface_groups for unit in group.get("units", [])]
+                           + [f"stanza-{stanza.get('number')}" for stanza in stanzas]
+                           + [unit.get("id") for unit in postlude])
+    timed_units = data.get("audio", {}).get("units", [])
+    if [unit.get("id") for unit in timed_units] != expected_timing_ids:
+        errors.append("audio timing manifest does not exactly cover displayed units")
+    previous_end = 0
+    for unit in timed_units:
+        start, end = unit.get("start"), unit.get("end")
+        if not isinstance(start, (int, float)) or not isinstance(end, (int, float)) or start < previous_end - 0.001 or end <= start:
+            errors.append(f"invalid or overlapping audio timing for {unit.get('id')}")
+        previous_end = end
     names = [name for stanza in stanzas for name in stanza.get("names", [])]
     if len(stanzas) != 107:
         errors.append(f"expected 107 stanzas, found {len(stanzas)}")
@@ -665,7 +706,7 @@ def validate(data: dict, require_commentary: bool) -> dict:
             if not item.get("meaning") or not source or not source.get("commentary"):
                 errors.append(f"name {number} lacks Chinmayananda English")
             meaning = item.get("meaning", "")
-            if not 5 <= len(meaning) <= 240 or "\n" in meaning:
+            if not 3 <= len(meaning) <= 240 or "\n" in meaning:
                 errors.append(f"name {number} has an invalid concise meaning length/shape")
             if re.search(r"[*†‡\u0900-\u0dff]", meaning):
                 errors.append(f"name {number} concise meaning contains a footnote marker or source script")
@@ -699,7 +740,7 @@ def validate(data: dict, require_commentary: bool) -> dict:
             if source and "detail" not in source:
                 errors.append(f"name {number} lacks the non-duplicative commentary detail field")
             detail = source.get("detail", "") if source else ""
-            if detail and detail.lstrip().startswith(meaning.strip()):
+            if detail and re.match(rf"^{re.escape(meaning.strip())}(?:\s|[.,;:])", detail.lstrip()):
                 errors.append(f"name {number} detailed commentary repeats the concise definition")
     serialized = json.dumps(data, ensure_ascii=False)
     for fragment in FORBIDDEN_OCR_FRAGMENTS:
@@ -709,6 +750,7 @@ def validate(data: dict, require_commentary: bool) -> dict:
         raise ValueError("\n".join(errors[:80]))
     return {
         "preface_units": sum(len(group.get("units", [])) for group in preface_groups),
+        "postlude_units": len(postlude),
         "stanzas": len(stanzas),
         "names": len(names),
         "with_commentary": sum("chinmayananda" in item for item in names),

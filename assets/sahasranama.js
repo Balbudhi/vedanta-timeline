@@ -13,6 +13,9 @@ let DETAILS_URL = "";
 let DETAILS_PROMISE = null;
 let NAME_BY_NUMBER = new Map();
 let CHANT_ONLY = false;
+let TIMING_BY_ID = new Map();
+let ACTIVE_TIMING_ID = null;
+let AUDIO_ELEMENT = null;
 const CHANT_VIEW_KEY = "vedanta:vishnu-sahasranama:chant-only";
 
 function esc(value) {
@@ -35,14 +38,37 @@ function fmtTime(seconds) {
   return `${Math.floor(seconds / 60)}:${Math.floor(seconds % 60).toString().padStart(2, "0")}`;
 }
 
+function richProse(text) {
+  const link = value => LINKIFY ? LINKIFY(value) : esc(value);
+  const source = String(text || "");
+  const quote = /[“"]([^”"]+)[”"]/g;
+  let out = "", last = 0, match;
+  while ((match = quote.exec(source)) !== null) {
+    out += link(source.slice(last, match.index));
+    out += `<q>${link(match[1])}</q>`;
+    last = match.index + match[0].length;
+  }
+  return out + link(source.slice(last));
+}
+
 function paragraphs(text) {
-  return String(text || "").split(/\n\s*\n/).filter(Boolean).map(paragraph =>
-    `<p>${LINKIFY ? LINKIFY(paragraph) : esc(paragraph)}</p>`
-  ).join("");
+  return String(text || "").split(/\n\s*\n/).filter(Boolean).map(paragraph => {
+    const derivation = /\b(?:root|derived|derivation|dissolved|the term\b.{0,35}\bmeans?)\b/i.test(paragraph);
+    const source = !derivation && /[\u0900-\u097f]/.test(paragraph);
+    const kind = derivation ? " vsn-prose-derivation" : source ? " vsn-prose-source" : "";
+    const label = derivation ? "<span class=\"vsn-prose-label\">Derivation</span>" : source ? "<span class=\"vsn-prose-label\">Source</span>" : "";
+    return `<p class="vsn-prose${kind}">${label}${richProse(paragraph)}</p>`;
+  }).join("");
 }
 
 function detailFor(name) {
   return String(name?.chinmayananda?.detail || "").trim();
+}
+
+function displayDefinition(value) {
+  const text = String(value || "").trim();
+  if (/^["'“”‘’]/.test(text) && /["'“”‘’]$/.test(text)) return text.slice(1, -1).trim();
+  return text;
 }
 
 function pageLabel(name) {
@@ -91,7 +117,12 @@ function renderNames(stanza) {
 }
 
 function renderEnglish(stanza) {
-  return stanza.names.map(name => `<span class="we vsn-we" role="button" tabindex="0" data-name-number="${name.number}">${esc(name.meaning)}</span>`).join('<span class="vsn-sep" aria-hidden="true"> · </span>');
+  return `<div class="vsn-meanings">${stanza.names.map(name => {
+    const analysis = name.word_analysis || {};
+    const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
+    const meaning = displayDefinition(name.meaning).replace(/[.;:]\s*$/, "");
+    return `<span class="we vsn-we vsn-meaning-item" role="button" tabindex="0" data-name-number="${name.number}"><span class="vsn-meaning-name" lang="sa-Latn">${esc(citation)}</span><span class="vsn-meaning-dash" aria-hidden="true"> — </span><span class="vsn-meaning-text">${esc(meaning)}</span></span>`;
+  }).join("")}</div>`;
 }
 
 function renderDetails(stanza) {
@@ -106,16 +137,22 @@ function renderDetails(stanza) {
         <span class="vsn-detail-iast" lang="sa-Latn">${esc(citation)}</span>
         <span class="vsn-detail-deva" lang="sa-Deva">${esc(deva)}</span>
       </button>
-      <div class="vsn-detail-definition">${esc(name.meaning)}</div>
+      <div class="vsn-detail-definition">${esc(displayDefinition(name.meaning))}</div>
       ${detail ? `<div class="vsn-detail-copy">${paragraphs(detail)}</div>` : ""}
       <div class="vsn-detail-source">Swami Chinmayananda · <em>Thousand Ways to the Transcendental</em> · ${esc(pageLabel(name))}</div>
     </section>`;
   }).join("");
 }
 
+function timingPlayButton(id, label) {
+  if (!TIMING_BY_ID.has(id)) return "";
+  return `<button class="verse-play vsn-unit-play" type="button" data-timing-target="${esc(id)}" aria-label="Play from ${esc(label)}" title="Play from here"><span class="vp-icon" aria-hidden="true"></span></button>`;
+}
+
 function renderStanza(stanza) {
-  return `<article class="verse vsn-verse" id="vsn-stanza-${stanza.number}">
-    <header class="verse-head"><span class="verse-locus">${stanza.number}</span><span class="verse-speaker">Names ${range(stanza)}</span></header>
+  const timingId = `stanza-${stanza.number}`;
+  return `<article class="verse vsn-verse" id="vsn-stanza-${stanza.number}" data-timing-id="${timingId}">
+    <header class="verse-head"><span class="verse-locus">${stanza.number}</span><span class="verse-speaker">Names ${range(stanza)}</span>${timingPlayButton(timingId, `stanza ${stanza.number}`)}</header>
     <div class="verse-deva vsn-deva" lang="sa-Deva">${renderDevanagari(stanza)}</div>
     <div class="ix" data-stanza="${stanza.number}">
       <div class="ix-pada" lang="sa-Latn">${renderNames(stanza)}</div>
@@ -127,15 +164,17 @@ function renderStanza(stanza) {
   </article>`;
 }
 
-function renderPrefaceUnit(unit, groupId) {
+function renderPrefaceUnit(unit, groupId, groupTitle) {
   const compact = groupId === "assignment" ? " vsn-preface-unit--compact" : "";
   const interactive = unit.words?.length && unit.english && window.GitaReader?.interactiveBlock
     ? window.GitaReader.interactiveBlock(unit.words, unit.english, null, unit.devanagari, "vsn-preface-deva")
     : `<div class="verse-deva vsn-preface-deva" lang="sa-Deva">${esc(unit.devanagari).replace(/\n/g, "<br>")}</div>
        <div class="ix vsn-preface-ix"><div class="ix-pada vsn-preface-iast" lang="sa-Latn">${esc(unit.iast).replace(/\n/g, "<br>")}</div></div>`;
   const chinmayananda = unit.chinmayananda?.english;
-  return `<article class="verse vsn-preface-unit${compact}" id="vsn-${esc(unit.id)}">
-    <header class="verse-head"><span class="verse-locus">${esc(unit.label)}</span>${unit.speaker ? `<span class="verse-speaker">${esc(unit.speaker)}</span>` : ""}</header>
+  const label = unit.label || ({ "closing-name": "Closing", protection: "Protection" }[unit.id] || unit.id);
+  const playbackLabel = groupTitle ? `${groupTitle} ${label}` : label;
+  return `<article class="verse vsn-preface-unit${compact}" id="vsn-${esc(unit.id)}" data-timing-id="${esc(unit.id)}">
+    <header class="verse-head"><span class="verse-locus">${esc(label)}</span>${unit.speaker ? `<span class="verse-speaker">${esc(unit.speaker)}</span>` : ""}${timingPlayButton(unit.id, playbackLabel)}</header>
     ${interactive}
     ${chinmayananda ? `<div class="voice-block vsn-preface-unit-commentary" hidden>
       <div class="voice-who">Swami Chinmayananda <span class="voice-school">Advaita</span></div>
@@ -149,7 +188,7 @@ function renderPrefaceGroup(group) {
   const pages = commentary?.scan_pages || [];
   return `<section class="vsn-preface-group" data-preface-group="${esc(group.id)}">
     <h3 class="vsn-preface-group-title">${esc(group.title)}</h3>
-    ${group.units.map(unit => renderPrefaceUnit(unit, group.id)).join("")}
+    ${group.units.map(unit => renderPrefaceUnit(unit, group.id, group.title)).join("")}
     ${commentary ? `<aside class="vsn-preface-commentary" hidden>
       <div class="vsn-preface-commentary-title">${esc(commentary.title)}</div>
       <p>${esc(commentary.detail)}</p>
@@ -169,12 +208,21 @@ function renderPreface() {
   <header class="vsn-section-head vsn-names-head"><span>The thousand names</span><span>Names 1–1000</span></header>`;
 }
 
+function renderPostlude() {
+  const units = DATA.postlude || [];
+  if (!units.length) return "";
+  return `<section class="vsn-postlude" aria-labelledby="vsn-postlude-title">
+    <header class="vsn-section-head vsn-postlude-head"><span id="vsn-postlude-title">Conclusion</span><span>As performed in this recording</span></header>
+    ${units.map(unit => renderPrefaceUnit(unit, "postlude", "Conclusion")).join("")}
+  </section>`;
+}
+
 function renderDetailToggle() {
   return `<div class="voicebar vsn-viewbar">
     <span class="voicebar-label">View —</span>
     <div class="voicebar-chips" role="group" aria-label="Reading view">
+      <button class="vchip vsn-detail-chip" type="button" aria-pressed="false">Detailed reading</button>
       <button class="vchip vsn-chant-chip" type="button" aria-pressed="false"><span class="vsn-chant-icon" aria-hidden="true">अ</span>Chant only</button>
-      <button class="vchip vsn-detail-chip" type="button" aria-pressed="false"><span class="vsn-detail-icon" aria-hidden="true">+</span>Detailed explanations</button>
     </div>
   </div>`;
 }
@@ -242,7 +290,7 @@ async function openWordCard(number, anchor) {
     ? `<div class="wc-note">${esc(analysis.sandhi)}</div>`
     : "";
   const grammar = `<div class="wc-gram"><span class="wc-gram-main">${esc(analysis.morph || "")}</span><br><span class="wc-gram-stem">stem: <span lang="sa-Latn">${esc(analysis.stem || "")}</span></span><br><span class="wc-gram-affix">formation: ${esc(analysis.affix || "")}</span>${compound ? `<br>${compound}` : ""}</div>${sandhi}`;
-  const definition = `<div class="wc-mean vsn-card-definition"><span class="wc-note-label">Chinmayananda’s definition</span>${esc(name.meaning)}</div>`;
+  const definition = `<div class="wc-mean vsn-card-definition"><span class="wc-note-label">Chinmayananda’s definition</span>${esc(displayDefinition(name.meaning))}</div>`;
   const detail = detailFor(name);
   const explanationAction = detail
     ? `<div class="wc-gls vsn-card-detail-action"><button class="wc-gl vsn-show-detail" type="button">Show detailed explanation ↓</button></div>`
@@ -257,7 +305,7 @@ async function openWordCard(number, anchor) {
   WORD_CARD.querySelector(".vsn-wcard-close").addEventListener("click", closeWordCard);
   const showDetail = WORD_CARD.querySelector(".vsn-show-detail");
   if (showDetail) showDetail.addEventListener("click", async () => {
-    await setDetails(true);
+    await setChantView(false);
     const entry = document.getElementById(`vsn-detail-${name.number}`);
     closeWordCard();
     if (entry) entry.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -313,8 +361,6 @@ async function setDetails(open) {
   DETAILS_OPEN = Boolean(open);
   chip.classList.toggle("is-active", DETAILS_OPEN);
   chip.setAttribute("aria-pressed", String(DETAILS_OPEN));
-  const icon = chip.querySelector(".vsn-detail-icon");
-  if (icon) icon.textContent = DETAILS_OPEN ? "−" : "+";
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-details-open", DETAILS_OPEN);
   ROOT.querySelectorAll(".vsn-preface-commentary").forEach(block => { block.hidden = !DETAILS_OPEN; });
   ROOT.querySelectorAll(".vsn-preface-unit-commentary").forEach(block => { block.hidden = !DETAILS_OPEN; });
@@ -333,43 +379,63 @@ function readChantView() {
   catch (_) { return false; }
 }
 
-function setChantView(active, persist) {
+async function setChantView(active, persist) {
   CHANT_ONLY = Boolean(active);
-  if (CHANT_ONLY && DETAILS_OPEN) setDetails(false);
+  await setDetails(!CHANT_ONLY);
   const chip = ROOT.querySelector(".vsn-chant-chip");
   chip?.classList.toggle("is-active", CHANT_ONLY);
   chip?.setAttribute("aria-pressed", String(CHANT_ONLY));
-  const detailChip = ROOT.querySelector(".vsn-detail-chip");
-  if (detailChip) detailChip.disabled = CHANT_ONLY;
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-chant-only", CHANT_ONLY);
   closeWordCard();
   window.GitaReader?.clearWords?.();
   if (persist !== false) {
     try { localStorage.setItem(CHANT_VIEW_KEY, String(CHANT_ONLY)); } catch (_) {}
   }
+  if (CHANT_ONLY && ACTIVE_TIMING_ID) {
+    ROOT.querySelector(`[data-timing-id="${CSS.escape(ACTIVE_TIMING_ID)}"]`)?.scrollIntoView({ behavior: "auto", block: "center" });
+  }
 }
 
 function wireDetails() {
-  const chip = ROOT.querySelector(".vsn-detail-chip");
-  chip.addEventListener("click", async () => {
-    await setDetails(!DETAILS_OPEN);
-    closeWordCard();
-    window.GitaReader?.clearWords?.();
-  });
-  ROOT.querySelector(".vsn-chant-chip").addEventListener("click", () => setChantView(!CHANT_ONLY));
+  ROOT.querySelector(".vsn-detail-chip").addEventListener("click", () => setChantView(false));
+  ROOT.querySelector(".vsn-chant-chip").addEventListener("click", () => setChantView(true));
   ROOT.addEventListener("click", event => {
     if (event.target.closest(".vsn-thinker-link") && ON_THINKER) ON_THINKER("chinmayananda");
   });
 }
 
+function timingAt(seconds) {
+  for (const unit of (DATA.audio.units || [])) {
+    if (seconds >= unit.start && seconds < unit.end) return unit.id;
+  }
+  return null;
+}
+
+function setActiveTiming(id, follow) {
+  if (id === ACTIVE_TIMING_ID) return;
+  if (ACTIVE_TIMING_ID) {
+    const previous = ROOT.querySelector(`[data-timing-id="${CSS.escape(ACTIVE_TIMING_ID)}"]`);
+    previous?.classList.remove("is-reciting");
+    previous?.removeAttribute("aria-current");
+  }
+  ACTIVE_TIMING_ID = id;
+  if (!id) return;
+  const active = ROOT.querySelector(`[data-timing-id="${CSS.escape(id)}"]`);
+  active?.classList.add("is-reciting");
+  active?.setAttribute("aria-current", "true");
+  if (follow && CHANT_ONLY) active?.scrollIntoView({ behavior: "auto", block: "center" });
+}
+
 function wireAudio() {
   const bar = ROOT.querySelector(".vsn-recite-bar");
   const audio = bar.querySelector("audio");
+  AUDIO_ELEMENT = audio;
   const play = bar.querySelector(".vsn-play");
   const progress = bar.querySelector(".vsn-progress");
   const fill = bar.querySelector(".rb-bar");
   const time = bar.querySelector(".rb-time");
   let dragging = false;
+  let syncFrame = 0;
   const total = () => audio.duration || DATA.audio.duration_seconds || 0;
   const paint = () => {
     const percent = total() ? (audio.currentTime / total()) * 100 : 0;
@@ -377,27 +443,71 @@ function wireAudio() {
     progress.setAttribute("aria-valuenow", String(Math.round(percent)));
     time.textContent = `${fmtTime(audio.currentTime)} / ${fmtTime(total())}`;
   };
+  const sync = follow => setActiveTiming(timingAt(audio.currentTime), follow);
+  const tick = () => {
+    if (!dragging) paint();
+    sync(true);
+    if (!audio.paused && !audio.ended) syncFrame = requestAnimationFrame(tick);
+    else syncFrame = 0;
+  };
+  const startClock = () => {
+    sync(true);
+    if (!syncFrame) syncFrame = requestAnimationFrame(tick);
+  };
+  const seekTo = start => {
+    const run = () => {
+      audio.currentTime = start;
+      sync(false);
+      paint();
+      audio.play().catch(() => {});
+    };
+    if (audio.readyState >= HTMLMediaElement.HAVE_METADATA) run();
+    else audio.addEventListener("loadedmetadata", run, { once: true });
+  };
+
   play.addEventListener("click", () => audio.paused ? audio.play().catch(() => {}) : audio.pause());
-  bar.querySelector(".vsn-back").addEventListener("click", () => { audio.currentTime = Math.max(0, audio.currentTime - 15); paint(); });
-  bar.querySelector(".vsn-forward").addEventListener("click", () => { audio.currentTime = Math.min(total(), audio.currentTime + 15); paint(); });
-  audio.addEventListener("play", () => { play.classList.add("is-playing"); bar.classList.add("is-playing"); play.setAttribute("aria-label", "Pause"); });
-  audio.addEventListener("pause", () => { play.classList.remove("is-playing"); bar.classList.remove("is-playing"); play.setAttribute("aria-label", "Play"); });
-  audio.addEventListener("timeupdate", () => { if (!dragging) paint(); });
+  bar.querySelector(".vsn-back").addEventListener("click", () => { audio.currentTime = Math.max(0, audio.currentTime - 15); sync(false); paint(); });
+  bar.querySelector(".vsn-forward").addEventListener("click", () => { audio.currentTime = Math.min(total(), audio.currentTime + 15); sync(false); paint(); });
+  audio.addEventListener("play", () => {
+    play.classList.add("is-playing"); bar.classList.add("is-playing"); play.setAttribute("aria-label", "Pause"); startClock();
+  });
+  audio.addEventListener("pause", () => {
+    play.classList.remove("is-playing"); bar.classList.remove("is-playing"); play.setAttribute("aria-label", "Play");
+    if (syncFrame) cancelAnimationFrame(syncFrame); syncFrame = 0;
+  });
+  audio.addEventListener("timeupdate", () => { if (!dragging) paint(); sync(false); });
+  audio.addEventListener("seeking", () => sync(false));
   audio.addEventListener("loadedmetadata", paint);
+  audio.addEventListener("ended", () => setActiveTiming(null, false));
+
   const seek = event => {
     const rect = progress.getBoundingClientRect();
     const fraction = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
     audio.currentTime = fraction * total();
+    sync(false);
     paint();
   };
   progress.addEventListener("pointerdown", event => { dragging = true; progress.setPointerCapture(event.pointerId); seek(event); });
   progress.addEventListener("pointermove", event => { if (dragging) seek(event); });
   progress.addEventListener("pointerup", event => { dragging = false; try { progress.releasePointerCapture(event.pointerId); } catch (_) {} });
   progress.addEventListener("keydown", event => {
-    if (event.key === "ArrowRight") { audio.currentTime = Math.min(total(), audio.currentTime + 5); paint(); event.preventDefault(); }
-    if (event.key === "ArrowLeft") { audio.currentTime = Math.max(0, audio.currentTime - 5); paint(); event.preventDefault(); }
+    if (event.key === "ArrowRight") { audio.currentTime = Math.min(total(), audio.currentTime + 5); sync(false); paint(); event.preventDefault(); }
+    if (event.key === "ArrowLeft") { audio.currentTime = Math.max(0, audio.currentTime - 5); sync(false); paint(); event.preventDefault(); }
   });
+
+  if (ROOT._vsnUnitPlayHandler) ROOT.removeEventListener("click", ROOT._vsnUnitPlayHandler);
+  ROOT._vsnUnitPlayHandler = event => {
+    const button = event.target.closest(".vsn-unit-play");
+    if (!button) return;
+    event.stopPropagation();
+    const timing = TIMING_BY_ID.get(button.dataset.timingTarget);
+    if (!timing) return;
+    if (!audio.paused && ACTIVE_TIMING_ID === timing.id) audio.pause();
+    else seekTo(timing.start);
+  };
+  ROOT.addEventListener("click", ROOT._vsnUnitPlayHandler);
   paint();
+  sync(false);
 }
 
 async function render(root, options) {
@@ -409,6 +519,9 @@ async function render(root, options) {
   ON_THINKER = typeof options.onThinker === "function" ? options.onThinker : null;
   DETAILS_OPEN = false;
   CHANT_ONLY = readChantView();
+  if (AUDIO_ELEMENT) AUDIO_ELEMENT.pause();
+  AUDIO_ELEMENT = null;
+  ACTIVE_TIMING_ID = null;
   closeWordCard();
   root.innerHTML = '<p style="color:var(--muted);font-style:italic">Opening the thousand names…</p>';
   const response = await fetch(options.dataUrl || "gita/vishnu-sahasranama/reader.json");
@@ -418,8 +531,9 @@ async function render(root, options) {
   const parsedAt = performance.now();
   DETAILS_URL = options.detailsUrl || "";
   DETAILS_PROMISE = null;
+  TIMING_BY_ID = new Map((DATA.audio.units || []).map(unit => [unit.id, unit]));
   NAME_BY_NUMBER = new Map(DATA.stanzas.flatMap(stanza => stanza.names).map(name => [Number(name.number), name]));
-  root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderDetailToggle()}${renderPreface()}${DATA.stanzas.map(renderStanza).join("")}${renderAudio()}</div>`;
+  root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderDetailToggle()}${renderPreface()}${DATA.stanzas.map(renderStanza).join("")}${renderPostlude()}${renderAudio()}</div>`;
   const renderedAt = performance.now();
   const reader = root.querySelector(".vsn-reader");
   if (reader) {
@@ -436,8 +550,8 @@ async function render(root, options) {
     glossaryResolve: options.glossaryResolve,
   });
   wireDetails();
-  setChantView(CHANT_ONLY, false);
   wireAudio();
+  await setChantView(CHANT_ONLY, false);
 }
 
 window.SahasranamaReader = { render };

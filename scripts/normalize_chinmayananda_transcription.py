@@ -125,6 +125,17 @@ def replace_token(text: str, source: str, target: str) -> str:
     return re.sub(rf"(?<![A-Za-z]){re.escape(source)}(?![A-Za-z])", target, text)
 
 
+def normalize_prose(text: str, *, concise: bool = False) -> str:
+    text = re.sub(r"[ \t]+([,.;:!?])", r"\1", text)
+    text = re.sub(r"\.{3,}", "…", text)
+    text = re.sub(r"\b(can also mean|it can also mean|meaning)\.\s+(?=[A-Z])", r"\1: ", text, flags=re.I)
+    text = re.sub(r"(?<=[a-zāīūṛṝḷṅñṭḍṇśṣṃḥ])-(?=[A-Z])", " — ", text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    if concise:
+        text = re.sub(r"[.;:]\s*$", "", text.strip())
+    return text
+
+
 def normalize(data: dict, analysis: dict) -> dict:
     rows = data["names"]
     analyses = analysis["names"]
@@ -157,7 +168,7 @@ def normalize(data: dict, analysis: dict) -> dict:
             value = replace_token(value, row["source_heading_roman"], row["heading_iast"])
             for old, new in replacements:
                 value = replace_token(value, old, new)
-            row[field] = value
+            row[field] = normalize_prose(value, concise=field == "short_meaning")
 
         if row["number"] in SCAN_PAGE_OVERRIDES:
             old_pages = row["scan_pages"]
@@ -193,6 +204,10 @@ def validate(data: dict, analysis: dict) -> dict:
                     errors.append(f"name {n} {field} retains unnormalized Sanskrit romanization: {source}")
             if "we are stuck in dwaita" in public_text.lower():
                 errors.append(f"name {n} imports scan-unsupported text from the secondary OCR")
+            if re.search(r"[ \t]+[,.;:!?]|\.{3,}|\b(?:can also mean|it can also mean|meaning)\.\s+(?=[A-Z])", public_text, re.I):
+                errors.append(f"name {n} {field} retains mechanical punctuation/OCR spacing")
+            if field == "short_meaning" and re.search(r"[.;:]\s*$", public_text):
+                errors.append(f"name {n} concise definition retains terminal separator punctuation")
         if n in SCAN_PAGE_OVERRIDES and row.get("scan_pages") != SCAN_PAGE_OVERRIDES[n]:
             errors.append(f"name {n} retains the wrong scan locus")
     if errors:

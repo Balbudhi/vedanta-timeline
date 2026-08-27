@@ -400,6 +400,36 @@ UNIT_SPECS.update({
     },
 })
 
+POSTLUDE_WITNESS = {
+    "closing-name": {
+        "id": "closing-name",
+        "devanagari": "सर्वप्रहरणायुधः । ॐ नम इति ॥",
+        "iast": "sarvapraharaṇāyudhaḥ | oṃ nama iti ||",
+    },
+    "protection": {
+        "id": "protection",
+        "devanagari": "वनमाली गदी शार्ङ्गी शङ्खी चक्री च नन्दकी ।\nश्रीमान् नारायणो विष्णुर्वासुदेवोऽभिरक्षतु ॥",
+        "iast": "vanamālī gadī śārṅgī śaṅkhī cakrī ca nandakī |\nśrīmān nārāyaṇo viṣṇurvāsudevo'bhirakṣatu ||",
+    },
+}
+
+UNIT_SPECS.update({
+    "closing-name": {
+        "words": W("sarva-praharaṇa-āyudhaḥ=whose weapons are every implement@nom.sg.m; oṃ=Oṃ@ind; namaḥ=obeisance@ind; iti=thus@ind"),
+        "english": "{0:The one whose weapons are every implement}. {1:Oṃ}; {2:obeisance}, {3:thus}.",
+    },
+    "protection": {
+        "words": W("""
+          vana-mālī=wearer of the forest garland@nom.sg.m; gadī=mace-bearer@nom.sg.m;
+          śārṅgī=bearer of Śārṅga@nom.sg.m; śaṅkhī=conch-bearer@nom.sg.m; cakrī=discus-bearer@nom.sg.m;
+          ca=and@ind; nandakī=bearer of Nandaka@nom.sg.m; śrīmān=possessing splendour@nom.sg.m;
+          nārāyaṇaḥ=Nārāyaṇa@nom.sg.m; viṣṇuḥ=Viṣṇu@nom.sg.m; vāsudevaḥ=Vāsudeva@nom.sg.m;
+          abhirakṣatu=may he protect@verb:abhirakṣatu
+        """),
+        "english": "May {7:the splendid} {8:Nārāyaṇa}, {9:Viṣṇu}, {10:Vāsudeva}—{0:wearer of the forest garland}, {1:mace-bearer}, {2:bearer of Śārṅga}, {3:conch-bearer}, {4:discus-bearer}, {5:and} {6:bearer of Nandaka}—{11:protect us}.",
+    },
+})
+
 
 CASE_LABEL = {
     "nom": "nominative", "acc": "accusative", "ins": "instrumental",
@@ -473,6 +503,8 @@ STEM_OVERRIDES = {
     "vāste": "vāsta",
     "mānavāḥ": "mānava", "nandakī": "nandakin", "āśāḥ": "āśā",
     "tejaḥ": "tejas", "tapaḥ": "tapas", "chandaḥ": "chandas",
+    "sarva-praharaṇa-āyudhaḥ": "sarva-praharaṇa-āyudha", "vana-mālī": "vana-mālin",
+    "gadī": "gadin", "śārṅgī": "śārṅgin", "śaṅkhī": "śaṅkhin", "śrīmān": "śrīmat",
 }
 
 
@@ -494,6 +526,7 @@ VERBS = {
     "punīyāt": ("√pū (kryādi, 9P)", "to purify", "vidhiliṅ, active, third-person singular", "tip (prathama-puruṣa ekavacana)"),
     "raṃramyate": ("√ram (bhvādi, 1Ā), intensive", "to sport, delight", "laṭ, intensive active, third-person singular, ātmanepada", "yaṅ + ta (prathama-puruṣa ekavacana)"),
     "āśraye": ("ā-√śri (bhvādi, 1Ā)", "to resort to, take refuge in", "laṭ, active, first-person singular, ātmanepada", "iṭ (uttama-puruṣa ekavacana)"),
+    "abhirakṣatu": ("abhi-√rakṣ (bhvādi, 1P)", "to protect", "loṭ, active, third-person singular", "tip (prathama-puruṣa ekavacana)"),
 }
 
 VERB_STEMS = {
@@ -502,6 +535,7 @@ VERB_STEMS = {
     "bhavanti": "bhū", "yānti": "yā", "śṛṇu": "śru", "vakṣyāmi": "vac",
     "viniyojyate": "viniyoj", "namāmi": "nam", "punīyāt": "pū", "raṃramyate": "ram (intensive)",
     "āśraye": "āśri",
+    "abhirakṣatu": "abhirakṣ",
 }
 
 PARTICIPLES = {
@@ -623,6 +657,29 @@ WORD_OVERRIDES = {
             {"form": "su", "gloss": "nominative singular masculine"},
         ],
         "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+    },
+    "vana-mālī": {
+        "parts": [
+            {"form": "vana", "gloss": "forest"}, {"form": "mālā", "gloss": "garland"},
+            {"form": "in", "gloss": "possessing"}, {"form": "su", "gloss": "nominative singular masculine"},
+        ],
+        "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+    },
+    "gadī": {
+        "parts": [{"form": "gadā", "gloss": "mace"}, {"form": "in", "gloss": "possessing"}, {"form": "su", "gloss": "nominative singular masculine"}],
+        "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+    },
+    "śārṅgī": {
+        "parts": [{"form": "śārṅga", "gloss": "the bow Śārṅga"}, {"form": "in", "gloss": "possessing"}, {"form": "su", "gloss": "nominative singular masculine"}],
+        "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+    },
+    "śaṅkhī": {
+        "parts": [{"form": "śaṅkha", "gloss": "conch"}, {"form": "in", "gloss": "possessing"}, {"form": "su", "gloss": "nominative singular masculine"}],
+        "affix": "in (taddhita/possessive) + su (prathamā ekavacana)",
+    },
+    "śrīmān": {
+        "parts": [{"form": "śrī", "gloss": "splendour, prosperity"}, {"form": "matup", "gloss": "possessing"}, {"form": "su", "gloss": "nominative singular masculine"}],
+        "affix": "matup (taddhita) + su (prathamā ekavacana)",
     },
 }
 
@@ -751,6 +808,8 @@ COMPOUND_SPECS = {
     "catur-bāhum": ("bahuvrīhi", "catvāro bāhavaḥ yasya saḥ"),
     "śrīvatsa-aṅkita-vakṣasam": ("bahuvrīhi", "śrīvatsena aṅkitaṃ vakṣaḥ yasya saḥ"),
     "rukmiṇī-satyabhāmābhyām": ("dvandva", "rukmiṇī ca satyabhāmā ca"),
+    "sarva-praharaṇa-āyudhaḥ": ("bahuvrīhi", "sarvāṇi praharaṇāni āyudhāni yasya saḥ"),
+    "vana-mālī": ("ṣaṣṭhī-tatpuruṣa + possessive", "vanasya mālā yasya saḥ"),
 }
 
 MEMBER_GLOSSES = {
@@ -791,7 +850,8 @@ MEMBER_GLOSSES = {
     "ātmaja": "son", "āyata": "long; extended", "śayana": "lying; bed", "śaśi": "moon",
     "śrīmat": "possessing splendour", "śrīvatsa": "Śrīvatsa mark", "śubha": "auspicious",
     "śuci": "pure", "śuka": "Śuka", "śukla": "white", "śyāma": "dark",
-    "śānta": "peaceful", "śārṅga": "the Śārṅga bow",
+    "śānta": "peaceful", "śārṅga": "the Śārṅga bow", "praharaṇa": "implement of attack; weapon",
+    "āyudha": "weapon", "vana": "forest", "mālin": "garland-bearer",
 }
 
 
@@ -976,6 +1036,7 @@ def align_surfaces(source_iast: str, words: list[dict]) -> None:
 def build(kosha=None) -> dict:
     witness = json.loads(WITNESS_PATH.read_text(encoding="utf-8"))
     witness_units = {unit["id"]: unit for group in witness["groups"] for unit in group["units"]}
+    witness_units.update(POSTLUDE_WITNESS)
     units = []
     for unit_id, spec in UNIT_SPECS.items():
         source = witness_units[unit_id]
@@ -1036,10 +1097,10 @@ def main() -> None:
 def validate(data: dict) -> dict:
     units = data.get("units", [])
     witness = json.loads(WITNESS_PATH.read_text(encoding="utf-8"))
-    expected_ids = [unit["id"] for group in witness["groups"] for unit in group["units"]]
+    expected_ids = [unit["id"] for group in witness["groups"] for unit in group["units"]] + list(POSTLUDE_WITNESS)
     errors = []
     if [unit.get("id") for unit in units] != expected_ids:
-        errors.append("analysis units do not exactly match the 45-unit performed witness order")
+        errors.append("analysis units do not exactly match the 47-unit performed witness order")
     compound_count = root_count = 0
     for unit in units:
         uid = unit.get("id")

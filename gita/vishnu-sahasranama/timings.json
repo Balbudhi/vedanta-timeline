@@ -1,0 +1,941 @@
+{
+  "schema_version": 1,
+  "timing_status": "start-only-reviewed",
+  "audio": {
+    "sha256": "9e3b185314c009376eb1b6b07936b1077bc665a29f9bbdba52491b92a8c5f342",
+    "duration_seconds": 1636.031565
+  },
+  "alignment": {
+    "method": "monotonic alignment of verified units to existing official-video word timestamps; no new transcription",
+    "official_video": "https://www.youtube.com/watch?v=s9S6umIoH6I",
+    "captions_sha256": "5a8fffc8bdb61a7e6da8bbaa8cc5964c7437091920e4ebf1acd44d39f8306beb",
+    "global_name_alignment_ratio": 0.795049,
+    "reviewed_preface_boundaries": 45
+  },
+  "units": [
+    {
+      "id": "invocation-1",
+      "kind": "preface",
+      "start": 7.72,
+      "end": 17.359
+    },
+    {
+      "id": "invocation-3",
+      "kind": "preface",
+      "start": 17.359,
+      "end": 27.439
+    },
+    {
+      "id": "invocation-4",
+      "kind": "preface",
+      "start": 27.439,
+      "end": 37.96
+    },
+    {
+      "id": "invocation-5",
+      "kind": "preface",
+      "start": 37.96,
+      "end": 47.76
+    },
+    {
+      "id": "invocation-6",
+      "kind": "preface",
+      "start": 47.76,
+      "end": 57.92
+    },
+    {
+      "id": "invocation-mantra",
+      "kind": "preface",
+      "start": 57.92,
+      "end": 61.48
+    },
+    {
+      "id": "dialogue-7",
+      "kind": "preface",
+      "start": 61.48,
+      "end": 80.56
+    },
+    {
+      "id": "dialogue-8",
+      "kind": "preface",
+      "start": 80.56,
+      "end": 98.24
+    },
+    {
+      "id": "dialogue-9",
+      "kind": "preface",
+      "start": 98.24,
+      "end": 109.479
+    },
+    {
+      "id": "dialogue-10",
+      "kind": "preface",
+      "start": 109.479,
+      "end": 130.12
+    },
+    {
+      "id": "dialogue-11",
+      "kind": "preface",
+      "start": 130.12,
+      "end": 144.04
+    },
+    {
+      "id": "dialogue-12",
+      "kind": "preface",
+      "start": 144.04,
+      "end": 153.76
+    },
+    {
+      "id": "dialogue-13",
+      "kind": "preface",
+      "start": 153.76,
+      "end": 164.8
+    },
+    {
+      "id": "dialogue-14",
+      "kind": "preface",
+      "start": 164.8,
+      "end": 175.64
+    },
+    {
+      "id": "dialogue-15",
+      "kind": "preface",
+      "start": 175.64,
+      "end": 184.44
+    },
+    {
+      "id": "dialogue-16",
+      "kind": "preface",
+      "start": 184.44,
+      "end": 194.2
+    },
+    {
+      "id": "dialogue-17",
+      "kind": "preface",
+      "start": 194.2,
+      "end": 204.319
+    },
+    {
+      "id": "dialogue-18",
+      "kind": "preface",
+      "start": 204.319,
+      "end": 214.4
+    },
+    {
+      "id": "dialogue-19",
+      "kind": "preface",
+      "start": 214.4,
+      "end": 224.64
+    },
+    {
+      "id": "dialogue-20",
+      "kind": "preface",
+      "start": 224.64,
+      "end": 234.64
+    },
+    {
+      "id": "dialogue-21",
+      "kind": "preface",
+      "start": 234.64,
+      "end": 244.799
+    },
+    {
+      "id": "dialogue-22",
+      "kind": "preface",
+      "start": 244.799,
+      "end": 258.079
+    },
+    {
+      "id": "assignment-1",
+      "kind": "preface",
+      "start": 258.079,
+      "end": 263.68
+    },
+    {
+      "id": "assignment-2",
+      "kind": "preface",
+      "start": 263.68,
+      "end": 269.8
+    },
+    {
+      "id": "assignment-3",
+      "kind": "preface",
+      "start": 269.8,
+      "end": 270.8
+    },
+    {
+      "id": "assignment-4",
+      "kind": "preface",
+      "start": 270.8,
+      "end": 278.622
+    },
+    {
+      "id": "assignment-5",
+      "kind": "preface",
+      "start": 278.622,
+      "end": 281.44
+    },
+    {
+      "id": "assignment-6",
+      "kind": "preface",
+      "start": 281.44,
+      "end": 285.44
+    },
+    {
+      "id": "assignment-7",
+      "kind": "preface",
+      "start": 285.44,
+      "end": 290.6
+    },
+    {
+      "id": "assignment-8",
+      "kind": "preface",
+      "start": 290.6,
+      "end": 294.46
+    },
+    {
+      "id": "assignment-9",
+      "kind": "preface",
+      "start": 294.46,
+      "end": 298.32
+    },
+    {
+      "id": "assignment-10",
+      "kind": "preface",
+      "start": 298.32,
+      "end": 303.56
+    },
+    {
+      "id": "assignment-11",
+      "kind": "preface",
+      "start": 303.56,
+      "end": 307.28
+    },
+    {
+      "id": "assignment-12",
+      "kind": "preface",
+      "start": 307.28,
+      "end": 311.639
+    },
+    {
+      "id": "assignment-13",
+      "kind": "preface",
+      "start": 311.639,
+      "end": 315.44
+    },
+    {
+      "id": "assignment-14",
+      "kind": "preface",
+      "start": 315.44,
+      "end": 319.039
+    },
+    {
+      "id": "assignment-15",
+      "kind": "preface",
+      "start": 319.039,
+      "end": 327.0
+    },
+    {
+      "id": "meditation-1",
+      "kind": "preface",
+      "start": 327.0,
+      "end": 361.8
+    },
+    {
+      "id": "meditation-2",
+      "kind": "preface",
+      "start": 361.8,
+      "end": 388.479
+    },
+    {
+      "id": "meditation-mantra",
+      "kind": "preface",
+      "start": 388.479,
+      "end": 397.0
+    },
+    {
+      "id": "meditation-3",
+      "kind": "preface",
+      "start": 397.0,
+      "end": 421.72
+    },
+    {
+      "id": "meditation-4",
+      "kind": "preface",
+      "start": 421.72,
+      "end": 436.44
+    },
+    {
+      "id": "meditation-5",
+      "kind": "preface",
+      "start": 436.44,
+      "end": 446.759
+    },
+    {
+      "id": "meditation-6",
+      "kind": "preface",
+      "start": 446.759,
+      "end": 466.759
+    },
+    {
+      "id": "meditation-7",
+      "kind": "preface",
+      "start": 466.759,
+      "end": 498.08
+    },
+    {
+      "id": "stanza-1",
+      "kind": "stanza",
+      "start": 498.08,
+      "end": 507.84
+    },
+    {
+      "id": "stanza-2",
+      "kind": "stanza",
+      "start": 507.84,
+      "end": 516.097
+    },
+    {
+      "id": "stanza-3",
+      "kind": "stanza",
+      "start": 516.097,
+      "end": 530.447
+    },
+    {
+      "id": "stanza-4",
+      "kind": "stanza",
+      "start": 530.447,
+      "end": 537.899
+    },
+    {
+      "id": "stanza-5",
+      "kind": "stanza",
+      "start": 537.899,
+      "end": 547.893
+    },
+    {
+      "id": "stanza-6",
+      "kind": "stanza",
+      "start": 547.893,
+      "end": 554.72
+    },
+    {
+      "id": "stanza-7",
+      "kind": "stanza",
+      "start": 554.72,
+      "end": 568.12
+    },
+    {
+      "id": "stanza-8",
+      "kind": "stanza",
+      "start": 568.12,
+      "end": 578.57
+    },
+    {
+      "id": "stanza-9",
+      "kind": "stanza",
+      "start": 578.57,
+      "end": 587.959
+    },
+    {
+      "id": "stanza-10",
+      "kind": "stanza",
+      "start": 587.959,
+      "end": 598.412
+    },
+    {
+      "id": "stanza-11",
+      "kind": "stanza",
+      "start": 598.412,
+      "end": 608.392
+    },
+    {
+      "id": "stanza-12",
+      "kind": "stanza",
+      "start": 608.392,
+      "end": 619.926
+    },
+    {
+      "id": "stanza-13",
+      "kind": "stanza",
+      "start": 619.926,
+      "end": 629.32
+    },
+    {
+      "id": "stanza-14",
+      "kind": "stanza",
+      "start": 629.32,
+      "end": 638.829
+    },
+    {
+      "id": "stanza-15",
+      "kind": "stanza",
+      "start": 638.829,
+      "end": 649.64
+    },
+    {
+      "id": "stanza-16",
+      "kind": "stanza",
+      "start": 649.64,
+      "end": 659.68
+    },
+    {
+      "id": "stanza-17",
+      "kind": "stanza",
+      "start": 659.68,
+      "end": 670.147
+    },
+    {
+      "id": "stanza-18",
+      "kind": "stanza",
+      "start": 670.147,
+      "end": 679.447
+    },
+    {
+      "id": "stanza-19",
+      "kind": "stanza",
+      "start": 679.447,
+      "end": 690.12
+    },
+    {
+      "id": "stanza-20",
+      "kind": "stanza",
+      "start": 690.12,
+      "end": 699.879
+    },
+    {
+      "id": "stanza-21",
+      "kind": "stanza",
+      "start": 699.879,
+      "end": 709.548
+    },
+    {
+      "id": "stanza-22",
+      "kind": "stanza",
+      "start": 709.548,
+      "end": 720.24
+    },
+    {
+      "id": "stanza-23",
+      "kind": "stanza",
+      "start": 720.24,
+      "end": 731.079
+    },
+    {
+      "id": "stanza-24",
+      "kind": "stanza",
+      "start": 731.079,
+      "end": 740.68
+    },
+    {
+      "id": "stanza-25",
+      "kind": "stanza",
+      "start": 740.68,
+      "end": 749.794
+    },
+    {
+      "id": "stanza-26",
+      "kind": "stanza",
+      "start": 749.794,
+      "end": 760.479
+    },
+    {
+      "id": "stanza-27",
+      "kind": "stanza",
+      "start": 760.479,
+      "end": 769.68
+    },
+    {
+      "id": "stanza-28",
+      "kind": "stanza",
+      "start": 769.68,
+      "end": 780.38
+    },
+    {
+      "id": "stanza-29",
+      "kind": "stanza",
+      "start": 780.38,
+      "end": 789.76
+    },
+    {
+      "id": "stanza-30",
+      "kind": "stanza",
+      "start": 789.76,
+      "end": 803.88
+    },
+    {
+      "id": "stanza-31",
+      "kind": "stanza",
+      "start": 803.88,
+      "end": 811.069
+    },
+    {
+      "id": "stanza-32",
+      "kind": "stanza",
+      "start": 811.069,
+      "end": 820.134
+    },
+    {
+      "id": "stanza-33",
+      "kind": "stanza",
+      "start": 820.134,
+      "end": 831.519
+    },
+    {
+      "id": "stanza-34",
+      "kind": "stanza",
+      "start": 831.519,
+      "end": 841.6
+    },
+    {
+      "id": "stanza-35",
+      "kind": "stanza",
+      "start": 841.6,
+      "end": 851.16
+    },
+    {
+      "id": "stanza-36",
+      "kind": "stanza",
+      "start": 851.16,
+      "end": 861.407
+    },
+    {
+      "id": "stanza-37",
+      "kind": "stanza",
+      "start": 861.407,
+      "end": 871.626
+    },
+    {
+      "id": "stanza-38",
+      "kind": "stanza",
+      "start": 871.626,
+      "end": 882.784
+    },
+    {
+      "id": "stanza-39",
+      "kind": "stanza",
+      "start": 882.784,
+      "end": 892.76
+    },
+    {
+      "id": "stanza-40",
+      "kind": "stanza",
+      "start": 892.76,
+      "end": 902.839
+    },
+    {
+      "id": "stanza-41",
+      "kind": "stanza",
+      "start": 902.839,
+      "end": 912.36
+    },
+    {
+      "id": "stanza-42",
+      "kind": "stanza",
+      "start": 912.36,
+      "end": 921.933
+    },
+    {
+      "id": "stanza-43",
+      "kind": "stanza",
+      "start": 921.933,
+      "end": 931.942
+    },
+    {
+      "id": "stanza-44",
+      "kind": "stanza",
+      "start": 931.942,
+      "end": 942.615
+    },
+    {
+      "id": "stanza-45",
+      "kind": "stanza",
+      "start": 942.615,
+      "end": 952.542
+    },
+    {
+      "id": "stanza-46",
+      "kind": "stanza",
+      "start": 952.542,
+      "end": 963.12
+    },
+    {
+      "id": "stanza-47",
+      "kind": "stanza",
+      "start": 963.12,
+      "end": 970.7
+    },
+    {
+      "id": "stanza-48",
+      "kind": "stanza",
+      "start": 970.7,
+      "end": 983.04
+    },
+    {
+      "id": "stanza-49",
+      "kind": "stanza",
+      "start": 983.04,
+      "end": 992.273
+    },
+    {
+      "id": "stanza-50",
+      "kind": "stanza",
+      "start": 992.273,
+      "end": 1004.759
+    },
+    {
+      "id": "stanza-51",
+      "kind": "stanza",
+      "start": 1004.759,
+      "end": 1016.04
+    },
+    {
+      "id": "stanza-52",
+      "kind": "stanza",
+      "start": 1016.04,
+      "end": 1024.919
+    },
+    {
+      "id": "stanza-53",
+      "kind": "stanza",
+      "start": 1024.919,
+      "end": 1035.54
+    },
+    {
+      "id": "stanza-54",
+      "kind": "stanza",
+      "start": 1035.54,
+      "end": 1044.199
+    },
+    {
+      "id": "stanza-55",
+      "kind": "stanza",
+      "start": 1044.199,
+      "end": 1054.039
+    },
+    {
+      "id": "stanza-56",
+      "kind": "stanza",
+      "start": 1054.039,
+      "end": 1064.097
+    },
+    {
+      "id": "stanza-57",
+      "kind": "stanza",
+      "start": 1064.097,
+      "end": 1074.28
+    },
+    {
+      "id": "stanza-58",
+      "kind": "stanza",
+      "start": 1074.28,
+      "end": 1084.135
+    },
+    {
+      "id": "stanza-59",
+      "kind": "stanza",
+      "start": 1084.135,
+      "end": 1103.76
+    },
+    {
+      "id": "stanza-60",
+      "kind": "stanza",
+      "start": 1103.76,
+      "end": 1114.182
+    },
+    {
+      "id": "stanza-61",
+      "kind": "stanza",
+      "start": 1114.182,
+      "end": 1131.08
+    },
+    {
+      "id": "stanza-62",
+      "kind": "stanza",
+      "start": 1131.08,
+      "end": 1138.679
+    },
+    {
+      "id": "stanza-63",
+      "kind": "stanza",
+      "start": 1138.679,
+      "end": 1144.76
+    },
+    {
+      "id": "stanza-64",
+      "kind": "stanza",
+      "start": 1144.76,
+      "end": 1154.72
+    },
+    {
+      "id": "stanza-65",
+      "kind": "stanza",
+      "start": 1154.72,
+      "end": 1164.811
+    },
+    {
+      "id": "stanza-66",
+      "kind": "stanza",
+      "start": 1164.811,
+      "end": 1174.77
+    },
+    {
+      "id": "stanza-67",
+      "kind": "stanza",
+      "start": 1174.77,
+      "end": 1187.56
+    },
+    {
+      "id": "stanza-68",
+      "kind": "stanza",
+      "start": 1187.56,
+      "end": 1195.8
+    },
+    {
+      "id": "stanza-69",
+      "kind": "stanza",
+      "start": 1195.8,
+      "end": 1204.708
+    },
+    {
+      "id": "stanza-70",
+      "kind": "stanza",
+      "start": 1204.708,
+      "end": 1215.011
+    },
+    {
+      "id": "stanza-71",
+      "kind": "stanza",
+      "start": 1215.011,
+      "end": 1225.065
+    },
+    {
+      "id": "stanza-72",
+      "kind": "stanza",
+      "start": 1225.065,
+      "end": 1234.4
+    },
+    {
+      "id": "stanza-73",
+      "kind": "stanza",
+      "start": 1234.4,
+      "end": 1244.947
+    },
+    {
+      "id": "stanza-74",
+      "kind": "stanza",
+      "start": 1244.947,
+      "end": 1255.84
+    },
+    {
+      "id": "stanza-75",
+      "kind": "stanza",
+      "start": 1255.84,
+      "end": 1265.397
+    },
+    {
+      "id": "stanza-76",
+      "kind": "stanza",
+      "start": 1265.397,
+      "end": 1275.027
+    },
+    {
+      "id": "stanza-77",
+      "kind": "stanza",
+      "start": 1275.027,
+      "end": 1290.2
+    },
+    {
+      "id": "stanza-78",
+      "kind": "stanza",
+      "start": 1290.2,
+      "end": 1296.039
+    },
+    {
+      "id": "stanza-79",
+      "kind": "stanza",
+      "start": 1296.039,
+      "end": 1306.173
+    },
+    {
+      "id": "stanza-80",
+      "kind": "stanza",
+      "start": 1306.173,
+      "end": 1317.439
+    },
+    {
+      "id": "stanza-81",
+      "kind": "stanza",
+      "start": 1317.439,
+      "end": 1322.731
+    },
+    {
+      "id": "stanza-82",
+      "kind": "stanza",
+      "start": 1322.731,
+      "end": 1337.0
+    },
+    {
+      "id": "stanza-83",
+      "kind": "stanza",
+      "start": 1337.0,
+      "end": 1346.131
+    },
+    {
+      "id": "stanza-84",
+      "kind": "stanza",
+      "start": 1346.131,
+      "end": 1356.674
+    },
+    {
+      "id": "stanza-85",
+      "kind": "stanza",
+      "start": 1356.674,
+      "end": 1367.08
+    },
+    {
+      "id": "stanza-86",
+      "kind": "stanza",
+      "start": 1367.08,
+      "end": 1377.12
+    },
+    {
+      "id": "stanza-87",
+      "kind": "stanza",
+      "start": 1377.12,
+      "end": 1386.12
+    },
+    {
+      "id": "stanza-88",
+      "kind": "stanza",
+      "start": 1386.12,
+      "end": 1396.493
+    },
+    {
+      "id": "stanza-89",
+      "kind": "stanza",
+      "start": 1396.493,
+      "end": 1408.919
+    },
+    {
+      "id": "stanza-90",
+      "kind": "stanza",
+      "start": 1408.919,
+      "end": 1414.32
+    },
+    {
+      "id": "stanza-91",
+      "kind": "stanza",
+      "start": 1414.32,
+      "end": 1426.886
+    },
+    {
+      "id": "stanza-92",
+      "kind": "stanza",
+      "start": 1426.886,
+      "end": 1437.331
+    },
+    {
+      "id": "stanza-93",
+      "kind": "stanza",
+      "start": 1437.331,
+      "end": 1449.32
+    },
+    {
+      "id": "stanza-94",
+      "kind": "stanza",
+      "start": 1449.32,
+      "end": 1457.539
+    },
+    {
+      "id": "stanza-95",
+      "kind": "stanza",
+      "start": 1457.539,
+      "end": 1467.375
+    },
+    {
+      "id": "stanza-96",
+      "kind": "stanza",
+      "start": 1467.375,
+      "end": 1477.882
+    },
+    {
+      "id": "stanza-97",
+      "kind": "stanza",
+      "start": 1477.882,
+      "end": 1489.159
+    },
+    {
+      "id": "stanza-98",
+      "kind": "stanza",
+      "start": 1489.159,
+      "end": 1497.794
+    },
+    {
+      "id": "stanza-99",
+      "kind": "stanza",
+      "start": 1497.794,
+      "end": 1508.48
+    },
+    {
+      "id": "stanza-100",
+      "kind": "stanza",
+      "start": 1508.48,
+      "end": 1519.08
+    },
+    {
+      "id": "stanza-101",
+      "kind": "stanza",
+      "start": 1519.08,
+      "end": 1528.105
+    },
+    {
+      "id": "stanza-102",
+      "kind": "stanza",
+      "start": 1528.105,
+      "end": 1537.968
+    },
+    {
+      "id": "stanza-103",
+      "kind": "stanza",
+      "start": 1537.968,
+      "end": 1550.627
+    },
+    {
+      "id": "stanza-104",
+      "kind": "stanza",
+      "start": 1550.627,
+      "end": 1558.061
+    },
+    {
+      "id": "stanza-105",
+      "kind": "stanza",
+      "start": 1558.061,
+      "end": 1569.948
+    },
+    {
+      "id": "stanza-106",
+      "kind": "stanza",
+      "start": 1569.948,
+      "end": 1579.799
+    },
+    {
+      "id": "stanza-107",
+      "kind": "stanza",
+      "start": 1579.799,
+      "end": 1589.279
+    },
+    {
+      "id": "closing-name",
+      "kind": "postlude",
+      "start": 1589.279,
+      "end": 1593.24
+    },
+    {
+      "id": "protection",
+      "kind": "postlude",
+      "start": 1593.24,
+      "end": 1624.61
+    }
+  ]
+}

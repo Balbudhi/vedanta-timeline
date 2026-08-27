@@ -190,7 +190,7 @@
       "title_iast": "Viṣṇusahasranāma performed preface: word-by-word Pāṇinian analysis",
       "source_level": "secondary",
       "source_path": "gita/vishnu-sahasranama/preface-analysis.json",
-      "witness": "Site-authored closed analysis corpus for all 45 performed opening units, grounded in the pinned received witness, with pada segmentation checked against the Vedapedia word divisions, morphology checked with Vidyut 0.4.0, lexical senses checked with Monier-Williams, and manual contextual adjudication of every compound and ambiguous form.",
+      "witness": "Site-authored closed analysis corpus for all 45 performed opening units and two recorded closing units, grounded in the pinned received witness, with pada segmentation checked against the Vedapedia word divisions, morphology checked with Vidyut 0.4.0, lexical senses checked with Monier-Williams, and manual contextual adjudication of every compound and ambiguous form.",
       "rights_status": "site-authored-analysis-of-public-working-witness",
       "citation_status": "working-witness",
       "stable_cite_prefixes": [
@@ -202,7 +202,25 @@
         "paninian-grammar",
         "audio"
       ],
-      "notes": "The builder requires the exact 45-unit population, contiguous word indices, 100% English slot coverage, complete morpheme translations, reviewed samāsa classification, and exact source replay after sandhi alignment. Genuine textual uncertainty is stated in the relevant word note rather than silently normalized."
+      "notes": "The builder requires the exact 47 analyzed units, contiguous word indices, 100% English slot coverage, complete morpheme translations, reviewed samāsa classification, and exact source replay after sandhi alignment. Genuine textual uncertainty is stated in the relevant word note rather than silently normalized."
+    },
+    {
+      "id": "vishnu-sahasranama-abhyankar-unit-timings",
+      "title_iast": "Sanjeev Abhyankar Viṣṇusahasranāma: unit timing manifest",
+      "source_level": "secondary",
+      "source_path": "gita/vishnu-sahasranama/timings.json",
+      "witness": "Start/end manifest for 154 displayed units, produced without a new transcription by monotonically aligning the verified Sanskrit to the official Times Music Spiritual video's existing original-language word timestamps (caption capture SHA-256 5a8fffc8bdb61a7e6da8bbaa8cc5964c7437091920e4ebf1acd44d39f8306beb), with the heterogeneous opening boundaries reviewed separately.",
+      "rights_status": "owner-approved-audio-with-public-publisher-timing-aid",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://vishnu-sahasranama/abhyankar-timing/"
+      ],
+      "review_areas": [
+        "vishnu-sahasranama",
+        "audio",
+        "sanskrit-reader"
+      ],
+      "notes": "Status is start-only-reviewed. Timings support unit highlighting, play-from-here controls, and Bhakti-style follow mode; they do not claim word-level synchronization."
     },
     {
       "id": "chinmayananda-thousand-ways-preface-authorized-reader",
