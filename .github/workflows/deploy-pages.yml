@@ -46,8 +46,16 @@ jobs:
             --exclude='data/sources/' \
             --exclude='data/editorial/' \
             --exclude='_build/' \
-            index.html CNAME robots.txt assets gita data \
+            index.html manifest.webmanifest sw.js CNAME robots.txt assets gita data \
             _site/
+          # Every deployed revision must produce different service-worker
+          # bytes so installed PWAs discover every push without a manual cache
+          # version bump. The worker uses this value as its shell-cache key.
+          sed -i "s/__BUILD_ID__/${GITHUB_SHA}/g" _site/sw.js
+          if grep -q '__BUILD_ID__' _site/sw.js; then
+            echo "service-worker build ID was not stamped" >&2
+            exit 1
+          fi
       # Serve the Source tab from this site's own origin rather than from a
       # raw.githubusercontent.com fallback, which made the reader depend on the
       # repository's visibility and layout.  Copy exactly the manifest-listed
