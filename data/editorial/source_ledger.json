@@ -146,6 +146,45 @@
         "sri"
       ],
       "notes": "The short downloaded witness is suitable for source review. Verify each public locus against the documented source before using it to substantiate editorial claims."
+    },
+    {
+      "id": "vyasa-vishnu-sahasranama-bori-critical-excerpt",
+      "title_iast": "Viṣṇusahasranāma (Mahābhārata, Anuśāsanaparvan 13.135.14–120)",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/vedanta/vishnu_sahasranama_bori_critical_excerpt.txt",
+      "witness": "Bhandarkar Oriental Research Institute electronic text of the critically edited Mahābhārata, Anuśāsanaparvan, exact Devanāgarī and ISO 15919 Roman loci 13135014a–13135120c; electronic text copyright notice dated 1999.",
+      "rights_status": "permission-and-attribution-basis-recorded-by-owner",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://vyasa/vishnu-sahasranama/"
+      ],
+      "review_areas": [
+        "vishnu-sahasranama",
+        "vishnu",
+        "sanskrit-reader",
+        "advaita"
+      ],
+      "notes": "The reader preserves BORI locus IDs, normalizes ISO 15919 display to standard IAST without changing the Sanskrit, and uses separately reviewed name boundaries. Any recension difference from the Chinmayananda edition must be recorded rather than silently harmonized."
+    },
+    {
+      "id": "chinmayananda-thousand-ways-authorized-reader",
+      "title_iast": "Thousand Ways to the Transcendental: Viṣṇu Sahasranāma commentary",
+      "source_level": "secondary",
+      "source_path": "gita/vishnu-sahasranama/chinmayananda.json",
+      "witness": "Swami Chinmayananda, Thousand Ways to the Transcendental: Vishnu Sahasranaama, Central Chinmaya Mission Trust, ISBN 978-81-7597-245-2; structured transcription whose detected OCR and page-order anomalies were checked against the owner's 272-page scan.",
+      "rights_status": "owner-attests-publication-permission-from-chinmaya-mission",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://chinmayananda/thousand-ways-to-the-transcendental/name/"
+      ],
+      "review_areas": [
+        "chinmayananda",
+        "vishnu-sahasranama",
+        "vishnu",
+        "advaita",
+        "sanskrit-reader"
+      ],
+      "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. The public reader identifies Chinmayananda's English as an attributed traditional Advaita teaching layer and keeps it separate from the name-level interaction."
     }
   ]
 }

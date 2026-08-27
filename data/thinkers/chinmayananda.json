@@ -16,7 +16,7 @@
   "lineage_in": [],
   "lineage_out": [],
   "lineage_polemical": [],
-  "core_thesis": "Swami Chinmayananda was a twentieth-century Advaita Vedānta teacher and author whose published commentaries made the Bhagavad-Gītā, principal Upaniṣads, and Advaita teaching texts available to a broad modern readership. His work is expository rather than a new classical darśana: it presents the inherited śruti–Gītā–Śaṅkara framework through extended English commentary, public teaching, and the institutional study culture of Chinmaya Mission. The entry therefore records a major modern interpreter of Vedānta, while distinguishing his commentary tradition from the primary Sanskrit sources on which it comments. The current public repository holds catalogue-level evidence for these books but no citable local edition; no passage-level claims or Sanskrit quotations are presented until a lawful, verified witness is acquired.",
+  "core_thesis": "Swami Chinmayananda was a twentieth-century Advaita Vedānta teacher and author whose published commentaries made the Bhagavad-Gītā, principal Upaniṣads, and Advaita teaching texts available to a broad modern readership. His work is expository rather than a new classical darśana: it presents the inherited śruti–Gītā–Śaṅkara framework through extended English commentary, public teaching, and the institutional study culture of Chinmaya Mission. The entry therefore records a major modern interpreter of Vedānta, while distinguishing his commentary tradition from the primary Sanskrit sources on which it comments. The repository now includes an owner-authorized, scan-grounded transcription of his Viṣṇu Sahasranāma commentary; the other listed commentaries remain at catalogue level until their own lawful witnesses are acquired.",
   "engaged_works": [
     {
       "work_id": "holy-geeta",
@@ -58,17 +58,17 @@
       "ascription_evidence": [{"kind": "publisher-catalogue", "description": "Chinmaya Mission Mumbai publications page: https://www.chinmayamissionmumbai.com/chinmaya_pradeep/65-exhibits/47-publications"}],
       "genre": "tika",
       "language": "english",
-      "source_status": "primary-text-not-in-corpus",
-      "summary": "A modern commentary on the thousand names of Viṣṇu. It is recorded as a published interpretive work; no text or passage claim is displayed until a verified edition is available in the corpus.",
+      "source_status": "working-witness",
+      "summary": "A modern Advaita commentary on the thousand names of Viṣṇu. The complete name-by-name English is presented in an owner-authorized reader, keyed to the 107 Sanskrit name-stanzas and kept distinct from the site's separate grammatical notes.",
       "key_passage_ids": [],
       "entry_status": "draft"
     }
   ],
   "key_passages": [],
   "comparative_claim_ids": [],
-  "reception_notes": "Chinmaya Mission's catalogues and archives preserve the broad publication and teaching reception of these commentaries. This entry remains deliberately source-limited until a local, lawful text witness is acquired.",
+  "reception_notes": "Chinmaya Mission's catalogues and archives preserve the broad publication and teaching reception of these commentaries. The Viṣṇu Sahasranāma reader now has an authorized local witness; claims about Chinmayananda's other works remain source-limited.",
   "entry_status": "draft",
   "entry_owner_agent": "source-grounded-roster-wave",
-  "last_verified_at": "2026-08-18",
-  "last_verified_by": "source-grounded-roster-wave"
+  "last_verified_at": "2026-08-27",
+  "last_verified_by": "vishnu-sahasranama-reader"
 }

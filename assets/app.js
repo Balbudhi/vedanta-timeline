@@ -5302,6 +5302,13 @@ const GITA_READINGS = {
   },
 };
 
+const SAHASRANAMA_READING = {
+  slug: "vishnu-sahasranama",
+  title: "Viṣṇu Sahasranāma",
+  blurb: "The thousand names with Swami Chinmayananda’s traditional Advaita commentary, word-level study, and an independent recitation player.",
+  dataUrl: "gita/vishnu-sahasranama/reader.json",
+};
+
 // Share the exact view the reader is looking at. The router already mirrors
 // every navigable state into the hash, so location.href IS the shareable
 // address — the only thing missing was a way to get at it on a phone, where
@@ -5363,6 +5370,38 @@ async function openGitaReading(slug) {
   }
 }
 
+async function openSahasranamaReading() {
+  try {
+    await loadScriptOnce("assets/sahasranama.js");
+  } catch (_) {
+    if (dpArticleBody) dpArticleBody.innerHTML = "<article><p>Could not load the reading.</p></article>";
+    return;
+  }
+  if (dpArticleHead) {
+    dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
+      <p class="dp-title">${SAHASRANAMA_READING.title}</p>
+      <p class="dp-attrib">${SAHASRANAMA_READING.blurb}</p>
+      <button class="dp-standalone" id="vsnFullBtn" type="button">Read full screen ⤢</button>
+      <button class="dp-standalone" id="vsnShareBtn" type="button">Share link</button>`;
+    const fullBtn = document.getElementById("vsnFullBtn");
+    if (fullBtn) fullBtn.addEventListener("click", () => setReadingMode(true));
+    const shareBtn = document.getElementById("vsnShareBtn");
+    if (shareBtn) shareBtn.addEventListener("click", () => shareCurrentView(SAHASRANAMA_READING.title, shareBtn));
+  }
+  if (window.SahasranamaReader && dpArticleBody) {
+    try {
+      await window.SahasranamaReader.render(dpArticleBody, {
+        dataUrl: SAHASRANAMA_READING.dataUrl,
+        styleUrl: "assets/sahasranama.css",
+        onThinker: (id) => openThinker(id),
+        linkifyGlossary: linkifyGlossaryText,
+      });
+    } catch (_) {
+      dpArticleBody.innerHTML = "<article><p>Could not load the Sahasranāma data.</p></article>";
+    }
+  }
+}
+
 async function openArticle(a) {
   // Articles render in the unified panel's Article tab. The articles
   // chooser modal closes on selection (the user picked one already).
@@ -5388,6 +5427,13 @@ async function openArticle(a) {
 
   // Interactive readings (e.g. the Gītā word-by-word page) render via their
   // own engine into the article body instead of fetching a markdown file.
+  if (a.interactive === SAHASRANAMA_READING.slug) {
+    await openSahasranamaReading();
+    panelState.loaded.article = true;
+    router.push({ kind: "article", slug: a.slug });
+    return;
+  }
+
   if (a.interactive && GITA_READINGS[a.interactive]) {
     await openGitaReading(a.interactive);
     panelState.loaded.article = true;

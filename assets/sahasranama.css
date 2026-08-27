@@ -1,0 +1,35 @@
+/* Sahasranāma-specific details. Primary layout and controls come from gita.css. */
+.vsn-reader { padding-bottom: 72px; }
+.vsn-attribution {
+  margin: -4px 0 18px;
+  color: var(--muted-soft);
+  font-family: var(--sans);
+  font-size: 11px;
+  line-height: 1.55;
+}
+.vsn-verse { scroll-margin-top: 18px; }
+.vsn-verse .ix-pada { margin-bottom: 10px; }
+.vsn-verse .ix-en { color: var(--ink-soft); }
+.vsn-sep { color: var(--muted-soft); }
+.vsn-commentary-entry { padding: 12px 0; border-top: 1px solid var(--hairline); scroll-margin-top: 16px; }
+.vsn-commentary-entry:first-of-type { border-top: 0; padding-top: 4px; }
+.vsn-commentary-entry .voice-en p { margin: 0 0 9px; }
+.vsn-commentary-entry .voice-en p:last-child { margin-bottom: 0; }
+.vsn-wcard { position: fixed; max-width: min(340px, calc(100vw - 20px)); }
+.vsn-wcard-close {
+  position: absolute; top: 5px; right: 7px;
+  width: 26px; height: 26px; padding: 0;
+  border: 0; background: none; color: var(--muted);
+  font-size: 19px; cursor: pointer;
+}
+.vsn-card-number { margin-left: 5px; color: var(--muted-soft); font-size: 10px; vertical-align: 2px; }
+.vsn-recite-bar { margin-top: 28px; }
+
+@media (max-width: 600px) {
+  .vsn-reader { padding-bottom: 58px; }
+  .vsn-attribution { margin-bottom: 12px; }
+  .vsn-verse { padding-left: 2px; padding-right: 2px; }
+  .vsn-verse .verse-deva { font-size: 19px; }
+  .vsn-verse .ix-pada { font-size: 17px; line-height: 2.05; }
+  .vsn-verse .ix-en { font-size: 16px; line-height: 1.68; }
+}

@@ -2,6 +2,14 @@
   "version": "2",
   "articles": [
     {
+      "slug": "vishnu-sahasranama",
+      "title": "Viṣṇu Sahasranāma — the thousand names",
+      "subtitle": "The 107 name-stanzas in Devanāgarī and IAST, with all 1,000 names keyed to Swami Chinmayananda’s *Thousand Ways to the Transcendental*. Every name is tappable for its meaning; his traditional Advaita commentary can be shown or hidden, and Sanjeev Abhyankar’s recitation plays independently.",
+      "kind": "reading",
+      "interactive": "vishnu-sahasranama",
+      "date": "2026-08-27"
+    },
+    {
       "slug": "gita-sthitaprajna",
       "title": "Bhagavad-Gītā 2.54–72 — the man of settled wisdom",
       "subtitle": "The *sthitaprajña* answer, word by word: a literal translation with full Pāṇinian grammar, the ācāryas in their own voices, Sri Aurobindo, and parallels from other traditions — every Sanskrit word, in the verse and the commentaries, tappable.",

@@ -1,0 +1,440 @@
+# Viṣṇusahasranāma — Mahābhārata Critical Edition excerpt
+# Source: Bhandarkar Oriental Research Institute electronic Mahābhārata
+# Work/locus: Anuśāsanaparvan 13.135.14–120 (electronic loci 13135014a–13135120c)
+# Devanāgarī: https://bombay.indology.info/mahabharata/text/UD/MBh13.txt
+# ISO 15919 Roman: https://bombay.indology.info/mahabharata/text/UR/MBh13.txt
+# Acquired: 2026-08-27
+# The electronic source header states: Electronic text (C) Bhandarkar Oriental Research Institute, Pune, India, 1999.
+# Retained here as the exact reader witness with locus IDs; the public reader attributes BORI.
+
+[DEVANAGARI]
+13135014a विश्वं विष्णुर्वषट्कारो भूतभव्यभवत्प्रभुः
+13135014c भूतकृद्भूतभृद्भावो भूतात्मा भूतभावनः
+13135015a पूतात्मा परमात्मा च मुक्तानां परमा गतिः
+13135015c अव्ययः पुरुषः साक्षी क्षेत्रज्ञोऽक्षर एव च
+13135016a योगो योगविदां नेता प्रधानपुरुषेश्वरः
+13135016c नारसिंहवपुः श्रीमान्केशवः पुरुषोत्तमः
+13135017a सर्वः शर्वः शिवः स्थाणुर्भूतादिर्निधिरव्ययः
+13135017c संभवो भावनो भर्ता प्रभवः प्रभुरीश्वरः
+13135018a स्वयंभूः शंभुरादित्यः पुष्कराक्षो महास्वनः
+13135018c अनादिनिधनो धाता विधाता धातुरुत्तमः
+13135019a अप्रमेयो हृषीकेशः पद्मनाभोऽमरप्रभुः
+13135019c विश्वकर्मा मनुस्त्वष्टा स्थविष्ठः स्थविरो ध्रुवः
+13135020a अग्राह्यः शाश्वतः कृष्णो लोहिताक्षः प्रतर्दनः
+13135020c प्रभूतस्त्रिककुब्धाम पवित्रं मङ्गलं परम्
+13135021a ईशानः प्राणदः प्राणो ज्येष्ठः श्रेष्ठः प्रजापतिः
+13135021c हिरण्यगर्भो भूगर्भो माधवो मधुसूदनः
+13135022a ईश्वरो विक्रमी धन्वी मेधावी विक्रमः क्रमः
+13135022c अनुत्तमो दुराधर्षः कृतज्ञः कृतिरात्मवान्
+13135023a सुरेशः शरणं शर्म विश्वरेताः प्रजाभवः
+13135023c अहः संवत्सरो व्यालः प्रत्ययः सर्वदर्शनः
+13135024a अजः सर्वेश्वरः सिद्धः सिद्धिः सर्वादिरच्युतः
+13135024c वृषाकपिरमेयात्मा सर्वयोगविनिःसृतः
+13135025a वसुर्वसुमनाः सत्यः समात्मा संमितः समः
+13135025c अमोघः पुण्डरीकाक्षो वृषकर्मा वृषाकृतिः
+13135026a रुद्रो बहुशिरा बभ्रुर्विश्वयोनिः शुचिश्रवाः
+13135026c अमृतः शाश्वतः स्थाणुर्वरारोहो महातपाः
+13135027a सर्वगः सर्वविद्भानुर्विष्वक्सेनो जनार्दनः
+13135027c वेदो वेदविदव्यङ्गो वेदाङ्गो वेदवित्कविः
+13135028a लोकाध्यक्षः सुराध्यक्षो धर्माध्यक्षः कृताकृतः
+13135028c चतुरात्मा चतुर्व्यूहश्चतुर्दंष्ट्रश्चतुर्भुजः
+13135029a भ्राजिष्णुर्भोजनं भोक्ता सहिष्णुर्जगदादिजः
+13135029c अनघो विजयो जेता विश्वयोनिः पुनर्वसुः
+13135030a उपेन्द्रो वामनः प्रांशुरमोघः शुचिरूर्जितः
+13135030c अतीन्द्रः संग्रहः सर्गो धृतात्मा नियमो यमः
+13135031a वेद्यो वैद्यः सदायोगी वीरहा माधवो मधुः
+13135031c अतीन्द्रियो महामायो महोत्साहो महाबलः
+13135032a महाबुद्धिर्महावीर्यो महाशक्तिर्महाद्युतिः
+13135032c अनिर्देश्यवपुः श्रीमानमेयात्मा महाद्रिधृक्
+13135033a महेष्वासो महीभर्ता श्रीनिवासः सतां गतिः
+13135033c अनिरुद्धः सुरानन्दो गोविन्दो गोविदां पतिः
+13135034a मरीचिर्दमनो हंसः सुपर्णो भुजगोत्तमः
+13135034c हिरण्यनाभः सुतपाः पद्मनाभः प्रजापतिः
+13135035a अमृत्युः सर्वदृक्सिंहः संधाता संधिमान्स्थिरः
+13135035c अजो दुर्मर्षणः शास्ता विश्रुतात्मा सुरारिहा
+13135036a गुरुर्गुरुतमो धाम सत्यः सत्यपराक्रमः
+13135036c निमिषोऽनिमिषः स्रग्वी वाचस्पतिरुदारधीः
+13135037a अग्रणीर्ग्रामणीः श्रीमान्न्यायो नेता समीरणः
+13135037c सहस्रमूर्धा विश्वात्मा सहस्राक्षः सहस्रपात्
+13135038a आवर्तनो निवृत्तात्मा संवृतः संप्रमर्दनः
+13135038c अहः संवर्तको वह्निरनिलो धरणीधरः
+13135039a सुप्रसादः प्रसन्नात्मा विश्वधृग्विश्वभुग्विभुः
+13135039c सत्कर्ता सत्कृतः साधुर्जह्नुर्नारायणो नरः
+13135040a असंख्येयोऽप्रमेयात्मा विशिष्टः शिष्टकृच्छुचिः
+13135040c सिद्धार्थः सिद्धसंकल्पः सिद्धिदः सिद्धिसाधनः
+13135041a वृषाही वृषभो विष्णुर्वृषपर्वा वृषोदरः
+13135041c वर्धनो वर्धमानश्च विविक्तः श्रुतिसागरः
+13135042a सुभुजो दुर्धरो वाग्मी महेन्द्रो वसुदो वसुः
+13135042c नैकरूपो बृहद्रूपः शिपिविष्टः प्रकाशनः
+13135043a ओजस्तेजो द्युतिधरः प्रकाशात्मा प्रतापनः
+13135043c ऋद्धः स्पष्टाक्षरो मन्त्रश्चन्द्रांशुर्भास्करद्युतिः
+13135044a अमृतांशूद्भवो भानुः शशबिन्दुः सुरेश्वरः
+13135044c औषधं जगतः सेतुः सत्यधर्मपराक्रमः
+13135045a भूतभव्यभवन्नाथः पवनः पावनोऽनिलः
+13135045c कामहा कामकृत्कान्तः कामः कामप्रदः प्रभुः
+13135046a युगादिकृद्युगावर्तो नैकमायो महाशनः
+13135046c अदृश्यो व्यक्तरूपश्च सहस्रजिदनन्तजित्
+13135047a इष्टो विशिष्टः शिष्टेष्टः शिखण्डी नहुषो वृषः
+13135047c क्रोधहा क्रोधकृत्कर्ता विश्वबाहुर्महीधरः
+13135048a अच्युतः प्रथितः प्राणः प्राणदो वासवानुजः
+13135048c अपां निधिरधिष्ठानमप्रमत्तः प्रतिष्ठितः
+13135049a स्कन्दः स्कन्दधरो धुर्यो वरदो वायुवाहनः
+13135049c वासुदेवो बृहद्भानुरादिदेवः पुरंदरः
+13135050a अशोकस्तारणस्तारः शूरः शौरिर्जनेश्वरः
+13135050c अनुकूलः शतावर्तः पद्मी पद्मनिभेक्षणः
+13135051a पद्मनाभोऽरविन्दाक्षः पद्मगर्भः शरीरभृत्
+13135051c महर्द्धिरृद्धो वृद्धात्मा महाक्षो गरुडध्वजः
+13135052a अतुलः शरभो भीमः समयज्ञो हविर्हरिः
+13135052c सर्वलक्षणलक्षण्यो लक्ष्मीवान्समितिंजयः
+13135053a विक्षरो रोहितो मार्गो हेतुर्दामोदरः सहः
+13135053c महीधरो महाभागो वेगवानमिताशनः
+13135054a उद्भवः क्षोभणो देवः श्रीगर्भः परमेश्वरः
+13135054c करणं कारणं कर्ता विकर्ता गहनो गुहः
+13135055a व्यवसायो व्यवस्थानः संस्थानः स्थानदो ध्रुवः
+13135055c परर्द्धिः परमः स्पष्टस्तुष्टः पुष्टः शुभेक्षणः
+13135056a रामो विरामो विरतो मार्गो नेयो नयोऽनयः
+13135056c वीरः शक्तिमतां श्रेष्ठो धर्मो धर्मविदुत्तमः
+13135057a वैकुण्ठः पुरुषः प्राणः प्राणदः प्रणवः पृथुः
+13135057c हिरण्यगर्भः शत्रुघ्नो व्याप्तो वायुरधोक्षजः
+13135058a ऋतुः सुदर्शनः कालः परमेष्ठी परिग्रहः
+13135058c उग्रः संवत्सरो दक्षो विश्रामो विश्वदक्षिणः
+13135059a विस्तारः स्थावरः स्थाणुः प्रमाणं बीजमव्ययम्
+13135059c अर्थोऽनर्थो महाकोशो महाभोगो महाधनः
+13135060a अनिर्विण्णः स्थविष्ठो भूर्धर्मयूपो महामखः
+13135060c नक्षत्रनेमिर्नक्षत्री क्षमः क्षामः समीहनः
+13135061a यज्ञ इज्यो महेज्यश्च क्रतुः सत्रं सतां गतिः
+13135061c सर्वदर्शी विमुक्तात्मा सर्वज्ञो ज्ञानमुत्तमम्
+13135062a सुव्रतः सुमुखः सूक्ष्मः सुघोषः सुखदः सुहृत्
+13135062c मनोहरो जितक्रोधो वीरबाहुर्विदारणः
+13135063a स्वापनः स्ववशो व्यापी नैकात्मा नैककर्मकृत्
+13135063c वत्सरो वत्सलो वत्सी रत्नगर्भो धनेश्वरः
+13135064a धर्मगुब्धर्मकृद्धर्मी सदसत्क्षरमक्षरम्
+13135064c अविज्ञाता सहस्रांशुर्विधाता कृतलक्षणः
+13135065a गभस्तिनेमिः सत्त्वस्थः सिंहो भूतमहेश्वरः
+13135065c आदिदेवो महादेवो देवेशो देवभृद्गुरुः
+13135066a उत्तरो गोपतिर्गोप्ता ज्ञानगम्यः पुरातनः
+13135066c शरीरभूतभृद्भोक्ता कपीन्द्रो भूरिदक्षिणः
+13135067a सोमपोऽमृतपः सोमः पुरुजित्पुरुसत्तमः
+13135067c विनयो जयः सत्यसंधो दाशार्हः सात्वतां पतिः
+13135068a जीवो विनयिता साक्षी मुकुन्दोऽमितविक्रमः
+13135068c अम्भोनिधिरनन्तात्मा महोदधिशयोऽन्तकः
+13135069a अजो महार्हः स्वाभाव्यो जितामित्रः प्रमोदनः
+13135069c आनन्दो नन्दनो नन्दः सत्यधर्मा त्रिविक्रमः
+13135070a महर्षिः कपिलाचार्यः कृतज्ञो मेदिनीपतिः
+13135070c त्रिपदस्त्रिदशाध्यक्षो महाशृङ्गः कृतान्तकृत्
+13135071a महावराहो गोविन्दः सुषेणः कनकाङ्गदी
+13135071c गुह्यो गभीरो गहनो गुप्तश्चक्रगदाधरः
+13135072a वेधाः स्वाङ्गोऽजितः कृष्णो दृढः संकर्षणोऽच्युतः
+13135072c वरुणो वारुणो वृक्षः पुष्कराक्षो महामनाः
+13135073a भगवान्भगहा नन्दी वनमाली हलायुधः
+13135073c आदित्यो ज्योतिरादित्यः सहिष्णुर्गतिसत्तमः
+13135074a सुधन्वा खण्डपरशुर्दारुणो द्रविणप्रदः
+13135074c दिवःस्पृक्सर्वदृग्व्यासो वाचस्पतिरयोनिजः
+13135075a त्रिसामा सामगः साम निर्वाणं भेषजं भिषक्
+13135075c संन्यासकृच्छमः शान्तो निष्ठा शान्तिः परायणम्
+13135076a शुभाङ्गः शान्तिदः स्रष्टा कुमुदः कुवलेशयः
+13135076c गोहितो गोपतिर्गोप्ता वृषभाक्षो वृषप्रियः
+13135077a अनिवर्ती निवृत्तात्मा संक्षेप्ता क्षेमकृच्छिवः
+13135077c श्रीवत्सवक्षाः श्रीवासः श्रीपतिः श्रीमतां वरः
+13135078a श्रीदः श्रीशः श्रीनिवासः श्रीनिधिः श्रीविभावनः
+13135078c श्रीधरः श्रीकरः श्रेयः श्रीमाँल्लोकत्रयाश्रयः
+13135079a स्वक्षः स्वङ्गः शतानन्दो नन्दिर्ज्योतिर्गणेश्वरः
+13135079c विजितात्मा विधेयात्मा सत्कीर्तिश्छिन्नसंशयः
+13135080a उदीर्णः सर्वतश्चक्षुरनीशः शाश्वतः स्थिरः
+13135080c भूशयो भूषणो भूतिर्विशोकः शोकनाशनः
+13135081a अर्चिष्मानर्चितः कुम्भो विशुद्धात्मा विशोधनः
+13135081c अनिरुद्धोऽप्रतिरथः प्रद्युम्नोऽमितविक्रमः
+13135082a कालनेमिनिहा वीरः शूरः शौरिर्जनेश्वरः
+13135082c त्रिलोकात्मा त्रिलोकेशः केशवः केशिहा हरिः
+13135083a कामदेवः कामपालः कामी कान्तः कृतागमः
+13135083c अनिर्देश्यवपुर्विष्णुर्वीरोऽनन्तो धनंजयः
+13135084a ब्रह्मण्यो ब्रह्मकृद्ब्रह्मा ब्रह्म ब्रह्मविवर्धनः
+13135084c ब्रह्मविद्ब्राह्मणो ब्रह्मी ब्रह्मज्ञो ब्राह्मणप्रियः
+13135085a महाक्रमो महाकर्मा महातेजा महोरगः
+13135085c महाक्रतुर्महायज्वा महायज्ञो महाहविः
+13135086a स्तव्यः स्तवप्रियः स्तोत्रं स्तुतिः स्तोता रणप्रियः
+13135086c पूर्णः पूरयिता पुण्यः पुण्यकीर्तिरनामयः
+13135087a मनोजवस्तीर्थकरो वसुरेता वसुप्रदः
+13135087c वसुप्रदो वासुदेवो वसुर्वसुमना हविः
+13135088a सद्गतिः सत्कृतिः सत्ता सद्भूतिः सत्परायणः
+13135088c शूरसेनो यदुश्रेष्ठः सन्निवासः सुयामुनः
+13135089a भूतावासो वासुदेवो सर्वासुनिलयोऽनलः
+13135089c दर्पहा दर्पदो दृप्तो दुर्धरोऽथापराजितः
+13135090a विश्वमूर्तिर्महामूर्तिर्दीप्तमूर्तिरमूर्तिमान्
+13135090c अनेकमूर्तिरव्यक्तः शतमूर्तिः शताननः
+13135091a एको नैकः सवः कः किं यत्तत्पदमनुत्तमम्
+13135091c लोकबन्धुर्लोकनाथो माधवो भक्तवत्सलः
+13135092a सुवर्णवर्णो हेमाङ्गो वराङ्गश्चन्दनाङ्गदी
+13135092c वीरहा विषमः शून्यो घृताशीरचलश्चलः
+13135093a अमानी मानदो मान्यो लोकस्वामी त्रिलोकधृक्
+13135093c सुमेधा मेधजो धन्यः सत्यमेधा धराधरः
+13135094a तेजो वृषो द्युतिधरः सर्वशस्त्रभृतां वरः
+13135094c प्रग्रहो निग्रहोऽव्यग्रो नैकशृङ्गो गदाग्रजः
+13135095a चतुर्मूर्तिश्चतुर्बाहुश्चतुर्व्यूहश्चतुर्गतिः
+13135095c चतुरात्मा चतुर्भावश्चतुर्वेदविदेकपात्
+13135096a समावर्तो निवृत्तात्मा दुर्जयो दुरतिक्रमः
+13135096c दुर्लभो दुर्गमो दुर्गो दुरावासो दुरारिहा
+13135097a शुभाङ्गो लोकसारङ्गः सुतन्तुस्तन्तुवर्धनः
+13135097c इन्द्रकर्मा महाकर्मा कृतकर्मा कृतागमः
+13135098a उद्भवः सुन्दरः सुन्दो रत्ननाभः सुलोचनः
+13135098c अर्को वाजसनः शृङ्गी जयन्तः सर्वविज्जयी
+13135099a सुवर्णबिन्दुरक्षोभ्यः सर्ववागीश्वरेश्वरः
+13135099c महाह्रदो महागर्तो महाभूतो महानिधिः
+13135100a कुमुदः कुंदरः कुन्दः पर्जन्यः पवनोऽनिलः
+13135100c अमृतांशोऽमृतवपुः सर्वज्ञः सर्वतोमुखः
+13135101a सुलभः सुव्रतः सिद्धः शत्रुजिच्छत्रुतापनः
+13135101c न्यग्रोधोदुम्बरोऽश्वत्थश्चाणूरान्ध्रनिषूदनः
+13135102a सहस्रार्चिः सप्तजिह्वः सप्तैधाः सप्तवाहनः
+13135102c अमूर्तिरनघोऽचिन्त्यो भयकृद्भयनाशनः
+13135103a अणुर्बृहत्कृशः स्थूलो गुणभृन्निर्गुणो महान्
+13135103c अधृतः स्वधृतः स्वास्यः प्राग्वंशो वंशवर्धनः
+13135104a भारभृत्कथितो योगी योगीशः सर्वकामदः
+13135104c आश्रमः श्रमणः क्षामः सुपर्णो वायुवाहनः
+13135105a धनुर्धरो धनुर्वेदो दण्डो दमयिता दमः
+13135105c अपराजितः सर्वसहो नियन्ता नियमो यमः
+13135106a सत्त्ववान्सात्त्विकः सत्यः सत्यधर्मपरायणः
+13135106c अभिप्रायः प्रियार्होऽर्हः प्रियकृत्प्रीतिवर्धनः
+13135107a विहायसगतिर्ज्योतिः सुरुचिर्हुतभुग्विभुः
+13135107c रविर्विरोचनः सूर्यः सविता रविलोचनः
+13135108a अनन्तो हुतभुग्भोक्ता सुखदो नैकदोऽग्रजः
+13135108c अनिर्विण्णः सदामर्षी लोकाधिष्ठानमद्भुतम्
+13135109a सनात्सनातनतमः कपिलः कपिरव्ययः
+13135109c स्वस्तिदः स्वस्तिकृत्स्वस्ति स्वस्तिभुक्स्वस्तिदक्षिणः
+13135110a अरौद्रः कुण्डली चक्री विक्रम्यूर्जितशासनः
+13135110c शब्दातिगः शब्दसहः शिशिरः शर्वरीकरः
+13135111a अक्रूरः पेशलो दक्षो दक्षिणः क्षमिणां वरः
+13135111c विद्वत्तमो वीतभयः पुण्यश्रवणकीर्तनः
+13135112a उत्तारणो दुष्कृतिहा पुण्यो दुःस्वप्ननाशनः
+13135112c वीरहा रक्षणः सन्तो जीवनः पर्यवस्थितः
+13135113a अनन्तरूपोऽनन्तश्रीर्जितमन्युर्भयापहः
+13135113c चतुरस्रो गभीरात्मा विदिशो व्यादिशो दिशः
+13135114a अनादिर्भूर्भुवो लक्ष्मीः सुवीरो रुचिराङ्गदः
+13135114c जननो जनजन्मादिर्भीमो भीमपराक्रमः
+13135115a आधारनिलयो धाता पुष्पहासः प्रजागरः
+13135115c ऊर्ध्वगः सत्पथाचारः प्राणदः प्रणवः पणः
+13135116a प्रमाणं प्राणनिलयः प्राणकृत्प्राणजीवनः
+13135116c तत्त्वं तत्त्वविदेकात्मा जन्ममृत्युजरातिगः
+13135117a भूर्भुवः स्वस्तरुस्तारः सविता प्रपितामहः
+13135117c यज्ञो यज्ञपतिर्यज्वा यज्ञाङ्गो यज्ञवाहनः
+13135118a यज्ञभृद्यज्ञकृद्यज्ञी यज्ञभुग्यज्ञसाधनः
+13135118c यज्ञान्तकृद्यज्ञगुह्यमन्नमन्नाद एव च
+13135119a आत्मयोनिः स्वयंजातो वैखानः सामगायनः
+13135119c देवकीनन्दनः स्रष्टा क्षितीशः पापनाशनः
+13135120a शङ्खभृन्नन्दकी चक्री शार्ङ्गधन्वा गदाधरः
+13135120c रथाङ्गपाणिरक्षोभ्यः सर्वप्रहरणायुधः
+
+[ROMAN_ISO_15919]
+13135014a viśvaṁ viṣṇur vaṣaṭkāro bhūtabhavyabhavatprabhuḥ
+13135014c bhūtakr̥d bhūtabhr̥d bhāvo bhūtātmā bhūtabhāvanaḥ
+13135015a pūtātmā paramātmā ca muktānāṁ paramā gatiḥ
+13135015c avyayaḥ puruṣaḥ sākṣī kṣetrajño ’kṣara eva ca
+13135016a yogo yogavidāṁ netā pradhānapuruṣeśvaraḥ
+13135016c nārasiṁhavapuḥ śrīmān keśavaḥ puruṣottamaḥ
+13135017a sarvaḥ śarvaḥ śivaḥ sthāṇur bhūtādir nidhir avyayaḥ
+13135017c saṁbhavo bhāvano bhartā prabhavaḥ prabhur īśvaraḥ
+13135018a svayaṁbhūḥ śaṁbhur ādityaḥ puṣkarākṣo mahāsvanaḥ
+13135018c anādinidhano dhātā vidhātā dhātur uttamaḥ
+13135019a aprameyo hr̥ṣīkeśaḥ padmanābho ’maraprabhuḥ
+13135019c viśvakarmā manus tvaṣṭā sthaviṣṭhaḥ sthaviro dhruvaḥ
+13135020a agrāhyaḥ śāśvataḥ kr̥ṣṇo lohitākṣaḥ pratardanaḥ
+13135020c prabhūtas trikakubdhāma pavitraṁ maṅgalaṁ param
+13135021a īśānaḥ prāṇadaḥ prāṇo jyeṣṭhaḥ śreṣṭhaḥ prajāpatiḥ
+13135021c hiraṇyagarbho bhūgarbho mādhavo madhusūdanaḥ
+13135022a īśvaro vikramī dhanvī medhāvī vikramaḥ kramaḥ
+13135022c anuttamo durādharṣaḥ kr̥tajñaḥ kr̥tir ātmavān
+13135023a sureśaḥ śaraṇaṁ śarma viśvaretāḥ prajābhavaḥ
+13135023c ahaḥ saṁvatsaro vyālaḥ pratyayaḥ sarvadarśanaḥ
+13135024a ajaḥ sarveśvaraḥ siddhaḥ siddhiḥ sarvādir acyutaḥ
+13135024c vr̥ṣākapir ameyātmā sarvayogaviniḥsr̥taḥ
+13135025a vasur vasumanāḥ satyaḥ samātmā saṁmitaḥ samaḥ
+13135025c amoghaḥ puṇḍarīkākṣo vr̥ṣakarmā vr̥ṣākr̥tiḥ
+13135026a rudro bahuśirā babhrur viśvayoniḥ śuciśravāḥ
+13135026c amr̥taḥ śāśvataḥ sthāṇur varāroho mahātapāḥ
+13135027a sarvagaḥ sarvavid bhānur viṣvakseno janārdanaḥ
+13135027c vedo vedavid avyaṅgo vedāṅgo vedavit kaviḥ
+13135028a lokādhyakṣaḥ surādhyakṣo dharmādhyakṣaḥ kr̥tākr̥taḥ
+13135028c caturātmā caturvyūhaś caturdaṁṣṭraś caturbhujaḥ
+13135029a bhrājiṣṇur bhojanaṁ bhoktā sahiṣṇur jagadādijaḥ
+13135029c anagho vijayo jetā viśvayoniḥ punarvasuḥ
+13135030a upendro vāmanaḥ prāṁśur amoghaḥ śucir ūrjitaḥ
+13135030c atīndraḥ saṁgrahaḥ sargo dhr̥tātmā niyamo yamaḥ
+13135031a vedyo vaidyaḥ sadāyogī vīrahā mādhavo madhuḥ
+13135031c atīndriyo mahāmāyo mahotsāho mahābalaḥ
+13135032a mahābuddhir mahāvīryo mahāśaktir mahādyutiḥ
+13135032c anirdeśyavapuḥ śrīmān ameyātmā mahādridhr̥k
+13135033a maheṣvāso mahībhartā śrīnivāsaḥ satāṁ gatiḥ
+13135033c aniruddhaḥ surānando govindo govidāṁ patiḥ
+13135034a marīcir damano haṁsaḥ suparṇo bhujagottamaḥ
+13135034c hiraṇyanābhaḥ sutapāḥ padmanābhaḥ prajāpatiḥ
+13135035a amr̥tyuḥ sarvadr̥k siṁhaḥ saṁdhātā saṁdhimān sthiraḥ
+13135035c ajo durmarṣaṇaḥ śāstā viśrutātmā surārihā
+13135036a gurur gurutamo dhāma satyaḥ satyaparākramaḥ
+13135036c nimiṣo ’nimiṣaḥ sragvī vācaspatir udāradhīḥ
+13135037a agraṇīr grāmaṇīḥ śrīmān nyāyo netā samīraṇaḥ
+13135037c sahasramūrdhā viśvātmā sahasrākṣaḥ sahasrapāt
+13135038a āvartano nivr̥ttātmā saṁvr̥taḥ saṁpramardanaḥ
+13135038c ahaḥ saṁvartako vahnir anilo dharaṇīdharaḥ
+13135039a suprasādaḥ prasannātmā viśvadhr̥g viśvabhug vibhuḥ
+13135039c satkartā satkr̥taḥ sādhur jahnur nārāyaṇo naraḥ
+13135040a asaṁkhyeyo ’prameyātmā viśiṣṭaḥ śiṣṭakr̥c chuciḥ
+13135040c siddhārthaḥ siddhasaṁkalpaḥ siddhidaḥ siddhisādhanaḥ
+13135041a vr̥ṣāhī vr̥ṣabho viṣṇur vr̥ṣaparvā vr̥ṣodaraḥ
+13135041c vardhano vardhamānaś ca viviktaḥ śrutisāgaraḥ
+13135042a subhujo durdharo vāgmī mahendro vasudo vasuḥ
+13135042c naikarūpo br̥hadrūpaḥ śipiviṣṭaḥ prakāśanaḥ
+13135043a ojas tejo dyutidharaḥ prakāśātmā pratāpanaḥ
+13135043c r̥ddhaḥ spaṣṭākṣaro mantraś candrāṁśur bhāskaradyutiḥ
+13135044a amr̥tāṁśūdbhavo bhānuḥ śaśabinduḥ sureśvaraḥ
+13135044c auṣadhaṁ jagataḥ setuḥ satyadharmaparākramaḥ
+13135045a bhūtabhavyabhavannāthaḥ pavanaḥ pāvano ’nilaḥ
+13135045c kāmahā kāmakr̥t kāntaḥ kāmaḥ kāmapradaḥ prabhuḥ
+13135046a yugādikr̥d yugāvarto naikamāyo mahāśanaḥ
+13135046c adr̥śyo vyaktarūpaś ca sahasrajid anantajit
+13135047a iṣṭo viśiṣṭaḥ śiṣṭeṣṭaḥ śikhaṇḍī nahuṣo vr̥ṣaḥ
+13135047c krodhahā krodhakr̥t kartā viśvabāhur mahīdharaḥ
+13135048a acyutaḥ prathitaḥ prāṇaḥ prāṇado vāsavānujaḥ
+13135048c apāṁ nidhir adhiṣṭhānam apramattaḥ pratiṣṭhitaḥ
+13135049a skandaḥ skandadharo dhuryo varado vāyuvāhanaḥ
+13135049c vāsudevo br̥hadbhānur ādidevaḥ puraṁdaraḥ
+13135050a aśokas tāraṇas tāraḥ śūraḥ śaurir janeśvaraḥ
+13135050c anukūlaḥ śatāvartaḥ padmī padmanibhekṣaṇaḥ
+13135051a padmanābho ’ravindākṣaḥ padmagarbhaḥ śarīrabhr̥t
+13135051c maharddhir r̥ddho vr̥ddhātmā mahākṣo garuḍadhvajaḥ
+13135052a atulaḥ śarabho bhīmaḥ samayajño havir hariḥ
+13135052c sarvalakṣaṇalakṣaṇyo lakṣmīvān samitiṁjayaḥ
+13135053a vikṣaro rohito mārgo hetur dāmodaraḥ sahaḥ
+13135053c mahīdharo mahābhāgo vegavān amitāśanaḥ
+13135054a udbhavaḥ kṣobhaṇo devaḥ śrīgarbhaḥ parameśvaraḥ
+13135054c karaṇaṁ kāraṇaṁ kartā vikartā gahano guhaḥ
+13135055a vyavasāyo vyavasthānaḥ saṁsthānaḥ sthānado dhruvaḥ
+13135055c pararddhiḥ paramaḥ spaṣṭas tuṣṭaḥ puṣṭaḥ śubhekṣaṇaḥ
+13135056a rāmo virāmo virato mārgo neyo nayo ’nayaḥ
+13135056c vīraḥ śaktimatāṁ śreṣṭho dharmo dharmavid uttamaḥ
+13135057a vaikuṇṭhaḥ puruṣaḥ prāṇaḥ prāṇadaḥ praṇavaḥ pr̥thuḥ
+13135057c hiraṇyagarbhaḥ śatrughno vyāpto vāyur adhokṣajaḥ
+13135058a r̥tuḥ sudarśanaḥ kālaḥ parameṣṭhī parigrahaḥ
+13135058c ugraḥ saṁvatsaro dakṣo viśrāmo viśvadakṣiṇaḥ
+13135059a vistāraḥ sthāvaraḥ sthāṇuḥ pramāṇaṁ bījam avyayam
+13135059c artho ’nartho mahākośo mahābhogo mahādhanaḥ
+13135060a anirviṇṇaḥ sthaviṣṭho bhūr dharmayūpo mahāmakhaḥ
+13135060c nakṣatranemir nakṣatrī kṣamaḥ kṣāmaḥ samīhanaḥ
+13135061a yajña ijyo mahejyaś ca kratuḥ satraṁ satāṁ gatiḥ
+13135061c sarvadarśī vimuktātmā sarvajño jñānam uttamam
+13135062a suvrataḥ sumukhaḥ sūkṣmaḥ sughoṣaḥ sukhadaḥ suhr̥t
+13135062c manoharo jitakrodho vīrabāhur vidāraṇaḥ
+13135063a svāpanaḥ svavaśo vyāpī naikātmā naikakarmakr̥t
+13135063c vatsaro vatsalo vatsī ratnagarbho dhaneśvaraḥ
+13135064a dharmagub dharmakr̥d dharmī sad asat kṣaram akṣaram
+13135064c avijñātā sahasrāṁśur vidhātā kr̥talakṣaṇaḥ
+13135065a gabhastinemiḥ sattvasthaḥ siṁho bhūtamaheśvaraḥ
+13135065c ādidevo mahādevo deveśo devabhr̥d guruḥ
+13135066a uttaro gopatir goptā jñānagamyaḥ purātanaḥ
+13135066c śarīrabhūtabhr̥d bhoktā kapīndro bhūridakṣiṇaḥ
+13135067a somapo ’mr̥tapaḥ somaḥ purujit purusattamaḥ
+13135067c vinayo jayaḥ satyasaṁdho dāśārhaḥ sātvatāṁ patiḥ
+13135068a jīvo vinayitā sākṣī mukundo ’mitavikramaḥ
+13135068c ambhonidhir anantātmā mahodadhiśayo ’ntakaḥ
+13135069a ajo mahārhaḥ svābhāvyo jitāmitraḥ pramodanaḥ
+13135069c ānando nandano nandaḥ satyadharmā trivikramaḥ
+13135070a maharṣiḥ kapilācāryaḥ kr̥tajño medinīpatiḥ
+13135070c tripadas tridaśādhyakṣo mahāśr̥ṅgaḥ kr̥tāntakr̥t
+13135071a mahāvarāho govindaḥ suṣeṇaḥ kanakāṅgadī
+13135071c guhyo gabhīro gahano guptaś cakragadādharaḥ
+13135072a vedhāḥ svāṅgo ’jitaḥ kr̥ṣṇo dr̥ḍhaḥ saṁkarṣaṇo ’cyutaḥ
+13135072c varuṇo vāruṇo vr̥kṣaḥ puṣkarākṣo mahāmanāḥ
+13135073a bhagavān bhagahā nandī vanamālī halāyudhaḥ
+13135073c ādityo jyotir ādityaḥ sahiṣṇur gatisattamaḥ
+13135074a sudhanvā khaṇḍaparaśur dāruṇo draviṇapradaḥ
+13135074c divaḥspr̥k sarvadr̥g vyāso vācaspatir ayonijaḥ
+13135075a trisāmā sāmagaḥ sāma nirvāṇaṁ bheṣajaṁ bhiṣak
+13135075c saṁnyāsakr̥c chamaḥ śānto niṣṭhā śāntiḥ parāyaṇam
+13135076a śubhāṅgaḥ śāntidaḥ sraṣṭā kumudaḥ kuvaleśayaḥ
+13135076c gohito gopatir goptā vr̥ṣabhākṣo vr̥ṣapriyaḥ
+13135077a anivartī nivr̥ttātmā saṁkṣeptā kṣemakr̥c chivaḥ
+13135077c śrīvatsavakṣāḥ śrīvāsaḥ śrīpatiḥ śrīmatāṁ varaḥ
+13135078a śrīdaḥ śrīśaḥ śrīnivāsaḥ śrīnidhiḥ śrīvibhāvanaḥ
+13135078c śrīdharaḥ śrīkaraḥ śreyaḥ śrīmām̐l lokatrayāśrayaḥ
+13135079a svakṣaḥ svaṅgaḥ śatānando nandir jyotir gaṇeśvaraḥ
+13135079c vijitātmā vidheyātmā satkīrtiś chinnasaṁśayaḥ
+13135080a udīrṇaḥ sarvataścakṣur anīśaḥ śāśvataḥ sthiraḥ
+13135080c bhūśayo bhūṣaṇo bhūtir viśokaḥ śokanāśanaḥ
+13135081a arciṣmān arcitaḥ kumbho viśuddhātmā viśodhanaḥ
+13135081c aniruddho ’pratirathaḥ pradyumno ’mitavikramaḥ
+13135082a kālaneminihā vīraḥ śūraḥ śaurir janeśvaraḥ
+13135082c trilokātmā trilokeśaḥ keśavaḥ keśihā hariḥ
+13135083a kāmadevaḥ kāmapālaḥ kāmī kāntaḥ kr̥tāgamaḥ
+13135083c anirdeśyavapur viṣṇur vīro ’nanto dhanaṁjayaḥ
+13135084a brahmaṇyo brahmakr̥d brahmā brahma brahmavivardhanaḥ
+13135084c brahmavid brāhmaṇo brahmī brahmajño brāhmaṇapriyaḥ
+13135085a mahākramo mahākarmā mahātejā mahoragaḥ
+13135085c mahākratur mahāyajvā mahāyajño mahāhaviḥ
+13135086a stavyaḥ stavapriyaḥ stotraṁ stutiḥ stotā raṇapriyaḥ
+13135086c pūrṇaḥ pūrayitā puṇyaḥ puṇyakīrtir anāmayaḥ
+13135087a manojavas tīrthakaro vasuretā vasupradaḥ
+13135087c vasuprado vāsudevo vasur vasumanā haviḥ
+13135088a sadgatiḥ satkr̥tiḥ sattā sadbhūtiḥ satparāyaṇaḥ
+13135088c śūraseno yaduśreṣṭhaḥ sannivāsaḥ suyāmunaḥ
+13135089a bhūtāvāso vāsudevo sarvāsunilayo ’nalaḥ
+13135089c darpahā darpado dr̥pto durdharo ’thāparājitaḥ
+13135090a viśvamūrtir mahāmūrtir dīptamūrtir amūrtimān
+13135090c anekamūrtir avyaktaḥ śatamūrtiḥ śatānanaḥ
+13135091a eko naikaḥ savaḥ kaḥ kiṁ yat tat padam anuttamam
+13135091c lokabandhur lokanātho mādhavo bhaktavatsalaḥ
+13135092a suvarṇavarṇo hemāṅgo varāṅgaś candanāṅgadī
+13135092c vīrahā viṣamaḥ śūnyo ghr̥tāśīr acalaś calaḥ
+13135093a amānī mānado mānyo lokasvāmī trilokadhr̥k
+13135093c sumedhā medhajo dhanyaḥ satyamedhā dharādharaḥ
+13135094a tejo vr̥ṣo dyutidharaḥ sarvaśastrabhr̥tāṁ varaḥ
+13135094c pragraho nigraho ’vyagro naikaśr̥ṅgo gadāgrajaḥ
+13135095a caturmūrtiś caturbāhuś caturvyūhaś caturgatiḥ
+13135095c caturātmā caturbhāvaś caturvedavid ekapāt
+13135096a samāvarto nivr̥ttātmā durjayo duratikramaḥ
+13135096c durlabho durgamo durgo durāvāso durārihā
+13135097a śubhāṅgo lokasāraṅgaḥ sutantus tantuvardhanaḥ
+13135097c indrakarmā mahākarmā kr̥takarmā kr̥tāgamaḥ
+13135098a udbhavaḥ sundaraḥ sundo ratnanābhaḥ sulocanaḥ
+13135098c arko vājasanaḥ śr̥ṅgī jayantaḥ sarvavij jayī
+13135099a suvarṇabindur akṣobhyaḥ sarvavāg īśvareśvaraḥ
+13135099c mahāhrado mahāgarto mahābhūto mahānidhiḥ
+13135100a kumudaḥ kuṁdaraḥ kundaḥ parjanyaḥ pavano ’nilaḥ
+13135100c amr̥tāṁśo ’mr̥tavapuḥ sarvajñaḥ sarvatomukhaḥ
+13135101a sulabhaḥ suvrataḥ siddhaḥ śatrujic chatrutāpanaḥ
+13135101c nyagrodhodumbaro ’śvatthaś cāṇūrāndhraniṣūdanaḥ
+13135102a sahasrārciḥ saptajihvaḥ saptaidhāḥ saptavāhanaḥ
+13135102c amūrtir anagho ’cintyo bhayakr̥d bhayanāśanaḥ
+13135103a aṇur br̥hat kr̥śaḥ sthūlo guṇabhr̥n nirguṇo mahān
+13135103c adhr̥taḥ svadhr̥taḥ svāsyaḥ prāgvaṁśo vaṁśavardhanaḥ
+13135104a bhārabhr̥t kathito yogī yogīśaḥ sarvakāmadaḥ
+13135104c āśramaḥ śramaṇaḥ kṣāmaḥ suparṇo vāyuvāhanaḥ
+13135105a dhanurdharo dhanurvedo daṇḍo damayitā damaḥ
+13135105c aparājitaḥ sarvasaho niyantā niyamo yamaḥ
+13135106a sattvavān sāttvikaḥ satyaḥ satyadharmaparāyaṇaḥ
+13135106c abhiprāyaḥ priyārho ’rhaḥ priyakr̥t prītivardhanaḥ
+13135107a vihāyasagatir jyotiḥ surucir hutabhug vibhuḥ
+13135107c ravir virocanaḥ sūryaḥ savitā ravilocanaḥ
+13135108a ananto hutabhug bhoktā sukhado naikado ’grajaḥ
+13135108c anirviṇṇaḥ sadāmarṣī lokādhiṣṭhānam adbhutam
+13135109a sanāt sanātanatamaḥ kapilaḥ kapir avyayaḥ
+13135109c svastidaḥ svastikr̥t svasti svastibhuk svastidakṣiṇaḥ
+13135110a araudraḥ kuṇḍalī cakrī vikramy ūrjitaśāsanaḥ
+13135110c śabdātigaḥ śabdasahaḥ śiśiraḥ śarvarīkaraḥ
+13135111a akrūraḥ peśalo dakṣo dakṣiṇaḥ kṣamiṇāṁ varaḥ
+13135111c vidvattamo vītabhayaḥ puṇyaśravaṇakīrtanaḥ
+13135112a uttāraṇo duṣkr̥tihā puṇyo duḥsvapnanāśanaḥ
+13135112c vīrahā rakṣaṇaḥ santo jīvanaḥ paryavasthitaḥ
+13135113a anantarūpo ’nantaśrīr jitamanyur bhayāpahaḥ
+13135113c caturasro gabhīrātmā vidiśo vyādiśo diśaḥ
+13135114a anādir bhūr bhuvo lakṣmīḥ suvīro rucirāṅgadaḥ
+13135114c janano janajanmādir bhīmo bhīmaparākramaḥ
+13135115a ādhāranilayo dhātā puṣpahāsaḥ prajāgaraḥ
+13135115c ūrdhvagaḥ satpathācāraḥ prāṇadaḥ praṇavaḥ paṇaḥ
+13135116a pramāṇaṁ prāṇanilayaḥ prāṇakr̥t prāṇajīvanaḥ
+13135116c tattvaṁ tattvavid ekātmā janmamr̥tyujarātigaḥ
+13135117a bhūr bhuvaḥ svas tarus tāraḥ savitā prapitāmahaḥ
+13135117c yajño yajñapatir yajvā yajñāṅgo yajñavāhanaḥ
+13135118a yajñabhr̥d yajñakr̥d yajñī yajñabhug yajñasādhanaḥ
+13135118c yajñāntakr̥d yajñaguhyam annam annāda eva ca
+13135119a ātmayoniḥ svayaṁjāto vaikhānaḥ sāmagāyanaḥ
+13135119c devakīnandanaḥ sraṣṭā kṣitīśaḥ pāpanāśanaḥ
+13135120a śaṅkhabhr̥n nandakī cakrī śārṅgadhanvā gadādharaḥ
+13135120c rathāṅgapāṇir akṣobhyaḥ sarvapraharaṇāyudhaḥ
