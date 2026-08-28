@@ -38,6 +38,11 @@ present and make it inspectable, rather than paraphrasing.
   case's force, e.g. genitive → "of"); the samāsa-vigraha for compounds; and a
   link into the glossary for technical terms.
 - **Cards open on CLICK only** (never hover — hover obscures the text).
+- **Cards are contextual, not modal.** A card is anchored beside its word and
+  closes when the reader taps the same word, clicks away, presses Escape, or
+  scrolls. It must not require a close button or support dragging. A persistent
+  glossary/reference panel is a separate interaction; follow
+  `docs/UI_DESIGN_STANDARD.md` for that distinction.
 - **Bidirectional highlight**: tapping a Sanskrit word highlights its English,
   and tapping an English phrase highlights + cards its Sanskrit word.
 - **Commentary gets the identical treatment.** A commentator's Sanskrit is

@@ -37,6 +37,20 @@ duplicate action merely because there is room for it.
   Enter and exit full-screen use matched corner glyphs that visibly encode the
   current action.
 
+## Reader word cards
+
+- A word card is a brief, contextual explanation of the tapped Sanskrit word
+  or linked English phrase. It is non-modal, anchored beside its trigger, and
+  automatically clamped inside the viewport.
+- Opening a word card replaces the previous one. Tapping the same token again,
+  clicking elsewhere, pressing Escape, or scrolling dismisses it. A word card
+  has no persistent close control and is never draggable.
+- Keep source attribution distinct from the card's concise gloss. If an
+  attributed commentary is available, name its author in the action that opens
+  it; do not repeat generic provenance labels above every gloss.
+- Persistent, side-pinned surfaces are reserved for glossary and reference
+  views that need sustained reading. They are not a substitute for word cards.
+
 ## Sharing and feedback
 
 - On phones, tablets, and installed PWAs, Share uses the native share sheet

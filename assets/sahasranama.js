@@ -299,12 +299,18 @@ function closeWordCard() {
 function placeCard(card, anchor) {
   const rect = anchor.getBoundingClientRect();
   const margin = 10;
+  card.style.left = "0px";
+  card.style.top = "0px";
   const cardRect = card.getBoundingClientRect();
-  let left = rect.left;
-  let top = rect.bottom + 8;
-  if (left + cardRect.width > innerWidth - margin) left = innerWidth - cardRect.width - margin;
-  if (top + cardRect.height > innerHeight - margin) top = Math.max(margin, rect.top - cardRect.height - 8);
-  card.style.left = `${Math.max(margin, left)}px`;
+  const minLeft = window.scrollX + margin;
+  const maxLeft = window.scrollX + document.documentElement.clientWidth - cardRect.width - margin;
+  let left = rect.left + rect.width / 2 - cardRect.width / 2 + window.scrollX;
+  let top = rect.top - cardRect.height - 10 + window.scrollY;
+  left = Math.max(minLeft, Math.min(maxLeft, left));
+  if (top < window.scrollY + margin) top = rect.bottom + 10 + window.scrollY;
+  const maxTop = window.scrollY + window.innerHeight - cardRect.height - margin;
+  if (top > maxTop) top = Math.max(window.scrollY + margin, maxTop);
+  card.style.left = `${left}px`;
   card.style.top = `${top}px`;
 }
 
@@ -329,19 +335,18 @@ async function openWordCard(number, anchor) {
     ? `<div class="wc-note">${esc(analysis.sandhi)}</div>`
     : "";
   const grammar = `<div class="wc-gram"><span class="wc-gram-main">${esc(analysis.morph || "")}</span><br><span class="wc-gram-stem">stem: <span lang="sa-Latn">${esc(analysis.stem || "")}</span></span><br><span class="wc-gram-affix">formation: ${esc(analysis.affix || "")}</span>${compound ? `<br>${compound}` : ""}</div>${sandhi}`;
-  const definition = `<div class="wc-mean vsn-card-definition"><span class="wc-note-label">Site-generated Simplified summary</span>${esc(simpleExcerpt(name))}</div>`;
+  const definition = `<div class="wc-mean vsn-card-definition">${esc(simpleExcerpt(name))}</div>`;
   const detail = detailFor(name);
   const explanationAction = detail
-    ? `<div class="wc-gls vsn-card-detail-action"><button class="wc-gl vsn-show-detail" type="button">Show detailed explanation ↓</button></div>`
+    ? `<div class="wc-gls vsn-card-detail-action"><button class="wc-gl vsn-show-detail" type="button">Read Chinmayananda’s explanation ↓</button></div>`
     : "";
   const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
   const deva = analysis.citation_devanagari || name.deva;
   WORD_CARD = document.createElement("div");
   WORD_CARD.className = "wcard vsn-wcard";
-  WORD_CARD.setAttribute("role", "dialog");
-  WORD_CARD.innerHTML = `<button class="vsn-wcard-close" type="button" aria-label="Close">×</button><div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${definition}${parts}${root}${grammar}${explanationAction}`;
+  WORD_CARD.setAttribute("role", "tooltip");
+  WORD_CARD.innerHTML = `<div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${definition}${parts}${root}${grammar}${explanationAction}`;
   document.body.append(WORD_CARD);
-  WORD_CARD.querySelector(".vsn-wcard-close").addEventListener("click", closeWordCard);
   const showDetail = WORD_CARD.querySelector(".vsn-show-detail");
   if (showDetail) showDetail.addEventListener("click", async () => {
     await setChantView(false);
@@ -387,6 +392,16 @@ function wireWords() {
       openWordCard(target.dataset.nameNumber, target);
     } else if (event.key === "Escape") closeWordCard();
   });
+  document.addEventListener("click", event => {
+    if (WORD_CARD?.contains(event.target)) return;
+    closeWordCard();
+  });
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeWordCard();
+  });
+  ROOT.closest(".dp-pane-body")?.addEventListener("scroll", closeWordCard, { passive: true });
+  document.addEventListener("scroll", closeWordCard, { passive: true, capture: true });
+  window.addEventListener("scroll", closeWordCard, { passive: true });
 }
 
 async function setDetails(open) {

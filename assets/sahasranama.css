@@ -146,21 +146,10 @@
 .vsn-detail-copy q::before { content: open-quote; }
 .vsn-detail-copy q::after { content: close-quote; }
 .vsn-detail-source { margin-top: 10px; color: var(--muted-soft); font: 10px/1.45 var(--sans); }
-.vsn-wcard {
-  position: fixed; max-width: min(340px, calc(100vw - 20px));
-  max-height: calc(100vh - 20px); overflow-y: auto;
-}
-.vsn-wcard-close {
-  position: absolute; top: 5px; right: 7px;
-  width: 26px; height: 26px; padding: 0;
-  border: 0; background: none; color: var(--muted);
-  font-size: 19px; cursor: pointer;
-}
 .vsn-card-number { margin-left: 5px; color: var(--muted-soft); font-size: 10px; vertical-align: 2px; }
 .vsn-card-deva { margin: 2px 0 9px; color: var(--muted); font-family: var(--serif); font-size: 16px; }
 .vsn-card-definition { padding: 8px 0 10px; border-bottom: 1px solid var(--hairline); line-height: 1.5; }
 .vsn-wcard .wc-root { display: block; }
-.wc-note-label { display: block; margin-bottom: 2px; color: var(--muted-soft); font-size: 9px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
 .vsn-card-detail-action { margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--hairline); }
 .vsn-recite-bar { margin-top: 28px; }
 
