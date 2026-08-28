@@ -9,6 +9,9 @@
 This repository may use software to make an audit faster. Software does not
 become the authority for a Sanskrit reading, segmentation, derivation, grammar,
 or translation merely because it is deterministic or cites sūtra numbers.
+If a parser, dictionary, or model suggestion conflicts with a witnessed source
+text or the shared source library, the witness wins until the reading is
+independently re-derived from the sources.
 
 ## 1. Authority order
 
