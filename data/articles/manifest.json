@@ -185,7 +185,7 @@
       "word_count_approx": 3216,
       "date": "2026-08-04",
       "for_thinker_id": "madhva",
-      "status": "published"
+      "status": "unpublished"
     },
     {
       "slug": "caitanya",
@@ -1220,7 +1220,7 @@
       ],
       "word_count_approx": 1070,
       "date": "2026-08-04",
-      "status": "published"
+      "status": "unpublished"
     }
   ]
 }
