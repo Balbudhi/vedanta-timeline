@@ -204,25 +204,30 @@ function renderPreface() {
     <header class="vsn-section-head"><span id="vsn-preface-title">Before the thousand names</span><span>Opening in this recording</span></header>
     <p class="vsn-preface-intro">This performance begins with the invocation, the Mahābhārata dialogue, the ritual assignment, and meditation. The thousand names follow.</p>
     ${groups.map(renderPrefaceGroup).join("")}
-  </section>
-  <header class="vsn-section-head vsn-names-head"><span>The thousand names</span><span>Names 1–1000</span></header>`;
+  </section>`;
+}
+
+function renderNamesSection() {
+  return `<section class="vsn-names-section" aria-labelledby="vsn-names-title">
+    <header class="vsn-section-head vsn-sticky-section vsn-names-head"><span id="vsn-names-title">Names</span><span>1–1000</span></header>
+    ${DATA.stanzas.map(renderStanza).join("")}
+  </section>`;
 }
 
 function renderPostlude() {
   const units = DATA.postlude || [];
   if (!units.length) return "";
   return `<section class="vsn-postlude" aria-labelledby="vsn-postlude-title">
-    <header class="vsn-section-head vsn-postlude-head"><span id="vsn-postlude-title">Conclusion</span><span>As performed in this recording</span></header>
+    <header class="vsn-section-head vsn-sticky-section vsn-postlude-head"><span id="vsn-postlude-title">Conclusion</span><span>As performed in this recording</span></header>
     ${units.map(unit => renderPrefaceUnit(unit, "postlude", "Conclusion")).join("")}
   </section>`;
 }
 
 function renderDetailToggle() {
   return `<div class="voicebar vsn-viewbar">
-    <span class="voicebar-label">View —</span>
     <div class="voicebar-chips" role="group" aria-label="Reading view">
-      <button class="vchip vsn-detail-chip" type="button" aria-pressed="false">Detailed reading</button>
-      <button class="vchip vsn-chant-chip" type="button" aria-pressed="false"><span class="vsn-chant-icon" aria-hidden="true">अ</span>Chant only</button>
+      <button class="vchip vsn-detail-chip" type="button" aria-label="Detailed reading" aria-pressed="false">Detail</button>
+      <button class="vchip vsn-chant-chip" type="button" aria-label="Chant follow view" aria-pressed="false">Chant</button>
     </div>
   </div>`;
 }
@@ -237,7 +242,7 @@ function renderAttribution() {
 }
 
 function renderAudio() {
-  return `<div class="recite-bar vsn-recite-bar" id="vsnReciteBar">
+  return `<div class="recite-bar reader-media-dock vsn-recite-bar" id="vsnReciteBar">
     <audio preload="metadata" src="${esc(DATA.audio.src)}"></audio>
     <div class="rb-controls">
       <button class="rb-skip vsn-back" type="button" aria-label="Back 15 seconds"><svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">15</text></svg></button>
@@ -381,11 +386,14 @@ function readChantView() {
 
 async function setChantView(active, persist) {
   CHANT_ONLY = Boolean(active);
-  await setDetails(!CHANT_ONLY);
-  const chip = ROOT.querySelector(".vsn-chant-chip");
-  chip?.classList.toggle("is-active", CHANT_ONLY);
-  chip?.setAttribute("aria-pressed", String(CHANT_ONLY));
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-chant-only", CHANT_ONLY);
+  const chantChip = ROOT.querySelector(".vsn-chant-chip");
+  const detailChip = ROOT.querySelector(".vsn-detail-chip");
+  chantChip?.classList.toggle("is-active", CHANT_ONLY);
+  chantChip?.setAttribute("aria-pressed", String(CHANT_ONLY));
+  detailChip?.classList.toggle("is-active", !CHANT_ONLY);
+  detailChip?.setAttribute("aria-pressed", String(!CHANT_ONLY));
+  await setDetails(!CHANT_ONLY);
   closeWordCard();
   window.GitaReader?.clearWords?.();
   if (persist !== false) {
@@ -533,7 +541,7 @@ async function render(root, options) {
   DETAILS_PROMISE = null;
   TIMING_BY_ID = new Map((DATA.audio.units || []).map(unit => [unit.id, unit]));
   NAME_BY_NUMBER = new Map(DATA.stanzas.flatMap(stanza => stanza.names).map(name => [Number(name.number), name]));
-  root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderDetailToggle()}${renderPreface()}${DATA.stanzas.map(renderStanza).join("")}${renderPostlude()}${renderAudio()}</div>`;
+  root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderDetailToggle()}${renderPreface()}${renderNamesSection()}${renderPostlude()}${renderAudio()}</div>`;
   const renderedAt = performance.now();
   const reader = root.querySelector(".vsn-reader");
   if (reader) {

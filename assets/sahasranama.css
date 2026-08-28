@@ -22,19 +22,17 @@
 .vsn-attribution-role { margin-top: 2px; color: var(--muted); font-size: 11px; }
 .vsn-attribution-text { margin-top: 7px; color: var(--muted-soft); font-size: 10.5px; }
 .vsn-reader .vsn-viewbar { margin-bottom: 4px; -webkit-mask-image: none; mask-image: none; }
-.vsn-detail-icon { display: inline-block; width: 14px; margin-right: 4px; font-size: 15px; line-height: 1; }
-.vsn-detail-chip.is-active {
-  border-color: var(--ink-soft); color: var(--ink); font-weight: 600;
-  box-shadow: inset 0 0 0 1px var(--ink-soft); background: var(--bg-warm);
+.vsn-viewbar .voicebar-chips {
+  flex: none; gap: 0; padding: 0; overflow: visible;
+  border: 1px solid var(--rule); border-radius: 999px;
 }
-.vsn-chant-icon {
-  display: inline-grid; place-items: center; width: 14px; margin-right: 4px;
-  font-family: var(--serif); font-size: 13px; line-height: 1;
+.vsn-viewbar .vchip {
+  min-width: 68px; justify-content: center; padding: 5px 13px;
+  border: 0; border-radius: 999px; box-shadow: none;
 }
-.vsn-chant-chip.is-active {
-  border-color: var(--ink-soft); color: var(--ink); font-weight: 600;
-  box-shadow: inset 0 0 0 1px var(--ink-soft); background: var(--bg-warm);
-}
+.vsn-viewbar .vchip.is-active { background: var(--ink); color: var(--on-ink); box-shadow: none; }
+.vsn-viewbar .vchip + .vchip { border-left: 1px solid var(--rule); border-radius: 0 999px 999px 0; }
+.vsn-viewbar .vchip:first-child { border-radius: 999px 0 0 999px; }
 .vsn-section-head {
   display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
   margin: 22px 12px 0; padding: 0 0 9px; border-bottom: 1px solid var(--hairline);
@@ -51,6 +49,17 @@
   margin: 22px 12px 4px; color: var(--muted); font: 700 10px/1.4 var(--sans);
   letter-spacing: .1em; text-transform: uppercase;
 }
+.vsn-preface-group-title,
+.vsn-sticky-section {
+  position: sticky; top: calc(0px - var(--reader-content-pad-top, 0px)); z-index: 18;
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
+}
+.vsn-preface-group-title {
+  margin: 14px 0 4px; padding: 8px 12px;
+  border-bottom: 1px solid var(--hairline);
+}
+.vsn-sticky-section { margin-left: 0; margin-right: 0; padding: 9px 12px; }
 .vsn-preface-unit { scroll-margin-top: 18px; }
 .vsn-preface-unit .verse-deva,
 .vsn-preface-unit .ix-deva.vsn-preface-deva { font-size: 19px; line-height: 1.75; margin-bottom: 12px; }

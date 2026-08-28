@@ -194,6 +194,13 @@ html[data-theme="dark"] .gita-rail-link.is-active { border-left-color: #d8c074; 
   box-shadow: 0 2px 10px -6px rgba(0,0,0,.22);
   font-family: var(--sans);
 }
+
+/* Shared placement contract for any reading with persistent audio. The app
+   shell consumes these variables when it docks the player on small screens. */
+.reader-media-dock {
+  --reader-media-inline: 10px;
+  --reader-media-mobile-bottom: max(24px, env(safe-area-inset-bottom));
+}
 [data-theme="dark"] .recite-bar { --recite-fill: #c9ad6a; }
 
 .rb-controls { display: flex; align-items: center; gap: 4px; flex: none; }
