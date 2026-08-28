@@ -232,8 +232,8 @@ function renderPostlude() {
 }
 
 function renderDetailToggle() {
-  return `<button class="dp-reader-mode-btn vsn-detail-chip" type="button" aria-label="Detailed reading" aria-pressed="false">Detail</button>
-    <button class="dp-reader-mode-btn vsn-chant-chip" type="button" aria-label="Chant follow view" aria-pressed="false">Chant</button>`;
+  return `<button class="dp-reader-mode-btn vsn-detail-chip" type="button" aria-label="Full reading" aria-pressed="false">Full</button>
+    <button class="dp-reader-mode-btn vsn-chant-chip" type="button" aria-label="Simple chant reading" aria-pressed="false">Simple</button>`;
 }
 
 function modeControl(selector) {

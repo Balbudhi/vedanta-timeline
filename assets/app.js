@@ -419,7 +419,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "__BUILD_ID__-vsn-ui-v4";
+const DATA_VERSION = "__BUILD_ID__-vsn-ui-v5";
 
 async function loadJSON(path) {
   try {
