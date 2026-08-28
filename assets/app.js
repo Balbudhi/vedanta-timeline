@@ -1947,6 +1947,15 @@ function clampPaneWidth(px) {
 // minmax(0,1fr) lets the timeline column shrink so the panel can grow.
 function applyDetailPaneWidth() {
   if (!stage) return;
+  // Reading mode owns the whole stage. Deep-link startup applies `?r=1`
+  // before opening the routed article, and openPanel() then calls this helper;
+  // a persisted side-panel width must never recreate two grid columns after
+  // the timeline has been hidden. Keeping the guard here also covers viewport
+  // resize and drag-finalization callers.
+  if (document.body.classList.contains("is-reading-mode")) {
+    stage.style.gridTemplateColumns = "";
+    return;
+  }
   stage.style.gridTemplateColumns =
     detailPaneWidthPx == null ? "" : `minmax(0,1fr) ${clampPaneWidth(detailPaneWidthPx)}px`;
 }
