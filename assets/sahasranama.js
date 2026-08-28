@@ -128,7 +128,7 @@ function renderEnglish(stanza) {
     }).join("");
     return `<div class="vsn-meaning-group" data-line-index="${lineIndex}">${rows}</div>`;
   }).join("");
-  return `<div class="vsn-meanings"><div class="vsn-meaning-head" aria-hidden="true"><span>Devanāgarī</span><span>IAST</span><span>Meaning</span></div>${lines}</div>`;
+  return `<div class="vsn-meanings">${lines}</div>`;
 }
 
 function renderDetails(stanza) {
