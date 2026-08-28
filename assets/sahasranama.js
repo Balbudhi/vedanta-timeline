@@ -204,9 +204,10 @@ function renderPrefaceUnit(unit, groupId, groupTitle) {
        <div class="ix vsn-preface-ix"><div class="ix-pada vsn-preface-iast" lang="sa-Latn">${esc(unit.iast).replace(/\n/g, "<br>")}</div></div>`;
   const chinmayananda = unit.chinmayananda?.english;
   const label = unit.label || ({ "closing-name": "Closing", protection: "Protection" }[unit.id] || unit.id);
+  const titleClass = /^\d+$/.test(label) ? "" : " vsn-preface-unit-title";
   const playbackLabel = groupTitle ? `${groupTitle} ${label}` : label;
   return `<article class="verse vsn-preface-unit${compact}" id="vsn-${esc(unit.id)}" data-timing-id="${esc(unit.id)}">
-    <header class="verse-head"><span class="verse-locus">${esc(label)}</span>${unit.speaker ? `<span class="verse-speaker">${esc(unit.speaker)}</span>` : ""}${timingPlayButton(unit.id, playbackLabel)}</header>
+    <header class="verse-head"><span class="verse-locus${titleClass}">${esc(label)}</span>${unit.speaker ? `<span class="verse-speaker">${esc(unit.speaker)}</span>` : ""}${timingPlayButton(unit.id, playbackLabel)}</header>
     ${interactive}
     ${chinmayananda ? `<div class="voice-block vsn-preface-unit-commentary" hidden>
       <div class="voice-who">Swami Chinmayananda <span class="voice-school">Advaita</span></div>
