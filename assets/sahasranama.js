@@ -269,7 +269,7 @@ function renderAttribution() {
   return `<div class="vsn-attribution">
     <div class="vsn-attribution-kicker">Source and attribution</div>
     <div class="vsn-attribution-primary"><button class="vsn-attribution-author vsn-thinker-link" type="button">Swami Chinmayananda</button> · <em>Thousand Ways to the Transcendental</em></div>
-    <div class="vsn-attribution-role vsn-full-attribution"><strong>Full</strong> presents Swami Chinmayananda’s complete commentary in his words.</div>
+    <div class="vsn-attribution-role vsn-full-attribution"><strong>Full</strong> presents Swami Chinmayananda’s complete commentary in his words. For Gītā quotations he leaves untranslated, the reader supplies a literal English line.</div>
     <div class="vsn-attribution-role vsn-simplified-attribution"><strong>Simplified</strong> is a site-generated concise reading derived from his explanations. The Simplified wording is not credited to him as a translation or quotation.</div>
     <div class="vsn-attribution-text">Sanskrit text: <em>Viṣṇusahasranāma</em>, Mahābhārata, Anuśāsanaparvan · received text collated with the BORI critical edition.</div>
   </div>`;

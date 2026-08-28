@@ -371,10 +371,12 @@
           "i": 14
         }
       ],
-      "english": null,
+      "english": "The self whose mind is joined in yoga sees the Self abiding in all beings and all beings in the Self; he sees the same everywhere",
       "alignment_score": 0.9629,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{9,10,11:The self whose mind is joined in yoga} {8:sees} {3:the Self} {0,1,2:abiding in all beings} {6:and} {4,5:all beings} {7:in the Self}; {12,13,14:he sees the same everywhere}",
+      "english_source": "site-literal-translation"
     },
     "name-11-paragraph-4-span-0": {
       "quote_id": "name-11-paragraph-4-span-0",
@@ -755,10 +757,12 @@
           "i": 14
         }
       ],
-      "english": null,
+      "english": "They say the senses are superior; the mind is superior to the senses; but the intellect is superior to the mind; and that is beyond the intellect",
       "alignment_score": 0.9156,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{2:They say} {0,1:the senses are superior}; {4,5:the mind is superior} {3:to the senses}; {7:but} {8,9:the intellect is superior} {6:to the mind}; {13:and} {10,14:that} {12:is beyond} {11:the intellect}",
+      "english_source": "site-literal-translation"
     },
     "name-12-paragraph-1-span-0": {
       "quote_id": "name-12-paragraph-1-span-0",
@@ -987,7 +991,8 @@
       "alignment_score": 0.9231,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:There where having gone}, {2,3:men never return}. {4,5,6,7:That sacred place is My seat}"
+      "english_slots": "{0,1:There where having gone}, {2,3:men never return}. {4,5,6,7:That sacred place is My seat}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-12-paragraph-2-span-0": {
       "quote_id": "name-12-paragraph-2-span-0",
@@ -1197,7 +1202,8 @@
       "alignment_score": 1.0,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{3:O Son of Kunti}, {0,1:having reached Me}, {2,4,5,6,7:there shall be no more any re-birth}"
+      "english_slots": "{3:O Son of Kunti}, {0,1:having reached Me}, {2,4,5,6,7:there shall be no more any re-birth}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-12-paragraph-2-span-1": {
       "quote_id": "name-12-paragraph-2-span-1",
@@ -1336,7 +1342,8 @@
       "alignment_score": 0.9309,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:That having reached} {2,3,4:no return again}"
+      "english_slots": "{0,1:That having reached} {2,3,4:no return again}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-19-paragraph-1-span-0": {
       "quote_id": "name-19-paragraph-1-span-0",
@@ -1718,7 +1725,8 @@
       "alignment_score": 0.8765,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,2,3,4,5,6:Those who contemplate upon Me with total dedication}, {7,8,9,10,11:their daily welfare and spiritual progress} {12,13:I shall bear}"
+      "english_slots": "{0,1,2,3,4,5,6:Those who contemplate upon Me with total dedication}, {7,8,9,10,11:their daily welfare and spiritual progress} {12,13:I shall bear}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-28-paragraph-1-span-0": {
       "quote_id": "name-28-paragraph-1-span-0",
@@ -1911,7 +1919,8 @@
       "alignment_score": 0.8807,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Eternal}, {1,2:All — Pervading}, {3:the Pillar}, {4:Motionless} {5,6:(is) this Ancient One}"
+      "english_slots": "{0:Eternal}, {1,2:All — Pervading}, {3:the Pillar}, {4:Motionless} {5,6:(is) this Ancient One}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-31-paragraph-0-span-0": {
       "quote_id": "name-31-paragraph-0-span-0",
@@ -2004,10 +2013,12 @@
           "i": 2
         }
       ],
-      "english": null,
+      "english": "I manifest age after age",
       "alignment_score": 1.0,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:I manifest} {1,2:age after age}",
+      "english_source": "site-literal-translation"
     },
     "name-81-paragraph-0-span-0": {
       "quote_id": "name-81-paragraph-0-span-0",
@@ -2182,11 +2193,12 @@
           "i": 5
         }
       ],
-      "english": "Rasopyasya Param Drishtvaa Nivartate",
+      "english": "Even his taste turns away upon seeing the Supreme",
       "alignment_score": 0.8433,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,2:Rasopyasya} {3:Param} {4:Drishtvaa} {5:Nivartate}"
+      "english_slots": "{0,1,2:Even his taste} {5:turns away} {3,4:upon seeing the Supreme}",
+      "english_source": "site-literal-translation"
     },
     "name-94-paragraph-0-span-1": {
       "quote_id": "name-94-paragraph-0-span-1",
@@ -2281,10 +2293,12 @@
           "i": 3
         }
       ],
-      "english": null,
+      "english": "With eyes, heads, and faces everywhere",
       "alignment_score": 0.7807,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:With} {1:eyes}, {2:heads}, {3:and faces everywhere}",
+      "english_source": "site-literal-translation"
     },
     "name-95-paragraph-0-span-0": {
       "quote_id": "name-95-paragraph-0-span-0",
@@ -2402,7 +2416,8 @@
       "alignment_score": 0.8634,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:That which is born} {1,2:must necessarily} {3:die}"
+      "english_slots": "{0:That which is born} {1,2:must necessarily} {3:die}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-95-paragraph-2-span-0": {
       "quote_id": "name-95-paragraph-2-span-0",
@@ -2968,10 +2983,12 @@
           "i": 20
         }
       ],
-      "english": null,
+      "english": "This Self is not born, nor does it ever die; having come to be, it will not again cease to be. Unborn, eternal, everlasting, and ancient, it is not killed when the body is killed",
       "alignment_score": 0.8771,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{6:This Self} {0,1:is not born}, {3:nor} {2,4:does it ever die}; {7,8:having come to be, it will not} {5,9,10,11:again cease to be}. {12:Unborn}, {13:eternal}, {14:everlasting}, {15,16:and ancient}, {17,18:it is not killed} {19,20:when the body is killed}",
+      "english_source": "site-literal-translation"
     },
     "name-98-paragraph-1-span-0": {
       "quote_id": "name-98-paragraph-1-span-0",
@@ -3196,10 +3213,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "Having gone to which they do not return—that is My supreme abode",
       "alignment_score": 0.9231,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0,1:Having gone to which} {2,3:they do not return}—{4:that is} {7:My} {6:supreme} {5:abode}",
+      "english_source": "site-literal-translation"
     },
     "name-104-paragraph-0-span-0": {
       "quote_id": "name-104-paragraph-0-span-0",
@@ -3313,10 +3332,12 @@
           "i": 3
         }
       ],
-      "english": null,
+      "english": "Among the Vasus I am Pāvaka",
       "alignment_score": 0.7997,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:Among the Vasus} {2,3:I am} {1:Pāvaka}",
+      "english_source": "site-literal-translation"
     },
     "name-107-paragraph-1-span-1": {
       "quote_id": "name-107-paragraph-1-span-1",
@@ -3526,7 +3547,8 @@
       "alignment_score": 0.909,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,3,4:I am the Seer} {1,2:in} {5,6,7:all the fields-of-experiences everywhere}"
+      "english_slots": "{0,3,4:I am the Seer} {1,2:in} {5,6,7:all the fields-of-experiences everywhere}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-114-paragraph-0-span-3": {
       "quote_id": "name-114-paragraph-0-span-3",
@@ -3644,7 +3666,8 @@
       "alignment_score": 0.818,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Among the Rudras}, {2,3:I am} {1:Śaṅkara}"
+      "english_slots": "{0:Among the Rudras}, {2,3:I am} {1:Śaṅkara}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-118-paragraph-0-span-0": {
       "quote_id": "name-118-paragraph-0-span-0",
@@ -3701,7 +3724,8 @@
       "alignment_score": 0.875,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Everywhere} {1:are His ears}"
+      "english_slots": "{0:Everywhere} {1:are His ears}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-124-paragraph-0-span-0": {
       "quote_id": "name-124-paragraph-0-span-0",
@@ -3894,7 +3918,8 @@
       "alignment_score": 0.9474,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{3:The Light} {1,2,4,5,6:that illumines} {0:all lights}"
+      "english_slots": "{3:The Light} {1,2,4,5,6:that illumines} {0:all lights}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-129-paragraph-0-span-0": {
       "quote_id": "name-129-paragraph-0-span-0",
@@ -4091,7 +4116,8 @@
       "alignment_score": 0.7885,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1,3,5,6:This great Reality is} {0:Imperceptible}, {2:Unthinkable}, {4:without any modifications}"
+      "english_slots": "{1,3,5,6:This great Reality is} {0:Imperceptible}, {2:Unthinkable}, {4:without any modifications}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-131-paragraph-0-span-0": {
       "quote_id": "name-131-paragraph-0-span-0",
@@ -4272,10 +4298,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "I am the maker of Vedānta and indeed the knower of the Veda",
       "alignment_score": 0.8844,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{6:I am} {0,1:the maker of Vedānta} {5:and} {2,3,4:indeed the knower of the Veda}",
+      "english_source": "site-literal-translation"
     },
     "name-132-paragraph-1-span-0": {
       "quote_id": "name-132-paragraph-1-span-0",
@@ -4357,10 +4385,12 @@
           "i": 2
         }
       ],
-      "english": null,
+      "english": "Among poets, I am Uśanas the poet",
       "alignment_score": 1.0,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:Among poets}, {1,2:I am Uśanas the poet}",
+      "english_source": "site-literal-translation"
     },
     "name-133-paragraph-1-span-0": {
       "quote_id": "name-133-paragraph-1-span-0",
@@ -4741,7 +4771,8 @@
       "alignment_score": 0.8924,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{6,13,14:The Supreme puruṣa} {11,12:in this body} {7,8,9,10:is also called} {0:the spectator}, {1:the permitter}, {2,3:the supporter}, {4:the enjoyer}, {5:the great Lord}, {6:and the Supreme Self}"
+      "english_slots": "{13,14:The Supreme puruṣa} {11,12:in this body} {7,8,9,10:is also called} {0:the spectator}, {1:the permitter}, {2,3:the supporter}, {4:the enjoyer}, {5:the great Lord}, {6:and the Supreme Self}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-143-paragraph-1-span-0": {
       "quote_id": "name-143-paragraph-1-span-0",
@@ -4947,10 +4978,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "For puruṣa, abiding in prakṛti, experiences the guṇas born of prakṛti",
       "alignment_score": 0.9534,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{3:For} {0:puruṣa}, {1,2:abiding in prakṛti}, {4:experiences} {7:the guṇas} {5,6:born of prakṛti}",
+      "english_source": "site-literal-translation"
     },
     "name-147-paragraph-1-span-0": {
       "quote_id": "name-147-paragraph-1-span-0",
@@ -5011,7 +5044,8 @@
       "alignment_score": 0.9524,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Among the Pandavas}, {1:I am Arjuna}"
+      "english_slots": "{0:Among the Pandavas}, {1:I am Arjuna}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-170-paragraph-2-span-0": {
       "quote_id": "name-170-paragraph-2-span-0",
@@ -5097,7 +5131,8 @@
       "alignment_score": 1.0,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2:Very difficult indeed it is to cross over} {0,1:My māyā}"
+      "english_slots": "{2:Very difficult indeed it is to cross over} {0,1:My māyā}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-189-paragraph-0-span-0": {
       "quote_id": "name-189-paragraph-0-span-0",
@@ -5183,7 +5218,8 @@
       "alignment_score": 0.9474,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2:I am} {0:the Light} {1:in all effulgents}"
+      "english_slots": "{2:I am} {0:the Light} {1:in all effulgents}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-193-paragraph-0-span-0": {
       "quote_id": "name-193-paragraph-0-span-0",
@@ -5301,7 +5337,8 @@
       "alignment_score": 0.7997,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{3:Among the serpents} {1,2:I am} {0:Ananta}"
+      "english_slots": "{3:Among the serpents} {1,2:I am} {0:Ananta}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-198-paragraph-0-span-0": {
       "quote_id": "name-198-paragraph-0-span-0",
@@ -5523,10 +5560,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "He who sees the imperishable amid perishing things—he truly sees",
       "alignment_score": 0.9512,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{3:He who} {4:sees} {1,2:the imperishable} {0:amid perishing things}—{5,6:he truly sees}",
+      "english_source": "site-literal-translation"
     },
     "name-200-paragraph-1-span-0": {
       "quote_id": "name-200-paragraph-1-span-0",
@@ -5608,7 +5647,8 @@
       "alignment_score": 0.7989,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Among the animals}, {1,2:I am the King of animals, Lion}"
+      "english_slots": "{0:Among the animals}, {1,2:I am the King of animals, Lion}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-226-paragraph-1-span-0": {
       "quote_id": "name-226-paragraph-1-span-0",
@@ -5749,10 +5789,12 @@
           "i": 5
         }
       ],
-      "english": null,
+      "english": "Having many mouths and eyes, displaying many wondrous sights",
       "alignment_score": 0.9473,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0,1,2:Having many mouths and eyes}, {3,4,5:displaying many wondrous sights}",
+      "english_source": "site-literal-translation"
     },
     "name-226-paragraph-2-span-0": {
       "quote_id": "name-226-paragraph-2-span-0",
@@ -6035,10 +6077,12 @@
           "i": 11
         }
       ],
-      "english": null,
+      "english": "Your great form, with many mouths and eyes, O mighty-armed one, with many arms, thighs, and feet",
       "alignment_score": 0.9423,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{2:Your} {0,1:great form}, {3,4,5:with many mouths and eyes}, {6,7:O mighty-armed one}, {8,9,10,11:with many arms, thighs, and feet}",
+      "english_source": "site-literal-translation"
     },
     "name-228-paragraph-1-span-0": {
       "quote_id": "name-228-paragraph-1-span-0",
@@ -6380,7 +6424,8 @@
       "alignment_score": 0.9633,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{5:O Arjuna}, {0:the Lord} {6:dwells} {3,4:in the heart} {1,2:of all}, {7:and spins}. {12:through His māyā}, {8,9:all layers of personal ties} {10,11:as though the universe is a complicated machinery}"
+      "english_slots": "{5:O Arjuna}, {0:the Lord} {6:dwells} {3,4:in the heart} {1,2:of all}, {7:and spins}. {12:through His māyā}, {8,9:all layers of personal ties} {10,11:as though the universe is a complicated machinery}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-230-paragraph-1-span-0": {
       "quote_id": "name-230-paragraph-1-span-0",
@@ -6555,10 +6600,12 @@
           "i": 5
         }
       ],
-      "english": null,
+      "english": "Knowledge is covered by ignorance; by that beings are deluded",
       "alignment_score": 0.9249,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{2:Knowledge} {0,1:is covered by ignorance}; {3:by that} {5:beings} {4:are deluded}",
+      "english_source": "site-literal-translation"
     },
     "name-232-paragraph-1-span-0": {
       "quote_id": "name-232-paragraph-1-span-0",
@@ -6969,7 +7016,8 @@
       "alignment_score": 0.8642,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{13:Please understand that} {14:I am} {0,1,2:the Light of the Sun} {3,4,5:that illumines all earth}; {9:and} {6,7:the light and heat in the moon} {8,10:and fire} {11,12,14:are all mine only}"
+      "english_slots": "{13:Please understand that} {14:I am} {0,1,2:the Light of the Sun} {3,4,5:that illumines all earth}; {9:and} {6,7:the light and heat in the moon} {8,10:and fire} {11,12,14:are all mine only}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-236-paragraph-1-span-0": {
       "quote_id": "name-236-paragraph-1-span-0",
@@ -7391,7 +7439,8 @@
       "alignment_score": 0.885,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,2,3,8,9,12:With a little am I satisfied}. {4,5,7:if it is given} {6,10,11:with sincerity}, {13,14:and with faithful consistency}"
+      "english_slots": "{0,1,2,3,8,9,12:With a little am I satisfied}. {4,5,7:if it is given} {6,10,11:with sincerity}, {13,14:and with faithful consistency}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-237-paragraph-1-span-0": {
       "quote_id": "name-237-paragraph-1-span-0",
@@ -7597,10 +7646,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "For puruṣa, abiding in prakṛti, experiences the guṇas born of prakṛti",
       "alignment_score": 0.9534,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{3:For} {0:puruṣa}, {1,2:abiding in prakṛti}, {4:experiences} {7:the guṇas} {5,6:born of prakṛti}",
+      "english_source": "site-literal-translation"
     },
     "name-247-paragraph-1-span-0": {
       "quote_id": "name-247-paragraph-1-span-0",
@@ -8135,10 +8186,12 @@
           "i": 21
         }
       ],
-      "english": null,
+      "english": "I see You with countless arms, bellies, mouths, and eyes, of endless form on every side. I see no end, no middle, and no beginning of Yours, O Lord of the universe, O universal Form",
       "alignment_score": 0.8837,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{5:I see} {6:You} {0,1,2,3,4:with countless arms, bellies, mouths, and eyes}, {7,8,9:of endless form on every side}. {18:I see} {10,11:no end}, {12,13:no middle}, {14,15,16,17:and no beginning of Yours}, {19:O Lord of the universe}, {20,21:O universal Form}",
+      "english_source": "site-literal-translation"
     },
     "name-263-paragraph-1-span-0": {
       "quote_id": "name-263-paragraph-1-span-0",
@@ -8369,7 +8422,8 @@
       "alignment_score": 0.8837,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,2,3:They are in me}; {4,5,6,7,8:I am not in them}"
+      "english_slots": "{0,1,2,3:They are in me}; {4,5,6,7,8:I am not in them}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-270-paragraph-2-span-1": {
       "quote_id": "name-270-paragraph-2-span-1",
@@ -8741,10 +8795,12 @@
           "i": 14
         }
       ],
-      "english": null,
+      "english": "The self whose mind is joined in yoga sees the Self abiding in all beings and all beings in the Self; he sees the same everywhere",
       "alignment_score": 0.9629,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{9,10,11:The self whose mind is joined in yoga} {8:sees} {3:the Self} {0,1,2:abiding in all beings} {6:and} {4,5:all beings} {7:in the Self}; {12,13,14:he sees the same everywhere}",
+      "english_source": "site-literal-translation"
     },
     "name-273-paragraph-2-span-0": {
       "quote_id": "name-273-paragraph-2-span-0",
@@ -9151,10 +9207,12 @@
           "i": 14
         }
       ],
-      "english": null,
+      "english": "Know that the light in the moon and in fire, and the light abiding in the sun that illumines the whole world, is Mine",
       "alignment_score": 0.8642,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{13:Know} {6,7,8,9,10,11,12:that the light in the moon and in fire}, {0,1,2:and the light abiding in the sun} {3,4,5:that illumines the whole world}, {14:is Mine}",
+      "english_source": "site-literal-translation"
     },
     "name-274-paragraph-0-span-0": {
       "quote_id": "name-274-paragraph-0-span-0",
@@ -9343,10 +9401,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "Just as the one sun illumines this whole world",
       "alignment_score": 0.9268,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:Just as} {2,6:the one sun} {1:illumines} {5:this} {3,4:whole world}",
+      "english_source": "site-literal-translation"
     },
     "name-274-paragraph-1-span-0": {
       "quote_id": "name-274-paragraph-1-span-0",
@@ -9510,10 +9570,12 @@
           "i": 5
         }
       ],
-      "english": null,
+      "english": "so, O Bhārata, the knower of the field illumines the whole field",
       "alignment_score": 0.9535,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{2:so}, {5:O Bhārata}, {1:the knower of the field} {4:illumines} {0,3:the whole field}",
+      "english_source": "site-literal-translation"
     },
     "name-275-paragraph-2-span-0-piece-0": {
       "quote_id": "name-275-paragraph-2-span-0-piece-0",
@@ -9620,7 +9682,8 @@
       "alignment_score": 0.7498,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{3:I am} {0:the Might} {1,2:in all strength}"
+      "english_slots": "{3:I am} {0:the Might} {1,2:in all strength}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-275-paragraph-2-span-0-piece-1": {
       "quote_id": "name-275-paragraph-2-span-0-piece-1",
@@ -9706,7 +9769,8 @@
       "alignment_score": 0.9474,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2:I am} {0:the Brilliancy} {1:in all that is brilliant}"
+      "english_slots": "{2:I am} {0:the Brilliancy} {1:in all that is brilliant}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-279-paragraph-1-span-0": {
       "quote_id": "name-279-paragraph-1-span-0",
@@ -10128,7 +10192,8 @@
       "alignment_score": 0.9494,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{7:One who} {0,1,2,3,4:chants my name Om} {8,9,10:and leaves his body at the time of death} {5,6:thus remembering Me}, {11,12,13,14:he shall go to the Supreme State}"
+      "english_slots": "{7:One who} {0,1,2,3,4:chants my name Om} {8,9,10:and leaves his body at the time of death} {5,6:thus remembering Me}, {11,12,13,14:he shall go to the Supreme State}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-281-paragraph-1-span-0": {
       "quote_id": "name-281-paragraph-1-span-0",
@@ -10353,7 +10418,8 @@
       "alignment_score": 0.9088,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{4,5,6,7:As the rays of the moon (Soma)} {0:I fill} {2,3:the vegetable kingdom} {1:with} {6,7:nutrition}"
+      "english_slots": "{4,5:As the rays of the moon (Soma)} {0:I fill} {2,3:the vegetable kingdom} {1:with} {6,7:nutrition}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-285-paragraph-1-span-0": {
       "quote_id": "name-285-paragraph-1-span-0",
@@ -10771,7 +10837,8 @@
       "alignment_score": 0.9374,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{11,12,13,14:that} {7:nourishes} {13,14:with essence} {8,9,10:all plant kingdom}"
+      "english_slots": "{11,12:that} {7:nourishes} {13,14:with essence} {8,9,10:all plant kingdom}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-323-paragraph-1-span-0": {
       "quote_id": "name-323-paragraph-1-span-0",
@@ -10864,10 +10931,12 @@
           "i": 2
         }
       ],
-      "english": null,
+      "english": "Among lakes I am the ocean",
       "alignment_score": 1.0,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:Among lakes} {1:I am} {2:the ocean}",
+      "english_source": "site-literal-translation"
     },
     "name-359-paragraph-2-span-0": {
       "quote_id": "name-359-paragraph-2-span-0",
@@ -11079,10 +11148,12 @@
           "i": 8
         }
       ],
-      "english": null,
+      "english": "For I alone am the enjoyer and Lord of all sacrifices",
       "alignment_score": 0.9231,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{1:For} {0:I} {7,8:alone} {4:am the enjoyer} {5:and} {6:Lord} {2,3:of all sacrifices}",
+      "english_source": "site-literal-translation"
     },
     "name-383-paragraph-2-span-0": {
       "quote_id": "name-383-paragraph-2-span-0",
@@ -11252,10 +11323,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "Veiled by My yogamāyā, I am not manifest to all",
       "alignment_score": 0.923,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{4,5,6:Veiled by My yogamāyā}, {0,1,2:I am not manifest} {3:to all}",
+      "english_source": "site-literal-translation"
     },
     "name-384-paragraph-2-span-0": {
       "quote_id": "name-384-paragraph-2-span-0",
@@ -11429,7 +11502,8 @@
       "alignment_score": 0.8971,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2:The intellect} {5,6:of one who is practising Yoga} {0,1,3,4:is single-pointed without vacillation}"
+      "english_slots": "{2:The intellect} {5,6:of one who is practising Yoga} {0,1,3,4:is single-pointed without vacillation}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-384-paragraph-3-span-0": {
       "quote_id": "name-384-paragraph-3-span-0",
@@ -11753,7 +11827,8 @@
       "alignment_score": 0.9516,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,2:Those who are revelling in sensuality} {3,4,5:and consequently disturbing the poise of their intellect}, {9,10,11:cannot have} {6,7,8:a steady mind} {9:and consistent pursuit of Yoga}"
+      "english_slots": "{0,1,2:Those who are revelling in sensuality} {3,4,5:and consequently disturbing the poise of their intellect}, {9,10,11:cannot have} {6,7,8:a steady mind} {9:and consistent pursuit of Yoga}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-389-paragraph-1-span-0": {
       "quote_id": "name-389-paragraph-1-span-0",
@@ -11852,10 +11927,12 @@
           "i": 3
         }
       ],
-      "english": null,
+      "english": "For these are divine manifestations of Myself",
       "alignment_score": 0.9088,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{1:For} {0:these are divine} {2,3:manifestations of Myself}",
+      "english_source": "site-literal-translation"
     },
     "name-391-paragraph-2-span-0": {
       "quote_id": "name-391-paragraph-2-span-0",
@@ -12277,7 +12354,8 @@
       "alignment_score": 0.885,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{9,12:I accept} {4,5,7:even if you offer} {0:some leaf} {1:or flower}, {2:or fruit} {3:or spoon of water}, {13,14:happily}, {6,8,10,11:if it is offered in love}"
+      "english_slots": "{9,12:I accept} {4,5,7:even if you offer} {0:some leaf} {1:or flower}, {2:or fruit} {3:or spoon of water}, {13,14:happily}, {6,8,10,11:if it is offered in love}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-418-paragraph-2-span-0": {
       "quote_id": "name-418-paragraph-2-span-0",
@@ -12363,7 +12441,8 @@
       "alignment_score": 1.0,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2:I am} {0:the Time} {1:of counting}"
+      "english_slots": "{2:I am} {0:the Time} {1:of counting}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-420-paragraph-1-span-0": {
       "quote_id": "name-420-paragraph-1-span-0",
@@ -12781,10 +12860,12 @@
           "i": 14
         }
       ],
-      "english": null,
+      "english": "Whoever offers to Me a leaf, a flower, a fruit, or water with devotion—I accept that loving offering from the pure-hearted one",
       "alignment_score": 0.885,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{4:Whoever} {7:offers} {5:to Me} {0:a leaf}, {1:a flower}, {2:a fruit}, {3:or water} {6:with devotion}—{9,12:I accept} {8,10,11:that loving offering} {13,14:from the pure-hearted one}",
+      "english_source": "site-literal-translation"
     },
     "name-436-paragraph-1-span-0": {
       "quote_id": "name-436-paragraph-1-span-0",
@@ -13069,7 +13150,8 @@
       "alignment_score": 0.8947,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2,3:This space} {0,1:between earth and the heavens} {9:and} {8,10:all the quarters} {4,5:are filled} {6,7:by You alone}"
+      "english_slots": "{2,3:This space} {0,1:between earth and the heavens} {9:and} {8,10:all the quarters} {4,5:are filled} {6,7:by You alone}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-439-paragraph-1-span-0": {
       "quote_id": "name-439-paragraph-1-span-0",
@@ -13465,7 +13547,8 @@
       "alignment_score": 0.9111,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:offer is Brahman}, {2,3:what is offered is Brahman}, {4,5:the fire is Brahman}, {6,7:the offerer is Brahman} {8,9,10,11,12,13,14:and the goal reached is also Brahman}"
+      "english_slots": "{0,1:offer is Brahman}, {2,3:what is offered is Brahman}, {4,5:the fire is Brahman}, {6,7:the offerer is Brahman} {8,9,10,11,12,13,14:and the goal reached is also Brahman}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-441-paragraph-1-span-0": {
       "quote_id": "name-441-paragraph-1-span-0",
@@ -13787,7 +13870,8 @@
       "alignment_score": 0.9211,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{9:among the stars} {8,10:I am} {11:the moon}"
+      "english_slots": "{9:among the stars} {8,10:I am} {11:the moon}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-473-paragraph-0-span-0": {
       "quote_id": "name-473-paragraph-0-span-0",
@@ -13880,10 +13964,12 @@
           "i": 2
         }
       ],
-      "english": null,
+      "english": "Among lakes I am the ocean",
       "alignment_score": 1.0,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:Among lakes} {1:I am} {2:the ocean}",
+      "english_source": "site-literal-translation"
     },
     "name-475-paragraph-1-span-0": {
       "quote_id": "name-475-paragraph-1-span-0",
@@ -14168,7 +14254,8 @@
       "alignment_score": 0.962,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{9,10:In every cycle} {8:I shall manifest} {5,6,7:for re-establishing dharma}"
+      "english_slots": "{9,10:In every cycle} {8:I shall manifest} {5,6,7:for re-establishing dharma}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-477-paragraph-1-span-0": {
       "quote_id": "name-477-paragraph-1-span-0",
@@ -14449,10 +14536,12 @@
           "i": 10
         }
       ],
-      "english": null,
+      "english": "For the protection of the good, for the destruction of evildoers, and for the establishment of dharma, I manifest age after age",
       "alignment_score": 0.962,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0,1:For the protection of the good}, {2,4:for the destruction of evildoers}, {3:and} {5,6,7:for the establishment of dharma}, {8:I manifest} {9,10:age after age}",
+      "english_source": "site-literal-translation"
     },
     "name-478-paragraph-2-span-0": {
       "quote_id": "name-478-paragraph-2-span-0",
@@ -14677,10 +14766,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "Know but that to be imperishable by which all this is pervaded",
       "alignment_score": 0.9459,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{3:Know} {1:but} {2:that} {0:to be imperishable} {4:by which} {5,6:all this} {7:is pervaded}",
+      "english_source": "site-literal-translation"
     },
     "name-479-paragraph-1-span-0": {
       "quote_id": "name-479-paragraph-1-span-0",
@@ -14936,7 +15027,8 @@
       "alignment_score": 0.8157,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{9:Arjuna}, {8:I am at once} {0:immortality} {1,2:and} {3:mortality}; {8:I am both} {5:Existence} {4,7:and} {6:Non-existence}"
+      "english_slots": "{9:Arjuna}, {8:I am at once} {0:immortality} {1,2:and} {3:mortality}; {8:I am both} {5:Existence} {4,7:and} {6:Non-existence}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-481-paragraph-1-span-0": {
       "quote_id": "name-481-paragraph-1-span-0",
@@ -15108,7 +15200,8 @@
       "alignment_score": 0.9041,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1,2:all creatures together} {0:constitute the kṣara-purusha} {3:and the Changeless in all creatures} {5:is} {4:the A-kshara-purusha}"
+      "english_slots": "{1,2:all creatures together} {0:constitute the kṣara-purusha} {3:and the Changeless in all creatures} {5:is} {4:the A-kshara-purusha}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-505-paragraph-1-span-0": {
       "quote_id": "name-505-paragraph-1-span-0",
@@ -15329,10 +15422,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "And, becoming the essence-filled moon, I nourish all plants",
       "alignment_score": 0.9088,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{1:And}, {4,5,6,7:becoming the essence-filled moon}, {0:I nourish} {2,3:all plants}",
+      "english_source": "site-literal-translation"
     },
     "name-513-paragraph-1-span-0": {
       "quote_id": "name-513-paragraph-1-span-0",
@@ -15538,10 +15633,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "O Bhārata, know Me also as the knower of the field in every field",
       "alignment_score": 0.909,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{7:O Bhārata}, {4:know} {1,2,3:Me also} {0:as the knower of the field} {5,6:in every field}",
+      "english_source": "site-literal-translation"
     },
     "name-517-paragraph-1-span-0": {
       "quote_id": "name-517-paragraph-1-span-0",
@@ -15638,7 +15735,8 @@
       "alignment_score": 1.0,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Of the lakes} {1:I am} {2:the ocean}"
+      "english_slots": "{0:Of the lakes} {1:I am} {2:the ocean}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-531-paragraph-1-span-0": {
       "quote_id": "name-531-paragraph-1-span-0",
@@ -15720,10 +15818,12 @@
           "i": 2
         }
       ],
-      "english": null,
+      "english": "Among the perfected ones, I am the sage Kapila",
       "alignment_score": 0.8569,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:Among the perfected ones}, {1,2:I am the sage Kapila}",
+      "english_source": "site-literal-translation"
     },
     "name-554-paragraph-1-span-0": {
       "quote_id": "name-554-paragraph-1-span-0",
@@ -16129,7 +16229,8 @@
       "alignment_score": 0.878,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{10,11:understand} {0,1,2,3,4,5,6,7,8,9:them all} {15:as coming out} {12,13,14:of my glory}"
+      "english_slots": "{10,11:understand} {0,1,2,3,4,5,6,7,8,9:them all} {15:as coming out} {12,13,14:of my glory}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-555-paragraph-1-span-0": {
       "quote_id": "name-555-paragraph-1-span-0",
@@ -16303,10 +16404,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "They speak of the imperishable aśvattha tree with roots above and branches below",
       "alignment_score": 0.9318,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{5:They speak of} {4,6:the imperishable aśvattha tree} {0,1:with roots above} {2,3:and branches below}",
+      "english_source": "site-literal-translation"
     },
     "name-576-paragraph-1-span-0": {
       "quote_id": "name-576-paragraph-1-span-0",
@@ -16424,7 +16527,8 @@
       "alignment_score": 0.7989,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Of Vedas} {3:I am} {1,2:the sāma Veda}"
+      "english_slots": "{0:Of Vedas} {3:I am} {1,2:the sāma Veda}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-585-paragraph-1-span-0": {
       "quote_id": "name-585-paragraph-1-span-0",
@@ -16653,7 +16757,8 @@
       "alignment_score": 0.9231,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:To which having gone} {2,3:they return not}; {4:that is} {7:My} {6:Supreme} {5:Abode}"
+      "english_slots": "{0,1:To which having gone} {2,3:they return not}; {4:that is} {7:My} {6:Supreme} {5:Abode}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-599-paragraph-1-span-0": {
       "quote_id": "name-599-paragraph-1-span-0",
@@ -16853,7 +16958,8 @@
       "alignment_score": 0.8571,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{5,6:I shall govern} {3,4:both your 'Yoga' and 'kṣema'} {0,1,2:when you are a true devotee}"
+      "english_slots": "{5,6:I shall govern} {3,4:both your 'Yoga' and 'kṣema'} {0,1,2:when you are a true devotee}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-623-paragraph-1-span-0": {
       "quote_id": "name-623-paragraph-1-span-0",
@@ -17079,7 +17185,8 @@
       "alignment_score": 0.8778,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:I am firm}; {2,3:my doubts are gone}. {4:I will do} {5,6:according to your word}"
+      "english_slots": "{0,1:I am firm}; {2,3:my doubts are gone}. {4:I will do} {5,6:according to your word}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-625-paragraph-2-span-0": {
       "quote_id": "name-625-paragraph-2-span-0",
@@ -17266,10 +17373,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "That has hands and feet on every side, eyes, heads, and faces on every side",
       "alignment_score": 0.8367,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{3:That has} {0,1,2:hands and feet on every side}, {4,5,6,7:eyes, heads, and faces on every side}",
+      "english_source": "site-literal-translation"
     },
     "name-632-paragraph-1-span-0": {
       "quote_id": "name-632-paragraph-1-span-0",
@@ -17575,7 +17684,8 @@
       "alignment_score": 0.974,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:To them} {1,6:I shall be}, {7:err long}, {2:a Saviour} {3,4,5:from the Ocean of Samsar}"
+      "english_slots": "{0:To them} {1,6:I shall be}, {7:err long}, {2:a Saviour} {3,4,5:from the Ocean of Samsar}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-633-paragraph-1-span-0": {
       "quote_id": "name-633-paragraph-1-span-0",
@@ -17764,10 +17874,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "That is said to be the Light of lights, beyond darkness",
       "alignment_score": 0.9474,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{2,6:That is said to be} {3:the Light} {0,1:of lights}, {4,5:beyond darkness}",
+      "english_source": "site-literal-translation"
     },
     "name-657-paragraph-1-span-0": {
       "quote_id": "name-657-paragraph-1-span-0",
@@ -18052,7 +18164,8 @@
       "alignment_score": 0.8947,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{6,7:By Thee alone} {4,5:is filled} {1:the earth}, {0,2,3:the outer space and the inner space}. {6:It is Thee who fills} {8,9,10:all directions everywhere}"
+      "english_slots": "{6,7:By Thee alone} {4,5:is filled} {1:the earth}, {0,2,3:the outer space and the inner space}. {6:It is Thee who fills} {8,9,10:all directions everywhere}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-660-paragraph-1-span-0": {
       "quote_id": "name-660-paragraph-1-span-0",
@@ -18113,7 +18226,8 @@
       "alignment_score": 0.9524,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1:I am Dhananjaya}, {0:among the sons of Pandu}"
+      "english_slots": "{1:I am Dhananjaya}, {0:among the sons of Pandu}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-666-paragraph-2-span-0": {
       "quote_id": "name-666-paragraph-2-span-0",
@@ -18294,10 +18408,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "I am the maker of Vedānta and indeed the knower of the Veda",
       "alignment_score": 0.8844,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{6:I am} {0,1:the maker of Vedānta} {5:and} {2,3,4:indeed the knower of the Veda}",
+      "english_source": "site-literal-translation"
     },
     "name-673-paragraph-4-span-0": {
       "quote_id": "name-673-paragraph-4-span-0",
@@ -18490,7 +18606,8 @@
       "alignment_score": 0.9474,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1,2,5,6:The Supreme is} {3:the Light} {0:of all lights}, {4:beyond all darkness}"
+      "english_slots": "{1,2,5,6:The Supreme is} {3:the Light} {0:of all lights}, {4:beyond all darkness}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-673-paragraph-5-span-0": {
       "quote_id": "name-673-paragraph-5-span-0",
@@ -18901,7 +19018,8 @@
       "alignment_score": 0.8642,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{13:Understand} {2,11,12,14:that Light} {0,1:in the Sun} {3,4,5:by which the whole world is illumined}, {9:and} {6,7:that Light in the Moon} {8,10:and in the fire} {11,12,14:to be My own Light}"
+      "english_slots": "{13:Understand} {2,11,12,14:that Light} {0,1:in the Sun} {3,4,5:by which the whole world is illumined}, {9:and} {6,7:that Light in the Moon} {8,10:and in the fire} {11,12,14:to be My own Light}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-674-paragraph-0-span-0": {
       "quote_id": "name-674-paragraph-0-span-0",
@@ -19015,10 +19133,12 @@
           "i": 3
         }
       ],
-      "english": null,
+      "english": "Among nāgas I am Ananta",
       "alignment_score": 0.7997,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{3:Among nāgas} {1,2:I am} {0:Ananta}",
+      "english_source": "site-literal-translation"
     },
     "name-674-paragraph-0-span-1": {
       "quote_id": "name-674-paragraph-0-span-1",
@@ -19111,10 +19231,12 @@
           "i": 2
         }
       ],
-      "english": null,
+      "english": "Among serpents I am Vāsuki",
       "alignment_score": 1.0,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:Among serpents} {1:I am} {2:Vāsuki}",
+      "english_source": "site-literal-translation"
     },
     "name-677-paragraph-1-span-0": {
       "quote_id": "name-677-paragraph-1-span-0",
@@ -19232,7 +19354,8 @@
       "alignment_score": 0.8173,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{3:I am} {0:among the yajñas}, {1,2:the Japa-yajña}"
+      "english_slots": "{3:I am} {0:among the yajñas}, {1,2:the Japa-yajña}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-678-paragraph-1-span-0": {
       "quote_id": "name-678-paragraph-1-span-0",
@@ -19454,7 +19577,8 @@
       "alignment_score": 0.8748,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{6,7:We offer} {0,1:to Brahman} {2,3:that which is Brahman}, {4,5:in the fire which is Brahman}, {6,7:and the act of offering is also Brahman}"
+      "english_slots": "{6,7:We offer} {0,1:to Brahman} {2,3:that which is Brahman}, {4,5:in the fire which is Brahman}, {6,7:and the act of offering is also Brahman}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-683-paragraph-1-span-0": {
       "quote_id": "name-683-paragraph-1-span-0",
@@ -19540,7 +19664,8 @@
       "alignment_score": 1.0,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:He is the one} {2:dear} {1:to Me}"
+      "english_slots": "{0:He is the one} {2:dear} {1:to Me}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-695-paragraph-2-span-0": {
       "quote_id": "name-695-paragraph-2-span-0",
@@ -19725,10 +19850,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "O Arjuna, the Lord dwells in the heart of all beings",
       "alignment_score": 0.9511,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{5:O Arjuna}, {0:the Lord} {6:dwells} {3,4:in the heart} {1,2:of all beings}",
+      "english_source": "site-literal-translation"
     },
     "name-695-paragraph-3-span-0": {
       "quote_id": "name-695-paragraph-3-span-0",
@@ -19892,7 +20019,8 @@
       "alignment_score": 0.9755,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1,2:The Lord dwells in the hearts of all beings}, {0:O Arjuna}, {0,1,2:causing all beings}, {5:by His illusive power}, {0:to revolve} {3,4:as if mounted on a machine}"
+      "english_slots": "{1,2:The Lord dwells in the hearts of all beings}, {0:O Arjuna}, {0,1,2:causing all beings}, {5:by His illusive power}, {0:to revolve} {3,4:as if mounted on a machine}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-696-paragraph-1-span-0": {
       "quote_id": "name-696-paragraph-1-span-0",
@@ -20073,10 +20201,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "O Guḍākeśa, I am the Self abiding in the hearts of all beings",
       "alignment_score": 0.9736,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{2:O Guḍākeśa}, {0,1:I am the Self} {6:abiding} {3,4,5:in the hearts of all beings}",
+      "english_source": "site-literal-translation"
     },
     "name-696-paragraph-2-span-0": {
       "quote_id": "name-696-paragraph-2-span-0",
@@ -20296,7 +20426,8 @@
       "alignment_score": 0.9188,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:I am} {1:the beginning}, {2,3:the middle} {4,7,8:and also} {6:the end} {5:of all beings}"
+      "english_slots": "{0:I am} {1:the beginning}, {2,3:the middle} {4,7,8:and also} {6:the end} {5:of all beings}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-698-paragraph-1-span-0": {
       "quote_id": "name-698-paragraph-1-span-0",
@@ -20518,7 +20649,8 @@
       "alignment_score": 0.8748,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2,3,6,7:the oblations are} {0,1,4,5:nothing but Brahman}"
+      "english_slots": "{2,3,6,7:the oblations are} {0,1,4,5:nothing but Brahman}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-706-paragraph-1-span-0": {
       "quote_id": "name-706-paragraph-1-span-0",
@@ -20718,7 +20850,8 @@
       "alignment_score": 0.9022,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:My devotee} {2,3:thus knowing (realising the Truth, the jneyam, seated in the heart of all)} {4,5,6:enters into My Being}"
+      "english_slots": "{0,1:My devotee} {2,3:thus knowing (realising the Truth, the jneyam, seated in the heart of all)} {4,5,6:enters into My Being}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-708-paragraph-2-span-0": {
       "quote_id": "name-708-paragraph-2-span-0",
@@ -20804,7 +20937,8 @@
       "alignment_score": 0.8569,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:I am} {2:the Source} {1:of all Creation}"
+      "english_slots": "{0:I am} {2:the Source} {1:of all Creation}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-711-paragraph-1-span-0": {
       "quote_id": "name-711-paragraph-1-span-0",
@@ -20976,7 +21110,8 @@
       "alignment_score": 0.8249,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2,3,4:Of My Divine Glories} {0,1:there is no end}"
+      "english_slots": "{2,3,4:Of My Divine Glories} {0,1:there is no end}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-715-paragraph-2-span-0": {
       "quote_id": "name-715-paragraph-2-span-0",
@@ -21140,7 +21275,8 @@
       "alignment_score": 0.8803,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:Greater is their trouble} {2,3,4,5:whose minds are set on the Unmanifest}; {0,1:for the goal, the Unmanifested, is very hard} {2:for the embodied to reach}"
+      "english_slots": "{0,1:Greater is their trouble} {2,3,4,5:whose minds are set on the Unmanifest}; {0,1:for the goal, the Unmanifested, is very hard} {2:for the embodied to reach}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-719-paragraph-1-span-0": {
       "quote_id": "name-719-paragraph-1-span-0",
@@ -21315,7 +21451,8 @@
       "alignment_score": 0.9744,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{3:If the splendour} {1,2:of a thousand Suns} {3,4,5:were to blaze out at once} {0:in the sky}, {1,2,3,4,5:that would be like the splendour of that Mighty Being}"
+      "english_slots": "{3:If the splendour} {1,2:of a thousand Suns} {3,4,5:were to blaze out at once} {0:in the sky}, {1,2,3,4,5:that would be like the splendour of that Mighty Being}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-724-paragraph-1-span-0": {
       "quote_id": "name-724-paragraph-1-span-0",
@@ -21674,7 +21811,8 @@
       "alignment_score": 0.8914,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,2:Hands and feet everywhere}, {4,5,6,7:with heads and mouths everywhere}, {8,9:His ears everywhere}, {3,13:stands} {3:(The Lord)}, {10,11,12:enveloping all}"
+      "english_slots": "{0,1,2:Hands and feet everywhere}, {4,5,6,7:with heads and mouths everywhere}, {8,9:His ears everywhere}, {3,13:stands} {3:(The Lord)}, {10,11,12:enveloping all}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-731-paragraph-1-span-0": {
       "quote_id": "name-731-paragraph-1-span-0",
@@ -21899,7 +22037,8 @@
       "alignment_score": 0.8837,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,2:'Om Tat Sat'} {3,4,7:this has been declared to be} {6:the triple designation} {5:of Brahman}"
+      "english_slots": "{0,1,2:'Om Tat Sat'} {3,4,7:this has been declared to be} {6:the triple designation} {5:of Brahman}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-732-paragraph-1-span-0": {
       "quote_id": "name-732-paragraph-1-span-0",
@@ -21981,7 +22120,8 @@
       "alignment_score": 0.8232,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1,2:The Unequalled State of Perfection}: {0,1,2:The Supreme State of Truth}"
+      "english_slots": "{1,2:The Unequalled State of Perfection}: {0,1,2:The Supreme State of Truth}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-742-paragraph-3-span-0": {
       "quote_id": "name-742-paragraph-3-span-0",
@@ -22141,7 +22281,8 @@
       "alignment_score": 0.7742,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,2,3:None there exists who is equal to You}; {4,5:how can there be then another superior to You} {0,1,2,3,4,5:in the three worlds, O Being of unequalled power}"
+      "english_slots": "{0,1,2,3:None there exists who is equal to You}; {4,5:how can there be then another superior to You} {0,1,2,3,4,5:in the three worlds, O Being of unequalled power}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-745-paragraph-1-span-0": {
       "quote_id": "name-745-paragraph-1-span-0",
@@ -22330,10 +22471,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "This Self is eternal, all-pervading, stable, immovable, and ancient",
       "alignment_score": 0.8807,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{5:This Self is} {0:eternal}, {1,2:all-pervading}, {3:stable}, {4:immovable}, {6:and ancient}",
+      "english_source": "site-literal-translation"
     },
     "name-753-paragraph-1-span-0": {
       "quote_id": "name-753-paragraph-1-span-0",
@@ -22525,10 +22668,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "Therefore Brahman, which pervades all, is ever established in sacrifice",
       "alignment_score": 0.9556,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0:Therefore} {3:Brahman}, {1,2:which pervades all}, {4,6:is ever established} {5:in sacrifice}",
+      "english_source": "site-literal-translation"
     },
     "name-767-paragraph-1-span-0": {
       "quote_id": "name-767-paragraph-1-span-0",
@@ -22866,10 +23011,12 @@
           "i": 12
         }
       ],
-      "english": null,
+      "english": "O Arjuna, the Lord dwells in the heart of all beings, causing all beings by māyā to revolve as though mounted on a machine",
       "alignment_score": 0.9633,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{5:O Arjuna}, {0:the Lord} {6:dwells} {3,4:in the heart} {1,2:of all beings}, {7:causing} {8,9:all beings} {12:by māyā} {7:to revolve} {10,11:as though mounted on a machine}",
+      "english_source": "site-literal-translation"
     },
     "name-770-paragraph-1-span-0": {
       "quote_id": "name-770-paragraph-1-span-0",
@@ -22983,10 +23130,12 @@
           "i": 3
         }
       ],
-      "english": null,
+      "english": "The fourfold social order was created by Me",
       "alignment_score": 0.9091,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0,1:The fourfold social order} {3:was created} {2:by Me}",
+      "english_source": "site-literal-translation"
     },
     "name-771-paragraph-1-span-0": {
       "quote_id": "name-771-paragraph-1-span-0",
@@ -23171,7 +23320,8 @@
       "alignment_score": 0.8844,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2,3,4,5,6:I am verily that which has to be known in all the Vedas}: {0,1,6:I am indeed the author of the Vedas} {2,3,4,5,6:and the 'knower' of the Vedas am I}"
+      "english_slots": "{2,3,4,5,6:I am verily that which has to be known in all the Vedas}: {0,1,6:I am indeed the author of the Vedas} {2,3,4,5,6:and the 'knower' of the Vedas am I}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-772-paragraph-1-span-0": {
       "quote_id": "name-772-paragraph-1-span-0",
@@ -23400,7 +23550,8 @@
       "alignment_score": 0.8439,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{2,3,7:The whole universe} {0,6:is supported} {4,5:by one part} {1:of Myself}"
+      "english_slots": "{2,3,7:The whole universe} {0,6:is supported} {4,5:by one part} {1:of Myself}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-779-paragraph-2-span-0": {
       "quote_id": "name-779-paragraph-2-span-0",
@@ -23817,10 +23968,12 @@
           "i": 15
         }
       ],
-      "english": null,
+      "english": "Indeed, this divine māyā of Mine, consisting of the guṇas, is difficult to cross. Those who take refuge in Me alone cross beyond this māyā",
       "alignment_score": 0.9722,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{1:Indeed}, {0,2,5,6:this divine māyā of Mine}, {3,4:consisting of the guṇas}, {7:is difficult to cross}. {10:Those who} {8,9,11:take refuge in Me alone} {14,15:cross beyond} {12,13:this māyā}",
+      "english_source": "site-literal-translation"
     },
     "name-780-paragraph-2-span-0": {
       "quote_id": "name-780-paragraph-2-span-0",
@@ -24195,7 +24348,8 @@
       "alignment_score": 0.9157,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,4:This Yoga of equanimity}, {2,3:taught by Thee}, {5:O slayer of Madhu}, {7,8,9:I see not} {6,12,13:its enduring continuity}, {10,11:because of the restlessness} {10,11:(of the mind)}"
+      "english_slots": "{0,1,4:This Yoga of equanimity}, {2,3:taught by Thee}, {5:O slayer of Madhu}, {7,8,9:I see not} {6,12,13:its enduring continuity}, {10,11:because of the restlessness} {10,11:(of the mind)}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-780-paragraph-3-span-0": {
       "quote_id": "name-780-paragraph-3-span-0",
@@ -24609,7 +24763,8 @@
       "alignment_score": 0.8494,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:As} {1:a lamp} {2,3:placed in a windless place} {4,5:does not flicker}"
+      "english_slots": "{0:As} {1:a lamp} {2,3:placed in a windless place} {4,5:does not flicker}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-784-paragraph-1-span-0": {
       "quote_id": "name-784-paragraph-1-span-0",
@@ -24798,10 +24953,12 @@
           "i": 6
         }
       ],
-      "english": null,
+      "english": "O Dhanañjaya, there is nothing else higher than Me",
       "alignment_score": 0.9285,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{6:O Dhanañjaya}, {2,3,4,5:there is nothing else} {1:higher} {0:than Me}",
+      "english_source": "site-literal-translation"
     },
     "name-784-paragraph-2-span-0": {
       "quote_id": "name-784-paragraph-2-span-0",
@@ -25011,10 +25168,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "All this is strung in Me, like clusters of jewels on a thread",
       "alignment_score": 0.9188,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{1,2:All this} {3:is strung} {0:in Me}, {7:like} {5,6:clusters of jewels} {4:on a thread}",
+      "english_source": "site-literal-translation"
     },
     "name-789-paragraph-1-span-0": {
       "quote_id": "name-789-paragraph-1-span-0",
@@ -25352,7 +25511,8 @@
       "alignment_score": 0.8702,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{6,7,12:I am the author} {0,1,2:of all the Vedas}; {3,4,5,8,9,10,11,12:I alone am the knower of the Veda}"
+      "english_slots": "{6,7,12:I am the author} {0,1,2:of all the Vedas}; {3,4,5,8,9,10,11,12:I alone am the knower of the Veda}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-790-paragraph-1-span-0": {
       "quote_id": "name-790-paragraph-1-span-0",
@@ -25701,10 +25861,12 @@
           "i": 13
         }
       ],
-      "english": null,
+      "english": "O son of Kuntī, whatever forms arise in all wombs, the great Brahman is their womb; I am the father who gives the seed",
       "alignment_score": 0.95,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{2:O son of Kuntī}, {5:whatever} {3:forms} {4:arise} {0,1:in all wombs}, {6,7,8,9:the great Brahman is their womb}; {10:I am} {13:the father} {11,12:who gives the seed}",
+      "english_source": "site-literal-translation"
     },
     "name-801-paragraph-1-span-0": {
       "quote_id": "name-801-paragraph-1-span-0",
@@ -26178,7 +26340,8 @@
       "alignment_score": 0.972,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{12,13,14:He attains Peace} {7,8,9,10,11:into whom all desires enter} {6:as} {4,5:waters enter} {3:the ocean}, {0:which filled from all sides}, {1,2:remains unmoved}; {15,16,17:but not the 'desirer-of-desires'}"
+      "english_slots": "{12,13,14:He attains Peace} {7,8,9,10,11:into whom all desires enter} {6:as} {4,5:waters enter} {3:the ocean}, {0:which filled from all sides}, {1,2:remains unmoved}; {15,16,17:but not the 'desirer-of-desires'}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-804-paragraph-1-span-0": {
       "quote_id": "name-804-paragraph-1-span-0",
@@ -26264,7 +26427,8 @@
       "alignment_score": 1.0,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:My māyā (non-apprehension and the consequent misapprehension)} {2:is very difficult to cross over}"
+      "english_slots": "{0,1:My māyā (non-apprehension and the consequent misapprehension)} {2:is very difficult to cross over}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-816-paragraph-1-span-0": {
       "quote_id": "name-816-paragraph-1-span-0",
@@ -26451,10 +26615,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "That has hands and feet on every side, eyes, heads, and faces on every side",
       "alignment_score": 0.8367,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{3:That has} {0,1,2:hands and feet on every side}, {4,5,6,7:eyes, heads, and faces on every side}",
+      "english_source": "site-literal-translation"
     },
     "name-817-paragraph-1-span-0": {
       "quote_id": "name-817-paragraph-1-span-0",
@@ -26842,7 +27008,8 @@
       "alignment_score": 0.9024,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{9,10:I am easily attainable} {8,12,13,14:by that ever-steadfast Yogi} {4,3,6,5,7:who constantly remembers Me daily}, {0,1,2:not thinking of anything else}, {11:O Partha}"
+      "english_slots": "{9,10:I am easily attainable} {8,12,13,14:by that ever-steadfast Yogi} {4,3,6,5,7:who constantly remembers Me daily}, {0,1,2:not thinking of anything else}, {11:O Partha}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-824-paragraph-2-span-0": {
       "quote_id": "name-824-paragraph-2-span-0",
@@ -26920,10 +27087,12 @@
           "i": 2
         }
       ],
-      "english": null,
+      "english": "Among all trees I am the aśvattha",
       "alignment_score": 0.9545,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{1,2:Among all trees} {0:I am the aśvattha}",
+      "english_source": "site-literal-translation"
     },
     "name-832-paragraph-1-span-0": {
       "quote_id": "name-832-paragraph-1-span-0",
@@ -27030,7 +27199,8 @@
       "alignment_score": 1.0,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1:Nourisher} {0,2,3:of All}"
+      "english_slots": "{1:Nourisher} {0,2,3:of All}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-835-paragraph-1-span-0": {
       "quote_id": "name-835-paragraph-1-span-0",
@@ -27173,7 +27343,8 @@
       "alignment_score": 0.8271,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1,2,4:I am seated} {3:in the heart} {0:of all}—{0,3,4:as the core or Essence in all}"
+      "english_slots": "{1,2,4:I am seated} {3:in the heart} {0:of all}—{0,3,4:as the core or Essence in all}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-848-paragraph-1-span-0": {
       "quote_id": "name-848-paragraph-1-span-0",
@@ -27333,10 +27504,12 @@
           "i": 5
         }
       ],
-      "english": null,
+      "english": "I alone am to be known through all the Vedas",
       "alignment_score": 0.857,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{3,4:I alone} {5:am to be known} {0,1,2:through all the Vedas}",
+      "english_source": "site-literal-translation"
     },
     "name-855-paragraph-1-span-0": {
       "quote_id": "name-855-paragraph-1-span-0",
@@ -27590,10 +27763,12 @@
           "i": 8
         }
       ],
-      "english": null,
+      "english": "Its leaves are the Vedic hymns; one who knows that tree is a knower of the Veda",
       "alignment_score": 0.925,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0,1,2:Its leaves are the Vedic hymns}; {3,4,5:one who knows that tree} {6,7,8:is a knower of the Veda}",
+      "english_source": "site-literal-translation"
     },
     "name-859-paragraph-1-span-0": {
       "quote_id": "name-859-paragraph-1-span-0",
@@ -27690,7 +27865,8 @@
       "alignment_score": 0.8944,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1:Among punishers} {2:I am} {0:the Sceptre}"
+      "english_slots": "{1:Among punishers} {2:I am} {0:the Sceptre}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-877-paragraph-1-span-0": {
       "quote_id": "name-877-paragraph-1-span-0",
@@ -27797,7 +27973,8 @@
       "alignment_score": 0.9,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{3:The Light} {0,1,2:of all lights}"
+      "english_slots": "{3:The Light} {0,1,2:of all lights}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-892-paragraph-1-span-0": {
       "quote_id": "name-892-paragraph-1-span-0",
@@ -27879,7 +28056,8 @@
       "alignment_score": 0.8569,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:There is neither anything that I have not gained} {0,2:nor anything I have yet to gain}"
+      "english_slots": "{0,1:There is neither anything that I have not gained} {0,2:nor anything I have yet to gain}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-895-paragraph-1-span-0": {
       "quote_id": "name-895-paragraph-1-span-0",
@@ -28180,10 +28358,12 @@
           "i": 11
         }
       ],
-      "english": null,
+      "english": "Someone beholds this Self as a wonder; another speaks of it as a wonder in the same way",
       "alignment_score": 0.9138,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{3:Someone} {2:beholds} {4:this Self} {0,1:as a wonder}; {10,11:another} {7:speaks of it} {5,6:as a wonder} {8,9:in the same way}",
+      "english_source": "site-literal-translation"
     },
     "name-895-paragraph-2-span-0": {
       "quote_id": "name-895-paragraph-2-span-0",
@@ -28545,10 +28725,12 @@
           "i": 13
         }
       ],
-      "english": null,
+      "english": "And another hears of this Self as a wonder; even after hearing, no one knows it at all",
       "alignment_score": 0.8772,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{2:And} {4:another} {5:hears of} {3:this Self} {0,1:as a wonder}; {6,7:even after hearing}, {13:no one} {9:knows} {8,10,11,12:it at all}",
+      "english_source": "site-literal-translation"
     },
     "name-898-paragraph-1-span-0": {
       "quote_id": "name-898-paragraph-1-span-0",
@@ -28634,7 +28816,8 @@
       "alignment_score": 0.8569,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{1:I am Kapila} {0,2:among the great ones}"
+      "english_slots": "{1:I am Kapila} {0,2:among the great ones}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-914-paragraph-1-span-0": {
       "quote_id": "name-914-paragraph-1-span-0",
@@ -29020,10 +29203,12 @@
           "i": 13
         }
       ],
-      "english": null,
+      "english": "What is night for all beings, in that the self-controlled one is awake; where beings are awake, that is night for the seeing sage",
       "alignment_score": 0.9359,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0,1:What is night} {2,3:for all beings}, {4,5,6:in that the self-controlled one is awake}; {7,8,9:where beings are awake}, {10,11:that is night} {12,13:for the seeing sage}",
+      "english_source": "site-literal-translation"
     },
     "name-915-paragraph-2-span-0": {
       "quote_id": "name-915-paragraph-2-span-0",
@@ -29429,7 +29614,8 @@
       "alignment_score": 0.878,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1,2,3,4,5,6:Wherever, there is any special glory in anyone}. {10,11:know} {7,8,9:that} {15:to be a manifestation} {12,13,14:of a part of my Splendour}"
+      "english_slots": "{0,1,2,3,4,5,6:Wherever, there is any special glory in anyone}. {10,11:know} {7,8,9:that} {15:to be a manifestation} {12,13,14:of a part of my Splendour}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-928-paragraph-1-span-0": {
       "quote_id": "name-928-paragraph-1-span-0",
@@ -29714,7 +29900,8 @@
       "alignment_score": 0.962,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:For the protection of the good}, {2,3,4:the destruction of the wicked} {3:and} {5,6,7:the establishment of righteousness}, {8,9,10:He takes different Incarnations}"
+      "english_slots": "{0,1:For the protection of the good}, {2,4:the destruction of the wicked} {3:and} {5,6,7:the establishment of righteousness}, {8,9,10:He takes different Incarnations}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-930-paragraph-1-span-0": {
       "quote_id": "name-930-paragraph-1-span-0",
@@ -30132,7 +30319,8 @@
       "alignment_score": 0.9374,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:Permeating the earth} {4,5:I support} {2,3:all beings} {6:by (My) energy}; {8:and} {11,12,13,14:having become the juicy Moon} {7:I nourish} {9,10:all herbs}"
+      "english_slots": "{0,1:Permeating the earth} {4,5:I support} {2,3:all beings} {6:by (My) energy}; {8:and} {11,12,13,14:having become the juicy Moon} {7:I nourish} {9,10:all herbs}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-946-paragraph-1-span-0": {
       "quote_id": "name-946-paragraph-1-span-0",
@@ -30254,7 +30442,8 @@
       "alignment_score": 0.9598,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:Thou art the Father} {2:of the world}, {3:movable and immovable}"
+      "english_slots": "{0,1:Thou art the Father} {2:of the world}, {3:movable and immovable}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-948-paragraph-1-span-0": {
       "quote_id": "name-948-paragraph-1-span-0",
@@ -30522,7 +30711,8 @@
       "alignment_score": 0.8709,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{9:Oh, Glorious Sir}, {0,1,2,3,4,5:seeing your wonderful but awesome form}, {6,7,8:the whole world is shuddering with fear}"
+      "english_slots": "{9:Oh, Glorious Sir}, {0,1,2,3,4,5:seeing your wonderful but awesome form}, {6,7,8:the whole world is shuddering with fear}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-948-paragraph-2-span-0": {
       "quote_id": "name-948-paragraph-2-span-0",
@@ -31054,7 +31244,8 @@
       "alignment_score": 0.9196,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{17:Having seen} {2:Thy} {0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16:Immeasurable Form…} {18,19:the worlds are terrified}, {20,21:and so am I}"
+      "english_slots": "{17:Having seen} {2:Thy} {0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16:Immeasurable Form…} {18,19:the worlds are terrified}, {20,21:and so am I}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-948-paragraph-3-span-0": {
       "quote_id": "name-948-paragraph-3-span-0",
@@ -31598,7 +31789,8 @@
       "alignment_score": 0.923,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{10,11,12:On seeing Thee} {0,1,2,3,4,5,6,7,8,9:touching the sky…} {13,14:my heart is stricken with dread} {15,16,17:and I find no courage} {18,19:nor peace}, {20:O Viṣṇu}"
+      "english_slots": "{10,11,12:On seeing Thee} {0,1,2,3,4,5,6,7,8,9:touching the sky…} {13,14:my heart is stricken with dread} {15,16,17:and I find no courage} {18,19:nor peace}, {20:O Viṣṇu}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-955-paragraph-1-span-0": {
       "quote_id": "name-955-paragraph-1-span-0",
@@ -31837,10 +32029,12 @@
           "i": 8
         }
       ],
-      "english": null,
+      "english": "Whatever the best person does, that very thing other people do",
       "alignment_score": 0.8046,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0,1,2:Whatever} {3:the best person does}, {4,5,6:that very thing} {7,8:other people do}",
+      "english_source": "site-literal-translation"
     },
     "name-966-paragraph-1-span-0": {
       "quote_id": "name-966-paragraph-1-span-0",
@@ -32410,7 +32604,8 @@
       "alignment_score": 0.8771,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{6:He} {0,1:is not born}, {3:nor} {2,4:does He ever die}; {7,8:after having been He again ceases} {5,9,10,11:not to be}; {12:unborn}, {13:eternal}, {14:changeless} {15,16:and ancient} {17,18:he is not killed} {19,20:when the body is killed}"
+      "english_slots": "{6:He} {0,1:is not born}, {3:nor} {2,4:does He ever die}; {7,8:after having been He again ceases} {5,9,10,11:not to be}; {12:unborn}, {13:eternal}, {14:changeless} {15,16:and ancient} {17,18:he is not killed} {19,20:when the body is killed}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-972-paragraph-1-span-0": {
       "quote_id": "name-972-paragraph-1-span-0",
@@ -32626,7 +32821,8 @@
       "alignment_score": 0.9231,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{4:The 'Enjoyer'} {5:and} {6:the 'Lord'} {2,3:in all yajñas} {0,1,7,8:am I}"
+      "english_slots": "{4:The 'Enjoyer'} {5:and} {6:the 'Lord'} {2,3:in all yajñas} {0,1,7,8:am I}",
+      "english_source": "Swami Chinmayananda"
     },
     "name-977-paragraph-2-span-0": {
       "quote_id": "name-977-paragraph-2-span-0",
@@ -32847,10 +33043,12 @@
           "i": 7
         }
       ],
-      "english": null,
+      "english": "By this you shall prosper; may this be for you the fulfiller of desired aims",
       "alignment_score": 0.878,
       "status": "source-joined",
-      "review_status": "primary-text-reviewed"
+      "review_status": "primary-text-reviewed",
+      "english_slots": "{0,1:By this you shall prosper}; {2,4:may this be} {3:for you} {5,6,7:the fulfiller of desired aims}",
+      "english_source": "site-literal-translation"
     }
   },
   "review_status": "primary-grammar-reviewed-complete",
@@ -32870,8 +33068,10 @@
     ]
   },
   "translation_slot_review": {
-    "translations": 86,
-    "wording_changed": false,
+    "translations": 142,
+    "chinmayananda_translations": 85,
+    "site_literal_translations": 57,
+    "chinmayananda_wording_changed": false,
     "translated_sanskrit_words_linked": true,
     "untranslated_sanskrit_indices": {
       "name-285-paragraph-1-span-0": [

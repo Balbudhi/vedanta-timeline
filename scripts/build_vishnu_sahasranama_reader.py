@@ -684,8 +684,9 @@ def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_quotes
                         "type": "gita-quote", "id": quote["id"],
                         "devanagari": quote["canonical_devanagari"],
                         "iast": quote["canonical_iast"],
-                        "english": quote.get("chinmayananda_translation"),
+                        "english": reviewed.get("english"),
                         "english_slots": reviewed.get("english_slots"),
+                        "english_source": reviewed.get("english_source"),
                         "words": [quote_word_for_reader(word, index) for index, word in enumerate(words)],
                         "word_analysis_status": "primary-grammar-reviewed" if words else "withheld-pending-primary-grammar-review",
                         "printed_loci": quote["printed_loci"],
@@ -981,8 +982,10 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                     english = block.get("english")
                     slots = block.get("english_slots")
                     if english:
+                        if block.get("english_source") not in ("Swami Chinmayananda", "site-literal-translation"):
+                            errors.append(f"name {number} quote {block.get('id')} lacks translation provenance")
                         if not slots:
-                            errors.append(f"name {number} quote {block.get('id')} lacks interactive Chinmayananda English")
+                            errors.append(f"name {number} quote {block.get('id')} lacks interactive English")
                         else:
                             replay = re.sub(r"\{[\d,\s]+:([^}]*)\}", r"\1", slots)
                             if replay != english:
@@ -1021,7 +1024,9 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
         "with_traditional_derivation": sum("traditional_derivation" in item for item in names),
         "critical_text_differences": sum(bool(stanza.get("critical_text_differs")) for stanza in stanzas),
         "structured_gita_quotes": len(quote_blocks),
-        "interactive_chinmayananda_translations": sum(bool(block.get("english_slots")) for block in quote_blocks),
+        "interactive_gita_translations": sum(bool(block.get("english_slots")) for block in quote_blocks),
+        "chinmayananda_gita_translations": sum(block.get("english_source") == "Swami Chinmayananda" for block in quote_blocks),
+        "site_literal_gita_translations": sum(block.get("english_source") == "site-literal-translation" for block in quote_blocks),
         "full_commentary_replay": sum(
             item.get("chinmayananda", {}).get("commentary") == commentary_source.get(item.get("number"), {}).get("commentary")
             for item in names

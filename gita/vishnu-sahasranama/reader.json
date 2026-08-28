@@ -35,7 +35,7 @@
     },
     "commentary_quote_primary_review": {
       "path": "gita/vishnu-sahasranama/commentary-quote-analysis.json",
-      "sha256": "7879183d14ca75b4150e9b71d6f98ae0d5fa04056288b408fe509a3136595057"
+      "sha256": "262f1f565e784acae39d44fcb7eb2e7f02e68c4ad690d021c934d53a0772fd7a"
     },
     "performance_preface": {
       "path": "data/sources/sanskrit/vedanta/vishnu_sahasranama_performance_preface.json",
@@ -15994,8 +15994,9 @@
                 "id": "name-1-paragraph-2-span-0",
                 "devanagari": "सर्वभूतस्थम् आत्मानं सर्वभूतानि चात्मनि ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः",
                 "iast": "sarvabhūtastham ātmānaṃ sarvabhūtāni cātmani īkṣate yogayuktātmā sarvatra samadarśanaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "The self whose mind is joined in yoga sees the Self abiding in all beings and all beings in the Self; he sees the same everywhere",
+                "english_slots": "{9,10,11:The self whose mind is joined in yoga} {8:sees} {3:the Self} {0,1,2:abiding in all beings} {6:and} {4,5:all beings} {7:in the Self}; {12,13,14:he sees the same everywhere}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -17334,8 +17335,9 @@
                 "id": "name-11-paragraph-4-span-0",
                 "devanagari": "इन्द्रियाणि पराण्य् आहुर् इन्द्रियेभ्यः परं मनः मनसस् तु परा बुद्धिर् यो बुद्धेः परतस् तु सः",
                 "iast": "indriyāṇi parāṇy āhur indriyebhyaḥ paraṃ manaḥ manasas tu parā buddhir yo buddheḥ paratas tu saḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "They say the senses are superior; the mind is superior to the senses; but the intellect is superior to the mind; and that is beyond the intellect",
+                "english_slots": "{2:They say} {0,1:the senses are superior}; {4,5:the mind is superior} {3:to the senses}; {7:but} {8,9:the intellect is superior} {6:to the mind}; {13:and} {10,14:that} {12:is beyond} {11:the intellect}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -17769,6 +17771,7 @@
                 "iast": "yad gatvā na nivartante tad dhāma paramaṃ mama",
                 "english": "There where having gone, men never return. That sacred place is My seat",
                 "english_slots": "{0,1:There where having gone}, {2,3:men never return}. {4,5,6,7:That sacred place is My seat}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -17945,6 +17948,7 @@
                 "iast": "mām upetya tu kaunteya punarjanma na vidyate",
                 "english": "O Son of Kunti, having reached Me, there shall be no more any re-birth",
                 "english_slots": "{3:O Son of Kunti}, {0,1:having reached Me}, {2,4,5,6,7:there shall be no more any re-birth}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -18111,6 +18115,7 @@
                 "iast": "yasmin gatā na nivartanti bhūyaḥ",
                 "english": "That having reached no return again",
                 "english_slots": "{0,1:That having reached} {2,3,4:no return again}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -18892,6 +18897,7 @@
                 "iast": "ananyāś cintayanto māṃ ye janāḥ paryupāsate teṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmy aham",
                 "english": "Those who contemplate upon Me with total dedication, their daily welfare and spiritual progress I shall bear",
                 "english_slots": "{0,1,2,3,4,5,6:Those who contemplate upon Me with total dedication}, {7,8,9,10,11:their daily welfare and spiritual progress} {12,13:I shall bear}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -19999,6 +20005,7 @@
                 "iast": "nityaḥ sarvagataḥ sthāṇur acalo 'yaṃ sanātanaḥ",
                 "english": "Eternal, All — Pervading, the Pillar, Motionless (is) this Ancient One",
                 "english_slots": "{0:Eternal}, {1,2:All — Pervading}, {3:the Pillar}, {4:Motionless} {5,6:(is) this Ancient One}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -20406,8 +20413,9 @@
                 "id": "name-31-paragraph-0-span-0",
                 "devanagari": "संभवामि युगे युगे",
                 "iast": "saṃbhavāmi yuge yuge",
-                "english": null,
-                "english_slots": null,
+                "english": "I manifest age after age",
+                "english_slots": "{0:I manifest} {1,2:age after age}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -25156,8 +25164,9 @@
                 "id": "name-81-paragraph-0-span-0",
                 "devanagari": "रसो ऽप्य् अस्य परं दृष्ट्वा निवर्तते",
                 "iast": "raso 'py asya paraṃ dṛṣṭvā nivartate",
-                "english": "Rasopyasya Param Drishtvaa Nivartate",
-                "english_slots": "{0,1,2:Rasopyasya} {3:Param} {4:Drishtvaa} {5:Nivartate}",
+                "english": "Even his taste turns away upon seeing the Supreme",
+                "english_slots": "{0,1,2:Even his taste} {5:turns away} {3,4:upon seeing the Supreme}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -26445,8 +26454,9 @@
                 "id": "name-94-paragraph-0-span-1",
                 "devanagari": "सर्वतोक्षिशिरोमुखम्",
                 "iast": "sarvatokṣiśiromukham",
-                "english": null,
-                "english_slots": null,
+                "english": "With eyes, heads, and faces everywhere",
+                "english_slots": "{0:With} {1:eyes}, {2:heads}, {3:and faces everywhere}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -26649,6 +26659,7 @@
                 "iast": "jātasya hi dhruvo mṛtyur",
                 "english": "That which is born must necessarily die",
                 "english_slots": "{0:That which is born} {1,2:must necessarily} {3:die}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -26748,8 +26759,9 @@
                 "id": "name-95-paragraph-2-span-0",
                 "devanagari": "न जायते म्रियते वा कदा चिन्; नायं भूत्वा भविता वा न भूयः अजो नित्यः शाश्वतो ऽयं पुराणो; न हन्यते हन्यमाने शरीरे",
                 "iast": "na jāyate mriyate vā kadā cin; nāyaṃ bhūtvā bhavitā vā na bhūyaḥ ajo nityaḥ śāśvato 'yaṃ purāṇo; na hanyate hanyamāne śarīre",
-                "english": null,
-                "english_slots": null,
+                "english": "This Self is not born, nor does it ever die; having come to be, it will not again cease to be. Unborn, eternal, everlasting, and ancient, it is not killed when the body is killed",
+                "english_slots": "{6:This Self} {0,1:is not born}, {3:nor} {2,4:does it ever die}; {7,8:having come to be, it will not} {5,9,10,11:again cease to be}. {12:Unborn}, {13:eternal}, {14:everlasting}, {15,16:and ancient}, {17,18:it is not killed} {19,20:when the body is killed}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -27398,8 +27410,9 @@
                 "id": "name-98-paragraph-1-span-0",
                 "devanagari": "यद् गत्वा न निवर्तन्ते तद् धाम परमं मम",
                 "iast": "yad gatvā na nivartante tad dhāma paramaṃ mama",
-                "english": null,
-                "english_slots": null,
+                "english": "Having gone to which they do not return—that is My supreme abode",
+                "english_slots": "{0,1:Having gone to which} {2,3:they do not return}—{4:that is} {7:My} {6:supreme} {5:abode}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -28118,8 +28131,9 @@
                 "id": "name-104-paragraph-0-span-0",
                 "devanagari": "वसूनां पावकश् चास्मि",
                 "iast": "vasūnāṃ pāvakaś cāsmi",
-                "english": null,
-                "english_slots": null,
+                "english": "Among the Vasus I am Pāvaka",
+                "english_slots": "{0:Among the Vasus} {2,3:I am} {1:Pāvaka}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -28477,6 +28491,7 @@
                 "iast": "kṣetrajñaṃ cāpi māṃ viddhi sarvakṣetreṣu bhārata",
                 "english": "I am the Seer in all the fields-of-experiences everywhere",
                 "english_slots": "{0,3,4:I am the Seer} {1,2:in} {5,6,7:all the fields-of-experiences everywhere}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -29257,6 +29272,7 @@
                 "iast": "rudrāṇāṃ śaṃkaraś cāsmi",
                 "english": "Among the Rudras, I am Śaṅkara",
                 "english_slots": "{0:Among the Rudras}, {2,3:I am} {1:Śaṅkara}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -29696,6 +29712,7 @@
                 "iast": "sarvataḥśrutimal",
                 "english": "Everywhere are His ears",
                 "english_slots": "{0:Everywhere} {1:are His ears}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -30304,6 +30321,7 @@
                 "iast": "jyotiṣām api taj jyotis tamasaḥ param ucyate",
                 "english": "The Light that illumines all lights",
                 "english_slots": "{3:The Light} {1,2,4,5,6:that illumines} {0:all lights}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -30884,6 +30902,7 @@
                 "iast": "avyakto 'yam acintyo 'yam avikāryo 'yam ucyate",
                 "english": "This great Reality is Imperceptible, Unthinkable, without any modifications",
                 "english_slots": "{1,3,5,6:This great Reality is} {0:Imperceptible}, {2:Unthinkable}, {4:without any modifications}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -31212,8 +31231,9 @@
                 "id": "name-131-paragraph-0-span-0",
                 "devanagari": "वेदान्तकृद् वेदविद् एव चाहम्",
                 "iast": "vedāntakṛd vedavid eva cāham",
-                "english": null,
-                "english_slots": null,
+                "english": "I am the maker of Vedānta and indeed the knower of the Veda",
+                "english_slots": "{6:I am} {0,1:the maker of Vedānta} {5:and} {2,3,4:indeed the knower of the Veda}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -31447,8 +31467,9 @@
                 "id": "name-132-paragraph-1-span-0",
                 "devanagari": "कवीनाम् उशना कविः",
                 "iast": "kavīnām uśanā kaviḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Among poets, I am Uśanas the poet",
+                "english_slots": "{0:Among poets}, {1,2:I am Uśanas the poet}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -31635,7 +31656,8 @@
                 "devanagari": "उपद्रष्टानुमन्ता च भर्ता भोक्ता महेश्वरः परमात्मेति चाप्य् उक्तो देहे ऽस्मिन् पुरुषः परः",
                 "iast": "upadraṣṭānumantā ca bhartā bhoktā maheśvaraḥ paramātmeti cāpy ukto dehe 'smin puruṣaḥ paraḥ",
                 "english": "The Supreme puruṣa in this body is also called the spectator, the permitter, the supporter, the enjoyer, the great Lord, and the Supreme Self",
-                "english_slots": "{6,13,14:The Supreme puruṣa} {11,12:in this body} {7,8,9,10:is also called} {0:the spectator}, {1:the permitter}, {2,3:the supporter}, {4:the enjoyer}, {5:the great Lord}, {6:and the Supreme Self}",
+                "english_slots": "{13,14:The Supreme puruṣa} {11,12:in this body} {7,8,9,10:is also called} {0:the spectator}, {1:the permitter}, {2,3:the supporter}, {4:the enjoyer}, {5:the great Lord}, {6:and the Supreme Self}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -32854,8 +32876,9 @@
                 "id": "name-143-paragraph-1-span-0",
                 "devanagari": "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान् गुणान्",
                 "iast": "puruṣaḥ prakṛtistho hi bhuṅkte prakṛtijān guṇān",
-                "english": null,
-                "english_slots": null,
+                "english": "For puruṣa, abiding in prakṛti, experiences the guṇas born of prakṛti",
+                "english_slots": "{3:For} {0:puruṣa}, {1,2:abiding in prakṛti}, {4:experiences} {7:the guṇas} {5,6:born of prakṛti}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -33366,6 +33389,7 @@
                 "iast": "pāṇḍavānāṃ dhanaṃjayaḥ",
                 "english": "Among the Pandavas, I am Arjuna",
                 "english_slots": "{0:Among the Pandavas}, {1:I am Arjuna}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -35471,6 +35495,7 @@
                 "iast": "mama māyā duratyayā",
                 "english": "Very difficult indeed it is to cross over My māyā",
                 "english_slots": "{2:Very difficult indeed it is to cross over} {0,1:My māyā}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -37297,6 +37322,7 @@
                 "iast": "tejas tejasvinām aham",
                 "english": "I am the Light in all effulgents",
                 "english_slots": "{2:I am} {0:the Light} {1:in all effulgents}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -37709,6 +37735,7 @@
                 "iast": "anantaś cāsmi nāgānāṃ",
                 "english": "Among the serpents I am Ananta",
                 "english_slots": "{3:Among the serpents} {1,2:I am} {0:Ananta}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -38275,8 +38302,9 @@
                 "id": "name-198-paragraph-0-span-0",
                 "devanagari": "विनश्यत्स्व् अविनश्यन्तं यः पश्यति स पश्यति",
                 "iast": "vinaśyatsv avinaśyantaṃ yaḥ paśyati sa paśyati",
-                "english": null,
-                "english_slots": null,
+                "english": "He who sees the imperishable amid perishing things—he truly sees",
+                "english_slots": "{3:He who} {4:sees} {1,2:the imperishable} {0:amid perishing things}—{5,6:he truly sees}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -38602,6 +38630,7 @@
                 "iast": "mṛgāṇāṃ ca mṛgendro 'haṃ",
                 "english": "Among the animals, I am the King of animals, Lion",
                 "english_slots": "{0:Among the animals}, {1,2:I am the King of animals, Lion}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -41006,8 +41035,9 @@
                 "id": "name-226-paragraph-1-span-0",
                 "devanagari": "अनेकवक्त्रनयनम् अनेकाद्भुतदर्शनम्",
                 "iast": "anekavaktranayanam anekādbhutadarśanam",
-                "english": null,
-                "english_slots": null,
+                "english": "Having many mouths and eyes, displaying many wondrous sights",
+                "english_slots": "{0,1,2:Having many mouths and eyes}, {3,4,5:displaying many wondrous sights}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -41120,8 +41150,9 @@
                 "id": "name-226-paragraph-2-span-0",
                 "devanagari": "रूपं महत् ते बहुवक्त्रनेत्रं; महाबाहो बहुबाहूरुपादम्",
                 "iast": "rūpaṃ mahat te bahuvaktranetraṃ; mahābāho bahubāhūrupādam",
-                "english": null,
-                "english_slots": null,
+                "english": "Your great form, with many mouths and eyes, O mighty-armed one, with many arms, thighs, and feet",
+                "english_slots": "{2:Your} {0,1:great form}, {3,4,5:with many mouths and eyes}, {6,7:O mighty-armed one}, {8,9,10,11:with many arms, thighs, and feet}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -41536,6 +41567,7 @@
                 "iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe 'rjuna tiṣṭhati bhrāmayan sarvabhūtāni yantrārūḍhāni māyayā",
                 "english": "O Arjuna, the Lord dwells in the heart of all, and spins. through His māyā, all layers of personal ties as though the universe is a complicated machinery",
                 "english_slots": "{5:O Arjuna}, {0:the Lord} {6:dwells} {3,4:in the heart} {1,2:of all}, {7:and spins}. {12:through His māyā}, {8,9:all layers of personal ties} {10,11:as though the universe is a complicated machinery}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -41951,8 +41983,9 @@
                 "id": "name-230-paragraph-1-span-0",
                 "devanagari": "अज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः",
                 "iast": "ajñānenāvṛtaṃ jñānaṃ tena muhyanti jantavaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Knowledge is covered by ignorance; by that beings are deluded",
+                "english_slots": "{2:Knowledge} {0,1:is covered by ignorance}; {3:by that} {5:beings} {4:are deluded}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -42255,6 +42288,7 @@
                 "iast": "yad ādityagataṃ tejo jagad bhāsayate 'khilam yac candramasi yac cāgnau tat tejo viddhi māmakam",
                 "english": "Please understand that I am the Light of the Sun that illumines all earth; and the light and heat in the moon and fire are all mine only",
                 "english_slots": "{13:Please understand that} {14:I am} {0,1,2:the Light of the Sun} {3,4,5:that illumines all earth}; {9:and} {6,7:the light and heat in the moon} {8,10:and fire} {11,12,14:are all mine only}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -42943,6 +42977,7 @@
                 "iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati tad ahaṃ bhaktyupahṛtam aśnāmi prayatātmanaḥ",
                 "english": "With a little am I satisfied. if it is given with sincerity, and with faithful consistency",
                 "english_slots": "{0,1,2,3,8,9,12:With a little am I satisfied}. {4,5,7:if it is given} {6,10,11:with sincerity}, {13,14:and with faithful consistency}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -43329,8 +43364,9 @@
                 "id": "name-237-paragraph-1-span-0",
                 "devanagari": "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान् गुणान्",
                 "iast": "puruṣaḥ prakṛtistho hi bhuṅkte prakṛtijān guṇān",
-                "english": null,
-                "english_slots": null,
+                "english": "For puruṣa, abiding in prakṛti, experiences the guṇas born of prakṛti",
+                "english_slots": "{3:For} {0:puruṣa}, {1,2:abiding in prakṛti}, {4:experiences} {7:the guṇas} {5,6:born of prakṛti}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -44396,8 +44432,9 @@
                 "id": "name-247-paragraph-1-span-0",
                 "devanagari": "अनेकबाहूदरवक्त्रनेत्रं; पश्यामि त्वा सर्वतो ऽनन्तरूपम् नान्तं न मध्यं न पुनस् तवादिं; पश्यामि विश्वेश्वर विश्वरूप",
                 "iast": "anekabāhūdaravaktranetraṃ; paśyāmi tvā sarvato 'nantarūpam nāntaṃ na madhyaṃ na punas tavādiṃ; paśyāmi viśveśvara viśvarūpa",
-                "english": null,
-                "english_slots": null,
+                "english": "I see You with countless arms, bellies, mouths, and eyes, of endless form on every side. I see no end, no middle, and no beginning of Yours, O Lord of the universe, O universal Form",
+                "english_slots": "{5:I see} {6:You} {0,1,2,3,4:with countless arms, bellies, mouths, and eyes}, {7,8,9:of endless form on every side}. {18:I see} {10,11:no end}, {12,13:no middle}, {14,15,16,17:and no beginning of Yours}, {19:O Lord of the universe}, {20,21:O universal Form}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -46184,6 +46221,7 @@
                 "iast": "matsthāni sarvabhūtāni na cāhaṃ teṣv avasthitaḥ",
                 "english": "They are in me; I am not in them",
                 "english_slots": "{0,1,2,3:They are in me}; {4,5,6,7,8:I am not in them}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -47002,8 +47040,9 @@
                 "id": "name-270-paragraph-2-span-1",
                 "devanagari": "सर्वभूतस्थम् आत्मानं सर्वभूतानि चात्मनि ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः",
                 "iast": "sarvabhūtastham ātmānaṃ sarvabhūtāni cātmani īkṣate yogayuktātmā sarvatra samadarśanaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "The self whose mind is joined in yoga sees the Self abiding in all beings and all beings in the Self; he sees the same everywhere",
+                "english_slots": "{9,10,11:The self whose mind is joined in yoga} {8:sees} {3:the Self} {0,1,2:abiding in all beings} {6:and} {4,5:all beings} {7:in the Self}; {12,13,14:he sees the same everywhere}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -47557,8 +47596,9 @@
                 "id": "name-273-paragraph-2-span-0",
                 "devanagari": "यद् आदित्यगतं तेजो जगद् भासयते ऽखिलम् यच् चन्द्रमसि यच् चाग्नौ तत् तेजो विद्धि मामकम्",
                 "iast": "yad ādityagataṃ tejo jagad bhāsayate 'khilam yac candramasi yac cāgnau tat tejo viddhi māmakam",
-                "english": null,
-                "english_slots": null,
+                "english": "Know that the light in the moon and in fire, and the light abiding in the sun that illumines the whole world, is Mine",
+                "english_slots": "{13:Know} {6,7,8,9,10,11,12:that the light in the moon and in fire}, {0,1,2:and the light abiding in the sun} {3,4,5:that illumines the whole world}, {14:is Mine}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -47944,8 +47984,9 @@
                 "id": "name-274-paragraph-0-span-0",
                 "devanagari": "यथा प्रकाशयत्य् एकः कृत्स्नं लोकम् इमं रविः",
                 "iast": "yathā prakāśayaty ekaḥ kṛtsnaṃ lokam imaṃ raviḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Just as the one sun illumines this whole world",
+                "english_slots": "{0:Just as} {2,6:the one sun} {1:illumines} {5:this} {3,4:whole world}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -48093,8 +48134,9 @@
                 "id": "name-274-paragraph-1-span-0",
                 "devanagari": "क्षेत्रं क्षेत्री तथा कृत्स्नं प्रकाशयति भारत",
                 "iast": "kṣetraṃ kṣetrī tathā kṛtsnaṃ prakāśayati bhārata",
-                "english": null,
-                "english_slots": null,
+                "english": "so, O Bhārata, the knower of the field illumines the whole field",
+                "english_slots": "{2:so}, {5:O Bhārata}, {1:the knower of the field} {4:illumines} {0,3:the whole field}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -48357,6 +48399,7 @@
                 "iast": "balaṃ balavatāṃ cāhaṃ",
                 "english": "I am the Might in all strength",
                 "english_slots": "{3:I am} {0:the Might} {1,2:in all strength}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -48447,6 +48490,7 @@
                 "iast": "tejas tejasvinām aham",
                 "english": "I am the Brilliancy in all that is brilliant",
                 "english_slots": "{2:I am} {0:the Brilliancy} {1:in all that is brilliant}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -48852,6 +48896,7 @@
                 "iast": "om ity ekākṣaraṃ brahma vyāharan mām anusmaran yaḥ prayāti tyajan dehaṃ sa yāti paramāṃ gatim",
                 "english": "One who chants my name Om and leaves his body at the time of death thus remembering Me, he shall go to the Supreme State",
                 "english_slots": "{7:One who} {0,1,2,3,4:chants my name Om} {8,9,10:and leaves his body at the time of death} {5,6:thus remembering Me}, {11,12,13,14:he shall go to the Supreme State}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -49326,7 +49371,8 @@
                 "devanagari": "पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः",
                 "iast": "puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
                 "english": "As the rays of the moon (Soma) I fill the vegetable kingdom with nutrition",
-                "english_slots": "{4,5,6,7:As the rays of the moon (Soma)} {0:I fill} {2,3:the vegetable kingdom} {1:with} {6,7:nutrition}",
+                "english_slots": "{4,5:As the rays of the moon (Soma)} {0:I fill} {2,3:the vegetable kingdom} {1:with} {6,7:nutrition}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -49864,7 +49910,8 @@
                 "devanagari": "गाम् आविश्य च भूतानि धारयाम्य् अहम् ओजसा पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः",
                 "iast": "gām āviśya ca bhūtāni dhārayāmy aham ojasā puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
                 "english": "that nourishes with essence all plant kingdom",
-                "english_slots": "{11,12,13,14:that} {7:nourishes} {13,14:with essence} {8,9,10:all plant kingdom}",
+                "english_slots": "{11,12:that} {7:nourishes} {13,14:with essence} {8,9,10:all plant kingdom}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -53590,8 +53637,9 @@
                 "id": "name-323-paragraph-1-span-0",
                 "devanagari": "सरसाम् अस्मि सागरः",
                 "iast": "sarasām asmi sāgaraḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Among lakes I am the ocean",
+                "english_slots": "{0:Among lakes} {1:I am} {2:the ocean}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -56930,8 +56978,9 @@
                 "id": "name-359-paragraph-2-span-0",
                 "devanagari": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुर् एव च",
                 "iast": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhur eva ca",
-                "english": null,
-                "english_slots": null,
+                "english": "For I alone am the enjoyer and Lord of all sacrifices",
+                "english_slots": "{1:For} {0:I} {7,8:alone} {4:am the enjoyer} {5:and} {6:Lord} {2,3:of all sacrifices}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -59245,8 +59294,9 @@
                 "id": "name-383-paragraph-2-span-0",
                 "devanagari": "नाहं प्रकाशः सर्वस्य योगमायासमावृतः",
                 "iast": "nāhaṃ prakāśaḥ sarvasya yogamāyāsamāvṛtaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Veiled by My yogamāyā, I am not manifest to all",
+                "english_slots": "{4,5,6:Veiled by My yogamāyā}, {0,1,2:I am not manifest} {3:to all}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -59506,6 +59556,7 @@
                 "iast": "vyavasāyātmikā buddhir ekeha kurunandana",
                 "english": "The intellect of one who is practising Yoga is single-pointed without vacillation",
                 "english_slots": "{2:The intellect} {5,6:of one who is practising Yoga} {0,1,3,4:is single-pointed without vacillation}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -59647,6 +59698,7 @@
                 "iast": "bhogaiśvaryaprasaktānāṃ tayāpahṛtacetasām vyavasāyātmikā buddhiḥ samādhau na vidhīyate",
                 "english": "Those who are revelling in sensuality and consequently disturbing the poise of their intellect, cannot have a steady mind and consistent pursuit of Yoga",
                 "english_slots": "{0,1,2:Those who are revelling in sensuality} {3,4,5:and consequently disturbing the poise of their intellect}, {9,10,11:cannot have} {6,7,8:a steady mind} {9:and consistent pursuit of Yoga}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -60307,8 +60359,9 @@
                 "id": "name-389-paragraph-1-span-0",
                 "devanagari": "दिव्या ह्य् आत्मविभूतयः",
                 "iast": "divyā hy ātmavibhūtayaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "For these are divine manifestations of Myself",
+                "english_slots": "{1:For} {0:these are divine} {2,3:manifestations of Myself}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -60559,6 +60612,7 @@
                 "iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati tad ahaṃ bhaktyupahṛtam aśnāmi prayatātmanaḥ",
                 "english": "I accept even if you offer some leaf or flower, or fruit or spoon of water, happily, if it is offered in love",
                 "english_slots": "{9,12:I accept} {4,5,7:even if you offer} {0:some leaf} {1:or flower}, {2:or fruit} {3:or spoon of water}, {13,14:happily}, {6,8,10,11:if it is offered in love}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -63306,6 +63360,7 @@
                 "iast": "kālaḥ kalayatām aham",
                 "english": "I am the Time of counting",
                 "english_slots": "{2:I am} {0:the Time} {1:of counting}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -63560,8 +63615,9 @@
                 "id": "name-420-paragraph-1-span-0",
                 "devanagari": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति तद् अहं भक्त्युपहृतम् अश्नामि प्रयतात्मनः",
                 "iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati tad ahaṃ bhaktyupahṛtam aśnāmi prayatātmanaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Whoever offers to Me a leaf, a flower, a fruit, or water with devotion—I accept that loving offering from the pure-hearted one",
+                "english_slots": "{4:Whoever} {7:offers} {5:to Me} {0:a leaf}, {1:a flower}, {2:a fruit}, {3:or water} {6:with devotion}—{9,12:I accept} {8,10,11:that loving offering} {13,14:from the pure-hearted one}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -65292,6 +65348,7 @@
                 "iast": "dyāvāpṛthivyor idam antaraṃ hi; vyāptaṃ tvayaikena diśaś ca sarvāḥ",
                 "english": "This space between earth and the heavens and all the quarters are filled by You alone",
                 "english_slots": "{2,3:This space} {0,1:between earth and the heavens} {9:and} {8,10:all the quarters} {4,5:are filled} {6,7:by You alone}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -65770,6 +65827,7 @@
                 "iast": "brahmārpaṇaṃ brahmahavir brahmāgnau brahmaṇā hutam brahmaiva tena gantavyaṃ brahmakarmasamādhinā",
                 "english": "offer is Brahman, what is offered is Brahman, the fire is Brahman, the offerer is Brahman and the goal reached is also Brahman",
                 "english_slots": "{0,1:offer is Brahman}, {2,3:what is offered is Brahman}, {4,5:the fire is Brahman}, {6,7:the offerer is Brahman} {8,9,10,11,12,13,14:and the goal reached is also Brahman}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -66236,6 +66294,7 @@
                 "iast": "ādityānām ahaṃ viṣṇur jyotiṣāṃ ravir aṃśumān marīcir marutām asmi nakṣatrāṇām ahaṃ śaśī",
                 "english": "among the stars I am the moon",
                 "english_slots": "{9:among the stars} {8,10:I am} {11:the moon}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -69337,8 +69396,9 @@
                 "id": "name-473-paragraph-0-span-0",
                 "devanagari": "सरसाम् अस्मि सागरः",
                 "iast": "sarasām asmi sāgaraḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Among lakes I am the ocean",
+                "english_slots": "{0:Among lakes} {1:I am} {2:the ocean}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -69622,6 +69682,7 @@
                 "iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge",
                 "english": "In every cycle I shall manifest for re-establishing dharma",
                 "english_slots": "{9,10:In every cycle} {8:I shall manifest} {5,6,7:for re-establishing dharma}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -70011,8 +70072,9 @@
                 "id": "name-477-paragraph-1-span-0",
                 "devanagari": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् धर्मसंस्थापनार्थाय संभवामि युगे युगे",
                 "iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge",
-                "english": null,
-                "english_slots": null,
+                "english": "For the protection of the good, for the destruction of evildoers, and for the establishment of dharma, I manifest age after age",
+                "english_slots": "{0,1:For the protection of the good}, {2,4:for the destruction of evildoers}, {3:and} {5,6,7:for the establishment of dharma}, {8:I manifest} {9,10:age after age}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -70316,8 +70378,9 @@
                 "id": "name-478-paragraph-2-span-0",
                 "devanagari": "अविनाशि तु तद् विद्धि येन सर्वम् इदं ततम्",
                 "iast": "avināśi tu tad viddhi yena sarvam idaṃ tatam",
-                "english": null,
-                "english_slots": null,
+                "english": "Know but that to be imperishable by which all this is pervaded",
+                "english_slots": "{3:Know} {1:but} {2:that} {0:to be imperishable} {4:by which} {5,6:all this} {7:is pervaded}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -70569,6 +70632,7 @@
                 "iast": "amṛtaṃ caiva mṛtyuś ca sad asac cāham arjuna",
                 "english": "Arjuna, I am at once immortality and mortality; I am both Existence and Non-existence",
                 "english_slots": "{9:Arjuna}, {8:I am at once} {0:immortality} {1,2:and} {3:mortality}; {8:I am both} {5:Existence} {4,7:and} {6:Non-existence}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -70926,6 +70990,7 @@
                 "iast": "kṣaraḥ sarvāṇi bhūtāni kūṭastho 'kṣara ucyate",
                 "english": "all creatures together constitute the kṣara-purusha and the Changeless in all creatures is the A-kshara-purusha",
                 "english_slots": "{1,2:all creatures together} {0:constitute the kṣara-purusha} {3:and the Changeless in all creatures} {5:is} {4:the A-kshara-purusha}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -73297,8 +73362,9 @@
                 "id": "name-505-paragraph-1-span-0",
                 "devanagari": "पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः",
                 "iast": "puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "And, becoming the essence-filled moon, I nourish all plants",
+                "english_slots": "{1:And}, {4,5,6,7:becoming the essence-filled moon}, {0:I nourish} {2,3:all plants}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -74183,8 +74249,9 @@
                 "id": "name-513-paragraph-1-span-0",
                 "devanagari": "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत",
                 "iast": "kṣetrajñaṃ cāpi māṃ viddhi sarvakṣetreṣu bhārata",
-                "english": null,
-                "english_slots": null,
+                "english": "O Bhārata, know Me also as the knower of the field in every field",
+                "english_slots": "{7:O Bhārata}, {4:know} {1,2,3:Me also} {0:as the knower of the field} {5,6:in every field}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -74692,6 +74759,7 @@
                 "iast": "sarasām asmi sāgaraḥ",
                 "english": "Of the lakes I am the ocean",
                 "english_slots": "{0:Of the lakes} {1:I am} {2:the ocean}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -76043,8 +76111,9 @@
                 "id": "name-531-paragraph-1-span-0",
                 "devanagari": "सिद्धानां कपिलो मुनिः",
                 "iast": "siddhānāṃ kapilo muniḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Among the perfected ones, I am the sage Kapila",
+                "english_slots": "{0:Among the perfected ones}, {1,2:I am the sage Kapila}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -78167,6 +78236,7 @@
                 "iast": "yad yad vibhūtimat sattvaṃ śrīmad ūrjitam eva vā tat tad evāvagaccha tvaṃ mama tejoṃśasaṃbhavam",
                 "english": "understand them all as coming out of my glory",
                 "english_slots": "{10,11:understand} {0,1,2,3,4,5,6,7,8,9:them all} {15:as coming out} {12,13,14:of my glory}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -78562,8 +78632,9 @@
                 "id": "name-555-paragraph-1-span-0",
                 "devanagari": "ऊर्ध्वमूलम् अधःशाखम् अश्वत्थं प्राहुर् अव्ययम्",
                 "iast": "ūrdhvamūlam adhaḥśākham aśvatthaṃ prāhur avyayam",
-                "english": null,
-                "english_slots": null,
+                "english": "They speak of the imperishable aśvattha tree with roots above and branches below",
+                "english_slots": "{5:They speak of} {4,6:the imperishable aśvattha tree} {0,1:with roots above} {2,3:and branches below}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -80615,6 +80686,7 @@
                 "iast": "vedānāṃ sāmavedo 'smi",
                 "english": "Of Vedas I am the sāma Veda",
                 "english_slots": "{0:Of Vedas} {3:I am} {1,2:the sāma Veda}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -81451,6 +81523,7 @@
                 "iast": "yad gatvā na nivartante tad dhāma paramaṃ mama",
                 "english": "To which having gone they return not; that is My Supreme Abode",
                 "english_slots": "{0,1:To which having gone} {2,3:they return not}; {4:that is} {7:My} {6:Supreme} {5:Abode}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -82897,6 +82970,7 @@
                 "iast": "teṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmy aham",
                 "english": "I shall govern both your 'Yoga' and 'kṣema' when you are a true devotee",
                 "english_slots": "{5,6:I shall govern} {3,4:both your 'Yoga' and 'kṣema'} {0,1,2:when you are a true devotee}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -85222,6 +85296,7 @@
                 "iast": "sthito 'smi gatasaṃdehaḥ kariṣye vacanaṃ tava",
                 "english": "I am firm; my doubts are gone. I will do according to your word",
                 "english_slots": "{0,1:I am firm}; {2,3:my doubts are gone}. {4:I will do} {5,6:according to your word}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -85584,8 +85659,9 @@
                 "id": "name-625-paragraph-2-span-0",
                 "devanagari": "सर्वतःपाणिपादं तत् सर्वतोक्षिशिरोमुखम्",
                 "iast": "sarvataḥpāṇipādaṃ tat sarvatokṣiśiromukham",
-                "english": null,
-                "english_slots": null,
+                "english": "That has hands and feet on every side, eyes, heads, and faces on every side",
+                "english_slots": "{3:That has} {0,1,2:hands and feet on every side}, {4,5,6,7:eyes, heads, and faces on every side}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -86354,6 +86430,7 @@
                 "iast": "teṣām ahaṃ samuddhartā mṛtyusaṃsārasāgarāt bhavāmi nacirāt pārtha mayy āveśitacetasām",
                 "english": "To them I shall be, err long, a Saviour from the Ocean of Samsar",
                 "english_slots": "{0:To them} {1,6:I shall be}, {7:err long}, {2:a Saviour} {3,4,5:from the Ocean of Samsar}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -86703,8 +86780,9 @@
                 "id": "name-633-paragraph-1-span-0",
                 "devanagari": "ज्योतिषाम् अपि तज् ज्योतिस् तमसः परम् उच्यते",
                 "iast": "jyotiṣām api taj jyotis tamasaḥ param ucyate",
-                "english": null,
-                "english_slots": null,
+                "english": "That is said to be the Light of lights, beyond darkness",
+                "english_slots": "{2,6:That is said to be} {3:the Light} {0,1:of lights}, {4,5:beyond darkness}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -89003,6 +89081,7 @@
                 "iast": "dyāvāpṛthivyor idam antaraṃ hi; vyāptaṃ tvayaikena diśaś ca sarvāḥ",
                 "english": "By Thee alone is filled the earth, the outer space and the inner space. It is Thee who fills all directions everywhere",
                 "english_slots": "{6,7:By Thee alone} {4,5:is filled} {1:the earth}, {0,2,3:the outer space and the inner space}. {6:It is Thee who fills} {8,9,10:all directions everywhere}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -89476,6 +89555,7 @@
                 "iast": "pāṇḍavānāṃ dhanaṃjayaḥ",
                 "english": "I am Dhananjaya, among the sons of Pandu",
                 "english_slots": "{1:I am Dhananjaya}, {0:among the sons of Pandu}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -90092,8 +90172,9 @@
                 "id": "name-666-paragraph-2-span-0",
                 "devanagari": "वेदान्तकृद् वेदविद् एव चाहम्",
                 "iast": "vedāntakṛd vedavid eva cāham",
-                "english": null,
-                "english_slots": null,
+                "english": "I am the maker of Vedānta and indeed the knower of the Veda",
+                "english_slots": "{6:I am} {0,1:the maker of Vedānta} {5:and} {2,3,4:indeed the knower of the Veda}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -90880,6 +90961,7 @@
                 "iast": "jyotiṣām api taj jyotis tamasaḥ param ucyate",
                 "english": "The Supreme is the Light of all lights, beyond all darkness",
                 "english_slots": "{1,2,5,6:The Supreme is} {3:the Light} {0:of all lights}, {4:beyond all darkness}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -91034,6 +91116,7 @@
                 "iast": "yad ādityagataṃ tejo jagad bhāsayate 'khilam yac candramasi yac cāgnau tat tejo viddhi māmakam",
                 "english": "Understand that Light in the Sun by which the whole world is illumined, and that Light in the Moon and in the fire to be My own Light",
                 "english_slots": "{13:Understand} {2,11,12,14:that Light} {0,1:in the Sun} {3,4,5:by which the whole world is illumined}, {9:and} {6,7:that Light in the Moon} {8,10:and in the fire} {11,12,14:to be My own Light}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -91429,8 +91512,9 @@
                 "id": "name-674-paragraph-0-span-0",
                 "devanagari": "अनन्तश् चास्मि नागानां",
                 "iast": "anantaś cāsmi nāgānāṃ",
-                "english": null,
-                "english_slots": null,
+                "english": "Among nāgas I am Ananta",
+                "english_slots": "{3:Among nāgas} {1,2:I am} {0:Ananta}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -91525,8 +91609,9 @@
                 "id": "name-674-paragraph-0-span-1",
                 "devanagari": "सर्पाणाम् अस्मि वासुकिः",
                 "iast": "sarpāṇām asmi vāsukiḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Among serpents I am Vāsuki",
+                "english_slots": "{0:Among serpents} {1:I am} {2:Vāsuki}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -91876,6 +91961,7 @@
                 "iast": "yajñānāṃ japayajño 'smi",
                 "english": "I am among the yajñas, the Japa-yajña",
                 "english_slots": "{3:I am} {0:among the yajñas}, {1,2:the Japa-yajña}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -92064,6 +92150,7 @@
                 "iast": "brahmārpaṇaṃ brahmahavir brahmāgnau brahmaṇā hutam",
                 "english": "We offer to Brahman that which is Brahman, in the fire which is Brahman, and the act of offering is also Brahman",
                 "english_slots": "{6,7:We offer} {0,1:to Brahman} {2,3:that which is Brahman}, {4,5:in the fire which is Brahman}, {6,7:and the act of offering is also Brahman}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -92711,6 +92798,7 @@
                 "iast": "sa me priyaḥ",
                 "english": "He is the one dear to Me",
                 "english_slots": "{0:He is the one} {2:dear} {1:to Me}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -93859,8 +93947,9 @@
                 "id": "name-695-paragraph-2-span-0",
                 "devanagari": "ईश्वरः सर्वभूतानां हृद्देशे ऽर्जुन तिष्ठति",
                 "iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe 'rjuna tiṣṭhati",
-                "english": null,
-                "english_slots": null,
+                "english": "O Arjuna, the Lord dwells in the heart of all beings",
+                "english_slots": "{5:O Arjuna}, {0:the Lord} {6:dwells} {3,4:in the heart} {1,2:of all beings}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -94005,6 +94094,7 @@
                 "iast": "bhrāmayan sarvabhūtāni yantrārūḍhāni māyayā",
                 "english": "The Lord dwells in the hearts of all beings, O Arjuna, causing all beings, by His illusive power, to revolve as if mounted on a machine",
                 "english_slots": "{1,2:The Lord dwells in the hearts of all beings}, {0:O Arjuna}, {0,1,2:causing all beings}, {5:by His illusive power}, {0:to revolve} {3,4:as if mounted on a machine}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -94216,6 +94306,7 @@
                 "iast": "aham ādiś ca madhyaṃ ca bhūtānām anta eva ca",
                 "english": "I am the beginning, the middle and also the end of all beings",
                 "english_slots": "{0:I am} {1:the beginning}, {2,3:the middle} {4,7,8:and also} {6:the end} {5:of all beings}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -94391,8 +94482,9 @@
                 "id": "name-696-paragraph-1-span-0",
                 "devanagari": "अहम् आत्मा गुडाकेश सर्वभूताशयस्थितः",
                 "iast": "aham ātmā guḍākeśa sarvabhūtāśayasthitaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "O Guḍākeśa, I am the Self abiding in the hearts of all beings",
+                "english_slots": "{2:O Guḍākeśa}, {0,1:I am the Self} {6:abiding} {3,4,5:in the hearts of all beings}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -94703,6 +94795,7 @@
                 "iast": "brahmārpaṇaṃ brahmahavir brahmāgnau brahmaṇā hutam",
                 "english": "the oblations are nothing but Brahman",
                 "english_slots": "{2,3,6,7:the oblations are} {0,1,4,5:nothing but Brahman}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -95620,6 +95713,7 @@
                 "iast": "madbhakta etad vijñāya madbhāvāyopapadyate",
                 "english": "My devotee thus knowing (realising the Truth, the jneyam, seated in the heart of all) enters into My Being",
                 "english_slots": "{0,1:My devotee} {2,3:thus knowing (realising the Truth, the jneyam, seated in the heart of all)} {4,5,6:enters into My Being}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -95983,6 +96077,7 @@
                 "iast": "ahaṃ sarvasya prabhavo",
                 "english": "I am the Source of all Creation",
                 "english_slots": "{0:I am} {2:the Source} {1:of all Creation}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -96322,6 +96417,7 @@
                 "iast": "nānto 'sti mama divyānāṃ vibhūtīnāṃ paraṃtapa",
                 "english": "Of My Divine Glories there is no end",
                 "english_slots": "{2,3,4:Of My Divine Glories} {0,1:there is no end}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -96830,6 +96926,7 @@
                 "iast": "kleśo 'dhikataras teṣām avyaktāsaktacetasām",
                 "english": "Greater is their trouble whose minds are set on the Unmanifest; for the goal, the Unmanifested, is very hard for the embodied to reach",
                 "english_slots": "{0,1:Greater is their trouble} {2,3,4,5:whose minds are set on the Unmanifest}; {0,1:for the goal, the Unmanifested, is very hard} {2:for the embodied to reach}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -97338,6 +97435,7 @@
                 "iast": "divi sūryasahasrasya bhaved yugapad utthitā",
                 "english": "If the splendour of a thousand Suns were to blaze out at once in the sky, that would be like the splendour of that Mighty Being",
                 "english_slots": "{3:If the splendour} {1,2:of a thousand Suns} {3,4,5:were to blaze out at once} {0:in the sky}, {1,2,3,4,5:that would be like the splendour of that Mighty Being}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -97892,6 +97990,7 @@
                 "iast": "sarvataḥpāṇipādaṃ tat sarvatokṣiśiromukham sarvataḥśrutimal loke sarvam āvṛtya tiṣṭhati",
                 "english": "Hands and feet everywhere, with heads and mouths everywhere, His ears everywhere, stands (The Lord), enveloping all",
                 "english_slots": "{0,1,2:Hands and feet everywhere}, {4,5,6,7:with heads and mouths everywhere}, {8,9:His ears everywhere}, {3,13:stands} {3:(The Lord)}, {10,11,12:enveloping all}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -98779,6 +98878,7 @@
                 "iast": "oṃ tat sad iti nirdeśo brahmaṇas trividhaḥ smṛtaḥ",
                 "english": "'Om Tat Sat' this has been declared to be the triple designation of Brahman",
                 "english_slots": "{0,1,2:'Om Tat Sat'} {3,4,7:this has been declared to be} {6:the triple designation} {5:of Brahman}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -99044,6 +99144,7 @@
                 "iast": "evānuttamāṃ gatim",
                 "english": "The Unequalled State of Perfection: The Supreme State of Truth",
                 "english_slots": "{1,2:The Unequalled State of Perfection}: {0,1,2:The Supreme State of Truth}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -100021,6 +100122,7 @@
                 "iast": "na tvatsamo 'sty abhyadhikaḥ kuto 'nyo;",
                 "english": "None there exists who is equal to You; how can there be then another superior to You in the three worlds, O Being of unequalled power",
                 "english_slots": "{0,1,2,3:None there exists who is equal to You}; {4,5:how can there be then another superior to You} {0,1,2,3,4,5:in the three worlds, O Being of unequalled power}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -100399,8 +100501,9 @@
                 "id": "name-745-paragraph-1-span-0",
                 "devanagari": "नित्यः सर्वगतः स्थाणुर् अचलो ऽयं सनातनः",
                 "iast": "nityaḥ sarvagataḥ sthāṇur acalo 'yaṃ sanātanaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "This Self is eternal, all-pervading, stable, immovable, and ancient",
+                "english_slots": "{5:This Self is} {0:eternal}, {1,2:all-pervading}, {3:stable}, {4:immovable}, {6:and ancient}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -101282,8 +101385,9 @@
                 "id": "name-753-paragraph-1-span-0",
                 "devanagari": "तस्मात् सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम्",
                 "iast": "tasmāt sarvagataṃ brahma nityaṃ yajñe pratiṣṭhitam",
-                "english": null,
-                "english_slots": null,
+                "english": "Therefore Brahman, which pervades all, is ever established in sacrifice",
+                "english_slots": "{0:Therefore} {3:Brahman}, {1,2:which pervades all}, {4,6:is ever established} {5:in sacrifice}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -102715,8 +102819,9 @@
                 "id": "name-767-paragraph-1-span-0",
                 "devanagari": "ईश्वरः सर्वभूतानां हृद्देशे ऽर्जुन तिष्ठति भ्रामयन् सर्वभूतानि यन्त्रारूढानि मायया",
                 "iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe 'rjuna tiṣṭhati bhrāmayan sarvabhūtāni yantrārūḍhāni māyayā",
-                "english": null,
-                "english_slots": null,
+                "english": "O Arjuna, the Lord dwells in the heart of all beings, causing all beings by māyā to revolve as though mounted on a machine",
+                "english_slots": "{5:O Arjuna}, {0:the Lord} {6:dwells} {3,4:in the heart} {1,2:of all beings}, {7:causing} {8,9:all beings} {12:by māyā} {7:to revolve} {10,11:as though mounted on a machine}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -103239,8 +103344,9 @@
                 "id": "name-770-paragraph-1-span-0",
                 "devanagari": "चातुर्वर्ण्यं मया सृष्टं",
                 "iast": "cāturvarṇyaṃ mayā sṛṣṭaṃ",
-                "english": null,
-                "english_slots": null,
+                "english": "The fourfold social order was created by Me",
+                "english_slots": "{0,1:The fourfold social order} {3:was created} {2:by Me}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -103420,6 +103526,7 @@
                 "iast": "vedāntakṛd vedavid eva cāham",
                 "english": "I am verily that which has to be known in all the Vedas: I am indeed the author of the Vedas and the 'knower' of the Vedas am I",
                 "english_slots": "{2,3,4,5,6:I am verily that which has to be known in all the Vedas}: {0,1,6:I am indeed the author of the Vedas} {2,3,4,5,6:and the 'knower' of the Vedas am I}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -103643,6 +103750,7 @@
                 "iast": "viṣṭabhyāham idaṃ kṛtsnam ekāṃśena sthito jagat",
                 "english": "The whole universe is supported by one part of Myself",
                 "english_slots": "{2,3,7:The whole universe} {0,6:is supported} {4,5:by one part} {1:of Myself}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -104485,8 +104593,9 @@
                 "id": "name-779-paragraph-2-span-0",
                 "devanagari": "दैवी ह्य् एषा गुणमयी मम माया दुरत्यया माम् एव ये प्रपद्यन्ते मायाम् एतां तरन्ति ते",
                 "iast": "daivī hy eṣā guṇamayī mama māyā duratyayā mām eva ye prapadyante māyām etāṃ taranti te",
-                "english": null,
-                "english_slots": null,
+                "english": "Indeed, this divine māyā of Mine, consisting of the guṇas, is difficult to cross. Those who take refuge in Me alone cross beyond this māyā",
+                "english_slots": "{1:Indeed}, {0,2,5,6:this divine māyā of Mine}, {3,4:consisting of the guṇas}, {7:is difficult to cross}. {10:Those who} {8,9,11:take refuge in Me alone} {14,15:cross beyond} {12,13:this māyā}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -104892,6 +105001,7 @@
                 "iast": "yo 'yaṃ yogas tvayā proktaḥ sāmyena madhusūdana etasyāhaṃ na paśyāmi cañcalatvāt sthitiṃ sthirām",
                 "english": "This Yoga of equanimity, taught by Thee, O slayer of Madhu, I see not its enduring continuity, because of the restlessness (of the mind)",
                 "english_slots": "{0,1,4:This Yoga of equanimity}, {2,3:taught by Thee}, {5:O slayer of Madhu}, {7,8,9:I see not} {6,12,13:its enduring continuity}, {10,11:because of the restlessness} {10,11:(of the mind)}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -105178,6 +105288,7 @@
                 "iast": "yathā dīpo nivātastho neṅgate sopamā smṛtā yogino yatacittasya yuñjato yogam ātmanaḥ",
                 "english": "As a lamp placed in a windless place does not flicker",
                 "english_slots": "{0:As} {1:a lamp} {2,3:placed in a windless place} {4,5:does not flicker}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -105854,8 +105965,9 @@
                 "id": "name-784-paragraph-1-span-0",
                 "devanagari": "मत्तः परतरं नान्यत् किं चिद् अस्ति धनंजय",
                 "iast": "mattaḥ parataraṃ nānyat kiṃ cid asti dhanaṃjaya",
-                "english": null,
-                "english_slots": null,
+                "english": "O Dhanañjaya, there is nothing else higher than Me",
+                "english_slots": "{6:O Dhanañjaya}, {2,3,4,5:there is nothing else} {1:higher} {0:than Me}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -106003,8 +106115,9 @@
                 "id": "name-784-paragraph-2-span-0",
                 "devanagari": "मयि सर्वम् इदं प्रोतं सूत्रे मणिगणा इव",
                 "iast": "mayi sarvam idaṃ protaṃ sūtre maṇigaṇā iva",
-                "english": null,
-                "english_slots": null,
+                "english": "All this is strung in Me, like clusters of jewels on a thread",
+                "english_slots": "{1,2:All this} {3:is strung} {0:in Me}, {7:like} {5,6:clusters of jewels} {4:on a thread}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -106604,6 +106717,7 @@
                 "iast": "vedaiś ca sarvair aham eva vedyo; vedāntakṛd vedavid eva cāham",
                 "english": "I am the author of all the Vedas; I alone am the knower of the Veda",
                 "english_slots": "{6,7,12:I am the author} {0,1,2:of all the Vedas}; {3,4,5,8,9,10,11,12:I alone am the knower of the Veda}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -106965,8 +107079,9 @@
                 "id": "name-790-paragraph-1-span-0",
                 "devanagari": "सर्वयोनिषु कौन्तेय मूर्तयः संभवन्ति याः तासां ब्रह्म महद् योनिर् अहं बीजप्रदः पिता",
                 "iast": "sarvayoniṣu kaunteya mūrtayaḥ saṃbhavanti yāḥ tāsāṃ brahma mahad yonir ahaṃ bījapradaḥ pitā",
-                "english": null,
-                "english_slots": null,
+                "english": "O son of Kuntī, whatever forms arise in all wombs, the great Brahman is their womb; I am the father who gives the seed",
+                "english_slots": "{2:O son of Kuntī}, {5:whatever} {3:forms} {4:arise} {0,1:in all wombs}, {6,7,8,9:the great Brahman is their womb}; {10:I am} {13:the father} {11,12:who gives the seed}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -108240,6 +108355,7 @@
                 "iast": "āpūryamāṇam acalapratiṣṭhaṃ; samudram āpaḥ praviśanti yadvat tadvat kāmā yaṃ praviśanti sarve; sa śāntim āpnoti na kāmakāmī",
                 "english": "He attains Peace into whom all desires enter as waters enter the ocean, which filled from all sides, remains unmoved; but not the 'desirer-of-desires'",
                 "english_slots": "{12,13,14:He attains Peace} {7,8,9,10,11:into whom all desires enter} {6:as} {4,5:waters enter} {3:the ocean}, {0:which filled from all sides}, {1,2:remains unmoved}; {15,16,17:but not the 'desirer-of-desires'}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -108863,6 +108979,7 @@
                 "iast": "mama māyā duratyayā",
                 "english": "My māyā (non-apprehension and the consequent misapprehension) is very difficult to cross over",
                 "english_slots": "{0,1:My māyā (non-apprehension and the consequent misapprehension)} {2:is very difficult to cross over}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -110005,8 +110122,9 @@
                 "id": "name-816-paragraph-1-span-0",
                 "devanagari": "सर्वतःपाणिपादं तत् सर्वतोक्षिशिरोमुखम्",
                 "iast": "sarvataḥpāṇipādaṃ tat sarvatokṣiśiromukham",
-                "english": null,
-                "english_slots": null,
+                "english": "That has hands and feet on every side, eyes, heads, and faces on every side",
+                "english_slots": "{3:That has} {0,1,2:hands and feet on every side}, {4,5,6,7:eyes, heads, and faces on every side}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -110275,6 +110393,7 @@
                 "iast": "ananyacetāḥ satataṃ yo māṃ smarati nityaśaḥ tasyāhaṃ sulabhaḥ pārtha nityayuktasya yoginaḥ",
                 "english": "I am easily attainable by that ever-steadfast Yogi who constantly remembers Me daily, not thinking of anything else, O Partha",
                 "english_slots": "{9,10:I am easily attainable} {8,12,13,14:by that ever-steadfast Yogi} {4,3,6,5,7:who constantly remembers Me daily}, {0,1,2:not thinking of anything else}, {11:O Partha}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -111184,8 +111303,9 @@
                 "id": "name-824-paragraph-2-span-0",
                 "devanagari": "अश्वत्थः सर्ववृक्षाणां",
                 "iast": "aśvatthaḥ sarvavṛkṣāṇāṃ",
-                "english": null,
-                "english_slots": null,
+                "english": "Among all trees I am the aśvattha",
+                "english_slots": "{1,2:Among all trees} {0:I am the aśvattha}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -111994,6 +112114,7 @@
                 "iast": "sarvasya dhātāram acintyarūpam;",
                 "english": "Nourisher of All",
                 "english_slots": "{1:Nourisher} {0,2,3:of All}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -112394,6 +112515,7 @@
                 "iast": "sarvasya cāhaṃ hṛdi saṃniviṣṭo;",
                 "english": "I am seated in the heart of all—as the core or Essence in all",
                 "english_slots": "{1,2,4:I am seated} {3:in the heart} {0:of all}—{0,3,4:as the core or Essence in all}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -113648,8 +113770,9 @@
                 "id": "name-848-paragraph-1-span-0",
                 "devanagari": "वेदैश् च सर्वैर् अहम् एव वेद्यो;",
                 "iast": "vedaiś ca sarvair aham eva vedyo;",
-                "english": null,
-                "english_slots": null,
+                "english": "I alone am to be known through all the Vedas",
+                "english_slots": "{3,4:I alone} {5:am to be known} {0,1,2:through all the Vedas}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -114382,8 +114505,9 @@
                 "id": "name-855-paragraph-1-span-0",
                 "devanagari": "छन्दांसि यस्य पर्णानि यस् तं वेद स वेदवित्",
                 "iast": "chandāṃsi yasya parṇāni yas taṃ veda sa vedavit",
-                "english": null,
-                "english_slots": null,
+                "english": "Its leaves are the Vedic hymns; one who knows that tree is a knower of the Veda",
+                "english_slots": "{0,1,2:Its leaves are the Vedic hymns}; {3,4,5:one who knows that tree} {6,7,8:is a knower of the Veda}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -114972,6 +115096,7 @@
                 "iast": "daṇḍo damayatām asmi",
                 "english": "Among punishers I am the Sceptre",
                 "english_slots": "{1:Among punishers} {2:I am} {0:the Sceptre}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -116639,6 +116764,7 @@
                 "iast": "jyotiṣām api taj jyotis",
                 "english": "The Light of all lights",
                 "english_slots": "{3:The Light} {0,1,2:of all lights}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -118083,6 +118209,7 @@
                 "iast": "nānavāptam avāptavyaṃ",
                 "english": "There is neither anything that I have not gained nor anything I have yet to gain",
                 "english_slots": "{0,1:There is neither anything that I have not gained} {0,2:nor anything I have yet to gain}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -118402,8 +118529,9 @@
                 "id": "name-895-paragraph-1-span-0",
                 "devanagari": "आश्चर्यवत् पश्यति कश् चिद् एनम्; आश्चर्यवद् वदति तथैव चान्यः",
                 "iast": "āścaryavat paśyati kaś cid enam; āścaryavad vadati tathaiva cānyaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Someone beholds this Self as a wonder; another speaks of it as a wonder in the same way",
+                "english_slots": "{3:Someone} {2:beholds} {4:this Self} {0,1:as a wonder}; {10,11:another} {7:speaks of it} {5,6:as a wonder} {8,9:in the same way}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -118625,8 +118753,9 @@
                 "id": "name-895-paragraph-2-span-0",
                 "devanagari": "आश्चर्यवच् चैनम् अन्यः शृणोति; श्रुत्वाप्य् एनं वेद न चैव कश् चित्",
                 "iast": "āścaryavac cainam anyaḥ śṛṇoti; śrutvāpy enaṃ veda na caiva kaś cit",
-                "english": null,
-                "english_slots": null,
+                "english": "And another hears of this Self as a wonder; even after hearing, no one knows it at all",
+                "english_slots": "{2:And} {4:another} {5:hears of} {3:this Self} {0,1:as a wonder}; {6,7:even after hearing}, {13:no one} {9:knows} {8,10,11,12:it at all}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -119177,6 +119306,7 @@
                 "iast": "siddhānāṃ kapilo muniḥ",
                 "english": "I am Kapila among the great ones",
                 "english_slots": "{1:I am Kapila} {0,2:among the great ones}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -120639,8 +120769,9 @@
                 "id": "name-914-paragraph-1-span-0",
                 "devanagari": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी यस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः",
                 "iast": "yā niśā sarvabhūtānāṃ tasyāṃ jāgarti saṃyamī yasyāṃ jāgrati bhūtāni sā niśā paśyato muneḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "What is night for all beings, in that the self-controlled one is awake; where beings are awake, that is night for the seeing sage",
+                "english_slots": "{0,1:What is night} {2,3:for all beings}, {4,5,6:in that the self-controlled one is awake}; {7,8,9:where beings are awake}, {10,11:that is night} {12,13:for the seeing sage}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -121044,6 +121175,7 @@
                 "iast": "yad yad vibhūtimat sattvaṃ śrīmad ūrjitam eva vā tat tad evāvagaccha tvaṃ mama tejoṃśasaṃbhavam",
                 "english": "Wherever, there is any special glory in anyone. know that to be a manifestation of a part of my Splendour",
                 "english_slots": "{0,1,2,3,4,5,6:Wherever, there is any special glory in anyone}. {10,11:know} {7,8,9:that} {15:to be a manifestation} {12,13,14:of a part of my Splendour}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -122542,7 +122674,8 @@
                 "devanagari": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् धर्मसंस्थापनार्थाय संभवामि युगे युगे",
                 "iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge",
                 "english": "For the protection of the good, the destruction of the wicked and the establishment of righteousness, He takes different Incarnations",
-                "english_slots": "{0,1:For the protection of the good}, {2,3,4:the destruction of the wicked} {3:and} {5,6,7:the establishment of righteousness}, {8,9,10:He takes different Incarnations}",
+                "english_slots": "{0,1:For the protection of the good}, {2,4:the destruction of the wicked} {3:and} {5,6,7:the establishment of righteousness}, {8,9,10:He takes different Incarnations}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -122943,6 +123076,7 @@
                 "iast": "gām āviśya ca bhūtāni dhārayāmy aham ojasā puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
                 "english": "Permeating the earth I support all beings by (My) energy; and having become the juicy Moon I nourish all herbs",
                 "english_slots": "{0,1:Permeating the earth} {4,5:I support} {2,3:all beings} {6:by (My) energy}; {8:and} {11,12,13,14:having become the juicy Moon} {7:I nourish} {9,10:all herbs}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -124681,6 +124815,7 @@
                 "iast": "pitāsi lokasya carācarasya;",
                 "english": "Thou art the Father of the world, movable and immovable",
                 "english_slots": "{0,1:Thou art the Father} {2:of the world}, {3:movable and immovable}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -124947,6 +125082,7 @@
                 "iast": "dṛṣṭvādbhutaṃ rūpam idaṃ tavograṃ; lokatrayaṃ pravyathitaṃ mahātman",
                 "english": "Oh, Glorious Sir, seeing your wonderful but awesome form, the whole world is shuddering with fear",
                 "english_slots": "{9:Oh, Glorious Sir}, {0,1,2,3,4,5:seeing your wonderful but awesome form}, {6,7,8:the whole world is shuddering with fear}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -125158,6 +125294,7 @@
                 "iast": "rūpaṃ mahat te bahuvaktranetraṃ; mahābāho bahubāhūrupādam bahūdaraṃ bahudaṃṣṭrākarālaṃ; dṛṣṭvā lokāḥ pravyathitās tathāham",
                 "english": "Having seen Thy Immeasurable Form… the worlds are terrified, and so am I",
                 "english_slots": "{17:Having seen} {2:Thy} {0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16:Immeasurable Form…} {18,19:the worlds are terrified}, {20,21:and so am I}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -125559,6 +125696,7 @@
                 "iast": "nabhaḥspṛśaṃ dīptam anekavarṇaṃ; vyāttānanaṃ dīptaviśālanetram dṛṣṭvā hi tvāṃ pravyathitāntarātmā; dhṛtiṃ na vindāmi śamaṃ ca viṣṇo",
                 "english": "On seeing Thee touching the sky… my heart is stricken with dread and I find no courage nor peace, O Viṣṇu",
                 "english_slots": "{10,11,12:On seeing Thee} {0,1,2,3,4,5,6,7,8,9:touching the sky…} {13,14:my heart is stricken with dread} {15,16,17:and I find no courage} {18,19:nor peace}, {20:O Viṣṇu}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -126584,8 +126722,9 @@
                 "id": "name-955-paragraph-1-span-0",
                 "devanagari": "यद् यद् आचरति श्रेष्ठस् तत् तद् एवेतरो जनः",
                 "iast": "yad yad ācarati śreṣṭhas tat tad evetaro janaḥ",
-                "english": null,
-                "english_slots": null,
+                "english": "Whatever the best person does, that very thing other people do",
+                "english_slots": "{0,1,2:Whatever} {3:the best person does}, {4,5,6:that very thing} {7,8:other people do}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
@@ -127761,6 +127900,7 @@
                 "iast": "na jāyate mriyate vā kadā cin; nāyaṃ bhūtvā bhavitā vā na bhūyaḥ ajo nityaḥ śāśvato 'yaṃ purāṇo; na hanyate hanyamāne śarīre",
                 "english": "He is not born, nor does He ever die; after having been He again ceases not to be; unborn, eternal, changeless and ancient he is not killed when the body is killed",
                 "english_slots": "{6:He} {0,1:is not born}, {3:nor} {2,4:does He ever die}; {7,8:after having been He again ceases} {5,9,10,11:not to be}; {12:unborn}, {13:eternal}, {14:changeless} {15,16:and ancient} {17,18:he is not killed} {19,20:when the body is killed}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -128712,6 +128852,7 @@
                 "iast": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhur eva ca",
                 "english": "The 'Enjoyer' and the 'Lord' in all yajñas am I",
                 "english_slots": "{4:The 'Enjoyer'} {5:and} {6:the 'Lord'} {2,3:in all yajñas} {0,1,7,8:am I}",
+                "english_source": "Swami Chinmayananda",
                 "words": [
                   {
                     "i": 0,
@@ -129370,8 +129511,9 @@
                 "id": "name-977-paragraph-2-span-0",
                 "devanagari": "अनेन प्रसविष्यध्वम् एष वो ऽस्त्व् इष्टकामधुक्",
                 "iast": "anena prasaviṣyadhvam eṣa vo 'stv iṣṭakāmadhuk",
-                "english": null,
-                "english_slots": null,
+                "english": "By this you shall prosper; may this be for you the fulfiller of desired aims",
+                "english_slots": "{0,1:By this you shall prosper}; {2,4:may this be} {3:for you} {5,6,7:the fulfiller of desired aims}",
+                "english_source": "site-literal-translation",
                 "words": [
                   {
                     "i": 0,
