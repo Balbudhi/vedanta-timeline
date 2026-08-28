@@ -130,11 +130,6 @@
 }
 .vsn-commentary-quote .ix-pada { margin-bottom: 7px; font-size: 14px; line-height: 1.65; }
 .vsn-commentary-quote .ix-en { color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
-.vsn-quote-translation { margin-top: 8px; color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
-.vsn-quote-translation > span {
-  display: block; margin-bottom: 2px; color: var(--muted-soft);
-  font: 700 8.5px/1.4 var(--sans); letter-spacing: .07em; text-transform: uppercase;
-}
 .vsn-commentary-quote-source,
 .vsn-quote-note { color: var(--muted-soft); font: 10px/1.45 var(--sans); }
 .vsn-commentary-quote-source { margin-top: 8px; }

@@ -317,7 +317,7 @@
         "paninian-grammar",
         "textual-variants"
       ],
-      "notes": "The public block order is Devanāgarī, interactive IAST, then Chinmayananda's exact translation when he supplies one. The packet covers 1,222 word instances and records direct source-library review; generated English is not substituted for his translation."
+      "notes": "The public block order is Devanāgarī, interactive IAST, then Chinmayananda's exact translation when he supplies one. All 86 supplied translations preserve his wording exactly and carry reviewed phrase slots for bidirectional Sanskrit-English hover and click. The packet covers 1,222 word instances and records direct source-library review; generated English is not substituted for his translation."
     },
     {
       "id": "chinmayananda-thousand-ways-preface-authorized-reader",

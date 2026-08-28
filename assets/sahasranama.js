@@ -68,11 +68,8 @@ function commentaryBlocks(name) {
     if (block.type !== "gita-quote") return "";
     const hasReviewedWords = Array.isArray(block.words) && block.words.length > 0;
     const sanskrit = hasReviewedWords && window.GitaReader?.interactiveBlock
-      ? window.GitaReader.interactiveBlock(block.words, null, null, block.devanagari, "vsn-commentary-quote-deva")
+      ? window.GitaReader.interactiveBlock(block.words, block.english_slots || null, null, block.devanagari, "vsn-commentary-quote-deva")
       : `<div class="ix"><div class="ix-deva vsn-commentary-quote-deva" lang="sa-Deva">${esc(block.devanagari)}</div><div class="ix-pada" lang="sa-Latn">${esc(block.iast)}</div></div>`;
-    const translation = block.english
-      ? `<div class="vsn-quote-translation"><span>Chinmayananda’s translation</span>${esc(block.english)}</div>`
-      : "";
     const printed = (block.printed_loci || []).join(", ");
     const source = printed && !block.printed_loci.includes(block.canonical_locus)
       ? `${block.canonical_locus} · printed as ${printed}`
@@ -80,7 +77,6 @@ function commentaryBlocks(name) {
     const notes = (block.textual_notes || []).map(note => `<div class="vsn-quote-note">${esc(note)}</div>`).join("");
     return `<blockquote class="vsn-commentary-quote" data-quote-id="${esc(block.id)}">
       ${sanskrit}
-      ${translation}
       <footer class="vsn-commentary-quote-source">${esc(source)}</footer>
       ${notes}
     </blockquote>`;

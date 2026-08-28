@@ -605,18 +605,18 @@ def quote_word_for_reader(word: dict, index: int) -> dict:
     return result
 
 
-def load_reviewed_quote_words() -> dict[str, list[dict]]:
+def load_reviewed_quotes() -> dict[str, dict]:
     review = json.loads(COMMENTARY_QUOTE_ANALYSIS_PATH.read_text(encoding="utf-8"))
     if review.get("review_status") != "primary-grammar-reviewed-complete":
         return {}
     return {
-        quote_id: row["words"]
+        quote_id: row
         for quote_id, row in review.get("quotes", {}).items()
         if row.get("review_status") == "primary-text-reviewed"
     }
 
 
-def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_words: dict[str, list[dict]]) -> list[dict]:
+def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_quotes: dict[str, dict]) -> list[dict]:
     paragraphs = commentary.split("\n\n")
     markers = {f"@@VSNQ{index}@@": [quote] for index, quote in enumerate(sorted(quotes, key=lambda row: row["id"]))}
     marker_for_id = {rows[0]["id"]: marker for marker, rows in markers.items()}
@@ -678,13 +678,14 @@ def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_words:
                 continue
             if piece in markers:
                 for quote in markers[piece]:
-                    words = reviewed_words.get(quote["id"], [])
+                    reviewed = reviewed_quotes.get(quote["id"], {})
+                    words = reviewed.get("words", [])
                     blocks.append({
                         "type": "gita-quote", "id": quote["id"],
                         "devanagari": quote["canonical_devanagari"],
                         "iast": quote["canonical_iast"],
                         "english": quote.get("chinmayananda_translation"),
-                        "english_attribution": "Swami Chinmayananda" if quote.get("chinmayananda_translation") else None,
+                        "english_slots": reviewed.get("english_slots"),
                         "words": [quote_word_for_reader(word, index) for index, word in enumerate(words)],
                         "word_analysis_status": "primary-grammar-reviewed" if words else "withheld-pending-primary-grammar-review",
                         "printed_loci": quote["printed_loci"],
@@ -716,7 +717,7 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
     commentary = load_commentary(commentary_path)
     analyses = load_analysis(analysis_path)
     quote_registry = json.loads(COMMENTARY_QUOTES_PATH.read_text(encoding="utf-8"))
-    reviewed_quote_words = load_reviewed_quote_words()
+    reviewed_quotes = load_reviewed_quotes()
     if quote_registry["source_commentary"]["sha256"] != commentary_quote_source_sha256(commentary):
         raise ValueError("commentary quote registry is stale against Chinmayananda's transcription")
     quotes_by_name: dict[int, list[dict]] = {}
@@ -765,7 +766,7 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
                 "verification_status": source["verification_status"],
                 "ocr_notes": source.get("ocr_notes", []),
                 "blocks": build_commentary_blocks(
-                    source["commentary"], quotes_by_name.get(number, []), reviewed_quote_words
+                    source["commentary"], quotes_by_name.get(number, []), reviewed_quotes
                 ),
             }
             derivation = traditional_derivation(source["commentary"])
@@ -977,6 +978,25 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                         errors.append(f"name {number} quote {block.get('id')} lacks its three-script source structure")
                     if words and [word.get("i") for word in words] != list(range(len(words))):
                         errors.append(f"name {number} quote {block.get('id')} has non-contiguous word indices")
+                    english = block.get("english")
+                    slots = block.get("english_slots")
+                    if english:
+                        if not slots:
+                            errors.append(f"name {number} quote {block.get('id')} lacks interactive Chinmayananda English")
+                        else:
+                            replay = re.sub(r"\{[\d,\s]+:([^}]*)\}", r"\1", slots)
+                            if replay != english:
+                                errors.append(f"name {number} quote {block.get('id')} changes Chinmayananda's English")
+                            slot_indices = {
+                                int(value)
+                                for group in re.findall(r"\{([\d,\s]+):", slots)
+                                for value in group.split(",") if value.strip()
+                            }
+                            if slot_indices - set(range(len(words))):
+                                errors.append(f"name {number} quote {block.get('id')} has an invalid English word link")
+                            free_english = re.sub(r"\{[\d,\s]+:[^}]*\}", "", slots)
+                            if re.search(r"[A-Za-zÀ-ž]", free_english):
+                                errors.append(f"name {number} quote {block.get('id')} has non-interactive English wording")
             detail = source.get("detail", "") if source else ""
             opening_excerpt = source.get("opening_excerpt", "") if source else ""
             if opening_excerpt and detail and re.match(
@@ -1001,6 +1021,7 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
         "with_traditional_derivation": sum("traditional_derivation" in item for item in names),
         "critical_text_differences": sum(bool(stanza.get("critical_text_differs")) for stanza in stanzas),
         "structured_gita_quotes": len(quote_blocks),
+        "interactive_chinmayananda_translations": sum(bool(block.get("english_slots")) for block in quote_blocks),
         "full_commentary_replay": sum(
             item.get("chinmayananda", {}).get("commentary") == commentary_source.get(item.get("number"), {}).get("commentary")
             for item in names
