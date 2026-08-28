@@ -31,6 +31,9 @@ ROOT = Path(__file__).resolve().parents[1]
 BORI_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_bori_critical_excerpt.txt"
 COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/chinmayananda.json"
 ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/analysis.json"
+COMMENTARY_QUOTES_PATH = ROOT / "gita/vishnu-sahasranama/commentary-quotes.json"
+COMMENTARY_QUOTE_ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/commentary-quote-analysis.json"
+COMMENTARY_QUOTE_REVIEW_PATH = ROOT / "gita/vishnu-sahasranama/gita-quote-panini-review.json"
 PREFACE_COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/preface-commentary.json"
 PREFACE_WITNESS_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_performance_preface.json"
 PREFACE_ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/preface-analysis.json"
@@ -73,6 +76,43 @@ SURFACE_OVERRIDES = {
 
 def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
+
+
+def commentary_quote_source_sha256(commentary: dict[int, dict]) -> str:
+    rows = [
+        {"number": number, "commentary": commentary[number]["commentary"]}
+        for number in sorted(commentary)
+    ]
+    payload = json.dumps(rows, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return sha256(payload.encode("utf-8"))
+
+
+def assert_public_analysis_gate(analysis_path: Path | None) -> None:
+    """Refuse publication while any Sanskrit card rests on provisional tools."""
+    blockers = []
+    if not analysis_path or not analysis_path.exists():
+        blockers.append("the 1,000-name analysis corpus is missing")
+    else:
+        name_data = json.loads(analysis_path.read_text(encoding="utf-8"))
+        if name_data.get("review_status") != "primary-grammar-reviewed-complete":
+            blockers.append("the 1,000-name analysis corpus lacks complete primary-grammar review")
+
+    preface_data = json.loads(PREFACE_ANALYSIS_PATH.read_text(encoding="utf-8"))
+    if preface_data.get("review_status") != "primary-grammar-reviewed-complete":
+        blockers.append("the performed-preface analysis lacks complete primary-grammar review")
+
+    if not COMMENTARY_QUOTE_ANALYSIS_PATH.exists():
+        blockers.append("the Gītā quote analysis corpus is missing")
+    else:
+        review = json.loads(COMMENTARY_QUOTE_ANALYSIS_PATH.read_text(encoding="utf-8"))
+        if review.get("review_status") != "primary-grammar-reviewed-complete":
+            blockers.append("the embedded-Gītā analysis lacks complete primary-source review")
+
+    if blockers:
+        raise ValueError(
+            "public Sanskrit-analysis gate failed: " + "; ".join(blockers)
+            + ". Computational comparison output may not be published."
+        )
 
 
 def load_pinned(path: Path | None, url: str, expected: str) -> str:
@@ -509,6 +549,156 @@ def load_analysis(path: Path | None) -> dict[int, dict]:
     return {row["number"]: row for row in rows}
 
 
+def english_source_key(value: str) -> str:
+    ascii_text = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "", ascii_text)
+
+
+def lexical_phrase_range(text: str, phrase: str) -> tuple[int, int] | None:
+    target = english_source_key(phrase)
+    if not target:
+        return None
+    normalized = []
+    source_indices = []
+    for index, char in enumerate(text):
+        folded = unicodedata.normalize("NFKD", char).encode("ascii", "ignore").decode().lower()
+        for item in folded:
+            if item.isalnum():
+                normalized.append(item)
+                source_indices.append(index)
+    joined = "".join(normalized)
+    start = joined.find(target)
+    if start < 0:
+        return None
+    source_start = source_indices[start]
+    source_end = source_indices[start + len(target) - 1] + 1
+    while source_start > 0 and text[source_start - 1] in "\"'“‘":
+        source_start -= 1
+    while source_end < len(text) and text[source_end] in "\"'”’":
+        source_end += 1
+    return source_start, source_end
+
+
+def quote_word_for_reader(word: dict, index: int) -> dict:
+    result = {
+        "i": index, "iast": word["iast"], "deva": word["deva"],
+        "gloss": word["gloss"], "parts": word["parts"], "stem": word["stem"],
+        "affix": word["affix"], "morph": word["morph"],
+    }
+    notes = []
+    root = word.get("root")
+    if root:
+        result["root"] = root["form"]
+        result["rootGloss"] = root["gloss"]
+        notes.append(f"{root['gana']}; {root['pada']}")
+        dhatu = root.get("dhatupatha")
+        if dhatu:
+            notes.append(f"Dhātupāṭha {dhatu['locus']}: {dhatu['artha_sanskrit']}")
+    if word.get("karaka"):
+        notes.append(word["karaka"])
+    if word.get("panini_rules"):
+        notes.append("Pāṇini: " + ", ".join(rule["id"] for rule in word["panini_rules"]))
+    if word.get("note"):
+        notes.append(word["note"])
+    if notes:
+        result["note"] = " · ".join(notes)
+    return result
+
+
+def load_reviewed_quote_words() -> dict[str, list[dict]]:
+    review = json.loads(COMMENTARY_QUOTE_ANALYSIS_PATH.read_text(encoding="utf-8"))
+    if review.get("review_status") != "primary-grammar-reviewed-complete":
+        return {}
+    return {
+        quote_id: row["words"]
+        for quote_id, row in review.get("quotes", {}).items()
+        if row.get("review_status") == "primary-text-reviewed"
+    }
+
+
+def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_words: dict[str, list[dict]]) -> list[dict]:
+    paragraphs = commentary.split("\n\n")
+    markers = {f"@@VSNQ{index}@@": [quote] for index, quote in enumerate(sorted(quotes, key=lambda row: row["id"]))}
+    marker_for_id = {rows[0]["id"]: marker for marker, rows in markers.items()}
+    operations: dict[int, list[tuple[int, int, str]]] = {}
+    translated_ids = set()
+    claimed_translation_ranges: dict[int, list[tuple[int, int]]] = {}
+
+    # Put a translated quote where Chinmayananda's English originally stood.
+    # The block itself then supplies Devanāgarī → IAST → that exact English.
+    for quote in sorted(quotes, key=lambda row: row["id"]):
+        translation = quote.get("chinmayananda_translation")
+        if not translation:
+            continue
+        for paragraph_index, paragraph in enumerate(paragraphs):
+            found = lexical_phrase_range(paragraph, translation)
+            if not found:
+                continue
+            if any(found[0] < end and found[1] > start for start, end in claimed_translation_ranges.get(paragraph_index, [])):
+                continue
+            operations.setdefault(paragraph_index, []).append((found[0], found[1], marker_for_id[quote["id"]]))
+            claimed_translation_ranges.setdefault(paragraph_index, []).append(found)
+            translated_ids.add(quote["id"])
+            break
+
+    # Remove the raw source-script/romanization occurrence. Quotes without a
+    # separable English translation stay at this original source position.
+    grouped: dict[tuple[int, int, int], list[dict]] = {}
+    for quote in quotes:
+        grouped.setdefault((quote["paragraph_index"], quote["source_start"], quote["source_end"]), []).append(quote)
+    for (paragraph_index, start, end), rows in grouped.items():
+        paragraph = paragraphs[paragraph_index]
+        tail = paragraph[end:]
+        roman = re.match(r"\s*[\"'”’]*\s*\([^)]{2,600}\)", tail)
+        if roman:
+            end += roman.end()
+        replacement = "".join(marker_for_id[row["id"]] for row in sorted(rows, key=lambda row: row["id"])
+                              if row["id"] not in translated_ids)
+        operations.setdefault(paragraph_index, []).append((start, end, replacement))
+
+    for paragraph_index, paragraph_operations in operations.items():
+        value = paragraphs[paragraph_index]
+        for start, end, replacement in sorted(paragraph_operations, reverse=True):
+            value = value[:start] + replacement + value[end:]
+        paragraphs[paragraph_index] = value
+
+    marker_pattern = "(" + "|".join(re.escape(marker) for marker in markers) + ")" if markers else r"($^)"
+    blocks = []
+    for paragraph in paragraphs:
+        paragraph = re.sub(
+            r"\s*[-—–]*\s*Gītā(?:\s*(?:Ch(?:apter)?\.?))?[\s,.:—–-]*"
+            r"(?:XVIII|XVII|XVI|XIV|XIII|XII|XI|XV|VIII|VII|VI|IV|III|II|IX|X|V|I|\d{1,2})"
+            r"[\s,.:—–-]*(?:St(?:anza)?\.?)?[\s,.:—–-]*\d{1,2}\.?",
+            " ", paragraph, flags=re.I,
+        )
+        paragraph = re.sub(r"\s*[,;:]\s*[.;]\s*", ". ", paragraph)
+        paragraph = re.sub(r"\s+([,.;:!?])", r"\1", paragraph)
+        for piece in re.split(marker_pattern, paragraph):
+            if not piece:
+                continue
+            if piece in markers:
+                for quote in markers[piece]:
+                    words = reviewed_words.get(quote["id"], [])
+                    blocks.append({
+                        "type": "gita-quote", "id": quote["id"],
+                        "devanagari": quote["canonical_devanagari"],
+                        "iast": quote["canonical_iast"],
+                        "english": quote.get("chinmayananda_translation"),
+                        "english_attribution": "Swami Chinmayananda" if quote.get("chinmayananda_translation") else None,
+                        "words": [quote_word_for_reader(word, index) for index, word in enumerate(words)],
+                        "word_analysis_status": "primary-grammar-reviewed" if words else "withheld-pending-primary-grammar-review",
+                        "printed_loci": quote["printed_loci"],
+                        "canonical_locus": quote["canonical_locus"],
+                        "textual_notes": quote["textual_notes"],
+                    })
+            else:
+                prose = re.sub(r"\s+", " ", piece).strip(" \t\n—–-*†‡")
+                prose = re.sub(r"^[.;:]+[\"”’]*\s*", "", prose)
+                if prose and re.search(r"[A-Za-z\u0900-\u097f]", prose):
+                    blocks.append({"type": "prose", "text": prose})
+    return blocks
+
+
 def build(received: str, word_split: str, commentary_path: Path | None, analysis_path: Path | None) -> dict:
     generated_preface = build_performance_preface(received)
     if not PREFACE_WITNESS_PATH.exists():
@@ -525,6 +715,13 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
     boundaries, all_names = parse_word_split(word_split)
     commentary = load_commentary(commentary_path)
     analyses = load_analysis(analysis_path)
+    quote_registry = json.loads(COMMENTARY_QUOTES_PATH.read_text(encoding="utf-8"))
+    reviewed_quote_words = load_reviewed_quote_words()
+    if quote_registry["source_commentary"]["sha256"] != commentary_quote_source_sha256(commentary):
+        raise ValueError("commentary quote registry is stale against Chinmayananda's transcription")
+    quotes_by_name: dict[int, list[dict]] = {}
+    for quote in quote_registry["quotes"]:
+        quotes_by_name.setdefault(quote["name_number"], []).append(quote)
 
     alignment_changes = {}
     for index, stanza in enumerate(stanzas):
@@ -554,18 +751,25 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
             if source.get("source_heading_devanagari_ocr"):
                 item["deva_ocr"] = source["source_heading_devanagari_ocr"]
             source_definition = source.get("short_meaning") or first_definition(source["commentary"])
-            item["meaning"] = source.get("simple_meaning") or source_definition
+            item["meaning"] = source["simple_meaning"]
             item["meaning_status"] = source.get("simple_meaning_status", "derived-direct")
+            item["meaning_source"] = source.get("simple_meaning_source")
+            if item.get("word_analysis", {}).get("derivation") and comparison_key(item["word_analysis"]["derivation"]) == comparison_key(item["meaning"]):
+                item["word_analysis"] = dict(item["word_analysis"])
+                item["word_analysis"]["derivation"] = None
             item["chinmayananda"] = {
-                "definition": source_definition,
+                "opening_excerpt": source_definition,
                 "commentary": source["commentary"],
                 "detail": commentary_detail(source["commentary"], source_definition),
                 "scan_pages": source["scan_pages"],
                 "verification_status": source["verification_status"],
                 "ocr_notes": source.get("ocr_notes", []),
+                "blocks": build_commentary_blocks(
+                    source["commentary"], quotes_by_name.get(number, []), reviewed_quote_words
+                ),
             }
             derivation = traditional_derivation(source["commentary"])
-            if derivation:
+            if derivation and comparison_key(derivation) != comparison_key(item["meaning"]):
                 item["traditional_derivation"] = derivation
                 item["analysis_status"] = "chinmayananda-derivation-present"
 
@@ -605,6 +809,14 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
                 "path": str(analysis_path.relative_to(ROOT)),
                 "sha256": sha256(analysis_path.read_bytes()),
             } if analysis_path and analysis_path.exists() else None,
+            "commentary_quotes": {
+                "path": str(COMMENTARY_QUOTES_PATH.relative_to(ROOT)),
+                "sha256": sha256(COMMENTARY_QUOTES_PATH.read_bytes()),
+            },
+            "commentary_quote_primary_review": {
+                "path": str(COMMENTARY_QUOTE_ANALYSIS_PATH.relative_to(ROOT)),
+                "sha256": sha256(COMMENTARY_QUOTE_ANALYSIS_PATH.read_bytes()),
+            },
             "performance_preface": {
                 "path": str(PREFACE_WITNESS_PATH.relative_to(ROOT)),
                 "sha256": sha256(PREFACE_WITNESS_PATH.read_bytes()),
@@ -644,7 +856,7 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
     }
 
 
-def validate(data: dict, require_commentary: bool) -> dict:
+def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bool = True) -> dict:
     errors = []
     commentary_source = {}
     if require_commentary and COMMENTARY_PATH.exists():
@@ -694,6 +906,7 @@ def validate(data: dict, require_commentary: bool) -> dict:
             errors.append(f"invalid or overlapping audio timing for {unit.get('id')}")
         previous_end = end
     names = [name for stanza in stanzas for name in stanza.get("names", [])]
+    quote_blocks = []
     if len(stanzas) != 107:
         errors.append(f"expected 107 stanzas, found {len(stanzas)}")
     if [item.get("number") for item in names] != list(range(1, 1001)):
@@ -709,18 +922,19 @@ def validate(data: dict, require_commentary: bool) -> dict:
             errors.append(f"name {number} lacks citation forms")
         if require_commentary:
             source = item.get("chinmayananda")
-            if not item.get("meaning") or not source or not source.get("definition") or not source.get("commentary"):
-                errors.append(f"name {number} lacks Chinmayananda English")
-            meaning = item.get("meaning", "")
-            if not 3 <= len(meaning) <= 160 or "\n" in meaning:
-                errors.append(f"name {number} has an invalid concise meaning length/shape")
-            if re.search(r"\b(?:term|word|root|means?|meaning|interpreted|interpretation|dissolved|degree|familiar|etymolog|commented|used|stands for|indicates?|connotes?|reference|controvers|earlier|above|below|here we|we read|we find|can be|is called|name of)\b", meaning, re.I):
-                errors.append(f"name {number} concise meaning contains commentary or extraction prose")
-            if re.search(r"[*†‡\u0900-\u0dff]", meaning):
-                errors.append(f"name {number} concise meaning contains a footnote marker or source script")
             source_row = commentary_source.get(number, {})
+            if not item.get("meaning") or not source or not source.get("opening_excerpt") or not source.get("commentary"):
+                errors.append(f"name {number} lacks Chinmayananda English")
+            meaning = item.get("meaning")
+            if not isinstance(meaning, str) or not 3 <= len(meaning) <= 260 or "\n" in meaning:
+                errors.append(f"name {number} has an invalid Simplified summary length/shape")
+                meaning = meaning or ""
+            if re.search(r"[*†‡\u0900-\u0dff]", meaning):
+                errors.append(f"name {number} Simplified summary contains a footnote marker or source script")
             if meaning != source_row.get("simple_meaning"):
-                errors.append(f"name {number} Simple meaning does not replay the reviewed direct-meaning corpus")
+                errors.append(f"name {number} Simplified summary differs from the reviewed editorial corpus")
+            if item.get("meaning_status") != source_row.get("simple_meaning_status"):
+                errors.append(f"name {number} Simple status differs from the reviewed source corpus")
             if source.get("commentary") != source_row.get("commentary"):
                 errors.append(f"name {number} Full commentary does not exactly replay Chinmayananda's transcription")
             analysis = item.get("word_analysis")
@@ -752,16 +966,32 @@ def validate(data: dict, require_commentary: bool) -> dict:
                 errors.append(f"name {number} lacks scan-page provenance")
             if source and "detail" not in source:
                 errors.append(f"name {number} lacks the non-duplicative commentary detail field")
+            blocks = source.get("blocks", []) if source else []
+            if source and not blocks:
+                errors.append(f"name {number} lacks structured commentary blocks")
+            for block in blocks:
+                if block.get("type") == "gita-quote":
+                    quote_blocks.append(block)
+                    words = block.get("words", [])
+                    if not block.get("devanagari") or not block.get("iast") or (require_reviewed_analysis and not words):
+                        errors.append(f"name {number} quote {block.get('id')} lacks its three-script source structure")
+                    if words and [word.get("i") for word in words] != list(range(len(words))):
+                        errors.append(f"name {number} quote {block.get('id')} has non-contiguous word indices")
             detail = source.get("detail", "") if source else ""
-            definition = source.get("definition", "") if source else ""
-            if detail and re.match(rf"^{re.escape(definition.strip())}(?:\s|[.,;:])", detail.lstrip()):
-                errors.append(f"name {number} detailed commentary repeats the concise definition")
+            opening_excerpt = source.get("opening_excerpt", "") if source else ""
+            if opening_excerpt and detail and re.match(
+                rf"^{re.escape(opening_excerpt.strip())}(?:\s|[.,;:])", detail.lstrip()
+            ):
+                errors.append(f"name {number} detailed commentary repeats the opening excerpt")
     serialized = json.dumps(data, ensure_ascii=False)
     for fragment in FORBIDDEN_OCR_FRAGMENTS:
         if fragment.lower() in serialized.lower():
             errors.append(f"forbidden OCR artifact remains: {fragment}")
     if errors:
         raise ValueError("\n".join(errors[:80]))
+    quote_ids = [block.get("id") for block in quote_blocks]
+    if require_commentary and (len(quote_ids) != 142 or len(quote_ids) != len(set(quote_ids))):
+        raise ValueError(f"structured Gītā quotation population is not exactly 142 unique blocks: {len(quote_ids)}")
     return {
         "preface_units": sum(len(group.get("units", [])) for group in preface_groups),
         "postlude_units": len(postlude),
@@ -770,6 +1000,7 @@ def validate(data: dict, require_commentary: bool) -> dict:
         "with_commentary": sum("chinmayananda" in item for item in names),
         "with_traditional_derivation": sum("traditional_derivation" in item for item in names),
         "critical_text_differences": sum(bool(stanza.get("critical_text_differs")) for stanza in stanzas),
+        "structured_gita_quotes": len(quote_blocks),
         "full_commentary_replay": sum(
             item.get("chinmayananda", {}).get("commentary") == commentary_source.get(item.get("number"), {}).get("commentary")
             for item in names
@@ -833,7 +1064,7 @@ def update_citation_index(data: dict, path: Path) -> int:
                     + ", ".join(str(page) for page in name["chinmayananda"]["scan_pages"]),
                 "locus_short": f"VSN name {number}",
                 "sanskrit_iast": name["surface_iast"],
-                "english_close": name["chinmayananda"]["definition"],
+                "english_close": name.get("meaning"),
                 "source": f"gita/vishnu-sahasranama/chinmayananda.json#names[{number - 1}]",
                 "verified": "scan-checked"
                     if name["chinmayananda"]["verification_status"] == "scan-checked"
@@ -856,6 +1087,11 @@ def main() -> None:
     parser.add_argument("--split-only", type=Path)
     parser.add_argument("--check", type=Path)
     parser.add_argument("--require-commentary", action="store_true")
+    parser.add_argument(
+        "--allow-provisional-analysis",
+        action="store_true",
+        help="development audit only; never use output for deployment",
+    )
     parser.add_argument("--update-citation-index", type=Path)
     parser.add_argument("--write-preface-witness", action="store_true")
     args = parser.parse_args()
@@ -870,7 +1106,7 @@ def main() -> None:
 
     if args.split_only:
         data = json.loads(args.split_only.read_text(encoding="utf-8"))
-        report = validate(data, require_commentary=True)
+        report = validate(data, require_commentary=True, require_reviewed_analysis=False)
         report.update(write_web_payloads(data, args.web_core_output, args.web_details_output))
         print(json.dumps(report, ensure_ascii=False, indent=2))
         return
@@ -880,10 +1116,13 @@ def main() -> None:
         print(json.dumps(report, ensure_ascii=False, indent=2))
         return
 
+    if not args.allow_provisional_analysis:
+        assert_public_analysis_gate(args.analysis)
+
     received = load_pinned(args.received_source, RECEIVED_URL, RECEIVED_SHA256)
     word_split = load_pinned(args.word_split_source, WORD_SPLIT_URL, WORD_SPLIT_SHA256)
     data = build(received, word_split, args.commentary, args.analysis)
-    report = validate(data, args.require_commentary)
+    report = validate(data, args.require_commentary, require_reviewed_analysis=not args.allow_provisional_analysis)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     report.update(write_web_payloads(data, args.web_core_output, args.web_details_output))

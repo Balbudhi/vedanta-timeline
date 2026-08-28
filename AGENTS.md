@@ -21,6 +21,13 @@ commentary, source script followed by IAST and literal English, and integrated
 with the site glossary. Reference implementation: `gita/sthitaprajna/` + `assets/gita.js`
 (`window.GitaReader`). Follow this standard for any new Sanskrit text.
 
+The shared grammatical-text library is `/Users/eeshan/Dev/prakriya/sources/`.
+Read its `README.md`, clean-witness manifest, and the relevant Sanskrit
+`sources/primary/` / paired `sources/raw/` witnesses for derivation work. The
+`prakriya` interpreter is unfinished: do not invoke it, its generated form
+tables, or its traces as analysis or authority. Use the texts; derive and review
+the public analysis in this project.
+
 ## Content evidence rule
 
 Before adding or rewriting a public thinker, work, citation, glossary, reader,

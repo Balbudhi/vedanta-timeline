@@ -21,6 +21,9 @@
 .vsn-attribution-author:hover { text-decoration: underline; }
 .vsn-attribution-role { margin-top: 2px; color: var(--muted); font-size: 11px; }
 .vsn-attribution-text { margin-top: 7px; color: var(--muted-soft); font-size: 10.5px; }
+.vsn-simplified-attribution { display: none; }
+.vsn-reader.vsn-chant-only .vsn-full-attribution { display: none; }
+.vsn-reader.vsn-chant-only .vsn-simplified-attribution { display: block; }
 .vsn-section-head {
   display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
   margin: 22px 12px 0; padding: 0 0 9px; border-bottom: 1px solid var(--hairline);
@@ -111,6 +114,31 @@
 .vsn-detail-copy { color: var(--ink-soft); font-size: 14.5px; line-height: 1.68; }
 .vsn-detail-copy p { margin: 0 0 10px; }
 .vsn-detail-copy p:last-child { margin-bottom: 0; }
+.vsn-commentary-quote {
+  margin: 14px 0 16px;
+  padding: 13px 14px 11px;
+  border: 0;
+  border-left: 2px solid var(--rule);
+  background: color-mix(in srgb, var(--bg-warm) 54%, transparent);
+}
+.vsn-commentary-quote .ix { margin: 0; }
+.vsn-commentary-quote .ix-deva {
+  margin-bottom: 7px;
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.75;
+}
+.vsn-commentary-quote .ix-pada { margin-bottom: 7px; font-size: 14px; line-height: 1.65; }
+.vsn-commentary-quote .ix-en { color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
+.vsn-quote-translation { margin-top: 8px; color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
+.vsn-quote-translation > span {
+  display: block; margin-bottom: 2px; color: var(--muted-soft);
+  font: 700 8.5px/1.4 var(--sans); letter-spacing: .07em; text-transform: uppercase;
+}
+.vsn-commentary-quote-source,
+.vsn-quote-note { color: var(--muted-soft); font: 10px/1.45 var(--sans); }
+.vsn-commentary-quote-source { margin-top: 8px; }
+.vsn-quote-note { margin-top: 4px; }
 .vsn-source-passage {
   margin: 12px 0; padding: 9px 12px;
   border-left: 2px solid var(--rule); color: var(--ink);

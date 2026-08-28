@@ -1,0 +1,3132 @@
+{
+  "schema_version": 1,
+  "work": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+  "source_commentary": {
+    "path": "gita/vishnu-sahasranama/chinmayananda.json",
+    "scope": "numbered Full commentary fields only",
+    "sha256": "2a76c108efce9d961282264c41b54677ee69744ac95941b94574e39294c9be22"
+  },
+  "critical_gita": {
+    "path": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+    "sha256": "da795ffd6b3b21eb03c6fbd36f80f5690a1bd4d1d4799816af7268a9e332de41"
+  },
+  "quotes": [
+    {
+      "id": "name-1-paragraph-2-span-0",
+      "name_number": 1,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 82,
+      "printed_devanagari": "सर्वभूतस्थमात्मानं सर्वभूतानि चात्मनि । ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः ॥",
+      "printed_iast": "sarvabhūtasthamātmānaṃ sarvabhūtāni cātmani | īkṣate yogayuktātmā sarvatra samadarśanaḥ ||",
+      "printed_loci": [
+        "Gītā 6.29"
+      ],
+      "canonical_locus": "Gītā 6.29",
+      "canonical_devanagari": "सर्वभूतस्थम् आत्मानं सर्वभूतानि चात्मनि ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः",
+      "canonical_iast": "sarvabhūtastham ātmānaṃ sarvabhūtāni cātmani īkṣate yogayuktātmā sarvatra samadarśanaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "6.29",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-11-paragraph-4-span-0",
+      "name_number": 11,
+      "paragraph_index": 4,
+      "source_start": 0,
+      "source_end": 92,
+      "printed_devanagari": "इन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः । मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ॥",
+      "printed_iast": "indriyāṇi parāṇyāhurindriyebhyaḥ paraṃ manaḥ | manasastu parā buddhiryo buddheḥ paratastu saḥ ||",
+      "printed_loci": [
+        "Gītā 3.42"
+      ],
+      "canonical_locus": "Gītā 3.42",
+      "canonical_devanagari": "इन्द्रियाणि पराण्य् आहुर् इन्द्रियेभ्यः परं मनः मनसस् तु परा बुद्धिर् यो बुद्धेः परतस् तु सः",
+      "canonical_iast": "indriyāṇi parāṇy āhur indriyebhyaḥ paraṃ manaḥ manasas tu parā buddhir yo buddheḥ paratas tu saḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "3.42",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-12-paragraph-1-span-0",
+      "name_number": 12,
+      "paragraph_index": 1,
+      "source_start": 252,
+      "source_end": 293,
+      "printed_devanagari": "यदगत्वा न निवर्तन्ते तद्धाम परमं मम",
+      "printed_iast": "yadagatvā na nivartante taddhāma paramaṃ mama",
+      "printed_loci": [
+        "Gītā 15.6"
+      ],
+      "canonical_locus": "Gītā 15.6",
+      "canonical_devanagari": "यद् गत्वा न निवर्तन्ते तद् धाम परमं मम",
+      "canonical_iast": "yad gatvā na nivartante tad dhāma paramaṃ mama",
+      "match_score": 0.9873,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.6",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "There where having gone, men never return. That sacred place is My seat"
+    },
+    {
+      "id": "name-12-paragraph-2-span-0",
+      "name_number": 12,
+      "paragraph_index": 2,
+      "source_start": 181,
+      "source_end": 223,
+      "printed_devanagari": "मामपेत्य तू कौन्तेय पूनर्जन्म न विद्यते",
+      "printed_iast": "māmapetya tū kaunteya pūnarjanma na vidyate",
+      "printed_loci": [
+        "Gītā 15.4"
+      ],
+      "canonical_locus": "Gītā 8.16",
+      "canonical_devanagari": "माम् उपेत्य तु कौन्तेय पुनर्जन्म न विद्यते",
+      "canonical_iast": "mām upetya tu kaunteya punarjanma na vidyate",
+      "match_score": 0.9211,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "Printed as Gītā 15.4; the quoted words align with the critical-edition locus Gītā 8.16.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "8.16",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "O Son of Kunti, having reached Me, there shall be no more any re-birth"
+    },
+    {
+      "id": "name-12-paragraph-2-span-1",
+      "name_number": 12,
+      "paragraph_index": 2,
+      "source_start": 298,
+      "source_end": 328,
+      "printed_devanagari": "यस्मिन गता न निवर्तन्ति भ्यः",
+      "printed_iast": "yasmina gatā na nivartanti bhyaḥ",
+      "printed_loci": [
+        "Gītā 15.4"
+      ],
+      "canonical_locus": "Gītā 15.4",
+      "canonical_devanagari": "यस्मिन् गता न निवर्तन्ति भूयः",
+      "canonical_iast": "yasmin gatā na nivartanti bhūyaḥ",
+      "match_score": 0.9643,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.4",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "That having reached no return again"
+    },
+    {
+      "id": "name-19-paragraph-1-span-0",
+      "name_number": 19,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 92,
+      "printed_devanagari": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते । तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ॥",
+      "printed_iast": "ananyāścintayanto māṃ ye janāḥ paryupāsate | teṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham ||",
+      "printed_loci": [
+        "Gītā 9.22"
+      ],
+      "canonical_locus": "Gītā 9.22",
+      "canonical_devanagari": "अनन्याश् चिन्तयन्तो मां ये जनाः पर्युपासते तेषां नित्याभियुक्तानां योगक्षेमं वहाम्य् अहम्",
+      "canonical_iast": "ananyāś cintayanto māṃ ye janāḥ paryupāsate teṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmy aham",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "9.22",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Those who contemplate upon Me with total dedication, their daily welfare and spiritual progress I shall bear"
+    },
+    {
+      "id": "name-28-paragraph-1-span-0",
+      "name_number": 28,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 40,
+      "printed_devanagari": "नित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ॥",
+      "printed_iast": "nityaḥ sarvagataḥ sthāṇuracalo'yaṃ sanātanaḥ ||",
+      "printed_loci": [
+        "Gītā 2.24"
+      ],
+      "canonical_locus": "Gītā 2.24",
+      "canonical_devanagari": "नित्यः सर्वगतः स्थाणुर् अचलो ऽयं सनातनः",
+      "canonical_iast": "nityaḥ sarvagataḥ sthāṇur acalo 'yaṃ sanātanaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "2.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Eternal, All — Pervading, the Pillar, Motionless (is) this Ancient One"
+    },
+    {
+      "id": "name-31-paragraph-0-span-0",
+      "name_number": 31,
+      "paragraph_index": 0,
+      "source_start": 357,
+      "source_end": 374,
+      "printed_devanagari": "संभवामि युगे युगे",
+      "printed_iast": "saṃbhavāmi yuge yuge",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 4.8",
+      "canonical_devanagari": "संभवामि युगे युगे",
+      "canonical_iast": "saṃbhavāmi yuge yuge",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 4.8."
+      ],
+      "analysis_ref": "4.8",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-81-paragraph-0-span-0",
+      "name_number": 81,
+      "paragraph_index": 0,
+      "source_start": 452,
+      "source_end": 489,
+      "printed_devanagari": "रसोऽप्यस्य परं दृष्ट्वा निवर्तते",
+      "printed_iast": "raso'pyasya paraṃ dṛṣṭvā nivartate",
+      "printed_loci": [
+        "Gītā 2.59"
+      ],
+      "canonical_locus": "Gītā 2.59",
+      "canonical_devanagari": "रसो ऽप्य् अस्य परं दृष्ट्वा निवर्तते",
+      "canonical_iast": "raso 'py asya paraṃ dṛṣṭvā nivartate",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "2.59",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Rasopyasya Param Drishtvaa Nivartate"
+    },
+    {
+      "id": "name-94-paragraph-0-span-1",
+      "name_number": 94,
+      "paragraph_index": 0,
+      "source_start": 584,
+      "source_end": 604,
+      "printed_devanagari": "सर्वतोऽक्षिशिरोमुखम्",
+      "printed_iast": "sarvato'kṣiśiromukham",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 13.13",
+      "canonical_devanagari": "सर्वतोक्षिशिरोमुखम्",
+      "canonical_iast": "sarvatokṣiśiromukham",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 13.13."
+      ],
+      "analysis_ref": "13.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-95-paragraph-0-span-0",
+      "name_number": 95,
+      "paragraph_index": 0,
+      "source_start": 239,
+      "source_end": 266,
+      "printed_devanagari": "जातस्य हि ध्रुवो मृत्युः",
+      "printed_iast": "jātasya hi dhruvo mṛtyuḥ",
+      "printed_loci": [
+        "Gītā 2.27"
+      ],
+      "canonical_locus": "Gītā 2.27",
+      "canonical_devanagari": "जातस्य हि ध्रुवो मृत्युर्",
+      "canonical_iast": "jātasya hi dhruvo mṛtyur",
+      "match_score": 0.9524,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "2.27",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "That which is born must necessarily die"
+    },
+    {
+      "id": "name-95-paragraph-2-span-0",
+      "name_number": 95,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 113,
+      "printed_devanagari": "न जायते म्रियते वा कदाचिन्नायं भूत्वा भविता वा न भूयः । अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे ॥",
+      "printed_iast": "na jāyate mriyate vā kadācinnāyaṃ bhūtvā bhavitā vā na bhūyaḥ | ajo nityaḥ śāśvato'yaṃ purāṇo na hanyate hanyamāne śarīre ||",
+      "printed_loci": [
+        "Gītā 2.20"
+      ],
+      "canonical_locus": "Gītā 2.20",
+      "canonical_devanagari": "न जायते म्रियते वा कदा चिन्; नायं भूत्वा भविता वा न भूयः अजो नित्यः शाश्वतो ऽयं पुराणो; न हन्यते हन्यमाने शरीरे",
+      "canonical_iast": "na jāyate mriyate vā kadā cin; nāyaṃ bhūtvā bhavitā vā na bhūyaḥ ajo nityaḥ śāśvato 'yaṃ purāṇo; na hanyate hanyamāne śarīre",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "2.20",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-98-paragraph-1-span-0",
+      "name_number": 98,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 41,
+      "printed_devanagari": "यद्गत्वा न निवर्तन्ते तद्धाम परमं मम ।",
+      "printed_iast": "yadgatvā na nivartante taddhāma paramaṃ mama |",
+      "printed_loci": [
+        "Gītā 15.6"
+      ],
+      "canonical_locus": "Gītā 15.6",
+      "canonical_devanagari": "यद् गत्वा न निवर्तन्ते तद् धाम परमं मम",
+      "canonical_iast": "yad gatvā na nivartante tad dhāma paramaṃ mama",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "15.6",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-104-paragraph-0-span-0",
+      "name_number": 104,
+      "paragraph_index": 0,
+      "source_start": 396,
+      "source_end": 412,
+      "printed_devanagari": "वसना पावकरचास्मि",
+      "printed_iast": "vasanā pāvakaracāsmi",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 10.23",
+      "canonical_devanagari": "वसूनां पावकश् चास्मि",
+      "canonical_iast": "vasūnāṃ pāvakaś cāsmi",
+      "match_score": 0.8421,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 10.23.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.23",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-107-paragraph-1-span-1",
+      "name_number": 107,
+      "paragraph_index": 1,
+      "source_start": 312,
+      "source_end": 359,
+      "printed_devanagari": "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत",
+      "printed_iast": "kṣetrajñaṃ cāpi māṃ viddhi sarvakṣetreṣu bhārata",
+      "printed_loci": [
+        "Gītā 13.3"
+      ],
+      "canonical_locus": "Gītā 13.2",
+      "canonical_devanagari": "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत",
+      "canonical_iast": "kṣetrajñaṃ cāpi māṃ viddhi sarvakṣetreṣu bhārata",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "Printed as Gītā 13.3; the quoted words align with the critical-edition locus Gītā 13.2."
+      ],
+      "analysis_ref": "13.2",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am the Seer in all the fields-of-experiences everywhere"
+    },
+    {
+      "id": "name-114-paragraph-0-span-3",
+      "name_number": 114,
+      "paragraph_index": 0,
+      "source_start": 333,
+      "source_end": 355,
+      "printed_devanagari": "रुद्राणां शंकरश्चास्मि",
+      "printed_iast": "rudrāṇāṃ śaṃkaraścāsmi",
+      "printed_loci": [
+        "Gītā 10.23"
+      ],
+      "canonical_locus": "Gītā 10.23",
+      "canonical_devanagari": "रुद्राणां शंकरश् चास्मि",
+      "canonical_iast": "rudrāṇāṃ śaṃkaraś cāsmi",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.23",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Among the Rudras, I am Śaṅkara"
+    },
+    {
+      "id": "name-118-paragraph-0-span-0",
+      "name_number": 118,
+      "paragraph_index": 0,
+      "source_start": 78,
+      "source_end": 99,
+      "printed_devanagari": "सर्वतः श्रुतिमत्",
+      "printed_iast": "sarvataḥ śrutimat",
+      "printed_loci": [
+        "Gītā 13.13"
+      ],
+      "canonical_locus": "Gītā 13.13",
+      "canonical_devanagari": "सर्वतःश्रुतिमल्",
+      "canonical_iast": "sarvataḥśrutimal",
+      "match_score": 0.9375,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "13.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Everywhere are His ears"
+    },
+    {
+      "id": "name-124-paragraph-0-span-0",
+      "name_number": 124,
+      "paragraph_index": 0,
+      "source_start": 190,
+      "source_end": 229,
+      "printed_devanagari": "ज्योतिषामपि तज्ज्योतिः तमसः परमुच्यते",
+      "printed_iast": "jyotiṣāmapi tajjyotiḥ tamasaḥ paramucyate",
+      "printed_loci": [
+        "Gītā 13.17"
+      ],
+      "canonical_locus": "Gītā 13.17",
+      "canonical_devanagari": "ज्योतिषाम् अपि तज् ज्योतिस् तमसः परम् उच्यते",
+      "canonical_iast": "jyotiṣām api taj jyotis tamasaḥ param ucyate",
+      "match_score": 0.9737,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "13.17",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "The Light that illumines all lights"
+    },
+    {
+      "id": "name-129-paragraph-0-span-0",
+      "name_number": 129,
+      "paragraph_index": 0,
+      "source_start": 285,
+      "source_end": 426,
+      "printed_devanagari": "अव्यक्तोऽयमचिन्त्योऽयमविकार्योऽयम्चिकार्योऽयम्चिकार्योऽयम्चिकार्योऽयम्चिकार्योऽयम्चिकार्योऽयम्चिकार्योऽयम्चिकार्योऽयम्चिकार्योऽयम्चिकार्योऽय",
+      "printed_iast": "avyakto'yamacintyo'yamavikāryo'yamcikāryo'yamcikāryo'yamcikāryo'yamcikāryo'yamcikāryo'yamcikāryo'yamcikāryo'yamcikāryo'yamcikāryo'ya",
+      "printed_loci": [
+        "Gītā 2.25"
+      ],
+      "canonical_locus": "Gītā 2.25",
+      "canonical_devanagari": "अव्यक्तो ऽयम् अचिन्त्यो ऽयम् अविकार्यो ऽयम् उच्यते",
+      "canonical_iast": "avyakto 'yam acintyo 'yam avikāryo 'yam ucyate",
+      "match_score": 1.0,
+      "match_basis": "scan-and-critical-witness-repair",
+      "textual_notes": [
+        "The improved OCR duplicated the final phrase repeatedly. The displayed line is restored from the printed locus and the local critical Gītā witness."
+      ],
+      "analysis_ref": "2.25",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "This great Reality is Imperceptible, Unthinkable, without any modifications"
+    },
+    {
+      "id": "name-131-paragraph-0-span-0",
+      "name_number": 131,
+      "paragraph_index": 0,
+      "source_start": 399,
+      "source_end": 423,
+      "printed_devanagari": "वेदान्तकृद्वेदिवदेव चाहम",
+      "printed_iast": "vedāntakṛdvedivadeva cāhama",
+      "printed_loci": [
+        "Gītā 15.15"
+      ],
+      "canonical_locus": "Gītā 15.15",
+      "canonical_devanagari": "वेदान्तकृद् वेदविद् एव चाहम्",
+      "canonical_iast": "vedāntakṛd vedavid eva cāham",
+      "match_score": 0.902,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.15",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-132-paragraph-1-span-0",
+      "name_number": 132,
+      "paragraph_index": 1,
+      "source_start": 183,
+      "source_end": 201,
+      "printed_devanagari": "कवीनामश्राना कवि",
+      "printed_iast": "kavīnāmaśrānā kavi",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 10.37",
+      "canonical_devanagari": "कवीनाम् उशना कविः",
+      "canonical_iast": "kavīnām uśanā kaviḥ",
+      "match_score": 0.8235,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 10.37.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.37",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-133-paragraph-1-span-0",
+      "name_number": 133,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 92,
+      "printed_devanagari": "उपद्रष्टानुमन्ता च भर्ता भोक्ता महेश्वरः । परमात्मेति चाप्युक्तो देहेऽस्मिन् पुरुषः परः ॥",
+      "printed_iast": "upadraṣṭānumantā ca bhartā bhoktā maheśvaraḥ | paramātmeti cāpyukto dehe'smin puruṣaḥ paraḥ ||",
+      "printed_loci": [
+        "Gītā 13.22"
+      ],
+      "canonical_locus": "Gītā 13.22",
+      "canonical_devanagari": "उपद्रष्टानुमन्ता च भर्ता भोक्ता महेश्वरः परमात्मेति चाप्य् उक्तो देहे ऽस्मिन् पुरुषः परः",
+      "canonical_iast": "upadraṣṭānumantā ca bhartā bhoktā maheśvaraḥ paramātmeti cāpy ukto dehe 'smin puruṣaḥ paraḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "13.22",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "The Supreme puruṣa in this body is also called the spectator, the permitter, the supporter, the enjoyer, the great Lord, and the Supreme Self"
+    },
+    {
+      "id": "name-143-paragraph-1-span-0",
+      "name_number": 143,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 54,
+      "printed_devanagari": "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान् गुणान् ॥",
+      "printed_iast": "puruṣaḥ prakṛtistho hi bhuṅkte prakṛtijān guṇān ||",
+      "printed_loci": [
+        "Gītā 13.21"
+      ],
+      "canonical_locus": "Gītā 13.21",
+      "canonical_devanagari": "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान् गुणान्",
+      "canonical_iast": "puruṣaḥ prakṛtistho hi bhuṅkte prakṛtijān guṇān",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "13.21",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-147-paragraph-1-span-0",
+      "name_number": 147,
+      "paragraph_index": 1,
+      "source_start": 200,
+      "source_end": 216,
+      "printed_devanagari": "पाण्डवानां धनजय",
+      "printed_iast": "pāṇḍavānāṃ dhanajaya",
+      "printed_loci": [
+        "Gītā 10.37"
+      ],
+      "canonical_locus": "Gītā 10.37",
+      "canonical_devanagari": "पाण्डवानां धनंजयः",
+      "canonical_iast": "pāṇḍavānāṃ dhanaṃjayaḥ",
+      "match_score": 0.95,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.37",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Among the Pandavas, I am Arjuna"
+    },
+    {
+      "id": "name-170-paragraph-2-span-0",
+      "name_number": 170,
+      "paragraph_index": 2,
+      "source_start": 222,
+      "source_end": 237,
+      "printed_devanagari": "मम माया दरत्यया",
+      "printed_iast": "mama māyā daratyayā",
+      "printed_loci": [
+        "Gītā 7.14"
+      ],
+      "canonical_locus": "Gītā 7.14",
+      "canonical_devanagari": "मम माया दुरत्यया",
+      "canonical_iast": "mama māyā duratyayā",
+      "match_score": 0.9412,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "7.14",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Very difficult indeed it is to cross over My māyā"
+    },
+    {
+      "id": "name-189-paragraph-0-span-0",
+      "name_number": 189,
+      "paragraph_index": 0,
+      "source_start": 263,
+      "source_end": 279,
+      "printed_devanagari": "तेजस्तेजस्वनामहम",
+      "printed_iast": "tejastejasvanāmahama",
+      "printed_loci": [
+        "Gītā 10.36"
+      ],
+      "canonical_locus": "Gītā 10.36",
+      "canonical_devanagari": "तेजस् तेजस्विनाम् अहम्",
+      "canonical_iast": "tejas tejasvinām aham",
+      "match_score": 0.9231,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.36",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am the Light in all effulgents"
+    },
+    {
+      "id": "name-193-paragraph-0-span-0",
+      "name_number": 193,
+      "paragraph_index": 0,
+      "source_start": 98,
+      "source_end": 119,
+      "printed_devanagari": "अनन्तश्चास्मि नागानाम",
+      "printed_iast": "anantaścāsmi nāgānāma",
+      "printed_loci": [
+        "Gītā 10.29"
+      ],
+      "canonical_locus": "Gītā 10.29",
+      "canonical_devanagari": "अनन्तश् चास्मि नागानां",
+      "canonical_iast": "anantaś cāsmi nāgānāṃ",
+      "match_score": 0.9231,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.29",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Among the serpents I am Ananta"
+    },
+    {
+      "id": "name-198-paragraph-0-span-0",
+      "name_number": 198,
+      "paragraph_index": 0,
+      "source_start": 495,
+      "source_end": 537,
+      "printed_devanagari": "विनश्यत्स्व- विनश्यन्तं यः पश्यति स पश्यति",
+      "printed_iast": "vinaśyatsva- vinaśyantaṃ yaḥ paśyati sa paśyati",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 13.27",
+      "canonical_devanagari": "विनश्यत्स्व् अविनश्यन्तं यः पश्यति स पश्यति",
+      "canonical_iast": "vinaśyatsv avinaśyantaṃ yaḥ paśyati sa paśyati",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 13.27."
+      ],
+      "analysis_ref": "13.27",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-200-paragraph-1-span-0",
+      "name_number": 200,
+      "paragraph_index": 1,
+      "source_start": 327,
+      "source_end": 348,
+      "printed_devanagari": "मगाणां च मगेन्द्रोऽहम",
+      "printed_iast": "magāṇāṃ ca magendro'hama",
+      "printed_loci": [
+        "Gītā 10.30"
+      ],
+      "canonical_locus": "Gītā 10.30",
+      "canonical_devanagari": "मृगाणां च मृगेन्द्रो ऽहं",
+      "canonical_iast": "mṛgāṇāṃ ca mṛgendro 'haṃ",
+      "match_score": 0.8293,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.30",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Among the animals, I am the King of animals, Lion"
+    },
+    {
+      "id": "name-226-paragraph-1-span-0",
+      "name_number": 226,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 35,
+      "printed_devanagari": "अनेकवक्त्रनयनमनेकाद्भुतदर्शनम् ।",
+      "printed_iast": "anekavaktranayanamanekādbhutadarśanam |",
+      "printed_loci": [
+        "Gītā 11.10"
+      ],
+      "canonical_locus": "Gītā 11.10",
+      "canonical_devanagari": "अनेकवक्त्रनयनम् अनेकाद्भुतदर्शनम्",
+      "canonical_iast": "anekavaktranayanam anekādbhutadarśanam",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "11.10",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-226-paragraph-2-span-0",
+      "name_number": 226,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 55,
+      "printed_devanagari": "रूपं महत्ते बहुवक्त्रनेत्रं महाबाहो बहुबाहूरुपादम् ।",
+      "printed_iast": "rūpaṃ mahatte bahuvaktranetraṃ mahābāho bahubāhūrupādam |",
+      "printed_loci": [
+        "Gītā 11.23"
+      ],
+      "canonical_locus": "Gītā 11.23",
+      "canonical_devanagari": "रूपं महत् ते बहुवक्त्रनेत्रं; महाबाहो बहुबाहूरुपादम्",
+      "canonical_iast": "rūpaṃ mahat te bahuvaktranetraṃ; mahābāho bahubāhūrupādam",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "11.23",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-228-paragraph-1-span-0",
+      "name_number": 228,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 88,
+      "printed_devanagari": "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति । भ्रामयन् सर्वभूतानि यन्त्रारूढानि मायया ॥",
+      "printed_iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe'rjuna tiṣṭhati | bhrāmayan sarvabhūtāni yantrārūḍhāni māyayā ||",
+      "printed_loci": [
+        "Gītā 18.61"
+      ],
+      "canonical_locus": "Gītā 18.61",
+      "canonical_devanagari": "ईश्वरः सर्वभूतानां हृद्देशे ऽर्जुन तिष्ठति भ्रामयन् सर्वभूतानि यन्त्रारूढानि मायया",
+      "canonical_iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe 'rjuna tiṣṭhati bhrāmayan sarvabhūtāni yantrārūḍhāni māyayā",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "18.61",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "O Arjuna, the Lord dwells in the heart of all, and spins. through His māyā, all layers of personal ties as though the universe is a complicated machinery"
+    },
+    {
+      "id": "name-230-paragraph-1-span-0",
+      "name_number": 230,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 46,
+      "printed_devanagari": "अज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः ॥",
+      "printed_iast": "ajñānenāvṛtaṃ jñānaṃ tena muhyanti jantavaḥ ||",
+      "printed_loci": [
+        "Gītā 5.15"
+      ],
+      "canonical_locus": "Gītā 5.15",
+      "canonical_devanagari": "अज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तवः",
+      "canonical_iast": "ajñānenāvṛtaṃ jñānaṃ tena muhyanti jantavaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "5.15",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-232-paragraph-1-span-0",
+      "name_number": 232,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 85,
+      "printed_devanagari": "यदादित्यगतं तेजो जगद्भासयतेऽखिलम् । यच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम् ॥",
+      "printed_iast": "yadādityagataṃ tejo jagadbhāsayate'khilam | yaccandramasi yaccāgnau tattejo viddhi māmakam ||",
+      "printed_loci": [
+        "Gītā 15.12"
+      ],
+      "canonical_locus": "Gītā 15.12",
+      "canonical_devanagari": "यद् आदित्यगतं तेजो जगद् भासयते ऽखिलम् यच् चन्द्रमसि यच् चाग्नौ तत् तेजो विद्धि मामकम्",
+      "canonical_iast": "yad ādityagataṃ tejo jagad bhāsayate 'khilam yac candramasi yac cāgnau tat tejo viddhi māmakam",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "15.12",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Please understand that I am the Light of the Sun that illumines all earth; and the light and heat in the moon and fire are all mine only"
+    },
+    {
+      "id": "name-236-paragraph-1-span-0",
+      "name_number": 236,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 84,
+      "printed_devanagari": "पत्रं पूष्पं फलं तोयं यो मे भक्त्या प्रयच्छति । तदहं भक्त्यपहतं अश्नामि प्रयतात्मन",
+      "printed_iast": "patraṃ pūṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati | tadahaṃ bhaktyapahataṃ aśnāmi prayatātmana",
+      "printed_loci": [
+        "Gītā 9.26"
+      ],
+      "canonical_locus": "Gītā 9.26",
+      "canonical_devanagari": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति तद् अहं भक्त्युपहृतम् अश्नामि प्रयतात्मनः",
+      "canonical_iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati tad ahaṃ bhaktyupahṛtam aśnāmi prayatātmanaḥ",
+      "match_score": 0.9467,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "9.26",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "With a little am I satisfied. if it is given with sincerity, and with faithful consistency"
+    },
+    {
+      "id": "name-237-paragraph-1-span-0",
+      "name_number": 237,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 54,
+      "printed_devanagari": "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान् गुणान् ॥",
+      "printed_iast": "puruṣaḥ prakṛtistho hi bhuṅkte prakṛtijān guṇān ||",
+      "printed_loci": [
+        "Gītā 13.21"
+      ],
+      "canonical_locus": "Gītā 13.21",
+      "canonical_devanagari": "पुरुषः प्रकृतिस्थो हि भुङ्क्ते प्रकृतिजान् गुणान्",
+      "canonical_iast": "puruṣaḥ prakṛtistho hi bhuṅkte prakṛtijān guṇān",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "13.21",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-247-paragraph-1-span-0",
+      "name_number": 247,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 117,
+      "printed_devanagari": "अनेकबाहूदरवक्त्रनेत्रं पश्यामि त्वां सर्वतोऽनन्तरूपम् । नान्तं न मध्यं न पुनस्तवादिं पश्यामि विश्वेश्वर विश्वरूप ॥",
+      "printed_iast": "anekabāhūdaravaktranetraṃ paśyāmi tvāṃ sarvato'nantarūpam | nāntaṃ na madhyaṃ na punastavādiṃ paśyāmi viśveśvara viśvarūpa ||",
+      "printed_loci": [
+        "Gītā 11.16"
+      ],
+      "canonical_locus": "Gītā 11.16",
+      "canonical_devanagari": "अनेकबाहूदरवक्त्रनेत्रं; पश्यामि त्वा सर्वतो ऽनन्तरूपम् नान्तं न मध्यं न पुनस् तवादिं; पश्यामि विश्वेश्वर विश्वरूप",
+      "canonical_iast": "anekabāhūdaravaktranetraṃ; paśyāmi tvā sarvato 'nantarūpam nāntaṃ na madhyaṃ na punas tavādiṃ; paśyāmi viśveśvara viśvarūpa",
+      "match_score": 0.9953,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "11.16",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-263-paragraph-1-span-0",
+      "name_number": 263,
+      "paragraph_index": 1,
+      "source_start": 391,
+      "source_end": 433,
+      "printed_devanagari": "मत्स्थानि सर्वभतानि न चाहं तेष्व- वस्थित",
+      "printed_iast": "matsthāni sarvabhatāni na cāhaṃ teṣva- vasthita",
+      "printed_loci": [
+        "Gītā 9.4"
+      ],
+      "canonical_locus": "Gītā 9.4",
+      "canonical_devanagari": "मत्स्थानि सर्वभूतानि न चाहं तेष्व् अवस्थितः",
+      "canonical_iast": "matsthāni sarvabhūtāni na cāhaṃ teṣv avasthitaḥ",
+      "match_score": 0.9639,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "9.4",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "They are in me; I am not in them"
+    },
+    {
+      "id": "name-270-paragraph-2-span-1",
+      "name_number": 270,
+      "paragraph_index": 2,
+      "source_start": 124,
+      "source_end": 200,
+      "printed_devanagari": "सर्वभतस्थमात्मानं सर्वभतानि चात्मनि। ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः।।",
+      "printed_iast": "sarvabhatasthamātmānaṃ sarvabhatāni cātmani| īkṣate yogayuktātmā sarvatra samadarśanaḥ||",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 6.29",
+      "canonical_devanagari": "सर्वभूतस्थम् आत्मानं सर्वभूतानि चात्मनि ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः",
+      "canonical_iast": "sarvabhūtastham ātmānaṃ sarvabhūtāni cātmani īkṣate yogayuktātmā sarvatra samadarśanaḥ",
+      "match_score": 0.9747,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 6.29.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "6.29",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-273-paragraph-2-span-0",
+      "name_number": 273,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 83,
+      "printed_devanagari": "यदादित्यगतं तेजो जगत् भासयतेऽखिलम् । यच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम ।।",
+      "printed_iast": "yadādityagataṃ tejo jagat bhāsayate'khilam | yaccandramasi yaccāgnau tattejo viddhi māmakama ||",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 15.12",
+      "canonical_devanagari": "यद् आदित्यगतं तेजो जगद् भासयते ऽखिलम् यच् चन्द्रमसि यच् चाग्नौ तत् तेजो विद्धि मामकम्",
+      "canonical_iast": "yad ādityagataṃ tejo jagad bhāsayate 'khilam yac candramasi yac cāgnau tat tejo viddhi māmakam",
+      "match_score": 0.9814,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 15.12.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.12",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-274-paragraph-0-span-0",
+      "name_number": 274,
+      "paragraph_index": 0,
+      "source_start": 452,
+      "source_end": 492,
+      "printed_devanagari": "यथा प्रकाशयत्येकः कृत्स्नं लोकिममं रविः।",
+      "printed_iast": "yathā prakāśayatyekaḥ kṛtsnaṃ lokimamaṃ raviḥ|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 13.33",
+      "canonical_devanagari": "यथा प्रकाशयत्य् एकः कृत्स्नं लोकम् इमं रविः",
+      "canonical_iast": "yathā prakāśayaty ekaḥ kṛtsnaṃ lokam imaṃ raviḥ",
+      "match_score": 0.9512,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 13.33.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "13.33",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-274-paragraph-1-span-0",
+      "name_number": 274,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 50,
+      "printed_devanagari": "क्षेत्रं क्षेत्री तथा कृत्स्न प्रकाशयति भारत ।।",
+      "printed_iast": "kṣetraṃ kṣetrī tathā kṛtsna prakāśayati bhārata ||",
+      "printed_loci": [
+        "Gītā 13.33"
+      ],
+      "canonical_locus": "Gītā 13.33",
+      "canonical_devanagari": "क्षेत्रं क्षेत्री तथा कृत्स्नं प्रकाशयति भारत",
+      "canonical_iast": "kṣetraṃ kṣetrī tathā kṛtsnaṃ prakāśayati bhārata",
+      "match_score": 0.9882,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "13.33",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-275-paragraph-2-span-0-piece-0",
+      "name_number": 275,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 38,
+      "printed_devanagari": "बलं बलवतामस्मि",
+      "printed_iast": "balaṃ balavatāmasmi",
+      "printed_loci": [
+        "Gītā 10.36"
+      ],
+      "canonical_locus": "Gītā 7.11",
+      "canonical_devanagari": "बलं बलवतां चाहं",
+      "canonical_iast": "balaṃ balavatāṃ cāhaṃ",
+      "match_score": 0.7568,
+      "match_basis": "manual-composite-adjudication",
+      "textual_notes": [
+        "The printed footnote combines two Gītā clauses under its Gītā 10.36 label. This clause is aligned separately so neither source is misrepresented."
+      ],
+      "analysis_ref": "7.11",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am the Might in all strength"
+    },
+    {
+      "id": "name-275-paragraph-2-span-0-piece-1",
+      "name_number": 275,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 38,
+      "printed_devanagari": "तेजस्तेजस्विनामहम्",
+      "printed_iast": "tejastejasvināmaham",
+      "printed_loci": [
+        "Gītā 10.36"
+      ],
+      "canonical_locus": "Gītā 10.36",
+      "canonical_devanagari": "तेजस् तेजस्विनाम् अहम्",
+      "canonical_iast": "tejas tejasvinām aham",
+      "match_score": 1.0,
+      "match_basis": "manual-composite-adjudication",
+      "textual_notes": [
+        "The printed footnote combines two Gītā clauses under its Gītā 10.36 label. This clause is aligned separately so neither source is misrepresented."
+      ],
+      "analysis_ref": "10.36",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am the Brilliancy in all that is brilliant"
+    },
+    {
+      "id": "name-279-paragraph-1-span-0",
+      "name_number": 279,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 89,
+      "printed_devanagari": "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन् । यः प्रयाति त्यजन्देहं स याति परमां गतिम् ॥",
+      "printed_iast": "omityekākṣaraṃ brahma vyāharanmāmanusmaran | yaḥ prayāti tyajandehaṃ sa yāti paramāṃ gatim ||",
+      "printed_loci": [
+        "Gītā 8.13"
+      ],
+      "canonical_locus": "Gītā 8.13",
+      "canonical_devanagari": "ॐ इत्य् एकाक्षरं ब्रह्म व्याहरन् माम् अनुस्मरन् यः प्रयाति त्यजन् देहं स याति परमां गतिम्",
+      "canonical_iast": "om ity ekākṣaraṃ brahma vyāharan mām anusmaran yaḥ prayāti tyajan dehaṃ sa yāti paramāṃ gatim",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "8.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "One who chants my name Om and leaves his body at the time of death thus remembering Me, he shall go to the Supreme State"
+    },
+    {
+      "id": "name-281-paragraph-1-span-0",
+      "name_number": 281,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 48,
+      "printed_devanagari": "पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः ।",
+      "printed_iast": "puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ |",
+      "printed_loci": [
+        "Gītā 15.13"
+      ],
+      "canonical_locus": "Gītā 15.13",
+      "canonical_devanagari": "पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः",
+      "canonical_iast": "puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "15.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "As the rays of the moon (Soma) I fill the vegetable kingdom with nutrition"
+    },
+    {
+      "id": "name-285-paragraph-1-span-0",
+      "name_number": 285,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 84,
+      "printed_devanagari": "गामाविश्य च भूतानि धारयाम्यहमोजसा । पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः ॥",
+      "printed_iast": "gāmāviśya ca bhūtāni dhārayāmyahamojasā | puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ ||",
+      "printed_loci": [
+        "Gītā 15.13"
+      ],
+      "canonical_locus": "Gītā 15.13",
+      "canonical_devanagari": "गाम् आविश्य च भूतानि धारयाम्य् अहम् ओजसा पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः",
+      "canonical_iast": "gām āviśya ca bhūtāni dhārayāmy aham ojasā puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "15.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "that nourishes with essence all plant kingdom"
+    },
+    {
+      "id": "name-323-paragraph-1-span-0",
+      "name_number": 323,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 17,
+      "printed_devanagari": "सरसामस्मि सागरः।",
+      "printed_iast": "sarasāmasmi sāgaraḥ|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 10.24",
+      "canonical_devanagari": "सरसाम् अस्मि सागरः",
+      "canonical_iast": "sarasām asmi sāgaraḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 10.24."
+      ],
+      "analysis_ref": "10.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-359-paragraph-2-span-0",
+      "name_number": 359,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 41,
+      "printed_devanagari": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च।",
+      "printed_iast": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhureva ca|",
+      "printed_loci": [
+        "Gītā 9.24"
+      ],
+      "canonical_locus": "Gītā 9.24",
+      "canonical_devanagari": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुर् एव च",
+      "canonical_iast": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhur eva ca",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "9.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-383-paragraph-2-span-0",
+      "name_number": 383,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 37,
+      "printed_devanagari": "नाहं प्रकाशः सर्वस्य योगमायासमावृतः।",
+      "printed_iast": "nāhaṃ prakāśaḥ sarvasya yogamāyāsamāvṛtaḥ|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 7.25",
+      "canonical_devanagari": "नाहं प्रकाशः सर्वस्य योगमायासमावृतः",
+      "canonical_iast": "nāhaṃ prakāśaḥ sarvasya yogamāyāsamāvṛtaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 7.25."
+      ],
+      "analysis_ref": "7.25",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-384-paragraph-2-span-0",
+      "name_number": 384,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 38,
+      "printed_devanagari": "व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन।",
+      "printed_iast": "vyavasāyātmikā buddhirekeha kurunandana|",
+      "printed_loci": [
+        "Gītā 2.41"
+      ],
+      "canonical_locus": "Gītā 2.41",
+      "canonical_devanagari": "व्यवसायात्मिका बुद्धिर् एकेह कुरुनन्दन",
+      "canonical_iast": "vyavasāyātmikā buddhir ekeha kurunandana",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "2.41",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "The intellect of one who is practising Yoga is single-pointed without vacillation"
+    },
+    {
+      "id": "name-384-paragraph-3-span-0",
+      "name_number": 384,
+      "paragraph_index": 3,
+      "source_start": 1,
+      "source_end": 78,
+      "printed_devanagari": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम्। व्यवसायात्मिका बुद्धिः समाधौ न विधीयते॥",
+      "printed_iast": "bhogaiśvaryaprasaktānāṃ tayāpahṛtacetasām| vyavasāyātmikā buddhiḥ samādhau na vidhīyate||",
+      "printed_loci": [
+        "Gītā 2.44"
+      ],
+      "canonical_locus": "Gītā 2.44",
+      "canonical_devanagari": "भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम् व्यवसायात्मिका बुद्धिः समाधौ न विधीयते",
+      "canonical_iast": "bhogaiśvaryaprasaktānāṃ tayāpahṛtacetasām vyavasāyātmikā buddhiḥ samādhau na vidhīyate",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "2.44",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Those who are revelling in sensuality and consequently disturbing the poise of their intellect, cannot have a steady mind and consistent pursuit of Yoga"
+    },
+    {
+      "id": "name-389-paragraph-1-span-0",
+      "name_number": 389,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 23,
+      "printed_devanagari": "दिव्या ह्यात्मविभूतयः।",
+      "printed_iast": "divyā hyātmavibhūtayaḥ|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 10.19",
+      "canonical_devanagari": "दिव्या ह्य् आत्मविभूतयः",
+      "canonical_iast": "divyā hy ātmavibhūtayaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 10.19."
+      ],
+      "analysis_ref": "10.19",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-391-paragraph-2-span-0",
+      "name_number": 391,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 84,
+      "printed_devanagari": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति। तदहं भक्त्युपहृतमश्नामि प्रयतात्मनः॥",
+      "printed_iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati| tadahaṃ bhaktyupahṛtamaśnāmi prayatātmanaḥ||",
+      "printed_loci": [
+        "Gītā 9.26"
+      ],
+      "canonical_locus": "Gītā 9.26",
+      "canonical_devanagari": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति तद् अहं भक्त्युपहृतम् अश्नामि प्रयतात्मनः",
+      "canonical_iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati tad ahaṃ bhaktyupahṛtam aśnāmi prayatātmanaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "9.26",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I accept even if you offer some leaf or flower, or fruit or spoon of water, happily, if it is offered in love"
+    },
+    {
+      "id": "name-418-paragraph-2-span-0",
+      "name_number": 418,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 16,
+      "printed_devanagari": "कालः कलयतामहम्।",
+      "printed_iast": "kālaḥ kalayatāmaham|",
+      "printed_loci": [
+        "Gītā 10.30"
+      ],
+      "canonical_locus": "Gītā 10.30",
+      "canonical_devanagari": "कालः कलयताम् अहम्",
+      "canonical_iast": "kālaḥ kalayatām aham",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.30",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am the Time of counting"
+    },
+    {
+      "id": "name-420-paragraph-1-span-0",
+      "name_number": 420,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 84,
+      "printed_devanagari": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति। तदहं भक्त्युपहृतमश्नामि प्रयतात्मनः॥",
+      "printed_iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati| tadahaṃ bhaktyupahṛtamaśnāmi prayatātmanaḥ||",
+      "printed_loci": [
+        "Gītā 9.26"
+      ],
+      "canonical_locus": "Gītā 9.26",
+      "canonical_devanagari": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति तद् अहं भक्त्युपहृतम् अश्नामि प्रयतात्मनः",
+      "canonical_iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati tad ahaṃ bhaktyupahṛtam aśnāmi prayatātmanaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "9.26",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-436-paragraph-1-span-0",
+      "name_number": 436,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 60,
+      "printed_devanagari": "द्यावापृथिव्योरिदमन्तरं हि व्याप्तं त्वयैकेन दिशश्च सर्वाः।",
+      "printed_iast": "dyāvāpṛthivyoridamantaraṃ hi vyāptaṃ tvayaikena diśaśca sarvāḥ|",
+      "printed_loci": [
+        "Gītā 11.20"
+      ],
+      "canonical_locus": "Gītā 11.20",
+      "canonical_devanagari": "द्यावापृथिव्योर् इदम् अन्तरं हि; व्याप्तं त्वयैकेन दिशश् च सर्वाः",
+      "canonical_iast": "dyāvāpṛthivyor idam antaraṃ hi; vyāptaṃ tvayaikena diśaś ca sarvāḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "11.20",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "This space between earth and the heavens and all the quarters are filled by You alone"
+    },
+    {
+      "id": "name-439-paragraph-1-span-0",
+      "name_number": 439,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 94,
+      "printed_devanagari": "ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम्। ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना॥",
+      "printed_iast": "brahmārpaṇaṃ brahma havirbrahmāgnau brahmaṇā hutam| brahmaiva tena gantavyaṃ brahmakarmasamādhinā||",
+      "printed_loci": [
+        "Gītā 4.24"
+      ],
+      "canonical_locus": "Gītā 4.24",
+      "canonical_devanagari": "ब्रह्मार्पणं ब्रह्महविर् ब्रह्माग्नौ ब्रह्मणा हुतम् ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना",
+      "canonical_iast": "brahmārpaṇaṃ brahmahavir brahmāgnau brahmaṇā hutam brahmaiva tena gantavyaṃ brahmakarmasamādhinā",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "4.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "offer is Brahman, what is offered is Brahman, the fire is Brahman, the offerer is Brahman and the goal reached is also Brahman"
+    },
+    {
+      "id": "name-441-paragraph-1-span-0",
+      "name_number": 441,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 81,
+      "printed_devanagari": "आदित्यानामहं विष्णुर्ज्योतिषां रविरंशुमान्। मरीचिर्मरुतामस्मि नक्षत्राणामहं शशी॥",
+      "printed_iast": "ādityānāmahaṃ viṣṇurjyotiṣāṃ raviraṃśumān| marīcirmarutāmasmi nakṣatrāṇāmahaṃ śaśī||",
+      "printed_loci": [
+        "Gītā 10.21"
+      ],
+      "canonical_locus": "Gītā 10.21",
+      "canonical_devanagari": "आदित्यानाम् अहं विष्णुर् ज्योतिषां रविर् अंशुमान् मरीचिर् मरुताम् अस्मि नक्षत्राणाम् अहं शशी",
+      "canonical_iast": "ādityānām ahaṃ viṣṇur jyotiṣāṃ ravir aṃśumān marīcir marutām asmi nakṣatrāṇām ahaṃ śaśī",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.21",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "among the stars I am the moon"
+    },
+    {
+      "id": "name-473-paragraph-0-span-0",
+      "name_number": 473,
+      "paragraph_index": 0,
+      "source_start": 82,
+      "source_end": 98,
+      "printed_devanagari": "सरसामस्मि सागरः।",
+      "printed_iast": "sarasāmasmi sāgaraḥ|",
+      "printed_loci": [
+        "Gītā 10.24"
+      ],
+      "canonical_locus": "Gītā 10.24",
+      "canonical_devanagari": "सरसाम् अस्मि सागरः",
+      "canonical_iast": "sarasām asmi sāgaraḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-475-paragraph-1-span-0",
+      "name_number": 475,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 79,
+      "printed_devanagari": "परित्राणाय साधूनां विनाशाय च दुष्कृताम्। धर्मसंस्थापनार्थाय संभवामि युगे युगे॥",
+      "printed_iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām| dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge||",
+      "printed_loci": [
+        "Gītā 4.8"
+      ],
+      "canonical_locus": "Gītā 4.8",
+      "canonical_devanagari": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् धर्मसंस्थापनार्थाय संभवामि युगे युगे",
+      "canonical_iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "4.8",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "In every cycle I shall manifest for re-establishing dharma"
+    },
+    {
+      "id": "name-477-paragraph-1-span-0",
+      "name_number": 477,
+      "paragraph_index": 1,
+      "source_start": 63,
+      "source_end": 144,
+      "printed_devanagari": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् । धर्मसंस्थापनार्थाय संभवामि युगे युगे ।।",
+      "printed_iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām | dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge ||",
+      "printed_loci": [
+        "Gītā 4.8"
+      ],
+      "canonical_locus": "Gītā 4.8",
+      "canonical_devanagari": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् धर्मसंस्थापनार्थाय संभवामि युगे युगे",
+      "canonical_iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "4.8",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-478-paragraph-2-span-0",
+      "name_number": 478,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 40,
+      "printed_devanagari": "अविनाशि तु तद्विद्धि येन सर्वमिदं ततम्।",
+      "printed_iast": "avināśi tu tadviddhi yena sarvamidaṃ tatam|",
+      "printed_loci": [
+        "Gītā 2.17"
+      ],
+      "canonical_locus": "Gītā 2.17",
+      "canonical_devanagari": "अविनाशि तु तद् विद्धि येन सर्वम् इदं ततम्",
+      "canonical_iast": "avināśi tu tad viddhi yena sarvam idaṃ tatam",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "2.17",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-479-paragraph-1-span-0",
+      "name_number": 479,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 36,
+      "printed_devanagari": "अमृतं चैव मृत्युश्च सदसच्चाहमर्जुन।",
+      "printed_iast": "amṛtaṃ caiva mṛtyuśca sadasaccāhamarjuna|",
+      "printed_loci": [
+        "Gītā 9.19"
+      ],
+      "canonical_locus": "Gītā 9.19",
+      "canonical_devanagari": "अमृतं चैव मृत्युश् च सद् असच् चाहम् अर्जुन",
+      "canonical_iast": "amṛtaṃ caiva mṛtyuś ca sad asac cāham arjuna",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "9.19",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Arjuna, I am at once immortality and mortality; I am both Existence and Non-existence"
+    },
+    {
+      "id": "name-481-paragraph-1-span-0",
+      "name_number": 481,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 42,
+      "printed_devanagari": "क्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते।",
+      "printed_iast": "kṣaraḥ sarvāṇi bhūtāni kūṭastho'kṣara ucyate|",
+      "printed_loci": [
+        "Gītā 15.16"
+      ],
+      "canonical_locus": "Gītā 15.16",
+      "canonical_devanagari": "क्षरः सर्वाणि भूतानि कूटस्थो ऽक्षर उच्यते",
+      "canonical_iast": "kṣaraḥ sarvāṇi bhūtāni kūṭastho 'kṣara ucyate",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "15.16",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "all creatures together constitute the kṣara-purusha and the Changeless in all creatures is the A-kshara-purusha"
+    },
+    {
+      "id": "name-505-paragraph-1-span-0",
+      "name_number": 505,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 45,
+      "printed_devanagari": "पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः।",
+      "printed_iast": "puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 15.13",
+      "canonical_devanagari": "पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः",
+      "canonical_iast": "puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 15.13."
+      ],
+      "analysis_ref": "15.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-513-paragraph-1-span-0",
+      "name_number": 513,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 49,
+      "printed_devanagari": "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत।",
+      "printed_iast": "kṣetrajñaṃ cāpi māṃ viddhi sarvakṣetreṣu bhārata|",
+      "printed_loci": [
+        "Gītā 13.2"
+      ],
+      "canonical_locus": "Gītā 13.2",
+      "canonical_devanagari": "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत",
+      "canonical_iast": "kṣetrajñaṃ cāpi māṃ viddhi sarvakṣetreṣu bhārata",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "13.2",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-517-paragraph-1-span-0",
+      "name_number": 517,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 17,
+      "printed_devanagari": "सरसामस्मि सागरः।",
+      "printed_iast": "sarasāmasmi sāgaraḥ|",
+      "printed_loci": [
+        "Gītā 10.24"
+      ],
+      "canonical_locus": "Gītā 10.24",
+      "canonical_devanagari": "सरसाम् अस्मि सागरः",
+      "canonical_iast": "sarasām asmi sāgaraḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Of the lakes I am the ocean"
+    },
+    {
+      "id": "name-531-paragraph-1-span-0",
+      "name_number": 531,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 23,
+      "printed_devanagari": "सिद्धानां कपिलो मुनिः।",
+      "printed_iast": "siddhānāṃ kapilo muniḥ|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 10.26",
+      "canonical_devanagari": "सिद्धानां कपिलो मुनिः",
+      "canonical_iast": "siddhānāṃ kapilo muniḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 10.26."
+      ],
+      "analysis_ref": "10.26",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-554-paragraph-1-span-0",
+      "name_number": 554,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 81,
+      "printed_devanagari": "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा। तत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम्॥",
+      "printed_iast": "yadyadvibhūtimatsattvaṃ śrīmadūrjitameva vā| tattadevāvagaccha tvaṃ mama tejoṃ'śasambhavam||",
+      "printed_loci": [
+        "Gītā 10.41"
+      ],
+      "canonical_locus": "Gītā 10.41",
+      "canonical_devanagari": "यद् यद् विभूतिमत् सत्त्वं श्रीमद् ऊर्जितम् एव वा तत् तद् एवावगच्छ त्वं मम तेजोंशसंभवम्",
+      "canonical_iast": "yad yad vibhūtimat sattvaṃ śrīmad ūrjitam eva vā tat tad evāvagaccha tvaṃ mama tejoṃśasaṃbhavam",
+      "match_score": 0.9878,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.41",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "understand them all as coming out of my glory"
+    },
+    {
+      "id": "name-555-paragraph-1-span-0",
+      "name_number": 555,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 39,
+      "printed_devanagari": "ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्।",
+      "printed_iast": "ūrdhvamūlamadhaḥśākhamaśvatthaṃ prāhuravyayam|",
+      "printed_loci": [
+        "Gītā 15.1"
+      ],
+      "canonical_locus": "Gītā 15.1",
+      "canonical_devanagari": "ऊर्ध्वमूलम् अधःशाखम् अश्वत्थं प्राहुर् अव्ययम्",
+      "canonical_iast": "ūrdhvamūlam adhaḥśākham aśvatthaṃ prāhur avyayam",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "15.1",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-576-paragraph-1-span-0",
+      "name_number": 576,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 22,
+      "printed_devanagari": "वेदानां सामवेदोऽस्मि।",
+      "printed_iast": "vedānāṃ sāmavedo'smi|",
+      "printed_loci": [
+        "Gītā 10.22"
+      ],
+      "canonical_locus": "Gītā 10.22",
+      "canonical_devanagari": "वेदानां सामवेदो ऽस्मि",
+      "canonical_iast": "vedānāṃ sāmavedo 'smi",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.22",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Of Vedas I am the sāma Veda"
+    },
+    {
+      "id": "name-585-paragraph-1-span-0",
+      "name_number": 585,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 38,
+      "printed_devanagari": "यद्गत्वा न निवर्तन्ते तद्धाम परमं मम।",
+      "printed_iast": "yadgatvā na nivartante taddhāma paramaṃ mama|",
+      "printed_loci": [
+        "Gītā 15.6"
+      ],
+      "canonical_locus": "Gītā 15.6",
+      "canonical_devanagari": "यद् गत्वा न निवर्तन्ते तद् धाम परमं मम",
+      "canonical_iast": "yad gatvā na nivartante tad dhāma paramaṃ mama",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "15.6",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "To which having gone they return not; that is My Supreme Abode"
+    },
+    {
+      "id": "name-599-paragraph-1-span-0",
+      "name_number": 599,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 45,
+      "printed_devanagari": "तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम्।",
+      "printed_iast": "teṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham|",
+      "printed_loci": [
+        "Gītā 9.22"
+      ],
+      "canonical_locus": "Gītā 9.22",
+      "canonical_devanagari": "तेषां नित्याभियुक्तानां योगक्षेमं वहाम्य् अहम्",
+      "canonical_iast": "teṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmy aham",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "9.22",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I shall govern both your 'Yoga' and 'kṣema' when you are a true devotee"
+    },
+    {
+      "id": "name-623-paragraph-1-span-0",
+      "name_number": 623,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 39,
+      "printed_devanagari": "स्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव।",
+      "printed_iast": "sthito'smi gatasandehaḥ kariṣye vacanaṃ tava|",
+      "printed_loci": [
+        "Gītā 18.73"
+      ],
+      "canonical_locus": "Gītā 18.73",
+      "canonical_devanagari": "स्थितो ऽस्मि गतसंदेहः करिष्ये वचनं तव",
+      "canonical_iast": "sthito 'smi gatasaṃdehaḥ kariṣye vacanaṃ tava",
+      "match_score": 0.9744,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "18.73",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am firm; my doubts are gone. I will do according to your word"
+    },
+    {
+      "id": "name-625-paragraph-2-span-0",
+      "name_number": 625,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 41,
+      "printed_devanagari": "सर्वतः पाणिपादं तत्सर्वतोऽक्षिशिरोमुखम्।",
+      "printed_iast": "sarvataḥ pāṇipādaṃ tatsarvato'kṣiśiromukham|",
+      "printed_loci": [
+        "Gītā 13.14"
+      ],
+      "canonical_locus": "Gītā 13.13",
+      "canonical_devanagari": "सर्वतःपाणिपादं तत् सर्वतोक्षिशिरोमुखम्",
+      "canonical_iast": "sarvataḥpāṇipādaṃ tat sarvatokṣiśiromukham",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "Printed as Gītā 13.14; the quoted words align with the critical-edition locus Gītā 13.13."
+      ],
+      "analysis_ref": "13.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-632-paragraph-1-span-0",
+      "name_number": 632,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 78,
+      "printed_devanagari": "तेषामहं समुद्धर्ता मृत्युसंसारसागरात्। भवामि न चिरात्पार्थ मय्यावेशितचेतसाम्॥",
+      "printed_iast": "teṣāmahaṃ samuddhartā mṛtyusaṃsārasāgarāt| bhavāmi na cirātpārtha mayyāveśitacetasām||",
+      "printed_loci": [
+        "Gītā 12.7"
+      ],
+      "canonical_locus": "Gītā 12.7",
+      "canonical_devanagari": "तेषाम् अहं समुद्धर्ता मृत्युसंसारसागरात् भवामि नचिरात् पार्थ मय्य् आवेशितचेतसाम्",
+      "canonical_iast": "teṣām ahaṃ samuddhartā mṛtyusaṃsārasāgarāt bhavāmi nacirāt pārtha mayy āveśitacetasām",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "12.7",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "To them I shall be, err long, a Saviour from the Ocean of Samsar"
+    },
+    {
+      "id": "name-633-paragraph-1-span-0",
+      "name_number": 633,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 39,
+      "printed_devanagari": "ज्योतिषामपि तज्ज्योतिस्तमसः परमुच्यते।",
+      "printed_iast": "jyotiṣāmapi tajjyotistamasaḥ paramucyate|",
+      "printed_loci": [
+        "Gītā 13.17"
+      ],
+      "canonical_locus": "Gītā 13.17",
+      "canonical_devanagari": "ज्योतिषाम् अपि तज् ज्योतिस् तमसः परम् उच्यते",
+      "canonical_iast": "jyotiṣām api taj jyotis tamasaḥ param ucyate",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "13.17",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-657-paragraph-1-span-0",
+      "name_number": 657,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 60,
+      "printed_devanagari": "द्यावापृथिव्योरिदमन्तरं हि व्याप्तं त्वयैकेन दिशश्च सर्वाः।",
+      "printed_iast": "dyāvāpṛthivyoridamantaraṃ hi vyāptaṃ tvayaikena diśaśca sarvāḥ|",
+      "printed_loci": [
+        "Gītā 11.20"
+      ],
+      "canonical_locus": "Gītā 11.20",
+      "canonical_devanagari": "द्यावापृथिव्योर् इदम् अन्तरं हि; व्याप्तं त्वयैकेन दिशश् च सर्वाः",
+      "canonical_iast": "dyāvāpṛthivyor idam antaraṃ hi; vyāptaṃ tvayaikena diśaś ca sarvāḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "11.20",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "By Thee alone is filled the earth, the outer space and the inner space. It is Thee who fills all directions everywhere"
+    },
+    {
+      "id": "name-660-paragraph-1-span-0",
+      "name_number": 660,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 20,
+      "printed_devanagari": "पाण्डवानां धनञ्जयः।",
+      "printed_iast": "pāṇḍavānāṃ dhanañjayaḥ|",
+      "printed_loci": [
+        "Gītā 10.37"
+      ],
+      "canonical_locus": "Gītā 10.37",
+      "canonical_devanagari": "पाण्डवानां धनंजयः",
+      "canonical_iast": "pāṇḍavānāṃ dhanaṃjayaḥ",
+      "match_score": 0.9524,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.37",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am Dhananjaya, among the sons of Pandu"
+    },
+    {
+      "id": "name-666-paragraph-2-span-0",
+      "name_number": 666,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 27,
+      "printed_devanagari": "वेदान्तकृद्वेदविदेव चाहम्।",
+      "printed_iast": "vedāntakṛdvedavideva cāham|",
+      "printed_loci": [
+        "Gītā 15.15"
+      ],
+      "canonical_locus": "Gītā 15.15",
+      "canonical_devanagari": "वेदान्तकृद् वेदविद् एव चाहम्",
+      "canonical_iast": "vedāntakṛd vedavid eva cāham",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "15.15",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-673-paragraph-4-span-0",
+      "name_number": 673,
+      "paragraph_index": 4,
+      "source_start": 1,
+      "source_end": 39,
+      "printed_devanagari": "ज्योतिषामपि तज्ज्योतिस्तमसः परम्च्यते।",
+      "printed_iast": "jyotiṣāmapi tajjyotistamasaḥ paramcyate|",
+      "printed_loci": [
+        "Gītā 13.17"
+      ],
+      "canonical_locus": "Gītā 13.17",
+      "canonical_devanagari": "ज्योतिषाम् अपि तज् ज्योतिस् तमसः परम् उच्यते",
+      "canonical_iast": "jyotiṣām api taj jyotis tamasaḥ param ucyate",
+      "match_score": 0.9867,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "13.17",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "The Supreme is the Light of all lights, beyond all darkness"
+    },
+    {
+      "id": "name-673-paragraph-5-span-0",
+      "name_number": 673,
+      "paragraph_index": 5,
+      "source_start": 2,
+      "source_end": 82,
+      "printed_devanagari": "यदादित्यगतं तेजो जगद्भासयतेऽखिलम । यच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम ॥",
+      "printed_iast": "yadādityagataṃ tejo jagadbhāsayate'khilama | yaccandramasi yaccāgnau tattejo viddhi māmakama ||",
+      "printed_loci": [
+        "Gītā 15.12"
+      ],
+      "canonical_locus": "Gītā 15.12",
+      "canonical_devanagari": "यद् आदित्यगतं तेजो जगद् भासयते ऽखिलम् यच् चन्द्रमसि यच् चाग्नौ तत् तेजो विद्धि मामकम्",
+      "canonical_iast": "yad ādityagataṃ tejo jagad bhāsayate 'khilam yac candramasi yac cāgnau tat tejo viddhi māmakam",
+      "match_score": 0.9877,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.12",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Understand that Light in the Sun by which the whole world is illumined, and that Light in the Moon and in the fire to be My own Light"
+    },
+    {
+      "id": "name-674-paragraph-0-span-0",
+      "name_number": 674,
+      "paragraph_index": 0,
+      "source_start": 66,
+      "source_end": 87,
+      "printed_devanagari": "अनन्तश्चास्मि नागानाम",
+      "printed_iast": "anantaścāsmi nāgānāma",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 10.29",
+      "canonical_devanagari": "अनन्तश् चास्मि नागानां",
+      "canonical_iast": "anantaś cāsmi nāgānāṃ",
+      "match_score": 0.9231,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 10.29.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.29",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-674-paragraph-0-span-1",
+      "name_number": 674,
+      "paragraph_index": 0,
+      "source_start": 272,
+      "source_end": 292,
+      "printed_devanagari": "सर्पाणामस्मि वास्किः",
+      "printed_iast": "sarpāṇāmasmi vāskiḥ",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 10.28",
+      "canonical_devanagari": "सर्पाणाम् अस्मि वासुकिः",
+      "canonical_iast": "sarpāṇām asmi vāsukiḥ",
+      "match_score": 0.973,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 10.28.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.28",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-677-paragraph-1-span-0",
+      "name_number": 677,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 25,
+      "printed_devanagari": "यज्ञानां जपयज्ञोऽस्मि ।",
+      "printed_iast": "yajñānāṃ japayajño'smi |",
+      "printed_loci": [
+        "Gītā 10.25"
+      ],
+      "canonical_locus": "Gītā 10.25",
+      "canonical_devanagari": "यज्ञानां जपयज्ञो ऽस्मि",
+      "canonical_iast": "yajñānāṃ japayajño 'smi",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.25",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am among the yajñas, the Japa-yajña"
+    },
+    {
+      "id": "name-678-paragraph-1-span-0",
+      "name_number": 678,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 52,
+      "printed_devanagari": "ब्रह्मार्पणं ब्रह्म हिवर्ब्रह्माग्नी ब्रह्मणा हतम ।",
+      "printed_iast": "brahmārpaṇaṃ brahma hivarbrahmāgnī brahmaṇā hatama |",
+      "printed_loci": [
+        "Gītā 4.24"
+      ],
+      "canonical_locus": "Gītā 4.24",
+      "canonical_devanagari": "ब्रह्मार्पणं ब्रह्महविर् ब्रह्माग्नौ ब्रह्मणा हुतम्",
+      "canonical_iast": "brahmārpaṇaṃ brahmahavir brahmāgnau brahmaṇā hutam",
+      "match_score": 0.8913,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "4.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "We offer to Brahman that which is Brahman, in the fire which is Brahman, and the act of offering is also Brahman"
+    },
+    {
+      "id": "name-683-paragraph-1-span-0",
+      "name_number": 683,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 14,
+      "printed_devanagari": "स मे प्रिय:।",
+      "printed_iast": "sa me priya:|",
+      "printed_loci": [
+        "Gītā 12.14"
+      ],
+      "canonical_locus": "Gītā 12.14",
+      "canonical_devanagari": "स मे प्रियः",
+      "canonical_iast": "sa me priyaḥ",
+      "match_score": 0.9474,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "12.14",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "He is the one dear to Me"
+    },
+    {
+      "id": "name-695-paragraph-2-span-0",
+      "name_number": 695,
+      "paragraph_index": 2,
+      "source_start": 2,
+      "source_end": 45,
+      "printed_devanagari": "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति ।",
+      "printed_iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe'rjuna tiṣṭhati |",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 18.61",
+      "canonical_devanagari": "ईश्वरः सर्वभूतानां हृद्देशे ऽर्जुन तिष्ठति",
+      "canonical_iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe 'rjuna tiṣṭhati",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 18.61."
+      ],
+      "analysis_ref": "18.61",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-695-paragraph-3-span-0",
+      "name_number": 695,
+      "paragraph_index": 3,
+      "source_start": 0,
+      "source_end": 39,
+      "printed_devanagari": "भ्रामयन्सर्वभतानि यन्त्रारूढानि मायया ॥",
+      "printed_iast": "bhrāmayansarvabhatāni yantrārūḍhāni māyayā ||",
+      "printed_loci": [
+        "Gītā 18.61"
+      ],
+      "canonical_locus": "Gītā 18.61",
+      "canonical_devanagari": "भ्रामयन् सर्वभूतानि यन्त्रारूढानि मायया",
+      "canonical_iast": "bhrāmayan sarvabhūtāni yantrārūḍhāni māyayā",
+      "match_score": 0.975,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "18.61",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "The Lord dwells in the hearts of all beings, O Arjuna, causing all beings, by His illusive power, to revolve as if mounted on a machine"
+    },
+    {
+      "id": "name-696-paragraph-1-span-0",
+      "name_number": 696,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 34,
+      "printed_devanagari": "अहमात्मा गडाकेश सर्वभताशयस्थितः।",
+      "printed_iast": "ahamātmā gaḍākeśa sarvabhatāśayasthitaḥ|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 10.20",
+      "canonical_devanagari": "अहम् आत्मा गुडाकेश सर्वभूताशयस्थितः",
+      "canonical_iast": "aham ātmā guḍākeśa sarvabhūtāśayasthitaḥ",
+      "match_score": 0.9459,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 10.20.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.20",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-696-paragraph-2-span-0",
+      "name_number": 696,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 35,
+      "printed_devanagari": "अहमादिश्च मध्यं च भृतानामन्त एच च ॥",
+      "printed_iast": "ahamādiśca madhyaṃ ca bhṛtānāmanta eca ca ||",
+      "printed_loci": [
+        "Gītā 10.20"
+      ],
+      "canonical_locus": "Gītā 10.20",
+      "canonical_devanagari": "अहम् आदिश् च मध्यं च भूतानाम् अन्त एव च",
+      "canonical_iast": "aham ādiś ca madhyaṃ ca bhūtānām anta eva ca",
+      "match_score": 0.9444,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.20",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am the beginning, the middle and also the end of all beings"
+    },
+    {
+      "id": "name-698-paragraph-1-span-0",
+      "name_number": 698,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 53,
+      "printed_devanagari": "ब्रह्मार्पणं ब्रह्म हिवर्षे ह्याग्नी ब्रह्मणा हतम ॥",
+      "printed_iast": "brahmārpaṇaṃ brahma hivarṣe hyāgnī brahmaṇā hatama ||",
+      "printed_loci": [
+        "Gītā 4.24"
+      ],
+      "canonical_locus": "Gītā 4.24",
+      "canonical_devanagari": "ब्रह्मार्पणं ब्रह्महविर् ब्रह्माग्नौ ब्रह्मणा हुतम्",
+      "canonical_iast": "brahmārpaṇaṃ brahmahavir brahmāgnau brahmaṇā hutam",
+      "match_score": 0.8132,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "4.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "the oblations are nothing but Brahman"
+    },
+    {
+      "id": "name-706-paragraph-1-span-0",
+      "name_number": 706,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 38,
+      "printed_devanagari": "मद्भक्त एतद्विज्ञाय मद्भावायोपपद्यते।",
+      "printed_iast": "madbhakta etadvijñāya madbhāvāyopapadyate|",
+      "printed_loci": [
+        "Gītā 13.18"
+      ],
+      "canonical_locus": "Gītā 13.18",
+      "canonical_devanagari": "मद्भक्त एतद् विज्ञाय मद्भावायोपपद्यते",
+      "canonical_iast": "madbhakta etad vijñāya madbhāvāyopapadyate",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "13.18",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "My devotee thus knowing (realising the Truth, the jneyam, seated in the heart of all) enters into My Being"
+    },
+    {
+      "id": "name-708-paragraph-2-span-0",
+      "name_number": 708,
+      "paragraph_index": 2,
+      "source_start": 2,
+      "source_end": 21,
+      "printed_devanagari": "अहं सर्वस्य प्रभवः।",
+      "printed_iast": "ahaṃ sarvasya prabhavaḥ|",
+      "printed_loci": [
+        "Gītā 10.8"
+      ],
+      "canonical_locus": "Gītā 10.8",
+      "canonical_devanagari": "अहं सर्वस्य प्रभवो",
+      "canonical_iast": "ahaṃ sarvasya prabhavo",
+      "match_score": 0.9268,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.8",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am the Source of all Creation"
+    },
+    {
+      "id": "name-711-paragraph-1-span-0",
+      "name_number": 711,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 43,
+      "printed_devanagari": "नान्तोऽस्ति मम दिव्यानां विभूतीनां परंतप।",
+      "printed_iast": "nānto'sti mama divyānāṃ vibhūtīnāṃ paraṃtapa|",
+      "printed_loci": [
+        "Gītā 10.40"
+      ],
+      "canonical_locus": "Gītā 10.40",
+      "canonical_devanagari": "नान्तो ऽस्ति मम दिव्यानां विभूतीनां परंतप",
+      "canonical_iast": "nānto 'sti mama divyānāṃ vibhūtīnāṃ paraṃtapa",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.40",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Of My Divine Glories there is no end"
+    },
+    {
+      "id": "name-715-paragraph-2-span-0",
+      "name_number": 715,
+      "paragraph_index": 2,
+      "source_start": 2,
+      "source_end": 39,
+      "printed_devanagari": "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम।",
+      "printed_iast": "kleśo'dhikatarasteṣāmavyaktāsaktacetasāma|",
+      "printed_loci": [
+        "Gītā 12.5"
+      ],
+      "canonical_locus": "Gītā 12.5",
+      "canonical_devanagari": "क्लेशो ऽधिकतरस् तेषाम् अव्यक्तासक्तचेतसाम्",
+      "canonical_iast": "kleśo 'dhikataras teṣām avyaktāsaktacetasām",
+      "match_score": 0.9873,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "12.5",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Greater is their trouble whose minds are set on the Unmanifest; for the goal, the Unmanifested, is very hard for the embodied to reach"
+    },
+    {
+      "id": "name-719-paragraph-1-span-0",
+      "name_number": 719,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 36,
+      "printed_devanagari": "दिवि सूर्यसहस्रस्य भवेद्यगपद्रिथता।",
+      "printed_iast": "divi sūryasahasrasya bhavedyagapadrithatā|",
+      "printed_loci": [
+        "Gītā 11.12"
+      ],
+      "canonical_locus": "Gītā 11.12",
+      "canonical_devanagari": "दिवि सूर्यसहस्रस्य भवेद् युगपद् उत्थिता",
+      "canonical_iast": "divi sūryasahasrasya bhaved yugapad utthitā",
+      "match_score": 0.8718,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "11.12",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "If the splendour of a thousand Suns were to blaze out at once in the sky, that would be like the splendour of that Mighty Being"
+    },
+    {
+      "id": "name-724-paragraph-1-span-0",
+      "name_number": 724,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 83,
+      "printed_devanagari": "सर्वतः पाणिपादं तत्सर्वतोऽक्षिशिरोमुखम्। सर्वतः श्रुतिमल्लोके सर्वमावृत्य तिष्ठति॥",
+      "printed_iast": "sarvataḥ pāṇipādaṃ tatsarvato'kṣiśiromukham| sarvataḥ śrutimalloke sarvamāvṛtya tiṣṭhati||",
+      "printed_loci": [
+        "Gītā 13.14"
+      ],
+      "canonical_locus": "Gītā 13.13",
+      "canonical_devanagari": "सर्वतःपाणिपादं तत् सर्वतोक्षिशिरोमुखम् सर्वतःश्रुतिमल् लोके सर्वम् आवृत्य तिष्ठति",
+      "canonical_iast": "sarvataḥpāṇipādaṃ tat sarvatokṣiśiromukham sarvataḥśrutimal loke sarvam āvṛtya tiṣṭhati",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "Printed as Gītā 13.14; the quoted words align with the critical-edition locus Gītā 13.13."
+      ],
+      "analysis_ref": "13.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Hands and feet everywhere, with heads and mouths everywhere, His ears everywhere, stands (The Lord), enveloping all"
+    },
+    {
+      "id": "name-731-paragraph-1-span-0",
+      "name_number": 731,
+      "paragraph_index": 1,
+      "source_start": 0,
+      "source_end": 43,
+      "printed_devanagari": "ॐ तत्सदिति निर्देशो ब्रह्मणस्त्रिविधःस्मतः।",
+      "printed_iast": "oṃ tatsaditi nirdeśo brahmaṇastrividhaḥsmataḥ|",
+      "printed_loci": [
+        "Gītā 7.23"
+      ],
+      "canonical_locus": "Gītā 17.23",
+      "canonical_devanagari": "ॐ तत् सद् इति निर्देशो ब्रह्मणस् त्रिविधः स्मृतः",
+      "canonical_iast": "oṃ tat sad iti nirdeśo brahmaṇas trividhaḥ smṛtaḥ",
+      "match_score": 0.9762,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "Printed as Gītā 7.23; the quoted words align with the critical-edition locus Gītā 17.23.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "17.23",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "'Om Tat Sat' this has been declared to be the triple designation of Brahman"
+    },
+    {
+      "id": "name-732-paragraph-1-span-0",
+      "name_number": 732,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 17,
+      "printed_devanagari": "अनुत्तमां गतिम्।",
+      "printed_iast": "anuttamāṃ gatim|",
+      "printed_loci": [
+        "Gītā 7.18"
+      ],
+      "canonical_locus": "Gītā 7.18",
+      "canonical_devanagari": "एवानुत्तमां गतिम्",
+      "canonical_iast": "evānuttamāṃ gatim",
+      "match_score": 0.8667,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "7.18",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "The Unequalled State of Perfection: The Supreme State of Truth"
+    },
+    {
+      "id": "name-742-paragraph-3-span-0",
+      "name_number": 742,
+      "paragraph_index": 3,
+      "source_start": 1,
+      "source_end": 35,
+      "printed_devanagari": "न त्वत्समोऽस्त्यभ्यधिकः कृतोऽन्यः।",
+      "printed_iast": "na tvatsamo'styabhyadhikaḥ kṛto'nyaḥ|",
+      "printed_loci": [
+        "Gītā 11.43"
+      ],
+      "canonical_locus": "Gītā 11.43",
+      "canonical_devanagari": "न त्वत्समो ऽस्त्य् अभ्यधिकः कुतो ऽन्यो;",
+      "canonical_iast": "na tvatsamo 'sty abhyadhikaḥ kuto 'nyo;",
+      "match_score": 0.9206,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "11.43",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "None there exists who is equal to You; how can there be then another superior to You in the three worlds, O Being of unequalled power"
+    },
+    {
+      "id": "name-745-paragraph-1-span-0",
+      "name_number": 745,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 36,
+      "printed_devanagari": "नित्यः सर्वगतः स्थाणरचलोऽयं सनातनः।",
+      "printed_iast": "nityaḥ sarvagataḥ sthāṇaracalo'yaṃ sanātanaḥ|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 2.24",
+      "canonical_devanagari": "नित्यः सर्वगतः स्थाणुर् अचलो ऽयं सनातनः",
+      "canonical_iast": "nityaḥ sarvagataḥ sthāṇur acalo 'yaṃ sanātanaḥ",
+      "match_score": 0.975,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 2.24.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "2.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-753-paragraph-1-span-0",
+      "name_number": 753,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 50,
+      "printed_devanagari": "तस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम् ।",
+      "printed_iast": "tasmātsarvagataṃ brahma nityaṃ yajñe pratiṣṭhitam |",
+      "printed_loci": [
+        "Gītā 3.15"
+      ],
+      "canonical_locus": "Gītā 3.15",
+      "canonical_devanagari": "तस्मात् सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम्",
+      "canonical_iast": "tasmāt sarvagataṃ brahma nityaṃ yajñe pratiṣṭhitam",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "3.15",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-767-paragraph-1-span-0",
+      "name_number": 767,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 85,
+      "printed_devanagari": "ईश्वरः सर्वभृतानां हृद्देशेऽर्ज्न तिष्ठति। भ्रामयन्सर्वभृतानि यन्त्रारूढानि मायया ॥",
+      "printed_iast": "īśvaraḥ sarvabhṛtānāṃ hṛddeśe'rjna tiṣṭhati| bhrāmayansarvabhṛtāni yantrārūḍhāni māyayā ||",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 18.61",
+      "canonical_devanagari": "ईश्वरः सर्वभूतानां हृद्देशे ऽर्जुन तिष्ठति भ्रामयन् सर्वभूतानि यन्त्रारूढानि मायया",
+      "canonical_iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe 'rjuna tiṣṭhati bhrāmayan sarvabhūtāni yantrārūḍhāni māyayā",
+      "match_score": 0.9686,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 18.61.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "18.61",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-770-paragraph-1-span-0",
+      "name_number": 770,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 25,
+      "printed_devanagari": "चातूर्वण्यं मया सप्टं…।",
+      "printed_iast": "cātūrvaṇyaṃ mayā sapṭaṃ…|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 4.13",
+      "canonical_devanagari": "चातुर्वर्ण्यं मया सृष्टं",
+      "canonical_iast": "cāturvarṇyaṃ mayā sṛṣṭaṃ",
+      "match_score": 0.8372,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 4.13.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "4.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-771-paragraph-1-span-0",
+      "name_number": 771,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 27,
+      "printed_devanagari": "वेदान्तकृद्वेदविदेव चाहम।",
+      "printed_iast": "vedāntakṛdvedavideva cāhama|",
+      "printed_loci": [
+        "Gītā 15.15"
+      ],
+      "canonical_locus": "Gītā 15.15",
+      "canonical_devanagari": "वेदान्तकृद् वेदविद् एव चाहम्",
+      "canonical_iast": "vedāntakṛd vedavid eva cāham",
+      "match_score": 0.9804,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.15",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am verily that which has to be known in all the Vedas: I am indeed the author of the Vedas and the 'knower' of the Vedas am I"
+    },
+    {
+      "id": "name-772-paragraph-1-span-0",
+      "name_number": 772,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 45,
+      "printed_devanagari": "विष्टभ्याहमिदं क्रत्स्नमेकांशेन स्थितो जगत।",
+      "printed_iast": "viṣṭabhyāhamidaṃ kratsnamekāṃśena sthito jagata|",
+      "printed_loci": [
+        "Gītā 10.42"
+      ],
+      "canonical_locus": "Gītā 10.42",
+      "canonical_devanagari": "विष्टभ्याहम् इदं कृत्स्नम् एकांशेन स्थितो जगत्",
+      "canonical_iast": "viṣṭabhyāham idaṃ kṛtsnam ekāṃśena sthito jagat",
+      "match_score": 0.9535,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.42",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "The whole universe is supported by one part of Myself"
+    },
+    {
+      "id": "name-779-paragraph-2-span-0",
+      "name_number": 779,
+      "paragraph_index": 2,
+      "source_start": 2,
+      "source_end": 82,
+      "printed_devanagari": "दैवी ह्येषा गुणमयी मम माया द्रत्यया । मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ॥",
+      "printed_iast": "daivī hyeṣā guṇamayī mama māyā dratyayā | māmeva ye prapadyante māyāmetāṃ taranti te ||",
+      "printed_loci": [
+        "Gītā 7.14"
+      ],
+      "canonical_locus": "Gītā 7.14",
+      "canonical_devanagari": "दैवी ह्य् एषा गुणमयी मम माया दुरत्यया माम् एव ये प्रपद्यन्ते मायाम् एतां तरन्ति ते",
+      "canonical_iast": "daivī hy eṣā guṇamayī mama māyā duratyayā mām eva ye prapadyante māyām etāṃ taranti te",
+      "match_score": 0.993,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "7.14",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-780-paragraph-2-span-0",
+      "name_number": 780,
+      "paragraph_index": 2,
+      "source_start": 2,
+      "source_end": 91,
+      "printed_devanagari": "योऽयं योगस्त्वया प्रोक्तः साम्येन मध्सूदन। एतस्याहं न पश्यामि चञ्चलत्वात स्थिति स्थिराम ॥",
+      "printed_iast": "yo'yaṃ yogastvayā proktaḥ sāmyena madhsūdana| etasyāhaṃ na paśyāmi cañcalatvāta sthiti sthirāma ||",
+      "printed_loci": [
+        "Gītā 6.33"
+      ],
+      "canonical_locus": "Gītā 6.33",
+      "canonical_devanagari": "यो ऽयं योगस् त्वया प्रोक्तः साम्येन मधुसूदन एतस्याहं न पश्यामि चञ्चलत्वात् स्थितिं स्थिराम्",
+      "canonical_iast": "yo 'yaṃ yogas tvayā proktaḥ sāmyena madhusūdana etasyāhaṃ na paśyāmi cañcalatvāt sthitiṃ sthirām",
+      "match_score": 0.9759,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "6.33",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "This Yoga of equanimity, taught by Thee, O slayer of Madhu, I see not its enduring continuity, because of the restlessness (of the mind)"
+    },
+    {
+      "id": "name-780-paragraph-3-span-0",
+      "name_number": 780,
+      "paragraph_index": 3,
+      "source_start": 2,
+      "source_end": 83,
+      "printed_devanagari": "यथा दीपो निवातस्थो ने ज्ञते सोपमा स्मृता। योगिनो यतचित्तस्य युञ्जतो योगमात्मनः ।।",
+      "printed_iast": "yathā dīpo nivātastho ne jñate sopamā smṛtā| yogino yatacittasya yuñjato yogamātmanaḥ ||",
+      "printed_loci": [
+        "Gītā 6.19"
+      ],
+      "canonical_locus": "Gītā 6.19",
+      "canonical_devanagari": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता योगिनो यतचित्तस्य युञ्जतो योगम् आत्मनः",
+      "canonical_iast": "yathā dīpo nivātastho neṅgate sopamā smṛtā yogino yatacittasya yuñjato yogam ātmanaḥ",
+      "match_score": 0.973,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "6.19",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "As a lamp placed in a windless place does not flicker"
+    },
+    {
+      "id": "name-784-paragraph-1-span-0",
+      "name_number": 784,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 39,
+      "printed_devanagari": "मत्तः परतरं नान्यत किञ्चिदस्ति धनञ्जय।",
+      "printed_iast": "mattaḥ parataraṃ nānyata kiñcidasti dhanañjaya|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 7.7",
+      "canonical_devanagari": "मत्तः परतरं नान्यत् किं चिद् अस्ति धनंजय",
+      "canonical_iast": "mattaḥ parataraṃ nānyat kiṃ cid asti dhanaṃjaya",
+      "match_score": 0.9398,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 7.7.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "7.7",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-784-paragraph-2-span-0",
+      "name_number": 784,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 39,
+      "printed_devanagari": "मयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ।।",
+      "printed_iast": "mayi sarvamidaṃ protaṃ sūtre maṇigaṇā iva ||",
+      "printed_loci": [
+        "Gītā 7.7"
+      ],
+      "canonical_locus": "Gītā 7.7",
+      "canonical_devanagari": "मयि सर्वम् इदं प्रोतं सूत्रे मणिगणा इव",
+      "canonical_iast": "mayi sarvam idaṃ protaṃ sūtre maṇigaṇā iva",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "7.7",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-789-paragraph-1-span-0",
+      "name_number": 789,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 54,
+      "printed_devanagari": "वेदैश्च सर्वेरहमेव वेद्यो वेदान्तक्रद्वेदविदेव चाहम ।",
+      "printed_iast": "vedaiśca sarverahameva vedyo vedāntakradvedavideva cāhama |",
+      "printed_loci": [
+        "Gītā 15.15"
+      ],
+      "canonical_locus": "Gītā 15.15",
+      "canonical_devanagari": "वेदैश् च सर्वैर् अहम् एव वेद्यो; वेदान्तकृद् वेदविद् एव चाहम्",
+      "canonical_iast": "vedaiś ca sarvair aham eva vedyo; vedāntakṛd vedavid eva cāham",
+      "match_score": 0.9333,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.15",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am the author of all the Vedas; I alone am the knower of the Veda"
+    },
+    {
+      "id": "name-790-paragraph-1-span-0",
+      "name_number": 790,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 81,
+      "printed_devanagari": "सर्वयोनिष कौन्तेय मुर्तयः संभवन्ति याः। तासां ब्रह्म महद्योनिरहं बीजप्रदः पिता ॥",
+      "printed_iast": "sarvayoniṣa kaunteya murtayaḥ saṃbhavanti yāḥ| tāsāṃ brahma mahadyonirahaṃ bījapradaḥ pitā ||",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 14.4",
+      "canonical_devanagari": "सर्वयोनिषु कौन्तेय मूर्तयः संभवन्ति याः तासां ब्रह्म महद् योनिर् अहं बीजप्रदः पिता",
+      "canonical_iast": "sarvayoniṣu kaunteya mūrtayaḥ saṃbhavanti yāḥ tāsāṃ brahma mahad yonir ahaṃ bījapradaḥ pitā",
+      "match_score": 0.975,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 14.4.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "14.4",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-801-paragraph-1-span-0",
+      "name_number": 801,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 113,
+      "printed_devanagari": "आपर्य माणमचलप्रतिष्ठं समद्रमापः प्रविशन्ति यद्वत । तद्वत कामा यं प्रविशन्ति सर्वे स शान्तिमाप्नोति न कामकामी ।।",
+      "printed_iast": "āparya māṇamacalapratiṣṭhaṃ samadramāpaḥ praviśanti yadvata | tadvata kāmā yaṃ praviśanti sarve sa śāntimāpnoti na kāmakāmī ||",
+      "printed_loci": [
+        "Gītā 2.70"
+      ],
+      "canonical_locus": "Gītā 2.70",
+      "canonical_devanagari": "आपूर्यमाणम् अचलप्रतिष्ठं; समुद्रम् आपः प्रविशन्ति यद्वत् तद्वत् कामा यं प्रविशन्ति सर्वे; स शान्तिम् आप्नोति न कामकामी",
+      "canonical_iast": "āpūryamāṇam acalapratiṣṭhaṃ; samudram āpaḥ praviśanti yadvat tadvat kāmā yaṃ praviśanti sarve; sa śāntim āpnoti na kāmakāmī",
+      "match_score": 0.972,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "2.70",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "He attains Peace into whom all desires enter as waters enter the ocean, which filled from all sides, remains unmoved; but not the 'desirer-of-desires'"
+    },
+    {
+      "id": "name-804-paragraph-1-span-0",
+      "name_number": 804,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 19,
+      "printed_devanagari": "मम माया दूरत्यया।",
+      "printed_iast": "mama māyā dūratyayā|",
+      "printed_loci": [
+        "Gītā 7.14"
+      ],
+      "canonical_locus": "Gītā 7.14",
+      "canonical_devanagari": "मम माया दुरत्यया",
+      "canonical_iast": "mama māyā duratyayā",
+      "match_score": 0.9412,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "7.14",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "My māyā (non-apprehension and the consequent misapprehension) is very difficult to cross over"
+    },
+    {
+      "id": "name-816-paragraph-1-span-0",
+      "name_number": 816,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 42,
+      "printed_devanagari": "सर्वतः पाणिपादं तत् सर्वतोऽक्षिशिरोमुखम्।",
+      "printed_iast": "sarvataḥ pāṇipādaṃ tat sarvato'kṣiśiromukham|",
+      "printed_loci": [
+        "Gītā 13.14"
+      ],
+      "canonical_locus": "Gītā 13.13",
+      "canonical_devanagari": "सर्वतःपाणिपादं तत् सर्वतोक्षिशिरोमुखम्",
+      "canonical_iast": "sarvataḥpāṇipādaṃ tat sarvatokṣiśiromukham",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "Printed as Gītā 13.14; the quoted words align with the critical-edition locus Gītā 13.13."
+      ],
+      "analysis_ref": "13.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-817-paragraph-1-span-0",
+      "name_number": 817,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 82,
+      "printed_devanagari": "अनन्यचेताः सततं यो मां स्मरति नित्यशः। तस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः ॥",
+      "printed_iast": "ananyacetāḥ satataṃ yo māṃ smarati nityaśaḥ| tasyāhaṃ sulabhaḥ pārtha nityayuktasya yoginaḥ ||",
+      "printed_loci": [
+        "Gītā 8.14"
+      ],
+      "canonical_locus": "Gītā 8.14",
+      "canonical_devanagari": "अनन्यचेताः सततं यो मां स्मरति नित्यशः तस्याहं सुलभः पार्थ नित्ययुक्तस्य योगिनः",
+      "canonical_iast": "ananyacetāḥ satataṃ yo māṃ smarati nityaśaḥ tasyāhaṃ sulabhaḥ pārtha nityayuktasya yoginaḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "8.14",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am easily attainable by that ever-steadfast Yogi who constantly remembers Me daily, not thinking of anything else, O Partha"
+    },
+    {
+      "id": "name-824-paragraph-2-span-0",
+      "name_number": 824,
+      "paragraph_index": 2,
+      "source_start": 25,
+      "source_end": 47,
+      "printed_devanagari": "अञ्चत्थः सर्ववक्षाणां…",
+      "printed_iast": "añcatthaḥ sarvavakṣāṇāṃ…",
+      "printed_loci": [
+        "Gītā 10.26"
+      ],
+      "canonical_locus": "Gītā 10.26",
+      "canonical_devanagari": "अश्वत्थः सर्ववृक्षाणां",
+      "canonical_iast": "aśvatthaḥ sarvavṛkṣāṇāṃ",
+      "match_score": 0.8636,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.26",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-832-paragraph-1-span-0",
+      "name_number": 832,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 29,
+      "printed_devanagari": "सर्वस्य धातारमचिन्त्यरूपम्।",
+      "printed_iast": "sarvasya dhātāramacintyarūpam|",
+      "printed_loci": [
+        "Gītā 8.9"
+      ],
+      "canonical_locus": "Gītā 8.9",
+      "canonical_devanagari": "सर्वस्य धातारम् अचिन्त्यरूपम्;",
+      "canonical_iast": "sarvasya dhātāram acintyarūpam;",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "8.9",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Nourisher of All"
+    },
+    {
+      "id": "name-835-paragraph-1-span-0",
+      "name_number": 835,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 31,
+      "printed_devanagari": "सर्वस्य चाहं हृदि सन्निविष्ट:।",
+      "printed_iast": "sarvasya cāhaṃ hṛdi sanniviṣṭa:|",
+      "printed_loci": [
+        "Gītā 15.15"
+      ],
+      "canonical_locus": "Gītā 15.15",
+      "canonical_devanagari": "सर्वस्य चाहं हृदि संनिविष्टो;",
+      "canonical_iast": "sarvasya cāhaṃ hṛdi saṃniviṣṭo;",
+      "match_score": 0.9259,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.15",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am seated in the heart of all—as the core or Essence in all"
+    },
+    {
+      "id": "name-848-paragraph-1-span-0",
+      "name_number": 848,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 28,
+      "printed_devanagari": "वेदैश्च सर्वेरहमेव वेद्य:।",
+      "printed_iast": "vedaiśca sarverahameva vedya:|",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 15.15",
+      "canonical_devanagari": "वेदैश् च सर्वैर् अहम् एव वेद्यो;",
+      "canonical_iast": "vedaiś ca sarvair aham eva vedyo;",
+      "match_score": 0.9057,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 15.15.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.15",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-855-paragraph-1-span-0",
+      "name_number": 855,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 43,
+      "printed_devanagari": "छन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्।",
+      "printed_iast": "chandāṃsi yasya parṇāni yastaṃ veda sa vedavit|",
+      "printed_loci": [
+        "Gītā 15.1"
+      ],
+      "canonical_locus": "Gītā 15.1",
+      "canonical_devanagari": "छन्दांसि यस्य पर्णानि यस् तं वेद स वेदवित्",
+      "canonical_iast": "chandāṃsi yasya parṇāni yas taṃ veda sa vedavit",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "15.1",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-859-paragraph-1-span-0",
+      "name_number": 859,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 18,
+      "printed_devanagari": "दण्डो दमयतामस्मि।",
+      "printed_iast": "daṇḍo damayatāmasmi|",
+      "printed_loci": [
+        "Gītā 10.38"
+      ],
+      "canonical_locus": "Gītā 10.38",
+      "canonical_devanagari": "दण्डो दमयताम् अस्मि",
+      "canonical_iast": "daṇḍo damayatām asmi",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.38",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Among punishers I am the Sceptre"
+    },
+    {
+      "id": "name-877-paragraph-1-span-0",
+      "name_number": 877,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 23,
+      "printed_devanagari": "ज्योतिषामि तज्ज्योतिः।",
+      "printed_iast": "jyotiṣāmi tajjyotiḥ|",
+      "printed_loci": [
+        "Gītā 13.18"
+      ],
+      "canonical_locus": "Gītā 13.17",
+      "canonical_devanagari": "ज्योतिषाम् अपि तज् ज्योतिस्",
+      "canonical_iast": "jyotiṣām api taj jyotis",
+      "match_score": 0.8947,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "Printed as Gītā 13.18; the quoted words align with the critical-edition locus Gītā 13.17.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "13.17",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "The Light of all lights"
+    },
+    {
+      "id": "name-892-paragraph-1-span-0",
+      "name_number": 892,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 22,
+      "printed_devanagari": "नानवाप्तमवाप्तव्यम…।",
+      "printed_iast": "nānavāptamavāptavyama…|",
+      "printed_loci": [
+        "Gītā 3.22"
+      ],
+      "canonical_locus": "Gītā 3.22",
+      "canonical_devanagari": "नानवाप्तम् अवाप्तव्यं",
+      "canonical_iast": "nānavāptam avāptavyaṃ",
+      "match_score": 0.9268,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "3.22",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "There is neither anything that I have not gained nor anything I have yet to gain"
+    },
+    {
+      "id": "name-895-paragraph-1-span-0",
+      "name_number": 895,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 55,
+      "printed_devanagari": "आश्चर्यवत्पश्यति कश्चिदेनमाश्चर्यवद्वदति तथैव चान्य: ।",
+      "printed_iast": "āścaryavatpaśyati kaścidenamāścaryavadvadati tathaiva cānya: |",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 2.29",
+      "canonical_devanagari": "आश्चर्यवत् पश्यति कश् चिद् एनम्; आश्चर्यवद् वदति तथैव चान्यः",
+      "canonical_iast": "āścaryavat paśyati kaś cid enam; āścaryavad vadati tathaiva cānyaḥ",
+      "match_score": 0.9912,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 2.29.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "2.29",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-895-paragraph-2-span-0",
+      "name_number": 895,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 58,
+      "printed_devanagari": "आश्चर्यवच्चैनमन्यः शृणोति श्रत्वाप्येनं वेद न चैव कश्चित ।",
+      "printed_iast": "āścaryavaccainamanyaḥ śṛṇoti śratvāpyenaṃ veda na caiva kaścita |",
+      "printed_loci": [
+        "Gītā 2.29"
+      ],
+      "canonical_locus": "Gītā 2.29",
+      "canonical_devanagari": "आश्चर्यवच् चैनम् अन्यः शृणोति; श्रुत्वाप्य् एनं वेद न चैव कश् चित्",
+      "canonical_iast": "āścaryavac cainam anyaḥ śṛṇoti; śrutvāpy enaṃ veda na caiva kaś cit",
+      "match_score": 0.9735,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "2.29",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-898-paragraph-1-span-0",
+      "name_number": 898,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 24,
+      "printed_devanagari": "सिद्धानां कपिलो मुनिः।",
+      "printed_iast": "siddhānāṃ kapilo muniḥ|",
+      "printed_loci": [
+        "Gītā 10.26"
+      ],
+      "canonical_locus": "Gītā 10.26",
+      "canonical_devanagari": "सिद्धानां कपिलो मुनिः",
+      "canonical_iast": "siddhānāṃ kapilo muniḥ",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "10.26",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "I am Kapila among the great ones"
+    },
+    {
+      "id": "name-914-paragraph-1-span-0",
+      "name_number": 914,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 87,
+      "printed_devanagari": "या निशा सर्वभूतानां तस्यां जागति संयमी । यस्यां जाग्रति भतानि सा निशा पश्यतो मुने: ॥",
+      "printed_iast": "yā niśā sarvabhūtānāṃ tasyāṃ jāgati saṃyamī | yasyāṃ jāgrati bhatāni sā niśā paśyato mune: ||",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 2.69",
+      "canonical_devanagari": "या निशा सर्वभूतानां तस्यां जागर्ति संयमी यस्यां जाग्रति भूतानि सा निशा पश्यतो मुनेः",
+      "canonical_iast": "yā niśā sarvabhūtānāṃ tasyāṃ jāgarti saṃyamī yasyāṃ jāgrati bhūtāni sā niśā paśyato muneḥ",
+      "match_score": 0.9737,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 2.69.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "2.69",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-915-paragraph-2-span-0",
+      "name_number": 915,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 79,
+      "printed_devanagari": "यद्यद्विभृतिमत्सत्त्वं श्रीमद्जितमेव वा । तत्तदेवावगच्छ त्वं मम तेजोऽशसंभवम ।।",
+      "printed_iast": "yadyadvibhṛtimatsattvaṃ śrīmadjitameva vā | tattadevāvagaccha tvaṃ mama tejo'śasaṃbhavama ||",
+      "printed_loci": [
+        "Gītā 10.41"
+      ],
+      "canonical_locus": "Gītā 10.41",
+      "canonical_devanagari": "यद् यद् विभूतिमत् सत्त्वं श्रीमद् ऊर्जितम् एव वा तत् तद् एवावगच्छ त्वं मम तेजोंशसंभवम्",
+      "canonical_iast": "yad yad vibhūtimat sattvaṃ śrīmad ūrjitam eva vā tat tad evāvagaccha tvaṃ mama tejoṃśasaṃbhavam",
+      "match_score": 0.963,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "10.41",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Wherever, there is any special glory in anyone. know that to be a manifestation of a part of my Splendour"
+    },
+    {
+      "id": "name-928-paragraph-1-span-0",
+      "name_number": 928,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 80,
+      "printed_devanagari": "परित्राणाय साधनां विनाशाय च दृष्कृताम् । धर्मसंस्थापनार्थाय संभवामि युगे युगे ॥",
+      "printed_iast": "paritrāṇāya sādhanāṃ vināśāya ca dṛṣkṛtām | dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge ||",
+      "printed_loci": [
+        "Gītā 4.8"
+      ],
+      "canonical_locus": "Gītā 4.8",
+      "canonical_devanagari": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् धर्मसंस्थापनार्थाय संभवामि युगे युगे",
+      "canonical_iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām dharmasaṃsthāpanārthāya saṃbhavāmi yuge yuge",
+      "match_score": 0.9744,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "4.8",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "For the protection of the good, the destruction of the wicked and the establishment of righteousness, He takes different Incarnations"
+    },
+    {
+      "id": "name-930-paragraph-1-span-0",
+      "name_number": 930,
+      "paragraph_index": 1,
+      "source_start": 2,
+      "source_end": 82,
+      "printed_devanagari": "गामाविश्य च भूतानि धारयाम्यहमोजसा । पष्णामि चौषधी: सर्वाः सोमो भृत्वा रसात्मकः ॥",
+      "printed_iast": "gāmāviśya ca bhūtāni dhārayāmyahamojasā | paṣṇāmi cauṣadhī: sarvāḥ somo bhṛtvā rasātmakaḥ ||",
+      "printed_loci": [
+        "Gītā 15.13"
+      ],
+      "canonical_locus": "Gītā 15.13",
+      "canonical_devanagari": "गाम् आविश्य च भूतानि धारयाम्य् अहम् ओजसा पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः",
+      "canonical_iast": "gām āviśya ca bhūtāni dhārayāmy aham ojasā puṣṇāmi cauṣadhīḥ sarvāḥ somo bhūtvā rasātmakaḥ",
+      "match_score": 0.9677,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "15.13",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Permeating the earth I support all beings by (My) energy; and having become the juicy Moon I nourish all herbs"
+    },
+    {
+      "id": "name-946-paragraph-1-span-0",
+      "name_number": 946,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 25,
+      "printed_devanagari": "पितासि लोकस्य चराचरस्य…।",
+      "printed_iast": "pitāsi lokasya carācarasya…|",
+      "printed_loci": [
+        "Gītā 11.43"
+      ],
+      "canonical_locus": "Gītā 11.43",
+      "canonical_devanagari": "पितासि लोकस्य चराचरस्य;",
+      "canonical_iast": "pitāsi lokasya carācarasya;",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "11.43",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Thou art the Father of the world, movable and immovable"
+    },
+    {
+      "id": "name-948-paragraph-1-span-0",
+      "name_number": 948,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 61,
+      "printed_devanagari": "दृष्ट्वाद्भुतं रूपमुग्रं तवेदं लोकत्रयं प्रव्यथितं महात्मन्।",
+      "printed_iast": "dṛṣṭvādbhutaṃ rūpamugraṃ tavedaṃ lokatrayaṃ pravyathitaṃ mahātman|",
+      "printed_loci": [
+        "Gītā 11.20"
+      ],
+      "canonical_locus": "Gītā 11.20",
+      "canonical_devanagari": "दृष्ट्वाद्भुतं रूपम् इदं तवोग्रं; लोकत्रयं प्रव्यथितं महात्मन्",
+      "canonical_iast": "dṛṣṭvādbhutaṃ rūpam idaṃ tavograṃ; lokatrayaṃ pravyathitaṃ mahātman",
+      "match_score": 0.9167,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "11.20",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Oh, Glorious Sir, seeing your wonderful but awesome form, the whole world is shuddering with fear"
+    },
+    {
+      "id": "name-948-paragraph-2-span-0",
+      "name_number": 948,
+      "paragraph_index": 2,
+      "source_start": 1,
+      "source_end": 111,
+      "printed_devanagari": "रूपं महत्ते बहुवक्त्रनेत्रं महाबाहो बहुबाहूरुपादम्; बहूदरं बहुदंष्ट्राकरालं दृष्ट्वा लोकाः प्रव्यथितास्तथाहम्।",
+      "printed_iast": "rūpaṃ mahatte bahuvaktranetraṃ mahābāho bahubāhūrupādam; bahūdaraṃ bahudaṃṣṭrākarālaṃ dṛṣṭvā lokāḥ pravyathitāstathāham|",
+      "printed_loci": [
+        "Gītā 11.23"
+      ],
+      "canonical_locus": "Gītā 11.23",
+      "canonical_devanagari": "रूपं महत् ते बहुवक्त्रनेत्रं; महाबाहो बहुबाहूरुपादम् बहूदरं बहुदंष्ट्राकरालं; दृष्ट्वा लोकाः प्रव्यथितास् तथाहम्",
+      "canonical_iast": "rūpaṃ mahat te bahuvaktranetraṃ; mahābāho bahubāhūrupādam bahūdaraṃ bahudaṃṣṭrākarālaṃ; dṛṣṭvā lokāḥ pravyathitās tathāham",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "11.23",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "Having seen Thy Immeasurable Form… the worlds are terrified, and so am I"
+    },
+    {
+      "id": "name-948-paragraph-3-span-0",
+      "name_number": 948,
+      "paragraph_index": 3,
+      "source_start": 1,
+      "source_end": 125,
+      "printed_devanagari": "नभःस्पृशं दीप्तमनेकवर्णं व्यात्ताननं दीप्तविशालनेत्रम्; दृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा धृतिं न विन्दामि शमं च विष्णो।",
+      "printed_iast": "nabhaḥspṛśaṃ dīptamanekavarṇaṃ vyāttānanaṃ dīptaviśālanetram; dṛṣṭvā hi tvāṃ pravyathitāntarātmā dhṛtiṃ na vindāmi śamaṃ ca viṣṇo|",
+      "printed_loci": [
+        "Gītā 11.24"
+      ],
+      "canonical_locus": "Gītā 11.24",
+      "canonical_devanagari": "नभःस्पृशं दीप्तम् अनेकवर्णं; व्यात्ताननं दीप्तविशालनेत्रम् दृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा; धृतिं न विन्दामि शमं च विष्णो",
+      "canonical_iast": "nabhaḥspṛśaṃ dīptam anekavarṇaṃ; vyāttānanaṃ dīptaviśālanetram dṛṣṭvā hi tvāṃ pravyathitāntarātmā; dhṛtiṃ na vindāmi śamaṃ ca viṣṇo",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "11.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "On seeing Thee touching the sky… my heart is stricken with dread and I find no courage nor peace, O Viṣṇu"
+    },
+    {
+      "id": "name-955-paragraph-1-span-0",
+      "name_number": 955,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 38,
+      "printed_devanagari": "यद्यदाचरित श्रेष्ठस्तत्तदेवेतरो जन: ।",
+      "printed_iast": "yadyadācarita śreṣṭhastattadevetaro jana: |",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 3.21",
+      "canonical_devanagari": "यद् यद् आचरति श्रेष्ठस् तत् तद् एवेतरो जनः",
+      "canonical_iast": "yad yad ācarati śreṣṭhas tat tad evetaro janaḥ",
+      "match_score": 0.9351,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 3.21.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "3.21",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    },
+    {
+      "id": "name-966-paragraph-1-span-0",
+      "name_number": 966,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 110,
+      "printed_devanagari": "न जायते म्रियते वा कदाचित् नायं भूत्वा भविता वा न भूयः। अजो नित्यः शाश्वतोऽयं पुराणो न हन्यते हन्यमाने शरीरे।",
+      "printed_iast": "na jāyate mriyate vā kadācit nāyaṃ bhūtvā bhavitā vā na bhūyaḥ| ajo nityaḥ śāśvato'yaṃ purāṇo na hanyate hanyamāne śarīre|",
+      "printed_loci": [
+        "Gītā 2.20"
+      ],
+      "canonical_locus": "Gītā 2.20",
+      "canonical_devanagari": "न जायते म्रियते वा कदा चिन्; नायं भूत्वा भविता वा न भूयः अजो नित्यः शाश्वतो ऽयं पुराणो; न हन्यते हन्यमाने शरीरे",
+      "canonical_iast": "na jāyate mriyate vā kadā cin; nāyaṃ bhūtvā bhavitā vā na bhūyaḥ ajo nityaḥ śāśvato 'yaṃ purāṇo; na hanyate hanyamāne śarīre",
+      "match_score": 0.9901,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "2.20",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "He is not born, nor does He ever die; after having been He again ceases not to be; unborn, eternal, changeless and ancient he is not killed when the body is killed"
+    },
+    {
+      "id": "name-972-paragraph-1-span-0",
+      "name_number": 972,
+      "paragraph_index": 1,
+      "source_start": 1,
+      "source_end": 41,
+      "printed_devanagari": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च।",
+      "printed_iast": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhureva ca|",
+      "printed_loci": [
+        "Gītā 9.24"
+      ],
+      "canonical_locus": "Gītā 9.24",
+      "canonical_devanagari": "अहं हि सर्वयज्ञानां भोक्ता च प्रभुर् एव च",
+      "canonical_iast": "ahaṃ hi sarvayajñānāṃ bhoktā ca prabhur eva ca",
+      "match_score": 1.0,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [],
+      "analysis_ref": "9.24",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": "The 'Enjoyer' and the 'Lord' in all yajñas am I"
+    },
+    {
+      "id": "name-977-paragraph-2-span-0",
+      "name_number": 977,
+      "paragraph_index": 2,
+      "source_start": 0,
+      "source_end": 40,
+      "printed_devanagari": "अनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधक ॥",
+      "printed_iast": "anena prasaviṣyadhvameṣa vo'stviṣṭakāmadhaka ||",
+      "printed_loci": [],
+      "canonical_locus": "Gītā 3.10",
+      "canonical_devanagari": "अनेन प्रसविष्यध्वम् एष वो ऽस्त्व् इष्टकामधुक्",
+      "canonical_iast": "anena prasaviṣyadhvam eṣa vo 'stv iṣṭakāmadhuk",
+      "match_score": 0.963,
+      "match_basis": "critical-witness-fuzzy-replay",
+      "textual_notes": [
+        "The printed entry gives no exact Gītā locus; the quoted words align with the critical-edition locus Gītā 3.10.",
+        "The source-script line is normalized from the printed/OCR reading against the local critical witness; the printed form remains recorded in this quote entry."
+      ],
+      "analysis_ref": "3.10",
+      "analysis_status": "linked-reviewed-corpus",
+      "chinmayananda_translation": null
+    }
+  ]
+}

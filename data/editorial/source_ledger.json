@@ -148,6 +148,63 @@
       "notes": "The short downloaded witness is suitable for source review. Verify each public locus against the documented source before using it to substantiate editorial claims."
     },
     {
+      "id": "panini-astadhyayi-kasika-gretil",
+      "title_iast": "Aṣṭādhyāyī (sūtrapāṭha extracted from the Kāśikāvṛtti witness)",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/grammar/panini_astadhyayi_gretil.txt",
+      "witness": "GRETIL plaintext transformation of the Pāṇini sūtrapāṭha extracted from Vāmana and Jayāditya's Kāśikāvṛtti, based on Aryendra Sharma's Hyderabad edition (1969–1985), entered by Mari Minamino; SHA-256 d0f1d78a29dd6cc93161a7874488e5fc651495b770f8f48e929be25fa59c409d.",
+      "rights_status": "CC-BY-NC-SA-4.0",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://panini/astadhyayi/"
+      ],
+      "review_areas": [
+        "paninian-grammar",
+        "sanskrit-reader",
+        "bhagavadgita",
+        "vishnu-sahasranama"
+      ],
+      "notes": "This is the primary sūtra-numbering witness for source-derived word analyses. A cited number must be replayed against the Sanskrit sūtra here; an emitted parser trace is not a substitute."
+    },
+    {
+      "id": "patanjali-vyakarana-mahabhasya-gretil",
+      "title_iast": "Vyākaraṇamahābhāṣya",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/grammar/patanjali_mahabhasya_gretil.txt",
+      "witness": "GRETIL plaintext of Patañjali's Vyākaraṇamahābhāṣya, entered by George Cardona from Franz Kielhorn's edition (Bombay, 1880–1885) as revised by K. V. Abhyankar (Poona, 1972–1996); SHA-256 6217c4e1d44fba0c3e5882ad1be025bc7adea937514b74040e2676c7ba6f3acb.",
+      "rights_status": "CC-BY-NC-SA-4.0",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://patanjali/vyakarana-mahabhasya/"
+      ],
+      "review_areas": [
+        "paninian-grammar",
+        "sanskrit-reader",
+        "bhagavadgita",
+        "vishnu-sahasranama"
+      ],
+      "notes": "Use the text to adjudicate Pāṇinian interpretation where the bare sūtra does not settle the analysis. Record the Kielhorn/Abhyankar or Pāṇini-discussion locus actually consulted."
+    },
+    {
+      "id": "bhagavadgita-bori-critical-mula",
+      "title_iast": "Bhagavadgītā mūla (BORI critical edition)",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+      "witness": "BORI critical-edition Bhagavadgītā text entered by Muneo Tokunaga et al., revised by John Smith, and distributed through the GRETIL revised electronic witness; the repository preserves its Bhg_CC.VV hemistich loci.",
+      "rights_status": "public-reference-witness-with-source-terms-recorded-in-file",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://vyasa/bhagavadgita/"
+      ],
+      "review_areas": [
+        "bhagavadgita",
+        "vishnu-sahasranama",
+        "sanskrit-reader",
+        "textual-variants"
+      ],
+      "notes": "This is the canonical comparison witness for embedded Gītā quotations in the Chinmayananda reader. Printed verse numbers and readings remain visible; a mismatch is recorded as a textual note rather than silently attributed to the critical edition."
+    },
+    {
       "id": "vyasa-vishnu-sahasranama-bori-critical-excerpt",
       "title_iast": "Viṣṇusahasranāma (Mahābhārata, Anuśāsanaparvan 13.135.14–120)",
       "source_level": "primary",
@@ -168,10 +225,10 @@
     },
     {
       "id": "vishnu-sahasranama-name-paninian-analysis",
-      "title_iast": "Viṣṇusahasranāma names: word-by-word Pāṇinian analysis",
+      "title_iast": "Viṣṇusahasranāma names: reviewed word-analysis corpus",
       "source_level": "secondary",
       "source_path": "gita/vishnu-sahasranama/analysis.json",
-      "witness": "Site-authored closed analysis corpus for the exact 1,000-name population, joined to the pinned received text and BORI witness; morphology checked with Vidyut, lexical senses checked with Monier-Williams, and contextually reviewed against Chinmayananda's commentary.",
+      "witness": "Site-authored analysis for the exact 1,000-name population, joined to the pinned received text and Chinmayananda entry. The completed review removed context-free dictionary debris and checked every recorded verbal root against the shared Prakriya Sanskrit-source library's Dhātupāṭha; the interpreter was not used.",
       "rights_status": "site-authored-analysis-of-public-working-witness",
       "citation_status": "working-witness",
       "stable_cite_prefixes": [
@@ -183,7 +240,7 @@
         "paninian-grammar",
         "advaita"
       ],
-      "notes": "Every name must retain a direct translation distinct from commentary prose. The validator rejects extraction language in the Simple meaning layer and requires explicit uncertainty in the word card where a traditional derivation is disputed."
+      "notes": "Closed-population gates cover all 1,000 names, citation-form replay, complete parts, zero unresolved/context-free gloss flags, and Dhātupāṭha replay for every recorded root. Simplified summaries remain separately identified as site-generated and are not used as proof of Chinmayananda's wording."
     },
     {
       "id": "vishnu-sahasranama-sanjeev-abhyankar-performance-preface",
@@ -206,10 +263,10 @@
     },
     {
       "id": "vishnu-sahasranama-preface-paninian-analysis",
-      "title_iast": "Viṣṇusahasranāma performed preface: word-by-word Pāṇinian analysis",
+      "title_iast": "Viṣṇusahasranāma performed preface: reviewed word-analysis corpus",
       "source_level": "secondary",
       "source_path": "gita/vishnu-sahasranama/preface-analysis.json",
-      "witness": "Site-authored closed analysis corpus for all 45 performed opening units and two recorded closing units, grounded in the pinned received witness, with pada segmentation checked against the Vedapedia word divisions, morphology checked with Vidyut 0.4.0, lexical senses checked with Monier-Williams, and manual contextual adjudication of every compound and ambiguous form.",
+      "witness": "Site-authored analysis for all 45 performed opening units and two recorded closing units, joined to the pinned received witness. All 408 word records and 85 root-bearing records were re-audited against the shared Prakriya Sanskrit-source library; the interpreter was not used.",
       "rights_status": "site-authored-analysis-of-public-working-witness",
       "citation_status": "working-witness",
       "stable_cite_prefixes": [
@@ -221,7 +278,7 @@
         "paninian-grammar",
         "audio"
       ],
-      "notes": "The builder requires the exact 47 analyzed units, contiguous word indices, 100% English slot coverage, complete morpheme translations, reviewed samāsa classification, and exact source replay after sandhi alignment. Genuine textual uncertainty is stated in the relevant word note rather than silently normalized."
+      "notes": "The builder requires the exact 47-unit sequence, contiguous word indices, complete English slots, source replay, and primary-source review metadata. The shared source manifest and exact Dhātupāṭha loci are recorded in the analysis artifact."
     },
     {
       "id": "vishnu-sahasranama-abhyankar-unit-timings",
@@ -240,6 +297,27 @@
         "sanskrit-reader"
       ],
       "notes": "Status is start-only-reviewed. Timings support unit highlighting, play-from-here controls, and Bhakti-style follow mode; they do not claim word-level synchronization."
+    },
+    {
+      "id": "chinmayananda-sahasranama-gita-quote-analysis",
+      "title_iast": "Thousand Ways to the Transcendental: reviewed embedded-Gītā word analysis",
+      "source_level": "secondary",
+      "source_path": "gita/vishnu-sahasranama/commentary-quote-analysis.json",
+      "witness": "Reviewed analysis for all 142 identified Gītā fragments in Chinmayananda's commentary. Printed wording and loci are preserved against the authorized scan, the Sanskrit is reconciled with the local BORI witness, 215 unresolved morpheme glosses were repaired, and all 193 root occurrences were checked against the shared Prakriya Sanskrit-source library's Dhātupāṭha; the interpreter was not used.",
+      "rights_status": "site-authored-analysis-of-authorized-and-cc-by-working-witnesses",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://chinmayananda/thousand-ways-to-the-transcendental/gita-quote/"
+      ],
+      "review_areas": [
+        "chinmayananda",
+        "vishnu-sahasranama",
+        "bhagavadgita",
+        "sanskrit-reader",
+        "paninian-grammar",
+        "textual-variants"
+      ],
+      "notes": "The public block order is Devanāgarī, interactive IAST, then Chinmayananda's exact translation when he supplies one. The packet covers 1,222 word instances and records direct source-library review; generated English is not substituted for his translation."
     },
     {
       "id": "chinmayananda-thousand-ways-preface-authorized-reader",
@@ -279,7 +357,7 @@
         "advaita",
         "sanskrit-reader"
       ],
-      "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. Chinmayananda's scan-backed opening and full commentary remain attributed source prose in Full mode. The separate simple_meaning field is a reviewed direct translation layer: it may use his operative interpretation but never labels his controversy, cross-reference, or lexical discussion as the name's meaning. Scan-checked preface engagement is stored separately in gita/vishnu-sahasranama/preface-commentary.json. A second OCR of the same edition (SHA-256 8e87779ac1ac0555c9b12b62e895c2338bc8e6c5cf2e0cc82b9f9d69557f36a4) is comparison-only and not authoritative."
+      "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. Chinmayananda's scan-backed opening and full commentary remain attributed source prose in Full mode. The separate simple_meaning field is a site-generated or site-selected concise reading derived from that commentary and is explicitly not credited as Chinmayananda's translation or quotation; replayable source excerpts are retained separately as review evidence. Scan-checked preface engagement is stored separately in gita/vishnu-sahasranama/preface-commentary.json. The improved TXT OCR (SHA-256 8e87779ac1ac0555c9b12b62e895c2338bc8e6c5cf2e0cc82b9f9d69557f36a4) is comparison-only: it exposed useful readings but also truncated names 742 and 817, so no reading is promoted without page-image or independent-witness confirmation."
     }
   ]
 }

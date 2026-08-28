@@ -20,14 +20,57 @@ TRANSCRIPTION = ROOT / "gita/vishnu-sahasranama/chinmayananda.json"
 ANALYSIS = ROOT / "gita/vishnu-sahasranama/analysis.json"
 
 SCAN_PAGE_OVERRIDES = {
-    48: [33], 75: [40, 41], 129: [53, 54], 199: [71],
-    430: [126, 127], 531: [146, 147], 679: [177, 178],
+    48: [33], 75: [41], 129: [53, 54], 199: [71],
+    430: [126, 127], 531: [146, 147], 673: [175, 176], 679: [177, 178],
     770: [198, 199], 793: [206, 207],
 }
 
 # Exact scan-confirmed repairs for characters introduced by OCR script
 # confusion.  These strings were checked on the named scan pages.
 ENTRY_REPAIRS = {
+    14: {
+        "पुरि शेते इति पुरुष:": "पुरि शेते इति पुरुषः",
+        "प्रा आसीत् इति प्रव:": "पुरा आसीत् इति पुरुषः",
+        "परयति इति पुरुष:": "पूरयति इति पुरुषः",
+    },
+    27: {"स ब्रह्म स: शिव:": "स ब्रह्म सः शिवः"},
+    36: {"ईष्टे इति ईश्वर:": "ईष्टे इति ईश्वरः"},
+    59: {"तर्द हिसायां": "तर्द हिंसायाम्"},
+    62: {"(पनि)": "(पवि)"},
+    100: {"यस्मान्न च्यतपूर्वोऽहं अच्यतस्तेन कर्मणा": "यस्मान्न च्युतपूर्वोऽहमच्युतस्तेन कर्मणा"},
+    106: {"सत्स साथ: सत्य:": "सत्सु साधुः सत्यम्"},
+    107: {"एको वशी सर्वभूतान्तरात्मा एक बहुधा यः करोति तमात्मस्थं यऽनुपत्रयन्ति धीरास्तेषां सूखं…": "एको वशी सर्वभूतान्तरात्मा एकं रूपं बहुधा यः करोति । तमात्मस्थं येऽनुपश्यन्ति धीरास्तेषां सुखं शाश्वतं नेतरेषाम् ॥"},
+    117: {"विश्वस्य योनि: विश्वयोनि:": "विश्वस्य योनिः विश्वयोनिः"},
+    127: {"सर्वे वेदा: सर्वेविद्या: संशास्त्राः सर्वयज्ञाः सर्वज्ञञ्च कृष्णः": "सर्वे वेदाः सर्वविद्याः सर्वशास्त्राः सर्वयज्ञाः सर्वज्ञश्च कृष्णः"},
+    130: {"वेदाः सर्वाङ्गानि…": "वेदाः सर्वाङ्गानि"},
+    132: {"कविर्मनीषी परिभः स्वयंभूः": "कविर्मनीषी परिभूः स्वयंभूः"},
+    148: {"सत्यमेव जयते नानतं": "सत्यमेव जयते नानृतम्"},
+    150: {"वसति इति वस:": "वसति इति वसुः"},
+    175: {"(शिक्त)": "(शक्ति)", "(किया-काम-ज्ञान)": "(क्रिया-काम-ज्ञान)"},
+    177: {"(वव्)": "(वपुः)"},
+    181: {"(शार्ड)": "(शार्ङ्ग)"},
+    182: {"(बराह)": "(वराह)"},
+    186: {"आनन्दं ब्रह्मोति व्यजानात्": "आनन्दं ब्रह्मेति व्यजानात्"},
+    195: {"स तपः तप्तवा इदमेतदस्जत्": "स तपोऽतप्यत । स तपस्तप्त्वा इदं सर्वमसृजत"},
+    213: {"सत्यमेव जयते न अनुतं": "सत्यमेव जयते नानृतम्"},
+    215: {"इन्ट: दन्टे: अविपरिलोपात पश्यन्नेव भवति": "द्रष्टुर्दृष्टेरविपरिलोपात् पश्यन्नेव भवति"},
+    227: {"सहस्रशीर्षा पृरुष: सहस्राक्ष: सहस्रपात्": "सहस्रशीर्षा पुरुषः सहस्राक्षः सहस्रपात्"},
+    241: {"सतकरोति इति सत्कर्ता": "सत्करोति इति सत्कर्ता"},
+    243: {"साधयति इति साध:": "साधयति इति साधुः"},
+    258: {"क्रमणात चाप्यहं पार्थ विष्णरित्यभिसंज्ञित:।": "क्रमणाच्चाप्यहं पार्थ विष्णुरित्यभिसंज्ञितः।", "इदं विष्ण: विचक्रमे": "इदं विष्णुर्विचक्रमे"},
+    270: {"यस्त् सर्वाणि भृतानि आत्मन्येवानुपश्यति । सर्वभृतेषु चात्मानं ततो न विज्गुप्सते ।।": "यस्तु सर्वाणि भूतान्यात्मन्येवानुपश्यति । सर्वभूतेषु चात्मानं ततो न विजुगुप्सते ॥"},
+    271: {"जलं विष्णु: स्थलं विष्णु: विष्णुराकाशमुच्यते । स्थावरं जंगमं विष्णुः सर्वं विष्णुमयं जगत्।।": "जलं विष्णुः स्थलं विष्णुर्विष्णुराकाशमुच्यते । स्थावरं जङ्गमं विष्णुः सर्वं विष्णुमयं जगत् ॥"},
+    280: {"मननात त्रायते इति मंत्र:": "मननात् त्रायते इति मन्त्रः"},
+    312: {"(ईव्वर:)": "(ईश्वरः)"},
+    386: {"(प्रलय:)": "(प्रलयः)"},
+    455: {"अभयं सर्वभूतेभ्यो ददाम्येतत् व्रतं मम": "अभयं सर्वभूतेभ्यो ददाम्येतद् व्रतं मम"},
+    464: {"(भदार:)": "(भूदारः)"},
+    547: {"(स्रष्टा)": "(स्रष्टा)", "(प्रजापति:)": "(प्रजापतिः)"},
+    539: {"गोभिरेव यतो वेद्यो गोविन्द: समुदाहृत: ।": "गोभिरेव यतो वेद्यो गोविन्दः समुदाहृतः ।"},
+    627: {"(स्थिर:)": "(स्थिरः)", "(शाइवत:)": "(शाश्वतः)"},
+    831: {"(अघ:)": "(अघः)"},
+    846: {"( वर्ष )": "( वर्ध् )"},
+    900: {"(अव्यय:)": "(अव्ययः)"},
     311: {" গিৰত্ত ": " शिखण्ड "},
     313: {"Ishtalı": "Iṣṭaḥ"},
     389: {"† † Ŋ:": "††"},
@@ -63,7 +106,7 @@ SIMPLE_MEANING_OVERRIDES = {
     47: "The lord of the senses",
     50: "The maker of the universe and all experience",
     51: "The reflective thinker who contemplates the highest",
-    53: "The greatest and most substantial",
+    53: "The supremely gross—the whole universe as Viṣṇu's form",
     55: "The ungraspable subject, never an object of perception",
     57: "The dark-hued one",
     59: "The supreme destroyer",
@@ -75,20 +118,20 @@ SIMPLE_MEANING_OVERRIDES = {
     82: "The knower of all deeds",
     85: "The lord of the gods",
     88: "The seed from which the universe arises",
-    91: "Time itself, the source of the year",
+    91: "The Lord of Time, from whom the concept of time arises",
     94: "The all-seeing one",
     99: "The beginning of all",
     100: "The unfallen and ever-pure one",
     101: "The Boar who raises the world from adharma to dharma",
     103: "The one free from every bond and attachment",
     105: "The one whose mind is supremely pure",
-    108: "The acceptable one, equal to all",
+    108: "The acceptable one",
     110: "The unfailing one whose acts are never futile",
     111: "The one realized in the lotus of the heart",
     112: "The one whose actions are dharma",
     123: "The all-pervading one who has gone everywhere",
     125: "The one before whom hostile armies scatter",
-    126: "The one who brings both discipline and joy to beings",
+    126: "The one who brings sorrow to the vicious and joy to the good",
     127: "The Veda; knowledge itself",
     131: "The knower and contemplator of the Veda",
     132: "The seer",
@@ -110,9 +153,9 @@ SIMPLE_MEANING_OVERRIDES = {
     173: "The one of great intelligence",
     178: "The possessor of glory",
     181: "The wielder of the great bow Śārṅga",
-    187: "The protector of cows and restorer of the earth",
+    187: "The supporter of all and protector of the cows",
     189: "The ray of light in all that shines",
-    191: "The divine swan expressing the identity of self and Brahman",
+    191: "The Self realized as 'I am He'",
     192: "The beautiful-winged one",
     193: "The greatest serpent, Ananta",
     207: "The self celebrated throughout the Vedas",
@@ -123,15 +166,15 @@ SIMPLE_MEANING_OVERRIDES = {
     216: "The wearer of an unfading garland",
     217: "The lord of speech, endowed with generous intelligence",
     220: "The radiant possessor of splendor",
-    221: "Justice and right reasoning",
+    221: "Justice and the reasoning that leads to scriptural truth",
     226: "The thousand-eyed cosmic form",
-    234: "The wind, needing no impulse from another",
+    234: "Air; the beginningless, all-pervading enjoyer",
     242: "The one honored and worshiped by the good",
     245: "The resting place of all beings",
     247: "The one beyond all counting",
     248: "The one whose self cannot be measured by any proof",
     253: "The one whose resolve is always fulfilled",
-    256: "The one whose days are devoted to dharma",
+    256: "The controller of actions and dispenser of their results",
     257: "The embodiment of dharma who showers desired fruits",
     259: "The ladder whose steps are dharma",
     260: "The one whose depths contain the source of creation",
@@ -142,13 +185,13 @@ SIMPLE_MEANING_OVERRIDES = {
     283: "The source of the nectar-rayed moon",
     285: "The moon marked like a hare",
     286: "The lord of the shining gods",
-    288: "The bridge across the world's waters",
-    292: "The purifier who fills the universe as wind",
+    288: "The bridge by which one crosses egocentric imperfection to Infinite Perfection",
+    292: "The one who gives air its life-sustaining and purifying power",
     293: "The sacred fire",
     279: "The one whose imperishable syllable is clear",
     300: "The creator of the ages",
     301: "The one who turns the wheel of the ages",
-    303: "The great devourer who consumes all at dissolution",
+    303: "The consumer into whom perceptions, emotions, and thoughts are swallowed in samādhi",
     304: "The one unseen by senses, mind, or intellect",
     308: "The beloved one",
     311: "The wearer of the peacock plume",
@@ -157,7 +200,7 @@ SIMPLE_MEANING_OVERRIDES = {
     323: "The ocean, treasury of the waters",
     325: "The unerring one who is never careless",
     320: "The life manifest in every living being",
-    327: "Skanda, commander of the righteous host",
+    327: "The Lord whose glory is expressed through Skanda, commander of the righteous host",
     333: "The vast light whose rays illumine sun and moon",
     334: "The first of the gods",
     338: "The savior from the fear of rebirth",
@@ -169,7 +212,7 @@ SIMPLE_MEANING_OVERRIDES = {
     358: "The knower of every philosophy and the right time for every act",
     360: "The one indicated by every valid mark and method of knowledge",
     363: "The imperishable one",
-    364: "The red-hued Fish incarnation",
+    364: "The Fish incarnation",
     367: "The one known through self-control and a purified mind",
     383: "The one hidden in the cave of the heart",
     391: "The ever-contented one",
@@ -204,10 +247,10 @@ SIMPLE_MEANING_OVERRIDES = {
     650: "The destroyer who removes sorrow and sin",
     662: "The one who brings forth and lives in sacred knowledge",
     667: "The knower of Brahman who sees unity beneath plurality",
-    691: "The teacher who opens the sacred fords of knowledge",
+    691: "The ancient teacher of all vidyās and tantras",
     694: "The giver of liberation",
     707: "The one attended by the righteous people of the Yamunā",
-    713: "The one who grants dignity to the righteous",
+    713: "The one who gives the righteous a pride that protects their virtue",
     715: "The one difficult to hold in contemplation",
     718: "The great cosmic form supporting creation",
     721: "The one of many forms and incarnations",
@@ -215,17 +258,17 @@ SIMPLE_MEANING_OVERRIDES = {
     737: "The golden-coloured one",
     758: "The bearer of radiance",
     763: "The many-horned one",
-    809: "The one lovely as the white jasmine flower",
+    809: "The one lovely as the kunda flower",
     813: "The one whose aspiration is immortality",
     824: "The tree of life",
     817: "The one readily attained through true devotion",
     849: "The supreme yogī, realized through yoga",
-    858: "The revealer of the science of archery",
+    858: "The revealer of archery and the unfailing technique of Oṃ-meditation",
     864: "The supreme controller, controlled by none",
     875: "The one who increases love and joy",
     876: "The one whose path is the sky",
     878: "The one of beautiful radiance and auspicious will",
-    883: "The sun, source of all brilliance",
+    883: "The sun that nurtures and nourishes all living creatures",
     902: "The maker and remover of auspicious conditions",
     907: "The wearer of makara earrings",
     908: "The bearer of the discus Sudarśana",
@@ -235,7 +278,7 @@ SIMPLE_MEANING_OVERRIDES = {
     917: "The prompt and capable one",
     924: "The destroyer of evil deeds",
     929: "The one present as the good and saintly",
-    945: "The wearer of radiant armlets",
+    945: "The wearer of resplendent shoulder-caps",
     954: "The exalted one",
     951: "The unsurpassed supreme controller",
     964: "The knower of reality as it truly is",
@@ -259,6 +302,103 @@ SIMPLE_META = re.compile(
     r"comparative|appellation|purāṇ|puran|iti)\b|=",
     re.I,
 )
+
+# The former Simple layer used concise editorial paraphrases for these names.
+# They were faithful in intent, but the UI called them "direct" even when the
+# exact wording was not Chinmayananda's.  These excerpts select his own words
+# when the automatic sentence matcher would otherwise choose a nearby example,
+# citation, or secondary interpretation.  Punctuation may be regularized by
+# ``normalize_simple_excerpt``; the lexical wording must replay the commentary.
+SIMPLE_EXCERPT_OVERRIDES = {
+    13: "The Indestructible, and therefore, changeless",
+    24: "This Transcendental Truth is indicated by the term the Supreme puruṣa (Purushottama).",
+    39: "The Truth (puruṣa) that glows with a golden splendour in the solar orb is called ādityaḥ.",
+    45: "Of the endless varieties of dhātus available in existence, the subtlest dhātu. without which no existence, is ever possible, is the Chit dhātu, and this is dhātu-ruttamah.",
+    46: "He, who cannot be defined and explained in terms of any logical terms of reference with other things, should necessarily be inexpressible.",
+    53: "It is the superlative degree of gross (sthoola) and thus 'the Supremely gross' is the subtlest Reality.",
+    55: "That which cannot be perceived through the play of the sense-organs",
+    59: "One who does this total destruction (pratardanaḥ) is the Lord in the form of Rudra at the time of the great dissolution (Pralaya).",
+    78: "Vikrama is an appellation that had come to Viṣṇu as a result of His Supernatural Act of measuring the universe with three steps.",
+    88: "He who is the very cause for the entire play of experience in the world of pluralistic objects (Sarva — Prapancha — Kaaranabhootah) is called viśvaretāḥ.",
+    94: "It is indeed the One Seer in all 'seeing', by everyone, everywhere.",
+    100: "One who has never fallen",
+    108: "The term Sammatam means 'acceptable'.",
+    110: "Amogha is the opposite of it: 'Ever Useful', 'Ever the Ful-filler' of all the wishes and demands of His devotees.",
+    123: "'He who has gone everywhere', meaning 'One who pervades everything'.",
+    127: "Since Veda gives knowledge, the Lord is termed as vedaḥ",
+    131: "‘One who contemplates upon the Veda is vedavit’: (Vedam Vichaarayati = vedavit).",
+    134: "The President of the Heavens to whom the Devas run for protection when they are threatened by their constant enemies - the Daityas and the Asuras.",
+    136: "The former (kṛtam) indicates all the \"effects\" manifested out of the Creator's activities, and the latter (Akritam) is the \"cause\" from which no manifestation has yet emerged — it is still unmanifest.",
+    139: "He whose glory is the four-tusked Airaavata is Maha — Viṣṇu.",
+    149: "It can be interpreted in two ways as (a) He who is the Cause of the universe or (b) He who has the world as His Cause.",
+    146: "Agham means sin (pāpa), impurities (mala); and therefore, anaghaḥ means One who has no imperfections",
+    152: "Of the ten great incarnations, the fifth one is Vāmana; and the very name indicates 'One who has a small body'.",
+    161: "The Appointing Authority",
+    163: "That which is to be known",
+    165: "The Goal, the Self, therefore, in the language of the seeker must be Sadaayoga-ever in yoga.",
+    169: "One who is beyond the sense-organs",
+    214: "The condition of \"the eyelids closed\" is called nimiṣaḥ",
+    217: "vācaspati is a term given to One who is eloquent in championing the Supreme law of life; and dhī means the power of intelligence; and udāradhīḥ one who has a \"Large-hearted intelligence\", One who is not puritanical in his viewpoints.",
+    234: "'Air' (Vaayu)",
+    242: "One who is adored by all good people",
+    245: "The Shelter (Ayanam) for man (Nara) is Naaraayana.",
+    256: "Therefore, vṛṣāhī means \"One who is a controller of all actions and the dispenser of all results\", in all individual, conscious, intelligent creatures.",
+    260: "He is called as vṛṣodaraḥ, 'the Showering Belly.'",
+    270: "The term Vasu has got three meanings: Wealth (Dhana), Veil (Aacchaadana) and Sun (Āditya)",
+    279: "One who is clearly indicated by the Supreme Sound (Akshara), the famous Sound — Symbol of the Eternal Lord Om.",
+    283: "Since Viṣṇu is described as ever reposing upon His Ananta-bed in Ksheerasaagara, the Lord is Himself termed here as the Begetter of the Moon.",
+    285: "that which has a \"beauty-spot\" (Bindu) in the shape of a rabbit (Sasa) is called Sasabindu — the moon.",
+    286: "Sura means Deva and so the term indicates 'the God of all gods'.",
+    292: "Here, the present term \"pāvanaḥ\" means the One who gives this life-sustaining power to the atmospheric air.",
+    293: "The term itself means Fire.",
+    301: "He is also the Power behind the wheel of time that goes on changing and repeating itself",
+    304: "He is the Subjective Core, the Eternal Essence, wherein, the perceived and the instruments of perceptions are all totally absent.",
+    308: "One who is loved by all.",
+    311: "One who wears 'śikhaṇḍa' ( शिखण्ड ) meaning 'the peacock feather'.",
+    327: "Therefore, Skanda means \"the Lord, whose glory is expressed, through Subrahmanya\".",
+    333: "Possessed of endless rays, meaning \"One who illumines the world with the rays of the Sun and the Moon.\"",
+    338: "One who saves is called tāraḥ.",
+    343: "Thus the term 'śatāvartaḥ' means 'One who takes infinite varieties of forms'.",
+    353: "He is the \"Great Eye\" seeing all, at all times, as He is the Consciousness that illumines everything at all times, in all bosoms.",
+    367: "He is One who is known through a mind which is purified (Udara) by means of self-control (dama) and such other qualities.",
+    408: "This can mean 'One who gives prāṇa' or as 'One who takes away prāṇa', because, the root 'da' has both the meanings, 'to give' and 'to break.'",
+    417: "One who is easy to be perceived if the seeker has sufficient devotion, or He whose meeting is auspicious inasmuch as it removes the seeker's worldly worries.",
+    438: "The Lord is the very Post to which all dharmas (righteousness) are tied.",
+    477: "The Supporter of dharma; meaning the very Seat of all dharma.",
+    479: "The Conditioned; Limited; the One who appears at this moment as the limited, conditioned, and therefore confined only to the world of plurality.",
+    508: "In direct meaning, of course, it means 'He who shows the supreme humility.' But the term also means 'One who humiliates those who are unrighteous.'",
+    558: "One who has all the Six Great Glories—Wealth, Power, dharma, Fame, Character, Knowledge and Dispassion—is called 'bhagavān'.",
+    552: "The Lord Nārāyaṇa who absorbs the whole world into Himself at the time of the deluge. and He who never falls away from His own Real Nature.",
+    555: "In the Upaniṣads the world emerging out of the Supreme Brahman is described metaphorically as a 'Tree'.",
+    572: "One who is Omniscient and Vyasa.",
+    593: "Thus 'goptā' can imply 'One who protects the universe' or 'One who, by His māyā, veils the glory of the Divine Self within.'",
+    628: "One Who rested on the shores of the ocean, on His Way to Lanka—referring to Śrī Ramachandraji.",
+    644: "Born in the Soorasena-clan, in Jagannaath—which, in the Purāṇas, is called the Utkala country.",
+    667: "One who has realised that the pluralistic world is a mere superimposition upon the Brahman caused by an error of judgement, and who experiences the Supreme Consciousness of the One Reality is a brāhmaṇaḥ.",
+    715: "The object of contemplation which is indeed very difficult to attain",
+    718: "The Great — Form- Divine of the Lord as He reclines upon the Sesha couch as the very support for the Creator to bring into existence the Universe",
+    721: "One Who Himself has become the world of varieties of Forms",
+    723: "Of Myriad — Forms",
+    809: "In this context the term means \"One who is as comely and attractive as the kunda flowers\".",
+    817: "One Who is readily available",
+    824: "That which will not remain the same tomorrow.",
+    878: "The suffix ‘Su’ indicates Auspiciousness (sobhana): the term ‘Ruchi’ is Glory or Desire.",
+    883: "The term etymologically means the One Source from which all things have been born or out of which they have been delivered.",
+    902: "One Who brings Auspiciousness or One who robs all Auspiciousness",
+    908: "He Who wears ever His Discus called Su — Darsana (Auspicious Vision).",
+    913: "Therefore, by suggestion, this name indicates that the Lord is the 'cool arbour' for those who are tortured by the heat of Samsar.",
+    945: "One Who wears resplendent shoulder-caps",
+    957: "Therefore, Śrī Nārāyaṇa is called 'praṇavaḥ': meaning He is of the 'nature of oṃkāra.'",
+    986: "One Who, as the Lord of the Universe, has no other ‘Instrumental Cause’ (nimitta-kāraṇa) in projecting Himself.",
+    997: "One who holds His divine Club (Mace) celebrated as Kaumodakī-which generates and spreads beauty and joy.",
+}
+
+# Chinmayananda's entry for this name introduces scriptural evidence but does
+# not itself state a standalone one-line meaning. The fact belongs to the Full
+# source record; Simplified may still give a clearly site-authored summary.
+FULL_NO_STANDALONE_MEANING = {
+    226: "The entry supplies Gītā evidence but no standalone one-line meaning.",
+}
 
 # Page-bottom apparatus on printed pp. 41–43 was swept into adjacent entries
 # by OCR. These five entries are reconstructed in printed reading order from
@@ -362,6 +502,8 @@ def load_apparatus_packets() -> dict[int, dict]:
                 raise ValueError(f"apparatus correction for name {number} lacks the scan-checked basis")
             normalized_entry = dict(entry)
             normalized_entry["commentary"] = normalize_packet_commentary(commentary)
+            for old, new in ENTRY_REPAIRS.get(number, {}).items():
+                normalized_entry["commentary"] = normalized_entry["commentary"].replace(old, new)
             merged[number] = normalized_entry
     return merged
 
@@ -474,6 +616,100 @@ def normalize_prose(text: str, *, concise: bool = False) -> str:
     return text
 
 
+SIMPLE_STOPWORDS = {
+    "a", "all", "an", "and", "as", "called", "for", "from", "he", "him",
+    "himself", "his", "in", "is", "it", "meaning", "means", "of", "one",
+    "or", "that", "the", "this", "to", "which", "who", "with",
+}
+
+
+def source_key(text: str) -> str:
+    """Comparison key for proving that a concise line replays source words."""
+    import unicodedata
+
+    ascii_text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "", ascii_text)
+
+
+def simple_tokens(text: str) -> set[str]:
+    import unicodedata
+
+    ascii_text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
+    return {token for token in re.findall(r"[a-z]+", ascii_text) if token not in SIMPLE_STOPWORDS}
+
+
+def simple_excerpt_candidates(commentary: str) -> list[str]:
+    candidates: list[str] = []
+    for paragraph in commentary.split("\n\n"):
+        sentences = re.split(
+            r'(?<=[.!?।॥])(?:["”’)]*)\s+(?=["“‘A-ZĀĪŪṚŚṢṄÑ])',
+            paragraph,
+        )
+        for sentence in sentences:
+            sentence = sentence.strip(" \n\t-*†‡")
+            pieces = [sentence]
+            pieces.extend(re.split(r';\s+|:\s+(?=[A-Z“"\'])', sentence))
+            pieces.extend(match.group(1) for match in re.finditer(r'[“"]([^”"]{15,220})[”"]', sentence))
+            for piece in pieces:
+                piece = piece.strip(" \n\t-*†‡;:")
+                if 18 <= len(piece) <= 220 and piece not in candidates:
+                    candidates.append(piece)
+    return candidates
+
+
+def clean_simple_text(value: str) -> str:
+    value = re.sub(r"\s*\([^)]*[\u0900-\u0dff][^)]*\)", "", value)
+    value = re.sub(r"[\u0900-\u0dff]+", "", value)
+    value = normalize_prose(value, concise=True).strip()
+    quote_pairs = {'"': '"', "'": "'", "“": "”", "‘": "’"}
+    if len(value) >= 2 and value[0] in quote_pairs and value[-1] == quote_pairs[value[0]]:
+        value = value[1:-1].strip()
+    if value and value[0].islower():
+        value = value[0].upper() + value[1:]
+    return value
+
+
+def select_simple_excerpt(commentary: str, guide: str, number: int) -> str:
+    override = SIMPLE_EXCERPT_OVERRIDES.get(number)
+    if override:
+        return clean_simple_text(override)
+    if source_key(guide) and source_key(guide) in source_key(commentary):
+        return clean_simple_text(guide)
+
+    target = simple_tokens(guide)
+    ranked: list[tuple[float, str]] = []
+    for candidate in simple_excerpt_candidates(commentary):
+        candidate_tokens = simple_tokens(candidate)
+        score = len(target & candidate_tokens) * 8
+        score -= max(0, len(candidate_tokens) - len(target)) * 0.15
+        if re.match(r"^(?:One|He|That|The (?:term|Lord|Self|Supreme)|It can|Lord|Śrī|Nārāyaṇa)", candidate):
+            score += 3
+        if re.search(r"\b(?:is|means|called|indicates|signifies|denotes)\b", candidate, re.I):
+            score += 2
+        if re.search(r"\b(?:Gītā|Upaniṣad|Purāṇa|Mahābhārata|says|declares|read|earlier|previous)\b", candidate, re.I):
+            score -= 4
+        if re.search(r"[\u0900-\u097f]", candidate):
+            score -= 2
+        if len(candidate_tokens) < 3:
+            score -= 8
+        ranked.append((score, candidate))
+    if not ranked:
+        raise ValueError(f"name {number} has no source-excerpt candidate for its Simple meaning")
+    return clean_simple_text(max(ranked)[1])
+
+
+def simple_source_record(commentary: str, excerpt: str) -> dict:
+    """Describe where the excerpt occurs without pretending it is a definition."""
+    offset = source_key(commentary).find(source_key(excerpt))
+    if offset < 0:
+        raise ValueError("simple excerpt cannot be located in its commentary")
+    return {
+        "field": "commentary",
+        "scope": "opening" if offset <= 300 else "later-explicit-explanation",
+        "normalized_character_offset": offset,
+    }
+
+
 def normalize_packet_commentary(text: str) -> str:
     """Apply the public Sanskrit romanization standard to scan-checked prose."""
     replacements = sorted(ROMAN_REPLACEMENTS.items(), key=lambda item: len(item[0]), reverse=True)
@@ -531,11 +767,36 @@ def normalize(data: dict, analysis: dict) -> dict:
                 row["scan_pages"] = apparatus_entry["scan_pages"]
             row["apparatus_status"] = "scan-checked"
 
-        simple_source = SIMPLE_MEANING_OVERRIDES.get(row["number"], row["short_meaning"])
-        row["simple_meaning"] = normalize_prose(simple_source, concise=True)
-        row["simple_meaning_status"] = (
-            "reviewed-direct" if row["number"] in SIMPLE_MEANING_OVERRIDES else "chinmayananda-opening-direct"
-        )
+        # Apparatus packets replay the scan before entry-level Sanskrit
+        # correction. Reapply the narrow, reviewed fixes after packet replay so
+        # a corrected quotation is not replaced by its older OCR spelling.
+        for field in ("short_meaning", "commentary"):
+            for old, new in ENTRY_REPAIRS.get(row["number"], {}).items():
+                row[field] = row[field].replace(old, new)
+
+        simple_guide = SIMPLE_MEANING_OVERRIDES.get(row["number"], row["short_meaning"])
+        if row["number"] in FULL_NO_STANDALONE_MEANING:
+            basis_excerpt = None
+            basis_source = {
+                "field": "commentary",
+                "scope": "entry-reviewed",
+                "note": FULL_NO_STANDALONE_MEANING[row["number"]],
+            }
+        else:
+            basis_excerpt = select_simple_excerpt(row["commentary"], simple_guide, row["number"])
+            basis_source = simple_source_record(row["commentary"], basis_excerpt)
+        row["simple_basis_excerpt"] = basis_excerpt
+        row["simple_basis_source"] = basis_source
+        row["simple_meaning"] = clean_simple_text(simple_guide if row["number"] in SIMPLE_MEANING_OVERRIDES else basis_excerpt)
+        row["simple_meaning_status"] = "site-generated-summary-derived-from-chinmayananda"
+        row["simple_meaning_source"] = {
+            "basis": "chinmayananda-full-commentary",
+            "editorial_operation": (
+                "site-authored concise summary" if row["number"] in SIMPLE_MEANING_OVERRIDES
+                else "site-selected concise source wording"
+            ),
+            "attribution": "site-generated Simplified layer; not credited as Chinmayananda's translation or quotation",
+        }
 
         if row["number"] in SCAN_PAGE_OVERRIDES:
             old_pages = row["scan_pages"]
@@ -586,16 +847,29 @@ def validate(data: dict, analysis: dict) -> dict:
                 errors.append(f"name {n} concise definition retains terminal separator punctuation")
             if field == "commentary" and APPARATUS_RESIDUE.search(public_text):
                 errors.append(f"name {n} commentary retains raw apparatus/page residue")
-        simple = row.get("simple_meaning", "")
-        if not 3 <= len(simple) <= 160 or "\n" in simple:
-            errors.append(f"name {n} simple meaning has invalid length/shape")
-        if SIMPLE_META.search(simple):
-            errors.append(f"name {n} simple meaning retains commentary or extraction prose")
+        simple = row.get("simple_meaning")
+        if not isinstance(simple, str) or not 3 <= len(simple) <= 260 or "\n" in simple:
+            errors.append(f"name {n} simplified summary has invalid length/shape")
+            simple = simple or ""
         if re.search(r"[*†‡\u0900-\u0dff]", simple):
-            errors.append(f"name {n} simple meaning contains a footnote marker or source script")
-        expected_status = "reviewed-direct" if n in SIMPLE_MEANING_OVERRIDES else "chinmayananda-opening-direct"
+            errors.append(f"name {n} simplified summary contains a footnote marker or source script")
+        expected_summary = clean_simple_text(
+            SIMPLE_MEANING_OVERRIDES[n] if n in SIMPLE_MEANING_OVERRIDES else row.get("simple_basis_excerpt", "")
+        )
+        if simple != expected_summary:
+            errors.append(f"name {n} simplified summary differs from its reviewed editorial layer")
+        basis_excerpt = row.get("simple_basis_excerpt")
+        if n in FULL_NO_STANDALONE_MEANING:
+            if basis_excerpt is not None:
+                errors.append(f"name {n} falsely records a standalone Chinmayananda excerpt")
+        elif not basis_excerpt or source_key(basis_excerpt) not in source_key(row.get("commentary", "")):
+            errors.append(f"name {n} lacks replayable source evidence for its Simplified review")
+        expected_status = "site-generated-summary-derived-from-chinmayananda"
         if row.get("simple_meaning_status") != expected_status:
             errors.append(f"name {n} simple meaning status is not {expected_status}")
+        source = row.get("simple_meaning_source")
+        if not isinstance(source, dict) or source.get("basis") != "chinmayananda-full-commentary":
+            errors.append(f"name {n} simplified summary lacks its commentary basis")
         if n in COMMENTARY_STRUCTURE_OVERRIDES and row.get("commentary") != COMMENTARY_STRUCTURE_OVERRIDES[n]:
             errors.append(f"name {n} commentary does not replay its scan-checked apparatus reconstruction")
         if n in apparatus_overrides:
@@ -613,7 +887,9 @@ def validate(data: dict, analysis: dict) -> dict:
         "canonical_devanagari_headings": sum(row.get("heading_devanagari") == parsed["citation_devanagari"] for row, parsed in zip(rows, analyses)),
         "scan_locus_corrections": len(SCAN_PAGE_OVERRIDES),
         "foreign_script_substitutions": 0,
-        "simple_meanings": len(rows),
+        "simplified_site_summaries": len(rows),
+        "simple_basis_excerpts": len(rows) - len(FULL_NO_STANDALONE_MEANING),
+        "full_entries_without_standalone_meaning": len(FULL_NO_STANDALONE_MEANING),
         "reviewed_simple_overrides": len(SIMPLE_MEANING_OVERRIDES),
         "scan_checked_commentary_structures": len(COMMENTARY_STRUCTURE_OVERRIDES),
         "apparatus_packet_entries": len(apparatus_overrides),

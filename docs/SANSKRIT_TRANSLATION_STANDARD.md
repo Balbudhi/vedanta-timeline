@@ -143,6 +143,41 @@ The English may read smoothly, but the grammatical fields must be formally exact
 - **No fabrication** — if a root/affix is genuinely uncertain, give the best
   standard analysis and flag it; never invent a dhātu or pratyaya.
 
+### 6.1 Authority and tool boundary
+
+"Pāṇinian" describes an analysis established from the witnessed text through
+Pāṇini and the traditional grammatical sources; it does **not** describe output
+merely produced by a Sanskrit parser or morphology library.
+
+The required authority chain is: exact cited textual witness and context →
+reviewed pada division → *Aṣṭādhyāyī* rule sequence → *Mahābhāṣya*, traditional
+vṛtti/commentary, Dhātupāṭha, or Gaṇapāṭha where adjudication is needed → reviewed
+literal English. Record the actual sources used. For a quotation, distinguish
+the quoted author's translation from the site's grammatical explanation.
+
+OCR, modern dictionaries, Vidyut, Sūtrakṛt, `prakriya`, other parsers, and
+language models are non-authoritative audit aids. They may locate candidates or
+flag disagreements, but may not establish a reading, choose a parse, provide a
+public gloss, or certify correctness. Agreement between tools is not a
+publication gate. Any analysis originating with those tools remains provisional
+until independently re-derived through the authority chain above.
+
+For closed finite readers, every public token must pass that review; sampling,
+confidence scores, and aggregate parser accuracy are insufficient. Unresolved
+analysis stays unpublished or is explicitly displayed as unavailable. Builders
+must fail closed rather than expose provisional cards. See
+`docs/GRAMMAR_ENGINE_INTEGRATION_PLAN.md` for the repository-wide tooling
+boundary.
+
+For the grammatical texts themselves, use the shared read-only source library
+at `/Users/eeshan/Dev/prakriya/sources/` first. Read its `README.md` and
+`manifest/clean_witnesses.json`, then consult the relevant Sanskrit under
+`sources/primary/` (Aṣṭādhyāyī, Dhātupāṭha, Gaṇapāṭha, Kāśikā,
+Mahābhāṣya, Siddhāntakaumudī, Uṇādi, Nirukta) and the paired `sources/raw/`
+witness when collation matters. Do **not** run or rely on the unfinished
+`prakriya` interpreter, generated form tables, projections, or traces. The
+source library is authoritative evidence; the software is not.
+
 ## 7. Faithful rendering — rules against distortion
 
 The English must be **literal and complete**: it renders exactly what the Sanskrit
