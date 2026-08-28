@@ -66,6 +66,7 @@
 .vsn-reader.vsn-chant-only .vsn-preface-intro,
 .vsn-reader.vsn-chant-only .vsn-preface-commentary,
 .vsn-reader.vsn-chant-only .vsn-details-block { display: none !important; }
+.vsn-reader.vsn-chant-only .vsn-verse > .verse-deva,
 .vsn-reader.vsn-chant-only .vsn-verse > .ix > .ix-pada { display: none; }
 .vsn-verse {
   scroll-margin-top: 18px;
@@ -80,12 +81,15 @@
 .vsn-meaning-group { border-top: 1px solid var(--hairline); }
 .vsn-meaning-group + .vsn-meaning-group { margin-top: 5px; }
 .vsn-meaning-item {
-  display: grid; grid-template-columns: minmax(104px, .32fr) minmax(0, 1fr); gap: 12px;
+  display: grid;
+  grid-template-columns: minmax(96px, .75fr) minmax(112px, .9fr) minmax(0, 1.75fr);
+  gap: 12px;
   align-items: baseline; padding: 8px 0; color: var(--ink-soft);
   border-bottom: 1px solid var(--hairline); line-height: 1.55;
 }
 .vsn-meaning-item:hover,
 .vsn-meaning-item.is-hi { background: color-mix(in srgb, var(--bg-warm) 72%, transparent); }
+.vsn-meaning-deva { color: var(--ink); font-size: 1.04em; overflow-wrap: anywhere; }
 .vsn-meaning-name { color: var(--ink); font-style: italic; font-weight: 600; overflow-wrap: anywhere; }
 .vsn-meaning-text { min-width: 0; }
 .vsn-sep { color: var(--muted-soft); }
@@ -156,4 +160,8 @@
   .vsn-verse .verse-deva { font-size: 19px; }
   .vsn-verse .ix-pada { font-size: 17px; line-height: 2.05; }
   .vsn-verse .ix-en { font-size: 16px; line-height: 1.68; }
+  .vsn-meaning-item {
+    grid-template-columns: minmax(0, .82fr) minmax(0, .95fr) minmax(0, 1.45fr);
+    gap: 9px;
+  }
 }

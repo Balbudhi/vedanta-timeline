@@ -122,8 +122,9 @@ function renderEnglish(stanza) {
     const rows = names.map(name => {
       const analysis = name.word_analysis || {};
       const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
+      const deva = analysis.citation_devanagari || name.deva;
       const meaning = displayDefinition(name.meaning).replace(/[.;:]\s*$/, "");
-      return `<span class="we vsn-we vsn-meaning-item" role="button" tabindex="0" data-name-number="${name.number}" aria-label="${esc(`${citation}: ${meaning}`)}"><span class="vsn-meaning-name" lang="sa-Latn">${esc(citation)}</span><span class="vsn-meaning-text">${esc(meaning)}</span></span>`;
+      return `<span class="we vsn-we vsn-meaning-item" role="button" tabindex="0" data-name-number="${name.number}" aria-label="${esc(`${deva}; ${citation}: ${meaning}`)}"><span class="vsn-meaning-deva" lang="sa-Deva">${esc(deva)}</span><span class="vsn-meaning-name" lang="sa-Latn">${esc(citation)}</span><span class="vsn-meaning-text">${esc(meaning)}</span></span>`;
     }).join("");
     return `<div class="vsn-meaning-group" data-line-index="${lineIndex}">${rows}</div>`;
   }).join("");
