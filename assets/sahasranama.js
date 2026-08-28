@@ -66,6 +66,7 @@ function commentaryBlocks(name) {
   return blocks.map(block => {
     if (block.type === "prose") return `<p class="vsn-prose">${richProse(block.text)}</p>`;
     if (block.type !== "gita-quote") return "";
+    const siteTranslation = block.english_source === "site-literal-translation";
     const hasReviewedWords = Array.isArray(block.words) && block.words.length > 0;
     const sanskrit = hasReviewedWords && window.GitaReader?.interactiveBlock
       ? window.GitaReader.interactiveBlock(block.words, block.english_slots || null, null, block.devanagari, "vsn-commentary-quote-deva")
@@ -75,8 +76,12 @@ function commentaryBlocks(name) {
       ? `${block.canonical_locus} · printed as ${printed}`
       : block.canonical_locus;
     const notes = (block.textual_notes || []).map(note => `<div class="vsn-quote-note">${esc(note)}</div>`).join("");
-    return `<blockquote class="vsn-commentary-quote" data-quote-id="${esc(block.id)}">
+    const translationBadge = siteTranslation
+      ? `<div class="vsn-commentary-quote-note" role="note" aria-label="This English line is a site-supplied literal translation, not Swami Chinmayananda's wording"><span class="vsn-commentary-quote-badge">Site translation</span></div>`
+      : "";
+    return `<blockquote class="vsn-commentary-quote${siteTranslation ? " is-site-translation" : ""}" data-quote-id="${esc(block.id)}">
       ${sanskrit}
+      ${translationBadge}
       <footer class="vsn-commentary-quote-source">${esc(source)}</footer>
       ${notes}
     </blockquote>`;
