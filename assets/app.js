@@ -419,7 +419,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "__BUILD_ID__-vsn-name-table-v1";
+const DATA_VERSION = "__BUILD_ID__-vsn-borderless-table-v2";
 
 async function loadJSON(path) {
   try {

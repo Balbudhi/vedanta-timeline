@@ -78,14 +78,25 @@
 .vsn-verse .ix-pada { margin-bottom: 10px; }
 .vsn-verse .ix-en { color: var(--ink-soft); }
 .vsn-meanings { display: block; color: var(--ink-soft); }
-.vsn-meaning-group { border-top: 1px solid var(--hairline); }
-.vsn-meaning-group + .vsn-meaning-group { margin-top: 5px; }
+.vsn-meaning-head,
 .vsn-meaning-item {
   display: grid;
   grid-template-columns: minmax(96px, .75fr) minmax(112px, .9fr) minmax(0, 1.75fr);
-  gap: 12px;
-  align-items: baseline; padding: 8px 0; color: var(--ink-soft);
-  border-bottom: 1px solid var(--hairline); line-height: 1.55;
+  gap: 0;
+}
+.vsn-meaning-head {
+  margin-bottom: 5px;
+  color: var(--muted-soft);
+  font: 700 9px/1.2 var(--sans);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.vsn-meaning-head > span { min-width: 0; padding: 4px 10px; }
+.vsn-meaning-item > span { min-width: 0; padding: 8px 10px; }
+.vsn-meaning-head > span:first-child,
+.vsn-meaning-item > span:first-child { padding-left: 0; }
+.vsn-meaning-item {
+  align-items: baseline; margin: 1px 0; color: var(--ink-soft); line-height: 1.55;
 }
 .vsn-meaning-item:hover,
 .vsn-meaning-item.is-hi { background: color-mix(in srgb, var(--bg-warm) 72%, transparent); }
@@ -162,6 +173,10 @@
   .vsn-verse .ix-en { font-size: 16px; line-height: 1.68; }
   .vsn-meaning-item {
     grid-template-columns: minmax(0, .82fr) minmax(0, .95fr) minmax(0, 1.45fr);
-    gap: 9px;
   }
+  .vsn-meaning-head { grid-template-columns: minmax(0, .82fr) minmax(0, .95fr) minmax(0, 1.45fr); }
+  .vsn-meaning-head > span { padding: 4px 7px; }
+  .vsn-meaning-item > span { padding: 8px 7px; }
+  .vsn-meaning-head > span:first-child,
+  .vsn-meaning-item > span:first-child { padding-left: 0; }
 }
