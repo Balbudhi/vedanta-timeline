@@ -21,18 +21,6 @@
 .vsn-attribution-author:hover { text-decoration: underline; }
 .vsn-attribution-role { margin-top: 2px; color: var(--muted); font-size: 11px; }
 .vsn-attribution-text { margin-top: 7px; color: var(--muted-soft); font-size: 10.5px; }
-.vsn-reader .vsn-viewbar { margin-bottom: 4px; -webkit-mask-image: none; mask-image: none; }
-.vsn-viewbar .voicebar-chips {
-  flex: none; gap: 0; padding: 0; overflow: visible;
-  border: 1px solid var(--rule); border-radius: 999px;
-}
-.vsn-viewbar .vchip {
-  min-width: 68px; justify-content: center; padding: 5px 13px;
-  border: 0; border-radius: 999px; box-shadow: none;
-}
-.vsn-viewbar .vchip.is-active { background: var(--ink); color: var(--on-ink); box-shadow: none; }
-.vsn-viewbar .vchip + .vchip { border-left: 1px solid var(--rule); border-radius: 0 999px 999px 0; }
-.vsn-viewbar .vchip:first-child { border-radius: 999px 0 0 999px; }
 .vsn-section-head {
   display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
   margin: 22px 12px 0; padding: 0 0 9px; border-bottom: 1px solid var(--hairline);
@@ -46,18 +34,14 @@
 }
 .vsn-preface-group { margin: 0; }
 .vsn-preface-group-title {
-  margin: 22px 12px 4px; color: var(--muted); font: 700 10px/1.4 var(--sans);
-  letter-spacing: .1em; text-transform: uppercase;
+  margin: 12px 0 2px; padding: 5px 12px;
+  color: var(--muted); font: 600 9px/1.35 var(--sans);
+  letter-spacing: .08em; text-transform: uppercase;
 }
 .vsn-preface-group-title,
 .vsn-sticky-section {
   position: sticky; top: calc(0px - var(--reader-content-pad-top, 0px)); z-index: 18;
-  background: color-mix(in srgb, var(--bg) 94%, transparent);
-  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
-}
-.vsn-preface-group-title {
-  margin: 14px 0 4px; padding: 8px 12px;
-  border-bottom: 1px solid var(--hairline);
+  background: var(--pane-bg, var(--bg));
 }
 .vsn-sticky-section { margin-left: 0; margin-right: 0; padding: 9px 12px; }
 .vsn-preface-unit { scroll-margin-top: 18px; }
@@ -91,11 +75,10 @@
 .vsn-deva-w { text-decoration-color: var(--rule); }
 .vsn-verse .ix-pada { margin-bottom: 10px; }
 .vsn-verse .ix-en { color: var(--ink-soft); }
-.vsn-meanings { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 0; }
+.vsn-meanings { display: block; color: var(--ink-soft); }
+.vsn-meaning-line { margin: 0 0 .32em; line-height: 1.65; }
+.vsn-meaning-line:last-child { margin-bottom: 0; }
 .vsn-meaning-item { display: inline; color: var(--ink-soft); }
-.vsn-meaning-item:not(:last-child)::after { content: ";"; margin-right: .48em; color: var(--muted-soft); }
-.vsn-meaning-name { color: var(--ink); font-style: italic; font-weight: 600; }
-.vsn-meaning-text { color: var(--ink-soft); }
 .vsn-sep { color: var(--muted-soft); }
 .vsn-details-block { margin-top: 18px; border-top: 1px solid var(--hairline); }
 .vsn-details-block[hidden] { display: none; }

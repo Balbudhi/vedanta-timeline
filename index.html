@@ -17,8 +17,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20260827-vsn-ui-v2" />
-  <link rel="stylesheet" href="assets/gita.css?v=20260827-vsn-ui-v2" />
+  <link rel="stylesheet" href="assets/style.css?v=20260827-vsn-ui-v4" />
+  <link rel="stylesheet" href="assets/gita.css?v=20260827-vsn-ui-v4" />
 </head>
 <body>
   <header class="topbar">
@@ -112,6 +112,7 @@
         <button class="dp-tab" data-pane="citation" role="tab" aria-selected="false" type="button" hidden>Citation</button>
         <button class="dp-tab" data-pane="source" role="tab" aria-selected="false" type="button" hidden>Source</button>
         <span class="dp-tab-spacer dp-tab-title" id="dpTabTitle"></span>
+        <div class="dp-reader-mode" id="dpReaderMode" role="group" aria-label="Reading view" hidden></div>
         <button class="dp-reader-action" id="dpShare" aria-label="Share this reading" title="Share" type="button"><svg class="dp-action-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.2V3.8m0 0L8.3 7.5M12 3.8l3.7 3.7M5 12.5v5.7c0 .99.81 1.8 1.8 1.8h10.4c.99 0 1.8-.81 1.8-1.8v-5.7"/></svg></button>
         <button class="dp-reader-action" id="dpFullscreen" aria-label="Enter full screen" title="Enter full screen" type="button"><svg class="dp-action-icon dp-fullscreen-enter" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg><svg class="dp-action-icon dp-fullscreen-exit" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h5V3M21 8h-5V3M3 16h5v5M21 16h-5v5"/></svg></button>
         <span class="dp-control-status" id="dpControlStatus" role="status" aria-live="polite" hidden></span>
@@ -151,7 +152,7 @@
     </aside>
   </main>
 
-  <script type="module" src="assets/app.js?v=20260827-vsn-ui-v2"></script>
+  <script type="module" src="assets/app.js?v=20260827-vsn-ui-v4"></script>
   <script src="assets/pwa.js?v=20260827-pwa-v1"></script>
 </body>
 </html>

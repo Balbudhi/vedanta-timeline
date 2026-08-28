@@ -810,6 +810,24 @@ body.is-detail-open .detail-pane {
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   opacity: 0; pointer-events: none;
 }
+.dp-reader-mode {
+  flex: none; align-self: center;
+  height: 28px; display: inline-flex; align-items: stretch;
+  overflow: hidden; border: 1px solid var(--rule); border-radius: 4px;
+  background: var(--bg);
+}
+.dp-reader-mode[hidden] { display: none; }
+.dp-reader-mode-btn {
+  min-width: 52px; height: 100%; padding: 0 9px;
+  border: 0; border-right: 1px solid var(--rule);
+  background: transparent; color: var(--muted);
+  font: 500 10.5px/1 var(--sans); text-align: center;
+  cursor: pointer;
+}
+.dp-reader-mode-btn:last-child { border-right: 0; }
+.dp-reader-mode-btn:hover { color: var(--ink); background: var(--bg-warm); }
+.dp-reader-mode-btn[aria-pressed="true"] { color: var(--on-ink); background: var(--ink); }
+.dp-reader-mode-btn:focus-visible { position: relative; z-index: 1; outline: 2px solid var(--ink); outline-offset: -2px; }
 body.is-reading-mode .dp-tab-title { opacity: 1; }
 body.is-reading-mode #dpArticleHead { display: none; }
 body.is-reading-mode .dp-tab { display: none; }
@@ -3294,6 +3312,8 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     font-size: 10.5px;
   }
   .dp-tab-spacer { min-width: 12px; }
+  .dp-reader-mode { height: 27px; }
+  .dp-reader-mode-btn { min-width: 44px; padding: 0 7px; font-size: 10px; }
   .dp-close,
   .dp-reader-action {
     width: 30px;

@@ -210,6 +210,7 @@ const dpTranslationHead = document.getElementById("dpTranslationHead");
 const dpTranslationBody = document.getElementById("dpTranslationBody");
 const dpArticleHead = document.getElementById("dpArticleHead");
 const dpTabTitle = document.getElementById("dpTabTitle");
+const dpReaderMode = document.getElementById("dpReaderMode");
 const dpArticleBody = document.getElementById("dpArticleBody");
 const dpCitationBody = document.getElementById("dpCitationBody");
 const dpSourceSearch = document.getElementById("dpSourceSearch");
@@ -418,7 +419,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "__BUILD_ID__-vsn-ui-v2";
+const DATA_VERSION = "__BUILD_ID__-vsn-ui-v4";
 
 async function loadJSON(path) {
   try {
@@ -2019,6 +2020,10 @@ function showTab(tab) {
 function applyTabContext(kind) {
   if (!dpTabBar) return;
   document.body.classList.toggle("is-article-context", kind === "article");
+  if (kind !== "article" && dpReaderMode) {
+    dpReaderMode.replaceChildren();
+    dpReaderMode.hidden = true;
+  }
   const visible = kind === "article" ? ["article"] : ["thinker"];
   dpTabBar.querySelectorAll(".dp-tab").forEach((btn) => {
     btn.hidden = !visible.includes(btn.dataset.pane);
@@ -5521,6 +5526,7 @@ async function openSahasranamaReading() {
         dataUrl: SAHASRANAMA_READING.dataUrl,
         detailsUrl: SAHASRANAMA_READING.detailsUrl,
         styleUrl: `assets/sahasranama.css?v=${DATA_VERSION}`,
+        modeHost: dpReaderMode,
         onThinker: (id) => openThinker(id),
         onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
         linkifyGlossary: linkifyGlossaryText,
@@ -5539,6 +5545,10 @@ async function openArticle(a) {
   articlesModal.setAttribute("aria-hidden", "true");
   // A standalone article has no thinker context: show only the Article tab.
   applyTabContext("article");
+  if (dpReaderMode) {
+    dpReaderMode.replaceChildren();
+    dpReaderMode.hidden = true;
+  }
   // Title for the tab-row (shown in full-screen reading mode); plain text.
   if (dpTabTitle) dpTabTitle.textContent = String(a.title || "").replace(/[*_`\[\]]/g, "");
   if (dpArticleHead) {

@@ -16,6 +16,7 @@ let CHANT_ONLY = false;
 let TIMING_BY_ID = new Map();
 let ACTIVE_TIMING_ID = null;
 let AUDIO_ELEMENT = null;
+let MODE_HOST = null;
 const CHANT_VIEW_KEY = "vedanta:vishnu-sahasranama:chant-only";
 
 function esc(value) {
@@ -117,12 +118,19 @@ function renderNames(stanza) {
 }
 
 function renderEnglish(stanza) {
-  return `<div class="vsn-meanings">${stanza.names.map(name => {
-    const analysis = name.word_analysis || {};
-    const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
-    const meaning = displayDefinition(name.meaning).replace(/[.;:]\s*$/, "");
-    return `<span class="we vsn-we vsn-meaning-item" role="button" tabindex="0" data-name-number="${name.number}"><span class="vsn-meaning-name" lang="sa-Latn">${esc(citation)}</span><span class="vsn-meaning-dash" aria-hidden="true"> — </span><span class="vsn-meaning-text">${esc(meaning)}</span></span>`;
-  }).join("")}</div>`;
+  const lines = [0, 1].map(lineIndex => {
+    const names = stanza.names.filter(name => name.line_index === lineIndex);
+    if (!names.length) return "";
+    const clauses = names.map((name, index) => {
+      const analysis = name.word_analysis || {};
+      const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
+      const meaning = displayDefinition(name.meaning).replace(/[.;:]\s*$/, "");
+      const punctuation = index < names.length - 1 ? "; " : /[.!?]$/.test(meaning) ? "" : ".";
+      return `<span class="we vsn-we vsn-meaning-item" role="button" tabindex="0" data-name-number="${name.number}" aria-label="${esc(`${citation}: ${meaning}`)}">${esc(meaning)}</span>${punctuation}`;
+    }).join("");
+    return `<p class="vsn-meaning-line" data-line-index="${lineIndex}">${clauses}</p>`;
+  }).join("");
+  return `<div class="vsn-meanings">${lines}</div>`;
 }
 
 function renderDetails(stanza) {
@@ -224,12 +232,12 @@ function renderPostlude() {
 }
 
 function renderDetailToggle() {
-  return `<div class="voicebar vsn-viewbar">
-    <div class="voicebar-chips" role="group" aria-label="Reading view">
-      <button class="vchip vsn-detail-chip" type="button" aria-label="Detailed reading" aria-pressed="false">Detail</button>
-      <button class="vchip vsn-chant-chip" type="button" aria-label="Chant follow view" aria-pressed="false">Chant</button>
-    </div>
-  </div>`;
+  return `<button class="dp-reader-mode-btn vsn-detail-chip" type="button" aria-label="Detailed reading" aria-pressed="false">Detail</button>
+    <button class="dp-reader-mode-btn vsn-chant-chip" type="button" aria-label="Chant follow view" aria-pressed="false">Chant</button>`;
+}
+
+function modeControl(selector) {
+  return (MODE_HOST || ROOT)?.querySelector(selector);
 }
 
 function renderAttribution() {
@@ -356,16 +364,16 @@ function wireWords() {
 }
 
 async function setDetails(open) {
-  const chip = ROOT.querySelector(".vsn-detail-chip");
+  const chip = modeControl(".vsn-detail-chip");
   if (open) {
-    chip.setAttribute("aria-busy", "true");
+    chip?.setAttribute("aria-busy", "true");
     const loaded = await ensureDetails();
-    chip.removeAttribute("aria-busy");
+    chip?.removeAttribute("aria-busy");
     if (!loaded) return;
   }
   DETAILS_OPEN = Boolean(open);
-  chip.classList.toggle("is-active", DETAILS_OPEN);
-  chip.setAttribute("aria-pressed", String(DETAILS_OPEN));
+  chip?.classList.toggle("is-active", DETAILS_OPEN);
+  chip?.setAttribute("aria-pressed", String(DETAILS_OPEN));
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-details-open", DETAILS_OPEN);
   ROOT.querySelectorAll(".vsn-preface-commentary").forEach(block => { block.hidden = !DETAILS_OPEN; });
   ROOT.querySelectorAll(".vsn-preface-unit-commentary").forEach(block => { block.hidden = !DETAILS_OPEN; });
@@ -387,8 +395,8 @@ function readChantView() {
 async function setChantView(active, persist) {
   CHANT_ONLY = Boolean(active);
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-chant-only", CHANT_ONLY);
-  const chantChip = ROOT.querySelector(".vsn-chant-chip");
-  const detailChip = ROOT.querySelector(".vsn-detail-chip");
+  const chantChip = modeControl(".vsn-chant-chip");
+  const detailChip = modeControl(".vsn-detail-chip");
   chantChip?.classList.toggle("is-active", CHANT_ONLY);
   chantChip?.setAttribute("aria-pressed", String(CHANT_ONLY));
   detailChip?.classList.toggle("is-active", !CHANT_ONLY);
@@ -405,8 +413,8 @@ async function setChantView(active, persist) {
 }
 
 function wireDetails() {
-  ROOT.querySelector(".vsn-detail-chip").addEventListener("click", () => setChantView(false));
-  ROOT.querySelector(".vsn-chant-chip").addEventListener("click", () => setChantView(true));
+  modeControl(".vsn-detail-chip")?.addEventListener("click", () => setChantView(false));
+  modeControl(".vsn-chant-chip")?.addEventListener("click", () => setChantView(true));
   ROOT.addEventListener("click", event => {
     if (event.target.closest(".vsn-thinker-link") && ON_THINKER) ON_THINKER("chinmayananda");
   });
@@ -523,6 +531,7 @@ async function render(root, options) {
   options = options || {};
   ensureStyle(options.styleUrl || "assets/sahasranama.css");
   ROOT = root;
+  MODE_HOST = options.modeHost || null;
   LINKIFY = typeof options.linkifyGlossary === "function" ? options.linkifyGlossary : null;
   ON_THINKER = typeof options.onThinker === "function" ? options.onThinker : null;
   DETAILS_OPEN = false;
@@ -541,7 +550,11 @@ async function render(root, options) {
   DETAILS_PROMISE = null;
   TIMING_BY_ID = new Map((DATA.audio.units || []).map(unit => [unit.id, unit]));
   NAME_BY_NUMBER = new Map(DATA.stanzas.flatMap(stanza => stanza.names).map(name => [Number(name.number), name]));
-  root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderDetailToggle()}${renderPreface()}${renderNamesSection()}${renderPostlude()}${renderAudio()}</div>`;
+  if (MODE_HOST) {
+    MODE_HOST.innerHTML = renderDetailToggle();
+    MODE_HOST.hidden = false;
+  }
+  root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderPreface()}${renderNamesSection()}${renderPostlude()}${renderAudio()}</div>`;
   const renderedAt = performance.now();
   const reader = root.querySelector(".vsn-reader");
   if (reader) {
