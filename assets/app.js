@@ -5378,7 +5378,7 @@ async function ensureArticlesLoaded() {
     "other": "Other",
   };
   const sectionBlurbs = {
-    "reading": "A primary text read word by word — literal translation, full Pāṇinian grammar, the commentators in their own voices, and cross-tradition parallels. Opens as its own reading page.",
+    "reading": "Word-by-word primary-text readings with literal translation, grammar, and commentary.",
     "perspective": "Explicit user-position-driven readings. Flagged with the PERSPECTIVE pill and a reading-discipline preamble.",
     "essay": "Sustained reading-sessions through one thinker's primary corpus, in source language where it matters.",
     "comparative": "Paired analyses across thinkers and schools.",
