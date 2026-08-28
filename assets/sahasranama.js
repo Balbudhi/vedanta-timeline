@@ -41,7 +41,7 @@ function fmtTime(seconds) {
 
 function richProse(text) {
   const link = value => LINKIFY ? LINKIFY(value) : esc(value);
-  const source = String(text || "");
+  const source = String(text || "").replace(/[*†‡]+/g, "");
   const quote = /[“"]([^”"]+)[”"]/g;
   let out = "", last = 0, match;
   while ((match = quote.exec(source)) !== null) {
@@ -53,13 +53,11 @@ function richProse(text) {
 }
 
 function paragraphs(text) {
-  return String(text || "").split(/\n\s*\n/).filter(Boolean).map(paragraph => {
-    const derivation = /\b(?:root|derived|derivation|dissolved|the term\b.{0,35}\bmeans?)\b/i.test(paragraph);
-    const source = !derivation && /[\u0900-\u097f]/.test(paragraph);
-    const kind = derivation ? " vsn-prose-derivation" : source ? " vsn-prose-source" : "";
-    const label = derivation ? "<span class=\"vsn-prose-label\">Derivation</span>" : source ? "<span class=\"vsn-prose-label\">Source</span>" : "";
-    return `<p class="vsn-prose${kind}">${label}${richProse(paragraph)}</p>`;
-  }).join("");
+  return String(text || "").split(/\n\s*\n/).filter(Boolean)
+    .map(paragraph => /^\s*[\u0900-\u097f]/.test(paragraph)
+      ? `<blockquote class="vsn-source-passage">${richProse(paragraph).replace(/\n/g, "<br>")}</blockquote>`
+      : `<p class="vsn-prose">${richProse(paragraph)}</p>`)
+    .join("");
 }
 
 function detailFor(name) {
@@ -121,21 +119,20 @@ function renderEnglish(stanza) {
   const lines = [0, 1].map(lineIndex => {
     const names = stanza.names.filter(name => name.line_index === lineIndex);
     if (!names.length) return "";
-    const clauses = names.map((name, index) => {
+    const rows = names.map(name => {
       const analysis = name.word_analysis || {};
       const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
       const meaning = displayDefinition(name.meaning).replace(/[.;:]\s*$/, "");
-      const punctuation = index < names.length - 1 ? "; " : /[.!?]$/.test(meaning) ? "" : ".";
-      return `<span class="we vsn-we vsn-meaning-item" role="button" tabindex="0" data-name-number="${name.number}" aria-label="${esc(`${citation}: ${meaning}`)}">${esc(meaning)}</span>${punctuation}`;
+      return `<span class="we vsn-we vsn-meaning-item" role="button" tabindex="0" data-name-number="${name.number}" aria-label="${esc(`${citation}: ${meaning}`)}"><span class="vsn-meaning-name" lang="sa-Latn">${esc(citation)}</span><span class="vsn-meaning-text">${esc(meaning)}</span></span>`;
     }).join("");
-    return `<p class="vsn-meaning-line" data-line-index="${lineIndex}">${clauses}</p>`;
+    return `<div class="vsn-meaning-group" data-line-index="${lineIndex}">${rows}</div>`;
   }).join("");
   return `<div class="vsn-meanings">${lines}</div>`;
 }
 
 function renderDetails(stanza) {
   return stanza.names.map(name => {
-    const detail = detailFor(name);
+    const commentary = String(name.chinmayananda?.commentary || "").trim();
     const analysis = name.word_analysis || {};
     const citation = analysis.citation_iast || name.citation_iast || name.surface_iast;
     const deva = analysis.citation_devanagari || name.deva;
@@ -145,8 +142,7 @@ function renderDetails(stanza) {
         <span class="vsn-detail-iast" lang="sa-Latn">${esc(citation)}</span>
         <span class="vsn-detail-deva" lang="sa-Deva">${esc(deva)}</span>
       </button>
-      <div class="vsn-detail-definition">${esc(displayDefinition(name.meaning))}</div>
-      ${detail ? `<div class="vsn-detail-copy">${paragraphs(detail)}</div>` : ""}
+      ${commentary ? `<div class="vsn-detail-copy">${paragraphs(commentary)}</div>` : ""}
       <div class="vsn-detail-source">Swami Chinmayananda · <em>Thousand Ways to the Transcendental</em> · ${esc(pageLabel(name))}</div>
     </section>`;
   }).join("");
@@ -244,8 +240,8 @@ function renderAttribution() {
   return `<div class="vsn-attribution">
     <div class="vsn-attribution-kicker">Traditional Advaita reading</div>
     <div class="vsn-attribution-primary"><button class="vsn-attribution-author vsn-thinker-link" type="button">Swami Chinmayananda</button> · <em>Thousand Ways to the Transcendental</em></div>
-    <div class="vsn-attribution-role">English definitions and commentary</div>
-    <div class="vsn-attribution-text">Sanskrit text: <em>Viṣṇusahasranāma</em>, Mahābhārata, Anuśāsanaparvan · received text collated with the BORI critical edition</div>
+    <div class="vsn-attribution-role">Complete commentary in Full mode</div>
+    <div class="vsn-attribution-text">Simple meanings: direct name-level translations · Sanskrit text: <em>Viṣṇusahasranāma</em>, Mahābhārata, Anuśāsanaparvan · received text collated with the BORI critical edition</div>
   </div>`;
 }
 
@@ -303,7 +299,7 @@ async function openWordCard(number, anchor) {
     ? `<div class="wc-note">${esc(analysis.sandhi)}</div>`
     : "";
   const grammar = `<div class="wc-gram"><span class="wc-gram-main">${esc(analysis.morph || "")}</span><br><span class="wc-gram-stem">stem: <span lang="sa-Latn">${esc(analysis.stem || "")}</span></span><br><span class="wc-gram-affix">formation: ${esc(analysis.affix || "")}</span>${compound ? `<br>${compound}` : ""}</div>${sandhi}`;
-  const definition = `<div class="wc-mean vsn-card-definition"><span class="wc-note-label">Chinmayananda’s definition</span>${esc(displayDefinition(name.meaning))}</div>`;
+  const definition = `<div class="wc-mean vsn-card-definition"><span class="wc-note-label">Meaning</span>${esc(displayDefinition(name.meaning))}</div>`;
   const detail = detailFor(name);
   const explanationAction = detail
     ? `<div class="wc-gls vsn-card-detail-action"><button class="wc-gl vsn-show-detail" type="button">Show detailed explanation ↓</button></div>`

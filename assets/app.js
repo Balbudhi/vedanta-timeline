@@ -419,7 +419,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "__BUILD_ID__-vsn-ui-v5";
+const DATA_VERSION = "__BUILD_ID__-vsn-meaning-v3";
 
 async function loadJSON(path) {
   try {
@@ -1977,6 +1977,7 @@ function closePanel() {
   if (!router._suspendSerialize) {
     try { history.replaceState(null, "", location.pathname + location.search); } catch (_) {}
   }
+  rememberPwaRoute();
 }
 
 function setPanelTab(tab) {
@@ -2061,6 +2062,30 @@ if (dpTabBar) {
 //   #/perspective/<slug>
 // The router is reentrancy-guarded: when we apply a parsed hash we set a
 // flag so the open* handlers do not push a redundant hash update back.
+const PWA_ROUTE_KEY = "vedanta:pwa:last-route:v1";
+
+function isInstalledPwa() {
+  return new URLSearchParams(location.search).get("app") === "vedanta"
+    || window.matchMedia?.("(display-mode: standalone)").matches
+    || navigator.standalone === true;
+}
+
+function rememberPwaRoute() {
+  if (!isInstalledPwa()) return;
+  try {
+    if (location.hash.startsWith("#/")) localStorage.setItem(PWA_ROUTE_KEY, location.hash);
+    else localStorage.removeItem(PWA_ROUTE_KEY);
+  } catch (_) {}
+}
+
+function restorePwaRoute() {
+  if (!isInstalledPwa() || location.hash) return;
+  try {
+    const saved = localStorage.getItem(PWA_ROUTE_KEY);
+    if (saved?.startsWith("#/")) history.replaceState(null, "", location.pathname + location.search + saved);
+  } catch (_) {}
+}
+
 const router = {
   _suspendSerialize: false,
 
@@ -2114,6 +2139,7 @@ const router = {
     } catch (_) {
       location.hash = target.replace(/^#/, "");
     }
+    rememberPwaRoute();
   },
 
   apply(parsed) {
@@ -2178,8 +2204,13 @@ function applyUrlViewState() {
 }
 
 window.addEventListener("hashchange", () => {
+  rememberPwaRoute();
   const parsed = router.parse(location.hash);
   if (parsed) router.apply(parsed);
+});
+
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden") rememberPwaRoute();
 });
 
 async function openThinker(id) {
@@ -2214,6 +2245,13 @@ async function openThinker(id) {
   // wire read-full buttons
   detailContent.querySelectorAll("[data-read-full]").forEach((btn) => {
     btn.addEventListener("click", () => openReader(btn.dataset.readFull, btn.dataset.thinker));
+  });
+  detailContent.querySelectorAll("[data-open-article]").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      await ensureArticlesLoaded();
+      const article = (articlesManifest?.articles || []).find((item) => item.slug === btn.dataset.openArticle);
+      if (article) openArticle(article);
+    });
   });
   detailContent.querySelectorAll("[data-chronology-toggle]").forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -2629,6 +2667,9 @@ function renderWorkCard(w, passages, thinkerId) {
   const readButton = hasReadable
     ? `<button class="read-full-link" data-read-full="${escape(w.work_id)}" data-thinker="${escape(thinkerId)}">${readLabel}</button>`
     : "";
+  const interactiveButton = w.interactive_article_slug
+    ? `<button class="read-full-link" data-open-article="${escape(w.interactive_article_slug)}">Open complete reader</button>`
+    : "";
   return `
     <div class="work-card" data-work-id="${escape(w.work_id)}" data-source-status="${escape(status)}">
       <div class="title-line">
@@ -2638,7 +2679,7 @@ function renderWorkCard(w, passages, thinkerId) {
       <p class="summary">${summaryRendered.html}</p>
       ${ascrRendered.html ? `<p class="ascr-notes">${ascrRendered.html}</p>` : ""}
       ${statusLabel ? `<p class="source-status source-status--${statusKind}"><span class="dot"></span>${escape(statusLabel)}</p>` : ""}
-      ${readButton}
+      ${interactiveButton || readButton}
       ${renderFootnoteList(allFootnotes)}
       ${passagesBlock}
     </div>
@@ -5896,6 +5937,7 @@ function wireDetailPaneResize() {
 }
 
 // ---------- boot -----------
+restorePwaRoute();
 loadAll().then(() => {
   refreshLayoutConstants();
   _lastLaneH = LANE_H;

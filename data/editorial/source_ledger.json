@@ -167,6 +167,25 @@
       "notes": "The reader preserves BORI locus IDs, normalizes ISO 15919 display to standard IAST without changing the Sanskrit, and uses separately reviewed name boundaries. Any recension difference from the Chinmayananda edition must be recorded rather than silently harmonized."
     },
     {
+      "id": "vishnu-sahasranama-name-paninian-analysis",
+      "title_iast": "Viṣṇusahasranāma names: word-by-word Pāṇinian analysis",
+      "source_level": "secondary",
+      "source_path": "gita/vishnu-sahasranama/analysis.json",
+      "witness": "Site-authored closed analysis corpus for the exact 1,000-name population, joined to the pinned received text and BORI witness; morphology checked with Vidyut, lexical senses checked with Monier-Williams, and contextually reviewed against Chinmayananda's commentary.",
+      "rights_status": "site-authored-analysis-of-public-working-witness",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://vyasa/vishnu-sahasranama/name-analysis/"
+      ],
+      "review_areas": [
+        "vishnu-sahasranama",
+        "sanskrit-reader",
+        "paninian-grammar",
+        "advaita"
+      ],
+      "notes": "Every name must retain a direct translation distinct from commentary prose. The validator rejects extraction language in the Simple meaning layer and requires explicit uncertainty in the word card where a traditional derivation is disputed."
+    },
+    {
       "id": "vishnu-sahasranama-sanjeev-abhyankar-performance-preface",
       "title_iast": "Viṣṇusahasranāma recitation preface (Sanjeev Abhyankar performance sequence)",
       "source_level": "primary",
@@ -260,7 +279,7 @@
         "advaita",
         "sanskrit-reader"
       ],
-      "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. The public reader identifies Chinmayananda's English as an attributed traditional Advaita teaching layer and keeps it separate from the name-level interaction. Scan-checked preface engagement is stored separately in gita/vishnu-sahasranama/preface-commentary.json so it does not get confused with the numbered-name commentary. A second OCR of the same edition (SHA-256 8e87779ac1ac0555c9b12b62e895c2338bc8e6c5cf2e0cc82b9f9d69557f36a4) is retained under data/sources/_unverified_ocr for comparison only; it is not a distinct edition and contains missing number markers, malformed scripts, and scan-unsupported text, so the page image remains authoritative."
+      "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. Chinmayananda's scan-backed opening and full commentary remain attributed source prose in Full mode. The separate simple_meaning field is a reviewed direct translation layer: it may use his operative interpretation but never labels his controversy, cross-reference, or lexical discussion as the name's meaning. Scan-checked preface engagement is stored separately in gita/vishnu-sahasranama/preface-commentary.json. A second OCR of the same edition (SHA-256 8e87779ac1ac0555c9b12b62e895c2338bc8e6c5cf2e0cc82b9f9d69557f36a4) is comparison-only and not authoritative."
     }
   ]
 }

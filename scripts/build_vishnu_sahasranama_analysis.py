@@ -278,7 +278,7 @@ MEMBER_FORM_CORRECTIONS = {
 }
 
 TRANSLATION_CARD_AUDIT = {
-    2, 10, 11, 17, 23, 24, 27, 34, 45, 46, 56, 89, 91, 95, 113,
+    2, 10, 11, 17, 23, 24, 27, 34, 45, 46, 56, 89, 91, 95, 101, 113,
     125, 134, 184, 207, 213, 250, 555, 568, 595, 751, 774, 832, 842,
     871, 875, 894, 943, 945, 950,
 }
@@ -757,6 +757,10 @@ AUDIT_WORD_OVERRIDES = {
     89: reviewed_nominal("prajābhava", [("prajā", "creatures; offspring", "member"), ("bhava", "origin; coming into being", "member")]),
     91: reviewed_nominal("saṃvatsara", [("saṃvatsara", "year; cycle of time", "stem")]),
     95: reviewed_nominal("aja", [("a", "not", "prefix"), ("ja", "born; produced", "stem")]),
+    101: reviewed_nominal("vṛṣākapi", [
+        ("vṛṣa", "dharma; righteousness", "member"),
+        ("kapi", "the Boar; one who raises from the waters", "member"),
+    ]),
     113: reviewed_nominal("vṛṣākṛti", [("vṛṣa", "dharma; righteousness", "member"), ("ākṛti", "form; shape", "member")], "feminine"),
     125: reviewed_nominal("viṣvaksena", [("viṣvak", "throughout; on every side", "member"), ("senā", "army; host", "member")]),
     134: reviewed_nominal("surādhyakṣa", [("sura", "deity", "member"), ("adhyakṣa", "overseer; presiding authority", "member")]),
@@ -849,6 +853,7 @@ AUDIT_WORD_OVERRIDES = {
 DERIVATION_OVERRIDES = {
     2: "Veveṣṭi vyāpnoti iti viṣṇuḥ: 'that which pervades everywhere is Viṣṇu.' Chinmayananda connects the name with the root viś, 'to enter, to pervade.'",
     5: "Bhūtāni karoti iti bhūta-kṛt: 'the maker of beings'; or bhūtāni kṛntati iti bhūta-kṛt: 'the destroyer of beings.' Chinmayananda explicitly gives both dissolutions.",
+    101: "Chinmayananda cites kapi in the operative sense 'the Boar' and vṛṣa as dharma. His resulting interpretation is the Boar who raises the world from adharma into dharma; the longer commentary preserves the traditional lexical dispute rather than placing it in the translation slot.",
 }
 
 

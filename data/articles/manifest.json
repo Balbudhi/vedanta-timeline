@@ -4,9 +4,11 @@
     {
       "slug": "vishnu-sahasranama",
       "title": "Viṣṇu Sahasranāma — the thousand names",
-      "subtitle": "The 107 name-stanzas in Devanāgarī and IAST, with all 1,000 names keyed to Swami Chinmayananda’s *Thousand Ways to the Transcendental*. Every name is tappable for its meaning; his traditional Advaita commentary can be shown or hidden, and Sanjeev Abhyankar’s recitation plays independently.",
+      "subtitle": "The 107 name-stanzas in Devanāgarī and IAST, with all 1,000 names keyed to Swami Chinmayananda’s *Thousand Ways to the Transcendental*. Full mode presents his complete traditional Advaita commentary; Simple mode pairs each name with a direct translation. Sanjeev Abhyankar’s recitation plays independently.",
       "kind": "reading",
       "interactive": "vishnu-sahasranama",
+      "thinker_id": "chinmayananda",
+      "work_id": "thousand-ways-to-the-transcendental",
       "date": "2026-08-27"
     },
     {

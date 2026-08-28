@@ -553,11 +553,13 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
             item["citation_iast_ocr"] = source.get("source_heading_roman", source.get("heading_roman", ""))
             if source.get("source_heading_devanagari_ocr"):
                 item["deva_ocr"] = source["source_heading_devanagari_ocr"]
-            item["meaning"] = source.get("short_meaning") or first_definition(source["commentary"])
-            item["meaning_status"] = source.get("short_meaning_status", "derived-opening")
+            source_definition = source.get("short_meaning") or first_definition(source["commentary"])
+            item["meaning"] = source.get("simple_meaning") or source_definition
+            item["meaning_status"] = source.get("simple_meaning_status", "derived-direct")
             item["chinmayananda"] = {
+                "definition": source_definition,
                 "commentary": source["commentary"],
-                "detail": commentary_detail(source["commentary"], item["meaning"]),
+                "detail": commentary_detail(source["commentary"], source_definition),
                 "scan_pages": source["scan_pages"],
                 "verification_status": source["verification_status"],
                 "ocr_notes": source.get("ocr_notes", []),
@@ -644,6 +646,10 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
 
 def validate(data: dict, require_commentary: bool) -> dict:
     errors = []
+    commentary_source = {}
+    if require_commentary and COMMENTARY_PATH.exists():
+        source_rows = json.loads(COMMENTARY_PATH.read_text(encoding="utf-8")).get("names", [])
+        commentary_source = {row.get("number"): row for row in source_rows}
     preface = data.get("preface", {})
     preface_groups = preface.get("groups", [])
     expected_preface_counts = {"invocation": 6, "dialogue": 16, "assignment": 15, "meditation": 8}
@@ -703,13 +709,20 @@ def validate(data: dict, require_commentary: bool) -> dict:
             errors.append(f"name {number} lacks citation forms")
         if require_commentary:
             source = item.get("chinmayananda")
-            if not item.get("meaning") or not source or not source.get("commentary"):
+            if not item.get("meaning") or not source or not source.get("definition") or not source.get("commentary"):
                 errors.append(f"name {number} lacks Chinmayananda English")
             meaning = item.get("meaning", "")
-            if not 3 <= len(meaning) <= 240 or "\n" in meaning:
+            if not 3 <= len(meaning) <= 160 or "\n" in meaning:
                 errors.append(f"name {number} has an invalid concise meaning length/shape")
+            if re.search(r"\b(?:term|word|root|means?|meaning|interpreted|interpretation|dissolved|degree|familiar|etymolog|commented|used|stands for|indicates?|connotes?|reference|controvers|earlier|above|below|here we|we read|we find|can be|is called|name of)\b", meaning, re.I):
+                errors.append(f"name {number} concise meaning contains commentary or extraction prose")
             if re.search(r"[*†‡\u0900-\u0dff]", meaning):
                 errors.append(f"name {number} concise meaning contains a footnote marker or source script")
+            source_row = commentary_source.get(number, {})
+            if meaning != source_row.get("simple_meaning"):
+                errors.append(f"name {number} Simple meaning does not replay the reviewed direct-meaning corpus")
+            if source.get("commentary") != source_row.get("commentary"):
+                errors.append(f"name {number} Full commentary does not exactly replay Chinmayananda's transcription")
             analysis = item.get("word_analysis")
             if not analysis:
                 errors.append(f"name {number} lacks structured word analysis")
@@ -740,7 +753,8 @@ def validate(data: dict, require_commentary: bool) -> dict:
             if source and "detail" not in source:
                 errors.append(f"name {number} lacks the non-duplicative commentary detail field")
             detail = source.get("detail", "") if source else ""
-            if detail and re.match(rf"^{re.escape(meaning.strip())}(?:\s|[.,;:])", detail.lstrip()):
+            definition = source.get("definition", "") if source else ""
+            if detail and re.match(rf"^{re.escape(definition.strip())}(?:\s|[.,;:])", detail.lstrip()):
                 errors.append(f"name {number} detailed commentary repeats the concise definition")
     serialized = json.dumps(data, ensure_ascii=False)
     for fragment in FORBIDDEN_OCR_FRAGMENTS:
@@ -756,6 +770,10 @@ def validate(data: dict, require_commentary: bool) -> dict:
         "with_commentary": sum("chinmayananda" in item for item in names),
         "with_traditional_derivation": sum("traditional_derivation" in item for item in names),
         "critical_text_differences": sum(bool(stanza.get("critical_text_differs")) for stanza in stanzas),
+        "full_commentary_replay": sum(
+            item.get("chinmayananda", {}).get("commentary") == commentary_source.get(item.get("number"), {}).get("commentary")
+            for item in names
+        ) if require_commentary else None,
     }
 
 
@@ -815,7 +833,7 @@ def update_citation_index(data: dict, path: Path) -> int:
                     + ", ".join(str(page) for page in name["chinmayananda"]["scan_pages"]),
                 "locus_short": f"VSN name {number}",
                 "sanskrit_iast": name["surface_iast"],
-                "english_close": name["meaning"],
+                "english_close": name["chinmayananda"]["definition"],
                 "source": f"gita/vishnu-sahasranama/chinmayananda.json#names[{number - 1}]",
                 "verified": "scan-checked"
                     if name["chinmayananda"]["verification_status"] == "scan-checked"
