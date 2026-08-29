@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "range": [1, 250],
+  "expected_ids": [
+    "name-0001-derivation-claim", "name-0002-derivation-claim", "name-0003-derivation-claim", "name-0005-derivation-claim", "name-0013-derivation-claim", "name-0014-derivation-claim", "name-0015-derivation-claim", "name-0020-derivation-claim", "name-0023-derivation-claim", "name-0030-derivation-claim", "name-0039-derivation-claim", "name-0041-derivation-claim", "name-0047-derivation-claim", "name-0051-derivation-claim", "name-0057-derivation-claim", "name-0059-derivation-claim", "name-0060-derivation-claim", "name-0062-derivation-claim", "name-0064-derivation-claim", "name-0066-derivation-claim", "name-0069-derivation-claim", "name-0070-derivation-claim", "name-0072-derivation-claim", "name-0073-derivation-claim", "name-0078-derivation-claim", "name-0080-derivation-claim", "name-0082-derivation-claim", "name-0085-derivation-claim", "name-0086-derivation-claim", "name-0088-derivation-claim", "name-0090-derivation-claim", "name-0092-derivation-claim", "name-0096-derivation-claim", "name-0097-derivation-claim", "name-0098-derivation-claim", "name-0101-derivation-claim", "name-0103-derivation-claim", "name-0106-derivation-claim", "name-0108-derivation-claim", "name-0109-derivation-claim", "name-0110-derivation-claim", "name-0112-derivation-claim", "name-0113-derivation-claim", "name-0118-derivation-claim", "name-0119-derivation-claim", "name-0127-derivation-claim", "name-0129-derivation-claim", "name-0132-derivation-claim", "name-0146-derivation-claim", "name-0151-derivation-claim", "name-0152-derivation-claim", "name-0167-derivation-claim", "name-0175-derivation-claim", "name-0176-derivation-claim", "name-0178-derivation-claim", "name-0188-derivation-claim", "name-0189-derivation-claim", "name-0192-derivation-claim", "name-0196-derivation-claim", "name-0211-derivation-claim", "name-0216-derivation-claim", "name-0217-derivation-claim", "name-0219-derivation-claim", "name-0220-derivation-claim", "name-0224-derivation-claim", "name-0239-derivation-claim", "name-0245-derivation-claim", "name-0247-derivation-claim"
+  ],
+  "rows": {
+    "name-0001-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"viśvam comes from √viś, ‘to enter’","classification":"established-grammar","reason":"The Dhātupāṭha directly records विशँ प्रवेशने. This supports the root connection already present in the primary card; it does not by itself make the inflected noun a finite verb.","evidence":[{"source":"Chinmayananda, Viṣṇu Sahasranāma commentary","locus":"name 1, scan p.20","detail":"Prints the √viś explanation in the quoted context."},{"source":"Dhātupāṭha, primary and paired raw witness","locus":"06.0160","detail":"विशँ प्रवेशने; tudādi 6P."}],"public_derivation":null},
+        {"claim_text":"He created and entered the universe, or is that into which it entered","classification":"interpretive-not-etymology","reason":"These are reciprocal theological applications of ‘enter,’ not competing morphological derivations of viśvam.","evidence":[{"source":"Chinmayananda commentary","locus":"name 1, scan p.20","detail":"The applications follow the root statement and are framed as meanings of the divine name."}],"public_derivation":null}
+      ],
+      "review_notes":"The current √viś analysis is valid; keep the theological applications visibly attributed to the commentator."
+    },
+    "name-0002-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"viṣṇuḥ is from √viś ‘to enter/pervade,’ with veveṣṭi vyāpnoti","classification":"established-grammar","reason":"The source chain is unusually strong: Dhātupāṭha 06.0160 gives √viś ‘enter,’ and Uṇādi 3.39 prescribes ṇu after viṣ, explicitly yielding viṣṇuḥ. ‘Pervade’ is the traditional contextual extension of entering.","evidence":[{"source":"Chinmayananda commentary","locus":"name 2, scan pp.20–21","detail":"Prints veveṣṭi vyāpnoti iti viṣṇuḥ and the √viś claim."},{"source":"Dhātupāṭha, primary and paired raw witness","locus":"06.0160","detail":"विशँ प्रवेशने."},{"source":"Uṇādipāṭha, primary and paired raw witness","locus":"3.39","detail":"विषेः किच्च; raw vṛtti gives प्रत्यय णु and example विष्णुः."}],"public_derivation":null},
+        {"claim_text":"therefore Viṣṇu is unlimited by space, time, or substance","classification":"interpretive-not-etymology","reason":"That metaphysical conclusion is coherent with pervasiveness but is not entailed by the affixal derivation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 2, scan p.21","detail":"The limitlessness claim is presented after the grammatical explanation."}],"public_derivation":null}
+      ],
+      "review_notes":"No valid current derivation is to be removed; the Uṇādi witness supplies the missing direct citation for the existing ṇu analysis."
+    },
+    "name-0003-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"vaṣaṭkāra is the articulated vaṣaṭ call used with oblations","classification":"established-grammar","reason":"The compound vaṣaṭ + kāra is transparent and the Amarakosha witnesses vaṣaṭ among sacrificial calls; the existing card already expresses this formation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 3, scan p.21","detail":"Explains the ritual utterance and oblation context."},{"source":"Amarakośa","locus":"line 1490","detail":"स्वाहा ... श्रौषट्वौषट्वषट्स्वधा lists vaṣaṭ among sacrificial utterances."}],"public_derivation":null},
+        {"claim_text":"vaṣaṭkāra can signify yajña or one whose form is yajña","classification":"interpretive-not-etymology","reason":"This is an associative Vedic identification, not a second word-formation analysis.","evidence":[{"source":"Chinmayananda commentary","locus":"name 3, scan p.21","detail":"Marks the yajña reading as association and suggestion."}],"public_derivation":null}
+      ],
+      "review_notes":"Preserve the distinction between the transparent compound and the yajña identification."
+    },
+    "name-0005-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"bhūtāni karoti iti bhūtakṛt — maker of beings","classification":"established-grammar","reason":"This is the existing upapada analysis with √kṛ ‘do, make’ (08.0010).","evidence":[{"source":"Chinmayananda commentary","locus":"name 5, scan pp.21–22","detail":"Prints the maker dissolution."},{"source":"Dhātupāṭha, primary and paired raw witness","locus":"08.0010","detail":"डुकृञ् करणे, tanādi 8U."}],"public_derivation":null},
+        {"claim_text":"bhūtāni kṛntati iti bhūtakṛt — cutter/destroyer of beings","classification":"source-backed-alternative","reason":"This is a genuinely different valid root analysis, not merely a second English gloss. Dhātupāṭha 06.0171 gives √kṛt ‘cut’; the current card records only √kṛ ‘make.’","evidence":[{"source":"Chinmayananda commentary","locus":"name 5, scan p.22","detail":"Explicitly prints the annihilator dissolution."},{"source":"Dhātupāṭha, primary and paired raw witness","locus":"06.0171","detail":"कृतीँ छेदने, tudādi 6P."}],"public_derivation":{"id":"bhutakrt-cutter","label":"cutter / destroyer of beings","kind":"grammatical","meaning":"one who cuts down or destroys beings","parts":[{"form":"bhūta","gloss":"being, creature"},{"form":"√kṛt","gloss":"to cut"},{"form":"kvip","gloss":"zero-marked agent noun affix"}],"roots":[{"form":"√kṛt","gana":"tudādi (6)","pada":"parasmaipada","gloss":"to cut","dhatupatha":{"locus":"06.0171","aupadeshika_devanagari":"कृतीँ","artha_sanskrit":"छेदने"}}],"formation":"bhūta as the object-upapada + √kṛt + kvip; nominative singular masculine bhūtakṛt","morphology":"upapada-tatpuruṣa agent noun, nominative singular masculine","qualification":"A parallel grammatical derivation; do not collapse it into the separate √kṛ ‘maker’ analysis.","evidence":[{"source":"Dhātupāṭha primary/raw","locus":"06.0171","detail":"कृतीँ छेदने."},{"source":"Chinmayananda scan","locus":"name 5, p.22","detail":"bhūtāni kṛntati iti bhūtakṛt."}]}}
+      ],
+      "review_notes":"The popup must show both roots in parallel."
+    },
+    "name-0013-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {"claim_text":"a-vyaya means without loss/destruction and therefore changeless","classification":"established-grammar","reason":"Amarakośa defines vyaya as disappearance/loss of a thing, and the Dhātupāṭha has √vyay in the sense of decay. The negated nominal is grammatically sound; ‘changeless’ is a defensible consequence, not a separate root meaning.","evidence":[{"source":"Chinmayananda commentary","locus":"name 13, scan pp.24–25","detail":"Prints the a-vyaya explanation."},{"source":"Amarakośa","locus":"line 1184","detail":"अर्थस्यापगमे व्ययः."},{"source":"Dhātupāṭha, primary and paired raw witness","locus":"10.0137","detail":"व्ययँ क्षये."}],"public_derivation":{"id":"avyaya-negated-loss","label":"without loss or decay","kind":"grammatical","meaning":"not subject to loss, disappearance, or decay","parts":[{"form":"a-","gloss":"not; without"},{"form":"vyaya","gloss":"loss, disappearance, decay"}],"roots":[],"formation":"nañ-tatpuruṣa: a- + vyaya; nominative singular masculine avyayaḥ","morphology":"negative compound adjective, nominative singular masculine","qualification":"‘Changeless’ is the commentator’s inference from absence of decay.","evidence":[{"source":"Amarakośa","locus":"line 1184","detail":"अर्थस्यापगमे व्ययः."},{"source":"Dhātupāṭha primary/raw","locus":"10.0137","detail":"व्ययँ क्षये."}]}}
+      ],
+      "review_notes":"This split is absent from the current parts and is safe to add."
+    },
+    "name-0014-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"purā āsīt iti puruṣaḥ — he who existed before","classification":"attested-traditional-nirvacana","reason":"The scan attests this theological nirvacana. It is not a Pāṇinian segmentation, but it is consonant with the separately witnessed Uṇādi stream using puraḥ ‘before/in front.’","evidence":[{"source":"Chinmayananda commentary","locus":"name 14, scan p.25","detail":"Prints पुरा आसीत् इति पुरुषः."},{"source":"Uṇādipāṭha paired raw vṛtti","locus":"4.74","detail":"पुरः कुषन् ... पुरुषः; explains pur as अग्रगमने."}],"public_derivation":{"id":"purusa-before-nirvacana","label":"the one who was before","kind":"traditional-nirvacana","meaning":"the one who existed before all creatures","parts":[{"form":"purā","gloss":"before, formerly"},{"form":"āsīt","gloss":"was"}],"roots":[],"formation":"sentence-nirvacana purā āsīt iti puruṣaḥ; a semantic explanation, not the surface affixal parse","morphology":"traditional sentence-based nirvacana of the masculine nominative puruṣaḥ","qualification":"Display as traditional nirvacana, never as the sole Pāṇinian etymology.","evidence":[{"source":"Chinmayananda scan","locus":"name 14, p.25","detail":"पुरा आसीत् इति पुरुषः."},{"source":"Uṇādipāṭha raw vṛtti","locus":"4.74","detail":"A related grammatical stream begins from puraḥ, ‘before/in front.’"}]}},
+        {"claim_text":"pūrayati iti puruṣaḥ — one who fills/completes existence","classification":"unsupported-withheld","reason":"The local Dhātupāṭha witnesses √pṝ ‘fill,’ but the reviewed Pāṇinian, Uṇādi, and lexicon witnesses do not derive puruṣa from pūrayati. The commentator may preserve a tradition not present in this library; it cannot yet be emitted as grammar.","evidence":[{"source":"Chinmayananda commentary","locus":"name 14, scan p.25","detail":"Prints पूरयति इति पुरुषः."},{"source":"Uṇādipāṭha primary/raw","locus":"4.74","detail":"The available grammatical witness instead gives पुरः कुषन् ... पुरुषः."}],"public_derivation":null},
+        {"claim_text":"the source-backed Uṇādi formation of puruṣa","classification":"source-backed-alternative","reason":"Uṇādi 4.74 independently supplies a grammatical stream not represented in the current parts.","evidence":[{"source":"Uṇādipāṭha primary and paired raw witness","locus":"4.74","detail":"पुरः कुषन्; vṛtti: पुर अग्रगमने । पुरुषः."}],"public_derivation":{"id":"purusa-unadi","label":"one going before / foremost person","kind":"grammatical","meaning":"one associated with going before or being foremost","parts":[{"form":"puras","gloss":"before, in front"},{"form":"kuṣan","gloss":"Uṇādi derivative suffix"}],"roots":[],"formation":"puras + kuṣan under Uṇādi 4.74, with the witnessed result puruṣa","morphology":"Uṇādi-derived masculine stem; nominative singular puruṣaḥ","qualification":"This is a distinct grammatical stream, not a proof of the pūrayati wordplay.","evidence":[{"source":"Uṇādipāṭha primary/raw","locus":"4.74","detail":"पुरः कुषन् ... पुरुषः."}]}}
+      ],
+      "review_notes":"This row exemplifies why traditional nirvacana and grammatical derivation must be parallel, labeled layers."
+    },
+    "name-0015-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {"claim_text":"sākṣī is derived from sa + akṣi","classification":"unsupported-withheld","reason":"This directly conflicts with the available Pāṇinian derivation. Aṣṭādhyāyī 5.2.91 and Kāśikā derive sākṣin from the indeclinable sākṣāt with ini in the sense ‘direct witness’; neither source segments sa + akṣi.","evidence":[{"source":"Chinmayananda commentary","locus":"name 15, scan p.25","detail":"Attributes sa + akṣi to ‘Pāṇini Sutras.’"},{"source":"Aṣṭādhyāyī primary and paired raw witness","locus":"5.2.91","detail":"साक्षाद्द्रष्टरि संज्ञायाम्."},{"source":"Kāśikā primary and paired raw witness","locus":"5.2.91","detail":"साक्षाच्छब्दोऽव्ययम्। तस्मादिनिः ... साक्षी."}],"public_derivation":null},
+        {"claim_text":"the valid Pāṇinian formation of sākṣī","classification":"source-backed-alternative","reason":"The exact rule and vṛtti supply the replacement parallel derivation required by the popup.","evidence":[{"source":"Aṣṭādhyāyī/Kāśikā primary and raw","locus":"5.2.91","detail":"sākṣāt + ini, ‘a direct observer,’ yields sākṣin; nominative singular sākṣī."}],"public_derivation":{"id":"saksin-paninian","label":"direct witness","kind":"grammatical","meaning":"one who directly sees; a witness","parts":[{"form":"sākṣāt","gloss":"directly, before one’s eyes"},{"form":"ini","gloss":"possessive/agentive taddhita affix in the prescribed sense"}],"roots":[],"formation":"sākṣāt + ini by Aṣṭādhyāyī 5.2.91; stem sākṣin, nominative singular sākṣī","morphology":"taddhita-derived in-stem, nominative singular masculine","qualification":"This is the Pāṇinian derivation; sa + akṣi must not be emitted as valid grammar.","evidence":[{"source":"Aṣṭādhyāyī primary/raw","locus":"5.2.91","detail":"साक्षाद्द्रष्टरि संज्ञायाम्."},{"source":"Kāśikā primary/raw","locus":"5.2.91","detail":"तस्मादिनिः ... साक्षी."}]}}
+      ],
+      "review_notes":"Strict disagreement with the printed derivation; likely a received folk split or editorial simplification."
+    },
+    "name-0020-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"pradhāna means māyā and puruṣa means jīva here","classification":"interpretive-not-etymology","reason":"These are Vedāntic referent assignments inside the compound, not lexical derivations compelled by grammar.","evidence":[{"source":"Chinmayananda commentary","locus":"name 20, scan p.27","detail":"Defines the two dependents in explicitly doctrinal terms."}],"public_derivation":null},
+        {"claim_text":"īśte iti īśvaraḥ — the ruler/master","classification":"attested-traditional-nirvacana","reason":"The verbal explanation is supported at its semantic core by Dhātupāṭha √īś ‘exercise lordship.’ The exact nominal suffix is not secured by the cited scan and is therefore not overclaimed.","evidence":[{"source":"Chinmayananda commentary","locus":"name 20, scan p.27","detail":"Prints Eeshte iti Īśvaraḥ."},{"source":"Dhātupāṭha primary and paired raw witness","locus":"02.0010","detail":"ईशँ ऐश्वर्ये, adādi 2Ā."}],"public_derivation":{"id":"isvara-ruler-nirvacana","label":"the ruler / master","kind":"traditional-nirvacana","meaning":"one who rules or exercises lordship","parts":[{"form":"√īś","gloss":"to rule, possess lordship"},{"form":"īśvara","gloss":"ruler, lord"}],"roots":[{"form":"√īś","gana":"adādi (2)","pada":"ātmanepada","gloss":"to exercise lordship","dhatupatha":{"locus":"02.0010","aupadeshika_devanagari":"ईशँ","artha_sanskrit":"ऐश्वर्ये"}}],"formation":"traditional verbal nirvacana īśte iti īśvaraḥ; exact suffixal derivation withheld","morphology":"masculine nominal īśvara, nominative singular inside the compound head","qualification":"Valid as a traditional semantic derivation; not presented as a complete Pāṇinian affix trace.","evidence":[{"source":"Dhātupāṭha primary/raw","locus":"02.0010","detail":"ईशँ ऐश्वर्ये."},{"source":"Chinmayananda scan","locus":"name 20, p.27","detail":"Eeshte iti Īśvaraḥ."}]}}
+      ],
+      "review_notes":"The root meaning is secure; the māyā/jīva mapping remains attributed interpretation."
+    },
+    "name-0023-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [{"claim_text":"keśava means the one who destroyed the demon Keśin","classification":"interpretive-not-etymology","reason":"This is a narrative name-explanation based on an episode, not a morphological derivation of keśava. It may remain in commentary but should not be emitted as grammar.","evidence":[{"source":"Chinmayananda commentary","locus":"name 23, scan p.27","detail":"Frames the statement as an alternative narrative meaning."}],"public_derivation":null}],
+      "review_notes":"No local grammatical witness was found that turns Keśin + slaying into the surface keśava."
+    },
+    "name-0030-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [{"claim_text":"nidhīyate asmin iti nidhiḥ — that in which valuables are deposited","classification":"attested-traditional-nirvacana","reason":"The passive-locative explanation is semantically exact: Amarakośa lists nidhi as a treasure/depository, and √dhā is ‘holding/supporting.’ The scan does not specify a full affix trace, so the public record stays explicitly nirvacana-level.","evidence":[{"source":"Chinmayananda commentary","locus":"name 30, scan p.29","detail":"Prints Nidheeyate Asmin iti Nidhih."},{"source":"Amarakośa","locus":"line 86","detail":"निधिर्ना शेवधिः ... निधेः, identifying nidhi as treasure/depository."},{"source":"Dhātupāṭha primary/raw","locus":"03.0011","detail":"डुधाञ् धारणपोषणयोः."}],"public_derivation":{"id":"nidhi-depository","label":"that in which things are deposited","kind":"traditional-nirvacana","meaning":"a store or repository in which valuables are placed","parts":[{"form":"ni-","gloss":"down, in"},{"form":"√dhā","gloss":"to place, hold"},{"form":"nidhi","gloss":"deposit, store, treasure"}],"roots":[{"form":"√dhā","gana":"juhotyādi (3)","pada":"ubhayapada","gloss":"to hold, support, place","dhatupatha":{"locus":"03.0011","aupadeshika_devanagari":"डुधाञ्","artha_sanskrit":"धारणपोषणयोः"}}],"formation":"traditional passive-locative nirvacana nidhīyate asmin iti nidhiḥ; exact kṛt-affix trace withheld","morphology":"masculine i-stem, nominative singular nidhiḥ","qualification":"Semantically and traditionally supported; not represented as a completed affix-by-affix derivation.","evidence":[{"source":"Amarakośa","locus":"line 86","detail":"nidhi as treasure/depository."},{"source":"Dhātupāṭha primary/raw","locus":"03.0011","detail":"डुधाञ् धारणपोषणयोः."}]}}],
+      "review_notes":"Adds a valid traditional layer absent from the current stem-only parts."
+    },
+    "name-0039-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"āditya is a son/descendant of Aditi","classification":"established-grammar","reason":"Aṣṭādhyāyī 4.1.85 and Kāśikā directly give the taddhita formation and example ādityaḥ; Kāśikā also explicitly glosses aditer apatyam ādityaḥ.","evidence":[{"source":"Chinmayananda commentary","locus":"name 39, scan pp.30–31","detail":"Gives ‘Son of Aditi.’"},{"source":"Aṣṭādhyāyī primary/raw","locus":"4.1.85","detail":"दित्यदित्यादित्यपत्युत्तरपदाण्ण्यः."},{"source":"Kāśikā primary/raw","locus":"4.1.85 and 8.4.47 discussion","detail":"Gives आदित्यः and अदितेरपत्यमादित्यः."}],"public_derivation":{"id":"aditya-descendant-of-aditi","label":"descendant of Aditi","kind":"grammatical","meaning":"a son or descendant of Aditi","parts":[{"form":"aditi","gloss":"Aditi"},{"form":"ṇya","gloss":"apatya taddhita: descendant of"}],"roots":[],"formation":"aditi + ṇya in the descendant sense under Aṣṭādhyāyī 4.1.85; āditya","morphology":"taddhita masculine stem, nominative singular ādityaḥ","qualification":"The application specifically to the Vāmana incarnation is narrative theology, not part of the taddhita rule.","evidence":[{"source":"Aṣṭādhyāyī primary/raw","locus":"4.1.85","detail":"Prescribes ṇya after aditi."},{"source":"Kāśikā primary/raw","locus":"4.1.85","detail":"Example आदित्यः."}]}},
+        {"claim_text":"āditya can mean one who is like the sun","classification":"interpretive-not-etymology","reason":"Āditya is an established name of the sun, so the simile is intelligible, but ‘like the sun’ is an applicative comparison rather than another attested formation in the reviewed grammar sources.","evidence":[{"source":"Amarakośa","locus":"solar vocabulary, lines 123–128","detail":"Treats solar radiance vocabulary; āditya is conventionally the sun/deity."},{"source":"Chinmayananda commentary","locus":"name 39, scan p.31","detail":"Marks this as an additional meaning."}],"public_derivation":null}
+      ],
+      "review_notes":"The descendant derivation is strict grammar; the solar simile is not."
+    },
+    "name-0041-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"svana means sound","classification":"established-grammar","reason":"Amarakośa lists svana among words for sound; this supports the existing mahā + svana analysis.","evidence":[{"source":"Chinmayananda commentary","locus":"name 41, scan p.31","detail":"States svana means sound."},{"source":"Amarakośa","locus":"lines 204–206","detail":"शब्दे ... रवस्वनाः; lists svana among sound terms."}],"public_derivation":null},
+        {"claim_text":"svana also means breath, so the great breath is the Vedas","classification":"unsupported-withheld","reason":"The reviewed local lexica support ‘sound,’ not ‘breath,’ for svana. The Veda-breath statement may reflect another exegetical stream, but no witness in the assigned library secures that lexical step.","evidence":[{"source":"Chinmayananda commentary","locus":"name 41, scan p.31","detail":"Prints the breath alternative."},{"source":"Amarakośa","locus":"lines 204–206","detail":"Groups svana with sound terms, not prāṇa."}],"public_derivation":null}
+      ],
+      "review_notes":"Withhold the breath derivation pending a named traditional witness."
+    },
+    "name-0047-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"hṛṣīka means sense-organ","classification":"established-grammar","reason":"Amarakośa directly equates hṛṣīka with the sense-faculty; this supports the standard ‘lord of the senses’ compound stream.","evidence":[{"source":"Amarakośa","locus":"line 171","detail":"गोचरा इन्द्रियार्थाश्च हृषीकं विषयीन्द्रियम्."}],"public_derivation":{"id":"hrsikesa-lord-of-senses","label":"lord of the senses","kind":"grammatical","meaning":"the lord or ruler of the sense-faculties","parts":[{"form":"hṛṣīka","gloss":"sense-organ, sense-faculty"},{"form":"īśa","gloss":"lord, ruler"}],"roots":[],"formation":"ṣaṣṭhī-tatpuruṣa, hṛṣīkāṇām īśaḥ","morphology":"compound masculine stem, nominative singular hṛṣīkeśaḥ","qualification":"This is the lexically secured compound analysis and differs from the commentator’s rays alternative.","evidence":[{"source":"Amarakośa","locus":"line 171","detail":"hṛṣīka = sense-faculty."}]}},
+        {"claim_text":"hṛṣīka also means rays or that which gives joy; hence lord of sun and moon rays","classification":"unsupported-withheld","reason":"Neither ‘rays’ nor ‘giver of joy’ for hṛṣīka was secured in the reviewed Prakriya lexica/grammar witnesses. The claim may belong to an exegetical tradition not represented locally.","evidence":[{"source":"Chinmayananda commentary","locus":"name 47, scan pp.33–34","detail":"Prints both obsolete alternatives."},{"source":"Amarakośa","locus":"line 171","detail":"The available lexical witness gives only the sense-faculty meaning here."}],"public_derivation":null}
+      ],
+      "review_notes":"The rays stream is not declared false universally, but it is not publishable from the present evidence."
+    },
+    "name-0051-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"mananaśīlaḥ manuḥ — one disposed to reflect","classification":"established-grammar","reason":"Uṇādi 1.10 derives manu from √man with u; Dhātupāṭha 08.0009 supplies ‘understand/know.’ The reflective gloss is a reasonable contextual rendering.","evidence":[{"source":"Chinmayananda commentary","locus":"name 51, scan p.34","detail":"Prints Mananaseelah manuḥ."},{"source":"Uṇādipāṭha primary/raw","locus":"1.10","detail":"शॄ...मनिभ्यश्च, प्रत्यय उ; raw vṛtti gives मनुः."},{"source":"Dhātupāṭha primary/raw","locus":"08.0009","detail":"मनुँ अवबोधने, tanādi 8Ā."}],"public_derivation":{"id":"manu-reflector","label":"one who understands or reflects","kind":"grammatical","meaning":"one connected with understanding or reflection","parts":[{"form":"√man","gloss":"to understand, think"},{"form":"u","gloss":"Uṇādi derivative suffix"}],"roots":[{"form":"√man","gana":"tanādi (8)","pada":"ātmanepada","gloss":"to understand","dhatupatha":{"locus":"08.0009","aupadeshika_devanagari":"मनुँ","artha_sanskrit":"अवबोधने"}}],"formation":"√man + u under Uṇādi 1.10, yielding manu","morphology":"u-stem masculine, nominative singular manuḥ","qualification":"The English ‘reflective’ is contextual; the witnessed root sense is avabodhana.","evidence":[{"source":"Uṇādipāṭha primary/raw","locus":"1.10","detail":"u affix after √man; example manuḥ."},{"source":"Dhātupāṭha primary/raw","locus":"08.0009","detail":"मनुँ अवबोधने."}]}},
+        {"claim_text":"manu also means mantra, hence the Lord as Vedic mantras","classification":"unsupported-withheld","reason":"No reviewed local grammatical or lexicographic witness equates manu with mantra. This may preserve a separate traditional usage but presently lacks publishable evidence.","evidence":[{"source":"Chinmayananda commentary","locus":"name 51, scan p.34","detail":"Makes the manu = mantra assertion."},{"source":"Uṇādipāṭha primary/raw","locus":"1.10","detail":"Supports the √man derivation but not the asserted lexical identity."}],"public_derivation":null}
+      ],
+      "review_notes":"Publish the Uṇādi formation; withhold manu = mantra until a named witness is found."
+    },
+    "name-0057-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"kṛṣṇa means dark/black","classification":"established-grammar","reason":"Amarakośa lists kṛṣṇa among dark/black colour terms, and Uṇādi 3.4 derives kṛṣṇa from √kṛṣ with nak specifically in the colour sense.","evidence":[{"source":"Chinmayananda commentary","locus":"name 57, scan p.36","detail":"States the dark meaning."},{"source":"Amarakośa","locus":"line 177","detail":"कृष्णे नीलासितश्याम... lists colour equivalents."},{"source":"Uṇādipāṭha primary/raw","locus":"3.4","detail":"कृषेर्वर्णे; प्रत्यय नक्; example कृष्णः."},{"source":"Dhātupāṭha primary/raw","locus":"01.1145","detail":"कृषँ विलेखने, bhvādi 1P."}],"public_derivation":{"id":"krsna-unadi-colour","label":"dark / black","kind":"grammatical","meaning":"dark-coloured, black","parts":[{"form":"√kṛṣ","gloss":"to scrape, draw a furrow"},{"form":"nak","gloss":"Uṇādi suffix prescribed in the colour sense"}],"roots":[{"form":"√kṛṣ","gana":"bhvādi (1)","pada":"parasmaipada","gloss":"to scrape or draw a furrow","dhatupatha":{"locus":"01.1145","aupadeshika_devanagari":"कृषँ","artha_sanskrit":"विलेखने"}}],"formation":"√kṛṣ + nak under Uṇādi 3.4 in the colour sense, yielding kṛṣṇa","morphology":"a-stem adjective/name, nominative singular masculine kṛṣṇaḥ","qualification":"The Uṇādi affix is nak; it is not the independent syllable na meaning bliss.","evidence":[{"source":"Uṇādipāṭha primary/raw","locus":"3.4","detail":"कृषेर्वर्णे; nak; कृष्णः."},{"source":"Amarakośa","locus":"line 177","detail":"kṛṣṇa among black/dark terms."}]}},
+        {"claim_text":"kṛṣ means existence and na means bliss, therefore Kṛṣṇa is existence-bliss","classification":"attested-traditional-nirvacana","reason":"This is not the Pāṇinian surface derivation, but it is independently attested in the Mahābhārata tradition: kṛṣ is read as existence and ṇa as nirvṛti/bliss. It belongs in parallel with, not in place of, the Uṇādi colour derivation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 57, scan p.36","detail":"Prints the kṛṣ + ṇa existence-bliss split."},{"source":"Dhātupāṭha primary/raw","locus":"01.1145 and 06.0006","detail":"The formal √kṛṣ entries give विलेखने; this distinguishes the grammatical root from the traditional nirvacana."},{"source":"Uṇādipāṭha primary/raw","locus":"3.4","detail":"Prescribes suffix nak as the formal colour derivation."},{"source":"https://titus.uni-frankfurt.de/texte/etcs/ind/aind/mbh/mbh731.htm","locus":"Mahābhārata Udyogaparvan 5.68.5 (numbering varies by edition)","detail":"कृषिर्भूवाचकः शब्दो णश्च निर्वृतिवाचकः ... independently attests the existence/bliss nirvacana."}],"public_derivation":{"id":"krsna-existence-bliss-nirvacana","label":"Existence and bliss","kind":"traditional-nirvacana","meaning":"the eternal Brahman understood as existence joined with bliss","parts":[{"form":"kṛṣ","gloss":"existence, in this traditional nirvacana"},{"form":"ṇa","gloss":"nirvṛti, bliss"}],"roots":[],"formation":"Traditional sound-based nirvacana attested in the Mahābhārata; it is not the Pāṇinian √kṛṣ + nak surface formation.","morphology":"Interpretive decomposition of the established name kṛṣṇa; no independent inflectional morphology is asserted for ṇa.","qualification":"Valid as an attested traditional nirvacana, not as a replacement for the grammatical colour derivation.","evidence":[{"source":"https://titus.uni-frankfurt.de/texte/etcs/ind/aind/mbh/mbh731.htm","locus":"Mahābhārata Udyogaparvan 5.68.5","detail":"Attests kṛṣ as existence and ṇa as nirvṛti in the traditional explanation of Kṛṣṇa."},{"source":"gita/vishnu-sahasranama/chinmayananda.json","locus":"name 57; scan p.36","detail":"Chinmayananda explicitly invokes this Mahābhārata nirvacana."}]}}
+      ],
+      "review_notes":"Two parallel streams are valid: the Uṇādi grammatical colour derivation and the independently attested Mahābhārata existence-bliss nirvacana. They must not be collapsed into one formation."
+    },
+    "name-0059-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"tarda means destruction/injury","classification":"source-backed-alternative","reason":"The exact root claimed by the commentator is independently present: Dhātupāṭha 01.0060 has तर्दँ हिंसायाम्. The current popup instead uses the distinct √tṛd at 07.0009; both are source-backed and should appear in parallel.","evidence":[{"source":"Chinmayananda commentary","locus":"name 59, scan p.37","detail":"Prints तर्द हिंसायाम्."},{"source":"Dhātupāṭha primary/raw","locus":"01.0060","detail":"तर्दँ हिंसायाम्, bhvādi 1P."},{"source":"Dhātupāṭha primary/raw","locus":"07.0009","detail":"उँतृदिँर् हिंसानादरयोः, the different current root."}],"public_derivation":{"id":"pratardana-tard","label":"destroyer through √tard","kind":"grammatical","meaning":"destroying, injuring; a destroyer","parts":[{"form":"pra-","gloss":"forth; intensifying in this use"},{"form":"√tard","gloss":"to injure, destroy"},{"form":"lyuṭ (ana)","gloss":"action/agent-forming suffix"}],"roots":[{"form":"√tard","gana":"bhvādi (1)","pada":"parasmaipada","gloss":"to injure or destroy","dhatupatha":{"locus":"01.0060","aupadeshika_devanagari":"तर्दँ","artha_sanskrit":"हिंसायाम्"}}],"formation":"pra- + √tard + lyuṭ (ana), yielding pratardana","morphology":"a-stem action/agent noun used as nominative singular masculine pratardanaḥ","qualification":"A valid alternative to the current √tṛd analysis; ‘supreme’ is an interpretive intensification of pra-, not the root meaning.","evidence":[{"source":"Dhātupāṭha primary/raw","locus":"01.0060","detail":"तर्दँ हिंसायाम्."},{"source":"Chinmayananda scan","locus":"name 59, p.37","detail":"pra-tarda as supreme destruction."}]}},
+        {"claim_text":"pra makes the meaning ‘supreme destruction’","classification":"interpretive-not-etymology","reason":"Pra- can intensify or project the action forward, but ‘supreme’ is a theological contextual rendering rather than a fixed morpheme gloss.","evidence":[{"source":"Chinmayananda commentary","locus":"name 59, scan p.37","detail":"Explicitly supplies the superlative interpretation."}],"public_derivation":null}
+      ],
+      "review_notes":"This is a substantive valid disagreement with the current root, not an error to erase: display both √tard and √tṛd derivations."
+    },
+    "name-0060-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [{"claim_text":"prabhūta means born full or ever-full (paripūrṇa)","classification":"established-grammar","reason":"Amarakośa directly groups prabhūta with pracura, prājya, bahula, and bahu: abundant/plentiful. ‘Ever-full’ is a devotional sharpening; ‘born full’ should not be treated as a literal compositional parse.","evidence":[{"source":"Chinmayananda commentary","locus":"name 60, scan p.37","detail":"Gives born-full/ever-full."},{"source":"Amarakośa","locus":"line 1118","detail":"प्रभूतं प्रचुरं प्राज्यमदभ्रं बहुलं बहु."}],"public_derivation":null}],
+      "review_notes":"The lexical abundance sense is secure and already represented; qualify the English theological expansion."
+    },
+    "name-0062-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [{"claim_text":"pavi means the vajra/thunderbolt","classification":"established-grammar","reason":"Amarakośa explicitly lists pavi as a synonym of vajra. In pavitra this functions as a traditional associative interpretation rather than a necessary internal segmentation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 62, scan pp.37–38","detail":"Gives the vajra alternative."},{"source":"Amarakośa","locus":"line 57","detail":"ह्रादिनी वज्रमस्त्री स्यात्कुलिशं भिदुरं पविः."}],"public_derivation":null}],
+      "review_notes":"Lexical claim established; no new parallel derivation because the claim does not secure a full formation of pavitra from pavi."
+    },
+    "name-0064-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [{"claim_text":"īśāna can mean the supreme Īśvara/Parameśvara","classification":"interpretive-not-etymology","reason":"This is a referential/theological identification, not a competing derivation. The verbal base √īś ‘exercise lordship’ supports the governing sense, but ‘supreme’ comes from context.","evidence":[{"source":"Chinmayananda commentary","locus":"name 64, scan p.38","detail":"Frames Parameśvara as an alternative referent."},{"source":"Dhātupāṭha primary/raw","locus":"02.0010","detail":"ईशँ ऐश्वर्ये."}],"public_derivation":null}],
+      "review_notes":"Do not label this as an etymological disagreement."
+    },
+    "name-0066-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [{"claim_text":"prāṇa suggests the ever-living Lord and the source of the atmosphere’s life impulse","classification":"interpretive-not-etymology","reason":"Prāṇa is securely ‘breath/vital air’ (Amarakośa enumerates the vital airs), while immortality and cosmic causal power are theological applications rather than word formation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 66, scan pp.38–39","detail":"Moves from prāṇa to immortality and cosmic life support."},{"source":"Amarakośa","locus":"lines 75–77","detail":"Lists prāṇa among winds/vital airs and locates it in the body."}],"public_derivation":null}],
+      "review_notes":"The current lexical gloss is adequate; keep the cosmic reading in attributed prose."
+    },
+    "name-0069-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [{"claim_text":"prajā means children/offspring; prajāpati is their lord/father","classification":"established-grammar","reason":"The compound prajā + pati is transparent and Amarakośa attests prajā in ‘offspring/people.’ ‘Great Father’ is a natural contextual rendering of lord of offspring.","evidence":[{"source":"Chinmayananda commentary","locus":"name 69, scan p.39","detail":"Explains children and fatherhood."},{"source":"Amarakośa","locus":"line 1248","detail":"प्रजा स्यात्सन्ततौ जने."}],"public_derivation":null}],
+      "review_notes":"Already expressed by current parts."
+    },
+    "name-0070-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {"claim_text":"hiraṇya ‘gold’ signifies objects of fulfilment and joy","classification":"interpretive-not-etymology","reason":"The value/joy association is cultural and theological, not the lexical formation of hiraṇyagarbha.","evidence":[{"source":"Chinmayananda commentary","locus":"name 70, scan p.39","detail":"Explicitly calls it a Sanskrit idiom."}],"public_derivation":null},
+        {"claim_text":"garbha is the womb/source of all objects","classification":"established-grammar","reason":"This is the normal compound-member sense already represented by hiraṇya + garbha; the creator theology is its application.","evidence":[{"source":"Amarakośa","locus":"line 16","detail":"Lists hiraṇyagarbha as a name of Brahmā/creator."},{"source":"Chinmayananda commentary","locus":"name 70, scan p.39","detail":"Explains the womb-of-all-objects reading."}],"public_derivation":null}
+      ],
+      "review_notes":"No omitted parallel derivation beyond the current compound parts."
+    },
+    "name-0072-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [{"claim_text":"mādhava can mean the Silent (maunin), the non-interfering witness","classification":"unsupported-withheld","reason":"The reviewed local lexica attest Mādhava as a Viṣṇu name and other conventional madh(u)-based senses, but do not derive it from mauna or ‘silent.’ This may be a lineage nirvacana absent from the library.","evidence":[{"source":"Chinmayananda commentary","locus":"name 72, scan p.40","detail":"Prints the silent-witness alternative."},{"source":"Amarakośa","locus":"lines 19, 146, 431","detail":"Attests Mādhava as Viṣṇu, a spring month, and a plant name, without the claimed silent derivation."}],"public_derivation":null}],
+      "review_notes":"Withheld rather than declared universally impossible."
+    },
+    "name-0073-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [{"claim_text":"madhu in Vedic usage can signify karma-phala","classification":"unsupported-withheld","reason":"The local lexica securely attest honey, flower-juice, sweetness, and related senses, but the assigned source library did not yield a direct witness equating madhu with fruits of action. The theological application should remain prose until its Vedic locus is supplied.","evidence":[{"source":"Chinmayananda commentary","locus":"name 73, scan p.40","detail":"Asserts the Vedic karma-phala sense."},{"source":"Amarakośa","locus":"line 1320","detail":"मधु मद्ये पुष्परसे क्षौद्रे, attesting other senses but not karma-phala."}],"public_derivation":null}],
+      "review_notes":"Potentially traditional, but unresolved because the claimed Vedic locus is absent."
+    },
+    "name-0078-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {"claim_text":"vi means the king of birds/white-necked eagle, and vikrama means one who rides it","classification":"unsupported-withheld","reason":"The reviewed grammar supports vi- + √kram and vikrama as stepping/stride; it does not support vi as ‘king of birds’ within this formation. The Garuḍa reading is a devotional rebus.","evidence":[{"source":"Chinmayananda commentary","locus":"name 78, scan pp.41–42","detail":"Prints the vi = bird interpretation."},{"source":"Kāśikā","locus":"1.3.41, line 243","detail":"Explains vi + √kram in pादविहरण, stepping/movement."},{"source":"Amarakośa","locus":"line 1359","detail":"क्रान्तौ च विक्रमः."}],"public_derivation":null},
+        {"claim_text":"krama means steps/movement","classification":"established-grammar","reason":"This member meaning is directly supported and already represented in the current parts.","evidence":[{"source":"Kāśikā","locus":"1.3.41","detail":"Treats vikrama/vikramaṇa as a kind of stepping movement."}],"public_derivation":null}
+      ],
+      "review_notes":"Strict disagreement only concerns vi = Garuḍa; the step/movement analysis remains valid."
+    },
+    "name-0080-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [{"claim_text":"anuttama is one beyond whom no superior exists","classification":"established-grammar","reason":"The negative construction an- + uttama yields unsurpassed/unexcelled. The quoted vigraha is semantically correct, though it is an explanatory paraphrase rather than a separate derivation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 80, scan p.42","detail":"Gives avidyamāna uttamo yasmāt."},{"source":"Amarakośa","locus":"line 903 and superlative vocabulary","detail":"Attests uttama as the higher/superior member in contrasts."}],"public_derivation":null}],
+      "review_notes":"Current anuttama gloss already captures the valid result."
+    },
+    "name-0082-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [{"claim_text":"kṛtajña is used socially for gratitude","classification":"interpretive-not-etymology","reason":"The social sense ‘grateful’ is a lexicalized application of kṛta-jña, literally ‘knowing what has been done.’ The moral discussion of repayment is not morphology; the current kṛta + jña parts are the grammatical analysis.","evidence":[{"source":"Chinmayananda commentary","locus":"name 82, scan pp.42–43","detail":"Discusses gratitude and repayment of services."}],"public_derivation":null}],
+      "review_notes":"No competing derivation is asserted."
+    },
+    "name-0085-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [{"claim_text":"sureśa is lord of the suras/gods; therefore best among fulfilment-givers","classification":"established-grammar","reason":"Sura + īśa ‘lord of gods’ is a transparent compound. ‘Best among those who fulfil demands’ is an interpretive characterization of the suras, not the compound’s grammar.","evidence":[{"source":"Chinmayananda commentary","locus":"name 85, scan p.43","detail":"First gives lord of suras, then the fulfilment-giver expansion."},{"source":"Amarakośa","locus":"lines 7 and 53","detail":"Uses sura for gods and surapati for their lord."}],"public_derivation":null}],
+      "review_notes":"Retain lord-of-gods as literal; attribute the devotional expansion."
+    },
+    "name-0086-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [{"claim_text":"śaraṇa means protector and home","classification":"established-grammar","reason":"The cited Amarakośa claim is exact: śaraṇa is used for both house and protector.","evidence":[{"source":"Chinmayananda commentary","locus":"name 86, scan pp.43–44","detail":"Cites the Sanskrit lexicon."},{"source":"Amarakośa","locus":"line 1269","detail":"शरणं गृहरक्षित्रोः."}],"public_derivation":null}],
+      "review_notes":"No extra derivation is needed; the current card should ensure both attested senses are visible."
+    },
+    "name-0088-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"retas means seed, so viśvaretā is the seed of the universe","classification":"established-grammar","reason":"Amarakośa places retas with bīja and vīrya; the compound viśva + retas is already correctly segmented. The tree-of-life image is interpretation, not another formation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 88, scan p.44","detail":"States retas means seed."},{"source":"Amarakośa","locus":"line 637","detail":"शुक्रं तेजोरेतसी च बीजवीर्येन्द्रियाणि च."}],"public_derivation":null}],
+      "review_notes":"Current parts already express the complete valid compound."
+    },
+    "name-0090-derivation-claim": {
+      "primary_relation":"different-question",
+      "dispositions":[{"claim_text":"ahaḥ as daytime signifies brightness; as a 24-hour day it signifies Time","classification":"interpretive-not-etymology","reason":"Both day/daytime readings are lexical, while effulgence and identification with Time are theological predications from those senses, not derivations of ahaḥ.","evidence":[{"source":"Chinmayananda commentary","locus":"name 90, scan p.44","detail":"Explicitly branches from two senses of day to two applications."}],"public_derivation":null}],
+      "review_notes":"Keep both applications as attributed prose; neither is a new morpheme analysis."
+    },
+    "name-0092-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"vyāla also means serpent","classification":"established-grammar","reason":"Amarakośa explicitly lists vyāla among serpent terms. The statement that truth appears serpent-like to the uncomprehending is a simile, not etymology.","evidence":[{"source":"Chinmayananda commentary","locus":"name 92, scan p.44","detail":"Gives the serpent alternative and its simile."},{"source":"Amarakośa","locus":"line 255 and line 1415","detail":"व्यालः सरीसृपः; also पुंसि श्वापदसर्पयोः."}],"public_derivation":null}],
+      "review_notes":"Lexical alternative established."
+    },
+    "name-0096-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"sarveśvara means the Almighty/All-powerful","classification":"interpretive-not-etymology","reason":"‘Lord of all’ is the literal compound; ‘Almighty’ is an idiomatic English consequence, not a different Sanskrit derivation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 96, scan p.46","detail":"Presents Almighty as an explanatory sense."}],"public_derivation":null}],
+      "review_notes":"Current compound gloss is sufficient."
+    },
+    "name-0097-derivation-claim": {
+      "primary_relation":"unsupported",
+      "dispositions":[{"claim_text":"siddha can mean ‘the most famous’ (prasiddha)","classification":"unsupported-withheld","reason":"The reviewed sources support siddha as accomplished/perfected and prasiddha as a separately prefixed form. The scan supplies no lexicon or grammar locus making bare siddha mean ‘most famous.’","evidence":[{"source":"Chinmayananda commentary","locus":"name 97, scan p.46","detail":"Gives प्रसिद्धः as the proposed alternative."},{"source":"Amarakośa","locus":"line 247","detail":"Uses saṃsiddhi in the completion/nature domain, not fame."}],"public_derivation":null}],
+      "review_notes":"Could reflect a loose English association through prasiddha; withhold as a derivation."
+    },
+    "name-0098-derivation-claim": {
+      "primary_relation":"different-question",
+      "dispositions":[{"claim_text":"siddhi means fruit of action, here the infinite fruit of mokṣa","classification":"interpretive-not-etymology","reason":"Siddhi can denote accomplishment/result, but identifying the result specifically as mokṣa and contrasting it with heavenly karma-results is contextual theology, not morphology.","evidence":[{"source":"Chinmayananda commentary","locus":"name 98, scan p.46","detail":"Develops the mokṣa/karma-phala contrast."}],"public_derivation":null}],
+      "review_notes":"The current card needs a clean ‘accomplishment/result’ gloss; the mokṣa application stays attributed."
+    },
+    "name-0101-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"vṛṣa means dharma and kapi is the Boar","classification":"attested-traditional-nirvacana","reason":"Amarakośa directly lists vṛṣa as dharma and separately identifies vṛṣākapi with Hari/Viṣṇu. The Varāha narrative explains the divine-name application but is not a uniquely compelled compound vigraha.","evidence":[{"source":"Chinmayananda commentary","locus":"name 101, scan pp.46–47","detail":"Explains Varāha raising the world and vṛṣa as dharma."},{"source":"Amarakośa","locus":"line 154","detail":"स्याद्धर्ममस्त्रियां ... वृषः."},{"source":"Amarakośa","locus":"line 1347","detail":"हरविष्णू वृषाकपी."}],"public_derivation":null}],
+      "review_notes":"Current parts already carry this traditional interpretation."
+    },
+    "name-0103-derivation-claim": {
+      "primary_relation":"different-question",
+      "dispositions":[{"claim_text":"sarvayoga-viniḥsṛta can mean beyond the reach of all yoga systems","classification":"interpretive-not-etymology","reason":"The participial structure means gone out from/free of all connections; taking yoga as named śāstric systems creates a theological scope reading, not another formation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 103, scan p.47","detail":"Marks the yoga-systems reading as a final alternative."}],"public_derivation":null}],
+      "review_notes":"Do not replace the literal ‘free from every connection’ analysis."
+    },
+    "name-0106-derivation-claim": {
+      "primary_relation":"unsupported",
+      "dispositions":[{"claim_text":"satyam splits into sat-ti-yam, meaning prāṇa-food-sun, according to an Upaniṣad","classification":"unsupported-withheld","reason":"This is explicitly a sound-based Upaniṣadic nirvacana, not the grammatical formation of satya. The scan gives no exact Upaniṣad locus, and the assigned local source library does not contain a witness for this particular prāṇa/food/sun mapping; it therefore cannot yet enter the popup as a valid derivation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 106, scan p.48","detail":"Prints the three-sound explanation without a precise Upaniṣad citation."},{"source":"Amarakośa","locus":"line 204","detail":"Attests satya as ‘true/factual,’ not the three-syllable derivation."}],"public_derivation":null}],
+      "review_notes":"Potentially an esoteric textual tradition; exact Upaniṣad and reading must be acquired before publication."
+    },
+    "name-0108-derivation-claim": {
+      "primary_relation":"unsupported",
+      "dispositions":[{"claim_text":"the cited sammitaḥ is explained through asammitaḥ, ‘incomparable’","classification":"unsupported-withheld","reason":"The claim changes the name’s reading by adding initial a-. Sammatam ‘acceptable/approved’ does not derive the inventory’s sammitaḥ into asammitaḥ. This is a textual-reading issue, not a permissible alternate derivation of the cited form.","evidence":[{"source":"Chinmayananda commentary","locus":"name 108, scan p.49","detail":"Moves from sammatam to ‘here Asammitah.’"},{"source":"candidate inventory","locus":"name 108 citation","detail":"The reviewed citation is sammitaḥ, without initial a-."}],"public_derivation":null}],
+      "review_notes":"Requires direct stanza-witness collation for sammitaḥ/asammitaḥ; no silent emendation."
+    },
+    "name-0109-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"samaḥ can be heard as sa + Mā, ‘together with Lakṣmī’","classification":"attested-traditional-nirvacana","reason":"The scan securely attests the commentator’s devotional sound-nirvacana, but it is not the grammatical formation of sama ‘equal/same.’ It may be shown only with that label and qualification.","evidence":[{"source":"Chinmayananda commentary","locus":"name 109, scan p.49","detail":"Explicitly splits Sa and Maa and identifies Maa with Lakṣmī."}],"public_derivation":{"id":"sama-with-ma-nirvacana","label":"together with Mā (Lakṣmī)","kind":"traditional-nirvacana","meaning":"the one who is always together with Mā, understood as Lakṣmī","parts":[{"form":"sa","gloss":"with"},{"form":"Mā","gloss":"Lakṣmī, in this devotional explanation"}],"roots":[],"formation":"sound-based devotional nirvacana sa + Mā; not the historical or Pāṇinian formation of sama","morphology":"interpretive resegmentation of nominative singular samaḥ","qualification":"Attested here only in Chinmayananda’s commentary; the ordinary grammatical analysis remains sama ‘equal/same.’","evidence":[{"source":"Chinmayananda scan","locus":"name 109, p.49","detail":"‘united, with (Sa) Lakṣmī (Maa).’"}]}}],
+      "review_notes":"A valid traditional reading as attribution, not valid replacement grammar."
+    },
+    "name-0110-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"mogha means fruitless/useless or disappointing","classification":"established-grammar","reason":"Amarakośa directly glosses mogha as nirarthaka ‘fruitless/meaningless.’ ‘Useless fellow’ is colloquial personification, and ‘disappointing power’ is contextual paraphrase.","evidence":[{"source":"Chinmayananda commentary","locus":"name 110, scan p.49","detail":"Gives niṣphala and the colloquial expansion."},{"source":"Amarakośa","locus":"line 1136","detail":"मोघं निरर्थकम्."}],"public_derivation":null}],
+      "review_notes":"The negative a-mogha formation is already implicit in the current stem; avoid the personifying gloss in morphology."
+    },
+    "name-0112-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"vṛṣa means dharma","classification":"established-grammar","reason":"Amarakośa explicitly gives vṛṣa as dharma; current compound parts already include it.","evidence":[{"source":"Chinmayananda commentary","locus":"name 112, scan p.49","detail":"States vṛṣa means dharma."},{"source":"Amarakośa","locus":"line 154","detail":"स्याद्धर्ममस्त्रियां ... वृषः."}],"public_derivation":null}],
+      "review_notes":"No additional derivation."
+    },
+    "name-0113-derivation-claim": {
+      "primary_relation":"different-question",
+      "dispositions":[{"claim_text":"vṛṣākṛti is one who assumes forms in incarnations to maintain dharma","classification":"interpretive-not-etymology","reason":"The literal members are vṛṣa ‘dharma’ and ākṛti ‘form.’ Multiple incarnational forms and their purpose are doctrinal applications, not a second formation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 113, scan pp.49–50","detail":"Connects divine forms to maintaining dharma."},{"source":"Amarakośa","locus":"line 154","detail":"vṛṣa = dharma."}],"public_derivation":null}],
+      "review_notes":"Current compound segmentation remains controlling."
+    },
+    "name-0118-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"śravas means ears and also names; śuciśravā has sacred names","classification":"established-grammar","reason":"The reviewed lexicon supports śravas as hearing and the broader fame/repute domain; ‘ears’ is metonymic for hearing, while ‘names’ is best understood as renowned appellations, not as a basic plural noun meaning. The existing ‘hearing; fame; name’ gloss should carry this qualification.","evidence":[{"source":"Chinmayananda commentary","locus":"name 118, scan p.51","detail":"Gives ears and names."},{"source":"Amarakośa","locus":"line 670","detail":"श्रुतिः स्त्री श्रवणं श्रवः, placing śravas in the hearing domain."}],"public_derivation":null}],
+      "review_notes":"Do not literally gloss śravas as the anatomical ears."
+    },
+    "name-0119-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"amṛta means nectar and can indicate mokṣa","classification":"established-grammar","reason":"‘Immortal/not dead’ and ‘nectar’ are established senses already in the card. Mokṣa is an interpretive identification through deathlessness, not another formation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 119, scan p.51","detail":"Gives nectar and mokṣa as applications."},{"source":"Amarakośa","locus":"line 8","detail":"Uses amṛta in the divine/immortal semantic field."}],"public_derivation":null}],
+      "review_notes":"Keep mokṣa as attributed implication."
+    },
+    "name-0127-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"veda comes from √vid ‘to know’","classification":"established-grammar","reason":"Dhātupāṭha 02.0059 directly gives विदँ ज्ञाने. The existing primary card already records this root.","evidence":[{"source":"Chinmayananda commentary","locus":"name 127, scan p.53","detail":"States the root derivation."},{"source":"Dhātupāṭha primary/raw","locus":"02.0059","detail":"विदँ ज्ञाने, adādi 2P."}],"public_derivation":null}],
+      "review_notes":"No omitted parallel derivation."
+    },
+    "name-0129-derivation-claim": {
+      "primary_relation":"unsupported",
+      "dispositions":[{"claim_text":"vyaṅga also means person, so avyaṅga is unknowable in personal form","classification":"unsupported-withheld","reason":"No reviewed grammatical or lexicographic witness supports vyaṅga as the general noun ‘person.’ The conclusion also depends on treating a-vyaṅga as ‘not person,’ whereas the ordinary adjective concerns defect/limb. This cannot be emitted.","evidence":[{"source":"Chinmayananda commentary","locus":"name 129, scan pp.53–54","detail":"Prints the person-based explanation."},{"source":"Amarakośa","locus":"line 1395","detail":"Contains vyaṅgā in a specialized lexical series, not as a general word for person."}],"public_derivation":null}],
+      "review_notes":"Possible unattested sectarian pun; source needed."
+    },
+    "name-0132-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"kavi in Vedic usage means seer","classification":"established-grammar","reason":"The local lexicon groups kavi with learned, wise, far-seeing persons, supporting ‘seer’ as the Vedic-context rendering.","evidence":[{"source":"Chinmayananda commentary","locus":"name 132, scan p.54","detail":"States the Vedic sense."},{"source":"Amarakośa","locus":"lines 721–722","detail":"Places kavi among vidvān, prājña, vicakṣaṇa, and dūradarśin."}],"public_derivation":null}],
+      "review_notes":"Lexical sense, not a derivational alternative."
+    },
+    "name-0146-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"agha means sin/impurity; anagha is without fault","classification":"established-grammar","reason":"Amarakośa directly lists agha among sin/evil terms. Negative a- + agha yields anagha; the vāsanā discussion is theological application.","evidence":[{"source":"Chinmayananda commentary","locus":"name 146, scan p.59","detail":"Gives pāpa and mala."},{"source":"Amarakośa","locus":"line 154","detail":"कलुषं वृजिनैनोऽघमंहो दुरितदुष्कृतम्."}],"public_derivation":null}],
+      "review_notes":"Current stem gloss captures the valid result."
+    },
+    "name-0151-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"upa can have the sense ‘superior to,’ so Upendra can mean superior to Indra","classification":"source-backed-alternative","reason":"Kāśikā on Aṣṭādhyāyī 1.4.87 explicitly says upa can denote adhika as well as hīna. Thus the comparative devotional reading is linguistically possible, though it is not upa’s sole meaning and differs from the conventional ‘younger brother of Indra’ lexeme.","evidence":[{"source":"Chinmayananda commentary","locus":"name 151, scan p.60","detail":"Gives the superior-to-Indra reading."},{"source":"Aṣṭādhyāyī primary/raw","locus":"1.4.87","detail":"उपोऽधिके च."},{"source":"Kāśikā primary/raw","locus":"1.4.87","detail":"उपशब्द अधिके हीने च द्योत्ये."},{"source":"Amarakośa","locus":"line 21","detail":"उपेन्द्र इन्द्रावरजः, attesting the conventional younger-brother reading."}],"public_derivation":{"id":"upendra-superior","label":"superior to Indra","kind":"traditional-nirvacana","meaning":"one understood as superior to Indra","parts":[{"form":"upa","gloss":"in an adhika comparative use, exceeding/superior"},{"form":"indra","gloss":"Indra"}],"roots":[],"formation":"traditional interpretation of upa + indra using the adhika sense licensed for upa by Aṣṭādhyāyī 1.4.87","morphology":"masculine compound/name, nominative singular upendraḥ","qualification":"A valid marked semantic stream, not the default lexical analysis; Amarakośa separately gives ‘Indra’s younger brother.’","evidence":[{"source":"Aṣṭādhyāyī/Kāśikā primary/raw","locus":"1.4.87","detail":"upa may denote adhika and hīna."},{"source":"Chinmayananda scan","locus":"name 151, p.60","detail":"Applies the adhika sense to Indra."}]}}],
+      "review_notes":"A real traditional alternative; show beside, never instead of, the conventional reading."
+    },
+    "name-0152-derivation-claim": {
+      "primary_relation":"unsupported",
+      "dispositions":[{"claim_text":"vāmana also means worshipful","classification":"unsupported-withheld","reason":"The reviewed lexica support vāmana as short/dwarf and as a proper name, but no source in the assigned library supplies ‘worshipful.’ The claim may preserve another tradition but lacks a citable witness here.","evidence":[{"source":"Chinmayananda commentary","locus":"name 152, scan pp.60–61","detail":"Gives worshipful as an alternative."},{"source":"Amarakośa","locus":"line 1125","detail":"वामने ... नीचखर्वह्रस्वाः, supporting the short/dwarf field."}],"public_derivation":null}],
+      "review_notes":"Withhold pending a named lexicon or nirvacana source."
+    },
+    "name-0167-derivation-claim": {
+      "primary_relation":"unsupported",
+      "dispositions":[{"claim_text":"Mā means Lakṣmī and also vidyā; hence Mādhava","classification":"unsupported-withheld","reason":"The reviewed lexica attest Mādhava as a Viṣṇu name but did not supply the claimed Mā = Lakṣmī/vidyā segmentation. Since the current parts are stem-only, adding the split without its tradition’s source would overstate it.","evidence":[{"source":"Chinmayananda commentary","locus":"name 167, scan pp.63–64","detail":"Explicitly identifies Mā with Lakṣmī and knowledge."},{"source":"Amarakośa","locus":"line 19","detail":"Lists Mādhava as a Viṣṇu name without derivation."}],"public_derivation":null}],
+      "review_notes":"Likely lineage nirvacana; source not present locally."
+    },
+    "name-0175-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"śakti here means efficiency/capacity (sāmarthya)","classification":"established-grammar","reason":"Amarakośa directly places śakti in the sāmarthya domain; current parts already give capacity/efficacy.","evidence":[{"source":"Chinmayananda commentary","locus":"name 175, scan p.66","detail":"Glosses śakti as sāmarthya."},{"source":"Amarakośa","locus":"line 1283","detail":"कासूसामर्थ्ययोः शक्तिः."}],"public_derivation":null}],
+      "review_notes":"Exact lexical agreement."
+    },
+    "name-0176-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"dyuti means glow/splendour (śobhā)","classification":"established-grammar","reason":"Amarakośa directly groups dyuti with śobhā, kānti, and chavi; the current gloss is exact.","evidence":[{"source":"Chinmayananda commentary","locus":"name 176, scan p.66","detail":"Gives glow and śobhā."},{"source":"Amarakośa","locus":"line 109","detail":"शोभा कान्तिर्द्युतिश्छविः."}],"public_derivation":null}],
+      "review_notes":"Exact lexical agreement."
+    },
+    "name-0178-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"śrī means glory/aiśvarya","classification":"established-grammar","reason":"The prosperity, splendour, and glory domain is established and the possessive śrī + mat formation is already present in the current card.","evidence":[{"source":"Chinmayananda commentary","locus":"name 178, scan p.67","detail":"Glosses śrī as aiśvarya."},{"source":"Amarakośa","locus":"lines 31 and 1242","detail":"Places śrī in the Lakṣmī/prosperity/glory semantic domain."}],"public_derivation":null}],
+      "review_notes":"No new derivation."
+    },
+    "name-0188-derivation-claim": {
+      "primary_relation":"unsupported",
+      "dispositions":[{"claim_text":"go means the Vedas in govidām patiḥ","classification":"unsupported-withheld","reason":"The reviewed local lexica separately attest go and Veda but did not yield a direct locus for go = Vedas in this construction. The interpretation may be traditional, yet the exact compound could also concern knowers of speech/cows/earth depending on the received stream; it must not be selected without a source.","evidence":[{"source":"Chinmayananda commentary","locus":"name 188, scan p.69","detail":"Refers back to an earlier asserted go = Vedas interpretation."},{"source":"Amarakośa","locus":"line 183","detail":"Attests Veda vocabulary but does not establish go as Veda here."}],"public_derivation":null}],
+      "review_notes":"Needs the earlier cross-reference’s named traditional source."
+    },
+    "name-0189-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"marīci means effulgence","classification":"established-grammar","reason":"Amarakośa gives marīci as a ray among solar-radiance terms. ‘Effulgence’ is acceptable only as a collective/contextual rendering; the more exact lexical gloss is ‘ray.’","evidence":[{"source":"Chinmayananda commentary","locus":"name 189, scan pp.69–70","detail":"Glosses marīci as effulgence."},{"source":"Amarakośa","locus":"lines 127–128","detail":"Lists marīci among kiraṇa, aṃśu, raśmi and related ray/light terms."},{"source":"Uṇādipāṭha paired raw vṛtti","locus":"4.70","detail":"मृकणिभ्यामीचिः; example मरीचिः."}],"public_derivation":null}],
+      "review_notes":"Use ‘ray, beam’ in grammar and allow ‘effulgence’ as contextual English."
+    },
+    "name-0192-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"suparṇa means one with beautiful wings, a bird","classification":"established-grammar","reason":"The transparent su- + parṇa compound is already represented. Amarakośa also attests Suparṇa as the bird/Garuḍa name.","evidence":[{"source":"Chinmayananda commentary","locus":"name 192, scan p.70","detail":"Explains parṇa as wings and su as beautiful."},{"source":"Amarakośa","locus":"line 36","detail":"नागान्तको विष्णुरथः सुपर्णः पन्नगाशनः, identifying Suparṇa/Garuḍa."}],"public_derivation":null}],
+      "review_notes":"No omitted parallel derivation."
+    },
+    "name-0196-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"padmanābha may mean one whose rounded navel is lotus-like","classification":"attested-traditional-nirvacana","reason":"The scan explicitly attributes this vigraha to Śaṅkara. It is a valid upamā-based compound interpretation alongside the usual lotus-from-the-navel narrative; the shared members do not make the two semantic analyses identical.","evidence":[{"source":"Chinmayananda commentary","locus":"name 196, scan p.71","detail":"Attributes the lotus-like navel reading to Śaṅkara."},{"source":"Amarakośa","locus":"line 21","detail":"Attests Padmanābha as a Viṣṇu name."}],"public_derivation":{"id":"padmanabha-lotus-like-navel-nirvacana","label":"one whose navel is lotus-like","kind":"traditional-nirvacana","meaning":"one whose rounded navel is lovely like a lotus","parts":[{"form":"padma","gloss":"lotus, used as the standard of comparison"},{"form":"nābha","gloss":"navel"}],"roots":[],"formation":"traditional upamā-based interpretation of padma + nābha, explicitly attributed here to Śaṅkara","morphology":"compound divine name, nominative singular masculine padmanābhaḥ","qualification":"A traditional semantic compound reading alongside the distinct narrative reading, ‘the one from whose navel the lotus arises.’","evidence":[{"source":"Chinmayananda scan","locus":"name 196, p.71","detail":"Explicitly attributes the lotus-like navel interpretation to Śaṅkara."},{"source":"Amarakośa","locus":"line 21","detail":"Attests Padmanābha as a name of Viṣṇu."}]}}],
+      "review_notes":"Keep the Śaṅkara-attributed lotus-simile reading parallel to the distinct lotus-from-the-navel narrative."
+    },
+    "name-0211-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"dhāma also means effulgence/tejas","classification":"established-grammar","reason":"Amarakośa explicitly lists dhāman in the domains house, body, radiance, and splendour. The pure-consciousness/light-of-lights application is theological, not a new formation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 211, scan p.75","detail":"Gives tejas and the illuminator application."},{"source":"Amarakośa","locus":"line 1341","detail":"गृहदेहत्विट्प्रभावा धामानि."}],"public_derivation":null}],
+      "review_notes":"The current root record does not itself establish the radiance sense; cite the lexicon in the popup note."
+    },
+    "name-0216-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"srak means garland; sragvī is one possessing a garland","classification":"established-grammar","reason":"Amarakośa equates mālya, mālā, and sraj; the current srag + vin possessive analysis is correct. ‘Undecaying flowers’ comes from divine-name context, not morphology.","evidence":[{"source":"Chinmayananda commentary","locus":"name 216, scan p.76","detail":"States a garland is called srak."},{"source":"Amarakośa","locus":"line 711","detail":"माल्यं मालास्रजौ."}],"public_derivation":null}],
+      "review_notes":"Existing parts are complete."
+    },
+    "name-0217-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"vācaspati is eloquent in championing dharma; udāradhī is broad-hearted intelligence","classification":"interpretive-not-etymology","reason":"The literal structures are ‘lord/master of speech’ and ‘having noble/broad intelligence.’ Eloquent advocacy and absence of puritanical narrowness are contextual characterizations, not derivations.","evidence":[{"source":"Chinmayananda commentary","locus":"name 217, scan pp.76–77","detail":"Expands both compounds into ethical/intellectual character."},{"source":"Amarakośa","locus":"line 1410","detail":"उदारो दातृमहतोर्, supporting generous/great/broad rather than the full theological prose."}],"public_derivation":null}],
+      "review_notes":"Current compound parts are correct; keep the broader prose attributed."
+    },
+    "name-0219-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"grāma means a collection of many things","classification":"established-grammar","reason":"Amarakośa directly gives grāma in the sense of a group/collection; current parts already use group/community.","evidence":[{"source":"Chinmayananda commentary","locus":"name 219, scan p.77","detail":"Defines grāma as collection."},{"source":"Amarakośa","locus":"line 1359","detail":"शब्दादिपूर्वो वृन्देऽपि ग्रामः."}],"public_derivation":null}],
+      "review_notes":"Exact lexical support."
+    },
+    "name-0220-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"śrī means light, effulgence, or glory; therefore śrīmān is the Self/Lord","classification":"established-grammar","reason":"Śrī’s splendour/glory/prosperity field and the possessive mat affix are secure. Identifying the possessor specifically with consciousness/the Self is theology; ‘light’ is contextual rather than the sole lexical value.","evidence":[{"source":"Chinmayananda commentary","locus":"name 220, scan p.77","detail":"Gives the three glosses and the Self conclusion."},{"source":"Amarakośa","locus":"line 1070","detail":"श्रीमान् occurs among possessive terms of splendour/prosperity."}],"public_derivation":null}],
+      "review_notes":"Current śrī + mat parts are complete."
+    },
+    "name-0224-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[{"claim_text":"sahasra here means innumerable","classification":"interpretive-not-etymology","reason":"Sahasra is grammatically ‘thousand’; ‘innumerable’ is a conventional theological hyperbole in the cosmic-person context, not a second numerical derivation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 224, scan p.77","detail":"Explicitly generalizes sahasra to innumerable."},{"source":"Aṣṭādhyāyī/Kāśikā","locus":"number-word discussions including 5.1.59","detail":"Treat sahasra as a number word."}],"public_derivation":null}],
+      "review_notes":"Popup may say ‘thousand; by contextual extension, innumerable,’ with the extension labeled."
+    },
+    "name-0239-derivation-claim": {
+      "primary_relation":"different-question",
+      "dispositions":[{"claim_text":"viśvabhuk can mean one who absorbs all names and forms at dissolution","classification":"interpretive-not-etymology","reason":"The verbal element belongs to √bhuj, whose Dhātupāṭha range is protecting/eating. ‘Absorbs into himself at pralaya’ is a cosmological application of consuming, not a distinct formation.","evidence":[{"source":"Chinmayananda commentary","locus":"name 239, scan p.81","detail":"Sets the absorption specifically at pralaya."},{"source":"Dhātupāṭha primary/raw","locus":"07.0017","detail":"भुजँ पालनाभ्यवहारयोः."}],"public_derivation":null}],
+      "review_notes":"The current bhuj member should be marked as the verbal root and can note the contextual ‘consume’ sense."
+    },
+    "name-0245-derivation-claim": {
+      "primary_relation":"qualified",
+      "dispositions":[
+        {"claim_text":"nara is Īśvara; elements born from him are nāra; their source/controller is Nārāyaṇa","classification":"attested-traditional-nirvacana","reason":"The scan securely attests this doctrinal nāra + ayana stream, but the reviewed grammar/lexicon library does not independently establish nara = Īśvara or the tattva derivation. It may be displayed only as Chinmayananda’s traditional nirvacana, not as sole grammar.","evidence":[{"source":"Chinmayananda commentary","locus":"name 245, scan pp.82–83","detail":"Prints the nara/īśvara, nāra/tattva, and source/controller sequence."},{"source":"Amarakośa","locus":"line 19","detail":"Attests Nārāyaṇa as a Viṣṇu name but supplies no derivation."}],"public_derivation":{"id":"narayana-tattva-nirvacana","label":"source and ground of the nāras","kind":"traditional-nirvacana","meaning":"the source, regulator, and abiding ground of the elements called nāras","parts":[{"form":"nāra","gloss":"the elements/tattvas said here to arise from Nara"},{"form":"ayana","gloss":"going, resting place, ground or source"}],"roots":[],"formation":"traditional nāra + ayana nirvacana as printed by Chinmayananda; exact taddhita/compound trace not claimed","morphology":"masculine divine name, nominative singular nārāyaṇaḥ","qualification":"Attested in this commentary; the local grammatical library does not independently verify nara = Īśvara or nāra = tattvas.","evidence":[{"source":"Chinmayananda scan","locus":"name 245, pp.82–83","detail":"Gives nāra as tattvas from Nara and Nārāyaṇa as their source/controller."}]}},
+        {"claim_text":"nārāḥ also means waters","classification":"attested-traditional-nirvacana","reason":"Chinmayananda's printed note names Manu Smṛti 1.10, whose witnessed Sanskrit explicitly derives Nārāyaṇa from nārāḥ, the waters sprung from Nara, plus ayana, their original abode. This is an attested traditional nirvacana, not a replacement for the regular compound analysis.","evidence":[{"source":"Chinmayananda commentary","locus":"name 245, scan p.83","detail":"States nārāḥ also means waters."},{"source":"https://sanskritdocuments.org/doc_z_misc_sociology_astrology/manu.html","locus":"Manusmṛti 1.10","detail":"आपो नारा इति प्रोक्ता आपो वै नरसूनवः । ता यदस्यायनं पूर्वं तेन नारायणः स्मृतः ॥"}],"public_derivation":{"id":"narayana-waters-abode-nirvacana","label":"abode of the primordial waters","kind":"traditional-nirvacana","meaning":"he whose original abode is the waters called nārāḥ, sprung from Nara","parts":[{"form":"nārāḥ","gloss":"the waters, traditionally said to be the offspring of Nara"},{"form":"ayana","gloss":"abode, resting place"}],"roots":[],"formation":"traditional nārāḥ + ayana nirvacana transmitted at Manusmṛti 1.10","morphology":"masculine divine name, nominative singular nārāyaṇaḥ","qualification":"An attested traditional semantic derivation; it is shown alongside, not instead of, the grammatical compound analysis and the separate tattva nirvacana.","evidence":[{"source":"Chinmayananda scan","locus":"name 245; printed note cm-vs-fn-p083-n03","detail":"Cites Manu Smṛti 1.10 for the waters-and-abode interpretation."},{"source":"https://sanskritdocuments.org/doc_z_misc_sociology_astrology/manu.html","locus":"Manusmṛti 1.10","detail":"The Sanskrit explicitly gives nārāḥ as waters and ayana as their original abode."}]}}
+      ],
+      "review_notes":"Preserve both the tattva stream and the independently witnessed Manusmṛti waters stream as parallel traditional nirvacanas."
+    },
+    "name-0247-derivation-claim": {
+      "primary_relation":"agrees",
+      "dispositions":[{"claim_text":"saṅkhyā means number; asaṅkhyeya means not countable","classification":"established-grammar","reason":"The negative a- plus saṅkhyeya ‘to be numbered’ analysis is transparent and already represented. Amarakośa directly treats saṅkhyā as number/count.","evidence":[{"source":"Chinmayananda commentary","locus":"name 247, scan p.84","detail":"Gives number and numberless."},{"source":"Amarakośa","locus":"lines 982 and 1119","detail":"Uses saṅkhyā for numbers and gaṇanīya for countable."}],"public_derivation":null}],
+      "review_notes":"Current parts are complete."
+    }
+  }
+}

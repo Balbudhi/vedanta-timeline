@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "expected_ids": [
+    "cm-vs-fn-p215-n01",
+    "cm-vs-fn-p227-n01"
+  ],
+  "rows": {
+    "cm-vs-fn-p215-n01": {
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "श्वः = tomorrow; श्वत्थ = remaining tomorrow also; अश्वत्थ = that which will not remain the same tomorrow—finite.",
+          "source_paragraph_index": 1,
+          "inline_sanskrit": [
+            {
+              "id": "cm-vs-fn-p215-n01-deva-0",
+              "unit_key": "śvaḥ",
+              "text": "श्वः",
+              "language": "sa-Deva",
+              "words": [
+                {
+                  "i": 0,
+                  "deva": "श्वः",
+                  "iast": "śvaḥ",
+                  "gloss": "tomorrow",
+                  "parts": [
+                    {
+                      "form": "śvas",
+                      "gloss": "tomorrow"
+                    }
+                  ],
+                  "stem": "śvas",
+                  "root": null,
+                  "affix": "indeclinable; final s appears as visarga at pause",
+                  "morph": "indeclinable time adverb in pause form",
+                  "evidence": {
+                    "text_witness": "internal/sanskrit_reviews/chinmayananda-footnote-payload-corrections.json (cm-vs-fn-p215-n01.note_text; scan-checked printed note)",
+                    "grammar_witnesses": [
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/commentary/kashika/kashika.json"
+                    ],
+                    "review_method": "direct paired primary/raw source-text review; interpreter and dictionaries not used"
+                  }
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "श्वः",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 0,
+              "end": 4
+            },
+            {
+              "id": "cm-vs-fn-p215-n01-deva-1",
+              "unit_key": "śvattha",
+              "text": "श्वत्थ",
+              "language": "sa-Deva",
+              "words": [
+                {
+                  "i": 0,
+                  "deva": "श्वत्थ",
+                  "iast": "śvattha",
+                  "gloss": "remaining tomorrow also",
+                  "parts": [
+                    {
+                      "form": "śvaḥ",
+                      "gloss": "tomorrow"
+                    },
+                    {
+                      "form": "√sthā",
+                      "gloss": "stand; remain"
+                    }
+                  ],
+                  "stem": "śvattha",
+                  "root": "√sthā",
+                  "rootGloss": "to stand; remain",
+                  "affix": "traditional nirvacana segment; no independent case ending",
+                  "morph": "citation form used within the commentator's traditional derivational explanation",
+                  "note": "This records the printed semantic segmentation, not a regular sandhi derivation. Dhātupāṭha 01.1077 gives स्था (aupadeśika ष्ठा), गतिनिवृत्तौ; Aṣṭādhyāyī 6.3.109 and the Kāśikā treat aśvattha-type forms as yathopadiṣṭa.",
+                  "evidence": {
+                    "text_witness": "internal/sanskrit_reviews/chinmayananda-footnote-payload-corrections.json (cm-vs-fn-p215-n01.note_text; scan-checked printed note)",
+                    "grammar_witnesses": [
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:6.3.109",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:6.3.109",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt:6.3.109",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/commentary/kashika/kashika.json:6.3.109",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:01.1077",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:01.1077"
+                    ],
+                    "review_method": "direct paired primary/raw source-text review; interpreter and dictionaries not used"
+                  }
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "श्वत्थ",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 17,
+              "end": 23
+            },
+            {
+              "id": "cm-vs-fn-p215-n01-deva-2",
+              "unit_key": "aśvattha",
+              "text": "अश्वत्थ",
+              "language": "sa-Deva",
+              "words": [
+                {
+                  "i": 0,
+                  "deva": "अश्वत्थ",
+                  "iast": "aśvattha",
+                  "gloss": "that which will not remain the same tomorrow; finite",
+                  "parts": [
+                    {
+                      "form": "a-",
+                      "gloss": "not"
+                    },
+                    {
+                      "form": "śvaḥ",
+                      "gloss": "tomorrow"
+                    },
+                    {
+                      "form": "√sthā",
+                      "gloss": "stand; remain"
+                    }
+                  ],
+                  "stem": "aśvattha",
+                  "root": "√sthā",
+                  "rootGloss": "to stand; remain",
+                  "affix": "lexical masculine a-stem citation form; no case ending asserted",
+                  "morph": "masculine a-stem noun cited without an inflectional ending",
+                  "note": "The displayed gloss preserves Chinmayananda's printed traditional nirvacana. Formally, Aṣṭādhyāyī 6.3.109 and the Kāśikā include aśvattha among forms followed as attested (yathopadiṣṭa), so the surface is not presented as the result of regular sandhi.",
+                  "evidence": {
+                    "text_witness": "internal/sanskrit_reviews/chinmayananda-footnote-payload-corrections.json (cm-vs-fn-p215-n01.note_text; scan-checked printed note)",
+                    "grammar_witnesses": [
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:6.3.109",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:6.3.109",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt:6.3.109",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/commentary/kashika/kashika.json:6.3.109",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:01.1077",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:01.1077"
+                    ],
+                    "review_method": "direct paired primary/raw source-text review; interpreter and dictionaries not used"
+                  }
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "अश्वत्थ",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 51,
+              "end": 58
+            }
+          ]
+        }
+      ]
+    },
+    "cm-vs-fn-p227-n01": {
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "“भुज् पालनाभ्यवहारयोः ।” (Bhuj paalanaabhyavahaarayoh.) The root has both the meanings.",
+          "source_paragraph_index": 2,
+          "inline_sanskrit": [
+            {
+              "id": "cm-vs-fn-p227-n01-deva-0",
+              "unit_key": "bhujpālanābhyavahārayoḥ",
+              "text": "भुज् पालनाभ्यवहारयोः ।",
+              "language": "sa-Deva",
+              "words": [
+                {
+                  "i": 0,
+                  "deva": "भुज्",
+                  "iast": "bhuj",
+                  "gloss": "to protect; to consume",
+                  "parts": [
+                    {
+                      "form": "√bhuj",
+                      "gloss": "protect; consume"
+                    }
+                  ],
+                  "stem": "bhuj",
+                  "root": "√bhuj",
+                  "rootGloss": "to protect; to preserve; to eat; to consume",
+                  "affix": "dhātu citation form; no inflectional ending",
+                  "morph": "quoted verbal root",
+                  "note": "Dhātupāṭha 07.0017: भुजँ पालनाभ्यवहारयोः; rudhādi (7), parasmaipada, with ātmanepada noted in the eating sense.",
+                  "evidence": {
+                    "text_witness": "internal/sanskrit_reviews/chinmayananda-footnote-payload-corrections.json (cm-vs-fn-p227-n01.note_text; scan-checked printed note)",
+                    "grammar_witnesses": [
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:07.0017",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:07.0017"
+                    ],
+                    "review_method": "direct paired primary/raw source-text review; interpreter and dictionaries not used"
+                  }
+                },
+                {
+                  "i": 1,
+                  "deva": "पालनाभ्यवहारयोः",
+                  "iast": "pālanābhyavahārayoḥ",
+                  "gloss": "in the two senses of protection and consumption",
+                  "parts": [
+                    {
+                      "form": "√pāl",
+                      "gloss": "protect"
+                    },
+                    {
+                      "form": "lyuṭ (ana)",
+                      "gloss": "action noun: protection"
+                    },
+                    {
+                      "form": "abhi-ava-",
+                      "gloss": "toward and down; here, taking in"
+                    },
+                    {
+                      "form": "√hṛ",
+                      "gloss": "take; carry"
+                    },
+                    {
+                      "form": "ghañ",
+                      "gloss": "action noun: consumption"
+                    },
+                    {
+                      "form": "os (-ayoḥ)",
+                      "gloss": "locative dual: in the two"
+                    }
+                  ],
+                  "stem": "pālanābhyavahāra",
+                  "root": "√pāl; abhi-ava-√hṛ",
+                  "rootGloss": "to protect; to take in or consume",
+                  "affix": "os (saptamī dvivacana), realized as -ayoḥ after the final a-stem; pālana + abhyavahāra has internal a + a → ā",
+                  "morph": "locative dual masculine itaretara-dvandva: in the two senses, protection and consumption",
+                  "compound": {
+                    "type": "dvandva (itaretara)",
+                    "vigraha": "pālanaṃ cābhyavahāraś ca",
+                    "members": [
+                      "pālana",
+                      "abhyavahāra"
+                    ]
+                  },
+                  "note": "The two action nouns state the paired semantic domains assigned to √bhuj. Dhātupāṭha 10.0098 records पालँ रक्षणे, and 01.1046 records हृञ् हरणे.",
+                  "evidence": {
+                    "text_witness": "internal/sanskrit_reviews/chinmayananda-footnote-payload-corrections.json (cm-vs-fn-p227-n01.note_text; scan-checked printed note)",
+                    "grammar_witnesses": [
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:07.0017",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:07.0017",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:10.0098",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:10.0098",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:01.1046",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:01.1046",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+                    ],
+                    "review_method": "direct paired primary/raw source-text review; interpreter and dictionaries not used"
+                  }
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "भुज् ",
+                  "word_indices": [
+                    0
+                  ]
+                },
+                {
+                  "text": "पालनाभ्यवहारयोः ।",
+                  "word_indices": [
+                    1
+                  ]
+                }
+              ],
+              "start": 1,
+              "end": 23
+            },
+            {
+              "id": "cm-vs-fn-p227-n01-latn-0",
+              "unit_key": "bhujpālanābhyavahārayoḥ-roman-witness",
+              "text": "Bhuj paalanaabhyavahaarayoh.",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "deva": "भुज्",
+                  "iast": "bhuj",
+                  "gloss": "to protect; to consume",
+                  "parts": [
+                    {
+                      "form": "√bhuj",
+                      "gloss": "protect; consume"
+                    }
+                  ],
+                  "stem": "bhuj",
+                  "root": "√bhuj",
+                  "rootGloss": "to protect; to preserve; to eat; to consume",
+                  "affix": "dhātu citation form; no inflectional ending",
+                  "morph": "quoted verbal root",
+                  "note": "The printed undiacritized Roman witness is preserved outside the popup. Dhātupāṭha 07.0017: भुजँ पालनाभ्यवहारयोः; rudhādi (7), parasmaipada, with ātmanepada noted in the eating sense.",
+                  "evidence": {
+                    "text_witness": "internal/sanskrit_reviews/chinmayananda-footnote-payload-corrections.json (cm-vs-fn-p227-n01.note_text; printed Roman parenthesis)",
+                    "grammar_witnesses": [
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:07.0017",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:07.0017"
+                    ],
+                    "review_method": "contextual restoration of printed undiacritized Roman Sanskrit against the adjacent Devanagari and direct paired primary/raw source-text review; interpreter and dictionaries not used"
+                  }
+                },
+                {
+                  "i": 1,
+                  "deva": "पालनाभ्यवहारयोः",
+                  "iast": "pālanābhyavahārayoḥ",
+                  "gloss": "in the two senses of protection and consumption",
+                  "parts": [
+                    {
+                      "form": "√pāl",
+                      "gloss": "protect"
+                    },
+                    {
+                      "form": "lyuṭ (ana)",
+                      "gloss": "action noun: protection"
+                    },
+                    {
+                      "form": "abhi-ava-",
+                      "gloss": "toward and down; here, taking in"
+                    },
+                    {
+                      "form": "√hṛ",
+                      "gloss": "take; carry"
+                    },
+                    {
+                      "form": "ghañ",
+                      "gloss": "action noun: consumption"
+                    },
+                    {
+                      "form": "os (-ayoḥ)",
+                      "gloss": "locative dual: in the two"
+                    }
+                  ],
+                  "stem": "pālanābhyavahāra",
+                  "root": "√pāl; abhi-ava-√hṛ",
+                  "rootGloss": "to protect; to take in or consume",
+                  "affix": "os (saptamī dvivacana), realized as -ayoḥ after the final a-stem; pālana + abhyavahāra has internal a + a → ā",
+                  "morph": "locative dual masculine itaretara-dvandva: in the two senses, protection and consumption",
+                  "compound": {
+                    "type": "dvandva (itaretara)",
+                    "vigraha": "pālanaṃ cābhyavahāraś ca",
+                    "members": [
+                      "pālana",
+                      "abhyavahāra"
+                    ]
+                  },
+                  "note": "The printed undiacritized Roman witness is preserved outside the popup. The two action nouns state the paired semantic domains assigned to √bhuj.",
+                  "evidence": {
+                    "text_witness": "internal/sanskrit_reviews/chinmayananda-footnote-payload-corrections.json (cm-vs-fn-p227-n01.note_text; printed Roman parenthesis)",
+                    "grammar_witnesses": [
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:07.0017",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:07.0017",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:10.0098",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:10.0098",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:01.1046",
+                      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:01.1046",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                      "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+                    ],
+                    "review_method": "contextual restoration of printed undiacritized Roman Sanskrit against the adjacent Devanagari and direct paired primary/raw source-text review; interpreter and dictionaries not used"
+                  }
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Bhuj ",
+                  "word_indices": [
+                    0
+                  ]
+                },
+                {
+                  "text": "paalanaabhyavahaarayoh.",
+                  "word_indices": [
+                    1
+                  ]
+                }
+              ],
+              "start": 26,
+              "end": 54
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

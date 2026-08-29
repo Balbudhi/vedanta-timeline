@@ -1,0 +1,931 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "expected_ids": [
+    "cm-vs-fn-p150-n02",
+    "cm-vs-fn-p199-n01",
+    "cm-vs-fn-p202-n02"
+  ],
+  "rows": {
+    "cm-vs-fn-p150-n02": {
+      "blocks": [
+        {
+          "type": "sanskrit-quote",
+          "id": "cm-vs-fn-p150-n02-quote-0",
+          "devanagari": "एष सर्वेषु भूतेषु गूढोऽऽत्मा न प्रकाशते",
+          "source_iast": "eṣa sarveṣu bhūteṣu gūḍho ’tmā na prakāśate",
+          "iast": "eṣa sarveṣu bhūteṣu gūḍho ’tmā na prakāśate",
+          "english": "This Atman is hidden in all beings and does not shine forth.",
+          "english_slots": "{0,4:This Atman} {3:is hidden} {1,2:in all beings} {5,6:and does not shine forth}.",
+          "english_source": "Swami Chinmayananda",
+          "display_english": true,
+          "words": [
+            {
+              "i": 0,
+              "deva": "एषः",
+              "iast": "eṣaḥ",
+              "gloss": "this",
+              "parts": [
+                {
+                  "form": "etad",
+                  "gloss": "this"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular"
+                }
+              ],
+              "stem": "etad",
+              "root": null,
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine demonstrative pronoun; surface eṣa before sarveṣu",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt: Kaṭha Upaniṣad 1.3.12",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 1,
+              "deva": "सर्वेषु",
+              "iast": "sarveṣu",
+              "gloss": "in all",
+              "parts": [
+                {
+                  "form": "sarva",
+                  "gloss": "all; every"
+                },
+                {
+                  "form": "sup (-eṣu)",
+                  "gloss": "locative plural"
+                }
+              ],
+              "stem": "sarva",
+              "root": null,
+              "affix": "sup (saptamī bahuvacana), realized as -eṣu",
+              "morph": "locative plural neuter adjective agreeing with bhūteṣu",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt: Kaṭha Upaniṣad 1.3.12",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 2,
+              "deva": "भूतेषु",
+              "iast": "bhūteṣu",
+              "gloss": "in beings",
+              "parts": [
+                {
+                  "form": "√bhū",
+                  "gloss": "be; become"
+                },
+                {
+                  "form": "kta",
+                  "gloss": "become; existent being"
+                },
+                {
+                  "form": "sup (-eṣu)",
+                  "gloss": "locative plural"
+                }
+              ],
+              "stem": "bhūta",
+              "root": "√bhū",
+              "rootGloss": "to be; become",
+              "affix": "kta (kṛt) + sup (saptamī bahuvacana), realized as -eṣu",
+              "morph": "locative plural neuter substantivized past participle: in beings",
+              "note": "Dhātupāṭha 01.0001: भू सत्तायाम्; bhvādi (1), parasmaipada. Aṣṭādhyāyī 1.1.26 and 3.2.102 identify and prescribe niṣṭhā (kta).",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt: Kaṭha Upaniṣad 1.3.12",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:01.0001",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:01.0001",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:1.1.26,3.2.102",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:1.1.26,3.2.102"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 3,
+              "deva": "गूढः",
+              "iast": "gūḍhaḥ",
+              "gloss": "hidden",
+              "parts": [
+                {
+                  "form": "√guh",
+                  "gloss": "conceal; cover"
+                },
+                {
+                  "form": "kta",
+                  "gloss": "having been concealed; hidden"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular masculine"
+                }
+              ],
+              "stem": "gūḍha",
+              "root": "√guh",
+              "rootGloss": "to conceal; cover",
+              "affix": "kta (kṛt) + su (prathamā ekavacana)",
+              "morph": "nominative singular masculine past passive participle agreeing with ātmā",
+              "note": "Dhātupāṭha 01.1043: गुहूँ संवरणे; bhvādi (1), ubhayapada. In saṃhitā, gūḍhaḥ + ātmā appears as gūḍho ’tmā (गूढोऽऽत्मा).",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt: Kaṭha Upaniṣad 1.3.12",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:01.1043",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:01.1043",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:1.1.26,3.2.102",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:1.1.26,3.2.102"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 4,
+              "deva": "आत्मा",
+              "iast": "ātmā",
+              "gloss": "the Self; Atman",
+              "parts": [
+                {
+                  "form": "ātman",
+                  "gloss": "Self; Atman"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular"
+                }
+              ],
+              "stem": "ātman",
+              "root": null,
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine noun; subject of prakāśate",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt: Kaṭha Upaniṣad 1.3.12",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 5,
+              "deva": "न",
+              "iast": "na",
+              "gloss": "not",
+              "parts": [
+                {
+                  "form": "na",
+                  "gloss": "not"
+                }
+              ],
+              "stem": "na",
+              "root": null,
+              "affix": "avyaya",
+              "morph": "indeclinable negative particle modifying prakāśate",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt: Kaṭha Upaniṣad 1.3.12",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 6,
+              "deva": "प्रकाशते",
+              "iast": "prakāśate",
+              "gloss": "shines forth; becomes manifest",
+              "parts": [
+                {
+                  "form": "pra-",
+                  "gloss": "forth"
+                },
+                {
+                  "form": "√kāś",
+                  "gloss": "shine; appear"
+                },
+                {
+                  "form": "laṭ + ta",
+                  "gloss": "present, third-person singular middle"
+                }
+              ],
+              "stem": "prakāśa- (pra-√kāś present stem)",
+              "root": "pra-√kāś",
+              "rootGloss": "to shine forth; become manifest",
+              "affix": "laṭ + ta (prathamapuruṣa ekavacana, ātmanepada), realized as -te",
+              "morph": "present indicative third-person singular ātmanepada verb",
+              "note": "Dhātupāṭha 01.0734: काशृँ दीप्तौ; bhvādi (1), ātmanepada.",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt: Kaṭha Upaniṣad 1.3.12",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:01.0734",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:01.0734",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            }
+          ],
+          "source_segments": [
+            {
+              "text": "एष ",
+              "word_indices": [0]
+            },
+            {
+              "text": "सर्वेषु ",
+              "word_indices": [1]
+            },
+            {
+              "text": "भूतेषु ",
+              "word_indices": [2]
+            },
+            {
+              "text": "गूढोऽऽत्मा ",
+              "word_indices": [3, 4]
+            },
+            {
+              "text": "न ",
+              "word_indices": [5]
+            },
+            {
+              "text": "प्रकाशते",
+              "word_indices": [6]
+            }
+          ],
+          "word_analysis_status": "primary-grammar-reviewed",
+          "printed_loci": [
+            "Katha.—Ch. I—iii-12."
+          ],
+          "canonical_locus": "Kaṭha Upaniṣad 1.3.12a",
+          "textual_notes": [
+            "The scan-checked note printed the compact reading गूढात्मा and undiacritized Roman goodhaatmaa; the public source line follows the local Kaṭha witness's saṃhitā reading gūḍho ’tmā.",
+            "Chinmayananda's printed English is preserved verbatim."
+          ]
+        }
+      ]
+    },
+    "cm-vs-fn-p199-n01": {
+      "blocks": [
+        {
+          "type": "gita-quote",
+          "id": "cm-vs-fn-p199-n01-quote-0",
+          "devanagari": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागशः",
+          "source_iast": "cāturvarṇyaṃ mayā sṛṣṭaṃ guṇakarmavibhāgaśaḥ",
+          "iast": "cāturvarṇyaṃ mayā sṛṣṭaṃ guṇakarmavibhāgaśaḥ",
+          "english": "The fourfold caste has been created by Me according to the differentiation of Guna and Karma....",
+          "english_slots": "{0:The fourfold caste} {2:has been created} {1:by Me} {3:according to the differentiation of Guna and Karma}....",
+          "english_source": "Swami Chinmayananda",
+          "display_english": true,
+          "placement_basis": "printed-source-position",
+          "words": [
+            {
+              "i": 0,
+              "deva": "चातुर्वर्ण्यम्",
+              "iast": "cāturvarṇyam",
+              "gloss": "the fourfold social order",
+              "parts": [
+                {
+                  "form": "catur",
+                  "gloss": "four"
+                },
+                {
+                  "form": "varṇa",
+                  "gloss": "social class; order"
+                },
+                {
+                  "form": "ṣyañ (-ya)",
+                  "gloss": "forms the collective itself: the fourfold order"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular neuter"
+                }
+              ],
+              "stem": "cāturvarṇya",
+              "root": null,
+              "affix": "ṣyañ (svārthika taddhita) + su (prathamā ekavacana)",
+              "morph": "nominative singular neuter collective noun; patient-subject of sṛṣṭam",
+              "note": "Kāśikā on Aṣṭādhyāyī 5.1.124 explicitly gives चत्वार एव वर्णाश्चातुर्वर्ण्यम् and identifies ṣyañ in its own-word meaning.",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt:Bhg_04.013a",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:5.1.124",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:5.1.124",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt:5.1.124",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/commentary/kashika/kashika.json:5.1.124"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 1,
+              "deva": "मया",
+              "iast": "mayā",
+              "gloss": "by Me",
+              "parts": [
+                {
+                  "form": "mad",
+                  "gloss": "I; Me"
+                },
+                {
+                  "form": "ṭā (-yā)",
+                  "gloss": "instrumental singular: by"
+                }
+              ],
+              "stem": "mad",
+              "root": null,
+              "affix": "ṭā (tṛtīyā ekavacana), realized as -yā",
+              "morph": "instrumental singular first-person pronoun; agent of the passive participle sṛṣṭam",
+              "note": "Aṣṭādhyāyī 2.3.18 assigns the instrumental to the agent or instrument.",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt:Bhg_04.013a",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:2.3.18",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:2.3.18"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 2,
+              "deva": "सृष्टम्",
+              "iast": "sṛṣṭam",
+              "gloss": "created",
+              "parts": [
+                {
+                  "form": "√sṛj",
+                  "gloss": "release; create"
+                },
+                {
+                  "form": "kta",
+                  "gloss": "having been created"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular neuter"
+                }
+              ],
+              "stem": "sṛṣṭa",
+              "root": "√sṛj",
+              "rootGloss": "to release; create",
+              "affix": "kta (kṛt) + su (prathamā ekavacana)",
+              "morph": "nominative singular neuter past passive participle agreeing with cāturvarṇyam",
+              "note": "Dhātupāṭha 06.0150: सृजँ विसर्गे; tudādi (6), parasmaipada. Aṣṭādhyāyī 1.1.26 and 3.2.102 identify and prescribe niṣṭhā (kta).",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt:Bhg_04.013a",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:06.0150",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:06.0150",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:1.1.26,3.2.102",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:1.1.26,3.2.102"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 3,
+              "deva": "गुणकर्मविभागशः",
+              "iast": "guṇakarmavibhāgaśaḥ",
+              "gloss": "according to the differentiation of qualities and actions",
+              "parts": [
+                {
+                  "form": "guṇa",
+                  "gloss": "quality; constituent tendency"
+                },
+                {
+                  "form": "karman",
+                  "gloss": "action"
+                },
+                {
+                  "form": "vibhāga",
+                  "gloss": "division; differentiation"
+                },
+                {
+                  "form": "śas",
+                  "gloss": "according to; by divisions of"
+                }
+              ],
+              "stem": "guṇa-karman-vibhāga",
+              "root": null,
+              "affix": "śas (taddhita adverbial suffix of manner/distribution)",
+              "morph": "indeclinable compound adverb: according to the differentiation of guṇa and karman",
+              "compound": {
+                "type": "coordinated tatpuruṣa expressions with a shared final member",
+                "vigraha": "guṇavibhāgaśaḥ karmavibhāgaśaś ca",
+                "members": [
+                  "guṇa",
+                  "karman",
+                  "vibhāga"
+                ]
+              },
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt:Bhg_04.013a",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/commentary/kashika/kashika.json",
+                  "data/sources/sanskrit/vedanta/shankara_gita_bhasya.txt:BhGS_4.13"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            }
+          ],
+          "source_segments": [
+            {
+              "text": "चातुर्वर्ण्यं ",
+              "word_indices": [0]
+            },
+            {
+              "text": "मया ",
+              "word_indices": [1]
+            },
+            {
+              "text": "सृष्टं ",
+              "word_indices": [2]
+            },
+            {
+              "text": "गुणकर्मविभागशः",
+              "word_indices": [3]
+            }
+          ],
+          "word_analysis_status": "primary-grammar-reviewed",
+          "printed_loci": [
+            "Geeta IV-13."
+          ],
+          "canonical_locus": "Bhagavad Gītā 4.13a",
+          "textual_notes": [
+            "The scan printed only चातुर्वर्ण्यं मया सृष्टं followed by an ellipsis; the public source supplies the complete canonical half-verse from the local BORI witness because Chinmayananda's English continues through guṇakarmavibhāgaśaḥ.",
+            "The prior OCR-derived forms चातूर्वण्यं मया सप्टं are not carried into the canonical public source. Chinmayananda's printed English is preserved verbatim."
+          ]
+        }
+      ]
+    },
+    "cm-vs-fn-p202-n02": {
+      "blocks": [
+        {
+          "type": "sanskrit-quote",
+          "id": "cm-vs-fn-p202-n02-quote-0",
+          "devanagari": "यतो वाचो निवर्तन्ते अप्राप्य मनसा सह । आनन्दं ब्रह्मणो विद्वान् न बिभेति कुतश्चन ॥",
+          "source_iast": "yato vāco nivartante aprāpya manasā saha | ānandaṃ brahmaṇo vidvān na bibheti kutaścana ||",
+          "iast": "yato vāco nivartante aprāpya manasā saha | ānandaṃ brahmaṇo vidvān na bibheti kutaścana ||",
+          "english": "He who knows the Bliss of Brahman, from which all words return without reaching It, together with the mind, is no more afraid of anything.",
+          "english_slots": "{8:He who knows} {6:the Bliss} {7:of Brahman}, {0:from which} {1:all words} {2:return} {3:without reaching It}, {5:together with} {4:the mind}, {9,10:is no more afraid} {11:of anything}.",
+          "english_source": "Swami Chinmayananda",
+          "display_english": true,
+          "words": [
+            {
+              "i": 0,
+              "deva": "यतः",
+              "iast": "yataḥ",
+              "gloss": "from which",
+              "parts": [
+                {
+                  "form": "yad",
+                  "gloss": "which"
+                },
+                {
+                  "form": "ṅasi (-taḥ)",
+                  "gloss": "ablative singular: from"
+                }
+              ],
+              "stem": "yad",
+              "root": null,
+              "affix": "ṅasi (pañcamī ekavacana), in the pronominal form yataḥ",
+              "morph": "ablative singular neuter relative pronoun; surface yato before vācaḥ",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 1,
+              "deva": "वाचः",
+              "iast": "vācaḥ",
+              "gloss": "words; speech",
+              "parts": [
+                {
+                  "form": "vāc",
+                  "gloss": "word; speech"
+                },
+                {
+                  "form": "jas (-aḥ)",
+                  "gloss": "nominative plural"
+                }
+              ],
+              "stem": "vāc",
+              "root": null,
+              "affix": "jas (prathamā bahuvacana), realized as -aḥ",
+              "morph": "nominative plural feminine noun; subject of nivartante; surface vāco before nivartante",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 2,
+              "deva": "निवर्तन्ते",
+              "iast": "nivartante",
+              "gloss": "turn back; return",
+              "parts": [
+                {
+                  "form": "ni-",
+                  "gloss": "back; down"
+                },
+                {
+                  "form": "√vṛt",
+                  "gloss": "turn"
+                },
+                {
+                  "form": "laṭ + jha",
+                  "gloss": "present, third-person plural middle"
+                }
+              ],
+              "stem": "nivarta- (ni-√vṛt present stem)",
+              "root": "ni-√vṛt",
+              "rootGloss": "to turn back; return",
+              "affix": "laṭ + jha (prathamapuruṣa bahuvacana, ātmanepada), realized as -nte",
+              "morph": "present indicative third-person plural ātmanepada verb",
+              "note": "Dhātupāṭha 01.0862: वृतुँ वर्तने; bhvādi (1), ātmanepada.",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:01.0862",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:01.0862",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 3,
+              "deva": "अप्राप्य",
+              "iast": "aprāpya",
+              "gloss": "not having reached",
+              "parts": [
+                {
+                  "form": "a-",
+                  "gloss": "not"
+                },
+                {
+                  "form": "pra-",
+                  "gloss": "forth; up to"
+                },
+                {
+                  "form": "√āp",
+                  "gloss": "reach; obtain"
+                },
+                {
+                  "form": "lyap (-ya)",
+                  "gloss": "having reached"
+                }
+              ],
+              "stem": "pra-√āp",
+              "root": "pra-√āp",
+              "rootGloss": "to reach; attain",
+              "affix": "lyap (absolutive after preverb pra-) with negative prefix a-",
+              "morph": "negative absolutive: without having reached",
+              "note": "Dhātupāṭha 05.0016: आपॢँ व्याप्तौ; svādi (5), parasmaipada. Aṣṭādhyāyī 7.1.37 gives lyap for ktvā after a non-negative compound/preverb.",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:05.0016",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:05.0016",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:7.1.37",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:7.1.37"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 4,
+              "deva": "मनसा",
+              "iast": "manasā",
+              "gloss": "with the mind",
+              "parts": [
+                {
+                  "form": "manas",
+                  "gloss": "mind"
+                },
+                {
+                  "form": "ṭā (-ā)",
+                  "gloss": "instrumental singular: with"
+                }
+              ],
+              "stem": "manas",
+              "root": null,
+              "affix": "ṭā (tṛtīyā ekavacana), realized as -ā",
+              "morph": "instrumental singular neuter noun governed as accompaniment by saha",
+              "note": "Aṣṭādhyāyī 2.3.19 assigns the instrumental to the non-primary term joined with saha.",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:2.3.19",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:2.3.19"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 5,
+              "deva": "सह",
+              "iast": "saha",
+              "gloss": "together with",
+              "parts": [
+                {
+                  "form": "saha",
+                  "gloss": "together with"
+                }
+              ],
+              "stem": "saha",
+              "root": null,
+              "affix": "avyaya",
+              "morph": "indeclinable particle/postposition governing accompaniment",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:2.3.19",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:2.3.19"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 6,
+              "deva": "आनन्दम्",
+              "iast": "ānandam",
+              "gloss": "the Bliss",
+              "parts": [
+                {
+                  "form": "ā-",
+                  "gloss": "toward; fully"
+                },
+                {
+                  "form": "√nand",
+                  "gloss": "rejoice; flourish"
+                },
+                {
+                  "form": "ghañ (-a)",
+                  "gloss": "state or act: bliss"
+                },
+                {
+                  "form": "am",
+                  "gloss": "accusative singular"
+                }
+              ],
+              "stem": "ānanda",
+              "root": "ā-√nand",
+              "rootGloss": "to rejoice; flourish",
+              "affix": "ghañ (kṛt action/state noun) + am (dvitīyā ekavacana)",
+              "morph": "accusative singular masculine action/state noun; object of the knowing expressed by vidvān",
+              "note": "Dhātupāṭha 01.0070: टुनदिँ समृद्धौ; bhvādi (1), parasmaipada.",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:01.0070",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:01.0070",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 7,
+              "deva": "ब्रह्मणः",
+              "iast": "brahmaṇaḥ",
+              "gloss": "of brahman",
+              "parts": [
+                {
+                  "form": "brahman",
+                  "gloss": "brahman; the Absolute"
+                },
+                {
+                  "form": "ṅas (-aḥ)",
+                  "gloss": "genitive singular: of"
+                }
+              ],
+              "stem": "brahman",
+              "root": null,
+              "affix": "ṅas (ṣaṣṭhī ekavacana), realized as -aḥ",
+              "morph": "genitive singular neuter noun dependent on ānandam; surface brahmaṇo before vidvān",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 8,
+              "deva": "विद्वान्",
+              "iast": "vidvān",
+              "gloss": "one who knows; knowing",
+              "parts": [
+                {
+                  "form": "√vid",
+                  "gloss": "know"
+                },
+                {
+                  "form": "śatṛ → vasu",
+                  "gloss": "present active participle: knowing"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular masculine"
+                }
+              ],
+              "stem": "vidvas",
+              "root": "√vid",
+              "rootGloss": "to know",
+              "affix": "śatṛ (present active participle), with vasu substitution, + su (prathamā ekavacana)",
+              "morph": "nominative singular masculine present active participle; subject of bibheti",
+              "note": "Dhātupāṭha 02.0059: विदँ ज्ञाने; adādi (2), parasmaipada. Aṣṭādhyāyī 3.2.124 supplies śatṛ from laṭ and 7.1.36 substitutes vasu after √vid.",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:02.0059",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:02.0059",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:3.2.124,7.1.36",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json:3.2.124,7.1.36"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 9,
+              "deva": "न",
+              "iast": "na",
+              "gloss": "not",
+              "parts": [
+                {
+                  "form": "na",
+                  "gloss": "not"
+                }
+              ],
+              "stem": "na",
+              "root": null,
+              "affix": "avyaya",
+              "morph": "indeclinable negative particle modifying bibheti",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 10,
+              "deva": "बिभेति",
+              "iast": "bibheti",
+              "gloss": "fears; is afraid",
+              "parts": [
+                {
+                  "form": "bi-",
+                  "gloss": "reduplicated syllable of the class-3 present"
+                },
+                {
+                  "form": "√bhī",
+                  "gloss": "fear"
+                },
+                {
+                  "form": "laṭ + tip",
+                  "gloss": "present, third-person singular active"
+                }
+              ],
+              "stem": "bibhe- (reduplicated present of √bhī)",
+              "root": "√bhī",
+              "rootGloss": "to fear",
+              "affix": "laṭ + tip (prathamapuruṣa ekavacana, parasmaipada)",
+              "morph": "present indicative third-person singular parasmaipada verb",
+              "note": "Dhātupāṭha 03.0002: ञिभी भये; juhotyādi (3), parasmaipada.",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:03.0002",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:03.0002",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            },
+            {
+              "i": 11,
+              "deva": "कुतश्चन",
+              "iast": "kutaścana",
+              "gloss": "from anything; at all",
+              "parts": [
+                {
+                  "form": "kutas",
+                  "gloss": "from where; from what"
+                },
+                {
+                  "form": "cana",
+                  "gloss": "ever; any (with a negative)"
+                }
+              ],
+              "stem": "kim (in the adverbial form kutas) + cana",
+              "root": null,
+              "affix": "tasil (ablatival adverb) + indefinite particle cana",
+              "morph": "indeclinable indefinite ablatival adverb under negation: from anything; at all",
+              "evidence": {
+                "text_witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt:Taittirīya Upaniṣad 2.9.1",
+                "grammar_witnesses": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json",
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/commentary/kashika/kashika.json"
+                ],
+                "review_method": "direct paired source-text derivation; interpreter and parsers not used"
+              }
+            }
+          ],
+          "source_segments": [
+            {
+              "text": "यतो ",
+              "word_indices": [0]
+            },
+            {
+              "text": "वाचो ",
+              "word_indices": [1]
+            },
+            {
+              "text": "निवर्तन्ते ",
+              "word_indices": [2]
+            },
+            {
+              "text": "अप्राप्य ",
+              "word_indices": [3]
+            },
+            {
+              "text": "मनसा ",
+              "word_indices": [4]
+            },
+            {
+              "text": "सह । ",
+              "word_indices": [5]
+            },
+            {
+              "text": "आनन्दं ",
+              "word_indices": [6]
+            },
+            {
+              "text": "ब्रह्मणो ",
+              "word_indices": [7]
+            },
+            {
+              "text": "विद्वान् ",
+              "word_indices": [8]
+            },
+            {
+              "text": "न ",
+              "word_indices": [9]
+            },
+            {
+              "text": "बिभेति ",
+              "word_indices": [10]
+            },
+            {
+              "text": "कुतश्चन ॥",
+              "word_indices": [11]
+            }
+          ],
+          "word_analysis_status": "primary-grammar-reviewed",
+          "printed_loci": [
+            "Taittireeya Upanishad II-9-1."
+          ],
+          "canonical_locus": "Taittirīya Upaniṣad 2.9.1",
+          "textual_notes": [
+            "The scan printed only the opening half-line yato vāco nivartante aprāpya manasā saha; the public source supplies the complete 2.9.1 verse because Chinmayananda's printed English translates the complete verse.",
+            "The local witness at 2.9.1 reads kutaścana; its earlier parallel at 2.4.1 reads kadācana. The cited 2.9.1 reading controls here. Chinmayananda's printed English is preserved verbatim."
+          ]
+        }
+      ]
+    }
+  }
+}

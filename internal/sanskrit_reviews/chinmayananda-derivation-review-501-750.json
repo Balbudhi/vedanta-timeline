@@ -1,0 +1,3574 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "range": [
+    501,
+    750
+  ],
+  "expected_ids": [
+    "name-0501-derivation-claim",
+    "name-0505-derivation-claim",
+    "name-0506-derivation-claim",
+    "name-0507-derivation-claim",
+    "name-0508-derivation-claim",
+    "name-0511-derivation-claim",
+    "name-0514-derivation-claim",
+    "name-0517-derivation-claim",
+    "name-0518-derivation-claim",
+    "name-0519-derivation-claim",
+    "name-0521-derivation-claim",
+    "name-0522-derivation-claim",
+    "name-0528-derivation-claim",
+    "name-0529-derivation-claim",
+    "name-0530-derivation-claim",
+    "name-0532-derivation-claim",
+    "name-0535-derivation-claim",
+    "name-0537-derivation-claim",
+    "name-0539-derivation-claim",
+    "name-0550-derivation-claim",
+    "name-0556-derivation-claim",
+    "name-0558-derivation-claim",
+    "name-0559-derivation-claim",
+    "name-0566-derivation-claim",
+    "name-0568-derivation-claim",
+    "name-0572-derivation-claim",
+    "name-0574-derivation-claim",
+    "name-0578-derivation-claim",
+    "name-0579-derivation-claim",
+    "name-0589-derivation-claim",
+    "name-0590-derivation-claim",
+    "name-0591-derivation-claim",
+    "name-0593-derivation-claim",
+    "name-0595-derivation-claim",
+    "name-0600-derivation-claim",
+    "name-0602-derivation-claim",
+    "name-0604-derivation-claim",
+    "name-0630-derivation-claim",
+    "name-0638-derivation-claim",
+    "name-0641-derivation-claim",
+    "name-0642-derivation-claim",
+    "name-0648-derivation-claim",
+    "name-0652-derivation-claim",
+    "name-0653-derivation-claim",
+    "name-0654-derivation-claim",
+    "name-0655-derivation-claim",
+    "name-0658-derivation-claim",
+    "name-0661-derivation-claim",
+    "name-0665-derivation-claim",
+    "name-0671-derivation-claim",
+    "name-0674-derivation-claim",
+    "name-0677-derivation-claim",
+    "name-0691-derivation-claim",
+    "name-0693-derivation-claim",
+    "name-0694-derivation-claim",
+    "name-0695-derivation-claim",
+    "name-0699-derivation-claim",
+    "name-0702-derivation-claim",
+    "name-0703-derivation-claim",
+    "name-0728-derivation-claim",
+    "name-0730-derivation-claim",
+    "name-0731-derivation-claim",
+    "name-0734-derivation-claim",
+    "name-0740-derivation-claim",
+    "name-0743-derivation-claim",
+    "name-0744-derivation-claim",
+    "name-0745-derivation-claim",
+    "name-0748-derivation-claim",
+    "name-0750-derivation-claim"
+  ],
+  "rows": {
+    "name-0501-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "'Kapih' also can mean the Boar-incarnation (Varaaha).",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The printed appositional verse attests a traditional identification of kapi with Varāha, but the local lexica otherwise attest kapi as monkey; this is a traditional name-reading, not a grammatical derivation of kapi.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 501, scan p. 141",
+              "detail": "The commentary prints “कपिर्वराह…” immediately after the Varāha claim."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:231",
+              "detail": "Halāyudha groups kapi with monkey terms, showing why the Varāha sense must remain explicitly traditional."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:32721",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "kapindra-kapi-varaha",
+            "label": "Kapi as Varāha",
+            "kind": "traditional-nirvacana",
+            "meaning": "Kapi is taken as a name of the Boar incarnation in the cited traditional verse.",
+            "parts": [
+              {
+                "form": "kapi",
+                "gloss": "Varāha, the Boar incarnation (traditional identification)"
+              }
+            ],
+            "roots": [],
+            "formation": "The interpretation rests on the quoted apposition कपिर्वराहः; it does not replace the ordinary ‘monkey’ member in kapīndraḥ.",
+            "morphology": "Traditional name-identification; not a Pāṇinian prakriyā.",
+            "qualification": "Retain in parallel with ‘lord of monkeys’; label the Varāha value as traditional.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 501, scan p. 141",
+                "detail": "Quoted support: “कपिर्वराह…”"
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 501 (scan page 141), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0505-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Soma as moonlight nourishing plants",
+          "classification": "source-backed-alternative",
+          "reason": "Soma is directly attested as a name of the moon; the Gītā quotation supplies the theological application to plant nourishment.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 505, scan p. 142",
+              "detail": "The commentary quotes पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:42",
+              "detail": "Halāyudha lists soma among names of the moon."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:8655",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "soma-moon",
+            "label": "Soma as the moon",
+            "kind": "grammatical",
+            "meaning": "the moon; here, the lunar form that nourishes plants",
+            "parts": [
+              {
+                "form": "soma",
+                "gloss": "the moon"
+              },
+              {
+                "form": "su",
+                "gloss": "nominative singular"
+              }
+            ],
+            "roots": [],
+            "formation": "Lexical sense of the masculine stem soma, inflected nominative singular somaḥ.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "This is a lexical parallel to the current sacred-draught gloss, not a new root derivation.",
+            "evidence": [
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:42",
+                "detail": "सोमो is listed among lunar names."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:8655",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              },
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 505, scan p. 142",
+                "detail": "The Gītā quotation applies the lunar sense."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "The term can also mean Siva, in which case it would mean as “One who is ever consorted by Umaa.”",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The prose nirvacana umayā saha vartate iti somaḥ is explicitly printed, but it is a theological wordplay rather than regular segmentation of soma.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 505, scan p. 142",
+              "detail": "Printed Sanskrit: उमया सह वर्तते इति सोमः."
+            }
+          ],
+          "public_derivation": {
+            "id": "soma-with-uma",
+            "label": "Soma as Śiva with Umā",
+            "kind": "traditional-nirvacana",
+            "meaning": "Śiva, understood as the one who is always together with Umā",
+            "parts": [
+              {
+                "form": "sa",
+                "gloss": "with"
+              },
+              {
+                "form": "Umā",
+                "gloss": "Umā"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional nirvacana: ‘he who abides with Umā’; the displayed sa + Umā pieces explain the wordplay, not regular historical sandhi.",
+            "morphology": "Name-nirvacana, nominative singular masculine.",
+            "qualification": "Show as a parallel traditional interpretation and do not present it as formal etymology.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 505, scan p. 142",
+                "detail": "The commentator supplies the Sanskrit explanatory sentence."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 505 (scan page 142), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0506-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "The word Puru means 'many'.",
+          "classification": "established-grammar",
+          "reason": "Puru ‘many, abundant’ is lexically established and is already expressed in the current puru + jit analysis.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 506, scan p. 142",
+              "detail": "The commentary explicitly glosses puru as ‘many’."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:701",
+              "detail": "Halāyudha places puru/related puru-form among words for abundant or many."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:94008",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 506 (scan page 142), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0507-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Here the word Puru means 'great'.",
+          "classification": "established-grammar",
+          "reason": "Puru belongs to the semantic field ‘many/abundant’; ‘great’ is acceptable contextually as ‘abundant/great’, but the current monolithic purusattama card omits the compound members.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 507, scan p. 142",
+              "detail": "The commentary gives ‘great’ and also notes the separate reading puruṣottamaḥ."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:701",
+              "detail": "The lexical witness supports abundance, not ‘person’ for puru."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:94008",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "purusattama-abundant-best",
+            "label": "Puru-sattama",
+            "kind": "grammatical",
+            "meaning": "the best among the abundant/great",
+            "parts": [
+              {
+                "form": "puru",
+                "gloss": "many, abundant; hence great"
+              },
+              {
+                "form": "sattama",
+                "gloss": "best, most excellent"
+              }
+            ],
+            "roots": [],
+            "formation": "Compound reading puru + sattama; the first member is lexical ‘many/abundant’.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "Do not silently replace this with the separately reported variant puruṣottamaḥ.",
+            "evidence": [
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:701",
+                "detail": "Puru is grouped with abundance terms."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:94008",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              },
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 507, scan p. 142",
+                "detail": "The scan distinguishes purusattamaḥ from puruṣottamaḥ."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 507 (scan page 142), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0508-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "In direct meaning, of course, it means “He who shows the supreme humility.”",
+          "classification": "established-grammar",
+          "reason": "Vinaya is lexically attested in the range discipline, instruction, right conduct, and tranquillity; humility is a conventional contextual gloss.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 508, scan p. 142",
+              "detail": "The commentary begins with the humility sense."
+            },
+            {
+              "source": "Yādavakośa primary witness",
+              "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:2710",
+              "detail": "Yādavakośa gives vinaya in dharma, learning, understanding, instruction, conduct, and tranquillity."
+            },
+            {
+              "source": "Paired raw Yādavakośa witness",
+              "locus": "sources/raw/lexica/yaadavakosha.json:278817",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "The Lord is one who leads well (Vi — Naya) the seekers steadily through the path of truth and righteousness.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The vi–naya reading is an intelligible traditional nirvacana grounded in √nī ‘lead/carry’, but it should not be confused with a complete formal derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 508, scan p. 142",
+              "detail": "The commentary explicitly segments Vi — Naya."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3126-3128",
+              "detail": "णीञ् is read with प्रापणे, supporting leading/carrying."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:23020-23030",
+              "detail": "Raw record 01.1049 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": {
+            "id": "vinaya-leading-well",
+            "label": "Vi-naya: leading well",
+            "kind": "traditional-nirvacana",
+            "meaning": "one who leads seekers distinctly or well",
+            "parts": [
+              {
+                "form": "vi-",
+                "gloss": "apart, distinctly; here ‘well’ in the nirvacana"
+              },
+              {
+                "form": "naya",
+                "gloss": "leading, guidance"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√nī",
+                "gana": "bhvādi (1)",
+                "pada": "ubhayapada",
+                "gloss": "to lead, carry, bring",
+                "dhatupatha": {
+                  "locus": "01.1049",
+                  "aupadeshika_devanagari": "णीञ्",
+                  "artha_sanskrit": "प्रापणे"
+                }
+              }
+            ],
+            "formation": "Traditional segmentation vi + naya, with naya connected to √nī ‘lead/carry’.",
+            "morphology": "Masculine nominative singular name; traditional semantic analysis of the stem vinaya.",
+            "qualification": "The root is secure; the commentator’s evaluative gloss ‘well’ is interpretive.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 508, scan p. 142",
+                "detail": "The scan itself prints the segmentation."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3126-3128",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:23020-23030",
+                "detail": "Raw record 01.1049 confirms the same aupadeśika form and Sanskrit artha."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "One who humiliates those who are unrighteous.",
+          "classification": "interpretive-not-etymology",
+          "reason": "This is a theological application of disciplinary vinaya; it is not a distinct morphology or root derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 508, scan p. 142",
+              "detail": "The sentence occurs between the humility and vi–naya readings."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 508 (scan page 142), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0511-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "It can also mean \"One who is fully competent to receive all devoted offerings made in the ritualistic sacrifices.\"",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "‘Worthy to receive sacrificial offerings’ is a traditional reanalysis of dāśārha; the local lexica attest dāśārha as a name of Viṣṇu/Kṛṣṇa but do not establish this as the regular formation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 511, scan p. 143",
+              "detail": "The commentary presents it explicitly as an additional meaning."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:22",
+              "detail": "Halāyudha lists dāśārha among names of Viṣṇu."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:4097",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "dasarha-offering-worthy",
+            "label": "Worthy of offerings",
+            "kind": "traditional-nirvacana",
+            "meaning": "fully worthy to receive ritual offerings",
+            "parts": [
+              {
+                "form": "dāśa",
+                "gloss": "offering/gift, as understood in this nirvacana"
+              },
+              {
+                "form": "arha",
+                "gloss": "worthy, deserving"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional segmentation dāśa + arha.",
+            "morphology": "Nominative singular masculine name.",
+            "qualification": "Attested here as a traditional parallel; the local source library does not secure a full Pāṇinian formation from dāśa.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 511, scan p. 143",
+                "detail": "Exact alternative meaning in the scan."
+              },
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:22",
+                "detail": "Independent lexical witness confirms dāśārha as a divine name."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:4097",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 511 (scan page 143), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0514-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "It can also mean that as Pure Consciousness, He is one without a second, and, therefore, from His state of Universal Oneness He sees nothing other than Himself everywhere.",
+          "classification": "interpretive-not-etymology",
+          "reason": "The statement explains nondual witnessing; it supplies no competing segmentation, root, or morphological derivation of vinayitā-sākṣī.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 514, scan p. 143–144",
+              "detail": "The metaphysical explanation follows the lexical ‘witness of modesty’ gloss."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 514 (scan pages 143, 144), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0517-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "the Devas, Men, Manes and the Asuras.\" Therefore, the term Ambhonidhih should mean \"One who is the substratum for all the four types of creatures.",
+          "classification": "source-backed-alternative",
+          "reason": "The cited Taittirīya Brāhmaṇa passage supplies a traditional fourfold referent for ambhas; combining that with nidhi ‘receptacle’ yields a coherent exegetical alternative beyond the current water/ocean analysis.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 517, scan p. 144",
+              "detail": "The commentary cites Taittirīya Brāhmaṇa 2.3.8 and enumerates Devas, men, Manes, and Asuras."
+            }
+          ],
+          "public_derivation": {
+            "id": "ambhonidhi-four-orders",
+            "label": "Receptacle of the four ambhas",
+            "kind": "traditional-nirvacana",
+            "meaning": "the substratum or receptacle of the four orders of beings",
+            "parts": [
+              {
+                "form": "ambhas",
+                "gloss": "the four ambhas: Devas, humans, Manes, and Asuras, in the cited passage"
+              },
+              {
+                "form": "nidhi",
+                "gloss": "repository, receptacle"
+              }
+            ],
+            "roots": [],
+            "formation": "Exegetical compound reading ambhas + nidhi; visarga/sandhi yields ambho-nidhi.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "The fourfold sense is text-specific and must appear with the Taittirīya citation, alongside—not instead of—the ordinary ‘ocean’ reading.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 517, scan p. 144",
+                "detail": "The scan provides both the quotation locus and the fourfold enumeration."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 517 (scan page 144), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0518-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Ananta also means “end-less” and, therefore, the Endless Self.",
+          "classification": "established-grammar",
+          "reason": "The negative compound an-anta ‘without end’ plus ātman gives a straightforward grammatical reading missing from the current monolithic stem.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 518, scan p. 144",
+              "detail": "The commentary explicitly states ‘end-less’ and ‘Endless Self’."
+            }
+          ],
+          "public_derivation": {
+            "id": "anantatman-endless-self",
+            "label": "Endless Self",
+            "kind": "grammatical",
+            "meaning": "the self that has no end; the infinite Self",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not, without"
+              },
+              {
+                "form": "anta",
+                "gloss": "end, limit"
+              },
+              {
+                "form": "ātman",
+                "gloss": "self"
+              }
+            ],
+            "roots": [],
+            "formation": "an-anta + ātman, with vowel coalescence ananta + ātman → anantātman.",
+            "morphology": "Nominative singular masculine compound, surface anantātmā.",
+            "qualification": "The metaphysical identification with paramātman is commentary; the compound meaning itself is grammatical.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 518, scan p. 144",
+                "detail": "The scan gives the member meaning explicitly."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "One who manifests Himself as the endless varieties of entities constituting the universe.",
+          "classification": "interpretive-not-etymology",
+          "reason": "This is a theological application of infinitude, not another derivation of the form.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 518, scan p. 144",
+              "detail": "The sentence precedes the literal ‘end-less’ explanation."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 518 (scan page 144), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0519-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "It can also mean, \"One who remains on a fig-leaf, upon the waters of the deluge, when all names and forms have been dissolved into the unmanifest.",
+          "classification": "interpretive-not-etymology",
+          "reason": "The fig-leaf-at-dissolution narrative identifies an iconographic referent of ‘lying on the great ocean’; it introduces no new derivation beyond mahodadhi + śaya.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 519, scan p. 144",
+              "detail": "The commentary gives the deluge scene as an additional narrative meaning."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 519 (scan page 144), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0521-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "'Unborn' in philosophy means undying; therefore, Eternal, Changeless.",
+          "classification": "interpretive-not-etymology",
+          "reason": "A-ja ‘unborn’ is already in the current card; ‘undying, eternal, changeless’ is its philosophical implication, not another formation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 521, scan p. 145",
+              "detail": "The commentary moves explicitly from the lexical ‘unborn’ to philosophical consequences."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "“Born (ज) to Lord Viṣṇu” (अ) is yet another meaning.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The scan attests an alternative traditional segmentation A + ja and applies it to Pradyumna. It is not the regular privative a-ja analysis.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 521, scan p. 145",
+              "detail": "The full commentary explicitly calls this ‘yet another meaning’."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3916-3918",
+              "detail": "जनीँ प्रादुर्भावे supports ja ‘born’."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:29576-29586",
+              "detail": "Raw record 04.0044 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": {
+            "id": "aja-born-to-visnu",
+            "label": "A-ja: born to Viṣṇu",
+            "kind": "traditional-nirvacana",
+            "meaning": "Pradyumna, understood as one born to Viṣṇu",
+            "parts": [
+              {
+                "form": "A",
+                "gloss": "Viṣṇu, in this traditional name-reading"
+              },
+              {
+                "form": "ja",
+                "gloss": "born"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√jan",
+                "gana": "divādi (4)",
+                "pada": "ātmanepada",
+                "gloss": "to be born, come into existence",
+                "dhatupatha": {
+                  "locus": "04.0044",
+                  "aupadeshika_devanagari": "जनीँ",
+                  "artha_sanskrit": "प्रादुर्भावे"
+                }
+              }
+            ],
+            "formation": "Traditional A + ja reading; ja is connected with √jan ‘to be born’.",
+            "morphology": "Nominative singular masculine name.",
+            "qualification": "Keep parallel with the grammatical privative a-ja ‘unborn’; do not merge the two analyses.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 521, scan p. 145",
+                "detail": "The commentator identifies the referent as Pradyumna."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3916-3918",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:29576-29586",
+                "detail": "Raw record 04.0044 confirms the same aupadeśika form and Sanskrit artha."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 521 (scan page 145), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0522-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "“One who deserves the highest worship.\" Arhaa means 'poojaa': 'worship'.",
+          "classification": "established-grammar",
+          "reason": "Mahā + arha supports ‘greatly worthy / worthy of the highest’; the sentence’s ‘arha means pūjā’ is imprecise because arha means worthy, while worship is what one is worthy of.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 522, scan p. 145",
+              "detail": "The commentary gives both ‘deserves the highest worship’ and ‘Arhaa means poojaa’."
+            },
+            {
+              "source": "Current reviewed analysis",
+              "locus": "gita/vishnu-sahasranama/analysis.json, name 522",
+              "detail": "The existing parts already identify mahā ‘great’ and the worthiness member, though the displayed form rha should not be treated as an independent stem."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 522 (scan page 145), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0528-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "The term means One who has no contact with the world of senses, as He dwells in transcendence of all the equipments of pleasure—the body, mind and intellect.",
+          "classification": "unsupported-withheld",
+          "reason": "No segmentation or grammar-source evidence connects nanda ‘joy/delight’ with ‘having no contact with the senses’. The cited Upaniṣadic passages support bliss in the infinite, not this proposed lexical meaning.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 528, scan p. 145–146",
+              "detail": "The same paragraph quotes Chāndogya 7.23.1 and 7.24.1 but gives no Sanskrit derivation for the no-contact claim."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 528 (scan pages 145, 146), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0529-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "It also means that One who is rich in the experience of the Supreme Self; for, the Upaniṣad says: \"This alone is the Supreme dharma which is to experience the Self through yoga\".",
+          "classification": "interpretive-not-etymology",
+          "reason": "The quoted maxim identifies Self-realization through yoga as supreme dharma; it interprets the bearer of true dharma but does not derive satyadharmā differently from satya + dharma.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 529, scan p. 146",
+              "detail": "The commentary quotes अयं हि परमो धर्मः यद्योगेनात्मदर्शनम्."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 529 (scan page 146), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0530-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The very term 'Tri' in Sanskrit means 'the three-worlds.' \"The greatest men of reflection have declared the three fields-of-experiences (Loka) by the simple term 'Tri,''-(Harivaṃśa).",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Tri grammatically means ‘three’; the cited Harivaṃśa verse attests the traditional metonymy ‘the three worlds’. This should be shown as a sourced exegetical sense, not as the sole lexical value.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 530, scan p. 146",
+              "detail": "Harivaṃśa 3.88.51: त्रिरित्येव त्रयो लोकाः…"
+            }
+          ],
+          "public_derivation": {
+            "id": "trivikrama-three-worlds",
+            "label": "Tri as the three worlds",
+            "kind": "traditional-nirvacana",
+            "meaning": "one whose stride encompasses the three worlds",
+            "parts": [
+              {
+                "form": "tri",
+                "gloss": "three; in the cited verse, the three worlds"
+              },
+              {
+                "form": "vikrama",
+                "gloss": "stride, step"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional contextual expansion of tri in the compound tri-vikrama.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "The ordinary grammatical member remains ‘three’; ‘three worlds’ is defended by the quoted Harivaṃśa verse.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 530, scan p. 146",
+                "detail": "The quotation explicitly equates tri with the three worlds."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 530 (scan page 146), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0532-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "kṛtam means “the universe that has been created.” Jna means “the knower of all the objects.”",
+          "classification": "established-grammar",
+          "reason": "Kṛta ‘made/created’ and jña ‘knower’ are the compound members already present; ‘the created universe’ and ‘knower of objects’ are contextual expansions.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 532, scan p. 146–147",
+              "detail": "The commentary explicitly parses kṛtam and jña."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "The Supreme Self is the material cause for the “knower” ego, and the effects constitute the world of things and beings.",
+          "classification": "interpretive-not-etymology",
+          "reason": "This cause/effect account is the commentator’s Vedāntic interpretation, not morphology or etymology.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 532, scan p. 146–147",
+              "detail": "The metaphysical explanation follows the member glosses."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 532 (scan pages 146, 147), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0535-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "The Lord of the three steps—the three steps are waking, dream and deep-sleep.",
+          "classification": "unsupported-withheld",
+          "reason": "Tridaśa is the established designation ‘the thirty [gods]/gods’, not tri-daśa ‘three steps’. The current card reproduces the unsupported reading and misses the normal compound boundary tridaśa + adhyakṣa.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 535, scan p. 147–148",
+              "detail": "The paragraph offers ‘three steps’ without a Sanskrit supporting derivation."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:4",
+              "detail": "Halāyudha uses tridaśāḥ as a synonym for the gods; the paired raw verse is in the admitted Halāyudha witness."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:231",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "One who assumes the three qualities of Sattva, Rajas and Tamas and yet is unaffected by them.",
+          "classification": "unsupported-withheld",
+          "reason": "The three-guṇa interpretation does not account for daśa or adhyakṣa and is not supported by the consulted grammar/lexical witnesses.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 535, scan p. 147–148",
+              "detail": "The guṇa reading is introduced only as an additional interpretation."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 535 (scan pages 147, 148), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0537-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The Lord is one who has destroyed Lord Death (Kṛtānta) himself.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Kṛtānta is independently attested as Yama/Death; reading the final kṛt as destroyer is a traditional application of ‘doer/maker’. The current card lacks the Death sense.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 537, scan p. 148",
+              "detail": "The commentary explicitly calls this another interpretation."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:71",
+              "detail": "Halāyudha lists kṛtānta with Yama and Time."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:13588",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "kritantakrit-death-destroyer",
+            "label": "Destroyer of Death",
+            "kind": "traditional-nirvacana",
+            "meaning": "the one who brings about the end of Death (Kṛtānta/Yama)",
+            "parts": [
+              {
+                "form": "kṛtānta",
+                "gloss": "Death, Yama"
+              },
+              {
+                "form": "kṛt",
+                "gloss": "doer, maker; here destroyer"
+              }
+            ],
+            "roots": [],
+            "formation": "Compound reinterpretation kṛtānta + kṛt, with kṛtānta taken in its attested Death/Yama sense.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "The destructive force of kṛt is contextual; the lexical identification kṛtānta = Death is source-backed.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 537, scan p. 148",
+                "detail": "The scan names Lord Death explicitly."
+              },
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:71",
+                "detail": "Kṛtānta is a name of Yama/Time."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:13588",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "The end of created vāsanās is total liberation, and He is the giver of that liberation.",
+          "classification": "interpretive-not-etymology",
+          "reason": "This is a spiritual interpretation of kṛta + anta and liberation; ‘giver’ is not supplied by the head kṛt and should not be published as a separate grammatical derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 537, scan p. 148",
+              "detail": "The paragraph develops the vāsanā/liberation interpretation before the Death reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 537 (scan page 148), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0539-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "In Viṣṇu Tilaka we read: ‘‘गोभिरेव यतो वेद्यो गोविन्दः समुदाहृतः ।’’ Here, \"Gobhih\" means the statements and declarations of the Upaniṣads.",
+          "classification": "source-backed-alternative",
+          "reason": "The cited Viṣṇutilaka verse directly attests the traditional explanation ‘called Govinda because knowable through the go-s’; the commentary identifies go here with Upaniṣadic statements. This differs from the ordinary cow/earth readings.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 539, scan p. 148–149",
+              "detail": "Quoted: गोभिरेव यतो वेद्यो गोविन्दः समुदाहृतः."
+            }
+          ],
+          "public_derivation": {
+            "id": "govinda-vedic-words",
+            "label": "Known through Vedic words",
+            "kind": "traditional-nirvacana",
+            "meaning": "the one made known through the declarations of the Upaniṣads",
+            "parts": [
+              {
+                "form": "go",
+                "gloss": "Vedic/Upaniṣadic words, in the cited tradition"
+              },
+              {
+                "form": "vinda",
+                "gloss": "known, found"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional explanation from instrumental gobhiḥ ‘through the go-s/words’ and vedya ‘to be known’.",
+            "morphology": "Nominative singular masculine name.",
+            "qualification": "The source defends this traditional semantic stream; it is not the ordinary lexical go ‘cow’.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 539, scan p. 148–149",
+                "detail": "The commentary supplies the defending verse and identifies gobhiḥ."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 539 (scan pages 148, 149), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0550-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "Kṛṣṇa also means ‘The Dark’.",
+          "classification": "established-grammar",
+          "reason": "The lexical colour/name sense ‘dark’ is established and already present in the current card.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 550, scan p. 151",
+              "detail": "The commentary explicitly distinguishes the incarnational name from the colour sense."
+            },
+            {
+              "source": "Amarakośa primary witness",
+              "locus": "sources/primary/lexica/amarakosha/amarakosha_upstream.txt:177",
+              "detail": "Kṛṣṇa is included among dark colour terms."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "The ‘Unknown’ source of awareness is therefore called ‘Dark’.",
+          "classification": "interpretive-not-etymology",
+          "reason": "This is an Advaitic analogy built on the colour gloss, not a second etymology.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 550, scan p. 151",
+              "detail": "The remainder of the paragraph develops ‘dark’ as unknowable source."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 550 (scan page 151), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0556-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "One who has eyes as beautiful as lotus flowers: ‘Lotus-eyed’.",
+          "classification": "established-grammar",
+          "reason": "Puṣkara + akṣa is the ordinary compound reading; the current card gives only a monolithic stem.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 556, scan p. 153",
+              "detail": "The commentary explicitly identifies both members."
+            },
+            {
+              "source": "Kāśikāvṛtti primary witness",
+              "locus": "sources/primary/panini/kashika/kashika_upstream.txt:2754",
+              "detail": "The grammar discussion explicitly uses puṣkarākṣa as an example."
+            }
+          ],
+          "public_derivation": {
+            "id": "pushkaraksha-lotus-eyed",
+            "label": "Lotus-eyed",
+            "kind": "grammatical",
+            "meaning": "one whose eyes are like lotuses",
+            "parts": [
+              {
+                "form": "puṣkara",
+                "gloss": "lotus"
+              },
+              {
+                "form": "akṣa",
+                "gloss": "eye"
+              }
+            ],
+            "roots": [],
+            "formation": "Descriptive compound puṣkara + akṣa, with ā by vowel coalescence in puṣkarākṣa.",
+            "morphology": "Nominative singular masculine bahuvrīhi.",
+            "qualification": "The standard compound analysis should be available alongside the current whole-stem gloss.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 556, scan p. 153",
+                "detail": "Exact member glosses in the commentary."
+              },
+              {
+                "source": "Kāśikāvṛtti primary witness",
+                "locus": "sources/primary/panini/kashika/kashika_upstream.txt:2754",
+                "detail": "Direct example puṣkarākṣa."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "Puṣkara also means Universal Space; therefore one who pervades all space.",
+          "classification": "source-backed-alternative",
+          "reason": "Puṣkara is independently attested as ‘sky/space’; the all-pervading predicate is the commentator’s theological application.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 556, scan p. 153",
+              "detail": "The commentary presents this as an additional interpretation."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:137",
+              "detail": "Halāyudha lists puṣkara among words for sky/space."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:21261",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "pushkaraksha-space",
+            "label": "Puṣkara as space",
+            "kind": "traditional-nirvacana",
+            "meaning": "one associated with or pervading universal space",
+            "parts": [
+              {
+                "form": "puṣkara",
+                "gloss": "sky, space"
+              },
+              {
+                "form": "akṣa",
+                "gloss": "the remaining member of the received name; not re-derived by this claim"
+              }
+            ],
+            "roots": [],
+            "formation": "A lexical alternate sense for puṣkara is applied within the received compound; the commentary supplies the pervasion interpretation.",
+            "morphology": "Traditional semantic reinterpretation of a nominative singular name.",
+            "qualification": "Space is source-backed; ‘ever pervading’ is interpretive and must remain attributed to the commentator.",
+            "evidence": [
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:137",
+                "detail": "Puṣkara = space."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:21261",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              },
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 556, scan p. 153",
+                "detail": "The scan makes the theological inference."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 556 (scan page 153), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0558-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Bhagavān is one who possesses bhaga, the six great excellences.",
+          "classification": "established-grammar",
+          "reason": "The current bhaga + vat analysis is the correct possessive formation, though its bhaga gloss is corrupted. The quoted Viṣṇu Purāṇa verse defines the sixfold content.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 558, scan p. 153–154",
+              "detail": "Viṣṇu Purāṇa 6.5.74 is quoted in full and followed by the possessive explanation."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "He is called Bhagavān who knows origins and dissolutions, arrivals and departures, vidyā and avidyā.",
+          "classification": "source-backed-alternative",
+          "reason": "This is an independently quoted traditional definition of Bhagavān, not a rival morphological derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 558, scan p. 153–154",
+              "detail": "Viṣṇu Purāṇa 6.5.78 is quoted in full."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 558 (scan pages 153, 154), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0559-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "At this time, the Lord absorbs everything unto Himself, and in this sense the term, \"destroyer of all these great glories\" (bhagahā) means only a destruction as in the case, say, of Napoleon who, while sleeping, absorbed unto himself all his glories.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Bhaga + han ‘destroyer of bhaga’ is already represented. The comparison with the sleeping Napoleon explains ‘destruction’ as reabsorption; it does not produce another derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 559, scan p. 154",
+              "detail": "The paragraph explicitly reframes destruction as absorption at dissolution."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 559 (scan page 154), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0566-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "\"Gati\" (गति) means both the goal and the path.",
+          "classification": "source-backed-alternative",
+          "reason": "Gati has attested movement/course and result/destination senses; ‘path and goal’ is a coherent semantic pairing, but the current card leaves gati-sattama unsegmented.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 566, scan p. 155",
+              "detail": "The commentary explicitly states both path and goal."
+            },
+            {
+              "source": "Yādavakośa primary witness",
+              "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:1118",
+              "detail": "Yādavakośa attests gati as a result/goal; elsewhere it attests movement/course."
+            },
+            {
+              "source": "Paired raw Yādavakośa witness",
+              "locus": "sources/raw/lexica/yaadavakosha.json:122087",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "gatisattama-path-goal",
+            "label": "Best path and highest goal",
+            "kind": "grammatical",
+            "meaning": "the best course/path and the highest destination",
+            "parts": [
+              {
+                "form": "gati",
+                "gloss": "going, course; destination or result"
+              },
+              {
+                "form": "sattama",
+                "gloss": "best, highest"
+              }
+            ],
+            "roots": [],
+            "formation": "Compound reading gati + sattama, applying two attested senses of gati in parallel.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "The specifically spiritual identification with liberation is interpretive; the dual lexical range is valid.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 566, scan p. 155",
+                "detail": "The scan explicitly defends both senses."
+              },
+              {
+                "source": "Yādavakośa primary witness",
+                "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:1118",
+                "detail": "Gati is used for result/goal."
+              },
+              {
+                "source": "Paired raw Yādavakośa witness",
+                "locus": "sources/raw/lexica/yaadavakosha.json:122087",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 566 (scan page 155), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0568-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "It is endowed with terrible prowess in cutting down the unholy enemies of the nobler life and so it is called as the \"Khanda — Parasu.\" As such it means 'one who wields the invincible Parasu,'",
+          "classification": "interpretive-not-etymology",
+          "reason": "Khaṇḍa + paraśu, ‘broken/notched axe’ or the axe-bearing epithet, is already exposed in the current parts. The weapon’s invincibility and moral symbolism are narrative interpretation, not additional derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 568, scan p. 156",
+              "detail": "The commentary links the axe to Paraśurāma and then moralizes its cutting power."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 568 (scan page 156), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0572-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "When considered as one word it means: ‘One who creates many omniscient men of wisdom.’",
+          "classification": "unsupported-withheld",
+          "reason": "The consulted witnesses do not establish this one-word derivation, and it does not transparently account for sarva-dṛg-vyāsa. It should be withheld.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 572, scan p. 156",
+              "detail": "The claim is offered without Sanskrit derivation or cited textual support."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Taken as two words: ‘One who is Omniscient and Vyāsa.’",
+          "classification": "established-grammar",
+          "reason": "The split sarva-dṛk + vyāsa is grammatically coherent and is already reflected by the current parts; external sandhi voices k before v.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 572, scan p. 156",
+              "detail": "The commentary explicitly contrasts the one-word and two-word readings."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 572 (scan page 156), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0574-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "\"One who has been glorified by the three Sāmans.\" 'Sāma' means divine songs—hence, Veda.",
+          "classification": "established-grammar",
+          "reason": "Tri ‘three’ + sāman ‘Sāman chant’ gives ‘connected with the three Sāmans’; the commentary’s ‘hence Veda’ is contextual, and the current parts already expose the members.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 574, scan p. 157",
+              "detail": "The commentary states ‘glorified by the three Sāmans’ and glosses Sāma as divine song."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 574 (scan page 157), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0578-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "‘bheṣajaṃ’ means ‘medicine.' Hence, He who is the very specific cure for the disease of Samsar (change, becoming).",
+          "classification": "established-grammar",
+          "reason": "Bheṣaja is directly attested as medicine; identifying Viṣṇu as medicine for saṃsāra is metaphorical application.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 578, scan p. 157",
+              "detail": "The commentary first gives the lexical meaning and then the saṃsāra metaphor."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:613",
+              "detail": "Halāyudha lists bheṣaja with medicine/remedy terms."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:78820",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 578 (scan page 157), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0579-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Or it can also mean that the Lord manifested during the \"churning of the Milky Ocean\" as the Deity of Medicine, holding the pot of Amrita in His hand - The Lord Dhanvantari.",
+          "classification": "interpretive-not-etymology",
+          "reason": "The Dhanvantari episode identifies the divine physician denoted by bhiṣak; it does not alter the noun’s derivation or morphology.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 579, scan p. 157",
+              "detail": "The commentary explicitly marks this as another referential meaning."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 579 (scan page 157), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0589-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "The term 'Ķu' (कु) means Earth. Therefore, the term means \"He who delights in the Earth.\"",
+          "classification": "established-grammar",
+          "reason": "Ku ‘earth’ is directly attested, and the current ku + muda analysis already expresses the traditional ‘delighting in Earth’ reading.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 589, scan p. 159",
+              "detail": "The commentary explicitly segments ku and supplies its meaning."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:156",
+              "detail": "Halāyudha lists ku among words for Earth."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:23253",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 589 (scan page 159), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0590-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "He who reclines in the waters (Kuvala).",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The water/water-lily bed reading is the coherent traditional compound interpretation and is absent from the monolithic current stem.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 590, scan p. 159",
+              "detail": "The full commentary begins with the water-bed explanation."
+            }
+          ],
+          "public_derivation": {
+            "id": "kuvaleshaya-water-bed",
+            "label": "Reclining on the waters",
+            "kind": "traditional-nirvacana",
+            "meaning": "one who lies upon the waters or water-lily",
+            "parts": [
+              {
+                "form": "kuvala",
+                "gloss": "waters/water-lily, in this traditional reading"
+              },
+              {
+                "form": "śaya",
+                "gloss": "lying, reclining"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional compound segmentation kuvala + śaya.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "The exact semantic bridge from kuvala to surrounding waters is traditional rather than a fully secured lexical derivation.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 590, scan p. 159",
+                "detail": "The scan supplies the segmentation and interpretation."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "The term can also mean the ‘Crawler’—meaning Serpent.",
+          "classification": "unsupported-withheld",
+          "reason": "No coherent segmentation of kuvaleśaya into a word meaning ‘crawler/serpent’ is supplied, and the consulted lexical/grammar witnesses do not secure it. The subsequent Śeṣa-śāyin narrative does not repair the missing derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 590, scan p. 159",
+              "detail": "The commentary jumps from ‘crawler’ to reclining on Śeṣa without a witnessed form derivation."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 590 (scan page 159), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0591-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "'Go' also means Earth.",
+          "classification": "established-grammar",
+          "reason": "Go is independently attested as Earth, and the current card already includes cow and earth in parallel.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 591, scan p. 159–160",
+              "detail": "The commentary explicitly says go also means Earth."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:156",
+              "detail": "Halāyudha includes gauḥ among Earth synonyms."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:23253",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 591 (scan pages 159, 160), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0593-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "The root 'Gup' (गुप) has two meanings: to protect; to veil.",
+          "classification": "established-grammar",
+          "reason": "The Dhātupāṭha directly records √gup in protection; its traditional semantic range includes hiding/concealing, so ‘protect’ and ‘veil’ are both valid and already present in the current root record.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 593, scan p. 160",
+              "detail": "The commentary names both senses."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1380-1384",
+              "detail": "गुपूँ रक्षणे; the paired record explicitly glosses protect, hide, conceal."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:9973-9983",
+              "detail": "Raw record 01.0461 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 593 (scan page 160), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0595-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "vṛṣa means dharma, so vṛṣapriya is one who delights in dharma.",
+          "classification": "established-grammar",
+          "reason": "Vṛṣa is directly attested as dharma/merit; the current vṛṣa + priya analysis already expresses this.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 595, scan p. 160",
+              "detail": "The commentary supplies the vigraha वृषः प्रियो यस्य सः."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:125",
+              "detail": "Halāyudha equates dharma, puṇya, vṛṣa, śreyas, and sukṛta."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:19891",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "One who is beloved of the virtuous, the Good.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "This is a traditional shift from vṛṣa ‘dharma’ to those possessing dharma; it is interpretively coherent but not a separate formal derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 595, scan p. 160",
+              "detail": "The full commentary offers it as the second reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 595 (scan page 160), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0600-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Viṣṇu is the \"Purifier\" (Siva), as His names, when chanted, and His form-divine, when meditated upon, become a means of quietening the mind and sharpening our perceptions of the subtler and the transcendental.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Śiva’s lexical value is auspicious/beneficent; ‘purifier’ describes the effect of recitation and meditation in the commentary, not a distinct derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 600, scan p. 161",
+              "detail": "The paragraph argues theological identity and then describes the purifying effect of names and form."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:122",
+              "detail": "Halāyudha lists śiva among auspicious/beneficent terms."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:19217",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 600 (scan page 161), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0602-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "This term is dissolved as श्री वसत्यस्मिन्निति श्रीवासः “Śrī”—all glory and riches—ever dwell in His bosom of love and beauty.",
+          "classification": "established-grammar",
+          "reason": "The locative vigraha śrī vasati asmin supports ‘the abode in whom Śrī dwells’; the current śrī + vāsa members already capture it.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 602, scan p. 162",
+              "detail": "The commentary prints श्री वसत्यस्मिन्निति श्रीवासः."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 602 (scan page 162), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0604-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Śrī here means the Vedas, the imperishable wealth of the wise; he is best among their knowers.",
+          "classification": "source-backed-alternative",
+          "reason": "The cited Taittirīya Brāhmaṇa passage supplies the contextual Vedic sense of śrī; the grammar śrīmatām varaḥ remains ‘best among possessors of śrī’.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 604, scan p. 162",
+              "detail": "The commentary cites Taittirīya Brāhmaṇa 1.2.1 for Ṛc, Yajus, and Sāman as imperishable wealth."
+            }
+          ],
+          "public_derivation": {
+            "id": "srimatam-vara-vedic-wealth",
+            "label": "Best among possessors of Vedic wealth",
+            "kind": "traditional-nirvacana",
+            "meaning": "the best among those endowed with the imperishable wealth of Vedic knowledge",
+            "parts": [
+              {
+                "form": "śrīmatām",
+                "gloss": "of those possessing śrī, here Vedic wealth"
+              },
+              {
+                "form": "varaḥ",
+                "gloss": "best, foremost"
+              }
+            ],
+            "roots": [],
+            "formation": "Genitive plural śrīmatām governed by the superlative/selectional head varaḥ.",
+            "morphology": "Śrīmatām: genitive plural; varaḥ: nominative singular masculine.",
+            "qualification": "The Vedic referent of śrī is source-specific; retain the ordinary prosperity/glory sense in parallel.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 604, scan p. 162",
+                "detail": "The scan gives the Taittirīya citation and the interpretive bridge."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "Varaḥ can mean ‘one who blesses’.",
+          "classification": "unsupported-withheld",
+          "reason": "Vara can denote best/choice/boon, but the agentive ‘one who blesses’ is not established by the current compound morphology or the consulted witnesses. Withhold as a derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 604, scan p. 162",
+              "detail": "The statement is asserted without Sanskrit formation."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 604 (scan page 162), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0630-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "“Bhooti” also means Glories (Aisvarya), so He is One Who is the treasure-house of all Glories.",
+          "classification": "established-grammar",
+          "reason": "Bhūti is directly attested as aiśvarya/glory/prosperity; the current ‘being; prosperity’ entry should retain the glory sense explicitly.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 630, scan p. 167",
+              "detail": "The commentary quotes विभूतिभूतिरैश्वर्ये."
+            },
+            {
+              "source": "Yādavakośa primary witness",
+              "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:3064",
+              "detail": "Yādavakośa equates vibhūti/bhūti with aiśvarya and supernatural excellences."
+            },
+            {
+              "source": "Paired raw Yādavakośa witness",
+              "locus": "sources/raw/lexica/yaadavakosha.json:299757",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 630 (scan page 167), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0638-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The term can also mean “He Who is invincible by any of His enemies.”",
+          "classification": "established-grammar",
+          "reason": "A-niruddha is the regular negative formation ‘not obstructed/restrained’, hence invincible; this additional grammatical analysis is missing from the current vyūha-only stem gloss.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 638, scan p. 168–169",
+              "detail": "The commentary offers ‘invincible by enemies’ as an additional meaning."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4908-4910",
+              "detail": "रुधिँर् आवरणे directly supports obstruction/enclosure."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:37125-37134",
+              "detail": "Raw record 07.0001 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": {
+            "id": "aniruddha-unobstructed",
+            "label": "Unobstructed, invincible",
+            "kind": "grammatical",
+            "meaning": "one who cannot be obstructed or restrained",
+            "parts": [
+              {
+                "form": "an-",
+                "gloss": "not"
+              },
+              {
+                "form": "niruddha",
+                "gloss": "obstructed, restrained"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√rudh",
+                "gana": "rudhādi (7)",
+                "pada": "ubhayapada",
+                "gloss": "to obstruct, enclose",
+                "dhatupatha": {
+                  "locus": "07.0001",
+                  "aupadeshika_devanagari": "रुधिँर्",
+                  "artha_sanskrit": "आवरणे"
+                }
+              }
+            ],
+            "formation": "Privative an- + niruddha, the ni- + √rudh past participial formation.",
+            "morphology": "Nominative singular masculine adjective/name.",
+            "qualification": "‘Invincible’ is the contextual force of ‘unobstructed’; retain the distinct vyūha-name reading in parallel.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 638, scan p. 168–169",
+                "detail": "Exact alternate gloss in commentary."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4908-4910",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:37125-37134",
+                "detail": "Raw record 07.0001 confirms the same aupadeśika form and Sanskrit artha."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 638 (scan pages 168, 169), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0641-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Of immeasurable prowess.",
+          "classification": "established-grammar",
+          "reason": "Vikrama is directly attested as prowess/valour; a-mita + vikrama yields the established reading omitted by the current step-only member gloss.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 641, scan p. 169",
+              "detail": "The commentary leads with the prowess meaning."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:723",
+              "detail": "Halāyudha equates vikrama with parākrama, prowess."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:97126",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "amitavikrama-measureless-prowess",
+            "label": "Measureless prowess",
+            "kind": "grammatical",
+            "meaning": "one whose prowess cannot be measured",
+            "parts": [
+              {
+                "form": "a-",
+                "gloss": "not"
+              },
+              {
+                "form": "mita",
+                "gloss": "measured"
+              },
+              {
+                "form": "vikrama",
+                "gloss": "prowess, valour"
+              }
+            ],
+            "roots": [],
+            "formation": "a-mita + vikrama, with the lexical valour sense of vikrama.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "This is independent of the equally possible ‘unmeasured strides’ reading.",
+            "evidence": [
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:723",
+                "detail": "Vikrama = parākrama."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:97126",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              },
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 641, scan p. 169",
+                "detail": "The scan states the sense directly."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "One who has unmeasurable steps, shown in the Vāmana incarnation.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Vikrama also carries the stride/step sense already in the current parts; the Vāmana linkage is traditional narrative application.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 641, scan p. 169",
+              "detail": "The commentary explicitly marks this as another meaning."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 641 (scan page 169), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0642-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "\"kāla\" means 'Time.' The Self is the 'destroyer of time' as It is beyond the intellect and 'time' is but a concept of the intellect only.",
+          "classification": "unsupported-withheld",
+          "reason": "The received compound kālanemi-nihā names the slayer of the Asura Kālanemi. Replacing the proper name with kāla ‘time’ while dropping nemi does not account for the full form; the ‘destroyer of time’ reading is therefore withheld.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 642, scan p. 169",
+              "detail": "The commentary first gives the Kālanemi slayer reading, then shifts to kāla ‘Time’ without explaining nemi."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 642 (scan page 169), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0648-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The rays that illumine the sun and moon are called keśas; therefore he is Keśava.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The Mahābhārata citation as reported by the commentator attests a traditional rays-based nirvacana. It is not the ordinary grammatical ‘long/fine-haired’ analysis.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 648, scan p. 170",
+              "detail": "The commentary cites Mahābhārata, Śānti Parva 342.49 for the rays called keśas."
+            }
+          ],
+          "public_derivation": {
+            "id": "keshava-rays",
+            "label": "Lord of illuminating rays",
+            "kind": "traditional-nirvacana",
+            "meaning": "the one whose keśas are the rays that illumine the cosmic lights",
+            "parts": [
+              {
+                "form": "keśa",
+                "gloss": "ray, in the cited traditional explanation"
+              },
+              {
+                "form": "va",
+                "gloss": "name-forming remainder; not independently derived in this quotation"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional semantic explanation of keśa within Keśava.",
+            "morphology": "Nominative singular masculine divine name.",
+            "qualification": "The quotation supports the rays reading, but it does not furnish a complete Pāṇinian derivation of -va.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 648, scan p. 170",
+                "detail": "The scan gives the source attribution and the explanatory sentence."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "Ka means Brahmā and īśa means Śiva; both sprang from Viṣṇu, hence Keśava.",
+          "classification": "unsupported-withheld",
+          "reason": "Ka ‘Brahmā’ is lexically attested, but the stated explanation does not account for the final -va and therefore is incomplete as a derivation. A fuller traditional stream may exist, but it is not present in the consulted witnesses and must not be reconstructed by guess.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 648, scan p. 170",
+              "detail": "The commentary supplies ka and īśa but no value for va."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:847",
+              "detail": "Halāyudha attests ka as Brahmā, confirming only the first member."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:106195",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 648 (scan page 170), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0652-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Kāmapāla can name Balarāma, the plough-wielder.",
+          "classification": "source-backed-alternative",
+          "reason": "Kāmapāla is independently listed among Balarāma’s names, so the referential alternative is source-backed.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 652, scan p. 171",
+              "detail": "The full commentary identifies the Balarāma incarnation."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:29",
+              "detail": "Halāyudha lists kāmapāla among Balarāma’s names."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:5127",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Protector (pāla) of his devotees, kāma meaning the ‘desired ones’.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Pāla ‘protector’ is secure; taking kāma as ‘those desired/beloved’ is an attributed traditional semantic extension, not the ordinary lexical value ‘desire’.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 652, scan p. 171",
+              "detail": "The scan explicitly labels this a varied interpretation."
+            }
+          ],
+          "public_derivation": {
+            "id": "kamapala-desired-devotees",
+            "label": "Protector of the desired ones",
+            "kind": "traditional-nirvacana",
+            "meaning": "protector of the devotees who are dear or desired",
+            "parts": [
+              {
+                "form": "kāma",
+                "gloss": "desired/beloved ones, in this traditional reading"
+              },
+              {
+                "form": "pāla",
+                "gloss": "protector"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional contextual reinterpretation of kāma + pāla.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "Show beside the ordinary ‘protector/fulfiller of desires’ reading; label kāma ‘desired ones’ as traditional.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 652, scan p. 171",
+                "detail": "The commentator supplies the member glosses."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 652 (scan page 171), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0653-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "One who has fulfilled all desires.",
+          "classification": "interpretive-not-etymology",
+          "reason": "The regular adjective kāmī means possessing desire/desirous; ‘whose desires are fulfilled’ is a theological reinterpretation based on divine completeness, not the morphology.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 653, scan p. 171",
+              "detail": "The commentary argues from completeness to absence of unfulfilled desire."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Some commentators give the opposite explanation: kāmī means one who has desires; the Supreme desired to create.",
+          "classification": "established-grammar",
+          "reason": "The possessive/desiderative value ‘desirous’ is the ordinary grammatical meaning and is already present in the current stem gloss. The Upaniṣadic ‘he desired’ supplies the creation context.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 653, scan p. 171",
+              "detail": "The paragraph explicitly reports the competing commentator stream and quotes saḥ akāmayata."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 653 (scan page 171), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0654-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Of enchanting form; supremely handsome.",
+          "classification": "established-grammar",
+          "reason": "Kānta’s ordinary adjective sense is already present in the current analysis.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 654, scan p. 171–172",
+              "detail": "The commentary begins with the beauty/charm sense."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Ka means Brahmā; Ka-anta suggests one who destroys the Creator at dissolution.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Ka ‘Brahmā’ is independently attested, and ka + anta yields kānta by vowel coalescence. ‘Destroyer’ is the theological interpretation of being Brahmā’s end.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 654, scan p. 171–172",
+              "detail": "The commentary explicitly supplies the Ka-anta segmentation."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:847",
+              "detail": "Halāyudha attests ka as Brahmā."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:106195",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "kanta-end-of-brahma",
+            "label": "The end of Brahmā",
+            "kind": "traditional-nirvacana",
+            "meaning": "the one in whom Brahmā reaches his end at dissolution",
+            "parts": [
+              {
+                "form": "ka",
+                "gloss": "Brahmā"
+              },
+              {
+                "form": "anta",
+                "gloss": "end"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional ka + anta reading; a + a coalesces to ā, yielding kānta.",
+            "morphology": "Nominative singular masculine name.",
+            "qualification": "Grammatically it says ‘end of Brahmā’; ‘destroyer’ is the commentator’s theological expansion.",
+            "evidence": [
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:847",
+                "detail": "Ka = Brahmā."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:106195",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              },
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 654, scan p. 171–172",
+                "detail": "The scan applies the compound to dissolution."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 654 (scan pages 171, 172), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0655-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The author of the Āgamas.",
+          "classification": "established-grammar",
+          "reason": "Kṛta ‘made/composed’ + āgama ‘scripture’ supports the current author/maker-of-scripture reading, though the current card leaves the stem unsegmented.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 655, scan p. 172",
+              "detail": "The commentary states that Śruti and Smṛti form the Āgamas."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "The inaugurator of the Kṛta Yuga.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The commentary reports this as another commentator stream. It can be presented as a traditional re-reading of kṛta + āgama (‘the coming/advent of Kṛta’), not as the sole grammatical parse.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 655, scan p. 172",
+              "detail": "The full commentary explicitly attributes this reading to some commentators."
+            }
+          ],
+          "public_derivation": {
+            "id": "kritagama-krita-age",
+            "label": "Bringer of the Kṛta age",
+            "kind": "traditional-nirvacana",
+            "meaning": "the one from whom the Kṛta age comes or is inaugurated",
+            "parts": [
+              {
+                "form": "kṛta",
+                "gloss": "the Kṛta Yuga"
+              },
+              {
+                "form": "āgama",
+                "gloss": "coming, advent"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional resegmentation kṛta + āgama, using āgama in its ‘coming/advent’ sense.",
+            "morphology": "Nominative singular masculine compound/name.",
+            "qualification": "The received form also supports kṛta-āgama ‘one who made the scriptures’; both must remain parallel.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 655, scan p. 172",
+                "detail": "The scan preserves both streams explicitly."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 655 (scan page 172), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0658-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "“The Valiant;” “The Courageous—the One of heroic exploits.” The root ‘Vi’ (वी) often means creation, radiance, existence, involution or motion.",
+          "classification": "established-grammar",
+          "reason": "The Dhātupāṭha directly gives √vī with motion, pervasion, generation, radiance, and related senses. The current root record already includes these; ‘existence/involution’ should be treated as broad traditional paraphrase, not extra Dhātupāṭha meanings.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 658, scan p. 172",
+              "detail": "The commentator lists creation, radiance, existence, involution, and motion."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3605-3606",
+              "detail": "वी गतिव्याप्तिप्रजनकान्त्यसनखादनेषु directly supports motion, pervasion, generation, and radiance."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:27076-27086",
+              "detail": "Raw record 02.0043 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 658 (scan page 172), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0661-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "Here Brahman means jīva—a friend of all individuals.",
+          "classification": "unsupported-withheld",
+          "reason": "The consulted lexica distinguish brahman, paramātman, and jīva/field-knower rather than giving brahman as a lexical synonym of jīva. The specific equation ‘here Brahman means jīva’ is therefore withheld unless its traditional commentary source is acquired.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 661, scan p. 173",
+              "detail": "The commentary asserts the equation without a Sanskrit citation."
+            },
+            {
+              "source": "Yādavakośa primary witness",
+              "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:1043",
+              "detail": "The verse separately names paramātman/para-brahman and jīva/kṣetrajña, so it does not support synonymy."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 661 (scan page 173), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0665-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "“One Who increases the Brahman.\" Here, of course, the term Brahman means \"Austerities, Vedas, Truth, Knowledge.\" These are increased in one who has earned the Grace of Śrī Nārāyaṇa through total surrender and constant devotion.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The local lexica attest brahman in Veda/spiritual-learning senses, while the commentary expands the field to austerity, truth, and knowledge. This is a valid traditional semantic stream for the compound, but not the same as ‘increasing the Absolute’.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 665, scan p. 174",
+              "detail": "The commentary explicitly defines Brahman here as austerities, Vedas, truth, and knowledge."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:868",
+              "detail": "Halāyudha includes Veda and adhyātma among senses of brahma."
+            }
+          ],
+          "public_derivation": {
+            "id": "brahmavivardhana-sacred-disciplines",
+            "label": "Increaser of sacred learning and disciplines",
+            "kind": "traditional-nirvacana",
+            "meaning": "one who causes Vedic learning, austerity, truth, and knowledge to increase",
+            "parts": [
+              {
+                "form": "brahma",
+                "gloss": "Veda and sacred/spiritual disciplines, in this traditional reading"
+              },
+              {
+                "form": "vivardhana",
+                "gloss": "increasing, causing to grow"
+              }
+            ],
+            "roots": [],
+            "formation": "Compound brahma + vivardhana with a contextual traditional sense of brahma.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "The source library directly supports the Veda/spiritual-learning portion; tapas, truth, and knowledge remain attributed to the commentator.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 665, scan p. 174",
+                "detail": "The scan enumerates the broader traditional sense."
+              },
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:868",
+                "detail": "Brahma includes Veda/adhyātma senses."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 665 (scan page 174), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0671-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "It also indicates the root meaning of the term, Viṣṇu-\"The one who has the long stride—meaning, \"All-pervading.\" Since He is All-pervading, He reaches everywhere earlier than all others.",
+          "classification": "established-grammar",
+          "reason": "√kram is directly read in ‘placing/throwing the foot’; mahā-krama therefore supports ‘great stride’. ‘All-pervading’ and ‘arrives before others’ are interpretive applications. The current root record is correct.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 671, scan p. 175",
+              "detail": "The commentary moves from Vāmana’s stride to pervasion."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1633-1635",
+              "detail": "क्रमुँ पादविक्षेपे directly establishes stepping/stride."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:11777-11787",
+              "detail": "Raw record 01.0545 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 671 (scan page 175), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0674-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Uraga means serpent.",
+          "classification": "established-grammar",
+          "reason": "The lexical identification is conventional and the current monolithic card gives only the whole meaning.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 674, scan p. 176",
+              "detail": "The commentary begins ‘The Great Serpent. Uraga means serpent’."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "urasā gacchati iti uragaḥ — one who goes on the chest/belly.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The printed Sanskrit supplies a traditional nirvacana from uras ‘chest’ and √gam ‘go’.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 674, scan p. 176",
+              "detail": "Printed (with OCR variation): उरसा गच्छति इति उरगः."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3389-3392",
+              "detail": "गमॢँ गतौ supports ga ‘going’."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:25201-25211",
+              "detail": "Raw record 01.1137 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": {
+            "id": "uraga-chest-goer",
+            "label": "One who goes on its chest",
+            "kind": "traditional-nirvacana",
+            "meaning": "a serpent, understood as one that moves on its chest/belly",
+            "parts": [
+              {
+                "form": "urasā",
+                "gloss": "by/on the chest"
+              },
+              {
+                "form": "ga",
+                "gloss": "going"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√gam",
+                "gana": "bhvādi (1)",
+                "pada": "parasmaipada",
+                "gloss": "to go",
+                "dhatupatha": {
+                  "locus": "01.1137",
+                  "aupadeshika_devanagari": "गमॢँ",
+                  "artha_sanskrit": "गतौ"
+                }
+              }
+            ],
+            "formation": "Traditional vigraha urasā gacchati; the surface uraga is treated as the conventional compound derivative.",
+            "morphology": "Nominative singular masculine member within mahā-uraga.",
+            "qualification": "Preserve the printed form separately; the scan’s Roman OCR ‘Urasaa’ confirms the intended urasā.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 674, scan p. 176",
+                "detail": "The commentary itself gives Sanskrit and Roman vigraha."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3389-3392",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:25201-25211",
+                "detail": "Raw record 01.1137 confirms the same aupadeśika form and Sanskrit artha."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 674 (scan page 176), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0677-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "The Japa yajña is glorified by the Lord as the greatest sacrifice because it is both the essential means of all other yajñas and transcends them all as an end in itself, by maintaining a constant stream of the same divine thoughts in the mind.",
+          "classification": "interpretive-not-etymology",
+          "reason": "The Gītā’s praise of japa-yajña and the explanation of continuous divine thought defend why it is ‘great’; they do not produce a second derivation beyond mahā + yajña.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 677, scan p. 177",
+              "detail": "The commentary quotes यज्ञानां जपयज्ञोऽस्मि, Gītā 10.25."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 677 (scan page 177), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0691-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "\"The Teacher of the Teerthas,\" The term, Teerthas, means vidyās.",
+          "classification": "source-backed-alternative",
+          "reason": "Tīrtha is independently attested not only as ford/pilgrimage place but also as mantra, teacher, and scripture. Thus ‘teacher/maker of the vidyās’ is a defensible traditional lexical alternative omitted by the current card.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 691, scan p. 180",
+              "detail": "The commentary explicitly glosses tīrthas as vidyās."
+            },
+            {
+              "source": "Yādavakośa primary witness",
+              "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:2495",
+              "detail": "Yādavakośa lists tīrtha in mantra, teacher, scripture, water, and sacred-place senses."
+            },
+            {
+              "source": "Paired raw Yādavakośa witness",
+              "locus": "sources/raw/lexica/yaadavakosha.json:263767",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "tirthakara-teacher-learning",
+            "label": "Teacher of the fields of learning",
+            "kind": "traditional-nirvacana",
+            "meaning": "the maker or teacher of sacred disciplines and sciences",
+            "parts": [
+              {
+                "form": "tīrtha",
+                "gloss": "mantra, teacherly tradition, scripture; hence field of learning"
+              },
+              {
+                "form": "kara",
+                "gloss": "maker; here teacher/author"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional semantic compound tīrtha + kara.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "The exact equation tīrtha = vidyā is the commentator’s formulation; the lexicon supports the neighboring mantra/teacher/scripture stream.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 691, scan p. 180",
+                "detail": "The scan names the vidyā interpretation."
+              },
+              {
+                "source": "Yādavakośa primary witness",
+                "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:2495",
+                "detail": "Direct lexical support."
+              },
+              {
+                "source": "Paired raw Yādavakośa witness",
+                "locus": "sources/raw/lexica/yaadavakosha.json:263767",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 691 (scan page 180), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0693-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "\"The Free — Giver of Wealth.\" In this context, Vasu means \"Worldly — Wealth\"— money, property, grains, possessions, progeny.",
+          "classification": "established-grammar",
+          "reason": "Vasu is directly attested as wealth/property; therefore vasu + prada ‘giver of wealth’ is established. The current part gloss ‘son of Vasudeva’ is a concrete lexical error and must not suppress this derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 693, scan p. 180",
+              "detail": "The commentary enumerates money, property, grain, possessions, and progeny."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:80",
+              "detail": "Halāyudha groups vasu with wealth, property, riches, and treasure."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:14788",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "vasuprada-wealth-giver",
+            "label": "Giver of wealth",
+            "kind": "grammatical",
+            "meaning": "one who gives worldly wealth",
+            "parts": [
+              {
+                "form": "vasu",
+                "gloss": "wealth, property, treasure"
+              },
+              {
+                "form": "prada",
+                "gloss": "giving, giver"
+              }
+            ],
+            "roots": [],
+            "formation": "Compound vasu + prada.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "Replace the erroneous current member gloss only in the future primary repair; this review records the valid parallel derivation.",
+            "evidence": [
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:80",
+                "detail": "Vasu = wealth."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:14788",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              },
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 693, scan p. 180",
+                "detail": "The scan defines the contextual scope."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 693 (scan page 180), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0694-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Again, the same term as we read above, but here it means \"The Giver of Salvation.\" Liberation (mokṣa) is the greatest wealth—whom He chooses, mokṣa is gained by him alone.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Calling mokṣa the greatest wealth yields a devotional application ‘giver of liberation’, but it is not a new lexical derivation of vasu. The current ‘excellent/good’ gloss does not itself establish mokṣa.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 694, scan p. 180",
+              "detail": "The commentary explicitly argues by metaphor: liberation is the greatest wealth."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 694 (scan page 180), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0695-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The son of Vasudeva.",
+          "classification": "established-grammar",
+          "reason": "Vāsudeva is the standard patronymic derivative from Vasudeva; this valid grammatical stream is absent from the current vāsu + deva segmentation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 695, scan p. 180",
+              "detail": "The full commentary begins with ‘The son of Vasudeva’."
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:23",
+              "detail": "Halāyudha lists Vāsudeva as a name of Viṣṇu/Kṛṣṇa."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:4331",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "vasudeva-patronymic",
+            "label": "Son of Vasudeva",
+            "kind": "grammatical",
+            "meaning": "the descendant/son of Vasudeva, Kṛṣṇa",
+            "parts": [
+              {
+                "form": "vasudeva",
+                "gloss": "Vasudeva, the father"
+              },
+              {
+                "form": "aṇ",
+                "gloss": "patronymic descendant affix, with vṛddhi"
+              }
+            ],
+            "roots": [],
+            "formation": "Vasudeva + aṇ in the descendant sense; initial vṛddhi yields Vāsudeva.",
+            "morphology": "Nominative singular masculine patronymic.",
+            "qualification": "Keep distinct from the vāsu + deva traditional nirvacana.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 695, scan p. 180",
+                "detail": "The commentary explicitly preserves the patronymic reading."
+              },
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:23",
+                "detail": "Independent lexical witness lists the resulting name."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:4331",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "One who is Vāsu and Deva: dwelling in all creatures and reveling there.",
+          "classification": "source-backed-alternative",
+          "reason": "√vas directly supports dwelling and √div directly includes play/rejoicing/shining. The theological identification with the jīva in each heart is supplied by the cited Gītā passage.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 695, scan p. 180",
+              "detail": "The commentary explicitly separates Vāsu and Deva and quotes Gītā 18.61."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3459-3461",
+              "detail": "वसँ निवासे supports indwelling."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:25863-25872",
+              "detail": "Raw record 01.1160 confirms the same aupadeśika form and Sanskrit artha."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3787-3789",
+              "detail": "दिवुँ includes play, shine, rejoice, praise, and motion."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:28626-28635",
+              "detail": "Raw record 04.0001 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": {
+            "id": "vasudeva-indwelling-reveler",
+            "label": "Indwelling and reveling in beings",
+            "kind": "traditional-nirvacana",
+            "meaning": "one who dwells in all beings and rejoices/shines within them",
+            "parts": [
+              {
+                "form": "vāsu",
+                "gloss": "indwelling one, connected with √vas"
+              },
+              {
+                "form": "deva",
+                "gloss": "one who plays/rejoices/shines, connected with √div"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√vas",
+                "gana": "bhvādi (1)",
+                "pada": "parasmaipada",
+                "gloss": "to dwell",
+                "dhatupatha": {
+                  "locus": "01.1160",
+                  "aupadeshika_devanagari": "वसँ",
+                  "artha_sanskrit": "निवासे"
+                }
+              },
+              {
+                "form": "√div",
+                "gana": "divādi (4)",
+                "pada": "parasmaipada",
+                "gloss": "to play, rejoice, shine, praise, move",
+                "dhatupatha": {
+                  "locus": "04.0001",
+                  "aupadeshika_devanagari": "दिवुँ",
+                  "artha_sanskrit": "क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु"
+                }
+              }
+            ],
+            "formation": "Traditional vāsu + deva nirvacana grounded in the attested roots √vas and √div.",
+            "morphology": "Nominative singular masculine divine name.",
+            "qualification": "The root senses are secure; ‘as each jīva-entity’ is the commentator’s Vedāntic application.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 695, scan p. 180",
+                "detail": "The scan supplies the members and Gītā support."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3459-3461",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:25863-25872",
+                "detail": "Raw record 01.1160 confirms the same aupadeśika form and Sanskrit artha."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3787-3789",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:28626-28635",
+                "detail": "Raw record 04.0001 confirms the same aupadeśika form and Sanskrit artha."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 695 (scan page 180), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0699-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "\"The Good\" here means those who know the existence of Brahman, for the Upaniṣad says: \"If a person knows 'Brahman exists,' then the wise call him 'good.\" \"अस्ति ब्रह्मोति चेद्वेद सन्तमेनं ततो विद्:।\" (Asti Brahmeti chedveda santamenam tato viduh.) -Taittirīya II-6.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Sat/sant can denote existent or good persons; the Taittirīya quotation is used to identify ‘the good’ with knowers of Brahman. That is a contextual doctrinal application, while the current sat + gati grammar remains intact.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 699, scan p. 181",
+              "detail": "The commentary quotes Taittirīya 2.6: अस्ति ब्रह्मेति… सन्तम्…"
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 699 (scan page 181), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0702-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "Bhūti means wealth, power, happiness (aiśvarya).",
+          "classification": "established-grammar",
+          "reason": "Bhūti = aiśvarya/glory/prosperity is directly attested and is already close to the current prosperity gloss.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 702, scan p. 182",
+              "detail": "The commentary explicitly gives भूति = ऐश्वर्य."
+            },
+            {
+              "source": "Yādavakośa primary witness",
+              "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:3064",
+              "detail": "Yādavakośa equates bhūti with aiśvarya and powers."
+            },
+            {
+              "source": "Paired raw Yādavakośa witness",
+              "locus": "sources/raw/lexica/yaadavakosha.json:299757",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "One who has taken different kinds of incarnations, exhibiting divine glories.",
+          "classification": "interpretive-not-etymology",
+          "reason": "This explains manifestations of bhūti; it is not another derivation of sad-bhūti.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 702, scan p. 182",
+              "detail": "The full paragraph offers incarnations as an additional interpretation."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 702 (scan page 182), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0703-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Here the \"Good\" means those who are the Knowers of Brahman.",
+          "classification": "interpretive-not-etymology",
+          "reason": "The identification of sat ‘the good’ with knowers of Brahman is contextual theology, not a new formation of sat-parāyaṇa. The current whole gloss already carries the intended goal relation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 703, scan p. 182",
+              "detail": "The commentary gives the equation without a separate Sanskrit derivation."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 703 (scan page 182), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0728-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Kaḥ means happiness.",
+          "classification": "source-backed-alternative",
+          "reason": "Ka is independently attested with the sense happiness/bliss; this valid lexical alternative is absent from the current interrogative-only card.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 728, scan p. 187–188",
+              "detail": "The full commentary begins ‘Happiness. One who is of the nature of Bliss.’"
+            },
+            {
+              "source": "Halāyudhakośa primary witness",
+              "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:847",
+              "detail": "Halāyudha states ka denotes happiness among its senses."
+            },
+            {
+              "source": "Paired raw Halāyudhakośa witness",
+              "locus": "sources/raw/lexica/halayudha.json:106195",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "ka-happiness",
+            "label": "Ka as happiness",
+            "kind": "grammatical",
+            "meaning": "happiness, bliss",
+            "parts": [
+              {
+                "form": "ka",
+                "gloss": "happiness, bliss"
+              },
+              {
+                "form": "su",
+                "gloss": "nominative singular masculine ending"
+              }
+            ],
+            "roots": [],
+            "formation": "Lexical sense of ka, inflected as nominative singular kaḥ.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Keep in parallel with the interrogative-pronoun parse.",
+            "evidence": [
+              {
+                "source": "Halāyudhakośa primary witness",
+                "locus": "sources/primary/lexica/halayudha/halayudha_upstream.txt:847",
+                "detail": "Ka = happiness."
+              },
+              {
+                "source": "Paired raw Halāyudhakośa witness",
+                "locus": "sources/raw/lexica/halayudha.json:106195",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              },
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 728, scan p. 187–188",
+                "detail": "The commentary applies it to divine bliss."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "Kaḥ means a question, ‘who?’; the answerless question points beyond intellect.",
+          "classification": "established-grammar",
+          "reason": "The interrogative-pronoun parse is grammatically established and already in the current card. The ‘question without an answer’ language is philosophical interpretation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 728, scan p. 187–188",
+              "detail": "The commentary explicitly marks this as the second reading."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 728 (scan pages 187, 188), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0730-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Yat means ‘which’.",
+          "classification": "established-grammar",
+          "reason": "The relative pronoun parse is grammatically correct and already in the current card.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 730, scan p. 188",
+              "detail": "The commentary begins with the correct pronominal gloss."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "The pronoun yat means ‘that which is self-existent’.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Self-existence is a philosophical inference from the Upaniṣadic referent, not the lexical meaning of the relative pronoun. The cited yatas passages mean ‘from which’, and do not establish ‘self-existent’ as morphology.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 730, scan p. 188",
+              "detail": "Taittirīya 3.1 and 2.9.1 are quoted as contextual examples."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 730 (scan page 188), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0731-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Tat means ‘that’.",
+          "classification": "established-grammar",
+          "reason": "The demonstrative-pronoun analysis is grammatical and already in the current card.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 731, scan p. 188",
+              "detail": "The commentary begins with the ordinary pronoun meaning."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "‘That’ is the truth reached through śravaṇa, manana, and nididhyāsana.",
+          "classification": "interpretive-not-etymology",
+          "reason": "This explains the Upaniṣadic referent of tat; it is not a new derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 731, scan p. 188",
+              "detail": "The commentary explicitly frames this as pedagogical apprehension."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Tat can mean ‘that which expands the world of plurality’: tanoti iti tat.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The scan supplies a traditional nirvacana connecting tat with √tan ‘expand’; the root is directly attested, but this must not replace the grammatical pronoun analysis.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 731, scan p. 188",
+              "detail": "Printed: तनोतीति तत् and तनु विस्तारे करणे च."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4983-4985",
+              "detail": "तनुँ विस्तारे directly supports expansion."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:37766-37775",
+              "detail": "Raw record 08.0001 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": {
+            "id": "tat-expander",
+            "label": "That which expands the manifold",
+            "kind": "traditional-nirvacana",
+            "meaning": "that which spreads out or expands the world of plurality",
+            "parts": [
+              {
+                "form": "√tan",
+                "gloss": "to spread, expand"
+              },
+              {
+                "form": "tat",
+                "gloss": "the name-form explained by the nirvacana"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√tan",
+                "gana": "tanādi (8)",
+                "pada": "ubhayapada",
+                "gloss": "to spread, extend, expand",
+                "dhatupatha": {
+                  "locus": "08.0001",
+                  "aupadeshika_devanagari": "तनुँ",
+                  "artha_sanskrit": "विस्तारे"
+                }
+              }
+            ],
+            "formation": "Traditional tanoti iti tat wordplay grounded in √tan; not the historical derivation of the demonstrative pronoun.",
+            "morphology": "Neuter nominative/accusative singular name-form tat.",
+            "qualification": "Always display beside the regular pronoun analysis and label as traditional nirvacana.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 731, scan p. 188",
+                "detail": "The scan gives both the derivational sentence and root gloss."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4983-4985",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:37766-37775",
+                "detail": "Raw record 08.0001 confirms the same aupadeśika form and Sanskrit artha."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 731 (scan page 188), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0734-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "One who is solicited by the world.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "√nāth is directly attested in soliciting, seeking aid, lordship, and blessing; the passive/referential ‘solicited by the world’ reading is therefore a defensible traditional alternative.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 734, scan p. 189",
+              "detail": "The full commentary gives the solicited-by-the-world reading."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:19-21",
+              "detail": "नाथृँ includes याच्ञा, ऐश्वर्य, and आशीः."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:182-195",
+              "detail": "Raw record 01.0007 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": {
+            "id": "lokanatha-solicited",
+            "label": "Solicited by the world",
+            "kind": "traditional-nirvacana",
+            "meaning": "the one whom the world petitions for its needs",
+            "parts": [
+              {
+                "form": "loka",
+                "gloss": "the world, its beings"
+              },
+              {
+                "form": "nātha",
+                "gloss": "one sought or petitioned; also lord"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√nāth",
+                "gana": "bhvādi (1)",
+                "pada": "parasmaipada; ātmanepada in the blessing sense",
+                "gloss": "to solicit, seek aid, exercise lordship, bless",
+                "dhatupatha": {
+                  "locus": "01.0007",
+                  "aupadeshika_devanagari": "नाथृँ",
+                  "artha_sanskrit": "याच्ञोपतापैश्वर्याशीष्षु"
+                }
+              }
+            ],
+            "formation": "Traditional application of loka + nātha grounded in √nāth’s solicitation/lordship senses.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "The root supports solicitation and lordship; the passive phrasing is the commentator’s vigraha.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 734, scan p. 189",
+                "detail": "The scan supplies the exact referential explanation."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:19-21",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:182-195",
+                "detail": "Raw record 01.0007 confirms the same aupadeśika form and Sanskrit artha."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "One who adds glory to the world.",
+          "classification": "unsupported-withheld",
+          "reason": "The consulted √nāth witness gives solicitation, distress, lordship, and blessing, not ‘add glory’. The statement may preserve another tradition, but no usable derivation is present here; withhold pending that witness.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 734, scan p. 189",
+              "detail": "The commentary asserts the phrase and then lists ‘shines, praised by, loved by’ without a textual locus."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:19-21",
+              "detail": "The attested root senses do not establish ‘adds glory’."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:182-195",
+              "detail": "Raw record 01.0007 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 734 (scan page 189), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0740-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "One who has attractive armlets.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The commentary analyzes candana as joy-giving/pleasing and aṅgada as armlet; this is a traditional semantic reading distinct from sandalwood.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 740, scan p. 190",
+              "detail": "The full commentary explicitly says the name is made of ‘Joy-giving’ candana and ‘armlets’ aṅgada."
+            }
+          ],
+          "public_derivation": {
+            "id": "candanangadi-pleasing-armlets",
+            "label": "One with pleasing armlets",
+            "kind": "traditional-nirvacana",
+            "meaning": "one whose armlets are delight-giving or attractive",
+            "parts": [
+              {
+                "form": "candana",
+                "gloss": "joy-giving, pleasing, in this traditional reading"
+              },
+              {
+                "form": "aṅgada",
+                "gloss": "armlet"
+              },
+              {
+                "form": "in",
+                "gloss": "possessive: having"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional candana + aṅgada + possessive -in reading; the nominative masculine form ends in -ī.",
+            "morphology": "Nominative singular masculine possessive derivative.",
+            "qualification": "Retain beside the sandal-and-armlets reading; ‘joy-giving’ is attributed to the commentator.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 740, scan p. 190",
+                "detail": "The scan supplies both member glosses."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "One who is smeared with sandal and wears armlets.",
+          "classification": "established-grammar",
+          "reason": "Candana ‘sandalwood/paste’ and aṅgada ‘armlet’ with the possessive ending give the straightforward analysis already approximated by the current whole-stem gloss.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 740, scan p. 190",
+              "detail": "The commentary explicitly presents sandal-smearing as the second use and explains armlets."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 740 (scan page 190), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0743-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "“The Void.” Here Void means the total absence of (a) the equipments-of-experiences—the body-mind-intellect; (b) the fields-of-experiences—the objectsemotions-thoughts; (c) the experiencer-attitudes—the perceiver-feeler-thinker personality.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Śūnya grammatically means empty/void. The threefold absence of equipment, field, and experiencer attitude—and the contrast with Buddhist non-existence—are the commentator’s metaphysical qualification, not another derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 743, scan p. 191",
+              "detail": "The paragraph explicitly develops what ‘void’ is intended to exclude."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 743 (scan page 191), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0744-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "One who has no need for any good wishes from anyone.",
+          "classification": "unsupported-withheld",
+          "reason": "The current whole-stem gloss repeats this statement, but neither a segmentation nor a supporting grammar witness is supplied. It should be withheld as a derivation until its traditional source is identified.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 744, scan p. 191",
+              "detail": "The commentary states the meaning but gives no Sanskrit vigraha."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "One who has eaten the ghee stolen from the cowherds’ stores.",
+          "classification": "source-backed-alternative",
+          "reason": "Ghṛtāśī is directly paired with ghṛtabhuk ‘ghee-eater’ in the Yādavakośa, and √aś ‘eat’ is directly attested. This is a strong parallel derivation omitted by the current card.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 744, scan p. 191",
+              "detail": "The commentary explicitly supplies the Vṛndāvana ghee-eating alternative."
+            },
+            {
+              "source": "Yādavakośa primary witness",
+              "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:1017",
+              "detail": "Yādavakośa places ghṛtāśī beside ghṛtabhuk, directly confirming ‘ghee-eater’."
+            },
+            {
+              "source": "Paired raw Yādavakośa witness",
+              "locus": "sources/raw/lexica/yaadavakosha.json:112971",
+              "detail": "Raw verse transport confirms the cited clean-witness reading."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5186-5188",
+              "detail": "अशँ भोजने supports eating."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:39349-39358",
+              "detail": "Raw record 09.0059 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": {
+            "id": "ghritashi-ghee-eater",
+            "label": "Eater of ghee",
+            "kind": "grammatical",
+            "meaning": "one who eats ghee",
+            "parts": [
+              {
+                "form": "ghṛta",
+                "gloss": "ghee, clarified butter"
+              },
+              {
+                "form": "āśin",
+                "gloss": "eating, eater"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√aś",
+                "gana": "kryādi (9)",
+                "pada": "parasmaipada",
+                "gloss": "to eat",
+                "dhatupatha": {
+                  "locus": "09.0059",
+                  "aupadeshika_devanagari": "अशँ",
+                  "artha_sanskrit": "भोजने"
+                }
+              }
+            ],
+            "formation": "ghṛta + āśin, an agentive/habitual derivative connected with √aś ‘eat’; nominative singular ghṛtāśī.",
+            "morphology": "Nominative singular masculine in -in.",
+            "qualification": "The lexical witness is explicit; the Vṛndāvana theft narrative is the commentator’s application.",
+            "evidence": [
+              {
+                "source": "Yādavakośa primary witness",
+                "locus": "sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt:1017",
+                "detail": "Direct synonymy ghṛtāśī/ghṛtabhuk."
+              },
+              {
+                "source": "Paired raw Yādavakośa witness",
+                "locus": "sources/raw/lexica/yaadavakosha.json:112971",
+                "detail": "Raw verse transport confirms the cited clean-witness reading."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5186-5188",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:39349-39358",
+                "detail": "Raw record 09.0059 confirms the same aupadeśika form and Sanskrit artha."
+              },
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 744, scan p. 191",
+                "detail": "Narrative application in the scan."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 744 (scan page 191), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0745-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "The non-moving.",
+          "classification": "established-grammar",
+          "reason": "A-cala is the regular privative formation ‘not moving’, already represented in the current card.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 745, scan p. 191",
+              "detail": "The commentary begins with the literal gloss and quotes Gītā 2.24."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "He never departs from his nature, or cannot move because he is all-pervading.",
+          "classification": "interpretive-not-etymology",
+          "reason": "These are two philosophical reasons for applying ‘immovable’; neither changes the derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 745, scan p. 191",
+              "detail": "Both explanations immediately follow the literal gloss."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 745 (scan page 191), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0748-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "One who gives or causes false identification with the body through māyā.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Māna ‘notion/conception’ + da ‘giver’ supports the current member analysis; specifying false body-identification through māyā is theological application.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 748, scan p. 192",
+              "detail": "The commentary begins with this interpretation."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3215-3217",
+              "detail": "दाण् दाने directly supports -da ‘giver’."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:23815-23825",
+              "detail": "Raw record 01.1079 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Māna can mean honour; mānada is one who honours devotees.",
+          "classification": "source-backed-alternative",
+          "reason": "The alternative first-member sense ‘honour’ with the same -da ‘giver’ yields a valid parallel ‘giver of honour’.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 748, scan p. 192",
+              "detail": "The commentary explicitly introduces māna ‘honour’ as another meaning."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3215-3217",
+              "detail": "The giver member comes from √dā."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:23815-23825",
+              "detail": "Raw record 01.1079 confirms the same aupadeśika form and Sanskrit artha."
+            }
+          ],
+          "public_derivation": {
+            "id": "manada-honour-giver",
+            "label": "Giver of honour",
+            "kind": "grammatical",
+            "meaning": "one who gives honour; one who honours devotees",
+            "parts": [
+              {
+                "form": "māna",
+                "gloss": "honour, esteem"
+              },
+              {
+                "form": "da",
+                "gloss": "giving, giver"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√dā",
+                "gana": "bhvādi (1)",
+                "pada": "parasmaipada",
+                "gloss": "to give",
+                "dhatupatha": {
+                  "locus": "01.1079",
+                  "aupadeshika_devanagari": "दाण्",
+                  "artha_sanskrit": "दाने"
+                }
+              }
+            ],
+            "formation": "Compound māna + da, with -da from √dā ‘give’.",
+            "morphology": "Nominative singular masculine compound.",
+            "qualification": "This differs only in the lexical sense of māna; retain the ‘giver of notions’ reading in parallel.",
+            "evidence": [
+              {
+                "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+                "locus": "name 748, scan p. 192",
+                "detail": "The scan explicitly supplies this alternate sense."
+              },
+              {
+                "source": "Prakriya primary Dhātupāṭha",
+                "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3215-3217",
+                "detail": "Direct root witness."
+              },
+              {
+                "source": "Paired raw Dhātupāṭha witness",
+                "locus": "sources/raw/panini/lexica/dhatupatha.json:23815-23825",
+                "detail": "Raw record 01.1079 confirms the same aupadeśika form and Sanskrit artha."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "The root da means ‘blasting’, so mānada means one who blasts false notions.",
+          "classification": "unsupported-withheld",
+          "reason": "The -da member in this giver compound is supported by √dā ‘give’. Separate roots do ‘cut’ (04.0043) and dāp ‘cut’ (02.0054) do not license silently replacing this -da with ‘blaster’; the claim strictly disagrees with the secured formation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 748, scan p. 192",
+              "detail": "The commentary explicitly calls da a root meaning ‘blasting’."
+            },
+            {
+              "source": "Prakriya primary Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3215-3217",
+              "detail": "The attested giver root."
+            },
+            {
+              "source": "Paired raw Dhātupāṭha witness",
+              "locus": "sources/raw/panini/lexica/dhatupatha.json:23815-23825",
+              "detail": "Raw record 01.1079 confirms the same aupadeśika form and Sanskrit artha."
+            },
+            {
+              "source": "Prakriya primary and raw Dhātupāṭha",
+              "locus": "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3912-3915; sources/raw/panini/lexica/dhatupatha.json:29555-29565",
+              "detail": "A distinct root दो अवखण्डने ‘cut’ exists, but it is not the √dā formation of -da here."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 748 (scan page 192), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    },
+    "name-0750-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "Lord of the Universe.",
+          "classification": "established-grammar",
+          "reason": "Loka + svāmin straightforwardly means lord/master of the world; the current whole-stem gloss captures this but should eventually expose the members.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 750, scan p. 192–193",
+              "detail": "The commentary begins with the literal compound meaning."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Loka means field of experience, and the Lord governs all such fields.",
+          "classification": "interpretive-not-etymology",
+          "reason": "‘Field of experience’ is the commentator’s philosophical construal of world/loka, not a separate lexical derivation.",
+          "evidence": [
+            {
+              "source": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+              "locus": "name 750, scan p. 192–193",
+              "detail": "The rest of the paragraph defines loka in experiential terms."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed against the exact commentary context for name 750 (scan pages 192, 193), the current name analysis, and the cited Prakriya primary/paired raw witnesses. Interpreter, parser, generated tables, Vidyut, and dictionary guesses were not used."
+    }
+  }
+}

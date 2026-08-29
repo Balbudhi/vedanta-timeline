@@ -1,0 +1,1360 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "expected_ids": [
+    "cm-vs-fn-p027-n01",
+    "cm-vs-fn-p027-n02",
+    "cm-vs-fn-p027-n03",
+    "cm-vs-fn-p029-n01",
+    "cm-vs-fn-p029-n02",
+    "cm-vs-fn-p036-n01",
+    "cm-vs-fn-p039-n01",
+    "cm-vs-fn-p039-n02",
+    "cm-vs-fn-p039-n03",
+    "cm-vs-fn-p039-n04",
+    "cm-vs-fn-p046-n01",
+    "cm-vs-fn-p046-n02",
+    "cm-vs-fn-p063-n01",
+    "cm-vs-fn-p075-n01",
+    "cm-vs-fn-p075-n02",
+    "cm-vs-fn-p103-n01",
+    "cm-vs-fn-p107-n01",
+    "cm-vs-fn-p107-n02",
+    "cm-vs-fn-p107-n03",
+    "cm-vs-fn-p111-n01",
+    "cm-vs-fn-p111-n02",
+    "cm-vs-fn-p111-n03",
+    "cm-vs-fn-p115-n01",
+    "cm-vs-fn-p117-n01",
+    "cm-vs-fn-p117-n02",
+    "cm-vs-fn-p117-n03",
+    "cm-vs-fn-p117-n04",
+    "cm-vs-fn-p118-n01",
+    "cm-vs-fn-p118-n02",
+    "cm-vs-fn-p118-n03",
+    "cm-vs-fn-p118-n04",
+    "cm-vs-fn-p118-n05",
+    "cm-vs-fn-p122-n01",
+    "cm-vs-fn-p122-n02",
+    "cm-vs-fn-p122-n03",
+    "cm-vs-fn-p123-n02",
+    "cm-vs-fn-p128-n01",
+    "cm-vs-fn-p128-n02",
+    "cm-vs-fn-p128-n03",
+    "cm-vs-fn-p131-n01",
+    "cm-vs-fn-p141-n01",
+    "cm-vs-fn-p141-n02",
+    "cm-vs-fn-p141-n03",
+    "cm-vs-fn-p142-n01",
+    "cm-vs-fn-p142-n02",
+    "cm-vs-fn-p142-n03",
+    "cm-vs-fn-p143-n01"
+  ],
+  "rows": {
+    "cm-vs-fn-p027-n01": {
+      "owner_name_number": 19,
+      "owner_name": "Yoga-vidaam netaa",
+      "anchor_text": "“Those who contemplate upon Me with total dedication, their daily welfare and spiritual progress I shall bear”.",
+      "anchor_text_normalized": "\"Those who contemplate upon Me with total dedication, their daily welfare and spiritual progress I shall bear\".",
+      "marker_printed": "*",
+      "note_text": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते । तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ॥ — Gītā 9.22.",
+      "note_text_normalized": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते । तेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ॥ — Gītā 9.22.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 19,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-19-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-19-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 27,
+        "printed_page": 23,
+        "visual_detail": "Rendered scan: the * call is printed at ““Those who contemplate upon Me with total dedication, their daily welfare and spiritual progress I shall bear”.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p027-n02": {
+      "owner_name_number": 23,
+      "owner_name": "Keshavah",
+      "anchor_text": "He who has beautiful and graceful (Va) locks of hair (Kesa)",
+      "anchor_text_normalized": "He who has beautiful and graceful (Va) locks of hair (keśa)",
+      "marker_printed": "**",
+      "note_text": "प्रशस्ताः केशाः सन्त्यस्येति केशवः।",
+      "note_text_normalized": "प्रशस्ताः केशाः सन्त्यस्येति केशवः।",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 23,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-23-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-23-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 27,
+        "printed_page": 23,
+        "visual_detail": "Rendered scan: the ** call is printed at “He who has beautiful and graceful (Va) locks of hair (Kesa)”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p027-n03": {
+      "owner_name_number": 23,
+      "owner_name": "Keshavah",
+      "anchor_text": "This interpretation is endorsed by the Vishnu Purana, 5.16.23.",
+      "anchor_text_normalized": "This interpretation is endorsed by the Viṣṇu Purāṇa, 5.16.23.",
+      "marker_printed": "†",
+      "note_text": "यस्मात् त्वयैव दुष्टात्मा हतः केशी जनार्दन । तस्मात् केशव नाम्ना त्वं लोके ज्ञेयो भविष्यसि ॥ — Viṣṇu Purāṇa 5.16.23.",
+      "note_text_normalized": "यस्मात् त्वयैव दुष्टात्मा हतः केशी जनार्दन । तस्मात् केशव नाम्ना त्वं लोके ज्ञेयो भविष्यसि ॥ — Viṣṇu Purāṇa 5.16.23.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 23,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-23-paragraph-2"
+        ],
+        "quote_ids": [
+          "name-23-paragraph-2-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 27,
+        "printed_page": 23,
+        "visual_detail": "Rendered scan: the † call is printed at “This interpretation is endorsed by the Vishnu Purana, 5.16.23.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p029-n01": {
+      "owner_name_number": 28,
+      "owner_name": "Sthaanuh",
+      "anchor_text": "“Eternal, All — Pervading, the Pillar, Motionless (is) this Ancient One,” so says Geeta Ch. 2, 24.",
+      "anchor_text_normalized": "\"Eternal, All — Pervading, the Pillar, Motionless (is) this Ancient One,\" so says Gītā Ch. 2, 24.",
+      "marker_printed": "*",
+      "note_text": "नित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ॥ — Gītā 2.24.",
+      "note_text_normalized": "नित्यः सर्वगतः स्थाणुरचलोऽयं सनातनः ॥ — Gītā 2.24.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 28,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-28-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-28-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 29,
+        "printed_page": 25,
+        "visual_detail": "Rendered scan: the * call is printed at ““Eternal, All — Pervading, the Pillar, Motionless (is) this Ancient One,” so says Geeta Ch. 2, 24.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p029-n02": {
+      "owner_name_number": 31,
+      "owner_name": "Sambhavah",
+      "anchor_text": "“I am the Narayana, the Source from which all creatures and things spring forth”.",
+      "anchor_text_normalized": "\"I am the Nārāyaṇa, the Source from which all creatures and things spring forth\".",
+      "marker_printed": "†",
+      "note_text": "अहं नारायणो ब्रह्म सम्भवः सर्वदेहिनाम्, सर्वभूतोद्भवकरः। — Harivaṃśa.",
+      "note_text_normalized": "अहं नारायणो ब्रह्म सम्भवः सर्वदेहिनाम्, सर्वभूतोद्भवकरः। — Harivaṃśa.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 31,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-31-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-31-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 29,
+        "printed_page": 25,
+        "visual_detail": "Rendered scan: the † call is printed at ““I am the Narayana, the Source from which all creatures and things spring forth”.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p036-n01": {
+      "owner_name_number": 57,
+      "owner_name": "Krishnah",
+      "anchor_text": "“As My colour is dark-blue, I am called Krishna, O Arjuna.”",
+      "anchor_text_normalized": "\"As My colour is dark-blue, I am called Kṛṣṇa, O Arjuna.\"",
+      "marker_printed": "*",
+      "note_text": "कृषिर्भूवाचकः शब्दो णश्च निर्वृतिवाचकः । तयोरैक्यं परं ब्रह्म कृष्ण इत्यभिधीयते ॥",
+      "note_text_normalized": "कृषिर्भूवाचकः शब्दो णश्च निर्वृतिवाचकः । तयोरैक्यं परं ब्रह्म कृष्ण इत्यभिधीयते ॥",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 57,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-57-paragraph-2"
+        ],
+        "quote_ids": [
+          "name-57-paragraph-2-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 36,
+        "printed_page": 32,
+        "visual_detail": "Rendered scan: the * call is printed at ““As My colour is dark-blue, I am called Krishna, O Arjuna.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p039-n01": {
+      "owner_name_number": 67,
+      "owner_name": "Jyeshthah",
+      "anchor_text": "The term is the superlative degree of the Aged.",
+      "anchor_text_normalized": "The term is the superlative degree of the Aged.",
+      "marker_printed": "*",
+      "note_text": "Vṛddhaḥ—aged; jyāyān—more aged; jyeṣṭhaḥ—most aged.",
+      "note_text_normalized": "Vṛddhaḥ—aged; jyāyān—more aged; jyeṣṭhaḥ—most aged.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 67,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-67-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 39,
+        "printed_page": 35,
+        "visual_detail": "Rendered scan: the * call is printed at “The term is the superlative degree of the Aged.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p039-n02": {
+      "owner_name_number": 68,
+      "owner_name": "Sreshthah",
+      "anchor_text": "Here again it is the superlative degree of glorious, Sreyah.",
+      "anchor_text_normalized": "Here again it is the superlative degree of glorious, Sreyah.",
+      "marker_printed": "**",
+      "note_text": "Śreyān—glorious; śreyaḥ—more glorious; śreṣṭhaḥ—most glorious.",
+      "note_text_normalized": "Śreyān—glorious; śreyaḥ—more glorious; śreṣṭhaḥ—most glorious.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 68,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-68-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 39,
+        "printed_page": 35,
+        "visual_detail": "Rendered scan: the ** call is printed at “Here again it is the superlative degree of glorious, Sreyah.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p039-n03": {
+      "owner_name_number": 70,
+      "owner_name": "Hiranyagarbhah",
+      "anchor_text": "One who dwells in the womb (garbha) of the world (Hiranya). The Upanishad declares:",
+      "anchor_text_normalized": "One who dwells in the womb (garbha) of the world (hiraṇya). The Upaniṣad declares:",
+      "marker_printed": "***",
+      "note_text": "īśāvāsyam idaṃ sarvam.",
+      "note_text_normalized": "īśāvāsyam idaṃ sarvam.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 70,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-70-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 39,
+        "printed_page": 35,
+        "visual_detail": "Rendered scan: the *** call is printed at “One who dwells in the womb (garbha) of the world (Hiranya). The Upanishad declares:”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p039-n04": {
+      "owner_name_number": 70,
+      "owner_name": "Hiranyagarbhah",
+      "anchor_text": "The term can also mean as He who, having become first the Creator, has come to be considered as the womb of all objects.",
+      "anchor_text_normalized": "The term can also mean as He who, having become first the Creator, has come to be considered as the womb of all objects.",
+      "marker_printed": "†",
+      "note_text": "The Upanishad declares: — “हिरण्यगर्भः समवर्तताग्रे।”",
+      "note_text_normalized": "The Upaniṣad declares: — “हिरण्यगर्भः समवर्तताग्रे।”",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 70,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-70-paragraph-2"
+        ],
+        "quote_ids": [
+          "name-70-paragraph-2-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 39,
+        "printed_page": 35,
+        "visual_detail": "Rendered scan: the † call is printed at “The term can also mean as He who, having become first the Creator, has come to be considered as the womb of all objects.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p046-n01": {
+      "owner_name_number": 98,
+      "owner_name": "Siddhih",
+      "anchor_text": "but in realizing the Self the seeker gains an ‘Infinite State from which there is no return’, so describes Geeta.",
+      "anchor_text_normalized": "but in realizing the Self the seeker gains an 'Infinite State from which there is no return', so describes the Gītā.",
+      "marker_printed": "*",
+      "note_text": "यद्गत्वा न निवर्तन्ते तद्धाम परमं मम । — Gītā 15.6.",
+      "note_text_normalized": "यद्गत्वा न निवर्तन्ते तद्धाम परमं मम । — Gītā 15.6.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 98,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-98-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-98-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 46,
+        "printed_page": 42,
+        "visual_detail": "Rendered scan: the * call is printed at “but in realizing the Self the seeker gains an ‘Infinite State from which there is no return’, so describes Geeta.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p046-n02": {
+      "owner_name_number": 101,
+      "owner_name": "Vrishaakapih",
+      "anchor_text": "“Since Kapi has a meaning the ‘boar’, and since vrisha has the meaning of ‘Dharma’ the great Kasyapa Prajapati says I am Vrishaakapih”.",
+      "anchor_text_normalized": "\"Since Kapi has a meaning the 'boar', and since vṛṣa has the meaning of 'dharma', the great Kaśyapa Prajāpati says I am vṛṣākapiḥ.\"",
+      "marker_printed": "**",
+      "note_text": "कपिर्वराहः श्रेष्ठश्च धर्मश्च वृष उच्यते । तस्माद् वृषाकपिं प्राह कश्यपो मां प्रजापतिः ॥",
+      "note_text_normalized": "कपिर्वराहः श्रेष्ठश्च धर्मश्च वृष उच्यते । तस्माद् वृषाकपिं प्राह कश्यपो मां प्रजापतिः ॥",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 101,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-101-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-101-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 46,
+        "printed_page": 42,
+        "visual_detail": "Rendered scan: the ** call is printed at ““Since Kapi has a meaning the ‘boar’, and since vrisha has the meaning of ‘Dharma’ the great Kasyapa Prajapati says I am Vrishaakapih”.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p063-n01": {
+      "owner_name_number": 167,
+      "owner_name": "Maadhavah",
+      "anchor_text": "The Lord (Dhava) of all Knowledge (Maa) is Maadhava.",
+      "anchor_text_normalized": "The Lord (Dhava) of all Knowledge (Maa) is Mādhava.",
+      "marker_printed": "*",
+      "note_text": "This term is also interpreted in this way: Mā = meditation; dha = introspection; va = uniting.",
+      "note_text_normalized": "This term is also interpreted in this way: Mā = meditation; dha = introspection; va = uniting.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 167,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-167-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 63,
+        "printed_page": 59,
+        "visual_detail": "Rendered scan: the * call is printed at “The Lord (Dhava) of all Knowledge (Maa) is Maadhava.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p075-n01": {
+      "owner_name_number": 211,
+      "owner_name": "Dhaama",
+      "anchor_text": "the Light of all Lights",
+      "anchor_text_normalized": "the Light of all Lights",
+      "marker_printed": "*",
+      "note_text": "Narayanopanishad declares: “Narayana is the Supreme Light”. Mundakopanishad says: “Brahman is the Supreme Whole.”",
+      "note_text_normalized": "Nārāyaṇopaniṣad declares: “Nārāyaṇa is the Supreme Light.” Muṇḍakopaniṣad says: “Brahman is the Supreme Whole.”",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 211,
+        "paragraph_indices": [
+          1,
+          2
+        ],
+        "block_ids": [
+          "name-211-paragraph-1",
+          "name-211-paragraph-2"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 75,
+        "printed_page": 71,
+        "visual_detail": "Rendered scan: the * call is printed at “the Light of all Lights”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p075-n02": {
+      "owner_name_number": 212,
+      "owner_name": "Satyah",
+      "anchor_text": "“Truth, Knowledge, Infinite is Brahman”,",
+      "anchor_text_normalized": "\"Truth, Knowledge, Infinite is Brahman\",",
+      "marker_printed": "**",
+      "note_text": "satyam jñānam anantam brahma.",
+      "note_text_normalized": "satyam jñānam anantam brahma.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 212,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-212-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 75,
+        "printed_page": 71,
+        "visual_detail": "Rendered scan: the ** call is printed at ““Truth, Knowledge, Infinite is Brahman”,”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p103-n01": {
+      "owner_name_number": 318,
+      "owner_name": "Achyutah",
+      "anchor_text": "Upanishads themselves thunder this Truth—“Eternal, Auspicious and Changeless.”",
+      "anchor_text_normalized": "Upaniṣads themselves thunder this Truth-\"Eternal, Auspicious and Changeless.\"",
+      "marker_printed": "*",
+      "note_text": "“Saasvatam Sivam Achyutam” — (शाश्वतं शिवम् अच्युतम्).",
+      "note_text_normalized": "“Saasvatam Sivam Achyutam” — (शाश्वतं शिवम् अच्युतम्).",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 318,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-318-paragraph-2"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 103,
+        "printed_page": 99,
+        "visual_detail": "Rendered scan: the * call is printed at “Upanishads themselves thunder this Truth—“Eternal, Auspicious and Changeless.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p107-n01": {
+      "owner_name_number": 335,
+      "owner_name": "Purandarah",
+      "anchor_text": "The same ideal is explained in the Shiva-purana also; accordingly, we can say that He is One who as Mahesvara, performed the destruction of the three cities.",
+      "anchor_text_normalized": "The same ideal is explained in the Shiva-purana also; accordingly, we can say that He is One who as Mahesvara, performed the destruction of the three cities.",
+      "marker_printed": "*",
+      "note_text": "Tripurasamhaara.",
+      "note_text_normalized": "Tripurasaṃhāra.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 335,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-335-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 107,
+        "printed_page": 103,
+        "visual_detail": "Rendered scan: the * call is printed at “The same ideal is explained in the Shiva-purana also; accordingly, we can say that He is One who as Mahesvara, performed the destruction of the three cities.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p107-n02": {
+      "owner_name_number": 337,
+      "owner_name": "Taaranah",
+      "anchor_text": "“Who is there other than You that can save us from the wheel of births and deaths.”",
+      "anchor_text_normalized": "\"Who is there other than You that can save us from the wheel of births and deaths.\"",
+      "marker_printed": "**",
+      "note_text": "“संसारचक्रमज कोऽतितरेत् त्वदन्यः।” — Vishnubhaagavata 7-9-6.",
+      "note_text_normalized": "“संसारचक्रमज कोऽतितरेत् त्वदन्यः।” — Viṣṇubhāgavata 7-9-6.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "missing",
+        "name_number": 337,
+        "paragraph_indices": [],
+        "block_ids": [],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 107,
+        "printed_page": 103,
+        "visual_detail": "Rendered scan: the ** call is printed at ““Who is there other than You that can save us from the wheel of births and deaths.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p107-n03": {
+      "owner_name_number": 338,
+      "owner_name": "Taarah",
+      "anchor_text": "“One who saves is called Taarah.”",
+      "anchor_text_normalized": "One who saves is called tāraḥ.",
+      "marker_printed": "***",
+      "note_text": "\"तारयति इति तारः।\"",
+      "note_text_normalized": "\"तारयति इति तारः।\"",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 338,
+        "paragraph_indices": [
+          3
+        ],
+        "block_ids": [
+          "name-338-paragraph-3"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 107,
+        "printed_page": 103,
+        "visual_detail": "Rendered scan: the *** call is printed at ““One who saves is called Taarah.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p111-n01": {
+      "owner_name_number": 355,
+      "owner_name": "Atulah",
+      "anchor_text": "“Incomparable.” For him whose name is the glory of the universe, there is no licence.”",
+      "anchor_text_normalized": "\"Incomparable.\" For him whose name is the glory of the universe, there is no licence.\"",
+      "marker_printed": "*",
+      "note_text": "Śvetāśvatara Upaniṣad 4-19.",
+      "note_text_normalized": "Śvetāśvatara Upaniṣad 4-19.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 355,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-355-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 111,
+        "printed_page": 107,
+        "visual_detail": "Rendered scan: the * call is printed at ““Incomparable.” For him whose name is the glory of the universe, there is no licence.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p111-n02": {
+      "owner_name_number": 355,
+      "owner_name": "Atulah",
+      "anchor_text": "Again, Bhagavat Geeta says, “For Thy equal exists not, where is another superior to Thee in the three worlds?”",
+      "anchor_text_normalized": "Again, Bhāgavata Gītā says, \"For Thy equal exists not, where is another superior to Thee in the three worlds?\"",
+      "marker_printed": "**",
+      "note_text": "“न त्वत्समोऽस्त्यभ्यधिकः कृतोऽन्यो लोकत्रयेऽप्यप्रतिमप्रभावः।”",
+      "note_text_normalized": "“न त्वत्समोऽस्त्यभ्यधिकः कृतोऽन्यो लोकत्रयेऽप्यप्रतिमप्रभावः।”",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 355,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-355-paragraph-2"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 111,
+        "printed_page": 107,
+        "visual_detail": "Rendered scan: the ** call is printed at “Again, Bhagavat Geeta says, “For Thy equal exists not, where is another superior to Thee in the three worlds?””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p111-n03": {
+      "owner_name_number": 356,
+      "owner_name": "Sarabhah",
+      "anchor_text": "Bodies are called Sara because they are perishable.",
+      "anchor_text_normalized": "Bodies are called Sara because they are perishable.",
+      "marker_printed": "***",
+      "note_text": "“जीर्यमाणात् शरः” — (Jīryamāṇāt śaraḥ).",
+      "note_text_normalized": "“जीर्यमाणात् शरः” — (Jīryamāṇāt śaraḥ).",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 356,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-356-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 111,
+        "printed_page": 107,
+        "visual_detail": "Rendered scan: the *** call is printed at “Bodies are called Sara because they are perishable.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p115-n01": {
+      "owner_name_number": 375,
+      "owner_name": "Devah",
+      "anchor_text": "“One who revels is Deva.",
+      "anchor_text_normalized": "One who revels is Deva.",
+      "marker_printed": "*",
+      "note_text": "The term is dissolved as: दीव्यति इति देवः (Deevyati iti Devah).",
+      "note_text_normalized": "The term is dissolved as: दीव्यति इति देवः (Dīvyati iti Devaḥ).",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 375,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-375-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-375-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 115,
+        "printed_page": 111,
+        "visual_detail": "Rendered scan: the * call is printed at ““One who revels is Deva.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p117-n01": {
+      "owner_name_number": 383,
+      "owner_name": "Guhah",
+      "anchor_text": "The Smriti describes Him as “This Lord, the Great Purusha, the Witness who dwells in the cave most secretively.”",
+      "anchor_text_normalized": "The Smriti describes Him as \"This Lord, the Great puruṣa, the Witness who dwells in the cave most secretively.\"",
+      "marker_printed": "*",
+      "note_text": "“गूढो गुहाशयः साक्षी महापुरुष ईश्वरः।” — Viṣṇu Bhāgavata 10-37-11.",
+      "note_text_normalized": "“गूढो गुहाशयः साक्षी महापुरुष ईश्वरः।” — Viṣṇu Bhāgavata 10-37-11.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 383,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-383-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 117,
+        "printed_page": 113,
+        "visual_detail": "Rendered scan: the * call is printed at “The Smriti describes Him as “This Lord, the Great Purusha, the Witness who dwells in the cave most secretively.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p117-n02": {
+      "owner_name_number": 383,
+      "owner_name": "Guhah",
+      "anchor_text": "Again, the Lord Himself says, “I am not readily perceivable by all as I am veiled by my own Maayaa”.",
+      "anchor_text_normalized": "Again, the Lord Himself says, \"I am not readily perceivable by all as I am veiled by my own māyā\".",
+      "marker_printed": "**",
+      "note_text": "“नाहं प्रकाशः सर्वस्य योगमायासमावृतः।” — Gītā.",
+      "note_text_normalized": "“नाहं प्रकाशः सर्वस्य योगमायासमावृतः।” — Gītā.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 383,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-383-paragraph-2"
+        ],
+        "quote_ids": [
+          "name-383-paragraph-2-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 117,
+        "printed_page": 113,
+        "visual_detail": "Rendered scan: the ** call is printed at “Again, the Lord Himself says, “I am not readily perceivable by all as I am veiled by my own Maayaa”.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p117-n03": {
+      "owner_name_number": 384,
+      "owner_name": "Vyavasaayah",
+      "anchor_text": "In this sense, the term is used in the Geeta, “The intellect of one who is practising Yoga is single-pointed without vacillation.”",
+      "anchor_text_normalized": "In this sense, the term is used in the Gītā, “The intellect of one who is practising Yoga is single-pointed without vacillation.”",
+      "marker_printed": "***",
+      "note_text": "“व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन।” — Gītā II-41.",
+      "note_text_normalized": "“व्यवसायात्मिका बुद्धिरेकेह कुरुनन्दन।” — Gītā II-41.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 384,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-384-paragraph-2"
+        ],
+        "quote_ids": [
+          "name-384-paragraph-2-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 117,
+        "printed_page": 113,
+        "visual_detail": "Rendered scan: the *** call is printed at “In this sense, the term is used in the Geeta, “The intellect of one who is practising Yoga is single-pointed without vacillation.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p117-n04": {
+      "owner_name_number": 384,
+      "owner_name": "Vyavasaayah",
+      "anchor_text": "Again, in the same chapter criticising those who are running after enjoyment and power, Krishna says, “Those who are revelling in sensuality and consequently disturbing the poise of their intellect, cannot have a steady mind and consistent pursuit of Yoga.”",
+      "anchor_text_normalized": "Again, in the same chapter criticising those who are running after enjoyment and power, Kṛṣṇa says, “Those who are revelling in sensuality and consequently disturbing the poise of their intellect, cannot have a steady mind and consistent pursuit of Yoga.”",
+      "marker_printed": "†",
+      "note_text": "“भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम्। व्यवसायात्मिका बुद्धिः समाधौ न विधीयते॥” — Gītā II-44.",
+      "note_text_normalized": "“भोगैश्वर्यप्रसक्तानां तयापहृतचेतसाम्। व्यवसायात्मिका बुद्धिः समाधौ न विधीयते॥” — Gītā II-44.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 384,
+        "paragraph_indices": [
+          3
+        ],
+        "block_ids": [
+          "name-384-paragraph-3"
+        ],
+        "quote_ids": [
+          "name-384-paragraph-3-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 117,
+        "printed_page": 113,
+        "visual_detail": "Rendered scan: the † call is printed at “Again, in the same chapter criticising those who are running after enjoyment and power, Krishna says, “Those who are revelling in sensuality and consequently disturbing the poise of their intellect, cannot have a steady mind and consistent pursuit of Yoga.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p118-n01": {
+      "owner_name_number": 387,
+      "owner_name": "Sthaanadah",
+      "anchor_text": "“according to his actions and thoughts”",
+      "anchor_text_normalized": "\"according to his actions and thoughts\"",
+      "marker_printed": "*",
+      "note_text": "“यथाकर्म यथाश्रुतम्।” — Kaṭhopaniṣad II-V-7.",
+      "note_text_normalized": "“यथाकर्म यथाश्रुतम्।” — Kaṭhopaniṣad II-V-7.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 387,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-387-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 118,
+        "printed_page": 114,
+        "visual_detail": "Rendered scan: the * call is printed at ““according to his actions and thoughts””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p118-n02": {
+      "owner_name_number": 387,
+      "owner_name": "Sthaanadah",
+      "anchor_text": "In short, the Lord is the distributor of the fruits-of-actions.",
+      "anchor_text_normalized": "In short, the Lord is the distributor of the fruits-of-actions.",
+      "marker_printed": "**",
+      "note_text": "“कर्मफलदाता ईश्वरो नारायणः।”",
+      "note_text_normalized": "“कर्मफलदाता ईश्वरो नारायणः।”",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 387,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-387-paragraph-2"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 118,
+        "printed_page": 114,
+        "visual_detail": "Rendered scan: the ** call is printed at “In short, the Lord is the distributor of the fruits-of-actions.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p118-n03": {
+      "owner_name_number": 388,
+      "owner_name": "Dhruvah",
+      "anchor_text": "“the Changeless in the midst of changes”",
+      "anchor_text_normalized": "“the Changeless in the midst of changes”",
+      "marker_printed": "***",
+      "note_text": "“नित्योऽनित्यानाम्।” — Kaṭhopaniṣad II-V-13.",
+      "note_text_normalized": "“नित्योऽनित्यानाम्।” — Kaṭhopaniṣad II-V-13.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 388,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-388-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 118,
+        "printed_page": 114,
+        "visual_detail": "Rendered scan: the *** call is printed at ““the Changeless in the midst of changes””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p118-n04": {
+      "owner_name_number": 388,
+      "owner_name": "Dhruvah",
+      "anchor_text": "“that which is Imperishable in the midst of all perishing”",
+      "anchor_text_normalized": "“that which is Imperishable in the midst of all perishing”",
+      "marker_printed": "†",
+      "note_text": "“चेतनश्चेतनानाम्।” — Kaṭhopaniṣad II-V-13.",
+      "note_text_normalized": "“चेतनश्चेतनानाम्।” — Kaṭhopaniṣad II-V-13.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 388,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-388-paragraph-2"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 118,
+        "printed_page": 114,
+        "visual_detail": "Rendered scan: the † call is printed at ““that which is Imperishable in the midst of all perishing””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p118-n05": {
+      "owner_name_number": 389,
+      "owner_name": "Pararddhih",
+      "anchor_text": "“The glories of the Self are indeed divine.”",
+      "anchor_text_normalized": "“The glories of the Self are indeed divine.”",
+      "marker_printed": "††",
+      "note_text": "“दिव्या ह्यात्मविभूतयः।” — Gītā, Chapter XI.",
+      "note_text_normalized": "“दिव्या ह्यात्मविभूतयः।” — Gītā, Chapter XI.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 389,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-389-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-389-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 118,
+        "printed_page": 114,
+        "visual_detail": "Rendered scan: the †† call is printed at ““The glories of the Self are indeed divine.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p122-n01": {
+      "owner_name_number": 403,
+      "owner_name": "Dharmah",
+      "anchor_text": "This essential Dharma in anything is that which supports the things and, therefore, the Self which is the essence everywhere, is considered as the very One which supports everything.",
+      "anchor_text_normalized": "This essential dharma in anything is that which supports the things and, therefore, the Self which is the essence everywhere, is considered as the very One which supports everything.",
+      "marker_printed": "*",
+      "note_text": "“धारयति इति धर्मः।” “देवैरत्रापि विचिकित्सितं पुरा नहि सुविज्ञेयमणुरेष धर्मः।” — Kaṭhopaniṣad.",
+      "note_text_normalized": "“धारयति इति धर्मः।” “देवैरत्रापि विचिकित्सितं पुरा नहि सुविज्ञेयमणुरेष धर्मः।” — Kaṭhopaniṣad.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 403,
+        "paragraph_indices": [
+          3
+        ],
+        "block_ids": [
+          "name-403-paragraph-3"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 122,
+        "printed_page": 118,
+        "visual_detail": "Rendered scan: the * call is printed at “This essential Dharma in anything is that which supports the things and, therefore, the Self which is the essence everywhere, is considered as the very One which supports everything.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p122-n02": {
+      "owner_name_number": 405,
+      "owner_name": "Vaikunthah",
+      "anchor_text": "“I united the Earth with water, Space with air, and Air with fire, hence, the name ‘Vaikunthah’ has come to Me.”",
+      "anchor_text_normalized": "I united the Earth with water, Space with air, and Air with fire, hence, the name 'vaikuṇṭhaḥ' has come to Me.",
+      "marker_printed": "**",
+      "note_text": "“मया संश्लेषिता भूमिरद्भिर्व्योम च वायुना। वायुश्च तेजसा सार्धं वैकुण्ठत्वं ततो मम॥” — Mahābhārata.",
+      "note_text_normalized": "“मया संश्लेषिता भूमिरद्भिर्व्योम च वायुना। वायुश्च तेजसा सार्धं वैकुण्ठत्वं ततो मम॥” — Mahābhārata.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 405,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-405-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 122,
+        "printed_page": 118,
+        "visual_detail": "Rendered scan: the ** call is printed at ““I united the Earth with water, Space with air, and Air with fire, hence, the name ‘Vaikunthah’ has come to Me.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p122-n03": {
+      "owner_name_number": 406,
+      "owner_name": "Purushah",
+      "anchor_text": "“One who dwells in all bodies (Puris).”",
+      "anchor_text_normalized": "\"One who dwells in all bodies (Puris).\"",
+      "marker_printed": "***",
+      "note_text": "Puri śayanāt Puruṣaḥ.",
+      "note_text_normalized": "Puri śayanāt Puruṣaḥ.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 406,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-406-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 122,
+        "printed_page": 118,
+        "visual_detail": "Rendered scan: the *** call is printed at ““One who dwells in all bodies (Puris).””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p123-n02": {
+      "owner_name_number": 410,
+      "owner_name": "Prithuh",
+      "anchor_text": "“The One who is born as king Prithuh, the son of king Vena (वेन:)—for bringing prosperity to the country, is Lord Narayana.”",
+      "anchor_text_normalized": "\"The One who is born as king pṛthuḥ, the son of king Vena (वेन:)—for bringing prosperity to the country, is Lord Nārāyaṇa.\"",
+      "marker_printed": "**",
+      "note_text": "“अत्र तु प्रथमो राज्ञां पुमान् प्रथयिता यशः। पृथुर्नाम महाराजो भविष्यति पृथुश्रवाः॥”",
+      "note_text_normalized": "“अत्र तु प्रथमो राज्ञां पुमान् प्रथयिता यशः। पृथुर्नाम महाराजो भविष्यति पृथुश्रवाः॥”",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 410,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-410-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 123,
+        "printed_page": 119,
+        "visual_detail": "Rendered scan: the ** call is printed at ““The One who is born as king Prithuh, the son of king Vena (वेन:)—for bringing prosperity to the country, is Lord Narayana.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p128-n01": {
+      "owner_name_number": 436,
+      "owner_name": "Sthavishthah",
+      "anchor_text": "He Himself is the universe, and as such in His total manifestation, He is supremely gross. Geeta says",
+      "anchor_text_normalized": "He Himself is the universe, and as such in His total manifestation, He is supremely gross. Gītā says",
+      "marker_printed": "*",
+      "note_text": "“द्यावापृथिव्योरिदमन्तरं हि व्याप्तं त्वयैकेन दिशश्च सर्वाः।” This space between earth and the heavens and all the quarters are filled by you alone. — Geeta XI-20.",
+      "note_text_normalized": "“द्यावापृथिव्योरिदमन्तरं हि व्याप्तं त्वयैकेन दिशश्च सर्वाः।” “This space between earth and the heavens and all the quarters are filled by you alone.” — Gītā XI-20.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 436,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-436-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-436-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 128,
+        "printed_page": 124,
+        "visual_detail": "Rendered scan: the * call is printed at “He Himself is the universe, and as such in His total manifestation, He is supremely gross. Geeta says”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p128-n02": {
+      "owner_name_number": 436,
+      "owner_name": "Sthavishthah",
+      "anchor_text": "The Upanishad (Mundaka 1-4)",
+      "anchor_text_normalized": "The Upaniṣad (Mundaka 1-4)",
+      "marker_printed": "**",
+      "note_text": "“अग्निर्मूर्धा चक्षुषी चन्द्रसूर्यौ दिशः श्रोत्रे वाग् विवृताश्च वेदाः।” Heaven (sky) is His head; His eyes the sun and the moon; the four quarters or directions His ears; His speech, declared Vedas. — Mundakopanishad II-1-4.",
+      "note_text_normalized": "“अग्निर्मूर्धा चक्षुषी चन्द्रसूर्यौ। दिशः श्रोत्रे वाग् विवृताश्च वेदाः।” Heaven (sky) is His head; His eyes the sun and the moon; the four quarters or directions His ears; His speech, declared Vedas. — Muṇḍakopaniṣad II-1-4.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 436,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-436-paragraph-2"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 128,
+        "printed_page": 124,
+        "visual_detail": "Rendered scan: the ** call is printed at “The Upanishad (Mundaka 1-4)”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p128-n03": {
+      "owner_name_number": 439,
+      "owner_name": "Mahaa-makhah",
+      "anchor_text": "“offer is Brahman, what is offered is Brahman, the fire is Brahman, the offerer is Brahman and the goal reached is also Brahman.”",
+      "anchor_text_normalized": "\"offer is Brahman, what is offered is Brahman, the fire is Brahman, the offerer is Brahman and the goal reached is also Brahman.\"",
+      "marker_printed": "***",
+      "note_text": "“ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम्। ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना॥” — Gītā IV-24.",
+      "note_text_normalized": "“ब्रह्मार्पणं ब्रह्म हविर्ब्रह्माग्नौ ब्रह्मणा हुतम्। ब्रह्मैव तेन गन्तव्यं ब्रह्मकर्मसमाधिना॥” — Gītā IV-24.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 439,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-439-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-439-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 128,
+        "printed_page": 124,
+        "visual_detail": "Rendered scan: the *** call is printed at ““offer is Brahman, what is offered is Brahman, the fire is Brahman, the offerer is Brahman and the goal reached is also Brahman.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p131-n01": {
+      "owner_name_number": 452,
+      "owner_name": "Vimuktuatmaa",
+      "anchor_text": "This great principle of Paraatmaa is Sri Narayana.—Sruti says (Kathopanishad 5-1).",
+      "anchor_text_normalized": "This great principle of Paraatmaa is Śrī Nārāyaṇa.-Sruti says (Kaṭhopaniṣad 5-1).",
+      "marker_printed": "*",
+      "note_text": "“पुरमेकादशद्वारमजस्यावक्रचेतसः। अनुष्ठाय न शोचति विमुक्तश्च विमुच्यते॥” — Kaṭhopaniṣad 5-1.",
+      "note_text_normalized": "“पुरमेकादशद्वारमजस्यावक्रचेतसः। अनुष्ठाय न शोचति विमुक्तश्च विमुच्यते॥” — Kaṭhopaniṣad 5-1.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 452,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-452-paragraph-2"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 131,
+        "printed_page": 127,
+        "visual_detail": "Rendered scan: the * call is printed at “This great principle of Paraatmaa is Sri Narayana.—Sruti says (Kathopanishad 5-1).”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p141-n01": {
+      "owner_name_number": 500,
+      "owner_name": "Bhoktaa",
+      "anchor_text": "In (a) it would mean the ‘Protector’",
+      "anchor_text_normalized": "In (a) it would mean the 'Protector'",
+      "marker_printed": "*",
+      "note_text": "Bhunakti Iti Bhoktaa (भुनक्ति इति भोक्ता)—‘Protector’",
+      "note_text_normalized": "Bhunakti iti Bhoktā (भुनक्ति इति भोक्ता)—“Protector.”",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 500,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-500-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 141,
+        "printed_page": 137,
+        "visual_detail": "Rendered scan: the * call is printed at “In (a) it would mean the ‘Protector’”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p141-n02": {
+      "owner_name_number": 500,
+      "owner_name": "Bhoktaa",
+      "anchor_text": "and in (b) it would mean as the ‘Enjoyer’.",
+      "anchor_text_normalized": "and in (b) it would mean as the 'Enjoyer'.",
+      "marker_printed": "**",
+      "note_text": "Bhunkte Iti Bhoktaa (भुंक्ते इति भोक्ता)—‘Enjoyer’.",
+      "note_text_normalized": "Bhunkte iti Bhoktā (भुंक्ते इति भोक्ता)—“Enjoyer.”",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 500,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-500-paragraph-2"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 141,
+        "printed_page": 137,
+        "visual_detail": "Rendered scan: the ** call is printed at “and in (b) it would mean as the ‘Enjoyer’.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p141-n03": {
+      "owner_name_number": 501,
+      "owner_name": "Kapeendrah",
+      "anchor_text": "‘Kapih’ also can mean the Boar-incarnation (Varaaha).",
+      "anchor_text_normalized": "'Kapih' also can mean the Boar-incarnation (Varaaha).",
+      "marker_printed": "***",
+      "note_text": "“कपिर्वराह इन्द्रश्च वराहवपुरास्थितः।”",
+      "note_text_normalized": "“कपिर्वराह इन्द्रश्च वराहवपुरास्थितः।”",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 501,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-501-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 141,
+        "printed_page": 137,
+        "visual_detail": "Rendered scan: the *** call is printed at “‘Kapih’ also can mean the Boar-incarnation (Varaaha).”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p142-n01": {
+      "owner_name_number": 505,
+      "owner_name": "Somah",
+      "anchor_text": "“I in the form of the moon-light, enrich all the plant-kingdom,”",
+      "anchor_text_normalized": "\"I in the form of the moon-light, enrich all the plant-kingdom,\"",
+      "marker_printed": "*",
+      "note_text": "“पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः।”",
+      "note_text_normalized": "“पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः।”",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 505,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-505-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-505-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 142,
+        "printed_page": 138,
+        "visual_detail": "Rendered scan: the * call is printed at ““I in the form of the moon-light, enrich all the plant-kingdom,””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p142-n02": {
+      "owner_name_number": 505,
+      "owner_name": "Somah",
+      "anchor_text": "“One who is ever consorted by Umaa.”",
+      "anchor_text_normalized": "\"One who is ever consorted by Umaa.\"",
+      "marker_printed": "**",
+      "note_text": "उमया सह वर्तते इति सोमः।",
+      "note_text_normalized": "उमया सह वर्तते इति सोमः।",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 505,
+        "paragraph_indices": [
+          2
+        ],
+        "block_ids": [
+          "name-505-paragraph-2"
+        ],
+        "quote_ids": [
+          "name-505-paragraph-2-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 142,
+        "printed_page": 138,
+        "visual_detail": "Rendered scan: the ** call is printed at ““One who is ever consorted by Umaa.””; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p142-n03": {
+      "owner_name_number": 509,
+      "owner_name": "Jayah",
+      "anchor_text": "Realizing the Self, the seeker himself becomes the Self.",
+      "anchor_text_normalized": "Realizing the Self, the seeker himself becomes the Self.",
+      "marker_printed": "***",
+      "note_text": "“ब्रह्मवित् ब्रह्मैव भवति।” (Brahmavit Brahmaiva Bhavati.)",
+      "note_text_normalized": "“ब्रह्मवित् ब्रह्मैव भवति।” (Brahmavit Brahmaiva Bhavati.)",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 509,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-509-paragraph-1"
+        ],
+        "quote_ids": []
+      },
+      "evidence": {
+        "pdf_page": 142,
+        "printed_page": 138,
+        "visual_detail": "Rendered scan: the *** call is printed at “Realizing the Self, the seeker himself becomes the Self.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    },
+    "cm-vs-fn-p143-n01": {
+      "owner_name_number": 513,
+      "owner_name": "Jeevah",
+      "anchor_text": "One who functions as the Experiencer-of-the-Field (Kshetrajna), as described in the Bhagavat Geeta.",
+      "anchor_text_normalized": "One who functions as the Experiencer-of-the — Field (Kshetrajna), as described in the Bhāgavata Gītā.",
+      "marker_printed": "*",
+      "note_text": "“क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत।” — Gītā XIII-2.",
+      "note_text_normalized": "“क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत।” — Gītā XIII-2.",
+      "source_status": "scan-verified-anchor",
+      "containment_override": {
+        "status": "present",
+        "name_number": 513,
+        "paragraph_indices": [
+          1
+        ],
+        "block_ids": [
+          "name-513-paragraph-1"
+        ],
+        "quote_ids": [
+          "name-513-paragraph-1-span-0"
+        ]
+      },
+      "evidence": {
+        "pdf_page": 143,
+        "printed_page": 139,
+        "visual_detail": "Rendered scan: the * call is printed at “One who functions as the Experiencer-of-the-Field (Kshetrajna), as described in the Bhagavat Geeta.”; the same-marker footnote was visually matched to note_text."
+      },
+      "review_notes": []
+    }
+  }
+}

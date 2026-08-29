@@ -72,6 +72,25 @@ present and make it inspectable, rather than paraphrasing.
   transliterate undiacritized OCR blindly, and never let the script used by the
   scan create a second public quote style.
 
+### 2.1 Printed notes are claim-level evidence
+
+A printed footnote, endnote, or source quotation is part of the author's
+argument. Preserve the exact call-to-note relationship instead of collecting
+notes at the end of an entry or turning them into free-standing decorative
+quotation blocks.
+
+- Attach the printed marker to the precise clause or sentence it marks and put
+  the corresponding note immediately after that claim.
+- Preserve the author's note text and source attribution. Editorial corrections
+  or witness qualifications must be separate, concise, and unmistakably the
+  site's.
+- Sanskrit inside a note receives the same verified Devanāgarī and interactive
+  word analysis as Sanskrit in the main commentary. The note's function remains
+  evidentiary: it must visibly defend the claim that called it.
+- Builders must validate the closed population of calls and notes, stable IDs,
+  source order, and one-time placement. A detached, duplicated, silently moved,
+  or uncalled note is a build failure.
+
 ## 3. Data schema
 
 Per word object (mūla and commentary alike):
@@ -203,6 +222,23 @@ Mahābhāṣya, Siddhāntakaumudī, Uṇādi, Nirukta) and the paired `sources/r
 witness when collation matters. Do **not** run or rely on the unfinished
 `prakriya` interpreter, generated form tables, projections, or traces. The
 source library is authoritative evidence; the software is not.
+
+### 6.2 Parallel derivations and traditional nirvacanas
+
+A word card must not silently choose one valid derivation and suppress another.
+Show every independently supported grammatical formation and every attested
+traditional *nirvacana* in parallel, with each reading's own segmentation,
+root(s), affixes or compound analysis, meaning, evidence locus, and
+qualification.
+
+Keep the categories explicit. A regular grammatical formation is not the same
+claim as a traditional semantic *nirvacana*, and an author's theological or
+symbolic interpretation is not thereby an etymology. The latter remains in the
+author's attributed prose unless a cited traditional source establishes it as
+a transmitted *nirvacana*. A reading that is plausible but not yet source-backed
+must be withheld or marked unresolved; it may not displace an established
+analysis. Closed readers must validate the complete candidate population and
+the complete public parallel-derivation population.
 
 ## 7. Faithful rendering — rules against distortion
 

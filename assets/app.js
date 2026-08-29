@@ -419,7 +419,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "__BUILD_ID__-vsn-normalized-deva-v7";
+const DATA_VERSION = "__BUILD_ID__-vsn-apparatus-v9";
 
 async function loadJSON(path) {
   try {

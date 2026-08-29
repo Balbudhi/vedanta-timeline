@@ -164,31 +164,69 @@ function conciseQuoteSource(block) {
 function paragraphs(text) {
   return String(text || "").split(/\n\s*\n/).filter(Boolean)
     .map(paragraph => looksLikeSanskritParagraph(paragraph)
-      ? renderSanskritParagraph(paragraph)
+      ? renderSanskritParagraph({text: paragraph})
       : `<p class="vsn-prose">${richProse(paragraph)}</p>`)
     .join("");
+}
+
+function compactReplayKey(value) {
+  return String(value || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+function renderCommentaryBlock(block, context = {}) {
+  if (block.type === "prose") {
+    const calls = Array.isArray(block.footnote_calls)
+      ? block.footnote_calls.map(call => `<sup class="vsn-footnote-call" aria-label="Source note ${esc(call.marker)}">${esc(call.marker)}</sup>`).join("")
+      : "";
+    if (block.display_devanagari || looksLikeStandaloneInteractiveSanskrit(block.text, block.inline_sanskrit)) {
+      return `${renderSanskritParagraph(block)}${calls}`;
+    }
+    return `<p class="vsn-prose">${richProse(block.text, block.inline_sanskrit)}${calls}</p>`;
+  }
+  if (block.type === "footnote") {
+    const children = Array.isArray(block.blocks) ? block.blocks : [];
+    const proseKey = compactReplayKey(children.filter(child => child.type === "prose").map(child => child.text).join(" "));
+    const body = children.map(child => {
+      const englishKey = compactReplayKey(child.english);
+      return renderCommentaryBlock(child, {
+        inFootnote: true,
+        showEnglish: Boolean(englishKey && !proseKey.includes(englishKey)),
+      });
+    }).join("");
+    const applies = Array.isArray(block.additional_name_numbers) && block.additional_name_numbers.length
+      ? ` · also names ${block.additional_name_numbers.join(", ")}`
+      : "";
+    return `<aside class="vsn-footnote" id="${esc(block.id)}" role="note">
+      <div class="vsn-footnote-marker" aria-hidden="true">${esc(block.marker)}</div>
+      <div class="vsn-footnote-body">${body}</div>
+      <footer class="vsn-footnote-source">Chinmayananda’s note · p. ${esc(block.printed_page)}${esc(applies)}</footer>
+    </aside>`;
+  }
+  if (block.type === "source-note") {
+    return `<p class="vsn-footnote-citation">${esc(block.text)}</p>`;
+  }
+  if (block.type !== "gita-quote" && block.type !== "sanskrit-quote") return "";
+  const hasReviewedWords = Array.isArray(block.words) && block.words.length > 0;
+  const displayEnglish = block.display_english === true || context.showEnglish;
+  const visibleEnglish = displayEnglish ? (block.english_slots || null) : null;
+  const sanskrit = hasReviewedWords && window.GitaReader?.interactiveBlock
+    ? window.GitaReader.interactiveBlock(block.words, visibleEnglish, null, block.devanagari, "vsn-commentary-quote-deva", block.source_segments || null)
+    : `<div class="ix"><div class="ix-deva vsn-commentary-quote-deva" lang="sa-Deva">${esc(block.devanagari)}</div><div class="ix-pada" lang="sa-Latn">${esc(block.iast)}</div></div>`;
+  const source = conciseQuoteSource(block);
+  const provenance = visibleEnglish && block.english_source === "site-literal-translation"
+    ? `<div class="vsn-site-translation-note">Site translation</div>`
+    : "";
+  return `<blockquote class="vsn-commentary-quote" data-quote-id="${esc(block.id)}">
+    ${sanskrit}
+    ${provenance}
+    <footer class="vsn-commentary-quote-source">${esc(source)}</footer>
+  </blockquote>`;
 }
 
 function commentaryBlocks(name) {
   const blocks = name.chinmayananda?.blocks;
   if (!Array.isArray(blocks) || !blocks.length) return paragraphs(name.chinmayananda?.commentary || "");
-  return blocks.map(block => {
-    if (block.type === "prose") {
-      return block.display_devanagari || looksLikeStandaloneInteractiveSanskrit(block.text, block.inline_sanskrit)
-        ? renderSanskritParagraph(block)
-        : `<p class="vsn-prose">${richProse(block.text, block.inline_sanskrit)}</p>`;
-    }
-    if (block.type !== "gita-quote" && block.type !== "sanskrit-quote") return "";
-    const hasReviewedWords = Array.isArray(block.words) && block.words.length > 0;
-    const sanskrit = hasReviewedWords && window.GitaReader?.interactiveBlock
-      ? window.GitaReader.interactiveBlock(block.words, null, null, block.devanagari, "vsn-commentary-quote-deva", block.source_segments || null)
-      : `<div class="ix"><div class="ix-deva vsn-commentary-quote-deva" lang="sa-Deva">${esc(block.devanagari)}</div><div class="ix-pada" lang="sa-Latn">${esc(block.iast)}</div></div>`;
-    const source = conciseQuoteSource(block);
-    return `<blockquote class="vsn-commentary-quote" data-quote-id="${esc(block.id)}">
-      ${sanskrit}
-      <footer class="vsn-commentary-quote-source">${esc(source)}</footer>
-    </blockquote>`;
-  }).join("");
+  return blocks.map(renderCommentaryBlock).join("");
 }
 
 function detailFor(name) {
@@ -203,6 +241,61 @@ function displayDefinition(value) {
 
 function simpleExcerpt(name) {
   return displayDefinition(name?.meaning);
+}
+
+function derivationSourceLabel(source) {
+  const value = String(source || "");
+  if (value.includes("chinmayananda")) return "Chinmayananda scan";
+  if (value.includes("ashtadhyayi")) return "Aṣṭādhyāyī";
+  if (value.includes("dhatupatha")) return "Dhātupāṭha";
+  if (value.includes("nirukta")) return "Nirukta";
+  if (value.includes("nighantu")) return "Nighaṇṭu";
+  if (value.includes("unadi")) return "Uṇādi";
+  if (value.includes("amarakosha")) return "Amarakośa";
+  if (value.includes("mbh731") || value.includes("titus.uni-frankfurt.de")) return "Mahābhārata";
+  if (value.includes("bhanapcorner") || value.includes("incarnation14")) return "Traditional commentary";
+  if (value.includes("Vishnu_Sahasra_Nama_Swami_Tapasyananda")) return "Śaṅkara commentary (Tapasyananda)";
+  if (value.includes("/manu.html") || value.includes("manusm")) return "Manusmṛti";
+  if (value.includes("kashika")) return "Kāśikā";
+  if (value.includes("mahabhashya")) return "Mahābhāṣya";
+  const filename = value.split("/").pop() || value;
+  return filename.replace(/\.(?:json|txt|htm|html|pdf)$/i, "").replace(/[_-]+/g, " ");
+}
+
+function renderParallelDerivation(derivation) {
+  const parts = Array.isArray(derivation.parts) && derivation.parts.length
+    ? `<div class="wc-parts">${derivation.parts.map(part => `<span class="wc-part"><span class="wc-pf" lang="sa-Latn">${esc(part.form)}</span><span class="wc-pg">${esc(part.gloss)}</span></span>`).join("")}</div>`
+    : "";
+  const roots = Array.isArray(derivation.roots)
+    ? derivation.roots.map(root => `<div class="wc-root"><span class="wc-pf">${esc(root.form)}</span><span class="wc-pg">: ${esc(`${root.gana}, ${root.pada} · ${root.gloss}`)}</span>${root.dhatupatha ? `<span class="wc-pg"><br>Dhātupāṭha ${esc(root.dhatupatha.locus)} · <span lang="sa-Deva">${esc(root.dhatupatha.artha_sanskrit)}</span></span>` : ""}</div>`).join("")
+    : "";
+  const sources = Array.isArray(derivation.evidence)
+    ? derivation.evidence.map(item => `${derivationSourceLabel(item.source)} ${item.locus}`).filter(Boolean)
+    : [];
+  const kind = derivation.kind === "traditional-nirvacana" ? "Traditional nirvacana" : "Alternative grammatical derivation";
+  return `<section class="wc-derivation wc-derivation--${esc(derivation.kind)}">
+    <div class="wc-derivation-label">${esc(kind)}</div>
+    <div class="wc-derivation-title">${esc(derivation.label)}</div>
+    <div class="wc-derivation-text">${esc(derivation.meaning)}</div>
+    ${parts}${roots}
+    <div class="wc-gram"><span class="wc-gram-main">${esc(derivation.morphology)}</span><br><span class="wc-gram-affix">formation: ${esc(derivation.formation)}</span></div>
+    <div class="wc-note">${esc(derivation.qualification)}</div>
+    ${sources.length ? `<div class="wc-derivation-evidence">${sources.map(source => `<span>${esc(source)}</span>`).join("")}</div>` : ""}
+  </section>`;
+}
+
+function parallelDerivationBlocks(analysis, primaryContent) {
+  const alternatives = Array.isArray(analysis.parallel_derivations)
+    ? analysis.parallel_derivations
+    : [];
+  if (!alternatives.length) return primaryContent;
+  return `<div class="wc-derivations">
+    <section class="wc-derivation wc-derivation--primary">
+      <div class="wc-derivation-label">Primary grammatical formation</div>
+      ${primaryContent}
+    </section>
+    ${alternatives.map(renderParallelDerivation).join("")}
+  </div>`;
 }
 
 function pageLabel(name) {
@@ -238,7 +331,10 @@ function range(stanza) {
 function renderDevanagari(stanza) {
   const lines = [0, 1].map(lineIndex => stanza.names.filter(name => name.line_index === lineIndex).map(name => {
     const form = name.deva_surface || name.deva;
-    return `<span class="w vsn-deva-w" role="button" tabindex="0" data-name-number="${name.number}" aria-label="Name ${name.number}: ${esc(form)}">${esc(form)}</span>`;
+    const calls = Array.isArray(name.root_footnote_calls)
+      ? name.root_footnote_calls.map(call => `<sup class="vsn-root-footnote-call" aria-label="Chinmayananda source note ${esc(call.marker)}">${esc(call.marker)}</sup>`).join("")
+      : "";
+    return `<span class="w vsn-deva-w" role="button" tabindex="0" data-name-number="${name.number}" aria-label="Name ${name.number}: ${esc(form)}">${esc(form)}</span>${calls}`;
   }).join(" "));
   return `${lines[0]} <span class="vsn-sep" aria-hidden="true">।</span><br>${lines[1]} <span class="vsn-sep" aria-hidden="true">॥</span>`;
 }
@@ -443,6 +539,7 @@ async function openWordCard(number, anchor) {
     ? `<div class="wc-note">${esc(analysis.sandhi)}</div>`
     : "";
   const grammar = `<div class="wc-gram"><span class="wc-gram-main">${esc(analysis.morph || "")}</span><br><span class="wc-gram-stem">stem: <span lang="sa-Latn">${esc(analysis.stem || "")}</span></span><br><span class="wc-gram-affix">formation: ${esc(analysis.affix || "")}</span>${compound ? `<br>${compound}` : ""}</div>${sandhi}`;
+  const derivations = parallelDerivationBlocks(analysis, `${parts}${root}${grammar}`);
   const definition = `<div class="wc-mean vsn-card-definition">${esc(simpleExcerpt(name))}</div>`;
   const detail = detailFor(name);
   const explanationAction = detail
@@ -453,7 +550,7 @@ async function openWordCard(number, anchor) {
   WORD_CARD = document.createElement("div");
   WORD_CARD.className = "wcard vsn-wcard";
   WORD_CARD.setAttribute("role", "tooltip");
-  WORD_CARD.innerHTML = `<div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${definition}${parts}${root}${grammar}${explanationAction}`;
+  WORD_CARD.innerHTML = `<div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${definition}${derivations}${explanationAction}`;
   document.body.append(WORD_CARD);
   const showDetail = WORD_CARD.querySelector(".vsn-show-detail");
   if (showDetail) showDetail.addEventListener("click", async () => {

@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "expected_ids": [
+    "cm-vs-fn-p043-n02",
+    "cm-vs-fn-p107-n02",
+    "cm-vs-fn-p111-n02"
+  ],
+  "rows": {
+    "cm-vs-fn-p043-n02": {
+      "blocks": [
+        {
+          "type": "sanskrit-quote",
+          "id": "name-85-paragraph-2-span-0",
+          "devanagari": "सुष्ठु राति ददाति इति सुरः",
+          "source_iast": "suṣṭhu rāti dadāti iti suraḥ",
+          "iast": "suṣṭhu rāti dadāti iti suraḥ",
+          "source_segments": [
+            {
+              "text": "सुष्ठु ",
+              "word_indices": [0]
+            },
+            {
+              "text": "राति ",
+              "word_indices": [1]
+            },
+            {
+              "text": "ददाति ",
+              "word_indices": [2]
+            },
+            {
+              "text": "इति ",
+              "word_indices": [3]
+            },
+            {
+              "text": "सुरः",
+              "word_indices": [4]
+            }
+          ],
+          "english": "well, he bestows, he gives; thus [he is] a sura",
+          "english_slots": "{0:well}, {1:he bestows}, {2:he gives}; {3:thus} {4:[he is] a sura}",
+          "english_source": "site-literal-translation",
+          "words": [
+            {
+              "i": 0,
+              "iast": "suṣṭhu",
+              "deva": "सुष्ठु",
+              "gloss": "well; thoroughly",
+              "parts": [
+                {
+                  "form": "suṣṭhu",
+                  "gloss": "well; thoroughly"
+                }
+              ],
+              "stem": "suṣṭhu",
+              "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+              "morph": "indeclinable adverb (avyaya)"
+            },
+            {
+              "i": 1,
+              "iast": "rāti",
+              "deva": "राति",
+              "gloss": "he bestows",
+              "parts": [
+                {
+                  "form": "√rā",
+                  "gloss": "give; bestow"
+                },
+                {
+                  "form": "laṭ + tip",
+                  "gloss": "present indicative, third-person singular"
+                }
+              ],
+              "stem": "rā",
+              "root": "√rā",
+              "rootGloss": "to give; bestow",
+              "affix": "laṭ + tip (prathamapuruṣa ekavacana, parasmaipada)",
+              "morph": "present indicative third-person singular parasmaipada verb",
+              "note": "adādi (2), parasmaipada; Dhātupāṭha 02.0052: रा दाने"
+            },
+            {
+              "i": 2,
+              "iast": "dadāti",
+              "deva": "ददाति",
+              "gloss": "he gives",
+              "parts": [
+                {
+                  "form": "√dā",
+                  "gloss": "give"
+                },
+                {
+                  "form": "reduplicated present stem dadā-",
+                  "gloss": "gives"
+                },
+                {
+                  "form": "tip",
+                  "gloss": "third-person singular parasmaipada ending"
+                }
+              ],
+              "stem": "dadā-",
+              "root": "√dā",
+              "rootGloss": "to give",
+              "affix": "laṭ + tip (prathamapuruṣa ekavacana, parasmaipada)",
+              "morph": "present indicative third-person singular parasmaipada verb",
+              "note": "juhotyādi (3), ubhayapada; Dhātupāṭha 03.0010: डुदाञ् दाने"
+            },
+            {
+              "i": 3,
+              "iast": "iti",
+              "deva": "इति",
+              "gloss": "thus",
+              "parts": [
+                {
+                  "form": "iti",
+                  "gloss": "thus; so"
+                }
+              ],
+              "stem": "iti",
+              "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+              "morph": "indeclinable quotative particle (avyaya)"
+            },
+            {
+              "i": 4,
+              "iast": "suraḥ",
+              "deva": "सुरः",
+              "gloss": "a sura; a god",
+              "parts": [
+                {
+                  "form": "sura",
+                  "gloss": "sura; god"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular ending"
+                }
+              ],
+              "stem": "sura",
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine noun"
+            }
+          ],
+          "word_analysis_status": "primary-grammar-reviewed",
+          "printed_loci": [
+            "Chinmayananda printed derivational formula under name 85"
+          ],
+          "canonical_locus": "Printed derivational formula in Chinmayananda; no separate primary-text locus is asserted",
+          "textual_notes": [
+            "The scan's spaced सु ष्ठु is normalized to the single witnessed adverb सुष्ठु (suṣṭhu), as confirmed by the payload-correction review.",
+            "The formula supplies a traditional semantic explanation of suraḥ; the card does not convert that explanation into an unattested formal derivation of the noun."
+          ],
+          "source_paragraph_index": 2
+        }
+      ]
+    },
+    "cm-vs-fn-p107-n02": {
+      "blocks": [
+        {
+          "type": "sanskrit-quote",
+          "id": "cm-vs-fn-p107-n02-quote",
+          "devanagari": "संसारचक्रमज कोऽतितरेत् त्वदन्यः",
+          "source_iast": "saṃsāracakram aja ko 'titaret tvadanyaḥ",
+          "iast": "saṃsāracakram aja ko 'titaret tvadanyaḥ",
+          "source_segments": [
+            {
+              "text": "संसारचक्रमज ",
+              "word_indices": [0, 1]
+            },
+            {
+              "text": "कोऽतितरेत् ",
+              "word_indices": [2, 3]
+            },
+            {
+              "text": "त्वदन्यः",
+              "word_indices": [4]
+            }
+          ],
+          "english": "Who is there other than You that can save us from the wheel of births and deaths?",
+          "english_slots": "{1,2:Who} {4:is there other than You} {3:that can save us} {0:from the wheel of births and deaths?}",
+          "english_source": "Swami Chinmayananda",
+          "words": [
+            {
+              "i": 0,
+              "iast": "saṃsāracakram",
+              "deva": "संसारचक्रम्",
+              "gloss": "the wheel of saṃsāra",
+              "parts": [
+                {
+                  "form": "saṃsāra",
+                  "gloss": "the cycle of transmigration"
+                },
+                {
+                  "form": "cakra",
+                  "gloss": "wheel; cycle"
+                },
+                {
+                  "form": "am",
+                  "gloss": "accusative singular ending"
+                }
+              ],
+              "stem": "saṃsāracakra",
+              "affix": "am (dvitīyā ekavacana)",
+              "morph": "accusative singular neuter ṣaṣṭhī-tatpuruṣa compound, object of atitaret"
+            },
+            {
+              "i": 1,
+              "iast": "aja",
+              "deva": "अज",
+              "gloss": "O unborn one",
+              "parts": [
+                {
+                  "form": "a-",
+                  "gloss": "not"
+                },
+                {
+                  "form": "ja",
+                  "gloss": "born"
+                }
+              ],
+              "stem": "aja",
+              "affix": "su (sambodhana ekavacana), with the regular zero vocative ending of an a-stem",
+              "morph": "vocative singular masculine adjective used substantivally"
+            },
+            {
+              "i": 2,
+              "iast": "kaḥ",
+              "deva": "कः",
+              "gloss": "who?",
+              "parts": [
+                {
+                  "form": "kim",
+                  "gloss": "who?; what?"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular ending"
+                }
+              ],
+              "stem": "kim",
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine interrogative pronoun; visarga becomes o before the following a"
+            },
+            {
+              "i": 3,
+              "iast": "atitaret",
+              "deva": "अतितरेत्",
+              "gloss": "could cross beyond; could deliver across",
+              "parts": [
+                {
+                  "form": "ati-",
+                  "gloss": "across; beyond"
+                },
+                {
+                  "form": "√tṝ",
+                  "gloss": "cross; carry across"
+                },
+                {
+                  "form": "vidhiliṅ + tip",
+                  "gloss": "potential third-person singular ending"
+                }
+              ],
+              "stem": "ati-tṝ",
+              "root": "√tṝ",
+              "rootGloss": "to cross over; carry across",
+              "affix": "vidhiliṅ + tip (prathamapuruṣa ekavacana, parasmaipada)",
+              "morph": "potential/optative third-person singular parasmaipada verb",
+              "note": "bhvādi (1), parasmaipada; Dhātupāṭha 01.1124: तॄ प्लवनतरणयोः"
+            },
+            {
+              "i": 4,
+              "iast": "tvadanyaḥ",
+              "deva": "त्वदन्यः",
+              "gloss": "another than you",
+              "parts": [
+                {
+                  "form": "tvad",
+                  "gloss": "than you"
+                },
+                {
+                  "form": "anya",
+                  "gloss": "other; another"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular ending"
+                }
+              ],
+              "stem": "tvad-anya",
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine pañcamī-tatpuruṣa compound"
+            }
+          ],
+          "word_analysis_status": "primary-grammar-reviewed",
+          "printed_loci": [
+            "Chinmayananda footnote under name 337, printed attribution: Viṣṇubhāgavata 7.9.6"
+          ],
+          "canonical_locus": "Viṣṇubhāgavata 7.9.6 (printed attribution in Chinmayananda; not independently re-collated against a separate local Bhāgavata witness)",
+          "textual_notes": [
+            "The Sanskrit is restored from the scan-checked footnote-payload correction; the earlier public payload had substituted Chinmayananda's English rendering for the printed Sanskrit.",
+            "Chinmayananda's printed English is preserved verbatim. Its free rendering omits the explicit vocative aja and renders atitaret contextually as ‘can save us’."
+          ],
+          "source_paragraph_index": 1
+        }
+      ]
+    },
+    "cm-vs-fn-p111-n02": {
+      "blocks": [
+        {
+          "type": "sanskrit-quote",
+          "id": "name-355-paragraph-2-span-0",
+          "devanagari": "न त्वत्समोऽस्त्यभ्यधिकः कुतोऽन्यो लोकत्रयेऽप्यप्रतिमप्रभाव",
+          "source_iast": "na tvatsamo 'sty abhyadhikaḥ kuto 'nyo lokatraye 'py apratimaprabhāva",
+          "iast": "na tvatsamo 'sty abhyadhikaḥ kuto 'nyo lokatraye 'py apratimaprabhāva",
+          "source_segments": [
+            {
+              "text": "न ",
+              "word_indices": [0]
+            },
+            {
+              "text": "त्वत्समोऽस्त्यभ्यधिकः ",
+              "word_indices": [1, 2, 3]
+            },
+            {
+              "text": "कुतोऽन्यो ",
+              "word_indices": [4, 5]
+            },
+            {
+              "text": "लोकत्रयेऽप्यप्रतिमप्रभाव",
+              "word_indices": [6, 7, 8]
+            }
+          ],
+          "english": "For Thy equal exists not, where is another superior to Thee in the three worlds?",
+          "english_slots": "{0,1,2:For Thy equal exists not}, {4,5,3:where is another superior to Thee} {6,7,8:in the three worlds?}",
+          "english_source": "Swami Chinmayananda",
+          "words": [
+            {
+              "i": 0,
+              "iast": "na",
+              "deva": "न",
+              "gloss": "not",
+              "parts": [
+                {
+                  "form": "na",
+                  "gloss": "not"
+                }
+              ],
+              "stem": "na",
+              "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+              "morph": "indeclinable negative particle (avyaya)"
+            },
+            {
+              "i": 1,
+              "iast": "tvatsamaḥ",
+              "deva": "त्वत्समः",
+              "gloss": "equal to you",
+              "parts": [
+                {
+                  "form": "tvad",
+                  "gloss": "you; to you"
+                },
+                {
+                  "form": "sama",
+                  "gloss": "equal"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular ending"
+                }
+              ],
+              "stem": "tvad-sama",
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine tatpuruṣa compound adjective; visarga becomes o before asti"
+            },
+            {
+              "i": 2,
+              "iast": "asti",
+              "deva": "अस्ति",
+              "gloss": "exists; is",
+              "parts": [
+                {
+                  "form": "√as",
+                  "gloss": "be; exist"
+                },
+                {
+                  "form": "laṭ + tip",
+                  "gloss": "present indicative, third-person singular"
+                }
+              ],
+              "stem": "as",
+              "root": "√as",
+              "rootGloss": "to be; exist",
+              "affix": "laṭ + tip (prathamapuruṣa ekavacana, parasmaipada)",
+              "morph": "present indicative third-person singular parasmaipada verb",
+              "note": "adādi (2), parasmaipada; Dhātupāṭha 02.0060: असँ भुवि"
+            },
+            {
+              "i": 3,
+              "iast": "abhyadhikaḥ",
+              "deva": "अभ्यधिकः",
+              "gloss": "superior; surpassing",
+              "parts": [
+                {
+                  "form": "abhi-",
+                  "gloss": "beyond; exceeding"
+                },
+                {
+                  "form": "adhika",
+                  "gloss": "greater; superior"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular ending"
+                }
+              ],
+              "stem": "abhyadhika",
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine adjective"
+            },
+            {
+              "i": 4,
+              "iast": "kutaḥ",
+              "deva": "कुतः",
+              "gloss": "whence?; how then?",
+              "parts": [
+                {
+                  "form": "kim",
+                  "gloss": "what?; where?"
+                },
+                {
+                  "form": "tasil",
+                  "gloss": "ablatival adverb-forming suffix"
+                }
+              ],
+              "stem": "kutas",
+              "affix": "tasil (ablatival adverb-forming suffix)",
+              "morph": "indeclinable interrogative adverb (avyaya); visarga becomes o before anyaḥ"
+            },
+            {
+              "i": 5,
+              "iast": "anyaḥ",
+              "deva": "अन्यः",
+              "gloss": "another",
+              "parts": [
+                {
+                  "form": "anya",
+                  "gloss": "other; another"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular ending"
+                }
+              ],
+              "stem": "anya",
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine adjective used substantivally"
+            },
+            {
+              "i": 6,
+              "iast": "lokatraye",
+              "deva": "लोकत्रये",
+              "gloss": "in the three worlds",
+              "parts": [
+                {
+                  "form": "loka",
+                  "gloss": "world"
+                },
+                {
+                  "form": "traya",
+                  "gloss": "triad; three"
+                },
+                {
+                  "form": "ṅi",
+                  "gloss": "locative singular ending"
+                }
+              ],
+              "stem": "lokatraya",
+              "affix": "ṅi (saptamī ekavacana)",
+              "morph": "locative singular neuter dvigu compound"
+            },
+            {
+              "i": 7,
+              "iast": "api",
+              "deva": "अपि",
+              "gloss": "even; also",
+              "parts": [
+                {
+                  "form": "api",
+                  "gloss": "even; also"
+                }
+              ],
+              "stem": "api",
+              "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+              "morph": "indeclinable particle (avyaya); initial a is elided after lokatraye"
+            },
+            {
+              "i": 8,
+              "iast": "apratimaprabhāva",
+              "deva": "अप्रतिमप्रभाव",
+              "gloss": "O one of matchless power",
+              "parts": [
+                {
+                  "form": "a-",
+                  "gloss": "without; not"
+                },
+                {
+                  "form": "pratima",
+                  "gloss": "equal; match"
+                },
+                {
+                  "form": "prabhāva",
+                  "gloss": "power; majesty"
+                }
+              ],
+              "stem": "apratimaprabhāva",
+              "affix": "su (sambodhana ekavacana), with the regular zero vocative ending of an a-stem",
+              "morph": "vocative singular masculine bahuvrīhi epithet: ‘O one whose power has no equal’"
+            }
+          ],
+          "word_analysis_status": "primary-grammar-reviewed",
+          "printed_loci": [
+            "Chinmayananda footnote under name 355",
+            "Gītā 11.43"
+          ],
+          "canonical_locus": "Bhagavad Gītā 11.43; local BORI-aligned witness data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+          "textual_notes": [
+            "The scan-backed correction repairs the earlier OCR कृतोऽन्यो to कुतोऽन्यो.",
+            "The scan prints final अप्रतिमप्रभावः, while the local Gītā witness has the grammatically required vocative अप्रतिमप्रभाव; the public canonical layer follows the primary witness and preserves the scan reading here.",
+            "Chinmayananda's printed English is preserved verbatim. It does not separately render the final vocative epithet."
+          ],
+          "source_paragraph_index": 2
+        }
+      ]
+    }
+  }
+}

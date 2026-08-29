@@ -1,0 +1,676 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "expected_ids": [
+    "cm-vs-fn-p114-n03",
+    "cm-vs-fn-p141-n03",
+    "cm-vs-fn-p150-n01"
+  ],
+  "rows": {
+    "cm-vs-fn-p114-n03": {
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "“नैनत् देवाः आप्नुवन् पूर्वमर्षत् ।” —Isa. St. 4.",
+          "sanskrit_quote_iast": "nainad devā āpnuvan pūrvam arṣat.",
+          "display_devanagari": "नैनत् देवाः आप्नुवन् पूर्वमर्षत्",
+          "display_words": [
+            {
+              "i": 0,
+              "iast": "na",
+              "deva": "न",
+              "gloss": "not",
+              "parts": [
+                {
+                  "form": "na",
+                  "gloss": "not"
+                }
+              ],
+              "stem": "na",
+              "affix": "avyaya; no inflection",
+              "morph": "indeclinable negative particle"
+            },
+            {
+              "i": 1,
+              "iast": "enat",
+              "deva": "एनत्",
+              "gloss": "it",
+              "parts": [
+                {
+                  "form": "enat",
+                  "gloss": "it, this (enclitic pronominal form)"
+                }
+              ],
+              "stem": "idam (Vedic enclitic alternant enat)",
+              "affix": "am (dvitīyā ekavacana), in the Vedic neuter pronominal form enat",
+              "morph": "accusative singular neuter demonstrative pronoun"
+            },
+            {
+              "i": 2,
+              "iast": "devāḥ",
+              "deva": "देवाः",
+              "gloss": "the gods",
+              "parts": [
+                {
+                  "form": "deva",
+                  "gloss": "god; luminous power"
+                },
+                {
+                  "form": "jas",
+                  "gloss": "nominative plural marker"
+                }
+              ],
+              "stem": "deva",
+              "affix": "jas (prathamā bahuvacana)",
+              "morph": "nominative plural masculine noun; subject of āpnuvan"
+            },
+            {
+              "i": 3,
+              "iast": "āpnuvan",
+              "deva": "आप्नुवन्",
+              "gloss": "they reached or overtook",
+              "parts": [
+                {
+                  "form": "a-",
+                  "gloss": "past-tense augment, coalesced with the root-initial ā"
+                },
+                {
+                  "form": "√āp",
+                  "gloss": "reach; obtain; pervade"
+                },
+                {
+                  "form": "nu",
+                  "gloss": "class-5 present-system marker"
+                },
+                {
+                  "form": "jhi",
+                  "gloss": "third-person plural active ending, realized as -an"
+                }
+              ],
+              "stem": "āpnu",
+              "root": "√āp",
+              "rootGloss": "to reach; obtain; pervade",
+              "affix": "laṅ + jhi (prathamapuruṣa bahuvacana), with nu (svādi vikaraṇa)",
+              "morph": "Vedic imperfect, third person plural, parasmaipada",
+              "note": "Dhātupāṭha 05.0016: आपॢँ व्याप्तौ."
+            },
+            {
+              "i": 4,
+              "iast": "pūrvam",
+              "deva": "पूर्वम्",
+              "gloss": "before; earlier",
+              "parts": [
+                {
+                  "form": "pūrva",
+                  "gloss": "prior; earlier"
+                },
+                {
+                  "form": "am",
+                  "gloss": "accusative singular neuter marker used adverbially"
+                }
+              ],
+              "stem": "pūrva",
+              "affix": "am (dvitīyā ekavacana)",
+              "morph": "accusative singular neuter used adverbially"
+            },
+            {
+              "i": 5,
+              "iast": "arṣat",
+              "deva": "अर्षत्",
+              "gloss": "it went",
+              "parts": [
+                {
+                  "form": "a-",
+                  "gloss": "past-tense augment"
+                },
+                {
+                  "form": "√ṛṣ",
+                  "gloss": "go"
+                },
+                {
+                  "form": "a",
+                  "gloss": "class-6 present-system marker"
+                },
+                {
+                  "form": "tip",
+                  "gloss": "third-person singular active ending, realized as -t"
+                }
+              ],
+              "stem": "ṛṣ",
+              "root": "√ṛṣ",
+              "rootGloss": "to go",
+              "affix": "laṅ + tip (prathamapuruṣa ekavacana), with a (tudādi vikaraṇa)",
+              "morph": "Vedic imperfect, third person singular, parasmaipada",
+              "note": "Dhātupāṭha 06.0007: ऋषीँ गतौ."
+            }
+          ],
+          "display_source_segments": [
+            {
+              "text": "नैनत्",
+              "word_indices": [
+                0,
+                1
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "देवाः",
+              "word_indices": [
+                2
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "आप्नुवन्",
+              "word_indices": [
+                3
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "पूर्वमर्षत्",
+              "word_indices": [
+                4,
+                5
+              ]
+            }
+          ],
+          "display_before": "",
+          "display_after": "",
+          "display_citation": "Īśa 4",
+          "display_policy": "normalized-devanagari-from-reviewed-word-records"
+        }
+      ]
+    },
+    "cm-vs-fn-p141-n03": {
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "“कपिर्वराह इन्द्रश्च वराहवपुरास्थितः ।”",
+          "sanskrit_quote_iast": "kapir varāha indraś ca varāhavapur āsthitaḥ.",
+          "display_devanagari": "कपिर्वराह इन्द्रश्च वराहवपुरास्थितः",
+          "display_words": [
+            {
+              "i": 0,
+              "iast": "kapiḥ",
+              "deva": "कपिः",
+              "gloss": "kapi, here identified with the Boar",
+              "parts": [
+                {
+                  "form": "kapi",
+                  "gloss": "kapi; here, the Boar incarnation"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular marker"
+                }
+              ],
+              "stem": "kapi",
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine noun; final visarga becomes r before varāha"
+            },
+            {
+              "i": 1,
+              "iast": "varāhaḥ",
+              "deva": "वराहः",
+              "gloss": "the Boar",
+              "parts": [
+                {
+                  "form": "varāha",
+                  "gloss": "boar; the Boar incarnation"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular marker"
+                }
+              ],
+              "stem": "varāha",
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine noun in apposition; visarga is lost before indra"
+            },
+            {
+              "i": 2,
+              "iast": "indraḥ",
+              "deva": "इन्द्रः",
+              "gloss": "Indra",
+              "parts": [
+                {
+                  "form": "indra",
+                  "gloss": "Indra"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular marker"
+                }
+              ],
+              "stem": "indra",
+              "affix": "su (prathamā ekavacana)",
+              "morph": "nominative singular masculine proper noun; visarga becomes ś before ca"
+            },
+            {
+              "i": 3,
+              "iast": "ca",
+              "deva": "च",
+              "gloss": "and",
+              "parts": [
+                {
+                  "form": "ca",
+                  "gloss": "and"
+                }
+              ],
+              "stem": "ca",
+              "affix": "avyaya; no inflection",
+              "morph": "indeclinable coordinating particle"
+            },
+            {
+              "i": 4,
+              "iast": "varāha-vapuḥ",
+              "deva": "वराहवपुः",
+              "gloss": "the body or form of a boar",
+              "parts": [
+                {
+                  "form": "varāha",
+                  "gloss": "boar"
+                },
+                {
+                  "form": "vapus",
+                  "gloss": "body; form"
+                },
+                {
+                  "form": "am",
+                  "gloss": "accusative singular neuter marker, realized in the s-stem form vapuḥ"
+                }
+              ],
+              "stem": "varāha-vapus",
+              "affix": "am (dvitīyā ekavacana; neuter s-stem surface vapuḥ)",
+              "morph": "accusative singular neuter ṣaṣṭhī-tatpuruṣa, object of āsthitaḥ",
+              "compound": {
+                "type": "ṣaṣṭhī-tatpuruṣa",
+                "vigraha": "varāhasya vapuḥ",
+                "members": [
+                  "varāha",
+                  "vapus"
+                ]
+              }
+            },
+            {
+              "i": 5,
+              "iast": "āsthitaḥ",
+              "deva": "आस्थितः",
+              "gloss": "having assumed; having entered into",
+              "parts": [
+                {
+                  "form": "ā-",
+                  "gloss": "onto; into; toward"
+                },
+                {
+                  "form": "√sthā",
+                  "gloss": "stand; take one's position"
+                },
+                {
+                  "form": "kta",
+                  "gloss": "past passive participle suffix"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular marker"
+                }
+              ],
+              "stem": "āsthita",
+              "root": "√sthā",
+              "rootGloss": "to stand; remain",
+              "affix": "kta (past passive participle) + su (prathamā ekavacana)",
+              "morph": "nominative singular masculine past passive participle, governing varāha-vapuḥ",
+              "note": "Dhātupāṭha 01.1077: ष्ठा गतिनिवृत्तौ."
+            }
+          ],
+          "display_source_segments": [
+            {
+              "text": "कपिर्",
+              "word_indices": [
+                0
+              ]
+            },
+            {
+              "text": "वराह",
+              "word_indices": [
+                1
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "इन्द्रश्",
+              "word_indices": [
+                2
+              ]
+            },
+            {
+              "text": "च",
+              "word_indices": [
+                3
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "वराहवपुरास्थितः",
+              "word_indices": [
+                4,
+                5
+              ]
+            }
+          ],
+          "display_before": "",
+          "display_after": "",
+          "display_citation": "",
+          "display_policy": "normalized-devanagari-from-reviewed-word-records"
+        }
+      ]
+    },
+    "cm-vs-fn-p150-n01": {
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "“ज्ञानप्रसादेन विशुद्धसत्त्वस्ततस्तु तं पश्यते निष्कलं ध्यायमानः ।” (Jnaanaprasaadena visuddhasattvastatastu tam pasyate nishkalam dhyaayamaanah.) “When the understanding becomes calm and refined, then in meditation one realises Him, the Absolute.” —Mundaka Ch. III—1-8.",
+          "sanskrit_quote_iast": "jñānaprasādena viśuddhasattvas tatastu taṃ paśyate niṣkalaṃ dhyāyamānaḥ.",
+          "display_devanagari": "ज्ञानप्रसादेन विशुद्धसत्त्वस्ततस्तु तं पश्यते निष्कलं ध्यायमानः",
+          "display_words": [
+            {
+              "i": 0,
+              "iast": "jñāna-prasādena",
+              "deva": "ज्ञानप्रसादेन",
+              "gloss": "through the clarity of understanding",
+              "parts": [
+                {
+                  "form": "jñāna",
+                  "gloss": "knowledge; understanding"
+                },
+                {
+                  "form": "prasāda",
+                  "gloss": "clarity; serenity"
+                },
+                {
+                  "form": "ṭā",
+                  "gloss": "by; through (instrumental singular marker, realized as -ena)"
+                }
+              ],
+              "stem": "jñāna-prasāda",
+              "affix": "ṭā (tṛtīyā ekavacana)",
+              "morph": "instrumental singular masculine ṣaṣṭhī-tatpuruṣa; instrumental of means",
+              "compound": {
+                "type": "ṣaṣṭhī-tatpuruṣa",
+                "vigraha": "jñānasya prasādena",
+                "members": [
+                  "jñāna",
+                  "prasāda"
+                ]
+              }
+            },
+            {
+              "i": 1,
+              "iast": "viśuddha-sattvaḥ",
+              "deva": "विशुद्धसत्त्वः",
+              "gloss": "one whose inner being is purified",
+              "parts": [
+                {
+                  "form": "vi-",
+                  "gloss": "thoroughly; apart from impurity"
+                },
+                {
+                  "form": "√śudh",
+                  "gloss": "become pure"
+                },
+                {
+                  "form": "kta",
+                  "gloss": "purified (past passive participle suffix)"
+                },
+                {
+                  "form": "sattva",
+                  "gloss": "inner being; mind"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular marker"
+                }
+              ],
+              "stem": "viśuddha-sattva",
+              "root": "√śudh",
+              "rootGloss": "to become pure",
+              "affix": "kta in viśuddha + su (prathamā ekavacana)",
+              "morph": "nominative singular masculine bahuvrīhi; subject of paśyate",
+              "compound": {
+                "type": "bahuvrīhi",
+                "vigraha": "viśuddhaṃ sattvaṃ yasya saḥ",
+                "members": [
+                  "viśuddha",
+                  "sattva"
+                ]
+              },
+              "note": "Dhātupāṭha 04.0088: शुधँ शौचे."
+            },
+            {
+              "i": 2,
+              "iast": "tataḥ",
+              "deva": "ततः",
+              "gloss": "then; from that",
+              "parts": [
+                {
+                  "form": "tad",
+                  "gloss": "that"
+                },
+                {
+                  "form": "tasil",
+                  "gloss": "from that; thence; then"
+                }
+              ],
+              "stem": "tad",
+              "affix": "tasil (ablatival adverb-forming taddhita)",
+              "morph": "indeclinable ablatival adverb; visarga becomes s before tu"
+            },
+            {
+              "i": 3,
+              "iast": "tu",
+              "deva": "तु",
+              "gloss": "then indeed; but",
+              "parts": [
+                {
+                  "form": "tu",
+                  "gloss": "but; indeed; then"
+                }
+              ],
+              "stem": "tu",
+              "affix": "avyaya; no inflection",
+              "morph": "indeclinable contrastive or emphatic particle"
+            },
+            {
+              "i": 4,
+              "iast": "tam",
+              "deva": "तम्",
+              "gloss": "him",
+              "parts": [
+                {
+                  "form": "tad",
+                  "gloss": "that; he"
+                },
+                {
+                  "form": "am",
+                  "gloss": "accusative singular marker"
+                }
+              ],
+              "stem": "tad",
+              "affix": "am (dvitīyā ekavacana)",
+              "morph": "accusative singular masculine demonstrative pronoun; object of paśyate"
+            },
+            {
+              "i": 5,
+              "iast": "paśyate",
+              "deva": "पश्यते",
+              "gloss": "he sees",
+              "parts": [
+                {
+                  "form": "√dṛś",
+                  "gloss": "see; behold"
+                },
+                {
+                  "form": "paśya",
+                  "gloss": "present stem prescribed for √dṛś"
+                },
+                {
+                  "form": "ta",
+                  "gloss": "third-person singular middle ending, realized as -te"
+                }
+              ],
+              "stem": "paśya",
+              "root": "√dṛś",
+              "rootGloss": "to see; behold",
+              "affix": "laṭ + ta (prathamapuruṣa ekavacana, ātmanepada)",
+              "morph": "Vedic present indicative, third person singular, ātmanepada",
+              "note": "Dhātupāṭha 01.1143: दृशिँर् प्रेक्षणे; paśya replaces the root before the present-system ending under Aṣṭādhyāyī 7.3.78."
+            },
+            {
+              "i": 6,
+              "iast": "niṣkalam",
+              "deva": "निष्कलम्",
+              "gloss": "the partless, undivided one",
+              "parts": [
+                {
+                  "form": "nis-/niṣ-",
+                  "gloss": "without; free from"
+                },
+                {
+                  "form": "kalā",
+                  "gloss": "part; division"
+                },
+                {
+                  "form": "am",
+                  "gloss": "accusative singular marker"
+                }
+              ],
+              "stem": "niṣkala",
+              "affix": "am (dvitīyā ekavacana)",
+              "morph": "accusative singular masculine adjective agreeing with tam"
+            },
+            {
+              "i": 7,
+              "iast": "dhyāyamānaḥ",
+              "deva": "ध्यायमानः",
+              "gloss": "meditating",
+              "parts": [
+                {
+                  "form": "√dhyai",
+                  "gloss": "contemplate; meditate"
+                },
+                {
+                  "form": "śap",
+                  "gloss": "class-1 present-system marker, yielding dhyāya"
+                },
+                {
+                  "form": "śānac",
+                  "gloss": "present middle participle suffix, realized as -māna"
+                },
+                {
+                  "form": "su",
+                  "gloss": "nominative singular marker"
+                }
+              ],
+              "stem": "dhyāyamāna",
+              "root": "√dhyai",
+              "rootGloss": "to contemplate; meditate",
+              "affix": "śānac (present middle participle) + su (prathamā ekavacana)",
+              "morph": "nominative singular masculine present middle participle; modifies the subject",
+              "note": "Dhātupāṭha 01.1056: ध्यै चिन्तायाम्; the cited Vedic passage has the middle participial formation."
+            }
+          ],
+          "display_source_segments": [
+            {
+              "text": "ज्ञानप्रसादेन",
+              "word_indices": [
+                0
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "विशुद्धसत्त्वस्",
+              "word_indices": [
+                1
+              ]
+            },
+            {
+              "text": "ततस्",
+              "word_indices": [
+                2
+              ]
+            },
+            {
+              "text": "तु",
+              "word_indices": [
+                3
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "तं",
+              "word_indices": [
+                4
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "पश्यते",
+              "word_indices": [
+                5
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "निष्कलं",
+              "word_indices": [
+                6
+              ]
+            },
+            {
+              "text": " ",
+              "word_indices": []
+            },
+            {
+              "text": "ध्यायमानः",
+              "word_indices": [
+                7
+              ]
+            }
+          ],
+          "display_before": "",
+          "display_after": "“When the understanding becomes calm and refined, then in meditation one realises Him, the Absolute.”",
+          "display_citation": "Muṇḍaka Upaniṣad III.1.8",
+          "display_policy": "normalized-devanagari-from-reviewed-word-records"
+        }
+      ]
+    }
+  }
+}

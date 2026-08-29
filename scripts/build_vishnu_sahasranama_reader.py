@@ -28,6 +28,8 @@ from indic_transliteration.sanscript import transliterate
 
 from chinmayananda_sanskrit_blocks import promote_non_gita_blocks
 from chinmayananda_inline_sanskrit import ASCII_ACCEPTED_IDS, ASCII_STRUCTURED_IDS, promote_inline_blocks
+from validate_chinmayananda_derivation_reviews import alternatives_by_name
+from validate_chinmayananda_footnote_apparatus import merged_footnotes
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -41,6 +43,26 @@ PREFACE_COMMENTARY_PATH = ROOT / "gita/vishnu-sahasranama/preface-commentary.jso
 PREFACE_WITNESS_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_performance_preface.json"
 PREFACE_ANALYSIS_PATH = ROOT / "gita/vishnu-sahasranama/preface-analysis.json"
 TIMINGS_PATH = ROOT / "gita/vishnu-sahasranama/timings.json"
+FOOTNOTE_PUBLIC_OVERRIDE_PATHS = tuple(
+    ROOT / f"internal/sanskrit_reviews/fn-override-part{index}.json"
+    for index in range(1, 6)
+)
+FOOTNOTE_PUBLIC_OVERRIDE_IDS = {
+    "cm-vs-fn-p020-n01",
+    "cm-vs-fn-p043-n02", "cm-vs-fn-p107-n02", "cm-vs-fn-p111-n02",
+    "cm-vs-fn-p114-n03", "cm-vs-fn-p141-n03", "cm-vs-fn-p150-n01",
+    "cm-vs-fn-p150-n02", "cm-vs-fn-p199-n01", "cm-vs-fn-p202-n02",
+    "cm-vs-fn-p215-n01", "cm-vs-fn-p227-n01",
+}
+FOOTNOTE_OVERRIDE_REPLACED_ASCII_IDS = {
+    "name-1-paragraph-1-ascii-0", "name-1-paragraph-1-ascii-1",
+    "name-1-paragraph-1-ascii-2",
+    "name-545-paragraph-1-ascii-0", "name-545-paragraph-2-ascii-0",
+    "name-545-paragraph-2-ascii-1", "name-770-paragraph-1-ascii-0",
+    "name-779-paragraph-3-ascii-0", "name-779-paragraph-3-ascii-1",
+    "name-779-paragraph-3-ascii-2", "name-779-paragraph-3-ascii-3",
+    "name-888-paragraph-2-ascii-0",
+}
 OUTPUT_PATH = ROOT / "gita/vishnu-sahasranama/reader.json"
 WEB_CORE_PATH = ROOT / "gita/vishnu-sahasranama/reader-core.json"
 WEB_DETAILS_PATH = ROOT / "gita/vishnu-sahasranama/reader-details.json"
@@ -617,6 +639,231 @@ def lexical_phrase_range(text: str, phrase: str) -> tuple[int, int] | None:
     return source_start, source_end
 
 
+def lexical_phrase_ranges(text: str, phrase: str) -> list[tuple[int, int]]:
+    """Return every normalized phrase occurrence with exact source offsets."""
+    target = english_source_key(phrase)
+    if not target:
+        return []
+    normalized = []
+    source_indices = []
+    for index, char in enumerate(text):
+        folded = unicodedata.normalize("NFKD", char).encode("ascii", "ignore").decode().lower()
+        for item in folded:
+            if item.isalnum():
+                normalized.append(item)
+                source_indices.append(index)
+    joined = "".join(normalized)
+    result = []
+    cursor = 0
+    while True:
+        start = joined.find(target, cursor)
+        if start < 0:
+            break
+        source_start = source_indices[start]
+        source_end = source_indices[start + len(target) - 1] + 1
+        while source_start > 0 and text[source_start - 1] in "\"'“‘":
+            source_start -= 1
+        while source_end < len(text) and text[source_end] in "\"'”’":
+            source_end += 1
+        result.append((source_start, source_end))
+        cursor = start + len(target)
+    return result
+
+
+def split_prose_block(block: dict, offset: int) -> tuple[dict | None, dict | None]:
+    text = block.get("text", "")
+    before_text = text[:offset].rstrip()
+    raw_after = text[offset:]
+    after_trim = len(raw_after) - len(raw_after.lstrip())
+    after_text = raw_after.lstrip()
+    existing_calls = list(block.get("footnote_calls", []))
+    before = {
+        key: value for key, value in block.items()
+        if key not in {"text", "inline_sanskrit", "footnote_calls"}
+    }
+    after = dict(before)
+    before["text"] = before_text
+    after["text"] = after_text
+    before_annotations = []
+    after_annotations = []
+    for annotation in block.get("inline_sanskrit", []):
+        if int(annotation["end"]) <= offset:
+            before_annotations.append(annotation)
+        elif int(annotation["start"]) >= offset:
+            value = dict(annotation)
+            value["start"] = int(value["start"]) - offset - after_trim
+            value["end"] = int(value["end"]) - offset - after_trim
+            after_annotations.append(value)
+        else:
+            raise ValueError(
+                f"footnote anchor splits Sanskrit annotation {annotation.get('id')}"
+            )
+    if before_annotations:
+        before["inline_sanskrit"] = before_annotations
+    if after_annotations:
+        after["inline_sanskrit"] = after_annotations
+    if existing_calls:
+        (after if after_text else before)["footnote_calls"] = existing_calls
+    return (
+        before if re.search(r"[A-Za-z\u0900-\u097f]", before_text) else None,
+        after if re.search(r"[A-Za-z\u0900-\u097f]", after_text) else None,
+    )
+
+
+def apply_footnote_apparatus(by_number: dict[int, dict], footnotes: list[dict]) -> None:
+    """Move every page-bottom note from its OCR paragraph to its printed call."""
+    public_overrides = {}
+    for path in FOOTNOTE_PUBLIC_OVERRIDE_PATHS:
+        override_data = json.loads(path.read_text(encoding="utf-8"))
+        if override_data.get("schema_version") != 1 or override_data.get("review_status") != "complete":
+            raise ValueError(f"{path.name}: footnote public payload override review is incomplete")
+        if set(override_data.get("rows", {})) != set(override_data.get("expected_ids", [])):
+            raise ValueError(f"{path.name}: public payload rows differ from expected_ids")
+        overlap = set(public_overrides) & set(override_data["rows"])
+        if overlap:
+            raise ValueError(f"duplicate footnote public payload overrides: {sorted(overlap)}")
+        public_overrides.update(override_data["rows"])
+    if set(public_overrides) != FOOTNOTE_PUBLIC_OVERRIDE_IDS:
+        raise ValueError("footnote public payload override population must be exactly 12 corrected notes")
+    payloads = {}
+    for footnote in footnotes:
+        block_ids = footnote["current_containment"]["block_ids"]
+        locations = []
+        for block_id in block_ids:
+            match = re.fullmatch(r"name-(\d+)-paragraph-(\d+)", block_id)
+            if not match:
+                raise ValueError(f"invalid footnote containment block id {block_id}")
+            locations.append(tuple(map(int, match.groups())))
+        source_numbers = {number for number, _index in locations}
+        if len(source_numbers) != 1:
+            raise ValueError(f"footnote {footnote['id']} payload spans multiple names")
+        source_number = next(iter(source_numbers))
+        paragraph_indices = {index for _number, index in locations}
+        quote_ids = set(footnote["current_containment"].get("quote_ids", []))
+        blocks = by_number[source_number]["chinmayananda"]["blocks"]
+        source_payload = [
+            block for block in blocks
+            if block.get("source_paragraph_index") in paragraph_indices
+            or block.get("id") in quote_ids
+        ]
+        payload = source_payload
+        if not source_payload:
+            source_note = footnote.get("note_text_normalized", "").strip()
+            if len(source_note) <= 160 and not re.search(r"[\u0900-\u097f]", source_note):
+                payload = [{
+                    "type": "source-note",
+                    "text": source_note,
+                    "source_paragraph_indices": sorted(paragraph_indices),
+                }]
+            else:
+                raise ValueError(f"footnote {footnote['id']} has no rendered payload blocks")
+        if footnote["id"] in public_overrides:
+            payload = public_overrides[footnote["id"]]["blocks"]
+        payload_prose_key = english_source_key(" ".join(
+            block.get("text", "") for block in payload if block.get("type") == "prose"
+        ))
+        for block in payload:
+            english_key = english_source_key(block.get("english", ""))
+            if (
+                block.get("type") in ("gita-quote", "sanskrit-quote")
+                and block.get("english_source") == "Swami Chinmayananda"
+                and english_key
+                and english_key not in payload_prose_key
+            ):
+                block["display_english"] = True
+        payloads[footnote["id"]] = payload
+        by_number[source_number]["chinmayananda"]["blocks"] = [
+            block for block in blocks if block not in source_payload
+        ]
+
+    for footnote in footnotes:
+        number = int(footnote["owner_name_number"])
+        note = {
+            "type": "footnote",
+            "id": footnote["id"],
+            "marker": footnote["marker_printed"],
+            "pdf_page": footnote["pdf_page"],
+            "printed_page": footnote["printed_page"],
+            "blocks": payloads[footnote["id"]],
+            "additional_name_numbers": footnote.get("additional_name_numbers", []),
+        }
+        if footnote.get("anchor_scope") == "root-text":
+            call_number = int(footnote["root_call_name_number"])
+            by_number[call_number].setdefault("root_footnote_calls", []).append({
+                "id": footnote["id"],
+                "marker": footnote["marker_printed"],
+            })
+            note["additional_name_numbers"] = sorted({
+                number,
+                *(int(value) for value in footnote.get("additional_name_numbers", [])),
+            } - {call_number})
+            by_number[call_number]["chinmayananda"]["blocks"].insert(0, note)
+            continue
+        blocks = by_number[number]["chinmayananda"]["blocks"]
+        anchor = footnote["anchor_text_normalized"]
+        matches = []
+        for index, block in enumerate(blocks):
+            if block.get("type") != "prose":
+                continue
+            for start, end in lexical_phrase_ranges(block.get("text", ""), anchor):
+                matches.append((index, start, end))
+        occurrence = int(footnote.get("anchor_occurrence", 0))
+        if occurrence >= len(matches):
+            raise ValueError(
+                f"footnote {footnote['id']} anchor occurrence {occurrence} missing from name {number}"
+            )
+        block_index, _start, end = matches[occurrence]
+        text = blocks[block_index].get("text", "")
+        open_parens = text[:end].count("(") - text[:end].count(")")
+        while open_parens > 0 and end < len(text):
+            if text[end] == "(":
+                open_parens += 1
+            elif text[end] == ")":
+                open_parens -= 1
+            end += 1
+        while end < len(text) and text[end] in "\"'”’)]}.,;:":
+            end += 1
+        before, after = split_prose_block(blocks[block_index], end)
+        if not before:
+            raise ValueError(f"footnote {footnote['id']} has no prose before its call")
+        before.setdefault("footnote_calls", []).append({
+            "id": footnote["id"],
+            "marker": footnote["marker_printed"],
+        })
+        blocks[block_index:block_index + 1] = [before, note] + ([after] if after else [])
+
+    # Scan review p.227 showed that this sentence continuation belongs to name
+    # 887's body, not to the following name's footnote. Keep the source
+    # transcription untouched, but repair the public block boundary.
+    blocks_887 = by_number[887]["chinmayananda"]["blocks"]
+    residue = next((block for block in blocks_887 if block.get("text") == "worldly and heavenly."), None)
+    body = next((block for block in blocks_887 if block.get("source_paragraph_index") == 0), None)
+    if not residue or not body:
+        raise ValueError("reviewed p.227 name-887 continuation is missing")
+    body_text = re.sub(r"forms\.$", "forms,", body["text"].rstrip())
+    body["text"] = f"{body_text} worldly and heavenly."
+    blocks_887.remove(residue)
+
+    for item in by_number.values():
+        blocks = item.get("chinmayananda", {}).get("blocks", [])
+        index = 0
+        while index < len(blocks):
+            block = blocks[index]
+            if block.get("type") != "prose" or not block.get("footnote_calls"):
+                index += 1
+                continue
+            end = index + 1
+            while end < len(blocks) and blocks[end].get("type") == "footnote":
+                end += 1
+            if end == index + 1:
+                index = end
+                continue
+            order = {call["id"]: position for position, call in enumerate(block["footnote_calls"])}
+            reordered = sorted(blocks[index + 1:end], key=lambda note: order.get(note.get("id"), len(order)))
+            blocks[index + 1:end] = reordered
+            index = end
+
+
 def quote_word_for_reader(word: dict, index: int) -> dict:
     result = {
         "i": index, "iast": word["iast"], "deva": word["deva"],
@@ -885,6 +1132,7 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
     boundaries, all_names = parse_word_split(word_split)
     commentary = load_commentary(commentary_path)
     analyses = load_analysis(analysis_path)
+    parallel_derivations = alternatives_by_name()
     quote_registry = json.loads(COMMENTARY_QUOTES_PATH.read_text(encoding="utf-8"))
     reviewed_quotes = load_reviewed_quotes()
     if quote_registry["source_commentary"]["sha256"] != commentary_quote_source_sha256(commentary):
@@ -909,6 +1157,8 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
         item["cite"] = f"cite://chinmayananda/thousand-ways-to-the-transcendental/name/{number}"
         analysis = analyses.get(number)
         if analysis:
+            analysis = dict(analysis)
+            analysis["parallel_derivations"] = parallel_derivations.get(number, [])
             item["citation_iast"] = analysis["citation_iast"]
             item["deva"] = analysis["citation_devanagari"]
             item["word_analysis"] = analysis
@@ -948,6 +1198,8 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
             if derivation and comparison_key(derivation) != comparison_key(item["meaning"]):
                 item["traditional_derivation"] = derivation
                 item["analysis_status"] = "chinmayananda-derivation-present"
+
+    apply_footnote_apparatus(by_number, merged_footnotes())
 
     for index, stanza in enumerate(stanzas):
         stanza["critical_edition"] = bori[index]
@@ -1053,6 +1305,14 @@ def unannotated_sanskrit(text: str, annotations: list[dict]) -> bool:
     return any(INLINE_IAST_MARK_RE.search(match.group()) for match in INLINE_IAST_TOKEN_RE.finditer(value))
 
 
+def walk_commentary_blocks(blocks: list[dict]):
+    """Yield top-level commentary blocks and the contents of attached notes."""
+    for block in blocks:
+        yield block
+        if block.get("type") == "footnote":
+            yield from walk_commentary_blocks(block.get("blocks", []))
+
+
 def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bool = True) -> dict:
     errors = []
     commentary_source = {}
@@ -1106,8 +1366,12 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
     quote_blocks = []
     non_gita_quote_blocks = []
     normalized_display_quotes = []
+    parallel_derivation_ids = []
+    names_with_parallel_derivations = set()
     inline_sanskrit_occurrences = 0
     ascii_inline_ids = []
+    footnote_blocks = []
+    footnote_call_ids = []
     if len(stanzas) != 107:
         errors.append(f"expected 107 stanzas, found {len(stanzas)}")
     if [item.get("number") for item in names] != list(range(1, 1001)):
@@ -1119,6 +1383,9 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
             errors.append(f"stanza {stanza.get('number')} lacks BORI loci")
     for item in names:
         number = item.get("number")
+        for call in item.get("root_footnote_calls", []):
+            if call.get("id"):
+                footnote_call_ids.append(call["id"])
         if not item.get("citation_iast") or not item.get("deva") or not item.get("deva_surface"):
             errors.append(f"name {number} lacks citation forms")
         if require_commentary:
@@ -1163,6 +1430,19 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                 derivation = analysis.get("derivation")
                 if derivation and comparison_key(derivation) == comparison_key(meaning):
                     errors.append(f"name {number} derivation merely repeats its English meaning")
+                parallel = analysis.get("parallel_derivations", [])
+                if parallel:
+                    names_with_parallel_derivations.add(number)
+                for alternative in parallel:
+                    parallel_derivation_ids.append(alternative.get("id"))
+                    for field in (
+                        "id", "label", "kind", "meaning", "parts", "formation",
+                        "morphology", "qualification", "evidence",
+                    ):
+                        if alternative.get(field) in (None, "", [], {}):
+                            errors.append(f"name {number} parallel derivation lacks {field}")
+                    if alternative.get("kind") not in {"grammatical", "traditional-nirvacana"}:
+                        errors.append(f"name {number} parallel derivation has invalid kind")
             if source and not source.get("scan_pages"):
                 errors.append(f"name {number} lacks scan-page provenance")
             if source and "detail" not in source:
@@ -1170,7 +1450,18 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
             blocks = source.get("blocks", []) if source else []
             if source and not blocks:
                 errors.append(f"name {number} lacks structured commentary blocks")
-            for block in blocks:
+            if number == 887 and any(block.get("text") == "worldly and heavenly." for block in blocks):
+                errors.append("name 887 retains the reviewed detached p.227 sentence fragment")
+            all_blocks = list(walk_commentary_blocks(blocks))
+            for block in all_blocks:
+                for call in block.get("footnote_calls", []):
+                    if call.get("id"):
+                        footnote_call_ids.append(call["id"])
+                if block.get("type") == "footnote":
+                    footnote_blocks.append(block)
+                    if not block.get("id") or not block.get("marker") or not block.get("blocks"):
+                        errors.append(f"name {number} has an incomplete footnote block")
+                    continue
                 if block.get("type") == "prose":
                     annotations = block.get("inline_sanskrit", [])
                     inline_sanskrit_occurrences += len(annotations)
@@ -1178,9 +1469,9 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                         annotation.get("id") for annotation in annotations
                         if annotation.get("id") in ASCII_ACCEPTED_IDS
                     )
-                    if unannotated_sanskrit(block.get("text", ""), annotations):
+                    if not block.get("display_devanagari") and unannotated_sanskrit(block.get("text", ""), annotations):
                         errors.append(f"name {number} prose retains unannotated Sanskrit")
-                    if PROSE_FORMAT_DAMAGE_RE.search(block.get("text", "")):
+                    if not block.get("footnote_calls") and PROSE_FORMAT_DAMAGE_RE.search(block.get("text", "")):
                         errors.append(f"name {number} prose retains an empty quotation/citation shell")
                     if block.get("text", "").count("(") != block.get("text", "").count(")"):
                         errors.append(f"name {number} prose retains unmatched parentheses")
@@ -1233,6 +1524,8 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                     if english:
                         if block.get("english_source") not in ("Swami Chinmayananda", "site-literal-translation"):
                             errors.append(f"name {number} quote {block.get('id')} lacks translation provenance")
+                        if block.get("display_english") and block.get("english_source") != "Swami Chinmayananda":
+                            errors.append(f"name {number} quote {block.get('id')} exposes non-author English")
                         allowed_placements = {
                             "chinmayananda-translation-position",
                             "printed-romanization-position",
@@ -1243,6 +1536,7 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                         if (
                             block.get("type") == "gita-quote"
                             and block.get("english_source") == "Swami Chinmayananda"
+                            and not block.get("display_english")
                             and block.get("placement_basis") != "chinmayananda-translation-position"
                         ):
                             errors.append(f"name {number} quote {block.get('id')} is not placed at Chinmayananda's English")
@@ -1276,12 +1570,13 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                         if source_indices != set(range(len(words))):
                             errors.append(f"name {number} quote {block.get('id')} source segments do not cover every word")
             visible_prose_key = english_source_key(" ".join(
-                block.get("text", "") for block in blocks if block.get("type") == "prose"
+                block.get("text", "") for block in all_blocks if block.get("type") == "prose"
             ))
-            for block in blocks:
+            for block in all_blocks:
                 if (
                     block.get("type") in ("gita-quote", "sanskrit-quote")
                     and block.get("english_source") == "Swami Chinmayananda"
+                    and not block.get("display_english")
                     and english_source_key(block.get("english", "")) not in visible_prose_key
                 ):
                     errors.append(f"name {number} quote {block.get('id')} drops Chinmayananda's English from prose")
@@ -1301,14 +1596,37 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
     if require_commentary and (len(quote_ids) != 142 or len(quote_ids) != len(set(quote_ids))):
         raise ValueError(f"structured Gītā quotation population is not exactly 142 unique blocks: {len(quote_ids)}")
     non_gita_ids = [block.get("id") for block in non_gita_quote_blocks]
-    if require_commentary and (len(non_gita_ids) != 54 or len(non_gita_ids) != len(set(non_gita_ids))):
-        raise ValueError(f"structured non-Gītā quotation population is not exactly 54 unique blocks: {len(non_gita_ids)}")
-    if require_commentary and len(normalized_display_quotes) != 100:
+    if require_commentary and (len(non_gita_ids) != 59 or len(non_gita_ids) != len(set(non_gita_ids))):
+        raise ValueError(f"structured non-Gītā quotation population is not exactly 59 unique blocks: {len(non_gita_ids)}")
+    if require_commentary and len(normalized_display_quotes) != 99:
         raise ValueError(
-            "normalized standalone Sanskrit quotation population is not exactly 100: "
+            "normalized standalone Sanskrit quotation population is not exactly 99: "
             f"{len(normalized_display_quotes)}"
         )
-    expected_ascii_inline = ASCII_ACCEPTED_IDS - ASCII_STRUCTURED_IDS
+    if require_commentary and (
+        len(parallel_derivation_ids) != 92
+        or len(set(parallel_derivation_ids)) != 92
+        or len(names_with_parallel_derivations) != 81
+    ):
+        raise ValueError(
+            "parallel derivation population differs: "
+            f"records={len(parallel_derivation_ids)} unique={len(set(parallel_derivation_ids))} "
+            f"names={len(names_with_parallel_derivations)}"
+        )
+    footnote_ids = [block.get("id") for block in footnote_blocks]
+    if require_commentary and (
+        len(footnote_ids) != 328
+        or len(set(footnote_ids)) != 328
+        or sorted(footnote_ids) != sorted(footnote_call_ids)
+    ):
+        raise ValueError(
+            "printed footnote apparatus differs: "
+            f"notes={len(footnote_ids)} unique={len(set(footnote_ids))} "
+            f"calls={len(footnote_call_ids)} unique_calls={len(set(footnote_call_ids))}"
+        )
+    expected_ascii_inline = (
+        ASCII_ACCEPTED_IDS - ASCII_STRUCTURED_IDS - FOOTNOTE_OVERRIDE_REPLACED_ASCII_IDS
+    )
     if require_commentary:
         if len(ascii_inline_ids) != len(set(ascii_inline_ids)):
             raise ValueError("reviewed ASCII Sanskrit occurrence ids are duplicated in rendered prose")
@@ -1331,6 +1649,10 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
         "structured_gita_quotes": len(quote_blocks),
         "structured_non_gita_quotes": len(non_gita_quote_blocks),
         "normalized_standalone_sanskrit_quotes": len(normalized_display_quotes),
+        "public_parallel_derivations": len(parallel_derivation_ids),
+        "names_with_parallel_derivations": len(names_with_parallel_derivations),
+        "printed_footnotes": len(footnote_ids),
+        "printed_footnote_calls": len(footnote_call_ids),
         "interactive_inline_sanskrit_occurrences": inline_sanskrit_occurrences,
         "reviewed_ascii_sanskrit_occurrences": len(ASCII_ACCEPTED_IDS),
         "interactive_ascii_sanskrit_in_prose": len(ascii_inline_ids),

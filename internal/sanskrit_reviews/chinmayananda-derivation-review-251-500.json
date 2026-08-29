@@ -1,0 +1,3564 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "range": [
+    251,
+    500
+  ],
+  "expected_ids": [
+    "name-0253-derivation-claim",
+    "name-0255-derivation-claim",
+    "name-0256-derivation-claim",
+    "name-0259-derivation-claim",
+    "name-0269-derivation-claim",
+    "name-0270-derivation-claim",
+    "name-0273-derivation-claim",
+    "name-0279-derivation-claim",
+    "name-0280-derivation-claim",
+    "name-0286-derivation-claim",
+    "name-0292-derivation-claim",
+    "name-0293-derivation-claim",
+    "name-0295-derivation-claim",
+    "name-0303-derivation-claim",
+    "name-0305-derivation-claim",
+    "name-0308-derivation-claim",
+    "name-0310-derivation-claim",
+    "name-0312-derivation-claim",
+    "name-0313-derivation-claim",
+    "name-0317-derivation-claim",
+    "name-0319-derivation-claim",
+    "name-0320-derivation-claim",
+    "name-0321-derivation-claim",
+    "name-0327-derivation-claim",
+    "name-0330-derivation-claim",
+    "name-0332-derivation-claim",
+    "name-0343-derivation-claim",
+    "name-0346-derivation-claim",
+    "name-0349-derivation-claim",
+    "name-0350-derivation-claim",
+    "name-0352-derivation-claim",
+    "name-0356-derivation-claim",
+    "name-0358-derivation-claim",
+    "name-0359-derivation-claim",
+    "name-0361-derivation-claim",
+    "name-0363-derivation-claim",
+    "name-0364-derivation-claim",
+    "name-0367-derivation-claim",
+    "name-0371-derivation-claim",
+    "name-0372-derivation-claim",
+    "name-0373-derivation-claim",
+    "name-0375-derivation-claim",
+    "name-0377-derivation-claim",
+    "name-0379-derivation-claim",
+    "name-0381-derivation-claim",
+    "name-0384-derivation-claim",
+    "name-0386-derivation-claim",
+    "name-0394-derivation-claim",
+    "name-0398-derivation-claim",
+    "name-0403-derivation-claim",
+    "name-0408-derivation-claim",
+    "name-0411-derivation-claim",
+    "name-0415-derivation-claim",
+    "name-0416-derivation-claim",
+    "name-0418-derivation-claim",
+    "name-0419-derivation-claim",
+    "name-0426-derivation-claim",
+    "name-0427-derivation-claim",
+    "name-0429-derivation-claim",
+    "name-0431-derivation-claim",
+    "name-0435-derivation-claim",
+    "name-0438-derivation-claim",
+    "name-0449-derivation-claim",
+    "name-0450-derivation-claim",
+    "name-0457-derivation-claim",
+    "name-0459-derivation-claim",
+    "name-0462-derivation-claim",
+    "name-0464-derivation-claim",
+    "name-0467-derivation-claim",
+    "name-0470-derivation-claim",
+    "name-0473-derivation-claim",
+    "name-0474-derivation-claim",
+    "name-0483-derivation-claim",
+    "name-0485-derivation-claim",
+    "name-0486-derivation-claim",
+    "name-0487-derivation-claim",
+    "name-0488-derivation-claim",
+    "name-0490-derivation-claim",
+    "name-0497-derivation-claim",
+    "name-0500-derivation-claim"
+  ],
+  "rows": {
+    "name-0253-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "saṅkalpa means \"intellectual willing and wishing\".",
+          "classification": "established-grammar",
+          "reason": "Saṅkalpa is attested as a mental act; ‘intellectual willing and wishing’ is a defensible but broader gloss.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 253; scan pp. 85",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 773",
+              "detail": "सङ्कल्पः कर्म मानसम्."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 164",
+              "detail": "Independent repetition."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed siddhasaṅkalpaḥ (सिद्धसङ्कल्पः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0255-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Siddhi ordinarily means fulfilment.",
+          "classification": "established-grammar",
+          "reason": "Siddhi denotes accomplishment.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 255; scan pp. 85, 86",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 866",
+              "detail": "Sādhana bears means/instrument senses."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 471",
+              "detail": "Siddhi is accomplishment/prosperity."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Here siddhi means all efforts.",
+          "classification": "unsupported-withheld",
+          "reason": "Witnesses put means/effort under sādhana, not siddhi.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 255; scan pp. 85, 86",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 866",
+              "detail": "Sādhana bears means/instrument senses."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 471",
+              "detail": "Siddhi is accomplishment/prosperity."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Worship of Nārāyaṇa is sādhana for siddhi.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Devotional application, not derivation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 255; scan pp. 85, 86",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed siddhisādhanaḥ (सिद्धिसाधनः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0256-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "Subjectively, vṛṣa means the residual 'results' gathered in the personality after each devoted and dedicated act of offering, during all Self-less services (yajñas). Therefore, vṛṣāhī means \"One who is a controller of all actions and the dispenser of all results\", in all individual, conscious, intelligent creatures.",
+          "classification": "unsupported-withheld",
+          "reason": "No paired witness establishes vṛṣāhī as yajña residue, karmic results, or their dispenser; a missing lineage source may exist.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 256; scan pp. 86",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed vṛṣāhī (वृषाही) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0259-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Vṛṣa means dharma.",
+          "classification": "established-grammar",
+          "reason": "Directly attested.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 259; scan pp. 86",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 125",
+              "detail": "धर्मः पुण्यं वृषः श्रेयः."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 154",
+              "detail": "Independent vṛṣa/dharma equation."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Parvan means ladder/flight of steps; hence parvata.",
+          "classification": "unsupported-withheld",
+          "reason": "Strictly disagrees with joint/knot/occasion evidence; no parvata derivation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 259; scan pp. 86",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "lines 2380, 2501",
+              "detail": "Parvan is joint/occasion/interval, not ladder."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 189",
+              "detail": "Parvan is grouped with granthi."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed vṛṣaparva (वृषपर्व) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0269-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Vasu means wealth and, therefore, vasudaḥ means One who enriches all, both in their outer prosperity and in their inner well-being.",
+          "classification": "established-grammar",
+          "reason": "Vasu ‘wealth’ + da ‘giver’ yields giver of wealth; outer/inner enrichment is interpretive.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 269; scan pp. 89",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 80",
+              "detail": "धनं हिरण्यं च वसु."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/lexica/halayudha.json",
+              "locus": "raw text near line 14788",
+              "detail": "Paired raw verse."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1079",
+              "detail": "दाण् दाने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1079",
+              "detail": "Paired raw record confirms दाण् दाने."
+            }
+          ],
+          "public_derivation": {
+            "id": "vasuda-wealth-giver",
+            "label": "Vasu-da: giver of wealth",
+            "kind": "grammatical",
+            "meaning": "giver of wealth",
+            "parts": [
+              {
+                "form": "vasu",
+                "gloss": "wealth"
+              },
+              {
+                "form": "√dā + ka",
+                "gloss": "giver"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√dā",
+                "gana": "bhvādi (1)",
+                "pada": "parasmaipada",
+                "gloss": "to give",
+                "dhatupatha": {
+                  "locus": "01.1079",
+                  "aupadeshika_devanagari": "दाण्",
+                  "artha_sanskrit": "दाने"
+                }
+              }
+            ],
+            "formation": "vasu as object + √dā + ka under A 3.2.3.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Outer/inner enrichment is interpretive.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 269; scan pp. 89",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+                "locus": "v. 80",
+                "detail": "धनं हिरण्यं च वसु."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/lexica/halayudha.json",
+                "locus": "raw text near line 14788",
+                "detail": "Paired raw verse."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "01.1079",
+                "detail": "दाण् दाने in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 01.1079",
+                "detail": "Paired raw record confirms दाण् दाने."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "locus": "3.2.3",
+                "detail": "आतोऽनुपसर्गे कः."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed vasudaḥ (वसुदः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0270-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Vasu: one who lives in all beings.",
+          "classification": "established-grammar",
+          "reason": "Direct √vas sense.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 270; scan pp. 89",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1160",
+              "detail": "वसँ निवासे in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1160",
+              "detail": "Paired raw record confirms वसँ निवासे."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Vasu: one who causes beings to dwell (vāsayati).",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Causative is grounded; noun equation is traditional.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 270; scan pp. 89",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1160",
+              "detail": "वसँ निवासे in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1160",
+              "detail": "Paired raw record confirms वसँ निवासे."
+            }
+          ],
+          "public_derivation": {
+            "id": "vasu-vasayati",
+            "label": "Vāsayati-iti Vasu",
+            "kind": "traditional-nirvacana",
+            "meaning": "one who causes beings to dwell",
+            "parts": [
+              {
+                "form": "√vas",
+                "gloss": "dwell"
+              },
+              {
+                "form": "ṇic",
+                "gloss": "cause to dwell"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√vas",
+                "gana": "bhvādi (1)",
+                "pada": "parasmaipada",
+                "gloss": "to dwell",
+                "dhatupatha": {
+                  "locus": "01.1160",
+                  "aupadeshika_devanagari": "वसँ",
+                  "artha_sanskrit": "निवासे"
+                }
+              }
+            ],
+            "formation": "Traditional vāsayati iti explanation.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Not historical morphology; parallel to direct √vas.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 270; scan pp. 89",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "01.1160",
+                "detail": "वसँ निवासे in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 01.1160",
+                "detail": "Paired raw record confirms वसँ निवासे."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed vasuḥ (वसुः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0273-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The root Si (शि) has also the meaning of waters; Sipi—'that which drinks water'—\"The rays of the Sun\".",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The water/ray explanation is not a Dhātupāṭha derivation of śi, but it is an independently attested traditional nirvacana in the Śaṅkara commentary stream. Nirukta 5.7–5.8 separately secures śipi as rays and ā-√viś as being entered by them.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 273; scan pp. 90",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+              "locus": "Nirukta 5.7–5.8",
+              "detail": "शिपयोऽत्र रश्मय उच्यन्ते । तैराविष्टो भवति — śipi are rays; he is entered/pervaded by them."
+            },
+            {
+              "source": "https://estudantedavedanta.net/Vishnu_Sahasra_Nama_Swami_Tapasyananda.pdf",
+              "locus": "Śaṅkara commentary, name 273 śipiviṣṭaḥ",
+              "detail": "Attests the śi-water, śipi-rays-that-drink/preserve-water, and viṣṭa-entered traditional explanation."
+            }
+          ],
+          "public_derivation": {
+            "id": "shipivishta-water-ray-nirvacana",
+            "label": "Present in the water-drinking sun-rays",
+            "kind": "traditional-nirvacana",
+            "meaning": "Viṣṇu present in the solar rays that draw up and preserve water",
+            "parts": [
+              {
+                "form": "śi",
+                "gloss": "water, in this traditional nirvacana"
+              },
+              {
+                "form": "śipi",
+                "gloss": "solar rays said to drink and preserve water"
+              },
+              {
+                "form": "viṣṭa",
+                "gloss": "entered into; present within"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√viś",
+                "gana": "tudādi (6)",
+                "pada": "parasmaipada",
+                "gloss": "to enter; pervade",
+                "dhatupatha": {
+                  "locus": "06.0160",
+                  "aupadeshika_devanagari": "विशँ",
+                  "artha_sanskrit": "प्रवेशने"
+                }
+              }
+            ],
+            "formation": "Traditional śi → śipi water/ray nirvacana joined to viṣṭa from ā-√viś; Nirukta independently attests the rays/entered analysis.",
+            "morphology": "Traditional semantic analysis of the nominal epithet śipiviṣṭaḥ; nominative singular masculine.",
+            "qualification": "The water sense is tradition-specific and does not replace the primary rays + entered grammatical analysis.",
+            "evidence": [
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+                "locus": "5.7–5.8",
+                "detail": "Attests śipi as rays and Viṣṇu as entered/pervaded by them."
+              },
+              {
+                "source": "https://estudantedavedanta.net/Vishnu_Sahasra_Nama_Swami_Tapasyananda.pdf",
+                "locus": "name 273",
+                "detail": "Śaṅkara commentary stream attests the water-drinking ray nirvacana."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "The primary rays + entered grammar and the Śaṅkara-stream water/ray nirvacana are parallel valid readings; the latter is traditional rather than a direct Dhātupāṭha derivation of śi."
+    },
+    "name-0279-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "In Gītā we read: \"One who chants my name Om and leaves his body at the time of death thus remembering Me, he shall go to the Supreme State\" In Sanskrit, kṣara means the \"perishable\" and Akshara means the \"imperishable.\" The world of plurality, the \"perishable\" is no doubt nothing other than the All — Perfect, the Immutable Truth, but due to the imperfections of the instruments-of-perception—body, mind and intellect—the perceiving ego can experience only this world constituted of a plurality—sense objects, emotions and thoughts—The ego peeping through the vehicles can never experience the One co-ordinating Reality, the Divine.",
+          "classification": "interpretive-not-etymology",
+          "reason": "The kṣara/akṣara and perception discussion is theology, not derivation of spaṣṭākṣara.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 279; scan pp. 92",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed spaṣṭākṣaraḥ (स्पष्टाक्षरः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0280-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "Mantra means that which can save us on being properly meditated upon (मननात् त्रायते इति मन्त्रः).",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Mananāt trāyate has witnessed component senses but is traditional semantic explanation, not regular morphology.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 280; scan pp. 92",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "08.0009",
+              "detail": "मनुँ अवबोधने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 08.0009",
+              "detail": "Paired raw record confirms मनुँ अवबोधने."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1120",
+              "detail": "त्रैङ् पालने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1120",
+              "detail": "Paired raw record confirms त्रैङ् पालने."
+            }
+          ],
+          "public_derivation": {
+            "id": "mantra-mananat-trayate",
+            "label": "Mananāt trāyate",
+            "kind": "traditional-nirvacana",
+            "meaning": "that which protects through reflection",
+            "parts": [
+              {
+                "form": "mananāt",
+                "gloss": "through reflection"
+              },
+              {
+                "form": "√trai",
+                "gloss": "protects"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√man",
+                "gana": "tanādi (8)",
+                "pada": "ātmanepada",
+                "gloss": "to understand; think",
+                "dhatupatha": {
+                  "locus": "08.0009",
+                  "aupadeshika_devanagari": "मनुँ",
+                  "artha_sanskrit": "अवबोधने"
+                }
+              },
+              {
+                "form": "√trai",
+                "gana": "bhvādi (1)",
+                "pada": "ātmanepada",
+                "gloss": "to protect",
+                "dhatupatha": {
+                  "locus": "01.1120",
+                  "aupadeshika_devanagari": "त्रैङ्",
+                  "artha_sanskrit": "पालने"
+                }
+              }
+            ],
+            "formation": "Traditional sentence-nirvacana.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Semantic explanation, not regular historical morphology.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 280; scan pp. 92",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "08.0009",
+                "detail": "मनुँ अवबोधने in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 08.0009",
+                "detail": "Paired raw record confirms मनुँ अवबोधने."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "01.1120",
+                "detail": "त्रैङ् पालने in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 01.1120",
+                "detail": "Paired raw record confirms त्रैङ् पालने."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed mantraḥ (मन्त्रः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0286-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Sura means deva; Lord of gods.",
+          "classification": "established-grammar",
+          "reason": "Ordinary surāṇām īśvaraḥ.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 286; scan pp. 94",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Sura as su+ra, giver of plenty.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "√rā supports giver; segmentation is wordplay.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 286; scan pp. 94",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "02.0052",
+              "detail": "रा दाने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 02.0052",
+              "detail": "Paired raw record confirms रा दाने."
+            }
+          ],
+          "public_derivation": {
+            "id": "sura-su-ra",
+            "label": "Su-ra: giver of abundance",
+            "kind": "traditional-nirvacana",
+            "meaning": "giver of the good/abundant",
+            "parts": [
+              {
+                "form": "su",
+                "gloss": "good; abundant"
+              },
+              {
+                "form": "√rā",
+                "gloss": "give"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√rā",
+                "gana": "adādi (2)",
+                "pada": "parasmaipada",
+                "gloss": "to give",
+                "dhatupatha": {
+                  "locus": "02.0052",
+                  "aupadeshika_devanagari": "रा",
+                  "artha_sanskrit": "दाने"
+                }
+              }
+            ],
+            "formation": "Traditional su + rā/ra segmentation.",
+            "morphology": "Embedded in sureśvaraḥ.",
+            "qualification": "Parallel to ordinary surāṇām īśvaraḥ.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 286; scan pp. 94",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "02.0052",
+                "detail": "रा दाने in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 02.0052",
+                "detail": "Paired raw record confirms रा दाने."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed sureśvaraḥ (सुरेश्वरः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0292-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Here, the present term \"pāvanaḥ\" means the One who gives this life-sustaining power to the atmospheric air.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Source of wind’s life-power is theological identification, not derivation of pāvana.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 292; scan pp. 95",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed pāvanaḥ (पावनः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0293-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Anala means fire.",
+          "classification": "established-grammar",
+          "reason": "Directly attested.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 293; scan pp. 95, 96",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 62",
+              "detail": "Anala is a fire-name."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 66",
+              "detail": "Independent fire-name attestation."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Ana is prāṇa and la means receive.",
+          "classification": "unsupported-withheld",
+          "reason": "No formation witness.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 293; scan pp. 95, 96",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed analaḥ (अनलः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0295-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "It can also mean as the Very Creator of the Lord of Love—kāma Deva.",
+          "classification": "source-backed-alternative",
+          "reason": "Kāma as a proper-name object yields valid ‘maker of Kāma’ beside ‘maker of desire.’",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 295; scan pp. 96, 97",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "08.0010",
+              "detail": "डुकृञ् करणे in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 08.0010",
+              "detail": "Paired raw record confirms डुकृञ् करणे."
+            }
+          ],
+          "public_derivation": {
+            "id": "kamakrt-maker-of-kama",
+            "label": "Maker of Kāma",
+            "kind": "grammatical",
+            "meaning": "creator of Kāma",
+            "parts": [
+              {
+                "form": "Kāma",
+                "gloss": "god of love"
+              },
+              {
+                "form": "kṛt",
+                "gloss": "maker"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√kṛ",
+                "gana": "tanādi (8)",
+                "pada": "ubhayapada",
+                "gloss": "to make; do",
+                "dhatupatha": {
+                  "locus": "08.0010",
+                  "aupadeshika_devanagari": "डुकृञ्",
+                  "artha_sanskrit": "करणे"
+                }
+              }
+            ],
+            "formation": "kāmaṃ karoti yaḥ saḥ.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Proper-name reading parallel to desire.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 295; scan pp. 96, 97",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "08.0010",
+                "detail": "डुकृञ् करणे in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 08.0010",
+                "detail": "Paired raw record confirms डुकृञ् करणे."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed kāmakṛt (कामकृत्) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0303-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "This word can be dissolved as He who eats up everything.",
+          "classification": "established-grammar",
+          "reason": "Mahāśana is mahā+aśana from √aś, not current śana ‘calm’.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 303; scan pp. 99",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "09.0059",
+              "detail": "अशँ भोजने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 09.0059",
+              "detail": "Paired raw record confirms अशँ भोजने."
+            }
+          ],
+          "public_derivation": {
+            "id": "mahasana-great-eater",
+            "label": "Mahā-aśana",
+            "kind": "grammatical",
+            "meaning": "great eater",
+            "parts": [
+              {
+                "form": "mahā",
+                "gloss": "great"
+              },
+              {
+                "form": "√aś + lyuṭ",
+                "gloss": "eating/eater"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√aś",
+                "gana": "kryādi (9)",
+                "pada": "parasmaipada",
+                "gloss": "to eat",
+                "dhatupatha": {
+                  "locus": "09.0059",
+                  "aupadeshika_devanagari": "अशँ",
+                  "artha_sanskrit": "भोजने"
+                }
+              }
+            ],
+            "formation": "√aś + lyuṭ gives aśana; mahā+aśana.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "‘Everything’ is contextual.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 303; scan pp. 99",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "09.0059",
+                "detail": "अशँ भोजने in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 09.0059",
+                "detail": "Paired raw record confirms अशँ भोजने."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "locus": "3.3.115",
+                "detail": "ल्युट् च."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed mahāśanaḥ (महाशनः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0305-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Here it means that though He is not perceptible with the physical instruments of perceptions, yet on transcending the equipments.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Incomplete contextual claim about transcending sensory equipment; no derivation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 305; scan pp. 99, 100",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed vyaktarūpaḥ (व्यक्तरूपः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0308-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Or, it can also mean: One who is loved by all.",
+          "classification": "established-grammar",
+          "reason": "Iṣṭa is √iṣ+kta, desired/beloved; ‘by all’ is contextual.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 308; scan pp. 100",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "06.0078",
+              "detail": "इषुँ इच्छायाम् in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 06.0078",
+              "detail": "Paired raw record confirms इषुँ इच्छायाम्."
+            }
+          ],
+          "public_derivation": {
+            "id": "ista-beloved",
+            "label": "Iṣṭa: beloved",
+            "kind": "grammatical",
+            "meaning": "desired; beloved",
+            "parts": [
+              {
+                "form": "√iṣ",
+                "gloss": "desire"
+              },
+              {
+                "form": "kta",
+                "gloss": "participle"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√iṣ",
+                "gana": "tudādi (6)",
+                "pada": "parasmaipada",
+                "gloss": "to desire",
+                "dhatupatha": {
+                  "locus": "06.0078",
+                  "aupadeshika_devanagari": "इषुँ",
+                  "artha_sanskrit": "इच्छायाम्"
+                }
+              }
+            ],
+            "formation": "√iṣ + kta > iṣṭa.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "‘By all’ is contextual.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 308; scan pp. 100",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "06.0078",
+                "detail": "इषुँ इच्छायाम् in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 06.0078",
+                "detail": "Paired raw record confirms इषुँ इच्छायाम्."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed iṣṭaḥ (इष्टः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0310-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The Lord is lover of devotees.",
+          "classification": "unsupported-withheld",
+          "reason": "Iṣṭa is passive beloved, not active lover.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 310; scan pp. 101",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "06.0078",
+              "detail": "इषुँ इच्छायाम् in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 06.0078",
+              "detail": "Paired raw record confirms इषुँ इच्छायाम्."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "He is invoked/adored by devotees.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Keeps passive direction; invocation is contextual.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 310; scan pp. 101",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "06.0078",
+              "detail": "इषुँ इच्छायाम् in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 06.0078",
+              "detail": "Paired raw record confirms इषुँ इच्छायाम्."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed śiṣṭeṣṭaḥ (शिष्टेष्टः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0312-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "Nahanam is bondage; nahuṣa familiar with bondages.",
+          "classification": "unsupported-withheld",
+          "reason": "√nah ‘bind’ does not establish the proposed nahuṣa formation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 312; scan pp. 101",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Īśvara conditioned by and controlling māyā.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Doctrine, not derivation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 312; scan pp. 101",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed nahuṣaḥ (नहुषः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0313-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Dharma is essential law.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Philosophical dharma account; vṛṣa=dharma is attested.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 313; scan pp. 101, 102",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 125",
+              "detail": "धर्मः पुण्यं वृषः श्रेयः."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 154",
+              "detail": "Independent vṛṣa/dharma equation."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Vṛṣa showers fulfilled desires.",
+          "classification": "source-backed-alternative",
+          "reason": "√vṛṣ supports showering; object is devotional.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 313; scan pp. 101, 102",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.0803",
+              "detail": "वृषुँ सेचनहिंसासङ्क्लेशनेषु in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.0803",
+              "detail": "Paired raw record confirms वृषुँ सेचनहिंसासङ्क्लेशनेषु."
+            }
+          ],
+          "public_derivation": {
+            "id": "vrsa-showerer",
+            "label": "Vṛṣa as showerer",
+            "kind": "traditional-nirvacana",
+            "meaning": "one who showers blessings",
+            "parts": [
+              {
+                "form": "√vṛṣ",
+                "gloss": "sprinkle; rain"
+              },
+              {
+                "form": "a",
+                "gloss": "nominal ending in the explanation"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√vṛṣ",
+                "gana": "bhvādi (1)",
+                "pada": "parasmaipada",
+                "gloss": "to sprinkle; rain",
+                "dhatupatha": {
+                  "locus": "01.0803",
+                  "aupadeshika_devanagari": "वृषुँ",
+                  "artha_sanskrit": "सेचनहिंसासङ्क्लेशनेषु"
+                }
+              }
+            ],
+            "formation": "Traditional agentive explanation from √vṛṣ.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Desired fruits are devotional scope.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 313; scan pp. 101, 102",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "01.0803",
+                "detail": "वृषुँ सेचनहिंसासङ्क्लेशनेषु in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 01.0803",
+                "detail": "Paired raw record confirms वृषुँ सेचनहिंसासङ्क्लेशनेषु."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed vṛṣaḥ (वृषः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0317-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "Since the term mahī (मही) also means \"the adorations sent up by the devotees,\" it can also mean 'One who receives all the worship of devoted hearts.'",
+          "classification": "unsupported-withheld",
+          "reason": "Mahī is attested as earth, not adorations; alternative needs its missing traditional witness.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 317; scan pp. 102, 103",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed mahīdharaḥ (महीधरः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0319-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "It can also mean \"One whose glory, as described in the Upaniṣads, has spread round the world everywhere.\"",
+          "classification": "established-grammar",
+          "reason": "Prathita is spread/renowned; applying it to Upaniṣadic glory is contextual.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 319; scan pp. 103",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed prathitaḥ (प्रथितः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0320-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "Also it can mean that \"He is the One who in the form of vital-air, sustains life in all creatures.\"",
+          "classification": "established-grammar",
+          "reason": "Prāṇa is life/vital air; divine identification is coherent interpretation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 320; scan pp. 103",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 134",
+              "detail": "असवो जीवितं प्राणा."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "lines 76–77",
+              "detail": "Prāṇa is vital air."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed prāṇaḥ (प्राणः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0321-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The root 'da' has a meaning of destruction and, therefore, the term comprehends also the power of destruction everywhere.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The primary compound is prāṇa + da from √dā ‘give’. A separate Śaṅkara-commentary nirvacana reads prāṇān dyati—he cuts off the breaths—through √do ‘cut/divide’, Dhātupāṭha 04.0043. It is valid as a traditional verbal explanation, not as a replacement for the primary -da formation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 321; scan pp. 103",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1079",
+              "detail": "दाण् दाने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1079",
+              "detail": "Paired raw record confirms दाण् दाने."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "04.0043",
+              "detail": "दो अवखण्डने — √do, to cut or divide."
+            },
+            {
+              "source": "https://bhanapcorner.in/vishnu-sahasranaama/",
+              "locus": "name prāṇadaḥ",
+              "detail": "Transmits the traditional gloss: maraṇasamaye prāṇān dyati khaṇḍayati, do avakhaṇḍane."
+            }
+          ],
+          "public_derivation": {
+            "id": "pranada-breath-taker-nirvacana",
+            "label": "Taker of the life-breaths",
+            "kind": "traditional-nirvacana",
+            "meaning": "the one who cuts off or withdraws the life-breaths at death",
+            "parts": [
+              {
+                "form": "prāṇān",
+                "gloss": "the life-breaths, as object"
+              },
+              {
+                "form": "dyati",
+                "gloss": "cuts, divides"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√do",
+                "gana": "divādi (4)",
+                "pada": "parasmaipada",
+                "gloss": "to cut; divide",
+                "dhatupatha": {
+                  "locus": "04.0043",
+                  "aupadeshika_devanagari": "दो",
+                  "artha_sanskrit": "अवखण्डने"
+                }
+              }
+            ],
+            "formation": "Traditional verbal nirvacana prāṇān dyati, invoking √do ‘cut/divide’; distinct from the grammatical prāṇa + da ‘giver of breath’ compound.",
+            "morphology": "Traditional explanatory sentence attached to the nominative singular epithet prāṇadaḥ.",
+            "qualification": "Source-backed traditional alternative; it does not establish the visible -da member as the ordinary agent noun from √do.",
+            "evidence": [
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "04.0043",
+                "detail": "दो अवखण्डने."
+              },
+              {
+                "source": "https://bhanapcorner.in/vishnu-sahasranaama/",
+                "locus": "name prāṇadaḥ",
+                "detail": "Attests prāṇān dyati as the destructive traditional reading."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "The giver formation from √dā remains primary; the independently transmitted prāṇān dyati explanation through √do is retained in parallel as a traditional nirvacana."
+    },
+    "name-0327-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Therefore, Skanda means \"the Lord, whose glory is expressed, through Subrahmanya\".",
+          "classification": "interpretive-not-etymology",
+          "reason": "Skanda/Subrahmaṇya/Viṣṇu identity is theological, not derivation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 327; scan pp. 105",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed skandaḥ (स्कन्दः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0330-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "It can also mean \"One who gives the best (Varam) in life to those who seek Him with perfect detachment and sharpened discrimination.",
+          "classification": "established-grammar",
+          "reason": "Vara+da supports giver of the best; recipient qualifications are contextual.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 330; scan pp. 105",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1079",
+              "detail": "दाण् दाने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1079",
+              "detail": "Paired raw record confirms दाण् दाने."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed varadaḥ (वरदः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0332-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Vāsu indweller + deva illuminer.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Root senses witnessed; segmentation traditional.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 332; scan pp. 106",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1160",
+              "detail": "वसँ निवासे in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1160",
+              "detail": "Paired raw record confirms वसँ निवासे."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "04.0001",
+              "detail": "दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 04.0001",
+              "detail": "Paired raw record confirms दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Vāsudeva, son of Vasudeva.",
+          "classification": "source-backed-alternative",
+          "reason": "Regular patronymic aṇ/vṛddhi reading.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 332; scan pp. 106",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": {
+            "id": "vasudeva-patronymic",
+            "label": "Vāsudeva, son of Vasudeva",
+            "kind": "grammatical",
+            "meaning": "son/descendant of Vasudeva",
+            "parts": [
+              {
+                "form": "Vasudeva",
+                "gloss": "personal name"
+              },
+              {
+                "form": "aṇ",
+                "gloss": "patronymic suffix causing vṛddhi"
+              }
+            ],
+            "roots": [],
+            "formation": "vasudeva+aṇ under apatyam; vṛddhi gives vāsudeva.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Independent of vāsu+deva.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 332; scan pp. 106",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "locus": "4.1.92",
+                "detail": "तस्यापत्यम्."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed vāsudevaḥ (वासुदेवः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0343-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Sata means \"hundred\", and here it is used as \"innumerable\". Thus the term 'śatāvartaḥ' means \"One who takes infinite varieties of forms\". It can also mean \"One who, as prāṇa, moves in the innumerable Naadees in the body\".",
+          "classification": "interpretive-not-etymology",
+          "reason": "Śata is hundred; innumerability and nāḍī/form applications are contextual.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 343; scan pp. 108, 109",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed śatāvartaḥ (शतावर्तः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0346-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "It therefore means \"one in whose bosom lies, in potential, all the possibilities of the universe of expression.\" It can also mean \"One who manifests Himself in the lotus of the heart of his devotee.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Navel-potential and heart-lotus are theological loci, not rival grammar.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 346; scan pp. 109",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed padma-nābhaḥ (पद्म-नाभः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0349-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Or, it can mean \"One who is the form of food and prāṇa, becomes the very cause for the sustenance of the body\".",
+          "classification": "interpretive-not-etymology",
+          "reason": "Body-sustainer is grammatical; food/prāṇa identity is doctrine.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 349; scan pp. 110",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed śarīrabhṛt (शरीरभृत्) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0350-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "Thus the term means, \"One who has by His very nature glory ever with Him.\"",
+          "classification": "established-grammar",
+          "reason": "Mahā+ṛddhi gives great prosperity/glory; possession by nature is application.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 350; scan pp. 110",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed maharddhiḥ (महर्द्धिः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0352-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "But here, by the term vṛddhātmā, it only means that He was the Self before all creation.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Self before creation is a metaphysical reading of vṛddha ‘ancient’.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 352; scan pp. 110",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed vṛddhātmā (वृद्धात्मा) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0356-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "It can also mean, \"Lord, who is of the nature of Paramesvara,\" for, Lord Siva had once taken the incarnation of Sarabha (शर्भ), a creature with eight legs, capable of killing even the lions.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Śarabha narrative identifies a referent; it does not derive the word, and scan शर्भ is preserved.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 356; scan pp. 111",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed śarabhaḥ (शरभः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0358-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Samaya+jña: knower of doctrines/proper time.",
+          "classification": "established-grammar",
+          "reason": "Both retain plausible samaya+jña.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 358; scan pp. 112",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Sama+yajña: equality as worship.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Alternative segmentation supported by √yaj and quoted maxim.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 358; scan pp. 112",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1157",
+              "detail": "यजँ देवपूजासङ्गतिकरणदानेषु in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1157",
+              "detail": "Paired raw record confirms यजँ देवपूजासङ्गतिकरणदानेषु."
+            }
+          ],
+          "public_derivation": {
+            "id": "samayajna-sama-yajna",
+            "label": "Sama-yajña",
+            "kind": "traditional-nirvacana",
+            "meaning": "equanimity as worship",
+            "parts": [
+              {
+                "form": "sama",
+                "gloss": "equal"
+              },
+              {
+                "form": "yajña",
+                "gloss": "worship"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√yaj",
+                "gana": "bhvādi (1)",
+                "pada": "ubhayapada",
+                "gloss": "to worship; sacrifice",
+                "dhatupatha": {
+                  "locus": "01.1157",
+                  "aupadeshika_devanagari": "यजँ",
+                  "artha_sanskrit": "देवपूजासङ्गतिकरणदानेषु"
+                }
+              }
+            ],
+            "formation": "Alternative segmentation supported by quoted samatvam ārādhanam acyutasya.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Parallel to samaya+jña.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 358; scan pp. 112",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "01.1157",
+                "detail": "यजँ देवपूजासङ्गतिकरणदानेषु in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 01.1157",
+                "detail": "Paired raw record confirms यजँ देवपूजासङ्गतिकरणदानेषु."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed samayajñaḥ (समयज्ञः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0359-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Havis means one invoked in yajña.",
+          "classification": "unsupported-withheld",
+          "reason": "Havis is oblation, not invoked person.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 359; scan pp. 112",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Hari removes vāsanās/sins.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Compatible with √hṛ; devotional object.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 359; scan pp. 112",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed havir-hariḥ (हविर्-हरिः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0361-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "Lakṣmī also means Effulgent, and therefore, the Lord who is Ever-effulgent, meaning the Pure Consciousness, that illumines everything, is indeed lakṣmīvān",
+          "classification": "unsupported-withheld",
+          "reason": "Effulgent is not secured as the Lakṣmī sense deriving lakṣmīvān.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 361; scan pp. 112, 113",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed lakṣmīvān (लक्ष्मीवान्) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0363-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "kṣaraḥ means \"decaying,\" \"that which is perishing\", and so vikṣaraḥ means \"Imperishable\".",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Kṣara ‘flowing away, perishing’ is supported by √kṣar. Reading vi- as privative is an attested traditional play here, not ordinary productive privative morphology, so it must be shown as a qualified nirvacana beside the primary analysis.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 363; scan pp. 113",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "Dhātupāṭha 01.0986",
+              "detail": "क्षरँ सञ्चलने; the paired raw witness glosses the root as flowing, oozing, or dripping."
+            }
+          ],
+          "public_derivation": {
+            "id": "vikshara-imperishable-nirvacana",
+            "label": "free from what flows away or perishes",
+            "kind": "traditional-nirvacana",
+            "meaning": "the imperishable one, from whom decay is absent",
+            "parts": [
+              {"form": "vi-", "gloss": "interpreted traditionally here as apart from or free from"},
+              {"form": "kṣara", "gloss": "flowing away, decaying, perishing"}
+            ],
+            "roots": [
+              {
+                "form": "√kṣar",
+                "gana": "bhvādi (1)",
+                "pada": "parasmaipada",
+                "gloss": "to flow, ooze, or drip",
+                "dhatupatha": {"locus": "01.0986", "aupadeshika_devanagari": "क्षरँ", "artha_sanskrit": "सञ्चलने"}
+              }
+            ],
+            "formation": "traditional vi- + kṣara nirvacana; vi- receives a privative force in this explanation",
+            "morphology": "masculine divine name, nominative singular vikṣaraḥ",
+            "qualification": "The kṣara/√kṣar member is grammatical; the privative force assigned to vi- is a traditional semantic nirvacana, not ordinary productive prefix morphology.",
+            "evidence": [
+              {"source": "Chinmayananda scan", "locus": "name 363, p.113", "detail": "Explains vikṣaraḥ as imperishable through kṣara, ‘perishing.’"},
+              {"source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt", "locus": "Dhātupāṭha 01.0986", "detail": "क्षरँ सञ्चलने."}
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed vikṣaraḥ (विक्षरः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0364-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Rohita means fish.",
+          "classification": "established-grammar",
+          "reason": "Directly attested.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 364; scan pp. 113",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 659",
+              "detail": "Rohita is a fish."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 284",
+              "detail": "Independent fish-name attestation."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Therefore Viṣṇu’s Fish incarnation.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Referential identification.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 364; scan pp. 113",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed rohitaḥ (रोहितः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0367-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Known through dama and purified mind/udara.",
+          "classification": "unsupported-withheld",
+          "reason": "Udara as purified mind is not secured.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 367; scan pp. 114",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Cord around belly.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Coherent narrative dāma+udara.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 367; scan pp. 114",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": {
+            "id": "damodara-cord-belly",
+            "label": "Cord about the belly",
+            "kind": "traditional-nirvacana",
+            "meaning": "one whose belly was bound by a cord",
+            "parts": [
+              {
+                "form": "dāma",
+                "gloss": "cord"
+              },
+              {
+                "form": "udara",
+                "gloss": "belly"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional bahuvrīhi-style narrative explanation.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Parallel traditional reading.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 367; scan pp. 114",
+                "detail": "Exact claim checked in the full commentary block."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "All worlds within belly.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Exact Sanskrit quotation attests distinct reading.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 367; scan pp. 114",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": {
+            "id": "damodara-worlds-in-belly",
+            "label": "Worlds within the belly",
+            "kind": "traditional-nirvacana",
+            "meaning": "one within whose belly worlds abide",
+            "parts": [
+              {
+                "form": "dāmāni",
+                "gloss": "world-names in the quote"
+              },
+              {
+                "form": "udara",
+                "gloss": "interior/belly"
+              }
+            ],
+            "roots": [],
+            "formation": "Source-bound sentence-nirvacana.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Limited to the quoted tradition.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 367; scan pp. 114",
+                "detail": "Exact claim checked in the full commentary block."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed dāmodaraḥ (दामोदरः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0371-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "By import it means that He is All-pervading, therefore, He is the fastest, inasmuch as \"nothing can ever overtake Him.\" In the Īśāvāsyopaniṣad He is indicated as swifter than the mind—(Manasojaveeyah).",
+          "classification": "interpretive-not-etymology",
+          "reason": "All-pervasion implying unsurpassable speed is inference, not formation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 371; scan pp. 114",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed vegavān (वेगवान्) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0372-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "\"Of endless appetite.\" This should not be taken literally, but it only means that the entire world of plurality projected by the mind, merges back when the mind is transcended at the time of the experience of the Self.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Cosmic dissolution reinterprets appetite theologically.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 372; scan pp. 114, 115",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed amitāśanaḥ (अमिताशनः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0373-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "The Lord is the material-cause from which the entire universe arises and, therefore, He is the origin for the Cosmos, or it can mean to indicate, \"One who is again and again born as the endless jivas under the urge of their individual vāsanās\".",
+          "classification": "interpretive-not-etymology",
+          "reason": "Material cause and repeated jīva-birth apply ud-bhava metaphysically.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 373; scan pp. 115",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed udbhavaḥ (उद्भवः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0375-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "This term 'Deevyati' (दीव्यित) in Sanskrit also means 'to conquer', 'to shine' and 'to praise'.",
+          "classification": "established-grammar",
+          "reason": "√div directly attests conquer/shine/praise among its senses.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 375; scan pp. 115",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "04.0001",
+              "detail": "दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 04.0001",
+              "detail": "Paired raw record confirms दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु."
+            }
+          ],
+          "public_derivation": {
+            "id": "deva-from-div",
+            "label": "Deva from √div",
+            "kind": "traditional-nirvacana",
+            "meaning": "one who shines, plays, seeks victory, or is praised",
+            "parts": [
+              {
+                "form": "√div",
+                "gloss": "play; seek victory; shine; praise"
+              },
+              {
+                "form": "a",
+                "gloss": "nominal formation in the explanation"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√div",
+                "gana": "divādi (4)",
+                "pada": "parasmaipada",
+                "gloss": "to play; seek victory; transact; shine; praise",
+                "dhatupatha": {
+                  "locus": "04.0001",
+                  "aupadeshika_devanagari": "दिवुँ",
+                  "artha_sanskrit": "क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु"
+                }
+              }
+            ],
+            "formation": "Traditional connection of deva with √div.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Not every root sense is simultaneously active.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 375; scan pp. 115",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "04.0001",
+                "detail": "दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 04.0001",
+                "detail": "Paired raw record confirms दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed devaḥ (देवः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0377-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "The fanatics generally interpret the word to mean as \"the only Lord\", in the sense that all other concepts of God are wrong. The large-hearted, tolerant ṛṣis of old, could have never meant such a meaning: It could only mean \"that He is the Supreme Consciousness whose expressions are all the deities\". Therefore, Paramesvara means \"One who is Omnipotent and All-glorious.\"",
+          "classification": "interpretive-not-etymology",
+          "reason": "Exclusive Lord versus all-deity expression is theological dispute, not compound grammar.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 377; scan pp. 116",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed parameśvaraḥ (परमेश्वरः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0379-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Since the term directly means only \"the cause\", it can mean not only the material cause, but also it can suggest the instrumental-cause. In the former case it would mean \"He from whom the whole universe arises\", and in the latter sense, the term is interpreted by some commentators as \"He who causes the universe to emerge out\".",
+          "classification": "interpretive-not-etymology",
+          "reason": "Material versus instrumental cause is philosophical role analysis.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 379; scan pp. 116",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed kāraṇam (कारणम्) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0381-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "“One who creates the infinite varieties that constitute the universe.\" It can also mean, \"One who has created out of Himself, the endless self-manifestations of incarnations.”",
+          "classification": "interpretive-not-etymology",
+          "reason": "Divider/differentiator is grammatical; cosmic forms/incarnations are applications.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 381; scan pp. 116, 117",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "08.0010",
+              "detail": "डुकृञ् करणे in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 08.0010",
+              "detail": "Paired raw record confirms डुकृञ् करणे."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed vikartā (विकर्ता) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0384-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "The term “Vyavasaaya” also means “Yoga.” In this sense, the term is used in the Gītā, “The intellect of one who is practising Yoga is single-pointed without vacillation.” Again, in the same chapter criticising those who are running after enjoyment and power, Kṛṣṇa says, “Those who are revelling in sensuality and consequently disturbing the poise of their intellect, cannot have a steady mind and consistent pursuit of Yoga.” To work persistently until the Goal is reached is resolution.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Gītā context is determination in yoga; vyavasāya=Yoga is contextual.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 384; scan pp. 117, 118",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed vyavasāyaḥ (व्यवसायः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0386-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "In short, it means \"the One who integrates the plurality and absorbs it all unto Himself when the projections are ended at that time of transcendence.\"",
+          "classification": "interpretive-not-etymology",
+          "reason": "Cosmic reintegration applies saṃsthāna ‘arrangement/state/termination’.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 386; scan pp. 118",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 778",
+              "detail": "Saṃsthāna is arrangement."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "line 2791",
+              "detail": "Termination/arrangement senses."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed saṃsthānaḥ (संस्थानः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0394-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "The term can also mean \"One who has a compelling charm about Himself.",
+          "classification": "established-grammar",
+          "reason": "√ram supports delight/charm; Laghusiddhāntakaumudī gives ramante yogino ’smin iti rāmaḥ.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 394; scan pp. 120",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/laghusiddhantakaumudi/laghusiddhantakaumudi_wikisource.txt",
+              "locus": "line 5554",
+              "detail": "रमन्ते योगिनोऽस्मिन्निति रामः."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed rāmaḥ (रामः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0398-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Viṣṇu is Conductor.",
+          "classification": "unsupported-withheld",
+          "reason": "Neya is passive gerundive; active voice is wrong.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 398; scan pp. 120, 121",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Fit to be conducted to Highest.",
+          "classification": "established-grammar",
+          "reason": "Preserves gerundive force.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 398; scan pp. 120, 121",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed neyaḥ (नेयः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0403-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Thus, \"dharma\" means the One Self in all individuals.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Dharma as one Self is Vedāntic doctrine, not etymology.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 403; scan pp. 121, 122",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed dharmaḥ (धर्मः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0408-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "This can mean \"One who gives 'prāṇa' or as \"One who takes away 'prāṇa', because, the root 'da' has both the meanings, 'to give' and 'to break.' Therefore, Viṣṇu is the Supreme who gives prāṇa to all creatures in the beginning of creation, and He alone is again the One who destroys all Pragnas (movements) at the time of dissolution.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "The giver reading is the primary compound formation. The separately attested Śaṅkara-stream prāṇān dyati explanation invokes √do ‘cut/divide’ and is retained as a traditional verbal nirvacana rather than a competing -da morphology.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 408; scan pp. 123",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "04.0043",
+              "detail": "दो अवखण्डने — √do, to cut or divide."
+            },
+            {
+              "source": "https://bhanapcorner.in/vishnu-sahasranaama/",
+              "locus": "name prāṇadaḥ",
+              "detail": "Transmits prāṇān dyati khaṇḍayati as the destructive traditional reading."
+            }
+          ],
+          "public_derivation": {
+            "id": "pranada-breath-withdrawer-nirvacana",
+            "label": "Withdrawer of the life-breaths",
+            "kind": "traditional-nirvacana",
+            "meaning": "the one who withdraws or cuts off all life-breaths at dissolution",
+            "parts": [
+              {
+                "form": "prāṇān",
+                "gloss": "the life-breaths, as object"
+              },
+              {
+                "form": "dyati",
+                "gloss": "cuts, divides"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√do",
+                "gana": "divādi (4)",
+                "pada": "parasmaipada",
+                "gloss": "to cut; divide",
+                "dhatupatha": {
+                  "locus": "04.0043",
+                  "aupadeshika_devanagari": "दो",
+                  "artha_sanskrit": "अवखण्डने"
+                }
+              }
+            ],
+            "formation": "Traditional verbal nirvacana prāṇān dyati through √do; distinct from prāṇa + da from √dā ‘give’.",
+            "morphology": "Traditional explanatory sentence attached to the nominative singular epithet prāṇadaḥ.",
+            "qualification": "Valid as a transmitted traditional explanation of withdrawal at dissolution, not as the primary compound morphology.",
+            "evidence": [
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "04.0043",
+                "detail": "दो अवखण्डने."
+              },
+              {
+                "source": "https://bhanapcorner.in/vishnu-sahasranaama/",
+                "locus": "name prāṇadaḥ",
+                "detail": "Attests the destructive prāṇān dyati stream."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Show giver √dā as the grammatical formation and prāṇān dyati through √do as a parallel traditional nirvacana."
+    },
+    "name-0411-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "\"The Golden-egg\" means here that from which all the objective world had emerged out, indicating the Creator. So, the term means \"He who is in Himself the very Creator.\" The term thereby suggests that the entire creative power of the Creator is but the expression of the Self, Nārāyaṇa.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Golden embryo is grammatical; creator/Nārāyaṇa identity is cosmology.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 411; scan pp. 123",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed hiraṇyagarbhaḥ (हिरण्यगर्भः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0415-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Unavailable to sense organs.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Traditional explanation; exact full formation unavailable.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 415; scan pp. 124",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": {
+            "id": "adhoksaja-beyond-sense-born-knowledge",
+            "label": "Beyond what is born of the senses",
+            "kind": "traditional-nirvacana",
+            "meaning": "one not reached by cognition born from the sense-organs",
+            "parts": [
+              {
+                "form": "adhaḥ",
+                "gloss": "down; suppressed; placed below"
+              },
+              {
+                "form": "akṣa-ja",
+                "gloss": "born from the senses"
+              }
+            ],
+            "roots": [],
+            "formation": "Traditional explanation that takes akṣaja as sense-born cognition and adhaḥ as its being put down or transcended; it is not asserted as a regular historical compound derivation.",
+            "morphology": "Nominative singular masculine adhokṣajaḥ.",
+            "qualification": "The scan attests the interpretation, but the local grammar corpus does not contain its named traditional source; retain it as a source-limited nirvacana.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 415; scan p. 124",
+                "detail": "Chinmayananda explicitly gives the sense-organ explanation."
+              }
+            ]
+          }
+        },
+        {
+          "claim_text": "Supporter below atmosphere/earth; quoted verse.",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Quote attests tradition, but cited epic witness is absent locally.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 415; scan pp. 124",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": {
+            "id": "adhoksaja-adho-na-ksiyate",
+            "label": "Adho na kṣīyate jātu",
+            "kind": "traditional-nirvacana",
+            "meaning": "the supporter below who never decays",
+            "parts": [
+              {
+                "form": "adhaḥ",
+                "gloss": "below"
+              },
+              {
+                "form": "na kṣīyate jātu",
+                "gloss": "never decays"
+              }
+            ],
+            "roots": [],
+            "formation": "Sentence-nirvacana preserved by the quoted line adho na kṣīyate jātu yasmāt tasmād adhokṣajaḥ; it explains the name semantically rather than presenting productive morphology.",
+            "morphology": "Nominative singular masculine adhokṣajaḥ.",
+            "qualification": "The quotation is attested in Chinmayananda's scan transcription, but the cited Mahābhārata witness is not present locally for independent collation.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 415; scan p. 124; attributed there to Mahābhārata, Udyoga Parva 71.10",
+                "detail": "Quoted Sanskrit: अधो न क्षीयते जातु यस्मात् तस्मादधोक्षजः।"
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed adhokṣajaḥ (अधोक्षजः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0416-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "\"Seasons\"—Here it means, the Lord of Time, who governs the seasons.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Ṛtu is season; Lord of Time adds unexpressed lordship.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 416; scan pp. 124",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed ṛtuḥ (ऋतुः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0418-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "\"One who measures the merits and defects in each individual, and who doles out the appropriate results.\" Bhāgavata Gītā says, \"I am the Time of counting.\" kālaḥ is also the name of Lord Death, and in this sense, it can mean \"the Lord, who is Death or Annihilationpersonified to all His enemies.\" कलयति इति कालः (Kalayati iti Kālaḥ).",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "√kal ‘count’ supports kalayati iti kālaḥ; merit/death applications are theological.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 418; scan pp. 124, 125",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.0570",
+              "detail": "कलँ शब्दसङ्ख्यानयोः in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.0570",
+              "detail": "Paired raw record confirms कलँ शब्दसङ्ख्यानयोः."
+            }
+          ],
+          "public_derivation": {
+            "id": "kala-from-kal",
+            "label": "Kalayati-iti Kāla",
+            "kind": "traditional-nirvacana",
+            "meaning": "counter/measurer; Time",
+            "parts": [
+              {
+                "form": "√kal",
+                "gloss": "count"
+              },
+              {
+                "form": "a",
+                "gloss": "nominal ending in the explanation"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√kal",
+                "gana": "bhvādi (1)",
+                "pada": "ātmanepada",
+                "gloss": "to sound; count",
+                "dhatupatha": {
+                  "locus": "01.0570",
+                  "aupadeshika_devanagari": "कलँ",
+                  "artha_sanskrit": "शब्दसङ्ख्यानयोः"
+                }
+              }
+            ],
+            "formation": "Traditional kalayati iti kālaḥ.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Historical affix/phonology not asserted.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 418; scan pp. 124, 125",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "01.0570",
+                "detail": "कलँ शब्दसङ्ख्यानयोः in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 01.0570",
+                "detail": "Paired raw record confirms कलँ शब्दसङ्ख्यानयोः."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed kālaḥ (कालः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0419-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "\"One who is centred in His own infinite glory.\" Or, it can also mean \"One who is readily available for experience in the Supreme cave of the heart.\" In the Kaṭhopaniṣad, the seat of the Self within is described as: “परमे व्योम्नि प्रतिष्ठितः।”",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Parame+sthā and the quote support abiding in the highest; heart-cave is interpretation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 419; scan pp. 125",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1077",
+              "detail": "ष्ठा गतिनिवृत्तौ in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1077",
+              "detail": "Paired raw record confirms ष्ठा गतिनिवृत्तौ."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed parameṣṭhī (परमेष्ठी) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0426-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The term vistāraḥ can also mean \"manifestation;\" since the Lord manifests in Himself all the universe.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Vistāra is extension; manifestation and cosmic self-projection are contextual.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 426; scan pp. 126",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 766",
+              "detail": "Vistāra is extension."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "line 2126",
+              "detail": "Independent extension sense."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed vistāraḥ (विस्तारः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0427-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "sthāṇuḥ (motionless) means that He is fixed like \"the pillars that denote the frontiers of a country\" (sthāṇuḥ).",
+          "classification": "established-grammar",
+          "reason": "Sthāṇu is fixed and post/peg; boundary-pillar simile is coherent.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 427; scan pp. 126",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 367",
+              "detail": "Sthāṇu is fixed/post-like."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 797",
+              "detail": "स्थाणुः कीलेऽपि."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed sthāvaraḥ sthāṇuḥ (स्थावरः स्थाणुः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0429-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "It can also mean \"that without which the world can never be.\" Hence He is the undecaying root of all things.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Imperishable seed is grammar; cosmic necessity is causality interpretation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 429; scan pp. 126",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed bījamavyayam (बीजमव्ययम्) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0431-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "This means one who has no desires, as He has fulfilled all His desires.",
+          "classification": "interpretive-not-etymology",
+          "reason": "No desires because fulfilled is inference, not literal an+artha.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 431; scan pp. 126, 127",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed anarthaḥ (अनर्थः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0435-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "This term nirvedu means \"the sense of disinterestedness that comes to the bosom of one who could not fulfil his passionate desires in life.\" The Lord is one who is griefless as He has no desires to fulfil.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Nirveda is weariness; frustrated desire and divine grieflessness are psychology.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 435; scan pp. 127, 128",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 754",
+              "detail": "Nirveda is paired with kheda."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "line 2157",
+              "detail": "Independent pairing."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed anirviṇṇaḥ (अनिर्विण्णः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0438-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "This means He is the very essence behind all righteousness.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Dharma-yūpa uses sacrificial-post metaphor; essence of righteousness is interpretation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 438; scan pp. 128",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "line 985",
+              "detail": "Yūpa is a sacrificial post."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed dharma-yūpaḥ (धर्म-यूपः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0449-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The word is dissolved as “सतः त्रायते इति सत्रम्” (Sataḥ trāyate iti satram).",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Sataḥ trāyate is attested wordplay; ordinary sattra is sacrificial session, so both remain parallel.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 449; scan pp. 130",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 414",
+              "detail": "Sattra is a sacrificial session."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1120",
+              "detail": "त्रैङ् पालने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1120",
+              "detail": "Paired raw record confirms त्रैङ् पालने."
+            }
+          ],
+          "public_derivation": {
+            "id": "satra-satah-trayate",
+            "label": "Sataḥ trāyate",
+            "kind": "traditional-nirvacana",
+            "meaning": "protector of the good",
+            "parts": [
+              {
+                "form": "sataḥ",
+                "gloss": "of/from the good"
+              },
+              {
+                "form": "√trai",
+                "gloss": "protects"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√trai",
+                "gana": "bhvādi (1)",
+                "pada": "ātmanepada",
+                "gloss": "to protect",
+                "dhatupatha": {
+                  "locus": "01.1120",
+                  "aupadeshika_devanagari": "त्रैङ्",
+                  "artha_sanskrit": "पालने"
+                }
+              }
+            ],
+            "formation": "Traditional sentence-nirvacana.",
+            "morphology": "Neuter nominative/accusative singular.",
+            "qualification": "Show beside ordinary sacrificial-session sense.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 449; scan pp. 130",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+                "locus": "v. 414",
+                "detail": "Sattra is a sacrificial session."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "01.1120",
+                "detail": "त्रैङ् पालने in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 01.1120",
+                "detail": "Paired raw record confirms त्रैङ् पालने."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed satraṃ (सत्रं) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0450-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "Gatih in Sanskrit means both the path and the goal.",
+          "classification": "established-grammar",
+          "reason": "Gati has course and result/destination senses already represented.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 450; scan pp. 130",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "line 1118",
+              "detail": "फलम् गतिः attests result."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 726",
+              "detail": "Gati is course/movement."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed satāṃ gatiḥ (सतां गतिः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0457-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Therefore, the term means All — Pervasive.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Sūkṣma is subtle/fine; all-pervasion is inference.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 457; scan pp. 131, 132",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 688",
+              "detail": "Sūkṣma is minute/fine."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "line 2360",
+              "detail": "Grouped with aṇu/tanu."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed sūkṣmaḥ (सूक्ष्मः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0459-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Confers happiness.",
+          "classification": "established-grammar",
+          "reason": "Sukha+da from √dā.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 459; scan pp. 132",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 123",
+              "detail": "Sukha is joy/happiness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1079",
+              "detail": "दाण् दाने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1079",
+              "detail": "Paired raw record confirms दाण् दाने."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Destroys joy.",
+          "classification": "unsupported-withheld",
+          "reason": "Destructive root not shown to form this -da.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 459; scan pp. 132",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed sukhadaḥ (सुखदः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0462-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "One who has conquered all these means one who is beyond the mind-the Self.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Beyond mind is interpretation of anger conquered.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 462; scan pp. 132",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed jitakrodhaḥ (जितक्रोधः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0464-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Dara means to split or to tear open.",
+          "classification": "source-backed-alternative",
+          "reason": "Meaning is valid after correcting loose dara to exact √dṝ-based formation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 464; scan pp. 132, 133",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "09.0026",
+              "detail": "दॄ विदारणे in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 09.0026",
+              "detail": "Paired raw record confirms दॄ विदारणे."
+            }
+          ],
+          "public_derivation": {
+            "id": "vidarana-from-dr",
+            "label": "Vi-dāraṇa from √dṝ",
+            "kind": "grammatical",
+            "meaning": "splitting; tearing apart",
+            "parts": [
+              {
+                "form": "vi",
+                "gloss": "apart"
+              },
+              {
+                "form": "√dṝ",
+                "gloss": "split"
+              },
+              {
+                "form": "ṇic+lyuṭ",
+                "gloss": "causative action formation"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√dṝ",
+                "gana": "kryādi (9)",
+                "pada": "parasmaipada",
+                "gloss": "to split; tear apart",
+                "dhatupatha": {
+                  "locus": "09.0026",
+                  "aupadeshika_devanagari": "दॄ",
+                  "artha_sanskrit": "विदारणे"
+                }
+              }
+            ],
+            "formation": "vi+causative √dṝ+lyuṭ.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Corrects loose ‘dara means split’.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 464; scan pp. 132, 133",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "09.0026",
+                "detail": "दॄ विदारणे in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 09.0026",
+                "detail": "Paired raw record confirms दॄ विदारणे."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "locus": "3.3.115",
+                "detail": "ल्युट् च."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed vidāraṇaḥ (विदारणः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0467-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Thus All-pervading means that which is \"subtler than the subtlest.\" This concept is again sustained by the physical observations in the world.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Subtler-than-subtle explains pervasion metaphysically.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 467; scan pp. 133, 134",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed vyāpī (व्यापी) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0470-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "The term \"Vatsa,\" in Sanskrit, also means \"calf.\" The word under discussion, therefore, can also mean \"one who gives away calves.\" This has reference to Kṛṣṇa who returned to the Gopas all the calves, when they were taken away by the enemy. Here the term is dissolved as Vatsān Rāti Iti—“Vatsaraḥ.”",
+          "classification": "attested-traditional-nirvacana",
+          "reason": "Vatsān rāti has witnessed components but does not replace vatsara ‘year’.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 470; scan pp. 134",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "02.0052",
+              "detail": "रा दाने in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 02.0052",
+              "detail": "Paired raw record confirms रा दाने."
+            }
+          ],
+          "public_derivation": {
+            "id": "vatsara-vatsan-rati",
+            "label": "Vatsān rāti",
+            "kind": "traditional-nirvacana",
+            "meaning": "one who gives/restores calves",
+            "parts": [
+              {
+                "form": "vatsān",
+                "gloss": "calves, accusative plural"
+              },
+              {
+                "form": "√rā",
+                "gloss": "gives"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√rā",
+                "gana": "adādi (2)",
+                "pada": "parasmaipada",
+                "gloss": "to give",
+                "dhatupatha": {
+                  "locus": "02.0052",
+                  "aupadeshika_devanagari": "रा",
+                  "artha_sanskrit": "दाने"
+                }
+              }
+            ],
+            "formation": "Traditional sentence-nirvacana.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Show beside ordinary ‘year’.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 470; scan pp. 134",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "02.0052",
+                "detail": "रा दाने in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 02.0052",
+                "detail": "Paired raw record confirms रा दाने."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed vatsaraḥ (वत्सरः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0473-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "On the whole, the term Ratna-garbhah only means that the Lord is quick in His bestowing all the desired objects on His devotees.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Quick bestowal is devotional consequence of treasure-containing image.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 473; scan pp. 134, 135",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed ratnagarbhaḥ (रत्नगर्भः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0474-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Here the term \"Wealth\" means all the good things in the universe—all objects of happiness.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Dhana is wealth; all good objects is contextual broadening.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 474; scan pp. 135",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed dhaneśvaraḥ (धनेश्वरः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0483-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Sahasrāṃśu is a sun-name.",
+          "classification": "established-grammar",
+          "reason": "Directly attested.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 483; scan pp. 137, 138",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 123",
+              "detail": "Sahasrāṃśu is a sun-name."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "line 164",
+              "detail": "Independent solar attestation."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Nārāyaṇa as Sun nourishes beings.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Devotional identification.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 483; scan pp. 137, 138",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed sahasrāṃśuḥ (सहस्रांशुः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0485-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "lakṣaṇa also means the scriptural textbooks and, therefore, the term also can mean He who is the author (kṛta) of the Scriptures (lakṣaṇa).",
+          "classification": "unsupported-withheld",
+          "reason": "Lakṣaṇa is mark/sign, not secured as textbooks; kṛta is not active ‘author’.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 485; scan pp. 138",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 45",
+              "detail": "Lakṣaṇa is mark/sign."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 109",
+              "detail": "Independent mark/sign sense."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "line 2782",
+              "detail": "Mark/name/sign senses."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed kṛtalakṣaṇaḥ (कृतलक्षणः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0486-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Gabhasti means rays.",
+          "classification": "established-grammar",
+          "reason": "Directly attested.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 486; scan pp. 138",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 38",
+              "detail": "Gabhasti is a ray."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/lexica/halayudha.json",
+              "locus": "raw text near line 7479",
+              "detail": "Paired raw ray verse."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 127",
+              "detail": "Independent ray attestation."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Nemi means spokes; hence hub of ray-wheel.",
+          "classification": "unsupported-withheld",
+          "reason": "Strict disagreement: nemi=rim, ara=spokes, nābhi=hub.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 486; scan pp. 138",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+              "locus": "v. 447",
+              "detail": "Nemi is rim; nābhi is hub."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/lexica/halayudha.json",
+              "locus": "raw text near line 57560",
+              "detail": "Paired raw distinction."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 834",
+              "detail": "Nemi is at wheel-edge, distinct from hub."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Astronomically the sun is planetary center.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Modern analogy cannot repair lexical error.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 486; scan pp. 138",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed gabhastinemiḥ (गभस्तिनेमिः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0487-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "It can also mean He who remains (Stha) in all beings (Sattva).",
+          "classification": "source-backed-alternative",
+          "reason": "Sattva means living beings and stha abiding; valid parallel to sattva-guṇa.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 487; scan pp. 138, 139",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+              "locus": "2632–2633",
+              "detail": "Sattva denotes living beings."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+              "locus": "line 1434",
+              "detail": "Independent animate sense."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "01.1077",
+              "detail": "ष्ठा गतिनिवृत्तौ in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 01.1077",
+              "detail": "Paired raw record confirms ष्ठा गतिनिवृत्तौ."
+            }
+          ],
+          "public_derivation": {
+            "id": "sattvastha-in-beings",
+            "label": "Abiding in beings",
+            "kind": "grammatical",
+            "meaning": "one abiding in living beings",
+            "parts": [
+              {
+                "form": "sattva",
+                "gloss": "living being"
+              },
+              {
+                "form": "stha",
+                "gloss": "abiding"
+              }
+            ],
+            "roots": [
+              {
+                "form": "√sthā",
+                "gana": "bhvādi (1)",
+                "pada": "parasmaipada",
+                "gloss": "to stand; remain",
+                "dhatupatha": {
+                  "locus": "01.1077",
+                  "aupadeshika_devanagari": "ष्ठा",
+                  "artha_sanskrit": "गतिनिवृत्तौ"
+                }
+              }
+            ],
+            "formation": "Locative sattveṣu tiṣṭhati; sattva+stha.",
+            "morphology": "Nominative singular masculine.",
+            "qualification": "Parallel to sattva-guṇa.",
+            "evidence": [
+              {
+                "source": "gita/vishnu-sahasranama/chinmayananda.json",
+                "locus": "name 487; scan pp. 138, 139",
+                "detail": "Exact claim checked in the full commentary block."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+                "locus": "2632–2633",
+                "detail": "Sattva denotes living beings."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+                "locus": "line 1434",
+                "detail": "Independent animate sense."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "locus": "01.1077",
+                "detail": "ष्ठा गतिनिवृत्तौ in the clean witness."
+              },
+              {
+                "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+                "locus": "data[].baseindex 01.1077",
+                "detail": "Paired raw record confirms ष्ठा गतिनिवृत्तौ."
+              }
+            ]
+          }
+        }
+      ],
+      "review_notes": "Reviewed sattvasthaḥ (सत्त्वस्थः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0488-derivation-claim": {
+      "primary_relation": "unsupported",
+      "dispositions": [
+        {
+          "claim_text": "Part of name can indicate whole; siṃha=Narasiṃha.",
+          "classification": "unsupported-withheld",
+          "reason": "Ellipsis claim lacks rule/cited witness.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 488; scan pp. 139",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Man-Lion narrative.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Identifies referent, not derivation.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 488; scan pp. 139",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed siṃhaḥ (सिंहः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0490-derivation-claim": {
+      "primary_relation": "qualified",
+      "dispositions": [
+        {
+          "claim_text": "Ādi first + deva resplendent/first deity.",
+          "classification": "established-grammar",
+          "reason": "Ordinary compound reading.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 490; scan pp. 139",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "04.0001",
+              "detail": "दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 04.0001",
+              "detail": "Paired raw record confirms दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु."
+            }
+          ],
+          "public_derivation": null
+        },
+        {
+          "claim_text": "Ādi eater + deva evolver consuming names/forms.",
+          "classification": "unsupported-withheld",
+          "reason": "Witnesses do not derive these member senses in this compound.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 490; scan pp. 139",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "04.0001",
+              "detail": "दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु in the clean witness."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 04.0001",
+              "detail": "Paired raw record confirms दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed ādidevaḥ (आदिदेवः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0497-derivation-claim": {
+      "primary_relation": "different-question",
+      "dispositions": [
+        {
+          "claim_text": "Here the word knowledge does not mean the ordinary knowledge-of-things.",
+          "classification": "interpretive-not-etymology",
+          "reason": "Liberating versus object-knowledge qualifies jñāna philosophically.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 497; scan pp. 140",
+              "detail": "Exact claim checked in the full commentary block."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed jñānagamyaḥ (ज्ञानगम्यः) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    },
+    "name-0500-derivation-claim": {
+      "primary_relation": "agrees",
+      "dispositions": [
+        {
+          "claim_text": "The term \"bhoktā\" can be dissolved in two ways. In (a) it would mean the 'Protector' and in (b) it would mean as the 'Enjoyer'.",
+          "classification": "established-grammar",
+          "reason": "√bhuj has both protection and eating/enjoyment; one tṛc derivation supports both.",
+          "evidence": [
+            {
+              "source": "gita/vishnu-sahasranama/chinmayananda.json",
+              "locus": "name 500; scan pp. 141",
+              "detail": "Exact claim checked in the full commentary block."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+              "locus": "07.0017",
+              "detail": "भुजँ पालनाभ्यवहारयोः."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+              "locus": "data[].baseindex 07.0017",
+              "detail": "Paired raw record."
+            },
+            {
+              "source": "/Users/eeshan/Dev/prakriya/sources/primary/panini/laghusiddhantakaumudi/laghusiddhantakaumudi_wikisource.txt",
+              "locus": "line 4198",
+              "detail": "भुज…भुनक्ति। भोक्ता."
+            }
+          ],
+          "public_derivation": null
+        }
+      ],
+      "review_notes": "Reviewed bhoktā (भोक्ता) against the complete commentary and scan context. Relevant clean primary and paired raw witnesses were read directly. Unsupported tradition-specific explanations are withheld without claiming that an unavailable esoteric stream cannot exist."
+    }
+  }
+}

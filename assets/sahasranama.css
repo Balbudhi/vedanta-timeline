@@ -143,6 +143,36 @@
 .vsn-commentary-quote .ix-en { color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
 .vsn-commentary-quote-source { color: var(--muted-soft); font: 10px/1.45 var(--sans); }
 .vsn-commentary-quote-source { margin-top: 5px; }
+.vsn-site-translation-note { margin-top: 4px; color: var(--muted-soft); font: 9.5px/1.35 var(--sans); }
+.vsn-footnote-call {
+  display: inline;
+  margin-left: 2px;
+  color: var(--muted-soft);
+  font: 10px/1 var(--sans);
+  vertical-align: super;
+}
+.vsn-root-footnote-call { margin-left: 1px; color: var(--muted-soft); font: 9px/1 var(--sans); vertical-align: super; }
+.vsn-footnote {
+  display: grid;
+  grid-template-columns: 14px minmax(0, 1fr);
+  column-gap: 8px;
+  margin: 5px 0 13px;
+  padding: 7px 0 6px 10px;
+  border-left: 2px solid var(--rule);
+}
+.vsn-footnote-marker { color: var(--muted-soft); font: 10px/1.5 var(--sans); }
+.vsn-footnote-body { min-width: 0; }
+.vsn-footnote-body > :first-child { margin-top: 0; }
+.vsn-footnote-body > :last-child { margin-bottom: 0; }
+.vsn-footnote-citation { margin: 0; color: var(--ink-soft); font: 13px/1.55 var(--serif); }
+.vsn-footnote .vsn-commentary-quote,
+.vsn-footnote .vsn-source-passage { margin: 0; padding: 0; border-left: 0; }
+.vsn-footnote-source {
+  grid-column: 2;
+  margin-top: 5px;
+  color: var(--muted-soft);
+  font: 9.5px/1.4 var(--sans);
+}
 .vsn-source-passage {
   color: var(--ink); font-family: var(--serif); font-style: normal; line-height: 1.7;
 }
@@ -160,6 +190,15 @@
 .vsn-card-deva { margin: 2px 0 9px; color: var(--muted); font-family: var(--serif); font-size: 16px; }
 .vsn-card-definition { padding: 8px 0 10px; border-bottom: 1px solid var(--hairline); line-height: 1.5; }
 .vsn-wcard .wc-root { display: block; }
+.vsn-wcard .wc-derivations { display: grid; gap: 8px; margin-top: 8px; }
+.vsn-wcard .wc-derivation { padding-top: 8px; border-top: 1px solid var(--hairline); }
+.vsn-wcard .wc-derivation:first-child { padding-top: 0; border-top: 0; }
+.vsn-wcard .wc-derivation-label { margin-bottom: 4px; color: var(--muted-soft); font: 10px/1.4 var(--sans); letter-spacing: .04em; text-transform: uppercase; }
+.vsn-wcard .wc-derivation-title { margin-bottom: 3px; font-family: var(--serif); font-size: 14px; font-weight: 600; }
+.vsn-wcard .wc-derivation-text { margin-bottom: 7px; line-height: 1.55; }
+.vsn-wcard .wc-derivation .wc-root { margin-right: 4px; }
+.vsn-wcard .wc-derivation-evidence { display: flex; flex-wrap: wrap; gap: 3px 5px; margin-top: 6px; }
+.vsn-wcard .wc-derivation-evidence span { color: var(--muted-soft); font: 9.5px/1.35 var(--sans); }
 .vsn-card-detail-action { margin-top: 10px; padding-top: 9px; border-top: 1px solid var(--hairline); }
 .vsn-recite-bar { margin-top: 28px; }
 

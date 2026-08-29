@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "expected_ids": ["cm-vs-fn-p020-n01"],
+  "rows": {
+    "cm-vs-fn-p020-n01": {
+      "blocks": [
+        {
+          "type": "sanskrit-quote",
+          "id": "cm-vs-fn-p020-n01-quote-0",
+          "devanagari": "स एव सर्वभूतात्मा विश्वरूपो यतोऽव्ययः",
+          "iast": "sa eva sarva-bhūtātmā viśvarūpo yato 'vyayaḥ",
+          "canonical_locus": "Viṣṇu Purāṇa 1.2.69",
+          "words": [
+            {"i": 0, "iast": "saḥ", "deva": "सः", "gloss": "he; that one", "parts": [{"form": "tad", "gloss": "that; he"}, {"form": "su", "gloss": "nominative singular marker"}], "stem": "tad", "affix": "su (prathamā ekavacana)", "morph": "nominative singular masculine demonstrative pronoun; visarga is lost before eva"},
+            {"i": 1, "iast": "eva", "deva": "एव", "gloss": "indeed; precisely", "parts": [{"form": "eva", "gloss": "indeed; precisely"}], "stem": "eva", "affix": "avyaya; no inflection", "morph": "indeclinable emphatic particle"},
+            {"i": 2, "iast": "sarva-bhūtātmā", "deva": "सर्वभूतात्मा", "gloss": "the Self of all beings", "parts": [{"form": "sarva", "gloss": "all"}, {"form": "bhūta", "gloss": "being"}, {"form": "ātman", "gloss": "Self"}, {"form": "su", "gloss": "nominative singular marker"}], "stem": "sarva-bhūtātman", "affix": "su (prathamā ekavacana)", "morph": "nominative singular masculine compound noun"},
+            {"i": 3, "iast": "viśvarūpaḥ", "deva": "विश्वरूपः", "gloss": "whose form is the universe; of universal form", "parts": [{"form": "viśva", "gloss": "all; universe"}, {"form": "rūpa", "gloss": "form"}, {"form": "su", "gloss": "nominative singular marker"}], "stem": "viśvarūpa", "affix": "su (prathamā ekavacana)", "morph": "nominative singular masculine compound adjective; visarga becomes o before y"},
+            {"i": 4, "iast": "yatas", "deva": "यतस्", "gloss": "from whom; because", "parts": [{"form": "yad", "gloss": "who; which"}, {"form": "tasil", "gloss": "from; because"}], "stem": "yad", "affix": "tasil (ablatival adverb-forming taddhita)", "morph": "indeclinable relative ablatival adverb; final s becomes o before the following vowel"},
+            {"i": 5, "iast": "avyayaḥ", "deva": "अव्ययः", "gloss": "imperishable; not subject to loss", "parts": [{"form": "a-", "gloss": "not; without"}, {"form": "vyaya", "gloss": "loss; passing away"}, {"form": "su", "gloss": "nominative singular marker"}], "stem": "avyaya", "affix": "su (prathamā ekavacana)", "morph": "nominative singular masculine adjective; initial a follows avagraha after yato"}
+          ],
+          "source_segments": [
+            {"text": "स", "word_indices": [0]},
+            {"text": " ", "word_indices": []},
+            {"text": "एव", "word_indices": [1]},
+            {"text": " ", "word_indices": []},
+            {"text": "सर्वभूतात्मा", "word_indices": [2]},
+            {"text": " ", "word_indices": []},
+            {"text": "विश्वरूपो", "word_indices": [3]},
+            {"text": " ", "word_indices": []},
+            {"text": "यतो", "word_indices": [4]},
+            {"text": "ऽव्ययः", "word_indices": [5]}
+          ]
+        }
+      ]
+    }
+  }
+}
