@@ -9,6 +9,9 @@ import re
 import unicodedata
 from pathlib import Path
 
+from indic_transliteration import sanscript
+from indic_transliteration.sanscript import transliterate
+
 from add_sanskrit_source_segments import align
 from chinmayananda_sanskrit_blocks import reader_word
 
@@ -25,6 +28,20 @@ ASCII_REVIEWS = (
     INTERNAL / "ascii-sanskrit-review-751-1000.json",
 )
 DEVA_SPAN_RE = re.compile(r"[\u0900-\u097f][\u0900-\u097f\u200c\u200d\s।॥,;:…\-–—()]+")
+DISPLAY_LETTER_RE = re.compile(r"[A-Za-zĀ-ỹÑñ\u0900-\u097f]")
+DISPLAY_IAST_MARK_RE = re.compile(r"[āīūṛṝḷṅñṭḍṇśṣṃṁḥ]")
+DISPLAY_SOURCE_KEYWORD_RE = re.compile(
+    r"(?:[A-Za-zĀ-ỹÑñ]*opaniṣad|Upaniṣad|Up\.|Purāṇa|Parva|Veda|Smṛti|Mahābhārata|Bhāgavata|Gītā|"
+    r"Kaṭha|Katha|Chāndogya|Taittirīya|Aitareya|Bṛhadāraṇyaka|Śvetāśvatara|"
+    r"Muṇḍaka|Mundaka|Harivaṃśa|Kośa|śāstra|Vyāsa|Īśa|Ṛg)",
+    re.I,
+)
+DISPLAY_ENGLISH_HINT_RE = re.compile(
+    r"\b(?:a|an|and|are|as|by|for|from|full|he|her|him|his|in|is|it|its|"
+    r"means|of|one|protector|enjoyer|read|says?|that|the|their|them|these|"
+    r"this|to|when|whence|who|with)\b",
+    re.I,
+)
 
 
 def english_source_key(value: str) -> str:
@@ -302,6 +319,160 @@ def popup_payload(unit_key: str, occurrence: dict, display_text: str | None = No
     }
 
 
+def standalone_display_candidate(text: str, annotations: list[dict]) -> bool:
+    if not annotations:
+        return False
+    total_letters = [index for index, char in enumerate(text) if DISPLAY_LETTER_RE.match(char)]
+    if not total_letters:
+        return False
+    covered = set()
+    for annotation in annotations:
+        for index in range(int(annotation["start"]), int(annotation["end"])):
+            if index < len(text) and DISPLAY_LETTER_RE.match(text[index]):
+                covered.add(index)
+    trimmed = text.lstrip()
+    without_opening = re.sub(r'^[“"‘\'\s(]+', "", trimmed)
+    starts_quote = bool(re.match(r'^[“"‘\']', trimmed))
+    starts_devanagari = bool(re.match(r'^[\u0900-\u097f]', without_opening))
+    first_interactive = min(int(annotation["start"]) for annotation in annotations)
+    return len(covered) / len(total_letters) >= 0.55 and (
+        starts_devanagari or starts_quote or first_interactive <= 3
+    )
+
+
+def source_tail(text: str) -> tuple[str, str]:
+    matches = list(DISPLAY_SOURCE_KEYWORD_RE.finditer(text))
+    if not matches:
+        return text.strip(), ""
+    match = matches[-1]
+    prefix = text[:match.start()]
+    dash = max(prefix.rfind("—"), prefix.rfind("–"), prefix.rfind(" -"))
+    explicit_dash = dash >= 0 and match.start() - dash <= 64
+    if explicit_dash:
+        start = dash + 1
+    else:
+        start = match.start()
+        previous = re.search(r"([A-ZĀ-Ž][A-Za-zĀ-ỹÑñ'’.\-]+\s+)$", prefix)
+        if previous and match.group(0).casefold() in {"upaniṣad", "up.", "purāṇa", "parva", "veda"}:
+            start = previous.start()
+    source = text[start:].strip(" \t\n—–-").rstrip(".")
+    source = re.sub(r"\s*\([^)]*\)\s*$", "", source).rstrip(".")
+    if not re.search(r"[IVXLC\d]", source) and not explicit_dash and not re.fullmatch(
+        r"(?:Upaniṣad|Smṛti|Mahābhārata|Vyāsa|Kaṭhopaniṣad|Amara Kośa)",
+        source,
+        re.I,
+    ):
+        return text.strip(), ""
+    body = text[:start].strip(" \t\n—–-")
+    return body, source
+
+
+def clean_display_english(value: str, allow_short_quote: bool = False) -> str:
+    candidate = value.strip(" \t\n—–-()")
+    candidate = re.sub(r'^[”’\'।.\s]+(?=[“\"])', "", candidate)
+    if not candidate:
+        return ""
+    hints = DISPLAY_ENGLISH_HINT_RE.findall(candidate)
+    quoted_word = allow_short_quote and bool(re.fullmatch(r'[“\"][A-Z][A-Za-z -]+[.!?]?[”\"]', candidate))
+    if len(hints) < 2 and not re.search(r"\b(?:says?|read|means)\b", candidate, re.I) and not quoted_word:
+        return ""
+    candidate = re.sub(r"\s+", " ", candidate).strip()
+    return candidate.rstrip(' “\"') if not allow_short_quote else candidate
+
+
+def normalized_display_word(word: dict, index: int) -> dict:
+    result = copy.deepcopy(word)
+    result["i"] = index
+    return result
+
+
+def normalized_quote_display(text: str, annotations: list[dict]) -> dict | None:
+    if not standalone_display_candidate(text, annotations):
+        return None
+    leading_source = DISPLAY_SOURCE_KEYWORD_RE.search(text)
+    if (
+        leading_source
+        and leading_source.start() < 24
+        and re.search(r"[IVXLC\d]", text)
+        and not re.search(r"[\u0900-\u097f]", text)
+    ):
+        return None
+    body, citation = source_tail(text)
+    if not body:
+        return None
+    if (
+        DISPLAY_SOURCE_KEYWORD_RE.search(body)
+        and re.search(r"[IVXLC\d]", body)
+        and not re.search(r"[\u0900-\u097f]", body)
+    ):
+        return None
+    devanagari_ranges = [match.span() for match in DEVA_SPAN_RE.finditer(body)]
+    if devanagari_ranges:
+        selected = [
+            annotation for annotation in annotations
+            if any(
+                int(annotation["start"]) < end and int(annotation["end"]) > start
+                for start, end in devanagari_ranges
+            )
+        ]
+    else:
+        selected = [annotation for annotation in annotations if int(annotation["start"]) < len(body)]
+    if not selected:
+        return None
+    selected.sort(key=lambda row: (int(row["start"]), int(row["end"]), row["id"]))
+    words = []
+    segments = []
+    surfaces = []
+    for annotation in selected:
+        local_words = annotation.get("words", [])
+        if not local_words:
+            continue
+        indices = []
+        for word in local_words:
+            indices.append(len(words))
+            words.append(normalized_display_word(word, len(words)))
+        raw_surface = str(annotation.get("text", "")).strip(' \t\n\"“”‘’')
+        if annotation.get("language") == "sa-Deva":
+            surface = raw_surface
+        elif DISPLAY_IAST_MARK_RE.search(raw_surface):
+            surface = transliterate(raw_surface, sanscript.IAST, sanscript.DEVANAGARI)
+        else:
+            forms = []
+            for word in local_words:
+                form = str(word.get("deva", ""))
+                if not re.search(r"[\u0900-\u097f]", form):
+                    form = transliterate(
+                        str(word.get("iast", "")).removeprefix("√"),
+                        sanscript.IAST,
+                        sanscript.DEVANAGARI,
+                    )
+                forms.append(form)
+            surface = " ".join(forms)
+        surface = surface.strip(' \t\n\"“”‘’.,।॥')
+        if not surface:
+            continue
+        if surfaces:
+            segments.append({"text": " ", "word_indices": []})
+        surfaces.append(surface)
+        segments.append({"text": surface, "word_indices": indices})
+    devanagari = " ".join(surfaces)
+    if not devanagari or re.search(r"[A-Za-z]", devanagari):
+        raise ValueError(f"normalized standalone quotation retains Latin text: {text!r}")
+    start = min(int(annotation["start"]) for annotation in selected)
+    end = max(int(annotation["end"]) for annotation in selected)
+    before = clean_display_english(body[:start])
+    after = clean_display_english(body[end:], allow_short_quote=True)
+    return {
+        "display_devanagari": devanagari,
+        "display_words": words,
+        "display_source_segments": segments,
+        "display_before": before,
+        "display_after": after,
+        "display_citation": citation,
+        "display_policy": "normalized-devanagari-from-reviewed-word-records",
+    }
+
+
 def promote_inline_blocks(name_number: int, blocks: list[dict]) -> list[dict]:
     occurrences = OCCURRENCES_BY_NAME.get(int(name_number), [])
     if not occurrences:
@@ -350,6 +521,9 @@ def promote_inline_blocks(name_number: int, blocks: list[dict]) -> list[dict]:
         if annotations:
             block = dict(block)
             block["inline_sanskrit"] = sorted(annotations, key=lambda row: row["start"])
+            display = normalized_quote_display(text, block["inline_sanskrit"])
+            if display:
+                block.update(display)
         result.append(block)
     return result
 

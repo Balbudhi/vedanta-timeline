@@ -132,6 +132,14 @@
   line-height: 1.75;
 }
 .vsn-commentary-quote .ix-pada { display: none; }
+.vsn-source-passage .ix { margin: 0; }
+.vsn-source-passage .ix-deva {
+  margin: 0;
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.75;
+}
+.vsn-source-passage .ix-pada { display: none; }
 .vsn-commentary-quote .ix-en { color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
 .vsn-commentary-quote-source { color: var(--muted-soft); font: 10px/1.45 var(--sans); }
 .vsn-commentary-quote-source { margin-top: 5px; }

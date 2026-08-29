@@ -64,6 +64,13 @@ present and make it inspectable, rather than paraphrasing.
   than duplicating them as a second visible row. Retain the reviewed site
   rendering in data, but do not repeat or mix it into the attributed reading
   surface.
+- **Normalize the public script, not the witness.** In a Devanāgarī-first
+  commentary reader, a complete quotation printed only in Roman Sanskrit may
+  be displayed in Devanāgarī only after its entire reviewed word population can
+  deterministically produce that line. Preserve the printed Roman string in
+  the source record and expose reviewed IAST in the word interaction. Never
+  transliterate undiacritized OCR blindly, and never let the script used by the
+  scan create a second public quote style.
 
 ## 3. Data schema
 

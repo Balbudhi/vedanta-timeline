@@ -1105,6 +1105,7 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
     names = [name for stanza in stanzas for name in stanza.get("names", [])]
     quote_blocks = []
     non_gita_quote_blocks = []
+    normalized_display_quotes = []
     inline_sanskrit_occurrences = 0
     ascii_inline_ids = []
     if len(stanzas) != 107:
@@ -1183,6 +1184,25 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                         errors.append(f"name {number} prose retains an empty quotation/citation shell")
                     if block.get("text", "").count("(") != block.get("text", "").count(")"):
                         errors.append(f"name {number} prose retains unmatched parentheses")
+                    if block.get("display_devanagari"):
+                        normalized_display_quotes.append((number, block))
+                        display_words = block.get("display_words", [])
+                        display_segments = block.get("display_source_segments", [])
+                        if block.get("display_policy") != "normalized-devanagari-from-reviewed-word-records":
+                            errors.append(f"name {number} normalized quotation lacks its display policy")
+                        if re.search(r"[A-Za-z]", block.get("display_devanagari", "")):
+                            errors.append(f"name {number} normalized quotation retains Roman text")
+                        if [word.get("i") for word in display_words] != list(range(len(display_words))):
+                            errors.append(f"name {number} normalized quotation has non-contiguous word analysis")
+                        if "".join(segment.get("text", "") for segment in display_segments) != block.get("display_devanagari"):
+                            errors.append(f"name {number} normalized quotation segments change Devanāgarī")
+                        display_indices = {
+                            int(index)
+                            for segment in display_segments
+                            for index in segment.get("word_indices", [])
+                        }
+                        if display_indices != set(range(len(display_words))):
+                            errors.append(f"name {number} normalized quotation does not map every displayed word")
                     for annotation in annotations:
                         words = annotation.get("words", [])
                         word_indices = [word.get("i") for word in words]
@@ -1283,6 +1303,11 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
     non_gita_ids = [block.get("id") for block in non_gita_quote_blocks]
     if require_commentary and (len(non_gita_ids) != 54 or len(non_gita_ids) != len(set(non_gita_ids))):
         raise ValueError(f"structured non-Gītā quotation population is not exactly 54 unique blocks: {len(non_gita_ids)}")
+    if require_commentary and len(normalized_display_quotes) != 100:
+        raise ValueError(
+            "normalized standalone Sanskrit quotation population is not exactly 100: "
+            f"{len(normalized_display_quotes)}"
+        )
     expected_ascii_inline = ASCII_ACCEPTED_IDS - ASCII_STRUCTURED_IDS
     if require_commentary:
         if len(ascii_inline_ids) != len(set(ascii_inline_ids)):
@@ -1305,6 +1330,7 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
         "critical_text_differences": sum(bool(stanza.get("critical_text_differs")) for stanza in stanzas),
         "structured_gita_quotes": len(quote_blocks),
         "structured_non_gita_quotes": len(non_gita_quote_blocks),
+        "normalized_standalone_sanskrit_quotes": len(normalized_display_quotes),
         "interactive_inline_sanskrit_occurrences": inline_sanskrit_occurrences,
         "reviewed_ascii_sanskrit_occurrences": len(ASCII_ACCEPTED_IDS),
         "interactive_ascii_sanskrit_in_prose": len(ascii_inline_ids),

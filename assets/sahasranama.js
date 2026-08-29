@@ -89,11 +89,31 @@ function looksLikeSanskritParagraph(text) {
   return markerCount >= 2 && markerCount >= englishCount;
 }
 
-function renderSanskritParagraph(text, inlineSanskrit) {
-  const value = String(text || "").trim();
-  const citation = value.match(/\s+[—–]\s+([^—–]+?)\.?$/);
+function renderSanskritParagraph(block) {
+  const value = String(block.text || "").trim();
+  const inlineSanskrit = block.inline_sanskrit;
+  const citation = value.match(/\s+[—–]\s+((?:(?:[A-ZĀ-Ž][A-Za-zĀ-ỹÑñ'’.\-]*\s*){0,3})(?:Upaniṣad|Up\.|Purāṇa|Parva|Veda|Smṛti|Mahābhārata|Bhāgavata|Gītā|Kaṭha|Katha|Chāndogya|Taittirīya|Aitareya|Bṛhadāraṇyaka|Śvetāśvatara|Muṇḍaka|Mundaka|Harivaṃśa|Kośa|śāstra|Vyāsa|Īśa|Ṛg)[^—–]*?)\.?$/i);
   const body = citation ? value.slice(0, citation.index).trim() : value;
   const source = citation ? citation[1].trim().replace(/\.$/, "") : "";
+  if (block.display_devanagari) {
+    const sanskrit = Array.isArray(block.display_words) && block.display_words.length && window.GitaReader?.interactiveBlock
+      ? window.GitaReader.interactiveBlock(
+          block.display_words,
+          null,
+          null,
+          block.display_devanagari,
+          "vsn-commentary-quote-deva",
+          block.display_source_segments || null,
+        )
+      : `<div class="ix"><div class="ix-deva vsn-commentary-quote-deva" lang="sa-Deva">${esc(block.display_devanagari)}</div></div>`;
+    const before = block.display_before ? `<p class="vsn-prose">${richProse(block.display_before)}</p>` : "";
+    const after = block.display_after ? `<p class="vsn-prose">${richProse(block.display_after)}</p>` : "";
+    const displaySource = String(block.display_citation || source).trim();
+    return `${before}<blockquote class="vsn-source-passage vsn-sanskrit-source-passage">
+      <div class="vsn-source-passage-text">${sanskrit}</div>
+      ${displaySource ? `<footer class="vsn-commentary-quote-source">${esc(displaySource)}</footer>` : ""}
+    </blockquote>${after}`;
+  }
   const bodyAnnotations = Array.isArray(inlineSanskrit)
     ? inlineSanskrit.filter(item => item.start < body.length && item.end <= body.length)
     : inlineSanskrit;
@@ -123,7 +143,7 @@ function looksLikeStandaloneInteractiveSanskrit(text, inlineSanskrit) {
   const startsDevanagari = /^[\u0900-\u097f]/u.test(withoutOpeningPunctuation);
   const firstInteractive = Math.min(...inlineSanskrit.map(item => item.start));
   const citationOnly = !startsQuoted && !startsDevanagari &&
-    /^(?:[A-Za-zĀ-ỹÑñ'’-]+\s+){0,3}(?:Upaniṣad|Brāhmaṇa|Purāṇa|Gītā|Veda|Smṛti|Mahābhārata)\b[^A-Za-zĀ-ỹÑñ]*[IVXLC\d]/iu.test(trimmed);
+    /^(?=[^\n]*[IVXLC\d])(?:[A-Za-zĀ-ỹÑñ'’.,-]+\s+){0,5}(?:Upaniṣad|Up\.|Brāhmaṇa|Purāṇa|Parva|Gītā|Veda|Smṛti|Mahābhārata|Kaṭha|Katha|Mundaka|Muṇḍaka)\b/iu.test(trimmed);
   if (citationOnly) return false;
   return ratio >= 0.55 && (
     startsDevanagari
@@ -154,8 +174,8 @@ function commentaryBlocks(name) {
   if (!Array.isArray(blocks) || !blocks.length) return paragraphs(name.chinmayananda?.commentary || "");
   return blocks.map(block => {
     if (block.type === "prose") {
-      return looksLikeStandaloneInteractiveSanskrit(block.text, block.inline_sanskrit)
-        ? renderSanskritParagraph(block.text, block.inline_sanskrit)
+      return block.display_devanagari || looksLikeStandaloneInteractiveSanskrit(block.text, block.inline_sanskrit)
+        ? renderSanskritParagraph(block)
         : `<p class="vsn-prose">${richProse(block.text, block.inline_sanskrit)}</p>`;
     }
     if (block.type !== "gita-quote" && block.type !== "sanskrit-quote") return "";
