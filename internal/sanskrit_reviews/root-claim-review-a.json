@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "scope": {
+    "name_numbers": [1, 2, 57, 59, 127, 273],
+    "method": "source-first derivation review against Chinmayananda, analysis.json, and the local Prakriya source library; interpreter not used"
+  },
+  "rows": [
+    {
+      "name_number": 1,
+      "citation_iast": "viśvam",
+      "citation_devanagari": "विश्वम्",
+      "commentator_claim": "The Sanskrit term viśvam comes from the root √viś, to enter: Thus it means He who has created and entered into the entire universe, as the All — Pervading Reality. It can also mean: That into which the entire universe has entered to remain therein established.",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "The Sanskrit term viśvam comes from the root √viś, to enter: Thus it means He who has created and entered into the entire universe, as the All — Pervading Reality. It can also mean: That into which the entire universe has entered to remain therein established."
+      },
+      "independently_derived_root": {
+        "form": "√viś",
+        "gana": "6",
+        "pada": "P",
+        "gloss": "to enter; pervade",
+        "dhatupatha": {
+          "locus": "06.0160",
+          "dhatu_devanagari": "विश्",
+          "aupadeshika_devanagari": "विशँ",
+          "artha_sanskrit": "प्रवेशने"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The Dhātupāṭha supports √viś with प्रवेशने. The name is still a nominal viśva-form in the analysis card; the root claim is a traditional nirvacana layered onto that surface form.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:29"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:33"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:36726"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4862-4864"
+        ],
+        "supporting_grammar_loci": []
+      }
+    },
+    {
+      "name_number": 2,
+      "citation_iast": "viṣṇuḥ",
+      "citation_devanagari": "विष्णुः",
+      "commentator_claim": "Veveṣṭi vyāpnoti iti viṣṇuḥ: 'that which pervades everywhere is Viṣṇu.' Chinmayananda connects the name with the root viś, 'to enter, to pervade.'",
+      "analysis_json_state": {
+        "root": {
+          "form": "√viś",
+          "gana": "6",
+          "pada": "P",
+          "gloss": "to enter; pervade",
+          "dhatupatha": {
+            "locus": "06.0160",
+            "dhatu_devanagari": "विश्",
+            "aupadeshika_devanagari": "विशँ",
+            "artha_sanskrit": "प्रवेशने"
+          }
+        },
+        "derivation": "Veveṣṭi vyāpnoti iti viṣṇuḥ: 'that which pervades everywhere is Viṣṇu.' Chinmayananda connects the name with the root viś, 'to enter, to pervade.'"
+      },
+      "independently_derived_root": {
+        "form": "√viś",
+        "gana": "6",
+        "pada": "P",
+        "gloss": "to enter; pervade",
+        "dhatupatha": {
+          "locus": "06.0160",
+          "dhatu_devanagari": "विश्",
+          "aupadeshika_devanagari": "विशँ",
+          "artha_sanskrit": "प्रवेशने"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The source witness directly records √viś with प्रवेशने. The uṇādi-style name analysis remains a traditional derivation, but the root itself is secure.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:58"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:78"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:36726"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4862-4864"
+        ],
+        "supporting_grammar_loci": []
+      }
+    },
+    {
+      "name_number": 57,
+      "citation_iast": "kṛṣṇaḥ",
+      "citation_devanagari": "कृष्णः",
+      "commentator_claim": "The root Krish means Existence (sattā) and na means Bliss (ānanda). Therefore Kṛṣṇa (Krish+na) means Existence — Bliss (sattā — Aananda). Apart from the above meaning Kṛṣṇa also means the Enchanter of all His devotees (Aakarshana). They conclude that Kṛṣṇa means One who sweeps away the sins in the heart of those who meditate upon Him.",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "The word Kṛṣṇa means in Sanskrit 'the dark'. The Truth that is intellectually appreciated, but spiritually not apprehended, is considered as 'veiled behind some darkness' The root Krish means Existence (sattā) and na means Bliss (Aananda). Therefore Kṛṣṇa (Krish+na) means Existence — Bliss (sattā — Aananda). Apart from the above meaning Kṛṣṇa also means the Enchanter of all His devotees (Aakarshana). They conclude that Kṛṣṇa means One who sweeps away the sins in the heart of those who meditate upon Him."
+      },
+      "independently_derived_root": {
+        "form": "√kṛṣ",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to farm; to plow; to cultivate",
+        "dhatupatha": {
+          "locus": "01.1145",
+          "dhatu_devanagari": "कृष्",
+          "aupadeshika_devanagari": "कृषँ",
+          "artha_sanskrit": "विलेखने"
+        }
+      },
+      "verdict": "disagrees",
+      "qualification": "The Dhātupāṭha attests √kṛṣ with विलेखने, not with the commentary's existence/bliss split. The claim is a devotional nirvacana, but it is not the source-backed root sense.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:1636"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:3035"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25506"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3413-3415"
+        ],
+        "supporting_grammar_loci": []
+      }
+    },
+    {
+      "name_number": 59,
+      "citation_iast": "pratardanaḥ",
+      "citation_devanagari": "प्रतर्दनः",
+      "commentator_claim": "The root Tarda (तर्द) means \"destruction\" ( तर्द हिंसायाम् ) and with the prefix Pra the root (Pra-tarda) means \"supreme destruction\".",
+      "analysis_json_state": {
+        "root": {
+          "form": "√tṛd",
+          "gana": "7",
+          "pada": "U",
+          "gloss": "to kill; to destroy; to disregard; to insult",
+          "dhatupatha": {
+            "locus": "07.0009",
+            "dhatu_devanagari": "तृद्",
+            "aupadeshika_devanagari": "उँतृदिँर्",
+            "artha_sanskrit": "हिंसानादरयोः"
+          }
+        },
+        "derivation": "The root Tarda (तर्द) means \"destruction\" ( तर्द हिसायाम् ) and with the prefix Pra the root (Pra-tarda) means \"supreme destruction\"."
+      },
+      "independently_derived_root": {
+        "form": "√tṛd",
+        "gana": "7",
+        "pada": "U",
+        "gloss": "to kill; to destroy; to disregard; to insult",
+        "dhatupatha": {
+          "locus": "07.0009",
+          "dhatu_devanagari": "तृद्",
+          "aupadeshika_devanagari": "उँतृदिँर्",
+          "artha_sanskrit": "हिंसानादरयोः"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The commentator's तर्द spelling is a loose rendering of the attested Dhātupāṭha form तृद्/उँतृदिँर्. The source sense is destructive/insulting, which supports the pra-tarda reading.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:1695"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:3126"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:37379"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4931-4933"
+        ],
+        "supporting_grammar_loci": []
+      }
+    },
+    {
+      "name_number": 127,
+      "citation_iast": "vedaḥ",
+      "citation_devanagari": "वेदः",
+      "commentator_claim": "The term Veda comes from the root vid: 'to know'.",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": null
+      },
+      "independently_derived_root": {
+        "form": "√vid",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to know",
+        "dhatupatha": {
+          "locus": "02.0059",
+          "dhatu_devanagari": "विद्",
+          "aupadeshika_devanagari": "विदँ",
+          "artha_sanskrit": "ज्ञाने"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The Dhātupāṭha directly supports √vid with ज्ञाने. The analysis card leaves the root slot empty, but the commentator's etymology is source-backed.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:3632"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:6450"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27531"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3653-3655"
+        ],
+        "supporting_grammar_loci": []
+      }
+    },
+    {
+      "name_number": 273,
+      "citation_iast": "śipiviṣṭaḥ",
+      "citation_devanagari": "शिपिविष्टः",
+      "commentator_claim": "The root Si (शि) has also the meaning of waters; Sipi—'that which drinks water'—\"The rays of the Sun\".",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "The root Si (शि) has also the meaning of waters; Sipi—'that which drinks water'—\"The rays of the Sun\"."
+      },
+      "independently_derived_root": {
+        "form": "√śi",
+        "gana": "5",
+        "pada": "U",
+        "gloss": "to sharpen; to whet",
+        "dhatupatha": {
+          "locus": "05.0003",
+          "dhatu_devanagari": "शि",
+          "aupadeshika_devanagari": "शिञ्",
+          "artha_sanskrit": "निशाने"
+        }
+      },
+      "verdict": "disagrees",
+      "qualification": "The Dhātupāṭha gives शि/शिञ् with निशाने, not waters. The commentary's water-based Sipi etymology is therefore not source-backed in the grammar witnesses consulted here.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:7795"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:13551"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:32287"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4277-4279",
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt:3762"
+        ],
+        "supporting_grammar_loci": []
+      }
+    }
+  ]
+}

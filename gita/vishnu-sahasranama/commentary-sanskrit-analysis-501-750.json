@@ -1,0 +1,3091 @@
+{
+  "schema_version": 1,
+  "range": {
+    "start": 501,
+    "end": 750
+  },
+  "review_status": "primary-grammar-reviewed-complete",
+  "quotes": {
+    "name-505-paragraph-2-span-0": {
+      "quote_id": "name-505-paragraph-2-span-0",
+      "name_number": 505,
+      "printed_devanagari": "उमया सह वर्तते इति सोमः।",
+      "canonical_devanagari": "उमया सह वर्तते इति सोमः",
+      "iast": "umayā saha vartate iti somaḥ",
+      "source_label": "Chinmayananda commentary derivation on name 505",
+      "canonical_locus": "Chinmayananda commentary on name 505",
+      "textual_notes": [
+        "No external primary witness for this derivational sentence was located in the local source set; the printed commentary is the only witness used here.",
+        "The nearby Gītā citation in the same commentary block is a separate quote and is not merged into this record."
+      ],
+      "english": "He who abides together with Umā is Soma.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{2:He who abides }{1:together with }{0:Umā }{3:is }{4:Soma.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "उमया",
+          "iast": "umayā",
+          "gloss": "with Umā",
+          "parts": [
+            {
+              "form": "umā",
+              "gloss": "Umā"
+            },
+            {
+              "form": "ṭā",
+              "gloss": "instrumental singular"
+            }
+          ],
+          "stem": "umā",
+          "root": null,
+          "affix": "ṭā (tṛtīyā ekavacana)",
+          "morph": "instrumental feminine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "सह",
+          "iast": "saha",
+          "gloss": "together with",
+          "parts": [
+            {
+              "form": "saha",
+              "gloss": "together with"
+            }
+          ],
+          "stem": "saha",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "वर्तते",
+          "iast": "vartate",
+          "gloss": "abides",
+          "parts": [
+            {
+              "form": "vṛt",
+              "gloss": "turns, exists, abides"
+            },
+            {
+              "form": "laṭ + te",
+              "gloss": "present 3rd singular ātmanepada"
+            }
+          ],
+          "stem": "vṛt",
+          "root": {
+            "form": "√vṛt",
+            "gana": "1",
+            "pada": "A",
+            "gloss": "to be; happen; abide",
+            "dhatupatha": {
+              "locus": "01.0862",
+              "dhatu_devanagari": "वृत्",
+              "aupadeshika_devanagari": "वृतुँ",
+              "artha_sanskrit": "वर्तने"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:2584-2586"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:18652"
+              ]
+            }
+          },
+          "affix": "laṭ + te",
+          "morph": "present indicative 3rd person singular ātmanepada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "सोमः",
+          "iast": "somaḥ",
+          "gloss": "Soma",
+          "parts": [
+            {
+              "form": "soma",
+              "gloss": "Soma"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "soma",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "umayā saha vartate iti somaḥ",
+      "source_segments": [
+        {
+          "text": "उमया ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "सह ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "वर्तते ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "सोमः",
+          "word_indices": [
+            4
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-564-paragraph-1-span-0": {
+      "quote_id": "name-564-paragraph-1-span-0",
+      "name_number": 564,
+      "printed_devanagari": "ध्येयः सदा सवितृमण्डलमध्यवर्ती नारायणः सरसिजासनसन्निविष्टः। केयूरवान् मकरकुण्डलवान् किरीटी हारी हिरण्मयवपुर्धृतशङ्खचक्रः॥",
+      "canonical_devanagari": "ध्येयः सदा सवितृमण्डलमध्यवर्ती नारायणः सरसिजासनसन्निविष्टः केयूरवान् मकरकुण्डलवान् किरीटी हारी हिरण्मयवपुर्धृतशङ्खचक्रः",
+      "iast": "dhyeyaḥ sadā savitṛmaṇḍalamadhyavartī nārāyaṇaḥ sarasijāsanasanniviṣṭaḥ keyūravān makarakuṇḍalavān kirīṭī hārī hiraṇmayavapurdhṛtaśaṅkhacakraḥ",
+      "source_label": "Chinmayananda commentary quotation of a solar Nārāyaṇa dhyāna verse",
+      "canonical_locus": "Chinmayananda commentary on name 564",
+      "textual_notes": [
+        "I did not locate a clean external primary witness for this verse in the local source set during this pass, so canonical_devanagari preserves the commentary witness apart from removing sentence punctuation.",
+        "The printed commentary provides a separable English rendering, which is preserved here."
+      ],
+      "english": "One must meditate upon Viṣṇu who is adorned fully, holding in His hands the Conch and the Discus, sitting in Padmaasana, enveloped in golden hue, in the centre of the orb of the Sun.",
+      "english_source": "Swami Chinmayananda",
+      "english_slots": "{0:One must meditate upon }{3:Viṣṇu }{5:who is adorned fully, }{9:holding in His hands the Conch and the Discus, }{4:sitting in Padmaasana, }{9:enveloped in golden hue, }{2:in the centre of the orb of the Sun}{1:}{6:}{7:}{8:.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "ध्येयः",
+          "iast": "dhyeyaḥ",
+          "gloss": "to be meditated upon",
+          "parts": [
+            {
+              "form": "dhyeya",
+              "gloss": "to be meditated upon"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "dhyeya",
+          "root": {
+            "form": "√dhyai",
+            "gana": "1",
+            "pada": "P",
+            "gloss": "to meditate; think",
+            "dhatupatha": {
+              "locus": "01.1056",
+              "dhatu_devanagari": "ध्यै",
+              "aupadeshika_devanagari": "ध्यै",
+              "artha_sanskrit": "चिन्तायाम्"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3146-3148"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:23235"
+              ]
+            }
+          },
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular gerundive/adjectival form",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "सदा",
+          "iast": "sadā",
+          "gloss": "always",
+          "parts": [
+            {
+              "form": "sadā",
+              "gloss": "always"
+            }
+          ],
+          "stem": "sadā",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "सवितृमण्डलमध्यवर्ती",
+          "iast": "savitṛmaṇḍalamadhyavartī",
+          "gloss": "abiding in the midst of the solar orb",
+          "parts": [
+            {
+              "form": "savitṛ",
+              "gloss": "the sun"
+            },
+            {
+              "form": "maṇḍala",
+              "gloss": "orb, disk"
+            },
+            {
+              "form": "madhya",
+              "gloss": "middle"
+            },
+            {
+              "form": "vartin",
+              "gloss": "abiding"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "savitṛmaṇḍalamadhyavartin",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular compound adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "नारायणः",
+          "iast": "nārāyaṇaḥ",
+          "gloss": "Nārāyaṇa, Viṣṇu",
+          "parts": [
+            {
+              "form": "nārāyaṇa",
+              "gloss": "Nārāyaṇa, Viṣṇu"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "nārāyaṇa",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular proper noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "सरसिजासनसन्निविष्टः",
+          "iast": "sarasijāsanasanniviṣṭaḥ",
+          "gloss": "seated on a lotus-seat",
+          "parts": [
+            {
+              "form": "sarasija",
+              "gloss": "lotus"
+            },
+            {
+              "form": "āsana",
+              "gloss": "seat"
+            },
+            {
+              "form": "sanniviṣṭa",
+              "gloss": "seated"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "sarasijāsanasanniviṣṭa",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular compound participial adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 5,
+          "deva": "केयूरवान्",
+          "iast": "keyūravān",
+          "gloss": "wearing armlets",
+          "parts": [
+            {
+              "form": "keyūra",
+              "gloss": "armlet"
+            },
+            {
+              "form": "matup/vat",
+              "gloss": "possessing"
+            }
+          ],
+          "stem": "keyūravant",
+          "root": null,
+          "affix": "matup-derived possessive ending",
+          "morph": "nominative masculine singular possessive adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 6,
+          "deva": "मकरकुण्डलवान्",
+          "iast": "makarakuṇḍalavān",
+          "gloss": "wearing makara-earrings",
+          "parts": [
+            {
+              "form": "makara",
+              "gloss": "makara"
+            },
+            {
+              "form": "kuṇḍala",
+              "gloss": "earring"
+            },
+            {
+              "form": "matup/vat",
+              "gloss": "possessing"
+            }
+          ],
+          "stem": "makarakuṇḍalavant",
+          "root": null,
+          "affix": "matup-derived possessive ending",
+          "morph": "nominative masculine singular possessive compound adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 7,
+          "deva": "किरीटी",
+          "iast": "kirīṭī",
+          "gloss": "wearing a crown",
+          "parts": [
+            {
+              "form": "kirīṭin",
+              "gloss": "wearing a crown"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "kirīṭin",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 8,
+          "deva": "हारी",
+          "iast": "hārī",
+          "gloss": "wearing a garland",
+          "parts": [
+            {
+              "form": "hārin",
+              "gloss": "wearing a garland"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "hārin",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 9,
+          "deva": "हिरण्मयवपुर्धृतशङ्खचक्रः",
+          "iast": "hiraṇmayavapurdhṛtaśaṅkhacakraḥ",
+          "gloss": "golden-bodied, bearing conch and discus",
+          "parts": [
+            {
+              "form": "hiraṇmaya",
+              "gloss": "golden"
+            },
+            {
+              "form": "vapus",
+              "gloss": "body"
+            },
+            {
+              "form": "dhṛta",
+              "gloss": "held, bearing"
+            },
+            {
+              "form": "śaṅkha",
+              "gloss": "conch"
+            },
+            {
+              "form": "cakra",
+              "gloss": "discus"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "hiraṇmayavapurdhṛtaśaṅkhacakra",
+          "root": null,
+          "affix": "su (prathamā ekavacana); internal sandhi preserves vapus + dhṛta as vapurdhṛta in the source layer",
+          "morph": "nominative masculine singular compound adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "dhyeyaḥ sadā savitṛmaṇḍalamadhyavartī nārāyaṇaḥ sarasijāsanasanniviṣṭaḥ keyūravān makarakuṇḍalavān kirīṭī hārī hiraṇmayavapurdhṛtaśaṅkhacakraḥ",
+      "source_segments": [
+        {
+          "text": "ध्येयः ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "सदा ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "सवितृमण्डलमध्यवर्ती ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "नारायणः ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "सरसिजासनसन्निविष्टः ",
+          "word_indices": [
+            4
+          ]
+        },
+        {
+          "text": "केयूरवान् ",
+          "word_indices": [
+            5
+          ]
+        },
+        {
+          "text": "मकरकुण्डलवान् ",
+          "word_indices": [
+            6
+          ]
+        },
+        {
+          "text": "किरीटी ",
+          "word_indices": [
+            7
+          ]
+        },
+        {
+          "text": "हारी ",
+          "word_indices": [
+            8
+          ]
+        },
+        {
+          "text": "हिरण्मयवपुर्धृतशङ्खचक्रः",
+          "word_indices": [
+            9
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-611-paragraph-1-span-0": {
+      "quote_id": "name-611-paragraph-1-span-0",
+      "name_number": 611,
+      "printed_devanagari": "श्रियं करोति इति श्रीकरः",
+      "canonical_devanagari": "श्रियं करोति इति श्रीकरः",
+      "iast": "śriyaṃ karoti iti śrīkaraḥ",
+      "source_label": "Chinmayananda commentary derivation on name 611",
+      "canonical_locus": "Chinmayananda commentary on name 611",
+      "textual_notes": [
+        "This is a commentary-internal derivational sentence; no external source witness was used for normalization."
+      ],
+      "english": "One Who bestows Auspiciousness.",
+      "english_source": "Swami Chinmayananda",
+      "english_slots": "{3:One }{1:Who bestows }{0:Auspiciousness}{2:.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "श्रियं",
+          "iast": "śriyaṃ",
+          "gloss": "auspiciousness",
+          "parts": [
+            {
+              "form": "śrī",
+              "gloss": "splendor, auspiciousness"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "śrī",
+          "root": null,
+          "affix": "am (dvitīyā ekavacana)",
+          "morph": "accusative feminine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "करोति",
+          "iast": "karoti",
+          "gloss": "makes, bestows",
+          "parts": [
+            {
+              "form": "kṛ",
+              "gloss": "make, do"
+            },
+            {
+              "form": "laṭ + ti",
+              "gloss": "present 3rd singular parasmaipada"
+            }
+          ],
+          "stem": "kṛ",
+          "root": {
+            "form": "√kṛ",
+            "gana": "8",
+            "pada": "U",
+            "gloss": "to do; make",
+            "dhatupatha": {
+              "locus": "08.0010",
+              "dhatu_devanagari": "कृ",
+              "aupadeshika_devanagari": "डुकृञ्",
+              "artha_sanskrit": "करणे"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5009-5011"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:37957"
+              ]
+            }
+          },
+          "affix": "laṭ + ti",
+          "morph": "present indicative 3rd person singular parasmaipada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "श्रीकरः",
+          "iast": "śrīkaraḥ",
+          "gloss": "bestower of auspiciousness",
+          "parts": [
+            {
+              "form": "śrī",
+              "gloss": "auspiciousness"
+            },
+            {
+              "form": "kara",
+              "gloss": "maker, doer"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "śrīkara",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular compound noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "śriyaṃ karoti iti śrīkaraḥ",
+      "source_segments": [
+        {
+          "text": "श्रियं ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "करोति ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "श्रीकरः",
+          "word_indices": [
+            3
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-615-paragraph-1-span-0": {
+      "quote_id": "name-615-paragraph-1-span-0",
+      "name_number": 615,
+      "printed_devanagari": "शोमने पुण्डरीकाभे अक्षिणी अस्य इति स्वक्षः।",
+      "canonical_devanagari": "शोभने पुण्डरीकाभे अक्षिणी अस्य इति स्वक्षः",
+      "iast": "śobhane puṇḍarīkābhe akṣiṇī asya iti svakṣaḥ",
+      "source_label": "Chinmayananda commentary derivation on name 615",
+      "canonical_locus": "Chinmayananda commentary on name 615",
+      "textual_notes": [
+        "The printed Devanagari reads शोमने, but the parallel printed IAST in the same witness reads 'Sobhane'; canonical_devanagari follows that same-witness cross-script evidence.",
+        "No external primary witness for this derivational sentence was located in the local source set."
+      ],
+      "english": "He whose eyes are beautiful and lotus-like is Svakṣaḥ.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{3:He whose }{2:eyes are }{0:beautiful }{1:and lotus-like }{4:is }{5:Svakṣaḥ.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "शोभने",
+          "iast": "śobhane",
+          "gloss": "beautiful",
+          "parts": [
+            {
+              "form": "śobhana",
+              "gloss": "beautiful"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "śobhana",
+          "root": null,
+          "affix": "ṅi (saptamī ekavacana)",
+          "morph": "locative neuter singular adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "पुण्डरीकाभे",
+          "iast": "puṇḍarīkābhe",
+          "gloss": "lotus-like",
+          "parts": [
+            {
+              "form": "puṇḍarīkābha",
+              "gloss": "lotus-like"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "puṇḍarīkābha",
+          "root": null,
+          "affix": "ṅi (saptamī ekavacana)",
+          "morph": "locative neuter singular adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "अक्षिणी",
+          "iast": "akṣiṇī",
+          "gloss": "eyes",
+          "parts": [
+            {
+              "form": "akṣi",
+              "gloss": "eye"
+            },
+            {
+              "form": "au",
+              "gloss": "dual"
+            }
+          ],
+          "stem": "akṣi",
+          "root": null,
+          "affix": "dual ending",
+          "morph": "nominative neuter dual noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "अस्य",
+          "iast": "asya",
+          "gloss": "of him, whose",
+          "parts": [
+            {
+              "form": "idam",
+              "gloss": "this/he"
+            },
+            {
+              "form": "ṅas",
+              "gloss": "genitive singular"
+            }
+          ],
+          "stem": "idam",
+          "root": null,
+          "affix": "ṅas (ṣaṣṭhī ekavacana)",
+          "morph": "genitive masculine singular pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 5,
+          "deva": "स्वक्षः",
+          "iast": "svakṣaḥ",
+          "gloss": "Svakṣaḥ",
+          "parts": [
+            {
+              "form": "svakṣa",
+              "gloss": "Svakṣaḥ"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "svakṣa",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "śobhane puṇḍarīkābhe akṣiṇī asya iti svakṣaḥ",
+      "source_segments": [
+        {
+          "text": "शोभने ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "पुण्डरीकाभे ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "अक्षिणी ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "अस्य ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            4
+          ]
+        },
+        {
+          "text": "स्वक्षः",
+          "word_indices": [
+            5
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-626-paragraph-1-span-0": {
+      "quote_id": "name-626-paragraph-1-span-0",
+      "name_number": 626,
+      "printed_devanagari": "न विद्यते अस्य ईश इति अनीशः",
+      "canonical_devanagari": "न विद्यते अस्य ईश इति अनीशः",
+      "iast": "na vidyate asya īśa iti anīśaḥ",
+      "source_label": "Chinmayananda commentary derivation on name 626",
+      "canonical_locus": "Chinmayananda commentary on name 626",
+      "textual_notes": [
+        "The commentary immediately cites Nārāyaṇopaniṣad 1 ('न तस्येशः कश्चन'), but that cited supporting line was not located in the local primary witness set during this pass.",
+        "This record therefore preserves only the commentary's own derivational sentence."
+      ],
+      "english": "One Who has none to lord over Him.",
+      "english_source": "Swami Chinmayananda",
+      "english_slots": "{5:One }{3:Who has }{0:}{1:none }{2:to lord over Him}{4:.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "not",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "विद्यते",
+          "iast": "vidyate",
+          "gloss": "exists",
+          "parts": [
+            {
+              "form": "vid",
+              "gloss": "be found, exist"
+            },
+            {
+              "form": "laṭ + te",
+              "gloss": "present 3rd singular ātmanepada"
+            }
+          ],
+          "stem": "vid",
+          "root": {
+            "form": "√vid",
+            "gana": "4",
+            "pada": "A",
+            "gloss": "to exist",
+            "dhatupatha": {
+              "locus": "04.0067",
+              "dhatu_devanagari": "विद्",
+              "aupadeshika_devanagari": "विदँ",
+              "artha_sanskrit": "सत्तायाम्"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3984-3986"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:30103"
+              ]
+            },
+            "note": "Selected for forms glossed or explained as existence, not cognition."
+          },
+          "affix": "laṭ + te",
+          "morph": "present indicative 3rd person singular ātmanepada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "अस्य",
+          "iast": "asya",
+          "gloss": "for him, of him",
+          "parts": [
+            {
+              "form": "idam",
+              "gloss": "this/he"
+            },
+            {
+              "form": "ṅas",
+              "gloss": "genitive singular"
+            }
+          ],
+          "stem": "idam",
+          "root": null,
+          "affix": "ṅas (ṣaṣṭhī ekavacana)",
+          "morph": "genitive masculine singular pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "ईश",
+          "iast": "īśa",
+          "gloss": "lord",
+          "parts": [
+            {
+              "form": "īśa",
+              "gloss": "lord"
+            }
+          ],
+          "stem": "īśa",
+          "root": null,
+          "affix": "bare stem in derivational citation",
+          "morph": "nominal stem cited in derivational prose",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 5,
+          "deva": "अनीशः",
+          "iast": "anīśaḥ",
+          "gloss": "Anīśaḥ",
+          "parts": [
+            {
+              "form": "an-īśa",
+              "gloss": "without a lord"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "anīśa",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular adjective/noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "na vidyate asya īśa iti anīśaḥ",
+      "source_segments": [
+        {
+          "text": "न ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "विद्यते ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "अस्य ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "ईश ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            4
+          ]
+        },
+        {
+          "text": "अनीशः",
+          "word_indices": [
+            5
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-628-paragraph-1-span-0": {
+      "quote_id": "name-628-paragraph-1-span-0",
+      "name_number": 628,
+      "printed_devanagari": "भूः शेते अस्मिन् इति भूशयः",
+      "canonical_devanagari": "भूः शेते अस्मिन् इति भूशयः",
+      "iast": "bhūḥ śete asmin iti bhūśayaḥ",
+      "source_label": "Chinmayananda commentary derivation on name 628",
+      "canonical_locus": "Chinmayananda commentary on name 628",
+      "textual_notes": [
+        "This is preserved as a commentary derivation. No external witness was used to replace or normalize it."
+      ],
+      "english": "He in whom the earth rests is Bhūśayaḥ.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{4:He in whom }{0:the earth }{1:rests }{2:}{3:is }{4:Bhūśayaḥ.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "भूः",
+          "iast": "bhūḥ",
+          "gloss": "earth",
+          "parts": [
+            {
+              "form": "bhū",
+              "gloss": "earth"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "bhū",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative feminine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "शेते",
+          "iast": "śete",
+          "gloss": "rests, lies",
+          "parts": [
+            {
+              "form": "śī",
+              "gloss": "lie, rest"
+            },
+            {
+              "form": "laṭ + te",
+              "gloss": "present 3rd singular ātmanepada"
+            }
+          ],
+          "stem": "śī",
+          "root": {
+            "form": "√śī",
+            "gana": "2",
+            "pada": "A",
+            "gloss": "to lie; rest",
+            "dhatupatha": {
+              "locus": "02.0026",
+              "dhatu_devanagari": "शी",
+              "aupadeshika_devanagari": "शीङ्",
+              "artha_sanskrit": "स्वप्ने"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3554-3556"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:26651"
+              ]
+            }
+          },
+          "affix": "laṭ + te",
+          "morph": "present indicative 3rd person singular ātmanepada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "अस्मिन्",
+          "iast": "asmin",
+          "gloss": "in this, in him",
+          "parts": [
+            {
+              "form": "idam",
+              "gloss": "this"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "idam",
+          "root": null,
+          "affix": "ṅi (saptamī ekavacana)",
+          "morph": "locative masculine singular pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "भूशयः",
+          "iast": "bhūśayaḥ",
+          "gloss": "Bhūśayaḥ",
+          "parts": [
+            {
+              "form": "bhūśaya",
+              "gloss": "Bhūśayaḥ"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "bhūśaya",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "bhūḥ śete asmin iti bhūśayaḥ",
+      "source_segments": [
+        {
+          "text": "भूः ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "शेते ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "अस्मिन् ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "भूशयः",
+          "word_indices": [
+            4
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-639-paragraph-1-span-0": {
+      "quote_id": "name-639-paragraph-1-span-0",
+      "name_number": 639,
+      "printed_devanagari": "न विद्यते प्रतिरथः—अप्रतिरथः",
+      "canonical_devanagari": "न विद्यते प्रतिरथः अप्रतिरथः",
+      "iast": "na vidyate pratirathaḥ apratirathaḥ",
+      "source_label": "Chinmayananda commentary derivation on name 639",
+      "canonical_locus": "Chinmayananda commentary on name 639",
+      "textual_notes": [
+        "The printed em dash is treated as punctuation between the explanatory clause and the resulting name."
+      ],
+      "english": "He for whom no counter-chariot-warrior exists is Apratirathaḥ.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{3:He for whom }{0:no }{2:counter-chariot-warrior }{1:exists }{3:is Apratirathaḥ.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "not",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "विद्यते",
+          "iast": "vidyate",
+          "gloss": "exists",
+          "parts": [
+            {
+              "form": "vid",
+              "gloss": "be found, exist"
+            },
+            {
+              "form": "laṭ + te",
+              "gloss": "present 3rd singular ātmanepada"
+            }
+          ],
+          "stem": "vid",
+          "root": {
+            "form": "√vid",
+            "gana": "4",
+            "pada": "A",
+            "gloss": "to exist",
+            "dhatupatha": {
+              "locus": "04.0067",
+              "dhatu_devanagari": "विद्",
+              "aupadeshika_devanagari": "विदँ",
+              "artha_sanskrit": "सत्तायाम्"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3984-3986"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:30103"
+              ]
+            },
+            "note": "Selected for forms glossed or explained as existence, not cognition."
+          },
+          "affix": "laṭ + te",
+          "morph": "present indicative 3rd person singular ātmanepada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "प्रतिरथः",
+          "iast": "pratirathaḥ",
+          "gloss": "counter-chariot-warrior, rival champion",
+          "parts": [
+            {
+              "form": "pratiratha",
+              "gloss": "counter-chariot-warrior, rival champion"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "pratiratha",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "अप्रतिरथः",
+          "iast": "apratirathaḥ",
+          "gloss": "Apratirathaḥ",
+          "parts": [
+            {
+              "form": "a-pratiratha",
+              "gloss": "without a rival champion"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "apratiratha",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular adjective/noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "na vidyate pratirathaḥ apratirathaḥ",
+      "source_segments": [
+        {
+          "text": "न ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "विद्यते ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "प्रतिरथः ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "अप्रतिरथः",
+          "word_indices": [
+            3
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-651-paragraph-1-span-0": {
+      "quote_id": "name-651-paragraph-1-span-0",
+      "name_number": 651,
+      "printed_devanagari": "काम्यते इति कामः—स देवः कामदेवः।",
+      "canonical_devanagari": "काम्यते इति कामः स देवः कामदेवः",
+      "iast": "kāmyate iti kāmaḥ sa devaḥ kāmadevaḥ",
+      "source_label": "Chinmayananda commentary derivation on name 651",
+      "canonical_locus": "Chinmayananda commentary on name 651",
+      "textual_notes": [
+        "The printed dash is treated as punctuation between the derivation and the appositional explanation."
+      ],
+      "english": "He who is desired is Kāmaḥ; that god is Kāmadevaḥ.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{2:He who }{0:is desired }{1:is }{2:Kāmaḥ; }{3:that }{4:god }{5:is Kāmadevaḥ.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "काम्यते",
+          "iast": "kāmyate",
+          "gloss": "is desired",
+          "parts": [
+            {
+              "form": "kām",
+              "gloss": "desire"
+            },
+            {
+              "form": "ya + laṭ + te",
+              "gloss": "present passive 3rd singular"
+            }
+          ],
+          "stem": "kām",
+          "root": null,
+          "affix": "ya + laṭ + te",
+          "morph": "present passive 3rd person singular verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "कामः",
+          "iast": "kāmaḥ",
+          "gloss": "Kāmaḥ, the desired one",
+          "parts": [
+            {
+              "form": "kāma",
+              "gloss": "desire; desired one"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "kāma",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "स",
+          "iast": "sa",
+          "gloss": "that, he",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that, he"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "देवः",
+          "iast": "devaḥ",
+          "gloss": "god",
+          "parts": [
+            {
+              "form": "deva",
+              "gloss": "god"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "deva",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 5,
+          "deva": "कामदेवः",
+          "iast": "kāmadevaḥ",
+          "gloss": "Kāmadevaḥ",
+          "parts": [
+            {
+              "form": "kāma",
+              "gloss": "desire"
+            },
+            {
+              "form": "deva",
+              "gloss": "god"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "kāmadeva",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular compound noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "kāmyate iti kāmaḥ sa devaḥ kāmadevaḥ",
+      "source_segments": [
+        {
+          "text": "काम्यते ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "कामः ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "स ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "देवः ",
+          "word_indices": [
+            4
+          ]
+        },
+        {
+          "text": "कामदेवः",
+          "word_indices": [
+            5
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-664-paragraph-1-span-0": {
+      "quote_id": "name-664-paragraph-1-span-0",
+      "name_number": 664,
+      "printed_devanagari": "बृहत्त्वात् ब्रह्म।",
+      "canonical_devanagari": "बृहत्त्वात् ब्रह्म",
+      "iast": "bṛhattvāt brahma",
+      "source_label": "Chinmayananda commentary derivation on name 664",
+      "canonical_locus": "Chinmayananda commentary on name 664",
+      "textual_notes": [
+        "This derivational sentence is preserved from the printed commentary.",
+        "The same commentary block separately cites Taittirīya Upaniṣad 2.1.1 ('satyaṃ jñānam anantaṃ brahma'), located locally in data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt."
+      ],
+      "english": "Because of vastness, it is Brahman.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:Because of vastness, }{1:it is Brahman.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "बृहत्त्वात्",
+          "iast": "bṛhattvāt",
+          "gloss": "because of vastness",
+          "parts": [
+            {
+              "form": "bṛhattva",
+              "gloss": "vastness, greatness"
+            },
+            {
+              "form": "ṅasi",
+              "gloss": "ablative singular"
+            }
+          ],
+          "stem": "bṛhattva",
+          "root": null,
+          "affix": "ṅasi (pañcamī ekavacana)",
+          "morph": "ablative neuter singular abstract noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with local Sanskrit support check; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "ब्रह्म",
+          "iast": "brahma",
+          "gloss": "Brahman",
+          "parts": [
+            {
+              "form": "brahman",
+              "gloss": "Brahman"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "brahman",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative/accusative neuter singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with local Sanskrit support check; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "bṛhattvāt brahma",
+      "source_segments": [
+        {
+          "text": "बृहत्त्वात् ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "ब्रह्म",
+          "word_indices": [
+            1
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-673-paragraph-3-span-0": {
+      "quote_id": "name-673-paragraph-3-span-0",
+      "name_number": 673,
+      "printed_devanagari": "तमेव भान्तमनभाति सर्वं तस्य भासा सर्वं मिदं विभाति ।",
+      "canonical_devanagari": "तमेव भान्तम् अनु भाति सर्वं तस्य भासा सर्वम् इदं विभाति",
+      "iast": "tam eva bhāntam anu bhāti sarvaṃ tasya bhāsā sarvam idaṃ vibhāti",
+      "source_label": "Kaṭha Upaniṣad 2.2.15 shared line, also cited in the commentary as Muṇḍaka Upaniṣad 2.2.10",
+      "canonical_locus": "Kaṭha Upaniṣad 2.2.15",
+      "textual_notes": [
+        "The printed commentary cites Muṇḍaka 2.2.10 and prints several OCR slips ('अनभाति', 'मिदं').",
+        "Canonical normalization follows the local primary witness at data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt:603-604, which preserves the same half-verse in IAST."
+      ],
+      "english": "When He shines, everything shines after him; by His light, all these shine.",
+      "english_source": "Swami Chinmayananda",
+      "english_slots": "{0,1:When He shines, }{2,3,4:everything shines after him; }{5,6:by His light, }{7,8,9:all these shine.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "तमेव",
+          "iast": "tam eva",
+          "gloss": "that very one alone",
+          "parts": [
+            {
+              "form": "tam",
+              "gloss": "him, that one"
+            },
+            {
+              "form": "eva",
+              "gloss": "alone, indeed"
+            }
+          ],
+          "stem": "tad + eva",
+          "root": null,
+          "affix": "sandhied phrase",
+          "morph": "accusative masculine singular pronoun plus indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "भान्तम्",
+          "iast": "bhāntam",
+          "gloss": "shining",
+          "parts": [
+            {
+              "form": "bhānta",
+              "gloss": "shining"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "bhānta",
+          "root": null,
+          "affix": "am (dvitīyā ekavacana)",
+          "morph": "accusative masculine singular participial adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "अनु",
+          "iast": "anu",
+          "gloss": "after",
+          "parts": [
+            {
+              "form": "anu",
+              "gloss": "after"
+            }
+          ],
+          "stem": "anu",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable preverb/adverb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "भाति",
+          "iast": "bhāti",
+          "gloss": "shines",
+          "parts": [
+            {
+              "form": "bhā",
+              "gloss": "shine"
+            },
+            {
+              "form": "laṭ + ti",
+              "gloss": "present 3rd singular"
+            }
+          ],
+          "stem": "bhā",
+          "root": {
+            "form": "√bhā",
+            "gana": "2",
+            "pada": "P",
+            "gloss": "to shine",
+            "dhatupatha": {
+              "locus": "02.0046",
+              "dhatu_devanagari": "भा",
+              "aupadeshika_devanagari": "भा",
+              "artha_sanskrit": "दीप्तौ"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3614-3616"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27183"
+              ]
+            }
+          },
+          "affix": "laṭ + ti",
+          "morph": "present indicative 3rd person singular parasmaipada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "सर्वं",
+          "iast": "sarvaṃ",
+          "gloss": "everything",
+          "parts": [
+            {
+              "form": "sarva",
+              "gloss": "all, everything"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "sarva",
+          "root": null,
+          "affix": "am (dvitīyā ekavacana)",
+          "morph": "accusative neuter singular adjective used substantively",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        },
+        {
+          "i": 5,
+          "deva": "तस्य",
+          "iast": "tasya",
+          "gloss": "by his, of him",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that, he"
+            },
+            {
+              "form": "ṅas",
+              "gloss": "genitive singular"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "affix": "ṅas (ṣaṣṭhī ekavacana)",
+          "morph": "genitive masculine singular pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        },
+        {
+          "i": 6,
+          "deva": "भासा",
+          "iast": "bhāsā",
+          "gloss": "by light",
+          "parts": [
+            {
+              "form": "bhās",
+              "gloss": "light, radiance"
+            },
+            {
+              "form": "ṭā",
+              "gloss": "instrumental singular"
+            }
+          ],
+          "stem": "bhās",
+          "root": null,
+          "affix": "ṭā (tṛtīyā ekavacana)",
+          "morph": "instrumental feminine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        },
+        {
+          "i": 7,
+          "deva": "सर्वम्",
+          "iast": "sarvam",
+          "gloss": "all",
+          "parts": [
+            {
+              "form": "sarva",
+              "gloss": "all"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "sarva",
+          "root": null,
+          "affix": "am (dvitīyā ekavacana)",
+          "morph": "accusative neuter singular adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        },
+        {
+          "i": 8,
+          "deva": "इदं",
+          "iast": "idaṃ",
+          "gloss": "this",
+          "parts": [
+            {
+              "form": "idam",
+              "gloss": "this"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "idam",
+          "root": null,
+          "affix": "am (dvitīyā ekavacana)",
+          "morph": "accusative neuter singular pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        },
+        {
+          "i": 9,
+          "deva": "विभाति",
+          "iast": "vibhāti",
+          "gloss": "shines forth",
+          "parts": [
+            {
+              "form": "vi-bhā",
+              "gloss": "shine forth"
+            },
+            {
+              "form": "laṭ + ti",
+              "gloss": "present 3rd singular"
+            }
+          ],
+          "stem": "vi-bhā",
+          "root": {
+            "form": "√bhā",
+            "gana": "2",
+            "pada": "P",
+            "gloss": "to shine",
+            "dhatupatha": {
+              "locus": "02.0046",
+              "dhatu_devanagari": "भा",
+              "aupadeshika_devanagari": "भा",
+              "artha_sanskrit": "दीप्तौ"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3614-3616"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27183"
+              ]
+            }
+          },
+          "affix": "laṭ + ti",
+          "morph": "present indicative 3rd person singular parasmaipada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "supporting_witnesses": [
+              "data/sources/sanskrit/vedic/katha_upanisad_sankara_bhasya_gretil.txt"
+            ],
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual source-text collation; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "tameva bhāntam anu bhāti sarvaṃ tasya bhāsā sarvam idaṃ vibhāti",
+      "source_segments": [
+        {
+          "text": "तमेव ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "भान्तम् ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "अनु ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "भाति ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "सर्वं ",
+          "word_indices": [
+            4
+          ]
+        },
+        {
+          "text": "तस्य ",
+          "word_indices": [
+            5
+          ]
+        },
+        {
+          "text": "भासा ",
+          "word_indices": [
+            6
+          ]
+        },
+        {
+          "text": "सर्वम् ",
+          "word_indices": [
+            7
+          ]
+        },
+        {
+          "text": "इदं ",
+          "word_indices": [
+            8
+          ]
+        },
+        {
+          "text": "विभाति",
+          "word_indices": [
+            9
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-674-paragraph-1-span-0": {
+      "quote_id": "name-674-paragraph-1-span-0",
+      "name_number": 674,
+      "printed_devanagari": "उरमा गच्छति इति उरगः।",
+      "canonical_devanagari": "उरसा गच्छति इति उरगः",
+      "iast": "urasā gacchati iti uragaḥ",
+      "source_label": "Chinmayananda commentary derivation on name 674",
+      "canonical_locus": "Chinmayananda commentary on name 674",
+      "textual_notes": [
+        "The printed Devanagari reads उरमा, but the parallel printed IAST in the same witness reads 'Urasaa'; canonical_devanagari follows that same-witness cross-script evidence.",
+        "No external primary witness for this derivational sentence was located in the local source set."
+      ],
+      "english": "One who crawls on his belly is Uraga.",
+      "english_source": "Swami Chinmayananda",
+      "english_slots": "{3:One who }{1:crawls on }{0:his belly }{2:is }{3:Uraga.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "उरसा",
+          "iast": "urasā",
+          "gloss": "with the chest, on the belly",
+          "parts": [
+            {
+              "form": "uras",
+              "gloss": "chest, breast, belly-side"
+            },
+            {
+              "form": "ṭā",
+              "gloss": "instrumental singular"
+            }
+          ],
+          "stem": "uras",
+          "root": null,
+          "affix": "ṭā (tṛtīyā ekavacana)",
+          "morph": "instrumental neuter singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "गच्छति",
+          "iast": "gacchati",
+          "gloss": "goes, crawls",
+          "parts": [
+            {
+              "form": "gam",
+              "gloss": "go"
+            },
+            {
+              "form": "laṭ + ti",
+              "gloss": "present 3rd singular"
+            }
+          ],
+          "stem": "gam",
+          "root": {
+            "form": "√gam",
+            "gana": "1",
+            "pada": "P",
+            "gloss": "to go",
+            "dhatupatha": {
+              "locus": "01.1137",
+              "dhatu_devanagari": "गम्",
+              "aupadeshika_devanagari": "गमॢँ",
+              "artha_sanskrit": "गतौ"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3389-3391"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25203"
+              ]
+            }
+          },
+          "affix": "laṭ + ti",
+          "morph": "present indicative 3rd person singular parasmaipada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "उरगः",
+          "iast": "uragaḥ",
+          "gloss": "Uraga",
+          "parts": [
+            {
+              "form": "uraga",
+              "gloss": "serpent, crawler"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "uraga",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "urasā gacchati iti uragaḥ",
+      "source_segments": [
+        {
+          "text": "उरसा ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "गच्छति ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "उरगः",
+          "word_indices": [
+            3
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-715-paragraph-1-span-0": {
+      "quote_id": "name-715-paragraph-1-span-0",
+      "name_number": 715,
+      "printed_devanagari": "दुर्धरः अथ अपराजितः।",
+      "canonical_devanagari": "दुर्धरः अथ अपराजितः",
+      "iast": "durdharaḥ atha aparājitaḥ",
+      "source_label": "Chinmayananda commentary derivation on name 715",
+      "canonical_locus": "Chinmayananda commentary on name 715",
+      "textual_notes": [
+        "This short derivational gloss is preserved from the printed commentary; the nearby Gītā 12.5 citation is a separate quote and is not merged here."
+      ],
+      "english": "Hard to hold, and unconquered.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:Hard to hold, }{1:and }{2:unconquered.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "दुर्धरः",
+          "iast": "durdharaḥ",
+          "gloss": "hard to hold",
+          "parts": [
+            {
+              "form": "dur-dhara",
+              "gloss": "hard to hold"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "durdhara",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "अथ",
+          "iast": "atha",
+          "gloss": "and, moreover",
+          "parts": [
+            {
+              "form": "atha",
+              "gloss": "and, moreover"
+            }
+          ],
+          "stem": "atha",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "अपराजितः",
+          "iast": "aparājitaḥ",
+          "gloss": "unconquered",
+          "parts": [
+            {
+              "form": "a-parājita",
+              "gloss": "unconquered"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "aparājita",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "durdharaḥ atha aparājitaḥ",
+      "source_segments": [
+        {
+          "text": "दुर्धरः ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "अथ ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "अपराजितः",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-591-paragraph-2-span-0": {
+      "quote_id": "name-591-paragraph-2-span-0",
+      "name_number": 591,
+      "printed_devanagari": "गोपाये स्वात्मयोगेन सोऽयं मे व्रत आहितः ॥",
+      "canonical_devanagari": "गोपाये स्वात्मयोगेन सोऽयं मे व्रत आहितः",
+      "iast": "gopāye svātmayogena so 'yaṃ me vrata āhitaḥ",
+      "source_label": "Chinmayananda commentary citation attributed there to Bhāgavatam",
+      "canonical_locus": "Bhāgavatam (locus unresolved in local source set)",
+      "textual_notes": [
+        "The commentary attributes the verse to Bhāgavatam, but I did not locate a local primary Bhāgavatam witness during this pass.",
+        "Accordingly, this record preserves the printed commentary reading without external normalization."
+      ],
+      "english": "By my own yoga-power I shall protect; this vow is laid upon me.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{1:By my own yoga-power }{0:I shall protect; }{2:this }{4:vow }{5:is laid upon }{3:me.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "गोपाये",
+          "iast": "gopāye",
+          "gloss": "I shall protect",
+          "parts": [
+            {
+              "form": "√gup + āya",
+              "gloss": "protect"
+            },
+            {
+              "form": "laṭ + iṭ",
+              "gloss": "present middle first-person singular"
+            }
+          ],
+          "stem": "gopāy",
+          "root": {
+            "form": "√gup",
+            "gana": "1",
+            "pada": "P",
+            "gloss": "to protect",
+            "dhatupatha": {
+              "locus": "01.0461",
+              "dhatu_devanagari": "गुप्",
+              "aupadeshika_devanagari": "गुपूँ",
+              "artha_sanskrit": "रक्षणे"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1381-1383"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:9975"
+              ]
+            },
+            "note": "Selected for gopāye because the attested sense is protection, not blame/concealment."
+          },
+          "affix": "āya + laṭ + iṭ (uttamapuruṣa ekavacana)",
+          "morph": "present indicative first-person singular ātmanepada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "स्वात्मयोगेन",
+          "iast": "svātmayogena",
+          "gloss": "by my own yoga-power",
+          "parts": [
+            {
+              "form": "sva",
+              "gloss": "own"
+            },
+            {
+              "form": "ātma",
+              "gloss": "self"
+            },
+            {
+              "form": "yoga",
+              "gloss": "yoga-power"
+            },
+            {
+              "form": "ṭā",
+              "gloss": "instrumental singular"
+            }
+          ],
+          "stem": "svātmayoga",
+          "root": null,
+          "affix": "ṭā (tṛtīyā ekavacana)",
+          "morph": "instrumental masculine singular compound noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "सोऽयं",
+          "iast": "so 'yaṃ",
+          "gloss": "this",
+          "parts": [
+            {
+              "form": "saḥ",
+              "gloss": "that"
+            },
+            {
+              "form": "ayam",
+              "gloss": "this"
+            }
+          ],
+          "stem": "saḥ + ayam",
+          "root": null,
+          "affix": "sandhied pronoun phrase",
+          "morph": "sandhied nominative masculine singular pronoun phrase",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "मे",
+          "iast": "me",
+          "gloss": "for me, my",
+          "parts": [
+            {
+              "form": "asmad",
+              "gloss": "I; me"
+            },
+            {
+              "form": "me-ādeśa",
+              "gloss": "enclitic genitive/dative singular substitute"
+            }
+          ],
+          "stem": "asmad",
+          "root": null,
+          "affix": "enclitic me substitution in the genitive/dative singular",
+          "morph": "genitive/dative singular first-person pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "व्रत",
+          "iast": "vrata",
+          "gloss": "vow",
+          "parts": [
+            {
+              "form": "vrata",
+              "gloss": "vow"
+            }
+          ],
+          "stem": "vrata",
+          "root": null,
+          "affix": "citation form in printed witness",
+          "morph": "neuter nominal stem cited in the printed witness",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 5,
+          "deva": "आहितः",
+          "iast": "āhitaḥ",
+          "gloss": "laid, undertaken",
+          "parts": [
+            {
+              "form": "āhita",
+              "gloss": "laid, undertaken"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "āhita",
+          "root": {
+            "form": "√dhā",
+            "gana": "3",
+            "pada": "U",
+            "gloss": "to place; support",
+            "dhatupatha": {
+              "locus": "03.0011",
+              "dhatu_devanagari": "धा",
+              "aupadeshika_devanagari": "डुधाञ्",
+              "artha_sanskrit": "धारणपोषणयोः"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3738-3740"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:28216"
+              ]
+            }
+          },
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular past passive participle",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "gopāye svātmayogena so'yaṃ me vrata āhitaḥ",
+      "source_segments": [
+        {
+          "text": "गोपाये ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "स्वात्मयोगेन ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "सोऽयं ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "मे ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "व्रत ",
+          "word_indices": [
+            4
+          ]
+        },
+        {
+          "text": "आहितः",
+          "word_indices": [
+            5
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-731-paragraph-2-span-0": {
+      "quote_id": "name-731-paragraph-2-span-0",
+      "name_number": 731,
+      "printed_devanagari": "तनोतीति तत",
+      "canonical_devanagari": "तनोति इति तत्",
+      "iast": "tanoti iti tat",
+      "source_label": "Chinmayananda commentary derivation on name 731",
+      "canonical_locus": "Chinmayananda commentary on name 731",
+      "textual_notes": [
+        "The printed line contracts the spacing and omits the final virāma; canonical_devanagari restores 'tanoti iti tat' from the same-witness printed IAST and the evident prose derivation.",
+        "The separate Gītā 17.23 quotation in the same commentary block is outside this record."
+      ],
+      "english": "That which expands is Tat.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{2:That which }{0:expands }{1:is }{2:Tat.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "तनोति",
+          "iast": "tanoti",
+          "gloss": "expands, stretches out",
+          "parts": [
+            {
+              "form": "tan",
+              "gloss": "stretch, expand"
+            },
+            {
+              "form": "laṭ + ti",
+              "gloss": "present 3rd singular"
+            }
+          ],
+          "stem": "tan",
+          "root": {
+            "form": "√tan",
+            "gana": "8",
+            "pada": "U",
+            "gloss": "to stretch; extend",
+            "dhatupatha": {
+              "locus": "08.0001",
+              "dhatu_devanagari": "तन्",
+              "aupadeshika_devanagari": "तनुँ",
+              "artha_sanskrit": "विस्तारे"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4982-4984"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:37767"
+              ]
+            }
+          },
+          "affix": "laṭ + ti",
+          "morph": "present indicative 3rd person singular parasmaipada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "तत्",
+          "iast": "tat",
+          "gloss": "Tat, that",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that"
+            },
+            {
+              "form": "am",
+              "gloss": "nominative/accusative singular neuter"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "affix": "am (prathamā/dvitīyā ekavacana napuṃsaka)",
+          "morph": "nominative/accusative neuter singular pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review with same-witness IAST cross-check; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "tanoti iti tat",
+      "source_segments": [
+        {
+          "text": "तनोति ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "तत्",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-742-paragraph-1-span-0": {
+      "quote_id": "name-742-paragraph-1-span-0",
+      "name_number": 742,
+      "printed_devanagari": "न विद्यते समो यस्य सः विषमः ।",
+      "canonical_devanagari": "न विद्यते समो यस्य सः विषमः",
+      "iast": "na vidyate samo yasya saḥ viṣamaḥ",
+      "source_label": "Chinmayananda commentary derivation on name 742",
+      "canonical_locus": "Chinmayananda commentary on name 742",
+      "textual_notes": [
+        "This derivational sentence is preserved from the printed commentary.",
+        "The separate Gītā 11.43 citation in the same commentary block is not merged into this record."
+      ],
+      "english": "He whose equal does not exist is Viṣamaḥ.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{3:He whose }{2:equal }{0:does not }{1:exist }{4:is }{5:Viṣamaḥ.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "not",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "affix": "avyaya",
+          "morph": "indeclinable",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "विद्यते",
+          "iast": "vidyate",
+          "gloss": "exists",
+          "parts": [
+            {
+              "form": "vid",
+              "gloss": "be found, exist"
+            },
+            {
+              "form": "laṭ + te",
+              "gloss": "present 3rd singular ātmanepada"
+            }
+          ],
+          "stem": "vid",
+          "root": {
+            "form": "√vid",
+            "gana": "4",
+            "pada": "A",
+            "gloss": "to exist",
+            "dhatupatha": {
+              "locus": "04.0067",
+              "dhatu_devanagari": "विद्",
+              "aupadeshika_devanagari": "विदँ",
+              "artha_sanskrit": "सत्तायाम्"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3984-3986"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:30103"
+              ]
+            },
+            "note": "Selected for forms glossed or explained as existence, not cognition."
+          },
+          "affix": "laṭ + te",
+          "morph": "present indicative 3rd person singular ātmanepada verb",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "समो",
+          "iast": "samo",
+          "gloss": "equal",
+          "parts": [
+            {
+              "form": "sama",
+              "gloss": "equal"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "sama",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular adjective",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "यस्य",
+          "iast": "yasya",
+          "gloss": "whose",
+          "parts": [
+            {
+              "form": "yad",
+              "gloss": "who, whose"
+            },
+            {
+              "form": "ṅas",
+              "gloss": "genitive singular"
+            }
+          ],
+          "stem": "yad",
+          "root": null,
+          "affix": "ṅas (ṣaṣṭhī ekavacana)",
+          "morph": "genitive masculine singular relative pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "सः",
+          "iast": "saḥ",
+          "gloss": "he",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that, he"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular pronoun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        },
+        {
+          "i": 5,
+          "deva": "विषमः",
+          "iast": "viṣamaḥ",
+          "gloss": "Viṣamaḥ, unequalled",
+          "parts": [
+            {
+              "form": "viṣama",
+              "gloss": "unequal, unmatched"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "viṣama",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular adjective/noun",
+          "evidence": {
+            "printed_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "manual commentary-witness review; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "na vidyate samo yasya saḥ viṣamaḥ",
+      "source_segments": [
+        {
+          "text": "न ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "विद्यते ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "समो ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "यस्य ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "सः ",
+          "word_indices": [
+            4
+          ]
+        },
+        {
+          "text": "विषमः",
+          "word_indices": [
+            5
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    }
+  },
+  "withheld": {}
+}

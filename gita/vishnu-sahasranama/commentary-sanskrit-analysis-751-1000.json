@@ -1,0 +1,1013 @@
+{
+  "schema_version": 1,
+  "range": {
+    "start_name_number": 751,
+    "end_name_number": 1000,
+    "status": "standalone-non-gita-candidate"
+  },
+  "review_status": "primary-grammar-reviewed-complete",
+  "quotes": {
+    "name-869-paragraph-1-span-0": {
+      "quote_id": "name-869-paragraph-1-span-0",
+      "name_number": 869,
+      "printed_devanagari": "त्रिकालाबाधितं वस्तु सत्यमिति ।",
+      "canonical_devanagari": "त्रिकालाबाधितं वस्तु सत्यम् इति",
+      "iast": "trikālābādhitaṃ vastu satyam iti",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+      "canonical_locus": "Viṣṇu Sahasranāma name 869 commentary, paragraph 1 standalone Sanskrit span 0",
+      "textual_notes": [
+        "The commentary witness is the scan-checked reconstruction on pages 223–224.",
+        "Only external sandhi is resolved in the canonical form; the printed witness is preserved verbatim."
+      ],
+      "english": "A thing uncontradicted in the three times is called truth.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{1:A thing} {0:uncontradicted in the three times} {3:is called} {2:truth.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "त्रिकालाबाधितं",
+          "iast": "trikālābādhitaṃ",
+          "gloss": "uncontradicted in the three times",
+          "parts": [
+            {
+              "form": "tri",
+              "gloss": "three"
+            },
+            {
+              "form": "kāla",
+              "gloss": "time"
+            },
+            {
+              "form": "a-",
+              "gloss": "not, un-"
+            },
+            {
+              "form": "bādhita",
+              "gloss": "contradicted, obstructed"
+            },
+            {
+              "form": "am",
+              "gloss": "am (dvitīyā/prathamā ekavacana, neuter)"
+            }
+          ],
+          "stem": "tri-kāla-abādhita",
+          "root": null,
+          "affix": "kta + am (neuter singular citation form)",
+          "morph": "neuter singular adjective",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "वस्तु",
+          "iast": "vastu",
+          "gloss": "thing, entity",
+          "parts": [
+            {
+              "form": "vastu",
+              "gloss": "thing, entity"
+            }
+          ],
+          "stem": "vastu",
+          "root": null,
+          "affix": "su (prathamā ekavacana; zero surface in the neuter citation form)",
+          "morph": "nominative neuter singular noun",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "सत्यम्",
+          "iast": "satyam",
+          "gloss": "truth",
+          "parts": [
+            {
+              "form": "satya",
+              "gloss": "truth, true"
+            },
+            {
+              "form": "am",
+              "gloss": "am (neuter singular citation form)"
+            }
+          ],
+          "stem": "satya",
+          "root": null,
+          "affix": "am (prathamā/dvitīyā ekavacana, neuter)",
+          "morph": "neuter singular noun quoted as the predicate term",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus; is called",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus; marks the quoted designation"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "trikālābādhitaṃ vastu satyam iti",
+      "source_segments": [
+        {
+          "text": "त्रिकालाबाधितं ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "वस्तु ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "सत्यम् ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "इति",
+          "word_indices": [
+            3
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-870-paragraph-1-span-0": {
+      "quote_id": "name-870-paragraph-1-span-0",
+      "name_number": 870,
+      "printed_devanagari": "कर्तव्याकर्तव्यविधिरेव धर्म: ।",
+      "canonical_devanagari": "कर्तव्याकर्तव्यविधिः एव धर्मः",
+      "iast": "kartavyākartavyavidhiḥ eva dharmaḥ",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+      "canonical_locus": "Viṣṇu Sahasranāma name 870 commentary, paragraph 1 standalone Sanskrit span 0",
+      "textual_notes": [
+        "The commentary witness is the scan-checked reconstruction on page 224.",
+        "The printed ASCII colon is normalized to visarga in the canonical form, supported by the same witness's printed transliteration 'dharmah'."
+      ],
+      "english": "The injunction regarding what is to be done and what is not to be done indeed is dharma.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:The injunction regarding what is to be done and what is not to be done} {1:indeed} {2:is dharma.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "कर्तव्याकर्तव्यविधिः",
+          "iast": "kartavyākartavyavidhiḥ",
+          "gloss": "the injunction regarding what is to be done and what is not to be done",
+          "parts": [
+            {
+              "form": "kartavya",
+              "gloss": "what is to be done"
+            },
+            {
+              "form": "akartavya",
+              "gloss": "what is not to be done"
+            },
+            {
+              "form": "vidhi",
+              "gloss": "injunction, prescription"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "kartavya-akartavya-vidhi",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular compound noun",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "एव",
+          "iast": "eva",
+          "gloss": "indeed, just",
+          "parts": [
+            {
+              "form": "eva",
+              "gloss": "indeed, just"
+            }
+          ],
+          "stem": "eva",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "धर्मः",
+          "iast": "dharmaḥ",
+          "gloss": "dharma",
+          "parts": [
+            {
+              "form": "dharma",
+              "gloss": "dharma"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "dharma",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "kartavyākartavyavidhiḥ eva dharmaḥ",
+      "source_segments": [
+        {
+          "text": "कर्तव्याकर्तव्यविधिः ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "एव ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "धर्मः",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-899-paragraph-1-span-0": {
+      "quote_id": "name-899-paragraph-1-span-0",
+      "name_number": 899,
+      "printed_devanagari": "कं जलं पिबतीति कपि:।",
+      "canonical_devanagari": "कं जलं पिबति इति कपिः",
+      "iast": "kaṃ jalaṃ pibati iti kapiḥ",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+      "canonical_locus": "Viṣṇu Sahasranāma name 899 commentary, paragraph 1 standalone Sanskrit span 0",
+      "textual_notes": [
+        "The commentary witness is the scan-checked reconstruction on pages 229–230.",
+        "The printed ASCII colon is normalized to visarga in the canonical form, supported by the same witness's printed transliteration 'kapiḥ'.",
+        "The same witness explicitly glosses 'kam' as water."
+      ],
+      "english": "He drinks water (kam); therefore he is Kapi.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0,1,2:He drinks water (kam)}; {3:therefore} {4:he is Kapi.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "कं",
+          "iast": "kaṃ",
+          "gloss": "water",
+          "parts": [
+            {
+              "form": "kam",
+              "gloss": "water (as glossed by the same witness)"
+            }
+          ],
+          "stem": "kam",
+          "root": null,
+          "affix": "am (accusative singular lexical citation in the witness)",
+          "morph": "accusative singular neuter noun as glossed in the witness",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "जलं",
+          "iast": "jalaṃ",
+          "gloss": "water",
+          "parts": [
+            {
+              "form": "jala",
+              "gloss": "water"
+            },
+            {
+              "form": "am",
+              "gloss": "am (dvitīyā ekavacana, neuter)"
+            }
+          ],
+          "stem": "jala",
+          "root": null,
+          "affix": "am (dvitīyā ekavacana, neuter)",
+          "morph": "accusative neuter singular noun",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "पिबति",
+          "iast": "pibati",
+          "gloss": "drinks",
+          "parts": [
+            {
+              "form": "pā",
+              "gloss": "drink"
+            },
+            {
+              "form": "laṭ + tip",
+              "gloss": "present indicative 3rd person singular"
+            }
+          ],
+          "stem": "pib",
+          "root": {
+            "form": "√pā",
+            "gana": "1",
+            "pada": "P",
+            "gloss": "to drink",
+            "dhatupatha": {
+              "locus": "01.1074",
+              "dhatu_devanagari": "पा",
+              "aupadeshika_devanagari": "पा",
+              "artha_sanskrit": "पाने"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3200-3202"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:23641"
+              ]
+            }
+          },
+          "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+          "morph": "present indicative 3rd person singular verb",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus; therefore called",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus; marks the resulting designation"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "कपिः",
+          "iast": "kapiḥ",
+          "gloss": "Kapi; the water-drinker in this witness's derivational gloss",
+          "parts": [
+            {
+              "form": "kapi",
+              "gloss": "Kapi; the water-drinker in this witness's derivational gloss"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "kapi",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "kaṃ jalaṃ pibati iti kapiḥ",
+      "source_segments": [
+        {
+          "text": "कं ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "जलं ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "पिबति ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "कपिः",
+          "word_indices": [
+            4
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-905-paragraph-1-span-0": {
+      "quote_id": "name-905-paragraph-1-span-0",
+      "name_number": 905,
+      "printed_devanagari": "क्षिप्रकाशी।",
+      "canonical_devanagari": "क्षिप्रकाशी",
+      "iast": "kṣiprakāśī",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+      "canonical_locus": "Viṣṇu Sahasranāma name 905 commentary, paragraph 1 standalone Sanskrit span 0",
+      "textual_notes": [
+        "The commentary witness is the scan-checked reconstruction on page 231.",
+        "The same witness immediately glosses the printed form as 'One Who is efficient and quick.'",
+        "I preserve the lexical citation form as printed instead of asserting a tighter derivation than the allowed local evidence supports."
+      ],
+      "english": "One Who is efficient and quick.",
+      "english_source": "Swami Chinmayananda",
+      "english_slots": "{0:One Who is efficient and quick.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "क्षिप्रकाशी",
+          "iast": "kṣiprakāśī",
+          "gloss": "efficient and quick",
+          "parts": [
+            {
+              "form": "kṣiprakāśī",
+              "gloss": "efficient and quick"
+            }
+          ],
+          "stem": "kṣiprakāśī",
+          "root": null,
+          "affix": "lexical citation form as printed in the witness",
+          "morph": "lexical citation form used as a name-gloss in the witness",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "kṣiprakāśī",
+      "source_segments": [
+        {
+          "text": "क्षिप्रकाशी",
+          "word_indices": [
+            0
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-918-paragraph-1-span-0": {
+      "quote_id": "name-918-paragraph-1-span-0",
+      "name_number": 918,
+      "printed_devanagari": "दाक्षिण्य भाव: ।",
+      "canonical_devanagari": "दाक्षिण्य भावः",
+      "iast": "dākṣiṇya bhāvaḥ",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+      "canonical_locus": "Viṣṇu Sahasranāma name 918 commentary, paragraph 1 standalone Sanskrit span 0",
+      "textual_notes": [
+        "The commentary witness is the scan-checked reconstruction on page 234.",
+        "The printed ASCII colon is normalized to visarga in the canonical form, supported by the same witness's printed transliteration 'bhāvaḥ'."
+      ],
+      "english": "A state of liberality.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{1:A state} {0:of liberality.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "दाक्षिण्य",
+          "iast": "dākṣiṇya",
+          "gloss": "liberality, large-hearted generosity",
+          "parts": [
+            {
+              "form": "dākṣiṇya",
+              "gloss": "liberality, large-hearted generosity"
+            }
+          ],
+          "stem": "dākṣiṇya",
+          "root": null,
+          "affix": "compound-like prior member in the printed split phrase; the final member carries the overt inflection",
+          "morph": "nominal prior member in a split phrase",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "भावः",
+          "iast": "bhāvaḥ",
+          "gloss": "state, disposition",
+          "parts": [
+            {
+              "form": "bhāva",
+              "gloss": "state, disposition"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "bhāva",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "dākṣiṇya bhāvaḥ",
+      "source_segments": [
+        {
+          "text": "दाक्षिण्य ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "भावः",
+          "word_indices": [
+            1
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-923-paragraph-1-span-0": {
+      "quote_id": "name-923-paragraph-1-span-0",
+      "name_number": 923,
+      "printed_devanagari": "तारयति इति तारः।",
+      "canonical_devanagari": "तारयति इति तारः",
+      "iast": "tārayati iti tāraḥ",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+      "canonical_locus": "Viṣṇu Sahasranāma name 923 commentary, paragraph 1 standalone Sanskrit span 0",
+      "textual_notes": [
+        "The commentary witness is the scan-checked reconstruction on pages 235–236."
+      ],
+      "english": "He causes one to cross over; therefore he is the saviour.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:He causes one to cross over;} {1:therefore} {2:he is the saviour.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "तारयति",
+          "iast": "tārayati",
+          "gloss": "causes to cross over, carries across",
+          "parts": [
+            {
+              "form": "tṝ",
+              "gloss": "cross over, carry across"
+            },
+            {
+              "form": "ṇic",
+              "gloss": "causative formation"
+            },
+            {
+              "form": "laṭ + tip",
+              "gloss": "present indicative 3rd person singular"
+            }
+          ],
+          "stem": "tāray",
+          "root": {
+            "form": "√tṝ",
+            "gana": "1",
+            "pada": "P",
+            "gloss": "to cross over; carry across",
+            "dhatupatha": {
+              "locus": "01.1124",
+              "dhatu_devanagari": "तॄ",
+              "aupadeshika_devanagari": "तॄ",
+              "artha_sanskrit": "प्लवनतरणयोः"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3350-3352"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:24886"
+              ]
+            }
+          },
+          "affix": "ṇic + laṭ + tip (prathamapuruṣa ekavacana)",
+          "morph": "present indicative 3rd person singular causative verb",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus; therefore called",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus; marks the resulting designation"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "तारः",
+          "iast": "tāraḥ",
+          "gloss": "the saviour, the one who carries across",
+          "parts": [
+            {
+              "form": "tāra",
+              "gloss": "saviour, one who carries across"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "tāra",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "tārayati iti tāraḥ",
+      "source_segments": [
+        {
+          "text": "तारयति ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "तारः",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-954-paragraph-1-span-0": {
+      "quote_id": "name-954-paragraph-1-span-0",
+      "name_number": 954,
+      "printed_devanagari": "ऊर्घ्वं गच्छति इति ऊर्घ्वं ग: ।",
+      "canonical_devanagari": "ऊर्ध्वं गच्छति इति ऊर्ध्वगः",
+      "iast": "ūrdhvaṃ gacchati iti ūrdhvagaḥ",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+      "canonical_locus": "Viṣṇu Sahasranāma name 954 commentary, paragraph 1 standalone Sanskrit span 0",
+      "textual_notes": [
+        "The commentary witness is the scan-checked reconstruction on page 242.",
+        "The printed Devanagari appears OCR-damaged as 'ऊर्घ्वं ... ऊर्घ्वं ग:'; the canonical form follows the same witness's printed transliteration 'Oordhvam ... Oordhvagah'."
+      ],
+      "english": "Upward he goes; therefore he is the upward-goer.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:Upward} {1:he goes;} {2:therefore} {3:he is the upward-goer.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "ऊर्ध्वं",
+          "iast": "ūrdhvaṃ",
+          "gloss": "upward, aloft",
+          "parts": [
+            {
+              "form": "ūrdhva",
+              "gloss": "upward, aloft"
+            },
+            {
+              "form": "am",
+              "gloss": "adverbial accusative form"
+            }
+          ],
+          "stem": "ūrdhva",
+          "root": null,
+          "affix": "am (adverbial accusative singular form)",
+          "morph": "adverbial accusative form",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "गच्छति",
+          "iast": "gacchati",
+          "gloss": "goes",
+          "parts": [
+            {
+              "form": "gam",
+              "gloss": "go"
+            },
+            {
+              "form": "laṭ + tip",
+              "gloss": "present indicative 3rd person singular"
+            }
+          ],
+          "stem": "gam",
+          "root": {
+            "form": "√gam",
+            "gana": "1",
+            "pada": "P",
+            "gloss": "to go",
+            "dhatupatha": {
+              "locus": "01.1137",
+              "dhatu_devanagari": "गम्",
+              "aupadeshika_devanagari": "गमॢँ",
+              "artha_sanskrit": "गतौ"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3389-3391"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25203"
+              ]
+            }
+          },
+          "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+          "morph": "present indicative 3rd person singular verb",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus; therefore called",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus; marks the resulting designation"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "ऊर्ध्वगः",
+          "iast": "ūrdhvagaḥ",
+          "gloss": "the upward-goer",
+          "parts": [
+            {
+              "form": "ūrdhva",
+              "gloss": "upward"
+            },
+            {
+              "form": "ga",
+              "gloss": "goer"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "ūrdhvaga",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular compound noun",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "ūrdhvaṃ gacchati iti ūrdhvagaḥ",
+      "source_segments": [
+        {
+          "text": "ऊर्ध्वं ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "गच्छति ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "ऊर्ध्वगः",
+          "word_indices": [
+            3
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-957-paragraph-1-span-0": {
+      "quote_id": "name-957-paragraph-1-span-0",
+      "name_number": 957,
+      "printed_devanagari": "ॐकारस्वरूपो हि नारायणः।",
+      "canonical_devanagari": "ॐकारस्वरूपः हि नारायणः",
+      "iast": "oṃkārasvarūpaḥ hi nārāyaṇaḥ",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental",
+      "canonical_locus": "Viṣṇu Sahasranāma name 957 commentary, paragraph 1 standalone Sanskrit span 0",
+      "textual_notes": [
+        "The commentary witness is the scan-checked reconstruction on page 243.",
+        "Only external sandhi is resolved in the canonical form."
+      ],
+      "english": "Nārāyaṇa indeed is of the nature of oṃkāra.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{2:Nārāyaṇa} {1:indeed} {0:is of the nature of oṃkāra.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "ॐकारस्वरूपः",
+          "iast": "oṃkārasvarūpaḥ",
+          "gloss": "of the nature of oṃkāra",
+          "parts": [
+            {
+              "form": "oṃkāra",
+              "gloss": "the syllable oṃ"
+            },
+            {
+              "form": "svarūpa",
+              "gloss": "own form, nature"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "oṃkāra-svarūpa",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular compound adjective",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "हि",
+          "iast": "hi",
+          "gloss": "indeed, surely",
+          "parts": [
+            {
+              "form": "hi",
+              "gloss": "indeed, surely"
+            }
+          ],
+          "stem": "hi",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "नारायणः",
+          "iast": "nārāyaṇaḥ",
+          "gloss": "Nārāyaṇa",
+          "parts": [
+            {
+              "form": "nārāyaṇa",
+              "gloss": "Nārāyaṇa"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "nārāyaṇa",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "commentary_witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "review_method": "direct scan-checked commentary audit; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "oṃkārasvarūpaḥ hi nārāyaṇaḥ",
+      "source_segments": [
+        {
+          "text": "ॐकारस्वरूपः ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "हि ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "नारायणः",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    }
+  },
+  "withheld": {}
+}

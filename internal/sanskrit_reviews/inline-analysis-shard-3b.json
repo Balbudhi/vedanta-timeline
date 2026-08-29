@@ -1,0 +1,5569 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "shard": "3b",
+  "expected_unit_count": 62,
+  "expected_unit_keys": [
+    "vāsudevaḥ",
+    "vī",
+    "vīraḥ",
+    "vīrya",
+    "vṛddhaḥ",
+    "vṛddhātmā",
+    "vṛṣa",
+    "vṛṣabhaḥ",
+    "vṛṣapriyoyasyasaḥ",
+    "vṛṣaḥ",
+    "vṛṣodaraḥ",
+    "vṛṣohibhagavāndharmaḥ",
+    "vṛṣāhī",
+    "vṛṣākapiḥ",
+    "worldofmāyā",
+    "yadāpaśyaḥpaśyaterukmavarṇam",
+    "yaeṣontarādityehiraṇmayaḥpuruṣodaśyate",
+    "yajñādbhavatiparjanyoyajñaḥkarmasamdbhavaḥkarmabrahmodbhavaṃviddhibrahmākṣarasamdbhavam",
+    "yasmādviṣṭamidaṃsarvaṃtasyaśaktyāmahātmanaḥtasmādevocyateviṣṇaviśerdhātoḥpraveśanāta",
+    "yasmānnacyutapūrvohamacyutastenakarmaṇā",
+    "yathākarmayathāśrutam",
+    "yatkiñcajagatyāṃjagat",
+    "yatovāconivartanteaprāpyamanasāsaha",
+    "yatovāimānibhṛtānijāyante",
+    "yatvācāanabhyaditaṃyenavāgabhyadyate",
+    "yatīnāṃpraśamodharmoniyamovanavāsināmdānamevagṛhasthānāṃśuśrūṣābrahmacāriṇām",
+    "yaśaśca",
+    "yogaḥ",
+    "yogaḥcittavattinirodhaḥ",
+    "yoginaḥ",
+    "yogojñānaṃtathāsāṃkhyaṃvidyāḥśilpādikarmacavedāḥśāstrāṇivijñānametatsarvaṃjanārdanāt",
+    "yogī",
+    "yogīs",
+    "yovaibhūmātadamṛtamathayadalpaṃtanmartyam",
+    "yovaibhūmātatsukhaṃnālpesukhamasti",
+    "yādava",
+    "yādavakula",
+    "yāga",
+    "yāgas",
+    "yūpaḥ",
+    "ādi",
+    "ādirahitah",
+    "ādityaḥ",
+    "ādityobrahmotyādeśa",
+    "ādityānām",
+    "ākṛti",
+    "āna",
+    "ānam",
+    "ānanda",
+    "ānandaṃbrahmetivyajānāt",
+    "ānasakti",
+    "ānaśakti",
+    "ānaṃ",
+    "āpraṇakhātsarvaevasūvarṇaḥ",
+    "āroha",
+    "ātma",
+    "ātman",
+    "ātmans",
+    "ātmasaṃvedyaṃtajjñānaṃbrahmasaṃjñitam",
+    "ātmavibhūti",
+    "ātmā",
+    "ātmānaṃ"
+  ],
+  "observed_unit_count": 62,
+  "rows": {
+    "vāsudevaḥ": {
+      "unit_key": "vāsudevaḥ",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "वासुदेवः",
+      "canonical_iast": "vāsudevaḥ",
+      "printed_devanagari_forms": [
+        "वासुदेवः"
+      ],
+      "iast_forms": [
+        "vāsudevaḥ"
+      ],
+      "occurrence_ids": [
+        "name-638-paragraph-0-span-0"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 332
+      }
+    },
+    "vī": {
+      "unit_key": "vī",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "वी",
+      "canonical_iast": "vī",
+      "printed_devanagari_forms": [
+        "वी"
+      ],
+      "iast_forms": [
+        "vī"
+      ],
+      "occurrence_ids": [
+        "name-658-paragraph-0-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "root vī",
+        "english_slots": "{0:root vī}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "वी",
+            "iast": "vī",
+            "gloss": "root vī",
+            "parts": [
+              {
+                "form": "वी",
+                "gloss": "go; pervade; shine"
+              }
+            ],
+            "stem": "vī",
+            "root": {
+              "form": "√vī",
+              "gana": "2",
+              "pada": "P",
+              "gloss": "to go; pervade; shine",
+              "dhatupatha": {
+                "locus": "02.0043",
+                "dhatu_devanagari": "वी",
+                "aupadeshika_devanagari": "वी",
+                "artha_sanskrit": "गतिव्याप्तिप्रजनकान्त्यसनखादनेषु"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3605-3607"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27078"
+                ]
+              }
+            },
+            "affix": "dhātu citation",
+            "morph": "dhātu citation",
+            "evidence": {
+              "text_witness": "name-658-paragraph-0-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "vīraḥ": {
+      "unit_key": "vīraḥ",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "वीरः",
+      "canonical_iast": "vīraḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "vīraḥ"
+      ],
+      "occurrence_ids": [
+        "name-658-paragraph-0-iast-29"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 658
+      }
+    },
+    "vīrya": {
+      "unit_key": "vīrya",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "वीर्य",
+      "canonical_iast": "vīrya",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "vīrya"
+      ],
+      "occurrence_ids": [
+        "name-174-paragraph-0-iast-6"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "heroic power",
+        "english_slots": "{0:heroic power}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "वीर्य",
+            "iast": "vīrya",
+            "gloss": "heroic power",
+            "parts": [
+              {
+                "form": "vīrya",
+                "gloss": "heroic power"
+              }
+            ],
+            "stem": "vīry",
+            "root": null,
+            "affix": "citation form",
+            "morph": "neuter lexical noun",
+            "evidence": {
+              "text_witness": "name-174-paragraph-0-iast-6",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "vṛddhaḥ": {
+      "unit_key": "vṛddhaḥ",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "वृद्धः",
+      "canonical_iast": "Vṛddhaḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "Vṛddhaḥ"
+      ],
+      "occurrence_ids": [
+        "name-67-paragraph-1-iast-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "grown; aged",
+        "english_slots": "{0:grown; aged}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "वृद्धः",
+            "iast": "Vṛddhaḥ",
+            "gloss": "grown; aged",
+            "parts": [
+              {
+                "form": "Vṛddhaḥ",
+                "gloss": "grown; aged"
+              }
+            ],
+            "stem": "Vṛddh",
+            "root": {
+              "form": "√vṛdh",
+              "gana": "1",
+              "pada": "A",
+              "gloss": "to grow; increase",
+              "dhatupatha": {
+                "locus": "01.0863",
+                "dhatu_devanagari": "वृध्",
+                "aupadeshika_devanagari": "वृधुँ",
+                "artha_sanskrit": "वृद्धौ"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:2587-2589"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:18719"
+                ]
+              }
+            },
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-67-paragraph-1-iast-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "vṛddhātmā": {
+      "unit_key": "vṛddhātmā",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "वृद्धात्मा",
+      "canonical_iast": "vṛddhātmā",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "vṛddhātmā"
+      ],
+      "occurrence_ids": [
+        "name-352-paragraph-0-iast-22"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 352
+      }
+    },
+    "vṛṣa": {
+      "unit_key": "vṛṣa",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "वृष",
+      "canonical_iast": "vṛṣa",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "vṛṣa",
+        "vṛṣa’"
+      ],
+      "occurrence_ids": [
+        "name-101-paragraph-0-iast-35",
+        "name-101-paragraph-2-iast-41",
+        "name-112-paragraph-0-iast-0",
+        "name-113-paragraph-0-iast-9",
+        "name-256-paragraph-0-iast-27",
+        "name-257-paragraph-0-iast-2",
+        "name-259-paragraph-0-iast-5",
+        "name-260-paragraph-0-iast-0",
+        "name-260-paragraph-0-iast-119",
+        "name-595-paragraph-0-iast-4"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "quote-word",
+        "quote_id": "name-101-paragraph-1-span-0",
+        "word_i": 3
+      }
+    },
+    "vṛṣabhaḥ": {
+      "unit_key": "vṛṣabhaḥ",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "वृषभः",
+      "canonical_iast": "vṛṣabhaḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "vṛṣabhaḥ"
+      ],
+      "occurrence_ids": [
+        "name-257-paragraph-0-iast-42",
+        "name-257-paragraph-0-iast-63"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 257
+      }
+    },
+    "vṛṣapriyoyasyasaḥ": {
+      "unit_key": "vṛṣapriyoyasyasaḥ",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "वृषः प्रियो यस्य सः",
+      "canonical_iast": "vṛṣaḥ priyo yasya saḥ",
+      "printed_devanagari_forms": [
+        "वृष: प्रियो यस्य सः"
+      ],
+      "iast_forms": [
+        "vṛṣa: priyo yasya saḥ"
+      ],
+      "occurrence_ids": [
+        "name-595-paragraph-0-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "bull; dharma dear whose he",
+        "english_slots": "{0:bull; dharma} {1:dear} {2:whose} {3:he}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "वृषः",
+            "iast": "vṛṣaḥ",
+            "gloss": "bull; dharma",
+            "parts": [
+              {
+                "form": "vṛṣaḥ",
+                "gloss": "bull; dharma"
+              }
+            ],
+            "stem": "vṛṣ",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-595-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "प्रियो",
+            "iast": "priyo",
+            "gloss": "dear",
+            "parts": [
+              {
+                "form": "priyo",
+                "gloss": "dear"
+              }
+            ],
+            "stem": "priyo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-595-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "यस्य",
+            "iast": "yasya",
+            "gloss": "whose",
+            "parts": [
+              {
+                "form": "yasya",
+                "gloss": "whose"
+              }
+            ],
+            "stem": "yasy",
+            "root": null,
+            "affix": "ṅas (ṣaṣṭhī ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-595-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "सः",
+            "iast": "saḥ",
+            "gloss": "he",
+            "parts": [
+              {
+                "form": "saḥ",
+                "gloss": "he"
+              }
+            ],
+            "stem": "s",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-595-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "vṛṣaḥ": {
+      "unit_key": "vṛṣaḥ",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "वृषः",
+      "canonical_iast": "vṛṣaḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "vṛṣaḥ"
+      ],
+      "occurrence_ids": [
+        "name-313-paragraph-0-iast-63"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 313
+      }
+    },
+    "vṛṣodaraḥ": {
+      "unit_key": "vṛṣodaraḥ",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "वृषोदरः",
+      "canonical_iast": "vṛṣodaraḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "vṛṣodaraḥ"
+      ],
+      "occurrence_ids": [
+        "name-260-paragraph-0-iast-130"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 260
+      }
+    },
+    "vṛṣohibhagavāndharmaḥ": {
+      "unit_key": "vṛṣohibhagavāndharmaḥ",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "वृषो हि भगवान् धर्मः।",
+      "canonical_iast": "vṛṣo hi bhagavān dharmaḥ",
+      "printed_devanagari_forms": [
+        "वृषो हि भगवान् धर्मः।"
+      ],
+      "iast_forms": [
+        "vṛṣo hi bhagavān dharmaḥ|"
+      ],
+      "occurrence_ids": [
+        "name-313-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "the bull; dharma indeed blessed lord dharma",
+        "english_slots": "{0:the bull; dharma} {1:indeed} {2:blessed lord} {3:dharma}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "वृषो",
+            "iast": "vṛṣo",
+            "gloss": "the bull; dharma",
+            "parts": [
+              {
+                "form": "vṛṣo",
+                "gloss": "the bull; dharma"
+              }
+            ],
+            "stem": "vṛṣo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-313-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "हि",
+            "iast": "hi",
+            "gloss": "indeed",
+            "parts": [
+              {
+                "form": "hi",
+                "gloss": "indeed"
+              }
+            ],
+            "stem": "hi",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-313-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "भगवान्",
+            "iast": "bhagavān",
+            "gloss": "blessed lord",
+            "parts": [
+              {
+                "form": "bhagavān",
+                "gloss": "blessed lord"
+              }
+            ],
+            "stem": "bhagavān",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-313-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "धर्मः",
+            "iast": "dharmaḥ",
+            "gloss": "dharma",
+            "parts": [
+              {
+                "form": "dharmaḥ",
+                "gloss": "dharma"
+              }
+            ],
+            "stem": "dhar",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-313-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "vṛṣāhī": {
+      "unit_key": "vṛṣāhī",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "वृषाही",
+      "canonical_iast": "vṛṣāhī",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "vṛṣāhī"
+      ],
+      "occurrence_ids": [
+        "name-256-paragraph-0-iast-51"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 256
+      }
+    },
+    "vṛṣākapiḥ": {
+      "unit_key": "vṛṣākapiḥ",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "वृषाकपिः",
+      "canonical_iast": "vṛṣākapiḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "vṛṣākapiḥ"
+      ],
+      "occurrence_ids": [
+        "name-101-paragraph-0-iast-48",
+        "name-101-paragraph-2-iast-60"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 101
+      }
+    },
+    "worldofmāyā": {
+      "unit_key": "worldofmāyā",
+      "occurrence_classification": "mixed OCR",
+      "canonical_devanagari": "मायाजगत्",
+      "canonical_iast": "māyā-jagat",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "world-of-māyā"
+      ],
+      "occurrence_ids": [
+        "name-263-paragraph-1-iast-24"
+      ],
+      "source_qualification": "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage.",
+      "popup": {
+        "english": "world of māyā the moving world",
+        "english_slots": "{0:world of māyā} {1:the moving world}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "माया",
+            "iast": "māyā",
+            "gloss": "world of māyā",
+            "parts": [
+              {
+                "form": "māyā",
+                "gloss": "world of māyā"
+              }
+            ],
+            "stem": "māyā",
+            "root": null,
+            "affix": "ā-stem citation",
+            "morph": "lexical feminine noun",
+            "evidence": {
+              "text_witness": "name-263-paragraph-1-iast-24",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "जगत्",
+            "iast": "jagat",
+            "gloss": "the moving world",
+            "parts": [
+              {
+                "form": "jagat",
+                "gloss": "the moving world"
+              }
+            ],
+            "stem": "jagat",
+            "root": null,
+            "affix": "t-stem citation",
+            "morph": "lexical neuter noun",
+            "evidence": {
+              "text_witness": "name-263-paragraph-1-iast-24",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage."
+        ]
+      }
+    },
+    "yadāpaśyaḥpaśyaterukmavarṇam": {
+      "unit_key": "yadāpaśyaḥpaśyaterukmavarṇam",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यदा पश्यः पश्यते रुक्मवर्णम्।",
+      "canonical_iast": "yadā paśyaḥ paśyate rukmavarṇam",
+      "printed_devanagari_forms": [
+        "यदा पश्यः पश्यते रुक्मवर्णम्।"
+      ],
+      "iast_forms": [
+        "yadā paśyaḥ paśyate rukmavarṇam|"
+      ],
+      "occurrence_ids": [
+        "name-737-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "when the seer sees golden-coloured",
+        "english_slots": "{0:when} {1:the seer} {2:sees} {3:golden-coloured}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यदा",
+            "iast": "yadā",
+            "gloss": "when",
+            "parts": [
+              {
+                "form": "yadā",
+                "gloss": "when"
+              }
+            ],
+            "stem": "yadā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-737-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "पश्यः",
+            "iast": "paśyaḥ",
+            "gloss": "the seer",
+            "parts": [
+              {
+                "form": "paśyaḥ",
+                "gloss": "the seer"
+              }
+            ],
+            "stem": "paśy",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-737-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "पश्यते",
+            "iast": "paśyate",
+            "gloss": "sees",
+            "parts": [
+              {
+                "form": "paśyate",
+                "gloss": "sees"
+              }
+            ],
+            "stem": "paśyate",
+            "root": {
+              "form": "√dṛś",
+              "gana": "1",
+              "pada": "P",
+              "gloss": "to see; behold",
+              "dhatupatha": {
+                "locus": "01.1143",
+                "dhatu_devanagari": "दृश्",
+                "aupadeshika_devanagari": "दृशिँर्",
+                "artha_sanskrit": "प्रेक्षणे"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3407-3409"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25464"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "finite verbal form",
+            "evidence": {
+              "text_witness": "name-737-paragraph-1-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "रुक्मवर्णम्",
+            "iast": "rukmavarṇam",
+            "gloss": "golden-coloured",
+            "parts": [
+              {
+                "form": "rukmavarṇam",
+                "gloss": "golden-coloured"
+              }
+            ],
+            "stem": "rukmavarṇ",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-737-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yaeṣontarādityehiraṇmayaḥpuruṣodaśyate": {
+      "unit_key": "yaeṣontarādityehiraṇmayaḥpuruṣodaśyate",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "य एषोऽन्तरादित्ये हिरण्मयः पुरुषो दृश्यते।",
+      "canonical_iast": "ya eṣo'ntarāditye hiraṇmayaḥ puruṣo dṛśyate",
+      "printed_devanagari_forms": [
+        "य एषोऽन्तरादित्ये हिरण्मयः पुरुषो दश्यते ।"
+      ],
+      "iast_forms": [
+        "ya eṣo'ntarāditye hiraṇmayaḥ puruṣo daśyate |"
+      ],
+      "occurrence_ids": [
+        "name-738-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "ya eṣo ntarāditye golden person is seen",
+        "english_slots": "{0:ya} {1:eṣo} {2:ntarāditye} {3:golden} {4:person} {5:is seen}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "य",
+            "iast": "ya",
+            "gloss": "ya",
+            "parts": [
+              {
+                "form": "ya",
+                "gloss": "ya"
+              }
+            ],
+            "stem": "y",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-738-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "एषो",
+            "iast": "eṣo",
+            "gloss": "eṣo",
+            "parts": [
+              {
+                "form": "eṣo",
+                "gloss": "eṣo"
+              }
+            ],
+            "stem": "eṣo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-738-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "न्तरादित्ये",
+            "iast": "ntarāditye",
+            "gloss": "ntarāditye",
+            "parts": [
+              {
+                "form": "ntarāditye",
+                "gloss": "ntarāditye"
+              }
+            ],
+            "stem": "ntarāditye",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-738-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "हिरण्मयः",
+            "iast": "hiraṇmayaḥ",
+            "gloss": "golden",
+            "parts": [
+              {
+                "form": "hiraṇmayaḥ",
+                "gloss": "golden"
+              }
+            ],
+            "stem": "hiraṇmay",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-738-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "पुरुषो",
+            "iast": "puruṣo",
+            "gloss": "person",
+            "parts": [
+              {
+                "form": "puruṣo",
+                "gloss": "person"
+              }
+            ],
+            "stem": "puruṣo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-738-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "दृश्यते",
+            "iast": "dṛśyate",
+            "gloss": "is seen",
+            "parts": [
+              {
+                "form": "dṛśyate",
+                "gloss": "is seen"
+              }
+            ],
+            "stem": "dṛśyate",
+            "root": {
+              "form": "√dṛś",
+              "gana": "1",
+              "pada": "P",
+              "gloss": "to be seen",
+              "dhatupatha": {
+                "locus": "01.1143",
+                "dhatu_devanagari": "दृश्",
+                "aupadeshika_devanagari": "दृशिँर्",
+                "artha_sanskrit": "प्रेक्षणे"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3407-3409"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25464"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "finite verbal form",
+            "evidence": {
+              "text_witness": "name-738-paragraph-1-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yajñādbhavatiparjanyoyajñaḥkarmasamdbhavaḥkarmabrahmodbhavaṃviddhibrahmākṣarasamdbhavam": {
+      "unit_key": "yajñādbhavatiparjanyoyajñaḥkarmasamdbhavaḥkarmabrahmodbhavaṃviddhibrahmākṣarasamdbhavam",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यज्ञाद्भवति पर्जन्यो यज्ञः कर्मसमुद्भवः। कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसमुद्भवम्॥",
+      "canonical_iast": "yajñād bhavati parjanyo yajñaḥ karma-samudbhavaḥ karma brahmodbhavaṃ viddhi brahmākṣara-samudbhavam",
+      "printed_devanagari_forms": [
+        "यज्ञाद्भवति पर्जन्यो यज्ञः कर्मसम्द्भवः। कर्म ब्रह्मोद्भवं विद्धि ब्रह्माक्षरसम्द्भवम्॥"
+      ],
+      "iast_forms": [
+        "yajñādbhavati parjanyo yajñaḥ karmasamdbhavaḥ| karma brahmodbhavaṃ viddhi brahmākṣarasamdbhavam||"
+      ],
+      "occurrence_ids": [
+        "name-810-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "yajñād arises parjanyo sacrifice action samudbhavaḥ action brahmodbhavaṃ know brahmākṣara samudbhavam",
+        "english_slots": "{0:yajñād} {1:arises} {2:parjanyo} {3:sacrifice} {4:action} {5:samudbhavaḥ} {6:action} {7:brahmodbhavaṃ} {8:know} {9:brahmākṣara} {10:samudbhavam}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यज्ञाद्",
+            "iast": "yajñād",
+            "gloss": "yajñād",
+            "parts": [
+              {
+                "form": "yajñād",
+                "gloss": "yajñād"
+              }
+            ],
+            "stem": "yajñād",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "भवति",
+            "iast": "bhavati",
+            "gloss": "arises",
+            "parts": [
+              {
+                "form": "bhavati",
+                "gloss": "arises"
+              }
+            ],
+            "stem": "bhavati",
+            "root": {
+              "form": "√bhū",
+              "gana": "1",
+              "pada": "P",
+              "gloss": "to be; become",
+              "dhatupatha": {
+                "locus": "01.0001",
+                "dhatu_devanagari": "भू",
+                "aupadeshika_devanagari": "भू",
+                "artha_sanskrit": "सत्तायाम्"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1-3"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:6"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "finite verbal form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "पर्जन्यो",
+            "iast": "parjanyo",
+            "gloss": "parjanyo",
+            "parts": [
+              {
+                "form": "parjanyo",
+                "gloss": "parjanyo"
+              }
+            ],
+            "stem": "parjanyo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "यज्ञः",
+            "iast": "yajñaḥ",
+            "gloss": "sacrifice",
+            "parts": [
+              {
+                "form": "yajñaḥ",
+                "gloss": "sacrifice"
+              }
+            ],
+            "stem": "yajñ",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "कर्म",
+            "iast": "karma",
+            "gloss": "action",
+            "parts": [
+              {
+                "form": "karma",
+                "gloss": "action"
+              }
+            ],
+            "stem": "kar",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "समुद्भवः",
+            "iast": "samudbhavaḥ",
+            "gloss": "samudbhavaḥ",
+            "parts": [
+              {
+                "form": "samudbhavaḥ",
+                "gloss": "samudbhavaḥ"
+              }
+            ],
+            "stem": "samudbhav",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 6,
+            "deva": "कर्म",
+            "iast": "karma",
+            "gloss": "action",
+            "parts": [
+              {
+                "form": "karma",
+                "gloss": "action"
+              }
+            ],
+            "stem": "kar",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 7,
+            "deva": "ब्रह्मोद्भवं",
+            "iast": "brahmodbhavaṃ",
+            "gloss": "brahmodbhavaṃ",
+            "parts": [
+              {
+                "form": "brahmodbhavaṃ",
+                "gloss": "brahmodbhavaṃ"
+              }
+            ],
+            "stem": "brahmodbhav",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 8,
+            "deva": "विद्धि",
+            "iast": "viddhi",
+            "gloss": "know",
+            "parts": [
+              {
+                "form": "viddhi",
+                "gloss": "know"
+              }
+            ],
+            "stem": "viddhi",
+            "root": {
+              "form": "√vid",
+              "gana": "2",
+              "pada": "P",
+              "gloss": "to know",
+              "dhatupatha": {
+                "locus": "02.0059",
+                "dhatu_devanagari": "विद्",
+                "aupadeshika_devanagari": "विदँ",
+                "artha_sanskrit": "ज्ञाने"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3653-3655"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27531"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "finite verbal form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 9,
+            "deva": "ब्रह्माक्षर",
+            "iast": "brahmākṣara",
+            "gloss": "brahmākṣara",
+            "parts": [
+              {
+                "form": "brahmākṣara",
+                "gloss": "brahmākṣara"
+              }
+            ],
+            "stem": "brahmākṣar",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 10,
+            "deva": "समुद्भवम्",
+            "iast": "samudbhavam",
+            "gloss": "samudbhavam",
+            "parts": [
+              {
+                "form": "samudbhavam",
+                "gloss": "samudbhavam"
+              }
+            ],
+            "stem": "samudbhav",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-810-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yasmādviṣṭamidaṃsarvaṃtasyaśaktyāmahātmanaḥtasmādevocyateviṣṇaviśerdhātoḥpraveśanāta": {
+      "unit_key": "yasmādviṣṭamidaṃsarvaṃtasyaśaktyāmahātmanaḥtasmādevocyateviṣṇaviśerdhātoḥpraveśanāta",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यस्माद्विष्टमिदं सर्वं तस्य शक्त्या महात्मनः। तस्मादेवोच्यते विष्णुर्विशेर्धातोः प्रवेशनात्॥",
+      "canonical_iast": "yasmād viṣṭam idaṃ sarvaṃ tasya śaktyā mahātmanaḥ tasmād evocyate viṣṇur viśer dhātoḥ praveśanāt",
+      "printed_devanagari_forms": [
+        "यस्माद्विष्टमिदं सर्वं तस्य शक्त्या महात्मनः। तस्मादेवोच्यते विष्णविशेर्धातोः प्रवेशनात ।।"
+      ],
+      "iast_forms": [
+        "yasmādviṣṭamidaṃ sarvaṃ tasya śaktyā mahātmanaḥ| tasmādevocyate viṣṇaviśerdhātoḥ praveśanāta ||"
+      ],
+      "occurrence_ids": [
+        "name-2-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "yasmād pervaded this all of him by power of the great self tasmād is indeed called viṣṇur viśer of the root from entering",
+        "english_slots": "{0:yasmād} {1:pervaded} {2:this} {3:all} {4:of him} {5:by power} {6:of the great self} {7:tasmād} {8:is indeed called} {9:viṣṇur} {10:viśer} {11:of the root} {12:from entering}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यस्माद्",
+            "iast": "yasmād",
+            "gloss": "yasmād",
+            "parts": [
+              {
+                "form": "yasmād",
+                "gloss": "yasmād"
+              }
+            ],
+            "stem": "yasmād",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "विष्टम्",
+            "iast": "viṣṭam",
+            "gloss": "pervaded",
+            "parts": [
+              {
+                "form": "viṣṭam",
+                "gloss": "pervaded"
+              }
+            ],
+            "stem": "viṣṭ",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "इदं",
+            "iast": "idaṃ",
+            "gloss": "this",
+            "parts": [
+              {
+                "form": "idaṃ",
+                "gloss": "this"
+              }
+            ],
+            "stem": "id",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "सर्वं",
+            "iast": "sarvaṃ",
+            "gloss": "all",
+            "parts": [
+              {
+                "form": "sarvaṃ",
+                "gloss": "all"
+              }
+            ],
+            "stem": "sarv",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "तस्य",
+            "iast": "tasya",
+            "gloss": "of him",
+            "parts": [
+              {
+                "form": "tasya",
+                "gloss": "of him"
+              }
+            ],
+            "stem": "tasy",
+            "root": null,
+            "affix": "ṅas (ṣaṣṭhī ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "शक्त्या",
+            "iast": "śaktyā",
+            "gloss": "by power",
+            "parts": [
+              {
+                "form": "śaktyā",
+                "gloss": "by power"
+              }
+            ],
+            "stem": "śaktyā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 6,
+            "deva": "महात्मनः",
+            "iast": "mahātmanaḥ",
+            "gloss": "of the great self",
+            "parts": [
+              {
+                "form": "mahātmanaḥ",
+                "gloss": "of the great self"
+              }
+            ],
+            "stem": "mahātman",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 7,
+            "deva": "तस्माद्",
+            "iast": "tasmād",
+            "gloss": "tasmād",
+            "parts": [
+              {
+                "form": "tasmād",
+                "gloss": "tasmād"
+              }
+            ],
+            "stem": "tasmād",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 8,
+            "deva": "एवोच्यते",
+            "iast": "evocyate",
+            "gloss": "is indeed called",
+            "parts": [
+              {
+                "form": "evocyate",
+                "gloss": "is indeed called"
+              }
+            ],
+            "stem": "evocyate",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 9,
+            "deva": "विष्णुर्",
+            "iast": "viṣṇur",
+            "gloss": "viṣṇur",
+            "parts": [
+              {
+                "form": "viṣṇur",
+                "gloss": "viṣṇur"
+              }
+            ],
+            "stem": "viṣṇur",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 10,
+            "deva": "विशेर्",
+            "iast": "viśer",
+            "gloss": "viśer",
+            "parts": [
+              {
+                "form": "viśer",
+                "gloss": "viśer"
+              }
+            ],
+            "stem": "viśer",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 11,
+            "deva": "धातोः",
+            "iast": "dhātoḥ",
+            "gloss": "of the root",
+            "parts": [
+              {
+                "form": "dhātoḥ",
+                "gloss": "of the root"
+              }
+            ],
+            "stem": "dhāto",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 12,
+            "deva": "प्रवेशनात्",
+            "iast": "praveśanāt",
+            "gloss": "from entering",
+            "parts": [
+              {
+                "form": "praveśanāt",
+                "gloss": "from entering"
+              }
+            ],
+            "stem": "praveśanāt",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yasmānnacyutapūrvohamacyutastenakarmaṇā": {
+      "unit_key": "yasmānnacyutapūrvohamacyutastenakarmaṇā",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यस्मान्न च्युतपूर्वोऽहमच्युतस्तेन कर्मणा।",
+      "canonical_iast": "yasmān na cyutapūrvo'ham acyutas tena karmaṇā",
+      "printed_devanagari_forms": [
+        "यस्मान्न च्युतपूर्वोऽहमच्युतस्तेन कर्मणा"
+      ],
+      "iast_forms": [
+        "yasmānna cyutapūrvo'hamacyutastena karmaṇā"
+      ],
+      "occurrence_ids": [
+        "name-100-paragraph-0-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "yasmān not cyutapūrvo ham acyutas therefore; by that by deed",
+        "english_slots": "{0:yasmān} {1:not} {2:cyutapūrvo} {3:ham} {4:acyutas} {5:therefore; by that} {6:by deed}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यस्मान्",
+            "iast": "yasmān",
+            "gloss": "yasmān",
+            "parts": [
+              {
+                "form": "yasmān",
+                "gloss": "yasmān"
+              }
+            ],
+            "stem": "yasmān",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-100-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "न",
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ],
+            "stem": "n",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-100-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "च्युतपूर्वो",
+            "iast": "cyutapūrvo",
+            "gloss": "cyutapūrvo",
+            "parts": [
+              {
+                "form": "cyutapūrvo",
+                "gloss": "cyutapūrvo"
+              }
+            ],
+            "stem": "cyutapūrvo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-100-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "हम्",
+            "iast": "ham",
+            "gloss": "ham",
+            "parts": [
+              {
+                "form": "ham",
+                "gloss": "ham"
+              }
+            ],
+            "stem": "h",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-100-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "अच्युतस्",
+            "iast": "acyutas",
+            "gloss": "acyutas",
+            "parts": [
+              {
+                "form": "acyutas",
+                "gloss": "acyutas"
+              }
+            ],
+            "stem": "acyutas",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-100-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "तेन",
+            "iast": "tena",
+            "gloss": "therefore; by that",
+            "parts": [
+              {
+                "form": "tena",
+                "gloss": "therefore; by that"
+              }
+            ],
+            "stem": "ten",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-100-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 6,
+            "deva": "कर्मणा",
+            "iast": "karmaṇā",
+            "gloss": "by deed",
+            "parts": [
+              {
+                "form": "karmaṇā",
+                "gloss": "by deed"
+              }
+            ],
+            "stem": "karmaṇā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-100-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yathākarmayathāśrutam": {
+      "unit_key": "yathākarmayathāśrutam",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यथाकर्म यथाश्रुतम्।",
+      "canonical_iast": "yathā karma yathā śrutam",
+      "printed_devanagari_forms": [
+        "यथाकर्म यथाश्रुतम्।"
+      ],
+      "iast_forms": [
+        "yathākarma yathāśrutam|"
+      ],
+      "occurrence_ids": [
+        "name-387-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "according to action according to what was heard",
+        "english_slots": "{0:according to} {1:action} {2:according to} {3:what was heard}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यथा",
+            "iast": "yathā",
+            "gloss": "according to",
+            "parts": [
+              {
+                "form": "yathā",
+                "gloss": "according to"
+              }
+            ],
+            "stem": "yathā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-387-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "कर्म",
+            "iast": "karma",
+            "gloss": "action",
+            "parts": [
+              {
+                "form": "karma",
+                "gloss": "action"
+              }
+            ],
+            "stem": "kar",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-387-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "यथा",
+            "iast": "yathā",
+            "gloss": "according to",
+            "parts": [
+              {
+                "form": "yathā",
+                "gloss": "according to"
+              }
+            ],
+            "stem": "yathā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-387-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "श्रुतम्",
+            "iast": "śrutam",
+            "gloss": "what was heard",
+            "parts": [
+              {
+                "form": "śrutam",
+                "gloss": "what was heard"
+              }
+            ],
+            "stem": "śrut",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-387-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yatkiñcajagatyāṃjagat": {
+      "unit_key": "yatkiñcajagatyāṃjagat",
+      "occurrence_classification": "mixed OCR",
+      "canonical_devanagari": "यत्किञ्च जगत्यां जगत्।",
+      "canonical_iast": "yat kiñ ca jagatyāṃ jagat",
+      "printed_devanagari_forms": [
+        "यत्किञ्च जगत्यां जगत्…"
+      ],
+      "iast_forms": [
+        "yatkiñca jagatyāṃ jagat…"
+      ],
+      "occurrence_ids": [
+        "name-2-paragraph-2-span-1"
+      ],
+      "source_qualification": "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage.",
+      "popup": {
+        "english": "whatever; which anything and in the moving world the moving world",
+        "english_slots": "{0:whatever; which} {1:anything} {2:and} {3:in the moving world} {4:the moving world}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यत्",
+            "iast": "yat",
+            "gloss": "whatever; which",
+            "parts": [
+              {
+                "form": "yat",
+                "gloss": "whatever; which"
+              }
+            ],
+            "stem": "yat",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-2-span-1",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "किञ्",
+            "iast": "kiñ",
+            "gloss": "anything",
+            "parts": [
+              {
+                "form": "kiñ",
+                "gloss": "anything"
+              }
+            ],
+            "stem": "kiñ",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-2-span-1",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "च",
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ],
+            "stem": "c",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-2-span-1",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "जगत्यां",
+            "iast": "jagatyāṃ",
+            "gloss": "in the moving world",
+            "parts": [
+              {
+                "form": "jagatyāṃ",
+                "gloss": "in the moving world"
+              }
+            ],
+            "stem": "jagatyā",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-2-paragraph-2-span-1",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "जगत्",
+            "iast": "jagat",
+            "gloss": "the moving world",
+            "parts": [
+              {
+                "form": "jagat",
+                "gloss": "the moving world"
+              }
+            ],
+            "stem": "jagat",
+            "root": null,
+            "affix": "t-stem citation",
+            "morph": "lexical neuter noun",
+            "evidence": {
+              "text_witness": "name-2-paragraph-2-span-1",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage."
+        ]
+      }
+    },
+    "yatovāconivartanteaprāpyamanasāsaha": {
+      "unit_key": "yatovāconivartanteaprāpyamanasāsaha",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यतो वाचो निवर्तन्ते अप्राप्य मनसा सह।",
+      "canonical_iast": "yato vāco nivartante aprāpya manasā saha",
+      "printed_devanagari_forms": [
+        "यतो वाचो निवर्तन्ते अप्राप्य मनसा सह।"
+      ],
+      "iast_forms": [
+        "yato vāco nivartante aprāpya manasā saha|"
+      ],
+      "occurrence_ids": [
+        "name-545-paragraph-3-span-0",
+        "name-730-paragraph-2-span-0",
+        "name-779-paragraph-3-span-0"
+      ],
+      "source_qualification": "Inline Devanāgarī witness preserved from the commentary scan; popup content independently matches the reviewed Taittirīya quotation already on disk.",
+      "popup": {
+        "english": "from which words turn back, not having reached, together with the mind",
+        "english_slots": "{0:from which} {1:words} {2:turn back}, {3:not having reached}, {5:together with} {4:the mind}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यतो",
+            "iast": "yato",
+            "gloss": "from which",
+            "parts": [
+              {
+                "form": "yataḥ",
+                "gloss": "from which"
+              }
+            ],
+            "stem": "yad",
+            "affix": "ṅasi (pañcamī ekavacana)",
+            "morph": "ablative singular relative pronoun",
+            "evidence": {
+              "witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt",
+              "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+              "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+            },
+            "root": null
+          },
+          {
+            "i": 1,
+            "deva": "वाचो",
+            "iast": "vāco",
+            "gloss": "words",
+            "parts": [
+              {
+                "form": "vācaḥ",
+                "gloss": "words; speeches"
+              }
+            ],
+            "stem": "vāc",
+            "affix": "jas (prathamā bahuvacana)",
+            "morph": "nominative plural feminine noun",
+            "evidence": {
+              "witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt",
+              "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+              "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+            },
+            "root": null
+          },
+          {
+            "i": 2,
+            "deva": "निवर्तन्ते",
+            "iast": "nivartante",
+            "gloss": "turn back",
+            "parts": [
+              {
+                "form": "nivṛt",
+                "gloss": "turn back; return"
+              },
+              {
+                "form": "laṭ",
+                "gloss": "present 3rd plural"
+              }
+            ],
+            "stem": "nivṛt",
+            "affix": "laṭ + jha (prathamapuruṣa bahuvacana)",
+            "morph": "present 3rd person plural verb",
+            "evidence": {
+              "witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt",
+              "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+              "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+            },
+            "root": {
+              "form": "√nivṛt",
+              "gana": "gaṇa 1",
+              "pada": "ātmanepada",
+              "gloss": "to turn back; return",
+              "dhatupatha": {
+                "base_root": "vṛt",
+                "locus": "01.0862",
+                "aupadeshika_devanagari": "वृतुँ",
+                "artha_sanskrit": "वर्तने"
+              }
+            }
+          },
+          {
+            "i": 3,
+            "deva": "अप्राप्य",
+            "iast": "aprāpya",
+            "gloss": "not having reached",
+            "parts": [
+              {
+                "form": "a",
+                "gloss": "not"
+              },
+              {
+                "form": "prāpya",
+                "gloss": "having reached"
+              }
+            ],
+            "stem": "prāp",
+            "affix": "lyap (absolutive with preverb pra- and negative prefix a-)",
+            "morph": "negative absolutive",
+            "evidence": {
+              "witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt",
+              "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+              "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+            },
+            "root": {
+              "form": "√āp",
+              "gana": "gaṇa 5",
+              "pada": "parasmaipada",
+              "gloss": "to reach; obtain",
+              "dhatupatha": {
+                "base_root": "āp",
+                "locus": "05.0016",
+                "aupadeshika_devanagari": "आपॢँ",
+                "artha_sanskrit": "व्याप्तौ"
+              }
+            }
+          },
+          {
+            "i": 4,
+            "deva": "मनसा",
+            "iast": "manasā",
+            "gloss": "with the mind",
+            "parts": [
+              {
+                "form": "manas",
+                "gloss": "mind"
+              }
+            ],
+            "stem": "manas",
+            "affix": "ṭā (tṛtīyā ekavacana)",
+            "morph": "instrumental singular neuter noun",
+            "evidence": {
+              "witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt",
+              "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+              "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+            },
+            "root": null
+          },
+          {
+            "i": 5,
+            "deva": "सह",
+            "iast": "saha",
+            "gloss": "together with",
+            "parts": [
+              {
+                "form": "saha",
+                "gloss": "together with"
+              }
+            ],
+            "stem": "saha",
+            "affix": "avyaya",
+            "morph": "indeclinable particle/postposition",
+            "evidence": {
+              "witness": "data/sources/sanskrit/vedic/taittiriya_upanisad_gretil.txt",
+              "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+              "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+            },
+            "root": null
+          }
+        ],
+        "textual_notes": [
+          "The same half-verse occurs twice in the local Taittirīya witness.",
+          "Surface forms are kept exactly as in the witness: yato, vāco."
+        ]
+      }
+    },
+    "yatovāimānibhṛtānijāyante": {
+      "unit_key": "yatovāimānibhṛtānijāyante",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यतो वा इमानि भूतानि जायन्ते।",
+      "canonical_iast": "yato vā imāni bhūtāni jāyante",
+      "printed_devanagari_forms": [
+        "यतो वा इमानि भृतानि जायन्ते।"
+      ],
+      "iast_forms": [
+        "yato vā imāni bhṛtāni jāyante|"
+      ],
+      "occurrence_ids": [
+        "name-730-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "from which vā these beings are born",
+        "english_slots": "{0:from which} {1:vā} {2:these} {3:beings} {4:are born}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यतो",
+            "iast": "yato",
+            "gloss": "from which",
+            "parts": [
+              {
+                "form": "yato",
+                "gloss": "from which"
+              }
+            ],
+            "stem": "yato",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-730-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "वा",
+            "iast": "vā",
+            "gloss": "vā",
+            "parts": [
+              {
+                "form": "vā",
+                "gloss": "vā"
+              }
+            ],
+            "stem": "vā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-730-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "इमानि",
+            "iast": "imāni",
+            "gloss": "these",
+            "parts": [
+              {
+                "form": "imāni",
+                "gloss": "these"
+              }
+            ],
+            "stem": "imāni",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-730-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "भूतानि",
+            "iast": "bhūtāni",
+            "gloss": "beings",
+            "parts": [
+              {
+                "form": "bhūtāni",
+                "gloss": "beings"
+              }
+            ],
+            "stem": "bhūtāni",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-730-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "जायन्ते",
+            "iast": "jāyante",
+            "gloss": "are born",
+            "parts": [
+              {
+                "form": "jāyante",
+                "gloss": "are born"
+              }
+            ],
+            "stem": "jāyante",
+            "root": {
+              "form": "√jan",
+              "gana": "4",
+              "pada": "A",
+              "gloss": "to be born; arise",
+              "dhatupatha": {
+                "locus": "04.0044",
+                "dhatu_devanagari": "जन्",
+                "aupadeshika_devanagari": "जनीँ",
+                "artha_sanskrit": "प्रादुर्भावे"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3915-3917"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:29578"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "finite verbal form",
+            "evidence": {
+              "text_witness": "name-730-paragraph-1-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yatvācāanabhyaditaṃyenavāgabhyadyate": {
+      "unit_key": "yatvācāanabhyaditaṃyenavāgabhyadyate",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यद् वाचा अनभ्युदितं येन वागभ्युद्यते।",
+      "canonical_iast": "yad vācā anabhyuditaṃ yena vāg abhyudyate",
+      "printed_devanagari_forms": [
+        "यत् वाचा अनभ्यदितं येन वागभ्यद्यते ।"
+      ],
+      "iast_forms": [
+        "yat vācā anabhyaditaṃ yena vāgabhyadyate |"
+      ],
+      "occurrence_ids": [
+        "name-802-paragraph-2-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "yad by speech not brought forth by which vāg is brought forth",
+        "english_slots": "{0:yad} {1:by speech} {2:not brought forth} {3:by which} {4:vāg} {5:is brought forth}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यद्",
+            "iast": "yad",
+            "gloss": "yad",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "yad"
+              }
+            ],
+            "stem": "yad",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-802-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "वाचा",
+            "iast": "vācā",
+            "gloss": "by speech",
+            "parts": [
+              {
+                "form": "vācā",
+                "gloss": "by speech"
+              }
+            ],
+            "stem": "vācā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-802-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "अनभ्युदितं",
+            "iast": "anabhyuditaṃ",
+            "gloss": "not brought forth",
+            "parts": [
+              {
+                "form": "anabhyuditaṃ",
+                "gloss": "not brought forth"
+              }
+            ],
+            "stem": "anabhyudit",
+            "root": {
+              "form": "√i",
+              "gana": "2",
+              "pada": "P",
+              "gloss": "to go; arise forth",
+              "dhatupatha": {
+                "locus": "02.0040",
+                "dhatu_devanagari": "इ",
+                "aupadeshika_devanagari": "इण्",
+                "artha_sanskrit": "गतौ"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3596-3598"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:26948"
+                ]
+              }
+            },
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "derived or participial verbal form",
+            "evidence": {
+              "text_witness": "name-802-paragraph-2-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "येन",
+            "iast": "yena",
+            "gloss": "by which",
+            "parts": [
+              {
+                "form": "yena",
+                "gloss": "by which"
+              }
+            ],
+            "stem": "yen",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-802-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "वाग्",
+            "iast": "vāg",
+            "gloss": "vāg",
+            "parts": [
+              {
+                "form": "vāg",
+                "gloss": "vāg"
+              }
+            ],
+            "stem": "vāg",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-802-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "अभ्युद्यते",
+            "iast": "abhyudyate",
+            "gloss": "is brought forth",
+            "parts": [
+              {
+                "form": "abhyudyate",
+                "gloss": "is brought forth"
+              }
+            ],
+            "stem": "abhyudyate",
+            "root": {
+              "form": "√i",
+              "gana": "2",
+              "pada": "P",
+              "gloss": "to go; arise forth",
+              "dhatupatha": {
+                "locus": "02.0040",
+                "dhatu_devanagari": "इ",
+                "aupadeshika_devanagari": "इण्",
+                "artha_sanskrit": "गतौ"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3596-3598"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:26948"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "finite verbal form",
+            "evidence": {
+              "text_witness": "name-802-paragraph-2-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yatīnāṃpraśamodharmoniyamovanavāsināmdānamevagṛhasthānāṃśuśrūṣābrahmacāriṇām": {
+      "unit_key": "yatīnāṃpraśamodharmoniyamovanavāsināmdānamevagṛhasthānāṃśuśrūṣābrahmacāriṇām",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यतीनां प्रशमो धर्मो नियमो वनवासिनाम्। दानमेव गृहस्थानां शुश्रूषा ब्रह्मचारिणाम्॥",
+      "canonical_iast": "yatīnāṃ praśamo dharmo niyamo vanavāsinām dānam eva gṛhasthānāṃ śuśrūṣā brahmacāriṇām",
+      "printed_devanagari_forms": [
+        "यतीनां प्रशमो धर्मो नियमो वनवासिनाम्। दानमेव गृहस्थानां शुश्रूषा ब्रह्मचारिणाम्॥"
+      ],
+      "iast_forms": [
+        "yatīnāṃ praśamo dharmo niyamo vanavāsinām| dānameva gṛhasthānāṃ śuśrūṣā brahmacāriṇām||"
+      ],
+      "occurrence_ids": [
+        "name-581-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "of ascetics praśamo duty niyamo of forest-dwellers giving indeed gṛhasthānāṃ service of brahmacārins",
+        "english_slots": "{0:of ascetics} {1:praśamo} {2:duty} {3:niyamo} {4:of forest-dwellers} {5:giving} {6:indeed} {7:gṛhasthānāṃ} {8:service} {9:of brahmacārins}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यतीनां",
+            "iast": "yatīnāṃ",
+            "gloss": "of ascetics",
+            "parts": [
+              {
+                "form": "yatīnāṃ",
+                "gloss": "of ascetics"
+              }
+            ],
+            "stem": "yatīnā",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "प्रशमो",
+            "iast": "praśamo",
+            "gloss": "praśamo",
+            "parts": [
+              {
+                "form": "praśamo",
+                "gloss": "praśamo"
+              }
+            ],
+            "stem": "praśamo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "धर्मो",
+            "iast": "dharmo",
+            "gloss": "duty",
+            "parts": [
+              {
+                "form": "dharmo",
+                "gloss": "duty"
+              }
+            ],
+            "stem": "dharmo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "नियमो",
+            "iast": "niyamo",
+            "gloss": "niyamo",
+            "parts": [
+              {
+                "form": "niyamo",
+                "gloss": "niyamo"
+              }
+            ],
+            "stem": "niyamo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "वनवासिनाम्",
+            "iast": "vanavāsinām",
+            "gloss": "of forest-dwellers",
+            "parts": [
+              {
+                "form": "vanavāsinām",
+                "gloss": "of forest-dwellers"
+              }
+            ],
+            "stem": "vanavāsinā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "दानम्",
+            "iast": "dānam",
+            "gloss": "giving",
+            "parts": [
+              {
+                "form": "dānam",
+                "gloss": "giving"
+              }
+            ],
+            "stem": "dān",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 6,
+            "deva": "एव",
+            "iast": "eva",
+            "gloss": "indeed",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "indeed"
+              }
+            ],
+            "stem": "ev",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 7,
+            "deva": "गृहस्थानां",
+            "iast": "gṛhasthānāṃ",
+            "gloss": "gṛhasthānāṃ",
+            "parts": [
+              {
+                "form": "gṛhasthānāṃ",
+                "gloss": "gṛhasthānāṃ"
+              }
+            ],
+            "stem": "gṛhasthānā",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 8,
+            "deva": "शुश्रूषा",
+            "iast": "śuśrūṣā",
+            "gloss": "service",
+            "parts": [
+              {
+                "form": "śuśrūṣā",
+                "gloss": "service"
+              }
+            ],
+            "stem": "śuśrūṣā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 9,
+            "deva": "ब्रह्मचारिणाम्",
+            "iast": "brahmacāriṇām",
+            "gloss": "of brahmacārins",
+            "parts": [
+              {
+                "form": "brahmacāriṇām",
+                "gloss": "of brahmacārins"
+              }
+            ],
+            "stem": "brahmacāriṇā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-581-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yaśaśca": {
+      "unit_key": "yaśaśca",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यशश्च",
+      "canonical_iast": "yaśaś ca",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "yaśaśca"
+      ],
+      "occurrence_ids": [
+        "name-485-paragraph-2-iast-7"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "fame and",
+        "english_slots": "{0:fame} {1:and}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यशः",
+            "iast": "yaśaḥ",
+            "gloss": "fame",
+            "parts": [
+              {
+                "form": "yaśaḥ",
+                "gloss": "fame"
+              }
+            ],
+            "stem": "yaś",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-485-paragraph-2-iast-7",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "च",
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ],
+            "stem": "c",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-485-paragraph-2-iast-7",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yogaḥ": {
+      "unit_key": "yogaḥ",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "योगः",
+      "canonical_iast": "yogaḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "yogaḥ"
+      ],
+      "occurrence_ids": [
+        "name-18-paragraph-1-iast-10"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 18
+      }
+    },
+    "yogaḥcittavattinirodhaḥ": {
+      "unit_key": "yogaḥcittavattinirodhaḥ",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "योगश्चित्तवृत्तिनिरोधः।",
+      "canonical_iast": "yogaś cittavṛttinirodhaḥ",
+      "printed_devanagari_forms": [
+        "योगः चित्तवत्तिनिरोधः।"
+      ],
+      "iast_forms": [
+        "yogaḥ cittavattinirodhaḥ|"
+      ],
+      "occurrence_ids": [
+        "name-849-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "yoga cessation of the mind-modifications",
+        "english_slots": "{0:yoga} {1:cessation of the mind-modifications}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "योगः",
+            "iast": "yogaḥ",
+            "gloss": "yoga",
+            "parts": [
+              {
+                "form": "yogaḥ",
+                "gloss": "yoga"
+              }
+            ],
+            "stem": "yog",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-849-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "चित्तवृत्तिनिरोधः",
+            "iast": "cittavṛttinirodhaḥ",
+            "gloss": "cessation of the mind-modifications",
+            "parts": [
+              {
+                "form": "citta",
+                "gloss": "mind"
+              },
+              {
+                "form": "vṛtti",
+                "gloss": "modification"
+              },
+              {
+                "form": "nirodha",
+                "gloss": "cessation"
+              }
+            ],
+            "stem": "cittavṛttinirodha",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-849-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yoginaḥ": {
+      "unit_key": "yoginaḥ",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "योगिनः",
+      "canonical_iast": "yoginaḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "yoginaḥ"
+      ],
+      "occurrence_ids": [
+        "name-394-paragraph-2-iast-6"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "quote-word",
+        "quote_id": "name-780-paragraph-3-span-0",
+        "word_i": 9
+      }
+    },
+    "yogojñānaṃtathāsāṃkhyaṃvidyāḥśilpādikarmacavedāḥśāstrāṇivijñānametatsarvaṃjanārdanāt": {
+      "unit_key": "yogojñānaṃtathāsāṃkhyaṃvidyāḥśilpādikarmacavedāḥśāstrāṇivijñānametatsarvaṃjanārdanāt",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "योगो ज्ञानं तथा सांख्यं विद्याः शिल्पादिकर्म च। वेदाः शास्त्राणि विज्ञानमेतत्सर्वं जनार्दनात्॥",
+      "canonical_iast": "yogo jñānaṃ tathā sāṃkhyaṃ vidyāḥ śilpādi-karma ca vedāḥ śāstrāṇi vijñānam etat sarvaṃ janārdanāt",
+      "printed_devanagari_forms": [
+        "योगो ज्ञानं तथा सांख्यं विद्याः शिल्पादि कर्म च। वेदाः शास्त्राणि विज्ञानमेतत्सर्वं जनार्दनात्॥"
+      ],
+      "iast_forms": [
+        "yogo jñānaṃ tathā sāṃkhyaṃ vidyāḥ śilpādi karma ca| vedāḥ śāstrāṇi vijñānametatsarvaṃ janārdanāt||"
+      ],
+      "occurrence_ids": [
+        "name-655-paragraph-2-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "yoga knowledge and also Sāṃkhya knowledges śilpādi action and Vedas scriptures discriminative knowledge this all from Janārdana",
+        "english_slots": "{0:yoga} {1:knowledge} {2:and also} {3:Sāṃkhya} {4:knowledges} {5:śilpādi} {6:action} {7:and} {8:Vedas} {9:scriptures} {10:discriminative knowledge} {11:this} {12:all} {13:from Janārdana}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "योगो",
+            "iast": "yogo",
+            "gloss": "yoga",
+            "parts": [
+              {
+                "form": "yogo",
+                "gloss": "yoga"
+              }
+            ],
+            "stem": "yogo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "ज्ञानं",
+            "iast": "jñānaṃ",
+            "gloss": "knowledge",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              }
+            ],
+            "stem": "jñāna",
+            "root": {
+              "form": "√jñā",
+              "gana": "9",
+              "pada": "P",
+              "gloss": "to know; understand",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5138-5140"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:38950"
+                ]
+              }
+            },
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "तथा",
+            "iast": "tathā",
+            "gloss": "and also",
+            "parts": [
+              {
+                "form": "tathā",
+                "gloss": "and also"
+              }
+            ],
+            "stem": "tathā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "सांख्यं",
+            "iast": "sāṃkhyaṃ",
+            "gloss": "Sāṃkhya",
+            "parts": [
+              {
+                "form": "sāṃkhyaṃ",
+                "gloss": "Sāṃkhya"
+              }
+            ],
+            "stem": "sāṃkhy",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "विद्याः",
+            "iast": "vidyāḥ",
+            "gloss": "knowledges",
+            "parts": [
+              {
+                "form": "vidyāḥ",
+                "gloss": "knowledges"
+              }
+            ],
+            "stem": "vidyā",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "शिल्पादि",
+            "iast": "śilpādi",
+            "gloss": "śilpādi",
+            "parts": [
+              {
+                "form": "śilpādi",
+                "gloss": "śilpādi"
+              }
+            ],
+            "stem": "śilpādi",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 6,
+            "deva": "कर्म",
+            "iast": "karma",
+            "gloss": "action",
+            "parts": [
+              {
+                "form": "karma",
+                "gloss": "action"
+              }
+            ],
+            "stem": "kar",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 7,
+            "deva": "च",
+            "iast": "ca",
+            "gloss": "and",
+            "parts": [
+              {
+                "form": "ca",
+                "gloss": "and"
+              }
+            ],
+            "stem": "c",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 8,
+            "deva": "वेदाः",
+            "iast": "vedāḥ",
+            "gloss": "Vedas",
+            "parts": [
+              {
+                "form": "vedāḥ",
+                "gloss": "Vedas"
+              }
+            ],
+            "stem": "vedā",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 9,
+            "deva": "शास्त्राणि",
+            "iast": "śāstrāṇi",
+            "gloss": "scriptures",
+            "parts": [
+              {
+                "form": "śāstrāṇi",
+                "gloss": "scriptures"
+              }
+            ],
+            "stem": "śāstrāṇi",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 10,
+            "deva": "विज्ञानम्",
+            "iast": "vijñānam",
+            "gloss": "discriminative knowledge",
+            "parts": [
+              {
+                "form": "vijñānam",
+                "gloss": "discriminative knowledge"
+              }
+            ],
+            "stem": "vijñān",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 11,
+            "deva": "एतत्",
+            "iast": "etat",
+            "gloss": "this",
+            "parts": [
+              {
+                "form": "etat",
+                "gloss": "this"
+              }
+            ],
+            "stem": "etat",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 12,
+            "deva": "सर्वं",
+            "iast": "sarvaṃ",
+            "gloss": "all",
+            "parts": [
+              {
+                "form": "sarvaṃ",
+                "gloss": "all"
+              }
+            ],
+            "stem": "sarv",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 13,
+            "deva": "जनार्दनात्",
+            "iast": "janārdanāt",
+            "gloss": "from Janārdana",
+            "parts": [
+              {
+                "form": "janārdanāt",
+                "gloss": "from Janārdana"
+              }
+            ],
+            "stem": "janārdanāt",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-655-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yogī": {
+      "unit_key": "yogī",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "योगी",
+      "canonical_iast": "yogī",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "yogī"
+      ],
+      "occurrence_ids": [
+        "name-849-paragraph-0-iast-12",
+        "name-849-paragraph-0-iast-49",
+        "name-850-paragraph-0-iast-22"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 849
+      }
+    },
+    "yogīs": {
+      "unit_key": "yogīs",
+      "occurrence_classification": "duplicate transliteration",
+      "canonical_devanagari": "योगी",
+      "canonical_iast": "yogī",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "yogīs"
+      ],
+      "occurrence_ids": [
+        "name-266-paragraph-0-iast-8",
+        "name-702-paragraph-0-iast-58",
+        "name-715-paragraph-0-iast-17",
+        "name-850-paragraph-0-iast-3",
+        "name-850-paragraph-0-iast-33",
+        "name-850-paragraph-1-iast-8"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "yogīs",
+        "english_slots": "{0:yogīs}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "योगी",
+            "iast": "yogī",
+            "gloss": "yogīs",
+            "parts": [
+              {
+                "form": "yogī",
+                "gloss": "yogīs"
+              }
+            ],
+            "stem": "yogī",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-266-paragraph-0-iast-8",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yovaibhūmātadamṛtamathayadalpaṃtanmartyam": {
+      "unit_key": "yovaibhūmātadamṛtamathayadalpaṃtanmartyam",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यो वै भूमा तदमृतमथ यदल्पं तन्मर्त्यम्।",
+      "canonical_iast": "yo vai bhūmā tad amṛtam atha yad alpaṃ tan martyam",
+      "printed_devanagari_forms": [
+        "यो वै भूमा तदमृतमथ यदल्पं तन्मर्त्यम्।"
+      ],
+      "iast_forms": [
+        "yo vai bhūmā tadamṛtamatha yadalpaṃ tanmartyam|"
+      ],
+      "occurrence_ids": [
+        "name-528-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "who indeed fullness that immortal and then yad small that mortal",
+        "english_slots": "{0:who} {1:indeed} {2:fullness} {3:that} {4:immortal} {5:and then} {6:yad} {7:small} {8:that} {9:mortal}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यो",
+            "iast": "yo",
+            "gloss": "who",
+            "parts": [
+              {
+                "form": "yo",
+                "gloss": "who"
+              }
+            ],
+            "stem": "yo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "वै",
+            "iast": "vai",
+            "gloss": "indeed",
+            "parts": [
+              {
+                "form": "vai",
+                "gloss": "indeed"
+              }
+            ],
+            "stem": "vai",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "भूमा",
+            "iast": "bhūmā",
+            "gloss": "fullness",
+            "parts": [
+              {
+                "form": "bhūmā",
+                "gloss": "fullness"
+              }
+            ],
+            "stem": "bhūmā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "तद्",
+            "iast": "tad",
+            "gloss": "that",
+            "parts": [
+              {
+                "form": "tad",
+                "gloss": "that"
+              }
+            ],
+            "stem": "tad",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "अमृतम्",
+            "iast": "amṛtam",
+            "gloss": "immortal",
+            "parts": [
+              {
+                "form": "amṛtam",
+                "gloss": "immortal"
+              }
+            ],
+            "stem": "amṛt",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "अथ",
+            "iast": "atha",
+            "gloss": "and then",
+            "parts": [
+              {
+                "form": "atha",
+                "gloss": "and then"
+              }
+            ],
+            "stem": "ath",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 6,
+            "deva": "यद्",
+            "iast": "yad",
+            "gloss": "yad",
+            "parts": [
+              {
+                "form": "yad",
+                "gloss": "yad"
+              }
+            ],
+            "stem": "yad",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 7,
+            "deva": "अल्पं",
+            "iast": "alpaṃ",
+            "gloss": "small",
+            "parts": [
+              {
+                "form": "alpaṃ",
+                "gloss": "small"
+              }
+            ],
+            "stem": "alp",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 8,
+            "deva": "तन्",
+            "iast": "tan",
+            "gloss": "that",
+            "parts": [
+              {
+                "form": "tan",
+                "gloss": "that"
+              }
+            ],
+            "stem": "tan",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 9,
+            "deva": "मर्त्यम्",
+            "iast": "martyam",
+            "gloss": "mortal",
+            "parts": [
+              {
+                "form": "martyam",
+                "gloss": "mortal"
+              }
+            ],
+            "stem": "marty",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yovaibhūmātatsukhaṃnālpesukhamasti": {
+      "unit_key": "yovaibhūmātatsukhaṃnālpesukhamasti",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "यो वै भूमा तत्सुखं नाल्पे सुखमस्ति।",
+      "canonical_iast": "yo vai bhūmā tat sukhaṃ na alpe sukham asti",
+      "printed_devanagari_forms": [
+        "यो वै भूमा तत्सुखं नाल्पे सुखमस्ति।"
+      ],
+      "iast_forms": [
+        "yo vai bhūmā tatsukhaṃ nālpe sukhamasti|"
+      ],
+      "occurrence_ids": [
+        "name-528-paragraph-2-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "who indeed fullness tat happiness not in the small sukham is",
+        "english_slots": "{0:who} {1:indeed} {2:fullness} {3:tat} {4:happiness} {5:not} {6:in the small} {7:sukham} {8:is}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यो",
+            "iast": "yo",
+            "gloss": "who",
+            "parts": [
+              {
+                "form": "yo",
+                "gloss": "who"
+              }
+            ],
+            "stem": "yo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "वै",
+            "iast": "vai",
+            "gloss": "indeed",
+            "parts": [
+              {
+                "form": "vai",
+                "gloss": "indeed"
+              }
+            ],
+            "stem": "vai",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "भूमा",
+            "iast": "bhūmā",
+            "gloss": "fullness",
+            "parts": [
+              {
+                "form": "bhūmā",
+                "gloss": "fullness"
+              }
+            ],
+            "stem": "bhūmā",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "तत्",
+            "iast": "tat",
+            "gloss": "tat",
+            "parts": [
+              {
+                "form": "tat",
+                "gloss": "tat"
+              }
+            ],
+            "stem": "tat",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "सुखं",
+            "iast": "sukhaṃ",
+            "gloss": "happiness",
+            "parts": [
+              {
+                "form": "sukhaṃ",
+                "gloss": "happiness"
+              }
+            ],
+            "stem": "sukh",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "न",
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ],
+            "stem": "n",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 6,
+            "deva": "अल्पे",
+            "iast": "alpe",
+            "gloss": "in the small",
+            "parts": [
+              {
+                "form": "alpe",
+                "gloss": "in the small"
+              }
+            ],
+            "stem": "alpe",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 7,
+            "deva": "सुखम्",
+            "iast": "sukham",
+            "gloss": "sukham",
+            "parts": [
+              {
+                "form": "sukham",
+                "gloss": "sukham"
+              }
+            ],
+            "stem": "sukh",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-2-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 8,
+            "deva": "अस्ति",
+            "iast": "asti",
+            "gloss": "is",
+            "parts": [
+              {
+                "form": "asti",
+                "gloss": "is"
+              }
+            ],
+            "stem": "asti",
+            "root": {
+              "form": "√as",
+              "gana": "2",
+              "pada": "P",
+              "gloss": "to be",
+              "dhatupatha": {
+                "locus": "02.0060",
+                "dhatu_devanagari": "अस्",
+                "aupadeshika_devanagari": "असँ",
+                "artha_sanskrit": "भुवि"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3656-3658"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27552"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "finite verbal form",
+            "evidence": {
+              "text_witness": "name-528-paragraph-2-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yādava": {
+      "unit_key": "yādava",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "यादव",
+      "canonical_iast": "Yādava",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "Yādava"
+      ],
+      "occurrence_ids": [
+        "name-550-paragraph-0-iast-5",
+        "name-915-paragraph-0-iast-48",
+        "name-915-paragraph-1-iast-1"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "Yādava",
+        "english_slots": "{0:Yādava}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यादव",
+            "iast": "Yādava",
+            "gloss": "Yādava",
+            "parts": [
+              {
+                "form": "Yādava",
+                "gloss": "Yādava"
+              }
+            ],
+            "stem": "Yādav",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-550-paragraph-0-iast-5",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yādavakula": {
+      "unit_key": "yādavakula",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "यादवकुल",
+      "canonical_iast": "yādava-kula",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "Yādava-kula"
+      ],
+      "occurrence_ids": [
+        "name-511-paragraph-0-iast-15"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "Yādava lineage Yādava lineage",
+        "english_slots": "{0:Yādava lineage} {1:Yādava lineage}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यादव",
+            "iast": "yādava",
+            "gloss": "Yādava lineage",
+            "parts": [
+              {
+                "form": "yādava",
+                "gloss": "Yādava lineage"
+              }
+            ],
+            "stem": "yādav",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-511-paragraph-0-iast-15",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "कुल",
+            "iast": "kula",
+            "gloss": "Yādava lineage",
+            "parts": [
+              {
+                "form": "kula",
+                "gloss": "Yādava lineage"
+              }
+            ],
+            "stem": "kul",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-511-paragraph-0-iast-15",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yāga": {
+      "unit_key": "yāga",
+      "occurrence_classification": "work/title",
+      "canonical_devanagari": "याग",
+      "canonical_iast": "yāga",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "yāga"
+      ],
+      "occurrence_ids": [
+        "name-448-paragraph-0-iast-5",
+        "name-675-paragraph-0-iast-28",
+        "name-675-paragraph-0-iast-45",
+        "name-845-paragraph-0-iast-34",
+        "name-845-paragraph-1-iast-23"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "sacrifice",
+        "english_slots": "{0:sacrifice}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "याग",
+            "iast": "yāga",
+            "gloss": "sacrifice",
+            "parts": [
+              {
+                "form": "yāga",
+                "gloss": "sacrifice"
+              }
+            ],
+            "stem": "yāg",
+            "root": {
+              "form": "√yaj",
+              "gana": "1",
+              "pada": "U",
+              "gloss": "to sacrifice; worship",
+              "dhatupatha": {
+                "locus": "01.1157",
+                "dhatu_devanagari": "यज्",
+                "aupadeshika_devanagari": "यजँ",
+                "artha_sanskrit": "देवपूजासङ्गतिकरणदानेषु"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3449-3451"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25801"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-448-paragraph-0-iast-5",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yāgas": {
+      "unit_key": "yāgas",
+      "occurrence_classification": "duplicate transliteration",
+      "canonical_devanagari": "याग",
+      "canonical_iast": "yāga",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "yāgas"
+      ],
+      "occurrence_ids": [
+        "name-879-paragraph-0-iast-20",
+        "name-974-paragraph-1-iast-5"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "sacrifices",
+        "english_slots": "{0:sacrifices}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "याग",
+            "iast": "yāga",
+            "gloss": "sacrifices",
+            "parts": [
+              {
+                "form": "yāga",
+                "gloss": "sacrifices"
+              }
+            ],
+            "stem": "yāg",
+            "root": {
+              "form": "√yaj",
+              "gana": "1",
+              "pada": "U",
+              "gloss": "to sacrifice; worship",
+              "dhatupatha": {
+                "locus": "01.1157",
+                "dhatu_devanagari": "यज्",
+                "aupadeshika_devanagari": "यजँ",
+                "artha_sanskrit": "देवपूजासङ्गतिकरणदानेषु"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3449-3451"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25801"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-879-paragraph-0-iast-20",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "yūpaḥ": {
+      "unit_key": "yūpaḥ",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "यूपः",
+      "canonical_iast": "yūpaḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "yūpaḥ"
+      ],
+      "occurrence_ids": [
+        "name-438-paragraph-0-iast-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "sacrificial post",
+        "english_slots": "{0:sacrificial post}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "यूपः",
+            "iast": "yūpaḥ",
+            "gloss": "sacrificial post",
+            "parts": [
+              {
+                "form": "yūpaḥ",
+                "gloss": "sacrificial post"
+              }
+            ],
+            "stem": "yūp",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-438-paragraph-0-iast-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ādi": {
+      "unit_key": "ādi",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "आदि",
+      "canonical_iast": "ādi",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ādi",
+        "'ādi'"
+      ],
+      "occurrence_ids": [
+        "name-42-paragraph-0-iast-5",
+        "name-99-paragraph-0-iast-6",
+        "name-300-paragraph-0-iast-38",
+        "name-490-paragraph-0-iast-12",
+        "name-490-paragraph-0-iast-43"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "and so on; beginning",
+        "english_slots": "{0:and so on; beginning}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आदि",
+            "iast": "ādi",
+            "gloss": "and so on; beginning",
+            "parts": [
+              {
+                "form": "ādi",
+                "gloss": "and so on; beginning"
+              }
+            ],
+            "stem": "ādi",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-42-paragraph-0-iast-5",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ādirahitah": {
+      "unit_key": "ādirahitah",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "आदिरहितः",
+      "canonical_iast": "ādi-rahitaḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ādi-rahitah"
+      ],
+      "occurrence_ids": [
+        "name-234-paragraph-0-iast-19"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "without beginning without beginning",
+        "english_slots": "{0:without beginning} {1:without beginning}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आदि",
+            "iast": "ādi",
+            "gloss": "without beginning",
+            "parts": [
+              {
+                "form": "ādi",
+                "gloss": "without beginning"
+              }
+            ],
+            "stem": "ādi",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-234-paragraph-0-iast-19",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "रहितः",
+            "iast": "rahitaḥ",
+            "gloss": "without beginning",
+            "parts": [
+              {
+                "form": "rahitaḥ",
+                "gloss": "without beginning"
+              }
+            ],
+            "stem": "rahit",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-234-paragraph-0-iast-19",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ādityaḥ": {
+      "unit_key": "ādityaḥ",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "आदित्यः",
+      "canonical_iast": "ādityaḥ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ādityaḥ"
+      ],
+      "occurrence_ids": [
+        "name-39-paragraph-0-iast-15",
+        "name-39-paragraph-1-iast-2"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 39
+      }
+    },
+    "ādityobrahmotyādeśa": {
+      "unit_key": "ādityobrahmotyādeśa",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "आदित्यो ब्रह्मेत्यादेशः।",
+      "canonical_iast": "ādityo brahmeti ādeśaḥ",
+      "printed_devanagari_forms": [
+        "आदित्यो ब्रह्मोत्यादेश:।"
+      ],
+      "iast_forms": [
+        "ādityo brahmotyādeśa:|"
+      ],
+      "occurrence_ids": [
+        "name-738-paragraph-3-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "ādityo as brahman declaration",
+        "english_slots": "{0:ādityo} {1:as brahman} {2:declaration}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आदित्यो",
+            "iast": "ādityo",
+            "gloss": "ādityo",
+            "parts": [
+              {
+                "form": "ādityo",
+                "gloss": "ādityo"
+              }
+            ],
+            "stem": "ādityo",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-738-paragraph-3-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "ब्रह्मेति",
+            "iast": "brahmeti",
+            "gloss": "as brahman",
+            "parts": [
+              {
+                "form": "brahmeti",
+                "gloss": "as brahman"
+              }
+            ],
+            "stem": "brahmeti",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-738-paragraph-3-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "आदेशः",
+            "iast": "ādeśaḥ",
+            "gloss": "declaration",
+            "parts": [
+              {
+                "form": "ādeśaḥ",
+                "gloss": "declaration"
+              }
+            ],
+            "stem": "ādeś",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-738-paragraph-3-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ādityānām": {
+      "unit_key": "ādityānām",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "आदित्यानाम्",
+      "canonical_iast": "ādityānām",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "-ādityānām"
+      ],
+      "occurrence_ids": [
+        "name-39-paragraph-0-iast-36"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "quote-word",
+        "quote_id": "name-441-paragraph-1-span-0",
+        "word_i": 0
+      }
+    },
+    "ākṛti": {
+      "unit_key": "ākṛti",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "आकृति",
+      "canonical_iast": "ākṛti",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ākṛti"
+      ],
+      "occurrence_ids": [
+        "name-113-paragraph-0-iast-6"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "form; shape",
+        "english_slots": "{0:form; shape}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आकृति",
+            "iast": "ākṛti",
+            "gloss": "form; shape",
+            "parts": [
+              {
+                "form": "ākṛti",
+                "gloss": "form; shape"
+              }
+            ],
+            "stem": "ākṛti",
+            "root": {
+              "form": "√kṛ",
+              "gana": "8",
+              "pada": "U",
+              "gloss": "to do; make",
+              "dhatupatha": {
+                "locus": "08.0010",
+                "dhatu_devanagari": "कृ",
+                "aupadeshika_devanagari": "डुकृञ्",
+                "artha_sanskrit": "करणे"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5009-5011"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:37957"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-113-paragraph-0-iast-6",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "āna": {
+      "unit_key": "āna",
+      "occurrence_classification": "mixed OCR",
+      "canonical_devanagari": "ज्ञान",
+      "canonical_iast": "jñāna",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "āna"
+      ],
+      "occurrence_ids": [
+        "name-497-paragraph-0-iast-14",
+        "name-982-paragraph-1-iast-3"
+      ],
+      "source_qualification": "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage.",
+      "popup": {
+        "english": "jñāna",
+        "english_slots": "{0:jñāna}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ज्ञान",
+            "iast": "jñāna",
+            "gloss": "jñāna",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              }
+            ],
+            "stem": "jñāna",
+            "root": {
+              "form": "√jñā",
+              "gana": "9",
+              "pada": "P",
+              "gloss": "to know; understand",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5138-5140"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:38950"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-497-paragraph-0-iast-14",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage."
+        ]
+      }
+    },
+    "ānam": {
+      "unit_key": "ānam",
+      "occurrence_classification": "mixed OCR",
+      "canonical_devanagari": "ज्ञानम्",
+      "canonical_iast": "jñānam",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ānam"
+      ],
+      "occurrence_ids": [
+        "name-93-paragraph-1-iast-1",
+        "name-106-paragraph-0-iast-83",
+        "name-212-paragraph-1-iast-2",
+        "name-454-paragraph-0-iast-28"
+      ],
+      "source_qualification": "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage.",
+      "popup": {
+        "english": "jñānam",
+        "english_slots": "{0:jñānam}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ज्ञानम्",
+            "iast": "jñānam",
+            "gloss": "jñānam",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              }
+            ],
+            "stem": "jñāna",
+            "root": {
+              "form": "√jñā",
+              "gana": "9",
+              "pada": "P",
+              "gloss": "to know; understand",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5138-5140"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:38950"
+                ]
+              }
+            },
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-93-paragraph-1-iast-1",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage."
+        ]
+      }
+    },
+    "ānanda": {
+      "unit_key": "ānanda",
+      "occurrence_classification": "proper name",
+      "canonical_devanagari": "आनन्द",
+      "canonical_iast": "ānanda",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ānanda"
+      ],
+      "occurrence_ids": [
+        "name-57-paragraph-0-iast-35",
+        "name-57-paragraph-0-iast-51",
+        "name-186-paragraph-0-iast-6"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "bliss",
+        "english_slots": "{0:bliss}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आनन्द",
+            "iast": "ānanda",
+            "gloss": "bliss",
+            "parts": [
+              {
+                "form": "ānanda",
+                "gloss": "bliss"
+              }
+            ],
+            "stem": "ānand",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-57-paragraph-0-iast-35",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ānandaṃbrahmetivyajānāt": {
+      "unit_key": "ānandaṃbrahmetivyajānāt",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "आनन्दं ब्रह्मेति व्यजानात्।",
+      "canonical_iast": "ānandaṃ brahmeti vyajānāt",
+      "printed_devanagari_forms": [
+        "आनन्दं ब्रह्मेति व्यजानात्"
+      ],
+      "iast_forms": [
+        "ānandaṃ brahmeti vyajānāt"
+      ],
+      "occurrence_ids": [
+        "name-186-paragraph-0-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "bliss as brahman understood",
+        "english_slots": "{0:bliss} {1:as brahman} {2:understood}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आनन्दं",
+            "iast": "ānandaṃ",
+            "gloss": "bliss",
+            "parts": [
+              {
+                "form": "ānandaṃ",
+                "gloss": "bliss"
+              }
+            ],
+            "stem": "ānand",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-186-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "ब्रह्मेति",
+            "iast": "brahmeti",
+            "gloss": "as brahman",
+            "parts": [
+              {
+                "form": "brahmeti",
+                "gloss": "as brahman"
+              }
+            ],
+            "stem": "brahmeti",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-186-paragraph-0-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "व्यजानात्",
+            "iast": "vyajānāt",
+            "gloss": "understood",
+            "parts": [
+              {
+                "form": "vyajānāt",
+                "gloss": "understood"
+              }
+            ],
+            "stem": "vyajānāt",
+            "root": {
+              "form": "√jñā",
+              "gana": "9",
+              "pada": "P",
+              "gloss": "to know; understand",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5138-5140"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:38950"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "finite verbal form",
+            "evidence": {
+              "text_witness": "name-186-paragraph-0-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ānasakti": {
+      "unit_key": "ānasakti",
+      "occurrence_classification": "mixed OCR",
+      "canonical_devanagari": "ज्ञानशक्ति",
+      "canonical_iast": "jñāna-śakti",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "āna-sakti"
+      ],
+      "occurrence_ids": [
+        "name-933-paragraph-0-iast-35",
+        "name-933-paragraph-2-iast-23"
+      ],
+      "source_qualification": "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage.",
+      "popup": {
+        "english": "jñāna-śakti",
+        "english_slots": "{0:jñāna-śakti}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ज्ञानशक्ति",
+            "iast": "jñāna-śakti",
+            "gloss": "jñāna-śakti",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              },
+              {
+                "form": "śakti",
+                "gloss": "power"
+              }
+            ],
+            "stem": "jñāna-śakti",
+            "root": {
+              "form": "√jñā",
+              "gana": "9",
+              "pada": "P",
+              "gloss": "to know; understand",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5138-5140"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:38950"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "compound lexical expression",
+            "evidence": {
+              "text_witness": "name-933-paragraph-0-iast-35",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage."
+        ]
+      }
+    },
+    "ānaśakti": {
+      "unit_key": "ānaśakti",
+      "occurrence_classification": "mixed OCR",
+      "canonical_devanagari": "ज्ञानशक्ति",
+      "canonical_iast": "jñāna-śakti",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "āna-śakti"
+      ],
+      "occurrence_ids": [
+        "name-402-paragraph-0-iast-22"
+      ],
+      "source_qualification": "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage.",
+      "popup": {
+        "english": "jñāna-śakti",
+        "english_slots": "{0:jñāna-śakti}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ज्ञानशक्ति",
+            "iast": "jñāna-śakti",
+            "gloss": "jñāna-śakti",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              },
+              {
+                "form": "śakti",
+                "gloss": "power"
+              }
+            ],
+            "stem": "jñāna-śakti",
+            "root": {
+              "form": "√jñā",
+              "gana": "9",
+              "pada": "P",
+              "gloss": "to know; understand",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5138-5140"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:38950"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "compound lexical expression",
+            "evidence": {
+              "text_witness": "name-402-paragraph-0-iast-22",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage."
+        ]
+      }
+    },
+    "ānaṃ": {
+      "unit_key": "ānaṃ",
+      "occurrence_classification": "mixed OCR",
+      "canonical_devanagari": "ज्ञानं",
+      "canonical_iast": "jñānaṃ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ānaṃ"
+      ],
+      "occurrence_ids": [
+        "name-485-paragraph-2-iast-10"
+      ],
+      "source_qualification": "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage.",
+      "popup": {
+        "english": "knowledge",
+        "english_slots": "{0:knowledge}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ज्ञानं",
+            "iast": "jñānaṃ",
+            "gloss": "knowledge",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              }
+            ],
+            "stem": "jñāna",
+            "root": {
+              "form": "√jñā",
+              "gana": "9",
+              "pada": "P",
+              "gloss": "to know; understand",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5138-5140"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:38950"
+                ]
+              }
+            },
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-485-paragraph-2-iast-10",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Mixed OCR or fragmentary transliteration was repaired to the most defensible canonical Sanskrit recoverable from the local commentary context and source usage."
+        ]
+      }
+    },
+    "āpraṇakhātsarvaevasūvarṇaḥ": {
+      "unit_key": "āpraṇakhātsarvaevasūvarṇaḥ",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "आप्रणखात्सर्व एव सुवर्णः।",
+      "canonical_iast": "āpraṇakhāt sarva eva suvarṇaḥ",
+      "printed_devanagari_forms": [
+        "आप्रणखात् सर्व एव सूवर्णः ।"
+      ],
+      "iast_forms": [
+        "āpraṇakhāt sarva eva sūvarṇaḥ |"
+      ],
+      "occurrence_ids": [
+        "name-800-paragraph-1-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "from nail-tip to nail-tip sarva indeed golden",
+        "english_slots": "{0:from nail-tip to nail-tip} {1:sarva} {2:indeed} {3:golden}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आप्रणखात्",
+            "iast": "āpraṇakhāt",
+            "gloss": "from nail-tip to nail-tip",
+            "parts": [
+              {
+                "form": "āpraṇakhāt",
+                "gloss": "from nail-tip to nail-tip"
+              }
+            ],
+            "stem": "āpraṇakhāt",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-800-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "सर्व",
+            "iast": "sarva",
+            "gloss": "sarva",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "sarva"
+              }
+            ],
+            "stem": "sarv",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-800-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "एव",
+            "iast": "eva",
+            "gloss": "indeed",
+            "parts": [
+              {
+                "form": "eva",
+                "gloss": "indeed"
+              }
+            ],
+            "stem": "ev",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-800-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "सुवर्णः",
+            "iast": "suvarṇaḥ",
+            "gloss": "golden",
+            "parts": [
+              {
+                "form": "suvarṇaḥ",
+                "gloss": "golden"
+              }
+            ],
+            "stem": "suvarṇ",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-800-paragraph-1-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "āroha": {
+      "unit_key": "āroha",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "आरोह",
+      "canonical_iast": "āroha",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "āroha"
+      ],
+      "occurrence_ids": [
+        "name-121-paragraph-0-iast-8"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "ascent",
+        "english_slots": "{0:ascent}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आरोह",
+            "iast": "āroha",
+            "gloss": "ascent",
+            "parts": [
+              {
+                "form": "āroha",
+                "gloss": "ascent"
+              }
+            ],
+            "stem": "āroh",
+            "root": {
+              "form": "√ruh",
+              "gana": "1",
+              "pada": "P",
+              "gloss": "to grow; arise",
+              "dhatupatha": {
+                "locus": "01.0995",
+                "dhatu_devanagari": "रुह्",
+                "aupadeshika_devanagari": "रुहँ",
+                "artha_sanskrit": "बीजजन्मनि प्रादुर्भावे च"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:2963-2965"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:21691"
+                ]
+              }
+            },
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-121-paragraph-0-iast-8",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ātma": {
+      "unit_key": "ātma",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "आत्म",
+      "canonical_iast": "ātma",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ātma"
+      ],
+      "occurrence_ids": [
+        "name-11-paragraph-0-iast-64"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "quote-word",
+        "quote_id": "name-389-paragraph-1-span-0",
+        "word_i": 2
+      }
+    },
+    "ātman": {
+      "unit_key": "ātman",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "आत्मन्",
+      "canonical_iast": "ātman",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ātman"
+      ],
+      "occurrence_ids": [
+        "name-4-paragraph-0-iast-74",
+        "name-8-paragraph-0-iast-3",
+        "name-8-paragraph-0-iast-48",
+        "name-11-paragraph-0-iast-165",
+        "name-14-paragraph-2-iast-1",
+        "name-14-paragraph-2-iast-22",
+        "name-47-paragraph-0-iast-50",
+        "name-155-paragraph-0-iast-34",
+        "name-157-paragraph-0-iast-16",
+        "name-158-paragraph-0-iast-34",
+        "name-167-paragraph-0-iast-63",
+        "name-170-paragraph-1-iast-0",
+        "name-179-paragraph-0-iast-10",
+        "name-209-paragraph-0-iast-39"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "self",
+        "english_slots": "{0:self}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आत्मन्",
+            "iast": "ātman",
+            "gloss": "self",
+            "parts": [
+              {
+                "form": "ātman",
+                "gloss": "self"
+              }
+            ],
+            "stem": "ātman",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-4-paragraph-0-iast-74",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ātmans": {
+      "unit_key": "ātmans",
+      "occurrence_classification": "duplicate transliteration",
+      "canonical_devanagari": "आत्मन्",
+      "canonical_iast": "ātman",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ātmans"
+      ],
+      "occurrence_ids": [
+        "name-8-paragraph-0-iast-73"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "selves",
+        "english_slots": "{0:selves}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आत्मन्",
+            "iast": "ātman",
+            "gloss": "selves",
+            "parts": [
+              {
+                "form": "ātman",
+                "gloss": "selves"
+              }
+            ],
+            "stem": "ātman",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-8-paragraph-0-iast-73",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ātmasaṃvedyaṃtajjñānaṃbrahmasaṃjñitam": {
+      "unit_key": "ātmasaṃvedyaṃtajjñānaṃbrahmasaṃjñitam",
+      "occurrence_classification": "inflected form",
+      "canonical_devanagari": "आत्मसंवेद्यं तज्ज्ञानं ब्रह्मसंज्ञितम्।",
+      "canonical_iast": "ātmasaṃvedyaṃ taj jñānaṃ brahma-saṃjñitam",
+      "printed_devanagari_forms": [
+        "आत्मसंवेद्यं तज्ज्ञानं ब्रह्मसंज्ञितम्।"
+      ],
+      "iast_forms": [
+        "ātmasaṃvedyaṃ tajjñānaṃ brahmasaṃjñitam|"
+      ],
+      "occurrence_ids": [
+        "name-664-paragraph-3-span-0"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "knowable by the self that knowledge brahma saṃjñitam",
+        "english_slots": "{0:knowable by the self} {1:that} {2:knowledge} {3:brahma} {4:saṃjñitam}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आत्मसंवेद्यं",
+            "iast": "ātmasaṃvedyaṃ",
+            "gloss": "knowable by the self",
+            "parts": [
+              {
+                "form": "ātmasaṃvedyaṃ",
+                "gloss": "knowable by the self"
+              }
+            ],
+            "stem": "ātmasaṃvedy",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-664-paragraph-3-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "तज्",
+            "iast": "taj",
+            "gloss": "that",
+            "parts": [
+              {
+                "form": "taj",
+                "gloss": "that"
+              }
+            ],
+            "stem": "taj",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-664-paragraph-3-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "ज्ञानं",
+            "iast": "jñānaṃ",
+            "gloss": "knowledge",
+            "parts": [
+              {
+                "form": "jñāna",
+                "gloss": "knowledge"
+              }
+            ],
+            "stem": "jñāna",
+            "root": {
+              "form": "√jñā",
+              "gana": "9",
+              "pada": "P",
+              "gloss": "to know; understand",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              },
+              "evidence": {
+                "primary_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5138-5140"
+                ],
+                "raw_loci": [
+                  "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:38950"
+                ]
+              }
+            },
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-664-paragraph-3-span-0",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json"
+              ],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "ब्रह्म",
+            "iast": "brahma",
+            "gloss": "brahma",
+            "parts": [
+              {
+                "form": "brahma",
+                "gloss": "brahma"
+              }
+            ],
+            "stem": "brah",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-664-paragraph-3-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "संज्ञितम्",
+            "iast": "saṃjñitam",
+            "gloss": "saṃjñitam",
+            "parts": [
+              {
+                "form": "saṃjñitam",
+                "gloss": "saṃjñitam"
+              }
+            ],
+            "stem": "saṃjñit",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-664-paragraph-3-span-0",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ātmavibhūti": {
+      "unit_key": "ātmavibhūti",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "आत्मविभूति",
+      "canonical_iast": "ātma-vibhūti",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ātma-vibhūti"
+      ],
+      "occurrence_ids": [
+        "name-137-paragraph-0-iast-41"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "self-manifest power self-manifest power",
+        "english_slots": "{0:self-manifest power} {1:self-manifest power}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आत्म",
+            "iast": "ātma",
+            "gloss": "self-manifest power",
+            "parts": [
+              {
+                "form": "ātma",
+                "gloss": "self-manifest power"
+              }
+            ],
+            "stem": "āt",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-137-paragraph-0-iast-41",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "विभूति",
+            "iast": "vibhūti",
+            "gloss": "self-manifest power",
+            "parts": [
+              {
+                "form": "vibhūti",
+                "gloss": "self-manifest power"
+              }
+            ],
+            "stem": "vibhūti",
+            "root": null,
+            "affix": "citation form",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-137-paragraph-0-iast-41",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    },
+    "ātmā": {
+      "unit_key": "ātmā",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "आत्मा",
+      "canonical_iast": "ātmā",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ātmā"
+      ],
+      "occurrence_ids": [
+        "name-102-paragraph-0-iast-5",
+        "name-145-paragraph-1-iast-44",
+        "name-179-paragraph-0-iast-3",
+        "name-207-paragraph-0-iast-3"
+      ],
+      "source_qualification": "Exact lexical-form match to an independently reviewed popup already on disk.",
+      "reference": {
+        "type": "quote-word",
+        "quote_id": "name-145-paragraph-2-span-0",
+        "word_i": 1
+      }
+    },
+    "ātmānaṃ": {
+      "unit_key": "ātmānaṃ",
+      "occurrence_classification": "lexical Sanskrit",
+      "canonical_devanagari": "आत्मानं",
+      "canonical_iast": "ātmānaṃ",
+      "printed_devanagari_forms": [],
+      "iast_forms": [
+        "ātmānaṃ"
+      ],
+      "occurrence_ids": [
+        "name-11-paragraph-2-iast-2"
+      ],
+      "source_qualification": "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used.",
+      "popup": {
+        "english": "self (accusative)",
+        "english_slots": "{0:self (accusative)}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आत्मानं",
+            "iast": "ātmānaṃ",
+            "gloss": "self (accusative)",
+            "parts": [
+              {
+                "form": "ātmānaṃ",
+                "gloss": "self (accusative)"
+              }
+            ],
+            "stem": "ātmān",
+            "root": null,
+            "affix": "am (dvitīyā/prathamā ekavacana)",
+            "morph": "lexical citation form",
+            "evidence": {
+              "text_witness": "name-11-paragraph-2-iast-2",
+              "grammar_witnesses": [],
+              "review_method": "independent inline-popup derivation from local witnesses; interpreter not used"
+            }
+          }
+        ],
+        "textual_notes": [
+          "Standalone inline popup reconstructed from the inventory witness and local Sanskrit grammar sources; interpreter not used."
+        ]
+      }
+    }
+  }
+}

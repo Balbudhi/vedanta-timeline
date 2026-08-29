@@ -1,0 +1,3940 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "expected_unit_keys": [
+    "āvaraṇa",
+    "āvartanaḥ",
+    "āśraya",
+    "īśa",
+    "īśvara",
+    "īśvaraḥ",
+    "īśvarādhīnāhimāyāavidyādhīnaḥtūjīvaḥ",
+    "īśānaḥ",
+    "īśāvāsya",
+    "īśāvāsyam",
+    "īśāvāsyopaniṣad",
+    "īṣṭeitiīśvaraḥ",
+    "śakbatbhavatītiśākvata",
+    "śakti",
+    "śaktis",
+    "śambhuḥ",
+    "śaraḥ",
+    "śaraṇaṃ",
+    "śarbha",
+    "śarīrapūruṣañchandaḥpūruṣovedapūruṣomahāpūruṣaḥ",
+    "śatāvartaḥ",
+    "śayanāt",
+    "śaṅkara",
+    "śaṅkaras",
+    "śete",
+    "śi",
+    "śikhaṇḍa",
+    "śipiviṣṭaḥ",
+    "śivaḥ",
+    "śiṣṭa",
+    "śiṣṭaiṣṭayasyasaḥ",
+    "śiṣṭaḥ",
+    "śiṣṭānāṃiṣṭa",
+    "śravaṇāyāpivahabhiyoṃnalabhyaḥśruṣvantopibahuvoyaṃnavidyuḥāścaryovaktākuśalosyalabdhāścaryojñātākuśalānaśiṣṭa",
+    "śreyaḥ",
+    "śreyān",
+    "śreṣṭhaḥ",
+    "śriyaṃ",
+    "śrī",
+    "śrīkaraḥ",
+    "śrīmān",
+    "śrīr",
+    "śrīvasatyasminnitiśrīvāsaḥ",
+    "śuciḥ",
+    "śvattha",
+    "śvaḥ",
+    "śvetāśvatara",
+    "śānta",
+    "śāntaṃ",
+    "śānti",
+    "śārṅga",
+    "śāstra",
+    "śāstras",
+    "śāstā",
+    "śāśvatasthāṇuḥ",
+    "śāśvataḥ",
+    "śāśvataṃśivamacyutam",
+    "śūrasyagotrāpatyaṃpumānśauriḥ",
+    "ūrdhvamūlovākśākhaeṣośvatthaḥsanātanaḥ",
+    "ṛddhi",
+    "ṛṣi",
+    "ṛṣis"
+  ],
+  "rows": {
+    "āvaraṇa": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "āvaraṇa",
+      "canonical_devanagari": "आवरण",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-709-paragraph-0-span-0"
+      ],
+      "popup": {
+        "english": "covering; veil",
+        "english_slots": "{0:covering; veil}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आवरण",
+            "iast": "āvaraṇa",
+            "gloss": "covering; veil",
+            "parts": [
+              {
+                "form": "āvaraṇa",
+                "gloss": "covering; veil"
+              }
+            ],
+            "stem": "āvaraṇa",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "āvartanaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "āvartanaḥ",
+      "canonical_devanagari": "आवर्तनः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-228-paragraph-0-iast-54"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          228
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      },
+      "notes": []
+    },
+    "āśraya": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "āśraya",
+      "canonical_devanagari": "आश्रय",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-614-paragraph-0-span-0"
+      ],
+      "popup": {
+        "english": "support; refuge",
+        "english_slots": "{0:support; refuge}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "आश्रय",
+            "iast": "āśraya",
+            "gloss": "support; refuge",
+            "parts": [
+              {
+                "form": "āśraya",
+                "gloss": "support; refuge"
+              }
+            ],
+            "stem": "āśraya",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "īśa": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "īśa",
+      "canonical_devanagari": "ईश",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-2-paragraph-2-iast-38",
+        "name-270-paragraph-2-iast-10",
+        "name-371-paragraph-1-iast-4",
+        "name-626-paragraph-1-iast-9"
+      ],
+      "popup": {
+        "english": "lord; ruler",
+        "english_slots": "{0:lord; ruler}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ईश",
+            "iast": "īśa",
+            "gloss": "lord; ruler",
+            "parts": [
+              {
+                "form": "īśa",
+                "gloss": "lord; ruler"
+              }
+            ],
+            "stem": "īśa",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "īśvara": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "īśvara",
+      "canonical_devanagari": "ईश्वर",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-20-paragraph-1-iast-1",
+        "name-20-paragraph-1-iast-37",
+        "name-44-paragraph-0-iast-16",
+        "name-64-paragraph-0-iast-13",
+        "name-64-paragraph-0-iast-40",
+        "name-64-paragraph-0-iast-58",
+        "name-145-paragraph-0-iast-45",
+        "name-245-paragraph-3-iast-3",
+        "name-270-paragraph-1-iast-55",
+        "name-286-paragraph-0-iast-38",
+        "name-312-paragraph-0-iast-38",
+        "name-377-paragraph-0-iast-4",
+        "name-377-paragraph-0-iast-59",
+        "name-395-paragraph-0-iast-38",
+        "name-432-paragraph-0-iast-46",
+        "name-465-paragraph-0-iast-10",
+        "name-465-paragraph-0-iast-25",
+        "name-465-paragraph-1-iast-17",
+        "name-474-paragraph-0-iast-56",
+        "name-557-paragraph-0-iast-10",
+        "name-878-paragraph-1-iast-20",
+        "name-900-paragraph-0-iast-58",
+        "name-900-paragraph-1-iast-4"
+      ],
+      "popup": {
+        "english": "lord; controller",
+        "english_slots": "{0:lord; controller}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ईश्वर",
+            "iast": "īśvara",
+            "gloss": "lord; controller",
+            "parts": [
+              {
+                "form": "īśvara",
+                "gloss": "lord; controller"
+              }
+            ],
+            "stem": "īśvara",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "īśvaraḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "īśvaraḥ",
+      "canonical_devanagari": "ईश्वरः",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-312-paragraph-0-span-1",
+        "name-20-paragraph-1-iast-7",
+        "name-36-paragraph-0-iast-18",
+        "name-44-paragraph-0-iast-25",
+        "name-312-paragraph-0-iast-21",
+        "name-695-paragraph-3-iast-4",
+        "name-767-paragraph-1-iast-8",
+        "name-878-paragraph-2-iast-5"
+      ],
+      "popup": {
+        "english": "lord; controller",
+        "english_slots": "{0:lord; controller}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ईश्वरः",
+            "iast": "īśvaraḥ",
+            "gloss": "lord; controller",
+            "parts": [
+              {
+                "form": "īśvaraḥ",
+                "gloss": "lord; controller"
+              }
+            ],
+            "stem": "īśvaraḥ",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "īśvarādhīnāhimāyāavidyādhīnaḥtūjīvaḥ": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "īśvarādhīnā hi māyā avidyādhīnas tu jīvaḥ",
+      "canonical_devanagari": "ईश्वराधीना हि माया अविद्याधीनस्तु जीवः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-903-paragraph-1-span-0"
+      ],
+      "popup": {
+        "english": "dependent on the Lord indeed māyā dependent on ignorance but the jīva",
+        "english_slots": "{0:dependent on the Lord} {1:indeed} {2:māyā} {3:dependent on ignorance} {4:but} {5:the jīva}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ईश्वराधीना",
+            "iast": "īśvarādhīnā",
+            "gloss": "dependent on the Lord",
+            "parts": [
+              {
+                "form": "īśvarādhīnā",
+                "gloss": "dependent on the Lord"
+              }
+            ],
+            "stem": "īśvara-adhīna",
+            "root": null,
+            "affix": "compound feminine nominative singular",
+            "morph": "compound adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "हि",
+            "iast": "hi",
+            "gloss": "indeed",
+            "parts": [
+              {
+                "form": "hi",
+                "gloss": "indeed"
+              }
+            ],
+            "stem": "hi",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable (avyaya)",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "माया",
+            "iast": "māyā",
+            "gloss": "māyā",
+            "parts": [
+              {
+                "form": "māyā",
+                "gloss": "māyā"
+              }
+            ],
+            "stem": "māyā",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "lexical feminine noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "अविद्याधीनः",
+            "iast": "avidyādhīnaḥ",
+            "gloss": "dependent on ignorance",
+            "parts": [
+              {
+                "form": "avidyādhīnaḥ",
+                "gloss": "dependent on ignorance"
+              }
+            ],
+            "stem": "avidyā-adhīna",
+            "root": null,
+            "affix": "compound masculine nominative singular",
+            "morph": "compound adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "तु",
+            "iast": "tu",
+            "gloss": "but",
+            "parts": [
+              {
+                "form": "tu",
+                "gloss": "but"
+              }
+            ],
+            "stem": "tu",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable (avyaya)",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "जीवः",
+            "iast": "jīvaḥ",
+            "gloss": "the jīva",
+            "parts": [
+              {
+                "form": "jīvaḥ",
+                "gloss": "the jīva"
+              }
+            ],
+            "stem": "jīva",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "The printed witness inserts an ellipsis and an OCR spelling “tū”; canonical Sanskrit is normalized from the same commentary sentence."
+      ]
+    },
+    "īśānaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "īśānaḥ",
+      "canonical_devanagari": "ईशानः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-64-paragraph-0-iast-46"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          64
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      },
+      "notes": []
+    },
+    "īśāvāsya": {
+      "occurrence_class": "work/title",
+      "canonical_iast": "Īśāvāsya",
+      "canonical_devanagari": "ईशावास्य",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-690-paragraph-1-iast-64"
+      ],
+      "popup": {
+        "english": "Īśāvāsya",
+        "english_slots": "{0:Īśāvāsya}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ईशावास्य",
+            "iast": "Īśāvāsya",
+            "gloss": "Īśāvāsya",
+            "parts": [
+              {
+                "form": "Īśāvāsya",
+                "gloss": "Īśāvāsya"
+              }
+            ],
+            "stem": "Īśāvāsya",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "īśāvāsyam": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "īśāvāsyam",
+      "canonical_devanagari": "ईशावास्यम्",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-2-paragraph-1-iast-0",
+        "name-70-paragraph-1-iast-0"
+      ],
+      "popup": {
+        "english": "indwelt by the Lord",
+        "english_slots": "{0:indwelt by the Lord}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ईशावास्यम्",
+            "iast": "īśāvāsyam",
+            "gloss": "indwelt by the Lord",
+            "parts": [
+              {
+                "form": "īśāvāsyam",
+                "gloss": "indwelt by the Lord"
+              }
+            ],
+            "stem": "īśāvāsyam",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "īśāvāsyopaniṣad": {
+      "occurrence_class": "work/title",
+      "canonical_iast": "Īśāvāsyopaniṣad",
+      "canonical_devanagari": "ईशावास्योपनिषद्",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-132-paragraph-0-iast-23",
+        "name-371-paragraph-0-iast-42",
+        "name-392-paragraph-1-iast-15",
+        "name-716-paragraph-1-iast-5"
+      ],
+      "popup": {
+        "english": "Īśāvāsyopaniṣad",
+        "english_slots": "{0:Īśāvāsyopaniṣad}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ईशावास्योपनिषद्",
+            "iast": "Īśāvāsyopaniṣad",
+            "gloss": "Īśāvāsyopaniṣad",
+            "parts": [
+              {
+                "form": "Īśāvāsyopaniṣad",
+                "gloss": "Īśāvāsyopaniṣad"
+              }
+            ],
+            "stem": "Īśāvāsyopaniṣad",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "īṣṭeitiīśvaraḥ": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "īśate iti īśvaraḥ",
+      "canonical_devanagari": "ईशते इति ईश्वरः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-36-paragraph-0-span-0"
+      ],
+      "popup": {
+        "english": "rules thus the Lord",
+        "english_slots": "{0:rules} {1:thus} {2:the Lord}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ईशते",
+            "iast": "īśate",
+            "gloss": "rules",
+            "parts": [
+              {
+                "form": "√īś",
+                "gloss": "rule; possess power"
+              },
+              {
+                "form": "laṭ + ta",
+                "gloss": "present 3rd singular ātmanepada"
+              }
+            ],
+            "stem": "īś",
+            "root": {
+              "form": "√īś",
+              "gana": "adādi (2)",
+              "pada": "ātmanepada",
+              "gloss": "to rule; to possess power",
+              "dhatupatha": {
+                "locus": "02.0010",
+                "dhatu_devanagari": "ईश्",
+                "aupadeshika_devanagari": "ईशँ",
+                "artha_sanskrit": "ऐश्वर्ये"
+              }
+            },
+            "affix": "laṭ + ta",
+            "morph": "present indicative 3rd person singular ātmanepada verb",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "इति",
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ],
+            "stem": "iti",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable (avyaya)",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "ईश्वरः",
+            "iast": "īśvaraḥ",
+            "gloss": "the Lord",
+            "parts": [
+              {
+                "form": "īśvaraḥ",
+                "gloss": "the Lord"
+              }
+            ],
+            "stem": "īśvara",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "The printed deva/IAST pair points to an OCR-degraded etymological formula; canonical Sanskrit is normalized as īśate iti īśvaraḥ."
+      ]
+    },
+    "śakbatbhavatītiśākvata": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "śaśvat bhavati iti śāśvataḥ",
+      "canonical_devanagari": "शश्वत् भवति इति शाश्वतः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-56-paragraph-0-span-0"
+      ],
+      "popup": {
+        "english": "always; perpetually is; becomes thus the eternal one",
+        "english_slots": "{0:always; perpetually} {1:is; becomes} {2:thus} {3:the eternal one}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शश्वत्",
+            "iast": "śaśvat",
+            "gloss": "always; perpetually",
+            "parts": [
+              {
+                "form": "śaśvat",
+                "gloss": "always; perpetually"
+              }
+            ],
+            "stem": "śaśvat",
+            "root": null,
+            "affix": "indeclinable lexical form",
+            "morph": "indeclinable/adverbial form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "भवति",
+            "iast": "bhavati",
+            "gloss": "is; becomes",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "be; become"
+              },
+              {
+                "form": "laṭ + tip",
+                "gloss": "present 3rd singular parasmaipada"
+              }
+            ],
+            "stem": "bhū",
+            "root": {
+              "form": "√bhū",
+              "gana": "bhvādi (1)",
+              "pada": "parasmaipada",
+              "gloss": "to be; to become",
+              "dhatupatha": {
+                "locus": "01.0001",
+                "dhatu_devanagari": "भू",
+                "aupadeshika_devanagari": "भू",
+                "artha_sanskrit": "सत्तायाम्"
+              }
+            },
+            "affix": "laṭ + tip",
+            "morph": "present indicative 3rd person singular parasmaipada verb",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "इति",
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ],
+            "stem": "iti",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable (avyaya)",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "शाश्वतः",
+            "iast": "śāśvataḥ",
+            "gloss": "the eternal one",
+            "parts": [
+              {
+                "form": "śāśvataḥ",
+                "gloss": "the eternal one"
+              }
+            ],
+            "stem": "śāśvata",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "The printed line under name 56 is OCR-corrupted; canonical Sanskrit is normalized to the commentator’s intended derivational gloss for śāśvataḥ."
+      ]
+    },
+    "śakti": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śakti",
+      "canonical_devanagari": "शक्ति",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-175-paragraph-0-span-0",
+        "name-74-paragraph-0-iast-34",
+        "name-74-paragraph-0-iast-43",
+        "name-74-paragraph-0-iast-53",
+        "name-465-paragraph-1-iast-3",
+        "name-603-paragraph-0-iast-51",
+        "name-603-paragraph-0-iast-64",
+        "name-603-paragraph-1-iast-12"
+      ],
+      "popup": {
+        "english": "power",
+        "english_slots": "{0:power}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शक्ति",
+            "iast": "śakti",
+            "gloss": "power",
+            "parts": [
+              {
+                "form": "śakti",
+                "gloss": "power"
+              }
+            ],
+            "stem": "śakti",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śaktis": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "śakti",
+      "canonical_devanagari": "शक्ति",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-175-paragraph-0-iast-20"
+      ],
+      "popup": {
+        "english": "power",
+        "english_slots": "{0:power}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शक्ति",
+            "iast": "śakti",
+            "gloss": "power",
+            "parts": [
+              {
+                "form": "śakti",
+                "gloss": "power"
+              }
+            ],
+            "stem": "śakti",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śambhuḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śambhuḥ",
+      "canonical_devanagari": "शम्भुः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-38-paragraph-0-iast-13"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          38
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      },
+      "notes": []
+    },
+    "śaraḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śaraḥ",
+      "canonical_devanagari": "शरः",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-356-paragraph-1-iast-3"
+      ],
+      "popup": {
+        "english": "perishable body; arrow",
+        "english_slots": "{0:perishable body; arrow}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शरः",
+            "iast": "śaraḥ",
+            "gloss": "perishable body; arrow",
+            "parts": [
+              {
+                "form": "śaraḥ",
+                "gloss": "perishable body; arrow"
+              }
+            ],
+            "stem": "śaraḥ",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śaraṇaṃ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śaraṇaṃ",
+      "canonical_devanagari": "शरणं",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-86-paragraph-0-iast-22",
+        "name-86-paragraph-0-iast-35"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          86
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      },
+      "notes": []
+    },
+    "śarbha": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "śarabha",
+      "canonical_devanagari": "शरभ",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-356-paragraph-0-span-0"
+      ],
+      "popup": {
+        "english": "Śarabha",
+        "english_slots": "{0:Śarabha}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शरभ",
+            "iast": "śarabha",
+            "gloss": "Śarabha",
+            "parts": [
+              {
+                "form": "śarabha",
+                "gloss": "Śarabha"
+              }
+            ],
+            "stem": "śarabha",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "proper-name/lexical form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "The printed form शर्भ / śarbha is normalized to śarabha / शरभ from the same commentary explanation."
+      ]
+    },
+    "śarīrapūruṣañchandaḥpūruṣovedapūruṣomahāpūruṣaḥ": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "śarīra-puruṣaś chandaḥ-puruṣo veda-puruṣo mahāpuruṣaḥ",
+      "canonical_devanagari": "शरीरपुरुषश्छन्दःपुरुषो वेदपुरुषो महापुरुषः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-767-paragraph-2-span-0"
+      ],
+      "popup": {
+        "english": "person in the body person in the metre person in the Veda great person",
+        "english_slots": "{0:person in the body} {1:person in the metre} {2:person in the Veda} {3:great person}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शरीरपुरुषः",
+            "iast": "śarīra-puruṣaḥ",
+            "gloss": "person in the body",
+            "parts": [
+              {
+                "form": "śarīra",
+                "gloss": "body"
+              },
+              {
+                "form": "puruṣa",
+                "gloss": "person"
+              }
+            ],
+            "stem": "śarīra-puruṣa",
+            "root": null,
+            "affix": "compound nominative singular",
+            "morph": "compound noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "छन्दःपुरुषः",
+            "iast": "chandaḥ-puruṣaḥ",
+            "gloss": "person in the metre",
+            "parts": [
+              {
+                "form": "chandas",
+                "gloss": "Vedic metre"
+              },
+              {
+                "form": "puruṣa",
+                "gloss": "person"
+              }
+            ],
+            "stem": "chandas-puruṣa",
+            "root": null,
+            "affix": "compound nominative singular",
+            "morph": "compound noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "वेदपुरुषः",
+            "iast": "veda-puruṣaḥ",
+            "gloss": "person in the Veda",
+            "parts": [
+              {
+                "form": "veda",
+                "gloss": "Veda"
+              },
+              {
+                "form": "puruṣa",
+                "gloss": "person"
+              }
+            ],
+            "stem": "veda-puruṣa",
+            "root": null,
+            "affix": "compound nominative singular",
+            "morph": "compound noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "महापुरुषः",
+            "iast": "mahāpuruṣaḥ",
+            "gloss": "great person",
+            "parts": [
+              {
+                "form": "mahā",
+                "gloss": "great"
+              },
+              {
+                "form": "puruṣa",
+                "gloss": "person"
+              }
+            ],
+            "stem": "mahā-puruṣa",
+            "root": null,
+            "affix": "compound nominative singular",
+            "morph": "compound noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "The printed witness compresses and corrupts spacing; canonical Sanskrit is normalized from the commentator’s Aitareya Upaniṣad paraphrase."
+      ]
+    },
+    "śatāvartaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śatāvartaḥ",
+      "canonical_devanagari": "शतावर्तः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-343-paragraph-0-iast-13"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          343
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      },
+      "notes": []
+    },
+    "śayanāt": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śayanāt",
+      "canonical_devanagari": "शयनात्",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-406-paragraph-1-iast-1"
+      ],
+      "popup": {
+        "english": "from lying; from resting",
+        "english_slots": "{0:from lying; from resting}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शयनात्",
+            "iast": "śayanāt",
+            "gloss": "from lying; from resting",
+            "parts": [
+              {
+                "form": "śayanāt",
+                "gloss": "from lying; from resting"
+              }
+            ],
+            "stem": "śayanāt",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śaṅkara": {
+      "occurrence_class": "proper name",
+      "canonical_iast": "Śaṅkara",
+      "canonical_devanagari": "शङ्कर",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-11-paragraph-0-iast-62",
+        "name-114-paragraph-0-iast-56",
+        "name-114-paragraph-0-iast-76",
+        "name-196-paragraph-0-iast-20",
+        "name-222-paragraph-0-iast-29",
+        "name-275-paragraph-1-iast-123",
+        "name-749-paragraph-0-iast-24"
+      ],
+      "popup": {
+        "english": "Śaṅkara",
+        "english_slots": "{0:Śaṅkara}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शङ्कर",
+            "iast": "Śaṅkara",
+            "gloss": "Śaṅkara",
+            "parts": [
+              {
+                "form": "Śaṅkara",
+                "gloss": "Śaṅkara"
+              }
+            ],
+            "stem": "Śaṅkara",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śaṅkaras": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "Śaṅkara",
+      "canonical_devanagari": "शङ्कर",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-215-paragraph-0-iast-50"
+      ],
+      "popup": {
+        "english": "Śaṅkara",
+        "english_slots": "{0:Śaṅkara}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शङ्कर",
+            "iast": "Śaṅkara",
+            "gloss": "Śaṅkara",
+            "parts": [
+              {
+                "form": "Śaṅkara",
+                "gloss": "Śaṅkara"
+              }
+            ],
+            "stem": "Śaṅkara",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śete": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śete",
+      "canonical_devanagari": "शेते",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-628-paragraph-1-iast-6"
+      ],
+      "popup": {
+        "english": "lies; sleeps",
+        "english_slots": "{0:lies; sleeps}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शेते",
+            "iast": "śete",
+            "gloss": "lies; sleeps",
+            "parts": [
+              {
+                "form": "śete",
+                "gloss": "lies; sleeps"
+              }
+            ],
+            "stem": "śete",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śi": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śi",
+      "canonical_devanagari": "शि",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-273-paragraph-0-span-0"
+      ],
+      "popup": {
+        "english": "śi; cited root-syllable",
+        "english_slots": "{0:śi; cited root-syllable}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शि",
+            "iast": "śi",
+            "gloss": "śi; cited root-syllable",
+            "parts": [
+              {
+                "form": "śi",
+                "gloss": "śi; cited root-syllable"
+              }
+            ],
+            "stem": "śi",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śikhaṇḍa": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śikhaṇḍa",
+      "canonical_devanagari": "शिखण्ड",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-311-paragraph-0-span-0",
+        "name-311-paragraph-0-iast-3"
+      ],
+      "popup": {
+        "english": "crest; peacock feather",
+        "english_slots": "{0:crest; peacock feather}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शिखण्ड",
+            "iast": "śikhaṇḍa",
+            "gloss": "crest; peacock feather",
+            "parts": [
+              {
+                "form": "śikhaṇḍa",
+                "gloss": "crest; peacock feather"
+              }
+            ],
+            "stem": "śikhaṇḍa",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śipiviṣṭaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śipiviṣṭaḥ",
+      "canonical_devanagari": "शिपिविष्टः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-273-paragraph-1-iast-1"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          273
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      },
+      "notes": []
+    },
+    "śivaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śivaḥ",
+      "canonical_devanagari": "शिवः",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-600-paragraph-0-iast-6"
+      ],
+      "popup": {
+        "english": "auspicious; Śiva",
+        "english_slots": "{0:auspicious; Śiva}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शिवः",
+            "iast": "śivaḥ",
+            "gloss": "auspicious; Śiva",
+            "parts": [
+              {
+                "form": "śivaḥ",
+                "gloss": "auspicious; Śiva"
+              }
+            ],
+            "stem": "śivaḥ",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śiṣṭa": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śiṣṭa",
+      "canonical_devanagari": "शिष्ट",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-310-paragraph-3-iast-0"
+      ],
+      "popup": {
+        "english": "disciplined; noble",
+        "english_slots": "{0:disciplined; noble}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शिष्ट",
+            "iast": "śiṣṭa",
+            "gloss": "disciplined; noble",
+            "parts": [
+              {
+                "form": "śiṣṭa",
+                "gloss": "disciplined; noble"
+              }
+            ],
+            "stem": "śiṣṭa",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śiṣṭaiṣṭayasyasaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śiṣṭa iṣṭaḥ yasya saḥ",
+      "canonical_devanagari": "शिष्ट इष्टः यस्य सः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-310-paragraph-3-span-0"
+      ],
+      "popup": {
+        "english": "disciplined; noble dear; beloved whose he",
+        "english_slots": "{0:disciplined; noble} {1:dear; beloved} {2:whose} {3:he}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शिष्ट",
+            "iast": "śiṣṭa",
+            "gloss": "disciplined; noble",
+            "parts": [
+              {
+                "form": "śiṣṭa",
+                "gloss": "disciplined; noble"
+              }
+            ],
+            "stem": "śiṣṭa",
+            "root": null,
+            "affix": "citation-form adjective",
+            "morph": "adjectival form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "इष्टः",
+            "iast": "iṣṭaḥ",
+            "gloss": "dear; beloved",
+            "parts": [
+              {
+                "form": "iṣṭaḥ",
+                "gloss": "dear; beloved"
+              }
+            ],
+            "stem": "iṣṭa",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "यस्य",
+            "iast": "yasya",
+            "gloss": "whose",
+            "parts": [
+              {
+                "form": "yasya",
+                "gloss": "whose"
+              }
+            ],
+            "stem": "yad",
+            "root": null,
+            "affix": "ṣaṣṭhī singular pronominal form",
+            "morph": "genitive singular relative pronoun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "सः",
+            "iast": "saḥ",
+            "gloss": "he",
+            "parts": [
+              {
+                "form": "saḥ",
+                "gloss": "he"
+              }
+            ],
+            "stem": "tad",
+            "root": null,
+            "affix": "pronominal nominative singular",
+            "morph": "nominative masculine singular pronoun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śiṣṭaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śiṣṭaḥ",
+      "canonical_devanagari": "शिष्टः",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-250-paragraph-0-iast-27"
+      ],
+      "popup": {
+        "english": "disciplined; noble",
+        "english_slots": "{0:disciplined; noble}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शिष्टः",
+            "iast": "śiṣṭaḥ",
+            "gloss": "disciplined; noble",
+            "parts": [
+              {
+                "form": "śiṣṭaḥ",
+                "gloss": "disciplined; noble"
+              }
+            ],
+            "stem": "śiṣṭaḥ",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śiṣṭānāṃiṣṭa": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śiṣṭānām iṣṭaḥ",
+      "canonical_devanagari": "शिष्टानाम् इष्टः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-310-paragraph-2-span-0"
+      ],
+      "popup": {
+        "english": "of the good beloved",
+        "english_slots": "{0:of the good} {1:beloved}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शिष्टानाम्",
+            "iast": "śiṣṭānām",
+            "gloss": "of the good",
+            "parts": [
+              {
+                "form": "śiṣṭānām",
+                "gloss": "of the good"
+              }
+            ],
+            "stem": "śiṣṭa",
+            "root": null,
+            "affix": "ām (ṣaṣṭhī bahuvacana)",
+            "morph": "genitive masculine plural adjective used substantively",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "इष्टः",
+            "iast": "iṣṭaḥ",
+            "gloss": "beloved",
+            "parts": [
+              {
+                "form": "iṣṭaḥ",
+                "gloss": "beloved"
+              }
+            ],
+            "stem": "iṣṭa",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śravaṇāyāpivahabhiyoṃnalabhyaḥśruṣvantopibahuvoyaṃnavidyuḥāścaryovaktākuśalosyalabdhāścaryojñātākuśalānaśiṣṭa": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "śravaṇāyāpi bahubhir yo na labhyaḥ śṛṇvanto'pi bahavo yaṃ na vidyuḥ āścaryo vaktā kuśalo'sya labdhā āścaryo jñātā kuśalānuśiṣṭaḥ",
+      "canonical_devanagari": "श्रवणायापि बहुभिर्यो न लभ्यः शृण्वन्तोऽपि बहवो यं न विद्युः आश्चर्यो वक्ता कुशलोऽस्य लब्धा आश्चर्यो ज्ञाता कुशलानुशिष्टः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-895-paragraph-3-span-0"
+      ],
+      "popup": {
+        "english": "even for hearing by many, who not obtainable even while hearing many whom not know wonderful speaker skilled in this one who has obtained wonderful knower well instructed by the skilled",
+        "english_slots": "{0:even for hearing} {1:by many, who} {2:not} {3:obtainable} {4:even while hearing} {5:many} {6:whom} {7:not} {8:know} {9:wonderful} {10:speaker} {11:skilled in this} {12:one who has obtained} {13:wonderful} {14:knower} {15:well instructed by the skilled}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्रवणायापि",
+            "iast": "śravaṇāyāpi",
+            "gloss": "even for hearing",
+            "parts": [
+              {
+                "form": "śravaṇāyāpi",
+                "gloss": "even for hearing"
+              }
+            ],
+            "stem": "śravaṇā + api",
+            "root": null,
+            "affix": "dative singular noun + particle",
+            "morph": "inflected noun phrase",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "बहुभिर्यो",
+            "iast": "bahubhir yo",
+            "gloss": "by many, who",
+            "parts": [
+              {
+                "form": "bahubhir yo",
+                "gloss": "by many, who"
+              }
+            ],
+            "stem": "bahu + yad",
+            "root": null,
+            "affix": "instrumental plural adjective + relative pronoun",
+            "morph": "inflected phrase",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "न",
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ],
+            "stem": "na",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable (avyaya)",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "लभ्यः",
+            "iast": "labhyaḥ",
+            "gloss": "obtainable",
+            "parts": [
+              {
+                "form": "√labh",
+                "gloss": "obtain"
+              },
+              {
+                "form": "ya",
+                "gloss": "gerundive suffix"
+              }
+            ],
+            "stem": "labhya",
+            "root": {
+              "form": "√labh",
+              "gana": "bhvādi (1)",
+              "pada": "ātmanepada",
+              "gloss": "to obtain",
+              "dhatupatha": {
+                "locus": "01.1130",
+                "dhatu_devanagari": "लभ्",
+                "aupadeshika_devanagari": "डुलभँष्",
+                "artha_sanskrit": "प्राप्तौ"
+              }
+            },
+            "affix": "ya gerundive + su",
+            "morph": "nominative masculine singular gerundive",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "शृण्वन्तोऽपि",
+            "iast": "śṛṇvanto'pi",
+            "gloss": "even while hearing",
+            "parts": [
+              {
+                "form": "√śru",
+                "gloss": "hear"
+              },
+              {
+                "form": "śatṛ",
+                "gloss": "present participial suffix"
+              },
+              {
+                "form": "api",
+                "gloss": "even"
+              }
+            ],
+            "stem": "śṛṇvant + api",
+            "root": {
+              "form": "√śru",
+              "gana": "bhvādi (1)",
+              "pada": "parasmaipada",
+              "gloss": "to hear",
+              "dhatupatha": {
+                "locus": "01.1092",
+                "dhatu_devanagari": "श्रु",
+                "aupadeshika_devanagari": "श्रु",
+                "artha_sanskrit": "श्रवणे"
+              }
+            },
+            "affix": "present participle plural + particle",
+            "morph": "present active participial phrase",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "deva": "बहवो",
+            "iast": "bahavo",
+            "gloss": "many",
+            "parts": [
+              {
+                "form": "bahavo",
+                "gloss": "many"
+              }
+            ],
+            "stem": "bahu",
+            "root": null,
+            "affix": "jas (prathamā bahuvacana)",
+            "morph": "nominative masculine plural adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 6,
+            "deva": "यं",
+            "iast": "yaṃ",
+            "gloss": "whom",
+            "parts": [
+              {
+                "form": "yaṃ",
+                "gloss": "whom"
+              }
+            ],
+            "stem": "yad",
+            "root": null,
+            "affix": "am (dvitīyā ekavacana)",
+            "morph": "accusative singular relative pronoun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 7,
+            "deva": "न",
+            "iast": "na",
+            "gloss": "not",
+            "parts": [
+              {
+                "form": "na",
+                "gloss": "not"
+              }
+            ],
+            "stem": "na",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable (avyaya)",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 8,
+            "deva": "विद्युः",
+            "iast": "vidyuḥ",
+            "gloss": "know",
+            "parts": [
+              {
+                "form": "√vid",
+                "gloss": "know"
+              },
+              {
+                "form": "present plural",
+                "gloss": "3rd plural verbal form"
+              }
+            ],
+            "stem": "vid",
+            "root": {
+              "form": "√vid",
+              "gana": "adādi (2)",
+              "pada": "parasmaipada",
+              "gloss": "to know",
+              "dhatupatha": {
+                "locus": "02.0059",
+                "dhatu_devanagari": "विद्",
+                "aupadeshika_devanagari": "विदँ",
+                "artha_sanskrit": "ज्ञाने"
+              }
+            },
+            "affix": "present plural verbal form",
+            "morph": "present indicative 3rd person plural parasmaipada verb",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 9,
+            "deva": "आश्चर्यो",
+            "iast": "āścaryo",
+            "gloss": "wonderful",
+            "parts": [
+              {
+                "form": "āścaryo",
+                "gloss": "wonderful"
+              }
+            ],
+            "stem": "āścarya",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 10,
+            "deva": "वक्ता",
+            "iast": "vaktā",
+            "gloss": "speaker",
+            "parts": [
+              {
+                "form": "√vac",
+                "gloss": "speak"
+              },
+              {
+                "form": "tṛc",
+                "gloss": "agent suffix"
+              }
+            ],
+            "stem": "vaktṛ",
+            "root": {
+              "form": "√vac",
+              "gana": "adādi (2)",
+              "pada": "parasmaipada",
+              "gloss": "to speak; to say",
+              "dhatupatha": {
+                "locus": "02.0058",
+                "dhatu_devanagari": "वच्",
+                "aupadeshika_devanagari": "वचँ",
+                "artha_sanskrit": "परिभाषणे"
+              }
+            },
+            "affix": "tṛc-derived agent form",
+            "morph": "nominative masculine singular agent noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 11,
+            "deva": "कुशलोऽस्य",
+            "iast": "kuśalo'sya",
+            "gloss": "skilled in this",
+            "parts": [
+              {
+                "form": "kuśalo'sya",
+                "gloss": "skilled in this"
+              }
+            ],
+            "stem": "kuśala + asya",
+            "root": null,
+            "affix": "adjective + genitive pronoun",
+            "morph": "inflected phrase",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 12,
+            "deva": "लब्धा",
+            "iast": "labdhā",
+            "gloss": "one who has obtained",
+            "parts": [
+              {
+                "form": "√labh",
+                "gloss": "obtain"
+              },
+              {
+                "form": "kta",
+                "gloss": "past participial suffix"
+              }
+            ],
+            "stem": "labdha",
+            "root": {
+              "form": "√labh",
+              "gana": "bhvādi (1)",
+              "pada": "ātmanepada",
+              "gloss": "to obtain",
+              "dhatupatha": {
+                "locus": "01.1130",
+                "dhatu_devanagari": "लभ्",
+                "aupadeshika_devanagari": "डुलभँष्",
+                "artha_sanskrit": "प्राप्तौ"
+              }
+            },
+            "affix": "kta-derived form",
+            "morph": "nominative singular participial form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 13,
+            "deva": "आश्चर्यो",
+            "iast": "āścaryo",
+            "gloss": "wonderful",
+            "parts": [
+              {
+                "form": "āścaryo",
+                "gloss": "wonderful"
+              }
+            ],
+            "stem": "āścarya",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 14,
+            "deva": "ज्ञाता",
+            "iast": "jñātā",
+            "gloss": "knower",
+            "parts": [
+              {
+                "form": "√jñā",
+                "gloss": "know"
+              },
+              {
+                "form": "tṛc",
+                "gloss": "agent suffix"
+              }
+            ],
+            "stem": "jñātṛ",
+            "root": {
+              "form": "√jñā",
+              "gana": "kryādi (9)",
+              "pada": "parasmaipada",
+              "gloss": "to know",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              }
+            },
+            "affix": "tṛc-derived agent form",
+            "morph": "nominative masculine singular agent noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 15,
+            "deva": "कुशलानुशिष्टः",
+            "iast": "kuśalānuśiṣṭaḥ",
+            "gloss": "well instructed by the skilled",
+            "parts": [
+              {
+                "form": "kuśala",
+                "gloss": "skilled"
+              },
+              {
+                "form": "anu-√śās",
+                "gloss": "instruct"
+              },
+              {
+                "form": "kta",
+                "gloss": "past participial suffix"
+              }
+            ],
+            "stem": "kuśala-anuśiṣṭa",
+            "root": {
+              "form": "√śās",
+              "gana": "adādi (2)",
+              "pada": "parasmaipada",
+              "gloss": "to instruct; to teach",
+              "dhatupatha": {
+                "locus": "02.0070",
+                "dhatu_devanagari": "शास्",
+                "aupadeshika_devanagari": "शासुँ",
+                "artha_sanskrit": "अनुशिष्टौ"
+              }
+            },
+            "affix": "compound participial form",
+            "morph": "nominative masculine singular participial compound",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "The printed witness is heavily OCR-corrupted; canonical Sanskrit is repaired to the Kaṭha Upaniṣad 1.2.7 line that Chinmayananda cites."
+      ]
+    },
+    "śreyaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śreyaḥ",
+      "canonical_devanagari": "श्रेयः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-68-paragraph-1-iast-2"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          612
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-501-750.json"
+      },
+      "notes": []
+    },
+    "śreyān": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śreyān",
+      "canonical_devanagari": "श्रेयान्",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-68-paragraph-1-iast-0"
+      ],
+      "popup": {
+        "english": "better; superior",
+        "english_slots": "{0:better; superior}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्रेयान्",
+            "iast": "śreyān",
+            "gloss": "better; superior",
+            "parts": [
+              {
+                "form": "śreyān",
+                "gloss": "better; superior"
+              }
+            ],
+            "stem": "śreyas",
+            "root": null,
+            "affix": "comparative citation form",
+            "morph": "comparative adjective form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śreṣṭhaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śreṣṭhaḥ",
+      "canonical_devanagari": "श्रेष्ठः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-68-paragraph-1-iast-5"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          68
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      },
+      "notes": []
+    },
+    "śriyaṃ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śriyaṃ",
+      "canonical_devanagari": "श्रियम्",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-611-paragraph-1-iast-4"
+      ],
+      "popup": {
+        "english": "Śrī; prosperity",
+        "english_slots": "{0:Śrī; prosperity}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्रियम्",
+            "iast": "śriyaṃ",
+            "gloss": "Śrī; prosperity",
+            "parts": [
+              {
+                "form": "śriyaṃ",
+                "gloss": "Śrī; prosperity"
+              }
+            ],
+            "stem": "śriyaṃ",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śrī": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śrī",
+      "canonical_devanagari": "श्री",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-12-paragraph-2-iast-14",
+        "name-22-paragraph-0-iast-5",
+        "name-22-paragraph-0-iast-7",
+        "name-76-paragraph-0-iast-38",
+        "name-76-paragraph-0-iast-69",
+        "name-76-paragraph-0-iast-103",
+        "name-80-paragraph-1-iast-25",
+        "name-178-paragraph-0-iast-0",
+        "name-183-paragraph-0-iast-4",
+        "name-183-paragraph-0-iast-6",
+        "name-208-paragraph-0-iast-74",
+        "name-220-paragraph-0-iast-0",
+        "name-245-paragraph-4-iast-131",
+        "name-248-paragraph-0-iast-49",
+        "name-251-paragraph-0-iast-57",
+        "name-255-paragraph-0-iast-60",
+        "name-257-paragraph-0-iast-67",
+        "name-282-paragraph-0-iast-81",
+        "name-288-paragraph-0-iast-16",
+        "name-323-paragraph-0-iast-20",
+        "name-329-paragraph-0-iast-38",
+        "name-332-paragraph-0-iast-108",
+        "name-397-paragraph-0-iast-23",
+        "name-424-paragraph-0-iast-24",
+        "name-432-paragraph-0-iast-21",
+        "name-435-paragraph-0-iast-59",
+        "name-437-paragraph-0-iast-58",
+        "name-440-paragraph-0-iast-35",
+        "name-447-paragraph-0-iast-35",
+        "name-450-paragraph-0-iast-47",
+        "name-452-paragraph-1-iast-13",
+        "name-455-paragraph-0-iast-35",
+        "name-464-paragraph-1-iast-0",
+        "name-476-paragraph-0-iast-19",
+        "name-477-paragraph-0-iast-35",
+        "name-478-paragraph-0-iast-57",
+        "name-479-paragraph-0-iast-77",
+        "name-479-paragraph-0-iast-99",
+        "name-482-paragraph-0-iast-59",
+        "name-483-paragraph-0-iast-50",
+        "name-485-paragraph-0-iast-22",
+        "name-487-paragraph-0-iast-37",
+        "name-504-paragraph-0-iast-53",
+        "name-512-paragraph-0-iast-26",
+        "name-515-paragraph-0-iast-27",
+        "name-525-paragraph-0-iast-16",
+        "name-529-paragraph-0-iast-19",
+        "name-532-paragraph-0-iast-79",
+        "name-533-paragraph-0-iast-5",
+        "name-537-paragraph-0-iast-86",
+        "name-572-paragraph-0-iast-63",
+        "name-591-paragraph-0-iast-6",
+        "name-592-paragraph-0-iast-77",
+        "name-594-paragraph-0-iast-29",
+        "name-600-paragraph-0-iast-23",
+        "name-602-paragraph-0-iast-3",
+        "name-602-paragraph-0-iast-18",
+        "name-603-paragraph-0-iast-39",
+        "name-603-paragraph-0-iast-44",
+        "name-603-paragraph-0-iast-59",
+        "name-604-paragraph-0-iast-7",
+        "name-604-paragraph-0-iast-26",
+        "name-605-paragraph-0-iast-3",
+        "name-606-paragraph-0-iast-7",
+        "name-607-paragraph-0-iast-12",
+        "name-607-paragraph-0-iast-21",
+        "name-608-paragraph-0-iast-7",
+        "name-608-paragraph-0-iast-23",
+        "name-609-paragraph-0-iast-6",
+        "name-609-paragraph-0-iast-20",
+        "name-610-paragraph-0-iast-3",
+        "name-611-paragraph-0-iast-3",
+        "name-613-paragraph-0-iast-16",
+        "name-622-paragraph-0-iast-10",
+        "name-624-paragraph-0-iast-30",
+        "name-628-paragraph-0-iast-30",
+        "name-634-paragraph-0-iast-18",
+        "name-639-paragraph-0-iast-17",
+        "name-641-paragraph-0-iast-4",
+        "name-645-paragraph-0-iast-5",
+        "name-646-paragraph-0-iast-43",
+        "name-651-paragraph-0-iast-16",
+        "name-653-paragraph-0-iast-40",
+        "name-655-paragraph-2-iast-45",
+        "name-661-paragraph-0-iast-22",
+        "name-665-paragraph-0-iast-27",
+        "name-666-paragraph-1-iast-46",
+        "name-680-paragraph-1-iast-23",
+        "name-684-paragraph-0-iast-6",
+        "name-691-paragraph-0-iast-10",
+        "name-693-paragraph-0-iast-31",
+        "name-705-paragraph-0-iast-18",
+        "name-718-paragraph-0-iast-45",
+        "name-720-paragraph-0-iast-60",
+        "name-722-paragraph-0-iast-20",
+        "name-725-paragraph-0-iast-16",
+        "name-726-paragraph-0-iast-31",
+        "name-730-paragraph-0-iast-58",
+        "name-734-paragraph-0-iast-60",
+        "name-737-paragraph-0-iast-3",
+        "name-739-paragraph-0-iast-11",
+        "name-743-paragraph-1-iast-10",
+        "name-757-paragraph-0-iast-63",
+        "name-759-paragraph-0-iast-8",
+        "name-759-paragraph-1-iast-14",
+        "name-760-paragraph-0-iast-90",
+        "name-760-paragraph-1-iast-62",
+        "name-762-paragraph-0-iast-38",
+        "name-768-paragraph-0-iast-14",
+        "name-769-paragraph-0-iast-50",
+        "name-773-paragraph-0-iast-42",
+        "name-776-paragraph-0-iast-102",
+        "name-779-paragraph-0-iast-25",
+        "name-780-paragraph-0-iast-58",
+        "name-789-paragraph-0-iast-87",
+        "name-790-paragraph-0-iast-41",
+        "name-791-paragraph-1-iast-46",
+        "name-795-paragraph-0-iast-50",
+        "name-796-paragraph-0-iast-33",
+        "name-797-paragraph-0-iast-31",
+        "name-798-paragraph-0-iast-22",
+        "name-799-paragraph-0-iast-63",
+        "name-802-paragraph-0-iast-79",
+        "name-802-paragraph-1-iast-50",
+        "name-803-paragraph-0-iast-77",
+        "name-806-paragraph-0-iast-40",
+        "name-811-paragraph-0-iast-54",
+        "name-814-paragraph-0-iast-62",
+        "name-815-paragraph-0-iast-44",
+        "name-819-paragraph-0-iast-10",
+        "name-820-paragraph-0-iast-88",
+        "name-822-paragraph-0-iast-50",
+        "name-823-paragraph-0-iast-30",
+        "name-826-paragraph-0-iast-11",
+        "name-827-paragraph-1-iast-5",
+        "name-834-paragraph-0-iast-51",
+        "name-835-paragraph-0-iast-4",
+        "name-842-paragraph-0-iast-42",
+        "name-845-paragraph-1-iast-39",
+        "name-850-paragraph-0-iast-24",
+        "name-850-paragraph-0-iast-63",
+        "name-852-paragraph-0-iast-0",
+        "name-852-paragraph-0-iast-71",
+        "name-853-paragraph-0-iast-48",
+        "name-857-paragraph-0-iast-9",
+        "name-859-paragraph-0-iast-28",
+        "name-868-paragraph-0-iast-45",
+        "name-875-paragraph-0-iast-28",
+        "name-877-paragraph-0-iast-29",
+        "name-881-paragraph-0-iast-12",
+        "name-898-paragraph-0-iast-17",
+        "name-900-paragraph-1-iast-1",
+        "name-901-paragraph-0-iast-28",
+        "name-905-paragraph-0-iast-33",
+        "name-907-paragraph-0-iast-53",
+        "name-907-paragraph-1-iast-35",
+        "name-915-paragraph-0-iast-13",
+        "name-915-paragraph-0-iast-49",
+        "name-917-paragraph-0-iast-89",
+        "name-918-paragraph-0-iast-87",
+        "name-919-paragraph-0-iast-16",
+        "name-920-paragraph-0-iast-51",
+        "name-923-paragraph-0-iast-85",
+        "name-925-paragraph-0-iast-17",
+        "name-929-paragraph-0-iast-41",
+        "name-933-paragraph-1-iast-39",
+        "name-934-paragraph-1-iast-43",
+        "name-936-paragraph-0-iast-16",
+        "name-941-paragraph-0-iast-17",
+        "name-946-paragraph-0-iast-7",
+        "name-946-paragraph-0-iast-56",
+        "name-947-paragraph-0-iast-35",
+        "name-957-paragraph-0-iast-23",
+        "name-961-paragraph-0-iast-6",
+        "name-961-paragraph-0-iast-39",
+        "name-963-paragraph-0-iast-18",
+        "name-964-paragraph-0-iast-26",
+        "name-966-paragraph-0-iast-48",
+        "name-967-paragraph-0-iast-91",
+        "name-971-paragraph-0-iast-52",
+        "name-974-paragraph-0-iast-24",
+        "name-981-paragraph-0-iast-24",
+        "name-981-paragraph-0-iast-39",
+        "name-982-paragraph-0-iast-0",
+        "name-983-paragraph-0-iast-82",
+        "name-986-paragraph-0-iast-43",
+        "name-990-paragraph-0-iast-21",
+        "name-991-paragraph-0-iast-8",
+        "name-993-paragraph-0-iast-50",
+        "name-996-paragraph-0-iast-40"
+      ],
+      "popup": {
+        "english": "Śrī; prosperity; Lakṣmī",
+        "english_slots": "{0:Śrī; prosperity; Lakṣmī}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्री",
+            "iast": "śrī",
+            "gloss": "Śrī; prosperity; Lakṣmī",
+            "parts": [
+              {
+                "form": "śrī",
+                "gloss": "Śrī; prosperity; Lakṣmī"
+              }
+            ],
+            "stem": "śrī",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śrīkaraḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śrīkaraḥ",
+      "canonical_devanagari": "श्रीकरः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-611-paragraph-1-iast-7"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          611
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-501-750.json"
+      },
+      "notes": []
+    },
+    "śrīmān": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śrīmān",
+      "canonical_devanagari": "श्रीमान्",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-22-paragraph-0-iast-43",
+        "name-178-paragraph-0-iast-20",
+        "name-220-paragraph-0-iast-13"
+      ],
+      "popup": {
+        "english": "possessing Śrī; splendid",
+        "english_slots": "{0:possessing Śrī; splendid}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्रीमान्",
+            "iast": "śrīmān",
+            "gloss": "possessing Śrī; splendid",
+            "parts": [
+              {
+                "form": "śrīmān",
+                "gloss": "possessing Śrī; splendid"
+              }
+            ],
+            "stem": "śrīmān",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śrīr": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "śrīḥ",
+      "canonical_devanagari": "श्रीः",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-485-paragraph-2-iast-8"
+      ],
+      "popup": {
+        "english": "Śrī; prosperity",
+        "english_slots": "{0:Śrī; prosperity}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्रीः",
+            "iast": "śrīḥ",
+            "gloss": "Śrī; prosperity",
+            "parts": [
+              {
+                "form": "śrīḥ",
+                "gloss": "Śrī; prosperity"
+              }
+            ],
+            "stem": "śrīḥ",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śrīvasatyasminnitiśrīvāsaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śrī vasaty asmin iti śrīvāsaḥ",
+      "canonical_devanagari": "श्री वसत्यस्मिन्निति श्रीवासः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-602-paragraph-0-span-0"
+      ],
+      "popup": {
+        "english": "Śrī; prosperity dwells in this thus abode of Śrī",
+        "english_slots": "{0:Śrī; prosperity} {1:dwells} {2:in this} {3:thus} {4:abode of Śrī}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्री",
+            "iast": "śrī",
+            "gloss": "Śrī; prosperity",
+            "parts": [
+              {
+                "form": "śrī",
+                "gloss": "Śrī; prosperity"
+              }
+            ],
+            "stem": "śrī",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "lexical feminine noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "वसति",
+            "iast": "vasati",
+            "gloss": "dwells",
+            "parts": [
+              {
+                "form": "√vas",
+                "gloss": "dwell"
+              },
+              {
+                "form": "laṭ + tip",
+                "gloss": "present 3rd singular parasmaipada"
+              }
+            ],
+            "stem": "vas",
+            "root": {
+              "form": "√vas",
+              "gana": "bhvādi (1)",
+              "pada": "parasmaipada",
+              "gloss": "to dwell",
+              "dhatupatha": {
+                "locus": "01.1160",
+                "dhatu_devanagari": "वस्",
+                "aupadeshika_devanagari": "वसँ",
+                "artha_sanskrit": "निवासे"
+              }
+            },
+            "affix": "laṭ + tip",
+            "morph": "present indicative 3rd person singular parasmaipada verb",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "अस्मिन्",
+            "iast": "asmin",
+            "gloss": "in this",
+            "parts": [
+              {
+                "form": "asmin",
+                "gloss": "in this"
+              }
+            ],
+            "stem": "idam",
+            "root": null,
+            "affix": "locative singular pronominal form",
+            "morph": "locative singular pronoun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "इति",
+            "iast": "iti",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ],
+            "stem": "iti",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable (avyaya)",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "श्रीवासः",
+            "iast": "śrīvāsaḥ",
+            "gloss": "abode of Śrī",
+            "parts": [
+              {
+                "form": "śrī",
+                "gloss": "Śrī; prosperity"
+              },
+              {
+                "form": "vāsa",
+                "gloss": "abode; dwelling"
+              }
+            ],
+            "stem": "śrī-vāsa",
+            "root": null,
+            "affix": "compound nominative singular",
+            "morph": "compound noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śuciḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śuciḥ",
+      "canonical_devanagari": "शुचिः",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-155-paragraph-0-iast-54"
+      ],
+      "popup": {
+        "english": "pure",
+        "english_slots": "{0:pure}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शुचिः",
+            "iast": "śuciḥ",
+            "gloss": "pure",
+            "parts": [
+              {
+                "form": "śuciḥ",
+                "gloss": "pure"
+              }
+            ],
+            "stem": "śuciḥ",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śvattha": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śvattha",
+      "canonical_devanagari": "श्वत्थ",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-824-paragraph-1-span-1"
+      ],
+      "popup": {
+        "english": "remaining till tomorrow",
+        "english_slots": "{0:remaining till tomorrow}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्वत्थ",
+            "iast": "śvattha",
+            "gloss": "remaining till tomorrow",
+            "parts": [
+              {
+                "form": "śvattha",
+                "gloss": "remaining till tomorrow"
+              }
+            ],
+            "stem": "śvattha",
+            "root": null,
+            "affix": "derivational fragment citation form",
+            "morph": "derivational lexical fragment",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": [
+        "This is the commentator’s derivational fragment within the aśvattha explanation, not the standalone tree name aśvattha."
+      ]
+    },
+    "śvaḥ": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śvaḥ",
+      "canonical_devanagari": "श्वः",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-824-paragraph-1-span-0"
+      ],
+      "popup": {
+        "english": "tomorrow",
+        "english_slots": "{0:tomorrow}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्वः",
+            "iast": "śvaḥ",
+            "gloss": "tomorrow",
+            "parts": [
+              {
+                "form": "śvaḥ",
+                "gloss": "tomorrow"
+              }
+            ],
+            "stem": "śvaḥ",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śvetāśvatara": {
+      "occurrence_class": "work/title",
+      "canonical_iast": "Śvetāśvatara",
+      "canonical_devanagari": "श्वेताश्वतर",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-355-paragraph-1-iast-0",
+        "name-582-paragraph-1-iast-5",
+        "name-603-paragraph-2-iast-3"
+      ],
+      "popup": {
+        "english": "Śvetāśvatara",
+        "english_slots": "{0:Śvetāśvatara}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "श्वेताश्वतर",
+            "iast": "Śvetāśvatara",
+            "gloss": "Śvetāśvatara",
+            "parts": [
+              {
+                "form": "Śvetāśvatara",
+                "gloss": "Śvetāśvatara"
+              }
+            ],
+            "stem": "Śvetāśvatara",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śānta": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śānta",
+      "canonical_devanagari": "शान्त",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-700-paragraph-0-span-0"
+      ],
+      "popup": {
+        "english": "peaceful; calmed",
+        "english_slots": "{0:peaceful; calmed}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शान्त",
+            "iast": "śānta",
+            "gloss": "peaceful; calmed",
+            "parts": [
+              {
+                "form": "śānta",
+                "gloss": "peaceful; calmed"
+              }
+            ],
+            "stem": "śānta",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śāntaṃ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śāntaṃ",
+      "canonical_devanagari": "शान्तं",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-582-paragraph-0-span-2"
+      ],
+      "popup": {
+        "english": "peaceful; calmed",
+        "english_slots": "{0:peaceful; calmed}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शान्तं",
+            "iast": "śāntaṃ",
+            "gloss": "peaceful; calmed",
+            "parts": [
+              {
+                "form": "śāntaṃ",
+                "gloss": "peaceful; calmed"
+              }
+            ],
+            "stem": "śāntaṃ",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śānti": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śānti",
+      "canonical_devanagari": "शान्ति",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-95-paragraph-3-iast-3",
+        "name-392-paragraph-1-iast-16",
+        "name-648-paragraph-1-iast-1"
+      ],
+      "popup": {
+        "english": "peace",
+        "english_slots": "{0:peace}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शान्ति",
+            "iast": "śānti",
+            "gloss": "peace",
+            "parts": [
+              {
+                "form": "śānti",
+                "gloss": "peace"
+              }
+            ],
+            "stem": "śānti",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śārṅga": {
+      "occurrence_class": "proper name",
+      "canonical_iast": "Śārṅga",
+      "canonical_devanagari": "शार्ङ्ग",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-181-paragraph-0-span-0",
+        "name-76-paragraph-0-iast-6",
+        "name-181-paragraph-0-iast-9",
+        "name-567-paragraph-0-iast-7",
+        "name-996-paragraph-0-iast-7"
+      ],
+      "popup": {
+        "english": "Śārṅga bow",
+        "english_slots": "{0:Śārṅga bow}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शार्ङ्ग",
+            "iast": "Śārṅga",
+            "gloss": "Śārṅga bow",
+            "parts": [
+              {
+                "form": "Śārṅga",
+                "gloss": "Śārṅga bow"
+              }
+            ],
+            "stem": "Śārṅga",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śāstra": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "śāstra",
+      "canonical_devanagari": "शास्त्र",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-206-paragraph-0-iast-31",
+        "name-346-paragraph-0-iast-43",
+        "name-482-paragraph-0-iast-40",
+        "name-570-paragraph-0-iast-24",
+        "name-661-paragraph-0-iast-16",
+        "name-849-paragraph-0-iast-20",
+        "name-849-paragraph-1-iast-5"
+      ],
+      "popup": {
+        "english": "treatise; scripture",
+        "english_slots": "{0:treatise; scripture}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शास्त्र",
+            "iast": "śāstra",
+            "gloss": "treatise; scripture",
+            "parts": [
+              {
+                "form": "śāstra",
+                "gloss": "treatise; scripture"
+              }
+            ],
+            "stem": "śāstra",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śāstras": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "śāstra",
+      "canonical_devanagari": "शास्त्र",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-103-paragraph-1-iast-24",
+        "name-275-paragraph-1-iast-14",
+        "name-655-paragraph-2-iast-38",
+        "name-956-paragraph-0-iast-11",
+        "name-993-paragraph-0-iast-40",
+        "name-994-paragraph-0-iast-26",
+        "name-995-paragraph-0-iast-19"
+      ],
+      "popup": {
+        "english": "treatise; scripture",
+        "english_slots": "{0:treatise; scripture}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शास्त्र",
+            "iast": "śāstra",
+            "gloss": "treatise; scripture",
+            "parts": [
+              {
+                "form": "śāstra",
+                "gloss": "treatise; scripture"
+              }
+            ],
+            "stem": "śāstra",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śāstā": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śāstā",
+      "canonical_devanagari": "शास्ता",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-206-paragraph-0-iast-24"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          206
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      },
+      "notes": []
+    },
+    "śāśvatasthāṇuḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śāśvata-sthāṇuḥ",
+      "canonical_devanagari": "शाश्वत-स्थाणुः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-120-paragraph-0-iast-45"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          120
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      },
+      "notes": []
+    },
+    "śāśvataḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śāśvataḥ",
+      "canonical_devanagari": "शाश्वतः",
+      "source_qualification": "Exact lexical-form match to one reviewed sahasranāma name analysis; this shard references that existing fully reviewed popup.",
+      "occurrence_ids": [
+        "name-627-paragraph-0-span-1",
+        "name-120-paragraph-0-iast-5",
+        "name-120-paragraph-0-iast-29"
+      ],
+      "reference": {
+        "kind": "name-analysis-review",
+        "name_numbers": [
+          56
+        ],
+        "review_file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      },
+      "notes": []
+    },
+    "śāśvataṃśivamacyutam": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śāśvataṃ śivam acyutam",
+      "canonical_devanagari": "शाश्वतं शिवम् अच्युतम्",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-318-paragraph-2-span-0"
+      ],
+      "popup": {
+        "english": "eternal auspicious unfailing",
+        "english_slots": "{0:eternal} {1:auspicious} {2:unfailing}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शाश्वतं",
+            "iast": "śāśvataṃ",
+            "gloss": "eternal",
+            "parts": [
+              {
+                "form": "śāśvataṃ",
+                "gloss": "eternal"
+              }
+            ],
+            "stem": "śāśvata",
+            "root": null,
+            "affix": "am (dvitīyā ekavacana)",
+            "morph": "accusative neuter singular adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "शिवम्",
+            "iast": "śivam",
+            "gloss": "auspicious",
+            "parts": [
+              {
+                "form": "śivam",
+                "gloss": "auspicious"
+              }
+            ],
+            "stem": "śiva",
+            "root": null,
+            "affix": "am (dvitīyā ekavacana)",
+            "morph": "accusative neuter singular adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "अच्युतम्",
+            "iast": "acyutam",
+            "gloss": "unfailing",
+            "parts": [
+              {
+                "form": "acyutam",
+                "gloss": "unfailing"
+              }
+            ],
+            "stem": "acyuta",
+            "root": null,
+            "affix": "am (dvitīyā ekavacana)",
+            "morph": "accusative neuter singular adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "śūrasyagotrāpatyaṃpumānśauriḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "śūrasya gotrāpatyaṃ pumān śauriḥ",
+      "canonical_devanagari": "शूरस्य गोत्रापत्यं पुमान् शौरिः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-340-paragraph-1-span-0"
+      ],
+      "popup": {
+        "english": "of Śūra lineage-descendant a male person Śauri",
+        "english_slots": "{0:of Śūra} {1:lineage-descendant} {2:a male person} {3:Śauri}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "शूरस्य",
+            "iast": "śūrasya",
+            "gloss": "of Śūra",
+            "parts": [
+              {
+                "form": "śūrasya",
+                "gloss": "of Śūra"
+              }
+            ],
+            "stem": "śūra",
+            "root": null,
+            "affix": "ṅas (ṣaṣṭhī ekavacana)",
+            "morph": "genitive masculine singular noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "गोत्रापत्यं",
+            "iast": "gotrāpatyaṃ",
+            "gloss": "lineage-descendant",
+            "parts": [
+              {
+                "form": "gotrāpatyaṃ",
+                "gloss": "lineage-descendant"
+              }
+            ],
+            "stem": "gotra-apatya",
+            "root": null,
+            "affix": "compound accusative singular",
+            "morph": "compound nominal expression",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "पुमान्",
+            "iast": "pumān",
+            "gloss": "a male person",
+            "parts": [
+              {
+                "form": "pumān",
+                "gloss": "a male person"
+              }
+            ],
+            "stem": "pumān",
+            "root": null,
+            "affix": "citation-form masculine noun",
+            "morph": "nominative masculine singular noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "शौरिः",
+            "iast": "śauriḥ",
+            "gloss": "Śauri",
+            "parts": [
+              {
+                "form": "śauriḥ",
+                "gloss": "Śauri"
+              }
+            ],
+            "stem": "śauri",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular patronymic noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "ūrdhvamūlovākśākhaeṣośvatthaḥsanātanaḥ": {
+      "occurrence_class": "inflected form",
+      "canonical_iast": "ūrdhvamūlo'vākśākha eṣo'śvatthaḥ sanātanaḥ",
+      "canonical_devanagari": "ऊर्ध्वमूलोऽवाक्शाख एषोऽश्वत्थः सनातनः",
+      "source_qualification": "Independent inline popup for this shard-3 subset-C unit; normalized directly from the inline occurrence and surrounding commentary context.",
+      "occurrence_ids": [
+        "name-555-paragraph-2-span-0"
+      ],
+      "popup": {
+        "english": "having the root above having branches below this the aśvattha tree eternal",
+        "english_slots": "{0:having the root above} {1:having branches below} {2:this} {3:the aśvattha tree} {4:eternal}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ऊर्ध्वमूलः",
+            "iast": "ūrdhvamūlaḥ",
+            "gloss": "having the root above",
+            "parts": [
+              {
+                "form": "ūrdhva",
+                "gloss": "upward"
+              },
+              {
+                "form": "mūla",
+                "gloss": "root"
+              }
+            ],
+            "stem": "ūrdhva-mūla",
+            "root": null,
+            "affix": "compound nominative singular",
+            "morph": "compound adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "deva": "अवाक्शाखः",
+            "iast": "avākśākhaḥ",
+            "gloss": "having branches below",
+            "parts": [
+              {
+                "form": "avāk",
+                "gloss": "downward"
+              },
+              {
+                "form": "śākhā",
+                "gloss": "branch"
+              }
+            ],
+            "stem": "avāk-śākha",
+            "root": null,
+            "affix": "compound nominative singular",
+            "morph": "compound adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "deva": "एषः",
+            "iast": "eṣaḥ",
+            "gloss": "this",
+            "parts": [
+              {
+                "form": "eṣaḥ",
+                "gloss": "this"
+              }
+            ],
+            "stem": "etad",
+            "root": null,
+            "affix": "pronominal nominative singular",
+            "morph": "nominative masculine singular pronoun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "deva": "अश्वत्थः",
+            "iast": "aśvatthaḥ",
+            "gloss": "the aśvattha tree",
+            "parts": [
+              {
+                "form": "aśvatthaḥ",
+                "gloss": "the aśvattha tree"
+              }
+            ],
+            "stem": "aśvattha",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular noun",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "deva": "सनातनः",
+            "iast": "sanātanaḥ",
+            "gloss": "eternal",
+            "parts": [
+              {
+                "form": "sanātanaḥ",
+                "gloss": "eternal"
+              }
+            ],
+            "stem": "sanātana",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative masculine singular adjective",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt"
+              ],
+              "review_method": "direct inline review with local grammar-source checks; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "ṛddhi": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "ṛddhi",
+      "canonical_devanagari": "ऋद्धि",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-389-paragraph-0-iast-5"
+      ],
+      "popup": {
+        "english": "prosperity; growth",
+        "english_slots": "{0:prosperity; growth}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ऋद्धि",
+            "iast": "ṛddhi",
+            "gloss": "prosperity; growth",
+            "parts": [
+              {
+                "form": "ṛddhi",
+                "gloss": "prosperity; growth"
+              }
+            ],
+            "stem": "ṛddhi",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "ṛṣi": {
+      "occurrence_class": "lexical Sanskrit",
+      "canonical_iast": "ṛṣi",
+      "canonical_devanagari": "ऋषि",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-186-paragraph-0-iast-50",
+        "name-531-paragraph-0-iast-12",
+        "name-776-paragraph-0-iast-35",
+        "name-809-paragraph-0-iast-53",
+        "name-857-paragraph-0-iast-53",
+        "name-898-paragraph-0-iast-7"
+      ],
+      "popup": {
+        "english": "seer",
+        "english_slots": "{0:seer}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ऋषि",
+            "iast": "ṛṣi",
+            "gloss": "seer",
+            "parts": [
+              {
+                "form": "ṛṣi",
+                "gloss": "seer"
+              }
+            ],
+            "stem": "ṛṣi",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    },
+    "ṛṣis": {
+      "occurrence_class": "mixed OCR",
+      "canonical_iast": "ṛṣi",
+      "canonical_devanagari": "ऋषि",
+      "source_qualification": "Single lexical/proper-title inline occurrence normalized at popup scope; no broader quotation-level claim is asserted in this shard.",
+      "occurrence_ids": [
+        "name-14-paragraph-0-iast-17",
+        "name-45-paragraph-0-iast-22",
+        "name-108-paragraph-0-iast-16",
+        "name-267-paragraph-0-iast-88",
+        "name-272-paragraph-0-iast-39",
+        "name-377-paragraph-0-iast-31",
+        "name-789-paragraph-0-iast-21",
+        "name-827-paragraph-1-iast-22",
+        "name-837-paragraph-0-iast-26"
+      ],
+      "popup": {
+        "english": "seer",
+        "english_slots": "{0:seer}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "deva": "ऋषि",
+            "iast": "ṛṣi",
+            "gloss": "seer",
+            "parts": [
+              {
+                "form": "ṛṣi",
+                "gloss": "seer"
+              }
+            ],
+            "stem": "ṛṣi",
+            "root": null,
+            "affix": "citation-form nominal stem",
+            "morph": "inline lexical/citation form",
+            "evidence": {
+              "text_witness": "inline-sanskrit-inventory shard 3 subset C",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt"
+              ],
+              "review_method": "direct inline review; interpreter not used"
+            }
+          }
+        ]
+      },
+      "notes": []
+    }
+  }
+}

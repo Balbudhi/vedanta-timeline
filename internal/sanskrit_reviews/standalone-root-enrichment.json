@@ -1,0 +1,986 @@
+{
+  "name-72-paragraph-2-span-0": {
+    "6": {
+      "deva": "विद्धि",
+      "iast": "viddhi",
+      "morph": "imperative 2nd person singular parasmaipada verb",
+      "root": {
+        "form": "√vid",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to know",
+        "dhatupatha": {
+          "locus": "02.0059",
+          "dhatu_devanagari": "विद्",
+          "aupadeshika_devanagari": "विदँ",
+          "artha_sanskrit": "ज्ञाने"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3653-3655"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27531"
+          ]
+        }
+      }
+    }
+  },
+  "name-131-paragraph-2-span-0": {
+    "5": {
+      "deva": "अधीत्य",
+      "iast": "adhītya",
+      "morph": "indeclinable absolutive",
+      "root": {
+        "form": "√i",
+        "gana": "2",
+        "pada": "A",
+        "gloss": "to study",
+        "dhatupatha": {
+          "locus": "02.0041",
+          "dhatu_devanagari": "इ",
+          "aupadeshika_devanagari": "इङ्",
+          "artha_sanskrit": "अध्ययने"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3599-3601"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27034"
+          ]
+        }
+      }
+    },
+    "8": {
+      "deva": "विजानाति",
+      "iast": "vijānāti",
+      "morph": "present indicative 3rd person singular parasmaipada verb",
+      "root": {
+        "form": "√jñā",
+        "gana": "9",
+        "pada": "P",
+        "gloss": "to know; understand",
+        "dhatupatha": {
+          "locus": "09.0043",
+          "dhatu_devanagari": "ज्ञा",
+          "aupadeshika_devanagari": "ज्ञा",
+          "artha_sanskrit": "अवबोधने"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5138-5140"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:38950"
+          ]
+        }
+      }
+    }
+  },
+  "name-141-paragraph-2-span-0": {
+    "3": {
+      "deva": "भाति",
+      "iast": "bhāti",
+      "morph": "present indicative 3rd person singular parasmaipada verb",
+      "root": {
+        "form": "√bhā",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to shine",
+        "dhatupatha": {
+          "locus": "02.0046",
+          "dhatu_devanagari": "भा",
+          "aupadeshika_devanagari": "भा",
+          "artha_sanskrit": "दीप्तौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3614-3616"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27183"
+          ]
+        }
+      }
+    },
+    "9": {
+      "deva": "भान्ति",
+      "iast": "bhānti",
+      "morph": "present indicative 3rd person plural parasmaipada verb",
+      "root": {
+        "form": "√bhā",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to shine",
+        "dhatupatha": {
+          "locus": "02.0046",
+          "dhatu_devanagari": "भा",
+          "aupadeshika_devanagari": "भा",
+          "artha_sanskrit": "दीप्तौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3614-3616"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27183"
+          ]
+        }
+      }
+    },
+    "15": {
+      "deva": "भान्तम्",
+      "iast": "bhāntam",
+      "morph": "accusative masculine singular present active participle",
+      "root": {
+        "form": "√bhā",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to shine",
+        "dhatupatha": {
+          "locus": "02.0046",
+          "dhatu_devanagari": "भा",
+          "aupadeshika_devanagari": "भा",
+          "artha_sanskrit": "दीप्तौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3614-3616"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27183"
+          ]
+        }
+      }
+    },
+    "17": {
+      "deva": "भाति",
+      "iast": "bhāti",
+      "morph": "present indicative 3rd person singular parasmaipada verb",
+      "root": {
+        "form": "√bhā",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to shine",
+        "dhatupatha": {
+          "locus": "02.0046",
+          "dhatu_devanagari": "भा",
+          "aupadeshika_devanagari": "भा",
+          "artha_sanskrit": "दीप्तौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3614-3616"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27183"
+          ]
+        }
+      }
+    },
+    "23": {
+      "deva": "विभाति",
+      "iast": "vibhāti",
+      "morph": "present indicative 3rd person singular parasmaipada verb",
+      "root": {
+        "form": "√bhā",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to shine",
+        "dhatupatha": {
+          "locus": "02.0046",
+          "dhatu_devanagari": "भा",
+          "aupadeshika_devanagari": "भा",
+          "artha_sanskrit": "दीप्तौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3614-3616"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27183"
+          ]
+        }
+      }
+    }
+  },
+  "name-153-paragraph-1-span-0": {
+    "10": {
+      "deva": "अवधारयेत्",
+      "iast": "avadhārayet",
+      "morph": "optative 3rd person singular parasmaipada causative verb",
+      "root": {
+        "form": "√dhṛ",
+        "gana": "1",
+        "pada": "U",
+        "gloss": "to hold; support",
+        "dhatupatha": {
+          "locus": "01.1047",
+          "dhatu_devanagari": "धृ",
+          "aupadeshika_devanagari": "धृञ्",
+          "artha_sanskrit": "धारणे"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3119-3121"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:22966"
+          ]
+        }
+      }
+    }
+  },
+  "name-160-paragraph-1-span-0": {
+    "0": {
+      "deva": "धृत",
+      "iast": "dhṛta",
+      "morph": "nominative masculine singular past passive participle",
+      "root": {
+        "form": "√dhṛ",
+        "gana": "1",
+        "pada": "U",
+        "gloss": "to hold; support",
+        "dhatupatha": {
+          "locus": "01.1047",
+          "dhatu_devanagari": "धृ",
+          "aupadeshika_devanagari": "धृञ्",
+          "artha_sanskrit": "धारणे"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3119-3121"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:22966"
+          ]
+        }
+      }
+    }
+  },
+  "name-187-paragraph-2-span-0": {
+    "2": {
+      "deva": "अनभ्युदितम्",
+      "iast": "anabhyuditaṃ",
+      "morph": "accusative neuter singular past passive participle",
+      "root": {
+        "form": "√i",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to go; arise forth",
+        "dhatupatha": {
+          "locus": "02.0040",
+          "dhatu_devanagari": "इ",
+          "aupadeshika_devanagari": "इण्",
+          "artha_sanskrit": "गतौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3596-3598"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:26948"
+          ]
+        }
+      }
+    },
+    "5": {
+      "deva": "अभ्युद्यते",
+      "iast": "abhyudyate",
+      "morph": "present indicative passive 3rd person singular verb",
+      "root": {
+        "form": "√i",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to go; arise forth",
+        "dhatupatha": {
+          "locus": "02.0040",
+          "dhatu_devanagari": "इ",
+          "aupadeshika_devanagari": "इण्",
+          "artha_sanskrit": "गतौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3596-3598"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:26948"
+          ]
+        }
+      }
+    },
+    "10": {
+      "deva": "विद्धि",
+      "iast": "viddhi",
+      "morph": "imperative 2nd person singular parasmaipada verb",
+      "root": {
+        "form": "√vid",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to know",
+        "dhatupatha": {
+          "locus": "02.0059",
+          "dhatu_devanagari": "विद्",
+          "aupadeshika_devanagari": "विदँ",
+          "artha_sanskrit": "ज्ञाने"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3653-3655"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27531"
+          ]
+        }
+      }
+    },
+    "15": {
+      "deva": "उपासते",
+      "iast": "upāsate",
+      "morph": "present indicative 3rd person plural ātmanepada verb",
+      "root": {
+        "form": "√ās",
+        "gana": "2",
+        "pada": "A",
+        "gloss": "to sit",
+        "dhatupatha": {
+          "locus": "02.0011",
+          "dhatu_devanagari": "आस्",
+          "aupadeshika_devanagari": "आसँ",
+          "artha_sanskrit": "उपवेशने"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3509-3511"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:26317"
+          ]
+        },
+        "note": "Used for upāsate through the prefixed form upa-√ās."
+      }
+    }
+  },
+  "name-192-paragraph-1-span-0": {
+    "9": {
+      "deva": "स्वाद्वत्त्यनश्नन्नन्यो",
+      "iast": "svādvattyanaśnannanyo",
+      "morph": "mixed surface group with a finite verb and a participial clause",
+      "roots": [
+        {
+          "form": "√ad",
+          "gana": "2",
+          "pada": "P",
+          "gloss": "to eat",
+          "dhatupatha": {
+            "locus": "02.0001",
+            "dhatu_devanagari": "अद्",
+            "aupadeshika_devanagari": "अदँ",
+            "artha_sanskrit": "भक्षणे"
+          },
+          "evidence": {
+            "primary_loci": [
+              "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3479-3481"
+            ],
+            "raw_loci": [
+              "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:26052"
+            ]
+          },
+          "surface_form": "atti"
+        },
+        {
+          "form": "√aś",
+          "gana": "9",
+          "pada": "P",
+          "gloss": "to eat; consume",
+          "dhatupatha": {
+            "locus": "09.0059",
+            "dhatu_devanagari": "अश्",
+            "aupadeshika_devanagari": "अशँ",
+            "artha_sanskrit": "भोजने"
+          },
+          "evidence": {
+            "primary_loci": [
+              "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5186-5188"
+            ],
+            "raw_loci": [
+              "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:39351"
+            ]
+          },
+          "surface_form": "anaśnan"
+        }
+      ]
+    }
+  },
+  "name-245-paragraph-5-span-0": {
+    "0": {
+      "deva": "नराज्जातानि",
+      "iast": "narājjātāni",
+      "morph": "ablative noun plus nominative plural neuter participle (external sandhi group)",
+      "surface_subform": "jātāni",
+      "root": {
+        "form": "√jan",
+        "gana": "4",
+        "pada": "A",
+        "gloss": "to be born; arise",
+        "dhatupatha": {
+          "locus": "04.0044",
+          "dhatu_devanagari": "जन्",
+          "aupadeshika_devanagari": "जनीँ",
+          "artha_sanskrit": "प्रादुर्भावे"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3915-3917"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:29578"
+          ]
+        },
+        "note": "Chosen for jāta in the intransitive sense “born”."
+      }
+    },
+    "3": {
+      "deva": "विदुर्बुधाः",
+      "iast": "vidurbudhāḥ",
+      "morph": "finite verb plus subject noun (external sandhi group)",
+      "surface_subform": "viduḥ",
+      "root": {
+        "form": "√vid",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to know",
+        "dhatupatha": {
+          "locus": "02.0059",
+          "dhatu_devanagari": "विद्",
+          "aupadeshika_devanagari": "विदँ",
+          "artha_sanskrit": "ज्ञाने"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3653-3655"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27531"
+          ]
+        }
+      }
+    }
+  },
+  "name-270-paragraph-2-span-0": {
+    "2": {
+      "deva": "भूतान्यात्मन्येवानुपश्यति ।",
+      "iast": "bhūtāny ātmany evānupaśyati |",
+      "morph": "accusative neuter plural noun + locative masculine singular noun + indeclinable + present indicative 3rd person singular verb",
+      "surface_subform": "anupaśyati",
+      "root": {
+        "form": "√dṛś",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to see; behold",
+        "dhatupatha": {
+          "locus": "01.1143",
+          "dhatu_devanagari": "दृश्",
+          "aupadeshika_devanagari": "दृशिँर्",
+          "artha_sanskrit": "प्रेक्षणे"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3407-3409"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25464"
+          ]
+        }
+      }
+    }
+  },
+  "name-375-paragraph-1-span-0": {
+    "0": {
+      "deva": "दीव्यति",
+      "iast": "dīvyati",
+      "morph": "present indicative 3rd person singular verb",
+      "root": {
+        "form": "√div",
+        "gana": "4",
+        "pada": "P",
+        "gloss": "to sport; shine",
+        "dhatupatha": {
+          "locus": "04.0001",
+          "dhatu_devanagari": "दिव्",
+          "aupadeshika_devanagari": "दिवुँ",
+          "artha_sanskrit": "क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3786-3788"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:28628"
+          ]
+        }
+      }
+    }
+  },
+  "name-418-paragraph-1-span-0": {
+    "0": {
+      "deva": "कलयति",
+      "iast": "kalayati",
+      "morph": "present indicative 3rd person singular verb",
+      "root": {
+        "form": "√kal",
+        "gana": "1",
+        "pada": "A",
+        "gloss": "to count; enumerate",
+        "dhatupatha": {
+          "locus": "01.0570",
+          "dhatu_devanagari": "कल्",
+          "aupadeshika_devanagari": "कलँ",
+          "artha_sanskrit": "शब्दसङ्ख्यानयोः"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1708-1710"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:12312"
+          ]
+        },
+        "note": "Selected over the gaṇa-10 कलँ “to throw” because the attested sense here is counting."
+      }
+    }
+  },
+  "name-505-paragraph-2-span-0": {
+    "2": {
+      "deva": "वर्तते",
+      "iast": "vartate",
+      "morph": "present indicative 3rd person singular ātmanepada verb",
+      "root": {
+        "form": "√vṛt",
+        "gana": "1",
+        "pada": "A",
+        "gloss": "to be; happen; abide",
+        "dhatupatha": {
+          "locus": "01.0862",
+          "dhatu_devanagari": "वृत्",
+          "aupadeshika_devanagari": "वृतुँ",
+          "artha_sanskrit": "वर्तने"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:2584-2586"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:18652"
+          ]
+        }
+      }
+    }
+  },
+  "name-564-paragraph-1-span-0": {
+    "0": {
+      "deva": "ध्येयः",
+      "iast": "dhyeyaḥ",
+      "morph": "nominative masculine singular gerundive/adjectival form",
+      "root": {
+        "form": "√dhyai",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to meditate; think",
+        "dhatupatha": {
+          "locus": "01.1056",
+          "dhatu_devanagari": "ध्यै",
+          "aupadeshika_devanagari": "ध्यै",
+          "artha_sanskrit": "चिन्तायाम्"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3146-3148"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:23235"
+          ]
+        }
+      }
+    }
+  },
+  "name-611-paragraph-1-span-0": {
+    "1": {
+      "deva": "करोति",
+      "iast": "karoti",
+      "morph": "present indicative 3rd person singular parasmaipada verb",
+      "root": {
+        "form": "√kṛ",
+        "gana": "8",
+        "pada": "U",
+        "gloss": "to do; make",
+        "dhatupatha": {
+          "locus": "08.0010",
+          "dhatu_devanagari": "कृ",
+          "aupadeshika_devanagari": "डुकृञ्",
+          "artha_sanskrit": "करणे"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:5009-5011"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:37957"
+          ]
+        }
+      }
+    }
+  },
+  "name-626-paragraph-1-span-0": {
+    "1": {
+      "deva": "विद्यते",
+      "iast": "vidyate",
+      "morph": "present indicative 3rd person singular ātmanepada verb",
+      "root": {
+        "form": "√vid",
+        "gana": "4",
+        "pada": "A",
+        "gloss": "to exist",
+        "dhatupatha": {
+          "locus": "04.0067",
+          "dhatu_devanagari": "विद्",
+          "aupadeshika_devanagari": "विदँ",
+          "artha_sanskrit": "सत्तायाम्"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3984-3986"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:30103"
+          ]
+        },
+        "note": "Selected for forms glossed or explained as existence, not cognition."
+      }
+    }
+  },
+  "name-628-paragraph-1-span-0": {
+    "1": {
+      "deva": "शेते",
+      "iast": "śete",
+      "morph": "present indicative 3rd person singular ātmanepada verb",
+      "root": {
+        "form": "√śī",
+        "gana": "2",
+        "pada": "A",
+        "gloss": "to lie; rest",
+        "dhatupatha": {
+          "locus": "02.0026",
+          "dhatu_devanagari": "शी",
+          "aupadeshika_devanagari": "शीङ्",
+          "artha_sanskrit": "स्वप्ने"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3554-3556"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:26651"
+          ]
+        }
+      }
+    }
+  },
+  "name-639-paragraph-1-span-0": {
+    "1": {
+      "deva": "विद्यते",
+      "iast": "vidyate",
+      "morph": "present indicative 3rd person singular ātmanepada verb",
+      "root": {
+        "form": "√vid",
+        "gana": "4",
+        "pada": "A",
+        "gloss": "to exist",
+        "dhatupatha": {
+          "locus": "04.0067",
+          "dhatu_devanagari": "विद्",
+          "aupadeshika_devanagari": "विदँ",
+          "artha_sanskrit": "सत्तायाम्"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3984-3986"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:30103"
+          ]
+        },
+        "note": "Selected for forms glossed or explained as existence, not cognition."
+      }
+    }
+  },
+  "name-673-paragraph-3-span-0": {
+    "3": {
+      "deva": "भाति",
+      "iast": "bhāti",
+      "morph": "present indicative 3rd person singular parasmaipada verb",
+      "root": {
+        "form": "√bhā",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to shine",
+        "dhatupatha": {
+          "locus": "02.0046",
+          "dhatu_devanagari": "भा",
+          "aupadeshika_devanagari": "भा",
+          "artha_sanskrit": "दीप्तौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3614-3616"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27183"
+          ]
+        }
+      }
+    },
+    "9": {
+      "deva": "विभाति",
+      "iast": "vibhāti",
+      "morph": "present indicative 3rd person singular parasmaipada verb",
+      "root": {
+        "form": "√bhā",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to shine",
+        "dhatupatha": {
+          "locus": "02.0046",
+          "dhatu_devanagari": "भा",
+          "aupadeshika_devanagari": "भा",
+          "artha_sanskrit": "दीप्तौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3614-3616"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27183"
+          ]
+        }
+      }
+    }
+  },
+  "name-674-paragraph-1-span-0": {
+    "1": {
+      "deva": "गच्छति",
+      "iast": "gacchati",
+      "morph": "present indicative 3rd person singular parasmaipada verb",
+      "root": {
+        "form": "√gam",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to go",
+        "dhatupatha": {
+          "locus": "01.1137",
+          "dhatu_devanagari": "गम्",
+          "aupadeshika_devanagari": "गमॢँ",
+          "artha_sanskrit": "गतौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3389-3391"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25203"
+          ]
+        }
+      }
+    }
+  },
+  "name-591-paragraph-2-span-0": {
+    "0": {
+      "deva": "गोपाये",
+      "iast": "gopāye",
+      "morph": "first-person singular finite verb",
+      "root": {
+        "form": "√gup",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to protect",
+        "dhatupatha": {
+          "locus": "01.0461",
+          "dhatu_devanagari": "गुप्",
+          "aupadeshika_devanagari": "गुपूँ",
+          "artha_sanskrit": "रक्षणे"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1381-1383"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:9975"
+          ]
+        },
+        "note": "Selected for gopāye because the attested sense is protection, not blame/concealment."
+      }
+    },
+    "5": {
+      "deva": "आहितः",
+      "iast": "āhitaḥ",
+      "morph": "nominative masculine singular past passive participle",
+      "root": {
+        "form": "√dhā",
+        "gana": "3",
+        "pada": "U",
+        "gloss": "to place; support",
+        "dhatupatha": {
+          "locus": "03.0011",
+          "dhatu_devanagari": "धा",
+          "aupadeshika_devanagari": "डुधाञ्",
+          "artha_sanskrit": "धारणपोषणयोः"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3738-3740"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:28216"
+          ]
+        }
+      }
+    }
+  },
+  "name-731-paragraph-2-span-0": {
+    "0": {
+      "deva": "तनोति",
+      "iast": "tanoti",
+      "morph": "present indicative 3rd person singular parasmaipada verb",
+      "root": {
+        "form": "√tan",
+        "gana": "8",
+        "pada": "U",
+        "gloss": "to stretch; extend",
+        "dhatupatha": {
+          "locus": "08.0001",
+          "dhatu_devanagari": "तन्",
+          "aupadeshika_devanagari": "तनुँ",
+          "artha_sanskrit": "विस्तारे"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4982-4984"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:37767"
+          ]
+        }
+      }
+    }
+  },
+  "name-742-paragraph-1-span-0": {
+    "1": {
+      "deva": "विद्यते",
+      "iast": "vidyate",
+      "morph": "present indicative 3rd person singular ātmanepada verb",
+      "root": {
+        "form": "√vid",
+        "gana": "4",
+        "pada": "A",
+        "gloss": "to exist",
+        "dhatupatha": {
+          "locus": "04.0067",
+          "dhatu_devanagari": "विद्",
+          "aupadeshika_devanagari": "विदँ",
+          "artha_sanskrit": "सत्तायाम्"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3984-3986"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:30103"
+          ]
+        },
+        "note": "Selected for forms glossed or explained as existence, not cognition."
+      }
+    }
+  },
+  "name-899-paragraph-1-span-0": {
+    "2": {
+      "deva": "पिबति",
+      "iast": "pibati",
+      "morph": "present indicative 3rd person singular verb",
+      "root": {
+        "form": "√pā",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to drink",
+        "dhatupatha": {
+          "locus": "01.1074",
+          "dhatu_devanagari": "पा",
+          "aupadeshika_devanagari": "पा",
+          "artha_sanskrit": "पाने"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3200-3202"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:23641"
+          ]
+        }
+      }
+    }
+  },
+  "name-923-paragraph-1-span-0": {
+    "0": {
+      "deva": "तारयति",
+      "iast": "tārayati",
+      "morph": "present indicative 3rd person singular causative verb",
+      "root": {
+        "form": "√tṝ",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to cross over; carry across",
+        "dhatupatha": {
+          "locus": "01.1124",
+          "dhatu_devanagari": "तॄ",
+          "aupadeshika_devanagari": "तॄ",
+          "artha_sanskrit": "प्लवनतरणयोः"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3350-3352"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:24886"
+          ]
+        }
+      }
+    }
+  },
+  "name-954-paragraph-1-span-0": {
+    "1": {
+      "deva": "गच्छति",
+      "iast": "gacchati",
+      "morph": "present indicative 3rd person singular verb",
+      "root": {
+        "form": "√gam",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to go",
+        "dhatupatha": {
+          "locus": "01.1137",
+          "dhatu_devanagari": "गम्",
+          "aupadeshika_devanagari": "गमॢँ",
+          "artha_sanskrit": "गतौ"
+        },
+        "evidence": {
+          "primary_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3389-3391"
+          ],
+          "raw_loci": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25203"
+          ]
+        }
+      }
+    }
+  }
+}

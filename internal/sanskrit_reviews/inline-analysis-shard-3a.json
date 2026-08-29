@@ -1,0 +1,3122 @@
+{
+  "review_status": "complete",
+  "review_counts": {
+    "exact_form_reference_count": 19,
+    "independent_popup_count": 43
+  },
+  "expected_unit_keys": [
+    "vasanātsarvabhūtānāṃvastvādevayoniṣuvāsudevastatojñeyoyogibhistattvadarśibhiḥ",
+    "vasatiitivasuḥ",
+    "vasudaḥ",
+    "vatsalaḥ",
+    "vatsaraḥ",
+    "vatsān",
+    "vaṣaṭ",
+    "vaṣaṭkāra",
+    "vedaḥ",
+    "vedhāḥ",
+    "vedyaḥ",
+    "vedānta",
+    "vedāḥsarvāṅgāni",
+    "vena",
+    "veveṣṭi",
+    "vibhūti",
+    "vibhūtibhūtiraiśvarye",
+    "vidhātā",
+    "vidyā",
+    "vidyād",
+    "vidyās",
+    "vidāraṇaḥ",
+    "vihāyasa",
+    "vijātīyabheda",
+    "vikṣaraḥ",
+    "vikṣepa",
+    "vilakṣaṇam",
+    "virāṭ",
+    "virāṭpuruṣa",
+    "vistāraḥ",
+    "vivahana",
+    "viviktaḥ",
+    "viś",
+    "viśiṣṭaḥ",
+    "viśvabhuk",
+    "viśvabāhu",
+    "viśvabāhuḥ",
+    "viśvam",
+    "viśvaretāḥ",
+    "viśvarūpo",
+    "viśvasmādindrauttaraḥ",
+    "viśvasyayoniḥviśvayoniḥ",
+    "viśvataścakṣurviśvākṣaḥ",
+    "viṣvaksenaḥ",
+    "viṣṇu",
+    "viṣṇubhāgavata",
+    "viṣṇus",
+    "viṣṇusahasranāma",
+    "viṣṇuḥ",
+    "vyayaḥ",
+    "vyāpnoti",
+    "vyāsa",
+    "vyūha",
+    "vyūhas",
+    "vācaspati",
+    "vāmana",
+    "vāruṇaḥ",
+    "vās",
+    "vāsanā",
+    "vāsanās",
+    "vāsu",
+    "vāsudeva"
+  ],
+  "rows": {
+    "vasudaḥ": {
+      "occurrence_ids": [
+        "name-269-paragraph-0-iast-5"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vasudaḥ",
+      "canonical_devanagari": "वसुदः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 269,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "vatsalaḥ": {
+      "occurrence_ids": [
+        "name-471-paragraph-0-iast-40"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vatsalaḥ",
+      "canonical_devanagari": "वत्सलः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 471,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "vatsaraḥ": {
+      "occurrence_ids": [
+        "name-470-paragraph-1-iast-9"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vatsaraḥ",
+      "canonical_devanagari": "वत्सरः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 470,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "vedaḥ": {
+      "occurrence_ids": [
+        "name-127-paragraph-0-iast-19"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vedaḥ",
+      "canonical_devanagari": "वेदः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 127,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      }
+    },
+    "vedhāḥ": {
+      "occurrence_ids": [
+        "name-547-paragraph-0-span-2",
+        "name-547-paragraph-0-iast-49"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vedhāḥ",
+      "canonical_devanagari": "वेधाः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 547,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-501-750.json"
+      }
+    },
+    "vedyaḥ": {
+      "occurrence_ids": [
+        "name-163-paragraph-1-iast-98"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vedyaḥ",
+      "canonical_devanagari": "वेद्यः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 163,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      }
+    },
+    "vidhātā": {
+      "occurrence_ids": [
+        "name-44-paragraph-0-iast-122"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vidhātā",
+      "canonical_devanagari": "विधाता",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 484,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "vidāraṇaḥ": {
+      "occurrence_ids": [
+        "name-464-paragraph-1-iast-47"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vidāraṇaḥ",
+      "canonical_devanagari": "विदारणः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 464,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "vikṣaraḥ": {
+      "occurrence_ids": [
+        "name-363-paragraph-0-iast-9"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vikṣaraḥ",
+      "canonical_devanagari": "विक्षरः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 363,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "vistāraḥ": {
+      "occurrence_ids": [
+        "name-426-paragraph-0-iast-34"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vistāraḥ",
+      "canonical_devanagari": "विस्तारः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 426,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "viviktaḥ": {
+      "occurrence_ids": [
+        "name-263-paragraph-1-iast-29"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "viviktaḥ",
+      "canonical_devanagari": "विविक्तः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 263,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "viśiṣṭaḥ": {
+      "occurrence_ids": [
+        "name-249-paragraph-0-iast-11"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "viśiṣṭaḥ",
+      "canonical_devanagari": "विशिष्टः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 309,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "viśvabhuk": {
+      "occurrence_ids": [
+        "name-239-paragraph-1-iast-50"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "viśvabhuk",
+      "canonical_devanagari": "विश्वभुक्",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 239,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      }
+    },
+    "viśvabāhuḥ": {
+      "occurrence_ids": [
+        "name-316-paragraph-0-iast-108"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "viśvabāhuḥ",
+      "canonical_devanagari": "विश्वबाहुः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 316,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-251-500.json"
+      }
+    },
+    "viśvam": {
+      "occurrence_ids": [
+        "name-1-paragraph-0-iast-64",
+        "name-1-paragraph-3-iast-1",
+        "name-1-paragraph-3-iast-6"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "viśvam",
+      "canonical_devanagari": "विश्वम्",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 1,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      }
+    },
+    "viśvaretāḥ": {
+      "occurrence_ids": [
+        "name-88-paragraph-0-iast-43"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "viśvaretāḥ",
+      "canonical_devanagari": "विश्वरेताः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 88,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      }
+    },
+    "viṣvaksenaḥ": {
+      "occurrence_ids": [
+        "name-125-paragraph-0-iast-18"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "viṣvaksenaḥ",
+      "canonical_devanagari": "विष्वक्सेनः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 125,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-001-250.json"
+      }
+    },
+    "viṣṇuḥ": {
+      "occurrence_ids": [
+        "name-39-paragraph-2-span-11",
+        "name-2-paragraph-0-iast-9",
+        "name-3-paragraph-1-iast-45",
+        "name-39-paragraph-0-iast-38",
+        "name-39-paragraph-2-iast-23",
+        "name-445-paragraph-0-iast-40"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "viṣṇuḥ",
+      "canonical_devanagari": "विष्णुः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 657,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-501-750.json"
+      }
+    },
+    "vāruṇaḥ": {
+      "occurrence_ids": [
+        "name-554-paragraph-0-iast-6"
+      ],
+      "classification": "exact lexical-form reference",
+      "canonical_iast": "vāruṇaḥ",
+      "canonical_devanagari": "वारुणः",
+      "source_qualification": "Exact lexical-form match to an existing reviewed sahasranāma name popup.",
+      "reference": {
+        "type": "name-analysis",
+        "number": 554,
+        "file": "gita/vishnu-sahasranama/name-analysis-review-501-750.json"
+      }
+    },
+    "vasanātsarvabhūtānāṃvastvādevayoniṣuvāsudevastatojñeyoyogibhistattvadarśibhiḥ": {
+      "occurrence_ids": [
+        "name-332-paragraph-2-span-0"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vasanāt sarvabhūtānāṃ vastvād eva yoniṣu vāsudevas tato jñeyo yogibhis tattvadarśibhiḥ",
+      "canonical_devanagari": "वसनात् सर्वभूतानां वस्त्वादेव योनिषु वासुदेवस् ततो ज्ञेयो योगिभिस् तत्त्वदर्शिभिः",
+      "source_qualification": "Independent multiword popup for this inline Sanskrit unit.",
+      "popup": {
+        "english": "from dwelling of all beings indeed from the reality in sources Vāsudeva therefore to be known by yogins by seers of reality",
+        "english_slots": "{0:from dwelling} {1:of all beings} {2:indeed from the reality} {3:in sources} {4:Vāsudeva} {5:therefore} {6:to be known} {7:by yogins} {8:by seers of reality}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vasanāt",
+            "deva": "वसनात्",
+            "gloss": "from dwelling",
+            "parts": [
+              {
+                "form": "√vas",
+                "gloss": "dwell"
+              },
+              {
+                "form": "vasana",
+                "gloss": "dwelling"
+              }
+            ],
+            "stem": "vasana",
+            "root": {
+              "form": "√vas",
+              "gana": "bhvādi (1)",
+              "pada": "parasmaipada",
+              "gloss": "to dwell",
+              "dhatupatha": {
+                "locus": "01.1151",
+                "dhatu_devanagari": "वस्",
+                "aupadeshika_devanagari": "वसँ",
+                "artha_sanskrit": "निवासे"
+              }
+            },
+            "affix": "ṅasi (pañcamī ekavacana)",
+            "morph": "ablative singular nominal form",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "iast": "sarvabhūtānāṃ",
+            "deva": "सर्वभूतानाम्",
+            "gloss": "of all beings",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "bhūta",
+                "gloss": "being"
+              }
+            ],
+            "stem": "sarvabhūta",
+            "root": null,
+            "affix": "ṣaṣṭhī bahuvacana",
+            "morph": "genitive plural compound noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "iast": "vastvād eva",
+            "deva": "वस्त्वादेव",
+            "gloss": "indeed from the reality",
+            "parts": [
+              {
+                "form": "vastu",
+                "gloss": "reality; thing"
+              },
+              {
+                "form": "eva",
+                "gloss": "indeed"
+              }
+            ],
+            "stem": "vastu",
+            "root": null,
+            "affix": "ablative singular + avyaya",
+            "morph": "ablative phrase",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 3,
+            "iast": "yoniṣu",
+            "deva": "योनिषु",
+            "gloss": "in sources",
+            "parts": [
+              {
+                "form": "yoni",
+                "gloss": "source; womb"
+              }
+            ],
+            "stem": "yoni",
+            "root": null,
+            "affix": "saptamī bahuvacana",
+            "morph": "locative plural feminine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 4,
+            "iast": "vāsudevas",
+            "deva": "वासुदेवस्",
+            "gloss": "Vāsudeva",
+            "parts": [
+              {
+                "form": "vāsudeva",
+                "gloss": "Vāsudeva"
+              }
+            ],
+            "stem": "vāsudeva",
+            "root": null,
+            "affix": "nominative singular as cited",
+            "morph": "proper name as cited",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 5,
+            "iast": "tato",
+            "deva": "ततो",
+            "gloss": "therefore",
+            "parts": [
+              {
+                "form": "tatas",
+                "gloss": "therefore"
+              }
+            ],
+            "stem": "tad",
+            "root": null,
+            "affix": "ablative adverbial form",
+            "morph": "ablative adverb",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 6,
+            "iast": "jñeyo",
+            "deva": "ज्ञेयो",
+            "gloss": "to be known",
+            "parts": [
+              {
+                "form": "√jñā",
+                "gloss": "know"
+              },
+              {
+                "form": "ṇyat",
+                "gloss": "gerundive suffix"
+              }
+            ],
+            "stem": "jñeya",
+            "root": {
+              "form": "√jñā",
+              "gana": "kryādi (9)",
+              "pada": "parasmaipada",
+              "gloss": "to know",
+              "dhatupatha": {
+                "locus": "09.0043",
+                "dhatu_devanagari": "ज्ञा",
+                "aupadeshika_devanagari": "ज्ञा",
+                "artha_sanskrit": "अवबोधने"
+              }
+            },
+            "affix": "ṇyat + su",
+            "morph": "nominative singular masculine gerundive",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 7,
+            "iast": "yogibhis",
+            "deva": "योगिभिस्",
+            "gloss": "by yogins",
+            "parts": [
+              {
+                "form": "yogin",
+                "gloss": "yogin"
+              }
+            ],
+            "stem": "yogin",
+            "root": null,
+            "affix": "tṛtīyā bahuvacana",
+            "morph": "instrumental plural masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 8,
+            "iast": "tattvadarśibhiḥ",
+            "deva": "तत्त्वदर्शिभिः",
+            "gloss": "by seers of reality",
+            "parts": [
+              {
+                "form": "tattva",
+                "gloss": "reality"
+              },
+              {
+                "form": "darśin",
+                "gloss": "seer"
+              }
+            ],
+            "stem": "tattvadarśin",
+            "root": null,
+            "affix": "tṛtīyā bahuvacana",
+            "morph": "instrumental plural masculine compound noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vasatiitivasuḥ": {
+      "occurrence_ids": [
+        "name-150-paragraph-0-span-0"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vasati iti vasuḥ",
+      "canonical_devanagari": "वसति इति वसुः",
+      "source_qualification": "Independent multiword popup for this inline Sanskrit unit.",
+      "popup": {
+        "english": "dwells thus the dweller",
+        "english_slots": "{0:dwells} {1:thus} {2:the dweller}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vasati",
+            "deva": "वसति",
+            "gloss": "dwells",
+            "parts": [
+              {
+                "form": "√vas",
+                "gloss": "dwell"
+              },
+              {
+                "form": "laṭ + tip",
+                "gloss": "present 3rd singular"
+              }
+            ],
+            "stem": "vas",
+            "root": {
+              "form": "√vas",
+              "gana": "bhvādi (1)",
+              "pada": "parasmaipada",
+              "gloss": "to dwell",
+              "dhatupatha": {
+                "locus": "01.1151",
+                "dhatu_devanagari": "वस्",
+                "aupadeshika_devanagari": "वसँ",
+                "artha_sanskrit": "निवासे"
+              }
+            },
+            "affix": "laṭ + tip",
+            "morph": "present indicative 3rd person singular verb",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "iast": "iti",
+            "deva": "इति",
+            "gloss": "thus",
+            "parts": [
+              {
+                "form": "iti",
+                "gloss": "thus"
+              }
+            ],
+            "stem": "iti",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable particle",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "iast": "vasuḥ",
+            "deva": "वसुः",
+            "gloss": "the dweller",
+            "parts": [
+              {
+                "form": "vasu",
+                "gloss": "dwelling one"
+              }
+            ],
+            "stem": "vasu",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative singular masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vatsān": {
+      "occurrence_ids": [
+        "name-470-paragraph-1-iast-6"
+      ],
+      "classification": "proper name",
+      "canonical_iast": "vatsān",
+      "canonical_devanagari": "वत्सान्",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "calves",
+        "english_slots": "{0:calves}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vatsān",
+            "deva": "वत्सान्",
+            "gloss": "calves",
+            "parts": [
+              {
+                "form": "vatsa",
+                "gloss": "calf"
+              }
+            ],
+            "stem": "vatsa",
+            "root": null,
+            "affix": "śas (dvitīyā bahuvacana)",
+            "morph": "accusative plural masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vaṣaṭ": {
+      "occurrence_ids": [
+        "name-3-paragraph-0-iast-13",
+        "name-3-paragraph-0-iast-48"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vaṣaṭ",
+      "canonical_devanagari": "वषट्",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "vaṣaṭ exclamation",
+        "english_slots": "{0:vaṣaṭ exclamation}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vaṣaṭ",
+            "deva": "वषट्",
+            "gloss": "vaṣaṭ exclamation",
+            "parts": [
+              {
+                "form": "vaṣaṭ",
+                "gloss": "vaṣaṭ exclamation"
+              }
+            ],
+            "stem": "vaṣaṭ",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable sacrificial exclamation",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vaṣaṭkāra": {
+      "occurrence_ids": [
+        "name-3-paragraph-0-iast-27",
+        "name-3-paragraph-1-iast-1"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vaṣaṭkāra",
+      "canonical_devanagari": "वषट्कार",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "vaṣaṭ utterance-maker",
+        "english_slots": "{0:vaṣaṭ utterance-maker}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vaṣaṭkāra",
+            "deva": "वषट्कार",
+            "gloss": "vaṣaṭ utterance-maker",
+            "parts": [
+              {
+                "form": "vaṣaṭ",
+                "gloss": "vaṣaṭ call"
+              },
+              {
+                "form": "kāra",
+                "gloss": "making; utterance"
+              }
+            ],
+            "stem": "vaṣaṭkāra",
+            "root": null,
+            "affix": "compound stem",
+            "morph": "compound noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vedānta": {
+      "occurrence_ids": [
+        "name-8-paragraph-0-iast-81",
+        "name-61-paragraph-1-iast-6",
+        "name-62-paragraph-2-iast-1",
+        "name-128-paragraph-1-iast-10",
+        "name-312-paragraph-0-iast-18",
+        "name-322-paragraph-0-iast-48",
+        "name-411-paragraph-0-iast-6",
+        "name-457-paragraph-0-iast-8",
+        "name-478-paragraph-0-iast-85",
+        "name-482-paragraph-0-iast-39",
+        "name-485-paragraph-1-iast-7",
+        "name-500-paragraph-0-iast-32",
+        "name-539-paragraph-0-iast-12",
+        "name-753-paragraph-0-iast-101",
+        "name-765-paragraph-0-iast-65"
+      ],
+      "classification": "work/title",
+      "canonical_iast": "vedānta",
+      "canonical_devanagari": "वेदान्त",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Vedānta",
+        "english_slots": "{0:Vedānta}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vedānta",
+            "deva": "वेदान्त",
+            "gloss": "Vedānta",
+            "parts": [
+              {
+                "form": "veda",
+                "gloss": "Veda"
+              },
+              {
+                "form": "anta",
+                "gloss": "end; culmination"
+              }
+            ],
+            "stem": "vedānta",
+            "root": null,
+            "affix": "compound title",
+            "morph": "title",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vedāḥsarvāṅgāni": {
+      "occurrence_ids": [
+        "name-130-paragraph-0-span-0"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vedāḥ sarvāṅgāni",
+      "canonical_devanagari": "वेदाः सर्वाङ्गानि",
+      "source_qualification": "Independent multiword popup for this inline Sanskrit unit.",
+      "popup": {
+        "english": "the Vedas all limbs",
+        "english_slots": "{0:the Vedas} {1:all limbs}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vedāḥ",
+            "deva": "वेदाः",
+            "gloss": "the Vedas",
+            "parts": [
+              {
+                "form": "veda",
+                "gloss": "Veda"
+              }
+            ],
+            "stem": "veda",
+            "root": null,
+            "affix": "jas (prathamā bahuvacana)",
+            "morph": "nominative plural masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "iast": "sarvāṅgāni",
+            "deva": "सर्वाङ्गानि",
+            "gloss": "all limbs",
+            "parts": [
+              {
+                "form": "sarva",
+                "gloss": "all"
+              },
+              {
+                "form": "aṅga",
+                "gloss": "limb"
+              }
+            ],
+            "stem": "sarvāṅga",
+            "root": null,
+            "affix": "āni (prathamā bahuvacana)",
+            "morph": "nominative plural neuter compound noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vena": {
+      "occurrence_ids": [
+        "name-410-paragraph-0-span-0"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vena",
+      "canonical_devanagari": "वेन",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Vena",
+        "english_slots": "{0:Vena}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vena",
+            "deva": "वेन",
+            "gloss": "Vena",
+            "parts": [
+              {
+                "form": "vena",
+                "gloss": "Vena"
+              }
+            ],
+            "stem": "vena",
+            "root": null,
+            "affix": "proper-name stem",
+            "morph": "proper name",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "veveṣṭi": {
+      "occurrence_ids": [
+        "name-2-paragraph-0-iast-6"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "veveṣṭi",
+      "canonical_devanagari": "वेवेष्टि",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "pervades",
+        "english_slots": "{0:pervades}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "veveṣṭi",
+            "deva": "वेवेष्टि",
+            "gloss": "pervades",
+            "parts": [
+              {
+                "form": "√viś",
+                "gloss": "enter; pervade"
+              }
+            ],
+            "stem": "viś",
+            "root": {
+              "form": "√viś",
+              "gana": "tudādi (6)",
+              "pada": "parasmaipada",
+              "gloss": "to enter; pervade",
+              "dhatupatha": {
+                "locus": "06.0160",
+                "dhatu_devanagari": "विश्",
+                "aupadeshika_devanagari": "विशँ",
+                "artha_sanskrit": "प्रवेशने"
+              }
+            },
+            "affix": "reduplicated finite form as cited",
+            "morph": "verbal form as quoted in nirvacana",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vibhūti": {
+      "occurrence_ids": [
+        "name-137-paragraph-0-iast-14",
+        "name-389-paragraph-0-iast-8"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vibhūti",
+      "canonical_devanagari": "विभूति",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "glory; manifestation",
+        "english_slots": "{0:glory; manifestation}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vibhūti",
+            "deva": "विभूति",
+            "gloss": "glory; manifestation",
+            "parts": [
+              {
+                "form": "vi",
+                "gloss": "apart; distinctly"
+              },
+              {
+                "form": "√bhū",
+                "gloss": "be; become"
+              },
+              {
+                "form": "ktin",
+                "gloss": "abstract noun suffix"
+              }
+            ],
+            "stem": "vibhūti",
+            "root": {
+              "form": "√bhū",
+              "gana": "bhvādi (1)",
+              "pada": "parasmaipada",
+              "gloss": "to be; become",
+              "dhatupatha": {
+                "locus": "01.0001",
+                "dhatu_devanagari": "भू",
+                "aupadeshika_devanagari": "भू",
+                "artha_sanskrit": "सत्तायाम्"
+              }
+            },
+            "affix": "ktin abstract noun formation",
+            "morph": "feminine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vibhūtibhūtiraiśvarye": {
+      "occurrence_ids": [
+        "name-630-paragraph-1-span-0"
+      ],
+      "classification": "mixed OCR",
+      "canonical_iast": "vibhūtir bhūtir aiśvarye",
+      "canonical_devanagari": "विभूतिर् भूतिर् ऐश्वर्ये",
+      "source_qualification": "Independent popup with OCR spacing repair for this unit.",
+      "popup": {
+        "english": "glory; manifestation prosperity in the sense of lordship",
+        "english_slots": "{0:glory; manifestation} {1:prosperity} {2:in the sense of lordship}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vibhūtir",
+            "deva": "विभूतिर्",
+            "gloss": "glory; manifestation",
+            "parts": [
+              {
+                "form": "vi",
+                "gloss": "apart; distinctly"
+              },
+              {
+                "form": "√bhū",
+                "gloss": "be; become"
+              },
+              {
+                "form": "ktin",
+                "gloss": "abstract noun suffix"
+              }
+            ],
+            "stem": "vibhūti",
+            "root": {
+              "form": "√bhū",
+              "gana": "bhvādi (1)",
+              "pada": "parasmaipada",
+              "gloss": "to be; become",
+              "dhatupatha": {
+                "locus": "01.0001",
+                "dhatu_devanagari": "भू",
+                "aupadeshika_devanagari": "भू",
+                "artha_sanskrit": "सत्तायाम्"
+              }
+            },
+            "affix": "ktin",
+            "morph": "feminine noun as cited",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "iast": "bhūtir",
+            "deva": "भूतिर्",
+            "gloss": "prosperity",
+            "parts": [
+              {
+                "form": "√bhū",
+                "gloss": "be; become"
+              },
+              {
+                "form": "ktin",
+                "gloss": "abstract noun suffix"
+              }
+            ],
+            "stem": "bhūti",
+            "root": {
+              "form": "√bhū",
+              "gana": "bhvādi (1)",
+              "pada": "parasmaipada",
+              "gloss": "to be; become",
+              "dhatupatha": {
+                "locus": "01.0001",
+                "dhatu_devanagari": "भू",
+                "aupadeshika_devanagari": "भू",
+                "artha_sanskrit": "सत्तायाम्"
+              }
+            },
+            "affix": "ktin",
+            "morph": "feminine noun as cited",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "iast": "aiśvarye",
+            "deva": "ऐश्वर्ये",
+            "gloss": "in the sense of lordship",
+            "parts": [
+              {
+                "form": "aiśvarya",
+                "gloss": "lordship; sovereignty"
+              }
+            ],
+            "stem": "aiśvarya",
+            "root": null,
+            "affix": "saptamī ekavacana",
+            "morph": "locative singular neuter noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vidyā": {
+      "occurrence_ids": [
+        "name-72-paragraph-0-iast-28",
+        "name-164-paragraph-0-iast-25",
+        "name-167-paragraph-0-iast-24",
+        "name-558-paragraph-0-iast-56",
+        "name-994-paragraph-0-iast-43"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vidyā",
+      "canonical_devanagari": "विद्या",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "knowledge",
+        "english_slots": "{0:knowledge}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vidyā",
+            "deva": "विद्या",
+            "gloss": "knowledge",
+            "parts": [
+              {
+                "form": "√vid",
+                "gloss": "know"
+              },
+              {
+                "form": "yā",
+                "gloss": "knowledge-forming stem"
+              }
+            ],
+            "stem": "vidyā",
+            "root": {
+              "form": "√vid",
+              "gana": "adādi (2)",
+              "pada": "parasmaipada",
+              "gloss": "to know",
+              "dhatupatha": {
+                "locus": "02.0059",
+                "dhatu_devanagari": "विद्",
+                "aupadeshika_devanagari": "विदँ",
+                "artha_sanskrit": "ज्ञाने"
+              }
+            },
+            "affix": "feminine derivative stem",
+            "morph": "feminine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vidyād": {
+      "occurrence_ids": [
+        "name-11-paragraph-2-iast-1"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vidyād",
+      "canonical_devanagari": "विद्यात्",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "one should know",
+        "english_slots": "{0:one should know}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vidyād",
+            "deva": "विद्यात्",
+            "gloss": "one should know",
+            "parts": [
+              {
+                "form": "√vid",
+                "gloss": "know"
+              },
+              {
+                "form": "liṅ",
+                "gloss": "optative"
+              }
+            ],
+            "stem": "vid",
+            "root": {
+              "form": "√vid",
+              "gana": "adādi (2)",
+              "pada": "parasmaipada",
+              "gloss": "to know",
+              "dhatupatha": {
+                "locus": "02.0059",
+                "dhatu_devanagari": "विद्",
+                "aupadeshika_devanagari": "विदँ",
+                "artha_sanskrit": "ज्ञाने"
+              }
+            },
+            "affix": "liṅ 3rd singular as cited",
+            "morph": "optative 3rd person singular verb",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vidyās": {
+      "occurrence_ids": [
+        "name-573-paragraph-0-iast-8",
+        "name-691-paragraph-0-iast-9",
+        "name-691-paragraph-0-iast-17",
+        "name-691-paragraph-0-iast-31"
+      ],
+      "classification": "duplicate transliteration",
+      "canonical_iast": "vidyāḥ",
+      "canonical_devanagari": "विद्याः",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "knowledges",
+        "english_slots": "{0:knowledges}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vidyāḥ",
+            "deva": "विद्याः",
+            "gloss": "knowledges",
+            "parts": [
+              {
+                "form": "vidyā",
+                "gloss": "knowledge"
+              }
+            ],
+            "stem": "vidyā",
+            "root": null,
+            "affix": "jas (prathamā bahuvacana)",
+            "morph": "nominative plural feminine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vihāyasa": {
+      "occurrence_ids": [
+        "name-876-paragraph-0-iast-2"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vihāyasa",
+      "canonical_devanagari": "विहायस",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "sky; open air",
+        "english_slots": "{0:sky; open air}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vihāyasa",
+            "deva": "विहायस",
+            "gloss": "sky; open air",
+            "parts": [
+              {
+                "form": "vihāyasa",
+                "gloss": "sky; open air"
+              }
+            ],
+            "stem": "vihāyasa",
+            "root": null,
+            "affix": "lexical stem",
+            "morph": "neuter noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vijātīyabheda": {
+      "occurrence_ids": [
+        "name-725-paragraph-2-span-1"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vijātīya bheda",
+      "canonical_devanagari": "विजातीय भेद",
+      "source_qualification": "Independent multiword popup for this inline Sanskrit unit.",
+      "popup": {
+        "english": "of another class difference",
+        "english_slots": "{0:of another class} {1:difference}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vijātīya",
+            "deva": "विजातीय",
+            "gloss": "of another class",
+            "parts": [
+              {
+                "form": "vi",
+                "gloss": "distinct"
+              },
+              {
+                "form": "jāti",
+                "gloss": "class"
+              }
+            ],
+            "stem": "vijātīya",
+            "root": null,
+            "affix": "adjectival formation",
+            "morph": "adjective",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "iast": "bheda",
+            "deva": "भेद",
+            "gloss": "difference",
+            "parts": [
+              {
+                "form": "√bhid",
+                "gloss": "split"
+              },
+              {
+                "form": "ghañ",
+                "gloss": "result suffix"
+              }
+            ],
+            "stem": "bheda",
+            "root": null,
+            "affix": "a-stem",
+            "morph": "masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vikṣepa": {
+      "occurrence_ids": [
+        "name-709-paragraph-0-span-1"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vikṣepa",
+      "canonical_devanagari": "विक्षेप",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "scattering; distraction",
+        "english_slots": "{0:scattering; distraction}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vikṣepa",
+            "deva": "विक्षेप",
+            "gloss": "scattering; distraction",
+            "parts": [
+              {
+                "form": "vi",
+                "gloss": "apart"
+              },
+              {
+                "form": "kṣepa",
+                "gloss": "throwing; scattering"
+              }
+            ],
+            "stem": "vikṣepa",
+            "root": null,
+            "affix": "lexical stem",
+            "morph": "masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vilakṣaṇam": {
+      "occurrence_ids": [
+        "name-11-paragraph-1-iast-1"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vilakṣaṇam",
+      "canonical_devanagari": "विलक्षणम्",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "distinct; different",
+        "english_slots": "{0:distinct; different}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vilakṣaṇam",
+            "deva": "विलक्षणम्",
+            "gloss": "distinct; different",
+            "parts": [
+              {
+                "form": "vi",
+                "gloss": "distinct"
+              },
+              {
+                "form": "lakṣaṇa",
+                "gloss": "mark; characteristic"
+              }
+            ],
+            "stem": "vilakṣaṇa",
+            "root": null,
+            "affix": "surface form",
+            "morph": "singular neuter adjective",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "virāṭ": {
+      "occurrence_ids": [
+        "name-102-paragraph-0-iast-13",
+        "name-145-paragraph-1-iast-43",
+        "name-765-paragraph-0-iast-122",
+        "name-838-paragraph-0-iast-43",
+        "name-885-paragraph-0-iast-13"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "virāṭ",
+      "canonical_devanagari": "विराट्",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Virāṭ",
+        "english_slots": "{0:Virāṭ}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "virāṭ",
+            "deva": "विराट्",
+            "gloss": "Virāṭ",
+            "parts": [
+              {
+                "form": "virāṭ",
+                "gloss": "cosmic; vast"
+              }
+            ],
+            "stem": "virāṭ",
+            "root": null,
+            "affix": "lexical stem",
+            "morph": "lexical noun/adjective",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "virāṭpuruṣa": {
+      "occurrence_ids": [
+        "name-1-paragraph-0-iast-10",
+        "name-1-paragraph-0-iast-54"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "virāṭpuruṣa",
+      "canonical_devanagari": "विराट्पुरुष",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Virāṭ Puruṣa",
+        "english_slots": "{0:Virāṭ Puruṣa}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "virāṭpuruṣa",
+            "deva": "विराट्पुरुष",
+            "gloss": "Virāṭ Puruṣa",
+            "parts": [
+              {
+                "form": "virāṭ",
+                "gloss": "cosmic; vast"
+              },
+              {
+                "form": "puruṣa",
+                "gloss": "person"
+              }
+            ],
+            "stem": "virāṭpuruṣa",
+            "root": null,
+            "affix": "compound lexical title",
+            "morph": "compound title",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vivahana": {
+      "occurrence_ids": [
+        "name-331-paragraph-2-span-2"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vivahana",
+      "canonical_devanagari": "विवहन",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "carrying apart; bearing",
+        "english_slots": "{0:carrying apart; bearing}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vivahana",
+            "deva": "विवहन",
+            "gloss": "carrying apart; bearing",
+            "parts": [
+              {
+                "form": "vi",
+                "gloss": "apart"
+              },
+              {
+                "form": "vahana",
+                "gloss": "carrying; bearing"
+              }
+            ],
+            "stem": "vivahana",
+            "root": null,
+            "affix": "lexical stem",
+            "morph": "neuter/masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viś": {
+      "occurrence_ids": [
+        "name-1-paragraph-0-iast-69",
+        "name-2-paragraph-2-iast-2",
+        "name-2-paragraph-3-iast-21"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "√viś",
+      "canonical_devanagari": "विश्",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "enter; pervade",
+        "english_slots": "{0:enter; pervade}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "√viś",
+            "deva": "विश्",
+            "gloss": "enter; pervade",
+            "parts": [
+              {
+                "form": "√viś",
+                "gloss": "enter; pervade"
+              }
+            ],
+            "stem": "viś",
+            "root": {
+              "form": "√viś",
+              "gana": "tudādi (6)",
+              "pada": "parasmaipada",
+              "gloss": "to enter; pervade",
+              "dhatupatha": {
+                "locus": "06.0160",
+                "dhatu_devanagari": "विश्",
+                "aupadeshika_devanagari": "विशँ",
+                "artha_sanskrit": "प्रवेशने"
+              }
+            },
+            "affix": "dhātu citation form",
+            "morph": "verbal root",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viśvabāhu": {
+      "occurrence_ids": [
+        "name-316-paragraph-0-span-0"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "viśvabāhu",
+      "canonical_devanagari": "विश्वबाहु",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "whose arms are everywhere",
+        "english_slots": "{0:whose arms are everywhere}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "viśvabāhu",
+            "deva": "विश्वबाहु",
+            "gloss": "whose arms are everywhere",
+            "parts": [
+              {
+                "form": "viśva",
+                "gloss": "all; everywhere"
+              },
+              {
+                "form": "bāhu",
+                "gloss": "arm"
+              }
+            ],
+            "stem": "viśvabāhu",
+            "root": null,
+            "affix": "compound lexical stem",
+            "morph": "compound noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viśvarūpo": {
+      "occurrence_ids": [
+        "name-1-paragraph-0-iast-58",
+        "name-1-paragraph-1-iast-3"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "viśvarūpaḥ",
+      "canonical_devanagari": "विश्वरूपः",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "of universal form",
+        "english_slots": "{0:of universal form}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "viśvarūpaḥ",
+            "deva": "विश्वरूपः",
+            "gloss": "of universal form",
+            "parts": [
+              {
+                "form": "viśva",
+                "gloss": "all; universe"
+              },
+              {
+                "form": "rūpa",
+                "gloss": "form"
+              }
+            ],
+            "stem": "viśvarūpa",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative singular masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viśvasmādindrauttaraḥ": {
+      "occurrence_ids": [
+        "name-494-paragraph-1-span-0"
+      ],
+      "classification": "mixed OCR",
+      "canonical_iast": "viśvasmād indra uttaraḥ",
+      "canonical_devanagari": "विश्वस्माद् इन्द्र उत्तरः",
+      "source_qualification": "Independent popup with OCR spacing repair for this unit.",
+      "popup": {
+        "english": "than Viśva Indra higher; superior",
+        "english_slots": "{0:than Viśva} {1:Indra} {2:higher; superior}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "viśvasmād",
+            "deva": "विश्वस्माद्",
+            "gloss": "than Viśva",
+            "parts": [
+              {
+                "form": "viśva",
+                "gloss": "Viśva / the all"
+              }
+            ],
+            "stem": "viśva",
+            "root": null,
+            "affix": "pañcamī ekavacana",
+            "morph": "ablative singular noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "iast": "indra",
+            "deva": "इन्द्र",
+            "gloss": "Indra",
+            "parts": [
+              {
+                "form": "indra",
+                "gloss": "Indra"
+              }
+            ],
+            "stem": "indra",
+            "root": null,
+            "affix": "proper-name stem",
+            "morph": "proper name",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "iast": "uttaraḥ",
+            "deva": "उत्तरः",
+            "gloss": "higher; superior",
+            "parts": [
+              {
+                "form": "uttara",
+                "gloss": "higher; superior"
+              }
+            ],
+            "stem": "uttara",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative singular masculine adjective",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viśvasyayoniḥviśvayoniḥ": {
+      "occurrence_ids": [
+        "name-117-paragraph-0-span-0"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "viśvasya yoniḥ viśvayoniḥ",
+      "canonical_devanagari": "विश्वस्य योनिः विश्वयोनिः",
+      "source_qualification": "Independent multiword popup for this inline Sanskrit unit.",
+      "popup": {
+        "english": "of the universe source; womb source of the universe",
+        "english_slots": "{0:of the universe} {1:source; womb} {2:source of the universe}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "viśvasya",
+            "deva": "विश्वस्य",
+            "gloss": "of the universe",
+            "parts": [
+              {
+                "form": "viśva",
+                "gloss": "all; universe"
+              }
+            ],
+            "stem": "viśva",
+            "root": null,
+            "affix": "ṣaṣṭhī ekavacana",
+            "morph": "genitive singular neuter noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "iast": "yoniḥ",
+            "deva": "योनिः",
+            "gloss": "source; womb",
+            "parts": [
+              {
+                "form": "yoni",
+                "gloss": "source; womb"
+              }
+            ],
+            "stem": "yoni",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative singular feminine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "iast": "viśvayoniḥ",
+            "deva": "विश्वयोनिः",
+            "gloss": "source of the universe",
+            "parts": [
+              {
+                "form": "viśva",
+                "gloss": "universe"
+              },
+              {
+                "form": "yoni",
+                "gloss": "source; womb"
+              }
+            ],
+            "stem": "viśvayoni",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative singular masculine compound noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viśvataścakṣurviśvākṣaḥ": {
+      "occurrence_ids": [
+        "name-94-paragraph-0-span-0"
+      ],
+      "classification": "mixed OCR",
+      "canonical_iast": "viśvatas cakṣur viśvākṣaḥ",
+      "canonical_devanagari": "विश्वतस् चक्षुर् विश्वाक्षः",
+      "source_qualification": "Independent popup with OCR spacing repair for this unit.",
+      "popup": {
+        "english": "on all sides eye whose eyes are everywhere",
+        "english_slots": "{0:on all sides} {1:eye} {2:whose eyes are everywhere}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "viśvatas",
+            "deva": "विश्वतस्",
+            "gloss": "on all sides",
+            "parts": [
+              {
+                "form": "viśvatas",
+                "gloss": "on all sides"
+              }
+            ],
+            "stem": "viśvatas",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable adverb",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 1,
+            "iast": "cakṣur",
+            "deva": "चक्षुर्",
+            "gloss": "eye",
+            "parts": [
+              {
+                "form": "cakṣus",
+                "gloss": "eye"
+              }
+            ],
+            "stem": "cakṣus",
+            "root": null,
+            "affix": "nominative singular as cited",
+            "morph": "neuter noun as cited",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          },
+          {
+            "i": 2,
+            "iast": "viśvākṣaḥ",
+            "deva": "विश्वाक्षः",
+            "gloss": "whose eyes are everywhere",
+            "parts": [
+              {
+                "form": "viśva",
+                "gloss": "all; everywhere"
+              },
+              {
+                "form": "akṣa",
+                "gloss": "eye"
+              }
+            ],
+            "stem": "viśvākṣa",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative singular masculine compound noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viṣṇu": {
+      "occurrence_ids": [
+        "name-1-paragraph-1-iast-6",
+        "name-2-paragraph-0-iast-2",
+        "name-2-paragraph-0-iast-15",
+        "name-2-paragraph-0-iast-24",
+        "name-2-paragraph-1-iast-51",
+        "name-2-paragraph-1-iast-54",
+        "name-2-paragraph-3-iast-17",
+        "name-3-paragraph-1-iast-50",
+        "name-4-paragraph-0-iast-78",
+        "name-5-paragraph-1-iast-59",
+        "name-5-paragraph-2-iast-3",
+        "name-11-paragraph-0-iast-167",
+        "name-11-paragraph-0-iast-175",
+        "name-11-paragraph-0-iast-177",
+        "name-11-paragraph-5-iast-11",
+        "name-15-paragraph-1-iast-59",
+        "name-19-paragraph-0-iast-65",
+        "name-20-paragraph-1-iast-42",
+        "name-21-paragraph-0-iast-17",
+        "name-23-paragraph-0-iast-47",
+        "name-23-paragraph-2-iast-15",
+        "name-27-paragraph-0-iast-62",
+        "name-30-paragraph-0-iast-65",
+        "name-33-paragraph-0-iast-35",
+        "name-38-paragraph-0-iast-29",
+        "name-38-paragraph-0-iast-36",
+        "name-39-paragraph-0-iast-26",
+        "name-39-paragraph-0-iast-32",
+        "name-46-paragraph-0-iast-104",
+        "name-47-paragraph-0-iast-77",
+        "name-48-paragraph-1-iast-98",
+        "name-53-paragraph-0-iast-44",
+        "name-53-paragraph-0-iast-75",
+        "name-55-paragraph-1-iast-65",
+        "name-56-paragraph-1-iast-4",
+        "name-62-paragraph-3-iast-10",
+        "name-71-paragraph-1-iast-10",
+        "name-73-paragraph-0-iast-10",
+        "name-74-paragraph-0-iast-77",
+        "name-76-paragraph-0-iast-100",
+        "name-77-paragraph-0-iast-41",
+        "name-77-paragraph-0-iast-74",
+        "name-78-paragraph-0-iast-24",
+        "name-78-paragraph-1-iast-30",
+        "name-79-paragraph-0-iast-17",
+        "name-82-paragraph-0-iast-40",
+        "name-103-paragraph-1-iast-55",
+        "name-108-paragraph-0-iast-53",
+        "name-116-paragraph-0-iast-40",
+        "name-120-paragraph-0-iast-64",
+        "name-121-paragraph-0-iast-77",
+        "name-122-paragraph-0-iast-142",
+        "name-123-paragraph-0-iast-41",
+        "name-123-paragraph-0-iast-69",
+        "name-128-paragraph-0-iast-44",
+        "name-134-paragraph-0-iast-59",
+        "name-135-paragraph-0-iast-42",
+        "name-137-paragraph-0-iast-43",
+        "name-138-paragraph-0-iast-27",
+        "name-138-paragraph-0-iast-42",
+        "name-138-paragraph-1-iast-19",
+        "name-139-paragraph-1-iast-26",
+        "name-139-paragraph-1-iast-115",
+        "name-140-paragraph-0-iast-10",
+        "name-140-paragraph-1-iast-1",
+        "name-140-paragraph-2-iast-71",
+        "name-143-paragraph-0-iast-13",
+        "name-144-paragraph-1-iast-14",
+        "name-145-paragraph-1-iast-46",
+        "name-151-paragraph-1-iast-46",
+        "name-156-paragraph-0-iast-30",
+        "name-163-paragraph-1-iast-104",
+        "name-167-paragraph-0-iast-75",
+        "name-168-paragraph-0-iast-114",
+        "name-169-paragraph-1-iast-37",
+        "name-170-paragraph-2-iast-7",
+        "name-171-paragraph-0-iast-64",
+        "name-171-paragraph-0-iast-107",
+        "name-177-paragraph-0-iast-32",
+        "name-177-paragraph-1-iast-30",
+        "name-178-paragraph-0-iast-4",
+        "name-178-paragraph-0-iast-22",
+        "name-180-paragraph-2-iast-0",
+        "name-183-paragraph-0-iast-76",
+        "name-185-paragraph-0-iast-135",
+        "name-191-paragraph-0-iast-68",
+        "name-192-paragraph-0-iast-70",
+        "name-197-paragraph-0-iast-33",
+        "name-198-paragraph-0-iast-57",
+        "name-199-paragraph-0-iast-41",
+        "name-200-paragraph-1-iast-6",
+        "name-202-paragraph-0-iast-164",
+        "name-204-paragraph-0-iast-25",
+        "name-205-paragraph-0-iast-27",
+        "name-205-paragraph-0-iast-84",
+        "name-206-paragraph-0-iast-66",
+        "name-207-paragraph-0-iast-10",
+        "name-207-paragraph-0-iast-31",
+        "name-210-paragraph-2-iast-62",
+        "name-216-paragraph-0-iast-25",
+        "name-217-paragraph-1-iast-35",
+        "name-218-paragraph-0-iast-49",
+        "name-223-paragraph-0-iast-44",
+        "name-227-paragraph-0-iast-79",
+        "name-229-paragraph-0-iast-17",
+        "name-230-paragraph-0-iast-68",
+        "name-231-paragraph-0-iast-59",
+        "name-232-paragraph-0-iast-54",
+        "name-233-paragraph-1-iast-2",
+        "name-243-paragraph-0-iast-37",
+        "name-249-paragraph-0-iast-80",
+        "name-250-paragraph-0-iast-29",
+        "name-251-paragraph-0-iast-19",
+        "name-252-paragraph-0-iast-103",
+        "name-253-paragraph-0-iast-70",
+        "name-258-paragraph-1-iast-4",
+        "name-258-paragraph-1-iast-18",
+        "name-259-paragraph-1-iast-0",
+        "name-260-paragraph-0-iast-50",
+        "name-260-paragraph-0-iast-121",
+        "name-261-paragraph-0-iast-40",
+        "name-264-paragraph-0-iast-77",
+        "name-271-paragraph-0-iast-34",
+        "name-272-paragraph-0-iast-42",
+        "name-276-paragraph-0-iast-49",
+        "name-278-paragraph-0-iast-14",
+        "name-279-paragraph-0-iast-161",
+        "name-281-paragraph-0-iast-86",
+        "name-283-paragraph-0-iast-42",
+        "name-286-paragraph-0-iast-53",
+        "name-294-paragraph-1-iast-30",
+        "name-303-paragraph-0-iast-70",
+        "name-306-paragraph-0-iast-42",
+        "name-309-paragraph-0-iast-9",
+        "name-313-paragraph-0-iast-73",
+        "name-322-paragraph-0-iast-11",
+        "name-338-paragraph-1-iast-5",
+        "name-358-paragraph-1-iast-1",
+        "name-360-paragraph-1-iast-3",
+        "name-364-paragraph-0-iast-13",
+        "name-365-paragraph-0-iast-30",
+        "name-375-paragraph-0-iast-22",
+        "name-383-paragraph-1-iast-5",
+        "name-398-paragraph-0-iast-47",
+        "name-407-paragraph-0-iast-23",
+        "name-408-paragraph-0-iast-29",
+        "name-409-paragraph-0-iast-57",
+        "name-427-paragraph-1-iast-28",
+        "name-434-paragraph-0-iast-17",
+        "name-445-paragraph-0-iast-36",
+        "name-446-paragraph-0-iast-55",
+        "name-446-paragraph-0-iast-82",
+        "name-448-paragraph-0-iast-38",
+        "name-458-paragraph-0-iast-23",
+        "name-461-paragraph-0-iast-40",
+        "name-464-paragraph-0-iast-11",
+        "name-465-paragraph-0-iast-8",
+        "name-468-paragraph-0-iast-61",
+        "name-482-paragraph-1-iast-1",
+        "name-512-paragraph-0-iast-42",
+        "name-519-paragraph-0-iast-12",
+        "name-521-paragraph-0-iast-26",
+        "name-521-paragraph-0-iast-44",
+        "name-525-paragraph-0-iast-14",
+        "name-533-paragraph-0-iast-9",
+        "name-539-paragraph-0-iast-15",
+        "name-540-paragraph-0-iast-9",
+        "name-542-paragraph-0-iast-31",
+        "name-548-paragraph-0-iast-29",
+        "name-558-paragraph-0-iast-7",
+        "name-558-paragraph-0-iast-30",
+        "name-558-paragraph-1-iast-9",
+        "name-558-paragraph-2-iast-11",
+        "name-562-paragraph-0-iast-25",
+        "name-564-paragraph-0-iast-26",
+        "name-564-paragraph-0-iast-31",
+        "name-564-paragraph-0-iast-75",
+        "name-564-paragraph-0-iast-81",
+        "name-564-paragraph-2-iast-4",
+        "name-570-paragraph-0-iast-14",
+        "name-579-paragraph-0-iast-64",
+        "name-595-paragraph-0-iast-0",
+        "name-600-paragraph-0-iast-42",
+        "name-600-paragraph-1-iast-11",
+        "name-601-paragraph-1-iast-34",
+        "name-603-paragraph-0-iast-31",
+        "name-604-paragraph-1-iast-17",
+        "name-608-paragraph-0-iast-8",
+        "name-609-paragraph-0-iast-7",
+        "name-615-paragraph-0-iast-4",
+        "name-618-paragraph-0-iast-6",
+        "name-625-paragraph-0-iast-18",
+        "name-634-paragraph-0-iast-29",
+        "name-638-paragraph-0-iast-6",
+        "name-648-paragraph-0-iast-72",
+        "name-653-paragraph-0-iast-97",
+        "name-664-paragraph-3-iast-3",
+        "name-671-paragraph-0-iast-31",
+        "name-674-paragraph-0-iast-34",
+        "name-687-paragraph-0-iast-23",
+        "name-693-paragraph-0-iast-18",
+        "name-732-paragraph-0-iast-11",
+        "name-793-paragraph-3-iast-13",
+        "name-909-paragraph-0-iast-28",
+        "name-928-paragraph-0-iast-11",
+        "name-948-paragraph-0-iast-72"
+      ],
+      "classification": "proper name",
+      "canonical_iast": "viṣṇu",
+      "canonical_devanagari": "विष्णु",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Viṣṇu",
+        "english_slots": "{0:Viṣṇu}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "viṣṇu",
+            "deva": "विष्णु",
+            "gloss": "Viṣṇu",
+            "parts": [
+              {
+                "form": "viṣṇu",
+                "gloss": "Viṣṇu"
+              }
+            ],
+            "stem": "viṣṇu",
+            "root": null,
+            "affix": "proper-name stem",
+            "morph": "proper name",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viṣṇubhāgavata": {
+      "occurrence_ids": [
+        "name-337-paragraph-1-iast-17"
+      ],
+      "classification": "work/title",
+      "canonical_iast": "viṣṇubhāgavata",
+      "canonical_devanagari": "विष्णुभागवत",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Viṣṇu Bhāgavata",
+        "english_slots": "{0:Viṣṇu Bhāgavata}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "viṣṇubhāgavata",
+            "deva": "विष्णुभागवत",
+            "gloss": "Viṣṇu Bhāgavata",
+            "parts": [
+              {
+                "form": "viṣṇu",
+                "gloss": "Viṣṇu"
+              },
+              {
+                "form": "bhāgavata",
+                "gloss": "Bhāgavata"
+              }
+            ],
+            "stem": "viṣṇubhāgavata",
+            "root": null,
+            "affix": "compound title",
+            "morph": "title",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viṣṇus": {
+      "occurrence_ids": [
+        "name-76-paragraph-0-iast-1"
+      ],
+      "classification": "duplicate transliteration",
+      "canonical_iast": "viṣṇu",
+      "canonical_devanagari": "विष्णु",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Viṣṇu",
+        "english_slots": "{0:Viṣṇu}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "viṣṇu",
+            "deva": "विष्णु",
+            "gloss": "Viṣṇu",
+            "parts": [
+              {
+                "form": "viṣṇu",
+                "gloss": "Viṣṇu"
+              }
+            ],
+            "stem": "viṣṇu",
+            "root": null,
+            "affix": "normalized possessive transliteration",
+            "morph": "proper name",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "viṣṇusahasranāma": {
+      "occurrence_ids": [
+        "name-600-paragraph-0-iast-15"
+      ],
+      "classification": "work/title",
+      "canonical_iast": "viṣṇusahasranāma",
+      "canonical_devanagari": "विष्णुसहस्रनाम",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Viṣṇu Sahasranāma",
+        "english_slots": "{0:Viṣṇu Sahasranāma}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "viṣṇusahasranāma",
+            "deva": "विष्णुसहस्रनाम",
+            "gloss": "Viṣṇu Sahasranāma",
+            "parts": [
+              {
+                "form": "viṣṇu",
+                "gloss": "Viṣṇu"
+              },
+              {
+                "form": "sahasranāma",
+                "gloss": "thousand names"
+              }
+            ],
+            "stem": "viṣṇusahasranāma",
+            "root": null,
+            "affix": "compound title",
+            "morph": "title",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vyayaḥ": {
+      "occurrence_ids": [
+        "name-1-paragraph-0-iast-60",
+        "name-1-paragraph-1-iast-5"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vyayaḥ",
+      "canonical_devanagari": "व्ययः",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "loss; passing away",
+        "english_slots": "{0:loss; passing away}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vyayaḥ",
+            "deva": "व्ययः",
+            "gloss": "loss; passing away",
+            "parts": [
+              {
+                "form": "vyaya",
+                "gloss": "loss; passing away"
+              }
+            ],
+            "stem": "vyaya",
+            "root": null,
+            "affix": "lexical stem",
+            "morph": "masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vyāpnoti": {
+      "occurrence_ids": [
+        "name-2-paragraph-0-iast-7"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vyāpnoti",
+      "canonical_devanagari": "व्याप्नोति",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "pervades",
+        "english_slots": "{0:pervades}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vyāpnoti",
+            "deva": "व्याप्नोति",
+            "gloss": "pervades",
+            "parts": [
+              {
+                "form": "vi",
+                "gloss": "widely"
+              },
+              {
+                "form": "√āp",
+                "gloss": "reach; pervade"
+              },
+              {
+                "form": "laṭ + tip",
+                "gloss": "present 3rd singular"
+              }
+            ],
+            "stem": "vyāp",
+            "root": {
+              "form": "√āp",
+              "gana": "svādi (5)",
+              "pada": "parasmaipada",
+              "gloss": "to obtain; reach; pervade",
+              "dhatupatha": {
+                "locus": "05.0016",
+                "dhatu_devanagari": "आप्",
+                "aupadeshika_devanagari": "आपॢँ",
+                "artha_sanskrit": "व्याप्तौ"
+              }
+            },
+            "affix": "vi + laṭ + tip",
+            "morph": "present indicative 3rd person singular verb",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vyāsa": {
+      "occurrence_ids": [
+        "name-72-paragraph-1-iast-7",
+        "name-367-paragraph-2-iast-5",
+        "name-655-paragraph-2-iast-12"
+      ],
+      "classification": "proper name",
+      "canonical_iast": "vyāsa",
+      "canonical_devanagari": "व्यास",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Vyāsa",
+        "english_slots": "{0:Vyāsa}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vyāsa",
+            "deva": "व्यास",
+            "gloss": "Vyāsa",
+            "parts": [
+              {
+                "form": "vyāsa",
+                "gloss": "Vyāsa"
+              }
+            ],
+            "stem": "vyāsa",
+            "root": null,
+            "affix": "proper-name stem",
+            "morph": "proper name",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vyūha": {
+      "occurrence_ids": [
+        "name-138-paragraph-0-iast-8",
+        "name-138-paragraph-0-iast-48",
+        "name-767-paragraph-0-iast-13"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vyūha",
+      "canonical_devanagari": "व्यूह",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "emanational arrangement; array",
+        "english_slots": "{0:emanational arrangement; array}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vyūha",
+            "deva": "व्यूह",
+            "gloss": "emanational arrangement; array",
+            "parts": [
+              {
+                "form": "vyūha",
+                "gloss": "array; emanational arrangement"
+              }
+            ],
+            "stem": "vyūha",
+            "root": null,
+            "affix": "lexical stem",
+            "morph": "masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vyūhas": {
+      "occurrence_ids": [
+        "name-638-paragraph-0-iast-4",
+        "name-638-paragraph-0-iast-15",
+        "name-767-paragraph-0-iast-11",
+        "name-767-paragraph-0-iast-92"
+      ],
+      "classification": "duplicate transliteration",
+      "canonical_iast": "vyūhāḥ",
+      "canonical_devanagari": "व्यूहाः",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "vyūhas",
+        "english_slots": "{0:vyūhas}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vyūhāḥ",
+            "deva": "व्यूहाः",
+            "gloss": "vyūhas",
+            "parts": [
+              {
+                "form": "vyūha",
+                "gloss": "array; emanational arrangement"
+              }
+            ],
+            "stem": "vyūha",
+            "root": null,
+            "affix": "jas (prathamā bahuvacana)",
+            "morph": "nominative plural masculine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vācaspati": {
+      "occurrence_ids": [
+        "name-217-paragraph-0-iast-0"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vācaspati",
+      "canonical_devanagari": "वाचस्पति",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "lord of speech",
+        "english_slots": "{0:lord of speech}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vācaspati",
+            "deva": "वाचस्पति",
+            "gloss": "lord of speech",
+            "parts": [
+              {
+                "form": "vāc",
+                "gloss": "speech"
+              },
+              {
+                "form": "pati",
+                "gloss": "lord"
+              }
+            ],
+            "stem": "vācaspati",
+            "root": null,
+            "affix": "compound stem",
+            "morph": "compound noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vāmana": {
+      "occurrence_ids": [
+        "name-2-paragraph-1-iast-30",
+        "name-39-paragraph-0-iast-63",
+        "name-133-paragraph-0-iast-120",
+        "name-151-paragraph-0-iast-9",
+        "name-152-paragraph-0-iast-9",
+        "name-152-paragraph-0-iast-37",
+        "name-152-paragraph-0-iast-95",
+        "name-152-paragraph-1-iast-2",
+        "name-153-paragraph-0-iast-8",
+        "name-153-paragraph-0-iast-52",
+        "name-262-paragraph-0-iast-55",
+        "name-322-paragraph-0-iast-20",
+        "name-563-paragraph-0-iast-12"
+      ],
+      "classification": "proper name",
+      "canonical_iast": "vāmana",
+      "canonical_devanagari": "वामन",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Vāmana",
+        "english_slots": "{0:Vāmana}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vāmana",
+            "deva": "वामन",
+            "gloss": "Vāmana",
+            "parts": [
+              {
+                "form": "vāmana",
+                "gloss": "Vāmana"
+              }
+            ],
+            "stem": "vāmana",
+            "root": null,
+            "affix": "proper-name stem",
+            "morph": "proper name",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vās": {
+      "occurrence_ids": [
+        "name-332-paragraph-0-span-0"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vās",
+      "canonical_devanagari": "वास्",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "to dwell",
+        "english_slots": "{0:to dwell}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vās",
+            "deva": "वास्",
+            "gloss": "to dwell",
+            "parts": [
+              {
+                "form": "√vas",
+                "gloss": "dwell"
+              }
+            ],
+            "stem": "vas",
+            "root": {
+              "form": "√vas",
+              "gana": "bhvādi (1)",
+              "pada": "parasmaipada",
+              "gloss": "to dwell",
+              "dhatupatha": {
+                "locus": "01.1151",
+                "dhatu_devanagari": "वस्",
+                "aupadeshika_devanagari": "वसँ",
+                "artha_sanskrit": "निवासे"
+              }
+            },
+            "affix": "dhātu citation form",
+            "morph": "verbal root",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vāsanā": {
+      "occurrence_ids": [
+        "name-465-paragraph-0-iast-16"
+      ],
+      "classification": "lexical Sanskrit",
+      "canonical_iast": "vāsanā",
+      "canonical_devanagari": "वासना",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "latent impression",
+        "english_slots": "{0:latent impression}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vāsanā",
+            "deva": "वासना",
+            "gloss": "latent impression",
+            "parts": [
+              {
+                "form": "vāsanā",
+                "gloss": "latent impression"
+              }
+            ],
+            "stem": "vāsanā",
+            "root": null,
+            "affix": "ā-stem",
+            "morph": "feminine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vāsanās": {
+      "occurrence_ids": [
+        "name-10-paragraph-0-iast-24",
+        "name-73-paragraph-0-iast-46",
+        "name-73-paragraph-0-iast-67",
+        "name-146-paragraph-0-iast-25",
+        "name-294-paragraph-0-iast-10",
+        "name-294-paragraph-0-iast-20",
+        "name-294-paragraph-0-iast-38",
+        "name-294-paragraph-0-iast-49",
+        "name-295-paragraph-0-iast-47",
+        "name-295-paragraph-0-iast-56",
+        "name-302-paragraph-0-iast-94",
+        "name-302-paragraph-0-iast-114",
+        "name-302-paragraph-0-iast-124",
+        "name-303-paragraph-0-iast-23",
+        "name-303-paragraph-0-iast-35",
+        "name-303-paragraph-0-iast-56",
+        "name-313-paragraph-0-iast-102",
+        "name-342-paragraph-0-iast-90",
+        "name-359-paragraph-1-iast-43",
+        "name-359-paragraph-1-iast-54",
+        "name-373-paragraph-0-iast-45",
+        "name-387-paragraph-0-iast-18",
+        "name-387-paragraph-0-iast-23",
+        "name-393-paragraph-0-iast-18",
+        "name-431-paragraph-0-iast-29",
+        "name-431-paragraph-0-iast-34",
+        "name-537-paragraph-0-iast-24",
+        "name-537-paragraph-0-iast-70",
+        "name-537-paragraph-0-iast-95",
+        "name-537-paragraph-1-iast-6",
+        "name-552-paragraph-0-iast-55",
+        "name-583-paragraph-0-iast-26",
+        "name-636-paragraph-1-iast-7",
+        "name-637-paragraph-0-iast-9",
+        "name-792-paragraph-0-iast-8",
+        "name-792-paragraph-0-iast-30",
+        "name-796-paragraph-0-iast-164",
+        "name-811-paragraph-0-iast-64",
+        "name-822-paragraph-0-iast-22",
+        "name-831-paragraph-0-iast-30",
+        "name-839-paragraph-0-iast-33",
+        "name-900-paragraph-0-iast-36",
+        "name-924-paragraph-0-iast-18",
+        "name-924-paragraph-0-iast-46",
+        "name-925-paragraph-0-iast-14",
+        "name-947-paragraph-0-iast-22",
+        "name-952-paragraph-0-iast-43",
+        "name-992-paragraph-0-iast-4",
+        "name-992-paragraph-0-iast-24"
+      ],
+      "classification": "duplicate transliteration",
+      "canonical_iast": "vāsanāḥ",
+      "canonical_devanagari": "वासनाः",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "latent impressions",
+        "english_slots": "{0:latent impressions}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vāsanāḥ",
+            "deva": "वासनाः",
+            "gloss": "latent impressions",
+            "parts": [
+              {
+                "form": "vāsanā",
+                "gloss": "latent impression"
+              }
+            ],
+            "stem": "vāsanā",
+            "root": null,
+            "affix": "jas (prathamā bahuvacana)",
+            "morph": "nominative plural feminine noun",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vāsu": {
+      "occurrence_ids": [
+        "name-332-paragraph-0-iast-6",
+        "name-332-paragraph-0-iast-11",
+        "name-332-paragraph-0-iast-123",
+        "name-695-paragraph-0-iast-10",
+        "name-695-paragraph-0-iast-13"
+      ],
+      "classification": "proper name",
+      "canonical_iast": "vāsu",
+      "canonical_devanagari": "वासु",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Vāsu",
+        "english_slots": "{0:Vāsu}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vāsu",
+            "deva": "वासु",
+            "gloss": "Vāsu",
+            "parts": [
+              {
+                "form": "vāsu",
+                "gloss": "Vāsu"
+              }
+            ],
+            "stem": "vāsu",
+            "root": null,
+            "affix": "proper-name stem",
+            "morph": "proper name",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    },
+    "vāsudeva": {
+      "occurrence_ids": [
+        "name-340-paragraph-0-span-0",
+        "name-138-paragraph-0-iast-53",
+        "name-189-paragraph-0-iast-31",
+        "name-281-paragraph-0-iast-38",
+        "name-332-paragraph-0-iast-171",
+        "name-332-paragraph-1-iast-33",
+        "name-340-paragraph-0-iast-15"
+      ],
+      "classification": "proper name",
+      "canonical_iast": "vāsudeva",
+      "canonical_devanagari": "वासुदेव",
+      "source_qualification": "Independent shard-3A popup; canonical form normalizes only obvious quote/punctuation noise or clear OCR drift.",
+      "popup": {
+        "english": "Vāsudeva",
+        "english_slots": "{0:Vāsudeva}",
+        "english_source": "site-literal-translation",
+        "words": [
+          {
+            "i": 0,
+            "iast": "vāsudeva",
+            "deva": "वासुदेव",
+            "gloss": "Vāsudeva",
+            "parts": [
+              {
+                "form": "vāsu",
+                "gloss": "indwelling one"
+              },
+              {
+                "form": "deva",
+                "gloss": "shining one"
+              }
+            ],
+            "stem": "vāsudeva",
+            "root": null,
+            "affix": "compound proper-name stem",
+            "morph": "proper name",
+            "evidence": {
+              "text_witness": "inline shard 3 subset A unit",
+              "grammar_witnesses": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+              ],
+              "review_method": "direct source-text derivation; interpreter not used"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

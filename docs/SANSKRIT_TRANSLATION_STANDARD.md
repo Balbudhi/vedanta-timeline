@@ -50,6 +50,11 @@ present and make it inspectable, rather than paraphrasing.
   `english`). Commentary is shown **voice by voice**: a multi-select, colour-coded
   chooser (each commentator a colour); equal, no ranking, ordered chronologically.
   Each commentator's name links to their Thinker entry in the timeline.
+- **Quoted English must keep its source boundary.** If a commentator gives an
+  English translation, render that exact wording as theirs. If the site supplies
+  a literal English line for an otherwise untranslated Sanskrit quotation, mark
+  that line at the quote itself as site-generated and do not present it as the
+  commentator's translation or quotation.
 
 ## 3. Data schema
 

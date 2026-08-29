@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "description": "Reviewed non-Gita Sanskrit quotation analysis embedded in Swami Chinmayananda's Vishnu Sahasranama commentary.",
+  "population": {
+    "expected": 54,
+    "reviewed": 54,
+    "withheld": 0
+  },
+  "review_status": "primary-grammar-reviewed-complete",
+  "authority": {
+    "sanskrit_sources": "/Users/eeshan/Dev/prakriya/sources/",
+    "interpreter_used": false,
+    "review_method": "direct source-text derivation followed by independent review"
+  },
+  "shards": [
+    {
+      "path": "commentary-sanskrit-analysis-001-250.json",
+      "quotes": 25,
+      "sha256": "036d182a062baa51f1430cdccd4d414df53b71c5f89b951510d40d4791022001"
+    },
+    {
+      "path": "commentary-sanskrit-analysis-251-500.json",
+      "quotes": 6,
+      "sha256": "7f935b289179bcb504eeece367760b34287dfa8cbf1f4a32a4dea372e438a10e"
+    },
+    {
+      "path": "commentary-sanskrit-analysis-501-750.json",
+      "quotes": 15,
+      "sha256": "15ae3a7d83bd343e80ac43bd2874d32e2ae54e33e224c3a861e1009c60b1b5f7"
+    },
+    {
+      "path": "commentary-sanskrit-analysis-751-1000.json",
+      "quotes": 8,
+      "sha256": "a64d0ab4bf4842f1d5042a65324ab16c3c0b6e084f3c0b29f7670c5e76020a7d"
+    }
+  ]
+}

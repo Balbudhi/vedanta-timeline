@@ -320,6 +320,64 @@
       "notes": "The public block order is Devanāgarī, interactive IAST, then English with bidirectional Sanskrit-English hover and click. All 85 English translations supplied by Chinmayananda preserve his wording exactly; the 57 Gītā blocks he leaves without English receive separately provenance-marked site literal translations. The packet covers 1,222 word instances and records direct source-library review; site English is never attributed to Chinmayananda."
     },
     {
+      "id": "chinmayananda-sahasranama-non-gita-sanskrit-analysis",
+      "title_iast": "Thousand Ways to the Transcendental: reviewed non-Gītā Sanskrit analysis",
+      "source_level": "secondary",
+      "source_path": "gita/vishnu-sahasranama/commentary-sanskrit-analysis.manifest.json",
+      "witness": "Site-authored word analysis for the closed population of 54 standalone non-Gītā Sanskrit quotations in Chinmayananda's commentary, derived directly from the shared Prakriya primary grammatical-text witnesses and independently reviewed; the unfinished interpreter was not used.",
+      "rights_status": "site-authored-analysis-of-authorized-and-public-working-witnesses",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://chinmayananda/thousand-ways-to-the-transcendental/sanskrit-quote/"
+      ],
+      "review_areas": [
+        "chinmayananda",
+        "vishnu-sahasranama",
+        "sanskrit-reader",
+        "paninian-grammar",
+        "textual-variants"
+      ],
+      "notes": "All 54 records have source script, IAST, literal English, complete word slots, interactive source segments, and reviewed morphology; zero are withheld or unaccounted for. Site English is explicitly distinguished from Chinmayananda's wording."
+    },
+    {
+      "id": "chinmayananda-sahasranama-inline-sanskrit-analysis",
+      "title_iast": "Thousand Ways to the Transcendental: reviewed inline Sanskrit analysis",
+      "source_level": "secondary",
+      "source_path": "internal/sanskrit_reviews/inline-sanskrit-inventory.json",
+      "witness": "Closed-population inventory and review map for every Sanskrit occurrence remaining inside Chinmayananda prose after standalone quotations are promoted. Each unique unit resolves either to an exact reviewed name/quotation analysis or to an independently derived popup checked against the shared Prakriya grammatical-text witnesses; the unfinished interpreter was not used.",
+      "rights_status": "site-authored-analysis-of-authorized-and-public-working-witnesses",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://chinmayananda/thousand-ways-to-the-transcendental/inline-sanskrit/"
+      ],
+      "review_areas": [
+        "chinmayananda",
+        "vishnu-sahasranama",
+        "sanskrit-reader",
+        "paninian-grammar"
+      ],
+      "notes": "The marked-script inventory contains 2,753 occurrences representing 750 unique units: 146 exact references to existing reviewed analysis and 604 independent popups. The tokenizer treats ñ-bearing forms such as yajña, prajñānam, and kṣetrajñaḥ as whole words. English components joined to Sanskrit by OCR-style hyphens stay ordinary prose and are never invented as Sanskrit words. Validation requires exact source offsets, complete population replay, clean lexical glosses, and a matching primary/raw Dhātupāṭha witness for every recorded root locus. The public UI presents the supported grammar without adding an agreement/disagreement verdict about Chinmayananda's prose."
+    },
+    {
+      "id": "chinmayananda-sahasranama-ascii-sanskrit-analysis",
+      "title_iast": "Thousand Ways to the Transcendental: reviewed undiacritized Roman Sanskrit",
+      "source_level": "secondary",
+      "source_path": "internal/sanskrit_reviews/ascii-sanskrit-candidate-inventory.json",
+      "witness": "Closed-population context review for undiacritized Roman Sanskrit left by the scan and older transcription. Folded-form matching is used only to locate candidates; canonical IAST, morphology, roots, and homonyms are independently reviewed from the local Prakriya source texts.",
+      "rights_status": "site-authored-analysis-of-authorized-and-public-working-witnesses",
+      "citation_status": "working-witness",
+      "stable_cite_prefixes": [
+        "cite://chinmayananda/thousand-ways-to-the-transcendental/ascii-sanskrit/"
+      ],
+      "review_areas": [
+        "chinmayananda",
+        "vishnu-sahasranama",
+        "sanskrit-reader",
+        "paninian-grammar"
+      ],
+      "notes": "All 1,267 locator candidates are adjudicated: 1,246 Sanskrit occurrences and 21 English/citation-label false positives. The accepted population has 126 exact reviewed references and 1,120 independent popups. Of the accepted occurrences, 1,073 render as prose popups and 173 are already represented by a structured Sanskrit/Gītā block. Cross-review rejected generic morphology, rootless verbal forms, fabricated prefixed roots, silent homonym substitution, empty evidence, and English plurals presented as Sanskrit inflections."
+    },
+    {
       "id": "chinmayananda-thousand-ways-preface-authorized-reader",
       "title_iast": "Thousand Ways to the Transcendental: recitation-preface engagement",
       "source_level": "secondary",

@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "scope": {
+    "name_numbers": [
+      321,
+      408,
+      429,
+      593,
+      658,
+      671
+    ],
+    "method": "source-first derivation review against Chinmayananda, analysis.json, and the local Prakriya source library; interpreter not used"
+  },
+  "rows": [
+    {
+      "name_number": 321,
+      "citation_iast": "prāṇadaḥ",
+      "citation_devanagari": "प्राणदः",
+      "commentator_claim": "The root 'da' has a meaning of destruction and, therefore, the term comprehends also the power of destruction everywhere.",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "The root 'da' has a meaning of destruction and, therefore, the term comprehends also the power of destruction everywhere."
+      },
+      "independently_derived_root": {
+        "form": "√dā",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to give",
+        "dhatupatha": {
+          "locus": "01.1079",
+          "dhatu_devanagari": "दा",
+          "aupadeshika_devanagari": "दाण्",
+          "artha_sanskrit": "दाने"
+        }
+      },
+      "verdict": "disagrees",
+      "qualification": "The local grammar witnesses support prāṇadaḥ as a giver-formation from दाण्/डुदाञ् 'to give', not from a root meaning 'destruction'. A separate दाप् at 02.0054 means 'to cut', but that is not the same dhātu as the compound member da here.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:9172"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:15865"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:23817",
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27370"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3215-3217",
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3638-3639"
+        ]
+      }
+    },
+    {
+      "name_number": 408,
+      "citation_iast": "prāṇadaḥ",
+      "citation_devanagari": "प्राणदः",
+      "commentator_claim": "This can mean \"One who gives 'prāṇa' or as \"One who takes away 'prāṇa', because, the root 'da' has both the meanings, 'to give' and 'to break.' Therefore, Viṣṇu is the Supreme who gives prāṇa to all creatures in the beginning of creation, and He alone is again the One who destroys all Pragnas (movements) at the time of dissolution.",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "This can mean \"One who gives 'prāṇa' or as \"One who takes away 'prāṇa', because, the root 'da' has both the meanings, 'to give' and 'to break.' Therefore, Viṣṇu is the Supreme who gives prāṇa to all creatures in the beginning of creation, and He alone is again the One who destroys all Pragnas (movements) at the time of dissolution."
+      },
+      "independently_derived_root": {
+        "form": "√dā",
+        "gana": "3",
+        "pada": "U",
+        "gloss": "to give; to provide; to donate; to hand over",
+        "dhatupatha": {
+          "locus": "03.0010",
+          "dhatu_devanagari": "दा",
+          "aupadeshika_devanagari": "डुदाञ्",
+          "artha_sanskrit": "दाने"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The source library supports the commentator's two-sense play: दाण्/डुदाञ् 'to give' and दाप् 'to cut' (a reasonable lexical basis for 'take away'). The claim is therefore source-backed, though 'break' is a loose English gloss of the cutting sense.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:11671"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:20054"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:23817",
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27370",
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:28178"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3215-3217",
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3638-3639",
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3728-3737"
+        ]
+      }
+    },
+    {
+      "name_number": 429,
+      "citation_iast": "bījamavyayam",
+      "citation_devanagari": "बीजमव्ययम्",
+      "commentator_claim": "It can also mean \"that without which the world can never be.\"",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "It can also mean \"that without which the world can never be.\" Hence He is the undecaying root of all things."
+      },
+      "independently_derived_root": null,
+      "verdict": "uncertain",
+      "qualification": "The phrase 'undecaying root of all things' is metaphorical English, not a Sanskrit nirvacana. The reviewed line is a nominal phrase meaning 'immutable seed'; no Dhātupāṭha root claim is being made here.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:12272"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:21049"
+        ]
+      }
+    },
+    {
+      "name_number": 593,
+      "citation_iast": "goptā",
+      "citation_devanagari": "गोप्ता",
+      "commentator_claim": "The root 'Gup' (गुप) has two meanings: to protect; to veil.",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "The root 'Gup' (गुप) has two meanings: to protect; to veil."
+      },
+      "independently_derived_root": {
+        "form": "√gup",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to protect; to hide; to conceal",
+        "dhatupatha": {
+          "locus": "01.0461",
+          "dhatu_devanagari": "गुप्",
+          "aupadeshika_devanagari": "गुपूँ",
+          "artha_sanskrit": "रक्षणे"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The dhātupāṭha directly gives गुपूँ 'to protect, hide, conceal'; 'veil' is a fair English rendering of the conceal/hide branch, and the commentator's pair of senses stays within that root family.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:16956"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:29042"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:9975"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1380-1384"
+        ]
+      }
+    },
+    {
+      "name_number": 658,
+      "citation_iast": "vīraḥ",
+      "citation_devanagari": "वीरः",
+      "commentator_claim": "The root ‘Vi’ (वी) often means creation, radiance, existence, involution or motion.",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "“The Valiant;” “The Courageous—the One of heroic exploits.” The root ‘Vi’ (वी) often means creation, radiance, existence, involution or motion."
+      },
+      "independently_derived_root": {
+        "form": "√vī",
+        "gana": "2",
+        "pada": "P",
+        "gloss": "to go; to pervade; to surround; to attack; to conceive; to glow; to shine; to throw; to eat",
+        "dhatupatha": {
+          "locus": "02.0043",
+          "dhatu_devanagari": "वी",
+          "aupadeshika_devanagari": "वी",
+          "artha_sanskrit": "गतिव्याप्तिप्रजनकान्त्यसनखादनेषु"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The dhātupāṭha for वी directly supports motion, pervasion, generation, and radiance/shine. The commentator's larger list is a broad traditional paraphrase of that family, not a contradiction of it.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:18819"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:32210"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27078"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3605-3606"
+        ]
+      }
+    },
+    {
+      "name_number": 671,
+      "citation_iast": "mahākramaḥ",
+      "citation_devanagari": "महाक्रमः",
+      "commentator_claim": "It also indicates the root meaning of the term, Viṣṇu-\"The one who has the long stride—meaning, \"All-pervading.\"",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "It also indicates the root meaning of the term, Viṣṇu-\"The one who has the long stride—meaning, \"All-pervading.\" Since He is All-pervading, He reaches everywhere earlier than all others."
+      },
+      "independently_derived_root": {
+        "form": "√kram",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to walk; to step; to go ahead; to cross; to leap; to ascend; to protect; to approach",
+        "dhatupatha": {
+          "locus": "01.0545",
+          "dhatu_devanagari": "क्रम्",
+          "aupadeshika_devanagari": "क्रमुँ",
+          "artha_sanskrit": "पादविक्षेपे"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "क्रमुँ is explicitly 'to walk, step, go ahead, cross, leap, ascend, protect, approach'. 'Long stride' and 'All-pervading' are interpretive applications of that root-family, not a departure from it.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:19199"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:32840"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:11778"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1633-1635"
+        ]
+      }
+    }
+  ]
+}

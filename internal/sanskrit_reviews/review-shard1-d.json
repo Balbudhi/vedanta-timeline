@@ -1,0 +1,1193 @@
+{
+  "name-192-paragraph-1-span-0": {
+    "quote_id": "name-192-paragraph-1-span-0",
+    "name_number": 192,
+    "printed_devanagari": "द्वा सुपर्णा सयुजा सखाया समानं वृक्षं परिषस्वजाते । तयोरन्यः पिप्पलं स्वाद्वत्त्यनश्नन्नन्यो अभिचाकशीति ॥",
+    "canonical_devanagari": "द्वा सुपर्णा सयुजा सखाया समानं वृक्षं परिषस्वजाते तयोरन्यः पिप्पलं स्वाद्वत्त्यनश्नन्नन्यो अभिचाकशीति",
+    "iast": "dvā suparṇā sayujā sakhāyā samānaṃ vṛkṣaṃ pariṣasvajāte tayoranyaḥ pippalaṃ svādvattyanaśnannanyo abhicākaśīti",
+    "source_label": "Chinmayananda commentary witness with printed attribution to Muṇḍaka Upaniṣad 3.1; parallel local attestation noted separately",
+    "canonical_locus": "Muṇḍaka Upaniṣad 3.1 (printed attribution in Chinmayananda; this shard independently rechecked only the parallel wording in Ṛgveda 1.164.20 / Nirukta 13.42)",
+    "textual_notes": [
+      "The scan is the direct witness for the exact printed surface groups.",
+      "The same wording is locally attested in a verified Ṛgvedic/Nirukta parallel, but the printed Muṇḍaka attribution is preserved as Chinmayananda gives it."
+    ],
+    "english": "two fair-winged companions, joined together, cling to the same tree; of the two, one eats the sweet pippala fruit, the other, not eating, looks on",
+    "english_source": "site-literal-translation",
+    "english_slots": "{0:two} {1:fair-winged} {3:companions}, {2:joined together}, {6:cling} {4:to the same} {5:tree}; {7:of the two, one} {9:eats the sweet} {8:pippala fruit}, {9:the other, not eating} {10:looks on}",
+    "words": [
+      {
+        "i": 0,
+        "deva": "द्वा",
+        "iast": "dvā",
+        "gloss": "two",
+        "parts": [
+          {
+            "form": "dvā",
+            "gloss": "two"
+          }
+        ],
+        "stem": "dvi",
+        "root": null,
+        "affix": "dual numeral surface form",
+        "morph": "nominative dual numeral",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/vakyapadiya/vakyapadiya_ambakartri_upstream.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 1,
+        "deva": "सुपर्णा",
+        "iast": "suparṇā",
+        "gloss": "fair-winged",
+        "parts": [
+          {
+            "form": "su",
+            "gloss": "good; fair"
+          },
+          {
+            "form": "parṇa",
+            "gloss": "wing; feather"
+          }
+        ],
+        "stem": "suparṇa",
+        "root": null,
+        "affix": "au (prathamā dvivacana)",
+        "morph": "nominative dual masculine compound adjective",
+        "compound": {
+          "type": "karmadhāraya",
+          "vigraha": "śobhanāni parṇāni yasyau tau",
+          "members": [
+            "su",
+            "parṇa"
+          ]
+        },
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/vakyapadiya/vakyapadiya_ambakartri_upstream.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 2,
+        "deva": "सयुजा",
+        "iast": "sayujā",
+        "gloss": "joined together",
+        "parts": [
+          {
+            "form": "sa",
+            "gloss": "together"
+          },
+          {
+            "form": "yuja",
+            "gloss": "joined"
+          }
+        ],
+        "stem": "sayuja",
+        "root": "√yuj",
+        "affix": "au (prathamā dvivacana)",
+        "morph": "nominative dual masculine adjective",
+        "note": "The Vākyapadīya witness glosses the parallel form सयुजौ as संयुक्तौ सहवासिनौ; the printed Vedic dual सयुजा is kept here.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/vakyapadiya/vakyapadiya_ambakartri_upstream.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 3,
+        "deva": "सखाया",
+        "iast": "sakhāyā",
+        "gloss": "companions",
+        "parts": [
+          {
+            "form": "sakhā",
+            "gloss": "companion; friend"
+          }
+        ],
+        "stem": "sakhi/sakhā",
+        "root": null,
+        "affix": "Vedic nominative dual surface form",
+        "morph": "nominative dual masculine noun",
+        "note": "The corresponding classical dual is sakhāyau; the Vedic form sakhāyā is preserved exactly as printed.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/corpus/work/etymology/madhaviya_dhatuvrtti_samsaadhanii_candidate.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 4,
+        "deva": "समानं",
+        "iast": "samānaṃ",
+        "gloss": "the same",
+        "parts": [
+          {
+            "form": "samāna",
+            "gloss": "same; common"
+          }
+        ],
+        "stem": "samāna",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative singular masculine adjective",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 5,
+        "deva": "वृक्षं",
+        "iast": "vṛkṣaṃ",
+        "gloss": "tree",
+        "parts": [
+          {
+            "form": "vṛkṣa",
+            "gloss": "tree"
+          }
+        ],
+        "stem": "vṛkṣa",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative singular masculine noun",
+        "karaka": "karman of pariṣasvajāte",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/vakyapadiya/vakyapadiya_ambakartri_upstream.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 6,
+        "deva": "परिषस्वजाते",
+        "iast": "pariṣasvajāte",
+        "gloss": "cling; embrace",
+        "parts": [
+          {
+            "form": "pari",
+            "gloss": "around"
+          },
+          {
+            "form": "ṣasvajāte",
+            "gloss": "the two have embraced"
+          }
+        ],
+        "stem": "pari-ṣvañj",
+        "root": "√svañj",
+        "affix": "liṭ + āte (prathamapuruṣa dvivacana, ātmanepada)",
+        "morph": "perfect 3rd person dual middle verb",
+        "note": "The local dhātupāṭha gives स्वञ्ज् / ष्वन्जँ परिष्वङ्गे; the Vākyapadīya glosses this exact predicate as आलिङ्ग्य स्थितौ.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/vakyapadiya/vakyapadiya_ambakartri_upstream.txt",
+            "/Users/eeshan/Dev/vedanta-timeline/data/sources/_intake/candidates/mallavadin-nayacakra-sarit.xml"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 7,
+        "deva": "तयोरन्यः",
+        "iast": "tayoranyaḥ",
+        "gloss": "of the two, one",
+        "parts": [
+          {
+            "form": "tayoḥ",
+            "gloss": "of the two"
+          },
+          {
+            "form": "anyaḥ",
+            "gloss": "the other; one"
+          }
+        ],
+        "subwords": [
+          {
+            "form": "tayoḥ",
+            "gloss": "of the two",
+            "stem": "tad",
+            "root": null,
+            "affix": "os (ṣaṣṭhī dvivacana)",
+            "morph": "genitive dual pronoun"
+          },
+          {
+            "form": "anyaḥ",
+            "gloss": "one; the other",
+            "stem": "anya",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative singular masculine pronoun-adjective"
+          }
+        ],
+        "stem": "tad + anya",
+        "root": null,
+        "affix": "os + su",
+        "morph": "genitive dual pronoun plus nominative singular adjective (external sandhi group)",
+        "sandhi": "tayoḥ + anyaḥ is preserved as a single printed surface group.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/vakyapadiya/vakyapadiya_ambakartri_upstream.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 8,
+        "deva": "पिप्पलं",
+        "iast": "pippalaṃ",
+        "gloss": "pippala fruit",
+        "parts": [
+          {
+            "form": "pippala",
+            "gloss": "pippala fruit"
+          }
+        ],
+        "stem": "pippala",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative singular neuter noun",
+        "karaka": "karman of atti",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 9,
+        "deva": "स्वाद्वत्त्यनश्नन्नन्यो",
+        "iast": "svādvattyanaśnannanyo",
+        "gloss": "eats the sweet one; the other, not eating",
+        "parts": [
+          {
+            "form": "svādu",
+            "gloss": "sweet"
+          },
+          {
+            "form": "atti",
+            "gloss": "eats"
+          },
+          {
+            "form": "anaśnan",
+            "gloss": "not eating"
+          },
+          {
+            "form": "anyaḥ",
+            "gloss": "the other"
+          }
+        ],
+        "subwords": [
+          {
+            "form": "svādu",
+            "gloss": "sweet",
+            "stem": "svādu",
+            "root": null,
+            "affix": "indeclinable-like adverbial accusative in context",
+            "morph": "adverbial qualifier of eating"
+          },
+          {
+            "form": "atti",
+            "gloss": "eats",
+            "stem": "ad",
+            "root": "√ad",
+            "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+            "morph": "present 3rd person singular verb"
+          },
+          {
+            "form": "anaśnan",
+            "gloss": "not eating",
+            "stem": "aś",
+            "root": {
+              "form": "√aś",
+              "gana": "gaṇa 5",
+              "pada": "parasmaipada",
+              "gloss": "to eat; enjoy",
+              "dhatupatha": {
+                "base_root": "aś",
+                "locus": "05.0064",
+                "aupadeshika_devanagari": "अशँ",
+                "artha_sanskrit": "भोजने"
+              }
+            },
+            "affix": "śatṛ (present active participle)",
+            "morph": "nominative singular masculine present participle with negative prefix a-"
+          },
+          {
+            "form": "anyaḥ",
+            "gloss": "the other",
+            "stem": "anya",
+            "root": null,
+            "affix": "su (prathamā ekavacana)",
+            "morph": "nominative singular masculine pronoun-adjective"
+          }
+        ],
+        "stem": "svādu + ad + aś + anya",
+        "root": null,
+        "affix": "grouped finite verb plus participle surface cluster",
+        "morph": "mixed surface group with a finite verb and a participial clause",
+        "sandhi": "The printed witness compresses svādu atti an aśnan anyaḥ into one clickable surface group.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/corpus/work/kshiratarangini_transport_repaired_candidate.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/vakyapadiya/vakyapadiya_ambakartri_upstream.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 10,
+        "deva": "अभिचाकशीति",
+        "iast": "abhicākaśīti",
+        "gloss": "looks on from nearby",
+        "parts": [
+          {
+            "form": "abhi",
+            "gloss": "towards; over"
+          },
+          {
+            "form": "cākaśīti",
+            "gloss": "shines forth; looks on"
+          }
+        ],
+        "stem": "abhi-kāś",
+        "root": "√kāś",
+        "affix": "reduplicated perfect finite ending",
+        "morph": "perfect 3rd person singular verb",
+        "note": "The local grammatical witness explains this as अभितो द्योतते; the gloss 'looks on' follows the contemplative context while preserving the verb's shining/appearing force.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 192",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/corpus/work/kshiratarangini_transport_repaired_candidate.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/vakyapadiya/vakyapadiya_ambakartri_upstream.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      }
+    ]
+  },
+  "name-245-paragraph-5-span-0": {
+    "quote_id": "name-245-paragraph-5-span-0",
+    "name_number": 245,
+    "printed_devanagari": "नराज्जातानि तत्त्वानि नाराणीति विदुर्बुधाः । तान्येव चायनं तस्य तेन नारायणः स्मृतः ॥",
+    "canonical_devanagari": "नराज्जातानि तत्त्वानि नाराणीति विदुर्बुधाः तान्येव चायनं तस्य तेन नारायणः स्मृतः",
+    "iast": "narājjātāni tattvāni nārāṇīti vidurbudhāḥ tānyeva cāyanaṃ tasya tena nārāyaṇaḥ smṛtaḥ",
+    "source_label": "Chinmayananda commentary witness with printed attribution to Mahābhārata",
+    "canonical_locus": "Mahābhārata (printed attribution in Chinmayananda; not independently re-collated here against a separate primary witness)",
+    "textual_notes": [
+      "The printed surface groups narājjātāni, nārāṇīti, vidurbudhāḥ, tānyeva, cāyanaṃ are preserved in the clickable word records.",
+      "A local Prakriya lexical witness repeats the same printed verse, but no separate primary Mahābhārata witness was re-collated here."
+    ],
+    "english": "The principles born from Nara, the wise know as nārāṇi; those indeed are his resting-place, therefore he is remembered as Nārāyaṇa",
+    "english_source": "site-literal-translation",
+    "english_slots": "{0:the principles born from Nara} {1:the principles}, {2:as nārāṇi} {3:the wise know}; {4:those indeed} {5:are the resting-place} {6:of him}; {7:therefore} {8:Nārāyaṇa} {9:is remembered}",
+    "words": [
+      {
+        "i": 0,
+        "deva": "नराज्जातानि",
+        "iast": "narājjātāni",
+        "gloss": "born from Nara",
+        "parts": [
+          {
+            "form": "narāt",
+            "gloss": "from Nara"
+          },
+          {
+            "form": "jātāni",
+            "gloss": "born"
+          }
+        ],
+        "subwords": [
+          {
+            "form": "narāt",
+            "gloss": "from Nara",
+            "stem": "nara",
+            "root": null,
+            "affix": "ṅasi (pañcamī ekavacana)",
+            "morph": "ablative singular masculine noun"
+          },
+          {
+            "form": "jātāni",
+            "gloss": "born",
+            "stem": "jāta",
+            "root": {
+              "form": "√jan",
+              "gana": "gaṇa 4",
+              "pada": "ātmanepada",
+              "gloss": "to be born; arise",
+              "dhatupatha": {
+                "base_root": "jan",
+                "locus": "04.0044",
+                "aupadeshika_devanagari": "जनीँ",
+                "artha_sanskrit": "प्रादुर्भावे"
+              }
+            },
+            "affix": "kta + śas (prathamā bahuvacana neuter)",
+            "morph": "nominative plural neuter past passive participle"
+          }
+        ],
+        "stem": "nara + jāta",
+        "root": null,
+        "affix": "ablative singular + participial plural surface group",
+        "morph": "ablative noun plus nominative plural neuter participle (external sandhi group)",
+        "sandhi": "narāt + jātāni is printed as narājjātāni.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/corpus/work/kshiratarangini_transport_repaired_candidate.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 1,
+        "deva": "तत्त्वानि",
+        "iast": "tattvāni",
+        "gloss": "principles",
+        "parts": [
+          {
+            "form": "tattva",
+            "gloss": "principle; reality-element"
+          }
+        ],
+        "stem": "tattva",
+        "root": null,
+        "affix": "śas (prathamā bahuvacana neuter)",
+        "morph": "nominative plural neuter noun",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 2,
+        "deva": "नाराणीति",
+        "iast": "nārāṇīti",
+        "gloss": "as nārāṇi",
+        "parts": [
+          {
+            "form": "nārāṇi",
+            "gloss": "nārāṇi"
+          },
+          {
+            "form": "iti",
+            "gloss": "thus"
+          }
+        ],
+        "subwords": [
+          {
+            "form": "nārāṇi",
+            "gloss": "nārāṇi",
+            "stem": "nārāṇi",
+            "root": null,
+            "affix": "quoted cited form",
+            "morph": "quoted nominal form in a naming explanation"
+          },
+          {
+            "form": "iti",
+            "gloss": "thus",
+            "stem": "iti",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable quotative particle"
+          }
+        ],
+        "stem": "nārāṇi",
+        "root": null,
+        "affix": "quoted form + iti",
+        "morph": "quoted naming form plus indeclinable particle",
+        "sandhi": "nārāṇi + iti is preserved as a single printed surface group.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 3,
+        "deva": "विदुर्बुधाः",
+        "iast": "vidurbudhāḥ",
+        "gloss": "the wise know",
+        "parts": [
+          {
+            "form": "viduḥ",
+            "gloss": "know"
+          },
+          {
+            "form": "budhāḥ",
+            "gloss": "the wise"
+          }
+        ],
+        "subwords": [
+          {
+            "form": "viduḥ",
+            "gloss": "know",
+            "stem": "vid",
+            "root": {
+              "form": "√vid",
+              "gana": "gaṇa 2",
+              "pada": "parasmaipada",
+              "gloss": "to know",
+              "dhatupatha": {
+                "base_root": "vid",
+                "locus": "02.0059",
+                "aupadeshika_devanagari": "विदँ",
+                "artha_sanskrit": "ज्ञाने"
+              }
+            },
+            "affix": "laṭ + jhi (prathamapuruṣa bahuvacana)",
+            "morph": "present 3rd person plural verb"
+          },
+          {
+            "form": "budhāḥ",
+            "gloss": "the wise",
+            "stem": "budha",
+            "root": "√budh",
+            "affix": "jas (prathamā bahuvacana)",
+            "morph": "nominative plural masculine adjective/substantive"
+          }
+        ],
+        "stem": "vid + budha",
+        "root": null,
+        "affix": "finite verb plus nominative plural noun surface group",
+        "morph": "finite verb plus subject noun (external sandhi group)",
+        "sandhi": "viduḥ + budhāḥ is printed as vidurbudhāḥ.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/corpus/work/kshiratarangini_transport_repaired_candidate.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 4,
+        "deva": "तान्येव",
+        "iast": "tānyeva",
+        "gloss": "those indeed",
+        "parts": [
+          {
+            "form": "tāni",
+            "gloss": "those"
+          },
+          {
+            "form": "eva",
+            "gloss": "indeed"
+          }
+        ],
+        "subwords": [
+          {
+            "form": "tāni",
+            "gloss": "those",
+            "stem": "tad",
+            "root": null,
+            "affix": "śas (prathamā bahuvacana neuter)",
+            "morph": "nominative plural neuter pronoun"
+          },
+          {
+            "form": "eva",
+            "gloss": "indeed",
+            "stem": "eva",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable particle"
+          }
+        ],
+        "stem": "tad",
+        "root": null,
+        "affix": "pronoun + eva",
+        "morph": "pronoun plus emphatic particle",
+        "sandhi": "tāni + eva is printed as tānyeva.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 5,
+        "deva": "चायनं",
+        "iast": "cāyanaṃ",
+        "gloss": "and resting-place",
+        "parts": [
+          {
+            "form": "ca",
+            "gloss": "and"
+          },
+          {
+            "form": "āyanam",
+            "gloss": "resting-place; resort"
+          }
+        ],
+        "subwords": [
+          {
+            "form": "ca",
+            "gloss": "and",
+            "stem": "ca",
+            "root": null,
+            "affix": "avyaya",
+            "morph": "indeclinable particle"
+          },
+          {
+            "form": "āyanam",
+            "gloss": "resting-place; resort",
+            "stem": "āyana",
+            "root": "√i",
+            "affix": "am (prathamā/dvitīyā ekavacana)",
+            "morph": "nominative singular neuter action/result noun"
+          }
+        ],
+        "stem": "āyana",
+        "root": "√i",
+        "affix": "particle + am",
+        "morph": "indeclinable particle plus neuter noun",
+        "sandhi": "ca + āyanam is printed as cāyanaṃ.",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json",
+            "/Users/eeshan/Dev/prakriya/corpus/work/kshiratarangini_transport_repaired_candidate.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 6,
+        "deva": "तस्य",
+        "iast": "tasya",
+        "gloss": "of him",
+        "parts": [
+          {
+            "form": "tasya",
+            "gloss": "of him"
+          }
+        ],
+        "stem": "tad",
+        "root": null,
+        "affix": "ṅas (ṣaṣṭhī ekavacana)",
+        "morph": "genitive singular pronoun",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 7,
+        "deva": "तेन",
+        "iast": "tena",
+        "gloss": "therefore",
+        "parts": [
+          {
+            "form": "tena",
+            "gloss": "therefore; by that"
+          }
+        ],
+        "stem": "tad",
+        "root": null,
+        "affix": "ṭā (tṛtīyā ekavacana)",
+        "morph": "instrumental singular pronoun used inferentially",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 8,
+        "deva": "नारायणः",
+        "iast": "nārāyaṇaḥ",
+        "gloss": "Nārāyaṇa",
+        "parts": [
+          {
+            "form": "nārāyaṇa",
+            "gloss": "Nārāyaṇa"
+          }
+        ],
+        "stem": "nārāyaṇa",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative singular masculine proper noun",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 9,
+        "deva": "स्मृतः",
+        "iast": "smṛtaḥ",
+        "gloss": "is remembered; is traditionally called",
+        "parts": [
+          {
+            "form": "smṛ",
+            "gloss": "remember; recollect"
+          },
+          {
+            "form": "kta",
+            "gloss": "past passive participle"
+          }
+        ],
+        "stem": "smṛ",
+        "root": {
+          "form": "√smṛ",
+          "gana": "gaṇa 1",
+          "pada": "parasmaipada",
+          "gloss": "to remember; recollect",
+          "dhatupatha": {
+            "base_root": "smṛ",
+            "locus": "01.0919",
+            "aupadeshika_devanagari": "स्मृ",
+            "artha_sanskrit": "आध्याने"
+          }
+        },
+        "affix": "kta + su (prathamā ekavacana)",
+        "morph": "nominative singular masculine past passive participle",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/corpus/work/kshiratarangini_transport_repaired_candidate.txt",
+            "/Users/eeshan/Dev/vedanta-timeline/gita/vishnu-sahasranama/review-shard1-b.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      }
+    ]
+  },
+  "name-245-paragraph-6-span-0": {
+    "quote_id": "name-245-paragraph-6-span-0",
+    "name_number": 245,
+    "printed_devanagari": "करारविन्देन पदारविन्दं मुखारविन्दे विनिवेशयन्तम् । वटस्य पत्रस्य पुटे शयानं बालं मुकुन्दं मनसा स्मरामि ॥",
+    "canonical_devanagari": "करारविन्देन पदारविन्दं मुखारविन्दे विनिवेशयन्तम् वटस्य पत्रस्य पुटे शयानं बालं मुकुन्दं मनसा स्मरामि",
+    "iast": "karāravindena padāravindaṃ mukhāravinde viniveśayantam vaṭasya patrasya puṭe śayānaṃ bālaṃ mukundaṃ manasā smarāmi",
+    "source_label": "Chinmayananda printed devotional verse under name 245",
+    "canonical_locus": "Chinmayananda printed devotional verse; no independent primary locus asserted",
+    "textual_notes": [
+      "The scan is the direct witness for this devotional verse as printed in the commentary."
+    ],
+    "english": "I remember in mind the child Mukunda, lying in the hollow of a banyan leaf, placing his lotus foot into his lotus mouth with his lotus hand",
+    "english_source": "site-literal-translation",
+    "english_slots": "{11:I remember} {10:in mind} {8:the child} {9:Mukunda}, {7:lying} {6:in the hollow} {4:of the banyan} {5:leaf}, {3:placing} {1:the lotus foot} {2:into the lotus mouth} {0:with the lotus hand}",
+    "words": [
+      {
+        "i": 0,
+        "deva": "करारविन्देन",
+        "iast": "karāravindena",
+        "gloss": "with the lotus hand",
+        "parts": [
+          {
+            "form": "kara",
+            "gloss": "hand"
+          },
+          {
+            "form": "aravindena",
+            "gloss": "with a lotus"
+          }
+        ],
+        "stem": "karāravinda",
+        "root": null,
+        "affix": "ṭā (tṛtīyā ekavacana)",
+        "morph": "instrumental singular neuter compound used adjectivally",
+        "compound": {
+          "type": "karmadhāraya",
+          "vigraha": "aravinda iva karaḥ",
+          "members": [
+            "kara",
+            "aravinda"
+          ]
+        },
+        "karaka": "karaṇa",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 1,
+        "deva": "पदारविन्दं",
+        "iast": "padāravindaṃ",
+        "gloss": "the lotus foot",
+        "parts": [
+          {
+            "form": "pada",
+            "gloss": "foot"
+          },
+          {
+            "form": "aravinda",
+            "gloss": "lotus"
+          }
+        ],
+        "stem": "padāravinda",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative singular neuter compound used adjectivally",
+        "compound": {
+          "type": "karmadhāraya",
+          "vigraha": "aravinda iva padaṃ",
+          "members": [
+            "pada",
+            "aravinda"
+          ]
+        },
+        "karaka": "karman of viniveśayantam",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 2,
+        "deva": "मुखारविन्दे",
+        "iast": "mukhāravinde",
+        "gloss": "in the lotus mouth",
+        "parts": [
+          {
+            "form": "mukha",
+            "gloss": "mouth"
+          },
+          {
+            "form": "aravinde",
+            "gloss": "in the lotus"
+          }
+        ],
+        "stem": "mukhāravinda",
+        "root": null,
+        "affix": "ṅi (saptamī ekavacana)",
+        "morph": "locative singular neuter compound used adjectivally",
+        "compound": {
+          "type": "karmadhāraya",
+          "vigraha": "aravinda iva mukhe",
+          "members": [
+            "mukha",
+            "aravinda"
+          ]
+        },
+        "karaka": "adhikaraṇa",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 3,
+        "deva": "विनिवेशयन्तम्",
+        "iast": "viniveśayantam",
+        "gloss": "placing",
+        "parts": [
+          {
+            "form": "vi",
+            "gloss": "apart; distinctly"
+          },
+          {
+            "form": "ni",
+            "gloss": "down; into"
+          },
+          {
+            "form": "veśaya",
+            "gloss": "causing to enter; placing"
+          }
+        ],
+        "stem": "vi-ni-veśaya",
+        "root": {
+          "form": "√viś",
+          "gana": "gaṇa 6",
+          "pada": "parasmaipada",
+          "gloss": "to enter",
+          "dhatupatha": {
+            "base_root": "viś",
+            "locus": "06.0160",
+            "aupadeshika_devanagari": "विशँ",
+            "artha_sanskrit": "प्रवेशने"
+          }
+        },
+        "affix": "ṇic causative + śatṛ + am (dvitīyā ekavacana)",
+        "morph": "accusative singular masculine present active participle",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/corpus/work/kshiratarangini_transport_repaired_candidate.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 4,
+        "deva": "वटस्य",
+        "iast": "vaṭasya",
+        "gloss": "of the banyan",
+        "parts": [
+          {
+            "form": "vaṭa",
+            "gloss": "banyan"
+          }
+        ],
+        "stem": "vaṭa",
+        "root": null,
+        "affix": "ṅas (ṣaṣṭhī ekavacana)",
+        "morph": "genitive singular masculine noun",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 5,
+        "deva": "पत्रस्य",
+        "iast": "patrasya",
+        "gloss": "of the leaf",
+        "parts": [
+          {
+            "form": "patra",
+            "gloss": "leaf"
+          }
+        ],
+        "stem": "patra",
+        "root": null,
+        "affix": "ṅas (ṣaṣṭhī ekavacana)",
+        "morph": "genitive singular neuter noun",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 6,
+        "deva": "पुटे",
+        "iast": "puṭe",
+        "gloss": "in the hollow; fold",
+        "parts": [
+          {
+            "form": "puṭa",
+            "gloss": "hollow; fold"
+          }
+        ],
+        "stem": "puṭa",
+        "root": null,
+        "affix": "ṅi (saptamī ekavacana)",
+        "morph": "locative singular masculine noun",
+        "karaka": "adhikaraṇa",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 7,
+        "deva": "शयानं",
+        "iast": "śayānaṃ",
+        "gloss": "lying",
+        "parts": [
+          {
+            "form": "śī",
+            "gloss": "lie down; repose"
+          },
+          {
+            "form": "śānac",
+            "gloss": "middle present participle"
+          }
+        ],
+        "stem": "śayāna",
+        "root": {
+          "form": "√śī",
+          "gana": "unresolved in this shard; local grammatical witnesses confirm the dhātu identity and ātmanepada usage",
+          "pada": "ātmanepada",
+          "gloss": "to lie down; sleep",
+          "dhatupatha": {
+            "base_root": "śī",
+            "locus": "धा.पा. 1032 (as cited in the local Kāśikā witness)",
+            "aupadeshika_devanagari": "शीङ्",
+            "artha_sanskrit": "स्वप्ने"
+          }
+        },
+        "affix": "śānac + am (dvitīyā ekavacana)",
+        "morph": "accusative singular masculine present middle participle",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/corpus/work/kshiratarangini_transport_repaired_candidate.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 8,
+        "deva": "बालं",
+        "iast": "bālaṃ",
+        "gloss": "the child",
+        "parts": [
+          {
+            "form": "bāla",
+            "gloss": "child"
+          }
+        ],
+        "stem": "bāla",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative singular masculine noun",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 9,
+        "deva": "मुकुन्दं",
+        "iast": "mukundaṃ",
+        "gloss": "Mukunda",
+        "parts": [
+          {
+            "form": "mukunda",
+            "gloss": "Mukunda"
+          }
+        ],
+        "stem": "mukunda",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative singular masculine proper noun",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 10,
+        "deva": "मनसा",
+        "iast": "manasā",
+        "gloss": "with the mind; in mind",
+        "parts": [
+          {
+            "form": "manas",
+            "gloss": "mind"
+          }
+        ],
+        "stem": "manas",
+        "root": null,
+        "affix": "ṭā (tṛtīyā ekavacana)",
+        "morph": "instrumental singular neuter noun",
+        "karaka": "karaṇa",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/raw/upstream_data/kosha/skk.json"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      },
+      {
+        "i": 11,
+        "deva": "स्मरामि",
+        "iast": "smarāmi",
+        "gloss": "I remember",
+        "parts": [
+          {
+            "form": "smṛ",
+            "gloss": "remember"
+          },
+          {
+            "form": "laṭ",
+            "gloss": "present 1st singular"
+          }
+        ],
+        "stem": "smṛ",
+        "root": {
+          "form": "√smṛ",
+          "gana": "gaṇa 1",
+          "pada": "parasmaipada",
+          "gloss": "to remember; recollect",
+          "dhatupatha": {
+            "base_root": "smṛ",
+            "locus": "01.0919",
+            "aupadeshika_devanagari": "स्मृ",
+            "artha_sanskrit": "आध्याने"
+          }
+        },
+        "affix": "laṭ + mip (uttamapuruṣa ekavacana)",
+        "morph": "present 1st person singular verb",
+        "evidence": {
+          "text_witness": "Chinmayananda scan-confirmed printed verse under name 245",
+          "grammar_witnesses": [
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+            "/Users/eeshan/Dev/prakriya/corpus/work/kshiratarangini_transport_repaired_candidate.txt"
+          ],
+          "review_method": "direct source-text derivation; interpreter not used"
+        }
+      }
+    ]
+  }
+}

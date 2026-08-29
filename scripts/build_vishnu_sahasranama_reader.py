@@ -26,6 +26,9 @@ from pathlib import Path
 from indic_transliteration import sanscript
 from indic_transliteration.sanscript import transliterate
 
+from chinmayananda_sanskrit_blocks import promote_non_gita_blocks
+from chinmayananda_inline_sanskrit import ASCII_ACCEPTED_IDS, ASCII_STRUCTURED_IDS, promote_inline_blocks
+
 
 ROOT = Path(__file__).resolve().parents[1]
 BORI_PATH = ROOT / "data/sources/sanskrit/vedanta/vishnu_sahasranama_bori_critical_excerpt.txt"
@@ -85,6 +88,41 @@ def commentary_quote_source_sha256(commentary: dict[int, dict]) -> str:
     ]
     payload = json.dumps(rows, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
     return sha256(payload.encode("utf-8"))
+
+
+SANSKRIT_LETTER_RE = re.compile(r"[\u0900-\u097fāīūṛṝḷṅñṭḍṇśṣṃḥ]")
+LATIN_LETTER_RE = re.compile(r"[A-Za-z]")
+
+
+def block_is_sanskrit_quote(text: str) -> bool:
+    stripped = text.strip()
+    if not stripped:
+        return False
+    if not re.match(r'^[“"‘’\(\s]*[\u0900-\u097f]', stripped):
+        return False
+    return bool(SANSKRIT_LETTER_RE.search(stripped))
+
+
+def block_quote_iast(text: str) -> str | None:
+    stripped = text.strip()
+    if not stripped:
+        return None
+    paren_candidates = re.findall(r"\(([^()]*)\)", stripped)
+    for candidate in paren_candidates:
+        candidate = candidate.strip().strip('"“”‘’')
+        if candidate and LATIN_LETTER_RE.search(candidate) and not re.search(r"[\u0900-\u097f]", candidate):
+            return candidate
+    if not re.search(r"[\u0900-\u097f]", stripped):
+        return None
+    if not LATIN_LETTER_RE.search(stripped):
+        return normalize_iast(transliterate(stripped, sanscript.DEVANAGARI, sanscript.IAST))
+    lead = re.split(r"[A-Za-z]", stripped, maxsplit=1)[0].strip()
+    lead = lead.rstrip("—–-.:;၊।॥, ").strip()
+    if not lead:
+        return None
+    if re.search(r"[\u0900-\u097f]", lead):
+        return normalize_iast(transliterate(lead, sanscript.DEVANAGARI, sanscript.IAST))
+    return None
 
 
 def assert_public_analysis_gate(analysis_path: Path | None) -> None:
@@ -682,11 +720,20 @@ def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_quotes
                     words = reviewed.get("words", [])
                     blocks.append({
                         "type": "gita-quote", "id": quote["id"],
+                        "placement_basis": (
+                            (
+                                "chinmayananda-translation-position"
+                                if reviewed.get("english_source") == "Swami Chinmayananda"
+                                else "printed-romanization-position"
+                            )
+                            if quote["id"] in translated_ids else "printed-source-position"
+                        ),
                         "devanagari": quote["canonical_devanagari"],
                         "iast": quote["canonical_iast"],
                         "english": reviewed.get("english"),
                         "english_slots": reviewed.get("english_slots"),
                         "english_source": reviewed.get("english_source"),
+                        "source_segments": reviewed.get("source_segments"),
                         "words": [quote_word_for_reader(word, index) for index, word in enumerate(words)],
                         "word_analysis_status": "primary-grammar-reviewed" if words else "withheld-pending-primary-grammar-review",
                         "printed_loci": quote["printed_loci"],
@@ -697,7 +744,12 @@ def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_quotes
                 prose = re.sub(r"\s+", " ", piece).strip(" \t\n—–-*†‡")
                 prose = re.sub(r"^[.;:]+[\"”’]*\s*", "", prose)
                 if prose and re.search(r"[A-Za-z\u0900-\u097f]", prose):
-                    blocks.append({"type": "prose", "text": prose})
+                    block = {"type": "prose", "text": prose}
+                    if block_is_sanskrit_quote(prose):
+                        quote_iast = block_quote_iast(prose)
+                        if quote_iast:
+                            block["sanskrit_quote_iast"] = quote_iast
+                    blocks.append(block)
     return blocks
 
 
@@ -766,8 +818,14 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
                 "scan_pages": source["scan_pages"],
                 "verification_status": source["verification_status"],
                 "ocr_notes": source.get("ocr_notes", []),
-                "blocks": build_commentary_blocks(
-                    source["commentary"], quotes_by_name.get(number, []), reviewed_quotes
+                "blocks": promote_inline_blocks(
+                    number,
+                    promote_non_gita_blocks(
+                        number,
+                        build_commentary_blocks(
+                            source["commentary"], quotes_by_name.get(number, []), reviewed_quotes
+                        ),
+                    ),
                 ),
             }
             derivation = traditional_derivation(source["commentary"])
@@ -858,6 +916,24 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
     }
 
 
+INLINE_IAST_TOKEN_RE = re.compile(r"(?<![A-Za-zĀ-ỹÑñ])(?:√)?[A-Za-zĀ-ỹÑñ'’\-]+")
+INLINE_IAST_MARK_RE = re.compile(r"[āīūṛṝḷṅñṭḍṇśṣṃṁḥ]|^√")
+
+
+def unannotated_sanskrit(text: str, annotations: list[dict]) -> bool:
+    remaining = list(text)
+    for annotation in annotations:
+        start, end = int(annotation["start"]), int(annotation["end"])
+        if text[start:end] != annotation.get("text"):
+            return True
+        for index in range(start, end):
+            remaining[index] = " "
+    value = "".join(remaining)
+    if re.search(r"[\u0900-\u097f]", value):
+        return True
+    return any(INLINE_IAST_MARK_RE.search(match.group()) for match in INLINE_IAST_TOKEN_RE.finditer(value))
+
+
 def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bool = True) -> dict:
     errors = []
     commentary_source = {}
@@ -909,6 +985,9 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
         previous_end = end
     names = [name for stanza in stanzas for name in stanza.get("names", [])]
     quote_blocks = []
+    non_gita_quote_blocks = []
+    inline_sanskrit_occurrences = 0
+    ascii_inline_ids = []
     if len(stanzas) != 107:
         errors.append(f"expected 107 stanzas, found {len(stanzas)}")
     if [item.get("number") for item in names] != list(range(1, 1001)):
@@ -972,8 +1051,35 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
             if source and not blocks:
                 errors.append(f"name {number} lacks structured commentary blocks")
             for block in blocks:
-                if block.get("type") == "gita-quote":
-                    quote_blocks.append(block)
+                if block.get("type") == "prose":
+                    annotations = block.get("inline_sanskrit", [])
+                    inline_sanskrit_occurrences += len(annotations)
+                    ascii_inline_ids.extend(
+                        annotation.get("id") for annotation in annotations
+                        if annotation.get("id") in ASCII_ACCEPTED_IDS
+                    )
+                    if unannotated_sanskrit(block.get("text", ""), annotations):
+                        errors.append(f"name {number} prose retains unannotated Sanskrit")
+                    for annotation in annotations:
+                        words = annotation.get("words", [])
+                        word_indices = [word.get("i") for word in words]
+                        if not words or any(index is None for index in word_indices) or len(word_indices) != len(set(word_indices)):
+                            errors.append(f"name {number} inline Sanskrit {annotation.get('id')} lacks uniquely indexed word analysis")
+                        source_segments = annotation.get("source_segments", [])
+                        if "".join(segment.get("text", "") for segment in source_segments) != annotation.get("text"):
+                            errors.append(f"name {number} inline Sanskrit {annotation.get('id')} source segments change the source text")
+                        source_indices = {
+                            int(index)
+                            for segment in source_segments
+                            for index in segment.get("word_indices", [])
+                        }
+                        if source_indices != set(word_indices):
+                            errors.append(f"name {number} inline Sanskrit {annotation.get('id')} source segments do not cover every word")
+                if block.get("type") in ("gita-quote", "sanskrit-quote"):
+                    if block.get("type") == "gita-quote":
+                        quote_blocks.append(block)
+                    else:
+                        non_gita_quote_blocks.append(block)
                     words = block.get("words", [])
                     if not block.get("devanagari") or not block.get("iast") or (require_reviewed_analysis and not words):
                         errors.append(f"name {number} quote {block.get('id')} lacks its three-script source structure")
@@ -984,12 +1090,25 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                     if english:
                         if block.get("english_source") not in ("Swami Chinmayananda", "site-literal-translation"):
                             errors.append(f"name {number} quote {block.get('id')} lacks translation provenance")
+                        allowed_placements = {
+                            "chinmayananda-translation-position",
+                            "printed-romanization-position",
+                            "printed-source-position",
+                        }
+                        if block.get("type") == "gita-quote" and block.get("placement_basis") not in allowed_placements:
+                            errors.append(f"name {number} quote {block.get('id')} lacks a valid placement basis")
+                        if (
+                            block.get("type") == "gita-quote"
+                            and block.get("english_source") == "Swami Chinmayananda"
+                            and block.get("placement_basis") != "chinmayananda-translation-position"
+                        ):
+                            errors.append(f"name {number} quote {block.get('id')} is not placed at Chinmayananda's English")
                         if not slots:
                             errors.append(f"name {number} quote {block.get('id')} lacks interactive English")
                         else:
                             replay = re.sub(r"\{[\d,\s]+:([^}]*)\}", r"\1", slots)
                             if replay != english:
-                                errors.append(f"name {number} quote {block.get('id')} changes Chinmayananda's English")
+                                errors.append(f"name {number} quote {block.get('id')} changes its reviewed English")
                             slot_indices = {
                                 int(value)
                                 for group in re.findall(r"\{([\d,\s]+):", slots)
@@ -1000,6 +1119,19 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                             free_english = re.sub(r"\{[\d,\s]+:[^}]*\}", "", slots)
                             if re.search(r"[A-Za-zÀ-ž]", free_english):
                                 errors.append(f"name {number} quote {block.get('id')} has non-interactive English wording")
+                    source_segments = block.get("source_segments")
+                    if not source_segments:
+                        errors.append(f"name {number} quote {block.get('id')} lacks interactive source-script segments")
+                    elif "".join(segment.get("text", "") for segment in source_segments) != block.get("devanagari"):
+                        errors.append(f"name {number} quote {block.get('id')} source segments change Devanāgarī")
+                    else:
+                        source_indices = {
+                            int(index)
+                            for segment in source_segments
+                            for index in segment.get("word_indices", [])
+                        }
+                        if source_indices != set(range(len(words))):
+                            errors.append(f"name {number} quote {block.get('id')} source segments do not cover every word")
             detail = source.get("detail", "") if source else ""
             opening_excerpt = source.get("opening_excerpt", "") if source else ""
             if opening_excerpt and detail and re.match(
@@ -1015,6 +1147,19 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
     quote_ids = [block.get("id") for block in quote_blocks]
     if require_commentary and (len(quote_ids) != 142 or len(quote_ids) != len(set(quote_ids))):
         raise ValueError(f"structured Gītā quotation population is not exactly 142 unique blocks: {len(quote_ids)}")
+    non_gita_ids = [block.get("id") for block in non_gita_quote_blocks]
+    if require_commentary and (len(non_gita_ids) != 54 or len(non_gita_ids) != len(set(non_gita_ids))):
+        raise ValueError(f"structured non-Gītā quotation population is not exactly 54 unique blocks: {len(non_gita_ids)}")
+    expected_ascii_inline = ASCII_ACCEPTED_IDS - ASCII_STRUCTURED_IDS
+    if require_commentary:
+        if len(ascii_inline_ids) != len(set(ascii_inline_ids)):
+            raise ValueError("reviewed ASCII Sanskrit occurrence ids are duplicated in rendered prose")
+        if set(ascii_inline_ids) != expected_ascii_inline:
+            raise ValueError(
+                "reviewed ASCII Sanskrit render population differs: "
+                f"missing={len(expected_ascii_inline - set(ascii_inline_ids))}, "
+                f"extra={len(set(ascii_inline_ids) - expected_ascii_inline)}"
+            )
     return {
         "preface_units": sum(len(group.get("units", [])) for group in preface_groups),
         "postlude_units": len(postlude),
@@ -1024,6 +1169,11 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
         "with_traditional_derivation": sum("traditional_derivation" in item for item in names),
         "critical_text_differences": sum(bool(stanza.get("critical_text_differs")) for stanza in stanzas),
         "structured_gita_quotes": len(quote_blocks),
+        "structured_non_gita_quotes": len(non_gita_quote_blocks),
+        "interactive_inline_sanskrit_occurrences": inline_sanskrit_occurrences,
+        "reviewed_ascii_sanskrit_occurrences": len(ASCII_ACCEPTED_IDS),
+        "interactive_ascii_sanskrit_in_prose": len(ascii_inline_ids),
+        "ascii_sanskrit_represented_by_structured_blocks": len(ASCII_STRUCTURED_IDS),
         "interactive_gita_translations": sum(bool(block.get("english_slots")) for block in quote_blocks),
         "chinmayananda_gita_translations": sum(block.get("english_source") == "Swami Chinmayananda" for block in quote_blocks),
         "site_literal_gita_translations": sum(block.get("english_source") == "site-literal-translation" for block in quote_blocks),

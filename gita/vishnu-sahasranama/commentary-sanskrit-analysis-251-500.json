@@ -1,0 +1,945 @@
+{
+  "schema_version": 1,
+  "range": {
+    "start": 251,
+    "end": 500
+  },
+  "review_status": "primary-grammar-reviewed-complete",
+  "quotes": {
+    "name-270-paragraph-2-span-0": {
+      "quote_id": "name-270-paragraph-2-span-0",
+      "name_number": 270,
+      "printed_devanagari": "यस्तु सर्वाणि भूतान्यात्मन्येवानुपश्यति । सर्वभूतेषु चात्मानं ततो न विजुगुप्सते ॥",
+      "canonical_devanagari": "यस्तु सर्वाणि भूतान्यात्मन्येवानुपश्यति । सर्वभूतेषु चात्मानं ततो न विजुगुप्सते ॥",
+      "iast": "yas tu sarvāṇi bhūtāny ātmany evānupaśyati | sarvabhūteṣu cātmānaṃ tato na vijugupsate ||",
+      "source_label": "Īśopaniṣad, Kāṇva recension (GRETIL root-text witness)",
+      "canonical_locus": "Īśopaniṣad 6",
+      "textual_notes": [
+        "Printed text matches the local Īśopaniṣad witness.",
+        "Surface word groups preserve the printed sandhi; internal analysis is carried in parts."
+      ],
+      "english": "But he who sees all beings in the Self alone, and the Self in all beings, thereafter does not shrink away.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:But he who }{1:sees all }{2:beings in the Self alone, }{3:and }{4:the Self in all beings, }{5:thereafter }{6:does not }{7:shrink away.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "यस्तु",
+          "iast": "yas tu",
+          "gloss": "but he who",
+          "parts": [
+            {
+              "form": "yad",
+              "gloss": "who; which"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            },
+            {
+              "form": "tu",
+              "gloss": "but"
+            }
+          ],
+          "stem": "yad + tu",
+          "root": null,
+          "affix": "surface sandhi grouping; internal prathamā ekavacana + particle shown in parts",
+          "morph": "relative pronoun + indeclinable particle",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedic/isa_upanisad_gretil.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "सर्वाणि",
+          "iast": "sarvāṇi",
+          "gloss": "all",
+          "parts": [
+            {
+              "form": "sarva",
+              "gloss": "all"
+            },
+            {
+              "form": "śas",
+              "gloss": "śas (dvitīyā bahuvacana)"
+            }
+          ],
+          "stem": "sarva",
+          "root": null,
+          "affix": "śas (dvitīyā bahuvacana)",
+          "morph": "accusative neuter plural adjective",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedic/isa_upanisad_gretil.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "भूतान्यात्मन्येवानुपश्यति ।",
+          "iast": "bhūtāny ātmany evānupaśyati |",
+          "gloss": "beings in the Self alone sees",
+          "parts": [
+            {
+              "form": "bhūta",
+              "gloss": "being"
+            },
+            {
+              "form": "śas",
+              "gloss": "śas (dvitīyā bahuvacana)"
+            },
+            {
+              "form": "ātman",
+              "gloss": "the Self"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "ṅi (saptamī ekavacana)"
+            },
+            {
+              "form": "eva",
+              "gloss": "alone; indeed"
+            },
+            {
+              "form": "anu-√dṛś",
+              "gloss": "see after; behold"
+            },
+            {
+              "form": "laṭ",
+              "gloss": "laṭ + tip (prathamapuruṣa ekavacana)"
+            }
+          ],
+          "stem": "bhūta + ātman + eva + anu-√dṛś",
+          "root": {
+            "form": "√dṛś",
+            "gana": "1",
+            "pada": "P",
+            "gloss": "to see; behold",
+            "dhatupatha": {
+              "locus": "01.1143",
+              "dhatu_devanagari": "दृश्",
+              "aupadeshika_devanagari": "दृशिँर्",
+              "artha_sanskrit": "प्रेक्षणे"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3407-3409"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:25464"
+              ]
+            }
+          },
+          "affix": "mixed surface group; internal śas + ṅi + laṭ + tip shown in parts",
+          "morph": "accusative neuter plural noun + locative masculine singular noun + indeclinable + present indicative 3rd person singular verb",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedic/isa_upanisad_gretil.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "dhatupatha_excerpt": "दृशिँर् प्रेक्षणे",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 3,
+          "deva": "सर्वभूतेषु",
+          "iast": "sarvabhūteṣu",
+          "gloss": "in all beings",
+          "parts": [
+            {
+              "form": "sarva",
+              "gloss": "all"
+            },
+            {
+              "form": "bhūta",
+              "gloss": "being"
+            },
+            {
+              "form": "ṣu",
+              "gloss": "ṣu (saptamī bahuvacana)"
+            }
+          ],
+          "stem": "sarva-bhūta",
+          "root": null,
+          "affix": "ṣu (saptamī bahuvacana)",
+          "morph": "locative masculine plural compound",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedic/isa_upanisad_gretil.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 4,
+          "deva": "चात्मानं",
+          "iast": "cātmānaṃ",
+          "gloss": "and the Self",
+          "parts": [
+            {
+              "form": "ca",
+              "gloss": "and"
+            },
+            {
+              "form": "ātman",
+              "gloss": "the Self"
+            },
+            {
+              "form": "am",
+              "gloss": "am (dvitīyā ekavacana)"
+            }
+          ],
+          "stem": "ca + ātman",
+          "root": null,
+          "affix": "surface sandhi grouping; internal avyaya + am (dvitīyā ekavacana) shown in parts",
+          "morph": "indeclinable + accusative masculine singular noun",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedic/isa_upanisad_gretil.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 5,
+          "deva": "ततो",
+          "iast": "tato",
+          "gloss": "thereafter",
+          "parts": [
+            {
+              "form": "tatas",
+              "gloss": "therefrom; thereafter"
+            }
+          ],
+          "stem": "tatas",
+          "root": null,
+          "affix": "avyaya (indeclinable adverbial form)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedic/isa_upanisad_gretil.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 6,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "not",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedic/isa_upanisad_gretil.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 7,
+          "deva": "विजुगुप्सते ॥",
+          "iast": "vijugupsate ||",
+          "gloss": "shrinks away",
+          "parts": [
+            {
+              "form": "vi-√gup",
+              "gloss": "shrink away from; feel aversion"
+            },
+            {
+              "form": "san + laṭ",
+              "gloss": "desiderative present + ta (prathamapuruṣa ekavacana)"
+            }
+          ],
+          "stem": "vi-jugups",
+          "root": "√gup",
+          "affix": "san + laṭ + ta (prathamapuruṣa ekavacana)",
+          "morph": "desiderative present 3rd person singular ātmanepada verb",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedic/isa_upanisad_gretil.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "dhatupatha_excerpt": "गुपूँ रक्षणे; जुगुप्सायाम्",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "yastu sarvāṇi bhūtānyātmanyevānupaśyati | sarvabhūteṣu cātmānaṃ tato na vijugupsate ||",
+      "source_segments": [
+        {
+          "text": "यस्तु ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "सर्वाणि ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "भूतान्यात्मन्येवानुपश्यति । ",
+          "word_indices": [
+            2
+          ]
+        },
+        {
+          "text": "सर्वभूतेषु ",
+          "word_indices": [
+            3
+          ]
+        },
+        {
+          "text": "चात्मानं ",
+          "word_indices": [
+            4
+          ]
+        },
+        {
+          "text": "ततो ",
+          "word_indices": [
+            5
+          ]
+        },
+        {
+          "text": "न ",
+          "word_indices": [
+            6
+          ]
+        },
+        {
+          "text": "विजुगुप्सते ॥",
+          "word_indices": [
+            7
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-296-paragraph-1-span-0": {
+      "quote_id": "name-296-paragraph-1-span-0",
+      "name_number": 296,
+      "printed_devanagari": "शान्तं शिवं सुन्दरम् ।",
+      "canonical_devanagari": "शान्तं शिवं सुन्दरम् ।",
+      "iast": "śāntaṃ śivaṃ sundaram |",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental (printed phrase witness)",
+      "canonical_locus": "Chinmayananda printed formula/phrase; no independent primary locus asserted",
+      "textual_notes": [
+        "Canonical Devanāgarī follows Chinmayananda's printed phrase exactly; no independent primary locus is asserted for this line.",
+        "Māṇḍūkya Upaniṣad 7 gives the related but different triad śāntaṃ śivam advaitam; this row preserves Chinmayananda's printed sundaram."
+      ],
+      "english": "peaceful, auspicious, beautiful.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:peaceful, }{1:auspicious, }{2:beautiful.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "शान्तं",
+          "iast": "śāntaṃ",
+          "gloss": "peaceful",
+          "parts": [
+            {
+              "form": "śānta",
+              "gloss": "peaceful; stilled"
+            },
+            {
+              "form": "am",
+              "gloss": "am (dvitīyā ekavacana)"
+            }
+          ],
+          "stem": "śānta",
+          "root": null,
+          "affix": "am (dvitīyā ekavacana)",
+          "morph": "accusative neuter singular adjective",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "supporting_internal_analysis": "gita/vishnu-sahasranama/analysis.json number 582",
+            "review_method": "Chinmayananda printed phrase checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "शिवं",
+          "iast": "śivaṃ",
+          "gloss": "auspicious",
+          "parts": [
+            {
+              "form": "śiva",
+              "gloss": "auspicious; gracious; beneficent"
+            },
+            {
+              "form": "am",
+              "gloss": "am (dvitīyā ekavacana)"
+            }
+          ],
+          "stem": "śiva",
+          "root": null,
+          "affix": "am (dvitīyā ekavacana)",
+          "morph": "accusative neuter singular adjective",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "supporting_internal_analysis": "gita/vishnu-sahasranama/analysis.json number 27",
+            "review_method": "Chinmayananda printed phrase checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "सुन्दरम् ।",
+          "iast": "sundaram |",
+          "gloss": "beautiful",
+          "parts": [
+            {
+              "form": "sundara",
+              "gloss": "beautiful"
+            },
+            {
+              "form": "am",
+              "gloss": "am (dvitīyā ekavacana)"
+            }
+          ],
+          "stem": "sundara",
+          "root": null,
+          "affix": "am (dvitīyā ekavacana)",
+          "morph": "accusative neuter singular adjective",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "supporting_internal_analysis": "gita/vishnu-sahasranama/analysis.json number 791",
+            "review_method": "Chinmayananda printed phrase checked directly; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "śāntaṃ śivaṃ sundaram |",
+      "source_segments": [
+        {
+          "text": "शान्तं ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "शिवं ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "सुन्दरम् ।",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-299-paragraph-1-span-0": {
+      "quote_id": "name-299-paragraph-1-span-0",
+      "name_number": 299,
+      "printed_devanagari": "गतिभर्ता प्रभुः साक्षी।",
+      "canonical_devanagari": "गतिर्भर्ता प्रभुः साक्षी",
+      "iast": "gatir bhartā prabhuḥ sākṣī",
+      "source_label": "Bhagavadgītā, BORI critical text (GRETIL)",
+      "canonical_locus": "Gītā 9.18a",
+      "textual_notes": [
+        "Chinmayananda prints गतिभर्ता; the local Gītā witness reads the sandhied form गतिर्भर्ता.",
+        "Surface word groups preserve the canonical witness grouping for replay."
+      ],
+      "english": "the goal and sustainer, the Lord, the witness",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:the goal and sustainer, }{1:the Lord, }{2:the witness}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "गतिर्भर्ता",
+          "iast": "gatir bhartā",
+          "gloss": "the goal and sustainer",
+          "parts": [
+            {
+              "form": "gati",
+              "gloss": "goal; course"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            },
+            {
+              "form": "bhartṛ",
+              "gloss": "supporter; sustainer"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "gati + bhartṛ",
+          "root": "√bhṛ",
+          "affix": "surface sandhi grouping; internal su + su shown in parts",
+          "morph": "nominative feminine singular noun + nominative masculine singular noun",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "प्रभुः",
+          "iast": "prabhuḥ",
+          "gloss": "the Lord",
+          "parts": [
+            {
+              "form": "prabhu",
+              "gloss": "lord; master"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "prabhu",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "साक्षी",
+          "iast": "sākṣī",
+          "gloss": "the witness",
+          "parts": [
+            {
+              "form": "sākṣin",
+              "gloss": "witness"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "sākṣin",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "primary witness checked directly; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "gatirbhartā prabhuḥ sākṣī",
+      "source_segments": [
+        {
+          "text": "गतिर्भर्ता ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "प्रभुः ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "साक्षी",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-375-paragraph-1-span-0": {
+      "quote_id": "name-375-paragraph-1-span-0",
+      "name_number": 375,
+      "printed_devanagari": "दीव्यति इति देवः",
+      "canonical_devanagari": "दीव्यति इति देवः",
+      "iast": "dīvyati iti devaḥ",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental (printed formula witness)",
+      "canonical_locus": "Chinmayananda printed formula/phrase; no independent primary locus asserted",
+      "textual_notes": [
+        "Canonical Devanāgarī follows Chinmayananda's printed formula exactly; no independent primary locus is asserted for this line.",
+        "The nearby thematic appeal to Śvetāśvatara supports the commentary context, but not this exact derivational phrase as an external locus."
+      ],
+      "english": "it sports, thus the shining one.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:it sports, }{1:thus }{2:the shining one.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "दीव्यति",
+          "iast": "dīvyati",
+          "gloss": "it sports",
+          "parts": [
+            {
+              "form": "√div",
+              "gloss": "sport; shine"
+            },
+            {
+              "form": "laṭ",
+              "gloss": "laṭ + tip (prathamapuruṣa ekavacana)"
+            }
+          ],
+          "stem": "√div",
+          "root": {
+            "form": "√div",
+            "gana": "4",
+            "pada": "P",
+            "gloss": "to sport; shine",
+            "dhatupatha": {
+              "locus": "04.0001",
+              "dhatu_devanagari": "दिव्",
+              "aupadeshika_devanagari": "दिवुँ",
+              "artha_sanskrit": "क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3786-3788"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:28628"
+              ]
+            }
+          },
+          "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+          "morph": "present indicative 3rd person singular verb",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "dhatupatha_excerpt": "दिवुँ क्रीडाविजिगीषाव्यवहारद्युतिस्तुतिमोदमदस्वप्नकान्तिगतिषु",
+            "review_method": "Chinmayananda printed formula checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus; so"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "Chinmayananda printed formula checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "देवः",
+          "iast": "devaḥ",
+          "gloss": "the shining one",
+          "parts": [
+            {
+              "form": "deva",
+              "gloss": "deity; shining one"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "deva",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "supporting_internal_analysis": "gita/vishnu-sahasranama/analysis.json number 375",
+            "review_method": "Chinmayananda printed formula checked directly; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "dīvyati iti devaḥ",
+      "source_segments": [
+        {
+          "text": "दीव्यति ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "देवः",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-418-paragraph-1-span-0": {
+      "quote_id": "name-418-paragraph-1-span-0",
+      "name_number": 418,
+      "printed_devanagari": "कलयति इति कालः",
+      "canonical_devanagari": "कलयति इति कालः",
+      "iast": "kalayati iti kālaḥ",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental (printed formula witness)",
+      "canonical_locus": "Chinmayananda printed formula/phrase; no independent primary locus asserted",
+      "textual_notes": [
+        "Canonical Devanāgarī follows Chinmayananda's printed formula exactly; no independent primary locus is asserted for this line.",
+        "Bhagavadgītā 10.30 gives the related external phrase kālaḥ kalayatām aham, but this row preserves Chinmayananda's printed derivational formula."
+      ],
+      "english": "he counts, thus Time.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:he counts, }{1:thus }{2:Time.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "कलयति",
+          "iast": "kalayati",
+          "gloss": "he counts",
+          "parts": [
+            {
+              "form": "√kal",
+              "gloss": "count; enumerate"
+            },
+            {
+              "form": "ṇic + laṭ",
+              "gloss": "causative/present formation + tip (prathamapuruṣa ekavacana)"
+            }
+          ],
+          "stem": "kalaya",
+          "root": {
+            "form": "√kal",
+            "gana": "1",
+            "pada": "A",
+            "gloss": "to count; enumerate",
+            "dhatupatha": {
+              "locus": "01.0570",
+              "dhatu_devanagari": "कल्",
+              "aupadeshika_devanagari": "कलँ",
+              "artha_sanskrit": "शब्दसङ्ख्यानयोः"
+            },
+            "evidence": {
+              "primary_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1708-1710"
+              ],
+              "raw_loci": [
+                "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:12312"
+              ]
+            },
+            "note": "Selected over the gaṇa-10 कलँ “to throw” because the attested sense here is counting."
+          },
+          "affix": "ṇic + laṭ + tip (prathamapuruṣa ekavacana)",
+          "morph": "present indicative 3rd person singular verb",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "dhatupatha_excerpt": "कलँ शब्दसङ्ख्यानयोः",
+            "review_method": "Chinmayananda printed formula checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus; so"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "Chinmayananda printed formula checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "कालः",
+          "iast": "kālaḥ",
+          "gloss": "Time",
+          "parts": [
+            {
+              "form": "kāla",
+              "gloss": "time"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "kāla",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "supporting_internal_analysis": "gita/vishnu-sahasranama/analysis.json number 418",
+            "review_method": "Chinmayananda printed formula checked directly; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "kalayati iti kālaḥ",
+      "source_segments": [
+        {
+          "text": "कलयति ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "कालः",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    },
+    "name-444-paragraph-1-span-0": {
+      "quote_id": "name-444-paragraph-1-span-0",
+      "name_number": 444,
+      "printed_devanagari": "सम्यगीहत इति समीहनः",
+      "canonical_devanagari": "सम्यगीहत इति समीहनः",
+      "iast": "samyagīhata iti samīhanaḥ",
+      "source_label": "Swami Chinmayananda, Thousand Ways to the Transcendental (printed formula witness)",
+      "canonical_locus": "Chinmayananda printed formula/phrase; no independent primary locus asserted",
+      "textual_notes": [
+        "Canonical Devanāgarī follows Chinmayananda's printed formula exactly; no independent primary locus is asserted for this line.",
+        "The internal force of सम्यगीहत is kept conservative: the printed surface is preserved exactly, and the analysis follows the commentary's own 'Wishing well' explanation without asserting a stronger external derivation."
+      ],
+      "english": "rightly-desiring, thus the well-wisher.",
+      "english_source": "site-literal-translation",
+      "english_slots": "{0:rightly-desiring, }{1:thus }{2:the well-wisher.}",
+      "words": [
+        {
+          "i": 0,
+          "deva": "सम्यगीहत",
+          "iast": "samyagīhata",
+          "gloss": "rightly-desiring",
+          "parts": [
+            {
+              "form": "samyak",
+              "gloss": "rightly; well"
+            },
+            {
+              "form": "īhata",
+              "gloss": "desiring; striving"
+            }
+          ],
+          "stem": "samyag-īhata",
+          "root": "√īh",
+          "affix": "printed adjectival derivational form; internal force kept conservative",
+          "morph": "compound adjectival form used in the printed derivation",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "dhatupatha_excerpt": "ईहँ चेष्टायाम्",
+            "review_method": "Chinmayananda printed formula checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus; so"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+          "morph": "indeclinable (avyaya)",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "review_method": "Chinmayananda printed formula checked directly; interpreter not used"
+          }
+        },
+        {
+          "i": 2,
+          "deva": "समीहनः",
+          "iast": "samīhanaḥ",
+          "gloss": "the well-wisher",
+          "parts": [
+            {
+              "form": "samīhana",
+              "gloss": "well-wisher; one whose desiring is auspicious"
+            },
+            {
+              "form": "su",
+              "gloss": "su (prathamā ekavacana)"
+            }
+          ],
+          "stem": "samīhana",
+          "root": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative masculine singular noun",
+          "evidence": {
+            "witness": "gita/vishnu-sahasranama/chinmayananda.json",
+            "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+            "supporting_internal_analysis": "gita/vishnu-sahasranama/analysis.json number 444",
+            "review_method": "Chinmayananda printed formula checked directly; interpreter not used"
+          }
+        }
+      ],
+      "source_iast": "samyagīhata iti samīhanaḥ",
+      "source_segments": [
+        {
+          "text": "सम्यगीहत ",
+          "word_indices": [
+            0
+          ]
+        },
+        {
+          "text": "इति ",
+          "word_indices": [
+            1
+          ]
+        },
+        {
+          "text": "समीहनः",
+          "word_indices": [
+            2
+          ]
+        }
+      ],
+      "source_alignment_score": 1.0
+    }
+  },
+  "withheld": {}
+}

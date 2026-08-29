@@ -1,0 +1,1276 @@
+{
+  "name-63-paragraph-1-span-0": {
+    "quote_id": "name-63-paragraph-1-span-0",
+    "name_number": 63,
+    "printed_devanagari": "अशुभानि निराचष्टे तनोति शुभसन्ततिम् । स्मृतिमात्रेण यत्पुंसां ब्रह्म तन्मङ्गलं विदुः ॥",
+    "canonical_devanagari": "अशुभानि निराचष्टे तनोति शुभसन्ततिम् स्मृतिमात्रेण यत्पुंसां ब्रह्म तन्मङ्गलं विदुः",
+    "iast": "aśubhāni nirācaṣṭe tanoti śubhasantatim smṛtimātreṇa yatpuṃsāṃ brahma tanmaṅgalaṃ viduḥ",
+    "source_label": "Chinmayananda printed citation under name 63",
+    "canonical_locus": "Printed by Chinmayananda as an Upaniṣadic citation; no narrower on-disk primary-text locus was verified in this review",
+    "textual_notes": [
+      "Printed exactly as in the Chinmayananda commentary.",
+      "No direct match for the full verse was found in the local primary-text corpus used for this review, so the broader 'Upaniṣad' attribution is preserved only as Chinmayananda's claim."
+    ],
+    "english": "They know that Brahman, which for men, by mere remembrance, removes inauspicious things and extends the auspicious succession, as that auspiciousness.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{8:They know }{6:that Brahman, }{5:which for men, }{4:by mere remembrance, }{0:inauspicious things }{1:removes }{2:and extends }{3:the auspicious succession, }{7:as that auspiciousness.}",
+    "words": [
+      {
+        "i": 0,
+        "deva": "अशुभानि",
+        "iast": "aśubhāni",
+        "gloss": "inauspicious things",
+        "parts": [
+          {
+            "form": "a",
+            "gloss": "not, un-"
+          },
+          {
+            "form": "śubha",
+            "gloss": "auspicious, fortunate"
+          },
+          {
+            "form": "śas",
+            "gloss": "accusative plural ending"
+          }
+        ],
+        "stem": "aśubha",
+        "root": null,
+        "affix": "śas (dvitīyā bahuvacana)",
+        "morph": "accusative neuter plural adjective used substantively",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 63",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "निराचष्टे",
+        "iast": "nirācaṣṭe",
+        "gloss": "removes",
+        "parts": [
+          {
+            "form": "nir",
+            "gloss": "out, away"
+          },
+          {
+            "form": "ā",
+            "gloss": "forth, fully"
+          },
+          {
+            "form": "√cakṣ",
+            "gloss": "speak, declare"
+          },
+          {
+            "form": "laṭ + ta",
+            "gloss": "present 3rd singular ātmanepada ending"
+          }
+        ],
+        "stem": "nir-ā-√cakṣ",
+        "root": "√cakṣ",
+        "affix": "laṭ + ta (prathamapuruṣa ekavacana)",
+        "morph": "present 3rd person singular ātmanepada verb",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 63",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "चक्ष् चक्षिङ् व्यक्तायां वाचि",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "तनोति",
+        "iast": "tanoti",
+        "gloss": "extends",
+        "parts": [
+          {
+            "form": "√tan",
+            "gloss": "stretch, extend"
+          },
+          {
+            "form": "laṭ + tip",
+            "gloss": "present 3rd singular parasmaipada ending"
+          }
+        ],
+        "stem": "√tan",
+        "root": "√tan",
+        "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+        "morph": "present 3rd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 63",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "तन् तनुँ विस्तारे",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "शुभसन्ततिम्",
+        "iast": "śubhasantatim",
+        "gloss": "the auspicious succession",
+        "parts": [
+          {
+            "form": "śubha",
+            "gloss": "auspicious"
+          },
+          {
+            "form": "santati",
+            "gloss": "continuity, succession"
+          },
+          {
+            "form": "am",
+            "gloss": "accusative singular ending"
+          }
+        ],
+        "stem": "śubhasantati",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative feminine singular compound noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 63",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 4,
+        "deva": "स्मृतिमात्रेण",
+        "iast": "smṛtimātreṇa",
+        "gloss": "by mere remembrance",
+        "parts": [
+          {
+            "form": "smṛti",
+            "gloss": "remembrance"
+          },
+          {
+            "form": "mātra",
+            "gloss": "mere, only"
+          },
+          {
+            "form": "ṭā",
+            "gloss": "instrumental singular ending"
+          }
+        ],
+        "stem": "smṛtimātra",
+        "root": null,
+        "affix": "ṭā (tṛtīyā ekavacana)",
+        "morph": "instrumental singular neuter compound noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 63",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 5,
+        "deva": "यत्पुंसां",
+        "iast": "yat puṃsām",
+        "gloss": "which for men",
+        "parts": [
+          {
+            "form": "yad",
+            "gloss": "which"
+          },
+          {
+            "form": "puṃs",
+            "gloss": "man, person"
+          },
+          {
+            "form": "ām",
+            "gloss": "genitive plural ending"
+          }
+        ],
+        "stem": "yad + puṃs",
+        "root": null,
+        "affix": "surface sandhi grouping; internal neuter singular relative pronoun + ām (ṣaṣṭhī bahuvacana) shown in parts",
+        "morph": "relative pronoun + genitive masculine plural noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 63",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 6,
+        "deva": "ब्रह्म",
+        "iast": "brahma",
+        "gloss": "that Brahman",
+        "parts": [
+          {
+            "form": "brahman",
+            "gloss": "Brahman"
+          }
+        ],
+        "stem": "brahman",
+        "root": null,
+        "affix": "accusative singular neuter surface form",
+        "morph": "accusative singular neuter noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 63",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 7,
+        "deva": "तन्मङ्गलं",
+        "iast": "tan maṅgalaṃ",
+        "gloss": "that auspiciousness",
+        "parts": [
+          {
+            "form": "tad",
+            "gloss": "that"
+          },
+          {
+            "form": "maṅgala",
+            "gloss": "auspiciousness, blessing"
+          },
+          {
+            "form": "am",
+            "gloss": "accusative singular ending"
+          }
+        ],
+        "stem": "tad + maṅgala",
+        "root": null,
+        "affix": "surface sandhi grouping; internal pronoun + am (dvitīyā ekavacana) shown in parts",
+        "morph": "pronoun + accusative singular neuter noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 63",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 8,
+        "deva": "विदुः",
+        "iast": "viduḥ",
+        "gloss": "they know",
+        "parts": [
+          {
+            "form": "√vid",
+            "gloss": "know"
+          },
+          {
+            "form": "laṭ + jhi",
+            "gloss": "present 3rd plural parasmaipada ending"
+          }
+        ],
+        "stem": "√vid",
+        "root": "√vid",
+        "affix": "laṭ + jhi (prathamapuruṣa bahuvacana)",
+        "morph": "present 3rd person plural parasmaipada verb",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 63",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "विद् विदँ ज्ञाने",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-70-paragraph-2-span-0": {
+    "quote_id": "name-70-paragraph-2-span-0",
+    "name_number": 70,
+    "printed_devanagari": "हिरण्यगर्भः समवर्तताग्रे।",
+    "canonical_devanagari": "हिरण्यगर्भः समवर्तताग्रे",
+    "iast": "hiraṇyagarbhaḥ samavartatāgre",
+    "source_label": "Ṛgveda 10.121.1a (GRETIL/Aufrecht witness on disk)",
+    "canonical_locus": "Ṛgveda 10.121.1a",
+    "textual_notes": [
+      "The commentary prints the surface group समवर्तताग्रे.",
+      "The local Ṛgveda witness reads hiraṇyagarbhaḥ sam avartatāgre, and the word analysis preserves that internal split."
+    ],
+    "english": "The golden embryo came into being in the beginning.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{0:The golden embryo }{1:came into being in the beginning.}",
+    "words": [
+      {
+        "i": 0,
+        "deva": "हिरण्यगर्भः",
+        "iast": "hiraṇyagarbhaḥ",
+        "gloss": "the golden embryo",
+        "parts": [
+          {
+            "form": "hiraṇya",
+            "gloss": "golden"
+          },
+          {
+            "form": "garbha",
+            "gloss": "embryo, womb"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          }
+        ],
+        "stem": "hiraṇyagarbha",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative singular masculine compound noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/rigveda_aufrecht_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Primary witness checked directly; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "समवर्तताग्रे",
+        "iast": "sam avartata agre",
+        "gloss": "came into being in the beginning",
+        "parts": [
+          {
+            "form": "sam",
+            "gloss": "together, completely"
+          },
+          {
+            "form": "ava",
+            "gloss": "down, forth"
+          },
+          {
+            "form": "√vṛt",
+            "gloss": "turn, become"
+          },
+          {
+            "form": "laṅ + ta",
+            "gloss": "past 3rd singular ātmanepada ending"
+          },
+          {
+            "form": "agra",
+            "gloss": "beginning, forefront"
+          },
+          {
+            "form": "ṅi",
+            "gloss": "locative singular ending"
+          }
+        ],
+        "stem": "sam + ava + √vṛt + agra",
+        "root": "√vṛt",
+        "affix": "surface sandhi grouping; internal laṅ + ta and ṅi shown in parts",
+        "morph": "past 3rd person singular ātmanepada verb + locative singular noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/rigveda_aufrecht_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "वृत् वृतुँ वर्तने",
+          "review_method": "Primary witness checked directly; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-72-paragraph-2-span-0": {
+    "quote_id": "name-72-paragraph-2-span-0",
+    "name_number": 72,
+    "printed_devanagari": "मधुविद्यावबोधत्वाद् धवत्वाद्वा श्रियोऽनिशम् । मौनाद् ध्यानाच्च योगाच्च विद्धि भारत माधवम् ॥",
+    "canonical_devanagari": "मधुविद्यावबोधत्वाद् धवत्वाद्वा श्रियोऽनिशम् मौनाद् ध्यानाच्च योगाच्च विद्धि भारत माधवम्",
+    "iast": "madhuvidyāvabodhatvād dhavatvādvā śriyo'niśam maunād dhyānācca yogācca viddhi bhārata mādhavam",
+    "source_label": "Chinmayananda printed citation with attribution to Mahābhārata, Udyoga Parva",
+    "canonical_locus": "Mahābhārata, Udyoga Parva (printed attribution in Chinmayananda; not independently collated against a separate Mahābhārata witness in this review)",
+    "textual_notes": [
+      "Printed exactly as in the Chinmayananda commentary.",
+      "The Mahābhārata, Udyoga Parva attribution is preserved from Chinmayananda; this review did not find or collate a separate on-disk witness for the full line."
+    ],
+    "english": "Because of understanding the Madhu-vidyā, or because of always being Śrī's husband, because of silence, and because of meditation, and because of yoga, know Mādhava, O Bhārata.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{0:Because of understanding the Madhu-vidyā, }{1:or because of being a husband }{2:of Śrī always, }{3:because of silence, }{4:and because of meditation, }{5:and because of yoga, }{6:know }{8:Mādhava, }{7:O Bhārata.}",
+    "words": [
+      {
+        "i": 0,
+        "deva": "मधुविद्यावबोधत्वाद्",
+        "iast": "madhuvidyāvabodhatvād",
+        "gloss": "because of understanding the Madhu-vidyā",
+        "parts": [
+          {
+            "form": "madhu",
+            "gloss": "Madhu, honey"
+          },
+          {
+            "form": "vidyā",
+            "gloss": "knowledge, teaching"
+          },
+          {
+            "form": "avabodha",
+            "gloss": "understanding, awakening"
+          },
+          {
+            "form": "tva",
+            "gloss": "state, -ness"
+          },
+          {
+            "form": "ṅasi",
+            "gloss": "ablative singular ending"
+          }
+        ],
+        "stem": "madhuvidyāvabodhatva",
+        "root": "√budh",
+        "affix": "ṅasi (pañcamī ekavacana) on abstract noun in -tva",
+        "morph": "ablative singular neuter abstract compound noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 72",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "बुध् बुधँ अवगमने",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "धवत्वाद्वा",
+        "iast": "dhavatvād vā",
+        "gloss": "or because of being a husband",
+        "parts": [
+          {
+            "form": "dhava",
+            "gloss": "husband"
+          },
+          {
+            "form": "tva",
+            "gloss": "state, -ness"
+          },
+          {
+            "form": "ṅasi",
+            "gloss": "ablative singular ending"
+          },
+          {
+            "form": "vā",
+            "gloss": "or"
+          }
+        ],
+        "stem": "dhavatva + vā",
+        "root": null,
+        "affix": "surface sandhi grouping; internal ṅasi (pañcamī ekavacana) + vā shown in parts",
+        "morph": "ablative singular neuter abstract noun + indeclinable",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 72",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "श्रियोऽनिशम्",
+        "iast": "śriyaḥ aniśam",
+        "gloss": "of Śrī always",
+        "parts": [
+          {
+            "form": "śrī",
+            "gloss": "Śrī"
+          },
+          {
+            "form": "ṅas",
+            "gloss": "genitive singular ending"
+          },
+          {
+            "form": "aniśam",
+            "gloss": "always, constantly"
+          }
+        ],
+        "stem": "śrī + aniśam",
+        "root": null,
+        "affix": "surface sandhi grouping; internal ṅas (ṣaṣṭhī ekavacana) + avyaya shown in parts",
+        "morph": "genitive singular feminine noun + indeclinable",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 72",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "मौनाद्",
+        "iast": "maunād",
+        "gloss": "because of silence",
+        "parts": [
+          {
+            "form": "mauna",
+            "gloss": "silence"
+          },
+          {
+            "form": "ṅasi",
+            "gloss": "ablative singular ending"
+          }
+        ],
+        "stem": "mauna",
+        "root": null,
+        "affix": "ṅasi (pañcamī ekavacana)",
+        "morph": "ablative singular neuter noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 72",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 4,
+        "deva": "ध्यानाच्च",
+        "iast": "dhyānāt ca",
+        "gloss": "and because of meditation",
+        "parts": [
+          {
+            "form": "dhyāna",
+            "gloss": "meditation"
+          },
+          {
+            "form": "ṅasi",
+            "gloss": "ablative singular ending"
+          },
+          {
+            "form": "ca",
+            "gloss": "and"
+          }
+        ],
+        "stem": "dhyāna + ca",
+        "root": null,
+        "affix": "surface sandhi grouping; internal ṅasi (pañcamī ekavacana) + ca shown in parts",
+        "morph": "ablative singular neuter noun + indeclinable",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 72",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 5,
+        "deva": "योगाच्च",
+        "iast": "yogāt ca",
+        "gloss": "and because of yoga",
+        "parts": [
+          {
+            "form": "yoga",
+            "gloss": "yoga"
+          },
+          {
+            "form": "ṅasi",
+            "gloss": "ablative singular ending"
+          },
+          {
+            "form": "ca",
+            "gloss": "and"
+          }
+        ],
+        "stem": "yoga + ca",
+        "root": null,
+        "affix": "surface sandhi grouping; internal ṅasi (pañcamī ekavacana) + ca shown in parts",
+        "morph": "ablative singular masculine noun + indeclinable",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 72",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 6,
+        "deva": "विद्धि",
+        "iast": "viddhi",
+        "gloss": "know",
+        "parts": [
+          {
+            "form": "√vid",
+            "gloss": "know"
+          },
+          {
+            "form": "loṭ + hi",
+            "gloss": "imperative 2nd singular parasmaipada ending"
+          }
+        ],
+        "stem": "√vid",
+        "root": "√vid",
+        "affix": "loṭ + hi (madhyamapuruṣa ekavacana)",
+        "morph": "imperative 2nd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 72",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "विद् विदँ ज्ञाने",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 7,
+        "deva": "भारत",
+        "iast": "bhārata",
+        "gloss": "O Bhārata",
+        "parts": [
+          {
+            "form": "bhārata",
+            "gloss": "Bhārata"
+          },
+          {
+            "form": "su",
+            "gloss": "vocative singular ending, surface-zero in address"
+          }
+        ],
+        "stem": "bhārata",
+        "root": null,
+        "affix": "su (sambodhana ekavacana; surface zero ending)",
+        "morph": "vocative singular masculine noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 72",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 8,
+        "deva": "माधवम्",
+        "iast": "mādhavam",
+        "gloss": "Mādhava",
+        "parts": [
+          {
+            "form": "mādhava",
+            "gloss": "Mādhava"
+          },
+          {
+            "form": "am",
+            "gloss": "accusative singular ending"
+          }
+        ],
+        "stem": "mādhava",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative singular masculine noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 72",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-85-paragraph-2-span-0": {
+    "quote_id": "name-85-paragraph-2-span-0",
+    "name_number": 85,
+    "printed_devanagari": "सु ष्ठु राति ददाति इति सुरः।",
+    "canonical_devanagari": "सु ष्ठु राति ददाति इति सुरः",
+    "iast": "su ṣṭhu rāti dadāti iti suraḥ",
+    "source_label": "Chinmayananda printed derivational formula under name 85",
+    "canonical_locus": "Printed derivational formula in Chinmayananda; no separate on-disk primary-text locus was verified in this review",
+    "textual_notes": [
+      "The commentary prints this as a derivational formula rather than as a running metrical citation.",
+      "No independent primary-text witness for the full formula was found in the local corpus used for this review."
+    ],
+    "english": "\"su\": well; \"ṣṭhu\": thoroughly; \"rāti\": gives; \"dadāti\": gives; thus: \"suraḥ\".",
+    "english_source": "site-literal-translation",
+    "english_slots": "{0:\"su\": well; }{1:\"ṣṭhu\": thoroughly; }{2:\"rāti\": gives; }{3:\"dadāti\": gives; }{4:thus: }{5:\"suraḥ\".}",
+    "words": [
+      {
+        "i": 0,
+        "deva": "सु",
+        "iast": "su",
+        "gloss": "well",
+        "parts": [
+          {
+            "form": "su",
+            "gloss": "well"
+          }
+        ],
+        "stem": "su",
+        "root": null,
+        "affix": "indeclinable particle/prefix",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 85",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "ष्ठु",
+        "iast": "ṣṭhu",
+        "gloss": "thoroughly",
+        "parts": [
+          {
+            "form": "ṣṭhu",
+            "gloss": "thoroughly, excellently"
+          }
+        ],
+        "stem": "ṣṭhu",
+        "root": null,
+        "affix": "indeclinable adverb",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 85",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "राति",
+        "iast": "rāti",
+        "gloss": "gives",
+        "parts": [
+          {
+            "form": "√rā",
+            "gloss": "give, bestow"
+          },
+          {
+            "form": "laṭ + tip",
+            "gloss": "present 3rd singular parasmaipada ending"
+          }
+        ],
+        "stem": "√rā",
+        "root": "√rā",
+        "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+        "morph": "present 3rd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 85",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "रा रा दाने",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "ददाति",
+        "iast": "dadāti",
+        "gloss": "gives",
+        "parts": [
+          {
+            "form": "√dā",
+            "gloss": "give"
+          },
+          {
+            "form": "laṭ + tip",
+            "gloss": "present 3rd singular parasmaipada ending"
+          }
+        ],
+        "stem": "√dā",
+        "root": "√dā",
+        "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+        "morph": "present 3rd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 85",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "दा डुदाञ् दाने",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 4,
+        "deva": "इति",
+        "iast": "iti",
+        "gloss": "thus",
+        "parts": [
+          {
+            "form": "iti",
+            "gloss": "thus, so"
+          }
+        ],
+        "stem": "iti",
+        "root": null,
+        "affix": "indeclinable quotative particle",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 85",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 5,
+        "deva": "सुरः",
+        "iast": "suraḥ",
+        "gloss": "sura",
+        "parts": [
+          {
+            "form": "sura",
+            "gloss": "sura"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          }
+        ],
+        "stem": "sura",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative singular masculine noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 85",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-86-paragraph-2-span-0": {
+    "quote_id": "name-86-paragraph-2-span-0",
+    "name_number": 86,
+    "printed_devanagari": "निवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः।",
+    "canonical_devanagari": "निवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः",
+    "iast": "nivasiṣyasi mayyeva ata ūrdhvaṃ na saṃśayaḥ",
+    "source_label": "Bhagavad Gītā 12.8c (BORI/GRETIL root-text witness on disk)",
+    "canonical_locus": "Bhagavad Gītā 12.8c",
+    "textual_notes": [
+      "The commentary prints मय्येव as one surface group.",
+      "The local Bhagavad Gītā witness reads mayy eva, and the word analysis preserves that internal split."
+    ],
+    "english": "You will dwell in me alone from then onward; there is no doubt.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{0:You will dwell }{1:in me alone }{2:from then }{3:onward; }{4:there is no }{5:doubt.}",
+    "words": [
+      {
+        "i": 0,
+        "deva": "निवसिष्यसि",
+        "iast": "nivasiṣyasi",
+        "gloss": "you will dwell",
+        "parts": [
+          {
+            "form": "ni",
+            "gloss": "into, down, within"
+          },
+          {
+            "form": "√vas",
+            "gloss": "dwell, abide"
+          },
+          {
+            "form": "lṛṭ + sip",
+            "gloss": "future 2nd singular parasmaipada ending"
+          }
+        ],
+        "stem": "ni-√vas",
+        "root": "√vas",
+        "affix": "lṛṭ + sip (madhyamapuruṣa ekavacana)",
+        "morph": "simple future 2nd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "वस् वसँ निवासे",
+          "review_method": "Primary witness checked directly; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "मय्येव",
+        "iast": "mayi eva",
+        "gloss": "in me alone",
+        "parts": [
+          {
+            "form": "mayi",
+            "gloss": "in me"
+          },
+          {
+            "form": "eva",
+            "gloss": "alone, exactly"
+          }
+        ],
+        "stem": "asmad + eva",
+        "root": null,
+        "affix": "surface sandhi grouping; internal locative singular pronominal form + eva shown in parts",
+        "morph": "locative singular first-person pronoun + indeclinable",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Primary witness checked directly; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "अत",
+        "iast": "ata",
+        "gloss": "from then",
+        "parts": [
+          {
+            "form": "atas",
+            "gloss": "from that, from then"
+          }
+        ],
+        "stem": "atas",
+        "root": null,
+        "affix": "indeclinable adverbial form",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Primary witness checked directly; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "ऊर्ध्वं",
+        "iast": "ūrdhvaṃ",
+        "gloss": "onward",
+        "parts": [
+          {
+            "form": "ūrdhvam",
+            "gloss": "upward, onward, thereafter"
+          }
+        ],
+        "stem": "ūrdhva",
+        "root": null,
+        "affix": "adverbial accusative singular form",
+        "morph": "indeclinable adverbial accusative",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Primary witness checked directly; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 4,
+        "deva": "न",
+        "iast": "na",
+        "gloss": "no",
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not, no"
+          }
+        ],
+        "stem": "na",
+        "root": null,
+        "affix": "indeclinable negation",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Primary witness checked directly; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 5,
+        "deva": "संशयः",
+        "iast": "saṃśayaḥ",
+        "gloss": "doubt",
+        "parts": [
+          {
+            "form": "saṃśaya",
+            "gloss": "doubt"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          }
+        ],
+        "stem": "saṃśaya",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative singular masculine noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedanta/bhagavadgita_mula_bori.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Primary witness checked directly; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-101-paragraph-1-span-0": {
+    "quote_id": "name-101-paragraph-1-span-0",
+    "name_number": 101,
+    "printed_devanagari": "कपिर्वराहः श्रेष्ठश्च धर्मश्च वृष उच्यते । तस्माद् वृषाकपिं प्राह कश्यपो मां प्रजापतिः ॥",
+    "canonical_devanagari": "कपिर्वराहः श्रेष्ठश्च धर्मश्च वृष उच्यते तस्माद् वृषाकपिं प्राह कश्यपो मां प्रजापतिः",
+    "iast": "kapirvarāhaḥ śreṣṭhaśca dharmaśca vṛṣa ucyate tasmād vṛṣākapiṃ prāha kaśyapo māṃ prajāpatiḥ",
+    "source_label": "Chinmayananda printed citation under name 101",
+    "canonical_locus": "Printed by Chinmayananda as an explanatory citation; no separate on-disk primary-text locus was verified in this review",
+    "textual_notes": [
+      "Printed exactly as in the Chinmayananda commentary.",
+      "No independent primary-text witness for the full couplet was found in the local corpus used for this review."
+    ],
+    "english": "\"Kapi\" is boar, and is best; and \"dharma\" is called \"vṛṣa\". Therefore Kaśyapa the Prajāpati called me \"Vṛṣākapi\".",
+    "english_source": "site-literal-translation",
+    "english_slots": "{0:\"Kapi\" is boar, }{1:and is best; }{2:and \"dharma\" }{4:is called }{3:\"vṛṣa\". }{5:Therefore }{8:Kaśyapa }{10:the Prajāpati }{7:called }{9:me }{6:\"Vṛṣākapi\".}",
+    "words": [
+      {
+        "i": 0,
+        "deva": "कपिर्वराहः",
+        "iast": "kapiḥ varāhaḥ",
+        "gloss": "\"Kapi\" is boar",
+        "parts": [
+          {
+            "form": "kapi",
+            "gloss": "kapi"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          },
+          {
+            "form": "varāha",
+            "gloss": "boar"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          }
+        ],
+        "stem": "kapi + varāha",
+        "root": null,
+        "affix": "surface sandhi grouping; internal nominative singular forms shown in parts",
+        "morph": "nominative singular masculine noun + nominative singular masculine predicate noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "श्रेष्ठश्च",
+        "iast": "śreṣṭhaḥ ca",
+        "gloss": "and is best",
+        "parts": [
+          {
+            "form": "śreṣṭha",
+            "gloss": "best, excellent"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          },
+          {
+            "form": "ca",
+            "gloss": "and"
+          }
+        ],
+        "stem": "śreṣṭha + ca",
+        "root": null,
+        "affix": "surface sandhi grouping; internal nominative singular + ca shown in parts",
+        "morph": "nominative singular masculine adjective + indeclinable",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "धर्मश्च",
+        "iast": "dharmaḥ ca",
+        "gloss": "and dharma",
+        "parts": [
+          {
+            "form": "dharma",
+            "gloss": "dharma"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          },
+          {
+            "form": "ca",
+            "gloss": "and"
+          }
+        ],
+        "stem": "dharma + ca",
+        "root": null,
+        "affix": "surface sandhi grouping; internal nominative singular + ca shown in parts",
+        "morph": "nominative singular masculine noun + indeclinable",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "वृष",
+        "iast": "vṛṣa",
+        "gloss": "\"vṛṣa\"",
+        "parts": [
+          {
+            "form": "vṛṣa",
+            "gloss": "vṛṣa"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          }
+        ],
+        "stem": "vṛṣa",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative singular masculine noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 4,
+        "deva": "उच्यते",
+        "iast": "ucyate",
+        "gloss": "is called",
+        "parts": [
+          {
+            "form": "√vac",
+            "gloss": "speak, call"
+          },
+          {
+            "form": "ya + laṭ + ta",
+            "gloss": "present passive 3rd singular ending"
+          }
+        ],
+        "stem": "√vac",
+        "root": "√vac",
+        "affix": "ya + laṭ + ta (prathamapuruṣa ekavacana)",
+        "morph": "present passive 3rd person singular verb",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "वच् वचँ परिभाषणे",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 5,
+        "deva": "तस्माद्",
+        "iast": "tasmād",
+        "gloss": "therefore",
+        "parts": [
+          {
+            "form": "tad",
+            "gloss": "that"
+          },
+          {
+            "form": "ṅasi",
+            "gloss": "ablative singular ending"
+          }
+        ],
+        "stem": "tad",
+        "root": null,
+        "affix": "ṅasi (pañcamī ekavacana)",
+        "morph": "ablative singular pronoun used adverbially",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 6,
+        "deva": "वृषाकपिं",
+        "iast": "vṛṣākapiṃ",
+        "gloss": "\"Vṛṣākapi\"",
+        "parts": [
+          {
+            "form": "vṛṣa",
+            "gloss": "vṛṣa"
+          },
+          {
+            "form": "kapi",
+            "gloss": "kapi"
+          },
+          {
+            "form": "am",
+            "gloss": "accusative singular ending"
+          }
+        ],
+        "stem": "vṛṣākapi",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative singular masculine compound noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 7,
+        "deva": "प्राह",
+        "iast": "prāha",
+        "gloss": "called",
+        "parts": [
+          {
+            "form": "pra",
+            "gloss": "forth"
+          },
+          {
+            "form": "√brū",
+            "gloss": "say, speak"
+          },
+          {
+            "form": "perfect 3rd singular",
+            "gloss": "irregular perfect finite form"
+          }
+        ],
+        "stem": "pra-√brū",
+        "root": "√brū",
+        "affix": "perfect 3rd person singular parasmaipada finite form",
+        "morph": "perfect 3rd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "dhatupatha_excerpt": "ब्रू ब्रूञ् व्यक्तायां वाचि",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 8,
+        "deva": "कश्यपो",
+        "iast": "kaśyapaḥ",
+        "gloss": "Kaśyapa",
+        "parts": [
+          {
+            "form": "kaśyapa",
+            "gloss": "Kaśyapa"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          }
+        ],
+        "stem": "kaśyapa",
+        "root": null,
+        "affix": "surface sandhi form of su (prathamā ekavacana)",
+        "morph": "nominative singular masculine proper noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 9,
+        "deva": "मां",
+        "iast": "māṃ",
+        "gloss": "me",
+        "parts": [
+          {
+            "form": "asmad",
+            "gloss": "I"
+          }
+        ],
+        "stem": "asmad",
+        "root": null,
+        "affix": "accusative singular pronominal form",
+        "morph": "accusative singular pronoun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 10,
+        "deva": "प्रजापतिः",
+        "iast": "prajāpatiḥ",
+        "gloss": "the Prajāpati",
+        "parts": [
+          {
+            "form": "prajā",
+            "gloss": "creatures, offspring"
+          },
+          {
+            "form": "pati",
+            "gloss": "lord"
+          },
+          {
+            "form": "su",
+            "gloss": "nominative singular ending"
+          }
+        ],
+        "stem": "prajāpati",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative singular masculine compound noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 101",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Manual token-by-token review against the local witness and local grammar texts; no interpreter or external parser used."
+        }
+      }
+    ]
+  }
+}

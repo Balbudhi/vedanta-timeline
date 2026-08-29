@@ -1,0 +1,1932 @@
+{
+  "name-131-paragraph-2-span-0": {
+    "quote_id": "name-131-paragraph-2-span-0",
+    "name_number": 131,
+    "printed_devanagari": "स्थाणुरयं भारहारः किलाभूदधीत्य वेदं न विजानाति योऽर्थम्।",
+    "canonical_devanagari": "स्थाणुः अयं भारहारः किल अभूत् अधीत्य वेदं न विजानाति यः अर्थम्",
+    "iast": "sthāṇuḥ ayaṃ bhārahāraḥ kila abhūt adhītya vedaṃ na vijānāti yaḥ artham",
+    "source_label": "Nirukta root-text witness on disk",
+    "canonical_locus": "Nirukta 1.18",
+    "textual_notes": [
+      "The printed line under name 131 matches the first line of the couplet at Nirukta 1.18 in the local witness.",
+      "Only the cited line is analyzed here; the following line in the witness is not part of Chinmayananda's quotation."
+    ],
+    "english": "This one indeed became a post, a bearer of the burden, who, having studied the Veda, does not know the meaning.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{1:This one} {3:indeed} {4:became} {0:a post}, {2:a bearer of the burden}, {9:who}, {5:having studied} {6:the Veda}, {7:does not} {8:know} {10:the meaning}.",
+    "words": [
+      {
+        "i": 0,
+        "deva": "स्थाणुः",
+        "iast": "sthāṇuḥ",
+        "gloss": "a post",
+        "parts": [
+          {
+            "form": "sthāṇu",
+            "gloss": "a post, a pillar"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "sthāṇu",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular noun",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "अयम्",
+        "iast": "ayaṃ",
+        "gloss": "this one",
+        "parts": [
+          {
+            "form": "idam",
+            "gloss": "this"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "idam",
+        "root": null,
+        "affix": "pronominal nominative singular surface form",
+        "morph": "nominative masculine singular pronoun",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "भारहारः",
+        "iast": "bhārahāraḥ",
+        "gloss": "a bearer of the burden",
+        "parts": [
+          {
+            "form": "bhāra",
+            "gloss": "burden"
+          },
+          {
+            "form": "hāra",
+            "gloss": "bearer, carrier"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "bhāra-hāra",
+        "root": "√hṛ",
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular compound noun",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "किल",
+        "iast": "kila",
+        "gloss": "indeed",
+        "parts": [
+          {
+            "form": "kila",
+            "gloss": "indeed"
+          }
+        ],
+        "stem": "kila",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 4,
+        "deva": "अभूत्",
+        "iast": "abhūt",
+        "gloss": "became",
+        "parts": [
+          {
+            "form": "√bhū",
+            "gloss": "be, become"
+          },
+          {
+            "form": "laṅ + tip",
+            "gloss": "laṅ (past) + tip (prathamapuruṣa ekavacana)"
+          }
+        ],
+        "stem": "√bhū",
+        "root": "√bhū",
+        "affix": "laṅ + tip (prathamapuruṣa ekavacana)",
+        "morph": "imperfect 3rd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 5,
+        "deva": "अधीत्य",
+        "iast": "adhītya",
+        "gloss": "having studied",
+        "parts": [
+          {
+            "form": "adhi",
+            "gloss": "over, upon"
+          },
+          {
+            "form": "√i",
+            "gloss": "go to; in this compound, study"
+          },
+          {
+            "form": "lyap",
+            "gloss": "absolutive affix"
+          }
+        ],
+        "stem": "adhi-√i",
+        "root": "√i",
+        "affix": "lyap (absolutive)",
+        "morph": "indeclinable absolutive",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 6,
+        "deva": "वेदम्",
+        "iast": "vedaṃ",
+        "gloss": "the Veda",
+        "parts": [
+          {
+            "form": "veda",
+            "gloss": "Veda"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "veda",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative masculine singular noun",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 7,
+        "deva": "न",
+        "iast": "na",
+        "gloss": "does not",
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ],
+        "stem": "na",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 8,
+        "deva": "विजानाति",
+        "iast": "vijānāti",
+        "gloss": "knows, understands",
+        "parts": [
+          {
+            "form": "vi",
+            "gloss": "distinctly, apart"
+          },
+          {
+            "form": "√jñā",
+            "gloss": "know"
+          },
+          {
+            "form": "laṭ + tip",
+            "gloss": "laṭ (present) + tip (prathamapuruṣa ekavacana)"
+          }
+        ],
+        "stem": "vi-√jñā",
+        "root": "√jñā",
+        "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+        "morph": "present indicative 3rd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 9,
+        "deva": "यः",
+        "iast": "yaḥ",
+        "gloss": "who",
+        "parts": [
+          {
+            "form": "yad",
+            "gloss": "who, which"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "yad",
+        "root": null,
+        "affix": "pronominal nominative singular surface form",
+        "morph": "nominative masculine singular relative pronoun",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 10,
+        "deva": "अर्थम्",
+        "iast": "artham",
+        "gloss": "the meaning",
+        "parts": [
+          {
+            "form": "artha",
+            "gloss": "meaning, sense"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "artha",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative masculine singular noun",
+        "evidence": {
+          "witness": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Nirukta line and manual morphology review; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-145-paragraph-2-span-0": {
+    "quote_id": "name-145-paragraph-2-span-0",
+    "name_number": 145,
+    "printed_devanagari": "समष्टिकारणशरीराभिमानी आत्मा ईश्वरः।",
+    "canonical_devanagari": "समष्टिकारणशरीराभिमानी आत्मा ईश्वरः",
+    "iast": "samaṣṭikāraṇaśarīrābhimānī ātmā īśvaraḥ",
+    "source_label": "Chinmayananda printed doctrinal definition under name 145",
+    "canonical_locus": "Chinmayananda printed doctrinal definition; no independent primary locus on disk asserted",
+    "textual_notes": [
+      "This line is presented as a definitional formula in the commentary.",
+      "No separate primary witness on disk was identified for this formula during this pass."
+    ],
+    "english": "The self identified with the aggregate causal body is Īśvara.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{1:The self} {0:identified with the aggregate causal body} {2:is Īśvara}.",
+    "words": [
+      {
+        "i": 0,
+        "deva": "समष्टिकारणशरीराभिमानी",
+        "iast": "samaṣṭikāraṇaśarīrābhimānī",
+        "gloss": "identified with the aggregate causal body",
+        "parts": [
+          {
+            "form": "samaṣṭi",
+            "gloss": "aggregate, total"
+          },
+          {
+            "form": "kāraṇa",
+            "gloss": "causal"
+          },
+          {
+            "form": "śarīra",
+            "gloss": "body"
+          },
+          {
+            "form": "abhimānin",
+            "gloss": "identified with, taking as oneself"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "samaṣṭi-kāraṇa-śarīra-abhimānin",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular compound adjective",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed definition under name 145",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "आत्मा",
+        "iast": "ātmā",
+        "gloss": "the self",
+        "parts": [
+          {
+            "form": "ātman",
+            "gloss": "self"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "ātman",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed definition under name 145",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "ईश्वरः",
+        "iast": "īśvaraḥ",
+        "gloss": "Īśvara",
+        "parts": [
+          {
+            "form": "īśvara",
+            "gloss": "Lord, Īśvara"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "īśvara",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed definition under name 145",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-145-paragraph-3-span-0": {
+    "quote_id": "name-145-paragraph-3-span-0",
+    "name_number": 145,
+    "printed_devanagari": "समष्टिसूक्ष्मशरीराभिमानी आत्मा हिरण्यगर्भः।",
+    "canonical_devanagari": "समष्टिसूक्ष्मशरीराभिमानी आत्मा हिरण्यगर्भः",
+    "iast": "samaṣṭisūkṣmaśarīrābhimānī ātmā hiraṇyagarbhaḥ",
+    "source_label": "Chinmayananda printed doctrinal definition under name 145",
+    "canonical_locus": "Chinmayananda printed doctrinal definition; no independent primary locus on disk asserted",
+    "textual_notes": [
+      "This line is presented as a definitional formula in the commentary.",
+      "No separate primary witness on disk was identified for this formula during this pass."
+    ],
+    "english": "The self identified with the aggregate subtle body is Hiraṇyagarbha.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{1:The self} {0:identified with the aggregate subtle body} {2:is Hiraṇyagarbha}.",
+    "words": [
+      {
+        "i": 0,
+        "deva": "समष्टिसूक्ष्मशरीराभिमानी",
+        "iast": "samaṣṭisūkṣmaśarīrābhimānī",
+        "gloss": "identified with the aggregate subtle body",
+        "parts": [
+          {
+            "form": "samaṣṭi",
+            "gloss": "aggregate, total"
+          },
+          {
+            "form": "sūkṣma",
+            "gloss": "subtle"
+          },
+          {
+            "form": "śarīra",
+            "gloss": "body"
+          },
+          {
+            "form": "abhimānin",
+            "gloss": "identified with, taking as oneself"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "samaṣṭi-sūkṣma-śarīra-abhimānin",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular compound adjective",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed definition under name 145",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "आत्मा",
+        "iast": "ātmā",
+        "gloss": "the self",
+        "parts": [
+          {
+            "form": "ātman",
+            "gloss": "self"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "ātman",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed definition under name 145",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "हिरण्यगर्भः",
+        "iast": "hiraṇyagarbhaḥ",
+        "gloss": "Hiraṇyagarbha",
+        "parts": [
+          {
+            "form": "hiraṇyagarbha",
+            "gloss": "Hiraṇyagarbha, the golden embryo"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "hiraṇyagarbha",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed definition under name 145",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-160-paragraph-1-span-0": {
+    "quote_id": "name-160-paragraph-1-span-0",
+    "name_number": 160,
+    "printed_devanagari": "धृत आत्मा येन सः",
+    "canonical_devanagari": "धृत आत्मा येन सः",
+    "iast": "dhṛta ātmā yena saḥ",
+    "source_label": "Chinmayananda printed derivational formula for dhṛtātmā",
+    "canonical_locus": "Chinmayananda printed formula/phrase; no independent primary locus on disk asserted",
+    "textual_notes": [
+      "The commentary explicitly treats this as a derivational formula: धृत आत्मा येन सः = धृतात्मा.",
+      "No separate primary witness on disk was identified for this formula during this pass."
+    ],
+    "english": "He by whom the self is held.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{3:He} {2:by whom} {1:the self} {0:is held}.",
+    "words": [
+      {
+        "i": 0,
+        "deva": "धृत",
+        "iast": "dhṛta",
+        "gloss": "held",
+        "parts": [
+          {
+            "form": "√dhṛ",
+            "gloss": "hold, support"
+          },
+          {
+            "form": "kta",
+            "gloss": "kta (past passive participle)"
+          }
+        ],
+        "stem": "√dhṛ",
+        "root": "√dhṛ",
+        "affix": "kta (kṛt affix)",
+        "morph": "nominative masculine singular past passive participle",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 160",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "आत्मा",
+        "iast": "ātmā",
+        "gloss": "the self",
+        "parts": [
+          {
+            "form": "ātman",
+            "gloss": "self"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "ātman",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 160",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "येन",
+        "iast": "yena",
+        "gloss": "by whom",
+        "parts": [
+          {
+            "form": "yad",
+            "gloss": "who, which"
+          },
+          {
+            "form": "ṭā",
+            "gloss": "tṛtīyā ekavacana (instrumental singular)"
+          }
+        ],
+        "stem": "yad",
+        "root": null,
+        "affix": "instrumental singular relative-pronoun surface form",
+        "morph": "instrumental masculine singular relative pronoun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 160",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "सः",
+        "iast": "saḥ",
+        "gloss": "he",
+        "parts": [
+          {
+            "form": "tad",
+            "gloss": "he, that one"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "tad",
+        "root": null,
+        "affix": "pronominal nominative singular surface form",
+        "morph": "nominative masculine singular pronoun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed formula under name 160",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-141-paragraph-2-span-0": {
+    "quote_id": "name-141-paragraph-2-span-0",
+    "name_number": 141,
+    "printed_devanagari": "न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्निः । तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति ॥",
+    "canonical_devanagari": "न तत्र सूर्यः भाति न चन्द्रतारकम् न इमाः विद्युतः भान्ति कुतः अयम् अग्निः तम् एव भान्तम् अनु भाति सर्वं तस्य भासा सर्वम् इदं विभाति",
+    "iast": "na tatra sūryaḥ bhāti na candratārakam na imāḥ vidyutaḥ bhānti kutaḥ ayam agniḥ tam eva bhāntam anu bhāti sarvaṃ tasya bhāsā sarvam idaṃ vibhāti",
+    "source_label": "Parallel local Upaniṣad witnesses on disk",
+    "canonical_locus": "Kaṭha Upaniṣad 5.15 / Śvetāśvatara Upaniṣad 6.14 (parallel local witnesses; Chinmayananda prints no locus)",
+    "textual_notes": [
+      "The printed line has the continuous surface group तमेव भान्तमनुभाति; the local witnesses support the resolved sequence तम् एव भान्तम् अनु भाति.",
+      "The reading used here is grounded in the local Kaṭha and Śvetāśvatara witnesses on disk."
+    ],
+    "english": "There the sun does not shine, nor the moon-and-stars; these lightnings do not shine; how much less this fire. All shines after that one alone, shining; by its light all this shines.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{1:There} {2:the sun} {0:does not} {3:shine}, {4:nor} {5:the moon-and-stars}; {7:these} {8:lightnings} {6:do not} {9:shine}; {10:how much less} {11:this} {12:fire}. {18:All} {17:shines after} {13:that} {14:alone}, {15:shining}; {19:by its} {20:light} {21,22:all this} {23:shines}.",
+    "words": [
+      {
+        "i": 0,
+        "deva": "न",
+        "iast": "na",
+        "gloss": "does not",
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ],
+        "stem": "na",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "तत्र",
+        "iast": "tatra",
+        "gloss": "there",
+        "parts": [
+          {
+            "form": "tatra",
+            "gloss": "there"
+          }
+        ],
+        "stem": "tatra",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "सूर्यः",
+        "iast": "sūryaḥ",
+        "gloss": "the sun",
+        "parts": [
+          {
+            "form": "sūrya",
+            "gloss": "sun"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "sūrya",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "भाति",
+        "iast": "bhāti",
+        "gloss": "shine",
+        "parts": [
+          {
+            "form": "√bhā",
+            "gloss": "shine"
+          },
+          {
+            "form": "laṭ + tip",
+            "gloss": "laṭ (present) + tip (prathamapuruṣa ekavacana)"
+          }
+        ],
+        "stem": "√bhā",
+        "root": "√bhā",
+        "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+        "morph": "present indicative 3rd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 4,
+        "deva": "न",
+        "iast": "na",
+        "gloss": "nor",
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not, nor"
+          }
+        ],
+        "stem": "na",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 5,
+        "deva": "चन्द्रतारकम्",
+        "iast": "candratārakam",
+        "gloss": "the moon-and-stars",
+        "parts": [
+          {
+            "form": "candra",
+            "gloss": "moon"
+          },
+          {
+            "form": "tāraka",
+            "gloss": "stars"
+          },
+          {
+            "form": "am",
+            "gloss": "am (prathamā ekavacana, collective neuter)"
+          }
+        ],
+        "stem": "candra-tāraka",
+        "root": null,
+        "affix": "am (prathamā ekavacana)",
+        "morph": "nominative neuter singular collective compound noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 6,
+        "deva": "न",
+        "iast": "na",
+        "gloss": "do not",
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ],
+        "stem": "na",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 7,
+        "deva": "इमाः",
+        "iast": "imāḥ",
+        "gloss": "these",
+        "parts": [
+          {
+            "form": "idam",
+            "gloss": "these"
+          },
+          {
+            "form": "jas",
+            "gloss": "prathamā bahuvacana surface form"
+          }
+        ],
+        "stem": "idam",
+        "root": null,
+        "affix": "pronominal nominative plural surface form",
+        "morph": "nominative feminine plural pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 8,
+        "deva": "विद्युतः",
+        "iast": "vidyutaḥ",
+        "gloss": "lightnings",
+        "parts": [
+          {
+            "form": "vidyut",
+            "gloss": "lightning"
+          },
+          {
+            "form": "jas",
+            "gloss": "jas (prathamā bahuvacana)"
+          }
+        ],
+        "stem": "vidyut",
+        "root": null,
+        "affix": "jas (prathamā bahuvacana)",
+        "morph": "nominative feminine plural noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 9,
+        "deva": "भान्ति",
+        "iast": "bhānti",
+        "gloss": "shine",
+        "parts": [
+          {
+            "form": "√bhā",
+            "gloss": "shine"
+          },
+          {
+            "form": "laṭ + jhi",
+            "gloss": "laṭ (present) + jhi (prathamapuruṣa bahuvacana)"
+          }
+        ],
+        "stem": "√bhā",
+        "root": "√bhā",
+        "affix": "laṭ + jhi (prathamapuruṣa bahuvacana)",
+        "morph": "present indicative 3rd person plural parasmaipada verb",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 10,
+        "deva": "कुतः",
+        "iast": "kutaḥ",
+        "gloss": "how much less",
+        "parts": [
+          {
+            "form": "kutas",
+            "gloss": "whence; how much less"
+          }
+        ],
+        "stem": "kutas",
+        "root": null,
+        "affix": "avyaya (indeclinable adverbial form)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 11,
+        "deva": "अयम्",
+        "iast": "ayam",
+        "gloss": "this",
+        "parts": [
+          {
+            "form": "idam",
+            "gloss": "this"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "idam",
+        "root": null,
+        "affix": "pronominal nominative singular surface form",
+        "morph": "nominative masculine singular pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 12,
+        "deva": "अग्निः",
+        "iast": "agniḥ",
+        "gloss": "fire",
+        "parts": [
+          {
+            "form": "agni",
+            "gloss": "fire"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "agni",
+        "root": null,
+        "affix": "su (prathamā ekavacana)",
+        "morph": "nominative masculine singular noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 13,
+        "deva": "तम्",
+        "iast": "tam",
+        "gloss": "that",
+        "parts": [
+          {
+            "form": "tad",
+            "gloss": "that"
+          },
+          {
+            "form": "am",
+            "gloss": "accusative singular surface form"
+          }
+        ],
+        "stem": "tad",
+        "root": null,
+        "affix": "pronominal accusative singular surface form",
+        "morph": "accusative masculine singular pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 14,
+        "deva": "एव",
+        "iast": "eva",
+        "gloss": "alone",
+        "parts": [
+          {
+            "form": "eva",
+            "gloss": "alone, indeed"
+          }
+        ],
+        "stem": "eva",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 15,
+        "deva": "भान्तम्",
+        "iast": "bhāntam",
+        "gloss": "shining",
+        "parts": [
+          {
+            "form": "√bhā",
+            "gloss": "shine"
+          },
+          {
+            "form": "śatṛ",
+            "gloss": "present active participial affix"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "bhānt",
+        "root": "√bhā",
+        "affix": "śatṛ + am (dvitīyā ekavacana)",
+        "morph": "accusative masculine singular present active participle",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 16,
+        "deva": "अनु",
+        "iast": "anu",
+        "gloss": "after",
+        "parts": [
+          {
+            "form": "anu",
+            "gloss": "after, following"
+          }
+        ],
+        "stem": "anu",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 17,
+        "deva": "भाति",
+        "iast": "bhāti",
+        "gloss": "shines after",
+        "parts": [
+          {
+            "form": "anu-√bhā",
+            "gloss": "shine after, shine in consequence of"
+          },
+          {
+            "form": "laṭ + tip",
+            "gloss": "laṭ (present) + tip (prathamapuruṣa ekavacana)"
+          }
+        ],
+        "stem": "anu-√bhā",
+        "root": "√bhā",
+        "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+        "morph": "present indicative 3rd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 18,
+        "deva": "सर्वम्",
+        "iast": "sarvam",
+        "gloss": "all",
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          }
+        ],
+        "stem": "sarva",
+        "root": null,
+        "affix": "direct neuter singular surface form",
+        "morph": "nominative neuter singular pronoun/adjective",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 19,
+        "deva": "तस्य",
+        "iast": "tasya",
+        "gloss": "by its",
+        "parts": [
+          {
+            "form": "tad",
+            "gloss": "that, its"
+          },
+          {
+            "form": "ṅas",
+            "gloss": "ṣaṣṭhī ekavacana surface form"
+          }
+        ],
+        "stem": "tad",
+        "root": null,
+        "affix": "pronominal genitive singular surface form",
+        "morph": "genitive singular pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 20,
+        "deva": "भासा",
+        "iast": "bhāsā",
+        "gloss": "light",
+        "parts": [
+          {
+            "form": "bhās",
+            "gloss": "light, radiance"
+          },
+          {
+            "form": "ṭā",
+            "gloss": "ṭā (tṛtīyā ekavacana)"
+          }
+        ],
+        "stem": "bhās",
+        "root": null,
+        "affix": "ṭā (tṛtīyā ekavacana)",
+        "morph": "instrumental feminine singular noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 21,
+        "deva": "सर्वम्",
+        "iast": "sarvam",
+        "gloss": "all",
+        "parts": [
+          {
+            "form": "sarva",
+            "gloss": "all"
+          }
+        ],
+        "stem": "sarva",
+        "root": null,
+        "affix": "direct neuter singular surface form",
+        "morph": "nominative neuter singular pronoun/adjective",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 22,
+        "deva": "इदम्",
+        "iast": "idam",
+        "gloss": "this",
+        "parts": [
+          {
+            "form": "idam",
+            "gloss": "this"
+          }
+        ],
+        "stem": "idam",
+        "root": null,
+        "affix": "pronominal direct neuter singular surface form",
+        "morph": "nominative neuter singular pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 23,
+        "deva": "विभाति",
+        "iast": "vibhāti",
+        "gloss": "shines",
+        "parts": [
+          {
+            "form": "vi-√bhā",
+            "gloss": "shine forth"
+          },
+          {
+            "form": "laṭ + tip",
+            "gloss": "laṭ (present) + tip (prathamapuruṣa ekavacana)"
+          }
+        ],
+        "stem": "vi-√bhā",
+        "root": "√bhā",
+        "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+        "morph": "present indicative 3rd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kathopanisad_gretil.txt ; data/sources/sanskrit/vedic/svetasvatara_upanisad_gretil.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kaṭha and Śvetāśvatara lines and manual morphology review; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-153-paragraph-1-span-0": {
+    "quote_id": "name-153-paragraph-1-span-0",
+    "name_number": 153,
+    "printed_devanagari": "अनण्वस्थूलमह्रस्वदीर्घमजमव्ययम् । अरूपगुणवर्णाख्यं तद्ब्रह्मेति अवधारयेत् ॥",
+    "canonical_devanagari": "अनणु अस्थूलम् अह्रस्वम् अदीर्घम् अजम् अव्ययम् अरूपगुणवर्णाख्यम् तत् ब्रह्म इति अवधारयेत्",
+    "iast": "anaṇu asthūlam ahrasvam adīrgham ajam avyayam arūpaguṇavarṇākhyam tat brahma iti avadhārayet",
+    "source_label": "Chinmayananda printed citation/verse under name 153",
+    "canonical_locus": "Chinmayananda printed formula/verse; no independent primary locus on disk in repo/prakriya asserted",
+    "textual_notes": [
+      "The printed line is retained exactly as quoted in the commentary.",
+      "No local primary witness for this verse was identified in the repository or in /Users/eeshan/Dev/prakriya/sources during this pass, so the analysis stays grounded in the printed commentary witness."
+    ],
+    "english": "Not minute, not gross, not short, not long, unborn, undecaying; not designated by form, quality, or colour: that is Brahman, thus one should ascertain.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{0:Not minute}, {1:not gross}, {2:not short}, {3:not long}, {4:unborn}, {5:undecaying}; {6:not designated by form, quality, or colour}: {7:that} {8:is Brahman}, {9:thus} {10:one should ascertain}.",
+    "words": [
+      {
+        "i": 0,
+        "deva": "अनणु",
+        "iast": "anaṇu",
+        "gloss": "not minute",
+        "parts": [
+          {
+            "form": "nañ",
+            "gloss": "not"
+          },
+          {
+            "form": "aṇu",
+            "gloss": "minute, atomic"
+          }
+        ],
+        "stem": "an-aṇu",
+        "root": null,
+        "affix": "direct neuter singular adjectival form",
+        "morph": "accusative neuter singular adjective",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "अस्थूलम्",
+        "iast": "asthūlam",
+        "gloss": "not gross",
+        "parts": [
+          {
+            "form": "nañ",
+            "gloss": "not"
+          },
+          {
+            "form": "sthūla",
+            "gloss": "gross, bulky"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "a-sthūla",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative neuter singular adjective",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "अह्रस्वम्",
+        "iast": "ahrasvam",
+        "gloss": "not short",
+        "parts": [
+          {
+            "form": "nañ",
+            "gloss": "not"
+          },
+          {
+            "form": "hrasva",
+            "gloss": "short"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "a-hrasva",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative neuter singular adjective",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "अदीर्घम्",
+        "iast": "adīrgham",
+        "gloss": "not long",
+        "parts": [
+          {
+            "form": "nañ",
+            "gloss": "not"
+          },
+          {
+            "form": "dīrgha",
+            "gloss": "long"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "a-dīrgha",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative neuter singular adjective",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 4,
+        "deva": "अजम्",
+        "iast": "ajam",
+        "gloss": "unborn",
+        "parts": [
+          {
+            "form": "nañ",
+            "gloss": "not"
+          },
+          {
+            "form": "ja",
+            "gloss": "born"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "a-ja",
+        "root": "√jan",
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative neuter singular adjective",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 5,
+        "deva": "अव्ययम्",
+        "iast": "avyayam",
+        "gloss": "undecaying",
+        "parts": [
+          {
+            "form": "nañ",
+            "gloss": "not"
+          },
+          {
+            "form": "vyaya",
+            "gloss": "wasting, decay"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "a-vyaya",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative neuter singular adjective",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 6,
+        "deva": "अरूपगुणवर्णाख्यम्",
+        "iast": "arūpaguṇavarṇākhyam",
+        "gloss": "not designated by form, quality, or colour",
+        "parts": [
+          {
+            "form": "nañ",
+            "gloss": "not"
+          },
+          {
+            "form": "rūpa",
+            "gloss": "form"
+          },
+          {
+            "form": "guṇa",
+            "gloss": "quality"
+          },
+          {
+            "form": "varṇa",
+            "gloss": "colour"
+          },
+          {
+            "form": "ākhya",
+            "gloss": "designated, named"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "a-rūpa-guṇa-varṇa-ākhya",
+        "root": null,
+        "affix": "am (dvitīyā ekavacana)",
+        "morph": "accusative neuter singular compound adjective",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 7,
+        "deva": "तत्",
+        "iast": "tat",
+        "gloss": "that",
+        "parts": [
+          {
+            "form": "tad",
+            "gloss": "that"
+          }
+        ],
+        "stem": "tad",
+        "root": null,
+        "affix": "pronominal direct neuter singular surface form",
+        "morph": "accusative neuter singular pronoun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 8,
+        "deva": "ब्रह्म",
+        "iast": "brahma",
+        "gloss": "Brahman",
+        "parts": [
+          {
+            "form": "brahman",
+            "gloss": "Brahman"
+          }
+        ],
+        "stem": "brahman",
+        "root": null,
+        "affix": "direct neuter singular surface form",
+        "morph": "accusative neuter singular noun",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 9,
+        "deva": "इति",
+        "iast": "iti",
+        "gloss": "thus",
+        "parts": [
+          {
+            "form": "iti",
+            "gloss": "thus"
+          }
+        ],
+        "stem": "iti",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 10,
+        "deva": "अवधारयेत्",
+        "iast": "avadhārayet",
+        "gloss": "one should ascertain",
+        "parts": [
+          {
+            "form": "ava",
+            "gloss": "down, firmly"
+          },
+          {
+            "form": "√dhṛ",
+            "gloss": "hold, fix"
+          },
+          {
+            "form": "ṇic",
+            "gloss": "causative formation"
+          },
+          {
+            "form": "vidhiliṅ + tip",
+            "gloss": "optative + prathamapuruṣa ekavacana"
+          }
+        ],
+        "stem": "ava-dhāray",
+        "root": "√dhṛ",
+        "affix": "ṇic + vidhiliṅ + tip (prathamapuruṣa ekavacana)",
+        "morph": "optative 3rd person singular parasmaipada causative verb",
+        "evidence": {
+          "witness": "Chinmayananda scan-confirmed printed verse under name 153",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Printed commentary witness checked directly and manually re-derived; no interpreter or external parser used."
+        }
+      }
+    ]
+  },
+  "name-187-paragraph-2-span-0": {
+    "quote_id": "name-187-paragraph-2-span-0",
+    "name_number": 187,
+    "printed_devanagari": "यद्वाचा अनभ्युदितं येन वागभ्युद्यते । तदेव ब्रह्म त्वं विद्धि नेदं यदिदमुपासते ॥",
+    "canonical_devanagari": "यत् वाचा अनभ्युदितं येन वाक् अभ्युद्यते तत् एव ब्रह्म त्वं विद्धि न इदं यत् इदम् उपासते",
+    "iast": "yat vācā anabhyuditaṃ yena vāk abhyudyate tat eva brahma tvaṃ viddhi na idaṃ yat idam upāsate",
+    "source_label": "Kena Upaniṣad root-text witness on disk",
+    "canonical_locus": "Kena Upaniṣad 1.5",
+    "textual_notes": [
+      "The printed Chinmayananda line corresponds to the local Kena witness, which preserves the avagraha in यद्वाचाऽनभ्युदितं; this row resolves the sandhi for word-level analysis.",
+      "The commentary prints 'Kena Upaniṣad 1.4', but the quoted sentence corresponds to the next mantra in the local witness."
+    ],
+    "english": "That which is not brought forth by speech, by which speech is brought forth: that alone know as Brahman, not this which here they worship.",
+    "english_source": "site-literal-translation",
+    "english_slots": "{0:That which} {1:by speech} {2:is not brought forth}, {3:by which} {4:speech} {5:is brought forth}: {6:that} {7:alone} {9:you} {10:know} {8:as Brahman}, {11:not} {12:this} {13:which} {14:here} {15:they worship}.",
+    "words": [
+      {
+        "i": 0,
+        "deva": "यत्",
+        "iast": "yat",
+        "gloss": "that which",
+        "parts": [
+          {
+            "form": "yad",
+            "gloss": "that which"
+          }
+        ],
+        "stem": "yad",
+        "root": null,
+        "affix": "pronominal direct neuter singular surface form",
+        "morph": "accusative neuter singular relative pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 1,
+        "deva": "वाचा",
+        "iast": "vācā",
+        "gloss": "by speech",
+        "parts": [
+          {
+            "form": "vāc",
+            "gloss": "speech"
+          },
+          {
+            "form": "ṭā",
+            "gloss": "ṭā (tṛtīyā ekavacana)"
+          }
+        ],
+        "stem": "vāc",
+        "root": null,
+        "affix": "ṭā (tṛtīyā ekavacana)",
+        "morph": "instrumental feminine singular noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 2,
+        "deva": "अनभ्युदितम्",
+        "iast": "anabhyuditaṃ",
+        "gloss": "not brought forth",
+        "parts": [
+          {
+            "form": "nañ",
+            "gloss": "not"
+          },
+          {
+            "form": "abhi-ud-√i",
+            "gloss": "come forth, arise"
+          },
+          {
+            "form": "kta",
+            "gloss": "kta (past passive participle)"
+          },
+          {
+            "form": "am",
+            "gloss": "am (dvitīyā ekavacana)"
+          }
+        ],
+        "stem": "an-abhyudita",
+        "root": "abhi-ud-√i",
+        "affix": "kta + am (dvitīyā ekavacana)",
+        "morph": "accusative neuter singular past passive participle",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 3,
+        "deva": "येन",
+        "iast": "yena",
+        "gloss": "by which",
+        "parts": [
+          {
+            "form": "yad",
+            "gloss": "which"
+          },
+          {
+            "form": "ṭā",
+            "gloss": "tṛtīyā ekavacana surface form"
+          }
+        ],
+        "stem": "yad",
+        "root": null,
+        "affix": "instrumental singular relative-pronoun surface form",
+        "morph": "instrumental singular relative pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 4,
+        "deva": "वाक्",
+        "iast": "vāk",
+        "gloss": "speech",
+        "parts": [
+          {
+            "form": "vāc",
+            "gloss": "speech"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "vāc",
+        "root": null,
+        "affix": "nominative singular surface form",
+        "morph": "nominative feminine singular noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 5,
+        "deva": "अभ्युद्यते",
+        "iast": "abhyudyate",
+        "gloss": "is brought forth",
+        "parts": [
+          {
+            "form": "abhi-ud-√i",
+            "gloss": "come forth, arise"
+          },
+          {
+            "form": "laṭ + ta",
+            "gloss": "laṭ (present) + ta (prathamapuruṣa ekavacana)"
+          }
+        ],
+        "stem": "abhi-ud-√i",
+        "root": "abhi-ud-√i",
+        "affix": "laṭ + ta (prathamapuruṣa ekavacana)",
+        "morph": "present indicative passive 3rd person singular verb",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 6,
+        "deva": "तत्",
+        "iast": "tat",
+        "gloss": "that",
+        "parts": [
+          {
+            "form": "tad",
+            "gloss": "that"
+          }
+        ],
+        "stem": "tad",
+        "root": null,
+        "affix": "pronominal direct neuter singular surface form",
+        "morph": "accusative neuter singular pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 7,
+        "deva": "एव",
+        "iast": "eva",
+        "gloss": "alone",
+        "parts": [
+          {
+            "form": "eva",
+            "gloss": "alone, indeed"
+          }
+        ],
+        "stem": "eva",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 8,
+        "deva": "ब्रह्म",
+        "iast": "brahma",
+        "gloss": "Brahman",
+        "parts": [
+          {
+            "form": "brahman",
+            "gloss": "Brahman"
+          }
+        ],
+        "stem": "brahman",
+        "root": null,
+        "affix": "direct neuter singular surface form",
+        "morph": "accusative neuter singular noun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 9,
+        "deva": "त्वम्",
+        "iast": "tvaṃ",
+        "gloss": "you",
+        "parts": [
+          {
+            "form": "yuṣmad",
+            "gloss": "you"
+          },
+          {
+            "form": "su",
+            "gloss": "su (prathamā ekavacana)"
+          }
+        ],
+        "stem": "yuṣmad",
+        "root": null,
+        "affix": "pronominal nominative singular surface form",
+        "morph": "nominative singular second-person pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 10,
+        "deva": "विद्धि",
+        "iast": "viddhi",
+        "gloss": "know",
+        "parts": [
+          {
+            "form": "√vid",
+            "gloss": "know"
+          },
+          {
+            "form": "loṭ + hi",
+            "gloss": "imperative + madhyamapuruṣa ekavacana"
+          }
+        ],
+        "stem": "√vid",
+        "root": "√vid",
+        "affix": "loṭ + hi (madhyamapuruṣa ekavacana)",
+        "morph": "imperative 2nd person singular parasmaipada verb",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 11,
+        "deva": "न",
+        "iast": "na",
+        "gloss": "not",
+        "parts": [
+          {
+            "form": "na",
+            "gloss": "not"
+          }
+        ],
+        "stem": "na",
+        "root": null,
+        "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+        "morph": "indeclinable (avyaya)",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 12,
+        "deva": "इदम्",
+        "iast": "idam",
+        "gloss": "this",
+        "parts": [
+          {
+            "form": "idam",
+            "gloss": "this"
+          }
+        ],
+        "stem": "idam",
+        "root": null,
+        "affix": "pronominal direct neuter singular surface form",
+        "morph": "accusative neuter singular pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 13,
+        "deva": "यत्",
+        "iast": "yat",
+        "gloss": "which",
+        "parts": [
+          {
+            "form": "yad",
+            "gloss": "which"
+          }
+        ],
+        "stem": "yad",
+        "root": null,
+        "affix": "pronominal direct neuter singular surface form",
+        "morph": "accusative neuter singular relative pronoun",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 14,
+        "deva": "इदम्",
+        "iast": "idam",
+        "gloss": "here",
+        "parts": [
+          {
+            "form": "idam",
+            "gloss": "this here"
+          }
+        ],
+        "stem": "idam",
+        "root": null,
+        "affix": "deictic direct singular surface form",
+        "morph": "accusative neuter singular pronoun used deictically",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      },
+      {
+        "i": 15,
+        "deva": "उपासते",
+        "iast": "upāsate",
+        "gloss": "they worship",
+        "parts": [
+          {
+            "form": "upa-√ās",
+            "gloss": "worship, attend upon"
+          },
+          {
+            "form": "laṭ + jha",
+            "gloss": "laṭ (present) + prathamapuruṣa bahuvacana ātmanepada"
+          }
+        ],
+        "stem": "upa-√ās",
+        "root": "√ās",
+        "affix": "laṭ + jha (prathamapuruṣa bahuvacana, ātmanepada)",
+        "morph": "present indicative 3rd person plural ātmanepada verb",
+        "evidence": {
+          "witness": "data/sources/sanskrit/vedic/kenopanisad_vedic_heritage_2026-08-10.txt",
+          "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+          "review_method": "Direct local witness check against the Kena line and manual morphology review; no interpreter or external parser used."
+        }
+      }
+    ]
+  }
+}

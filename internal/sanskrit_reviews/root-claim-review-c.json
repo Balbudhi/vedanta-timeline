@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "review_status": "complete",
+  "scope": {
+    "name_numbers": [
+      748,
+      786,
+      846,
+      888,
+      958,
+      992
+    ],
+    "method": "source-first derivation review against Chinmayananda, analysis.json, and the local Prakriya source library; interpreter not used"
+  },
+  "rows": [
+    {
+      "name_number": 748,
+      "citation_iast": "mānadaḥ",
+      "citation_devanagari": "मानदः",
+      "commentator_claim": "The root 'da' in Sanskrit means 'blasting', and therefore, the same term can also mean one who blasts all false notions from the bosom of his devotees.",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "\"One who gives, or causes, by His māyā the false identification with the body.\" The Sanskrit term 'maana' can also mean 'honour,' and therefore, 'maanadah' can mean One who honours all His true devotees. The root 'da' in Sanskrit means 'blasting', and therefore, the same term can also mean one who blasts all false notions from the bosom of his devotees"
+      },
+      "independently_derived_root": {
+        "form": "√dā",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to give",
+        "dhatupatha": {
+          "locus": "01.1079",
+          "dhatu_devanagari": "दा",
+          "aupadeshika_devanagari": "दाण्",
+          "artha_sanskrit": "दाने"
+        }
+      },
+      "verdict": "disagrees",
+      "qualification": "The local grammar witnesses support -da in this kind of giver-formation from √dā 'to give', not from a root meaning 'blasting'. A separate root दाप् at 02.0054 means 'to cut', but that is not the same dhātu as the compound member da here.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:21422"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:36627-36643"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:23817",
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:27370",
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:28178"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3215-3217",
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:3735-3737"
+        ],
+        "supporting_grammar_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt:36",
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt:257"
+        ]
+      }
+    },
+    {
+      "name_number": 786,
+      "citation_iast": "indra-karmā",
+      "citation_devanagari": "इन्द्र-कर्मा",
+      "commentator_claim": "The root 'Id' is used in the sense of Supreme Auspiciousness, Parama-aisvarya (परमैश्वर्य).",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "“One who always performs gloriously auspicious actions.\" The root 'Id' is used in the sense of Supreme Auspiciousness, Parama-aisvarya (परमैश्वर्य)."
+      },
+      "independently_derived_root": {
+        "form": "√ind",
+        "gana": "1",
+        "pada": "P",
+        "gloss": "to be powerful; to have divine power",
+        "dhatupatha": {
+          "locus": "01.0065",
+          "dhatu_devanagari": "इन्द्",
+          "aupadeshika_devanagari": "इदिँ",
+          "artha_sanskrit": "परमैश्वर्ये"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The local Dhātupāṭha directly supports the aiśvarya-sense for the root behind indra, and the local Uṇādi witness supports an indra-formation from that root. What the root secures is the indra-element, not by itself the whole interpretive gloss 'one who always performs gloriously auspicious actions' for the compound indra-karmā.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:22518"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:38538-38540"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:1472"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:193-195"
+        ],
+        "supporting_grammar_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/unadi/unadi_pancapadi_upstream.txt:596",
+          "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt:460-461"
+        ]
+      }
+    },
+    {
+      "name_number": 846,
+      "citation_iast": "vaṃśavardhanaḥ",
+      "citation_devanagari": "वंशवर्धनः",
+      "commentator_claim": "The root Vardh (वर्ध्) means 'the annihilator.'",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "Or it can also imply just the opposite as the root Vardh ( वर्ष ) means 'the annihilator.' Nārāyaṇa is the sacred factor in us, to Whose Feet we turn in all love and undivided attention, in Whom the world of perceptions, emotions and thoughts merge as a dream merges into the mind of the waker."
+      },
+      "independently_derived_root": {
+        "form": "√vṛdh",
+        "gana": "1",
+        "pada": "A",
+        "gloss": "to increase; to grow; to prosper",
+        "dhatupatha": {
+          "locus": "01.0863",
+          "dhatu_devanagari": "वृध्",
+          "aupadeshika_devanagari": "वृधुँ",
+          "artha_sanskrit": "वृद्धौ"
+        }
+      },
+      "verdict": "disagrees",
+      "qualification": "The local Dhātupāṭha gives growth/increase for √vṛdh, not annihilation. The analysis member vardhana 'increasing, growing, thriving' matches the source better than the printed commentator claim about annihilation.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:24242"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:41475-41491"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:18719"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:2587-2589"
+        ],
+        "supporting_grammar_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/mahabhashya/mahabhashya_gretil.txt:43250",
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/mahabhashya/mahabhashya_gretil.txt:47576"
+        ]
+      }
+    },
+    {
+      "name_number": 888,
+      "citation_iast": "bhoktā",
+      "citation_devanagari": "भोक्ता",
+      "commentator_claim": "The term bhoktā also means \"One Who Protects\" (the Universe)... “भज पालनाभ्यवहारयोः।” The root has both the meanings.",
+      "analysis_json_state": {
+        "root": {
+          "form": "√bhuj",
+          "gana": "rudhādi (7)",
+          "pada": "parasmaipada",
+          "gloss": "to enjoy; experience",
+          "dhatupatha": {
+            "locus": "07.0017",
+            "dhatu_devanagari": "भुज्",
+            "aupadeshika_devanagari": "भुजँ",
+            "artha_sanskrit": "पालनाभ्यवहारयोः",
+            "gana": "7",
+            "pada": "P"
+          }
+        },
+        "derivation": "The term bhoktā also means \"One Who Protects\" (the Universe)—as He is the very material Cause for the entire world of names and forms. “भज पालनाभ्यवहारयोः।” (Bhuj paalanaabhyavahaarayoh.) The root has both the meanings."
+      },
+      "independently_derived_root": {
+        "form": "√bhuj",
+        "gana": "7",
+        "pada": "P",
+        "gloss": "to protect; to preserve; to eat; to consume",
+        "dhatupatha": {
+          "locus": "07.0017",
+          "dhatu_devanagari": "भुज्",
+          "aupadeshika_devanagari": "भुजँ",
+          "artha_sanskrit": "पालनाभ्यवहारयोः"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The local Dhātupāṭha explicitly supports both protection and consumption/enjoyment. The form bhoktā as an epithet can therefore be read with either semantic branch, but choosing 'protector of the universe' remains the commentator's theological application of that attested root-sense.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:25445"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:43511-43524",
+          "gita/vishnu-sahasranama/analysis.json:43539-43540"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:37547"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4955-4957"
+        ],
+        "supporting_grammar_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/mahabhashya/mahabhashya_gretil.txt:44459-44460"
+        ]
+      }
+    },
+    {
+      "name_number": 958,
+      "citation_iast": "paṇaḥ",
+      "citation_devanagari": "पणः",
+      "commentator_claim": "The root 'Pana' means 'to transact.' By giving the exact rewards for all actions, Lord both orders and justly manages all activities...",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "“The Supreme Manager of the Universe.” The root ‘Pana’ means “to transact.” By giving the exact rewards for all actions, Lord both orders and justly manages all activities of each individual and directly supervises the interactions between individuals and things constituting this scientifically precise universe."
+      },
+      "independently_derived_root": {
+        "form": "√paṇ",
+        "gana": "1",
+        "pada": "A",
+        "gloss": "to deal; to transact; to barter; to praise",
+        "dhatupatha": {
+          "locus": "01.0507",
+          "dhatu_devanagari": "पण्",
+          "aupadeshika_devanagari": "पणँ",
+          "artha_sanskrit": "व्यवहारे स्तुतौ च"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The local Dhātupāṭha directly supports the transactional sense, and the Mahābhāṣya confirms a commercial derivative from the same root-family. The specifically managerial gloss for the Lord is the commentator's extension, not the bare lexical force of √paṇ itself.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:27448"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:46900-46907"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:10962"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:1519-1521"
+        ],
+        "supporting_grammar_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt:3141",
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/mahabhashya/mahabhashya_gretil.txt:36880-36882"
+        ]
+      }
+    },
+    {
+      "name_number": 992,
+      "citation_iast": "pāpanāśanaḥ",
+      "citation_devanagari": "पापनाशनः",
+      "commentator_claim": "Through meditation upon the Self, all sins are dissolved and totally removed.",
+      "analysis_json_state": {
+        "root": null,
+        "derivation": "When an individual, surrendering in love to Him, acts and fulfils his duties, all his existing vāsanās are destroyed and no new ones are created— this is the very root in the theory of Karma Yoga in the Vedas. Through meditation upon the Self, all sins are dissolved and totally removed."
+      },
+      "independently_derived_root": {
+        "form": "√naś",
+        "gana": "4",
+        "pada": "P",
+        "gloss": "to disappear; to perish; to get destroyed; to be invisible",
+        "dhatupatha": {
+          "locus": "04.0091",
+          "dhatu_devanagari": "नश्",
+          "aupadeshika_devanagari": "णशँ",
+          "artha_sanskrit": "अदर्शने"
+        }
+      },
+      "verdict": "agrees",
+      "qualification": "The local Dhātupāṭha states disappearance/perishing rather than a separate gloss 'to annihilate sins', but that source-backed semantic field supports nāśana as remover/destroyer. The application to pāpa or vāsanā is the compound's devotional extension.",
+      "evidence": {
+        "commentary_loci": [
+          "gita/vishnu-sahasranama/chinmayananda.json:28426"
+        ],
+        "analysis_loci": [
+          "gita/vishnu-sahasranama/analysis.json:48614-48621"
+        ],
+        "dhatupatha_raw_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json:30664"
+        ],
+        "primary_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt:4056-4058"
+        ],
+        "supporting_grammar_loci": [
+          "/Users/eeshan/Dev/prakriya/sources/primary/panini/mahabhashya/mahabhashya_gretil.txt:48919-48920"
+        ]
+      }
+    }
+  ]
+}
