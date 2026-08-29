@@ -4004,12 +4004,12 @@
           "i": 3
         }
       ],
-      "english": "Among the Vasus I am Pāvaka",
+      "english": "I am among the Vasus the Paavakah",
       "alignment_score": 0.7997,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Among the Vasus} {2,3:I am} {1:Pāvaka}",
-      "english_source": "site-literal-translation",
+      "english_slots": "{2,3:I am} {0:among the Vasus} {1:the Paavakah}",
+      "english_source": "Swami Chinmayananda",
       "source_segments": [
         {
           "text": "वसूनां ",
@@ -5272,12 +5272,12 @@
           "i": 2
         }
       ],
-      "english": "Among poets, I am Uśanas the poet",
+      "english": "among the Poets, I am Usanas, Sukra — Aachaarya",
       "alignment_score": 1.0,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Among poets}, {1,2:I am Uśanas the poet}",
-      "english_source": "site-literal-translation",
+      "english_slots": "{0:among the Poets}, {1,2:I am Usanas, Sukra — Aachaarya}",
+      "english_source": "Swami Chinmayananda",
       "source_segments": [
         {
           "text": "कवीनाम् ",
@@ -22990,12 +22990,12 @@
           "i": 3
         }
       ],
-      "english": "Among nāgas I am Ananta",
+      "english": "Among the nagas, the many-hooded serpents, I am Ananta.",
       "alignment_score": 0.7997,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{3:Among nāgas} {1,2:I am} {0:Ananta}",
-      "english_source": "site-literal-translation",
+      "english_slots": "{3:Among the nagas, the many-hooded serpents}, {1,2:I am} {0:Ananta}.",
+      "english_source": "Swami Chinmayananda",
       "source_segments": [
         {
           "text": "अनन्तश् ",
@@ -23110,12 +23110,12 @@
           "i": 2
         }
       ],
-      "english": "Among serpents I am Vāsuki",
+      "english": "Among the serpents I am Vaasuki",
       "alignment_score": 1.0,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0:Among serpents} {1:I am} {2:Vāsuki}",
-      "english_source": "site-literal-translation",
+      "english_slots": "{0:Among the serpents} {1:I am} {2:Vaasuki}",
+      "english_source": "Swami Chinmayananda",
       "source_segments": [
         {
           "text": "सर्पाणाम् ",
@@ -35049,12 +35049,12 @@
           "i": 13
         }
       ],
-      "english": "What is night for all beings, in that the self-controlled one is awake; where beings are awake, that is night for the seeing sage",
+      "english": "That which is night to all beings, in that the self-controlled man wakes; where all beings are awake, that is the night for the Sage (Muni) who sees.",
       "alignment_score": 0.9359,
       "status": "source-joined",
       "review_status": "primary-text-reviewed",
-      "english_slots": "{0,1:What is night} {2,3:for all beings}, {4,5,6:in that the self-controlled one is awake}; {7,8,9:where beings are awake}, {10,11:that is night} {12,13:for the seeing sage}",
-      "english_source": "site-literal-translation",
+      "english_slots": "{0,1:That which is night} {2,3:to all beings}, {4,5,6:in that the self-controlled man wakes}; {7,8,9:where all beings are awake}, {10,11:that is the night} {12,13:for the Sage (Muni) who sees}.",
+      "english_source": "Swami Chinmayananda",
       "source_segments": [
         {
           "text": "या ",

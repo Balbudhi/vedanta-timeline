@@ -89,16 +89,56 @@ function looksLikeSanskritParagraph(text) {
   return markerCount >= 2 && markerCount >= englishCount;
 }
 
-function renderSanskritParagraph(text) {
+function renderSanskritParagraph(text, inlineSanskrit) {
   const value = String(text || "").trim();
-  const split = value.split(/\s*[—–]\s*/);
-  const body = split.shift() || value;
-  const source = split.join(" — ").replace(/[.\s]+$/, "");
-  const bodyHtml = richProse(body).replace(/\n/g, "<br>");
+  const citation = value.match(/\s+[—–]\s+([^—–]+?)\.?$/);
+  const body = citation ? value.slice(0, citation.index).trim() : value;
+  const source = citation ? citation[1].trim().replace(/\.$/, "") : "";
+  const bodyAnnotations = Array.isArray(inlineSanskrit)
+    ? inlineSanskrit.filter(item => item.start < body.length && item.end <= body.length)
+    : inlineSanskrit;
+  const bodyHtml = richProse(body, bodyAnnotations).replace(/\n/g, "<br>");
   return `<blockquote class="vsn-source-passage vsn-sanskrit-source-passage">
     <div class="vsn-source-passage-text">${bodyHtml}</div>
-    ${source ? `<div class="vsn-source-passage-note">${esc(source)}</div>` : ""}
+    ${source ? `<footer class="vsn-commentary-quote-source">${esc(source)}</footer>` : ""}
   </blockquote>`;
+}
+
+function looksLikeStandaloneInteractiveSanskrit(text, inlineSanskrit) {
+  if (!Array.isArray(inlineSanskrit) || !inlineSanskrit.length) return false;
+  const value = String(text || "");
+  const isLetter = char => /[A-Za-zĀ-ỹÑñ\u0900-\u097f]/u.test(char);
+  const totalLetters = [...value].filter(isLetter).length;
+  if (!totalLetters) return false;
+  const covered = new Set();
+  for (const item of inlineSanskrit) {
+    for (let index = item.start; index < item.end; index++) {
+      if (isLetter(value[index] || "")) covered.add(index);
+    }
+  }
+  const ratio = covered.size / totalLetters;
+  const trimmed = value.trimStart();
+  const startsQuoted = /^[“"‘']/.test(trimmed);
+  const withoutOpeningPunctuation = trimmed.replace(/^[“"‘'\s(]+/, "");
+  const startsDevanagari = /^[\u0900-\u097f]/u.test(withoutOpeningPunctuation);
+  const firstInteractive = Math.min(...inlineSanskrit.map(item => item.start));
+  const citationOnly = !startsQuoted && !startsDevanagari &&
+    /^(?:[A-Za-zĀ-ỹÑñ'’-]+\s+){0,3}(?:Upaniṣad|Brāhmaṇa|Purāṇa|Gītā|Veda|Smṛti|Mahābhārata)\b[^A-Za-zĀ-ỹÑñ]*[IVXLC\d]/iu.test(trimmed);
+  if (citationOnly) return false;
+  return ratio >= 0.55 && (
+    startsDevanagari
+    || startsQuoted
+    || firstInteractive <= 3
+  );
+}
+
+function conciseQuoteSource(block) {
+  let source = String(block.canonical_locus || "").trim();
+  source = source.split(/\s+·\s+/)[0];
+  source = source.replace(/\s*\((?:printed|locus|not independently|witness)[^)]*\)\s*$/i, "");
+  source = source.replace(/\s*;\s*(?:no independent|not independently|printed witness).*$/i, "");
+  if (source.length > 84) source = source.split(/[.;]/)[0].trim();
+  return source || "Chinmayananda commentary";
 }
 
 function paragraphs(text) {
@@ -114,30 +154,19 @@ function commentaryBlocks(name) {
   if (!Array.isArray(blocks) || !blocks.length) return paragraphs(name.chinmayananda?.commentary || "");
   return blocks.map(block => {
     if (block.type === "prose") {
-      const hasInlineSanskrit = Array.isArray(block.inline_sanskrit) && block.inline_sanskrit.length > 0;
-      return looksLikeSanskritParagraph(block.text) && !hasInlineSanskrit
-        ? renderSanskritParagraph(block.text)
+      return looksLikeStandaloneInteractiveSanskrit(block.text, block.inline_sanskrit)
+        ? renderSanskritParagraph(block.text, block.inline_sanskrit)
         : `<p class="vsn-prose">${richProse(block.text, block.inline_sanskrit)}</p>`;
     }
     if (block.type !== "gita-quote" && block.type !== "sanskrit-quote") return "";
-    const siteTranslation = block.english_source === "site-literal-translation";
     const hasReviewedWords = Array.isArray(block.words) && block.words.length > 0;
     const sanskrit = hasReviewedWords && window.GitaReader?.interactiveBlock
-      ? window.GitaReader.interactiveBlock(block.words, block.english_slots || null, null, block.devanagari, "vsn-commentary-quote-deva", block.source_segments || null)
+      ? window.GitaReader.interactiveBlock(block.words, null, null, block.devanagari, "vsn-commentary-quote-deva", block.source_segments || null)
       : `<div class="ix"><div class="ix-deva vsn-commentary-quote-deva" lang="sa-Deva">${esc(block.devanagari)}</div><div class="ix-pada" lang="sa-Latn">${esc(block.iast)}</div></div>`;
-    const printed = (block.printed_loci || []).join(", ");
-    const source = printed && !block.printed_loci.includes(block.canonical_locus)
-      ? `${block.canonical_locus} · printed as ${printed}`
-      : block.canonical_locus;
-    const notes = (block.textual_notes || []).map(note => `<div class="vsn-quote-note">${esc(note)}</div>`).join("");
-    const translationBadge = siteTranslation
-      ? `<div class="vsn-commentary-quote-note vsn-commentary-quote-note--site" role="note" aria-label="This English line is site-generated from the Sanskrit quotation and is not Swami Chinmayananda's wording"><span class="vsn-commentary-quote-badge">Site-generated literal English</span><span class="vsn-commentary-quote-note-text">The English line above is supplied by the site from the Sanskrit quotation. It is not quoted from Chinmayananda.</span></div>`
-      : "";
-    return `<blockquote class="vsn-commentary-quote${siteTranslation ? " is-site-translation" : ""}" data-quote-id="${esc(block.id)}">
+    const source = conciseQuoteSource(block);
+    return `<blockquote class="vsn-commentary-quote" data-quote-id="${esc(block.id)}">
       ${sanskrit}
-      ${translationBadge}
       <footer class="vsn-commentary-quote-source">${esc(source)}</footer>
-      ${notes}
     </blockquote>`;
   }).join("");
 }
@@ -328,8 +357,8 @@ function renderAttribution() {
   return `<div class="vsn-attribution">
     <div class="vsn-attribution-kicker">Source and attribution</div>
     <div class="vsn-attribution-primary"><button class="vsn-attribution-author vsn-thinker-link" type="button">Swami Chinmayananda</button> · <em>Thousand Ways to the Transcendental</em></div>
-    <div class="vsn-attribution-role vsn-full-attribution"><strong>Full</strong> presents Swami Chinmayananda’s commentary in his words. Any quotation marked <em>Site-generated literal English</em> is an un-attributed site rendering supplied from the Sanskrit where he does not give a separate English line.</div>
-    <div class="vsn-attribution-role vsn-simplified-attribution"><strong>Simplified</strong> is a site-generated concise reading derived from his explanations. The Simplified wording is not credited to him as a translation or quotation.</div>
+    <div class="vsn-attribution-role vsn-full-attribution"><strong>Full:</strong> Chinmayananda’s prose; untranslated Sanskrit is clickable.</div>
+    <div class="vsn-attribution-role vsn-simplified-attribution"><strong>Simplified:</strong> site-generated, not his wording.</div>
     <div class="vsn-attribution-text">Sanskrit text: <em>Viṣṇusahasranāma</em>, Mahābhārata, Anuśāsanaparvan · received text collated with the BORI critical edition.</div>
   </div>`;
 }

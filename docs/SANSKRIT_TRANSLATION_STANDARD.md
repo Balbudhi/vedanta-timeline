@@ -55,6 +55,15 @@ present and make it inspectable, rather than paraphrasing.
   a literal English line for an otherwise untranslated Sanskrit quotation, mark
   that line at the quote itself as site-generated and do not present it as the
   commentator's translation or quotation.
+- **A source-preserving commentary view may omit visible site English.** When
+  the product decision is to distinguish the commentator's translations by
+  presence rather than labels, apply one rule to the entire reader: keep the
+  commentator's English in its natural prose position and make every complete
+  quotation a single witnessed source line. When that line is in Devanāgarī,
+  keep IAST, literal meaning, and grammatical analysis in the word card rather
+  than duplicating them as a second visible row. Retain the reviewed site
+  rendering in data, but do not repeat or mix it into the attributed reading
+  surface.
 
 ## 3. Data schema
 

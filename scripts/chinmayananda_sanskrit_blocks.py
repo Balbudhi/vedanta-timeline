@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import difflib
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 
@@ -65,22 +67,37 @@ def reader_word(word: dict) -> dict:
     return result
 
 
-def clean_tail(value: str) -> str:
+def clean_tail(value: str, source_iast: str = "") -> str:
     tail = value.strip()
-    tail = re.sub(r'^["”’]+\s*', "", tail)
+    tail = re.sub(r'^["\'”’]+\s*', "", tail)
     roman = re.match(r"^\([^)]{2,800}\)\s*", tail)
     if roman:
         tail = tail[roman.end():].strip()
+    printed_roman = re.match(r'^([^"“]{3,800}(?:\)|\.))\s*(?=["“])', tail)
+    if printed_roman and source_iast:
+        similarity = difflib.SequenceMatcher(
+            a=prose_key(printed_roman.group(1)),
+            b=prose_key(source_iast),
+            autojunk=False,
+        ).ratio()
+        if similarity >= 0.40:
+            tail = tail[printed_roman.end():].strip()
     again = re.search(r"\bAgain\b", tail)
     if again:
         tail = tail[again.start():].strip()
     elif tail.startswith(("—", "–", "-")) and len(tail) < 180:
         return ""
-    return re.sub(r"^[\s.;:—–-]+", "", tail).strip()
+    tail = re.sub(r"^[\s.;:—–-]+", "", tail).strip()
+    return re.sub(r',(["”])$', r'.\1', tail)
 
 
-def quote_block(row: dict) -> dict:
-    return {
+def prose_key(value: str) -> str:
+    folded = unicodedata.normalize("NFKD", str(value)).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "", folded)
+
+
+def quote_block(row: dict, source_paragraph_index: int | None = None) -> dict:
+    block = {
         "type": "sanskrit-quote",
         "id": row["quote_id"],
         "devanagari": row["canonical_devanagari"],
@@ -96,12 +113,18 @@ def quote_block(row: dict) -> dict:
         "canonical_locus": row["canonical_locus"],
         "textual_notes": row["textual_notes"],
     }
+    if source_paragraph_index is not None:
+        block["source_paragraph_index"] = source_paragraph_index
+    return block
 
 
 def promote_non_gita_blocks(name_number: int, blocks: list[dict]) -> list[dict]:
     rows = ROWS_BY_NAME.get(int(name_number), [])
     if not rows:
         return blocks
+    complete_prose_key = prose_key(" ".join(
+        block.get("text", "") for block in blocks if block.get("type") == "prose"
+    ))
     remaining = {row["quote_id"]: row for row in rows}
     result = []
     for block in blocks:
@@ -116,13 +139,41 @@ def promote_non_gita_blocks(name_number: int, blocks: list[dict]) -> list[dict]:
         if not matched:
             result.append(block)
             continue
-        result.append(quote_block(matched))
-        tail = clean_tail(text[len(matched["printed_devanagari"]):])
+        promoted = quote_block(matched, block.get("source_paragraph_index"))
+        tail = clean_tail(text[len(matched["printed_devanagari"]):], matched.get("source_iast", ""))
+        if matched.get("english_source") == "Swami Chinmayananda":
+            author_english = str(matched.get("english", "")).strip()
+            if author_english and prose_key(author_english) not in complete_prose_key:
+                tail = f"{tail} “{author_english}”".strip()
         if tail:
-            result.append({"type": "prose", "text": tail})
+            result.append({
+                "type": "prose",
+                "text": tail,
+                "source_paragraph_index": block.get("source_paragraph_index"),
+            })
+        result.append(promoted)
         del remaining[matched["quote_id"]]
     if remaining:
         raise ValueError(
             f"name {name_number} did not promote reviewed Sanskrit rows: {sorted(remaining)}"
         )
+    visible_prose_key = prose_key(" ".join(
+        block.get("text", "") for block in result if block.get("type") == "prose"
+    ))
+    for row in rows:
+        if row.get("english_source") != "Swami Chinmayananda":
+            continue
+        author_english = str(row.get("english", "")).strip()
+        if not author_english or prose_key(author_english) in visible_prose_key:
+            continue
+        quote_index = next(
+            index for index, block in enumerate(result)
+            if block.get("id") == row["quote_id"]
+        )
+        result.insert(quote_index, {
+            "type": "prose",
+            "text": f"“{author_english}”",
+            "source_paragraph_index": result[quote_index].get("source_paragraph_index"),
+        })
+        visible_prose_key += prose_key(author_english)
     return result

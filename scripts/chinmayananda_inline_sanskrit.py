@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import copy
+import difflib
 import json
 import re
 import unicodedata
@@ -56,6 +57,20 @@ def lexical_phrase_range(text: str, phrase: str) -> tuple[int, int] | None:
     return source_start, source_end
 
 
+def parenthetical_is_romanization(value: str, quote: dict) -> bool:
+    if len(re.findall(
+        r"\b(?:the|a|an|is|am|are|among|which|where|all|beings|serpents?|sage|one|who|in|to|of)\b",
+        value,
+        flags=re.I,
+    )) >= 2:
+        return False
+    return difflib.SequenceMatcher(
+        a=english_source_key(value),
+        b=english_source_key(quote.get("canonical_iast", "")),
+        autojunk=False,
+    ).ratio() >= 0.40
+
+
 def structured_source_ranges() -> dict[tuple[int, int], list[tuple[int, int]]]:
     commentary = {
         int(row["number"]): row["commentary"].split("\n\n")
@@ -63,6 +78,9 @@ def structured_source_ranges() -> dict[tuple[int, int], list[tuple[int, int]]]:
     }
     ranges: dict[tuple[int, int], list[tuple[int, int]]] = {}
     gita = json.loads((ROOT / "gita/vishnu-sahasranama/commentary-quotes.json").read_text(encoding="utf-8"))["quotes"]
+    gita_review = json.loads(
+        (ROOT / "gita/vishnu-sahasranama/commentary-quote-analysis.json").read_text(encoding="utf-8")
+    )["quotes"]
     claimed: dict[tuple[int, int], list[tuple[int, int]]] = {}
     for quote in sorted(gita, key=lambda row: row["id"]):
         number = int(quote["name_number"])
@@ -76,14 +94,20 @@ def structured_source_ranges() -> dict[tuple[int, int], list[tuple[int, int]]]:
                 if any(found[0] < end and found[1] > start for start, end in claimed.get(key, [])):
                     continue
                 claimed.setdefault(key, []).append(found)
-                ranges.setdefault(key, []).append(found)
+                if gita_review.get(quote["id"], {}).get("english_source") != "Swami Chinmayananda":
+                    ranges.setdefault(key, []).append(found)
                 break
         paragraph_index = int(quote["paragraph_index"])
         paragraph = commentary[number][paragraph_index]
         start, end = int(quote["source_start"]), int(quote["source_end"])
-        roman = re.match(r"\s*[\"'”’]*\s*\([^)]{2,600}\)", paragraph[end:])
-        if roman:
-            end += roman.end()
+        if end > 0 and paragraph[end - 1] == "(":
+            roman_end = paragraph.find(")", end)
+            if roman_end >= 0 and parenthetical_is_romanization(paragraph[end:roman_end], quote):
+                end = roman_end + 1
+        else:
+            roman = re.match(r"\s*[\"'”’]*\s*\(([^)]{2,800})(?:\)|$)", paragraph[end:])
+            if roman and parenthetical_is_romanization(roman.group(1), quote):
+                end += roman.end()
         ranges.setdefault((number, paragraph_index), []).append((start, end))
 
     for path in sorted((ROOT / "gita/vishnu-sahasranama").glob("commentary-sanskrit-analysis-[0-9]*.json")):
@@ -107,6 +131,16 @@ def structured_source_ranges() -> dict[tuple[int, int], list[tuple[int, int]]]:
             roman = re.match(r"\s*[\"'”’]*\s*\([^)]{2,800}\)", paragraph[end:])
             if roman:
                 end += roman.end()
+            else:
+                printed_roman = re.match(
+                    r'^\s*["\'”’]*\s*([^"“]{3,800}(?:\)|\.))\s*(?=["“])',
+                    paragraph[end:],
+                )
+                if printed_roman and parenthetical_is_romanization(
+                    printed_roman.group(1),
+                    {"canonical_iast": row.get("source_iast", "")},
+                ):
+                    end += printed_roman.end(1)
             ranges.setdefault((number, paragraph_index), []).append((start, end))
     return ranges
 
@@ -274,7 +308,7 @@ def promote_inline_blocks(name_number: int, blocks: list[dict]) -> list[dict]:
         return blocks
     by_text: dict[str, list[dict]] = {}
     for occurrence in occurrences:
-        match_text = occurrence["text"].lstrip("-—–") or occurrence["text"]
+        match_text = occurrence["text"].strip("-—–") or occurrence["text"]
         by_text.setdefault(match_text, []).append(occurrence)
     candidates = sorted(by_text, key=lambda text: (-len(text), text))
     used_ids = set()

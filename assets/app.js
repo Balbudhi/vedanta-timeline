@@ -419,7 +419,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "__BUILD_ID__-vsn-all-sanskrit-v4";
+const DATA_VERSION = "__BUILD_ID__-vsn-source-line-v6";
 
 async function loadJSON(path) {
   try {

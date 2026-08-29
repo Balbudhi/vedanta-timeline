@@ -654,45 +654,162 @@ def load_reviewed_quotes() -> dict[str, dict]:
     }
 
 
+def normalize_author_translation_quotes(value: str, paragraph_placements: list[tuple[int, str, dict]]) -> str:
+    for _position, basis, quote in paragraph_placements:
+        if basis != "chinmayananda-translation-position":
+            continue
+        translation = str(quote.get("chinmayananda_translation", ""))
+        start = value.find(translation)
+        if start < 0:
+            continue
+        end = start + len(translation)
+        has_open = start > 0 and value[start - 1] in "\"“"
+        has_close = bool(re.match(r"^[,.;:!?]?[\"”’']", value[end:]))
+        if has_open and not has_close:
+            value = value[:end] + "\"" + value[end:]
+        elif has_close and not has_open:
+            value = value[:start] + "\"" + value[start:]
+    return re.sub(r'^[“"]\s*[“"]', "“", value)
+
+
+def remove_unmatched_parentheses(value: str) -> str:
+    stack = []
+    remove = set()
+    for index, char in enumerate(value):
+        if char == "(":
+            stack.append(index)
+        elif char == ")":
+            if stack:
+                stack.pop()
+            else:
+                remove.add(index)
+    remove.update(stack)
+    return "".join(char for index, char in enumerate(value) if index not in remove)
+
+
+def parenthetical_is_romanization(value: str, rows: list[dict]) -> bool:
+    """Distinguish a printed roman line from Chinmayananda's English gloss."""
+    english_markers = re.findall(
+        r"\b(?:the|a|an|is|am|are|among|which|where|all|beings|serpents?|sage|one|who|in|to|of)\b",
+        value,
+        flags=re.I,
+    )
+    if len(english_markers) >= 2:
+        return False
+    candidate = comparison_key(value)
+    if not candidate:
+        return False
+    return max(
+        difflib.SequenceMatcher(
+            a=candidate,
+            b=comparison_key(row.get("canonical_iast", "")),
+            autojunk=False,
+        ).ratio()
+        for row in rows
+    ) >= 0.40
+
+
+def clean_rendered_commentary_prose(value: str, has_structured_quote: bool = False) -> str:
+    """Remove punctuation shells left after a Sanskrit source line is lifted out."""
+    if has_structured_quote:
+        value = re.sub(
+            r"\bIn\s+Gītā\.\s*\(\s*Ch\.?\s*[IVXLC\d]+\.?\s*St\.?\s*\d+\s*\)\s*",
+            "In the Gītā, ",
+            value,
+            flags=re.I,
+        )
+        value = re.sub(
+            r"\s*[—–-]*\s*\(\s*(?:Bhagavad\s+)?Gītā[^)]*\)",
+            " ", value, flags=re.I,
+        )
+    value = re.sub(r"'{2,}", '"', value)
+    value = re.sub(
+        r'\b(says?)\s*["“”’\']+\s*\(([^)]+)\)',
+        lambda match: f'{match.group(1)}: “{match.group(2).strip()}”',
+        value,
+        flags=re.I,
+    )
+    value = re.sub(r'-\s*"1"\s*', " ", value)
+    value = re.sub(r"\s*[—–-]*\s*\(\s*\)", " ", value)
+    value = re.sub(r"“\s*”", " ", value)
+    value = re.sub(r'"\s*"(?=\s*(?:[—–),.;:]|$))', " ", value)
+    value = re.sub(r'(?<=[(—–:-])"\s*"', " ", value)
+    value = re.sub(r'^"\s*"', "", value)
+    value = re.sub(r"\s*[—–-]*\s*\(\s*\)", " ", value)
+    value = re.sub(r"\s*[—–-]+\s*([,.;])", r"\1", value)
+    value = re.sub(r"\s*[—–-]+\s*[—–-]+\s*", " — ", value)
+    value = re.sub(r"\s+([,.;:!?])", r"\1", value)
+    value = re.sub(r'(["”’])\s+\.', r"\1.", value)
+    value = re.sub(r'([.!?])([\"”])\s*\.', r"\1\2", value)
+    value = re.sub(r"([:;,])\s*\.", ".", value)
+    value = remove_unmatched_parentheses(value)
+    value = re.sub(r"\s+([,.;:!?])", r"\1", value)
+    value = re.sub(r"\s+-\s+(?=[A-ZĀ-Ž“\"])", " ", value)
+    value = re.sub(r"\s+", " ", value).strip(" \t\n—–-*†‡")
+    if re.fullmatch(r'(?:Refer\s*)?["“”\s—–-]*(?:Bhagavad\s+)?Gītā(?:,\s*Chapter\s+[IVXLC\d]+)?[.\s]*', value, re.I):
+        return ""
+    return value
+
+
 def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_quotes: dict[str, dict]) -> list[dict]:
     paragraphs = commentary.split("\n\n")
-    markers = {f"@@VSNQ{index}@@": [quote] for index, quote in enumerate(sorted(quotes, key=lambda row: row["id"]))}
-    marker_for_id = {rows[0]["id"]: marker for marker, rows in markers.items()}
     operations: dict[int, list[tuple[int, int, str]]] = {}
-    translated_ids = set()
+    placements: dict[int, list[tuple[int, str, dict]]] = {}
+    placed_ids = set()
     claimed_translation_ranges: dict[int, list[tuple[int, int]]] = {}
 
-    # Put a translated quote where Chinmayananda's English originally stood.
-    # The block itself then supplies Devanāgarī → IAST → that exact English.
+    # First freeze the printed source ranges. They are removed from prose and
+    # re-rendered once as compact Sanskrit blocks at paragraph boundaries.
+    grouped: dict[tuple[int, int, int], list[dict]] = {}
+    for quote in quotes:
+        grouped.setdefault((quote["paragraph_index"], quote["source_start"], quote["source_end"]), []).append(quote)
+    source_ranges: dict[int, list[tuple[int, int]]] = {}
+    normalized_groups = []
+    for (paragraph_index, start, end), rows in grouped.items():
+        paragraph = paragraphs[paragraph_index]
+        if end > 0 and paragraph[end - 1] == "(":
+            roman_end = paragraph.find(")", end)
+            if roman_end >= 0 and parenthetical_is_romanization(paragraph[end:roman_end], rows):
+                end = roman_end + 1
+        else:
+            roman = re.match(r"\s*[\"'”’]*\s*\(([^)]{2,800})(?:\)|$)", paragraph[end:])
+            if roman and parenthetical_is_romanization(roman.group(1), rows):
+                end += roman.end()
+        normalized_groups.append((paragraph_index, start, end, sorted(rows, key=lambda row: row["id"])))
+        source_ranges.setdefault(paragraph_index, []).append((start, end))
+        operations.setdefault(paragraph_index, []).append((start, end, ""))
+
+    # Keep Chinmayananda's English in his prose. The matching Sanskrit block is
+    # appended after that complete paragraph instead of replacing the English
+    # mid-sentence. A mislabelled Roman source duplicate is removed, but its
+    # block follows the paragraph by the same rule.
     for quote in sorted(quotes, key=lambda row: row["id"]):
         translation = quote.get("chinmayananda_translation")
         if not translation:
             continue
+        reviewed = reviewed_quotes.get(quote["id"], {})
+        author_english = reviewed.get("english_source") == "Swami Chinmayananda"
         for paragraph_index, paragraph in enumerate(paragraphs):
             found = lexical_phrase_range(paragraph, translation)
             if not found:
                 continue
             if any(found[0] < end and found[1] > start for start, end in claimed_translation_ranges.get(paragraph_index, [])):
                 continue
-            operations.setdefault(paragraph_index, []).append((found[0], found[1], marker_for_id[quote["id"]]))
             claimed_translation_ranges.setdefault(paragraph_index, []).append(found)
-            translated_ids.add(quote["id"])
+            basis = "chinmayananda-translation-position" if author_english else "printed-romanization-position"
+            placements.setdefault(paragraph_index, []).append((found[0], basis, quote))
+            placed_ids.add(quote["id"])
+            if not author_english and not any(
+                found[0] < end and found[1] > start
+                for start, end in source_ranges.get(paragraph_index, [])
+            ):
+                operations.setdefault(paragraph_index, []).append((found[0], found[1], ""))
             break
 
-    # Remove the raw source-script/romanization occurrence. Quotes without a
-    # separable English translation stay at this original source position.
-    grouped: dict[tuple[int, int, int], list[dict]] = {}
-    for quote in quotes:
-        grouped.setdefault((quote["paragraph_index"], quote["source_start"], quote["source_end"]), []).append(quote)
-    for (paragraph_index, start, end), rows in grouped.items():
-        paragraph = paragraphs[paragraph_index]
-        tail = paragraph[end:]
-        roman = re.match(r"\s*[\"'”’]*\s*\([^)]{2,600}\)", tail)
-        if roman:
-            end += roman.end()
-        replacement = "".join(marker_for_id[row["id"]] for row in sorted(rows, key=lambda row: row["id"])
-                              if row["id"] not in translated_ids)
-        operations.setdefault(paragraph_index, []).append((start, end, replacement))
+    for paragraph_index, start, _end, rows in normalized_groups:
+        for quote in rows:
+            if quote["id"] not in placed_ids:
+                placements.setdefault(paragraph_index, []).append((start, "printed-source-position", quote))
 
     for paragraph_index, paragraph_operations in operations.items():
         value = paragraphs[paragraph_index]
@@ -700,56 +817,55 @@ def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_quotes
             value = value[:start] + replacement + value[end:]
         paragraphs[paragraph_index] = value
 
-    marker_pattern = "(" + "|".join(re.escape(marker) for marker in markers) + ")" if markers else r"($^)"
+    def quote_block(quote: dict, paragraph_index: int, placement_basis: str) -> dict:
+        reviewed = reviewed_quotes.get(quote["id"], {})
+        words = reviewed.get("words", [])
+        return {
+            "type": "gita-quote", "id": quote["id"],
+            "source_paragraph_index": paragraph_index,
+            "placement_basis": placement_basis,
+            "devanagari": quote["canonical_devanagari"],
+            "iast": quote["canonical_iast"],
+            "english": reviewed.get("english"),
+            "english_slots": reviewed.get("english_slots"),
+            "english_source": reviewed.get("english_source"),
+            "source_segments": reviewed.get("source_segments"),
+            "words": [quote_word_for_reader(word, index) for index, word in enumerate(words)],
+            "word_analysis_status": "primary-grammar-reviewed" if words else "withheld-pending-primary-grammar-review",
+            "printed_loci": quote["printed_loci"],
+            "canonical_locus": quote["canonical_locus"],
+            "textual_notes": quote["textual_notes"],
+        }
+
     blocks = []
-    for paragraph in paragraphs:
+    for paragraph_index, paragraph in enumerate(paragraphs):
         paragraph = re.sub(
             r"\s*[-—–]*\s*Gītā(?:\s*(?:Ch(?:apter)?\.?))?[\s,.:—–-]*"
             r"(?:XVIII|XVII|XVI|XIV|XIII|XII|XI|XV|VIII|VII|VI|IV|III|II|IX|X|V|I|\d{1,2})"
             r"[\s,.:—–-]*(?:St(?:anza)?\.?)?[\s,.:—–-]*\d{1,2}\.?",
             " ", paragraph, flags=re.I,
         )
+        paragraph_placements = placements.get(paragraph_index, [])
+        paragraph = normalize_author_translation_quotes(paragraph, paragraph_placements)
         paragraph = re.sub(r"\s*[,;:]\s*[.;]\s*", ". ", paragraph)
         paragraph = re.sub(r"\s+([,.;:!?])", r"\1", paragraph)
-        for piece in re.split(marker_pattern, paragraph):
-            if not piece:
-                continue
-            if piece in markers:
-                for quote in markers[piece]:
-                    reviewed = reviewed_quotes.get(quote["id"], {})
-                    words = reviewed.get("words", [])
-                    blocks.append({
-                        "type": "gita-quote", "id": quote["id"],
-                        "placement_basis": (
-                            (
-                                "chinmayananda-translation-position"
-                                if reviewed.get("english_source") == "Swami Chinmayananda"
-                                else "printed-romanization-position"
-                            )
-                            if quote["id"] in translated_ids else "printed-source-position"
-                        ),
-                        "devanagari": quote["canonical_devanagari"],
-                        "iast": quote["canonical_iast"],
-                        "english": reviewed.get("english"),
-                        "english_slots": reviewed.get("english_slots"),
-                        "english_source": reviewed.get("english_source"),
-                        "source_segments": reviewed.get("source_segments"),
-                        "words": [quote_word_for_reader(word, index) for index, word in enumerate(words)],
-                        "word_analysis_status": "primary-grammar-reviewed" if words else "withheld-pending-primary-grammar-review",
-                        "printed_loci": quote["printed_loci"],
-                        "canonical_locus": quote["canonical_locus"],
-                        "textual_notes": quote["textual_notes"],
-                    })
-            else:
-                prose = re.sub(r"\s+", " ", piece).strip(" \t\n—–-*†‡")
-                prose = re.sub(r"^[.;:]+[\"”’]*\s*", "", prose)
-                if prose and re.search(r"[A-Za-z\u0900-\u097f]", prose):
-                    block = {"type": "prose", "text": prose}
-                    if block_is_sanskrit_quote(prose):
-                        quote_iast = block_quote_iast(prose)
-                        if quote_iast:
-                            block["sanskrit_quote_iast"] = quote_iast
-                    blocks.append(block)
+        prose = clean_rendered_commentary_prose(paragraph, bool(paragraph_placements))
+        prose = re.sub(r"^[.;:]+[\"”’]*\s*", "", prose)
+        if paragraph_placements and re.search(r"\b(?:so says|we read|declares|as follows)$", prose, re.I):
+            prose += ":"
+        if prose.endswith(","):
+            prose = prose[:-1].rstrip()
+            if not re.search(r'[.!?][\"”]$', prose):
+                prose += "."
+        if prose and re.search(r"[A-Za-z\u0900-\u097f]", prose):
+            block = {"type": "prose", "text": prose, "source_paragraph_index": paragraph_index}
+            if block_is_sanskrit_quote(prose):
+                quote_iast = block_quote_iast(prose)
+                if quote_iast:
+                    block["sanskrit_quote_iast"] = quote_iast
+            blocks.append(block)
+        for position, basis, quote in sorted(paragraph_placements, key=lambda row: (row[0], row[2]["id"])):
+            blocks.append(quote_block(quote, paragraph_index, basis))
     return blocks
 
 
@@ -918,6 +1034,9 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
 
 INLINE_IAST_TOKEN_RE = re.compile(r"(?<![A-Za-zĀ-ỹÑñ])(?:√)?[A-Za-zĀ-ỹÑñ'’\-]+")
 INLINE_IAST_MARK_RE = re.compile(r"[āīūṛṝḷṅñṭḍṇśṣṃṁḥ]|^√")
+PROSE_FORMAT_DAMAGE_RE = re.compile(
+    r'["“]\s*["”](?=\s*(?:[—–),.;:]|$))|\(\s*\)|["“]\s*\d+\s*["”]|,\s*$|\bIn\s+Gītā\.\s*\(\s*Ch\.'
+)
 
 
 def unannotated_sanskrit(text: str, annotations: list[dict]) -> bool:
@@ -1060,6 +1179,10 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                     )
                     if unannotated_sanskrit(block.get("text", ""), annotations):
                         errors.append(f"name {number} prose retains unannotated Sanskrit")
+                    if PROSE_FORMAT_DAMAGE_RE.search(block.get("text", "")):
+                        errors.append(f"name {number} prose retains an empty quotation/citation shell")
+                    if block.get("text", "").count("(") != block.get("text", "").count(")"):
+                        errors.append(f"name {number} prose retains unmatched parentheses")
                     for annotation in annotations:
                         words = annotation.get("words", [])
                         word_indices = [word.get("i") for word in words]
@@ -1132,6 +1255,16 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                         }
                         if source_indices != set(range(len(words))):
                             errors.append(f"name {number} quote {block.get('id')} source segments do not cover every word")
+            visible_prose_key = english_source_key(" ".join(
+                block.get("text", "") for block in blocks if block.get("type") == "prose"
+            ))
+            for block in blocks:
+                if (
+                    block.get("type") in ("gita-quote", "sanskrit-quote")
+                    and block.get("english_source") == "Swami Chinmayananda"
+                    and english_source_key(block.get("english", "")) not in visible_prose_key
+                ):
+                    errors.append(f"name {number} quote {block.get('id')} drops Chinmayananda's English from prose")
             detail = source.get("detail", "") if source else ""
             opening_excerpt = source.get("opening_excerpt", "") if source else ""
             if opening_excerpt and detail and re.match(
@@ -1155,10 +1288,12 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
         if len(ascii_inline_ids) != len(set(ascii_inline_ids)):
             raise ValueError("reviewed ASCII Sanskrit occurrence ids are duplicated in rendered prose")
         if set(ascii_inline_ids) != expected_ascii_inline:
+            missing_ascii = sorted(expected_ascii_inline - set(ascii_inline_ids))
+            extra_ascii = sorted(set(ascii_inline_ids) - expected_ascii_inline)
             raise ValueError(
                 "reviewed ASCII Sanskrit render population differs: "
-                f"missing={len(expected_ascii_inline - set(ascii_inline_ids))}, "
-                f"extra={len(set(ascii_inline_ids) - expected_ascii_inline)}"
+                f"missing={len(missing_ascii)} {missing_ascii[:10]}, "
+                f"extra={len(extra_ascii)} {extra_ascii[:10]}"
             )
     return {
         "preface_units": sum(len(group.get("units", [])) for group in preface_groups),
