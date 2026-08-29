@@ -5615,6 +5615,7 @@ async function openArticle(a) {
   }
   if (dpArticleBody) dpArticleBody.innerHTML = "<article><p style=\"color:var(--muted);font-style:italic\">Loading…</p></article>";
   openPanel("article");
+  if (a.interactive) setReadingMode(true, { skipAutoOpen: true });
 
   // Interactive readings (e.g. the Gītā word-by-word page) render via their
   // own engine into the article body instead of fetching a markdown file.

@@ -319,7 +319,7 @@ html[data-theme="dark"] .seg-reply          { background: #1e2c1d; }
 .seg-key { padding: 1px 8px; border-radius: 9px; color: var(--ink-soft); }
 
 /* tappable words + highlight (cards open on click only) */
-.w {
+.w, .wsg {
   cursor: pointer; border-radius: 3px; padding: 1px 2px;
   text-decoration: underline; text-decoration-color: var(--rule);
   text-underline-offset: 3px; text-decoration-thickness: 1px;
@@ -327,13 +327,18 @@ html[data-theme="dark"] .seg-reply          { background: #1e2c1d; }
 }
 /* hover highlights the matching word(s) in the other language (.hl, set by JS);
    click pins a stronger highlight (.hi) and opens the card */
-.w:hover, .w.hl, .we:hover, .we.hl { background: #f3eccf; }
-.w:focus, .w.hi, .we.hi { background: #e7d68f; outline: none; }
+.w:hover, .w.hl, .wsg:hover, .wsg.hl, .we:hover, .we.hl { background: #f3eccf; }
+.w:focus, .w.hi, .wsg:focus, .wsg.hi, .we.hi { background: #e7d68f; outline: none; }
 .w-name { text-decoration-style: dotted; }
 .we { border-radius: 3px; padding: 0 1px; cursor: pointer; transition: background .12s; }
+.ix-inline { display: inline; }
+.ix-inline .wsg { display: inline; text-decoration-style: dotted; }
 html[data-theme="dark"] .w:hover, html[data-theme="dark"] .w.hl,
+html[data-theme="dark"] .wsg:hover, html[data-theme="dark"] .wsg.hl,
 html[data-theme="dark"] .we:hover, html[data-theme="dark"] .we.hl { background: #34301c; }
-html[data-theme="dark"] .w:focus, html[data-theme="dark"] .w.hi, html[data-theme="dark"] .we.hi { background: #4a4422; }
+html[data-theme="dark"] .w:focus, html[data-theme="dark"] .w.hi,
+html[data-theme="dark"] .wsg:focus, html[data-theme="dark"] .wsg.hi,
+html[data-theme="dark"] .we.hi { background: #4a4422; }
 
 /* ---------- voices under a verse (only the chosen one shows) ---------- */
 .verse-voices { margin-top: 16px; display: flex; flex-direction: column; gap: 14px; }
@@ -358,6 +363,7 @@ html[data-theme="dark"] .w:focus, html[data-theme="dark"] .w.hi, html[data-theme
   background: var(--bg); border: 1px solid var(--rule);
   border-radius: 10px; box-shadow: var(--shadow-md);
   padding: 13px 15px; font-family: var(--sans); font-size: 13px; line-height: 1.5; color: var(--ink);
+  max-height: calc(100vh - 20px); overflow-y: auto;
 }
 .wc-top { margin-bottom: 2px; }
 .wc-word { font-family: var(--serif); font-size: 17px; font-weight: 600; }
@@ -374,6 +380,8 @@ html[data-theme="dark"] .w:focus, html[data-theme="dark"] .w.hi, html[data-theme
 .wc-gls { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; }
 .wc-gl { font-family: var(--sans); font-size: 12px; cursor: pointer; background: none; border: none; color: #8a6d1f; padding: 0; font-weight: 600; text-align: left; max-width: 100%; overflow-wrap: anywhere; }
 .wc-gl:hover { text-decoration: underline; }
+.wc-group-entry { border-top: 1px solid var(--hairline); padding-top: 9px; margin-top: 9px; }
+.wc-group-entry .wc-mean, .wc-group-entry .wc-parts, .wc-group-entry .wc-gram { margin-bottom: 5px; }
 html[data-theme="dark"] .wc-gl { color: #d8c074; }
 
 /* ---------- glossary popover ---------- */

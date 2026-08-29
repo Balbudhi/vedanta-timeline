@@ -77,6 +77,12 @@ function wordSpan(w, script) {
   return `<span class="${cls}${script === "deva" ? " w-deva" : ""}" data-wi="${w.i}" tabindex="0" role="button" lang="${lang}">${esc(text)}</span>`;
 }
 function renderPada(words, script) { return words.map(w => wordSpan(w, script)).join(" "); }
+function renderDevaSegments(segments) {
+  return segments.map(segment => {
+    const indices = (segment.word_indices || []).join(" ");
+    return `<span class="wsg w-deva" data-wi="${esc(indices)}" tabindex="0" role="button" lang="sa-Deva">${esc(segment.text || "")}</span>`;
+  }).join("");
+}
 
 // Commentary pada coloured by rhetorical move (gloss · interpretation ·
 // citation · objection · reply). gloss is the unlabeled baseline; the others
@@ -95,11 +101,13 @@ function renderPadaSegmented(words, segments) {
    tappable IAST pada line, then slotted English.
    Used for the mūla and for any commentary entry that carries words[]+english.
    When `segments` is present (commentary), the pada is colour-coded by move. */
-function interactiveBlock(words, english, segments, devanagari, devaClass) {
+function interactiveBlock(words, english, segments, devanagari, devaClass, sourceSegments) {
   const id = newScope(words);
   const pada = (segments && segments.length) ? renderPadaSegmented(words, segments) : renderPada(words, "iast");
   const deva = devanagari
-    ? (words.every(w => w.deva && w.surface_iast) ? renderPada(words, "deva") : esc(devanagari).replace(/\n/g, "<br>"))
+    ? (sourceSegments && sourceSegments.length
+      ? renderDevaSegments(sourceSegments)
+      : (words.every(w => w.deva && w.surface_iast) ? renderPada(words, "deva") : esc(devanagari).replace(/\n/g, "<br>")))
     : "";
   const en = english ? renderEnglish(english) : "";
   return `<div class="ix" data-wscope="${id}">
@@ -107,6 +115,16 @@ function interactiveBlock(words, english, segments, devanagari, devaClass) {
     <div class="ix-pada" lang="sa-Latn">${pada}</div>
     ${en ? `<div class="ix-en">${en}</div>` : ""}
   </div>`;
+}
+
+function interactiveInline(words, text, sourceSegments, language) {
+  const id = newScope(words);
+  const indices = words.map(word => word.i).join(" ");
+  const lang = language === "sa-Deva" ? "sa-Deva" : "sa-Latn";
+  const body = sourceSegments && sourceSegments.length
+    ? sourceSegments.map(segment => `<span class="wsg" data-wi="${esc((segment.word_indices || []).join(" "))}" tabindex="0" role="button" lang="${lang}">${esc(segment.text || "")}</span>`).join("")
+    : `<span class="wsg" data-wi="${esc(indices)}" tabindex="0" role="button" lang="${lang}">${esc(text || "")}</span>`;
+  return `<span class="ix-inline" data-wscope="${id}">${body}</span>`;
 }
 
 /* ---------- voices ---------- */
@@ -444,11 +462,13 @@ function renderGrammarNote(p) {
 /* ---------- word ↔ English highlight + card (CLICK ONLY) ---------- */
 let sticky = null;
 function scopeOf(span) { return span.closest("[data-wscope]"); }
-function wordOf(span) {
+function wordsOf(span) {
   const sc = scopeOf(span); if (!sc) return null;
   const ws = SCOPES[sc.dataset.wscope]; if (!ws) return null;
-  return ws.find(w => String(w.i) === String(span.dataset.wi));
+  const indices = new Set(String(span.dataset.wi || "").split(/\s+/).filter(Boolean));
+  return ws.filter(w => indices.has(String(w.i)));
 }
+function wordOf(span) { return (wordsOf(span) || [])[0] || null; }
 // Single entry point for opening the site glossary from the reader: dismiss the
 // word-card first so it can never sit on top of and block the glossary, then
 // delegate to the host popover (embedded) or our own (standalone, deprecated).
@@ -463,16 +483,20 @@ function openTermGlossary(key, anchor) {
 }
 function activate(span) {
   const sc = scopeOf(span); if (!sc) return;
-  const i = span.dataset.wi;
-  sc.querySelectorAll(`.w[data-wi="${CSS.escape(i)}"]`).forEach(el => el.classList.add("hi"));
-  sc.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).includes(i)) el.classList.add("hi"); });
-  const w = wordOf(span); if (w) showCard(span, w);
+  const indices = new Set(String(span.dataset.wi || "").split(/\s+/).filter(Boolean));
+  sc.querySelectorAll(".w").forEach(el => { if (indices.has(el.dataset.wi)) el.classList.add("hi"); });
+  sc.querySelectorAll(".wsg").forEach(el => { if (el.dataset.wi.split(/\s+/).some(i => indices.has(i))) el.classList.add("hi"); });
+  sc.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).some(i => indices.has(i))) el.classList.add("hi"); });
+  const words = wordsOf(span) || [];
+  if (words.length > 1) showGroupCard(span, words);
+  else if (words[0]) showCard(span, words[0]);
 }
 function deactivate(span) {
   const sc = scopeOf(span); if (!sc) return;
-  const i = span.dataset.wi;
-  sc.querySelectorAll(`.w[data-wi="${CSS.escape(i)}"]`).forEach(el => el.classList.remove("hi"));
-  sc.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).includes(i)) el.classList.remove("hi"); });
+  const indices = new Set(String(span.dataset.wi || "").split(/\s+/).filter(Boolean));
+  sc.querySelectorAll(".w").forEach(el => { if (indices.has(el.dataset.wi)) el.classList.remove("hi"); });
+  sc.querySelectorAll(".wsg").forEach(el => { if (el.dataset.wi.split(/\s+/).some(i => indices.has(i))) el.classList.remove("hi"); });
+  sc.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).some(i => indices.has(i))) el.classList.remove("hi"); });
   hideCard();
 }
 function clearSticky() { if (sticky) { deactivate(sticky); sticky = null; } }
@@ -489,6 +513,7 @@ function pinWord(w) {
 function hoverSet(scopeEl, indices, on) {
   const set = new Set(indices);
   scopeEl.querySelectorAll(".w").forEach(el => { if (set.has(el.dataset.wi)) el.classList.toggle("hl", on); });
+  scopeEl.querySelectorAll(".wsg").forEach(el => { if (el.dataset.wi.split(/\s+/).some(x => set.has(x))) el.classList.toggle("hl", on); });
   scopeEl.querySelectorAll(".we").forEach(el => { if (el.dataset.wi.split(/\s+/).some(x => set.has(x))) el.classList.toggle("hl", on); });
 }
 function hoverTargets(t) {
@@ -500,11 +525,11 @@ function wireWords() {
   if (!ROOT || ROOT.dataset.gitaWordsBound) return;
   ROOT.dataset.gitaWordsBound = "1";
   ROOT.addEventListener("mouseover", e => {
-    const t = e.target.closest(".w, .we"); if (!t) return;
+    const t = e.target.closest(".w, .we, .wsg"); if (!t) return;
     const h = hoverTargets(t); if (h) hoverSet(h.sc, h.idxs, true);
   });
   ROOT.addEventListener("mouseout", e => {
-    const t = e.target.closest(".w, .we"); if (!t) return;
+    const t = e.target.closest(".w, .we, .wsg"); if (!t) return;
     const h = hoverTargets(t); if (h) hoverSet(h.sc, h.idxs, false);
   });
   ROOT.addEventListener("click", e => {
@@ -530,17 +555,18 @@ function wireWords() {
     // Sanskrit word. The glossary opens ONLY from the card's "Explain …"
     // button, never directly from a word click (so the reader always sees the
     // card's morphology first, and the glossary never surprises them).
-    const we = e.target.closest(".we");
+    const we = e.target.closest(".we, .wsg");
     if (we) {
       e.stopPropagation();
       const sc = we.closest("[data-wscope]"); if (!sc) return;
       const firstI = we.dataset.wi.split(/\s+/)[0];
       const wspan = sc.querySelector(`.w[data-wi="${firstI}"]`);
-      if (wspan) pinWord(wspan);
+      const grouped = we.dataset.wi.split(/\s+/).filter(Boolean).length > 1;
+      pinWord(grouped ? we : (wspan || we));
     }
   });
   ROOT.addEventListener("keydown", e => {
-    const w = e.target.closest(".w"); if (!w) return;
+    const w = e.target.closest(".w, .wsg"); if (!w) return;
     if (e.key === "Enter" || e.key === " ") { e.preventDefault(); w.click(); }
   });
   document.addEventListener("click", e => {
@@ -566,6 +592,31 @@ function ensureCard() {
   cardEl.className = "wcard"; cardEl.setAttribute("role", "tooltip"); cardEl.hidden = true;
   document.body.appendChild(cardEl);
   return cardEl;
+}
+function showGroupCard(span, words) {
+  const card = ensureCard();
+  const rows = [
+    `<div class="wc-top"><span class="wc-word" lang="sa-Deva">${esc(span.textContent.trim())}</span></div>`,
+    `<div class="wc-mean">Sandhi or compound surface: ${words.length} grammatical words</div>`,
+  ];
+  for (const w of words) {
+    const details = [];
+    if (w.morph) details.push(plainMorph(w.morph));
+    if (w.stem) details.push(`stem: ${w.stem}`);
+    if (w.affix) details.push(`formation: ${w.affix}`);
+    if (w.root && w.rootGloss) details.push(`${w.root}: ${w.rootGloss}`);
+    const parts = w.parts && w.parts.length
+      ? `<div class="wc-parts">${w.parts.map(p => `<span class="wc-part"><span class="wc-pf" lang="sa-Latn">${esc(p.form)}</span>${p.gloss ? `<span class="wc-pg">${esc(p.gloss)}</span>` : ""}</span>`).join("")}</div>`
+      : "";
+    rows.push(`<div class="wc-group-entry">
+      <div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(w.iast)}</span></div>
+      <div class="wc-mean">${esc(w.gloss)}</div>
+      ${parts}
+      ${details.length ? `<div class="wc-gram">${details.map(esc).join("<br>")}</div>` : ""}
+    </div>`);
+  }
+  card.innerHTML = rows.join("");
+  card.style.visibility = "hidden"; card.hidden = false; place(card, span); card.style.visibility = "visible";
 }
 function showCard(span, w) {
   const card = ensureCard();
@@ -936,7 +987,7 @@ function clearWords() {
   hideGrammarCard();
 }
 
-window.GitaReader = { render, renderPassages, interactiveBlock, bindWords, clearWords };
+window.GitaReader = { render, renderPassages, interactiveBlock, interactiveInline, bindWords, clearWords };
 
 // Standalone page bootstrap (no-op inside the app, where #gitaRoot is absent).
 document.addEventListener("DOMContentLoaded", () => {

@@ -1548,8 +1548,11 @@ body.is-reading-mode .detail-pane {
   pointer-events: auto;
 }
 body.is-reading-mode #detailContent {
-  max-width: 720px;
+  width: min(920px, 100%);
+  max-width: min(920px, 100%);
   padding: 56px 32px 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body.is-reading-mode .thesis { font-size: 17px; }
 body.is-reading-mode .passage-card .sanskrit { font-size: 18px; }
@@ -1561,12 +1564,12 @@ body.is-reading-mode .passage-card .english { font-size: 15.5px; }
    text edge-to-edge. Reader actions remain in the stable panel header. */
 body.is-reading-mode #dpArticleHead,
 body.is-reading-mode #dpArticleBody {
-  /* min(820px, 100%), not 820px: this is a flex item, so its base size comes
-     from its content and a bare max-width becomes the *used* width whenever
-     the content is wider than the phone. The pane then rendered 820px inside a
-     390px viewport, and because the ancestors clip overflow, every line was
-     chopped off at the right edge with no way to scroll to it. */
-  max-width: min(820px, 100%);
+  /* Keep the full-screen reader centered at a comfortable long-form measure
+     rather than stretching edge to edge. The explicit width keeps flex sizing
+     honest on narrow screens, where a bare max-width can become the used width
+     and clip content off the right edge. */
+  width: min(920px, 100%);
+  max-width: min(920px, 100%);
   margin-left: auto; margin-right: auto;
 }
 body.is-reading-mode #dpArticleBody { padding-bottom: 96px; }

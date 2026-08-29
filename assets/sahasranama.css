@@ -136,6 +136,14 @@
 .vsn-commentary-quote .ix-pada { margin-bottom: 7px; font-size: 14px; line-height: 1.65; }
 .vsn-commentary-quote .ix-en { color: var(--ink-soft); font-size: 14px; line-height: 1.6; }
 .vsn-commentary-quote-note { margin-top: 8px; }
+.vsn-commentary-quote-note--site {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+  align-items: start;
+  padding-left: 10px;
+  border-left: 1px solid color-mix(in srgb, var(--rule) 50%, transparent);
+}
 .vsn-commentary-quote-badge {
   display: inline-block;
   padding: 3px 8px;
@@ -147,6 +155,10 @@
   text-transform: uppercase;
   white-space: nowrap;
 }
+.vsn-commentary-quote-note-text {
+  color: var(--muted-soft);
+  font: 10px/1.45 var(--sans);
+}
 .vsn-commentary-quote-source,
 .vsn-quote-note { color: var(--muted-soft); font: 10px/1.45 var(--sans); }
 .vsn-commentary-quote-source { margin-top: 8px; }
@@ -156,6 +168,20 @@
   border-left: 2px solid var(--rule); color: var(--ink);
   background: color-mix(in srgb, var(--bg-warm) 58%, transparent);
   font-family: var(--serif); font-style: normal; line-height: 1.7;
+}
+.vsn-sanskrit-source-passage {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.vsn-source-passage-text { min-width: 0; }
+.vsn-source-passage-note {
+  align-self: flex-end;
+  max-width: min(100%, 38ch);
+  padding-left: 10px;
+  border-left: 2px solid color-mix(in srgb, var(--rule) 54%, transparent);
+  color: var(--muted-soft);
+  font: 10px/1.45 var(--sans);
 }
 .vsn-detail-copy q { font-style: italic; quotes: "“" "”" "‘" "’"; }
 .vsn-detail-copy q::before { content: open-quote; }
@@ -195,4 +221,5 @@
   }
   .vsn-meaning-item > span { padding: 8px 7px; }
   .vsn-meaning-item > span:first-child { padding-left: 0; }
+  .vsn-commentary-quote-note--site { grid-template-columns: 1fr; }
 }
