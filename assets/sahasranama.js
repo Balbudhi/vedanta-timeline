@@ -35,8 +35,8 @@ const PILOT_SITE_LITERALS = {
     note: "Literal translation — site; printed fragment",
   },
   "name-2-paragraph-1": {
-    englishSlots: "{0:Because} {1:pervaded} {2:this} {3:entire universe} {4:by his} {5:power}, {6:of the great Self}; {7:therefore} {10:Viṣṇu} {8,9:is indeed called}, {11:from √viś}, {12:the root}, {13:‘to enter’}.",
-    note: "Literal translation — site; printed attribution",
+    englishSlots: "{0:Because} {2:this} {3:entire universe} {1:is pervaded} {5:by the power} {4:of} {6:the great Self}; {7:therefore} {10:Viṣṇu} {8,9:is indeed called}, {11:from √viś}, {12:the root}, {13:‘to enter’}.",
+    note: "Site literal",
   },
 };
 const PILOT_ENGLISH_SLOT_OVERRIDES = {
@@ -483,7 +483,7 @@ function renderCommentaryBlock(block, context = {}) {
     const applies = Array.isArray(block.additional_name_numbers) && block.additional_name_numbers.length
       ? ` · also names ${block.additional_name_numbers.join(", ")}`
       : "";
-    const sourceLabel = quoteSourceLabel(block);
+    const sourceLabel = quoteSourceLabel(block) === "Chinmayananda’s note" ? "Chinmayananda" : quoteSourceLabel(block);
     const quote = children.find(child => child.type === "gita-quote" || child.type === "sanskrit-quote");
     const kind = citationKind(quote);
     return `<aside class="vsn-footnote vsn-evidence-thread vsn-evidence-thread--${kind}" id="${esc(block.id)}" role="note" data-print-marker="${esc(block.marker)}" aria-label="${esc(`${sourceLabel}; printed note ${block.marker}`)}">
@@ -515,8 +515,19 @@ function renderCommentaryBlock(block, context = {}) {
 }
 
 function commentaryBlocks(name) {
-  const blocks = name.chinmayananda?.blocks;
+  const sourceBlocks = name.chinmayananda?.blocks;
+  const blocks = Array.isArray(sourceBlocks) ? [...sourceBlocks] : sourceBlocks;
   if (!Array.isArray(blocks) || !blocks.length) return paragraphs(name.chinmayananda?.commentary || "");
+  if (name.number === 2) {
+    const sourceIndex = blocks.findIndex((block, index) =>
+      block.type === "prose" && /Viṣṇu Purāṇa \(3-1\) says:\s*$/.test(block.text || "") &&
+      blocks[index + 1]?.type === "footnote" && blocks[index + 2]?.type === "prose" &&
+      /^[\u0900-\u097f]/u.test(String(blocks[index + 2].text || "").trim()));
+    if (sourceIndex >= 0) {
+      const [note] = blocks.splice(sourceIndex + 1, 1);
+      blocks.splice(sourceIndex + 2, 0, note);
+    }
+  }
   const footnoteLabels = new Map(blocks.filter(block => block.type === "footnote").map(block => [block.id, quoteSourceLabel(block)]));
   const items = [];
   let currentClaim = null;
@@ -1049,11 +1060,12 @@ function wireNameRange() {
   const syncFromScroll = () => {
     frame = 0;
     if (!scrollRoot) return;
-    const focusY = scrollRoot.getBoundingClientRect().top + 78;
-    const verse = [...ROOT.querySelectorAll(".vsn-verse")].find(item => {
-      const rect = item.getBoundingClientRect();
-      return rect.top <= focusY && rect.bottom > focusY;
-    });
+    const focusY = scrollRoot.scrollTop + 78;
+    let verse = null;
+    for (const candidate of ROOT.querySelectorAll(".vsn-verse")) {
+      if (candidate.offsetTop > focusY) break;
+      verse = candidate;
+    }
     if (verse) updateNameRange(DATA.stanzas[Number(verse.dataset.stanzaNumber) - 1]);
   };
   if (scrollRoot) {
@@ -1081,7 +1093,7 @@ async function openDeepLinkedName() {
     if (!target) return;
     target.classList.add("vsn-deep-link-target");
     target.scrollIntoView({ behavior: "auto", block: "start" });
-    const stanza = DATA.stanzas.find(item => (item.name_numbers || []).includes(number));
+    const stanza = DATA.stanzas.find(item => (item.name_numbers || []).some(value => Number(value) === number));
     updateNameRange(stanza);
     writeDeepLinkName(number);
     DEEP_LINK_NAME = null;
@@ -1237,6 +1249,7 @@ async function render(root, options) {
   LINKIFY = typeof options.linkifyGlossary === "function" ? options.linkifyGlossary : null;
   ON_THINKER = typeof options.onThinker === "function" ? options.onThinker : null;
   DETAILS_OPEN = false;
+  RANGE_ACTIVE_STANZA = null;
   CHANT_ONLY = readChantView();
   DEEP_LINK_NAME = readDeepLinkName();
   if (DEEP_LINK_NAME) CHANT_ONLY = false;
