@@ -18,6 +18,25 @@ let ACTIVE_TIMING_ID = null;
 let AUDIO_ELEMENT = null;
 let MODE_HOST = null;
 const CHANT_VIEW_KEY = "vedanta:vishnu-sahasranama:chant-only";
+const PILOT_NAME_NUMBERS = new Set([1, 2, 101, 500, 750]);
+const PILOT_WORD_CORRECTIONS = {
+  // The witnessed surface is यतोऽव्ययः. The existing source segments preserve
+  // it, while this one card's IAST token was serialized as "yatas".
+  "cm-vs-fn-p020-n01-quote-0": { 4: { iast: "yataḥ", deva: "यतः" } },
+};
+const PILOT_DERIVATION_ROWS = {
+  // Transcribed from Chinmayananda's printed note on p. 137 (PDF 141).
+  "cm-vs-fn-p141-n01": {
+    devanagari: "भुनक्ति इति भोक्ता",
+    iast: "bhunakti iti bhoktā",
+    english: "Protector",
+    note: "Printed derivation; word analysis not yet published",
+  },
+};
+let DEEP_LINK_NAME = null;
+let RANGE_OBSERVER = null;
+let RANGE_ACTIVE_STANZA = null;
+let DETAILS_OBSERVER = null;
 
 function esc(value) {
   return String(value == null ? "" : value).replace(/[&<>"']/g, c => ({
@@ -39,12 +58,54 @@ function fmtTime(seconds) {
   return `${Math.floor(seconds / 60)}:${Math.floor(seconds % 60).toString().padStart(2, "0")}`;
 }
 
-function richProse(text, inlineSanskrit) {
+function isPilotName(number) {
+  return PILOT_NAME_NUMBERS.has(Number(number));
+}
+
+function inlineSanskritIsAQuotedPersonOrTitle(item) {
+  const word = Array.isArray(item?.words) && item.words.length === 1 ? item.words[0] : null;
+  const morph = String(word?.morph || "").toLowerCase();
+  return morph.includes("proper name") || morph.includes("work title") || morph.includes("title");
+}
+
+function conciseInlineGloss(word) {
+  const direct = String(word?.gloss || "").trim();
+  if (direct.length <= 54) return direct;
+  const parts = (word?.parts || []).filter(part => !/ending|marker|suffix|affix|nominative|accusative|genitive|dative|instrumental/i.test(String(part.kind || "") + " " + String(part.gloss || "")));
+  return String(parts[0]?.gloss || "").trim();
+}
+
+function inlineSanskritReading(item, normalized) {
+  const inline = window.GitaReader?.interactiveInline
+    ? window.GitaReader.interactiveInline(item.words || [], item.text, item.source_segments || null, item.language)
+    : esc(item.text);
+  if (!normalized || !Array.isArray(item?.words) || item.words.length !== 1 || inlineSanskritIsAQuotedPersonOrTitle(item)) return inline;
+  const word = item.words[0];
+  const deva = String(word.deva || "").trim();
+  const gloss = conciseInlineGloss(word);
+  if (!deva || !gloss || gloss.toLowerCase() === String(word.iast || "").toLowerCase()) return inline;
+  return `<span class="vsn-inline-sanskrit"><span class="vsn-inline-deva" lang="sa-Deva">${esc(deva)}</span><span class="vsn-inline-iast" lang="sa-Latn">${inline}</span><span class="vsn-inline-gloss">${esc(gloss)}</span></span>`;
+}
+
+function hasTextBoundary(source, start, end) {
+  const isLetter = value => /[A-Za-zĀ-ỹÑñ]/u.test(value || "");
+  return !isLetter(source[start - 1]) && !isLetter(source[end]);
+}
+
+function richProse(text, inlineSanskrit, options = {}) {
   const link = value => LINKIFY ? LINKIFY(value) : esc(value);
   let source = String(text || "");
   const markers = [];
+  const suppress = options.suppressInlineIds || new Set();
   if (Array.isArray(inlineSanskrit) && inlineSanskrit.length) {
     for (const [index, item] of [...inlineSanskrit].sort((a, b) => b.start - a.start).entries()) {
+      // A detection span inside an English word (for example, "ity" in
+      // "Reality") is an audit candidate, not public Sanskrit.
+      if (!hasTextBoundary(source, item.start, item.end)) continue;
+      if (suppress.has(item.id)) {
+        source = source.slice(0, item.start) + source.slice(item.end);
+        continue;
+      }
       // Private-use delimiters plus digits survive glossary linkification;
       // alphabetic marker text can itself be mistaken for a glossary alias.
       const marker = `\uE000${index}\uE001`;
@@ -52,7 +113,10 @@ function richProse(text, inlineSanskrit) {
       source = source.slice(0, item.start) + marker + source.slice(item.end);
     }
   }
-  source = source.replace(/[*†‡]+/g, "");
+  source = source.replace(/[*†‡]+/g, "")
+    .replace(/[‘’'“”"]\s*[‘’'“”"]\s*\./g, ".")
+    .replace(/[‘’'“”"]\s*\./g, ".")
+    .replace(/\.\s*\./g, ".");
   const quote = /[“"]([^”"]+)[”"]/g;
   let out = "", last = 0, match;
   while ((match = quote.exec(source)) !== null) {
@@ -62,9 +126,7 @@ function richProse(text, inlineSanskrit) {
   }
   out += link(source.slice(last));
   for (const { marker, item } of markers) {
-    const inline = window.GitaReader?.interactiveInline
-      ? window.GitaReader.interactiveInline(item.words || [], item.text, item.source_segments || null, item.language)
-      : esc(item.text);
+    const inline = inlineSanskritReading(item, Boolean(options.normalizedSanskrit));
     out = out.split(marker).join(inline);
   }
   return out;
@@ -89,7 +151,7 @@ function looksLikeSanskritParagraph(text) {
   return markerCount >= 2 && markerCount >= englishCount;
 }
 
-function renderSanskritParagraph(block) {
+function renderSanskritParagraph(block, context = {}) {
   const value = String(block.text || "").trim();
   const inlineSanskrit = block.inline_sanskrit;
   const citation = value.match(/\s+[—–]\s+((?:(?:[A-ZĀ-Ž][A-Za-zĀ-ỹÑñ'’.\-]*\s*){0,3})(?:Upaniṣad|Up\.|Purāṇa|Parva|Veda|Smṛti|Mahābhārata|Bhāgavata|Gītā|Kaṭha|Katha|Chāndogya|Taittirīya|Aitareya|Bṛhadāraṇyaka|Śvetāśvatara|Muṇḍaka|Mundaka|Harivaṃśa|Kośa|śāstra|Vyāsa|Īśa|Ṛg)[^—–]*?)\.?$/i);
@@ -113,6 +175,14 @@ function renderSanskritParagraph(block) {
       <div class="vsn-source-passage-text">${sanskrit}</div>
       ${displaySource ? `<footer class="vsn-commentary-quote-source">${esc(displaySource)}</footer>` : ""}
     </blockquote>${after}`;
+  }
+  const standalone = Array.isArray(inlineSanskrit) && inlineSanskrit.length === 1 &&
+    /^[\u0900-\u097f]/u.test(value) && Array.isArray(inlineSanskrit[0].words) && inlineSanskrit[0].words.length;
+  if (standalone && window.GitaReader?.interactiveBlock) {
+    const item = inlineSanskrit[0];
+    const sanskrit = window.GitaReader.interactiveBlock(item.words, null, null, value, "vsn-commentary-quote-deva", item.source_segments || null);
+    const pending = context.normalizedSanskrit ? `<div class="vsn-translation-pending">Literal English not yet published</div>` : "";
+    return `<blockquote class="vsn-source-passage vsn-sanskrit-source-passage"><div class="vsn-source-passage-text">${sanskrit}</div>${pending}</blockquote>`;
   }
   const bodyAnnotations = Array.isArray(inlineSanskrit)
     ? inlineSanskrit.filter(item => item.start < body.length && item.end <= body.length)
@@ -173,17 +243,68 @@ function compactReplayKey(value) {
   return String(value || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
 
+function quoteSourceLabel(block) {
+  if (PILOT_DERIVATION_ROWS[block?.id]) return "Printed derivation";
+  const quote = (block.blocks || []).find(child => child.type === "gita-quote" || child.type === "sanskrit-quote");
+  if (!quote) return "Chinmayananda’s note";
+  return /printed by chinmayananda|not independently verified/i.test(String(quote.canonical_locus || ""))
+    ? "Printed explanatory citation"
+    : conciseQuoteSource(quote);
+}
+
+function presentationWords(block) {
+  const corrections = PILOT_WORD_CORRECTIONS[block?.id];
+  if (!corrections) return block?.words || [];
+  return (block.words || []).map(word => corrections[word.i] ? { ...word, ...corrections[word.i] } : word);
+}
+
+function renderPilotDerivationRow(block) {
+  const row = PILOT_DERIVATION_ROWS[block.id];
+  if (!row) return "";
+  return `<div class="vsn-derivation-row">
+    <div class="vsn-derivation-deva" lang="sa-Deva">${esc(row.devanagari)}</div>
+    <div class="vsn-derivation-iast" lang="sa-Latn">${esc(row.iast)}</div>
+    <div class="vsn-derivation-english">${esc(row.english)}</div>
+    <div class="vsn-translation-pending">${esc(row.note)}</div>
+  </div>`;
+}
+
+function quotedWordForms(block) {
+  const forms = new Set();
+  for (const child of block?.blocks || []) {
+    if (child.type !== "gita-quote" && child.type !== "sanskrit-quote") continue;
+    for (const word of child.words || []) forms.add(String(word.iast || "").replace(/[’']/g, "").toLowerCase().replace(/ḥ$/u, ""));
+  }
+  return forms;
+}
+
+function renderFootnoteCall(call, labels) {
+  const label = labels?.get(call.id) || "Source note";
+  return `<a class="vsn-footnote-call" href="#${esc(call.id)}" aria-label="${esc(`${label}; printed note ${call.marker}`)}" title="${esc(label)}">${esc(label)} <span aria-hidden="true">${esc(call.marker)}</span></a>`;
+}
+
 function renderCommentaryBlock(block, context = {}) {
   if (block.type === "prose") {
     const calls = Array.isArray(block.footnote_calls)
-      ? block.footnote_calls.map(call => `<sup class="vsn-footnote-call" aria-label="Source note ${esc(call.marker)}">${esc(call.marker)}</sup>`).join("")
+      ? block.footnote_calls.map(call => renderFootnoteCall(call, context.footnoteLabels)).join("")
       : "";
     if (block.display_devanagari || looksLikeStandaloneInteractiveSanskrit(block.text, block.inline_sanskrit)) {
-      return `${renderSanskritParagraph(block)}${calls}`;
+      return `${renderSanskritParagraph(block, context)}${calls}`;
     }
-    return `<p class="vsn-prose">${richProse(block.text, block.inline_sanskrit)}${calls}</p>`;
+    return `<p class="vsn-prose">${richProse(block.text, block.inline_sanskrit, {
+      normalizedSanskrit: context.normalizedSanskrit,
+      suppressInlineIds: context.suppressInlineIds,
+    })}${calls}</p>`;
   }
   if (block.type === "footnote") {
+    const pilotDerivation = renderPilotDerivationRow(block);
+    if (pilotDerivation) {
+      return `<aside class="vsn-footnote vsn-derivation-note" id="${esc(block.id)}" role="note" aria-label="${esc(`Printed derivation; note ${block.marker}`)}">
+        <div class="vsn-footnote-marker" aria-hidden="true">${esc(block.marker)}</div>
+        <div class="vsn-footnote-body">${pilotDerivation}</div>
+        <footer class="vsn-footnote-source">Printed derivation · Chinmayananda p. ${esc(block.printed_page)}</footer>
+      </aside>`;
+    }
     const children = Array.isArray(block.blocks) ? block.blocks : [];
     const proseKey = compactReplayKey(children.filter(child => child.type === "prose").map(child => child.text).join(" "));
     const body = children.map(child => {
@@ -196,10 +317,11 @@ function renderCommentaryBlock(block, context = {}) {
     const applies = Array.isArray(block.additional_name_numbers) && block.additional_name_numbers.length
       ? ` · also names ${block.additional_name_numbers.join(", ")}`
       : "";
-    return `<aside class="vsn-footnote" id="${esc(block.id)}" role="note">
+    const sourceLabel = quoteSourceLabel(block);
+    return `<aside class="vsn-footnote" id="${esc(block.id)}" role="note" aria-label="${esc(`${sourceLabel}; printed note ${block.marker}`)}">
       <div class="vsn-footnote-marker" aria-hidden="true">${esc(block.marker)}</div>
       <div class="vsn-footnote-body">${body}</div>
-      <footer class="vsn-footnote-source">Chinmayananda’s note · p. ${esc(block.printed_page)}${esc(applies)}</footer>
+      <footer class="vsn-footnote-source">Printed note ${esc(block.marker)} · Chinmayananda p. ${esc(block.printed_page)}${esc(applies)}</footer>
     </aside>`;
   }
   if (block.type === "source-note") {
@@ -210,9 +332,9 @@ function renderCommentaryBlock(block, context = {}) {
   const displayEnglish = block.display_english === true || context.showEnglish;
   const visibleEnglish = displayEnglish ? (block.english_slots || null) : null;
   const sanskrit = hasReviewedWords && window.GitaReader?.interactiveBlock
-    ? window.GitaReader.interactiveBlock(block.words, visibleEnglish, null, block.devanagari, "vsn-commentary-quote-deva", block.source_segments || null)
+    ? window.GitaReader.interactiveBlock(presentationWords(block), visibleEnglish, null, block.devanagari, "vsn-commentary-quote-deva", block.source_segments || null)
     : `<div class="ix"><div class="ix-deva vsn-commentary-quote-deva" lang="sa-Deva">${esc(block.devanagari)}</div><div class="ix-pada" lang="sa-Latn">${esc(block.iast)}</div></div>`;
-  const source = conciseQuoteSource(block);
+  const source = quoteSourceLabel({ blocks: [block] });
   const provenance = visibleEnglish && block.english_source === "site-literal-translation"
     ? `<div class="vsn-site-translation-note">Site translation</div>`
     : "";
@@ -226,7 +348,62 @@ function renderCommentaryBlock(block, context = {}) {
 function commentaryBlocks(name) {
   const blocks = name.chinmayananda?.blocks;
   if (!Array.isArray(blocks) || !blocks.length) return paragraphs(name.chinmayananda?.commentary || "");
-  return blocks.map(renderCommentaryBlock).join("");
+  const footnoteLabels = new Map(blocks.filter(block => block.type === "footnote").map(block => [block.id, quoteSourceLabel(block)]));
+  const items = [];
+  let currentClaim = null;
+  const flush = () => {
+    if (!currentClaim) return;
+    items.push(`<section class="vsn-claim">${currentClaim.prose}${currentClaim.evidence.length ? `<div class="vsn-claim-evidence">${currentClaim.evidence.join("")}</div>` : ""}</section>`);
+    currentClaim = null;
+  };
+  for (let index = 0; index < blocks.length; index++) {
+    const block = blocks[index];
+    const next = blocks[index + 1];
+    const quotedForms = next?.type === "footnote" ? quotedWordForms(next) : new Set();
+    // Name 1 repeats this particular source verse verbatim in the prose and
+    // immediately in its printed note. Other notes may share vocabulary with
+    // their calling sentence, so broad lexical suppression would lose prose.
+    const quotedItems = name.number === 1 && next?.id === "cm-vs-fn-p020-n01" && block.type === "prose"
+      ? (block.inline_sanskrit || []).filter(item => (item.words || []).some(word => quotedForms.has(String(word.iast || "").replace(/[’']/g, "").toLowerCase().replace(/ḥ$/u, ""))))
+      : [];
+    // A source may record a sandhied word differently in the prose token and
+    // in the reviewed note. Once its beginning/end are known, remove the whole
+    // contiguous in-prose quotation instead of exposing a broken remnant.
+    const quoteStart = quotedItems.length ? Math.min(...quotedItems.map(item => item.start)) : null;
+    const matchedQuoteEnd = quotedItems.length ? Math.max(...quotedItems.map(item => item.end)) : null;
+    const quoteEnd = matchedQuoteEnd == null ? null : (() => {
+      const sentenceEnd = String(block.text || "").indexOf(".", matchedQuoteEnd);
+      return sentenceEnd >= 0 ? sentenceEnd : matchedQuoteEnd;
+    })();
+    const suppressInlineIds = new Set(
+      quoteStart == null ? [] : (block.inline_sanskrit || [])
+        .filter(item => item.start >= quoteStart && item.end <= quoteEnd)
+        .map(item => item.id)
+    );
+    const rendered = renderCommentaryBlock(block, {
+      footnoteLabels,
+      normalizedSanskrit: isPilotName(name.number),
+      suppressInlineIds,
+    });
+    if (block.type === "prose") {
+      flush();
+      currentClaim = { prose: rendered, evidence: [] };
+      continue;
+    }
+    if (block.type === "footnote") {
+      if (!currentClaim) {
+        items.push(rendered);
+        continue;
+      }
+      currentClaim.evidence.push(rendered);
+      if (next?.type !== "footnote") flush();
+      continue;
+    }
+    flush();
+    items.push(rendered);
+  }
+  flush();
+  return items.join("");
 }
 
 function detailFor(name) {
@@ -446,7 +623,7 @@ function renderPreface() {
 
 function renderNamesSection() {
   return `<section class="vsn-names-section" aria-labelledby="vsn-names-title">
-    <header class="vsn-section-head vsn-sticky-section vsn-names-head"><span id="vsn-names-title">Names</span><span>1–1000</span></header>
+    <header class="vsn-section-head vsn-sticky-section vsn-names-head"><span id="vsn-names-title">Names</span><span id="vsn-names-range" aria-live="polite">1–9</span></header>
     ${DATA.stanzas.map(renderStanza).join("")}
   </section>`;
 }
@@ -624,12 +801,121 @@ async function setDetails(open) {
   ROOT.querySelectorAll(".vsn-preface-commentary").forEach(block => { block.hidden = !DETAILS_OPEN; });
   ROOT.querySelectorAll(".vsn-preface-unit-commentary").forEach(block => { block.hidden = !DETAILS_OPEN; });
   ROOT.querySelectorAll(".vsn-details-block").forEach(block => {
-      if (DETAILS_OPEN && block.dataset.loaded !== "true") {
-        const stanza = DATA.stanzas[Number(block.dataset.stanzaNumber) - 1];
-        block.querySelector(".vsn-details-content").innerHTML = renderDetails(stanza);
-        block.dataset.loaded = "true";
-      }
       block.hidden = !DETAILS_OPEN;
+  });
+  if (DETAILS_OPEN) {
+    const scrollRoot = ROOT?.closest(".dp-pane-body") || ROOT;
+    if (!DETAILS_OBSERVER && "IntersectionObserver" in window) {
+      DETAILS_OBSERVER = new IntersectionObserver(entries => {
+        if (!DETAILS_OPEN) return;
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          const block = entry.target;
+          if (block.dataset.loaded === "true") continue;
+          const stanza = DATA.stanzas[Number(block.dataset.stanzaNumber) - 1];
+          if (!stanza) continue;
+          block.querySelector(".vsn-details-content").innerHTML = renderDetails(stanza);
+          block.dataset.loaded = "true";
+        }
+      }, { root: scrollRoot, rootMargin: "220px 0px 220px 0px", threshold: 0.01 });
+    }
+    if (DETAILS_OBSERVER) {
+      DETAILS_OBSERVER.disconnect();
+      ROOT.querySelectorAll(".vsn-details-block").forEach(block => DETAILS_OBSERVER.observe(block));
+      ROOT.querySelectorAll(".vsn-details-block").forEach(block => {
+        const rect = block.getBoundingClientRect();
+        const rootRect = scrollRoot.getBoundingClientRect();
+        const visible = rect.bottom > rootRect.top - 220 && rect.top < rootRect.bottom + 220;
+        if (visible && block.dataset.loaded !== "true") {
+          const stanza = DATA.stanzas[Number(block.dataset.stanzaNumber) - 1];
+          if (stanza) {
+            block.querySelector(".vsn-details-content").innerHTML = renderDetails(stanza);
+            block.dataset.loaded = "true";
+          }
+        }
+      });
+    }
+  } else if (DETAILS_OBSERVER) {
+    DETAILS_OBSERVER.disconnect();
+  }
+}
+
+function updateNameRange(stanza) {
+  if (!stanza || RANGE_ACTIVE_STANZA === stanza.number) return;
+  RANGE_ACTIVE_STANZA = stanza.number;
+  const numbers = stanza.name_numbers || [];
+  const first = numbers[0];
+  const last = numbers[numbers.length - 1];
+  const label = first && last ? `${first}–${last}` : "1–1000";
+  const range = ROOT?.querySelector("#vsn-names-range");
+  if (range) range.textContent = label;
+  if (!DEEP_LINK_NAME && first) writeDeepLinkName(first);
+}
+
+function writeDeepLinkName(number) {
+  const value = Number(number);
+  if (!Number.isInteger(value) || value < 1 || value > 1000) return;
+  try {
+    const url = new URL(window.location.href);
+    if (url.searchParams.get("vsn") === String(value)) return;
+    url.searchParams.set("vsn", String(value));
+    window.history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
+  } catch (_) {}
+}
+
+function readDeepLinkName() {
+  try {
+    const value = Number(new URLSearchParams(window.location.search).get("vsn"));
+    return Number.isInteger(value) && value >= 1 && value <= 1000 ? value : null;
+  } catch (_) {
+    return null;
+  }
+}
+
+function wireNameRange() {
+  RANGE_OBSERVER?.disconnect();
+  const scrollRoot = ROOT?.closest(".dp-pane-body") || null;
+  let frame = 0;
+  const syncFromScroll = () => {
+    frame = 0;
+    if (!scrollRoot) return;
+    const focusY = scrollRoot.getBoundingClientRect().top + 78;
+    const verse = [...ROOT.querySelectorAll(".vsn-verse")].find(item => {
+      const rect = item.getBoundingClientRect();
+      return rect.top <= focusY && rect.bottom > focusY;
+    });
+    if (verse) updateNameRange(DATA.stanzas[Number(verse.dataset.stanzaNumber) - 1]);
+  };
+  if (scrollRoot) {
+    if (scrollRoot._vsnRangeScrollHandler) scrollRoot.removeEventListener("scroll", scrollRoot._vsnRangeScrollHandler);
+    scrollRoot._vsnRangeScrollHandler = () => { if (!frame) frame = requestAnimationFrame(syncFromScroll); };
+    scrollRoot.addEventListener("scroll", scrollRoot._vsnRangeScrollHandler, { passive: true });
+  }
+  if (!("IntersectionObserver" in window)) return;
+  RANGE_OBSERVER = new IntersectionObserver(entries => {
+    const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+    if (!visible) return;
+    const stanza = DATA.stanzas[Number(visible.target.dataset.stanzaNumber) - 1];
+    updateNameRange(stanza);
+  }, { root: scrollRoot, rootMargin: "-12% 0px -78% 0px", threshold: 0 });
+  ROOT.querySelectorAll(".vsn-verse").forEach(verse => RANGE_OBSERVER.observe(verse));
+  syncFromScroll();
+}
+
+async function openDeepLinkedName() {
+  const number = DEEP_LINK_NAME;
+  if (!number) return;
+  await setChantView(false, false);
+  requestAnimationFrame(() => {
+    const target = ROOT?.querySelector(`#vsn-detail-${CSS.escape(String(number))}`) || ROOT?.querySelector(`[data-name-number="${CSS.escape(String(number))}"]`);
+    if (!target) return;
+    target.classList.add("vsn-deep-link-target");
+    target.scrollIntoView({ behavior: "auto", block: "start" });
+    const stanza = DATA.stanzas.find(item => (item.name_numbers || []).includes(number));
+    updateNameRange(stanza);
+    writeDeepLinkName(number);
+    DEEP_LINK_NAME = null;
+    window.setTimeout(() => target.classList.remove("vsn-deep-link-target"), 1200);
   });
 }
 
@@ -782,6 +1068,8 @@ async function render(root, options) {
   ON_THINKER = typeof options.onThinker === "function" ? options.onThinker : null;
   DETAILS_OPEN = false;
   CHANT_ONLY = readChantView();
+  DEEP_LINK_NAME = readDeepLinkName();
+  if (DEEP_LINK_NAME) CHANT_ONLY = false;
   if (AUDIO_ELEMENT) AUDIO_ELEMENT.pause();
   AUDIO_ELEMENT = null;
   ACTIVE_TIMING_ID = null;
@@ -818,7 +1106,9 @@ async function render(root, options) {
   });
   wireDetails();
   wireAudio();
+  wireNameRange();
   await setChantView(CHANT_ONLY, false);
+  await openDeepLinkedName();
 }
 
 window.SahasranamaReader = { render };
