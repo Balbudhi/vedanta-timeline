@@ -92,6 +92,28 @@ const INLINE_WORD_OVERRIDES = {
       note: "bhvādi (1); ātmanepada · Dhātupāṭha 01.0080: दर्शने",
     },
   },
+  "name-2-paragraph-1-iast-22": {
+    0: { iast: "purāṇas", deva: "पुराणाः", gloss: "the ancient narratives", parts: [{ form: "purāṇa", gloss: "ancient; old" }, { form: "jas", gloss: "nominative plural" }], stem: "purāṇa", affix: "jas (prathamā bahuvacana)", morph: "nominative plural masculine adjective used substantively", note: "lexical adjective/title; no verbal-root derivation is asserted" },
+  },
+  "name-2-paragraph-1-iast-55": {
+    0: { iast: "purāṇa", deva: "पुराण", gloss: "ancient narrative", parts: [{ form: "purāṇa", gloss: "ancient; old" }], stem: "purāṇa", affix: "citation stem; no inflection asserted", morph: "lexical adjective/title used as a work designation", note: "no verbal-root derivation is asserted" },
+  },
+};
+const INLINE_ITEM_OVERRIDES = {
+  "name-2-paragraph-2-span-1": {
+    words: [
+      { i: 0, iast: "yat", deva: "यत्", gloss: "whatever; which", parts: [{ form: "yad", gloss: "which; whatever" }, { form: "am", gloss: "nominative/accusative singular neuter" }], stem: "yad", affix: "am (prathamā/dvitīyā ekavacana)", morph: "nominative or accusative singular neuter relative pronoun" },
+      { i: 1, iast: "kiñ", deva: "किञ्", gloss: "anything", parts: [{ form: "kim", gloss: "what" }, { form: "am", gloss: "nominative/accusative singular neuter" }], stem: "kim", affix: "am (prathamā/dvitīyā ekavacana)", morph: "nominative or accusative singular neuter interrogative pronoun" },
+      { i: 2, iast: "ca", deva: "च", gloss: "and; at all", parts: [{ form: "ca", gloss: "and; at all" }], stem: "ca", affix: "indeclinable; no inflection", morph: "indeclinable connective particle" },
+      { i: 3, iast: "jagatyām", deva: "जगत्याम्", gloss: "in the moving world", parts: [{ form: "jagatī", gloss: "the moving world" }, { form: "ṅi", gloss: "locative singular" }], stem: "jagatī", affix: "ṅi (saptamī ekavacana)", morph: "locative singular feminine noun" },
+      { i: 4, iast: "jagat", deva: "जगत्", gloss: "the moving world", parts: [{ form: "√gam", gloss: "go; move" }, { form: "śatṛ", gloss: "present active participial suffix" }], stem: "jagat", root: "√gam", rootGloss: "go; move", affix: "śatṛ (present active participial formation)", morph: "neuter participial noun" },
+    ],
+    source_segments: [
+      { text: "यत्किञ्च ", word_indices: [0, 1, 2], group_gloss: "whatever at all" },
+      { text: "जगत्यां ", word_indices: [3] },
+      { text: "जगत्…", word_indices: [4] },
+    ],
+  },
 };
 const PILOT_DERIVATION_ROWS = {
   // Transcribed from Chinmayananda's printed note on p. 137 (PDF 141).
@@ -388,6 +410,8 @@ function presentationStandaloneWords(item, context = {}) {
 function presentationInlineSanskrit(block, context = {}) {
   return [...(block?.inline_sanskrit || []), ...(INLINE_SANSKRIT_REPAIRS[`${context.nameNumber}:${block?.source_paragraph_index}`] || [])]
     .map(item => {
+      const itemOverride = INLINE_ITEM_OVERRIDES[item.id];
+      if (itemOverride) return { ...item, ...itemOverride };
       const changes = INLINE_WORD_OVERRIDES[item.id];
       return changes ? { ...item, words: item.words.map(word => changes[word.i] ? { ...word, ...changes[word.i] } : word) } : item;
     })

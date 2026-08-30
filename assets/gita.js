@@ -80,7 +80,8 @@ function renderPada(words, script) { return words.map(w => wordSpan(w, script)).
 function renderDevaSegments(segments) {
   return segments.map(segment => {
     const indices = (segment.word_indices || []).join(" ");
-    return `<span class="wsg w-deva" data-wi="${esc(indices)}" tabindex="0" role="button" lang="sa-Deva">${esc(segment.text || "")}</span>`;
+    const gloss = segment.group_gloss ? ` data-group-gloss="${esc(segment.group_gloss)}"` : "";
+    return `<span class="wsg w-deva" data-wi="${esc(indices)}"${gloss} tabindex="0" role="button" lang="sa-Deva">${esc(segment.text || "")}</span>`;
   }).join("");
 }
 
@@ -597,7 +598,7 @@ function showGroupCard(span, words) {
   const card = ensureCard();
   const rows = [
     `<div class="wc-top"><span class="wc-word" lang="sa-Deva">${esc(span.textContent.trim())}</span></div>`,
-    `<div class="wc-mean">Sandhi or compound surface: ${words.length} grammatical words</div>`,
+    `<div class="wc-mean">${esc(span.dataset.groupGloss || `Printed sandhi surface: ${words.length} grammatical words`)}</div>`,
   ];
   for (const w of words) {
     const details = [];
