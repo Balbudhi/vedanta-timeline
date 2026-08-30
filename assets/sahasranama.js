@@ -1089,11 +1089,17 @@ async function openDeepLinkedName() {
   if (!number) return;
   await setChantView(false, false);
   requestAnimationFrame(() => {
+    const stanzaIndex = DATA.stanzas.findIndex(item => (item.name_numbers || []).some(value => Number(value) === number));
+    const detailBlock = stanzaIndex >= 0 ? ROOT?.querySelector(`.vsn-details-block[data-stanza-number="${stanzaIndex + 1}"]`) : null;
+    if (detailBlock && detailBlock.dataset.loaded !== "true") {
+      detailBlock.querySelector(".vsn-details-content").innerHTML = renderDetails(DATA.stanzas[stanzaIndex]);
+      detailBlock.dataset.loaded = "true";
+    }
     const target = ROOT?.querySelector(`#vsn-detail-${CSS.escape(String(number))}`) || ROOT?.querySelector(`[data-name-number="${CSS.escape(String(number))}"]`);
     if (!target) return;
     target.classList.add("vsn-deep-link-target");
-    target.scrollIntoView({ behavior: "auto", block: "start" });
-    const stanza = DATA.stanzas.find(item => (item.name_numbers || []).some(value => Number(value) === number));
+    requestAnimationFrame(() => target.scrollIntoView({ behavior: "auto", block: "start" }));
+    const stanza = stanzaIndex >= 0 ? DATA.stanzas[stanzaIndex] : null;
     updateNameRange(stanza);
     writeDeepLinkName(number);
     DEEP_LINK_NAME = null;
