@@ -123,7 +123,10 @@ function interactiveInline(words, text, sourceSegments, language) {
   const indices = words.map(word => word.i).join(" ");
   const lang = language === "sa-Deva" ? "sa-Deva" : "sa-Latn";
   const body = sourceSegments && sourceSegments.length
-    ? sourceSegments.map(segment => `<span class="wsg" data-wi="${esc((segment.word_indices || []).join(" "))}" tabindex="0" role="button" lang="${lang}">${esc(segment.text || "")}</span>`).join("")
+    ? sourceSegments.map(segment => {
+      const gloss = segment.group_gloss ? ` data-group-gloss="${esc(segment.group_gloss)}"` : "";
+      return `<span class="wsg" data-wi="${esc((segment.word_indices || []).join(" "))}"${gloss} tabindex="0" role="button" lang="${lang}">${esc(segment.text || "")}</span>`;
+    }).join("")
     : `<span class="wsg" data-wi="${esc(indices)}" tabindex="0" role="button" lang="${lang}">${esc(text || "")}</span>`;
   return `<span class="ix-inline" data-wscope="${id}">${body}</span>`;
 }

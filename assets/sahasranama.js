@@ -448,13 +448,15 @@ function renderFootnoteCall(call, labels) {
 
 function renderCommentaryBlock(block, context = {}) {
   if (block.type === "prose") {
+    const inlineSanskrit = presentationInlineSanskrit(block, context);
+    const presentedBlock = { ...block, inline_sanskrit: inlineSanskrit };
     const calls = Array.isArray(block.footnote_calls)
       ? block.footnote_calls.map(call => renderFootnoteCall(call, context.footnoteLabels)).join("")
       : "";
-    if (block.display_devanagari || looksLikeStandaloneInteractiveSanskrit(block.text, block.inline_sanskrit)) {
-      return `${renderSanskritParagraph(block, context)}${calls}`;
+    if (block.display_devanagari || looksLikeStandaloneInteractiveSanskrit(block.text, inlineSanskrit)) {
+      return `${renderSanskritParagraph(presentedBlock, context)}${calls}`;
     }
-    return `<p class="vsn-prose">${richProse(block.text, presentationInlineSanskrit(block, context), {
+    return `<p class="vsn-prose">${richProse(block.text, inlineSanskrit, {
       normalizedSanskrit: context.normalizedSanskrit,
       suppressInlineIds: context.suppressInlineIds,
     })}${calls}</p>`;
