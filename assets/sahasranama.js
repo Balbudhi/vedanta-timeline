@@ -26,9 +26,18 @@ const PILOT_WORD_CORRECTIONS = {
 const PILOT_SITE_LITERALS = {
   // The printed citation is a fragment rather than a separately verified
   // primary-text locus. Keep the supplied reading explicitly site-attributed.
-  "cm-vs-fn-p020-n01-quote-0": "He alone is the Self of all beings, of universal form, imperishable.",
-  "cm-vs-fn-p020-n03": "This universe is Brahman indeed, the highest; this universe is the Person indeed.",
-  "name-2-paragraph-1": "Because all this is pervaded by the power of the great Self, he is called Viṣṇu—from the root viś, ‘to enter.’",
+  "cm-vs-fn-p020-n01-quote-0": {
+    englishSlots: "{0:He} {1:alone}, {2:the Self of all beings}, {3:of universal form}; {4:from whom}; {5:imperishable}.",
+    note: "Literal translation — site; printed fragment",
+  },
+  "cm-vs-fn-p020-n03": {
+    text: "This universe is Brahman indeed, the highest; this universe is the Person indeed.",
+    note: "Literal translation — site; printed fragment",
+  },
+  "name-2-paragraph-1": {
+    text: "Because all this is pervaded by the power of the great Self, he is called Viṣṇu—from the root viś, ‘to enter.’",
+    note: "Literal translation — site; printed attribution",
+  },
 };
 const PILOT_DERIVATION_ROWS = {
   // Transcribed from Chinmayananda's printed note on p. 137 (PDF 141).
@@ -142,10 +151,11 @@ function renderSanskritParagraph(block, context = {}) {
   const body = citation ? value.slice(0, citation.index).trim() : value;
   const source = citation ? citation[1].trim().replace(/\.$/, "") : "";
   if (block.display_devanagari) {
+    const literal = siteLiteral(block, context);
     const sanskrit = Array.isArray(block.display_words) && block.display_words.length && window.GitaReader?.interactiveBlock
       ? window.GitaReader.interactiveBlock(
           block.display_words,
-          null,
+          literal?.englishSlots || null,
           null,
           block.display_devanagari,
           "vsn-commentary-quote-deva",
@@ -155,10 +165,10 @@ function renderSanskritParagraph(block, context = {}) {
     const before = block.display_before ? `<p class="vsn-prose">${richProse(block.display_before)}</p>` : "";
     const after = block.display_after ? `<p class="vsn-prose">${richProse(block.display_after)}</p>` : "";
     const displaySource = String(block.display_citation || source).trim();
-    const literal = siteLiteral(block, context);
     return `${before}<blockquote class="vsn-source-passage vsn-sanskrit-source-passage">
       <div class="vsn-source-passage-text">${sanskrit}</div>
-      ${literal ? `<div class="vsn-source-translation">${esc(literal)}</div><div class="vsn-site-translation-note">Literal translation — site; printed fragment</div>` : ""}
+      ${literal?.text ? `<div class="vsn-source-translation">${esc(literal.text)}</div>` : ""}
+      ${literal ? `<div class="vsn-site-translation-note">${esc(literal.note)}</div>` : ""}
       ${displaySource ? `<footer class="vsn-commentary-quote-source">${esc(displaySource)}</footer>` : ""}
     </blockquote>${after}`;
   }
@@ -166,9 +176,9 @@ function renderSanskritParagraph(block, context = {}) {
     /^[\u0900-\u097f]/u.test(value) && Array.isArray(inlineSanskrit[0].words) && inlineSanskrit[0].words.length;
   if (standalone && window.GitaReader?.interactiveBlock) {
     const item = inlineSanskrit[0];
-    const sanskrit = window.GitaReader.interactiveBlock(item.words, null, null, value, "vsn-commentary-quote-deva", item.source_segments || null);
     const literal = siteLiteral(block, context);
-    const translation = literal ? `<div class="vsn-source-translation">${esc(literal)}</div><div class="vsn-site-translation-note">Literal translation — site; printed attribution</div>` : `<div class="vsn-translation-pending">Literal English not yet published</div>`;
+    const sanskrit = window.GitaReader.interactiveBlock(item.words, literal?.englishSlots || null, null, value, "vsn-commentary-quote-deva", item.source_segments || null);
+    const translation = literal ? `${literal.text ? `<div class="vsn-source-translation">${esc(literal.text)}</div>` : ""}<div class="vsn-site-translation-note">${esc(literal.note)}</div>` : `<div class="vsn-translation-pending">Literal English not yet published</div>`;
     return `<blockquote class="vsn-source-passage vsn-sanskrit-source-passage"><div class="vsn-source-passage-text">${sanskrit}</div>${translation}</blockquote>`;
   }
   const bodyAnnotations = Array.isArray(inlineSanskrit)
@@ -276,8 +286,7 @@ function quotedWordForms(block) {
 }
 
 function renderFootnoteCall(call, labels) {
-  const label = labels?.get(call.id) || "Source note";
-  return `<a class="vsn-footnote-call" href="#${esc(call.id)}" aria-label="${esc(`${label}; printed note ${call.marker}`)}" title="${esc(label)}">↳ evidence</a>`;
+  return "";
 }
 
 function renderCommentaryBlock(block, context = {}) {
@@ -329,15 +338,15 @@ function renderCommentaryBlock(block, context = {}) {
   if (block.type !== "gita-quote" && block.type !== "sanskrit-quote") return "";
   const hasReviewedWords = Array.isArray(block.words) && block.words.length > 0;
   const displayEnglish = block.display_english === true || context.showEnglish;
-  const visibleEnglish = displayEnglish ? (block.english_slots || null) : null;
+  const literal = siteLiteral(block, context);
+  const visibleEnglish = displayEnglish ? (block.english_slots || null) : (literal?.englishSlots || null);
   const sanskrit = hasReviewedWords && window.GitaReader?.interactiveBlock
     ? window.GitaReader.interactiveBlock(presentationWords(block), visibleEnglish, null, block.devanagari, "vsn-commentary-quote-deva", block.source_segments || null)
     : `<div class="ix"><div class="ix-deva vsn-commentary-quote-deva" lang="sa-Deva">${esc(block.devanagari)}</div><div class="ix-pada" lang="sa-Latn">${esc(block.iast)}</div></div>`;
   const source = quoteSourceLabel({ blocks: [block] });
-  const literal = siteLiteral(block);
   const provenance = visibleEnglish && block.english_source === "site-literal-translation"
     ? `<div class="vsn-site-translation-note">Literal translation — site</div>`
-    : literal ? `<div class="vsn-source-translation">${esc(literal)}</div><div class="vsn-site-translation-note">Literal translation — site; printed fragment</div>` : "";
+    : literal ? `${literal.text ? `<div class="vsn-source-translation">${esc(literal.text)}</div>` : ""}<div class="vsn-site-translation-note">${esc(literal.note)}</div>` : "";
   const sourceFooter = context.inFootnote ? "" : `<footer class="vsn-commentary-quote-source">${esc(source)}</footer>`;
   return `<blockquote class="vsn-commentary-quote" data-quote-id="${esc(block.id)}">
     ${sanskrit}
