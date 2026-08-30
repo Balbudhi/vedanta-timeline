@@ -18,11 +18,17 @@ let ACTIVE_TIMING_ID = null;
 let AUDIO_ELEMENT = null;
 let MODE_HOST = null;
 const CHANT_VIEW_KEY = "vedanta:vishnu-sahasranama:chant-only";
-const PILOT_NAME_NUMBERS = new Set([1, 2, 101, 500, 750]);
 const PILOT_WORD_CORRECTIONS = {
   // The witnessed surface is यतोऽव्ययः. The existing source segments preserve
   // it, while this one card's IAST token was serialized as "yatas".
   "cm-vs-fn-p020-n01-quote-0": { 4: { iast: "yataḥ", deva: "यतः" } },
+};
+const PILOT_SITE_LITERALS = {
+  // The printed citation is a fragment rather than a separately verified
+  // primary-text locus. Keep the supplied reading explicitly site-attributed.
+  "cm-vs-fn-p020-n01-quote-0": "He alone is the Self of all beings, of universal form, imperishable.",
+  "cm-vs-fn-p020-n03": "This universe is Brahman indeed, the highest; this universe is the Person indeed.",
+  "name-2-paragraph-1": "Because all this is pervaded by the power of the great Self, he is called Viṣṇu—from the root viś, ‘to enter.’",
 };
 const PILOT_DERIVATION_ROWS = {
   // Transcribed from Chinmayananda's printed note on p. 137 (PDF 141).
@@ -58,33 +64,11 @@ function fmtTime(seconds) {
   return `${Math.floor(seconds / 60)}:${Math.floor(seconds % 60).toString().padStart(2, "0")}`;
 }
 
-function isPilotName(number) {
-  return PILOT_NAME_NUMBERS.has(Number(number));
-}
-
-function inlineSanskritIsAQuotedPersonOrTitle(item) {
-  const word = Array.isArray(item?.words) && item.words.length === 1 ? item.words[0] : null;
-  const morph = String(word?.morph || "").toLowerCase();
-  return morph.includes("proper name") || morph.includes("work title") || morph.includes("title");
-}
-
-function conciseInlineGloss(word) {
-  const direct = String(word?.gloss || "").trim();
-  if (direct.length <= 54) return direct;
-  const parts = (word?.parts || []).filter(part => !/ending|marker|suffix|affix|nominative|accusative|genitive|dative|instrumental/i.test(String(part.kind || "") + " " + String(part.gloss || "")));
-  return String(parts[0]?.gloss || "").trim();
-}
-
-function inlineSanskritReading(item, normalized) {
+function inlineSanskritReading(item) {
   const inline = window.GitaReader?.interactiveInline
     ? window.GitaReader.interactiveInline(item.words || [], item.text, item.source_segments || null, item.language)
     : esc(item.text);
-  if (!normalized || !Array.isArray(item?.words) || item.words.length !== 1 || inlineSanskritIsAQuotedPersonOrTitle(item)) return inline;
-  const word = item.words[0];
-  const deva = String(word.deva || "").trim();
-  const gloss = conciseInlineGloss(word);
-  if (!deva || !gloss || gloss.toLowerCase() === String(word.iast || "").toLowerCase()) return inline;
-  return `<span class="vsn-inline-sanskrit"><span class="vsn-inline-deva" lang="sa-Deva">${esc(deva)}</span><span class="vsn-inline-iast" lang="sa-Latn">${inline}</span><span class="vsn-inline-gloss">${esc(gloss)}</span></span>`;
+  return inline;
 }
 
 function hasTextBoundary(source, start, end) {
@@ -126,7 +110,7 @@ function richProse(text, inlineSanskrit, options = {}) {
   }
   out += link(source.slice(last));
   for (const { marker, item } of markers) {
-    const inline = inlineSanskritReading(item, Boolean(options.normalizedSanskrit));
+    const inline = inlineSanskritReading(item);
     out = out.split(marker).join(inline);
   }
   return out;
@@ -171,8 +155,10 @@ function renderSanskritParagraph(block, context = {}) {
     const before = block.display_before ? `<p class="vsn-prose">${richProse(block.display_before)}</p>` : "";
     const after = block.display_after ? `<p class="vsn-prose">${richProse(block.display_after)}</p>` : "";
     const displaySource = String(block.display_citation || source).trim();
+    const literal = siteLiteral(block, context);
     return `${before}<blockquote class="vsn-source-passage vsn-sanskrit-source-passage">
       <div class="vsn-source-passage-text">${sanskrit}</div>
+      ${literal ? `<div class="vsn-source-translation">${esc(literal)}</div><div class="vsn-site-translation-note">Literal translation — site; printed fragment</div>` : ""}
       ${displaySource ? `<footer class="vsn-commentary-quote-source">${esc(displaySource)}</footer>` : ""}
     </blockquote>${after}`;
   }
@@ -181,8 +167,9 @@ function renderSanskritParagraph(block, context = {}) {
   if (standalone && window.GitaReader?.interactiveBlock) {
     const item = inlineSanskrit[0];
     const sanskrit = window.GitaReader.interactiveBlock(item.words, null, null, value, "vsn-commentary-quote-deva", item.source_segments || null);
-    const pending = context.normalizedSanskrit ? `<div class="vsn-translation-pending">Literal English not yet published</div>` : "";
-    return `<blockquote class="vsn-source-passage vsn-sanskrit-source-passage"><div class="vsn-source-passage-text">${sanskrit}</div>${pending}</blockquote>`;
+    const literal = siteLiteral(block, context);
+    const translation = literal ? `<div class="vsn-source-translation">${esc(literal)}</div><div class="vsn-site-translation-note">Literal translation — site; printed attribution</div>` : `<div class="vsn-translation-pending">Literal English not yet published</div>`;
+    return `<blockquote class="vsn-source-passage vsn-sanskrit-source-passage"><div class="vsn-source-passage-text">${sanskrit}</div>${translation}</blockquote>`;
   }
   const bodyAnnotations = Array.isArray(inlineSanskrit)
     ? inlineSanskrit.filter(item => item.start < body.length && item.end <= body.length)
@@ -245,11 +232,21 @@ function compactReplayKey(value) {
 
 function quoteSourceLabel(block) {
   if (PILOT_DERIVATION_ROWS[block?.id]) return "Printed derivation";
+  if (block?.id === "cm-vs-fn-p020-n01") return "Printed citation · Viṣṇu Purāṇa 1.2.69";
   const quote = (block.blocks || []).find(child => child.type === "gita-quote" || child.type === "sanskrit-quote");
   if (!quote) return "Chinmayananda’s note";
   return /printed by chinmayananda|not independently verified/i.test(String(quote.canonical_locus || ""))
     ? "Printed explanatory citation"
     : conciseQuoteSource(quote);
+}
+
+function citationKind(block) {
+  return /printed by chinmayananda|not independently verified/i.test(String(block?.canonical_locus || ""))
+    ? "printed" : "verified";
+}
+
+function siteLiteral(block, context = {}) {
+  return PILOT_SITE_LITERALS[block?.id] || PILOT_SITE_LITERALS[context.footnoteId] || PILOT_SITE_LITERALS[`name-${context.nameNumber}-paragraph-${block?.source_paragraph_index}`] || "";
 }
 
 function presentationWords(block) {
@@ -280,7 +277,7 @@ function quotedWordForms(block) {
 
 function renderFootnoteCall(call, labels) {
   const label = labels?.get(call.id) || "Source note";
-  return `<a class="vsn-footnote-call" href="#${esc(call.id)}" aria-label="${esc(`${label}; printed note ${call.marker}`)}" title="${esc(label)}">${esc(label)} <span aria-hidden="true">${esc(call.marker)}</span></a>`;
+  return `<a class="vsn-footnote-call" href="#${esc(call.id)}" aria-label="${esc(`${label}; printed note ${call.marker}`)}" title="${esc(label)}">↳ evidence</a>`;
 }
 
 function renderCommentaryBlock(block, context = {}) {
@@ -299,10 +296,9 @@ function renderCommentaryBlock(block, context = {}) {
   if (block.type === "footnote") {
     const pilotDerivation = renderPilotDerivationRow(block);
     if (pilotDerivation) {
-      return `<aside class="vsn-footnote vsn-derivation-note" id="${esc(block.id)}" role="note" aria-label="${esc(`Printed derivation; note ${block.marker}`)}">
-        <div class="vsn-footnote-marker" aria-hidden="true">${esc(block.marker)}</div>
+      return `<aside class="vsn-footnote vsn-evidence-thread vsn-derivation-note" id="${esc(block.id)}" role="note" data-print-marker="${esc(block.marker)}" aria-label="${esc(`Printed derivation; note ${block.marker}`)}">
+        <header class="vsn-evidence-head"><span>Printed derivation</span><span>Chinmayananda p. ${esc(block.printed_page)}</span></header>
         <div class="vsn-footnote-body">${pilotDerivation}</div>
-        <footer class="vsn-footnote-source">Printed derivation · Chinmayananda p. ${esc(block.printed_page)}</footer>
       </aside>`;
     }
     const children = Array.isArray(block.blocks) ? block.blocks : [];
@@ -312,16 +308,19 @@ function renderCommentaryBlock(block, context = {}) {
       return renderCommentaryBlock(child, {
         inFootnote: true,
         showEnglish: Boolean(englishKey && !proseKey.includes(englishKey)),
+        footnoteId: block.id,
+        nameNumber: context.nameNumber,
       });
     }).join("");
     const applies = Array.isArray(block.additional_name_numbers) && block.additional_name_numbers.length
       ? ` · also names ${block.additional_name_numbers.join(", ")}`
       : "";
     const sourceLabel = quoteSourceLabel(block);
-    return `<aside class="vsn-footnote" id="${esc(block.id)}" role="note" aria-label="${esc(`${sourceLabel}; printed note ${block.marker}`)}">
-      <div class="vsn-footnote-marker" aria-hidden="true">${esc(block.marker)}</div>
+    const quote = children.find(child => child.type === "gita-quote" || child.type === "sanskrit-quote");
+    const kind = citationKind(quote);
+    return `<aside class="vsn-footnote vsn-evidence-thread vsn-evidence-thread--${kind}" id="${esc(block.id)}" role="note" data-print-marker="${esc(block.marker)}" aria-label="${esc(`${sourceLabel}; printed note ${block.marker}`)}">
+      <header class="vsn-evidence-head"><span>${esc(sourceLabel)}</span><span>Chinmayananda p. ${esc(block.printed_page)}${esc(applies)}</span></header>
       <div class="vsn-footnote-body">${body}</div>
-      <footer class="vsn-footnote-source">Printed note ${esc(block.marker)} · Chinmayananda p. ${esc(block.printed_page)}${esc(applies)}</footer>
     </aside>`;
   }
   if (block.type === "source-note") {
@@ -335,13 +334,15 @@ function renderCommentaryBlock(block, context = {}) {
     ? window.GitaReader.interactiveBlock(presentationWords(block), visibleEnglish, null, block.devanagari, "vsn-commentary-quote-deva", block.source_segments || null)
     : `<div class="ix"><div class="ix-deva vsn-commentary-quote-deva" lang="sa-Deva">${esc(block.devanagari)}</div><div class="ix-pada" lang="sa-Latn">${esc(block.iast)}</div></div>`;
   const source = quoteSourceLabel({ blocks: [block] });
+  const literal = siteLiteral(block);
   const provenance = visibleEnglish && block.english_source === "site-literal-translation"
-    ? `<div class="vsn-site-translation-note">Site translation</div>`
-    : "";
+    ? `<div class="vsn-site-translation-note">Literal translation — site</div>`
+    : literal ? `<div class="vsn-source-translation">${esc(literal)}</div><div class="vsn-site-translation-note">Literal translation — site; printed fragment</div>` : "";
+  const sourceFooter = context.inFootnote ? "" : `<footer class="vsn-commentary-quote-source">${esc(source)}</footer>`;
   return `<blockquote class="vsn-commentary-quote" data-quote-id="${esc(block.id)}">
     ${sanskrit}
     ${provenance}
-    <footer class="vsn-commentary-quote-source">${esc(source)}</footer>
+    ${sourceFooter}
   </blockquote>`;
 }
 
@@ -382,7 +383,7 @@ function commentaryBlocks(name) {
     );
     const rendered = renderCommentaryBlock(block, {
       footnoteLabels,
-      normalizedSanskrit: isPilotName(name.number),
+      nameNumber: name.number,
       suppressInlineIds,
     });
     if (block.type === "prose") {
