@@ -250,12 +250,16 @@ function renderSanskritParagraph(block, context = {}) {
     const before = block.display_before ? `<p class="vsn-prose">${richProse(block.display_before)}</p>` : "";
     const after = block.display_after ? `<p class="vsn-prose">${richProse(block.display_after)}</p>` : "";
     const displaySource = String(block.display_citation || source).trim();
-    return `${before}<blockquote class="vsn-source-passage vsn-sanskrit-source-passage">
+    const wrapperClass = block.render_mode === "display_fragment"
+      ? "vsn-sanskrit-fragment"
+      : "vsn-source-passage vsn-sanskrit-source-passage";
+    const wrapperTag = block.render_mode === "display_fragment" ? "div" : "blockquote";
+    return `${before}<${wrapperTag} class="${wrapperClass}">
       <div class="vsn-source-passage-text">${sanskrit}</div>
       ${literal?.text ? `<div class="vsn-source-translation">${esc(literal.text)}</div>` : ""}
       ${literal ? `<div class="vsn-site-translation-note">${esc(literal.note)}</div>` : ""}
       ${displaySource ? `<footer class="vsn-commentary-quote-source">${esc(displaySource)}</footer>` : ""}
-    </blockquote>${after}`;
+    </${wrapperTag}>${after}`;
   }
   const standalone = Array.isArray(inlineSanskrit) && inlineSanskrit.length === 1 &&
     /^[\u0900-\u097f]/u.test(value) && Array.isArray(inlineSanskrit[0].words) && inlineSanskrit[0].words.length;
@@ -453,7 +457,7 @@ function renderCommentaryBlock(block, context = {}) {
     const calls = Array.isArray(block.footnote_calls)
       ? block.footnote_calls.map(call => renderFootnoteCall(call, context.footnoteLabels)).join("")
       : "";
-    if (block.display_devanagari || looksLikeStandaloneInteractiveSanskrit(block.text, inlineSanskrit)) {
+    if (block.render_mode === "display_fragment" || block.content_class === "complete_quote") {
       return `${renderSanskritParagraph(presentedBlock, context)}${calls}`;
     }
     return `<p class="vsn-prose">${richProse(block.text, inlineSanskrit, {

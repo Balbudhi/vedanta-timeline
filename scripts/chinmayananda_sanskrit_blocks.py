@@ -100,6 +100,16 @@ def quote_block(row: dict, source_paragraph_index: int | None = None) -> dict:
     block = {
         "type": "sanskrit-quote",
         "id": row["quote_id"],
+        "content_class": "complete_quote",
+        "render_mode": "footnote_quote",
+        "source_authority": "chinmayananda_printed_quote",
+        "citation_completeness": "complete",
+        "promotion_eligible": True,
+        "literal_translation_source": (
+            "chinmayananda" if row.get("english_source") == "Swami Chinmayananda"
+            else "site_literal" if row.get("english_source") == "site-literal-translation"
+            else "none"
+        ),
         "devanagari": row["canonical_devanagari"],
         "source_iast": row["source_iast"],
         "iast": row["iast"],
@@ -144,7 +154,7 @@ def promote_non_gita_blocks(name_number: int, blocks: list[dict]) -> list[dict]:
         if matched.get("english_source") == "Swami Chinmayananda":
             author_english = str(matched.get("english", "")).strip()
             if author_english and prose_key(author_english) not in complete_prose_key:
-                tail = f"{tail} “{author_english}”".strip()
+                promoted["display_english"] = True
         if tail:
             result.append({
                 "type": "prose",
@@ -157,23 +167,4 @@ def promote_non_gita_blocks(name_number: int, blocks: list[dict]) -> list[dict]:
         raise ValueError(
             f"name {name_number} did not promote reviewed Sanskrit rows: {sorted(remaining)}"
         )
-    visible_prose_key = prose_key(" ".join(
-        block.get("text", "") for block in result if block.get("type") == "prose"
-    ))
-    for row in rows:
-        if row.get("english_source") != "Swami Chinmayananda":
-            continue
-        author_english = str(row.get("english", "")).strip()
-        if not author_english or prose_key(author_english) in visible_prose_key:
-            continue
-        quote_index = next(
-            index for index, block in enumerate(result)
-            if block.get("id") == row["quote_id"]
-        )
-        result.insert(quote_index, {
-            "type": "prose",
-            "text": f"“{author_english}”",
-            "source_paragraph_index": result[quote_index].get("source_paragraph_index"),
-        })
-        visible_prose_key += prose_key(author_english)
     return result

@@ -202,6 +202,17 @@
 .vsn-source-passage {
   color: var(--ink); font-family: var(--serif); font-style: normal; line-height: 1.7;
 }
+.vsn-sanskrit-fragment {
+  margin: 5px 0 0;
+  padding: 0;
+  color: var(--ink-soft);
+  font-family: var(--serif);
+}
+.vsn-sanskrit-fragment .ix { margin: 0; }
+.vsn-sanskrit-fragment .ix-deva,
+.vsn-sanskrit-fragment .ix-pada,
+.vsn-sanskrit-fragment .ix-en { font-size: inherit; line-height: 1.65; }
+.vsn-sanskrit-fragment .ix-deva { color: var(--ink); }
 .vsn-claim {
   margin: 0 0 14px;
 }

@@ -1069,6 +1069,16 @@ def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_quotes
         words = reviewed.get("words", [])
         return {
             "type": "gita-quote", "id": quote["id"],
+            "content_class": "complete_quote",
+            "render_mode": "footnote_quote",
+            "source_authority": "independently_verified_primary",
+            "citation_completeness": "complete",
+            "promotion_eligible": True,
+            "literal_translation_source": (
+                "chinmayananda" if reviewed.get("english_source") == "Swami Chinmayananda"
+                else "site_literal" if reviewed.get("english_source") == "site-literal-translation"
+                else "none"
+            ),
             "source_paragraph_index": paragraph_index,
             "placement_basis": placement_basis,
             "devanagari": quote["canonical_devanagari"],
@@ -1114,6 +1124,52 @@ def build_commentary_blocks(commentary: str, quotes: list[dict], reviewed_quotes
         for position, basis, quote in sorted(paragraph_placements, key=lambda row: (row[0], row[2]["id"])):
             blocks.append(quote_block(quote, paragraph_index, basis))
     return blocks
+
+
+def classify_rendered_commentary_blocks(blocks: list[dict], in_footnote: bool = False) -> None:
+    """Attach canonical rendering metadata to every legacy and generated block."""
+    for block in blocks:
+        kind = block.get("type")
+        if kind == "footnote":
+            block.setdefault("content_class", "printed_footnote_prose")
+            block.setdefault("render_mode", "footnote_note")
+            block.setdefault("source_authority", "chinmayananda_prose")
+            block.setdefault("citation_completeness", "derivational")
+            block.setdefault("promotion_eligible", False)
+            block.setdefault("literal_translation_source", "none")
+            classify_rendered_commentary_blocks(block.get("blocks", []), in_footnote=True)
+            continue
+        if kind in ("gita-quote", "sanskrit-quote"):
+            block.setdefault("content_class", "complete_quote")
+            block.setdefault("render_mode", "footnote_quote" if in_footnote else "prose")
+            block.setdefault(
+                "source_authority",
+                "independently_verified_primary" if kind == "gita-quote" else "chinmayananda_printed_quote",
+            )
+            block.setdefault("citation_completeness", "complete")
+            block.setdefault("promotion_eligible", True)
+            block.setdefault(
+                "literal_translation_source",
+                "chinmayananda" if block.get("english_source") == "Swami Chinmayananda"
+                else "site_literal" if block.get("english_source") == "site-literal-translation"
+                else "none",
+            )
+            continue
+        if kind == "prose":
+            if block.get("display_devanagari"):
+                block.setdefault("content_class", "partial_cited_fragment")
+                block.setdefault("render_mode", "display_fragment")
+                block.setdefault("source_authority", "site_normalized_fragment")
+                block.setdefault("citation_completeness", "fragment")
+                block.setdefault("promotion_eligible", False)
+                block.setdefault("literal_translation_source", "none")
+            else:
+                block.setdefault("content_class", "printed_footnote_prose" if in_footnote else "prose_sanskrit_term")
+                block.setdefault("render_mode", "footnote_note" if in_footnote else "prose")
+                block.setdefault("source_authority", "chinmayananda_prose")
+                block.setdefault("citation_completeness", "term_only")
+                block.setdefault("promotion_eligible", False)
+                block.setdefault("literal_translation_source", "none")
 
 
 def build(received: str, word_split: str, commentary_path: Path | None, analysis_path: Path | None) -> dict:
@@ -1200,6 +1256,8 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
                 item["analysis_status"] = "chinmayananda-derivation-present"
 
     apply_footnote_apparatus(by_number, merged_footnotes())
+    for item in by_number.values():
+        classify_rendered_commentary_blocks(item.get("chinmayananda", {}).get("blocks", []))
 
     for index, stanza in enumerate(stanzas):
         stanza["critical_edition"] = bori[index]
@@ -1479,6 +1537,12 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                         normalized_display_quotes.append((number, block))
                         display_words = block.get("display_words", [])
                         display_segments = block.get("display_source_segments", [])
+                        if block.get("content_class") != "partial_cited_fragment":
+                            errors.append(f"name {number} normalized display lacks partial-fragment classification")
+                        if block.get("render_mode") != "display_fragment":
+                            errors.append(f"name {number} normalized display lacks display-fragment render mode")
+                        if block.get("promotion_eligible") is not False:
+                            errors.append(f"name {number} normalized fragment may be promoted as a quote")
                         if block.get("display_policy") != "normalized-devanagari-from-reviewed-word-records":
                             errors.append(f"name {number} normalized quotation lacks its display policy")
                         if re.search(r"[A-Za-z]", block.get("display_devanagari", "")):
@@ -1515,6 +1579,10 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
                     else:
                         non_gita_quote_blocks.append(block)
                     words = block.get("words", [])
+                    if block.get("content_class") != "complete_quote":
+                        errors.append(f"name {number} quote {block.get('id')} lacks complete-quote classification")
+                    if block.get("citation_completeness") != "complete" or block.get("promotion_eligible") is not True:
+                        errors.append(f"name {number} quote {block.get('id')} has invalid promotion metadata")
                     if not block.get("devanagari") or not block.get("iast") or (require_reviewed_analysis and not words):
                         errors.append(f"name {number} quote {block.get('id')} lacks its three-script source structure")
                     if words and [word.get("i") for word in words] != list(range(len(words))):

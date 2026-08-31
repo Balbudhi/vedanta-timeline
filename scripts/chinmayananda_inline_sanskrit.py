@@ -463,6 +463,12 @@ def normalized_quote_display(text: str, annotations: list[dict]) -> dict | None:
     before = clean_display_english(body[:start])
     after = clean_display_english(body[end:], allow_short_quote=True)
     return {
+        "content_class": "partial_cited_fragment",
+        "render_mode": "display_fragment",
+        "source_authority": "site_normalized_fragment",
+        "citation_completeness": "fragment",
+        "promotion_eligible": False,
+        "literal_translation_source": "none",
         "display_devanagari": devanagari,
         "display_words": words,
         "display_source_segments": segments,
