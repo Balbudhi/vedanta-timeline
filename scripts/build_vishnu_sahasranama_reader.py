@@ -1176,6 +1176,7 @@ def classify_rendered_commentary_blocks(blocks: list[dict], in_footnote: bool = 
 def apply_presentation_overrides(number: int, blocks: list[dict], overrides: dict, parent_footnote_id: str | None = None) -> None:
     """Apply reviewed display corrections from canonical data, never the UI."""
     for block in blocks:
+        block.update(overrides.get("block_overrides", {}).get(block.get("id"), {}))
         if block.get("type") == "footnote":
             formula = overrides.get("formula_overrides", {}).get(block.get("id"))
             if formula:

@@ -130,5 +130,10 @@
       ],
       "source_segments": [{"text": "भुनक्ति ", "word_indices": [0]}, {"text": "इति ", "word_indices": [1]}, {"text": "भोक्ता", "word_indices": [2]}]
     }
+  },
+  "block_overrides": {
+    "cm-vs-fn-p020-n01": {"display_source_label": "Printed citation · Viṣṇu Purāṇa 1.2.69"},
+    "cm-vs-fn-p020-n03": {"display_word_mode": "reviewed_override"},
+    "cm-vs-fn-p141-n02": {"display_word_mode": "reviewed_override"}
   }
 }

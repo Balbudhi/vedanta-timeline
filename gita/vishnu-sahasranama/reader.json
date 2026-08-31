@@ -16508,7 +16508,8 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "derivational",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "none",
+                "display_source_label": "Printed citation · Viṣṇu Purāṇa 1.2.69"
               },
               {
                 "type": "prose",
@@ -17525,7 +17526,8 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "derivational",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "none",
+                "display_word_mode": "reviewed_override"
               },
               {
                 "type": "prose",
@@ -178724,7 +178726,8 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "derivational",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "none",
+                "display_word_mode": "reviewed_override"
               },
               {
                 "type": "prose",

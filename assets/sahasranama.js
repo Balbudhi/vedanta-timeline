@@ -224,8 +224,8 @@ function compactReplayKey(value) {
 }
 
 function quoteSourceLabel(block) {
+  if (block?.display_source_label) return block.display_source_label;
   if (block?.formula_payload) return "Printed derivation";
-  if (block?.id === "cm-vs-fn-p020-n01") return "Printed citation · Viṣṇu Purāṇa 1.2.69";
   const quote = (block.blocks || []).find(child => child.type === "gita-quote" || child.type === "sanskrit-quote");
   if (!quote) return "Chinmayananda’s note";
   return /printed by chinmayananda|not independently verified/i.test(String(quote.canonical_locus || ""))
