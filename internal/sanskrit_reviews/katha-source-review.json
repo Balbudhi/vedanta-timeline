@@ -1,0 +1,186 @@
+{
+  "schema_version": "katha-scan-source-review-v1",
+  "reviewed_at": "2026-08-30",
+  "integration_status": "Proposals only; not applied to the public transcription or reader.",
+  "source_transcription": {
+    "path": "gita/vishnu-sahasranama/chinmayananda.json",
+    "sha256": "07e8f3b9c1a8aadf8f361adb8450ea6f6dfb34fcb682365e67b16300ff868a9e"
+  },
+  "scope": "Seven named Chinmayananda Kaṭha quotation occurrences only. This is a scan-backed source-preservation review, not a publication approval or a critical edition.",
+  "source_pdf": {
+    "path": "/Users/eeshan/Downloads/Vishnu Sahasranama.pdf",
+    "sha256": "99084a346d68e5673309e4aca81b9787fe618d8414191f8ec697df4bf2534219",
+    "verification": "The supplied rendered PNGs were visually inspected; stored JSON and the collation report were used only as comparison material."
+  },
+  "closed_population": {
+    "expected_name_numbers": [8, 107, 555, 619, 776, 836, 895],
+    "observed_name_numbers": [8, 107, 555, 619, 776, 836, 895],
+    "complete": true
+  },
+  "entries": [
+    {
+      "name_number": 8,
+      "scan_page": 23,
+      "printed_page": 19,
+      "scan_image_path": "/tmp/vsn-witness.LvqgmC/chinmaya-p23.png",
+      "scan_excerpt": "that revels in every form manifesting in plurality”―(एको वशी सर्व-\nभूतान्तरात्मा रूपं रूपं प्रतिरूपो बहिश्च).",
+      "stored_excerpt": "(एको वशी सर्व- भृतान्तरात्मा रूपं रूपं प्रतिरूपो बहिश्च).",
+      "proposed_replacements": [
+        {
+          "old": "भृतान्तरात्मा",
+          "new": "भूतान्तरात्मा",
+          "decision": "scan_transcription_error",
+          "reason": "The scan visibly has भूता-, not भृता-."
+        }
+      ],
+      "verdict": "The stored Sanskrit has a transcription vowel error. The scan itself is a composite quotation: its opening is the 2.2.12 parallel and its later words are the 2.2.9–10 parallel; retain the author’s composite boundary rather than silently expanding or recasting it as one complete verse.",
+      "uncertainty": ["The scan does not present this as a single verbatim verse; no single-verse locator should be attributed to the entire composite string."],
+      "evidence": {"scan_visual_inspection": true, "source_pdf_sha256": "99084a346d68e5673309e4aca81b9787fe618d8414191f8ec697df4bf2534219"}
+    },
+    {
+      "name_number": 107,
+      "scan_page": 48,
+      "printed_page": 44,
+      "scan_image_path": "/tmp/vsn-witness.LvqgmC/chinmaya-p48.png",
+      "scan_excerpt": "(एको वशी सर्वभूतान्तरात्मा एकं\nरूपं बहुधा यः करोति तमात्मस्थं येऽनुपश्यन्ति धीरास्तेषां सुखं ...).",
+      "stored_excerpt": "(एको वशी सर्वभूतान्तरात्मा एकं रूपं बहुधा यः करोति । तमात्मस्थं येऽनुपश्यन्ति धीरास्तेषां सुखं शाश्वतं नेतरेषाम् ॥).\n\nरूपं To visualize the Paramesvara...",
+      "proposed_replacements": [
+        {
+          "old": "एको वशी सर्वभूतान्तरात्मा एकं रूपं बहुधा यः करोति । तमात्मस्थं येऽनुपश्यन्ति धीरास्तेषां सुखं शाश्वतं नेतरेषाम् ॥",
+          "new": "एको वशी सर्वभूतान्तरात्मा एकं रूपं बहुधा यः करोति तमात्मस्थं येऽनुपश्यन्ति धीरास्तेषां सुखं ...",
+          "decision": "source_boundary_error",
+          "reason": "The scan ends the quotation after सुखं with an ellipsis; it does not print the expanded शाश्वतं नेतरेषाम्."
+        },
+        {
+          "old": "\n\nरूपं To visualize the Paramesvara",
+          "new": "\n\nTo visualize the Paramesvara",
+          "decision": "dislocated_duplicate_error",
+          "reason": "The scan’s रूपं belongs within the preceding Sanskrit quotation, not at the start of the following English paragraph."
+        }
+      ],
+      "verdict": "Restore the printed quotation boundary and remove the stray dislocated रूपं. A complete 2.2.12 is permissible only as separately labelled source context, not as the author’s printed quotation.",
+      "uncertainty": [],
+      "evidence": {"scan_visual_inspection": true, "source_pdf_sha256": "99084a346d68e5673309e4aca81b9787fe618d8414191f8ec697df4bf2534219"}
+    },
+    {
+      "name_number": 555,
+      "scan_page": 153,
+      "printed_page": 149,
+      "scan_image_path": "/tmp/vsn-witness.LvqgmC/chinmaya-p153.png",
+      "scan_excerpt": "“ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम् ।”\n(Oordhvamoolamadhah saakhamasvattham praahurvyayam.)\n“They (wise people) speak of the indestructible Pippal Tree (ficus Religiosa) having its root above and branches below.” ―Geeta XV-1.\n\n“ऊर्ध्वमूलोऽवाक्शाख एषोऽश्वत्थः सनातनः ।”\n(Oordhvamoolo-avaaksaakha esho-asvatthah sanaatanah.)\n“This is the ancient Asvattha Tree, whose roots are above and branches (spread) below.” ―Katha Ch. II-VI-1.",
+      "normalized_sanskrit_transcription": "ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्। / ऊर्ध्वमूलोऽवाक्शाख एषोऽश्वत्थः सनातनः।",
+      "normalization_note": "The exact scan excerpt retains the scan's spaces before daṇḍas and its legacy Roman spellings. The normalized Sanskrit transcription changes only spacing/punctuation normalization; it is not claimed to be a literal character-for-character scan replay.",
+      "stored_excerpt": "“ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्।” — Gītā XV-1.\n\n“ऊर्ध्वमूलोऽवाक्शाख एषोऽश्वत्थः सनातनः।” — Kaṭhopaniṣad II-VI-1.",
+      "proposed_replacements": [
+        {
+          "old": "“ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्।” — Gītā XV-1.",
+          "new": "“ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम् ।”\n(Oordhvamoolamadhah saakhamasvattham praahurvyayam.)\n“They (wise people) speak of the indestructible Pippal Tree (ficus Religiosa) having its root above and branches below.” ―Geeta XV-1.",
+          "decision": "source_coverage_error",
+          "reason": "The printed Roman and authored English translation are absent from the stored passage."
+        },
+        {
+          "old": "“ऊर्ध्वमूलोऽवाक्शाख एषोऽश्वत्थः सनातनः।” — Kaṭhopaniṣad II-VI-1.",
+          "new": "“ऊर्ध्वमूलोऽवाक्शाख एषोऽश्वत्थः सनातनः ।”\n(Oordhvamoolo-avaaksaakha esho-asvatthah sanaatanah.)\n“This is the ancient Asvattha Tree, whose roots are above and branches (spread) below.” ―Katha Ch. II-VI-1.",
+          "decision": "source_coverage_error",
+          "reason": "The printed Roman and authored English translation are absent from the stored passage."
+        }
+      ],
+      "verdict": "Both authored English translations and both Roman source layers require preservation. The Sanskrit units remain printed fragments; this review does not authorize expansion beyond the scan’s boundaries.",
+      "uncertainty": ["Roman duplicates may be consolidated only with explicit source accounting; this review does not prescribe a display implementation."],
+      "evidence": {"scan_visual_inspection": true, "source_pdf_sha256": "99084a346d68e5673309e4aca81b9787fe618d8414191f8ec697df4bf2534219"}
+    },
+    {
+      "name_number": 619,
+      "scan_page": 164,
+      "printed_page": 160,
+      "scan_image_path": "/tmp/vsn-witness.LvqgmC/chinmaya-p164.png",
+      "scan_excerpt": "“तमेव भान्तमनुभाति सर्वं तस्य भासा सर्वमिदं विभाति ।”\n(Tameva bhaantamanubhaati sarvam tasya bhaasaa sarvamidam vibhaati.)\n“When He shines, everything shines after him; by His light, all these shine.”\n―Katha II-V-15.",
+      "stored_excerpt": "“तमेव भान्तमनभाति सर्वं तस्य भासा सर्वमिदं विभाति ।” (Tameva bhaantamanubhaati sarvam tasya bhaasaa sarvamidam vibhaati.)",
+      "proposed_replacements": [
+        {
+          "old": "भान्तमनभाति",
+          "new": "भान्तमनुभाति",
+          "decision": "scan_transcription_error",
+          "reason": "The Devanagari scan and its printed Roman line both retain anu- in anubhāti."
+        }
+      ],
+      "verdict": "Correct the dropped उ from the scan. The author’s English translation is already present and is visibly printed on the page.",
+      "uncertainty": [],
+      "evidence": {"scan_visual_inspection": true, "source_pdf_sha256": "99084a346d68e5673309e4aca81b9787fe618d8414191f8ec697df4bf2534219"}
+    },
+    {
+      "name_number": 776,
+      "scan_page": 200,
+      "printed_page": 196,
+      "scan_image_path": "/tmp/vsn-witness.LvqgmC/chinmaya-p200.png",
+      "scan_excerpt": "“भयादस्याग्निस्तपति भयात्तपति सूर्यः ।\nभयादिन्द्रश्च वायुश्च मृत्युर्धावति पञ्चमः ।”\n(Bhayaadasyaagnistapati bhayaattapati sooryah; Bhayaadindrascha vaayuscha mrityurdhaavati panchamah.)\n―Kathopanishad II-3-3.",
+      "stored_excerpt": "‘‘भयादस्याग्निस्तपति भयात्तपति सुर्यः। भयादिन्द्रश्च वायुश्च मृत्युर्धावति पञ्चमः।",
+      "proposed_replacements": [
+        {
+          "old": "सुर्यः",
+          "new": "सूर्यः",
+          "decision": "scan_transcription_error",
+          "reason": "The scan has सूर्यः and the printed Roman independently has sooryah."
+        }
+      ],
+      "verdict": "Correct the vowel from the printed source. This is not evidence for a new verse variant; preserve the independent call and author translation.",
+      "uncertainty": [],
+      "evidence": {"scan_visual_inspection": true, "source_pdf_sha256": "99084a346d68e5673309e4aca81b9787fe618d8414191f8ec697df4bf2534219"}
+    },
+    {
+      "name_number": 836,
+      "scan_page": 217,
+      "printed_page": 213,
+      "scan_image_path": "/tmp/vsn-witness.LvqgmC/chinmaya-p217.png",
+      "scan_excerpt": "“अणोरणीयान् महतो महीयान आत्मास्य जन्तोर्निहितं गुहायाम् ।”\n(Anoraneeyaan mahato maheeyaan aatmaasya jantornihitam guhaayaam.)\n―Kathopanishad I-ii-20.",
+      "stored_excerpt": "“अणोरणीयान् महतो महीयान् आत्मास्य जन्तोर्निहितं गुहायाम् ।” (Anoraneeyaan mahato maheeyaan aatmaasya jantornihitam guhaayaam.)",
+      "proposed_replacements": [],
+      "qualified_source_context": {
+        "candidate_reading": "nihito",
+        "decision": "probable_print_error",
+        "reason": "The supplied source-review remit identifies nihito as the source reading, but this review does not establish a textual variant or authorize any mutation of the printed author layer."
+      },
+      "verdict": "The print reads nihitaṃ/nihitam, not nihito. Retain it exactly in the author layer; any source-context nihito must be a separate qualified textual note, not a silent correction or asserted variant.",
+      "uncertainty": ["The evidence supports a probable printed-form error relative to the cited source, not an established alternate reading or a critical-edition conclusion."],
+      "evidence": {"scan_visual_inspection": true, "source_pdf_sha256": "99084a346d68e5673309e4aca81b9787fe618d8414191f8ec697df4bf2534219"}
+    },
+    {
+      "name_number": 895,
+      "scan_page": 228,
+      "printed_page": 224,
+      "scan_image_path": "/tmp/vsn-witness.LvqgmC/chinmaya-p228.png",
+      "scan_excerpt": "‘‘श्रवणायापि बहुभिर्यो न लभ्यः शृण्वन्तोऽपि बहवो यं न विद्युः ।\nआश्चर्यो वक्ता कुशलोऽस्य लब्धाऽऽश्चर्यो ज्ञाता कुशलानुशिष्टः ॥”\n(Sravanaayaapi bahubhiryo na labhyah srinvantoapi bahavo yam na vidyuh; Aascharyo vaktaa kusalo-asya labdhaa-aascharyo jnaataa kusalaanusishtah.)\nKathopanishad I-ii-7.",
+      "stored_excerpt": "‘‘श्रवणायापि वहभियों न लभ्यः श्रुष्वन्तोऽपि बहुवो यं न विद्युः। आश्चर्यो वक्ता कुशलोऽस्य लब्धाऽऽश्चर्यो ज्ञाता कुशलानशिष्ट: ॥",
+      "proposed_replacements": [
+        {
+          "old": "वहभियों",
+          "new": "बहुभिर्यो",
+          "decision": "scan_transcription_error",
+          "reason": "The scan reads बहुभिर्यो and its Roman line reads bahubhiryo."
+        },
+        {
+          "old": "श्रुष्वन्तोऽपि",
+          "new": "शृण्वन्तोऽपि",
+          "decision": "scan_transcription_error",
+          "reason": "The scan reads शृण्वन्तोऽपि and its Roman line reads srinvantoapi."
+        },
+        {
+          "old": "बहुवो",
+          "new": "बहवो",
+          "decision": "scan_transcription_error",
+          "reason": "The scan reads बहवो and its Roman line reads bahavo."
+        },
+        {
+          "old": "कुशलानशिष्ट:",
+          "new": "कुशलानुशिष्टः",
+          "decision": "scan_transcription_error",
+          "reason": "The high-resolution crop confirms the scan reads कुशलानुशिष्टः; its Roman line reads kusalaanusishtah."
+        }
+      ],
+      "verdict": "Proofread the complete Kaṭha unit against this page, retaining its two pādas, Roman line, and locus. The listed repairs are scan-backed transcription corrections, not independent regex substitutions or verse-variant claims.",
+      "uncertainty": [],
+      "evidence": {"scan_visual_inspection": true, "source_pdf_sha256": "99084a346d68e5673309e4aca81b9787fe618d8414191f8ec697df4bf2534219"}
+    }
+  ],
+  "completion_note": "All seven supplied scan images were visually inspected. The exceptions are explicit: name 8 is a composite quotation, name 107 is a printed ellipsis fragment, name 555 has missing author translations, and name 836 retains the printed nihitam while any nihito source reading remains qualified."
+}

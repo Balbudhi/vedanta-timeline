@@ -121,3 +121,13 @@ may be satisfied by relabelling the same producer output as reviewed.
   excerpts, structured roots, script fields, source segments, and English-slot
   replay. `--require-resolved` rejects unresolved producer units. A transport
   pass still requires a separate linguistic reviewer and rendered review.
+- The Kaṭha collation found a verified counterexample to automatic primary-text
+  substitution: name 403's printed `suvijñeyam` is also the Sringeri verse
+  reading, while the local GRETIL verse has `sujñeyam`. Preserve the printed
+  reading and analyze `su-vi-jñeya`; record the alternative without declaring
+  a print error. See `internal/sanskrit_reviews/katha-collation-2026-08-30.md`.
+- That scan pass also exposed source-coverage defects upstream of the reader:
+  name 107 was expanded past a printed ellipsis, and name 555 lost its printed
+  English translations. They block the source-preservation pass. Before bulk
+  linguistic work, reconcile scan/body/note/alternate-script/translation
+  coverage; a frozen JSON hash alone does not make the transcription complete.
