@@ -16395,8 +16395,8 @@
                       },
                       {
                         "i": 4,
-                        "iast": "yatas",
-                        "deva": "यतस्",
+                        "iast": "yataḥ",
+                        "deva": "यतः",
                         "gloss": "from whom; because",
                         "parts": [
                           {
@@ -16495,7 +16495,11 @@
                     "source_authority": "chinmayananda_printed_quote",
                     "citation_completeness": "complete",
                     "promotion_eligible": true,
-                    "literal_translation_source": "none"
+                    "literal_translation_source": "site_literal",
+                    "site_literal": {
+                      "english_slots": "{0:He} {1:alone}, {2:the Self of all beings}, {3:of universal form}; {4:from whom}; {5:imperishable}.",
+                      "note": "Literal translation — site; printed fragment"
+                    }
                   }
                 ],
                 "additional_name_numbers": [],
@@ -16654,8 +16658,8 @@
                     "placement_basis": "printed-source-position",
                     "devanagari": "सर्वभूतस्थम् आत्मानं सर्वभूतानि चात्मनि ईक्षते योगयुक्तात्मा सर्वत्र समदर्शनः",
                     "iast": "sarvabhūtastham ātmānaṃ sarvabhūtāni cātmani īkṣate yogayuktātmā sarvatra samadarśanaḥ",
-                    "english": "The self whose mind is joined in yoga sees the Self abiding in all beings and all beings in the Self; he sees the same everywhere",
-                    "english_slots": "{9,10,11:The self whose mind is joined in yoga} {8:sees} {3:the Self} {0,1,2:abiding in all beings} {6:and} {4,5:all beings} {7:in the Self}; {12,13,14:he sees the same everywhere}",
+                    "english": "The self whose mind is joined in yoga sees the Self abiding in all beings and all beings in the Self; everywhere, the same, one who sees.",
+                    "english_slots": "{9,10,11:The self whose mind is joined in yoga} {8:sees} {3:the Self} {0,1,2:abiding in all beings} {6:and} {4,5:all beings} {7:in the Self}; {12:everywhere}, {13:the same}, {14:one who sees}.",
                     "english_source": "site-literal-translation",
                     "source_segments": [
                       {
@@ -17310,7 +17314,7 @@
                     "source_authority": "site_normalized_fragment",
                     "citation_completeness": "fragment",
                     "promotion_eligible": false,
-                    "literal_translation_source": "none",
+                    "literal_translation_source": "site_literal",
                     "display_devanagari": "ब्रह्मैवेदं विश्वम् इदं वरिष्ठं पुरुष एवेदं विश्वम्",
                     "display_words": [
                       {
@@ -17508,7 +17512,11 @@
                     "display_before": "",
                     "display_after": "",
                     "display_citation": "",
-                    "display_policy": "normalized-devanagari-from-reviewed-word-records"
+                    "display_policy": "normalized-devanagari-from-reviewed-word-records",
+                    "site_literal": {
+                      "english_slots": "{0:Brahman} {1:indeed} {2:is this} {3:universe}; {4:this}, {5:the highest}; {6:the Person} {7:indeed} {8:is this} {9:universe}.",
+                      "note": "Literal translation — site; printed fragment"
+                    }
                   }
                 ],
                 "additional_name_numbers": [],
@@ -17774,6 +17782,39 @@
                     ],
                     "start": 350,
                     "end": 353
+                  },
+                  {
+                    "id": "name-1-paragraph-0-repair-ity",
+                    "unit_key": "name-1-paragraph-0-repair-ity",
+                    "text": "ity",
+                    "language": "sa-Latn",
+                    "start": 354,
+                    "end": 357,
+                    "words": [
+                      {
+                        "i": 0,
+                        "iast": "iti",
+                        "deva": "इति",
+                        "gloss": "thus; so",
+                        "parts": [
+                          {
+                            "form": "iti",
+                            "gloss": "thus; so"
+                          }
+                        ],
+                        "stem": "iti",
+                        "affix": "indeclinable; no inflection",
+                        "morph": "indeclinable quotative particle"
+                      }
+                    ],
+                    "source_segments": [
+                      {
+                        "text": "ity",
+                        "word_indices": [
+                          0
+                        ]
+                      }
+                    ]
                   },
                   {
                     "id": "name-1-paragraph-0-iast-180",
@@ -18298,18 +18339,23 @@
                     "words": [
                       {
                         "i": 0,
-                        "iast": "Purāṇas",
-                        "deva": "पुराणस्",
-                        "gloss": "Purāṇas",
+                        "iast": "purāṇas",
+                        "deva": "पुराणाः",
+                        "gloss": "the ancient narratives",
                         "parts": [
                           {
-                            "form": "Purāṇas",
-                            "gloss": "Purāṇas"
+                            "form": "purāṇa",
+                            "gloss": "ancient; old"
+                          },
+                          {
+                            "form": "jas",
+                            "gloss": "nominative plural"
                           }
                         ],
-                        "stem": "Purāṇas",
-                        "affix": "citation ending",
-                        "morph": "work/title citation form"
+                        "stem": "purāṇa",
+                        "affix": "jas (prathamā bahuvacana)",
+                        "morph": "nominative plural masculine adjective used substantively",
+                        "note": "lexical adjective/title; no verbal-root derivation is asserted"
                       }
                     ],
                     "source_segments": [
@@ -18467,18 +18513,19 @@
                     "words": [
                       {
                         "i": 0,
-                        "iast": "Purāṇa",
+                        "iast": "purāṇa",
                         "deva": "पुराण",
-                        "gloss": "Purāṇa",
+                        "gloss": "ancient narrative",
                         "parts": [
                           {
-                            "form": "Purāṇa",
-                            "gloss": "Purāṇa"
+                            "form": "purāṇa",
+                            "gloss": "ancient; old"
                           }
                         ],
-                        "stem": "Purāṇa",
-                        "affix": "citation ending",
-                        "morph": "work/title citation form"
+                        "stem": "purāṇa",
+                        "affix": "citation stem; no inflection asserted",
+                        "morph": "lexical adjective/title used as a work designation",
+                        "note": "no verbal-root derivation is asserted"
                       }
                     ],
                     "source_segments": [
@@ -18504,7 +18551,11 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "term_only",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "site_literal",
+                "site_literal": {
+                  "english_slots": "{0:Because} {2:this} {3:entire universe} {1:is pervaded} {5:by the power} {4:of} {6:the great Self}; {7:therefore} {10:Viṣṇu} {8,9:is indeed called}, {11:from √viś}, {12:the root}, {13:‘to enter’}.",
+                  "note": "Site literal"
+                }
               },
               {
                 "type": "footnote",
@@ -18875,7 +18926,11 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "term_only",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "site_literal",
+                "site_literal": {
+                  "english_slots": "{0:Because} {2:this} {3:entire universe} {1:is pervaded} {5:by the power} {4:of} {6:the great Self}; {7:therefore} {10:Viṣṇu} {8,9:is indeed called}, {11:from √viś}, {12:the root}, {13:‘to enter’}.",
+                  "note": "Site literal"
+                }
               },
               {
                 "type": "prose",
@@ -19033,13 +19088,17 @@
                         "gloss": "whatever; which",
                         "parts": [
                           {
-                            "form": "yat",
-                            "gloss": "whatever; which"
+                            "form": "yad",
+                            "gloss": "which; whatever"
+                          },
+                          {
+                            "form": "am",
+                            "gloss": "nominative/accusative singular neuter"
                           }
                         ],
-                        "stem": "yat",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "yad",
+                        "affix": "am (prathamā/dvitīyā ekavacana)",
+                        "morph": "nominative or accusative singular neuter relative pronoun"
                       },
                       {
                         "i": 1,
@@ -19048,43 +19107,51 @@
                         "gloss": "anything",
                         "parts": [
                           {
-                            "form": "kiñ",
-                            "gloss": "anything"
+                            "form": "kim",
+                            "gloss": "what"
+                          },
+                          {
+                            "form": "am",
+                            "gloss": "nominative/accusative singular neuter"
                           }
                         ],
-                        "stem": "kiñ",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "kim",
+                        "affix": "am (prathamā/dvitīyā ekavacana)",
+                        "morph": "nominative or accusative singular neuter interrogative pronoun"
                       },
                       {
                         "i": 2,
                         "iast": "ca",
                         "deva": "च",
-                        "gloss": "and",
+                        "gloss": "and; at all",
                         "parts": [
                           {
                             "form": "ca",
-                            "gloss": "and"
+                            "gloss": "and; at all"
                           }
                         ],
-                        "stem": "c",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "ca",
+                        "affix": "indeclinable; no inflection",
+                        "morph": "indeclinable connective particle"
                       },
                       {
                         "i": 3,
-                        "iast": "jagatyāṃ",
-                        "deva": "जगत्यां",
+                        "iast": "jagatyām",
+                        "deva": "जगत्याम्",
                         "gloss": "in the moving world",
                         "parts": [
                           {
-                            "form": "jagatyāṃ",
-                            "gloss": "in the moving world"
+                            "form": "jagatī",
+                            "gloss": "the moving world"
+                          },
+                          {
+                            "form": "ṅi",
+                            "gloss": "locative singular"
                           }
                         ],
-                        "stem": "jagatyā",
-                        "affix": "am (dvitīyā/prathamā ekavacana)",
-                        "morph": "lexical citation form"
+                        "stem": "jagatī",
+                        "affix": "ṅi (saptamī ekavacana)",
+                        "morph": "locative singular feminine noun"
                       },
                       {
                         "i": 4,
@@ -19093,13 +19160,19 @@
                         "gloss": "the moving world",
                         "parts": [
                           {
-                            "form": "jagat",
-                            "gloss": "the moving world"
+                            "form": "√gam",
+                            "gloss": "go; move"
+                          },
+                          {
+                            "form": "śatṛ",
+                            "gloss": "present active participial suffix"
                           }
                         ],
                         "stem": "jagat",
-                        "affix": "t-stem citation",
-                        "morph": "lexical neuter noun"
+                        "root": "√gam",
+                        "rootGloss": "go; move",
+                        "affix": "śatṛ (present active participial formation)",
+                        "morph": "neuter participial noun"
                       }
                     ],
                     "source_segments": [
@@ -19109,7 +19182,8 @@
                           0,
                           1,
                           2
-                        ]
+                        ],
+                        "group_gloss": "whatever at all"
                       },
                       {
                         "text": "जगत्यां ",
@@ -61811,6 +61885,78 @@
                     ],
                     "start": 434,
                     "end": 437
+                  },
+                  {
+                    "id": "name-114-paragraph-0-repair-karoti",
+                    "unit_key": "name-114-paragraph-0-repair-karoti",
+                    "text": "karoti",
+                    "language": "sa-Latn",
+                    "start": 438,
+                    "end": 444,
+                    "words": [
+                      {
+                        "i": 0,
+                        "iast": "karoti",
+                        "deva": "करोति",
+                        "gloss": "makes; does",
+                        "parts": [
+                          {
+                            "form": "√kṛ",
+                            "gloss": "make; do"
+                          },
+                          {
+                            "form": "laṭ + tip",
+                            "gloss": "present active third-person singular"
+                          }
+                        ],
+                        "stem": "√kṛ",
+                        "root": "√kṛ",
+                        "rootGloss": "make; do",
+                        "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+                        "morph": "present active third-person singular verb"
+                      }
+                    ],
+                    "source_segments": [
+                      {
+                        "text": "karoti",
+                        "word_indices": [
+                          0
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "name-114-paragraph-0-repair-iti",
+                    "unit_key": "name-114-paragraph-0-repair-iti",
+                    "text": "iti",
+                    "language": "sa-Latn",
+                    "start": 445,
+                    "end": 448,
+                    "words": [
+                      {
+                        "i": 0,
+                        "iast": "iti",
+                        "deva": "इति",
+                        "gloss": "thus; so",
+                        "parts": [
+                          {
+                            "form": "iti",
+                            "gloss": "thus; so"
+                          }
+                        ],
+                        "stem": "iti",
+                        "affix": "indeclinable; no inflection",
+                        "morph": "indeclinable quotative particle"
+                      }
+                    ],
+                    "source_segments": [
+                      {
+                        "text": "iti",
+                        "word_indices": [
+                          0
+                        ]
+                      }
+                    ]
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -178211,12 +178357,105 @@
                   }
                 ],
                 "additional_name_numbers": [],
-                "content_class": "printed_footnote_prose",
+                "content_class": "formula_nirvacana",
                 "render_mode": "footnote_note",
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "derivational",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "site_literal",
+                "formula_payload": {
+                  "content_class": "formula_nirvacana",
+                  "render_mode": "footnote_note",
+                  "devanagari": "भुनक्ति इति भोक्ता",
+                  "english_slots": "{0:He protects} {1:thus}; {2:Protector}.",
+                  "literal_translation_source": "site_literal",
+                  "site_literal_note": "Site literal; printed derivation",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "bhunakti",
+                      "deva": "भुनक्ति",
+                      "gloss": "he protects",
+                      "parts": [
+                        {
+                          "form": "√bhuj",
+                          "gloss": "protect"
+                        },
+                        {
+                          "form": "laṭ + tip",
+                          "gloss": "present active third-person singular"
+                        }
+                      ],
+                      "stem": "√bhuj",
+                      "root": "√bhuj",
+                      "rootGloss": "protect; enjoy; consume",
+                      "affix": "laṭ + tip (prathamapuruṣa ekavacana)",
+                      "morph": "present active third-person singular verb",
+                      "note": "rudhādi (7); parasmaipada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः"
+                    },
+                    {
+                      "i": 1,
+                      "iast": "iti",
+                      "deva": "इति",
+                      "gloss": "thus; so",
+                      "parts": [
+                        {
+                          "form": "iti",
+                          "gloss": "thus; so"
+                        }
+                      ],
+                      "stem": "iti",
+                      "affix": "indeclinable; no inflection",
+                      "morph": "indeclinable quotative particle"
+                    },
+                    {
+                      "i": 2,
+                      "iast": "bhoktā",
+                      "deva": "भोक्ता",
+                      "gloss": "protector",
+                      "parts": [
+                        {
+                          "form": "√bhuj",
+                          "gloss": "protect"
+                        },
+                        {
+                          "form": "tṛc",
+                          "gloss": "agent-forming suffix"
+                        },
+                        {
+                          "form": "su",
+                          "gloss": "nominative singular"
+                        }
+                      ],
+                      "stem": "bhoktṛ",
+                      "root": "√bhuj",
+                      "rootGloss": "protect; enjoy; consume",
+                      "affix": "tṛc + su (prathamā ekavacana)",
+                      "morph": "nominative singular masculine agent noun",
+                      "note": "rudhādi (7); parasmaipada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "भुनक्ति ",
+                      "word_indices": [
+                        0
+                      ]
+                    },
+                    {
+                      "text": "इति ",
+                      "word_indices": [
+                        1
+                      ]
+                    },
+                    {
+                      "text": "भोक्ता",
+                      "word_indices": [
+                        2
+                      ]
+                    }
+                  ]
+                }
               },
               {
                 "type": "prose",
@@ -256900,13 +257139,20 @@
                         "gloss": "world; field of experience",
                         "parts": [
                           {
-                            "form": "loka",
-                            "gloss": "world; field of experience"
+                            "form": "√lok",
+                            "gloss": "see; behold"
+                          },
+                          {
+                            "form": "a",
+                            "gloss": "nominal stem formation"
                           }
                         ],
                         "stem": "loka",
-                        "affix": "none: Sanskrit stem retained as an English-prose borrowing",
-                        "morph": "Sanskrit lexical stem retained as an English-prose borrowing"
+                        "affix": "a (nominal stem formation)",
+                        "morph": "masculine nominal stem used in English prose",
+                        "root": "√lok",
+                        "rootGloss": "see; behold",
+                        "note": "bhvādi (1); ātmanepada · Dhātupāṭha 01.0080: दर्शने"
                       }
                     ],
                     "source_segments": [

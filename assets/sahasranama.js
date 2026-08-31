@@ -18,116 +18,6 @@ let ACTIVE_TIMING_ID = null;
 let AUDIO_ELEMENT = null;
 let MODE_HOST = null;
 const CHANT_VIEW_KEY = "vedanta:vishnu-sahasranama:chant-only";
-const PILOT_WORD_CORRECTIONS = {
-  // The witnessed surface is यतोऽव्ययः. The existing source segments preserve
-  // it, while this one card's IAST token was serialized as "yatas".
-  "cm-vs-fn-p020-n01-quote-0": { 4: { iast: "yataḥ", deva: "यतः" } },
-};
-const PILOT_SITE_LITERALS = {
-  // The printed citation is a fragment rather than a separately verified
-  // primary-text locus. Keep the supplied reading explicitly site-attributed.
-  "cm-vs-fn-p020-n01-quote-0": {
-    englishSlots: "{0:He} {1:alone}, {2:the Self of all beings}, {3:of universal form}; {4:from whom}; {5:imperishable}.",
-    note: "Literal translation — site; printed fragment",
-  },
-  "cm-vs-fn-p020-n03": {
-    englishSlots: "{0:Brahman} {1:indeed} {2:is this} {3:universe}; {4:this}, {5:the highest}; {6:the Person} {7:indeed} {8:is this} {9:universe}.",
-    note: "Literal translation — site; printed fragment",
-  },
-  "name-2-paragraph-1": {
-    englishSlots: "{0:Because} {2:this} {3:entire universe} {1:is pervaded} {5:by the power} {4:of} {6:the great Self}; {7:therefore} {10:Viṣṇu} {8,9:is indeed called}, {11:from √viś}, {12:the root}, {13:‘to enter’}.",
-    note: "Site literal",
-  },
-};
-const PILOT_ENGLISH_SLOT_OVERRIDES = {
-  // Keep the final compound of Gītā 6.29 inspectable word by word: the old
-  // single English span made sarvatra, sama, and darśanaḥ one opaque target.
-  "name-1-paragraph-2-span-0": "{9,10,11:The self whose mind is joined in yoga} {8:sees} {3:the Self} {0,1,2:abiding in all beings} {6:and} {4,5:all beings} {7:in the Self}; {12:everywhere}, {13:the same}, {14:one who sees}.",
-};
-const INLINE_SANSKRIT_REPAIRS = {
-  "1:0": [{
-    id: "name-1-paragraph-0-repair-ity",
-    text: "ity",
-    language: "sa-Latn",
-    start: 354,
-    end: 357,
-    source_segments: [{ text: "ity", word_indices: [0] }],
-    words: [{
-      i: 0, iast: "iti", deva: "इति", gloss: "thus; so",
-      parts: [{ form: "iti", gloss: "thus; so" }], stem: "iti",
-      affix: "indeclinable; no inflection", morph: "indeclinable quotative particle",
-    }],
-  }],
-  "114:0": [
-    {
-      id: "name-114-paragraph-0-repair-karoti",
-      text: "karoti", language: "sa-Latn", start: 438, end: 444,
-      source_segments: [{ text: "karoti", word_indices: [0] }],
-      words: [{
-        i: 0, iast: "karoti", deva: "करोति", gloss: "makes; does",
-        parts: [{ form: "√kṛ", gloss: "make; do" }, { form: "laṭ + tip", gloss: "present active third-person singular" }],
-        stem: "√kṛ", root: "√kṛ", rootGloss: "make; do",
-        affix: "laṭ + tip (prathamapuruṣa ekavacana)", morph: "present active third-person singular verb",
-      }],
-    },
-    {
-      id: "name-114-paragraph-0-repair-iti",
-      text: "iti", language: "sa-Latn", start: 445, end: 448,
-      source_segments: [{ text: "iti", word_indices: [0] }],
-      words: [{
-        i: 0, iast: "iti", deva: "इति", gloss: "thus; so",
-        parts: [{ form: "iti", gloss: "thus; so" }], stem: "iti",
-        affix: "indeclinable; no inflection", morph: "indeclinable quotative particle",
-      }],
-    },
-  ],
-};
-const INLINE_WORD_OVERRIDES = {
-  "name-750-paragraph-0-ascii-0": {
-    0: {
-      iast: "loka", deva: "लोक", gloss: "world; field of experience",
-      parts: [{ form: "√lok", gloss: "see; behold" }, { form: "a", gloss: "nominal stem formation" }],
-      stem: "loka", root: "√lok", rootGloss: "see; behold",
-      affix: "a (nominal stem formation)", morph: "masculine nominal stem used in English prose",
-      note: "bhvādi (1); ātmanepada · Dhātupāṭha 01.0080: दर्शने",
-    },
-  },
-  "name-2-paragraph-1-iast-22": {
-    0: { iast: "purāṇas", deva: "पुराणाः", gloss: "the ancient narratives", parts: [{ form: "purāṇa", gloss: "ancient; old" }, { form: "jas", gloss: "nominative plural" }], stem: "purāṇa", affix: "jas (prathamā bahuvacana)", morph: "nominative plural masculine adjective used substantively", note: "lexical adjective/title; no verbal-root derivation is asserted" },
-  },
-  "name-2-paragraph-1-iast-55": {
-    0: { iast: "purāṇa", deva: "पुराण", gloss: "ancient narrative", parts: [{ form: "purāṇa", gloss: "ancient; old" }], stem: "purāṇa", affix: "citation stem; no inflection asserted", morph: "lexical adjective/title used as a work designation", note: "no verbal-root derivation is asserted" },
-  },
-};
-const INLINE_ITEM_OVERRIDES = {
-  "name-2-paragraph-2-span-1": {
-    words: [
-      { i: 0, iast: "yat", deva: "यत्", gloss: "whatever; which", parts: [{ form: "yad", gloss: "which; whatever" }, { form: "am", gloss: "nominative/accusative singular neuter" }], stem: "yad", affix: "am (prathamā/dvitīyā ekavacana)", morph: "nominative or accusative singular neuter relative pronoun" },
-      { i: 1, iast: "kiñ", deva: "किञ्", gloss: "anything", parts: [{ form: "kim", gloss: "what" }, { form: "am", gloss: "nominative/accusative singular neuter" }], stem: "kim", affix: "am (prathamā/dvitīyā ekavacana)", morph: "nominative or accusative singular neuter interrogative pronoun" },
-      { i: 2, iast: "ca", deva: "च", gloss: "and; at all", parts: [{ form: "ca", gloss: "and; at all" }], stem: "ca", affix: "indeclinable; no inflection", morph: "indeclinable connective particle" },
-      { i: 3, iast: "jagatyām", deva: "जगत्याम्", gloss: "in the moving world", parts: [{ form: "jagatī", gloss: "the moving world" }, { form: "ṅi", gloss: "locative singular" }], stem: "jagatī", affix: "ṅi (saptamī ekavacana)", morph: "locative singular feminine noun" },
-      { i: 4, iast: "jagat", deva: "जगत्", gloss: "the moving world", parts: [{ form: "√gam", gloss: "go; move" }, { form: "śatṛ", gloss: "present active participial suffix" }], stem: "jagat", root: "√gam", rootGloss: "go; move", affix: "śatṛ (present active participial formation)", morph: "neuter participial noun" },
-    ],
-    source_segments: [
-      { text: "यत्किञ्च ", word_indices: [0, 1, 2], group_gloss: "whatever at all" },
-      { text: "जगत्यां ", word_indices: [3] },
-      { text: "जगत्…", word_indices: [4] },
-    ],
-  },
-};
-const PILOT_DERIVATION_ROWS = {
-  // Transcribed from Chinmayananda's printed note on p. 137 (PDF 141).
-  "cm-vs-fn-p141-n01": {
-    devanagari: "भुनक्ति इति भोक्ता",
-    englishSlots: "{0:He protects} {1:thus}; {2:Protector}.",
-    words: [
-      { i: 0, iast: "bhunakti", deva: "भुनक्ति", gloss: "he protects", parts: [{ form: "√bhuj", gloss: "protect" }, { form: "laṭ + tip", gloss: "present active third-person singular" }], stem: "√bhuj", root: "√bhuj", rootGloss: "protect; enjoy; consume", affix: "laṭ + tip (prathamapuruṣa ekavacana)", morph: "present active third-person singular verb", note: "rudhādi (7); parasmaipada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः" },
-      { i: 1, iast: "iti", deva: "इति", gloss: "thus; so", parts: [{ form: "iti", gloss: "thus; so" }], stem: "iti", affix: "indeclinable; no inflection", morph: "indeclinable quotative particle" },
-      { i: 2, iast: "bhoktā", deva: "भोक्ता", gloss: "protector", parts: [{ form: "√bhuj", gloss: "protect" }, { form: "tṛc", gloss: "agent-forming suffix" }, { form: "su", gloss: "nominative singular" }], stem: "bhoktṛ", root: "√bhuj", rootGloss: "protect; enjoy; consume", affix: "tṛc + su (prathamā ekavacana)", morph: "nominative singular masculine agent noun", note: "rudhādi (7); parasmaipada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः" },
-    ],
-    sourceSegments: [{ text: "भुनक्ति ", word_indices: [0] }, { text: "इति ", word_indices: [1] }, { text: "भोक्ता", word_indices: [2] }],
-  },
-};
 let DEEP_LINK_NAME = null;
 let RANGE_OBSERVER = null;
 let RANGE_ACTIVE_STANZA = null;
@@ -334,7 +224,7 @@ function compactReplayKey(value) {
 }
 
 function quoteSourceLabel(block) {
-  if (PILOT_DERIVATION_ROWS[block?.id]) return "Printed derivation";
+  if (block?.formula_payload) return "Printed derivation";
   if (block?.id === "cm-vs-fn-p020-n01") return "Printed citation · Viṣṇu Purāṇa 1.2.69";
   const quote = (block.blocks || []).find(child => child.type === "gita-quote" || child.type === "sanskrit-quote");
   if (!quote) return "Chinmayananda’s note";
@@ -349,11 +239,11 @@ function citationKind(block) {
 }
 
 function siteLiteral(block, context = {}) {
-  return PILOT_SITE_LITERALS[block?.id] || PILOT_SITE_LITERALS[context.footnoteId] || PILOT_SITE_LITERALS[`name-${context.nameNumber}-paragraph-${block?.source_paragraph_index}`] || "";
+  return block?.site_literal || "";
 }
 
 function presentationEnglishSlots(block) {
-  return PILOT_ENGLISH_SLOT_OVERRIDES[block?.id] || block?.english_slots || null;
+  return block?.english_slots || null;
 }
 
 function presentationDisplayWords(block, context = {}) {
@@ -412,29 +302,20 @@ function presentationStandaloneWords(item, context = {}) {
 }
 
 function presentationInlineSanskrit(block, context = {}) {
-  return [...(block?.inline_sanskrit || []), ...(INLINE_SANSKRIT_REPAIRS[`${context.nameNumber}:${block?.source_paragraph_index}`] || [])]
-    .map(item => {
-      const itemOverride = INLINE_ITEM_OVERRIDES[item.id];
-      if (itemOverride) return { ...item, ...itemOverride };
-      const changes = INLINE_WORD_OVERRIDES[item.id];
-      return changes ? { ...item, words: item.words.map(word => changes[word.i] ? { ...word, ...changes[word.i] } : word) } : item;
-    })
-    .sort((a, b) => a.start - b.start);
+  return (block?.inline_sanskrit || []).slice().sort((a, b) => a.start - b.start);
 }
 
 function presentationWords(block) {
-  const corrections = PILOT_WORD_CORRECTIONS[block?.id];
-  if (!corrections) return block?.words || [];
-  return (block.words || []).map(word => corrections[word.i] ? { ...word, ...corrections[word.i] } : word);
+  return block?.words || [];
 }
 
-function renderPilotDerivationRow(block) {
-  const row = PILOT_DERIVATION_ROWS[block.id];
+function renderFormulaPayload(block) {
+  const row = block.formula_payload;
   if (!row) return "";
   const blockHtml = window.GitaReader?.interactiveBlock
-    ? window.GitaReader.interactiveBlock(row.words, row.englishSlots, null, row.devanagari, "vsn-commentary-quote-deva", row.sourceSegments)
+    ? window.GitaReader.interactiveBlock(row.words, row.english_slots, null, row.devanagari, "vsn-commentary-quote-deva", row.source_segments)
     : `<div class="vsn-derivation-deva" lang="sa-Deva">${esc(row.devanagari)}</div>`;
-  return `<div class="vsn-derivation-row">${blockHtml}<div class="vsn-site-translation-note">Literal translation — site; printed derivation</div></div>`;
+  return `<div class="vsn-derivation-row">${blockHtml}<div class="vsn-site-translation-note">${esc(row.site_literal_note || "Site literal")}</div></div>`;
 }
 
 function quotedWordForms(block) {
@@ -466,7 +347,7 @@ function renderCommentaryBlock(block, context = {}) {
     })}${calls}</p>`;
   }
   if (block.type === "footnote") {
-    const pilotDerivation = renderPilotDerivationRow(block);
+    const pilotDerivation = renderFormulaPayload(block);
     if (pilotDerivation) {
       return `<aside class="vsn-footnote vsn-evidence-thread vsn-derivation-note" id="${esc(block.id)}" role="note" data-print-marker="${esc(block.marker)}" aria-label="${esc(`Printed derivation; note ${block.marker}`)}">
         <div class="vsn-footnote-body">${pilotDerivation}</div>

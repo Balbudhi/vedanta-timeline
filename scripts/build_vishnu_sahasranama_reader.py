@@ -67,6 +67,7 @@ OUTPUT_PATH = ROOT / "gita/vishnu-sahasranama/reader.json"
 WEB_CORE_PATH = ROOT / "gita/vishnu-sahasranama/reader-core.json"
 WEB_DETAILS_PATH = ROOT / "gita/vishnu-sahasranama/reader-details.json"
 WEB_DETAIL_FIELDS = ("word_analysis", "chinmayananda", "traditional_derivation")
+PRESENTATION_OVERRIDES_PATH = ROOT / "gita/vishnu-sahasranama/reader_review_overrides.json"
 
 RECEIVED_URL = "https://sanskritdocuments.org/doc_vishhnu/vsahasranew.itx"
 RECEIVED_SHA256 = "b53e64398d0a340dd01d2a83979c13346d6b27ec29f50a46a41b9d14080bb19b"
@@ -1172,6 +1173,66 @@ def classify_rendered_commentary_blocks(blocks: list[dict], in_footnote: bool = 
                 block.setdefault("literal_translation_source", "none")
 
 
+def apply_presentation_overrides(number: int, blocks: list[dict], overrides: dict, parent_footnote_id: str | None = None) -> None:
+    """Apply reviewed display corrections from canonical data, never the UI."""
+    for block in blocks:
+        if block.get("type") == "footnote":
+            formula = overrides.get("formula_overrides", {}).get(block.get("id"))
+            if formula:
+                block["content_class"] = formula["content_class"]
+                block["render_mode"] = formula["render_mode"]
+                block["literal_translation_source"] = formula["literal_translation_source"]
+                block["formula_payload"] = formula
+            apply_presentation_overrides(number, block.get("blocks", []), overrides, block.get("id"))
+            continue
+        block_id = block.get("id")
+        word_overrides = overrides["quote_word_overrides"].get(block_id, {})
+        for index_text, fields in word_overrides.items():
+            index = int(index_text)
+            if index >= len(block.get("words", [])):
+                raise ValueError(f"presentation override index out of range: {block_id} {index}")
+            block["words"][index].update(fields)
+        if block_id in overrides["quote_english_slot_overrides"]:
+            block["english_slots"] = overrides["quote_english_slot_overrides"][block_id]
+            block["english"] = re.sub(r"\{[\d,\s]+:([^}]*)\}", r"\1", block["english_slots"])
+        literal_key = block_id or parent_footnote_id or f"name-{number}-paragraph-{block.get('source_paragraph_index')}"
+        literal = overrides["site_literal_overrides"].get(literal_key)
+        if literal:
+            block["site_literal"] = literal
+            block["literal_translation_source"] = "site_literal"
+        for annotation in block.get("inline_sanskrit", []):
+            item_override = overrides.get("inline_item_overrides", {}).get(annotation.get("id"))
+            if item_override:
+                annotation.update(item_override)
+            for index_text, fields in overrides.get("inline_word_overrides", {}).get(annotation.get("id"), {}).items():
+                index = int(index_text)
+                if index >= len(annotation.get("words", [])):
+                    raise ValueError(f"inline word override index out of range: {annotation.get('id')} {index}")
+                annotation["words"][index].update(fields)
+    if parent_footnote_id is not None:
+        return
+    for addition in overrides.get("inline_additions", {}).get(str(number), []):
+        candidates = [block for block in blocks if block.get("type") == "prose" and addition["block_contains"] in block.get("text", "")]
+        if len(candidates) != 1:
+            raise ValueError(f"inline presentation addition did not resolve uniquely: name {number} {addition['id']}")
+        block = candidates[0]
+        anchor_end = block["text"].index(addition["after"], block["text"].index(addition["block_contains"])) + len(addition["after"])
+        start = anchor_end
+        end = start + len(addition["token"])
+        if block["text"][start:end] != addition["token"]:
+            raise ValueError(f"inline presentation addition does not replay source: {addition['id']}")
+        annotation = {
+            "id": addition["id"], "unit_key": addition["id"], "text": addition["token"],
+            "language": addition["language"], "start": start, "end": end,
+            "words": addition["words"],
+            "source_segments": [{"text": addition["token"], "word_indices": [word["i"] for word in addition["words"]]}],
+        }
+        if any(row.get("id") == annotation["id"] for row in block.get("inline_sanskrit", [])):
+            raise ValueError(f"duplicate inline presentation addition: {annotation['id']}")
+        block.setdefault("inline_sanskrit", []).append(annotation)
+        block["inline_sanskrit"].sort(key=lambda row: (row["start"], row["end"], row["id"]))
+
+
 def build(received: str, word_split: str, commentary_path: Path | None, analysis_path: Path | None) -> dict:
     generated_preface = build_performance_preface(received)
     if not PREFACE_WITNESS_PATH.exists():
@@ -1187,6 +1248,9 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
     bori = parse_bori(BORI_PATH)
     boundaries, all_names = parse_word_split(word_split)
     commentary = load_commentary(commentary_path)
+    presentation_overrides = json.loads(PRESENTATION_OVERRIDES_PATH.read_text(encoding="utf-8"))
+    if presentation_overrides.get("schema_version") != 1:
+        raise ValueError("reader presentation overrides have an unsupported schema")
     analyses = load_analysis(analysis_path)
     parallel_derivations = alternatives_by_name()
     quote_registry = json.loads(COMMENTARY_QUOTES_PATH.read_text(encoding="utf-8"))
@@ -1258,6 +1322,7 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
     apply_footnote_apparatus(by_number, merged_footnotes())
     for item in by_number.values():
         classify_rendered_commentary_blocks(item.get("chinmayananda", {}).get("blocks", []))
+        apply_presentation_overrides(item["number"], item.get("chinmayananda", {}).get("blocks", []), presentation_overrides)
 
     for index, stanza in enumerate(stanzas):
         stanza["critical_edition"] = bori[index]
