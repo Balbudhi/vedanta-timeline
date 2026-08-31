@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import unicodedata
@@ -12,6 +13,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 INTERNAL = ROOT / "internal/sanskrit_reviews"
 INVENTORY = INTERNAL / "ascii-sanskrit-candidate-inventory.json"
+DHATUPATHA_WITNESS = INTERNAL / "dhatupatha-witness.json"
+DHATUPATHA_RAW_SHA256 = "e8c0e929294c4ab68455b461ee81234e7a0febac1b72e6873ea832354a28b641"
+DHATUPATHA_PROJECTION_SHA256 = "346eadffd84c6bd72cbce6a2c9fc54b38416c6507de7a8d50a837443b0b543b9"
+DHATUPATHA_RECORD_COUNT = 2259
+DHATUPATHA_FIELDS = ("baseindex", "dhatu", "aupadeshik", "artha")
 REVIEWS = (
     INTERNAL / "ascii-sanskrit-review-001-250.json",
     INTERNAL / "ascii-sanskrit-review-251-500.json",
@@ -28,12 +34,45 @@ VERBAL_MARKERS = (
     "indicative", "imperative", "optative", "participle", "absolutive",
     "gerundive", "finite verb", "verbal form",
 )
-DHATUPATHA = {
-    row["baseindex"]: row
-    for row in json.loads(
-        Path("/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json").read_text(encoding="utf-8")
-    )["data"]
-}
+
+
+def load_dhatupatha_witness() -> dict[str, dict]:
+    """Load the pinned raw-field projection used for exact locus replay."""
+    snapshot = json.loads(DHATUPATHA_WITNESS.read_text(encoding="utf-8"))
+    source = snapshot.get("source", {})
+    projection = snapshot.get("projection", {})
+    rows = snapshot.get("data")
+    if snapshot.get("schema_version") != 1 or snapshot.get("kind") != "dhatupatha-validation-witness":
+        raise ValueError("Dhātupāṭha witness schema is invalid")
+    if source.get("sha256") != DHATUPATHA_RAW_SHA256:
+        raise ValueError("Dhātupāṭha witness source checksum differs from the pinned raw transport")
+    if (
+        projection.get("record_count") != DHATUPATHA_RECORD_COUNT
+        or projection.get("unique_baseindex_count") != DHATUPATHA_RECORD_COUNT
+        or not isinstance(rows, list)
+        or len(rows) != DHATUPATHA_RECORD_COUNT
+    ):
+        raise ValueError("Dhātupāṭha witness record count is invalid")
+    if projection.get("fields") != list(DHATUPATHA_FIELDS):
+        raise ValueError("Dhātupāṭha witness field projection is invalid")
+    encoded_rows = json.dumps(
+        rows,
+        ensure_ascii=False,
+        separators=(",", ":"),
+        sort_keys=True,
+    ).encode("utf-8")
+    if (projection.get("data_sha256") != DHATUPATHA_PROJECTION_SHA256
+            or hashlib.sha256(encoded_rows).hexdigest() != DHATUPATHA_PROJECTION_SHA256):
+        raise ValueError("Dhātupāṭha witness data checksum differs")
+    if any(set(row) != set(DHATUPATHA_FIELDS) for row in rows):
+        raise ValueError("Dhātupāṭha witness rows must contain only the pinned raw fields")
+    by_locus = {row["baseindex"]: row for row in rows}
+    if len(by_locus) != DHATUPATHA_RECORD_COUNT:
+        raise ValueError("Dhātupāṭha witness baseindex population is not unique and complete")
+    return by_locus
+
+
+DHATUPATHA = load_dhatupatha_witness()
 
 
 def fold(value: object) -> str:

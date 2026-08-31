@@ -15,7 +15,13 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  validate:
+    uses: ./.github/workflows/validate.yml
+    permissions:
+      contents: read
+
   build:
+    needs: validate
     runs-on: ubuntu-latest
     steps:
       # The checked-in source mirror is ~1.2 GB, and ~1.17 GB of that is
