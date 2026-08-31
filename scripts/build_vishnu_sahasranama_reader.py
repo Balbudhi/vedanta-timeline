@@ -1173,6 +1173,40 @@ def classify_rendered_commentary_blocks(blocks: list[dict], in_footnote: bool = 
                 block.setdefault("literal_translation_source", "none")
 
 
+def trim_inline_quotation_punctuation(annotation: dict) -> None:
+    """Keep surrounding quotation marks in prose, never inside a Sanskrit token."""
+    source = annotation.get("text", "")
+    leading = len(source) - len(source.lstrip("‘’'“\""))
+    trailing = len(source) - len(source.rstrip("‘’'“\""))
+    if not leading and not trailing:
+        return
+    core_end = len(source) - trailing if trailing else len(source)
+    core = source[leading:core_end]
+    if not core:
+        raise ValueError(f"inline Sanskrit quote trim erased annotation: {annotation.get('id')}")
+    annotation["text"] = core
+    annotation["start"] += leading
+    annotation["end"] -= trailing
+    segments = [dict(segment) for segment in annotation.get("source_segments", [])]
+    remaining = leading
+    for segment in segments:
+        if not remaining:
+            break
+        amount = min(remaining, len(segment.get("text", "")))
+        segment["text"] = segment.get("text", "")[amount:]
+        remaining -= amount
+    remaining = trailing
+    for segment in reversed(segments):
+        if not remaining:
+            break
+        amount = min(remaining, len(segment.get("text", "")))
+        segment["text"] = segment.get("text", "")[:-amount] if amount else segment.get("text", "")
+        remaining -= amount
+    if remaining or any(not segment.get("text") for segment in segments):
+        raise ValueError(f"inline Sanskrit quote trim cannot preserve source segments: {annotation.get('id')}")
+    annotation["source_segments"] = segments
+
+
 def apply_presentation_overrides(number: int, blocks: list[dict], overrides: dict, parent_footnote_id: str | None = None) -> None:
     """Apply reviewed display corrections from canonical data, never the UI."""
     for block in blocks:
@@ -1180,6 +1214,13 @@ def apply_presentation_overrides(number: int, blocks: list[dict], overrides: dic
         if block.get("type") == "footnote":
             formula = overrides.get("formula_overrides", {}).get(block.get("id"))
             if formula:
+                formula = dict(formula)
+                payload_ref = formula.pop("payload_ref", None)
+                if payload_ref:
+                    payload = overrides.get("display_payload_overrides", {}).get(payload_ref)
+                    if not payload:
+                        raise ValueError(f"formula override payload is missing: {payload_ref}")
+                    formula = {**payload, **formula}
                 block["content_class"] = formula["content_class"]
                 block["render_mode"] = formula["render_mode"]
                 block["literal_translation_source"] = formula["literal_translation_source"]
@@ -1201,7 +1242,43 @@ def apply_presentation_overrides(number: int, blocks: list[dict], overrides: dic
         if literal:
             block["site_literal"] = literal
             block["literal_translation_source"] = "site_literal"
+        display_payload = overrides.get("display_payload_overrides", {}).get(parent_footnote_id)
+        if display_payload and block.get("display_devanagari"):
+            block["display_payload"] = display_payload
+        group_key = f"{number}:{block.get('source_paragraph_index')}"
+        for group in overrides.get("coalesced_inline_overrides", {}).get(group_key, []):
+            source_text = group["text"]
+            if source_text not in block.get("text", ""):
+                continue
+            starts = [match.start() for match in re.finditer(re.escape(source_text), block.get("text", ""))]
+            if len(starts) != 1:
+                raise ValueError(f"coalesced inline override did not resolve uniquely: {group['id']}")
+            start = starts[0]
+            end = start + len(source_text)
+            payload = overrides.get("standalone_payload_overrides", {}).get(group["id"])
+            if not payload:
+                raise ValueError(f"coalesced inline override lacks reviewed payload: {group['id']}")
+            contained = [
+                annotation for annotation in block.get("inline_sanskrit", [])
+                if start <= annotation.get("start", -1) and annotation.get("end", -1) <= end
+            ]
+            if not contained:
+                raise ValueError(f"coalesced inline override has no source annotations: {group['id']}")
+            annotation = {
+                "id": group["id"], "unit_key": group["unit_key"], "text": source_text,
+                "language": group["language"], "start": start, "end": end,
+                "words": payload["words"], "source_segments": payload["source_segments"],
+                "presentation_payload": payload,
+            }
+            block["inline_sanskrit"] = [
+                existing for existing in block.get("inline_sanskrit", [])
+                if existing not in contained
+            ] + [annotation]
+            block["inline_sanskrit"].sort(key=lambda row: (row["start"], row["end"], row["id"]))
         for annotation in block.get("inline_sanskrit", []):
+            presentation_payload = overrides.get("standalone_payload_overrides", {}).get(annotation.get("id"))
+            if presentation_payload:
+                annotation["presentation_payload"] = presentation_payload
             item_override = overrides.get("inline_item_overrides", {}).get(annotation.get("id"))
             if item_override:
                 annotation.update(item_override)
@@ -1210,6 +1287,12 @@ def apply_presentation_overrides(number: int, blocks: list[dict], overrides: dic
                 if index >= len(annotation.get("words", [])):
                     raise ValueError(f"inline word override index out of range: {annotation.get('id')} {index}")
                 annotation["words"][index].update(fields)
+            trim_inline_quotation_punctuation(annotation)
+        if block.get("type") == "prose":
+            block.update(overrides.get("prose_overrides", {}).get(f"{number}:{block.get('source_paragraph_index')}", {}))
+            for override in overrides.get("prose_block_overrides", {}).get(str(number), []):
+                if block.get("text") == override["text"]:
+                    block.update(override["fields"])
     if parent_footnote_id is not None:
         return
     for addition in overrides.get("inline_additions", {}).get(str(number), []):

@@ -16251,7 +16251,7 @@
                   {
                     "id": "name-1-paragraph-0-iast-60",
                     "unit_key": "vyayaḥ",
-                    "text": "'vyayaḥ'",
+                    "text": "vyayaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -16272,14 +16272,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'vyayaḥ'",
+                        "text": "vyayaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 356,
-                    "end": 364
+                    "start": 357,
+                    "end": 363
                   }
                 ],
                 "footnote_calls": [
@@ -16293,7 +16293,8 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "term_only",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "none",
+                "suppress_inline_matching_following_quote": true
               },
               {
                 "type": "footnote",
@@ -16637,7 +16638,8 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "term_only",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "none",
+                "suppress_inline_matching_following_quote": true
               },
               {
                 "type": "footnote",
@@ -17046,7 +17048,8 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "term_only",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "none",
+                "suppress_inline_matching_following_quote": true
               },
               {
                 "type": "footnote",
@@ -17517,6 +17520,231 @@
                     "site_literal": {
                       "english_slots": "{0:Brahman} {1:indeed} {2:is this} {3:universe}; {4:this}, {5:the highest}; {6:the Person} {7:indeed} {8:is this} {9:universe}.",
                       "note": "Literal translation — site; printed fragment"
+                    },
+                    "display_payload": {
+                      "words": [
+                        {
+                          "i": 0,
+                          "iast": "brahma",
+                          "deva": "ब्रह्म",
+                          "gloss": "Brahman; the absolute",
+                          "parts": [
+                            {
+                              "form": "brahman",
+                              "gloss": "Brahman; the absolute"
+                            },
+                            {
+                              "form": "am",
+                              "gloss": "nominative/accusative singular neuter"
+                            }
+                          ],
+                          "stem": "brahman",
+                          "affix": "am (prathamā/dvitīyā ekavacana)",
+                          "morph": "nominative or accusative singular neuter noun"
+                        },
+                        {
+                          "i": 1,
+                          "iast": "eva",
+                          "deva": "एव",
+                          "gloss": "indeed; precisely",
+                          "parts": [
+                            {
+                              "form": "eva",
+                              "gloss": "indeed; precisely"
+                            }
+                          ],
+                          "stem": "eva",
+                          "affix": "indeclinable; no inflection",
+                          "morph": "indeclinable emphatic particle"
+                        },
+                        {
+                          "i": 2,
+                          "iast": "idam",
+                          "deva": "इदम्",
+                          "gloss": "this",
+                          "parts": [
+                            {
+                              "form": "idam",
+                              "gloss": "this"
+                            }
+                          ],
+                          "stem": "idam",
+                          "affix": "am (prathamā/dvitīyā ekavacana)",
+                          "morph": "nominative or accusative singular neuter demonstrative pronoun"
+                        },
+                        {
+                          "i": 3,
+                          "iast": "viśvam",
+                          "deva": "विश्वम्",
+                          "gloss": "universe; all",
+                          "parts": [
+                            {
+                              "form": "viśva",
+                              "gloss": "all; universe"
+                            },
+                            {
+                              "form": "am",
+                              "gloss": "nominative/accusative singular neuter"
+                            }
+                          ],
+                          "stem": "viśva",
+                          "affix": "am (prathamā/dvitīyā ekavacana)",
+                          "morph": "nominative or accusative singular neuter noun"
+                        },
+                        {
+                          "i": 4,
+                          "iast": "idam",
+                          "deva": "इदम्",
+                          "gloss": "this",
+                          "parts": [
+                            {
+                              "form": "idam",
+                              "gloss": "this"
+                            }
+                          ],
+                          "stem": "idam",
+                          "affix": "am (prathamā/dvitīyā ekavacana)",
+                          "morph": "nominative or accusative singular neuter demonstrative pronoun"
+                        },
+                        {
+                          "i": 5,
+                          "iast": "variṣṭham",
+                          "deva": "वरिष्ठम्",
+                          "gloss": "the most excellent; highest",
+                          "parts": [
+                            {
+                              "form": "vara",
+                              "gloss": "excellent; choice"
+                            },
+                            {
+                              "form": "iṣṭha",
+                              "gloss": "superlative suffix"
+                            },
+                            {
+                              "form": "am",
+                              "gloss": "nominative/accusative singular neuter"
+                            }
+                          ],
+                          "stem": "variṣṭha",
+                          "affix": "iṣṭha (superlative) + am (prathamā/dvitīyā ekavacana)",
+                          "morph": "nominative or accusative singular neuter superlative adjective"
+                        },
+                        {
+                          "i": 6,
+                          "iast": "puruṣaḥ",
+                          "deva": "पुरुषः",
+                          "gloss": "the Person",
+                          "parts": [
+                            {
+                              "form": "puruṣa",
+                              "gloss": "person; personhood"
+                            },
+                            {
+                              "form": "su",
+                              "gloss": "nominative singular"
+                            }
+                          ],
+                          "stem": "puruṣa",
+                          "affix": "su (prathamā ekavacana)",
+                          "morph": "nominative singular masculine noun; visarga is resolved before eva"
+                        },
+                        {
+                          "i": 7,
+                          "iast": "eva",
+                          "deva": "एव",
+                          "gloss": "indeed; precisely",
+                          "parts": [
+                            {
+                              "form": "eva",
+                              "gloss": "indeed; precisely"
+                            }
+                          ],
+                          "stem": "eva",
+                          "affix": "indeclinable; no inflection",
+                          "morph": "indeclinable emphatic particle"
+                        },
+                        {
+                          "i": 8,
+                          "iast": "idam",
+                          "deva": "इदम्",
+                          "gloss": "this",
+                          "parts": [
+                            {
+                              "form": "idam",
+                              "gloss": "this"
+                            }
+                          ],
+                          "stem": "idam",
+                          "affix": "am (prathamā/dvitīyā ekavacana)",
+                          "morph": "nominative or accusative singular neuter demonstrative pronoun"
+                        },
+                        {
+                          "i": 9,
+                          "iast": "viśvam",
+                          "deva": "विश्वम्",
+                          "gloss": "universe; all",
+                          "parts": [
+                            {
+                              "form": "viśva",
+                              "gloss": "all; universe"
+                            },
+                            {
+                              "form": "am",
+                              "gloss": "nominative/accusative singular neuter"
+                            }
+                          ],
+                          "stem": "viśva",
+                          "affix": "am (prathamā/dvitīyā ekavacana)",
+                          "morph": "nominative or accusative singular neuter noun"
+                        }
+                      ],
+                      "source_segments": [
+                        {
+                          "text": "ब्रह्मैवेदं ",
+                          "word_indices": [
+                            0,
+                            1,
+                            2
+                          ]
+                        },
+                        {
+                          "text": "विश्वम् ",
+                          "word_indices": [
+                            3
+                          ]
+                        },
+                        {
+                          "text": "इदं ",
+                          "word_indices": [
+                            4
+                          ]
+                        },
+                        {
+                          "text": "वरिष्ठं ",
+                          "word_indices": [
+                            5
+                          ]
+                        },
+                        {
+                          "text": "पुरुष ",
+                          "word_indices": [
+                            6
+                          ]
+                        },
+                        {
+                          "text": "एवेदं ",
+                          "word_indices": [
+                            7,
+                            8
+                          ]
+                        },
+                        {
+                          "text": "विश्वम्",
+                          "word_indices": [
+                            9
+                          ]
+                        }
+                      ]
                     }
                   }
                 ],
@@ -17603,7 +17831,7 @@
                   {
                     "id": "name-1-paragraph-0-iast-173",
                     "unit_key": "oṃkāra",
-                    "text": "'oṃkāra",
+                    "text": "oṃkāra",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -17628,13 +17856,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'oṃkāra",
+                        "text": "oṃkāra",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 318,
+                    "start": 319,
                     "end": 325
                   },
                   {
@@ -17689,7 +17917,7 @@
                   {
                     "id": "name-1-paragraph-0-ascii-4",
                     "unit_key": "ascii:name-1-paragraph-0-ascii-4",
-                    "text": "sarvam'",
+                    "text": "sarvam",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -17710,14 +17938,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "sarvam'",
+                        "text": "sarvam",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 333,
-                    "end": 340
+                    "end": 339
                   },
                   {
                     "id": "name-1-paragraph-0-iast-177",
@@ -17755,7 +17983,7 @@
                   {
                     "id": "name-1-paragraph-0-iast-178",
                     "unit_key": "oṃ",
-                    "text": "'oṃ",
+                    "text": "oṃ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -17776,13 +18004,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'oṃ",
+                        "text": "oṃ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 350,
+                    "start": 351,
                     "end": 353
                   },
                   {
@@ -17854,7 +18082,7 @@
                   {
                     "id": "name-1-paragraph-0-ascii-6",
                     "unit_key": "ascii:name-1-paragraph-0-ascii-6",
-                    "text": "brahma'",
+                    "text": "brahma",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -17875,14 +18103,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "brahma'",
+                        "text": "brahma",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 368,
-                    "end": 375
+                    "end": 374
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -17890,7 +18118,8 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "term_only",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "none",
+                "suppress_inline_matching_following_quote": true
               }
             ]
           },
@@ -18266,7 +18495,7 @@
                   {
                     "id": "name-2-paragraph-1-iast-0",
                     "unit_key": "īśāvāsyam",
-                    "text": "'īśāvāsyam",
+                    "text": "īśāvāsyam",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -18287,13 +18516,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'īśāvāsyam",
+                        "text": "īśāvāsyam",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 0,
+                    "start": 1,
                     "end": 10
                   },
                   {
@@ -18655,7 +18884,8 @@
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "derivational",
                 "promotion_eligible": false,
-                "literal_translation_source": "none"
+                "literal_translation_source": "none",
+                "render_after_next_quote": true
               },
               {
                 "type": "prose",
@@ -18664,24 +18894,30 @@
                 "inline_sanskrit": [
                   {
                     "id": "name-2-paragraph-1-span-0",
-                    "unit_key": "yasmādviṣṭamidaṃsarvaṃtasyaśaktyāmahātmanaḥtasmādevocyateviṣṇaviśerdhātoḥpraveśanāta",
+                    "unit_key": "yasmādviṣṭamidaṃsarvaṃtasyaśaktyāmahātmanaḥtasmādevocyateviṣṇurviśerdhātoḥpraveśanāt",
                     "text": "यस्माद्विष्टमिदं सर्वं तस्य शक्त्या महात्मनः। तस्मादेवोच्यते विष्णविशेर्धातोः प्रवेशनात ।।",
                     "language": "sa-Deva",
+                    "start": 0,
+                    "end": 90,
                     "words": [
                       {
                         "i": 0,
                         "iast": "yasmād",
                         "deva": "यस्माद्",
-                        "gloss": "yasmād",
+                        "gloss": "because; from whom",
                         "parts": [
                           {
-                            "form": "yasmād",
-                            "gloss": "yasmād"
+                            "form": "yad",
+                            "gloss": "which; who"
+                          },
+                          {
+                            "form": "ṅasi",
+                            "gloss": "ablative singular"
                           }
                         ],
-                        "stem": "yasmād",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "yad",
+                        "affix": "ṅasi (pañcamī ekavacana)",
+                        "morph": "ablative singular relative pronoun used adverbially"
                       },
                       {
                         "i": 1,
@@ -18690,43 +18926,58 @@
                         "gloss": "pervaded",
                         "parts": [
                           {
-                            "form": "viṣṭam",
-                            "gloss": "pervaded"
+                            "form": "√viś",
+                            "gloss": "enter; pervade"
+                          },
+                          {
+                            "form": "kta",
+                            "gloss": "past passive participle"
+                          },
+                          {
+                            "form": "am",
+                            "gloss": "nominative/accusative singular neuter"
                           }
                         ],
-                        "stem": "viṣṭ",
-                        "affix": "am (dvitīyā/prathamā ekavacana)",
-                        "morph": "lexical citation form"
+                        "stem": "viṣṭa",
+                        "root": "√viś",
+                        "rootGloss": "enter; pervade",
+                        "affix": "kta + am (prathamā/dvitīyā ekavacana)",
+                        "morph": "past passive participle, nominative or accusative singular neuter",
+                        "note": "tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने"
                       },
                       {
                         "i": 2,
-                        "iast": "idaṃ",
+                        "iast": "idam",
                         "deva": "इदं",
                         "gloss": "this",
                         "parts": [
                           {
-                            "form": "idaṃ",
+                            "form": "idam",
                             "gloss": "this"
                           }
                         ],
-                        "stem": "id",
-                        "affix": "am (dvitīyā/prathamā ekavacana)",
-                        "morph": "lexical citation form"
+                        "stem": "idam",
+                        "affix": "am (prathamā/dvitīyā ekavacana)",
+                        "morph": "nominative or accusative singular neuter demonstrative pronoun"
                       },
                       {
                         "i": 3,
-                        "iast": "sarvaṃ",
+                        "iast": "sarvam",
                         "deva": "सर्वं",
-                        "gloss": "all",
+                        "gloss": "all; the whole",
                         "parts": [
                           {
-                            "form": "sarvaṃ",
+                            "form": "sarva",
                             "gloss": "all"
+                          },
+                          {
+                            "form": "am",
+                            "gloss": "nominative/accusative singular neuter"
                           }
                         ],
-                        "stem": "sarv",
-                        "affix": "am (dvitīyā/prathamā ekavacana)",
-                        "morph": "lexical citation form"
+                        "stem": "sarva",
+                        "affix": "am (prathamā/dvitīyā ekavacana)",
+                        "morph": "nominative or accusative singular neuter adjective"
                       },
                       {
                         "i": 4,
@@ -18735,13 +18986,17 @@
                         "gloss": "of him",
                         "parts": [
                           {
-                            "form": "tasya",
-                            "gloss": "of him"
+                            "form": "tad",
+                            "gloss": "that; he"
+                          },
+                          {
+                            "form": "ṅas",
+                            "gloss": "genitive singular"
                           }
                         ],
-                        "stem": "tasy",
+                        "stem": "tad",
                         "affix": "ṅas (ṣaṣṭhī ekavacana)",
-                        "morph": "lexical citation form"
+                        "morph": "genitive singular demonstrative pronoun"
                       },
                       {
                         "i": 5,
@@ -18750,118 +19005,188 @@
                         "gloss": "by power",
                         "parts": [
                           {
-                            "form": "śaktyā",
-                            "gloss": "by power"
+                            "form": "śakti",
+                            "gloss": "power; capacity"
+                          },
+                          {
+                            "form": "ṭā",
+                            "gloss": "instrumental singular"
                           }
                         ],
-                        "stem": "śaktyā",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "śakti",
+                        "affix": "ṭā (tṛtīyā ekavacana)",
+                        "morph": "instrumental singular feminine noun"
                       },
                       {
                         "i": 6,
                         "iast": "mahātmanaḥ",
                         "deva": "महात्मनः",
-                        "gloss": "of the great self",
+                        "gloss": "of the great Self",
                         "parts": [
                           {
-                            "form": "mahātmanaḥ",
-                            "gloss": "of the great self"
+                            "form": "mahā",
+                            "gloss": "great"
+                          },
+                          {
+                            "form": "ātman",
+                            "gloss": "self"
+                          },
+                          {
+                            "form": "ṅas",
+                            "gloss": "genitive singular"
                           }
                         ],
                         "stem": "mahātman",
-                        "affix": "su (prathamā ekavacana)",
-                        "morph": "lexical citation form"
+                        "affix": "ṅas (ṣaṣṭhī ekavacana)",
+                        "morph": "genitive singular masculine compound noun"
                       },
                       {
                         "i": 7,
                         "iast": "tasmād",
                         "deva": "तस्माद्",
-                        "gloss": "tasmād",
+                        "gloss": "therefore",
                         "parts": [
                           {
-                            "form": "tasmād",
-                            "gloss": "tasmād"
+                            "form": "tad",
+                            "gloss": "that"
+                          },
+                          {
+                            "form": "ṅasi",
+                            "gloss": "ablative singular"
                           }
                         ],
-                        "stem": "tasmād",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "tad",
+                        "affix": "ṅasi (pañcamī ekavacana)",
+                        "morph": "ablative singular pronoun used adverbially"
                       },
                       {
                         "i": 8,
-                        "iast": "evocyate",
-                        "deva": "एवोच्यते",
-                        "gloss": "is indeed called",
+                        "iast": "eva",
+                        "deva": "एव",
+                        "gloss": "indeed; precisely",
                         "parts": [
                           {
-                            "form": "evocyate",
-                            "gloss": "is indeed called"
+                            "form": "eva",
+                            "gloss": "indeed; precisely"
                           }
                         ],
-                        "stem": "evocyate",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "eva",
+                        "affix": "indeclinable; no inflection",
+                        "morph": "indeclinable emphatic particle"
                       },
                       {
                         "i": 9,
-                        "iast": "viṣṇur",
-                        "deva": "विष्णुर्",
-                        "gloss": "viṣṇur",
+                        "iast": "ucyate",
+                        "deva": "उच्यते",
+                        "gloss": "is called",
                         "parts": [
                           {
-                            "form": "viṣṇur",
-                            "gloss": "viṣṇur"
+                            "form": "√vac",
+                            "gloss": "speak; call"
+                          },
+                          {
+                            "form": "ya + laṭ + ta",
+                            "gloss": "present passive third-person singular"
                           }
                         ],
-                        "stem": "viṣṇur",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "√vac",
+                        "root": "√vac",
+                        "rootGloss": "speak; call",
+                        "affix": "ya + laṭ + ta (prathamapuruṣa ekavacana)",
+                        "morph": "present passive third-person singular verb"
                       },
                       {
                         "i": 10,
-                        "iast": "viśer",
-                        "deva": "विशेर्",
-                        "gloss": "viśer",
+                        "iast": "viṣṇuḥ",
+                        "deva": "विष्णुः",
+                        "gloss": "Viṣṇu",
                         "parts": [
                           {
-                            "form": "viśer",
-                            "gloss": "viśer"
+                            "form": "viṣṇu",
+                            "gloss": "the all-pervading one"
+                          },
+                          {
+                            "form": "su",
+                            "gloss": "nominative singular"
                           }
                         ],
-                        "stem": "viśer",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "viṣṇu",
+                        "root": "√viś",
+                        "rootGloss": "enter; pervade",
+                        "affix": "su (prathamā ekavacana)",
+                        "morph": "nominative singular masculine proper name; visarga is resolved before viśeḥ",
+                        "note": "traditional nirvacana; Dhātupāṭha 06.0160: प्रवेशने"
                       },
                       {
                         "i": 11,
-                        "iast": "dhātoḥ",
-                        "deva": "धातोः",
-                        "gloss": "of the root",
+                        "iast": "viśeḥ",
+                        "deva": "विशेः",
+                        "gloss": "of viś",
                         "parts": [
                           {
-                            "form": "dhātoḥ",
-                            "gloss": "of the root"
+                            "form": "√viś",
+                            "gloss": "enter; pervade"
+                          },
+                          {
+                            "form": "ṅas",
+                            "gloss": "genitive singular"
                           }
                         ],
-                        "stem": "dhāto",
-                        "affix": "su (prathamā ekavacana)",
-                        "morph": "lexical citation form"
+                        "stem": "viś",
+                        "root": "√viś",
+                        "rootGloss": "enter; pervade",
+                        "affix": "ṅas (ṣaṣṭhī ekavacana)",
+                        "morph": "genitive singular root citation",
+                        "note": "tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने"
                       },
                       {
                         "i": 12,
+                        "iast": "dhātoḥ",
+                        "deva": "धातोः",
+                        "gloss": "of the verbal root",
+                        "parts": [
+                          {
+                            "form": "dhātu",
+                            "gloss": "verbal root"
+                          },
+                          {
+                            "form": "ṅas",
+                            "gloss": "genitive singular"
+                          }
+                        ],
+                        "stem": "dhātu",
+                        "affix": "ṅas (ṣaṣṭhī ekavacana)",
+                        "morph": "genitive singular masculine noun"
+                      },
+                      {
+                        "i": 13,
                         "iast": "praveśanāt",
                         "deva": "प्रवेशनात्",
                         "gloss": "from entering",
                         "parts": [
                           {
-                            "form": "praveśanāt",
-                            "gloss": "from entering"
+                            "form": "pra",
+                            "gloss": "forth; into"
+                          },
+                          {
+                            "form": "√viś",
+                            "gloss": "enter"
+                          },
+                          {
+                            "form": "lyuṭ",
+                            "gloss": "action-noun suffix"
+                          },
+                          {
+                            "form": "ṅasi",
+                            "gloss": "ablative singular"
                           }
                         ],
-                        "stem": "praveśanāt",
-                        "affix": "citation form",
-                        "morph": "lexical citation form"
+                        "stem": "praveśana",
+                        "root": "√viś",
+                        "rootGloss": "enter; pervade",
+                        "affix": "lyuṭ + ṅasi (pañcamī ekavacana)",
+                        "morph": "ablative singular action noun",
+                        "note": "tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने"
                       }
                     ],
                     "source_segments": [
@@ -18901,38 +19226,387 @@
                         "text": "तस्मादेवोच्यते ",
                         "word_indices": [
                           7,
-                          8
+                          8,
+                          9
                         ]
                       },
                       {
                         "text": "विष्णविशेर्धातोः ",
                         "word_indices": [
-                          9,
                           10,
-                          11
+                          11,
+                          12
                         ]
                       },
                       {
                         "text": "प्रवेशनात ।।",
                         "word_indices": [
-                          12
+                          13
                         ]
                       }
                     ],
-                    "start": 0,
-                    "end": 90
+                    "presentation_payload": {
+                      "devanagari": "यस्माद् विष्टम् इदं सर्वं तस्य शक्त्या महात्मनः। तस्माद् एव उच्यते विष्णुर्विशेर्धातोः प्रवेशनात्॥",
+                      "words": [
+                        {
+                          "i": 0,
+                          "iast": "yasmād",
+                          "deva": "यस्माद्",
+                          "gloss": "because; from whom",
+                          "parts": [
+                            {
+                              "form": "yad",
+                              "gloss": "which; who"
+                            },
+                            {
+                              "form": "ṅasi",
+                              "gloss": "ablative singular"
+                            }
+                          ],
+                          "stem": "yad",
+                          "affix": "ṅasi (pañcamī ekavacana)",
+                          "morph": "ablative singular relative pronoun used adverbially"
+                        },
+                        {
+                          "i": 1,
+                          "iast": "viṣṭam",
+                          "deva": "विष्टम्",
+                          "gloss": "pervaded",
+                          "parts": [
+                            {
+                              "form": "√viś",
+                              "gloss": "enter; pervade"
+                            },
+                            {
+                              "form": "kta",
+                              "gloss": "past passive participle"
+                            },
+                            {
+                              "form": "am",
+                              "gloss": "nominative/accusative singular neuter"
+                            }
+                          ],
+                          "stem": "viṣṭa",
+                          "root": "√viś",
+                          "rootGloss": "enter; pervade",
+                          "affix": "kta + am (prathamā/dvitīyā ekavacana)",
+                          "morph": "past passive participle, nominative or accusative singular neuter",
+                          "note": "tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने"
+                        },
+                        {
+                          "i": 2,
+                          "iast": "idam",
+                          "deva": "इदं",
+                          "gloss": "this",
+                          "parts": [
+                            {
+                              "form": "idam",
+                              "gloss": "this"
+                            }
+                          ],
+                          "stem": "idam",
+                          "affix": "am (prathamā/dvitīyā ekavacana)",
+                          "morph": "nominative or accusative singular neuter demonstrative pronoun"
+                        },
+                        {
+                          "i": 3,
+                          "iast": "sarvam",
+                          "deva": "सर्वं",
+                          "gloss": "all; the whole",
+                          "parts": [
+                            {
+                              "form": "sarva",
+                              "gloss": "all"
+                            },
+                            {
+                              "form": "am",
+                              "gloss": "nominative/accusative singular neuter"
+                            }
+                          ],
+                          "stem": "sarva",
+                          "affix": "am (prathamā/dvitīyā ekavacana)",
+                          "morph": "nominative or accusative singular neuter adjective"
+                        },
+                        {
+                          "i": 4,
+                          "iast": "tasya",
+                          "deva": "तस्य",
+                          "gloss": "of him",
+                          "parts": [
+                            {
+                              "form": "tad",
+                              "gloss": "that; he"
+                            },
+                            {
+                              "form": "ṅas",
+                              "gloss": "genitive singular"
+                            }
+                          ],
+                          "stem": "tad",
+                          "affix": "ṅas (ṣaṣṭhī ekavacana)",
+                          "morph": "genitive singular demonstrative pronoun"
+                        },
+                        {
+                          "i": 5,
+                          "iast": "śaktyā",
+                          "deva": "शक्त्या",
+                          "gloss": "by power",
+                          "parts": [
+                            {
+                              "form": "śakti",
+                              "gloss": "power; capacity"
+                            },
+                            {
+                              "form": "ṭā",
+                              "gloss": "instrumental singular"
+                            }
+                          ],
+                          "stem": "śakti",
+                          "affix": "ṭā (tṛtīyā ekavacana)",
+                          "morph": "instrumental singular feminine noun"
+                        },
+                        {
+                          "i": 6,
+                          "iast": "mahātmanaḥ",
+                          "deva": "महात्मनः",
+                          "gloss": "of the great Self",
+                          "parts": [
+                            {
+                              "form": "mahā",
+                              "gloss": "great"
+                            },
+                            {
+                              "form": "ātman",
+                              "gloss": "self"
+                            },
+                            {
+                              "form": "ṅas",
+                              "gloss": "genitive singular"
+                            }
+                          ],
+                          "stem": "mahātman",
+                          "affix": "ṅas (ṣaṣṭhī ekavacana)",
+                          "morph": "genitive singular masculine compound noun"
+                        },
+                        {
+                          "i": 7,
+                          "iast": "tasmād",
+                          "deva": "तस्माद्",
+                          "gloss": "therefore",
+                          "parts": [
+                            {
+                              "form": "tad",
+                              "gloss": "that"
+                            },
+                            {
+                              "form": "ṅasi",
+                              "gloss": "ablative singular"
+                            }
+                          ],
+                          "stem": "tad",
+                          "affix": "ṅasi (pañcamī ekavacana)",
+                          "morph": "ablative singular pronoun used adverbially"
+                        },
+                        {
+                          "i": 8,
+                          "iast": "eva",
+                          "deva": "एव",
+                          "gloss": "indeed; precisely",
+                          "parts": [
+                            {
+                              "form": "eva",
+                              "gloss": "indeed; precisely"
+                            }
+                          ],
+                          "stem": "eva",
+                          "affix": "indeclinable; no inflection",
+                          "morph": "indeclinable emphatic particle"
+                        },
+                        {
+                          "i": 9,
+                          "iast": "ucyate",
+                          "deva": "उच्यते",
+                          "gloss": "is called",
+                          "parts": [
+                            {
+                              "form": "√vac",
+                              "gloss": "speak; call"
+                            },
+                            {
+                              "form": "ya + laṭ + ta",
+                              "gloss": "present passive third-person singular"
+                            }
+                          ],
+                          "stem": "√vac",
+                          "root": "√vac",
+                          "rootGloss": "speak; call",
+                          "affix": "ya + laṭ + ta (prathamapuruṣa ekavacana)",
+                          "morph": "present passive third-person singular verb"
+                        },
+                        {
+                          "i": 10,
+                          "iast": "viṣṇuḥ",
+                          "deva": "विष्णुः",
+                          "gloss": "Viṣṇu",
+                          "parts": [
+                            {
+                              "form": "viṣṇu",
+                              "gloss": "the all-pervading one"
+                            },
+                            {
+                              "form": "su",
+                              "gloss": "nominative singular"
+                            }
+                          ],
+                          "stem": "viṣṇu",
+                          "root": "√viś",
+                          "rootGloss": "enter; pervade",
+                          "affix": "su (prathamā ekavacana)",
+                          "morph": "nominative singular masculine proper name; visarga is resolved before viśeḥ",
+                          "note": "traditional nirvacana; Dhātupāṭha 06.0160: प्रवेशने"
+                        },
+                        {
+                          "i": 11,
+                          "iast": "viśeḥ",
+                          "deva": "विशेः",
+                          "gloss": "of viś",
+                          "parts": [
+                            {
+                              "form": "√viś",
+                              "gloss": "enter; pervade"
+                            },
+                            {
+                              "form": "ṅas",
+                              "gloss": "genitive singular"
+                            }
+                          ],
+                          "stem": "viś",
+                          "root": "√viś",
+                          "rootGloss": "enter; pervade",
+                          "affix": "ṅas (ṣaṣṭhī ekavacana)",
+                          "morph": "genitive singular root citation",
+                          "note": "tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने"
+                        },
+                        {
+                          "i": 12,
+                          "iast": "dhātoḥ",
+                          "deva": "धातोः",
+                          "gloss": "of the verbal root",
+                          "parts": [
+                            {
+                              "form": "dhātu",
+                              "gloss": "verbal root"
+                            },
+                            {
+                              "form": "ṅas",
+                              "gloss": "genitive singular"
+                            }
+                          ],
+                          "stem": "dhātu",
+                          "affix": "ṅas (ṣaṣṭhī ekavacana)",
+                          "morph": "genitive singular masculine noun"
+                        },
+                        {
+                          "i": 13,
+                          "iast": "praveśanāt",
+                          "deva": "प्रवेशनात्",
+                          "gloss": "from entering",
+                          "parts": [
+                            {
+                              "form": "pra",
+                              "gloss": "forth; into"
+                            },
+                            {
+                              "form": "√viś",
+                              "gloss": "enter"
+                            },
+                            {
+                              "form": "lyuṭ",
+                              "gloss": "action-noun suffix"
+                            },
+                            {
+                              "form": "ṅasi",
+                              "gloss": "ablative singular"
+                            }
+                          ],
+                          "stem": "praveśana",
+                          "root": "√viś",
+                          "rootGloss": "enter; pervade",
+                          "affix": "lyuṭ + ṅasi (pañcamī ekavacana)",
+                          "morph": "ablative singular action noun",
+                          "note": "tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने"
+                        }
+                      ],
+                      "source_segments": [
+                        {
+                          "text": "यस्माद्विष्टमिदं ",
+                          "word_indices": [
+                            0,
+                            1,
+                            2
+                          ]
+                        },
+                        {
+                          "text": "सर्वं ",
+                          "word_indices": [
+                            3
+                          ]
+                        },
+                        {
+                          "text": "तस्य ",
+                          "word_indices": [
+                            4
+                          ]
+                        },
+                        {
+                          "text": "शक्त्या ",
+                          "word_indices": [
+                            5
+                          ]
+                        },
+                        {
+                          "text": "महात्मनः। ",
+                          "word_indices": [
+                            6
+                          ]
+                        },
+                        {
+                          "text": "तस्मादेवोच्यते ",
+                          "word_indices": [
+                            7,
+                            8,
+                            9
+                          ]
+                        },
+                        {
+                          "text": "विष्णविशेर्धातोः ",
+                          "word_indices": [
+                            10,
+                            11,
+                            12
+                          ]
+                        },
+                        {
+                          "text": "प्रवेशनात ।।",
+                          "word_indices": [
+                            13
+                          ]
+                        }
+                      ]
+                    }
                   }
                 ],
-                "content_class": "prose_sanskrit_term",
+                "content_class": "complete_quote",
                 "render_mode": "prose",
-                "source_authority": "chinmayananda_prose",
-                "citation_completeness": "term_only",
-                "promotion_eligible": false,
+                "source_authority": "chinmayananda_printed_quote",
+                "citation_completeness": "complete",
+                "promotion_eligible": true,
                 "literal_translation_source": "site_literal",
                 "site_literal": {
                   "english_slots": "{0:Because} {2:this} {3:entire universe} {1:is pervaded} {5:by the power} {4:of} {6:the great Self}; {7:therefore} {10:Viṣṇu} {8,9:is indeed called}, {11:from √viś}, {12:the root}, {13:‘to enter’}.",
                   "note": "Site literal"
-                }
+                },
+                "display_citation": "Viṣṇu Purāṇa 3.1 · printed citation"
               },
               {
                 "type": "prose",
@@ -19478,7 +20152,7 @@
                   {
                     "id": "name-3-paragraph-0-iast-13",
                     "unit_key": "vaṣaṭ",
-                    "text": "'vaṣaṭ'",
+                    "text": "vaṣaṭ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -19499,14 +20173,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'vaṣaṭ'",
+                        "text": "vaṣaṭ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 73,
-                    "end": 80
+                    "start": 74,
+                    "end": 79
                   },
                   {
                     "id": "name-3-paragraph-0-iast-27",
@@ -19671,7 +20345,7 @@
                   {
                     "id": "name-3-paragraph-1-iast-25",
                     "unit_key": "yajña",
-                    "text": "yajña'",
+                    "text": "yajña",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -19699,14 +20373,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "yajña'",
+                        "text": "yajña",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 127,
-                    "end": 133
+                    "end": 132
                   },
                   {
                     "id": "name-3-paragraph-1-iast-28",
@@ -24928,7 +25602,7 @@
                   {
                     "id": "name-12-paragraph-1-ascii-0",
                     "unit_key": "ascii:name-12-paragraph-1-ascii-0",
-                    "text": "Gati'",
+                    "text": "Gati",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -24956,14 +25630,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Gati'",
+                        "text": "Gati",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 41,
-                    "end": 46
+                    "end": 45
                   },
                   {
                     "id": "name-12-paragraph-1-ascii-1",
@@ -28447,7 +29121,7 @@
                   {
                     "id": "name-19-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-19-paragraph-0-ascii-0",
-                    "text": "yoga'",
+                    "text": "yoga",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -28471,14 +29145,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "yoga'",
+                        "text": "yoga",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 56,
-                    "end": 61
+                    "end": 60
                   },
                   {
                     "id": "name-19-paragraph-0-iast-65",
@@ -29178,7 +29852,7 @@
                   {
                     "id": "name-20-paragraph-0-iast-10",
                     "unit_key": "māyā",
-                    "text": "'māyā'",
+                    "text": "māyā",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -29199,14 +29873,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'māyā'",
+                        "text": "māyā",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 58,
-                    "end": 64
+                    "start": 59,
+                    "end": 63
                   },
                   {
                     "id": "name-20-paragraph-0-iast-20",
@@ -31678,7 +32352,7 @@
                   {
                     "id": "name-27-paragraph-0-ascii-5",
                     "unit_key": "ascii:name-27-paragraph-0-ascii-5",
-                    "text": "Siva'",
+                    "text": "Siva",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -31699,14 +32373,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Siva'",
+                        "text": "Siva",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 278,
-                    "end": 283
+                    "end": 282
                   },
                   {
                     "id": "name-27-paragraph-0-span-0",
@@ -32740,7 +33414,7 @@
                   {
                     "id": "name-30-paragraph-0-ascii-6",
                     "unit_key": "ascii:name-30-paragraph-0-ascii-6",
-                    "text": "Nidhi'",
+                    "text": "Nidhi",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -32764,14 +33438,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Nidhi'",
+                        "text": "Nidhi",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 467,
-                    "end": 473
+                    "end": 472
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -37492,7 +38166,7 @@
                   {
                     "id": "name-45-paragraph-1-iast-38",
                     "unit_key": "dhātus",
-                    "text": "dhātus'",
+                    "text": "dhātus",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -37513,14 +38187,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "dhātus'",
+                        "text": "dhātus",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 200,
-                    "end": 207
+                    "end": 206
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -41318,7 +41992,7 @@
                   {
                     "id": "name-57-paragraph-0-iast-57",
                     "unit_key": "kṛṣṇa",
-                    "text": "'Kṛṣṇa'",
+                    "text": "Kṛṣṇa",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -41339,14 +42013,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'Kṛṣṇa'",
+                        "text": "Kṛṣṇa",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 341,
-                    "end": 348
+                    "start": 342,
+                    "end": 347
                   },
                   {
                     "id": "name-57-paragraph-0-iast-61",
@@ -49060,7 +49734,7 @@
                   {
                     "id": "name-76-paragraph-0-iast-6",
                     "unit_key": "śārṅga",
-                    "text": "'Śārṅga'",
+                    "text": "Śārṅga",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -49081,14 +49755,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'Śārṅga'",
+                        "text": "Śārṅga",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 34,
-                    "end": 42
+                    "start": 35,
+                    "end": 41
                   },
                   {
                     "id": "name-76-paragraph-0-iast-28",
@@ -56617,7 +57291,7 @@
                   {
                     "id": "name-101-paragraph-0-ascii-1",
                     "unit_key": "ascii:name-101-paragraph-0-ascii-1",
-                    "text": "dharma'",
+                    "text": "dharma",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -56641,14 +57315,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "dharma'",
+                        "text": "dharma",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 230,
-                    "end": 237
+                    "end": 236
                   },
                   {
                     "id": "name-101-paragraph-0-iast-43",
@@ -57227,7 +57901,7 @@
                   {
                     "id": "name-101-paragraph-2-ascii-1",
                     "unit_key": "ascii:name-101-paragraph-2-ascii-1",
-                    "text": "dharma'",
+                    "text": "dharma",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -57251,14 +57925,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "dharma'",
+                        "text": "dharma",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 229,
-                    "end": 236
+                    "end": 235
                   },
                   {
                     "id": "name-101-paragraph-2-ascii-2",
@@ -60535,7 +61209,7 @@
                   {
                     "id": "name-109-paragraph-0-iast-71",
                     "unit_key": "lakṣmī",
-                    "text": "Lakṣmī'",
+                    "text": "Lakṣmī",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -60556,14 +61230,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Lakṣmī'",
+                        "text": "Lakṣmī",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 399,
-                    "end": 406
+                    "end": 405
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -66301,7 +66975,7 @@
                   {
                     "id": "name-128-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-128-paragraph-0-ascii-0",
-                    "text": "veda'",
+                    "text": "veda",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -66325,14 +66999,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "veda'",
+                        "text": "veda",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 19,
-                    "end": 24
+                    "end": 23
                   },
                   {
                     "id": "name-128-paragraph-0-iast-44",
@@ -67151,7 +67825,7 @@
                   {
                     "id": "name-131-paragraph-0-ascii-1",
                     "unit_key": "ascii:name-131-paragraph-0-ascii-1",
-                    "text": "vedavit’",
+                    "text": "vedavit",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -67175,14 +67849,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "vedavit’",
+                        "text": "vedavit",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 39,
-                    "end": 47
+                    "end": 46
                   },
                   {
                     "id": "name-131-paragraph-0-ascii-2",
@@ -72332,7 +73006,7 @@
                   {
                     "id": "name-142-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-142-paragraph-0-ascii-0",
-                    "text": "bhojanam'",
+                    "text": "bhojanam",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -72364,14 +73038,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "bhojanam'",
+                        "text": "bhojanam",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 435,
-                    "end": 444
+                    "end": 443
                   },
                   {
                     "id": "name-142-paragraph-0-iast-68",
@@ -118209,7 +118883,7 @@
                   {
                     "id": "name-293-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-293-paragraph-0-ascii-0",
-                    "text": "Ana'",
+                    "text": "Ana",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -118230,14 +118904,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Ana'",
+                        "text": "Ana",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 418,
-                    "end": 422
+                    "end": 421
                   },
                   {
                     "id": "name-293-paragraph-0-iast-86",
@@ -123296,7 +123970,7 @@
                   {
                     "id": "name-311-paragraph-0-iast-3",
                     "unit_key": "śikhaṇḍa",
-                    "text": "'śikhaṇḍa'",
+                    "text": "śikhaṇḍa",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -123317,14 +123991,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'śikhaṇḍa'",
+                        "text": "śikhaṇḍa",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 14,
-                    "end": 24
+                    "start": 15,
+                    "end": 23
                   },
                   {
                     "id": "name-311-paragraph-0-span-0",
@@ -123519,7 +124193,7 @@
                   {
                     "id": "name-312-paragraph-0-ascii-0",
                     "unit_key": "nahanam",
-                    "text": "Nahanam'",
+                    "text": "Nahanam",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -123540,14 +124214,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Nahanam'",
+                        "text": "Nahanam",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 10,
-                    "end": 18
+                    "end": 17
                   },
                   {
                     "id": "name-312-paragraph-0-span-0",
@@ -123622,7 +124296,7 @@
                   {
                     "id": "name-312-paragraph-0-iast-21",
                     "unit_key": "īśvaraḥ",
-                    "text": "'Īśvaraḥ'",
+                    "text": "Īśvaraḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -123643,14 +124317,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'Īśvaraḥ'",
+                        "text": "Īśvaraḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 131,
-                    "end": 140
+                    "start": 132,
+                    "end": 139
                   },
                   {
                     "id": "name-312-paragraph-0-span-1",
@@ -124842,7 +125516,7 @@
                   {
                     "id": "name-315-paragraph-0-iast-26",
                     "unit_key": "kartā",
-                    "text": "'kartā'",
+                    "text": "kartā",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -124874,14 +125548,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'kartā'",
+                        "text": "kartā",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 168,
-                    "end": 175
+                    "start": 169,
+                    "end": 174
                   },
                   {
                     "id": "name-315-paragraph-0-span-1",
@@ -126200,7 +126874,7 @@
                   {
                     "id": "name-321-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-321-paragraph-0-ascii-0",
-                    "text": "da'",
+                    "text": "da",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -126224,14 +126898,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "da'",
+                        "text": "da",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 56,
-                    "end": 59
+                    "end": 58
                   },
                   {
                     "id": "name-321-paragraph-0-iast-29",
@@ -132993,7 +133667,7 @@
                   {
                     "id": "name-343-paragraph-0-iast-13",
                     "unit_key": "śatāvartaḥ",
-                    "text": "'śatāvartaḥ'",
+                    "text": "śatāvartaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -133018,14 +133692,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'śatāvartaḥ'",
+                        "text": "śatāvartaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 74,
-                    "end": 86
+                    "start": 75,
+                    "end": 85
                   },
                   {
                     "id": "name-343-paragraph-0-iast-65",
@@ -136779,7 +137453,7 @@
                   {
                     "id": "name-359-paragraph-1-ascii-0",
                     "unit_key": "ascii:name-359-paragraph-1-ascii-0",
-                    "text": "Havih'",
+                    "text": "Havih",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -136804,19 +137478,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Havih'",
+                        "text": "Havih",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 75,
-                    "end": 81
+                    "end": 80
                   },
                   {
                     "id": "name-359-paragraph-1-ascii-1",
                     "unit_key": "ascii:name-359-paragraph-1-ascii-1",
-                    "text": "Harih'",
+                    "text": "Harih",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -136841,19 +137515,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Harih'",
+                        "text": "Harih",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 87,
-                    "end": 93
+                    "end": 92
                   },
                   {
                     "id": "name-359-paragraph-1-ascii-2",
                     "unit_key": "ascii:name-359-paragraph-1-ascii-2",
-                    "text": "Havih'",
+                    "text": "Havih",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -136878,14 +137552,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Havih'",
+                        "text": "Havih",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 127,
-                    "end": 133
+                    "end": 132
                   },
                   {
                     "id": "name-359-paragraph-1-iast-32",
@@ -138067,7 +138741,7 @@
                   {
                     "id": "name-364-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-364-paragraph-0-ascii-0",
-                    "text": "Rohita'",
+                    "text": "Rohita",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -138088,14 +138762,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Rohita'",
+                        "text": "Rohita",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 10,
-                    "end": 17
+                    "end": 16
                   },
                   {
                     "id": "name-364-paragraph-0-iast-13",
@@ -147537,7 +148211,7 @@
                   {
                     "id": "name-394-paragraph-1-iast-4",
                     "unit_key": "rāmaḥ",
-                    "text": "'rāmaḥ'",
+                    "text": "rāmaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -147565,14 +148239,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'rāmaḥ'",
+                        "text": "rāmaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 23,
-                    "end": 30
+                    "start": 24,
+                    "end": 29
                   }
                 ],
                 "footnote_calls": [
@@ -150662,7 +151336,7 @@
                   {
                     "id": "name-405-paragraph-0-iast-32",
                     "unit_key": "vaikuṇṭhaḥ",
-                    "text": "'vaikuṇṭhaḥ'",
+                    "text": "vaikuṇṭhaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -150687,14 +151361,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'vaikuṇṭhaḥ'",
+                        "text": "vaikuṇṭhaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 186,
-                    "end": 198
+                    "start": 187,
+                    "end": 197
                   }
                 ],
                 "footnote_calls": [
@@ -151647,7 +152321,7 @@
                   {
                     "id": "name-407-paragraph-0-iast-6",
                     "unit_key": "prāṇa",
-                    "text": "'prāṇa'",
+                    "text": "prāṇa",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -151668,14 +152342,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'prāṇa'",
+                        "text": "prāṇa",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 24,
-                    "end": 31
+                    "start": 25,
+                    "end": 30
                   },
                   {
                     "id": "name-407-paragraph-0-iast-23",
@@ -151910,7 +152584,7 @@
                   {
                     "id": "name-408-paragraph-0-iast-6",
                     "unit_key": "prāṇa",
-                    "text": "'prāṇa'",
+                    "text": "prāṇa",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -151931,19 +152605,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'prāṇa'",
+                        "text": "prāṇa",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 29,
-                    "end": 36
+                    "start": 30,
+                    "end": 35
                   },
                   {
                     "id": "name-408-paragraph-0-iast-13",
                     "unit_key": "prāṇa",
-                    "text": "'prāṇa'",
+                    "text": "prāṇa",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -151964,19 +152638,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'prāṇa'",
+                        "text": "prāṇa",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 63,
-                    "end": 70
+                    "start": 64,
+                    "end": 69
                   },
                   {
                     "id": "name-408-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-408-paragraph-0-ascii-0",
-                    "text": "da'",
+                    "text": "da",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -152000,14 +152674,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "da'",
+                        "text": "da",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 91,
-                    "end": 94
+                    "end": 93
                   },
                   {
                     "id": "name-408-paragraph-0-iast-29",
@@ -152240,7 +152914,7 @@
                   {
                     "id": "name-409-paragraph-0-iast-46",
                     "unit_key": "oṃkāra",
-                    "text": "'oṃkāra'",
+                    "text": "oṃkāra",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -152265,14 +152939,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'oṃkāra'",
+                        "text": "oṃkāra",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 257,
-                    "end": 265
+                    "start": 258,
+                    "end": 264
                   },
                   {
                     "id": "name-409-paragraph-0-iast-50",
@@ -152640,7 +153314,7 @@
                   {
                     "id": "name-409-paragraph-0-iast-55",
                     "unit_key": "oṃkāra",
-                    "text": "'oṃkāra'",
+                    "text": "oṃkāra",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -152665,14 +153339,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'oṃkāra'",
+                        "text": "oṃkāra",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 23,
-                    "end": 31
+                    "start": 24,
+                    "end": 30
                   },
                   {
                     "id": "name-409-paragraph-0-iast-57",
@@ -154145,7 +154819,7 @@
                   {
                     "id": "name-415-paragraph-0-iast-14",
                     "unit_key": "adhokṣajaḥ",
-                    "text": "'adhokṣajaḥ'",
+                    "text": "adhokṣajaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -154170,14 +154844,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'adhokṣajaḥ'",
+                        "text": "adhokṣajaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 82,
-                    "end": 94
+                    "start": 83,
+                    "end": 93
                   }
                 ],
                 "footnote_calls": [
@@ -159969,7 +160643,7 @@
                   {
                     "id": "name-437-paragraph-0-iast-37",
                     "unit_key": "bhūḥ",
-                    "text": "'bhūḥ'",
+                    "text": "bhūḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -159994,14 +160668,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'bhūḥ'",
+                        "text": "bhūḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 203,
-                    "end": 209
+                    "start": 204,
+                    "end": 208
                   },
                   {
                     "id": "name-437-paragraph-0-iast-58",
@@ -168397,7 +169071,7 @@
                   {
                     "id": "name-471-paragraph-0-iast-40",
                     "unit_key": "vatsalaḥ",
-                    "text": "'vatsalaḥ",
+                    "text": "vatsalaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -168422,13 +169096,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'vatsalaḥ",
+                        "text": "vatsalaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 237,
+                    "start": 238,
                     "end": 246
                   },
                   {
@@ -170790,7 +171464,7 @@
                   {
                     "id": "name-478-paragraph-0-ascii-2",
                     "unit_key": "ascii:name-478-paragraph-0-ascii-2",
-                    "text": "Satya'",
+                    "text": "Satya",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -170811,14 +171485,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Satya'",
+                        "text": "Satya",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 636,
-                    "end": 642
+                    "end": 641
                   },
                   {
                     "id": "name-478-paragraph-0-ascii-3",
@@ -173096,7 +173770,7 @@
                   {
                     "id": "name-482-paragraph-1-iast-1",
                     "unit_key": "viṣṇu",
-                    "text": "'Viṣṇu",
+                    "text": "Viṣṇu",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -173117,13 +173791,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'Viṣṇu",
+                        "text": "Viṣṇu",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 11,
+                    "start": 12,
                     "end": 17
                   },
                   {
@@ -174981,7 +175655,7 @@
                   {
                     "id": "name-486-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-486-paragraph-0-ascii-0",
-                    "text": "nemih'",
+                    "text": "nemih",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -175006,14 +175680,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "nemih'",
+                        "text": "nemih",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 101,
-                    "end": 107
+                    "end": 106
                   },
                   {
                     "id": "name-486-paragraph-0-ascii-1",
@@ -176001,7 +176675,7 @@
                   {
                     "id": "name-488-paragraph-1-iast-3",
                     "unit_key": "bhīma",
-                    "text": "'Bhīma",
+                    "text": "Bhīma",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -176022,13 +176696,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'Bhīma",
+                        "text": "Bhīma",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 17,
+                    "start": 18,
                     "end": 23
                   },
                   {
@@ -176067,7 +176741,7 @@
                   {
                     "id": "name-488-paragraph-1-ascii-1",
                     "unit_key": "ascii:name-488-paragraph-1-ascii-1",
-                    "text": "Simha'",
+                    "text": "Simha",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -176088,19 +176762,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Simha'",
+                        "text": "Simha",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 80,
-                    "end": 86
+                    "end": 85
                   },
                   {
                     "id": "name-488-paragraph-1-ascii-2",
                     "unit_key": "ascii:name-488-paragraph-1-ascii-2",
-                    "text": "Narasimha'",
+                    "text": "Narasimha",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -176125,14 +176799,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Narasimha'",
+                        "text": "Narasimha",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 133,
-                    "end": 143
+                    "end": 142
                   },
                   {
                     "id": "name-488-paragraph-1-iast-23",
@@ -176530,7 +177204,7 @@
                   {
                     "id": "name-490-paragraph-0-iast-43",
                     "unit_key": "ādi",
-                    "text": "'ādi'",
+                    "text": "ādi",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -176551,19 +177225,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'ādi'",
+                        "text": "ādi",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 203,
-                    "end": 208
+                    "start": 204,
+                    "end": 207
                   },
                   {
                     "id": "name-490-paragraph-0-ascii-2",
                     "unit_key": "deva",
-                    "text": "Deva'",
+                    "text": "Deva",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -176584,14 +177258,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Deva'",
+                        "text": "Deva",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 246,
-                    "end": 251
+                    "end": 250
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -178717,17 +179391,197 @@
                     "display_before": "",
                     "display_after": "“Enjoyer.”",
                     "display_citation": "",
-                    "display_policy": "normalized-devanagari-from-reviewed-word-records"
+                    "display_policy": "normalized-devanagari-from-reviewed-word-records",
+                    "display_payload": {
+                      "words": [
+                        {
+                          "i": 0,
+                          "iast": "bhuṅkte",
+                          "deva": "भुङ्क्ते",
+                          "gloss": "he enjoys",
+                          "parts": [
+                            {
+                              "form": "√bhuj",
+                              "gloss": "enjoy; consume"
+                            },
+                            {
+                              "form": "laṭ + ta",
+                              "gloss": "present middle third-person singular"
+                            }
+                          ],
+                          "stem": "√bhuj",
+                          "root": "√bhuj",
+                          "rootGloss": "protect; enjoy; consume",
+                          "affix": "laṭ + ta (prathamapuruṣa ekavacana)",
+                          "morph": "present middle third-person singular verb",
+                          "note": "rudhādi (7); ātmanepada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः"
+                        },
+                        {
+                          "i": 1,
+                          "iast": "iti",
+                          "deva": "इति",
+                          "gloss": "thus; so",
+                          "parts": [
+                            {
+                              "form": "iti",
+                              "gloss": "thus; so"
+                            }
+                          ],
+                          "stem": "iti",
+                          "affix": "indeclinable; no inflection",
+                          "morph": "indeclinable quotative particle"
+                        },
+                        {
+                          "i": 2,
+                          "iast": "bhoktā",
+                          "deva": "भोक्ता",
+                          "gloss": "enjoyer",
+                          "parts": [
+                            {
+                              "form": "√bhuj",
+                              "gloss": "enjoy; consume"
+                            },
+                            {
+                              "form": "tṛc",
+                              "gloss": "agent-forming suffix"
+                            },
+                            {
+                              "form": "su",
+                              "gloss": "nominative singular"
+                            }
+                          ],
+                          "stem": "bhoktṛ",
+                          "root": "√bhuj",
+                          "rootGloss": "protect; enjoy; consume",
+                          "affix": "tṛc + su (prathamā ekavacana)",
+                          "morph": "nominative singular masculine agent noun",
+                          "note": "rudhādi (7); parasmaipada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः"
+                        }
+                      ],
+                      "source_segments": [
+                        {
+                          "text": "भुङ्क्ते ",
+                          "word_indices": [
+                            0
+                          ]
+                        },
+                        {
+                          "text": "इति ",
+                          "word_indices": [
+                            1
+                          ]
+                        },
+                        {
+                          "text": "भोक्ता",
+                          "word_indices": [
+                            2
+                          ]
+                        }
+                      ]
+                    }
                   }
                 ],
                 "additional_name_numbers": [],
-                "content_class": "printed_footnote_prose",
+                "content_class": "formula_nirvacana",
                 "render_mode": "footnote_note",
                 "source_authority": "chinmayananda_prose",
                 "citation_completeness": "derivational",
                 "promotion_eligible": false,
-                "literal_translation_source": "none",
-                "display_word_mode": "reviewed_override"
+                "literal_translation_source": "site_literal",
+                "display_word_mode": "reviewed_override",
+                "formula_payload": {
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "bhuṅkte",
+                      "deva": "भुङ्क्ते",
+                      "gloss": "he enjoys",
+                      "parts": [
+                        {
+                          "form": "√bhuj",
+                          "gloss": "enjoy; consume"
+                        },
+                        {
+                          "form": "laṭ + ta",
+                          "gloss": "present middle third-person singular"
+                        }
+                      ],
+                      "stem": "√bhuj",
+                      "root": "√bhuj",
+                      "rootGloss": "protect; enjoy; consume",
+                      "affix": "laṭ + ta (prathamapuruṣa ekavacana)",
+                      "morph": "present middle third-person singular verb",
+                      "note": "rudhādi (7); ātmanepada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः"
+                    },
+                    {
+                      "i": 1,
+                      "iast": "iti",
+                      "deva": "इति",
+                      "gloss": "thus; so",
+                      "parts": [
+                        {
+                          "form": "iti",
+                          "gloss": "thus; so"
+                        }
+                      ],
+                      "stem": "iti",
+                      "affix": "indeclinable; no inflection",
+                      "morph": "indeclinable quotative particle"
+                    },
+                    {
+                      "i": 2,
+                      "iast": "bhoktā",
+                      "deva": "भोक्ता",
+                      "gloss": "enjoyer",
+                      "parts": [
+                        {
+                          "form": "√bhuj",
+                          "gloss": "enjoy; consume"
+                        },
+                        {
+                          "form": "tṛc",
+                          "gloss": "agent-forming suffix"
+                        },
+                        {
+                          "form": "su",
+                          "gloss": "nominative singular"
+                        }
+                      ],
+                      "stem": "bhoktṛ",
+                      "root": "√bhuj",
+                      "rootGloss": "protect; enjoy; consume",
+                      "affix": "tṛc + su (prathamā ekavacana)",
+                      "morph": "nominative singular masculine agent noun",
+                      "note": "rudhādi (7); parasmaipada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "भुङ्क्ते ",
+                      "word_indices": [
+                        0
+                      ]
+                    },
+                    {
+                      "text": "इति ",
+                      "word_indices": [
+                        1
+                      ]
+                    },
+                    {
+                      "text": "भोक्ता",
+                      "word_indices": [
+                        2
+                      ]
+                    }
+                  ],
+                  "content_class": "formula_nirvacana",
+                  "render_mode": "footnote_note",
+                  "devanagari": "भुङ्क्ते इति भोक्ता",
+                  "english_slots": "{0:He enjoys} {1:thus}; {2:Enjoyer}.",
+                  "literal_translation_source": "site_literal",
+                  "site_literal_note": "Site literal; printed derivation"
+                }
               },
               {
                 "type": "prose",
@@ -179005,7 +179859,7 @@
                   {
                     "id": "name-501-paragraph-0-ascii-0",
                     "unit_key": "kapiḥ",
-                    "text": "Kapih'",
+                    "text": "Kapih",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -179030,14 +179884,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Kapih'",
+                        "text": "Kapih",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 55,
-                    "end": 61
+                    "end": 60
                   }
                 ],
                 "footnote_calls": [
@@ -184876,7 +185730,7 @@
                   {
                     "id": "name-525-paragraph-0-iast-14",
                     "unit_key": "viṣṇu",
-                    "text": "'Viṣṇu'",
+                    "text": "Viṣṇu",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -184897,14 +185751,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'Viṣṇu'",
+                        "text": "Viṣṇu",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 101,
-                    "end": 108
+                    "start": 102,
+                    "end": 107
                   },
                   {
                     "id": "name-525-paragraph-0-iast-16",
@@ -187256,7 +188110,7 @@
                   {
                     "id": "name-530-paragraph-0-ascii-1",
                     "unit_key": "ascii:name-530-paragraph-0-ascii-1",
-                    "text": "Tri'",
+                    "text": "Tri",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -187277,14 +188131,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Tri'",
+                        "text": "Tri",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 384,
-                    "end": 388
+                    "end": 387
                   },
                   {
                     "id": "name-530-paragraph-0-ascii-2",
@@ -193743,7 +194597,7 @@
                   {
                     "id": "name-551-paragraph-0-iast-27",
                     "unit_key": "adṛḍhaḥ",
-                    "text": "'A-dṛḍhaḥ'",
+                    "text": "A-dṛḍhaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -193764,14 +194618,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'A-dṛḍhaḥ'",
+                        "text": "A-dṛḍhaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 146,
-                    "end": 156
+                    "start": 147,
+                    "end": 155
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -196242,7 +197096,7 @@
                   {
                     "id": "name-558-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-558-paragraph-0-ascii-0",
-                    "text": "Bhaga'",
+                    "text": "Bhaga",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -196263,14 +197117,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Bhaga'",
+                        "text": "Bhaga",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 10,
-                    "end": 16
+                    "end": 15
                   },
                   {
                     "id": "name-558-paragraph-0-iast-7",
@@ -196851,7 +197705,7 @@
                   {
                     "id": "name-558-paragraph-0-iast-28",
                     "unit_key": "bhagavān",
-                    "text": "'bhagavān'",
+                    "text": "bhagavān",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -196880,14 +197734,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'bhagavān'",
+                        "text": "bhagavān",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 121,
-                    "end": 131
+                    "start": 122,
+                    "end": 130
                   },
                   {
                     "id": "name-558-paragraph-0-iast-30",
@@ -199093,7 +199947,7 @@
                   {
                     "id": "name-564-paragraph-0-iast-75",
                     "unit_key": "viṣṇu",
-                    "text": "Viṣṇu'",
+                    "text": "Viṣṇu",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -199114,14 +199968,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Viṣṇu'",
+                        "text": "Viṣṇu",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 260,
-                    "end": 266
+                    "end": 265
                   },
                   {
                     "id": "name-564-paragraph-0-iast-81",
@@ -201141,7 +201995,7 @@
                   {
                     "id": "name-574-paragraph-0-iast-9",
                     "unit_key": "sāma",
-                    "text": "'Sāma'",
+                    "text": "Sāma",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -201166,14 +202020,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'Sāma'",
+                        "text": "Sāma",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 50,
-                    "end": 56
+                    "start": 51,
+                    "end": 55
                   },
                   {
                     "id": "name-574-paragraph-0-ascii-1",
@@ -202104,7 +202958,7 @@
                   {
                     "id": "name-578-paragraph-0-iast-0",
                     "unit_key": "bheṣajaṃ",
-                    "text": "bheṣajaṃ’",
+                    "text": "bheṣajaṃ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -202129,14 +202983,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "bheṣajaṃ’",
+                        "text": "bheṣajaṃ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 1,
-                    "end": 10
+                    "end": 9
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -202395,7 +203249,7 @@
                   {
                     "id": "name-580-paragraph-0-iast-12",
                     "unit_key": "saṃnyāsa",
-                    "text": "'saṃnyāsa'",
+                    "text": "saṃnyāsa",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -202416,14 +203270,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'saṃnyāsa'",
+                        "text": "saṃnyāsa",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 68,
-                    "end": 78
+                    "start": 69,
+                    "end": 77
                   },
                   {
                     "id": "name-580-paragraph-0-iast-38",
@@ -206022,7 +206876,7 @@
                   {
                     "id": "name-593-paragraph-0-iast-12",
                     "unit_key": "goptā",
-                    "text": "'goptā'",
+                    "text": "goptā",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -206050,14 +206904,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'goptā'",
+                        "text": "goptā",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 65,
-                    "end": 72
+                    "start": 66,
+                    "end": 71
                   },
                   {
                     "id": "name-593-paragraph-0-iast-25",
@@ -206487,7 +207341,7 @@
                   {
                     "id": "name-595-paragraph-0-iast-4",
                     "unit_key": "vṛṣa",
-                    "text": "vṛṣa’",
+                    "text": "vṛṣa",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -206512,14 +207366,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "vṛṣa’",
+                        "text": "vṛṣa",
                         "word_indices": [
                           3
                         ]
                       }
                     ],
                     "start": 27,
-                    "end": 32
+                    "end": 31
                   },
                   {
                     "id": "name-595-paragraph-0-ascii-1",
@@ -207403,7 +208257,7 @@
                   {
                     "id": "name-599-paragraph-0-ascii-1",
                     "unit_key": "ascii:name-599-paragraph-0-ascii-1",
-                    "text": "Yoga'",
+                    "text": "Yoga",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -207427,19 +208281,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Yoga'",
+                        "text": "Yoga",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 246,
-                    "end": 251
+                    "end": 250
                   },
                   {
                     "id": "name-599-paragraph-0-iast-42",
                     "unit_key": "kṣema",
-                    "text": "'kṣema'",
+                    "text": "kṣema",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -207460,14 +208314,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'kṣema'",
+                        "text": "kṣema",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 256,
-                    "end": 263
+                    "start": 257,
+                    "end": 262
                   }
                 ],
                 "footnote_calls": [
@@ -225449,7 +226303,7 @@
                   {
                     "id": "name-658-paragraph-0-ascii-0",
                     "unit_key": "vī",
-                    "text": "Vi’",
+                    "text": "Vi",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -225473,14 +226327,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Vi’",
+                        "text": "Vi",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 70,
-                    "end": 73
+                    "end": 72
                   },
                   {
                     "id": "name-658-paragraph-0-span-0",
@@ -238025,7 +238879,7 @@
                   {
                     "id": "name-695-paragraph-0-ascii-2",
                     "unit_key": "deva",
-                    "text": "Deva'",
+                    "text": "Deva",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -238046,14 +238900,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Deva'",
+                        "text": "Deva",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 162,
-                    "end": 167
+                    "end": 166
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -248186,7 +249040,7 @@
                   {
                     "id": "name-726-paragraph-0-iast-38",
                     "unit_key": "jīvas",
-                    "text": "'jīvas'",
+                    "text": "jīvas",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -248207,14 +249061,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'jīvas'",
+                        "text": "jīvas",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 215,
-                    "end": 222
+                    "start": 216,
+                    "end": 221
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -250753,7 +251607,7 @@
                       {
                         "id": "name-731-paragraph-1-ascii-3",
                         "unit_key": "sat",
-                        "text": "Sat'",
+                        "text": "Sat",
                         "language": "sa-Latn",
                         "words": [
                           {
@@ -250778,14 +251632,14 @@
                         ],
                         "source_segments": [
                           {
-                            "text": "Sat'",
+                            "text": "Sat",
                             "word_indices": [
                               0
                             ]
                           }
                         ],
                         "start": 9,
-                        "end": 13
+                        "end": 12
                       },
                       {
                         "id": "name-731-paragraph-1-ascii-4",
@@ -251097,7 +251951,7 @@
                       {
                         "id": "name-731-paragraph-2-ascii-1",
                         "unit_key": "ascii:name-731-paragraph-2-ascii-1",
-                        "text": "Tat'",
+                        "text": "Tat",
                         "language": "sa-Latn",
                         "words": [
                           {
@@ -251122,14 +251976,14 @@
                         ],
                         "source_segments": [
                           {
-                            "text": "Tat'",
+                            "text": "Tat",
                             "word_indices": [
                               0
                             ]
                           }
                         ],
                         "start": 57,
-                        "end": 61
+                        "end": 60
                       },
                       {
                         "id": "name-731-paragraph-2-span-1",
@@ -256598,7 +257452,7 @@
                   {
                     "id": "name-748-paragraph-1-ascii-0",
                     "unit_key": "ascii:name-748-paragraph-1-ascii-0",
-                    "text": "da'",
+                    "text": "da",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -256622,14 +257476,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "da'",
+                        "text": "da",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 10,
-                    "end": 13
+                    "end": 12
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -257132,7 +257986,7 @@
                   {
                     "id": "name-750-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-750-paragraph-0-ascii-0",
-                    "text": "loka’",
+                    "text": "loka",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -257160,14 +258014,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "loka’",
+                        "text": "loka",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 39,
-                    "end": 44
+                    "end": 43
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -257275,7 +258129,7 @@
                   {
                     "id": "name-751-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-751-paragraph-0-ascii-0",
-                    "text": "loka'",
+                    "text": "loka",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -257296,14 +258150,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "loka'",
+                        "text": "loka",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 162,
-                    "end": 167
+                    "end": 166
                   },
                   {
                     "id": "name-751-paragraph-0-ascii-1",
@@ -258605,7 +259459,7 @@
                   {
                     "id": "name-758-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-758-paragraph-0-ascii-0",
-                    "text": "Dyuti'",
+                    "text": "Dyuti",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -258626,14 +259480,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Dyuti'",
+                        "text": "Dyuti",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 10,
-                    "end": 16
+                    "end": 15
                   },
                   {
                     "id": "name-758-paragraph-0-ascii-1",
@@ -259341,7 +260195,7 @@
                   {
                     "id": "name-760-paragraph-1-iast-2",
                     "unit_key": "pragrahaḥ",
-                    "text": "'pragrahaḥ'",
+                    "text": "pragrahaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -259366,14 +260220,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'pragrahaḥ'",
+                        "text": "pragrahaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 9,
-                    "end": 20
+                    "start": 10,
+                    "end": 19
                   },
                   {
                     "id": "name-760-paragraph-1-iast-33",
@@ -259562,7 +260416,7 @@
                   {
                     "id": "name-760-paragraph-1-iast-68",
                     "unit_key": "pragrahaḥ",
-                    "text": "'pragrahaḥ'",
+                    "text": "pragrahaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -259587,14 +260441,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'pragrahaḥ'",
+                        "text": "pragrahaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 168,
-                    "end": 179
+                    "start": 169,
+                    "end": 178
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -263995,7 +264849,7 @@
                   {
                     "id": "name-772-paragraph-0-iast-4",
                     "unit_key": "pāda",
-                    "text": "'pāda'",
+                    "text": "pāda",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -264016,14 +264870,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'pāda'",
+                        "text": "pāda",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 27,
-                    "end": 33
+                    "start": 28,
+                    "end": 32
                   },
                   {
                     "id": "name-772-paragraph-0-iast-19",
@@ -270135,7 +270989,7 @@
                   {
                     "id": "name-786-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-786-paragraph-0-ascii-0",
-                    "text": "Id'",
+                    "text": "Id",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -270159,14 +271013,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Id'",
+                        "text": "Id",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 67,
-                    "end": 70
+                    "end": 69
                   },
                   {
                     "id": "name-786-paragraph-0-span-0",
@@ -274006,7 +274860,7 @@
                   {
                     "id": "name-800-paragraph-0-ascii-0",
                     "unit_key": "oṃ",
-                    "text": "OM'",
+                    "text": "OM",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -274027,14 +274881,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "OM'",
+                        "text": "OM",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 174,
-                    "end": 177
+                    "end": 176
                   }
                 ],
                 "footnote_calls": [
@@ -276424,7 +277278,7 @@
                   {
                     "id": "name-805-paragraph-0-iast-28",
                     "unit_key": "mahābhūtaḥ",
-                    "text": "'mahābhūtaḥ",
+                    "text": "mahābhūtaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -276453,13 +277307,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'mahābhūtaḥ",
+                        "text": "mahābhūtaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 176,
+                    "start": 177,
                     "end": 187
                   }
                 ],
@@ -276565,7 +277419,7 @@
                   {
                     "id": "name-806-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-806-paragraph-0-ascii-0",
-                    "text": "nidhi'",
+                    "text": "nidhi",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -276586,14 +277440,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "nidhi'",
+                        "text": "nidhi",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 187,
-                    "end": 193
+                    "end": 192
                   },
                   {
                     "id": "name-806-paragraph-0-iast-40",
@@ -277447,7 +278301,7 @@
                   {
                     "id": "name-809-paragraph-0-ascii-4",
                     "unit_key": "ku",
-                    "text": "Ku'",
+                    "text": "Ku",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -277468,19 +278322,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Ku'",
+                        "text": "Ku",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 283,
-                    "end": 286
+                    "end": 285
                   },
                   {
                     "id": "name-809-paragraph-0-ascii-5",
                     "unit_key": "ascii:name-809-paragraph-0-ascii-5",
-                    "text": "da'",
+                    "text": "da",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -277504,14 +278358,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "da'",
+                        "text": "da",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 343,
-                    "end": 346
+                    "end": 345
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -278505,7 +279359,7 @@
                   {
                     "id": "name-812-paragraph-0-ascii-1",
                     "unit_key": "ascii:name-812-paragraph-0-ascii-1",
-                    "text": "A-nilah'",
+                    "text": "A-nilah",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -278526,14 +279380,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "A-nilah'",
+                        "text": "A-nilah",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 246,
-                    "end": 254
+                    "end": 253
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -282055,7 +282909,7 @@
                   {
                     "id": "name-827-paragraph-0-iast-9",
                     "unit_key": "jihvā",
-                    "text": "jihvā’",
+                    "text": "jihvā",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -282076,14 +282930,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "jihvā’",
+                        "text": "jihvā",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 60,
-                    "end": 66
+                    "end": 65
                   },
                   {
                     "id": "name-827-paragraph-0-iast-30",
@@ -287123,7 +287977,7 @@
                   {
                     "id": "name-845-paragraph-1-iast-13",
                     "unit_key": "prāgvaṃśaḥ",
-                    "text": "'prāgvaṃśaḥ",
+                    "text": "prāgvaṃśaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -287152,13 +288006,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'prāgvaṃśaḥ",
+                        "text": "prāgvaṃśaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 84,
+                    "start": 85,
                     "end": 95
                   },
                   {
@@ -287240,7 +288094,7 @@
                   {
                     "id": "name-845-paragraph-1-iast-28",
                     "unit_key": "prāgvaṃśaḥ",
-                    "text": "'prāgvaṃśaḥ'",
+                    "text": "prāgvaṃśaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -287269,14 +288123,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'prāgvaṃśaḥ'",
+                        "text": "prāgvaṃśaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 175,
-                    "end": 187
+                    "start": 176,
+                    "end": 186
                   },
                   {
                     "id": "name-845-paragraph-1-iast-38",
@@ -296463,7 +297317,7 @@
                   {
                     "id": "name-878-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-878-paragraph-0-ascii-0",
-                    "text": "Su’",
+                    "text": "Su",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -296484,14 +297338,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Su’",
+                        "text": "Su",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 12,
-                    "end": 15
+                    "end": 14
                   },
                   {
                     "id": "name-878-paragraph-0-ascii-1",
@@ -296641,7 +297495,7 @@
                   {
                     "id": "name-878-paragraph-1-iast-9",
                     "unit_key": "totalvāsanās",
-                    "text": "'Total-vāsanās",
+                    "text": "Total-vāsanās",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -296662,13 +297516,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'Total-vāsanās",
+                        "text": "Total-vāsanās",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 67,
+                    "start": 68,
                     "end": 81
                   },
                   {
@@ -304123,7 +304977,7 @@
                   {
                     "id": "name-902-paragraph-0-iast-11",
                     "unit_key": "kṛt",
-                    "text": "'kṛt",
+                    "text": "kṛt",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -304144,13 +304998,13 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'kṛt",
+                        "text": "kṛt",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 59,
+                    "start": 60,
                     "end": 63
                   },
                   {
@@ -304189,7 +305043,7 @@
                   {
                     "id": "name-902-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-902-paragraph-0-ascii-0",
-                    "text": "Svasti'",
+                    "text": "Svasti",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -304210,14 +305064,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Svasti'",
+                        "text": "Svasti",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 520,
-                    "end": 527
+                    "end": 526
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -305048,7 +305902,7 @@
                   {
                     "id": "name-905-paragraph-0-iast-10",
                     "unit_key": "dakṣiṇā",
-                    "text": "'dakṣiṇā'",
+                    "text": "dakṣiṇā",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -305069,14 +305923,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'dakṣiṇā'",
+                        "text": "dakṣiṇā",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 70,
-                    "end": 79
+                    "start": 71,
+                    "end": 78
                   }
                 ],
                 "footnote_calls": [
@@ -306064,7 +306918,7 @@
                   {
                     "id": "name-909-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-909-paragraph-0-ascii-0",
-                    "text": "Vi’",
+                    "text": "Vi",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -306085,14 +306939,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Vi’",
+                        "text": "Vi",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 101,
-                    "end": 104
+                    "end": 103
                   },
                   {
                     "id": "name-909-paragraph-0-iast-28",
@@ -309008,7 +309862,7 @@
                   {
                     "id": "name-921-paragraph-0-ascii-1",
                     "unit_key": "ascii:name-921-paragraph-0-ascii-1",
-                    "text": "Abhava'",
+                    "text": "Abhava",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -309029,14 +309883,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Abhava'",
+                        "text": "Abhava",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 233,
-                    "end": 240
+                    "end": 239
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -317457,7 +318311,7 @@
                   {
                     "id": "name-956-paragraph-0-iast-3",
                     "unit_key": "prāṇa",
-                    "text": "'prāṇa'",
+                    "text": "prāṇa",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -317478,19 +318332,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'prāṇa'",
+                        "text": "prāṇa",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 15,
-                    "end": 22
+                    "start": 16,
+                    "end": 21
                   },
                   {
                     "id": "name-956-paragraph-0-iast-8",
                     "unit_key": "prāṇa",
-                    "text": "'prāṇa'",
+                    "text": "prāṇa",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -317511,14 +318365,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'prāṇa'",
+                        "text": "prāṇa",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 41,
-                    "end": 48
+                    "start": 42,
+                    "end": 47
                   },
                   {
                     "id": "name-956-paragraph-0-iast-11",
@@ -317751,7 +318605,7 @@
                   {
                     "id": "name-957-paragraph-0-ascii-0",
                     "unit_key": "oṃ",
-                    "text": "OM'",
+                    "text": "OM",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -317772,19 +318626,19 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "OM'",
+                        "text": "OM",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 59,
-                    "end": 62
+                    "end": 61
                   },
                   {
                     "id": "name-957-paragraph-0-ascii-1",
                     "unit_key": "oṃ",
-                    "text": "OM'",
+                    "text": "OM",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -317805,14 +318659,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "OM'",
+                        "text": "OM",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 78,
-                    "end": 81
+                    "end": 80
                   },
                   {
                     "id": "name-957-paragraph-0-iast-23",
@@ -317883,7 +318737,7 @@
                   {
                     "id": "name-957-paragraph-0-iast-27",
                     "unit_key": "praṇavaḥ",
-                    "text": "'praṇavaḥ'",
+                    "text": "praṇavaḥ",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -317908,14 +318762,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "'praṇavaḥ'",
+                        "text": "praṇavaḥ",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
-                    "start": 162,
-                    "end": 172
+                    "start": 163,
+                    "end": 171
                   },
                   {
                     "id": "name-957-paragraph-0-iast-35",
@@ -318191,7 +319045,7 @@
                   {
                     "id": "name-958-paragraph-0-ascii-0",
                     "unit_key": "ascii:name-958-paragraph-0-ascii-0",
-                    "text": "Pana’",
+                    "text": "Pana",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -318215,14 +319069,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Pana’",
+                        "text": "Pana",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 49,
-                    "end": 54
+                    "end": 53
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -318608,7 +319462,7 @@
                   {
                     "id": "name-960-paragraph-0-iast-4",
                     "unit_key": "prāṇas",
-                    "text": "prāṇas’",
+                    "text": "prāṇas",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -318629,14 +319483,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "prāṇas’",
+                        "text": "prāṇas",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 17,
-                    "end": 24
+                    "end": 23
                   }
                 ],
                 "content_class": "prose_sanskrit_term",
@@ -321806,7 +322660,7 @@
                   {
                     "id": "name-967-paragraph-0-ascii-2",
                     "unit_key": "ascii:name-967-paragraph-0-ascii-2",
-                    "text": "Loka'",
+                    "text": "Loka",
                     "language": "sa-Latn",
                     "words": [
                       {
@@ -321827,14 +322681,14 @@
                     ],
                     "source_segments": [
                       {
-                        "text": "Loka'",
+                        "text": "Loka",
                         "word_indices": [
                           0
                         ]
                       }
                     ],
                     "start": 213,
-                    "end": 218
+                    "end": 217
                   },
                   {
                     "id": "name-967-paragraph-0-iast-91",

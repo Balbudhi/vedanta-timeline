@@ -129,11 +129,77 @@
         {"i": 2, "iast": "bhoktā", "deva": "भोक्ता", "gloss": "protector", "parts": [{"form": "√bhuj", "gloss": "protect"}, {"form": "tṛc", "gloss": "agent-forming suffix"}, {"form": "su", "gloss": "nominative singular"}], "stem": "bhoktṛ", "root": "√bhuj", "rootGloss": "protect; enjoy; consume", "affix": "tṛc + su (prathamā ekavacana)", "morph": "nominative singular masculine agent noun", "note": "rudhādi (7); parasmaipada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः"}
       ],
       "source_segments": [{"text": "भुनक्ति ", "word_indices": [0]}, {"text": "इति ", "word_indices": [1]}, {"text": "भोक्ता", "word_indices": [2]}]
+    },
+    "cm-vs-fn-p141-n02": {
+      "content_class": "formula_nirvacana",
+      "render_mode": "footnote_note",
+      "payload_ref": "cm-vs-fn-p141-n02",
+      "devanagari": "भुङ्क्ते इति भोक्ता",
+      "english_slots": "{0:He enjoys} {1:thus}; {2:Enjoyer}.",
+      "literal_translation_source": "site_literal",
+      "site_literal_note": "Site literal; printed derivation"
     }
   },
   "block_overrides": {
     "cm-vs-fn-p020-n01": {"display_source_label": "Printed citation · Viṣṇu Purāṇa 1.2.69"},
+    "cm-vs-fn-p021-n01": {"render_after_next_quote": true},
     "cm-vs-fn-p020-n03": {"display_word_mode": "reviewed_override"},
     "cm-vs-fn-p141-n02": {"display_word_mode": "reviewed_override"}
+  },
+  "display_payload_overrides": {
+    "cm-vs-fn-p020-n03": {
+      "words": [
+        {"i": 0, "iast": "brahma", "deva": "ब्रह्म", "gloss": "Brahman; the absolute", "parts": [{"form": "brahman", "gloss": "Brahman; the absolute"}, {"form": "am", "gloss": "nominative/accusative singular neuter"}], "stem": "brahman", "affix": "am (prathamā/dvitīyā ekavacana)", "morph": "nominative or accusative singular neuter noun"},
+        {"i": 1, "iast": "eva", "deva": "एव", "gloss": "indeed; precisely", "parts": [{"form": "eva", "gloss": "indeed; precisely"}], "stem": "eva", "affix": "indeclinable; no inflection", "morph": "indeclinable emphatic particle"},
+        {"i": 2, "iast": "idam", "deva": "इदम्", "gloss": "this", "parts": [{"form": "idam", "gloss": "this"}], "stem": "idam", "affix": "am (prathamā/dvitīyā ekavacana)", "morph": "nominative or accusative singular neuter demonstrative pronoun"},
+        {"i": 3, "iast": "viśvam", "deva": "विश्वम्", "gloss": "universe; all", "parts": [{"form": "viśva", "gloss": "all; universe"}, {"form": "am", "gloss": "nominative/accusative singular neuter"}], "stem": "viśva", "affix": "am (prathamā/dvitīyā ekavacana)", "morph": "nominative or accusative singular neuter noun"},
+        {"i": 4, "iast": "idam", "deva": "इदम्", "gloss": "this", "parts": [{"form": "idam", "gloss": "this"}], "stem": "idam", "affix": "am (prathamā/dvitīyā ekavacana)", "morph": "nominative or accusative singular neuter demonstrative pronoun"},
+        {"i": 5, "iast": "variṣṭham", "deva": "वरिष्ठम्", "gloss": "the most excellent; highest", "parts": [{"form": "vara", "gloss": "excellent; choice"}, {"form": "iṣṭha", "gloss": "superlative suffix"}, {"form": "am", "gloss": "nominative/accusative singular neuter"}], "stem": "variṣṭha", "affix": "iṣṭha (superlative) + am (prathamā/dvitīyā ekavacana)", "morph": "nominative or accusative singular neuter superlative adjective"},
+        {"i": 6, "iast": "puruṣaḥ", "deva": "पुरुषः", "gloss": "the Person", "parts": [{"form": "puruṣa", "gloss": "person; personhood"}, {"form": "su", "gloss": "nominative singular"}], "stem": "puruṣa", "affix": "su (prathamā ekavacana)", "morph": "nominative singular masculine noun; visarga is resolved before eva"},
+        {"i": 7, "iast": "eva", "deva": "एव", "gloss": "indeed; precisely", "parts": [{"form": "eva", "gloss": "indeed; precisely"}], "stem": "eva", "affix": "indeclinable; no inflection", "morph": "indeclinable emphatic particle"},
+        {"i": 8, "iast": "idam", "deva": "इदम्", "gloss": "this", "parts": [{"form": "idam", "gloss": "this"}], "stem": "idam", "affix": "am (prathamā/dvitīyā ekavacana)", "morph": "nominative or accusative singular neuter demonstrative pronoun"},
+        {"i": 9, "iast": "viśvam", "deva": "विश्वम्", "gloss": "universe; all", "parts": [{"form": "viśva", "gloss": "all; universe"}, {"form": "am", "gloss": "nominative/accusative singular neuter"}], "stem": "viśva", "affix": "am (prathamā/dvitīyā ekavacana)", "morph": "nominative or accusative singular neuter noun"}
+      ],
+      "source_segments": [{"text": "ब्रह्मैवेदं ", "word_indices": [0,1,2]}, {"text": "विश्वम् ", "word_indices": [3]}, {"text": "इदं ", "word_indices": [4]}, {"text": "वरिष्ठं ", "word_indices": [5]}, {"text": "पुरुष ", "word_indices": [6]}, {"text": "एवेदं ", "word_indices": [7,8]}, {"text": "विश्वम्", "word_indices": [9]}]
+    },
+    "cm-vs-fn-p141-n02": {
+      "words": [
+        {"i": 0, "iast": "bhuṅkte", "deva": "भुङ्क्ते", "gloss": "he enjoys", "parts": [{"form": "√bhuj", "gloss": "enjoy; consume"}, {"form": "laṭ + ta", "gloss": "present middle third-person singular"}], "stem": "√bhuj", "root": "√bhuj", "rootGloss": "protect; enjoy; consume", "affix": "laṭ + ta (prathamapuruṣa ekavacana)", "morph": "present middle third-person singular verb", "note": "rudhādi (7); ātmanepada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः"},
+        {"i": 1, "iast": "iti", "deva": "इति", "gloss": "thus; so", "parts": [{"form": "iti", "gloss": "thus; so"}], "stem": "iti", "affix": "indeclinable; no inflection", "morph": "indeclinable quotative particle"},
+        {"i": 2, "iast": "bhoktā", "deva": "भोक्ता", "gloss": "enjoyer", "parts": [{"form": "√bhuj", "gloss": "enjoy; consume"}, {"form": "tṛc", "gloss": "agent-forming suffix"}, {"form": "su", "gloss": "nominative singular"}], "stem": "bhoktṛ", "root": "√bhuj", "rootGloss": "protect; enjoy; consume", "affix": "tṛc + su (prathamā ekavacana)", "morph": "nominative singular masculine agent noun", "note": "rudhādi (7); parasmaipada · Dhātupāṭha 07.0017: पालनाभ्यवहारयोः"}
+      ],
+      "source_segments": [{"text": "भुङ्क्ते ", "word_indices": [0]}, {"text": "इति ", "word_indices": [1]}, {"text": "भोक्ता", "word_indices": [2]}]
+    }
+  },
+  "standalone_payload_overrides": {
+    "name-2-paragraph-1-span-0": {
+      "devanagari": "यस्माद् विष्टम् इदं सर्वं तस्य शक्त्या महात्मनः। तस्माद् एव उच्यते विष्णुर्विशेर्धातोः प्रवेशनात्॥",
+      "words": [
+        {"i":0,"iast":"yasmād","deva":"यस्माद्","gloss":"because; from whom","parts":[{"form":"yad","gloss":"which; who"},{"form":"ṅasi","gloss":"ablative singular"}],"stem":"yad","affix":"ṅasi (pañcamī ekavacana)","morph":"ablative singular relative pronoun used adverbially"},
+        {"i":1,"iast":"viṣṭam","deva":"विष्टम्","gloss":"pervaded","parts":[{"form":"√viś","gloss":"enter; pervade"},{"form":"kta","gloss":"past passive participle"},{"form":"am","gloss":"nominative/accusative singular neuter"}],"stem":"viṣṭa","root":"√viś","rootGloss":"enter; pervade","affix":"kta + am (prathamā/dvitīyā ekavacana)","morph":"past passive participle, nominative or accusative singular neuter","note":"tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने"},
+        {"i":2,"iast":"idam","deva":"इदं","gloss":"this","parts":[{"form":"idam","gloss":"this"}],"stem":"idam","affix":"am (prathamā/dvitīyā ekavacana)","morph":"nominative or accusative singular neuter demonstrative pronoun"},
+        {"i":3,"iast":"sarvam","deva":"सर्वं","gloss":"all; the whole","parts":[{"form":"sarva","gloss":"all"},{"form":"am","gloss":"nominative/accusative singular neuter"}],"stem":"sarva","affix":"am (prathamā/dvitīyā ekavacana)","morph":"nominative or accusative singular neuter adjective"},
+        {"i":4,"iast":"tasya","deva":"तस्य","gloss":"of him","parts":[{"form":"tad","gloss":"that; he"},{"form":"ṅas","gloss":"genitive singular"}],"stem":"tad","affix":"ṅas (ṣaṣṭhī ekavacana)","morph":"genitive singular demonstrative pronoun"},
+        {"i":5,"iast":"śaktyā","deva":"शक्त्या","gloss":"by power","parts":[{"form":"śakti","gloss":"power; capacity"},{"form":"ṭā","gloss":"instrumental singular"}],"stem":"śakti","affix":"ṭā (tṛtīyā ekavacana)","morph":"instrumental singular feminine noun"},
+        {"i":6,"iast":"mahātmanaḥ","deva":"महात्मनः","gloss":"of the great Self","parts":[{"form":"mahā","gloss":"great"},{"form":"ātman","gloss":"self"},{"form":"ṅas","gloss":"genitive singular"}],"stem":"mahātman","affix":"ṅas (ṣaṣṭhī ekavacana)","morph":"genitive singular masculine compound noun"},
+        {"i":7,"iast":"tasmād","deva":"तस्माद्","gloss":"therefore","parts":[{"form":"tad","gloss":"that"},{"form":"ṅasi","gloss":"ablative singular"}],"stem":"tad","affix":"ṅasi (pañcamī ekavacana)","morph":"ablative singular pronoun used adverbially"},
+        {"i":8,"iast":"eva","deva":"एव","gloss":"indeed; precisely","parts":[{"form":"eva","gloss":"indeed; precisely"}],"stem":"eva","affix":"indeclinable; no inflection","morph":"indeclinable emphatic particle"},
+        {"i":9,"iast":"ucyate","deva":"उच्यते","gloss":"is called","parts":[{"form":"√vac","gloss":"speak; call"},{"form":"ya + laṭ + ta","gloss":"present passive third-person singular"}],"stem":"√vac","root":"√vac","rootGloss":"speak; call","affix":"ya + laṭ + ta (prathamapuruṣa ekavacana)","morph":"present passive third-person singular verb"},
+        {"i":10,"iast":"viṣṇuḥ","deva":"विष्णुः","gloss":"Viṣṇu","parts":[{"form":"viṣṇu","gloss":"the all-pervading one"},{"form":"su","gloss":"nominative singular"}],"stem":"viṣṇu","root":"√viś","rootGloss":"enter; pervade","affix":"su (prathamā ekavacana)","morph":"nominative singular masculine proper name; visarga is resolved before viśeḥ","note":"traditional nirvacana; Dhātupāṭha 06.0160: प्रवेशने"},
+        {"i":11,"iast":"viśeḥ","deva":"विशेः","gloss":"of viś","parts":[{"form":"√viś","gloss":"enter; pervade"},{"form":"ṅas","gloss":"genitive singular"}],"stem":"viś","root":"√viś","rootGloss":"enter; pervade","affix":"ṅas (ṣaṣṭhī ekavacana)","morph":"genitive singular root citation","note":"tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने"},
+        {"i":12,"iast":"dhātoḥ","deva":"धातोः","gloss":"of the verbal root","parts":[{"form":"dhātu","gloss":"verbal root"},{"form":"ṅas","gloss":"genitive singular"}],"stem":"dhātu","affix":"ṅas (ṣaṣṭhī ekavacana)","morph":"genitive singular masculine noun"},
+        {"i":13,"iast":"praveśanāt","deva":"प्रवेशनात्","gloss":"from entering","parts":[{"form":"pra","gloss":"forth; into"},{"form":"√viś","gloss":"enter"},{"form":"lyuṭ","gloss":"action-noun suffix"},{"form":"ṅasi","gloss":"ablative singular"}],"stem":"praveśana","root":"√viś","rootGloss":"enter; pervade","affix":"lyuṭ + ṅasi (pañcamī ekavacana)","morph":"ablative singular action noun","note":"tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने"}
+      ],
+      "source_segments": [{"text":"यस्माद्विष्टमिदं ","word_indices":[0,1,2]},{"text":"सर्वं ","word_indices":[3]},{"text":"तस्य ","word_indices":[4]},{"text":"शक्त्या ","word_indices":[5]},{"text":"महात्मनः। ","word_indices":[6]},{"text":"तस्मादेवोच्यते ","word_indices":[7,8,9]},{"text":"विष्णविशेर्धातोः ","word_indices":[10,11,12]},{"text":"प्रवेशनात ।।","word_indices":[13]}]
+    }
+  },
+  "coalesced_inline_overrides": {
+    "2:1": [{"id": "name-2-paragraph-1-span-0", "unit_key": "yasmādviṣṭamidaṃsarvaṃtasyaśaktyāmahātmanaḥtasmādevocyateviṣṇurviśerdhātoḥpraveśanāt", "text": "यस्माद्विष्टमिदं सर्वं तस्य शक्त्या महात्मनः। तस्मादेवोच्यते विष्णविशेर्धातोः प्रवेशनात ।।", "language": "sa-Deva"}]
+  },
+  "prose_overrides": {
+    "1:0": {"suppress_inline_matching_following_quote": true}
+  },
+  "prose_block_overrides": {
+    "2": [{"text": "यस्माद्विष्टमिदं सर्वं तस्य शक्त्या महात्मनः। तस्मादेवोच्यते विष्णविशेर्धातोः प्रवेशनात ।।", "fields": {"content_class": "complete_quote", "render_mode": "prose", "source_authority": "chinmayananda_printed_quote", "citation_completeness": "complete", "promotion_eligible": true, "display_citation": "Viṣṇu Purāṇa 3.1 · printed citation"}}]
   }
 }

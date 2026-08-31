@@ -41,7 +41,10 @@ def main() -> None:
     reader = json.loads(READER.read_text(encoding="utf-8"))
     errors: list[str] = []
     renderer = RENDERER.read_text(encoding="utf-8")
-    for forbidden in ("PILOT_", "INLINE_SANSKRIT_REPAIRS", "INLINE_WORD_OVERRIDES", "INLINE_ITEM_OVERRIDES"):
+    for forbidden in (
+        "PILOT_", "INLINE_SANSKRIT_REPAIRS", "INLINE_WORD_OVERRIDES", "INLINE_ITEM_OVERRIDES",
+        "cm-vs-fn-", "name-2-paragraph-1-span-0",
+    ):
         if forbidden in renderer:
             errors.append(f"renderer retains forbidden runtime review table marker: {forbidden}")
     counts: dict[str, int] = {}
@@ -70,9 +73,51 @@ def main() -> None:
                 if kind in {"gita-quote", "sanskrit-quote"}:
                     if content_class != "complete_quote" or completeness != "complete" or block.get("promotion_eligible") is not True:
                         errors.append(f"{label}: quote promotion contract violated")
+                if content_class == "complete_quote":
+                    if completeness != "complete" or block.get("promotion_eligible") is not True:
+                        errors.append(f"{label}: complete quote contract violated")
+                    if authority not in {"chinmayananda_printed_quote", "independently_verified_primary"}:
+                        errors.append(f"{label}: complete quote has invalid authority")
+                    if kind == "prose":
+                        annotations = block.get("inline_sanskrit", [])
+                        if len(annotations) != 1 or not annotations[0].get("presentation_payload"):
+                            errors.append(f"{label}: prose quotation lacks one reviewed presentation payload")
+                        if not block.get("display_citation"):
+                            errors.append(f"{label}: prose quotation lacks a displayed citation")
                 if block.get("display_devanagari"):
                     if content_class != "partial_cited_fragment" or render_mode != "display_fragment" or block.get("promotion_eligible") is not False:
                         errors.append(f"{label}: display fragment contract violated")
+                for annotation in block.get("inline_sanskrit", []):
+                    payload = annotation.get("presentation_payload")
+                    if not payload:
+                        continue
+                    payload_words = payload.get("words", [])
+                    payload_indices = [word.get("i") for word in payload_words]
+                    if payload_indices != list(range(len(payload_words))):
+                        errors.append(f"{label}: presentation payload has non-contiguous word analysis")
+                    payload_segments = payload.get("source_segments", [])
+                    if "".join(segment.get("text", "") for segment in payload_segments) != annotation.get("text"):
+                        errors.append(f"{label}: presentation payload changes its printed source text")
+                    covered = {int(index) for segment in payload_segments for index in segment.get("word_indices", [])}
+                    if covered != set(range(len(payload_words))):
+                        errors.append(f"{label}: presentation payload does not map every word")
+                    if not payload.get("devanagari") or any("A" <= char <= "z" for char in payload["devanagari"]):
+                        errors.append(f"{label}: presentation payload lacks a Devanāgarī display witness")
+                if content_class == "formula_nirvacana":
+                    payload = block.get("formula_payload")
+                    if not payload:
+                        errors.append(f"{label}: derivational note lacks a reviewed formula payload")
+                    else:
+                        words = payload.get("words", [])
+                        segments = payload.get("source_segments", [])
+                        if [word.get("i") for word in words] != list(range(len(words))):
+                            errors.append(f"{label}: derivational payload has non-contiguous words")
+                        if {int(index) for segment in segments for index in segment.get("word_indices", [])} != set(range(len(words))):
+                            errors.append(f"{label}: derivational payload does not map every word")
+                        if "".join(segment.get("text", "") for segment in segments) != payload.get("devanagari"):
+                            errors.append(f"{label}: derivational payload changes Devanāgarī")
+                        if not payload.get("english_slots") or payload.get("literal_translation_source") != "site_literal":
+                            errors.append(f"{label}: derivational payload lacks a marked literal translation")
                 counts[content_class] = counts.get(content_class, 0) + 1
     if errors:
         raise SystemExit("\n".join(errors[:100]))
