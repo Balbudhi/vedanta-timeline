@@ -465,7 +465,6 @@ function renderCommentaryBlock(block, context = {}) {
     const pilotDerivation = renderPilotDerivationRow(block);
     if (pilotDerivation) {
       return `<aside class="vsn-footnote vsn-evidence-thread vsn-derivation-note" id="${esc(block.id)}" role="note" data-print-marker="${esc(block.marker)}" aria-label="${esc(`Printed derivation; note ${block.marker}`)}">
-        <header class="vsn-evidence-head"><span>Printed derivation</span><span>Chinmayananda p. ${esc(block.printed_page)}</span></header>
         <div class="vsn-footnote-body">${pilotDerivation}</div>
       </aside>`;
     }
@@ -483,11 +482,12 @@ function renderCommentaryBlock(block, context = {}) {
     const applies = Array.isArray(block.additional_name_numbers) && block.additional_name_numbers.length
       ? ` · also names ${block.additional_name_numbers.join(", ")}`
       : "";
-    const sourceLabel = quoteSourceLabel(block) === "Chinmayananda’s note" ? "Chinmayananda" : quoteSourceLabel(block);
     const quote = children.find(child => child.type === "gita-quote" || child.type === "sanskrit-quote");
     const kind = citationKind(quote);
-    return `<aside class="vsn-footnote vsn-evidence-thread vsn-evidence-thread--${kind}" id="${esc(block.id)}" role="note" data-print-marker="${esc(block.marker)}" aria-label="${esc(`${sourceLabel}; printed note ${block.marker}`)}">
-      <header class="vsn-evidence-head"><span>${esc(sourceLabel)}</span><span>Chinmayananda p. ${esc(block.printed_page)}${esc(applies)}</span></header>
+    const sourceLabel = quote ? quoteSourceLabel(block) : "";
+    const header = quote ? `<header class="vsn-evidence-head"><span>${esc(sourceLabel)}</span></header>` : "";
+    return `<aside class="vsn-footnote vsn-evidence-thread vsn-evidence-thread--${quote ? kind : "note"}" id="${esc(block.id)}" role="note" data-print-marker="${esc(block.marker)}" aria-label="${esc(`${sourceLabel || "Printed note"}; printed note ${block.marker}`)}">
+      ${header}
       <div class="vsn-footnote-body">${body}</div>
     </aside>`;
   }
