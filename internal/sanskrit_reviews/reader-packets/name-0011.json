@@ -1,0 +1,2454 @@
+{
+  "schema_version": 1,
+  "status": "unreviewed-input",
+  "name_number": 11,
+  "source_snapshots": [
+    {
+      "path": "gita/vishnu-sahasranama/chinmayananda.json",
+      "sha256": "07e8f3b9c1a8aadf8f361adb8450ea6f6dfb34fcb682365e67b16300ff868a9e"
+    },
+    {
+      "path": "gita/vishnu-sahasranama/reader.json",
+      "sha256": "fa451622966d1b410893ace4e2fe7a194a4c383bea2a66851e8d72cfd3c23b78"
+    }
+  ],
+  "source_name": {
+    "number": 11,
+    "heading_devanagari": "परमात्मा",
+    "short_meaning": "The Supreme, meaning that which transcends all limitations and imperfections of matter: in short, the Transcendental Reality",
+    "short_meaning_status": "ocr-clean",
+    "commentary": "The Supreme, meaning that which transcends all limitations and imperfections of matter: in short, the Transcendental Reality. The Spirit is other than matter, and that in its presence, the vestures of matter, borrowing their dynamism from Him, play their parts rhythmically at all times. This has been the assertion found chorusly repeated in all the Upaniṣads and in the entire Vedantic literature. Śaṅkara in ātma Bodha points out that the Self is other than the three bodies and that He functions in the microcosm as a king in the nation. It was also said therein that matter borrows its energy from the Spirit and continues its activity \"as the world from the Sun\". Kaṭhopaniṣad and the Gītā guide us from the outer levels of our personality, stage by stage, into the inner-most sanctum, and there, the teachers declare, is He the Infinite, transcending all, reigning in His own glory. \"In short, that which remains other than the cause and effect-māyā and matter-is He, the Parama ātman. In Viṣṇu Purāṇa this Supreme is glorified as Maha Viṣṇu (paramātmā)\"—Viṣṇu Purāṇa 6.4.10.\n\nDehendriya-mano-buddhi-prakṛtibhyo vilakṣaṇam.\n\nTat-vṛtti-sākṣiṇam vidyād ātmānaṃ rājavat sadā.\n\nAs the world from the Sun (sūryālokamayā janāḥ). — Ātma Bodha 20.\n\nइन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः । मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ॥ — Gītā 3.42.\n\nपरमात्मा च सर्वेषामाधारः परमेश्वरः । विष्णुर्नाम सर्ववेदेषु वेदान्तेषु च गीयते ॥ — Viṣṇu Purāṇa 6.4.10.",
+    "scan_pages": [
+      23,
+      24
+    ],
+    "verification_status": "ocr-structured",
+    "ocr_notes": [],
+    "source_heading_roman": "Parama-atmaa",
+    "source_heading_devanagari_ocr": "परमात्मा",
+    "heading_iast": "paramātmā",
+    "simple_meaning": "The supreme self beyond all material limitations",
+    "simple_meaning_status": "site-generated-summary-derived-from-chinmayananda",
+    "apparatus_status": "scan-checked",
+    "simple_meaning_source": {
+      "basis": "chinmayananda-full-commentary",
+      "editorial_operation": "site-authored concise summary",
+      "attribution": "site-generated Simplified layer; not credited as Chinmayananda's translation or quotation"
+    },
+    "simple_basis_excerpt": "The Supreme, meaning that which transcends all limitations and imperfections of matter: in short, the Transcendental Reality",
+    "simple_basis_source": {
+      "field": "commentary",
+      "scope": "opening",
+      "normalized_character_offset": 0
+    }
+  },
+  "current_reader_name": {
+    "number": 11,
+    "citation_iast": "paramātmā",
+    "surface_iast": "paramātmā",
+    "line_index": 0,
+    "boundary_aid_surface": "paramātmā",
+    "deva_surface": "परमात्मा",
+    "morph": "A nominal epithet or nominal expression applied to Viṣṇu in the stanza.",
+    "analysis_status": "primary-text-reviewed",
+    "cite": "cite://chinmayananda/thousand-ways-to-the-transcendental/name/11",
+    "deva": "परमात्मा",
+    "word_analysis": {
+      "number": 11,
+      "citation_iast": "paramātmā",
+      "citation_devanagari": "परमात्मा",
+      "whole_gloss": "The Supreme, meaning that which transcends all limitations and imperfections of matter: in short, the Transcendental Reality",
+      "parts": [
+        {
+          "form_iast": "parama",
+          "gloss": "highest; supreme",
+          "kind": "member"
+        },
+        {
+          "form_iast": "ātman",
+          "gloss": "self",
+          "kind": "member"
+        },
+        {
+          "form_iast": "su",
+          "gloss": "nominative singular masculine",
+          "kind": "ending"
+        }
+      ],
+      "stem": "paramātman",
+      "root": null,
+      "affix": "su (prathamā ekavacana)",
+      "morph": "nominative singular masculine",
+      "compound": null,
+      "sandhi": "No surface change beyond word-boundary punctuation.",
+      "derivation": null,
+      "grammar": "The name is used as a nominative singular expression; its head is paramātma.",
+      "source_basis": "received text + Chinmayananda + Prakriya Sanskrit source library",
+      "status": "primary-text-reviewed",
+      "uncertainty": [],
+      "evidence": {
+        "chinmayananda_scan_pages": [
+          23,
+          24
+        ],
+        "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+        "source_manifest_sha256": "eee109f142191c3d6b5bfbec49c5884efc015aec023d34c4ba18f3ffc57505fb",
+        "witnesses": [
+          "sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+          "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+          "sources/primary/panini/ganapatha/ganapatha_upstream.txt",
+          "sources/primary/panini/kashika/kashika_upstream.txt",
+          "sources/primary/panini/mahabhashya/mahabhashya_gretil.txt"
+        ],
+        "dhatupatha": null,
+        "review_method": "direct source-text audit of the existing card; interpreter not used"
+      },
+      "parallel_derivations": []
+    },
+    "citation_iast_ocr": "Parama-atmaa",
+    "deva_ocr": "परमात्मा",
+    "meaning": "The supreme self beyond all material limitations",
+    "meaning_status": "site-generated-summary-derived-from-chinmayananda",
+    "meaning_source": {
+      "basis": "chinmayananda-full-commentary",
+      "editorial_operation": "site-authored concise summary",
+      "attribution": "site-generated Simplified layer; not credited as Chinmayananda's translation or quotation"
+    },
+    "chinmayananda": {
+      "opening_excerpt": "The Supreme, meaning that which transcends all limitations and imperfections of matter: in short, the Transcendental Reality",
+      "commentary": "The Supreme, meaning that which transcends all limitations and imperfections of matter: in short, the Transcendental Reality. The Spirit is other than matter, and that in its presence, the vestures of matter, borrowing their dynamism from Him, play their parts rhythmically at all times. This has been the assertion found chorusly repeated in all the Upaniṣads and in the entire Vedantic literature. Śaṅkara in ātma Bodha points out that the Self is other than the three bodies and that He functions in the microcosm as a king in the nation. It was also said therein that matter borrows its energy from the Spirit and continues its activity \"as the world from the Sun\". Kaṭhopaniṣad and the Gītā guide us from the outer levels of our personality, stage by stage, into the inner-most sanctum, and there, the teachers declare, is He the Infinite, transcending all, reigning in His own glory. \"In short, that which remains other than the cause and effect-māyā and matter-is He, the Parama ātman. In Viṣṇu Purāṇa this Supreme is glorified as Maha Viṣṇu (paramātmā)\"—Viṣṇu Purāṇa 6.4.10.\n\nDehendriya-mano-buddhi-prakṛtibhyo vilakṣaṇam.\n\nTat-vṛtti-sākṣiṇam vidyād ātmānaṃ rājavat sadā.\n\nAs the world from the Sun (sūryālokamayā janāḥ). — Ātma Bodha 20.\n\nइन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः । मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ॥ — Gītā 3.42.\n\nपरमात्मा च सर्वेषामाधारः परमेश्वरः । विष्णुर्नाम सर्ववेदेषु वेदान्तेषु च गीयते ॥ — Viṣṇu Purāṇa 6.4.10.",
+      "detail": "The Spirit is other than matter, and that in its presence, the vestures of matter, borrowing their dynamism from Him, play their parts rhythmically at all times. This has been the assertion found chorusly repeated in all the Upaniṣads and in the entire Vedantic literature. Śaṅkara in ātma Bodha points out that the Self is other than the three bodies and that He functions in the microcosm as a king in the nation. It was also said therein that matter borrows its energy from the Spirit and continues its activity \"as the world from the Sun\". Kaṭhopaniṣad and the Gītā guide us from the outer levels of our personality, stage by stage, into the inner-most sanctum, and there, the teachers declare, is He the Infinite, transcending all, reigning in His own glory. \"In short, that which remains other than the cause and effect-māyā and matter-is He, the Parama ātman. In Viṣṇu Purāṇa this Supreme is glorified as Maha Viṣṇu (paramātmā)\"—Viṣṇu Purāṇa 6.4.10.\n\nDehendriya-mano-buddhi-prakṛtibhyo vilakṣaṇam.\n\nTat-vṛtti-sākṣiṇam vidyād ātmānaṃ rājavat sadā.\n\nAs the world from the Sun (sūryālokamayā janāḥ). — Ātma Bodha 20.\n\nइन्द्रियाणि पराण्याहुरिन्द्रियेभ्यः परं मनः । मनसस्तु परा बुद्धिर्यो बुद्धेः परतस्तु सः ॥ — Gītā 3.42.\n\nपरमात्मा च सर्वेषामाधारः परमेश्वरः । विष्णुर्नाम सर्ववेदेषु वेदान्तेषु च गीयते ॥ — Viṣṇu Purāṇa 6.4.10.",
+      "scan_pages": [
+        23,
+        24
+      ],
+      "verification_status": "ocr-structured",
+      "ocr_notes": [],
+      "blocks": [
+        {
+          "type": "prose",
+          "source_paragraph_index": 0,
+          "text": "The Supreme, meaning that which transcends all limitations and imperfections of matter: in short, the Transcendental Reality. The Spirit is other than matter, and that in its presence, the vestures of matter, borrowing their dynamism from Him, play their parts rhythmically at all times. This has been the assertion found chorusly repeated in all the Upaniṣads and in the entire Vedantic literature. Śaṅkara in ātma Bodha points out that the Self is other than the three bodies and that He functions in the microcosm as a king in the nation.",
+          "inline_sanskrit": [
+            {
+              "id": "name-11-paragraph-0-iast-55",
+              "unit_key": "upaniṣads",
+              "text": "Upaniṣads",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "Upaniṣads",
+                  "deva": "उपनिषद्स्",
+                  "gloss": "Upaniṣads",
+                  "parts": [
+                    {
+                      "form": "Upaniṣads",
+                      "gloss": "Upaniṣads"
+                    }
+                  ],
+                  "stem": "Upaniṣads",
+                  "affix": "citation ending",
+                  "morph": "work/title citation form",
+                  "analysis_mode": "title_or_work_reference"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Upaniṣads",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 351,
+              "end": 360
+            },
+            {
+              "id": "name-11-paragraph-0-iast-62",
+              "unit_key": "śaṅkara",
+              "text": "Śaṅkara",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "Śaṅkara",
+                  "deva": "शङ्कर",
+                  "gloss": "Śaṅkara",
+                  "parts": [
+                    {
+                      "form": "Śaṅkara",
+                      "gloss": "Śaṅkara"
+                    }
+                  ],
+                  "stem": "Śaṅkara",
+                  "affix": "citation-form nominal stem",
+                  "morph": "inline lexical/citation form",
+                  "analysis_mode": "inflected_lexeme"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Śaṅkara",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 400,
+              "end": 407
+            },
+            {
+              "id": "name-11-paragraph-0-iast-64",
+              "unit_key": "ātma",
+              "text": "ātma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 2,
+                  "iast": "ātma",
+                  "deva": "आत्म",
+                  "gloss": "ātman",
+                  "parts": [
+                    {
+                      "form": "ātman",
+                      "gloss": "self"
+                    }
+                  ],
+                  "stem": "ātman",
+                  "affix": "compound member; the final member carries the compound's inflection",
+                  "morph": "compound (compound member)",
+                  "analysis_mode": "compound_analysis"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "ātma",
+                  "word_indices": [
+                    2
+                  ]
+                }
+              ],
+              "start": 411,
+              "end": 415
+            }
+          ],
+          "footnote_calls": [
+            {
+              "id": "cm-vs-fn-p023-n01",
+              "marker": "*"
+            },
+            {
+              "id": "cm-vs-fn-p023-n02",
+              "marker": "**"
+            }
+          ],
+          "content_class": "prose_sanskrit_term",
+          "render_mode": "prose",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "term_only",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "inline_mention",
+          "evidence_shape": "none",
+          "interaction_mode": "inline_token",
+          "translation_surface": "inline_only"
+        },
+        {
+          "type": "footnote",
+          "id": "cm-vs-fn-p023-n01",
+          "marker": "*",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "blocks": [
+            {
+              "type": "prose",
+              "text": "Dehendriya-mano-buddhi-prakṛtibhyo vilakṣaṇam.",
+              "source_paragraph_index": 1,
+              "inline_sanskrit": [
+                {
+                  "id": "name-11-paragraph-1-iast-0",
+                  "unit_key": "dehendriyamanobuddhiprakṛtibhyo",
+                  "text": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                      "deva": "देहेन्द्रिय-मनो-बुद्धि-प्रकृतिभ्यो",
+                      "gloss": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                      "parts": [
+                        {
+                          "form": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                          "gloss": "Dehendriya-mano-buddhi-prakṛtibhyo"
+                        }
+                      ],
+                      "stem": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                      "affix": "surface form as cited",
+                      "morph": "quoted lexical form",
+                      "analysis_mode": "inflected_lexeme"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                      "word_indices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "start": 0,
+                  "end": 34
+                },
+                {
+                  "id": "name-11-paragraph-1-iast-1",
+                  "unit_key": "vilakṣaṇam",
+                  "text": "vilakṣaṇam",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "vilakṣaṇam",
+                      "deva": "विलक्षणम्",
+                      "gloss": "distinct; different",
+                      "parts": [
+                        {
+                          "form": "vi",
+                          "gloss": "distinct"
+                        },
+                        {
+                          "form": "lakṣaṇa",
+                          "gloss": "mark; characteristic"
+                        }
+                      ],
+                      "stem": "vilakṣaṇa",
+                      "affix": "surface form",
+                      "morph": "singular neuter adjective",
+                      "analysis_mode": "root_not_asserted"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "vilakṣaṇam",
+                      "word_indices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "start": 35,
+                  "end": 45
+                }
+              ],
+              "content_class": "partial_cited_fragment",
+              "render_mode": "display_fragment",
+              "source_authority": "site_normalized_fragment",
+              "citation_completeness": "fragment",
+              "promotion_eligible": false,
+              "literal_translation_source": "site_literal",
+              "display_devanagari": "देहेन्द्रिय-मनो-बुद्धि-प्रकृतिभ्यो विलक्षणम्",
+              "display_words": [
+                {
+                  "i": 0,
+                  "iast": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                  "deva": "देहेन्द्रिय-मनो-बुद्धि-प्रकृतिभ्यो",
+                  "gloss": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                  "parts": [
+                    {
+                      "form": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                      "gloss": "Dehendriya-mano-buddhi-prakṛtibhyo"
+                    }
+                  ],
+                  "stem": "Dehendriya-mano-buddhi-prakṛtibhyo",
+                  "affix": "surface form as cited",
+                  "morph": "quoted lexical form",
+                  "analysis_mode": "inflected_lexeme"
+                },
+                {
+                  "i": 1,
+                  "iast": "vilakṣaṇam",
+                  "deva": "विलक्षणम्",
+                  "gloss": "distinct; different",
+                  "parts": [
+                    {
+                      "form": "vi",
+                      "gloss": "distinct"
+                    },
+                    {
+                      "form": "lakṣaṇa",
+                      "gloss": "mark; characteristic"
+                    }
+                  ],
+                  "stem": "vilakṣaṇa",
+                  "affix": "surface form",
+                  "morph": "singular neuter adjective",
+                  "analysis_mode": "root_not_asserted"
+                }
+              ],
+              "display_source_segments": [
+                {
+                  "text": "देहेन्द्रिय-मनो-बुद्धि-प्रकृतिभ्यो",
+                  "word_indices": [
+                    0
+                  ]
+                },
+                {
+                  "text": " ",
+                  "word_indices": []
+                },
+                {
+                  "text": "विलक्षणम्",
+                  "word_indices": [
+                    1
+                  ]
+                }
+              ],
+              "display_before": "",
+              "display_after": "",
+              "display_citation": "",
+              "display_policy": "normalized-devanagari-from-reviewed-word-records",
+              "site_literal": {
+                "english_slots": "{0:Dehendriya-mano-buddhi-prakṛtibhyo} {1:distinct; different}",
+                "note": "Word-for-word rendering — site",
+                "text": "Dehendriya-mano-buddhi-prakṛtibhyo distinct; different"
+              },
+              "evidence_role": "claim_evidence",
+              "evidence_shape": "fragment_quote",
+              "interaction_mode": "evidence_block",
+              "translation_surface": "visible_literal_line"
+            }
+          ],
+          "additional_name_numbers": [],
+          "content_class": "printed_footnote_prose",
+          "render_mode": "footnote_note",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "derivational",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "note_prose",
+          "evidence_shape": "none",
+          "interaction_mode": "prose_note",
+          "translation_surface": "none"
+        },
+        {
+          "type": "footnote",
+          "id": "cm-vs-fn-p023-n02",
+          "marker": "**",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "blocks": [
+            {
+              "type": "prose",
+              "text": "Tat-vṛtti-sākṣiṇam vidyād ātmānaṃ rājavat sadā.",
+              "source_paragraph_index": 2,
+              "inline_sanskrit": [
+                {
+                  "id": "name-11-paragraph-2-iast-0",
+                  "unit_key": "tatvṛttisākṣiṇam",
+                  "text": "Tat-vṛtti-sākṣiṇam",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "Tat-vṛtti-sākṣiṇam",
+                      "deva": "तत्-वृत्ति-साक्षिणम्",
+                      "gloss": "witness of that modification",
+                      "parts": [
+                        {
+                          "form": "Tat-vṛtti-sākṣiṇ",
+                          "gloss": "witness of that modification"
+                        }
+                      ],
+                      "stem": "Tat-vṛtti-sākṣiṇ",
+                      "affix": "am (dvitīyā/prathamā ekavacana)",
+                      "morph": "neuter singular form",
+                      "analysis_mode": "root_not_asserted"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "Tat-vṛtti-sākṣiṇam",
+                      "word_indices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "start": 0,
+                  "end": 18
+                },
+                {
+                  "id": "name-11-paragraph-2-iast-1",
+                  "unit_key": "vidyād",
+                  "text": "vidyād",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "vidyād",
+                      "deva": "विद्यात्",
+                      "gloss": "one should know",
+                      "parts": [
+                        {
+                          "form": "√vid",
+                          "gloss": "know"
+                        },
+                        {
+                          "form": "liṅ",
+                          "gloss": "optative"
+                        }
+                      ],
+                      "stem": "vid",
+                      "affix": "liṅ 3rd singular as cited",
+                      "morph": "optative 3rd person singular verb",
+                      "root": "√vid",
+                      "rootGloss": "to know",
+                      "note": "adādi (2); parasmaipada · Dhātupāṭha 02.0059: ज्ञाने",
+                      "analysis_mode": "rooted_derivation"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "vidyād",
+                      "word_indices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "start": 19,
+                  "end": 25
+                },
+                {
+                  "id": "name-11-paragraph-2-iast-2",
+                  "unit_key": "ātmānaṃ",
+                  "text": "ātmānaṃ",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "ātmānaṃ",
+                      "deva": "आत्मानं",
+                      "gloss": "self (accusative)",
+                      "parts": [
+                        {
+                          "form": "ātmānaṃ",
+                          "gloss": "self (accusative)"
+                        }
+                      ],
+                      "stem": "ātmān",
+                      "affix": "am (dvitīyā/prathamā ekavacana)",
+                      "morph": "lexical citation form",
+                      "analysis_mode": "inflected_lexeme"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "ātmānaṃ",
+                      "word_indices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "start": 26,
+                  "end": 33
+                },
+                {
+                  "id": "name-11-paragraph-2-iast-3",
+                  "unit_key": "rājavat",
+                  "text": "rājavat",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "rājavat",
+                      "deva": "राजवत्",
+                      "gloss": "like a king",
+                      "parts": [
+                        {
+                          "form": "rājavat",
+                          "gloss": "like a king"
+                        }
+                      ],
+                      "stem": "rājavat",
+                      "affix": "citation ending",
+                      "morph": "lexical sanskrit citation form",
+                      "analysis_mode": "inflected_lexeme"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "rājavat",
+                      "word_indices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "start": 34,
+                  "end": 41
+                },
+                {
+                  "id": "name-11-paragraph-2-iast-4",
+                  "unit_key": "sadā",
+                  "text": "sadā",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 1,
+                      "iast": "sadā",
+                      "deva": "सदा",
+                      "gloss": "always",
+                      "parts": [
+                        {
+                          "form": "sadā",
+                          "gloss": "always"
+                        }
+                      ],
+                      "stem": "sadā",
+                      "affix": "avyaya",
+                      "morph": "indeclinable",
+                      "analysis_mode": "indeclinable"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "sadā",
+                      "word_indices": [
+                        1
+                      ]
+                    }
+                  ],
+                  "start": 42,
+                  "end": 46
+                }
+              ],
+              "content_class": "partial_cited_fragment",
+              "render_mode": "display_fragment",
+              "source_authority": "site_normalized_fragment",
+              "citation_completeness": "fragment",
+              "promotion_eligible": false,
+              "literal_translation_source": "site_literal",
+              "display_devanagari": "तत्-वृत्ति-साक्षिणम् विद्याद् आत्मानं राजवत् सदा",
+              "display_words": [
+                {
+                  "i": 0,
+                  "iast": "Tat-vṛtti-sākṣiṇam",
+                  "deva": "तत्-वृत्ति-साक्षिणम्",
+                  "gloss": "witness of that modification",
+                  "parts": [
+                    {
+                      "form": "Tat-vṛtti-sākṣiṇ",
+                      "gloss": "witness of that modification"
+                    }
+                  ],
+                  "stem": "Tat-vṛtti-sākṣiṇ",
+                  "affix": "am (dvitīyā/prathamā ekavacana)",
+                  "morph": "neuter singular form",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 1,
+                  "iast": "vidyād",
+                  "deva": "विद्यात्",
+                  "gloss": "one should know",
+                  "parts": [
+                    {
+                      "form": "√vid",
+                      "gloss": "know"
+                    },
+                    {
+                      "form": "liṅ",
+                      "gloss": "optative"
+                    }
+                  ],
+                  "stem": "vid",
+                  "affix": "liṅ 3rd singular as cited",
+                  "morph": "optative 3rd person singular verb",
+                  "root": "√vid",
+                  "rootGloss": "to know",
+                  "note": "adādi (2); parasmaipada · Dhātupāṭha 02.0059: ज्ञाने",
+                  "analysis_mode": "rooted_derivation"
+                },
+                {
+                  "i": 2,
+                  "iast": "ātmānaṃ",
+                  "deva": "आत्मानं",
+                  "gloss": "self (accusative)",
+                  "parts": [
+                    {
+                      "form": "ātmānaṃ",
+                      "gloss": "self (accusative)"
+                    }
+                  ],
+                  "stem": "ātmān",
+                  "affix": "am (dvitīyā/prathamā ekavacana)",
+                  "morph": "lexical citation form",
+                  "analysis_mode": "inflected_lexeme"
+                },
+                {
+                  "i": 3,
+                  "iast": "rājavat",
+                  "deva": "राजवत्",
+                  "gloss": "like a king",
+                  "parts": [
+                    {
+                      "form": "rājavat",
+                      "gloss": "like a king"
+                    }
+                  ],
+                  "stem": "rājavat",
+                  "affix": "citation ending",
+                  "morph": "lexical sanskrit citation form",
+                  "analysis_mode": "inflected_lexeme"
+                },
+                {
+                  "i": 4,
+                  "iast": "sadā",
+                  "deva": "सदा",
+                  "gloss": "always",
+                  "parts": [
+                    {
+                      "form": "sadā",
+                      "gloss": "always"
+                    }
+                  ],
+                  "stem": "sadā",
+                  "affix": "avyaya",
+                  "morph": "indeclinable",
+                  "analysis_mode": "indeclinable"
+                }
+              ],
+              "display_source_segments": [
+                {
+                  "text": "तत्-वृत्ति-साक्षिणम्",
+                  "word_indices": [
+                    0
+                  ]
+                },
+                {
+                  "text": " ",
+                  "word_indices": []
+                },
+                {
+                  "text": "विद्याद्",
+                  "word_indices": [
+                    1
+                  ]
+                },
+                {
+                  "text": " ",
+                  "word_indices": []
+                },
+                {
+                  "text": "आत्मानं",
+                  "word_indices": [
+                    2
+                  ]
+                },
+                {
+                  "text": " ",
+                  "word_indices": []
+                },
+                {
+                  "text": "राजवत्",
+                  "word_indices": [
+                    3
+                  ]
+                },
+                {
+                  "text": " ",
+                  "word_indices": []
+                },
+                {
+                  "text": "सदा",
+                  "word_indices": [
+                    4
+                  ]
+                }
+              ],
+              "display_before": "",
+              "display_after": "",
+              "display_citation": "",
+              "display_policy": "normalized-devanagari-from-reviewed-word-records",
+              "site_literal": {
+                "english_slots": "{0:witness of that modification} {1:one should know} {2:self (accusative)} {3:like a king} {4:always}",
+                "note": "Word-for-word rendering — site",
+                "text": "witness of that modification one should know self (accusative) like a king always"
+              },
+              "evidence_role": "claim_evidence",
+              "evidence_shape": "fragment_quote",
+              "interaction_mode": "evidence_block",
+              "translation_surface": "visible_literal_line"
+            }
+          ],
+          "additional_name_numbers": [],
+          "content_class": "printed_footnote_prose",
+          "render_mode": "footnote_note",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "derivational",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "note_prose",
+          "evidence_shape": "none",
+          "interaction_mode": "prose_note",
+          "translation_surface": "none"
+        },
+        {
+          "type": "prose",
+          "source_paragraph_index": 0,
+          "text": "It was also said therein that matter borrows its energy from the Spirit and continues its activity \"as the world from the Sun\".",
+          "footnote_calls": [
+            {
+              "id": "cm-vs-fn-p023-n03",
+              "marker": "***"
+            }
+          ],
+          "content_class": "prose_sanskrit_term",
+          "render_mode": "prose",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "term_only",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "inline_mention",
+          "evidence_shape": "none",
+          "interaction_mode": "inline_token",
+          "translation_surface": "none"
+        },
+        {
+          "type": "footnote",
+          "id": "cm-vs-fn-p023-n03",
+          "marker": "***",
+          "pdf_page": 23,
+          "printed_page": 19,
+          "blocks": [
+            {
+              "type": "prose",
+              "text": "As the world from the Sun (sūryālokamayā janāḥ). — Ātma Bodha 20.",
+              "source_paragraph_index": 3,
+              "inline_sanskrit": [
+                {
+                  "id": "name-11-paragraph-3-iast-6",
+                  "unit_key": "sūryālokamayā",
+                  "text": "sūryālokamayā",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "sūryālokamayā",
+                      "deva": "सूर्यालोकमया",
+                      "gloss": "made of sunlight",
+                      "parts": [
+                        {
+                          "form": "sūryālokamayā",
+                          "gloss": "made of sunlight"
+                        }
+                      ],
+                      "stem": "sūryālokamayā",
+                      "affix": "ā-stem ending",
+                      "morph": "feminine singular form",
+                      "analysis_mode": "root_not_asserted"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "sūryālokamayā",
+                      "word_indices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "start": 27,
+                  "end": 40
+                },
+                {
+                  "id": "name-11-paragraph-3-iast-7",
+                  "unit_key": "janāḥ",
+                  "text": "janāḥ",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "janāḥ",
+                      "deva": "janāḥ",
+                      "gloss": "people",
+                      "parts": [
+                        {
+                          "form": "janāḥ",
+                          "gloss": "people"
+                        }
+                      ],
+                      "stem": "janāḥ",
+                      "affix": "citation-form nominal ending",
+                      "morph": "nominal citation/inflected form",
+                      "analysis_mode": "inflected_lexeme"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "janāḥ",
+                      "word_indices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "start": 41,
+                  "end": 46
+                }
+              ],
+              "content_class": "printed_footnote_prose",
+              "render_mode": "footnote_note",
+              "source_authority": "chinmayananda_prose",
+              "citation_completeness": "term_only",
+              "promotion_eligible": false,
+              "literal_translation_source": "none",
+              "evidence_role": "note_prose",
+              "evidence_shape": "none",
+              "interaction_mode": "inline_token",
+              "translation_surface": "inline_only"
+            }
+          ],
+          "additional_name_numbers": [],
+          "content_class": "printed_footnote_prose",
+          "render_mode": "footnote_note",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "derivational",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "note_prose",
+          "evidence_shape": "none",
+          "interaction_mode": "prose_note",
+          "translation_surface": "none"
+        },
+        {
+          "type": "prose",
+          "source_paragraph_index": 0,
+          "text": "Kaṭhopaniṣad and the Gītā guide us from the outer levels of our personality, stage by stage, into the inner-most sanctum, and there, the teachers declare, is He the Infinite, transcending all, reigning in His own glory.",
+          "inline_sanskrit": [
+            {
+              "id": "name-11-paragraph-0-iast-113",
+              "unit_key": "kaṭhopaniṣad",
+              "text": "Kaṭhopaniṣad",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "Kaṭhopaniṣad",
+                  "deva": "Kaṭhopaniṣad",
+                  "gloss": "Kaṭha Upaniṣad",
+                  "parts": [
+                    {
+                      "form": "Kaṭha",
+                      "gloss": "Kaṭha tradition"
+                    },
+                    {
+                      "form": "upaniṣad",
+                      "gloss": "Upaniṣad"
+                    }
+                  ],
+                  "stem": "Kaṭha-upaniṣad",
+                  "affix": "title compound",
+                  "morph": "work title",
+                  "analysis_mode": "compound_analysis"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Kaṭhopaniṣad",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 0,
+              "end": 12
+            },
+            {
+              "id": "name-11-paragraph-0-iast-116",
+              "unit_key": "gītā",
+              "text": "Gītā",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "Gītā",
+                  "deva": "गीता",
+                  "gloss": "Gītā",
+                  "parts": [
+                    {
+                      "form": "Gītā",
+                      "gloss": "Gītā"
+                    }
+                  ],
+                  "stem": "Gītā",
+                  "affix": "surface form as cited",
+                  "morph": "quoted lexical form",
+                  "analysis_mode": "inflected_lexeme"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Gītā",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 21,
+              "end": 25
+            }
+          ],
+          "footnote_calls": [
+            {
+              "id": "cm-vs-fn-p024-n01",
+              "marker": "*"
+            }
+          ],
+          "content_class": "prose_sanskrit_term",
+          "render_mode": "prose",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "term_only",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "inline_mention",
+          "evidence_shape": "none",
+          "interaction_mode": "inline_token",
+          "translation_surface": "inline_only"
+        },
+        {
+          "type": "footnote",
+          "id": "cm-vs-fn-p024-n01",
+          "marker": "*",
+          "pdf_page": 24,
+          "printed_page": 20,
+          "blocks": [
+            {
+              "type": "gita-quote",
+              "id": "name-11-paragraph-4-span-0",
+              "content_class": "complete_quote",
+              "render_mode": "footnote_quote",
+              "source_authority": "independently_verified_primary",
+              "citation_completeness": "complete",
+              "promotion_eligible": true,
+              "literal_translation_source": "site_literal",
+              "source_paragraph_index": 4,
+              "placement_basis": "printed-source-position",
+              "devanagari": "इन्द्रियाणि पराण्य् आहुर् इन्द्रियेभ्यः परं मनः मनसस् तु परा बुद्धिर् यो बुद्धेः परतस् तु सः",
+              "iast": "indriyāṇi parāṇy āhur indriyebhyaḥ paraṃ manaḥ manasas tu parā buddhir yo buddheḥ paratas tu saḥ",
+              "english": "They say the senses are superior; the mind is superior to the senses; but the intellect is superior to the mind; and that is beyond the intellect",
+              "english_slots": "{2:They say} {0,1:the senses are superior}; {4,5:the mind is superior} {3:to the senses}; {7:but} {8,9:the intellect is superior} {6:to the mind}; {13:and} {10,14:that} {12:is beyond} {11:the intellect}",
+              "english_source": "site-literal-translation",
+              "source_segments": [
+                {
+                  "text": "इन्द्रियाणि ",
+                  "word_indices": [
+                    0
+                  ]
+                },
+                {
+                  "text": "पराण्य् ",
+                  "word_indices": [
+                    1
+                  ]
+                },
+                {
+                  "text": "आहुर् ",
+                  "word_indices": [
+                    2
+                  ]
+                },
+                {
+                  "text": "इन्द्रियेभ्यः ",
+                  "word_indices": [
+                    3
+                  ]
+                },
+                {
+                  "text": "परं ",
+                  "word_indices": [
+                    4
+                  ]
+                },
+                {
+                  "text": "मनः ",
+                  "word_indices": [
+                    5
+                  ]
+                },
+                {
+                  "text": "मनसस् ",
+                  "word_indices": [
+                    6
+                  ]
+                },
+                {
+                  "text": "तु ",
+                  "word_indices": [
+                    7
+                  ]
+                },
+                {
+                  "text": "परा ",
+                  "word_indices": [
+                    8
+                  ]
+                },
+                {
+                  "text": "बुद्धिर् ",
+                  "word_indices": [
+                    9
+                  ]
+                },
+                {
+                  "text": "यो ",
+                  "word_indices": [
+                    10
+                  ]
+                },
+                {
+                  "text": "बुद्धेः ",
+                  "word_indices": [
+                    11
+                  ]
+                },
+                {
+                  "text": "परतस् ",
+                  "word_indices": [
+                    12
+                  ]
+                },
+                {
+                  "text": "तु ",
+                  "word_indices": [
+                    13
+                  ]
+                },
+                {
+                  "text": "सः",
+                  "word_indices": [
+                    14
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "indriyāṇi",
+                  "deva": "इन्द्रियाणि",
+                  "gloss": "the senses",
+                  "parts": [
+                    {
+                      "form": "indriya",
+                      "gloss": "the senses"
+                    },
+                    {
+                      "form": "śas",
+                      "gloss": "śas (dvitīyā bahuvacana)"
+                    }
+                  ],
+                  "stem": "indriya",
+                  "affix": "śas (dvitīyā bahuvacana)",
+                  "morph": "accusative neuter plural noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 1,
+                  "iast": "parāṇi",
+                  "deva": "पराणि",
+                  "gloss": "superior",
+                  "parts": [
+                    {
+                      "form": "para",
+                      "gloss": "superior"
+                    },
+                    {
+                      "form": "śas",
+                      "gloss": "śas (dvitīyā bahuvacana)"
+                    }
+                  ],
+                  "stem": "para",
+                  "affix": "śas (dvitīyā bahuvacana)",
+                  "morph": "accusative neuter plural noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 2,
+                  "iast": "āhuḥ",
+                  "deva": "आहुः",
+                  "gloss": "(they) say",
+                  "parts": [
+                    {
+                      "form": "√ah",
+                      "gloss": "(they) say"
+                    },
+                    {
+                      "form": "liṭ,",
+                      "gloss": "liṭ, prathamapuruṣa bahuvacana"
+                    }
+                  ],
+                  "stem": "√ah",
+                  "affix": "liṭ, prathamapuruṣa bahuvacana",
+                  "morph": "perfect indicative third-person plural verb",
+                  "root": "√ah",
+                  "rootGloss": "to say",
+                  "note": "gaṇa 5; parasmaipada · Dhātupāṭha 05.0029: व्याप्तौ",
+                  "analysis_mode": "rooted_derivation"
+                },
+                {
+                  "i": 3,
+                  "iast": "indriyebhyaḥ",
+                  "deva": "इन्द्रियेभ्यः",
+                  "gloss": "than the senses",
+                  "parts": [
+                    {
+                      "form": "indriya",
+                      "gloss": "than the senses"
+                    },
+                    {
+                      "form": "bhyas",
+                      "gloss": "bhyas (pañcamī bahuvacana)"
+                    }
+                  ],
+                  "stem": "indriya",
+                  "affix": "bhyas (pañcamī bahuvacana)",
+                  "morph": "ablative neuter plural noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 4,
+                  "iast": "param",
+                  "deva": "परम्",
+                  "gloss": "superior",
+                  "parts": [
+                    {
+                      "form": "para",
+                      "gloss": "superior"
+                    },
+                    {
+                      "form": "su",
+                      "gloss": "su (prathamā ekavacana)"
+                    }
+                  ],
+                  "stem": "para",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative neuter singular noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 5,
+                  "iast": "manaḥ",
+                  "deva": "मनः",
+                  "gloss": "the mind",
+                  "parts": [
+                    {
+                      "form": "manas",
+                      "gloss": "the mind"
+                    },
+                    {
+                      "form": "su",
+                      "gloss": "su (prathamā ekavacana)"
+                    }
+                  ],
+                  "stem": "manas",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative neuter singular noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 6,
+                  "iast": "manasaḥ",
+                  "deva": "मनसः",
+                  "gloss": "than the mind",
+                  "parts": [
+                    {
+                      "form": "manas",
+                      "gloss": "than the mind"
+                    },
+                    {
+                      "form": "ṅasi",
+                      "gloss": "ṅasi (pañcamī ekavacana)"
+                    }
+                  ],
+                  "stem": "manas",
+                  "affix": "ṅasi (pañcamī ekavacana)",
+                  "morph": "ablative neuter singular noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 7,
+                  "iast": "tu",
+                  "deva": "तु",
+                  "gloss": "but",
+                  "parts": [
+                    {
+                      "form": "tu",
+                      "gloss": "but"
+                    }
+                  ],
+                  "stem": "tu",
+                  "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+                  "morph": "indeclinable (avyaya)",
+                  "analysis_mode": "indeclinable"
+                },
+                {
+                  "i": 8,
+                  "iast": "parā",
+                  "deva": "परा",
+                  "gloss": "superior",
+                  "parts": [
+                    {
+                      "form": "para",
+                      "gloss": "superior"
+                    },
+                    {
+                      "form": "su",
+                      "gloss": "su (prathamā ekavacana)"
+                    }
+                  ],
+                  "stem": "para",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative feminine singular noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 9,
+                  "iast": "buddhiḥ",
+                  "deva": "बुद्धिः",
+                  "gloss": "intellect",
+                  "parts": [
+                    {
+                      "form": "buddhi",
+                      "gloss": "intellect"
+                    },
+                    {
+                      "form": "su",
+                      "gloss": "su (prathamā ekavacana)"
+                    }
+                  ],
+                  "stem": "buddhi",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative feminine singular noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 10,
+                  "iast": "yaḥ",
+                  "deva": "यः",
+                  "gloss": "who",
+                  "parts": [
+                    {
+                      "form": "yad",
+                      "gloss": "who"
+                    },
+                    {
+                      "form": "su",
+                      "gloss": "su (prathamā ekavacana)"
+                    }
+                  ],
+                  "stem": "yad",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative masculine singular noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 11,
+                  "iast": "buddheḥ",
+                  "deva": "बुद्धेः",
+                  "gloss": "than the intellect",
+                  "parts": [
+                    {
+                      "form": "buddhi",
+                      "gloss": "than the intellect"
+                    },
+                    {
+                      "form": "ṅasi",
+                      "gloss": "ṅasi (pañcamī ekavacana)"
+                    }
+                  ],
+                  "stem": "buddhi",
+                  "affix": "ṅasi (pañcamī ekavacana)",
+                  "morph": "ablative feminine singular noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 12,
+                  "iast": "paratas",
+                  "deva": "परतस्",
+                  "gloss": "beyond",
+                  "parts": [
+                    {
+                      "form": "paratas",
+                      "gloss": "beyond"
+                    }
+                  ],
+                  "stem": "paratas",
+                  "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+                  "morph": "indeclinable (avyaya)",
+                  "analysis_mode": "indeclinable"
+                },
+                {
+                  "i": 13,
+                  "iast": "tu",
+                  "deva": "तु",
+                  "gloss": "but",
+                  "parts": [
+                    {
+                      "form": "tu",
+                      "gloss": "but"
+                    }
+                  ],
+                  "stem": "tu",
+                  "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+                  "morph": "indeclinable (avyaya)",
+                  "analysis_mode": "indeclinable"
+                },
+                {
+                  "i": 14,
+                  "iast": "saḥ",
+                  "deva": "सः",
+                  "gloss": "He",
+                  "parts": [
+                    {
+                      "form": "tad",
+                      "gloss": "He"
+                    },
+                    {
+                      "form": "su",
+                      "gloss": "su (prathamā ekavacana)"
+                    }
+                  ],
+                  "stem": "tad",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative masculine singular noun",
+                  "analysis_mode": "root_not_asserted"
+                }
+              ],
+              "word_analysis_status": "primary-grammar-reviewed",
+              "printed_loci": [
+                "Gītā 3.42"
+              ],
+              "canonical_locus": "Gītā 3.42",
+              "textual_notes": [],
+              "evidence_role": "claim_evidence",
+              "evidence_shape": "complete_quote",
+              "interaction_mode": "evidence_block",
+              "translation_surface": "visible_literal_line"
+            }
+          ],
+          "additional_name_numbers": [],
+          "content_class": "printed_footnote_prose",
+          "render_mode": "footnote_note",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "derivational",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "note_prose",
+          "evidence_shape": "none",
+          "interaction_mode": "prose_note",
+          "translation_surface": "none"
+        },
+        {
+          "type": "prose",
+          "source_paragraph_index": 0,
+          "text": "\"In short, that which remains other than the cause and effect-māyā and matter-is He, the Parama ātman. In Viṣṇu Purāṇa this Supreme is glorified as Maha Viṣṇu (paramātmā)\"—Viṣṇu Purāṇa 6.4.10.",
+          "inline_sanskrit": [
+            {
+              "id": "name-11-paragraph-0-iast-159",
+              "unit_key": "māyā",
+              "text": "māyā",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "māyā",
+                  "deva": "माया",
+                  "gloss": "māyā; illusion-power",
+                  "parts": [
+                    {
+                      "form": "māyā",
+                      "gloss": "māyā; illusion-power"
+                    }
+                  ],
+                  "stem": "māyā",
+                  "affix": "citation-form nominal stem",
+                  "morph": "lexical feminine noun",
+                  "analysis_mode": "inflected_lexeme"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "māyā",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 62,
+              "end": 66
+            },
+            {
+              "id": "name-11-paragraph-0-ascii-0",
+              "unit_key": "ascii:name-11-paragraph-0-ascii-0",
+              "text": "Parama",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "parama",
+                  "deva": "परम",
+                  "gloss": "highest, supreme",
+                  "parts": [
+                    {
+                      "form": "parama",
+                      "gloss": "highest, supreme"
+                    }
+                  ],
+                  "stem": "parama",
+                  "affix": "none; Sanskrit citation stem",
+                  "morph": "Sanskrit lexical headword used as an English-prose borrowing/citation; no Sanskrit case ending asserted",
+                  "analysis_mode": "inflected_lexeme"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Parama",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 89,
+              "end": 95
+            },
+            {
+              "id": "name-11-paragraph-0-iast-165",
+              "unit_key": "ātman",
+              "text": "ātman",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "ātman",
+                  "deva": "आत्मन्",
+                  "gloss": "self",
+                  "parts": [
+                    {
+                      "form": "ātman",
+                      "gloss": "self"
+                    }
+                  ],
+                  "stem": "ātman",
+                  "affix": "citation form",
+                  "morph": "lexical citation form",
+                  "analysis_mode": "inflected_lexeme"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "ātman",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 96,
+              "end": 101
+            },
+            {
+              "id": "name-11-paragraph-0-iast-167",
+              "unit_key": "viṣṇu",
+              "text": "Viṣṇu",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "viṣṇu",
+                  "deva": "विष्णु",
+                  "gloss": "Viṣṇu",
+                  "parts": [
+                    {
+                      "form": "viṣṇu",
+                      "gloss": "Viṣṇu"
+                    }
+                  ],
+                  "stem": "viṣṇu",
+                  "affix": "proper-name stem",
+                  "morph": "proper name",
+                  "analysis_mode": "title_or_work_reference"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Viṣṇu",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 106,
+              "end": 111
+            },
+            {
+              "id": "name-11-paragraph-0-iast-168",
+              "unit_key": "purāṇa",
+              "text": "Purāṇa",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "Purāṇa",
+                  "deva": "पुराण",
+                  "gloss": "Purāṇa",
+                  "parts": [
+                    {
+                      "form": "Purāṇa",
+                      "gloss": "Purāṇa"
+                    }
+                  ],
+                  "stem": "Purāṇa",
+                  "affix": "citation ending",
+                  "morph": "work/title citation form",
+                  "analysis_mode": "title_or_work_reference"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Purāṇa",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 112,
+              "end": 118
+            },
+            {
+              "id": "name-11-paragraph-0-ascii-1",
+              "unit_key": "ascii:name-11-paragraph-0-ascii-1",
+              "text": "Maha",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "mahā",
+                  "deva": "महा",
+                  "gloss": "great",
+                  "parts": [
+                    {
+                      "form": "mahā",
+                      "gloss": "great"
+                    }
+                  ],
+                  "stem": "mahā",
+                  "affix": "none; Sanskrit citation stem",
+                  "morph": "Sanskrit lexical headword used as an English-prose borrowing/citation; no Sanskrit case ending asserted",
+                  "analysis_mode": "inflected_lexeme"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Maha",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 148,
+              "end": 152
+            },
+            {
+              "id": "name-11-paragraph-0-iast-175",
+              "unit_key": "viṣṇu",
+              "text": "Viṣṇu",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "viṣṇu",
+                  "deva": "विष्णु",
+                  "gloss": "Viṣṇu",
+                  "parts": [
+                    {
+                      "form": "viṣṇu",
+                      "gloss": "Viṣṇu"
+                    }
+                  ],
+                  "stem": "viṣṇu",
+                  "affix": "proper-name stem",
+                  "morph": "proper name",
+                  "analysis_mode": "title_or_work_reference"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Viṣṇu",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 153,
+              "end": 158
+            },
+            {
+              "id": "name-11-paragraph-0-iast-176",
+              "unit_key": "paramātmā",
+              "text": "paramātmā",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "paramātmā",
+                  "deva": "परमात्मा",
+                  "gloss": "The Supreme, meaning that which transcends all limitations and imperfections of matter: in short, the Transcendental Reality",
+                  "parts": [
+                    {
+                      "form": "parama",
+                      "gloss": "highest; supreme"
+                    },
+                    {
+                      "form": "ātman",
+                      "gloss": "self"
+                    },
+                    {
+                      "form": "su",
+                      "gloss": "nominative singular masculine"
+                    }
+                  ],
+                  "stem": "paramātman",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative singular masculine",
+                  "analysis_mode": "root_not_asserted"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "paramātmā",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 160,
+              "end": 169
+            },
+            {
+              "id": "name-11-paragraph-0-iast-177",
+              "unit_key": "viṣṇu",
+              "text": "Viṣṇu",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "viṣṇu",
+                  "deva": "विष्णु",
+                  "gloss": "Viṣṇu",
+                  "parts": [
+                    {
+                      "form": "viṣṇu",
+                      "gloss": "Viṣṇu"
+                    }
+                  ],
+                  "stem": "viṣṇu",
+                  "affix": "proper-name stem",
+                  "morph": "proper name",
+                  "analysis_mode": "title_or_work_reference"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Viṣṇu",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 172,
+              "end": 177
+            },
+            {
+              "id": "name-11-paragraph-0-iast-178",
+              "unit_key": "purāṇa",
+              "text": "Purāṇa",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "Purāṇa",
+                  "deva": "पुराण",
+                  "gloss": "Purāṇa",
+                  "parts": [
+                    {
+                      "form": "Purāṇa",
+                      "gloss": "Purāṇa"
+                    }
+                  ],
+                  "stem": "Purāṇa",
+                  "affix": "citation ending",
+                  "morph": "work/title citation form",
+                  "analysis_mode": "title_or_work_reference"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "Purāṇa",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 178,
+              "end": 184
+            }
+          ],
+          "footnote_calls": [
+            {
+              "id": "cm-vs-fn-p024-n02",
+              "marker": "**"
+            }
+          ],
+          "content_class": "prose_sanskrit_term",
+          "render_mode": "prose",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "term_only",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "inline_mention",
+          "evidence_shape": "none",
+          "interaction_mode": "inline_token",
+          "translation_surface": "inline_only"
+        },
+        {
+          "type": "footnote",
+          "id": "cm-vs-fn-p024-n02",
+          "marker": "**",
+          "pdf_page": 24,
+          "printed_page": 20,
+          "blocks": [
+            {
+              "type": "sanskrit-quote",
+              "id": "name-11-paragraph-5-span-0",
+              "content_class": "complete_quote",
+              "render_mode": "footnote_quote",
+              "source_authority": "chinmayananda_printed_quote",
+              "citation_completeness": "complete",
+              "promotion_eligible": true,
+              "literal_translation_source": "site_literal",
+              "devanagari": "परमात्मा च सर्वेषामाधारः परमेश्वरः विष्णुर्नाम सर्ववेदेषु वेदान्तेषु च गीयते",
+              "source_iast": "paramātmā ca sarveṣāmādhāraḥ parameśvaraḥ viṣṇurnāma sarvavedeṣu vedānteṣu ca gīyate",
+              "iast": "paramātmā ca sarveṣāmādhāraḥ parameśvaraḥ viṣṇurnāma sarvavedeṣu vedānteṣu ca gīyate",
+              "source_segments": [
+                {
+                  "text": "परमात्मा ",
+                  "word_indices": [
+                    0
+                  ]
+                },
+                {
+                  "text": "च ",
+                  "word_indices": [
+                    1
+                  ]
+                },
+                {
+                  "text": "सर्वेषामाधारः ",
+                  "word_indices": [
+                    2
+                  ]
+                },
+                {
+                  "text": "परमेश्वरः ",
+                  "word_indices": [
+                    3
+                  ]
+                },
+                {
+                  "text": "विष्णुर्नाम ",
+                  "word_indices": [
+                    4
+                  ]
+                },
+                {
+                  "text": "सर्ववेदेषु ",
+                  "word_indices": [
+                    5
+                  ]
+                },
+                {
+                  "text": "वेदान्तेषु ",
+                  "word_indices": [
+                    6
+                  ]
+                },
+                {
+                  "text": "च ",
+                  "word_indices": [
+                    7
+                  ]
+                },
+                {
+                  "text": "गीयते",
+                  "word_indices": [
+                    8
+                  ]
+                }
+              ],
+              "english": "And the supreme Self, the support of all, the supreme Lord, Viṣṇu by name, is sung in all the Vedas and in the Vedāntas",
+              "english_slots": "{1:And} {0:the supreme Self}, {2:the support of all}, {3:the supreme Lord}, {4:Viṣṇu by name}, {8:is sung} {5:in all the Vedas} {7:and} {6:in the Vedāntas}",
+              "english_source": "site-literal-translation",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "paramātmā",
+                  "deva": "परमात्मा",
+                  "gloss": "the supreme Self",
+                  "parts": [
+                    {
+                      "form": "parama",
+                      "gloss": "supreme"
+                    },
+                    {
+                      "form": "ātmā",
+                      "gloss": "self"
+                    }
+                  ],
+                  "stem": "paramātman",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative singular masculine noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 1,
+                  "iast": "ca",
+                  "deva": "च",
+                  "gloss": "and",
+                  "parts": [
+                    {
+                      "form": "ca",
+                      "gloss": "and"
+                    }
+                  ],
+                  "stem": "ca",
+                  "affix": "avyaya",
+                  "morph": "indeclinable particle",
+                  "analysis_mode": "indeclinable"
+                },
+                {
+                  "i": 2,
+                  "iast": "sarveṣāmādhāraḥ",
+                  "deva": "सर्वेषामाधारः",
+                  "gloss": "the support of all",
+                  "parts": [
+                    {
+                      "form": "sarveṣām",
+                      "gloss": "of all"
+                    },
+                    {
+                      "form": "ādhāraḥ",
+                      "gloss": "support; substratum"
+                    }
+                  ],
+                  "stem": "ādhāra",
+                  "affix": "ṅas (ṣaṣṭhī bahuvacana) + su (prathamā ekavacana)",
+                  "morph": "genitive plural dependent + nominative singular masculine head noun (external sandhi group)",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "gaṇa 1; ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                },
+                {
+                  "i": 3,
+                  "iast": "parameśvaraḥ",
+                  "deva": "परमेश्वरः",
+                  "gloss": "the supreme Lord",
+                  "parts": [
+                    {
+                      "form": "parama",
+                      "gloss": "supreme"
+                    },
+                    {
+                      "form": "īśvaraḥ",
+                      "gloss": "Lord"
+                    }
+                  ],
+                  "stem": "parameśvara",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative singular masculine noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 4,
+                  "iast": "viṣṇurnāma",
+                  "deva": "विष्णुर्नाम",
+                  "gloss": "Viṣṇu by name",
+                  "parts": [
+                    {
+                      "form": "viṣṇuḥ",
+                      "gloss": "Viṣṇu"
+                    },
+                    {
+                      "form": "nāma",
+                      "gloss": "by name; namely"
+                    }
+                  ],
+                  "stem": "viṣṇu",
+                  "affix": "ṇu (uṇādi) + su (prathamā ekavacana) + naming particle nāma",
+                  "morph": "nominative singular masculine noun plus indeclinable naming particle (external sandhi group)",
+                  "root": "√viś",
+                  "rootGloss": "to enter; pervade",
+                  "note": "tudādi (6); parasmaipada · Dhātupāṭha 06.0160: प्रवेशने",
+                  "analysis_mode": "rooted_derivation"
+                },
+                {
+                  "i": 5,
+                  "iast": "sarvavedeṣu",
+                  "deva": "सर्ववेदेषु",
+                  "gloss": "in all the Vedas",
+                  "parts": [
+                    {
+                      "form": "sarva",
+                      "gloss": "all"
+                    },
+                    {
+                      "form": "vedeṣu",
+                      "gloss": "in the Vedas"
+                    }
+                  ],
+                  "stem": "sarvaveda",
+                  "affix": "sup (saptamī bahuvacana)",
+                  "morph": "locative plural masculine compound noun",
+                  "analysis_mode": "compound_analysis"
+                },
+                {
+                  "i": 6,
+                  "iast": "vedānteṣu",
+                  "deva": "वेदान्तेषु",
+                  "gloss": "in the Vedāntas",
+                  "parts": [
+                    {
+                      "form": "vedānteṣu",
+                      "gloss": "in the Vedāntas"
+                    }
+                  ],
+                  "stem": "vedānta",
+                  "affix": "sup (saptamī bahuvacana)",
+                  "morph": "locative plural masculine noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 7,
+                  "iast": "ca",
+                  "deva": "च",
+                  "gloss": "and",
+                  "parts": [
+                    {
+                      "form": "ca",
+                      "gloss": "and"
+                    }
+                  ],
+                  "stem": "ca",
+                  "affix": "avyaya",
+                  "morph": "indeclinable particle",
+                  "analysis_mode": "indeclinable"
+                },
+                {
+                  "i": 8,
+                  "iast": "gīyate",
+                  "deva": "गीयते",
+                  "gloss": "is sung",
+                  "parts": [
+                    {
+                      "form": "gai",
+                      "gloss": "sing"
+                    },
+                    {
+                      "form": "laṭ",
+                      "gloss": "present passive 3rd singular"
+                    }
+                  ],
+                  "stem": "gai",
+                  "affix": "laṭ + ya + ta (karmani, prathamapuruṣa ekavacana)",
+                  "morph": "present passive 3rd person singular verb",
+                  "root": "√gai",
+                  "rootGloss": "to sing; sound",
+                  "note": "bhvādi (1); parasmaipada · Dhātupāṭha 01.1652: शब्दे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "word_analysis_status": "primary-grammar-reviewed",
+              "printed_loci": [
+                "Chinmayananda commentary witness with printed attribution to Viṣṇu Purāṇa 6.4.10"
+              ],
+              "canonical_locus": "Viṣṇu Purāṇa 6.4.10 (printed attribution in Chinmayananda; not independently re-collated here against a separate primary witness)",
+              "textual_notes": [
+                "The Chinmayananda scan is the direct witness for the line as printed in this shard.",
+                "No independent primary-scripture normalization is asserted here beyond the printed attribution."
+              ],
+              "source_paragraph_index": 5,
+              "evidence_role": "claim_evidence",
+              "evidence_shape": "complete_quote",
+              "interaction_mode": "evidence_block",
+              "translation_surface": "visible_literal_line"
+            }
+          ],
+          "additional_name_numbers": [],
+          "content_class": "printed_footnote_prose",
+          "render_mode": "footnote_note",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "derivational",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "note_prose",
+          "evidence_shape": "none",
+          "interaction_mode": "prose_note",
+          "translation_surface": "none"
+        }
+      ]
+    }
+  },
+  "review_units": [
+    {
+      "id": "unit-11-49a6d1151b5c",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/0/inline_sanskrit/0",
+      "content_sha256": "a7f8615fa5590699e974a81cbaaefc308ddfc8c23e5ae0ae8ef3a9f0a0326b1d",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-d6a39bca9b44",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/0/inline_sanskrit/1",
+      "content_sha256": "b317f1555cb9e96a0033fadc014f3e791ab822d53655a9ad53772221ba562c90",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-bd4a1bef72b4",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/0/inline_sanskrit/2",
+      "content_sha256": "cc642671b78575b3a8c081d8cd33e0fb1f7019b39087ebce82e7acbd16faf396",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-2cacde6201d4",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/1/blocks/0/display_words",
+      "content_sha256": "d3e1aaec6ed7d7fe1c79cf06fcedec6a95410492e8b137214c688ae7bba93d97",
+      "word_count": 2,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-03a72aaacf97",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/2/blocks/0/display_words",
+      "content_sha256": "4c087452840ce3c24a3b882828d3dcbabc160cd456831954879d0851b905a8d2",
+      "word_count": 5,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-33f99b7615bb",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/4/blocks/0/inline_sanskrit/0",
+      "content_sha256": "35271f6b212785a5da6190afb9b37e79bebea70d33b1c158dd6b130c212d3b80",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-222f04b71f48",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/4/blocks/0/inline_sanskrit/1",
+      "content_sha256": "98b2f26ce3773a0ca79683ad4b596871f1af9d5efa83bba336eb7a9a0990ca72",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-af5823fc677f",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/5/inline_sanskrit/0",
+      "content_sha256": "6eb03b6c6ee66c2591ebcc3136f26109b387103ea9f47d5ca5f24d4b582cd517",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-c69733cab1ea",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/5/inline_sanskrit/1",
+      "content_sha256": "8ed9d377ff3b6f25a7bef48e3249c9db1aca199c65d084e2fdc6d30482a10940",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-50e0e5670d7a",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/6/blocks/0",
+      "content_sha256": "f0edae92114affb5d8b0aed187b856d1b23f98c64ed1147e1c0f6413311769c7",
+      "word_count": 15,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-aa7199a6bde1",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/0",
+      "content_sha256": "ad065cb73f12fbd034410851d1741da8b78117e4628d9b48bfa2f6e91dcc77bb",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-6120c299d9aa",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/1",
+      "content_sha256": "0b21aaabd5ea445751566ed98ed7118b0f11f487442d63b809bb02d2a61a7ac1",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-88e2741544ab",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/2",
+      "content_sha256": "7bc6a00204db52217c71af94d6981b06e3de3892b064c47e7339b26d13b5aef2",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-f02bf6bb4ff9",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/3",
+      "content_sha256": "cb544d40c514db8f45d443a792fa69a7079db9a444f74c0e1f4ae66f1f47827f",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-0ce5c18dc5a5",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/4",
+      "content_sha256": "6a9be82d91626773e9df33cd46750475fe0d8e4ab4a5040009e19d15de6844a8",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-247fdbf2c77e",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/5",
+      "content_sha256": "c710e044374c39c3e64a49e9ab0e083e525e3da6fd53939db3d816a7be300115",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-108e6b9c6e4c",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/6",
+      "content_sha256": "6e53a2b8906e3ffb3e838507fb5f4d175c17469aa84750110007cc0f5e77e476",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-27783f1eb5d3",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/7",
+      "content_sha256": "7ea70560e6aef13b4c62190ef09ea9073892062c3011516ba3bc0d6ee2b29a4a",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-fd9bf9b5277c",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/8",
+      "content_sha256": "d20b921dfbc2b7bb15817740320e54d3f7af7ab7a346e009ba18d1cd66d11285",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-b58175c6ff08",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/9",
+      "content_sha256": "d61e8651be4011aa4b3a1b131b977c2aba870c206613d678fc86662da8267eac",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-11-ba3af0c296ae",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/8/blocks/0",
+      "content_sha256": "07616404d3a67e3ec4cfb38525a52dcdb237889a17f1438a7327d6f8033376c3",
+      "word_count": 9,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "issue-73256c64a063a27f5225",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/1/blocks/0",
+      "code": "GLOSS_JOIN_REQUIRES_TRANSLATION_REVIEW",
+      "detail": "Visible English was assembled from word glosses, not independently translated as a passage.",
+      "status": "open"
+    },
+    {
+      "id": "issue-3e16fb3b4ef1f6fc6c1c",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/2/blocks/0",
+      "code": "GLOSS_JOIN_REQUIRES_TRANSLATION_REVIEW",
+      "detail": "Visible English was assembled from word glosses, not independently translated as a passage.",
+      "status": "open"
+    },
+    {
+      "id": "issue-c221707a7195e449e8b0",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/1/blocks/0/display_words/word/0",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "quoted lexical form",
+      "status": "open"
+    },
+    {
+      "id": "issue-2a2b8599c260657d9d54",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/2/blocks/0/display_words/word/2",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "lexical citation form",
+      "status": "open"
+    },
+    {
+      "id": "issue-26763654eb4d71905f31",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/4/blocks/0/inline_sanskrit/1/word/0",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "nominal citation/inflected form",
+      "status": "open"
+    },
+    {
+      "id": "issue-14c6694d37c49b90ba7f",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/4/blocks/0/inline_sanskrit/1/word/0",
+      "code": "LATIN_IN_DEVANAGARI_FIELD",
+      "detail": "janāḥ",
+      "status": "open"
+    },
+    {
+      "id": "issue-bc1438eb48f4b1383e47",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/5/inline_sanskrit/0/word/0",
+      "code": "LATIN_IN_DEVANAGARI_FIELD",
+      "detail": "Kaṭhopaniṣad",
+      "status": "open"
+    },
+    {
+      "id": "issue-fcaf65d32c9ef286b499",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/5/inline_sanskrit/1/word/0",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "quoted lexical form",
+      "status": "open"
+    },
+    {
+      "id": "issue-cc195e03af46186ce993",
+      "name_number": 11,
+      "reader_pointer": "/stanzas/1/names/1/chinmayananda/blocks/7/inline_sanskrit/2/word/0",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "lexical citation form",
+      "status": "open"
+    }
+  ]
+}

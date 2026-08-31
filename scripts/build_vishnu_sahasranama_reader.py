@@ -73,6 +73,12 @@ WEB_DETAIL_FIELDS = ("word_analysis", "chinmayananda", "traditional_derivation")
 PRESENTATION_OVERRIDES_PATH = ROOT / "gita/vishnu-sahasranama/reader_review_overrides.json"
 
 RECEIVED_URL = "https://sanskritdocuments.org/doc_vishhnu/vsahasranew.itx"
+# The canonical URL changed on 2026-08-30. Keep the accepted witness hash and
+# retrieve its exact archived bytes; never repin to a newer, unreviewed text.
+RECEIVED_SNAPSHOT_URL = (
+    "https://web.archive.org/web/20250611100109id_/"
+    "https://sanskritdocuments.org/doc_vishhnu/vsahasranew.itx"
+)
 RECEIVED_SHA256 = "b53e64398d0a340dd01d2a83979c13346d6b27ec29f50a46a41b9d14080bb19b"
 WORD_SPLIT_URL = (
     "https://raw.githubusercontent.com/shreevatsa/word-split-sahasranama/"
@@ -2127,7 +2133,7 @@ def main() -> None:
     args = parser.parse_args()
 
     if args.write_preface_witness:
-        received = load_pinned(args.received_source, RECEIVED_URL, RECEIVED_SHA256)
+        received = load_pinned(args.received_source, RECEIVED_SNAPSHOT_URL, RECEIVED_SHA256)
         preface = build_performance_preface(received)
         PREFACE_WITNESS_PATH.parent.mkdir(parents=True, exist_ok=True)
         PREFACE_WITNESS_PATH.write_text(json.dumps(preface, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -2162,7 +2168,7 @@ def main() -> None:
     if not args.allow_provisional_analysis:
         assert_public_analysis_gate(args.analysis)
 
-    received = load_pinned(args.received_source, RECEIVED_URL, RECEIVED_SHA256)
+    received = load_pinned(args.received_source, RECEIVED_SNAPSHOT_URL, RECEIVED_SHA256)
     word_split = load_pinned(args.word_split_source, WORD_SPLIT_URL, WORD_SPLIT_SHA256)
     data = build(received, word_split, args.commentary, args.analysis)
     report = validate(data, args.require_commentary, require_reviewed_analysis=not args.allow_provisional_analysis)

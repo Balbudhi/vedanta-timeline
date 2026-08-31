@@ -1,0 +1,1246 @@
+{
+  "schema_version": 1,
+  "status": "unreviewed-input",
+  "name_number": 403,
+  "source_snapshots": [
+    {
+      "path": "gita/vishnu-sahasranama/chinmayananda.json",
+      "sha256": "07e8f3b9c1a8aadf8f361adb8450ea6f6dfb34fcb682365e67b16300ff868a9e"
+    },
+    {
+      "path": "gita/vishnu-sahasranama/reader.json",
+      "sha256": "fa451622966d1b410893ace4e2fe7a194a4c383bea2a66851e8d72cfd3c23b78"
+    }
+  ],
+  "source_name": {
+    "number": 403,
+    "heading_devanagari": "धर्मः",
+    "short_meaning": "This term is used in Hinduism in thousands of different shades that, to the early student, the meaning of this term is lost in confusion",
+    "short_meaning_status": "ocr-clean",
+    "commentary": "This term is used in Hinduism in thousands of different shades that, to the early student, the meaning of this term is lost in confusion. dharma of a thing is that because of which the thing is, without which the thing is not.\" This term, dharma, has, therefore, been translated as \"the Law of Being\"—the dharma of the Sun is light; the dharma of the Fire is heat, the dharma of Sugar is sweetness.\n\nWhat then is the dharma of the individual? The essential dharma of the individual can only be the Self, because, without which the individual cannot exist, and the individual's expressions, physical, mental and intellectual, are all expressions of the Self through the equipment in Him. Thus, \"dharma\" means the One Self in all individuals.\n\nThis essential dharma in anything is that which supports the things and, therefore, the Self which is the essence everywhere, is considered as the very One which supports everything.\n\n“धारयति इति धर्मः।” “देवैरत्रापि विचिकित्सितं पुरा नहि सुविज्ञेयमणुरेष धर्मः।” — Kaṭhopaniṣad.",
+    "scan_pages": [
+      121,
+      122
+    ],
+    "verification_status": "ocr-structured",
+    "ocr_notes": [],
+    "source_heading_roman": "Dharmah",
+    "source_heading_devanagari_ocr": "धर्म:",
+    "heading_iast": "dharmaḥ",
+    "simple_meaning": "Dharma itself, the law that upholds",
+    "simple_meaning_status": "site-generated-summary-derived-from-chinmayananda",
+    "apparatus_status": "scan-checked",
+    "simple_meaning_source": {
+      "basis": "chinmayananda-full-commentary",
+      "editorial_operation": "site-authored concise summary",
+      "attribution": "site-generated Simplified layer; not credited as Chinmayananda's translation or quotation"
+    },
+    "simple_basis_excerpt": "This term, dharma, has, therefore, been translated as \"the Law of Being\"—the dharma of the Sun is light",
+    "simple_basis_source": {
+      "field": "commentary",
+      "scope": "opening",
+      "normalized_character_offset": 179
+    }
+  },
+  "current_reader_name": {
+    "number": 403,
+    "citation_iast": "dharmaḥ",
+    "surface_iast": "dharmo",
+    "line_index": 1,
+    "deva_surface": "धर्मो",
+    "morph": "A nominal epithet or nominal expression applied to Viṣṇu in the stanza.",
+    "analysis_status": "chinmayananda-derivation-present",
+    "cite": "cite://chinmayananda/thousand-ways-to-the-transcendental/name/403",
+    "deva": "धर्मः",
+    "word_analysis": {
+      "number": 403,
+      "citation_iast": "dharmaḥ",
+      "citation_devanagari": "धर्मः",
+      "whole_gloss": "This term is used in Hinduism in thousands of different shades that, to the early student, the meaning of this term is lost in confusion",
+      "parts": [
+        {
+          "form_iast": "dharma",
+          "gloss": "law; right order; duty",
+          "kind": "stem"
+        },
+        {
+          "form_iast": "su",
+          "gloss": "marks nominative singular",
+          "kind": "ending"
+        }
+      ],
+      "stem": "dharma",
+      "root": null,
+      "affix": "su (prathamā ekavacana)",
+      "morph": "nominative singular masculine",
+      "compound": null,
+      "sandhi": "The citation form dharmaḥ occurs in the received stanza as dharmo; the displayed difference is external sandhi.",
+      "derivation": "Thus, \"dharma\" means the One Self in all individuals.",
+      "grammar": "The name is used as a nominative singular expression; its head is dharma.",
+      "source_basis": "received text + Chinmayananda + Prakriya Sanskrit source library",
+      "status": "primary-text-reviewed",
+      "uncertainty": [],
+      "evidence": {
+        "chinmayananda_scan_pages": [
+          121,
+          122
+        ],
+        "grammar_library": "/Users/eeshan/Dev/prakriya/sources",
+        "source_manifest_sha256": "eee109f142191c3d6b5bfbec49c5884efc015aec023d34c4ba18f3ffc57505fb",
+        "witnesses": [
+          "sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+          "sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+          "sources/primary/panini/ganapatha/ganapatha_upstream.txt",
+          "sources/primary/panini/kashika/kashika_upstream.txt",
+          "sources/primary/panini/mahabhashya/mahabhashya_gretil.txt"
+        ],
+        "dhatupatha": null,
+        "review_method": "direct source-text audit of the existing card; interpreter not used"
+      },
+      "parallel_derivations": []
+    },
+    "citation_iast_ocr": "Dharmah",
+    "deva_ocr": "धर्म:",
+    "meaning": "Dharma itself, the law that upholds",
+    "meaning_status": "site-generated-summary-derived-from-chinmayananda",
+    "meaning_source": {
+      "basis": "chinmayananda-full-commentary",
+      "editorial_operation": "site-authored concise summary",
+      "attribution": "site-generated Simplified layer; not credited as Chinmayananda's translation or quotation"
+    },
+    "chinmayananda": {
+      "opening_excerpt": "This term is used in Hinduism in thousands of different shades that, to the early student, the meaning of this term is lost in confusion",
+      "commentary": "This term is used in Hinduism in thousands of different shades that, to the early student, the meaning of this term is lost in confusion. dharma of a thing is that because of which the thing is, without which the thing is not.\" This term, dharma, has, therefore, been translated as \"the Law of Being\"—the dharma of the Sun is light; the dharma of the Fire is heat, the dharma of Sugar is sweetness.\n\nWhat then is the dharma of the individual? The essential dharma of the individual can only be the Self, because, without which the individual cannot exist, and the individual's expressions, physical, mental and intellectual, are all expressions of the Self through the equipment in Him. Thus, \"dharma\" means the One Self in all individuals.\n\nThis essential dharma in anything is that which supports the things and, therefore, the Self which is the essence everywhere, is considered as the very One which supports everything.\n\n“धारयति इति धर्मः।” “देवैरत्रापि विचिकित्सितं पुरा नहि सुविज्ञेयमणुरेष धर्मः।” — Kaṭhopaniṣad.",
+      "detail": "dharma of a thing is that because of which the thing is, without which the thing is not.\" This term, dharma, has, therefore, been translated as \"the Law of Being\"—the dharma of the Sun is light; the dharma of the Fire is heat, the dharma of Sugar is sweetness.\n\nWhat then is the dharma of the individual? The essential dharma of the individual can only be the Self, because, without which the individual cannot exist, and the individual's expressions, physical, mental and intellectual, are all expressions of the Self through the equipment in Him. Thus, \"dharma\" means the One Self in all individuals.\n\nThis essential dharma in anything is that which supports the things and, therefore, the Self which is the essence everywhere, is considered as the very One which supports everything.\n\n“धारयति इति धर्मः।” “देवैरत्रापि विचिकित्सितं पुरा नहि सुविज्ञेयमणुरेष धर्मः।” — Kaṭhopaniṣad.",
+      "scan_pages": [
+        121,
+        122
+      ],
+      "verification_status": "ocr-structured",
+      "ocr_notes": [],
+      "blocks": [
+        {
+          "type": "prose",
+          "text": "This term is used in Hinduism in thousands of different shades that, to the early student, the meaning of this term is lost in confusion. dharma of a thing is that because of which the thing is, without which the thing is not.\" This term, dharma, has, therefore, been translated as \"the Law of Being\"—the dharma of the Sun is light; the dharma of the Fire is heat, the dharma of Sugar is sweetness.",
+          "source_paragraph_index": 0,
+          "inline_sanskrit": [
+            {
+              "id": "name-403-paragraph-0-ascii-0",
+              "unit_key": "ascii:name-403-paragraph-0-ascii-0",
+              "text": "dharma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "dharma",
+                  "deva": "धर्म",
+                  "gloss": "dharma; sustaining law or essential nature",
+                  "parts": [
+                    {
+                      "form": "√dhṛ",
+                      "gloss": "hold; support"
+                    },
+                    {
+                      "form": "man",
+                      "gloss": "action/result noun formation"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "man (uṇādi primary-nominal suffix), citation stem",
+                  "morph": "masculine n-stem noun cited within English prose",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "bhvādi (1); ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "dharma",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 138,
+              "end": 144
+            },
+            {
+              "id": "name-403-paragraph-0-ascii-1",
+              "unit_key": "ascii:name-403-paragraph-0-ascii-1",
+              "text": "dharma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "dharma",
+                  "deva": "धर्म",
+                  "gloss": "dharma; sustaining law or essential nature",
+                  "parts": [
+                    {
+                      "form": "√dhṛ",
+                      "gloss": "hold; support"
+                    },
+                    {
+                      "form": "man",
+                      "gloss": "action/result noun formation"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "man (uṇādi primary-nominal suffix), citation stem",
+                  "morph": "masculine n-stem noun cited within English prose",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "bhvādi (1); ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "dharma",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 239,
+              "end": 245
+            },
+            {
+              "id": "name-403-paragraph-0-ascii-2",
+              "unit_key": "ascii:name-403-paragraph-0-ascii-2",
+              "text": "dharma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "dharma",
+                  "deva": "धर्म",
+                  "gloss": "dharma; sustaining law or essential nature",
+                  "parts": [
+                    {
+                      "form": "√dhṛ",
+                      "gloss": "hold; support"
+                    },
+                    {
+                      "form": "man",
+                      "gloss": "action/result noun formation"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "man (uṇādi primary-nominal suffix), citation stem",
+                  "morph": "masculine n-stem noun cited within English prose",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "bhvādi (1); ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "dharma",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 305,
+              "end": 311
+            },
+            {
+              "id": "name-403-paragraph-0-ascii-3",
+              "unit_key": "ascii:name-403-paragraph-0-ascii-3",
+              "text": "dharma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "dharma",
+                  "deva": "धर्म",
+                  "gloss": "dharma; sustaining law or essential nature",
+                  "parts": [
+                    {
+                      "form": "√dhṛ",
+                      "gloss": "hold; support"
+                    },
+                    {
+                      "form": "man",
+                      "gloss": "action/result noun formation"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "man (uṇādi primary-nominal suffix), citation stem",
+                  "morph": "masculine n-stem noun cited within English prose",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "bhvādi (1); ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "dharma",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 337,
+              "end": 343
+            },
+            {
+              "id": "name-403-paragraph-0-ascii-4",
+              "unit_key": "ascii:name-403-paragraph-0-ascii-4",
+              "text": "dharma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "dharma",
+                  "deva": "धर्म",
+                  "gloss": "dharma; sustaining law or essential nature",
+                  "parts": [
+                    {
+                      "form": "√dhṛ",
+                      "gloss": "hold; support"
+                    },
+                    {
+                      "form": "man",
+                      "gloss": "action/result noun formation"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "man (uṇādi primary-nominal suffix), citation stem",
+                  "morph": "masculine n-stem noun cited within English prose",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "bhvādi (1); ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "dharma",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 369,
+              "end": 375
+            }
+          ],
+          "content_class": "prose_sanskrit_term",
+          "render_mode": "prose",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "term_only",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "inline_mention",
+          "evidence_shape": "none",
+          "interaction_mode": "inline_token",
+          "translation_surface": "inline_only"
+        },
+        {
+          "type": "prose",
+          "text": "What then is the dharma of the individual? The essential dharma of the individual can only be the Self, because, without which the individual cannot exist, and the individual's expressions, physical, mental and intellectual, are all expressions of the Self through the equipment in Him. Thus, \"dharma\" means the One Self in all individuals.",
+          "source_paragraph_index": 1,
+          "inline_sanskrit": [
+            {
+              "id": "name-403-paragraph-1-ascii-0",
+              "unit_key": "ascii:name-403-paragraph-1-ascii-0",
+              "text": "dharma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "dharma",
+                  "deva": "धर्म",
+                  "gloss": "dharma; sustaining law or essential nature",
+                  "parts": [
+                    {
+                      "form": "√dhṛ",
+                      "gloss": "hold; support"
+                    },
+                    {
+                      "form": "man",
+                      "gloss": "action/result noun formation"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "man (uṇādi primary-nominal suffix), citation stem",
+                  "morph": "masculine n-stem noun cited within English prose",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "bhvādi (1); ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "dharma",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 17,
+              "end": 23
+            },
+            {
+              "id": "name-403-paragraph-1-ascii-1",
+              "unit_key": "ascii:name-403-paragraph-1-ascii-1",
+              "text": "dharma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "dharma",
+                  "deva": "धर्म",
+                  "gloss": "dharma; sustaining law or essential nature",
+                  "parts": [
+                    {
+                      "form": "√dhṛ",
+                      "gloss": "hold; support"
+                    },
+                    {
+                      "form": "man",
+                      "gloss": "action/result noun formation"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "man (uṇādi primary-nominal suffix), citation stem",
+                  "morph": "masculine n-stem noun cited within English prose",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "bhvādi (1); ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "dharma",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 57,
+              "end": 63
+            },
+            {
+              "id": "name-403-paragraph-1-ascii-2",
+              "unit_key": "ascii:name-403-paragraph-1-ascii-2",
+              "text": "dharma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "dharma",
+                  "deva": "धर्म",
+                  "gloss": "dharma; sustaining law or essential nature",
+                  "parts": [
+                    {
+                      "form": "√dhṛ",
+                      "gloss": "hold; support"
+                    },
+                    {
+                      "form": "man",
+                      "gloss": "action/result noun formation"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "man (uṇādi primary-nominal suffix), citation stem",
+                  "morph": "masculine n-stem noun cited within English prose",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "bhvādi (1); ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "dharma",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 294,
+              "end": 300
+            }
+          ],
+          "content_class": "prose_sanskrit_term",
+          "render_mode": "prose",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "term_only",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "inline_mention",
+          "evidence_shape": "none",
+          "interaction_mode": "inline_token",
+          "translation_surface": "inline_only"
+        },
+        {
+          "type": "prose",
+          "source_paragraph_index": 2,
+          "text": "This essential dharma in anything is that which supports the things and, therefore, the Self which is the essence everywhere, is considered as the very One which supports everything.",
+          "inline_sanskrit": [
+            {
+              "id": "name-403-paragraph-2-ascii-0",
+              "unit_key": "ascii:name-403-paragraph-2-ascii-0",
+              "text": "dharma",
+              "language": "sa-Latn",
+              "words": [
+                {
+                  "i": 0,
+                  "iast": "dharma",
+                  "deva": "धर्म",
+                  "gloss": "dharma; sustaining law or essential nature",
+                  "parts": [
+                    {
+                      "form": "√dhṛ",
+                      "gloss": "hold; support"
+                    },
+                    {
+                      "form": "man",
+                      "gloss": "action/result noun formation"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "man (uṇādi primary-nominal suffix), citation stem",
+                  "morph": "masculine n-stem noun cited within English prose",
+                  "root": "√dhṛ",
+                  "rootGloss": "to hold; support",
+                  "note": "bhvādi (1); ubhayapada · Dhātupāṭha 01.1047: धारणे",
+                  "analysis_mode": "rooted_derivation"
+                }
+              ],
+              "source_segments": [
+                {
+                  "text": "dharma",
+                  "word_indices": [
+                    0
+                  ]
+                }
+              ],
+              "start": 15,
+              "end": 21
+            }
+          ],
+          "footnote_calls": [
+            {
+              "id": "cm-vs-fn-p122-n01",
+              "marker": "*"
+            }
+          ],
+          "content_class": "prose_sanskrit_term",
+          "render_mode": "prose",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "term_only",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "inline_mention",
+          "evidence_shape": "none",
+          "interaction_mode": "inline_token",
+          "translation_surface": "inline_only"
+        },
+        {
+          "type": "footnote",
+          "id": "cm-vs-fn-p122-n01",
+          "marker": "*",
+          "pdf_page": 122,
+          "printed_page": 118,
+          "blocks": [
+            {
+              "type": "prose",
+              "text": "“धारयति इति धर्मः।” “देवैरत्रापि विचिकित्सितं पुरा नहि सुविज्ञेयमणुरेष धर्मः।” — Kaṭhopaniṣad.",
+              "source_paragraph_index": 3,
+              "sanskrit_quote_iast": "“dhārayati iti dharmaḥ|” “devairatrāpi vicikitsitaṃ purā nahi suvijñeyamaṇureṣa dharmaḥ|”",
+              "inline_sanskrit": [
+                {
+                  "id": "name-403-paragraph-3-span-0",
+                  "unit_key": "dhārayatiitidharmaḥ",
+                  "text": "धारयति इति धर्मः।",
+                  "language": "sa-Deva",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "dhārayati",
+                      "deva": "धारयति",
+                      "gloss": "dhārayati",
+                      "parts": [
+                        {
+                          "form": "dhārayati",
+                          "gloss": "dhārayati"
+                        }
+                      ],
+                      "stem": "dhārayati",
+                      "affix": "surface form as cited",
+                      "morph": "quoted lexical form",
+                      "analysis_mode": "inflected_lexeme"
+                    },
+                    {
+                      "i": 1,
+                      "iast": "iti",
+                      "deva": "इति",
+                      "gloss": "thus",
+                      "parts": [
+                        {
+                          "form": "iti",
+                          "gloss": "thus"
+                        }
+                      ],
+                      "stem": "iti",
+                      "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+                      "morph": "indeclinable (avyaya)",
+                      "analysis_mode": "indeclinable"
+                    },
+                    {
+                      "i": 2,
+                      "iast": "dharmaḥ",
+                      "deva": "धर्मः",
+                      "gloss": "dharma",
+                      "parts": [
+                        {
+                          "form": "dharma",
+                          "gloss": "dharma"
+                        },
+                        {
+                          "form": "su",
+                          "gloss": "su (prathamā ekavacana)"
+                        }
+                      ],
+                      "stem": "dharma",
+                      "affix": "su (prathamā ekavacana)",
+                      "morph": "nominative masculine singular noun",
+                      "analysis_mode": "root_not_asserted"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "धारयति ",
+                      "word_indices": [
+                        0
+                      ],
+                      "group_gloss": "dhārayati thus dharma"
+                    },
+                    {
+                      "text": "इति ",
+                      "word_indices": [
+                        1
+                      ],
+                      "group_gloss": "dhārayati thus dharma"
+                    },
+                    {
+                      "text": "धर्मः।",
+                      "word_indices": [
+                        2
+                      ],
+                      "group_gloss": "dhārayati thus dharma"
+                    }
+                  ],
+                  "start": 1,
+                  "end": 18
+                },
+                {
+                  "id": "name-403-paragraph-3-span-1",
+                  "unit_key": "devairatrāpivicikitsitaṃpurānahisuvijñeyamaṇureṣadharmaḥ",
+                  "text": "देवैरत्रापि विचिकित्सितं पुरा नहि सुविज्ञेयमणुरेष धर्मः।",
+                  "language": "sa-Deva",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "devairatrāpi",
+                      "deva": "देवैरत्रापि",
+                      "gloss": "devairatrāpi",
+                      "parts": [
+                        {
+                          "form": "devairatrāpi",
+                          "gloss": "devairatrāpi"
+                        }
+                      ],
+                      "stem": "devairatrāpi",
+                      "affix": "surface form as cited",
+                      "morph": "quoted lexical form",
+                      "analysis_mode": "inflected_lexeme"
+                    },
+                    {
+                      "i": 1,
+                      "iast": "vicikitsitaṃ",
+                      "deva": "विचिकित्सितं",
+                      "gloss": "vicikitsitaṃ",
+                      "parts": [
+                        {
+                          "form": "vicikitsitaṃ",
+                          "gloss": "vicikitsitaṃ"
+                        }
+                      ],
+                      "stem": "vicikitsitaṃ",
+                      "affix": "surface form as cited",
+                      "morph": "quoted lexical form",
+                      "analysis_mode": "inflected_lexeme"
+                    },
+                    {
+                      "i": 2,
+                      "iast": "purā",
+                      "deva": "पुरा",
+                      "gloss": "purā",
+                      "parts": [
+                        {
+                          "form": "purā",
+                          "gloss": "purā"
+                        }
+                      ],
+                      "stem": "purā",
+                      "affix": "surface form as cited",
+                      "morph": "quoted lexical form",
+                      "analysis_mode": "inflected_lexeme"
+                    },
+                    {
+                      "i": 3,
+                      "iast": "nahi",
+                      "deva": "नहि",
+                      "gloss": "nahi",
+                      "parts": [
+                        {
+                          "form": "nahi",
+                          "gloss": "nahi"
+                        }
+                      ],
+                      "stem": "nahi",
+                      "affix": "surface form as cited",
+                      "morph": "quoted lexical form",
+                      "analysis_mode": "inflected_lexeme"
+                    },
+                    {
+                      "i": 4,
+                      "iast": "suvijñeyamaṇureṣa",
+                      "deva": "सुविज्ञेयमणुरेष",
+                      "gloss": "suvijñeyamaṇureṣa",
+                      "parts": [
+                        {
+                          "form": "suvijñeyamaṇureṣa",
+                          "gloss": "suvijñeyamaṇureṣa"
+                        }
+                      ],
+                      "stem": "suvijñeyamaṇureṣa",
+                      "affix": "surface form as cited",
+                      "morph": "quoted lexical form",
+                      "analysis_mode": "inflected_lexeme"
+                    },
+                    {
+                      "i": 5,
+                      "iast": "dharmaḥ",
+                      "deva": "धर्मः",
+                      "gloss": "dharma",
+                      "parts": [
+                        {
+                          "form": "dharma",
+                          "gloss": "dharma"
+                        },
+                        {
+                          "form": "su",
+                          "gloss": "su (prathamā ekavacana)"
+                        }
+                      ],
+                      "stem": "dharma",
+                      "affix": "su (prathamā ekavacana)",
+                      "morph": "nominative masculine singular noun",
+                      "analysis_mode": "root_not_asserted"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "देवैरत्रापि ",
+                      "word_indices": [
+                        0
+                      ],
+                      "group_gloss": "devairatrāpi vicikitsitaṃ purā nahi suvijñeyamaṇureṣa dharma"
+                    },
+                    {
+                      "text": "विचिकित्सितं ",
+                      "word_indices": [
+                        1
+                      ],
+                      "group_gloss": "devairatrāpi vicikitsitaṃ purā nahi suvijñeyamaṇureṣa dharma"
+                    },
+                    {
+                      "text": "पुरा ",
+                      "word_indices": [
+                        2
+                      ],
+                      "group_gloss": "devairatrāpi vicikitsitaṃ purā nahi suvijñeyamaṇureṣa dharma"
+                    },
+                    {
+                      "text": "नहि ",
+                      "word_indices": [
+                        3
+                      ],
+                      "group_gloss": "devairatrāpi vicikitsitaṃ purā nahi suvijñeyamaṇureṣa dharma"
+                    },
+                    {
+                      "text": "सुविज्ञेयमणुरेष ",
+                      "word_indices": [
+                        4
+                      ],
+                      "group_gloss": "devairatrāpi vicikitsitaṃ purā nahi suvijñeyamaṇureṣa dharma"
+                    },
+                    {
+                      "text": "धर्मः।",
+                      "word_indices": [
+                        5
+                      ],
+                      "group_gloss": "devairatrāpi vicikitsitaṃ purā nahi suvijñeyamaṇureṣa dharma"
+                    }
+                  ],
+                  "start": 21,
+                  "end": 77
+                },
+                {
+                  "id": "name-403-paragraph-3-iast-9",
+                  "unit_key": "kaṭhopaniṣad",
+                  "text": "Kaṭhopaniṣad",
+                  "language": "sa-Latn",
+                  "words": [
+                    {
+                      "i": 0,
+                      "iast": "Kaṭhopaniṣad",
+                      "deva": "Kaṭhopaniṣad",
+                      "gloss": "Kaṭha Upaniṣad",
+                      "parts": [
+                        {
+                          "form": "Kaṭha",
+                          "gloss": "Kaṭha tradition"
+                        },
+                        {
+                          "form": "upaniṣad",
+                          "gloss": "Upaniṣad"
+                        }
+                      ],
+                      "stem": "Kaṭha-upaniṣad",
+                      "affix": "title compound",
+                      "morph": "work title",
+                      "analysis_mode": "compound_analysis"
+                    }
+                  ],
+                  "source_segments": [
+                    {
+                      "text": "Kaṭhopaniṣad",
+                      "word_indices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "start": 81,
+                  "end": 93
+                }
+              ],
+              "content_class": "partial_cited_fragment",
+              "render_mode": "display_fragment",
+              "source_authority": "site_normalized_fragment",
+              "citation_completeness": "fragment",
+              "promotion_eligible": false,
+              "literal_translation_source": "site_literal",
+              "display_devanagari": "धारयति इति धर्मः देवैरत्रापि विचिकित्सितं पुरा नहि सुविज्ञेयमणुरेष धर्मः",
+              "display_words": [
+                {
+                  "i": 0,
+                  "iast": "dhārayati",
+                  "deva": "धारयति",
+                  "gloss": "dhārayati",
+                  "parts": [
+                    {
+                      "form": "dhārayati",
+                      "gloss": "dhārayati"
+                    }
+                  ],
+                  "stem": "dhārayati",
+                  "affix": "surface form as cited",
+                  "morph": "quoted lexical form",
+                  "analysis_mode": "inflected_lexeme"
+                },
+                {
+                  "i": 1,
+                  "iast": "iti",
+                  "deva": "इति",
+                  "gloss": "thus",
+                  "parts": [
+                    {
+                      "form": "iti",
+                      "gloss": "thus"
+                    }
+                  ],
+                  "stem": "iti",
+                  "affix": "avyaya (indeclinable; no sup or tiṅ ending)",
+                  "morph": "indeclinable (avyaya)",
+                  "analysis_mode": "indeclinable"
+                },
+                {
+                  "i": 2,
+                  "iast": "dharmaḥ",
+                  "deva": "धर्मः",
+                  "gloss": "dharma",
+                  "parts": [
+                    {
+                      "form": "dharma",
+                      "gloss": "dharma"
+                    },
+                    {
+                      "form": "su",
+                      "gloss": "su (prathamā ekavacana)"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative masculine singular noun",
+                  "analysis_mode": "root_not_asserted"
+                },
+                {
+                  "i": 3,
+                  "iast": "devairatrāpi",
+                  "deva": "देवैरत्रापि",
+                  "gloss": "devairatrāpi",
+                  "parts": [
+                    {
+                      "form": "devairatrāpi",
+                      "gloss": "devairatrāpi"
+                    }
+                  ],
+                  "stem": "devairatrāpi",
+                  "affix": "surface form as cited",
+                  "morph": "quoted lexical form",
+                  "analysis_mode": "inflected_lexeme"
+                },
+                {
+                  "i": 4,
+                  "iast": "vicikitsitaṃ",
+                  "deva": "विचिकित्सितं",
+                  "gloss": "vicikitsitaṃ",
+                  "parts": [
+                    {
+                      "form": "vicikitsitaṃ",
+                      "gloss": "vicikitsitaṃ"
+                    }
+                  ],
+                  "stem": "vicikitsitaṃ",
+                  "affix": "surface form as cited",
+                  "morph": "quoted lexical form",
+                  "analysis_mode": "inflected_lexeme"
+                },
+                {
+                  "i": 5,
+                  "iast": "purā",
+                  "deva": "पुरा",
+                  "gloss": "purā",
+                  "parts": [
+                    {
+                      "form": "purā",
+                      "gloss": "purā"
+                    }
+                  ],
+                  "stem": "purā",
+                  "affix": "surface form as cited",
+                  "morph": "quoted lexical form",
+                  "analysis_mode": "inflected_lexeme"
+                },
+                {
+                  "i": 6,
+                  "iast": "nahi",
+                  "deva": "नहि",
+                  "gloss": "nahi",
+                  "parts": [
+                    {
+                      "form": "nahi",
+                      "gloss": "nahi"
+                    }
+                  ],
+                  "stem": "nahi",
+                  "affix": "surface form as cited",
+                  "morph": "quoted lexical form",
+                  "analysis_mode": "inflected_lexeme"
+                },
+                {
+                  "i": 7,
+                  "iast": "suvijñeyamaṇureṣa",
+                  "deva": "सुविज्ञेयमणुरेष",
+                  "gloss": "suvijñeyamaṇureṣa",
+                  "parts": [
+                    {
+                      "form": "suvijñeyamaṇureṣa",
+                      "gloss": "suvijñeyamaṇureṣa"
+                    }
+                  ],
+                  "stem": "suvijñeyamaṇureṣa",
+                  "affix": "surface form as cited",
+                  "morph": "quoted lexical form",
+                  "analysis_mode": "inflected_lexeme"
+                },
+                {
+                  "i": 8,
+                  "iast": "dharmaḥ",
+                  "deva": "धर्मः",
+                  "gloss": "dharma",
+                  "parts": [
+                    {
+                      "form": "dharma",
+                      "gloss": "dharma"
+                    },
+                    {
+                      "form": "su",
+                      "gloss": "su (prathamā ekavacana)"
+                    }
+                  ],
+                  "stem": "dharma",
+                  "affix": "su (prathamā ekavacana)",
+                  "morph": "nominative masculine singular noun",
+                  "analysis_mode": "root_not_asserted"
+                }
+              ],
+              "display_source_segments": [
+                {
+                  "text": "धारयति इति धर्मः",
+                  "word_indices": [
+                    0,
+                    1,
+                    2
+                  ]
+                },
+                {
+                  "text": " ",
+                  "word_indices": []
+                },
+                {
+                  "text": "देवैरत्रापि विचिकित्सितं पुरा नहि सुविज्ञेयमणुरेष धर्मः",
+                  "word_indices": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                  ]
+                }
+              ],
+              "display_before": "",
+              "display_after": "",
+              "display_citation": "Kaṭhopaniṣad",
+              "display_policy": "normalized-devanagari-from-reviewed-word-records",
+              "site_literal": {
+                "english_slots": "{0:dhārayati} {1:thus} {2:dharma} {3:devairatrāpi} {4:vicikitsitaṃ} {5:purā} {6:nahi} {7:suvijñeyamaṇureṣa} {8:dharma}",
+                "note": "Word-for-word rendering — site",
+                "text": "dhārayati thus dharma devairatrāpi vicikitsitaṃ purā nahi suvijñeyamaṇureṣa dharma"
+              },
+              "evidence_role": "claim_evidence",
+              "evidence_shape": "fragment_quote",
+              "interaction_mode": "evidence_block",
+              "translation_surface": "visible_literal_line"
+            }
+          ],
+          "additional_name_numbers": [],
+          "content_class": "printed_footnote_prose",
+          "render_mode": "footnote_note",
+          "source_authority": "chinmayananda_prose",
+          "citation_completeness": "derivational",
+          "promotion_eligible": false,
+          "literal_translation_source": "none",
+          "evidence_role": "note_prose",
+          "evidence_shape": "none",
+          "interaction_mode": "prose_note",
+          "translation_surface": "none"
+        }
+      ]
+    },
+    "traditional_derivation": "Thus, \"dharma\" means the One Self in all individuals."
+  },
+  "review_units": [
+    {
+      "id": "unit-403-abe48333c977",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/0/inline_sanskrit/0",
+      "content_sha256": "2c4ead14cf5cc34b6e4fb6b9fa82bb521b10aa55c99907d10960b7a9308cd3e1",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-403-a1f0795c561a",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/0/inline_sanskrit/1",
+      "content_sha256": "a0f5ff0b433d0910fe5d545b8b427a061856aa2df496bbceb0dbe1ad21eab94e",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-403-fdb3318d16a7",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/0/inline_sanskrit/2",
+      "content_sha256": "fee7f1a7edfc68ff9f389bb0f023fb54e0b265f9ecc74beb59af70ecca56e5f4",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-403-b2211b83f173",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/0/inline_sanskrit/3",
+      "content_sha256": "828a290d7186be4ce32466fcb7508383280f90f00fbd2243643e7b95891bfc74",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-403-d5993a3b2c4a",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/0/inline_sanskrit/4",
+      "content_sha256": "67283f9606883efadc1f4346f56c1375c94eb50561dfc6a2e223dfd0f778db36",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-403-779333b3234f",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/1/inline_sanskrit/0",
+      "content_sha256": "eab9422e694bf4dabb93c70bdbce5371e494503a397a260be2f55242565dc82e",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-403-ce3d6824b08e",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/1/inline_sanskrit/1",
+      "content_sha256": "d7c40d74d465681bcbb935c3e7fabca19d5e29c523af0d1ea6de8e570a5cf8e3",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-403-b440704c7e7b",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/1/inline_sanskrit/2",
+      "content_sha256": "4bb37a5b63c4636fd9610fafb627290d6761dce567be53d5cacf313c24f38e76",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-403-f9665252ef7d",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/2/inline_sanskrit/0",
+      "content_sha256": "37278e7d4a2c9e068de0b562f3afac0d0b461491db2f64caa19bc2a46b58cd26",
+      "word_count": 1,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    },
+    {
+      "id": "unit-403-904da0b238c6",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/3/blocks/0/display_words",
+      "content_sha256": "cbb89b5958e621de1195a79eab707869bd53b981c10f4edede1879843ff7d367",
+      "word_count": 9,
+      "review_status": "pending",
+      "reviews": {
+        "source": "pending",
+        "linguistic": "pending",
+        "rendered": "pending"
+      }
+    }
+  ],
+  "open_issues": [
+    {
+      "id": "issue-bae482ab06dcd33d26fc",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/3/blocks/0",
+      "code": "GLOSS_JOIN_REQUIRES_TRANSLATION_REVIEW",
+      "detail": "Visible English was assembled from word glosses, not independently translated as a passage.",
+      "status": "open"
+    },
+    {
+      "id": "issue-df797d8120c9187c8827",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/3/blocks/0/display_words/word/0",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "quoted lexical form",
+      "status": "open"
+    },
+    {
+      "id": "issue-4690e1057f97fbb5baef",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/3/blocks/0/display_words/word/3",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "quoted lexical form",
+      "status": "open"
+    },
+    {
+      "id": "issue-b56d019b6682ee93a611",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/3/blocks/0/display_words/word/4",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "quoted lexical form",
+      "status": "open"
+    },
+    {
+      "id": "issue-a577ae9ed01b1e74e8e9",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/3/blocks/0/display_words/word/5",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "quoted lexical form",
+      "status": "open"
+    },
+    {
+      "id": "issue-8345dd3b0a6b98b860db",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/3/blocks/0/display_words/word/6",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "quoted lexical form",
+      "status": "open"
+    },
+    {
+      "id": "issue-16f0a52e2c0bd41133e9",
+      "name_number": 403,
+      "reader_pointer": "/stanzas/42/names/9/chinmayananda/blocks/3/blocks/0/display_words/word/7",
+      "code": "GENERIC_MORPHOLOGY",
+      "detail": "quoted lexical form",
+      "status": "open"
+    }
+  ]
+}
