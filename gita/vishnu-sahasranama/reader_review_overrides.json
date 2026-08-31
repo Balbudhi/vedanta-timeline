@@ -16,10 +16,6 @@
     "cm-vs-fn-p020-n03": {
       "english_slots": "{0:Brahman} {1:indeed} {2:is this} {3:universe}; {4:this}, {5:the highest}; {6:the Person} {7:indeed} {8:is this} {9:universe}.",
       "note": "Literal translation — site; printed fragment"
-    },
-    "name-2-paragraph-1": {
-      "english_slots": "{0:Because} {2:this} {3:entire universe} {1:is pervaded} {5:by the power} {4:of} {6:the great Self}; {7:therefore} {10:Viṣṇu} {8,9:is indeed called}, {11:from √viś}, {12:the root}, {13:‘to enter’}.",
-      "note": "Site literal"
     }
   },
   "inline_additions": {
@@ -142,7 +138,6 @@
   },
   "block_overrides": {
     "cm-vs-fn-p020-n01": {"display_source_label": "Printed citation · Viṣṇu Purāṇa 1.2.69"},
-    "cm-vs-fn-p021-n01": {"render_after_next_quote": true},
     "cm-vs-fn-p020-n03": {"display_word_mode": "reviewed_override"},
     "cm-vs-fn-p141-n02": {"display_word_mode": "reviewed_override"}
   },
@@ -201,5 +196,59 @@
   },
   "prose_block_overrides": {
     "2": [{"text": "यस्माद्विष्टमिदं सर्वं तस्य शक्त्या महात्मनः। तस्मादेवोच्यते विष्णविशेर्धातोः प्रवेशनात ।।", "fields": {"content_class": "complete_quote", "render_mode": "prose", "source_authority": "chinmayananda_printed_quote", "citation_completeness": "complete", "promotion_eligible": true, "display_citation": "Viṣṇu Purāṇa 3.1 · printed citation"}}]
+  },
+  "site_literal_block_overrides": {
+    "2": [{"text": "यस्माद्विष्टमिदं सर्वं तस्य शक्त्या महात्मनः। तस्मादेवोच्यते विष्णविशेर्धातोः प्रवेशनात ।।", "literal": {"english_slots": "{0:Because} {2:this} {3:entire universe} {1:is pervaded} {5:by the power} {4:of} {6:the great Self}; {7:therefore} {10:Viṣṇu} {8,9:is indeed called}, {11:from √viś}, {12:the root}, {13:‘to enter’}.", "note": "Literal translation — site"}}]
+  },
+  "display_fragment_role_overrides": {
+    "cm-vs-fn-p030-n01": "note_prose.inline_list",
+    "cm-vs-fn-p099-n01": "note_prose.inline_list",
+    "cm-vs-fn-p105-n01": "note_prose.inline_list",
+    "cm-vs-fn-p116-n02": "note_prose.inline_list",
+    "cm-vs-fn-p225-n03": "note_prose.inline_list",
+    "cm-vs-fn-p230-n01": "note_prose.inline_list",
+    "cm-vs-fn-p062-n01": "derivation_formula.formula",
+    "cm-vs-fn-p120-n01": "derivation_formula.formula",
+    "cm-vs-fn-p141-n02": "derivation_formula.formula",
+    "cm-vs-fn-p219-n01": "derivation_formula.formula",
+    "cm-vs-fn-p244-n01": "derivation_formula.formula",
+    "cm-vs-fn-p176-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p191-n01": "translation_shadow.shadow"
+  },
+  "mixed_bundle_child_role_overrides": {
+    "cm-vs-fn-p128-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p158-n03": "translation_shadow.shadow",
+    "cm-vs-fn-p165-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p172-n02": "translation_shadow.shadow",
+    "cm-vs-fn-p173-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p174-n02": "translation_shadow.shadow",
+    "cm-vs-fn-p176-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p177-n02": "translation_shadow.shadow",
+    "cm-vs-fn-p180-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p188-n02": "translation_shadow.shadow",
+    "cm-vs-fn-p191-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p191-n03": "translation_shadow.shadow",
+    "cm-vs-fn-p198-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p205-n02": "translation_shadow.shadow",
+    "cm-vs-fn-p213-n02": "translation_shadow.shadow",
+    "cm-vs-fn-p222-n02": "translation_shadow.shadow",
+    "cm-vs-fn-p231-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p233-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p240-n02": "translation_shadow.shadow",
+    "cm-vs-fn-p245-n01": "translation_shadow.shadow",
+    "cm-vs-fn-p159-n01": "note_prose.none",
+    "cm-vs-fn-p164-n01": "note_prose.none",
+    "cm-vs-fn-p176-n04": "note_prose.none",
+    "cm-vs-fn-p188-n03": "note_prose.none",
+    "cm-vs-fn-p229-n02": "note_prose.none",
+    "cm-vs-fn-p236-n01": "note_prose.none",
+    "cm-vs-fn-p215-n02": "note_prose.none"
+  },
+  "inline_boundary_repairs": {
+    "drop": [],
+    "clip": {
+      "name-501-paragraph-0-iast-7": {"text": "Śrī", "word_indices": [0]},
+      "name-997-paragraph-0-iast-9": {"text": "Kaumodakī", "word_indices": [0]}
+    }
   }
 }

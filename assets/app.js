@@ -419,7 +419,7 @@ function setViewMode(mode) {
 }
 
 // ---------- loaders -----------
-const DATA_VERSION = "__BUILD_ID__-vsn-reader-classification-v42";
+const DATA_VERSION = "__BUILD_ID__-vsn-reader-classification-v44";
 
 async function loadJSON(path) {
   try {

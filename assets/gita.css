@@ -368,6 +368,7 @@ html[data-theme="dark"] .we.hi { background: #4a4422; }
 .wc-top { margin-bottom: 2px; }
 .wc-word { font-family: var(--serif); font-size: 17px; font-weight: 600; }
 .wc-mean { color: var(--ink); margin-bottom: 9px; font-size: 13.5px; }
+.wc-analysis { margin: -4px 0 8px; color: var(--muted-soft); font: 10px/1.35 var(--sans); }
 .wc-parts { display: flex; flex-wrap: wrap; gap: 5px 6px; margin-bottom: 9px; }
 .wc-part { display: inline-flex; align-items: baseline; gap: 5px; background: var(--bg-warm); border-radius: 5px; padding: 3px 7px; }
 .wc-pf { font-family: var(--serif); font-style: italic; font-size: 13px; color: var(--ink); }

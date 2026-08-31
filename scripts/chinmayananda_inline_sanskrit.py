@@ -309,13 +309,19 @@ def popup_payload(unit_key: str, occurrence: dict, display_text: str | None = No
     words = resolved_words(unit)
     language = "sa-Deva" if occurrence["kind"] == "deva" else "sa-Latn"
     text = display_text if display_text is not None else occurrence["text"]
+    phrase_gloss = phrase_gloss_for_unit(unit_key, words)
+    source_segments = segments_for(text, language, words)
+    if len(words) > 1 and phrase_gloss:
+        for segment in source_segments:
+            if segment.get("word_indices"):
+                segment["group_gloss"] = phrase_gloss
     return {
         "id": occurrence["id"],
         "unit_key": unit_key,
         "text": text,
         "language": language,
         "words": words,
-        "source_segments": segments_for(text, language, words),
+        "source_segments": source_segments,
     }
 
 
@@ -384,6 +390,27 @@ def normalized_display_word(word: dict, index: int) -> dict:
     result = copy.deepcopy(word)
     result["i"] = index
     return result
+
+
+def word_for_word_slots(words: list[dict]) -> str:
+    """Render only reviewed per-word glosses; do not invent a freer translation."""
+    if [word.get("i") for word in words] != list(range(len(words))):
+        raise ValueError("normalized display words are not contiguously indexed")
+    if any(not str(word.get("gloss", "")).strip() for word in words):
+        raise ValueError("normalized display word lacks reviewed gloss")
+    return " ".join(f"{{{word['i']}:{word['gloss'].strip()}}}" for word in words)
+
+
+def slot_plain_text(english_slots: str) -> str:
+    """Derive a plain visible line from a slotted translation for fallback display."""
+    text = re.sub(r"\{[\d,\s]+:([^}]*)\}", r"\1", str(english_slots or ""))
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def phrase_gloss_for_unit(unit_key: str, words: list[dict]) -> str:
+    """Use the reviewed unit rendering when present; otherwise retain word glosses."""
+    phrase = str(UNITS.get(unit_key, {}).get("popup", {}).get("english", "")).strip()
+    return phrase or " ".join(str(word.get("gloss", "")).strip() for word in words).strip()
 
 
 def normalized_quote_display(text: str, annotations: list[dict]) -> dict | None:
@@ -468,10 +495,15 @@ def normalized_quote_display(text: str, annotations: list[dict]) -> dict | None:
         "source_authority": "site_normalized_fragment",
         "citation_completeness": "fragment",
         "promotion_eligible": False,
-        "literal_translation_source": "none",
+        "literal_translation_source": "site_literal",
         "display_devanagari": devanagari,
         "display_words": words,
         "display_source_segments": segments,
+        "site_literal": {
+            "english_slots": word_for_word_slots(words),
+            "text": slot_plain_text(word_for_word_slots(words)),
+            "note": "Word-for-word rendering — site",
+        },
         "display_before": before,
         "display_after": after,
         "display_citation": citation,

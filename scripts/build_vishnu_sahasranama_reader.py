@@ -27,7 +27,10 @@ from indic_transliteration import sanscript
 from indic_transliteration.sanscript import transliterate
 
 from chinmayananda_sanskrit_blocks import promote_non_gita_blocks
-from chinmayananda_inline_sanskrit import ASCII_ACCEPTED_IDS, ASCII_STRUCTURED_IDS, promote_inline_blocks
+from chinmayananda_inline_sanskrit import (
+    ASCII_ACCEPTED_IDS, ASCII_STRUCTURED_IDS, phrase_gloss_for_unit,
+    promote_inline_blocks, slot_plain_text, word_for_word_slots,
+)
 from validate_chinmayananda_derivation_reviews import alternatives_by_name
 from validate_chinmayananda_footnote_apparatus import merged_footnotes
 
@@ -1207,6 +1210,149 @@ def trim_inline_quotation_punctuation(annotation: dict) -> None:
     annotation["source_segments"] = segments
 
 
+def infer_analysis_mode(word: dict) -> str:
+    """State the reviewed analysis route without inventing a verbal root."""
+    morphology = " ".join(str(word.get(field, "")) for field in ("morph", "affix", "note")).lower()
+    if word.get("root"):
+        return "rooted_derivation"
+    if word.get("compound") or "compound" in morphology:
+        return "compound_analysis"
+    if "indeclinable" in morphology or "avyaya" in morphology or "particle" in morphology:
+        return "indeclinable"
+    if "title" in morphology or "work" in morphology or "proper name" in morphology:
+        return "title_or_work_reference"
+    if "citation" in morphology or "lexical" in morphology or "nominal" in morphology:
+        return "inflected_lexeme"
+    return "root_not_asserted"
+
+
+def enrich_commentary_presentation(blocks: list[dict]) -> None:
+    """Attach the reviewed literal layer required by every interactive Sanskrit surface."""
+    for block in blocks:
+        if block.get("type") == "footnote":
+            for word in block.get("formula_payload", {}).get("words", []):
+                word.setdefault("analysis_mode", infer_analysis_mode(word))
+            enrich_commentary_presentation(block.get("blocks", []))
+            continue
+        if block.get("content_class") == "prose_sanskrit_term" and block.get("literal_translation_source") == "site_literal":
+            block.pop("site_literal", None)
+            block["literal_translation_source"] = "none"
+        word_sets = [block.get("words", []), block.get("display_words", []), block.get("display_payload", {}).get("words", [])]
+        if block.get("formula_payload"):
+            word_sets.append(block["formula_payload"].get("words", []))
+        for words in word_sets:
+            for word in words:
+                word.setdefault("analysis_mode", infer_analysis_mode(word))
+        for annotation in block.get("inline_sanskrit", []):
+            words = annotation.get("words", [])
+            for word in words:
+                word.setdefault("analysis_mode", infer_analysis_mode(word))
+            if len(words) > 1:
+                gloss = phrase_gloss_for_unit(annotation.get("unit_key", ""), words)
+                if not gloss:
+                    raise ValueError(f"multiword inline Sanskrit lacks reviewed phrase gloss: {annotation.get('id')}")
+                for segment in annotation.get("source_segments", []):
+                    if segment.get("word_indices"):
+                        segment.setdefault("group_gloss", gloss)
+        if block.get("site_literal"):
+            literal = block["site_literal"]
+            slots = literal.get("english_slots") or literal.get("englishSlots")
+            if slots and not literal.get("text"):
+                literal["text"] = slot_plain_text(slots)
+        if block.get("render_mode") == "display_fragment":
+            words = block.get("display_payload", {}).get("words") or block.get("display_words", [])
+            if not words:
+                raise ValueError(f"display fragment lacks reviewed words: {block.get('id', block.get('source_paragraph_index'))}")
+            literal = block.setdefault("site_literal", {})
+            literal.setdefault("english_slots", word_for_word_slots(words))
+            literal.setdefault("text", slot_plain_text(literal["english_slots"]))
+            literal.setdefault("note", "Word-for-word rendering — site")
+            block["literal_translation_source"] = "site_literal"
+
+
+def assign_presentation_contract(blocks: list[dict], overrides: dict, parent_footnote_id: str | None = None) -> None:
+    """Map reviewed evidence roles to the only renderer surfaces the reader permits."""
+    fragment_roles = overrides.get("display_fragment_role_overrides", {})
+    mixed_roles = overrides.get("mixed_bundle_child_role_overrides", {})
+    boundary_repairs = overrides.get("inline_boundary_repairs", {})
+    for block in blocks:
+        if block.get("type") == "footnote":
+            block["evidence_role"] = "derivation_formula" if block.get("formula_payload") else "note_prose"
+            block["evidence_shape"] = "formula" if block.get("formula_payload") else "none"
+            block["interaction_mode"] = "derivation_block" if block.get("formula_payload") else "prose_note"
+            block["translation_surface"] = "visible_literal_line" if block.get("formula_payload") else "none"
+            assign_presentation_contract(block.get("blocks", []), overrides, block.get("id"))
+            child_roles = {child.get("evidence_role") for child in block.get("blocks", [])}
+            if "claim_evidence" in child_roles and len(child_roles - {"claim_evidence"}) > 0:
+                block["bundle_contract"] = "typed_children"
+            continue
+        if block.get("type") in {"gita-quote", "sanskrit-quote"} or block.get("content_class") == "complete_quote":
+            block["evidence_role"] = "claim_evidence"
+            block["evidence_shape"] = "complete_quote"
+            block["interaction_mode"] = "evidence_block"
+            block["translation_surface"] = "visible_literal_line"
+            continue
+        annotations = block.get("inline_sanskrit", [])
+        drop_ids = set(boundary_repairs.get("drop", []))
+        annotations = [annotation for annotation in annotations if annotation.get("id") not in drop_ids]
+        for annotation in annotations:
+            clip = boundary_repairs.get("clip", {}).get(annotation.get("id"))
+            if not clip:
+                continue
+            text = clip["text"]
+            offset = annotation.get("text", "").find(text)
+            if offset < 0:
+                raise ValueError(f"inline boundary repair does not replay source: {annotation.get('id')}")
+            annotation["text"] = text
+            annotation["start"] += offset
+            annotation["end"] = annotation["start"] + len(text)
+            indices = clip["word_indices"]
+            annotation["words"] = [word for word in annotation.get("words", []) if word.get("i") in indices]
+            annotation["source_segments"] = [{"text": text, "word_indices": indices}]
+        if annotations != block.get("inline_sanskrit", []):
+            block["inline_sanskrit"] = annotations
+        if block.get("render_mode") == "display_fragment":
+            role = fragment_roles.get(parent_footnote_id, "claim_evidence.fragment_quote")
+            if role == "note_prose.inline_list" or role == "translation_shadow.shadow":
+                for key in (
+                    "display_devanagari", "display_words", "display_source_segments", "display_before",
+                    "display_after", "display_citation", "display_policy", "display_payload", "site_literal",
+                ):
+                    block.pop(key, None)
+                block["content_class"] = "printed_footnote_prose" if parent_footnote_id else "prose_sanskrit_term"
+                block["render_mode"] = "footnote_note" if parent_footnote_id else "prose"
+                block["source_authority"] = "chinmayananda_prose"
+                block["citation_completeness"] = "term_only"
+                block["promotion_eligible"] = False
+                block["literal_translation_source"] = "none"
+            role_name, shape = role.split(".")
+            block["evidence_role"] = role_name
+            block["evidence_shape"] = shape
+            block["interaction_mode"] = (
+                "derivation_block" if role_name == "derivation_formula"
+                else "prose_note" if role_name == "translation_shadow"
+                else "inline_phrase" if role_name == "note_prose"
+                else "evidence_block"
+            )
+            block["translation_surface"] = (
+                "visible_literal_line" if role_name in {"claim_evidence", "derivation_formula"}
+                else "source_owned_only" if role_name == "translation_shadow" else "inline_only"
+            )
+            continue
+        role = mixed_roles.get(parent_footnote_id)
+        if role:
+            role_name, shape = role.split(".")
+            block["evidence_role"] = role_name
+            block["evidence_shape"] = shape
+            block["interaction_mode"] = "prose_note"
+            block["translation_surface"] = "source_owned_only" if role_name == "translation_shadow" else "none"
+        else:
+            block["evidence_role"] = "note_prose" if parent_footnote_id else "inline_mention"
+            block["evidence_shape"] = "none"
+            block["interaction_mode"] = "inline_phrase" if any(len(row.get("words", [])) > 1 for row in block.get("inline_sanskrit", [])) else "inline_token"
+            block["translation_surface"] = "inline_only" if block.get("inline_sanskrit") else "none"
+
+
 def apply_presentation_overrides(number: int, blocks: list[dict], overrides: dict, parent_footnote_id: str | None = None) -> None:
     """Apply reviewed display corrections from canonical data, never the UI."""
     for block in blocks:
@@ -1239,6 +1385,9 @@ def apply_presentation_overrides(number: int, blocks: list[dict], overrides: dic
             block["english"] = re.sub(r"\{[\d,\s]+:([^}]*)\}", r"\1", block["english_slots"])
         literal_key = block_id or parent_footnote_id or f"name-{number}-paragraph-{block.get('source_paragraph_index')}"
         literal = overrides["site_literal_overrides"].get(literal_key)
+        for override in overrides.get("site_literal_block_overrides", {}).get(str(number), []):
+            if block.get("text") == override["text"]:
+                literal = override["literal"]
         if literal:
             block["site_literal"] = literal
             block["literal_translation_source"] = "site_literal"
@@ -1407,6 +1556,8 @@ def build(received: str, word_split: str, commentary_path: Path | None, analysis
     for item in by_number.values():
         classify_rendered_commentary_blocks(item.get("chinmayananda", {}).get("blocks", []))
         apply_presentation_overrides(item["number"], item.get("chinmayananda", {}).get("blocks", []), presentation_overrides)
+        enrich_commentary_presentation(item.get("chinmayananda", {}).get("blocks", []))
+        assign_presentation_contract(item.get("chinmayananda", {}).get("blocks", []), presentation_overrides)
 
     for index, stanza in enumerate(stanzas):
         stanza["critical_edition"] = bori[index]
@@ -1815,9 +1966,11 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
     non_gita_ids = [block.get("id") for block in non_gita_quote_blocks]
     if require_commentary and (len(non_gita_ids) != 59 or len(non_gita_ids) != len(set(non_gita_ids))):
         raise ValueError(f"structured non-Gītā quotation population is not exactly 59 unique blocks: {len(non_gita_ids)}")
-    if require_commentary and len(normalized_display_quotes) != 99:
+    # Eight reviewed former display fragments are deliberately demoted to
+    # inline lists or translation shadows by the presentation contract.
+    if require_commentary and len(normalized_display_quotes) != 91:
         raise ValueError(
-            "normalized standalone Sanskrit quotation population is not exactly 99: "
+            "normalized standalone Sanskrit evidence population is not exactly 91: "
             f"{len(normalized_display_quotes)}"
         )
     if require_commentary and (
@@ -1961,6 +2114,7 @@ def main() -> None:
     parser.add_argument("--web-core-output", type=Path, default=WEB_CORE_PATH)
     parser.add_argument("--web-details-output", type=Path, default=WEB_DETAILS_PATH)
     parser.add_argument("--split-only", type=Path)
+    parser.add_argument("--enrich-presentation", type=Path)
     parser.add_argument("--check", type=Path)
     parser.add_argument("--require-commentary", action="store_true")
     parser.add_argument(
@@ -1983,6 +2137,19 @@ def main() -> None:
     if args.split_only:
         data = json.loads(args.split_only.read_text(encoding="utf-8"))
         report = validate(data, require_commentary=True, require_reviewed_analysis=False)
+        report.update(write_web_payloads(data, args.web_core_output, args.web_details_output))
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        return
+
+    if args.enrich_presentation:
+        data = json.loads(args.enrich_presentation.read_text(encoding="utf-8"))
+        presentation_overrides = json.loads(PRESENTATION_OVERRIDES_PATH.read_text(encoding="utf-8"))
+        for stanza in data["stanzas"]:
+            for name in stanza["names"]:
+                enrich_commentary_presentation(name.get("chinmayananda", {}).get("blocks", []))
+                assign_presentation_contract(name.get("chinmayananda", {}).get("blocks", []), presentation_overrides)
+        report = validate(data, require_commentary=True, require_reviewed_analysis=False)
+        args.enrich_presentation.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         report.update(write_web_payloads(data, args.web_core_output, args.web_details_output))
         print(json.dumps(report, ensure_ascii=False, indent=2))
         return

@@ -213,6 +213,24 @@
 .vsn-sanskrit-fragment .ix-pada,
 .vsn-sanskrit-fragment .ix-en { font-size: inherit; line-height: 1.65; }
 .vsn-sanskrit-fragment .ix-deva { color: var(--ink); }
+.vsn-evidence-kind {
+  margin: 0 0 5px;
+  color: var(--muted-soft);
+  font: 10px/1.35 var(--sans);
+  letter-spacing: .035em;
+  text-transform: uppercase;
+}
+.vsn-derivation-fragment {
+  margin: 5px 0 0;
+  padding: 0 0 0 12px;
+  border-left: 2px solid color-mix(in srgb, var(--accent, var(--ink)) 42%, var(--rule));
+  color: var(--ink);
+  font-family: var(--serif);
+}
+.vsn-derivation-fragment .ix { margin: 0; }
+.vsn-derivation-fragment .ix-deva,
+.vsn-derivation-fragment .ix-pada,
+.vsn-derivation-fragment .ix-en { font-size: inherit; line-height: 1.65; }
 .vsn-claim {
   margin: 0 0 14px;
 }

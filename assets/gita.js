@@ -597,6 +597,17 @@ function ensureCard() {
   document.body.appendChild(cardEl);
   return cardEl;
 }
+function analysisModeLabel(mode) {
+  return {
+    rooted_derivation: "Rooted derivation",
+    compound_analysis: "Compound analysis",
+    inflected_lexeme: "Inflected lexical form",
+    indeclinable: "Indeclinable",
+    title_or_work_reference: "Title or work reference",
+    root_not_asserted: "No verbal root is asserted",
+  }[mode] || "";
+}
+
 function showGroupCard(span, words) {
   const card = ensureCard();
   const rows = [
@@ -612,9 +623,11 @@ function showGroupCard(span, words) {
     const parts = w.parts && w.parts.length
       ? `<div class="wc-parts">${w.parts.map(p => `<span class="wc-part"><span class="wc-pf" lang="sa-Latn">${esc(p.form)}</span>${p.gloss ? `<span class="wc-pg">${esc(p.gloss)}</span>` : ""}</span>`).join("")}</div>`
       : "";
+    const mode = analysisModeLabel(w.analysis_mode);
     rows.push(`<div class="wc-group-entry">
       <div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(w.iast)}</span></div>
       <div class="wc-mean">${esc(w.gloss)}</div>
+      ${mode ? `<div class="wc-analysis">${esc(mode)}</div>` : ""}
       ${parts}
       ${details.length ? `<div class="wc-gram">${details.map(esc).join("<br>")}</div>` : ""}
     </div>`);
@@ -627,6 +640,8 @@ function showCard(span, w) {
   const rows = [];
   rows.push(`<div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(w.iast)}</span></div>`);
   rows.push(`<div class="wc-mean">${esc(w.gloss)}</div>`);
+  const mode = analysisModeLabel(w.analysis_mode);
+  if (mode) rows.push(`<div class="wc-analysis">${esc(mode)}</div>`);
   const parts = w.parts && w.parts.length ? w.parts
     : (w.compound && w.compound.members ? w.compound.members.map(f => ({ form: f, gloss: "" })) : null);
   if (parts && (parts.length > 1 || (parts[0] && parts[0].gloss))) {
