@@ -48,6 +48,7 @@ def main() -> None:
         if forbidden in renderer:
             errors.append(f"renderer retains forbidden runtime review table marker: {forbidden}")
     counts: dict[str, int] = {}
+    inline_occurrences = 0
     for name in reader["stanzas"]:
         for item in name["names"]:
             for block in walk(item.get("chinmayananda", {}).get("blocks", [])):
@@ -88,6 +89,13 @@ def main() -> None:
                     if content_class != "partial_cited_fragment" or render_mode != "display_fragment" or block.get("promotion_eligible") is not False:
                         errors.append(f"{label}: display fragment contract violated")
                 for annotation in block.get("inline_sanskrit", []):
+                    inline_occurrences += 1
+                    annotation_label = f"{label} inline {annotation.get('id', '?')}"
+                    # Inline occurrences inherit their authority, completeness,
+                    # and visual role from the validated containing block; this
+                    # avoids serving five duplicated fields 3,665 times.
+                    if not annotation.get("words") or not annotation.get("source_segments"):
+                        errors.append(f"{annotation_label}: lacks reviewed inline payload")
                     payload = annotation.get("presentation_payload")
                     if not payload:
                         continue
@@ -121,7 +129,7 @@ def main() -> None:
                 counts[content_class] = counts.get(content_class, 0) + 1
     if errors:
         raise SystemExit("\n".join(errors[:100]))
-    print(json.dumps({"reader": str(READER.relative_to(ROOT)), "classes": counts}, indent=2))
+    print(json.dumps({"reader": str(READER.relative_to(ROOT)), "classes": counts, "inline_occurrences": inline_occurrences}, indent=2))
 
 
 if __name__ == "__main__":
