@@ -2043,7 +2043,7 @@ def validate(data: dict, require_commentary: bool, require_reviewed_analysis: bo
     }
 
 
-def write_web_payloads(data: dict, core_path: Path, details_path: Path) -> dict:
+def web_payloads(data: dict) -> tuple[dict, dict]:
     """Split the validated corpus into fast initial and lazy detail payloads."""
     core = json.loads(json.dumps(data, ensure_ascii=False))
     details = []
@@ -2058,6 +2058,11 @@ def write_web_payloads(data: dict, core_path: Path, details_path: Path) -> dict:
         raise ValueError("web detail payload is not exactly contiguous names 1–1000")
     validate(core, require_commentary=False)
     detail_payload = {"schema_version": 1, "names": details}
+    return core, detail_payload
+
+
+def write_web_payloads(data: dict, core_path: Path, details_path: Path) -> dict:
+    core, detail_payload = web_payloads(data)
     core_path.parent.mkdir(parents=True, exist_ok=True)
     details_path.parent.mkdir(parents=True, exist_ok=True)
     core_path.write_text(json.dumps(core, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
@@ -2122,6 +2127,8 @@ def main() -> None:
     parser.add_argument("--split-only", type=Path)
     parser.add_argument("--enrich-presentation", type=Path)
     parser.add_argument("--check", type=Path)
+    parser.add_argument("--check-generated", action="store_true",
+                        help="Rebuild from pinned inputs and compare all three saved reader artifacts without writing")
     parser.add_argument("--require-commentary", action="store_true")
     parser.add_argument(
         "--allow-provisional-analysis",
@@ -2131,6 +2138,9 @@ def main() -> None:
     parser.add_argument("--update-citation-index", type=Path)
     parser.add_argument("--write-preface-witness", action="store_true")
     args = parser.parse_args()
+    if args.check_generated and any((args.check, args.split_only, args.enrich_presentation,
+                                     args.write_preface_witness, args.update_citation_index)):
+        parser.error("--check-generated cannot be combined with another output or checking operation")
 
     if args.write_preface_witness:
         received = load_pinned(args.received_source, RECEIVED_SNAPSHOT_URL, RECEIVED_SHA256)
@@ -2172,6 +2182,15 @@ def main() -> None:
     word_split = load_pinned(args.word_split_source, WORD_SPLIT_URL, WORD_SPLIT_SHA256)
     data = build(received, word_split, args.commentary, args.analysis)
     report = validate(data, args.require_commentary, require_reviewed_analysis=not args.allow_provisional_analysis)
+    if args.check_generated:
+        core, details = web_payloads(data)
+        mismatches = [str(path) for path, expected in (
+            (args.output, data), (args.web_core_output, core), (args.web_details_output, details)
+        ) if not path.is_file() or json.loads(path.read_text(encoding="utf-8")) != expected]
+        if mismatches:
+            raise SystemExit("Saved reader artifacts differ from the pinned-input rebuild: " + ", ".join(mismatches))
+        print(json.dumps({"generated_artifacts": "match", "files": 3}, indent=2))
+        return
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     report.update(write_web_payloads(data, args.web_core_output, args.web_details_output))

@@ -106,8 +106,18 @@ may be satisfied by relabelling the same producer output as reviewed.
 - A fresh normal build now succeeds into temporary output. It differs from the
   current published reader in 34 fields, so clean-build equality remains an open
   gate. The generated reader has not been overwritten to conceal that difference.
+  `build_vishnu_sahasranama_reader.py --check-generated --require-commentary`
+  now checks all three generated artifacts without writing. It correctly fails
+  on the current published artifacts and passes on a second reconstruction of
+  the candidate outputs. Add it to the release gate once the canonical artifact
+  differences have been deliberately reconciled; do not suppress its failure.
 - `scripts/build_sahasranama_review_queue.py` creates the frozen audit queue from
   source hashes. Its flags identify review work; absence of a flag never marks
   a unit accepted. Source, linguistic, and rendered reviews start pending.
 - Do not use the current generic morphology labels, automatic gloss joins, or
   existing "reviewed" strings as proof that the linguistic pass is finished.
+- The initial Terra pilot was rejected for concrete transport/alignment errors.
+  `validate_sahasranama_producer_packet.py` now checks input hashes, source
+  excerpts, structured roots, script fields, source segments, and English-slot
+  replay. `--require-resolved` rejects unresolved producer units. A transport
+  pass still requires a separate linguistic reviewer and rendered review.
