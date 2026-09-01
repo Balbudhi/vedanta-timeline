@@ -1285,21 +1285,15 @@ function renderDateBars() {
   svg.appendChild(g);
 }
 
-// ---------- render: dots -----------
-function renderDots() {
-  dotsLayer.innerHTML = "";
-
-  // Map each thinker id to its cluster index (if any). Only used in lanes view —
-  // network view does its own free-form placement and rarely produces stacks.
-  const clusterOf = new Map();
-  const denseClusters = new Set();  // clusters with 3+ members get the stack marker
-  if (state.viewMode === "lanes" && Array.isArray(state.clusters)) {
-    state.clusters.forEach((c, idx) => {
-      for (const id of c.ids) clusterOf.set(id, idx);
-      if (c.ids.length >= 3) denseClusters.add(idx);
-    });
-  }
-
+// Place label boxes without allowing one tradition's names or connector lines
+// to enter another tradition's lane. Kept as a pure function so the geometry
+// contract can be regression-tested without booting the application.
+function computeLaneLabelPlacements(layoutValues, {
+  laneHeight,
+  plotBottom,
+  laneLocal = true,
+  compact = laneHeight <= 72,
+} = {}) {
   // Label de-collision (lanes view): names are anchored at the dot's x with
   // nowrap text, so in dense periods (e.g. Advaita ~1850–1990) they pile onto
   // the same pixels and become unreadable / unclickable. A binary above/below
@@ -1317,43 +1311,42 @@ function renderDots() {
   // Zooming in (larger pxPerYear) spreads the dot x's apart, so boxes stop
   // overlapping and labels settle back toward slot 0 — i.e. zoom declutters
   // the labels too. Process in x order so neighbours resolve consistently.
-  const LABEL_BASE = 11;     // px from dot to the near edge of a slot-0 label
-  const LABEL_TIER_DY = 19;  // extra px per outward slot
-  // Box height used for packing. In-cluster labels render name-only at rest
-  // (dates hidden via CSS — see .thinker-dot--in-cluster .dates) so they pack
-  // as a single line; sparse standalone labels keep their two-line height.
-  const LABEL_H_FULL = 36;   // name + italic dates line (matches rendered box)
-  const LABEL_H_NAME = 24;   // name line only (dense-cluster resting state)
+  const LABEL_BASE = laneLocal ? (compact ? 7 : 9) : 11;
+  const LABEL_TIER_DY = compact ? 12 : 19;
+  // Box height used for packing. Desktop cluster labels temporarily restore
+  // their dates on hover/focus/active, so reserve their full expanded height;
+  // otherwise that interaction could push the name across its lane boundary.
+  // Mobile hides dates at rest, so its normal packing height matches the
+  // rendered one-line label (the detail overlay covers an activated timeline).
+  const LABEL_H_FULL = compact ? 24 : 36;
   const GAP_X = 5;           // min horizontal breathing room between labels
   const GAP_Y = 4;           // min vertical breathing room between labels
   const MAX_LABEL_SLOTS = 22;
-  // The dots layer starts at canvas y=0; anything with a negative top edge is
-  // clipped by the sticky era-strip / scroll viewport above the first lane.
-  // No label box may have its top edge above this floor — the topmost lane's
-  // labels are therefore forced to fan downward instead of off-screen. We must
-  // NOT move the dots (that would desync the sticky lane-rail), only the labels.
-  const TOP_FLOOR = 6;
-  const bottomFloor = plotHeight() - 4;  // keep last lane's labels in-canvas too
-  const placedBoxes = [];    // [{x1,x2,y1,y2}] in canvas-absolute px
-  const slotOf = new Map();  // thinker id → { where, dy }
-  const sortedLayout = [...state.layout.values()].sort((a, b) => a.x - b.x);
+  const laneInset = compact ? 1 : 3;
+  const placedByLane = new Map();
+  const placements = new Map();
+  const sortedLayout = [...layoutValues].sort((a, b) =>
+    (laneLocal ? a.lane - b.lane : 0) || a.x - b.x);
   for (const p of sortedLayout) {
     const t = p.thinker;
     const nm = t.name || t.id;
-    const inCluster = denseClusters.has(clusterOf.get(t.id));
-    const LABEL_H = inCluster ? LABEL_H_NAME : LABEL_H_FULL;
-    const labelW = nm.length * 6 + 14;
+    const LABEL_H = LABEL_H_FULL;
+    const labelW = compact ? Math.min(nm.length * 6 + 14, 114) : nm.length * 6 + 14;
     const x1 = p.x - labelW / 2;
     const x2 = p.x + labelW / 2;
+    const laneTop = laneLocal ? p.lane * laneHeight + laneInset : 6;
+    const laneBottom = laneLocal
+      ? (p.lane + 1) * laneHeight - laneInset
+      : plotBottom - 4;
+    const laneKey = laneLocal ? p.lane : "plot";
+    const placedBoxes = placedByLane.get(laneKey) || [];
+    placedByLane.set(laneKey, placedBoxes);
     const boxFor = (slot) => {
       const where = slot % 2 === 0 ? "above" : "below";
       const dy = LABEL_BASE + Math.floor(slot / 2) * LABEL_TIER_DY;
       const y2 = where === "above" ? p.y - dy : p.y + dy + LABEL_H;
       const y1 = y2 - LABEL_H;
-      // Out of bounds: an "above" box that pokes past the top, or a "below"
-      // box that pokes past the bottom, is unusable — mark it so the search
-      // skips it and falls through to a downward (or upward) slot instead.
-      const inBounds = where === "above" ? y1 >= TOP_FLOOR : y2 <= bottomFloor;
+      const inBounds = y1 >= laneTop && y2 <= laneBottom;
       return { where, dy, x1, x2, y1, y2, inBounds };
     };
     const overlaps = (b) => placedBoxes.some((q) =>
@@ -1377,20 +1370,54 @@ function renderDots() {
       if (clr > bestClearance) { bestClearance = clr; bestBox = b; }
     }
     if (!placed) placed = bestBox;
-    // Last resort (every in-bounds slot rejected): a clamped slot-0 below the
-    // dot, kept inside the canvas so the label is at least never clipped.
+    // Last resort: retain the least-overlapping in-lane candidate. If unusual
+    // custom data leaves no candidate on either side of its dot, pin the box
+    // to the roomier side and derive dy from that exact pinned edge. This keeps
+    // CSS label placement and connector length in agreement.
     if (!placed) {
-      const dy = LABEL_BASE;
-      const y2 = Math.min(p.y + dy + LABEL_H, bottomFloor);
-      placed = { where: "below", dy, x1, x2, y1: y2 - LABEL_H, y2 };
+      const roomAbove = p.y - laneTop;
+      const roomBelow = laneBottom - p.y;
+      if (roomAbove >= roomBelow) {
+        const y1 = laneTop;
+        const y2 = Math.min(laneBottom, y1 + LABEL_H);
+        placed = { where: "above", dy: Math.max(0, p.y - y2), x1, x2, y1, y2 };
+      } else {
+        const y2 = laneBottom;
+        const y1 = Math.max(laneTop, y2 - LABEL_H);
+        placed = { where: "below", dy: Math.max(0, y1 - p.y), x1, x2, y1, y2 };
+      }
     }
     placedBoxes.push({ x1: placed.x1, x2: placed.x2, y1: placed.y1, y2: placed.y2 });
-    slotOf.set(t.id, { where: placed.where, dy: placed.dy });
+    placements.set(t.id, placed);
   }
+
+  return placements;
+}
+
+// ---------- render: dots -----------
+function renderDots() {
+  dotsLayer.innerHTML = "";
+
+  // Map each thinker id to its cluster index (if any). Only used in lanes view —
+  // network view does its own free-form placement and rarely produces stacks.
+  const clusterOf = new Map();
+  const denseClusters = new Set();  // clusters with 3+ members get the stack marker
+  if (state.viewMode === "lanes" && Array.isArray(state.clusters)) {
+    state.clusters.forEach((c, idx) => {
+      for (const id of c.ids) clusterOf.set(id, idx);
+      if (c.ids.length >= 3) denseClusters.add(idx);
+    });
+  }
+
+  const slotOf = computeLaneLabelPlacements(state.layout.values(), {
+    laneHeight: LANE_H,
+    plotBottom: plotHeight(),
+    laneLocal: state.viewMode === "lanes",
+  });
 
   for (const [, p] of state.layout) {
     const t = p.thinker;
-    const slot = slotOf.get(t.id) || { where: "above", dy: LABEL_BASE };
+    const slot = slotOf.get(t.id) || { where: "above", dy: LANE_H <= 72 ? 7 : 9 };
     const where = slot.where;
 
     const dot = document.createElement("div");
@@ -3258,6 +3285,13 @@ function wireTranslationDisclosures(root, ctx) {
 // explicit, and centralises Esc / outside-click behaviour for free.
 const popoverManager = (() => {
   let activeClose = null;
+  function closeActive() {
+    if (!activeClose) return false;
+    const fn = activeClose;
+    activeClose = null;
+    try { fn(); } catch (_) {}
+    return true;
+  }
   return {
     open(closeFn) {
       // Close whatever was open first. The close function is responsible
@@ -3272,13 +3306,11 @@ const popoverManager = (() => {
     notifyClosed(closeFn) {
       if (activeClose === closeFn) activeClose = null;
     },
-    closeAll() {
-      if (activeClose) {
-        const fn = activeClose;
-        activeClose = null;
-        try { fn(); } catch (_) {}
-      }
-    },
+    // Returns whether a surface was closed. The global Escape handler uses
+    // this to stop after dismissing the top surface instead of also closing
+    // the still-open article/thinker reader beneath it.
+    closeTop: closeActive,
+    closeAll: closeActive,
   };
 })();
 
@@ -3690,7 +3722,12 @@ function openGlossary(termKey, anchorEl, opts) {
     renderResultsView(q);
   });
   inputEl.addEventListener("keydown", (e) => {
-    if (e.key === "Escape") { e.preventDefault(); closeGloss(); return; }
+    if (e.key === "Escape") {
+      e.preventDefault();
+      e.stopPropagation();
+      closeGloss();
+      return;
+    }
     if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== "Enter") return;
     const items = bodyEl.querySelectorAll(".gp-result");
     if (!items.length) return;
@@ -3876,16 +3913,13 @@ function openGlossary(termKey, anchorEl, opts) {
     if (scrim) scrim.remove();
     if (activeGlossDock && activeGlossDock.el === pop) activeGlossDock = null;
     syncGlossaryUrl("");
-    document.removeEventListener("keydown", escClose);
     popoverManager.notifyClosed(closeGloss);
   }
-  function escClose(e) { if (e.key === "Escape") closeGloss(); }
   pop.querySelector(".gp-close").addEventListener("click", closeGloss);
   // The popover is sticky: a click outside it does NOT dismiss it. It stays put
   // until the user explicitly closes it (× button, Esc, or — on the mobile dock —
   // the scrim/swipe-down gesture), so they can read and click around the page
   // (timeline, article text, other terms) while keeping the definition open.
-  document.addEventListener("keydown", escClose);
   makePopoverDraggable(pop, { storageKey: "vedanta-gloss-popover-pos" });
   popoverManager.open(closeGloss);
 
@@ -4011,7 +4045,6 @@ async function openCitationPopover(key, anchorEl) {
     pop.remove();
     if (scrim) scrim.remove();
     document.removeEventListener("click", outsideClose);
-    document.removeEventListener("keydown", escClose);
     popoverManager.notifyClosed(closeCite);
   }
   function outsideClose(e) {
@@ -4019,7 +4052,6 @@ async function openCitationPopover(key, anchorEl) {
       closeCite();
     }
   }
-  function escClose(e) { if (e.key === "Escape") closeCite(); }
   pop.querySelector(".cp-close").addEventListener("click", closeCite);
   const openBtn = pop.querySelector(".cp-open-thinker");
   if (openBtn) {
@@ -4036,7 +4068,6 @@ async function openCitationPopover(key, anchorEl) {
     });
   }
   setTimeout(() => document.addEventListener("click", outsideClose), 0);
-  document.addEventListener("keydown", escClose);
   makePopoverDraggable(pop, { storageKey: "vedanta-cite-popover-pos" });
   popoverManager.open(closeCite);
 }
@@ -5195,14 +5226,22 @@ function closeFilterDrawer() {
   filterDrawer.classList.remove("is-open");
   filterDrawer.setAttribute("aria-hidden", "true");
   if (filterBtn) filterBtn.classList.remove("is-active");
+  popoverManager.notifyClosed(closeFilterDrawer);
 }
 
 if (filterBtn) {
   filterBtn.addEventListener("click", (e) => {
     e.stopPropagation();
-    const open = filterDrawer.classList.toggle("is-open");
-    filterDrawer.setAttribute("aria-hidden", open ? "false" : "true");
-    filterBtn.classList.toggle("is-active", open);
+    const opening = !filterDrawer.classList.contains("is-open");
+    if (!opening) {
+      closeFilterDrawer();
+      return;
+    }
+    popoverManager.closeAll();
+    filterDrawer.classList.add("is-open");
+    filterDrawer.setAttribute("aria-hidden", "false");
+    filterBtn.classList.add("is-active");
+    popoverManager.open(closeFilterDrawer);
   });
   // Stop drawer-internal clicks from bubbling to the document handler. This is
   // load-bearing: chip clicks call rerender(), which rebuilds the chip DOM.
@@ -5216,12 +5255,6 @@ if (filterBtn) {
   document.addEventListener("click", (e) => {
     if (!filterDrawer.classList.contains("is-open")) return;
     if (filterDrawer.contains(e.target) || filterBtn.contains(e.target)) return;
-    closeFilterDrawer();
-  });
-  // Close on Esc.
-  document.addEventListener("keydown", (e) => {
-    if (e.key !== "Escape") return;
-    if (!filterDrawer.classList.contains("is-open")) return;
     closeFilterDrawer();
   });
 }
@@ -5347,10 +5380,19 @@ if (themeBtn) {
 const aboutBtn = document.getElementById("aboutBtn");
 const aboutModal = document.getElementById("aboutModal");
 const closeAbout = document.getElementById("closeAbout");
-aboutBtn.addEventListener("click", () => { popoverManager.closeAll(); aboutModal.classList.add("is-open"); aboutModal.setAttribute("aria-hidden", "false"); });
-closeAbout.addEventListener("click", () => { aboutModal.classList.remove("is-open"); aboutModal.setAttribute("aria-hidden", "true"); });
+function closeAboutModal() {
+  aboutModal.classList.remove("is-open");
+  aboutModal.setAttribute("aria-hidden", "true");
+}
+aboutBtn.addEventListener("click", () => {
+  popoverManager.closeAll();
+  closeArticlesModal();
+  aboutModal.classList.add("is-open");
+  aboutModal.setAttribute("aria-hidden", "false");
+});
+closeAbout.addEventListener("click", closeAboutModal);
 aboutModal.addEventListener("click", (e) => {
-  if (e.target === aboutModal) { aboutModal.classList.remove("is-open"); aboutModal.setAttribute("aria-hidden", "true"); }
+  if (e.target === aboutModal) closeAboutModal();
 });
 
 // ---------- articles -----------
@@ -5358,6 +5400,11 @@ const articlesBtn = document.getElementById("articlesBtn");
 const articlesModal = document.getElementById("articlesModal");
 const closeArticles = document.getElementById("closeArticles");
 const articlesList = document.getElementById("articlesList");
+
+function closeArticlesModal() {
+  articlesModal.classList.remove("is-open");
+  articlesModal.setAttribute("aria-hidden", "true");
+}
 
 let articlesManifest = null;
 
@@ -5436,13 +5483,17 @@ async function ensureArticlesLoaded() {
 
 articlesBtn.addEventListener("click", async () => {
   popoverManager.closeAll();
-  await ensureArticlesLoaded();
+  closeAboutModal();
+  // Raise the chooser before awaiting its manifest. This makes it the active
+  // modal immediately, so another topbar surface cannot slip into the loading
+  // gap and leave two competing surfaces open.
   articlesModal.classList.add("is-open");
   articlesModal.setAttribute("aria-hidden", "false");
+  await ensureArticlesLoaded();
 });
-closeArticles.addEventListener("click", () => { articlesModal.classList.remove("is-open"); articlesModal.setAttribute("aria-hidden", "true"); });
+closeArticles.addEventListener("click", closeArticlesModal);
 articlesModal.addEventListener("click", (e) => {
-  if (e.target === articlesModal) { articlesModal.classList.remove("is-open"); articlesModal.setAttribute("aria-hidden", "true"); }
+  if (e.target === articlesModal) closeArticlesModal();
 });
 
 // Load a classic script once (idempotent), resolving when ready.
@@ -5591,8 +5642,7 @@ async function openSahasranamaReading() {
 async function openArticle(a) {
   // Articles render in the unified panel's Article tab. The articles
   // chooser modal closes on selection (the user picked one already).
-  articlesModal.classList.remove("is-open");
-  articlesModal.setAttribute("aria-hidden", "true");
+  closeArticlesModal();
   // A standalone article has no thinker context: show only the Article tab.
   applyTabContext("article");
   if (dpReaderMode) {
@@ -5810,12 +5860,15 @@ function renderMarkdownFull(src) {
 // ---------- keyboard nav -----------
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
+    if (popoverManager.closeTop()) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      return;
+    }
     if (articlesModal.classList.contains("is-open")) {
-      articlesModal.classList.remove("is-open");
-      articlesModal.setAttribute("aria-hidden", "true");
+      closeArticlesModal();
     } else if (aboutModal.classList.contains("is-open")) {
-      aboutModal.classList.remove("is-open");
-      aboutModal.setAttribute("aria-hidden", "true");
+      closeAboutModal();
     } else if (document.body.classList.contains("is-reading-mode")) {
       setReadingMode(false);
     } else if (panelState.open) {

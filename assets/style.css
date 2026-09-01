@@ -40,6 +40,15 @@
   --pane-w-time: 100%;
   --transition: 320ms cubic-bezier(.4,.0,.2,1);
 
+  /* Surface stack: the mobile reader is an overlay, but topbar-launched
+     controls must remain operable above it. True modals alone cover chrome. */
+  --z-reader-overlay: 240;
+  --z-popover-scrim: 279;
+  --z-popover: 280;
+  --z-filter-drawer: 300;
+  --z-topbar: 320;
+  --z-modal: 400;
+
   /* dot tiers */
   --dot-tier1: 18px;
   --dot-tier2: 12px;
@@ -94,7 +103,7 @@ a { color: inherit; }
   background: var(--bg);
   position: sticky;
   top: 0;
-  z-index: 320;
+  z-index: var(--z-topbar);
   flex-wrap: nowrap;
   white-space: nowrap;
 }
@@ -1625,7 +1634,7 @@ body.is-reading-mode .recite-bar {
 .about-modal {
   position: fixed; inset: 0;
   background: rgba(20,20,20,0.45);
-  z-index: 200;
+  z-index: var(--z-modal);
   display: none;
   align-items: center; justify-content: center;
   padding: 40px 20px;
@@ -1686,7 +1695,7 @@ body.is-reading-mode .recite-bar {
      scrollbar or spill past the edge — wrap instead */
   overflow-wrap: break-word;
   word-break: break-word;
-  z-index: 280;
+  z-index: var(--z-popover);
   font-family: var(--serif);
   font-size: 14px;
   line-height: 1.55;
@@ -1982,7 +1991,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     transition: transform 260ms cubic-bezier(.4,.0,.2,1),
                 max-height 260ms cubic-bezier(.4,.0,.2,1),
                 padding 200ms ease;
-    z-index: 280;
+    z-index: var(--z-popover);
   }
   /* The body is the scroll area; the handle + search row sit above it and stay
      put. touch-action pan-y so vertical scroll works but the drag-to-minimize
@@ -2085,7 +2094,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   max-height: min(72vh, 720px);
   overflow-y: auto;
   /* Stays above the article reader and the mobile pane overlay. */
-  z-index: 281;
+  z-index: calc(var(--z-popover) + 1);
   font-family: var(--serif);
   font-size: 14px;
   line-height: 1.55;
@@ -2238,7 +2247,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     display: block;
     position: fixed; inset: 0;
     background: rgba(20,20,20,0.35);
-    z-index: 279;
+    z-index: var(--z-popover-scrim);
     animation: gloss-scrim-in 200ms ease;
   }
 }
@@ -2650,7 +2659,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
 .articles-modal {
   position: fixed; inset: 0;
   background: rgba(20,20,20,0.45);
-  z-index: 200;
+  z-index: var(--z-modal);
   display: none;
   align-items: center; justify-content: center;
   padding: 40px 20px;
@@ -2964,7 +2973,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     display: block;
     position: fixed; inset: 0;
     background: rgba(20,20,20,0.18);
-    z-index: 149;
+    z-index: var(--z-popover-scrim);
     opacity: 1;
     transition: opacity 220ms ease;
     animation: gloss-scrim-in 220ms ease;
@@ -2989,7 +2998,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   background: var(--bg);
   border-bottom: 1px solid var(--rule);
   box-shadow: var(--shadow-md);
-  z-index: 19;
+  z-index: var(--z-filter-drawer);
   max-height: 0;
   overflow: hidden;
   transition: max-height 240ms ease;
@@ -3189,7 +3198,7 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     left: 0;
     height: auto;
     width: 100%;
-    z-index: 240;
+    z-index: var(--z-reader-overlay);
     border-left: none;
     isolation: isolate;
   }
@@ -3351,8 +3360,10 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
     white-space: nowrap;
   }
   .thinker-dot--tier-1 .name { font-size: 10.5px; }
-  .thinker-dot.label-above .label { bottom: 9px; }
-  .thinker-dot.label-below .label { top: 9px; }
+  /* Keep the renderer's lane-local offset authoritative. A fixed mobile 9px
+     value made the visible label and its computed connector disagree. */
+  .thinker-dot.label-above .label { bottom: var(--label-dy, 7px); }
+  .thinker-dot.label-below .label { top: var(--label-dy, 7px); }
   /* The label button on mobile keeps a comfortable tap area. */
   .thinker-dot .label { padding: 4px 5px; }
   .lane-row .lane-name {
