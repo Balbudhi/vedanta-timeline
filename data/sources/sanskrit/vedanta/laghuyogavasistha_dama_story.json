@@ -1,0 +1,434 @@
+{
+  "schema_version": "laghuyogavasistha-source-packet-v1",
+  "population": {
+    "first_id": "lyv-4-2-31",
+    "last_id": "lyv-4-2-86",
+    "expected_units": 56,
+    "observed_units": 56
+  },
+  "work": "Laghu-Yoga-Vāsiṣṭha",
+  "section": "Sthiti-prakaraṇa, sarga 2, Dāmādyupākhyāna 31-86",
+  "controlling_witness": {
+    "catalog": "Muktābodha M00351",
+    "edition": "Vāsudeva Śarmā Paṇaśīkara, Bombay, 1933",
+    "deva_origin": "/tmp/laghuyogavasistha-M00351-DEV.txt",
+    "iast_origin": "/tmp/laghuyogavasistha-M00351-IAST.txt",
+    "deva_url": "https://muktalib7.com/DL_CATALOG_ROOT/MUKTABODHA-LIBRARY-DEVANAGARI/laghuyogavAsiSTha%20with%20commentary%20vAsiSThacandrikA-M00351-DEV.txt",
+    "iast_url": "https://muktalib7.com/DL_CATALOG_ROOT/MUKTABODHA-LIBRARY-IAST/laghuyogavAsiSTha%20with%20commentary%20vAsiSThacandrikA-M00351-IAST.txt",
+    "license": "CC BY-NC 4.0 per witness header",
+    "printed_scan": {
+      "url": "https://archive.org/details/yrqk_laghu-yoga-vasistha-vasistha-chandrika-atma-sukha-by-valmiki-atmananda-pand",
+      "edition": "Nirṇaya Sāgar Press, Bombay, 1937 printing",
+      "printed_pages": "302-309",
+      "pdf_pages_reviewed": "314-321",
+      "review_status": "root text visually checked against scan"
+    }
+  },
+  "parallel_witnesses": [
+    {
+      "id": "mokshopaya-critical",
+      "path": "data/sources/sanskrit/vedanta/moksopaya_critical_gretil.txt",
+      "edition": "Historisch-kritische Gesamtausgabe, Sthitiprakaraṇa ed. Krause-Stinner and Stephan (2012), via GRETIL"
+    },
+    {
+      "id": "yogavasistha-vulgate",
+      "path": "data/sources/sanskrit/vedanta/yogavasistha_sanskritsahitya.txt"
+    }
+  ],
+  "units": [
+    {
+      "id": "lyv-4-2-31",
+      "verse": 31,
+      "deva": "दामव्यालकटन्यायो मा ते भवतु राघव |\nभीमभासदृढस्थित्या तवास्त्वतिविशोकता ||",
+      "iast": "dāmavyālakaṭanyāyo mā te bhavatu rāghava |\nbhīmabhāsadṛḍhasthityā tavāstvativiśokatā ||"
+    },
+    {
+      "id": "lyv-4-2-32",
+      "verse": 32,
+      "deva": "दामव्यालकटन्यायो भीमभासदृढस्थितिः |\nब्रह्मन्किमुक्तं भवता भवतापापहारिणा ||",
+      "iast": "dāmavyālakaṭanyāyo bhīmabhāsadṛḍhasthitiḥ |\nbrahmankimuktaṃ bhavatā bhavatāpāpahāriṇā ||"
+    },
+    {
+      "id": "lyv-4-2-33",
+      "verse": 33,
+      "deva": "दामव्यालकटन्यायं मीमभासदृढस्थितिम् |\nशृणु राघव तच्छ्रुत्वा यथेच्छसि तथा कुरु ||",
+      "iast": "dāmavyālakaṭanyāyaṃ mīmabhāsadṛḍhasthitim |\nśṛṇu rāghava tacchrutvā yathecchasi tathā kuru ||"
+    },
+    {
+      "id": "lyv-4-2-34",
+      "verse": 34,
+      "deva": "आसीत्पातालकुहरे सर्वैश्वर्यमनोहरे |\nशम्बरो नाम दैत्येन्द्रो मायामणिमहार्णवः ||",
+      "iast": "āsītpātālakuhare sarvaiśvaryamanohare |\nśambaro nāma daityendro māyāmaṇimahārṇavaḥ ||"
+    },
+    {
+      "id": "lyv-4-2-35",
+      "verse": 35,
+      "deva": "तस्यादिदेवदेवस्य कठिनोड्डामराकृतेः |\nबभूव विपुलं सैन्यमासुरं सुरनाशनम् ||",
+      "iast": "tasyādidevadevasya kaṭhinoḍḍāmarākṛteḥ |\nbabhūva vipulaṃ sainyamāsuraṃ suranāśanam ||"
+    },
+    {
+      "id": "lyv-4-2-36",
+      "verse": 36,
+      "deva": "तस्मिन्मायाबले सुप्ते देशान्तरगते तथा |\nतत्सैन्यं तरसा जघ्नुश्छिद्रं प्राप्य किलामराः ||",
+      "iast": "tasminmāyābale supte deśāntaragate tathā |\ntatsainyaṃ tarasā jaghnuśchidraṃ prāpya kilāmarāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-37",
+      "verse": 37,
+      "deva": "अथ शम्बरदैत्येन मुण्डिकाङ्कद्रुमादयः |\nरक्षार्थं मन्त्रिसामन्ताः स्वसेनासु नियोजिताः ||",
+      "iast": "atha śambaradaityena muṇḍikāṅkadrumādayaḥ |\nrakṣārthaṃ mantrisāmantāḥ svasenāsu niyojitāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-38",
+      "verse": 38,
+      "deva": "तानप्यन्तरमासाद्य जघ्नुर्देवा भयानकान् |\nस्वयं कोपादथायासीच्छम्बरः सुरपत्तनम् ||",
+      "iast": "tānapyantaramāsādya jaghnurdevā bhayānakān |\nsvayaṃ kopādathāyāsīcchambaraḥ surapattanam ||"
+    },
+    {
+      "id": "lyv-4-2-39",
+      "verse": 39,
+      "deva": "तस्य मायाबलाद्भीताः सुरास्तेऽन्तर्धिमाययुः |\nमेरुकाननकुञ्जेषु भयभारावयन्त्रिताः ||",
+      "iast": "tasya māyābalādbhītāḥ surāste'ntardhimāyayuḥ |\nmerukānanakuñjeṣu bhayabhārāvayantritāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-40",
+      "verse": 40,
+      "deva": "क्रन्दत्क्षुद्रामरगणं बाष्पक्लिन्नाङ्गनामुखम् |\nशून्यं ददर्श स स्वर्गं कल्पक्षीणजगत्समम् ||",
+      "iast": "krandatkṣudrāmaragaṇaṃ bāṣpaklinnāṅganāmukham |\nśūnyaṃ dadarśa sa svargaṃ kalpakṣīṇajagatsamam ||"
+    },
+    {
+      "id": "lyv-4-2-41",
+      "verse": 41,
+      "deva": "विहृत्य कुपितस्तत्र दोर्दण्डमदघूर्णितः |\nलोकपालपुरीं दग्ध्वा जगामात्मीयमालयम् ||",
+      "iast": "vihṛtya kupitastatra dordaṇḍamadaghūrṇitaḥ |\nlokapālapurīṃ dagdhvā jagāmātmīyamālayam ||"
+    },
+    {
+      "id": "lyv-4-2-42",
+      "verse": 42,
+      "deva": "एवं दृढतरीभूते द्वेषे दानवदेवयोः |\nदेवाः स्वर्गं परित्यज्य दिक्षु जग्मुरदर्शनम् ||",
+      "iast": "evaṃ dṛḍhatarībhūte dveṣe dānavadevayoḥ |\ndevāḥ svargaṃ parityajya dikṣu jagmuradarśanam ||"
+    },
+    {
+      "id": "lyv-4-2-43",
+      "verse": 43,
+      "deva": "अथ शम्बरदैत्येन ये ये सेनाधिनायकाः |\nक्रियन्ते यत्नतस्तांस्ताञ्जघ्नुर्यत्नपराः सुराः ||",
+      "iast": "atha śambaradaityena ye ye senādhināyakāḥ |\nkriyante yatnatastāṃstāñjaghnuryatnaparāḥ surāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-44",
+      "verse": 44,
+      "deva": "यावदुद्वेगमापन्नः शम्बरः कोपवान्भृशम् |\nससर्ज मायया घोरानसुरांस्त्रीन्महाबलान् ||",
+      "iast": "yāvadudvegamāpannaḥ śambaraḥ kopavānbhṛśam |\nsasarja māyayā ghorānasurāṃstrīnmahābalān ||"
+    },
+    {
+      "id": "lyv-4-2-45",
+      "verse": 45,
+      "deva": "निर्मिता मायया भीमाः पक्षक्षुब्धा इवाद्रयः |\nउदगुस्ते महामाया दामो व्यालः कटस्तथा ||",
+      "iast": "nirmitā māyayā bhīmāḥ pakṣakṣubdhā ivādrayaḥ |\nudaguste mahāmāyā dāmo vyālaḥ kaṭastathā ||"
+    },
+    {
+      "id": "lyv-4-2-46",
+      "verse": 46,
+      "deva": "वासनात्माभिमानाभ्यां हीनास्ते प्रथमोद्गताः |\nनाभिपातं न वापातं न विदुस्ते पलायनम् ||",
+      "iast": "vāsanātmābhimānābhyāṃ hīnāste prathamodgatāḥ |\nnābhipātaṃ na vāpātaṃ na viduste palāyanam ||"
+    },
+    {
+      "id": "lyv-4-2-47",
+      "verse": 47,
+      "deva": "न जीवितं न मरणं समरे न जयाजयौ |\nकेवलं सैनिकानग्रे दृष्ट्वा ते हननोद्यताः ||",
+      "iast": "na jīvitaṃ na maraṇaṃ samare na jayājayau |\nkevalaṃ sainikānagre dṛṣṭvā te hananodyatāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-48",
+      "verse": 48,
+      "deva": "शम्बरश्चिन्तयामास परितुष्टमनास्तदा |\nइष्टानिष्टाभिरेते हि वासनाभिर्यदुज्झिताः ||",
+      "iast": "śambaraścintayāmāsa parituṣṭamanāstadā |\niṣṭāniṣṭābhirete hi vāsanābhiryadujjhitāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-49",
+      "verse": 49,
+      "deva": "तदेते न पलायन्ते देवैरभिहता अपि |\nइति निर्णीय दैत्येन्द्रो दामव्यालकटान्विताम् ||",
+      "iast": "tadete na palāyante devairabhihatā api |\niti nirṇīya daityendro dāmavyālakaṭānvitām ||"
+    },
+    {
+      "id": "lyv-4-2-50",
+      "verse": 50,
+      "deva": "सेनां संप्रेषयामास देवेन्द्रबलघातिनीम् |\nदैत्याः सागरकुञ्जेभ्यः कन्दरेभ्यश्च सायुधाः ||",
+      "iast": "senāṃ saṃpreṣayāmāsa devendrabalaghātinīm |\ndaityāḥ sāgarakuñjebhyaḥ kandarebhyaśca sāyudhāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-51",
+      "verse": 51,
+      "deva": "उदगुर्भीमनिर्ह्रादाः सपक्षगिरिलीलया |\nअथोत्तस्थुर्निकुञ्जेभ्यः कन्दरेभ्यः सुरा बलात् ||",
+      "iast": "udagurbhīmanirhrādāḥ sapakṣagirilīlayā |\nathottasthurnikuñjebhyaḥ kandarebhyaḥ surā balāt ||"
+    },
+    {
+      "id": "lyv-4-2-52",
+      "verse": 52,
+      "deva": "प्रयान्त इव शैलेन्द्रा भीमाः स्वर्वासिनां गणाः |\nदेवासुरपताकिन्योस्तद्युद्धमभवत्तयोः ||",
+      "iast": "prayānta iva śailendrā bhīmāḥ svarvāsināṃ gaṇāḥ |\ndevāsurapatākinyostadyuddhamabhavattayoḥ ||"
+    },
+    {
+      "id": "lyv-4-2-53",
+      "verse": 53,
+      "deva": "अकालोल्बणकल्पान्तभीषणं भुवनान्तरे |\nतस्मिंस्तदा वर्तमाने घोरे समरसंभ्रमे ||",
+      "iast": "akālolbaṇakalpāntabhīṣaṇaṃ bhuvanāntare |\ntasmiṃstadā vartamāne ghore samarasaṃbhrame ||"
+    },
+    {
+      "id": "lyv-4-2-54",
+      "verse": 54,
+      "deva": "पतिताङ्गायुधानीह प्रस्रवद्रुधिराणि च |\nपयांसीव विशीर्णानि देवसैन्यानि दुद्रुवुः ||",
+      "iast": "patitāṅgāyudhānīha prasravadrudhirāṇi ca |\npayāṃsīva viśīrṇāni devasainyāni dudruvuḥ ||"
+    },
+    {
+      "id": "lyv-4-2-55",
+      "verse": 55,
+      "deva": "दामव्यालकटास्तानि चिरमन्तर्हितान्यपि |\nअनुजग्मुर्लसन्नादमिन्धनानीव पावकाः ||",
+      "iast": "dāmavyālakaṭāstāni ciramantarhitānyapi |\nanujagmurlasannādamindhanānīva pāvakāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-56",
+      "verse": 56,
+      "deva": "अन्विष्यन्तोऽपि यत्नेन नालभन्तासुराः सुरान् |\nअलब्धेष्वमरौघेषु दामव्यालकटास्तथा ||",
+      "iast": "anviṣyanto'pi yatnena nālabhantāsurāḥ surān |\nalabdheṣvamaraugheṣu dāmavyālakaṭāstathā ||"
+    },
+    {
+      "id": "lyv-4-2-57",
+      "verse": 57,
+      "deva": "जग्मुः पातालकोशस्थं प्रभुं प्रमुदिताशयाः |\nअथ देवा विषण्णास्ते क्षणमाश्वास्य वै ययुः ||",
+      "iast": "jagmuḥ pātālakośasthaṃ prabhuṃ pramuditāśayāḥ |\natha devā viṣaṇṇāste kṣaṇamāśvāsya vai yayuḥ ||"
+    },
+    {
+      "id": "lyv-4-2-58",
+      "verse": 58,
+      "deva": "दामादिभिश्च विजिता ब्रह्माणममितौजसम् |\nतेषामाविरभूद्ब्रह्मा रक्तो रक्तासनच्छविः ||",
+      "iast": "dāmādibhiśca vijitā brahmāṇamamitaujasam |\nteṣāmāvirabhūdbrahmā rakto raktāsanacchaviḥ ||"
+    },
+    {
+      "id": "lyv-4-2-59",
+      "verse": 59,
+      "deva": "प्रणेमुस्ते सुरास्तस्मै तत्सर्वं शम्बरेहितम् |\nसम्यक्प्रकथयामासुर्दामव्यालकटक्रमम् ||",
+      "iast": "praṇemuste surāstasmai tatsarvaṃ śambarehitam |\nsamyakprakathayāmāsurdāmavyālakaṭakramam ||"
+    },
+    {
+      "id": "lyv-4-2-60",
+      "verse": 60,
+      "deva": "समाकर्ण्याखिलं ब्रह्मा विचार्य स विचारवान् |\nउवाचेदं सुरानीकमाश्वासनपरं वचः ||",
+      "iast": "samākarṇyākhilaṃ brahmā vicārya sa vicāravān |\nuvācedaṃ surānīkamāśvāsanaparaṃ vacaḥ ||"
+    },
+    {
+      "id": "lyv-4-2-61",
+      "verse": 61,
+      "deva": "हन्त वर्षसहस्रान्ते शम्बरस्य रणे सुराः |\nजेतव्या समरे सेना तावत्कालं प्रतीक्ष्यताम् ||",
+      "iast": "hanta varṣasahasrānte śambarasya raṇe surāḥ |\njetavyā samare senā tāvatkālaṃ pratīkṣyatām ||"
+    },
+    {
+      "id": "lyv-4-2-62",
+      "verse": 62,
+      "deva": "दामव्यालकटानेतान्युध्यध्वममरेश्वराः |\nयोधयन्तः पलायध्वं युद्धार्थं पुनरेव च ||",
+      "iast": "dāmavyālakaṭānetānyudhyadhvamamareśvarāḥ |\nyodhayantaḥ palāyadhvaṃ yuddhārthaṃ punareva ca ||"
+    },
+    {
+      "id": "lyv-4-2-63",
+      "verse": 63,
+      "deva": "युद्धाभ्यासबलादेषा मुकुराणामिवाशये |\nअहङ्कारचमत्कारः प्रतिबिम्बमुपैष्यति ||",
+      "iast": "yuddhābhyāsabalādeṣā mukurāṇāmivāśaye |\nahaṅkāracamatkāraḥ pratibimbamupaiṣyati ||"
+    },
+    {
+      "id": "lyv-4-2-64",
+      "verse": 64,
+      "deva": "गृहीतवासना ह्येते दामव्यालकटासुराः |\nसुजेया वो भविष्यन्ति लग्नजालाः खगा इव ||",
+      "iast": "gṛhītavāsanā hyete dāmavyālakaṭāsurāḥ |\nsujeyā vo bhaviṣyanti lagnajālāḥ khagā iva ||"
+    },
+    {
+      "id": "lyv-4-2-65",
+      "verse": 65,
+      "deva": "आस्थामात्रमनन्तनां दुःखानामाकरं विदुः |\nअनास्थामात्रमभितः सुखानामाकरं विदुः ||",
+      "iast": "āsthāmātramanantanāṃ duḥkhānāmākaraṃ viduḥ |\nanāsthāmātramabhitaḥ sukhānāmākaraṃ viduḥ ||"
+    },
+    {
+      "id": "lyv-4-2-66",
+      "verse": 66,
+      "deva": "वासनातन्तुबद्धोऽयं लोको हि परिवर्तते |\nसा प्रवृद्धातिदुःखाय सुखायोच्छेदमागता ||",
+      "iast": "vāsanātantubaddho'yaṃ loko hi parivartate |\nsā pravṛddhātiduḥkhāya sukhāyocchedamāgatā ||"
+    },
+    {
+      "id": "lyv-4-2-67",
+      "verse": 67,
+      "deva": "धीरोऽप्यतिबहुज्ञोऽपि प्रवृद्धोऽपि महानपि |\nतृष्णया बध्यते जन्तुः सिंहः शृङ्खलया यथा ||",
+      "iast": "dhīro'pyatibahujño'pi pravṛddho'pi mahānapi |\ntṛṣṇayā badhyate jantuḥ siṃhaḥ śṛṅkhalayā yathā ||"
+    },
+    {
+      "id": "lyv-4-2-68",
+      "verse": 68,
+      "deva": "इत्युक्त्वा भगवान्देवस्तत्रैवान्तर्धिमाययौ |\nसुरास्त्वाकर्ण्य तद्वाक्यं जग्मुश्चाभिमतां दिशम् ||",
+      "iast": "ityuktvā bhagavāndevastatraivāntardhimāyayau |\nsurāstvākarṇya tadvākyaṃ jagmuścābhimatāṃ diśam ||"
+    },
+    {
+      "id": "lyv-4-2-69",
+      "verse": 69,
+      "deva": "चक्रुर्दुन्दुभिनिर्घोषं प्रलयाभ्ररवोपमम् |\nअथ दैत्यैर्महाव्योम्नि तैः पातालतलोत्थितैः ||",
+      "iast": "cakrurdundubhinirghoṣaṃ pralayābhraravopamam |\natha daityairmahāvyomni taiḥ pātālatalotthitaiḥ ||"
+    },
+    {
+      "id": "lyv-4-2-70",
+      "verse": 70,
+      "deva": "कालक्षेपकरं घोरं पुनर्युद्धमवर्तत |\nपुनः पलायनं चक्रुरयुध्यन्त पुनः सुराः ||",
+      "iast": "kālakṣepakaraṃ ghoraṃ punaryuddhamavartata |\npunaḥ palāyanaṃ cakrurayudhyanta punaḥ surāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-71",
+      "verse": 71,
+      "deva": "एवं ते कालहरणं युद्धेन सुरपुङ्गवाः |\nचक्रुर्नानाविधोपायैर्दैत्यव्यामोहकारणात् ||",
+      "iast": "evaṃ te kālaharaṇaṃ yuddhena surapuṅgavāḥ |\ncakrurnānāvidhopāyairdaityavyāmohakāraṇāt ||"
+    },
+    {
+      "id": "lyv-4-2-72",
+      "verse": 72,
+      "deva": "एतावता च कालेन दृढाभ्यासादहंकृतेः |\nदामादयोऽहमित्यास्थां जगृहुर्युक्तचेतसः ||",
+      "iast": "etāvatā ca kālena dṛḍhābhyāsādahaṃkṛteḥ |\ndāmādayo'hamityāsthāṃ jagṛhuryuktacetasaḥ ||"
+    },
+    {
+      "id": "lyv-4-2-73",
+      "verse": 73,
+      "deva": "भववासनया ग्रस्ता मोहवासनया युताः |\nआशापाशनिबद्धास्ते ततः कृपणतां गताः ||",
+      "iast": "bhavavāsanayā grastā mohavāsanayā yutāḥ |\nāśāpāśanibaddhāste tataḥ kṛpaṇatāṃ gatāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-74",
+      "verse": 74,
+      "deva": "स्थिरो भवतु मे देहः सुखायास्तु धनं मम |\nइति वृद्धधियां तेषां धैर्यमन्तर्धिमाययौ ||",
+      "iast": "sthiro bhavatu me dehaḥ sukhāyāstu dhanaṃ mama |\niti vṛddhadhiyāṃ teṣāṃ dhairyamantardhimāyayau ||"
+    },
+    {
+      "id": "lyv-4-2-75",
+      "verse": 75,
+      "deva": "अतस्तस्मिन् रणे दैत्याः सापेक्षत्वमुपाययुः |\nमरिष्यामो मरिष्याम इति चिन्ताहताशयाः ||",
+      "iast": "atastasmin raṇe daityāḥ sāpekṣatvamupāyayuḥ |\nmariṣyāmo mariṣyāma iti cintāhatāśayāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-76",
+      "verse": 76,
+      "deva": "अथ प्रम्लानसत्त्वास्ते हन्तुमग्रगतं भटम् |\nन शेकुरिन्धने क्षीणे हविर्दग्धमिवाग्नयः ||",
+      "iast": "atha pramlānasattvāste hantumagragataṃ bhaṭam |\nna śekurindhane kṣīṇe havirdagdhamivāgnayaḥ ||"
+    },
+    {
+      "id": "lyv-4-2-77",
+      "verse": 77,
+      "deva": "बहुनात्र किमुक्तेन मरणाद्भीतचेतसः |\nपलायनैकशरणा नष्टास्ते त्रिदशारयः ||",
+      "iast": "bahunātra kimuktena maraṇādbhītacetasaḥ |\npalāyanaikaśaraṇā naṣṭāste tridaśārayaḥ ||"
+    },
+    {
+      "id": "lyv-4-2-78",
+      "verse": 78,
+      "deva": "अहमेतत्प्रबोधाय वच्मि राम महामते |\nदामव्यालकटन्यायो मा भवत्विति लीलया ||",
+      "iast": "ahametatprabodhāya vacmi rāma mahāmate |\ndāmavyālakaṭanyāyo mā bhavatviti līlayā ||"
+    },
+    {
+      "id": "lyv-4-2-79",
+      "verse": 79,
+      "deva": "अविवेकानुसंधानाच्चित्तमापदमीदृशीम् |\nअनन्तभवदुःखाय परिगृह्णाति हेलया ||",
+      "iast": "avivekānusaṃdhānāccittamāpadamīdṛśīm |\nanantabhavaduḥkhāya parigṛhṇāti helayā ||"
+    },
+    {
+      "id": "lyv-4-2-80",
+      "verse": 80,
+      "deva": "कथं दामकटव्यालाः समुत्पन्नाः परात्पदात् |\nइति मे संशयं ब्रह्मन्यथावच्छेत्तुमर्हसि ||",
+      "iast": "kathaṃ dāmakaṭavyālāḥ samutpannāḥ parātpadāt |\niti me saṃśayaṃ brahmanyathāvacchettumarhasi ||"
+    },
+    {
+      "id": "lyv-4-2-81",
+      "verse": 81,
+      "deva": "यथा दामादयो राम प्रतिभामात्ररूपिणः |\nतथैवेमे वयमिति न बहिः क्वापि संस्थिताः ||",
+      "iast": "yathā dāmādayo rāma pratibhāmātrarūpiṇaḥ |\ntathaiveme vayamiti na bahiḥ kvāpi saṃsthitāḥ ||"
+    },
+    {
+      "id": "lyv-4-2-82",
+      "verse": 82,
+      "deva": "अलीकमेव त्वद्भावो मद्भावोऽलीकमेव च |\nदामव्यालकटादीनां सद्भावोऽलीकमेव च ||",
+      "iast": "alīkameva tvadbhāvo madbhāvo'līkameva ca |\ndāmavyālakaṭādīnāṃ sadbhāvo'līkameva ca ||"
+    },
+    {
+      "id": "lyv-4-2-83",
+      "verse": 83,
+      "deva": "प्रतिभासमयी काचिज्जीवशक्तिः परात्मनः |\nशम्बरध्यानविक्षुब्धा त्रिधोल्लासमवाप सा ||",
+      "iast": "pratibhāsamayī kācijjīvaśaktiḥ parātmanaḥ |\nśambaradhyānavikṣubdhā tridhollāsamavāpa sā ||"
+    },
+    {
+      "id": "lyv-4-2-84",
+      "verse": 84,
+      "deva": "तस्मान्नेमे वयं सत्या न च दामादयः क्वचित् |\nसत्यं संवेदनं शुद्धं बोधाकाशं निरञ्जनम् ||",
+      "iast": "tasmānneme vayaṃ satyā na ca dāmādayaḥ kvacit |\nsatyaṃ saṃvedanaṃ śuddhaṃ bodhākāśaṃ nirañjanam ||"
+    },
+    {
+      "id": "lyv-4-2-85",
+      "verse": 85,
+      "deva": "सत्यं सर्वगतं शान्तमस्त्यनस्तमनोदयम् |\nतस्य शक्तिसमुल्लासमात्रं जगदिति स्थितिः ||",
+      "iast": "satyaṃ sarvagataṃ śāntamastyanastamanodayam |\ntasya śaktisamullāsamātraṃ jagaditi sthitiḥ ||"
+    },
+    {
+      "id": "lyv-4-2-86",
+      "verse": 86,
+      "deva": "सर्वत्र सर्वमिदमस्ति यथाभूतं नो किंचन क्वचिदिहास्ति न चानुभूतम् |\nशान्तं सदेकमिदमाननमित्थमास्ते\nसंत्यक्तशङ्कमपभेदमतस्त्वमास्स्व ||",
+      "iast": "sarvatra sarvamidamasti yathābhūtaṃ no kiṃcana kvacidihāsti na cānubhūtam |\nśāntaṃ sadekamidamānanamitthamāste\nsaṃtyaktaśaṅkamapabhedamatastvamāssva ||"
+    }
+  ],
+  "textual_notes": [
+    {
+      "unit_id": "lyv-4-2-33",
+      "printed_and_transcribed": "mīmabhāsadṛḍhasthitim / मीमभासदृढस्थितिम्",
+      "parallel_reading": "bhīmabhāsa- in verse 32 and in the Mokṣopāya/Yoga-Vāsiṣṭha parallels",
+      "policy": "preserve the controlling printed reading; expose the parallel in the apparatus; do not silently emend"
+    }
+  ],
+  "apparatus": [
+    {
+      "id": "robot-reading",
+      "attach_after": "lyv-4-2-64",
+      "critical_locus": "MU_4,9.38",
+      "critical_iast": "yadi te yantrapuruṣāś śambareṇa vinirmitāḥ /\nvāsanāṃ nāśrayiṣyanti yāsyanti tad ajayyatām // MU_4,9.38",
+      "vulgate_locus": "4.27.38",
+      "vulgate_devanagari": "यदा तेऽत्यज्ञपुरुषाः शम्बरेण विनिर्मिताः । वासनामाश्रयिष्यन्ति तदा यास्यन्ति जेयताम्",
+      "issue": "critical yantrapuruṣāḥ versus vulgate atyajñapuruṣāḥ; Laghu omits this line"
+    },
+    {
+      "id": "construction-cluster",
+      "attach_after": "lyv-4-2-46",
+      "critical_loci": [
+        "MU_4,7.34",
+        "MU_4,7.35",
+        "MU_4,7.36",
+        "MU_4,7.37",
+        "MU_4,7.38",
+        "MU_4,7.39"
+      ],
+      "critical_iast": [
+        "nirmitā māyayā bhīmāḥ kalpapādapabāhavaḥ /\nudagus te mahākāyāḥ pakṣakṣubdhā ivādrayaḥ // MU_4,7.34",
+        "dāmā vyālaḥ kaṭaś ceti nāmabhiḥ parilāñchitāḥ /\nyathāprāptaikakartāraś cetanāmātradharmiṇaḥ // MU_4,7.35",
+        "abhāvāt karmaṇāṃ te ca prāktanānām avāsanāḥ /\nnirvikalpakacinmātraparispandaikakarmiṇaḥ // MU_4,7.36",
+        "karmabījaṃ kalāṃ tanvīṃ dadhānā mananātmikām /\napuṣṭāṃ kṛtrimām antar ādāyodayam āgatāḥ // MU_4,7.37",
+        "pāramparyeṇa te hy atra kākatālīyavad bhaṭāḥ /\nprakṛtām anuvartante kriyām ujjhitavāsanāḥ // MU_4,7.38",
+        "ardhasuptā yathā bālās svāṅgair iṅganti kevalam /\nvāsanātmābhimānābhyāṃ hīnās te tadvad eva hi // MU_4,7.39"
+      ],
+      "vulgate_loci": [
+        "4.25.34",
+        "4.25.35",
+        "4.25.36",
+        "4.25.37",
+        "4.25.38",
+        "4.25.39",
+        "4.25.40"
+      ],
+      "vulgate_devanagari": [
+        "ससर्ज मायया घोरानसुरांस्त्रीन्महाबलान् । बलरक्षार्थमुदितान्कालान्मूर्तिमिव स्थितान्",
+        "निर्वृत्ता मायया भीमा बलपादपवाहिनः । उदगुस्ते महामायाः पक्षक्षुब्धा इवाद्रयः",
+        "दामो व्यालः कटश्चेति नामभिः परिलाञ्छिताः । यथाप्राप्तैककर्तारश्चेतनामात्रधर्मिणः",
+        "अभावात्कर्मणां ते च प्राक्तना नच वासनाः । निर्विकल्पकचिन्मात्रपरिस्पन्दैकधर्मकाः",
+        "कर्मजीवकलां तन्वीमसारां च मनोभिदाम् । अपुष्टां कृत्रिमामन्तश्चोदयोदयमागताः",
+        "ते ह्यन्धपारम्पर्येण काकतालीयवद्भटाः । प्रकृतामनुवर्तन्ते क्रियामुज्झितवासनाः ।। ३९",
+        "अर्धसुप्ता यथा बालाः स्वाङ्गै रिङ्गन्ति केवलम् । वासनात्माभिमानाभ्यां हीनास्ते तद्वदेव हि ।। ४०"
+      ],
+      "issue": "Laghu condenses the longer construction and automatic-action description into verses 44-48"
+    }
+  ]
+}

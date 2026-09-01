@@ -1,36 +1,43 @@
-# Yoga-Vāsiṣṭha Śambara article — source and review record
+# Dāmādyupākhyāna reader — source-resolution and release record
 
-Date: 2026-09-01
+## Controlling population
 
-## Scope
+- Work: *Laghu-Yoga-Vāsiṣṭha*.
+- Locus: Sthiti-prakaraṇa, sarga 2, verses 31-86.
+- Narrative: the complete concise Dāma-Vyāla-Kaṭa story, including its frame and close.
+- Stable IDs: `lyv-4-2-31` through `lyv-4-2-86`.
+- Expected/observed source units: 56/56.
+- Machine-readable packet: `data/sources/sanskrit/vedanta/laghuyogavasistha_dama_story.json`.
 
-- Remembered English locator: Swami Venkatesananda, *Vasiṣṭha’s Yoga* (SUNY Press, 1993), “The Story of Dāma, Vyāla and Kaṭa,” pp. 165–170. The identifying phrase is “robot-like working projections.”
-- Complete Sanskrit narrative located: Sthiti-prakaraṇa 4.25.6–4.32.26, 294 verses.
-- Public narrative treatment: complete locus-tracked compression following every plot turn; not represented as a verse-by-verse full translation.
-- Closed interactive population: `yv-4-25-34`, `yv-4-25-36`, `yv-4-25-37`, `yv-4-25-38`, `yv-4-25-39`, `yv-4-25-40`.
-- Expected and observed interactive IDs: exact equality, 6/6.
-- Expected and observed word records: 62/62, with contiguous indices and 100% English-slot coverage.
+## Witness hierarchy
 
-## Witnesses
+1. Controlling Laghu text: Vāsudeva Śarmā Paṇaśīkara's Nirṇaya Sāgar edition, visually checked on printed pp. 302-309 in the 1937 scan.
+2. Paired transcription: Muktābodha M00351 Devanāgarī and IAST, used for exact transport and extraction.
+3. Parallel historical-critical text: *Mokṣopāya*, Sthitiprakaraṇa, ed. Susanne Krause-Stinner and Peter Stephan (2012), repository GRETIL transformation.
+4. Later vulgate: repository `yogavasistha_sanskritsahitya.txt`.
+5. Swami Venkatesananda's 1993 English is a story locator and comparison translation only; it does not control Sanskrit or site English.
 
-- Controlling public text: `data/sources/sanskrit/vedanta/yogavasistha_sanskritsahitya.txt`.
-- Located comparison witness: local Muktābodha M00338, *Yoga-Vāsiṣṭha* part 4 with *Tātparyaprakāśa*. Exact line-level collation remains pending and is not claimed publicly.
-- English locator only: Venkatesananda EPUB at `/Users/eeshan/Zotero/storage/AVRWA64I/Valmiki, Venkatesananda - Yoga Vasistha.epub`.
-- Grammar evidence: Prakriya clean/raw Dhātupāṭha witnesses at the paths recorded in the passage data. The interpreter and generated parses were not used.
+## Decisive apparatus findings
 
-## The “robot” finding
+- The historical-critical *Mokṣopāya* reads `yantrapuruṣāḥ` at MU 4.9.38: *yantra* + *puruṣa*, “machine-persons / mechanical persons.”
+- The later vulgate parallel reads `atyajñapuruṣāḥ` at YV 4.27.38.
+- The Laghu text omits that line, while condensing the construction account into 2.44-48.
+- The longer critical construction cluster, MU 4.7.34-39, supplies `cetanāmātradharmiṇaḥ`, `nirvikalpakacinmātraparispandaikakarmiṇaḥ`, `kṛtrimām`, the automatic-sequence comparison, and the half-asleep-child comparison.
+- Laghu 2.33 and the printed scan read `mīmabhāsadṛḍhasthitim`; parallel witnesses and the immediately preceding verse have `bhīmabhāsa-`. The controlling reading is preserved and the variant must be displayed, never silently repaired.
 
-No one lexeme means “robot.” The analogy is cumulatively supported by:
+## Required public artifact
 
-- `kṛtrimām`: constructed/artificial (4.25.38);
-- `yathā-prāpta-eka-kartāraḥ`: doers solely of what presents itself (4.25.36);
-- `andha-pāramparyeṇa`: through a blind succession (4.25.39);
-- `codaya-udayam`: the arising of prompting/impulsion (4.25.38);
-- the half-asleep-child comparison (4.25.40);
-- explicit absence of prior `karma`, `vāsanā`, and `ātma-abhimāna` (4.25.37, 40).
+The replacement is a root-text reading, not an essay. Each of the 56 units must provide:
 
-The analogy must not erase the same passage’s `cetanā-mātra` and `cit-mātra-parispanda`. These terms are retained in Sanskrit in the public translation.
+- printed Devanāgarī saṃhitā;
+- reviewed, sandhi-resolved IAST pada-pāṭha;
+- a complete slotted literal translation;
+- a separate final translation produced only after word review;
+- per-word morphology, kāraka, compound vigraha, real morpheme segmentation, and exact Dhātupāṭha evidence for every root claim;
+- every source-supported parallel derivation or nirvacana, separated by category and evidence;
+- attached textual apparatus where the Laghu, critical, and vulgate witnesses diverge;
+- bidirectional Sanskrit-English highlighting and click-open contextual cards through the shared Gītā reader.
 
-## Completion status
+## Release gate
 
-Primary source replay, transliteration replay, slot coverage, browser rendering, and word-card interaction pass. The article remains `in-progress` because exact Muktābodha collation and a genuinely independent Sanskrit review have not yet been completed. Do not relabel it complete on schema checks alone.
+The former prose-first sample was withdrawn in commit `a529749`. Do not restore an article-manifest entry until all 56 units have exact source/pada/slot replay, complete non-placeholder grammar, full glossary coverage, apparatus placement, and an independent Sanskrit review with zero concrete errors.
