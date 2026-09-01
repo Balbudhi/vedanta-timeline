@@ -1,0 +1,101 @@
+{
+  "term_key": "bodhakasha",
+  "term_iast": "bodhākāśa",
+  "term_devanagari": "बोधाकाश",
+  "literal": "the space of bodha, or bodha as open space; bodha + ākāśa",
+  "aliases": ["bodhakasha", "bodhākāśa", "Bodhākāśa", "बोधाकाश", "bodha-akasha", "bodha-ākāśa", "bodhākāśam"],
+  "editorial_contract": "v2",
+  "entry_status": "draft",
+  "source_status": "working-witness",
+  "source_record_ids": ["gauda-abhinanda-laghu-yogavasistha-dama-story"],
+  "editorial_dependencies": {
+    "review_areas": ["laghu-yogavasistha", "bodhakasha", "paninian-grammar", "sanskrit-reader"],
+    "update_when": ["new-primary-witness", "new-grammar-review", "citation-revision"]
+  },
+  "derivations": [
+    {
+      "category": "compound formation",
+      "formation": "bodha + ākāśa → bodhākāśa",
+      "meaning": "the space of bodha; or bodha itself presented as open space",
+      "members": [
+        {
+          "form": "bodha",
+          "derivation": "√budh + ghañ",
+          "root_evidence": [
+            {"locus": "01.0994", "aupadeshika_devanagari": "बुधँ", "artha_sanskrit": "अवगमने", "sense": "understanding"},
+            {"locus": "01.1016", "aupadeshika_devanagari": "बुधिँर्", "artha_sanskrit": "बोधने", "sense": "causing to know, awakening"}
+          ]
+        },
+        {
+          "form": "ākāśa",
+          "derivation": "ā- + √kāś + ghañ",
+          "root_evidence": [{"locus": "01.0734", "aupadeshika_devanagari": "काशृँ", "artha_sanskrit": "दीप्तौ", "sense": "shining"}]
+        }
+      ],
+      "alternatives": [
+        {"type": "ṣaṣṭhī-tatpuruṣa", "vigraha": "bodhasya ākāśam", "meaning": "the space of bodha"},
+        {"type": "appositional karmadhāraya", "vigraha": "bodha eva ākāśam", "meaning": "bodha itself as space/open expanse"}
+      ],
+      "evidence": [
+        "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt, 01.0994, 01.1016, 01.0734",
+        "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json, corresponding baseindices",
+        "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"
+      ],
+      "qualification": "Both compound analyses are grammatically available in the nominal apposition. The reader preserves both rather than choosing a single metaphysical paraphrase."
+    }
+  ],
+  "definition_claims": [
+    {
+      "id": "reader_definition",
+      "text": "*Bodhākāśa* joins *bodha*, knowing or awakening, with *ākāśa*, open space. It may be parsed as 'the space of bodha' or appositionally as 'bodha which is space.'",
+      "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+    },
+    {
+      "id": "textual_function",
+      "text": "Verse 84 places *bodhākāśam* beside *saṃvedanam* in a neuter nominal series and qualifies the series as real, pure, and unstained. The space image expands the preceding knowing term without making the two words lexically identical.",
+      "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+    },
+    {
+      "id": "school_reading_or_limit",
+      "text": "The local compound permits a genitival and an appositional analysis. Choosing among broader doctrinal interpretations of 'space' would require additional reviewed loci, so this entry preserves the two grammatical readings only.",
+      "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+    }
+  ],
+  "exposition_sections": [
+    {
+      "id": "two-compound-readings",
+      "title": "Knowing as space, or the space of knowing",
+      "claims": [
+        {
+          "id": "member-derivations",
+          "text": "*Bodha* is supported by √budh in the registers 'understanding' and 'awakening/causing to know.' *Ākāśa* retains the shining image of ā-√kāś. The compound therefore holds knowing and luminous openness together without reducing one member to the other.",
+          "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+        },
+        {
+          "id": "parallel-parses",
+          "text": "A genitival expansion gives *bodhasya ākāśam*, 'the space of bodha.' An appositional expansion gives *bodha eva ākāśam*, 'bodha itself as space.' Both preserve the compound's two members and fit the nominal syntax of verse 84.",
+          "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+        }
+      ]
+    }
+  ],
+  "invariant_definition": "In this reader, *bodhākāśa* is the space of *bodha* or *bodha* presented as open space. *Bodha* carries knowing/awakening from √budh; *ākāśa* carries the luminous openness of ā-√kāś. Verse 84 places the compound in apposition with *saṃvedana* and qualifies the nominal series as real, pure, and unstained.",
+  "per_school": [
+    {
+      "school": "Laghu-Yoga-Vāsiṣṭha, Dāmādyupākhyāna",
+      "definition": "Verse 84 names the real, pure, unstained *saṃvedana* as *bodhākāśa*, allowing both 'space of bodha' and 'bodha as space.'",
+      "primary_loci": ["Sthiti-prakaraṇa 2.84"],
+      "citations": [{"cite": "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84", "locus_short": "Laghu-YV 2.84"}]
+    }
+  ],
+  "translator_note": "Keep both compound members visible. 'Knowing-space' is compact; 'space of bodha' preserves the genitival reading; 'bodha as open space' preserves the appositional reading. None should be silently replaced by an unrelated one-word abstraction.",
+  "see_also": ["samvedana", "jnana", "prakasa", "brahman"],
+  "legacy_coverage": {
+    "invariant_definition": {"status": "fully-migrated", "mapped_sections": ["two-compound-readings"]},
+    "per_school": {"status": "fully-migrated", "mapped_sections": ["two-compound-readings"]},
+    "translator_note": {"status": "fully-migrated", "mapped_sections": ["two-compound-readings"]},
+    "literal": {"status": "fully-migrated", "mapped_sections": ["two-compound-readings"]}
+  },
+  "last_verified_at": "2026-09-01",
+  "last_verified_by": "sanskrit-source-derivation-review"
+}

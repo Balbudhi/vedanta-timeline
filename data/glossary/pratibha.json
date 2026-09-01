@@ -1,0 +1,108 @@
+{
+  "term_key": "pratibha",
+  "term_iast": "pratibhā",
+  "term_devanagari": "प्रतिभा",
+  "literal": "a flashing-forth, appearance, or presentation; prati- + √bhā 'to shine'",
+  "aliases": ["pratibha", "pratibhā", "Pratibhā", "प्रतिभा", "pratibhāmātra", "pratibhā-mātra"],
+  "editorial_contract": "v2",
+  "entry_status": "draft",
+  "source_status": "working-witness",
+  "source_record_ids": ["gauda-abhinanda-laghu-yogavasistha-dama-story"],
+  "editorial_dependencies": {
+    "review_areas": ["laghu-yogavasistha", "pratibha", "paninian-grammar", "sanskrit-reader"],
+    "update_when": ["new-primary-witness", "new-grammar-review", "citation-revision"]
+  },
+  "derivations": [
+    {
+      "category": "grammatical formation",
+      "formation": "prati- + √bhā → pratibhā",
+      "meaning": "a shining or flashing forth; in context, an appearance or presentation",
+      "root": {
+        "form": "√bhā",
+        "gana": "adādi (2)",
+        "pada": "parasmaipada",
+        "dhatupatha": {
+          "locus": "02.0046",
+          "aupadeshika_devanagari": "भा",
+          "artha_sanskrit": "दीप्तौ"
+        }
+      },
+      "affix": "feminine abstract noun formation; the exact inherited affix is not asserted by the reviewed packet",
+      "evidence": [
+        "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt, 02.0046",
+        "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json, baseindex 02.0046",
+        "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/81"
+      ],
+      "qualification": "The root secures the image of shining-forth. The passage permits appearance, manifest ideation, or presentation-to-mind; it does not force one modern psychological label."
+    }
+  ],
+  "definition_claims": [
+    {
+      "id": "reader_definition",
+      "text": "*Pratibhā* here is a flashing-forth or manifest presentation. Verse 81 says that Dāma and the others have forms consisting merely of *pratibhā*; the term therefore names the appearing through which their forms are present in the story, without deciding that appearance means simple non-being.",
+      "claim_kind": "textual",
+      "evidence_level": "primary",
+      "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/81"],
+      "status": "verified"
+    },
+    {
+      "id": "textual_function",
+      "text": "The compound *pratibhā-mātra-rūpin* says literally 'having a form that is *pratibhā* alone.' *Mātra* restricts the constitution of the form; it does not itself choose among the attested senses flash, appearance, imagination, or manifest ideation.",
+      "claim_kind": "textual",
+      "evidence_level": "primary",
+      "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/81"],
+      "status": "verified"
+    },
+    {
+      "id": "school_reading_or_limit",
+      "text": "This entry records the use in the *Dāmādyupākhyāna* only. Verse 83 separately uses *pratibhāsa*, derived from √bhās; the two forms remain distinct rather than being merged into one glossary label.",
+      "claim_kind": "textual",
+      "evidence_level": "primary",
+      "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/81", "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/83"],
+      "status": "verified"
+    }
+  ],
+  "exposition_sections": [
+    {
+      "id": "formation-and-passage-use",
+      "title": "Shining-forth as the form of the three figures",
+      "claims": [
+        {
+          "id": "root-image",
+          "text": "The formation retains the image of shining: the Dhātupāṭha gives √bhā at 02.0046 with *dīptau*, 'in shining.' With *prati-*, the passage's noun can be read as a flashing or appearing forth.",
+          "claim_kind": "textual",
+          "evidence_level": "primary",
+          "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/81"],
+          "status": "verified"
+        },
+        {
+          "id": "form-not-substance-claim",
+          "text": "Verse 81 predicates *pratibhā-mātra-rūpiṇaḥ* of Dāma and the others. The exact claim is about what their forms consist in within this account; a wider doctrine of imagination or intuition would require additional loci.",
+          "claim_kind": "textual",
+          "evidence_level": "primary",
+          "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/81"],
+          "status": "verified"
+        }
+      ]
+    }
+  ],
+  "invariant_definition": "In this reader, *pratibhā* names a flashing-forth or manifest presentation. Its root image is √bhā, 'to shine'; its contextual force comes from verse 81, where Dāma and the others are said to possess forms consisting of *pratibhā* alone. The word is retained in Sanskrit because 'appearance,' 'imagination,' 'intuition,' and 'ideation' each select only part of the available range.",
+  "per_school": [
+    {
+      "school": "Laghu-Yoga-Vāsiṣṭha, Dāmādyupākhyāna",
+      "definition": "Dāma, Vyāla, and Kaṭa are described as *pratibhā-mātra-rūpiṇaḥ*: their forms consist in *pratibhā* alone.",
+      "primary_loci": ["Sthiti-prakaraṇa 2.81"],
+      "citations": [{"cite": "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/81", "locus_short": "Laghu-YV 2.81"}]
+    }
+  ],
+  "translator_note": "Keep *pratibhā* distinct from *pratibhāsa*. 'Flashing-forth' preserves the root image; 'manifest presentation' often carries the local syntax more clearly. 'Intuition' is only one possible sense and should not be inserted automatically.",
+  "see_also": ["pratibhasa", "abhasa", "bhavana"],
+  "legacy_coverage": {
+    "invariant_definition": {"status": "fully-migrated", "mapped_sections": ["formation-and-passage-use"]},
+    "per_school": {"status": "fully-migrated", "mapped_sections": ["formation-and-passage-use"]},
+    "translator_note": {"status": "fully-migrated", "mapped_sections": ["formation-and-passage-use"]},
+    "literal": {"status": "fully-migrated", "mapped_sections": ["formation-and-passage-use"]}
+  },
+  "last_verified_at": "2026-09-01",
+  "last_verified_by": "sanskrit-source-derivation-review"
+}

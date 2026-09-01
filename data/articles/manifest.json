@@ -2,6 +2,14 @@
   "version": "2",
   "articles": [
     {
+      "slug": "yogavasistha-dama",
+      "title": "Laghu-Yoga-Vāsiṣṭha — the story of Dāma, Vyāla, and Kaṭa",
+      "subtitle": "Sthiti-prakaraṇa 2.31–86: all fifty-six verses in Devanāgarī and IAST, with a literal grammar-faithful translation and every Sanskrit word tappable for its reviewed analysis.",
+      "kind": "reading",
+      "interactive": "yogavasistha-dama",
+      "date": "2026-09-01"
+    },
+    {
       "slug": "vishnu-sahasranama",
       "title": "Viṣṇu Sahasranāma — the thousand names",
       "subtitle": "The 107 name-stanzas in Devanāgarī and IAST, with all 1,000 names keyed to Swami Chinmayananda’s *Thousand Ways to the Transcendental*. Full mode presents his complete traditional Advaita commentary; Simple mode pairs each name with a direct translation. Sanjeev Abhyankar’s recitation plays independently.",

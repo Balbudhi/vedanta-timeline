@@ -40,4 +40,17 @@ The replacement is a root-text reading, not an essay. Each of the 56 units must 
 
 ## Release gate
 
-The former prose-first sample was withdrawn in commit `a529749`. Do not restore an article-manifest entry until all 56 units have exact source/pada/slot replay, complete non-placeholder grammar, full glossary coverage, apparatus placement, and an independent Sanskrit review with zero concrete errors.
+The former prose-first sample was withdrawn in commit `a529749`. The replacement reader meets the closed release gate:
+
+- 56/56 source units and 599/599 public word analyses replay against the controlling packet;
+- 409/409 exact source-script tokens map, in order, to the full reviewed pada population;
+- each unit presents one complete slotted, grammar-faithful English translation; there is no duplicate unlinked translation block;
+- 2.33's printed `mīma-` retained with its `bhīma-` parallel, and the critical/vulgate mechanical-person apparatus attached after 2.64;
+- every cited root resolves to exact paired Prakriya source witnesses, with parallel derivations and nirvacanas kept distinct in the interactive cards;
+- four independent review packets report zero concrete errors against frozen producer hashes:
+  - 2.31-44: `f32b5db243cdbc998c493b7a24cff0fd86562155445fefa1e3b6ae8eb90ef439`;
+  - 2.45-58: `f1356d18163aef0e87f183f98d3c4045ffaaa59c6f102fc502d7e27c87d59b29`;
+  - 2.59-72: `bcbef7c11db60316a67e0b468ba9c0e421e09d66c9c8fe9facaed300afbb9f8c`;
+  - 2.73-86: `4bc8c01cdca6ae5d23d92d222688c7e0a26012de235265f2ab6cd94b2c05df03`.
+
+The validator recomputes these hashes and fails closed on a stale, incomplete, or non-passing review. Publication additionally requires the deterministic content suite, responsive browser interaction QA, and a live post-deploy replay.

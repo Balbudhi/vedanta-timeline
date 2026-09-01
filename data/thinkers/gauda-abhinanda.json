@@ -1,0 +1,56 @@
+{
+  "id": "gauda-abhinanda",
+  "name": "Gauḍa Abhinanda",
+  "name_iast": "Gauḍa Abhinanda",
+  "alternate_names": [
+    "Abhinanda",
+    "Gauḍābhinanda"
+  ],
+  "entity_kind": "historical_author",
+  "display": false,
+  "dates_low": 900,
+  "dates_high": 1250,
+  "dates_tier": "contested",
+  "dates_notes": "The Laghu-Yoga-Vāsiṣṭha is commonly associated with a Kashmiri Gauḍa Abhinanda. Modern scholarship places the compilation probably in the tenth century but allows a substantially later terminus; proposed identifications with the Rāmacarita poet, Jayanta Bhaṭṭa's son, or an otherwise unknown Abhinanda remain unresolved.",
+  "school": "Cross-tradition",
+  "school_color_token": "advaita",
+  "sub_school": "Mokṣopāya / Yoga-Vāsiṣṭha textual tradition",
+  "sub_school_shade": 1,
+  "lineage_in": [],
+  "lineage_out": [],
+  "lineage_polemical": [],
+  "core_thesis": "Source-identity record for the Gauḍa Abhinanda associated with the Laghu-Yoga-Vāsiṣṭha. He is not identified here with the South-Indian Krama author represented by the separate `abhinanda` record. The historical identity and date remain contested; this hidden draft exists so citations to the Laghu do not conflate two different Abhinandas.",
+  "engaged_works": [
+    {
+      "work_id": "laghu-yogavasistha",
+      "title": "Laghu-Yoga-Vasistha",
+      "title_iast": "Laghu-Yoga-Vāsiṣṭha",
+      "alternate_titles": [
+        "Yoga-Vāsiṣṭha-saṃkṣepa"
+      ],
+      "ascription_tier": "disputed",
+      "ascription_notes": "Traditionally and conventionally associated with Gauḍa Abhinanda, but the historical identity of that Abhinanda is unresolved.",
+      "ascription_evidence": [
+        {
+          "kind": "printed-colophon-and-scholarly-attribution",
+          "description": "The Paṇaśīkara edition identifies an Abhinanda in the work's transmission; modern scholarship describes Gauḍa Abhinanda as the compiler while explicitly retaining uncertainty over which historical Abhinanda he was."
+        }
+      ],
+      "genre": "philosophical narrative compendium",
+      "language": "sanskrit",
+      "summary": "A roughly five-to-six-thousand-verse reworking and abridgment of the Kashmiri Mokṣopāya. The present reader covers the complete concise Dāmādyupākhyāna at Sthitiprakaraṇa 2.31–86.",
+      "key_passage_ids": [],
+      "entry_status": "draft",
+      "source_status": "clean-on-disk"
+    }
+  ],
+  "key_passages": [],
+  "comparative_claim_ids": [],
+  "reception_notes": "Hidden source-identity record; not admitted as a separate public timeline figure pending a dedicated authorship and chronology review.",
+  "entry_status": "draft",
+  "entry_owner_agent": "yogavasistha-dama-reader",
+  "last_verified_at": "2026-09-01",
+  "last_verified_by": "source-resolution",
+  "primitive_commitments": [],
+  "cross_engagements": []
+}

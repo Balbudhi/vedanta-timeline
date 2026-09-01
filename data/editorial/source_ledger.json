@@ -398,7 +398,7 @@
       "notes": "This small source layer covers only Chinmayananda's treatment of the six questions, the installation, and the meditation stanza that occur in the selected recording's preface. It does not assign commentary to invocations he does not discuss."
     },
     {
-      "id": "abhinanda-laghu-yogavasistha-dama-story",
+      "id": "gauda-abhinanda-laghu-yogavasistha-dama-story",
       "title_iast": "Laghu-Yoga-Vāsiṣṭha, Sthitiprakaraṇa 2.31–86 (Dāmādyupākhyāna)",
       "source_level": "primary",
       "source_path": "data/sources/sanskrit/vedanta/laghuyogavasistha_dama_story.json",
@@ -406,7 +406,7 @@
       "rights_status": "CC-BY-NC-4.0-transcription-with-public-domain-print-scan-and-CC-BY-NC-SA-critical-parallel",
       "citation_status": "working-witness",
       "stable_cite_prefixes": [
-        "cite://abhinanda/laghu-yogavasistha/sthiti/2/"
+        "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/"
       ],
       "review_areas": [
         "laghu-yogavasistha",
@@ -416,7 +416,7 @@
         "textual-variants",
         "artificial-agency"
       ],
-      "notes": "The controlling public sequence preserves the printed mīmabhāsa- reading at 2.33 rather than silently emending it. The attached apparatus records critical yantrapuruṣāḥ at MU 4.9.38 against vulgate atyajñapuruṣāḥ at YV 4.27.38 and the longer construction cluster at MU 4.7.34–39. Swami Venkatesananda's 1993 English is a comparison translation and story locator only; it does not control the Sanskrit or site English."
+      "notes": "Gauḍa Abhinanda, associated with the Laghu-Yoga-Vāsiṣṭha, is not the South-Indian Krama author represented by the existing abhinanda thinker ID. The controlling public sequence preserves the printed mīmabhāsa- reading at 2.33 rather than silently emending it. The attached apparatus records critical yantrapuruṣāḥ at MU 4.9.38 against vulgate atyajñapuruṣāḥ at YV 4.27.38 and the longer construction cluster at MU 4.7.34–39. Swami Venkatesananda's 1993 English is a comparison translation and story locator only; it does not control the Sanskrit or site English."
     },
     {
       "id": "chinmayananda-thousand-ways-authorized-reader",

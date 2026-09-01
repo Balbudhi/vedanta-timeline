@@ -1,0 +1,88 @@
+{
+  "term_key": "samvedana",
+  "term_iast": "saṃvedana",
+  "term_devanagari": "संवेदन",
+  "literal": "complete or integrated knowing, apprehending, or experiencing; sam- + √vid 'to know' + lyuṭ",
+  "aliases": ["samvedana", "saṃvedana", "Saṃvedana", "संवेदन", "saṃvedanam"],
+  "editorial_contract": "v2",
+  "entry_status": "draft",
+  "source_status": "working-witness",
+  "source_record_ids": ["gauda-abhinanda-laghu-yogavasistha-dama-story"],
+  "editorial_dependencies": {
+    "review_areas": ["laghu-yogavasistha", "samvedana", "paninian-grammar", "sanskrit-reader"],
+    "update_when": ["new-primary-witness", "new-grammar-review", "citation-revision"]
+  },
+  "derivations": [
+    {
+      "category": "grammatical formation",
+      "formation": "sam- + √vid + lyuṭ → saṃvedana",
+      "meaning": "the act or event of knowing together/completely; apprehending or experiencing",
+      "root": {
+        "form": "√vid", "gana": "adādi (2)", "pada": "parasmaipada",
+        "dhatupatha": {"locus": "02.0059", "aupadeshika_devanagari": "विदँ", "artha_sanskrit": "ज्ञाने"}
+      },
+      "affix": "lyuṭ, Aṣṭādhyāyī 3.3.115",
+      "evidence": [
+        "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt, 02.0059",
+        "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json, baseindex 02.0059",
+        "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt, 3.3.115",
+        "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"
+      ],
+      "qualification": "The action-noun formation remains visible. Knowing, apprehending, and experiencing are contextual English ranges, not separate Sanskrit roots."
+    }
+  ],
+  "definition_claims": [
+    {
+      "id": "reader_definition",
+      "text": "*Saṃvedana* is complete or integrated knowing, apprehending, or experiencing. It is an action noun from sam-√vid + lyuṭ, not an unanalyzed English abstraction.",
+      "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+    },
+    {
+      "id": "textual_function",
+      "text": "Verse 84 places *saṃvedanam* in a nominal series with *satyam*, *śuddham*, *bodhākāśam*, and *nirañjanam*. The text calls it real, purified, knowing-space, and unstained; the apposition does not erase the distinct lexical work of each term.",
+      "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+    },
+    {
+      "id": "school_reading_or_limit",
+      "text": "This entry records the syntax of verse 84 and the regular grammatical formation. It does not replace *saṃvedana* with *bodha*, *jñāna*, *cit*, or another neighboring Sanskrit term.",
+      "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+    }
+  ],
+  "exposition_sections": [
+    {
+      "id": "knowing-as-action-noun",
+      "title": "The action of integral apprehending",
+      "claims": [
+        {
+          "id": "prefix-root-affix",
+          "text": "The prefix *sam-* contributes togetherness or completeness, √vid supplies knowing, and *lyuṭ* forms the action noun. The result can be rendered as integral apprehending or experiencing when the verbal force must remain audible.",
+          "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+        },
+        {
+          "id": "apposition",
+          "text": "The Laghu witness prints separate *satyaṃ saṃvedanaṃ śuddhaṃ bodhākāśaṃ nirañjanam*. Reading the terms appositionally preserves both the grammatical unity of the clause and the separate derivations of *saṃvedana* and *bodhākāśa*.",
+          "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84"], "status": "verified"
+        }
+      ]
+    }
+  ],
+  "invariant_definition": "In this reader, *saṃvedana* is the act or event of complete knowing, apprehending, or experiencing. Verse 84 predicates reality, purity, knowing-space, and unstainedness of it. The action-noun force of sam-√vid + lyuṭ should remain visible rather than being replaced by a different Sanskrit technical term.",
+  "per_school": [
+    {
+      "school": "Laghu-Yoga-Vāsiṣṭha, Dāmādyupākhyāna",
+      "definition": "Verse 84 states that *saṃvedana* is real and pure, and places it in apposition with *bodhākāśa*, 'knowing-space,' and *nirañjana*, 'unstained.'",
+      "primary_loci": ["Sthiti-prakaraṇa 2.84"],
+      "citations": [{"cite": "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/84", "locus_short": "Laghu-YV 2.84"}]
+    }
+  ],
+  "translator_note": "Retain *saṃvedana* when no single English noun can preserve both knowing and experiencing. In explanatory prose, 'integral apprehending' keeps the action-noun force and the contribution of *sam-*.",
+  "see_also": ["bodhakasha", "jnana", "anubhava", "citta"],
+  "legacy_coverage": {
+    "invariant_definition": {"status": "fully-migrated", "mapped_sections": ["knowing-as-action-noun"]},
+    "per_school": {"status": "fully-migrated", "mapped_sections": ["knowing-as-action-noun"]},
+    "translator_note": {"status": "fully-migrated", "mapped_sections": ["knowing-as-action-noun"]},
+    "literal": {"status": "fully-migrated", "mapped_sections": ["knowing-as-action-noun"]}
+  },
+  "last_verified_at": "2026-09-01",
+  "last_verified_by": "sanskrit-source-derivation-review"
+}

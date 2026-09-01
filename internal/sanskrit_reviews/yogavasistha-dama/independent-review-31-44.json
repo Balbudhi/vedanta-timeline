@@ -1,0 +1,137 @@
+{
+  "schema_version": "independent-sanskrit-review-v1",
+  "reviewer_role": "independent linguistic reviewer",
+  "review_round": 6,
+  "review_method": "Final frozen-hash re-review of all fourteen units and 132 word records after the 2.31 prohibitive translation correction. mā + loṭ bhavatu and loṭ astu were checked directly, then the complete source-script, source-order pada, unique slot, deterministic sense, glossary, root-evidence, morphology, literalness, and public-note gates were repeated for every unit rather than inferred from the one-line change. The controlling Muktābodha Devanāgarī/IAST pair, the Nirṇaya Sāgar printed pages, the source-packet apparatus, and direct Prakriya primary/raw grammar witnesses remained the authority. Producer conclusions were not used as evidence. The Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority.",
+  "closed_population": {
+    "expected_unit_ids": ["lyv-4-2-31","lyv-4-2-32","lyv-4-2-33","lyv-4-2-34","lyv-4-2-35","lyv-4-2-36","lyv-4-2-37","lyv-4-2-38","lyv-4-2-39","lyv-4-2-40","lyv-4-2-41","lyv-4-2-42","lyv-4-2-43","lyv-4-2-44"],
+    "observed_unit_ids": ["lyv-4-2-31","lyv-4-2-32","lyv-4-2-33","lyv-4-2-34","lyv-4-2-35","lyv-4-2-36","lyv-4-2-37","lyv-4-2-38","lyv-4-2-39","lyv-4-2-40","lyv-4-2-41","lyv-4-2-42","lyv-4-2-43","lyv-4-2-44"],
+    "expected_units": 14,
+    "observed_units": 14,
+    "expected_words": 132,
+    "reviewed_words": 132,
+    "complete": true
+  },
+  "input_hashes": {
+    "producer_31_44": "f32b5db243cdbc998c493b7a24cff0fd86562155445fefa1e3b6ae8eb90ef439",
+    "source_packet": "6a69423de047db2bdf5260a0adecd697d6bcbcccc54832687d195d9da1812eca",
+    "nirnaya_sagara_pdf": "7915b5b806c7de56aeaa69d91d96a29a7b503826b113ea65e51c7d3db2e7a7d0",
+    "prakriya_dhatupatha_primary": "9a18f2b18be5a17d58f1d747551b3d3cdf708b138d219d9f67fbd57bae46a897",
+    "prakriya_dhatupatha_raw": "e8c0e929294c4ab68455b461ee81234e7a0febac1b72e6873ea832354a28b641",
+    "prakriya_ashtadhyayi_primary": "fec4a385b81ebcca47a830cd057fae890386f9ad3ddbd6cb507a6a5c91e5379f",
+    "prakriya_ashtadhyayi_raw": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+    "prakriya_kashika_primary": "be468625b26520f41a3b0ef39f6ece60f76c2095b57fc6ac2ea5d8f936875f2e",
+    "prakriya_kashika_raw": "ccd6d554d10acbe89fd566730a59731ace38b2aad982becbbd653b77cca93254",
+    "prakriya_nyasa_primary": "2f34f3ad1c049bd0e149b7a44485626f45cb4b942d7f901a7e1f1006ce3d7576",
+    "prakriya_unadi_primary": "9d929f690d0f7654aa9a65d9f8b4afdc43c1fbe94a400acfbb3b88f4a705b089",
+    "prakriya_unadi_raw": "00a2f267a103bf34f92fb627fe90f9bdceb3962e261f3cb78afda2a22b790020",
+    "prakriya_ganapatha_primary": "120caf3f4966bdd3fe52a668829e9a4794e36e8fb6924c4d8a10b59db085fa36"
+  },
+  "global_checks": {
+    "source_devanagari_replay": "pass: all fourteen producer unit strings exactly equal the controlling source packet and inspected print",
+    "source_iast_replay": "pass: all fourteen producer unit strings exactly equal the paired Muktābodha IAST witness in the source packet",
+    "pada_and_sandhi_replay": "pass: all 132 pada records replay the saṃhitā under documented ordinary sandhi; no word is omitted or invented",
+    "word_indices": "pass: every unit is zero-based and contiguous",
+    "english_slots": "pass: every word index occurs exactly once in each unit's slotted English, with no missing, duplicate, or extra slot",
+    "single_english_translation": "pass: for all fourteen units, sense is byte-for-byte identical to deterministic removal of the slot wrappers from english",
+    "translation_literalness": "pass: all three live defects are corrected—mā ... bhavatu retains prohibitive may-not force, sāmanta is translated as subordinate chief, and present passive kriyante remains are appointed; the complete reread found no unsourced addition or further distortion",
+    "root_evidence": "pass: every non-null rootEvidence record, including newly added √bhī 03.0002, √pā 02.0051, and √dviṣ 02.0003, reproduces the paired raw Dhātupāṭha locus, aupadeśika form, Sanskrit meaning, gaṇa, and pada",
+    "textual_apparatus": "pass: lyv-4-2-33 preserves printed mīma- and reports parallel bhīma- without silent emendation",
+    "prior_findings_replay": "pass: all 39 round-1 findings, all three round-2 findings, and the single round-3 finding are corrected",
+    "new_error_search": "pass: the final complete reread found no additional concrete error"
+  },
+  "finding_replay": {
+    "round_1_expected": 39,
+    "round_1_resolved": 39,
+    "round_1_remaining": 0,
+    "round_2_expected": 3,
+    "round_2_resolved": 3,
+    "round_2_remaining": 0,
+    "round_3_expected": 1,
+    "round_3_resolved": 1,
+    "round_3_remaining": 0,
+    "round_4_new_errors": 0,
+    "round_5_translation_findings_expected": 3,
+    "round_5_translation_findings_resolved": 3,
+    "round_5_translation_findings_remaining": 0,
+    "round_5_new_errors": 0,
+    "round_6_prohibitive_finding_expected": 1,
+    "round_6_prohibitive_finding_resolved": 1,
+    "round_6_new_errors": 0
+  },
+  "unit_reports": [
+    {
+      "id": "lyv-4-2-31",
+      "words_reviewed": {"expected_indices":[0,1,2,3,4,5,6,7,8],"reviewed_indices":[0,1,2,3,4,5,6,7,8],"count":9,"complete":true},
+      "status": "accepted",
+      "findings": []
+    },
+    {"id":"lyv-4-2-32","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6],"reviewed_indices":[0,1,2,3,4,5,6],"count":7,"complete":true},"status":"accepted","findings":[]},
+    {"id":"lyv-4-2-33","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6,7,8,9],"reviewed_indices":[0,1,2,3,4,5,6,7,8,9],"count":10,"complete":true},"status":"accepted","findings":[]},
+    {"id":"lyv-4-2-34","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6],"reviewed_indices":[0,1,2,3,4,5,6],"count":7,"complete":true},"status":"accepted","findings":[]},
+    {"id":"lyv-4-2-35","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6,7],"reviewed_indices":[0,1,2,3,4,5,6,7],"count":8,"complete":true},"status":"accepted","findings":[]},
+    {"id":"lyv-4-2-36","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6,7,8,9,10,11],"reviewed_indices":[0,1,2,3,4,5,6,7,8,9,10,11],"count":12,"complete":true},"status":"accepted","findings":[]},
+    {"id":"lyv-4-2-37","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6],"reviewed_indices":[0,1,2,3,4,5,6],"count":7,"complete":true},"status":"accepted","findings":[]},
+    {"id":"lyv-4-2-38","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6,7,8,9,10,11,12],"reviewed_indices":[0,1,2,3,4,5,6,7,8,9,10,11,12],"count":13,"complete":true},"status":"accepted","findings":[]},
+    {"id":"lyv-4-2-39","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6,7,8],"reviewed_indices":[0,1,2,3,4,5,6,7,8],"count":9,"complete":true},"status":"accepted","findings":[]},
+    {
+      "id": "lyv-4-2-40",
+      "words_reviewed": {"expected_indices":[0,1,2,3,4,5,6],"reviewed_indices":[0,1,2,3,4,5,6],"count":7,"complete":true},
+      "status": "accepted",
+      "findings": []
+    },
+    {
+      "id":"lyv-4-2-41",
+      "words_reviewed":{"expected_indices":[0,1,2,3,4,5,6,7,8],"reviewed_indices":[0,1,2,3,4,5,6,7,8],"count":9,"complete":true},
+      "status":"accepted",
+      "findings":[]
+    },
+    {"id":"lyv-4-2-42","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6,7,8,9],"reviewed_indices":[0,1,2,3,4,5,6,7,8,9],"count":10,"complete":true},"status":"accepted","findings":[]},
+    {"id":"lyv-4-2-43","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6,7,8,9,10,11],"reviewed_indices":[0,1,2,3,4,5,6,7,8,9,10,11],"count":12,"complete":true},"status":"accepted","findings":[]},
+    {"id":"lyv-4-2-44","words_reviewed":{"expected_indices":[0,1,2,3,4,5,6,7,8,9,10,11],"reviewed_indices":[0,1,2,3,4,5,6,7,8,9,10,11],"count":12,"complete":true},"status":"accepted","findings":[]}
+  ],
+  "source_paths_loci_actually_consulted": [
+    "data/sources/sanskrit/vedanta/laghuyogavasistha_dama_story.json — closed units lyv-4-2-31 through lyv-4-2-44 and textual note for lyv-4-2-33",
+    "/tmp/laghuyogavasistha-M00351-DEV.txt — lines 10806-10872, including Vāsiṣṭhacandrikā glosses on 2.31, 2.32, 2.35, and 2.37",
+    "/tmp/laghuyogavasistha-M00351-IAST.txt — paired units 2.31-44",
+    "tmp/pdfs/laghuyogavasistha-1937-text.pdf — PDF pages 314-316 / printed pages 302-304",
+    "/Users/eeshan/Dev/prakriya/sources/manifest/clean_witnesses.json — paired primary/raw identities and hashes",
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt and raw/panini/lexica/dhatupatha.json — all producer root loci, including √bhī 03.0002, √pā 02.0051, and √dviṣ 02.0003",
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt and raw/panini/sutrapatha/ashtadhyayi.json — 2.3.23, 3.1.134, 3.2.1, 3.3.90, 4.1.2, and 5.1.124",
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt and paired raw Kāśikā — antardhi under 3.3.92; karmopapada/aṇ under 3.2.1; sainyam under the 5.1.124 upasaṅkhyāna; causal-case discussion under 2.3.23",
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/nyasa/nyasa_wikisource.txt — lines 11694-11696 explicitly derive gopāla from √pā रक्षणे plus aṇ",
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/unadi/unadi_pancapadi_upstream.txt line 362 and paired raw Uṇādi record 3082 — आनकः शीङ्भियः; भयानकः",
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt line 79 — pacādi includes mar"
+  ],
+  "live_translation_rereview": {
+    "review_iteration": "full-population-live-translation-rereview-2026-09-01",
+    "reviewed_units": 14,
+    "reviewed_words": 132,
+    "source_and_slot_replay": "pass",
+    "semantic_result": "pass after correction",
+    "resolved_findings": [
+      {"unit_id": "lyv-4-2-31", "finding": "The live rewrite weakened mā + loṭ from a prohibition to an ambiguous possibility reading.", "resolution": "Restored ‘must not become’ and the imperative blessing ‘let there be’."}
+    ],
+    "new_concrete_errors": 0
+  },
+  "result": {
+    "pass": true,
+    "accepted_units": 14,
+    "rejected_units": 0,
+    "unresolved_units": 0,
+    "total_words_reviewed": 132,
+    "round_1_errors_resolved": 39,
+    "round_1_errors_remaining": 0,
+    "round_2_errors_resolved": 3,
+    "round_2_errors_remaining": 0,
+    "round_3_errors_resolved": 1,
+    "round_3_errors_remaining": 0,
+    "round_5_translation_errors_resolved": 3,
+    "round_5_translation_errors_remaining": 0,
+    "round_6_prohibitive_errors_resolved": 1,
+    "round_6_prohibitive_errors_remaining": 0,
+    "new_errors": 0,
+    "concrete_errors": 0,
+    "completion_gate": "met for this closed population at producer SHA f32b5db243cdbc998c493b7a24cff0fd86562155445fefa1e3b6ae8eb90ef439: 2.31 preserves mā + loṭ as 'may not become' and astu as 'let there be'; all fourteen units and all 132 words pass exact source-script/IAST/source-order pada replay, single-use slot coverage, byte-identical slot-stripped sense, natural literal English without unsourced additions, morphology, affix, root-evidence, kāraka, compound, term-policy, glossary, apparatus, and public-note review with zero concrete errors."
+  }
+}

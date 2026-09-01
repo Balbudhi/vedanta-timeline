@@ -1,0 +1,5605 @@
+{
+  "schema_version": "yogavasistha-dama-producer-v1",
+  "range": {
+    "first_id": "lyv-4-2-45",
+    "last_id": "lyv-4-2-58",
+    "expected_units": 14,
+    "observed_units": 14
+  },
+  "evidence": {
+    "text_witness": "data/sources/sanskrit/vedanta/laghuyogavasistha_dama_story.json (Muktābodha M00351; Vāsudeva Śarmā Paṇaśīkara 1933; printed scan pp. 302–309 checked in the source packet)",
+    "parallel_text_witnesses": [
+      "data/sources/sanskrit/vedanta/moksopaya_critical_gretil.txt, MU_4,7.34–39",
+      "data/sources/sanskrit/vedanta/yogavasistha_sanskritsahitya.txt, 4.25.34–40"
+    ],
+    "grammar_witnesses": [
+      "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt",
+      "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+      "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json",
+      "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+      "/Users/eeshan/Dev/prakriya/sources/raw/panini/commentary/kashika/kashika.json",
+      "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+      "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+      "/Users/eeshan/Dev/prakriya/sources/raw/lexica/halayudha.json",
+      "/Users/eeshan/Dev/prakriya/sources/primary/panini/unadi/unadi_pancapadi_upstream.txt",
+      "/Users/eeshan/Dev/prakriya/sources/raw/panini/commentary/unadi/unadi_pancapadi.json",
+      "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
+    ],
+    "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority.",
+    "root_evidence_policy": "Each non-null rootEvidence reproduces the Dhātupāṭha baseindex, aupadeśika form, Sanskrit artha, gaṇa, and pada attested in the paired primary/raw witness. Prefix and kṛt/tiṅ analysis is kept outside the Dhātupāṭha quotation."
+  },
+  "units": [
+    {
+      "id": "lyv-4-2-45",
+      "source_id": "lyv-4-2-45",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.45",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "निर्मिता मायया भीमाः पक्षक्षुब्धा इवाद्रयः |\nउदगुस्ते महामाया दामो व्यालः कटस्तथा ||",
+      "iast": "nirmitā māyayā bhīmāḥ pakṣakṣubdhā ivādrayaḥ |\nudaguste mahāmāyā dāmo vyālaḥ kaṭastathā ||",
+      "english": "{0:Fashioned} {1:by māyā}, {2:terrible}, {4:like} {5:mountains} {3:with their wings heaving}, {7:those} {8:possessors of great māyā} {6:arose}: {9:Dāma}, {10:Vyāla}, {11:Kaṭa} {12:likewise}.",
+      "sense": "Fashioned by māyā, terrible, like mountains with their wings heaving, those possessors of great māyā arose: Dāma, Vyāla, Kaṭa likewise.",
+      "grammar": {
+        "karakaSummary": "nirmitāḥ, bhīmāḥ and pakṣakṣubdhāḥ qualify the nominative plural te; māyayā is the instrumental cause/means of their construction. adryaḥ is the nominative plural standard in the iva comparison. udaguḥ is the finite predicate; Dāma, Vyāla and Kaṭa name its plural subject.",
+        "verbalModality": "udaguḥ is a root aorist active 3rd plural of ud-√i, with ga substituted under Aṣṭādhyāyī 2.4.45. nirmitāḥ and kṣubdhāḥ are resultative kta participles."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "निर्मिताः",
+          "iast": "nirmitāḥ",
+          "gloss": "fashioned, constructed",
+          "parts": [
+            {
+              "form": "nir-",
+              "gloss": "out, distinctly"
+            },
+            {
+              "form": "√mā",
+              "gloss": "measure, fashion"
+            },
+            {
+              "form": "kta",
+              "gloss": "resultative participle"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "nirmita",
+          "root": "√mā",
+          "rootGloss": "to measure; here, to fashion",
+          "rootEvidence": {
+            "locus": "02.0057",
+            "aupadeshika_devanagari": "मा",
+            "artha_sanskrit": "माने",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + jas (prathamā bahuvacana)",
+          "morph": "past passive participle, nominative plural masculine",
+          "karaka": "kartṛ-predicate adjective of te",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The pada form restores final -ḥ absent before the following voiced consonant in the saṃhitā line.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "मायया",
+          "iast": "māyayā",
+          "gloss": "by māyā; by fashioned appearance-power",
+          "parts": [
+            {
+              "form": "māyā",
+              "gloss": "māyā, artifice / appearance-power"
+            },
+            {
+              "form": "ṭā",
+              "gloss": "instrumental singular"
+            }
+          ],
+          "stem": "māyā",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "ṭā (tṛtīyā ekavacana)",
+          "morph": "instrumental singular feminine",
+          "karaka": "karaṇa/hetu, the means or cause of fashioning",
+          "compound": null,
+          "glossaryKey": "maya",
+          "translatable": false,
+          "note": "The text names the means as māyā; it does not itself name a machine or mechanism here.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "भीमाः",
+          "iast": "bhīmāḥ",
+          "gloss": "terrible, formidable",
+          "parts": [
+            {
+              "form": "bhīma",
+              "gloss": "terrible"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "bhīma",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine adjective",
+          "karaka": "predicate adjective of te",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "A lexical adjective; no unverified kṛt formation is asserted.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "पक्षक्षुब्धाः",
+          "iast": "pakṣakṣubdhāḥ",
+          "gloss": "having their flanks shaken / heaving",
+          "parts": [
+            {
+              "form": "pakṣa",
+              "gloss": "side, flank; also wing"
+            },
+            {
+              "form": "√kṣubh",
+              "gloss": "be agitated"
+            },
+            {
+              "form": "kta",
+              "gloss": "agitated, shaken"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "pakṣa-kṣubdha",
+          "root": "√kṣubh",
+          "rootGloss": "to be agitated, shaken",
+          "rootEvidence": {
+            "locus": "04.0154",
+            "aupadeshika_devanagari": "क्षुभँ",
+            "artha_sanskrit": "सञ्चलने",
+            "gana": "divādi (4)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + jas (prathamā bahuvacana)",
+          "morph": "bahuvrīhi adjective, nominative plural masculine",
+          "karaka": "predicate adjective of te",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "kṣubdhāḥ pakṣāḥ yeṣāṃ te",
+            "members": [
+              "pakṣa",
+              "kṣubdha"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "pakṣa can denote a wing or a side/flank; with mountains as the comparison, ‘flanks’ is the contextual line rendering, while both lexical possibilities remain visible here.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "इव",
+          "iast": "iva",
+          "gloss": "like, as",
+          "parts": [
+            {
+              "form": "iva",
+              "gloss": "like"
+            }
+          ],
+          "stem": "iva",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "particle of comparison",
+          "karaka": "upamā marker",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Forms the comparison with adrayaḥ.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "अद्रयः",
+          "iast": "adrayaḥ",
+          "gloss": "mountains",
+          "parts": [
+            {
+              "form": "adri",
+              "gloss": "mountain"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "adri",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine",
+          "karaka": "upamāna, the standard of comparison",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā ivādrayaḥ = iva + adrayaḥ.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "उदगुः",
+          "iast": "udaguḥ",
+          "gloss": "they arose, came forth",
+          "parts": [
+            {
+              "form": "ud-",
+              "gloss": "up, forth"
+            },
+            {
+              "form": "a-",
+              "gloss": "aorist augment"
+            },
+            {
+              "form": "√i → gā",
+              "gloss": "go; gā is substituted under Aṣṭādhyāyī 2.4.45"
+            },
+            {
+              "form": "luṅ + sic-lopa",
+              "gloss": "aorist with sic elided under Aṣṭādhyāyī 2.4.77"
+            },
+            {
+              "form": "jhi → jus",
+              "gloss": "third-plural parasmaipada ending under Aṣṭādhyāyī 3.4.108 and 3.4.110, yielding -uḥ"
+            }
+          ],
+          "stem": "ud-a-ga",
+          "root": "√i",
+          "rootGloss": "to go",
+          "rootEvidence": {
+            "locus": "02.0040",
+            "aupadeshika_devanagari": "इण्",
+            "artha_sanskrit": "गतौ",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "luṅ with sic-lopa (A. 2.4.77); jhi → jus (A. 3.4.108, 3.4.110), prathama-puruṣa bahuvacana parasmaipada",
+          "morph": "root aorist active, 3rd plural",
+          "karaka": "finite predicate; te/Dāma-Vyāla-Kaṭa are kartṛ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "ud- + √i takes the gā substitute under Aṣṭādhyāyī 2.4.45; in luṅ, sic is elided under 2.4.77 and jhi is replaced by jus under 3.4.108/110, yielding udaguḥ. Kāśikā ad loc. gives agat, agatam, aguḥ.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "ते",
+          "iast": "te",
+          "gloss": "they, those",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine pronoun",
+          "karaka": "kartṛ of udaguḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Resumed by the three following names.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "महामायाः",
+          "iast": "mahāmāyāḥ",
+          "gloss": "possessors of great māyā; great illusionists",
+          "parts": [
+            {
+              "form": "mahā",
+              "gloss": "great"
+            },
+            {
+              "form": "māyā",
+              "gloss": "māyā, artifice"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "mahāmāya",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine",
+          "karaka": "apposition/predicate epithet of te",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "mahatī māyā yeṣāṃ te",
+            "members": [
+              "mahat",
+              "māyā"
+            ]
+          },
+          "glossaryKey": "maya",
+          "translatable": true,
+          "note": "The masculine agreement makes this ‘those possessing great māyā,’ not the feminine abstract mahāmāyā. Final -ḥ is lost before dāmaḥ in the source saṃhitā.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 9,
+          "deva": "दामः",
+          "iast": "dāmaḥ",
+          "gloss": "Dāma (‘Bond’)",
+          "parts": [
+            {
+              "form": "dāma",
+              "gloss": "bond, tether; proper name"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "dāma",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative singular masculine proper name",
+          "karaka": "one member of the compound kartṛ of udaguḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Amarakośa 2.9.74 and Halāyudhakośa line 277 attest dāma/sandāna as a tether for animals; the lexical force is shown without inventing a root derivation.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 10,
+          "deva": "व्यालः",
+          "iast": "vyālaḥ",
+          "gloss": "Vyāla (‘Beast of prey / Serpent’)",
+          "parts": [
+            {
+              "form": "vyāla",
+              "gloss": "fierce beast; serpent; proper name"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "vyāla",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative singular masculine proper name",
+          "karaka": "one member of the compound kartṛ of udaguḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Amarakośa 1.8.7 and 3.3.206 preserve the serpent and beast-of-prey senses; these are parallel lexical values, not competing manufactured etymologies.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 11,
+          "deva": "कटः",
+          "iast": "kaṭaḥ",
+          "gloss": "Kaṭa (‘Mat / boundary’; a proper name)",
+          "parts": [
+            {
+              "form": "kaṭa",
+              "gloss": "mat; boundary; proper name"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "kaṭa",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative singular masculine proper name",
+          "karaka": "one member of the compound kartṛ of udaguḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The local kośa witnesses attest several lexical senses (Halāyudhakośa lines 259, 820; Yādavakośa lines 1909, 2557). The story gives no internal cue that selects a single nirvacana, so the proper name is retained and the ambiguity exposed.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 12,
+          "deva": "तथा",
+          "iast": "tathā",
+          "gloss": "likewise, thus",
+          "parts": [
+            {
+              "form": "tathā",
+              "gloss": "thus, likewise"
+            }
+          ],
+          "stem": "tathā",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "adverb",
+          "karaka": "coordinates/completes the naming series",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "No separate referent is supplied.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": [
+        {
+          "id": "construction-critical-34-35",
+          "source": "Mokṣopāya critical",
+          "visibility": "internal_textual_only",
+          "public_renderable": false,
+          "text_complete": true,
+          "analysis_status": "textual witness only; excluded from public rendering until every pada receives the same word/root/affix/compound/slot review as the Laghu mūla",
+          "translation_status": "withheld",
+          "issue": "Longer critical construction/naming wording; not imported into the Laghu mūla.",
+          "units": [
+            {
+              "locus": "MU_4,7.34",
+              "iast": "nirmitā māyayā bhīmāḥ kalpapādapabāhavaḥ /\nudagus te mahākāyāḥ pakṣakṣubdhā ivādrayaḥ // MU_4,7.34"
+            },
+            {
+              "locus": "MU_4,7.35",
+              "iast": "dāmā vyālaḥ kaṭaś ceti nāmabhiḥ parilāñchitāḥ /\nyathāprāptaikakartāraś cetanāmātradharmiṇaḥ // MU_4,7.35"
+            }
+          ]
+        },
+        {
+          "id": "construction-vulgate-34-36",
+          "source": "Yoga-Vāsiṣṭha vulgate",
+          "visibility": "internal_textual_only",
+          "public_renderable": false,
+          "text_complete": true,
+          "analysis_status": "textual witness only; excluded from public rendering until every pada receives the same word/root/affix/compound/slot review as the Laghu mūla",
+          "translation_status": "withheld",
+          "issue": "Longer vulgate creation/naming wording; not imported into the Laghu mūla.",
+          "units": [
+            {
+              "locus": "4.25.34",
+              "devanagari": "ससर्ज मायया घोरानसुरांस्त्रीन्महाबलान् । बलरक्षार्थमुदितान्कालान्मूर्तिमिव स्थितान्"
+            },
+            {
+              "locus": "4.25.35",
+              "devanagari": "निर्वृत्ता मायया भीमा बलपादपवाहिनः । उदगुस्ते महामायाः पक्षक्षुब्धा इवाद्रयः"
+            },
+            {
+              "locus": "4.25.36",
+              "devanagari": "दामो व्यालः कटश्चेति नामभिः परिलाञ्छिताः । यथाप्राप्तैककर्तारश्चेतनामात्रधर्मिणः"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lyv-4-2-46",
+      "source_id": "lyv-4-2-46",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.46",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "वासनात्माभिमानाभ्यां हीनास्ते प्रथमोद्गताः |\nनाभिपातं न वापातं न विदुस्ते पलायनम् ||",
+      "iast": "vāsanātmābhimānābhyāṃ hīnāste prathamodgatāḥ |\nnābhipātaṃ na vāpātaṃ na viduste palāyanam ||",
+      "english": "{3:At their first arising}, {2:they} {1:were devoid} {0:of vāsanā and self-identification}; {11:they} {10:knew} {4:neither} {5:attack}, {6,7:nor} {8:falling back}, {9:nor} {12:flight}.",
+      "sense": "At their first arising, they were devoid of vāsanā and self-identification; they knew neither attack, nor falling back, nor flight.",
+      "grammar": {
+        "karakaSummary": "vāsanātmābhimānābhyām is an instrumental dual governed by hīnāḥ (‘devoid of’). te is the subject of viduḥ; abhipātam, apātam and palāyanam are its three accusative objects under repeated na. prathamodgatāḥ is a temporal/state predicate of te.",
+        "verbalModality": "viduḥ is perfect active 3rd plural used as a stative past (‘they knew’). hīnāḥ and udgatāḥ are kta participles describing their initial condition."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "वासनात्माभिमानाभ्याम्",
+          "iast": "vāsanātmābhimānābhyām",
+          "gloss": "of vāsanā and self-identification",
+          "parts": [
+            {
+              "form": "vāsanā",
+              "gloss": "conditioning impression, disposition"
+            },
+            {
+              "form": "ātman",
+              "gloss": "self"
+            },
+            {
+              "form": "abhi-",
+              "gloss": "toward, upon"
+            },
+            {
+              "form": "√man",
+              "gloss": "understand, take to be"
+            },
+            {
+              "form": "ghañ",
+              "gloss": "identification/taking-as-self as an action noun"
+            },
+            {
+              "form": "bhyām",
+              "gloss": "instrumental dual"
+            }
+          ],
+          "stem": "vāsanā-ātma-abhimāna",
+          "root": "√man",
+          "rootGloss": "to understand, apprehend",
+          "rootEvidence": {
+            "locus": "08.0009",
+            "aupadeshika_devanagari": "मनुँ",
+            "artha_sanskrit": "अवबोधने",
+            "gana": "tanādi (8)",
+            "pada": "ātmanepada"
+          },
+          "affix": "ghañ in abhimāna + bhyām (tṛtīyā dvivacana)",
+          "morph": "instrumental dual masculine dvandva compound",
+          "karaka": "apādāna expressed instrumentally with hīna: that from which they are devoid",
+          "compound": {
+            "type": "dvandva",
+            "vigraha": "vāsanā ca ātma-abhimānaś ca",
+            "members": [
+              "vāsanā",
+              "ātma-abhimāna"
+            ]
+          },
+          "glossaryKey": "vasana",
+          "translatable": true,
+          "note": "The dual ending is decisive: the two absences are vāsanā and ātma-abhimāna. ‘Self-identification’ renders abhi-√man without replacing it by a metaphysical abstraction.",
+          "parallelDerivations": [
+            {
+              "category": "directly_attested_vasana_formation",
+              "form": "vāsanā",
+              "analysis": "curādi √vas + action-noun ana/yuc + ṭāp",
+              "rootEvidence": {
+                "root": "√vas",
+                "locus": "10.0273",
+                "aupadeshika_devanagari": "वसँ",
+                "artha_sanskrit": "स्नेहच्छेदापहरणेषु",
+                "gana": "curādi (10)",
+                "pada": "ubhayapada"
+              },
+              "qualification": "Directly attested curādi route for the vāsanā member; retained alongside √vās rather than reduced to the compound's primary √man analysis."
+            },
+            {
+              "category": "directly_attested_vasana_formation",
+              "form": "vāsanā",
+              "analysis": "curādi √vās + action-noun ana/yuc + ṭāp",
+              "rootEvidence": {
+                "root": "√vās",
+                "locus": "10.0426",
+                "aupadeshika_devanagari": "वास",
+                "artha_sanskrit": "उपसेवायाम्",
+                "gana": "curādi (10)",
+                "pada": "ubhayapada"
+              },
+              "qualification": "Parallel directly attested curādi route, preserving cultivation/habituation within the term's range."
+            },
+            {
+              "category": "regular_formation",
+              "form": "ātma-abhimāna",
+              "analysis": "ātmani abhimānaḥ / ātmā iti abhimānaḥ: identification directed to, or taking something as, self",
+              "evidence": "compound syntax and √man 08.0009 अवबोधने",
+              "qualification": "The two vigrahas preserve the objective-locative and iti-predicative readings allowed by the compressed compound."
+            }
+          ]
+        },
+        {
+          "i": 1,
+          "deva": "हीनाः",
+          "iast": "hīnāḥ",
+          "gloss": "devoid, bereft",
+          "parts": [
+            {
+              "form": "√hā",
+              "gloss": "leave, abandon"
+            },
+            {
+              "form": "kta",
+              "gloss": "left / deprived"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "hīna",
+          "root": "√hā",
+          "rootGloss": "to abandon, leave",
+          "rootEvidence": {
+            "locus": "03.0009",
+            "aupadeshika_devanagari": "ओँहाक्",
+            "artha_sanskrit": "त्यागे",
+            "gana": "juhotyādi (3)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + jas (prathamā bahuvacana)",
+          "morph": "past passive participle, nominative plural masculine",
+          "karaka": "predicate adjective of te; governs the instrumental dual",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā hīnās te = hīnāḥ + te.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "ते",
+          "iast": "te",
+          "gloss": "they",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine pronoun",
+          "karaka": "kartṛ of viduḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Refers to Dāma, Vyāla, and Kaṭa.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "प्रथमोद्गताः",
+          "iast": "prathamodgatāḥ",
+          "gloss": "at their first arising; newly arisen",
+          "parts": [
+            {
+              "form": "prathama",
+              "gloss": "first"
+            },
+            {
+              "form": "ud-",
+              "gloss": "up, forth"
+            },
+            {
+              "form": "√gam",
+              "gloss": "go, arise"
+            },
+            {
+              "form": "kta",
+              "gloss": "arisen"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "prathama-udgata",
+          "root": "√gam",
+          "rootGloss": "to go",
+          "rootEvidence": {
+            "locus": "01.1137",
+            "aupadeshika_devanagari": "गमॢँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine compound participle",
+          "karaka": "temporal/state qualifier of te",
+          "compound": {
+            "type": "karmadhāraya",
+            "vigraha": "prathamam udgatāḥ",
+            "members": [
+              "prathama",
+              "udgata"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "prathama + udgata gives prathamodgata by guṇa sandhi.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "not, neither",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "negative particle",
+          "karaka": "negates abhipātam",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "First member of the repeated negative series.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "अभिपातम्",
+          "iast": "abhipātam",
+          "gloss": "attack, a rushing upon",
+          "parts": [
+            {
+              "form": "abhi-",
+              "gloss": "toward, upon"
+            },
+            {
+              "form": "√pat",
+              "gloss": "fly/fall, rush"
+            },
+            {
+              "form": "ghañ",
+              "gloss": "action noun"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "abhipāta",
+          "root": "√pat",
+          "rootGloss": "to go/fall; with abhi-, rush upon",
+          "rootEvidence": {
+            "locus": "01.0979",
+            "aupadeshika_devanagari": "पतॢँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ghañ + am (dvitīyā ekavacana)",
+          "morph": "accusative singular masculine action noun",
+          "karaka": "karman of viduḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā nābhipātam = na + abhipātam.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "nor",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "negative particle",
+          "karaka": "negates apātam",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Repeated negative.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "वा",
+          "iast": "vā",
+          "gloss": "or",
+          "parts": [
+            {
+              "form": "vā",
+              "gloss": "or"
+            }
+          ],
+          "stem": "vā",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "coordinating particle",
+          "karaka": "coordinates the alternatives",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā vāpatam = vā + apātam; in the negative series, ‘nor.’",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "अपातम्",
+          "iast": "apātam",
+          "gloss": "falling away/back; retreat",
+          "parts": [
+            {
+              "form": "apa-",
+              "gloss": "away, back"
+            },
+            {
+              "form": "√pat",
+              "gloss": "fall, go"
+            },
+            {
+              "form": "ghañ",
+              "gloss": "action noun"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "apāta",
+          "root": "√pat",
+          "rootGloss": "to go/fall",
+          "rootEvidence": {
+            "locus": "01.0979",
+            "aupadeshika_devanagari": "पतॢँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ghañ + am (dvitīyā ekavacana)",
+          "morph": "accusative singular masculine action noun",
+          "karaka": "karman of viduḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The directional apa- supplies the ‘away/back’ force; ‘retreat’ is the contextual battle sense.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 9,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "nor",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "negative particle",
+          "karaka": "negates the knowing of palāyanam",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Third negative in the series.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 10,
+          "deva": "विदुः",
+          "iast": "viduḥ",
+          "gloss": "they knew",
+          "parts": [
+            {
+              "form": "√vid",
+              "gloss": "know"
+            },
+            {
+              "form": "liṭ-jus",
+              "gloss": "perfect, 3rd plural"
+            }
+          ],
+          "stem": "√vid",
+          "root": "√vid",
+          "rootGloss": "to know",
+          "rootEvidence": {
+            "locus": "02.0059",
+            "aupadeshika_devanagari": "विदँ",
+            "artha_sanskrit": "ज्ञाने",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "liṭ, jus (prathama-puruṣa bahuvacana; perfect -uḥ)",
+          "morph": "perfect active, 3rd plural",
+          "karaka": "finite predicate; te are kartṛ and three action nouns are karman",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā vidus te = viduḥ + te.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 11,
+          "deva": "ते",
+          "iast": "te",
+          "gloss": "they",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine pronoun",
+          "karaka": "resumptive kartṛ of viduḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The second te is textually present after viduḥ and must not be collapsed with the earlier pronoun.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 12,
+          "deva": "पलायनम्",
+          "iast": "palāyanam",
+          "gloss": "flight, fleeing",
+          "parts": [
+            {
+              "form": "parā-",
+              "gloss": "away"
+            },
+            {
+              "form": "√ay",
+              "gloss": "go"
+            },
+            {
+              "form": "lyuṭ (ana)",
+              "gloss": "act of going"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "palāyana",
+          "root": "√ay",
+          "rootGloss": "to go",
+          "rootEvidence": {
+            "locus": "01.0546",
+            "aupadeshika_devanagari": "अयँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "ātmanepada"
+          },
+          "affix": "lyuṭ (ana) + am (dvitīyā ekavacana)",
+          "morph": "accusative singular neuter action noun",
+          "karaka": "karman of viduḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The formation is parā + √ay; Aṣṭādhyāyī 8.2.19 upasargasyāyatau and Kāśikā ad loc. directly give plāyate/palāyate through r→l before ay. This is not assigned to an unattested root *palāy.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": [
+        {
+          "id": "construction-critical-36-39",
+          "source": "Mokṣopāya critical",
+          "visibility": "internal_textual_only",
+          "public_renderable": false,
+          "text_complete": true,
+          "analysis_status": "textual witness only; excluded from public rendering until every pada receives the same word/root/affix/compound/slot review as the Laghu mūla",
+          "translation_status": "withheld",
+          "issue": "Critical description of prior-karma absence, constructed capacity, sequential action, and lack of vāsanā/self-identification.",
+          "units": [
+            {
+              "locus": "MU_4,7.36",
+              "iast": "abhāvāt karmaṇāṃ te ca prāktanānām avāsanāḥ /\nnirvikalpakacinmātraparispandaikakarmiṇaḥ // MU_4,7.36"
+            },
+            {
+              "locus": "MU_4,7.37",
+              "iast": "karmabījaṃ kalāṃ tanvīṃ dadhānā mananātmikām /\napuṣṭāṃ kṛtrimām antar ādāyodayam āgatāḥ // MU_4,7.37"
+            },
+            {
+              "locus": "MU_4,7.38",
+              "iast": "pāramparyeṇa te hy atra kākatālīyavad bhaṭāḥ /\nprakṛtām anuvartante kriyām ujjhitavāsanāḥ // MU_4,7.38"
+            },
+            {
+              "locus": "MU_4,7.39",
+              "iast": "ardhasuptā yathā bālās svāṅgair iṅganti kevalam /\nvāsanātmābhimānābhyāṃ hīnās te tadvad eva hi // MU_4,7.39"
+            }
+          ]
+        },
+        {
+          "id": "construction-vulgate-37-40",
+          "source": "Yoga-Vāsiṣṭha vulgate",
+          "visibility": "internal_textual_only",
+          "public_renderable": false,
+          "text_complete": true,
+          "analysis_status": "textual witness only; excluded from public rendering until every pada receives the same word/root/affix/compound/slot review as the Laghu mūla",
+          "translation_status": "withheld",
+          "issue": "Vulgate description of prior-karma absence, kṛtrimā capacity, sequential action, and lack of vāsanā/self-identification.",
+          "units": [
+            {
+              "locus": "4.25.37",
+              "devanagari": "अभावात्कर्मणां ते च प्राक्तना नच वासनाः । निर्विकल्पकचिन्मात्रपरिस्पन्दैकधर्मकाः"
+            },
+            {
+              "locus": "4.25.38",
+              "devanagari": "कर्मजीवकलां तन्वीमसारां च मनोभिदाम् । अपुष्टां कृत्रिमामन्तश्चोदयोदयमागताः"
+            },
+            {
+              "locus": "4.25.39",
+              "devanagari": "ते ह्यन्धपारम्पर्येण काकतालीयवद्भटाः । प्रकृतामनुवर्तन्ते क्रियामुज्झितवासनाः ।। ३९"
+            },
+            {
+              "locus": "4.25.40",
+              "devanagari": "अर्धसुप्ता यथा बालाः स्वाङ्गै रिङ्गन्ति केवलम् । वासनात्माभिमानाभ्यां हीनास्ते तद्वदेव हि ।। ४०"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lyv-4-2-47",
+      "source_id": "lyv-4-2-47",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.47",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "न जीवितं न मरणं समरे न जयाजयौ |\nकेवलं सैनिकानग्रे दृष्ट्वा ते हननोद्यताः ||",
+      "iast": "na jīvitaṃ na maraṇaṃ samare na jayājayau |\nkevalaṃ sainikānagre dṛṣṭvā te hananodyatāḥ ||",
+      "english": "{0:Neither} {1:life} {2:nor} {3:death}, {4:in battle} {5:neither} {6:victory nor defeat}; {7:only}, {10:having seen} {8:the soldiers} {9:before them}, {11:they} {12:were intent on killing}.",
+      "sense": "Neither life nor death, in battle neither victory nor defeat; only, having seen the soldiers before them, they were intent on killing.",
+      "grammar": {
+        "karakaSummary": "The first half is an elliptical continuation of na viduḥ: jīvitam, maraṇam and the dual jayājayau are objects, with samare locative. In the second half te are the subject; dṛṣṭvā takes sainikān as object and agre as spatial complement; hananodyatāḥ is the nominal predicate.",
+        "verbalModality": "No finite verb is expressed. dṛṣṭvā is a prior-action absolutive; udyatāḥ is a kta predicate expressing their poised/intended state."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "neither, not",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "negative particle",
+          "karaka": "negates jīvitam",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Carries forward the elided viduḥ from 2.46.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "जीवितम्",
+          "iast": "jīvitam",
+          "gloss": "life, living",
+          "parts": [
+            {
+              "form": "√jīv",
+              "gloss": "live, sustain life"
+            },
+            {
+              "form": "kta",
+              "gloss": "lived / living state"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "jīvita",
+          "root": "√jīv",
+          "rootGloss": "to sustain life",
+          "rootEvidence": {
+            "locus": "01.0643",
+            "aupadeshika_devanagari": "जीवँ",
+            "artha_sanskrit": "प्राणधारणे",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta, substantivized + am (dvitīyā ekavacana)",
+          "morph": "accusative singular neuter verbal noun",
+          "karaka": "elliptical karman of viduḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The neuter participial noun denotes the state/fact of living.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "nor",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "negative particle",
+          "karaka": "negates maraṇam",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Repeated negative.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "मरणम्",
+          "iast": "maraṇam",
+          "gloss": "death, dying",
+          "parts": [
+            {
+              "form": "√mṛ",
+              "gloss": "die"
+            },
+            {
+              "form": "lyuṭ (ana)",
+              "gloss": "act/state of dying"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "maraṇa",
+          "root": "√mṛ",
+          "rootGloss": "to die, relinquish life",
+          "rootEvidence": {
+            "locus": "06.0139",
+            "aupadeshika_devanagari": "मृङ्",
+            "artha_sanskrit": "प्राणत्यागे",
+            "gana": "tudādi (6)",
+            "pada": "ātmanepada"
+          },
+          "affix": "lyuṭ (ana) + am (dvitīyā ekavacana)",
+          "morph": "accusative singular neuter action noun",
+          "karaka": "elliptical karman of viduḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Renders the action noun, not an abstract doctrine of mortality.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "समरे",
+          "iast": "samare",
+          "gloss": "in battle",
+          "parts": [
+            {
+              "form": "samara",
+              "gloss": "battle"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "samara",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "ṅi (saptamī ekavacana)",
+          "morph": "locative singular masculine",
+          "karaka": "adhikaraṇa, the sphere of victory and defeat",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Lexical noun; no speculative derivation is asserted.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "neither",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "negative particle",
+          "karaka": "negates jayājayau",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The compound itself contains the positive/negative pair.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "जयाजयौ",
+          "iast": "jayājayau",
+          "gloss": "victory and defeat",
+          "parts": [
+            {
+              "form": "√ji",
+              "gloss": "conquer, prevail"
+            },
+            {
+              "form": "ac",
+              "gloss": "victory as an action/result noun"
+            },
+            {
+              "form": "nañ",
+              "gloss": "not, non-"
+            },
+            {
+              "form": "jaya",
+              "gloss": "victory; with nañ, non-victory/defeat"
+            },
+            {
+              "form": "au",
+              "gloss": "accusative dual"
+            }
+          ],
+          "stem": "jaya-ajaya",
+          "root": "√ji",
+          "rootGloss": "to conquer, prevail",
+          "rootEvidence": {
+            "locus": "01.0642",
+            "aupadeshika_devanagari": "जि",
+            "artha_sanskrit": "जये",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ac in jaya; nañ in ajaya; au (dvitīyā dvivacana)",
+          "morph": "accusative dual masculine dvandva",
+          "karaka": "elliptical karman of viduḥ",
+          "compound": {
+            "type": "dvandva",
+            "vigraha": "jayaś ca ajayaś ca",
+            "members": [
+              "jaya",
+              "ajaya"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "jaya + ajaya contracts to jayājaya; a-jaya is literally ‘non-victory,’ contextually defeat.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "केवलम्",
+          "iast": "kevalam",
+          "gloss": "only, merely",
+          "parts": [
+            {
+              "form": "kevala",
+              "gloss": "only, bare"
+            },
+            {
+              "form": "am",
+              "gloss": "adverbial accusative"
+            }
+          ],
+          "stem": "kevala",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "am (adverbial accusative singular neuter)",
+          "morph": "indeclinable/adverbial accusative",
+          "karaka": "restricts the dṛṣṭvā clause",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "It limits the trigger to mere seeing.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "सैनिकान्",
+          "iast": "sainikān",
+          "gloss": "soldiers",
+          "parts": [
+            {
+              "form": "senā",
+              "gloss": "army"
+            },
+            {
+              "form": "ṭhak/ika",
+              "gloss": "belonging to an army"
+            },
+            {
+              "form": "śas",
+              "gloss": "accusative plural"
+            }
+          ],
+          "stem": "sainika",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "taddhita ika + śas (dvitīyā bahuvacana)",
+          "morph": "accusative plural masculine",
+          "karaka": "karman of dṛṣṭvā",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "A secondary derivative meaning one belonging to an army.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 9,
+          "deva": "अग्रे",
+          "iast": "agre",
+          "gloss": "in front, before them",
+          "parts": [
+            {
+              "form": "agra",
+              "gloss": "front, forepart"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "agra",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "ṅi (saptamī ekavacana)",
+          "morph": "locative singular neuter used adverbially",
+          "karaka": "adhikaraṇa of the seeing",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā sainikān agre joins across the word boundary.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 10,
+          "deva": "दृष्ट्वा",
+          "iast": "dṛṣṭvā",
+          "gloss": "having seen",
+          "parts": [
+            {
+              "form": "√dṛś",
+              "gloss": "see"
+            },
+            {
+              "form": "ktvā",
+              "gloss": "having done"
+            }
+          ],
+          "stem": "√dṛś",
+          "root": "√dṛś",
+          "rootGloss": "to see",
+          "rootEvidence": {
+            "locus": "01.1143",
+            "aupadeshika_devanagari": "दृशिँर्",
+            "artha_sanskrit": "प्रेक्षणे",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ktvā (absolutive)",
+          "morph": "absolutive, prior action",
+          "karaka": "governs sainikān as karman; shares kartṛ te",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The suppletive participial base dṛṣṭ- is from √dṛś.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 11,
+          "deva": "ते",
+          "iast": "te",
+          "gloss": "they",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine pronoun",
+          "karaka": "kartṛ of dṛṣṭvā and subject of hananodyatāḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Refers to the three artificial warriors.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 12,
+          "deva": "हननोद्यताः",
+          "iast": "hananodyatāḥ",
+          "gloss": "intent on killing, raised up for killing",
+          "parts": [
+            {
+              "form": "√han",
+              "gloss": "strike, kill"
+            },
+            {
+              "form": "lyuṭ (ana)",
+              "gloss": "act of killing"
+            },
+            {
+              "form": "ud-",
+              "gloss": "up, forth"
+            },
+            {
+              "form": "√yam",
+              "gloss": "hold, raise, direct"
+            },
+            {
+              "form": "kta",
+              "gloss": "poised, intent"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "hanana-udyata",
+          "root": "√yam",
+          "rootGloss": "to restrain/raise/direct; with ud-, be poised",
+          "rootEvidence": {
+            "locus": "01.1031",
+            "aupadeshika_devanagari": "यमँ",
+            "artha_sanskrit": "उपरमे",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "lyuṭ in hanana + kta in udyata + jas",
+          "morph": "nominative plural masculine tatpuruṣa predicate",
+          "karaka": "predicate adjective of te; hanana is the purpose/complement",
+          "compound": {
+            "type": "caturthī-tatpuruṣa",
+            "vigraha": "hananāya udyatāḥ",
+            "members": [
+              "hanana",
+              "udyata"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The embedded hanana derives from √han, Dhātupāṭha 02.0002 हनँ हिंसागत्योः (adādi 2P). The head udyata supplies poised/intended action, not autonomous deliberation.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-48",
+      "source_id": "lyv-4-2-48",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.48",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "शम्बरश्चिन्तयामास परितुष्टमनास्तदा |\nइष्टानिष्टाभिरेते हि वासनाभिर्यदुज्झिताः ||",
+      "iast": "śambaraścintayāmāsa parituṣṭamanāstadā |\niṣṭāniṣṭābhirete hi vāsanābhiryadujjhitāḥ ||",
+      "english": "{0:Śambara} {1:reflected}, {2:his manas fully satisfied}, {3:then}: ‘{8:Since} {5:these} {6:indeed} {9:are forsaken} {4:by desired and undesired} {7:vāsanās}—",
+      "sense": "Śambara reflected, his manas fully satisfied, then: ‘Since these indeed are forsaken by desired and undesired vāsanās—",
+      "grammar": {
+        "karakaSummary": "Śambaraḥ is subject of cintayāmāsa; parituṣṭamanāḥ is his nominative bahuvrīhi predicate and tadā is temporal. The second hemistich preserves the source order iṣṭāniṣṭābhiḥ ete hi vāsanābhiḥ yat ujjhitāḥ: ete is subject of ujjhitāḥ; iṣṭāniṣṭābhiḥ qualifies instrumental plural vāsanābhiḥ, the agency/separation complement of the passive participle; yat introduces the reason continued in 2.49.",
+        "verbalModality": "cintayāmāsa is a periphrastic perfect. ujjhitāḥ is a passive/resultative kta form inside Śambara’s thought."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "शम्बरः",
+          "iast": "śambaraḥ",
+          "gloss": "Śambara",
+          "parts": [
+            {
+              "form": "śambara",
+              "gloss": "proper name"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "śambara",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative singular masculine proper name",
+          "karaka": "kartṛ of cintayāmāsa",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā śambaraś cintayāmāsa.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "चिन्तयामास",
+          "iast": "cintayāmāsa",
+          "gloss": "he reflected, thought",
+          "parts": [
+            {
+              "form": "√cint",
+              "gloss": "reflect, remember"
+            },
+            {
+              "form": "ṇic",
+              "gloss": "class-10/causative stem marker"
+            },
+            {
+              "form": "ām",
+              "gloss": "periphrastic-perfect marker"
+            },
+            {
+              "form": "√as + liṭ/tip",
+              "gloss": "was as the perfect auxiliary, 3rd singular"
+            }
+          ],
+          "stem": "cintaya",
+          "root": "√cint",
+          "rootGloss": "to remember, reflect",
+          "rootEvidence": {
+            "locus": "10.0002",
+            "aupadeshika_devanagari": "चितिँ",
+            "artha_sanskrit": "स्मृत्याम्",
+            "gana": "curādi (10)",
+            "pada": "ubhayapada"
+          },
+          "auxiliaryRootEvidence": {
+            "root": "√as",
+            "locus": "02.0060",
+            "aupadeshika_devanagari": "असँ",
+            "artha_sanskrit": "भुवि",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada",
+            "formation": "√as + liṭ/tip → āsa, 3rd singular perfect auxiliary"
+          },
+          "affix": "periphrastic liṭ with ām + āsa (tip)",
+          "morph": "periphrastic perfect active, 3rd singular",
+          "karaka": "finite predicate; Śambaraḥ is kartṛ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The lexical predicate is √cint; āsa is the perfect auxiliary, not a second semantic event.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "परितुष्टमनाः",
+          "iast": "parituṣṭamanāḥ",
+          "gloss": "whose manas was fully satisfied",
+          "parts": [
+            {
+              "form": "pari-",
+              "gloss": "fully, all around"
+            },
+            {
+              "form": "√tuṣ",
+              "gloss": "be pleased"
+            },
+            {
+              "form": "kta",
+              "gloss": "satisfied"
+            },
+            {
+              "form": "manas",
+              "gloss": "manas"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "parituṣṭa-manas",
+          "root": "√tuṣ",
+          "rootGloss": "to be pleased",
+          "rootEvidence": {
+            "locus": "04.0081",
+            "aupadeshika_devanagari": "तुषँ",
+            "artha_sanskrit": "प्रीतौ",
+            "gana": "divādi (4)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + su (prathamā ekavacana)",
+          "morph": "nominative singular masculine bahuvrīhi",
+          "karaka": "predicate attribute of Śambaraḥ",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "parituṣṭaṃ mano yasya saḥ",
+            "members": [
+              "parituṣṭa",
+              "manas"
+            ]
+          },
+          "glossaryKey": "manas",
+          "translatable": true,
+          "note": "manas is preserved rather than collapsed into ‘mind’ under the site term policy.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "तदा",
+          "iast": "tadā",
+          "gloss": "then",
+          "parts": [
+            {
+              "form": "tadā",
+              "gloss": "then"
+            }
+          ],
+          "stem": "tadā",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "temporal adverb",
+          "karaka": "temporal adjunct",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Locates Śambara’s reflection after their construction.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "इष्टानिष्टाभिः",
+          "iast": "iṣṭāniṣṭābhiḥ",
+          "gloss": "desired and undesired",
+          "parts": [
+            {
+              "form": "√iṣ + kta",
+              "gloss": "desired"
+            },
+            {
+              "form": "an-iṣṭa",
+              "gloss": "not desired, undesired"
+            },
+            {
+              "form": "ṭāp",
+              "gloss": "feminine stem formation agreeing with vāsanā"
+            },
+            {
+              "form": "bhis",
+              "gloss": "instrumental plural"
+            }
+          ],
+          "stem": "iṣṭa-aniṣṭa",
+          "root": "√iṣ",
+          "rootGloss": "to desire",
+          "rootEvidence": {
+            "locus": "06.0078",
+            "aupadeshika_devanagari": "इषुँ",
+            "artha_sanskrit": "इच्छायाम्",
+            "gana": "tudādi (6)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + ṭāp (A. 4.1.4) + bhis (tṛtīyā bahuvacana)",
+          "morph": "instrumental plural feminine itaretara-dvandva adjective agreeing with vāsanābhiḥ",
+          "karaka": "qualifier within the instrumental complement of ujjhitāḥ",
+          "compound": {
+            "type": "dvandva",
+            "vigraha": "iṣṭābhiś ca aniṣṭābhiś ca",
+            "members": [
+              "iṣṭa",
+              "aniṣṭa"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "iṣṭa + aniṣṭa contracts to iṣṭāniṣṭa.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "एते",
+          "iast": "ete",
+          "gloss": "these",
+          "parts": [
+            {
+              "form": "etad",
+              "gloss": "this"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "etad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine pronoun",
+          "karaka": "kartṛ/patient of ujjhitāḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Refers to Dāma, Vyāla, and Kaṭa.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "हि",
+          "iast": "hi",
+          "gloss": "indeed, for",
+          "parts": [
+            {
+              "form": "hi",
+              "gloss": "indeed, for"
+            }
+          ],
+          "stem": "hi",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "emphatic/explanatory particle",
+          "karaka": "marks the stated ground",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Its explanatory force is preserved.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "वासनाभिः",
+          "iast": "vāsanābhiḥ",
+          "gloss": "by vāsanās, conditioning dispositions",
+          "parts": [
+            {
+              "form": "√vas",
+              "gloss": "dwell; in causative formation, cause to abide/impress"
+            },
+            {
+              "form": "ṇic",
+              "gloss": "causative stem formation"
+            },
+            {
+              "form": "yuc (ana)",
+              "gloss": "action noun formation"
+            },
+            {
+              "form": "ṭāp",
+              "gloss": "feminine stem formation"
+            },
+            {
+              "form": "bhis",
+              "gloss": "instrumental plural"
+            }
+          ],
+          "stem": "vāsanā",
+          "root": "√vas",
+          "rootGloss": "to dwell; in causative formation, cause to abide/impress",
+          "rootEvidence": {
+            "locus": "01.1160",
+            "aupadeshika_devanagari": "वसँ",
+            "artha_sanskrit": "निवासे",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ṇic + yuc (ana) + ṭāp + bhis (tṛtīyā bahuvacana)",
+          "morph": "instrumental plural feminine action noun",
+          "karaka": "instrumental/apādāna complement of ujjhitāḥ",
+          "compound": null,
+          "glossaryKey": "vasana",
+          "translatable": false,
+          "note": "The philosophical usage denotes dispositions impressed by attraction and aversion; the line does not reduce vāsanā to memory alone.",
+          "parallelDerivations": [
+            {
+              "category": "directly_attested_vasana_formation",
+              "form": "vāsanā",
+              "analysis": "curādi √vas + action-noun ana/yuc + ṭāp",
+              "rootEvidence": {"root":"√vas","locus":"10.0273","aupadeshika_devanagari":"वसँ","artha_sanskrit":"स्नेहच्छेदापहरणेषु","gana":"curādi (10)","pada":"ubhayapada"},
+              "qualification": "Directly attested curādi formation, presented beside the inherited bhvādi dwelling derivation."
+            },
+            {
+              "category": "directly_attested_vasana_formation",
+              "form": "vāsanā",
+              "analysis": "curādi √vās + action-noun ana/yuc + ṭāp",
+              "rootEvidence": {"root":"√vās","locus":"10.0426","aupadeshika_devanagari":"वास","artha_sanskrit":"उपसेवायाम्","gana":"curādi (10)","pada":"ubhayapada"},
+              "qualification": "Parallel directly attested curādi formation preserving cultivation/habituation."
+            }
+          ]
+        },
+        {
+          "i": 8,
+          "deva": "यत्",
+          "iast": "yat",
+          "gloss": "since, because",
+          "parts": [
+            {
+              "form": "yad",
+              "gloss": "which; since"
+            }
+          ],
+          "stem": "yad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable conjunctional use",
+          "morph": "causal connective",
+          "karaka": "introduces the reason whose consequence is tad in 2.49",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The verse boundary does not end the syntactic yat–tad construction.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 9,
+          "deva": "उज्झिताः",
+          "iast": "ujjhitāḥ",
+          "gloss": "forsaken, left without",
+          "parts": [
+            {
+              "form": "√ujjh",
+              "gloss": "cast off, relinquish"
+            },
+            {
+              "form": "kta",
+              "gloss": "forsaken"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "ujjhita",
+          "root": "√ujjh",
+          "rootGloss": "to cast off, relinquish",
+          "rootEvidence": {
+            "locus": "06.0024",
+            "aupadeshika_devanagari": "उज्झँ",
+            "artha_sanskrit": "उत्सर्गे",
+            "gana": "tudādi (6)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + jas (prathamā bahuvacana)",
+          "morph": "past passive participle, nominative plural masculine",
+          "karaka": "predicate of ete; vāsanābhiḥ marks what has left them",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The initial ud-like phonological material belongs to the witnessed root √ujjh itself (Dhātupāṭha 06.0024); no separate ud- prefix is segmented.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-49",
+      "source_id": "lyv-4-2-49",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.49",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "तदेते न पलायन्ते देवैरभिहता अपि |\nइति निर्णीय दैत्येन्द्रो दामव्यालकटान्विताम् ||",
+      "iast": "tadete na palāyante devairabhihatā api |\niti nirṇīya daityendro dāmavyālakaṭānvitām ||",
+      "english": "{0:therefore} {1:these} {2:do not} {3:flee}, {6:even} {5:when struck} {4:by the gods}’—{7,8:having determined thus}, {9:the lord of the Daityas}: {10:an army accompanied by Dāma, Vyāla, and Kaṭa}—",
+      "sense": "therefore these do not flee, even when struck by the gods’—having determined thus, the lord of the Daityas: an army accompanied by Dāma, Vyāla, and Kaṭa—",
+      "grammar": {
+        "karakaSummary": "tad answers yat in 2.48. ete is subject of na palāyante; abhihatāḥ is concessive with api, and devaiḥ is the passive agent. nirṇīya shares its subject daityendraḥ; dāmavyālakaṭānvitām is accusative feminine agreeing with senām in 2.50.",
+        "verbalModality": "palāyante is present middle, generalized as their standing behavior. nirṇīya is an absolutive prior to saṃpreṣayāmāsa in the next verse."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "तत्",
+          "iast": "tad",
+          "gloss": "therefore, on that account",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that; therefore"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable adverbial use",
+          "morph": "correlative connective",
+          "karaka": "apodosis of yat in 2.48",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā tad ete = tadete.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "एते",
+          "iast": "ete",
+          "gloss": "these",
+          "parts": [
+            {
+              "form": "etad",
+              "gloss": "this"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "etad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine",
+          "karaka": "kartṛ of palāyante",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The three warriors.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "not",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "negative particle",
+          "karaka": "negates palāyante",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Direct negation.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "पलायन्ते",
+          "iast": "palāyante",
+          "gloss": "they flee",
+          "parts": [
+            {
+              "form": "parā-",
+              "gloss": "away"
+            },
+            {
+              "form": "√ay",
+              "gloss": "go"
+            },
+            {
+              "form": "śap",
+              "gloss": "present stem"
+            },
+            {
+              "form": "jha",
+              "gloss": "3rd plural middle"
+            }
+          ],
+          "stem": "palāya",
+          "root": "√ay",
+          "rootGloss": "to go",
+          "rootEvidence": {
+            "locus": "01.0546",
+            "aupadeshika_devanagari": "अयँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "ātmanepada"
+          },
+          "affix": "laṭ, jha (prathama-puruṣa bahuvacana ātmanepada)",
+          "morph": "present indicative middle, 3rd plural",
+          "karaka": "finite predicate; ete are kartṛ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "parā + √ay with r→l is directly evidenced by Aṣṭādhyāyī 8.2.19 and Kāśikā’s palāyate example.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "देवैः",
+          "iast": "devaiḥ",
+          "gloss": "by the gods",
+          "parts": [
+            {
+              "form": "deva",
+              "gloss": "god"
+            },
+            {
+              "form": "bhis",
+              "gloss": "instrumental plural"
+            }
+          ],
+          "stem": "deva",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "bhis (tṛtīyā bahuvacana)",
+          "morph": "instrumental plural masculine",
+          "karaka": "passive kartṛ/agent of abhihatāḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Instrumental agent with kta.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "अभिहताः",
+          "iast": "abhihatāḥ",
+          "gloss": "struck, attacked",
+          "parts": [
+            {
+              "form": "abhi-",
+              "gloss": "against, upon"
+            },
+            {
+              "form": "√han",
+              "gloss": "strike, kill"
+            },
+            {
+              "form": "kta",
+              "gloss": "struck"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "abhihata",
+          "root": "√han",
+          "rootGloss": "to strike, injure, kill",
+          "rootEvidence": {
+            "locus": "02.0002",
+            "aupadeshika_devanagari": "हनँ",
+            "artha_sanskrit": "हिंसागत्योः",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + jas (prathamā bahuvacana)",
+          "morph": "past passive participle, nominative plural masculine",
+          "karaka": "concessive predicate of ete; devaiḥ is agent",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā devair abhihatāḥ.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "अपि",
+          "iast": "api",
+          "gloss": "even",
+          "parts": [
+            {
+              "form": "api",
+              "gloss": "even"
+            }
+          ],
+          "stem": "api",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "concessive particle",
+          "karaka": "marks abhihatāḥ as concessive",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The force ‘even when’ belongs to api plus the participle.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "इति",
+          "iast": "iti",
+          "gloss": "thus",
+          "parts": [
+            {
+              "form": "iti",
+              "gloss": "thus, end of quoted thought"
+            }
+          ],
+          "stem": "iti",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "quotative particle",
+          "karaka": "closes the content of nirṇīya",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Marks Śambara’s preceding inference as quoted thought.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "निर्णीय",
+          "iast": "nirṇīya",
+          "gloss": "having determined",
+          "parts": [
+            {
+              "form": "nir-",
+              "gloss": "out, decisively"
+            },
+            {
+              "form": "√nī",
+              "gloss": "lead; determine"
+            },
+            {
+              "form": "lyap",
+              "gloss": "having done"
+            }
+          ],
+          "stem": "nir-√nī",
+          "root": "√nī",
+          "rootGloss": "to lead, bring; with nir-, determine",
+          "rootEvidence": {
+            "locus": "01.1049",
+            "aupadeshika_devanagari": "णीञ्",
+            "artha_sanskrit": "प्रापणे",
+            "gana": "bhvādi (1)",
+            "pada": "ubhayapada"
+          },
+          "affix": "lyap (absolutive after prefix)",
+          "morph": "absolutive, prior action",
+          "karaka": "shares kartṛ daityendraḥ; quoted iti-clause is its content",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The prefix supplies the decisive ‘settle/determine’ sense.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 9,
+          "deva": "दैत्येन्द्रः",
+          "iast": "daityendraḥ",
+          "gloss": "lord of the Daityas",
+          "parts": [
+            {
+              "form": "daitya",
+              "gloss": "Daitya"
+            },
+            {
+              "form": "indra",
+              "gloss": "lord, chief"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "daitya-indra",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "su (prathamā ekavacana)",
+          "morph": "nominative singular masculine tatpuruṣa",
+          "karaka": "kartṛ of nirṇīya and saṃpreṣayāmāsa",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa",
+            "vigraha": "daityānām indraḥ",
+            "members": [
+              "daitya",
+              "indra"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "daitya + indra contracts to daityendra.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 10,
+          "deva": "दामव्यालकटान्विताम्",
+          "iast": "dāmavyālakaṭānvitām",
+          "gloss": "accompanied by Dāma, Vyāla, and Kaṭa",
+          "parts": [
+            {
+              "form": "Dāma-Vyāla-Kaṭa",
+              "gloss": "the internal name dvandva"
+            },
+            {
+              "form": "anu-",
+              "gloss": "after, along with"
+            },
+            {
+              "form": "√i",
+              "gloss": "go"
+            },
+            {
+              "form": "kta",
+              "gloss": "accompanied, connected"
+            },
+            {
+              "form": "ṭāp",
+              "gloss": "feminine stem formation agreeing with senā"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "dāma-vyāla-kaṭa-anvita",
+          "root": "√i",
+          "rootGloss": "to go; with anu-, follow/be joined",
+          "rootEvidence": {
+            "locus": "02.0040",
+            "aupadeshika_devanagari": "इण्",
+            "artha_sanskrit": "गतौ",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + ṭāp (A. 4.1.4) + am (dvitīyā ekavacana)",
+          "morph": "accusative singular feminine compound participle",
+          "karaka": "qualifies senām in 2.50",
+          "compound": {
+            "type": "tṛtīyā-tatpuruṣa",
+            "vigraha": "Dāmena Vyālena Kaṭena ca anvitām",
+            "members": [
+              "Dāma-Vyāla-Kaṭa",
+              "anvita"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The object noun senām is postponed to the next verse; the feminine accusative prevents treating this as a description of Śambara.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-50",
+      "source_id": "lyv-4-2-50",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.50",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "सेनां संप्रेषयामास देवेन्द्रबलघातिनीम् |\nदैत्याः सागरकुञ्जेभ्यः कन्दरेभ्यश्च सायुधाः ||",
+      "iast": "senāṃ saṃpreṣayāmāsa devendrabalaghātinīm |\ndaityāḥ sāgarakuñjebhyaḥ kandarebhyaśca sāyudhāḥ ||",
+      "english": "—{0:that army} {1:he dispatched}, {2:striking Indra’s force}; {3:the Daityas}, {7:armed}, {4:from the ocean-groves} {6:and} {5:from the caverns}—",
+      "sense": "—that army he dispatched, striking Indra’s force; the Daityas, armed, from the ocean-groves and from the caverns—",
+      "grammar": {
+        "karakaSummary": "senām is object of saṃpreṣayāmāsa and is qualified by the carried-over dāmavyālakaṭānvitām and by devendrabalaghātinīm. daityāḥ begins the next sentence as subject of udaguḥ in 2.51; the two ablative plurals mark sources and sāyudhāḥ qualifies daityāḥ.",
+        "verbalModality": "saṃpreṣayāmāsa is periphrastic perfect 3rd singular. ghātinīm is an agentive adjective (‘striking’), not a finite future."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "सेनाम्",
+          "iast": "senām",
+          "gloss": "army",
+          "parts": [
+            {
+              "form": "senā",
+              "gloss": "army"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "senā",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "am (dvitīyā ekavacana)",
+          "morph": "accusative singular feminine",
+          "karaka": "karman of saṃpreṣayāmāsa",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Head noun for the two feminine accusative qualifiers spanning 2.49–50.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "संप्रेषयामास",
+          "iast": "saṃpreṣayāmāsa",
+          "gloss": "he dispatched, sent forth",
+          "parts": [
+            {
+              "form": "sam-pra-",
+              "gloss": "together, forth"
+            },
+            {
+              "form": "√iṣ",
+              "gloss": "go"
+            },
+            {
+              "form": "ṇic",
+              "gloss": "causative: cause to go"
+            },
+            {
+              "form": "ām",
+              "gloss": "periphrastic-perfect marker"
+            },
+            {
+              "form": "√as + liṭ/tip",
+              "gloss": "was as the perfect auxiliary, 3rd singular"
+            }
+          ],
+          "stem": "sam-pra-iṣ-aya",
+          "root": "√iṣ",
+          "rootGloss": "to go; causative with pra-, send",
+          "rootEvidence": {
+            "locus": "04.0022",
+            "aupadeshika_devanagari": "इषँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "divādi (4)",
+            "pada": "parasmaipada"
+          },
+          "auxiliaryRootEvidence": {
+            "root": "√as",
+            "locus": "02.0060",
+            "aupadeshika_devanagari": "असँ",
+            "artha_sanskrit": "भुवि",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada",
+            "formation": "√as + liṭ/tip → āsa, 3rd singular perfect auxiliary"
+          },
+          "affix": "ṇic + periphrastic liṭ ām + āsa (tip)",
+          "morph": "causative periphrastic perfect active, 3rd singular",
+          "karaka": "finite predicate; daityendraḥ is kartṛ, senām karman",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "pra + iṣ yields preṣ- under guṇa; the causative is literally ‘caused to go forth.’",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "देवेन्द्रबलघातिनीम्",
+          "iast": "devendrabalaghātinīm",
+          "gloss": "striking Indra’s force",
+          "parts": [
+            {
+              "form": "deva-indra",
+              "gloss": "lord of the gods, Indra"
+            },
+            {
+              "form": "bala",
+              "gloss": "force, army"
+            },
+            {
+              "form": "√han",
+              "gloss": "strike, kill"
+            },
+            {
+              "form": "ghāt substitute",
+              "gloss": "t-substituted stem before ṇini under Aṣṭādhyāyī 7.3.32"
+            },
+            {
+              "form": "ṇini",
+              "gloss": "agent stem, one that strikes"
+            },
+            {
+              "form": "ṅīp",
+              "gloss": "feminine formation after the n-final agent stem, A. 4.1.5"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "devendra-bala-ghātinī",
+          "root": "√han",
+          "rootGloss": "to strike, injure, kill",
+          "rootEvidence": {
+            "locus": "02.0002",
+            "aupadeshika_devanagari": "हनँ",
+            "artha_sanskrit": "हिंसागत्योः",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "√han + ṇini with ghāt substitution under A. 7.3.32; ṅīp (A. 4.1.5) + am (dvitīyā ekavacana)",
+          "morph": "accusative singular feminine agentive compound",
+          "karaka": "qualifies senām; devendra-bala is object relation to ghātinī",
+          "compound": {
+            "type": "upapada/tatpuruṣa",
+            "vigraha": "devendrasya balaṃ hanti yā sā, tām ghātinīm",
+            "members": [
+              "devendra-bala",
+              "ghātinī"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Aṣṭādhyāyī 7.3.32 prescribes the t/ghāt substitute of √han before the ṇit agent suffix ṇini; Kāśikā gives sādhughātī as the parallel agentive formation.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "दैत्याः",
+          "iast": "daityāḥ",
+          "gloss": "the Daityas",
+          "parts": [
+            {
+              "form": "Diti",
+              "gloss": "Diti"
+            },
+            {
+              "form": "ṇya",
+              "gloss": "descendant of"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "daitya",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "taddhita ṇya + jas",
+          "morph": "nominative plural masculine patronymic",
+          "karaka": "kartṛ of udaguḥ in 2.51",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The syntax continues across the verse boundary.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "सागरकुञ्जेभ्यः",
+          "iast": "sāgarakuñjebhyaḥ",
+          "gloss": "from the ocean-groves/recesses",
+          "parts": [
+            {
+              "form": "sāgara",
+              "gloss": "ocean"
+            },
+            {
+              "form": "kuñja",
+              "gloss": "bower, recess, thicket"
+            },
+            {
+              "form": "bhyas",
+              "gloss": "ablative plural"
+            }
+          ],
+          "stem": "sāgara-kuñja",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "bhyas (pañcamī bahuvacana)",
+          "morph": "ablative plural masculine tatpuruṣa",
+          "karaka": "apādāna of udaguḥ",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa",
+            "vigraha": "sāgarasya kuñjebhyaḥ",
+            "members": [
+              "sāgara",
+              "kuñja"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The spatial word kuñja can be a wooded recess/bower; ‘ocean-recesses’ remains possible.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "कन्दरेभ्यः",
+          "iast": "kandarebhyaḥ",
+          "gloss": "from the caverns",
+          "parts": [
+            {
+              "form": "kandara",
+              "gloss": "cavern, mountain hollow"
+            },
+            {
+              "form": "bhyas",
+              "gloss": "ablative plural"
+            }
+          ],
+          "stem": "kandara",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "bhyas (pañcamī bahuvacana)",
+          "morph": "ablative plural masculine",
+          "karaka": "apādāna of udaguḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Second source phrase.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "च",
+          "iast": "ca",
+          "gloss": "and",
+          "parts": [
+            {
+              "form": "ca",
+              "gloss": "and"
+            }
+          ],
+          "stem": "ca",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "conjunction",
+          "karaka": "coordinates the two source ablatives",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā kandarebhyaś ca.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "सायुधाः",
+          "iast": "sāyudhāḥ",
+          "gloss": "with weapons, armed",
+          "parts": [
+            {
+              "form": "sa-",
+              "gloss": "with"
+            },
+            {
+              "form": "āyudha",
+              "gloss": "weapon"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "sa-āyudha",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine bahuvrīhi",
+          "karaka": "qualifies daityāḥ",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "āyudhāni yeṣāṃ te",
+            "members": [
+              "sa",
+              "āyudha"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "sa + āyudha contracts to sāyudha.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-51",
+      "source_id": "lyv-4-2-51",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.51",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "उदगुर्भीमनिर्ह्रादाः सपक्षगिरिलीलया |\nअथोत्तस्थुर्निकुञ्जेभ्यः कन्दरेभ्यः सुरा बलात् ||",
+      "iast": "udagurbhīmanirhrādāḥ sapakṣagirilīlayā |\nathottasthurnikuñjebhyaḥ kandarebhyaḥ surā balāt ||",
+      "english": "—{0:came forth} {1:with terrible roars}, {2:with the play of winged mountains}; {3:then} {7:the gods} {4:rose up} {5:from the bowers} {6:and from the caverns}, {8:forcefully}—",
+      "sense": "—came forth with terrible roars, with the play of winged mountains; then the gods rose up from the bowers and from the caverns, forcefully—",
+      "grammar": {
+        "karakaSummary": "The carried-over daityāḥ are subject of udaguḥ; bhīmanirhrādāḥ qualifies them and sapakṣagirilīlayā is an instrumental of manner. surāḥ is subject of uttasthuḥ; the two ablatives mark sources and balāt is adverbial ablative (‘forcefully/in force’).",
+        "verbalModality": "udaguḥ is a root aorist active 3rd plural of ud-√i with the Aṣṭādhyāyī 2.4.45 ga substitute; uttasthuḥ is a perfect active 3rd plural of ud-√sthā. The two verbs are not the same tense."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "उदगुः",
+          "iast": "udaguḥ",
+          "gloss": "they came forth",
+          "parts": [
+            {
+              "form": "ud-",
+              "gloss": "up, forth"
+            },
+            {
+              "form": "a-",
+              "gloss": "aorist augment"
+            },
+            {
+              "form": "√i → gā",
+              "gloss": "go; gā is substituted under Aṣṭādhyāyī 2.4.45"
+            },
+            {
+              "form": "luṅ + sic-lopa",
+              "gloss": "aorist with sic elided under Aṣṭādhyāyī 2.4.77"
+            },
+            {
+              "form": "jhi → jus",
+              "gloss": "third-plural parasmaipada ending under Aṣṭādhyāyī 3.4.108 and 3.4.110, yielding -uḥ"
+            }
+          ],
+          "stem": "ud-a-ga",
+          "root": "√i",
+          "rootGloss": "to go",
+          "rootEvidence": {
+            "locus": "02.0040",
+            "aupadeshika_devanagari": "इण्",
+            "artha_sanskrit": "गतौ",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "luṅ with sic-lopa (A. 2.4.77); jhi → jus (A. 3.4.108, 3.4.110), prathama-puruṣa bahuvacana parasmaipada",
+          "morph": "root aorist active, 3rd plural",
+          "karaka": "predicate; daityāḥ is kartṛ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "ud- + √i takes the gā substitute under Aṣṭādhyāyī 2.4.45; in luṅ, sic is elided under 2.4.77 and jhi is replaced by jus under 3.4.108/110, yielding udaguḥ. Kāśikā ad loc. gives agat, agatam, aguḥ.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "भीमनिर्ह्रादाः",
+          "iast": "bhīmanirhrādāḥ",
+          "gloss": "having terrible roars",
+          "parts": [
+            {
+              "form": "bhīma",
+              "gloss": "terrible"
+            },
+            {
+              "form": "nir-",
+              "gloss": "out"
+            },
+            {
+              "form": "√hrād",
+              "gloss": "make an indistinct sound"
+            },
+            {
+              "form": "ghañ",
+              "gloss": "sound/action noun"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "bhīma-nirhrāda",
+          "root": "√hrād",
+          "rootGloss": "to make an indistinct sound",
+          "rootEvidence": {
+            "locus": "01.0026",
+            "aupadeshika_devanagari": "ह्रादँ",
+            "artha_sanskrit": "अव्यक्ते शब्दे",
+            "gana": "bhvādi (1)",
+            "pada": "ātmanepada"
+          },
+          "affix": "ghañ + jas",
+          "morph": "nominative plural masculine bahuvrīhi",
+          "karaka": "qualifies daityāḥ",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "bhīmā nirhrādā yeṣāṃ te",
+            "members": [
+              "bhīma",
+              "nirhrāda"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The Dhātupāṭha artha directly supports the acoustic sense.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "सपक्षगिरिलीलया",
+          "iast": "sapakṣagirilīlayā",
+          "gloss": "with the play/motion of winged mountains",
+          "parts": [
+            {
+              "form": "sa-pakṣa",
+              "gloss": "with wings"
+            },
+            {
+              "form": "giri",
+              "gloss": "mountain"
+            },
+            {
+              "form": "līlā",
+              "gloss": "play, effortless motion"
+            },
+            {
+              "form": "ṭā",
+              "gloss": "instrumental singular"
+            }
+          ],
+          "stem": "sa-pakṣa-giri-līlā",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "ṭā (tṛtīyā ekavacana)",
+          "morph": "instrumental singular feminine compound",
+          "karaka": "karaṇa/manner of udaguḥ",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa",
+            "vigraha": "sapakṣāṇāṃ girīṇāṃ līlayā",
+            "members": [
+              "sa-pakṣa-giri",
+              "līlā"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "līlā marks manner/semblance, not a claim that literal mountains flew.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "अथ",
+          "iast": "atha",
+          "gloss": "then",
+          "parts": [
+            {
+              "form": "atha",
+              "gloss": "then"
+            }
+          ],
+          "stem": "atha",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "narrative particle",
+          "karaka": "transitional adjunct",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā athottasthuḥ.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "उत्तस्थुः",
+          "iast": "uttasthuḥ",
+          "gloss": "they rose up",
+          "parts": [
+            {
+              "form": "ud-",
+              "gloss": "up"
+            },
+            {
+              "form": "√sthā",
+              "gloss": "stand"
+            },
+            {
+              "form": "liṭ-jus",
+              "gloss": "perfect 3rd plural"
+            }
+          ],
+          "stem": "ud-√sthā",
+          "root": "√sthā",
+          "rootGloss": "to stand, cease moving",
+          "rootEvidence": {
+            "locus": "01.1077",
+            "aupadeshika_devanagari": "ष्ठा",
+            "artha_sanskrit": "गतिनिवृत्तौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "liṭ, jus (prathama-puruṣa bahuvacana)",
+          "morph": "perfect active 3rd plural",
+          "karaka": "predicate; surāḥ is kartṛ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Reduplicated perfect stem tasthu- with ud-; saṃhitā final -r before n.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "निकुञ्जेभ्यः",
+          "iast": "nikuñjebhyaḥ",
+          "gloss": "from the bowers/recesses",
+          "parts": [
+            {
+              "form": "nikuñja",
+              "gloss": "bower, recess"
+            },
+            {
+              "form": "bhyas",
+              "gloss": "ablative plural"
+            }
+          ],
+          "stem": "nikuñja",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "bhyas (pañcamī bahuvacana)",
+          "morph": "ablative plural masculine",
+          "karaka": "apādāna of uttasthuḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Spatial source.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "कन्दरेभ्यः",
+          "iast": "kandarebhyaḥ",
+          "gloss": "from the caverns",
+          "parts": [
+            {
+              "form": "kandara",
+              "gloss": "cavern"
+            },
+            {
+              "form": "bhyas",
+              "gloss": "ablative plural"
+            }
+          ],
+          "stem": "kandara",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "bhyas (pañcamī bahuvacana)",
+          "morph": "ablative plural masculine",
+          "karaka": "apādāna of uttasthuḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Coordinated source phrase; ca is understood from the paired construction.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "सुराः",
+          "iast": "surāḥ",
+          "gloss": "the gods",
+          "parts": [
+            {
+              "form": "sura",
+              "gloss": "god"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "sura",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas (prathamā bahuvacana)",
+          "morph": "nominative plural masculine",
+          "karaka": "kartṛ of uttasthuḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Opposed to the Daityas.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "बलात्",
+          "iast": "balāt",
+          "gloss": "forcefully, in force",
+          "parts": [
+            {
+              "form": "bala",
+              "gloss": "force, strength"
+            },
+            {
+              "form": "ṅasi",
+              "gloss": "ablative singular"
+            }
+          ],
+          "stem": "bala",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "ṅasi (pañcamī ekavacana)",
+          "morph": "ablative singular neuter used adverbially",
+          "karaka": "hetu/manner of uttasthuḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Not a second army noun here.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-52",
+      "source_id": "lyv-4-2-52",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.52",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "प्रयान्त इव शैलेन्द्रा भीमाः स्वर्वासिनां गणाः |\nदेवासुरपताकिन्योस्तद्युद्धमभवत्तयोः ||",
+      "iast": "prayānta iva śailendrā bhīmāḥ svarvāsināṃ gaṇāḥ |\ndevāsurapatākinyostadyuddhamabhavattayoḥ ||",
+      "english": "—{5:the hosts} {4:of heaven-dwellers}, {3:formidable}, {0:advancing} {1:like} {2:lords of mountains}; {7:that} {8:battle} {6:of the armies of gods and Asuras} {9:arose} {10:between the two}—",
+      "sense": "—the hosts of heaven-dwellers, formidable, advancing like lords of mountains; that battle of the armies of gods and Asuras arose between the two—",
+      "grammar": {
+        "karakaSummary": "gaṇāḥ is subject with prayāntaḥ and bhīmāḥ as predicates; svarvāsinām is possessive genitive and śailendrāḥ the iva standard. yuddham is subject of abhavat; devāsurapatākinyoḥ and tayoḥ are genitive/locative dual expressions of the opposed pair.",
+        "verbalModality": "prayāntaḥ is a present active participle; abhavat is imperfect 3rd singular, beginning the battle narrative."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "प्रयान्तः",
+          "iast": "prayāntaḥ",
+          "gloss": "advancing",
+          "parts": [
+            {
+              "form": "pra-",
+              "gloss": "forth"
+            },
+            {
+              "form": "√yā",
+              "gloss": "go"
+            },
+            {
+              "form": "śatṛ",
+              "gloss": "present active participle"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "prayat",
+          "root": "√yā",
+          "rootGloss": "to go, reach",
+          "rootEvidence": {
+            "locus": "02.0044",
+            "aupadeshika_devanagari": "या",
+            "artha_sanskrit": "प्रापणे",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "śatṛ + jas",
+          "morph": "present active participle, nominative plural masculine",
+          "karaka": "predicate of gaṇāḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Final -ḥ is absent before iva in saṃhitā.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "इव",
+          "iast": "iva",
+          "gloss": "like",
+          "parts": [
+            {
+              "form": "iva",
+              "gloss": "like"
+            }
+          ],
+          "stem": "iva",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "comparison particle",
+          "karaka": "upamā marker",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Introduces śailendrāḥ.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "शैलेन्द्राः",
+          "iast": "śailendrāḥ",
+          "gloss": "lords of mountains; great mountains",
+          "parts": [
+            {
+              "form": "śaila",
+              "gloss": "mountain"
+            },
+            {
+              "form": "indra",
+              "gloss": "lord, foremost"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "śaila-indra",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural masculine tatpuruṣa",
+          "karaka": "upamāna for gaṇāḥ",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa",
+            "vigraha": "śailānām indrāḥ",
+            "members": [
+              "śaila",
+              "indra"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Final -ḥ is absent before bhīmāḥ in saṃhitā.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "भीमाः",
+          "iast": "bhīmāḥ",
+          "gloss": "formidable",
+          "parts": [
+            {
+              "form": "bhīma",
+              "gloss": "terrible, formidable"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "bhīma",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural masculine adjective",
+          "karaka": "qualifies gaṇāḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Lexical adjective.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "स्वर्वासिनाम्",
+          "iast": "svarvāsinām",
+          "gloss": "of heaven-dwellers",
+          "parts": [
+            {
+              "form": "svar",
+              "gloss": "heaven"
+            },
+            {
+              "form": "√vas",
+              "gloss": "dwell"
+            },
+            {
+              "form": "ṇini",
+              "gloss": "inhabitant"
+            },
+            {
+              "form": "ām",
+              "gloss": "genitive plural"
+            }
+          ],
+          "stem": "svar-vāsin",
+          "root": "√vas",
+          "rootGloss": "to dwell",
+          "rootEvidence": {
+            "locus": "01.1160",
+            "aupadeshika_devanagari": "वसँ",
+            "artha_sanskrit": "निवासे",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ṇini + ām (ṣaṣṭhī bahuvacana)",
+          "morph": "genitive plural masculine compound agent noun",
+          "karaka": "sambandha qualifying gaṇāḥ",
+          "compound": {
+            "type": "saptamī-tatpuruṣa",
+            "vigraha": "svari vāsinaḥ",
+            "members": [
+              "svar",
+              "vāsin"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The locative relation is internal to the compound.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "गणाः",
+          "iast": "gaṇāḥ",
+          "gloss": "hosts, companies",
+          "parts": [
+            {
+              "form": "gaṇa",
+              "gloss": "group, host"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "gaṇa",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural masculine",
+          "karaka": "kartṛ of prayāntaḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Head noun of the first clause.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "देवासुरपताकिन्योः",
+          "iast": "devāsurapatākinyoḥ",
+          "gloss": "of the two armies of gods and Asuras",
+          "parts": [
+            {
+              "form": "deva-asura",
+              "gloss": "gods and Asuras"
+            },
+            {
+              "form": "patākinī",
+              "gloss": "bannered army"
+            },
+            {
+              "form": "os",
+              "gloss": "genitive dual"
+            }
+          ],
+          "stem": "deva-asura-patākinī",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "os (ṣaṣṭhī dvivacana)",
+          "morph": "genitive dual feminine compound",
+          "karaka": "sambandha: the opposed armies whose battle it is",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa over dvandva",
+            "vigraha": "devānām asurāṇāṃ ca patākinyoḥ",
+            "members": [
+              "deva-asura",
+              "patākinī"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The dual ending is the grammatical basis for ‘the two armies.’",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "तत्",
+          "iast": "tad",
+          "gloss": "that",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "su (prathamā ekavacana neuter)",
+          "morph": "nominative singular neuter demonstrative",
+          "karaka": "qualifies yuddham",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā tad yuddham.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "युद्धम्",
+          "iast": "yuddham",
+          "gloss": "battle",
+          "parts": [
+            {
+              "form": "√yudh",
+              "gloss": "fight"
+            },
+            {
+              "form": "kta",
+              "gloss": "fought; substantivized battle"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular neuter"
+            }
+          ],
+          "stem": "yuddha",
+          "root": "√yudh",
+          "rootGloss": "to fight",
+          "rootEvidence": {
+            "locus": "04.0069",
+            "aupadeshika_devanagari": "युधँ",
+            "artha_sanskrit": "सम्प्रहारे",
+            "gana": "divādi (4)",
+            "pada": "ātmanepada"
+          },
+          "affix": "kta, substantivized + su",
+          "morph": "nominative singular neuter verbal noun",
+          "karaka": "kartṛ of abhavat",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The passive-result form is lexicalized as ‘battle.’",
+          "parallelDerivations": []
+        },
+        {
+          "i": 9,
+          "deva": "अभवत्",
+          "iast": "abhavat",
+          "gloss": "arose, occurred",
+          "parts": [
+            {
+              "form": "a-",
+              "gloss": "imperfect augment"
+            },
+            {
+              "form": "√bhū",
+              "gloss": "be, become"
+            },
+            {
+              "form": "tip",
+              "gloss": "3rd singular active"
+            }
+          ],
+          "stem": "bhava",
+          "root": "√bhū",
+          "rootGloss": "to be, become",
+          "rootEvidence": {
+            "locus": "01.0001",
+            "aupadeshika_devanagari": "भू",
+            "artha_sanskrit": "सत्तायाम्",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "laṅ, tip",
+          "morph": "imperfect active 3rd singular",
+          "karaka": "finite predicate; yuddham is kartṛ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā abhavat tayoḥ.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 10,
+          "deva": "तयोः",
+          "iast": "tayoḥ",
+          "gloss": "between those two",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "those"
+            },
+            {
+              "form": "os",
+              "gloss": "genitive/locative dual"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "os (ṣaṣṭhī/saptamī dvivacana)",
+          "morph": "genitive-locative dual pronoun",
+          "karaka": "relational/local dual referring to the two armies",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Both ‘of the two’ and contextual ‘between the two’ are grammatically available; the latter fits battle.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-53",
+      "source_id": "lyv-4-2-53",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.53",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "अकालोल्बणकल्पान्तभीषणं भुवनान्तरे |\nतस्मिंस्तदा वर्तमाने घोरे समरसंभ्रमे ||",
+      "iast": "akālolbaṇakalpāntabhīṣaṇaṃ bhuvanāntare |\ntasmiṃstadā vartamāne ghore samarasaṃbhrame ||",
+      "english": "—{0:untimely, excessive, and terrifying as the end of an aeon} {1:within the world}; {2:when that} {5:terrible} {6:turmoil of battle} {4:was underway} {3:then}—",
+      "sense": "—untimely, excessive, and terrifying as the end of an aeon within the world; when that terrible turmoil of battle was underway then—",
+      "grammar": {
+        "karakaSummary": "akālolbaṇakalpāntabhīṣaṇam is nominative singular neuter, continuing and qualifying yuddham, the subject of abhavat in 2.52; bhuvanāntare is the location of that arising. Only tasmin ghore samarasaṃbhrame vartamāne forms the locative absolute, with tadā as its time.",
+        "verbalModality": "The finite abhavat belongs to the clause begun in 2.52. Within this unit vartamāne is a present middle participle in the locative absolute, making the battle simultaneous with the flight in 2.54."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "अकालोल्बणकल्पान्तभीषणम्",
+          "iast": "akālolbaṇakalpāntabhīṣaṇam",
+          "gloss": "untimely, excessive, terrifying as the end of an aeon",
+          "parts": [
+            {
+              "form": "a-kāla",
+              "gloss": "out of time, untimely"
+            },
+            {
+              "form": "ulbaṇa",
+              "gloss": "excessive, dreadful"
+            },
+            {
+              "form": "kalpa-anta",
+              "gloss": "end of an aeon"
+            },
+            {
+              "form": "√bhī",
+              "gloss": "fear"
+            },
+            {
+              "form": "ṇic",
+              "gloss": "causative formation: cause fear"
+            },
+            {
+              "form": "ṣug",
+              "gloss": "ṣ augment producing bhīṣ- under Aṣṭādhyāyī 7.3.40"
+            },
+            {
+              "form": "lyuṭ (ana)",
+              "gloss": "terrifying as a derivative formation"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular neuter, surface -am"
+            }
+          ],
+          "stem": "akāla-ulbaṇa-kalpānta-bhīṣaṇa",
+          "root": "√bhī",
+          "rootGloss": "to fear",
+          "rootEvidence": {
+            "locus": "03.0002",
+            "aupadeshika_devanagari": "ञिभी",
+            "artha_sanskrit": "भये",
+            "gana": "juhotyādi (3)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ṇic with ṣug augment under A. 7.3.40 (bhīṣ-); lyuṭ (ana); su (prathamā ekavacana neuter, surface -am)",
+          "morph": "nominative singular neuter nested compound adjective",
+          "karaka": "qualifier/predicate of yuddham, the nominative subject carried from 2.52",
+          "compound": {
+            "type": "nested karmadhāraya with upamā relation",
+            "vigraha": "akālaṃ ca ulbaṇaṃ ca kalpānta iva bhīṣaṇaṃ ca tad yuddham",
+            "members": [
+              "a-kāla",
+              "ulbaṇa",
+              "kalpānta-bhīṣaṇa"
+            ],
+            "structure": [
+              {
+                "member": "a-kāla",
+                "analysis": "na kālaḥ / kālāt apetam: outside its appointed time"
+              },
+              {
+                "member": "kalpānta-bhīṣaṇa",
+                "analysis": "kalpānta iva bhīṣaṇam: terrifying like the end of an aeon"
+              },
+              {
+                "member": "outer qualification",
+                "analysis": "the coordinated qualities jointly qualify neuter nominative yuddham"
+              }
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "In the causative fear sense, √bhī takes the separately identifiable ṣug augment before ṇic under Aṣṭādhyāyī 7.3.40; Kāśikā gives bhīṣayate. The derivative bhīṣaṇa then takes underlying nominative neuter su, realized as -am and agreeing with yuddham; it is not an adverbial accusative.",
+          "parallelDerivations": [],
+          "evidence": {
+            "text_witness": "Laghu-Yoga-Vāsiṣṭha 2.53",
+            "grammar_witnesses": [
+              "Dhātupāṭha 03.0002 ञिभी भये",
+              "Aṣṭādhyāyī 7.3.40 भियो हेतुभये षुक्",
+              "Kāśikā ad A. 7.3.40: bhīṣayate"
+            ],
+            "review_method": "direct source-text derivation; interpreter not used"
+          }
+        },
+        {
+          "i": 1,
+          "deva": "भुवनान्तरे",
+          "iast": "bhuvanāntare",
+          "gloss": "within the world",
+          "parts": [
+            {
+              "form": "√bhū",
+              "gloss": "be, become"
+            },
+            {
+              "form": "kyun (vana)",
+              "gloss": "Uṇādi formation of bhuvana"
+            },
+            {
+              "form": "antara",
+              "gloss": "interior, midst"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "bhuvana-antara",
+          "root": "√bhū",
+          "rootGloss": "to be, become",
+          "rootEvidence": {
+            "locus": "01.0001",
+            "aupadeshika_devanagari": "भू",
+            "artha_sanskrit": "सत्तायाम्",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kyun under Pañcapādī Uṇādi 2.81 + ṅi (saptamī ekavacana)",
+          "morph": "locative singular neuter tatpuruṣa",
+          "karaka": "adhikaraṇa of the battle",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa",
+            "vigraha": "bhuvanasya antare",
+            "members": [
+              "bhuvana",
+              "antara"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Pañcapādī Uṇādi 2.81 bhūsudhūbhrasjibhyaś chandasi supplies kyun; Kāśikā line 3119 explicitly applies this to bhuvana under the rule’s bahulam extension.",
+          "parallelDerivations": [
+            {
+              "category": "uṇādi_formation",
+              "analysis": "√bhū + kyun → bhuvana",
+              "evidence": "Pañcapādī Uṇādi 2.81; Kāśikā on the formation at line 3119",
+              "qualification": "Direct traditional derivation; replaces the unsupported lyuṭ analysis."
+            }
+          ]
+        },
+        {
+          "i": 2,
+          "deva": "तस्मिन्",
+          "iast": "tasmin",
+          "gloss": "that",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "that"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "ṅi (saptamī ekavacana)",
+          "morph": "locative singular masculine pronoun",
+          "karaka": "subject of locative absolute with saṃbhrame",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā tasmiṃs tadā.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "तदा",
+          "iast": "tadā",
+          "gloss": "then",
+          "parts": [
+            {
+              "form": "tadā",
+              "gloss": "then"
+            }
+          ],
+          "stem": "tadā",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "temporal adverb",
+          "karaka": "temporal adjunct",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Retained explicitly.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "वर्तमाने",
+          "iast": "vartamāne",
+          "gloss": "being underway, occurring",
+          "parts": [
+            {
+              "form": "√vṛt",
+              "gloss": "turn, occur, continue"
+            },
+            {
+              "form": "śānac",
+              "gloss": "present middle participle"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "vartamāna",
+          "root": "√vṛt",
+          "rootGloss": "to occur, continue",
+          "rootEvidence": {
+            "locus": "01.0862",
+            "aupadeshika_devanagari": "वृतुँ",
+            "artha_sanskrit": "वर्तने",
+            "gana": "bhvādi (1)",
+            "pada": "ātmanepada"
+          },
+          "affix": "laṭ-śānac + ṅi",
+          "morph": "present middle participle locative singular masculine",
+          "karaka": "predicate of the locative absolute",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Agrees with samarasaṃbhrame.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "घोरे",
+          "iast": "ghore",
+          "gloss": "terrible",
+          "parts": [
+            {
+              "form": "ghora",
+              "gloss": "terrible"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "ghora",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "ṅi",
+          "morph": "locative singular masculine adjective",
+          "karaka": "qualifies samarasaṃbhrame",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Lexical adjective.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "समरसंभ्रमे",
+          "iast": "samarasaṃbhrame",
+          "gloss": "in the turmoil of battle",
+          "parts": [
+            {
+              "form": "samara",
+              "gloss": "battle"
+            },
+            {
+              "form": "sam-",
+              "gloss": "together, intensely"
+            },
+            {
+              "form": "√bhram",
+              "gloss": "move confusedly"
+            },
+            {
+              "form": "ghañ",
+              "gloss": "action/state noun"
+            },
+            {
+              "form": "ṅi",
+              "gloss": "locative singular"
+            }
+          ],
+          "stem": "samara-saṃbhrama",
+          "root": "√bhram",
+          "rootGloss": "to move, wander",
+          "rootEvidence": {
+            "locus": "01.0985",
+            "aupadeshika_devanagari": "भ्रमुँ",
+            "artha_sanskrit": "चलने",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ghañ + ṅi",
+          "morph": "locative singular masculine tatpuruṣa",
+          "karaka": "subject-locus of locative absolute",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa",
+            "vigraha": "samarasya saṃbhrame",
+            "members": [
+              "samara",
+              "saṃbhrama"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The root image is confused/intense motion; ‘turmoil’ preserves it.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-54",
+      "source_id": "lyv-4-2-54",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.54",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "पतिताङ्गायुधानीह प्रस्रवद्रुधिराणि च |\nपयांसीव विशीर्णानि देवसैन्यानि दुद्रुवुः ||",
+      "iast": "patitāṅgāyudhānīha prasravadrudhirāṇi ca |\npayāṃsīva viśīrṇāni devasainyāni dudruvuḥ ||",
+      "english": "—{7:the armies of the gods}, {0:their limbs and weapons fallen} {3:and} {2:their blood streaming}, {8:fled} {1:here}, {6:scattered} {5:like} {4:waters}.",
+      "sense": "—the armies of the gods, their limbs and weapons fallen and their blood streaming, fled here, scattered like waters.",
+      "grammar": {
+        "karakaSummary": "devasainyāni is the neuter plural subject of dudruvuḥ. patitāṅgāyudhāni, prasravadrudhirāṇi and viśīrṇāni are nominative neuter plural bahuvrīhi/predicative qualifiers; payāṃsi is the iva comparison standard and iha a place adverb.",
+        "verbalModality": "dudruvuḥ is perfect active 3rd plural. The kta and śatṛ compounds depict the armies’ simultaneous state."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "पतिताङ्गायुधानि",
+          "iast": "patitāṅgāyudhāni",
+          "gloss": "whose limbs and weapons had fallen",
+          "parts": [
+            {
+              "form": "√pat + kta",
+              "gloss": "fallen"
+            },
+            {
+              "form": "aṅga",
+              "gloss": "limb"
+            },
+            {
+              "form": "āyudha",
+              "gloss": "weapon"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative neuter plural"
+            }
+          ],
+          "stem": "patita-aṅga-āyudha",
+          "root": "√pat",
+          "rootGloss": "to fall/go",
+          "rootEvidence": {
+            "locus": "01.0979",
+            "aupadeshika_devanagari": "पतॢँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + jas",
+          "morph": "nominative plural neuter bahuvrīhi",
+          "karaka": "qualifies devasainyāni",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "patitāni aṅgāni āyudhāni ca yeṣāṃ tāni",
+            "members": [
+              "patita",
+              "aṅga-āyudha"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The compound states the armies’ damaged condition; it does not make limbs and weapons the subject of dudruvuḥ.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "इह",
+          "iast": "iha",
+          "gloss": "here",
+          "parts": [
+            {
+              "form": "iha",
+              "gloss": "here"
+            }
+          ],
+          "stem": "iha",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "place adverb",
+          "karaka": "adhikaraṇa adjunct",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā -āni iha contracts to -ānīha.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "प्रस्रवद्रुधिराणि",
+          "iast": "prasravadrudhirāṇi",
+          "gloss": "whose blood was streaming",
+          "parts": [
+            {
+              "form": "pra-",
+              "gloss": "forth"
+            },
+            {
+              "form": "√sru",
+              "gloss": "flow"
+            },
+            {
+              "form": "śatṛ",
+              "gloss": "streaming"
+            },
+            {
+              "form": "rudhira",
+              "gloss": "blood"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative neuter plural"
+            }
+          ],
+          "stem": "prasravat-rudhira",
+          "root": "√sru",
+          "rootGloss": "to flow, go",
+          "rootEvidence": {
+            "locus": "01.1090",
+            "aupadeshika_devanagari": "स्रु",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "śatṛ + jas",
+          "morph": "nominative plural neuter bahuvrīhi",
+          "karaka": "qualifies devasainyāni",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "prasravad rudhiraṃ yeṣāṃ tāni",
+            "members": [
+              "prasravat",
+              "rudhira"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "prasravat + rudhira undergoes t→d voicing in saṃhitā/compound junction.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "च",
+          "iast": "ca",
+          "gloss": "and",
+          "parts": [
+            {
+              "form": "ca",
+              "gloss": "and"
+            }
+          ],
+          "stem": "ca",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "conjunction",
+          "karaka": "coordinates descriptions",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Explicitly retained.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "पयांसि",
+          "iast": "payāṃsi",
+          "gloss": "waters",
+          "parts": [
+            {
+              "form": "payas",
+              "gloss": "water"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "payas",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural neuter",
+          "karaka": "upamāna with iva",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The simile is of waters dispersing/flowing.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "इव",
+          "iast": "iva",
+          "gloss": "like",
+          "parts": [
+            {
+              "form": "iva",
+              "gloss": "like"
+            }
+          ],
+          "stem": "iva",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "particle of comparison",
+          "karaka": "upamā marker linking payāṃsi to devasainyāni",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā payāṃsīva resolves as payāṃsi + iva.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "विशीर्णानि",
+          "iast": "viśīrṇāni",
+          "gloss": "scattered, broken apart",
+          "parts": [
+            {
+              "form": "vi-",
+              "gloss": "apart"
+            },
+            {
+              "form": "√śṝ",
+              "gloss": "break, injure"
+            },
+            {
+              "form": "kta",
+              "gloss": "scattered/broken"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative neuter plural"
+            }
+          ],
+          "stem": "viśīrṇa",
+          "root": "√śṝ",
+          "rootGloss": "to injure/break",
+          "rootEvidence": {
+            "locus": "09.0015",
+            "aupadeshika_devanagari": "शॄञ्",
+            "artha_sanskrit": "हिंसायाम्",
+            "gana": "kryādi (9)",
+            "pada": "ubhayapada"
+          },
+          "affix": "kta + jas",
+          "morph": "past passive participle nominative plural neuter",
+          "karaka": "predicate adjective of devasainyāni",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "vi- preserves the apart/dispersed force.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "देवसैन्यानि",
+          "iast": "devasainyāni",
+          "gloss": "the armies of the gods",
+          "parts": [
+            {
+              "form": "deva",
+              "gloss": "god"
+            },
+            {
+              "form": "sainya",
+              "gloss": "army"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative neuter plural"
+            }
+          ],
+          "stem": "deva-sainya",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural neuter tatpuruṣa",
+          "karaka": "kartṛ of dudruvuḥ",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa",
+            "vigraha": "devānāṃ sainyāni",
+            "members": [
+              "deva",
+              "sainya"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Plural armies/forces is preserved.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "दुद्रुवुः",
+          "iast": "dudruvuḥ",
+          "gloss": "they fled, ran",
+          "parts": [
+            {
+              "form": "du-",
+              "gloss": "perfect reduplication"
+            },
+            {
+              "form": "√dru",
+              "gloss": "run"
+            },
+            {
+              "form": "liṭ-jus",
+              "gloss": "perfect 3rd plural"
+            }
+          ],
+          "stem": "√dru",
+          "root": "√dru",
+          "rootGloss": "to go/run",
+          "rootEvidence": {
+            "locus": "01.1095",
+            "aupadeshika_devanagari": "द्रु",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "liṭ, jus (prathama-puruṣa bahuvacana)",
+          "morph": "perfect active 3rd plural",
+          "karaka": "finite predicate; devasainyāni is neuter plural kartṛ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The reduplicated perfect conveys the narrated flight.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-55",
+      "source_id": "lyv-4-2-55",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.55",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "दामव्यालकटास्तानि चिरमन्तर्हितान्यपि |\nअनुजग्मुर्लसन्नादमिन्धनानीव पावकाः ||",
+      "iast": "dāmavyālakaṭāstāni ciramantarhitānyapi |\nanujagmurlasannādamindhanānīva pāvakāḥ ||",
+      "english": "{0:Dāma, Vyāla, and Kaṭa} {5:followed} {1:those armies} {2:for a long time}, {4:even} {3:when hidden}, {6:with a resounding roar}, {8:as} {9:fires follow} {7:fuel}.",
+      "sense": "Dāma, Vyāla, and Kaṭa followed those armies for a long time, even when hidden, with a resounding roar, as fires follow fuel.",
+      "grammar": {
+        "karakaSummary": "dāmavyālakaṭāḥ is the plural subject of anujagmuḥ and tāni (devasainyāni) its object, qualified by antarhitāni and concessive api. ciram and lasannādam are adverbial accusatives. pāvakāḥ is the simile subject and indhanāni its elided object.",
+        "verbalModality": "anujagmuḥ is perfect active 3rd plural. antarhitāni is kta and lasat is a present participial compound member."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "दामव्यालकटाः",
+          "iast": "dāmavyālakaṭāḥ",
+          "gloss": "Dāma, Vyāla, and Kaṭa",
+          "parts": [
+            {
+              "form": "Dāma",
+              "gloss": "Bond"
+            },
+            {
+              "form": "Vyāla",
+              "gloss": "beast/serpent"
+            },
+            {
+              "form": "Kaṭa",
+              "gloss": "proper name with several lexical senses"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "dāma-vyāla-kaṭa",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural masculine itaretara-dvandva",
+          "karaka": "kartṛ of anujagmuḥ",
+          "compound": {
+            "type": "dvandva",
+            "vigraha": "Dāmaś ca Vyālaś ca Kaṭaś ca",
+            "members": [
+              "Dāma",
+              "Vyāla",
+              "Kaṭa"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā -āḥ tāni becomes -ās tāni.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "तानि",
+          "iast": "tāni",
+          "gloss": "those [armies]",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "those"
+            },
+            {
+              "form": "śas",
+              "gloss": "accusative plural"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "śas (dvitīyā bahuvacana)",
+          "morph": "accusative plural neuter pronoun",
+          "karaka": "karman of anujagmuḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Resumes devasainyāni from 2.54 without adding a new noun to the Sanskrit line.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "चिरम्",
+          "iast": "ciram",
+          "gloss": "for a long time",
+          "parts": [
+            {
+              "form": "cira",
+              "gloss": "long-lasting"
+            },
+            {
+              "form": "am",
+              "gloss": "adverbial accusative"
+            }
+          ],
+          "stem": "cira",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "am",
+          "morph": "adverbial accusative singular neuter",
+          "karaka": "duration adjunct",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Duration is explicit.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "अन्तर्हितानि",
+          "iast": "antarhitāni",
+          "gloss": "hidden, vanished",
+          "parts": [
+            {
+              "form": "antar-",
+              "gloss": "within, out of sight"
+            },
+            {
+              "form": "√dhā",
+              "gloss": "put, place"
+            },
+            {
+              "form": "kta",
+              "gloss": "placed out of sight"
+            },
+            {
+              "form": "śas",
+              "gloss": "accusative plural"
+            }
+          ],
+          "stem": "antarhita",
+          "root": "√dhā",
+          "rootGloss": "to put, place",
+          "rootEvidence": {
+            "locus": "03.0011",
+            "aupadeshika_devanagari": "डुधाञ्",
+            "artha_sanskrit": "धारणपोषणयोः",
+            "gana": "juhotyādi (3)",
+            "pada": "ubhayapada"
+          },
+          "affix": "kta + śas (dvitīyā bahuvacana)",
+          "morph": "past passive participle accusative plural neuter",
+          "karaka": "qualifies accusative object tāni",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā -āni api contracts to -āny api.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "अपि",
+          "iast": "api",
+          "gloss": "even, though",
+          "parts": [
+            {
+              "form": "api",
+              "gloss": "even"
+            }
+          ],
+          "stem": "api",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "concessive particle",
+          "karaka": "makes antarhitāni concessive",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā antarhitāny api resolves the particle separately.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "अनुजग्मुः",
+          "iast": "anujagmuḥ",
+          "gloss": "they followed",
+          "parts": [
+            {
+              "form": "anu-",
+              "gloss": "after"
+            },
+            {
+              "form": "√gam",
+              "gloss": "go"
+            },
+            {
+              "form": "liṭ-jus",
+              "gloss": "perfect 3rd plural"
+            }
+          ],
+          "stem": "anu-√gam",
+          "root": "√gam",
+          "rootGloss": "to go",
+          "rootEvidence": {
+            "locus": "01.1137",
+            "aupadeshika_devanagari": "गमॢँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "liṭ, jus (prathama-puruṣa bahuvacana)",
+          "morph": "perfect active 3rd plural",
+          "karaka": "predicate; names are kartṛ, tāni karman",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "anu- supplies the following/pursuing force.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "लसन्नादम्",
+          "iast": "lasannādam",
+          "gloss": "with a sounding/flashing roar",
+          "parts": [
+            {
+              "form": "√las",
+              "gloss": "play, cling; shine/move in usage"
+            },
+            {
+              "form": "śatṛ",
+              "gloss": "present participle lasat"
+            },
+            {
+              "form": "nāda",
+              "gloss": "sound, roar"
+            },
+            {
+              "form": "am",
+              "gloss": "adverbial accusative"
+            }
+          ],
+          "stem": "lasat-nāda",
+          "root": "√las",
+          "rootGloss": "to play/adhere; in poetic use, move or flash",
+          "rootEvidence": {
+            "locus": "01.0811",
+            "aupadeshika_devanagari": "लसँ",
+            "artha_sanskrit": "श्लेषणक्रीडनयोः",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "śatṛ + am",
+          "morph": "accusative singular masculine karmadhāraya used adverbially",
+          "karaka": "manner of anujagmuḥ",
+          "compound": {
+            "type": "karmadhāraya",
+            "vigraha": "lasan nādaḥ / lasantaṃ nādam",
+            "members": [
+              "lasat",
+              "nāda"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "lasat + nāda gives lasannāda at the compound junction. nāda is masculine (Halāyudhakośa line 138); the accusative expression specifies the manner/accompaniment of pursuit.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "इन्धनानि",
+          "iast": "indhanāni",
+          "gloss": "fuel, kindling",
+          "parts": [
+            {
+              "form": "√indh",
+              "gloss": "kindle, blaze"
+            },
+            {
+              "form": "lyuṭ (ana)",
+              "gloss": "means/material of kindling"
+            },
+            {
+              "form": "śas",
+              "gloss": "accusative plural"
+            }
+          ],
+          "stem": "indhana",
+          "root": "√indh",
+          "rootGloss": "to kindle, blaze",
+          "rootEvidence": {
+            "locus": "07.0011",
+            "aupadeshika_devanagari": "ञिइन्धीँ",
+            "artha_sanskrit": "दीप्तौ",
+            "gana": "rudhādi (7)",
+            "pada": "ātmanepada"
+          },
+          "affix": "lyuṭ (ana) + śas (dvitīyā bahuvacana)",
+          "morph": "accusative plural neuter action/instrument noun",
+          "karaka": "elided karman of the simile’s understood ‘follow’",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The word precedes iva in the source order although English naturally places fires first.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "इव",
+          "iast": "iva",
+          "gloss": "like",
+          "parts": [
+            {
+              "form": "iva",
+              "gloss": "like"
+            }
+          ],
+          "stem": "iva",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "comparison particle",
+          "karaka": "upamā marker",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā indhanāni iva contracts.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 9,
+          "deva": "पावकाः",
+          "iast": "pāvakāḥ",
+          "gloss": "fires",
+          "parts": [
+            {
+              "form": "pāvaka",
+              "gloss": "purifier; fire"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "pāvaka",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural masculine",
+          "karaka": "upamāna-kartṛ in the elliptical simile",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Lexical ‘fire’; no uncertain suffix derivation is asserted.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-56",
+      "source_id": "lyv-4-2-56",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.56",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "अन्विष्यन्तोऽपि यत्नेन नालभन्तासुराः सुरान् |\nअलब्धेष्वमरौघेषु दामव्यालकटास्तथा ||",
+      "iast": "anviṣyanto'pi yatnena nālabhantāsurāḥ surān |\nalabdheṣvamaraugheṣu dāmavyālakaṭāstathā ||",
+      "english": "{0,1:Though seeking} {2:with effort}, {5:the Asuras} {3:did not} {4:find} {6:the gods}; {7,8:when the hosts of immortals were not found}, {9:Dāma, Vyāla, and Kaṭa} {10:then}—",
+      "sense": "Though seeking with effort, the Asuras did not find the gods; when the hosts of immortals were not found, Dāma, Vyāla, and Kaṭa then—",
+      "grammar": {
+        "karakaSummary": "asurāḥ is subject of na alabhanta and surān its object; anviṣyantaḥ is a concessive simultaneous participle, with yatnena instrumental of effort and api. alabdhaṣu amaraugheṣu is a locative absolute; dāmavyālakaṭāḥ begins the subject continued with jagmuḥ in 2.57.",
+        "verbalModality": "alabhanta is imperfect middle 3rd plural. anviṣyantaḥ is present active participle; alabdha is a passive kta in a locative absolute."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "अन्विष्यन्तः",
+          "iast": "anviṣyantaḥ",
+          "gloss": "seeking, searching after",
+          "parts": [
+            {
+              "form": "anu-",
+              "gloss": "after, in pursuit"
+            },
+            {
+              "form": "√iṣ",
+              "gloss": "go; with anu-, seek after"
+            },
+            {
+              "form": "śyan",
+              "gloss": "divādi present-stem marker under A. 3.1.69"
+            },
+            {
+              "form": "śatṛ",
+              "gloss": "present active participle"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "anviṣyat",
+          "root": "√iṣ",
+          "rootGloss": "to go; with anu-, seek after",
+          "rootEvidence": {
+            "locus": "04.0022",
+            "aupadeshika_devanagari": "इषँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "divādi (4)",
+            "pada": "parasmaipada"
+          },
+          "affix": "śyan (A. 3.1.69) + śatṛ + jas (prathamā bahuvacana)",
+          "morph": "present active participle nominative plural masculine",
+          "karaka": "qualifies asurāḥ and shares its agency",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The visible -iṣya- stem selects divādi √iṣ 04.0022 गतौ with śyan. Kāśikā contrasts this iṣyati formation with icchati from tudādi √iṣ 06.0078 इच्छायाम्.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "अपि",
+          "iast": "api",
+          "gloss": "even, though",
+          "parts": [
+            {
+              "form": "api",
+              "gloss": "even"
+            }
+          ],
+          "stem": "api",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "concessive particle",
+          "karaka": "makes the participle concessive",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Rendered ‘though’ jointly with the participle.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "यत्नेन",
+          "iast": "yatnena",
+          "gloss": "with effort",
+          "parts": [
+            {
+              "form": "yatna",
+              "gloss": "effort"
+            },
+            {
+              "form": "ṭā",
+              "gloss": "instrumental singular"
+            }
+          ],
+          "stem": "yatna",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "ṭā",
+          "morph": "instrumental singular masculine",
+          "karaka": "karaṇa/manner of searching",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Effort is explicit, countering any reading of effortless omniscience.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "न",
+          "iast": "na",
+          "gloss": "not",
+          "parts": [
+            {
+              "form": "na",
+              "gloss": "not"
+            }
+          ],
+          "stem": "na",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "negative particle",
+          "karaka": "negates alabhanta",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā nālabhanta.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "अलभन्त",
+          "iast": "alabhanta",
+          "gloss": "they obtained, found",
+          "parts": [
+            {
+              "form": "a-",
+              "gloss": "imperfect augment"
+            },
+            {
+              "form": "√labh",
+              "gloss": "obtain"
+            },
+            {
+              "form": "jha",
+              "gloss": "3rd plural middle"
+            }
+          ],
+          "stem": "labha",
+          "root": "√labh",
+          "rootGloss": "to obtain",
+          "rootEvidence": {
+            "locus": "01.1130",
+            "aupadeshika_devanagari": "डुलभँष्",
+            "artha_sanskrit": "प्राप्तौ",
+            "gana": "bhvādi (1)",
+            "pada": "ātmanepada"
+          },
+          "affix": "laṅ, jha",
+          "morph": "imperfect middle 3rd plural",
+          "karaka": "finite predicate; asurāḥ kartṛ, surān karman",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "With negation and a personal object, contextual English ‘find’ is exact.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "असुराः",
+          "iast": "asurāḥ",
+          "gloss": "the Asuras",
+          "parts": [
+            {
+              "form": "asura",
+              "gloss": "Asura"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "asura",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural masculine",
+          "karaka": "kartṛ of alabhanta",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā -ta asurāḥ contracts across the boundary.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "सुरान्",
+          "iast": "surān",
+          "gloss": "the gods",
+          "parts": [
+            {
+              "form": "sura",
+              "gloss": "god"
+            },
+            {
+              "form": "śas",
+              "gloss": "accusative plural"
+            }
+          ],
+          "stem": "sura",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "śas",
+          "morph": "accusative plural masculine",
+          "karaka": "karman of alabhanta",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Direct object.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "अलब्धेषु",
+          "iast": "alabdheṣu",
+          "gloss": "when not found",
+          "parts": [
+            {
+              "form": "a-",
+              "gloss": "not"
+            },
+            {
+              "form": "√labh + kta",
+              "gloss": "obtained/found"
+            },
+            {
+              "form": "sup",
+              "gloss": "locative plural"
+            }
+          ],
+          "stem": "alabdha",
+          "root": "√labh",
+          "rootGloss": "to obtain",
+          "rootEvidence": {
+            "locus": "01.1130",
+            "aupadeshika_devanagari": "डुलभँष्",
+            "artha_sanskrit": "प्राप्तौ",
+            "gana": "bhvādi (1)",
+            "pada": "ātmanepada"
+          },
+          "affix": "kta + sup",
+          "morph": "past passive participle locative plural masculine",
+          "karaka": "predicate of amaraugheṣu in the locative absolute",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Final -u becomes -v before the initial a of amaraugheṣu in saṃhitā.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "अमरौघेषु",
+          "iast": "amaraugheṣu",
+          "gloss": "the hosts of immortals",
+          "parts": [
+            {
+              "form": "amara",
+              "gloss": "immortal; god"
+            },
+            {
+              "form": "ogha",
+              "gloss": "host, multitude"
+            },
+            {
+              "form": "sup",
+              "gloss": "locative plural"
+            }
+          ],
+          "stem": "amara-ogha",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "sup (saptamī bahuvacana)",
+          "morph": "locative plural masculine tatpuruṣa",
+          "karaka": "subject of the locative absolute with alabdhaṣu",
+          "compound": {
+            "type": "ṣaṣṭhī-tatpuruṣa",
+            "vigraha": "amarāṇām ogheṣu",
+            "members": [
+              "amara",
+              "ogha"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The compound names the divine hosts, not an abstract immortality.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 9,
+          "deva": "दामव्यालकटाः",
+          "iast": "dāmavyālakaṭāḥ",
+          "gloss": "Dāma, Vyāla, and Kaṭa",
+          "parts": [
+            {
+              "form": "Dāma",
+              "gloss": "Bond"
+            },
+            {
+              "form": "Vyāla",
+              "gloss": "beast/serpent"
+            },
+            {
+              "form": "Kaṭa",
+              "gloss": "proper name"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "dāma-vyāla-kaṭa",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural masculine dvandva",
+          "karaka": "kartṛ of jagmuḥ in 2.57",
+          "compound": {
+            "type": "dvandva",
+            "vigraha": "Dāmaś ca Vyālaś ca Kaṭaś ca",
+            "members": [
+              "Dāma",
+              "Vyāla",
+              "Kaṭa"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The sentence continues across the verse boundary.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 10,
+          "deva": "तथा",
+          "iast": "tathā",
+          "gloss": "then, accordingly",
+          "parts": [
+            {
+              "form": "tathā",
+              "gloss": "thus, accordingly"
+            }
+          ],
+          "stem": "tathā",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "adverb",
+          "karaka": "links the condition to the departure",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Not omitted in the literal line.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-57",
+      "source_id": "lyv-4-2-57",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.57",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "जग्मुः पातालकोशस्थं प्रभुं प्रमुदिताशयाः |\nअथ देवा विषण्णास्ते क्षणमाश्वास्य वै ययुः ||",
+      "iast": "jagmuḥ pātālakośasthaṃ prabhuṃ pramuditāśayāḥ |\natha devā viṣaṇṇāste kṣaṇamāśvāsya vai yayuḥ ||",
+      "english": "—{3:their inner dispositions delighted}, {0:they went to} {2:the lord} {1:dwelling in the vault of the underworld}; {4:then} {5,6,7:the despondent gods}, {9:having recovered their breath} {8:for a moment}, {10:indeed} {11:went}—",
+      "sense": "—their inner dispositions delighted, they went to the lord dwelling in the vault of the underworld; then the despondent gods, having recovered their breath for a moment, indeed went—",
+      "grammar": {
+        "karakaSummary": "The names from 2.56 are subject of jagmuḥ; prabhum is object/goal, qualified by pātālakośastham, and pramuditāśayāḥ qualifies the subject. devāḥ/te are subject of yayuḥ; viṣaṇṇāḥ qualifies them, kṣaṇam is duration, and āśvāsya is a prior absolutive.",
+        "verbalModality": "jagmuḥ and yayuḥ are perfect active 3rd plural. āśvāsya is a prefixed absolutive, here intransitive ‘having taken/recovered breath.’"
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "जग्मुः",
+          "iast": "jagmuḥ",
+          "gloss": "they went",
+          "parts": [
+            {
+              "form": "ja-",
+              "gloss": "perfect reduplication"
+            },
+            {
+              "form": "√gam",
+              "gloss": "go"
+            },
+            {
+              "form": "liṭ-jus",
+              "gloss": "perfect 3rd plural"
+            }
+          ],
+          "stem": "√gam",
+          "root": "√gam",
+          "rootGloss": "to go",
+          "rootEvidence": {
+            "locus": "01.1137",
+            "aupadeshika_devanagari": "गमॢँ",
+            "artha_sanskrit": "गतौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "liṭ, jus (prathama-puruṣa bahuvacana)",
+          "morph": "perfect active 3rd plural",
+          "karaka": "finite predicate; three names are kartṛ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Goal is expressed by accusative prabhum.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "पातालकोशस्थम्",
+          "iast": "pātālakośastham",
+          "gloss": "dwelling in the vault/chamber of the underworld",
+          "parts": [
+            {
+              "form": "pātāla",
+              "gloss": "underworld"
+            },
+            {
+              "form": "kośa",
+              "gloss": "case, chamber, vault"
+            },
+            {
+              "form": "√sthā",
+              "gloss": "stand, dwell"
+            },
+            {
+              "form": "ka",
+              "gloss": "standing in"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "pātāla-kośa-stha",
+          "root": "√sthā",
+          "rootGloss": "to stand, remain",
+          "rootEvidence": {
+            "locus": "01.1077",
+            "aupadeshika_devanagari": "ष्ठा",
+            "artha_sanskrit": "गतिनिवृत्तौ",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ka in -stha + am",
+          "morph": "accusative singular masculine compound adjective",
+          "karaka": "qualifies prabhum",
+          "compound": {
+            "type": "saptamī-tatpuruṣa",
+            "vigraha": "pātālakośe tiṣṭhantam",
+            "members": [
+              "pātāla-kośa",
+              "stha"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The compact -stha means located/dwelling, not created there.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "प्रभुम्",
+          "iast": "prabhum",
+          "gloss": "lord, master",
+          "parts": [
+            {
+              "form": "prabhu",
+              "gloss": "lord, master"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "prabhu",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "am",
+          "morph": "accusative singular masculine",
+          "karaka": "karman/goal of jagmuḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Refers to Śambara.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "प्रमुदिताशयाः",
+          "iast": "pramuditāśayāḥ",
+          "gloss": "whose inner dispositions were delighted",
+          "parts": [
+            {
+              "form": "pra-√mud + kta",
+              "gloss": "greatly delighted"
+            },
+            {
+              "form": "āśaya",
+              "gloss": "inner disposition, seat"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "pramudita-āśaya",
+          "root": "√mud",
+          "rootGloss": "to rejoice",
+          "rootEvidence": {
+            "locus": "01.0016",
+            "aupadeshika_devanagari": "मुदँ",
+            "artha_sanskrit": "हर्षे",
+            "gana": "bhvādi (1)",
+            "pada": "ātmanepada"
+          },
+          "affix": "kta + jas",
+          "morph": "nominative plural masculine bahuvrīhi",
+          "karaka": "qualifies the subject of jagmuḥ",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "pramuditā āśayā yeṣāṃ te",
+            "members": [
+              "pramudita",
+              "āśaya"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "āśaya is retained as disposition/inner seat, not flattened to a claim about consciousness.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "अथ",
+          "iast": "atha",
+          "gloss": "then",
+          "parts": [
+            {
+              "form": "atha",
+              "gloss": "then"
+            }
+          ],
+          "stem": "atha",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "narrative particle",
+          "karaka": "transition",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Begins the gods’ response.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "देवाः",
+          "iast": "devāḥ",
+          "gloss": "the gods",
+          "parts": [
+            {
+              "form": "deva",
+              "gloss": "god"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "deva",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural masculine",
+          "karaka": "kartṛ of yayuḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā devā viṣaṇṇāḥ loses visarga.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "विषण्णाः",
+          "iast": "viṣaṇṇāḥ",
+          "gloss": "despondent, sunk down",
+          "parts": [
+            {
+              "form": "vi-",
+              "gloss": "apart/down"
+            },
+            {
+              "form": "√sad",
+              "gloss": "sink, become dejected"
+            },
+            {
+              "form": "kta",
+              "gloss": "sunk/dejected"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "viṣaṇṇa",
+          "root": "√sad",
+          "rootGloss": "to sink, become weary/dejected",
+          "rootEvidence": {
+            "locus": "01.0990",
+            "aupadeshika_devanagari": "षदॢँ",
+            "artha_sanskrit": "विशरणगत्यवसादनेषु",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + jas",
+          "morph": "past passive participle nominative plural masculine",
+          "karaka": "qualifies devāḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The Dhātupāṭha avasādana sense grounds ‘despondent.’",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "ते",
+          "iast": "te",
+          "gloss": "they",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "those"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "jas",
+          "morph": "nominative plural masculine pronoun",
+          "karaka": "resumptive kartṛ of yayuḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā viṣaṇṇās te.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "क्षणम्",
+          "iast": "kṣaṇam",
+          "gloss": "for a moment",
+          "parts": [
+            {
+              "form": "kṣaṇa",
+              "gloss": "moment"
+            },
+            {
+              "form": "am",
+              "gloss": "adverbial accusative"
+            }
+          ],
+          "stem": "kṣaṇa",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "am",
+          "morph": "accusative singular masculine used for duration",
+          "karaka": "duration of āśvāsya",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Temporal duration.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 9,
+          "deva": "आश्वास्य",
+          "iast": "āśvāsya",
+          "gloss": "having recovered breath / composed themselves",
+          "parts": [
+            {
+              "form": "ā-",
+              "gloss": "toward, fully"
+            },
+            {
+              "form": "√śvas",
+              "gloss": "breathe"
+            },
+            {
+              "form": "ṇic",
+              "gloss": "causative/recovering stem"
+            },
+            {
+              "form": "lyap",
+              "gloss": "having done"
+            }
+          ],
+          "stem": "ā-śvāsaya",
+          "root": "√śvas",
+          "rootGloss": "to breathe",
+          "rootEvidence": {
+            "locus": "02.0064",
+            "aupadeshika_devanagari": "श्वसँ",
+            "artha_sanskrit": "प्राणने",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "ṇic + lyap",
+          "morph": "causative/prefixed absolutive",
+          "karaka": "prior action sharing kartṛ devāḥ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Literally grounded in breathing; contextually ‘recovering/composing themselves.’ It need not take an unexpressed external object.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 10,
+          "deva": "वै",
+          "iast": "vai",
+          "gloss": "indeed",
+          "parts": [
+            {
+              "form": "vai",
+              "gloss": "indeed"
+            }
+          ],
+          "stem": "vai",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "emphatic particle",
+          "karaka": "emphasizes the narrated departure",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Preserved in the literal line.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 11,
+          "deva": "ययुः",
+          "iast": "yayuḥ",
+          "gloss": "they went",
+          "parts": [
+            {
+              "form": "ya-",
+              "gloss": "perfect reduplication"
+            },
+            {
+              "form": "√yā",
+              "gloss": "go"
+            },
+            {
+              "form": "liṭ-jus",
+              "gloss": "perfect 3rd plural"
+            }
+          ],
+          "stem": "√yā",
+          "root": "√yā",
+          "rootGloss": "to go, reach",
+          "rootEvidence": {
+            "locus": "02.0044",
+            "aupadeshika_devanagari": "या",
+            "artha_sanskrit": "प्रापणे",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "liṭ, jus (prathama-puruṣa bahuvacana)",
+          "morph": "perfect active 3rd plural",
+          "karaka": "finite predicate; devāḥ/te kartṛ; goal in 2.58",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The goal brahmāṇam follows in the next verse.",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    },
+    {
+      "id": "lyv-4-2-58",
+      "source_id": "lyv-4-2-58",
+      "locus": "Laghu-Yoga-Vāsiṣṭha, Sthiti-prakaraṇa 2.58",
+      "speaker": "Vasiṣṭha",
+      "devanagari": "दामादिभिश्च विजिता ब्रह्माणममितौजसम् |\nतेषामाविरभूद्ब्रह्मा रक्तो रक्तासनच्छविः ||",
+      "iast": "dāmādibhiśca vijitā brahmāṇamamitaujasam |\nteṣāmāvirabhūdbrahmā rakto raktāsanacchaviḥ ||",
+      "english": "—{1:and}, {2:conquered} {0:by Dāma and the others}, {3:to Brahmā} {4:of unmeasured vigor}; {7:Brahmā} {6:became manifest} {5:before them}, {8:red}, {9:with the radiance of a red seat}.",
+      "sense": "—and, conquered by Dāma and the others, to Brahmā of unmeasured vigor; Brahmā became manifest before them, red, with the radiance of a red seat.",
+      "grammar": {
+        "karakaSummary": "vijitāḥ qualifies the carried-over devāḥ, with dāmādibhiḥ as passive agent; brahmāṇam is the goal/object of yayuḥ and amitaujasam qualifies it. In the second sentence brahmā is subject of āvirabhūt; teṣām is a relational dative-like genitive, and raktaḥ plus raktāsanacchaviḥ are nominative predicates.",
+        "verbalModality": "vijitāḥ and raktaḥ are kta predicates. āvirabhūt is the root aorist active 3rd singular of √bhū, with sic elided under Aṣṭādhyāyī 2.4.77."
+      },
+      "words": [
+        {
+          "i": 0,
+          "deva": "दामादिभिः",
+          "iast": "dāmādibhiḥ",
+          "gloss": "by Dāma and the others",
+          "parts": [
+            {
+              "form": "Dāma",
+              "gloss": "Dāma"
+            },
+            {
+              "form": "ādi",
+              "gloss": "beginning with, and the others"
+            },
+            {
+              "form": "bhis",
+              "gloss": "instrumental plural"
+            }
+          ],
+          "stem": "dāma-ādi",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "bhis",
+          "morph": "instrumental plural masculine bahuvrīhi/tadādi expression",
+          "karaka": "passive kartṛ/agent of vijitāḥ",
+          "compound": {
+            "type": "tadādi construction",
+            "vigraha": "Dāma ādiḥ yeṣāṃ taiḥ",
+            "members": [
+              "Dāma",
+              "ādi"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "ādi includes Vyāla and Kaṭa without silently expanding the mūla token into three Sanskrit words.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 1,
+          "deva": "च",
+          "iast": "ca",
+          "gloss": "and",
+          "parts": [
+            {
+              "form": "ca",
+              "gloss": "and"
+            }
+          ],
+          "stem": "ca",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "indeclinable",
+          "morph": "conjunction",
+          "karaka": "connects to the preceding departure",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Saṃhitā dāmādibhiś ca.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 2,
+          "deva": "विजिताः",
+          "iast": "vijitāḥ",
+          "gloss": "conquered",
+          "parts": [
+            {
+              "form": "vi-",
+              "gloss": "decisively/apart"
+            },
+            {
+              "form": "√ji",
+              "gloss": "conquer"
+            },
+            {
+              "form": "kta",
+              "gloss": "conquered"
+            },
+            {
+              "form": "jas",
+              "gloss": "nominative plural"
+            }
+          ],
+          "stem": "vijita",
+          "root": "√ji",
+          "rootGloss": "to conquer",
+          "rootEvidence": {
+            "locus": "01.0642",
+            "aupadeshika_devanagari": "जि",
+            "artha_sanskrit": "जये",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta + jas",
+          "morph": "past passive participle nominative plural masculine",
+          "karaka": "qualifies the carried-over devāḥ; dāmādibhiḥ agent",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Final visarga is absent before brahmāṇam in saṃhitā.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 3,
+          "deva": "ब्रह्माणम्",
+          "iast": "brahmāṇam",
+          "gloss": "Brahmā",
+          "parts": [
+            {
+              "form": "Brahmā",
+              "gloss": "Brahmā, the creator deity"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "brahman (Brahmā)",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "am",
+          "morph": "accusative singular masculine proper name",
+          "karaka": "goal/karman of yayuḥ from 2.57",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Masculine Brahmā, not neuter brahman.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 4,
+          "deva": "अमितौजसम्",
+          "iast": "amitaujasam",
+          "gloss": "of unmeasured vigor",
+          "parts": [
+            {
+              "form": "a-",
+              "gloss": "not"
+            },
+            {
+              "form": "√mā + kta",
+              "gloss": "measured"
+            },
+            {
+              "form": "ojas",
+              "gloss": "vigor, radiance"
+            },
+            {
+              "form": "am",
+              "gloss": "accusative singular"
+            }
+          ],
+          "stem": "amita-ojas",
+          "root": "√mā",
+          "rootGloss": "to measure",
+          "rootEvidence": {
+            "locus": "02.0057",
+            "aupadeshika_devanagari": "मा",
+            "artha_sanskrit": "माने",
+            "gana": "adādi (2)",
+            "pada": "parasmaipada"
+          },
+          "affix": "kta in amita + am",
+          "morph": "accusative singular masculine bahuvrīhi",
+          "karaka": "qualifies brahmāṇam",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "amitam ojo yasya tam",
+            "members": [
+              "amita",
+              "ojas"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "‘Unmeasured’ is literal; ‘immeasurable’ is an available idiomatic result.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 5,
+          "deva": "तेषाम्",
+          "iast": "teṣām",
+          "gloss": "before/to them",
+          "parts": [
+            {
+              "form": "tad",
+              "gloss": "those, them"
+            },
+            {
+              "form": "ām",
+              "gloss": "genitive plural"
+            }
+          ],
+          "stem": "tad",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "ām (ṣaṣṭhī bahuvacana)",
+          "morph": "genitive plural masculine pronoun",
+          "karaka": "sambandha with appearance, functioning beneficiary/reference (‘to/before them’)",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "The English ‘before’ expresses appearance in their presence without changing the genitive form.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 6,
+          "deva": "आविरभूत्",
+          "iast": "āvirabhūt",
+          "gloss": "became manifest, appeared",
+          "parts": [
+            {
+              "form": "āvis → āvir",
+              "gloss": "manifest, in view; final s becomes r before the voiced onset"
+            },
+            {
+              "form": "a-",
+              "gloss": "aorist augment"
+            },
+            {
+              "form": "√bhū",
+              "gloss": "be, become"
+            },
+            {
+              "form": "luṅ-tip",
+              "gloss": "3rd singular parasmaipada aorist"
+            },
+            {
+              "form": "sic-lopa",
+              "gloss": "aorist marker elided under A. 2.4.77"
+            }
+          ],
+          "stem": "āvir-√bhū",
+          "root": "√bhū",
+          "rootGloss": "to be, become",
+          "rootEvidence": {
+            "locus": "01.0001",
+            "aupadeshika_devanagari": "भू",
+            "artha_sanskrit": "सत्तायाम्",
+            "gana": "bhvādi (1)",
+            "pada": "parasmaipada"
+          },
+          "affix": "luṅ, tip (prathama-puruṣa ekavacana parasmaipada), with sic-lopa under A. 2.4.77",
+          "morph": "root aorist active, 3rd singular",
+          "karaka": "finite predicate; brahmā kartṛ",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "āvir + abhūt contains the root aorist abhūt of √bhū, not imperfect abhavat. Aṣṭādhyāyī 2.4.77 licenses sic-lopa; Kāśikā ad loc. lists abhūt.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 7,
+          "deva": "ब्रह्मा",
+          "iast": "brahmā",
+          "gloss": "Brahmā",
+          "parts": [
+            {
+              "form": "Brahmā",
+              "gloss": "creator deity"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "brahman (Brahmā)",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "su",
+          "morph": "nominative singular masculine proper name",
+          "karaka": "kartṛ of āvirabhūt",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "Distinct case from preceding brahmāṇam but same referent.",
+          "parallelDerivations": []
+        },
+        {
+          "i": 8,
+          "deva": "रक्तः",
+          "iast": "raktaḥ",
+          "gloss": "red, reddened",
+          "parts": [
+            {
+              "form": "√rañj",
+              "gloss": "color, redden"
+            },
+            {
+              "form": "kta",
+              "gloss": "colored"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "rakta",
+          "root": "√rañj",
+          "rootGloss": "to color, become red",
+          "rootEvidence": {
+            "locus": "04.0063",
+            "aupadeshika_devanagari": "रन्जँ",
+            "artha_sanskrit": "रागे",
+            "gana": "divādi (4)",
+            "pada": "ubhayapada"
+          },
+          "affix": "kta + su",
+          "morph": "past passive participle nominative singular masculine",
+          "karaka": "predicate adjective of brahmā",
+          "compound": null,
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "A second Dhātupāṭha entry, 01.1154 रन्जँ रागे (bhvādi 1U), supports the same √rañj lexical field; the regular color-result analysis is unchanged.",
+          "parallelDerivations": [
+            {
+              "category": "dhatupatha_parallel",
+              "analysis": "√rañj as bhvādi entry",
+              "evidence": "Dhātupāṭha 01.1154 रन्जँ रागे, ubhayapada",
+              "qualification": "Parallel gaṇa entry; not a different public meaning in this context."
+            }
+          ]
+        },
+        {
+          "i": 9,
+          "deva": "रक्तासनच्छविः",
+          "iast": "raktāsanacchaviḥ",
+          "gloss": "having the radiance of a red seat",
+          "parts": [
+            {
+              "form": "rakta",
+              "gloss": "red"
+            },
+            {
+              "form": "āsana",
+              "gloss": "seat"
+            },
+            {
+              "form": "chavi",
+              "gloss": "radiance, appearance"
+            },
+            {
+              "form": "su",
+              "gloss": "nominative singular"
+            }
+          ],
+          "stem": "rakta-āsana-chavi",
+          "root": null,
+          "rootGloss": null,
+          "rootEvidence": null,
+          "affix": "su",
+          "morph": "nominative singular masculine bahuvrīhi",
+          "karaka": "predicate epithet of brahmā",
+          "compound": {
+            "type": "bahuvrīhi",
+            "vigraha": "raktāsanasya chaviḥ yasya saḥ",
+            "members": [
+              "rakta-āsana",
+              "chavi"
+            ]
+          },
+          "glossaryKey": null,
+          "translatable": true,
+          "note": "āsana + chavi gives āsanacchavi by obligatory cch junction; chavi may denote radiance, hue, or visible appearance, all retained by ‘radiance/appearance.’",
+          "parallelDerivations": []
+        }
+      ],
+      "apparatus": []
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "version": 3,
   "generated_at": "2026-08-19T00:00:00Z",
   "root": "data/sources/",
-  "file_count": 95,
+  "file_count": 96,
   "note": "Public source corpus held in this repository. This manifest lists only paths present under data/sources/. Privately retained or restricted witnesses are catalogued separately in the parishishta repository provenance records.",
   "files": [
     {
@@ -32,6 +32,19 @@
       "verification_status": "clean local GRETIL transformation; commentary attribution is recorded as ascribed in the source header",
       "size_bytes": 595524,
       "line_count": 10095
+    },
+    {
+      "path": "sanskrit/vedanta/laghuyogavasistha_dama_story.json",
+      "language": "sanskrit",
+      "category": "vedanta",
+      "title": "Laghu-Yoga-Vāsiṣṭha, Sthitiprakaraṇa 2.31–86 (Dāmādyupākhyāna)",
+      "edition": "Closed 56-unit packet from paired Muktābodha M00351 Devanāgarī and IAST transcriptions of Vāsudeva Śarmā Paṇaśīkara's 1933 edition; checked against the 1937 Nirṇaya Sāgar scan",
+      "format": "json-source-packet",
+      "work_id": "laghu-yogavasistha",
+      "source_url": "https://muktalib7.com/DL_CATALOG_ROOT/MUKTABODHA-LIBRARY-DEVANAGARI/laghuyogavAsiSTha%20with%20commentary%20vAsiSThacandrikA-M00351-DEV.txt",
+      "verification_status": "working witness; root text visually checked against printed pages 302–309, with textual notes and parallel-witness apparatus retained in the packet",
+      "size_bytes": 29872,
+      "line_count": 434
     },
     {
       "path": "sanskrit/vedanta/madhva_tattvaviveka_madhva_in.txt",

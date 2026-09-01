@@ -1,0 +1,136 @@
+{
+  "schema_version": "yogavasistha-dama-independent-review-v1",
+  "review_range": {
+    "first_id": "lyv-4-2-45",
+    "last_id": "lyv-4-2-58",
+    "expected_units": 14,
+    "observed_units": 14,
+    "expected_words": 147,
+    "observed_words": 147,
+    "reviewed_words": 147,
+    "complete": true
+  },
+  "producer": "internal/sanskrit_reviews/yogavasistha-dama/producer-45-58.json",
+  "producer_sha256": "f1356d18163aef0e87f183f98d3c4045ffaaa59c6f102fc502d7e27c87d59b29",
+  "review_iteration": 3,
+  "reviewer_role": "independent linguistic reviewer",
+  "review_method": "Independent source-first replay of all fourteen units and all 147 word records against the controlling Laghu packet, the complete withheld construction-cluster witnesses, and the directly consulted Prakriya primary/raw grammar witnesses. All twelve late translation, cross-verse syntax, perfect-ending, auxiliary-root, and vāsanā-derivation finding groups were recomputed from the Sanskrit after correction; the 2.49→2.50 feminine head attachment was then rechecked at the frozen final hash. No interpreter, generated form table, parser, dictionary, API, or other model was used as authority.",
+  "source_paths_loci_actually_consulted": [
+    "data/sources/sanskrit/vedanta/laghuyogavasistha_dama_story.json — lyv-4-2-45 through lyv-4-2-58",
+    "data/sources/sanskrit/vedanta/moksopaya_critical_gretil.txt — MU 4.7.34-39",
+    "data/sources/sanskrit/vedanta/yogavasistha_sanskritsahitya.txt — YV 4.25.34-40",
+    "/Users/eeshan/Dev/prakriya/sources/manifest/clean_witnesses.json — paired primary/raw witness identities",
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt and sources/raw/panini/lexica/dhatupatha.json — all cited root loci",
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/ashtadhyayi/ashtadhyayi_upstream.txt and paired raw witness — 2.4.45, 2.4.77, 3.4.108, 3.4.110, 7.3.32, 7.3.40, and producer-cited formations",
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt and paired raw witness — direct checks including lines 703, 735, 1448–49, 2900, 4071, 4079, and 4116"
+  ],
+  "input_hashes": {
+    "producer_45_58": "f1356d18163aef0e87f183f98d3c4045ffaaa59c6f102fc502d7e27c87d59b29",
+    "controlling_source_packet": "6a69423de047db2bdf5260a0adecd697d6bcbcccc54832687d195d9da1812eca",
+    "moksopaya_critical": "4dc0f567e7f893980b330f11511ca3f391ba3a9901e595fc17956b7f581440b6",
+    "yogavasistha_vulgate": "fae37110411c9bcb763dde7dcab8094cd1195fce1f57a2f39a11f60e59c0d3ed",
+    "prakriya_manifest": "eee109f142191c3d6b5bfbec49c5884efc015aec023d34c4ba18f3ffc57505fb",
+    "dhatupatha_primary": "9a18f2b18be5a17d58f1d747551b3d3cdf708b138d219d9f67fbd57bae46a897",
+    "dhatupatha_raw": "e8c0e929294c4ab68455b461ee81234e7a0febac1b72e6873ea832354a28b641",
+    "ashtadhyayi_primary": "fec4a385b81ebcca47a830cd057fae890386f9ad3ddbd6cb507a6a5c91e5379f",
+    "ashtadhyayi_raw": "6a22591f418cd924ba4bd621944de2359cc06721b5ada79ef08d70f17a07bcc6",
+    "kashika_primary": "be468625b26520f41a3b0ef39f6ece60f76c2095b57fc6ac2ea5d8f936875f2e"
+  },
+  "finding_replay": [
+    {"unit_id": "lyv-4-2-45", "word_i": 6, "status": "resolved", "verification": "udaguḥ now records √i → gā, luṅ with sic-lopa, and jhi → jus → -uḥ under A. 2.4.45, 2.4.77, 3.4.108, and 3.4.110."},
+    {"unit_id": "lyv-4-2-45", "word_i": 8, "status": "resolved", "verification": "The final sense retains the possessive bahuvrīhi force 'possessors of great māyā'."},
+    {"unit_id": "lyv-4-2-46", "word_i": 0, "status": "resolved", "verification": "parts[] exposes abhi- + √man + ghañ before instrumental dual bhyām."},
+    {"unit_id": "lyv-4-2-47", "word_i": 6, "status": "resolved", "verification": "parts[] exposes √ji + ac, nañ in ajaya, and dual au."},
+    {"unit_id": "lyv-4-2-48", "word_i": 7, "status": "resolved", "verification": "After source-order renumbering, vāsanābhiḥ at index 7 replays √vas + ṇic + yuc/ana + ṭāp before instrumental plural bhis."},
+    {"unit_id": "lyv-4-2-48", "word_i": 4, "status": "resolved", "verification": "The corrected sequence exactly follows the controlling source: iṣṭāniṣṭābhiḥ (4), ete (5), hi (6), vāsanābhiḥ (7), yat (8), ujjhitāḥ (9). The two fused source tokens map consecutively as iṣṭāniṣṭābhir ete → 4–5 and vāsanābhir yad ujjhitāḥ → 7–9; all ten indices are uniquely slotted."},
+    {"unit_id": "lyv-4-2-50", "word_i": 2, "status": "resolved", "verification": "The non-causative √han + ṇini analysis records the ghāt substitution under A. 7.3.32 and removes ghātayantīm."},
+    {"unit_id": "lyv-4-2-51", "word_i": 0, "status": "resolved", "verification": "The second udaguḥ occurrence has the same complete, correctly named aorist sequence as 2.45."},
+    {"unit_id": "lyv-4-2-53", "word_i": 0, "status": "resolved", "verification": "parts[] exposes √bhī + ṇic + the distinct ṣug augment under A. 7.3.40 + lyuṭ in bhīṣaṇa, and underlying nominative neuter su with surface -am."},
+    {"unit_id": "lyv-4-2-49", "word_i": 10, "status": "resolved", "verification": "The final English explicitly supplies the feminine head as 'an army accompanied by Dāma, Vyāla, and Kaṭa—'; 2.50 resumes it as 'that army he dispatched.' The acc.sg.fem modifier can no longer attach to masc.nom daityendraḥ."}
+  ],
+  "apparatus_gate": {
+    "critical_lines": {"expected": 6, "observed": 6, "exact": true},
+    "vulgate_lines": {"expected": 7, "observed": 7, "exact": true},
+    "total_lines": 13,
+    "all_records_text_complete": true,
+    "visibility": "internal_textual_only",
+    "public_renderable": false,
+    "translations_withheld": true,
+    "renderer": "gita/yogavasistha-dama/enhancer.js renderApparatus",
+    "entries_passing_public_predicate": 0,
+    "verdict": "The complete textual apparatus remains available for audit replay but cannot render publicly before full word analysis and explicit public-ready promotion."
+  },
+  "errors": [],
+  "unit_results": [
+    {"unit_id":"lyv-4-2-45","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-46","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-47","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-48","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-49","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-50","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-51","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-52","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-53","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-54","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-55","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-56","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-57","verdict":"pass","error_ids":[]},
+    {"unit_id":"lyv-4-2-58","verdict":"pass","error_ids":[]}
+  ],
+  "live_translation_rereview": {
+    "review_iteration": "final-frozen-continuity-rereview-2026-09-01",
+    "reviewed_units": 14,
+    "reviewed_words": 147,
+    "source_and_slot_replay": "pass",
+    "semantic_result": "pass after correction",
+    "resolved_findings": [
+      {"unit_id": "lyv-4-2-46", "finding": "vā was rendered as ‘indeed’ rather than the coordinating ‘or’.", "resolution": "Restored the combined ‘nor’ slot for na vā."},
+      {"unit_id": "lyv-4-2-49", "finding": "The feminine participle dāmavyālakaṭānvitām appeared to modify daityendra rather than the following senām.", "resolution": "Explicitly supplied its feminine head as 'an army accompanied by Dāma, Vyāla, and Kaṭa—', followed by 2.50's resumptive 'that army he dispatched'."},
+      {"unit_id": "lyv-4-2-53", "finding": "The nominative compound qualifying yuddham was attached to the locative samarasaṃbhrame.", "resolution": "Restored the cross-verse yuddham attachment before the locative absolute."}
+    ],
+    "new_concrete_errors": 0
+  },
+  "late_grammar_and_translation_replay": {
+    "review_iteration": "final-live-packet-replay-2026-09-01",
+    "reviewed_units": 14,
+    "reviewed_words": 147,
+    "result": "pass",
+    "verification": [
+      "2.45 pakṣakṣubdhā ivādrayaḥ now attaches the heaving wings to the mountain comparison rather than treating mountains as a comparison for heaving flanks",
+      "2.48 and 2.50 explicitly structure √as as the periphrastic-perfect auxiliary without adding a second semantic event",
+      "2.46, 2.51, 2.54, 2.55, and 2.57 use the attested jus label for perfect third-plural -uḥ",
+      "2.46 and 2.48 retain the directly witnessed curādi √vas/√vās routes as parallel member derivations rather than displacing the primary contextual analysis",
+      "2.52 preserves both the genitive army relation and tayoḥ ‘between the two’",
+      "all fourteen linked English lines remain complete, literal, uniquely slotted, and byte-identical to their sense fields after slot removal"
+    ],
+    "new_concrete_errors": 0
+  },
+  "result": {
+    "pass": true,
+    "accepted_units": 14,
+    "rejected_units": 0,
+    "unresolved_units": 0,
+    "total_words_reviewed": 147,
+    "prior_errors_resolved": 12,
+    "prior_errors_remaining": 0,
+    "new_errors": 0,
+    "concrete_errors": 0,
+    "completion_gate": "met: all fourteen units and all 147 words pass exact source-token-to-consecutive-pada replay, source order, unique slot coverage, morphology, affixes, root evidence, compounds, literal sense, and apparatus review at zero concrete errors."
+  },
+  "release_gate": {
+    "pass": true,
+    "reason": "All 147 records, all twelve corrected finding groups, the final explicit 2.49→2.50 feminine head attachment, the distinct-ṣug correction, and the 13-line internal-only apparatus gate pass at zero concrete errors at the frozen producer hash."
+  },
+  "checks": {
+    "exact_ids": true,
+    "exact_source_devanagari": true,
+    "exact_source_iast": true,
+    "contiguous_word_indices": true,
+    "complete_unique_slots": true,
+    "every_source_token_maps_to_consecutive_padas": true,
+    "unit_2_48_source_order_exact": true,
+    "root_loci_match_raw_dhatupatha": true,
+    "independent_semantic_review": true,
+    "zero_concrete_errors": true
+  }
+}

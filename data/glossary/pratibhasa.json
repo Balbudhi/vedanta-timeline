@@ -1,0 +1,89 @@
+{
+  "term_key": "pratibhasa",
+  "term_iast": "pratibhāsa",
+  "term_devanagari": "प्रतिभास",
+  "literal": "a shining or appearing forth; prati- + √bhās 'to shine' + ghañ",
+  "aliases": ["pratibhasa", "pratibhāsa", "Pratibhāsa", "प्रतिभास", "pratibhāsamaya", "pratibhāsa-maya"],
+  "editorial_contract": "v2",
+  "entry_status": "draft",
+  "source_status": "working-witness",
+  "source_record_ids": ["gauda-abhinanda-laghu-yogavasistha-dama-story"],
+  "editorial_dependencies": {
+    "review_areas": ["laghu-yogavasistha", "pratibhasa", "paninian-grammar", "sanskrit-reader"],
+    "update_when": ["new-primary-witness", "new-grammar-review", "citation-revision"]
+  },
+  "derivations": [
+    {
+      "category": "grammatical formation",
+      "formation": "prati- + √bhās + ghañ → pratibhāsa",
+      "meaning": "a shining-forth, appearing, or presentation",
+      "root": {
+        "form": "√bhās",
+        "gana": "bhvādi (1)",
+        "pada": "ātmanepada",
+        "dhatupatha": {"locus": "01.0711", "aupadeshika_devanagari": "भासृँ", "artha_sanskrit": "दीप्तौ"}
+      },
+      "affix": "ghañ; verse 83 then adds mayat and feminine ṅīp in pratibhāsa-mayī",
+      "evidence": [
+        "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt, 01.0711",
+        "/Users/eeshan/Dev/prakriya/sources/raw/panini/lexica/dhatupatha.json, baseindex 01.0711",
+        "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/83"
+      ],
+      "qualification": "The completed noun carries the contextual range appearance/presentation. The root and affix do not by themselves establish that the appearance is false."
+    }
+  ],
+  "definition_claims": [
+    {
+      "id": "reader_definition",
+      "text": "*Pratibhāsa* is a shining or appearing forth. In verse 83, *pratibhāsa-mayī* qualifies a *jīva-śakti*: the power is said to consist in *pratibhāsa*.",
+      "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/83"], "status": "verified"
+    },
+    {
+      "id": "textual_function",
+      "text": "The suffix *mayat* in *pratibhāsa-mayī* expresses composition or prevalence: the feminine power is made of, or pervaded by, manifest appearance. The verse then says that this power attained a threefold flashing-forth.",
+      "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/83"], "status": "verified"
+    },
+    {
+      "id": "school_reading_or_limit",
+      "text": "This passage-specific entry does not equate *pratibhāsa* with the later technical adjective *prātibhāsika*. It also keeps verse 83's *pratibhāsa* distinct from verse 81's *pratibhā*.",
+      "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/81", "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/83"], "status": "verified"
+    }
+  ],
+  "exposition_sections": [
+    {
+      "id": "appearance-and-composition",
+      "title": "Appearance as the composition of a power",
+      "claims": [
+        {
+          "id": "formation",
+          "text": "The Dhātupāṭha gives √bhās, *dīptau*, 'in shining.' The formation prati-√bhās + ghañ yields a noun of shining or appearing forth; verse 83 adds *mayat* to say that the *jīva-śakti* consists in it.",
+          "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/83"], "status": "verified"
+        },
+        {
+          "id": "no-automatic-unreality",
+          "text": "The verse describes the power's constitution and threefold manifestation. Whether that manifest appearance should receive a further ontological label is not settled by the lexical formation alone.",
+          "claim_kind": "textual", "evidence_level": "primary", "citations": ["cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/83"], "status": "verified"
+        }
+      ]
+    }
+  ],
+  "invariant_definition": "In this reader, *pratibhāsa* is a shining or appearing forth. Verse 83 uses *pratibhāsa-mayī* of a *jīva-śakti*, stating that the power consists in manifest appearance. The word does not, by formation alone, mean illusion or falsity.",
+  "per_school": [
+    {
+      "school": "Laghu-Yoga-Vāsiṣṭha, Dāmādyupākhyāna",
+      "definition": "A *jīva-śakti* belonging to the supreme self is described as *pratibhāsa-mayī*, consisting in manifest appearance, and as attaining a threefold flashing-forth.",
+      "primary_loci": ["Sthiti-prakaraṇa 2.83"],
+      "citations": [{"cite": "cite://gauda-abhinanda/laghu-yogavasistha/sthiti/2/83", "locus_short": "Laghu-YV 2.83"}]
+    }
+  ],
+  "translator_note": "'Appearance' is serviceable only if it is not made to imply unreality automatically. 'Shining-forth' preserves √bhās; 'manifest appearance' fits the local *-mayī* construction.",
+  "see_also": ["pratibha", "abhasa", "pratibhasika", "sakti"],
+  "legacy_coverage": {
+    "invariant_definition": {"status": "fully-migrated", "mapped_sections": ["appearance-and-composition"]},
+    "per_school": {"status": "fully-migrated", "mapped_sections": ["appearance-and-composition"]},
+    "translator_note": {"status": "fully-migrated", "mapped_sections": ["appearance-and-composition"]},
+    "literal": {"status": "fully-migrated", "mapped_sections": ["appearance-and-composition"]}
+  },
+  "last_verified_at": "2026-09-01",
+  "last_verified_by": "sanskrit-source-derivation-review"
+}

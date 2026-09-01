@@ -1,0 +1,77 @@
+{
+  "schema_version": "yogavasistha-dama-independent-review-v1",
+  "review_range": {"first_id":"lyv-4-2-73","last_id":"lyv-4-2-86","expected_units":14,"observed_units":14,"expected_words":171,"observed_words":171,"reviewed_words":171,"complete":true},
+  "producer": "internal/sanskrit_reviews/yogavasistha-dama/producer-73-86.json",
+  "producer_sha256": "4bc8c01cdca6ae5d23d92d222688c7e0a26012de235265f2ab6cd94b2c05df03",
+  "reviewer_role": "independent linguistic reviewer",
+  "review_method": "Final 100% publication re-review at the recorded producer hash: controlling Laghu root and Candrika, MU/YV parallels, all 14 units and 171 word records, exact source-token order, direct Prakriya primary/raw roots and formations, one-time literal slots, byte-exact sense lines, natural literal English, term policy, glossary targets, and apparatus. No interpreter, generated table, parser, dictionary, API, or other model was used as authority.",
+  "evidence": {
+    "controlling_witness": "data/sources/sanskrit/vedanta/laghuyogavasistha_dama_story.json; Muktābodha M00351 paired Devanāgarī/IAST",
+    "controlling_commentary": "/tmp/laghuyogavasistha-M00351-DEV.txt and paired IAST, especially commentary after 2.81 and 2.83–86",
+    "parallels": ["MU 4.11.19, 4.13.32, 4.13.46","YV 4.29.19, 4.31.32, 4.31.47"],
+    "grammar": ["Prakriya Aṣṭādhyāyī primary/raw","Prakriya Dhātupāṭha primary/raw","Prakriya Kāśikā primary/raw"],
+    "glossary": ["pratibha","pratibhasa","samvedana","bodhakasha","shakti via resolved glossary record/alias"]
+  },
+  "input_hashes": {
+    "producer_73_86":"4bc8c01cdca6ae5d23d92d222688c7e0a26012de235265f2ab6cd94b2c05df03",
+    "controlling_source_packet":"6a69423de047db2bdf5260a0adecd697d6bcbcccc54832687d195d9da1812eca",
+    "moksopaya_critical":"4dc0f567e7f893980b330f11511ca3f391ba3a9901e595fc17956b7f581440b6",
+    "yogavasistha_vulgate":"fae37110411c9bcb763dde7dcab8094cd1195fce1f57a2f39a11f60e59c0d3ed",
+    "candrika_devanagari":"13b6bfb36585f2f23e7eab8c6b7fb5e8d954df354c9e2a1b88b0732cfa8a2869",
+    "candrika_iast":"8689d4267dd7871b89a68cda3795a47b0106872c987797751a81d91dc03d7852",
+    "prakriya_manifest":"eee109f142191c3d6b5bfbec49c5884efc015aec023d34c4ba18f3ffc57505fb",
+    "dhatupatha_primary":"9a18f2b18be5a17d58f1d747551b3d3cdf708b138d219d9f67fbd57bae46a897",
+    "dhatupatha_raw":"e8c0e929294c4ab68455b461ee81234e7a0febac1b72e6873ea832354a28b641"
+  },
+  "verdict": "pass",
+  "summary": {"mechanical_source_replay":"pass","source_token_order":"pass","id_population":"pass","word_index_contiguity":"pass","english_slot_population":"pass","sense_exactness":"pass","natural_literal_english":"pass","root_locus_identity":"pass","semantic_and_grammar_review":"pass","apparatus_replay":"pass","glossary_resolution":"pass","prior_findings_resolved":24,"initial_new_findings_resolved":4,"subsequent_findings_resolved":15,"concrete_error_count":0},
+  "mechanical_replay": {"source_devanagari_exact_units":14,"source_iast_exact_units":14,"source_token_order_units":14,"contiguous_word_index_units":14,"complete_unique_english_slot_units":14,"slot_stripped_sense_exact_units":14,"root_evidence_records_checked":69,"root_evidence_primary_raw_field_mismatches":0,"literal_bracket_insert_units":0},
+  "apparatus_replay": [
+    {"unit_id":"lyv-4-2-76","status":"pass","verification":"The printed page and paired root witness read havir dagdham. The literal line preserves the resulting difficult object/participle state; MU 4.11.19 and YV 4.29.19 havir dagdhum remain separately attributed apparatus and are not substituted."},
+    {"unit_id":"lyv-4-2-86","status":"pass","verification":"The printed page and root witness retain yathābhūtam, ānanam, saṃtyaktaśaṅkam, and apabhedam. MU/YV yathānubhūtam/ātatam, the Candrika's ced-artha ca and ātatam vyāptam, its abhedam vā, and the vulgate closing compound remain separately attributed; no parallel silently replaces the difficult Laghu line."}
+  ],
+  "prior_findings": [
+    {"ids":["R73-86-001","R73-86-002"],"unit_id":"lyv-4-2-74","status":"resolved","verification":"No manner insertion; antar-dhi uses ki under A.3.3.93."},
+    {"ids":["R73-86-003","R73-86-004"],"unit_id":"lyv-4-2-75","status":"resolved","verification":"No reflexive insertion; parts and affix both give tva + am."},
+    {"ids":["R73-86-005","R73-86-006"],"unit_id":"lyv-4-2-76","status":"resolved","verification":"No bracket repair; havis/dagdham relation remains in final sense with apparatus."},
+    {"ids":["R73-86-007","R73-86-008"],"unit_id":"lyv-4-2-77","status":"resolved","verification":"Literal rhetorical ellipsis and unbracketed Thirty epithet."},
+    {"ids":["R73-86-009"],"unit_id":"lyv-4-2-78","status":"resolved","verification":"No inserted possessive."},
+    {"ids":["R73-86-010"],"unit_id":"lyv-4-2-80","status":"resolved","verification":"brahman address is distinct from finite arhasi + chettum."},
+    {"ids":["R73-86-011","R73-86-012","R73-86-013"],"unit_id":"lyv-4-2-81","status":"resolved","verification":"rūpa + ini is exact; no appearances head is inserted; pratibhā glossary resolves distinctly."},
+    {"ids":["R73-86-014"],"unit_id":"lyv-4-2-82","status":"resolved","verification":"No supposed insertion."},
+    {"ids":["R73-86-015"],"unit_id":"lyv-4-2-83","status":"resolved","verification":"Distinct pratibhāsa glossary resolves."},
+    {"ids":["R73-86-016","R73-86-017","R73-86-018"],"unit_id":"lyv-4-2-84","status":"resolved","verification":"saṃvedana/bodhākāśa glossaries resolve; √śudh and √śundh routes are structured."},
+    {"ids":["R73-86-019"],"unit_id":"lyv-4-2-85","status":"resolved","verification":"śakti resolves with √śak + ktin."},
+    {"ids":["R73-86-020","R73-86-021","R73-86-022","R73-86-023","R73-86-024"],"unit_id":"lyv-4-2-86","status":"resolved","verification":"Three-layer apparatus, conditional scope, internal Candrika readings, and ānana term policy all corrected."}
+  ],
+  "new_findings_resolved_during_rereview": [
+    {"unit_id":"lyv-4-2-81","word_i":3,"resolution":"Removed overlapping surface prati-√bhā/pratibhā parts; internal derivation is separate."},
+    {"unit_id":"lyv-4-2-83","word_i":2,"resolution":"Removed overlapping √jīv/jīva parts; exact member root is structured separately."},
+    {"unit_id":"lyv-4-2-84","word_i":12,"resolution":"Added structured √kāś 01.0734 member derivation."},
+    {"unit_id":"lyv-4-2-85","word_i":6,"resolution":"Added structured √śak 05.0017 + ktin member derivation."}
+  ],
+  "subsequent_findings_replay": [
+    {"unit_id":"lyv-4-2-73","word_i":[0,2],"status":"resolved","verification":"Both bhava-vāsanā and moha-vāsanā replay every asserted compound-member root and pratyaya, with the secondary member root in a normalized roots[] record."},
+    {"unit_id":"lyv-4-2-74","word_i":4,"status":"resolved","verification":"sukhāya is a purpose dative without a sampradāna-kāraka assignment."},
+    {"unit_id":"lyv-4-2-77","word_i":4,"status":"resolved","verification":"maraṇāt is hetu expressed by the ablative, not an apādāna relation."},
+    {"unit_id":"lyv-4-2-78","word_i":2,"status":"resolved","verification":"prabodhāya is a purpose dative without a sampradāna-kāraka assignment."},
+    {"unit_id":"lyv-4-2-79","word_i":0,"status":"resolved","verification":"avivekānusaṃdhānāt is hetu expressed by the ablative, not an apādāna relation."},
+    {"unit_id":"lyv-4-2-79","word_i":2,"status":"resolved","verification":"The ā-√pad relation is retained while the inherited noun-forming pratyaya is explicitly withheld; no zero/kvip slash remains."},
+    {"unit_id":"lyv-4-2-79","word_i":4,"status":"resolved","verification":"parts[] exposes √bhū + ghañ inside ananta-bhava-duḥkha."},
+    {"unit_id":"lyv-4-2-80","word_i":8,"status":"resolved","verification":"The masculine vocative brahman is translated as O Brahmin, without inserting a knower noun or linking the neuter brahman glossary."},
+    {"unit_id":"lyv-4-2-81","word_i":3,"status":"resolved","verification":"rūpin retains exact ini; pratibhā's inherited noun-forming pratyaya is explicitly withheld rather than labeled aṅ/abstract."},
+    {"unit_id":"lyv-4-2-82","word_i":8,"status":"resolved","verification":"parts[] exposes √bhū + ghañ in sad-bhāva."},
+    {"unit_id":"lyv-4-2-83","word_i":2,"status":"resolved","verification":"jīva-śakti has complete √śak and √jīv records and a consistent translated life-power policy."},
+    {"unit_id":"lyv-4-2-84","word_i":12,"status":"resolved","verification":"The √kāś member derivation is normalized in roots[] with complete Dhātupāṭha evidence."},
+    {"unit_id":"lyv-4-2-85","word_i":4,"status":"resolved","verification":"The compound members astamana and udaya are preserved while both uncertain historical noun-forming pratyayas are explicitly withheld; no ac/ghañ slash remains."},
+    {"unit_id":"lyv-4-2-85","word_i":6,"status":"resolved","verification":"The √śak member derivation is normalized in roots[] with complete Dhātupāṭha evidence, and glossary key sakti resolves."},
+    {"unit_id":"lyv-4-2-86","word_i":4,"status":"resolved","verification":"yathā-bhūtam is classified exactly as avyayībhāva, with its adverbial use recorded separately."}
+  ],
+  "errors": [],
+  "unit_results": [
+    {"unit_id":"lyv-4-2-73","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-74","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-75","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-76","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-77","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-78","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-79","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-80","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-81","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-82","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-83","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-84","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-85","verdict":"pass","error_ids":[]},{"unit_id":"lyv-4-2-86","verdict":"pass","error_ids":[]}
+  ],
+  "build_evidence": {"final_review_scope":"linguistic/source acceptance only; generated reader and UI artifacts were neither modified nor used as evidence in this final hash review"},
+  "release_gate": {"pass":true,"reason":"At frozen producer SHA 4bc8c01cdca6ae5d23d92d222688c7e0a26012de235265f2ab6cd94b2c05df03, the corrected 2.77 idiom and all 14 units/171 records, every source token in order, all one-time slots and exact sense lines, all prior findings, morphology/root/glossary contracts, and the 2.76/2.86 apparatus layers pass with zero concrete errors."},
+  "checks": {"exact_ids":true,"exact_source_devanagari":true,"exact_source_iast":true,"exact_source_token_order":true,"contiguous_word_indices":true,"complete_unique_slots":true,"slot_stripped_sense_exact":true,"natural_literal_english":true,"root_loci_match_raw_dhatupatha":true,"independent_semantic_review":true,"apparatus_no_silent_emendation":true,"zero_concrete_errors":true,"external_editorial_contracts":true}
+}

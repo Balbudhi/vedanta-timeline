@@ -5568,6 +5568,18 @@ const GITA_READINGS = {
       aurobindo: null, parallels: null, audio: null,
     }),
   },
+  "yogavasistha-dama": {
+    base: "gita/yogavasistha-dama/",
+    files: ["verses.js", "apparatus.js", "enhancer.js"],
+    title: "The Story of Dāma, Vyāla, and Kaṭa",
+    blurb: "<em>Laghu-Yoga-Vāsiṣṭha</em>, Sthiti-prakaraṇa 2.31–86 — the root text, word by word.",
+    data: () => ({
+      verses: window.YVDamaEnhancer.prepare(window.YV_DAMA_VERSES), commentary: null,
+      aurobindo: null, parallels: null, audio: null,
+      apparatus: window.YV_DAMA_APPARATUS,
+    }),
+    afterRender: (root, data) => window.YVDamaEnhancer.afterRender(root, data.verses),
+  },
 };
 
 const SAHASRANAMA_READING = {
@@ -5596,15 +5608,17 @@ async function openGitaReading(slug) {
       <p class="dp-attrib">${reading.blurb}</p>`;
   }
   if (window.GitaReader && dpArticleBody) {
+    const readingData = reading.data();
     window.GitaReader.render(dpArticleBody, {
       glossaryBase: "data/glossary/",
       audioBase: reading.base,
-      data: reading.data(),
+      data: readingData,
       onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),  // the site's real glossary popover
       onThinker: (id) => openThinker(id),                        // jump to the Thinker tab
       linkifyGlossary: linkifyGlossaryText,                      // tappable Sanskrit in free English text
       glossaryResolve: gitaGlossaryResolve,                      // word-card "Explain <subword>" → glossary
     });
+    if (reading.afterRender) reading.afterRender(dpArticleBody, readingData);
   }
 }
 
