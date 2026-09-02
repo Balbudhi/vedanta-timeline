@@ -321,7 +321,11 @@ window.YV_DAMA_VERSES = [
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
         "parallelDerivations": [],
-        "semanticFieldKeys": []
+        "semanticFieldKeys": [
+          "bhima",
+          "bhasa",
+          "drdha"
+        ]
       },
       {
         "i": 6,
@@ -715,7 +719,11 @@ window.YV_DAMA_VERSES = [
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
         "parallelDerivations": [],
-        "semanticFieldKeys": []
+        "semanticFieldKeys": [
+          "bhima",
+          "bhasa",
+          "drdha"
+        ]
       },
       {
         "i": 2,
@@ -1212,7 +1220,10 @@ window.YV_DAMA_VERSES = [
             "roots": []
           }
         ],
-        "semanticFieldKeys": []
+        "semanticFieldKeys": [
+          "bhasa",
+          "drdha"
+        ]
       },
       {
         "i": 2,
@@ -6485,7 +6496,9 @@ window.YV_DAMA_VERSES = [
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
         "parallelDerivations": [],
-        "semanticFieldKeys": []
+        "semanticFieldKeys": [
+          "drdha"
+        ]
       },
       {
         "i": 2,
@@ -8612,7 +8625,9 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
         },
-        "semanticFieldKeys": []
+        "semanticFieldKeys": [
+          "bhima"
+        ]
       },
       {
         "i": 3,
@@ -13424,7 +13439,9 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
         },
-        "semanticFieldKeys": []
+        "semanticFieldKeys": [
+          "bhima"
+        ]
       },
       {
         "i": 2,
@@ -14092,7 +14109,9 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
         },
-        "semanticFieldKeys": []
+        "semanticFieldKeys": [
+          "bhima"
+        ]
       },
       {
         "i": 4,
@@ -30947,7 +30966,9 @@ window.YV_DAMA_VERSES = [
           }
         },
         "parallelDerivations": [],
-        "semanticFieldKeys": []
+        "semanticFieldKeys": [
+          "drdha"
+        ]
       },
       {
         "i": 4,

@@ -7,11 +7,13 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 const review = JSON.parse(fs.readFileSync(path.join(root, "gita/yogavasistha-dama/review.json"), "utf8"));
 const enhancer = fs.readFileSync(path.join(root, "gita/yogavasistha-dama/enhancer.js"), "utf8");
+const gitaReader = fs.readFileSync(path.join(root, "assets/gita.js"), "utf8");
+const readerStyle = fs.readFileSync(path.join(root, "gita/yogavasistha-dama/reader.css"), "utf8");
 
 if (review.units.length !== 56) throw new Error(`expected 56 units, found ${review.units.length}`);
 
 let wordCount = 0;
-const expectedSemanticKeys = ["purusha", "shambara", "daitya", "danava", "amara", "deva", "sura", "tridasha", "asura", "dama", "vyala", "kata"];
+const expectedSemanticKeys = ["purusha", "shambara", "daitya", "danava", "amara", "deva", "sura", "tridasha", "asura", "dama", "vyala", "kata", "bhima", "bhasa", "drdha"];
 const semanticKeys = new Set(review.semantic_fields.fields.map(field => field.key));
 const observedSemanticKeys = new Set();
 if (JSON.stringify([...semanticKeys]) !== JSON.stringify(expectedSemanticKeys)) {
@@ -70,11 +72,36 @@ if (JSON.stringify(publicSet("PUBLIC_APPARATUS_IDS")) !== JSON.stringify(["robot
 if (enhancer.includes("history.description") || enhancer.includes("entry.sense")) {
   throw new Error("public apparatus must not repeat witness history or a second English rendering");
 }
+if (!enhancer.includes('new Set(["grammatical head", "narrative activation"])')) {
+  throw new Error("public semantic cards must omit compound repetition and narrative character interpretation");
+}
+if (enhancer.includes("field.opening") || enhancer.includes("field.chronology_note")) {
+  throw new Error("public semantic cards must not repeat editorial framing prose");
+}
+if (!enhancer.includes('/narrative activation/i.test(word.note || "")')) {
+  throw new Error("obsolete narrative-activation notes must not survive into public word cards");
+}
 if (JSON.stringify([...observedSemanticKeys].sort()) !== JSON.stringify([...semanticKeys].sort())) {
   throw new Error("not every semantic field is attached to a public word card");
 }
 if (enhancer.includes("renderTranslation") || enhancer.includes("yv-final-translation")) {
   throw new Error("reader renders a duplicate unlinked translation block");
+}
+if (!gitaReader.includes("cardEl.contains(e.target)")
+    || !gitaReader.includes("dismissCardsOnScroll")
+    || !gitaReader.includes("cardEl.scrollTop += event.deltaY")) {
+  throw new Error("long word cards must scroll internally without dismissing themselves");
+}
+if (!enhancer.includes("splitEnglishSemanticTriggers") || !enhancer.includes("renderFocusedSemanticCard")) {
+  throw new Error("compound names must be individually selectable in the English line");
+}
+if (!enhancer.includes('new Set(["shambara", "dama", "vyala", "kata", "bhima", "bhasa", "drdha"])')) {
+  throw new Error("individual English triggers must be limited to the reviewed proper-name population");
+}
+if (!readerStyle.includes("@media (min-width: 721px)")
+    || !readerStyle.includes("width: clamp(540px, 56vw, 760px)")
+    || !readerStyle.includes("overscroll-behavior: contain")) {
+  throw new Error("long evidence cards must widen only on desktop and contain their own scrolling");
 }
 
 console.log(`Yoga-Vāsiṣṭha presentation: 56 units, ${wordCount} words, one linked translation layer`);

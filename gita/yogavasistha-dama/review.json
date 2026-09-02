@@ -568,6 +568,103 @@
             "meaning": "Enclosure and boundary are relevant possibilities in a story about generated forms and the limits that arise with identification, but the text does not select a single one."
           }
         ]
+      },
+      {
+        "key": "bhima",
+        "lemma_iast": "bhīma",
+        "lemma_devanagari": "भीम",
+        "match_forms": [
+          "bhīma"
+        ],
+        "opening": "Bhīma is a meaningful adjective and proper name: fearsome, formidable, or terrible.",
+        "chronology_note": "The root, Uṇādi formation, and adjective are all attested before the Laghu-Yoga-Vāsiṣṭha.",
+        "readings": [
+          {
+            "category": "root field",
+            "formation": "√bhī",
+            "meaning": "to fear",
+            "source_label": "Dhātupāṭha, ñibhī bhaye",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "source_locus": "lines 3711–3712"
+          },
+          {
+            "category": "Uṇādi formation",
+            "formation": "√bhī + mak; optional ṣuk → bhīma / bhīṣma",
+            "meaning": "fearsome or formidable",
+            "source_label": "Uṇādipāṭha, bhiyaḥ ṣug vā",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/unadi/unadi_pancapadi_upstream.txt",
+            "source_locus": "line 145"
+          },
+          {
+            "category": "lexical sense",
+            "meaning": "terrible, fearsome, formidable",
+            "source_label": "Amarakośa 1.7.20",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+            "source_locus": "line 229"
+          }
+        ]
+      },
+      {
+        "key": "bhasa",
+        "lemma_iast": "bhāsa",
+        "lemma_devanagari": "भास",
+        "match_forms": [
+          "bhāsa"
+        ],
+        "opening": "Bhāsa is a proper name with a luminous root-field and an independently attested bird-name homonym.",
+        "chronology_note": "The text does not select one exclusive value for the proper name; the attested senses remain parallel.",
+        "readings": [
+          {
+            "category": "root field",
+            "formation": "√bhās",
+            "meaning": "to shine, be luminous",
+            "source_label": "Dhātupāṭha, bhāsṛ dīptau",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "source_locus": "lines 2131–2132"
+          },
+          {
+            "category": "lexical sense",
+            "meaning": "light, radiance, or ray",
+            "source_label": "Halāyudhakośa, light and ray synonyms",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+            "source_locus": "line 38"
+          },
+          {
+            "category": "lexical homonym",
+            "meaning": "a bird of prey, traditionally identified as the bhāsa bird",
+            "source_label": "Halāyudhakośa, bird names",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+            "source_locus": "line 247",
+            "qualification": "This is an attested homonym, not proof that the character's name must mean ‘bird of prey.’"
+          }
+        ]
+      },
+      {
+        "key": "drdha",
+        "lemma_iast": "dṛḍha",
+        "lemma_devanagari": "दृढ",
+        "match_forms": [
+          "dṛḍha"
+        ],
+        "opening": "Dṛḍha is a transparent adjective and proper name: firm, solid, or strong.",
+        "chronology_note": "The Kāśikā directly records the formation and its ‘thick/strong’ senses.",
+        "readings": [
+          {
+            "category": "grammatical formation",
+            "formation": "√dṛṃh / √dṛh + kta → dṛḍha",
+            "meaning": "made firm; firm or strong",
+            "source_label": "Kāśikā on Aṣṭādhyāyī 7.2.20",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+            "source_locus": "line 3919"
+          },
+          {
+            "category": "lexical senses",
+            "meaning": "firm, solid, strong; also thick or dense in appropriate contexts",
+            "source_label": "Amarakośa and Halāyudhakośa",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+            "source_locus": "lines 342 and 718"
+          }
+        ]
       }
     ]
   },
@@ -891,7 +988,11 @@
             "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
           },
           "parallelDerivations": [],
-          "semanticFieldKeys": []
+          "semanticFieldKeys": [
+            "bhima",
+            "bhasa",
+            "drdha"
+          ]
         },
         {
           "i": 6,
@@ -1285,7 +1386,11 @@
             "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
           },
           "parallelDerivations": [],
-          "semanticFieldKeys": []
+          "semanticFieldKeys": [
+            "bhima",
+            "bhasa",
+            "drdha"
+          ]
         },
         {
           "i": 2,
@@ -1782,7 +1887,10 @@
               "roots": []
             }
           ],
-          "semanticFieldKeys": []
+          "semanticFieldKeys": [
+            "bhasa",
+            "drdha"
+          ]
         },
         {
           "i": 2,
@@ -7055,7 +7163,9 @@
             "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
           },
           "parallelDerivations": [],
-          "semanticFieldKeys": []
+          "semanticFieldKeys": [
+            "drdha"
+          ]
         },
         {
           "i": 2,
@@ -9182,7 +9292,9 @@
             ],
             "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
           },
-          "semanticFieldKeys": []
+          "semanticFieldKeys": [
+            "bhima"
+          ]
         },
         {
           "i": 3,
@@ -13994,7 +14106,9 @@
             ],
             "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
           },
-          "semanticFieldKeys": []
+          "semanticFieldKeys": [
+            "bhima"
+          ]
         },
         {
           "i": 2,
@@ -14662,7 +14776,9 @@
             ],
             "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
           },
-          "semanticFieldKeys": []
+          "semanticFieldKeys": [
+            "bhima"
+          ]
         },
         {
           "i": 4,
@@ -31517,7 +31633,9 @@
             }
           },
           "parallelDerivations": [],
-          "semanticFieldKeys": []
+          "semanticFieldKeys": [
+            "drdha"
+          ]
         },
         {
           "i": 4,

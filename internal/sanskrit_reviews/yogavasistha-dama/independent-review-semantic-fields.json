@@ -1,15 +1,15 @@
 {
   "schema_version": "yogavasistha-dama-semantic-fields-independent-review-v1",
   "producer": "internal/sanskrit_reviews/yogavasistha-dama/semantic-fields.json",
-  "producer_sha256": "2ab3015e0b21f5566bccd4aff9056904758770cf096ad60146a9689cb2ff62cc",
-  "review_date": "2026-09-01",
+  "producer_sha256": "5ca61da37afb6481890789e854958534ef0e2edfd89380ad1c55eaa17a6a36fa",
+  "review_date": "2026-09-02",
   "reviewer_role": "independent chronology-sensitive semantic-field reviewer",
   "population": {
-    "expected_entries": 12,
-    "observed_entries": 12,
-    "reviewed_entries": 12,
-    "expected_keys": ["purusha", "shambara", "daitya", "danava", "amara", "deva", "sura", "tridasha", "asura", "dama", "vyala", "kata"],
-    "observed_keys": ["purusha", "shambara", "daitya", "danava", "amara", "deva", "sura", "tridasha", "asura", "dama", "vyala", "kata"],
+    "expected_entries": 15,
+    "observed_entries": 15,
+    "reviewed_entries": 15,
+    "expected_keys": ["purusha", "shambara", "daitya", "danava", "amara", "deva", "sura", "tridasha", "asura", "dama", "vyala", "kata", "bhima", "bhasa", "drdha"],
+    "observed_keys": ["purusha", "shambara", "daitya", "danava", "amara", "deva", "sura", "tridasha", "asura", "dama", "vyala", "kata", "bhima", "bhasa", "drdha"],
     "complete": true
   },
   "review_method": "Every reading was recomputed from its cited local primary/raw witness and checked against the Dāma narrative. Earlier inherited grammar, nirvacana, and lexical evidence was kept distinct from roughly contemporary lexicographic reception and from modern reception. The review treated ordinary translation equivalents as surface aids, not exhaustive Western-style lexical definitions. The Prakriya interpreter, generated tables, parsers, dictionaries, APIs, and other models were not used as authority.",
@@ -40,11 +40,11 @@
     },
     {
       "path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
-      "loci": "divu and ṣur roots at the cited producer lines, checked against the paired raw Dhātupāṭha witness"
+      "loci": "divu and ṣur roots at the cited producer lines; √bhās at lines 2131–2132 and √bhī at lines 3711–3712, checked against the paired raw Dhātupāṭha witness"
     },
     {
       "path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
-      "loci": "Aṣṭādhyāyī 4.1.85 discussion, repository line 1573"
+      "loci": "Aṣṭādhyāyī 4.1.85 discussion, repository line 1573; Aṣṭādhyāyī 7.2.20 discussion, repository line 3919"
     },
     {
       "path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/mahabhashya/mahabhashya_gretil.txt",
@@ -52,11 +52,11 @@
     },
     {
       "path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/unadi/unadi_pancapadi_upstream.txt",
-      "loci": "Uṇādi 1.42, aser uran"
+      "loci": "Uṇādi 1.42 (asura); line 145, bhiyaḥ ṣug vā (bhīma/bhīṣma)"
     },
     {
       "path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
-      "loci": "1.1.7–12; 1.8.7; 3.3.206"
+      "loci": "1.1.7–12; 1.8.7; 3.3.206; line 229 (bhīma)"
     },
     {
       "path": "/Users/eeshan/Dev/prakriya/sources/raw/etymology/amarakoshodghatana/amarakoshodghatana_kshirasvamin.txt",
@@ -66,7 +66,7 @@
     {
       "path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
       "sha256": "bff5b163da51688198f4d02e930458974218c1341d303b3e929965be2e99a612",
-      "loci": "lines 5, 119, 259, 277, and related cited entries"
+      "loci": "lines 5, 119, 259, 277, and related cited entries; lines 38, 247, 342, and 718 (bhāsa/dṛḍha)"
     },
     {
       "path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
@@ -189,6 +189,10 @@
     {"key": "dama", "status": "pass", "finding_ids": [], "verification": "Halāyudhakośa directly gives dāma as an animal bond/tether; the later bondage reversal is present in the story and no unsecured root is invented."},
     {"key": "vyala", "status": "pass", "finding_ids": [], "verification": "Amarakośa preserves both serpent and fierce-beast senses; the registry correctly withholds a fabricated root-etymology and exclusivity."},
     {"key": "kata", "status": "pass", "finding_ids": [], "verification": "Mat, boundary, and additional homonymy are separately bound to Yādavakośa 1909, Halāyudhakośa 259, and Yādavakośa 2557."}
+    ,
+    {"key": "bhima", "status": "pass", "finding_ids": [], "verification": "Dhātupāṭha √bhī, Uṇādi bhiyaḥ ṣug vā, and Amarakośa all replay the fearsome/formidable field without collapsing the proper name into a single contextual gloss."},
+    {"key": "bhasa", "status": "pass", "finding_ids": [], "verification": "Dhātupāṭha √bhās and Halāyudhakośa preserve the luminous and bird-name homonyms as parallel attestations rather than forcing one exclusive meaning."},
+    {"key": "drdha", "status": "pass", "finding_ids": [], "verification": "Kāśikā on Aṣṭādhyāyī 7.2.20 and the kośa evidence secure the firm/solid/strong field for Dṛḍha."}
   ],
   "confirmed_chronology_boundaries": [
     "Nirukta, Nighaṇṭu, Pāṇinian grammar, and inherited lexical formations are earlier evidence; the registry generally labels them as inherited semantic fields rather than proof of direct authorial consultation.",
@@ -198,15 +202,15 @@
   ],
   "result": {
     "pass": true,
-    "accepted_entries": 12,
+    "accepted_entries": 15,
     "rejected_entries": 0,
     "methodology_pass": true,
     "witness_history_pass": true,
     "concrete_errors": 0,
-    "completion_gate": "met: all 12 semantic fields, all 4 methodology principles, and all 4 witness-history stages pass at zero concrete errors"
+    "completion_gate": "met: all 15 semantic fields, all 4 methodology principles, and all 4 witness-history stages pass at zero concrete errors"
   },
   "release_gate": {
     "pass": true,
-    "reason": "The Aurobindo attribution boundary, Sura evidence set, Ṛgvedic Asura chronology, separated Nirukta alternatives, and Kaṭa source bindings are corrected. All 12 fields, 4 principles, and 4 witness-history stages pass at zero concrete errors."
+    "reason": "The Aurobindo attribution boundary, Sura evidence set, Ṛgvedic Asura chronology, separated Nirukta alternatives, Kaṭa source bindings, and the three proper-name additions are corrected. All 15 fields, 4 principles, and 4 witness-history stages pass at zero concrete errors."
   }
 }

@@ -48,6 +48,9 @@ EXPECTED_SEMANTIC_KEYS = (
     "dama",
     "vyala",
     "kata",
+    "bhima",
+    "bhasa",
+    "drdha",
 )
 SLOT_RE = re.compile(r"\{([0-9]+(?:\s*,\s*[0-9]+)*):([^{}]+)\}")
 SOURCE_TOKEN_RE = re.compile(r"[^\s|।॥]+")

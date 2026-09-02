@@ -570,7 +570,7 @@ function wireWords() {
     }
   });
   ROOT.addEventListener("keydown", e => {
-    const w = e.target.closest(".w, .wsg"); if (!w) return;
+    const w = e.target.closest(".w, .we, .wsg"); if (!w) return;
     if (e.key === "Enter" || e.key === " ") { e.preventDefault(); w.click(); }
   });
   document.addEventListener("click", e => {
@@ -586,14 +586,27 @@ function wireWords() {
     clearSticky();
     hideGrammarCard();
   });
-  window.addEventListener("scroll", hideCard, { passive: true, capture: true });
+  window.addEventListener("scroll", dismissCardsOnScroll, { passive: true, capture: true });
 }
 
 let cardEl = null;
+function dismissCardsOnScroll(e) {
+  // A long word card scrolls independently. Moving the page still dismisses it.
+  if ((cardEl && cardEl.contains(e.target)) || (grammarCardEl && grammarCardEl.contains(e.target))) return;
+  clearSticky();
+  hideCard();
+  hideGrammarCard();
+}
 function ensureCard() {
   if (cardEl) return cardEl;
   cardEl = document.createElement("div");
   cardEl.className = "wcard"; cardEl.setAttribute("role", "tooltip"); cardEl.hidden = true;
+  cardEl.addEventListener("wheel", event => {
+    if (cardEl.scrollHeight <= cardEl.clientHeight) return;
+    event.preventDefault();
+    event.stopPropagation();
+    cardEl.scrollTop += event.deltaY;
+  }, { passive: false });
   document.body.appendChild(cardEl);
   return cardEl;
 }

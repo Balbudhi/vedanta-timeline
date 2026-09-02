@@ -5,6 +5,8 @@
   const byLocus = new Map();
   const semanticFields = new Map();
   const PUBLIC_APPARATUS_IDS = new Set(["robot-reading-critical"]);
+  const HIDDEN_SEMANTIC_READING_CATEGORIES = new Set(["grammatical head", "narrative activation"]);
+  const INDIVIDUAL_ENGLISH_NAME_KEYS = new Set(["shambara", "dama", "vyala", "kata", "bhima", "bhasa", "drdha"]);
   let semanticBundle = null;
 
   function rootLabel(root) {
@@ -16,6 +18,7 @@
   function prepareWords(words) {
     return (words || []).map((source) => {
       const word = structuredClone(source);
+      if (/narrative activation/i.test(word.note || "")) delete word.note;
       if (word.root && typeof word.root === "object") {
         word.rootRecord = structuredClone(word.root);
         word.rootGloss = word.root.gloss || word.rootGloss || "";
@@ -155,12 +158,32 @@
     return block;
   }
 
-  function renderSemanticField(field) {
+  function evidenceKey(value) {
+    return String(value || "").normalize("NFC").trim().toLowerCase();
+  }
+
+  function publicSemanticReadings(field, derivations) {
+    const existingFormations = new Set((derivations || [])
+      .map((derivation) => derivation.analysis || derivation.formation || derivation.segmentation)
+      .filter(Boolean)
+      .map(evidenceKey));
+    const existingMeanings = new Set((derivations || [])
+      .map((derivation) => derivation.meaning)
+      .filter(Boolean)
+      .map(evidenceKey));
+    return (field.readings || []).filter((reading) => {
+      if (HIDDEN_SEMANTIC_READING_CATEGORIES.has(evidenceKey(reading.category))) return false;
+      if (reading.formation && existingFormations.has(evidenceKey(reading.formation))) return false;
+      return !reading.meaning || !existingMeanings.has(evidenceKey(reading.meaning));
+    });
+  }
+
+  function renderSemanticField(field, derivations) {
+    const readings = publicSemanticReadings(field, derivations);
+    if (!readings.length) return null;
     const block = el("section", "yv-semantic-field");
-    block.append(el("div", "yv-semantic-heading", `${field.lemma_iast} · inherited semantic field`));
-    block.append(el("div", "yv-semantic-opening", field.opening));
-    if (field.chronology_note) block.append(el("div", "yv-semantic-chronology", field.chronology_note));
-    for (const reading of field.readings || []) {
+    block.append(el("div", "yv-semantic-heading", field.lemma_iast));
+    for (const reading of readings) {
       const item = el("div", "yv-semantic-reading");
       item.append(el("div", "yv-derivation-label", reading.category));
       if (reading.formation) item.append(el("div", "yv-derivation-main", reading.formation));
@@ -172,6 +195,67 @@
       block.append(item);
     }
     return block;
+  }
+
+  function appendEnglishTrigger(fragment, text, source, semanticKey = "") {
+    if (!text) return;
+    if (!/[\p{L}\p{N}]/u.test(text)) {
+      fragment.append(document.createTextNode(text));
+      return;
+    }
+    const span = el("span", semanticKey ? "we yv-semantic-trigger" : "we", text);
+    span.dataset.wi = source.dataset.wi;
+    span.tabIndex = 0;
+    span.setAttribute("role", "button");
+    if (semanticKey) {
+      span.dataset.yvSemanticKey = semanticKey;
+      span.setAttribute("aria-label", `${text}: show the attested Sanskrit meanings`);
+    }
+    fragment.append(span);
+  }
+
+  function splitEnglishSemanticTriggers(root) {
+    for (const source of [...root.querySelectorAll(".verse .we")]) {
+      const locus = source.closest(".verse")?.querySelector(".verse-locus")?.textContent?.trim();
+      const verse = byLocus.get(locus);
+      const indices = String(source.dataset.wi || "").split(/\s+/).filter(Boolean).map(Number);
+      if (!verse || indices.length !== 1) continue;
+      const word = verse.words.find((item) => item.i === indices[0]);
+      const fields = (word?.semanticFields || []).filter((field) =>
+        field.lemma_iast && INDIVIDUAL_ENGLISH_NAME_KEYS.has(field.key)
+      );
+      if (!fields.length) continue;
+      const byLemma = new Map(fields.map((field) => [evidenceKey(field.lemma_iast), field]));
+      const alternatives = [...byLemma.values()]
+        .sort((left, right) => right.lemma_iast.length - left.lemma_iast.length)
+        .map((field) => field.lemma_iast.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+      const pattern = new RegExp(alternatives.join("|"), "giu");
+      const text = source.textContent || "";
+      const matches = [...text.matchAll(pattern)];
+      if (!matches.length) continue;
+      const fragment = document.createDocumentFragment();
+      let cursor = 0;
+      for (const match of matches) {
+        appendEnglishTrigger(fragment, text.slice(cursor, match.index), source);
+        const field = byLemma.get(evidenceKey(match[0]));
+        appendEnglishTrigger(fragment, match[0], source, field?.key || "");
+        cursor = match.index + match[0].length;
+      }
+      appendEnglishTrigger(fragment, text.slice(cursor), source);
+      source.replaceWith(fragment);
+    }
+  }
+
+  function renderFocusedSemanticCard(card, field) {
+    const top = el("div", "wc-top");
+    const lemma = el("span", "wc-word", field.lemma_iast);
+    lemma.setAttribute("lang", "sa-Latn");
+    top.append(lemma);
+    const evidence = el("section", "yv-word-evidence");
+    evidence.append(el("div", "yv-layer-label", "Attested meanings"));
+    const semantic = renderSemanticField(field, []);
+    if (semantic) evidence.append(semantic);
+    card.replaceChildren(top, evidence);
   }
 
   function appendWordEvidence(card, word) {
@@ -190,9 +274,12 @@
       section.append(el("div", "yv-layer-label", "Parallel supported analyses"));
       derivations.forEach((derivation) => section.append(renderDerivation(derivation)));
     }
-    if (word.semanticFields?.length) {
-      section.append(el("div", "yv-layer-label", "Intentional semantic field"));
-      word.semanticFields.forEach((field) => section.append(renderSemanticField(field)));
+    const semanticBlocks = (word.semanticFields || [])
+      .map((field) => renderSemanticField(field, derivations))
+      .filter(Boolean);
+    if (semanticBlocks.length) {
+      section.append(el("div", "yv-layer-label", "Attested meanings"));
+      semanticBlocks.forEach((block) => section.append(block));
     }
     if (section.childElementCount) card.append(section);
   }
@@ -220,6 +307,14 @@
       const words = apparatusId
         ? verse.apparatus.find((entry) => entry.id === apparatusId)?.words || []
         : verse.words;
+      const focusedSemanticKey = trigger.dataset.yvSemanticKey;
+      if (focusedSemanticKey) {
+        const word = words.find((item) => item.i === indices[0]);
+        const field = word?.semanticFields?.find((item) => item.key === focusedSemanticKey);
+        if (field) renderFocusedSemanticCard(card, field);
+        clampCardToViewport(card);
+        return;
+      }
       indices.forEach((index) => appendWordEvidence(card, words.find((word) => word.i === index)));
       clampCardToViewport(card);
     });
@@ -229,7 +324,7 @@
     if (document.querySelector('link[data-yv-dama-style]')) return;
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "gita/yogavasistha-dama/reader.css?v=20260901-yv-dama-v2";
+    link.href = "gita/yogavasistha-dama/reader.css?v=20260901-yv-dama-v3";
     link.dataset.yvDamaStyle = "1";
     document.head.append(link);
   }
@@ -248,6 +343,7 @@
         anchor = layer;
       }
     }
+    splitEnglishSemanticTriggers(root);
     root.addEventListener("click", (event) => enhanceCard(root, event));
   }
 
