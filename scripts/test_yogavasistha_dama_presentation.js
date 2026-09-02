@@ -8,6 +8,8 @@ const root = path.resolve(__dirname, "..");
 const review = JSON.parse(fs.readFileSync(path.join(root, "gita/yogavasistha-dama/review.json"), "utf8"));
 const enhancer = fs.readFileSync(path.join(root, "gita/yogavasistha-dama/enhancer.js"), "utf8");
 const gitaReader = fs.readFileSync(path.join(root, "assets/gita.js"), "utf8");
+const gitaStyle = fs.readFileSync(path.join(root, "assets/gita.css"), "utf8");
+const sahasranamaReader = fs.readFileSync(path.join(root, "assets/sahasranama.js"), "utf8");
 const readerStyle = fs.readFileSync(path.join(root, "gita/yogavasistha-dama/reader.css"), "utf8");
 
 if (review.units.length !== 56) throw new Error(`expected 56 units, found ${review.units.length}`);
@@ -102,6 +104,21 @@ if (!readerStyle.includes("@media (min-width: 721px)")
     || !readerStyle.includes("width: clamp(540px, 56vw, 760px)")
     || !readerStyle.includes("overscroll-behavior: contain")) {
   throw new Error("long evidence cards must widen only on desktop and contain their own scrolling");
+}
+if (!gitaReader.includes("protectedWordRects")
+    || !gitaReader.includes('scope.querySelectorAll(".hi")')
+    || !gitaReader.includes("repositionCard: place")
+    || !enhancer.includes("window.GitaReader.repositionCard(card, trigger)")) {
+  throw new Error("word-card placement must avoid every highlighted source, IAST, and English instance");
+}
+if (!gitaStyle.includes("max-height: min(70dvh, 620px)")
+    || !gitaStyle.includes("max-height: min(58dvh, 480px)")) {
+  throw new Error("word cards must remain bounded, scrollable popups on desktop and mobile");
+}
+if (!sahasranamaReader.includes('ROOT.querySelectorAll(".hi")')
+    || !sahasranamaReader.includes("!overlapsProtected(candidate)")
+    || !sahasranamaReader.includes("WORD_CARD.scrollTop += event.deltaY")) {
+  throw new Error("Sahasranāma cards must share the protected-highlight placement and scrolling contract");
 }
 
 console.log(`Yoga-Vāsiṣṭha presentation: 56 units, ${wordCount} words, one linked translation layer`);

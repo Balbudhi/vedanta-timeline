@@ -704,21 +704,64 @@ function closeWordCard() {
 }
 
 function placeCard(card, anchor) {
-  const rect = anchor.getBoundingClientRect();
+  const anchorRect = anchor.getBoundingClientRect();
+  const viewportWidth = document.documentElement.clientWidth;
+  const viewportHeight = window.innerHeight;
   const margin = 10;
+  const gap = 10;
+  const rootTop = ROOT?.getBoundingClientRect().top;
+  const safeTop = Math.max(margin, Number.isFinite(rootTop) ? rootTop : margin);
+  const safeBottom = viewportHeight - margin;
+
+  card.style.maxHeight = "";
   card.style.left = "0px";
   card.style.top = "0px";
-  const cardRect = card.getBoundingClientRect();
-  const minLeft = window.scrollX + margin;
-  const maxLeft = window.scrollX + document.documentElement.clientWidth - cardRect.width - margin;
-  let left = rect.left + rect.width / 2 - cardRect.width / 2 + window.scrollX;
-  let top = rect.top - cardRect.height - 10 + window.scrollY;
-  left = Math.max(minLeft, Math.min(maxLeft, left));
-  if (top < window.scrollY + margin) top = rect.bottom + 10 + window.scrollY;
-  const maxTop = window.scrollY + window.innerHeight - cardRect.height - margin;
-  if (top > maxTop) top = Math.max(window.scrollY + margin, maxTop);
-  card.style.left = `${left}px`;
-  card.style.top = `${top}px`;
+  let cardRect = card.getBoundingClientRect();
+  const protectedRects = [...ROOT.querySelectorAll(".hi")]
+    .flatMap(node => [...node.getClientRects()])
+    .filter(rect => rect.width > 0 && rect.height > 0 && rect.bottom > 0 && rect.top < viewportHeight);
+  if (!protectedRects.length) protectedRects.push(anchorRect);
+  const bounds = protectedRects.reduce((box, rect) => ({
+    left: Math.min(box.left, rect.left),
+    right: Math.max(box.right, rect.right),
+    top: Math.min(box.top, rect.top),
+    bottom: Math.max(box.bottom, rect.bottom),
+  }), { left: anchorRect.left, right: anchorRect.right, top: anchorRect.top, bottom: anchorRect.bottom });
+  const clampLeft = left => Math.max(margin, Math.min(viewportWidth - cardRect.width - margin, left));
+  const clampTop = top => Math.max(safeTop, Math.min(safeBottom - cardRect.height, top));
+  const overlapsProtected = candidate => protectedRects.some(rect => !(
+    candidate.left + cardRect.width <= rect.left
+    || candidate.left >= rect.right
+    || candidate.top + cardRect.height <= rect.top
+    || candidate.top >= rect.bottom
+  ));
+  const fitsViewport = candidate => candidate.left >= margin
+    && candidate.left + cardRect.width <= viewportWidth - margin
+    && candidate.top >= safeTop
+    && candidate.top + cardRect.height <= safeBottom;
+  const centeredLeft = clampLeft(anchorRect.left + anchorRect.width / 2 - cardRect.width / 2);
+  const centeredTop = clampTop(anchorRect.top + anchorRect.height / 2 - cardRect.height / 2);
+  const candidates = [
+    { left: centeredLeft, top: bounds.top - cardRect.height - gap },
+    { left: centeredLeft, top: bounds.bottom + gap },
+    { left: bounds.left - cardRect.width - gap, top: centeredTop },
+    { left: bounds.right + gap, top: centeredTop },
+  ];
+  let chosen = candidates.find(candidate => fitsViewport(candidate) && !overlapsProtected(candidate));
+  if (!chosen) {
+    const topRoom = Math.max(0, bounds.top - gap - safeTop);
+    const bottomRoom = Math.max(0, safeBottom - bounds.bottom - gap);
+    const useBottom = bottomRoom >= topRoom;
+    const availableHeight = Math.max(1, useBottom ? bottomRoom : topRoom);
+    card.style.maxHeight = `${Math.min(cardRect.height, availableHeight)}px`;
+    cardRect = card.getBoundingClientRect();
+    chosen = {
+      left: clampLeft(anchorRect.left + anchorRect.width / 2 - cardRect.width / 2),
+      top: useBottom ? bounds.bottom + gap : bounds.top - gap - cardRect.height,
+    };
+  }
+  card.style.left = `${chosen.left + window.scrollX}px`;
+  card.style.top = `${chosen.top + window.scrollY}px`;
 }
 
 async function openWordCard(number, anchor) {
@@ -753,6 +796,12 @@ async function openWordCard(number, anchor) {
   WORD_CARD = document.createElement("div");
   WORD_CARD.className = "wcard vsn-wcard";
   WORD_CARD.setAttribute("role", "tooltip");
+  WORD_CARD.addEventListener("wheel", event => {
+    if (WORD_CARD.scrollHeight <= WORD_CARD.clientHeight) return;
+    event.preventDefault();
+    event.stopPropagation();
+    WORD_CARD.scrollTop += event.deltaY;
+  }, { passive: false });
   WORD_CARD.innerHTML = `<div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(citation)}</span> <span class="vsn-card-number">${name.number}</span></div><div class="vsn-card-deva" lang="sa-Deva">${esc(deva)}</div>${definition}${derivations}${explanationAction}`;
   document.body.append(WORD_CARD);
   const showDetail = WORD_CARD.querySelector(".vsn-show-detail");
@@ -807,9 +856,13 @@ function wireWords() {
   document.addEventListener("keydown", event => {
     if (event.key === "Escape") closeWordCard();
   });
-  ROOT.closest(".dp-pane-body")?.addEventListener("scroll", closeWordCard, { passive: true });
-  document.addEventListener("scroll", closeWordCard, { passive: true, capture: true });
-  window.addEventListener("scroll", closeWordCard, { passive: true });
+  const dismissOnScroll = event => {
+    if (WORD_CARD && (WORD_CARD.contains(event.target) || WORD_CARD.matches(":hover"))) return;
+    closeWordCard();
+  };
+  ROOT.closest(".dp-pane-body")?.addEventListener("scroll", dismissOnScroll, { passive: true });
+  document.addEventListener("scroll", dismissOnScroll, { passive: true, capture: true });
+  window.addEventListener("scroll", dismissOnScroll, { passive: true });
 }
 
 async function setDetails(open) {

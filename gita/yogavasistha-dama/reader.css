@@ -32,6 +32,5 @@
   .wcard:has(.yv-word-evidence) {
     width: clamp(540px, 56vw, 760px);
     max-width: calc(100vw - 24px);
-    max-height: min(82vh, 820px);
   }
 }

@@ -363,7 +363,8 @@ html[data-theme="dark"] .we.hi { background: #4a4422; }
   background: var(--bg); border: 1px solid var(--rule);
   border-radius: 10px; box-shadow: var(--shadow-md);
   padding: 13px 15px; font-family: var(--sans); font-size: 13px; line-height: 1.5; color: var(--ink);
-  max-height: calc(100vh - 20px); overflow-y: auto;
+  max-height: min(70dvh, 620px); overflow-y: auto;
+  overscroll-behavior: contain; scrollbar-gutter: stable;
 }
 .wc-top { margin-bottom: 2px; }
 .wc-word { font-family: var(--serif); font-size: 17px; font-weight: 600; }
@@ -472,4 +473,5 @@ html[data-theme="dark"] .gp-cog-tag.cog-greek { --c: #84b3e4; }
   .vchip { padding: 8px 13px; }
   .gp-x { width: 34px; height: 34px; font-size: 24px; }
   .wcard, .gpop { max-width: calc(100vw - 24px); }
+  .wcard { max-height: min(58dvh, 480px); }
 }

@@ -720,19 +720,74 @@ function showGrammarCard(anchor, note) {
 }
 function hideGrammarCard() { if (grammarCardEl) grammarCardEl.hidden = true; }
 
+function protectedWordRects(anchor) {
+  const scope = anchor.closest("[data-wscope]") || ROOT || document;
+  const nodes = [...scope.querySelectorAll(".hi")];
+  if (!nodes.includes(anchor)) nodes.push(anchor);
+  return nodes.flatMap(node => [...node.getClientRects()]).filter(rect =>
+    rect.width > 0 && rect.height > 0 && rect.bottom > 0 && rect.top < window.innerHeight
+  );
+}
+
 function place(el, anchor) {
-  const r = anchor.getBoundingClientRect();
-  el.style.left = "0px"; el.style.top = "0px";
-  const er = el.getBoundingClientRect();
+  const anchorRect = anchor.getBoundingClientRect();
+  const viewportWidth = document.documentElement.clientWidth;
+  const viewportHeight = window.innerHeight;
   const margin = 10;
-  let left = r.left + r.width / 2 - er.width / 2 + window.scrollX;
-  let top = r.top - er.height - 10 + window.scrollY;
-  const minL = window.scrollX + margin, maxL = window.scrollX + document.documentElement.clientWidth - er.width - margin;
-  left = Math.max(minL, Math.min(maxL, left));
-  if (top < window.scrollY + margin) top = r.bottom + 10 + window.scrollY;
-  const maxT = window.scrollY + window.innerHeight - er.height - margin;
-  if (top > maxT) top = Math.max(window.scrollY + margin, maxT);
-  el.style.left = left + "px"; el.style.top = top + "px";
+  const gap = 10;
+  const rootTop = ROOT?.getBoundingClientRect().top;
+  const safeTop = Math.max(margin, Number.isFinite(rootTop) ? rootTop : margin);
+  const safeBottom = viewportHeight - margin;
+
+  el.style.maxHeight = "";
+  el.style.left = "0px";
+  el.style.top = "0px";
+  let cardRect = el.getBoundingClientRect();
+  const protectedRects = protectedWordRects(anchor);
+  const bounds = protectedRects.reduce((box, rect) => ({
+    left: Math.min(box.left, rect.left),
+    right: Math.max(box.right, rect.right),
+    top: Math.min(box.top, rect.top),
+    bottom: Math.max(box.bottom, rect.bottom),
+  }), { left: anchorRect.left, right: anchorRect.right, top: anchorRect.top, bottom: anchorRect.bottom });
+
+  const clampLeft = left => Math.max(margin, Math.min(viewportWidth - cardRect.width - margin, left));
+  const clampTop = top => Math.max(safeTop, Math.min(safeBottom - cardRect.height, top));
+  const overlapsProtected = candidate => protectedRects.some(rect => !(
+    candidate.left + cardRect.width <= rect.left
+    || candidate.left >= rect.right
+    || candidate.top + cardRect.height <= rect.top
+    || candidate.top >= rect.bottom
+  ));
+  const fitsViewport = candidate => candidate.left >= margin
+    && candidate.left + cardRect.width <= viewportWidth - margin
+    && candidate.top >= safeTop
+    && candidate.top + cardRect.height <= safeBottom;
+  const centeredLeft = clampLeft(anchorRect.left + anchorRect.width / 2 - cardRect.width / 2);
+  const centeredTop = clampTop(anchorRect.top + anchorRect.height / 2 - cardRect.height / 2);
+  const candidates = [
+    { left: centeredLeft, top: bounds.top - cardRect.height - gap },
+    { left: centeredLeft, top: bounds.bottom + gap },
+    { left: bounds.left - cardRect.width - gap, top: centeredTop },
+    { left: bounds.right + gap, top: centeredTop },
+  ];
+  let chosen = candidates.find(candidate => fitsViewport(candidate) && !overlapsProtected(candidate));
+
+  if (!chosen) {
+    const topRoom = Math.max(0, bounds.top - gap - safeTop);
+    const bottomRoom = Math.max(0, safeBottom - bounds.bottom - gap);
+    const useBottom = bottomRoom >= topRoom;
+    const availableHeight = Math.max(1, useBottom ? bottomRoom : topRoom);
+    el.style.maxHeight = `${Math.min(cardRect.height, availableHeight)}px`;
+    cardRect = el.getBoundingClientRect();
+    chosen = {
+      left: clampLeft(anchorRect.left + anchorRect.width / 2 - cardRect.width / 2),
+      top: useBottom ? bounds.bottom + gap : bounds.top - gap - cardRect.height,
+    };
+  }
+
+  el.style.left = `${chosen.left + window.scrollX}px`;
+  el.style.top = `${chosen.top + window.scrollY}px`;
 }
 
 // Side-pin the glossary into the page margin (viewport-fixed) so it never
@@ -1019,7 +1074,7 @@ function clearWords() {
   hideGrammarCard();
 }
 
-window.GitaReader = { render, renderPassages, interactiveBlock, interactiveInline, bindWords, clearWords };
+window.GitaReader = { render, renderPassages, interactiveBlock, interactiveInline, bindWords, clearWords, repositionCard: place };
 
 // Standalone page bootstrap (no-op inside the app, where #gitaRoot is absent).
 document.addEventListener("DOMContentLoaded", () => {

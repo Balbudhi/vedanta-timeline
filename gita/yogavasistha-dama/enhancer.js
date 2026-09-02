@@ -284,7 +284,11 @@
     if (section.childElementCount) card.append(section);
   }
 
-  function clampCardToViewport(card) {
+  function clampCardToViewport(card, trigger) {
+    if (window.GitaReader?.repositionCard && trigger) {
+      window.GitaReader.repositionCard(card, trigger);
+      return;
+    }
     const gutter = 10;
     const rect = card.getBoundingClientRect();
     const top = Math.max(gutter, Math.min(rect.top, window.innerHeight - rect.height - gutter));
@@ -312,11 +316,11 @@
         const word = words.find((item) => item.i === indices[0]);
         const field = word?.semanticFields?.find((item) => item.key === focusedSemanticKey);
         if (field) renderFocusedSemanticCard(card, field);
-        clampCardToViewport(card);
+        clampCardToViewport(card, trigger);
         return;
       }
       indices.forEach((index) => appendWordEvidence(card, words.find((word) => word.i === index)));
-      clampCardToViewport(card);
+      clampCardToViewport(card, trigger);
     });
   }
 
