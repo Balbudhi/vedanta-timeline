@@ -53,8 +53,19 @@ for (const unit of review.units) {
 if (!enhancer.includes("renderSourceScript")) {
   throw new Error("enhancer does not connect exact source-script segments to reviewed word indices");
 }
-if (!enhancer.includes("renderSemanticField") || !enhancer.includes("renderMethodology")) {
-  throw new Error("reader does not render the reviewed semantic fields and method note");
+if (!enhancer.includes("renderSemanticField")) {
+  throw new Error("reader does not render the reviewed semantic fields");
+}
+if (enhancer.includes("renderMethodology") || enhancer.includes("Reading method and textual witnesses")) {
+  throw new Error("reader must not render an editorial methodology block");
+}
+function publicSet(name) {
+  const match = enhancer.match(new RegExp(`const ${name} = new Set\\(\\[([^\\]]*)\\]\\)`));
+  if (!match) throw new Error(`missing ${name}`);
+  return JSON.parse(`[${match[1]}]`);
+}
+if (JSON.stringify(publicSet("PUBLIC_APPARATUS_IDS")) !== JSON.stringify(["robot-reading-critical"])) {
+  throw new Error("public apparatus must show only the critical Mokṣopāya reading");
 }
 if (JSON.stringify([...observedSemanticKeys].sort()) !== JSON.stringify([...semanticKeys].sort())) {
   throw new Error("not every semantic field is attached to a public word card");

@@ -4,6 +4,7 @@
 
   const byLocus = new Map();
   const semanticFields = new Map();
+  const PUBLIC_APPARATUS_IDS = new Set(["robot-reading-critical"]);
   let semanticBundle = null;
 
   function rootLabel(root) {
@@ -52,45 +53,6 @@
     return node;
   }
 
-  function sourceLink(label, url) {
-    if (!label) return null;
-    if (!url) return el("span", "yv-source-link", label);
-    const link = el("a", "yv-source-link", label);
-    link.href = url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    return link;
-  }
-
-  function renderMethodology() {
-    if (!semanticBundle?.methodology) return null;
-    const details = el("details", "yv-methodology");
-    details.append(el("summary", "yv-methodology-summary", "Reading method and textual witnesses"));
-    const body = el("div", "yv-methodology-body");
-    body.append(el("p", "yv-methodology-intro", semanticBundle.methodology.summary));
-    body.append(el("div", "yv-methodology-heading", "Interpretive method"));
-    for (const principle of semanticBundle.methodology.principles || []) {
-      const block = el("section", "yv-methodology-block");
-      block.append(el("h4", "yv-methodology-title", principle.title));
-      block.append(el("p", "yv-methodology-text", principle.text));
-      const link = sourceLink(principle.source_label, principle.source_url);
-      if (link) block.append(link);
-      body.append(block);
-    }
-    body.append(el("div", "yv-methodology-heading", "Which texts are being compared"));
-    for (const witness of semanticBundle.witness_history || []) {
-      const block = el("section", "yv-witness-history");
-      block.append(el("h4", "yv-methodology-title", witness.label));
-      block.append(el("div", "yv-witness-relation", witness.relation));
-      block.append(el("p", "yv-methodology-text", witness.description));
-      const link = sourceLink(witness.source_label, witness.source_url);
-      if (link) block.append(link);
-      body.append(block);
-    }
-    details.append(body);
-    return details;
-  }
-
   function renderSourceScript(container, segments) {
     if (!container || !segments?.length) return;
     container.replaceChildren();
@@ -127,7 +89,10 @@
   }
 
   function renderApparatus(verse) {
-    const entries = (verse.apparatus || []).filter((entry) => entry.status === "producer-complete" || entry.public_ready === true);
+    const entries = (verse.apparatus || []).filter((entry) =>
+      PUBLIC_APPARATUS_IDS.has(entry.id)
+      && (entry.status === "producer-complete" || entry.public_ready === true)
+    );
     if (!entries.length) return null;
     const section = el("section", "yv-apparatus");
     section.setAttribute("aria-label", "Textual apparatus");
@@ -270,9 +235,6 @@
 
   function afterRender(root, verses) {
     ensureStylesheet();
-    const methodology = renderMethodology();
-    const firstVerse = root.querySelector(".verse");
-    if (methodology && firstVerse) firstVerse.insertAdjacentElement("beforebegin", methodology);
     for (const verse of verses || []) {
       const article = [...root.querySelectorAll(".verse")].find((node) => node.querySelector(".verse-locus")?.textContent?.trim() === verse.locus);
       if (!article) continue;

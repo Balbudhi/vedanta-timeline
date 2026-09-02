@@ -5572,7 +5572,7 @@ const GITA_READINGS = {
     base: "gita/yogavasistha-dama/",
     files: ["verses.js", "apparatus.js", "enhancer.js"],
     title: "The Story of Dāma, Vyāla, and Kaṭa",
-    blurb: "<em>Laghu-Yoga-Vāsiṣṭha</em>, Sthiti-prakaraṇa 2.31–86 — the root text, word by word.",
+    blurb: "<em>Laghu-Yoga-Vāsiṣṭha</em>, Sthiti-prakaraṇa 2.31–86 — Sanskrit from the Paṇaśīkara edition (Bombay, 1933), word by word.",
     data: () => {
       const apparatus = window.YV_DAMA_APPARATUS;
       return {
