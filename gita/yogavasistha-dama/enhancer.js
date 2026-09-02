@@ -123,8 +123,9 @@
           ? "yogavasistha-vulgate"
           : null;
       const history = semanticBundle?.witness_history?.find((item) => item.id === witnessId);
-      if (history) details.append(el("div", "yv-apparatus-provenance", history.description));
-      if (entry.sense) details.append(el("div", "yv-apparatus-sense", entry.sense));
+      if (history?.source_label) {
+        details.append(el("div", "yv-apparatus-provenance", `Source: ${history.source_label}.`));
+      }
       section.append(details);
     }
     return section;

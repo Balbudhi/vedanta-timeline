@@ -67,6 +67,9 @@ function publicSet(name) {
 if (JSON.stringify(publicSet("PUBLIC_APPARATUS_IDS")) !== JSON.stringify(["robot-reading-critical"])) {
   throw new Error("public apparatus must show only the critical Mokṣopāya reading");
 }
+if (enhancer.includes("history.description") || enhancer.includes("entry.sense")) {
+  throw new Error("public apparatus must not repeat witness history or a second English rendering");
+}
 if (JSON.stringify([...observedSemanticKeys].sort()) !== JSON.stringify([...semanticKeys].sort())) {
   throw new Error("not every semantic field is attached to a public word card");
 }
