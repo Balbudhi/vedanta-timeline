@@ -35,6 +35,34 @@
       "path": "data/sources/sanskrit/vedanta/yogavasistha_sanskritsahitya.txt"
     }
   ],
+  "witness_history": [
+    {
+      "id": "laghu",
+      "relation": "controlling abbreviated root text",
+      "description": "The approximately five-thousand-verse abbreviated Vāsiṣṭha, probably produced soon after the tenth-century Mokṣopāya; the explicit yantra-puruṣa line is omitted in its condensed story.",
+      "source_url": "https://www.uni-marburg.de/de/fb10/iksl/faecher/indologie/arbeitsstelle-akademie-mainz/moksopaya"
+    },
+    {
+      "id": "mokshopaya-critical",
+      "relation": "earliest recoverable Kashmirian textual stratum",
+      "description": "Historical-critical reconstruction from the Kashmirian Mokṣopāya transmission; its Sthitiprakaraṇa preserves the longer construction account and yantra-puruṣāḥ at MU 4.9.38.",
+      "source_url": "https://adwm.indologie.uni-halle.de/CompleteBibliography.htm"
+    },
+    {
+      "id": "yogavasistha-vulgate",
+      "relation": "later widely received and printed expanded text",
+      "description": "The common printed Yoga-Vāsiṣṭha is a later redaction using both Mokṣopāya and Laghu material. Vulgate is a descriptive philological term for this received text, not a judgment of spiritual worth. It reads atyajña-puruṣāḥ at 4.27.38.",
+      "source_url": "https://www.uni-marburg.de/de/fb10/iksl/faecher/indologie/arbeitsstelle-akademie-mainz/moksopaya"
+    }
+  ],
+  "venkatesananda_comparison": {
+    "title": "The Supreme Yoga",
+    "author": "Swami Venkatesananda",
+    "source_url": "https://www.venkatesaya.be/pdf/21_Supreme_Yoga_Vasistha_Section_4_Sthiti_Prakaranam_Existence.pdf",
+    "presentation_type": "faithful chapter summary with one selected verse freely translated per chapter",
+    "robot_phrase": "robot-like working projections of the demon Sambara",
+    "qualification": "The phrase is Venkatesananda's contextual reading of the complete artificial-production and automatic-action account, not a direct translation of an explicit yantra-puruṣa token in the later received Yoga-Vāsiṣṭha witness. The critical Mokṣopāya's yantra-puruṣa independently supports the interpretation."
+  },
   "units": [
     {
       "id": "lyv-4-2-31",

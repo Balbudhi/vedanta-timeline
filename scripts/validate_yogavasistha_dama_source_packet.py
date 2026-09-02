@@ -51,6 +51,16 @@ def main() -> None:
     if len(construction.get("vulgate_devanagari", [])) != 7:
         errors.append("vulgate construction cluster is not 7/7")
 
+    expected_history = ["laghu", "mokshopaya-critical", "yogavasistha-vulgate"]
+    history = data.get("witness_history", [])
+    if [entry.get("id") for entry in history] != expected_history:
+        errors.append("witness history does not preserve the Laghu/critical/vulgate sequence")
+    comparison = data.get("venkatesananda_comparison", {})
+    if comparison.get("presentation_type") != "faithful chapter summary with one selected verse freely translated per chapter":
+        errors.append("Venkatesananda presentation type is absent or inaccurate")
+    if "not a direct translation" not in comparison.get("qualification", ""):
+        errors.append("Venkatesananda robot phrase lacks its source-boundary qualification")
+
     notes = {entry["unit_id"]: entry for entry in data.get("textual_notes", [])}
     if "mīmabhāsa" not in notes.get("lyv-4-2-33", {}).get("printed_and_transcribed", ""):
         errors.append("printed mīmabhāsa reading is not preserved in the apparatus")

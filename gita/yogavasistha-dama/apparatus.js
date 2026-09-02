@@ -59,5 +59,479 @@ window.YV_DAMA_APPARATUS = {
       ],
       "issue": "Laghu condenses the longer construction and automatic-action description into verses 44-48"
     }
-  ]
+  ],
+  "semantic_fields": {
+    "schema_version": "yogavasistha-dama-semantic-fields-v1",
+    "methodology": {
+      "title": "How this reader treats Sanskrit meaning",
+      "summary": "This reader treats the text as intentional philosophical literature. A word's ordinary syntactic use does not cancel its inherited derivations, nirvacanas, literary resonances, or philosophical history.",
+      "principles": [
+        {
+          "id": "intentional-semantic-field",
+          "title": "Inherited meanings remain active",
+          "text": "When a grammatical formation, lexical sense, or traditional nirvacana predates the text, it is presented as part of the semantic field available to the author. When the surrounding narrative activates that field, the reader presumes literary intentionality unless the text gives reason not to. This does not require the false claim that every attested meaning is the sole dictionary meaning of the word."
+        },
+        {
+          "id": "chronology",
+          "title": "Chronology changes the kind of claim",
+          "text": "An earlier attested reading can belong to the author's inherited language; a later reading belongs to reception history. Both are preserved, but they are labelled differently. Absence of proof that the author consulted one named source is not treated as proof that inherited Sanskrit meanings were unavailable or irrelevant."
+        },
+        {
+          "id": "aurobindonian-basis",
+          "title": "Aurobindonian depth-reading",
+          "text": "The governing hermeneutic is this project's explicit extension of Sri Aurobindo's Vedic account of intentional double values: preserve the outer narrative and grammatical sense while reading the same language for its inward psychological and philosophical operation. This is not attributed to Aurobindo as his own reading of the Yoga-Vāsiṣṭha. Critical philology establishes the words, witnesses, and chronology; the extended depth-reading treats those verified words as deliberate literature rather than inert labels.",
+          "source_label": "Sri Aurobindo, The Secret of the Veda, ‘The Foundations of the Psychological Theory’",
+          "source_url": "https://www.motherandsriaurobindo.in/Sri-Aurobindo/books/sabcl/the-secret-of-the-veda/"
+        },
+        {
+          "id": "evidence-categories",
+          "title": "Different kinds of evidence are not collapsed",
+          "text": "Regular grammatical formation, traditional nirvacana, lexical attestation, narrative activation, later reception, and this site's synthesis remain separately labelled. Preserving the whole field is not permission to manufacture an etymology or erase a witness difference."
+        }
+      ]
+    },
+    "witness_history": [
+      {
+        "id": "laghu",
+        "label": "Laghu-Yoga-Vāsiṣṭha",
+        "relation": "controlling public root text",
+        "description": "The approximately five-thousand-verse abbreviated Vāsiṣṭha was probably produced soon after the tenth-century Mokṣopāya. This reader follows its complete concise Dāma–Vyāla–Kaṭa story at Sthitiprakaraṇa 2.31–86. The Laghu condenses the construction episode and omits the explicit yantra-puruṣa verse.",
+        "source_label": "Paṇaśīkara edition with Vāsiṣṭhacandrikā; Muktābodha M00351; print checked at pp. 302–309"
+      },
+      {
+        "id": "mokshopaya-critical",
+        "label": "Mokṣopāya critical edition",
+        "relation": "earliest recoverable Kashmirian textual stratum",
+        "description": "The historical-critical edition reconstructs the Kashmirian Mokṣopāya from a manuscript transmission independent of the modern printed Yoga-Vāsiṣṭha. Its Sthitiprakaraṇa preserves the longer construction account and yantra-puruṣāḥ, ‘machine-puruṣas,’ at MU 4.9.38.",
+        "source_label": "Mokṣopāya, Sthitiprakaraṇa, ed. Susanne Krause-Stinner and Peter Stephan, 2012",
+        "source_url": "https://adwm.indologie.uni-halle.de/CompleteBibliography.htm"
+      },
+      {
+        "id": "yogavasistha-vulgate",
+        "label": "Later received Yoga-Vāsiṣṭha (‘vulgate’)",
+        "relation": "widely received and printed expanded text",
+        "description": "Vulgate here is the philological term for the commonly circulated text, not a judgment that it is spiritually worthless. The expanded Yoga-Vāsiṣṭha was redacted from Mokṣopāya and Laghu material and entered print in the late nineteenth century. At the parallel verse 4.27.38 it reads atyajña-puruṣāḥ, ‘utterly unknowing puruṣas,’ not yantra-puruṣāḥ.",
+        "source_label": "Mokṣopāya Project account of the text's reception history",
+        "source_url": "https://www.uni-marburg.de/de/fb10/iksl/faecher/indologie/arbeitsstelle-akademie-mainz/moksopaya"
+      },
+      {
+        "id": "venkatesananda",
+        "label": "Swami Venkatesananda's interpretive summary",
+        "relation": "modern spiritual reception, not controlling Sanskrit witness",
+        "description": "The Supreme Yoga presents a faithful summary of each chapter, omitting repetition and freely translating one selected verse. Its phrase ‘robot-like working projections’ is an intentional interpretation of the whole account—artificial production, absence of prior conditioning and ego, and automatic action—not a direct translation of a printed yantra-puruṣa token in the later received reading. The critical Mokṣopāya's yantra-puruṣa independently confirms the strength of that interpretation.",
+        "source_label": "Swami Venkatesananda, The Supreme Yoga, Sthitiprakaraṇa chs. 24–27",
+        "source_url": "https://www.venkatesaya.be/pdf/21_Supreme_Yoga_Vasistha_Section_4_Sthiti_Prakaranam_Existence.pdf"
+      }
+    ],
+    "fields": [
+      {
+        "key": "purusha",
+        "lemma_iast": "puruṣa",
+        "lemma_devanagari": "पुरुष",
+        "match_forms": [
+          "puruṣa"
+        ],
+        "opening": "Puruṣa is not exhausted here by the English word ‘person.’ Its inherited nirvacanas concern dwelling in, lying in, or filling an interior; those senses are philosophically activated by a story that equates Śambara's fabricated beings with the beings designated ‘we.’",
+        "chronology_note": "Nirukta 2.3 belongs to a much earlier inherited etymological tradition than the tenth-century Mokṣopāya. The reader therefore treats these readings as available to the poem, not as late decorations.",
+        "readings": [
+          {
+            "category": "grammatical head",
+            "formation": "yantra + puruṣa",
+            "meaning": "a puruṣa characterized as a mechanism; a machine-puruṣa",
+            "qualification": "‘Person’ remains a serviceable surface gloss, but it does not replace the Sanskrit semantic field."
+          },
+          {
+            "category": "traditional nirvacana",
+            "formation": "puri ṣādaḥ",
+            "meaning": "one sitting or dwelling in the citadel/body",
+            "source_label": "Nirukta 2.3",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "source_locus": "line 221"
+          },
+          {
+            "category": "traditional nirvacana",
+            "formation": "puri śayaḥ",
+            "meaning": "one lying or dwelling in the citadel/body",
+            "source_label": "Nirukta 2.3",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "source_locus": "line 221"
+          },
+          {
+            "category": "traditional nirvacana",
+            "formation": "pūrayaty antar",
+            "meaning": "one who fills the interior",
+            "source_label": "Nirukta 2.3",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "source_locus": "line 221"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "The poem later asks how Dāma and the others arise from the supreme state, calls their forms pratibhā alone, and says the beings called ‘we’ are constituted in the same way. The interior/embodied senses of puruṣa are therefore part of the story's philosophical work."
+          }
+        ]
+      },
+      {
+        "key": "shambara",
+        "lemma_iast": "śambara",
+        "lemma_devanagari": "शम्बर",
+        "match_forms": [
+          "śambara"
+        ],
+        "opening": "Śambara remains a proper name, but the tradition does not leave the sound semantically empty. Earlier sources associate śambara with strength and, in a Vedic interpretive context, with a cloud; lexica also preserve it as the name of an Asura.",
+        "chronology_note": "The strength and cloud readings precede the Mokṣopāya. They are preserved as inherited resonances, not asserted as a single exclusive derivation of this character's name.",
+        "readings": [
+          {
+            "category": "earlier lexical field",
+            "formation": "śambaram",
+            "meaning": "strength; one of the traditional names of bala",
+            "source_label": "Nighaṇṭu, list of names for strength",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nighantu/nighantu_wikisource.txt",
+            "source_locus": "line 626"
+          },
+          {
+            "category": "earlier Vedic nirvacana",
+            "formation": "śambaraṃ megham",
+            "meaning": "Śambara interpreted as the cloud broken open in the Vedic verse",
+            "source_label": "Nirukta 7.23",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "source_locus": "line 1648",
+            "qualification": "This explains a Vedic occurrence; it is a resonance for the later name, not proof that the story-character simply ‘means cloud.’"
+          },
+          {
+            "category": "lexical identity",
+            "meaning": "the name of a particular Daitya/Asura",
+            "source_label": "Yādavakośa and Amarakośa commentarial tradition",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+            "source_locus": "line 2907"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "In this story Śambara is a great reservoir of māyā who forms beings through sustained thought. Strength, cloud/covering, magic, and formative projection converge around the character without requiring a single reductive English name."
+          }
+        ]
+      },
+      {
+        "key": "daitya",
+        "lemma_iast": "daitya",
+        "lemma_devanagari": "दैत्य",
+        "match_forms": [
+          "daitya"
+        ],
+        "opening": "Daitya is a transparent patronymic, not merely the generic word ‘demon’: a descendant of Diti. Its paired formation Āditya means a descendant of Aditi.",
+        "chronology_note": "The Diti/Aditi pair is explicitly grammatical in Pāṇini, Kāśikā, and Mahābhāṣya, centuries before the Mokṣopāya.",
+        "readings": [
+          {
+            "category": "Pāṇinian patronymic",
+            "formation": "Diti + ṇya → Daitya",
+            "meaning": "offspring or descendant of Diti",
+            "source_label": "Aṣṭādhyāyī 4.1.85; Kāśikā",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+            "source_locus": "line 1573"
+          },
+          {
+            "category": "paired patronymic",
+            "formation": "Aditi + ṇya → Āditya",
+            "meaning": "offspring or descendant of Aditi",
+            "source_label": "Mahābhāṣya on Aṣṭādhyāyī 4.1.85",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/mahabhashya/mahabhashya_gretil.txt",
+            "source_locus": "line 7478"
+          },
+          {
+            "category": "traditional genealogy",
+            "meaning": "Amarakośa groups daitya, daiteya, danuja, dānava, and diti-suta as Asura names, while its preceding divine list includes āditeya, aditi-nandana, and āditya.",
+            "source_label": "Amarakośa 1.1.8–12",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+            "source_locus": "lines 8–12"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "The story's repeated Daitya/deva opposition activates the Diti/Aditi lineage-pair. Translating Daitya only as ‘demon’ erases this inherited relation."
+          }
+        ]
+      },
+      {
+        "key": "danava",
+        "lemma_iast": "dānava",
+        "lemma_devanagari": "दानव",
+        "match_forms": [
+          "dānava"
+        ],
+        "opening": "Dānava is a genealogical name: a descendant of Danu, conventionally grouped with the Asuras and Daityas.",
+        "chronology_note": "The maternal genealogy is preserved in premodern lexica and should remain visible even when ‘demon’ is used in running English.",
+        "readings": [
+          {
+            "category": "patronymic field",
+            "formation": "Danu → Dānava",
+            "meaning": "offspring or descendant of Danu",
+            "source_label": "Amarakośa 1.1.12; Halāyudhakośa",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+            "source_locus": "lines 5 and 119"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "The word names a lineage participating in the conflict, not an abstract essence of evil."
+          }
+        ]
+      },
+      {
+        "key": "amara",
+        "lemma_iast": "amara",
+        "lemma_devanagari": "अमर",
+        "match_forms": [
+          "amara"
+        ],
+        "opening": "Amara is internally meaningful: ‘not dying,’ hence an immortal and, by convention, a god.",
+        "chronology_note": "The derivation is explicit in the traditional commentary on Amarakośa's divine-name list.",
+        "readings": [
+          {
+            "category": "traditional nirvacana",
+            "formation": "na mriyante iti amarāḥ",
+            "meaning": "they do not die; therefore ‘immortals’",
+            "source_label": "Kṣīrasvāmin on Amarakośa 1.1.7",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/raw/etymology/amarakoshodghatana/amarakoshodghatana_kshirasvamin.txt",
+            "source_locus": "lines 109–112"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "Calling the divine combatants ‘immortals’ while the story turns on fear, defeat, and conditioning is part of the philosophical tension, not a disposable synonym."
+          }
+        ]
+      },
+      {
+        "key": "deva",
+        "lemma_iast": "deva",
+        "lemma_devanagari": "देव",
+        "match_forms": [
+          "deva"
+        ],
+        "opening": "Deva carries a traditional field of shining, illuminating, giving, and heavenly station. ‘God’ names the referent but does not exhaust the word's literary force.",
+        "chronology_note": "Yāska's Nirukta and the root √div belong to the inherited language available long before the Mokṣopāya.",
+        "readings": [
+          {
+            "category": "rooted grammatical field",
+            "formation": "√div",
+            "meaning": "to shine, play, rejoice, praise, move, and exercise luminous or lordly activity",
+            "source_label": "Dhātupāṭha, divu",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "source_locus": "lines 3786–3788"
+          },
+          {
+            "category": "traditional nirvacanas",
+            "formation": "dānād vā; dīpanād vā; dyotanād vā; dyusthāno vā",
+            "meaning": "from giving; from kindling; from shining/illumining; or from dwelling in heaven",
+            "source_label": "Nirukta 7.15",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "source_locus": "line 1604"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "The devas oppose Śambara's obscuring and projective māyā. Their luminous semantic field is active in that contrast even when the running translation says ‘gods.’"
+          }
+        ]
+      },
+      {
+        "key": "sura",
+        "lemma_iast": "sura",
+        "lemma_devanagari": "सुर",
+        "match_forms": [
+          "sura"
+        ],
+        "opening": "Sura has several transmitted derivations. The reader preserves them together rather than treating ‘god’ as semantically empty or pretending that one later explanation cancels the others.",
+        "chronology_note": "The Yoga-Vāsiṣṭha uses the established classical divine name. Earlier Vedic Sanskrit chiefly uses deva and asura; the later sura/asura opposition is itself part of reception history.",
+        "readings": [
+          {
+            "category": "rooted grammatical formation",
+            "formation": "√sur + ka → sura",
+            "meaning": "one who shines or exercises lordship",
+            "source_label": "Dhātupāṭha, ṣura aiśvarya-dīptyoḥ; traditional lexicography",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+            "source_locus": "lines 4579–4582"
+          },
+          {
+            "category": "traditional alternatives",
+            "meaning": "Kṣīrasvāmin also records possession or drinking of surā and ‘shining well’ as transmitted readings.",
+            "source_label": "Kṣīrasvāmin on Amarakośa 1.1.7",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/raw/etymology/amarakoshodghatana/amarakoshodghatana_kshirasvamin.txt",
+            "source_locus": "lines 109–118"
+          }
+        ]
+      },
+      {
+        "key": "tridasha",
+        "lemma_iast": "tridaśa",
+        "lemma_devanagari": "त्रिदश",
+        "match_forms": [
+          "tridaśa",
+          "tri-daśa"
+        ],
+        "opening": "Tridaśa literally carries the image ‘three tens’ and conventionally names the gods. The numeral is not an empty fossil.",
+        "chronology_note": "Both the numerical reading and a traditional alternative were present in the lexicographic reception before or around the period of the Mokṣopāya's circulation.",
+        "readings": [
+          {
+            "category": "compound reading",
+            "formation": "triḥ daśa parimāṇam eṣām",
+            "meaning": "those whose number is three times ten; the Thirty",
+            "source_label": "Kṣīrasvāmin on Amarakośa 1.1.7",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/raw/etymology/amarakoshodghatana/amarakoshodghatana_kshirasvamin.txt",
+            "source_locus": "lines 111–114"
+          },
+          {
+            "category": "traditional alternative",
+            "formation": "tisro daśā vayovasthā yeṣām",
+            "meaning": "those who possess three stages or conditions of life",
+            "source_label": "Gauḍa, cited by Kṣīrasvāmin",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/raw/etymology/amarakoshodghatana/amarakoshodghatana_kshirasvamin.txt",
+            "source_locus": "lines 113–114"
+          }
+        ]
+      },
+      {
+        "key": "asura",
+        "lemma_iast": "asura",
+        "lemma_devanagari": "असुर",
+        "match_forms": [
+          "asura"
+        ],
+        "opening": "Asura cannot be reduced to ‘not a sura’ or simply ‘demon.’ Earlier Vedic and etymological traditions preserve honorific, vital, intellectual, positional, oppositional, and later demonic senses.",
+        "chronology_note": "Asura is older than the classical sura/asura opposition and is an honorific of major Vedic deities. The later hostile and genealogical senses remain real developments rather than the word's timeless sole meaning.",
+        "readings": [
+          {
+            "category": "earlier Vedic usage",
+            "formation": "mahad devānām asuratvam ekam",
+            "meaning": "‘Great and one is the asura-power of the gods’; asura and asuratva function as honorific power-language for major Vedic deities.",
+            "source_label": "Ṛgveda 3.55.1–22; compare Varuṇa at 1.24.14",
+            "source_path": "/Users/eeshan/Dev/vedanta-timeline/data/sources/sanskrit/vedic/rigveda_aufrecht_gretil.txt",
+            "source_locus": "lines 8973–9036; line 838"
+          },
+          {
+            "category": "Nirukta segmentation",
+            "formation": "a-su-ratāḥ",
+            "meaning": "a transmitted segmentation suggesting those who are not su-ratāḥ, not well-engaged or well-disposed",
+            "source_label": "Nirukta 3.8",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "source_locus": "lines 422–426",
+            "qualification": "This segmentation is kept distinct from the following alternatives about placement in or displacement from stations."
+          },
+          {
+            "category": "Nirukta positional alternatives",
+            "formation": "sthāneṣu astāḥ; sthānebhyaḥ astāḥ iti vā",
+            "meaning": "placed in their stations; or, alternatively, cast from their stations",
+            "source_label": "Nirukta 3.8",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "source_locus": "lines 422–426"
+          },
+          {
+            "category": "Nirukta vital reading",
+            "formation": "asu as a name of prāṇa; tena tadvantaḥ",
+            "meaning": "those possessed of asu, the vital breath deposited in the body",
+            "source_label": "Nirukta 3.8",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "source_locus": "lines 422–426"
+          },
+          {
+            "category": "Nirukta alternative",
+            "formation": "asur as a name of prajñā",
+            "meaning": "asura-hood as possession of insight or intelligence",
+            "source_label": "Nirukta 10.34",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+            "source_locus": "lines 2252–2255"
+          },
+          {
+            "category": "Uṇādi formation",
+            "formation": "√as + uran → asura",
+            "meaning": "the inherited grammatical formation; the affix is explicit without forcing a single contextual theology",
+            "source_label": "Uṇādipāṭha 1.42",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/unadi/unadi_pancapadi_upstream.txt",
+            "source_locus": "line 42"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "Here the Asuras are māyā-generated agents who later acquire ego and conditioning. The inherited honorific, vital, intelligent, positional, and oppositional senses complicate—not abolish—the later demon-class meaning."
+          }
+        ]
+      },
+      {
+        "key": "dama",
+        "lemma_iast": "dāma",
+        "lemma_devanagari": "दाम",
+        "match_forms": [
+          "dāma"
+        ],
+        "opening": "Dāma is a proper name whose attested lexical field includes a bond, tether, or fetter. The narrative later turns on bondage by vāsanā and the snare of hope, making that field difficult to regard as accidental.",
+        "chronology_note": "The lexical sense is preserved in premodern kośa material. A verbal-root derivation is not asserted where the sources reviewed do not secure one.",
+        "readings": [
+          {
+            "category": "lexical sense",
+            "meaning": "bond, tether, fetter",
+            "source_label": "Amarakośa and Halāyudhakośa",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+            "source_locus": "line 277"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "The unconditioned Dāma becomes bound by vāsanā, ego, hope, and fear. The name's bond/tether sense participates in the story's reversal."
+          }
+        ]
+      },
+      {
+        "key": "vyala",
+        "lemma_iast": "vyāla",
+        "lemma_devanagari": "व्याल",
+        "match_forms": [
+          "vyāla"
+        ],
+        "opening": "Vyāla is a proper name with the established lexical range ‘fierce beast’ and ‘serpent.’ Both senses remain available; the story does not require choosing only one.",
+        "chronology_note": "The parallel lexical senses are attested in premodern kośas; they are not manufactured root-etymologies.",
+        "readings": [
+          {
+            "category": "lexical senses",
+            "meaning": "fierce beast, beast of prey; serpent",
+            "source_label": "Amarakośa 1.8.7 and 3.3.206",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "The predatory and serpentine field suits a fighter generated for immediate attack, while the later conditioning of that fighter reverses the apparent strength of the name."
+          }
+        ]
+      },
+      {
+        "key": "kata",
+        "lemma_iast": "kaṭa",
+        "lemma_devanagari": "कट",
+        "match_forms": [
+          "kaṭa"
+        ],
+        "opening": "Kaṭa is a proper name with several attested lexical senses, including mat and boundary. The transmitted material does not establish one exclusive derivation.",
+        "chronology_note": "The reader preserves the lexical plurality and withholds unsupported claims that Kaṭa was literally a tank or a named engineering function.",
+        "readings": [
+          {
+            "category": "lexical sense",
+            "meaning": "mat or woven covering",
+            "source_label": "Yādavakośa",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+            "source_locus": "line 1909"
+          },
+          {
+            "category": "lexical sense",
+            "meaning": "boundary, limit, or surrounding edge",
+            "source_label": "Halāyudhakośa",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+            "source_locus": "line 259"
+          },
+          {
+            "category": "lexical plurality",
+            "meaning": "Further homonymous senses are preserved in the kośas; the story does not authorize collapsing them into a single engineered function.",
+            "source_label": "Yādavakośa",
+            "source_path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+            "source_locus": "line 2557"
+          },
+          {
+            "category": "narrative activation",
+            "meaning": "Enclosure and boundary are relevant possibilities in a story about generated forms and the limits that arise with identification, but the text does not select a single one."
+          }
+        ]
+      }
+    ]
+  }
 };

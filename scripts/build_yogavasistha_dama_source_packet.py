@@ -35,6 +35,15 @@ SCAN_URL = (
     "https://archive.org/details/"
     "yrqk_laghu-yoga-vasistha-vasistha-chandrika-atma-sukha-by-valmiki-atmananda-pand"
 )
+MOKSHOPAYA_PROJECT_URL = (
+    "https://www.uni-marburg.de/de/fb10/iksl/faecher/indologie/"
+    "arbeitsstelle-akademie-mainz/moksopaya"
+)
+MOKSHOPAYA_BIBLIOGRAPHY_URL = "https://adwm.indologie.uni-halle.de/CompleteBibliography.htm"
+VENKATESANANDA_STHITI_URL = (
+    "https://www.venkatesaya.be/pdf/"
+    "21_Supreme_Yoga_Vasistha_Section_4_Sthiti_Prakaranam_Existence.pdf"
+)
 OUTPUT = ROOT / "data/sources/sanskrit/vedanta/laghuyogavasistha_dama_story.json"
 
 
@@ -204,6 +213,34 @@ def main() -> None:
                 "path": str(vulgate_path.relative_to(ROOT)),
             },
         ],
+        "witness_history": [
+            {
+                "id": "laghu",
+                "relation": "controlling abbreviated root text",
+                "description": "The approximately five-thousand-verse abbreviated Vāsiṣṭha, probably produced soon after the tenth-century Mokṣopāya; the explicit yantra-puruṣa line is omitted in its condensed story.",
+                "source_url": MOKSHOPAYA_PROJECT_URL,
+            },
+            {
+                "id": "mokshopaya-critical",
+                "relation": "earliest recoverable Kashmirian textual stratum",
+                "description": "Historical-critical reconstruction from the Kashmirian Mokṣopāya transmission; its Sthitiprakaraṇa preserves the longer construction account and yantra-puruṣāḥ at MU 4.9.38.",
+                "source_url": MOKSHOPAYA_BIBLIOGRAPHY_URL,
+            },
+            {
+                "id": "yogavasistha-vulgate",
+                "relation": "later widely received and printed expanded text",
+                "description": "The common printed Yoga-Vāsiṣṭha is a later redaction using both Mokṣopāya and Laghu material. Vulgate is a descriptive philological term for this received text, not a judgment of spiritual worth. It reads atyajña-puruṣāḥ at 4.27.38.",
+                "source_url": MOKSHOPAYA_PROJECT_URL,
+            },
+        ],
+        "venkatesananda_comparison": {
+            "title": "The Supreme Yoga",
+            "author": "Swami Venkatesananda",
+            "source_url": VENKATESANANDA_STHITI_URL,
+            "presentation_type": "faithful chapter summary with one selected verse freely translated per chapter",
+            "robot_phrase": "robot-like working projections of the demon Sambara",
+            "qualification": "The phrase is Venkatesananda's contextual reading of the complete artificial-production and automatic-action account, not a direct translation of an explicit yantra-puruṣa token in the later received Yoga-Vāsiṣṭha witness. The critical Mokṣopāya's yantra-puruṣa independently supports the interpretation.",
+        },
         "units": units,
         "textual_notes": [
             {

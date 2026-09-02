@@ -22,6 +22,10 @@ REVIEW_PATHS = tuple(
     builder.ROOT / f"internal/sanskrit_reviews/yogavasistha-dama/independent-review-{start}-{end}.json"
     for start, end in builder.EXPECTED_RANGES
 )
+SEMANTIC_REVIEW_PATH = (
+    builder.ROOT
+    / "internal/sanskrit_reviews/yogavasistha-dama/independent-review-semantic-fields.json"
+)
 
 
 def validate_independent_reviews(producers: tuple[Path, ...]) -> None:
@@ -48,6 +52,24 @@ def validate_independent_reviews(producers: tuple[Path, ...]) -> None:
             passed = passed and release.get("pass") is True
         if not passed or review.get("errors", []):
             raise builder.BuildError(f"independent review is not zero-error for {producer.name}")
+
+    semantic_review = json.loads(SEMANTIC_REVIEW_PATH.read_text(encoding="utf-8"))
+    semantic_hash = hashlib.sha256(builder.SEMANTIC_FIELDS_PATH.read_bytes()).hexdigest()
+    if semantic_review.get("producer_sha256") != semantic_hash:
+        raise builder.BuildError("stale independent review for semantic-fields.json")
+    population = semantic_review.get("closed_population") or semantic_review.get("population", {})
+    expected_fields = population.get("expected_fields", population.get("expected_entries"))
+    reviewed_fields = population.get("reviewed_fields", population.get("reviewed_entries"))
+    if expected_fields != len(builder.EXPECTED_SEMANTIC_KEYS):
+        raise builder.BuildError("semantic-field review has the wrong expected population")
+    if reviewed_fields != len(builder.EXPECTED_SEMANTIC_KEYS):
+        raise builder.BuildError("semantic-field review is incomplete")
+    semantic_passed = (
+        semantic_review.get("result", {}).get("pass") is True
+        or semantic_review.get("release_gate", {}).get("pass") is True
+    )
+    if not semantic_passed or semantic_review.get("errors", []):
+        raise builder.BuildError("independent semantic-field review is not zero-error")
 
 
 def parse_assignment(path: Path, expected_global: str) -> Any:
@@ -80,13 +102,20 @@ def validate_artifacts(output_dir: Path, expected: dict[str, Any]) -> None:
     verses = parse_assignment(output_dir / "verses.js", "YV_DAMA_VERSES")
     if verses != expected["units"]:
         raise builder.BuildError("verses.js does not exactly replay the normalized unit population")
-    builder.validate_public_payload({**expected, "units": verses})
+    require_semantic_coverage = expected.get("source", {}).get("packet") == str(
+        builder.SOURCE_PATH.relative_to(builder.ROOT)
+    )
+    builder.validate_public_payload(
+        {**expected, "units": verses},
+        require_semantic_coverage=require_semantic_coverage,
+    )
 
     apparatus = parse_assignment(output_dir / "apparatus.js", "YV_DAMA_APPARATUS")
     expected_apparatus = {
         "schema_version": "yogavasistha-dama-apparatus-v1",
         "textual_notes": expected["textual_notes"],
         "apparatus": expected["apparatus"],
+        "semantic_fields": expected["semantic_fields"],
     }
     if apparatus != expected_apparatus:
         raise builder.BuildError("apparatus.js does not exactly replay the source-note populations")
@@ -121,6 +150,7 @@ def main() -> int:
         words = sum(len(unit["words"]) for unit in expected["units"])
         print(
             f"PASS: {len(expected['units'])} exact source units; {words} reviewed words; "
+            f"{len(expected['semantic_fields']['fields'])} reviewed semantic fields; "
             "2.33 textual note preserved; apparatus attached after 46 and 64; "
             "embedded and registry evidence resolved"
         )

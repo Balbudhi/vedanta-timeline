@@ -3,6 +3,8 @@
   "use strict";
 
   const byLocus = new Map();
+  const semanticFields = new Map();
+  let semanticBundle = null;
 
   function rootLabel(root) {
     if (!root || typeof root !== "object") return root || null;
@@ -18,12 +20,19 @@
         word.rootGloss = word.root.gloss || word.rootGloss || "";
         word.root = rootLabel(word.root);
       }
+      word.semanticFields = (word.semanticFieldKeys || [])
+        .map((key) => semanticFields.get(key))
+        .filter(Boolean)
+        .map((field) => structuredClone(field));
       return word;
     });
   }
 
-  function prepare(verses) {
+  function prepare(verses, bundle) {
     byLocus.clear();
+    semanticFields.clear();
+    semanticBundle = bundle ? structuredClone(bundle) : null;
+    for (const field of semanticBundle?.fields || []) semanticFields.set(field.key, field);
     return (verses || []).map((source) => {
       const verse = structuredClone(source);
       verse.words = prepareWords(source.words);
@@ -41,6 +50,45 @@
     if (className) node.className = className;
     if (text != null) node.textContent = text;
     return node;
+  }
+
+  function sourceLink(label, url) {
+    if (!label) return null;
+    if (!url) return el("span", "yv-source-link", label);
+    const link = el("a", "yv-source-link", label);
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    return link;
+  }
+
+  function renderMethodology() {
+    if (!semanticBundle?.methodology) return null;
+    const details = el("details", "yv-methodology");
+    details.append(el("summary", "yv-methodology-summary", "Reading method and textual witnesses"));
+    const body = el("div", "yv-methodology-body");
+    body.append(el("p", "yv-methodology-intro", semanticBundle.methodology.summary));
+    body.append(el("div", "yv-methodology-heading", "Interpretive method"));
+    for (const principle of semanticBundle.methodology.principles || []) {
+      const block = el("section", "yv-methodology-block");
+      block.append(el("h4", "yv-methodology-title", principle.title));
+      block.append(el("p", "yv-methodology-text", principle.text));
+      const link = sourceLink(principle.source_label, principle.source_url);
+      if (link) block.append(link);
+      body.append(block);
+    }
+    body.append(el("div", "yv-methodology-heading", "Which texts are being compared"));
+    for (const witness of semanticBundle.witness_history || []) {
+      const block = el("section", "yv-witness-history");
+      block.append(el("h4", "yv-methodology-title", witness.label));
+      block.append(el("div", "yv-witness-relation", witness.relation));
+      block.append(el("p", "yv-methodology-text", witness.description));
+      const link = sourceLink(witness.source_label, witness.source_url);
+      if (link) block.append(link);
+      body.append(block);
+    }
+    details.append(body);
+    return details;
   }
 
   function renderSourceScript(container, segments) {
@@ -85,7 +133,12 @@
     section.setAttribute("aria-label", "Textual apparatus");
     for (const entry of entries) {
       const details = el("details", "yv-apparatus-block");
-      const summary = el("summary", "yv-apparatus-summary", `${entry.witness} · ${entry.locus}`);
+      const witness = entry.id === "robot-reading-critical"
+        ? "Earlier Kashmirian Mokṣopāya reading"
+        : entry.id === "robot-reading-vulgate"
+          ? "Later received Yoga-Vāsiṣṭha reading"
+          : entry.witness;
+      const summary = el("summary", "yv-apparatus-summary", `${witness} · ${entry.locus}`);
       details.append(summary);
       if (entry.devanagari && entry.words?.length && entry.english && window.GitaReader) {
         const holder = el("div", "yv-apparatus-reading");
@@ -99,6 +152,13 @@
       } else if (entry.status_reason) {
         details.append(el("div", "yv-apparatus-provenance", entry.status_reason));
       }
+      const witnessId = entry.id === "robot-reading-critical"
+        ? "mokshopaya-critical"
+        : entry.id === "robot-reading-vulgate"
+          ? "yogavasistha-vulgate"
+          : null;
+      const history = semanticBundle?.witness_history?.find((item) => item.id === witnessId);
+      if (history) details.append(el("div", "yv-apparatus-provenance", history.description));
       if (entry.sense) details.append(el("div", "yv-apparatus-sense", entry.sense));
       section.append(details);
     }
@@ -129,6 +189,25 @@
     return block;
   }
 
+  function renderSemanticField(field) {
+    const block = el("section", "yv-semantic-field");
+    block.append(el("div", "yv-semantic-heading", `${field.lemma_iast} · inherited semantic field`));
+    block.append(el("div", "yv-semantic-opening", field.opening));
+    if (field.chronology_note) block.append(el("div", "yv-semantic-chronology", field.chronology_note));
+    for (const reading of field.readings || []) {
+      const item = el("div", "yv-semantic-reading");
+      item.append(el("div", "yv-derivation-label", reading.category));
+      if (reading.formation) item.append(el("div", "yv-derivation-main", reading.formation));
+      item.append(evidenceLine("Meaning", reading.meaning));
+      if (reading.source_label) {
+        item.append(evidenceLine("Source", [reading.source_label, reading.source_locus].filter(Boolean).join(" · ")));
+      }
+      if (reading.qualification) item.append(evidenceLine("Qualification", reading.qualification));
+      block.append(item);
+    }
+    return block;
+  }
+
   function appendWordEvidence(card, word) {
     if (!card || !word || card.querySelector(`.yv-word-evidence[data-yv-word="${word.i}"]`)) return;
     const section = el("section", "yv-word-evidence");
@@ -144,6 +223,10 @@
     if (derivations.length) {
       section.append(el("div", "yv-layer-label", "Parallel supported analyses"));
       derivations.forEach((derivation) => section.append(renderDerivation(derivation)));
+    }
+    if (word.semanticFields?.length) {
+      section.append(el("div", "yv-layer-label", "Intentional semantic field"));
+      word.semanticFields.forEach((field) => section.append(renderSemanticField(field)));
     }
     if (section.childElementCount) card.append(section);
   }
@@ -180,13 +263,16 @@
     if (document.querySelector('link[data-yv-dama-style]')) return;
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "gita/yogavasistha-dama/reader.css?v=20260901-yv-dama-v1";
+    link.href = "gita/yogavasistha-dama/reader.css?v=20260901-yv-dama-v2";
     link.dataset.yvDamaStyle = "1";
     document.head.append(link);
   }
 
   function afterRender(root, verses) {
     ensureStylesheet();
+    const methodology = renderMethodology();
+    const firstVerse = root.querySelector(".verse");
+    if (methodology && firstVerse) firstVerse.insertAdjacentElement("beforebegin", methodology);
     for (const verse of verses || []) {
       const article = [...root.querySelectorAll(".verse")].find((node) => node.querySelector(".verse-locus")?.textContent?.trim() === verse.locus);
       if (!article) continue;

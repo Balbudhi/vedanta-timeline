@@ -240,6 +240,50 @@ must be withheld or marked unresolved; it may not displace an established
 analysis. Closed readers must validate the complete candidate population and
 the complete public parallel-derivation population.
 
+### 6.3 Intentional literature and the Aurobindonian depth-reading
+
+This project does not treat Sanskrit philosophical words as inert labels whose
+"ordinary" referent exhausts their force. Its governing hermeneutic is
+Aurobindonian: preserve the outer, grammatical, narrative sense and read the
+same verified language for its inward psychological and philosophical work.
+Sri Aurobindo develops this method for the Veda as an intentional system of
+double values. We extend the method—without pretending that he commented on
+every later text—to Sanskrit philosophical literature whose compounds,
+nirvacanas, names, and narrative structures demonstrably activate inherited
+semantic fields.
+
+The default presumption is therefore **intentional semantic activation**:
+
+- if a grammatical formation, lexical sense, or transmitted nirvacana predates
+  the work, it belonged to the inherited language available to the author;
+- if the surrounding argument, image, name, or plot activates that meaning, the
+  reader presents it as an intentional literary and philosophical layer unless
+  contrary evidence exists;
+- lack of proof that the author consulted one named grammatical book is not
+  treated as proof that the inherited meaning was unavailable or irrelevant;
+- a reading first attested later is preserved as reception history, not silently
+  backdated into authorial intention; and
+- the surface referent remains true. An inward or symbolic register does not
+  erase the person, battle, ritual, deity, object, or event through which the
+  text speaks.
+
+This is not an "Aurobindo versus academia" choice. Critical philology establishes
+the exact wording, witness families, chronology, and direction of transmission.
+The depth-reading begins from those results and asks what the verified language
+is doing as intentional literature. A public card must accordingly separate:
+
+1. regular grammatical formation;
+2. attested lexical senses;
+3. pre-existing traditional nirvacanas;
+4. activation by the present narrative or argument;
+5. later reception and commentary; and
+6. the site's explicitly labelled synthesis.
+
+Do not suppress a supported meaning merely because another meaning is more
+common in running prose. Do not collapse these categories into a fabricated
+single etymology either. Chronology and evidence qualify a meaning; they do not
+make the rest of the semantic field disappear.
+
 ## 7. Faithful rendering — rules against distortion
 
 The English must be **literal and complete**: it renders exactly what the Sanskrit

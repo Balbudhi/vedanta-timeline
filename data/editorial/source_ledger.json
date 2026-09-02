@@ -414,9 +414,11 @@
         "sanskrit-reader",
         "paninian-grammar",
         "textual-variants",
-        "artificial-agency"
+        "artificial-agency",
+        "intentional-polysemy",
+        "aurobindonian-depth-reading"
       ],
-      "notes": "Gauḍa Abhinanda, associated with the Laghu-Yoga-Vāsiṣṭha, is not the South-Indian Krama author represented by the existing abhinanda thinker ID. The controlling public sequence preserves the printed mīmabhāsa- reading at 2.33 rather than silently emending it. The attached apparatus records critical yantrapuruṣāḥ at MU 4.9.38 against vulgate atyajñapuruṣāḥ at YV 4.27.38 and the longer construction cluster at MU 4.7.34–39. Swami Venkatesananda's 1993 English is a comparison translation and story locator only; it does not control the Sanskrit or site English."
+      "notes": "Gauḍa Abhinanda, associated with the Laghu-Yoga-Vāsiṣṭha, is not the South-Indian Krama author represented by the existing abhinanda thinker ID. The controlling public sequence preserves the printed mīmabhāsa- reading at 2.33 rather than silently emending it. The attached apparatus records critical yantrapuruṣāḥ at MU 4.9.38 against the later received Yoga-Vāsiṣṭha's atyajñapuruṣāḥ at 4.27.38 and the longer construction cluster at MU 4.7.34–39. ‘Vulgate’ means the commonly received and printed expanded text, not a judgment of spiritual worth. Swami Venkatesananda's Supreme Yoga is a faithful chapter-summary that freely translates one selected verse per chapter: its ‘robot-like working projections’ is an interpretive compression of the whole artificial-production and automatic-action account, not a direct translation of an explicit yantrapuruṣa token in that later witness. The critical Mokṣopāya independently supports the interpretation."
     },
     {
       "id": "chinmayananda-thousand-ways-authorized-reader",

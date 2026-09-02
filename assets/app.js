@@ -5573,11 +5573,13 @@ const GITA_READINGS = {
     files: ["verses.js", "apparatus.js", "enhancer.js"],
     title: "The Story of Dāma, Vyāla, and Kaṭa",
     blurb: "<em>Laghu-Yoga-Vāsiṣṭha</em>, Sthiti-prakaraṇa 2.31–86 — the root text, word by word.",
-    data: () => ({
-      verses: window.YVDamaEnhancer.prepare(window.YV_DAMA_VERSES), commentary: null,
-      aurobindo: null, parallels: null, audio: null,
-      apparatus: window.YV_DAMA_APPARATUS,
-    }),
+    data: () => {
+      const apparatus = window.YV_DAMA_APPARATUS;
+      return {
+        verses: window.YVDamaEnhancer.prepare(window.YV_DAMA_VERSES, apparatus.semantic_fields),
+        commentary: null, aurobindo: null, parallels: null, audio: null, apparatus,
+      };
+    },
     afterRender: (root, data) => window.YVDamaEnhancer.afterRender(root, data.verses),
   },
 };

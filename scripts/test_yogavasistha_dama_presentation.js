@@ -11,6 +11,15 @@ const enhancer = fs.readFileSync(path.join(root, "gita/yogavasistha-dama/enhance
 if (review.units.length !== 56) throw new Error(`expected 56 units, found ${review.units.length}`);
 
 let wordCount = 0;
+const expectedSemanticKeys = ["purusha", "shambara", "daitya", "danava", "amara", "deva", "sura", "tridasha", "asura", "dama", "vyala", "kata"];
+const semanticKeys = new Set(review.semantic_fields.fields.map(field => field.key));
+const observedSemanticKeys = new Set();
+if (JSON.stringify([...semanticKeys]) !== JSON.stringify(expectedSemanticKeys)) {
+  throw new Error("semantic-field registry does not match the frozen population");
+}
+if (review.semantic_fields.methodology.principles.length < 4 || review.semantic_fields.witness_history.length !== 4) {
+  throw new Error("reader methodology or witness history is incomplete");
+}
 const slotPattern = /\{([0-9]+(?:\s*,\s*[0-9]+)*):[^{}]+\}/g;
 for (const unit of review.units) {
   const expected = unit.words.map((_, index) => index);
@@ -28,6 +37,7 @@ for (const unit of review.units) {
   if (JSON.stringify(englishIndices) !== JSON.stringify(expected)) {
     throw new Error(`${unit.id}: English links do not cover every word exactly once`);
   }
+  unit.words.forEach(word => (word.semanticFieldKeys || []).forEach(key => observedSemanticKeys.add(key)));
   for (const entry of unit.apparatus || []) {
     if (!entry.sourceSegments) continue;
     const entryExpected = entry.words.map((_, index) => index);
@@ -35,12 +45,19 @@ for (const unit of review.units) {
     if (JSON.stringify(entryObserved) !== JSON.stringify(entryExpected)) {
       throw new Error(`${entry.id}: source-script links do not cover every apparatus word once`);
     }
+    entry.words.forEach(word => (word.semanticFieldKeys || []).forEach(key => observedSemanticKeys.add(key)));
   }
   wordCount += unit.words.length;
 }
 
 if (!enhancer.includes("renderSourceScript")) {
   throw new Error("enhancer does not connect exact source-script segments to reviewed word indices");
+}
+if (!enhancer.includes("renderSemanticField") || !enhancer.includes("renderMethodology")) {
+  throw new Error("reader does not render the reviewed semantic fields and method note");
+}
+if (JSON.stringify([...observedSemanticKeys].sort()) !== JSON.stringify([...semanticKeys].sort())) {
+  throw new Error("not every semantic field is attached to a public word card");
 }
 if (enhancer.includes("renderTranslation") || enhancer.includes("yv-final-translation")) {
   throw new Error("reader renders a duplicate unlinked translation block");

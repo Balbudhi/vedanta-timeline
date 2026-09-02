@@ -2625,8 +2625,8 @@
           "source_iast": "yadi te yantrapuruṣāś śambareṇa vinirmitāḥ /\nvāsanāṃ nāśrayiṣyanti yāsyanti tad ajayyatām // MU_4,9.38",
           "devanagari": "यदि ते यन्त्रपुरुषाश् शम्बरेण विनिर्मिताः ।\nवासनां नाश्रयिष्यन्ति यास्यन्ति तद् अजय्यताम् ॥",
           "iast": "yadi te yantra-puruṣāḥ śambareṇa vinirmitāḥ |\nvāsanāṃ na āśrayiṣyanti yāsyanti tad a-jayyatām ||",
-          "english": "{0:If} {1:those} {2:machine-persons}, {4:fashioned} {3:by Śambara}, {6:do not} {7:resort to} {5:vāsanā}, {9:then} {8:they will go to} {10:unconquerability}.",
-          "sense": "If those mechanical persons fashioned by Śambara do not resort to vāsanā, then they will attain unconquerability.",
+          "english": "{0:If} {1:those} {2:machine-puruṣas}, {4:fashioned} {3:by Śambara}, {6:do not} {7:resort to} {5:vāsanā}, {9:then} {8:they will go to} {10:unconquerability}.",
+          "sense": "If those mechanical puruṣas fashioned by Śambara do not resort to vāsanā, then they will attain unconquerability.",
           "grammar": {
             "karakaSummary": "te yantra-puruṣāḥ/vinirmitāḥ is kartṛ; śambareṇa is the kartṛ (agent) expressed by instrumental tṛtīyā with the passive participle; vāsanām is karman of ā-śri; ajayyatām is the goal-state object of yāsyanti.",
             "verbalModality": "yadi introduces the condition; both finite predicates are future third plural, with na negating āśrayiṣyanti.",
@@ -2683,7 +2683,7 @@
               "i": 2,
               "deva": "यन्त्रपुरुषाः",
               "iast": "yantra-puruṣāḥ",
-              "gloss": "machine-persons; mechanical persons",
+              "gloss": "machine-puruṣas; mechanical embodied/interior beings",
               "parts": [
                 {
                   "form": "√yam",
@@ -2695,7 +2695,7 @@
                 },
                 {
                   "form": "puruṣa",
-                  "gloss": "person"
+                  "gloss": "puruṣa; person, indweller, or interior-filling being in the inherited nirvacana field"
                 },
                 {
                   "form": "jas",
@@ -2751,7 +2751,7 @@
                   "evidence": "Nirukta 2.3"
                 }
               ],
-              "note": "Yantra is a device or mechanism; puruṣa is a person. The compound therefore says ‘machine-persons.’ In this account of artificial fighters acting automatically, ‘robots’ is a defensible contextual, non-etymological equivalent."
+              "note": "Yantra is a device or mechanism. Puruṣa is the compound head, but English ‘person’ does not exhaust its inherited senses: the much earlier Nirukta preserves the indweller and interior-filling readings shown below. In this account of fabricated agents acting automatically, ‘robots’ is a defensible contextual equivalent of the whole expression, not a replacement for puruṣa or its semantic field."
             },
             {
               "i": 3,
@@ -3018,8 +3018,8 @@
           "devanagari": "यदा तेऽत्यज्ञपुरुषाः शम्बरेण विनिर्मिताः |\nवासनामाश्रयिष्यन्ति तदा यास्यन्ति जेयताम् ||",
           "iast": "yadā te ati-ajña-puruṣāḥ śambareṇa vinirmitāḥ |\nvāsanām āśrayiṣyanti tadā yāsyanti jeyatām ||",
           "iast_status": "reviewed transliteration of the source-packet Devanāgarī witness",
-          "english": "{0:When} {1:those} {2:utterly unknowing persons}, {4:constructed} {3:by Śambara}, {6:will resort to} {5:vāsanā}, {7:then} {8:they will go to} {9:conquerability}.",
-          "sense": "When those utterly unknowing persons constructed by Śambara resort to vāsanā, then they will become conquerable.",
+          "english": "{0:When} {1:those} {2:utterly unknowing puruṣas}, {4:constructed} {3:by Śambara}, {6:will resort to} {5:vāsanā}, {7:then} {8:they will go to} {9:conquerability}.",
+          "sense": "When those utterly unknowing puruṣas constructed by Śambara resort to vāsanā, then they will become conquerable.",
           "grammar": {
             "karakaSummary": "te ati-ajña-puruṣāḥ/vinirmitāḥ is kartṛ; śambareṇa is the kartṛ (agent) expressed by instrumental tṛtīyā with the passive participle; vāsanām is karman of ā-śri; jeyatām is the goal-state of yāsyanti.",
             "verbalModality": "yadā/tadā forms the when/then correlation; both predicates are future third plural.",
@@ -3076,7 +3076,7 @@
               "i": 2,
               "deva": "अत्यज्ञपुरुषाः",
               "iast": "ati-a-jña-puruṣāḥ",
-              "gloss": "utterly unknowing persons",
+              "gloss": "utterly unknowing puruṣas",
               "parts": [
                 {
                   "form": "ati-",
@@ -3096,7 +3096,7 @@
                 },
                 {
                   "form": "puruṣa",
-                  "gloss": "person"
+                  "gloss": "puruṣa; person, indweller, or interior-filling being in the inherited nirvacana field"
                 },
                 {
                   "form": "jas",

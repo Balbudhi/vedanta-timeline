@@ -1,8 +1,8 @@
 {
   "schema_version": "independent-sanskrit-review-v1",
   "reviewer_role": "independent linguistic reviewer",
-  "review_round": 6,
-  "review_method": "Final frozen-hash re-review of all fourteen units and 132 word records after the 2.31 prohibitive translation correction. mā + loṭ bhavatu and loṭ astu were checked directly, then the complete source-script, source-order pada, unique slot, deterministic sense, glossary, root-evidence, morphology, literalness, and public-note gates were repeated for every unit rather than inferred from the one-line change. The controlling Muktābodha Devanāgarī/IAST pair, the Nirṇaya Sāgar printed pages, the source-packet apparatus, and direct Prakriya primary/raw grammar witnesses remained the authority. Producer conclusions were not used as evidence. The Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority.",
+  "review_round": 7,
+  "review_method": "Frozen-hash re-review of all fourteen units and 132 word records after the Śambara note revision. The note and linked semantic field were checked directly against Nighaṇṭu, Nirukta, Yādavakośa, and the story's controlling verses to ensure that earlier lexical/nirvacana evidence, Asura-name attestation, and narrative activation remain separately labelled and no exclusive derivation is manufactured. The complete source-script, source-order pada, unique slot, deterministic sense, glossary, root-evidence, morphology, literalness, apparatus, and public-note gates were then repeated for every unit. The Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority.",
   "closed_population": {
     "expected_unit_ids": ["lyv-4-2-31","lyv-4-2-32","lyv-4-2-33","lyv-4-2-34","lyv-4-2-35","lyv-4-2-36","lyv-4-2-37","lyv-4-2-38","lyv-4-2-39","lyv-4-2-40","lyv-4-2-41","lyv-4-2-42","lyv-4-2-43","lyv-4-2-44"],
     "observed_unit_ids": ["lyv-4-2-31","lyv-4-2-32","lyv-4-2-33","lyv-4-2-34","lyv-4-2-35","lyv-4-2-36","lyv-4-2-37","lyv-4-2-38","lyv-4-2-39","lyv-4-2-40","lyv-4-2-41","lyv-4-2-42","lyv-4-2-43","lyv-4-2-44"],
@@ -13,7 +13,7 @@
     "complete": true
   },
   "input_hashes": {
-    "producer_31_44": "f32b5db243cdbc998c493b7a24cff0fd86562155445fefa1e3b6ae8eb90ef439",
+    "producer_31_44": "195a2ce197e445fb3d390668a7dc757a71d943bf27d41291ec72cbd3af385b59",
     "source_packet": "6a69423de047db2bdf5260a0adecd697d6bcbcccc54832687d195d9da1812eca",
     "nirnaya_sagara_pdf": "7915b5b806c7de56aeaa69d91d96a29a7b503826b113ea65e51c7d3db2e7a7d0",
     "prakriya_dhatupatha_primary": "9a18f2b18be5a17d58f1d747551b3d3cdf708b138d219d9f67fbd57bae46a897",
@@ -25,7 +25,11 @@
     "prakriya_nyasa_primary": "2f34f3ad1c049bd0e149b7a44485626f45cb4b942d7f901a7e1f1006ce3d7576",
     "prakriya_unadi_primary": "9d929f690d0f7654aa9a65d9f8b4afdc43c1fbe94a400acfbb3b88f4a705b089",
     "prakriya_unadi_raw": "00a2f267a103bf34f92fb627fe90f9bdceb3962e261f3cb78afda2a22b790020",
-    "prakriya_ganapatha_primary": "120caf3f4966bdd3fe52a668829e9a4794e36e8fb6924c4d8a10b59db085fa36"
+    "prakriya_ganapatha_primary": "120caf3f4966bdd3fe52a668829e9a4794e36e8fb6924c4d8a10b59db085fa36",
+    "semantic_fields": "5927e0f33e2fe57f7b4bbe1bde01960a5c6c83623323017b0f6b5020bce26ead",
+    "prakriya_nighantu_primary": "458a4c855244f5f4a28c7798c84c52ab36008e73b8545252ba16613f72a24af6",
+    "prakriya_nirukta_primary": "35c8159d8c2a16ae770fe31d51523e86a4bfcab514a880bbda2f170f613fc458",
+    "prakriya_yaadavakosha_primary": "673a93ef8676076f8e7829f775f8d8036082fc53e1ceab9ec13371a386e967ca"
   },
   "global_checks": {
     "source_devanagari_replay": "pass: all fourteen producer unit strings exactly equal the controlling source packet and inspected print",
@@ -35,6 +39,7 @@
     "english_slots": "pass: every word index occurs exactly once in each unit's slotted English, with no missing, duplicate, or extra slot",
     "single_english_translation": "pass: for all fourteen units, sense is byte-for-byte identical to deterministic removal of the slot wrappers from english",
     "translation_literalness": "pass: all three live defects are corrected—mā ... bhavatu retains prohibitive may-not force, sāmanta is translated as subordinate chief, and present passive kriyante remains are appointed; the complete reread found no unsourced addition or further distortion",
+    "shambara_semantic_field": "pass: the proper name remains untranslated and without a false exclusive derivation; Nighaṇṭu strength, Nirukta's Vedic cloud reading, Yādavakośa Daitya-name attestation, and story-specific narrative activation are separately labelled and none suppresses the others",
     "root_evidence": "pass: every non-null rootEvidence record, including newly added √bhī 03.0002, √pā 02.0051, and √dviṣ 02.0003, reproduces the paired raw Dhātupāṭha locus, aupadeśika form, Sanskrit meaning, gaṇa, and pada",
     "textual_apparatus": "pass: lyv-4-2-33 preserves printed mīma- and reports parallel bhīma- without silent emendation",
     "prior_findings_replay": "pass: all 39 round-1 findings, all three round-2 findings, and the single round-3 finding are corrected",
@@ -57,7 +62,10 @@
     "round_5_new_errors": 0,
     "round_6_prohibitive_finding_expected": 1,
     "round_6_prohibitive_finding_resolved": 1,
-    "round_6_new_errors": 0
+    "round_6_new_errors": 0,
+    "round_7_shambara_note_expected": 1,
+    "round_7_shambara_note_resolved": 1,
+    "round_7_new_errors": 0
   },
   "unit_reports": [
     {
@@ -101,7 +109,12 @@
     "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt and paired raw Kāśikā — antardhi under 3.3.92; karmopapada/aṇ under 3.2.1; sainyam under the 5.1.124 upasaṅkhyāna; causal-case discussion under 2.3.23",
     "/Users/eeshan/Dev/prakriya/sources/primary/panini/nyasa/nyasa_wikisource.txt — lines 11694-11696 explicitly derive gopāla from √pā रक्षणे plus aṇ",
     "/Users/eeshan/Dev/prakriya/sources/primary/panini/unadi/unadi_pancapadi_upstream.txt line 362 and paired raw Uṇādi record 3082 — आनकः शीङ्भियः; भयानकः",
-    "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt line 79 — pacādi includes mar"
+    "/Users/eeshan/Dev/prakriya/sources/primary/panini/ganapatha/ganapatha_upstream.txt line 79 — pacādi includes mar",
+    "internal/sanskrit_reviews/yogavasistha-dama/semantic-fields.json — Śambara field: chronology note and four separately labelled readings",
+    "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nighantu/nighantu_wikisource.txt line 626 — शम्बरम् among the traditional names of bala, strength",
+    "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt lines 1647-1648, Nirukta 7.23 — शम्बरं मेघम् in its Vedic interpretive context",
+    "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt line 2907 — दैत्ये ना शम्बरः, Śambara as a masculine Daitya name",
+    "Laghu-Yoga-Vāsiṣṭha 2.34 and 2.44 — story-character Śambara as a great reservoir of māyā who creates three Asuras through māyā"
   ],
   "live_translation_rereview": {
     "review_iteration": "full-population-live-translation-rereview-2026-09-01",
@@ -110,7 +123,7 @@
     "source_and_slot_replay": "pass",
     "semantic_result": "pass after correction",
     "resolved_findings": [
-      {"unit_id": "lyv-4-2-31", "finding": "The live rewrite weakened mā + loṭ from a prohibition to an ambiguous possibility reading.", "resolution": "Restored ‘must not become’ and the imperative blessing ‘let there be’."}
+      {"unit_id": "lyv-4-2-31", "finding": "The live rewrite had strengthened mā + loṭ beyond its prohibitive imperative force.", "resolution": "Restored ‘may not become’ and retained the imperative blessing ‘may there be’."}
     ],
     "new_concrete_errors": 0
   },
@@ -130,8 +143,10 @@
     "round_5_translation_errors_remaining": 0,
     "round_6_prohibitive_errors_resolved": 1,
     "round_6_prohibitive_errors_remaining": 0,
+    "round_7_shambara_note_errors_resolved": 1,
+    "round_7_shambara_note_errors_remaining": 0,
     "new_errors": 0,
     "concrete_errors": 0,
-    "completion_gate": "met for this closed population at producer SHA f32b5db243cdbc998c493b7a24cff0fd86562155445fefa1e3b6ae8eb90ef439: 2.31 preserves mā + loṭ as 'may not become' and astu as 'let there be'; all fourteen units and all 132 words pass exact source-script/IAST/source-order pada replay, single-use slot coverage, byte-identical slot-stripped sense, natural literal English without unsourced additions, morphology, affix, root-evidence, kāraka, compound, term-policy, glossary, apparatus, and public-note review with zero concrete errors."
+    "completion_gate": "met for this closed population at producer SHA 195a2ce197e445fb3d390668a7dc757a71d943bf27d41291ec72cbd3af385b59: the Śambara note and semantic field preserve earlier strength/cloud readings, Daitya-name attestation, and story-specific narrative activation without asserting a single exclusive derivation; all fourteen units and all 132 words pass exact source-script/IAST/source-order pada replay, single-use slot coverage, byte-identical slot-stripped sense, natural literal English without unsourced additions, morphology, affix, root-evidence, kāraka, compound, term-policy, glossary, apparatus, and public-note review with zero concrete errors."
   }
 }

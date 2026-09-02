@@ -22,6 +22,9 @@ from typing import Any, Iterable, Mapping, Sequence
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_PATH = ROOT / "data/sources/sanskrit/vedanta/laghuyogavasistha_dama_story.json"
+SEMANTIC_FIELDS_PATH = (
+    ROOT / "internal/sanskrit_reviews/yogavasistha-dama/semantic-fields.json"
+)
 PRODUCER_PATHS = tuple(
     ROOT / f"internal/sanskrit_reviews/yogavasistha-dama/producer-{start}-{end}.json"
     for start, end in ((31, 44), (45, 58), (59, 72), (73, 86))
@@ -32,6 +35,20 @@ FIRST_VERSE = 31
 LAST_VERSE = 86
 EXPECTED_IDS = tuple(f"lyv-4-2-{verse}" for verse in range(FIRST_VERSE, LAST_VERSE + 1))
 EXPECTED_RANGES = ((31, 44), (45, 58), (59, 72), (73, 86))
+EXPECTED_SEMANTIC_KEYS = (
+    "purusha",
+    "shambara",
+    "daitya",
+    "danava",
+    "amara",
+    "deva",
+    "sura",
+    "tridasha",
+    "asura",
+    "dama",
+    "vyala",
+    "kata",
+)
 SLOT_RE = re.compile(r"\{([0-9]+(?:\s*,\s*[0-9]+)*):([^{}]+)\}")
 SOURCE_TOKEN_RE = re.compile(r"[^\s|।॥]+")
 DEVANAGARI_CHUNK_RE = re.compile(r"[^\s|।॥]+|\s+|[|।॥]+")
@@ -382,6 +399,84 @@ def _apparatus_alignment_iast(entry: Mapping[str, Any]) -> str | None:
     return source_iast.replace("/", "|")
 
 
+def _validate_semantic_fields(path: Path = SEMANTIC_FIELDS_PATH) -> dict[str, Any]:
+    bundle = _load_json(path)
+    if bundle.get("schema_version") != "yogavasistha-dama-semantic-fields-v1":
+        _fail(f"{path} has an unsupported semantic-field schema")
+    methodology = bundle.get("methodology")
+    if not isinstance(methodology, dict):
+        _fail(f"{path}.methodology must be an object")
+    _require_keys(methodology, ("title", "summary", "principles"), f"{path}.methodology")
+    principles = methodology["principles"]
+    if not isinstance(principles, list) or len(principles) < 4:
+        _fail(f"{path}.methodology.principles must contain the complete method")
+    principle_ids = []
+    for index, principle in enumerate(principles):
+        if not isinstance(principle, dict):
+            _fail(f"{path}.methodology.principles[{index}] must be an object")
+        _require_keys(principle, ("id", "title", "text"), f"methodology principle {index}")
+        principle_ids.append(principle["id"])
+    if len(principle_ids) != len(set(principle_ids)):
+        _fail(f"{path}.methodology has duplicate principle IDs")
+
+    history = bundle.get("witness_history")
+    expected_history = ("laghu", "mokshopaya-critical", "yogavasistha-vulgate", "venkatesananda")
+    if not isinstance(history, list) or tuple(item.get("id") for item in history) != expected_history:
+        _fail(f"{path}.witness_history must contain {expected_history} in order")
+    for item in history:
+        _require_keys(item, ("id", "label", "relation", "description", "source_label"), f"witness {item.get('id')}")
+
+    fields = bundle.get("fields")
+    if not isinstance(fields, list) or tuple(field.get("key") for field in fields) != EXPECTED_SEMANTIC_KEYS:
+        _fail(f"{path}.fields must contain the frozen semantic-field population")
+    for field in fields:
+        label = f"semantic field {field.get('key')}"
+        _require_keys(
+            field,
+            ("key", "lemma_iast", "lemma_devanagari", "match_forms", "opening", "chronology_note", "readings"),
+            label,
+        )
+        if not isinstance(field["match_forms"], list) or not field["match_forms"]:
+            _fail(f"{label}.match_forms must be a non-empty list")
+        if not isinstance(field["readings"], list) or len(field["readings"]) < 2:
+            _fail(f"{label}.readings must preserve multiple layers")
+        for index, reading in enumerate(field["readings"]):
+            if not isinstance(reading, dict):
+                _fail(f"{label}.readings[{index}] must be an object")
+            _require_keys(reading, ("category", "meaning"), f"{label}.readings[{index}]")
+            if reading.get("source_path") and not Path(reading["source_path"]).is_file():
+                _fail(f"{label}.readings[{index}] source_path is missing")
+    return bundle
+
+
+def _semantic_candidates(word: Mapping[str, Any]) -> set[str]:
+    values = [word.get("iast"), word.get("stem")]
+    values.extend(part.get("form") for part in word.get("parts", []) if isinstance(part, dict))
+    compound = word.get("compound")
+    if isinstance(compound, dict):
+        values.extend(compound.get("members", []))
+    candidates: set[str] = set()
+    for value in values:
+        if not isinstance(value, str) or not value.strip():
+            continue
+        candidates.add(_latin_key(value))
+        for piece in re.split(r"[-+ /→]+", value):
+            if piece:
+                candidates.add(_latin_key(piece))
+    return candidates
+
+
+def _semantic_keys(
+    word: Mapping[str, Any], fields: Sequence[Mapping[str, Any]]
+) -> list[str]:
+    candidates = _semantic_candidates(word)
+    return [
+        field["key"]
+        for field in fields
+        if any(_latin_key(form) in candidates for form in field["match_forms"])
+    ]
+
+
 def _normalize_word(
     raw: Mapping[str, Any],
     expected_index: int,
@@ -588,6 +683,8 @@ def build_payload(
     source = _load_json(source_path)
     source_units = _validate_source(source)
     textual_notes, apparatus = _validate_attached_evidence(source)
+    semantic_fields = _validate_semantic_fields()
+    semantic_field_records = semantic_fields["fields"]
     packets = _load_producers(producer_paths)
 
     raw_units: list[tuple[dict[str, Any], dict[str, Any]]] = []
@@ -641,6 +738,8 @@ def build_payload(
             )
             for index, word in enumerate(words)
         ]
+        for word in normalized_words:
+            word["semanticFieldKeys"] = _semantic_keys(word, semantic_field_records)
         _validate_slots(raw["english"], [word["i"] for word in normalized_words], label)
 
         normalized_apparatus = []
@@ -663,6 +762,8 @@ def build_payload(
                     )
                     for index, word in enumerate(apparatus_words)
                 ]
+                for word in entry["words"]:
+                    word["semanticFieldKeys"] = _semantic_keys(word, semantic_field_records)
                 _validate_slots(
                     _nonempty_string(entry.get("english"), f"{label}.apparatus[{apparatus_index}].english"),
                     [word["i"] for word in entry["words"]],
@@ -706,13 +807,21 @@ def build_payload(
         },
         "textual_notes": textual_notes,
         "apparatus": apparatus,
+        "semantic_fields": semantic_fields,
         "units": public_units,
     }
-    validate_public_payload(payload)
+    require_semantic_coverage = (
+        source_path.resolve() == SOURCE_PATH.resolve()
+        and tuple(path.resolve() for path in producer_paths)
+        == tuple(path.resolve() for path in PRODUCER_PATHS)
+    )
+    validate_public_payload(payload, require_semantic_coverage=require_semantic_coverage)
     return payload
 
 
-def validate_public_payload(payload: Mapping[str, Any]) -> None:
+def validate_public_payload(
+    payload: Mapping[str, Any], *, require_semantic_coverage: bool = False
+) -> None:
     if payload.get("schema_version") != SCHEMA:
         _fail(f"public payload schema_version must be {SCHEMA!r}")
     units = payload.get("units")
@@ -722,6 +831,13 @@ def validate_public_payload(payload: Mapping[str, Any]) -> None:
     ordered_ids = [unit["id"] for unit in units]
     if ordered_ids != list(EXPECTED_IDS):
         _fail("public payload units are not in exact source order")
+    semantic_bundle = payload.get("semantic_fields")
+    if not isinstance(semantic_bundle, dict):
+        _fail("public payload lacks the reviewed semantic-field bundle")
+    semantic_keys = {field["key"] for field in semantic_bundle.get("fields", [])}
+    if semantic_keys != set(EXPECTED_SEMANTIC_KEYS):
+        _fail("public payload semantic-field population is incomplete")
+    observed_semantic_keys: set[str] = set()
     for unit in units:
         _nonempty_string(unit.get("translation"), f"{unit['id']}.translation")
         segments = unit.get("sourceSegments")
@@ -746,6 +862,11 @@ def validate_public_payload(payload: Mapping[str, Any]) -> None:
                 f"{unit['id']}.sourceSegments must cover each word once in source order: "
                 f"expected {expected_indices}, observed {observed_indices}"
             )
+        for word in unit.get("words", []):
+            keys = word.get("semanticFieldKeys")
+            if not isinstance(keys, list) or any(key not in semantic_keys for key in keys):
+                _fail(f"{unit['id']} has invalid semantic-field keys")
+            observed_semantic_keys.update(keys)
         for entry in unit.get("apparatus", []):
             public_ready = entry.get("status") == "producer-complete" or entry.get("public_ready") is True
             if not public_ready or not entry.get("words"):
@@ -762,6 +883,14 @@ def validate_public_payload(payload: Mapping[str, Any]) -> None:
             ]
             if apparatus_indices != list(range(len(entry["words"]))):
                 _fail(f"{unit['id']}.{entry.get('id')} source segments do not cover every word once")
+            for word in entry["words"]:
+                keys = word.get("semanticFieldKeys")
+                if not isinstance(keys, list) or any(key not in semantic_keys for key in keys):
+                    _fail(f"{unit['id']}.{entry.get('id')} has invalid semantic-field keys")
+                observed_semantic_keys.update(keys)
+    if require_semantic_coverage and observed_semantic_keys != semantic_keys:
+        missing = sorted(semantic_keys - observed_semantic_keys)
+        _fail(f"semantic fields are not attached to the closed word population: {missing}")
     notes = [note for unit in units for note in unit.get("textualNotes", [])]
     if notes != payload.get("textual_notes"):
         _fail("public textual-note attachment does not exactly replay the top-level note population")
@@ -798,6 +927,7 @@ def render_apparatus_js(payload: Mapping[str, Any]) -> str:
         "schema_version": "yogavasistha-dama-apparatus-v1",
         "textual_notes": payload["textual_notes"],
         "apparatus": payload["apparatus"],
+        "semantic_fields": payload["semantic_fields"],
     }
     body = json.dumps(apparatus, ensure_ascii=False, indent=2)
     return (

@@ -67,7 +67,12 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 1,
@@ -102,7 +107,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -141,7 +147,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -196,7 +203,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -239,7 +247,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -311,7 +320,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -350,7 +360,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -405,7 +416,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -465,7 +477,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 31,
@@ -624,7 +637,12 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 1,
@@ -696,7 +714,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -735,7 +754,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -774,7 +794,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -833,7 +854,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -872,7 +894,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -947,7 +970,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 32,
@@ -1093,7 +1117,12 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 1,
@@ -1182,7 +1211,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "Parallel reading only; it does not replace controlling mīma-.",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -1237,7 +1267,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -1280,7 +1311,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -1319,7 +1351,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -1374,7 +1407,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -1409,7 +1443,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -1464,7 +1499,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -1499,7 +1535,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -1554,7 +1591,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 33,
@@ -1733,7 +1771,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -1783,7 +1822,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -1861,7 +1901,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -1888,7 +1929,7 @@ window.YV_DAMA_VERSES = [
         "compound": null,
         "glossaryKey": null,
         "translatable": false,
-        "note": "Proper name retained; no source-backed nirvacana is asserted.",
+        "note": "The proper name is retained because no single exclusive derivation is secured for this character. Earlier strength and cloud readings, the Asura-name attestation, and their narrative activation are preserved separately below rather than suppressed.",
         "derivations": [],
         "evidence": {
           "text_witness": "Muktābodha M00351, Laghu-Yoga-Vāsiṣṭha with Vāsiṣṭhacandrikā, Paṇaśīkara ed.; root text checked against Nirṇaya Sāgar 1937 scan, printed pp. 302–304",
@@ -1900,7 +1941,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "shambara"
+        ]
       },
       {
         "i": 4,
@@ -1935,7 +1979,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -1985,7 +2030,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "daitya"
+        ]
       },
       {
         "i": 6,
@@ -2040,7 +2088,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 34,
@@ -2175,7 +2224,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -2225,7 +2275,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "deva"
+        ]
       },
       {
         "i": 2,
@@ -2304,7 +2357,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -2359,7 +2413,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -2398,7 +2453,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -2441,7 +2497,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -2484,7 +2541,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "asura"
+        ]
       },
       {
         "i": 7,
@@ -2554,7 +2614,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       }
     ],
     "verse": 35,
@@ -2690,7 +2753,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "root": null,
@@ -2740,7 +2804,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -2799,7 +2864,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -2869,7 +2935,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -2904,7 +2971,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -2954,7 +3022,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -2993,7 +3062,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -3048,7 +3118,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -3087,7 +3158,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -3146,7 +3218,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -3181,7 +3254,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -3251,7 +3325,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "amara"
+        ]
       }
     ],
     "verse": 36,
@@ -3414,7 +3491,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -3464,7 +3542,11 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "shambara",
+          "daitya"
+        ]
       },
       {
         "i": 2,
@@ -3519,7 +3601,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -3589,7 +3672,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -3639,7 +3723,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -3689,7 +3774,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -3756,7 +3842,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 37,
@@ -3900,7 +3987,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "root": null,
@@ -3935,7 +4023,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -3974,7 +4063,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -4033,7 +4123,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -4088,7 +4179,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -4127,7 +4219,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "deva"
+        ]
       },
       {
         "i": 6,
@@ -4186,7 +4281,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -4221,7 +4317,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -4280,7 +4377,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "root": null,
@@ -4315,7 +4413,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -4374,7 +4473,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -4413,7 +4513,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "shambara"
+        ]
       },
       {
         "i": 12,
@@ -4463,7 +4566,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       }
     ],
     "verse": 38,
@@ -4604,7 +4710,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -4654,7 +4761,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -4713,7 +4821,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "root": null,
@@ -4752,7 +4861,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       },
       {
         "root": null,
@@ -4791,7 +4903,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -4854,7 +4967,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -4913,7 +5027,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -4968,7 +5083,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -5046,7 +5162,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 39,
@@ -5209,7 +5326,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "amara"
+        ]
       },
       {
         "i": 1,
@@ -5287,7 +5407,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -5326,7 +5447,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -5381,7 +5503,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -5420,7 +5543,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -5459,7 +5583,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -5537,7 +5662,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 40,
@@ -5701,7 +5827,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -5760,7 +5887,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -5799,7 +5927,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -5878,7 +6007,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -5952,7 +6082,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -6007,7 +6138,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -6062,7 +6194,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -6105,7 +6238,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -6144,7 +6278,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 41,
@@ -6277,7 +6412,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -6348,7 +6484,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -6407,7 +6544,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -6457,7 +6595,11 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "danava",
+          "deva"
+        ]
       },
       {
         "i": 4,
@@ -6496,7 +6638,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "deva"
+        ]
       },
       {
         "i": 5,
@@ -6535,7 +6680,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -6594,7 +6740,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -6633,7 +6780,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -6688,7 +6836,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -6758,7 +6907,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 42,
@@ -6919,7 +7069,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -6969,7 +7120,11 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "shambara",
+          "daitya"
+        ]
       },
       {
         "root": null,
@@ -7008,7 +7163,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "root": null,
@@ -7047,7 +7203,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -7121,7 +7278,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -7180,7 +7338,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -7239,7 +7398,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "root": null,
@@ -7278,7 +7438,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "root": null,
@@ -7317,7 +7478,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -7372,7 +7534,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -7442,7 +7605,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -7481,7 +7645,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       }
     ],
     "verse": 43,
@@ -7639,7 +7806,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -7702,7 +7870,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -7765,7 +7934,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -7804,7 +7974,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "shambara"
+        ]
       },
       {
         "i": 4,
@@ -7867,7 +8040,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -7906,7 +8080,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -7961,7 +8136,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -8000,7 +8176,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -8039,7 +8216,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -8078,7 +8256,10 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "asura"
+        ]
       },
       {
         "i": 10,
@@ -8117,7 +8298,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -8167,7 +8349,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "Direct source-text derivation from the named witnesses; no interpreter, generated form table, parser, dictionary, API, or external model used as authority."
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "verse": 44,
@@ -8336,7 +8519,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -8381,7 +8565,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -8426,7 +8611,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -8502,7 +8688,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -8543,7 +8730,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -8588,7 +8776,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -8661,7 +8850,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -8706,7 +8896,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -8762,7 +8953,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -8807,7 +8999,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "dama"
+        ]
       },
       {
         "i": 10,
@@ -8852,7 +9047,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "vyala"
+        ]
       },
       {
         "i": 11,
@@ -8897,7 +9095,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "kata"
+        ]
       },
       {
         "i": 12,
@@ -8938,7 +9139,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [
@@ -9244,7 +9446,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -9309,7 +9512,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -9354,7 +9558,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -9434,7 +9639,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -9475,7 +9681,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -9544,7 +9751,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -9585,7 +9793,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -9626,7 +9835,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -9695,7 +9905,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -9736,7 +9947,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -9797,7 +10009,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -9842,7 +10055,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 12,
@@ -9911,7 +10125,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [
@@ -10178,7 +10393,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -10243,7 +10459,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -10284,7 +10501,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -10349,7 +10567,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -10394,7 +10613,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -10435,7 +10655,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -10515,7 +10736,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -10560,7 +10782,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -10609,7 +10832,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -10654,7 +10878,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -10715,7 +10940,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -10760,7 +10986,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 12,
@@ -10844,7 +11071,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -11045,7 +11273,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "shambara"
+        ]
       },
       {
         "i": 1,
@@ -11123,7 +11354,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -11203,7 +11435,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -11244,7 +11477,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -11320,7 +11554,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -11365,7 +11600,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -11406,7 +11642,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -11510,7 +11747,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -11551,7 +11789,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -11616,7 +11855,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -11747,7 +11987,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -11792,7 +12033,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -11833,7 +12075,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -11902,7 +12145,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -11947,7 +12191,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "deva"
+        ]
       },
       {
         "i": 5,
@@ -12016,7 +12263,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -12057,7 +12305,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -12098,7 +12347,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -12163,7 +12413,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -12219,7 +12470,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "daitya"
+        ]
       },
       {
         "i": 10,
@@ -12303,7 +12557,12 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       }
     ],
     "apparatus": [],
@@ -12475,7 +12734,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -12557,7 +12817,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -12645,7 +12906,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "deva"
+        ]
       },
       {
         "i": 3,
@@ -12694,7 +12958,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "daitya"
+        ]
       },
       {
         "i": 4,
@@ -12750,7 +13017,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -12795,7 +13063,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -12836,7 +13105,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -12892,7 +13162,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -13071,7 +13342,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -13151,7 +13423,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -13211,7 +13484,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -13252,7 +13526,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -13317,7 +13592,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -13362,7 +13638,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -13407,7 +13684,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -13452,7 +13730,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "sura"
+        ]
       },
       {
         "i": 8,
@@ -13497,7 +13778,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -13664,7 +13946,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -13705,7 +13988,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -13761,7 +14045,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -13806,7 +14091,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -13882,7 +14168,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -13927,7 +14214,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -13983,7 +14271,11 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "deva",
+          "asura"
+        ]
       },
       {
         "i": 7,
@@ -14024,7 +14316,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -14089,7 +14382,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -14154,7 +14448,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -14199,7 +14494,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -14407,7 +14703,8 @@ window.YV_DAMA_VERSES = [
             "Kāśikā ad A. 7.3.40: bhīṣayate"
           ],
           "review_method": "direct source-text derivation; interpreter not used"
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -14491,7 +14788,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -14536,7 +14834,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -14577,7 +14876,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -14642,7 +14942,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -14687,7 +14988,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -14767,7 +15069,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -14939,7 +15242,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -14980,7 +15284,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -15060,7 +15365,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -15101,7 +15407,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -15146,7 +15453,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -15187,7 +15495,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -15256,7 +15565,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -15312,7 +15622,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "deva"
+        ]
       },
       {
         "i": 8,
@@ -15377,7 +15690,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -15545,7 +15859,12 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 1,
@@ -15590,7 +15909,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -15635,7 +15955,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -15704,7 +16025,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -15745,7 +16067,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -15810,7 +16133,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -15886,7 +16210,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -15951,7 +16276,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -15992,7 +16318,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -16037,7 +16364,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -16191,7 +16519,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -16232,7 +16561,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -16277,7 +16607,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -16318,7 +16649,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -16383,7 +16715,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -16428,7 +16761,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "asura"
+        ]
       },
       {
         "i": 6,
@@ -16473,7 +16809,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "sura"
+        ]
       },
       {
         "i": 7,
@@ -16538,7 +16877,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -16594,7 +16934,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "amara"
+        ]
       },
       {
         "i": 9,
@@ -16655,7 +16998,12 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 10,
@@ -16696,7 +17044,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -16861,7 +17210,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -16941,7 +17291,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -16986,7 +17337,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -17058,7 +17410,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -17099,7 +17452,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -17144,7 +17498,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "deva"
+        ]
       },
       {
         "i": 6,
@@ -17213,7 +17570,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -17258,7 +17616,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -17303,7 +17662,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -17372,7 +17732,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -17413,7 +17774,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -17478,7 +17840,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -17671,7 +18034,10 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": [
+          "dama"
+        ]
       },
       {
         "i": 1,
@@ -17712,7 +18078,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -17781,7 +18148,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -17826,7 +18194,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -17902,7 +18271,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -17947,7 +18317,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -18020,7 +18391,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -18065,7 +18437,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -18138,7 +18511,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -18198,7 +18572,8 @@ window.YV_DAMA_VERSES = [
             "/Users/eeshan/Dev/prakriya/sources/raw/panini/sutrapatha/ashtadhyayi.json"
           ],
           "review_method": "Direct witness reading and source-text derivation; the unfinished Prakriya interpreter, generated tables, Vidyut, parsers, dictionaries, APIs, and model output were not used as authority."
-        }
+        },
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -18364,7 +18739,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -18416,7 +18792,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -18468,7 +18845,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       },
       {
         "i": 3,
@@ -18520,7 +18900,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -18572,7 +18953,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -18624,7 +19006,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -18711,7 +19094,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "shambara"
+        ]
       },
       {
         "i": 7,
@@ -18751,7 +19137,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -18830,7 +19217,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -18913,7 +19301,12 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       }
     ],
     "apparatus": [],
@@ -19078,7 +19471,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -19130,7 +19524,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -19182,7 +19577,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -19257,7 +19653,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -19309,7 +19706,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -19375,7 +19773,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -19437,7 +19836,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -19489,7 +19889,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -19557,7 +19958,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       },
       {
         "i": 9,
@@ -19657,7 +20061,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -19709,7 +20114,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -19868,7 +20274,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -19941,7 +20348,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -19993,7 +20401,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "shambara"
+        ]
       },
       {
         "i": 3,
@@ -20045,7 +20456,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -20097,7 +20509,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       },
       {
         "i": 5,
@@ -20172,7 +20587,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -20224,7 +20640,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -20276,7 +20693,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -20344,7 +20762,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -20419,7 +20838,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -20628,7 +21048,12 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 1,
@@ -20680,7 +21105,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -20742,7 +21168,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -20810,7 +21237,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "amara"
+        ]
       },
       {
         "i": 4,
@@ -20890,7 +21320,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -20965,7 +21396,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -21043,7 +21475,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -21083,7 +21516,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -21123,7 +21557,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -21163,7 +21598,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -21348,7 +21784,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -21415,7 +21852,8 @@ window.YV_DAMA_VERSES = [
             "reason": "would supply the genitive plural governing āśaye; absent from the controlling source packet",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -21467,7 +21905,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -21507,7 +21946,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -21569,7 +22009,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -21656,7 +22097,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -21708,7 +22150,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -21778,7 +22221,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -22007,7 +22451,8 @@ window.YV_DAMA_VERSES = [
               }
             ]
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -22047,7 +22492,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -22099,7 +22545,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -22182,7 +22629,13 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "asura",
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 4,
@@ -22257,7 +22710,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -22333,7 +22787,8 @@ window.YV_DAMA_VERSES = [
             "note": "dative of reference/interest fits the clause",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -22399,7 +22854,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -22487,7 +22943,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -22565,7 +23022,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -22605,7 +23063,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [
@@ -22625,8 +23084,8 @@ window.YV_DAMA_VERSES = [
         "source_iast": "yadi te yantrapuruṣāś śambareṇa vinirmitāḥ /\nvāsanāṃ nāśrayiṣyanti yāsyanti tad ajayyatām // MU_4,9.38",
         "devanagari": "यदि ते यन्त्रपुरुषाश् शम्बरेण विनिर्मिताः ।\nवासनां नाश्रयिष्यन्ति यास्यन्ति तद् अजय्यताम् ॥",
         "iast": "yadi te yantra-puruṣāḥ śambareṇa vinirmitāḥ |\nvāsanāṃ na āśrayiṣyanti yāsyanti tad a-jayyatām ||",
-        "english": "{0:If} {1:those} {2:machine-persons}, {4:fashioned} {3:by Śambara}, {6:do not} {7:resort to} {5:vāsanā}, {9:then} {8:they will go to} {10:unconquerability}.",
-        "sense": "If those mechanical persons fashioned by Śambara do not resort to vāsanā, then they will attain unconquerability.",
+        "english": "{0:If} {1:those} {2:machine-puruṣas}, {4:fashioned} {3:by Śambara}, {6:do not} {7:resort to} {5:vāsanā}, {9:then} {8:they will go to} {10:unconquerability}.",
+        "sense": "If those mechanical puruṣas fashioned by Śambara do not resort to vāsanā, then they will attain unconquerability.",
         "grammar": {
           "karakaSummary": "te yantra-puruṣāḥ/vinirmitāḥ is kartṛ; śambareṇa is the kartṛ (agent) expressed by instrumental tṛtīyā with the passive participle; vāsanām is karman of ā-śri; ajayyatām is the goal-state object of yāsyanti.",
           "verbalModality": "yadi introduces the condition; both finite predicates are future third plural, with na negating āśrayiṣyanti.",
@@ -22671,7 +23130,8 @@ window.YV_DAMA_VERSES = [
               ],
               "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 1,
@@ -22723,13 +23183,14 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 2,
             "deva": "यन्त्रपुरुषाः",
             "iast": "yantra-puruṣāḥ",
-            "gloss": "machine-persons; mechanical persons",
+            "gloss": "machine-puruṣas; mechanical embodied/interior beings",
             "parts": [
               {
                 "form": "√yam",
@@ -22741,7 +23202,7 @@ window.YV_DAMA_VERSES = [
               },
               {
                 "form": "puruṣa",
-                "gloss": "person"
+                "gloss": "puruṣa; person, indweller, or interior-filling being in the inherited nirvacana field"
               },
               {
                 "form": "jas",
@@ -22797,7 +23258,7 @@ window.YV_DAMA_VERSES = [
                 "evidence": "Nirukta 2.3"
               }
             ],
-            "note": "Yantra is a device or mechanism; puruṣa is a person. The compound therefore says ‘machine-persons.’ In this account of artificial fighters acting automatically, ‘robots’ is a defensible contextual, non-etymological equivalent.",
+            "note": "Yantra is a device or mechanism. Puruṣa is the compound head, but English ‘person’ does not exhaust its inherited senses: the much earlier Nirukta preserves the indweller and interior-filling readings shown below. In this account of fabricated agents acting automatically, ‘robots’ is a defensible contextual equivalent of the whole expression, not a replacement for puruṣa or its semantic field.",
             "root": {
               "form": "√yam",
               "gana": "bhvādi (1)",
@@ -22926,6 +23387,9 @@ window.YV_DAMA_VERSES = [
                   }
                 ]
               }
+            ],
+            "semanticFieldKeys": [
+              "purusha"
             ]
           },
           {
@@ -22978,7 +23442,10 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": [
+              "shambara"
+            ]
           },
           {
             "i": 4,
@@ -23057,7 +23524,8 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 5,
@@ -23162,7 +23630,8 @@ window.YV_DAMA_VERSES = [
                   }
                 ]
               }
-            ]
+            ],
+            "semanticFieldKeys": []
           },
           {
             "i": 6,
@@ -23202,7 +23671,8 @@ window.YV_DAMA_VERSES = [
               ],
               "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 7,
@@ -23272,7 +23742,8 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 8,
@@ -23338,7 +23809,8 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 9,
@@ -23378,7 +23850,8 @@ window.YV_DAMA_VERSES = [
               ],
               "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 10,
@@ -23462,7 +23935,8 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           }
         ],
         "sourceSegments": [
@@ -23591,8 +24065,8 @@ window.YV_DAMA_VERSES = [
         "devanagari": "यदा तेऽत्यज्ञपुरुषाः शम्बरेण विनिर्मिताः |\nवासनामाश्रयिष्यन्ति तदा यास्यन्ति जेयताम् ||",
         "iast": "yadā te ati-ajña-puruṣāḥ śambareṇa vinirmitāḥ |\nvāsanām āśrayiṣyanti tadā yāsyanti jeyatām ||",
         "iast_status": "reviewed transliteration of the source-packet Devanāgarī witness",
-        "english": "{0:When} {1:those} {2:utterly unknowing persons}, {4:constructed} {3:by Śambara}, {6:will resort to} {5:vāsanā}, {7:then} {8:they will go to} {9:conquerability}.",
-        "sense": "When those utterly unknowing persons constructed by Śambara resort to vāsanā, then they will become conquerable.",
+        "english": "{0:When} {1:those} {2:utterly unknowing puruṣas}, {4:constructed} {3:by Śambara}, {6:will resort to} {5:vāsanā}, {7:then} {8:they will go to} {9:conquerability}.",
+        "sense": "When those utterly unknowing puruṣas constructed by Śambara resort to vāsanā, then they will become conquerable.",
         "grammar": {
           "karakaSummary": "te ati-ajña-puruṣāḥ/vinirmitāḥ is kartṛ; śambareṇa is the kartṛ (agent) expressed by instrumental tṛtīyā with the passive participle; vāsanām is karman of ā-śri; jeyatām is the goal-state of yāsyanti.",
           "verbalModality": "yadā/tadā forms the when/then correlation; both predicates are future third plural.",
@@ -23637,7 +24111,8 @@ window.YV_DAMA_VERSES = [
               ],
               "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 1,
@@ -23689,13 +24164,14 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 2,
             "deva": "अत्यज्ञपुरुषाः",
             "iast": "ati-a-jña-puruṣāḥ",
-            "gloss": "utterly unknowing persons",
+            "gloss": "utterly unknowing puruṣas",
             "parts": [
               {
                 "form": "ati-",
@@ -23715,7 +24191,7 @@ window.YV_DAMA_VERSES = [
               },
               {
                 "form": "puruṣa",
-                "gloss": "person"
+                "gloss": "puruṣa; person, indweller, or interior-filling being in the inherited nirvacana field"
               },
               {
                 "form": "jas",
@@ -23874,6 +24350,9 @@ window.YV_DAMA_VERSES = [
                   }
                 ]
               }
+            ],
+            "semanticFieldKeys": [
+              "purusha"
             ]
           },
           {
@@ -23926,7 +24405,10 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": [
+              "shambara"
+            ]
           },
           {
             "i": 4,
@@ -24005,7 +24487,8 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 5,
@@ -24109,7 +24592,8 @@ window.YV_DAMA_VERSES = [
                   }
                 ]
               }
-            ]
+            ],
+            "semanticFieldKeys": []
           },
           {
             "i": 6,
@@ -24179,7 +24663,8 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 7,
@@ -24219,7 +24704,8 @@ window.YV_DAMA_VERSES = [
               ],
               "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 8,
@@ -24285,7 +24771,8 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           },
           {
             "i": 9,
@@ -24365,7 +24852,8 @@ window.YV_DAMA_VERSES = [
                 }
               }
             },
-            "parallelDerivations": []
+            "parallelDerivations": [],
+            "semanticFieldKeys": []
           }
         ],
         "sourceSegments": [
@@ -24705,7 +25193,8 @@ window.YV_DAMA_VERSES = [
             "evidence": "Amarakośa line 1305; Yādavakośa line 2438 gives āsthā in assembly, pledge, devoted application, and reliance",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -24770,7 +25259,8 @@ window.YV_DAMA_VERSES = [
             "meaning": "of endless [sorrows]",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -24822,7 +25312,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -24874,7 +25365,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -24936,7 +25428,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -25029,7 +25522,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -25069,7 +25563,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -25121,7 +25616,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -25173,7 +25669,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -25235,7 +25732,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [
@@ -25446,7 +25944,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -25498,7 +25997,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -25550,7 +26050,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -25590,7 +26091,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -25656,7 +26158,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -25708,7 +26211,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -25787,7 +26291,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -25855,7 +26360,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -25907,7 +26413,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -25978,7 +26485,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -26057,7 +26565,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -26219,7 +26728,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -26259,7 +26769,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -26347,7 +26858,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -26387,7 +26899,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -26462,7 +26975,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -26502,7 +27016,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -26554,7 +27069,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -26594,7 +27110,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -26665,7 +27182,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -26736,7 +27254,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -26808,7 +27327,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -26860,7 +27380,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 12,
@@ -26912,7 +27433,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 13,
@@ -26952,7 +27474,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -27123,7 +27646,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -27189,7 +27713,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -27245,7 +27770,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -27297,7 +27823,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "deva"
+        ]
       },
       {
         "i": 4,
@@ -27337,7 +27866,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -27377,7 +27907,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -27433,7 +27964,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -27499,7 +28031,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -27551,7 +28084,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       },
       {
         "i": 9,
@@ -27591,7 +28127,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -27661,7 +28198,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -27713,7 +28251,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 12,
@@ -27765,7 +28304,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 13,
@@ -27827,7 +28367,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 14,
@@ -27867,7 +28408,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 15,
@@ -27946,7 +28488,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 16,
@@ -27998,7 +28541,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -28167,7 +28711,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -28235,7 +28780,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -28313,7 +28859,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -28353,7 +28900,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -28405,7 +28953,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "daitya"
+        ]
       },
       {
         "i": 5,
@@ -28473,7 +29024,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -28525,7 +29077,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -28621,7 +29174,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -28803,7 +29357,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -28855,7 +29410,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -28895,7 +29451,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -28966,7 +29523,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -29032,7 +29590,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -29072,7 +29631,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -29156,7 +29716,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -29218,7 +29779,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -29284,7 +29846,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -29324,7 +29887,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -29376,7 +29940,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       }
     ],
     "apparatus": [],
@@ -29535,7 +30102,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -29587,7 +30155,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -29674,7 +30243,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -29736,7 +30306,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -29804,7 +30375,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "sura"
+        ]
       },
       {
         "i": 5,
@@ -29866,7 +30440,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -29957,7 +30532,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -30053,7 +30629,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "daitya"
+        ]
       }
     ],
     "apparatus": [],
@@ -30203,7 +30782,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -30243,7 +30823,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -30295,7 +30876,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -30364,7 +30946,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -30452,7 +31035,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -30520,7 +31104,10 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama"
+        ]
       },
       {
         "i": 6,
@@ -30572,7 +31159,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -30612,7 +31200,8 @@ window.YV_DAMA_VERSES = [
           ],
           "review_method": "direct source-text derivation from the named local primary/raw witnesses; the Prakriya interpreter, generated tables, parsers, APIs, dictionaries, and other models were not used as authority"
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -30700,7 +31289,8 @@ window.YV_DAMA_VERSES = [
             "evidence": "Yādavakośa line 2438",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -30762,7 +31352,8 @@ window.YV_DAMA_VERSES = [
             }
           }
         },
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -30878,7 +31469,8 @@ window.YV_DAMA_VERSES = [
               }
             ]
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -31092,7 +31684,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "semantic range, not a second morphological derivation",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -31186,7 +31779,8 @@ window.YV_DAMA_VERSES = [
             "evidence": "Dhātupāṭha 01.1160 and the witnessed member vāsanā in Laghu 2.73",
             "qualification": "Structured derivation of the second member; it does not replace the primary moha derivation."
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -31287,7 +31881,8 @@ window.YV_DAMA_VERSES = [
             "evidence": "Dhātupāṭha 01.1160 and the witnessed member vāsanā in Laghu 2.73",
             "qualification": "Structured derivation of the second member; it does not replace the primary moha derivation."
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -31336,7 +31931,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -31416,7 +32012,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "both readings preserve hope as the binding snare",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -31450,7 +32047,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Extracted from -nibaddhās te.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -31483,7 +32081,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -31521,7 +32120,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; lexical base not assigned an unsupported root"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -31570,7 +32170,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -31720,7 +32321,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source sthiro bhavatu resolves to sthiraḥ bhavatu.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -31768,7 +32370,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -31801,7 +32404,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -31834,7 +32438,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis; historical derivation withheld"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -31867,7 +32472,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -31916,7 +32522,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source sukhāyāstu resolves to sukhāya astu.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -31949,7 +32556,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -31982,7 +32590,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -32011,7 +32620,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -32083,7 +32693,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "the kta force ‘grown’ is retained in either rendering",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -32116,7 +32727,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -32153,7 +32765,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct derivative analysis; no unsupported verbal root assigned"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 12,
@@ -32213,7 +32826,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 13,
@@ -32261,7 +32875,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -32443,7 +33058,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source atas tasmin is written atastasmin.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -32476,7 +33092,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -32509,7 +33126,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -32546,7 +33164,10 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct derivative analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "daitya"
+        ]
       },
       {
         "i": 4,
@@ -32623,7 +33244,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "the visible translation keeps the literal ‘having regard’ force",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -32671,7 +33293,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -32720,7 +33343,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -32769,7 +33393,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -32798,7 +33423,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -32859,7 +33485,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -33005,7 +33632,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -33077,7 +33705,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "contextual sense, not a different formation",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -33110,7 +33739,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -33157,7 +33787,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source hantum agragatam is written hantumagragatam.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -33214,7 +33845,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -33249,7 +33881,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -33279,7 +33912,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source na śekur indhane gives final -r before a vowel; citation form is śekuḥ.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -33324,7 +33958,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source śekur indhane gives final -r before a vowel; citation form is śekuḥ.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -33359,7 +33994,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -33409,7 +34045,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -33444,7 +34081,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "haviḥ before voiced d is written havir.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -33509,7 +34147,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "clearer parallel reading; it does not replace controlling Laghu dagdham",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 12,
@@ -33539,7 +34178,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source dagdham iva is written dagdhamiva.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 13,
@@ -33572,7 +34212,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [
@@ -33738,7 +34379,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source bahunā atra is written bahunātra.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -33767,7 +34409,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -33800,7 +34443,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -33849,7 +34493,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -33896,7 +34541,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "maraṇāt before bh- appears in the source as maraṇād bh-.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -33953,7 +34599,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -34031,7 +34678,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "regular source-attested derivation, not a dictionary guess",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -34081,7 +34729,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source naṣṭās te resolves to naṣṭāḥ te.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -34114,7 +34763,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -34173,6 +34823,9 @@ window.YV_DAMA_VERSES = [
             "qualification": "the literal numeral image remains visible in the gloss",
             "roots": []
           }
+        ],
+        "semanticFieldKeys": [
+          "tridasha"
         ]
       }
     ],
@@ -34306,7 +34959,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source aham etat is written ahametat.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -34339,7 +34993,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -34407,7 +35062,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "parallel registered roots; the distinct sense remains explicit",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -34451,7 +35107,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -34484,7 +35141,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis; no unattested name-nirvacana added"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -34528,7 +35186,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct compound analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -34575,7 +35234,12 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source final -ḥ before mā appears as -o.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 7,
@@ -34604,7 +35268,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -34649,7 +35314,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": null,
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -34679,7 +35345,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source bhavatviti resolves to bhavatu iti.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -34712,7 +35379,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -34910,7 +35578,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "not reduced to a modern psychological technicality",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -34960,7 +35629,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source cittam āpadam is written cittamāpadam.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -35028,7 +35698,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "Root relation secure; fine-grained kṛt label withheld and not used to alter the translation.",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -35065,7 +35736,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis; lexicalized pronominal formation"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -35126,7 +35798,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -35174,7 +35847,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -35222,7 +35896,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "contextual choice, not a morphological alternative",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -35333,7 +36008,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -35382,7 +36058,12 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct compound analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 2,
@@ -35435,7 +36116,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -35469,7 +36151,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source parāt padāt is written parātpadāt.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -35503,7 +36186,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source parāt padāt is written parātpadāt.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -35532,7 +36216,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -35565,7 +36250,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -35602,7 +36288,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct inflectional analysis; historical root not asserted"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -35651,7 +36338,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "masculine address retained without adding a knower noun",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -35684,7 +36372,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -35731,7 +36420,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source yathāvac chettum reflects final t + ch.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -35775,7 +36465,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -35923,7 +36614,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -35968,7 +36660,10 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source dāmādayo rāma resolves to dāma-ādayaḥ rāma.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama"
+        ]
       },
       {
         "i": 2,
@@ -36001,7 +36696,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -36092,7 +36788,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "glossary entry required before release",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -36122,7 +36819,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "tathā eva appears as tathaiva.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -36152,7 +36850,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "tathā eva appears as tathaiva.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -36186,7 +36885,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Source tathaiva ime is written tathaiveme.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -36219,7 +36919,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -36248,7 +36949,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -36277,7 +36979,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -36307,7 +37010,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "kva api appears as kvāpi.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -36337,7 +37041,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "kva api appears as kvāpi.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 12,
@@ -36367,7 +37072,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "kva api appears as kvāpi.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 13,
@@ -36420,7 +37126,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -36608,7 +37315,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "predicate scope is local to the three bhāva compounds",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -36638,7 +37346,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "alīkam eva appears as alīkameva.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -36695,7 +37404,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Final -ḥ before mad- appears as -o.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -36751,7 +37461,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "madbhāvo alīkam appears as madbhāvo'līkam.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -36785,7 +37496,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": null,
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -36814,7 +37526,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -36843,7 +37556,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -36889,7 +37603,12 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct compound analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama",
+          "vyala",
+          "kata"
+        ]
       },
       {
         "i": 8,
@@ -36960,7 +37679,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "translation ‘actual being’ preserves sat + bhāva",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -36994,7 +37714,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": null,
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -37023,7 +37744,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -37052,7 +37774,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -37234,7 +37957,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "preserved in IAST; glossary entry required before release",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -37272,7 +37996,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "Final t before j becomes j: kācij jīva-.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -37386,7 +38111,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "The public line translates both members consistently as life-power; the card retains their Sanskrit formation.",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -37430,7 +38156,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct compound analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -37495,7 +38222,10 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "shambara"
+        ]
       },
       {
         "i": 5,
@@ -37530,7 +38260,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "tridhā ullāsam appears as tridhollāsam.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -37595,7 +38326,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "not rendered as creation ex nihilo",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -37643,7 +38375,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -37676,7 +38409,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [],
@@ -37808,7 +38542,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "tasmāt + na appears as tasmān na.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -37838,7 +38573,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "tasmāt + na + ime appears as tasmān neme.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -37872,7 +38608,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "na + ime appears as neme.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -37905,7 +38642,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -37942,7 +38680,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct derivative analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -37971,7 +38710,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -38000,7 +38740,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -38044,7 +38785,10 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct compound analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": [
+          "dama"
+        ]
       },
       {
         "i": 8,
@@ -38077,7 +38821,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -38114,7 +38859,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct derivative analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -38195,7 +38941,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "parallel clarifies range but does not replace Laghu syntax",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -38288,7 +39035,8 @@ window.YV_DAMA_VERSES = [
             "evidence": "Dhātupāṭha 01.0077 and Aṣṭādhyāyī 3.2.102",
             "qualification": "Independent registered route beside √śudh 04.0088; both support the same visible sense."
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 12,
@@ -38414,7 +39162,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "parallel registered root sense",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 13,
@@ -38489,7 +39238,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "distinct from preceding śuddha",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [
@@ -38693,7 +39443,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -38749,7 +39500,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -38799,7 +39551,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "śāntam asti appears as śāntamasti.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -38843,7 +39596,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -38920,7 +39674,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "Laghu anastamana- is preserved",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -38953,7 +39708,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -39076,7 +39832,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "visible rendering retains flashing-forth",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -39124,7 +39881,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct traditional derivative analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -39153,7 +39911,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -39202,7 +39961,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [
@@ -39354,7 +40114,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 1,
@@ -39387,7 +40148,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 2,
@@ -39421,7 +40183,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "sarvam idam appears as sarvamidam.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 3,
@@ -39465,7 +40228,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 4,
@@ -39540,7 +40304,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "both are grammatically supported",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 5,
@@ -39597,7 +40362,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "recorded to preserve the genuine surface ambiguity",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 6,
@@ -39630,7 +40396,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 7,
@@ -39663,7 +40430,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 8,
@@ -39693,7 +40461,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "kvacit iha appears as kvacidiha.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 9,
@@ -39737,7 +40506,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct derivation"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 10,
@@ -39767,7 +40537,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "ca anubhūtam appears as cānubhūtam.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 11,
@@ -39797,7 +40568,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "ca anubhūtam appears as cānubhūtam.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 12,
@@ -39865,7 +40637,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "passive/resultative force retained",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 13,
@@ -39914,7 +40687,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct derivation"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 14,
@@ -39959,7 +40733,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "sat ekam appears as sadekam.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 15,
@@ -39992,7 +40767,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 16,
@@ -40026,7 +40802,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "ekam idam appears as ekamidam.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 17,
@@ -40088,7 +40865,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "parallel explains probable textual difficulty but does not replace the controlling Laghu",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 18,
@@ -40118,7 +40896,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "ānanam ittham appears as ānanamittham.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 19,
@@ -40163,7 +40942,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "ittham āste appears as itthamāste.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 20,
@@ -40242,7 +41022,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "syntactic ambiguity remains explicit",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 21,
@@ -40329,7 +41110,8 @@ window.YV_DAMA_VERSES = [
             "qualification": "parallel not substituted for Laghu",
             "roots": []
           }
-        ]
+        ],
+        "semanticFieldKeys": []
       },
       {
         "i": 22,
@@ -40363,7 +41145,8 @@ window.YV_DAMA_VERSES = [
         },
         "alternatives": [],
         "sandhi": "apabhedam ataḥ appears as apabhedamataḥ.",
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 23,
@@ -40396,7 +41179,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct analysis"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       },
       {
         "i": 24,
@@ -40440,7 +41224,8 @@ window.YV_DAMA_VERSES = [
           "review_method": "direct source-text derivation; interpreter not used"
         },
         "alternatives": [],
-        "parallelDerivations": []
+        "parallelDerivations": [],
+        "semanticFieldKeys": []
       }
     ],
     "apparatus": [

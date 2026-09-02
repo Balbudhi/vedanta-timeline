@@ -1,0 +1,212 @@
+{
+  "schema_version": "yogavasistha-dama-semantic-fields-independent-review-v1",
+  "producer": "internal/sanskrit_reviews/yogavasistha-dama/semantic-fields.json",
+  "producer_sha256": "2ab3015e0b21f5566bccd4aff9056904758770cf096ad60146a9689cb2ff62cc",
+  "review_date": "2026-09-01",
+  "reviewer_role": "independent chronology-sensitive semantic-field reviewer",
+  "population": {
+    "expected_entries": 12,
+    "observed_entries": 12,
+    "reviewed_entries": 12,
+    "expected_keys": ["purusha", "shambara", "daitya", "danava", "amara", "deva", "sura", "tridasha", "asura", "dama", "vyala", "kata"],
+    "observed_keys": ["purusha", "shambara", "daitya", "danava", "amara", "deva", "sura", "tridasha", "asura", "dama", "vyala", "kata"],
+    "complete": true
+  },
+  "review_method": "Every reading was recomputed from its cited local primary/raw witness and checked against the Dāma narrative. Earlier inherited grammar, nirvacana, and lexical evidence was kept distinct from roughly contemporary lexicographic reception and from modern reception. The review treated ordinary translation equivalents as surface aids, not exhaustive Western-style lexical definitions. The Prakriya interpreter, generated tables, parsers, dictionaries, APIs, and other models were not used as authority.",
+  "sources_consulted": [
+    {
+      "path": "data/sources/sanskrit/vedanta/laghuyogavasistha_dama_story.json",
+      "sha256": "78eed2b52427bc24cafa7f647d8576d1539362fb28f85c6b4a783cc715284b38",
+      "loci": "Sthitiprakaraṇa 2.31–86 and attached yantra/atyajña apparatus"
+    },
+    {
+      "path": "data/sources/sanskrit/vedanta/moksopaya_critical_gretil.txt",
+      "sha256": "4dc0f567e7f893980b330f11511ca3f391ba3a9901e595fc17956b7f581440b6",
+      "loci": "MU 4.7.34–39 and 4.9.38"
+    },
+    {
+      "path": "data/sources/sanskrit/vedanta/yogavasistha_sanskritsahitya.txt",
+      "sha256": "fae37110411c9bcb763dde7dcab8094cd1195fce1f57a2f39a11f60e59c0d3ed",
+      "loci": "Yoga-Vāsiṣṭha 4.25.34–40 and 4.27.38"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nirukta/nirukta_wikisource_13_chapters.txt",
+      "sha256": "35c8159d8c2a16ae770fe31d51523e86a4bfcab514a880bbda2f170f613fc458",
+      "loci": "2.3; 3.8; 7.15; 7.23; 10.34"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/primary/etymology/nighantu/nighantu_wikisource.txt",
+      "loci": "strength-name list containing śambaram, repository line 626"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/dhatupatha/dhatupatha_upstream.txt",
+      "loci": "divu and ṣur roots at the cited producer lines, checked against the paired raw Dhātupāṭha witness"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/kashika/kashika_upstream.txt",
+      "loci": "Aṣṭādhyāyī 4.1.85 discussion, repository line 1573"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/mahabhashya/mahabhashya_gretil.txt",
+      "loci": "Diti/Aditi patronymic pair, repository line 7478"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/primary/panini/unadi/unadi_pancapadi_upstream.txt",
+      "loci": "Uṇādi 1.42, aser uran"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/amarakosha/amarakosha_upstream.txt",
+      "loci": "1.1.7–12; 1.8.7; 3.3.206"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/raw/etymology/amarakoshodghatana/amarakoshodghatana_kshirasvamin.txt",
+      "sha256": "9110313b259bffadc1c280efab8c5c30db3400364efc19ed0d983e17b4d31320",
+      "loci": "commentary on Amarakośa 1.1.7 and 1.1.12, repository lines 109–118 and 164–167"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/halayudha/halayudha_upstream.txt",
+      "sha256": "bff5b163da51688198f4d02e930458974218c1341d303b3e929965be2e99a612",
+      "loci": "lines 5, 119, 259, 277, and related cited entries"
+    },
+    {
+      "path": "/Users/eeshan/Dev/prakriya/sources/primary/lexica/yaadavakosha/yaadavakosha_upstream.txt",
+      "sha256": "673a93ef8676076f8e7829f775f8d8036082fc53e1ceab9ec13371a386e967ca",
+      "loci": "lines 1909, 2557, and 2907"
+    },
+    {
+      "path": "/Users/eeshan/Dev/parishishta/materials/aurobindo/aurobindo_secret_of_the_veda_cwsa_15_official.txt",
+      "sha256": "83be49fb0d7986a417118f77cb70d225e470e48637ef6296c41b0d797ea19eea",
+      "loci": "The Foundations of the Psychological Theory and The Philological Method of the Veda, especially repository lines 1466 and 2034 onward"
+    },
+    {
+      "url": "https://www.uni-marburg.de/de/fb10/iksl/faecher/indologie/arbeitsstelle-akademie-mainz/moksopaya",
+      "loci": "project history lines 218, 239–243: older Mokṣopāya, roughly 5000-verse Laghu soon after the tenth-century composition, and first printed Yoga-Vāsiṣṭha in 1880"
+    },
+    {
+      "url": "https://www.venkatesaya.be/pdf/21_Supreme_Yoga_Vasistha_Section_4_Sthiti_Prakaranam_Existence.pdf",
+      "loci": "preface p. 6 and Sthitiprakaraṇa summary p. 31, especially PDF text lines 62–65 and 875–881"
+    }
+  ],
+  "methodology_review": {
+    "status": "pass",
+    "passed_principles": ["intentional-semantic-field", "chronology", "aurobindonian-basis", "evidence-categories"],
+    "finding_ids": [],
+    "resolved_finding_ids": ["semantic-fields-e001"],
+    "confirmed": [
+      "Aurobindo explicitly requires a philological basis for proposed psychological senses and describes Vedic double meaning/double values; the registry is correct not to position depth-reading as an alternative to philology.",
+      "No source consulted attributes to Aurobindo a reading of the Yoga-Vāsiṣṭha or the Dāma narrative."
+    ]
+  },
+  "witness_history_review": {
+    "expected_stages": 4,
+    "observed_stages": 4,
+    "status": "pass",
+    "stages": [
+      {
+        "id": "laghu",
+        "status": "pass",
+        "verification": "The controlling 56-unit packet is complete at 2.31–86, condenses the construction account, and omits the explicit yantra-puruṣa verse. The Marburg project account supports a roughly 5000-verse abbreviation probably produced soon after the tenth-century composition."
+      },
+      {
+        "id": "mokshopaya-critical",
+        "status": "pass",
+        "verification": "The critical Kashmirian text is the older recoverable recension and directly reads yantra-puruṣāḥ at MU 4.9.38; the longer construction account at MU 4.7.34–39 replays exactly."
+      },
+      {
+        "id": "yogavasistha-vulgate",
+        "status": "pass",
+        "verification": "The Marburg history supports the highly redacted Yogavāsiṣṭha, first printed in 1880 and produced using Mokṣopāya and Laghu material. The local witness reads atyajña-puruṣāḥ at 4.27.38, not yantra-puruṣāḥ."
+      },
+      {
+        "id": "venkatesananda",
+        "status": "pass",
+        "verification": "The PDF itself distinguishes its faithful chapter summary from the one selected verse freely translated on each page. The phrase 'robot-like working projections' occurs in the prose summary on p. 31 after the no-prior-incarnation, no-conditioning, no-fear, and automatic-combat description; it is not the freely translated page verse and is not a direct rendering of a printed yantra-puruṣa token. The older critical yantra reading is independent corroboration, not Venkatesananda's textual source."
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "semantic-fields-e001",
+      "severity": "error",
+      "status": "resolved",
+      "scope": "methodology.principles[aurobindonian-basis]",
+      "category": "methodological attribution boundary",
+      "finding": "The paragraph says the governing hermeneutic 'follows Sri Aurobindo's account' and immediately formulates an outer-narrative/inner-operation reading for this reader, but it never explicitly says that applying Aurobindo's Vedic double-value method to the Yoga-Vāsiṣṭha is this project's extension. The cited source treats the Veda, not this poem. The present wording risks attributing the extended application to Aurobindo.",
+      "required_resolution": "State explicitly that Aurobindo's own claim concerns Vedic double values and insists on philological grounding; identify the application to the Dāma narrative as this project's extension. Retain the existing statement that philology establishes text and chronology so the extension cannot be read as an alternative to philology.",
+      "resolution_verification": "The corrected principle explicitly calls the application this project's extension, denies attributing a Yoga-Vāsiṣṭha reading to Aurobindo, and states that critical philology establishes words, witnesses, and chronology."
+    },
+    {
+      "id": "semantic-fields-e002",
+      "severity": "error",
+      "status": "resolved",
+      "scope": "fields[sura].readings[traditional alternative: su + √rā]",
+      "category": "unsupported derivation",
+      "finding": "The registry gives su + √rā, 'one who gives well or gives what is desired,' but supplies no witness path or locus. The directly reviewed Kṣīrasvāmin passage instead transmits √sur + ka, possession/drinking of surā, and suṣṭhu rājante ('they shine well'). It does not attest the stated su + √rā giving derivation.",
+      "required_resolution": "Supply an exact premodern witness for su + √rā with the stated meaning, or remove/withhold this alternative. Do not silently convert Kṣīrasvāmin's suṣṭhu rājante into a different root derivation.",
+      "resolution_verification": "The unsupported su + √rā item is removed. The registry retains only √sur + ka and Kṣīrasvāmin's separately witnessed surā-possession/drinking and suṣṭhu rājante alternatives."
+    },
+    {
+      "id": "semantic-fields-e003",
+      "severity": "error",
+      "status": "resolved",
+      "scope": "fields[asura].opening, chronology_note, and narrative activation",
+      "category": "unsupported semantic extension",
+      "finding": "The reviewed entries support the asu/vital-breath reading, the prajñā reading, oppositional/displacement alternatives, and Uṇādi √as + uran. They do not source the opening's 'luminous' sense or the chronology note's claim that asura is an honorific of major Vedic deities. Those historical claims may be defensible, but they are absent from the registry's evidence population.",
+      "required_resolution": "Add exact earlier Vedic loci and a reviewed explanation for the honorific/luminous claim, with chronology explicit, or remove 'luminous' and the unsupported honorific sentence from this closed registry.",
+      "resolution_verification": "The registry now cites Ṛgveda 3.55 and Varuṇa at 1.24.14 for earlier honorific asura/asuratva power-language. Unsupported luminosity is removed from both the opening and narrative activation."
+    },
+    {
+      "id": "semantic-fields-e004",
+      "severity": "error",
+      "status": "resolved",
+      "scope": "fields[asura].readings[Nirukta alternatives]",
+      "category": "nirvacana conflation",
+      "finding": "The registry renders a-su-ratāḥ as 'not well-settled.' The cited Nirukta then separately gives sthāneṣv astāḥ / sthānebhyaḥ, the displacement-from-stations alternative. 'Settled' belongs to that second field and is not secured as the value of rata in the first segmentation, so the two alternatives have been partially collapsed.",
+      "required_resolution": "Re-derive a-su-ratāḥ from its own members with direct traditional support, or withhold its English gloss. Keep the sthāna/as alternatives separately labelled.",
+      "resolution_verification": "The corrected registry presents a-su-ratāḥ as not well-engaged/well-disposed, then gives placement/displacement from stations and the asu/prāṇa reading as separate independently labelled alternatives."
+    },
+    {
+      "id": "semantic-fields-e005",
+      "severity": "error",
+      "status": "resolved",
+      "scope": "fields[kata].readings[lexical senses]",
+      "category": "source-path/locus mismatch",
+      "finding": "The reading claims 'boundary or enclosing edge' but its machine-readable source_path points to Yādavakośa lines 1909 and 2557, which support mat and other homonyms, not the boundary sense. Boundary is supported by Halāyudhakośa line 259, named only in source_label and not bound to an exact path/locus in this reading.",
+      "required_resolution": "Attach Halāyudhakośa line 259 as a separate exact source record for boundary, while retaining Yādavakośa lines 1909/2557 for mat and other homonyms; or remove boundary from the Yādavakośa-bound reading.",
+      "resolution_verification": "Kaṭa's mat, boundary, and further homonym fields are now separate records bound respectively to Yādavakośa 1909, Halāyudhakośa 259, and Yādavakośa 2557."
+    }
+  ],
+  "entry_results": [
+    {"key": "purusha", "status": "pass", "finding_ids": [], "verification": "Nirukta 2.3 exactly transmits puri ṣādaḥ, puri śayaḥ, and pūrayater vā / pūrayaty antar; the narrative activation is present at Laghu 2.80–84."},
+    {"key": "shambara", "status": "pass", "finding_ids": [], "verification": "Nighaṇṭu strength, Nirukta's Vedic cloud interpretation, and Yādavakośa's Daitya-name entry all replay, with the cloud reading correctly qualified as resonance rather than exclusive name-meaning."},
+    {"key": "daitya", "status": "pass", "finding_ids": [], "verification": "Kāśikā and Mahābhāṣya secure the Diti/Aditi patronymic pair; Amarakośa preserves the corresponding divine and Asura genealogical lists."},
+    {"key": "danava", "status": "pass", "finding_ids": [], "verification": "The Danu→Dānava maternal genealogy and Asura grouping are present in the cited premodern lexica; the entry avoids an essence-of-evil gloss."},
+    {"key": "amara", "status": "pass", "finding_ids": [], "verification": "Kṣīrasvāmin explicitly gives na mriyante ity amarāḥ; the narrative's defeat/fear tension is separately labelled as activation."},
+    {"key": "deva", "status": "pass", "finding_ids": [], "verification": "Dhātupāṭha divu and Nirukta 7.15's dāna/dīpana/dyotana/dyusthāna alternatives replay; 'god' is correctly treated as referent, not exhaustive lexical definition."},
+    {"key": "sura", "status": "pass", "finding_ids": [], "verification": "The √sur + ka and Kṣīrasvāmin alternatives replay exactly; the unsupported su + √rā item has been removed."},
+    {"key": "tridasha", "status": "pass", "finding_ids": [], "verification": "Kṣīrasvāmin transmits both 'three tens' and Gauḍa's 'three life-stages' reading; they remain parallel and chronologically labelled."},
+    {"key": "asura", "status": "pass", "finding_ids": [], "verification": "Ṛgvedic honorific power-language, a-su-ratāḥ, the two positional alternatives, asu/prāṇa, prajñā, and Uṇādi evidence are separately sourced; unsupported luminosity is absent."},
+    {"key": "dama", "status": "pass", "finding_ids": [], "verification": "Halāyudhakośa directly gives dāma as an animal bond/tether; the later bondage reversal is present in the story and no unsecured root is invented."},
+    {"key": "vyala", "status": "pass", "finding_ids": [], "verification": "Amarakośa preserves both serpent and fierce-beast senses; the registry correctly withholds a fabricated root-etymology and exclusivity."},
+    {"key": "kata", "status": "pass", "finding_ids": [], "verification": "Mat, boundary, and additional homonymy are separately bound to Yādavakośa 1909, Halāyudhakośa 259, and Yādavakośa 2557."}
+  ],
+  "confirmed_chronology_boundaries": [
+    "Nirukta, Nighaṇṭu, Pāṇinian grammar, and inherited lexical formations are earlier evidence; the registry generally labels them as inherited semantic fields rather than proof of direct authorial consultation.",
+    "Kṣīrasvāmin and comparable premodern kośa evidence is reception evidence and, where roughly contemporary with the Mokṣopāya, is not silently promoted to Vedic antiquity.",
+    "The 1880 printed Yoga-Vāsiṣṭha and Venkatesananda's modern summary are later reception layers; neither controls the Laghu or critical Sanskrit.",
+    "Venkatesananda's 'robot-like working projections' belongs only to his prose chapter summary. It does not translate the page's selected verse, and it does not prove that his received Sanskrit contained yantra-puruṣa."
+  ],
+  "result": {
+    "pass": true,
+    "accepted_entries": 12,
+    "rejected_entries": 0,
+    "methodology_pass": true,
+    "witness_history_pass": true,
+    "concrete_errors": 0,
+    "completion_gate": "met: all 12 semantic fields, all 4 methodology principles, and all 4 witness-history stages pass at zero concrete errors"
+  },
+  "release_gate": {
+    "pass": true,
+    "reason": "The Aurobindo attribution boundary, Sura evidence set, Ṛgvedic Asura chronology, separated Nirukta alternatives, and Kaṭa source bindings are corrected. All 12 fields, 4 principles, and 4 witness-history stages pass at zero concrete errors."
+  }
+}

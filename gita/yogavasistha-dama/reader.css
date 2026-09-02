@@ -4,6 +4,27 @@
   letter-spacing: .055em;
   text-transform: uppercase;
 }
+.yv-methodology {
+  margin: 0 0 18px;
+  border: 1px solid var(--hairline);
+  border-radius: 7px;
+  background: var(--bg-warm);
+}
+.yv-methodology-summary {
+  padding: 11px 13px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font: 600 12px/1.45 var(--sans);
+}
+.yv-methodology-body { padding: 0 13px 13px; }
+.yv-methodology-intro,
+.yv-methodology-text { margin: 6px 0 0; color: var(--ink-soft); font-size: 14px; line-height: 1.62; }
+.yv-methodology-heading { margin-top: 14px; color: var(--muted); font: 700 10px/1.4 var(--sans); letter-spacing: .055em; text-transform: uppercase; }
+.yv-methodology-block,
+.yv-witness-history { margin-top: 9px; padding-top: 9px; border-top: 1px solid var(--hairline); }
+.yv-methodology-title { margin: 0; color: var(--ink); font: 600 14px/1.45 var(--sans); }
+.yv-witness-relation { margin-top: 2px; color: var(--muted); font: 700 10px/1.4 var(--sans); letter-spacing: .04em; text-transform: uppercase; }
+.yv-source-link { display: inline-block; margin-top: 5px; color: var(--accent); font: 600 11px/1.4 var(--sans); }
 .yv-textual-notes,
 .yv-apparatus { margin-top: 14px; border-top: 1px solid var(--hairline); }
 .yv-textual-note { padding-top: 10px; color: var(--ink-soft); font: 12.5px/1.55 var(--sans); }
@@ -19,3 +40,8 @@
 .yv-derivation { margin-top: 7px; padding: 7px 8px; border-radius: 5px; background: var(--bg-warm); }
 .yv-derivation-label { color: var(--muted); font: 700 10px/1.35 var(--sans); text-transform: uppercase; letter-spacing: .04em; }
 .yv-derivation-main { margin-top: 3px; color: var(--ink); font: 13px/1.45 var(--serif); }
+.yv-semantic-field { margin-top: 8px; padding: 8px; border-radius: 5px; background: var(--bg-warm); }
+.yv-semantic-heading { color: var(--ink); font: 700 11px/1.4 var(--sans); }
+.yv-semantic-opening { margin-top: 4px; color: var(--ink-soft); font: 12.5px/1.5 var(--serif); }
+.yv-semantic-chronology { margin-top: 5px; color: var(--muted-soft); font: 11px/1.45 var(--sans); }
+.yv-semantic-reading { margin-top: 7px; padding-top: 7px; border-top: 1px solid var(--hairline); }
