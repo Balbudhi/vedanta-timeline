@@ -2581,6 +2581,55 @@ The first affirmative reply matters: the other deities too are the same addresse
 
 A broader integrative account can compare this shared reference and the qualification concerning ignorance with other traditions, while making explicit which conditions it retains, reinterprets or rejects. The quoted 9.23–24 passage does not by itself enumerate the destinations or fruits of every form of worship.
 
+### Why correction need not end appearance or action
+
+What changes when instruction succeeds? Śaṅkara’s answer connects understanding, mistaken self-ascription and the effects of past action. It also explains why a person’s continuing activity need not undo knowledge.
+
+At Brahmasūtrabhāṣya 4.1.2 an opponent asks why repeating a sentence should succeed after its first utterance failed. Śaṅkara distinguishes the hearer who understands at once from the hearer whose grasp of its words is obstructed:
+
+> tatra yeṣām etau padārthau ajñānasaṃśayaviparyayapratibaddhau teṣāṃ tattvamasi ityetad vākyaṃ svārthe pramāṃ na utpādayituṃ śaknoti padārthajñānapūrvakatvād vākyārthajñānasya |
+
+Literal translation: There, for those for whom these two word-meanings are obstructed by ignorance, doubt and error, the sentence “you are that” cannot produce valid cognition of its own meaning, because knowledge of sentence-meaning presupposes knowledge of word-meanings. [Brahmasūtrabhāṣya 4.1.2](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/4/).
+
+Repeated instruction has a particular job: discriminate the intended referent from the bodily and mental features superimposed upon it. Several misapprehensions can be removed successively while the self understood remains partless. The same reply distinguishes this preparation from the successful understanding that removes ignorance. A model must therefore represent what a learner misunderstands and how the instruction addresses it. Counting repetitions would explain nothing about their success.
+
+This also changes how we represent correction. Suppose a learner accepts \(p\), \(q\), and the inference \(p\land q\Rightarrow d\). Deleting the conclusion \(d\) leaves the grounds for deriving it again. A better reconstruction records the grounds of the ascription and the reason one of them is defeated. In Śaṅkara’s argument, a presentation such as “I suffer” can remain while its promotion into a claim about the self’s intrinsic nature is challenged. Positive self-understanding still requires the understood teaching and its authority; removing one error does not supply every premise.
+
+Brahmasūtrabhāṣya 4.1.15 introduces a further objection. If knowledge cancels ignorance and its binding consequences, why should it destroy some consequences while leaving others? Śaṅkara replies:
+
+> na tāvad anāśrityārabdhakāryaṃ karmāśayaṃ jñānotpattir upapadyate | āśrite ca tasmin kulālacakravat pravṛttavegasyāntarāle pratibandhāsambhavād bhavati vegakṣayapratipālanam |
+
+Literal translation: First, the arising of knowledge is not intelligible without depending on a karmic deposit whose effect has begun. Once that has been depended upon, because its already-started impetus cannot be interrupted midway, as with a potter’s wheel, there is waiting for the exhaustion of the impetus. [Brahmasūtrabhāṣya 4.1.15](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/4/).
+
+Dependence on an existing support and the impossibility of interrupting its impetus are distinct premises. The first alone would not establish the second. Śaṅkara continues:
+
+> bādhitam api tu mithyājñānaṃ dvicandrajñānavat saṃskāravaśāt kañcitkālam anuvartata eva |
+
+Literal translation: But false cognition, even though cancelled, continues for some time through the force of an impression, like cognition of two moons. [Brahmasūtrabhāṣya 4.1.15](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/4/).
+
+The source calls the continuing cognition both false and cancelled. We can represent this by distinguishing a misleading appearance from its accepted authority. The historical occurrence remains; the corrected attribution no longer supplies the same binding ground. At 4.1.19, Śaṅkara answers the objection that the remainder might generate an endless new series: its continuation depends on the remaining experience, while the seed for a further binding series has been burnt by knowledge.
+
+A small mathematical construction makes this distinction testable. Let a state record the learner’s presentations and accepted grounds, unbegun capacities, and effects already underway. Let \(K\) represent successful, warranted understanding and its stated effects. Let \(A_k\) represent activation of one unbegun capacity \(k\), under the requisite ignorance and causal occasion. These are **partial functions**: an operation is defined only in states meeting its conditions. Undefined means that this specified operation cannot occur there.
+
+Choose a state \(s\) with an existing support for embodiment and an active unbegun capacity \(k\). The learner is semantically prepared but has not yet undergone the successful teaching event: \(K\) is that very warranted sentence-understanding, not a further act activating knowledge already acquired. The relevant causal occasion for \(A_k\) is also present. If \(A_k\) occurs first, \(k\)’s effect has begun when \(K\) occurs. If \(K\) occurs first, it blocks \(k\)’s unbegun efficacy, so \(A_k\) is then unavailable:
+
+\[
+\begin{gathered}
+(K\circ A_k)(s)\text{ is defined},\\
+(A_k\circ K)(s)\text{ is undefined}.
+\end{gathered}
+\]
+
+As usual, the rightmost function acts first. The distinction concerns the operations’ domains as well as their results.
+
+Sets and partial functions form a category, \(\operatorname{Par}(\mathbf{Set})\). Its identity is the everywhere-defined identity function. To compose \(f\) with \(g\), retain precisely the inputs on which \(f\) is defined and its output lies in the domain of \(g\); the result is \(g(f(x))\). Both ways of composing three operations require the same three successive conditions and return the same result, so composition is associative.
+
+This gives category theory a specific task. Assign each permitted command its partial function and a command sequence its composite. An empty sequence acts as the identity. If we now identify every sequence with its reordering, the displayed pair would have to act identically. They do not. An order-insensitive representation therefore loses the distinction that answers the source’s objection.
+
+Continued action needs its own conditions too. Gītābhāṣya 4.19–22 distinguishes the withdrawn knower’s bodily subsistence from worldly maintenance. In the selected engaged case before 4.20, abandonment of the undertaken activity is for some reason impossible; the knower continues for maintaining the world, without attachment to action or its fruit and without a purpose of their own. Knowledge concerns the actionless self. The explanation of 4.21 expressly rejects treating every bodily deed as covered by the subsistence permission. A faithful continuation rule retains these distinct purposes and conditions. It permits the specified activity and impression-conditioned residual appearance without automatically restoring intrinsic-agent assent or generating a new binding seed. [Gītābhāṣya 4.19–22](https://advaitasharada.sringeri.net/read/bhagavadgita-bhashya/4/).
+
+The source supplies the warrant and causal premises. The construction shows why preserving their order, conditions and distinct effects matters. From it we can recover both parts of Śaṅkara’s answer: knowledge can leave an already-operative embodied process while blocking the specified ground of renewed bondage.
+
 ### Gauḍapāda, Maṇḍana and Sureśvara: the work of practice
 
 Gauḍapāda distinguishes disciplined nonconceptuality from deep sleep:
@@ -6218,7 +6267,7 @@ The entries retain examined loci and author-specific next steps. Their formal st
 
 **Śaṅkara.** Upadeśasāhasrī I 18–19, II 1–2; BSB 1.1.4,2.1.14,2.2.28–29,2.3.7; ChU 6.3.2; BrU 1.4.10,5.1.1. [Śaṅkara, self and reflection](cite://shankara/upadesa-sahasri/category-self-reflection); [Śaṅkara, fullness commentary](cite://shankara/brhadaranyaka-bhashya/category-fullness-commentary).
 
-The article presents the selected correction and reflection arguments and a common model retaining specified cognitive mechanisms. **Next:** Derive a context-licensed tat/tvam reference rule from the selected semantic steps; separately add persistence of realization through embodied devotion.
+The article presents selected instruction, reflection and correction arguments. The worked continuation model distinguishes residual appearance, accepted attribution and begun versus unbegun efficacy; its partial operations preserve their causal order. **Next:** Extend the account of warranted cognition and reconstruct the common-Self argument, then examine the later Advaitins’ distinct explanations of continued realization and devotion.
 
 **Gauḍapāda, Māṇḍūkyakārikā author.** Āgamaśāstra 2.32;3.31–48. [Māṇḍūkyakārikā](cite://gaudapada/mandukya-karika/category-gaudapada).
 
