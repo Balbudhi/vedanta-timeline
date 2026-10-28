@@ -4189,6 +4189,61 @@ html[data-theme="dark"] .filter-bulk-btn { color: var(--muted); }
 html[data-theme="dark"] .filter-bulk-btn:hover { color: var(--ink); }
 html[data-theme="dark"] .filter-drawer { background: var(--bg); }
 
+/* The long category-theory course uses a book measure within the existing
+   reader; other article and translation typography remains unchanged. */
+.dp-article-body > article[data-article-slug="vedanta-category-theory"] {
+  max-width: 70ch;
+  margin-inline: auto;
+  font-size: 18px;
+  line-height: 1.65;
+}
+.dp-article-body > article[data-article-slug="vedanta-category-theory"] h1 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+.dp-article-body > article[data-article-slug="vedanta-category-theory"] h2 {
+  font-size: 24px;
+  line-height: 1.3;
+  margin-top: 2em;
+}
+.dp-article-body > article[data-article-slug="vedanta-category-theory"] h3 {
+  font-size: 18px;
+  line-height: 1.4;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.dp-article-body > article[data-article-slug="vedanta-category-theory"] table {
+  font-size: 16px;
+}
+.dp-article-body > article[data-article-slug="vedanta-category-theory"] .cite-fn-list {
+  font-size: 14px;
+}
+.dp-article-body > article[data-article-slug="vedanta-category-theory"] .cite-fn-attrib {
+  font-size: 13px;
+}
+
+/* Typeset equations stay within the article's existing reading measure.
+   Wide displays scroll locally; inline math retains KaTeX's line-break rules. */
+.dp-article-body .article-math .katex {
+  font-size: 1.05em;
+}
+.dp-article-body .article-math--display {
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 1em 0;
+  padding: .15em 0;
+}
+.dp-article-body .article-math--display > .katex-display {
+  margin: 0;
+}
+.dp-article-body .article-math-fallback,
+.dp-article-body .article-math .katex-error {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
 /* Final mobile app-bar compaction lives after the desktop component rules so
    their intrinsic label padding cannot leak back into the A/T and L/N cells. */
 @media (max-width: 720px) {

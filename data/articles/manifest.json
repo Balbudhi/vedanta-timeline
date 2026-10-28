@@ -1233,7 +1233,7 @@
     {
       "slug": "vedanta-category-theory",
       "title": "Vedānta and category theory",
-      "subtitle": "A course in self, manifestation, mathematical structure and integration.",
+      "subtitle": "A source-based course in selfhood, manifestation, category theory and the possibilities of integration.",
       "kind": "methodology",
       "source_doc": "data/articles/source/vedanta-category-theory.md",
       "tags": [
@@ -1242,22 +1242,11 @@
         "topos",
         "Sanskrit"
       ],
-      "word_count_approx": 27734,
-      "date": "2026-10-27"
-    },
-    {
-      "slug": "vedanta-category-research-plan",
-      "title": "Vedānta research plan by thinker",
-      "subtitle": "Examined texts, reconstructed arguments, formal beginnings and the next constructions.",
-      "kind": "methodology",
-      "source_doc": "data/articles/source/vedanta-category-research-plan.md",
-      "tags": [
-        "Vedānta",
-        "research",
-        "category theory"
-      ],
-      "word_count_approx": 3092,
-      "date": "2026-10-27"
+      "word_count_approx": 84097,
+      "date": "2026-10-28",
+      "aliases": [
+        "vedanta-category-research-plan"
+      ]
     }
   ]
 }

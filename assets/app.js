@@ -2122,8 +2122,27 @@ function restorePwaRoute() {
   } catch (_) {}
 }
 
+// An alias belongs directly to one canonical article. Ambiguous ownership is
+// never resolved by manifest order; publication validation reports the cause.
+function resolveArticleEntry(entries, slug) {
+  if (!Array.isArray(entries) || typeof slug !== "string" || !slug) return null;
+  let found = null;
+  for (const entry of entries) {
+    if (!entry || typeof entry.slug !== "string") continue;
+    const aliases = Array.isArray(entry.aliases)
+      ? entry.aliases.filter(alias => typeof alias === "string" && alias && !/[\s/?#]/.test(alias))
+      : [];
+    const matches = (entry.slug === slug ? 1 : 0) + aliases.filter(alias => alias === slug).length;
+    if (!matches) continue;
+    if (matches > 1 || found) return null;
+    found = entry;
+  }
+  return found;
+}
+
 const router = {
   _suspendSerialize: false,
+  _applyVersion: 0,
 
   parse(hash) {
     const h = (hash || "").replace(/^#\/?/, "").replace(/^\/+/, "");
@@ -2180,6 +2199,8 @@ const router = {
 
   apply(parsed) {
     if (!parsed) return;
+    const applyVersion = ++this._applyVersion;
+    const requestedHash = location.hash;
     this._suspendSerialize = true;
     try {
       if (parsed.kind === "thinker") {
@@ -2194,12 +2215,18 @@ const router = {
         const list = parsed.kind === "perspective"
           ? ((perspectivesManifest && perspectivesManifest.perspectives) || [])
           : ((articlesManifest && articlesManifest.articles) || []);
-        const found = list.find((a) => a.slug === parsed.slug);
+        const found = parsed.kind === "article"
+          ? resolveArticleEntry(list, parsed.slug)
+          : list.find((a) => a.slug === parsed.slug);
         if (found) {
           openArticle({ ...found, kind: parsed.kind });
         } else if (parsed.kind === "article") {
           ensureArticlesLoaded().then(() => {
-            const a = (articlesManifest && articlesManifest.articles || []).find((x) => x.slug === parsed.slug);
+            // Loading the manifest must not reopen a route the user has left
+            // or a reader they have closed. This guards the lazy open only;
+            // it is not a cancellation mechanism for article body fetches.
+            if (this._applyVersion !== applyVersion || location.hash !== requestedHash) return;
+            const a = resolveArticleEntry(articlesManifest && articlesManifest.articles, parsed.slug);
             if (a) openArticle(a);
           });
         } else {
@@ -3948,6 +3975,19 @@ function lookupCitationEntry(key) {
   return null;
 }
 
+// New multilingual witnesses require explicit verification. Legacy Sanskrit
+// presentation keeps precedence; an English original is not a translation.
+function citationOriginal(entry) {
+  if (!entry || entry.verified !== true || entry.sanskrit_iast || entry.source_language === "Sanskrit" || !entry.original_text) return null;
+  const language = entry.source_language || "source text";
+  return {
+    text: entry.romanized_text || entry.original_text,
+    label: `Original ${language}${entry.romanized_text ? " (romanized)" : ""}`,
+    english: language === "English",
+  };
+}
+
+
 // Interpretations are distinct from quotations. Optional metadata is plain text;
 // only an explicitly verified entry may supply an interpretive source note.
 function renderCitationSourceNotes(entry, surface) {
@@ -4009,10 +4049,11 @@ async function openCitationPopover(key, anchorEl) {
           ? `<em>${escape(entry.pending_target_work)}</em>${entry.pending_target_thinker ? ` (${escape(entry.pending_target_thinker)})` : ""} is not yet in our corpus in clean form.`
           : `The cited work is not yet in our corpus in clean form.`} The claim above relies on this work; its primary text is on the acquisition list. The text shown below is the locus on which it comments, included as context — not itself the attestation.${entry.pending_acquisition_note || entry.verification_note ? ` <em>${escape(entry.pending_acquisition_note || entry.verification_note)}</em>` : ""}</p></div>`
       : "";
+    const original = citationOriginal(entry);
     const sk = entry.sanskrit_iast
       ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${isPending ? "Sanskrit (IAST) — context" : "Verified witness (IAST)"}</span><div class="cp-sk">${mdVerse(entry.sanskrit_iast)}</div></div>`
-      : "";
-    const en = entry.english_close
+      : original ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${escape(original.label)}</span><div class="cp-sk">${mdVerse(original.text)}</div></div>` : "";
+    const en = entry.english_close && !original?.english
       ? `<div class="cp-block cp-english"><span class="cp-label">${isPending ? "Literal English — context" : "Literal English rendering"}</span><div class="cp-en">${md(entry.english_close)}</div></div>`
       : "";
     const openWork = t
@@ -4109,12 +4150,13 @@ const sourceTabState = {
   activeCiteKey: null,
 };
 
-// Citation-tab entry point. Falls back to the legacy bottom-sheet popover
-// on mobile (citations are short; full-screen overlay is overkill).
+// Article citations stay beside the reading: standalone articles hide the
+// thinker tabs, so replacing their pane would strand the reader in Citation.
+// Mobile retains its existing bottom-sheet popover; other desktop routes use
+// the citation tab, including route restoration without an anchor.
 async function openCitationPanel(key, anchorEl) {
-  if (isPanelMobile()) {
-    openCitationPopover(key, anchorEl);
-    return;
+  if (isPanelMobile() || anchorEl?.closest?.(".dp-article-body")) {
+    return openCitationPopover(key, anchorEl);
   }
   await loadCitationIndex();
   sourceTabState.activeCiteKey = key;
@@ -4178,6 +4220,7 @@ function renderCitationTab(key) {
   const pendingTargetThinker = entry && (entry.pending_target_thinker || "");
   const pendingNote = entry && (entry.pending_acquisition_note || entry.verification_note || "");
   const sourceNotes = renderCitationSourceNotes(entry, "panel");
+  const original = citationOriginal(entry);
   const anchorHtml = entry
     ? (isPending
         ? `
@@ -4209,9 +4252,9 @@ function renderCitationTab(key) {
     `
         : `
       <div class="cite-passage-anchor">
-        <div class="cpa-locus">${entry.sanskrit_iast || entry.english_close ? "Verified source passage" : "Source locus"} · ${escape(entry.locus_short || locusDisplay)}</div>
-        ${entry.sanskrit_iast ? `<div class="cpa-sk">${mdVerse(entry.sanskrit_iast)}</div>` : ""}
-        ${entry.english_close ? `<div class="cpa-en"><span class="cpa-translation-label">Literal English rendering</span>${md(entry.english_close)}</div>` : ""}
+        <div class="cpa-locus">${entry.sanskrit_iast || entry.english_close || original ? "Verified source passage" : "Source locus"} · ${escape(entry.locus_short || locusDisplay)}</div>
+        ${entry.sanskrit_iast ? `<div class="cpa-sk">${mdVerse(entry.sanskrit_iast)}</div>` : original ? `<div class="cpa-sk"><span class="cpa-translation-label">${escape(original.label)}</span>${mdVerse(original.text)}</div>` : ""}
+        ${entry.english_close && !original?.english ? `<div class="cpa-en"><span class="cpa-translation-label">Literal English rendering</span>${md(entry.english_close)}</div>` : ""}
         ${sourceNotes}
       </div>
     `)
@@ -4557,12 +4600,18 @@ function escape(s) {
 //   3. *x*      → italic. Lookbehind/lookahead forbid whitespace next to the
 //      asterisk (so "2 * 3" is left alone) but allow adjacency to punctuation
 //      and string boundaries ("*foo*-bar", "(*baz*)").
-//   4. `code`   → inline code.
+// Inline code is protected before these passes, so its literal stars cannot
+// pair with stars in another code span or in the surrounding prose.
 // Unpaired / lone asterisks are deliberately left as literal text.
 //
 // Pass { underscore: true } to also treat `_x_` as italic (only some surfaces
 // authored underscores; keeping it opt-in avoids touching prose like file_names).
 function applyEmphasis(out, opts) {
+  const codeSpans = [];
+  out = out.replace(/`([^`\n]+?)`/g, (_m, body) => {
+    codeSpans.push(`<code>${body}</code>`);
+    return `\u0001EMPHCODE${codeSpans.length - 1}\u0001`;
+  });
   out = out.replace(
     /\*\*\*(?=\S)([\s\S]*?\S)\*\*\*/g,
     (_m, inner) => `<strong><em>${convertItalic(inner)}</em></strong>`,
@@ -4575,7 +4624,7 @@ function applyEmphasis(out, opts) {
   if (opts && opts.underscore) {
     out = out.replace(/(^|[\s(\[])_([^_\n\s][^_\n]*?[^_\n\s]|[^_\n\s])_(?=[\s).,!?;:\]]|$)/g, "$1<em>$2</em>");
   }
-  out = out.replace(/`([^`\n]+?)`/g, "<code>$1</code>");
+  out = out.replace(/\u0001EMPHCODE(\d+)\u0001/g, (_m, i) => codeSpans[+i]);
   return out;
 }
 function convertItalic(out) {
@@ -4722,6 +4771,14 @@ function md(s) {
 // dangling separators that bordered the dropped text.
 function numberCitations(html, counter) {
   if (!html) return { html: "", footnotes: [] };
+  // KaTeX has nested spans and a literal TeX annotation. Protect the complete
+  // renderer-owned region before citation matching and prose cleanup; stopping
+  // at the first </span> would leave most of the expression exposed.
+  const math = [];
+  html = html.replace(/<!--article-math:start-->[\s\S]*?<!--article-math:end-->/g, (fragment) => {
+    math.push(fragment);
+    return `\u0001CITEMATH${math.length - 1}\u0001`;
+  });
   const ctr = counter || { n: 0 };
   const footnotes = [];
   // Track keys already seen in this counter run so repeated cites reuse N.
@@ -4769,6 +4826,7 @@ function numberCitations(html, counter) {
       prose = prose.replace(/\s+([,.;:])/g, "$1");
       return prose;
     }).join("");
+  out = out.replace(/\u0001CITEMATH(\d+)\u0001/g, (_m, i) => math[+i]);
   return { html: out, footnotes };
 }
 
@@ -5757,7 +5815,7 @@ async function openArticle(a) {
     const articleR = numberCitations(renderMarkdownFull(text), articleCtr);
     if (articleR.footnotes.length) await loadCitationIndex();
     const fnList = renderFootnoteList(articleR.footnotes);
-    dpArticleBody.innerHTML = `<article>${articleR.html}${fnList}</article>`;
+    dpArticleBody.innerHTML = `<article data-article-slug="${escape(a.slug || "")}">${articleR.html}${fnList}</article>`;
     // Full primary-language passages use the same interactive reader as the
     // Gītā pages; prose only supplies their placement markers.
     if (a.passages_doc) {
@@ -5796,13 +5854,55 @@ async function openArticle(a) {
 //      emits a side-by-side panel that collapses to stacked at <=720 px;
 //  (2) tags glossary terms with <span class="term"> so the global delegation
 //      handler can open the glossary popover (parity with thinker prose);
-//  (3) preserves cite:// links so the citation popover / panel handler fires.
+//  (3) preserves cite:// links so the citation popover / panel handler fires;
+//  (4) typesets explicit \(...\) and \[...\] math with the pinned local KaTeX.
+function renderArticleMath(tex, display) {
+  const tag = display ? "div" : "span";
+  const className = "article-math" + (display ? " article-math--display" : "");
+  let content;
+  try {
+    if (typeof katex === "undefined") throw new Error("Math renderer unavailable");
+    content = katex.renderToString(tex, {
+      displayMode: display,
+      output: "htmlAndMathml",
+      throwOnError: false,
+      trust: false,
+    });
+  } catch (_) {
+    const literal = display ? `\\[${tex}\\]` : `\\(${tex}\\)`;
+    content = `<code class="article-math-fallback">${escape(literal)}</code>`;
+  }
+  return `<!--article-math:start--><${tag} class="${className}">${content}</${tag}><!--article-math:end-->`;
+}
+
+// Code has already been removed. Only explicit, unescaped delimiter pairs
+// introduce math: dollars remain prose, and unmatched openers remain visible.
+function extractArticleMath(src, math) {
+  const escaped = (at) => {
+    let slashes = 0;
+    for (let i = at - 1; i >= 0 && src[i] === "\\"; i--) slashes++;
+    return slashes % 2 === 1;
+  };
+  let out = "", copied = 0;
+  for (let start = 0; start < src.length - 1; start++) {
+    if (src[start] !== "\\" || escaped(start)) continue;
+    const opener = src[start + 1];
+    if (opener !== "(" && opener !== "[") continue;
+    const closer = opener === "(" ? ")" : "]";
+    let end = start + 2;
+    while (end < src.length - 1 && !(src[end] === "\\" && src[end + 1] === closer && !escaped(end))) end++;
+    if (end >= src.length - 1) continue;
+    const display = opener === "[";
+    const token = `\u0001ARTICLEMATH${math.length}\u0001`;
+    math.push({ display, html: renderArticleMath(src.slice(start + 2, end).trim(), display) });
+    out += src.slice(copied, start) + (display ? `\n\n${token}\n\n` : token);
+    copied = end + 2;
+    start = copied - 1;
+  }
+  return out + src.slice(copied);
+}
+
 function renderMarkdownFull(src) {
-  // Normalize informal citation idioms (`(<cite://X>)`, `[[X](cite://Y)]`)
-  // into the canonical `[X](cite://Y)` form before any escaping runs. The
-  // pass is idempotent and only rewrites text that already contains a
-  // `cite://` URL, so plain prose is untouched.
-  src = normalizeCitationSyntax(src);
   const esc = (s) => s.replace(/[&<>]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
   const gitaPassages = [];
   src = src.replace(/^::: gita-passage ([^\n]+)\n:::\s*$/gm, (_m, id) => {
@@ -5835,6 +5935,17 @@ function renderMarkdownFull(src) {
     blocks.push(`<pre><code>${esc(body)}</code></pre>`);
     return `BLOCK${blocks.length-1}`;
   });
+  // Inline code must be literal before math, emphasis, links or glossary work.
+  // Unlike applyEmphasis's other callers, this source has not been escaped yet.
+  const codeSpans = [];
+  src = src.replace(/`([^`\n]+?)`/g, (_m, body) => {
+    codeSpans.push(`<code>${esc(body)}</code>`);
+    return `\u0001ARTICLECODE${codeSpans.length - 1}\u0001`;
+  });
+  const math = [];
+  src = extractArticleMath(src, math);
+  // Citation normalization applies to prose, never literal code or TeX.
+  src = normalizeCitationSyntax(src);
   // Tables (simple GFM)
   src = src.replace(/((?:^\|.*\|\s*\n)+)/gm, (m) => {
     const rows = m.trim().split("\n").map((r) => r.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim()));
@@ -5898,6 +6009,13 @@ function renderMarkdownFull(src) {
     const l = linkStash[+i];
     return `<a href="${l.href}" target="_blank" rel="noopener">${l.visible}</a>`;
   });
+  // Display expressions occupy a whole block. Remove only their temporary
+  // paragraph wrapper; an inline expression on its own remains a paragraph.
+  out = out.replace(/<p>\s*\u0001ARTICLEMATH(\d+)\u0001\s*<\/p>/g, (whole, i) => (
+    math[+i].display ? math[+i].html : whole
+  ));
+  out = out.replace(/\u0001ARTICLEMATH(\d+)\u0001/g, (_m, i) => math[+i].html);
+  out = out.replace(/\u0001ARTICLECODE(\d+)\u0001/g, (_m, i) => codeSpans[+i]);
   // restore code blocks and sanskrit-aside blocks
   out = out.replace(/BLOCK(\d+)/g, (_, i) => blocks[+i]);
   out = out.replace(/SKASIDE(\d+)/g, (_, i) => {

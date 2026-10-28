@@ -99,6 +99,41 @@ async function render(entry) {
     assert.ok(html.includes("The self.") && html.includes("Edition scope.") && html.includes("Read source"), "literal entries also expose edition metadata");
     assert.ok(!html.includes("Interpretive source note"));
   }
+  const englishOriginal = { verified: true, source_language: "English", original_text: "An original English statement.", english_close: "An original English statement." };
+  for (const html of await render(englishOriginal)) {
+    assert.ok(html.includes("Original English"), "English original is named as original");
+    assert.equal(html.split(englishOriginal.original_text).length - 1, 1, "English original is not duplicated as a translation");
+    assert.ok(!html.includes("Literal English rendering"), "original English is not a translation");
+  }
+  const bengaliOriginal = { verified: true, source_language: "Bengali", original_text: "মূল পাঠ", romanized_text: "Mūla pāṭha <img>", english_close: "Root text." };
+  for (const html of await render(bengaliOriginal)) {
+    assert.ok(html.includes("Original Bengali (romanized)"));
+    assert.ok(html.includes("Mūla pāṭha &lt;img&gt;") && !html.includes("<img>"), "romanization is escaped");
+    assert.ok(html.includes("Literal English rendering") && html.includes("Root text."));
+  }
+  for (const html of await render({ verified: true, source_language: "Other <language>", original_text: "Witness <text>" })) {
+    assert.ok(html.includes("Original Other &lt;language&gt;") && html.includes("Witness &lt;text&gt;"));
+  }
+  for (const html of await render({ verified: true, source_language: "Bengali", original_text: "মূল পাঠ", english_close: "Root text." })) {
+    assert.ok(html.includes("মূল পাঠ") && html.includes("Original Bengali") && !html.includes("(romanized)"));
+    assert.ok(html.includes("Root text.") && html.includes("Literal English rendering"));
+  }
+  for (const html of await render({ verified: true, source_language: "English", original_text: "English only." })) {
+    assert.equal(html.split("English only.").length - 1, 1);
+    assert.ok(html.includes("Original English"));
+  }
+  assert.ok(panel.innerHTML.includes("Verified source passage"), "an original-only record is a verified source passage");
+  for (const html of await render({ ...legacy, source_language: "Sanskrit", original_text: "SHOULD NOT DUPLICATE" })) {
+    assert.ok(html.includes("ātman") && !html.includes("SHOULD NOT DUPLICATE"));
+  }
+  for (const verified of [false, "pending-acquisition", undefined]) {
+    for (const html of await render({ verified, source_language: "Bengali", original_text: "WITHHELD ORIGINAL", romanized_text: "WITHHELD ROMANIZATION" })) {
+      assert.ok(!html.includes("WITHHELD"), "new original fields require verified true");
+    }
+  }
+  for (const html of await render({ verified: true, source_language: "Sanskrit", original_text: "LEGACY ORIGINAL ONLY" })) {
+    assert.ok(!html.includes("LEGACY ORIGINAL ONLY"), "Sanskrit original-only legacy behavior is unchanged");
+  }
   context.state.thinkersById.set("outside-author", {
     name_iast: "Known thinker", engaged_works: [{ work_id: "example-work", title_iast: "Known work" }],
   });
@@ -106,5 +141,30 @@ async function render(entry) {
     assert.ok(html.includes('data-thinker-id="outside-author"'), "known thinker action retained");
     assert.ok(html.includes("Known thinker") && html.includes("Known work"), "existing identity metadata retains priority");
   }
+  let mobile = false;
+  const routeCalls = [];
+  context.isPanelMobile = () => mobile;
+  let storageWrites = 0;
+  context.localStorage = { setItem() { storageWrites++; } };
+  context.panelState = { loaded: {} };
+  context.showTab = (tab) => routeCalls.push(["tab", tab]);
+  context.openPanel = (tab) => routeCalls.push(["panel", tab]);
+  context.router = { push: (route) => routeCalls.push(["route", route.kind]) };
+  context.state.citationIndex.entries = { [key]: englishOriginal };
+  const articleAnchor = { ...anchor, closest: (selector) => selector === ".dp-article-body" ? {} : null };
+  panel.innerHTML = "ARTICLE PANEL RETAINED";
+  await context.openCitationPanel(key, articleAnchor);
+  assert.equal(routeCalls.length, 0, "desktop article citation must not change tabs, panel or URL");
+  assert.equal(panel.innerHTML, "ARTICLE PANEL RETAINED");
+  assert.equal(storageWrites, 0, "article popover does not persist a replacement citation route");
+  assert.ok(popup.innerHTML.includes("Original English"), "desktop article opens source popover");
+  await context.openCitationPanel(key, anchor);
+  assert.deepEqual(routeCalls, [["tab", "citation"], ["panel", "citation"], ["route", "citation"]], "ordinary desktop thinker citation keeps its panel route");
+  routeCalls.length = 0;
+  await context.openCitationPanel(key, null);
+  assert.deepEqual(routeCalls, [["tab", "citation"], ["panel", "citation"], ["route", "citation"]], "desktop route restoration without an anchor retains the citation panel");
+  routeCalls.length = 0; mobile = true;
+  await context.openCitationPanel(key, anchor);
+  assert.equal(routeCalls.length, 0, "mobile citation keeps its existing popover route");
   console.log("Citation source notes: both callers preserve literals, escape metadata, gate interpretation, validate URLs, and resolve author actions.");
 })().catch(error => { console.error(error); process.exitCode = 1; });
