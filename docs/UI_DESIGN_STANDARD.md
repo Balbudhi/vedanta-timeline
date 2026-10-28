@@ -186,7 +186,8 @@ its blue palette and page layout are not adopted here.
 scholarly numbering may be retained as source content, with readable named actions
 and accessible labels. Print can use numbered endnotes. Existing generated website
 references retain their numbers during migration,
-but render at the text baseline in neutral reference ink, with a dotted underline
+but render at the text baseline in regular weight (400) and secondary ink
+(`--ink-soft`), slightly quieter than the prose, with a dotted underline
 and visible keyboard focus. Their size is 0.8em with a .8125rem minimum; no negative
 margins or overlapping expanded hit boxes. Named references remain the target.
 Do not apply this generated-marker treatment to an original author’s superscripts.

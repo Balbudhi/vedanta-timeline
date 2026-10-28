@@ -3872,10 +3872,10 @@ sup.cite-fn {
   vertical-align: baseline;
   line-height: inherit;
   margin-inline: .15em;
-  font-weight: 600;
+  font-weight: 400;
 }
 sup.cite-fn .cite-fn-link {
-  color: var(--reference-ink);
+  color: var(--ink-soft);
   text-decoration: underline dotted;
   text-underline-offset: .18em;
   border: 0;
