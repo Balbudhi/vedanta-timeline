@@ -495,12 +495,11 @@ async function loadSupportData(manifest) {
 }
 
 async function loadAll() {
-  const [manifest, timelineIndex, schools, subSchools, primitiveGraph] = await Promise.all([
+  const [manifest, timelineIndex, schools, subSchools] = await Promise.all([
     loadJSON("data/manifest.json"),
     loadJSON("data/timeline_index.json"),
     loadJSON("data/registries/schools.json"),
     loadJSON("data/registries/sub_schools.json"),
-    loadJSON("data/registries/primitive_graph.json"),
   ]);
   if (!manifest) {
     showEmptyState("No data yet — corpus pipeline is still populating.");
@@ -508,8 +507,6 @@ async function loadAll() {
   }
   state.schools = schools || {};
   state.subSchools = subSchools || {};
-  state.primitiveGraph = primitiveGraph || null;
-  try { window.__primitiveGraph = state.primitiveGraph; } catch (_) {}
 
   const hasTimelineIndex = Array.isArray(timelineIndex?.thinkers);
   const thinkers = hasTimelineIndex
@@ -537,8 +534,6 @@ async function loadAll() {
   state.fullTranslationSet = new Set();
 
   computeRange();
-  computeRenderLanes();
-  computeLayout();
   renderAll();
   renderFilterChips();
   updateSubtitle();
@@ -941,7 +936,10 @@ function computeNetworkLayout() {
     return ((al + aChronology.highForLayout) / 2) - ((bl + bChronology.highForLayout) / 2);
   });
 
-  const placed = []; // [{x, y, r, id}]
+  // Only nodes less than X_PAD apart horizontally can collide. Keep each
+  // placed node in one x bucket; probing the adjacent buckets preserves the
+  // original collision rule without rescanning distant centuries per slot.
+  const placedByX = new Map();
   const STEP = 18;
   const X_PAD = 60;
   const Y_PAD = 26;
@@ -958,6 +956,14 @@ function computeNetworkLayout() {
     const xMid = yearToX((chronology.low + chronology.highForLayout) / 2);
     const x1 = yearToX(chronology.low);
     const x2 = yearToX(chronology.highForLayout);
+
+    const xBucket = Math.floor(xMid / X_PAD);
+    const neighbors = [];
+    for (let bucket = xBucket - 1; bucket <= xBucket + 1; bucket++) {
+      for (const point of (placedByX.get(bucket) || [])) {
+        if (Math.abs(point.x - xMid) < X_PAD) neighbors.push(point);
+      }
+    }
 
     // Lineage gravity: average y of already-placed predecessors.
     let lineageY = null;
@@ -985,7 +991,7 @@ function computeNetworkLayout() {
       for (const off of offsets) {
         const y = Math.max(minTop, Math.min(maxTop, desiredY + off));
         let conflict = false;
-        for (const q of placed) {
+        for (const q of neighbors) {
           if (Math.abs(q.x - xMid) < X_PAD && Math.abs(q.y - y) < (Y_PAD + (q.r + dotR) * 0.5)) {
             conflict = true;
             break;
@@ -995,7 +1001,9 @@ function computeNetworkLayout() {
       }
     }
 
-    placed.push({ x: xMid, y: chosenY, r: dotR, id: t.id });
+    const bucket = placedByX.get(xBucket) || [];
+    bucket.push({ x: xMid, y: chosenY, r: dotR, id: t.id });
+    placedByX.set(xBucket, bucket);
     state.layout.set(t.id, {
       thinker: t, x: xMid, y: chosenY,
       lane: 0, shade: shadeFor(t), tier,
@@ -1323,7 +1331,8 @@ function computeLaneLabelPlacements(layoutValues, {
   const GAP_Y = 4;           // min vertical breathing room between labels
   const MAX_LABEL_SLOTS = 22;
   const laneInset = compact ? 1 : 3;
-  const placedByLane = new Map();
+  const bucketsByLane = new Map();
+  const LABEL_BUCKET_WIDTH = 120;
   const placements = new Map();
   const sortedLayout = [...layoutValues].sort((a, b) =>
     (laneLocal ? a.lane - b.lane : 0) || a.x - b.x);
@@ -1339,8 +1348,18 @@ function computeLaneLabelPlacements(layoutValues, {
       ? (p.lane + 1) * laneHeight - laneInset
       : plotBottom - 4;
     const laneKey = laneLocal ? p.lane : "plot";
-    const placedBoxes = placedByLane.get(laneKey) || [];
-    placedByLane.set(laneKey, placedBoxes);
+    const buckets = bucketsByLane.get(laneKey) || new Map();
+    bucketsByLane.set(laneKey, buckets);
+    // A rejected slot has a neighbor within GAP_X/GAP_Y, so its nearest
+    // distance is at most hypot(GAP_X, GAP_Y). The wider sum is a cheap
+    // conservative bound: boxes outside this x window can affect neither
+    // overlap nor the fallback clearance ranking.
+    const clearanceMargin = GAP_X + GAP_Y;
+    const nearby = new Set();
+    for (let bucket = Math.floor((x1 - clearanceMargin) / LABEL_BUCKET_WIDTH);
+      bucket <= Math.floor((x2 + clearanceMargin) / LABEL_BUCKET_WIDTH); bucket++) {
+      for (const box of (buckets.get(bucket) || [])) nearby.add(box);
+    }
     const boxFor = (slot) => {
       const where = slot % 2 === 0 ? "above" : "below";
       const dy = LABEL_BASE + Math.floor(slot / 2) * LABEL_TIER_DY;
@@ -1349,9 +1368,13 @@ function computeLaneLabelPlacements(layoutValues, {
       const inBounds = y1 >= laneTop && y2 <= laneBottom;
       return { where, dy, x1, x2, y1, y2, inBounds };
     };
-    const overlaps = (b) => placedBoxes.some((q) =>
-      !(q.x2 < b.x1 - GAP_X || q.x1 > b.x2 + GAP_X ||
-        q.y2 < b.y1 - GAP_Y || q.y1 > b.y2 + GAP_Y));
+    const overlaps = (b) => {
+      for (const q of nearby) {
+        if (!(q.x2 < b.x1 - GAP_X || q.x1 > b.x2 + GAP_X ||
+          q.y2 < b.y1 - GAP_Y || q.y1 > b.y2 + GAP_Y)) return true;
+      }
+      return false;
+    };
     let placed = null;
     let bestBox = null;
     let bestClearance = -Infinity;
@@ -1361,10 +1384,12 @@ function computeLaneLabelPlacements(layoutValues, {
       if (!overlaps(b)) { placed = b; break; }
       // Track the least-bad fallback by max nearest-neighbour clearance.
       let clr = Infinity;
-      for (const q of placedBoxes) {
+      for (const q of nearby) {
         const dx = Math.max(q.x1 - b.x2, b.x1 - q.x2, 0);
         const dyv = Math.max(q.y1 - b.y2, b.y1 - q.y2, 0);
-        const d = Math.hypot(dx, dyv);
+        // Only the ordering of distances matters. Squared distance retains
+        // the same closest-box/fallback ordering without a square root.
+        const d = dx * dx + dyv * dyv;
         if (d < clr) clr = d;
       }
       if (clr > bestClearance) { bestClearance = clr; bestBox = b; }
@@ -1387,7 +1412,13 @@ function computeLaneLabelPlacements(layoutValues, {
         placed = { where: "below", dy: Math.max(0, y1 - p.y), x1, x2, y1, y2 };
       }
     }
-    placedBoxes.push({ x1: placed.x1, x2: placed.x2, y1: placed.y1, y2: placed.y2 });
+    const box = { x1: placed.x1, x2: placed.x2, y1: placed.y1, y2: placed.y2 };
+    for (let bucket = Math.floor(box.x1 / LABEL_BUCKET_WIDTH);
+      bucket <= Math.floor(box.x2 / LABEL_BUCKET_WIDTH); bucket++) {
+      const boxes = buckets.get(bucket) || [];
+      boxes.push(box);
+      buckets.set(bucket, boxes);
+    }
     placements.set(t.id, placed);
   }
 
@@ -1647,50 +1678,58 @@ function wirePanZoom() {
   let zoomStartPpy = 0;
   let zoomVisualSx = 1;       // accumulated scale since zoom-start
   let zoomTx = 0;             // accumulated translateX in screen px
-  let zoomScrollLeft = 0;     // scroller.scrollLeft frozen at zoom-start
+  let zoomScrollLeft = 0;     // scroll position at the latest zoom input
   let zoomRailOffset = 0;     // canvas natural left within scroller content
   let zoomScrollerLeft = 0;   // scroller.getBoundingClientRect().left
   let zoomLastCursorX = 0;    // last clientX (for commit anchor)
-  let zoomRafPending = false;
+  let zoomRaf = 0;
   let zoomEndTimer = 0;
   let zoomPendingFactor = 1;
   let zoomPendingCursorX = 0;
-  // Re-applies the transform on the next animation frame. Multiple wheel
-  // events within the same frame are coalesced into one matrix update.
+  function applyPendingZoom() {
+    if (!zoomActive) return;
+    // Resolve cx under cursor in canvas coords using the CURRENT transform,
+    // then apply pendingFactor about that anchor.
+    const screenBase = zoomScrollerLeft - zoomScrollLeft + zoomRailOffset;
+    const cursorScreenX = zoomPendingCursorX;
+    const cxAnchor = (cursorScreenX - screenBase - zoomTx) / zoomVisualSx;
+    const factor = zoomPendingFactor;
+    zoomPendingFactor = 1;
+    let newSx = zoomVisualSx * factor;
+    // Clamp visual scale so it can't exceed effective pxPerYear bounds.
+    const minSx = 0.6 / zoomStartPpy;
+    const maxSx = 6 / zoomStartPpy;
+    newSx = Math.max(minSx, Math.min(maxSx, newSx));
+    if (newSx === zoomVisualSx) return;
+    const newTx = cursorScreenX - screenBase - cxAnchor * newSx;
+    zoomVisualSx = newSx;
+    zoomTx = newTx;
+    canvas.style.transform = `translate3d(${newTx}px,0,0) scaleX(${newSx})`;
+  }
+  // Multiple wheel events in one frame share one matrix update. The identity
+  // guard also makes a cancelled old callback harmless to a later gesture.
   function scheduleZoomFrame() {
-    if (zoomRafPending) return;
-    zoomRafPending = true;
-    requestAnimationFrame(() => {
-      zoomRafPending = false;
-      // Resolve cx under cursor in canvas coords using the CURRENT transform,
-      // then apply pendingFactor about that anchor.
-      const screenBase = zoomScrollerLeft - zoomScrollLeft + zoomRailOffset;
-      const cursorScreenX = zoomPendingCursorX;
-      const cxAnchor = (cursorScreenX - screenBase - zoomTx) / zoomVisualSx;
-      const factor = zoomPendingFactor;
-      zoomPendingFactor = 1;
-      let newSx = zoomVisualSx * factor;
-      // Clamp visual scale so it can't exceed effective pxPerYear bounds.
-      const minSx = 0.6 / zoomStartPpy;
-      const maxSx = 6 / zoomStartPpy;
-      newSx = Math.max(minSx, Math.min(maxSx, newSx));
-      if (newSx === zoomVisualSx) return;
-      const newTx = cursorScreenX - screenBase - cxAnchor * newSx;
-      zoomVisualSx = newSx;
-      zoomTx = newTx;
-      // translateZ(0) forces the canvas onto its own composited layer so
-      // Gecko/WebKit treat the per-frame scaleX as a cheap matrix update
-      // instead of re-rasterizing the multi-thousand-px layer each frame.
-      canvas.style.transform = `translate3d(${newTx}px,0,0) scaleX(${newSx})`;
+    if (zoomRaf) return;
+    const frame = requestAnimationFrame(() => {
+      if (zoomRaf !== frame) return;
+      zoomRaf = 0;
+      applyPendingZoom();
     });
+    zoomRaf = frame;
   }
   // Folds the visual scale into pxPerYear, re-runs layout, restores scroll.
   function commitZoom() {
     if (zoomEndTimer) { clearTimeout(zoomEndTimer); zoomEndTimer = 0; }
     if (!zoomActive) return;
+    // Touch/gesture end or a click can arrive before the next frame. Consume
+    // its queued delta now and prevent a late frame restoring the transform.
+    if (zoomRaf) { cancelAnimationFrame(zoomRaf); zoomRaf = 0; }
+    applyPendingZoom();
     const newPpy = Math.max(0.6, Math.min(6, zoomStartPpy * zoomVisualSx));
     // Compute the year that's currently under the cursor (in pre-commit coords).
-    const screenBase = zoomScrollerLeft - zoomScrollLeft + zoomRailOffset;
+    // Native scroll/scrollbar movement may have occurred since the last zoom
+    // input. Keep that movement while converting the existing transform.
+    const screenBase = zoomScrollerLeft - scroller.scrollLeft + zoomRailOffset;
     const cxAnchor = (zoomLastCursorX - screenBase - zoomTx) / zoomVisualSx;
     const yearAtCursor = state.range.low + (cxAnchor - PAD_LEFT) / zoomStartPpy;
     // Reset transform first so subsequent layout/render writes are crisp.
@@ -1701,7 +1740,6 @@ function wirePanZoom() {
     zoomActive = false;
     if (newPpy !== state.pxPerYear) {
       state.pxPerYear = newPpy;
-      computeLayout();
       renderAll();
     }
     // Restore scrollLeft so the same year stays under the cursor.
@@ -1725,6 +1763,9 @@ function wirePanZoom() {
   }
 
   scroller.addEventListener("wheel", (e) => {
+    // Finish the preceding zoom before applying Shift pan or allowing native
+    // wheel scrolling; its idle commit must not overwrite the later movement.
+    if (!e.ctrlKey && !e.metaKey && zoomActive) commitZoom();
     if (e.ctrlKey || e.metaKey) {
       e.preventDefault();
       // Normalize delta. deltaMode=1 (LINE) → multiply; deltaMode=0 (PIXEL,
@@ -1734,14 +1775,14 @@ function wirePanZoom() {
       // Sensitivity matches the previous gesture: factor ≈ exp(-delta*0.0018).
       const factor = Math.exp(-clampedDelta * 0.0018);
       if (!zoomActive) startZoom(e);
-      // Re-snapshot scroller scrollLeft. If the user vertical-scrolled
-      // between zoom events (non-ctrl wheel may have native scroll), keep
-      // the visual transform consistent by compensating tx for the shift.
-      const newScrollLeft = scroller.scrollLeft;
-      if (newScrollLeft !== zoomScrollLeft) {
-        zoomTx += (newScrollLeft - zoomScrollLeft);
-        zoomScrollLeft = newScrollLeft;
-      }
+      // Anchor this input in the current scroll position. Keep the existing
+      // transform: compensating it for native pan would undo that movement.
+      const currentScrollLeft = scroller.scrollLeft;
+      // A prior input may still be queued when native momentum/scrollbar pan
+      // intervenes. Apply it at its original anchor before adopting the new
+      // scroll position; combining both factors here would reorder the pan.
+      if (currentScrollLeft !== zoomScrollLeft) applyPendingZoom();
+      zoomScrollLeft = currentScrollLeft;
       // Accumulate factor and cursor so the rAF callback handles the latest.
       zoomPendingFactor *= factor;
       zoomPendingCursorX = e.clientX;
@@ -1752,7 +1793,10 @@ function wirePanZoom() {
       zoomEndTimer = setTimeout(commitZoom, 140);
     } else if (e.shiftKey) {
       e.preventDefault();
-      scroller.scrollLeft += e.deltaY;
+      // Native Shift-wheel may already use the horizontal axis (Firefox).
+      // Normalize line/page units before applying the horizontal movement.
+      const unit = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? scroller.clientWidth : 1;
+      scroller.scrollLeft += (e.deltaX || e.deltaY) * unit;
     }
     // otherwise: native vertical scroll behavior
   }, { passive: false });
