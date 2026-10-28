@@ -4194,7 +4194,7 @@ html[data-theme="dark"] .filter-drawer { background: var(--bg); }
 .dp-article-body > article[data-article-slug="vedanta-category-theory"] {
   max-width: 70ch;
   margin-inline: auto;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.65;
 }
 .dp-article-body > article[data-article-slug="vedanta-category-theory"] h1 {
@@ -4207,19 +4207,19 @@ html[data-theme="dark"] .filter-drawer { background: var(--bg); }
   margin-top: 2em;
 }
 .dp-article-body > article[data-article-slug="vedanta-category-theory"] h3 {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
   text-transform: none;
   letter-spacing: normal;
 }
 .dp-article-body > article[data-article-slug="vedanta-category-theory"] table {
-  font-size: 16px;
+  font-size: 18px;
 }
 .dp-article-body > article[data-article-slug="vedanta-category-theory"] .cite-fn-list {
-  font-size: 14px;
+  font-size: 16px;
 }
 .dp-article-body > article[data-article-slug="vedanta-category-theory"] .cite-fn-attrib {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 /* Typeset equations stay within the article's existing reading measure.
