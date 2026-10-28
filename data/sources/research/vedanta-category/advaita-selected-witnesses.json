@@ -1,0 +1,49 @@
+{
+  "schema": "selected-primary-witness-v1",
+  "acquisition_date": "2026-10-27",
+  "scope": "Four exact institutional Sanskrit selections; source spellings retained, display normalization declared. Full pages and modern translations are not reproduced.",
+  "rights_basis": "Classical Sanskrit selections from named public institutional witnesses; site’s own literal translations and analysis are separate.",
+  "passages": [
+    {
+      "id": "category-purnam-invocation",
+      "locus": "Īśā Upaniṣad, opening invocation",
+      "source_url": "https://vedicheritage.gov.in/upanishads/ishavasyopanishad/",
+      "source_script": "Devanagari",
+      "source_text": "ॐ पूर्णमदः पूर्णमिदं पूर्णात् पूर्णमुदच्यते।\nपूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते॥\nॐ शान्तिः शान्तिः शान्तिः॥",
+      "transcription_status": "Institutional display directly checked; not a new critical edition.",
+      "textual_note": "Source-script wording and punctuation follow the Vedic Heritage Portal invocation. IAST spacing resolves word boundaries. The same two principal lines occur at Bṛhadāraṇyaka 5.1.1 in the held GRETIL witness; that is a separate locus.",
+      "sha256": "73e0a716d95c8bda5200a76c5e320457067b51e8df4f1dd76cca23fac9b82cef"
+    },
+    {
+      "id": "category-shatpadi-3",
+      "locus": "Viṣṇu Ṣaṭpadī 3",
+      "source_url": "https://www.kamakoti.org/shlokas/kshlok15.htm",
+      "source_script": "Devanagari",
+      "source_text": "सत्यपि भेदापगमे नाथ तवाहं न मामकीनस्त्वम् ।\nसामुद्रो हि तरङ्गः क्वचन समुद्रो न तारङ्गः ॥ ३॥",
+      "transcription_status": "Institutional display directly checked; not a new critical edition.",
+      "textual_note": "The source’s connected sandhi is preserved above; the word cards resolve it into sixteen tokens. The English is our literal rendering, not the institutional page’s interpretive English.",
+      "sha256": "ad2a7db149d339126c7e65f2700b2c9f9d15d838ca561724197d49efcda3eb36"
+    },
+    {
+      "id": "category-shankara-sadatmana",
+      "locus": "Śaṅkara, Chāndogya Upaniṣad Bhāṣya 6.3.2",
+      "source_url": "https://advaitasharada.sringeri.net/read/chandogya-bhashya/6/",
+      "source_script": "Devanagari",
+      "source_text": "सदात्मना सर्वव्यवहाराणां सर्वविकाराणां च सत्यत्वं सतोऽन्यत्वे च अनृतत्वमिति",
+      "transcription_status": "Institutional display directly checked; not a new critical edition.",
+      "textual_note": "This packet follows the institutional reading sato ’nyatve ca anṛtatvam. The held GRETIL witness instead reads sato ’nyatvenānṛtatvam, with an instrumental. The two witnesses are not silently blended; both express the contrast between reality as Being and untruth in separation/otherness.",
+      "sha256": "f250bd19eec6c0b13ba5d280621a02d9a45877fdbe7e7464e90facef077cb2b5"
+    },
+    {
+      "id": "category-madhusudana-context",
+      "locus": "Madhusūdana Sarasvatī, Advaitasiddhi I, second definition of mithyātva",
+      "source_url": "https://advaitasharada.sringeri.net/read/advaitasiddhi/1/",
+      "source_script": "Devanagari",
+      "source_text": "तच्च रूपं सम्बन्धविशेषोऽवच्छेदकविशेषश्च ।",
+      "transcription_status": "Institutional display directly checked; not a new critical edition.",
+      "textual_note": "Source display soft hyphens are omitted; no Sanskrit letters are changed. The continuation also considers a conditional alternative account of loci, so this sentence does not impose one universal Nyāya ontology.",
+      "sha256": "34a75ce54d447118b305ac2a8af62e9a9390d0cf81a202562b6fffdb741a3294"
+    }
+  ],
+  "independent_review": "Selected passages and all50 grammatical tokens independently reviewed; no whole-work certification."
+}

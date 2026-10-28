@@ -45,6 +45,8 @@ if require_command "Node.js runtime" node; then
     run_check "Chronology coverage report" node scripts/report_chronology_coverage.js
     run_check "Thinker references" node scripts/check_thinker_references.js
     run_check "Citation-link integrity" node scripts/check_citation_links.js
+    run_check "Citation source notes" node scripts/test_citation_source_notes.js
+    run_check "Article footnote metadata" node scripts/test_article_footnote_metadata.js
     run_check "Sanskrit reader completeness report" node scripts/report_reader_completeness.js
     run_check "Gita slot integrity" node scripts/validate_gita_slots.js
     run_check "Gita term consistency" node scripts/check_gita_terms.js

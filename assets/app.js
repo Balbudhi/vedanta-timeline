@@ -3948,6 +3948,30 @@ function lookupCitationEntry(key) {
   return null;
 }
 
+// Interpretations are distinct from quotations. Optional metadata is plain text;
+// only an explicitly verified entry may supply an interpretive source note.
+function renderCitationSourceNotes(entry, surface) {
+  if (!entry) return "";
+  const panel = surface === "panel";
+  const blockClass = panel ? "cpa-en" : "cp-block cp-english";
+  const labelClass = panel ? "cpa-translation-label" : "cp-label";
+  const block = (label, text) => `<div class="${blockClass}"><span class="${labelClass}">${label}</span><p>${escape(text)}</p></div>`;
+  let html = entry.verified === true && entry.evidence_note
+    ? block("Interpretive source note", entry.evidence_note)
+    : "";
+  if (entry.notes) html += block("Witness and scope", entry.notes);
+  const sourceUrl = typeof entry.source_url === "string" ? entry.source_url.trim() : "";
+  if (/^https?:\/\//i.test(sourceUrl)) {
+    try {
+      const url = new URL(sourceUrl);
+      if (url.protocol === "http:" || url.protocol === "https:") {
+        html += `<div class="${blockClass}"><p><a href="${escape(url.href)}" target="_blank" rel="noopener noreferrer">Read source ↗</a></p></div>`;
+      }
+    } catch (_) { /* Malformed source links are omitted. */ }
+  }
+  return html;
+}
+
 async function openCitationPopover(key, anchorEl) {
   await loadCitationIndex();
   // Single-popover discipline (managed centrally so we don't have to keep
@@ -3966,8 +3990,8 @@ async function openCitationPopover(key, anchorEl) {
   const wid = parts[1] || "";
   const loc = parts.slice(2).join("/");
   const t = state.thinkersById.get(tid);
-  const thinkerName = t ? (t.name_iast || t.name) : tid;
-  let workTitle = wid;
+  const thinkerName = t ? (t.name_iast || t.name) : (entry && entry.author_name) || tid;
+  let workTitle = (entry && entry.work_title) || wid;
   if (t) {
     const w = (t.engaged_works || []).find((x) => x.work_id === wid);
     if (w) workTitle = w.title_iast || w.title || wid;
@@ -3991,7 +4015,9 @@ async function openCitationPopover(key, anchorEl) {
     const en = entry.english_close
       ? `<div class="cp-block cp-english"><span class="cp-label">${isPending ? "Literal English — context" : "Literal English rendering"}</span><div class="cp-en">${md(entry.english_close)}</div></div>`
       : "";
-    const openWork = `<button class="cp-open-thinker" data-thinker-id="${escape(tid)}">Open ${escape(thinkerName)} →</button>`;
+    const openWork = t
+      ? `<button class="cp-open-thinker" data-thinker-id="${escape(tid)}">Open ${escape(thinkerName)} →</button>`
+      : "";
     const hasDossier = state.fullTranslationSet && state.fullTranslationSet.has(`${tid}__${wid}`);
     const openDossier = hasDossier
       ? `<button class="cp-open-dossier" data-work-id="${escape(wid)}" data-thinker-id="${escape(tid)}">Open annotated passage dossier →</button>`
@@ -4004,6 +4030,7 @@ async function openCitationPopover(key, anchorEl) {
       ${pendingBlock}
       ${sk}
       ${en}
+      ${renderCitationSourceNotes(entry, "popover")}
       <div class="cp-actions">${openDossier}${openWork}</div>
     `;
   } else {
@@ -4106,8 +4133,8 @@ function renderCitationTab(key) {
   const wid = parts[1] || "";
   const loc = parts.slice(2).join("/");
   const t = state.thinkersById.get(tid);
-  const thinkerName = t ? (t.name_iast || t.name) : tid;
-  let workTitle = wid;
+  const thinkerName = t ? (t.name_iast || t.name) : (entry && entry.author_name) || tid;
+  let workTitle = (entry && entry.work_title) || wid;
   if (t) {
     const w = (t.engaged_works || []).find((x) => x.work_id === wid);
     if (w) workTitle = w.title_iast || w.title || wid;
@@ -4150,6 +4177,7 @@ function renderCitationTab(key) {
   const pendingTargetWork = entry && (entry.pending_target_work || "");
   const pendingTargetThinker = entry && (entry.pending_target_thinker || "");
   const pendingNote = entry && (entry.pending_acquisition_note || entry.verification_note || "");
+  const sourceNotes = renderCitationSourceNotes(entry, "panel");
   const anchorHtml = entry
     ? (isPending
         ? `
@@ -4163,6 +4191,7 @@ function renderCitationTab(key) {
         </div>
         ${entry.sanskrit_iast ? `<div class="cpa-sk cpa-sk--context">${mdVerse(entry.sanskrit_iast)}</div>` : ""}
         ${entry.english_close ? `<div class="cpa-en cpa-en--context">${md(entry.english_close)}</div>` : ""}
+        ${sourceNotes}
       </div>
     `
         : entry.verified === false
@@ -4175,13 +4204,15 @@ function renderCitationTab(key) {
           the passage text is withheld until it can be verified against the
           primary text. ${entry.verification_note ? `<em>${escape(entry.verification_note)}</em>` : ""}
         </div>
+        ${sourceNotes}
       </div>
     `
         : `
       <div class="cite-passage-anchor">
-        <div class="cpa-locus">Verified source passage · ${escape(entry.locus_short || locusDisplay)}</div>
+        <div class="cpa-locus">${entry.sanskrit_iast || entry.english_close ? "Verified source passage" : "Source locus"} · ${escape(entry.locus_short || locusDisplay)}</div>
         ${entry.sanskrit_iast ? `<div class="cpa-sk">${mdVerse(entry.sanskrit_iast)}</div>` : ""}
         ${entry.english_close ? `<div class="cpa-en"><span class="cpa-translation-label">Literal English rendering</span>${md(entry.english_close)}</div>` : ""}
+        ${sourceNotes}
       </div>
     `)
     : `
@@ -4720,17 +4751,24 @@ function numberCitations(html, counter) {
   // </sup>)". When what remains inside the parens is purely a run of
   // superscript footnotes plus whitespace and short connective separators,
   // collapse to the superscripts alone.
-  out = out.replace(
-    /\(\s*((?:(?:see\s+|cf\.\s*|,\s*|;\s*|and\s+)*<sup class="cite-fn">[\s\S]*?<\/sup>\s*)+)\)/g,
-    (_m, inner) => inner.trim(),
-  );
-  // Collapse orphan separators left adjacent to the superscripts.
-  out = out.replace(/\(\s*,\s*/g, "(");
-  out = out.replace(/,\s*\)/g, ")");
-  out = out.replace(/\(\s*\)/g, "");
-  // Tidy double spaces produced by the strip.
-  out = out.replace(/[ \t]{2,}/g, " ");
-  out = out.replace(/\s+([,.;:])/g, "$1");
+  // Prose cleanup must not alter literal code or diagram alignment.
+  out = out.split(/(<pre\b[^>]*>[\s\S]*?<\/pre>|<code\b[^>]*>[\s\S]*?<\/code>)/gi)
+    .map((part, index) => {
+      if (index % 2) return part;
+      let prose = part;
+      prose = prose.replace(
+        /\(\s*((?:(?:see\s+|cf\.\s*|,\s*|;\s*|and\s+)*<sup class="cite-fn">[\s\S]*?<\/sup>\s*)+)\)/g,
+        (_m, inner) => inner.trim(),
+      );
+      // Collapse orphan separators left adjacent to the superscripts.
+      prose = prose.replace(/\(\s*,\s*/g, "(");
+      prose = prose.replace(/,\s*\)/g, ")");
+      prose = prose.replace(/\(\s*\)/g, "");
+      // Tidy double spaces produced by the strip.
+      prose = prose.replace(/[ \t]{2,}/g, " ");
+      prose = prose.replace(/\s+([,.;:])/g, "$1");
+      return prose;
+    }).join("");
   return { html: out, footnotes };
 }
 
@@ -4738,23 +4776,25 @@ function numberCitations(html, counter) {
 // Each row is a numbered locus that links back into the Citation tab.
 function renderFootnoteList(footnotes) {
   if (!footnotes || !footnotes.length) return "";
+  const text = (value) => typeof value === "string" ? value.trim() : "";
   const rows = footnotes.map((f) => {
     const parts = f.key.split("/");
     const tid = parts[0] || "";
     const wid = parts[1] || "";
     const loc = parts.slice(2).join("/");
+    const entry = lookupCitationEntry(f.key);
     const t = state.thinkersById.get(tid);
-    const thinkerName = t ? (t.name_iast || t.name || tid) : tid;
-    let workTitle = wid;
-    if (t) {
-      const w = (t.engaged_works || []).find((x) => x.work_id === wid);
-      if (w) workTitle = w.title_iast || w.title || wid;
-    }
+    const w = t && (t.engaged_works || []).find((x) => x.work_id === wid);
+    const thinkerName = text(t && t.name_iast) || text(t && t.name)
+      || text(entry && entry.author_name) || tid;
+    const workTitle = text(w && w.title_iast) || text(w && w.title)
+      || text(entry && entry.work_title) || wid;
+    const locus = text(entry && entry.locus) || text(entry && entry.locus_short) || loc;
     return `<li class="cite-fn-row" id="cite-fn-${f.idx}">`
       + `<span class="cite-fn-num">[${f.idx}]</span>`
       + `<span class="cite-fn-body">`
       + `<a href="cite://${f.key}" class="cite-link cite-fn-rowlink">`
-      + `<em>${escape(workTitle)}</em> ${escape(loc)}`
+      + `<em>${escape(workTitle)}</em> ${escape(locus)}`
       + `</a>`
       + `<span class="cite-fn-attrib"> — ${escape(thinkerName)}</span>`
       + `</span>`
@@ -5715,6 +5755,7 @@ async function openArticle(a) {
     // article so numbering is continuous (parity with the thinker pipeline).
     const articleCtr = { n: 0 };
     const articleR = numberCitations(renderMarkdownFull(text), articleCtr);
+    if (articleR.footnotes.length) await loadCitationIndex();
     const fnList = renderFootnoteList(articleR.footnotes);
     dpArticleBody.innerHTML = `<article>${articleR.html}${fnList}</article>`;
     // Full primary-language passages use the same interactive reader as the

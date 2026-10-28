@@ -439,6 +439,1140 @@
         "sanskrit-reader"
       ],
       "notes": "The owner explicitly authorized proceeding on the basis of permission from Chinmaya Mission. Chinmayananda's scan-backed opening and full commentary remain attributed source prose in Full mode. The separate simple_meaning field is a site-generated or site-selected concise reading derived from that commentary and is explicitly not credited as Chinmayananda's translation or quotation; replayable source excerpts are retained separately as review evidence. Scan-checked preface engagement is stored separately in gita/vishnu-sahasranama/preface-commentary.json. The improved TXT OCR (SHA-256 8e87779ac1ac0555c9b12b62e895c2338bc8e6c5cf2e0cc82b9f9d69557f36a4) is comparison-only: it exposed useful readings but also truncated names 742 and 817, so no reading is promoted without page-image or independent-witness confirmation."
+    },
+    {
+      "id": "category-research-self-reflection",
+      "title_iast": "Upadeśasāhasrī — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://shankara/upadesa-sahasri/category-self-reflection"
+      ],
+      "review_areas": [
+        "shankara",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record self-reflection identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The formal fragment does not derive every regress, sleep argument, or lexical rule."
+    },
+    {
+      "id": "category-research-bhamati",
+      "title_iast": "Bhāmatī — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vacaspati/bhamati/category-bhamati"
+      ],
+      "review_areas": [
+        "vacaspati",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record bhamati identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Mirror and delimitation language are not interchangeable physical models; separate whole Bhāmatī theory remains future work."
+    },
+    {
+      "id": "category-research-vivarana",
+      "title_iast": "Pañcapādikāvivaraṇa — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected Sanskrit scan pages independently inspected; Rāmaśāstrī Bhāgavatācārya edition, Benares1892.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://prakasatman/pancapadika-vivarana/category-vivarana"
+      ],
+      "review_areas": [
+        "prakasatman",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record vivarana identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Main Vivaraṇa text is distinguished from the edition’s notes and embedded Pañcapādikā."
+    },
+    {
+      "id": "category-research-bindu",
+      "title_iast": "Siddhāntabindu — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://madhusudana/siddhanta-bindu/category-bindu"
+      ],
+      "review_areas": [
+        "madhusudana",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record bindu identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The study reconstructs selected mechanisms, not a complete independent model of each alternative."
+    },
+    {
+      "id": "category-research-saccidanandendra",
+      "title_iast": "Vedāntaprakriyāpratyabhijñā — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Institutional public Sanskrit edition, selected printed pages visually checked; publisher-controlled full text not reproduced.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://saccidanandendra/vedantaprakriyapratyabhijna/category-saccidanandendra"
+      ],
+      "review_areas": [
+        "saccidanandendra",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record saccidanandendra identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. This is Saccidānandendra’s argument, not an established verdict that only his reading recovers Śaṅkara."
+    },
+    {
+      "id": "category-research-ramanuja",
+      "title_iast": "Vedārthasaṃgraha — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://ramanuja/vedartha-samgraha/category-ramanuja"
+      ],
+      "review_areas": [
+        "ramanuja",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record ramanuja identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The present common formal theory has a ground reference axiom; a general formal semantics is not yet derived."
+    },
+    {
+      "id": "category-research-nimbarka",
+      "title_iast": "Vedāntapārijātasaurabha with Vedāntakaustubha — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected pages of1932 combined Sanskrit print witness visually inspected; Dhundhiraja Shastri edition.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://nimbarka/vedanta-parijata-saurabha/category-nimbarka"
+      ],
+      "review_areas": [
+        "nimbarka",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record nimbarka identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Root Saurabha and Śrīnivāsa’s Kaustubha are separate voices; the joint reconstruction is not attributed entirely to Nimbārka’s short root."
+    },
+    {
+      "id": "category-research-bhaskara",
+      "title_iast": "Brahmasūtrabhāṣya — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected Sanskrit page images inspected in1991 reprint of Vindhyeśvarīprasāda Dvivedin edition; OCR used only for discovery.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://bhaskara/brahma-sutra-bhasya/category-bhaskara"
+      ],
+      "review_areas": [
+        "bhaskara",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record bhaskara identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The separate-mukta position provisionally granted in4.4 is not silently treated as his accepted final position."
+    },
+    {
+      "id": "category-research-vallabha",
+      "title_iast": "Tattvārthadīpanibandha — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected root and upper Prakāśa in layered Sanskrit scan, Vikrama1999 edition, printed70–75; visually inspected.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vallabha/tattvartha-dipa-nibandha/category-vallabha"
+      ],
+      "review_areas": [
+        "vallabha",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record vallabha identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The principal-jīva passage is not generalized to all persons. Later lower ṭippaṇī and Āvaraṇabhaṅga are not attributed to Vallabha."
+    },
+    {
+      "id": "category-research-vallabha-service",
+      "title_iast": "Siddhāntamuktāvalī — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Received volunteer Sanskrit transcription, P.S.A. Easwaran proofreading; not independently print-collated.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vallabha/siddhanta-muktavali/category-vallabha-service"
+      ],
+      "review_areas": [
+        "vallabha",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record vallabha-service identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. This short instruction does not constitute a complete Puṣṭimārga psychology or grace theory."
+    },
+    {
+      "id": "category-research-madhva-dependence",
+      "title_iast": "Tattvaviveka — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://madhva/tattvaviveka/category-madhva-dependence"
+      ],
+      "review_areas": [
+        "madhva",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record madhva-dependence identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. This selected argument does not make Madhva’s enduring individual distinctions merely provisional."
+    },
+    {
+      "id": "category-research-madhva-self",
+      "title_iast": "Anuvyākhyāna with Nyāyasudhā — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://madhva/anuvyakhyana/category-madhva-self"
+      ],
+      "review_areas": [
+        "madhva",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record madhva-self identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The model covers selected arguments, not the full explanatory metaphysics of viśeṣa. Jayatīrtha’s commentary is identified separately."
+    },
+    {
+      "id": "category-research-jiva-love",
+      "title_iast": "Ṣaṭsandarbha — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://jiva/sat-sandarbha/category-jiva-love"
+      ],
+      "review_areas": [
+        "jiva",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record jiva-love identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The formal fragment preserves participant distinction but is not a complete rasa theory."
+    },
+    {
+      "id": "category-research-baladeva-agency",
+      "title_iast": "Govindabhāṣya — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Institutional electronic Sanskrit witness, selected connected arguments; no independent print collation.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://baladeva/govinda-bhasya/category-baladeva-agency"
+      ],
+      "review_areas": [
+        "baladeva",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record baladeva-agency identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Author’s replies are distinguished from objections and later rpc/hds editorial markers."
+    },
+    {
+      "id": "category-research-bhiksu-self",
+      "title_iast": "Vijñānāmṛtabhāṣya — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected primary Sanskrit scan pages visually inspected, with separately identified Yoga comparison.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vijnanabhiksu/vijnanamrta-bhasya/category-bhiksu-self"
+      ],
+      "review_areas": [
+        "vijnanabhiksu",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record bhiksu-self identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Bhikṣu preserves real individual subjects; his hierarchical reconciliation does not leave every earlier assertion unchanged."
+    },
+    {
+      "id": "category-research-yoga-reflection",
+      "title_iast": "Yogavārttika — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected1884 Sanskrit scan pages independently inspected; source and commentator voices separated.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vijnanabhiksu/yoga-varttika/category-yoga-reflection"
+      ],
+      "review_areas": [
+        "vijnanabhiksu",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record yoga-reflection identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Return-image bookkeeping alone does not prove the complete commentators equivalent; later report is not a mandatory infinite regress."
+    },
+    {
+      "id": "category-research-nyaya-self",
+      "title_iast": "Nyāyakandalī — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected Sanskrit1895 scan inspected; modern research transcription used only with declared scan checks.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://sridhara/nyaya-kandali/category-nyaya-self"
+      ],
+      "review_areas": [
+        "sridhara",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record nyaya-self identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Selected Śrīdhara account: not a claim that every Nyāya author describes liberation identically."
+    },
+    {
+      "id": "category-research-trika-reflexivity",
+      "title_iast": "Īśvarapratyabhijñākārikā with Vṛtti — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://utpaladeva/isvara-pratyabhijna-karika/category-trika-reflexivity"
+      ],
+      "review_areas": [
+        "utpaladeva",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record trika-reflexivity identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The file’s ipv commentary labels denote the accompanying Vṛtti; do not silently attribute these passages to Abhinavagupta."
+    },
+    {
+      "id": "category-research-trika-receiver",
+      "title_iast": "Tantrāloka with Viveka — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://abhinavagupta/tantraloka/category-trika-receiver"
+      ],
+      "review_areas": [
+        "abhinavagupta",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Selected connected loci and source scope. Root and Jayaratha’s explanations remain separate. The mirror example alone does not prove universal manifestation by consciousness. Limited cognition, paśyantī’s differentiated reflection and complete reflexivity must not be identified."
+    },
+    {
+      "id": "category-research-trika-fullness",
+      "title_iast": "Parātriṃśikāvivaraṇa — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness"
+      ],
+      "review_areas": [
+        "abhinavagupta",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record trika-fullness identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The mathematical closure theorem additionally requires explicit compositional inheritance. The local ordered list does not separately enumerate all standard36 tattvas."
+    },
+    {
+      "id": "category-research-sakta",
+      "title_iast": "Devīgītā — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected GRETIL working Sanskrit witness; source lines and voices retained in reviewed dossier.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://devi/devi-gita/category-sakta"
+      ],
+      "review_areas": [
+        "devi",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record sakta identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. This source cannot be equated with all Śākta or Trika accounts; shared imagery alone does not establish equivalence."
+    },
+    {
+      "id": "category-research-madhusudana-bhakti",
+      "title_iast": "Bhaktirasāyana — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Institutional electronic Sanskrit transcription, selected argument visually read; PDF page numbering used.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://madhusudana/bhakti-rasayana/category-madhusudana-bhakti"
+      ],
+      "review_areas": [
+        "madhusudana",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record madhusudana-bhakti identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The electronic witness is not a photographic facsimile of its cited1998 print edition; the model is not all eleven stages."
+    },
+    {
+      "id": "category-research-ramana",
+      "title_iast": "Upadeśasāram — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://ramana/upadesa-saram/category-ramana"
+      ],
+      "review_areas": [
+        "ramana",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record ramana identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. This is Ramaṇa’s particular account, not a proof that all devotional practices have identical mechanisms."
+    },
+    {
+      "id": "category-research-ramakrishna",
+      "title_iast": "Śrīśrīrāmakṛṣṇakathāmṛta — selected argument source note",
+      "source_level": "primary-recorded-teaching",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Institutional Bengali conversation witnesses, selected connected passages.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://ramakrishna/kathamrita/category-ramakrishna"
+      ],
+      "review_areas": [
+        "ramakrishna",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Selected connected loci and source scope. Bengali conversation record by M.; not an autograph Sanskrit treatise. The water analogy at p269 names cold/freezing power; wetness in a modern translation is not silently attributed to the Bengali. Postknowledge return is qualified, not a rule requiring every knower to retain a body."
+    },
+    {
+      "id": "category-research-vivekananda",
+      "title_iast": "Complete Works — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vivekananda/complete-works/category-vivekananda"
+      ],
+      "review_areas": [
+        "vivekananda",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Selected connected loci and source scope. Vivekananda’s synthetic argument is not silently assigned to Śaṅkara or Rāmānuja when he quotes them. Continued embodied worship is affirmed for many fulfilled devotees, not imposed as a necessity on every knower."
+    },
+    {
+      "id": "category-research-aurobindo",
+      "title_iast": "The Life Divine — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Official CWSA21–22 English text, selected continuous argument neighborhoods.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://aurobindo/life-divine/category-aurobindo"
+      ],
+      "review_areas": [
+        "aurobindo",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Selected connected loci and source scope. The argument requires more than self-presence: reality of manifestation, absence of an independent outside and the revelatory force of dynamic realization are substantive premises. It neither makes every conceivable form possible nor certifies his reading of every rival school."
+    },
+    {
+      "id": "category-research-cheng",
+      "title_iast": "The Joy of Abstraction — selected argument source note",
+      "source_level": "primary-author-exposition",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Author and publisher records; selected privately held book passages read; public source uses metadata only.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://eugenia-cheng/joy-of-abstraction/category-cheng"
+      ],
+      "review_areas": [
+        "eugenia-cheng",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record cheng identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Adjunctions and toposes require supplementary sources; this book is not claimed to cover them."
+    },
+    {
+      "id": "category-research-riehl",
+      "title_iast": "Category Theory in Context — selected argument source note",
+      "source_level": "primary-author-exposition",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Author-hosted mathematical text, selected definitions checked.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://emily-riehl/category-theory-in-context/category-riehl"
+      ],
+      "review_areas": [
+        "emily-riehl",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record riehl identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Current second-edition pagination differs from older indexed copies."
+    },
+    {
+      "id": "category-research-baez",
+      "title_iast": "Topos Theory in a Nutshell — selected argument source note",
+      "source_level": "primary-author-exposition",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Author’s institutional exposition read in full.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://john-baez/topos-theory-in-a-nutshell/category-baez"
+      ],
+      "review_areas": [
+        "john-baez",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record baez identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. A graph or path category is not thereby a topos, and constructing a presheaf topos does not prove a metaphysical interpretation."
+    },
+    {
+      "id": "category-research-fullness-commentary",
+      "title_iast": "Bṛhadāraṇyakopaniṣadbhāṣya — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://shankara/brhadaranyaka-bhashya/category-fullness-commentary"
+      ],
+      "review_areas": [
+        "shankara",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record fullness-commentary identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The rejection is stronger than rejecting independent substances, but does not alone establish that every real dependent-mode model contradicts Śaṅkara."
+    },
+    {
+      "id": "category-research-shakti-context",
+      "title_iast": "Vijñānabhairava — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vijnana-bhairava/vijnana-bhairava/category-shakti-context"
+      ],
+      "review_areas": [
+        "vijnana-bhairava",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record shakti-context identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Roles remain explainable without two independently constituted substances; the verses do not furnish a complete ontology of every Śākta school."
+    },
+    {
+      "id": "category-research-mathara-negations",
+      "title_iast": "Māṭharavṛtti — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "GRETIL Māṭharavṛtti electronic witness, selected commentary read; edition1970, source-script Roman, CC BY-NC-SA4.0.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://mathara/mathara-vrtti/category-mathara-negations"
+      ],
+      "review_areas": [
+        "mathara",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record mathara-negations identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Māṭhara supplies the explanatory complements. Do not silently insert those words into Īśvarakṛṣṇa’s root verse."
+    },
+    {
+      "id": "category-research-ksemaraja",
+      "title_iast": "Pratyabhijñāhṛdaya — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://ksemaraja/pratyabhijna-hrdaya/category-ksemaraja"
+      ],
+      "review_areas": [
+        "ksemaraja",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record ksemaraja identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The feminine noun for consciousness is explicitly free: grammatical gender alone does not impose a universal identity/modality ontology."
+    },
+    {
+      "id": "category-research-medhananda",
+      "title_iast": "Infinite Paths to Infinite Reality — selected argument source note",
+      "source_level": "secondary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Author’s chapter publicly hosted by Vedanta Society; printed37–38 checked against held research and public chapter.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://medhananda/infinite-paths-to-infinite-reality/category-medhananda"
+      ],
+      "review_areas": [
+        "medhananda",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record medhananda identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. This is a secondary reconstruction of Ramakrishna and a primary statement of Maharaj’s own interpretation. It does not assert two independent substances."
+    },
+    {
+      "id": "category-research-gaudapada",
+      "title_iast": "Māṇḍūkyakārikā — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://gaudapada/mandukya-karika/category-gaudapada"
+      ],
+      "review_areas": [
+        "gaudapada",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record gaudapada identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Selected argument reconstruction, not a separate complete Gauḍapāda categorical theory."
+    },
+    {
+      "id": "category-research-mandana",
+      "title_iast": "Brahmasiddhi — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://mandana/brahma-siddhi/category-mandana"
+      ],
+      "review_areas": [
+        "mandana",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record mandana identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The selected passages do not establish an entire formal semantics or a complete Maṇḍana theory."
+    },
+    {
+      "id": "category-research-suresvara",
+      "title_iast": "Bṛhadāraṇyakabhāṣyavārttika — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://suresvara/brhadaranyaka-bhashya-varttika/category-suresvara"
+      ],
+      "review_areas": [
+        "suresvara",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record suresvara identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The comparison with Maṇḍana concerns functions and epistemic stages, not a simple meditation/rejection dichotomy."
+    },
+    {
+      "id": "category-research-vidyaranya",
+      "title_iast": "Jīvanmuktiviveka — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Received Sanskrit electronic witness, selected objection/reply arguments independently checked.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vidyaranya/jivanmukti-viveka/category-vidyaranya"
+      ],
+      "review_areas": [
+        "vidyaranya",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record vidyaranya identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The model must explain protection of lived freedom without simply treating valid knowledge as defeated; no separate complete Vidyāraṇya theory yet."
+    },
+    {
+      "id": "category-research-mimamsa-kumarila",
+      "title_iast": "Ślokavārttika — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://kumarila/sloka-varttika/category-mimamsa-kumarila"
+      ],
+      "review_areas": [
+        "kumarila",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record mimamsa-kumarila identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Unproofread electronic Sanskrit witness; no usable print edition in its header. The argument’s epistemic premise is retained, not mathematically proved."
+    },
+    {
+      "id": "category-research-mimamsa-salikanatha",
+      "title_iast": "Prakaraṇapañcikā — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://salikanatha/prakarana-pancika/category-mimamsa-salikanatha"
+      ],
+      "review_areas": [
+        "salikanatha",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record mimamsa-salikanatha identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The composite witness contains Nārāyaṇabhaṭṭa’s commentary; quoted opponents are not the author’s adopted conclusion."
+    },
+    {
+      "id": "category-research-jaina",
+      "title_iast": "Sarvārthasiddhi — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://pujyapada/sarvartha-siddhi/category-jaina"
+      ],
+      "review_areas": [
+        "pujyapada",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record jaina identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. This selected recension and commentary are not every Jain school. Persistence of nature does not imply that every liberated knowledge-mode is beginningless."
+    },
+    {
+      "id": "category-research-madhyamaka",
+      "title_iast": "Prasannapadā — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected electronic primary witness; not a critical edition or complete-work certification.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://candrakirti/prasannapada/category-madhyamaka"
+      ],
+      "review_areas": [
+        "candrakirti",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record madhyamaka identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. A common correction pattern is not evidence that this theory secretly asserts Brahman. Defective wording in the electronic24.18 opening is not silently repaired."
+    },
+    {
+      "id": "category-research-leinster",
+      "title_iast": "Basic Category Theory — selected argument source note",
+      "source_level": "primary-author-exposition",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Author’s mathematical text; definitions used in tutorial.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://tom-leinster/basic-category-theory/category-leinster"
+      ],
+      "review_areas": [
+        "tom-leinster",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record leinster identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The philosophical interpretation of those structures is supplied by this project, not by this mathematics reference."
+    },
+    {
+      "id": "category-research-fong-spivak",
+      "title_iast": "Seven Sketches in Compositionality — selected argument source note",
+      "source_level": "primary-author-exposition",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Authors’ mathematical text, Seven Sketches in Compositionality.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://fong-spivak/seven-sketches/category-fong-spivak"
+      ],
+      "review_areas": [
+        "fong-spivak",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record fong-spivak identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. A free path category is not automatically a topos or a metaphysical ontology."
+    },
+    {
+      "id": "category-research-caramello",
+      "title_iast": "Topos-Theoretic Preliminaries — selected argument source note",
+      "source_level": "primary-author-exposition",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Author-hosted mathematical reference; cited definitions and constructions checked in research.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://olivia-caramello/topos-theoretic-preliminaries/category-caramello"
+      ],
+      "review_areas": [
+        "olivia-caramello",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record caramello identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. A classifying topos is a further construction; the tutorial’s selected presheaf example does not prove metaphysical equivalence."
+    },
+    {
+      "id": "category-research-lawvere",
+      "title_iast": "Some Thoughts on the Future of Category Theory — selected argument source note",
+      "source_level": "primary-author-exposition",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Author’s1991 paper, public Lawvere Archives scan; Time Crystal source collection used for method.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://william-lawvere/future-of-category-theory/category-lawvere"
+      ],
+      "review_areas": [
+        "william-lawvere",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Source-map record lawvere identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Hegel is a method comparison only, not the object of the Vedānta article."
+    },
+    {
+      "id": "category-passage-category-purnam-invocation",
+      "title_iast": "Īśā Upaniṣad, opening invocation",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/advaita-selected-witnesses.json",
+      "witness": "Source-script wording and punctuation follow the Vedic Heritage Portal invocation. IAST spacing resolves word boundaries. The same two principal lines occur at Bṛhadāraṇyaka 5.1.1 in the held GRETIL witness; that is a separate locus.",
+      "rights_status": "public-selected-classical-witness",
+      "citation_status": "selected-passage-reviewed",
+      "stable_cite_prefixes": [
+        "cite://upanishads/isha/category-purnam-invocation"
+      ],
+      "review_areas": [
+        "upanishads",
+        "integrative-vedanta",
+        "sanskrit"
+      ],
+      "notes": "Seven-passage tutorial population independently source/grammar reviewed (50 Advaita tokens;25 comparator tokens). No complete-work certification."
+    },
+    {
+      "id": "category-passage-category-shatpadi-3",
+      "title_iast": "Viṣṇu Ṣaṭpadī 3",
+      "source_level": "traditional",
+      "source_path": "data/sources/research/vedanta-category/advaita-selected-witnesses.json",
+      "witness": "The source’s connected sandhi is preserved above; the word cards resolve it into sixteen tokens. The English is our literal rendering, not the institutional page’s interpretive English.",
+      "rights_status": "public-selected-classical-witness",
+      "citation_status": "selected-passage-reviewed",
+      "stable_cite_prefixes": [
+        "cite://shankara/vishnu-shatpadi/category-3"
+      ],
+      "review_areas": [
+        "shankara",
+        "integrative-vedanta",
+        "sanskrit"
+      ],
+      "notes": "Seven-passage tutorial population independently source/grammar reviewed (50 Advaita tokens;25 comparator tokens). No complete-work certification."
+    },
+    {
+      "id": "category-passage-category-shankara-sadatmana",
+      "title_iast": "Śaṅkara, Chāndogya Upaniṣad Bhāṣya 6.3.2",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/advaita-selected-witnesses.json",
+      "witness": "This packet follows the institutional reading sato ’nyatve ca anṛtatvam. The held GRETIL witness instead reads sato ’nyatvenānṛtatvam, with an instrumental. The two witnesses are not silently blended; both express the contrast between reality as Being and untruth in separation/otherness.",
+      "rights_status": "public-selected-classical-witness",
+      "citation_status": "selected-passage-reviewed",
+      "stable_cite_prefixes": [
+        "cite://shankara/chandogya-bhashya/category-6.3.2-sadatmana"
+      ],
+      "review_areas": [
+        "shankara",
+        "integrative-vedanta",
+        "sanskrit"
+      ],
+      "notes": "Seven-passage tutorial population independently source/grammar reviewed (50 Advaita tokens;25 comparator tokens). No complete-work certification."
+    },
+    {
+      "id": "category-passage-category-madhusudana-context",
+      "title_iast": "Madhusūdana Sarasvatī, Advaitasiddhi I, second definition of mithyātva",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/advaita-selected-witnesses.json",
+      "witness": "Source display soft hyphens are omitted; no Sanskrit letters are changed. The continuation also considers a conditional alternative account of loci, so this sentence does not impose one universal Nyāya ontology.",
+      "rights_status": "public-selected-classical-witness",
+      "citation_status": "selected-passage-reviewed",
+      "stable_cite_prefixes": [
+        "cite://madhusudana/advaitasiddhi/category-1-relation-delimiter"
+      ],
+      "review_areas": [
+        "madhusudana",
+        "integrative-vedanta",
+        "sanskrit"
+      ],
+      "notes": "Seven-passage tutorial population independently source/grammar reviewed (50 Advaita tokens;25 comparator tokens). No complete-work certification."
+    },
+    {
+      "id": "category-passage-sk-64",
+      "title_iast": "Īśvarakṛṣṇa, Sāṅkhyakārikā 64",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/comparator/isvarakrsna_samkhya_karika.txt",
+      "witness": "The exact witness is Roman IAST, preserved in source_script. Devanāgarī is a reviewed display conversion of that reading, not an independently witnessed Devanāgarī edition. Verse identifiers and separators are editorially omitted from the interactive word line.",
+      "rights_status": "public-selected-classical-witness",
+      "citation_status": "selected-passage-reviewed",
+      "stable_cite_prefixes": [
+        "cite://isvarakrsna/sankhya-karika/64"
+      ],
+      "review_areas": [
+        "isvarakrsna",
+        "integrative-vedanta",
+        "sanskrit"
+      ],
+      "notes": "Seven-passage tutorial population independently source/grammar reviewed (50 Advaita tokens;25 comparator tokens). No complete-work certification."
+    },
+    {
+      "id": "category-passage-ys-1-3",
+      "title_iast": "Patañjali, Yogasūtra 1.3",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/comparator/patanjali_yoga_sutra.txt",
+      "witness": "The exact witness is Roman IAST, preserved in source_script. Devanāgarī is a reviewed display conversion of that reading, not an independently witnessed Devanāgarī edition. Verse identifiers and separators are editorially omitted from the interactive word line.",
+      "rights_status": "public-selected-classical-witness",
+      "citation_status": "selected-passage-reviewed",
+      "stable_cite_prefixes": [
+        "cite://patanjali/yoga-sutra/1.3"
+      ],
+      "review_areas": [
+        "patanjali",
+        "integrative-vedanta",
+        "sanskrit"
+      ],
+      "notes": "Seven-passage tutorial population independently source/grammar reviewed (50 Advaita tokens;25 comparator tokens). No complete-work certification."
+    },
+    {
+      "id": "category-passage-vbh-19ab",
+      "title_iast": "Vijñānabhairava 19ab",
+      "source_level": "primary",
+      "source_path": "data/sources/sanskrit/kashmir_shaiva/vijnana_bhairava_tantra.txt",
+      "witness": "The exact witness is Roman IAST, preserved in source_script. Devanāgarī is a reviewed display conversion of that reading, not an independently witnessed Devanāgarī edition. Verse identifiers and separators are editorially omitted from the interactive word line.",
+      "rights_status": "public-selected-classical-witness",
+      "citation_status": "selected-passage-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vijnana-bhairava/vijnana-bhairava/19ab"
+      ],
+      "review_areas": [
+        "vijnana-bhairava",
+        "integrative-vedanta",
+        "sanskrit"
+      ],
+      "notes": "Seven-passage tutorial population independently source/grammar reviewed (50 Advaita tokens;25 comparator tokens). No complete-work certification."
+    },
+    {
+      "id": "category-research-navya-madhusudana",
+      "title_iast": "Advaitasiddhi — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Institutional electronic Sanskrit witness, complete second-definition section read; no independent print collation.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://madhusudana/advaitasiddhi/category-navya-madhusudana"
+      ],
+      "review_areas": [
+        "madhusudana",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Opponent examples motivate the reply; the conditional alternative locus account is not its unconditional retraction. The selected coherent formalization supplies necessary conditions, not a complete biconditional definition of mithyātva."
+    },
+    {
+      "id": "category-research-navya-annambhatta",
+      "title_iast": "Tarkasaṃgraha with Dīpikā — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "GRETIL Roman Sanskrit working witness, print source unspecified and unproofread; selected author/commentator voices checked, not scan-collated.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://annambhatta/tarka-samgraha-dipika/category-navya-annambhatta"
+      ],
+      "review_areas": [
+        "annambhatta",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Annambhaṭṭa’s root and Dīpikā are distinguished from later Prakāśikā and Bālapriyā. The account is not translated into an ontology of independent absence substances by default."
+    },
+    {
+      "id": "category-research-punyananda",
+      "title_iast": "Kāmakalāvilāsa — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Kashmir Series of Texts and Studies12,1918: selected root and commentary page images independently inspected, typography/voices distinguished.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://punyananda/kamakala-vilasa/category-punyananda"
+      ],
+      "review_areas": [
+        "punyananda",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "The expanded first-person willing, knowing and acting explanation belongs to Naṭanānanda’s commentary, not verbatim to Puṇyānanda’s root. Conjunction does not by itself establish independently existing substances."
+    },
+    {
+      "id": "category-research-natanananda",
+      "title_iast": "Cidvallī on Kāmakalāvilāsa — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "KSTS12,1918, selected commentary scanned pages independently inspected; a consequential electronic negation error is recorded rather than silently adopted.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://natanananda/cidvalli/category-natanananda"
+      ],
+      "review_areas": [
+        "natanananda",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "These are the commentator’s Śrīvidyā explanations; they are not assigned wholesale to the root, Utpaladeva or the Devīgītā. The scan’s negation of admixture with suffering controls a defective electronic reading."
+    },
+    {
+      "id": "category-research-ramana-pancharatnam",
+      "title_iast": "Aruṇācalapañcaratnam — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Official romanized recitation edition; decisive page image checked because extraction damages diacritics. Sanskrit primary verse independently checked against the selected Sanskrit witness.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://ramana/arunachala-pancharatnam/category-ramana-pancharatnam"
+      ],
+      "review_areas": [
+        "ramana",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "The Sanskrit authored verse and Tamil counterpart are distinct witnesses. This concurrence does not itself prove eternal separate individuality or identify every author’s definition of devotion."
+    },
+    {
+      "id": "category-research-shankara-self-correction",
+      "title_iast": "Brahmasūtrabhāṣya, with Bṛhadāraṇyakabhāṣya comparison — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected connected primary Sanskrit arguments, institutional or held electronic witness; source/objection/reply roles distinguished.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://shankara/brahma-sutra-bhasya/category-shankara-self-correction"
+      ],
+      "review_areas": [
+        "shankara",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "The opening lower-Brahman interpretation in Bṛhadāraṇyaka1.4.10 is reported and rejected. Removing an error does not itself establish the proposed successor theory’s intrinsic formative agency."
+    },
+    {
+      "id": "category-research-shankara-agency",
+      "title_iast": "Brahmasūtrabhāṣya — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected connected primary Sanskrit arguments, institutional or held electronic witness; source/objection/reply roles distinguished.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://shankara/brahma-sutra-bhasya/category-shankara-agency"
+      ],
+      "review_areas": [
+        "shankara",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "The fire-without-fuel capacity analogy is an opponent’s proposal. Śaṅkara rejects its sufficiency for permanent freedom where occasions of suffering can remain; it is not his unqualified doctrine of intrinsic liberated agency."
+    },
+    {
+      "id": "category-research-padmapada",
+      "title_iast": "Pañcapādikā — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected connected primary Sanskrit arguments, institutional or held electronic witness; source/objection/reply roles distinguished.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://padmapada/pancapadika/category-padmapada"
+      ],
+      "review_areas": [
+        "padmapada",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "The argument does not reject every explanatory cause merely by rejecting physical transformation or a prior independent superimposition. The self/ignorance explanatory dispute remains substantive."
+    },
+    {
+      "id": "category-research-madhusudana-ignorance",
+      "title_iast": "Advaitasiddhi — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Selected scanned main text in combined Advaitasiddhi/Gurucandrikā volumes, catalogue1933; main/commentary typography distinguished.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://madhusudana/advaitasiddhi/category-madhusudana-ignorance"
+      ],
+      "review_areas": [
+        "madhusudana",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "Main Advaitasiddhi text is distinguished from the accompanying Gurucandrikā. The selection is not a complete theory of every later Advaita account or all residual-condition dynamics."
+    },
+    {
+      "id": "category-research-saccidanandendra-mula",
+      "title_iast": "Mūlāvidyānirāsa / Śrīśaṅkarahṛdayam — selected argument source note",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/source-map.json",
+      "witness": "Held institutional Sanskrit print witness; selected page images inspected. Exact title and printed loci identify the evidence; institutional catalogue is a bibliographic link only.",
+      "rights_status": "public-metadata-and-original-analysis",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://saccidanandendra/mulavidya-nirasa/category-saccidanandendra-mula"
+      ],
+      "review_areas": [
+        "saccidanandendra",
+        "category-theory",
+        "integrative-vedanta"
+      ],
+      "notes": "This is the author’s contested explanatory and historical argument, not proof that every rival posits a chronological first error. The public link is the institutional catalogue; the inspected Sanskrit scan’s direct public URL has not been independently recovered."
     }
   ]
 }

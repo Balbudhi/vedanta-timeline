@@ -1229,6 +1229,35 @@
       "word_count_approx": 1070,
       "date": "2026-08-04",
       "status": "unpublished"
+    },
+    {
+      "slug": "vedanta-category-theory",
+      "title": "Vedānta and category theory",
+      "subtitle": "A course in self, manifestation, mathematical structure and integration.",
+      "kind": "methodology",
+      "source_doc": "data/articles/source/vedanta-category-theory.md",
+      "tags": [
+        "Vedānta",
+        "category theory",
+        "topos",
+        "Sanskrit"
+      ],
+      "word_count_approx": 25144,
+      "date": "2026-10-27"
+    },
+    {
+      "slug": "vedanta-category-research-plan",
+      "title": "Vedānta research plan by thinker",
+      "subtitle": "Examined texts, reconstructed arguments, formal beginnings and the next constructions.",
+      "kind": "methodology",
+      "source_doc": "data/articles/source/vedanta-category-research-plan.md",
+      "tags": [
+        "Vedānta",
+        "research",
+        "category theory"
+      ],
+      "word_count_approx": 3012,
+      "date": "2026-10-27"
     }
   ]
 }

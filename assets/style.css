@@ -2801,6 +2801,24 @@ html[data-theme="dark"] .glossary-popover .gp-cog-tag.cog-greek { --c: #84b3e4; 
   padding: 1px 5px;
   border-radius: 2px;
 }
+.dp-article-body pre {
+  overflow-x: auto;
+  margin: 16px 0;
+  padding: 10px 16px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  background: var(--bg-warm);
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.92em;
+  line-height: 1.6;
+}
+.dp-article-body pre code {
+  display: block;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  font: inherit;
+}
 .dp-article-body table, .dp-translation-body table {
   border-collapse: collapse;
   font-family: var(--sans);
