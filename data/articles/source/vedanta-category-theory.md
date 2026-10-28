@@ -1,20 +1,20 @@
-## 1. The question: what would faithful integration preserve?
+## 1. Reading the thinkers and learning the mathematics
 
-Can traditions that disagree about the self, the world and liberation be understood as different abstractions of one reality, without treating one tradition as a defective version of another? This article develops that proposal through readings and worked mathematics. The aim is to learn enough category theory to make the comparison answerable: to say what an account permits, what it excludes, what a translation preserves, and where an apparent agreement loses the point of an argument.
+What does each thinker claim about the self, the world and liberation, and what mathematical structure would preserve the argument? This article offers groundwork for answering that question: selected primary readings, worked formalizations and the category theory needed to understand them.
 
-The proposed integration begins with a philosophical intuition. A limited experience need not exhaust its subject. A determinate divine form need not exhaust the reality present in it. Two expressions may disclose the same reality through different grounds, while a change in appearance need not produce or destroy the self. But these are different claims. Their relationships have to be established through the texts and their arguments. Those arguments include the audience being addressed, the error a teaching corrects, and the transformation it seeks. The proposed integration must preserve that practical context as well as the account of reality.
+The order matters. First establish a thinker’s position and reasons. Then construct a model, derive its consequences and check whether we can recover the argument—including its qualifications—from that model. Comparisons within a tradition must preserve what later thinkers explain, revise or reject. Interschool integration becomes a further question once the relevant accounts are understood.
 
 The reader therefore moves between two kinds of work. In the textual chapters, original words appear in romanization with literal English, a named author or speaker, a locus and a source link. Commentary is distinguished from the root text it interprets. Where a textual variant changes the interpretation, the difference remains visible. In the mathematical lessons, examples begin with a question, develop a construction and test it against a case that could make it fail.
 
-The chapters follow a sequence of questions: what a claim denies, what a subject is, how words refer, what persists through change, and how power, practice and manifestation belong to an account of reality. Mathematical lessons enter when those arguments give them a task. The later constructions test compatibility, fullness and contextual truth before the final assessment of integration.
+The chapters follow a sequence of questions: what a claim denies, what a subject is, how words refer, what persists through change, and how power, practice and manifestation belong to an account of reality. Mathematical lessons enter when those arguments give them a task. The later lessons examine compatibility, fullness and contextual truth, distinguishing worked results from questions for further research.
 
 The mathematics is taught from the beginning. Eugenia Cheng’s *The Joy of Abstraction*, especially Chapters 8 and 14–23, informs the progression from examples to definitions and from constructions to their universal properties. Adjunctions and toposes require further sources, identified when used. Read the worked examples slowly enough to check their arrows and try the exercises before their answers. [Cheng](cite://eugenia-cheng/joy-of-abstraction/category-cheng).
 
-The source words establish the textual premises; a reconstruction explains which formal statements represent them; a proof establishes consequences of those statements. A faithful interpretation of a selected argument is a significant result. It does not by itself establish an equivalence between complete traditions. The assessment at the end distinguishes what this investigation supports about the proposed integrated Vedānta from what it leaves to be proved.
+The source words establish the textual premises; a reconstruction explains which formal statements represent them; a proof establishes consequences of those statements. A faithful interpretation of a selected argument is a significant result. It does not by itself establish an equivalence between complete traditions. The closing assessment identifies what the selected constructions explain and what further reconstruction would be needed before testing an integration.
 
 **Reading order**
 
-1. The question: what would faithful integration preserve?
+1. Reading the thinkers and learning the mathematics
 2. Qualified absence: learning to construct and test a model
 3. Selfhood, instruction and appearance in Advaita
 4. Reference without erasing difference
@@ -29,12 +29,12 @@ The source words establish the textual premises; a reconstruction explains which
 13. Compatibility: what one common model establishes
 14. Fullness, closure and controlled reconstruction
 15. From relational profiles to contextual truth
-16. What the integrated proposal establishes and still owes
+16. What the groundwork establishes and what comes next
 17. Sources, further constructions and mathematical reading
 
 ### What a teaching is trying to change
 
-A tradition teaches someone, under particular conditions, toward a transformation. Its words can describe reality, correct a habitual misidentification, prescribe a practice, or help a pupil recognize what the practice makes accessible. A comparison should identify those acts before deciding that two formulations contradict each other. The proposed integration treats audience, practical purpose and the error being addressed as part of what must be preserved.
+A tradition teaches someone, under particular conditions, toward a transformation. Its words can describe reality, correct a habitual misidentification, prescribe a practice, or help a pupil recognize what the practice makes accessible. A comparison should identify those acts before deciding that two formulations contradict each other. A faithful reconstruction preserves the audience, practical purpose and error being addressed.
 
 Aurobindo gives this approach a striking precedent. In an early dialogue on the Īśā Upaniṣad, the pupil asks how Śaṅkara could be described as undeveloped. The teacher answers: “He was not an undeveloped mind, but he was dealing with undeveloped minds and had to speak their language.” The surrounding argument interprets Śaṅkara’s emphasis on knowledge as a response to reliance on ritual works for liberation. Aurobindo distinguishes that corrective purpose from an absolute prohibition on action after knowledge. [*The Ishavasyopanishad*, CWSA 17, pp. 113–116](https://www.motherandsriaurobindo.in/Sri-Aurobindo/books/isha-upanishad/).
 
@@ -42,13 +42,13 @@ In the related *Karmayogin* commentary, he explicitly accords Śaṅkara, Rāmā
 
 The reader can now ask a more exact question about a polemic. Is the author rejecting another account’s asserted conclusion, or a use of that conclusion which frustrates its purpose? “Action does not itself produce liberation” and “a liberated person can act” need not conflict: they concern different dependencies. An injunction to withdraw attention from changing objects can serve recognition of the subject. Its intended force must be established before translating it as a universal claim that manifestation has no reality or value.
 
-Śaṅkara’s own Gītā commentary makes the distinction concrete. At 3.20, Janaka’s action receives two conditional explanations: preparation for knowledge, or a knower’s continued action for the world. Before 3.25, Śaṅkara writes, *tasyāpi ātmanaḥ kartavyābhāve ’pi parānugraha eva kartavyaḥ*: “Even for him, although there is nothing to be done for himself, benefit to others alone is to be done.” At 3.26, the knower should not unsettle the action-attached learner. At 3.30, the specified ignorant seeker is instructed to act with *ahaṃ kartā īśvarāya bhṛtyavat karomi*: “I am an agent; I act for the Lord like a servant.” A contextual integration must explain what this practical orientation corrects, what it accommodates, and what later understanding preserves. The first excerpt resolves the final sandhi of *kartavya ity āha*. [Śaṅkara, Gītābhāṣya 3.20–30](https://advaitasharada.sringeri.net/read/bhagavadgita-bhashya/3/).
+Śaṅkara’s own Gītā commentary makes the distinction concrete. At 3.20, Janaka’s action receives two conditional explanations: preparation for knowledge, or a knower’s continued action for the world. Before 3.25, Śaṅkara writes, *tasyāpi ātmanaḥ kartavyābhāve ’pi parānugraha eva kartavyaḥ*: “Even for him, although there is nothing to be done for himself, benefit to others alone is to be done.” At 3.26, the knower should not unsettle the action-attached learner. At 3.30, the specified ignorant seeker is instructed to act with *ahaṃ kartā īśvarāya bhṛtyavat karomi*: “I am an agent; I act for the Lord like a servant.” A reconstruction must explain what this practical orientation corrects, what it accommodates, and what later understanding preserves. The first excerpt resolves the final sandhi of *kartavya ity āha*. [Śaṅkara, Gītābhāṣya 3.20–30](https://advaitasharada.sringeri.net/read/bhagavadgita-bhashya/3/).
 
 This contextual reading also applies to Aurobindo. His criticisms of withdrawal and his call for transformed life can address different obstacles from a teaching directed toward disengagement from attachment. Their comparison must retain the conditions, reasons and intended transformation of each. It should also retain each author’s claims about what is ultimately real. A sentence explicitly asserting something of every liberated self cannot be restricted to one audience merely because the restriction makes integration easier. The source argument must support the restriction.
 
 A useful formal record therefore distinguishes the situation of teaching, its assertoric content, the response it requests, and the transformation it is intended to enable. A teacher can correct the pupil’s belief while continuing to refer to the same reality. What changes may be the pupil’s identification or access, the role of a practice, or the meaning of an expression as clarified by the instruction. Each possibility requires its own representation.
 
-The proposed nonhierarchical integration seeks a common account from which these situated teachings can be recovered with their force intact. Its comparison maps must preserve more than an endpoint called liberation: they must preserve who is being addressed, which error is corrected, what the practice requires, and what the teacher says remains true after realization. Aurobindo’s contextual reading strengthens this programme. Establishing its adequacy for the other traditions requires the same work on their own arguments.
+A reconstruction must preserve who is being addressed, which error is corrected, what the practice requires, and what the teacher says remains true after realization. Recovering those features is a test of the model. Aurobindo’s contextual reading supplies a position to examine alongside the other thinkers’ own explanations.
 
 ### What harmony can mean
 
@@ -5664,13 +5664,13 @@ Teaching adds another structure. Let the objects of a category be specified inst
 
 The example explains why a later corrective teaching need not replace the reality described earlier. The learner’s appropriation, understanding or capacity can change. To extend this construction to the traditions, we must recover the actual conditions and effects from their texts, including any assertion intended to hold in every context.
 
-The desired integration can now be stated more strongly than “all these accounts fit in a diagram.” Suppose \(T_{1}, T_{2}\) and \(T_{3}\) are selected source-grounded theories: each names an explicitly specified fragment, not an entire historical tradition. Seek a common theory \(U\) together with interpretations of these selected theories in \(U\). On models, these become reduction functors:
+One possible mathematical test for a later integration uses a common theory. Suppose \(T_{1}, T_{2}\) and \(T_{3}\) are selected source-grounded theories: each names an explicitly specified fragment, not an entire historical tradition. Seek a common theory \(U\) together with interpretations of these selected theories in \(U\). On models, these become reduction functors:
 
 \[
 \begin{array}{ccccc}&&\operatorname{Mod}(U)&&\\&\swarrow&\downarrow&\searrow&\\\operatorname{Mod}(T_1)&&\operatorname{Mod}(T_2)&&\operatorname{Mod}(T_3)\end{array}
 \]
 
-This diagram does not rank \(T_{1}\) above \(T_{2}\) or require \(T_{3}\) to be a historically later correction of both. The arrows ask how one structured model presents itself under different abstractions. Different target vocabularies may disclose different relations. The universal theory \(U\), if established, would be a shared explanatory proposal; its position in the picture does not make one historical school its privileged interpreter.
+This diagram does not rank \(T_{1}\) above \(T_{2}\) or require \(T_{3}\) to be a historically later correction of both. The arrows ask how one structured model presents itself under different abstractions. Different target vocabularies may disclose different relations. Here \(U\) is a candidate mathematical account of the selected commitments. Its role in this construction does not establish an exhaustive description of reality.
 
 There are several possible strengths of this claim. One \(U\)-model with the required reductions establishes a simultaneous realization of the selected theories. Proving every model of a selected \(T_{i}\) has a suitable expansion establishes a stronger coverage result. Showing how compatible families of local models recover a \(U\)-model, uniquely up to the relevant isomorphism, adds a descent or reconstruction result. Proving equivalences of suitable model categories, with their logical structure respected, is stronger again. These demands are not interchangeable.
 
@@ -5678,11 +5678,11 @@ Nor must a successful abstraction be an equivalence. A description of a devotion
 
 This is a constructive way to pursue the thesis of different emphases on one reality. It puts the burden on explicit interpretations, shared referents and preserved inferences. If two theories assert opposite conclusions using genuinely identical meanings and conditions, their unchanged union has no consistent model. A contextual solution must therefore demonstrate the difference of meanings or conditions from the texts; adding a school-name index solely to evade the conflict would not explain it.
 
-Vijñānabhikṣu is an important precedent for coordinating different disciplines, but his selected argument also corrects a lower teaching's claim to finality. That historical feature need not determine the architecture of the proposed new Vedānta. We can adopt his demand for substantive integration while testing a symmetric family of abstractions. The research must say when it follows his particular argument and when it proposes a different relation among the traditions. [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/category-bhiksu-self)
+Vijñānabhikṣu is an important precedent for coordinating different disciplines, but his selected argument also corrects a lower teaching's claim to finality. His argument should first be reconstructed on its own terms. A symmetric family of abstractions would be a different proposal requiring separate justification. [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/category-bhiksu-self)
 
 ### A shared model with more than a common endpoint
 
-The strongest construction reached in the present study joins two substantial cognitive mechanisms. One interface, \(K_{A}\), retains the selected Śaṅkara account of changing mental presentation, invariant awareness, two directions of misattribution, ordinary truth, dream and doubt. Another, \(K_{R}\), retains the selected Trika account of receivers, admitted aspects, operative conditions, displayed content, intrinsic self-manifestation and recognition. The proposed theory \(U\) has both interfaces.
+An earlier comparison experiment supplies one finite witness combining selected cognitive mechanisms. One interface, \(K_{A}\), retains the selected Śaṅkara account of changing mental presentation, invariant awareness, two directions of misattribution, ordinary truth, dream and doubt. Another, \(K_{R}\), retains the selected Trika account of receivers, admitted aspects, operative conditions, displayed content, intrinsic self-manifestation and recognition. The proposed theory \(U\) has both interfaces.
 
 The comparison has this shape at the level of models:
 
@@ -5716,7 +5716,7 @@ One can now describe what each source comparison preserves. On the Advaita side,
 
 The decisive point is that both comparisons use the **same** fifteen-episode \(U\)-model. Two different enrichments, each compatible with only one source, would not establish simultaneous compatibility. The construction demonstrates how the specified cognitive distinctions can coexist in one finite witness. A general theorem that an interpretation preserves every interface axiom in every source model additionally requires the complete source theories, translated axioms and proofs. The displayed witness does not replace that work.
 
-In particular, the comparison leaves the strongest opposition between intrinsic nonagency and intrinsic formative freedom outside the shared interface. The fullness-closure module below is connected by a separate, conditional refinement of this same model; that connection requires additional premises and does not follow from episode ownership alone. The positive achievement is a simultaneous model of the selected reflection and recognition mechanisms, with meaningful nonbinding devotion and restricted experience. That is a stronger beginning for nonhierarchical integration than one undifferentiated endpoint, while leaving the remaining philosophical tests explicit.
+In particular, the comparison leaves the strongest opposition between intrinsic nonagency and intrinsic formative freedom outside the shared interface. The fullness-closure module below is connected by a separate, conditional refinement of this same model; that connection requires additional premises and does not follow from episode ownership alone. The positive achievement is a simultaneous model of the selected reflection and recognition mechanisms, with meaningful nonbinding devotion and restricted experience. These are selected compatibility results. The next explanatory work belongs within each thinker’s account of cognition, correction and action; the omitted disagreements remain necessary tests for a later comparison.
 
 ## 14. Fullness, closure and controlled reconstruction
 
@@ -5802,7 +5802,7 @@ There is also an adjunction. Order subsets by inclusion, and let \(\mathbf{Close
 
 Thus closure is left adjoint to the inclusion of \(\mathbf{Closed}\) into all subsets. This is a general mathematical result for the specified closure operator. The philosophical work lies in defending the arrows and inheritance rule. Abhinavagupta's constitutive-inclusion argument supplies the relevant distinction between prerequisites and retention under complete apprehension. The simple three-item graph illustrates the mechanism; it is not a verified enumeration of all tattvas. [Source](cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness)
 
-Constitutive fullness also differs from a finite mind's current access. A determination can require the whole for a complete account without the person experiencing it knowing every fact. The latter conclusion would need an additional access rule. This is how the proposed integration can retain restricted experience without making its ultimate reality a fragment cut out of completeness.
+Constitutive fullness also differs from a finite mind's current access. A determination can require the whole for a complete account without the person experiencing it knowing every fact. The latter conclusion would need an additional access rule. The distinction lets this model retain restricted access without identifying a determination’s constitution with the experiencer’s present knowledge.
 
 ### Connecting fullness to a particular experience
 
@@ -5972,7 +5972,7 @@ The context construction below applies these profiles to partial descriptions an
 
 ### From compatible perspectives to a topos
 
-We now have enough mathematics to ask the question that motivated this investigation: what kind of space could hold these philosophical perspectives? There are several answers, because there are several things we might mean by holding them together. We can organize different descriptions, select descriptions that agree, require partial descriptions to determine a whole, or compare complete logical theories. These are different constructions. We will calculate a small example all the way through before deciding which construction serves the philosophical project.
+The next constructions distinguish organizing descriptions, selecting compatible descriptions, recovering a whole from partial descriptions, and comparing logical theories. These are different constructions. We will calculate a small example all the way through before deciding which construction serves the philosophical project.
 
 The next topics extend beyond Cheng's book. Adjunctions can be studied in Riehl; the topos definitions and logical constructions can be studied in Baez and Caramello. The finite examples and philosophical applications here are our own. [Source](cite://emily-riehl/category-theory-in-context/category-riehl) [Source](cite://john-baez/topos-theory-in-a-nutshell/category-baez) [Source](cite://olivia-caramello/topos-theoretic-preliminaries/category-caramello)
 
@@ -6140,15 +6140,15 @@ Equivalence of classifying topoi is a strong mathematical comparison, often call
 
 The distinction matters for Navya-Nyāya. Some source assertions quantify over every time, use negation, or specify absence with tightly constrained delimiters. One cannot drop those operations merely because a conveniently chosen geometric fragment handles positive conjunctions and existential witnesses easily. We can retain a fuller first-order theory and name the fragment being compared, or justify an appropriate reformulation. In either case the omitted content must remain visible.
 
-What, then, is the space of this proposed integration? At present it includes several legitimate constructions: a category of specified theories and interpretations; categories of their models; shared fragments with restriction maps; and presheaf or sheaf categories built on a justified context category. None has yet been shown to be the unique complete mathematical image of the traditions' ultimate reality. Their present value is more concrete: each makes a different integration demand testable, and each exposes different ways in which a tempting synthesis can lose something essential.
+Several mathematical structures are available for a later comparison: a category of specified theories and interpretations; categories of their models; shared fragments with restriction maps; and presheaf or sheaf categories built on a justified context category. Each construction answers a different question about representations and their relationships. Their value lies in the inferences they make testable and the losses they expose; none is being identified with ultimate reality itself.
 
-## 16. What the integrated proposal establishes and still owes
+## 16. What the groundwork establishes and what comes next
 
-The constructions establish different kinds of result. We can now assess the philosophical proposal by distinguishing the source-backed consequences, the commitments of a new integrated account and the arguments still required.
+The constructions establish different kinds of result. The useful assessment is what each explains about a source argument, what its mathematics proves, and which dependencies remain unresolved.
 
 ### What the comparison supports
 
-The strongest part of the proposed integrated Vedānta is its demand to distinguish the reality disclosed from the conditions under which it is disclosed. The selected texts repeatedly make distinctions that a simple “one thing versus many things” inventory misses: a subject and a cognitive instrument; a capacity and its exercise; a mode and an independently existing thing; the occurrence of knowledge and what it corrects; nondivision and the recognition of selfhood; a complete divine manifestation and a receiver's partial apprehension. Those distinctions provide substantive material for integration.
+A recurring question concerns the relation between what is disclosed and the conditions under which it is disclosed. The selected texts repeatedly make distinctions that a simple “one thing versus many things” inventory misses: a subject and a cognitive instrument; a capacity and its exercise; a mode and an independently existing thing; the occurrence of knowledge and what it corrects; nondivision and the recognition of selfhood; a complete divine manifestation and a receiver's partial apprehension. Those distinctions provide substantive material for integration.
 
 They also change what integration would have to preserve. An interpretation that sends every named item to one object always produces an attractive picture of unity. Unless it preserves the relevant relations, exclusions and arguments, it establishes little. The naming construction is more informative precisely because it preserves different qualifying grounds while proving a common bearer. The absence construction is informative because its countermodel shows why a seemingly harmless omission invalidates a rule. The reflection model is informative to the extent that it retains both changing presentation and the distinct accounts of subjectivity and error.
 
@@ -6162,17 +6162,15 @@ A first test concerns possession and manifestation of power. Suppose a theory di
 
 This is a constraint on a successor model, not a completed formal account of avatāra. In particular, no construction presented here proves that every deity or saint has the same relation to the absolute. The texts' own distinctions among divine own-form, dependent divine being, indwelling presence, realized person and devotional identification remain questions the interpretation must answer.
 
-### A candidate integrated account
+### Questions for the next reconstructions
 
-A substantive candidate would take intrinsic self-disclosure as primitive, rather than deriving it from the presence of an object in a mind. It would distinguish the reality that discloses itself from the conditions of each finite cognitive life, while treating those conditions as intelligible structures of manifestation. Its account of power would explain how determinate expression can be real without exhausting or binding its source. Realization would remove mistaken appropriation without requiring the disappearance of every form, action or loving relation.
+The next work begins with the authors’ explanations. How does instruction correct self-ascription? What warrants that correction? How does it affect continued cognition, action and devotion? The answers need to connect a thinker’s accounts of knowledge, error, causality and liberation.
 
-These are proposed commitments of a new Vedānta. They are stronger than the common consequences proved here. In particular, one constitutive Self across distinct first-person lives needs an argument about individuation and ownership; a constant map cannot supply it. Intrinsic formative power needs an account of why its operation is nonbinding; temporary inactivity cannot supply that either. Each historical interpretation would have to preserve its own constraints on the person, divine governance, correction and finality.
-
-The advantage of stating this candidate is that it gives the comparisons a definite purpose. We can test whether a school's claims describe an abstraction of this account, whether additional structure is needed, or whether the proposal conflicts with a commitment the school will not relinquish. Nonhierarchical integration means that no historical label automatically settles those tests. It does not mean that every proposed interpretation succeeds.
+A common Self, intrinsic formative power and the reality of determinate manifestation receive different arguments in the sources. Each argument needs its own reconstruction before these commitments can be combined. A constant map does not establish common selfhood; a predicate called power does not explain an operation. The source must supply the premises, and the model must let us recover their role.
 
 ### Several meanings of successful integration
 
-The model-category picture gives the proposal a precise research form. Seek a theory \(U\) with interpretations of the selected traditions' arguments, yielding reductions
+Once the relevant thinker models are ready, one possible integration test seeks a theory \(U\) with interpretations of the selected traditions' arguments, yielding reductions
 
 \[
 \operatorname{Mod}(U)\longrightarrow\operatorname{Mod}(T_i).
@@ -6192,9 +6190,9 @@ The disagreement about ignorance is especially instructive. A theory can preserv
 
 Likewise, an account of intrinsic formative freedom must answer the objection concerning bondage and renewed suffering, rather than renaming ordinary agency “absolute agency.” It needs a distinction of operations and dependencies that survives the texts' own tests. The possibility that the traditions use agency differently is worth investigating; it is not yet a reconciliation.
 
-My assessment is therefore favorable to the programme and conditional about its strongest conclusion. The source sampling supports a richer comparison than a list of mutually exclusive substance ontologies. Several apparent conflicts become more precise, and some selected inferences admit a common formal treatment without erasing their different grounds. A complete, nonhierarchical integration remains an original philosophical construction to establish. It will be strongest when it can show where it preserves a tradition, where it restores a distinction that a polemical reading missed, and where it proposes a revision. Respect for a tradition requires making those three outcomes distinguishable.
+The source sampling supports a more precise comparison than a list of substance ontologies. The worked constructions distinguish several questions that initially looked alike, and some selected inferences admit a common formal treatment while retaining their different grounds. These results provide groundwork for further study. Whether the fuller accounts support the proposed integration remains to be investigated after their relevant arguments have been reconstructed.
 
-Vijñānabhikṣu and Aurobindo supply precedents for substantive integration, but their particular accounts are not the conclusion in advance. The next construction should meet the standard already illustrated here: source words and argument, an explicit theory, a model and a counterexample to a tempting misreading, then a comparison map whose preservation claims can be checked. That gives the thesis a way to succeed or to change in response to what the traditions actually say.
+Vijñānabhikṣu and Aurobindo supply precedents for substantive integration, but their particular accounts are not the conclusion in advance. Further constructions should meet the standard illustrated here: source words and argument, an explicit theory, a model and a counterexample to a tempting misreading, then a comparison map whose preservation claims can be checked. That gives the thesis a way to succeed or to change in response to what the traditions actually say.
 
 ## 17. Sources, further constructions and mathematical reading
 
@@ -6202,9 +6200,9 @@ This final record supports further study. The chapter arguments supply the expla
 
 ### Further constructions
 
-Five connected tasks follow from the remaining questions.
+Five directions for further research follow from the remaining questions.
 
-1. **Reference and individual selfhood.** Carry the derived Rāmānuja–Nimbārka naming rule into the proposed integrative theory, preserving its qualifying grounds and each account’s liberated individuality. The selected reference derivation is now established; a map into the larger common theory and mutual recovery of the schools’ explanatory vocabulary are further obligations.
+1. **Reference and individual selfhood.** Extend each account’s derived naming rule into its own explanation of qualifying grounds, predication and liberated individuality. The selected Rāmānuja–Nimbārka reference derivation supplies a starting point. Further comparison must preserve and recover those additional explanations.
 2. **Agency and participation.** Map Bhāskara's real conditioned action, Madhva's dependent agency, Baladeva's nonbinding action and Trika's intrinsic freedom with their different conditions intact. Use ownership, self-recognition and reserved divine governance as tests that can reject a misleading translation.
 3. **Ignorance and correction.** Build separate accounts of locus, object, individuation, corrective cognition and residual conditions for the later Advaitins. Compare the strongest positive-ignorance explanation with Saccidānandendra's actual denial in the same register. Matching beginning and end states alone is insufficient.
 4. **Fullness and manifestation.** Extend the reviewed two-determination join with source-justified episode refinements and a verified tattva coverage map. Then test Vallabha's distinct manifestation profiles, grace and routes of fulfillment. The conditional join preserves the old reflection model; full taxonomy and actual complete apprehension remain further obligations.
