@@ -32,9 +32,9 @@ already shipped. Add aliases centrally before using them in components.
 | Secondary surface | `--bg-warm`, `--bg-warmer`, `--pane-bg` | Small contextual regions; dark variants stay neutral |
 | Main text | `--ink` | Titles, prose, interactive reference text |
 | Supporting text | `--ink-soft` | Secondary prose, explanations |
-| Metadata | **new** `--text-meta`: light `--muted`, dark `--ink-soft` | Author, locus, source, grammar, dates; never faded decoration |
-| Reference action | **new** `--reference-ink`: `--ink` | Citation, glossary and source actions in every reader |
-| Focus | **new** `--focus-ring`: `--ink` | 2px outline, 2px offset; clear of clipping |
+| Metadata | `--text-meta`: light `--muted`, dark `--ink-soft` | Author, locus, source, grammar, dates; never faded decoration |
+| Reference action | `--reference-ink`: `--ink` | Citation, glossary and source actions in every reader |
+| Focus | `--focus-ring`: `--ink` | 2px outline, 2px offset; clear of clipping |
 | Decoration | `--rule`, `--rule-warm`, `--hairline`, `--muted-soft` | Separators and nonessential marks, not readable metadata |
 | Identity | `--c-*`, `--vc`, registered school colors | Graph/school/voice identity, paired with names or shapes |
 | Selection | **new** `--selection-bg`: `--bg-warmer`; `--ink` text | Active source/word plus underline or border; never color alone |
@@ -185,8 +185,12 @@ its blue palette and page layout are not adopted here.
 **Permitted exceptions:** an original author's numbered notes and existing imported
 scholarly numbering may be retained as source content, with readable named actions
 and accessible labels. Print can use numbered endnotes. Existing generated website
-superscripts remain temporarily during migration; they are not the template for new
-work. Never renumber authored source notes to match generated website references.
+references retain their numbers during migration,
+but render at the text baseline in neutral reference ink, with a dotted underline
+and visible keyboard focus. Their size is 0.8em with a .8125rem minimum; no negative
+margins or overlapping expanded hit boxes. Named references remain the target.
+Do not apply this generated-marker treatment to an original author’s superscripts.
+Never renumber authored source notes to match generated website references.
 
 ## Contextual surfaces
 

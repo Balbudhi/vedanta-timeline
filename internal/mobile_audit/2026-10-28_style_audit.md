@@ -120,3 +120,22 @@ reconciliation: the retained course preset matches CSS, source-note/language rul
 preserve verification gates, and landed fixes remain distinct from migration work.
 Runtime browser acceptance belongs to each migration
 slice; documentation review cannot pass those checks on its behalf.
+
+## CSS reference migration — follow-up
+
+Implemented the central `--reference-ink`, `--text-meta` and `--focus-ring`
+roles in `assets/style.css`. Generated `.cite-fn` markers now use baseline
+numbering, theme-aware neutral ink, dotted underlining and visible focus; their
+size is 0.8em with a .8125rem minimum. Removed the fixed brown fallback and
+negative-margin expanded hit boxes. Source-list links/attribution and citation
+preview/panel labels use the same roles. Grammar/source links no longer request
+the undefined accent token. Numbering, source identity, prose and renderers did
+not change. Named-reference rendering and other reader styles remain open.
+
+Self-reviewed CSS-only change, checked in IAB at 390/768/1440/2560 px in both themes:
+markers resolve to #1a1a1a in light and #e9e9e9 in dark, baseline alignment is
+retained, and there is no document horizontal overflow. Course markers are 16 px;
+ordinary thinker markers are 13.8125 px at the current 17 px root size. Source-list
+metadata resolves to #6a6a6a / #b2b2b2. Keyboard focus and Enter activation of the
+first course citation preserve the correct source preview; footer layout and
+smaller thinker prose were inspected. PWA shell/version regression passes.

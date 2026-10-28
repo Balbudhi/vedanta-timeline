@@ -6,7 +6,7 @@ const SHELL = [
   "/manifest.webmanifest",
   "/assets/vendor/katex-0.19.1/katex.min.css",
   "/assets/vendor/katex-0.19.1/katex.min.js",
-  "/assets/style.css?v=20261028-web-review-v2",
+  "/assets/style.css?v=20261028-reference-style-v1",
   "/assets/gita.css?v=20260827-vsn-borderless-table-v3",
   "/assets/app.js?v=20261028-web-review-v2",
   "/assets/pwa.js?v=20261028-pwa-v2",
