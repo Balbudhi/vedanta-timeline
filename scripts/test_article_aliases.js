@@ -26,7 +26,7 @@ const code = [
   section("function closePanel()", "function setPanelTab("),
   section("// ---------- markdown helpers", "// The active chronology resolver"),
   section("// ---------- articles -----------", 'articlesBtn.addEventListener("click"'),
-  section("async function openArticle(", "// Markdown renderer for the article reader."),
+  section("// Article loading lifecycle", "// Markdown renderer for the article reader."),
   section("// Markdown renderer for the article reader.", "// ---------- keyboard nav"),
   section("async function copyCurrentViewUrl(", 'const dpFullscreenBtn ='),
   `globalThis.testApi = {
@@ -292,7 +292,7 @@ async function test(name, run) {
   await test("failed canonical body does not fall back to archived companion", async () => {
     const h = harness({ bodyFails: true });
     await h.navigate("#/article/" + oldSlug);
-    assert.ok(h.context.dpArticleBody.innerHTML.includes("Article body not yet uploaded."));
+    assert.ok(h.context.dpArticleBody.innerHTML.includes("Could not load this article."));
     assert.ok(!h.context.dpArticleBody.innerHTML.includes("Canonical body marker."));
     assert.ok(!h.requests.some(url => url.includes("/source/" + oldSlug)));
   });

@@ -3,7 +3,8 @@
 "use strict";
 
 let ROOT = null;
-let RENDER_ID = 0;
+// Each asynchronous operation captures this render's ownership test. A newer
+// render or a caller leaving its pending mount invalidates older continuations.
 let isCurrent = () => true;
 let DATA = null;
 let LINKIFY = null;
@@ -509,24 +510,30 @@ function pageLabel(name) {
 }
 
 async function ensureDetails() {
-  if (!DETAILS_URL) return false;
+  const current = isCurrent;
+  if (!current() || !DETAILS_URL) return false;
   if (!DETAILS_PROMISE) {
-    const current = isCurrent;
     const names = NAME_BY_NUMBER;
-    DETAILS_PROMISE = fetch(DETAILS_URL)
+    const request = fetch(DETAILS_URL)
       .then(response => {
+        if (!current()) return null;
         if (!response.ok) throw new Error(`Could not load reader details (${response.status})`);
         return response.json();
       })
       .then(payload => {
-        if (!current()) return false;
+        if (!current() || !payload) return false;
         for (const detail of (payload.names || [])) {
           const name = names.get(Number(detail.number));
           if (name) Object.assign(name, detail);
         }
         return true;
       })
-      .catch(() => false);
+      .catch(() => false)
+      .then(loaded => {
+        if (!loaded && DETAILS_PROMISE === request) DETAILS_PROMISE = null;
+        return loaded;
+      });
+    DETAILS_PROMISE = request;
   }
   return DETAILS_PROMISE;
 }
@@ -771,6 +778,7 @@ function placeCard(card, anchor) {
 
 async function openWordCard(number, anchor) {
   const current = isCurrent;
+  if (!current()) return;
   await ensureDetails();
   if (!current()) return;
   const name = NAME_BY_NUMBER.get(Number(number));
@@ -813,6 +821,7 @@ async function openWordCard(number, anchor) {
   document.body.append(WORD_CARD);
   const showDetail = WORD_CARD.querySelector(".vsn-show-detail");
   if (showDetail) showDetail.addEventListener("click", async () => {
+    if (!current()) return;
     await setChantView(false);
     if (!current()) return;
     const entry = document.getElementById(`vsn-detail-${name.number}`);
@@ -875,6 +884,7 @@ function wireWords() {
 
 async function setDetails(open) {
   const current = isCurrent;
+  if (!current()) return;
   const chip = modeControl(".vsn-detail-chip");
   if (open) {
     chip?.setAttribute("aria-busy", "true");
@@ -896,7 +906,7 @@ async function setDetails(open) {
     const scrollRoot = ROOT?.closest(".dp-pane-body") || ROOT;
     if (!DETAILS_OBSERVER && "IntersectionObserver" in window) {
       DETAILS_OBSERVER = new IntersectionObserver(entries => {
-        if (!DETAILS_OPEN) return;
+        if (!current() || !DETAILS_OPEN) return;
         for (const entry of entries) {
           if (!entry.isIntersecting) continue;
           const block = entry.target;
@@ -962,12 +972,13 @@ function readDeepLinkName() {
 }
 
 function wireNameRange() {
+  const current = isCurrent;
   RANGE_OBSERVER?.disconnect();
   const scrollRoot = ROOT?.closest(".dp-pane-body") || null;
   let frame = 0;
   const syncFromScroll = () => {
     frame = 0;
-    if (!scrollRoot) return;
+    if (!current() || !scrollRoot) return;
     const focusY = scrollRoot.scrollTop + 78;
     let verse = null;
     for (const candidate of ROOT.querySelectorAll(".vsn-verse")) {
@@ -983,6 +994,7 @@ function wireNameRange() {
   }
   if (!("IntersectionObserver" in window)) return;
   RANGE_OBSERVER = new IntersectionObserver(entries => {
+    if (!current()) return;
     const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
     if (!visible) return;
     const stanza = DATA.stanzas[Number(visible.target.dataset.stanzaNumber) - 1];
@@ -994,6 +1006,7 @@ function wireNameRange() {
 
 async function openDeepLinkedName() {
   const current = isCurrent;
+  if (!current()) return;
   const number = DEEP_LINK_NAME;
   if (!number) return;
   await setChantView(false, false);
@@ -1009,7 +1022,9 @@ async function openDeepLinkedName() {
     const target = ROOT?.querySelector(`#vsn-detail-${CSS.escape(String(number))}`) || ROOT?.querySelector(`[data-name-number="${CSS.escape(String(number))}"]`);
     if (!target) return;
     target.classList.add("vsn-deep-link-target");
-    requestAnimationFrame(() => { if (current()) target.scrollIntoView({ behavior: "auto", block: "start" }); });
+    requestAnimationFrame(() => {
+      if (current()) target.scrollIntoView({ behavior: "auto", block: "start" });
+    });
     const stanza = stanzaIndex >= 0 ? DATA.stanzas[stanzaIndex] : null;
     updateNameRange(stanza);
     writeDeepLinkName(number);
@@ -1025,6 +1040,7 @@ function readChantView() {
 
 async function setChantView(active, persist) {
   const current = isCurrent;
+  if (!current()) return;
   CHANT_ONLY = Boolean(active);
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-chant-only", CHANT_ONLY);
   const chantChip = modeControl(".vsn-chant-chip");
@@ -1082,6 +1098,7 @@ function stopAudio() {
 }
 
 function wireAudio() {
+  const current = isCurrent;
   const bar = ROOT.querySelector(".vsn-recite-bar");
   const audio = bar.querySelector("audio");
   AUDIO_ELEMENT = audio;
@@ -1094,24 +1111,30 @@ function wireAudio() {
   const total = () => Number.isFinite(audio.duration) && audio.duration > 0
     ? audio.duration : DATA.audio.duration_seconds || 0;
   const paint = () => {
+    if (!current()) return;
     const percent = total() ? (audio.currentTime / total()) * 100 : 0;
     fill.style.width = `${percent}%`;
     progress.setAttribute("aria-valuenow", String(Math.round(percent)));
     time.textContent = `${fmtTime(audio.currentTime)} / ${fmtTime(total())}`;
   };
-  const sync = follow => setActiveTiming(timingAt(audio.currentTime), follow);
+  const sync = follow => {
+    if (current()) setActiveTiming(timingAt(audio.currentTime), follow);
+  };
   const tick = () => {
+    if (!current()) { syncFrame = 0; return; }
     if (!dragging) paint();
     sync(true);
     if (!audio.paused && !audio.ended) syncFrame = requestAnimationFrame(tick);
     else syncFrame = 0;
   };
   const startClock = () => {
+    if (!current()) return;
     sync(true);
     if (!syncFrame) syncFrame = requestAnimationFrame(tick);
   };
   const seekTo = start => {
     const run = () => {
+      if (!current()) return;
       audio.currentTime = start;
       sync(false);
       paint();
@@ -1134,7 +1157,7 @@ function wireAudio() {
   audio.addEventListener("timeupdate", () => { if (!dragging) paint(); sync(false); });
   audio.addEventListener("seeking", () => sync(false));
   audio.addEventListener("loadedmetadata", paint);
-  audio.addEventListener("ended", () => setActiveTiming(null, false));
+  audio.addEventListener("ended", () => { if (current()) setActiveTiming(null, false); });
 
   const seek = event => {
     const rect = progress.getBoundingClientRect();
@@ -1165,6 +1188,7 @@ function wireAudio() {
 
   if (ROOT._vsnUnitPlayHandler) ROOT.removeEventListener("click", ROOT._vsnUnitPlayHandler);
   ROOT._vsnUnitPlayHandler = event => {
+    if (!current()) return;
     const button = event.target.closest(".vsn-unit-play");
     if (!button) return;
     event.stopPropagation();
@@ -1181,14 +1205,15 @@ function wireAudio() {
 async function render(root, options) {
   const startedAt = performance.now();
   options = options || {};
-  const renderId = ++RENDER_ID;
+  const ownsMount = typeof options.isCurrent === "function" ? options.isCurrent : () => true;
+  if (!ownsMount()) return;
   let completed = false;
   let renderedReader = null;
-  const current = () => renderId === RENDER_ID && (completed
-    ? root.contains(renderedReader)
-    : (!options.isCurrent || options.isCurrent()));
+  const current = () => isCurrent === current && ROOT === root && ownsMount()
+    && (!completed || root.contains(renderedReader));
   isCurrent = current;
-  if (!current()) return;
+  DETAILS_OBSERVER?.disconnect();
+  DETAILS_OBSERVER = null;
   ensureStyle(options.styleUrl || "assets/sahasranama.css");
   ROOT = root;
   MODE_HOST = options.modeHost || null;
@@ -1207,6 +1232,7 @@ async function render(root, options) {
   closeWordCard();
   root.innerHTML = '<p style="color:var(--muted);font-style:italic">Opening the thousand names…</p>';
   const response = await fetch(options.dataUrl || "gita/vishnu-sahasranama/reader.json");
+  if (!current()) return;
   if (!response.ok) throw new Error(`Could not load reader data (${response.status})`);
   const fetchedAt = performance.now();
   const data = await response.json();

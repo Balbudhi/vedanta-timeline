@@ -2,8 +2,8 @@
 "use strict";
 
 // Real footer, lookup, numbering, JSON loader and openArticle execute in a VM.
-// DOM placement and Markdown parsing are outside this test's scope. Holding the
-// metadata fetch distinguishes awaiting the loader from merely starting it.
+// DOM placement and Markdown parsing are outside this test's scope. The separate
+// test_article_loading.js owns prompt display, DOM enrichment and navigation races.
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
@@ -19,7 +19,7 @@ const code = [
   section("async function loadCitationIndex(", "// Interpretations are distinct"),
   section("function escape(s)", "// Convert markdown emphasis"),
   section("function numberCitations(", "function renderMarkdownListBlock("),
-  section("async function openArticle(", "// Markdown renderer for the article reader."),
+  section("// Article loading lifecycle", "// Markdown renderer for the article reader."),
 ].join("\n");
 function harness(index = null) {
   const context = {
@@ -29,7 +29,7 @@ function harness(index = null) {
     dpArticleBody: { innerHTML: "", scrollTop: -1 },
     panelState: { loaded: {} }, router: { push() {} },
     SAHASRANAMA_READING: { slug: "sahasranama" }, GITA_READINGS: {},
-    closeArticlesModal() {}, applyTabContext() {}, openPanel() {},
+    closeArticlesModal() {}, applyTabContext() {}, openPanel() { context.panelState.open = true; },
     renderMarkdownFull: text => text,
   };
   vm.createContext(context);
@@ -116,7 +116,7 @@ async function test(name, run) {
     assert.ok(html.includes("Resolved author"));
     assert.ok(html.includes('href="cite://alias/work/code"'), "citation action retains its original key");
   });
-  await test("actual openArticle waits for actual metadata loader before rendering footnotes", async () => {
+  await test("actual metadata loader enriches footnote labels and caches successful data", async () => {
     const c = harness();
     const key = "eugenia-cheng/joy-of-abstraction/category-cheng";
     const index = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/citation_index.json"), "utf8"));
@@ -131,20 +131,19 @@ async function test(name, run) {
       }
       return { ok: true, text: async () => '<p>Study <a class="cite-link" href="cite://' + key + '">source</a></p>' };
     };
-    const opening = c.openArticle({ slug: "example", title: "Example" });
+    const opening = c.loadCitationIndex();
     try {
       await new Promise(setImmediate);
-      assert.equal(loads, 1, "opening a cited article requests metadata");
-      assert.ok(!c.dpArticleBody.innerHTML.includes("cite-fn-row"), "footer is not rendered while metadata remains pending");
+      assert.equal(loads, 1, "metadata consumer requests index");
+      assert.ok(row(c, key).includes("<em>joy-of-abstraction</em>"), "complete fallback footer can render while metadata remains pending");
     } finally {
       release();
       await opening;
     }
-    assert.ok(c.dpArticleBody.innerHTML.includes("The Joy of Abstraction"));
-    assert.ok(c.dpArticleBody.innerHTML.includes("Eugenia Cheng"));
-    assert.ok(c.dpArticleBody.innerHTML.includes(c.escape(index.entries[key].locus)));
-    assert.equal(c.panelState.loaded.article, true);
-    await c.openArticle({ slug: "another", title: "Another" });
+    assert.ok(row(c, key).includes("The Joy of Abstraction"));
+    assert.ok(row(c, key).includes("Eugenia Cheng"));
+    assert.ok(row(c, key).includes(c.escape(index.entries[key].locus)));
+    await c.loadCitationIndex();
     assert.equal(loads, 1, "the existing metadata cache is reused");
   });
   await test("uncited articles need no metadata request and unavailable metadata falls back", async () => {
