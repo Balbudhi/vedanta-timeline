@@ -187,8 +187,8 @@ scholarly numbering may be retained as source content, with readable named actio
 and accessible labels. Print can use numbered endnotes. Existing generated website
 references retain their numbers during migration,
 but render at the text baseline in regular weight (400) and secondary ink
-(`--ink-soft`), slightly quieter than the prose, with a dotted underline
-and visible keyboard focus. Their size is 0.8em with a .8125rem minimum; no negative
+(`--ink-soft`), slightly quieter than the prose, without an underline. Brackets
+identify these compact reference actions; retain visible keyboard focus. Their size is 0.8em with a .8125rem minimum; no negative
 margins or overlapping expanded hit boxes. Named references remain the target.
 Do not apply this generated-marker treatment to an original author’s superscripts.
 Never renumber authored source notes to match generated website references.

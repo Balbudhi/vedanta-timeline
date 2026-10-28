@@ -3876,12 +3876,8 @@ sup.cite-fn {
 }
 sup.cite-fn .cite-fn-link {
   color: var(--ink-soft);
-  text-decoration: underline dotted;
-  text-underline-offset: .18em;
+  text-decoration: none;
   border: 0;
-}
-sup.cite-fn .cite-fn-link:hover {
-  text-decoration-style: solid;
 }
 :is(.cite-link, .cite-fn-link, .cite-fn-rowlink):focus-visible {
   outline: 2px solid var(--focus-ring);
