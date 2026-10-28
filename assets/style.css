@@ -88,6 +88,9 @@ html, body {
      reading title and prose render larger than specified on phones). */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  /* Suppress accidental double-tap zoom without removing pinch zoom or
+     text selection in readings. Custom timeline gestures remain scoped. */
+  touch-action: manipulation;
 }
 button { font: inherit; color: inherit; }
 a { color: inherit; }

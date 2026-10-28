@@ -3,6 +3,8 @@
 "use strict";
 
 let ROOT = null;
+let RENDER_ID = 0;
+let isCurrent = () => true;
 let DATA = null;
 let LINKIFY = null;
 let ON_THINKER = null;
@@ -509,14 +511,17 @@ function pageLabel(name) {
 async function ensureDetails() {
   if (!DETAILS_URL) return false;
   if (!DETAILS_PROMISE) {
+    const current = isCurrent;
+    const names = NAME_BY_NUMBER;
     DETAILS_PROMISE = fetch(DETAILS_URL)
       .then(response => {
         if (!response.ok) throw new Error(`Could not load reader details (${response.status})`);
         return response.json();
       })
       .then(payload => {
+        if (!current()) return false;
         for (const detail of (payload.names || [])) {
-          const name = NAME_BY_NUMBER.get(Number(detail.number));
+          const name = names.get(Number(detail.number));
           if (name) Object.assign(name, detail);
         }
         return true;
@@ -686,9 +691,9 @@ function renderAudio() {
   return `<div class="recite-bar reader-media-dock vsn-recite-bar" id="vsnReciteBar">
     <audio preload="metadata" src="${esc(DATA.audio.src)}"></audio>
     <div class="rb-controls">
-      <button class="rb-skip vsn-back" type="button" aria-label="Back 15 seconds"><svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">15</text></svg></button>
+      <button class="rb-skip vsn-back" type="button" aria-label="Back 10 seconds"><svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">10</text></svg></button>
       <button class="rb-play vsn-play" type="button" aria-label="Play"><span class="rb-icon" aria-hidden="true"></span></button>
-      <button class="rb-skip vsn-forward" type="button" aria-label="Forward 15 seconds"><svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">15</text></svg></button>
+      <button class="rb-skip vsn-forward" type="button" aria-label="Forward 10 seconds"><svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">10</text></svg></button>
     </div>
     <div class="rb-progress vsn-progress" role="slider" aria-label="Seek" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="rb-bar"></div></div>
     <span class="rb-time">0:00 / ${fmtTime(DATA.audio.duration_seconds)}</span>
@@ -765,7 +770,9 @@ function placeCard(card, anchor) {
 }
 
 async function openWordCard(number, anchor) {
+  const current = isCurrent;
   await ensureDetails();
+  if (!current()) return;
   const name = NAME_BY_NUMBER.get(Number(number));
   if (!name) return;
   closeWordCard();
@@ -807,6 +814,7 @@ async function openWordCard(number, anchor) {
   const showDetail = WORD_CARD.querySelector(".vsn-show-detail");
   if (showDetail) showDetail.addEventListener("click", async () => {
     await setChantView(false);
+    if (!current()) return;
     const entry = document.getElementById(`vsn-detail-${name.number}`);
     closeWordCard();
     if (entry) entry.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -866,10 +874,12 @@ function wireWords() {
 }
 
 async function setDetails(open) {
+  const current = isCurrent;
   const chip = modeControl(".vsn-detail-chip");
   if (open) {
     chip?.setAttribute("aria-busy", "true");
     const loaded = await ensureDetails();
+    if (!current()) return;
     chip?.removeAttribute("aria-busy");
     if (!loaded) return;
   }
@@ -983,10 +993,13 @@ function wireNameRange() {
 }
 
 async function openDeepLinkedName() {
+  const current = isCurrent;
   const number = DEEP_LINK_NAME;
   if (!number) return;
   await setChantView(false, false);
+  if (!current()) return;
   requestAnimationFrame(() => {
+    if (!current()) return;
     const stanzaIndex = DATA.stanzas.findIndex(item => (item.name_numbers || []).some(value => Number(value) === number));
     const detailBlock = stanzaIndex >= 0 ? ROOT?.querySelector(`.vsn-details-block[data-stanza-number="${stanzaIndex + 1}"]`) : null;
     if (detailBlock && detailBlock.dataset.loaded !== "true") {
@@ -996,7 +1009,7 @@ async function openDeepLinkedName() {
     const target = ROOT?.querySelector(`#vsn-detail-${CSS.escape(String(number))}`) || ROOT?.querySelector(`[data-name-number="${CSS.escape(String(number))}"]`);
     if (!target) return;
     target.classList.add("vsn-deep-link-target");
-    requestAnimationFrame(() => target.scrollIntoView({ behavior: "auto", block: "start" }));
+    requestAnimationFrame(() => { if (current()) target.scrollIntoView({ behavior: "auto", block: "start" }); });
     const stanza = stanzaIndex >= 0 ? DATA.stanzas[stanzaIndex] : null;
     updateNameRange(stanza);
     writeDeepLinkName(number);
@@ -1011,6 +1024,7 @@ function readChantView() {
 }
 
 async function setChantView(active, persist) {
+  const current = isCurrent;
   CHANT_ONLY = Boolean(active);
   ROOT.querySelector(".vsn-reader")?.classList.toggle("vsn-chant-only", CHANT_ONLY);
   const chantChip = modeControl(".vsn-chant-chip");
@@ -1020,6 +1034,7 @@ async function setChantView(active, persist) {
   detailChip?.classList.toggle("is-active", !CHANT_ONLY);
   detailChip?.setAttribute("aria-pressed", String(!CHANT_ONLY));
   await setDetails(!CHANT_ONLY);
+  if (!current()) return;
   closeWordCard();
   window.GitaReader?.clearWords?.();
   if (persist !== false) {
@@ -1060,6 +1075,12 @@ function setActiveTiming(id, follow) {
   if (follow && CHANT_ONLY) active?.scrollIntoView({ behavior: "auto", block: "center" });
 }
 
+let MEDIA_SESSION = null;
+function stopAudio() {
+  MEDIA_SESSION?.release();
+  AUDIO_ELEMENT?.pause();
+}
+
 function wireAudio() {
   const bar = ROOT.querySelector(".vsn-recite-bar");
   const audio = bar.querySelector("audio");
@@ -1070,7 +1091,8 @@ function wireAudio() {
   const time = bar.querySelector(".rb-time");
   let dragging = false;
   let syncFrame = 0;
-  const total = () => audio.duration || DATA.audio.duration_seconds || 0;
+  const total = () => Number.isFinite(audio.duration) && audio.duration > 0
+    ? audio.duration : DATA.audio.duration_seconds || 0;
   const paint = () => {
     const percent = total() ? (audio.currentTime / total()) * 100 : 0;
     fill.style.width = `${percent}%`;
@@ -1100,8 +1122,8 @@ function wireAudio() {
   };
 
   play.addEventListener("click", () => audio.paused ? audio.play().catch(() => {}) : audio.pause());
-  bar.querySelector(".vsn-back").addEventListener("click", () => { audio.currentTime = Math.max(0, audio.currentTime - 15); sync(false); paint(); });
-  bar.querySelector(".vsn-forward").addEventListener("click", () => { audio.currentTime = Math.min(total(), audio.currentTime + 15); sync(false); paint(); });
+  bar.querySelector(".vsn-back").addEventListener("click", () => { audio.currentTime = Math.max(0, audio.currentTime - 10); sync(false); paint(); });
+  bar.querySelector(".vsn-forward").addEventListener("click", () => { audio.currentTime = Math.min(total(), audio.currentTime + 10); sync(false); paint(); });
   audio.addEventListener("play", () => {
     play.classList.add("is-playing"); bar.classList.add("is-playing"); play.setAttribute("aria-label", "Pause"); startClock();
   });
@@ -1124,9 +1146,21 @@ function wireAudio() {
   progress.addEventListener("pointerdown", event => { dragging = true; progress.setPointerCapture(event.pointerId); seek(event); });
   progress.addEventListener("pointermove", event => { if (dragging) seek(event); });
   progress.addEventListener("pointerup", event => { dragging = false; try { progress.releasePointerCapture(event.pointerId); } catch (_) {} });
+  progress.addEventListener("pointercancel", () => { dragging = false; });
   progress.addEventListener("keydown", event => {
     if (event.key === "ArrowRight") { audio.currentTime = Math.min(total(), audio.currentTime + 5); sync(false); paint(); event.preventDefault(); }
     if (event.key === "ArrowLeft") { audio.currentTime = Math.max(0, audio.currentTime - 5); sync(false); paint(); event.preventDefault(); }
+  });
+
+  MEDIA_SESSION = window.VedantaMediaSession?.attach(audio, {
+    metadata: {
+      title: "Viṣṇu Sahasranāma",
+      artist: DATA.audio.performer || "",
+      album: "Vedānta",
+      artwork: [{ src: new URL("/assets/icon-192.png", location.href).href, sizes: "192x192", type: "image/png" }],
+    },
+    duration: total,
+    onSeek: () => { sync(false); paint(); },
   });
 
   if (ROOT._vsnUnitPlayHandler) ROOT.removeEventListener("click", ROOT._vsnUnitPlayHandler);
@@ -1147,6 +1181,14 @@ function wireAudio() {
 async function render(root, options) {
   const startedAt = performance.now();
   options = options || {};
+  const renderId = ++RENDER_ID;
+  let completed = false;
+  let renderedReader = null;
+  const current = () => renderId === RENDER_ID && (completed
+    ? root.contains(renderedReader)
+    : (!options.isCurrent || options.isCurrent()));
+  isCurrent = current;
+  if (!current()) return;
   ensureStyle(options.styleUrl || "assets/sahasranama.css");
   ROOT = root;
   MODE_HOST = options.modeHost || null;
@@ -1157,7 +1199,9 @@ async function render(root, options) {
   CHANT_ONLY = readChantView();
   DEEP_LINK_NAME = readDeepLinkName();
   if (DEEP_LINK_NAME) CHANT_ONLY = false;
-  if (AUDIO_ELEMENT) AUDIO_ELEMENT.pause();
+  stopAudio();
+  MEDIA_SESSION?.dispose();
+  MEDIA_SESSION = null;
   AUDIO_ELEMENT = null;
   ACTIVE_TIMING_ID = null;
   closeWordCard();
@@ -1165,7 +1209,9 @@ async function render(root, options) {
   const response = await fetch(options.dataUrl || "gita/vishnu-sahasranama/reader.json");
   if (!response.ok) throw new Error(`Could not load reader data (${response.status})`);
   const fetchedAt = performance.now();
-  DATA = await response.json();
+  const data = await response.json();
+  if (!current()) return;
+  DATA = data;
   const parsedAt = performance.now();
   DETAILS_URL = options.detailsUrl || "";
   DETAILS_PROMISE = null;
@@ -1178,6 +1224,7 @@ async function render(root, options) {
   root.innerHTML = `<div class="gita-reader vsn-reader">${renderAttribution()}${renderPreface()}${renderNamesSection()}${renderPostlude()}${renderAudio()}</div>`;
   const renderedAt = performance.now();
   const reader = root.querySelector(".vsn-reader");
+  renderedReader = reader;
   if (reader) {
     reader.dataset.readyMs = String(Math.round(renderedAt - startedAt));
     reader.dataset.fetchMs = String(Math.round(fetchedAt - startedAt));
@@ -1195,8 +1242,11 @@ async function render(root, options) {
   wireAudio();
   wireNameRange();
   await setChantView(CHANT_ONLY, false);
+  if (!current()) return;
   await openDeepLinkedName();
+  if (current()) completed = true;
 }
 
 window.SahasranamaReader = { render };
+window.SahasranamaReader.stopAudio = stopAudio;
 })();

@@ -5,12 +5,23 @@
   let updateReady = false;
   let reloading = false;
   let lastCheck = 0;
+  let listeningStarted = false;
 
+  const playing = () => [...document.querySelectorAll("audio, video")]
+    .some(media => !media.paused && !media.ended);
   const applyUpdate = () => {
+    if (listeningStarted || playing()) return;
     if (!updateReady || reloading || document.visibilityState === "hidden") return;
     reloading = true;
     window.location.reload();
   };
+
+  // A pause is not the end of a listening session. Preserve its seek position
+  // through pauses, buffering, and completion; the next launch loads the update.
+  // Media events do not bubble, so observe them in capture phase.
+  const preserveListeningSession = () => { listeningStarted = true; };
+  document.addEventListener("play", preserveListeningSession, true);
+  document.addEventListener("seeking", preserveListeningSession, true);
 
   navigator.serviceWorker.addEventListener("controllerchange", () => {
     if (!hadController) {

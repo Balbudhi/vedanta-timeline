@@ -274,12 +274,12 @@ function renderRecitationBar() {
   const reciter = esc(AUDIO_MANIFEST.reciter || AUDIO_MANIFEST.attribution || "");
   return `<div class="recite-bar reader-media-dock" id="reciteBar">
     <div class="rb-controls">
-      <button class="rb-skip" id="rbBack" type="button" aria-label="Back 15 seconds" title="Back 15 seconds">
-        <svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">15</text></svg>
+      <button class="rb-skip" id="rbBack" type="button" aria-label="Back 10 seconds" title="Back 10 seconds">
+        <svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">10</text></svg>
       </button>
       <button class="rb-play" id="rbPlay" type="button" aria-label="Play" title="Play / pause (space)"><span class="rb-icon" aria-hidden="true"></span></button>
-      <button class="rb-skip" id="rbFwd" type="button" aria-label="Forward 15 seconds" title="Forward 15 seconds">
-        <svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">15</text></svg>
+      <button class="rb-skip" id="rbFwd" type="button" aria-label="Forward 10 seconds" title="Forward 10 seconds">
+        <svg class="rb-skip-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5V1l5 5-5 5V7c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6h2c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8z"/><text class="rb-skip-num" x="12" y="15.6" text-anchor="middle">10</text></svg>
       </button>
     </div>
     <div class="rb-progress" id="rbProgress" role="slider" aria-label="Seek" tabindex="0" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
@@ -329,6 +329,11 @@ function toggleVoice(id) {
 /* ---------- public render ---------- */
 function render(root, opts) {
   opts = opts || {};
+  stopAudio();
+  AUDIO_EVENTS?.abort();
+  AUDIO_EVENTS = null;
+  MEDIA_SESSION?.dispose();
+  MEDIA_SESSION = null;
   ROOT = root;
   GLOSS_BASE = opts.glossaryBase || GLOSS_BASE;
   AUDIO_BASE = opts.audioBase != null ? opts.audioBase : AUDIO_BASE;
@@ -828,6 +833,15 @@ function wireVoiceBar() {
 // in the DOM tree of the reader (so re-rendering the reader never orphans a
 // playing clip); we keep a single module-level element and reset it.
 let AUDIO = null;          // HTMLAudioElement
+let AUDIO_EVENTS = null;
+let MEDIA_SESSION = null;
+
+function stopAudio() {
+  MEDIA_SESSION?.release();
+  AUDIO?.pause();
+  segLimit = null;
+  setActiveVerse(null);
+}
 let segLimit = null;       // when set, playback pauses at this time (per-verse play)
 let activeLocus = null;    // currently-highlighted verse
 
@@ -873,13 +887,16 @@ function wireRecitation() {
   const timeEl  = bar.querySelector("#rbTime");
 
   const audio = ensureAudio();
+  AUDIO_EVENTS = new AbortController();
+  const onAudio = (name, callback) => audio.addEventListener(name, callback, { signal: AUDIO_EVENTS.signal });
   const src = AUDIO_BASE + AUDIO_MANIFEST.src;
   // (Re)point the element at this reading's clip without restarting if same.
   if (!audio.src.endsWith(src)) { audio.src = src; }
   segLimit = null;
   activeLocus = null;
 
-  const total = () => audio.duration || (AUDIO_MANIFEST.verses[AUDIO_MANIFEST.verses.length - 1].end);
+  const total = () => Number.isFinite(audio.duration) && audio.duration > 0
+    ? audio.duration : AUDIO_MANIFEST.verses[AUDIO_MANIFEST.verses.length - 1].end;
   const paint = () => {
     const dur = total();
     const pct = dur ? Math.max(0, Math.min(100, (audio.currentTime / dur) * 100)) : 0;
@@ -900,15 +917,15 @@ function wireRecitation() {
     audio.currentTime = Math.max(0, Math.min(dur, audio.currentTime + delta));
     paint();
   };
-  backBtn.addEventListener("click", () => skip(-15));
-  fwdBtn.addEventListener("click", () => skip(15));
+  backBtn.addEventListener("click", () => skip(-10));
+  fwdBtn.addEventListener("click", () => skip(10));
 
-  audio.addEventListener("play",  () => { playBtn.classList.add("is-playing");    playBtn.setAttribute("aria-label", "Pause"); bar.classList.add("is-playing"); });
-  audio.addEventListener("pause", () => { playBtn.classList.remove("is-playing"); playBtn.setAttribute("aria-label", "Play");  bar.classList.remove("is-playing"); });
-  audio.addEventListener("loadedmetadata", paint);
-  audio.addEventListener("ended", () => { segLimit = null; setActiveVerse(null); paint(); });
+  onAudio("play",  () => { playBtn.classList.add("is-playing");    playBtn.setAttribute("aria-label", "Pause"); bar.classList.add("is-playing"); });
+  onAudio("pause", () => { playBtn.classList.remove("is-playing"); playBtn.setAttribute("aria-label", "Play");  bar.classList.remove("is-playing"); });
+  onAudio("loadedmetadata", paint);
+  onAudio("ended", () => { segLimit = null; setActiveVerse(null); paint(); });
 
-  audio.addEventListener("timeupdate", () => {
+  onAudio("timeupdate", () => {
     if (segLimit != null && audio.currentTime >= segLimit) {
       audio.pause();
       segLimit = null;
@@ -954,6 +971,18 @@ function wireRecitation() {
     const dur = total(); if (!dur) return;
     if (e.key === "ArrowRight") { audio.currentTime = Math.min(dur, audio.currentTime + 5); segLimit = null; paint(); e.preventDefault(); }
     else if (e.key === "ArrowLeft") { audio.currentTime = Math.max(0, audio.currentTime - 5); segLimit = null; paint(); e.preventDefault(); }
+  });
+
+  MEDIA_SESSION = window.VedantaMediaSession?.attach(audio, {
+    metadata: {
+      title: document.getElementById("dpTabTitle")?.textContent || document.title,
+      artist: AUDIO_MANIFEST.reciter || "",
+      album: "Vedānta",
+      artwork: [{ src: new URL("/assets/icon-192.png", location.href).href, sizes: "192x192", type: "image/png" }],
+    },
+    duration: total,
+    beforePlay: () => { segLimit = null; },
+    onSeek: () => { segLimit = null; paint(); setActiveVerse(locusAt(audio.currentTime)); },
   });
 
   // Per-verse ▶ — play just [start,end]; clicking the active one pauses.
@@ -1074,7 +1103,7 @@ function clearWords() {
   hideGrammarCard();
 }
 
-window.GitaReader = { render, renderPassages, interactiveBlock, interactiveInline, bindWords, clearWords, repositionCard: place };
+window.GitaReader = { stopAudio, render, renderPassages, interactiveBlock, interactiveInline, bindWords, clearWords, repositionCard: place };
 
 // Standalone page bootstrap (no-op inside the app, where #gitaRoot is absent).
 document.addEventListener("DOMContentLoaded", () => {

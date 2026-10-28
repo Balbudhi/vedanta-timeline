@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#ffffff" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -18,7 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/vendor/katex-0.19.1/katex.min.css" />
-  <link rel="stylesheet" href="assets/style.css?v=20261028-course-reading-v2" />
+  <link rel="stylesheet" href="assets/style.css?v=20261028-performance-audio-v1" />
   <link rel="stylesheet" href="assets/gita.css?v=20260827-vsn-borderless-table-v3" />
 </head>
 <body>
@@ -32,12 +32,12 @@
     <span class="mobile-subtitle" id="mobileSubtitle">Timeline</span>
     <span class="spacer"></span>
     <div class="chronology-toggle" role="group" aria-label="Chronology basis">
-      <button class="chronology-toggle-btn" data-chronology="academic" type="button" aria-pressed="false" title="Use academic chronology">Academic</button>
-      <button class="chronology-toggle-btn" data-chronology="traditional" type="button" aria-pressed="false" title="Use traditional ordering (dates under construction)">Traditional</button>
+      <button class="chronology-toggle-btn" data-chronology="academic" type="button" aria-label="Academic chronology" aria-pressed="false" title="Use academic chronology">Academic</button>
+      <button class="chronology-toggle-btn" data-chronology="traditional" type="button" aria-label="Traditional chronology" aria-pressed="false" title="Use traditional ordering (dates under construction)">Traditional</button>
     </div>
     <div class="view-toggle" role="tablist" aria-label="Timeline view">
-      <button class="view-toggle-btn is-active" data-view="lanes" role="tab" aria-selected="true" type="button">Lanes</button>
-      <button class="view-toggle-btn" data-view="network" role="tab" aria-selected="false" type="button">Network</button>
+      <button class="view-toggle-btn is-active" data-view="lanes" role="tab" aria-label="Lanes" aria-selected="true" type="button">Lanes</button>
+      <button class="view-toggle-btn" data-view="network" role="tab" aria-label="Network" aria-selected="false" type="button">Network</button>
     </div>
     <button class="topbar-btn topbar-btn--icon" id="filterBtn" type="button" aria-label="Filter lanes" title="Filter schools">
       <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M2 4h12M4 8h8M6 12h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" fill="none"/></svg>
@@ -154,7 +154,8 @@
   </main>
 
   <script src="assets/vendor/katex-0.19.1/katex.min.js"></script>
-  <script type="module" src="assets/app.js?v=20261028-article-math-v1"></script>
-  <script src="assets/pwa.js?v=20260827-pwa-v1"></script>
+  <script src="assets/media-session.js?v=20261028-audio-v1"></script>
+  <script type="module" src="assets/app.js?v=20261028-performance-audio-v1"></script>
+  <script src="assets/pwa.js?v=20261028-pwa-v2"></script>
 </body>
 </html>
