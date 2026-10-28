@@ -455,7 +455,7 @@
       "claim": "An ordinary mirror selectively receives visible form rather than every property; image support, the means of knowing it, registration and efficacy have different roles. Presentations without a currently present external original lead to the larger argument about consciousness’s intrinsic powers.",
       "claim_kind": "interpretive",
       "source_level": "primary",
-      "qualification": "Root and Jayaratha’s explanations remain separate. The mirror example alone does not prove universal manifestation by consciousness. Limited cognition, paśyantī’s differentiated reflection and complete reflexivity must not be identified.",
+      "qualification": "Root and Jayaratha’s explanations remain separate. The mirror example alone does not prove universal manifestation by consciousness. Limited cognition, paśyantī’s differentiated reflection and complete reflexivity must not be identified. The selected fullness/reflection join is conditional on illustrative episode-head assignments. A complete constitutional profile is not current local apprehension or local instantiation of every included property. The two-determination model does not verify the complete tattva taxonomy or reconcile intrinsic-agency doctrines.",
       "research_dossier": "audit/integrative-vedanta-2026-10-27/trika-theory-interpretation.md",
       "independent_review": "audit/integrative-vedanta-2026-10-27/review-trika-theory-interpretation.md",
       "witness_path": null,
@@ -463,13 +463,20 @@
       "witness_quality": "Selected electronic primary witness; not a critical edition or complete-work certification.",
       "rights_note": "Existing public witness; underlying classical text; retain provider conditions.",
       "publication_scope": "Concise source-grounded reconstruction only; no quotation or full-work verification is asserted.",
-      "research_status": "Selected source reconstruction independently reviewed in the named dossier; public summary requires article review.",
+      "research_status": "Selected source bridge, mathematical join and accessible lesson independently reviewed on2026-10-28; no complete-work or whole-system certification.",
       "recorded": "2026-10-27",
       "public_excerpts": "No Sanskrit or modern translation is quoted in this summary record; use separately reviewed interactive passage records for quoted text.",
       "author_name": "Abhinavagupta",
       "work_title": "Tantrāloka with Viveka",
       "additional_research_dossiers": [
-        "audit/integrative-vedanta-2026-10-27/trika-reflection-mechanism.md"
+        "audit/integrative-vedanta-2026-10-27/trika-reflection-mechanism.md",
+        "audit/integrative-vedanta-2026-10-27/fullness-reflection-source-bridge.md",
+        "audit/integrative-vedanta-2026-10-27/fullness-reflection-join.md"
+      ],
+      "updated": "2026-10-28",
+      "additional_independent_reviews": [
+        "audit/integrative-vedanta-2026-10-27/review-fullness-reflection-source-bridge.md",
+        "audit/integrative-vedanta-2026-10-27/review-fullness-reflection-join.md"
       ]
     },
     {
@@ -481,7 +488,7 @@
       "claim": "Constitutive prerequisites and retention of completed manifestation support a fullness construction in which determinations remain distinct despite complete constitutive inclusion.",
       "claim_kind": "interpretive",
       "source_level": "primary",
-      "qualification": "The mathematical closure theorem additionally requires explicit compositional inheritance. The local ordered list does not separately enumerate all standard36 tattvas.",
+      "qualification": "The mathematical closure theorem additionally requires explicit compositional inheritance. The local ordered list does not separately enumerate all standard36 tattvas. The selected fullness/reflection join is conditional on illustrative episode-head assignments. A complete constitutional profile is not current local apprehension or local instantiation of every included property. The two-determination model does not verify the complete tattva taxonomy or reconcile intrinsic-agency doctrines.",
       "research_dossier": "audit/integrative-vedanta-2026-10-27/fullness-constitutive-inclusion.md",
       "independent_review": "audit/integrative-vedanta-2026-10-27/review-fullness-closure-sources.md",
       "witness_path": "data/sources/sanskrit/kashmir_shaiva/abhinavagupta_paratrimsika_vivarana.txt",
@@ -490,11 +497,20 @@
       "rights_note": "Existing public witness; underlying classical text; retain provider conditions.",
       "publication_scope": "Concise source-grounded reconstruction only; no quotation or full-work verification is asserted.",
       "witness_sha256": "713f089d13e6bc8db5bcbdb3a6b5861f6cc21e51a8a666f866c585a8a52ca97e",
-      "research_status": "Selected source reconstruction independently reviewed in the named dossier; public summary requires article review.",
+      "research_status": "Selected source bridge, mathematical join and accessible lesson independently reviewed on2026-10-28; no complete-work or whole-system certification.",
       "recorded": "2026-10-27",
       "public_excerpts": "No Sanskrit or modern translation is quoted in this summary record; use separately reviewed interactive passage records for quoted text.",
       "author_name": "Abhinavagupta",
-      "work_title": "Parātriṃśikāvivaraṇa"
+      "work_title": "Parātriṃśikāvivaraṇa",
+      "updated": "2026-10-28",
+      "additional_research_dossiers": [
+        "audit/integrative-vedanta-2026-10-27/fullness-reflection-source-bridge.md",
+        "audit/integrative-vedanta-2026-10-27/fullness-reflection-join.md"
+      ],
+      "additional_independent_reviews": [
+        "audit/integrative-vedanta-2026-10-27/review-fullness-reflection-source-bridge.md",
+        "audit/integrative-vedanta-2026-10-27/review-fullness-reflection-join.md"
+      ]
     },
     {
       "id": "sakta",

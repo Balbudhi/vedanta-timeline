@@ -254,9 +254,9 @@ The citations open the public source records. Their locus and qualification fiel
 
 **Argument:** Selective manifestation with intrinsic reflexivity; all-in-all through prerequisites plus retained complete apprehension and composition.
 
-**Formal start:** Reviewed receiver joint model plus separately reviewed closure/path module; newest closure is not yet joined.
+**Formal start:** Reviewed fullness/receiver join through typed episode–content incidence; a conditional two-determination expansion preserves the same joint reflection model and its school-interface comparisons.
 
-**Next test:** Give a typed map from selected tattvas to successor forms and interpret Prereq/Retains/C-closure without identifying every intentional object with a tattva.
+**Next test:** Replace illustrative episode-head assignments with source-justified refinements, verify fuller tattva coverage, and distinguish actual complete apprehension from a constitutional profile.
 
 ### Kṣemarāja
 
@@ -414,7 +414,7 @@ The citations open the public source records. Their locus and qualification fiel
 
 ## What the next work should establish
 
-The shared body–indweller reference inference is now derived through source-shaped semantic rules, with guarded categorical interpretations. The next reference task is to carry that result into the integrative theory and test mutual recovery of the schools’ explanatory predicates. A second priority is to join the separately verified constitutive-fullness model to the common model through a justified map of tattvas and forms. The third task is a temporal account of realized devotion that distinguishes a knowledge-event, retained realization, devotional disposition and a particular devotional act. The Maṇḍana–Sureśvara comparison should then specify how instruction, contemplation and immediate knowledge relate. For Śākta comparison, the immediate task is to formalize the already examined Devīgītā and Kāmakalāvilāsa/Cidvallī arguments before adding another school label.
+The shared body–indweller reference inference is now derived through source-shaped semantic rules, with guarded categorical interpretations. The next reference task is to carry that result into the integrative theory and test mutual recovery of the schools’ explanatory predicates. The constitutive-fullness module now has a conditional two-determination join with the common model; its next task is to justify particular episode refinements and a complete coverage map from the sources. The third task is a temporal account of realized devotion that distinguishes a knowledge-event, retained realization, devotional disposition and a particular devotional act. The Maṇḍana–Sureśvara comparison should then specify how instruction, contemplation and immediate knowledge relate. For Śākta comparison, the immediate task is to formalize the already examined Devīgītā and Kāmakalāvilāsa/Cidvallī arguments before adding another school label.
 
 These are concrete constructions rather than a requirement to finish every collected work before explaining anything. Each should produce a small set of source-bound premises, a proof-preserving interpretation where available, and a countermodel where a proposed identification loses substantive content.
 

@@ -1385,7 +1385,7 @@ One can now describe what each source comparison preserves. On the Advaita side,
 
 The decisive point is that both comparisons use the **same** fifteen-episode U-model. Two different enrichments, each compatible with only one source, would not establish simultaneous compatibility. In the checked construction the designated interface carriers and functions correspond, and every selected predicate has the same extension after reduction. The finite witness and the interpretation proofs were reviewed separately: the witness demonstrates possibility, while the proofs establish that the declared interface axioms survive the translations in every model of the relevant target theories.
 
-The displayed clauses teach the central mechanism; they are not a replacement for every axiom in either philosopher's complete account. In particular, the comparison leaves the strongest opposition between intrinsic nonagency and intrinsic formative freedom outside the shared interface. The fullness-closure module below is also a further construction to connect, not a result secretly obtained from episode ownership. The positive achievement is a simultaneous model of the selected reflection and recognition mechanisms, with meaningful nonbinding devotion and restricted experience. That is a stronger beginning for nonhierarchical integration than one undifferentiated endpoint, while leaving the remaining philosophical tests explicit.
+The displayed clauses teach the central mechanism; they are not a replacement for every axiom in either philosopher's complete account. In particular, the comparison leaves the strongest opposition between intrinsic nonagency and intrinsic formative freedom outside the shared interface. The fullness-closure module below is connected by a separate, conditional refinement of this same model; that connection requires additional premises and does not follow from episode ownership alone. The positive achievement is a simultaneous model of the selected reflection and recognition mechanisms, with meaningful nonbinding devotion and restricted experience. That is a stronger beginning for nonhierarchical integration than one undifferentiated endpoint, while leaving the remaining philosophical tests explicit.
 
 
 ## Fullness as a mathematical question
@@ -1423,6 +1423,61 @@ Thus closure is left adjoint to the inclusion of Closed into all subsets. This i
 
 Constitutive fullness also differs from a finite mind's current access. A determination can require the whole for a complete account without the person experiencing it knowing every fact. The latter conclusion would need an additional access rule. This is how the proposed integration can retain restricted experience without making its ultimate reality a fragment cut out of completeness.
 
+## Connecting fullness to a particular experience
+
+A fullness graph and a model of experience can each be consistent while saying nothing about one another. To connect them, we must specify which determination a presentation concerns and how that presentation belongs to an actual episode. We must also keep two questions separate: what a complete account of the presented determination includes, and what its finite experiencer presently apprehends.
+
+Abhinavagupta supplies a reason for the first connection. In the *Parātriṃśikāvivaraṇa*, an apprehension of earth counts as complete only if it discloses earth's entire constitution. The argument then follows its indispensable constituents and their own grounds. This conditional does not say that anyone who sees a patch of ground has already realized that complete account. The earth–water discussion supplies a small, source-based test: earth requires water in this elemental explanation; the complete apprehension of water retains the completed earth-field. These are the author's two differently warranted premises, not conclusions about modern chemistry. [Source](cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness)
+
+The receiver account prevents an invalid further step. Jayaratha argues that a reflected mountain does not make the mirror heavy. A reflection's support, its presented aspects and the means by which it is known have different roles. Full constitutive inclusion therefore cannot mean that every included property becomes locally instantiated in the receiving surface or mind. [Source](cite://abhinavagupta/tantraloka/category-trika-receiver)
+
+Keep the earlier fifteen-episode model unchanged. Add a separate determination type T containing W and Earth. These are the selected water and earth principles; T is not a complete tattva taxonomy. Its two labelled arrows are:
+
+```
+Need(Earth,W)       Retain(W,Earth).
+```
+
+Self-inclusion and the two inheritance rules give each determination the full selected profile {W,Earth}. The two elements remain distinct. The preceding closure lesson explains why these two differently warranted arrows are needed and why a larger graph also needs a checked account of its paths and coverage.
+
+Now add `Head(e,t)`: the proposed refinement assigns t as episode e's locally explicit operative determination. This includes an actual local-articulation claim; it is not merely an analyst's note about a hidden constituent. It also does not mean that the episode completely apprehends t. Let `content(e)` remain the episode's old coarse presentation role. Two incidence relations connect the new and old types:
+
+```
+Head(e,t) implies RoleHead(t,content(e)).
+RoleHead(t,f) implies RoleContent(f,t).
+RoleContent(f,t) and In(t,x) imply RoleContent(f,x).
+```
+
+Here RoleContent records the complete constitutional account associated with a role's selected determination. It does not say that the role is a physical lump of that element. In particular, neither the persons nor their person-role forms have been renamed as tattvas. Multiple determinations can be associated with the same coarse presentation role.
+
+Define the episode's constitutive profile by both parts of the connection:
+
+```
+Profile(e,t) holds exactly when there is x with
+  Head(e,x), In(x,t), and RoleContent(content(e),t).
+```
+
+The proof now crosses the two modules. Suppose an episode has head W. Closure gives In(W,Earth). The first two incidence rules give RoleContent(content(e),W); the third gives RoleContent(content(e),Earth). These facts yield Profile(e,Earth). The profile belongs to this episode's actual content role. Its intrinsic and reflexive inclusion use that role's existing relation to the intrinsic subject. When the episode occurs, the existing registration rules place the presentation in its actual owner's receiver. None of these steps changes its owner or transfers another person's experience to it.
+
+To see why the bridge matters, remove only the first incidence rule. Keep the old reflection model, the complete two-element inclusion relation and a selected head. We can now leave RoleHead and RoleContent empty, making Profile empty too. Those remaining premises do not prove the joined profile. Merely putting the two models side by side would leave precisely this gap.
+
+A concrete expansion uses two different existing episodes. As an illustrative proposal, assign a water head to one otherwise unspecified episode and an earth head to the episode in which a pot is presented but its existence is doubted. This second assignment means an earth articulation within that presentation, not an equation of the intentional pot with the earth principle. Neither assignment is established by the old model or identified as a particular event in the source. They are explicit premises for testing whether this refinement can coexist with the already modeled experiences.
+
+In that expanded witness, each of the two episodes has both selected constituents in its complete profile. Yet local explicit articulation follows only its assigned head and current access:
+
+```
+Explicit(c,t,s) holds exactly when there is e with
+  Access(c,e,s) and Head(e,t).
+```
+
+There are four episode–constituent profile pairs, but only two selected local-articulation triples. The water-headed episode can therefore have Earth in its complete profile without its owner explicitly apprehending Earth at that moment. The original fifteen episodes and sixty-three displays remain unchanged. Temporary quiet gains no new episode; the dream chariot gains no external existence. Full constitution has not become finite omniscience or indiscriminate property transfer.
+
+Categorically, retain pairs `(determination, role)` with RoleContent incidence. An arrow within one role is a labelled prerequisite/retention path between its determinations. Closure ensures that intermediate determinations stay in that role's profile; identities and composition are empty paths and concatenation. Projection to the role forgets the distinction between its determinations, while projection to the path category retains their distinct heads and reasons for inclusion. In the witness, the shared presentation-role fibre—the objects with that role—has two objects and both labelled directions. A two-edge cycle is not an identity, so equal complete profiles do not make those objects isomorphic in this free path category.
+
+This is an **expansion** of the same model, not a replacement: forgetting the added data returns exactly the old model and its two reviewed school-interface comparisons. More generally, the construction provides an expansion of every set-based model of the old selected theory, using the two marked episodes and their actual content values. An old-language assertion cannot become newly forced if every old countermodel survives this expansion. This is model-conservativity, a preservation result. It does not establish unique refinements, equivalence of the two theories, or validity of the proposed episode assignments as historical interpretations.
+
+The advance is consequently specific: fullness and reflection now admit a connected, nonempty common model with a proved constitutive-profile consequence. The connection is conditional on its declared refinement premises. It still requires source-justified assignments for a complete tattva account, a separate theory of actually attaining complete apprehension, and an argument about intrinsic nonagency versus formative freedom. The existing Śaṅkara interface does not silently acquire every new Trika premise merely because its original cognitive distinctions survive.
+
+
 ## What the proposed integrated Vedānta asserts
 
 The constructive proposal has five commitments. Intrinsic self-manifestation is not produced by a cognitive episode. Finite lives have real, conditioned structures. Their ultimate Self is not exhausted by the conditions distinguishing those lives. Manifestation belongs to the reality's own power rather than an independently supplied second source. Recognition can remove binding appropriation while leaving the possibility of meaningful activity and love.
@@ -1451,7 +1506,7 @@ The next work is organized around specific arguments, not an indefinite instruct
 1. **Reference and individual selfhood.** Carry the derived Rāmānuja–Nimbārka naming rule into the proposed integrative theory, preserving its qualifying grounds and each account’s liberated individuality. The selected reference derivation is now established; a map into the larger common theory and mutual recovery of the schools’ explanatory vocabulary are further obligations.
 2. **Agency and participation.** Map Bhāskara's real conditioned action, Madhva's dependent agency, Baladeva's nonbinding action and Trika's intrinsic freedom with their different conditions intact. Use ownership, self-recognition and reserved divine governance as tests that can reject a misleading translation.
 3. **Ignorance and correction.** Build separate accounts of locus, object, individuation, corrective cognition and residual conditions for the later Advaitins. Compare the strongest positive-ignorance explanation with Saccidānandendra's actual denial in the same register. Matching beginning and end states alone is insufficient.
-4. **Fullness and manifestation.** Attach the prerequisite/retention closure module to the already constructed reflection model. Then test Vallabha's distinct manifestation profiles, grace and routes of fulfillment. This is an actual missing join, not a theorem already contained in the joint Śaṅkara–Trika witness.
+4. **Fullness and manifestation.** Extend the reviewed two-determination join with source-justified episode refinements and a verified tattva coverage map. Then test Vallabha's distinct manifestation profiles, grace and routes of fulfillment. The conditional join preserves the old reflection model; full taxonomy and actual complete apprehension remain further obligations.
 5. **Practice and fulfilled life.** Relate temporary quiet, discriminative knowledge, irreversible correction, continued embodiment and devotion. Preserve Madhusūdana's developmental sequence, Ramaṇa's account of abidance and the distinct postknowledge accounts of Ramakrishna and Vivekananda.
 
 For each construction the deliverable is a connected primary argument, a typed theory, an explicit translation or counterexample, and an independent review asking whether an important source mechanism has been omitted. The [reading and construction plan by thinker](https://vedanta.eeshan.xyz/#/article/vedanta-category-research-plan) records the examined loci, existing formal start and next test separately for the individual authors and traditions. These are plans for arguments that remain to be established, alongside results already obtained.
