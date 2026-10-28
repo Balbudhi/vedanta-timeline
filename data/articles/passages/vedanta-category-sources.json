@@ -734,15 +734,15 @@
       "work": "Pañcapādikāvivaraṇa",
       "locus": "Printed45/PDF63, opening reply",
       "source_language": "Sanskrit",
-      "original_text": "nanu darpaṇādikaṃ vā kiñcidvikārabhedanimittaṃ mukhābhāsasaṃbandhīti cedihāpi cetanasvarūpamātrasaṃbandhyajñānaṃ tatra jīvabrahmavyavahārabhedaṃ pravartayati |",
-      "voice": "Mirror objection and author’s reply",
+      "original_text": "nanu darpaṇādidravyaṃ vā kiñcid bimbabhedanimittam | mukhābhāsasaṃbandhīti ced ihāpi cetanasvarūpamātrasaṃbandhyajñānaṃ tatra jīvabrahmavyavahārabhedaṃ pravartayati |",
+      "voice": "Argumentative counterquestion and conditional reply",
       "source_url": "https://archive.org/details/in.ernet.dli.2015.496088",
-      "notes": "",
+      "notes": "Corrected against printed p. 45 / PDF image 63: darpaṇādidravyaṃ and bimbabhedanimittam. The supplied question resumes the preceding question about what ignorance is connected with. Independent source review, 28 October 2026.",
       "translation_provenance": "Site literal translation of the selected source wording.",
       "verification_scope": "Selected wording, literal rendering and speaker attribution independently reviewed; not certification of a complete work or system.",
-      "romanized_text": "nanu darpaṇādikaṃ vā kiñcidvikārabhedanimittaṃ mukhābhāsasaṃbandhīti cedihāpi cetanasvarūpamātrasaṃbandhyajñānaṃ tatra jīvabrahmavyavahārabhedaṃ pravartayati |",
-      "sanskrit_iast": "nanu darpaṇādikaṃ vā kiñcidvikārabhedanimittaṃ mukhābhāsasaṃbandhīti cedihāpi cetanasvarūpamātrasaṃbandhyajñānaṃ tatra jīvabrahmavyavahārabhedaṃ pravartayati |",
-      "literal_translation": "[Objection:] Something such as a mirror, an occasion of differentiated modification, is related to the appearance of the face. [Reply:] Here too ignorance related to conscious nature alone sets in motion there the distinction in usage as jīva and Brahman."
+      "romanized_text": "nanu darpaṇādidravyaṃ vā kiñcid bimbabhedanimittam | mukhābhāsasaṃbandhīti ced ihāpi cetanasvarūpamātrasaṃbandhyajñānaṃ tatra jīvabrahmavyavahārabhedaṃ pravartayati |",
+      "sanskrit_iast": "nanu darpaṇādidravyaṃ vā kiñcid bimbabhedanimittam | mukhābhāsasaṃbandhīti ced ihāpi cetanasvarūpamātrasaṃbandhyajñānaṃ tatra jīvabrahmavyavahārabhedaṃ pravartayati |",
+      "literal_translation": "But a substance such as a mirror, something that occasions a difference of the image—[what is it connected with]? If [one says] that it is connected with the appearance of the face, here too ignorance connected with conscious nature alone brings about there the distinction in usage as jīva and Brahman."
     },
     {
       "id": "A-SSS-CORRECTION",
@@ -8714,6 +8714,92 @@
       "sanskrit_iast": "bhaktau kṛtāyāṃ yasyāpi prārabdhavaśato naga /\nna jāyate mama jñānaṃ maṇidvīpaṃ sa gacchati // 7.29 //\ntatra gatvākhilānbhogānanicchannapi carcchati /\ntadante mama cidrūpajñānaṃ samyagbhavennaga // 7.30 //\ntena muktaḥ sadaiva syājjñānānmuktirna cānyathā /",
       "literal_translation": "Even for one who has practiced devotion, if knowledge of me does not arise because of already-begun karma, O mountain, he goes to Maṇidvīpa. Having gone there, he obtains all enjoyments even without desiring them. At their end, knowledge of my consciousness-form would arise fully, O mountain. Through that he would be forever liberated: liberation is through knowledge and not otherwise.",
       "display_after_unit": "sm-devi-already-attained"
+    },
+    {
+      "id": "READER-PRA-LOCUS",
+      "citation_key": "prakasatman/pancapadika-vivarana/reader-consciousness-locus",
+      "authors": [
+        "Prakāśātman"
+      ],
+      "work": "Pañcapādikāvivaraṇa",
+      "locus": "Printed 45 / PDF image 63, qualified-locus objection and reply",
+      "source_language": "Sanskrit",
+      "original_text": "atha svarūpāśrayatvānupapatter viśiṣṭāśrayatvaṃ kalpyata iti cet | na | viśiṣṭe 'pi svarūpasaṃbandhasya vidyamānatvāj jaḍasya cājñānāśrayatve bhrāntisamyagjñānayor api tadāśrayatvaprasaṅgāt | nanu svarūpe 'pi brahmaṇy anupapattis tulyā | satyam | anupapannadvayāśrayatvakalpanād varaṃ saṃpratipannasvarūpāśrayatvopādānam |",
+      "voice": "Objections, author’s replies and explicit concession",
+      "source_url": "https://archive.org/details/in.ernet.dli.2015.496088/page/n62/mode/1up",
+      "notes": "Selected passage and surrounding argument independently reviewed, 28 October 2026. Read the named source range for the connected argument.",
+      "translation_provenance": "Site literal translation of the selected source wording.",
+      "verification_scope": "Selected wording, literal rendering where applicable, speaker and context independently reviewed; no complete-work certification.",
+      "romanized_text": "atha svarūpāśrayatvānupapatter viśiṣṭāśrayatvaṃ kalpyata iti cet | na | viśiṣṭe 'pi svarūpasaṃbandhasya vidyamānatvāj jaḍasya cājñānāśrayatve bhrāntisamyagjñānayor api tadāśrayatvaprasaṅgāt | nanu svarūpe 'pi brahmaṇy anupapattis tulyā | satyam | anupapannadvayāśrayatvakalpanād varaṃ saṃpratipannasvarūpāśrayatvopādānam |",
+      "sanskrit_iast": "atha svarūpāśrayatvānupapatter viśiṣṭāśrayatvaṃ kalpyata iti cet | na | viśiṣṭe 'pi svarūpasaṃbandhasya vidyamānatvāj jaḍasya cājñānāśrayatve bhrāntisamyagjñānayor api tadāśrayatvaprasaṅgāt | nanu svarūpe 'pi brahmaṇy anupapattis tulyā | satyam | anupapannadvayāśrayatvakalpanād varaṃ saṃpratipannasvarūpāśrayatvopādānam |",
+      "literal_translation": "[Objection:] If [one says], “Then, because resting on intrinsic nature is untenable, resting on the qualified [subject] is posited”—[reply:] no; because the connection with intrinsic nature exists even in the qualified [subject], and because, if the inert [inner organ] were the locus of ignorance, erroneous and correct cognition too would have to have that as their locus. [Objection:] But the difficulty is equal even in Brahman, the intrinsic nature. [Reply:] True. Rather than positing [ignorance’s] resting on two untenable [supports], it is preferable to adopt its resting on the acknowledged intrinsic nature."
+    },
+    {
+      "id": "READER-BHIKSU-PURPOSE",
+      "citation_key": "vijnanabhiksu/sankhya-pravacana-bhasya/reader-purpose-introduction",
+      "authors": [
+        "Vijñānabhikṣu"
+      ],
+      "work": "Sāṅkhyapravacanabhāṣya",
+      "locus": "Introduction, printed 2 / PDF image 24, two selected clauses",
+      "source_language": "Sanskrit",
+      "original_text": "vyāvahārikapāramārthikarūpaviṣayabhedena gatārthatvavirodhayor abhāvāt.\n\nvivakṣitārthe dehādyatirekāṃśe bādhābhāvāt.",
+      "voice": "Author’s reconciliation of the purposes of disciplines",
+      "source_url": "https://archive.org/details/AJdS_samkhya-darshan-with-pravachan-bhashya-of-gyan-bhikshu-no.-67-kashi-sanskrit-series",
+      "notes": "Selected passage and surrounding argument independently reviewed, 28 October 2026. Read the named source range for the connected argument.",
+      "translation_provenance": "Site literal translation of the selected source wording.",
+      "verification_scope": "Selected wording, literal rendering where applicable, speaker and context independently reviewed; no complete-work certification.",
+      "romanized_text": "vyāvahārikapāramārthikarūpaviṣayabhedena gatārthatvavirodhayor abhāvāt.\n\nvivakṣitārthe dehādyatirekāṃśe bādhābhāvāt.",
+      "sanskrit_iast": "vyāvahārikapāramārthikarūpaviṣayabhedena gatārthatvavirodhayor abhāvāt.\n\nvivakṣitārthe dehādyatirekāṃśe bādhābhāvāt.",
+      "literal_translation": "Because, through difference of subject domains characterized as ordinary and ultimate, there is neither redundancy nor contradiction.\n\nBecause there is no sublation in the intended meaning, in the aspect of difference from the body and the rest."
+    },
+    {
+      "id": "READER-AURO-AIM",
+      "citation_key": "aurobindo/synthesis-of-yoga/reader-synthesis-aim",
+      "authors": [
+        "Sri Aurobindo"
+      ],
+      "work": "The Synthesis of Yoga",
+      "locus": "CWSA 23–24, Introduction V, pp. 44–46; excerpt p. 45",
+      "source_language": "English",
+      "original_text": "synthesis is unnecessary and a waste of time",
+      "voice": "Author’s conditional distinction between aims of practice",
+      "source_url": "https://www.sriaurobindoashram.org/sriaurobindo/downloadpdf.php?id=37",
+      "notes": "Selected passage and surrounding argument independently reviewed, 28 October 2026. Read the named source range for the connected argument.",
+      "translation_provenance": "Author’s English; short excerpt, not a translation.",
+      "verification_scope": "Selected wording, literal rendering where applicable, speaker and context independently reviewed; no complete-work certification."
+    },
+    {
+      "id": "READER-AURO-INDIVIDUAL",
+      "citation_key": "aurobindo/synthesis-of-yoga/reader-individuality",
+      "authors": [
+        "Sri Aurobindo"
+      ],
+      "work": "The Synthesis of Yoga",
+      "locus": "CWSA 23–24, Part II, chapter XI, pp. 376–381",
+      "source_language": "English",
+      "original_text": "no one can become individually the Lord of all the universes",
+      "voice": "Author’s distinction between spiritual individuality and cosmic government",
+      "source_url": "https://www.sriaurobindoashram.org/sriaurobindo/downloadpdf.php?id=37",
+      "notes": "Selected passage and surrounding argument independently reviewed, 28 October 2026. Read the named source range for the connected argument.",
+      "translation_provenance": "Author’s English; short excerpt, not a translation.",
+      "verification_scope": "Selected wording, literal rendering where applicable, speaker and context independently reviewed; no complete-work certification."
+    },
+    {
+      "id": "READER-AURO-PLURALITY",
+      "citation_key": "aurobindo/essays-on-the-gita/reader-plurality",
+      "authors": [
+        "Sri Aurobindo"
+      ],
+      "work": "Essays on the Gita",
+      "locus": "CWSA 19, First Series VIII, pp. 74–80; excerpt p. 74",
+      "source_language": "English",
+      "original_text": "First, actually, we find that there are many conscious beings in the world",
+      "voice": "Author’s reconstruction and evaluation of the Sāṅkhya plurality argument",
+      "source_url": "https://www.sriaurobindoashram.org/sriaurobindo/downloadpdf.php?id=34",
+      "notes": "Selected passage and surrounding argument independently reviewed, 28 October 2026. Read the named source range for the connected argument.",
+      "translation_provenance": "Author’s English; short excerpt, not a translation.",
+      "verification_scope": "Selected wording, literal rendering where applicable, speaker and context independently reviewed; no complete-work certification."
     }
   ]
 }

@@ -1,662 +1,89 @@
+## 1. The question: what would faithful integration preserve?
+
 Can traditions that disagree about the self, the world and liberation be understood as different abstractions of one reality, without treating one tradition as a defective version of another? This article develops that proposal through readings and worked mathematics. The aim is to learn enough category theory to make the comparison answerable: to say what an account permits, what it excludes, what a translation preserves, and where an apparent agreement loses the point of an argument.
 
 The proposed integration begins with a philosophical intuition. A limited experience need not exhaust its subject. A determinate divine form need not exhaust the reality present in it. Two expressions may disclose the same reality through different grounds, while a change in appearance need not produce or destroy the self. But these are different claims. Their relationships have to be established through the texts and their arguments. Those arguments include the audience being addressed, the error a teaching corrects, and the transformation it seeks. The proposed integration must preserve that practical context as well as the account of reality.
 
 The reader therefore moves between two kinds of work. In the textual chapters, original words appear in romanization with literal English, a named author or speaker, a locus and a source link. Commentary is distinguished from the root text it interprets. Where a textual variant changes the interpretation, the difference remains visible. In the mathematical lessons, examples begin with a question, develop a construction and test it against a case that could make it fail.
 
-The sequence starts with categories and their basic constructions, then follows a Navya-style argument about qualified absence into a small formal theory. The Vedānta chapters supply the competing explanations of selfhood, nonotherness, dependence, ignorance, devotion and divine manifestation. The reference lesson turns one of those arguments into an actual definable map. Sāṅkhya–Yoga, Nyāya–Vaiśeṣika, Mīmāṃsā, Jain and Buddhist comparisons test proposed common descriptions. Trika, Śākta and modern sources deepen the questions about reflection, intrinsic power and realized life. The final lessons develop sheaves, toposes and the precise demands of integration.
+The chapters follow a sequence of questions: what a claim denies, what a subject is, how words refer, what persists through change, and how power, practice and manifestation belong to an account of reality. Mathematical lessons enter when those arguments give them a task. The later constructions test compatibility, fullness and contextual truth before the final assessment of integration.
 
 The mathematics is taught from the beginning. Eugenia Cheng’s *The Joy of Abstraction*, especially Chapters 8 and 14–23, informs the progression from examples to definitions and from constructions to their universal properties. Adjunctions and toposes require further sources, identified when used. Read the worked examples slowly enough to check their arrows and try the exercises before their answers. [Cheng](cite://eugenia-cheng/joy-of-abstraction/category-cheng).
 
 The source words establish the textual premises; a reconstruction explains which formal statements represent them; a proof establishes consequences of those statements. A faithful interpretation of a selected argument is a significant result. It does not by itself establish an equivalence between complete traditions. The assessment at the end distinguishes what this investigation supports about the proposed integrated Vedānta from what it leaves to be proved.
 
-## Learning to ask a categorical question
+**Reading order**
 
-Before asking whether the traditions fit together in a topos, we need to learn what the proposed fit would say. What has been preserved? Which distinctions remain visible? What would count as a counterexample? Category theory helps us ask these questions precisely. It does not decide the answers in advance.
+1. The question: what would faithful integration preserve?
+2. Qualified absence: learning to construct and test a model
+3. Selfhood, instruction and appearance in Advaita
+4. Reference without erasing difference
+5. Change, discrimination and the continuing subject
+6. Real transformation, manifestation and service
+7. Knowledge, ignorance, devotion and fulfilled life in Advaita
+8. Dependence, divine own-forms and first-person identity
+9. Rival accounts of cognition, self and release
+10. Divine fullness, pervasion and reciprocal love
+11. Reflexivity, contraction and complete apprehension in Trika
+12. Śākta and modern accounts of power and devotion
+13. Compatibility: what one common model establishes
+14. Fullness, closure and controlled reconstruction
+15. From relational profiles to contextual truth
+16. What the integrated proposal establishes and still owes
+17. Sources, further constructions and mathematical reading
 
-Our mathematical route follows the progression of Eugenia Cheng's *The Joy of Abstraction*: construct a situation we understand, notice the relationships that matter, then find a definition that captures their behavior. We will use examples drawn from the work of interpreting philosophical texts. Cheng's relevant chapters here are 8 and 14–19. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+### What a teaching is trying to change
 
-There will be three distinct mathematical settings: a tiny research workflow, sets of records and functions between them, and an ordering of selected commitments. Keeping these settings distinct is part of the lesson. An arrow can mean a procedure in one category and an implication in another. It cannot quietly change its meaning halfway through an argument.
+A tradition teaches someone, under particular conditions, toward a transformation. Its words can describe reality, correct a habitual misidentification, prescribe a practice, or help a pupil recognize what the practice makes accessible. A comparison should identify those acts before deciding that two formulations contradict each other. The proposed integration treats audience, practical purpose and the error being addressed as part of what must be preserved.
 
-### Objects and arrows: what is being related?
+Aurobindo gives this approach a striking precedent. In an early dialogue on the Īśā Upaniṣad, the pupil asks how Śaṅkara could be described as undeveloped. The teacher answers: “He was not an undeveloped mind, but he was dealing with undeveloped minds and had to speak their language.” The surrounding argument interprets Śaṅkara’s emphasis on knowledge as a response to reliance on ritual works for liberation. Aurobindo distinguishes that corrective purpose from an absolute prohibition on action after knowledge. [*The Ishavasyopanishad*, CWSA 17, pp. 113–116](https://www.motherandsriaurobindo.in/Sri-Aurobindo/books/isha-upanishad/).
 
-Imagine that we track three kinds of research dossier:
+In the related *Karmayogin* commentary, he explicitly accords Śaṅkara, Rāmānuja and Madhva’s conceptions their own truth and usefulness. He relates the Upaniṣad’s different formulations to Brahman in itself, in the universe and in relation to the individual. This supplies a substantive proposal for relating perspectives: the relation under consideration changes what an adequate account must express. Both passages belong to unfinished early commentaries, dated approximately 1905 and 1905–1906 by the editors; they are distinct from the interpretation he published in 1914–1915. [CWSA 17, pp. 201–203 and editorial note pp. 594–595](https://www.motherandsriaurobindo.in/Sri-Aurobindo/books/isha-upanishad/).
 
-- \(R\): a dossier containing a passage and its source reference.
-- \(G\): a dossier that also contains a grammatical analysis.
-- \(I\): a dossier that also contains an interpretive argument.
+The reader can now ask a more exact question about a polemic. Is the author rejecting another account’s asserted conclusion, or a use of that conclusion which frustrates its purpose? “Action does not itself produce liberation” and “a liberated person can act” need not conflict: they concern different dependencies. An injunction to withdraw attention from changing objects can serve recognition of the subject. Its intended force must be established before translating it as a universal claim that manifestation has no reality or value.
 
-For this deliberately simplified workflow, allow one named step \(g\) from \(R\) to \(G\) and one named step \(i\) from \(G\) to \(I\). These are formal steps in our example, not claims that grammatical or philosophical interpretation has a unique correct procedure.
+Śaṅkara’s own Gītā commentary makes the distinction concrete. At 3.20, Janaka’s action receives two conditional explanations: preparation for knowledge, or a knower’s continued action for the world. Before 3.25, Śaṅkara writes, *tasyāpi ātmanaḥ kartavyābhāve ’pi parānugraha eva kartavyaḥ*: “Even for him, although there is nothing to be done for himself, benefit to others alone is to be done.” At 3.26, the knower should not unsettle the action-attached learner. At 3.30, the specified ignorant seeker is instructed to act with *ahaṃ kartā īśvarāya bhṛtyavat karomi*: “I am an agent; I act for the Lord like a servant.” A contextual integration must explain what this practical orientation corrects, what it accommodates, and what later understanding preserves. The first excerpt resolves the final sandhi of *kartavya ity āha*. [Śaṅkara, Gītābhāṣya 3.20–30](https://advaitasharada.sringeri.net/read/bhagavadgita-bhashya/3/).
 
-\[
-R\xrightarrow{g}G\xrightarrow{i}I
-\]
+This contextual reading also applies to Aurobindo. His criticisms of withdrawal and his call for transformed life can address different obstacles from a teaching directed toward disengagement from attachment. Their comparison must retain the conditions, reasons and intended transformation of each. It should also retain each author’s claims about what is ultimately real. A sentence explicitly asserting something of every liberated self cannot be restricted to one audience merely because the restriction makes integration easier. The source argument must support the restriction.
 
-Reading an arrow starts with its endpoints. The notation \(g: R \to  G\) says that \(R\) is its source and \(G\) its target. We can follow \(g\) by \(i\) because the first target matches the second source. We call the combined arrow \(i \circ  g: R \to  I\). Read the expression from right to left: first \(g\), then \(i\).
+A useful formal record therefore distinguishes the situation of teaching, its assertoric content, the response it requests, and the transformation it is intended to enable. A teacher can correct the pupil’s belief while continuing to refer to the same reality. What changes may be the pupil’s identification or access, the role of a practice, or the meaning of an expression as clarified by the instruction. Each possibility requires its own representation.
 
-We cannot follow \(i\) by \(g\) in this diagram. The output type of \(i\) is \(I\), whereas \(g\) expects \(R\). Merely writing \(g \circ  i\) does not make it meaningful. This is the simplest form of type-checking, and it is already philosophically useful. A claim about a cognition, a claim about its subject, and a claim about the referent of a sentence need not have interchangeable types.
+The proposed nonhierarchical integration seeks a common account from which these situated teachings can be recovered with their force intact. Its comparison maps must preserve more than an endpoint called liberation: they must preserve who is being addressed, which error is corrected, what the practice requires, and what the teacher says remains true after realization. Aurobindo’s contextual reading strengthens this programme. Establishing its adequacy for the other traditions requires the same work on their own arguments.
 
-Every object must also have an identity arrow. The identity \(1_{R}: R \to  R\) leaves the formal dossier exactly as it is. This mathematical identity differs from a researcher’s act of self-recognition.
+### What harmony can mean
 
-We have now made a category with three objects and six arrows:
+What does agreement between teachings concern? Agreement might concern a referent, shared deliberation, a destination, textual purport, or the fruit of practice. These are useful questions to keep separate. Two primary passages show why the distinction matters.
 
-\[
-1_{R}, 1_{G}, 1_{I}, g, i, i \circ  g
-\]
+Ṛgveda 1.164.46 names a plurality of divine designations:
 
-The identities and the composite are present even when a diagram does not display them. Composition with an identity changes nothing. If we extend the workflow by \(j: I \to  J\), grouping three successive steps in either way must give the same arrow:
+> indram mitraṃ varuṇam agnim āhur atho divyaḥ sa suparṇo garutmān |
+> ekaṃ sad viprā bahudhā vadanty agniṃ yamam mātariśvānam āhuḥ ||
 
-\[
-j \circ  (i \circ  g) = (j \circ  i) \circ  g.
-\]
+Literal translation: They call [it] Indra, Mitra, Varuṇa, Agni; and it is the celestial well-winged Garutmān. The existent is one; inspired poets speak [of it] in many ways; they call [it] Agni, Yama, Mātariśvan. [Ṛgveda 1.164.46, Aufrecht-based GRETIL text](https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_Rgveda-edAufrecht.htm).
 
-This is associativity. It does not say we may reorder the steps. Parentheses can move; the sequence cannot.
+Here *sat* names what is, the existent; *bahudhā* qualifies speaking in many ways. “Truth” is a familiar interpretive rendering, but “the existent” preserves this literal distinction. The verse names deities, not later philosophical systems. It supplies a substantial many-names/one-reference statement. Extending it to complete philosophical theories requires an additional argument: expressions referring to one reality need not make every assertion about that reality equivalent. The displayed text follows the held unaccented witness, with its dotted *ṁ* normalized to *ṃ*; it does not reconstruct Vedic accents.
 
-A **category** consists of objects, arrows with specified sources and targets, identity arrows, and a composition operation for every composable pair. Composition must be associative and satisfy the identity laws \(f \circ  1_{A} = f = 1_{B} \circ  f\) for \(f: A \to  B\). The collection of arrows \(A \to  B\) is written \(C(A,B)\), or \(\operatorname{Hom}_{C}(A,B)\). It can contain no arrows, one arrow, or many.
+Brahmasūtra 1.1.4 makes a different, compressed claim:
 
-A category is **small** when its objects and arrows form sets. Our finite examples are small. A category is **locally small** when each individual \(C(A,B)\) is a set, even if its entire collection of objects is too large to be a set. The category of all sets is locally small but not small in the usual foundations. We keep this distinction because later constructions use a small category of contexts; calling everything a set would create foundational problems rather than solve them.
+> tat tu samanvayāt |
 
-Our workflow is the **free category** on the displayed directed graph: its arrows are finite paths, including the empty paths that serve as identities. We impose no extra equations between paths. Concatenating paths is associative, so the construction satisfies the laws.
+Literal translation: But that, because of [their] coherent convergence. [Brahmasūtra 1.1.4 with Śaṅkara’s commentary](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/1/).
 
-**Try it.** Add a direct step \(d: R \to  I\). Must \(d\) equal \(i \circ  g\) because both start at \(R\) and finish at \(I\)?
+The ellipsis needs its commentator’s explanation. Śaṅkara writes in his own reply:
 
-**Answer.** No. They are two parallel arrows. We could impose \(d = i \circ  g\) if we had a reason to count those procedures as the same, but that is extra information. A triangle whose direct route equals its two-step route is a **commutative diagram**. Drawing a triangle does not prove commutativity. In a philosophical reconstruction, the equation would need an argument about what the arrows preserve and what their equality means.
+> sarveṣu hi vedānteṣu vākyāni tātparyeṇaitasyārthasya pratipādakatvena samanugatāni |
 
-A diagram becomes informative when it specifies compositions, equations, or their failure.
+Literal translation: For in all the Vedāntas, the sentences converge, through their purport, in conveying this meaning.
 
-### Two more categories, and why the arrows matter
+“This meaning” refers to Brahman in the preceding explanation. Śaṅkara is arguing about what these scriptural sentences intend to teach. The immediate discussion contests an interpretation that subordinates them to action. His *samanvaya* therefore establishes a particular reading; it does not suspend interpretive disagreement or declare every school’s entire account jointly true. Its domain and operation differ from the Ṛgvedic enumeration of divine names.
 
-The category **Set** has sets as objects and functions as arrows. A function sends every element of its source to exactly one element of its target. Composition is ordinary function composition. Identities send each element to itself.
+A constructive comparison should consequently state what is claimed to converge. Common reference asks whether expressions concern the same reality. Common destination asks where practices lead. Shared fruit asks what is attained. Coherent purport asks how passages belong to an interpretation. Shared deliberation asks how people inquire together. None alone supplies every answer to the others; each can nevertheless provide a positive starting point for further argument.
 
-Let \(E = \{e_{1},e_{2},e_{3}\}\) be three distinct report records. Let \(M = \{\text{quiet},\text{active}\}\) be a set of two editorial tags. Define \(t: E \to  M\) by
+## 2. Qualified absence: learning to construct and test a model
 
-\[
-t(e_{1}) = \text{quiet},  t(e_{2}) = \text{quiet},  t(e_{3}) = \text{active}.
-\]
+A proposed integration must preserve what a sentence affirms or denies. The following pot example makes the issue concrete. Annambhaṭṭa supplies a logical vocabulary of absence; Madhusūdana uses that vocabulary in an Advaita debate about falsity. We will follow the argument before constructing its model.
 
-These are tags assigned to records, not a classification of consciousness itself. The function deliberately omits most of each report. This makes it useful for organizing an archive and unsuitable for recovering the complete reports.
-
-An object of \(\mathbf{Set}\) is the whole set \(E\), not an individual element \(e_{1}\). We can represent an element categorically by a function from a singleton set \(1 = \{\ast \}\): the function \(\ast  \mapsto  e_{1}\) picks out that element. Later, maps from other objects will let us examine more elaborate families of elements.
-
-Our third example starts with three selected commitments \(p, q\), and \(r\). Consider every subset of \(\{p,q,r\}\). Put exactly one arrow \(U \to  V\) when \(U \subseteq  V\). For example,
-
-\[
-\{p\} \to  \{p,q\} \to  \{p,q,r\}.
-\]
-
-The composite exists because inclusion is transitive; identities exist because every subset includes itself. There is at most one arrow between any two objects. Such a category is called **thin**. Here the underlying order is a partially ordered set, or **poset**: inclusion is reflexive, transitive, and antisymmetric.
-
-This category records adding selected commitments. It does not decide whether the commitments are true, compatible, or well sourced. If we were ordering actual theories instead, logical consequence could matter: adding an axiom that was already provable would not strengthen the theory. That would require a more considered definition of the ordering.
-
-**Try it.** In this inclusion category, two different paths lead from \(\{p\}\) to \(\{p,q,r\}\), one through \(\{p,q\}\), another through \(\{p,r\}\). Are their composites equal?
-
-**Answer.** Yes. There is only one arrow with those endpoints. Compare the free workflow category, where distinct paths stayed distinct unless we imposed an equation. Choosing a thin category has already discarded distinctions between ways of reaching a result. That can be appropriate when we study implication; it can be inappropriate when we study different arguments or paths of practice.
-
-### Isomorphism: sameness with a reversible comparison
-
-Suppose the three records are copied into a second catalog using new identifiers \(a, b\), and \(c\). The function \(f\) sends \(e_{1}\) to \(a, e_{2}\) to \(b\), and \(e_{3}\) to \(c\). There is an inverse \(g\) that sends each new identifier back to its corresponding record. Both round trips recover the starting element.
-
-An arrow \(f: A \to  B\) is an **isomorphism** if there is an arrow \(g: B \to  A\) such that
-
-\[
-g \circ  f = 1_{A},     f \circ  g = 1_{B}.
-\]
-
-We write \(A \cong  B\) when some such isomorphism exists. In \(\mathbf{Set}\), the isomorphisms are precisely the bijections: functions that pair every source element with exactly one target element and leave no target element unpaired.
-
-Now try to reverse the tagging function \(t\). We can define \(s: M \to  E\) by \(s(\text{quiet}) = e_{1}\) and \(s(\text{active}) = e_{3}\). Tagging the selected record returns the original tag, so \(t \circ  s = 1_{M}\). But \(s \circ  t\) is not \(1_{E}\): it sends \(e_{2}\) to \(e_{1}\). The second report has been lost.
-
-A map can admit a return journey that works on one side while failing on the other. A common description of two records does not establish that the records were identical, or even that the description retained everything relevant about them.
-
-Different occurrences of the number five raise several distinct questions. Two written inscriptions can be distinct tokens while referring to the same number. Two five-element sets can be isomorphic as sets while having different elements. Those are different mathematical statements. Neither by itself settles how an Advaitin identity statement refers to the Self. That depends on the text's account of reference, limiting conditions, and what is being denied or affirmed. Category theory gives us several kinds of comparison; it does not supply the correct interpretation merely by replacing an equals sign with \(\cong\).
-
-Isomorphism also depends on the category. Take two labels \(x\) and \(y\). In one poset they are incomparable; in another \(x < y\). The identity-on-labels function from the first poset to the second preserves order, since the first has no nontrivial order to violate. Its inverse as a set-function does not preserve order. The two structures are bijective as sets but this map is not an isomorphism of posets. Cheng's official errata correct an overgeneralization about this point in the book. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
-
-**Try it.** If an arrow has an inverse, could it have two different inverses \(g\) and \(h\)?
-
-**Answer.** No. Both inverse laws force
-
-\[
-\begin{gathered}g = g \circ  1_{B} = g \circ  (f \circ  h)\\= (g \circ  f) \circ  h = 1_{A} \circ  h = h.\end{gathered}
-\]
-
-The inverse of a specified isomorphism is unique. There can still be many different isomorphisms between the same two objects. Matching three unstructured records to three labels offers six bijections. To select the philosophically appropriate correspondence, we need additional structure and evidence.
-
-### Monomorphisms and epimorphisms: detecting information loss
-
-The tagging map \(t\) merges two inputs. The inclusion of the quiet records \(Q = \{e_{1},e_{2}\}\) into \(E\) merges none, but misses \(e_{3}\). These are two different ways a function can fail to be invertible.
-
-A function is **injective** when \(f(a) = f(a')\) implies \(a = a'\). It is **surjective** when every element of its target is the image of some source element. The first condition forbids merging; the second forbids missing an output. To express analogous ideas in any category, including categories whose objects are not presented as sets, we replace elements with arrows.
-
-An arrow \(f: A \to  B\) is **monic**, or a **monomorphism**, when for every object \(X\) and every pair \(u,v: X \to  A\),
-
-\[
-f \circ  u = f \circ  v  \Longrightarrow   u = v.
-\]
-
-The map \(f\) cannot conceal a distinction between two incoming probes. In \(\mathbf{Set}\), let \(X\) be a singleton selecting \(e_{1}\) or \(e_{2}\). These selections are different, but tagging makes them equal. Thus \(t\) is not monic. An injective function is monic because equality after \(f\) forces equality of the selected values at every element of every probe domain. Conversely, singleton probes show that every monic function is injective.
-
-An arrow \(f: A \to  B\) is **epic**, or an **epimorphism**, when for every object \(Y\) and every pair \(u,v: B \to  Y\),
-
-\[
-u \circ  f = v \circ  f  \Longrightarrow   u = v.
-\]
-
-Here we test outgoing distinctions. If \(f\) reaches all of \(B\), two functions agreeing after \(f\) must agree everywhere on \(B\). If it misses an element \(b\), we can make two functions to \(\{0,1\}\) that agree on everything \(f\) reaches but disagree at \(b\). Consequently, in \(\mathbf{Set}\), epic means surjective.
-
-**Try it.** Is the inclusion \(Q \to  E\) epic? Can you exhibit a failed cancellation?
-
-**Answer.** Let \(u\) send every record to 0. Let \(v\) send \(e_{1}\) and \(e_{2}\) to 0 but \(e_{3}\) to 1. The functions agree after restriction to \(Q\), but \(u \ne  v\). The inclusion is monic and not epic. The tagging map \(t\) is epic and not monic.
-
-Every isomorphism is both monic and epic: compose an asserted equality with its inverse to cancel it. But the converse is not true in every category. In the thin category \(0 \to  1\), every arrow is both monic and epic, because any parallel pair is already equal. The arrow \(0 \to  1\) has no inverse. There is no arrow \(1 \to  0\).
-
-This small counterexample is a reason to resist loose translations such as “monic always means no information is lost.” That explanation is reliable for ordinary functions and helpful for the general cancellation law. We still need to check which probes the chosen category permits. A category with too few probes can fail to register a distinction we care about philosophically.
-
-### Universal properties: specifying a role precisely
-
-The word “universal” can sound metaphysical. Here it begins as a quantified mathematical condition: a statement concerning every object or every diagram of a specified kind in a specified category.
-
-Consider a report format that records no distinctions whatsoever. Every set of records has exactly one function to a singleton \(1 = \{\ast \}\). Whatever record enters, the output is \(\ast \). This characterizes a **terminal object**: \(T\) is terminal when, for every object \(X\), there is exactly one arrow \(X \to  T\).
-
-In \(\mathbf{Set}\), every singleton is terminal. The empty set is not terminal: no function sends the element of a nonempty singleton into the empty set. Instead, the empty set is **initial**: for every \(X\) there is exactly one function \(\varnothing  \to  X\), the function with no input assignments to make. In general, an initial object \(I\) has exactly one arrow \(I \to  X\) for every \(X\).
-
-These are roles within a category. “Terminal” need not mean largest, most complete, most real, or ultimate. In \(\mathbf{Set}\) it has just one element. In our inclusion order of commitments, the terminal object is the full set \(\{p,q,r\}\). The same categorical definition identifies different constructions because the arrows mean different things.
-
-Why insist on exactly one arrow? A category with two parallel arrows \(A \to  B\) fails to make \(B\) terminal even if every object has some arrow to \(B\). Mere reachability is insufficient. Conversely, a branching diagram \(R \to  G\) and \(R \to  H\) has no terminal object if there are no further arrows: neither branch can receive an arrow from the other.
-
-**Try it.** Suppose \(T\) and T′ are both terminal. Why must they be isomorphic?
-
-**Answer.** Terminality supplies unique arrows \(f: T \to  T'\) and \(g: T' \to  T\). The composite \(g \circ  f\) and the identity \(1_{T}\) are both arrows \(T \to  T\). Terminality says there is exactly one, so they are equal. Likewise \(f \circ  g = 1_{T'}\). Moreover, the isomorphism is unique. This is the basic pattern behind uniqueness results for universal constructions.
-
-Initial and terminal are related by **duality**. Given a category \(C\), its opposite \(C^{\mathrm{op}}\) keeps the objects but reverses every arrow and reverses the order of composition. A terminal object of \(C\) is initial in \(C^{\mathrm{op}}\). A monic arrow in \(C\) becomes epic in \(C^{\mathrm{op}}\). This is a transformation of a mathematical description, not a claim that dependence can be physically reversed or that philosophical dualism follows from categorical duality.
-
-We now have enough to understand a universal property as a uniquely determined way of comparing a proposed construction with every competing construction of its specified kind. The comparison maps, their direction, and the equations they satisfy are the content of the claim.
-
-### Products: retaining two answers together
-
-Suppose we give records two tags. Let \(M = \{\text{quiet},\text{active}\}\) and \(V = \{\text{checked},\text{pending}\}\). A record gets one tag from each set. What is a single format that records both answers without adding a third choice or losing a combination?
-
-The set \(M \times  V\) has four elements:
-
-\[
-\begin{array}{cc}(\text{quiet},\text{checked})&(\text{quiet},\text{pending})\\(\text{active},\text{checked})&(\text{active},\text{pending})\end{array}
-\]
-
-There are projections \(\pi _{M}: M \times  V \to  M\) and \(\pi _{V}: M \times  V \to  V\), which retrieve the first and second entries. Given any set \(X\) of records and functions \(a: X \to  M\) and \(b: X \to  V\), there is a function \(h: X \to  M \times  V\) defined by \(h(x) = (a(x),b(x))\). It satisfies
-
-\[
-\pi _{M} \circ  h = a,     \pi _{V} \circ  h = b.
-\]
-
-These equations force both coordinates of \(h(x)\), so \(h\) is unique. We have proved the **product universal property**. In any category, a product of \(A\) and \(B\) is an object \(P\) equipped with projections \(P \to  A\) and \(P \to  B\) such that every pair of arrows \(X \to  A\) and \(X \to  B\) factors uniquely through those projections by an arrow \(X \to  P\).
-
-Notice what the claim quantifies over. It does not say there is only one arrow from \(X\) to \(P\). Different pairs of tags produce different arrows. It says there is exactly one arrow that gives the two answers already specified.
-
-Two plausible alternatives fail in opposite ways. If we omit \((\text{active},\text{pending})\), then a singleton record assigned those two tags has no possible image. Existence fails. If we put two distinguishable copies of \((\text{quiet},\text{checked})\) into the format and let both projections ignore the distinction, a record with those tags has two possible images. Uniqueness fails. The product includes every pair exactly once, in the sense fixed by its projections.
-
-**Try it.** Could a four-element set of numbered codes \(\{10,20,30,40\}\) serve as the same product?
-
-**Answer.** Yes, provided we specify a bijection between the four codes and the four pairs and use it to define the projections. A bare four-element set is insufficient to specify the product structure. Once two product structures are fixed, there is a unique isomorphism between them that preserves both projections. Other bijections between the underlying sets need not preserve the tags.
-
-Products can look quite different elsewhere. In the category of subsets of \(\{p,q,r\}\) ordered by inclusion, the product of \(U\) and \(V\) is \(U \cap  V\). Why? A projection \(W \to  U\) means \(W \subseteq  U\); a projection \(W \to  V\) means \(W \subseteq  V\). Every such \(W\) is included in \(U \cap  V\). That is exactly the universal comparison \(W \to  U \cap  V\). The product here is an intersection, not a set of pairs.
-
-The difference matters for our project. A product of report formats records two answers. A product in an implication order can express a common constraint in a different direction, depending on the ordering chosen. Neither automatically means that Brahman is assembled from separate components. Calling something a product must specify the category and the projections before it says anything philosophically definite.
-
-### Coproducts: retaining alternatives without premature identification
-
-Suppose we have records from two commentarial dossiers \(A\) and \(B\). We want one archive into which either dossier can be placed, while retaining which dossier each record came from. The appropriate construction in \(\mathbf{Set}\) is the **disjoint union** \(A \sqcup  B\). Its elements are tagged records: \((\text{left},a)\) for \(a \in  A\) and \((\text{right},b)\) for \(b \in  B\). The source labels left and right are distinct even when \(A\) and \(B\) happen to be the same set.
-
-The source tag matters even if both dossiers contain a record called “self.” The matching word does not yet establish matching referents, arguments, or doctrines.
-
-The inclusion maps \(\iota _{A}: A \to  A \sqcup  B\) and \(\iota _{B}: B \to  A \sqcup  B\) place each record in the combined archive. Given any functions \(f: A \to  X\) and \(g: B \to  X\), there is exactly one function \(h: A \sqcup  B \to  X\) such that
-
-\[
-h \circ  \iota _{A} = f,     h \circ  \iota _{B} = g.
-\]
-
-Define it by cases: \(h(\text{left},a) = f(a)\) and \(h(\text{right},b) = g(b)\). Every record belongs to one tagged part, so the definition covers the entire archive without ambiguity.
-
-This is the **coproduct** universal property. It reverses all the arrows in the product property. Products combine maps into their factors; coproducts combine maps out of their summands. In \(\mathbf{Set}\), a product value supplies both entries, whereas a coproduct value specifies an entry from one of the two tagged sources.
-
-**Try it.** Why might ordinary untagged union fail to be a coproduct?
-
-**Answer.** If \(A\) and \(B\) both contain an element labeled “self,” choose \(f\) and \(g\) that send that element to different outputs. An untagged union has only one “self” element, so no function from it can extend both assignments. The coproduct avoids this forced agreement by preserving provenance.
-
-In the inclusion order of subsets, coproduct is ordinary union. Every pair of inclusions \(U \to  W\) and \(V \to  W\) uniquely factors through \(U \cup  V \to  W\). Again, the ambient category determines the construction. The union works there because maps are inclusions, not arbitrary assignments to outputs.
-
-For comparing traditions, retaining tagged alternatives is often the responsible beginning. It is not yet integration. The next question is which cross-tradition identifications are warranted, and what follows when we impose them.
-
-### Pullbacks: compatibility over a declared common question
-
-Return to the three report records \(E\) and their tag map \(t: E \to  M\). A second dossier contains \(F = \{f_{1},f_{2}\}\), with \(u(f_{1}) = \text{quiet}\) and \(u(f_{2}) = \text{active}\). We want pairs of records that agree on this selected question.
-
-The ordinary product \(E \times  F\) contains six pairs, including pairs with disagreeing tags. Instead take
-
-\[
-E \times _{M} F = \{(e,f) \mid  t(e) = u(f)\}.
-\]
-
-There are three elements: \((e_{1},f_{1}), (e_{2},f_{1})\), and \((e_{3},f_{2})\). Projections return the \(E\) record and the \(F\) record. Their tags agree, which means the square commutes:
-
-\[
-\begin{array}{ccc}E\times_M F&\longrightarrow&F\\\downarrow&&\downarrow\scriptstyle u\\E&\xrightarrow{t}&M\end{array}
-\]
-
-Commutativity alone does not make this a **pullback**. We also need the universal property. Suppose \(X\) is any set equipped with \(a: X \to  E\) and \(b: X \to  F\) such that \(t \circ  a = u \circ  b\). Then \(h(x) = (a(x),b(x))\) belongs to \(E \times _{M} F\), because the tags agree. It is the unique function whose two projections recover \(a\) and \(b\). Thus this set is universal among compatible pairs of assignments.
-
-In a general category, a pullback of \(A \to  C \leftarrow  B\) is a commutative square with vertex \(P\) such that every other compatible pair \(X \to  A\) and \(X \to  B\) factors uniquely through \(P\). Products are the special case in which \(C\) is terminal: the two composites to \(C\) agree automatically.
-
-**Try it.** Suppose all \(E\) records map to quiet, while all \(F\) records map to active. Does the pullback cease to exist?
-
-**Answer.** In \(\mathbf{Set}\) it still exists: it is empty. There are no compatible pairs. A nonempty \(X\) could not supply maps \(a\) and \(b\) satisfying the required equality, so the universal property does not demand an impossible map from such an \(X\) into \(\varnothing \).
-
-This gives a precise distinction between constructing a space of possible agreements and showing that it has a member. An empty space can correctly report an obstruction. Even a nonempty pullback proves agreement only over the common question \(M\). Our three matching pairs do not establish that the paired reports have the same grammar, doctrine, or experience.
-
-The philosophical work lies partly in choosing \(M\). If it remembers only “speaks about consciousness,” many incompatible accounts will agree there. A richer interface might retain claims about agency, self-manifestation, dependence, and liberation. Enlarging it can remove matches that existed in the weaker interface. This gives a more discriminating comparison.
-
-### Pushouts: joining accounts along specified identifications
-
-A pullback starts with two maps into a common target and finds compatible pairs. A **pushout** starts with two maps out of a common source and joins their targets subject to the prescribed identifications:
-
-\[
-\begin{array}{ccc}K&\xrightarrow{b}&B\\{\scriptstyle a}\downarrow&&\downarrow{\scriptstyle j_B}\\A&\xrightarrow{j_A}&P\end{array}
-\]
-
-The square must commute: \(j_{A} \circ  a = j_{B} \circ  b\). Universality says that whenever \(f: A \to  X\) and \(g: B \to  X\) already agree on \(K\), there is a unique \(h: P \to  X\) extending both, so \(h \circ  j_{A} = f\) and \(h \circ  j_{B} = g\).
-
-In \(\mathbf{Set}\), construct \(P\) from the disjoint union \(A \sqcup  B\) and impose the identifications \(a(k) \sim  b(k)\) for each \(k \in  K\). Then take the equivalence relation generated by those identifications. Its equivalence classes are the elements of \(P\).
-
-An equivalence relation is reflexive \((x\sim x)\), symmetric (\(x\sim y\) implies \(y\sim x\)), and transitive (\(x\sim y\) and \(y\sim z\) imply \(x\sim z\)). The relation generated by the chosen identifications is the smallest one satisfying those laws and containing them. An equivalence class \([x]\) consists of everything related to \(x\). Passing to classes is called taking a quotient: each class becomes one element, so the original distinctions within it are no longer available in that quotient.
-
-Consider \(A = \{a_{0},a_{1},a_{2}\}\) and \(B = \{b_{0},b_{1}\}\), with \(K\) containing one item mapped to \(a_{0}\) and \(b_{0}\). The pushout has four elements: the joined class \([a_{0}=b_{0}]\), plus the separate classes \([a_{1}], [a_{2}]\), and \([b_{1}]\). This is an archive comparison in which one correspondence has been established and the other distinctions remain.
-
-Why is it universal? Given agreeing functions \(f\) and \(g\), define \(h([a]) = f(a)\) and \(h([b]) = g(b)\). Their agreement on \(K\) ensures that identified elements receive the same output. Equality of outputs is itself an equivalence relation, so the agreement extends through every identification generated by symmetry and transitivity. The function is well-defined. Every class has a representative from \(A\) or \(B\), so the extension is unique.
-
-Now try a more consequential correspondence. Let \(K\) have two items \(k_{0}\) and \(k_{1}\). Send them to \(a_{0}\) and \(a_{1}\) in \(A\), but send both to \(b_{0}\) in \(B\). The pushout identifies
-
-\[
-a_{0} \sim  b_{0} \sim  a_{1}.
-\]
-
-Two previously distinct \(A\) records have become one class. This follows from the chosen comparison maps; it is not a theorem that the original distinction was philosophically illusory.
-
-**Try it.** If an \(A\)-side interpretation assigns different values to \(a_{0}\) and \(a_{1}\), can it extend through this pushout while retaining that difference?
-
-**Answer.** No. Any extension would have to assign the single class \([a_{0}=b_{0}=a_{1}]\) both values. Such an interpretation does not agree with the stipulated interface. The universal property applies only to maps that do agree.
-
-This is why “we can take a pushout” is not enough to establish a faithful harmonization. We must examine its maps from the original accounts. Do those maps preserve the distinctions, inference rules, and forms of agency the texts require? If a comparison identifies two roles that one school insists must remain distinguishable, the mathematics has exposed the cost of the proposed integration. We then need a better interface, a weaker claim, or an explicit philosophical argument for revising that school.
-
-### Limits, colimits, and a useful final check
-
-Products and pullbacks belong to one larger family. A **cone** over a diagram is an object with arrows to the objects in that diagram, compatible with its arrows. A **limit** is a universal cone: every other cone factors uniquely through it. Terminal objects are limits of empty diagrams; binary products are limits of diagrams containing two objects and no nonidentity arrows; pullbacks are limits of diagrams \(A \to  C \leftarrow  B\).
-
-Reverse the arrows and we obtain cocones and **colimits**. Initial objects, coproducts, and pushouts are the corresponding examples. “Finite limits” means limits of all finite diagrams, including the empty diagram. Having binary products alone does not supply that empty limit, so we must include a terminal object when claiming all finite products.
-
-One additional limit is an **equalizer**. For two parallel functions \(f,g: A \to  B\), it is the inclusion of the subset \(\{a \in  A \mid  f(a) = g(a)\}\) into \(A\). Every function \(X \to  A\) on which \(f\) and \(g\) agree factors uniquely through this subset. If \(f\) and \(g\) are two tag assignments to the same archive, the equalizer isolates exactly the records on which they agree. It records agreement without pretending the assignments were identical everywhere.
-
-Before moving to functors and more ambitious constructions, try this diagnostic. A map sends every theory in a comparison to the label “nondual.” Have we proved that they are the same theory?
-
-No. We have described a map that forgets distinctions. To know what it establishes, we need its domain, its target, its action on the relevant relations or arguments, and the properties it preserves or reflects. The preceding constructions give us concrete ways to ask those questions. The next stage is to learn how entire categories, rather than only individual objects, can be compared. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
-
-## Translating a theory: functors, naturality and the meaning of sameness
-
-Suppose two teachings both distinguish misidentification, discrimination and freedom. Their diagrams might look alike. What would make that likeness mathematically informative? We need to specify what each diagram contains, translate its arrows as well as its labels, and determine which distinctions survive. We can then ask a stronger question: can we recover what we started with?
-
-This lesson develops the required mathematics through three small examples. They are deliberately invented teaching examples, not reduced versions of whole darśanas. A small example lets us calculate every arrow; the philosophical application then has an explicit obligation to justify its objects, arrows and equations. Cheng’s Chapters 20–23 motivate the progression from maps of categories to maps between those maps and finally to representable functors. In formulas, \(\alpha [x]\) means the component at \(x\), and \(1[x]\) is the identity at \(x\). [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
-
-### Start with an actual category
-
-Imagine a curriculum with three stages:
-
-- \(U\): an unsettled self-description;
-- \(D\): a distinction has been articulated;
-- \(R\): the proposed recognition has been reached.
-
-There are three basic procedures: \(a:U \to  D, b:D \to  R\), and \(h:U \to  R\). The first two describe a staged procedure; the third is a separately recorded direct procedure. We stipulate no equation identifying the two routes. This is a mathematical account of recorded procedures, not a claim that every practitioner must pass through these stages.
-
-Form the free category \(\mathbf{Proc}\) on this graph. It contains three identities, the three basic arrows, and one additional arrow \(b \circ  a:U \to  R\). There are seven arrows altogether. There are no other nonidentity composites, because no nonidentity arrow leaves \(R\). Its homsets are:
-
-| From / to | \(U\) | \(D\) | \(R\) |
-|---|---|---|---|
-| \(U\) | \(\{1[U]\}\) | \(\{a\}\) | \(\{h,b \circ  a\}\) |
-| \(D\) | \(\varnothing \) | \(\{1[D]\}\) | \(\{b\}\) |
-| \(R\) | \(\varnothing \) | \(\varnothing \) | \(\{1[R]\}\) |
-
-The notation \(\mathbf{Proc}(U,R)\) names the set in the upper right. It remembers two routes even though they have identical endpoints. Composition means concatenating procedures, with the rightmost procedure performed first: \(b \circ  a\) means first \(a\), then \(b\).
-
-Now form a second category \(S\) with three statuses \(0<1<2\). It has exactly one arrow from \(i\) to \(j\) when \(i \le  j\), and no arrow otherwise. This category records available progress, but no distinction between procedures achieving the same progress. Both categories have three objects. Their difference lies in their arrows.
-
-The construction distinguishes routes with the same endpoint and supplies no return route. Its arrows record procedures; interpreting them as causal laws or proofs would require further arguments.
-
-**Exercise 1.** How many arrows does \(S\) have? Which homset differs in size from the corresponding homset of \(\mathbf{Proc}\)?
-
-**Answer.** Six: three identities and arrows \(0 \to  1, 1 \to  2, 0 \to  2\). The \(U\)-to-\(R\) homset has two arrows in \(\mathbf{Proc}\), while the 0-to-2 homset has one.
-
-### Derive the definition of functor
-
-A translation \(F:C \to  D\) must assign an object \(F(x)\) to every object \(x\), and an arrow
-
-\[
-F(f):F(x) \to  F(y)
-\]
-
-to every arrow \(f:x \to  y\). The endpoints are part of the requirement.
-
-What must it do to identities and composites? If the source says that a procedure does nothing, its translation should do nothing. If two procedures are composed before translation, the result should agree with translating them separately and then composing. Thus:
-
-\[
-F(1[x])=1[F(x)], F(g \circ  f)=F(g) \circ  F(f).
-\]
-
-These are the functor laws. A functor is precisely an assignment satisfying these requirements. They concern mathematical structure, not the truth of a philosophical interpretation assigned to that structure. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
-
-Define \(Q:\mathbf{Proc} \to  S\) by \(Q(U)=0, Q(D)=1, Q(R)=2\). Send \(a,b,h\) to the unique arrows with the corresponding endpoints. The image of \(b \circ  a\) must be the unique arrow \(0 \to  2\). Hence
-
-\[
-Q(b \circ  a)=Q(b) \circ  Q(a)=Q(h).
-\]
-
-This verifies the only composition of two nonidentity arrows. Identity laws handle all remaining composites. Therefore \(Q\) is a functor. The calculation also reveals exactly what it forgets: \(h \ne  b \circ  a\), although their images agree.
-
-Functoriality gives a practical failure test. Suppose we enrich the target so it has distinct arrows \(t,s:0 \to  2\), with the composite of the \(0 \to  1 \to  2\) arrows equal to \(t\). An assignment sending \(b \circ  a\) to \(s\) cannot be a functor if it sends \(a,b\) to those two arrows. Its proposed translation contradicts a composition already fixed in the source.
-
-A chain of translations is another functor. If \(F:C \to  D\) and \(G:D \to  E\), their composite acts by \(GF(x)=G(F(x))\) and \(GF(f)=G(F(f))\). For example,
-
-\[
-GF(g \circ  f)=G(F(g) \circ  F(f))=GF(g) \circ  GF(f).
-\]
-
-This lets us build comparisons in stages. It does not make successive philosophical revisions automatically valid translations: retracting a source theorem may prevent a proof-preserving interpretation altogether.
-
-### Preservation is not reflection
-
-A functor **preserves** a property when the property survives translation. It **reflects** a property when finding that property after translation warrants finding it before translation. These are opposite implications.
-
-Every functor preserves isomorphisms. If \(f:x \to  y\) has inverse \(g:y \to  x\), then
-
-\[
-F(g) \circ  F(f)=F(g \circ  f)=F(1[x])=1[F(x)],
-\]
-
-and the analogous calculation gives \(F(f) \circ  F(g)=1[F(y)]\). Thus \(F(g)\) is an inverse for \(F(f)\). This proof uses only the functor laws.
-
-Every functor also preserves equations between parallel arrows. If \(k=g \circ  f\), applying \(F\) gives \(F(k)=F(g) \circ  F(f)\). Consequently a commutative diagram remains commutative after translation.
-
-Neither conclusion has an unrestricted converse. Our \(Q\) makes two different routes equal. Another example sends the entire progression \(S\) to a single-object category with only its identity arrow. Every arrow then becomes invertible, although \(0 \to  1\) had no inverse in \(S\). An irreversible stage progression can look like no change under a coarse account. That observation does not prove the progression was secretly reversible.
-
-Nor does a general functor preserve every categorical property. A terminal object has a unique incoming arrow **from every object in its category**. Map the one-object category into the discrete two-object category, selecting one of its objects. The source object is terminal, but its image is not: the other target object has no arrow to it. The target has additional tests that the source never supplied.
-
-This matters when interpreting “ultimate,” “complete” or “universal.” A property quantified over all permitted contexts cannot be transported merely because a diagram has matching labels. We must identify the relevant universal property and prove that this functor preserves it.
-
-**Exercise 2.** Does \(Q(h)=Q(b \circ  a)\) establish that the direct and staged procedures are interchangeable?
-
-**Answer.** Only in the chosen status account. It establishes no equality in the category that distinguishes procedures. To justify interchangeability there, one must add and defend an equation, or use a translation that reflects the relevant equality.
-
-### Full and faithful: inspect each pair of endpoints
-
-For fixed \(x,y \in  C\), a functor gives a function
-
-\[
-F[x,y]:C(x,y) \to  D(Fx,Fy).
-\]
-
-It is **faithful** if every such function is injective: distinct arrows with the same endpoints remain distinct. It is **full** if every such function is surjective: every target arrow between these particular image objects comes from a source arrow with those endpoints. Full and faithful means each homset function is a bijection. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
-
-The functor \(Q\) is full. Looking at the table, every target arrow has a source preimage in the corresponding homset. It is not faithful because its two \(U\)-to-\(R\) arrows merge. The translation captures all status transitions but loses procedural distinction.
-
-Faithfulness does not mean injectivity on objects. Let \(E\) be a discrete category with distinct objects \(e_1,e_2\), and map both to the sole object of the identity-only category. Each diagonal homset maps a singleton injectively to a singleton. Each off-diagonal homset is empty, whose function into a singleton is injective: there are no two distinct inputs that could collide. The functor is faithful! It is not full: there is no preimage for the target identity in \(E(e_1,e_2)=\varnothing \).
-
-This example is important for identity-talk. A faithful functor can identify two source objects. Faithfulness controls arrows **within a fixed homset**, not global object counting. Fullness supplies the missing requirement in this example.
-
-Together, fullness and faithfulness reflect isomorphisms. Suppose \(F(f)\) has inverse \(v:F(y) \to  F(x)\). Fullness supplies \(g:y \to  x\) with \(F(g)=v\). Then
-
-\[
-F(g \circ  f)=v \circ  F(f)=1[F(x)]=F(1[x]).
-\]
-
-Faithfulness gives \(g \circ  f=1[x]\); similarly \(f \circ  g=1[y]\). Hence \(f\) was already invertible. The two assumptions do different jobs: fullness lifts the candidate inverse, faithfulness verifies its equations.
-
-For theories, this suggests a more discriminating question than “do the diagrams match?” Are different source reasons collapsed? Does the target introduce relationships absent from the source? Yet an ordinary functor between arbitrarily drawn categories does not by itself preserve all logical connectives or quantifiers. When categories are built from formulas and definable maps, the interpretation must also preserve the structure expressing the chosen logic. The theory-to-category construction and its soundness remain part of the task.
-
-### Natural transformations compare whole interpretations
-
-A functor is already a structured assignment. To compare two such assignments \(F,G:C \to  D\), choose an arrow
-
-\[
-\alpha [x]:F(x) \to  G(x)
-\]
-
-for every object \(x\). These arrows must work together. For every \(f:x \to  y\), require
-
-\[
-G(f) \circ  \alpha [x]=\alpha [y] \circ  F(f).
-\]
-
-This is the naturality condition. Its square is:
-
-\[
-\begin{array}{ccc}F(x)&\xrightarrow{\alpha[x]}&G(x)\\{\scriptstyle F(f)}\downarrow&&\downarrow{\scriptstyle G(f)}\\F(y)&\xrightarrow{\alpha[y]}&G(y)\end{array}
-\]
-
-Both routes start at \(F(x)\) and end at \(G(y)\). Naturality says that changing interpretation and following the source relationship commute. “Natural” names this compatibility condition. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
-
-Consider a category with one nonidentity arrow \(r:E \to  S\), meaning that a detailed report is shortened. Define a set-valued functor \(F\) by
-
-\[
-\begin{gathered}F(E)=\{A,B\} \times  \{\text{vivid},\text{dim}\},\\F(S)=\{A,B\}, F(r)(p,q)=p.\end{gathered}
-\]
-
-Here \(A,B\) identify speakers; the second coordinate is an annotation. Define \(G(E)=G(S)=\{\text{self-report}\}\), with \(G(r)\) the identity. Let \(\alpha [E]\) and \(\alpha [S]\) classify every input as a self-report.
-
-For the input \((A,\text{dim})\), going right then down yields “self-report.” Going down then right first yields \(A\), then “self-report.” The same calculation applies to the other three inputs. Therefore \(\alpha :F \Rightarrow  G\) is natural. It is not invertible: its components erase information about speakers and annotations.
-
-The example contains no claim that \(A\) and \(B\) are the same conscious subject. It shows that a coherent classification can omit their distinction. Natural compatibility alone is weaker than recoverability.
-
-Natural transformations compose componentwise. If \(\beta :G \Rightarrow  H\), set \((\beta \alpha )[x]=\beta [x] \circ  \alpha [x]\). The verification is instructive:
-
-\[
-\begin{gathered}H(f)\beta [x]\alpha [x]\\=\beta [y]G(f)\alpha [x]\\=\beta [y]\alpha [y]F(f).\end{gathered}
-\]
-
-Each equality uses one naturality condition. Functors with these transformations therefore form a category, written \([C,D]\). When arrows are juxtaposed in a calculation, composition is meant, with the rightmost arrow applied first: \(H(f)\beta [x]\alpha [x]\) abbreviates \(H(f) \circ  \beta [x] \circ  \alpha [x]\).
-
-A natural transformation is an isomorphism in this category exactly when every component is invertible. The converse needs a check: rearranging naturality gives
-
-\[
-F(f)\alpha [x]^{-1}=\alpha [y]^{-1}G(f),
-\]
-
-so the inverses themselves form a natural transformation.
-
-### Optional proof: comparing a comparison after translation
-
-Suppose another functor \(H:D \to  E\) is applied to both interpretations. The components \(H(\alpha [x])\) form a transformation \(H\alpha :HF \Rightarrow  HG\). Applying \(H\) to the naturality equation proves this. If instead \(K:B \to  C\) is applied beforehand, the components \(\alpha [K(b)]\) form \(\alpha K:FK\Rightarrow GK\). These operations are called whiskering: a comparison is transported through a preceding or subsequent interpretation.
-
-With \(\alpha :F \Rightarrow  G\) and \(\beta :H \Rightarrow  J\), there is also a horizontal composite \(\beta \star \alpha :HF \Rightarrow  JG\). Its component is
-
-\[
-\begin{gathered}(\beta \star \alpha )[x]=\beta [Gx] \circ  H(\alpha [x])\\=J(\alpha [x]) \circ  \beta [Fx].\end{gathered}
-\]
-
-Why are the two expressions equal? Apply naturality of \(\beta \) to the arrow \(\alpha [x]:Fx \to  Gx\). This is a useful change of level: a component of one natural transformation serves as the input arrow for another naturality condition. Every endpoint is specified, so the equation can be checked.
-
-Horizontal and componentwise vertical composition obey the interchange law. For \(\alpha :F \Rightarrow  G, \alpha ':G \Rightarrow  L, \beta :H \Rightarrow  J, \beta ':J \Rightarrow  M\), it is
-
-\[
-\begin{gathered}(\beta '\star \alpha ') \circ  (\beta \star \alpha )\\=(\beta ' \circ  \beta )\star (\alpha ' \circ  \alpha ).\end{gathered}
-\]
-
-For example, expand the left component as
-
-\[
-\beta '[Lx]J(\alpha '[x])\beta [Gx]H(\alpha [x]).
-\]
-
-Naturality of \(\beta \) changes the middle pair to \(\beta [Lx]H(\alpha '[x])\). Functoriality of \(H\) then combines the last two factors. The result is exactly the right component. These operations allow a system of interpretations and comparisons to compose coherently; their existence still depends on the particular functors and naturality conditions having been established.
-
-### A transformation is not automatically an event in time
-
-Nothing in the definition just given says that \(G\) happens later than \(F\). It can compare two descriptions maintained simultaneously. Its components live in the target category and inherit whatever meaning its arrows have. If those arrows are functions between report sets, the components are functions, not experiences of liberation.
-
-A temporal development is more directly represented by a functor \(L:T \to  X\), where \(T\) is a time or stage category and \(X\) is an explicitly specified category of states and transitions. An arrow of \(T\) then receives an actual transition in \(X\). Two interpretations of that development can be compared by a natural transformation if their transition maps satisfy the squares.
-
-A concrete failure makes the difference clearer. Let the time category have one transition \(0\to 1\). At each time an event functor \(E\) has the set \(\{0,1\}\), where 1 means an event is present; its transition clears the event, sending both values to 0. A status functor \(K\) has the same set at both times, but its transition is the identity, preserving whether recognition has been retained. Try components \(\alpha [0]=\alpha [1]=\operatorname{id}\), declaring event presence and retained realization interchangeable. At input 1 the naturality equation fails:
-
-\[
-\begin{gathered}K(t)(\alpha [0](1)) = 1\\\alpha [1](E(t)(1)) = 0.\end{gathered}
-\]
-
-We can repair the representation by storing both event and retained status. At both times take \(M=\{(0,0),(0,1),(1,1)\}\); its transition sends \((e,k)\) to \((0,k)\). Projection \(\pi (e,k)=k\) now gives a natural transformation \(M\Rightarrow K\), because clearing the event leaves the retained status unchanged. The state \((0,1)\) represents retention without a currently occurring event. This construction does not prove that a particular knowledge is irreversible; the persistence rule is an explicit premise whose warrant must come from the philosophical account. It shows exactly what information the failed comparison omitted.
-
-Similarly, a correction that retracts “the body exhausts selfhood” is not automatically a natural transformation between proof-preserving interpretations of the old theory. If the old theory proves that assertion, a target interpretation preserving its proofs cannot silently reject it. A category of revisions may be appropriate, but it has different arrows. This distinction keeps the mathematical formalism capable of expressing change rather than disguising revision as preservation.
-
-### Three inscriptions, two values: equivalence without strict identity
-
-Return to the number-five intuition. Take three formal expressions \(e=\text{“5”}, f=\text{“2+3”}, g=\text{“6”}\). Construct a category \(A\) whose arrows are **certified agreement of value**, with exactly one arrow between expressions of equal value and none otherwise. Thus \(e\) and \(f\) have inverse arrows between them; \(g\) has only its identity. Composition is forced by agreement of value.
-
-This category does not record actual proof histories: different proofs of \(2+3=5\) have deliberately been identified. Had we retained those histories, we would need to reconsider its homsets and their equations.
-
-Let \(\mathbf{Vals}\) be the discrete category with objects the values 5,6. Evaluation \(\operatorname{Eval}:A \to  \mathbf{Vals}\) sends \(e,f\) to 5, and \(g\) to 6. For each pair of expressions, both source and target homsets are singletons if the values agree and both are empty otherwise. Evaluation is therefore full and faithful. It also reaches every object of \(\mathbf{Vals}\).
-
-Choose \(W(5)=e, W(6)=g\). Then \(\operatorname{Eval} \circ  W=1[\mathbf{Vals}]\), but \(W \circ  \operatorname{Eval} \ne  1[A]\), since \((W \circ  \operatorname{Eval})(f)=e \ne  f\). Nevertheless there is a natural isomorphism
-
-\[
-\eta :W \circ  \operatorname{Eval} \Rightarrow  1[A].
-\]
-
-Its components at \(e,g\) are identities and its component at \(f\) is the certified agreement \(e \to  f\). Naturality holds because each relevant homset has exactly one arrow. This is an **equivalence of categories**: inverse translation is available up to coherent isomorphism, rather than literal equality.
-
-In general, \(F:C \to  D\) is an equivalence when there is \(G:D \to  C\) with natural isomorphisms \(GF \cong  1[C]\) and \(FG \cong  1[D]\). It is an isomorphism of categories if those composites equal the identity functors strictly. Our categories are not isomorphic: they have different numbers of objects. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
-
-The useful recognition criterion says that an equivalence is full, faithful and essentially surjective: every target object is isomorphic to an image object. Conversely these three properties produce an equivalence when the needed representative choices are available, as they are in this finite example.
-
-The criterion has constructive content. Choose, for each \(d \in  D\), an object \(Gd \in  C\) and an isomorphism \(\varepsilon [d]:F(Gd) \to  d\). For an arrow \(v:d \to  d'\), fullness and faithfulness give a unique arrow \(G(v)\) whose image is
-
-\[
-F(G(v))=\varepsilon [d']^{-1} \circ  v \circ  \varepsilon [d].
-\]
-
-The image of a composite is the composite of these expressions: the middle \(\varepsilon \) and its inverse cancel. Faithfulness then proves the functor law for \(G\). The displayed equation is also precisely what makes \(\varepsilon :FG \Rightarrow  1[D]\) natural. For each \(c\), lift \(\varepsilon [Fc]:F(G(Fc)) \to  Fc\) through the homset bijection; these lifts give \(GF \Rightarrow  1[C]\). They are invertible because full and faithful functors reflect isomorphisms, and naturality follows by applying the faithful \(F\). Thus recovering a theory requires recoverable arrows and coherent comparisons, not just a return assignment on its labels.
-
-The philosophical payoff is exact. Distinct expressions can share a referent without becoming one expression. Distinct mathematical presentations can be equivalent without literal equality. Neither result decides whether two jīvas are interchangeable presentations of one self. The example **assumed** arithmetic evaluation and certified equal value; those facts did the work. A selfhood comparison needs its own reference rules and admissible arrows.
-
-**Exercise 3.** If \(A\) contained only identity arrows while evaluation still merged \(e,f\), would evaluation remain an equivalence?
-
-**Answer.** No. The empty homset \(A(e,f)\) would map to the singleton \(\mathbf{Vals}(5,5)\), violating fullness. Common denotation alone does not supply the source relationships needed for this equivalence.
-
-### Representables retain a whole pattern of access
-
-A handful of predicates can make two things look alike. Category theory offers a more demanding relational profile. For an object \(x\) of a small category \(C\), define
-
-\[
-yx=C(-,x):C^{\mathrm{op}} \to  \mathbf{Set}.
-\]
-
-Here \(yx\) abbreviates \(y(x)\); when the object is named \(y, yy\) means \(y(y)\), not multiplication. At a probe object \(a\), this gives the entire set \(C(a,x)\) of arrows from \(a\) to \(x\). At a probe-change \(u:a' \to  a\), it gives the function
-
-\[
-yx(u):C(a,x) \to  C(a',x), p \mapsto  p \circ  u.
-\]
-
-The opposite category \(C^{\mathrm{op}}\) has the same objects as \(C\) and every arrow reversed; its composition is correspondingly reversed. The direction of the profile maps reverses. An available route from \(a\) to \(x\) can be preceded by \(u\), producing a route from \(a\)'. This is why \(yx\) is contravariant, equivalently an ordinary functor from the opposite category. Identities act as identities, and composition is respected because composition in \(C\) is associative.
-
-A functor naturally isomorphic to one of these profiles is called **representable**. More generally, any functor \(P:C^{\mathrm{op}} \to  \mathbf{Set}\) is a presheaf; not every presheaf is representable. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
-
-In our procedure category \(\mathbf{Proc}\), the profile of \(R\) is completely calculable:
-
-\[
-yR(U)=\{h,b \circ  a\}, yR(D)=\{b\}, yR(R)=\{1[R]\}.
-\]
-
-Precomposing \(1[R]\) with \(h\) yields \(h\). Precomposing it with \(b\), then with \(a\), yields \(b \circ  a\). The profile retains the distinction that the status functor forgot.
-
-Restricted probes can lose decisive information. In a category with objects \(p,A,B\), arrows \(p \to  A, p \to  B\), and only identities otherwise, the profiles of \(A\) and \(B\) at \(p\) are both singleton sets. Yet \(A\) and \(B\) are not isomorphic. At the additional probe \(A\), their profiles differ: \(C(A,A)\) contains an identity while \(C(A,B)\) is empty. The full profile includes every object, including the object being profiled, and every compatibility map. It is much more than agreement on a survey of properties.
-
-### Yoneda, calculated and proved
-
-Write \(\operatorname{Nat}(yx,P)\) for the set of natural transformations from \(yx\) to \(P\). The Yoneda lemma says that for a presheaf \(P\),
-
-\[
-\operatorname{Nat}(yx,P) \cong  P(x).
-\]
-
-The correspondence is natural in both \(x\) and \(P\). Let us construct the two directions. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
-
-Given \(\alpha :yx \Rightarrow  P\), its component at \(x\) is a function \(\alpha [x]:C(x,x) \to  P(x)\). The identity arrow supplies an input, so define
-
-\[
-\Phi (\alpha )=\alpha [x](1[x]).
-\]
-
-Conversely, given \(z \in  P(x)\), define a component at every \(a\) by
-
-\[
-\alpha ^{z}[a](p)=P(p)(z), p:a \to  x.
-\]
-
-This is well typed: contravariance gives \(P(p):P(x) \to  P(a)\). For \(u:a' \to  a\),
-
-\[
-\begin{gathered}P(u)(\alpha ^{z}[a](p))=P(u)P(p)(z)\\=P(p \circ  u)(z)=\alpha ^{z}[a'](p \circ  u).\end{gathered}
-\]
-
-That is naturality. Applying the first construction gives \(\alpha ^{z}[x](1[x])=P(1[x])(z)=z\). In the other direction, naturality of \(\alpha \) at \(p:a \to  x\), evaluated at \(1[x]\), gives
-
-\[
-\alpha [a](p)=P(p)(\alpha [x](1[x])).
-\]
-
-Thus the second construction recovers every component of the original transformation. We have proved a bijection.
-
-For a calculation, define \(P\) on the procedure category \(\mathbf{Proc}\) by
-
-\[
-\begin{gathered}P(R)=\{r,n\}, P(D)=\{d[r],d[n]\},\\P(U)=\{u[r],u[m],u[n]\}.\end{gathered}
-\]
-
-Set \(P(b)(r)=d[r], P(b)(n)=d[n]\); set \(P(a)(d[r])=u[r], P(a)(d[n])=u[n]\). Set \(P(h)(r)=u[m], P(h)(n)=u[n]\). Functoriality forces \(P(b \circ  a)=P(a)P(b)\). This defines a legitimate presheaf: the two different routes remain different, so they may have different restriction functions. The symbols can be read as possible retrospective records; they are not stipulated psychological laws.
-
-Choosing \(z=r\) gives the transformation
-
-\[
-\begin{gathered}\alpha [R](1[R])=r, \alpha [D](b)=d[r],\\\alpha [U](b \circ  a)=u[r], \alpha [U](h)=u[m].\end{gathered}
-\]
-
-One selected record at \(R\) determines all these values. Choosing \(n\) gives the other transformation. There are exactly two natural transformations \(yR \Rightarrow  P\), because \(P(R)\) has two elements.
-
-The word “natural” in the theorem adds compatibility to this bijection. If \(\theta :P \Rightarrow  Q\), then
-
-\[
-\Phi (\theta  \circ  \alpha )=\theta [x](\Phi (\alpha )).
-\]
-
-If \(f:x \to  y\) and \(\alpha :yy \Rightarrow  P\), then
-
-\[
-\Phi (\alpha  \circ  y(f))=P(f)(\Phi (\alpha )).
-\]
-
-The first equation follows by evaluating at \(1[x]\); the second follows from naturality of \(\alpha \). Thus changing either input respects the correspondence.
-
-Setting \(P=yy\) gives
-
-\[
-\operatorname{Nat}(yx,yy) \cong  C(x,y).
-\]
-
-The map sends \(f:x \to  y\) to postcomposition \(p \mapsto  f \circ  p\). Consequently \(y:C \to  [C^{\mathrm{op}},\mathbf{Set}]\) is full and faithful: the Yoneda embedding. A natural isomorphism of complete profiles therefore yields an isomorphism of their representing objects. It does not yield their literal equality.
-
-**Exercise 4.** Could we alter the displayed transformation by setting \(\alpha [U](h)=u[r]\), while keeping \(\alpha [R](1[R])=r\)?
-
-**Answer.** No. Naturality at \(h\) forces \(\alpha [U](h)=P(h)(r)=u[m]\). Matching isolated values without respecting the transition maps is insufficient.
-
-### What this permits in the philosophical study
-
-Yoneda does not turn the Self into an empirical object. “Object” in category theory means an item in the specified mathematical structure; it need not mean an intentional object of consciousness. We could model contexts of self-ascription and their licensed transformations. Whether that representation captures a theory’s nonobjectifying self-disclosure is a separate adequacy question. Nor does \(1[x]\) represent consciousness merely because it is self-directed: every object has an identity arrow, including objects used to represent stones or numbers.
-
-The next chapter works through a source argument about qualified absence. We will reconstruct its conditions, test a translation that erases a distinction, and see exactly which inference fails. The philosophical chapters then develop the further comparisons from their own passages.
-
-## What exactly is being denied?
+### What exactly is being denied?
 
 Consider a pot on the ground. It is there through contact. It does not inhere in the ground as a quality inheres in a substance. If we abbreviate both claims carelessly, we obtain “the pot is there” and “the pot is not there.” The apparent contradiction comes from removing information that distinguishes the two claims.
 
@@ -745,7 +172,7 @@ A mathematical representation therefore needs room for at least two different qu
 
 We will first represent one constraint from the argument, not the entire definition of falsity. Let \(X\) be a set of intentional targets, \(F\) a set of fully specified frames, and \(T\) a set of times. A target is something a claim concerns; including a target in \(X\) does not by itself assert an externally existing object. Each frame records a locus, relation, delimiter and appraisal order. We must justify the chosen frame when applying the model to a source claim.
 
-Introduce two relations:
+In the notation below, \(X\times F\times T\) is the set of triples consisting of a target, a frame and a time. The symbols \(\forall\) and \(\exists\) mean “for every” and “there exists”; \(\land\) means “and,” and \(\Longrightarrow\) means “implies.” Introduce two relations:
 
 \[
 \begin{aligned}\operatorname{Pos}&\subseteq X\times F\times T,\\\operatorname{Neg}&\subseteq X\times F\times T.\end{aligned}
@@ -799,9 +226,127 @@ The witnesses \(f\) and \(g\) can differ. Conflating these formulas is the mathe
 
 Try the same exercise while retaining the relation and deleting only the spatial delimiter. Use one frame for the tree’s top and another for its root, with contact as the relation in both. The same two-witness pattern reappears. This explains why the objector’s third step is not answered merely by preserving the name of a relation.
 
+### Learning to ask a categorical question
+
+The countermodel used sets and logical conditions. To compare whole models systematically, we now need categories: specified objects, arrows and rules for composing them. Begin with a small example in which every arrow can be checked.
+
+The examples follow Cheng’s progression from concrete relationships to a definition and its consequences. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+There will be three distinct mathematical settings: a tiny research workflow, sets of records and functions between them, and an ordering of selected commitments. Keeping these settings distinct is part of the lesson. An arrow can mean a procedure in one category and an implication in another. It cannot quietly change its meaning halfway through an argument.
+
+### Objects and arrows: what is being related?
+
+Imagine that we track three kinds of research dossier:
+
+- \(R\): a dossier containing a passage and its source reference.
+- \(G\): a dossier that also contains a grammatical analysis.
+- \(I\): a dossier that also contains an interpretive argument.
+
+For this deliberately simplified workflow, allow one named step \(g\) from \(R\) to \(G\) and one named step \(i\) from \(G\) to \(I\). These are formal steps in our example, not claims that grammatical or philosophical interpretation has a unique correct procedure.
+
+\[
+R\xrightarrow{g}G\xrightarrow{i}I
+\]
+
+Reading an arrow starts with its endpoints. The notation \(g: R \to  G\) says that \(R\) is its source and \(G\) its target. We can follow \(g\) by \(i\) because the first target matches the second source. We call the combined arrow \(i \circ  g: R \to  I\). Read the expression from right to left: first \(g\), then \(i\).
+
+We cannot follow \(i\) by \(g\) in this diagram. The output type of \(i\) is \(I\), whereas \(g\) expects \(R\). Merely writing \(g \circ  i\) does not make it meaningful. This is the simplest form of type-checking, and it is already philosophically useful. A claim about a cognition, a claim about its subject, and a claim about the referent of a sentence need not have interchangeable types.
+
+Every object must also have an identity arrow. The identity \(1_{R}: R \to  R\) leaves the formal dossier exactly as it is. This mathematical identity differs from a researcher’s act of self-recognition.
+
+We have now made a category with three objects and six arrows:
+
+\[
+1_{R}, 1_{G}, 1_{I}, g, i, i \circ  g
+\]
+
+The identities and the composite are present even when a diagram does not display them. Composition with an identity changes nothing. If we extend the workflow by \(j: I \to  J\), grouping three successive steps in either way must give the same arrow:
+
+\[
+j \circ  (i \circ  g) = (j \circ  i) \circ  g.
+\]
+
+This is associativity. It does not say we may reorder the steps. Parentheses can move; the sequence cannot.
+
+A **category** consists of objects, arrows with specified sources and targets, identity arrows, and a composition operation for every composable pair. Composition must be associative and satisfy the identity laws \(f \circ  1_{A} = f = 1_{B} \circ  f\) for \(f: A \to  B\). The collection of arrows \(A \to  B\) is written \(C(A,B)\), or \(\operatorname{Hom}_{C}(A,B)\). It can contain no arrows, one arrow, or many.
+
+A category is **small** when its objects and arrows form sets. Our finite examples are small. A category is **locally small** when each individual \(C(A,B)\) is a set, even if its entire collection of objects is too large to be a set. The category of all sets is locally small but not small in the usual foundations. We keep this distinction because later constructions use a small category of contexts; calling everything a set would create foundational problems rather than solve them.
+
+Our workflow is the **free category** on the displayed directed graph: its arrows are finite paths, including the empty paths that serve as identities. We impose no extra equations between paths. Concatenating paths is associative, so the construction satisfies the laws.
+
+**Try it.** Add a direct step \(d: R \to  I\). Must \(d\) equal \(i \circ  g\) because both start at \(R\) and finish at \(I\)?
+
+**Answer.** No. They are two parallel arrows. We could impose \(d = i \circ  g\) if we had a reason to count those procedures as the same, but that is extra information. A triangle whose direct route equals its two-step route is a **commutative diagram**. Drawing a triangle does not prove commutativity. In a philosophical reconstruction, the equation would need an argument about what the arrows preserve and what their equality means.
+
+The exercise has this triangle, whose direct edge need not equal its two-step route:
+
+\[
+\begin{array}{ccc}R&\xrightarrow{g}&G\\&\searrow{\scriptstyle d}&\downarrow{\scriptstyle i}\\&&I\end{array}
+\]
+
+A diagram becomes informative when it specifies compositions, equations, or their failure.
+
+### Two more categories, and why the arrows matter
+
+The category **Set** has sets as objects and functions as arrows. A function sends every element of its source to exactly one element of its target. Composition is ordinary function composition. Identities send each element to itself.
+
+Let \(E = \{e_{1},e_{2},e_{3}\}\) be three distinct report records. Let \(M = \{\text{quiet},\text{active}\}\) be a set of two editorial tags. Define \(t: E \to  M\) by
+
+\[
+t(e_{1}) = \text{quiet},  t(e_{2}) = \text{quiet},  t(e_{3}) = \text{active}.
+\]
+
+These are tags assigned to records, not a classification of consciousness itself. The function deliberately omits most of each report. This makes it useful for organizing an archive and unsuitable for recovering the complete reports.
+
+An object of \(\mathbf{Set}\) is the whole set \(E\), not an individual element \(e_{1}\). We can represent an element categorically by a function from a singleton set \(1 = \{\ast \}\): the function \(\ast  \mapsto  e_{1}\) picks out that element. Later, maps from other objects will let us examine more elaborate families of elements.
+
+Our third example starts with three selected commitments \(p, q\), and \(r\). Consider every subset of \(\{p,q,r\}\). Put exactly one arrow \(U \to  V\) when \(U \subseteq  V\). For example,
+
+\[
+\{p\} \to  \{p,q\} \to  \{p,q,r\}.
+\]
+
+The composite exists because inclusion is transitive; identities exist because every subset includes itself. There is at most one arrow between any two objects. Such a category is called **thin**. Here the underlying order is a partially ordered set, or **poset**: inclusion is reflexive, transitive, and antisymmetric.
+
+This category records adding selected commitments. It does not decide whether the commitments are true, compatible, or well sourced. If we were ordering actual theories instead, logical consequence could matter: adding an axiom that was already provable would not strengthen the theory. That would require a more considered definition of the ordering.
+
+**Try it.** In this inclusion category, two different paths lead from \(\{p\}\) to \(\{p,q,r\}\), one through \(\{p,q\}\), another through \(\{p,r\}\). Are their composites equal?
+
+**Answer.** Yes. There is only one arrow with those endpoints. Compare the free workflow category, where distinct paths stayed distinct unless we imposed an equation. Choosing a thin category has already discarded distinctions between ways of reaching a result. That can be appropriate when we study implication; it can be inappropriate when we study different arguments or paths of practice.
+
+### Isomorphism: sameness with a reversible comparison
+
+Suppose the three records are copied into a second catalog using new identifiers \(a, b\), and \(c\). The function \(f\) sends \(e_{1}\) to \(a, e_{2}\) to \(b\), and \(e_{3}\) to \(c\). There is an inverse \(g\) that sends each new identifier back to its corresponding record. Both round trips recover the starting element.
+
+An arrow \(f: A \to  B\) is an **isomorphism** if there is an arrow \(g: B \to  A\) such that
+
+\[
+g \circ  f = 1_{A},     f \circ  g = 1_{B}.
+\]
+
+We write \(A \cong  B\) when some such isomorphism exists. In \(\mathbf{Set}\), the isomorphisms are precisely the bijections: functions that pair every source element with exactly one target element and leave no target element unpaired.
+
+Now try to reverse the tagging function \(t\). We can define \(s: M \to  E\) by \(s(\text{quiet}) = e_{1}\) and \(s(\text{active}) = e_{3}\). Tagging the selected record returns the original tag, so \(t \circ  s = 1_{M}\). But \(s \circ  t\) is not \(1_{E}\): it sends \(e_{2}\) to \(e_{1}\). The second report has been lost.
+
+A map can admit a return journey that works on one side while failing on the other. A common description of two records does not establish that the records were identical, or even that the description retained everything relevant about them.
+
+Different occurrences of the number five raise several distinct questions. Two written inscriptions can be distinct tokens while referring to the same number. Two five-element sets can be isomorphic as sets while having different elements. Those are different mathematical statements. Neither by itself settles how an Advaitin identity statement refers to the Self. That depends on the text's account of reference, limiting conditions, and what is being denied or affirmed. Category theory gives us several kinds of comparison; it does not supply the correct interpretation merely by replacing an equals sign with \(\cong\).
+
+Isomorphism also depends on the category. Take two labels \(x\) and \(y\). In one poset they are incomparable; in another \(x < y\). The identity-on-labels function from the first poset to the second preserves order, since the first has no nontrivial order to violate. Its inverse as a set-function does not preserve order. The two structures are bijective as sets but this map is not an isomorphism of posets. Cheng's official errata correct an overgeneralization about this point in the book. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+**Try it.** If an arrow has an inverse, could it have two different inverses \(g\) and \(h\)?
+
+**Answer.** No. Both inverse laws force
+
+\[
+\begin{gathered}g = g \circ  1_{B} = g \circ  (f \circ  h)\\= (g \circ  f) \circ  h = 1_{A} \circ  h = h.\end{gathered}
+\]
+
+The inverse of a specified isomorphism is unique. There can still be many different isomorphisms between the same two objects. Matching three unstructured records to three labels offers six bijections. To select the philosophically appropriate correspondence, we need additional structure and evidence.
+
 ### What the category theory contributes
 
-The argument so far uses typed logic and sets. We now use the earlier definition of a category: objects, arrows with specified sources and targets, an identity at each object, and associative composition with those identities. A functor assigns objects and arrows between two categories while preserving sources, targets, identities and composition. Category theory can organize the resulting theories and their interpretations.
+The argument so far uses typed logic and sets. We can now use the category definition just established: objects, arrows with specified sources and targets, an identity at each object, and associative composition with those identities. A functor assigns objects and arrows between two categories while preserving sources, targets, identities and composition. Category theory can organize the resulting theories and their interpretations.
 
 One starting point is the category of set-valued models of the selected theory. An object is an interpretation of the sorts \(X\),\(F\),\(T\) and the two relations satisfying the axiom. A morphism consists of a function on each sort that preserves the positive and negative relational facts. If \(h_{X}\), \(h_{F}\) and \(h_{T}\) are those functions, preservation means, for example:
 
@@ -831,7 +376,7 @@ Here is an actual morphism in the expanded category. Make a second model with tw
 
 The failed frame-erasing recipe is not a functor to the proposed frame-free model category, because it does not even send the displayed model to an object of that category. Its output violates the target axiom. Checking object admissibility comes before checking preservation of identities and composition.
 
-For comparison, here is a preview of the later worked construction. We can also form the syntactic category of the theory, whose objects are definable collections and whose arrows are definable relations proved total and single-valued on their domains. That construction records what the theory permits us to define and infer. It is a different category from the category whose objects are whole models. The course’s worked reference example will construct one such definable arrow explicitly.
+For comparison, here is a preview of the later worked construction. We can also form the syntactic category of the theory, whose objects are definable collections and whose arrows are definable relations proved total and single-valued on their domains. That construction records what the theory permits us to define and infer. It is a different category from the category whose objects are whole models. Chapter 4 constructs one such definable arrow from the reference argument.
 
 These two categories answer different questions. The model category compares realizations of the selected rules. The syntactic category organizes the structures and maps definable from them. Neither construction establishes that the entire metaphysics of a thinker has been captured. That depends on the adequacy of the selected signature and axioms to the connected argument.
 
@@ -851,52 +396,130 @@ We therefore have two analyses to compare, not an instruction to delete every in
 
 This is a concrete method for the larger inquiry. Begin with the actual distinctions and reasons. State a proposed representation. Construct a case satisfying it, and test a plausible simplification that might lose something important. Then compare the theories through operations whose preservation properties are demonstrated.
 
-## Knowing, seeing, hearing—and what harmony can mean
+## 3. Selfhood, instruction and appearance in Advaita
 
-A comparison of teachings begins by distinguishing the words through which they describe understanding. Knowing, seeing and hearing can enter a connected account without becoming interchangeable. Three entries in the Pāṇinian Dhātupāṭha make the limited lexical distinction visible. The instructional spellings include grammatical markers; the simple root labels identify the roots being compared. The locative meaning fields state the activity associated with each selected entry. [Dhātupāṭha, pinned textual witness](https://github.com/ashtadhyayi-com/data/blob/24109f7bdbf4d3e7e31c72cbbc1494c65e6a3409/dhatu/data.txt).
+A qualified negation leaves open what the account positively says about its subject. Śaṅkara begins from the self that makes knowing possible. His accounts of instruction, reflection and causal nonotherness give different reasons for distinguishing a changing presentation from the reality it discloses.
 
-| Entry | Romanized instructional wording | Literal English |
-|---|---|---|
-| 02.0059 | vidã jñāne | vid: in knowing |
-| 01.1143 | dṛśĩr prekṣaṇe | dṛś: in seeing |
-| 01.1092 | śru śravaṇe | śru: in hearing |
-
-These entries support distinct semantic assignments. They do not supply complete derivations of the nouns *Veda*, *darśana* or *śruti*, or establish that a root has only one sense throughout Sanskrit. In particular, the importance of vision in a teaching does not justify the literal equation “Veda means seen.” Nor does hearing an instruction, seeing what it concerns and knowing its meaning automatically name three identical events. Their relation must be learned from the particular passage and its explanation.
-
-The same care applies to “harmony.” Agreement might concern a referent, shared deliberation, a destination, textual purport, or the fruit of practice. These are useful questions to keep separate. Two primary passages show why the distinction matters.
-
-Ṛgveda 1.164.46 names a plurality of divine designations:
-
-> indram mitraṃ varuṇam agnim āhur atho divyaḥ sa suparṇo garutmān |
-> ekaṃ sad viprā bahudhā vadanty agniṃ yamam mātariśvānam āhuḥ ||
-
-Literal translation: They call [it] Indra, Mitra, Varuṇa, Agni; and it is the celestial well-winged Garutmān. The existent is one; inspired poets speak [of it] in many ways; they call [it] Agni, Yama, Mātariśvan. [Ṛgveda 1.164.46, Aufrecht-based GRETIL text](https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_Rgveda-edAufrecht.htm).
-
-Here *sat* names what is, the existent; *bahudhā* qualifies speaking in many ways. “Truth” is a familiar interpretive rendering, but “the existent” preserves this literal distinction. The verse names deities, not later philosophical systems. It supplies a substantial many-names/one-reference statement. Extending it to complete philosophical theories requires an additional argument: expressions referring to one reality need not make every assertion about that reality equivalent. The displayed text follows the held unaccented witness, with its dotted *ṁ* normalized to *ṃ*; it does not reconstruct Vedic accents.
-
-Brahmasūtra 1.1.4 makes a different, compressed claim:
-
-> tat tu samanvayāt |
-
-Literal translation: But that, because of [their] coherent convergence. [Brahmasūtra 1.1.4 with Śaṅkara’s commentary](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/1/).
-
-The ellipsis needs its commentator’s explanation. Śaṅkara writes in his own reply:
-
-> sarveṣu hi vedānteṣu vākyāni tātparyeṇaitasyārthasya pratipādakatvena samanugatāni |
-
-Literal translation: For in all the Vedāntas, the sentences converge, through their purport, in conveying this meaning.
-
-“This meaning” refers to Brahman in the preceding explanation. Śaṅkara is arguing about what these scriptural sentences intend to teach. The immediate discussion contests an interpretation that subordinates them to action. His *samanvaya* therefore establishes a particular reading; it does not suspend interpretive disagreement or declare every school’s entire account jointly true. Its domain and operation differ from the Ṛgvedic enumeration of divine names.
-
-A constructive comparison should consequently state what is claimed to converge. Common reference asks whether expressions concern the same reality. Common destination asks where practices lead. Shared fruit asks what is attained. Coherent purport asks how passages belong to an interpretation. Shared deliberation asks how people inquire together. None alone supplies every answer to the others; each can nevertheless provide a positive starting point for further argument.
-
-These are selected early textual anchors and a grammatical comparison, not a survey of the whole Śatapatha Brāhmaṇa. *Ṛtam* remains a separate source question here: it has not been defined as, or modeled by, a functor law, and no such identification follows from these passages. The previously remembered harmony verse also remains unidentified. The verified examples can guide the inquiry without being presented as the recovered quotation or as a completed reconciliation.
-
-## Advaita: selfhood, fullness and manifestation
+### The Advaita questions
 
 Advaita’s identity claims become clearer when we ask what is being identified, what is being denied, and what recognition changes. Knowing the self is not described simply as finding one more object. Saying that an effect is nonother than its cause does not transfer every feature of clay into Brahman. A divine form need not reduce the Lord to an ordinary embodied person. Nor does realization necessarily end devotion.
 
 The passages below let those claims develop in the authors’ own words. The root texts come before the interpretations, and an opponent’s objection remains distinct from an author’s reply. The comparisons establish requirements for a later mathematical account.
+
+### The self and the work of instruction
+
+**Śaṅkara, Brahmasūtrabhāṣya, 2.3.7** ([source](cite://shankara/brahma-sutra-bhasya/inspectable-a-sh-self1)).
+
+> nahyātmāgantukaḥ kasyacit, svayaṃsiddhatvāt / nahyātmātmanaḥ pramāṇamapekṣya sidhyati / tasya hi pratyakṣādīni pramāṇānyaprasiddhaprameyasiddhaya upādīyante / nahyākāśādayaḥ padārdhāḥ pramāṇanirapekṣāḥ svayaṃsiddhāḥ kenacidabhyupagamyante / ātmā tu pramāṇādivyavahārāśrayatvātprāgeva pramāṇādivyavahārātsidhyati / naceddṛśasya nirākaraṇaṃ saṃbhavati / āgantukaṃ hi vastu nirākriyate na svarūpam / ya eva hi nirākartā tadeva tasya svarūpam / nahyagnerauṣṇyamagninā nirākriyate /
+
+Literal translation: For the self is not adventitious to anyone, being established by itself. For the self is not established by awaiting a means of knowledge about itself. Its means of knowledge, perception and the others, are employed to establish objects of knowledge not already established. For no one accepts things such as space as established by themselves independently of means of knowledge. The self, however, because it is the support of transactions involving means of knowledge and the rest, is established before those transactions. Nor is negation of such [a self] possible. An adventitious thing is negated, not one’s own nature. For whoever is the negator is precisely that one’s own nature. Fire’s heat is not negated by fire.
+
+The electronic wording reproduced here has naceddṛśasya and aprasiddhaprameyasiddhaya upādīyante; the institutional text reads na cedṛśasya and asiddhaprameyasiddhaye. The translation follows the shared argument about the self’s already established status.
+
+The proposal that selfhood is categorically special has direct textual support. Śaṅkara does not begin by postulating one more object whose existence must be inferred like an unobserved material thing. BSB2.3.7 argues that the self is already presupposed by the activity of establishing or denying objects ([source: Brahmasūtrabhāṣya 2.3.7](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/2/)). The attempted denier does not eliminate the denier’s own nature. This establishes an asymmetry between epistemic subject and established object.
+
+His account of self-knowledge consequently refuses to turn the seer into a seen object:
+
+**Bṛhadāraṇyakopaniṣadbhāṣya, 1.4.10** ([source](cite://shankara/brhadaranyaka-bhashya/inspectable-a-sh-nonobject)).
+
+> na ca dṛśyā dṛṣṭirdraṣṭāraṃ viṣayīkartumutsahate, yatastāmākāṅkṣeta /
+> na ca svarūpaviṣayākhāṅkṣāsvasyaiva /
+> tasmādajñānādhyāropaṇanivṛttireva'atmānamevāvet ityuktam,nātmano viṣayīkaraṇam' /
+
+Literal translation: Nor is the seeing that is seen capable of making the seer an object, so that one might desire it. Nor is there a desire on the part of oneself concerning one’s own nature as an object. Therefore “it knew only itself” means solely the cessation of superimposition through ignorance, not making the self an object.
+
+The surrounding commentary distinguishes eternal unseen seeing from transient seen seeing. The quoted conclusion concerns the cessation of erroneous superimposition. It should not be rendered as a subject creating an accurate inner picture of another object called “the true self.”
+
+The corresponding semantic instruction in the Upadeśasāhasrī is reciprocal correction:
+
+**Upadeśasāhasrī, I 18.194, 18.195** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-cor3)).
+
+> tattvamos tulyanīḍārtham asīty etat padaṃ bhavet /
+> tacchabdaḥ pratyagātmārthas tacchabdārthas tvamas tathā //
+
+> duḥkhitvāpratyagātmatvaṃ vārayetām ubhāv api /
+> evaṃ ca netinetyarthaṃ gamayetāṃ parasparam //
+
+Literal translation: In “you are that,” the word “are” would mean that “that” and “you” have the same abode [referent]. The word “that” has the inward self as its meaning, and “you” likewise has the meaning of “that.” Both should ward off affliction and non-inward-selfhood; thus they should mutually convey the meaning of “not this, not this.”
+
+The words share a referent while correcting the restrictions wrongly associated with each side. Thus the critique of crude identity is well placed: simply equating every empirical property of “you” with every predicate previously attributed to “that” would not reproduce the passage. But the correction also does not mean that the two expressions merely resemble each other. The text insists on their common reference. A future semantics needs to distinguish referent, modes of presentation, and rejected attribution before it can ask what mathematical equality expresses.
+
+The unused-capacity proposal and Śaṅkara’s replies are distinguished in the passage:
+
+**Śaṅkara, Brahmasūtrabhāṣya, 2.3.40** ([source](cite://shankara/brahma-sutra-bhasya/inspectable-a-sh-agency)).
+
+> nanu sthitāyāmapi kartṛtvaśaktau kartṛtvakāryaparihārātpuruṣārthaḥ setsyati / tatparihāraśca nimittaparihārāt / yathāgnerdahanaśaktiyuktasyāpi kāṣṭhaviyogāddahanakāryābhāvāt /
+
+> na / nimittānāmapi śaktilakṣaṇena saṃbandhena saṃbaddhānāmatyantaparihārāsaṃbhavāt /
+
+> nanu mokṣasādhanavidhānānmokṣaḥ setsyati /
+
+> na / sādhanāyattasyānityatvāt / apica nityaśuddhabuddhamuktātmapratipādanānmokṣasiddhirabhimatā / tādṛgātmapratipādanaṃ ca na svābhāvike kartṛtve 'vakalpeta / tasmādupādhidharmādhyāsenaivātmanaḥ kartṛtvaṃ na svābhāvikam /
+
+Literal translation: [Objection:] Even while the capacity for agency remains, the human goal will be accomplished through avoiding agency’s effect; and avoiding that [effect] comes from avoiding its occasion, just as fire, though endowed with the capacity to burn, has no burning-effect through separation from wood. [Reply:] No, because it is impossible wholly to avoid even the occasions, connected through the relation characterized by capacity. [Objection:] Liberation will be accomplished because its means are prescribed. [Reply:] No, because what depends on means is impermanent. Moreover, liberation is held to be established through teaching the self as eternally pure, aware and free. Teaching such a self would not be possible if agency were intrinsic. Therefore the self’s agency is only through superimposition of properties of limiting conditions, not intrinsic.
+
+BSB2.3.40 also records a serious opponent proposal: agency may remain as an unused capacity, like fire without fuel. Śaṅkara answers that the possibility of renewed occasions for suffering would defeat secure liberation ([source: Brahmasūtrabhāṣya 2.3.40](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/2/)). That objection cannot be borrowed as his own doctrine of intrinsic agency.
+
+### The mind as a reflecting medium
+
+The Upadeśasāhasrī gives a linguistic account of “knows,” rather than merely mentioning a mirror:
+
+**Upadeśasāhasrī, I 18.53, 18.54** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-ref1)).
+
+> ātmābhāsas tu tiṅvācyo dhātvarthaś ca dhiyaḥ kriyā /
+> ubhayaṃ cāvivekena jānātīty ucyate mṛṣā //
+
+> na buddher avabodho 'sti nātmano vidyate kriyā /
+> ato nānyatarasyāpi jānātīti ca yujyate //
+
+Literal translation: The appearance of the self is what the finite verb ending expresses, and the root-meaning is the intellect’s activity. Both, through non-discrimination, are falsely spoken of as “knows.” There is no awareness belonging to the intellect, and no activity exists in the self. Therefore “knows” is not appropriate to either one [by itself].
+
+The finite ending and verbal root are doing different explanatory work. The apparently unitary act of knowing involves consciousness and the intellect’s activity, with non-discrimination attributing a combination to the knower. The following reflection discussion makes the reciprocal attribution explicit:
+
+**Upadeśasāhasrī, I 18.63, 18.64, 18.65, 18.66** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-ref2)).
+
+> ādarśamukhasāmānyaṃ mukhasyeṣṭaṃ hi mānavaiḥ /
+> mukhasya pratibimbo hi mukhākāreṇa dṛśyate //
+
+> yatra yasyāvabhāsas tu tayor evāvivekataḥ /
+> jānātīti kriyāṃ sarvo loko vakti svabhavataḥ //
+
+> buddheḥ kartṛtvam adhyasya jānātīti jña ucyate /
+> tathā caitanyam adhyasya jñatvaṃ buddher ihocyate //
+
+> svarūpaṃ cātmano jñānaṃ nityaṃ jyotiḥ śruter yataḥ /
+> na buddhyā kriyate tasmān nātmanānyena vā sadā //
+
+Literal translation: People accept a likeness of the face in a mirror, for the face’s reflection is seen in the form of the face. Where there is the appearance of one in another, through non-discrimination of just those two, all people naturally speak of the activity as “knows.” Having superimposed the intellect’s agency, the knower is said to know; likewise, having superimposed consciousness, knowingness is here spoken of as belonging to the intellect. Knowledge is the self’s own nature, eternal light, because of scripture; therefore it is never made by the intellect, by the self, or by another.
+
+**Śaṅkara, Upadeśasāhasrī, I 18.70, 18.71** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-ref3)).
+
+> ādarśānuvidhāyitvaṃ chāyāyā asyate mukhe /
+> buddhidharmānukāritvaṃ jñābhāsasya tatheṣyate //
+
+> buddhes tu pratyayās tasmād ātmābhāsena dīpitāḥ /
+> grāhakā iva bhāsante dahantīvolmukādayaḥ //
+
+Literal translation: The shadow’s conformity to the mirror is cast upon the face; in the same way, conformity to the intellect’s properties is accepted of the appearance of awareness. Therefore the intellect’s cognitions, illuminated by the appearance of the self, appear as though apprehenders, just as firebrands and the like appear as though burning.
+
+The next selected verses state an objection and the limits of the illustration:
+
+**Śaṅkara, Upadeśasāhasrī, I 18.75, 18.85, 18.86** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-ref4)).
+
+> adhyakṣasya samīpe tu siddhiḥ syād iti cen matam /
+> nādhyakṣe 'nupakāritvād anyatrāpi prasaṅgataḥ //
+
+> nanv evaṃ dṛśisaṃkrāntir ayaḥpiṇḍe 'gnivad bhavet /
+> mukhābhāsavad ity etad ādarśe tan nirākṛtam //
+
+> kṛṣṇāyo rohitābhāsam ity etad dṛṣṭam ucyate /
+> dṛṣṭadārṣṭāntatulyatvaṃ na tu sarvātmanā kvacit //
+
+Literal translation: If it is thought that establishment would occur near the witness: no, because nothing is contributed to the witness, and because the consequence would extend elsewhere. [Objection:] Surely thus there would be a transfer of seeing, like fire into an iron ball? [Reply:] This has been ruled out by saying “like the appearance of a face in a mirror.” Black iron with a red appearance is stated as what is observed; the example and the illustrated case are nowhere alike in every respect.
+
+This gives at least four things to distinguish: the self’s unproduced awareness, the changing intellect, the self’s appearance in that medium, and the attribution through which ordinary knowing is reported. The activity is not simply exported into the self, and consciousness is not literally manufactured by an inert intellect. The next verses describe a specific misattribution: the reflected image conforms to the mirror, and that conformity is attributed to the face. Similarly, the appearance of awareness conforms to the intellect’s properties. The illuminated cognitions then appear as though they themselves apprehend. This separates a change in the medium and its appearance from a change in the self, while explaining why ordinary cognition looks like an act of a knower ([source: Upadeśasāhasrī I 18.70, 18.71](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zaMkara-upadezasAhasrI.xml)). They also refuse a crude transfer model and restrict the analogy ([source: Upadeśasāhasrī I 18.75, 18.85, 18.86](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zaMkara-upadezasAhasrI.xml)).
+
+That last restriction is mathematically consequential. We should not require a full isomorphism between a physical mirror and cognition. The analogy may preserve some explanatory relations while rejecting others. First identify the preserved relations; only then ask whether a functor, relation-preserving map, or different structure captures them.
 
 ### Clay, becoming many, and entry
 
@@ -1114,728 +737,11 @@ Literal translation: Here it is said: waking cognitions cannot be like dream cog
 
 His account also distinguishes the validity of ordinary transactions before recognition (2.1.14, [source: Brahmasūtrabhāṣya 2.1.14, ordinary validity objection](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/2/)) from the cancellation of dream cognition by waking cognition (2.2.29, [source: Brahmasūtrabhāṣya 2.2.29, waking/dream discrimination](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/2/)). “Appearance,” “error,” “valid transaction,” and “ultimate reality” therefore cannot be one undifferentiated truth flag. The waking/dream passage is a reply to denial of external objects. Its phrase “in any state” must still be interpreted alongside the causal discussion’s ultimate qualification; merely assigning two labels does not resolve that contextual tension.
 
-### The self and the work of instruction
+## 4. Reference without erasing difference
 
-**Śaṅkara, Brahmasūtrabhāṣya, 2.3.7** ([source](cite://shankara/brahma-sutra-bhasya/inspectable-a-sh-self1)).
+Shared reference can coexist with different grounds of application. Rāmānuja and Nimbārka, read with Śrīnivāsa, explain how this works. After their arguments we will derive one naming rule, then learn the categorical constructions needed to test exactly what it preserves.
 
-> nahyātmāgantukaḥ kasyacit, svayaṃsiddhatvāt / nahyātmātmanaḥ pramāṇamapekṣya sidhyati / tasya hi pratyakṣādīni pramāṇānyaprasiddhaprameyasiddhaya upādīyante / nahyākāśādayaḥ padārdhāḥ pramāṇanirapekṣāḥ svayaṃsiddhāḥ kenacidabhyupagamyante / ātmā tu pramāṇādivyavahārāśrayatvātprāgeva pramāṇādivyavahārātsidhyati / naceddṛśasya nirākaraṇaṃ saṃbhavati / āgantukaṃ hi vastu nirākriyate na svarūpam / ya eva hi nirākartā tadeva tasya svarūpam / nahyagnerauṣṇyamagninā nirākriyate /
-
-Literal translation: For the self is not adventitious to anyone, being established by itself. For the self is not established by awaiting a means of knowledge about itself. Its means of knowledge, perception and the others, are employed to establish objects of knowledge not already established. For no one accepts things such as space as established by themselves independently of means of knowledge. The self, however, because it is the support of transactions involving means of knowledge and the rest, is established before those transactions. Nor is negation of such [a self] possible. An adventitious thing is negated, not one’s own nature. For whoever is the negator is precisely that one’s own nature. Fire’s heat is not negated by fire.
-
-The electronic wording reproduced here has naceddṛśasya and aprasiddhaprameyasiddhaya upādīyante; the institutional text reads na cedṛśasya and asiddhaprameyasiddhaye. The translation follows the shared argument about the self’s already established status.
-
-The proposal that selfhood is categorically special has direct textual support. Śaṅkara does not begin by postulating one more object whose existence must be inferred like an unobserved material thing. BSB2.3.7 argues that the self is already presupposed by the activity of establishing or denying objects ([source: Brahmasūtrabhāṣya 2.3.7](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/2/)). The attempted denier does not eliminate the denier’s own nature. This establishes an asymmetry between epistemic subject and established object.
-
-His account of self-knowledge consequently refuses to turn the seer into a seen object:
-
-**Bṛhadāraṇyakopaniṣadbhāṣya, 1.4.10** ([source](cite://shankara/brhadaranyaka-bhashya/inspectable-a-sh-nonobject)).
-
-> na ca dṛśyā dṛṣṭirdraṣṭāraṃ viṣayīkartumutsahate, yatastāmākāṅkṣeta /
-> na ca svarūpaviṣayākhāṅkṣāsvasyaiva /
-> tasmādajñānādhyāropaṇanivṛttireva'atmānamevāvet ityuktam,nātmano viṣayīkaraṇam' /
-
-Literal translation: Nor is the seeing that is seen capable of making the seer an object, so that one might desire it. Nor is there a desire on the part of oneself concerning one’s own nature as an object. Therefore “it knew only itself” means solely the cessation of superimposition through ignorance, not making the self an object.
-
-The surrounding commentary distinguishes eternal unseen seeing from transient seen seeing. The quoted conclusion concerns the cessation of erroneous superimposition. It should not be rendered as a subject creating an accurate inner picture of another object called “the true self.”
-
-The corresponding semantic instruction in the Upadeśasāhasrī is reciprocal correction:
-
-**Upadeśasāhasrī, I 18.194, 18.195** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-cor3)).
-
-> tattvamos tulyanīḍārtham asīty etat padaṃ bhavet /
-> tacchabdaḥ pratyagātmārthas tacchabdārthas tvamas tathā //
-
-> duḥkhitvāpratyagātmatvaṃ vārayetām ubhāv api /
-> evaṃ ca netinetyarthaṃ gamayetāṃ parasparam //
-
-Literal translation: In “you are that,” the word “are” would mean that “that” and “you” have the same abode [referent]. The word “that” has the inward self as its meaning, and “you” likewise has the meaning of “that.” Both should ward off affliction and non-inward-selfhood; thus they should mutually convey the meaning of “not this, not this.”
-
-The words share a referent while correcting the restrictions wrongly associated with each side. Thus the critique of crude identity is well placed: simply equating every empirical property of “you” with every predicate previously attributed to “that” would not reproduce the passage. But the correction also does not mean that the two expressions merely resemble each other. The text insists on their common reference. A future semantics needs to distinguish referent, modes of presentation, and rejected attribution before it can ask what mathematical equality expresses.
-
-The unused-capacity proposal and Śaṅkara’s replies are distinguished in the passage:
-
-**Śaṅkara, Brahmasūtrabhāṣya, 2.3.40** ([source](cite://shankara/brahma-sutra-bhasya/inspectable-a-sh-agency)).
-
-> nanu sthitāyāmapi kartṛtvaśaktau kartṛtvakāryaparihārātpuruṣārthaḥ setsyati / tatparihāraśca nimittaparihārāt / yathāgnerdahanaśaktiyuktasyāpi kāṣṭhaviyogāddahanakāryābhāvāt /
-
-> na / nimittānāmapi śaktilakṣaṇena saṃbandhena saṃbaddhānāmatyantaparihārāsaṃbhavāt /
-
-> nanu mokṣasādhanavidhānānmokṣaḥ setsyati /
-
-> na / sādhanāyattasyānityatvāt / apica nityaśuddhabuddhamuktātmapratipādanānmokṣasiddhirabhimatā / tādṛgātmapratipādanaṃ ca na svābhāvike kartṛtve 'vakalpeta / tasmādupādhidharmādhyāsenaivātmanaḥ kartṛtvaṃ na svābhāvikam /
-
-Literal translation: [Objection:] Even while the capacity for agency remains, the human goal will be accomplished through avoiding agency’s effect; and avoiding that [effect] comes from avoiding its occasion, just as fire, though endowed with the capacity to burn, has no burning-effect through separation from wood. [Reply:] No, because it is impossible wholly to avoid even the occasions, connected through the relation characterized by capacity. [Objection:] Liberation will be accomplished because its means are prescribed. [Reply:] No, because what depends on means is impermanent. Moreover, liberation is held to be established through teaching the self as eternally pure, aware and free. Teaching such a self would not be possible if agency were intrinsic. Therefore the self’s agency is only through superimposition of properties of limiting conditions, not intrinsic.
-
-BSB2.3.40 also records a serious opponent proposal: agency may remain as an unused capacity, like fire without fuel. Śaṅkara answers that the possibility of renewed occasions for suffering would defeat secure liberation ([source: Brahmasūtrabhāṣya 2.3.40](https://advaitasharada.sringeri.net/read/brahmasutra-bhashya/2/)). That objection cannot be borrowed as his own doctrine of intrinsic agency.
-
-### The mind as a reflecting medium
-
-The Upadeśasāhasrī gives a linguistic account of “knows,” rather than merely mentioning a mirror:
-
-**Upadeśasāhasrī, I 18.53, 18.54** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-ref1)).
-
-> ātmābhāsas tu tiṅvācyo dhātvarthaś ca dhiyaḥ kriyā /
-> ubhayaṃ cāvivekena jānātīty ucyate mṛṣā //
-
-> na buddher avabodho 'sti nātmano vidyate kriyā /
-> ato nānyatarasyāpi jānātīti ca yujyate //
-
-Literal translation: The appearance of the self is what the finite verb ending expresses, and the root-meaning is the intellect’s activity. Both, through non-discrimination, are falsely spoken of as “knows.” There is no awareness belonging to the intellect, and no activity exists in the self. Therefore “knows” is not appropriate to either one [by itself].
-
-The finite ending and verbal root are doing different explanatory work. The apparently unitary act of knowing involves consciousness and the intellect’s activity, with non-discrimination attributing a combination to the knower. The following reflection discussion makes the reciprocal attribution explicit:
-
-**Upadeśasāhasrī, I 18.63, 18.64, 18.65, 18.66** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-ref2)).
-
-> ādarśamukhasāmānyaṃ mukhasyeṣṭaṃ hi mānavaiḥ /
-> mukhasya pratibimbo hi mukhākāreṇa dṛśyate //
-
-> yatra yasyāvabhāsas tu tayor evāvivekataḥ /
-> jānātīti kriyāṃ sarvo loko vakti svabhavataḥ //
-
-> buddheḥ kartṛtvam adhyasya jānātīti jña ucyate /
-> tathā caitanyam adhyasya jñatvaṃ buddher ihocyate //
-
-> svarūpaṃ cātmano jñānaṃ nityaṃ jyotiḥ śruter yataḥ /
-> na buddhyā kriyate tasmān nātmanānyena vā sadā //
-
-Literal translation: People accept a likeness of the face in a mirror, for the face’s reflection is seen in the form of the face. Where there is the appearance of one in another, through non-discrimination of just those two, all people naturally speak of the activity as “knows.” Having superimposed the intellect’s agency, the knower is said to know; likewise, having superimposed consciousness, knowingness is here spoken of as belonging to the intellect. Knowledge is the self’s own nature, eternal light, because of scripture; therefore it is never made by the intellect, by the self, or by another.
-
-**Śaṅkara, Upadeśasāhasrī, I 18.70, 18.71** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-ref3)).
-
-> ādarśānuvidhāyitvaṃ chāyāyā asyate mukhe /
-> buddhidharmānukāritvaṃ jñābhāsasya tatheṣyate //
-
-> buddhes tu pratyayās tasmād ātmābhāsena dīpitāḥ /
-> grāhakā iva bhāsante dahantīvolmukādayaḥ //
-
-Literal translation: The shadow’s conformity to the mirror is cast upon the face; in the same way, conformity to the intellect’s properties is accepted of the appearance of awareness. Therefore the intellect’s cognitions, illuminated by the appearance of the self, appear as though apprehenders, just as firebrands and the like appear as though burning.
-
-The next selected verses state an objection and the limits of the illustration:
-
-**Śaṅkara, Upadeśasāhasrī, I 18.75, 18.85, 18.86** ([source](cite://shankara/upadesa-sahasri/inspectable-a-sh-ref4)).
-
-> adhyakṣasya samīpe tu siddhiḥ syād iti cen matam /
-> nādhyakṣe 'nupakāritvād anyatrāpi prasaṅgataḥ //
-
-> nanv evaṃ dṛśisaṃkrāntir ayaḥpiṇḍe 'gnivad bhavet /
-> mukhābhāsavad ity etad ādarśe tan nirākṛtam //
-
-> kṛṣṇāyo rohitābhāsam ity etad dṛṣṭam ucyate /
-> dṛṣṭadārṣṭāntatulyatvaṃ na tu sarvātmanā kvacit //
-
-Literal translation: If it is thought that establishment would occur near the witness: no, because nothing is contributed to the witness, and because the consequence would extend elsewhere. [Objection:] Surely thus there would be a transfer of seeing, like fire into an iron ball? [Reply:] This has been ruled out by saying “like the appearance of a face in a mirror.” Black iron with a red appearance is stated as what is observed; the example and the illustrated case are nowhere alike in every respect.
-
-This gives at least four things to distinguish: the self’s unproduced awareness, the changing intellect, the self’s appearance in that medium, and the attribution through which ordinary knowing is reported. The activity is not simply exported into the self, and consciousness is not literally manufactured by an inert intellect. The next verses describe a specific misattribution: the reflected image conforms to the mirror, and that conformity is attributed to the face. Similarly, the appearance of awareness conforms to the intellect’s properties. The illuminated cognitions then appear as though they themselves apprehend. This separates a change in the medium and its appearance from a change in the self, while explaining why ordinary cognition looks like an act of a knower ([source: Upadeśasāhasrī I 18.70, 18.71](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zaMkara-upadezasAhasrI.xml)). They also refuse a crude transfer model and restrict the analogy ([source: Upadeśasāhasrī I 18.75, 18.85, 18.86](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_zaMkara-upadezasAhasrI.xml)).
-
-That last restriction is mathematically consequential. We should not require a full isomorphism between a physical mirror and cognition. The analogy may preserve some explanatory relations while rejecting others. First identify the preserved relations; only then ask whether a functor, relation-preserving map, or different structure captures them.
-
-### Śaṅkara: divine embodiment and devotional relation
-
-Gītā4.6 puts manifestation and birthlessness in the same statement:
-
-**Bhagavadgītā, 4.6** ([source](cite://bhagavadgita/bhagavadgita/inspectable-df-gita-46)).
-
-> ajo 'pi sann avyayātmā bhūtānām īśvaro 'pi san |
-> prakṛtiṃ svām adhiṣṭhāya saṃbhavāmy ātma-māyayā ||
-
-Literal translation: Although unborn and of imperishable self, although Lord of beings, having taken command of my own prakṛti, I come forth through my own māyā.
-
-The root names *prakṛti* and *māyā*. The commentaries give different explanations of those words. “Having taken command” here follows the governing relation Śaṅkara makes explicit. “I come forth” should not already be read as the production of a previously nonexistent divine self.
-
-The preceding exchange asks how the speaker could have instructed Vivasvat long ago when his present birth seems recent. Śaṅkara’s4.5 explanation distinguishes the Lord’s knowledge-power from Arjuna’s:
-
-**Bhagavadgītābhāṣya, 4.5** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-45)).
-
-> bahūni me mama vyatītāni atikrāntāni janmāni tava ca he arjuna tāny ahaṃ veda jāne sarvāṇi na tvaṃ vettha jānīṣe | dharmādharmādi-pratibaddha-jñāna-śaktitvāt | ahaṃ punar nitya-śuddha-buddha-mukta-svabhāvatvād anāvaraṇa-jñāna-śaktir iti vedāham | he parantapa
-
-Literal translation: Many births of mine and of yours have passed, Arjuna. I know all of them; you do not know them, because your power of knowledge is obstructed by merit, demerit and the like. I, however, being of an eternally pure, awakened and free nature, have an unobstructed power of knowledge; therefore I know. O tormentor of foes.
-
-This is a precise reason not to infer limitation of the manifested divine person from the limitations of an ordinary embodied observer. Śaṅkara does not answer merely that both are really the self. He distinguishes unobstructed and obstructed knowledge-power within the explanatory account. His4.6 commentary then gives the conditions of the manifestation:
-
-**Bhagavadgītābhāṣya, 4.6** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-46)).
-
-> ajo 'pi janma-rahito 'pi san, tathāvyayātmākṣīṇa-jñāna-śakti-svabhāvo 'pi san, tathā bhūtānāṃ brahmādi-stamba-paryantānām īśvara īśana-śīlo 'pi san | prakṛtiṃ svāṃ mama vaiṣṇavīṃ māyāṃ triguṇātmikāṃ yasyā vaśe sarvam idaṃ jagad vartate | yayā mohitaṃ jagat sat svam ātmānaṃ vāsudevaṃ na jānāti | tāṃ prakṛtiṃ svām adhiṣṭhāya vaśīkṛtya saṃbhavāmi dehavān iva bhavāmi jāta ivātma-māyayātmano māyayā, na paramārthato lokavat
-
-Literal translation: Although unborn, that is, free from birth; likewise although of imperishable self, whose nature is undiminished knowledge-power; likewise although Lord, disposed to ruling, of beings from Brahmā down to a clump of grass: [I take command of] my own prakṛti, my three-guṇa Vaiṣṇava māyā, under whose sway this entire world exists, deluded by which the world does not know Vāsudeva as its own self. Having taken command of that own prakṛti, having brought it under control, I come forth: I become as though embodied, as though born, through my own māyā—not ultimately as people do.
-
-The Lord controls the māyā under whose sway the world lies. Manifestation therefore does not have the same explanation as a birth forced by merit and demerit. The two *iva* expressions—“as though embodied,” “as though born”—and the concluding “not ultimately as people do” are equally part of the account. Omitting them would misrepresent Śaṅkara; treating them as if they erased the meaningful appearance and activity would also lose the point of his explanation.
-
-The 4.9 explanation names protection of the good among the Lord’s actions and explicitly connects understanding this divine birth and action with release:
-
-**Bhagavadgītābhāṣya, 4.9** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-49)).
-
-> taj-janma māyā-rūpaṃ, karma ca sādhu-paritrāṇādi, me mama divyam aprākṛtam aiśvaram evaṃ yathoktaṃ yo vetti tattvatas tattvena yathāvat tyaktvā deham imaṃ punar janma punar utpattiṃ naiti na prāpnoti, mām ety āgacchati, sa mucyate he 'rjuna
-
-Literal translation: That birth has the form of māyā, and the action is protecting the good and the rest. Whoever knows this divine—nonordinary, lordly—birth and action of mine truly, just as stated, having abandoned this body, does not attain birth again; he comes to me, he is liberated, Arjuna.
-
-“Nonordinary” renders *aprākṛta* without importing another school’s complete theory of an eternal nonmaterial body. The passage makes the appearance soteriologically important while qualifying the kind of birth involved. An apparent form can therefore be an effective means of recognition without becoming a new ultimately produced entity.
-
-Gītā9.11 supplies a complementary warning about misreading the human appearance:
-
-**Bhagavadgītā, 9.11** ([source](cite://bhagavadgita/bhagavadgita/inspectable-df-gita-911)).
-
-> avajānanti māṃ mūḍhā mānuṣīṃ tanum āśritam |
-> paraṃ bhāvam ajānanto mama bhūta-maheśvaram ||
-
-Literal translation: The deluded disregard me when I have resorted to a human body, not knowing my higher nature as the great Lord of beings.
-
-**Bhagavadgītābhāṣya, 9.11** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-911)).
-
-> avajānanty avajñāṃ paribhavaṃ kurvanti māṃ mūḍhā avivekinaḥ | mānuṣīṃ manuṣyasaṃbandhinīṃ tanuṃ deham āśritam, manuṣyadehena vyavaharantamity etat, paraṃ prakṛṣṭaṃ bhāvaṃ param ātma-tattvam ākāśa-kalpam ākāśād apy antaratamam ajānanto mama bhūta-maheśvaraṃ sarva-bhūtānāṃ mahāntam īśvaraṃ svātmānam | tataś ca tasya mamāvajñāna-bhāvanena āhatās te varākāḥ
-
-Literal translation: The deluded, undiscriminating people disregard me: they show disrespect, contempt. “Having resorted to a human body” means transacting through a human body. They do not know my higher, excellent nature, the supreme reality of the self, like space, more inward even than space, the great Lord of beings, the great ruler of all beings, their own self. Therefore those pitiable people are injured by their attitude of disregard for me.
-
-“Transacting through a human body” is not the entirety of the speaker’s reality. The commentary turns to the supreme self and its inwardness. It does not explain the difference by simply replacing a small body with a spatially enormous body.
-
-These passages give a real beginning for the proposed account of formed manifestation without loss of completeness. They do not yet prove that every form, every saint, and every divine manifestation has identical powers or identical status. Śaṅkara’s4.5 distinction is already evidence against flattening those differences.
-
-The received devotional corpus is evidence for Advaita’s life as a tradition even where historical authorship is not independently secured. The Ṣaṭpadī verse traditionally attributed to Śaṅkara states:
-
-**Viṣṇuṣaṭpadī, Verse 3** ([source](cite://shankara/vishnu-shatpadi/inspectable-a-sh-devotion)).
-
-> satyapi bhedāpagame nātha tavāhaṃ na māmakīnastvam |
-> sāmudro hi taraṅgaḥ kvacana samudro na tāraṅgaḥ || 3||
-
-Literal translation: Even with difference gone, Lord, I am yours; you are not mine. For the wave is the ocean’s; the ocean is not the wave’s anywhere.
-
-The literal words say “I am yours,” not “I serve you.” Service can be a devotional interpretation, but it should not replace the source wording. The verse affirms asymmetry even with difference gone. It does not by itself identify a metaphysical relation with the full ocean argument of the Bṛhadāraṇyaka commentary, where a different speaker and a different inference occur. The same image must be read in its own argument.
-
-**Other deities and common reference**
-
-Śaṅkara’s9.23 context is an important test of a proposed integration of devotional forms. He accepts a question that would be easy to overlook if we read only the warning about worship without proper understanding:
-
-**Bhagavadgītābhāṣya with quoted root, 9.23 introduction, root and own gloss;9.24 gloss** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-deities)).
-
-> nanv anyāpi devatās tvam eva cet tad-bhaktāś ca tvām eva yajante | satyam evam -
-
-> ye 'py anya-devatā-bhaktā yajante śraddhayānvitāḥ |
-> te 'pi mām eva kaunteya yajanty avidhi-pūrvakam ||
-
-> ye 'py anya-devatā-bhaktā anyāsu devatāsu bhaktā anya-devatā-bhaktāḥ santo yajante pūjayanti śraddhayā āstikya-buddhyānvitā anugatāḥ, te 'pi mām eva kaunteya yajanty avidhi-pūrvakam avidhir ajñānaṃ tat-pūrvakaṃ yajanta ity arthaḥ
-
-> ahaṃ hi sarva-yajñānāṃ śrautānāṃ smārtānāṃ ca sarveṣāṃ yajñānāṃ devatātmatvena bhoktā ca prabhur eva ca | mat-svāmiko hi yajñaḥ, adhiyajño 'ham evātra [Gītā 8.4] iti hy uktam | tathā na tu mām abhijānanti tattvena yathāvat | ataś cāvidhi-pūrvakam iṣṭvā yāga-phalāc cyavanti pracyavante te
-
-Literal translation: [Question:] If the other deities too are precisely you, their devotees also worship you. [Answer:] It is indeed so. [Root:] Even those devoted to other deities who worship endowed with faith worship precisely me, son of Kuntī, but preceded by a wrong procedure. [Śaṅkara:] Those devoted to other deities worship, honor, endowed with faith, an affirmative conviction. They too worship precisely me; avidhi is ignorance, and their worship is preceded by that—this is the meaning. For I am the enjoyer and lord of all sacrifices, Vedic and remembered, as the self of the deities. A sacrifice indeed has me as its master; “I alone am the presiding deity of sacrifice here” was said. But they do not know me truly, as I am. Therefore, having sacrificed with ignorance preceding, they fall away from the fruit of sacrifice.
-
-The first affirmative reply matters: the other deities too are the same addressed reality, and their devotees too worship that reality. The ensuing qualification also matters: Śaṅkara glosses *avidhi* as ignorance. Thus common reference does not automatically establish equivalent understanding or equivalent fruit.
-
-A broader integrative account can compare this shared reference and the qualification concerning ignorance with other traditions, while making explicit which conditions it retains, reinterprets or rejects. The quoted 9.23–24 passage does not by itself enumerate the destinations or fruits of every form of worship.
-
-### Gauḍapāda, Maṇḍana and Sureśvara: the work of practice
-
-Gauḍapāda distinguishes disciplined nonconceptuality from deep sleep:
-
-**Māṇḍūkyakārikā, 3.34–36** ([source](cite://gaudapada/mandukya-karika/inspectable-a-gau-sleep)).
-
-> nigṛhītasya manaso nirvikalpasya dhīmataḥ  /
-> pracāraḥ sa tu vijñeyaḥ suṣupte 'nyo na tatsamaḥ //
-
-> līyate hi suṣupte tan nigṛhītaṃ na līyate  /
-> tad eva nirbhayaṃ brahma jñānālokaṃ samantataḥ //
-
-> ajam anidram asvapnam anāmakam arūpakam  /
-> sakṛdvibhātaṃ sarvajñaṃ nopacāraḥ kathaṃcana //
-
-Literal translation: The course of the restrained, nonconceptual mind of the discerning person is to be understood; in deep sleep it is different, not the same as that. For in deep sleep it subsides; restrained, it does not subside. That very [reality] is fearless Brahman, the light of knowledge all around. Unborn, sleepless, dreamless, nameless, formless, once-for-all manifest, all-knowing: this is in no way a figurative expression.
-
-**Gauḍapāda, Māṇḍūkyakārikā, 3.44–46** ([source](cite://gaudapada/mandukya-karika/inspectable-a-gau-practice)).
-
-> laye saṃbodhayec cittaṃ vikṣiptaṃ śamayet punaḥ  /
-> sakaṣāyaṃ (vijānīyāt sama [b:]vijānīyāc chama)prāptaṃ na cālayet //
-
-> nāsvādayet sukhaṃ tatra niḥsaṅgaḥ prajñayā bhavet  /
-> niścalaṃ niścarat cittam ekīkuryāt prayatnataḥ //
-
-> yadā na līyate cittaṃ na ca vikṣipyate punaḥ  /
-> aniṅganam anābhāsaṃ niṣpannaṃ brahma tat tadā //
-
-Literal translation: In subsidence one should awaken the mind; when distracted, quiet it again. One should recognize it as having residual coloring; when it has reached evenness, one should not stir it. One should not savor happiness there; one should become unattached through discernment. One should effortfully unify the mind when, though still, it goes outward. When the mind neither subsides nor is distracted again, then that, unmoving and without appearance, is accomplished Brahman.
-
-**Gauḍapāda, Māṇḍūkyakārikā, 2.32 and 3.48** ([source](cite://gaudapada/mandukya-karika/inspectable-a-gau-unborn)).
-
-> na nirodho na cotpattir na baddho na ca sādhakaḥ  /
-> na mumukṣur na vai mukta ity eṣā paramārthatā //
-
-> na kaścij jāyate jīvaḥ saṃbhavo 'sya na vidyate  /
-> etat tad uttamaṃ satyaṃ yatra kiṃcin na jāyate //
-
-Literal translation: There is no cessation and no origination, no bound one and no practitioner, no seeker of liberation and no liberated one: this is ultimate reality. No jīva whatsoever is born; its coming-to-be does not exist. This is that highest truth in which nothing whatsoever is born.
-
-The phrase “in no way figurative” also prevents us from deciding in advance that every reference to formlessness must be merely a dispensable teaching image. His next practical instructions differentiate subsidence, distraction, residual coloring, and stabilization (3.44–46, [source: Māṇḍūkyakārikā 3.44–46](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_gauDapAda-AgamazAstra.xml)). Subsidence calls for awakening the mind, distraction for calming it; savoring the happiness of the state is itself cautioned against. The electronic witness preserves *samaprāpta* alongside a *śamaprāpta* variant; a critical choice is not asserted here. His nonorigination statements at2.32 and 3.48 ([source: Māṇḍūkyakārikā 2.32 and 3.48](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_gauDapAda-AgamazAstra.xml)) must accompany, rather than be replaced by, the practical state description.
-
-Maṇḍana likewise resists treating a positive realization solely as a negative absence. His opening argument rejects the definition of happiness as nothing but the cessation of pain:
-
-**Brahmasiddhi, Brahmakāṇḍa1.1, KKSpp1–3** ([source](cite://mandana-misra/brahma-siddhi/inspectable-a-man-bliss)).
-
-> na tāvadduḥkhanivṛttireva sukham, yugapatsukhaduḥkhayordarśanātsaṃtāpavataḥ śītahrade nimagnārdhakāyasya /
-
-Literal translation: Happiness is not merely cessation of pain, because happiness and pain are seen simultaneously in one with fever whose body is half immersed in a cool pool.
-
-The counterexample distinguishes simultaneous features of experience; it does not alone prove the whole metaphysics of Brahman-bliss. His treatment of contemplation also keeps two questions apart: whether a stream of contemplation is useful, and whether an independent prescription is needed to obtain its already intelligible purpose.
-
-**Brahmasiddhi, Niyogakāṇḍa, KKS p154** ([source](cite://mandana-misra/brahma-siddhi/inspectable-a-man-contemplation)).
-
-> atha tu vākyāntarāttattvaniṣṭhādadhigate tadviṣayapratyayapravāhavidhānamiṣyate / bhavatu / na kaściddoṣaḥ / tathā ca ‘vijñāya prajñāṃ kurvīta'ityātmatattvavijñānasya siddhatāṃ darśayati / tadapi vā vyarthameva, prāptārthatvāt / sākṣātkaraṇaphalaṃ hi tattadanucintanaṃ dṛṣṭārtham, na tato 'nyatphalamākāṅkṣyate / amṛtatvaṃ hi na svarūpāvirbhāvādanyaditi prāgvarṇitam /
-
-Literal translation: But if, when [reality] has been understood from another sentence directed at reality, the prescribing of a stream of cognitions concerning it is desired, let it be: there is no fault. And thus “having understood, one should develop understanding” shows that knowledge of the self’s reality is established. Or that too is useless, because its object is already obtained. For repeated contemplation of that has immediate realization as its result, an observed purpose; no result other than that is sought. For immortality is not different from the manifestation of one’s own nature, as explained before.
-
-**Maṇḍana Miśra, Brahmasiddhi, Siddhikāṇḍa4.3–4, KKS p157** ([source](cite://mandana-misra/brahma-siddhi/inspectable-a-man-dissolution)).
-
-> sarvapratyayavedye vā brahmarūpe vyavasthite /
-> prapañcasya pravilayaḥ śabdena pratipādyate //
-
-> pravilīnaprapañcena tadrūpeṇa na gocaraḥ /
-> mānāntarasyeti matamāmnāyaikanibandhanam //
-
-
-
-Literal translation: Or, when Brahman’s nature is established as knowable in every cognition, the dissolution of the manifold is communicated by the word. It is held to rest solely upon scripture because, in that nature with the manifold dissolved, it is not the domain of another means of knowledge.
-
-The alternatives and their argumentative voices matter. “Let it be” is a concession to a proposed prescription; “or it is useless” is the alternative that its purpose is already obtained. Neither amounts to “practice manufactures immortality.” The stated result is manifestation of one’s own nature. His separate discussion of scripture and dissolution of the manifold ([source: Brahmasiddhi Siddhikāṇḍa4.3–4, KKS p157](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mandanamizra-brahmasiddhi.xml)) supplies another part of that account.
-
-Sureśvara’s treatment should not be merged into Maṇḍana’s by calling both “meditation.” He explains the role of *nididhyāsana* and the endpoint of hearing:
-
-**Bṛhadāraṇyakabhāṣyavārttika, 2.4.217–218 and 233–234** ([source](cite://suresvara/brhadaranyaka-varttika/inspectable-a-sur-practice)).
-
-> aparāyattabodho'tra nididhyāsanamucyate | pūrvayoravadhitvena tadupanyāsa iṣyate || 217 ||
-> śravaṇādikriyā tāvatkartavyeha prayatnataḥ | yāvadyathoktaṃ vijñānamāvirbhavati bhāsvaram || 218 ||
-> dhyānāśaṅkānivṛttyarthaṃ vijñāneneti bhaṇyate | nididhyāsanaśabdena dhyānamāśaṅkyate yataḥ || 233 ||
-> vijñānotpattihetutvaṃ dhyānādeḥ prāgavādiṣam | svārthameva tu vijñānaṃ muktimātraphalaṃ smṛtam || 234 ||
-
-Literal translation: Here understanding not dependent on another is called nididhyāsana; its introduction is intended as the culmination of the preceding two. The activity of hearing and the rest must be performed here with effort until the knowledge described becomes luminously manifest. “Through knowledge” is said to remove the suspicion of meditation, because meditation is suspected from the word nididhyāsana. I previously stated that meditation and the rest cause the arising of knowledge; knowledge itself is for its own purpose, remembered as having liberation alone as its fruit.
-
-**Sureśvara, Bṛhadāraṇyakabhāṣyavārttika, 2.4.167,170–171** ([source](cite://suresvara/brhadaranyaka-varttika/inspectable-a-sur-knowledge)).
-
-> pramopajāyate tāvadahaṃ brahmetyalaukikī | tattvamasyādivākyebhyaḥ śravaṇātsamanantaram || 167 ||
-> nāpyarthe'tīndriye siddhe mānaṃ liṅgādyapekṣate | yogipratyakṣamānaṃ vā tayoraviṣayatvataḥ || 170 ||
-> netītyasthūlamityādivākyādyo'rtho'vagamyate | yogipratyakṣagamyo'yaṃ na tatpratyaktvahetutaḥ || 171 ||
-
-Literal translation: First, the extraordinary knowledge “I am Brahman” arises from sentences such as “you are that,” immediately upon hearing. Nor does a means of knowledge concerning an established supersensible reality await an inferential mark or the like, or a means of knowledge consisting in yogic perception, because [that reality] is not their object. The meaning understood from sentences such as “not this” and “not gross” is not accessible to yogic perception, because it is inward.
-
-Hearing and the other activities continue until the described knowledge becomes manifest. Meditation can contribute to knowledge’s arising, but knowledge itself has liberation as its result. His 2.4.167,170–171 discussion ([source: Bṛhadāraṇyakabhāṣyavārttika 2.4.167,170–171](https://advaitasharada.sringeri.net/read/brihadaranyakabhashya-vartika/2-4-1/)) rejects treating this knowledge like yogic perception of an otherwise distant object. The course therefore needs explicit distinctions among preparation, means of knowledge, realization, and a produced state. These practice verses do not establish his separate interpretation of the fullness mantra.
-
-### Vācaspati, Padmapāda and Prakāśātman: the ignorance debate
-
-**Vācaspati Miśra, Bhāmatī, 1.4.3** ([source](cite://vacaspati/bhamati/inspectable-a-vac-distribution)).
-
-> ayamabhisaṃdhiḥ-na vayaṃ pradhānavadavidyāṃ sarvajīveṣvekāmācakṣmahe, yainevamupālamemahi, kintviyaṃ pratijīvaṃ bhidyate / tena yasyaiva jīvasya vidyotpannā tasyaivāvidyāpanīyate na jīvāntarasya, bhinnādhikaraṇayorvidyāvidyayoravirodhāt, tatkutaḥ samastasaṃsārocchedaprasaṅgaḥ /
-
-Literal translation: This is the intention: we do not declare ignorance to be one in all jīvas like pradhāna, so that we would be reproached in this way; rather it differs for each jīva. Therefore ignorance is removed only for the jīva for whom knowledge has arisen, not for another jīva, because knowledge and ignorance in different loci do not contradict. Whence, then, the consequence that all saṃsāra would be destroyed?
-
-Vācaspati answers a problem of distribution: if one ignorance underlies all beings, why should one person’s knowledge not release everyone? His answer assigns ignorance separately to each jīva ([source: Bhāmatī 1.4.3](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)). He then distinguishes several senses of dependence:
-
-**Bhāmatī, 1.4.3** ([source](cite://vacaspati/bhamati/inspectable-a-vac-locus)).
-
-> tasmājjīvādhikaraṇāpyavidyā nimittatayā viṣayatayā ceśvaramāśrayata itīśvarāśrayetyucyate, na tvādhāratayā, vidyāsvabhāve brahmaṇi tadanupapatteriti /
-
-Literal translation: Therefore ignorance, though having the jīva as its locus, depends on Īśvara as causal condition and as object, and so is called dependent on Īśvara; not as a receptacle, because that is not possible in Brahman whose nature is knowledge.
-
-**Vācaspati Miśra, Bhāmatī, 1.4.3** ([source](cite://vacaspati/bhamati/inspectable-a-vac-beginningless)).
-
-> na cāvidyopādhibhedādhīno jīvabhedo jīvabhedādhīnaścāvidyopādhibheda iti parasparāśrayādubhayāsiddhiriti sāṃpratam / anāditvādbījāṅkuravadubhayasiddheḥ /
-
-Literal translation: Nor is it appropriate [to object] that the distinction of jīvas depends on the distinction of ignorance-conditions, and the distinction of ignorance-conditions depends on the distinction of jīvas, so that through mutual dependence neither is established: because of beginninglessness both are established, as with seed and sprout.
-
-**Vācaspati Miśra, Bhāmatī, 1.4.22** ([source](cite://vacaspati/bhamati/inspectable-a-vac-jiva)).
-
-> na jīva ātmano 'nyaḥ / nāpi tadvikāraḥ kintvātmaivāvidyopādhānakalpitāvacchedaḥ / ākāśa iva ghaṭamaṇikādikalpitāvacchedo ghaṭākāśo maṇikākāśo na tu paramākāśādanyastadvikāro vā /
-
-Literal translation: The jīva is not other than the self. Nor is it a modification of that; rather it is the self itself with a delimitation imagined through the condition of ignorance. As space with a delimitation imagined through a pot or jar is pot-space or jar-space, it is not other than supreme space or a modification of it.
-
-**Vācaspati Miśra, Bhāmatī, 4.1.3** ([source](cite://vacaspati/bhamati/inspectable-a-vac-ultimate)).
-
-> niraṃśasyāpi cānādyanirvācyāvidyātatatadvāsanāsamāropitavividhaprapañcātmanaḥ sāṃśasyeva kasyacidaṃśasyāgrahaṇādvibhrama iva paramārthastu na vibhramo nāma kaścinna ca saṃsāro nāma /
-
-Literal translation: Even though [the self] is partless, with the varied manifold superimposed by beginningless indeterminable ignorance and its dispositions, [it is] as though possessing parts; through nonapprehension of some part, [there is] as though error. Ultimately, however, there is no so-called error and no so-called saṃsāra.
-
-Here *adhikaraṇa*, causal dependence, and object-directed dependence cannot be translated into a single untyped “is in” relation. The jīva is the locus, whereas Īśvara can be called support in other senses. The nearby seed/sprout reply denies that this requires an initial temporal member ([source: Bhāmatī 1.4.3](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)). His jīva discussion at1.4.22 rejects another substance or real modification in favor of delimitation ([source: Bhāmatī 1.4.22](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)); 4.1.2 discusses the prepared mind and knowledge ([source: Bhāmatī 4.1.2](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)), while4.1.3 explicitly qualifies the ultimate discussion ([source: Bhāmatī 4.1.3](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)). The position is richer than a box containing ignorance. His prepared-mind account also gives a specific role to the cognitive instrument:
-
-**Bhāmatī, 4.1.2** ([source](cite://vacaspati/bhamati/inspectable-a-vac-prepared)).
-
-> ayamabhisandhiḥ---satyaṃ na brahmasākṣātkāraḥ sākṣādāgamayukttiphalamapi tu yuktyāgamārthajñānāhitasaṃskārasacivaṃ citameva brahmaṇi sākṣātkāravartīṃ buddhivṛttiṃ samādhatte /
-
-Literal translation: The intention is this: true, immediate realization of Brahman is not directly the result of scripture and reasoning; rather the mind itself, assisted by dispositions laid down by knowledge of the meaning of reasoning and scripture, establishes in Brahman an intellect-modification possessing immediate realization.
-
-Scripture and reasoning prepare the mind through dispositions; immediate realization is not described simply as adding a proposition to an inventory. This is his positive explanatory answer, not a denial that scripture matters.
-
-Padmapāda’s reading of the introductory vocabulary takes a different explanatory step:
-
-**Pañcapādikā, First varṇaka79** ([source](cite://padmapada/pancapadika/inspectable-a-pad-positive)).
-
-> mithyā ca tadajñānaṃ ca mithyājñānam | mithyeti anirvacanīyatā ucyate | ajñānamiti ca jaḍātmikā avidyāśaktiḥ jñānaparyudāsena ucyate | tannimittaḥ tadupādānaḥ ityarthaḥ ||
-
-Literal translation: It is both mithyā and ignorance: mithyājñāna. By mithyā indeterminability is stated. By ajñāna an insentient ignorance-power is stated through exclusion of knowledge. “Having that as its occasion” means “having that as its material source.”
-
-This is Padmapāda’s gloss, not a quotation in which Śaṅkara already says “insentient ignorance-power” and “material source.” His next discussion explains what is concealed despite the self’s being manifest:
-
-**Pañcapādikā, First varṇaka80** ([source](cite://padmapada/pancapadika/inspectable-a-pad-conceal)).
-
-> pratyagātmani tu citisvabhāvatvāt svayamprakāśamāne brahmasvarūpānavabhāsasya ananyanimittatvāt tadgatanisargasiddhāvidyāśaktipratibandhādeva tasya anavabhāsaḥ | ataḥ sā pratyakciti brahmasvarūpāvabhāsaṃ pratibadhnāti, ahaṅkārādyatadrūpapratibhāsanimittaṃ ca bhavati,
-
-Literal translation: In the inward self, however, self-manifest because its nature is consciousness, the nonappearance of Brahman-nature, having no other occasion, occurs only through obstruction by the naturally established ignorance-power there. Therefore it obstructs the appearance of Brahman-nature in inward consciousness and is an occasion of the appearance of ego and the rest which do not have that nature.
-
-**Padmapāda, Pañcapādikā, First varṇaka99** ([source](cite://padmapada/pancapadika/inspectable-a-pad-notphysical)).
-
-> atha śuktereva doṣanimitto rajatarūpaḥ pariṇāma ucyate, etadapyasāram ; na hi kṣīrapariṇāme dadhani ‘nedaṃ dadhi’ iti bādho dṛṣṭaḥ ; nāpi kṣīramidam iti pratītiḥ, iha tu tadubhayaṃ dṛśyate | kiñca rajatarūpeṇa cet pariṇatā śuktiḥ, kṣīramiva dadhirūpeṇa, tadā doṣāpagame'pi tathaiva avatiṣṭheta |
-
-Literal translation: If a transformation of the shell into silver-form occasioned by a defect is asserted, this too is without substance. For in curd, the transformation of milk, cancellation “this is not curd” is not seen; nor the cognition “this is milk.” Here, however, both are seen. Moreover, if the shell transformed into silver-form like milk into curd-form, even upon disappearance of the defect it would remain just so.
-
-The self’s consciousness is not made absent. Its Brahman-nature fails to appear, while ego and other non-self features are presented. These are two different explanatory jobs. Yet the material-source language does not imply that a shell physically transmutes into silver; he explicitly refuses that inference ([source: Pañcapādikā First varṇaka99](https://advaitasharada.sringeri.net/read/panchapadika/1/)). Nor does “having superimposed” force a separate, completed event before ordinary cognition. His grammatical argument says:
-
-**Pañcapādikā, First varṇaka76** ([source](cite://padmapada/pancapadika/inspectable-a-pad-temporal)).
-
-> ‘adhyasya’ ‘mithunīkṛtya’ iti ca ktvāpratyayaḥ, na pūrvakālatvamanyatvaṃ ca lokavyavahārādaṅgīkṛtya prayuktaḥ ; bhuktvā vrajatītivat kriyāntarānupādānāt | ‘adhyasya naisargiko'yaṃ lokavyavahāraḥ’ iti svarūpamātraparyavasānāt | upasaṃhāre ca ‘evamayamanādirananto naisargiko'dhyāsaḥ’ iti tāvanmātropasaṃhārāt ||
-
-Literal translation: And the ktvā suffix in “having superimposed” and “having coupled” is not used accepting temporal priority and otherness from worldly usage, since no other action is introduced as in “having eaten, he goes”; because “having superimposed, this natural worldly transaction” culminates only in [its] nature, and because in the conclusion, “thus this beginningless, endless, natural superimposition,” only that much is concluded.
-
-The ktvā discussion blocks a chronological reading of explanatory dependence. A proposed process model must not convert explanatory dependence into an earlier event merely because English says “having.”
-
-Prakāśātman opens a further distinction between witness-consciousness and the mediation that makes an object known:
-
-**Pañcapādikāvivaraṇa, Printed 13/PDF 31, opening reply** ([source](cite://prakasatman/pancapadika-vivarana/inspectable-a-pra-knowing)).
-
-> ucyate | sarvaṃ vastu jñātatayā vā'jñātatayā vā sākṣicetanyasya viṣaya eva | tatra jñātatayā viṣayaḥ pramāṇavyavadhānamapekṣate |
-
-Literal translation: It is said: every thing, either as known or as unknown, is indeed an object of witness-consciousness. There, an object as known requires the mediation of a means of knowledge.
-
-A thing’s presentation as known and its presentation as unknown do different work. His source inference explicitly refuses an ultimately real material explanation of error:
-
-**Pañcapādikāvivaraṇa, Printed 13/PDF 31, material-source inference** ([source](cite://prakasatman/pancapadika-vivarana/inspectable-a-pra-source)).
-
-> satyopādānatve kāryasya kāraṇasvabhāvatayā'dhyāsasyāpi satyatvaprasaṅgāt |
-
-Literal translation: Because, if the material source were real, the effect having the nature of its cause would entail that superimposition too is real.
-
-Thus the positive ignorance account is not the claim that a second ultimately real substance manufactures illusion. A later mirror objection asks how differentiation can occur:
-
-**Pañcapādikāvivaraṇa, Printed 45/PDF 63, opening reply** ([source](cite://prakasatman/pancapadika-vivarana/inspectable-a-pra-distinction)).
-
-> nanu darpaṇādikaṃ vā kiñcidvikārabhedanimittaṃ mukhābhāsasaṃbandhīti cedihāpi cetanasvarūpamātrasaṃbandhyajñānaṃ tatra jīvabrahmavyavahārabhedaṃ pravartayati |
-
-Literal translation: [Objection:] Something such as a mirror, an occasion of differentiated modification, is related to the appearance of the face. [Reply:] Here too ignorance related to conscious nature alone sets in motion there the distinction in usage as jīva and Brahman.
-
- These three short units do not by themselves display the complete argument that consciousness, rather than the internal organ, is ignorance’s locus. The connected replies concerning “I am ignorant,” recollected sleep, and the inert mind require further complete quotations. Those replies cannot be inferred from the mirror metaphor alone.
-
-### Madhusūdana: nonduality, divine form and mature devotion
-
-The Siddhāntabindu is unusually direct about the inadequacy of numerical oneness:
-
-**Siddhāntabindu, Commentary on stanza10** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-number)).
-
-> ekatvasaṅkhyāyogi ekam / tad apekṣābuddhijanyadvitvasaṅkhyāyogi dvitīyam / tata ekābhāve dvitīyaṃ kutaḥ syāt / dvitīyaṃ ca tṛtīyādīnām apy upalakṣaṇam / nanu, "ekam evādvitīyam" (chu vi.2.1.) iti śrutyā ekatvaṃ pratipādyate / na, ity āha -- na vā kevalatvam iti / kevalam ekatvaṃ, tasyāvidyakatvāt / yady ātmana ekatvaṃ śrutyā na pratipādyate, tarhi pratyakṣādipramāṇavaśād anekatvaṃ syād iti cet, na, ity āha -- na cākevalatvam iti / akevalatvam anekatvaṃ, "neha nānāsti kiñcana" (bau iv.4.19.), "ekam evādvitīyam" (chu vi.2.1.), "athāta ādeśo neti neti" (bau ii.3.6.) ityādiśrutibhyaḥ /
-
-> sarvatra hetum āha -- advaitakatvād iti / dvidhā itaṃ dvītaṃ tasya bhāvo dvaitam / tad uktaṃ vārtike "dvidhetaṃ dvītam ity āhus tadbhāvo dvaitam ucyate" (baubhv iv.3.1807.) iti / na vidyate dvaitaṃ dvidhābhāvo yatra tad advaitam ity akṣarārthaḥ / "salila eko dṛṣṭādvaitaḥ" (bau iv.3.32.) itiśruteḥ /
-
-Literal translation: “One” is what possesses the number one. “Second” is what possesses the number two generated by a cognition of reference to that [one]. Therefore, when there is no one, whence a second? “Second” also stands for third and the rest. [Objection:] Scripture, “one alone, without a second,” teaches oneness. [Reply:] No; he says “nor sole-ness.” Sole-ness is oneness, because that is due to ignorance. [Objection:] If the self’s oneness is not taught by scripture, plurality would follow through perception and other means of knowledge. [Reply:] No; he says “nor non-sole-ness.” Non-sole-ness is plurality, [excluded] by scriptural passages including “there is no plurality here whatsoever,” “one alone, without a second,” and “not this, not this.” He gives the reason throughout: “because of nonduality.” What has gone twofold is dvīta; its condition is duality. The Vārttika says: “They call what has gone twofold dvīta; its condition is called duality.” Where duality, the condition of being twofold, does not exist, that is advaita: this is the literal meaning, because scripture says “one seer like water, nondual.”
-
-The printed Siddhāntabindu reads *draṣṭādvaito*, “the seer, nondual,” in the Bṛhadāraṇyaka quotation, where the electronic witness has *dṛṣṭādvaitaḥ*. The literal translation follows the printed reading.
-
-The argument denies that Advaita means merely assigning the self the number one. It also refuses the alternative that denying numerical oneness establishes plurality; the intervening discussion rejects emptiness as well. Numerical oneness, mathematical equality and shared reference are nevertheless distinct: denying the first does not by itself prohibit the use of equality or co-reference in a formal semantics. A formal account must explain why counting language is being denied while the intended self is not made nonexistent.
-
-Madhusūdana reports the following named alternatives in two selected stretches:
-
-**Madhusūdana Sarasvatī, Siddhāntabindu, Opening commentary, model comparison** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-reflections)).
-
-> ajñānopahitaṃ bimbacaitanyam īśvaraḥ, antaḥkaraṇatatsaṃskārāvacchinnājñānapratibimbitaṃ caitanyaṃ jīva iti vivaraṇakārāḥ / ajñānapratibimbitaṃ caitanyam īśvaraḥ, buddhipratibimbitaṃ caitanyaṃ jīvaḥ, ajñānopahitaṃ tu bimbacaitanyaṃ śuddham iti saṅkṣepaśārīrakakārāḥ / anayoś ca pakṣayoḥ buddhibhedāj jīvanānātvam /
-
-> ajñānaviṣayībhūtaṃ caitanyam īśvaraḥ, ajñānāśrayībhūtaṃ ca jīva iti vācaspatimiśrāḥ / asmiṃś ca pakṣe ajñānanānātvāj jīvanānātvam /
-
-
-
-Literal translation: “The prototype-consciousness conditioned by ignorance is Īśvara; consciousness reflected in ignorance delimited by the inner instrument and its dispositions is jīva”: thus the authors of the Vivaraṇa. “Consciousness reflected in ignorance is Īśvara; consciousness reflected in intellect is jīva; prototype-consciousness conditioned by ignorance is pure”: thus the author of the Saṃkṣepaśārīraka. In these two positions the plurality of jīvas follows from difference of intellects. “Consciousness made the object of ignorance is Īśvara, and made its locus is jīva”: thus Vācaspati Miśra. In this position plurality of jīvas follows from plurality of ignorance.
-
-Madhusūdana also reports multiple reflection and delimitation procedures ([source: Siddhāntabindu Opening commentary, model comparison](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_madhusUdanasarasvatI-siddhAntabindu.xml)). A consequential witness disagreement occurs in the semantic explanation attached to two reported reflection positions. The 1928 printed witness reads:
-
-**Siddhāntabindu, 1928 edition printed 226/PDF 246, maintext** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-reflection-indication)).
-
-> pratibimbasya pāramārthikatvāt jahadajahallakṣaṇaiva tattvamādipadeṣu |
-
-Literal translation: Because the reflection is real, there is precisely relinquishing-and-retaining indication in words such as “that” and “you.”
-
-The electronic witness instead gives *jahallakṣaṇā*, which would suggest wholly abandoning indication. The independent printed page and its commentary support *jahadajahallakṣaṇā*, relinquishing and retaining. This changes what the proposed semantics must preserve, so it cannot be dismissed as an orthographic variant. The statement is scoped to the two reported positions, not presented as Madhusūdana’s single final account of every procedure.
-
-Two selected stretches state the pedagogical role and its limit:
-
-**Madhusūdana Sarasvatī, Siddhāntabindu, Opening, procedure discussion** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-pluralism)).
-
-> advitīyātmatattvaṃ hi pradhānaṃ phalavattvād ajñātatvāc ca prameyaṃ śāstrasya / jīveśvaravibhāgādikalpanās tu puruṣabuddhimātraprabhavā api śāstreṇānūdyante, tattvajñānopayogitvāt / phalavat sannidhāv aphalaṃ tadaṅgam iti nyāyāt bhramasiddhasyāpi śrutyānuvādasambhavāt /
-
-> śrutitātparyaviṣayībhūtārthaviruddhatvaṃ ca heyam eveti śataśa udghoṣitam asmābhiḥ /
-
-Literal translation: For the nondual reality of the self is scripture’s principal object of knowledge, because it is fruitful and unknown. Conceptions such as division into jīva and Īśvara, although arising merely from human understanding, are restated by scripture because they are useful for knowledge of reality: according to the rule that what is without its own fruit, in proximity to what has a fruit, is subordinate to it, and because scripture can restate even what is established through error. We have proclaimed hundreds of times that contradiction of the meaning intended by scripture must indeed be rejected.
-
-His toleration of alternative procedures also has a boundary. In [source: Siddhāntabindu Opening, procedure discussion](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_madhusUdanasarasvatI-siddhAntabindu.xml), the jīva/Īśvara divisions can serve an instructive function, but contradiction of scripture’s intended meaning is explicitly rejected. That is constrained pluralism, not evidence that every doctrine can be harmonized by declaring its disagreement merely local. His account of ordinary correction makes the target-dependence explicit in an alternative explanation:
-
-**Siddhāntabindu, Opening, ordinary cognition alternative** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-localcorrection)).
-
-> atha vā mūlājñānasyaivāvasthājñānāni ghaṭādiviṣayāvaraṇāni / ajñānasya prāgabhāvasthānīyatvena yāvanti jñānāni tāvanty ajñānānīty abhyupagamāt ekena ca jñānenaikājñānasyaiva nāśāt, ghaṭādijñānenāvaraṇanāśe 'pi na kācid anupapattiḥ /
-
-Literal translation: Or else the particular ignorance-states of root ignorance itself are the coverings of objects such as pots. Because ignorance occupies the place of prior absence, it is accepted that there are as many ignorances as knowledges; and because one knowledge destroys only one ignorance, even when a pot-cognition destroys covering there is no inconsistency.
-
-A pot-cognition removes the covering relevant to that object; it need not destroy every ignorance at once. The account is explicitly introduced as an alternative. At the other end of the analysis, failure to reify the result does not erase recognition:
-
-**Siddhāntabindu, Commentary on stanza7** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-result)).
-
-> ayam arthaḥ -- yady apy avidyānivṛttir ātmānātmā veti vikalpane kim api phalaṃ nirūpayituṃ na śakyate tathāpi svarūpāvabodho vijñānaphalam anubhūyate /
-
-Literal translation: This is the meaning: although, when one considers whether cessation of ignorance is self or not-self, no result whatsoever can be determined, nevertheless recognition of one’s own nature is experienced as the fruit of knowledge.
-
-The experienced fruit and its classification as an ultimately separate thing are not the same issue.
-
-The Advaitasiddhi supplies a more technical account of falsity that specifies the relevant context. Two terms need explanation first. A **counterpositive** is what an absence or negation is the absence or negation of: in the absence of a pot, the pot is the counterpositive. A **delimiter** specifies the relevant respect or region, such as the part of a tree where contact with a monkey is being considered. These explanations orient the reader; the exact conditions still come from the argument:
-
-**Advaitasiddhi, Second definition of mithyātva, opening** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-definition)).
-
-> pratipannopādhau traikālikaniṣedhapratiyogitvaṃ vā mithyātvam |
-
-Literal translation: Or falsity is being the counterpositive of negation in all three times in the locus in which [it] is apprehended.
-
-**Advaitasiddhi, Second definition, reply to relation/delimiter objections** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-frame)).
-
-> yena rūpeṇa yadadhikaraṇatayā yat pratipannaṃ tena rūpeṇa tanniṣṭhātyantābhāvapratiyogitvasya pratipannapadena sūcitattvāt |
-> tacca rūpaṃ sambandhaviśeṣo'vacchedakaviśeṣaśca |
-> na hi sambandhaviśeṣamantareṇa bhūtale ghaṭādhikaraṇatā pratīyate |
-> avacchedakaviśeṣamantareṇa vā vṛkṣe kapisaṃyogādhikaraṇatā |
-> tathā ca yena sambandhaviśeṣeṇa yena cāvacchedakaviśeṣeṇa yadadhikaraṇatāpratītiryatra bhavitumarhati, tenaiva sambandhaviśeṣeṇa tenaiva cāvacchedakaviśeṣeṇa tadadhikaraṇakātyantābhāvapratiyogitvaṃ tasya mithyātvamiti paryavasite kva siddhasādhanam |
-
-Literal translation: Because the word “apprehended” indicates being the counterpositive of absolute absence in that [locus] in precisely the form in which it is apprehended as the locus of that [thing]. That form is a particular relation and a particular delimiter. For the ground’s being the locus of a pot is not apprehended without a particular relation, nor the tree’s being the locus of contact with a monkey without a particular delimiter. Thus, when the definition comes to this—its falsity is being the counterpositive of absolute absence located there through precisely that particular relation and precisely that particular delimiter through which the cognition of that locushood can occur there—where is the proving of what is already established?
-
-The relation and delimiter constrain the denial: denying the pot in one relation or the monkey-contact in one region cannot automatically cancel a presentation in another. But this is not the weak claim that only an object’s “ultimate status” is negated. The connected discussion admits negation of the presented thing in its own form and distinguishes ways correction can leave or remove appearance. The Navya discussion above presents the full objection, alternative and reply.
-
-**Madhusūdana Sarasvatī, Advaitasiddhi, Second definition, reality-order reply** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-orders)).
-
-> na caivaṃ sati – bhāvābhāvayoravirodhāttajjñānayorbādhyabādhakabhāvo na syāditi – vācyam ; bhinnasattākayoravirodhe'pi samasattākayorvirodhāt |
-> yatra bhūtale yasya ghaṭasyātyantābhāvo vyāvahārikaḥ tatra sa ghaṭo na vyāvahārika iti niyamāt |
-
-Literal translation: Nor should it be said that, since being and absence do not oppose, their cognitions would not stand as cancelled and cancelling: although [being and absence] of different orders of reality do not oppose, those of the same order oppose. For the rule is: on the ground where the absolute absence of a particular pot is transactional, that pot is not transactional there.
-
-**Madhusūdana Sarasvatī, Advaitasiddhi, Second definition, reply to sheer-nonexistence objection** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-nonexistence)).
-
-> maivam ; sarvatra traikālikaniṣedhapratiyogitvaṃ yadyapi tucchānirvācyayoḥ sādhāraṇam ; tathāpi kvacidapyupādhau sattvena pratītyanarhatvam atyantāsattvam , śūktirūpye prapañce ca bādhāt pūrvaṃ nāstyeveti na tucchatvāpattiḥ |
-
-Literal translation: Not so: although being the counterpositive of all-times negation everywhere is common to the utterly nonexistent and the indeterminable, nevertheless utter nonexistence is incapacity to be presented as existent in any locus whatsoever. This certainly does not belong to shell-silver or the manifold before cancellation; therefore utter nonexistence does not follow.
-
-The reality-order reply retains opposition within the same order ([source: Advaitasiddhi Second definition, reality-order reply](https://advaitasharada.sringeri.net/read/advaitasiddhi/1/)), while the sheer-nonexistence discussion distinguishes false appearance from utter unpresentability ([source: Advaitasiddhi Second definition, reply to sheer-nonexistence objection](https://advaitasharada.sringeri.net/read/advaitasiddhi/1/)). Levels do not license arbitrary contradiction in a fixed context. Nor does bare awareness by itself cancel everything:
-
-**Advaitasiddhi, Ajñānaviṣayanirūpaṇa, volIII printed 39/PDF 1007** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-corrector)).
-
-> pramāṇavṛttyupārūḍhaprakāśatvena nivartakatvaṃ brūmaḥ, na tu jātiviśeṣeṇa, prakāśatvamātreṇa vā | ato necchādinivartyadveṣādivattadviṣayānāṃ sattvāpattiḥ, na vā caitanyamātrasya nivartakatvāpattiḥ |
-
-Literal translation: We say that removership belongs through being manifestation mounted upon a valid cognitive modification, not through a particular universal or through being manifestation alone. Therefore there is no consequence that its objects are real, as with aversion and the like removed by desire and the like; nor the consequence that mere consciousness is the remover.
-
-**Madhusūdana Sarasvatī, Advaitasiddhi, Ajñānaviṣayanirūpaṇa, volIII printed 32/PDF 1000** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-nonproduction)).
-
-> yaccoktaṃ—yo mokṣe bhāvī caitanyaṃ prati prakāśastadabhāva idānīmajñānasādhya iti tanna; mokṣe janyasya caitanyaprakāśasyābhāvāt, kalpitabhedāpagame śuddhacaitanyaṃ pratīva prakāśasya jīvaṃ pratyapi saṃbhavāt |
-
-Literal translation: What was said—that the present absence of the manifestation toward consciousness which will occur in liberation is to be accomplished by ignorance—is not so; because there is no produced manifestation of consciousness in liberation, and because upon removal of imagined difference, manifestation is possible toward the jīva too, just as toward pure consciousness.
-
-The relevant corrector is manifestation qualified by a valid cognitive modification. A related passage denies that recognition produces awareness ([source: Advaitasiddhi Ajñānaviṣayanirūpaṇa, volIII printed 32/PDF 1000](https://archive.org/details/Advaita.Siddhi.with.Guru.Chandrika)). These provide source constraints for distinguishing illumination, a valid cognition, and its corrective operation.
-
-**Divine form and the complete Lord**
-
-The Gūḍhārthadīpikā 4.6 presents an explanation identifying the Lord’s body with the causal limiting condition. Following his quotation of Śaṅkara, Madhusūdana summarizes:
-
-**Gūḍhārthadīpikā, 4.6, printed 218/PDF 28, summarizing verse after his Śaṅkara citation** ([source](cite://madhusudana/gudhartha-dipika/inspectable-df-mad-mayabody)).
-
-> nityo yaḥ kāraṇopādhirmāyākhyo'nekaśaktimān | sa eva bhagavaddeha iti bhāṣyakṛtāṃ matam ||
-
-Literal translation: The eternal causal limiting condition called māyā, possessing many powers—that itself is the Lord’s body: such is the view of the authors of the bhāṣya.
-
-This is a many-powered causal condition, called māyā. “Eternal” in this sentence must not silently become “an independently ultimate second substance”; the passage itself calls it an *upādhi*. Nor should the statement be reduced to the thesis that there is no divine form at all. It gives an account of what that body is.
-
-Madhusūdana introduces another account with *anye tu*, “others, however”:
-
-**Gūḍhārthadīpikā, 4.6, printed 218/PDF 28, opening of reported other account** ([source](cite://madhusudana/gudhartha-dipika/inspectable-df-mad-formself)).
-
-> anye tu parameśvare dehadehibhāvaṃ na manyante | kiṃ yaśca nityo vibhuḥ saccidānandaghano bhagavānvāsudevaḥ paripūrṇo nirguṇaḥ paramātmā sa eva tadvigraho nānyaḥ kaścidbhautiko māyiko veti |
-
-Literal translation: Others, however, do not accept a body-and-body-possessor relation in the supreme Lord. What [do they hold]? The Lord Vāsudeva who is eternal, pervasive, a mass of being-consciousness-bliss, complete, without guṇas, the supreme self—that himself is his form, not some other [form] constituted of the elements or of māyā.
-
-In this account, the full Lord himself is the form. It refuses to split him into a body and a distinct possessor of that body, and it does not replace the Lord with a finite material portion. The source expressly includes completeness, pervasiveness and being-consciousness-bliss.
-
-Madhusūdana reports this account alongside alternatives. The following exposition continues within this reported account, explains *prakṛti* here as the Lord’s own nature, and gives scriptural reasons. It then says:
-
-**Gūḍhārthadīpikā, 4.6, printed 219/PDF 28, continuation of the reported other account** ([source](cite://madhusudana/gudhartha-dipika/inspectable-df-mad-formappearance)).
-
-> svasvarūpamadhiṣṭhāya svarūpāvasthita eva sansaṃbhavāmi dehadehibhāvamantareṇaiva dehivadvyavaharāmi | kathaṃ tarhyadehe saccidānandaghane dehatvapratītirata āha—ātmamāyayeti | nirguṇe śuddhe saccidānandaghane mayi bhagavati vāsudeve dehadehibhāvaśūnye tadrūpeṇa pratītirmāyāmātramityarthaḥ |
-
-Literal translation: Having taken my own nature as my basis, remaining precisely in my own nature, I come forth: without any body-and-body-possessor relation, I transact like an embodied one. How, then, is there an appearance of bodiliness in the bodiless mass of being-consciousness-bliss? To this he says, “through my own māyā.” In me, the Lord Vāsudeva, without guṇas, pure, a mass of being-consciousness-bliss, empty of the body-and-body-possessor relation, the appearance in that form is māyā alone—this is the meaning.
-
-The positive identity of Lord and form and the qualification of apparent bodiliness belong together. In this account, saying “the full Lord is the form” does not make the body/possessor distinction ultimately real. Both statements explain what *form* means here.
-
-The same context quotes the Bhāgavata description of Kṛṣṇa as the self of all selves and the friend of Nanda’s community as full, eternal Brahman. He cites these root verses. Their separate narrative contexts, including the universe-in-the-mouth scene, belong to the cross-tradition source investigation; these scenes must remain distinct.
-
-A further position follows. Madhusūdana now says that “some” want a real part/whole relation even in eternal, partless and changeless supreme bliss:
-
-**Gūḍhārthadīpikā, 4.6, printed 219/PDF 28, final qualification** ([source](cite://madhusudana/gudhartha-dipika/inspectable-df-mad-partwhole)).
-
-> kecittu nityasya niravayavasya nirvikārasyāpi paramānandasyāvayavāvayavibhāvaṃ vāstavamevecchanti te ‘niryuktikaṃ bruvāṇastu nāsmābhirvinivāryate’ iti nyāyena nāpavādyāḥ | yadi saṃbhavettathaivāstu kimatipallavitenetyuparamyate || 6 ||
-
-Literal translation: Some, however, wish the relation of part and whole to be real even for supreme bliss that is eternal, partless and changeless. They are not to be refuted, by the maxim “one speaking without reasoning is not restrained by us.” If it is possible, let it be just so. What is the use of excessive elaboration? Thus [the discussion] is stopped.
-
-The conditional close is not a proof that real parts are impossible; it is also not an unqualified endorsement. He stops the discussion with a dismissive maxim about speaking without reasoning and a conditional “if it is possible.” A proposed integration must distinguish this further part/whole thesis from the preceding account that denies body/possessor duality. Neither the phrase “full Lord” nor an ocean image makes all those positions interchangeable.
-
-Two available electronic versions share the same transmission source and several defects. The printed page reads *avayavāvayavibhāva*, the relation of part and whole, where the electronic versions have broken strings. The print also contains wording omitted in the first explanation’s electronic prose. The selected first-account verse and the two passages of the other-account explanation therefore follow the printed Sanskrit.
-
-**Devotion as a distinct fulfillment**
-
-Madhusūdana’s own commentary distinguishes devotion from Brahman-knowledge in a way that permits their integration without treating one as a synonym of the other:
-
-**Bhaktirasāyana with author’s commentary, Commentary on1.1, PDF 6–7** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-distinct)).
-
-> na, svarūpa-sādhana-phalādhikāri-vailakṣaṇyād bhakti-brahma-vidyayoḥ | dravī-bhāva-pūrvikā hi manaso bhagavad-ākāratā savikalpaka-vṛtti-rūpā bhaktiḥ |
-> dravī-bhāvānupetādvitīyātma-mātra-gocarā nirvikalpaka-mano-vṛttir brahma-vidyā | bhagavad-guṇa-garima-granthana-rūpa-grantha-śravaṇaṃ bhakti-sādhanam | tat tvam asy ādi vedānta-mahā-vākyaṃ brahma-vidyā-sādhanam | bhagavad-viṣayaka-prema-prakarṣo bhakti-phalam | sarvānartha-mūlājñāna-nivṛttir brahma-vidyā-phalam |
-
-Literal translation: No, because devotion and Brahman-knowledge differ in nature, means, fruit and qualified recipient. Devotion is the mind’s taking the form of the Lord, preceded by melting, in the form of a determinate modification. Brahman-knowledge is a nondeterminate mental modification, without melting, whose domain is solely the nondual self. Hearing works that arrange the greatness of the Lord’s qualities is the means of devotion. A great Vedānta sentence such as “you are that” is the means of Brahman-knowledge. Intensification of love directed to the Lord is devotion’s fruit; cessation of ignorance, the root of all misfortune, is Brahman-knowledge’s fruit.
-
-Nature, means, fruit and eligibility are separate dimensions. The quotation explains the first three; eligibility is discussed subsequently. The same commentary explicitly refuses a simple means-and-fruit relation between devotion and Brahman-knowledge:
-
-**Bhaktirasāyana with author’s commentary, Commentary on1.1, PDF 7, conclusion of common-means objection/reply** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-notinstrument)).
-
-> sāmagryaikyaṃ hi kāryaikye na tu kāraṇa-mātraikye, atiprasaṅgāt | evaṃ bhakti-brahma-vidyayor api svarga-vividiṣayor iva phala-sādhana-bhāvābhāvaś ca tulya-sādhana-sādhyatvaṃ ca bhaviṣyati |
-
-Literal translation: For [what is required] for identity of the effect is identity of the complete causal assemblage, not merely identity of a cause, because [otherwise] overextension follows. Thus devotion and Brahman-knowledge too, like heaven and the desire to know, will lack a fruit-and-means relation and will be attainable through similar means.
-
-**Madhusūdana Sarasvatī, Bhaktirasāyana, author’s commentary, Fifth/sixth stage transition, PDF 38** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-stages)).
-
-> iyam ca pañcamī bhūmikā bhakteḥ svarūpam | etasyā eva paripāka-viśeṣād anyāḥ ṣaḍ-bhūmikāḥ phala-bhūtāḥ |
-> (6) svarūpādhigatis tataḥ | pratyagātma-svarūpasya sthūla-sūkṣma-deha-dvayātiriktatvena sākṣātkāraḥ ṣaṣṭhī bhūmikā | anyathā dehendriyādi-vikṣepeṇa jātāyā api rater anirvāhāt |
-
-Literal translation: This fifth stage is devotion’s own nature. From its particular maturation the other six stages are fruits. Then comes realization of one’s own nature: immediate realization of the inward self’s nature as distinct from the pair of gross and subtle bodies is the sixth stage. Otherwise, through distraction by body, senses and the rest, even affection that has arisen could not be sustained.
-
-This restriction must remain visible alongside the developmental relations. It prevents us from presenting devotion without qualification as a disposable means to knowledge, or knowledge without qualification as simply devotion’s product. The text’s later ordering supplies specific relations without itself reconciling every use of the opening terminology. His stage account then identifies devotion’s fifth stage, realization of the inward self distinct from the gross and subtle bodies as the sixth ([source: Bhaktirasāyana, author’s commentary Fifth/sixth stage transition, PDF 38](https://ignca.gov.in/sanskrit/bhaktirasayanam.pdf)), and explains the following development:
-
-**Bhaktirasāyana, author’s commentary, Commentary on stages6–7, PDF 38–39** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-after)).
-
-> evaṃ śuddhe tvam-pada-lakṣye’vagate tat-pada-lakṣyeṇa sahābheda-jñānaṃ bhavati |
-
-> etādṛśa-tattva-jñāne sati vairāgya-dārḍhyād bhagavati premṇo vṛddhir bhavatīti saptamī bhūmikā,
-
-Literal translation: When the pure indicated meaning of “you” has thus been understood, knowledge of non-difference with the indicated meaning of “that” occurs. When such knowledge of reality is present, because of the firmness of detachment, love for the Lord increases: this is the seventh stage.
-
-**Madhusūdana Sarasvatī, Bhaktirasāyana, Root1.8–9, PDF 10–11** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-retention)).
-
-> dravatāyāṃ praviṣṭaṃ sad yat kāṭhinya-daśāṃ gatam |
-> cetaḥ punar drutau satyām api tan naiva muñcati ||8||
-
-> sthāyi-bhāva-girā’to’sau vastv-ākāro’bhidhīyate |
-> vyaktaś ca rasatām eti parānandatayā punaḥ ||9||
-
-Literal translation: What entered during fluidity and remained when [the mind] passed into hardness, the mind does not abandon even when melting occurs again. Therefore that object-form is expressed by the term “stable disposition”; and, manifested, it again attains the condition of rasa as supreme bliss.
-
-Thus the ordering is not simply “devotion before knowledge, discarded afterward.” The nondual referential knowledge contributes to a later intensification of love. The melted-lac image at1.8–9 explains retention of a disposition ([source: Bhaktirasāyana Root1.8–9, PDF 10–11](https://ignca.gov.in/sanskrit/bhaktirasayanam.pdf)); it should not be reduced to a passing emotional event. The Ganges image distinguishes the fruits of devotion for practitioners and those liberated while living:
-
-**Bhaktirasāyana, Root2.46–50, PDF 46** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-play)).
-
-> śuddha-sattvodbhavāpy evaṃ sādhakeṣv asmad-ādiṣu |
-> dṛṣṭa-mātra-phalā sā tu siddheṣu sanakādiṣu ||46||
-> dṛṣṭādṛṣṭa-phalā bhaktiḥ sukha-vyakter vidher api |
-> nidāgha-dūna-dehasya gaṅgā-snāna-kriyā yathā ||47||
-> rajas tamo’bhibhūtasya dṛṣṭāṃśaḥ pratibadhyate |
-> śītavātāturasyeva nādṛṣṭāṃśas tu hīyate ||48||
-> tathaiva jīvan-muktānām adṛṣṭāṃśo na vidyate |
-> snātvā bhuktavatāṃ bhūyo gaṅgāyāṃ krīḍatāṃ yathā ||49||
-> vartamāna-tanu-prāpyaṃ phalaṃ dṛṣṭam udāhṛtam |
-> bhāvi-dehopabhogyaṃ yat tad adṛṣṭam udīritam ||50||
-
-Literal translation: Even devotion born of pure sattva is thus [of both fruits] in practitioners such as ourselves; but in accomplished ones such as Sanaka it has only the seen fruit. Devotion has seen and unseen fruits, because of manifestation of happiness and also prescription, like bathing in the Ganges for one whose body is tormented by summer heat. In one overcome by rajas and tamas, the seen portion is obstructed, as for one afflicted by cold wind; the unseen portion is not lost. In the same way, for those liberated while living there is no unseen portion, as for those who, having bathed and eaten, play again in the Ganges. The fruit attainable in the present body is called seen; that to be enjoyed in a future body is called unseen.
-
-Verses 46–50 specify the fruits of “play after completion.” The seen fruit is available in the present body; the unseen fruit is enjoyed in a future body. The liberated person’s renewed play has the former without the latter. This is a substantive account of post-realization devotion, not merely permission to continue an obsolete means.
-
-### Saccidānandendra: what correction requires
-
-Saccidānandendra disputes the earlier explanatory ignorance-power and apparent-object posits. The difference is not that his opponents posit an ultimately real second substance: Prakāśātman’s quoted material-source inference explicitly rules that out. His explanation nevertheless makes a distinction that is lost if one says, “the self already shines, so no knowledge can do anything”:
-
-**Mūlāvidyānirāsa, III119, printed 148/PDF 196** ([source](cite://saccidanandendra/mulavidya-nirasa/inspectable-a-sss-correction)).
-
-> no khalu svabhāvo'yamātmano yadadhyāsavirodhyākāreṇa bhāsamānatvam, kiṃ tu bhāsamānatvameva tasya svabhāvaḥ | adhyāsanirodhakatvaṃ tu pramāṇotpannajñānakṛtyam |
-
-Literal translation: Being manifest in a form opposed to superimposition is not indeed this self’s nature; rather being manifest itself is its nature. Blocking superimposition, however, is the work of knowledge produced by a means of knowledge.
-
-**Saccidānandendra Sarasvatī, Mūlāvidyānirāsa, III132, printed 159/PDF 207** ([source](cite://saccidanandendra/mulavidya-nirasa/inspectable-a-sss-shell)).
-
-> na vaiparītyam, śuktyanyasya rajatasyānaṅgīkārāt | śuktireva rajatavyavahārayogyā pratibhāsata iti svīkārāt |
-
-Literal translation: There is no inversion, because silver other than the shell is not accepted, and because it is accepted that the shell itself appears fit for silver-directed transaction.
-
-Always being manifest and being effective against a particular superimposition are different claims. His shell-silver discussion treats the shell’s apparent suitability for silver-transactions without a second separately produced silver thing ([source: Mūlāvidyānirāsa III132, printed 159/PDF 207](https://adhyatmaprakasha.org/php/sanskrit_books.php)). This objection does not establish that earlier ignorance theorists meant physical silver: Padmapāda’s quoted rejection of physical transformation shows otherwise. He also refuses an ignorance-cessation distinct from the arising of knowledge:
-
-**Mūlāvidyānirāsa, III139, printed 168/PDF 216** ([source](cite://saccidanandendra/mulavidya-nirasa/inspectable-a-sss-cessation)).
-
-> yato na vayaṃ vidyotpattivyatirekeṇa kāñcidavidyānivṛttimabhyupagacchāmo yadayamākṣepaḥ śobheta | vidyājanireva hi tannivṛttiḥ saṃsāranivṛttiścetyaṅgīkriyate |
-
-Literal translation: For we do not accept any cessation of ignorance apart from the arising of knowledge, such that this objection would be appropriate. The arising of knowledge itself is accepted as its cessation and the cessation of saṃsāra.
-
-The correction is not an additional ultimate entity brought into being alongside the self. More sharply, the arising cognition does not exempt itself from the scope of the teaching:
-
-**Mūlāvidyānirāsa, III137, printed 166/PDF 214** ([source](cite://saccidanandendra/mulavidya-nirasa/inspectable-a-sss-remedy)).
-
-> utpadyamānaṃ ca tādṛśaṃ jñānaṃ svānyaprapañcasyeva svamithyātvamapyāvedayadeva jāyate iti sarvadvaitamithyātvasiddheḥ |
-
-Literal translation: And such knowledge, as it arises, arises while making known its own falsity too, as [it makes known that] of the manifold other than itself, because the falsity of all duality is established.
-
-The participial reading matters: knowledge arises “making known” its own falsity too; the passage is not an imperative ordering a second act of self-destruction. Nor does it say that an empirical mental event physically destroys itself. A future reconstruction must permit a useful corrective instrument that does not claim final ultimate standing for itself. That requirement can be compared with other Advaita procedures, but the disagreement over a material ignorance-power remains substantive.
-
-### Vidyāraṇya: knowledge, dispositions and living liberation
-
-The opening and the differentiated-means explanation give these two selected statements:
-
-**Vidyāraṇya, Jīvanmuktiviveka, Chapter 2 opening and differentiated means, electronic text lines 584/639** ([source](cite://vidyaranya/jivanmukti-viveka/inspectable-a-vid-three)).
-
-> atha jīvanmuktisādhanaṃ nirūpayāmaḥ | tattvajñānamanonāśavāsanākṣayāstatsādhanam |
-
-> viveko nāma vibhajyaniścayaḥ - tattvajñānasya śravaṇādikaṃ sādhanam, manonāśasya yogaḥ, vāsanākṣayasya pratikūlavāsanotpādanamiti |
-
-Literal translation: Now we explain the means of liberation while living. Knowledge of reality, dissolution of mind and exhaustion of dispositions are its means. Discernment is a determination by distinguishing: hearing and the rest are the means of knowledge of reality; yoga of dissolution of mind; producing contrary dispositions of exhaustion of dispositions.
-
-The Jīvanmuktiviveka separates knowledge of reality, dissolution of mind, and exhaustion of dispositions, and gives them differentiated means ([source: Jīvanmuktiviveka Chapter 2 opening and differentiated means, electronic text lines 584/639](https://sanskritdocuments.org/doc_z_misc_major_works/jIvanmuktivivekaH.html)). His definitions make clear what the latter two mean:
-
-**Jīvanmuktiviveka, Chapter 2 definitions, electronic text line 608 and 611–612** ([source](cite://vidyaranya/jivanmukti-viveka/inspectable-a-vid-definitions)).
-
-> pradīpajvālāsantānavadvṛttisantānarūpeṇa pariṇamamānamantaḥkaraṇadravyaṃ mananātmakatvānmana ityucyate | tasya nāśo nāma vṛttirūpapariṇāmaṃ parityajya niruddhatvākāreṇa pariṇāmaḥ|
-
-> pūrvāparaparāmarśamantareṇa sahasotpadyamānasya krodhādivṛttiviśeṣasya hetuścittagataḥ saṃskāro vāsanā, pūrvapūrvābhyāsena citte vāsyamānatvāt |
-> tasyāśca vāsanāyāḥ kṣayo nāma vivekajanyāyāṃ śāntidāntyādiśuddhavāsanāyāṃ dṛḍhāyāṃ satyapi bāhyanimitte krodhādyanutpattiḥ |
-
-Literal translation: The substance of the internal organ, transforming in the form of a succession of modifications like a succession of lamp flames, is called mind because its nature is thinking. Its dissolution means transformation in the form of restraint, having abandoned transformation in the form of modifications.
-
-A disposition is the impression in the mind that causes a particular modification such as anger to arise suddenly without consideration of what precedes and follows, because it has been instilled in the mind through repeated earlier practice. Exhaustion of that disposition means the nonarising of anger and the like even when an external occasion is present, once the pure disposition of tranquility, restraint and the like, born of discrimination, is firm.
-
-“Dissolution of mind” here is not the destruction of the substance of the internal organ. “Exhaustion” is also stronger than mild attenuation: the binding response does not arise despite its external occasion when the contrary pure disposition is firm. These definitions substantially change any state-transition model.
-
-The account then distinguishes fully prepared recipients from those who reach knowledge with only temporarily established practical attainments. In that latter case:
-
-**Jīvanmuktiviveka, Chapter 2, valid knowledge versus unstable disposition/stilling, electronic text line 763** ([source](cite://vidyaranya/jivanmukti-viveka/inspectable-a-vid-persistence)).
-
-> uditasya jñānasya bādhakapramāṇābhāvānnivṛttāyā avidyāyāḥ punarutpattikāraṇābhāvācca nāsti tasya śaithilyam | vāsanākṣayamanonāśau tu dṛḍhābhyāsābhāvādbhogapradena prārabdhena tadā tadābādhyamānatvācca savātapradeśadīpavatsahasā nivartete |
-
-Literal translation: There is no weakening of knowledge once it has arisen, because there is no cancelling means of knowledge and no cause for the re-arising of ignorance that has ceased. Exhaustion of dispositions and dissolution of mind, however, because firm practice is absent and because they are obstructed from time to time by already-begun karma that gives experience, suddenly cease like a lamp in a windy place.
-
-**Vidyāraṇya, Jīvanmuktiviveka, Chapter 4, reply to active/absorbed equivalence objection, electronic text line 2302** ([source](cite://vidyaranya/jivanmukti-viveka/inspectable-a-vid-rank)).
-
-> naiṣa doṣaḥ | atra vāsanākṣayarūpamantaḥ śītalatvamavaśyaṃ sampādanīyamityetāvadeva pratipādyate | na tu tadanantarabhāvino manonāśasya śreṣṭhatvaṃ nivāryate |
-
-Literal translation: This is no fault. Here only this much is taught: inward coolness, in the form of exhaustion of dispositions, must certainly be accomplished. But the superiority of the subsequent dissolution of mind is not ruled out.
-
-The qualification “because firm practice is absent” is essential. This is not a universal instability theorem about every accomplished sage. Equally, the persistence of knowledge does not collapse the other dimensions into it. His chapter 4 reply accepts a teaching of inward coolness while retaining a ranking for subsequent dissolution ([source: Jīvanmuktiviveka Chapter 4, reply to active/absorbed equivalence objection, electronic text line 2302](https://sanskritdocuments.org/doc_z_misc_major_works/jIvanmuktivivekaH.html)); the quoted active/absorbed equivalence must not be presented as his unqualified final verdict.
-
-Taken together, these devotion and liberation passages require more than one binary “before/after enlightenment” state. Yet they do not establish that every Advaitin agrees about the ordering, necessity, or rank of all those dimensions. That is exactly where a comparative construction must preserve the authors’ differences.
-
-### Requirements for the comparison
-
-The sources justify a more discriminating starting vocabulary than numerical identity versus plurality. They distinguish nonotherness from resemblance, epistemic subject from object, manifestation from production, cognition from its corrective efficacy, locus from causal or object-directed support, means from fruit, and knowledge from stabilization or devotional growth. These are source-derived distinctions, not proof that they all belong to one mathematical space.
-
-The next mathematical task is to state each local account with its actual conditions and exclusions, then test proposed translations between accounts. A comparison is informative only if it records what a translation preserves and what it cannot preserve. In particular, no proposed integration may erase Śaṅkara’s rejection of transformation, convert Madhusūdana’s nonnumerical nonduality into an ordinary counting claim, suppress the disagreement over material ignorance, or replace Vidyāraṇya’s definitions with a generic meditation variable. The question whether a topos is appropriate remains downstream of those explicit constructions.
-
-### Reading limits
-
-Four textual questions remain. The elliptical tenth-person clause in Upadeśasāhasrī18.187 is withheld pending a more secure parsing; the unsettled clause is not used as a premise here. Gauḍapāda3.44 has “attained evenness” and “attained quiet” readings that have not been critically adjudicated. The full Prakāśātman replies about sleep, mind and ignorance’s locus still need complete inspectable translations. The separate Sureśvara fullness discussion and Madhusūdana’s exact full-aspect language in AdvaitasiddhiIII30–31 also need fuller source presentation before stronger conclusions are drawn from them.
-
-The complete Advaitasiddhi relation/delimiter objection and conditional alternative belong with the Navya discussion above. The modern pot, dream-chariot and doubt test cases are reconstructions, not a three-example list attributed to Śaṅkara. The universe-in-the-mouth narrative and other traditions’ divine-form accounts require their own narrative and commentary contexts.
-
-The linked Saccidānandendra page is the publisher’s catalogue; the quoted words were checked in a held scan. The printed Gūḍhārthadīpikā passages supply classical Sanskrit distinct from the modern Hindi below them. The devotional Ṣaṭpadī attribution records Advaita reception without asserting a settled historical authorship.
-
-## Real selves, changing forms and divine fullness
+### Real selves, changing forms and divine fullness
 
 What remains the same when a pot is made from clay, a self becomes free, or a divine person appears in a determinate form? These questions can look similar while requiring different arguments. The Vedānta authors considered here distinguish material configuration, dependence, intrinsic nature, power, reference, knowledge and love. Reading those distinctions together gives integration something substantial to preserve.
 
@@ -2189,6 +1095,976 @@ The preceding reasoning requires attention to effort so that injunction/prohibit
 
 The selected answers preserve both distinction and nonseparation through liberation. Their part-language carries power and dependence rather than material cutting, and it retains the locations of particular properties. A dependent self can genuinely act while being enabled by Brahman. Any map that deletes the participant, transports its suffering without qualification or treats dependence as inertness would lose the argument’s positive content.
 
+### A word's application and its complete reference
+
+Rāmānuja's account is broader than a rule for exceptional passages. In *Vedārthasaṃgraha*17–21 he argues that ordinary words approach what they denote through particular configured things, while their full reference extends through the individual self to the indwelling supreme. Ordinary understanding stops at a part of what is denoted. Hearing Vedānta completes that understanding; it does not cancel the cow, person or other mode first understood. The expressions still have different grounds of application. [Source](cite://ramanuja/vedartha-samgraha/category-ramanuja)
+
+This changes what a mathematical model should represent. If we write \(\operatorname{local}(e)=j\), “local” records the individual mode through which this expression applies. It does not assert that the expression's entire actual denotation is \(j\). And if \(\operatorname{Ref}(e,c,B)\) records its ultimate bearer in a context \(c\), this projection does not preserve the whole meaning by itself: we must retain how the expression reaches that bearer. Two expressions can reach \(B\) through different modes without becoming synonymous.
+
+Rāmānuja gives a useful test. A staff can qualify a person who possesses it, but the word “staff” does not thereby designate that person in the same way as an intrinsic bodily qualification. The possessive construction does work that the unmodified noun does not. His criterion is not simply that two things are connected, nor that a qualifier must be a quality rather than a substance. It is whether the qualification is intrinsically inseparable in the relevant relation. The word “staff” can nevertheless ultimately refer to Brahman through its own place in the divine body. Failure to name the human possessor does not imply failure of Rāmānuja's wider ultimate-reference claim.
+
+Nimbārka and Śrīnivāsa also bring a broad reference claim into their discussion. Śrīnivāsa invokes the supreme’s being denotable by all words on the basis of universal causality and related grounds. The comparison is therefore not a universal theory opposed to one isolated exception. Their discussion of the Maitreyī passage must explain apparently individual-self language together with the promise of knowing all through one and the teaching of liberating contemplation. The indwelling-controller argument gives a reason to interpret that individual-self expression as reaching the supreme. Śrīnivāsa also preserves the difference between this route, the reported causal route and the reported future-liberation route. His own qualification retains nonseparation in bondage and distinction in release. We have grounds for a shared selected inference and a broader denotational premise on both sides. Rāmānuja additionally provides the detailed account of ordinary partial understanding and its completion. We have not established that these entire semantic explanations are mutually recoverable. [Source](cite://nimbarka/vedanta-parijata-saurabha/category-nimbarka)
+
+### Deriving the reference rather than assuming it
+
+Here is a selected reconstruction. Let \(E\) be interpreted nominal expressions, \(X\) the represented beings, and \(C\) resolved interpretive contexts. These are types in the model, not a declaration that Brahman and an individual are independent substances. Write \(g:E \to  X\) for the expression's local application ground. Use a relation \(\operatorname{Ref}(e,c,x)\) for its established ultimate bearer. In a resolved use, require at most one such bearer:
+
+\[
+\operatorname{Ref}(e,c,x) \land  \operatorname{Ref}(e,c,y) \Longrightarrow  x=y.
+\]
+
+This condition gives uniqueness, not existence. We have not assumed that the model has already supplied a completed interpretation for every expression in every context. In particular, an omitted \(\operatorname{Ref}\) tuple in this selected representation is not a historical assertion that the corresponding word fails to denote Brahman.
+
+Let \(K(e,c)\) abbreviate explicit sufficient evidence in the selected argument: the nominal is used through its conventional ground; the inquiry concerns the whole Self; the argument appeals to inner-controller testimony and a liberating conclusion; and this is the author's affirmative interpretation. \(K\) contains no reference conclusion. For Rāmānuja, §4 connects the identity and inner-controller teachings with contemplation and its liberating fruit; §§17–21 and 65–68 develop his affirmative reference argument. For Śrīnivāsa, the connected Maitreyī discussion supplies the contextual evidence. These are sufficient premises for the comparison, not necessary conditions governing every actual denotation.
+
+The common bridge is:
+
+\[
+\begin{gathered}K(e,c), \operatorname{Body}(g(e),B), \operatorname{InnerSelf}(B,g(e)), \operatorname{Governs}(B,g(e))\\\Longrightarrow  \operatorname{Ref}(e,c,B).\end{gathered}
+\]
+
+Here \(B\) is the supreme bearer. The bridge is a substantive semantic rule reconstructed from the texts. Logic alone does not turn bodyhood into word-reference. Rāmānuja explains this step through intrinsic qualification: the body is an inseparable mode, and the appropriately grounded expression denotes its qualified bearer. His semantic rule applies more broadly than the selected contextual premises \(K\). Śrīnivāsa's indwelling-controller argument supplies another route from the relevant individual-expression to the supreme. His broader all-word-denotation premise remains part of the source account; choosing this particular derivation does not make it an exception to a generally finite reference.
+
+Take an individual \(j\) and an expression \(e_{j}\) whose ground is \(j\). Suppose the source premises establish \(\operatorname{Body}(j,B)\), the corresponding inner-self/governance relations, and \(K(e_{j},c)\). Substitute \(g(e_{j})=j\) into the rule: all its premises hold, so \(\operatorname{Ref}(e_{j},c,B)\) follows. A directly divine expression \(e_{B}\) has \(g(e_{B})=B\) and reaches \(B\) through its own direct naming rule. This direct naming rule does not need the assumption \(\operatorname{Body}(B,B)\). The individual distinction \(j\ne B\) is a retained source premise. The common reference has now been derived through two routes; it is not a ground equality added to obtain the result.
+
+A dependency test makes the achievement precise. Keep the same body, indweller, local-ground and context facts, but remove the body-reference rule and its school-specific semantic explanations. A structure recording only the directly divine expression's reference can satisfy those remaining premises. It need not record the individual's reference to \(B\). Thus the semantic bridge does real inferential work. This is a test of the background theory with a premise removed, not a counterexample to either author's actual naming argument.
+
+### Monomorphisms and epimorphisms: detecting information loss
+
+The tagging map \(t\) merges two inputs. The inclusion of the quiet records \(Q = \{e_{1},e_{2}\}\) into \(E\) merges none, but misses \(e_{3}\). These are two different ways a function can fail to be invertible.
+
+A function is **injective** when \(f(a) = f(a')\) implies \(a = a'\). It is **surjective** when every element of its target is the image of some source element. The first condition forbids merging; the second forbids missing an output. To express analogous ideas in any category, including categories whose objects are not presented as sets, we replace elements with arrows.
+
+An arrow \(f: A \to  B\) is **monic**, or a **monomorphism**, when for every object \(X\) and every pair \(u,v: X \to  A\),
+
+\[
+f \circ  u = f \circ  v  \Longrightarrow   u = v.
+\]
+
+The map \(f\) cannot conceal a distinction between two incoming probes. In \(\mathbf{Set}\), let \(X\) be a singleton selecting \(e_{1}\) or \(e_{2}\). These selections are different, but tagging makes them equal. Thus \(t\) is not monic. An injective function is monic because equality after \(f\) forces equality of the selected values at every element of every probe domain. Conversely, singleton probes show that every monic function is injective.
+
+An arrow \(f: A \to  B\) is **epic**, or an **epimorphism**, when for every object \(Y\) and every pair \(u,v: B \to  Y\),
+
+\[
+u \circ  f = v \circ  f  \Longrightarrow   u = v.
+\]
+
+Here we test outgoing distinctions. If \(f\) reaches all of \(B\), two functions agreeing after \(f\) must agree everywhere on \(B\). If it misses an element \(b\), we can make two functions to \(\{0,1\}\) that agree on everything \(f\) reaches but disagree at \(b\). Consequently, in \(\mathbf{Set}\), epic means surjective.
+
+**Try it.** Is the inclusion \(Q \to  E\) epic? Can you exhibit a failed cancellation?
+
+**Answer.** Let \(u\) send every record to 0. Let \(v\) send \(e_{1}\) and \(e_{2}\) to 0 but \(e_{3}\) to 1. The functions agree after restriction to \(Q\), but \(u \ne  v\). The inclusion is monic and not epic. The tagging map \(t\) is epic and not monic.
+
+Every isomorphism is both monic and epic: compose an asserted equality with its inverse to cancel it. But the converse is not true in every category. In the thin category \(0 \to  1\), every arrow is both monic and epic, because any parallel pair is already equal. The arrow \(0 \to  1\) has no inverse. There is no arrow \(1 \to  0\).
+
+This small counterexample is a reason to resist loose translations such as “monic always means no information is lost.” That explanation is reliable for ordinary functions and helpful for the general cancellation law. We still need to check which probes the chosen category permits. A category with too few probes can fail to register a distinction we care about philosophically.
+
+### Universal properties: specifying a role precisely
+
+The word “universal” can sound metaphysical. Here it begins as a quantified mathematical condition: a statement concerning every object or every diagram of a specified kind in a specified category.
+
+Consider a report format that records no distinctions whatsoever. Every set of records has exactly one function to a singleton \(1 = \{\ast \}\). Whatever record enters, the output is \(\ast \). This characterizes a **terminal object**: \(T\) is terminal when, for every object \(X\), there is exactly one arrow \(X \to  T\).
+
+In \(\mathbf{Set}\), every singleton is terminal. The empty set is not terminal: no function sends the element of a nonempty singleton into the empty set. Instead, the empty set is **initial**: for every \(X\) there is exactly one function \(\varnothing  \to  X\), the function with no input assignments to make. In general, an initial object \(I\) has exactly one arrow \(I \to  X\) for every \(X\).
+
+These are roles within a category. “Terminal” need not mean largest, most complete, most real, or ultimate. In \(\mathbf{Set}\) it has just one element. In our inclusion order of commitments, the terminal object is the full set \(\{p,q,r\}\). The same categorical definition identifies different constructions because the arrows mean different things.
+
+Why insist on exactly one arrow? A category with two parallel arrows \(A \to  B\) fails to make \(B\) terminal even if every object has some arrow to \(B\). Mere reachability is insufficient. Conversely, a branching diagram \(R \to  G\) and \(R \to  H\) has no terminal object if there are no further arrows: neither branch can receive an arrow from the other.
+
+**Try it.** Suppose \(T\) and T′ are both terminal. Why must they be isomorphic?
+
+**Answer.** Terminality supplies unique arrows \(f: T \to  T'\) and \(g: T' \to  T\). The composite \(g \circ  f\) and the identity \(1_{T}\) are both arrows \(T \to  T\). Terminality says there is exactly one, so they are equal. Likewise \(f \circ  g = 1_{T'}\). Moreover, the isomorphism is unique. This is the basic pattern behind uniqueness results for universal constructions.
+
+Initial and terminal are related by **duality**. Given a category \(C\), its opposite \(C^{\mathrm{op}}\) keeps the objects but reverses every arrow and reverses the order of composition. A terminal object of \(C\) is initial in \(C^{\mathrm{op}}\). A monic arrow in \(C\) becomes epic in \(C^{\mathrm{op}}\). This is a transformation of a mathematical description, not a claim that dependence can be physically reversed or that philosophical dualism follows from categorical duality.
+
+We now have enough to understand a universal property as a uniquely determined way of comparing a proposed construction with every competing construction of its specified kind. The comparison maps, their direction, and the equations they satisfy are the content of the claim.
+
+### Products: retaining two answers together
+
+Suppose we give records two tags. Let \(M = \{\text{quiet},\text{active}\}\) and \(V = \{\text{checked},\text{pending}\}\). A record gets one tag from each set. What is a single format that records both answers without adding a third choice or losing a combination?
+
+The set \(M \times  V\) has four elements:
+
+\[
+\begin{array}{cc}(\text{quiet},\text{checked})&(\text{quiet},\text{pending})\\(\text{active},\text{checked})&(\text{active},\text{pending})\end{array}
+\]
+
+There are projections \(\pi _{M}: M \times  V \to  M\) and \(\pi _{V}: M \times  V \to  V\), which retrieve the first and second entries. Given any set \(X\) of records and functions \(a: X \to  M\) and \(b: X \to  V\), there is a function \(h: X \to  M \times  V\) defined by \(h(x) = (a(x),b(x))\). It satisfies
+
+\[
+\pi _{M} \circ  h = a,     \pi _{V} \circ  h = b.
+\]
+
+These equations force both coordinates of \(h(x)\), so \(h\) is unique. We have proved the **product universal property**. In any category, a product of \(A\) and \(B\) is an object \(P\) equipped with projections \(P \to  A\) and \(P \to  B\) such that every pair of arrows \(X \to  A\) and \(X \to  B\) factors uniquely through those projections by an arrow \(X \to  P\).
+
+Notice what the claim quantifies over. It does not say there is only one arrow from \(X\) to \(P\). Different pairs of tags produce different arrows. It says there is exactly one arrow that gives the two answers already specified.
+
+Two plausible alternatives fail in opposite ways. If we omit \((\text{active},\text{pending})\), then a singleton record assigned those two tags has no possible image. Existence fails. If we put two distinguishable copies of \((\text{quiet},\text{checked})\) into the format and let both projections ignore the distinction, a record with those tags has two possible images. Uniqueness fails. The product includes every pair exactly once, in the sense fixed by its projections.
+
+**Try it.** Could a four-element set of numbered codes \(\{10,20,30,40\}\) serve as the same product?
+
+**Answer.** Yes, provided we specify a bijection between the four codes and the four pairs and use it to define the projections. A bare four-element set is insufficient to specify the product structure. Once two product structures are fixed, there is a unique isomorphism between them that preserves both projections. Other bijections between the underlying sets need not preserve the tags.
+
+Products can look quite different elsewhere. In the category of subsets of \(\{p,q,r\}\) ordered by inclusion, the product of \(U\) and \(V\) is \(U \cap  V\). Why? A projection \(W \to  U\) means \(W \subseteq  U\); a projection \(W \to  V\) means \(W \subseteq  V\). Every such \(W\) is included in \(U \cap  V\). That is exactly the universal comparison \(W \to  U \cap  V\). The product here is an intersection, not a set of pairs.
+
+The difference matters for our project. A product of report formats records two answers. A product in an implication order can express a common constraint in a different direction, depending on the ordering chosen. Neither automatically means that Brahman is assembled from separate components. Calling something a product must specify the category and the projections before it says anything philosophically definite.
+
+### Translating a theory: functors, naturality and the meaning of sameness
+
+Suppose two teachings both distinguish misidentification, discrimination and freedom. Their diagrams might look alike. What would make that likeness mathematically informative? We need to specify what each diagram contains, translate its arrows as well as its labels, and determine which distinctions survive. We can then ask a stronger question: can we recover what we started with?
+
+Begin with a small procedure example in which every arrow can be calculated. It is an invented teaching example; applying it to a source argument requires justification of its objects, arrows and equations. The later lessons on naturality, equivalence and relational profiles extend this comparison. Cheng’s Chapters 20–23 motivate that progression. In formulas, \(\alpha [x]\) means the component at \(x\), and \(1[x]\) is the identity at \(x\). [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+### Start with an actual category
+
+Imagine a curriculum with three stages:
+
+- \(U\): an unsettled self-description;
+- \(D\): a distinction has been articulated;
+- \(R\): the proposed recognition has been reached.
+
+There are three basic procedures: \(a:U \to  D, b:D \to  R\), and \(h:U \to  R\). The first two describe a staged procedure; the third is a separately recorded direct procedure. We stipulate no equation identifying the two routes. This is a mathematical account of recorded procedures, not a claim that every practitioner must pass through these stages.
+
+Form the free category \(\mathbf{Proc}\) on this graph. It contains three identities, the three basic arrows, and one additional arrow \(b \circ  a:U \to  R\). There are seven arrows altogether. There are no other nonidentity composites, because no nonidentity arrow leaves \(R\). Its homsets are:
+
+| From / to | \(U\) | \(D\) | \(R\) |
+|---|---|---|---|
+| \(U\) | \(\{1[U]\}\) | \(\{a\}\) | \(\{h,b \circ  a\}\) |
+| \(D\) | \(\varnothing \) | \(\{1[D]\}\) | \(\{b\}\) |
+| \(R\) | \(\varnothing \) | \(\varnothing \) | \(\{1[R]\}\) |
+
+The notation \(\mathbf{Proc}(U,R)\) names the set in the upper right. It remembers two routes even though they have identical endpoints. Composition means concatenating procedures, with the rightmost procedure performed first: \(b \circ  a\) means first \(a\), then \(b\).
+
+Now form a second category \(S\) with three statuses \(0<1<2\). It has exactly one arrow from \(i\) to \(j\) when \(i \le  j\), and no arrow otherwise. This category records available progress, but no distinction between procedures achieving the same progress. Both categories have three objects. Their difference lies in their arrows.
+
+The construction distinguishes routes with the same endpoint and supplies no return route. Its arrows record procedures; interpreting them as causal laws or proofs would require further arguments.
+
+**Exercise 1.** How many arrows does \(S\) have? Which homset differs in size from the corresponding homset of \(\mathbf{Proc}\)?
+
+**Answer.** Six: three identities and arrows \(0 \to  1, 1 \to  2, 0 \to  2\). The \(U\)-to-\(R\) homset has two arrows in \(\mathbf{Proc}\), while the 0-to-2 homset has one.
+
+### Derive the definition of functor
+
+A translation \(F:C \to  D\) must assign an object \(F(x)\) to every object \(x\), and an arrow
+
+\[
+F(f):F(x) \to  F(y)
+\]
+
+to every arrow \(f:x \to  y\). The endpoints are part of the requirement.
+
+What must it do to identities and composites? If the source says that a procedure does nothing, its translation should do nothing. If two procedures are composed before translation, the result should agree with translating them separately and then composing. Thus:
+
+\[
+F(1[x])=1[F(x)], F(g \circ  f)=F(g) \circ  F(f).
+\]
+
+These are the functor laws. A functor is precisely an assignment satisfying these requirements. They concern mathematical structure, not the truth of a philosophical interpretation assigned to that structure. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+Define \(Q:\mathbf{Proc} \to  S\) by \(Q(U)=0, Q(D)=1, Q(R)=2\). Send \(a,b,h\) to the unique arrows with the corresponding endpoints. The image of \(b \circ  a\) must be the unique arrow \(0 \to  2\). Hence
+
+\[
+Q(b \circ  a)=Q(b) \circ  Q(a)=Q(h).
+\]
+
+This verifies the only composition of two nonidentity arrows. Identity laws handle all remaining composites. Therefore \(Q\) is a functor. The calculation also reveals exactly what it forgets: \(h \ne  b \circ  a\), although their images agree.
+
+Functoriality gives a practical failure test. Suppose we enrich the target so it has distinct arrows \(t,s:0 \to  2\), with the composite of the \(0 \to  1 \to  2\) arrows equal to \(t\). An assignment sending \(b \circ  a\) to \(s\) cannot be a functor if it sends \(a,b\) to those two arrows. Its proposed translation contradicts a composition already fixed in the source.
+
+A chain of translations is another functor. If \(F:C \to  D\) and \(G:D \to  E\), their composite acts by \(GF(x)=G(F(x))\) and \(GF(f)=G(F(f))\). For example,
+
+\[
+GF(g \circ  f)=G(F(g) \circ  F(f))=GF(g) \circ  GF(f).
+\]
+
+This lets us build comparisons in stages. It does not make successive philosophical revisions automatically valid translations: retracting a source theorem may prevent a proof-preserving interpretation altogether.
+
+### Preservation is not reflection
+
+A functor **preserves** a property when the property survives translation. It **reflects** a property when finding that property after translation warrants finding it before translation. These are opposite implications.
+
+Every functor preserves isomorphisms. If \(f:x \to  y\) has inverse \(g:y \to  x\), then
+
+\[
+F(g) \circ  F(f)=F(g \circ  f)=F(1[x])=1[F(x)],
+\]
+
+and the analogous calculation gives \(F(f) \circ  F(g)=1[F(y)]\). Thus \(F(g)\) is an inverse for \(F(f)\). This proof uses only the functor laws.
+
+Every functor also preserves equations between parallel arrows. If \(k=g \circ  f\), applying \(F\) gives \(F(k)=F(g) \circ  F(f)\). Consequently a commutative diagram remains commutative after translation.
+
+Neither conclusion has an unrestricted converse. Our \(Q\) makes two different routes equal. Another example sends the entire progression \(S\) to a single-object category with only its identity arrow. Every arrow then becomes invertible, although \(0 \to  1\) had no inverse in \(S\). An irreversible stage progression can look like no change under a coarse account. That observation does not prove the progression was secretly reversible.
+
+Nor does a general functor preserve every categorical property. A terminal object has a unique incoming arrow **from every object in its category**. Map the one-object category into the discrete two-object category, selecting one of its objects. The source object is terminal, but its image is not: the other target object has no arrow to it. The target has additional tests that the source never supplied.
+
+This matters when interpreting “ultimate,” “complete” or “universal.” A property quantified over all permitted contexts cannot be transported merely because a diagram has matching labels. We must identify the relevant universal property and prove that this functor preserves it.
+
+**Exercise 2.** Does \(Q(h)=Q(b \circ  a)\) establish that the direct and staged procedures are interchangeable?
+
+**Answer.** Only in the chosen status account. It establishes no equality in the category that distinguishes procedures. To justify interchangeability there, one must add and defend an equation, or use a translation that reflects the relevant equality.
+
+### Full and faithful: inspect each pair of endpoints
+
+For fixed \(x,y \in  C\), a functor gives a function
+
+\[
+F[x,y]:C(x,y) \to  D(Fx,Fy).
+\]
+
+It is **faithful** if every such function is injective: distinct arrows with the same endpoints remain distinct. It is **full** if every such function is surjective: every target arrow between these particular image objects comes from a source arrow with those endpoints. Full and faithful means each homset function is a bijection. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+The functor \(Q\) is full. Looking at the table, every target arrow has a source preimage in the corresponding homset. It is not faithful because its two \(U\)-to-\(R\) arrows merge. The translation captures all status transitions but loses procedural distinction.
+
+Faithfulness does not mean injectivity on objects. Let \(E\) be a discrete category with distinct objects \(e_1,e_2\), and map both to the sole object of the identity-only category. Each diagonal homset maps a singleton injectively to a singleton. Each off-diagonal homset is empty, whose function into a singleton is injective: there are no two distinct inputs that could collide. The functor is faithful! It is not full: there is no preimage for the target identity in \(E(e_1,e_2)=\varnothing \).
+
+This example is important for identity-talk. A faithful functor can identify two source objects. Faithfulness controls arrows **within a fixed homset**, not global object counting. Fullness supplies the missing requirement in this example.
+
+Together, fullness and faithfulness reflect isomorphisms. Suppose \(F(f)\) has inverse \(v:F(y) \to  F(x)\). Fullness supplies \(g:y \to  x\) with \(F(g)=v\). Then
+
+\[
+F(g \circ  f)=v \circ  F(f)=1[F(x)]=F(1[x]).
+\]
+
+Faithfulness gives \(g \circ  f=1[x]\); similarly \(f \circ  g=1[y]\). Hence \(f\) was already invertible. The two assumptions do different jobs: fullness lifts the candidate inverse, faithfulness verifies its equations.
+
+For the naming theories, this suggests a more discriminating question than “do the diagrams match?” Are different source reasons collapsed? Does the target introduce relationships absent from the source? Yet an ordinary functor between arbitrarily drawn categories does not by itself preserve all logical connectives or quantifiers. When categories are built from formulas and definable maps, the interpretation must also preserve the structure expressing the chosen logic. The theory-to-category construction and its soundness remain part of the task.
+
+### From an argument to a category
+
+We have now encountered three things called an object. A pot can be an object discussed in a source. A set of expressions can be an object of **Set**. A whole interpretation of a theory can be an object in a category of models.
+
+There is another useful construction: a category made from the expressions and proofs of a theory. It lets us ask which maps the theory itself warrants, rather than selecting a convenient function in one model and treating it as universal. We will build a small part of this category from the naming argument already examined in Rāmānuja and Śrīnivāsa.
+
+### A language with a deliberately restricted claim
+
+Let \(E\) be the sort of expressions, \(C\) the sort of interpretive contexts, and \(X\) the sort of represented beings. A **sort** specifies the kind of value a variable may take. These sorts do not assert three independently existing metaphysical substances. They distinguish roles in the reconstruction. Write
+
+\[
+\operatorname{Ref}(e,c,x)
+\]
+
+for the claim that expression \(e\), in resolved context \(c\), has \(x\) as its established ultimate bearer. The word “ultimate” belongs to this selected semantic question; this relation does not retain every aspect of the expression's meaning.
+
+Our first axiom states that a resolved use has at most one such bearer:
+
+\[
+\operatorname{Ref}(e,c,x)\land\operatorname{Ref}(e,c,y)\;\Longrightarrow\;x=y.
+\]
+
+Every free variable in this displayed rule is universally understood: the rule applies to any well-typed values. It does not assert that a bearer exists. A model in which the relation is empty satisfies this axiom. Nothing contradicts uniqueness when there are no outputs to compare.
+
+This distinction is especially important here. The source argument gives reasons for reference: bodyhood, inner selfhood, intrinsic qualification or the particular scriptural inquiry. The reconstruction must represent those reasons through further premises. It must not produce existence merely by naming a relation “reference.” Conversely, the absence of a tuple from our partial model is not a claim that a word in the author's complete account fails to denote Brahman.
+
+Define a formula
+
+\[
+D(e,c)\;:\!\Longleftrightarrow\;\exists x\,\operatorname{Ref}(e,c,x).
+\]
+
+This is a definition, an abbreviation for a condition, rather than an extra premise that all inputs meet it. In a particular model, \(D\) picks out the expression-context pairs for which a reference has been established.
+
+A **formula in context** consists of a formula together with its typed free variables. For instance,
+
+\[
+[e:E,\ c:C\mid D(e,c)]
+\]
+
+specifies the admissible input object. Read it as “expressions and contexts satisfying \(D\).” It is a description in the theory, not yet one particular set. Each model supplies a set of pairs satisfying that description. The object \([x:X\mid\top]\) similarly specifies all represented beings; \(\top\) means the always-true condition.
+
+### When a relation becomes an arrow
+
+Consider \(\operatorname{Ref}(e,c,x)\) as the proposed graph of an arrow from the admissible input object to \(X\). Three obligations arise.
+
+First, its inputs and outputs have to satisfy the stated domain and codomain conditions. A reference fact entails \(D(e,c)\), so the input is admissible. Second, every admissible input must have an output. This is exactly what the definition of \(D\) says. Third, the output must be unique. That follows from our functionality axiom. We have therefore obtained an arrow
+
+\[
+\rho:[e:E,c:C\mid D(e,c)]\longrightarrow[x:X\mid\top].
+\]
+
+The same graph is not automatically an arrow from the unrestricted product \(E\times C\). We have not proved existence for every input there. Restricting the domain is part of the construction, not a typographical qualification.
+
+For a fixed context, the earlier semantic argument established reference for the individual-grounded expression and the directly divine expression by different routes. That proof puts both inputs in the admissible domain. The category does not supply the Sanskrit argument's semantic premise; it makes explicit how a premise, once justified, licenses a map.
+
+Try deleting the uniqueness axiom. Let one expression in one context refer to two distinct beings. The admissible domain still exists, but the relation no longer defines an arrow to \(X\): an input has two outputs. Now restore uniqueness and delete all reference facts. The admissible domain is empty, and its arrow to \(X\) remains valid. What fails is the claim that a particular expression belongs to that domain. These are different defects, requiring different repairs.
+
+### Composition is a proof about an intermediate value
+
+Suppose the theory also has a total function \(k:X\to K\) assigning each represented being a classification. We can follow reference by classification. Its graph is
+
+\[
+H(e,c,z)\;:\!\Longleftrightarrow\;
+\exists x\bigl(\operatorname{Ref}(e,c,x)\land z=k(x)\bigr).
+\]
+
+Why existential quantification? To reach the classification, there must be an intermediate referent. We do not need to retain that intermediate variable in the output, but we must require that it exists and connects the two steps.
+
+Given an admissible input, reference supplies exactly one \(x\), and the function supplies exactly one \(z\). Thus \(H\) is again total and functional on the admissible domain. This is the composite arrow \(k\circ\rho\).
+
+More generally, an arrow from \([u\mid\phi(u)]\) to \([v\mid\psi(v)]\) is represented by a formula \(F(u,v)\) whose graph stays within those objects and whose existence and uniqueness there are provable in the theory. Two formulas represent the same arrow when the theory proves that they describe the same graph on the stated variables.
+
+The identity on \([u\mid\phi(u)]\) is represented by
+
+\[
+\phi(u)\land u=v.
+\]
+
+Here tuple equality means equality of each corresponding coordinate. Composing with this graph leaves the other graph unchanged: the intermediate value is forced to be the starting value. For three successive graphs, either bracketing gives the condition
+
+\[
+\exists v\,\exists w\,
+\bigl(F(u,v)\land G(v,w)\land H(w,z)\bigr).
+\]
+
+That equivalence proves associativity. We now have objects, arrows, identities and composition, with the required laws. This construction is a **syntactic category** of the selected theory.
+
+### A source argument can prove information loss
+
+Name a fixed resolved context \(c_*\), and use the earlier naming derivations with expressions \(e_j\) and \(e_B\). Their local grounds differ: \(g(e_j)=j\), \(g(e_B)=B\), and the source-shaped theory retains \(j\ne B\). Yet both have established ultimate bearer \(B\). The earlier derivations prove \(D(e_j,c_*)\) and \(D(e_B,c_*)\). Thus the formulas \(e=e_j\land c=c_*\) and \(e=e_B\land c=c_*\) define constant arrows \(a,b:[\;\mid\top]\to D\) from the terminal, empty-context object. Their graphs really land in the restricted domain. The different grounds distinguish these arrows, while following either by \(\rho\) gives the same result.
+
+The cancellation property defining a monomorphism therefore fails. In notation, for these two constant arrows \(a\) and \(b\),
+
+\[
+a\ne b,\qquad \rho\circ a=\rho\circ b.
+\]
+
+This result is about the reference projection. It says precisely why equal final reference cannot be cancelled backward into equal grounds.
+
+A concrete model makes the distinction easy to inspect. Use two expressions, one context, and represented beings \(j,B\). Give both expressions reference to \(B\), while their grounds are respectively \(j\) and \(B\). Both inputs belong to \(D\); the reference arrow has one value on them; the ground arrow distinguishes them. This model also witnesses consistency of the selected naming fragment, so its two distinguished constant arrows cannot collapse through a contradiction. The general proof above works in every model satisfying its premises. The concrete example helps us see the proof but does not replace it.
+
+### Translating arguments, then reversing direction on models
+
+An **interpretation** of a selected theory \(T\) in another theory \(S\) specifies meanings for the sorts, operations and relations of \(T\) using the language of \(S\), and proves the translated axioms in \(S\). In a simple sort-for-sort case, this is a systematic substitution of vocabulary with proof obligations. More general interpretations can use definable domains. The interpretation must respect typing and logical operations throughout an argument.
+
+Because proofs of totality and uniqueness remain proofs after translation, definable arrows translate to definable arrows. Identities and composition translate with them. This yields a functor between the syntactic categories, in the same direction as the interpretation:
+
+\[
+\mathcal C_T\longrightarrow\mathcal C_S.
+\]
+
+On models, the direction reverses. An \(S\)-model supplies values for the expressions used to interpret \(T\), hence supplies a \(T\)-model. For the coherent interpretations used here—using positive formulas built with finite conjunctions, finite disjunctions and existential quantifiers—ordinary relation-preserving homomorphisms preserve the interpreted structure. They therefore give the corresponding reduct functor
+
+\[
+\operatorname{Mod}(S)\longrightarrow\operatorname{Mod}(T).
+\]
+
+The first category has definable collections as objects; the second has whole models as objects. The opposite directions are not contradictory. One translates a description into a language capable of expressing it; the other reads that description back out of a model of the receiving language.
+
+This is what makes the philosophical comparison substantive. We can ask whether a proposed translation preserves a source's inference, whether it forgets its explanation, and whether a countermodel exposes a lost condition.
+
+### What this prepares us to ask of a topos
+
+The logical fragment used in these constructions allows equality, relation symbols, finite conjunctions, finite disjunctions and existential quantification. A theory whose axioms are sequents between such formulas is called **coherent**. The variables displayed in a sequent are universally understood. Falsehood can occur as the empty disjunction, so incompatibility can be expressed by an axiom with falsehood as conclusion. This is how an explicit prohibition can be retained without treating an absent model tuple as a universal negation.
+
+Allowing set-indexed disjunctions gives the broader geometric fragment used in classifying-topos theory. Arbitrary nested negations or universal quantifiers do not automatically belong to it. A full philosophical theory may require a different logic; the choice has to be defended when it affects an argument.
+
+Neither the syntactic category we just built nor a category of models is automatically a topos. Later we will construct an actual presheaf topos and state what extra universal property makes a topos classify a theory. We now have a reason to study that construction: it organizes models of stated axioms across mathematical settings.
+
+### The categorical result
+
+Fix the selected context \(c\) and form the denoting domain
+
+\[
+\begin{gathered}D_c=\{e\in E\mid\exists x\;\operatorname{Ref}(e,c,x)\},\\\operatorname{scope}_c:D_c\to X.\end{gathered}
+\]
+
+The reference relation defines \(\operatorname{scope}_{c}\) because a bearer exists for each member of \(D_{c}\) and is unique. It would be a mistake to call this a total function on all \(E\): the restricted common theory has not supplied that totality. Both \(e_{j}\) and \(e_{B}\) are proved to belong to \(D_{c}\) by the preceding derivations.
+
+Now retain the qualifying contribution with the product map
+
+\[
+\begin{gathered}D_{c} \to  X \times  X\\e  \mapsto  (g(e), \operatorname{scope}_{c}(e)).\end{gathered}
+\]
+
+Its two marked values are \((j,B)\) and \((B,B)\). Projecting to the second coordinate gives equal ultimate bearers while the first coordinate preserves different grounds. The pair does not claim to be a complete semantics for every sentence, but it prevents this comparison from discarding the very distinction its sources use.
+
+Recall the cancellation test for a monomorphism. The two names give maps from the singleton object into \(D_{c}\). They are distinct: applying \(g\) yields \(j\) and \(B\), which the selected sources distinguish. After composing with \(\operatorname{scope}_{c}\), however, both maps yield \(B\). Therefore **\(\operatorname{scope}_{c}\) is not monic**. The same proof works in the coherent syntactic category just constructed: the names give definable constant maps, and their denoting-domain membership is proved before those maps are used. Equal final reference cannot be cancelled backward into equality of local grounds.
+
+A concrete model of this reference fragment checks compatibility with distinct grounds and nontransfer. Take three represented beings \(B, j\) and a staff \(s\), with corresponding expressions \(e_{B}, e_{j}\) and \(e_{s}\). Let their local grounds be \(B, j\) and \(s\), and let all three expressions' completed reference be \(B\). Give \(j\) and \(s\) their body relation to \(B\); separately associate the staff with its human possessor \(j\). Let suffering hold of \(j\) and not \(B\). The two source-shaped naming rules can hold together in this model. Yet the rule “anything associated with \(j\) names \(j\)” fails: the word for the staff reaches \(B\), not its contingent possessor. Unrestricted transfer of suffering also fails. All-word reference has not removed either the modes or their differentiated properties.
+
+Each reconstructed school theory proves the common naming rule through its own premises. Translating formulas and their definable maps therefore gives structure-preserving functors from the common syntactic category into the two selected school categories. Interpreting the earlier model's total reference function requires using \(D_{c}\) as its expression domain; silently using the whole \(E\) would invalidate that interpretation. This is a proved integration of a selected inference. Mutual recovery of the complete body/mode and natural-power explanations, and a full semantics of predication, remain further questions.
+
+## 5. Change, discrimination and the continuing subject
+
+The naming argument distinguished a common bearer from the grounds through which it is named. We now ask what persists through change, how a subject knows changing cognition, and what makes release final. The Sāṅkhya–Yoga arguments lead directly to a model of permitted transformations.
+
+### Change, recognition and the conscious subject
+
+### What survives a change?
+
+Take a gold vessel that is broken and remade. Its former shape has gone, yet the gold remains. The Yoga commentary uses this example to distinguish a change of condition from the material becoming something other than gold. It does not begin by treating a thing as the list of everything we happen to observe about it.
+
+**Pātañjalayogaśāstra, Bhāṣya3.13** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-change-gold)
+
+> paramārthatas tv eka eva pariṇāmaḥ. dharmisvarūpamātro hi dharmo dharmivikriyaivaiṣā dharmadvārā prapañcyata iti. tatra dharmasya dharmiṇi vartamānasyaivādhvasv atītānāgatavartamāneṣu bhāvānyathātvaṃ bhavati na tu dravyānyathātvam. yathā suvarṇabhājanasya bhittvānyathākriyamāṇasya bhāvānyathātvaṃ bhavati na suvarṇānyathātvam iti.
+
+But in truth there is just one transformation. For a property is nothing but the form of its bearer; this is precisely the bearer’s modification, elaborated through its properties. In this case, the property, while existing in its bearer, undergoes a change of condition across the past, future and present courses, but not a change of substance. Thus, when a gold vessel is broken and made otherwise, there is a change of condition, but no change of the gold.
+
+The phrase *na suvarṇānyathātvam* denies alteration of the gold in the respect relevant to the example. It does not say that reshaping leaves every sensible attribute unchanged. The opening *paramārthatas* belongs to this argument about transformation; assigning it an Advaitin reality-level in advance would change the account before we have understood it.
+
+The next example makes three descriptions of a change explicit.
+
+**Pātañjalayogaśāstra, Bhāṣya3.13** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-change-clay)
+
+> tatredam udāharaṇaṃ mṛddharmī piṇḍākārād dharmād dharmāntaram upasaṃpadyamāno dharmataḥ pariṇamate ghaṭākāra iti. ghaṭākāro 'nāgataṃ lakṣaṇaṃ hitvā vartamānalakṣaṇaṃ pratipadyata iti lakṣaṇataḥ pariṇamate. ghaṭo navapurāṇatāṃ pratikṣaṇam anubhavann avasthāpariṇāmaṃ pratipadyata iti. dharmiṇo 'pi dharmāntaram avasthā dharmasyāpi lakṣaṇāntaram avasthety eka eva dravyapariṇāmo bhedenopadarśita iti. evaṃ padārthāntareṣv api yojyam iti.
+
+Here is an example. The clay bearer, passing from the property of lump-form to another property, transforms with respect to property: it is pot-form. Pot-form leaves the future temporal mark and takes on the present temporal mark: it transforms with respect to temporal mark. The pot, undergoing newness and oldness at every moment, takes on transformation of condition. A further property is also a condition of the bearer, and a further temporal mark is a condition of the property. Thus one transformation of substance is displayed through distinctions. This is to be applied to other things as well.
+
+A lump becomes a pot: the relevant description is its property or form, *dharma*. The pot-form passes from future to present: the relevant description is its temporal mark, *lakṣaṇa*. The produced pot ages: the relevant description is its condition, *avasthā*. The commentary relates these descriptions as distinctions within one transformation.
+
+Here is its compact definition.
+
+**Pātañjalayogaśāstra, Bhāṣya3.13, closing** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-change-definition)
+
+> atha ko 'yaṃ pariṇāmaḥ.avasthitasya dravyasya pūrvadharmanivṛttau dharmāntarotpattiḥ pariṇāma iti.
+
+Now what is this transformation? Transformation is the arising of another property when a previous property of a persisting substance ceases.
+
+**Pātañjalayogaśāstra, Yogasūtra3.14** [Source](cite://patanjali/yoga-sutra/inspectable-yoga-dharmin-sutra)
+
+> śāntoditāvyapadeśyadharmānupātī dharmī
+
+The bearer is that which continues through properties that have subsided, have arisen, and are not yet designatable.
+
+**Pātañjalayogaśāstra, Bhāṣya3.14, opening** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-dharma-power)
+
+> yogyatāvacchinnā dharmiṇaḥ śaktir eva dharmaḥ. sa ca phalaprasavabhedānumita ekasyānyo 'nyaś ca paridṛṣṭaḥ.
+
+A property is precisely the bearer’s power delimited by aptitude. Inferred from difference in the production of results, it is observed as one and another [property] of one [bearer].
+
+A property is doing more work here than a label. Its difference can be inferred from the different results the bearer is capable of producing. Thus a mathematical state description limited to visible shape would miss a causal premise. A more adequate account would have to explain capacities, their conditions of exercise, and the evidence for attributing them.
+
+But why posit a bearer at all? Assigning every state to an object identifier would simply assume the answer. The commentary gives an argument from experience, memory and recognition.
+
+**Pātañjalayogaśāstra, Bhāṣya3.14, concluding argument** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-persistence-recognition)
+
+> yasya tu dharmamātram evedaṃ niranvayaṃ tasya bhogābhāvaḥ. kasmāt, anyena vijñānena kṛtasya karmaṇo 'nyat kathaṃ bhoktṛtvenādhikriyate. tatsmṛtyabhāvaś ca nānyadṛṣṭasya smaraṇam anyasyāstīti. vastupratyabhijñānāc ca sthito 'nvayī dharmī yo dharmānyathātvam abhyupagataḥ pratyabhijñāyate tasmān nedaṃ dharmamātraṃ niranvayam iti.
+
+But for one for whom this is merely properties without a continuing connection, there is no experience [of the result]. Why? How can a different cognition be entitled as experiencer of an action done by another cognition? Nor would there be memory of it: one does not remember what another has seen. And because of recognition of an object, a persisting, continuing bearer is established: what has undergone alteration of property is recognized. Therefore this is not merely properties without a continuing connection.
+
+The passage gives three connected tests: how the consequence of an action belongs to an experiencer; how memory concerns what that experiencer previously encountered; and how recognition identifies something through changed properties. Those demands may be contested; the argument presented by the Yoga commentator is not a complete account of its Buddhist interlocutors. A faithful reconstruction must expose the premises so that their force can be assessed. A diagram that already labels successive states “the same thing” does not establish them.
+
+Order also matters.
+
+**Pātañjalayogaśāstra, Yogasūtra3.15** [Source](cite://patanjali/yoga-sutra/inspectable-yoga-sequence-sutra)
+
+> kramānyatvaṃ pariṇāmānyatve hetuḥ
+
+Difference in sequence is a cause of difference in transformation.
+
+Consequently, a category containing arbitrary arrows between every state would be too permissive for this particular use. The arrows would need an interpretation that records admissible transformations and their composition.
+
+There is a further distinction that a universal river analogy would obscure.
+
+**Pātañjalayogaśāstra, Bhāṣya4.33** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-two-permanences)
+
+> dvayī ceyaṃ nityatā kūṭasthanityatā pariṇāminityatā ca. tatra kūṭasthanityatā puruṣasya. pariṇāminityatā guṇānām. yasmin pariṇamyamāne tattvaṃ na vihanyate tan nityam ubhayasya ca tattvānabhighātān nityatvam.
+
+And this permanence is twofold: immutable permanence and permanence through transformation. Of these, immutable permanence belongs to the conscious subject; permanence through transformation belongs to the guṇas. That is permanent whose reality is not destroyed while it transforms; both are permanent because the reality of each is undestroyed.
+
+**Pātañjalayogaśāstra, Yogasūtra4.18** [Source](cite://patanjali/yoga-sutra/inspectable-yoga-knower-unchanging-sutra)
+
+> sadā jñātāś cittavṛttayas tatprabhoḥ puruṣasyāpariṇāmitvāt
+
+The mind’s modifications are always known, because their master, the conscious subject, does not transform.
+
+The persistence of changing nature and the changelessness of the conscious subject are expressly different. The sūtra also gives a reason for the mind’s modifications being always known: its master does not transform. To study the theory mathematically, we need to say which claims express change, which express persistence, and which are premises concerning knowledge. One generic relation called “identity” cannot do all three jobs merely by changing its label.
+
+### Discrimination does not abolish the subject
+
+Sāṅkhya provides a particularly clear test of the suggestion that disidentification is a denial of self. Before the celebrated negations, the Kārikā argues that conscious subjects exist and are plural.
+
+**Sāṅkhyakārikā, 17** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-subject-argument)
+
+> saṅghātaparārthatvāt triguṇādiviparyayād adhiṣṭhānāt /
+> puruṣo 'sti bhoktṛbhāvāt kaivalyārthapravṛtteś ca //
+
+The conscious subject exists: because an aggregate is for another; because of being contrary to the three guṇas and the rest; because of superintendence; because there is an experiencer; and because of activity directed toward isolation.
+
+**Sāṅkhyakārikā, 18** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-plurality)
+
+> janmamaraṇakaraṇānāṃ pratiniyamād ayugapatpravṛtteś ca /
+> puruṣabahutvaṃ siddhaṃ traiguṇyaviparyayāc caiva //
+
+The multiplicity of conscious subjects is established from the separate assignment of birth, death and instruments, from the absence of simultaneous activity, and from variation in the three-guṇa condition.
+
+**Sāṅkhyakārikā, 19** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-witness-nonagency)
+
+> tasmāc ca viparyāsāt siddhaṃ sākṣitvam asya puruṣasya /
+> kaivalyaṃ mādhyasthyaṃ draṣṭṛtvam akartṛbhāvaś ca //
+
+And from that opposition are established this conscious subject’s witnesshood, isolation, neutrality, seership, and absence of agency.
+
+**Sāṅkhyakārikā, 20** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-apparent-agency)
+
+> tasmāt tatsaṃyogād acetanaṃ cetanāvad iva liṅgam /
+> guṇakartṛtve 'pi tathā karteva bhavaty udāsīnaḥ //
+
+Therefore, through conjunction with that [subject], the unconscious subtle apparatus becomes as if conscious; likewise, although agency belongs to the guṇas, the uninvolved [subject] becomes as if an agent.
+
+The two occurrences of *iva*, “as if,” in verse 20 matter. The apparatus appears conscious through its conjunction with the subject; the subject appears to act although activity belongs to the guṇas. The text therefore distinguishes an attributed presentation from the account of what acts or is conscious in its own right. Verse 19 retains positive predicates—witness, seer, neutral—even while denying agency. Calling its subject simply empty would leave these commitments unexplained.
+
+The same distinction governs bondage and release.
+
+**Sāṅkhyakārikā, 62** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-no-intrinsic-bondage)
+
+> tasmān na badhyate nāpi mucyate nāpi saṃsarati kaścit /
+> saṃsarati badhyate mucyate ca nānāśrayā prakṛtiḥ //
+
+Therefore no one is bound, released, or transmigrates. Nature, having manifold supports, transmigrates, is bound, and is released.
+
+**Māṭharavṛtti, ad62, printed 56** [Source](cite://mathara/mathara-vrtti/inspectable-mathara-nonbondage)
+
+> puruṣo na badhyate sarvagatatvāt, avikāratvāt, niṣkriyatvāt, akartṛtvāt | yasmān na badhyate tasmān na mucyate | mukta eva saḥ | abaddhaḥ kuto mucyate |
+
+The conscious subject is not bound, because it is all-pervading, changeless, inactive, and not an agent. Since it is not bound, it is not released. It is already free. How could an unbound one be released?
+
+Māṭhara names the subject of the denial and gives its grounds. The second line of verse 62 is indispensable: the account still describes bondage, transmigration and release, attributing them to nature with manifold supports. A formal model that deletes every process of release because the first line denies intrinsic bondage would contradict the very next line.
+
+Now the three negations can be read in their setting.
+
+**Sāṅkhyakārikā, 64** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-discrimination-root)
+
+> evaṃ tattvābhyāsān nāsmi na me nāham ity apariśeṣam /
+> aviparyayād viśuddhaṃ kevalam utpadyate jñānam //
+
+Thus, from practice of the principles, remainderless knowledge arises: “I am not; not mine; not I”—pure through non-error, unmixed.
+
+**Māṭharavṛtti, ad64, printed 57** [Source](cite://mathara/mathara-vrtti/inspectable-mathara-three-negations)
+
+> evam iti | yathā, etāni pañcaviṃśatitattvāni puruṣādyāni bhūtaparyantāni teṣām abhyāsas tattvābhyāsaḥ | abhyāsenaiva tattvadarśanam | tasmād abhyāsāt puruṣasya buddhir utpadyate | nāsmi tattvāni, na me tattvāni, nāhaṃ tattvānām, kiṃ tu prādhānikāny etāni | tasmāj jñānam utpadyata evamādi | apariśeṣaṃ niravaśeṣam ity arthaḥ | kiṃ cānyat (jñānaṃ yasmād āha) --- aviparyayāt | viparyayaḥ saṃśayas tadviparīto 'viparyayas tasmād aviparyayād asaṃśayād yathābhūtārthadarśanād viśuddham niravadyam avyāmiśraṃ kevalaṃ jñānam utpadyate prādurbhavati | kiṃ jñānam? guṇapuruṣāntaropalabdhirūpam ity arthaḥ
+
+As for “thus”: the practice of those twenty-five principles, beginning with the conscious subject and ending with the elements, is practice of the principles. It is precisely through practice that there is vision of the principles. From that practice cognition arises for the conscious subject: “I am not the principles; the principles are not mine; I do not belong to the principles. Rather, these belong to primordial nature.” Therefore knowledge arises, and so on. “Remainderless” means without remainder. What else? [The witness adds parenthetically: “knowledge, since he says”:] “from non-error.” Error is doubt; its opposite is non-error. From that non-error, from absence of doubt, from seeing the object as it actually is, pure—that is, faultless—unmixed, isolated knowledge arises, becomes manifest. What knowledge? [Knowledge] whose form is apprehending the difference between the guṇas and the conscious subject: this is the meaning.
+
+The root leaves the complements elliptical. Māṭhara supplies them and then identifies the resulting knowledge as discrimination between guṇas and puruṣa. His paragraph initially mentions all25 principles, but its disidentification clause says “these belong to primordial nature.” Taking every occurrence of “principles” as an unqualified reference to all25 would make puruṣa a product of nature, against the concluding distinction. This is a case where connected reading determines the scope of a quantified expression.
+
+The three clauses also differ grammatically. “Not mine” denies possession; “I do not belong to the principles” denies belonging in the other direction. They are not three copies of one equation. The translation preserves the source’s parenthetical editorial wording and its gloss of error as doubt rather than silently rewriting it.
+
+Knowledge and the ending of embodiment are then distinguished.
+
+**Sāṅkhyakārikā, 67** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-embodied-continuance)
+
+> samyagjñānādhigamād dharmādīnām akāraṇaprāptau /
+> tiṣṭhati saṃskāravaśāc cakrabhramavad dhṛtaśarīraḥ //
+
+When, through attaining right knowledge, merit and the rest have reached the condition of no longer being causes, [the knower] remains with a body maintained through the force of residual disposition, like the rotation of a wheel.
+
+**Sāṅkhyakārikā, 68** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-final-separation)
+
+> prāpte śarīrabhede caritārthatvāt pradhānavinivṛttau /
+> aikāntikam ātyantikam ubhayaṃ kaivalyam āpnoti //
+
+When the body’s dissolution has arrived, and primordial nature has withdrawn because its purpose has been accomplished, [the subject] attains isolation that is both certain and final.
+
+The turning wheel explains why ongoing embodiment need not mean renewed productive ignorance. Something may continue through a residual condition after the cause of further production has ceased. Verse 68 adds conditions for finality. This gives a mathematical reconstruction a causal question: what has stopped producing what, what continues, and what prevents return? A single Boolean called “liberated” would hide that sequence unless its definition recovered it.
+
+### Knowing mind without making consciousness a changing object
+
+The Yoga commentary supplies a useful warning about language. Its discussion of conceptual construction asks what the possessive “the subject’s consciousness” could distinguish if the subject is itself consciousness.
+
+**Pātañjalayogaśāstra, Bhāṣya1.9** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-conceptual-possessive)
+
+> tad yathā caitanyaṃ puruṣasya svarūpam iti. yadā citir eva puruṣas tadā kim atra kena vyapadiśyate. bhavati ca vyapadeśe vṛttiḥ. yathā caitrasya gaur iti.
+
+For example: “Consciousness is the conscious subject’s own nature.” When the subject is precisely consciousness, what here is designated by what? Yet a use occurs in such designation, as in “Caitra’s cow.”
+
+The grammatical genitive does not by itself establish two independently existing entities. Conversely, the passage does not tell us to erase every distinction between a conscious subject and its instrument. The later discussion expressly makes mind an object of awareness.
+
+**Pātañjalayogaśāstra, Bhāṣya4.19, argument from self-observation** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-mind-not-selflighting)
+
+> svabuddhipracārapratisaṃvedanāt sattvānāṃ pravṛttir dṛśyate --- kruddho 'haṃ bhīto 'ham amutra me rāgo 'mutra me krodha iti etat svabuddher agrahaṇe na yuktam iti.
+
+Activity of beings is observed on account of awareness of the movement of their own intellect: “I am angry; I am afraid; my attachment is to that; my anger is toward that.” This is not appropriate if one’s own intellect is not apprehended.
+
+**Tattvavaiśāradī, ad4.22, printed 197/PDF 207** [Source](cite://vacaspati/tattva-vaisaradi/inspectable-tt-reflection-medium)
+
+> citeḥ svabuddhisaṃvedanaṃ buddhes tadākārāpattau citipratibimbādhāratayā tadrūpatāpattau satyām.
+
+Consciousness apprehends its own intellect when the intellect takes on that form—when it takes on that form through being the support of the reflection of consciousness.
+
+**Tattvavaiśāradī, ad4.22, printed 197/PDF 207** [Source](cite://vacaspati/tattva-vaisaradi/inspectable-tt-moon-reflection)
+
+> yathā hi candramasaḥ kriyām antareṇāpi saṃkrāntacandrapratibimbam amalaṃ jalam acalaṃ calam iva candramasam avabhāsayaty evaṃ vināpi citivyāpāram upasaṃkrāntacitipratibimbaṃ cittaṃ svagatayā kriyayā kriyāvatīm asaṅgatām api saṅgatāṃ citiśaktim avabhāsayad bhogyabhāvam āsādayad bhoktṛbhāvam āpādayati tasyā iti sūtrārthaḥ.
+
+Just as clear water into which the moon’s reflection has entered makes the motionless moon appear as if moving, even without action by the moon, so the mind, into which the reflection of consciousness has entered, even without activity by consciousness, through its own activity makes consciousness-power appear active and connected although unconnected. In acquiring the condition of being experienced, it brings about for that [consciousness-power] the condition of being experiencer. This is the meaning of the sūtra.
+
+Vācaspati specifies what moves in the analogy: the reflecting medium. It makes the original appear active without an action by the original. To formalize this mechanism, we would need separate statements for actual mental activity, appearance of activity, and the attribution of experience to the subject. Merely drawing two objects joined by an arrow labelled “reflection” would preserve none of that explanatory work.
+
+The next passage describes mind as presenting both the object and the subject. Its possessive phrase requires care.
+
+**Pātañjalayogaśāstra, Bhāṣya4.23, opening** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-double-presentation)
+
+> mano hi mantavyenārthenoparaktaṃ, tat svayaṃ ca viṣayatvād viṣayiṇā puruṣeṇātmīyayā vṛttyābhisaṃbaddhaṃ, tad etac cittam eva draṣṭṛdṛśyoparaktaṃ viṣayaviṣayinirbhāsaṃ cetanācetanasvarūpāpannaṃ viṣayātmakam apy aviṣayātmakam ivācetanaṃ cetanam iva sphaṭikamaṇikalpaṃ sarvārtham ity ucyate.
+
+The mind is colored by the object to be thought. And since it is itself an object, it is connected with the conscious subject which has it as object, through a vṛtti belonging to that subject [the possessive is read here with Vācaspati’s explanation below]. This very mind, colored by seer and seen, presenting object and subject, having taken on the forms of conscious and unconscious, though of the nature of an object appearing as if not an object, and though unconscious appearing as if conscious, is called “having every object,” like a crystal jewel.
+
+**Tattvavaiśāradī, ad4.23, printed 198/PDF 208** [Source](cite://vacaspati/tattva-vaisaradi/inspectable-tt-double-presentation-possessive)
+
+> cakāro bhinnakramaḥ puruṣeṇety asyānantaraṃ draṣṭavyaḥ. tacchāyāpattiḥ puruṣasya vṛttiḥ.
+
+The word “and” has a different order: it should be understood after “with the conscious subject.” The taking on of its reflection is the vṛtti of the conscious subject.
+
+The English above follows Vācaspati’s express grammatical explanation. He attributes a vṛtti to the subject through the taking on of reflection; his preceding moon comparison retains the original’s changelessness.
+
+This theory also retains an object shared by multiple subjects.
+
+**Pātañjalayogaśāstra, Bhāṣya4.16, conclusion** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-world-other-minds)
+
+> tasmāt svatantro 'rthaḥ sarvapuruṣasādhāraṇaḥ svatantrāṇi ca cittāni pratipuruṣaṃ pravartante tayoḥ saṃbandhād upalabdhiḥ puruṣasya bhoga iti.
+
+Therefore the object is independent and common to all conscious subjects, and independent minds function for each conscious subject. From their relation there is apprehension—the subject’s experience.
+
+“Independent” here answers a particular argument about the object’s persistence when an individual mind is distracted or restrained. It must not be assigned Madhva’s absolute meaning of independence without a separate argument. Shared Sanskrit vocabulary can carry different inferential roles in different texts.
+
+### Why an interval without objects is insufficient
+
+The path includes a concentration that illuminates an actual object, reduces affliction and loosens the bonds of action.
+
+**Pātañjalayogaśāstra, Bhāṣya1.1** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-corrective-concentration)
+
+> yas tv ekāgre cetasi sadbhūtam arthaṃ pradyotayati kṣiṇoti ca kleśān karmabandhanāni ślathayati nirodham abhimukhaṃ karoti sa saṃprajñāto yoga ity ākhyāyate.
+
+But the concentration which, in a one-pointed mind, illuminates an actually existing object, diminishes the afflictions, loosens the bonds of action and turns [the mind] toward cessation is called cognitive Yoga.
+
+**Pātañjalayogaśāstra, Bhāṣya1.19** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-suspension-not-release)
+
+> tathā prakṛtilayāḥ sādhikāre cetasi prakṛtilīne kaivalyapadam ivānubhavanti, yāvan na punar āvartate 'dhikāravaśāc cittam iti.
+
+Likewise, those absorbed in nature experience as if the condition of isolation when the mind, whose task still remains, is dissolved into nature—until the mind returns again through the force of that task.
+
+The apparently similar quiet states differ in what remains causally possible. In absorption into nature the mind’s task still remains, and the passage says “as if” isolation. The permanence of nonreturn matters.
+
+Discriminative practice must therefore address dispositions rather than only interrupt current thoughts.
+
+**Pātañjalayogaśāstra, Bhāṣya4.27–28** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-latent-seeds)
+
+> pratyayavivekanimnasya sattvapuruṣānyatākhyātimātrapravāhiṇaś cittasya tacchidreṣu pratyayāntarāṇy asmīti vā mameti vā jānāmīti vā na jānāmīti vā. kutaḥ, kṣīyamāṇabījebhyaḥ pūrvasaṃskārebhya iti. 4.27
+> hānam eṣāṃ kleśavad uktam ||
+>  yathā kleśā dagdhabījabhāvā na prarohasamarthā bhavanti tathā jñānāgninā dagdhabījabhāvaḥ pūrvasaṃskāro na pratyayaprasūr bhavati.
+
+In the gaps of the mind inclined toward discriminative cognition, whose flow is only the discernment of the distinction between sattva and the conscious subject, other cognitions occur: “I am,” “mine,” “I know,” or “I do not know.” From what? From previous dispositions whose seeds are diminishing. [Sūtra4.28:] Their removal has been explained as with the afflictions. Just as afflictions whose seeds have been burned cannot sprout, so a former disposition, its seed burned by the fire of knowledge, does not produce cognition.
+
+A model that remembers only the presently occurring thought could identify two episodes whose latent dispositions differ. It would then lose the account of why one produces renewed identification and the other does not. The seed analogy identifies a proposed causal difference: diminishing seeds can still produce; burned seeds cannot. Whether a chosen mathematical abstraction retains that difference is a precise question we can test.
+
+### How discrimination completes its work
+
+The account of burned seeds leaves a further question. Correct discrimination itself produces dispositions. What prevents those dispositions from perpetuating the mind's activity indefinitely? The Bhāṣya and Vācaspati’s commentary answer through a sequence of counteraction, fulfilled purpose and cessation. These steps distinguish an enduring result from a cognition that continues to occur forever.
+
+**Received Vyāsa: Yogabhāṣya, 1.50; Āgāśe1904 printed 53–54/PDF 63–64.** [Inspected edition](cite://vyasa/yoga-bhasya/inspectable-yoga-wisdom-dispositions-exhaust-function)
+
+The Bhāṣya raises and answers the objection.
+
+> samādhiprajñāprabhavaḥ saṃskāro vyutthānasaṃskārāśayaṃ bādhate. vyutthānasaṃskārābhibhavāt tatprabhavāḥ pratyayā na bhavanti. […] katham asau saṃskārātiśayaś cittaṃ sādhikāraṃ na kariṣyatīti. na te prajñākṛtāḥ saṃskārāḥ kleśakṣayahetutvāc cittam adhikāraviśiṣṭaṃ kurvanti. cittaṃ hi te svakāryād avasādayanti. khyātiparyavasānaṃ hi cittaceṣṭitam iti.
+
+The disposition arising from the wisdom of concentration counters the accumulated dispositions of emergence [from concentration]. Because the dispositions of emergence are overpowered, the cognitions produced by them do not occur. […] [Objection:] How will this increase of dispositions not give the mind an ongoing function? [Reply:] Those dispositions produced by wisdom do not endow the mind with an ongoing function, because they cause the exhaustion of afflictions. For they bring the mind to an end with respect to its own work: the activity of mind culminates in discernment.
+
+The skipped middle describes the repeated wisdom/disposition sequence. The objection asks why such repetition does not perpetuate the instrument’s work. The response invokes exhaustion of afflictions and completion of that work. This supplies the causal premise for the final stage.
+
+Adhikāra is translated here as ongoing function in the experience/discrimination process, not moral entitlement or political authority. This passage does not by itself abolish the instrument for every other subject.
+
+**Vācaspati Miśra: Tattvavaiśāradī, 1.51; Āgāśe1904 printed 55/PDF 65.** [Inspected edition](cite://vacaspati/tattva-vaisaradi/inspectable-yoga-cessation-disposition-mechanism)
+
+Vācaspati raises a further objection, then asks about the evidence for cessation-dispositions.
+
+> nanu vairāgyaṃ vijñānaṃ savijñānaṃ prajñāmātraṃ bādhatāṃ saṃskāraṃ tv avijñānarūpaṃ kathaṃ bādhate. […] saṃskārād eva dīrghakālanairantaryasatkārāsevitaparavairāgyajanmanaḥ prajñāsaṃskārabādho na tu vijñānād ity arthaḥ. […] na ca sarvavṛttinirodhe pratyakṣam asti yoginaḥ. nāpi smṛtiḥ.
+
+[Objection:] Granted that dispassion, being a cognition, counters wisdom, which is cognitive; but how does it counter a disposition that is not a cognition? […] [Reply:] The meaning is that the wisdom-disposition is countered precisely by a disposition born of the higher dispassion cultivated for a long time, uninterruptedly and with care—not by cognition. […] And in the cessation of every modification there is no perception for the yogin, nor memory.
+
+The causal transition is not “correct thought simply erases everything.” Vācaspati answers an explicit mismatch objection by assigning the counteraction to a generated disposition. He then asks how its existence can be warranted when current perception and memory are absent, and gives a duration/practice-based inference. An intrinsic conscious subject must not be identified with the mental perception he denies here.
+
+The last two sentences are not evidence that consciousness itself is annihilated. Their immediate function is to motivate an inference about dispositions. The ellipsis separates the reply from the ensuing question about how these dispositions are known.
+
+**Received Vyāsa: Yogabhāṣya, 1.51; Āgāśe1904 printed 55–56/PDF 65–66.** [Inspected edition](cite://vyasa/yoga-bhasya/inspectable-yoga-instrument-ceases-subject-remains)
+
+The Bhāṣya draws the conclusion.
+
+> tasmāt te saṃskārāś cittasyādhikāravirodhino na sthitihetavo bhavantīti. yasmād avasitādhikāraṃ saha kaivalyabhāgīyaiḥ saṃskāraiś cittaṃ nivartate, tasmin nivṛtte puruṣaḥ svarūpamātrapratiṣṭho ’taḥ śuddhaḥ kevalo mukta ity ucyata iti.
+
+Therefore those dispositions oppose the mind’s ongoing function; they are not causes of its persistence. Since the mind, its function completed, ceases together with the dispositions conducive to isolation, when it has ceased, the person is established in nothing but its own nature; hence it is called pure, isolated and liberated.
+
+The instrument and its dispositions cease together after their task is completed. The subject’s own nature is the endpoint described; the grammar does not say a new subject is produced. The preceding causal account is necessary to distinguish this from arbitrary suspension.
+
+The earlier Yoga and Sāṅkhya discussion supplies the arguments for the subject’s eternity and plurality.
+
+**Vācaspati Miśra: Tattvavaiśāradī, 4.29; Āgāśe1904 printed 202/PDF 212.** [Inspected edition](cite://vacaspati/tattva-vaisaradi/inspectable-yoga-discrimination-itself-relinquished)
+
+Vācaspati introduces and explains 4.29.
+
+> tad evaṃ sūtrakāro vyutthānanirodhopāyaṃ prasaṃkhyānam uktvā prasaṃkhyānanirodhopāyam āha. […] etad uktaṃ bhavati—prasaṃkhyāne viraktas tannirodham icchan dharmameghaṃ samādhim upāsīta. tadupāsane ca sarvathā vivekakhyātir bhavati. tathā ca taṃ niroddhuṃ pārayatīti.
+
+Thus, having stated discriminative contemplation as the means of stopping emergence [from concentration], the sūtra-author states the means of stopping discriminative contemplation. […] This is what is said: dispassionate toward discriminative contemplation and wishing its cessation, one should cultivate the concentration called “cloud of dharma.” Through cultivating it, discriminative discernment occurs in every respect. And thereby one becomes capable of stopping it.
+
+The intermediate all-sided discernment and its eventual cessation must both be represented. This is not a contradiction in simultaneous predicates: the account describes a corrective means, further cultivation and capacity for cessation. The omitted paragraph explains nonattachment even to the powers yielded by prasaṃkhyāna.
+
+Bhikṣu’s supreme-Self contextual discrimination is treated separately below.
+
+**Vācaspati Miśra: Tattvavaiśāradī, 4.32; Āgāśe1904 printed 204/PDF 214.** [Inspected edition](cite://vacaspati/tattva-vaisaradi/inspectable-yoga-no-renewed-bodies-after-task)
+
+Vācaspati’s objection and own explanation, with the quoted root 4.32 omitted explicitly between them.
+
+> nanu dharmameghasya parā kāṣṭhā jñānaprasādamātraṃ paraṃ vairāgyaṃ samūlaghātam apahantu vyutthānasamādhisaṃskārān sakleśakarmāśayān guṇās tu svata eva vikārakaraṇaśīlāḥ kasmāt tādṛśam api puruṣaṃ prati dehendriyādīn nārabhanta ity ata āha. […] śīlam idaṃ guṇānāṃ yad amī yaṃ prati kṛtārthās taṃ prati na pravartanta iti bhāvaḥ.
+
+[Objection:] Granted that the highest limit of the cloud of dharma—higher dispassion consisting solely of clarity of knowledge—destroys at their roots the dispositions of emergence and concentration and the deposits of affliction and karma; but the qualities by themselves are disposed to produce transformations. Why do they not initiate bodies, senses and so forth even for such a person? Therefore [the sūtra-author] says [4.32]. […] The meaning is: this is the disposition of the qualities, that they do not operate for the one for whom their purpose has been fulfilled.
+
+The source itself challenges the inference from exhausted karma to nonreturn: natural transformative capacity remains a potential objection. The response restricts further operation relative to the particular subject whose purpose is fulfilled. This is a substantive teleological premise a model must state and assess; it does not follow merely from graph reachability.
+
+The objection concerns this accomplished person, not a universal cessation of the guṇas for every subject.
+
+**Received Vyāsa; Vācaspati Miśra: Yogabhāṣya / Tattvavaiśāradī, 4.34; Āgāśe1904 printed 207/PDF 217.** [Inspected edition](cite://vyasa-vacaspati/yogabhasya-tattvavaisaradi/inspectable-yoga-release-not-great-dissolution)
+
+First the Bhāṣya, then Vācaspati’s explanation of the permanence and nonconnection qualification.
+
+> svarūpapratiṣṭhā punar buddhisattvānabhisaṃbandhāt puruṣasya citiśaktir eva kevalā, tasyāḥ sadā tathaivāvasthānaṃ kaivalyam iti. […] asti hi mahāpralaye ’pi svarūpapratiṣṭhā citiśaktiḥ. na cāsau mokṣa ity ata āha—punar iti.
+
+[Bhāṣya:] As for establishment in its own nature: because of nonconnection with the lucid intellect, the person’s consciousness-power alone is isolated; its abiding always just so is isolation. […] [Vācaspati:] For consciousness-power is established in its own nature even during great dissolution; yet that is not liberation. Therefore [the commentator] says “as for.”
+
+Read with 4.32: completion of function and lack of renewed operation distinguish release from cosmic dissolution. Do not present subject-persistence alone as a complete liberation criterion.
+
+Punar is used transitionally in this bhāṣya sentence, not translated as a claim that liberation repeatedly recurs.
+
+### Vijñānabhikṣu: what reciprocal reflection commits us to
+
+Bhikṣu preserves the subject’s changelessness while explaining its attributed modifications through reflection.
+
+**Yogavārttika, ad1.4, printed 12/PDF 25** [Source](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-reflected-mind)
+
+> yadyapi puruṣaś cinmātro ’vikārī tathāpi buddher viṣayākāravṛttīnāṃ puruṣe yāni pratibimbāni tāny eva puruṣasya vṛttayaḥ.
+
+Although the conscious subject is consciousness alone and changeless, nevertheless the reflections, in the conscious subject, of the intellect’s object-shaped modifications are precisely the subject’s vṛttis.
+
+**Yogavārttika, ad1.4, printed 13/PDF 26** [Source](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-reciprocal-reflection)
+
+> yathā ca citi buddheḥ pratibimbam evaṃ buddhāv api citpratibimbaṃ svīkāryam anyathā caitanyasya bhānānupapatteḥ svayaṃ sākṣāt svadarśane karmakartṛvirodhena buddhyārūḍhatayaivātmano ghaṭādivaj jñeyatvābhyupagamāt.
+
+And just as there is a reflection of intellect in consciousness, so a reflection of consciousness in intellect must also be accepted; otherwise the manifestation of consciousness would be inexplicable. For, owing to the incompatibility of object and agent in directly seeing oneself by oneself, the self is admitted to be knowable, like a pot and the rest, precisely as presented in intellect.
+
+The second direction has its own reason: without it, the manifestation of consciousness would be inexplicable under the stated constraint on direct self-objectification. It is not inferred from a general axiom that reflection is symmetric. The comparison “like a pot” marks a difference from nonobjectifying accounts of self-knowledge.
+
+His next qualification controls both uses of reflection.
+
+**Yogavārttika, ad1.4, printed 14/PDF 27, continuation from13** [Source](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-image-as-cognitive-change)
+
+> bimbākāro buddheḥ pariṇāma eva sa ca sākṣibhāsya iti. etena nīrūpatvād buddhipuruṣayor anyonyaṃ pratibimbanaṃ na sambhavatīty apāstam. ubhayatrobhayākārabuddhipariṇāmasyaiva pratibimbaśabdenātra vivakṣitatvāt.
+
+The form of the original is precisely a transformation of intellect, and that is manifested to the witness. By this, [the objection] that mutual reflection of intellect and person is impossible because of lack of form is set aside. For in both cases, precisely the transformation of intellect bearing the respective forms of the two is intended here by the word “reflection.”
+
+The objection concerns lack of form, *nīrūpatva*. The reply says what the word “reflection” intends in this discussion. Both uses concern the relevant form-taking transformation of intellect. We must therefore distinguish the transformation, its presentation to the witness, and the attributed vṛtti of the unchanged subject. Treating the two directions as two independent intrinsic changes would fail this explicit condition.
+
+Individual allocation requires another premise.
+
+**Yogavārttika, ad1.4, printed 13/PDF 26** [Source](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-assigned-experience)
+
+> anādisvasvāmibhāvasyaiva pratibimbaniyāmakatayā vakṣyamāṇatvāt tu na parabuddhivṛtter bhānam.
+
+But a modification of another intellect is not manifested, because the beginningless relation of owned and owner alone will be stated as the regulator of reflection.
+
+Why is another person’s mind not immediately experienced as one’s own? Bhikṣu invokes the beginningless owner/owned relation as the regulator. Reflection alone does not supply the restriction. The continuation considers this relation when experience is absent at cosmic dissolution; that argument does not by itself establish its persistence through final liberation.
+
+### Bhikṣu: why an earlier teaching can remain authoritative
+
+How can a teaching retain authority when a later discipline corrects some of its language? Bhikṣu asks this at the beginning of his *Sāṅkhyapravacanabhāṣya*. Nyāya–Vaiśeṣika already discusses self and liberation; Sāṅkhya must explain both its further purpose and its apparent disagreement. He distinguishes their subject domains:
+
+> vyāvahārikapāramārthikarūpaviṣayabhedena gatārthatvavirodhayor abhāvāt.
+
+“Because, through difference of subject domains characterized as ordinary and ultimate, there is neither redundancy nor contradiction.” ([Sāṅkhyapravacanabhāṣya, Introduction, printed p. 2](cite://vijnanabhiksu/sankhya-pravacana-bhasya/reader-purpose-introduction)).
+
+The distinction has practical content. Establishing a self other than the body corrects bodily identification even while familiar pleasure, pain and agency continue to be attributed to it. Further discrimination locates those changing conditions differently. Bhikṣu preserves the earlier teaching’s authority because of its intended achievement:
+
+> vivakṣitārthe dehādyatirekāṃśe bādhābhāvāt.
+
+“Because there is no sublation in the intended meaning, in the aspect of difference from the body and the rest.” ([Same passage](cite://vijnanabhiksu/sankhya-pravacana-bhasya/reader-purpose-introduction)).
+
+He treats the familiar pleasure/pain attribution as restating an already available understanding, rather than the principal new truth established. A correction can therefore preserve an instruction’s actual achievement without preserving every maximal interpretation of its wording. This is Bhikṣu’s account of Nyāya, however, not evidence that Naiyāyikas regard their own theory of self-qualities as dispensable. An integration must test his assignment of principal purpose against their arguments. His method supplies an explicit preservation criterion; contextual labels alone do not.
+
+### The self of a self: Bhikṣu’s Vedāntic argument
+
+Bhikṣu’s commentary on Brahmasūtra4.1.3 asks how “I am Brahman” can be valid when the difference between individual and Brahman has already been affirmed. His answer appeals to selfhood rather than simply reversing the earlier affirmation.
+
+**Vijñānāmṛtabhāṣya, Brahmasūtra4.1.3, printed 305/PDF 347** [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-self-role)
+
+> nanu jīvabrahmaṇor bheda ukta iti kathaṃ jīvasya brahmāham iti jñānaṃ bhaved iti ced ucyate—yathā sāṃkhyamate ’ntaḥkaraṇād bhinno ’pi jīvas tasyātmatayā tasyāham iti pramāviṣayo bhavati, tathaiva jīvādidehāntebhyo bhinnam api brahma jīvādyātmatayāntaḥkaraṇasyāham iti pramāviṣayaḥ syāt. antaryāmitayā jīvādilayādhāratayā ca brahmaiva sarveṣāṃ pāramārthikātmety uktatvāt. yathā ca jīvātmatājñānād dehābhimānarūpāvidyānivṛttir bhavati tathaiva brahmātmatājñānāj jīvādyabhimānasya nivṛttiḥ syāt.
+
+Objection: Since difference between the individual and Brahman has been stated, how could the individual have the cognition “I am Brahman”? Reply: Just as, in the Sāṅkhya account, the individual, although different from the inner organ, is the object of that organ’s valid cognition “I” through being its self, so Brahman, although different from [things] beginning with the individual and ending with the body, could be the object of the inner organ’s valid cognition “I” through being the self of the individual and the rest. For it has been stated that Brahman alone is the ultimate self of all, through being the inner ruler and the support into which the individual and the rest dissolve. And just as ignorance in the form of identification with the body ceases through knowing the individual as self, so identification with the individual and the rest would cease through knowing Brahman as self.
+
+The analogy has premises. The individual can be truly designated “I” by an inner organ from which it differs because it is that organ’s self. Brahman can likewise be truly designated “I” as self of the individual and the rest. Inner rulership and support at dissolution explain the ultimate self-ascription. The final sentence then assigns the knowledge a corrective function: body-identification is removed by one discrimination, and identification with the individual by the further recognition.
+
+A relation called SelfRole can record the two ascriptions. It does not yet explain their warrant or their corrective effect. Both belong to the source argument and must enter any fuller reconstruction.
+
+Bhikṣu also distinguishes ways in which difference and nondifference are predicated.
+
+**Vijñānāmṛtabhāṣya, Brahmasūtra2.3.43, printed 196/PDF 240** [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-difference-nondivision)
+
+> nanu viruddhau bhedābhedau katham ekatra saṃbhavata iti cet, anyonyābhāvalakṣaṇabhedasyāvibhāgalakṣaṇābhedenāvirodhāt. vibhāgāvibhāgarūpayor api bhedābhedayoḥ kālabhedena vyavahāraparamārthabhedena cāvirodhāc ca.
+
+Objection: How can difference and nondifference, being opposed, occur together in one [place]? [Reply:] Because difference characterized as mutual absence does not conflict with nondifference characterized as nondivision. And even difference and nondifference in the forms of division and nondivision do not conflict when time differs, and when practical and ultimate [standpoints] differ.
+
+**Vijñānāmṛtabhāṣya, Brahmasūtra4.1.3, printed 306/PDF 348** [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-self-not-undividedness)
+
+> ye tv ādhunikā jīvabrahmaṇor akhaṇḍatvam asya sūtrasyārthaṃ varṇayanti tanmataṃ pañcasūtryāṃ vistareṇa nirākṛtam.
+
+But the view of those recent [thinkers] who describe undividedness of the individual and Brahman as the meaning of this sūtra has been refuted at length in the discussion of five sūtras.
+
+The first reply differentiates meanings: mutual absence and nondivision are not the same relation with opposite truth values. The second distinguishes times and practical/ultimate contexts when division and nondivision themselves are at issue. These are identifiable strategies for avoiding an alleged contradiction, and each can be examined on its own terms.
+
+Bhikṣu expressly rejects a reading of this sūtra as undividedness of individual and Brahman. His synthesis is therefore an important precedent for integration, but the proposed nonhierarchical integration of this course remains a further philosophical task. It must show how the arguments can be related while retaining their grounds and acknowledged disagreements.
+
+### Nondivision, selfhood and the claim to finality
+
+Bhikṣu also asks which self a passage concerns. The distinction matters because nondivision, recognition of selfhood and permanent release have different conditions. His interpretation of the common texts cannot be reduced to an equation identifying all their uses of “self.”
+
+**Vijñānabhikṣu: Yogavārttika, 4.23;1884 printed 293–294/PDF 300–301.** [Inspected edition](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-two-self-contexts)
+
+Bhikṣu’s own interpretive conclusion; not the Yoga sūtra or Vyāsa’s bhāṣya.
+
+> etena jīvātmaprakaraṇeṣv ātmaikyaśrutīnām avaidharmyalakṣaṇābhedena viveka eva tātparyam iti draṣṭavyam. vivekajñānasyaiva samyagjñānatayā mokṣahetutvavacanāt. paramātmaprakaraṇaṃ tu jīvād api vivekena paramātmana ekasyaivātmatve tātparyam iti mantavyam.
+
+From this it should be understood that, in sections concerning the individual self, the intention of scriptural declarations of unity of self is precisely discrimination, through nondifference characterized by absence of dissimilarity; for discriminative knowledge alone is said to cause liberation as correct knowledge. But a section concerning the supreme Self should be understood to intend the selfhood of the supreme Self alone, through discrimination even from the individual self.
+
+The same printed paragraph both defends discriminative knowledge and introduces discrimination even from jīva in a supreme-Self context. A map that keeps only the final higher role loses the first argument; a map that calls jīva the unqualified final Self loses the second. Avaidharmya is not numerical identity.
+
+This is Bhikṣu’s hermeneutic, not a neutral description all earlier Yoga authors accept. The preceding citations and power/nondifference explanation do not make every scriptural use of unity identical.
+
+**Vijñānabhikṣu: Vijñānāmṛtabhāṣya, 4.2.16; Kāśī printed 320/PDF 362.** [Inspected edition](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-sampatti-not-identity-or-destruction)
+
+Bhikṣu’s own explanation following the root avibhāgo vacanāt.
+
+> ākāśe vāyor ivāviślakṣaṇānanyatvam eva sampattiḥ na tv ekatvaṃ, bhinnayor akhaṇḍātmaikyāsaṃbhavāt. nāpi vināśo gatiśravaṇāt.
+
+Arrival [into Brahman] is just nonotherness without separate distinguishability, as of air in space, not oneness, because indivisible identity of two distinct things is impossible. Nor is it destruction, because onward passage is taught in scripture.
+
+The two negative conclusions have different warrants: distinction blocks indivisible identity, while the scriptural onward journey blocks destruction. A bare equivalence relation or deletion operation would not preserve these arguments.
+
+The printed aviślakṣaṇa is glossed through the ensuing non-discrimination context. It differs from avilakṣaṇa. This 4.2 context is not automatically final release.
+
+**Vijñānabhikṣu: Vijñānāmṛtabhāṣya, 4.2.16; Kāśī printed 320/PDF 362.** [Inspected edition](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-tattvamasi-selfhood-reason)
+
+Bhikṣu’s own further reason, after the objection that tat tvam asi might signify merely mixing.
+
+> kiṃ ca avidyānivartakabrahmātmatāpratītyartham evāvibhāgarūpasampattyādi bodhyate, anyathā tatra jñānaprakaraṇe sampattyādipratipādanena phalāsaṃbhavāt. brahmātmatāyā evābhyarhitatayā sarvavedānteṣv autsargikārthatvāc ca.
+
+Further, arrival and the like in the form of nondivision are taught precisely for the sake of the cognition of Brahman’s selfhood that removes ignorance; otherwise, in that section on knowledge, teaching arrival and the like could not produce its result. And because Brahman’s selfhood itself, owing to its preeminence, is the general meaning in all the Vedānta texts.
+
+The contextual objection is substantive: if the honey example taught only mixture, how would Brahman’s selfhood follow? Bhikṣu distinguishes the illustrative arrival from the knowledge it serves. The model must distinguish a relation that can obtain without recognition from cognition that removes ignorance.
+
+brahmātmatāyā is the sandhi surface of genitive brahmātmatāyāḥ before eva, not instrumental brahmātmatayā. The following longer scriptural quotation is omitted. The surrounding objection prevents reducing Brahman-as-self to physical mixture.
+
+**Vijñānabhikṣu: Vijñānāmṛtabhāṣya, 4.2.16; Kāśī printed 321/PDF 363.** [Inspected edition](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-permanent-versus-temporary-nondivision)
+
+Bhikṣu’s own restriction within criticism of an alternative 4.2.15–16 interpretation; second sentence introduces 4.2.17.
+
+> paramamuktāv apy avibhāgas tiṣṭhaty eva, sa ātyantika ity eva viśeṣaḥ. […] vidvadavidvatsādhāraṇī sampattir vicāritā, athedānīṃ vidvadutkrāntir vicāryate.
+
+Nondivision remains also in final liberation; its distinction is just that it is permanent. […] Arrival common to the knowledgeable and the unknowledgeable has been considered; now the departure of the knowledgeable is considered.
+
+The immediate subject is not restricted to the liberated knower. Bhikṣu expressly distinguishes the common arrival from its permanent final case and from the further course of a knower. A model must not derive liberation from nondivision alone.
+
+The ellipsis skips criticism of a rival interpretation. Permanent here translates ātyantika; no claim that all temporal or embodied processes persist is supplied.
+
+**Vijñānabhikṣu: Vijñānāmṛtabhāṣya, 4.4.4; Kāśī printed 332/PDF 374.** [Inspected edition](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-final-nondivision-river)
+
+First phrase: Brahmasūtra 4.4.4. Following question/reply: Bhikṣu. The cited Muṇḍaka words following this are scriptural corroboration, not independent prose by him.
+
+> avibhāgena dṛṣṭatvāt. […] samudreṇa nadanadīnām ivāvibhāgena […] ātyantikalayarūpaiva muktiḥ, kutaḥ? dṛṣṭatvāt.
+
+[Sūtra:] Because it is seen as nondivision. […] [Bhikṣu:] Liberation is precisely permanent dissolution, through nondivision as of streams and rivers with the ocean […]. Why? Because it is seen [in scripture].
+
+Read with 4.2.16: permanent laya cannot be replaced by annihilation or indivisible identity after he explicitly distinguishes these. The image has a doctrinally specified use, not an unrestricted license to collapse subjects.
+
+The second ellipsis explicitly withholds the printed phrase lakṣaṇānanyatvarūpeṇa, whose syntax in avibhāgena lakṣaṇānanyatvarūpeṇa has not been resolved through an alternate witness. It is not silently rewritten to avibhāgalakṣaṇānanyatva. Nonotherness is independently quoted in the preceding 4.2.16 passage.
+
+### What these readings require of the mathematical work
+
+The examples have yielded distinct questions: persistence through changed properties; immutable consciousness; capacities and admissible sequence; subject/instrument attribution; individualized access; the causal work of discrimination; nonreturn; and valid self-ascription without erasing difference. Their shared vocabulary makes comparison possible, but does not settle the comparison.
+
+The next mathematical step should choose one connected argument, state its vocabulary and premises, and show exactly what follows. A competing interpretation or counterexample must be expressible too. Only then can we ask whether a functor, an interpretation between theories, or another categorical construction preserves the relevant structure. These source passages constrain that choice.
+
+### Identity through change: what must a model preserve?
+
+The gold-vessel argument suggests a useful mathematical experiment. A vessel can change its shape while continuing to be gold. The Yoga commentary also distinguishes a capacity from its present exercise and explains why the order of transformations matters. We need a representation that can retain those distinctions without claiming that a mathematical identity arrow already explains the persistence of a thing.
+
+For the concrete operations, turn to the commentary’s neighboring clay example: shaping a lump into a pot and breaking it. Start with configurations. Let \(I=\{a,b\}\) contain two continuity labels. Let \(Q\) contain a lump, a new pot, an aged pot and shards. Put \(X=I\times Q\), and define \(p:X\to I\) by \(p(i,q)=i\). An element of \(X\) records a bearer label together with a condition.
+
+This representation makes a choice: it assigns successive conditions to a bearer. It does not derive that assignment from the text's memory or recognition argument. The product notation also does not assert that a material bearer and its conditions are two independently existing substances. It is a way to record two questions separately.
+
+### A preserved identity is not an identity arrow
+
+Consider a total transformation \(f:X\to X\) that changes every new pot into an aged pot and leaves the other configurations as they are. It preserves bearer labels:
+
+\[
+p\circ f=p.
+\]
+
+Yet \(f\ne\operatorname{id}_X\), because it changes the condition of a new pot. If \(o:X\to Q\) reports condition, then \(o\circ f\ne o\). An invariant of one kind can coexist with change of another kind.
+
+The identity arrow \(\operatorname{id}_X\), by contrast, leaves every configuration unchanged. Its job is to be the neutral element for composition. It is not the persisting self or substance. Persistence in this example is expressed by the separate equation involving \(p\).
+
+There is an immediate test for an empty explanation. If \(I\) had only one element, every function on \(X\) would preserve \(p\). The invariant would then distinguish nothing. A claim of continuity needs a justified criterion for when bearer labels may differ, not merely a constant function chosen so that a diagram commutes.
+
+### Why relations are often preferable to total functions
+
+The function above includes an arbitrary decision: every configuration that is not a new pot remains fixed. The Sanskrit argument does not give us that total deterministic law. Nor does saying that clay can become a pot assert that it will do so in every condition. To represent allowed transformations without asserting their inevitability, use relations.
+
+In **Rel**, the objects are sets. An arrow \(R:X\to Y\) is a relation, a subset of \(X\times Y\). An input may have no related output, one output, or several. Composition follows possible intermediate values:
+
+\[
+(S\circ R)(x,z)\quad\Longleftrightarrow\quad
+\exists y\bigl(R(x,y)\land S(y,z)\bigr).
+\]
+
+The identity is the diagonal relation \(\{(x,x):x\in X\}\). Associativity follows because either bracketing of three steps requires the same two intermediate values. Rel is a category, but its arrows need not be functions.
+
+Define three selected operations on our configuration set:
+
+\[
+\begin{aligned}
+\mathrm{Shape}&:\ (i,\mathrm{lump})\mathrel{\longmapsto}(i,\mathrm{new}),\\
+\mathrm{Age}&:\ (i,\mathrm{new})\mathrel{\longmapsto}(i,\mathrm{aged}),\\
+\mathrm{Break}&:\ (i,\mathrm{new})\mathrel{\longmapsto}(i,\mathrm{shards}),\\
+&\phantom{:}\ (i,\mathrm{aged})\mathrel{\longmapsto}(i,\mathrm{shards}).
+\end{aligned}
+\]
+
+These are the complete relation tables for this small example. Each happens to be partial and single-valued; the surrounding category also permits genuinely multiple possible outputs. Shape is unavailable on shards; that means no output is related there by this particular operation. It does not mean that no more elaborate recycling process is possible. We have not included such a process.
+
+Now compare two sequences. \(\mathrm{Break}\circ\mathrm{Shape}\) relates a lump to shards with the same label. But \(\mathrm{Shape}\circ\mathrm{Break}\) is empty: Break produces shards, and Shape requires a lump. The operations do not commute. Both orders can respect bearer continuity wherever they are defined, yet have different possibilities. A preservation equation alone would miss the role of sequence.
+
+The pertinent continuity condition for a relation is
+
+\[
+xRy\quad\Longrightarrow\quad p(x)=p(y).
+\]
+
+Writing \(p\circ R=p\) would be too strong for a partial relation. At an input where no transformation is available, the left side has no output while the function \(p\) still does. One may instead require \(p\circ R\subseteq p\), reading the functions as their graph relations.
+
+### A category whose arrows respect a bearer
+
+Fix \(I\). Objects are sets equipped with maps \(p:X\to I\). An arrow from \(p:X\to I\) to \(q:Y\to I\) is a relation \(R\subseteq X\times Y\) satisfying
+
+\[
+xRy\quad\Longrightarrow\quad p(x)=q(y).
+\]
+
+Diagonals satisfy this condition. If \(xRy\) and \(ySz\), then \(p(x)=q(y)=r(z)\), so relational composition satisfies it too. This is a category of relations respecting the specified bearer labels. Its identity and composition laws come from Rel. We do not call it the ordinary slice of Rel with commuting triangles: those triangles would demand equality, precisely the too-strong condition just examined.
+
+We can also regard operation sequences as a free category with one object. Its arrows are finite words in Shape, Age and Break; the empty word is its identity. Assign the sole object to \(X\), each generating word-letter to the corresponding relation, and each word to the composite relation. This is a functor into Rel. The functor gives the syntax of sequences a semantics in possible transitions.
+
+Different words may have the same relation. Shape followed by Break and Shape followed by Age followed by Break both take a lump to shards in this example. The histories remain different words, while this selected endpoint semantics identifies their effects. If intermediate experience or cost mattered, we would need a semantics retaining it. Thus even a correct functor can forget something consequential; we have to name what it forgets.
+
+### Powers and recognition are further premises
+
+Our relation tables describe enabled transitions. They do not yet describe every latent capacity of a bearer. One could add a predicate \(\operatorname{Capable}(x,a)\) and distinguish it from \(\operatorname{Enabled}(x,a)\), where the latter also depends on operative conditions. Merely naming Shape as an arrow does not show that a particular subject has its power at every time. Nor does failure to observe an effect prove absence of its capacity.
+
+This matters in comparing the Yoga argument with the avatāra passages. Both discussions require us to distinguish possession from exercise of power, but their bearers, reasons and claims differ. The later Baladeva discussion in chapter 10 uses a teacher who can teach more than he presently teaches to provide a specific argument about unmanifested powers in divine forms. A common typed distinction can help compare arguments without equating their subjects.
+
+The Yoga commentary's reasoning for a persisting bearer also remains distinct. It invokes ownership of action and experience, memory of what one previously encountered, and recognition through altered properties. A reconstruction of that inference would need premises linking those phenomena to continuity. Starting with \(p\) assumes the conclusion for purposes of this transition experiment. It cannot count as a proof of the commentary's argument.
+
+Finally, the commentary itself distinguishes permanence through transformation from the nonchanging permanence of puruṣa. The construction here belongs to the first question. Neither changing condition records nor a conserved label gives an account of intrinsic self-manifestation. This proposal therefore identifies a useful family of abstractions, but not a single categorical definition that should replace every tradition's account of identity.
+
+**Check the construction.** Suppose a proposed operation changes \((a,\mathrm{new})\) into \((b,\mathrm{aged})\). Is it an arrow in Rel? Yes. Is it an arrow respecting the chosen bearer maps? No, because \(a\ne b\). A narrower category expresses a real prohibition. Whether that prohibition is philosophically justified depends on the meaning and evidence for the bearer assignment.
+
+## 6. Real transformation, manifestation and service
+
+Bhāskara and Vallabha give further accounts of real change, manifestation and fulfillment. Their conditions on action and attainment prepare a mathematical question: when does a comparison respect an entire course of activity, rather than just matching its endpoints?
+
 ### Bhāskara
 
 **Effects as real states of their cause**
@@ -2516,6 +2392,718 @@ The elliptical feminine pūrvoktā is supplied from the preceding service accoun
 [Source witness](cite://vallabha/siddhanta-muktavali/inspectable-pl-v08).
 
 A comparison must preserve the actual object of service and the target of the vision, not merely a generic disclosure pattern. It must also keep the history and order of attainment: a common endpoint would not identify all routes. Grace is a governing condition, and intrinsic nature by itself does not determine every attainment history.
+
+### Natural transformations compare whole interpretations
+
+A functor is already a structured assignment. To compare two such assignments \(F,G:C \to  D\), choose an arrow
+
+\[
+\alpha [x]:F(x) \to  G(x)
+\]
+
+for every object \(x\). These arrows must work together. For every \(f:x \to  y\), require
+
+\[
+G(f) \circ  \alpha [x]=\alpha [y] \circ  F(f).
+\]
+
+This is the naturality condition. Its square is:
+
+\[
+\begin{array}{ccc}F(x)&\xrightarrow{\alpha[x]}&G(x)\\{\scriptstyle F(f)}\downarrow&&\downarrow{\scriptstyle G(f)}\\F(y)&\xrightarrow{\alpha[y]}&G(y)\end{array}
+\]
+
+Both routes start at \(F(x)\) and end at \(G(y)\). Naturality says that changing interpretation and following the source relationship commute. “Natural” names this compatibility condition. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+Consider a category with one nonidentity arrow \(r:E \to  S\), meaning that a detailed report is shortened. Define a set-valued functor \(F\) by
+
+\[
+\begin{gathered}F(E)=\{A,B\} \times  \{\text{vivid},\text{dim}\},\\F(S)=\{A,B\}, F(r)(p,q)=p.\end{gathered}
+\]
+
+Here \(A,B\) identify speakers; the second coordinate is an annotation. Define \(G(E)=G(S)=\{\text{self-report}\}\), with \(G(r)\) the identity. Let \(\alpha [E]\) and \(\alpha [S]\) classify every input as a self-report.
+
+For the input \((A,\text{dim})\), going right then down yields “self-report.” Going down then right first yields \(A\), then “self-report.” The same calculation applies to the other three inputs. Therefore \(\alpha :F \Rightarrow  G\) is natural. It is not invertible: its components erase information about speakers and annotations.
+
+The example contains no claim that \(A\) and \(B\) are the same conscious subject. It shows that a coherent classification can omit their distinction. Natural compatibility alone is weaker than recoverability.
+
+Natural transformations compose componentwise. If \(\beta :G \Rightarrow  H\), set \((\beta \alpha )[x]=\beta [x] \circ  \alpha [x]\). The verification is instructive:
+
+\[
+\begin{gathered}H(f)\beta [x]\alpha [x]\\=\beta [y]G(f)\alpha [x]\\=\beta [y]\alpha [y]F(f).\end{gathered}
+\]
+
+Each equality uses one naturality condition. Functors with these transformations therefore form a category, written \([C,D]\). When arrows are juxtaposed in a calculation, composition is meant, with the rightmost arrow applied first: \(H(f)\beta [x]\alpha [x]\) abbreviates \(H(f) \circ  \beta [x] \circ  \alpha [x]\).
+
+A natural transformation is an isomorphism in this category exactly when every component is invertible. The converse needs a check: rearranging naturality gives
+
+\[
+F(f)\alpha [x]^{-1}=\alpha [y]^{-1}G(f),
+\]
+
+so the inverses themselves form a natural transformation.
+
+### A transformation is not automatically an event in time
+
+Nothing in the definition just given says that \(G\) happens later than \(F\). It can compare two descriptions maintained simultaneously. Its components live in the target category and inherit whatever meaning its arrows have. If those arrows are functions between report sets, the components are functions, not experiences of liberation.
+
+A temporal development is more directly represented by a functor \(L:T \to  X\), where \(T\) is a time or stage category and \(X\) is an explicitly specified category of states and transitions. An arrow of \(T\) then receives an actual transition in \(X\). Two interpretations of that development can be compared by a natural transformation if their transition maps satisfy the squares.
+
+A concrete failure makes the difference clearer. Let the time category have one transition \(0\to 1\). At each time an event functor \(E\) has the set \(\{0,1\}\), where 1 means an event is present; its transition clears the event, sending both values to 0. A status functor \(K\) has the same set at both times, but its transition is the identity, preserving whether recognition has been retained. Try components \(\alpha [0]=\alpha [1]=\operatorname{id}\), declaring event presence and retained realization interchangeable. At input 1 the naturality equation fails:
+
+\[
+\begin{gathered}K(t)(\alpha [0](1)) = 1\\\alpha [1](E(t)(1)) = 0.\end{gathered}
+\]
+
+We can repair the representation by storing both event and retained status. At both times take \(M=\{(0,0),(0,1),(1,1)\}\); its transition sends \((e,k)\) to \((0,k)\). Projection \(\pi (e,k)=k\) now gives a natural transformation \(M\Rightarrow K\), because clearing the event leaves the retained status unchanged. The state \((0,1)\) represents retention without a currently occurring event. This construction does not prove that a particular knowledge is irreversible; the persistence rule is an explicit premise whose warrant must come from the philosophical account. It shows exactly what information the failed comparison omitted.
+
+Similarly, a correction that retracts “the body exhausts selfhood” is not automatically a natural transformation between proof-preserving interpretations of the old theory. If the old theory proves that assertion, a target interpretation preserving its proofs cannot silently reject it. A category of revisions may be appropriate, but it has different arrows. This distinction keeps the mathematical formalism capable of expressing change rather than disguising revision as preservation.
+
+### Optional proof: composing comparisons
+
+Suppose another functor \(H:D \to  E\) is applied to both interpretations. The components \(H(\alpha [x])\) form a transformation \(H\alpha :HF \Rightarrow  HG\). Applying \(H\) to the naturality equation proves this. If instead \(K:B \to  C\) is applied beforehand, the components \(\alpha [K(b)]\) form \(\alpha K:FK\Rightarrow GK\). These operations are called whiskering: a comparison is transported through a preceding or subsequent interpretation.
+
+With \(\alpha :F \Rightarrow  G\) and \(\beta :H \Rightarrow  J\), there is also a horizontal composite \(\beta \star \alpha :HF \Rightarrow  JG\). Its component is
+
+\[
+\begin{gathered}(\beta \star \alpha )[x]=\beta [Gx] \circ  H(\alpha [x])\\=J(\alpha [x]) \circ  \beta [Fx].\end{gathered}
+\]
+
+Why are the two expressions equal? Apply naturality of \(\beta \) to the arrow \(\alpha [x]:Fx \to  Gx\). This is a useful change of level: a component of one natural transformation serves as the input arrow for another naturality condition. Every endpoint is specified, so the equation can be checked.
+
+Horizontal and componentwise vertical composition obey the interchange law. For \(\alpha :F \Rightarrow  G, \alpha ':G \Rightarrow  L, \beta :H \Rightarrow  J, \beta ':J \Rightarrow  M\), it is
+
+\[
+\begin{gathered}(\beta '\star \alpha ') \circ  (\beta \star \alpha )\\=(\beta ' \circ  \beta )\star (\alpha ' \circ  \alpha ).\end{gathered}
+\]
+
+For example, expand the left component as
+
+\[
+\beta '[Lx]J(\alpha '[x])\beta [Gx]H(\alpha [x]).
+\]
+
+Naturality of \(\beta \) changes the middle pair to \(\beta [Lx]H(\alpha '[x])\). Functoriality of \(H\) then combines the last two factors. The result is exactly the right component. These operations allow a system of interpretations and comparisons to compose coherently; their existence still depends on the particular functors and naturality conditions having been established.
+
+## 7. Knowledge, ignorance, devotion and fulfilled life in Advaita
+
+Return to the Advaita distinction between the self and changing presentation. The following authors disagree about ignorance, the work of instruction and practice, and what continues after knowledge. Their accounts of divine form and devotion also make positive claims about fulfilled life.
+
+### Śaṅkara: divine embodiment and devotional relation
+
+Gītā4.6 puts manifestation and birthlessness in the same statement:
+
+**Bhagavadgītā, 4.6** ([source](cite://bhagavadgita/bhagavadgita/inspectable-df-gita-46)).
+
+> ajo 'pi sann avyayātmā bhūtānām īśvaro 'pi san |
+> prakṛtiṃ svām adhiṣṭhāya saṃbhavāmy ātma-māyayā ||
+
+Literal translation: Although unborn and of imperishable self, although Lord of beings, having taken command of my own prakṛti, I come forth through my own māyā.
+
+The root names *prakṛti* and *māyā*. The commentaries give different explanations of those words. “Having taken command” here follows the governing relation Śaṅkara makes explicit. “I come forth” should not already be read as the production of a previously nonexistent divine self.
+
+The preceding exchange asks how the speaker could have instructed Vivasvat long ago when his present birth seems recent. Śaṅkara’s4.5 explanation distinguishes the Lord’s knowledge-power from Arjuna’s:
+
+**Bhagavadgītābhāṣya, 4.5** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-45)).
+
+> bahūni me mama vyatītāni atikrāntāni janmāni tava ca he arjuna tāny ahaṃ veda jāne sarvāṇi na tvaṃ vettha jānīṣe | dharmādharmādi-pratibaddha-jñāna-śaktitvāt | ahaṃ punar nitya-śuddha-buddha-mukta-svabhāvatvād anāvaraṇa-jñāna-śaktir iti vedāham | he parantapa
+
+Literal translation: Many births of mine and of yours have passed, Arjuna. I know all of them; you do not know them, because your power of knowledge is obstructed by merit, demerit and the like. I, however, being of an eternally pure, awakened and free nature, have an unobstructed power of knowledge; therefore I know. O tormentor of foes.
+
+This is a precise reason not to infer limitation of the manifested divine person from the limitations of an ordinary embodied observer. Śaṅkara does not answer merely that both are really the self. He distinguishes unobstructed and obstructed knowledge-power within the explanatory account. His4.6 commentary then gives the conditions of the manifestation:
+
+**Bhagavadgītābhāṣya, 4.6** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-46)).
+
+> ajo 'pi janma-rahito 'pi san, tathāvyayātmākṣīṇa-jñāna-śakti-svabhāvo 'pi san, tathā bhūtānāṃ brahmādi-stamba-paryantānām īśvara īśana-śīlo 'pi san | prakṛtiṃ svāṃ mama vaiṣṇavīṃ māyāṃ triguṇātmikāṃ yasyā vaśe sarvam idaṃ jagad vartate | yayā mohitaṃ jagat sat svam ātmānaṃ vāsudevaṃ na jānāti | tāṃ prakṛtiṃ svām adhiṣṭhāya vaśīkṛtya saṃbhavāmi dehavān iva bhavāmi jāta ivātma-māyayātmano māyayā, na paramārthato lokavat
+
+Literal translation: Although unborn, that is, free from birth; likewise although of imperishable self, whose nature is undiminished knowledge-power; likewise although Lord, disposed to ruling, of beings from Brahmā down to a clump of grass: [I take command of] my own prakṛti, my three-guṇa Vaiṣṇava māyā, under whose sway this entire world exists, deluded by which the world does not know Vāsudeva as its own self. Having taken command of that own prakṛti, having brought it under control, I come forth: I become as though embodied, as though born, through my own māyā—not ultimately as people do.
+
+The Lord controls the māyā under whose sway the world lies. Manifestation therefore does not have the same explanation as a birth forced by merit and demerit. The two *iva* expressions—“as though embodied,” “as though born”—and the concluding “not ultimately as people do” are equally part of the account. Omitting them would misrepresent Śaṅkara; treating them as if they erased the meaningful appearance and activity would also lose the point of his explanation.
+
+The 4.9 explanation names protection of the good among the Lord’s actions and explicitly connects understanding this divine birth and action with release:
+
+**Bhagavadgītābhāṣya, 4.9** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-49)).
+
+> taj-janma māyā-rūpaṃ, karma ca sādhu-paritrāṇādi, me mama divyam aprākṛtam aiśvaram evaṃ yathoktaṃ yo vetti tattvatas tattvena yathāvat tyaktvā deham imaṃ punar janma punar utpattiṃ naiti na prāpnoti, mām ety āgacchati, sa mucyate he 'rjuna
+
+Literal translation: That birth has the form of māyā, and the action is protecting the good and the rest. Whoever knows this divine—nonordinary, lordly—birth and action of mine truly, just as stated, having abandoned this body, does not attain birth again; he comes to me, he is liberated, Arjuna.
+
+“Nonordinary” renders *aprākṛta* without importing another school’s complete theory of an eternal nonmaterial body. The passage makes the appearance soteriologically important while qualifying the kind of birth involved. An apparent form can therefore be an effective means of recognition without becoming a new ultimately produced entity.
+
+Gītā9.11 supplies a complementary warning about misreading the human appearance:
+
+**Bhagavadgītā, 9.11** ([source](cite://bhagavadgita/bhagavadgita/inspectable-df-gita-911)).
+
+> avajānanti māṃ mūḍhā mānuṣīṃ tanum āśritam |
+> paraṃ bhāvam ajānanto mama bhūta-maheśvaram ||
+
+Literal translation: The deluded disregard me when I have resorted to a human body, not knowing my higher nature as the great Lord of beings.
+
+**Bhagavadgītābhāṣya, 9.11** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-911)).
+
+> avajānanty avajñāṃ paribhavaṃ kurvanti māṃ mūḍhā avivekinaḥ | mānuṣīṃ manuṣyasaṃbandhinīṃ tanuṃ deham āśritam, manuṣyadehena vyavaharantamity etat, paraṃ prakṛṣṭaṃ bhāvaṃ param ātma-tattvam ākāśa-kalpam ākāśād apy antaratamam ajānanto mama bhūta-maheśvaraṃ sarva-bhūtānāṃ mahāntam īśvaraṃ svātmānam | tataś ca tasya mamāvajñāna-bhāvanena āhatās te varākāḥ
+
+Literal translation: The deluded, undiscriminating people disregard me: they show disrespect, contempt. “Having resorted to a human body” means transacting through a human body. They do not know my higher, excellent nature, the supreme reality of the self, like space, more inward even than space, the great Lord of beings, the great ruler of all beings, their own self. Therefore those pitiable people are injured by their attitude of disregard for me.
+
+“Transacting through a human body” is not the entirety of the speaker’s reality. The commentary turns to the supreme self and its inwardness. It does not explain the difference by simply replacing a small body with a spatially enormous body.
+
+These passages give a real beginning for the proposed account of formed manifestation without loss of completeness. They do not yet prove that every form, every saint, and every divine manifestation has identical powers or identical status. Śaṅkara’s4.5 distinction is already evidence against flattening those differences.
+
+The received devotional corpus is evidence for Advaita’s life as a tradition even where historical authorship is not independently secured. The Ṣaṭpadī verse traditionally attributed to Śaṅkara states:
+
+**Viṣṇuṣaṭpadī, Verse 3** ([source](cite://shankara/vishnu-shatpadi/inspectable-a-sh-devotion)).
+
+> satyapi bhedāpagame nātha tavāhaṃ na māmakīnastvam |
+> sāmudro hi taraṅgaḥ kvacana samudro na tāraṅgaḥ || 3||
+
+Literal translation: Even with difference gone, Lord, I am yours; you are not mine. For the wave is the ocean’s; the ocean is not the wave’s anywhere.
+
+The literal words say “I am yours,” not “I serve you.” Service can be a devotional interpretation, but it should not replace the source wording. The verse affirms asymmetry even with difference gone. It does not by itself identify a metaphysical relation with the full ocean argument of the Bṛhadāraṇyaka commentary, where a different speaker and a different inference occur. The same image must be read in its own argument.
+
+**Other deities and common reference**
+
+Śaṅkara’s9.23 context is an important test of a proposed integration of devotional forms. He accepts a question that would be easy to overlook if we read only the warning about worship without proper understanding:
+
+**Bhagavadgītābhāṣya with quoted root, 9.23 introduction, root and own gloss;9.24 gloss** ([source](cite://shankara/gita-bhasya/inspectable-df-sh-deities)).
+
+> nanv anyāpi devatās tvam eva cet tad-bhaktāś ca tvām eva yajante | satyam evam -
+
+> ye 'py anya-devatā-bhaktā yajante śraddhayānvitāḥ |
+> te 'pi mām eva kaunteya yajanty avidhi-pūrvakam ||
+
+> ye 'py anya-devatā-bhaktā anyāsu devatāsu bhaktā anya-devatā-bhaktāḥ santo yajante pūjayanti śraddhayā āstikya-buddhyānvitā anugatāḥ, te 'pi mām eva kaunteya yajanty avidhi-pūrvakam avidhir ajñānaṃ tat-pūrvakaṃ yajanta ity arthaḥ
+
+> ahaṃ hi sarva-yajñānāṃ śrautānāṃ smārtānāṃ ca sarveṣāṃ yajñānāṃ devatātmatvena bhoktā ca prabhur eva ca | mat-svāmiko hi yajñaḥ, adhiyajño 'ham evātra [Gītā 8.4] iti hy uktam | tathā na tu mām abhijānanti tattvena yathāvat | ataś cāvidhi-pūrvakam iṣṭvā yāga-phalāc cyavanti pracyavante te
+
+Literal translation: [Question:] If the other deities too are precisely you, their devotees also worship you. [Answer:] It is indeed so. [Root:] Even those devoted to other deities who worship endowed with faith worship precisely me, son of Kuntī, but preceded by a wrong procedure. [Śaṅkara:] Those devoted to other deities worship, honor, endowed with faith, an affirmative conviction. They too worship precisely me; avidhi is ignorance, and their worship is preceded by that—this is the meaning. For I am the enjoyer and lord of all sacrifices, Vedic and remembered, as the self of the deities. A sacrifice indeed has me as its master; “I alone am the presiding deity of sacrifice here” was said. But they do not know me truly, as I am. Therefore, having sacrificed with ignorance preceding, they fall away from the fruit of sacrifice.
+
+The first affirmative reply matters: the other deities too are the same addressed reality, and their devotees too worship that reality. The ensuing qualification also matters: Śaṅkara glosses *avidhi* as ignorance. Thus common reference does not automatically establish equivalent understanding or equivalent fruit.
+
+A broader integrative account can compare this shared reference and the qualification concerning ignorance with other traditions, while making explicit which conditions it retains, reinterprets or rejects. The quoted 9.23–24 passage does not by itself enumerate the destinations or fruits of every form of worship.
+
+### Gauḍapāda, Maṇḍana and Sureśvara: the work of practice
+
+Gauḍapāda distinguishes disciplined nonconceptuality from deep sleep:
+
+**Māṇḍūkyakārikā, 3.34–36** ([source](cite://gaudapada/mandukya-karika/inspectable-a-gau-sleep)).
+
+> nigṛhītasya manaso nirvikalpasya dhīmataḥ  /
+> pracāraḥ sa tu vijñeyaḥ suṣupte 'nyo na tatsamaḥ //
+
+> līyate hi suṣupte tan nigṛhītaṃ na līyate  /
+> tad eva nirbhayaṃ brahma jñānālokaṃ samantataḥ //
+
+> ajam anidram asvapnam anāmakam arūpakam  /
+> sakṛdvibhātaṃ sarvajñaṃ nopacāraḥ kathaṃcana //
+
+Literal translation: The course of the restrained, nonconceptual mind of the discerning person is to be understood; in deep sleep it is different, not the same as that. For in deep sleep it subsides; restrained, it does not subside. That very [reality] is fearless Brahman, the light of knowledge all around. Unborn, sleepless, dreamless, nameless, formless, once-for-all manifest, all-knowing: this is in no way a figurative expression.
+
+**Gauḍapāda, Māṇḍūkyakārikā, 3.44–46** ([source](cite://gaudapada/mandukya-karika/inspectable-a-gau-practice)).
+
+> laye saṃbodhayec cittaṃ vikṣiptaṃ śamayet punaḥ  /
+> sakaṣāyaṃ (vijānīyāt sama [b:]vijānīyāc chama)prāptaṃ na cālayet //
+
+> nāsvādayet sukhaṃ tatra niḥsaṅgaḥ prajñayā bhavet  /
+> niścalaṃ niścarat cittam ekīkuryāt prayatnataḥ //
+
+> yadā na līyate cittaṃ na ca vikṣipyate punaḥ  /
+> aniṅganam anābhāsaṃ niṣpannaṃ brahma tat tadā //
+
+Literal translation: In subsidence one should awaken the mind; when distracted, quiet it again. One should recognize it as having residual coloring; when it has reached evenness, one should not stir it. One should not savor happiness there; one should become unattached through discernment. One should effortfully unify the mind when, though still, it goes outward. When the mind neither subsides nor is distracted again, then that, unmoving and without appearance, is accomplished Brahman.
+
+**Gauḍapāda, Māṇḍūkyakārikā, 2.32 and 3.48** ([source](cite://gaudapada/mandukya-karika/inspectable-a-gau-unborn)).
+
+> na nirodho na cotpattir na baddho na ca sādhakaḥ  /
+> na mumukṣur na vai mukta ity eṣā paramārthatā //
+
+> na kaścij jāyate jīvaḥ saṃbhavo 'sya na vidyate  /
+> etat tad uttamaṃ satyaṃ yatra kiṃcin na jāyate //
+
+Literal translation: There is no cessation and no origination, no bound one and no practitioner, no seeker of liberation and no liberated one: this is ultimate reality. No jīva whatsoever is born; its coming-to-be does not exist. This is that highest truth in which nothing whatsoever is born.
+
+The phrase “in no way figurative” also prevents us from deciding in advance that every reference to formlessness must be merely a dispensable teaching image. His next practical instructions differentiate subsidence, distraction, residual coloring, and stabilization (3.44–46, [source: Māṇḍūkyakārikā 3.44–46](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_gauDapAda-AgamazAstra.xml)). Subsidence calls for awakening the mind, distraction for calming it; savoring the happiness of the state is itself cautioned against. The electronic witness preserves *samaprāpta* alongside a *śamaprāpta* variant; a critical choice is not asserted here. His nonorigination statements at2.32 and 3.48 ([source: Māṇḍūkyakārikā 2.32 and 3.48](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_gauDapAda-AgamazAstra.xml)) must accompany, rather than be replaced by, the practical state description.
+
+Maṇḍana likewise resists treating a positive realization solely as a negative absence. His opening argument rejects the definition of happiness as nothing but the cessation of pain:
+
+**Brahmasiddhi, Brahmakāṇḍa1.1, KKSpp1–3** ([source](cite://mandana-misra/brahma-siddhi/inspectable-a-man-bliss)).
+
+> na tāvadduḥkhanivṛttireva sukham, yugapatsukhaduḥkhayordarśanātsaṃtāpavataḥ śītahrade nimagnārdhakāyasya /
+
+Literal translation: Happiness is not merely cessation of pain, because happiness and pain are seen simultaneously in one with fever whose body is half immersed in a cool pool.
+
+The counterexample distinguishes simultaneous features of experience; it does not alone prove the whole metaphysics of Brahman-bliss. His treatment of contemplation also keeps two questions apart: whether a stream of contemplation is useful, and whether an independent prescription is needed to obtain its already intelligible purpose.
+
+**Brahmasiddhi, Niyogakāṇḍa, KKS p154** ([source](cite://mandana-misra/brahma-siddhi/inspectable-a-man-contemplation)).
+
+> atha tu vākyāntarāttattvaniṣṭhādadhigate tadviṣayapratyayapravāhavidhānamiṣyate / bhavatu / na kaściddoṣaḥ / tathā ca ‘vijñāya prajñāṃ kurvīta'ityātmatattvavijñānasya siddhatāṃ darśayati / tadapi vā vyarthameva, prāptārthatvāt / sākṣātkaraṇaphalaṃ hi tattadanucintanaṃ dṛṣṭārtham, na tato 'nyatphalamākāṅkṣyate / amṛtatvaṃ hi na svarūpāvirbhāvādanyaditi prāgvarṇitam /
+
+Literal translation: But if, when [reality] has been understood from another sentence directed at reality, the prescribing of a stream of cognitions concerning it is desired, let it be: there is no fault. And thus “having understood, one should develop understanding” shows that knowledge of the self’s reality is established. Or that too is useless, because its object is already obtained. For repeated contemplation of that has immediate realization as its result, an observed purpose; no result other than that is sought. For immortality is not different from the manifestation of one’s own nature, as explained before.
+
+**Maṇḍana Miśra, Brahmasiddhi, Siddhikāṇḍa4.3–4, KKS p157** ([source](cite://mandana-misra/brahma-siddhi/inspectable-a-man-dissolution)).
+
+> sarvapratyayavedye vā brahmarūpe vyavasthite /
+> prapañcasya pravilayaḥ śabdena pratipādyate //
+
+> pravilīnaprapañcena tadrūpeṇa na gocaraḥ /
+> mānāntarasyeti matamāmnāyaikanibandhanam //
+
+
+
+Literal translation: Or, when Brahman’s nature is established as knowable in every cognition, the dissolution of the manifold is communicated by the word. It is held to rest solely upon scripture because, in that nature with the manifold dissolved, it is not the domain of another means of knowledge.
+
+The alternatives and their argumentative voices matter. “Let it be” is a concession to a proposed prescription; “or it is useless” is the alternative that its purpose is already obtained. Neither amounts to “practice manufactures immortality.” The stated result is manifestation of one’s own nature. His separate discussion of scripture and dissolution of the manifold ([source: Brahmasiddhi Siddhikāṇḍa4.3–4, KKS p157](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_mandanamizra-brahmasiddhi.xml)) supplies another part of that account.
+
+Sureśvara’s treatment should not be merged into Maṇḍana’s by calling both “meditation.” He explains the role of *nididhyāsana* and the endpoint of hearing:
+
+**Bṛhadāraṇyakabhāṣyavārttika, 2.4.217–218 and 233–234** ([source](cite://suresvara/brhadaranyaka-varttika/inspectable-a-sur-practice)).
+
+> aparāyattabodho'tra nididhyāsanamucyate | pūrvayoravadhitvena tadupanyāsa iṣyate || 217 ||
+> śravaṇādikriyā tāvatkartavyeha prayatnataḥ | yāvadyathoktaṃ vijñānamāvirbhavati bhāsvaram || 218 ||
+> dhyānāśaṅkānivṛttyarthaṃ vijñāneneti bhaṇyate | nididhyāsanaśabdena dhyānamāśaṅkyate yataḥ || 233 ||
+> vijñānotpattihetutvaṃ dhyānādeḥ prāgavādiṣam | svārthameva tu vijñānaṃ muktimātraphalaṃ smṛtam || 234 ||
+
+Literal translation: Here understanding not dependent on another is called nididhyāsana; its introduction is intended as the culmination of the preceding two. The activity of hearing and the rest must be performed here with effort until the knowledge described becomes luminously manifest. “Through knowledge” is said to remove the suspicion of meditation, because meditation is suspected from the word nididhyāsana. I previously stated that meditation and the rest cause the arising of knowledge; knowledge itself is for its own purpose, remembered as having liberation alone as its fruit.
+
+**Sureśvara, Bṛhadāraṇyakabhāṣyavārttika, 2.4.167,170–171** ([source](cite://suresvara/brhadaranyaka-varttika/inspectable-a-sur-knowledge)).
+
+> pramopajāyate tāvadahaṃ brahmetyalaukikī | tattvamasyādivākyebhyaḥ śravaṇātsamanantaram || 167 ||
+> nāpyarthe'tīndriye siddhe mānaṃ liṅgādyapekṣate | yogipratyakṣamānaṃ vā tayoraviṣayatvataḥ || 170 ||
+> netītyasthūlamityādivākyādyo'rtho'vagamyate | yogipratyakṣagamyo'yaṃ na tatpratyaktvahetutaḥ || 171 ||
+
+Literal translation: First, the extraordinary knowledge “I am Brahman” arises from sentences such as “you are that,” immediately upon hearing. Nor does a means of knowledge concerning an established supersensible reality await an inferential mark or the like, or a means of knowledge consisting in yogic perception, because [that reality] is not their object. The meaning understood from sentences such as “not this” and “not gross” is not accessible to yogic perception, because it is inward.
+
+Hearing and the other activities continue until the described knowledge becomes manifest. Meditation can contribute to knowledge’s arising, but knowledge itself has liberation as its result. His 2.4.167,170–171 discussion ([source: Bṛhadāraṇyakabhāṣyavārttika 2.4.167,170–171](https://advaitasharada.sringeri.net/read/brihadaranyakabhashya-vartika/2-4-1/)) rejects treating this knowledge like yogic perception of an otherwise distant object. The course therefore needs explicit distinctions among preparation, means of knowledge, realization, and a produced state. These practice verses do not establish his separate interpretation of the fullness mantra.
+
+### Vācaspati, Padmapāda and Prakāśātman: the ignorance debate
+
+**Vācaspati Miśra, Bhāmatī, 1.4.3** ([source](cite://vacaspati/bhamati/inspectable-a-vac-distribution)).
+
+> ayamabhisaṃdhiḥ-na vayaṃ pradhānavadavidyāṃ sarvajīveṣvekāmācakṣmahe, yainevamupālamemahi, kintviyaṃ pratijīvaṃ bhidyate / tena yasyaiva jīvasya vidyotpannā tasyaivāvidyāpanīyate na jīvāntarasya, bhinnādhikaraṇayorvidyāvidyayoravirodhāt, tatkutaḥ samastasaṃsārocchedaprasaṅgaḥ /
+
+Literal translation: This is the intention: we do not declare ignorance to be one in all jīvas like pradhāna, so that we would be reproached in this way; rather it differs for each jīva. Therefore ignorance is removed only for the jīva for whom knowledge has arisen, not for another jīva, because knowledge and ignorance in different loci do not contradict. Whence, then, the consequence that all saṃsāra would be destroyed?
+
+Vācaspati answers a problem of distribution: if one ignorance underlies all beings, why should one person’s knowledge not release everyone? His answer assigns ignorance separately to each jīva ([source: Bhāmatī 1.4.3](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)). He then distinguishes several senses of dependence:
+
+**Bhāmatī, 1.4.3** ([source](cite://vacaspati/bhamati/inspectable-a-vac-locus)).
+
+> tasmājjīvādhikaraṇāpyavidyā nimittatayā viṣayatayā ceśvaramāśrayata itīśvarāśrayetyucyate, na tvādhāratayā, vidyāsvabhāve brahmaṇi tadanupapatteriti /
+
+Literal translation: Therefore ignorance, though having the jīva as its locus, depends on Īśvara as causal condition and as object, and so is called dependent on Īśvara; not as a receptacle, because that is not possible in Brahman whose nature is knowledge.
+
+**Vācaspati Miśra, Bhāmatī, 1.4.3** ([source](cite://vacaspati/bhamati/inspectable-a-vac-beginningless)).
+
+> na cāvidyopādhibhedādhīno jīvabhedo jīvabhedādhīnaścāvidyopādhibheda iti parasparāśrayādubhayāsiddhiriti sāṃpratam / anāditvādbījāṅkuravadubhayasiddheḥ /
+
+Literal translation: Nor is it appropriate [to object] that the distinction of jīvas depends on the distinction of ignorance-conditions, and the distinction of ignorance-conditions depends on the distinction of jīvas, so that through mutual dependence neither is established: because of beginninglessness both are established, as with seed and sprout.
+
+**Vācaspati Miśra, Bhāmatī, 1.4.22** ([source](cite://vacaspati/bhamati/inspectable-a-vac-jiva)).
+
+> na jīva ātmano 'nyaḥ / nāpi tadvikāraḥ kintvātmaivāvidyopādhānakalpitāvacchedaḥ / ākāśa iva ghaṭamaṇikādikalpitāvacchedo ghaṭākāśo maṇikākāśo na tu paramākāśādanyastadvikāro vā /
+
+Literal translation: The jīva is not other than the self. Nor is it a modification of that; rather it is the self itself with a delimitation imagined through the condition of ignorance. As space with a delimitation imagined through a pot or jar is pot-space or jar-space, it is not other than supreme space or a modification of it.
+
+**Vācaspati Miśra, Bhāmatī, 4.1.3** ([source](cite://vacaspati/bhamati/inspectable-a-vac-ultimate)).
+
+> niraṃśasyāpi cānādyanirvācyāvidyātatatadvāsanāsamāropitavividhaprapañcātmanaḥ sāṃśasyeva kasyacidaṃśasyāgrahaṇādvibhrama iva paramārthastu na vibhramo nāma kaścinna ca saṃsāro nāma /
+
+Literal translation: Even though [the self] is partless, with the varied manifold superimposed by beginningless indeterminable ignorance and its dispositions, [it is] as though possessing parts; through nonapprehension of some part, [there is] as though error. Ultimately, however, there is no so-called error and no so-called saṃsāra.
+
+Here *adhikaraṇa*, causal dependence, and object-directed dependence cannot be translated into a single untyped “is in” relation. The jīva is the locus, whereas Īśvara can be called support in other senses. The nearby seed/sprout reply denies that this requires an initial temporal member ([source: Bhāmatī 1.4.3](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)). His jīva discussion at1.4.22 rejects another substance or real modification in favor of delimitation ([source: Bhāmatī 1.4.22](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)); 4.1.2 discusses the prepared mind and knowledge ([source: Bhāmatī 4.1.2](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)), while4.1.3 explicitly qualifies the ultimate discussion ([source: Bhāmatī 4.1.3](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_vAcaspatimizra-bhAmati.xml)). The position is richer than a box containing ignorance. His prepared-mind account also gives a specific role to the cognitive instrument:
+
+**Bhāmatī, 4.1.2** ([source](cite://vacaspati/bhamati/inspectable-a-vac-prepared)).
+
+> ayamabhisandhiḥ---satyaṃ na brahmasākṣātkāraḥ sākṣādāgamayukttiphalamapi tu yuktyāgamārthajñānāhitasaṃskārasacivaṃ citameva brahmaṇi sākṣātkāravartīṃ buddhivṛttiṃ samādhatte /
+
+Literal translation: The intention is this: true, immediate realization of Brahman is not directly the result of scripture and reasoning; rather the mind itself, assisted by dispositions laid down by knowledge of the meaning of reasoning and scripture, establishes in Brahman an intellect-modification possessing immediate realization.
+
+Scripture and reasoning prepare the mind through dispositions; immediate realization is not described simply as adding a proposition to an inventory. This is his positive explanatory answer, not a denial that scripture matters.
+
+Padmapāda’s reading of the introductory vocabulary takes a different explanatory step:
+
+**Pañcapādikā, First varṇaka79** ([source](cite://padmapada/pancapadika/inspectable-a-pad-positive)).
+
+> mithyā ca tadajñānaṃ ca mithyājñānam | mithyeti anirvacanīyatā ucyate | ajñānamiti ca jaḍātmikā avidyāśaktiḥ jñānaparyudāsena ucyate | tannimittaḥ tadupādānaḥ ityarthaḥ ||
+
+Literal translation: It is both mithyā and ignorance: mithyājñāna. By mithyā indeterminability is stated. By ajñāna an insentient ignorance-power is stated through exclusion of knowledge. “Having that as its occasion” means “having that as its material source.”
+
+This is Padmapāda’s gloss, not a quotation in which Śaṅkara already says “insentient ignorance-power” and “material source.” His next discussion explains what is concealed despite the self’s being manifest:
+
+**Pañcapādikā, First varṇaka80** ([source](cite://padmapada/pancapadika/inspectable-a-pad-conceal)).
+
+> pratyagātmani tu citisvabhāvatvāt svayamprakāśamāne brahmasvarūpānavabhāsasya ananyanimittatvāt tadgatanisargasiddhāvidyāśaktipratibandhādeva tasya anavabhāsaḥ | ataḥ sā pratyakciti brahmasvarūpāvabhāsaṃ pratibadhnāti, ahaṅkārādyatadrūpapratibhāsanimittaṃ ca bhavati,
+
+Literal translation: In the inward self, however, self-manifest because its nature is consciousness, the nonappearance of Brahman-nature, having no other occasion, occurs only through obstruction by the naturally established ignorance-power there. Therefore it obstructs the appearance of Brahman-nature in inward consciousness and is an occasion of the appearance of ego and the rest which do not have that nature.
+
+**Padmapāda, Pañcapādikā, First varṇaka99** ([source](cite://padmapada/pancapadika/inspectable-a-pad-notphysical)).
+
+> atha śuktereva doṣanimitto rajatarūpaḥ pariṇāma ucyate, etadapyasāram ; na hi kṣīrapariṇāme dadhani ‘nedaṃ dadhi’ iti bādho dṛṣṭaḥ ; nāpi kṣīramidam iti pratītiḥ, iha tu tadubhayaṃ dṛśyate | kiñca rajatarūpeṇa cet pariṇatā śuktiḥ, kṣīramiva dadhirūpeṇa, tadā doṣāpagame'pi tathaiva avatiṣṭheta |
+
+Literal translation: If a transformation of the shell into silver-form occasioned by a defect is asserted, this too is without substance. For in curd, the transformation of milk, cancellation “this is not curd” is not seen; nor the cognition “this is milk.” Here, however, both are seen. Moreover, if the shell transformed into silver-form like milk into curd-form, even upon disappearance of the defect it would remain just so.
+
+The self’s consciousness is not made absent. Its Brahman-nature fails to appear, while ego and other non-self features are presented. These are two different explanatory jobs. Yet the material-source language does not imply that a shell physically transmutes into silver; he explicitly refuses that inference ([source: Pañcapādikā First varṇaka99](https://advaitasharada.sringeri.net/read/panchapadika/1/)). Nor does “having superimposed” force a separate, completed event before ordinary cognition. His grammatical argument says:
+
+**Pañcapādikā, First varṇaka76** ([source](cite://padmapada/pancapadika/inspectable-a-pad-temporal)).
+
+> ‘adhyasya’ ‘mithunīkṛtya’ iti ca ktvāpratyayaḥ, na pūrvakālatvamanyatvaṃ ca lokavyavahārādaṅgīkṛtya prayuktaḥ ; bhuktvā vrajatītivat kriyāntarānupādānāt | ‘adhyasya naisargiko'yaṃ lokavyavahāraḥ’ iti svarūpamātraparyavasānāt | upasaṃhāre ca ‘evamayamanādirananto naisargiko'dhyāsaḥ’ iti tāvanmātropasaṃhārāt ||
+
+Literal translation: And the ktvā suffix in “having superimposed” and “having coupled” is not used accepting temporal priority and otherness from worldly usage, since no other action is introduced as in “having eaten, he goes”; because “having superimposed, this natural worldly transaction” culminates only in [its] nature, and because in the conclusion, “thus this beginningless, endless, natural superimposition,” only that much is concluded.
+
+The ktvā discussion blocks a chronological reading of explanatory dependence. A proposed process model must not convert explanatory dependence into an earlier event merely because English says “having.”
+
+Prakāśātman opens a further distinction between witness-consciousness and the mediation that makes an object known:
+
+**Pañcapādikāvivaraṇa, Printed 13/PDF 31, opening reply** ([source](cite://prakasatman/pancapadika-vivarana/inspectable-a-pra-knowing)).
+
+> ucyate | sarvaṃ vastu jñātatayā vā'jñātatayā vā sākṣicetanyasya viṣaya eva | tatra jñātatayā viṣayaḥ pramāṇavyavadhānamapekṣate |
+
+Literal translation: It is said: every thing, either as known or as unknown, is indeed an object of witness-consciousness. There, an object as known requires the mediation of a means of knowledge.
+
+A thing’s presentation as known and its presentation as unknown do different work. His source inference explicitly refuses an ultimately real material explanation of error:
+
+**Pañcapādikāvivaraṇa, Printed 13/PDF 31, material-source inference** ([source](cite://prakasatman/pancapadika-vivarana/inspectable-a-pra-source)).
+
+> satyopādānatve kāryasya kāraṇasvabhāvatayā'dhyāsasyāpi satyatvaprasaṅgāt |
+
+Literal translation: Because, if the material source were real, the effect having the nature of its cause would entail that superimposition too is real.
+
+Thus the positive ignorance account is not the claim that a second ultimately real substance manufactures illusion. A later exchange asks what ignorance is connected with when it occasions differentiation. Prakāśātman takes up that question through a mirror comparison:
+
+**Pañcapādikāvivaraṇa, Printed 45/PDF 63, opening reply** ([source](cite://prakasatman/pancapadika-vivarana/inspectable-a-pra-distinction)).
+
+> nanu darpaṇādidravyaṃ vā kiñcid bimbabhedanimittam | mukhābhāsasaṃbandhīti ced ihāpi cetanasvarūpamātrasaṃbandhyajñānaṃ tatra jīvabrahmavyavahārabhedaṃ pravartayati |
+
+Literal translation: But a substance such as a mirror, something that occasions a difference of the image—[what is it connected with]? If [one says] that it is connected with the appearance of the face, here too ignorance connected with conscious nature alone brings about there the distinction in usage as jīva and Brahman.
+
+The next question is whether ignorance belongs to consciousness or to consciousness qualified by the inner organ. Prakāśātman argues that adding the inner organ does not remove the difficulty. His reply includes a concession, then explains why he prefers the consciousness locus. [Pañcapādikāvivaraṇa, printed p. 45, connected locus reply](cite://prakasatman/pancapadika-vivarana/reader-consciousness-locus).
+
+> atha svarūpāśrayatvānupapatter viśiṣṭāśrayatvaṃ kalpyata iti cet | na | viśiṣṭe 'pi svarūpasaṃbandhasya vidyamānatvāj jaḍasya cājñānāśrayatve bhrāntisamyagjñānayor api tadāśrayatvaprasaṅgāt | nanu svarūpe 'pi brahmaṇy anupapattis tulyā | satyam | anupapannadvayāśrayatvakalpanād varaṃ saṃpratipannasvarūpāśrayatvopādānam |
+
+Literal translation: [Objection:] If [one says], “Then, because resting on intrinsic nature is untenable, resting on the qualified [subject] is posited”—[reply:] no; because the connection with intrinsic nature exists even in the qualified [subject], and because, if the inert [inner organ] were the locus of ignorance, erroneous and correct cognition too would have to have that as their locus. [Objection:] But the difficulty is equal even in Brahman, the intrinsic nature. [Reply:] True. Rather than positing [ignorance's] resting on two untenable [supports], it is preferable to adopt its resting on the acknowledged intrinsic nature.
+
+The proposed qualified subject includes the very consciousness whose relation to ignorance was disputed; adding an inert mind therefore does not make that problem disappear. It also creates another burden: if the inert organ supports ignorance, it would have to support erroneous and correct cognition as well. Prakāśātman accepts that a difficulty remains for the consciousness account, but judges the alternative to multiply the problematic supports. His answer is a comparative explanatory preference for consciousness as locus, not the claim that an inert mind independently generates knowledge. This gives a concrete disagreement with accounts that assign ignorance to individual knowers or treat an explanatory ignorance-power as unnecessary. The model should keep the locus, the differentiated empirical knower and the correcting cognition distinct.
+
+### Madhusūdana: nonduality and the work of correction
+
+The Siddhāntabindu is unusually direct about the inadequacy of numerical oneness:
+
+**Siddhāntabindu, Commentary on stanza10** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-number)).
+
+> ekatvasaṅkhyāyogi ekam / tad apekṣābuddhijanyadvitvasaṅkhyāyogi dvitīyam / tata ekābhāve dvitīyaṃ kutaḥ syāt / dvitīyaṃ ca tṛtīyādīnām apy upalakṣaṇam / nanu, "ekam evādvitīyam" (chu vi.2.1.) iti śrutyā ekatvaṃ pratipādyate / na, ity āha -- na vā kevalatvam iti / kevalam ekatvaṃ, tasyāvidyakatvāt / yady ātmana ekatvaṃ śrutyā na pratipādyate, tarhi pratyakṣādipramāṇavaśād anekatvaṃ syād iti cet, na, ity āha -- na cākevalatvam iti / akevalatvam anekatvaṃ, "neha nānāsti kiñcana" (bau iv.4.19.), "ekam evādvitīyam" (chu vi.2.1.), "athāta ādeśo neti neti" (bau ii.3.6.) ityādiśrutibhyaḥ /
+
+> sarvatra hetum āha -- advaitakatvād iti / dvidhā itaṃ dvītaṃ tasya bhāvo dvaitam / tad uktaṃ vārtike "dvidhetaṃ dvītam ity āhus tadbhāvo dvaitam ucyate" (baubhv iv.3.1807.) iti / na vidyate dvaitaṃ dvidhābhāvo yatra tad advaitam ity akṣarārthaḥ / "salila eko dṛṣṭādvaitaḥ" (bau iv.3.32.) itiśruteḥ /
+
+Literal translation: “One” is what possesses the number one. “Second” is what possesses the number two generated by a cognition of reference to that [one]. Therefore, when there is no one, whence a second? “Second” also stands for third and the rest. [Objection:] Scripture, “one alone, without a second,” teaches oneness. [Reply:] No; he says “nor sole-ness.” Sole-ness is oneness, because that is due to ignorance. [Objection:] If the self’s oneness is not taught by scripture, plurality would follow through perception and other means of knowledge. [Reply:] No; he says “nor non-sole-ness.” Non-sole-ness is plurality, [excluded] by scriptural passages including “there is no plurality here whatsoever,” “one alone, without a second,” and “not this, not this.” He gives the reason throughout: “because of nonduality.” What has gone twofold is dvīta; its condition is duality. The Vārttika says: “They call what has gone twofold dvīta; its condition is called duality.” Where duality, the condition of being twofold, does not exist, that is advaita: this is the literal meaning, because scripture says “one seer like water, nondual.”
+
+The printed Siddhāntabindu reads *draṣṭādvaito*, “the seer, nondual,” in the Bṛhadāraṇyaka quotation, where the electronic witness has *dṛṣṭādvaitaḥ*. The literal translation follows the printed reading.
+
+The argument denies that Advaita means merely assigning the self the number one. It also refuses the alternative that denying numerical oneness establishes plurality; the intervening discussion rejects emptiness as well. Numerical oneness, mathematical equality and shared reference are nevertheless distinct: denying the first does not by itself prohibit the use of equality or co-reference in a formal semantics. A formal account must explain why counting language is being denied while the intended self is not made nonexistent.
+
+Madhusūdana reports the following named alternatives in two selected stretches:
+
+**Madhusūdana Sarasvatī, Siddhāntabindu, Opening commentary, model comparison** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-reflections)).
+
+> ajñānopahitaṃ bimbacaitanyam īśvaraḥ, antaḥkaraṇatatsaṃskārāvacchinnājñānapratibimbitaṃ caitanyaṃ jīva iti vivaraṇakārāḥ / ajñānapratibimbitaṃ caitanyam īśvaraḥ, buddhipratibimbitaṃ caitanyaṃ jīvaḥ, ajñānopahitaṃ tu bimbacaitanyaṃ śuddham iti saṅkṣepaśārīrakakārāḥ / anayoś ca pakṣayoḥ buddhibhedāj jīvanānātvam /
+
+> ajñānaviṣayībhūtaṃ caitanyam īśvaraḥ, ajñānāśrayībhūtaṃ ca jīva iti vācaspatimiśrāḥ / asmiṃś ca pakṣe ajñānanānātvāj jīvanānātvam /
+
+
+
+Literal translation: “The prototype-consciousness conditioned by ignorance is Īśvara; consciousness reflected in ignorance delimited by the inner instrument and its dispositions is jīva”: thus the authors of the Vivaraṇa. “Consciousness reflected in ignorance is Īśvara; consciousness reflected in intellect is jīva; prototype-consciousness conditioned by ignorance is pure”: thus the author of the Saṃkṣepaśārīraka. In these two positions the plurality of jīvas follows from difference of intellects. “Consciousness made the object of ignorance is Īśvara, and made its locus is jīva”: thus Vācaspati Miśra. In this position plurality of jīvas follows from plurality of ignorance.
+
+Madhusūdana also reports multiple reflection and delimitation procedures ([source: Siddhāntabindu Opening commentary, model comparison](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_madhusUdanasarasvatI-siddhAntabindu.xml)). A consequential witness disagreement occurs in the semantic explanation attached to two reported reflection positions. The 1928 printed witness reads:
+
+**Siddhāntabindu, 1928 edition printed 226/PDF 246, maintext** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-reflection-indication)).
+
+> pratibimbasya pāramārthikatvāt jahadajahallakṣaṇaiva tattvamādipadeṣu |
+
+Literal translation: Because the reflection is real, there is precisely relinquishing-and-retaining indication in words such as “that” and “you.”
+
+The electronic witness instead gives *jahallakṣaṇā*, which would suggest wholly abandoning indication. The independent printed page and its commentary support *jahadajahallakṣaṇā*, relinquishing and retaining. This changes what the proposed semantics must preserve, so it cannot be dismissed as an orthographic variant. The statement is scoped to the two reported positions, not presented as Madhusūdana’s single final account of every procedure.
+
+Two selected stretches state the pedagogical role and its limit:
+
+**Madhusūdana Sarasvatī, Siddhāntabindu, Opening, procedure discussion** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-pluralism)).
+
+> advitīyātmatattvaṃ hi pradhānaṃ phalavattvād ajñātatvāc ca prameyaṃ śāstrasya / jīveśvaravibhāgādikalpanās tu puruṣabuddhimātraprabhavā api śāstreṇānūdyante, tattvajñānopayogitvāt / phalavat sannidhāv aphalaṃ tadaṅgam iti nyāyāt bhramasiddhasyāpi śrutyānuvādasambhavāt /
+
+> śrutitātparyaviṣayībhūtārthaviruddhatvaṃ ca heyam eveti śataśa udghoṣitam asmābhiḥ /
+
+Literal translation: For the nondual reality of the self is scripture’s principal object of knowledge, because it is fruitful and unknown. Conceptions such as division into jīva and Īśvara, although arising merely from human understanding, are restated by scripture because they are useful for knowledge of reality: according to the rule that what is without its own fruit, in proximity to what has a fruit, is subordinate to it, and because scripture can restate even what is established through error. We have proclaimed hundreds of times that contradiction of the meaning intended by scripture must indeed be rejected.
+
+His toleration of alternative procedures also has a boundary. In [source: Siddhāntabindu Opening, procedure discussion](http://gretil.sub.uni-goettingen.de/gretil/corpustei/sa_madhusUdanasarasvatI-siddhAntabindu.xml), the jīva/Īśvara divisions can serve an instructive function, but contradiction of scripture’s intended meaning is explicitly rejected. That is constrained pluralism, not evidence that every doctrine can be harmonized by declaring its disagreement merely local. His account of ordinary correction makes the target-dependence explicit in an alternative explanation:
+
+**Siddhāntabindu, Opening, ordinary cognition alternative** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-localcorrection)).
+
+> atha vā mūlājñānasyaivāvasthājñānāni ghaṭādiviṣayāvaraṇāni / ajñānasya prāgabhāvasthānīyatvena yāvanti jñānāni tāvanty ajñānānīty abhyupagamāt ekena ca jñānenaikājñānasyaiva nāśāt, ghaṭādijñānenāvaraṇanāśe 'pi na kācid anupapattiḥ /
+
+Literal translation: Or else the particular ignorance-states of root ignorance itself are the coverings of objects such as pots. Because ignorance occupies the place of prior absence, it is accepted that there are as many ignorances as knowledges; and because one knowledge destroys only one ignorance, even when a pot-cognition destroys covering there is no inconsistency.
+
+A pot-cognition removes the covering relevant to that object; it need not destroy every ignorance at once. The account is explicitly introduced as an alternative. At the other end of the analysis, failure to reify the result does not erase recognition:
+
+**Siddhāntabindu, Commentary on stanza7** ([source](cite://madhusudana/siddhanta-bindu/inspectable-a-mad-result)).
+
+> ayam arthaḥ -- yady apy avidyānivṛttir ātmānātmā veti vikalpane kim api phalaṃ nirūpayituṃ na śakyate tathāpi svarūpāvabodho vijñānaphalam anubhūyate /
+
+Literal translation: This is the meaning: although, when one considers whether cessation of ignorance is self or not-self, no result whatsoever can be determined, nevertheless recognition of one’s own nature is experienced as the fruit of knowledge.
+
+The experienced fruit and its classification as an ultimately separate thing are not the same issue.
+
+The Advaitasiddhi supplies a more technical account of falsity that specifies the relevant context. Two terms need explanation first. A **counterpositive** is what an absence or negation is the absence or negation of: in the absence of a pot, the pot is the counterpositive. A **delimiter** specifies the relevant respect or region, such as the part of a tree where contact with a monkey is being considered. These explanations orient the reader; the exact conditions still come from the argument:
+
+**Advaitasiddhi, Second definition of mithyātva, opening** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-definition)).
+
+> pratipannopādhau traikālikaniṣedhapratiyogitvaṃ vā mithyātvam |
+
+Literal translation: Or falsity is being the counterpositive of negation in all three times in the locus in which [it] is apprehended.
+
+**Advaitasiddhi, Second definition, reply to relation/delimiter objections** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-frame)).
+
+> yena rūpeṇa yadadhikaraṇatayā yat pratipannaṃ tena rūpeṇa tanniṣṭhātyantābhāvapratiyogitvasya pratipannapadena sūcitattvāt |
+> tacca rūpaṃ sambandhaviśeṣo'vacchedakaviśeṣaśca |
+> na hi sambandhaviśeṣamantareṇa bhūtale ghaṭādhikaraṇatā pratīyate |
+> avacchedakaviśeṣamantareṇa vā vṛkṣe kapisaṃyogādhikaraṇatā |
+> tathā ca yena sambandhaviśeṣeṇa yena cāvacchedakaviśeṣeṇa yadadhikaraṇatāpratītiryatra bhavitumarhati, tenaiva sambandhaviśeṣeṇa tenaiva cāvacchedakaviśeṣeṇa tadadhikaraṇakātyantābhāvapratiyogitvaṃ tasya mithyātvamiti paryavasite kva siddhasādhanam |
+
+Literal translation: Because the word “apprehended” indicates being the counterpositive of absolute absence in that [locus] in precisely the form in which it is apprehended as the locus of that [thing]. That form is a particular relation and a particular delimiter. For the ground’s being the locus of a pot is not apprehended without a particular relation, nor the tree’s being the locus of contact with a monkey without a particular delimiter. Thus, when the definition comes to this—its falsity is being the counterpositive of absolute absence located there through precisely that particular relation and precisely that particular delimiter through which the cognition of that locushood can occur there—where is the proving of what is already established?
+
+The relation and delimiter constrain the denial: denying the pot in one relation or the monkey-contact in one region cannot automatically cancel a presentation in another. But this is not the weak claim that only an object’s “ultimate status” is negated. The connected discussion admits negation of the presented thing in its own form and distinguishes ways correction can leave or remove appearance. The Navya discussion above presents the full objection, alternative and reply.
+
+**Madhusūdana Sarasvatī, Advaitasiddhi, Second definition, reality-order reply** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-orders)).
+
+> na caivaṃ sati – bhāvābhāvayoravirodhāttajjñānayorbādhyabādhakabhāvo na syāditi – vācyam ; bhinnasattākayoravirodhe'pi samasattākayorvirodhāt |
+> yatra bhūtale yasya ghaṭasyātyantābhāvo vyāvahārikaḥ tatra sa ghaṭo na vyāvahārika iti niyamāt |
+
+Literal translation: Nor should it be said that, since being and absence do not oppose, their cognitions would not stand as cancelled and cancelling: although [being and absence] of different orders of reality do not oppose, those of the same order oppose. For the rule is: on the ground where the absolute absence of a particular pot is transactional, that pot is not transactional there.
+
+**Madhusūdana Sarasvatī, Advaitasiddhi, Second definition, reply to sheer-nonexistence objection** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-nonexistence)).
+
+> maivam ; sarvatra traikālikaniṣedhapratiyogitvaṃ yadyapi tucchānirvācyayoḥ sādhāraṇam ; tathāpi kvacidapyupādhau sattvena pratītyanarhatvam atyantāsattvam , śūktirūpye prapañce ca bādhāt pūrvaṃ nāstyeveti na tucchatvāpattiḥ |
+
+Literal translation: Not so: although being the counterpositive of all-times negation everywhere is common to the utterly nonexistent and the indeterminable, nevertheless utter nonexistence is incapacity to be presented as existent in any locus whatsoever. This certainly does not belong to shell-silver or the manifold before cancellation; therefore utter nonexistence does not follow.
+
+The reality-order reply retains opposition within the same order ([source: Advaitasiddhi Second definition, reality-order reply](https://advaitasharada.sringeri.net/read/advaitasiddhi/1/)), while the sheer-nonexistence discussion distinguishes false appearance from utter unpresentability ([source: Advaitasiddhi Second definition, reply to sheer-nonexistence objection](https://advaitasharada.sringeri.net/read/advaitasiddhi/1/)). Levels do not license arbitrary contradiction in a fixed context. Nor does bare awareness by itself cancel everything:
+
+**Advaitasiddhi, Ajñānaviṣayanirūpaṇa, volIII printed 39/PDF 1007** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-corrector)).
+
+> pramāṇavṛttyupārūḍhaprakāśatvena nivartakatvaṃ brūmaḥ, na tu jātiviśeṣeṇa, prakāśatvamātreṇa vā | ato necchādinivartyadveṣādivattadviṣayānāṃ sattvāpattiḥ, na vā caitanyamātrasya nivartakatvāpattiḥ |
+
+Literal translation: We say that removership belongs through being manifestation mounted upon a valid cognitive modification, not through a particular universal or through being manifestation alone. Therefore there is no consequence that its objects are real, as with aversion and the like removed by desire and the like; nor the consequence that mere consciousness is the remover.
+
+**Madhusūdana Sarasvatī, Advaitasiddhi, Ajñānaviṣayanirūpaṇa, volIII printed 32/PDF 1000** ([source](cite://madhusudana/advaitasiddhi/inspectable-a-as-nonproduction)).
+
+> yaccoktaṃ—yo mokṣe bhāvī caitanyaṃ prati prakāśastadabhāva idānīmajñānasādhya iti tanna; mokṣe janyasya caitanyaprakāśasyābhāvāt, kalpitabhedāpagame śuddhacaitanyaṃ pratīva prakāśasya jīvaṃ pratyapi saṃbhavāt |
+
+Literal translation: What was said—that the present absence of the manifestation toward consciousness which will occur in liberation is to be accomplished by ignorance—is not so; because there is no produced manifestation of consciousness in liberation, and because upon removal of imagined difference, manifestation is possible toward the jīva too, just as toward pure consciousness.
+
+The relevant corrector is manifestation qualified by a valid cognitive modification. A related passage denies that recognition produces awareness ([source: Advaitasiddhi Ajñānaviṣayanirūpaṇa, volIII printed 32/PDF 1000](https://archive.org/details/Advaita.Siddhi.with.Guru.Chandrika)). These provide source constraints for distinguishing illumination, a valid cognition, and its corrective operation.
+
+### Saccidānandendra: what correction requires
+
+Saccidānandendra disputes the earlier explanatory ignorance-power and apparent-object posits. The difference is not that his opponents posit an ultimately real second substance: Prakāśātman’s quoted material-source inference explicitly rules that out. His explanation nevertheless makes a distinction that is lost if one says, “the self already shines, so no knowledge can do anything”:
+
+**Mūlāvidyānirāsa, III119, printed 148/PDF 196** ([source](cite://saccidanandendra/mulavidya-nirasa/inspectable-a-sss-correction)).
+
+> no khalu svabhāvo'yamātmano yadadhyāsavirodhyākāreṇa bhāsamānatvam, kiṃ tu bhāsamānatvameva tasya svabhāvaḥ | adhyāsanirodhakatvaṃ tu pramāṇotpannajñānakṛtyam |
+
+Literal translation: Being manifest in a form opposed to superimposition is not indeed this self’s nature; rather being manifest itself is its nature. Blocking superimposition, however, is the work of knowledge produced by a means of knowledge.
+
+**Saccidānandendra Sarasvatī, Mūlāvidyānirāsa, III132, printed 159/PDF 207** ([source](cite://saccidanandendra/mulavidya-nirasa/inspectable-a-sss-shell)).
+
+> na vaiparītyam, śuktyanyasya rajatasyānaṅgīkārāt | śuktireva rajatavyavahārayogyā pratibhāsata iti svīkārāt |
+
+Literal translation: There is no inversion, because silver other than the shell is not accepted, and because it is accepted that the shell itself appears fit for silver-directed transaction.
+
+Always being manifest and being effective against a particular superimposition are different claims. His shell-silver discussion treats the shell’s apparent suitability for silver-transactions without a second separately produced silver thing ([source: Mūlāvidyānirāsa III132, printed 159/PDF 207](https://adhyatmaprakasha.org/php/sanskrit_books.php)). This objection does not establish that earlier ignorance theorists meant physical silver: Padmapāda’s quoted rejection of physical transformation shows otherwise. He also refuses an ignorance-cessation distinct from the arising of knowledge:
+
+**Mūlāvidyānirāsa, III139, printed 168/PDF 216** ([source](cite://saccidanandendra/mulavidya-nirasa/inspectable-a-sss-cessation)).
+
+> yato na vayaṃ vidyotpattivyatirekeṇa kāñcidavidyānivṛttimabhyupagacchāmo yadayamākṣepaḥ śobheta | vidyājanireva hi tannivṛttiḥ saṃsāranivṛttiścetyaṅgīkriyate |
+
+Literal translation: For we do not accept any cessation of ignorance apart from the arising of knowledge, such that this objection would be appropriate. The arising of knowledge itself is accepted as its cessation and the cessation of saṃsāra.
+
+The correction is not an additional ultimate entity brought into being alongside the self. More sharply, the arising cognition does not exempt itself from the scope of the teaching:
+
+**Mūlāvidyānirāsa, III137, printed 166/PDF 214** ([source](cite://saccidanandendra/mulavidya-nirasa/inspectable-a-sss-remedy)).
+
+> utpadyamānaṃ ca tādṛśaṃ jñānaṃ svānyaprapañcasyeva svamithyātvamapyāvedayadeva jāyate iti sarvadvaitamithyātvasiddheḥ |
+
+Literal translation: And such knowledge, as it arises, arises while making known its own falsity too, as [it makes known that] of the manifold other than itself, because the falsity of all duality is established.
+
+The participial reading matters: knowledge arises “making known” its own falsity too; the passage is not an imperative ordering a second act of self-destruction. Nor does it say that an empirical mental event physically destroys itself. A future reconstruction must permit a useful corrective instrument that does not claim final ultimate standing for itself. That requirement can be compared with other Advaita procedures, but the disagreement over a material ignorance-power remains substantive.
+
+### Madhusūdana: divine form and the complete Lord
+
+The Gūḍhārthadīpikā 4.6 presents an explanation identifying the Lord’s body with the causal limiting condition. Following his quotation of Śaṅkara, Madhusūdana summarizes:
+
+**Gūḍhārthadīpikā, 4.6, printed 218/PDF 28, summarizing verse after his Śaṅkara citation** ([source](cite://madhusudana/gudhartha-dipika/inspectable-df-mad-mayabody)).
+
+> nityo yaḥ kāraṇopādhirmāyākhyo'nekaśaktimān | sa eva bhagavaddeha iti bhāṣyakṛtāṃ matam ||
+
+Literal translation: The eternal causal limiting condition called māyā, possessing many powers—that itself is the Lord’s body: such is the view of the authors of the bhāṣya.
+
+This is a many-powered causal condition, called māyā. “Eternal” in this sentence must not silently become “an independently ultimate second substance”; the passage itself calls it an *upādhi*. Nor should the statement be reduced to the thesis that there is no divine form at all. It gives an account of what that body is.
+
+Madhusūdana introduces another account with *anye tu*, “others, however”:
+
+**Gūḍhārthadīpikā, 4.6, printed 218/PDF 28, opening of reported other account** ([source](cite://madhusudana/gudhartha-dipika/inspectable-df-mad-formself)).
+
+> anye tu parameśvare dehadehibhāvaṃ na manyante | kiṃ yaśca nityo vibhuḥ saccidānandaghano bhagavānvāsudevaḥ paripūrṇo nirguṇaḥ paramātmā sa eva tadvigraho nānyaḥ kaścidbhautiko māyiko veti |
+
+Literal translation: Others, however, do not accept a body-and-body-possessor relation in the supreme Lord. What [do they hold]? The Lord Vāsudeva who is eternal, pervasive, a mass of being-consciousness-bliss, complete, without guṇas, the supreme self—that himself is his form, not some other [form] constituted of the elements or of māyā.
+
+In this account, the full Lord himself is the form. It refuses to split him into a body and a distinct possessor of that body, and it does not replace the Lord with a finite material portion. The source expressly includes completeness, pervasiveness and being-consciousness-bliss.
+
+Madhusūdana reports this account alongside alternatives. The following exposition continues within this reported account, explains *prakṛti* here as the Lord’s own nature, and gives scriptural reasons. It then says:
+
+**Gūḍhārthadīpikā, 4.6, printed 219/PDF 28, continuation of the reported other account** ([source](cite://madhusudana/gudhartha-dipika/inspectable-df-mad-formappearance)).
+
+> svasvarūpamadhiṣṭhāya svarūpāvasthita eva sansaṃbhavāmi dehadehibhāvamantareṇaiva dehivadvyavaharāmi | kathaṃ tarhyadehe saccidānandaghane dehatvapratītirata āha—ātmamāyayeti | nirguṇe śuddhe saccidānandaghane mayi bhagavati vāsudeve dehadehibhāvaśūnye tadrūpeṇa pratītirmāyāmātramityarthaḥ |
+
+Literal translation: Having taken my own nature as my basis, remaining precisely in my own nature, I come forth: without any body-and-body-possessor relation, I transact like an embodied one. How, then, is there an appearance of bodiliness in the bodiless mass of being-consciousness-bliss? To this he says, “through my own māyā.” In me, the Lord Vāsudeva, without guṇas, pure, a mass of being-consciousness-bliss, empty of the body-and-body-possessor relation, the appearance in that form is māyā alone—this is the meaning.
+
+The positive identity of Lord and form and the qualification of apparent bodiliness belong together. In this account, saying “the full Lord is the form” does not make the body/possessor distinction ultimately real. Both statements explain what *form* means here.
+
+The same context quotes the Bhāgavata description of Kṛṣṇa as the self of all selves and the friend of Nanda’s community as full, eternal Brahman. He cites these root verses. Their separate narrative contexts, including the universe-in-the-mouth scene, belong to the cross-tradition source investigation; these scenes must remain distinct.
+
+A further position follows. Madhusūdana now says that “some” want a real part/whole relation even in eternal, partless and changeless supreme bliss:
+
+**Gūḍhārthadīpikā, 4.6, printed 219/PDF 28, final qualification** ([source](cite://madhusudana/gudhartha-dipika/inspectable-df-mad-partwhole)).
+
+> kecittu nityasya niravayavasya nirvikārasyāpi paramānandasyāvayavāvayavibhāvaṃ vāstavamevecchanti te ‘niryuktikaṃ bruvāṇastu nāsmābhirvinivāryate’ iti nyāyena nāpavādyāḥ | yadi saṃbhavettathaivāstu kimatipallavitenetyuparamyate || 6 ||
+
+Literal translation: Some, however, wish the relation of part and whole to be real even for supreme bliss that is eternal, partless and changeless. They are not to be refuted, by the maxim “one speaking without reasoning is not restrained by us.” If it is possible, let it be just so. What is the use of excessive elaboration? Thus [the discussion] is stopped.
+
+The conditional close is not a proof that real parts are impossible; it is also not an unqualified endorsement. He stops the discussion with a dismissive maxim about speaking without reasoning and a conditional “if it is possible.” A proposed integration must distinguish this further part/whole thesis from the preceding account that denies body/possessor duality. Neither the phrase “full Lord” nor an ocean image makes all those positions interchangeable.
+
+Two available electronic versions share the same transmission source and several defects. The printed page reads *avayavāvayavibhāva*, the relation of part and whole, where the electronic versions have broken strings. The print also contains wording omitted in the first explanation’s electronic prose. The selected first-account verse and the two passages of the other-account explanation therefore follow the printed Sanskrit.
+
+**Devotion as a distinct fulfillment**
+
+Madhusūdana’s own commentary distinguishes devotion from Brahman-knowledge in a way that permits their integration without treating one as a synonym of the other:
+
+**Bhaktirasāyana with author’s commentary, Commentary on1.1, PDF 6–7** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-distinct)).
+
+> na, svarūpa-sādhana-phalādhikāri-vailakṣaṇyād bhakti-brahma-vidyayoḥ | dravī-bhāva-pūrvikā hi manaso bhagavad-ākāratā savikalpaka-vṛtti-rūpā bhaktiḥ |
+> dravī-bhāvānupetādvitīyātma-mātra-gocarā nirvikalpaka-mano-vṛttir brahma-vidyā | bhagavad-guṇa-garima-granthana-rūpa-grantha-śravaṇaṃ bhakti-sādhanam | tat tvam asy ādi vedānta-mahā-vākyaṃ brahma-vidyā-sādhanam | bhagavad-viṣayaka-prema-prakarṣo bhakti-phalam | sarvānartha-mūlājñāna-nivṛttir brahma-vidyā-phalam |
+
+Literal translation: No, because devotion and Brahman-knowledge differ in nature, means, fruit and qualified recipient. Devotion is the mind’s taking the form of the Lord, preceded by melting, in the form of a determinate modification. Brahman-knowledge is a nondeterminate mental modification, without melting, whose domain is solely the nondual self. Hearing works that arrange the greatness of the Lord’s qualities is the means of devotion. A great Vedānta sentence such as “you are that” is the means of Brahman-knowledge. Intensification of love directed to the Lord is devotion’s fruit; cessation of ignorance, the root of all misfortune, is Brahman-knowledge’s fruit.
+
+Nature, means, fruit and eligibility are separate dimensions. The quotation explains the first three; eligibility is discussed subsequently. The same commentary explicitly refuses a simple means-and-fruit relation between devotion and Brahman-knowledge:
+
+**Bhaktirasāyana with author’s commentary, Commentary on1.1, PDF 7, conclusion of common-means objection/reply** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-notinstrument)).
+
+> sāmagryaikyaṃ hi kāryaikye na tu kāraṇa-mātraikye, atiprasaṅgāt | evaṃ bhakti-brahma-vidyayor api svarga-vividiṣayor iva phala-sādhana-bhāvābhāvaś ca tulya-sādhana-sādhyatvaṃ ca bhaviṣyati |
+
+Literal translation: For [what is required] for identity of the effect is identity of the complete causal assemblage, not merely identity of a cause, because [otherwise] overextension follows. Thus devotion and Brahman-knowledge too, like heaven and the desire to know, will lack a fruit-and-means relation and will be attainable through similar means.
+
+**Madhusūdana Sarasvatī, Bhaktirasāyana, author’s commentary, Fifth/sixth stage transition, PDF 38** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-stages)).
+
+> iyam ca pañcamī bhūmikā bhakteḥ svarūpam | etasyā eva paripāka-viśeṣād anyāḥ ṣaḍ-bhūmikāḥ phala-bhūtāḥ |
+> (6) svarūpādhigatis tataḥ | pratyagātma-svarūpasya sthūla-sūkṣma-deha-dvayātiriktatvena sākṣātkāraḥ ṣaṣṭhī bhūmikā | anyathā dehendriyādi-vikṣepeṇa jātāyā api rater anirvāhāt |
+
+Literal translation: This fifth stage is devotion’s own nature. From its particular maturation the other six stages are fruits. Then comes realization of one’s own nature: immediate realization of the inward self’s nature as distinct from the pair of gross and subtle bodies is the sixth stage. Otherwise, through distraction by body, senses and the rest, even affection that has arisen could not be sustained.
+
+This restriction must remain visible alongside the developmental relations. It prevents us from presenting devotion without qualification as a disposable means to knowledge, or knowledge without qualification as simply devotion’s product. The text’s later ordering supplies specific relations without itself reconciling every use of the opening terminology. His stage account then identifies devotion’s fifth stage, realization of the inward self distinct from the gross and subtle bodies as the sixth ([source: Bhaktirasāyana, author’s commentary Fifth/sixth stage transition, PDF 38](https://ignca.gov.in/sanskrit/bhaktirasayanam.pdf)), and explains the following development:
+
+**Bhaktirasāyana, author’s commentary, Commentary on stages6–7, PDF 38–39** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-after)).
+
+> evaṃ śuddhe tvam-pada-lakṣye’vagate tat-pada-lakṣyeṇa sahābheda-jñānaṃ bhavati |
+
+> etādṛśa-tattva-jñāne sati vairāgya-dārḍhyād bhagavati premṇo vṛddhir bhavatīti saptamī bhūmikā,
+
+Literal translation: When the pure indicated meaning of “you” has thus been understood, knowledge of non-difference with the indicated meaning of “that” occurs. When such knowledge of reality is present, because of the firmness of detachment, love for the Lord increases: this is the seventh stage.
+
+**Madhusūdana Sarasvatī, Bhaktirasāyana, Root1.8–9, PDF 10–11** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-retention)).
+
+> dravatāyāṃ praviṣṭaṃ sad yat kāṭhinya-daśāṃ gatam |
+> cetaḥ punar drutau satyām api tan naiva muñcati ||8||
+
+> sthāyi-bhāva-girā’to’sau vastv-ākāro’bhidhīyate |
+> vyaktaś ca rasatām eti parānandatayā punaḥ ||9||
+
+Literal translation: What entered during fluidity and remained when [the mind] passed into hardness, the mind does not abandon even when melting occurs again. Therefore that object-form is expressed by the term “stable disposition”; and, manifested, it again attains the condition of rasa as supreme bliss.
+
+Thus the ordering is not simply “devotion before knowledge, discarded afterward.” The nondual referential knowledge contributes to a later intensification of love. The melted-lac image at1.8–9 explains retention of a disposition ([source: Bhaktirasāyana Root1.8–9, PDF 10–11](https://ignca.gov.in/sanskrit/bhaktirasayanam.pdf)); it should not be reduced to a passing emotional event. The Ganges image distinguishes the fruits of devotion for practitioners and those liberated while living:
+
+**Bhaktirasāyana, Root2.46–50, PDF 46** ([source](cite://madhusudana/bhakti-rasayana/inspectable-a-mad-bhakti-play)).
+
+> śuddha-sattvodbhavāpy evaṃ sādhakeṣv asmad-ādiṣu |
+> dṛṣṭa-mātra-phalā sā tu siddheṣu sanakādiṣu ||46||
+> dṛṣṭādṛṣṭa-phalā bhaktiḥ sukha-vyakter vidher api |
+> nidāgha-dūna-dehasya gaṅgā-snāna-kriyā yathā ||47||
+> rajas tamo’bhibhūtasya dṛṣṭāṃśaḥ pratibadhyate |
+> śītavātāturasyeva nādṛṣṭāṃśas tu hīyate ||48||
+> tathaiva jīvan-muktānām adṛṣṭāṃśo na vidyate |
+> snātvā bhuktavatāṃ bhūyo gaṅgāyāṃ krīḍatāṃ yathā ||49||
+> vartamāna-tanu-prāpyaṃ phalaṃ dṛṣṭam udāhṛtam |
+> bhāvi-dehopabhogyaṃ yat tad adṛṣṭam udīritam ||50||
+
+Literal translation: Even devotion born of pure sattva is thus [of both fruits] in practitioners such as ourselves; but in accomplished ones such as Sanaka it has only the seen fruit. Devotion has seen and unseen fruits, because of manifestation of happiness and also prescription, like bathing in the Ganges for one whose body is tormented by summer heat. In one overcome by rajas and tamas, the seen portion is obstructed, as for one afflicted by cold wind; the unseen portion is not lost. In the same way, for those liberated while living there is no unseen portion, as for those who, having bathed and eaten, play again in the Ganges. The fruit attainable in the present body is called seen; that to be enjoyed in a future body is called unseen.
+
+Verses 46–50 specify the fruits of “play after completion.” The seen fruit is available in the present body; the unseen fruit is enjoyed in a future body. The liberated person’s renewed play has the former without the latter. This is a substantive account of post-realization devotion, not merely permission to continue an obsolete means.
+
+### Vidyāraṇya: knowledge, dispositions and living liberation
+
+The opening and the differentiated-means explanation give these two selected statements:
+
+**Vidyāraṇya, Jīvanmuktiviveka, Chapter 2 opening and differentiated means, electronic text lines 584/639** ([source](cite://vidyaranya/jivanmukti-viveka/inspectable-a-vid-three)).
+
+> atha jīvanmuktisādhanaṃ nirūpayāmaḥ | tattvajñānamanonāśavāsanākṣayāstatsādhanam |
+
+> viveko nāma vibhajyaniścayaḥ - tattvajñānasya śravaṇādikaṃ sādhanam, manonāśasya yogaḥ, vāsanākṣayasya pratikūlavāsanotpādanamiti |
+
+Literal translation: Now we explain the means of liberation while living. Knowledge of reality, dissolution of mind and exhaustion of dispositions are its means. Discernment is a determination by distinguishing: hearing and the rest are the means of knowledge of reality; yoga of dissolution of mind; producing contrary dispositions of exhaustion of dispositions.
+
+The Jīvanmuktiviveka separates knowledge of reality, dissolution of mind, and exhaustion of dispositions, and gives them differentiated means ([source: Jīvanmuktiviveka Chapter 2 opening and differentiated means, electronic text lines 584/639](https://sanskritdocuments.org/doc_z_misc_major_works/jIvanmuktivivekaH.html)). His definitions make clear what the latter two mean:
+
+**Jīvanmuktiviveka, Chapter 2 definitions, electronic text line 608 and 611–612** ([source](cite://vidyaranya/jivanmukti-viveka/inspectable-a-vid-definitions)).
+
+> pradīpajvālāsantānavadvṛttisantānarūpeṇa pariṇamamānamantaḥkaraṇadravyaṃ mananātmakatvānmana ityucyate | tasya nāśo nāma vṛttirūpapariṇāmaṃ parityajya niruddhatvākāreṇa pariṇāmaḥ|
+
+> pūrvāparaparāmarśamantareṇa sahasotpadyamānasya krodhādivṛttiviśeṣasya hetuścittagataḥ saṃskāro vāsanā, pūrvapūrvābhyāsena citte vāsyamānatvāt |
+> tasyāśca vāsanāyāḥ kṣayo nāma vivekajanyāyāṃ śāntidāntyādiśuddhavāsanāyāṃ dṛḍhāyāṃ satyapi bāhyanimitte krodhādyanutpattiḥ |
+
+Literal translation: The substance of the internal organ, transforming in the form of a succession of modifications like a succession of lamp flames, is called mind because its nature is thinking. Its dissolution means transformation in the form of restraint, having abandoned transformation in the form of modifications.
+
+A disposition is the impression in the mind that causes a particular modification such as anger to arise suddenly without consideration of what precedes and follows, because it has been instilled in the mind through repeated earlier practice. Exhaustion of that disposition means the nonarising of anger and the like even when an external occasion is present, once the pure disposition of tranquility, restraint and the like, born of discrimination, is firm.
+
+“Dissolution of mind” here is not the destruction of the substance of the internal organ. “Exhaustion” is also stronger than mild attenuation: the binding response does not arise despite its external occasion when the contrary pure disposition is firm. These definitions substantially change any state-transition model.
+
+The account then distinguishes fully prepared recipients from those who reach knowledge with only temporarily established practical attainments. In that latter case:
+
+**Jīvanmuktiviveka, Chapter 2, valid knowledge versus unstable disposition/stilling, electronic text line 763** ([source](cite://vidyaranya/jivanmukti-viveka/inspectable-a-vid-persistence)).
+
+> uditasya jñānasya bādhakapramāṇābhāvānnivṛttāyā avidyāyāḥ punarutpattikāraṇābhāvācca nāsti tasya śaithilyam | vāsanākṣayamanonāśau tu dṛḍhābhyāsābhāvādbhogapradena prārabdhena tadā tadābādhyamānatvācca savātapradeśadīpavatsahasā nivartete |
+
+Literal translation: There is no weakening of knowledge once it has arisen, because there is no cancelling means of knowledge and no cause for the re-arising of ignorance that has ceased. Exhaustion of dispositions and dissolution of mind, however, because firm practice is absent and because they are obstructed from time to time by already-begun karma that gives experience, suddenly cease like a lamp in a windy place.
+
+**Vidyāraṇya, Jīvanmuktiviveka, Chapter 4, reply to active/absorbed equivalence objection, electronic text line 2302** ([source](cite://vidyaranya/jivanmukti-viveka/inspectable-a-vid-rank)).
+
+> naiṣa doṣaḥ | atra vāsanākṣayarūpamantaḥ śītalatvamavaśyaṃ sampādanīyamityetāvadeva pratipādyate | na tu tadanantarabhāvino manonāśasya śreṣṭhatvaṃ nivāryate |
+
+Literal translation: This is no fault. Here only this much is taught: inward coolness, in the form of exhaustion of dispositions, must certainly be accomplished. But the superiority of the subsequent dissolution of mind is not ruled out.
+
+The qualification “because firm practice is absent” is essential. This is not a universal instability theorem about every accomplished sage. Equally, the persistence of knowledge does not collapse the other dimensions into it. His chapter 4 reply accepts a teaching of inward coolness while retaining a ranking for subsequent dissolution ([source: Jīvanmuktiviveka Chapter 4, reply to active/absorbed equivalence objection, electronic text line 2302](https://sanskritdocuments.org/doc_z_misc_major_works/jIvanmuktivivekaH.html)); the quoted active/absorbed equivalence must not be presented as his unqualified final verdict.
+
+Taken together, these devotion and liberation passages require more than one binary “before/after enlightenment” state. Yet they do not establish that every Advaitin agrees about the ordering, necessity, or rank of all those dimensions. That is exactly where a comparative construction must preserve the authors’ differences.
+
+### Requirements for the comparison
+
+The sources justify a more discriminating starting vocabulary than numerical identity versus plurality. They distinguish nonotherness from resemblance, epistemic subject from object, manifestation from production, cognition from its corrective efficacy, locus from causal or object-directed support, means from fruit, and knowledge from stabilization or devotional growth. These are source-derived distinctions, not proof that they all belong to one mathematical space.
+
+The next mathematical task is to state each local account with its actual conditions and exclusions, then test proposed translations between accounts. A comparison is informative only if it records what a translation preserves and what it cannot preserve. In particular, no proposed integration may erase Śaṅkara’s rejection of transformation, convert Madhusūdana’s nonnumerical nonduality into an ordinary counting claim, suppress the disagreement over material ignorance, or replace Vidyāraṇya’s definitions with a generic meditation variable. The question whether a topos is appropriate remains downstream of those explicit constructions.
+
+### Reading limits
+
+The following textual questions remain. The elliptical tenth-person clause in Upadeśasāhasrī18.187 is withheld pending a more secure parsing; the unsettled clause is not used as a premise here. Gauḍapāda3.44 has “attained evenness” and “attained quiet” readings that have not been critically adjudicated. The separate Sureśvara fullness discussion and Madhusūdana’s exact full-aspect language in AdvaitasiddhiIII30–31 also need fuller source presentation before stronger conclusions are drawn from them.
+
+The complete Advaitasiddhi relation/delimiter objection and conditional alternative belong with the Navya discussion above. The modern pot, dream-chariot and doubt test cases are reconstructions, not a three-example list attributed to Śaṅkara. The universe-in-the-mouth narrative and other traditions’ divine-form accounts require their own narrative and commentary contexts.
+
+The linked Saccidānandendra page is the publisher’s catalogue; the quoted words were checked in a held scan. The printed Gūḍhārthadīpikā passages supply classical Sanskrit distinct from the modern Hindi below them. The devotional Ṣaṭpadī attribution records Advaita reception without asserting a settled historical authorship.
+
+## 8. Dependence, divine own-forms and first-person identity
+
+Dependence does not by itself decide individuality, agency or the identity of divine forms. Madhva and his commentators distinguish these questions. A mathematical example at the end will separate shared reference, reversible comparison and literal identity.
 
 ### Madhva, Jayatīrtha and Vyāsatīrtha
 
@@ -2876,6 +3464,459 @@ The preceding sentence denies that validity can be known only by witness-cogniti
 [Source witness](cite://vyasatirtha/tarka-tandava/inspectable-pl-md17).
 
 Removal of ignorance and complete unobstructed disclosure cannot simply be identified when divine withdrawal of a covering power has an independent role. First-person reference must follow utterance-role and contextual evidence. Likewise, an account of sufficient or necessary epistemic access does not establish exclusive access: a warranted implication is not a denial of every other route.
+
+### Three inscriptions, two values: equivalence without strict identity
+
+Take three formal expressions \(e=\text{“5”}, f=\text{“2+3”}, g=\text{“6”}\). Construct a category \(A\) whose arrows are **certified agreement of value**, with exactly one arrow between expressions of equal value and none otherwise. Thus \(e\) and \(f\) have inverse arrows between them; \(g\) has only its identity. Composition is forced by agreement of value.
+
+This category does not record actual proof histories: different proofs of \(2+3=5\) have deliberately been identified. Had we retained those histories, we would need to reconsider its homsets and their equations.
+
+Let \(\mathbf{Vals}\) be the discrete category with objects the values 5,6. Evaluation \(\operatorname{Eval}:A \to  \mathbf{Vals}\) sends \(e,f\) to 5, and \(g\) to 6. For each pair of expressions, both source and target homsets are singletons if the values agree and both are empty otherwise. Evaluation is therefore full and faithful. It also reaches every object of \(\mathbf{Vals}\).
+
+Choose \(W(5)=e, W(6)=g\). Then \(\operatorname{Eval} \circ  W=1[\mathbf{Vals}]\), but \(W \circ  \operatorname{Eval} \ne  1[A]\), since \((W \circ  \operatorname{Eval})(f)=e \ne  f\). Nevertheless there is a natural isomorphism
+
+\[
+\eta :W \circ  \operatorname{Eval} \Rightarrow  1[A].
+\]
+
+Its components at \(e,g\) are identities and its component at \(f\) is the certified agreement \(e \to  f\). Naturality holds because each relevant homset has exactly one arrow. This is an **equivalence of categories**: inverse translation is available up to coherent isomorphism, rather than literal equality.
+
+In general, \(F:C \to  D\) is an equivalence when there is \(G:D \to  C\) with natural isomorphisms \(GF \cong  1[C]\) and \(FG \cong  1[D]\). It is an isomorphism of categories if those composites equal the identity functors strictly. Our categories are not isomorphic: they have different numbers of objects. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+The useful recognition criterion says that an equivalence is full, faithful and essentially surjective: every target object is isomorphic to an image object. Conversely these three properties produce an equivalence when the needed representative choices are available, as they are in this finite example.
+
+The criterion has constructive content. Choose, for each \(d \in  D\), an object \(Gd \in  C\) and an isomorphism \(\varepsilon [d]:F(Gd) \to  d\). For an arrow \(v:d \to  d'\), fullness and faithfulness give a unique arrow \(G(v)\) whose image is
+
+\[
+F(G(v))=\varepsilon [d']^{-1} \circ  v \circ  \varepsilon [d].
+\]
+
+The image of a composite is the composite of these expressions: the middle \(\varepsilon \) and its inverse cancel. Faithfulness then proves the functor law for \(G\). The displayed equation is also precisely what makes \(\varepsilon :FG \Rightarrow  1[D]\) natural. For each \(c\), lift \(\varepsilon [Fc]:F(G(Fc)) \to  Fc\) through the homset bijection; these lifts give \(GF \Rightarrow  1[C]\). They are invertible because full and faithful functors reflect isomorphisms, and naturality follows by applying the faithful \(F\). Thus recovering a theory requires recoverable arrows and coherent comparisons, not just a return assignment on its labels.
+
+The philosophical payoff is exact. Distinct expressions can share a referent without becoming one expression. Distinct mathematical presentations can be equivalent without literal equality. Neither result decides whether two jīvas are interchangeable presentations of one self. The example **assumed** arithmetic evaluation and certified equal value; those facts did the work. A selfhood comparison needs its own reference rules and admissible arrows.
+
+**Exercise 3.** If \(A\) contained only identity arrows while evaluation still merged \(e,f\), would evaluation remain an equivalence?
+
+**Answer.** No. The empty homset \(A(e,f)\) would map to the singleton \(\mathbf{Vals}(5,5)\), violating fullness. Common denotation alone does not supply the source relationships needed for this equivalence.
+
+## 9. Rival accounts of cognition, self and release
+
+We now compare accounts that give different answers about the subject, cognition and release. Chakrabarti’s modern intervention follows the classical Nyāya argument it challenges. The other accounts retain their own reasons; a construction of tagged alternatives then shows how to compare them without first identifying their terms.
+
+### Self, cognition, change, and release beyond Vedānta
+
+A comparison becomes more exact when we ask what each argument requires us to distinguish. Is the self an enduring bearer of changing cognition, a subject disclosed whenever cognition occurs, or a conscious substance whose transformations belong to its reality? Does freedom preserve cognition, end it, or undo the demand for an intrinsically existing bearer? The passages below give different answers. Their practices and images can be compared without assuming those answers are already interchangeable.
+
+### Nyāya–Vaiśeṣika: what endures when cognition changes?
+
+Praśastapāda begins from a differentiated inventory of the self’s qualities. Cognition belongs in this inventory alongside pleasure, effort, dispositions, and more general determinations such as number and magnitude. The passage is his root exposition; Śrīdhara’s later explanations will supply the arguments about change and liberation.
+
+Praśastapāda, *Padārthadharmasaṅgraha*, [Ātman section, SARIT paragraph n=6.4 beginning tasya guṇāḥ](cite://prasastapada/padartha-dharma-samgraha/inspectable-vaisesika-self-qualities):
+
+> tasya guṇāḥ buddhisukhaduḥkhecchādveṣaprayatnadharmādharmasaṃskārasaṃkhyāparimāṇapṛthaktvasaṃyogavibhāgāḥ/
+
+Its qualities are cognition, pleasure, pain, desire, aversion, effort, merit, demerit, disposition, number, magnitude, distinctness, conjunction and disjunction.
+
+Śrīdhara can therefore distinguish the persistence of a bearer from the persistence of one of its qualities. The cessation of cognition need not destroy the self, and a newly arising cognition need not create a new self. His distinction is explicit:
+
+Śrīdhara, *Nyāyakandalī*, [1895 printed 85, PDF 157](cite://sridhara/nyaya-kandali/inspectable-nyaya-enduring-quality):
+
+> nityasya hi svarūpavināśaḥ svarūpāntarotpādaś ca vikāro neṣyate. guṇanivṛttir guṇāntarotpādaś cāviruddha eva.
+
+For an eternal [thing], modification as destruction of its own nature and production of another own nature is not accepted. But cessation of a quality and production of another quality are entirely unopposed.
+
+This distinction explains how change could belong to an eternal bearer; it does not by itself establish that the self is such a bearer. The preceding discussion supplies arguments about mental perception and the location of pleasure. The philosophical claim is therefore stronger than merely assigning one persistent name to a series of states, but it also requires its own evidence.
+
+Nor does sameness of observable descriptions settle individuation. In the discussion of viśeṣa, or ultimate particularity, Śrīdhara expressly considers things alike in shape, qualities, and action:
+
+Śrīdhara, *Nyāyakandalī*, [Viśeṣa discussion;1895 printed 323/PDF 395](cite://sridhara/nyaya-kandali/inspectable-nyaya-real-individuation):
+
+> tathāsmadviśiṣṭānāṃ yogināṃ tulyākṛtiguṇakriyeṣu tulyākṛtiṣu tulyaguṇeṣu tulyakriyeṣu paramāṇuṣu muktātmamanassu cānyanimittāsambhavād yebhyo nimittebhyaḥ pratyādhāram ayam asmād vilakṣaṇa iti pratyayavyāvṛttir bhavati te ’ntyā viśeṣāḥ.
+
+Likewise, for yogins superior to us, in atoms, released selves and minds that are alike in shape, qualities and action—that is, alike in shape, alike in qualities, alike in actions—those grounds from which, no other ground being possible, there arises for each substrate the discriminating cognition “this is distinct from that,” are ultimate particularizers.
+
+Here real individual distinction is compatible with the stated qualitative likeness. Its warrant is a discriminating cognition attributed to yogins, together with the exclusion of another available ground for that cognition. We should retain both parts of the argument. Simply stipulating different individuals would represent its conclusion without supplying its epistemic justification. Conversely, the thesis that complete descriptive agreement must erase every distinction would rule out this account before hearing its case.
+
+The same author gives contemplation a substantial role. The instruction has determinate content: knowledge of the six categories, followed by hearing, reflection, and sustained contemplation. This is not an instruction to empty the mind indiscriminately of every object.
+
+Śrīdhara, *Nyāyakandalī*, [1895 printed 282, PDF 354](cite://sridhara/nyaya-kandali/inspectable-nyaya-hearing-directness):
+
+> tasya cācāryopadeśāt ṣaṇṇāṃ padārthānāṃ śrautaṃ tattvajñānaṃ jāyate. tadanu śravaṇamanananididhyāsanādikrameṇa pratyakṣaṃ bhavati.
+
+And from a teacher’s instruction there arises for him scripturally received knowledge of the reality of the six categories. After that, through the sequence of hearing, reflection, sustained contemplation and so forth, [the knowledge] becomes direct.
+
+The account of matured concentration then describes an arising cognition directed to the self’s own nature:
+
+Śrīdhara, *Nyāyakandalī*, [1895 printed 279, PDF 351](cite://sridhara/nyaya-kandali/inspectable-nyaya-self-vision):
+
+> evaṃ pariṇate samādhāv ātmasvarūpasākṣātkārivijñānam udeti.
+
+When concentration has matured in this way, cognition directly realizing the self’s own nature arises.
+
+What arises is the realization-cognition, not the self it realizes. Śrīdhara’s surrounding discussion invokes practice and dispassion and quotes Yoga and Sāṅkhya; that engagement does not make all their metaphysical commitments identical. His next distinction is nevertheless striking:
+
+Śrīdhara, *Nyāyakandalī*, [1895 printed 279, PDF 351](cite://sridhara/nyaya-kandali/inspectable-nyaya-natural-nonagency):
+
+> svarūpatas tāvad ātmā na karttā na bhoktā kintūdāsīna eva.
+
+In its own nature, to begin with, the self is neither agent nor experiencer, but just indifferent.
+
+The following explanation relates “I” and “mine,” doership, and enjoyment to association with body, senses, and the rest. The qualification “in its own nature” matters: this clause does not by itself settle every issue about ordinary causal agency. The corrective process concerns the dispositions through which the self appropriates the embodied situation.
+
+Śrīdhara, *Nyāyakandalī*, [1895 printed 279, PDF 351](cite://sridhara/nyaya-kandali/inspectable-nyaya-correction-world-remains):
+
+> parokṣasya pratyakṣabādhane sāmarthyābhāvāt. […] ahaṅkāramamakāravāsanocchede sann api prapañco nātmānaṃ spṛśati.
+
+Because indirect [knowledge] has no power to sublate direct [appearance]. […] When the dispositions of I-making and mine-making are cut off, the manifold, although existent, does not touch the self.
+
+The two excerpts surround a comparison with taste: assurance that sugar is sweet does not remove the bitter appearance caused by a damaged faculty. A merely indirect assurance is not equivalent to direct correction. Once the dispositions of I-making and mine-making are removed, the manifold remains existent but no longer touches the self in the stated way. The quoted claim is Śrīdhara’s explanation; the subsequent quotation from Sāṅkhya does not transfer its authorship.
+
+Direct vision also has an affective place in this sequence. In the next passage, the grammatical subject is the remaining withdrawal-characterized dharma described immediately before it:
+
+Śrīdhara, *Nyāyakandalī*, [1895 printed 283, PDF 355](cite://sridhara/nyaya-kandali/inspectable-nyaya-realization-joy):
+
+> paramārthadarśanajam ātmadarśanajaṃ sukhaṃ karoti, tat kṛtvā nivarttate.
+
+[It] produces pleasure born from seeing reality, born from seeing the self; having produced that, it ceases.
+
+The pleasure is produced, and its producing condition then ceases. “Seeing reality” here renders the local use of paramārtha; it does not import the Advaitin distinction of reality levels. A later stage of concentration restricts awareness to the self:
+
+Śrīdhara, *Nyāyakandalī*, [1895 printed 285, PDF 357](cite://sridhara/nyaya-kandali/inspectable-nyaya-living-exclusive-vision):
+
+> ātmatattvajñānam eva kevalaṃ tadānīṃ sañjāyate na bahiḥsaṃvedanam, bāhyendriyavyāpāroparamāt.
+
+Only knowledge of the self’s reality arises then, not external awareness, because the activity of the external senses has stopped.
+
+Immediately before this, Śrīdhara describes concentration whose object has been made nondual. The restricted object explains why external awareness is absent then. It does not establish that all substances are one self. Moreover, this is a stage of practice, not yet the final condition. The printing used here reads ātmatattvajñāna, “knowledge of the self’s reality,” where an electronic version has the shorter ātmajñāna.
+
+The next step makes the difference between attainment and final persistence unavoidable. “That” in the following sentence refers to the body, maintained until the exhaustion of the karma producing it:
+
+Śrīdhara, *Nyāyakandalī*, [1895 printed 286, PDF 358](cite://sridhara/nyaya-kandali/inspectable-nyaya-final-cognition-ceases):
+
+> tannivṛttau tatkāryasya tattvajñānasyāpi vināśād ātmā kaivalyam āpadyate.
+
+When that ceases, because even the knowledge of reality that is its effect is destroyed, the self reaches isolation.
+
+The self’s realization has occurred, but the cognition itself is not said to continue eternally. Its cessation is the cessation of a quality. Śrīdhara then rejects the proposed identification of liberation with the experience of eternal pleasure:
+
+Śrīdhara, *Nyāyakandalī*, [1895 printed 287, PDF 359](cite://sridhara/nyaya-kandali/inspectable-nyaya-final-not-eternal-bliss):
+
+> ato nāsty ātmano nityaṃ sukhaṃ tadabhāvān na tadanubhavo mokṣāvasthā kiṃ tu samastātmaviśeṣaguṇocchedopalakṣitā svarūpasthitir eva.
+
+Therefore the self has no eternal pleasure; because that is absent, the state of liberation is not the experience of it, but simply persistence in its own nature, characterized by the cutting off of all the self’s specific qualities.
+
+The preceding proposal of a self whose nature is bliss belongs to an opponent; the quoted conclusion is Śrīdhara’s reply. “Specific qualities” names the system’s self-specific class, not every possible predicate of the released substance. Praśastapāda’s inventory and Śrīdhara’s account of particularizers prevent “all qualities cease” from becoming an indiscriminate erasure of the self or its individuality. The chosen printing reads tadanubhavo, “experience of it”; an electronic version expands this to tadanubhavamayī. Neither reading should be used to reverse the explicit denial of eternal pleasure here.
+
+### A modern dispute: must we first perceive a thing without its features?
+
+Arindam Chakrabarti proposes a revision of Nyāya from within its realist commitments. His question is concrete. When you see a green leaf, must an earlier cognition have presented something unqualified, before you could perceive the leaf as green? Many Nyāya philosophers accepted a distinction between indeterminate and determinate perception. Chakrabarti argues that their realism would work better without the former. He names Vācaspati and Gaṅgeśa among the defenders he challenges, and credits Vyāsatīrtha with an earlier critique while emphasizing that most of the arguments here are his own. [Chakrabarti, “Against Immaculate Perception,” pp. 1–3](https://www.jstor.org/stable/1400065).
+
+His starting point is that the public world already contains qualified things. A rock can really have a colour, texture and composition. Two people can perceive that same rock while noticing different features or assigning it different significance. The presence of qualification in perception therefore need not mean that the perceiver invented the object's structure. Seeing less than everything about a rock can still be seeing the rock itself. Removing every feature is not automatically a more faithful encounter with reality. [“Against Immaculate Perception,” pp. 2–4](https://www.jstor.org/stable/1400065).
+
+Conceptual organization and verbal expression are distinct. A child or animal need not utter a sentence to encounter something as edible, rough or threatening. The opposing position, which Chakrabarti acknowledges, insists that having perceptual knowledge and making a claim about that knowledge are different. His challenge concerns the organization of awareness. [“Against Immaculate Perception,” pp. 1, 5–7](https://www.jstor.org/stable/1400065).
+
+Consider the argument for an earlier unqualified cognition. Recognizing an animal as a rabbit seems to require acquaintance with what qualifies it as a rabbit. But does that requirement mean that a separate cognition of the qualifier must occur first, and then cause the recognition? Chakrabarti writes: “there is no need to take this logical ‘unless’ as a causal ‘unless.’” A logical prerequisite has been converted into a causal sequence. A feature's involvement in what is recognized does not establish a prior episode in which that feature was apprehended alone. [“Against Immaculate Perception,” p. 5](https://www.jstor.org/stable/1400065).
+
+The distinction becomes sharper when you notice that a floor has no carpet. In the ordinary description, the floor is what is presented, and carpetlessness qualifies it. The proposed causal rule would require an earlier unqualified cognition of that absence. Chakrabarti reports that Gaṅgeśa instead reverses the arrangement: the absence is treated as what is qualified, with the floor supplying its location. His objection is that the explanation has changed the organization of the experience it was meant to explain. [“Against Immaculate Perception,” pp. 5–6](https://www.jstor.org/stable/1400065).
+
+That is why a model of experience needs more than a set containing *floor* and *absence*. It must distinguish what appears as the bearer, what appears as its qualifier, and the relation through which the two are connected. This is the modeling lesson we can draw from the dispute. His final argument explicitly asks what intentional role an object could have in a cognition that supplies none of the usual roles of qualifier, qualificand or relation. [“Against Immaculate Perception,” p. 7](https://www.jstor.org/stable/1400065).
+
+Two possible replies deserve investigation. Presenting an object without representing its qualification is not obviously the same as presenting it as lacking qualifications. And denying ordinary introspective access to a cognitive episode does not logically prove that the episode never occurred. Chakrabarti explicitly invites answers to his objections.
+
+The paper concerns ordinary perceptual cognition. Its final comparison contrasts Nyāya’s requirement of object-directed cognition with Advaitic immediate nondiscursive awareness. This adds a comparison between criteria for cognition to the dispute about causal prerequisites. [“Against Immaculate Perception,” p. 7](https://www.jstor.org/stable/1400065).
+
+**Try a related exercise.** Suppose I know that a sealed box contains exactly one of two coins, but I do not know which. I can distinguish three achievements:
+
+- **Identifying the question:** I understand what would count as answering which coin is inside.
+- **Knowing the answer:** I correctly establish that the silver coin, for example, is inside.
+- **Recognizing my uncertainty:** I understand that my present evidence does not yet establish either answer.
+
+The first and third can be present while the second is absent. Knowing what I am uncertain about does not automatically remove that uncertainty. Nor does recognizing uncertainty make the box's contents indeterminate. The same distinction helps us ask a sharper question about self-knowledge: identifying myself as the person under discussion need not mean that I already understand everything relevant about my nature.
+
+A formal account using only one relation, *knows this topic*, would hide these distinctions. It might manufacture a contradiction between knowing enough to identify a question and not knowing its answer. To avoid that error, we must specify the question, the relevant answer and the kind of awareness being attributed. This observation does not decide whether ignorance is merely absent knowledge or something with positive explanatory powers. It shows what a careful argument about that choice must keep track of.
+
+The examples distinguish an absence in the world, an absence of knowledge, the structure of a cognition and the nature of its subject. Their relations become a more precise subject for comparison once each argument can be stated on its own terms.
+
+### Mīmāṃsā: recognition and the subject of knowing
+
+Kumārila’s case begins with recognition across different cognitive occasions. If a knower were simply a momentary cognition, what could the recognition “I knew, and I now know” be about? These are the root verses of his Ślokavārttika, distinct from Pārthasārathimiśra’s commentary printed with them.
+
+Kumārila Bhaṭṭa, *Ślokavārttika*, [Ātmavāda 115–116; Śāstrī 1978 printed 508–509, PDF 530–531](cite://kumarila/sloka-varttika/inspectable-mimamsa-recognition):
+
+> yadi syāj jñānamātraṃ ca kṣaṇikaṃ jñātṛ tatra vaḥ / na bhavet pratyabhijñānaṃ pūrvajñātari samprati // jñātavān aham evedaṃ puredānīṃ ca vedmy aham / tasya jñānakṣaṇaḥ ko nu viṣayaḥ parikalpyatām //
+
+If, on your account, the knower were merely a momentary cognition, there would now be no recognition of the previous knower. “I myself knew this before, and I know it now”: what moment of cognition could be conceived as the object of that [recognition]?
+
+The subsequent argument tests a past cognition, a present cognition, both, a stream, and generic likeness as possible referents. Its warrant is the veridicality of recognition: the argument does not merely assume permanence and then attach the word “self” to it. A shared property is not enough to explain the recognition’s individual reference:
+
+Kumārila Bhaṭṭa, *Ślokavārttika*, [Ātmavāda 122; Śāstrī 1978 printed 509, PDF 531](cite://kumarila/sloka-varttika/inspectable-mimamsa-recognition-not-common-property):
+
+> gām ahaṃ jñātavān pūrvam aśvaṃ jānāmy ahaṃ punaḥ / atha jñātṛtvasāmānyaṃ tat syād dehāntareṣv api //
+
+I knew a cow before; now I know a horse. If [the ground were] the common character of being a knower, that would occur in other bodies too.
+
+The known object changes from cow to horse while the first-person recognition remains. Common knowerhood is too broad, since it applies in other bodies as well. This is a precise challenge to identifying an individual solely through a shared universal. It is not a refutation of the identity of the number five wherever five is correctly denoted; it concerns what makes this recognition recognition of this knower.
+
+Correction of bodily identification need not eliminate every first-person cognition:
+
+Kumārila Bhaṭṭa, *Ślokavārttika*, [Ātmavāda 133; Śāstrī 1978 printed 511, PDF 533](cite://kumarila/sloka-varttika/inspectable-mimamsa-corrected-i-persists):
+
+> ye tu vijñātanānātvās te deheṣv anahaṅkṛtāḥ / jānāmy aham itīdaṃ tu jñānaṃ naiva nivartate //
+
+Those who have understood the difference do not identify “I” with bodies; but this cognition, “I know,” does not cease.
+
+The difference understood here is the self/body distinction established in the preceding argument. The accompanying commentary applies “I know” even to yogins. But this claim about corrected knowers does not establish that one cognitive act continues eternally after release. That further thesis would require further evidence.
+
+The Prābhākara account developed by Śālikanātha begins from the structure of an occurring awareness. Object-awareness already presents its own subject:
+
+Śālikanātha Miśra, *Prakaraṇapañcikā*, [Pramāṇapārāyaṇa, Pratyakṣapariccheda, tripuṭī discussion; Subrahmaṇya Śāstrī 1961 printed 168, PDF 269](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-own-subject):
+
+> yā kācid grahaṇasmaraṇarūpārthapratītiḥ, tatra sākṣād ātmā bhāti. na hy arthāvabhāsiny ātmany anavabhāsamāne viṣayā bhāsante. sarvā hi pratītir evam upajāyate ’ham idaṃ jānāmīti, na punar jānātīty evaṃ kācid buddhir asti.
+
+In whatever awareness of an object has the form of apprehension or recollection, the self shines directly. For objects do not shine when the object-manifesting self is not manifest. Every awareness arises thus: “I know this”; no cognition arises merely as “knows.”
+
+The alternatives discussed afterward explain why a second cognition or inference cannot supply this original own-subject character. This is a claim about how awareness occurs, not merely a retrospective record that somebody knew. Śālikanātha then distinguishes its relations to object, knower, and itself:
+
+Śālikanātha Miśra, *Prakaraṇapañcikā*, [Pramāṇapārāyaṇa, Pratyakṣapariccheda;1961 printed 170, PDF 271](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-threefold-asymmetry):
+
+> meye mātari ca vyatiriktā pratītiḥ sākṣātkāravatī, mitau tv avyatiriktā.
+
+With respect to the object known and the knower, awareness, being distinct [from them], has direct presentation; with respect to cognition, however, it is not distinct.
+
+Awareness presents the knower and the known object while being distinct from them. Its disclosure of itself does not require another, distinct awareness. These are three relations in the account of cognition, not three disjoint consciousness substances. In particular, self-manifest cognition and an intrinsically self-luminous permanent self remain different theses.
+
+The subject’s special role is defended through an analogy with going. A goer receives the conjunction produced by going without thereby becoming the object of that action:
+
+Śālikanātha Miśra, *Prakaraṇapañcikā*, [Tattvāloka, svamatanirūpaṇa;1961 printed 334, PDF 432](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-subject-not-object):
+
+> tatsaṃvittiphalabhāgitve ’pi puruṣasya na karmatā, kintu kartṛtaiva gantṛvat. yathā gamanaphalasaṃyogayogino ’pi gantur na karmatā, kintu kartṛtaiva, tathā boddhur api veditavyam.
+
+Even though the person participates in the result of that awareness, there is no objecthood, but only subjecthood, as with a goer. Just as a goer, though possessing the conjunction that results from going, has no objecthood but only agency, so too the knower should be understood.
+
+Likewise, receiving disclosure does not turn the knower into an ordinary object of cognition. The contrast is between kartṛ and karman: subject or agent, and object. This gives a substantive account of privileged selfhood while leaving room for conditions and relations in how disclosure occurs.
+
+Sleep prevents this account from being read as a claim that the enduring subject is itself an eternally occurring cognition:
+
+Śālikanātha Miśra, *Prakaraṇapañcikā*, [Pramāṇapārāyaṇa, Pratyakṣapariccheda;1961 pp 172–173/PDF 272–273](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-sleep-and-cognition):
+
+> jāgrato hi meyāni mātā ca prakāśante. suṣuptasya tadā na tad dvayam api prakāśate. na ca tadānīṃ tad dvayam api nāsty eva, prabodhe pratyabhijñānāt. […] prakāśasya tv aprakāśamānasya sattaiva nābhyupeyate.
+
+For the waking person, objects known and the knower are manifest. For the deeply sleeping person, neither of those two is then manifest. Yet neither of them is simply nonexistent then, because they are recognized on awakening. […] But the existence of manifestation when it is not manifest is not accepted.
+
+Recognition on awakening supports persistence of knower and objects through their nonmanifestation. Manifestation itself is treated differently: an unmanifest manifestation is not admitted. The omitted intervening sentence argues that intrinsically manifest self and object would shine even in sleep. These are Śālikanātha’s claims, not the lower-page Nyāyasiddhi commentary or its later editorial discussion of Vedānta.
+
+His account of liberation makes that distinction consequential:
+
+Śālikanātha Miśra, *Prakaraṇapañcikā*, [Tattvāloka, own account;1961 p 334/PDF 432](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-release-persistence):
+
+> ātmā sanmātrāvastha evāvatiṣṭhate. […] na ca mokṣasyāpuruṣārthatā, sāṃsārikavividhaduḥkhoparamarūpatvān mokṣasya. duḥkhoparamo hi puruṣair arthyate.
+
+The self persists in a condition of mere existence. […] Nor is liberation no human end, because liberation has the form of cessation of the various sufferings of transmigration. For people seek the cessation of suffering.
+
+Bare persistence is joined to the value of freedom from suffering. This can be a human end without being an eternally luminous act of cognition. The passage belongs to Śālikanātha’s own account and should not be extended indiscriminately to every Mīmāṃsaka. The preceding compound describing the cognitive means is not included because its precise reading remains uncertain; the quoted persistence and value arguments do not depend on reconstructing it.
+
+### Jain accounts: a real self that transforms
+
+Pūjyapāda distinguishes consciousness from an occurring mode of cognitive application, upayoga. The mode is a transformation under internal and external conditions:
+
+Pūjyapāda, *Sarvārthasiddhi*, [TS 2.8 commentary §271](cite://pujyapada/sarvartha-siddhi/inspectable-jaina-conscious-mode):
+
+> ubhayanimittavaśād utpadyamānaś caitanyānuvidhāyī pariṇāma upayogaḥ.
+
+Cognitive application is a transformation following consciousness, arising under the influence of both kinds of conditions.
+
+The two kinds of conditions are not two independent ontological principles. The distinction instead allows consciousness and particular cognitive occurrences to be related without simply identifying them. To understand that relation, we need the wider account of reality. The following first sentence is the Tattvārthasūtra root, transmitted here in the Digambara tradition under the name Umāsvāti or Umāsvāmin. After the marked omission, Pūjyapāda explains it:
+
+Umāsvāti/Umāsvāmin (Digambara root tradition); Pūjyapāda, *Tattvārthasūtra / Sarvārthasiddhi*, [TS 5.30; commentary §584](cite://umasvati-pujyapada/tattvarthasutra-sarvarthasiddhi/inspectable-jaina-production-loss-persistence):
+
+> utpādavyayadhrauvyayuktaṃ sat || […] cetanasyācetanasya vā dravyasya svāṃ jātim ajahata ubhayanimittavaśād bhāvāntarāvāptir utpādanam utpādaḥ mṛtpiṇḍasya ghaṭaparyāyavat. tathā pūrvabhāvavigamanaṃ vyayaḥ. yathā ghaṭotpattau piṇḍākṛte. anādipāriṇāmikasvabhāvena vyayodayābhāvād dhruvati sthirībhavatīti dhruvaḥ. dhruvasya bhāvaḥ karma vā dhrauvyam. yathā mṛtpiṇḍaghaṭādyavasthāsu mṛdādyanvayaḥ.
+
+The real is endowed with arising, passing away and permanence. […] Arising is the attainment of another condition, through both kinds of conditions, by a conscious or unconscious substance without abandoning its own kind—as a lump of clay attains the pot-mode. Likewise, passing away is departure of the preceding condition, as [the loss] of lump-shape when a pot arises. What persists, becomes stable, through absence of loss or arising in its beginningless constitutive nature is enduring; endurance is its condition or activity—as clay continues through lump, pot and other states.
+
+The clay illustration makes arising, loss, and persistence jointly intelligible. The pot-mode arises, the lump-shape passes away, and clay continues. These are not three independent substances; nor is every property frozen in an immutable bearer. Pūjyapāda specifies how difference and nondifference depend on the standpoint of the assertion:
+
+Pūjyapāda, *Sarvārthasiddhi*, [TS 5.30 commentary §584, concluding reply](cite://pujyapada/sarvartha-siddhi/inspectable-jaina-naya-difference):
+
+> etad uktaṃ bhavati — utpādādīni dravyasya lakṣaṇāni. dravyaṃ lakṣyam. tatra paryāyārthikanayāpekṣayā parasparato dravyāc cārthāntarabhāvaḥ. dravyārthikanayāpekṣayā vyatirekeṇānupalabdher anarthāntarabhāvaḥ. iti lakṣyalakṣaṇabhāvasiddhiḥ.
+
+What has been said is this: arising and the rest are characteristics of substance; substance is what is characterized. Here, relative to the standpoint directed at modes, there is distinctness from one another and from substance. Relative to the standpoint directed at substance, there is nondistinctness, because they are not apprehended separately. Thus the relation of characterized and characteristic is established.
+
+Relative to modes, the characteristics differ from each other and from substance. Relative to substance, they are not separately apprehended. Leaving out those qualifications would turn the claim into either an unqualified contradiction or an unqualified identity.
+
+Recognition once again supports persistence, but here it also sets a limit to immutability:
+
+Pūjyapāda, *Sarvārthasiddhi*, [TS 5.31 commentary §586](cite://pujyapada/sarvartha-siddhi/inspectable-jaina-recognition-limits-immutability):
+
+> yenātmanā prāgdṛṣṭaṃ vastu tenaivātmanā punar api bhāvāt tad evedam iti pratyabhijñāyate. yady atyantanirodho ’bhinavaprādurbhāvamātram eva vā syāt tataḥ smaraṇānupapattiḥ. tadadhīno lokasaṃvyavahāro virudhyate. […] tat tu kathaṃcid veditavyam. sarvathā nityatve anyathābhāvābhāvāt saṃsāratadvinivṛttikāraṇaprakriyāvirodhaḥ syāt.
+
+The thing formerly seen is recognized as “this is that very thing” because it occurs again with precisely that nature. If there were complete destruction, or only an entirely new appearance, recollection would not be possible; worldly transactions dependent on it would be contradicted. […] But that [eternity] is to be understood in a qualified way. With eternity in every respect, because there would be no becoming otherwise, the causal process of transmigration and its cessation would be contradicted.
+
+Total replacement would undermine recognition and the transactions relying on it. Complete immutability would undermine the causal process of bondage and release. Both sides belong to the argument. The marked omission avoids an uncertain intervening electronic clause; neither conclusion depends on silently repairing it.
+
+The Nyāyāvatāra gives the self positive capacities in addition to persistence. The edition used here attributes the root to Siddhasena Mahāmati:
+
+Siddhasena Mahāmati, *Nyāyāvatāra*, [Root 31; Balcerowicz 2008 edition, editor-provided e-text](cite://siddhasena-mahamati/nyayavatara/inspectable-jaina-knower-agent-transforming):
+
+> pramātā svānya-nirbhāsī kartā bhoktā vivṛttimān /
+>  sva-saṃvedana-saṃsiddho jīvaḥ kṣity-ādy-anātmakaḥ
+
+The knower manifests itself and another, is an agent, an experiencer, possessed of transformation; it is the living self, established through self-awareness, not having the nature of earth and the other [elements].
+
+Siddharṣigaṇin’s commentary explains the transformation through successive modes. An opponent presses the causal issue: if substances already arise and pass away of themselves, what work remains for potters, hammers, and other causes? The reply assigns them the production of a specific modification:
+
+Siddharṣigaṇin, *Nyāyāvatāravivṛti*, [31.6](cite://siddharsiganin/nyayavatara-vivrti/inspectable-jaina-real-causal-work):
+
+> atrocyate -- na vayaṃ sarvathā hetūnāṃ vyāpāraṃ vārayāmaḥ, kiṃ tarhi svayam utpāda-vyaya-sthity-ātmanā vivartamānasya dravyasya hetavas tad-viśeṣa-karaṇe vyāpāram anubhavanti
+
+[Reply:] We do not altogether exclude the activity of causes. Rather, causes act in making a particular modification of a substance that itself transforms as arising, passing away and persistence.
+
+Causes do not create the bare possibility of transformation; they make a particular transformation occur. The further argument combines observed concomitance with reasoning. This distinction matters when considering whether a state change is real or only a change in our description.
+
+Reflection imagery does not remove the disagreement about agency. Siddharṣigaṇin presents an inactive Sāṅkhya experiencer through the examples of crystal and a mirror-like intellect, and then contests that explanation:
+
+Siddharṣigaṇin, *Nyāyāvatāravivṛti*, [31.8 in 2008 electronic edition; two opening forms collated with Vaidya 1928 p 96/PDF 143; continuation p 97/PDF 144 also read](cite://siddharsiganin/nyayavatara-vivrti/inspectable-jaina-reflection-dispute):
+
+> kartā bhoktā iti viśeṣaṇa-dvayena sāṃkhya-mataṃ vikuṭṭayati, kartā san bhoktāpīti kākvopanyāsād, akartur bhogānupapatter, bhuji-kriyā-nirvartana-samarthasyaiva bhoktṛtvāt. japā-kusumādi-sannidhāna-vaśāt sphaṭike raktatādi-vyapadeśavad akartur api prakṛty-upadhāna-vaśāt sukha-duḥkhādi-bhoga-vyapadeśo yuktas; tathā hi: prakṛti-vikāra-darpaṇākāra-buddhi-saṅkrāntānāṃ sukha-duḥkhādy-ātmakānām arthānāṃ puruṣaḥ sannidhāna-mātreṇa bhojako vyapadiśyate, "buddhy-adhyavasitam arthaṃ puruṣaś cetayata" iti-vacanād iti cen, na, kathañcit sakriyākatā-vyatirekeṇa prakṛty-upadhāne 'py anyathātvānupapatter, apracyuta-prācīna-rūpasya vyapadeśānarhatvāt, tat-pracyave ca prāktana-rūpa-tyāgenottara-rūpādhyāsitayā sakriyatvam āpatatīti-nyāyāt; sphaṭika-dṛṣṭānte 'pi japā-kusumādi-sannidhānād andhopalādau raktatānāvir-bhavantī tatra punar āvir-bhavantī tasya tathā-vidhaṃ pariṇāmaṃ lakṣayaty. […] tan nākriyasya bhoktṛtopapadyata iti.
+
+By the two qualifications “agent” and “experiencer” he attacks the Sāṅkhya view: the emphatic construction is “being an agent, he is also an experiencer,” since experience is impossible for a nonagent, and only one able to perform the act of experiencing is an experiencer. [Objection:] Just as redness and so on are predicated of crystal through the proximity of a hibiscus flower and the like, pleasure, pain and other experience may properly be predicated of an inactive [self] through the adjunct of primordial nature. For the person, merely by proximity, is called the enjoyer of objects consisting of pleasure, pain and so forth that have entered the mirror-like intellect, a transformation of primordial nature; as it is said, “The person is conscious of the object determined by intellect.” [Reply:] No. Without activity in some respect, becoming otherwise would be impossible even with primordial nature as an adjunct. What has not departed from its earlier form is not fit for that predication; if it does depart, activity follows from abandoning the earlier form and assuming the later. Even in the crystal example, redness that fails to appear in an opaque stone and the like through the hibiscus flower’s proximity, but does appear there [in the crystal], indicates such a transformation of it. […] Thus being an experiencer does not fit the inactive.
+
+The opponent treats the changed presentation as compatible with an inactive subject; the reply treats selective manifestation as evidence for transformation in some respect. Both appeal to the crystal, but the inference drawn from it is disputed. This is the Jain commentator’s representation of Sāṅkhya, which must be compared with Sāṅkhya’s own texts. The two opening forms bhoktā iti and samarthasyaiva follow the 1928 printing; the longer crystal sentence follows the 2008 edition. The omitted sentence has an unresolved electronic reading and is not used to decide the argument.
+
+The resulting account of liberation is not the cessation of every cognitive condition. Perfect knowledge has an unlimited intentional scope. Again the root statement comes first, followed by Pūjyapāda’s explanation after the omission:
+
+Umāsvāti/Umāsvāmin (Digambara root tradition); Pūjyapāda, *Tattvārthasūtra / Sarvārthasiddhi*, [TS 1.29; commentary §230](cite://umasvati-pujyapada/tattvarthasutra-sarvarthasiddhi/inspectable-jaina-kevala-scope):
+
+> sarvadravyaparyāyeṣu kevalasya || […] dravyaṃ paryāyajātaṃ vā na kiṃcit kevalajñānasya viṣayabhāvam atikrāntam asti.
+
+[The scope] of perfect knowledge is all substances and modes. […] There is no substance or kind of mode that exceeds being an object of perfect knowledge.
+
+“All substances and modes” is a substantive condition on the perfect cognitive mode. The mode’s arising also has a definite causal order. Pūjyapāda answers an objection that the root could have been worded more economically:
+
+Umāsvāti/Umāsvāmin (Digambara root tradition); Pūjyapāda, *Tattvārthasūtra / Sarvārthasiddhi*, [TS 10.1; commentary §921, first objection/reply](cite://umasvati-pujyapada/tattvarthasutra-sarvarthasiddhi/inspectable-jaina-removal-order):
+
+> mohakṣayāj jñānadarśanāvaraṇāntarāyakṣayāc ca kevalam || […] satyam etat, kṣayakramapratipādanārtho vākyabhedena nirdeśaḥ kriyate. prāgeva mohaṃ kṣayam upanīyāntarmuhūrtaṃ kṣīṇakaṣāyavyapadeśam avāpya tato yugapaj jñānadarśanāvaraṇāntarāyāṇāṃ kṣayam kṛtvā kevalam avāpnoti iti. tatkṣayo hetuḥ kevalotpatter iti hetulakṣaṇo vibhaktinirdeśaḥ kṛtaḥ.
+
+Perfect knowledge [arises] from the destruction of delusion and from the destruction of the knowledge- and perception-obscuring and obstructive [karmas]. […] True [that a shorter wording was possible]; but the formulation in separate clauses is made to teach the order of destruction. Having first brought delusion to destruction, and having obtained the designation “passions destroyed” for less than a muhūrta, one then destroys together the knowledge- and perception-obscuring and obstructive [karmas] and attains perfect knowledge. Their destruction is the cause of perfect knowledge’s arising; therefore the case ending indicating a cause was employed.
+
+Separate clauses teach priority: delusion is removed first; the three remaining obstructive classes are then destroyed together. The causal case ending is itself part of the explanation. The rest of the commentary details the spiritual stages and karmas.
+
+Perfect knowledge and complete release have related but distinguishable conditions. The following joins the root definition of liberation to the later discussion of what ceases and what remains:
+
+Umāsvāti/Umāsvāmin (Digambara root tradition); Pūjyapāda, *Tattvārthasūtra / Sarvārthasiddhi*, [TS 10.2; Pūjyapāda §927 on the exception in TS 10.4, read with §§924–926](cite://umasvati-pujyapada/tattvarthasutra-sarvarthasiddhi/inspectable-jaina-release-not-all-cognition-loss):
+
+> bandhahetvabhāvanirjarābhyāṃ kṛtsnakarmavipramokṣo mokṣaḥ || […] kevalasamyaktvajñānadarśanasiddhatvebhyo ’nyatrānyasminn ayaṃ vidhir iti. yadi catvāra evāvaśiṣyante, anantavīryādīnāṃ nivṛttiḥ prāpnoti? naiṣa doṣaḥ, jñānadarśanāvinābhāvitvād anantavīryādīnām aviśeṣaḥ, anantasāmarthyahīnasyānantāvabodhavṛttyabhāvāj jñānamayatvāc ca sukhasyeti.
+
+Liberation is complete release from all karma, through absence of the causes of bondage and through shedding [karma]. […] [Pūjyapāda:] This rule [of cessation] applies to whatever is other than perfect rightness, knowledge, perception and the state of a perfected being. [Objection:] If only four remain, would not unlimited power and so forth cease? [Reply:] This is no fault: unlimited power and so forth are not separate [exceptions], because they are inseparable from knowledge and perception; for the activity of unlimited cognition is absent in one lacking unlimited capacity, and happiness consists of knowledge.
+
+The intervening discussion asks whether release removes only material karma or also karmically conditioned states. The explicit exception prevents an inference that all cognition vanishes. The objection about unlimited power is answered through its inseparability from knowledge and perception, rather than by discarding it. Thus release cannot be represented here merely as the absence of every changing cognitive quality.
+
+Nor does liberation make the question of individual differences disappear. Pūjyapāda separates an objection about merely historical differences from a qualified reply:
+
+Pūjyapāda, *Sarvārthasiddhi*, [Commentary §§936–937 on TS 10.9](cite://pujyapada/sarvartha-siddhi/inspectable-jaina-released-distinctions):
+
+> āha, amī parinivṛttā gatijātyādibhedakāraṇābhāvād atītabhedavyavahārā eveti. asti kathaṃcid bhedo ’pi. kutaḥ — […] kālena kasmin kāle siddhiḥ? pratyutpannanayāpekṣayā ekasamaye siddhyan siddho bhavati. bhūtaprajñāpananayāpekṣayā janmato ’viśeṣeṇotsarpiṇyavasarpiṇyor jātaḥ sidhyati.
+
+[Objection:] These released ones have only discourse about past differences, since the causes of differences of destination, birth-class and so forth are absent. [Reply:] There is also difference in a certain respect. Why? […] As regards time: at what time is perfection? With reference to the standpoint of the present, one attaining perfection in a single instant becomes perfected. With reference to the standpoint that describes the past, as regards birth, without further specification, one born in an ascending or descending [time-cycle] attains perfection.
+
+The present standpoint and the standpoint describing the past do different work. The reply allows distinction in a certain respect without preserving every formerly differentiating quality. The selected time example makes the qualification visible; the intervening place examples and doubtful adjacent electronic forms are omitted. What persists must be stated with the relevant standpoint, not inferred from an unrestricted claim of either sameness or difference.
+
+### Madhyamaka: correction without an intrinsically existing remainder
+
+Nāgārjuna and Candrakīrti press a different question: does freedom from “I” and “mine” establish an ultimately real subject who remains after those appropriations have ended? Candrakīrti states that inference as an objection before introducing Nāgārjuna’s reply:
+
+Nāgārjuna; Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 18.3 and immediately preceding PP objection; Vaidya 1960 p 148/PDF 189](cite://nagarjuna-candrakirti/mulamadhyamakakarika-prasannapada/inspectable-madhyamaka-no-remainder-subject):
+
+> nanu ca yo ’sāv evaṃ nirmamo nirahaṅkāraś ca yogī bhavati, sa tāvad asti. sati ca tasmin siddha ātmā skandhāś ceti. naitad evam. yasmāt — nirmamo nirahaṅkāro yaś ca so ’pi na vidyate / nirmamaṃ nirahaṅkāraṃ yaḥ paśyati na paśyati //
+
+[Objection:] But that yogin who thus becomes free of “mine” and “I” does exist. Given his existence, self and aggregates are established. [Reply:] It is not so. For: even the one who is free of “mine” and “I” is not found. Whoever sees one free of “mine” and “I” does not see.
+
+The denial concerns the intrinsic existent proposed by the objection. It does not, when read with the account of conventional practice below, erase conventional persons or their practice. But it does prevent us from inserting a universal unconditioned subject as the conclusion of this argument.
+
+The account still gives a causal explanation of liberation. The root verse is followed here by Candrakīrti’s concluding sequence:
+
+Nāgārjuna; Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 18.5; PP 18.5 concluding chain; Vaidya 1960 pp 149–150/PDF 190–191](cite://nagarjuna-candrakirti/mulamadhyamakakarika-prasannapada/inspectable-madhyamaka-causal-cessation):
+
+> karmakleśakṣayān mokṣaḥ karmakleśā vikalpataḥ / te prapañcāt prapañcas tu śūnyatāyāṃ nirudhyate // […] prapañcavigamāc ca vikalpanivṛttiḥ, vikalpanivṛttyā ca aśeṣakarmakleśanivṛttiḥ, karmakleśanivṛttyā ca janmanivṛttiḥ.
+
+Liberation comes from the ending of action and afflictions; action and afflictions arise from conceptual construction; those [constructions] from proliferation, while proliferation ceases in emptiness. […] From the departure of proliferation comes cessation of conceptual construction; from cessation of conceptual construction, cessation of all action and afflictions; and from cessation of action and afflictions, cessation of birth.
+
+I-and-mine appropriation is explained downstream of proliferation and conceptual construction. The direction of the account matters. “Ceases in emptiness” is elucidated in the intervening prose through seeing intrinsic natures as empty; it does not describe relocation into an empty substance.
+
+The teachings about self are also differentiated by their audience and purpose:
+
+Nāgārjuna; Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 18.6 and PP audience distinction; Vaidya 1960 pp 152–153/PDF 193–194](cite://nagarjuna-candrakirti/mulamadhyamakakarika-prasannapada/inspectable-madhyamaka-graded-self-teaching):
+
+> ātmety api prajñapitam anātmety api deśitam / buddhair nātmā na cānātmā kaścid ity api deśitam // […] hīnānāṃ vineyānām akuśalakarmakāriṇām akuśalādi nivartayituṃ buddhair bhagavadbhiḥ kvacid ātmety api prajñapitaṃ loke vyavasthāpitam. […] teṣāṃ madhyānāṃ vineyānāṃ satkāyadarśanābhiniveśaśithilīkaraṇāya nirvāṇābhilāṣasaṃjananārthaṃ […] anātmety api deśitam. […] teṣām utkṛṣṭānāṃ vineyānāṃ vigatātmasnehānāṃ […] yathaiva hy ātmadarśanam atattvam, evaṃ tatpratipakṣabhūtam apy anātmadarśanaṃ naiva tattvam iti.
+
+[Nāgārjuna:] “Self” has also been designated, and “nonself” also taught; the Buddhas have also taught that there is neither any self nor any nonself. […] [Candrakīrti:] To turn away from unwholesomeness and so forth those less advanced pupils who perform unwholesome actions, the Blessed Buddhas in some cases also designated “self,” establishing it in the world. […] For those intermediate pupils, to loosen fixation on the view of a real personal identity and to generate desire for nirvāṇa, […] “nonself” too was taught. […] For those advanced pupils whose attachment to self has gone […] [the neither-self-nor-nonself teaching quoted again in the intervening text]. […] For just as the view of self is not reality, so the view of nonself that opposes it is itself not reality.
+
+Candrakīrti’s first explanation treats self-teaching as a response to conduct that denies consequences and responsibility, nonself-teaching as a remedy for entrenched personal-identity views, and the neither-view teaching as appropriate to advanced pupils. These are distinct pedagogical functions. The separated audience clauses are excerpts, not one continuous sentence; the final incomplete clause is connected to the repeated root teaching through an explicit bracketed explanation. A further interpretation introduced afterward by “alternatively” is not fused with this one, and the account is not attributed to every Buddhist school.
+
+The two truths likewise participate in teaching and attainment. Nāgārjuna writes:
+
+Nāgārjuna, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 24.8 and 24.10; Vaidya 1960 pp 215–216/PDF 256–257](cite://nagarjuna/mula-madhyamaka-karika/inspectable-madhyamaka-two-truths-practice):
+
+> dve satye samupāśritya buddhānāṃ dharmadeśanā / lokasaṃvṛtisatyaṃ ca satyaṃ ca paramārthataḥ // […] vyavahāram anāśritya paramārtho na deśyate / paramārtham anāgamya nirvāṇaṃ nādhigamyate //
+
+The Buddhas’ teaching of dharma relies on two truths: worldly conventional truth and truth ultimately. […] Without relying on ordinary usage, the ultimate is not taught; without reaching the ultimate, nirvāṇa is not attained.
+
+Ordinary usage is necessary for teaching the ultimate, and reaching the ultimate is necessary for nirvāṇa. The distinction does not authorize discarding practice. Nor does it itself establish two independently existing worlds or prove equivalence with Advaita’s reality distinctions. Candrakīrti makes the preservation of convention explicit through another reflection image:
+
+Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [PP on MMK 24.11; Vaidya 1960 p 216/PDF 257](cite://candrakirti/prasannapada/inspectable-madhyamaka-convention-not-substratum):
+
+> pratibimbākārāyāś ca lokasaṃvṛter abādhanāt karmakarmaphaladharmādharmādikam api na bādhate. na cāpi paramārthaṃ bhāvasvabhāvatvena samāropayati.
+
+And because [the yogin] does not negate worldly convention, which has the form of a reflection, he does not negate action, action’s result, merit, demerit and so forth either. Nor does he superimpose the ultimate as the intrinsic nature of a thing.
+
+Here reflection explains why action, its fruits, merit, and demerit remain conventionally operative. The second sentence prevents that preservation from becoming a substantial ultimate underneath convention. A persistent consciousness reflected in a medium is not asserted by this image.
+
+Dependent arising gives the positive relation between conditioned appearance and the absence of intrinsic arising:
+
+Nāgārjuna; Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 24.18 and PP opening explanation; Vaidya 1960 p 219/PDF 260](cite://nagarjuna-candrakirti/mulamadhyamakakarika-prasannapada/inspectable-madhyamaka-dependent-designation):
+
+> yaḥ pratītyasamutpādaḥ śūnyatāṃ tāṃ pracakṣmahe / sā prajñaptir upādāya pratipat saiva madhyamā // yo ’yaṃ pratītyasamutpādo hetupratyayān apekṣya aṅkuravijñānādīnāṃ prādurbhāvaḥ, sa svabhāvenānutpādaḥ. yaś ca svabhāvenānutpādo bhāvānāṃ sā śūnyatā.
+
+What is dependent arising, that we declare to be emptiness. That is designation in dependence [on something]; that itself is the middle way. This dependent arising—the appearance of sprouts, cognitions and so forth depending upon causes and conditions—is nonarising by intrinsic nature. And the nonarising of things by intrinsic nature is emptiness.
+
+Nāgārjuna’s verse comes first; Candrakīrti’s prose then mentions sprouts and cognitions arising in dependence on causes and conditions. Two readings are consequential. The joined expression hetupratyayānapekṣya is divided as hetupratyayān apekṣya, “depending on causes and conditions,” not as independence from them. The printing supports svabhāvena anutpādaḥ, nonarising by intrinsic nature, against misleading spacing in the electronic witness. Conditioned arising and intrinsic arising therefore cannot be collapsed into one assertion that either everything happens or nothing happens.
+
+Candrakīrti gives a concrete dependence example:
+
+Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [PP on MMK 24.18; Vaidya 1960 pp 219–220/PDF 260–261](cite://candrakirti/prasannapada/inspectable-madhyamaka-chariot):
+
+> cakrādīny upādāya rathāṅgāni rathaḥ prajñapyate. tasya yā svāṅgāny upādāya prajñaptiḥ, sā svabhāvenānutpattiḥ, yā ca svabhāvenānutpattiḥ, sā śūnyatā.
+
+The chariot is designated in dependence on its parts, wheels and so forth. Its designation in dependence on its own parts is nonarising by intrinsic nature; and nonarising by intrinsic nature is emptiness.
+
+A chariot is designated in dependence on its parts. This is not ordinary identity between the chariot and each wheel, and it does not posit a universal consciousness beneath the parts. What it supplies is an argument about designation and intrinsic arising that a comparison must preserve on its own terms.
+
+### Coproducts: retaining alternatives without premature identification
+
+Suppose we have records from two commentarial dossiers \(A\) and \(B\). We want one archive into which either dossier can be placed, while retaining which dossier each record came from. The appropriate construction in \(\mathbf{Set}\) is the **disjoint union** \(A \sqcup  B\). Its elements are tagged records: \((\text{left},a)\) for \(a \in  A\) and \((\text{right},b)\) for \(b \in  B\). The source labels left and right are distinct even when \(A\) and \(B\) happen to be the same set.
+
+The source tag matters even if both dossiers contain a record called “self.” The matching word does not yet establish matching referents, arguments, or doctrines.
+
+The inclusion maps \(\iota _{A}: A \to  A \sqcup  B\) and \(\iota _{B}: B \to  A \sqcup  B\) place each record in the combined archive. Given any functions \(f: A \to  X\) and \(g: B \to  X\), there is exactly one function \(h: A \sqcup  B \to  X\) such that
+
+\[
+h \circ  \iota _{A} = f,     h \circ  \iota _{B} = g.
+\]
+
+Define it by cases: \(h(\text{left},a) = f(a)\) and \(h(\text{right},b) = g(b)\). Every record belongs to one tagged part, so the definition covers the entire archive without ambiguity.
+
+This is the **coproduct** universal property. It reverses all the arrows in the product property. Products combine maps into their factors; coproducts combine maps out of their summands. In \(\mathbf{Set}\), a product value supplies both entries, whereas a coproduct value specifies an entry from one of the two tagged sources.
+
+**Try it.** Why might ordinary untagged union fail to be a coproduct?
+
+**Answer.** If \(A\) and \(B\) both contain an element labeled “self,” choose \(f\) and \(g\) that send that element to different outputs. An untagged union has only one “self” element, so no function from it can extend both assignments. The coproduct avoids this forced agreement by preserving provenance.
+
+In the inclusion order of subsets, coproduct is ordinary union. Every pair of inclusions \(U \to  W\) and \(V \to  W\) uniquely factors through \(U \cup  V \to  W\). Again, the ambient category determines the construction. The union works there because maps are inclusions, not arbitrary assignments to outputs.
+
+For comparing traditions, retaining tagged alternatives is often the responsible beginning. It is not yet integration. The next question is which cross-tradition identifications are warranted, and what follows when we impose them.
+
+## 10. Divine fullness, pervasion and reciprocal love
+
+Jīva and Baladeva connect causal power, individual awareness, divine form and reciprocal love. Their discussion of Yaśodā’s vision makes the relation between complete presence and limited apprehension particularly concrete.
 
 ### Jīva and Baladeva
 
@@ -3357,1140 +4398,11 @@ Jīva’s Prītisandarbha quotation follows the current GGM 119 reading *aham*, 
 
 Madhva/Jayatīrtha’s cited *ete svāṃśakalāḥ* is retained as their witnessed quotation, rather than silently substituted for the commonly printed Bhāgavata 1.3.28 *ete cāṃśakalāḥ*. The malformed electronic *svaguṇaśatmakam* in the Anuvyākhyāna passage is replaced by the directly witnessed Devanagari *svaguṇātmakam*, supported also by Jayatīrtha’s immediate analysis of *sva* and *guṇātmaka*. Its numbering differs between the two electronic presentations. The Tarkatāṇḍava excerpts likewise keep Vyāsatīrtha’s root argument distinct from Rāghavendra’s interleaved Nyāyadīpa.
 
-### A word's application and its complete reference
+## 11. Reflexivity, contraction and complete apprehension in Trika
 
-Rāmānuja's account is broader than a rule for exceptional passages. In *Vedārthasaṃgraha*17–21 he argues that ordinary words approach what they denote through particular configured things, while their full reference extends through the individual self to the indwelling supreme. Ordinary understanding stops at a part of what is denoted. Hearing Vedānta completes that understanding; it does not cancel the cow, person or other mode first understood. The expressions still have different grounds of application. [Source](cite://ramanuja/vedartha-samgraha/category-ramanuja)
+The preceding accounts distinguish powers from their exercise and complete reality from finite apprehension. Trika argues for reflexivity and intrinsic power, then explains contraction, recognition and complete apprehension. Its mirror arguments also specify what an image does not transfer to its receiver.
 
-This changes what a mathematical model should represent. If we write \(\operatorname{local}(e)=j\), “local” records the individual mode through which this expression applies. It does not assert that the expression's entire actual denotation is \(j\). And if \(\operatorname{Ref}(e,c,B)\) records its ultimate bearer in a context \(c\), this projection does not preserve the whole meaning by itself: we must retain how the expression reaches that bearer. Two expressions can reach \(B\) through different modes without becoming synonymous.
-
-Rāmānuja gives a useful test. A staff can qualify a person who possesses it, but the word “staff” does not thereby designate that person in the same way as an intrinsic bodily qualification. The possessive construction does work that the unmodified noun does not. His criterion is not simply that two things are connected, nor that a qualifier must be a quality rather than a substance. It is whether the qualification is intrinsically inseparable in the relevant relation. The word “staff” can nevertheless ultimately refer to Brahman through its own place in the divine body. Failure to name the human possessor does not imply failure of Rāmānuja's wider ultimate-reference claim.
-
-Nimbārka and Śrīnivāsa also bring a broad reference claim into their discussion. Śrīnivāsa invokes the supreme’s being denotable by all words on the basis of universal causality and related grounds. The comparison is therefore not a universal theory opposed to one isolated exception. Their discussion of the Maitreyī passage must explain apparently individual-self language together with the promise of knowing all through one and the teaching of liberating contemplation. The indwelling-controller argument gives a reason to interpret that individual-self expression as reaching the supreme. Śrīnivāsa also preserves the difference between this route, the reported causal route and the reported future-liberation route. His own qualification retains nonseparation in bondage and distinction in release. We have grounds for a shared selected inference and a broader denotational premise on both sides. Rāmānuja additionally provides the detailed account of ordinary partial understanding and its completion. We have not established that these entire semantic explanations are mutually recoverable. [Source](cite://nimbarka/vedanta-parijata-saurabha/category-nimbarka)
-
-### Deriving the reference rather than assuming it
-
-Here is a selected reconstruction. Let \(E\) be interpreted nominal expressions, \(X\) the represented beings, and \(C\) resolved interpretive contexts. These are types in the model, not a declaration that Brahman and an individual are independent substances. Write \(g:E \to  X\) for the expression's local application ground. Use a relation \(\operatorname{Ref}(e,c,x)\) for its established ultimate bearer. In a resolved use, require at most one such bearer:
-
-\[
-\operatorname{Ref}(e,c,x) \land  \operatorname{Ref}(e,c,y) \Longrightarrow  x=y.
-\]
-
-This condition gives uniqueness, not existence. We have not assumed that the model has already supplied a completed interpretation for every expression in every context. In particular, an omitted \(\operatorname{Ref}\) tuple in this selected representation is not a historical assertion that the corresponding word fails to denote Brahman.
-
-Let \(K(e,c)\) abbreviate explicit sufficient evidence in the selected argument: the nominal is used through its conventional ground; the inquiry concerns the whole Self; the argument appeals to inner-controller testimony and a liberating conclusion; and this is the author's affirmative interpretation. \(K\) contains no reference conclusion. For Rāmānuja, §4 connects the identity and inner-controller teachings with contemplation and its liberating fruit; §§17–21 and 65–68 develop his affirmative reference argument. For Śrīnivāsa, the connected Maitreyī discussion supplies the contextual evidence. These are sufficient premises for the comparison, not necessary conditions governing every actual denotation.
-
-The common bridge is:
-
-\[
-\begin{gathered}K(e,c), \operatorname{Body}(g(e),B), \operatorname{InnerSelf}(B,g(e)), \operatorname{Governs}(B,g(e))\\\Longrightarrow  \operatorname{Ref}(e,c,B).\end{gathered}
-\]
-
-Here \(B\) is the supreme bearer. The bridge is a substantive semantic rule reconstructed from the texts. Logic alone does not turn bodyhood into word-reference. Rāmānuja explains this step through intrinsic qualification: the body is an inseparable mode, and the appropriately grounded expression denotes its qualified bearer. His semantic rule applies more broadly than the selected contextual premises \(K\). Śrīnivāsa's indwelling-controller argument supplies another route from the relevant individual-expression to the supreme. His broader all-word-denotation premise remains part of the source account; choosing this particular derivation does not make it an exception to a generally finite reference.
-
-Take an individual \(j\) and an expression \(e_{j}\) whose ground is \(j\). Suppose the source premises establish \(\operatorname{Body}(j,B)\), the corresponding inner-self/governance relations, and \(K(e_{j},c)\). Substitute \(g(e_{j})=j\) into the rule: all its premises hold, so \(\operatorname{Ref}(e_{j},c,B)\) follows. A directly divine expression \(e_{B}\) has \(g(e_{B})=B\) and reaches \(B\) through its own direct naming rule. This direct naming rule does not need the assumption \(\operatorname{Body}(B,B)\). The individual distinction \(j\ne B\) is a retained source premise. The common reference has now been derived through two routes; it is not a ground equality added to obtain the result.
-
-A dependency test makes the achievement precise. Keep the same body, indweller, local-ground and context facts, but remove the body-reference rule and its school-specific semantic explanations. A structure recording only the directly divine expression's reference can satisfy those remaining premises. It need not record the individual's reference to \(B\). Thus the semantic bridge does real inferential work. This is a test of the background theory with a premise removed, not a counterexample to either author's actual naming argument.
-
-### The categorical result
-
-Fix the selected context \(c\) and form the denoting domain
-
-\[
-\begin{gathered}D_c=\{e\in E\mid\exists x\;\operatorname{Ref}(e,c,x)\},\\\operatorname{scope}_c:D_c\to X.\end{gathered}
-\]
-
-The reference relation defines \(\operatorname{scope}_{c}\) because a bearer exists for each member of \(D_{c}\) and is unique. It would be a mistake to call this a total function on all \(E\): the restricted common theory has not supplied that totality. Both \(e_{j}\) and \(e_{B}\) are proved to belong to \(D_{c}\) by the preceding derivations.
-
-Now retain the qualifying contribution with the product map
-
-\[
-\begin{gathered}D_{c} \to  X \times  X\\e  \mapsto  (g(e), \operatorname{scope}_{c}(e)).\end{gathered}
-\]
-
-Its two marked values are \((j,B)\) and \((B,B)\). Projecting to the second coordinate gives equal ultimate bearers while the first coordinate preserves different grounds. The pair does not claim to be a complete semantics for every sentence, but it prevents this comparison from discarding the very distinction its sources use.
-
-Recall the cancellation test for a monomorphism. The two names give maps from the singleton object into \(D_{c}\). They are distinct: applying \(g\) yields \(j\) and \(B\), which the selected sources distinguish. After composing with \(\operatorname{scope}_{c}\), however, both maps yield \(B\). Therefore **\(\operatorname{scope}_{c}\) is not monic**. The same proof works in the coherent syntactic category introduced later: the names give definable constant maps, and their denoting-domain membership is proved before those maps are used. Equal final reference cannot be cancelled backward into equality of local grounds.
-
-A concrete model of this reference fragment checks compatibility with distinct grounds and nontransfer. Take three represented beings \(B, j\) and a staff \(s\), with corresponding expressions \(e_{B}, e_{j}\) and \(e_{s}\). Let their local grounds be \(B, j\) and \(s\), and let all three expressions' completed reference be \(B\). Give \(j\) and \(s\) their body relation to \(B\); separately associate the staff with its human possessor \(j\). Let suffering hold of \(j\) and not \(B\). The two source-shaped naming rules can hold together in this model. Yet the rule “anything associated with \(j\) names \(j\)” fails: the word for the staff reaches \(B\), not its contingent possessor. Unrestricted transfer of suffering also fails. All-word reference has not removed either the modes or their differentiated properties.
-
-Each reconstructed school theory proves the common naming rule through its own premises. Translating formulas and their definable maps therefore gives structure-preserving functors from the common syntactic category into the two selected school categories. Interpreting the earlier model's total reference function requires using \(D_{c}\) as its expression domain; silently using the whole \(E\) would invalidate that interpretation. This is a proved integration of a selected inference. Mutual recovery of the complete body/mode and natural-power explanations, and a full semantics of predication, remain further questions.
-
-## From an argument to a category
-
-We have now encountered three things called an object. A pot can be an object discussed in a source. A set of expressions can be an object of **Set**. A whole interpretation of a theory can be an object in a category of models.
-
-There is another useful construction: a category made from the expressions and proofs of a theory. It lets us ask which maps the theory itself warrants, rather than selecting a convenient function in one model and treating it as universal. We will build a small part of this category from the naming argument already examined in Rāmānuja and Śrīnivāsa.
-
-### A language with a deliberately restricted claim
-
-Let \(E\) be the sort of expressions, \(C\) the sort of interpretive contexts, and \(X\) the sort of represented beings. A **sort** specifies the kind of value a variable may take. These sorts do not assert three independently existing metaphysical substances. They distinguish roles in the reconstruction. Write
-
-\[
-\operatorname{Ref}(e,c,x)
-\]
-
-for the claim that expression \(e\), in resolved context \(c\), has \(x\) as its established ultimate bearer. The word “ultimate” belongs to this selected semantic question; this relation does not retain every aspect of the expression's meaning.
-
-Our first axiom states that a resolved use has at most one such bearer:
-
-\[
-\operatorname{Ref}(e,c,x)\land\operatorname{Ref}(e,c,y)\;\Longrightarrow\;x=y.
-\]
-
-Every free variable in this displayed rule is universally understood: the rule applies to any well-typed values. It does not assert that a bearer exists. A model in which the relation is empty satisfies this axiom. Nothing contradicts uniqueness when there are no outputs to compare.
-
-This distinction is especially important here. The source argument gives reasons for reference: bodyhood, inner selfhood, intrinsic qualification or the particular scriptural inquiry. The reconstruction must represent those reasons through further premises. It must not produce existence merely by naming a relation “reference.” Conversely, the absence of a tuple from our partial model is not a claim that a word in the author's complete account fails to denote Brahman.
-
-Define a formula
-
-\[
-D(e,c)\;:\!\Longleftrightarrow\;\exists x\,\operatorname{Ref}(e,c,x).
-\]
-
-This is a definition, an abbreviation for a condition, rather than an extra premise that all inputs meet it. In a particular model, \(D\) picks out the expression-context pairs for which a reference has been established.
-
-A **formula in context** consists of a formula together with its typed free variables. For instance,
-
-\[
-[e:E,\ c:C\mid D(e,c)]
-\]
-
-specifies the admissible input object. Read it as “expressions and contexts satisfying \(D\).” It is a description in the theory, not yet one particular set. Each model supplies a set of pairs satisfying that description. The object \([x:X\mid\top]\) similarly specifies all represented beings; \(\top\) means the always-true condition.
-
-### When a relation becomes an arrow
-
-Consider \(\operatorname{Ref}(e,c,x)\) as the proposed graph of an arrow from the admissible input object to \(X\). Three obligations arise.
-
-First, its inputs and outputs have to satisfy the stated domain and codomain conditions. A reference fact entails \(D(e,c)\), so the input is admissible. Second, every admissible input must have an output. This is exactly what the definition of \(D\) says. Third, the output must be unique. That follows from our functionality axiom. We have therefore obtained an arrow
-
-\[
-\rho:[e:E,c:C\mid D(e,c)]\longrightarrow[x:X\mid\top].
-\]
-
-The same graph is not automatically an arrow from the unrestricted product \(E\times C\). We have not proved existence for every input there. Restricting the domain is part of the construction, not a typographical qualification.
-
-For a fixed context, the earlier semantic argument established reference for the individual-grounded expression and the directly divine expression by different routes. That proof puts both inputs in the admissible domain. The category does not supply the Sanskrit argument's semantic premise; it makes explicit how a premise, once justified, licenses a map.
-
-Try deleting the uniqueness axiom. Let one expression in one context refer to two distinct beings. The admissible domain still exists, but the relation no longer defines an arrow to \(X\): an input has two outputs. Now restore uniqueness and delete all reference facts. The admissible domain is empty, and its arrow to \(X\) remains valid. What fails is the claim that a particular expression belongs to that domain. These are different defects, requiring different repairs.
-
-### Composition is a proof about an intermediate value
-
-Suppose the theory also has a total function \(k:X\to K\) assigning each represented being a classification. We can follow reference by classification. Its graph is
-
-\[
-H(e,c,z)\;:\!\Longleftrightarrow\;
-\exists x\bigl(\operatorname{Ref}(e,c,x)\land z=k(x)\bigr).
-\]
-
-Why existential quantification? To reach the classification, there must be an intermediate referent. We do not need to retain that intermediate variable in the output, but we must require that it exists and connects the two steps.
-
-Given an admissible input, reference supplies exactly one \(x\), and the function supplies exactly one \(z\). Thus \(H\) is again total and functional on the admissible domain. This is the composite arrow \(k\circ\rho\).
-
-More generally, an arrow from \([u\mid\phi(u)]\) to \([v\mid\psi(v)]\) is represented by a formula \(F(u,v)\) whose graph stays within those objects and whose existence and uniqueness there are provable in the theory. Two formulas represent the same arrow when the theory proves that they describe the same graph on the stated variables.
-
-The identity on \([u\mid\phi(u)]\) is represented by
-
-\[
-\phi(u)\land u=v.
-\]
-
-Here tuple equality means equality of each corresponding coordinate. Composing with this graph leaves the other graph unchanged: the intermediate value is forced to be the starting value. For three successive graphs, either bracketing gives the condition
-
-\[
-\exists v\,\exists w\,
-\bigl(F(u,v)\land G(v,w)\land H(w,z)\bigr).
-\]
-
-That equivalence proves associativity. We now have objects, arrows, identities and composition, with the required laws. This construction is a **syntactic category** of the selected theory.
-
-### A source argument can prove information loss
-
-Name a fixed resolved context \(c_*\), and use the earlier naming derivations with expressions \(e_j\) and \(e_B\). Their local grounds differ: \(g(e_j)=j\), \(g(e_B)=B\), and the source-shaped theory retains \(j\ne B\). Yet both have established ultimate bearer \(B\). The earlier derivations prove \(D(e_j,c_*)\) and \(D(e_B,c_*)\). Thus the formulas \(e=e_j\land c=c_*\) and \(e=e_B\land c=c_*\) define constant arrows \(a,b:[\;\mid\top]\to D\) from the terminal, empty-context object. Their graphs really land in the restricted domain. The different grounds distinguish these arrows, while following either by \(\rho\) gives the same result.
-
-The cancellation property defining a monomorphism therefore fails. In notation, for these two constant arrows \(a\) and \(b\),
-
-\[
-a\ne b,\qquad \rho\circ a=\rho\circ b.
-\]
-
-This result is about the reference projection. It says precisely why equal final reference cannot be cancelled backward into equal grounds.
-
-A concrete model makes the distinction easy to inspect. Use two expressions, one context, and represented beings \(j,B\). Give both expressions reference to \(B\), while their grounds are respectively \(j\) and \(B\). Both inputs belong to \(D\); the reference arrow has one value on them; the ground arrow distinguishes them. This model also witnesses consistency of the selected naming fragment, so its two distinguished constant arrows cannot collapse through a contradiction. The general proof above works in every model satisfying its premises. The concrete example helps us see the proof but does not replace it.
-
-### Translating arguments, then reversing direction on models
-
-An **interpretation** of a selected theory \(T\) in another theory \(S\) specifies meanings for the sorts, operations and relations of \(T\) using the language of \(S\), and proves the translated axioms in \(S\). In a simple sort-for-sort case, this is a systematic substitution of vocabulary with proof obligations. More general interpretations can use definable domains. The interpretation must respect typing and logical operations throughout an argument.
-
-Because proofs of totality and uniqueness remain proofs after translation, definable arrows translate to definable arrows. Identities and composition translate with them. This yields a functor between the syntactic categories, in the same direction as the interpretation:
-
-\[
-\mathcal C_T\longrightarrow\mathcal C_S.
-\]
-
-On models, the direction reverses. An \(S\)-model supplies values for the expressions used to interpret \(T\), hence supplies a \(T\)-model. For the coherent interpretations used here—using positive formulas built with finite conjunctions, finite disjunctions and existential quantifiers—ordinary relation-preserving homomorphisms preserve the interpreted structure. They therefore give the corresponding reduct functor
-
-\[
-\operatorname{Mod}(S)\longrightarrow\operatorname{Mod}(T).
-\]
-
-The first category has definable collections as objects; the second has whole models as objects. The opposite directions are not contradictory. One translates a description into a language capable of expressing it; the other reads that description back out of a model of the receiving language.
-
-This is what makes the philosophical comparison substantive. We can ask whether a proposed translation preserves a source's inference, whether it forgets its explanation, and whether a countermodel exposes a lost condition.
-
-### What this prepares us to ask of a topos
-
-The logical fragment used in these constructions allows equality, relation symbols, finite conjunctions, finite disjunctions and existential quantification. A theory whose axioms are sequents between such formulas is called **coherent**. The variables displayed in a sequent are universally understood. Falsehood can occur as the empty disjunction, so incompatibility can be expressed by an axiom with falsehood as conclusion. This is how an explicit prohibition can be retained without treating an absent model tuple as a universal negation.
-
-Allowing set-indexed disjunctions gives the broader geometric fragment used in classifying-topos theory. Arbitrary nested negations or universal quantifiers do not automatically belong to it. A full philosophical theory may require a different logic; the choice has to be defended when it affects an argument.
-
-Neither the syntactic category we just built nor a category of models is automatically a topos. Later we will construct an actual presheaf topos and state what extra universal property makes a topos classify a theory. We now have a reason to study that construction: it organizes models of stated axioms across mathematical settings.
-
-## Change, recognition and the conscious subject
-
-### What survives a change?
-
-Take a gold vessel that is broken and remade. Its former shape has gone, yet the gold remains. The Yoga commentary uses this example to distinguish a change of condition from the material becoming something other than gold. It does not begin by treating a thing as the list of everything we happen to observe about it.
-
-**Pātañjalayogaśāstra, Bhāṣya3.13** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-change-gold)
-
-> paramārthatas tv eka eva pariṇāmaḥ. dharmisvarūpamātro hi dharmo dharmivikriyaivaiṣā dharmadvārā prapañcyata iti. tatra dharmasya dharmiṇi vartamānasyaivādhvasv atītānāgatavartamāneṣu bhāvānyathātvaṃ bhavati na tu dravyānyathātvam. yathā suvarṇabhājanasya bhittvānyathākriyamāṇasya bhāvānyathātvaṃ bhavati na suvarṇānyathātvam iti.
-
-But in truth there is just one transformation. For a property is nothing but the form of its bearer; this is precisely the bearer’s modification, elaborated through its properties. In this case, the property, while existing in its bearer, undergoes a change of condition across the past, future and present courses, but not a change of substance. Thus, when a gold vessel is broken and made otherwise, there is a change of condition, but no change of the gold.
-
-The phrase *na suvarṇānyathātvam* denies alteration of the gold in the respect relevant to the example. It does not say that reshaping leaves every sensible attribute unchanged. The opening *paramārthatas* belongs to this argument about transformation; assigning it an Advaitin reality-level in advance would change the account before we have understood it.
-
-The next example makes three descriptions of a change explicit.
-
-**Pātañjalayogaśāstra, Bhāṣya3.13** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-change-clay)
-
-> tatredam udāharaṇaṃ mṛddharmī piṇḍākārād dharmād dharmāntaram upasaṃpadyamāno dharmataḥ pariṇamate ghaṭākāra iti. ghaṭākāro 'nāgataṃ lakṣaṇaṃ hitvā vartamānalakṣaṇaṃ pratipadyata iti lakṣaṇataḥ pariṇamate. ghaṭo navapurāṇatāṃ pratikṣaṇam anubhavann avasthāpariṇāmaṃ pratipadyata iti. dharmiṇo 'pi dharmāntaram avasthā dharmasyāpi lakṣaṇāntaram avasthety eka eva dravyapariṇāmo bhedenopadarśita iti. evaṃ padārthāntareṣv api yojyam iti.
-
-Here is an example. The clay bearer, passing from the property of lump-form to another property, transforms with respect to property: it is pot-form. Pot-form leaves the future temporal mark and takes on the present temporal mark: it transforms with respect to temporal mark. The pot, undergoing newness and oldness at every moment, takes on transformation of condition. A further property is also a condition of the bearer, and a further temporal mark is a condition of the property. Thus one transformation of substance is displayed through distinctions. This is to be applied to other things as well.
-
-A lump becomes a pot: the relevant description is its property or form, *dharma*. The pot-form passes from future to present: the relevant description is its temporal mark, *lakṣaṇa*. The produced pot ages: the relevant description is its condition, *avasthā*. The commentary relates these descriptions as distinctions within one transformation.
-
-Here is its compact definition.
-
-**Pātañjalayogaśāstra, Bhāṣya3.13, closing** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-change-definition)
-
-> atha ko 'yaṃ pariṇāmaḥ.avasthitasya dravyasya pūrvadharmanivṛttau dharmāntarotpattiḥ pariṇāma iti.
-
-Now what is this transformation? Transformation is the arising of another property when a previous property of a persisting substance ceases.
-
-**Pātañjalayogaśāstra, Yogasūtra3.14** [Source](cite://patanjali/yoga-sutra/inspectable-yoga-dharmin-sutra)
-
-> śāntoditāvyapadeśyadharmānupātī dharmī
-
-The bearer is that which continues through properties that have subsided, have arisen, and are not yet designatable.
-
-**Pātañjalayogaśāstra, Bhāṣya3.14, opening** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-dharma-power)
-
-> yogyatāvacchinnā dharmiṇaḥ śaktir eva dharmaḥ. sa ca phalaprasavabhedānumita ekasyānyo 'nyaś ca paridṛṣṭaḥ.
-
-A property is precisely the bearer’s power delimited by aptitude. Inferred from difference in the production of results, it is observed as one and another [property] of one [bearer].
-
-A property is doing more work here than a label. Its difference can be inferred from the different results the bearer is capable of producing. Thus a mathematical state description limited to visible shape would miss a causal premise. A more adequate account would have to explain capacities, their conditions of exercise, and the evidence for attributing them.
-
-But why posit a bearer at all? Assigning every state to an object identifier would simply assume the answer. The commentary gives an argument from experience, memory and recognition.
-
-**Pātañjalayogaśāstra, Bhāṣya3.14, concluding argument** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-persistence-recognition)
-
-> yasya tu dharmamātram evedaṃ niranvayaṃ tasya bhogābhāvaḥ. kasmāt, anyena vijñānena kṛtasya karmaṇo 'nyat kathaṃ bhoktṛtvenādhikriyate. tatsmṛtyabhāvaś ca nānyadṛṣṭasya smaraṇam anyasyāstīti. vastupratyabhijñānāc ca sthito 'nvayī dharmī yo dharmānyathātvam abhyupagataḥ pratyabhijñāyate tasmān nedaṃ dharmamātraṃ niranvayam iti.
-
-But for one for whom this is merely properties without a continuing connection, there is no experience [of the result]. Why? How can a different cognition be entitled as experiencer of an action done by another cognition? Nor would there be memory of it: one does not remember what another has seen. And because of recognition of an object, a persisting, continuing bearer is established: what has undergone alteration of property is recognized. Therefore this is not merely properties without a continuing connection.
-
-The passage gives three connected tests: how the consequence of an action belongs to an experiencer; how memory concerns what that experiencer previously encountered; and how recognition identifies something through changed properties. Those demands may be contested; the argument presented by the Yoga commentator is not a complete account of its Buddhist interlocutors. A faithful reconstruction must expose the premises so that their force can be assessed. A diagram that already labels successive states “the same thing” does not establish them.
-
-Order also matters.
-
-**Pātañjalayogaśāstra, Yogasūtra3.15** [Source](cite://patanjali/yoga-sutra/inspectable-yoga-sequence-sutra)
-
-> kramānyatvaṃ pariṇāmānyatve hetuḥ
-
-Difference in sequence is a cause of difference in transformation.
-
-Consequently, a category containing arbitrary arrows between every state would be too permissive for this particular use. The arrows would need an interpretation that records admissible transformations and their composition.
-
-There is a further distinction that a universal river analogy would obscure.
-
-**Pātañjalayogaśāstra, Bhāṣya4.33** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-two-permanences)
-
-> dvayī ceyaṃ nityatā kūṭasthanityatā pariṇāminityatā ca. tatra kūṭasthanityatā puruṣasya. pariṇāminityatā guṇānām. yasmin pariṇamyamāne tattvaṃ na vihanyate tan nityam ubhayasya ca tattvānabhighātān nityatvam.
-
-And this permanence is twofold: immutable permanence and permanence through transformation. Of these, immutable permanence belongs to the conscious subject; permanence through transformation belongs to the guṇas. That is permanent whose reality is not destroyed while it transforms; both are permanent because the reality of each is undestroyed.
-
-**Pātañjalayogaśāstra, Yogasūtra4.18** [Source](cite://patanjali/yoga-sutra/inspectable-yoga-knower-unchanging-sutra)
-
-> sadā jñātāś cittavṛttayas tatprabhoḥ puruṣasyāpariṇāmitvāt
-
-The mind’s modifications are always known, because their master, the conscious subject, does not transform.
-
-The persistence of changing nature and the changelessness of the conscious subject are expressly different. The sūtra also gives a reason for the mind’s modifications being always known: its master does not transform. To study the theory mathematically, we need to say which claims express change, which express persistence, and which are premises concerning knowledge. One generic relation called “identity” cannot do all three jobs merely by changing its label.
-
-### Discrimination does not abolish the subject
-
-Sāṅkhya provides a particularly clear test of the suggestion that disidentification is a denial of self. Before the celebrated negations, the Kārikā argues that conscious subjects exist and are plural.
-
-**Sāṅkhyakārikā, 17** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-subject-argument)
-
-> saṅghātaparārthatvāt triguṇādiviparyayād adhiṣṭhānāt /
-> puruṣo 'sti bhoktṛbhāvāt kaivalyārthapravṛtteś ca //
-
-The conscious subject exists: because an aggregate is for another; because of being contrary to the three guṇas and the rest; because of superintendence; because there is an experiencer; and because of activity directed toward isolation.
-
-**Sāṅkhyakārikā, 18** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-plurality)
-
-> janmamaraṇakaraṇānāṃ pratiniyamād ayugapatpravṛtteś ca /
-> puruṣabahutvaṃ siddhaṃ traiguṇyaviparyayāc caiva //
-
-The multiplicity of conscious subjects is established from the separate assignment of birth, death and instruments, from the absence of simultaneous activity, and from variation in the three-guṇa condition.
-
-**Sāṅkhyakārikā, 19** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-witness-nonagency)
-
-> tasmāc ca viparyāsāt siddhaṃ sākṣitvam asya puruṣasya /
-> kaivalyaṃ mādhyasthyaṃ draṣṭṛtvam akartṛbhāvaś ca //
-
-And from that opposition are established this conscious subject’s witnesshood, isolation, neutrality, seership, and absence of agency.
-
-**Sāṅkhyakārikā, 20** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-apparent-agency)
-
-> tasmāt tatsaṃyogād acetanaṃ cetanāvad iva liṅgam /
-> guṇakartṛtve 'pi tathā karteva bhavaty udāsīnaḥ //
-
-Therefore, through conjunction with that [subject], the unconscious subtle apparatus becomes as if conscious; likewise, although agency belongs to the guṇas, the uninvolved [subject] becomes as if an agent.
-
-The two occurrences of *iva*, “as if,” in verse 20 matter. The apparatus appears conscious through its conjunction with the subject; the subject appears to act although activity belongs to the guṇas. The text therefore distinguishes an attributed presentation from the account of what acts or is conscious in its own right. Verse 19 retains positive predicates—witness, seer, neutral—even while denying agency. Calling its subject simply empty would leave these commitments unexplained.
-
-The same distinction governs bondage and release.
-
-**Sāṅkhyakārikā, 62** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-no-intrinsic-bondage)
-
-> tasmān na badhyate nāpi mucyate nāpi saṃsarati kaścit /
-> saṃsarati badhyate mucyate ca nānāśrayā prakṛtiḥ //
-
-Therefore no one is bound, released, or transmigrates. Nature, having manifold supports, transmigrates, is bound, and is released.
-
-**Māṭharavṛtti, ad62, printed 56** [Source](cite://mathara/mathara-vrtti/inspectable-mathara-nonbondage)
-
-> puruṣo na badhyate sarvagatatvāt, avikāratvāt, niṣkriyatvāt, akartṛtvāt | yasmān na badhyate tasmān na mucyate | mukta eva saḥ | abaddhaḥ kuto mucyate |
-
-The conscious subject is not bound, because it is all-pervading, changeless, inactive, and not an agent. Since it is not bound, it is not released. It is already free. How could an unbound one be released?
-
-Māṭhara names the subject of the denial and gives its grounds. The second line of verse 62 is indispensable: the account still describes bondage, transmigration and release, attributing them to nature with manifold supports. A formal model that deletes every process of release because the first line denies intrinsic bondage would contradict the very next line.
-
-Now the three negations can be read in their setting.
-
-**Sāṅkhyakārikā, 64** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-discrimination-root)
-
-> evaṃ tattvābhyāsān nāsmi na me nāham ity apariśeṣam /
-> aviparyayād viśuddhaṃ kevalam utpadyate jñānam //
-
-Thus, from practice of the principles, remainderless knowledge arises: “I am not; not mine; not I”—pure through non-error, unmixed.
-
-**Māṭharavṛtti, ad64, printed 57** [Source](cite://mathara/mathara-vrtti/inspectable-mathara-three-negations)
-
-> evam iti | yathā, etāni pañcaviṃśatitattvāni puruṣādyāni bhūtaparyantāni teṣām abhyāsas tattvābhyāsaḥ | abhyāsenaiva tattvadarśanam | tasmād abhyāsāt puruṣasya buddhir utpadyate | nāsmi tattvāni, na me tattvāni, nāhaṃ tattvānām, kiṃ tu prādhānikāny etāni | tasmāj jñānam utpadyata evamādi | apariśeṣaṃ niravaśeṣam ity arthaḥ | kiṃ cānyat (jñānaṃ yasmād āha) --- aviparyayāt | viparyayaḥ saṃśayas tadviparīto 'viparyayas tasmād aviparyayād asaṃśayād yathābhūtārthadarśanād viśuddham niravadyam avyāmiśraṃ kevalaṃ jñānam utpadyate prādurbhavati | kiṃ jñānam? guṇapuruṣāntaropalabdhirūpam ity arthaḥ
-
-As for “thus”: the practice of those twenty-five principles, beginning with the conscious subject and ending with the elements, is practice of the principles. It is precisely through practice that there is vision of the principles. From that practice cognition arises for the conscious subject: “I am not the principles; the principles are not mine; I do not belong to the principles. Rather, these belong to primordial nature.” Therefore knowledge arises, and so on. “Remainderless” means without remainder. What else? [The witness adds parenthetically: “knowledge, since he says”:] “from non-error.” Error is doubt; its opposite is non-error. From that non-error, from absence of doubt, from seeing the object as it actually is, pure—that is, faultless—unmixed, isolated knowledge arises, becomes manifest. What knowledge? [Knowledge] whose form is apprehending the difference between the guṇas and the conscious subject: this is the meaning.
-
-The root leaves the complements elliptical. Māṭhara supplies them and then identifies the resulting knowledge as discrimination between guṇas and puruṣa. His paragraph initially mentions all25 principles, but its disidentification clause says “these belong to primordial nature.” Taking every occurrence of “principles” as an unqualified reference to all25 would make puruṣa a product of nature, against the concluding distinction. This is a case where connected reading determines the scope of a quantified expression.
-
-The three clauses also differ grammatically. “Not mine” denies possession; “I do not belong to the principles” denies belonging in the other direction. They are not three copies of one equation. The translation preserves the source’s parenthetical editorial wording and its gloss of error as doubt rather than silently rewriting it.
-
-Knowledge and the ending of embodiment are then distinguished.
-
-**Sāṅkhyakārikā, 67** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-embodied-continuance)
-
-> samyagjñānādhigamād dharmādīnām akāraṇaprāptau /
-> tiṣṭhati saṃskāravaśāc cakrabhramavad dhṛtaśarīraḥ //
-
-When, through attaining right knowledge, merit and the rest have reached the condition of no longer being causes, [the knower] remains with a body maintained through the force of residual disposition, like the rotation of a wheel.
-
-**Sāṅkhyakārikā, 68** [Source](cite://isvarakrsna/samkhya-karika/inspectable-sk-final-separation)
-
-> prāpte śarīrabhede caritārthatvāt pradhānavinivṛttau /
-> aikāntikam ātyantikam ubhayaṃ kaivalyam āpnoti //
-
-When the body’s dissolution has arrived, and primordial nature has withdrawn because its purpose has been accomplished, [the subject] attains isolation that is both certain and final.
-
-The turning wheel explains why ongoing embodiment need not mean renewed productive ignorance. Something may continue through a residual condition after the cause of further production has ceased. Verse 68 adds conditions for finality. This gives a mathematical reconstruction a causal question: what has stopped producing what, what continues, and what prevents return? A single Boolean called “liberated” would hide that sequence unless its definition recovered it.
-
-### Knowing mind without making consciousness a changing object
-
-The Yoga commentary supplies a useful warning about language. Its discussion of conceptual construction asks what the possessive “the subject’s consciousness” could distinguish if the subject is itself consciousness.
-
-**Pātañjalayogaśāstra, Bhāṣya1.9** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-conceptual-possessive)
-
-> tad yathā caitanyaṃ puruṣasya svarūpam iti. yadā citir eva puruṣas tadā kim atra kena vyapadiśyate. bhavati ca vyapadeśe vṛttiḥ. yathā caitrasya gaur iti.
-
-For example: “Consciousness is the conscious subject’s own nature.” When the subject is precisely consciousness, what here is designated by what? Yet a use occurs in such designation, as in “Caitra’s cow.”
-
-The grammatical genitive does not by itself establish two independently existing entities. Conversely, the passage does not tell us to erase every distinction between a conscious subject and its instrument. The later discussion expressly makes mind an object of awareness.
-
-**Pātañjalayogaśāstra, Bhāṣya4.19, argument from self-observation** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-mind-not-selflighting)
-
-> svabuddhipracārapratisaṃvedanāt sattvānāṃ pravṛttir dṛśyate --- kruddho 'haṃ bhīto 'ham amutra me rāgo 'mutra me krodha iti etat svabuddher agrahaṇe na yuktam iti.
-
-Activity of beings is observed on account of awareness of the movement of their own intellect: “I am angry; I am afraid; my attachment is to that; my anger is toward that.” This is not appropriate if one’s own intellect is not apprehended.
-
-**Tattvavaiśāradī, ad4.22, printed 197/PDF 207** [Source](cite://vacaspati/tattva-vaisaradi/inspectable-tt-reflection-medium)
-
-> citeḥ svabuddhisaṃvedanaṃ buddhes tadākārāpattau citipratibimbādhāratayā tadrūpatāpattau satyām.
-
-Consciousness apprehends its own intellect when the intellect takes on that form—when it takes on that form through being the support of the reflection of consciousness.
-
-**Tattvavaiśāradī, ad4.22, printed 197/PDF 207** [Source](cite://vacaspati/tattva-vaisaradi/inspectable-tt-moon-reflection)
-
-> yathā hi candramasaḥ kriyām antareṇāpi saṃkrāntacandrapratibimbam amalaṃ jalam acalaṃ calam iva candramasam avabhāsayaty evaṃ vināpi citivyāpāram upasaṃkrāntacitipratibimbaṃ cittaṃ svagatayā kriyayā kriyāvatīm asaṅgatām api saṅgatāṃ citiśaktim avabhāsayad bhogyabhāvam āsādayad bhoktṛbhāvam āpādayati tasyā iti sūtrārthaḥ.
-
-Just as clear water into which the moon’s reflection has entered makes the motionless moon appear as if moving, even without action by the moon, so the mind, into which the reflection of consciousness has entered, even without activity by consciousness, through its own activity makes consciousness-power appear active and connected although unconnected. In acquiring the condition of being experienced, it brings about for that [consciousness-power] the condition of being experiencer. This is the meaning of the sūtra.
-
-Vācaspati specifies what moves in the analogy: the reflecting medium. It makes the original appear active without an action by the original. To formalize this mechanism, we would need separate statements for actual mental activity, appearance of activity, and the attribution of experience to the subject. Merely drawing two objects joined by an arrow labelled “reflection” would preserve none of that explanatory work.
-
-The next passage describes mind as presenting both the object and the subject. Its possessive phrase requires care.
-
-**Pātañjalayogaśāstra, Bhāṣya4.23, opening** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-double-presentation)
-
-> mano hi mantavyenārthenoparaktaṃ, tat svayaṃ ca viṣayatvād viṣayiṇā puruṣeṇātmīyayā vṛttyābhisaṃbaddhaṃ, tad etac cittam eva draṣṭṛdṛśyoparaktaṃ viṣayaviṣayinirbhāsaṃ cetanācetanasvarūpāpannaṃ viṣayātmakam apy aviṣayātmakam ivācetanaṃ cetanam iva sphaṭikamaṇikalpaṃ sarvārtham ity ucyate.
-
-The mind is colored by the object to be thought. And since it is itself an object, it is connected with the conscious subject which has it as object, through a vṛtti belonging to that subject [the possessive is read here with Vācaspati’s explanation below]. This very mind, colored by seer and seen, presenting object and subject, having taken on the forms of conscious and unconscious, though of the nature of an object appearing as if not an object, and though unconscious appearing as if conscious, is called “having every object,” like a crystal jewel.
-
-**Tattvavaiśāradī, ad4.23, printed 198/PDF 208** [Source](cite://vacaspati/tattva-vaisaradi/inspectable-tt-double-presentation-possessive)
-
-> cakāro bhinnakramaḥ puruṣeṇety asyānantaraṃ draṣṭavyaḥ. tacchāyāpattiḥ puruṣasya vṛttiḥ.
-
-The word “and” has a different order: it should be understood after “with the conscious subject.” The taking on of its reflection is the vṛtti of the conscious subject.
-
-The English above follows Vācaspati’s express grammatical explanation. He attributes a vṛtti to the subject through the taking on of reflection; his preceding moon comparison retains the original’s changelessness.
-
-This theory also retains an object shared by multiple subjects.
-
-**Pātañjalayogaśāstra, Bhāṣya4.16, conclusion** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-world-other-minds)
-
-> tasmāt svatantro 'rthaḥ sarvapuruṣasādhāraṇaḥ svatantrāṇi ca cittāni pratipuruṣaṃ pravartante tayoḥ saṃbandhād upalabdhiḥ puruṣasya bhoga iti.
-
-Therefore the object is independent and common to all conscious subjects, and independent minds function for each conscious subject. From their relation there is apprehension—the subject’s experience.
-
-“Independent” here answers a particular argument about the object’s persistence when an individual mind is distracted or restrained. It must not be assigned Madhva’s absolute meaning of independence without a separate argument. Shared Sanskrit vocabulary can carry different inferential roles in different texts.
-
-### Why an interval without objects is insufficient
-
-The path includes a concentration that illuminates an actual object, reduces affliction and loosens the bonds of action.
-
-**Pātañjalayogaśāstra, Bhāṣya1.1** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-corrective-concentration)
-
-> yas tv ekāgre cetasi sadbhūtam arthaṃ pradyotayati kṣiṇoti ca kleśān karmabandhanāni ślathayati nirodham abhimukhaṃ karoti sa saṃprajñāto yoga ity ākhyāyate.
-
-But the concentration which, in a one-pointed mind, illuminates an actually existing object, diminishes the afflictions, loosens the bonds of action and turns [the mind] toward cessation is called cognitive Yoga.
-
-**Pātañjalayogaśāstra, Bhāṣya1.19** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-suspension-not-release)
-
-> tathā prakṛtilayāḥ sādhikāre cetasi prakṛtilīne kaivalyapadam ivānubhavanti, yāvan na punar āvartate 'dhikāravaśāc cittam iti.
-
-Likewise, those absorbed in nature experience as if the condition of isolation when the mind, whose task still remains, is dissolved into nature—until the mind returns again through the force of that task.
-
-The apparently similar quiet states differ in what remains causally possible. In absorption into nature the mind’s task still remains, and the passage says “as if” isolation. The permanence of nonreturn matters.
-
-Discriminative practice must therefore address dispositions rather than only interrupt current thoughts.
-
-**Pātañjalayogaśāstra, Bhāṣya4.27–28** [Source](cite://vyasa/yoga-bhasya/inspectable-yoga-latent-seeds)
-
-> pratyayavivekanimnasya sattvapuruṣānyatākhyātimātrapravāhiṇaś cittasya tacchidreṣu pratyayāntarāṇy asmīti vā mameti vā jānāmīti vā na jānāmīti vā. kutaḥ, kṣīyamāṇabījebhyaḥ pūrvasaṃskārebhya iti. 4.27
-> hānam eṣāṃ kleśavad uktam ||
->  yathā kleśā dagdhabījabhāvā na prarohasamarthā bhavanti tathā jñānāgninā dagdhabījabhāvaḥ pūrvasaṃskāro na pratyayaprasūr bhavati.
-
-In the gaps of the mind inclined toward discriminative cognition, whose flow is only the discernment of the distinction between sattva and the conscious subject, other cognitions occur: “I am,” “mine,” “I know,” or “I do not know.” From what? From previous dispositions whose seeds are diminishing. [Sūtra4.28:] Their removal has been explained as with the afflictions. Just as afflictions whose seeds have been burned cannot sprout, so a former disposition, its seed burned by the fire of knowledge, does not produce cognition.
-
-A model that remembers only the presently occurring thought could identify two episodes whose latent dispositions differ. It would then lose the account of why one produces renewed identification and the other does not. The seed analogy identifies a proposed causal difference: diminishing seeds can still produce; burned seeds cannot. Whether a chosen mathematical abstraction retains that difference is a precise question we can test.
-
-### How discrimination completes its work
-
-The account of burned seeds leaves a further question. Correct discrimination itself produces dispositions. What prevents those dispositions from perpetuating the mind's activity indefinitely? The Bhāṣya and Vācaspati’s commentary answer through a sequence of counteraction, fulfilled purpose and cessation. These steps distinguish an enduring result from a cognition that continues to occur forever.
-
-**Received Vyāsa: Yogabhāṣya, 1.50; Āgāśe1904 printed 53–54/PDF 63–64.** [Inspected edition](cite://vyasa/yoga-bhasya/inspectable-yoga-wisdom-dispositions-exhaust-function)
-
-The Bhāṣya raises and answers the objection.
-
-> samādhiprajñāprabhavaḥ saṃskāro vyutthānasaṃskārāśayaṃ bādhate. vyutthānasaṃskārābhibhavāt tatprabhavāḥ pratyayā na bhavanti. […] katham asau saṃskārātiśayaś cittaṃ sādhikāraṃ na kariṣyatīti. na te prajñākṛtāḥ saṃskārāḥ kleśakṣayahetutvāc cittam adhikāraviśiṣṭaṃ kurvanti. cittaṃ hi te svakāryād avasādayanti. khyātiparyavasānaṃ hi cittaceṣṭitam iti.
-
-The disposition arising from the wisdom of concentration counters the accumulated dispositions of emergence [from concentration]. Because the dispositions of emergence are overpowered, the cognitions produced by them do not occur. […] [Objection:] How will this increase of dispositions not give the mind an ongoing function? [Reply:] Those dispositions produced by wisdom do not endow the mind with an ongoing function, because they cause the exhaustion of afflictions. For they bring the mind to an end with respect to its own work: the activity of mind culminates in discernment.
-
-The skipped middle describes the repeated wisdom/disposition sequence. The objection asks why such repetition does not perpetuate the instrument’s work. The response invokes exhaustion of afflictions and completion of that work. This supplies the causal premise for the final stage.
-
-Adhikāra is translated here as ongoing function in the experience/discrimination process, not moral entitlement or political authority. This passage does not by itself abolish the instrument for every other subject.
-
-**Vācaspati Miśra: Tattvavaiśāradī, 1.51; Āgāśe1904 printed 55/PDF 65.** [Inspected edition](cite://vacaspati/tattva-vaisaradi/inspectable-yoga-cessation-disposition-mechanism)
-
-Vācaspati raises a further objection, then asks about the evidence for cessation-dispositions.
-
-> nanu vairāgyaṃ vijñānaṃ savijñānaṃ prajñāmātraṃ bādhatāṃ saṃskāraṃ tv avijñānarūpaṃ kathaṃ bādhate. […] saṃskārād eva dīrghakālanairantaryasatkārāsevitaparavairāgyajanmanaḥ prajñāsaṃskārabādho na tu vijñānād ity arthaḥ. […] na ca sarvavṛttinirodhe pratyakṣam asti yoginaḥ. nāpi smṛtiḥ.
-
-[Objection:] Granted that dispassion, being a cognition, counters wisdom, which is cognitive; but how does it counter a disposition that is not a cognition? […] [Reply:] The meaning is that the wisdom-disposition is countered precisely by a disposition born of the higher dispassion cultivated for a long time, uninterruptedly and with care—not by cognition. […] And in the cessation of every modification there is no perception for the yogin, nor memory.
-
-The causal transition is not “correct thought simply erases everything.” Vācaspati answers an explicit mismatch objection by assigning the counteraction to a generated disposition. He then asks how its existence can be warranted when current perception and memory are absent, and gives a duration/practice-based inference. An intrinsic conscious subject must not be identified with the mental perception he denies here.
-
-The last two sentences are not evidence that consciousness itself is annihilated. Their immediate function is to motivate an inference about dispositions. The ellipsis separates the reply from the ensuing question about how these dispositions are known.
-
-**Received Vyāsa: Yogabhāṣya, 1.51; Āgāśe1904 printed 55–56/PDF 65–66.** [Inspected edition](cite://vyasa/yoga-bhasya/inspectable-yoga-instrument-ceases-subject-remains)
-
-The Bhāṣya draws the conclusion.
-
-> tasmāt te saṃskārāś cittasyādhikāravirodhino na sthitihetavo bhavantīti. yasmād avasitādhikāraṃ saha kaivalyabhāgīyaiḥ saṃskāraiś cittaṃ nivartate, tasmin nivṛtte puruṣaḥ svarūpamātrapratiṣṭho ’taḥ śuddhaḥ kevalo mukta ity ucyata iti.
-
-Therefore those dispositions oppose the mind’s ongoing function; they are not causes of its persistence. Since the mind, its function completed, ceases together with the dispositions conducive to isolation, when it has ceased, the person is established in nothing but its own nature; hence it is called pure, isolated and liberated.
-
-The instrument and its dispositions cease together after their task is completed. The subject’s own nature is the endpoint described; the grammar does not say a new subject is produced. The preceding causal account is necessary to distinguish this from arbitrary suspension.
-
-The earlier Yoga and Sāṅkhya discussion supplies the arguments for the subject’s eternity and plurality.
-
-**Vācaspati Miśra: Tattvavaiśāradī, 4.29; Āgāśe1904 printed 202/PDF 212.** [Inspected edition](cite://vacaspati/tattva-vaisaradi/inspectable-yoga-discrimination-itself-relinquished)
-
-Vācaspati introduces and explains 4.29.
-
-> tad evaṃ sūtrakāro vyutthānanirodhopāyaṃ prasaṃkhyānam uktvā prasaṃkhyānanirodhopāyam āha. […] etad uktaṃ bhavati—prasaṃkhyāne viraktas tannirodham icchan dharmameghaṃ samādhim upāsīta. tadupāsane ca sarvathā vivekakhyātir bhavati. tathā ca taṃ niroddhuṃ pārayatīti.
-
-Thus, having stated discriminative contemplation as the means of stopping emergence [from concentration], the sūtra-author states the means of stopping discriminative contemplation. […] This is what is said: dispassionate toward discriminative contemplation and wishing its cessation, one should cultivate the concentration called “cloud of dharma.” Through cultivating it, discriminative discernment occurs in every respect. And thereby one becomes capable of stopping it.
-
-The intermediate all-sided discernment and its eventual cessation must both be represented. This is not a contradiction in simultaneous predicates: the account describes a corrective means, further cultivation and capacity for cessation. The omitted paragraph explains nonattachment even to the powers yielded by prasaṃkhyāna.
-
-Bhikṣu’s supreme-Self contextual discrimination is treated separately below.
-
-**Vācaspati Miśra: Tattvavaiśāradī, 4.32; Āgāśe1904 printed 204/PDF 214.** [Inspected edition](cite://vacaspati/tattva-vaisaradi/inspectable-yoga-no-renewed-bodies-after-task)
-
-Vācaspati’s objection and own explanation, with the quoted root 4.32 omitted explicitly between them.
-
-> nanu dharmameghasya parā kāṣṭhā jñānaprasādamātraṃ paraṃ vairāgyaṃ samūlaghātam apahantu vyutthānasamādhisaṃskārān sakleśakarmāśayān guṇās tu svata eva vikārakaraṇaśīlāḥ kasmāt tādṛśam api puruṣaṃ prati dehendriyādīn nārabhanta ity ata āha. […] śīlam idaṃ guṇānāṃ yad amī yaṃ prati kṛtārthās taṃ prati na pravartanta iti bhāvaḥ.
-
-[Objection:] Granted that the highest limit of the cloud of dharma—higher dispassion consisting solely of clarity of knowledge—destroys at their roots the dispositions of emergence and concentration and the deposits of affliction and karma; but the qualities by themselves are disposed to produce transformations. Why do they not initiate bodies, senses and so forth even for such a person? Therefore [the sūtra-author] says [4.32]. […] The meaning is: this is the disposition of the qualities, that they do not operate for the one for whom their purpose has been fulfilled.
-
-The source itself challenges the inference from exhausted karma to nonreturn: natural transformative capacity remains a potential objection. The response restricts further operation relative to the particular subject whose purpose is fulfilled. This is a substantive teleological premise a model must state and assess; it does not follow merely from graph reachability.
-
-The objection concerns this accomplished person, not a universal cessation of the guṇas for every subject.
-
-**Received Vyāsa; Vācaspati Miśra: Yogabhāṣya / Tattvavaiśāradī, 4.34; Āgāśe1904 printed 207/PDF 217.** [Inspected edition](cite://vyasa-vacaspati/yogabhasya-tattvavaisaradi/inspectable-yoga-release-not-great-dissolution)
-
-First the Bhāṣya, then Vācaspati’s explanation of the permanence and nonconnection qualification.
-
-> svarūpapratiṣṭhā punar buddhisattvānabhisaṃbandhāt puruṣasya citiśaktir eva kevalā, tasyāḥ sadā tathaivāvasthānaṃ kaivalyam iti. […] asti hi mahāpralaye ’pi svarūpapratiṣṭhā citiśaktiḥ. na cāsau mokṣa ity ata āha—punar iti.
-
-[Bhāṣya:] As for establishment in its own nature: because of nonconnection with the lucid intellect, the person’s consciousness-power alone is isolated; its abiding always just so is isolation. […] [Vācaspati:] For consciousness-power is established in its own nature even during great dissolution; yet that is not liberation. Therefore [the commentator] says “as for.”
-
-Read with 4.32: completion of function and lack of renewed operation distinguish release from cosmic dissolution. Do not present subject-persistence alone as a complete liberation criterion.
-
-Punar is used transitionally in this bhāṣya sentence, not translated as a claim that liberation repeatedly recurs.
-
-### Vijñānabhikṣu: what reciprocal reflection commits us to
-
-Bhikṣu preserves the subject’s changelessness while explaining its attributed modifications through reflection.
-
-**Yogavārttika, ad1.4, printed 12/PDF 25** [Source](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-reflected-mind)
-
-> yadyapi puruṣaś cinmātro ’vikārī tathāpi buddher viṣayākāravṛttīnāṃ puruṣe yāni pratibimbāni tāny eva puruṣasya vṛttayaḥ.
-
-Although the conscious subject is consciousness alone and changeless, nevertheless the reflections, in the conscious subject, of the intellect’s object-shaped modifications are precisely the subject’s vṛttis.
-
-**Yogavārttika, ad1.4, printed 13/PDF 26** [Source](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-reciprocal-reflection)
-
-> yathā ca citi buddheḥ pratibimbam evaṃ buddhāv api citpratibimbaṃ svīkāryam anyathā caitanyasya bhānānupapatteḥ svayaṃ sākṣāt svadarśane karmakartṛvirodhena buddhyārūḍhatayaivātmano ghaṭādivaj jñeyatvābhyupagamāt.
-
-And just as there is a reflection of intellect in consciousness, so a reflection of consciousness in intellect must also be accepted; otherwise the manifestation of consciousness would be inexplicable. For, owing to the incompatibility of object and agent in directly seeing oneself by oneself, the self is admitted to be knowable, like a pot and the rest, precisely as presented in intellect.
-
-The second direction has its own reason: without it, the manifestation of consciousness would be inexplicable under the stated constraint on direct self-objectification. It is not inferred from a general axiom that reflection is symmetric. The comparison “like a pot” marks a difference from nonobjectifying accounts of self-knowledge.
-
-His next qualification controls both uses of reflection.
-
-**Yogavārttika, ad1.4, printed 14/PDF 27, continuation from13** [Source](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-image-as-cognitive-change)
-
-> bimbākāro buddheḥ pariṇāma eva sa ca sākṣibhāsya iti. etena nīrūpatvād buddhipuruṣayor anyonyaṃ pratibimbanaṃ na sambhavatīty apāstam. ubhayatrobhayākārabuddhipariṇāmasyaiva pratibimbaśabdenātra vivakṣitatvāt.
-
-The form of the original is precisely a transformation of intellect, and that is manifested to the witness. By this, [the objection] that mutual reflection of intellect and person is impossible because of lack of form is set aside. For in both cases, precisely the transformation of intellect bearing the respective forms of the two is intended here by the word “reflection.”
-
-The objection concerns lack of form, *nīrūpatva*. The reply says what the word “reflection” intends in this discussion. Both uses concern the relevant form-taking transformation of intellect. We must therefore distinguish the transformation, its presentation to the witness, and the attributed vṛtti of the unchanged subject. Treating the two directions as two independent intrinsic changes would fail this explicit condition.
-
-Individual allocation requires another premise.
-
-**Yogavārttika, ad1.4, printed 13/PDF 26** [Source](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-assigned-experience)
-
-> anādisvasvāmibhāvasyaiva pratibimbaniyāmakatayā vakṣyamāṇatvāt tu na parabuddhivṛtter bhānam.
-
-But a modification of another intellect is not manifested, because the beginningless relation of owned and owner alone will be stated as the regulator of reflection.
-
-Why is another person’s mind not immediately experienced as one’s own? Bhikṣu invokes the beginningless owner/owned relation as the regulator. Reflection alone does not supply the restriction. The continuation considers this relation when experience is absent at cosmic dissolution; that argument does not by itself establish its persistence through final liberation.
-
-### The self of a self: Bhikṣu’s Vedāntic argument
-
-Bhikṣu’s commentary on Brahmasūtra4.1.3 asks how “I am Brahman” can be valid when the difference between individual and Brahman has already been affirmed. His answer appeals to selfhood rather than simply reversing the earlier affirmation.
-
-**Vijñānāmṛtabhāṣya, Brahmasūtra4.1.3, printed 305/PDF 347** [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-self-role)
-
-> nanu jīvabrahmaṇor bheda ukta iti kathaṃ jīvasya brahmāham iti jñānaṃ bhaved iti ced ucyate—yathā sāṃkhyamate ’ntaḥkaraṇād bhinno ’pi jīvas tasyātmatayā tasyāham iti pramāviṣayo bhavati, tathaiva jīvādidehāntebhyo bhinnam api brahma jīvādyātmatayāntaḥkaraṇasyāham iti pramāviṣayaḥ syāt. antaryāmitayā jīvādilayādhāratayā ca brahmaiva sarveṣāṃ pāramārthikātmety uktatvāt. yathā ca jīvātmatājñānād dehābhimānarūpāvidyānivṛttir bhavati tathaiva brahmātmatājñānāj jīvādyabhimānasya nivṛttiḥ syāt.
-
-Objection: Since difference between the individual and Brahman has been stated, how could the individual have the cognition “I am Brahman”? Reply: Just as, in the Sāṅkhya account, the individual, although different from the inner organ, is the object of that organ’s valid cognition “I” through being its self, so Brahman, although different from [things] beginning with the individual and ending with the body, could be the object of the inner organ’s valid cognition “I” through being the self of the individual and the rest. For it has been stated that Brahman alone is the ultimate self of all, through being the inner ruler and the support into which the individual and the rest dissolve. And just as ignorance in the form of identification with the body ceases through knowing the individual as self, so identification with the individual and the rest would cease through knowing Brahman as self.
-
-The analogy has premises. The individual can be truly designated “I” by an inner organ from which it differs because it is that organ’s self. Brahman can likewise be truly designated “I” as self of the individual and the rest. Inner rulership and support at dissolution explain the ultimate self-ascription. The final sentence then assigns the knowledge a corrective function: body-identification is removed by one discrimination, and identification with the individual by the further recognition.
-
-A relation called SelfRole can record the two ascriptions. It does not yet explain their warrant or their corrective effect. Both belong to the source argument and must enter any fuller reconstruction.
-
-Bhikṣu also distinguishes ways in which difference and nondifference are predicated.
-
-**Vijñānāmṛtabhāṣya, Brahmasūtra2.3.43, printed 196/PDF 240** [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-difference-nondivision)
-
-> nanu viruddhau bhedābhedau katham ekatra saṃbhavata iti cet, anyonyābhāvalakṣaṇabhedasyāvibhāgalakṣaṇābhedenāvirodhāt. vibhāgāvibhāgarūpayor api bhedābhedayoḥ kālabhedena vyavahāraparamārthabhedena cāvirodhāc ca.
-
-Objection: How can difference and nondifference, being opposed, occur together in one [place]? [Reply:] Because difference characterized as mutual absence does not conflict with nondifference characterized as nondivision. And even difference and nondifference in the forms of division and nondivision do not conflict when time differs, and when practical and ultimate [standpoints] differ.
-
-**Vijñānāmṛtabhāṣya, Brahmasūtra4.1.3, printed 306/PDF 348** [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-self-not-undividedness)
-
-> ye tv ādhunikā jīvabrahmaṇor akhaṇḍatvam asya sūtrasyārthaṃ varṇayanti tanmataṃ pañcasūtryāṃ vistareṇa nirākṛtam.
-
-But the view of those recent [thinkers] who describe undividedness of the individual and Brahman as the meaning of this sūtra has been refuted at length in the discussion of five sūtras.
-
-The first reply differentiates meanings: mutual absence and nondivision are not the same relation with opposite truth values. The second distinguishes times and practical/ultimate contexts when division and nondivision themselves are at issue. These are identifiable strategies for avoiding an alleged contradiction, and each can be examined on its own terms.
-
-Bhikṣu expressly rejects a reading of this sūtra as undividedness of individual and Brahman. His synthesis is therefore an important precedent for integration, but the proposed nonhierarchical integration of this course remains a further philosophical task. It must show how the arguments can be related while retaining their grounds and acknowledged disagreements.
-
-### Nondivision, selfhood and the claim to finality
-
-Bhikṣu also asks which self a passage concerns. The distinction matters because nondivision, recognition of selfhood and permanent release have different conditions. His interpretation of the common texts cannot be reduced to an equation identifying all their uses of “self.”
-
-**Vijñānabhikṣu: Yogavārttika, 4.23;1884 printed 293–294/PDF 300–301.** [Inspected edition](cite://vijnanabhiksu/yoga-varttika/inspectable-bhiksu-two-self-contexts)
-
-Bhikṣu’s own interpretive conclusion; not the Yoga sūtra or Vyāsa’s bhāṣya.
-
-> etena jīvātmaprakaraṇeṣv ātmaikyaśrutīnām avaidharmyalakṣaṇābhedena viveka eva tātparyam iti draṣṭavyam. vivekajñānasyaiva samyagjñānatayā mokṣahetutvavacanāt. paramātmaprakaraṇaṃ tu jīvād api vivekena paramātmana ekasyaivātmatve tātparyam iti mantavyam.
-
-From this it should be understood that, in sections concerning the individual self, the intention of scriptural declarations of unity of self is precisely discrimination, through nondifference characterized by absence of dissimilarity; for discriminative knowledge alone is said to cause liberation as correct knowledge. But a section concerning the supreme Self should be understood to intend the selfhood of the supreme Self alone, through discrimination even from the individual self.
-
-The same printed paragraph both defends discriminative knowledge and introduces discrimination even from jīva in a supreme-Self context. A map that keeps only the final higher role loses the first argument; a map that calls jīva the unqualified final Self loses the second. Avaidharmya is not numerical identity.
-
-This is Bhikṣu’s hermeneutic, not a neutral description all earlier Yoga authors accept. The preceding citations and power/nondifference explanation do not make every scriptural use of unity identical.
-
-**Vijñānabhikṣu: Vijñānāmṛtabhāṣya, 4.2.16; Kāśī printed 320/PDF 362.** [Inspected edition](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-sampatti-not-identity-or-destruction)
-
-Bhikṣu’s own explanation following the root avibhāgo vacanāt.
-
-> ākāśe vāyor ivāviślakṣaṇānanyatvam eva sampattiḥ na tv ekatvaṃ, bhinnayor akhaṇḍātmaikyāsaṃbhavāt. nāpi vināśo gatiśravaṇāt.
-
-Arrival [into Brahman] is just nonotherness without separate distinguishability, as of air in space, not oneness, because indivisible identity of two distinct things is impossible. Nor is it destruction, because onward passage is taught in scripture.
-
-The two negative conclusions have different warrants: distinction blocks indivisible identity, while the scriptural onward journey blocks destruction. A bare equivalence relation or deletion operation would not preserve these arguments.
-
-The printed aviślakṣaṇa is glossed through the ensuing non-discrimination context. It differs from avilakṣaṇa. This 4.2 context is not automatically final release.
-
-**Vijñānabhikṣu: Vijñānāmṛtabhāṣya, 4.2.16; Kāśī printed 320/PDF 362.** [Inspected edition](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-tattvamasi-selfhood-reason)
-
-Bhikṣu’s own further reason, after the objection that tat tvam asi might signify merely mixing.
-
-> kiṃ ca avidyānivartakabrahmātmatāpratītyartham evāvibhāgarūpasampattyādi bodhyate, anyathā tatra jñānaprakaraṇe sampattyādipratipādanena phalāsaṃbhavāt. brahmātmatāyā evābhyarhitatayā sarvavedānteṣv autsargikārthatvāc ca.
-
-Further, arrival and the like in the form of nondivision are taught precisely for the sake of the cognition of Brahman’s selfhood that removes ignorance; otherwise, in that section on knowledge, teaching arrival and the like could not produce its result. And because Brahman’s selfhood itself, owing to its preeminence, is the general meaning in all the Vedānta texts.
-
-The contextual objection is substantive: if the honey example taught only mixture, how would Brahman’s selfhood follow? Bhikṣu distinguishes the illustrative arrival from the knowledge it serves. The model must distinguish a relation that can obtain without recognition from cognition that removes ignorance.
-
-brahmātmatāyā is the sandhi surface of genitive brahmātmatāyāḥ before eva, not instrumental brahmātmatayā. The following longer scriptural quotation is omitted. The surrounding objection prevents reducing Brahman-as-self to physical mixture.
-
-**Vijñānabhikṣu: Vijñānāmṛtabhāṣya, 4.2.16; Kāśī printed 321/PDF 363.** [Inspected edition](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-permanent-versus-temporary-nondivision)
-
-Bhikṣu’s own restriction within criticism of an alternative 4.2.15–16 interpretation; second sentence introduces 4.2.17.
-
-> paramamuktāv apy avibhāgas tiṣṭhaty eva, sa ātyantika ity eva viśeṣaḥ. […] vidvadavidvatsādhāraṇī sampattir vicāritā, athedānīṃ vidvadutkrāntir vicāryate.
-
-Nondivision remains also in final liberation; its distinction is just that it is permanent. […] Arrival common to the knowledgeable and the unknowledgeable has been considered; now the departure of the knowledgeable is considered.
-
-The immediate subject is not restricted to the liberated knower. Bhikṣu expressly distinguishes the common arrival from its permanent final case and from the further course of a knower. A model must not derive liberation from nondivision alone.
-
-The ellipsis skips criticism of a rival interpretation. Permanent here translates ātyantika; no claim that all temporal or embodied processes persist is supplied.
-
-**Vijñānabhikṣu: Vijñānāmṛtabhāṣya, 4.4.4; Kāśī printed 332/PDF 374.** [Inspected edition](cite://vijnanabhiksu/vijnanamrta-bhasya/inspectable-bhiksu-final-nondivision-river)
-
-First phrase: Brahmasūtra 4.4.4. Following question/reply: Bhikṣu. The cited Muṇḍaka words following this are scriptural corroboration, not independent prose by him.
-
-> avibhāgena dṛṣṭatvāt. […] samudreṇa nadanadīnām ivāvibhāgena […] ātyantikalayarūpaiva muktiḥ, kutaḥ? dṛṣṭatvāt.
-
-[Sūtra:] Because it is seen as nondivision. […] [Bhikṣu:] Liberation is precisely permanent dissolution, through nondivision as of streams and rivers with the ocean […]. Why? Because it is seen [in scripture].
-
-Read with 4.2.16: permanent laya cannot be replaced by annihilation or indivisible identity after he explicitly distinguishes these. The image has a doctrinally specified use, not an unrestricted license to collapse subjects.
-
-The second ellipsis explicitly withholds the printed phrase lakṣaṇānanyatvarūpeṇa, whose syntax in avibhāgena lakṣaṇānanyatvarūpeṇa has not been resolved through an alternate witness. It is not silently rewritten to avibhāgalakṣaṇānanyatva. Nonotherness is independently quoted in the preceding 4.2.16 passage.
-
-### What these readings require of the mathematical work
-
-The examples have yielded distinct questions: persistence through changed properties; immutable consciousness; capacities and admissible sequence; subject/instrument attribution; individualized access; the causal work of discrimination; nonreturn; and valid self-ascription without erasing difference. Their shared vocabulary makes comparison possible, but does not settle the comparison.
-
-The next mathematical step should choose one connected argument, state its vocabulary and premises, and show exactly what follows. A competing interpretation or counterexample must be expressible too. Only then can we ask whether a functor, an interpretation between theories, or another categorical construction preserves the relevant structure. These source passages constrain that choice.
-
-## Identity through change: what must a model preserve?
-
-The gold-vessel argument suggests a useful mathematical experiment. A vessel can change its shape while continuing to be gold. The Yoga commentary also distinguishes a capacity from its present exercise and explains why the order of transformations matters. We need a representation that can retain those distinctions without claiming that a mathematical identity arrow already explains the persistence of a thing.
-
-For the concrete operations, turn to the commentary’s neighboring clay example: shaping a lump into a pot and breaking it. Start with configurations. Let \(I=\{a,b\}\) contain two continuity labels. Let \(Q\) contain a lump, a new pot, an aged pot and shards. Put \(X=I\times Q\), and define \(p:X\to I\) by \(p(i,q)=i\). An element of \(X\) records a bearer label together with a condition.
-
-This representation makes a choice: it assigns successive conditions to a bearer. It does not derive that assignment from the text's memory or recognition argument. The product notation also does not assert that a material bearer and its conditions are two independently existing substances. It is a way to record two questions separately.
-
-### A preserved identity is not an identity arrow
-
-Consider a total transformation \(f:X\to X\) that changes every new pot into an aged pot and leaves the other configurations as they are. It preserves bearer labels:
-
-\[
-p\circ f=p.
-\]
-
-Yet \(f\ne\operatorname{id}_X\), because it changes the condition of a new pot. If \(o:X\to Q\) reports condition, then \(o\circ f\ne o\). An invariant of one kind can coexist with change of another kind.
-
-The identity arrow \(\operatorname{id}_X\), by contrast, leaves every configuration unchanged. Its job is to be the neutral element for composition. It is not the persisting self or substance. Persistence in this example is expressed by the separate equation involving \(p\).
-
-There is an immediate test for an empty explanation. If \(I\) had only one element, every function on \(X\) would preserve \(p\). The invariant would then distinguish nothing. A claim of continuity needs a justified criterion for when bearer labels may differ, not merely a constant function chosen so that a diagram commutes.
-
-### Why relations are often preferable to total functions
-
-The function above includes an arbitrary decision: every configuration that is not a new pot remains fixed. The Sanskrit argument does not give us that total deterministic law. Nor does saying that clay can become a pot assert that it will do so in every condition. To represent allowed transformations without asserting their inevitability, use relations.
-
-In **Rel**, the objects are sets. An arrow \(R:X\to Y\) is a relation, a subset of \(X\times Y\). An input may have no related output, one output, or several. Composition follows possible intermediate values:
-
-\[
-(S\circ R)(x,z)\quad\Longleftrightarrow\quad
-\exists y\bigl(R(x,y)\land S(y,z)\bigr).
-\]
-
-The identity is the diagonal relation \(\{(x,x):x\in X\}\). Associativity follows because either bracketing of three steps requires the same two intermediate values. Rel is a category, but its arrows need not be functions.
-
-Define three selected operations on our configuration set:
-
-\[
-\begin{aligned}
-\mathrm{Shape}&:\ (i,\mathrm{lump})\mathrel{\longmapsto}(i,\mathrm{new}),\\
-\mathrm{Age}&:\ (i,\mathrm{new})\mathrel{\longmapsto}(i,\mathrm{aged}),\\
-\mathrm{Break}&:\ (i,\mathrm{new})\mathrel{\longmapsto}(i,\mathrm{shards}),\\
-&\phantom{:}\ (i,\mathrm{aged})\mathrel{\longmapsto}(i,\mathrm{shards}).
-\end{aligned}
-\]
-
-These are the complete relation tables for this small example. Each happens to be partial and single-valued; the surrounding category also permits genuinely multiple possible outputs. Shape is unavailable on shards; that means no output is related there by this particular operation. It does not mean that no more elaborate recycling process is possible. We have not included such a process.
-
-Now compare two sequences. \(\mathrm{Break}\circ\mathrm{Shape}\) relates a lump to shards with the same label. But \(\mathrm{Shape}\circ\mathrm{Break}\) is empty: Break produces shards, and Shape requires a lump. The operations do not commute. Both orders can respect bearer continuity wherever they are defined, yet have different possibilities. A preservation equation alone would miss the role of sequence.
-
-The pertinent continuity condition for a relation is
-
-\[
-xRy\quad\Longrightarrow\quad p(x)=p(y).
-\]
-
-Writing \(p\circ R=p\) would be too strong for a partial relation. At an input where no transformation is available, the left side has no output while the function \(p\) still does. One may instead require \(p\circ R\subseteq p\), reading the functions as their graph relations.
-
-### A category whose arrows respect a bearer
-
-Fix \(I\). Objects are sets equipped with maps \(p:X\to I\). An arrow from \(p:X\to I\) to \(q:Y\to I\) is a relation \(R\subseteq X\times Y\) satisfying
-
-\[
-xRy\quad\Longrightarrow\quad p(x)=q(y).
-\]
-
-Diagonals satisfy this condition. If \(xRy\) and \(ySz\), then \(p(x)=q(y)=r(z)\), so relational composition satisfies it too. This is a category of relations respecting the specified bearer labels. Its identity and composition laws come from Rel. We do not call it the ordinary slice of Rel with commuting triangles: those triangles would demand equality, precisely the too-strong condition just examined.
-
-We can also regard operation sequences as a free category with one object. Its arrows are finite words in Shape, Age and Break; the empty word is its identity. Assign the sole object to \(X\), each generating word-letter to the corresponding relation, and each word to the composite relation. This is a functor into Rel. The functor gives the syntax of sequences a semantics in possible transitions.
-
-Different words may have the same relation. Shape followed by Break and Shape followed by Age followed by Break both take a lump to shards in this example. The histories remain different words, while this selected endpoint semantics identifies their effects. If intermediate experience or cost mattered, we would need a semantics retaining it. Thus even a correct functor can forget something consequential; we have to name what it forgets.
-
-### Powers and recognition are further premises
-
-Our relation tables describe enabled transitions. They do not yet describe every latent capacity of a bearer. One could add a predicate \(\operatorname{Capable}(x,a)\) and distinguish it from \(\operatorname{Enabled}(x,a)\), where the latter also depends on operative conditions. Merely naming Shape as an arrow does not show that a particular subject has its power at every time. Nor does failure to observe an effect prove absence of its capacity.
-
-This matters in comparing the Yoga argument with the avatāra passages. Both discussions require us to distinguish possession from exercise of power, but their bearers, reasons and claims differ. Baladeva's teacher who can teach more than he presently teaches provides a specific argument about unmanifested powers in divine forms. A common typed distinction can help compare arguments without equating their subjects.
-
-The Yoga commentary's reasoning for a persisting bearer also remains distinct. It invokes ownership of action and experience, memory of what one previously encountered, and recognition through altered properties. A reconstruction of that inference would need premises linking those phenomena to continuity. Starting with \(p\) assumes the conclusion for purposes of this transition experiment. It cannot count as a proof of the commentary's argument.
-
-Finally, the commentary itself distinguishes permanence through transformation from the nonchanging permanence of puruṣa. The construction here belongs to the first question. Neither changing condition records nor a conserved label gives an account of intrinsic self-manifestation. This proposal therefore identifies a useful family of abstractions, but not a single categorical definition that should replace every tradition's account of identity.
-
-**Check the construction.** Suppose a proposed operation changes \((a,\mathrm{new})\) into \((b,\mathrm{aged})\). Is it an arrow in Rel? Yes. Is it an arrow respecting the chosen bearer maps? No, because \(a\ne b\). A narrower category expresses a real prohibition. Whether that prohibition is philosophically justified depends on the meaning and evidence for the bearer assignment.
-
-## Self, cognition, change, and release beyond Vedānta
-
-A comparison becomes more exact when we ask what each argument requires us to distinguish. Is the self an enduring bearer of changing cognition, a subject disclosed whenever cognition occurs, or a conscious substance whose transformations belong to its reality? Does freedom preserve cognition, end it, or undo the demand for an intrinsically existing bearer? The passages below give different answers. Their practices and images can be compared without assuming those answers are already interchangeable.
-
-### Nyāya–Vaiśeṣika: what endures when cognition changes?
-
-Praśastapāda begins from a differentiated inventory of the self’s qualities. Cognition belongs in this inventory alongside pleasure, effort, dispositions, and more general determinations such as number and magnitude. The passage is his root exposition; Śrīdhara’s later explanations will supply the arguments about change and liberation.
-
-Praśastapāda, *Padārthadharmasaṅgraha*, [Ātman section, SARIT paragraph n=6.4 beginning tasya guṇāḥ](cite://prasastapada/padartha-dharma-samgraha/inspectable-vaisesika-self-qualities):
-
-> tasya guṇāḥ buddhisukhaduḥkhecchādveṣaprayatnadharmādharmasaṃskārasaṃkhyāparimāṇapṛthaktvasaṃyogavibhāgāḥ/
-
-Its qualities are cognition, pleasure, pain, desire, aversion, effort, merit, demerit, disposition, number, magnitude, distinctness, conjunction and disjunction.
-
-Śrīdhara can therefore distinguish the persistence of a bearer from the persistence of one of its qualities. The cessation of cognition need not destroy the self, and a newly arising cognition need not create a new self. His distinction is explicit:
-
-Śrīdhara, *Nyāyakandalī*, [1895 printed 85, PDF 157](cite://sridhara/nyaya-kandali/inspectable-nyaya-enduring-quality):
-
-> nityasya hi svarūpavināśaḥ svarūpāntarotpādaś ca vikāro neṣyate. guṇanivṛttir guṇāntarotpādaś cāviruddha eva.
-
-For an eternal [thing], modification as destruction of its own nature and production of another own nature is not accepted. But cessation of a quality and production of another quality are entirely unopposed.
-
-This distinction explains how change could belong to an eternal bearer; it does not by itself establish that the self is such a bearer. The preceding discussion supplies arguments about mental perception and the location of pleasure. The philosophical claim is therefore stronger than merely assigning one persistent name to a series of states, but it also requires its own evidence.
-
-Nor does sameness of observable descriptions settle individuation. In the discussion of viśeṣa, or ultimate particularity, Śrīdhara expressly considers things alike in shape, qualities, and action:
-
-Śrīdhara, *Nyāyakandalī*, [Viśeṣa discussion;1895 printed 323/PDF 395](cite://sridhara/nyaya-kandali/inspectable-nyaya-real-individuation):
-
-> tathāsmadviśiṣṭānāṃ yogināṃ tulyākṛtiguṇakriyeṣu tulyākṛtiṣu tulyaguṇeṣu tulyakriyeṣu paramāṇuṣu muktātmamanassu cānyanimittāsambhavād yebhyo nimittebhyaḥ pratyādhāram ayam asmād vilakṣaṇa iti pratyayavyāvṛttir bhavati te ’ntyā viśeṣāḥ.
-
-Likewise, for yogins superior to us, in atoms, released selves and minds that are alike in shape, qualities and action—that is, alike in shape, alike in qualities, alike in actions—those grounds from which, no other ground being possible, there arises for each substrate the discriminating cognition “this is distinct from that,” are ultimate particularizers.
-
-Here real individual distinction is compatible with the stated qualitative likeness. Its warrant is a discriminating cognition attributed to yogins, together with the exclusion of another available ground for that cognition. We should retain both parts of the argument. Simply stipulating different individuals would represent its conclusion without supplying its epistemic justification. Conversely, the thesis that complete descriptive agreement must erase every distinction would rule out this account before hearing its case.
-
-The same author gives contemplation a substantial role. The instruction has determinate content: knowledge of the six categories, followed by hearing, reflection, and sustained contemplation. This is not an instruction to empty the mind indiscriminately of every object.
-
-Śrīdhara, *Nyāyakandalī*, [1895 printed 282, PDF 354](cite://sridhara/nyaya-kandali/inspectable-nyaya-hearing-directness):
-
-> tasya cācāryopadeśāt ṣaṇṇāṃ padārthānāṃ śrautaṃ tattvajñānaṃ jāyate. tadanu śravaṇamanananididhyāsanādikrameṇa pratyakṣaṃ bhavati.
-
-And from a teacher’s instruction there arises for him scripturally received knowledge of the reality of the six categories. After that, through the sequence of hearing, reflection, sustained contemplation and so forth, [the knowledge] becomes direct.
-
-The account of matured concentration then describes an arising cognition directed to the self’s own nature:
-
-Śrīdhara, *Nyāyakandalī*, [1895 printed 279, PDF 351](cite://sridhara/nyaya-kandali/inspectable-nyaya-self-vision):
-
-> evaṃ pariṇate samādhāv ātmasvarūpasākṣātkārivijñānam udeti.
-
-When concentration has matured in this way, cognition directly realizing the self’s own nature arises.
-
-What arises is the realization-cognition, not the self it realizes. Śrīdhara’s surrounding discussion invokes practice and dispassion and quotes Yoga and Sāṅkhya; that engagement does not make all their metaphysical commitments identical. His next distinction is nevertheless striking:
-
-Śrīdhara, *Nyāyakandalī*, [1895 printed 279, PDF 351](cite://sridhara/nyaya-kandali/inspectable-nyaya-natural-nonagency):
-
-> svarūpatas tāvad ātmā na karttā na bhoktā kintūdāsīna eva.
-
-In its own nature, to begin with, the self is neither agent nor experiencer, but just indifferent.
-
-The following explanation relates “I” and “mine,” doership, and enjoyment to association with body, senses, and the rest. The qualification “in its own nature” matters: this clause does not by itself settle every issue about ordinary causal agency. The corrective process concerns the dispositions through which the self appropriates the embodied situation.
-
-Śrīdhara, *Nyāyakandalī*, [1895 printed 279, PDF 351](cite://sridhara/nyaya-kandali/inspectable-nyaya-correction-world-remains):
-
-> parokṣasya pratyakṣabādhane sāmarthyābhāvāt. […] ahaṅkāramamakāravāsanocchede sann api prapañco nātmānaṃ spṛśati.
-
-Because indirect [knowledge] has no power to sublate direct [appearance]. […] When the dispositions of I-making and mine-making are cut off, the manifold, although existent, does not touch the self.
-
-The two excerpts surround a comparison with taste: assurance that sugar is sweet does not remove the bitter appearance caused by a damaged faculty. A merely indirect assurance is not equivalent to direct correction. Once the dispositions of I-making and mine-making are removed, the manifold remains existent but no longer touches the self in the stated way. The quoted claim is Śrīdhara’s explanation; the subsequent quotation from Sāṅkhya does not transfer its authorship.
-
-Direct vision also has an affective place in this sequence. In the next passage, the grammatical subject is the remaining withdrawal-characterized dharma described immediately before it:
-
-Śrīdhara, *Nyāyakandalī*, [1895 printed 283, PDF 355](cite://sridhara/nyaya-kandali/inspectable-nyaya-realization-joy):
-
-> paramārthadarśanajam ātmadarśanajaṃ sukhaṃ karoti, tat kṛtvā nivarttate.
-
-[It] produces pleasure born from seeing reality, born from seeing the self; having produced that, it ceases.
-
-The pleasure is produced, and its producing condition then ceases. “Seeing reality” here renders the local use of paramārtha; it does not import the Advaitin distinction of reality levels. A later stage of concentration restricts awareness to the self:
-
-Śrīdhara, *Nyāyakandalī*, [1895 printed 285, PDF 357](cite://sridhara/nyaya-kandali/inspectable-nyaya-living-exclusive-vision):
-
-> ātmatattvajñānam eva kevalaṃ tadānīṃ sañjāyate na bahiḥsaṃvedanam, bāhyendriyavyāpāroparamāt.
-
-Only knowledge of the self’s reality arises then, not external awareness, because the activity of the external senses has stopped.
-
-Immediately before this, Śrīdhara describes concentration whose object has been made nondual. The restricted object explains why external awareness is absent then. It does not establish that all substances are one self. Moreover, this is a stage of practice, not yet the final condition. The printing used here reads ātmatattvajñāna, “knowledge of the self’s reality,” where an electronic version has the shorter ātmajñāna.
-
-The next step makes the difference between attainment and final persistence unavoidable. “That” in the following sentence refers to the body, maintained until the exhaustion of the karma producing it:
-
-Śrīdhara, *Nyāyakandalī*, [1895 printed 286, PDF 358](cite://sridhara/nyaya-kandali/inspectable-nyaya-final-cognition-ceases):
-
-> tannivṛttau tatkāryasya tattvajñānasyāpi vināśād ātmā kaivalyam āpadyate.
-
-When that ceases, because even the knowledge of reality that is its effect is destroyed, the self reaches isolation.
-
-The self’s realization has occurred, but the cognition itself is not said to continue eternally. Its cessation is the cessation of a quality. Śrīdhara then rejects the proposed identification of liberation with the experience of eternal pleasure:
-
-Śrīdhara, *Nyāyakandalī*, [1895 printed 287, PDF 359](cite://sridhara/nyaya-kandali/inspectable-nyaya-final-not-eternal-bliss):
-
-> ato nāsty ātmano nityaṃ sukhaṃ tadabhāvān na tadanubhavo mokṣāvasthā kiṃ tu samastātmaviśeṣaguṇocchedopalakṣitā svarūpasthitir eva.
-
-Therefore the self has no eternal pleasure; because that is absent, the state of liberation is not the experience of it, but simply persistence in its own nature, characterized by the cutting off of all the self’s specific qualities.
-
-The preceding proposal of a self whose nature is bliss belongs to an opponent; the quoted conclusion is Śrīdhara’s reply. “Specific qualities” names the system’s self-specific class, not every possible predicate of the released substance. Praśastapāda’s inventory and Śrīdhara’s account of particularizers prevent “all qualities cease” from becoming an indiscriminate erasure of the self or its individuality. The chosen printing reads tadanubhavo, “experience of it”; an electronic version expands this to tadanubhavamayī. Neither reading should be used to reverse the explicit denial of eternal pleasure here.
-
-### A modern dispute: must we first perceive a thing without its features?
-
-Arindam Chakrabarti proposes a revision of Nyāya from within its realist commitments. His question is concrete. When you see a green leaf, must an earlier cognition have presented something unqualified, before you could perceive the leaf as green? Many Nyāya philosophers accepted a distinction between indeterminate and determinate perception. Chakrabarti argues that their realism would work better without the former. He names Vācaspati and Gaṅgeśa among the defenders he challenges, and credits Vyāsatīrtha with an earlier critique while emphasizing that most of the arguments here are his own. [Chakrabarti, “Against Immaculate Perception,” pp. 1–3](https://www.jstor.org/stable/1400065).
-
-His starting point is that the public world already contains qualified things. A rock can really have a colour, texture and composition. Two people can perceive that same rock while noticing different features or assigning it different significance. The presence of qualification in perception therefore need not mean that the perceiver invented the object's structure. Seeing less than everything about a rock can still be seeing the rock itself. Removing every feature is not automatically a more faithful encounter with reality. [“Against Immaculate Perception,” pp. 2–4](https://www.jstor.org/stable/1400065).
-
-Conceptual organization and verbal expression are distinct. A child or animal need not utter a sentence to encounter something as edible, rough or threatening. The opposing position, which Chakrabarti acknowledges, insists that having perceptual knowledge and making a claim about that knowledge are different. His challenge concerns the organization of awareness. [“Against Immaculate Perception,” pp. 1, 5–7](https://www.jstor.org/stable/1400065).
-
-Consider the argument for an earlier unqualified cognition. Recognizing an animal as a rabbit seems to require acquaintance with what qualifies it as a rabbit. But does that requirement mean that a separate cognition of the qualifier must occur first, and then cause the recognition? Chakrabarti writes: “there is no need to take this logical ‘unless’ as a causal ‘unless.’” A logical prerequisite has been converted into a causal sequence. A feature's involvement in what is recognized does not establish a prior episode in which that feature was apprehended alone. [“Against Immaculate Perception,” p. 5](https://www.jstor.org/stable/1400065).
-
-The distinction becomes sharper when you notice that a floor has no carpet. In the ordinary description, the floor is what is presented, and carpetlessness qualifies it. The proposed causal rule would require an earlier unqualified cognition of that absence. Chakrabarti reports that Gaṅgeśa instead reverses the arrangement: the absence is treated as what is qualified, with the floor supplying its location. His objection is that the explanation has changed the organization of the experience it was meant to explain. [“Against Immaculate Perception,” pp. 5–6](https://www.jstor.org/stable/1400065).
-
-That is why a model of experience needs more than a set containing *floor* and *absence*. It must distinguish what appears as the bearer, what appears as its qualifier, and the relation through which the two are connected. This is the modeling lesson we can draw from the dispute. His final argument explicitly asks what intentional role an object could have in a cognition that supplies none of the usual roles of qualifier, qualificand or relation. [“Against Immaculate Perception,” p. 7](https://www.jstor.org/stable/1400065).
-
-Two possible replies deserve investigation. Presenting an object without representing its qualification is not obviously the same as presenting it as lacking qualifications. And denying ordinary introspective access to a cognitive episode does not logically prove that the episode never occurred. Chakrabarti explicitly invites answers to his objections.
-
-The paper concerns ordinary perceptual cognition. Its final comparison contrasts Nyāya’s requirement of object-directed cognition with Advaitic immediate nondiscursive awareness. This adds a comparison between criteria for cognition to the dispute about causal prerequisites. [“Against Immaculate Perception,” p. 7](https://www.jstor.org/stable/1400065).
-
-**Try a related exercise.** Suppose I know that a sealed box contains exactly one of two coins, but I do not know which. I can distinguish three achievements:
-
-- **Identifying the question:** I understand what would count as answering which coin is inside.
-- **Knowing the answer:** I correctly establish that the silver coin, for example, is inside.
-- **Recognizing my uncertainty:** I understand that my present evidence does not yet establish either answer.
-
-The first and third can be present while the second is absent. Knowing what I am uncertain about does not automatically remove that uncertainty. Nor does recognizing uncertainty make the box's contents indeterminate. The same distinction helps us ask a sharper question about self-knowledge: identifying myself as the person under discussion need not mean that I already understand everything relevant about my nature.
-
-A formal account using only one relation, *knows this topic*, would hide these distinctions. It might manufacture a contradiction between knowing enough to identify a question and not knowing its answer. To avoid that error, we must specify the question, the relevant answer and the kind of awareness being attributed. This observation does not decide whether ignorance is merely absent knowledge or something with positive explanatory powers. It shows what a careful argument about that choice must keep track of.
-
-The examples distinguish an absence in the world, an absence of knowledge, the structure of a cognition and the nature of its subject. Their relations become a more precise subject for comparison once each argument can be stated on its own terms.
-
-### Mīmāṃsā: recognition and the subject of knowing
-
-Kumārila’s case begins with recognition across different cognitive occasions. If a knower were simply a momentary cognition, what could the recognition “I knew, and I now know” be about? These are the root verses of his Ślokavārttika, distinct from Pārthasārathimiśra’s commentary printed with them.
-
-Kumārila Bhaṭṭa, *Ślokavārttika*, [Ātmavāda 115–116; Śāstrī 1978 printed 508–509, PDF 530–531](cite://kumarila/sloka-varttika/inspectable-mimamsa-recognition):
-
-> yadi syāj jñānamātraṃ ca kṣaṇikaṃ jñātṛ tatra vaḥ / na bhavet pratyabhijñānaṃ pūrvajñātari samprati // jñātavān aham evedaṃ puredānīṃ ca vedmy aham / tasya jñānakṣaṇaḥ ko nu viṣayaḥ parikalpyatām //
-
-If, on your account, the knower were merely a momentary cognition, there would now be no recognition of the previous knower. “I myself knew this before, and I know it now”: what moment of cognition could be conceived as the object of that [recognition]?
-
-The subsequent argument tests a past cognition, a present cognition, both, a stream, and generic likeness as possible referents. Its warrant is the veridicality of recognition: the argument does not merely assume permanence and then attach the word “self” to it. A shared property is not enough to explain the recognition’s individual reference:
-
-Kumārila Bhaṭṭa, *Ślokavārttika*, [Ātmavāda 122; Śāstrī 1978 printed 509, PDF 531](cite://kumarila/sloka-varttika/inspectable-mimamsa-recognition-not-common-property):
-
-> gām ahaṃ jñātavān pūrvam aśvaṃ jānāmy ahaṃ punaḥ / atha jñātṛtvasāmānyaṃ tat syād dehāntareṣv api //
-
-I knew a cow before; now I know a horse. If [the ground were] the common character of being a knower, that would occur in other bodies too.
-
-The known object changes from cow to horse while the first-person recognition remains. Common knowerhood is too broad, since it applies in other bodies as well. This is a precise challenge to identifying an individual solely through a shared universal. It is not a refutation of the identity of the number five wherever five is correctly denoted; it concerns what makes this recognition recognition of this knower.
-
-Correction of bodily identification need not eliminate every first-person cognition:
-
-Kumārila Bhaṭṭa, *Ślokavārttika*, [Ātmavāda 133; Śāstrī 1978 printed 511, PDF 533](cite://kumarila/sloka-varttika/inspectable-mimamsa-corrected-i-persists):
-
-> ye tu vijñātanānātvās te deheṣv anahaṅkṛtāḥ / jānāmy aham itīdaṃ tu jñānaṃ naiva nivartate //
-
-Those who have understood the difference do not identify “I” with bodies; but this cognition, “I know,” does not cease.
-
-The difference understood here is the self/body distinction established in the preceding argument. The accompanying commentary applies “I know” even to yogins. But this claim about corrected knowers does not establish that one cognitive act continues eternally after release. That further thesis would require further evidence.
-
-The Prābhākara account developed by Śālikanātha begins from the structure of an occurring awareness. Object-awareness already presents its own subject:
-
-Śālikanātha Miśra, *Prakaraṇapañcikā*, [Pramāṇapārāyaṇa, Pratyakṣapariccheda, tripuṭī discussion; Subrahmaṇya Śāstrī 1961 printed 168, PDF 269](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-own-subject):
-
-> yā kācid grahaṇasmaraṇarūpārthapratītiḥ, tatra sākṣād ātmā bhāti. na hy arthāvabhāsiny ātmany anavabhāsamāne viṣayā bhāsante. sarvā hi pratītir evam upajāyate ’ham idaṃ jānāmīti, na punar jānātīty evaṃ kācid buddhir asti.
-
-In whatever awareness of an object has the form of apprehension or recollection, the self shines directly. For objects do not shine when the object-manifesting self is not manifest. Every awareness arises thus: “I know this”; no cognition arises merely as “knows.”
-
-The alternatives discussed afterward explain why a second cognition or inference cannot supply this original own-subject character. This is a claim about how awareness occurs, not merely a retrospective record that somebody knew. Śālikanātha then distinguishes its relations to object, knower, and itself:
-
-Śālikanātha Miśra, *Prakaraṇapañcikā*, [Pramāṇapārāyaṇa, Pratyakṣapariccheda;1961 printed 170, PDF 271](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-threefold-asymmetry):
-
-> meye mātari ca vyatiriktā pratītiḥ sākṣātkāravatī, mitau tv avyatiriktā.
-
-With respect to the object known and the knower, awareness, being distinct [from them], has direct presentation; with respect to cognition, however, it is not distinct.
-
-Awareness presents the knower and the known object while being distinct from them. Its disclosure of itself does not require another, distinct awareness. These are three relations in the account of cognition, not three disjoint consciousness substances. In particular, self-manifest cognition and an intrinsically self-luminous permanent self remain different theses.
-
-The subject’s special role is defended through an analogy with going. A goer receives the conjunction produced by going without thereby becoming the object of that action:
-
-Śālikanātha Miśra, *Prakaraṇapañcikā*, [Tattvāloka, svamatanirūpaṇa;1961 printed 334, PDF 432](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-subject-not-object):
-
-> tatsaṃvittiphalabhāgitve ’pi puruṣasya na karmatā, kintu kartṛtaiva gantṛvat. yathā gamanaphalasaṃyogayogino ’pi gantur na karmatā, kintu kartṛtaiva, tathā boddhur api veditavyam.
-
-Even though the person participates in the result of that awareness, there is no objecthood, but only subjecthood, as with a goer. Just as a goer, though possessing the conjunction that results from going, has no objecthood but only agency, so too the knower should be understood.
-
-Likewise, receiving disclosure does not turn the knower into an ordinary object of cognition. The contrast is between kartṛ and karman: subject or agent, and object. This gives a substantive account of privileged selfhood while leaving room for conditions and relations in how disclosure occurs.
-
-Sleep prevents this account from being read as a claim that the enduring subject is itself an eternally occurring cognition:
-
-Śālikanātha Miśra, *Prakaraṇapañcikā*, [Pramāṇapārāyaṇa, Pratyakṣapariccheda;1961 pp 172–173/PDF 272–273](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-sleep-and-cognition):
-
-> jāgrato hi meyāni mātā ca prakāśante. suṣuptasya tadā na tad dvayam api prakāśate. na ca tadānīṃ tad dvayam api nāsty eva, prabodhe pratyabhijñānāt. […] prakāśasya tv aprakāśamānasya sattaiva nābhyupeyate.
-
-For the waking person, objects known and the knower are manifest. For the deeply sleeping person, neither of those two is then manifest. Yet neither of them is simply nonexistent then, because they are recognized on awakening. […] But the existence of manifestation when it is not manifest is not accepted.
-
-Recognition on awakening supports persistence of knower and objects through their nonmanifestation. Manifestation itself is treated differently: an unmanifest manifestation is not admitted. The omitted intervening sentence argues that intrinsically manifest self and object would shine even in sleep. These are Śālikanātha’s claims, not the lower-page Nyāyasiddhi commentary or its later editorial discussion of Vedānta.
-
-His account of liberation makes that distinction consequential:
-
-Śālikanātha Miśra, *Prakaraṇapañcikā*, [Tattvāloka, own account;1961 p 334/PDF 432](cite://salikanatha/prakarana-pancika/inspectable-prabhakara-release-persistence):
-
-> ātmā sanmātrāvastha evāvatiṣṭhate. […] na ca mokṣasyāpuruṣārthatā, sāṃsārikavividhaduḥkhoparamarūpatvān mokṣasya. duḥkhoparamo hi puruṣair arthyate.
-
-The self persists in a condition of mere existence. […] Nor is liberation no human end, because liberation has the form of cessation of the various sufferings of transmigration. For people seek the cessation of suffering.
-
-Bare persistence is joined to the value of freedom from suffering. This can be a human end without being an eternally luminous act of cognition. The passage belongs to Śālikanātha’s own account and should not be extended indiscriminately to every Mīmāṃsaka. The preceding compound describing the cognitive means is not included because its precise reading remains uncertain; the quoted persistence and value arguments do not depend on reconstructing it.
-
-### Jain accounts: a real self that transforms
-
-Pūjyapāda distinguishes consciousness from an occurring mode of cognitive application, upayoga. The mode is a transformation under internal and external conditions:
-
-Pūjyapāda, *Sarvārthasiddhi*, [TS 2.8 commentary §271](cite://pujyapada/sarvartha-siddhi/inspectable-jaina-conscious-mode):
-
-> ubhayanimittavaśād utpadyamānaś caitanyānuvidhāyī pariṇāma upayogaḥ.
-
-Cognitive application is a transformation following consciousness, arising under the influence of both kinds of conditions.
-
-The two kinds of conditions are not two independent ontological principles. The distinction instead allows consciousness and particular cognitive occurrences to be related without simply identifying them. To understand that relation, we need the wider account of reality. The following first sentence is the Tattvārthasūtra root, transmitted here in the Digambara tradition under the name Umāsvāti or Umāsvāmin. After the marked omission, Pūjyapāda explains it:
-
-Umāsvāti/Umāsvāmin (Digambara root tradition); Pūjyapāda, *Tattvārthasūtra / Sarvārthasiddhi*, [TS 5.30; commentary §584](cite://umasvati-pujyapada/tattvarthasutra-sarvarthasiddhi/inspectable-jaina-production-loss-persistence):
-
-> utpādavyayadhrauvyayuktaṃ sat || […] cetanasyācetanasya vā dravyasya svāṃ jātim ajahata ubhayanimittavaśād bhāvāntarāvāptir utpādanam utpādaḥ mṛtpiṇḍasya ghaṭaparyāyavat. tathā pūrvabhāvavigamanaṃ vyayaḥ. yathā ghaṭotpattau piṇḍākṛte. anādipāriṇāmikasvabhāvena vyayodayābhāvād dhruvati sthirībhavatīti dhruvaḥ. dhruvasya bhāvaḥ karma vā dhrauvyam. yathā mṛtpiṇḍaghaṭādyavasthāsu mṛdādyanvayaḥ.
-
-The real is endowed with arising, passing away and permanence. […] Arising is the attainment of another condition, through both kinds of conditions, by a conscious or unconscious substance without abandoning its own kind—as a lump of clay attains the pot-mode. Likewise, passing away is departure of the preceding condition, as [the loss] of lump-shape when a pot arises. What persists, becomes stable, through absence of loss or arising in its beginningless constitutive nature is enduring; endurance is its condition or activity—as clay continues through lump, pot and other states.
-
-The clay illustration makes arising, loss, and persistence jointly intelligible. The pot-mode arises, the lump-shape passes away, and clay continues. These are not three independent substances; nor is every property frozen in an immutable bearer. Pūjyapāda specifies how difference and nondifference depend on the standpoint of the assertion:
-
-Pūjyapāda, *Sarvārthasiddhi*, [TS 5.30 commentary §584, concluding reply](cite://pujyapada/sarvartha-siddhi/inspectable-jaina-naya-difference):
-
-> etad uktaṃ bhavati — utpādādīni dravyasya lakṣaṇāni. dravyaṃ lakṣyam. tatra paryāyārthikanayāpekṣayā parasparato dravyāc cārthāntarabhāvaḥ. dravyārthikanayāpekṣayā vyatirekeṇānupalabdher anarthāntarabhāvaḥ. iti lakṣyalakṣaṇabhāvasiddhiḥ.
-
-What has been said is this: arising and the rest are characteristics of substance; substance is what is characterized. Here, relative to the standpoint directed at modes, there is distinctness from one another and from substance. Relative to the standpoint directed at substance, there is nondistinctness, because they are not apprehended separately. Thus the relation of characterized and characteristic is established.
-
-Relative to modes, the characteristics differ from each other and from substance. Relative to substance, they are not separately apprehended. Leaving out those qualifications would turn the claim into either an unqualified contradiction or an unqualified identity.
-
-Recognition once again supports persistence, but here it also sets a limit to immutability:
-
-Pūjyapāda, *Sarvārthasiddhi*, [TS 5.31 commentary §586](cite://pujyapada/sarvartha-siddhi/inspectable-jaina-recognition-limits-immutability):
-
-> yenātmanā prāgdṛṣṭaṃ vastu tenaivātmanā punar api bhāvāt tad evedam iti pratyabhijñāyate. yady atyantanirodho ’bhinavaprādurbhāvamātram eva vā syāt tataḥ smaraṇānupapattiḥ. tadadhīno lokasaṃvyavahāro virudhyate. […] tat tu kathaṃcid veditavyam. sarvathā nityatve anyathābhāvābhāvāt saṃsāratadvinivṛttikāraṇaprakriyāvirodhaḥ syāt.
-
-The thing formerly seen is recognized as “this is that very thing” because it occurs again with precisely that nature. If there were complete destruction, or only an entirely new appearance, recollection would not be possible; worldly transactions dependent on it would be contradicted. […] But that [eternity] is to be understood in a qualified way. With eternity in every respect, because there would be no becoming otherwise, the causal process of transmigration and its cessation would be contradicted.
-
-Total replacement would undermine recognition and the transactions relying on it. Complete immutability would undermine the causal process of bondage and release. Both sides belong to the argument. The marked omission avoids an uncertain intervening electronic clause; neither conclusion depends on silently repairing it.
-
-The Nyāyāvatāra gives the self positive capacities in addition to persistence. The edition used here attributes the root to Siddhasena Mahāmati:
-
-Siddhasena Mahāmati, *Nyāyāvatāra*, [Root 31; Balcerowicz 2008 edition, editor-provided e-text](cite://siddhasena-mahamati/nyayavatara/inspectable-jaina-knower-agent-transforming):
-
-> pramātā svānya-nirbhāsī kartā bhoktā vivṛttimān /
->  sva-saṃvedana-saṃsiddho jīvaḥ kṣity-ādy-anātmakaḥ
-
-The knower manifests itself and another, is an agent, an experiencer, possessed of transformation; it is the living self, established through self-awareness, not having the nature of earth and the other [elements].
-
-Siddharṣigaṇin’s commentary explains the transformation through successive modes. An opponent presses the causal issue: if substances already arise and pass away of themselves, what work remains for potters, hammers, and other causes? The reply assigns them the production of a specific modification:
-
-Siddharṣigaṇin, *Nyāyāvatāravivṛti*, [31.6](cite://siddharsiganin/nyayavatara-vivrti/inspectable-jaina-real-causal-work):
-
-> atrocyate -- na vayaṃ sarvathā hetūnāṃ vyāpāraṃ vārayāmaḥ, kiṃ tarhi svayam utpāda-vyaya-sthity-ātmanā vivartamānasya dravyasya hetavas tad-viśeṣa-karaṇe vyāpāram anubhavanti
-
-[Reply:] We do not altogether exclude the activity of causes. Rather, causes act in making a particular modification of a substance that itself transforms as arising, passing away and persistence.
-
-Causes do not create the bare possibility of transformation; they make a particular transformation occur. The further argument combines observed concomitance with reasoning. This distinction matters when considering whether a state change is real or only a change in our description.
-
-Reflection imagery does not remove the disagreement about agency. Siddharṣigaṇin presents an inactive Sāṅkhya experiencer through the examples of crystal and a mirror-like intellect, and then contests that explanation:
-
-Siddharṣigaṇin, *Nyāyāvatāravivṛti*, [31.8 in 2008 electronic edition; two opening forms collated with Vaidya 1928 p 96/PDF 143; continuation p 97/PDF 144 also read](cite://siddharsiganin/nyayavatara-vivrti/inspectable-jaina-reflection-dispute):
-
-> kartā bhoktā iti viśeṣaṇa-dvayena sāṃkhya-mataṃ vikuṭṭayati, kartā san bhoktāpīti kākvopanyāsād, akartur bhogānupapatter, bhuji-kriyā-nirvartana-samarthasyaiva bhoktṛtvāt. japā-kusumādi-sannidhāna-vaśāt sphaṭike raktatādi-vyapadeśavad akartur api prakṛty-upadhāna-vaśāt sukha-duḥkhādi-bhoga-vyapadeśo yuktas; tathā hi: prakṛti-vikāra-darpaṇākāra-buddhi-saṅkrāntānāṃ sukha-duḥkhādy-ātmakānām arthānāṃ puruṣaḥ sannidhāna-mātreṇa bhojako vyapadiśyate, "buddhy-adhyavasitam arthaṃ puruṣaś cetayata" iti-vacanād iti cen, na, kathañcit sakriyākatā-vyatirekeṇa prakṛty-upadhāne 'py anyathātvānupapatter, apracyuta-prācīna-rūpasya vyapadeśānarhatvāt, tat-pracyave ca prāktana-rūpa-tyāgenottara-rūpādhyāsitayā sakriyatvam āpatatīti-nyāyāt; sphaṭika-dṛṣṭānte 'pi japā-kusumādi-sannidhānād andhopalādau raktatānāvir-bhavantī tatra punar āvir-bhavantī tasya tathā-vidhaṃ pariṇāmaṃ lakṣayaty. […] tan nākriyasya bhoktṛtopapadyata iti.
-
-By the two qualifications “agent” and “experiencer” he attacks the Sāṅkhya view: the emphatic construction is “being an agent, he is also an experiencer,” since experience is impossible for a nonagent, and only one able to perform the act of experiencing is an experiencer. [Objection:] Just as redness and so on are predicated of crystal through the proximity of a hibiscus flower and the like, pleasure, pain and other experience may properly be predicated of an inactive [self] through the adjunct of primordial nature. For the person, merely by proximity, is called the enjoyer of objects consisting of pleasure, pain and so forth that have entered the mirror-like intellect, a transformation of primordial nature; as it is said, “The person is conscious of the object determined by intellect.” [Reply:] No. Without activity in some respect, becoming otherwise would be impossible even with primordial nature as an adjunct. What has not departed from its earlier form is not fit for that predication; if it does depart, activity follows from abandoning the earlier form and assuming the later. Even in the crystal example, redness that fails to appear in an opaque stone and the like through the hibiscus flower’s proximity, but does appear there [in the crystal], indicates such a transformation of it. […] Thus being an experiencer does not fit the inactive.
-
-The opponent treats the changed presentation as compatible with an inactive subject; the reply treats selective manifestation as evidence for transformation in some respect. Both appeal to the crystal, but the inference drawn from it is disputed. This is the Jain commentator’s representation of Sāṅkhya, which must be compared with Sāṅkhya’s own texts. The two opening forms bhoktā iti and samarthasyaiva follow the 1928 printing; the longer crystal sentence follows the 2008 edition. The omitted sentence has an unresolved electronic reading and is not used to decide the argument.
-
-The resulting account of liberation is not the cessation of every cognitive condition. Perfect knowledge has an unlimited intentional scope. Again the root statement comes first, followed by Pūjyapāda’s explanation after the omission:
-
-Umāsvāti/Umāsvāmin (Digambara root tradition); Pūjyapāda, *Tattvārthasūtra / Sarvārthasiddhi*, [TS 1.29; commentary §230](cite://umasvati-pujyapada/tattvarthasutra-sarvarthasiddhi/inspectable-jaina-kevala-scope):
-
-> sarvadravyaparyāyeṣu kevalasya || […] dravyaṃ paryāyajātaṃ vā na kiṃcit kevalajñānasya viṣayabhāvam atikrāntam asti.
-
-[The scope] of perfect knowledge is all substances and modes. […] There is no substance or kind of mode that exceeds being an object of perfect knowledge.
-
-“All substances and modes” is a substantive condition on the perfect cognitive mode. The mode’s arising also has a definite causal order. Pūjyapāda answers an objection that the root could have been worded more economically:
-
-Umāsvāti/Umāsvāmin (Digambara root tradition); Pūjyapāda, *Tattvārthasūtra / Sarvārthasiddhi*, [TS 10.1; commentary §921, first objection/reply](cite://umasvati-pujyapada/tattvarthasutra-sarvarthasiddhi/inspectable-jaina-removal-order):
-
-> mohakṣayāj jñānadarśanāvaraṇāntarāyakṣayāc ca kevalam || […] satyam etat, kṣayakramapratipādanārtho vākyabhedena nirdeśaḥ kriyate. prāgeva mohaṃ kṣayam upanīyāntarmuhūrtaṃ kṣīṇakaṣāyavyapadeśam avāpya tato yugapaj jñānadarśanāvaraṇāntarāyāṇāṃ kṣayam kṛtvā kevalam avāpnoti iti. tatkṣayo hetuḥ kevalotpatter iti hetulakṣaṇo vibhaktinirdeśaḥ kṛtaḥ.
-
-Perfect knowledge [arises] from the destruction of delusion and from the destruction of the knowledge- and perception-obscuring and obstructive [karmas]. […] True [that a shorter wording was possible]; but the formulation in separate clauses is made to teach the order of destruction. Having first brought delusion to destruction, and having obtained the designation “passions destroyed” for less than a muhūrta, one then destroys together the knowledge- and perception-obscuring and obstructive [karmas] and attains perfect knowledge. Their destruction is the cause of perfect knowledge’s arising; therefore the case ending indicating a cause was employed.
-
-Separate clauses teach priority: delusion is removed first; the three remaining obstructive classes are then destroyed together. The causal case ending is itself part of the explanation. The rest of the commentary details the spiritual stages and karmas.
-
-Perfect knowledge and complete release have related but distinguishable conditions. The following joins the root definition of liberation to the later discussion of what ceases and what remains:
-
-Umāsvāti/Umāsvāmin (Digambara root tradition); Pūjyapāda, *Tattvārthasūtra / Sarvārthasiddhi*, [TS 10.2; Pūjyapāda §927 on the exception in TS 10.4, read with §§924–926](cite://umasvati-pujyapada/tattvarthasutra-sarvarthasiddhi/inspectable-jaina-release-not-all-cognition-loss):
-
-> bandhahetvabhāvanirjarābhyāṃ kṛtsnakarmavipramokṣo mokṣaḥ || […] kevalasamyaktvajñānadarśanasiddhatvebhyo ’nyatrānyasminn ayaṃ vidhir iti. yadi catvāra evāvaśiṣyante, anantavīryādīnāṃ nivṛttiḥ prāpnoti? naiṣa doṣaḥ, jñānadarśanāvinābhāvitvād anantavīryādīnām aviśeṣaḥ, anantasāmarthyahīnasyānantāvabodhavṛttyabhāvāj jñānamayatvāc ca sukhasyeti.
-
-Liberation is complete release from all karma, through absence of the causes of bondage and through shedding [karma]. […] [Pūjyapāda:] This rule [of cessation] applies to whatever is other than perfect rightness, knowledge, perception and the state of a perfected being. [Objection:] If only four remain, would not unlimited power and so forth cease? [Reply:] This is no fault: unlimited power and so forth are not separate [exceptions], because they are inseparable from knowledge and perception; for the activity of unlimited cognition is absent in one lacking unlimited capacity, and happiness consists of knowledge.
-
-The intervening discussion asks whether release removes only material karma or also karmically conditioned states. The explicit exception prevents an inference that all cognition vanishes. The objection about unlimited power is answered through its inseparability from knowledge and perception, rather than by discarding it. Thus release cannot be represented here merely as the absence of every changing cognitive quality.
-
-Nor does liberation make the question of individual differences disappear. Pūjyapāda separates an objection about merely historical differences from a qualified reply:
-
-Pūjyapāda, *Sarvārthasiddhi*, [Commentary §§936–937 on TS 10.9](cite://pujyapada/sarvartha-siddhi/inspectable-jaina-released-distinctions):
-
-> āha, amī parinivṛttā gatijātyādibhedakāraṇābhāvād atītabhedavyavahārā eveti. asti kathaṃcid bhedo ’pi. kutaḥ — […] kālena kasmin kāle siddhiḥ? pratyutpannanayāpekṣayā ekasamaye siddhyan siddho bhavati. bhūtaprajñāpananayāpekṣayā janmato ’viśeṣeṇotsarpiṇyavasarpiṇyor jātaḥ sidhyati.
-
-[Objection:] These released ones have only discourse about past differences, since the causes of differences of destination, birth-class and so forth are absent. [Reply:] There is also difference in a certain respect. Why? […] As regards time: at what time is perfection? With reference to the standpoint of the present, one attaining perfection in a single instant becomes perfected. With reference to the standpoint that describes the past, as regards birth, without further specification, one born in an ascending or descending [time-cycle] attains perfection.
-
-The present standpoint and the standpoint describing the past do different work. The reply allows distinction in a certain respect without preserving every formerly differentiating quality. The selected time example makes the qualification visible; the intervening place examples and doubtful adjacent electronic forms are omitted. What persists must be stated with the relevant standpoint, not inferred from an unrestricted claim of either sameness or difference.
-
-### Madhyamaka: correction without an intrinsically existing remainder
-
-Nāgārjuna and Candrakīrti press a different question: does freedom from “I” and “mine” establish an ultimately real subject who remains after those appropriations have ended? Candrakīrti states that inference as an objection before introducing Nāgārjuna’s reply:
-
-Nāgārjuna; Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 18.3 and immediately preceding PP objection; Vaidya 1960 p 148/PDF 189](cite://nagarjuna-candrakirti/mulamadhyamakakarika-prasannapada/inspectable-madhyamaka-no-remainder-subject):
-
-> nanu ca yo ’sāv evaṃ nirmamo nirahaṅkāraś ca yogī bhavati, sa tāvad asti. sati ca tasmin siddha ātmā skandhāś ceti. naitad evam. yasmāt — nirmamo nirahaṅkāro yaś ca so ’pi na vidyate / nirmamaṃ nirahaṅkāraṃ yaḥ paśyati na paśyati //
-
-[Objection:] But that yogin who thus becomes free of “mine” and “I” does exist. Given his existence, self and aggregates are established. [Reply:] It is not so. For: even the one who is free of “mine” and “I” is not found. Whoever sees one free of “mine” and “I” does not see.
-
-The denial concerns the intrinsic existent proposed by the objection. It does not, when read with the account of conventional practice below, erase conventional persons or their practice. But it does prevent us from inserting a universal unconditioned subject as the conclusion of this argument.
-
-The account still gives a causal explanation of liberation. The root verse is followed here by Candrakīrti’s concluding sequence:
-
-Nāgārjuna; Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 18.5; PP 18.5 concluding chain; Vaidya 1960 pp 149–150/PDF 190–191](cite://nagarjuna-candrakirti/mulamadhyamakakarika-prasannapada/inspectable-madhyamaka-causal-cessation):
-
-> karmakleśakṣayān mokṣaḥ karmakleśā vikalpataḥ / te prapañcāt prapañcas tu śūnyatāyāṃ nirudhyate // […] prapañcavigamāc ca vikalpanivṛttiḥ, vikalpanivṛttyā ca aśeṣakarmakleśanivṛttiḥ, karmakleśanivṛttyā ca janmanivṛttiḥ.
-
-Liberation comes from the ending of action and afflictions; action and afflictions arise from conceptual construction; those [constructions] from proliferation, while proliferation ceases in emptiness. […] From the departure of proliferation comes cessation of conceptual construction; from cessation of conceptual construction, cessation of all action and afflictions; and from cessation of action and afflictions, cessation of birth.
-
-I-and-mine appropriation is explained downstream of proliferation and conceptual construction. The direction of the account matters. “Ceases in emptiness” is elucidated in the intervening prose through seeing intrinsic natures as empty; it does not describe relocation into an empty substance.
-
-The teachings about self are also differentiated by their audience and purpose:
-
-Nāgārjuna; Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 18.6 and PP audience distinction; Vaidya 1960 pp 152–153/PDF 193–194](cite://nagarjuna-candrakirti/mulamadhyamakakarika-prasannapada/inspectable-madhyamaka-graded-self-teaching):
-
-> ātmety api prajñapitam anātmety api deśitam / buddhair nātmā na cānātmā kaścid ity api deśitam // […] hīnānāṃ vineyānām akuśalakarmakāriṇām akuśalādi nivartayituṃ buddhair bhagavadbhiḥ kvacid ātmety api prajñapitaṃ loke vyavasthāpitam. […] teṣāṃ madhyānāṃ vineyānāṃ satkāyadarśanābhiniveśaśithilīkaraṇāya nirvāṇābhilāṣasaṃjananārthaṃ […] anātmety api deśitam. […] teṣām utkṛṣṭānāṃ vineyānāṃ vigatātmasnehānāṃ […] yathaiva hy ātmadarśanam atattvam, evaṃ tatpratipakṣabhūtam apy anātmadarśanaṃ naiva tattvam iti.
-
-[Nāgārjuna:] “Self” has also been designated, and “nonself” also taught; the Buddhas have also taught that there is neither any self nor any nonself. […] [Candrakīrti:] To turn away from unwholesomeness and so forth those less advanced pupils who perform unwholesome actions, the Blessed Buddhas in some cases also designated “self,” establishing it in the world. […] For those intermediate pupils, to loosen fixation on the view of a real personal identity and to generate desire for nirvāṇa, […] “nonself” too was taught. […] For those advanced pupils whose attachment to self has gone […] [the neither-self-nor-nonself teaching quoted again in the intervening text]. […] For just as the view of self is not reality, so the view of nonself that opposes it is itself not reality.
-
-Candrakīrti’s first explanation treats self-teaching as a response to conduct that denies consequences and responsibility, nonself-teaching as a remedy for entrenched personal-identity views, and the neither-view teaching as appropriate to advanced pupils. These are distinct pedagogical functions. The separated audience clauses are excerpts, not one continuous sentence; the final incomplete clause is connected to the repeated root teaching through an explicit bracketed explanation. A further interpretation introduced afterward by “alternatively” is not fused with this one, and the account is not attributed to every Buddhist school.
-
-The two truths likewise participate in teaching and attainment. Nāgārjuna writes:
-
-Nāgārjuna, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 24.8 and 24.10; Vaidya 1960 pp 215–216/PDF 256–257](cite://nagarjuna/mula-madhyamaka-karika/inspectable-madhyamaka-two-truths-practice):
-
-> dve satye samupāśritya buddhānāṃ dharmadeśanā / lokasaṃvṛtisatyaṃ ca satyaṃ ca paramārthataḥ // […] vyavahāram anāśritya paramārtho na deśyate / paramārtham anāgamya nirvāṇaṃ nādhigamyate //
-
-The Buddhas’ teaching of dharma relies on two truths: worldly conventional truth and truth ultimately. […] Without relying on ordinary usage, the ultimate is not taught; without reaching the ultimate, nirvāṇa is not attained.
-
-Ordinary usage is necessary for teaching the ultimate, and reaching the ultimate is necessary for nirvāṇa. The distinction does not authorize discarding practice. Nor does it itself establish two independently existing worlds or prove equivalence with Advaita’s reality distinctions. Candrakīrti makes the preservation of convention explicit through another reflection image:
-
-Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [PP on MMK 24.11; Vaidya 1960 p 216/PDF 257](cite://candrakirti/prasannapada/inspectable-madhyamaka-convention-not-substratum):
-
-> pratibimbākārāyāś ca lokasaṃvṛter abādhanāt karmakarmaphaladharmādharmādikam api na bādhate. na cāpi paramārthaṃ bhāvasvabhāvatvena samāropayati.
-
-And because [the yogin] does not negate worldly convention, which has the form of a reflection, he does not negate action, action’s result, merit, demerit and so forth either. Nor does he superimpose the ultimate as the intrinsic nature of a thing.
-
-Here reflection explains why action, its fruits, merit, and demerit remain conventionally operative. The second sentence prevents that preservation from becoming a substantial ultimate underneath convention. A persistent consciousness reflected in a medium is not asserted by this image.
-
-Dependent arising gives the positive relation between conditioned appearance and the absence of intrinsic arising:
-
-Nāgārjuna; Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [MMK 24.18 and PP opening explanation; Vaidya 1960 p 219/PDF 260](cite://nagarjuna-candrakirti/mulamadhyamakakarika-prasannapada/inspectable-madhyamaka-dependent-designation):
-
-> yaḥ pratītyasamutpādaḥ śūnyatāṃ tāṃ pracakṣmahe / sā prajñaptir upādāya pratipat saiva madhyamā // yo ’yaṃ pratītyasamutpādo hetupratyayān apekṣya aṅkuravijñānādīnāṃ prādurbhāvaḥ, sa svabhāvenānutpādaḥ. yaś ca svabhāvenānutpādo bhāvānāṃ sā śūnyatā.
-
-What is dependent arising, that we declare to be emptiness. That is designation in dependence [on something]; that itself is the middle way. This dependent arising—the appearance of sprouts, cognitions and so forth depending upon causes and conditions—is nonarising by intrinsic nature. And the nonarising of things by intrinsic nature is emptiness.
-
-Nāgārjuna’s verse comes first; Candrakīrti’s prose then mentions sprouts and cognitions arising in dependence on causes and conditions. Two readings are consequential. The joined expression hetupratyayānapekṣya is divided as hetupratyayān apekṣya, “depending on causes and conditions,” not as independence from them. The printing supports svabhāvena anutpādaḥ, nonarising by intrinsic nature, against misleading spacing in the electronic witness. Conditioned arising and intrinsic arising therefore cannot be collapsed into one assertion that either everything happens or nothing happens.
-
-Candrakīrti gives a concrete dependence example:
-
-Candrakīrti, *Mūlamadhyamakakārikā / Prasannapadā*, [PP on MMK 24.18; Vaidya 1960 pp 219–220/PDF 260–261](cite://candrakirti/prasannapada/inspectable-madhyamaka-chariot):
-
-> cakrādīny upādāya rathāṅgāni rathaḥ prajñapyate. tasya yā svāṅgāny upādāya prajñaptiḥ, sā svabhāvenānutpattiḥ, yā ca svabhāvenānutpattiḥ, sā śūnyatā.
-
-The chariot is designated in dependence on its parts, wheels and so forth. Its designation in dependence on its own parts is nonarising by intrinsic nature; and nonarising by intrinsic nature is emptiness.
-
-A chariot is designated in dependence on its parts. This is not ordinary identity between the chariot and each wheel, and it does not posit a universal consciousness beneath the parts. What it supplies is an argument about designation and intrinsic arising that a comparison must preserve on its own terms.
-
-## Power, manifestation and devotion
+### Power, manifestation and devotion
 
 Trika, Śākta and modern nondual accounts distinguish consciousness, its power, the conditions of finite awareness and the recognition of what one is. Their agreements do not erase their differences. Memory, reflection, complete apprehension, divine manifestation and fulfilled devotion each supply a different argument about how an abiding reality relates to determinate experience.
 
@@ -4499,12 +4411,6 @@ Sanskrit and Bengali quotations are followed by literal English renderings. Sour
 ### Owned experience, reflexivity and power
 
 Utpaladeva begins with the ownership of experience. Remembering “I experienced” is more than recovering an object-like content. His subsequent arguments distinguish reflexive consciousness from an insentient image-bearing crystal and then identify its intrinsic independence. These are successive claims: an account that accepts self-luminosity need not yet accept the further account of agency.
-
-**Īśvarapratyabhijñākārikā 1.4.4, followed by 1.3.6–7.** Utpaladeva. [Source](cite://utpaladeva/isvara-pratyabhijna-karika/inspectable-sm-memory-unity).
-
-> naiva hy anubhavo bhāti smṛtau pūrvo 'rthavat pṛthak  prāg anvabhūvam aham ity ātmārohaṇabhāsanāt
-
-Literal rendering: For the earlier experience does not appear separately in memory as an object does, because it appears as resting on oneself: “I experienced previously.”
 
 Utpaladeva, **Īśvarapratyabhijñākārikā 1.3.6**. [Source](cite://utpaladeva/isvara-pratyabhijna-karika/inspectable-sakti-context-01).
 
@@ -4521,6 +4427,12 @@ Utpaladeva, **Īśvarapratyabhijñākārikā 1.3.7**. [Source](cite://utpaladeva
 > syād ekaś cidvapur jñānasmṛtyapohanaśaktimān // 1.3.7 //
 
 Literal rendering: If there were not one Great Lord, whose body is consciousness, containing within himself the forms of the infinite universe, possessed of the powers of knowledge, memory and exclusion.
+
+**Īśvarapratyabhijñākārikā 1.4.4.** Utpaladeva. [Source](cite://utpaladeva/isvara-pratyabhijna-karika/inspectable-sm-memory-unity).
+
+> naiva hy anubhavo bhāti smṛtau pūrvo 'rthavat pṛthak  prāg anvabhūvam aham ity ātmārohaṇabhāsanāt
+
+Literal rendering: For the earlier experience does not appear separately in memory as an object does, because it appears as resting on oneself: “I experienced previously.”
 
 The conditional argument in 1.3.6–7 denies that mutually inaccessible cognitions can sustain connected practice. Remembering an experience as one’s own requires more than another cognition with matching content. Continuity within one subject’s experience does not by itself prove the identity of all subjects.
 
@@ -4675,11 +4587,13 @@ Literal rendering: In emergence bearing the impression of absorption, from repea
 
 The carried impression of absorption and repeated apprehension of unity each contribute to this account of stable recognition.
 
-**Spandakārikā 1.15, with 1.14 and 1.16.** Spandakārikā, disputed Vasugupta/Kallaṭa attribution. [Source](cite://spanda-karika/spanda-karika/inspectable-sm-spanda-persistence).
+Utpaladeva asks how experiences can belong to a connected life. Cognitions that never know one another cannot by themselves explain that connection; remembering “I experienced” presents an experience as one's own. He then asks what makes awareness different from a crystal that merely takes on an image. His answer is *vimarśa*, reflexive apprehension: manifestation includes the apprehending of it, rather than bare clarity alone. His further account of *svātantrya*, independence, holds that this activity does not await a separately established knowable. Kṣemarāja develops the account of manifestation: consciousness unfolds a world on its own surface, while the finite knower and mind are contractions of consciousness. Practice addresses this restriction. Living release is firm recognition of identity with consciousness even while body and other contents are known; repeated recognition after absorption stabilizes it. The positive account thus connects ownership, reflexivity, manifestation, restricted access and cultivated recognition. Its claim that the world is manifested in consciousness remains distinct from the question of what a particular finite subject knows.
 
-> kāryonmukhaḥ prayatno yaḥ kevalaṃ so 'tra lupyate | tasmin lupte vilupto 'smīty abudhaḥ pratipadyate || 15 ||
+**Spandakārikā 1.10.** Spandakārikā, disputed attribution. [Source](cite://spanda-karika/spanda-karika/inspectable-sm-spanda-abiding-agency).
 
-Literal rendering: Only that effort which is directed toward an effect disappears here. When it disappears, the unawakened one understands, “I have disappeared.”
+> tadāsyākṛtrimo dharmo jñatvakartṛtvalakṣaṇaḥ | yatas tadepsitaṃ sarvaṃ jānāti ca karoti ca || 10 ||
+
+Literal rendering: Then its uncontrived character is characterized by knowing and acting, since it knows and does all that is desired.
 
 Spandakārikā, disputed Vasugupta/Kallaṭa attribution, **Spandakārikā 1.14**. [Source](cite://spanda-karika/spanda-karika/inspectable-sakti-context-11).
 
@@ -4687,6 +4601,12 @@ Spandakārikā, disputed Vasugupta/Kallaṭa attribution, **Spandakārikā 1.14*
 > kāryatā kṣayiṇī tatra kartṛtvam punar akṣayam || 14 ||
 
 Literal rendering: And here the pair of conditions is designated effecthood and agency. Of these, effecthood perishes; agency, however, is imperishable.
+
+**Spandakārikā 1.15.** Spandakārikā, disputed Vasugupta/Kallaṭa attribution. [Source](cite://spanda-karika/spanda-karika/inspectable-sm-spanda-persistence).
+
+> kāryonmukhaḥ prayatno yaḥ kevalaṃ so 'tra lupyate | tasmin lupte vilupto 'smīty abudhaḥ pratipadyate || 15 ||
+
+Literal rendering: Only that effort which is directed toward an effect disappears here. When it disappears, the unawakened one understands, “I have disappeared.”
 
 Spandakārikā, disputed Vasugupta/Kallaṭa attribution, **Spandakārikā 1.16**. [Source](cite://spanda-karika/spanda-karika/inspectable-sakti-context-12).
 
@@ -4699,26 +4619,7 @@ The source’s bhāvah and sarvajñātva spellings are retained; the argument co
 
 Verse 14 and 16 contrast perishing effecthood with imperishable agency and persistence of the inward condition. Capacity, its outward exercise and the persistence of the subject must be distinguished. The Spandakārikā’s attribution to Vasugupta or Kallaṭa remains disputed; its affirmative agency-language is not equivalent to an inactive puruṣa.
 
-**Spandakārikā 1.10.** Spandakārikā, disputed attribution. [Source](cite://spanda-karika/spanda-karika/inspectable-sm-spanda-abiding-agency).
-
-> tadāsyākṛtrimo dharmo jñatvakartṛtvalakṣaṇaḥ | yatas tadepsitaṃ sarvaṃ jānāti ca karoti ca || 10 ||
-
-Literal rendering: Then its uncontrived character is characterized by knowing and acting, since it knows and does all that is desired.
-
 Verse 14–16 distinguish outward-effort cessation from imperishable agency. Knowing and acting are positive features of this account. Their affirmation remains a point of comparison with traditions that describe the liberated self as inactive.
-
-**Vijñānabhairava, 15–17.** Bhairava’s reply. [Source](cite://vijnana-bhairava/vijnana-bhairava/inspectable-df-trika-full-state).
-
-> antaḥsvānubhavānandā vikalponmuktagocarā |
-> yāvasthā bharitākārā bhairavī bhairavātmanaḥ || 15 ||
-
-> tad vapus tattvato jñeyaṃ vimalaṃ viśvapūraṇam |
-> evaṃvidhe pare tattve kaḥ pūjyaḥ kaś ca tṛpyati || 16 ||
-
-> evaṃvidhā bhairavasya yāvasthā parigīyate |
-> sā parā pararūpeṇa parā devī prakīrtitā || 17 ||
-
-Literal rendering: That state of Bhairava’s self, Bhairavī, whose bliss is one’s own inward experience, whose domain is freed from conceptual construction, whose form is fullness—that is to be known as [his] body in truth, stainless, filling the universe. In such a supreme reality, who is to be worshipped and who is satisfied? That state of Bhairava which is celebrated in this manner—she is the Supreme; in the supreme manner [she] is proclaimed the supreme Goddess.
 
 Bhairava’s reply, **Vijñānabhairava 8b–10**. [Source](cite://vijnana-bhairava/vijnana-bhairava/inspectable-sakti-context-13).
 
@@ -4739,13 +4640,20 @@ Bhairava’s reply, **Vijñānabhairava 14**. [Source](cite://vijnana-bhairava/v
 
 Literal rendering: Freed from the reckoning of direction and time, not differentiated by place or designation of place, that [state] cannot be designated and is inexpressible in ultimate truth.
 
+**Vijñānabhairava, 15–17.** Bhairava’s reply. [Source](cite://vijnana-bhairava/vijnana-bhairava/inspectable-df-trika-full-state).
+
+> antaḥsvānubhavānandā vikalponmuktagocarā |
+> yāvasthā bharitākārā bhairavī bhairavātmanaḥ || 15 ||
+
+> tad vapus tattvato jñeyaṃ vimalaṃ viśvapūraṇam |
+> evaṃvidhe pare tattve kaḥ pūjyaḥ kaś ca tṛpyati || 16 ||
+
+> evaṃvidhā bhairavasya yāvasthā parigīyate |
+> sā parā pararūpeṇa parā devī prakīrtitā || 17 ||
+
+Literal rendering: That state of Bhairava’s self, Bhairavī, whose bliss is one’s own inward experience, whose domain is freed from conceptual construction, whose form is fullness—that is to be known as [his] body in truth, stainless, filling the universe. In such a supreme reality, who is to be worshipped and who is satisfied? That state of Bhairava which is celebrated in this manner—she is the Supreme; in the supreme manner [she] is proclaimed the supreme Goddess.
+
 The preceding reply in 8–10 qualifies representations with parts as meditative aids, while 14 removes spatial and temporal delimitation. Fullness here belongs to a state whose domain is freed from conceptual construction, called Bhairava’s true body and the supreme Goddess. Vapus must not be turned into the unqualified claim that every visibly delimited image is already this state precisely as delimited. The ultimate-register question about worship does not cancel the practices that follow, or establish an avatāra classification.
-
-**Vijñānabhairava 19a, with 18.** Vijñānabhairava, transmitted dialogue. [Source](cite://vijnana-bhairava/vijnana-bhairava/inspectable-sm-power-fire).
-
-> na vahner dāhikā śaktir vyatiriktā vibhāvyate |
-
-Literal rendering: The burning power of fire is not conceived as separate.
 
 Bhairava’s reply, **Vijñānabhairava 18**. [Source](cite://vijnana-bhairava/vijnana-bhairava/inspectable-sakti-context-15).
 
@@ -4754,7 +4662,11 @@ Bhairava’s reply, **Vijñānabhairava 18**. [Source](cite://vijnana-bhairava/v
 
 Literal rendering: Since the nondifference of power and the possessor of power always abides, therefore, because of their being attribute and attribute-bearer, the supreme power belongs to the supreme Self.
 
-Verse 18 states abiding nonseparation; 19 uses fire; 20 calls Śaivī the entrance. The power’s constitutive nonseparation and the practitioner’s route of recognition are distinct claims. The earlier qualification of determinate representations remains essential to reading both.
+**Vijñānabhairava 19a.** Vijñānabhairava, transmitted dialogue. [Source](cite://vijnana-bhairava/vijnana-bhairava/inspectable-sm-power-fire).
+
+> na vahner dāhikā śaktir vyatiriktā vibhāvyate |
+
+Literal rendering: The burning power of fire is not conceived as separate.
 
 **Vijñānabhairava 20.** Vijñānabhairava, transmitted dialogue. [Source](cite://vijnana-bhairava/vijnana-bhairava/inspectable-sm-power-route).
 
@@ -4763,6 +4675,8 @@ Verse 18 states abiding nonseparation; 19 uses fire; 20 calls Śaivī the entran
 Literal rendering: For one who has entered the condition of power, contemplation without division: then he would be of Śiva’s form. Śaivī is called the entrance here.
 
 The genitive specifies the practitioner; syāt is optative. The verse specifies entry into the condition of power and contemplation without division. Merely having some cognitive content does not meet those conditions.
+
+Verse 18 states abiding nonseparation; 19 uses fire; 20 calls Śaivī the entrance. The power’s constitutive nonseparation and the practitioner’s route of recognition are distinct claims. The earlier qualification of determinate representations remains essential to reading both.
 
 ### The mirror and its limits
 
@@ -4862,6 +4776,14 @@ Jayaratha identifies knowledge/action powers and argues against dependence on so
 
 ### Complete apprehension and fullness
 
+Abhinavagupta does not begin by declaring that every thing contains every other thing. He asks what must be included in a complete account of a particular manifestation. Earth has a qualitative constitution; its account therefore leads through subtle qualities, sensory articulation and determination, intellect and the undivided root of nature. Nature as experienced requires a conscious experiencer. A contracted experiencer requires an account both of consciousness and of the power through which contraction occurs. That power cannot be exhausted by the contracted result if it is to explain the possibility of contraction and expansion. The inquiry consequently reaches free, complete consciousness. These are the premises of Abhinavagupta’s argument.
+
+This route is asymmetric. Being a śiṃśapā tree requires being a tree, while being a tree does not require being a śiṃśapā. Likewise, showing that a manifestation requires its constituents does not yet show that every constituent contains every manifestation. Abhinavagupta supplies a separate operation: complete apprehension of an earlier principle retains the completed field of the later one. His example moves from earth to water without abandoning the earth-field already apprehended, then continues through the articulation. The claim is stronger than remembering an arbitrary image: complete apprehension corresponds to a fullness intrinsically present in consciousness. These two arguments—constitutive prerequisite and retained fullness—must be represented separately before they can jointly support an all-in-all conclusion.
+
+[Source](cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness)
+
+Here a *tattva* is a principle in the author’s explanatory ordering. Earth and water enter this argument through that account of constitution.
+
 Abhinavagupta makes complete apprehension a condition, rather than assuming that every ordinary perception is exhaustive. His prerequisite argument has a direction; the tree comparison blocks its careless reversal. Retention of what has already been completely apprehended supplies another premise. Complete constitution and present finite access therefore remain distinct. A further passage separates reversal of a manifested ordering from reversal of Bhairava’s intrinsic nature.
 
 **Parātriṃśikāvivaraṇa extended 5–8 block, electronic 716.** Abhinavagupta. [Source](cite://abhinavagupta/paratrimsika-vivarana/inspectable-sm-fullness-conditional).
@@ -4943,6 +4865,10 @@ Literal rendering: What is the power-principle in supreme awareness is that very
 This is the specified reversal of articulated principle/letter order. It precedes the denial that Bhairava’s own nature undergoes reversal.
 
 The specified earth/power ordering changes between the supreme and mixed conditions. The reversal of an articulated ordering does not reverse Bhairava’s intrinsic nature. This does not establish that every predicate of each manifestation is invariant.
+
+## 12. Śākta and modern accounts of power and devotion
+
+The following sources develop power, manifestation and devotion through distinct arguments and forms of teaching. Their sequence keeps each author’s account intact before bringing the claims into the common comparison.
 
 ### The Goddess: manifestation, power and knowledge
 
@@ -5444,11 +5370,21 @@ Literal rendering: A burnt rope has a rope’s shape to the eye; blow and it fli
 
 The surrounding passage distinguishes vidyā-I/devotee-I from the harmful ego. A relational I need not entail the harmful appropriation associated with a binding ego. The analogy of shape without the former causal force does not establish eternal substantial individuality.
 
-**Śrīśrīrāmakṛṣṇakathāmṛta 1 March 1885, chapter 42 section 1, pp 748–749.** Ramakrishna, as recorded by M. [Source](cite://ramakrishna/kathamrita/inspectable-sm-ramakrishna-return-guard).
+Ramakrishna as recorded by M., **Kathāmṛta, 1March 1885, chapter 42§1, pp 748–749**. [Source](cite://ramakrishna/kathamrita/inspectable-sakti-context-56).
 
-> yatkṣaṇ kumbha āche, āmi tumi āche; tumi ṭhākur, āmi bhakta; tumi prabhu, āmi dās; eo āche.
+> জীবকোটি ও ঈশ্বরকোটি। জীবকোটির ভক্তি, বৈধভক্তি।
 
-Literal rendering: As long as the pot exists, I and you exist: you are the Lord, I the devotee; you are the master, I the servant—this too exists.
+Romanized Bengali: Jīvakoṭi o īśvarakoṭi. Jīvakoṭir bhakti, baidhabhakti.
+
+Literal rendering: Jīvakoṭi and īśvarakoṭi. The devotion of the jīvakoṭi is prescribed devotion.
+
+**Śrīśrīrāmakṛṣṇakathāmṛta 1 March 1885, pp 748–749.** Ramakrishna, as recorded by M. [Source](cite://ramakrishna/kathamrita/inspectable-sm-ramakrishna-no-return).
+
+> ei baidhībhaktir par jñān. tārpar laẏ. ei laẏer par ār phere nā.
+
+Literal rendering: After this prescribed devotion, knowledge; then dissolution. After this dissolution one does not return.
+
+This is expressly the jīvakoti account; the following īśvarakoti account permits ascent/descent. The nonreturn statement concerns the class specified here. It cannot be transferred without qualification to the contrasted īśvarakoṭi account.
 
 Ramakrishna as recorded by M., **Kathāmṛta, 1March 1885, chapter 42§1, pp 748–749**. [Source](cite://ramakrishna/kathamrita/inspectable-sakti-context-57).
 
@@ -5460,23 +5396,13 @@ Literal rendering: The īśvarakoṭi is a different matter—like going in orde
 
 The Bengali retains the colloquial anuloṃ boloṃ wording অনুলোম বোলুম.
 
-The earlier paragraph contrasts jīvakoti nonreturn after dissolution with īśvarakoti ascent/descent. The relational condition is expressly limited by the pot’s continuance; the pot is not declared eternal. Neither relational return nor permanent disappearance is imposed universally.
+**Śrīśrīrāmakṛṣṇakathāmṛta 1 March 1885, chapter 42 section 1, pp 748–749.** Ramakrishna, as recorded by M. [Source](cite://ramakrishna/kathamrita/inspectable-sm-ramakrishna-return-guard).
 
-**Śrīśrīrāmakṛṣṇakathāmṛta 1 March 1885, pp 748–749.** Ramakrishna, as recorded by M. [Source](cite://ramakrishna/kathamrita/inspectable-sm-ramakrishna-no-return).
+> yatkṣaṇ kumbha āche, āmi tumi āche; tumi ṭhākur, āmi bhakta; tumi prabhu, āmi dās; eo āche.
 
-> ei baidhībhaktir par jñān. tārpar laẏ. ei laẏer par ār phere nā.
+Literal rendering: As long as the pot exists, I and you exist: you are the Lord, I the devotee; you are the master, I the servant—this too exists.
 
-Literal rendering: After this prescribed devotion, knowledge; then dissolution. After this dissolution one does not return.
-
-Ramakrishna as recorded by M., **Kathāmṛta, 1March 1885, chapter 42§1, pp 748–749**. [Source](cite://ramakrishna/kathamrita/inspectable-sakti-context-56).
-
-> জীবকোটি ও ঈশ্বরকোটি। জীবকোটির ভক্তি, বৈধভক্তি।
-
-Romanized Bengali: Jīvakoṭi o īśvarakoṭi. Jīvakoṭir bhakti, baidhabhakti.
-
-Literal rendering: Jīvakoṭi and īśvarakoṭi. The devotion of the jīvakoṭi is prescribed devotion.
-
-This is expressly the jīvakoti account; the following īśvarakoti account permits ascent/descent. The nonreturn statement concerns the class specified here. It cannot be transferred without qualification to the contrasted īśvarakoṭi account.
+The class distinction governs the contrast between jīvakoti nonreturn and īśvarakoti ascent/descent. The relational condition is expressly limited by the pot’s continuance; the pot is not declared eternal. Neither relational return nor permanent disappearance is imposed universally.
 
 ### Vivekananda: fulfilled worship and transformed relations
 
@@ -5530,13 +5456,13 @@ Knowledge cuts the connection of false identification; subsequent mirage appears
 
 The preceding challenge is to those claiming to transcend virtue/vice while doing harm. His account of fulfillment includes this ethical test.
 
-**The Real and the Apparent Man, paragraph beginning “The next question is to know what comes after realisation”.** Vivekananda. [Source](cite://vivekananda/complete-works/inspectable-sm-vivekananda-love-after-realization).
-
-> The wife will love the husband the more when she thinks that the husband is God Himself. The husband will love the wife the more when he knows that the wife is God Himself.
-
 Vivekananda, **The Real and the Apparent Man, question preceding love after realization**. [Source](cite://vivekananda/complete-works/inspectable-sakti-context-46).
 
 > The next question is to know what comes after realisation. Suppose we have realised this oneness of the universe, that we are that one Infinite Being, and suppose we have realised that this Self is the only Existence and that it is the same Self which is manifesting in all these various phenomenal forms, what becomes of us after that?
+
+**The Real and the Apparent Man, paragraph beginning “The next question is to know what comes after realisation”.** Vivekananda. [Source](cite://vivekananda/complete-works/inspectable-sm-vivekananda-love-after-realization).
+
+> The wife will love the husband the more when she thinks that the husband is God Himself. The husband will love the wife the more when he knows that the wife is God Himself.
 
 Vivekananda presents transformed love as a consequence of realized oneness. This goes beyond permission to continue a preliminary practice: his account connects recognition of the divine in another person with intensified affection.
 
@@ -5614,6 +5540,16 @@ Sri Aurobindo, **The Life Divine I.XIII, printed 123**. [Source](cite://aurobind
 
 The paragraph argues that choosing light rather than other possibilities already presupposes determination and directing power. Infinite power does not here mean unrestricted arbitrary change. The argument asks how particular possibilities are selected and shaped.
 
+### Aurobindo: the aim of integration and the individual who realizes it
+
+Aurobindo also distinguishes a practice’s own end from the further task of integration. In *The Synthesis of Yoga*, he says that if the aim is escape from the world to God, “synthesis is unnecessary and a waste of time.” A suitable effective path can suffice. Synthesis becomes necessary for his further aim of transforming the whole being. His proposed practice brings the entire conscious being into relation with the Divine and progressively surrenders the ego’s instruments; its movement responds to individual temperament, capacities and obstacles. This is a positive practical proposal, not merely the verdict that narrower practices fail at their own ends. ([The Synthesis of Yoga, Introduction V, pp. 44–46](cite://aurobindo/synthesis-of-yoga/reader-synthesis-aim)).
+
+The same work distinguishes persistent spiritual individuality from changing mental, vital and bodily personality. Aurobindo identifies a positive truth here in Sāṅkhya’s many subjects and qualified monism, and also defends the devotee’s continuing relation to the Divine. Yet essential identity does not confer unrestricted cosmic government: “no one can become individually the Lord of all the universes.” The individual participates through its own centre; dependence upon its highest Self can coexist with freedom. ([The Synthesis of Yoga, II.11, pp. 376–381](cite://aurobindo/synthesis-of-yoga/reader-individuality)).
+
+In *Essays on the Gita* he takes seriously the associated plurality problem: why do subjects have different experiential outlooks, and why does one person’s liberation not end everyone’s experience? His interpretation of the Gītā introduces further principles to answer the problem rather than treating it as already solved by one-Self language. ([Essays on the Gita, First Series VIII, pp. 74–80](cite://aurobindo/essays-on-the-gita/reader-plurality)). These are Aurobindo’s constructive comparisons. They do not independently establish what every earlier school intended, but they give an integrative theory concrete explanatory work to do.
+
+### Medhananda: inseparability and dependence
+
 Medhananda’s modern interpretation makes a related but distinguishable claim. The book was published under the name Ayon Maharaj; its formulations should be compared with Ramakrishna’s recorded wording rather than substituted for it.
 
 **Infinite Paths to Infinite Reality 2018, printed 37–38.** Maharaj’s modern scholarly interpretation. [Source](cite://medhananda/infinite-paths-to-infinite-reality/inspectable-sm-medhananda-actual-thesis).
@@ -5638,7 +5574,403 @@ The excerpt stops before the ensuing translated Ramakrishna quotation; the super
 
 The surrounding paragraph infers parity/dependence from bidirectional analogies; it also characterizes Advaita, which must be checked separately. Conceptual inseparability alone does not settle what ontological dependence means. This further formulation belongs to the scholar, and should not be attributed verbatim to Ramakrishna.
 
-## From compatible perspectives to a topos
+## 13. Compatibility: what one common model establishes
+
+We have enough source arguments to ask which descriptions are compatible and what a common model would retain. First calculate the relevant universal constructions; then use them to inspect contextual teaching and a single witness joining selected reflection and recognition mechanisms.
+
+### Pullbacks: compatibility over a declared common question
+
+Return to the three report records \(E\) and their tag map \(t: E \to  M\). A second dossier contains \(F = \{f_{1},f_{2}\}\), with \(u(f_{1}) = \text{quiet}\) and \(u(f_{2}) = \text{active}\). We want pairs of records that agree on this selected question.
+
+The ordinary product \(E \times  F\) contains six pairs, including pairs with disagreeing tags. Instead take
+
+\[
+E \times _{M} F = \{(e,f) \mid  t(e) = u(f)\}.
+\]
+
+There are three elements: \((e_{1},f_{1}), (e_{2},f_{1})\), and \((e_{3},f_{2})\). Projections return the \(E\) record and the \(F\) record. Their tags agree, which means the square commutes:
+
+\[
+\begin{array}{ccc}E\times_M F&\xrightarrow{\pi_F}&F\\{\scriptstyle\pi_E}\downarrow&&\downarrow{\scriptstyle u}\\E&\xrightarrow{t}&M\end{array}
+\]
+
+Commutativity alone does not make this a **pullback**. We also need the universal property. Suppose \(X\) is any set equipped with \(a: X \to  E\) and \(b: X \to  F\) such that \(t \circ  a = u \circ  b\). Then \(h(x) = (a(x),b(x))\) belongs to \(E \times _{M} F\), because the tags agree. It is the unique function whose two projections recover \(a\) and \(b\). Thus this set is universal among compatible pairs of assignments.
+
+In a general category, a pullback of \(A \to  C \leftarrow  B\) is a commutative square with vertex \(P\) such that every other compatible pair \(X \to  A\) and \(X \to  B\) factors uniquely through \(P\). Products are the special case in which \(C\) is terminal: the two composites to \(C\) agree automatically.
+
+**Try it.** Suppose all \(E\) records map to quiet, while all \(F\) records map to active. Does the pullback cease to exist?
+
+**Answer.** In \(\mathbf{Set}\) it still exists: it is empty. There are no compatible pairs. A nonempty \(X\) could not supply maps \(a\) and \(b\) satisfying the required equality, so the universal property does not demand an impossible map from such an \(X\) into \(\varnothing \).
+
+This gives a precise distinction between constructing a space of possible agreements and showing that it has a member. An empty space can correctly report an obstruction. Even a nonempty pullback proves agreement only over the common question \(M\). Our three matching pairs do not establish that the paired reports have the same grammar, doctrine, or experience.
+
+The philosophical work lies partly in choosing \(M\). If it remembers only “speaks about consciousness,” many incompatible accounts will agree there. A richer interface might retain claims about agency, self-manifestation, dependence, and liberation. Enlarging it can remove matches that existed in the weaker interface. This gives a more discriminating comparison.
+
+### Pushouts: joining accounts along specified identifications
+
+A pullback starts with two maps into a common target and finds compatible pairs. A **pushout** starts with two maps out of a common source and joins their targets subject to the prescribed identifications:
+
+\[
+\begin{array}{ccc}K&\xrightarrow{b}&B\\{\scriptstyle a}\downarrow&&\downarrow{\scriptstyle j_B}\\A&\xrightarrow{j_A}&P\end{array}
+\]
+
+The square must commute: \(j_{A} \circ  a = j_{B} \circ  b\). Universality says that whenever \(f: A \to  X\) and \(g: B \to  X\) already agree on \(K\), there is a unique \(h: P \to  X\) extending both, so \(h \circ  j_{A} = f\) and \(h \circ  j_{B} = g\).
+
+In \(\mathbf{Set}\), construct \(P\) from the disjoint union \(A \sqcup  B\) and impose the identifications \(a(k) \sim  b(k)\) for each \(k \in  K\). Then take the equivalence relation generated by those identifications. Its equivalence classes are the elements of \(P\).
+
+An equivalence relation is reflexive \((x\sim x)\), symmetric (\(x\sim y\) implies \(y\sim x\)), and transitive (\(x\sim y\) and \(y\sim z\) imply \(x\sim z\)). The relation generated by the chosen identifications is the smallest one satisfying those laws and containing them. An equivalence class \([x]\) consists of everything related to \(x\). Passing to classes is called taking a quotient: each class becomes one element, so the original distinctions within it are no longer available in that quotient.
+
+Consider \(A = \{a_{0},a_{1},a_{2}\}\) and \(B = \{b_{0},b_{1}\}\), with \(K\) containing one item mapped to \(a_{0}\) and \(b_{0}\). The pushout has four elements: the joined class \([a_{0}=b_{0}]\), plus the separate classes \([a_{1}], [a_{2}]\), and \([b_{1}]\). This is an archive comparison in which one correspondence has been established and the other distinctions remain.
+
+Why is it universal? Given agreeing functions \(f\) and \(g\), define \(h([a]) = f(a)\) and \(h([b]) = g(b)\). Their agreement on \(K\) ensures that identified elements receive the same output. Equality of outputs is itself an equivalence relation, so the agreement extends through every identification generated by symmetry and transitivity. The function is well-defined. Every class has a representative from \(A\) or \(B\), so the extension is unique.
+
+Now try a more consequential correspondence. Let \(K\) have two items \(k_{0}\) and \(k_{1}\). Send them to \(a_{0}\) and \(a_{1}\) in \(A\), but send both to \(b_{0}\) in \(B\). The pushout identifies
+
+\[
+a_{0} \sim  b_{0} \sim  a_{1}.
+\]
+
+Two previously distinct \(A\) records have become one class. This follows from the chosen comparison maps; it is not a theorem that the original distinction was philosophically illusory.
+
+**Try it.** If an \(A\)-side interpretation assigns different values to \(a_{0}\) and \(a_{1}\), can it extend through this pushout while retaining that difference?
+
+**Answer.** No. Any extension would have to assign the single class \([a_{0}=b_{0}=a_{1}]\) both values. Such an interpretation does not agree with the stipulated interface. The universal property applies only to maps that do agree.
+
+This is why “we can take a pushout” is not enough to establish a faithful harmonization. We must examine its maps from the original accounts. Do those maps preserve the distinctions, inference rules, and forms of agency the texts require? If a comparison identifies two roles that one school insists must remain distinguishable, the mathematics has exposed the cost of the proposed integration. We then need a better interface, a weaker claim, or an explicit philosophical argument for revising that school.
+
+### Limits, colimits, and a useful final check
+
+Products and pullbacks belong to one larger family. A **cone** over a diagram is an object with arrows to the objects in that diagram, compatible with its arrows. A **limit** is a universal cone: every other cone factors uniquely through it. Terminal objects are limits of empty diagrams; binary products are limits of diagrams containing two objects and no nonidentity arrows; pullbacks are limits of diagrams \(A \to  C \leftarrow  B\).
+
+Reverse the arrows and we obtain cocones and **colimits**. Initial objects, coproducts, and pushouts are the corresponding examples. “Finite limits” means limits of all finite diagrams, including the empty diagram. Having binary products alone does not supply that empty limit, so we must include a terminal object when claiming all finite products.
+
+One additional limit is an **equalizer**. For two parallel functions \(f,g: A \to  B\), it is the inclusion of the subset \(\{a \in  A \mid  f(a) = g(a)\}\) into \(A\). Every function \(X \to  A\) on which \(f\) and \(g\) agree factors uniquely through this subset. If \(f\) and \(g\) are two tag assignments to the same archive, the equalizer isolates exactly the records on which they agree. It records agreement without pretending the assignments were identical everywhere.
+
+Before applying these constructions to the common model, try this diagnostic. A map sends every theory in a comparison to the label “nondual.” Have we proved that they are the same theory?
+
+No. We have described a map that forgets distinctions. To know what it establishes, we need its domain, its target, its action on the relevant relations or arguments, and the properties it preserves or reflects. The preceding constructions give us concrete ways to ask those questions. The functors learned in chapter 4 let us apply the same scrutiny to comparisons between whole categories. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+### A small test of contextual truth
+
+Consider one activity performed under two conditions. In this example, appropriation means taking the activity and its results as one’s private possession. Let \(A(s)\) mean that appropriation is present in situation \(s\), and let \(B(a,s)\) mean that undertaking activity \(a\) in that situation binds the agent. Stipulate the example’s law:
+
+\[
+B(a,s)\Longleftrightarrow A(s).
+\]
+
+Then “this activity binds the appropriating agent” and “this activity does not bind the agent free of appropriation” are both wholly true. They concern the same activity, with an explicitly different condition. If someone turns the first into “all activity always binds,” the second instruction corrects that overextension while preserving the first claim’s actual content. This is a worked possibility for the proposed integration; the equation must be tested against each source’s account of bondage.
+
+Teaching adds another structure. Let the objects of a category be specified instructional situations and its arrows be composable finite sequences of permitted elementary instructions. Assign each object its possible learner states and each elementary instruction its relation of possible outcomes. Assign a sequence the relational composite of its steps: an intermediate learner state connects successive steps. The empty sequence leaves the state unchanged. With those assignments, we obtain a functor into the category of sets and relations. Relations allow an instruction to succeed, fail, or be misunderstood. An arrow therefore records what the instruction can do; the assertion’s truth is checked separately.
+
+The example explains why a later corrective teaching need not replace the reality described earlier. The learner’s appropriation, understanding or capacity can change. To extend this construction to the traditions, we must recover the actual conditions and effects from their texts, including any assertion intended to hold in every context.
+
+The desired integration can now be stated more strongly than “all these accounts fit in a diagram.” Suppose \(T_{1}, T_{2}\) and \(T_{3}\) are selected source-grounded theories: each names an explicitly specified fragment, not an entire historical tradition. Seek a common theory \(U\) together with interpretations of these selected theories in \(U\). On models, these become reduction functors:
+
+\[
+\begin{array}{ccccc}&&\operatorname{Mod}(U)&&\\&\swarrow&\downarrow&\searrow&\\\operatorname{Mod}(T_1)&&\operatorname{Mod}(T_2)&&\operatorname{Mod}(T_3)\end{array}
+\]
+
+This diagram does not rank \(T_{1}\) above \(T_{2}\) or require \(T_{3}\) to be a historically later correction of both. The arrows ask how one structured model presents itself under different abstractions. Different target vocabularies may disclose different relations. The universal theory \(U\), if established, would be a shared explanatory proposal; its position in the picture does not make one historical school its privileged interpreter.
+
+There are several possible strengths of this claim. One \(U\)-model with the required reductions establishes a simultaneous realization of the selected theories. Proving every model of a selected \(T_{i}\) has a suitable expansion establishes a stronger coverage result. Showing how compatible families of local models recover a \(U\)-model, uniquely up to the relevant isomorphism, adds a descent or reconstruction result. Proving equivalences of suitable model categories, with their logical structure respected, is stronger again. These demands are not interchangeable.
+
+Nor must a successful abstraction be an equivalence. A description of a devotional disposition and a description of the occurrence of a cognition can omit different information about one life. Neither need recover the whole life by itself. The important question is whether the omitted distinctions remain available elsewhere in the common structure and whether each description's actual claims remain true under its interpretation.
+
+This is a constructive way to pursue the thesis of different emphases on one reality. It puts the burden on explicit interpretations, shared referents and preserved inferences. If two theories assert opposite conclusions using genuinely identical meanings and conditions, their unchanged union has no consistent model. A contextual solution must therefore demonstrate the difference of meanings or conditions from the texts; adding a school-name index solely to evade the conflict would not explain it.
+
+Vijñānabhikṣu is an important precedent for coordinating different disciplines, but his selected argument also corrects a lower teaching's claim to finality. That historical feature need not determine the architecture of the proposed new Vedānta. We can adopt his demand for substantive integration while testing a symmetric family of abstractions. The research must say when it follows his particular argument and when it proposes a different relation among the traditions. [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/category-bhiksu-self)
+
+### A shared model with more than a common endpoint
+
+The strongest construction reached in the present study joins two substantial cognitive mechanisms. One interface, \(K_{A}\), retains the selected Śaṅkara account of changing mental presentation, invariant awareness, two directions of misattribution, ordinary truth, dream and doubt. Another, \(K_{R}\), retains the selected Trika account of receivers, admitted aspects, operative conditions, displayed content, intrinsic self-manifestation and recognition. The proposed theory \(U\) has both interfaces.
+
+The comparison has this shape at the level of models:
+
+\[
+\begin{array}{ccccc}\operatorname{Mod}(T_{\text{Śaṅkara}})&\longrightarrow&\operatorname{Mod}(K_A)&\longleftarrow&\operatorname{Mod}(U)\\&&&&\downarrow\\&&&&\operatorname{Mod}(K_R)\longleftarrow\operatorname{Mod}(T_{\text{Trika}})\end{array}
+\]
+
+An object of the corresponding compatible-model construction consists of three models and specified isomorphisms between their interface reductions. Using isomorphisms rather than literal equality allows harmless differences of names or carrier sets. This version is called a **pseudopullback**. An arrow between two such compatible triples consists of model maps that commute with the specified interface identifications. These conditions make compatibility stable under the chosen maps; a collection of similar-looking models would not suffice.
+
+Here is the core of the actual common witness. There are two local persons \(i\) and \(j\), one proposed constitutive self-reference \(u\), and eight conditions. For \(i\), \(q\) is temporary objectless quiet; \(v\) is a contentful condition of restricted awareness; \(r\) retains valid recognition; \(d\) retains that recognition in devotional expression. The remaining conditions distinguish initial binding identification, dream, doubt and ordinary veridical cognition. The mathematical names are condition labels, not stages that every historical author is claimed to enumerate.
+
+There is one dated episode for each person-condition pair except \((i,q)\). Thus there are fifteen episodes. Their owner and date functions are exactly the two coordinates. In this dated finite witness, \(\operatorname{Occurs}(e,s)\) means \(\operatorname{date}(e)=s\). Current first-person participation is given by:
+
+\[
+\begin{gathered}\operatorname{Access}(c,e,s)\Longleftrightarrow\operatorname{owner}(e)=c\land\operatorname{date}(e)=s,\\\operatorname{HasContent}(c,s)\Longleftrightarrow\exists e\;\operatorname{Access}(c,e,s),\\\forall s\;\operatorname{SelfShining}(u,s),\\\operatorname{Recognized}(i,r)\land\operatorname{Recognized}(i,d),\\\neg\operatorname{Recognized}(i,q)\land\neg\operatorname{Recognized}(i,v).\end{gathered}
+\]
+
+Here \(\operatorname{Recognized}\) names the shared core of valid recognition as oneself. On the Trika side, the interpretation represents that core through the richer full-recognition predicate. Its absence at \(v\) does not say that the restricted awareness of vijñānākala is blank or simply erroneous. The model distinguishes that awareness from the fuller disclosure of agency.
+
+These clauses make several philosophical decisions inspectable. Intrinsic self-manifestation persists without a local episode at \(q\). Quiet does not itself supply valid recognition. Restricted awareness \(v\) is not silently identified with quiet. Current participation in an episode remains local even though ultimate self-reference is common. Knowing about another person's episode can be represented by a further episode owned by the knower; it does not require transferring ownership of the original episode.
+
+The next module supplies a presentation mechanism. Every local person has a receiving configuration. A receiver admits certain aspects, and a display occurs when an admitted aspect also has an operative condition:
+
+\[
+\begin{gathered}\operatorname{Displayed}(h,z,s) \Longleftrightarrow  \operatorname{Admits}(h,z) \land  \operatorname{Operative}(h,z,s).\\\operatorname{Occurs}(e,s) \Longrightarrow \\\operatorname{Displayed}(\operatorname{receiver}(\operatorname{owner}(e)), \operatorname{contentRole}(e), s).\end{gathered}
+\]
+
+Complete intrinsic inclusion is distinguished from the restricted admission of a local receiver. The same presentation role can occur before and after correction while the attribution of independent existence is removed. Another layer retains distinct intentional objects and medium-dependent features, so a dream chariot is not made an externally present pot merely because both count as presentations. The common content-role abstraction is deliberately coarser than that object layer.
+
+One can now describe what each source comparison preserves. On the Advaita side, the map retains the medium/feature relation and both mistaken transfers: attributing changing mental activity intrinsically to awareness, and attributing awareness intrinsically to the instrument. It also retains distinct ordinary truth, dream and doubt judgments. On the Trika side, the map retains receiver-specific admission, operative display, local registration, intrinsic inclusion and the correction of independent-existence attribution. The Trika theory also has a same-owner memory pair and its integrating subject; that memory structure is additional to the common interface. [Source](cite://shankara/upadesa-sahasri/category-self-reflection) [Source](cite://abhinavagupta/tantraloka/category-trika-receiver) [Source](cite://utpaladeva/isvara-pratyabhijna-karika/category-trika-reflexivity)
+
+The decisive point is that both comparisons use the **same** fifteen-episode \(U\)-model. Two different enrichments, each compatible with only one source, would not establish simultaneous compatibility. The construction demonstrates how the specified cognitive distinctions can coexist in one finite witness. A general theorem that an interpretation preserves every interface axiom in every source model additionally requires the complete source theories, translated axioms and proofs. The displayed witness does not replace that work.
+
+In particular, the comparison leaves the strongest opposition between intrinsic nonagency and intrinsic formative freedom outside the shared interface. The fullness-closure module below is connected by a separate, conditional refinement of this same model; that connection requires additional premises and does not follow from episode ownership alone. The positive achievement is a simultaneous model of the selected reflection and recognition mechanisms, with meaningful nonbinding devotion and restricted experience. That is a stronger beginning for nonhierarchical integration than one undifferentiated endpoint, while leaving the remaining philosophical tests explicit.
+
+## 14. Fullness, closure and controlled reconstruction
+
+The common witness does not yet connect a finite presentation to a complete constitutive account. We first learn how a lossy abstraction can have controlled reconstructions, then use labelled paths and closure to connect the fullness argument to that same witness.
+
+### Can an abstraction have two canonical reconstructions?
+
+After forgetting distinctions, can we recover something in a principled way? Lawvere's 1991 paper studies a functor with fully faithful adjoints on either side, together with further conditions when comparing levels. His 2007 work on cohesion uses a longer string of adjoints with additional preservation and separation requirements. We use their practice of specifying and testing operations; no Hegelian doctrine is a premise of this Vedānta study. [Lawvere 1991](https://lawverearchives.com/wp-content/uploads/2024/12/1991-some-thoughts-on-the-future-of-category-theory.pdf); [Lawvere 2007](https://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf).
+
+A small ordered example makes the question concrete. Regard the ordered sets
+
+\[
+C=\{0<1<2<3\},\qquad D=\{0<1\}
+\]
+
+as categories: one arrow goes from a smaller element to a larger one, including the identity at each element. Define a monotone map \(q:C\to D\) by grouping adjacent elements:
+
+\[
+q(0)=q(1)=0,\qquad q(2)=q(3)=1.
+\]
+
+Because \(q\) preserves order, it is a functor between these categories. A coarse answer of 0 leaves two possible original positions, 0 and 1. A coarse answer of 1 leaves positions 2 and 3. There is no inverse function recovering whichever original position was used.
+
+There are, however, two distinguished choices. Let \(L\) choose the least compatible position and \(R\) the greatest:
+
+\[
+\begin{aligned}
+L(0)&=0,&L(1)&=2,\\
+R(0)&=1,&R(1)&=3.
+\end{aligned}
+\]
+
+These choices have a property stronger than being convenient conventions. For every \(a\in D\) and \(x\in C\),
+
+\[
+\begin{aligned}
+L(a)\le x&\quad\Longleftrightarrow\quad a\le q(x),\\
+q(x)\le a&\quad\Longleftrightarrow\quad x\le R(a).
+\end{aligned}
+\]
+
+Check the first equivalence at \(a=1\). Its left side says \(2\le x\); its right side says \(1\le q(x)\). Each holds precisely for \(x=2,3\). At \(a=0\), both sides always hold. For the second equivalence, \(a=0\) makes both sides hold precisely for \(x=0,1\); at \(a=1\), both always hold. We have checked every case.
+
+These equivalences define an adjunction between ordered categories. The hom-set on either side is empty or a singleton, and the equivalences match exactly when an arrow exists. Hence
+
+\[
+L\dashv q\dashv R.
+\]
+
+Both reconstructions return the given coarse answer: \(qL=qR=\operatorname{id}_D\). At the finer level they bound the original position:
+
+\[
+Lq(x)\le x\le Rq(x).
+\]
+
+Thus an abstraction can lose information while admitting two systematically related reconstructions. The adjoints characterize those reconstructions through all relevant comparisons, rather than picking a representative without a criterion.
+
+Now change \(q\) to the constant map with value 0, retaining \(D=\{0<1\}\). Could a left adjoint still exist? Apply its required equivalence with \(a=1\) and \(x=L(1)\). The left side \(L(1)\le L(1)\) is true. The right side \(1\le q(L(1))=0\) is false. No such left adjoint exists. Adjointness is a demand a proposed abstraction can fail.
+
+The relevance to the philosophical work is methodological. If we claim that a school account is an abstraction of a richer account, we can specify what it forgets and ask which reconstructions are justified. We should not assume adjoints exist merely because “return,” “manifestation,” or “completion” sounds suitable. Nor do the two elements with the same \(q\)-value become equal or isomorphic in \(C\). They share a selected description. Nothing in this example identifies Brahman with a coarse block or ranks traditions by their resolution; those would be additional interpretations needing their own arguments.
+
+### Fullness as a mathematical question
+
+Chapter 11 distinguished constitutive prerequisites from the retention of complete apprehension. We can now make that proposed relation more exact. Suppose three determinations are called \(a, b\) and \(c\). One source-supported relation says that a determination requires another for its constitution. A second says that complete apprehension retains a further determination. Draw these as different labelled arrows. The distinction matters: dependence on a prerequisite is not already a theorem that the prerequisite contains its dependent.
+
+For a small example, let the prerequisite arrows be \(c\to b\) and \(b\to a\), and the retention arrows be \(a\to b\) and \(b\to c\). Define \(\operatorname{Cl}(A)\) to be the set of determinations reachable from the starting set \(A\) by any finite sequence of these arrows, including an empty sequence. Then:
+
+\[
+\begin{gathered}A \subseteq  \operatorname{Cl}(A)\\A \subseteq  B \Longrightarrow  \operatorname{Cl}(A) \subseteq  \operatorname{Cl}(B)\\\operatorname{Cl}(\operatorname{Cl}(A)) = \operatorname{Cl}(A)\end{gathered}
+\]
+
+These are extensivity, monotonicity and idempotence. Together they define a closure operator. In this graph \(\operatorname{Cl}(\{a\}) = \operatorname{Cl}(\{b\}) = \operatorname{Cl}(\{c\}) = \{a,b,c\}\). The starting determinations remain distinct; their completed constitutive accounts coincide.
+
+To use this as an account of what each determination contains, one further rule is indispensable: if its complete content includes \(y\), it inherits the prerequisite and retention content of \(y\). Merely including adjacent items does not entail including everything reachable. For example, \(a\) could initially include only \(a\) and \(b\), while \(b\) includes all three. Without the inheritance rule, nothing forces \(a\) to include \(c\). The reviewed fullness argument explicitly supplies the stronger rule. Adjacent inclusions alone do not establish inclusion of the whole field.
+
+A free path category on the labelled arrows retains the different explanations. The path \(a\to b\to a\) is not the identity at \(a\) merely because it returns there. This is the same distinction encountered in chapter 2’s exercise about distinct paths. Collapsing every reachable route into an unlabelled relation loses explanatory information.
+
+There is also an adjunction. Order subsets by inclusion, and let \(\mathbf{Closed}\) be the subsets unchanged by \(\operatorname{Cl}\). For a closed \(B\),
+
+\[
+\operatorname{Cl}(A) \subseteq  B  \Longleftrightarrow   A \subseteq  B.
+\]
+
+Thus closure is left adjoint to the inclusion of \(\mathbf{Closed}\) into all subsets. This is a general mathematical result for the specified closure operator. The philosophical work lies in defending the arrows and inheritance rule. Abhinavagupta's constitutive-inclusion argument supplies the relevant distinction between prerequisites and retention under complete apprehension. The simple three-item graph illustrates the mechanism; it is not a verified enumeration of all tattvas. [Source](cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness)
+
+Constitutive fullness also differs from a finite mind's current access. A determination can require the whole for a complete account without the person experiencing it knowing every fact. The latter conclusion would need an additional access rule. This is how the proposed integration can retain restricted experience without making its ultimate reality a fragment cut out of completeness.
+
+### Connecting fullness to a particular experience
+
+A fullness graph and a model of experience can each be consistent while saying nothing about one another. To connect them, we must specify which determination a presentation concerns and how that presentation belongs to an actual episode. We must also keep two questions separate: what a complete account of the presented determination includes, and what its finite experiencer presently apprehends.
+
+Abhinavagupta supplies a reason for the first connection. In the *Parātriṃśikāvivaraṇa*, an apprehension of earth counts as complete only if it discloses earth's entire constitution. The argument then follows its indispensable constituents and their own grounds. This conditional does not say that anyone who sees a patch of ground has already realized that complete account. The earth–water discussion supplies a small, source-based test: earth requires water in this elemental explanation; the complete apprehension of water retains the completed earth-field. These are the author’s two differently warranted premises. [Source](cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness)
+
+The receiver account prevents an invalid further step. Jayaratha argues that a reflected mountain does not make the mirror heavy. A reflection's support, its presented aspects and the means by which it is known have different roles. Full constitutive inclusion therefore cannot mean that every included property becomes locally instantiated in the receiving surface or mind. [Source](cite://abhinavagupta/tantraloka/category-trika-receiver)
+
+Keep the earlier fifteen-episode model unchanged. Add a separate determination type \(T\) containing \(W\) and \(\text{Earth}\). These are the selected water and earth principles; \(T\) is not a complete tattva taxonomy. Its two labelled arrows are:
+
+\[
+\operatorname{Need}(\text{Earth},W)\qquad\operatorname{Retain}(W,\text{Earth}).
+\]
+
+Write \(\operatorname{In}(t,x)\) when \(x\in\operatorname{Cl}(\{t\})\), using the reflexive path closure of the two labelled relations just specified. Self-inclusion and the two inheritance rules give each determination the full selected profile \(\{W,\text{Earth}\}\). The two elements remain distinct. The preceding closure lesson explains why these two differently warranted arrows are needed and why a larger graph also needs a checked account of its paths and coverage.
+
+Now add \(\operatorname{Head}(e,t)\): the proposed refinement assigns \(t\) as episode \(e\)'s locally explicit operative determination. This includes an actual local-articulation claim; it is not merely an analyst's note about a hidden constituent. It also does not mean that the episode completely apprehends \(t\). Write \(\operatorname{content}(e)=\operatorname{contentRole}(e)\) for the episode's existing coarse presentation role. Two incidence relations connect the new and old types:
+
+\[
+\begin{gathered}\operatorname{Head}(e,t) \Longrightarrow  \operatorname{RoleHead}(t,\operatorname{content}(e)).\\\operatorname{RoleHead}(t,f) \Longrightarrow  \operatorname{RoleContent}(f,t).\\\operatorname{RoleContent}(f,t) \land  \operatorname{In}(t,x) \Longrightarrow  \operatorname{RoleContent}(f,x).\end{gathered}
+\]
+
+Here \(\operatorname{RoleContent}\) records the complete constitutional account associated with a role's selected determination. It does not say that the role is a physical lump of that element. In particular, neither the persons nor their person-role forms have been renamed as tattvas. Multiple determinations can be associated with the same coarse presentation role.
+
+Define the episode's constitutive profile by both parts of the connection:
+
+\[
+\operatorname{Profile}(e,t)\Longleftrightarrow\exists x\;\bigl(\operatorname{Head}(e,x)\land\operatorname{In}(x,t)\land\operatorname{RoleContent}(\operatorname{content}(e),t)\bigr).
+\]
+
+The proof now crosses the two modules. Suppose an episode has head \(W\). Closure gives \(\operatorname{In}(W,\text{Earth})\). The first two incidence rules give \(\operatorname{RoleContent}(\operatorname{content}(e),W)\); the third gives \(\operatorname{RoleContent}(\operatorname{content}(e),\text{Earth})\). These facts yield \(\operatorname{Profile}(e,\text{Earth})\). The profile belongs to this episode's actual content role. Its intrinsic and reflexive inclusion use that role's existing relation to the intrinsic subject. When the episode occurs, the existing registration rules place the presentation in its actual owner's receiver. None of these steps changes its owner or transfers another person's experience to it.
+
+To see why the bridge matters, remove only the first incidence rule. Keep the old reflection model, the complete two-element inclusion relation and a selected head. We can now leave \(\operatorname{RoleHead}\) and \(\operatorname{RoleContent}\) empty, making \(\operatorname{Profile}\) empty too. Those remaining premises do not prove the joined profile. Merely putting the two models side by side would leave precisely this gap.
+
+A concrete expansion uses two different existing episodes. As an illustrative proposal, assign a water head to one otherwise unspecified episode and an earth head to the episode in which a pot is presented but its existence is doubted. This second assignment means an earth articulation within that presentation, not an equation of the intentional pot with the earth principle. Neither assignment is established by the old model or identified as a particular event in the source. They are explicit premises for testing whether this refinement can coexist with the already modeled experiences.
+
+In that expanded witness, each of the two episodes has both selected constituents in its complete profile. Yet local explicit articulation follows only its assigned head and current access:
+
+\[
+\operatorname{Explicit}(c,t,s)\Longleftrightarrow\exists e\;\bigl(\operatorname{Access}(c,e,s)\land\operatorname{Head}(e,t)\bigr).
+\]
+
+There are four episode–constituent profile pairs, but only two selected local-articulation triples. The water-headed episode can therefore have \(\text{Earth}\) in its complete profile without its owner explicitly apprehending \(\text{Earth}\) at that moment. The original episodes and display assignments remain unchanged. Temporary quiet gains no new episode; the dream chariot gains no external existence. Full constitution has not become finite omniscience or indiscriminate property transfer.
+
+Categorically, retain pairs \((\text{determination},\text{role})\) with \(\operatorname{RoleContent}\) incidence. An arrow within one role is a labelled prerequisite/retention path between its determinations. Closure ensures that intermediate determinations stay in that role's profile; identities and composition are empty paths and concatenation. Projection to the discrete category of roles forgets the distinction between its determinations, while projection to the path category retains their distinct heads and reasons for inclusion. In the witness, the shared presentation-role fibre—the objects with that role—has two objects and both labelled directions. A two-edge cycle is not an identity, so equal complete profiles do not make those objects isomorphic in this free path category.
+
+This is an **expansion** of the same model, not a replacement: forgetting the added data returns exactly the old model and its two reviewed school-interface comparisons. More generally, the construction provides an expansion of every set-based model of the old selected theory, using the two marked episodes and their actual content values. To see the general recipe, keep every old sort and assignment. Add the two-element determination set with its complete reflexive closure; give the two designated episodes their chosen heads; and assign both determinations to each of those episodes’ existing content-role values. Define Profile and Explicit by the displayed formulas. The selected old theory already supplies the two marked episodes: this is not an assumption about an arbitrary collection of experiences. The added data satisfy the incidence rules without changing any old data. An old-language assertion cannot become newly forced if every old countermodel survives this expansion. This is model-conservativity, a preservation result. It does not establish unique refinements, equivalence of the two theories, or validity of the proposed episode assignments as historical interpretations.
+
+The advance is consequently specific: fullness and reflection now admit a connected, nonempty common model with a proved constitutive-profile consequence. The connection is conditional on its declared refinement premises. It still requires source-justified assignments for a complete tattva account, a separate theory of actually attaining complete apprehension, and an argument about intrinsic nonagency versus formative freedom. The existing Śaṅkara interface does not silently acquire every new Trika premise merely because its original cognitive distinctions survive.
+
+## 15. From relational profiles to contextual truth
+
+A common model answers one question; a system of contextual descriptions answers another. Relational profiles and Yoneda now supply the mathematics needed for presheaves. One finite example will carry us through compatibility, gluing and contextual truth to the definition of a classifying topos.
+
+### Representables retain a whole pattern of access
+
+A handful of predicates can make two things look alike. Category theory offers a more demanding relational profile. For an object \(x\) of a small category \(C\), define
+
+\[
+yx=C(-,x):C^{\mathrm{op}} \to  \mathbf{Set}.
+\]
+
+Here \(yx\) abbreviates \(y(x)\); when the object is named \(y, yy\) means \(y(y)\), not multiplication. At a probe object \(a\), this gives the entire set \(C(a,x)\) of arrows from \(a\) to \(x\). At a probe-change \(u:a' \to  a\), it gives the function
+
+\[
+yx(u):C(a,x) \to  C(a',x), p \mapsto  p \circ  u.
+\]
+
+The opposite category \(C^{\mathrm{op}}\) has the same objects as \(C\) and every arrow reversed; its composition is correspondingly reversed. The direction of the profile maps reverses. An available route from \(a\) to \(x\) can be preceded by \(u\), producing a route from \(a\)'. This is why \(yx\) is contravariant, equivalently an ordinary functor from the opposite category. Identities act as identities, and composition is respected because composition in \(C\) is associative.
+
+A functor naturally isomorphic to one of these profiles is called **representable**. More generally, any functor \(P:C^{\mathrm{op}} \to  \mathbf{Set}\) is a presheaf; not every presheaf is representable. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+Recall the procedure category \(\mathbf{Proc}\) from chapter 4: \(a:U\to D\), \(b:D\to R\), and a direct arrow \(h:U\to R\), with \(h\) distinct from \(b\circ a\). The profile of \(R\) is completely calculable:
+
+\[
+yR(U)=\{h,b \circ  a\}, yR(D)=\{b\}, yR(R)=\{1[R]\}.
+\]
+
+Precomposing \(1[R]\) with \(h\) yields \(h\). Precomposing it with \(b\), then with \(a\), yields \(b \circ  a\). The profile retains the distinction that the status functor forgot.
+
+Restricted probes can lose decisive information. In a category with objects \(p,A,B\), arrows \(p \to  A, p \to  B\), and only identities otherwise, the profiles of \(A\) and \(B\) at \(p\) are both singleton sets. Yet \(A\) and \(B\) are not isomorphic. At the additional probe \(A\), their profiles differ: \(C(A,A)\) contains an identity while \(C(A,B)\) is empty. The full profile includes every object, including the object being profiled, and every compatibility map. It is much more than agreement on a survey of properties.
+
+### Yoneda, calculated and proved
+
+Write \(\operatorname{Nat}(yx,P)\) for the set of natural transformations from \(yx\) to \(P\). The Yoneda lemma says that for a presheaf \(P\),
+
+\[
+\operatorname{Nat}(yx,P) \cong  P(x).
+\]
+
+The correspondence is natural in both \(x\) and \(P\). Let us construct the two directions. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
+
+Given \(\alpha :yx \Rightarrow  P\), its component at \(x\) is a function \(\alpha [x]:C(x,x) \to  P(x)\). The identity arrow supplies an input, so define
+
+\[
+\Phi (\alpha )=\alpha [x](1[x]).
+\]
+
+Conversely, given \(z \in  P(x)\), define a component at every \(a\) by
+
+\[
+\alpha ^{z}[a](p)=P(p)(z), p:a \to  x.
+\]
+
+This is well typed: contravariance gives \(P(p):P(x) \to  P(a)\). For \(u:a' \to  a\),
+
+\[
+\begin{gathered}P(u)(\alpha ^{z}[a](p))=P(u)P(p)(z)\\=P(p \circ  u)(z)=\alpha ^{z}[a'](p \circ  u).\end{gathered}
+\]
+
+That is naturality. Applying the first construction gives \(\alpha ^{z}[x](1[x])=P(1[x])(z)=z\). In the other direction, naturality of \(\alpha \) at \(p:a \to  x\), evaluated at \(1[x]\), gives
+
+\[
+\alpha [a](p)=P(p)(\alpha [x](1[x])).
+\]
+
+Thus the second construction recovers every component of the original transformation. We have proved a bijection.
+
+For a calculation, define \(P\) on the procedure category \(\mathbf{Proc}\) by
+
+\[
+\begin{gathered}P(R)=\{r,n\}, P(D)=\{d[r],d[n]\},\\P(U)=\{u[r],u[m],u[n]\}.\end{gathered}
+\]
+
+Set \(P(b)(r)=d[r], P(b)(n)=d[n]\); set \(P(a)(d[r])=u[r], P(a)(d[n])=u[n]\). Set \(P(h)(r)=u[m], P(h)(n)=u[n]\). Functoriality forces \(P(b \circ  a)=P(a)P(b)\). This defines a legitimate presheaf: the two different routes remain different, so they may have different restriction functions. The symbols can be read as possible retrospective records; they are not stipulated psychological laws.
+
+Choosing \(z=r\) gives the transformation
+
+\[
+\begin{gathered}\alpha [R](1[R])=r, \alpha [D](b)=d[r],\\\alpha [U](b \circ  a)=u[r], \alpha [U](h)=u[m].\end{gathered}
+\]
+
+One selected record at \(R\) determines all these values. Choosing \(n\) gives the other transformation. There are exactly two natural transformations \(yR \Rightarrow  P\), because \(P(R)\) has two elements.
+
+The word “natural” in the theorem adds compatibility to this bijection. If \(\theta :P \Rightarrow  Q\), then
+
+\[
+\Phi (\theta  \circ  \alpha )=\theta [x](\Phi (\alpha )).
+\]
+
+If \(f:x \to  y\) and \(\alpha :yy \Rightarrow  P\), then
+
+\[
+\Phi (\alpha  \circ  y(f))=P(f)(\Phi (\alpha )).
+\]
+
+The first equation follows by evaluating at \(1[x]\); the second follows from naturality of \(\alpha \). Thus changing either input respects the correspondence.
+
+Setting \(P=yy\) gives
+
+\[
+\operatorname{Nat}(yx,yy) \cong  C(x,y).
+\]
+
+The map sends \(f:x \to  y\) to postcomposition \(p \mapsto  f \circ  p\). Consequently \(y:C \to  [C^{\mathrm{op}},\mathbf{Set}]\) is full and faithful: the Yoneda embedding. A natural isomorphism of complete profiles therefore yields an isomorphism of their representing objects. It does not yield their literal equality.
+
+**Exercise 4.** Could we alter the displayed transformation by setting \(\alpha [U](h)=u[r]\), while keeping \(\alpha [R](1[R])=r\)?
+
+**Answer.** No. Naturality at \(h\) forces \(\alpha [U](h)=P(h)(r)=u[m]\). Matching isolated values without respecting the transition maps is insufficient.
+
+### What this permits in the philosophical study
+
+Yoneda does not turn the Self into an empirical object. “Object” in category theory means an item in the specified mathematical structure; it need not mean an intentional object of consciousness. We could model contexts of self-ascription and their licensed transformations. Whether that representation captures a theory’s nonobjectifying self-disclosure is a separate adequacy question. Nor does \(1[x]\) represent consciousness merely because it is self-directed: every object has an identity arrow, including objects used to represent stones or numbers.
+
+The context construction below applies these profiles to partial descriptions and their restriction maps. It asks which information is sufficient to recover a larger account, and what is lost when that sufficiency is imposed too strongly.
+
+### From compatible perspectives to a topos
 
 We now have enough mathematics to ask the question that motivated this investigation: what kind of space could hold these philosophical perspectives? There are several answers, because there are several things we might mean by holding them together. We can organize different descriptions, select descriptions that agree, require partial descriptions to determine a whole, or compare complete logical theories. These are different constructions. We will calculate a small example all the way through before deciding which construction serves the philosophical project.
 
@@ -5649,7 +5981,7 @@ The next topics extend beyond Cheng's book. Adjunctions can be studied in Riehl;
 Imagine two detailed descriptions, \(a\) and \(m\), which share a smaller vocabulary \(k\). Draw the inclusions of vocabulary:
 
 \[
-\begin{array}{ccc}a&&m\\&\nwarrow\quad\nearrow&\\&k&\end{array}
+\begin{array}{ccccc}a&\longleftarrow&k&\longrightarrow&m\end{array}
 \]
 
 Call this category \(I\). Besides the two displayed arrows \(k\to a\) and \(k\to m\), it contains three identities. It has no arrow between \(a\) and \(m\). Its objects are contexts of description, not individual selves, mental states or historical schools. That choice is important: we are constructing a place for accounts of those things.
@@ -5740,7 +6072,7 @@ naturally in \(F\) and \(G\). On the left are maps from the completed object int
 
 In general, \(L\) is **left adjoint** to \(R\) when \(\operatorname{Hom}_{D}(Lx,y)\) is naturally in bijection with \(\operatorname{Hom}_{C}(x,Ry)\). Oppositely directed functors alone do not establish this condition. Nor does an adjunction usually say that the functors undo each other. Here sheafification genuinely loses an \(a\)-distinction, even though its relationship to inclusion is exceptionally well controlled. [Source](cite://emily-riehl/category-theory-in-context/category-riehl)
 
-There is a simpler order-theoretic example. A closure operation \(\operatorname{Cl}\) on subsets sends \(A\) to the least closed set containing it. If \(B\) is already closed, then \(\operatorname{Cl}(A)\subseteq B\) exactly when \(A\subseteq B\). Reading each inclusion as the unique arrow in a poset category gives the same adjunction pattern. This will explain the fullness construction below: completion need not identify the determinations from which it begins.
+There is a simpler order-theoretic example. A closure operation \(\operatorname{Cl}\) on subsets sends \(A\) to the least closed set containing it. If \(B\) is already closed, then \(\operatorname{Cl}(A)\subseteq B\) exactly when \(A\subseteq B\). Reading each inclusion as the unique arrow in a poset category gives the same adjunction pattern. This is the adjunction used in chapter 14’s fullness construction: completion need not identify the determinations from which it begins.
 
 ### First understand a topos in sets
 
@@ -5798,62 +6130,6 @@ The topos need not obey classical excluded middle internally. A sieve's **pseudo
 
 **Answer.** Because \(a_{0}\) restricts to 0, which is not in \(A(k)\). That proposed family is not a subpresheaf, and it cannot be classified by the construction just described. Contextual truth still has laws.
 
-### Can an abstraction have two canonical reconstructions?
-
-The papers associated with the earlier Hegel research suggest a useful mathematical question: after forgetting distinctions, can we recover something in a principled way? Lawvere's 1991 paper studies a functor with fully faithful adjoints on either side, together with further conditions when comparing levels. His 2007 work on cohesion uses a longer string of adjoints with additional preservation and separation requirements. We use their practice of specifying and testing operations; no Hegelian doctrine is a premise of this Vedānta study. [Lawvere 1991](https://lawverearchives.com/wp-content/uploads/2024/12/1991-some-thoughts-on-the-future-of-category-theory.pdf); [Lawvere 2007](https://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf).
-
-A small ordered example makes the question concrete. Regard the ordered sets
-
-\[
-C=\{0<1<2<3\},\qquad D=\{0<1\}
-\]
-
-as categories: one arrow goes from a smaller element to a larger one, including the identity at each element. Define a monotone map \(q:C\to D\) by grouping adjacent elements:
-
-\[
-q(0)=q(1)=0,\qquad q(2)=q(3)=1.
-\]
-
-Because \(q\) preserves order, it is a functor between these categories. A coarse answer of 0 leaves two possible original positions, 0 and 1. A coarse answer of 1 leaves positions 2 and 3. There is no inverse function recovering whichever original position was used.
-
-There are, however, two distinguished choices. Let \(L\) choose the least compatible position and \(R\) the greatest:
-
-\[
-\begin{aligned}
-L(0)&=0,&L(1)&=2,\\
-R(0)&=1,&R(1)&=3.
-\end{aligned}
-\]
-
-These choices have a property stronger than being convenient conventions. For every \(a\in D\) and \(x\in C\),
-
-\[
-\begin{aligned}
-L(a)\le x&\quad\Longleftrightarrow\quad a\le q(x),\\
-q(x)\le a&\quad\Longleftrightarrow\quad x\le R(a).
-\end{aligned}
-\]
-
-Check the first equivalence at \(a=1\). Its left side says \(2\le x\); its right side says \(1\le q(x)\). Each holds precisely for \(x=2,3\). At \(a=0\), both sides always hold. For the second equivalence, \(a=0\) makes both sides hold precisely for \(x=0,1\); at \(a=1\), both always hold. We have checked every case.
-
-In an ordered category, these are the adjunction conditions. The hom-set on either side is empty or a singleton, and the equivalences match exactly when an arrow exists. Hence
-
-\[
-L\dashv q\dashv R.
-\]
-
-Both reconstructions return the given coarse answer: \(qL=qR=\operatorname{id}_D\). At the finer level they bound the original position:
-
-\[
-Lq(x)\le x\le Rq(x).
-\]
-
-Thus an abstraction can lose information while admitting two systematically related reconstructions. The adjoints characterize those reconstructions through all relevant comparisons, rather than picking a representative without a criterion.
-
-Now change \(q\) to the constant map with value 0, retaining \(D=\{0<1\}\). Could a left adjoint still exist? Apply its required equivalence with \(a=1\) and \(x=L(1)\). The left side \(L(1)\le L(1)\) is true. The right side \(1\le q(L(1))=0\) is false. No such left adjoint exists. Adjointness is a demand a proposed abstraction can fail.
-
-The relevance to the philosophical work is methodological. If we claim that a school account is an abstraction of a richer account, we can specify what it forgets and ask which reconstructions are justified. We should not assume adjoints exist merely because “return,” “manifestation,” or “completion” sounds suitable. Nor do the two elements with the same \(q\)-value become equal or isomorphic in \(C\). They share a selected description. Nothing in this example identifies Brahman with a coarse block or ranks traditions by their resolution; those would be additional interpretations needing their own arguments.
-
 ### A classifying topos
 
 For a geometric theory \(T\), its **classifying topos** \(B_{T}\) has a universal \(T\)-model. Giving a \(T\)-model in another Grothendieck topos \(E\) corresponds, naturally, to giving a geometric morphism \(E\to B_{T}\): the inverse-image part takes the universal model to the specified model in \(E\). This is a universal property about models in varying environments, not just a large set containing all ordinary models.
@@ -5866,179 +6142,11 @@ The distinction matters for Navya-Nyāya. Some source assertions quantify over e
 
 What, then, is the space of this proposed integration? At present it includes several legitimate constructions: a category of specified theories and interpretations; categories of their models; shared fragments with restriction maps; and presheaf or sheaf categories built on a justified context category. None has yet been shown to be the unique complete mathematical image of the traditions' ultimate reality. Their present value is more concrete: each makes a different integration demand testable, and each exposes different ways in which a tempting synthesis can lose something essential.
 
-## Integration without ranking the traditions
+## 16. What the integrated proposal establishes and still owes
 
-### What a teaching is trying to change
+The constructions establish different kinds of result. We can now assess the philosophical proposal by distinguishing the source-backed consequences, the commitments of a new integrated account and the arguments still required.
 
-A tradition teaches someone, under particular conditions, toward a transformation. Its words can describe reality, correct a habitual misidentification, prescribe a practice, or help a pupil recognize what the practice makes accessible. A comparison should identify those acts before deciding that two formulations contradict each other. The proposed integration treats audience, practical purpose and the error being addressed as part of what must be preserved.
-
-Aurobindo gives this approach a striking precedent. In an early dialogue on the Īśā Upaniṣad, the pupil asks how Śaṅkara could be described as undeveloped. The teacher answers: “He was not an undeveloped mind, but he was dealing with undeveloped minds and had to speak their language.” The surrounding argument interprets Śaṅkara’s emphasis on knowledge as a response to reliance on ritual works for liberation. Aurobindo distinguishes that corrective purpose from an absolute prohibition on action after knowledge. [*The Ishavasyopanishad*, CWSA 17, pp. 113–116](https://www.motherandsriaurobindo.in/Sri-Aurobindo/books/isha-upanishad/).
-
-In the related *Karmayogin* commentary, he explicitly accords Śaṅkara, Rāmānuja and Madhva’s conceptions their own truth and usefulness. He relates the Upaniṣad’s different formulations to Brahman in itself, in the universe and in relation to the individual. This supplies a substantive proposal for relating perspectives: the relation under consideration changes what an adequate account must express. Both passages belong to unfinished early commentaries, dated approximately 1905 and 1905–1906 by the editors; they are distinct from the interpretation he published in 1914–1915. [CWSA 17, pp. 201–203 and editorial note pp. 594–595](https://www.motherandsriaurobindo.in/Sri-Aurobindo/books/isha-upanishad/).
-
-The reader can now ask a more exact question about a polemic. Is the author rejecting another account’s asserted conclusion, or a use of that conclusion which frustrates its purpose? “Action does not itself produce liberation” and “a liberated person can act” need not conflict: they concern different dependencies. An injunction to withdraw attention from changing objects can serve recognition of the subject. Its intended force must be established before translating it as a universal claim that manifestation has no reality or value.
-
-Śaṅkara’s own Gītā commentary makes the distinction concrete. At 3.20, Janaka’s action receives two conditional explanations: preparation for knowledge, or a knower’s continued action for the world. Before 3.25, Śaṅkara writes, *tasyāpi ātmanaḥ kartavyābhāve ’pi parānugraha eva kartavyaḥ*: “Even for him, although there is nothing to be done for himself, benefit to others alone is to be done.” At 3.26, the knower should not unsettle the action-attached learner. At 3.30, the specified ignorant seeker is instructed to act with *ahaṃ kartā īśvarāya bhṛtyavat karomi*: “I am an agent; I act for the Lord like a servant.” A contextual integration must explain what this practical orientation corrects, what it accommodates, and what later understanding preserves. The first excerpt resolves the final sandhi of *kartavya ity āha*. [Śaṅkara, Gītābhāṣya 3.20–30](https://advaitasharada.sringeri.net/read/bhagavadgita-bhashya/3/).
-
-This contextual reading also applies to Aurobindo. His criticisms of withdrawal and his call for transformed life can address different obstacles from a teaching directed toward disengagement from attachment. Their comparison must retain the conditions, reasons and intended transformation of each. It should also retain each author’s claims about what is ultimately real. A sentence explicitly asserting something of every liberated self cannot be restricted to one audience merely because the restriction makes integration easier. The source argument must support the restriction.
-
-A useful formal record therefore distinguishes the situation of teaching, its assertoric content, the response it requests, and the transformation it is intended to enable. A teacher can correct the pupil’s belief while continuing to refer to the same reality. What changes may be the pupil’s identification or access, the role of a practice, or the meaning of an expression as clarified by the instruction. Each possibility requires its own representation.
-
-The proposed nonhierarchical integration seeks a common account from which these situated teachings can be recovered with their force intact. Its comparison maps must preserve more than an endpoint called liberation: they must preserve who is being addressed, which error is corrected, what the practice requires, and what the teacher says remains true after realization. Aurobindo’s contextual reading strengthens this programme. Establishing its adequacy for the other traditions requires the same work on their own arguments.
-
-### A small test of contextual truth
-
-Consider one activity performed under two conditions. In this example, appropriation means taking the activity and its results as one’s private possession. Let \(A(s)\) mean that appropriation is present in situation \(s\), and let \(B(a,s)\) mean that undertaking activity \(a\) in that situation binds the agent. Stipulate the example’s law:
-
-\[
-B(a,s)\Longleftrightarrow A(s).
-\]
-
-Then “this activity binds the appropriating agent” and “this activity does not bind the agent free of appropriation” are both wholly true. They concern the same activity, with an explicitly different condition. If someone turns the first into “all activity always binds,” the second instruction corrects that overextension while preserving the first claim’s actual content. This is a worked possibility for the proposed integration; the equation must be tested against each source’s account of bondage.
-
-Teaching adds another structure. Let the objects of a category be specified instructional situations and its arrows be composable finite sequences of permitted elementary instructions. Assign each object its possible learner states and each elementary instruction its relation of possible outcomes. Assign a sequence the relational composite of its steps: an intermediate learner state connects successive steps. The empty sequence leaves the state unchanged. With those assignments, we obtain a functor into the category of sets and relations. Relations allow an instruction to succeed, fail, or be misunderstood. An arrow therefore records what the instruction can do; the assertion’s truth is checked separately.
-
-The example explains why a later corrective teaching need not replace the reality described earlier. The learner’s appropriation, understanding or capacity can change. To extend this construction to the traditions, we must recover the actual conditions and effects from their texts, including any assertion intended to hold in every context.
-
-The desired integration can now be stated more strongly than “all these accounts fit in a diagram.” Suppose \(T_{1}, T_{2}\) and \(T_{3}\) are selected source-grounded theories: each names an explicitly specified fragment, not an entire historical tradition. Seek a common theory \(U\) together with interpretations of these selected theories in \(U\). On models, these become reduction functors:
-
-\[
-\begin{array}{ccccc}&&\operatorname{Mod}(U)&&\\&\swarrow&\downarrow&\searrow&\\\operatorname{Mod}(T_1)&&\operatorname{Mod}(T_2)&&\operatorname{Mod}(T_3)\end{array}
-\]
-
-This diagram does not rank \(T_{1}\) above \(T_{2}\) or require \(T_{3}\) to be a historically later correction of both. The arrows ask how one structured model presents itself under different abstractions. Different target vocabularies may disclose different relations. The universal theory \(U\), if established, would be a shared explanatory proposal; its position in the picture does not make one historical school its privileged interpreter.
-
-There are several possible strengths of this claim. One \(U\)-model with the required reductions establishes a simultaneous realization of the selected theories. Proving every model of a selected \(T_{i}\) has a suitable expansion establishes a stronger coverage result. Showing how compatible families of local models recover a \(U\)-model, uniquely up to the relevant isomorphism, adds a descent or reconstruction result. Proving equivalences of suitable model categories, with their logical structure respected, is stronger again. These demands are not interchangeable.
-
-Nor must a successful abstraction be an equivalence. A description of a devotional disposition and a description of the occurrence of a cognition can omit different information about one life. Neither need recover the whole life by itself. The important question is whether the omitted distinctions remain available elsewhere in the common structure and whether each description's actual claims remain true under its interpretation.
-
-This is a constructive way to pursue the thesis of different emphases on one reality. It puts the burden on explicit interpretations, shared referents and preserved inferences. If two theories assert opposite conclusions using genuinely identical meanings and conditions, their unchanged union has no consistent model. A contextual solution must therefore demonstrate the difference of meanings or conditions from the texts; adding a school-name index solely to evade the conflict would not explain it.
-
-Vijñānabhikṣu is an important precedent for coordinating different disciplines, but his selected argument also corrects a lower teaching's claim to finality. That historical feature need not determine the architecture of the proposed new Vedānta. We can adopt his demand for substantive integration while testing a symmetric family of abstractions. The research must say when it follows his particular argument and when it proposes a different relation among the traditions. [Source](cite://vijnanabhiksu/vijnanamrta-bhasya/category-bhiksu-self)
-
-### A shared model with more than a common endpoint
-
-The strongest construction reached in the present study joins two substantial cognitive mechanisms. One interface, \(K_{A}\), retains the selected Śaṅkara account of changing mental presentation, invariant awareness, two directions of misattribution, ordinary truth, dream and doubt. Another, \(K_{R}\), retains the selected Trika account of receivers, admitted aspects, operative conditions, displayed content, intrinsic self-manifestation and recognition. The proposed theory \(U\) has both interfaces.
-
-The comparison has this shape at the level of models:
-
-\[
-\begin{array}{ccccc}\operatorname{Mod}(T_{\text{Śaṅkara}})&\longrightarrow&\operatorname{Mod}(K_A)&\longleftarrow&\operatorname{Mod}(U)\\&&&&\downarrow\\&&&&\operatorname{Mod}(K_R)\longleftarrow\operatorname{Mod}(T_{\text{Trika}})\end{array}
-\]
-
-An object of the corresponding compatible-model construction consists of three models and specified isomorphisms between their interface reductions. Using isomorphisms rather than literal equality allows harmless differences of names or carrier sets. This version is called a **pseudopullback**. An arrow between two such compatible triples consists of model maps that commute with the specified interface identifications. These conditions make compatibility stable under the chosen maps; a collection of similar-looking models would not suffice.
-
-Here is the core of the actual common witness. There are two local persons \(i\) and \(j\), one proposed constitutive self-reference \(u\), and eight conditions. For \(i\), \(q\) is temporary objectless quiet; \(v\) is a contentful condition of restricted awareness; \(r\) retains valid recognition; \(d\) retains that recognition in devotional expression. The remaining conditions distinguish initial binding identification, dream, doubt and ordinary veridical cognition. The mathematical names are condition labels, not stages that every historical author is claimed to enumerate.
-
-There is one dated episode for each person-condition pair except \((i,q)\). Thus there are fifteen episodes. Their owner and date functions are exactly the two coordinates. In this dated finite witness, \(\operatorname{Occurs}(e,s)\) means \(\operatorname{date}(e)=s\). Current first-person participation is given by:
-
-\[
-\begin{gathered}\operatorname{Access}(c,e,s)\Longleftrightarrow\operatorname{owner}(e)=c\land\operatorname{date}(e)=s,\\\operatorname{HasContent}(c,s)\Longleftrightarrow\exists e\;\operatorname{Access}(c,e,s),\\\forall s\;\operatorname{SelfShining}(u,s),\\\operatorname{Recognized}(i,r)\land\operatorname{Recognized}(i,d),\\\neg\operatorname{Recognized}(i,q)\land\neg\operatorname{Recognized}(i,v).\end{gathered}
-\]
-
-Here \(\operatorname{Recognized}\) names the shared core of valid recognition as oneself. On the Trika side, the interpretation represents that core through the richer full-recognition predicate. Its absence at \(v\) does not say that the restricted awareness of vijñānākala is blank or simply erroneous. The model distinguishes that awareness from the fuller disclosure of agency.
-
-These clauses make several philosophical decisions inspectable. Intrinsic self-manifestation persists without a local episode at \(q\). Quiet does not itself supply valid recognition. Restricted awareness \(v\) is not silently identified with quiet. Current participation in an episode remains local even though ultimate self-reference is common. Knowing about another person's episode can be represented by a further episode owned by the knower; it does not require transferring ownership of the original episode.
-
-The next module supplies a presentation mechanism. Every local person has a receiving configuration. A receiver admits certain aspects, and a display occurs when an admitted aspect also has an operative condition:
-
-\[
-\begin{gathered}\operatorname{Displayed}(h,z,s) \Longleftrightarrow  \operatorname{Admits}(h,z) \land  \operatorname{Operative}(h,z,s).\\\operatorname{Occurs}(e,s) \Longrightarrow \\\operatorname{Displayed}(\operatorname{receiver}(\operatorname{owner}(e)), \operatorname{contentRole}(e), s).\end{gathered}
-\]
-
-Complete intrinsic inclusion is distinguished from the restricted admission of a local receiver. The same presentation role can occur before and after correction while the attribution of independent existence is removed. Another layer retains distinct intentional objects and medium-dependent features, so a dream chariot is not made an externally present pot merely because both count as presentations. The common content-role abstraction is deliberately coarser than that object layer.
-
-One can now describe what each source comparison preserves. On the Advaita side, the map retains the medium/feature relation and both mistaken transfers: attributing changing mental activity intrinsically to awareness, and attributing awareness intrinsically to the instrument. It also retains distinct ordinary truth, dream and doubt judgments. On the Trika side, the map retains receiver-specific admission, operative display, local registration, intrinsic inclusion and the correction of independent-existence attribution. The Trika theory also has a same-owner memory pair and its integrating subject; that memory structure is additional to the common interface. [Source](cite://shankara/upadesa-sahasri/category-self-reflection) [Source](cite://abhinavagupta/tantraloka/category-trika-receiver) [Source](cite://utpaladeva/isvara-pratyabhijna-karika/category-trika-reflexivity)
-
-The decisive point is that both comparisons use the **same** fifteen-episode \(U\)-model. Two different enrichments, each compatible with only one source, would not establish simultaneous compatibility. In the checked construction the designated interface carriers and functions correspond, and every selected predicate has the same extension after reduction. The finite witness and the interpretation proofs were reviewed separately: the witness demonstrates possibility, while the proofs establish that the declared interface axioms survive the translations in every model of the relevant target theories.
-
-In particular, the comparison leaves the strongest opposition between intrinsic nonagency and intrinsic formative freedom outside the shared interface. The fullness-closure module below is connected by a separate, conditional refinement of this same model; that connection requires additional premises and does not follow from episode ownership alone. The positive achievement is a simultaneous model of the selected reflection and recognition mechanisms, with meaningful nonbinding devotion and restricted experience. That is a stronger beginning for nonhierarchical integration than one undifferentiated endpoint, while leaving the remaining philosophical tests explicit.
-
-
-### Fullness as a mathematical question
-
-Abhinavagupta does not begin by declaring that every thing contains every other thing. He asks what must be included in a complete account of a particular manifestation. Earth has a qualitative constitution; its account therefore leads through subtle qualities, sensory articulation and determination, intellect and the undivided root of nature. Nature as experienced requires a conscious experiencer. A contracted experiencer requires an account both of consciousness and of the power through which contraction occurs. That power cannot be exhausted by the contracted result if it is to explain the possibility of contraction and expansion. The inquiry consequently reaches free, complete consciousness. These are the premises of Abhinavagupta’s argument.
-
-This route is asymmetric. Being a śiṃśapā tree requires being a tree, while being a tree does not require being a śiṃśapā. Likewise, showing that a manifestation requires its constituents does not yet show that every constituent contains every manifestation. Abhinavagupta supplies a separate operation: complete apprehension of an earlier principle retains the completed field of the later one. His example moves from earth to water without abandoning the earth-field already apprehended, then continues through the articulation. The claim is stronger than remembering an arbitrary image: complete apprehension corresponds to a fullness intrinsically present in consciousness. These two arguments—constitutive prerequisite and retained fullness—must be represented separately before they can jointly support an all-in-all conclusion.
-
-[Source](cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness)
-
-
-The same discipline can make the fullness proposal more exact. Suppose three determinations are called \(a, b\) and \(c\). One source-supported relation says that a determination requires another for its constitution. A second says that complete apprehension retains a further determination. Draw these as different labelled arrows. The distinction matters: dependence on a prerequisite is not already a theorem that the prerequisite contains its dependent.
-
-For a small example, let the prerequisite arrows be \(c\to b\) and \(b\to a\), and the retention arrows be \(a\to b\) and \(b\to c\). Define \(\operatorname{Cl}(A)\) to be the set of determinations reachable from the starting set \(A\) by any finite sequence of these arrows, including an empty sequence. Then:
-
-\[
-\begin{gathered}A \subseteq  \operatorname{Cl}(A)\\A \subseteq  B \Longrightarrow  \operatorname{Cl}(A) \subseteq  \operatorname{Cl}(B)\\\operatorname{Cl}(\operatorname{Cl}(A)) = \operatorname{Cl}(A)\end{gathered}
-\]
-
-These are extensivity, monotonicity and idempotence. Together they define a closure operator. In this graph \(\operatorname{Cl}(\{a\}) = \operatorname{Cl}(\{b\}) = \operatorname{Cl}(\{c\}) = \{a,b,c\}\). The starting determinations remain distinct; their completed constitutive accounts coincide.
-
-To use this as an account of what each determination contains, one further rule is indispensable: if its complete content includes \(y\), it inherits the prerequisite and retention content of \(y\). Merely including adjacent items does not entail including everything reachable. For example, \(a\) could initially include only \(a\) and \(b\), while \(b\) includes all three. Without the inheritance rule, nothing forces \(a\) to include \(c\). The reviewed fullness argument explicitly supplies the stronger rule. Adjacent inclusions alone do not establish inclusion of the whole field.
-
-A free path category on the labelled arrows retains the different explanations. The path \(a\to b\to a\) is not the identity at \(a\) merely because it returns there. This is the same distinction encountered in the opening exercise about practice paths. Collapsing every reachable route into an unlabelled relation loses explanatory information.
-
-There is also an adjunction. Order subsets by inclusion, and let \(\mathbf{Closed}\) be the subsets unchanged by \(\operatorname{Cl}\). For a closed \(B\),
-
-\[
-\operatorname{Cl}(A) \subseteq  B  \Longleftrightarrow   A \subseteq  B.
-\]
-
-Thus closure is left adjoint to the inclusion of \(\mathbf{Closed}\) into all subsets. This is a general mathematical result for the specified closure operator. The philosophical work lies in defending the arrows and inheritance rule. Abhinavagupta's constitutive-inclusion argument supplies the relevant distinction between prerequisites and retention under complete apprehension. The simple three-item graph illustrates the mechanism; it is not a verified enumeration of all tattvas. [Source](cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness)
-
-Constitutive fullness also differs from a finite mind's current access. A determination can require the whole for a complete account without the person experiencing it knowing every fact. The latter conclusion would need an additional access rule. This is how the proposed integration can retain restricted experience without making its ultimate reality a fragment cut out of completeness.
-
-### Connecting fullness to a particular experience
-
-A fullness graph and a model of experience can each be consistent while saying nothing about one another. To connect them, we must specify which determination a presentation concerns and how that presentation belongs to an actual episode. We must also keep two questions separate: what a complete account of the presented determination includes, and what its finite experiencer presently apprehends.
-
-Abhinavagupta supplies a reason for the first connection. In the *Parātriṃśikāvivaraṇa*, an apprehension of earth counts as complete only if it discloses earth's entire constitution. The argument then follows its indispensable constituents and their own grounds. This conditional does not say that anyone who sees a patch of ground has already realized that complete account. The earth–water discussion supplies a small, source-based test: earth requires water in this elemental explanation; the complete apprehension of water retains the completed earth-field. These are the author’s two differently warranted premises. [Source](cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness)
-
-The receiver account prevents an invalid further step. Jayaratha argues that a reflected mountain does not make the mirror heavy. A reflection's support, its presented aspects and the means by which it is known have different roles. Full constitutive inclusion therefore cannot mean that every included property becomes locally instantiated in the receiving surface or mind. [Source](cite://abhinavagupta/tantraloka/category-trika-receiver)
-
-Keep the earlier fifteen-episode model unchanged. Add a separate determination type \(T\) containing \(W\) and \(\text{Earth}\). These are the selected water and earth principles; \(T\) is not a complete tattva taxonomy. Its two labelled arrows are:
-
-\[
-\operatorname{Need}(\text{Earth},W)\qquad\operatorname{Retain}(W,\text{Earth}).
-\]
-
-Write \(\operatorname{In}(t,x)\) when \(x\in\operatorname{Cl}(\{t\})\), using the reflexive path closure of the two labelled relations just specified. Self-inclusion and the two inheritance rules give each determination the full selected profile \(\{W,\text{Earth}\}\). The two elements remain distinct. The preceding closure lesson explains why these two differently warranted arrows are needed and why a larger graph also needs a checked account of its paths and coverage.
-
-Now add \(\operatorname{Head}(e,t)\): the proposed refinement assigns \(t\) as episode \(e\)'s locally explicit operative determination. This includes an actual local-articulation claim; it is not merely an analyst's note about a hidden constituent. It also does not mean that the episode completely apprehends \(t\). Write \(\operatorname{content}(e)=\operatorname{contentRole}(e)\) for the episode's existing coarse presentation role. Two incidence relations connect the new and old types:
-
-\[
-\begin{gathered}\operatorname{Head}(e,t) \Longrightarrow  \operatorname{RoleHead}(t,\operatorname{content}(e)).\\\operatorname{RoleHead}(t,f) \Longrightarrow  \operatorname{RoleContent}(f,t).\\\operatorname{RoleContent}(f,t) \land  \operatorname{In}(t,x) \Longrightarrow  \operatorname{RoleContent}(f,x).\end{gathered}
-\]
-
-Here \(\operatorname{RoleContent}\) records the complete constitutional account associated with a role's selected determination. It does not say that the role is a physical lump of that element. In particular, neither the persons nor their person-role forms have been renamed as tattvas. Multiple determinations can be associated with the same coarse presentation role.
-
-Define the episode's constitutive profile by both parts of the connection:
-
-\[
-\operatorname{Profile}(e,t)\Longleftrightarrow\exists x\;\bigl(\operatorname{Head}(e,x)\land\operatorname{In}(x,t)\land\operatorname{RoleContent}(\operatorname{content}(e),t)\bigr).
-\]
-
-The proof now crosses the two modules. Suppose an episode has head \(W\). Closure gives \(\operatorname{In}(W,\text{Earth})\). The first two incidence rules give \(\operatorname{RoleContent}(\operatorname{content}(e),W)\); the third gives \(\operatorname{RoleContent}(\operatorname{content}(e),\text{Earth})\). These facts yield \(\operatorname{Profile}(e,\text{Earth})\). The profile belongs to this episode's actual content role. Its intrinsic and reflexive inclusion use that role's existing relation to the intrinsic subject. When the episode occurs, the existing registration rules place the presentation in its actual owner's receiver. None of these steps changes its owner or transfers another person's experience to it.
-
-To see why the bridge matters, remove only the first incidence rule. Keep the old reflection model, the complete two-element inclusion relation and a selected head. We can now leave \(\operatorname{RoleHead}\) and \(\operatorname{RoleContent}\) empty, making \(\operatorname{Profile}\) empty too. Those remaining premises do not prove the joined profile. Merely putting the two models side by side would leave precisely this gap.
-
-A concrete expansion uses two different existing episodes. As an illustrative proposal, assign a water head to one otherwise unspecified episode and an earth head to the episode in which a pot is presented but its existence is doubted. This second assignment means an earth articulation within that presentation, not an equation of the intentional pot with the earth principle. Neither assignment is established by the old model or identified as a particular event in the source. They are explicit premises for testing whether this refinement can coexist with the already modeled experiences.
-
-In that expanded witness, each of the two episodes has both selected constituents in its complete profile. Yet local explicit articulation follows only its assigned head and current access:
-
-\[
-\operatorname{Explicit}(c,t,s)\Longleftrightarrow\exists e\;\bigl(\operatorname{Access}(c,e,s)\land\operatorname{Head}(e,t)\bigr).
-\]
-
-There are four episode–constituent profile pairs, but only two selected local-articulation triples. The water-headed episode can therefore have \(\text{Earth}\) in its complete profile without its owner explicitly apprehending \(\text{Earth}\) at that moment. The original episodes and display assignments remain unchanged. Temporary quiet gains no new episode; the dream chariot gains no external existence. Full constitution has not become finite omniscience or indiscriminate property transfer.
-
-Categorically, retain pairs \((\text{determination},\text{role})\) with \(\operatorname{RoleContent}\) incidence. An arrow within one role is a labelled prerequisite/retention path between its determinations. Closure ensures that intermediate determinations stay in that role's profile; identities and composition are empty paths and concatenation. Projection to the discrete category of roles forgets the distinction between its determinations, while projection to the path category retains their distinct heads and reasons for inclusion. In the witness, the shared presentation-role fibre—the objects with that role—has two objects and both labelled directions. A two-edge cycle is not an identity, so equal complete profiles do not make those objects isomorphic in this free path category.
-
-This is an **expansion** of the same model, not a replacement: forgetting the added data returns exactly the old model and its two reviewed school-interface comparisons. More generally, the construction provides an expansion of every set-based model of the old selected theory, using the two marked episodes and their actual content values. To see the general recipe, keep every old sort and assignment. Add the two-element determination set with its complete reflexive closure; give the two designated episodes their chosen heads; and assign both determinations to each of those episodes’ existing content-role values. Define Profile and Explicit by the displayed formulas. The selected old theory already supplies the two marked episodes: this is not an assumption about an arbitrary collection of experiences. The added data satisfy the incidence rules without changing any old data. An old-language assertion cannot become newly forced if every old countermodel survives this expansion. This is model-conservativity, a preservation result. It does not establish unique refinements, equivalence of the two theories, or validity of the proposed episode assignments as historical interpretations.
-
-The advance is consequently specific: fullness and reflection now admit a connected, nonempty common model with a proved constitutive-profile consequence. The connection is conditional on its declared refinement premises. It still requires source-justified assignments for a complete tattva account, a separate theory of actually attaining complete apprehension, and an argument about intrinsic nonagency versus formative freedom. The existing Śaṅkara interface does not silently acquire every new Trika premise merely because its original cognitive distinctions survive.
-
-## What the comparison supports
+### What the comparison supports
 
 The strongest part of the proposed integrated Vedānta is its demand to distinguish the reality disclosed from the conditions under which it is disclosed. The selected texts repeatedly make distinctions that a simple “one thing versus many things” inventory misses: a subject and a cognitive instrument; a capacity and its exercise; a mode and an independently existing thing; the occurrence of knowledge and what it corrects; nondivision and the recognition of selfhood; a complete divine manifestation and a receiver's partial apprehension. Those distinctions provide substantive material for integration.
 
@@ -6088,9 +6196,13 @@ My assessment is therefore favorable to the programme and conditional about its 
 
 Vijñānabhikṣu and Aurobindo supply precedents for substantive integration, but their particular accounts are not the conclusion in advance. The next construction should meet the standard already illustrated here: source words and argument, an explicit theory, a model and a counterexample to a tempting misreading, then a comparison map whose preservation claims can be checked. That gives the thesis a way to succeed or to change in response to what the traditions actually say.
 
-## The next constructions
+## 17. Sources, further constructions and mathematical reading
 
-Five constructions follow from the remaining questions.
+This final record supports further study. The chapter arguments supply the explanations; the index retains examined loci and the next construction for each author. Formal status below describes what this article makes available.
+
+### Further constructions
+
+Five connected tasks follow from the remaining questions.
 
 1. **Reference and individual selfhood.** Carry the derived Rāmānuja–Nimbārka naming rule into the proposed integrative theory, preserving its qualifying grounds and each account’s liberated individuality. The selected reference derivation is now established; a map into the larger common theory and mutual recovery of the schools’ explanatory vocabulary are further obligations.
 2. **Agency and participation.** Map Bhāskara's real conditioned action, Madhva's dependent agency, Baladeva's nonbinding action and Trika's intrinsic freedom with their different conditions intact. Use ownership, self-recognition and reserved divine governance as tests that can reject a misleading translation.
@@ -6100,15 +6212,15 @@ Five constructions follow from the remaining questions.
 
 Each construction needs a connected primary argument, a typed theory, an explicit translation or counterexample, and independent review of whether it preserves the source mechanism. The author-by-author reading record below distinguishes the examined arguments from constructions that remain to be established.
 
-## Further readings and constructions
+### Further readings and constructions
 
-The source chapters explain the arguments. This record retains the examined loci, the present construction and the next task for each author. It distinguishes selected results from works and arguments still awaiting reconstruction.
+The entries retain examined loci and author-specific next steps. Their formal status refers to the selected arguments and constructions displayed above.
 
 ### Śaṅkara and the Advaita arguments
 
 **Śaṅkara.** Upadeśasāhasrī I 18–19, II 1–2; BSB 1.1.4,2.1.14,2.2.28–29,2.3.7; ChU 6.3.2; BrU 1.4.10,5.1.1. [Śaṅkara, self and reflection](cite://shankara/upadesa-sahasri/category-self-reflection); [Śaṅkara, fullness commentary](cite://shankara/brhadaranyaka-bhashya/category-fullness-commentary).
 
-A complete selected self-correction theory, guarded common interfaces and a model combining selected cognitive mechanisms. **Next:** Derive a context-licensed tat/tvam reference rule from the selected semantic steps; separately add persistence of realization through embodied devotion.
+The article presents the selected correction and reflection arguments and a common model retaining specified cognitive mechanisms. **Next:** Derive a context-licensed tat/tvam reference rule from the selected semantic steps; separately add persistence of realization through embodied devotion.
 
 **Gauḍapāda, Māṇḍūkyakārikā author.** Āgamaśāstra 2.32;3.31–48. [Māṇḍūkyakārikā](cite://gaudapada/mandukya-karika/category-gaudapada).
 
@@ -6124,15 +6236,15 @@ No dedicated axiomatization. **Next:** Reconstruct the exact sufficient-conditio
 
 **Padmapāda.** Pañcapādikā first varṇaka, selected positive-power and shell/silver exchanges, electronic sections 76,79–80,99–100. [Pañcapādikā, first varṇaka](https://advaitasharada.sringeri.net/read/panchapadika/1/).
 
-Shared correction fragment plus positive-material-source extension. **Next:** Model presentation/support and explanatory dependence separately from temporal priority, then test Saccidānandendra criticism against that same relation.
+The selected concealment, presentation and nonphysical-source arguments constrain a correction model. **Next:** Model presentation/support and explanatory dependence separately from temporal priority, then test Saccidānandendra criticism against that same relation.
 
 **Vācaspati Miśra, Advaita.** Bhāmatī 1.4.3,1.4.22;4.1.1–3. [Bhāmatī](cite://vacaspati/bhamati/category-bhamati).
 
-Shared and opposed causal fragments. **Next:** Add typed bearer/locus/object relations and distributed ignorance; test preservation of correction and differentiated experience without literal division.
+The selected passages distinguish ignorance’s locus, object and causal dependence; a full formal comparison is not displayed. **Next:** Add typed bearer/locus/object relations and distributed ignorance; test preservation of correction and differentiated experience without literal division.
 
 **Prakāśātman.** Vivaraṇa printed 11–18,43–45. [Pañcapādikāvivaraṇa](cite://prakasatman/pancapadika-vivarana/category-vivarana).
 
-Positive-source fragment. **Next:** Construct a locus/object/reflection interpretation and compare it with Bhāmatī under an explicitly defined locus role.
+The selected source and locus arguments are now displayed. **Next:** Construct a locus/object/reflection interpretation and compare it with Bhāmatī under an explicitly defined locus role.
 
 **Madhusūdana Sarasvatī.** Siddhāntabindu first-stanza alternatives, stanzas 9–10; Advaitasiddhi ignorance sections and second mithyātva definition; Bhaktirasāyana first ullāsa plus 2.44–60,3.1–15. [Siddhāntabindu](cite://madhusudana/siddhanta-bindu/category-bindu); [Bhaktirasāyana](cite://madhusudana/bhakti-rasayana/category-madhusudana-bhakti).
 
@@ -6144,7 +6256,7 @@ Typed requirements only. **Next:** Model three coordinates with valid-knowledge 
 
 **Saccidānandendra Sarasvatī.** Mūlāvidyānirāsa III 111–141 and conclusion; Vedāntaprakriyāpratyabhijñā I, pp.277–282,536–546; selected Method/Misconceptions. [Vedāntaprakriyāpratyabhijñā](cite://saccidanandendra/vedantaprakriyapratyabhijna/category-saccidanandendra).
 
-Explicit finite common and incompatible causal expansions with syntactic comparison. **Next:** Extend learner assertion revision to cessation and embodied continuation while preserving the exact denied explanatory posit.
+The selected correction argument and its opposition to a positive material ignorance-source are stated; their full formal comparison remains to be displayed. **Next:** Extend learner assertion revision to cessation and embodied continuation while preserving the exact denied explanatory posit.
 
 **Śrīharṣa.** No connected own-work argument reconstructed in this research pass.
 
@@ -6156,7 +6268,7 @@ No author-specific theory. **Next:** Read one Siddhāntaleśasaṃgraha dispute 
 
 ### Other Vedānta constructions and their commentators
 
-**Rāmānuja.** Vedārthasaṃgraha 4–6,17–21,57–76,83–90,141–144; Gītābhāṣya 18.14–16. [Vedārthasaṃgraha](cite://ramanuja/vedartha-samgraha/category-ramanuja).
+**Rāmānuja.** Vedārthasaṃgraha 4–6,12,15,17–21,57–76,83–90,141–144; Gītābhāṣya 18.14–16. [Vedārthasaṃgraha](cite://ramanuja/vedartha-samgraha/category-ramanuja).
 
 A selected naming theory derives shared reference through intrinsic qualification; its partial reference relation gives a total arrow on the proved denoting domain. A common model and nonmonicity proof preserve distinct qualifying grounds. **Next:** Extend the proved naming rule to compositional predication and compare whether the complete body/mode explanation can be recovered from the natural-power account. Preserve completed denotation versus partial understanding.
 
@@ -6168,37 +6280,39 @@ A selected naming extension derives common reference through the governed-indwel
 
 The Nimbārka-specific extension retains explanatory vocabulary omitted by the shared theory. **Next:** Separate attributed Auḍulomi stages from authorial natural-relation account in a temporal theory; no invented transition abolishing distinction.
 
-**Bhāskara.** Brahmasūtrabhāṣya 2.3.33–46;4.4.1–22,printed 139–141,243–249. [Brahmasūtrabhāṣya](cite://bhaskara/brahma-sutra-bhasya/category-bhaskara).
+**Bhāskara.** Brahmasūtrabhāṣya 2.1.13–14,2.3.33–46,4.4.1–22, printed 92–93,139–141,242–249. [Brahmasūtrabhāṣya](cite://bhaskara/brahma-sutra-bhasya/category-bhaskara).
 
-A complete selected theory, finite model, disclosure interpretation and separately defined practice category. **Next:** Add embodied/final stage distinction with exact source warrants for remaining action; keep sovereignty and effort-mediated action differently typed.
+The selected causal, agency and liberation arguments supply constraints for a formal comparison. **Next:** Add embodied/final stage distinction with exact source warrants for remaining action; keep sovereignty and effort-mediated action differently typed.
 
-**Vallabha.** Sarvanirṇaya 84–92,98–106 with upper Prakāśa; Siddhāntamuktāvalī 1–2,13–19. [Tattvārthadīpanibandha](cite://vallabha/tattvartha-dipa-nibandha/category-vallabha); [Siddhāntamuktāvalī](cite://vallabha/siddhanta-muktavali/category-vallabha-service).
+**Vallabha.** Aṇubhāṣya 2.1.13–14,19–20,22, printed 124–126; Sarvanirṇaya 84–92,98–106 with upper Prakāśa; Siddhāntamuktāvalī 1–2,13–19. [Tattvārthadīpanibandha](cite://vallabha/tattvartha-dipa-nibandha/category-vallabha); [Siddhāntamuktāvalī](cite://vallabha/siddhanta-muktavali/category-vallabha-service).
 
-A selected theory with a model and interpretation; its disclosure and reception extensions are explicitly distinguished. **Next:** Build a source-bound appropriation correction rule and route/history map; do not confuse disclosed Kṛṣṇa nature with every other map's individual nature.
+The article distinguishes the selected manifestation, disclosure and reception arguments. **Next:** Build a source-bound appropriation correction rule and route/history map; do not confuse disclosed Kṛṣṇa nature with every other map's individual nature.
 
-**Madhva.** Tattvaviveka; selected Gītābhāṣya; Anuvyākhyāna 2.3,3.2,4.1,4.4; Viṣṇutattvavinirṇaya. [Tattvaviveka](cite://madhva/tattvaviveka/category-madhva-dependence); [Madhva with Jayatīrtha, self-recognition](cite://madhva/anuvyakhyana/category-madhva-self).
+**Madhva.** Tattvaviveka; Gītābhāṣya 10.41 and other selected passages; Anuvyākhyāna 1.4,2.3,3.2,4.1,4.4; Viṣṇutattvavinirṇaya. [Tattvaviveka](cite://madhva/tattvaviveka/category-madhva-dependence); [Madhva with Jayatīrtha, self-recognition](cite://madhva/anuvyakhyana/category-madhva-self).
 
-A complete selected theory with a three-subject model and a disclosure interpretation restricted to the appropriate conditions. **Next:** Add a source-warranted viśeṣa structure carrying literal divine predications without separable parts; preserve actual own-self recognition.
+The selected dependence, individuality and disclosure arguments specify conditions a model must retain. **Next:** Add a source-warranted viśeṣa structure carrying literal divine predications without separable parts; preserve actual own-self recognition.
 
-**Jayatīrtha.** Nyāyasudhā on Anuvyākhyāna 2.3.49–94,3.2.122–191,4.1.34–45 and selected liberation arguments; Prameyadīpikā 18.18. [Madhva with Jayatīrtha, self-recognition](cite://madhva/anuvyakhyana/category-madhva-self).
+**Jayatīrtha.** Nyāyasudhā on Anuvyākhyāna 1.4 (NS 4,625–656),2.3.49–94,3.2.122–191 (own-form, beauty and cognition),4.1.34–45 and selected liberation arguments; Prameyadīpikā 10.41,18.18. [Madhva with Jayatīrtha, self-recognition](cite://madhva/anuvyakhyana/category-madhva-self).
 
-Selected arguments constrain the Madhva model. **Next:** Formalize the first-person recognition objection to a proposed common-subject model rather than replacing it with \(j\ne B\).
+The selected arguments constrain a model of dependence, individuality and recognition. **Next:** Formalize the first-person recognition objection to a proposed common-subject model rather than replacing it with \(j\ne B\).
 
 **Vyāsatīrtha.** Tarkatāṇḍava first pariccheda 5–15,104–110,270–275 with later Nyāyadīpa separated.
 
-Reference constraints inform the Madhva model; no full linguistic model. Nyāyāmṛta identity controversy not read. **Next:** Specify utterer, represented speaker, contextual referent and primary theological naming, then test the universal all-I-to-God inference.
+The reference arguments supply constraints for comparison; a full linguistic model is not displayed. Nyāyāmṛta identity controversy not read. **Next:** Specify utterer, represented speaker, contextual referent and primary theological naming, then test the universal all-I-to-God inference.
 
-**Jīva Gosvāmin.** Paramātmasandarbha 27,29,37; Bhaktisandarbha 1; Prītisandarbha 1,5,65–66,69. [Ṣaṭsandarbha](cite://jiva/sat-sandarbha/category-jiva-love).
+**Bhāgavata narrative.** Bhāgavata 10.8.35–45 supplies the narrative interpreted in Jīva’s discussion; its verses remain distinct from his commentary.
 
-A selected Gauḍīya theory with separately attributed Jīva and Baladeva predicates. **Next:** Explain higher-self/individual-nature relation and the operation-to-love transition without an unqualified identity substitution.
+**Jīva Gosvāmin.** Bhagavatsandarbha, old GRETIL 35–37/current GGM 115 §§34–36; Paramātmasandarbha 27,29,37; Bhaktisandarbha 1; Prītisandarbha 1,5,65–66,69. [Ṣaṭsandarbha](cite://jiva/sat-sandarbha/category-jiva-love).
 
-**Baladeva Vidyābhūṣaṇa.** Govindabhāṣya 2.3.31–43;4.4.1–9,17–18. [Govindabhāṣya](cite://baladeva/govinda-bhasya/category-baladeva-agency).
+The selected arguments distinguish Jīva’s account of pervasion and love from Baladeva’s causal and agency explanations. **Next:** Explain higher-self/individual-nature relation and the operation-to-love transition without an unqualified identity substitution.
 
-The Gauḍīya theory includes a countermodel to unrestricted merger; Sūkṣmaṭīkā is acquired but unread. **Next:** Carry source/lord versus participant causal contributions into the successor and preserve the exact governance exception.
+**Baladeva Vidyābhūṣaṇa.** Govindabhāṣya 1.4.23–26;2.1.14–19;2.3.31–47;4.4.1–9,17–18. [Govindabhāṣya](cite://baladeva/govinda-bhasya/category-baladeva-agency).
 
-**Vijñānabhikṣu.** Vijñānāmṛtabhāṣya 2.3.33–46,4.1.3,4.2.16,4.4.4; Yogavārttika 1.2–4,4.18–24; Sāṅkhyapravacanabhāṣya introduction. [Vijñānāmṛtabhāṣya](cite://vijnanabhiksu/vijnanamrta-bhasya/category-bhiksu-self); [Yogavārttika](cite://vijnanabhiksu/yoga-varttika/category-yoga-reflection).
+The governance exception and differentiated powers constrain any proposed identification of individual and Lord; a complete Gauḍīya model is not displayed. Sūkṣmaṭīkā is acquired but unread. **Next:** Carry source/lord versus participant causal contributions into the successor and preserve the exact governance exception.
 
-A complete selected theory with an actual interpretation, countermodels and a separate category of revisions. **Next:** Join ordinary reflexive report and Yoga cognition mechanisms to domain-indexed SelfRole; add nonstationary fulfilled continuation if claimed.
+**Vijñānabhikṣu.** Vijñānāmṛtabhāṣya 2.3.33–46,4.1.3,4.2.16,4.4.4; Yogavārttika 1.2–4,4.18–24; Sāṅkhyapravacanabhāṣya introduction, printed p. 2. [Vijñānāmṛtabhāṣya](cite://vijnanabhiksu/vijnanamrta-bhasya/category-bhiksu-self); [Yogavārttika](cite://vijnanabhiksu/yoga-varttika/category-yoga-reflection).
+
+The selected selfhood and finality arguments are presented alongside the Sāṅkhya–Yoga comparison; a complete formal interpretation is not displayed here. **Next:** Join ordinary reflexive report and Yoga cognition mechanisms to domain-indexed SelfRole; add nonstationary fulfilled continuation if claimed.
 
 ### Trika and independently examined Śākta witnesses
 
@@ -6252,7 +6366,7 @@ One bearer/power/exercise proposal plus devotional trajectory. **Next:** Formali
 
 Compatibility constraints. **Next:** Represent continued nonbinding worship after fulfilled purpose with explicit changed motivation; preserve ethical conduct claim as a normative constraint.
 
-**Sri Aurobindo.** Life Divine I 10,13;II 2–3 and later selected integration arguments; Īśā commentary, selected passages only. [The Life Divine](cite://aurobindo/life-divine/category-aurobindo).
+**Sri Aurobindo.** Life Divine I 10,13;II 2–3 and later selected integration arguments; early Īśā commentaries, CWSA 17, pp. 113–116,201–203; The Synthesis of Yoga, Introduction V, pp. 44–46 and II.11, pp. 376–381; Essays on the Gita, First Series VIII, pp. 74–80. [The Life Divine](cite://aurobindo/life-divine/category-aurobindo).
 
 Constructive integration constraints. **Next:** Map authentic restricted realization into fuller manifestation while retaining achieved freedom; separate this from additional evolution/Supermind premises.
 
@@ -6264,17 +6378,29 @@ Alternative dependence/coinstantiation readings. **Next:** Define the disputed d
 
 **Īśvarakṛṣṇa, Māṭhara, Yuktidīpikā, Patañjali/Vyāsa, Vācaspati in Yoga.** SK 17–21,61–68 with distinct commentators; Yoga 1.1–13,1.50–51,4.14–34 and selected Tattvavaiśāradī. [Māṭhara on kārikā 64](cite://mathara/mathara-vrtti/category-mathara-negations).
 
-Complete selected source fragment and maps; generic report warrant/dynamics still incomplete. **Next:** Join cognitive accuracy/production to report occurrence before mapping cessation as full liberation; do not identify two Gauḍapāda attributions.
+The selected arguments and a model of permitted change are displayed; a full account of report warrant and cognitive dynamics remains to be constructed. **Next:** Join cognitive accuracy/production to report occurrence before mapping cessation as full liberation; do not identify two Gauḍapāda attributions.
 
 **Praśastapāda, Śrīdhara, Annambhaṭṭa.** Nyāyakandalī self/individuation/liberation; Tarkasaṃgraha/Dīpikā absence; matched Madhusūdana definition. [Śrīdhara on self and release](cite://sridhara/nyaya-kandali/category-nyaya-self).
 
-A selected coherent Nyāyakandalī theory with distinct current and historical disclosure maps; a checked context interface. **Next:** Keep final historical realization apart from current cognition; extend context interface only after full mithyātva/substratum claims are reconstructed.
+The selected Nyāyakandalī arguments distinguish current cognition, enduring subject and release; the complete theory and disclosure maps are not displayed here. **Next:** Keep final historical realization apart from current cognition; extend context interface only after full mithyātva/substratum claims are reconstructed.
 
 **Kumārila, Śālikanātha, Jain authors, Nāgārjuna/Candrakīrti.** Selected persistent-recognizer/own-subject arguments; Nyāyāvatāravivṛti and Sarvārthasiddhi; MMK 18,24 and Prasannapadā. [Kumārila](cite://kumarila/sloka-varttika/category-mimamsa-kumarila); [Śālikanātha](cite://salikanatha/prakarana-pancika/category-mimamsa-salikanatha); [Pūjyapāda](cite://pujyapada/sarvartha-siddhi/category-jaina); [Candrakīrti on Nāgārjuna](cite://candrakirti/prasannapada/category-madhyamaka).
 
 Selected fragments and interfaces. **Next:** Preserve practice/correction content while testing whether shared Self interpretation is available; formalize warrant and agency mechanisms currently stated as conclusions.
 
-## A route through the mathematics
+### Source-language distinctions: knowing, seeing and hearing
+
+A comparison of teachings begins by distinguishing the words through which they describe understanding. Knowing, seeing and hearing can enter a connected account without becoming interchangeable. Three entries in the Pāṇinian Dhātupāṭha make the limited lexical distinction visible. The instructional spellings include grammatical markers; the simple root labels identify the roots being compared. The locative meaning fields state the activity associated with each selected entry. [Dhātupāṭha, pinned textual witness](https://github.com/ashtadhyayi-com/data/blob/24109f7bdbf4d3e7e31c72cbbc1494c65e6a3409/dhatu/data.txt).
+
+| Entry | Romanized instructional wording | Literal English |
+|---|---|---|
+| 02.0059 | vidã jñāne | vid: in knowing |
+| 01.1143 | dṛśĩr prekṣaṇe | dṛś: in seeing |
+| 01.1092 | śru śravaṇe | śru: in hearing |
+
+These entries support distinct semantic assignments. They do not supply complete derivations of the nouns *Veda*, *darśana* or *śruti*, or establish that a root has only one sense throughout Sanskrit. In particular, the importance of vision in a teaching does not justify the literal equation “Veda means seen.” Nor does hearing an instruction, seeing what it concerns and knowing its meaning automatically name three identical events. Their relation must be learned from the particular passage and its explanation.
+
+### A route through the mathematics
 
 Eugenia Cheng's [The Joy of Abstraction](https://eugeniacheng.com/math/books/) is a suitable companion. Begin with Chapters 1–8 for abstraction, relations and the definition of a category. Chapters 9–14 develop examples and isomorphism. Chapters 16–19 teach universal constructions, including the products and pullbacks used here. Chapters 20–22 develop functors, natural transformations and equivalence. Chapter 23 develops the representable profiles and Yoneda argument worked through here. Use the [author's errata](https://eugeniacheng.com/joy-of-abstraction-errata/) alongside the book. [Source](cite://eugenia-cheng/joy-of-abstraction/category-cheng)
 

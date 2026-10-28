@@ -10956,6 +10956,111 @@
       "source_language": "Sanskrit",
       "source_locus": "Devīgītā 7.29–31a",
       "public_evidence_fragment": "sakti-context-27"
+    },
+    {
+      "id": "reader-source-reader-pra-locus",
+      "title_iast": "Prakāśātman — Pañcapādikāvivaraṇa, Printed 45 / PDF image 63, qualified-locus objection and reply",
+      "source_level": "primary",
+      "source_path": "data/articles/passages/vedanta-category-sources.json",
+      "witness": "Selected excerpt checked against the named public edition; exact locus and source URL retained with the passage.",
+      "rights_status": "selected-source-excerpt-with-attribution",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://prakasatman/pancapadika-vivarana/reader-consciousness-locus"
+      ],
+      "review_areas": [
+        "integrative-vedanta",
+        "source-quotation"
+      ],
+      "notes": "Passage and argument reviewed for this bounded reader revision.",
+      "source_url": "https://archive.org/details/in.ernet.dli.2015.496088/page/n62/mode/1up",
+      "source_language": "Sanskrit",
+      "source_locus": "Printed 45 / PDF image 63, qualified-locus objection and reply",
+      "public_evidence_fragment": "READER-PRA-LOCUS"
+    },
+    {
+      "id": "reader-source-reader-bhiksu-purpose",
+      "title_iast": "Vijñānabhikṣu — Sāṅkhyapravacanabhāṣya, Introduction, printed 2 / PDF image 24, two selected clauses",
+      "source_level": "primary",
+      "source_path": "data/articles/passages/vedanta-category-sources.json",
+      "witness": "Selected excerpt checked against the named public edition; exact locus and source URL retained with the passage.",
+      "rights_status": "selected-source-excerpt-with-attribution",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://vijnanabhiksu/sankhya-pravacana-bhasya/reader-purpose-introduction"
+      ],
+      "review_areas": [
+        "integrative-vedanta",
+        "source-quotation"
+      ],
+      "notes": "Passage and argument reviewed for this bounded reader revision.",
+      "source_url": "https://archive.org/details/AJdS_samkhya-darshan-with-pravachan-bhashya-of-gyan-bhikshu-no.-67-kashi-sanskrit-series",
+      "source_language": "Sanskrit",
+      "source_locus": "Introduction, printed 2 / PDF image 24, two selected clauses",
+      "public_evidence_fragment": "READER-BHIKSU-PURPOSE"
+    },
+    {
+      "id": "reader-source-reader-auro-aim",
+      "title_iast": "Sri Aurobindo — The Synthesis of Yoga, CWSA 23–24, Introduction V, pp. 44–46; excerpt p. 45",
+      "source_level": "primary",
+      "source_path": "data/articles/passages/vedanta-category-sources.json",
+      "witness": "Selected excerpt checked against the named public edition; exact locus and source URL retained with the passage.",
+      "rights_status": "selected-source-excerpt-with-attribution",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://aurobindo/synthesis-of-yoga/reader-synthesis-aim"
+      ],
+      "review_areas": [
+        "integrative-vedanta",
+        "source-quotation"
+      ],
+      "notes": "Passage and argument reviewed for this bounded reader revision.",
+      "source_url": "https://www.sriaurobindoashram.org/sriaurobindo/downloadpdf.php?id=37",
+      "source_language": "English",
+      "source_locus": "CWSA 23–24, Introduction V, pp. 44–46; excerpt p. 45",
+      "public_evidence_fragment": "READER-AURO-AIM"
+    },
+    {
+      "id": "reader-source-reader-auro-individual",
+      "title_iast": "Sri Aurobindo — The Synthesis of Yoga, CWSA 23–24, Part II, chapter XI, pp. 376–381",
+      "source_level": "primary",
+      "source_path": "data/articles/passages/vedanta-category-sources.json",
+      "witness": "Selected excerpt checked against the named public edition; exact locus and source URL retained with the passage.",
+      "rights_status": "selected-source-excerpt-with-attribution",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://aurobindo/synthesis-of-yoga/reader-individuality"
+      ],
+      "review_areas": [
+        "integrative-vedanta",
+        "source-quotation"
+      ],
+      "notes": "Passage and argument reviewed for this bounded reader revision.",
+      "source_url": "https://www.sriaurobindoashram.org/sriaurobindo/downloadpdf.php?id=37",
+      "source_language": "English",
+      "source_locus": "CWSA 23–24, Part II, chapter XI, pp. 376–381",
+      "public_evidence_fragment": "READER-AURO-INDIVIDUAL"
+    },
+    {
+      "id": "reader-source-reader-auro-plurality",
+      "title_iast": "Sri Aurobindo — Essays on the Gita, CWSA 19, First Series VIII, pp. 74–80; excerpt p. 74",
+      "source_level": "primary",
+      "source_path": "data/articles/passages/vedanta-category-sources.json",
+      "witness": "Selected excerpt checked against the named public edition; exact locus and source URL retained with the passage.",
+      "rights_status": "selected-source-excerpt-with-attribution",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://aurobindo/essays-on-the-gita/reader-plurality"
+      ],
+      "review_areas": [
+        "integrative-vedanta",
+        "source-quotation"
+      ],
+      "notes": "Passage and argument reviewed for this bounded reader revision.",
+      "source_url": "https://www.sriaurobindoashram.org/sriaurobindo/downloadpdf.php?id=34",
+      "source_language": "English",
+      "source_locus": "CWSA 19, First Series VIII, pp. 74–80; excerpt p. 74",
+      "public_evidence_fragment": "READER-AURO-PLURALITY"
     }
   ]
 }
