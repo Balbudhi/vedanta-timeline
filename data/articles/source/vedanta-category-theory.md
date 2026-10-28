@@ -89,6 +89,10 @@ Thus, from practice of the principles, remainderless, pure through non-error, un
 
 Māṭhara makes the scope of Sāṅkhya Kārikā64’s three elliptical negations explicit: they reject identification with the principles, ownership of them, and belonging to them. These are three differently directed relations. They do not announce the annihilation of the conscious subject. The same work says that puruṣa is not intrinsically bound while preserving a meaningful account of realization and the bodily apparatus continuing after knowledge until its final cessation. This is close to the proposed distinction between conditioned life and unconditioned selfhood. Its separate argument for many puruṣas must nevertheless be retained and examined. [Source](cite://mathara/mathara-vrtti/category-mathara-negations)
 
+Taking realization seriously does not make testimony and reasoning dispensable. For Śaṅkara, instruction corrects self-misidentification without presenting the Self as a newly encountered external object; immediacy of self-knowledge is therefore distinguished from ordinary sensory perception of an object. Maṇḍana and Sureśvara investigate how instruction, contemplation and immediate knowledge are related; their disagreement cannot be reduced to experience versus words. Reasoning tests what a teaching licenses, while disciplined practice can address obstacles to its realization. Nor is every resulting state evidence of the same attainment: Yoga's distinction between the seer and mental modifications, and Gauḍapāda's distinction between sleep and knowledge, prevent temporary quiet from certifying a metaphysics. These are author-specific relations among teaching, argument and realization, not one evidential rule for every darśana. [Source](cite://shankara/upadesa-sahasri/category-self-reflection) [Source](cite://mandana/brahma-siddhi/category-mandana) [Source](cite://suresvara/brhadaranyaka-bhashya-varttika/category-suresvara) [Source](cite://gaudapada/mandukya-karika/category-gaudapada) [Source](cite://patanjali/yoga-sutra/1.3)
+
+A lexical distinction also matters: the inspected Dhātupāṭha assigns *vid* to knowing, *dṛś* to seeing and *śru* to hearing. It does not warrant the literal equation “Veda means seen.” Seeing/hearing vocabulary alone cannot establish a common ontology or identical realization across schools. This is a limited lexical distinction, not a full derivation of the nouns. [Source](cite://panini/dhatupatha/category-knowing-seeing-hearing)
+
 A mathematical starting point is to distinguish current contents from retained misidentifications. Removing the first need not remove the second. A realization path therefore needs both a description of experience and a warrant for correction. Nyāya adds contemplation, inquiry and discussion to its own path; it cannot fairly be excluded as merely abstract logic. What remains distinctive is its account of cognition, the self's qualities and final liberation. [Source](cite://sridhara/nyaya-kandali/category-nyaya-self)
 
 ## Devotion as fulfilled expression
@@ -846,7 +850,7 @@ Rāmānuja's *Vedārthasaṃgraha*65–76 explains how the individual can be a r
 
 Nimbārka and Śrīnivāsa also use the body/indweller passage. *Kaustubha*1.4.22 explains why a word for the individual self can denote the indwelling supreme. Their account is not exhausted by contrasting “power” with Rāmānuja's “body.” At1.4.21 Śrīnivāsa retains nonseparation already in bondage and distinction even in release; at2.3.42 the part is a natural power, not a severed fragment. At2.3.45 finite defects do not transfer indiscriminately to the supreme. [Nimbārka–Śrīnivāsa,1932 Sanskrit edition, printed139–141,235–237](https://archive.org/details/xiba-brahma-sutra-vedanta-parijata-saurabha-vedanta-kau).
 
-The current shared theory preserves dependence, real agency, reference and nontransfer. A finite example has distinct individual and supreme bearers, differently associated expressions, and the same ultimate reference. This directly refutes the inference from co-reference to individual collapse. However, the reference result is presently a selected axiom. The next meaningful construction derives it from a context-licensed body/indweller naming rule in each theory, then tests whether their additional explanations are mutually recoverable.
+The shared theory preserves dependence, real agency, reference and nontransfer. Its naming extension now derives the selected common-reference result from separately warranted semantic rules and body/indweller premises. The worked construction below retains each expression’s qualifying ground and proves why shared reference does not identify those grounds. Mutual recovery of the schools’ additional explanations remains a further question.
 
 [Source](cite://ramanuja/vedartha-samgraha/category-ramanuja) [Source](cite://nimbarka/vedanta-parijata-saurabha/category-nimbarka)
 
@@ -855,15 +859,6 @@ The current shared theory preserves dependence, real agency, reference and nontr
 Rāmānuja's argument has three steps. The individual is supported, governed and possessed for the indweller, so it is the indweller's body in the relevant sense. It is nevertheless a real knowing subject. A word for such an inseparable substantive mode can designate the bearer qualified by it; this is how two expressions can reach one final referent while contributing different qualifications. Shared reference therefore need not transfer every property. The individual can suffer while the divine bearer does not suffer in that respect.
 
 This is a response to a problem, not an arbitrary exemption. If individual and Lord were simply one suffering subject under two descriptions, pleasure in one hand would not prevent pain in the other from being that person's pain. Renaming the suffering element a “power” would not yet help. But when the opponent grants an intrinsically differentiated individual part, Rāmānuja says that the opponent has come to his own path. The promising comparison is therefore between two explained forms of intrinsic relation, rather than between the isolated words “body” and “power.”
-
-```
-Expressions: e_j, e_B          Bearers: j, B
-local(e_j)=j                   local(e_B)=B
-denote(e_j)=B                  denote(e_B)=B
-Suffers(j,bound)               not Suffers(B,bound)
-```
-
-This two-bearer example is consistent: equal denotations do not identify the expressions' local subjects. The invalid translation substitutes B for j in every predicate merely because the two expressions finally refer to B. The general naming rule still needs formal conditions specifying which expressions and contexts license this extension of reference. The Sanskrit reasoning for those conditions is already present; the current finite theory has so far encoded only the selected conclusion.
 
 [Source](cite://ramanuja/vedartha-samgraha/category-ramanuja)
 
@@ -874,6 +869,68 @@ This two-bearer example is consistent: equal denotations do not identify the exp
 Their causal argument has the same care. Brahman in the causal condition possesses subtle powers; in the effect condition those powers are manifested. Effects can differ in their functions without becoming an independent material beside their source. A translation into Rāmānuja's account must therefore preserve both causal continuity and role-specific transformation. Finding the same final referent alone does not show that power transformation and body/mode transformation explain everything in the same way.
 
 [Source](cite://nimbarka/vedanta-parijata-saurabha/category-nimbarka)
+
+### A word's application and its complete reference
+
+Rāmānuja's account is broader than a rule for exceptional passages. In *Vedārthasaṃgraha*17–21 he argues that ordinary words approach what they denote through particular configured things, while their full reference extends through the individual self to the indwelling supreme. Ordinary understanding stops at a part of what is denoted. Hearing Vedānta completes that understanding; it does not cancel the cow, person or other mode first understood. The expressions still have different grounds of application. [Source](cite://ramanuja/vedartha-samgraha/category-ramanuja)
+
+This changes what a mathematical model should represent. If we write `local(e)=j`, “local” records the individual mode through which this expression applies. It does not assert that the expression's entire actual denotation is j. And if `Ref(e,c,B)` records its ultimate bearer in a context c, this projection does not preserve the whole meaning by itself: we must retain how the expression reaches that bearer. Two expressions can reach B through different modes without becoming synonymous.
+
+Rāmānuja gives a useful test. A staff can qualify a person who possesses it, but the word “staff” does not thereby designate that person in the same way as an intrinsic bodily qualification. The possessive construction does work that the unmodified noun does not. His criterion is not simply that two things are connected, nor that a qualifier must be a quality rather than a substance. It is whether the qualification is intrinsically inseparable in the relevant relation. The word “staff” can nevertheless ultimately refer to Brahman through its own place in the divine body. Failure to name the human possessor does not imply failure of Rāmānuja's wider ultimate-reference claim.
+
+Nimbārka and Śrīnivāsa also bring a broad reference claim into their discussion. Śrīnivāsa invokes the supreme’s being denotable by all words on the basis of universal causality and related grounds. The comparison is therefore not a universal theory opposed to one isolated exception. Their discussion of the Maitreyī passage must explain apparently individual-self language together with the promise of knowing all through one and the teaching of liberating contemplation. The indwelling-controller argument gives a reason to interpret that individual-self expression as reaching the supreme. Śrīnivāsa also preserves the difference between this route, the reported causal route and the reported future-liberation route. His own qualification retains nonseparation in bondage and distinction in release. We have grounds for a shared selected inference and a broader denotational premise on both sides. Rāmānuja additionally provides the detailed account of ordinary partial understanding and its completion. We have not established that these entire semantic explanations are mutually recoverable. [Source](cite://nimbarka/vedanta-parijata-saurabha/category-nimbarka)
+
+### Deriving the reference rather than assuming it
+
+Here is a selected reconstruction. Let E be interpreted nominal expressions, X the represented beings, and C resolved interpretive contexts. These are types in the model, not a declaration that Brahman and an individual are independent substances. Write `g:E → X` for the expression's local application ground. Use a relation `Ref(e,c,x)` for its established ultimate bearer. In a resolved use, require at most one such bearer:
+
+```
+Ref(e,c,x) and Ref(e,c,y) imply x=y.
+```
+
+This condition gives uniqueness, not existence. We have not assumed that the model has already supplied a completed interpretation for every expression in every context. In particular, an omitted Ref tuple in this selected representation is not a historical assertion that the corresponding word fails to denote Brahman.
+
+Let K(e,c) abbreviate explicit sufficient evidence in the selected argument: the nominal is used through its conventional ground; the inquiry concerns the whole Self; the argument appeals to inner-controller testimony and a liberating conclusion; and this is the author's affirmative interpretation. K contains no reference conclusion. For Rāmānuja, §4 connects the identity and inner-controller teachings with contemplation and its liberating fruit; §§17–21 and65–68 develop his affirmative reference argument. For Śrīnivāsa, the connected Maitreyī discussion supplies the contextual evidence. These are sufficient premises for the comparison, not necessary conditions governing every actual denotation.
+
+The common bridge is:
+
+```
+K(e,c), Body(g(e),B), InnerSelf(B,g(e)), Governs(B,g(e))
+    imply Ref(e,c,B).
+```
+
+Here B is the supreme bearer. The bridge is a substantive semantic rule reconstructed from the texts. Logic alone does not turn bodyhood into word-reference. Rāmānuja explains this step through intrinsic qualification: the body is an inseparable mode, and the appropriately grounded expression denotes its qualified bearer. His semantic rule applies more broadly than the selected contextual premises K. Śrīnivāsa's indwelling-controller argument supplies another route from the relevant individual-expression to the supreme. His broader all-word-denotation premise remains part of the source account; choosing this particular derivation does not make it an exception to a generally finite reference.
+
+Take an individual j and an expression e_j whose ground is j. Suppose the source premises establish Body(j,B), the corresponding inner-self/governance relations, and K(e_j,c). Substitute `g(e_j)=j` into the rule: all its premises hold, so `Ref(e_j,c,B)` follows. A directly divine expression e_B has g(e_B)=B and reaches B through its own direct naming rule. This direct naming rule does not need the assumption Body(B,B). The individual distinction j≠B is a retained source premise. The common reference has now been derived through two routes; it is not a ground equality added to obtain the result.
+
+A dependency test makes the achievement precise. Keep the same body, indweller, local-ground and context facts, but remove the body-reference rule and its school-specific semantic explanations. A structure recording only the directly divine expression's reference can satisfy those remaining premises. It need not record the individual's reference to B. Thus the semantic bridge does real inferential work. This is a test of the background theory with a premise removed, not a counterexample to either author's actual naming argument.
+
+### The categorical result
+
+Fix the selected context c and form the denoting domain
+
+```
+D_c = {e in E | there exists x with Ref(e,c,x)}.
+scope_c : D_c → X.
+```
+
+The reference relation defines scope_c because a bearer exists for each member of D_c and is unique. It would be a mistake to call this a total function on all E: the restricted common theory has not supplied that totality. Both e_j and e_B are proved to belong to D_c by the preceding derivations.
+
+Now retain the qualifying contribution with the product map
+
+```
+D_c → X × X
+ e  ↦ (g(e), scope_c(e)).
+```
+
+Its two marked values are `(j,B)` and `(B,B)`. Projecting to the second coordinate gives equal ultimate bearers while the first coordinate preserves different grounds. The pair does not claim to be a complete semantics for every sentence, but it prevents this comparison from discarding the very distinction its sources use.
+
+Recall the cancellation test for a monomorphism. The two names give maps from the singleton object into D_c. They are distinct: applying g yields j and B, which the selected sources distinguish. After composing with scope_c, however, both maps yield B. Therefore **scope_c is not monic**. The same proof works in the coherent syntactic category introduced later: the names give definable constant maps, and their denoting-domain membership is proved before those maps are used. Equal final reference cannot be cancelled backward into equality of local grounds.
+
+A concrete model of this reference fragment checks compatibility with distinct grounds and nontransfer. Take three represented beings B, j and a staff s, with corresponding expressions e_B, e_j and e_s. Let their local grounds be B, j and s, and let all three expressions' completed reference be B. Give j and s their body relation to B; separately associate the staff with its human possessor j. Let suffering hold of j and not B. The two source-shaped naming rules can hold together in this model. Yet the rule “anything associated with j names j” fails: the word for the staff reaches B, not its contingent possessor. Unrestricted transfer of suffering also fails. All-word reference has not removed either the modes or their differentiated properties.
+
+The comparison is consequently more substantial than two diagrams with similar labels. Each reconstructed school theory proves the common naming rule through its own premises. Translating formulas and their definable maps therefore gives structure-preserving functors from the common syntactic category into the two selected school categories. Interpreting the earlier model's total reference function requires using D_c as its expression domain; silently using the whole E would invalidate that interpretation. This is a proved integration of a selected inference. Mutual recovery of the complete body/mode and natural-power explanations, and a full semantics of predication, remain further questions.
+
 
 ## Bhāskara and Vallabha: positive manifestation has different structures
 
@@ -983,7 +1040,7 @@ This supports nonseparate power, not two independent entities joined afterward. 
 
 Puṇyānanda's *Kāmakalāvilāsa*1–4 and Naṭanānanda's *Cidvallī*,1918 edition pp.1–6, separately explain reflexive first-person will, knowledge and action through intrinsic power. Their Śrīvidyā cosmology must not be equated with *Devīgītā*'s knowledge-sublated māyā merely because both are Śākta. [Primary root/commentary transcription](https://muktabodha-digital-library.org/texts/IAST/M00025). The next map should preserve these different power and knowledge roles. *Devīmāhātmya*, *Yoginīhṛdaya*, *Tripurārahasya* and Krama still need separate connected primary reconstructions; none is counted as covered by the two selected witnesses or by Trika.
 
-Ramakrishna's recorded discourse on27 October1882 treats Brahman/Śakti through one reality under inactive/active descriptions; gem/radiance and water/waves supply different analogical roles. Medhananda's account already calls them aspects of one reality, so dismissing it as two independent substances would miss his position. The stronger question is whether “mutual ontological dependence” means grounding in both directions or inseparable coinstantiation of aspects. Our proposed model keeps one power-bearing reality while distinguishing power from any particular exercise. [*Kathāmṛta*,27 October1882;22 September1883](https://www.ramakrishnavivekananda.info/kathamrita/pdfhtml.htm); Ayon Maharaj, *Infinite Paths to Infinite Reality*,2018, pp.37–38.
+Ramakrishna's gem and its radiance emphasize inseparability: the radiance is not a second independent thing subsequently attached to its bearer. Still water and waves bring a different distinction into view—the same reality can be described through rest or active manifestation. His comparison with the same Captain in different activities makes this descriptive point especially clear. These analogies motivate distinguishing a reality's power from a particular exercise of that power: still water need not be powerless. They do not by themselves establish a general theory of mutual metaphysical grounding. Medhananda already speaks of aspects of one reality; the substantive question is whether their inseparability is best expressed as mutual dependence, coessential aspects, or one reality's intrinsic power. [Source](cite://ramakrishna/kathamrita/category-ramakrishna) [Source](cite://medhananda/infinite-paths-to-infinite-reality/category-medhananda)
 
 [Source](cite://utpaladeva/isvara-pratyabhijna-karika/category-trika-reflexivity) [Source](cite://ksemaraja/pratyabhijna-hrdaya/category-ksemaraja) [Source](cite://abhinavagupta/paratrimsika-vivarana/category-trika-fullness) [Source](cite://devi/devi-gita/category-sakta) [Source](cite://punyananda/kamakala-vilasa/category-punyananda) [Source](cite://natanananda/cidvalli/category-natanananda) [Source](cite://ramakrishna/kathamrita/category-ramakrishna) [Source](cite://medhananda/infinite-paths-to-infinite-reality/category-medhananda)
 
@@ -1391,7 +1448,7 @@ Trika and Aurobindo offer a positive account to investigate here: expression nee
 
 The next work is organized around specific arguments, not an indefinite instruction to read more books.
 
-1. **Reference and individual selfhood.** Derive the Rāmānuja and Nimbārka naming rule from their body/indweller accounts, then carry that rule into the proposed theory. Test whether common reference can preserve each account's liberated individuality. A stipulated final reference is not a substitute for this derivation.
+1. **Reference and individual selfhood.** Carry the derived Rāmānuja–Nimbārka naming rule into the proposed integrative theory, preserving its qualifying grounds and each account’s liberated individuality. The selected reference derivation is now established; a map into the larger common theory and mutual recovery of the schools’ explanatory vocabulary are further obligations.
 2. **Agency and participation.** Map Bhāskara's real conditioned action, Madhva's dependent agency, Baladeva's nonbinding action and Trika's intrinsic freedom with their different conditions intact. Use ownership, self-recognition and reserved divine governance as tests that can reject a misleading translation.
 3. **Ignorance and correction.** Build separate accounts of locus, object, individuation, corrective cognition and residual conditions for the later Advaitins. Compare the strongest positive-ignorance explanation with Saccidānandendra's actual denial in the same register. Matching beginning and end states alone is insufficient.
 4. **Fullness and manifestation.** Attach the prerequisite/retention closure module to the already constructed reflection model. Then test Vallabha's distinct manifestation profiles, grace and routes of fulfillment. This is an actual missing join, not a theorem already contained in the joint Śaṅkara–Trika witness.

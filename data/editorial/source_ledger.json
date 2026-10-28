@@ -546,7 +546,7 @@
         "category-theory",
         "integrative-vedanta"
       ],
-      "notes": "Source-map record ramanuja identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. The present common formal theory has a ground reference axiom; a general formal semantics is not yet derived."
+      "notes": "Source-map record ramanuja retains the prior inspected argument scope and adds the independently reviewed naming extension of2026-10-28. Contextual evidence can warrant recognizing qualified reference; it is not a necessary condition that first creates Brahman-reference. The word’s application-ground, full qualified referent and the hearer’s partial grasp remain distinct. The selected formal naming rule has a reviewed derivation; complete compositional semantics and equivalence of whole school systems are not established."
     },
     {
       "id": "category-research-nimbarka",
@@ -564,7 +564,7 @@
         "category-theory",
         "integrative-vedanta"
       ],
-      "notes": "Source-map record nimbarka identifies the primary witness, exact loci, argument scope and independently reviewed reconstruction. It is not a newly established critical text. Root Saurabha and Śrīnivāsa’s Kaustubha are separate voices; the joint reconstruction is not attributed entirely to Nimbārka’s short root."
+      "notes": "Source-map record nimbarka retains the prior inspected argument scope and adds the independently reviewed naming extension of2026-10-28. Root Saurabha and Śrīnivāsa’s Kaustubha are separate voices, including reports of earlier teachers. The broad denotation premise is not reduced to an isolated contextual exception or merely unrealized possibility. This selection does not develop Rāmānuja’s same partial-uptake/completion explanation or resolve every compositional and pragmatic case. The selected reference derivation does not establish complete school equivalence."
     },
     {
       "id": "category-research-bhaskara",
@@ -1573,6 +1573,23 @@
         "integrative-vedanta"
       ],
       "notes": "This is the author’s contested explanatory and historical argument, not proof that every rival posits a chronological first error. The public link is the institutional catalogue; the inspected Sanskrit scan’s direct public URL has not been independently recovered."
+    },
+    {
+      "id": "category-dhatupatha-three-roots",
+      "title_iast": "Dhātupāṭha — knowing, seeing and hearing entries",
+      "source_level": "primary",
+      "source_path": "data/sources/research/vedanta-category/dhatupatha-three-roots.json",
+      "witness": "Three root/meaning pairs directly replayed against raw transport and research-eligible primary reading; exact witness hashes checked. No scan or critical-edition certification.",
+      "rights_status": "public-selected-classical-witness-with-attribution",
+      "citation_status": "selected-locus-reviewed",
+      "stable_cite_prefixes": [
+        "cite://panini/dhatupatha/category-knowing-seeing-hearing"
+      ],
+      "review_areas": [
+        "sanskrit",
+        "integrative-vedanta"
+      ],
+      "notes": "This is a narrow lexical distinction, not a complete derivation of Veda, darśana or śruti, a reconstruction of Vedic accents, or proof of one metaphysics or practice shared by all schools. The paired reading is derived from the raw witness, not an independent second edition. Three entries independently source-reviewed; full derivations not certified."
     }
   ]
 }

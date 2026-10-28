@@ -128,13 +128,13 @@ The citations open the public source records. Their locus and qualification fiel
 
 ### Rāmānuja
 
-**Examined:** Vedārthasaṃgraha 4–6,57–76,83–90,141–144; Gītābhāṣya 18.14–16. [Vedārthasaṃgraha](cite://ramanuja/vedartha-samgraha/category-ramanuja).
+**Examined:** Vedārthasaṃgraha 4–6,17–21,57–76,83–90,141–144; Gītābhāṣya 18.14–16. [Vedārthasaṃgraha](cite://ramanuja/vedartha-samgraha/category-ramanuja).
 
 **Argument:** Substantive mode/body semantics; indweller reference without defect transfer; real divinely enabled individual action; unobstructed released nature.
 
-**Formal start:** A complete selected shared theory with a Rāmānuja-specific extension; the shared-reference conclusion is presently stipulated as an axiom.
+**Formal start:** A selected naming theory derives shared reference through intrinsic qualification; its partial reference relation gives a total arrow on the proved denoting domain. A common model and nonmonicity proof preserve distinct qualifying grounds.
 
-**Next test:** Add Licensed-expression and body/inner-self naming bridge; derive shared reference rather than merely import its selected conclusion.
+**Next test:** Extend the proved naming rule to compositional predication and compare whether the complete body/mode explanation can be recovered from the natural-power account. Preserve completed denotation versus partial understanding.
 
 ### Nimbārka
 
@@ -142,9 +142,9 @@ The citations open the public source records. Their locus and qualification fiel
 
 **Argument:** Subtle/manifested power continuity; natural difference/nondivision; reports earlier teachers distinctly.
 
-**Formal start:** A complete selected shared theory with a Nimbārka-specific extension; this does not establish equivalence of their whole systems.
+**Formal start:** A selected naming extension derives common reference through the governed-indweller route; the broader all-word-denotation premise remains explicit. Its shared model does not establish equivalence of the whole systems.
 
-**Next test:** Derive context-licensed reference in root/commentary alignment, then test causal power versus qualified-mode interpretations.
+**Next test:** Extend the proved reference bridge through the causal and natural-power explanations, preserving root/commentator voices and the broader word-denotation premise; test mutual explanatory recovery.
 
 ### Śrīnivāsa
 
@@ -414,7 +414,7 @@ The citations open the public source records. Their locus and qualification fiel
 
 ## What the next work should establish
 
-The first priority is to derive the shared body–indweller reference inference in Rāmānuja and Nimbārka, rather than merely stipulate its conclusion. Next, join the separately verified constitutive-fullness model to the common model through a justified map of tattvas and forms. The third task is a temporal account of realized devotion that distinguishes a knowledge-event, retained realization, devotional disposition and a particular devotional act. The Maṇḍana–Sureśvara comparison should then specify how instruction, contemplation and immediate knowledge relate. For Śākta comparison, the immediate task is to formalize the already examined Devīgītā and Kāmakalāvilāsa/Cidvallī arguments before adding another school label.
+The shared body–indweller reference inference is now derived through source-shaped semantic rules, with guarded categorical interpretations. The next reference task is to carry that result into the integrative theory and test mutual recovery of the schools’ explanatory predicates. A second priority is to join the separately verified constitutive-fullness model to the common model through a justified map of tattvas and forms. The third task is a temporal account of realized devotion that distinguishes a knowledge-event, retained realization, devotional disposition and a particular devotional act. The Maṇḍana–Sureśvara comparison should then specify how instruction, contemplation and immediate knowledge relate. For Śākta comparison, the immediate task is to formalize the already examined Devīgītā and Kāmakalāvilāsa/Cidvallī arguments before adding another school label.
 
 These are concrete constructions rather than a requirement to finish every collected work before explaining anything. Each should produce a small set of source-bound premises, a proof-preserving interpretation where available, and a countermodel where a proposed identification loses substantive content.
 

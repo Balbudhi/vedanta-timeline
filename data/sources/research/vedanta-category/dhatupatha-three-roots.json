@@ -1,0 +1,87 @@
+{
+  "schema": "selected-dhatupatha-witness-v1",
+  "date": "2026-10-28",
+  "title": "Dhātupāṭha: three semantic assignments",
+  "source_url": "https://github.com/ashtadhyayi-com/data/blob/24109f7bdbf4d3e7e31c72cbbc1494c65e6a3409/dhatu/data.txt",
+  "credits": "Traditional Dhātupāṭha data transported from ashtadhyayi-com/data (Ashtadhyayi.com); paired Prakriya textual reading and manifest consulted.",
+  "rights_basis": "Pinned upstream source-scope manifest records permission to reuse with appropriate attribution; only three classical Sanskrit entries and relevant metadata retained.",
+  "upstream_commit": "24109f7bdbf4d3e7e31c72cbbc1494c65e6a3409",
+  "upstream_origin_path": "dhatu/data.txt",
+  "raw_sha256": "e8c0e929294c4ab68455b461ee81234e7a0febac1b72e6873ea832354a28b641",
+  "paired_primary_sha256": "86b52feb1df6f36e0bbc30f45e548926d3631ed89e0fc1aedb8fd8667fc2f261",
+  "paired_primary_name": "dhatupatha_collated_vs_wikisource_clean.txt",
+  "manifest_state": {
+    "research_eligible": true,
+    "authority_state": "collated_clean",
+    "textual_correction_authority": false,
+    "limitation": "Derived reading, not independent of its base. Library-wide collation has352 differences,277 open; no page witness used. These three selected root/meaning pairs match raw and primary exactly."
+  },
+  "scope": "Only the distinction among knowing, seeing and hearing semantic assignments. No full derivation of Veda, darśana or śruti; no claim that roots have only one sense across all Sanskrit use. No interpreter, parser or generated form table used.",
+  "independent_review_status": "Selected three source entries, simple root labels, meaning distinctions and gaṇa/pada metadata independently reviewed; no noun derivation certified.",
+  "records": [
+    {
+      "id": "02.0059",
+      "raw_record_id": "1020059",
+      "source_script": "विदँ ज्ञाने",
+      "instructional_root_source": "विदँ",
+      "root_source": "विद्",
+      "meaning_source": "ज्ञाने",
+      "instructional_root_iast": "vidã",
+      "root_iast": "vid",
+      "meaning_iast": "jñāne",
+      "meaning_literal_english": "in knowing",
+      "gana": 2,
+      "pada_source_code": "P",
+      "pada": "parasmaipada",
+      "pada_evidence": "Raw textual transport metadata, not a new derivation from markers.",
+      "primary_physical_lines": [
+        3654,
+        3655
+      ],
+      "transliteration_note": "IAST transliterates the selected instructional spelling; nasal markers retained. No accent reconstruction or marker-deletion derivation is claimed."
+    },
+    {
+      "id": "01.1143",
+      "raw_record_id": "1011143",
+      "source_script": "दृशिँर् प्रेक्षणे",
+      "instructional_root_source": "दृशिँर्",
+      "root_source": "दृश्",
+      "meaning_source": "प्रेक्षणे",
+      "instructional_root_iast": "dṛśĩr",
+      "root_iast": "dṛś",
+      "meaning_iast": "prekṣaṇe",
+      "meaning_literal_english": "in seeing",
+      "gana": 1,
+      "pada_source_code": "P",
+      "pada": "parasmaipada",
+      "pada_evidence": "Raw textual transport metadata, not a new derivation from markers.",
+      "primary_physical_lines": [
+        3408,
+        3409
+      ],
+      "transliteration_note": "IAST transliterates the selected instructional spelling; nasal markers retained. No accent reconstruction or marker-deletion derivation is claimed."
+    },
+    {
+      "id": "01.1092",
+      "raw_record_id": "1011092",
+      "source_script": "श्रु श्रवणे",
+      "instructional_root_source": "श्रु",
+      "root_source": "श्रु",
+      "meaning_source": "श्रवणे",
+      "instructional_root_iast": "śru",
+      "root_iast": "śru",
+      "meaning_iast": "śravaṇe",
+      "meaning_literal_english": "in hearing",
+      "gana": 1,
+      "pada_source_code": "P",
+      "pada": "parasmaipada",
+      "pada_evidence": "Raw textual transport metadata, not a new derivation from markers.",
+      "primary_physical_lines": [
+        3255,
+        3256
+      ],
+      "transliteration_note": "IAST transliterates the selected instructional spelling; nasal markers retained. No accent reconstruction or marker-deletion derivation is claimed."
+    }
+  ],
+  "independent_review": "audit/integrative-vedanta-2026-10-27/review-lexical-distinction.md"
+}

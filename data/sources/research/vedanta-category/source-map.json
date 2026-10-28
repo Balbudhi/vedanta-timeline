@@ -126,11 +126,11 @@
       "cite_key": "ramanuja/vedartha-samgraha/category-ramanuja",
       "author_id": "ramanuja",
       "work_id": "vedartha-samgraha",
-      "locus": "§§57–76,83–90; especially65,67–68",
-      "claim": "Body and indwelling self license qualified common reference without transferring the dependent bearer’s defects to Brahman; dependence is compatible with real agency.",
+      "locus": "§§4,17–21,57–76,83–90; especially21,65,67–68,73,76",
+      "claim": "Body and indwelling self ground qualified common reference without transferring the dependent bearer’s defects to Brahman; dependence is compatible with real agency. Sections17–21 explicitly extend all words’ denotation to the supreme qualified by conscious and nonconscious reality: ordinary uptake grasps only part of what is denoted, and hearing Vedānta completes that understanding while preserving different grounds of word application.",
       "claim_kind": "interpretive",
       "source_level": "primary",
-      "qualification": "The present common formal theory has a ground reference axiom; a general formal semantics is not yet derived.",
+      "qualification": "Contextual evidence can warrant recognizing qualified reference; it is not a necessary condition that first creates Brahman-reference. The word’s application-ground, full qualified referent and the hearer’s partial grasp remain distinct. The selected formal naming rule has a reviewed derivation; complete compositional semantics and equivalence of whole school systems are not established.",
       "research_dossier": "audit/integrative-vedanta-2026-10-27/ramanuja-nimbarka-translations.md",
       "independent_review": "audit/integrative-vedanta-2026-10-27/review-rn-translations.md",
       "witness_path": "data/sources/sanskrit/vedanta/ramanuja_vedartha_sangraha.txt",
@@ -139,22 +139,31 @@
       "rights_note": "Existing public witness; underlying classical text; retain provider conditions.",
       "publication_scope": "Concise source-grounded reconstruction only; no quotation or full-work verification is asserted.",
       "witness_sha256": "0292e0674d28d8795f188ba65f20c2eba3a7f6652df563b218164a81de11dac0",
-      "research_status": "Selected source reconstruction independently reviewed in the named dossier; public summary requires article review.",
+      "research_status": "Selected naming/source extension and mathematical construction independently reviewed on2026-10-28; no complete-work or whole-system certification.",
       "recorded": "2026-10-27",
       "public_excerpts": "No Sanskrit or modern translation is quoted in this summary record; use separately reviewed interactive passage records for quoted text.",
       "author_name": "Rāmānuja",
-      "work_title": "Vedārthasaṃgraha"
+      "work_title": "Vedārthasaṃgraha",
+      "updated": "2026-10-28",
+      "additional_research_dossiers": [
+        "audit/integrative-vedanta-2026-10-27/rn-reference-source-extension.md",
+        "audit/integrative-vedanta-2026-10-27/rn-reference-construction.md"
+      ],
+      "additional_independent_reviews": [
+        "audit/integrative-vedanta-2026-10-27/review-rn-reference-source-extension.md",
+        "audit/integrative-vedanta-2026-10-27/review-rn-reference-construction.md"
+      ]
     },
     {
       "id": "nimbarka",
       "cite_key": "nimbarka/vedanta-parijata-saurabha/category-nimbarka",
       "author_id": "nimbarka",
       "work_id": "vedanta-parijata-saurabha",
-      "locus": "1.4.20–22 and2.3.42–45, with Śrīnivāsa’s Vedāntakaustubha; printed139–141,235–237",
-      "claim": "Natural nonseparation and difference must be considered together: nonseparation is not postponed until release, and individual distinction is not simply canceled there.",
+      "locus": "1.4.20–22 and2.3.42–45 with Śrīnivāsa’s Vedāntakaustubha;1932 edition, printed139–141,235–237",
+      "claim": "Natural nonseparation and difference must be considered together: nonseparation is not postponed until release, and individual distinction is not simply canceled there. Śrīnivāsa’s opening reply at1.4.20 explicitly invokes the supreme’s denotability by all words, grounded in universal causality and related features; the Maitreyī discussion further argues through cause/effect nonotherness and the indwelling-controller relation, without indiscriminate transfer of individual defects.",
       "claim_kind": "interpretive",
       "source_level": "primary",
-      "qualification": "Root Saurabha and Śrīnivāsa’s Kaustubha are separate voices; the joint reconstruction is not attributed entirely to Nimbārka’s short root.",
+      "qualification": "Root Saurabha and Śrīnivāsa’s Kaustubha are separate voices, including reports of earlier teachers. The broad denotation premise is not reduced to an isolated contextual exception or merely unrealized possibility. This selection does not develop Rāmānuja’s same partial-uptake/completion explanation or resolve every compositional and pragmatic case. The selected reference derivation does not establish complete school equivalence.",
       "research_dossier": "audit/integrative-vedanta-2026-10-27/ramanuja-nimbarka-translations.md",
       "independent_review": "audit/integrative-vedanta-2026-10-27/review-rn-translations.md",
       "witness_path": null,
@@ -162,11 +171,20 @@
       "witness_quality": "Selected pages of1932 combined Sanskrit print witness visually inspected; Dhundhiraja Shastri edition.",
       "rights_note": "Classical Sanskrit passages and bibliographic metadata only; no modern translation or complete scan reproduced.",
       "publication_scope": "Concise source-grounded reconstruction only; no quotation or full-work verification is asserted.",
-      "research_status": "Selected source reconstruction independently reviewed in the named dossier; public summary requires article review.",
+      "research_status": "Selected naming/source extension and mathematical construction independently reviewed on2026-10-28; no complete-work or whole-system certification.",
       "recorded": "2026-10-27",
       "public_excerpts": "No Sanskrit or modern translation is quoted in this summary record; use separately reviewed interactive passage records for quoted text.",
       "author_name": "Nimbārka and Śrīnivāsa",
-      "work_title": "Vedāntapārijātasaurabha with Vedāntakaustubha"
+      "work_title": "Vedāntapārijātasaurabha with Vedāntakaustubha",
+      "updated": "2026-10-28",
+      "additional_research_dossiers": [
+        "audit/integrative-vedanta-2026-10-27/rn-reference-source-extension.md",
+        "audit/integrative-vedanta-2026-10-27/rn-reference-construction.md"
+      ],
+      "additional_independent_reviews": [
+        "audit/integrative-vedanta-2026-10-27/review-rn-reference-source-extension.md",
+        "audit/integrative-vedanta-2026-10-27/review-rn-reference-construction.md"
+      ]
     },
     {
       "id": "bhaskara",
@@ -1328,6 +1346,28 @@
       "public_excerpts": "No quotation in this source note.",
       "research_status": "Earlier selected source arguments independently reviewed; expanded article comparison reviewed separately.",
       "witness_quality": "Held institutional Sanskrit print witness; selected page images inspected. Exact title and printed loci identify the evidence; institutional catalogue is a bibliographic link only."
+    },
+    {
+      "id": "lexical-roots",
+      "cite_key": "panini/dhatupatha/category-knowing-seeing-hearing",
+      "author_id": "panini",
+      "author_name": "Pāṇinian grammatical tradition",
+      "work_id": "dhatupatha",
+      "work_title": "Dhātupāṭha",
+      "locus": "02.0059 vid (knowing);01.1143 dṛś (seeing);01.1092 śru (hearing), pinned upstream entry numbering",
+      "claim": "The selected Dhātupāṭha entries assign vid to knowing, dṛś to seeing and śru to hearing. These distinct assignments do not justify treating Veda as literally “seen.”",
+      "claim_kind": "textual",
+      "source_level": "primary",
+      "qualification": "This is a narrow lexical distinction, not a complete derivation of Veda, darśana or śruti, a reconstruction of Vedic accents, or proof of one metaphysics or practice shared by all schools. The paired reading is derived from the raw witness, not an independent second edition.",
+      "research_dossier": "audit/integrative-vedanta-2026-10-27/scope-controls.md#7-lexical-precision-without-an-etymological-metaphysics",
+      "independent_review": "audit/integrative-vedanta-2026-10-27/review-lexical-distinction.md",
+      "witness_path": "data/sources/research/vedanta-category/dhatupatha-three-roots.json",
+      "witness_url": "https://github.com/ashtadhyayi-com/data/blob/24109f7bdbf4d3e7e31c72cbbc1494c65e6a3409/dhatu/data.txt",
+      "witness_quality": "Three root/meaning pairs directly replayed against raw transport and research-eligible primary reading; exact witness hashes checked. No scan or critical-edition certification.",
+      "rights_note": "Pinned upstream source-scope manifest records permission to reuse with appropriate attribution; only three classical Sanskrit entries and relevant metadata retained.",
+      "publication_scope": "Selected lexical evidence only; exact closed population independently source-reviewed.",
+      "recorded": "2026-10-28",
+      "research_status": "Three root/meaning pairs and metadata directly replayed and independently reviewed on2026-10-28; full nominal derivations remain outside scope."
     }
   ]
 }
