@@ -19,14 +19,15 @@ const code = [
   section("async function loadCitationIndex(", "// Interpretations are distinct"),
   section("function escape(s)", "// Convert markdown emphasis"),
   section("function numberCitations(", "function renderMarkdownListBlock("),
-  section("// Article loading lifecycle", "// Markdown renderer for the article reader."),
+  section("let panelNavigationVersion =", "// Markdown renderer for the article reader."),
 ].join("\n");
+const { Element } = require('./test_helpers/article_dom');
 function harness(index = null) {
   const context = {
     URL, location: { href: "https://example.org/" }, DATA_VERSION: "test",
     state: { thinkersById: new Map(), citationIndex: index },
     dpReaderMode: null, dpTabTitle: null, dpArticleHead: null,
-    dpArticleBody: { innerHTML: "", scrollTop: -1 },
+    dpArticleBody: new Element(), window: {}, document: {},
     panelState: { loaded: {} }, router: { push() {} },
     SAHASRANAMA_READING: { slug: "sahasranama" }, GITA_READINGS: {},
     closeArticlesModal() {}, applyTabContext() {}, openPanel() { context.panelState.open = true; },

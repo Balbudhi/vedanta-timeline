@@ -25,7 +25,7 @@ const element = () => ({
 });
 const panel = element();
 const context = {
-  URL,
+  URL, panelNavigationVersion: 0,
   state: { thinkersById: new Map(), citationIndex: { entries: {} } },
   dpCitationBody: panel,
   document: {
@@ -148,7 +148,7 @@ async function render(entry) {
   context.localStorage = { setItem() { storageWrites++; } };
   context.panelState = { loaded: {} };
   context.showTab = (tab) => routeCalls.push(["tab", tab]);
-  context.openPanel = (tab) => routeCalls.push(["panel", tab]);
+  context.openPanel = (tab) => { context.panelState.open = true; routeCalls.push(["panel", tab]); };
   context.router = { push: (route) => routeCalls.push(["route", route.kind]) };
   context.state.citationIndex.entries = { [key]: englishOriginal };
   const articleAnchor = { ...anchor, closest: (selector) => selector === ".dp-article-body" ? {} : null };

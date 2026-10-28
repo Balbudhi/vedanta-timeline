@@ -4228,29 +4228,19 @@ html[data-theme="dark"] .filter-drawer { background: var(--bg); }
 /* Article text appears immediately when its reading pane opens. */
 body.is-article-context .detail-pane { transition: none; }
 
-/* The complete long article stays in the DOM for native find, selection and
-   accessibility. Skip offscreen layout at whole-block boundaries, never inside
-   an inline equation or across an entire chapter. Previously measured blocks
-   retain their intrinsic size as the reader moves through the text. */
-.dp-article-body > article[data-article-slug="vedanta-category-theory"] > :is(p, blockquote, pre, ul, ol, .md-table-wrap, .sk-aside, .article-math--display),
-.dp-article-body > article[data-article-slug="vedanta-category-theory"] .cite-fn-row {
-  content-visibility: auto;
-  contain-intrinsic-block-size: auto 160px;
-}
-.dp-article-body > article[data-article-slug="vedanta-category-theory"] .cite-fn-row {
-  contain-intrinsic-block-size: auto 48px;
+/* Keep the complete course searchable and selectable while skipping offscreen
+   block layout. Headings and the source footer remain uncontained. Screen-only
+   containment leaves print layout unchanged. Remember measured block heights. */
+@media screen {
+  .dp-article-body > article[data-article-slug="vedanta-category-theory"] > :is(p, blockquote, pre, ul, ol, .md-table-wrap, .sk-aside, .article-math--display) {
+    content-visibility: auto;
+    contain-intrinsic-block-size: auto 160px;
+  }
 }
 /* A load-specific mode mount isolates delayed interactive-reader writes while
    retaining the existing parent flex layout and button control family. */
 .article-mode-mount { display: contents; }
 .article-mode-mount[hidden] { display: none; }
-@media print {
-  .dp-article-body > article[data-article-slug="vedanta-category-theory"] > :is(p, blockquote, pre, ul, ol, .md-table-wrap, .sk-aside, .article-math--display),
-  .dp-article-body > article[data-article-slug="vedanta-category-theory"] .cite-fn-row {
-    content-visibility: visible;
-    contain-intrinsic-block-size: none;
-  }
-}
 
 /* Typeset equations stay within the article's existing reading measure.
    Wide displays scroll locally; inline math retains KaTeX's line-break rules. */

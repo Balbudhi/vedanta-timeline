@@ -8,6 +8,24 @@ permissions:
   contents: read
 
 jobs:
+  ui:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Check UI lifecycle, geometry, audio and cache contracts
+        run: |
+          node scripts/test_timeline_startup.js
+          node scripts/test_network_layout_equivalence.js
+          node scripts/test_timeline_gestures.js
+          node scripts/test_timeline_lane_label_geometry.js
+          node scripts/test_timeline_surface_order.js
+          node scripts/test_article_lifecycle.js
+          node scripts/test_media_session.js
+          node scripts/test_reader_audio.js
+          node scripts/test_pwa.js
   validate:
     runs-on: ubuntu-latest
     steps:

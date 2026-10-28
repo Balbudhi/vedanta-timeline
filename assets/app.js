@@ -2067,7 +2067,6 @@ function closePanel() {
 
 function setPanelTab(tab) {
   if (!PANEL_TABS.includes(tab)) return;
-  if (tab !== "article") invalidateArticleLoad();
   panelState.activeTab = tab;
   // Tab buttons
   if (dpTabBar) {
@@ -2125,10 +2124,13 @@ if (dpTabBar) {
     btn.addEventListener("click", () => {
       const t = btn.dataset.pane;
       if (!t) return;
+      if (t !== panelState.activeTab) panelNavigationVersion += 1;
       setPanelTab(t);
       // When the user clicks a tab directly, reflect the active surface in
       // the URL so back / forward / reload restores the same view.
-      if (t === "thinker" && state.activeId) {
+      if (t === "article" && panelState.articleRoute) {
+        router.push(panelState.articleRoute);
+      } else if (t === "thinker" && state.activeId) {
         router.push({ kind: "thinker", thinkerId: state.activeId });
       } else if (t === "citation" && sourceTabState.activeCiteKey) {
         router.push({ kind: "citation", thinkerId: state.activeId || sourceTabState.activeCiteKey.split("/")[0], citeKey: sourceTabState.activeCiteKey });
@@ -2234,8 +2236,8 @@ const router = {
     return "";
   },
 
-  push(state) {
-    if (this._suspendSerialize) return;
+  push(state, { allowDuringApply = false } = {}) {
+    if (this._suspendSerialize && !allowDuringApply) return;
     const target = this.serialize(state);
     if (!target) return;
     if (location.hash === target) return;
@@ -2249,8 +2251,7 @@ const router = {
 
   apply(parsed) {
     if (!parsed) return;
-    const applyVersion = ++this._applyVersion;
-    const requestedHash = location.hash;
+    this._applyVersion += 1;
     this._suspendSerialize = true;
     try {
       if (parsed.kind === "thinker") {
@@ -2262,29 +2263,7 @@ const router = {
         openThinker(parsed.thinkerId);
         openCitationPanel(parsed.citeKey, null);
       } else if (parsed.kind === "article" || parsed.kind === "perspective") {
-        const list = parsed.kind === "perspective"
-          ? ((perspectivesManifest && perspectivesManifest.perspectives) || [])
-          : ((articlesManifest && articlesManifest.articles) || []);
-        const found = parsed.kind === "article"
-          ? resolveArticleEntry(list, parsed.slug)
-          : list.find((a) => a.slug === parsed.slug);
-        if (found) {
-          openArticle({ ...found, kind: parsed.kind });
-        } else if (parsed.kind === "article") {
-          ensureArticlesLoaded().then(() => {
-            // Loading the manifest must not reopen a route the user has left
-            // or a reader they have closed. This guards the lazy open only;
-            // it is not a cancellation mechanism for article body fetches.
-            if (this._applyVersion !== applyVersion || location.hash !== requestedHash) return;
-            const a = resolveArticleEntry(articlesManifest && articlesManifest.articles, parsed.slug);
-            if (a) openArticle(a);
-          });
-        } else {
-          ensurePerspectivesLoaded().then(() => {
-            const p = (perspectivesManifest && perspectivesManifest.perspectives || []).find((x) => x.slug === parsed.slug);
-            if (p) openArticle({ ...p, kind: "perspective" });
-          });
-        }
+        openArticleBySlug(parsed);
       }
     } finally {
       this._suspendSerialize = false;
@@ -2320,6 +2299,7 @@ window.addEventListener("hashchange", () => {
   rememberPwaRoute();
   const parsed = router.parse(location.hash);
   if (parsed) router.apply(parsed);
+  else closePanel();
 });
 
 document.addEventListener("visibilitychange", () => {
@@ -2329,6 +2309,7 @@ document.addEventListener("visibilitychange", () => {
 async function openThinker(id) {
   const preview = state.thinkersById.get(id);
   if (!preview) return;
+  invalidateArticleLoad();
   state.activeId = id;
   document.querySelectorAll(".thinker-dot").forEach((d) => {
     d.classList.toggle("is-active", d.dataset.id === id);
@@ -2361,9 +2342,7 @@ async function openThinker(id) {
   });
   detailContent.querySelectorAll("[data-open-article]").forEach((btn) => {
     btn.addEventListener("click", async () => {
-      await ensureArticlesLoaded();
-      const article = (articlesManifest?.articles || []).find((item) => item.slug === btn.dataset.openArticle);
-      if (article) openArticle(article);
+      await openArticleBySlug({ kind: "article", slug: btn.dataset.openArticle });
     });
   });
   detailContent.querySelectorAll("[data-chronology-toggle]").forEach((btn) => {
@@ -2890,8 +2869,10 @@ async function ensurePerspectivesLoaded() {
   if (perspectivesManifest) return perspectivesManifest;
   if (!perspectivesLoading) {
     perspectivesLoading = loadJSON("data/perspectives/manifest.json").then((m) => {
-      perspectivesManifest = m || { perspectives: [] };
+      perspectivesManifest = m;
       return perspectivesManifest;
+    }).finally(() => {
+      perspectivesLoading = null;
     });
   }
   return perspectivesLoading;
@@ -2903,8 +2884,10 @@ function renderPerspectivesBlock(t) {
   if (!matches.length) {
     // Trigger a background load and re-open the thinker once available so handlers re-bind.
     if (!perspectivesManifest) {
-      ensurePerspectivesLoaded().then(() => {
-        if (state.activeId === t.id) openThinker(t.id);
+      const navigation = panelNavigationVersion;
+      ensurePerspectivesLoaded().then((manifest) => {
+        if (manifest && state.activeId === t.id && navigation === panelNavigationVersion
+          && panelState.open && panelState.activeTab === "thinker") openThinker(t.id);
       });
     }
     return "";
@@ -4066,8 +4049,9 @@ function renderCitationSourceNotes(entry, surface) {
   return html;
 }
 
-async function openCitationPopover(key, anchorEl) {
+async function openCitationPopover(key, anchorEl, isCurrent = () => true) {
   await loadCitationIndex();
+  if (!isCurrent()) return;
   // Single-popover discipline (managed centrally so we don't have to keep
   // every popover's class name in sync here). The belt-and-braces cleanup
   // below catches stragglers if a popover failed to register itself.
@@ -4098,16 +4082,19 @@ async function openCitationPopover(key, anchorEl) {
   if (entry) {
     const locusDisplay = entry.locus || entry.locus_short || loc;
     const isPending = entry.verified === "pending-acquisition";
-    const pendingBlock = isPending
+    const isUnverified = entry.verified === false;
+    const statusBlock = isUnverified
+      ? `<div class="cp-block cp-pending"><span class="cp-label">Unverified cited locus</span><p>The Sanskrit passage referenced here was not located in the on-disk source. Locus and attribution are preserved; the passage text is withheld until it can be verified against the primary text.${entry.verification_note ? ` <em>${escape(entry.verification_note)}</em>` : ""}</p></div>`
+      : isPending
       ? `<div class="cp-block cp-pending"><span class="cp-label">Pending acquisition</span><p>${entry.pending_target_work
           ? `<em>${escape(entry.pending_target_work)}</em>${entry.pending_target_thinker ? ` (${escape(entry.pending_target_thinker)})` : ""} is not yet in our corpus in clean form.`
           : `The cited work is not yet in our corpus in clean form.`} The claim above relies on this work; its primary text is on the acquisition list. The text shown below is the locus on which it comments, included as context — not itself the attestation.${entry.pending_acquisition_note || entry.verification_note ? ` <em>${escape(entry.pending_acquisition_note || entry.verification_note)}</em>` : ""}</p></div>`
       : "";
     const original = citationOriginal(entry);
-    const sk = entry.sanskrit_iast
+    const sk = !isUnverified && entry.sanskrit_iast
       ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${isPending ? "Sanskrit (IAST) — context" : "Verified witness (IAST)"}</span><div class="cp-sk">${mdVerse(entry.sanskrit_iast)}</div></div>`
       : original ? `<div class="cp-block cp-sanskrit"><span class="cp-label">${escape(original.label)}</span><div class="cp-sk">${mdVerse(original.text)}</div></div>` : "";
-    const en = entry.english_close && !original?.english
+    const en = !isUnverified && entry.english_close && !original?.english
       ? `<div class="cp-block cp-english"><span class="cp-label">${isPending ? "Literal English — context" : "Literal English rendering"}</span><div class="cp-en">${md(entry.english_close)}</div></div>`
       : "";
     const openWork = t
@@ -4119,10 +4106,10 @@ async function openCitationPopover(key, anchorEl) {
       : "";
     bodyHtml = `
       <div class="cp-header">
-        <div class="cp-locus">${escape(locusDisplay)}${isPending ? ` <span class="cp-pending-badge">Pending</span>` : ""}</div>
+        <div class="cp-locus">${escape(locusDisplay)}${isPending ? ` <span class="cp-pending-badge">Pending</span>` : isUnverified ? ` <span class="cp-pending-badge">Unverified</span>` : ""}</div>
         <div class="cp-attrib">${escape(thinkerName)} · <em>${escape(workTitle)}</em></div>
       </div>
-      ${pendingBlock}
+      ${statusBlock}
       ${sk}
       ${en}
       ${renderCitationSourceNotes(entry, "popover")}
@@ -4209,15 +4196,22 @@ const sourceTabState = {
 // Mobile retains its existing bottom-sheet popover; other desktop routes use
 // the citation tab, including route restoration without an anchor.
 async function openCitationPanel(key, anchorEl) {
+  // A reference changes the active surface, not the cached article content:
+  // supplemental passages may finish while the citation is being inspected.
+  const request = ++panelNavigationVersion;
+  const isCurrent = () => request === panelNavigationVersion;
   if (isPanelMobile() || anchorEl?.closest?.(".dp-article-body")) {
-    return openCitationPopover(key, anchorEl);
+    return openCitationPopover(key, anchorEl, isCurrent);
   }
+  showTab("citation");
+  openPanel("citation");
+  panelState.loaded.citation = false;
+  dpCitationBody.innerHTML = '<p class="dp-loading">Loading citation…</p>';
   await loadCitationIndex();
+  if (!isCurrent() || !panelState.open) return;
   sourceTabState.activeCiteKey = key;
   try { localStorage.setItem("vedanta-cite-panel-cite-key", key); } catch (_) {}
   renderCitationTab(key);
-  showTab("citation");
-  openPanel("citation");
   panelState.loaded.citation = true;
   router.push({ kind: "citation", thinkerId: state.activeId || (key.split("/")[0] || ""), citeKey: key });
 }
@@ -5655,15 +5649,22 @@ articlesModal.addEventListener("click", (e) => {
 });
 
 // Load a classic script once (idempotent), resolving when ready.
+const scriptLoads = new Map();
 function loadScriptOnce(src) {
-  return new Promise((resolve, reject) => {
-    if (document.querySelector(`script[data-dyn="${src}"]`)) return resolve();
+  if (scriptLoads.has(src)) return scriptLoads.get(src);
+  const promise = new Promise((resolve, reject) => {
     const s = document.createElement("script");
     s.src = src; s.async = false; s.dataset.dyn = src;
     s.onload = () => resolve();
-    s.onerror = () => reject(new Error("failed to load " + src));
+    s.onerror = () => {
+      s.remove();
+      scriptLoads.delete(src);
+      reject(new Error("failed to load " + src));
+    };
     document.head.appendChild(s);
   });
+  scriptLoads.set(src, promise);
+  return promise;
 }
 
 // Escape text and wrap any glossary headword/alias in a clickable .term span
@@ -5750,65 +5751,134 @@ const SAHASRANAMA_READING = {
   detailsUrl: `gita/vishnu-sahasranama/reader-details.json?v=${DATA_VERSION}`,
 };
 
+let panelNavigationVersion = 0;
+function showArticleLoadError(request, retry, message = "This reading could not be loaded. Check your connection and try again.") {
+  if (!isCurrentArticleLoad(request) || !dpArticleBody) return;
+  dpArticleBody.innerHTML = `<article><p role="status">${escape(message)}</p><button type="button" class="read-full-link" data-article-retry>Retry</button></article>`;
+  dpArticleBody.querySelector("[data-article-retry]")?.addEventListener("click", retry);
+}
+
+function prepareArticle(a) {
+  // Articles render in the unified panel's Article tab. The articles
+  // chooser modal closes on selection (the user picked one already).
+  const request = invalidateArticleLoad();
+  state.activeId = null;
+  panelState.loaded.article = false;
+  closeArticlesModal();
+  // A standalone article has no thinker context: show only the Article tab.
+  applyTabContext("article");
+  if (dpReaderMode) {
+    dpReaderMode.replaceChildren();
+    dpReaderMode.hidden = true;
+  }
+  // Title for the tab-row (shown in full-screen reading mode); plain text.
+  if (dpTabTitle) dpTabTitle.textContent = String(a.title || "").replace(/[*_`\[\]]/g, "");
+  if (dpArticleHead) {
+    dpArticleHead.hidden = false;
+    const pill = a.kind === "perspective"
+      ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> '
+      : "";
+    const eyebrowKind = a.kind === "perspective" ? "Perspective" : (a.kind || "Article");
+    dpArticleHead.innerHTML = `
+      <p class="dp-eyebrow">${escape(eyebrowKind.charAt(0).toUpperCase() + eyebrowKind.slice(1))}</p>
+      <p class="dp-title">${pill}${md(a.title)}</p>
+      ${a.subtitle ? `<p class="dp-attrib">${md(a.subtitle)}</p>` : ""}
+    `;
+  }
+  if (dpArticleBody) dpArticleBody.innerHTML = "<article><p style=\"color:var(--muted);font-style:italic\">Loading…</p></article>";
+  openPanel("article");
+  if (a.interactive) setReadingMode(true, { skipAutoOpen: true });
+
+  panelState.articleRoute = { kind: a.kind === "perspective" ? "perspective" : "article", slug: a.slug };
+  router.push(panelState.articleRoute, { allowDuringApply: true });
+  return request;
+}
+
+async function openArticleBySlug(parsed) {
+  const list = parsed.kind === "perspective"
+    ? perspectivesManifest?.perspectives : articlesManifest?.articles;
+  const found = parsed.kind === "article"
+    ? resolveArticleEntry(list, parsed.slug)
+    : list?.find((a) => a.slug === parsed.slug);
+  if (found) return openArticle({ ...found, kind: parsed.kind });
+  if (list) return;
+  const request = prepareArticle({ ...parsed, title: "Loading reading…" });
+  const navigation = panelNavigationVersion;
+  const applyVersion = router._applyVersion;
+  try {
+    if (parsed.kind === "perspective") await ensurePerspectivesLoaded();
+    else await ensureArticlesLoaded();
+    if (!isCurrentArticleLoad(request)) return;
+    if (navigation !== panelNavigationVersion || applyVersion !== router._applyVersion) {
+      showArticleLoadError(request, () => openArticleBySlug(parsed), "Select Retry to finish opening this reading.");
+      return;
+    }
+    const loaded = parsed.kind === "perspective"
+      ? perspectivesManifest?.perspectives : articlesManifest?.articles;
+    const article = parsed.kind === "article"
+      ? resolveArticleEntry(loaded, parsed.slug)
+      : loaded?.find((a) => a.slug === parsed.slug);
+    if (!article) throw new Error("Reading is not available");
+    return openArticle({ ...article, kind: parsed.kind });
+  } catch (_) {
+    showArticleLoadError(request, () => openArticleBySlug(parsed));
+  }
+}
+
 async function openGitaReading(slug, token, mount) {
   const reading = GITA_READINGS[slug];
   if (!reading) return;
   if (dpTabTitle) dpTabTitle.textContent = reading.title;
-  try {
-    for (const f of reading.files) {
-      await loadScriptOnce(`${reading.base}${f}?v=${DATA_VERSION}`);
-      if (!isCurrentArticleLoad(token, mount)) return;
-    }
-    await loadScriptOnce(`assets/gita.js?v=${DATA_VERSION}`);
+  for (const f of reading.files) {
+    await loadScriptOnce(`${reading.base}${f}?v=${DATA_VERSION}`);
     if (!isCurrentArticleLoad(token, mount)) return;
-    if (dpArticleHead) {
-      dpArticleHead.hidden = false;
-      dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
-        <p class="dp-title">${reading.title}</p>
-        <p class="dp-attrib">${reading.blurb}</p>`;
-    }
-    if (window.GitaReader && mount) {
-      const readingData = reading.data();
-      await window.GitaReader.render(mount, {
-        glossaryBase: "data/glossary/", audioBase: reading.base, data: readingData,
-        onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
-        onThinker: (id) => openThinker(id),
-        linkifyGlossary: linkifyGlossaryText, glossaryResolve: gitaGlossaryResolve,
-      });
-      if (isCurrentArticleLoad(token, mount) && reading.afterRender) reading.afterRender(mount, readingData);
-    }
-  } catch (_) {
-    if (isCurrentArticleLoad(token, mount)) mount.innerHTML = "<article><p>Could not load the reading.</p></article>";
   }
+  await loadScriptOnce(`assets/gita.js?v=${DATA_VERSION}`);
+  if (!isCurrentArticleLoad(token, mount)) return;
+  if (dpArticleHead) {
+    dpArticleHead.hidden = false;
+    dpArticleHead.innerHTML = `<p class="dp-eyebrow">Reading</p>
+      <p class="dp-title">${reading.title}</p>
+      <p class="dp-attrib">${reading.blurb}</p>`;
+  }
+  if (!window.GitaReader || !mount) throw new Error("Reader unavailable");
+  if (window.GitaReader && mount) {
+    const readingData = reading.data();
+    await window.GitaReader.render(mount, {
+      glossaryBase: "data/glossary/", audioBase: reading.base, data: readingData,
+      onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
+      onThinker: (id) => openThinker(id),
+      linkifyGlossary: linkifyGlossaryText, glossaryResolve: gitaGlossaryResolve,
+    });
+    if (isCurrentArticleLoad(token, mount) && reading.afterRender) reading.afterRender(mount, readingData);
+  }
+
 }
 
 async function openSahasranamaReading(token, mount, modeMount) {
   if (dpTabTitle) dpTabTitle.textContent = SAHASRANAMA_READING.title;
-  try {
-    await loadScriptOnce(`assets/gita.js?v=${DATA_VERSION}`);
-    if (!isCurrentArticleLoad(token, mount)) return;
-    await loadScriptOnce(`assets/sahasranama.js?v=${DATA_VERSION}`);
-    if (!isCurrentArticleLoad(token, mount)) return;
-    if (dpArticleHead) { dpArticleHead.innerHTML = ""; dpArticleHead.hidden = true; }
-    if (window.SahasranamaReader && mount) {
-      if (dpReaderMode) dpReaderMode.hidden = false;
-      let completed = false;
-      const ownsMount = () => mount.parentNode === dpArticleBody && panelState.open
-        && panelState.activeTab === "article"
-        && (completed || isCurrentArticleLoad(token, mount));
-      await window.SahasranamaReader.render(mount, {
-        dataUrl: SAHASRANAMA_READING.dataUrl, detailsUrl: SAHASRANAMA_READING.detailsUrl,
-        styleUrl: `assets/sahasranama.css?v=${DATA_VERSION}`, modeHost: modeMount,
-        isCurrent: ownsMount,
-        onThinker: (id) => openThinker(id),
-        onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
-        linkifyGlossary: linkifyGlossaryText, glossaryResolve: gitaGlossaryResolve,
-      });
-      completed = isCurrentArticleLoad(token, mount);
-    }
-  } catch (_) {
-    if (isCurrentArticleLoad(token, mount)) mount.innerHTML = "<article><p>Could not load the reading.</p></article>";
+  await loadScriptOnce(`assets/gita.js?v=${DATA_VERSION}`);
+  if (!isCurrentArticleLoad(token, mount)) return;
+  await loadScriptOnce(`assets/sahasranama.js?v=${DATA_VERSION}`);
+  if (!isCurrentArticleLoad(token, mount)) return;
+  if (dpArticleHead) { dpArticleHead.innerHTML = ""; dpArticleHead.hidden = true; }
+  if (!window.SahasranamaReader || !mount) throw new Error("Reader unavailable");
+  if (window.SahasranamaReader && mount) {
+    if (dpReaderMode) dpReaderMode.hidden = false;
+    let completed = false;
+    const ownsMount = () => mount.parentNode === dpArticleBody && panelState.open
+      && (completed ? panelState.activeTab === "article" : isCurrentArticleLoad(token, mount));
+    await window.SahasranamaReader.render(mount, {
+      dataUrl: SAHASRANAMA_READING.dataUrl, detailsUrl: SAHASRANAMA_READING.detailsUrl,
+      styleUrl: `assets/sahasranama.css?v=${DATA_VERSION}`, modeHost: modeMount,
+      isCurrent: ownsMount,
+      onThinker: (id) => openThinker(id),
+      onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
+      linkifyGlossary: linkifyGlossaryText, glossaryResolve: gitaGlossaryResolve,
+    });
+    completed = isCurrentArticleLoad(token, mount);
   }
+
 }
 
 // Article loading lifecycle: the panel owns the generation and interactive mounts.
@@ -5816,6 +5886,9 @@ async function openSahasranamaReading(token, mount, modeMount) {
 // interactive mount also isolates writes inside an asynchronous reader engine.
 function invalidateArticleLoad() {
   panelState.articleLoadGeneration = (panelState.articleLoadGeneration || 0) + 1;
+  panelNavigationVersion += 1;
+  window.GitaReader?.stopAudio?.();
+  window.SahasranamaReader?.stopAudio?.();
   // Completed tabs retain their content for a return visit. Pending engine
   // mounts must detach because their own awaited work can still write to them.
   if (!panelState.loaded.article) {
@@ -5824,6 +5897,7 @@ function invalidateArticleLoad() {
   }
   panelState.articleMount = null;
   panelState.articleModeMount = null;
+  return panelState.articleLoadGeneration;
 }
 
 function isCurrentArticleLoad(token, element) {
@@ -5833,6 +5907,14 @@ function isCurrentArticleLoad(token, element) {
 
 function enrichArticleFootnotes(article, footnotes, token) {
   if (!isCurrentArticleLoad(token, article)) return;
+  const footer = article.querySelector(".cite-fn-wrap");
+  if (footer && document.activeElement && footer.contains(document.activeElement)) return;
+  const selection = window.getSelection?.();
+  if (footer && selection && !selection.isCollapsed) {
+    for (let i = 0; i < selection.rangeCount; i++) {
+      if (selection.getRangeAt(i).intersectsNode(footer)) return;
+    }
+  }
   // Keep reading paragraphs, equation nodes and citation anchors intact.
   for (const f of footnotes) {
     const row = article.querySelector(`#cite-fn-${f.idx}`);
@@ -5848,95 +5930,84 @@ function enrichArticleFootnotes(article, footnotes, token) {
 }
 
 async function openArticle(a) {
-  invalidateArticleLoad();
-  const token = panelState.articleLoadGeneration;
-  panelState.loaded.article = false;
-  closeArticlesModal();
-  applyTabContext("article");
-  if (dpReaderMode) { dpReaderMode.replaceChildren(); dpReaderMode.hidden = true; }
-  if (dpTabTitle) dpTabTitle.textContent = String(a.title || "").replace(/[*_`\[\]]/g, "");
-  if (dpArticleHead) {
-    dpArticleHead.hidden = false;
-    const pill = a.kind === "perspective" ? '<span class="perspective-pill perspective-pill--inline">PERSPECTIVE</span> ' : "";
-    const kind = a.kind === "perspective" ? "Perspective" : (a.kind || "Article");
-    dpArticleHead.innerHTML = `<p class="dp-eyebrow">${escape(kind.charAt(0).toUpperCase() + kind.slice(1))}</p>
-      <p class="dp-title">${pill}${md(a.title)}</p>${a.subtitle ? `<p class="dp-attrib">${md(a.subtitle)}</p>` : ""}`;
-  }
-  if (dpArticleBody) dpArticleBody.innerHTML = '<article><p class="dp-loading">Loading…</p></article>';
-  openPanel("article");
-  if (a.interactive) setReadingMode(true, { skipAutoOpen: true });
-  if (a.interactive === SAHASRANAMA_READING.slug || (a.interactive && GITA_READINGS[a.interactive])) {
-    const mount = document.createElement("div");
-    mount.setAttribute("class", "article-interactive-mount");
-    dpArticleBody.replaceChildren(mount);
-    panelState.articleMount = mount;
-    if (a.interactive === SAHASRANAMA_READING.slug) {
-      const modeMount = document.createElement("div");
-      modeMount.setAttribute("class", "article-mode-mount");
-      if (dpReaderMode) dpReaderMode.replaceChildren(modeMount);
-      panelState.articleModeMount = modeMount;
-      await openSahasranamaReading(token, mount, modeMount);
-    } else {
-      await openGitaReading(a.interactive, token, mount);
-    }
-    if (!isCurrentArticleLoad(token, mount)) return;
-    panelState.loaded.article = true;
-    router.push({ kind: "article", slug: a.slug });
-    return;
-  }
-
-  const path = a.source_doc || (a.kind === "perspective"
-    ? `data/perspectives/source/${a.slug}.md` : `data/articles/source/${a.slug}.md`);
-  let text;
+  const token = prepareArticle(a);
   try {
+    if (a.interactive === SAHASRANAMA_READING.slug || (a.interactive && GITA_READINGS[a.interactive])) {
+      const mount = document.createElement("div");
+      mount.setAttribute("class", "article-interactive-mount");
+      dpArticleBody.replaceChildren(mount);
+      panelState.articleMount = mount;
+      if (a.interactive === SAHASRANAMA_READING.slug) {
+        const modeMount = document.createElement("div");
+        modeMount.setAttribute("class", "article-mode-mount");
+        if (dpReaderMode) dpReaderMode.replaceChildren(modeMount);
+        panelState.articleModeMount = modeMount;
+        await openSahasranamaReading(token, mount, modeMount);
+      } else {
+        await openGitaReading(a.interactive, token, mount);
+      }
+      if (!isCurrentArticleLoad(token, mount)) return;
+      panelState.loaded.article = true;
+      return;
+    }
+
+    const path = a.source_doc || (a.kind === "perspective"
+      ? `data/perspectives/source/${a.slug}.md` : `data/articles/source/${a.slug}.md`);
     const r = await fetch(path);
     if (!isCurrentArticleLoad(token)) return;
     if (!r.ok) throw new Error("Article request failed");
-    text = await r.text();
+    const text = await r.text();
     if (!isCurrentArticleLoad(token)) return;
-  } catch (_) {
-    if (isCurrentArticleLoad(token) && dpArticleBody) {
-      dpArticleBody.innerHTML = `<article><p>Could not load this article. Please try opening it again.</p></article>`;
+    if (!dpArticleBody) return;
+    // One parse and one numbering pass preserve article-wide repeated citations.
+    const articleR = numberCitations(renderMarkdownFull(text), { n: 0 });
+    const fnList = renderFootnoteList(articleR.footnotes);
+    dpArticleBody.innerHTML = `<article data-article-slug="${escape(a.slug || "")}">${articleR.html}${fnList}</article>`;
+    const article = dpArticleBody.firstElementChild;
+    dpArticleBody.scrollTop = 0;
+    panelState.loaded.article = true;
+    // Metadata enriches the complete fallback list without gating readable text.
+    if (articleR.footnotes.length && !state.citationIndex) {
+      loadCitationIndex().then(() => enrichArticleFootnotes(article, articleR.footnotes, token)).catch(() => {});
     }
-    return;
-  }
-  if (!dpArticleBody) return;
-  // One parse and one numbering pass preserve article-wide repeated citations.
-  const articleR = numberCitations(renderMarkdownFull(text), { n: 0 });
-  const fnList = renderFootnoteList(articleR.footnotes);
-  dpArticleBody.innerHTML = `<article data-article-slug="${escape(a.slug || "")}">${articleR.html}${fnList}</article>`;
-  const article = dpArticleBody.firstElementChild;
-  dpArticleBody.scrollTop = 0;
-  panelState.loaded.article = true;
-  router.push({ kind: a.kind === "perspective" ? "perspective" : "article", slug: a.slug });
-  // Metadata enriches the complete fallback list without gating readable text.
-  if (articleR.footnotes.length && !state.citationIndex) {
-    loadCitationIndex().then(() => enrichArticleFootnotes(article, articleR.footnotes, token)).catch(() => {});
-  }
-  if (a.passages_doc) {
-    try {
-      const pr = await fetch(a.passages_doc);
-      if (!isCurrentArticleLoad(token, article)) return;
-      const pd = pr.ok ? await pr.json() : null;
-      if (!isCurrentArticleLoad(token, article)) return;
-      if (pd && Array.isArray(pd.passages)) {
-        const included = Array.isArray(pd.includes) ? pd.includes : [];
-        const includeData = await Promise.all(included.map(async (path) => {
-          const rr = await fetch(path);
-          return rr.ok ? await rr.json() : null;
-        }));
+    if (a.passages_doc) {
+      try {
+        const pr = await fetch(a.passages_doc);
         if (!isCurrentArticleLoad(token, article)) return;
-        const allPassages = pd.passages.concat(...includeData.filter((x) => x && Array.isArray(x.passages)).map((x) => x.passages));
-        await loadScriptOnce("assets/gita.js");
+        if (!pr.ok) throw new Error("Could not load passages");
+        const pd = await pr.json();
         if (!isCurrentArticleLoad(token, article)) return;
-        if (window.GitaReader) window.GitaReader.renderPassages(article, allPassages, {
-          glossaryBase: "data/glossary/",
-          onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
-          onThinker: (id) => openThinker(id),
-          linkifyGlossary: linkifyGlossaryText, glossaryResolve: gitaGlossaryResolve,
-        });
+        if (!Array.isArray(pd?.passages)) throw new Error("Invalid passages");
+        if (pd && Array.isArray(pd.passages)) {
+          const included = Array.isArray(pd.includes) ? pd.includes : [];
+          const includeData = await Promise.all(included.map(async (path) => {
+            const rr = await fetch(path);
+            if (!rr.ok) throw new Error("Could not load included passages");
+            return rr.json();
+          }));
+          if (!isCurrentArticleLoad(token, article)) return;
+          if (includeData.some((x) => !Array.isArray(x?.passages))) throw new Error("Invalid included passages");
+          const allPassages = pd.passages.concat(...includeData.map((x) => x.passages));
+          await loadScriptOnce(`assets/gita.js?v=${DATA_VERSION}`);
+          if (!isCurrentArticleLoad(token, article)) return;
+          if (!window.GitaReader) throw new Error("Reader unavailable");
+          window.GitaReader.renderPassages(article, allPassages, {
+            glossaryBase: "data/glossary/",
+            onGlossary: (term, anchor, opts) => openGlossary(term, anchor, opts),
+            onThinker: (id) => openThinker(id),
+            linkifyGlossary: linkifyGlossaryText, glossaryResolve: gitaGlossaryResolve,
+          });
+        }
+      } catch (_) {
+        if (!isCurrentArticleLoad(token, article)) return;
+        const notice = document.createElement("p");
+        notice.setAttribute("role", "status");
+        notice.textContent = "Some interactive passages could not be loaded. Reopen this reading to try again.";
+        article.appendChild(notice);
       }
-    } catch (_) { /* The readable article remains available if optional passages fail. */ }
+    }
+  } catch (_) {
+    showArticleLoadError(token, () => openArticle(a));
   }
 }
 

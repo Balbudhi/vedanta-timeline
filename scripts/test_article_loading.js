@@ -22,76 +22,11 @@ const code = [
   section("// ---------- markdown helpers", "// The active chronology resolver"),
   section("function openPanel(", "function showTab("),
   section("async function openThinker(", "function scrollDotIntoView("),
-  section("async function openGitaReading(", "// Markdown renderer for the article reader."),
+  section("let panelNavigationVersion =", "// Markdown renderer for the article reader."),
   section("// Markdown renderer for the article reader.", "// ---------- keyboard nav"),
 ].join("\n");
 
-class Element {
-  constructor(tag = "div", attrs = {}, text = null) {
-    this.tagName = tag.toUpperCase(); this.attrs = attrs; this.children = [];
-    this.parentNode = null; this.text = text; this.scrollTop = 0; this.hidden = false;
-    this.style = { setProperty() {} }; this.writes = 0; this.listeners = new Map();
-    this.paused = true; this.ended = false; this.currentTime = 0; this.duration = 100;
-    this.classList = {
-      contains: c => (this.attrs.class || "").split(/\s+/).includes(c),
-      add: c => { if (!this.classList.contains(c)) this.attrs.class = ((this.attrs.class || "") + " " + c).trim(); },
-      remove: c => { this.attrs.class = (this.attrs.class || "").split(/\s+/).filter(x => x !== c).join(" "); },
-      toggle: (c, on) => { if (on ?? !this.classList.contains(c)) this.classList.add(c); else this.classList.remove(c); },
-    };
-  }
-  get dataset() { return Object.fromEntries(Object.entries(this.attrs).filter(([k]) => k.startsWith("data-")).map(([k,v]) => [k.slice(5).replace(/-([a-z])/g, (_,c) => c.toUpperCase()),v])); }
-  get innerHTML() { return this.children.map(x => x.outerHTML).join(""); }
-  set innerHTML(html) { this.writes++; this.replaceChildren(...parse(String(html))); }
-  get outerHTML() { if (this.text !== null) return this.text; return `<${this.tagName.toLowerCase()}${Object.entries(this.attrs).map(([k,v]) => ` ${k}="${v}"`).join("")}>${this.innerHTML}</${this.tagName.toLowerCase()}>`; }
-  get textContent() { return this.text !== null ? this.text.replace(/<[^>]*>/g, "") : this.children.map(x => x.textContent).join(""); }
-  set textContent(s) { this.replaceChildren(new Element("#text", {}, String(s))); }
-  appendChild(el) { if (el.parentNode) el.remove(); el.parentNode = this; this.children.push(el); return el; }
-  append(...els) { for (const el of els) this.appendChild(el); }
-  replaceChildren(...els) { for (const el of this.children) el.parentNode = null; this.children = []; this.append(...els); }
-  remove() { if (this.parentNode) { const p = this.parentNode; p.children.splice(p.children.indexOf(this),1); this.parentNode = null; } }
-  replaceWith(el) { const p = this.parentNode; assert.ok(p, "replacement target attached"); const i = p.children.indexOf(this); this.parentNode = null; el.parentNode = p; p.children[i] = el; }
-  insertAdjacentHTML(where, html) { assert.equal(where, "beforeend", "fixture supports append insertion only"); this.append(...parse(html)); }
-  setAttribute(k,v) { this.attrs[k] = String(v); }
-  removeAttribute(k) { delete this.attrs[k]; }
-  closest(selector) { return this.matches(selector) ? this : this.parentNode?.closest(selector) || null; }
-  getAttribute(k) { return this.attrs[k] ?? null; }
-  get lastChild() { return this.children.at(-1) || null; }
-  get nodeValue() { return this.text; }
-  set nodeValue(value) { this.text = String(value); }
-  get firstElementChild() { return this.children.find(x => x.text === null) || null; }
-  contains(el) { return this === el || this.children.some(x => x.contains(el)); }
-  get isConnected() { return this.parentNode ? this.parentNode.isConnected : this.tagName === "BODY"; }
-  matches(selector) {
-    if (this.text !== null) return false;
-    if (selector.startsWith(".")) return this.classList.contains(selector.slice(1));
-    if (selector.startsWith("#")) return this.attrs.id === selector.slice(1);
-    const m = selector.match(/^([\w-]+)?\[([\w-]+)(?:=["']?([^"'\]]+)["']?)?\]$/);
-    if (m) return (!m[1] || this.tagName.toLowerCase() === m[1]) && this.attrs[m[2]] != null && (m[3] == null || this.attrs[m[2]] === m[3]);
-    return this.tagName.toLowerCase() === selector;
-  }
-  querySelectorAll(selector) { const all = []; for (const child of this.children) { if (child.matches(selector)) all.push(child); all.push(...child.querySelectorAll(selector)); } return all; }
-  querySelector(selector) { return this.querySelectorAll(selector)[0] || null; }
-  addEventListener(name, fn) { if(!this.listeners.has(name))this.listeners.set(name,[]);this.listeners.get(name).push(fn); }
-  removeEventListener(name, fn) { this.listeners.set(name,(this.listeners.get(name)||[]).filter(x=>x!==fn)); }
-  emit(name, event={}) { for(const fn of this.listeners.get(name)||[])fn(event); }
-  pause() { this.paused=true; }
-  play() { this.paused=false; return Promise.resolve(); }
-}
-function parse(html) {
-  const root = new Element(), stack = [root];
-  for (const token of html.match(/<!--[\s\S]*?-->|<[^>]+>|[^<]+/g) || []) {
-    if (token.startsWith("<!--")) continue;
-    if (token.startsWith("</")) { if (stack.length > 1) stack.pop(); continue; }
-    if (token.startsWith("<")) {
-      const tag = token.match(/^<([\w-]+)/)?.[1]; if (!tag) continue;
-      const attrs = {};
-      for (const m of token.matchAll(/([\w-]+)\s*=\s*"([^"]*)"/g)) attrs[m[1]] = m[2];
-      const el = new Element(tag,attrs); stack.at(-1).appendChild(el);
-      if (!/^(?:br|hr|img|input|meta|link)$/i.test(tag) && !token.endsWith("/>")) stack.push(el);
-    } else stack.at(-1).appendChild(new Element("#text", {}, token));
-  }
-  return [...root.children];
-}
+const { Element } = require("./test_helpers/article_dom");
 function deferred() { let resolve, reject; const promise = new Promise((a,b) => { resolve=a; reject=b; }); return { promise, resolve, reject }; }
 const tick = () => new Promise(resolve => setImmediate(resolve));
 async function settle() { await tick(); await tick(); }
@@ -308,12 +243,12 @@ function lastRoute(h) { return h.routes.at(-1); }
     h.setResponder(async()=>({ok:true,json:async()=>index}));await h.c.loadCitationIndex();
     assert.equal(h.requests.length,2);assert.equal(h.c.state.citationIndex.entries[key].work_title,"Reviewed work");
   });
-  await test("switching away through actual tab control invalidates pending article",async()=>{
+  await test("citation tab preserves pending article content without stealing the active surface",async()=>{
     const h=harness(),gate=deferred();h.c.state.citationIndex=index;
     h.setResponder(()=>gate.promise);const a=h.c.openArticle(article("a"));await settle();
     h.c.setPanelTab("citation");const html=h.body.innerHTML,routes=h.routes.length;
-    gate.resolve({ok:true,text:async()=>"STALE"});await a;
-    assert.equal(h.body.innerHTML,html);assert.equal(h.routes.length,routes);
+    gate.resolve({ok:true,text:async()=>"CACHED ARTICLE"});await a;
+    assert.ok(h.body.textContent.includes("CACHED ARTICLE"));assert.equal(h.routes.length,routes);
     assert.equal(h.c.panelState.activeTab,"citation");
   });
   await test("uncited article displays without acquiring citation metadata",async()=>{
@@ -339,6 +274,17 @@ function lastRoute(h) { return h.routes.at(-1); }
     assert.equal(h.body.firstElementChild,node);
     await engine.setChantView(true,false);assert.ok(reader.classList.contains("vsn-chant-only"),"returned control still acts on cached reader");
     await engine.setChantView(false,false);assert.ok(!reader.classList.contains("vsn-chant-only"));
+  });
+  await test("actual pending Sahasranama finishes behind a citation and remains usable on return", async()=>{
+    const h=harness(), engine=installActualSahas(h), gate=deferred();
+    h.setResponder(async url=>url.includes("details")?({ok:true,json:async()=>({names:[]})}):gate.promise);
+    const opening=h.c.openArticle({...article("reading"),interactive:"sahasranama"});await settle();
+    h.c.setPanelTab("citation");const routes=h.routes.length;
+    gate.resolve({ok:true,json:async()=>sahasData("CURRENT")});await opening;
+    assert.ok(h.body.textContent.includes("BODY CURRENT"));assert.equal(h.c.panelState.activeTab,"citation");
+    assert.equal(h.routes.length,routes,"background reader cannot change the active route");
+    h.c.setPanelTab("article");await engine.setChantView(true,false);
+    assert.ok(h.body.querySelector(".vsn-reader").classList.contains("vsn-chant-only"));
   });
   for(const phase of ["response","json","details","details-json"]) for(const target of ["sahasranama","gita"]) {
     await test(`actual Sahasranama late ${phase} cannot overwrite newer ${target} state`,async()=>{
