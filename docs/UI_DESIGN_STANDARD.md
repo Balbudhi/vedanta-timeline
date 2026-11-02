@@ -147,12 +147,14 @@ between a family and its distinct subschool, and parentheses for qualifications.
 School alternatives belong inside the same pill: `Svābhāvika-bhedābheda / Dvaitādvaita`.
 Do not add a separate “Also called” line. Omit a family repeated as a whole compound
 component of the subschool only when it has no additional aliases to preserve;
-substring overlap (Advaita within Viśiṣṭādvaita) is not repetition. Retain the full
-recorded classification in a native disclosure alongside other names and titles.
-Do not duplicate headings solely to remove diacritics.
+substring overlap (Advaita within Viśiṣṭādvaita) is not repetition. Keep meaningful
+qualifications inline in parentheses, removing only an explicit alias already shown
+beside the name. Do not duplicate headings solely to remove diacritics.
 
-Short unqualified alternate work titles share the title with `/`; long or qualified
-lists use one native disclosure. Related/constituent works stay separately labelled,
+Thinker names and alternate work titles share their existing heading with `/`.
+Alternatives use the same inline, lighter typographic treatment and wrap naturally.
+Do not add a naming/classification disclosure, a separate aliases section, or a
+second copy of the classification. Related/constituent works use a plain metadata line,
 never presented as synonymous titles. Negative identifications and unresolved title
 metadata remain editorial records. Keep uncertainty annotations on names in both
 presentation and search. Search results identify their kind and work author, use

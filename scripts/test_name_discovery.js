@@ -43,7 +43,8 @@ assert.match(html, /class="school-pill">Svābhāvika-Bhedābheda \/ Dvaitādvait
 assert.doesNotMatch(html, /Also called|class="name-aliases"/);
 assert.match(html, /Niyamānanda/);
 assert.doesNotMatch(html, /class="romanization"/);
-assert.match(html, /<details[^>]*>[\s\S]*<summary>Names and classification<\/summary>/);
+assert.doesNotMatch(html, /Names and classification|name-details/);
+assert.match(html, /<h2>Nimbārka[\s\S]*Niyamānanda[\s\S]*<\/h2>/);
 assert.match(context.renderHero(thinker("madhva")), /Ānandatīrtha/);
 assert.match(context.renderHero(thinker("kesava-misra")), /Prācīna-Nyāya/);
 assert.match(context.renderHero({ ...thinker("nimbarka"), sub_school: "School (reconstructed)", alternate_names: [] }), /School \(reconstructed\)/);
@@ -71,6 +72,8 @@ assert.doesNotMatch(qualified, /PRIVATE EDITORIAL/);
 const constituent = thinker("ramanuja").engaged_works.find(w => w.work_id === "gadya-trayam");
 assert.doesNotMatch(context.renderWorkTitle(constituent), /Śaraṇāgati/);
 assert.match(context.renderWorkNames(constituent), /Related titles/);
+assert.doesNotMatch(context.renderWorkNames(constituent), /<details|<summary/);
+assert.match(context.renderWorkTitle({title: "Work", alternate_titles: ["Other (traditional)"]}), /Other \(traditional\)/);
 
 // The real build must produce discovery metadata independently of which thinker
 // profiles have already been opened. Hidden thinkers must not become search hits.

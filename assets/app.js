@@ -2505,9 +2505,11 @@ function distinctNames(values, excluded = []) {
 function schoolNames(t) {
   const school = state.schools[t.school_color_token] || {};
   const sub = Object.values(state.subSchools).find(s => s.display_name === t.sub_school) || {};
-  const compact = value => String(value || "").replace(/\s*\([^)]*\)\s*/g, " ").trim();
-  const primary = compact(school.display_name || t.school);
-  const secondary = compact(t.sub_school);
+  // Move only explicit aliases out of parentheses; keep actual qualifications.
+  const compact = (value, aliases = []) => String(value || "").replace(/\s*\(([^)]*)\)/g,
+    (whole, inner) => aliases.some(alias => nameKey(alias) === nameKey(inner)) ? "" : whole).trim();
+  const primary = compact(school.display_name || t.school, school.aliases);
+  const secondary = compact(t.sub_school, sub.aliases);
   const familyAliases = distinctNames(school.aliases, [primary]);
   const subAliases = distinctNames(sub.aliases, [secondary]);
   // Only whole compound components count as repetition: Advaita must not match
@@ -2527,39 +2529,20 @@ function schoolNames(t) {
   };
 }
 
-function renderNameMetadata(t, school) {
-  const names = distinctNames([t.name, ...(t.alternate_names || [])], [t.name_iast || t.name || t.id]);
-  const hasClassificationDetail = school.classification !== school.groups.map(g => g.join(" / ")).join(" · ");
-  if (!names.length && !hasClassificationDetail) return "";
-  return `<details class="name-details">
-    <summary>Names and classification</summary>
-    ${names.length ? `<p><strong>Names and titles:</strong> ${names.map(escape).join(" / ")}</p>` : ""}
-    ${hasClassificationDetail ? `<p><strong>Classification:</strong> ${escape(school.classification)}</p>` : ""}
-  </details>`;
-}
-
-function workNames(w) {
-  const primary = w.title_iast || w.title || w.work_id;
-  const aliases = distinctNames([w.title, ...(w.alternate_titles || [])], [primary]);
-  const inline = aliases.length <= 2 && [primary, ...aliases].join(" / ").length <= 100
-    && !aliases.some(name => /[()]/.test(name));
-  return { primary, aliases, inline };
+function renderInlineNames(primary, alternatives) {
+  const aliases = distinctNames(alternatives, [primary]);
+  return escape(primary) + aliases.map(name =>
+    ` <span class="alternate-name">/ ${escape(name)}</span>`).join("");
 }
 
 function renderWorkTitle(w) {
-  const { primary, aliases, inline } = workNames(w);
-  return (inline ? [primary, ...aliases] : [primary]).map(escape).join(" / ");
+  return renderInlineNames(w.title_iast || w.title || w.work_id, [w.title, ...(w.alternate_titles || [])]);
 }
 
 function renderWorkNames(w) {
-  const { aliases, inline } = workNames(w);
   const related = distinctNames(w.related_titles);
-  const line = !inline && aliases.length
-    ? `<p><strong>Other titles and abbreviations:</strong> ${aliases.map(escape).join(" / ")}</p>` : "";
-  const relatedLine = related.length
-    ? `<p><strong>Related titles:</strong> ${related.map(escape).join(" · ")}</p>` : "";
-  return line || relatedLine
-    ? `<details class="name-details work-name-details"><summary>Titles and related works</summary>${line}${relatedLine}</details>` : "";
+  return related.length
+    ? `<p class="related-titles">Related titles: ${related.map(escape).join(" · ")}</p>` : "";
 }
 
 function renderHero(t) {
@@ -2619,11 +2602,10 @@ function renderHero(t) {
   </span>`;
   return `
     <div class="detail-hero">
-      <h2>${escape(t.name_iast || t.name || t.id)}</h2>
+      <h2>${renderInlineNames(t.name_iast || t.name || t.id, [t.name, ...(t.alternate_names || [])])}</h2>
       <div class="meta-row">
         <span class="school-pill">${names.groups.map(group => group.map(linkGlossaryText).join(" / ")).join(" · ")}</span>
       </div>
-      ${renderNameMetadata(t, names)}
       <div class="chronology-summary" aria-label="Academic and traditional chronology evidence">
         ${chronologyPill(academicChronology)}
         ${traditionalChronology.hasPublicRange ? chronologyPill(traditionalChronology) : ""}
