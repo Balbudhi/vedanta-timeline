@@ -134,6 +134,7 @@
   },
   "svabhavika-bhedabheda": {
     "display_name": "Svābhāvika-Bhedābheda (Dvaitādvaita)",
+    "aliases": ["Dvaitādvaita"],
     "parent_school_color_token": "bhedabheda",
     "shade": 4,
     "short_description": "Nimbārka's natural-difference-and-non-difference: Brahman is intrinsically (not adventitiously) both same-as and distinct-from souls and world.",
@@ -337,6 +338,7 @@
   },
   "old-nyaya": {
     "display_name": "Old-Nyāya (Prācīna-Nyāya)",
+    "aliases": ["Prācīna-Nyāya"],
     "parent_school_color_token": "nyaya-comparator",
     "shade": 3,
     "short_description": "The classical commentary stack — Vātsyāyana's Bhāṣya, Uddyotakara's Vārttika, Vāchaspati's Tātparya-Ṭīkā, Udayana's Pariśuddhi — through which Nyāya develops its mature realist epistemology against the Buddhist pramāṇa-tradition.",

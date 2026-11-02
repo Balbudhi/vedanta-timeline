@@ -68,7 +68,8 @@
       ],
       "entry_status": "reviewed",
       "source_status": "degraded-on-disk",
-      "source_status_note": "Sanskrit text not on disk in clean form; the wave-2 Vrindavan 1905 three-commentary edition does not contain the Dasa-Sloki separately. Citations should be sourced via Roma Bose 1940 Vedanta-Parijata-Saurabha vol 1 introduction, OR via Bhandarkar 1913, Vaisnavism, Saivism and Minor Religious Systems."
+      "source_status_note": "Sanskrit text not on disk in clean form; the wave-2 Vrindavan 1905 three-commentary edition does not contain the Dasa-Sloki separately. Citations should be sourced via Roma Bose 1940 Vedanta-Parijata-Saurabha vol 1 introduction, OR via Bhandarkar 1913, Vaisnavism, Saivism and Minor Religious Systems.",
+      "reader_source_note": "The translation dossier covers all ten verses. It reports using the 1927 Chowkhamba edition and Ramnarace’s 2015 thesis for specified verses and variant readings. The available source records give conflicting accounts of the textual witness, so full source verification remains unresolved."
     }
   ],
   "key_passages": [

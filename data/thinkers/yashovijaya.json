@@ -82,10 +82,8 @@
       "work_id": "nyaya-loka",
       "title": "Nyaya-Loka",
       "title_iast": "Nyāya-Loka",
-      "alternate_titles": [
-        "Nyāya-Khaṇḍa-Khādya",
-        "Khaṇḍana-Khaṇḍa"
-      ],
+      "alternate_titles": [],
+      "editorial_title_notes": ["Nyāya-Khaṇḍa-Khādya", "Khaṇḍana-Khaṇḍa"],
       "composition_dates_low": 1660,
       "composition_dates_high": 1685,
       "composition_dates_notes": "The most ambitious dialectical work of Yaśovijaya's mature period.",

@@ -18,6 +18,7 @@ function option(name, fallback) {
 
 const outputPath = option("--output", path.join(repoRoot, "data", "timeline_index.json"));
 const glossaryOutputPath = option("--glossary-output", null);
+const namesOutputPath = option("--names-output", null);
 
 function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -75,16 +76,30 @@ function writeJson(filePath, value) {
 
 const manifest = readJson(manifestPath);
 const seenIds = new Set();
-const thinkers = (manifest.thinkers || []).map((filename) => {
+const fullThinkers = (manifest.thinkers || []).map((filename) => {
   const thinker = readJson(path.join(thinkersDir, filename));
   if (!thinker.id) throw new Error(`${filename}: missing thinker id`);
   if (seenIds.has(thinker.id)) throw new Error(`${filename}: duplicate thinker id ${thinker.id}`);
   seenIds.add(thinker.id);
-  return compactThinker(thinker);
+  return thinker;
 });
+const thinkers = fullThinkers.map(compactThinker);
 
 writeJson(outputPath, { schema_version: 1, thinkers });
 console.log(`wrote ${thinkers.length} timeline records to ${path.relative(repoRoot, outputPath)}`);
+
+if (namesOutputPath) {
+  const names = fullThinkers.filter(t => t.display !== false).map(t => ({
+    id: t.id, name: t.name, name_iast: t.name_iast, alternate_names: t.alternate_names || [],
+    school: t.school, school_color_token: t.school_color_token, sub_school: t.sub_school,
+    engaged_works: (t.engaged_works || []).map(w => ({
+      work_id: w.work_id, title: w.title, title_iast: w.title_iast,
+      alternate_titles: w.alternate_titles || [],
+    })),
+  }));
+  writeJson(namesOutputPath, { schema_version: 1, thinkers: names });
+  console.log(`wrote ${names.length} name records to ${path.relative(repoRoot, namesOutputPath)}`);
+}
 
 if (glossaryOutputPath) {
   const glossaryManifest = readJson(path.join(glossaryDir, "manifest.json"));

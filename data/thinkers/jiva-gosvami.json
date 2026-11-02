@@ -38,14 +38,8 @@
       "work_id": "sat-sandarbha",
       "title": "Sat-Sandarbha",
       "title_iast": "Ṣaṭ-Sandarbha",
-      "alternate_titles": [
-        "Tattva-Sandarbha",
-        "Bhagavat-Sandarbha",
-        "Paramātma-Sandarbha",
-        "Kṛṣṇa-Sandarbha",
-        "Bhakti-Sandarbha",
-        "Prīti-Sandarbha"
-      ],
+      "alternate_titles": [],
+      "related_titles": ["Tattva-Sandarbha", "Bhagavat-Sandarbha", "Paramātma-Sandarbha", "Kṛṣṇa-Sandarbha", "Bhakti-Sandarbha", "Prīti-Sandarbha"],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored six-fold systematic Gauḍīya exposition.",
       "ascription_evidence": [

@@ -296,11 +296,8 @@
       "work_id": "gadya-trayam",
       "title": "Gadya-Trayam",
       "title_iast": "Gadya-Trayam",
-      "alternate_titles": [
-        "Śaraṇāgati-Gadya",
-        "Śrīraṅga-Gadya",
-        "Vaikuṇṭha-Gadya"
-      ],
+      "alternate_titles": [],
+      "related_titles": ["Śaraṇāgati-Gadya", "Śrīraṅga-Gadya", "Vaikuṇṭha-Gadya"],
       "ascription_tier": "traditionally-ascribed",
       "ascription_notes": "Traditionally ascribed and accepted in tradition; modern scholarship occasionally questions individual passages.",
       "genre": "stotra",

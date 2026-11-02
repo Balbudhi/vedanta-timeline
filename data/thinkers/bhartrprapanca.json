@@ -44,7 +44,8 @@
       ],
       "entry_status": "reviewed",
       "source_status": "primary-text-not-in-corpus",
-      "source_status_note": "Sanskrit text not on disk in clean form; every fragment is cited via Hiriyanna 1924 Indian Antiquary vol 53 reconstruction (image-only PDF on disk) and further-attested via Nakamura 1983, A History of Early Vedanta Philosophy I.7."
+      "source_status_note": "Sanskrit text not on disk in clean form; every fragment is cited via Hiriyanna 1924 Indian Antiquary vol 53 reconstruction (image-only PDF on disk) and further-attested via Nakamura 1983, A History of Early Vedanta Philosophy I.7.",
+      "reader_source_note": "This is a reconstruction dossier, not a surviving text of Bhartṛprapañca’s commentary. It translates selected Bṛhadāraṇyaka-Upaniṣad passages used as anchors in Hiriyanna’s reconstruction. Those Upaniṣadic words are not verbatim quotations from Bhartṛprapañca."
     }
   ],
   "key_passages": [

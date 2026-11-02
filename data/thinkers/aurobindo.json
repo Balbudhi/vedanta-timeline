@@ -118,9 +118,8 @@
       "work_id": "the-secret-of-the-veda",
       "title": "The Secret of the Veda",
       "title_iast": "The Secret of the Veda",
-      "alternate_titles": [
-        "Hymns to the Mystic Fire"
-      ],
+      "alternate_titles": [],
+      "related_titles": ["Hymns to the Mystic Fire"],
       "composition_dates_low": 1914,
       "composition_dates_high": 1917,
       "composition_dates_notes": "Serialised in Arya 1914–1917.",

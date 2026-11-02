@@ -56,6 +56,7 @@ jobs:
             _site/
           node scripts/build_timeline_index.js \
             --output _site/data/timeline_index.json \
+            --names-output _site/data/name_index.json \
             --glossary-output _site/data/glossary/bundle.json
           # Every deployed revision must produce different service-worker
           # bytes so installed PWAs discover every push without a manual cache

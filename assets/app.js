@@ -491,6 +491,7 @@ async function loadSupportData(manifest) {
     for (const alias of (term.aliases || [])) state.glossary.set(alias, term);
   }
   buildGlossaryRegex();
+  _searchIndex = null;
 
   ensurePerspectivesLoaded();
 }
@@ -2483,25 +2484,92 @@ function renderProfileSections(t) {
   return html || sourceLimitHtml ? `${html}${sourceLimitHtml}${renderFootnoteList(footnotes)}` : "";
 }
 
+// ---------- name metadata -----------
+// Identity metadata is distinct from doctrinal prose. Preserve qualifiers and
+// never infer that arbitrary parentheses contain an alias.
+function nameKey(value) {
+  return normalizeDia(value).replace(/[^\p{L}\p{N}]/gu, "");
+}
+
+function distinctNames(values, excluded = []) {
+  const seen = new Set(excluded.map(nameKey));
+  return (values || []).filter(value => {
+    if (typeof value !== "string" || !value.trim()) return false;
+    const key = nameKey(value);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function schoolNames(t) {
+  const school = state.schools[t.school_color_token] || {};
+  const sub = Object.values(state.subSchools).find(s => s.display_name === t.sub_school) || {};
+  const compact = value => String(value || "").replace(/\s*\([^)]*\)\s*/g, " ").trim();
+  const primary = compact(school.display_name || t.school);
+  const secondary = compact(t.sub_school);
+  const familyAliases = distinctNames(school.aliases, [primary]);
+  const subAliases = distinctNames(sub.aliases, [secondary]);
+  // Only whole compound components count as repetition: Advaita must not match
+  // the inside of Viśiṣṭādvaita, Śuddhādvaita or Dvaitādvaita.
+  const words = value => normalizeDia(value).replace(/[^\p{L}\p{N}]+/gu, " ").trim();
+  const repeatsFamily = primary && (` ${words(secondary)} `).includes(` ${words(primary)} `);
+  const groups = [];
+  if (primary && (!secondary || !repeatsFamily || familyAliases.length)) groups.push([primary, ...familyAliases]);
+  if (secondary && nameKey(secondary) !== nameKey(primary)) groups.push([secondary, ...subAliases]);
+  else if (secondary && !groups.length) groups.push([secondary, ...subAliases]);
+  else if (groups.length) groups[0].push(...distinctNames(subAliases, groups[0]));
+  return {
+    groups,
+    labels: distinctNames([primary, secondary]),
+    aliases: distinctNames([...subAliases, ...familyAliases], [primary, secondary]),
+    classification: distinctNames([school.display_name || t.school, t.sub_school]).join(" · "),
+  };
+}
+
+function renderNameMetadata(t, school) {
+  const names = distinctNames([t.name, ...(t.alternate_names || [])], [t.name_iast || t.name || t.id]);
+  const hasClassificationDetail = school.classification !== school.groups.map(g => g.join(" / ")).join(" · ");
+  if (!names.length && !hasClassificationDetail) return "";
+  return `<details class="name-details">
+    <summary>Names and classification</summary>
+    ${names.length ? `<p><strong>Names and titles:</strong> ${names.map(escape).join(" / ")}</p>` : ""}
+    ${hasClassificationDetail ? `<p><strong>Classification:</strong> ${escape(school.classification)}</p>` : ""}
+  </details>`;
+}
+
+function workNames(w) {
+  const primary = w.title_iast || w.title || w.work_id;
+  const aliases = distinctNames([w.title, ...(w.alternate_titles || [])], [primary]);
+  const inline = aliases.length <= 2 && [primary, ...aliases].join(" / ").length <= 100
+    && !aliases.some(name => /[()]/.test(name));
+  return { primary, aliases, inline };
+}
+
+function renderWorkTitle(w) {
+  const { primary, aliases, inline } = workNames(w);
+  return (inline ? [primary, ...aliases] : [primary]).map(escape).join(" / ");
+}
+
+function renderWorkNames(w) {
+  const { aliases, inline } = workNames(w);
+  const related = distinctNames(w.related_titles);
+  const line = !inline && aliases.length
+    ? `<p><strong>Other titles and abbreviations:</strong> ${aliases.map(escape).join(" / ")}</p>` : "";
+  const relatedLine = related.length
+    ? `<p><strong>Related titles:</strong> ${related.map(escape).join(" · ")}</p>` : "";
+  return line || relatedLine
+    ? `<details class="name-details work-name-details"><summary>Titles and related works</summary>${line}${relatedLine}</details>` : "";
+}
+
 function renderHero(t) {
   const chronology = resolveChronology(t);
-  // The pill shows the SCHOOL name(s) only — the parenthetical English
-  // *description* (e.g. "(modern dharmic-political revivalism)", "(self-enquiry)")
-  // is not part of the pill. Sanskrit terms are glossary-linked where a headword
-  // exists so a short name (Śuddhādvaita, Pūrṇa-Advaita…) can be tapped to learn
-  // what it means; the longest match wins so the whole compound links, not a part.
-  const stripDesc = (s) => String(s || "").replace(/\s*\([^)]*\)\s*/g, " ").trim();
-  const linkGlossaryText = (s) => {
-    let out = escape(stripDesc(s));
-    if (state.glossaryRegex) out = out.replace(state.glossaryRegex, (m) => `<span class="term" data-term="${m}">${m}</span>`);
-    return out;
-  };
-  // A sub-school that, once its English description is stripped, is identical to
-  // the school name is just repetition (e.g. "Tattva-vāda · Tattva-vāda") — drop it.
-  const schoolText = stripDesc(state.schools[t.school_color_token]?.display_name || t.school);
-  const subSchoolText = stripDesc(t.sub_school);
-  const subSchool = subSchoolText && subSchoolText !== schoolText
-    ? " · " + linkGlossaryText(t.sub_school) : "";
+  // Only exact glossary headwords are interactive; a matching component of a
+  // different school name must not masquerade as a definition of the whole.
+  const linkGlossaryText = label => state.glossary.has(label)
+    ? `<button type="button" class="school-term" data-term="${escape(label)}" aria-label="Explain ${escape(label)}">${escape(label)}</button>`
+    : escape(label);
+  const names = schoolNames(t);
   // Number citations in the core thesis. The footnote counter is local to
   // the hero block; engaged-works cards each start their own counter so
   // numbering does not balloon across the whole entry.
@@ -2552,10 +2620,10 @@ function renderHero(t) {
   return `
     <div class="detail-hero">
       <h2>${escape(t.name_iast || t.name || t.id)}</h2>
-      ${t.name && t.name !== t.name_iast ? `<p class="romanization">${escape(t.name)}</p>` : ""}
       <div class="meta-row">
-        <span class="school-pill">${linkGlossaryText(schoolText)}${subSchool}</span>
+        <span class="school-pill">${names.groups.map(group => group.map(linkGlossaryText).join(" / ")).join(" · ")}</span>
       </div>
+      ${renderNameMetadata(t, names)}
       <div class="chronology-summary" aria-label="Academic and traditional chronology evidence">
         ${chronologyPill(academicChronology)}
         ${traditionalChronology.hasPublicRange ? chronologyPill(traditionalChronology) : ""}
@@ -2765,12 +2833,14 @@ function renderWorkCard(w, passages, thinkerId) {
   return `
     <div class="work-card" data-work-id="${escape(w.work_id)}" data-source-status="${escape(status)}">
       <div class="title-line">
-        <span class="title">${escape(w.title_iast || w.title || w.work_id)}</span>
+        <span class="title">${renderWorkTitle(w)}</span>
         ${ascr ? `<span class="ascr">${escape(ascr)}</span>` : ""}
       </div>
+      ${renderWorkNames(w)}
       <p class="summary">${summaryRendered.html}</p>
       ${ascrRendered.html ? `<p class="ascr-notes">${ascrRendered.html}</p>` : ""}
-      ${statusLabel ? `<p class="source-status source-status--${statusKind}"><span class="dot"></span>${escape(statusLabel)}</p>` : ""}
+      ${statusLabel && !w.reader_source_note ? `<p class="source-status source-status--${statusKind}"><span class="dot"></span>${escape(statusLabel)}</p>` : ""}
+      ${w.reader_source_note ? `<p class="work-source-note"><strong>Source qualification.</strong> ${escape(w.reader_source_note)}</p>` : ""}
       ${interactiveButton || readButton}
       ${renderFootnoteList(allFootnotes)}
       ${passagesBlock}
@@ -3591,7 +3661,7 @@ function openGlossary(termKey, anchorEl, opts) {
   pop.innerHTML = `
     <div class="gp-search-row">
       <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.4" fill="none"/><path d="M10.5 10.5L13.5 13.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-      <input class="gp-search-input" type="search" placeholder="Look up another term…" autocomplete="off" spellcheck="false" aria-label="Search the Sanskrit glossary" data-no-drag />
+      <input class="gp-search-input" type="search" placeholder="Search names, works and terms…" autocomplete="off" spellcheck="false" aria-label="Search thinkers, works and glossary terms" data-no-drag />
       <button class="gp-close" aria-label="Close" data-no-drag type="button">×</button>
     </div>
     <div class="gp-body"></div>
@@ -3736,26 +3806,54 @@ function openGlossary(termKey, anchorEl, opts) {
 
   // Render the search-results view inside the body. The first row is
   // highlighted (`is-active`) so Enter opens it.
-  function renderResultsView(q) {
-    const rows = rankSearchResults(q);
-    if (!rows.length) {
-      bodyEl.innerHTML = `<p class="gp-search-empty">No glossary entries match "${escape(q)}".</p>`;
-      return;
+  let searchRows = [];
+  let discoveryStatus = nameIndex ? "ready" : "loading";
+  const discoveryNotice = () => discoveryStatus === "loading"
+    ? '<p class="gp-search-hint" role="status">Loading names and works…</p>'
+    : discoveryStatus === "failed"
+      ? '<p class="gp-search-hint" role="status">Names and works could not be loaded. <button type="button" class="name-search-retry">Retry</button></p>' : "";
+  function renderResultsView(q, preserveSelection = false) {
+    const selected = preserveSelection ? bodyEl.querySelector(".gp-result.is-active") : null;
+    const focused = preserveSelection && bodyEl.contains(document.activeElement)
+      ? document.activeElement.closest(".gp-result") : null;
+    const selectedResult = selected ? searchRows[Number(selected.dataset.resultIndex)] : null;
+    const focusedResult = focused ? searchRows[Number(focused.dataset.resultIndex)] : null;
+    searchRows = rankSearchResults(q);
+    const indexOf = result => result ? searchRows.findIndex(r => r.kind === result.kind && r.key === result.key) : -1;
+    const selectedIndex = Math.max(0, indexOf(selectedResult));
+    bodyEl.innerHTML = searchRows.length
+      ? `<div class="gp-results">${searchRows.map((r, i) => `
+        <button class="gp-result${i === selectedIndex ? " is-active" : ""}" data-result-index="${i}" type="button">
+          <span class="ts-term">${escape(r.canonical)}</span>
+          <span class="ts-gloss">${escape(r.blurb)}${r.literal ? ` · ${escape(r.literal.length > 100 ? r.literal.slice(0, 97) + "…" : r.literal)}` : ""}</span>
+          ${r.matchedAlias ? `<span class="ts-match">Matched: ${escape(r.matchedAlias)}</span>` : ""}
+        </button>`).join("")}</div>${discoveryNotice()}`
+      : `<p class="gp-search-empty">No matches for “${escape(q)}”.</p>${discoveryNotice()}`;
+    if (focusedResult) {
+      const index = indexOf(focusedResult);
+      const target = index >= 0 ? bodyEl.querySelector(`[data-result-index="${index}"]`) : inputEl;
+      target?.focus({ preventScroll: true });
     }
-    bodyEl.innerHTML = `<div class="gp-results" role="listbox">${rows.map((r, i) => `
-      <button class="gp-result${i === 0 ? " is-active" : ""}" data-key="${escape(r.key)}" type="button" role="option">
-        <span class="ts-term">${escape(r.canonical)}</span>
-        ${r.literal ? `<span class="ts-gloss">${escape(r.literal)}</span>` : (r.blurb ? `<span class="ts-gloss">${escape(r.blurb)}</span>` : "")}
-      </button>`).join("")}</div>`;
   }
 
-  // Render the "empty" body — shown when the popover was summoned with no
-  // term and no search query yet.
   function renderEmptyView() {
-    const n = state.glossary.size
-      ? [...new Set([...state.glossary.values()].map((e) => e.term_iast || e.term_key))].length
-      : 0;
-    bodyEl.innerHTML = `<p class="gp-search-hint">Start typing to search ${n ? `over ${n} entries` : "the glossary"}. Diacritics are optional — "atman" matches "ātman".</p>`;
+    bodyEl.innerHTML = '<p class="gp-search-hint">Search thinkers, works and glossary terms. Diacritics are optional.</p>' + discoveryNotice();
+  }
+
+  async function loadDiscovery() {
+    discoveryStatus = "loading";
+    try {
+      await Promise.all([ensureNameIndex(), state.glossary.size ? Promise.resolve() :
+        loadJSON("data/manifest.json").then(manifest => {
+          if (!manifest) throw new Error("Glossary manifest unavailable");
+          return loadSupportData(manifest);
+        })]);
+      discoveryStatus = "ready";
+    } catch (_) { discoveryStatus = "failed"; }
+    // A closed/replaced popover cannot regain content or focus after loading.
+    if (!pop.isConnected) return;
+    if (nameKey(inputEl.value)) renderResultsView(inputEl.value, true);
+    else if (!termKey) renderEmptyView();
   }
 
   // Initial body content.
@@ -3766,6 +3864,8 @@ function openGlossary(termKey, anchorEl, opts) {
   } else {
     renderEmptyView();
   }
+
+  loadDiscovery();
 
   // Search-input handlers. As the user types, the body region becomes the
   // results list; clearing the input restores the previously-selected term
@@ -3786,6 +3886,7 @@ function openGlossary(termKey, anchorEl, opts) {
       e.preventDefault();
       e.stopPropagation();
       closeGloss();
+      if (fallbackAnchor?.isConnected) fallbackAnchor.focus();
       return;
     }
     if (e.key !== "ArrowDown" && e.key !== "ArrowUp" && e.key !== "Enter") return;
@@ -3800,24 +3901,60 @@ function openGlossary(termKey, anchorEl, opts) {
       return;
     }
     e.preventDefault();
-    let nextIdx = activeIdx;
-    if (e.key === "ArrowDown") nextIdx = (activeIdx + 1) % items.length;
-    if (e.key === "ArrowUp") nextIdx = (activeIdx - 1 + items.length) % items.length;
+    const nextIdx = e.key === "ArrowDown" ? 0 : items.length - 1;
     items.forEach((el, i) => el.classList.toggle("is-active", i === nextIdx));
-    items[nextIdx].scrollIntoView({ block: "nearest" });
+    items[nextIdx].focus();
   });
-  bodyEl.addEventListener("click", (e) => {
+  bodyEl.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      e.preventDefault();
+      e.stopPropagation();
+      closeGloss();
+      if (fallbackAnchor?.isConnected) fallbackAnchor.focus();
+      return;
+    }
+    const current = e.target.closest(".gp-result");
+    if (!current || !["ArrowDown", "ArrowUp"].includes(e.key)) return;
+    e.preventDefault();
+    const items = [...bodyEl.querySelectorAll(".gp-result")];
+    const delta = e.key === "ArrowDown" ? 1 : -1;
+    const next = (items.indexOf(current) + delta + items.length) % items.length;
+    items.forEach((el, i) => el.classList.toggle("is-active", i === next));
+    items[next].focus();
+  });
+  bodyEl.addEventListener("click", async (e) => {
+    if (e.target.closest(".name-search-retry")) {
+      e.stopPropagation();
+      const pending = loadDiscovery();
+      if (nameKey(inputEl.value)) renderResultsView(inputEl.value); else renderEmptyView();
+      inputEl.focus({ preventScroll: true });
+      await pending;
+      return;
+    }
     const btn = e.target.closest(".gp-result");
     if (!btn) return;
-    // Stop propagation so the document-level outside-click handler doesn't
-    // see a now-detached node (renderTermView replaces innerHTML below) and
-    // close the popover.
     e.stopPropagation();
-    const key = btn.dataset.key;
-    termKey = key;
+    const result = searchRows[Number(btn.dataset.resultIndex)];
+    if (!result) return;
+    if (result.kind !== "term") {
+      closeGloss();
+      await openThinker(result.thinkerId);
+      if (state.activeId !== result.thinkerId || !panelState.open || panelState.activeTab !== "thinker") return;
+      const card = result.workId ? [...detailContent.querySelectorAll(".work-card")]
+        .find(el => el.dataset.workId === result.workId) : null;
+      const target = card || detailContent.querySelector("h2");
+      if (target) {
+        target.setAttribute("tabindex", "-1");
+        target.scrollIntoView({ block: "start" });
+        target.focus({ preventScroll: true });
+      }
+      return;
+    }
+    termKey = result.key;
     inputEl.value = "";
-    syncGlossaryUrl(key);
-    renderTermView(key);
+    syncGlossaryUrl(termKey);
+    renderTermView(termKey);
+    inputEl.focus({ preventScroll: true });
   });
 
   let scrim = null;
@@ -5436,6 +5573,26 @@ function normalizeDia(s) {
     .toLowerCase();
 }
 
+let nameIndex = null;
+let nameIndexRequest = null;
+let _searchIndex = null;
+
+function installNameIndex(data) {
+  if (!Array.isArray(data?.thinkers)) throw new Error("Invalid name index");
+  nameIndex = data.thinkers.filter(t => t && t.display !== false && typeof t.id === "string");
+  _searchIndex = null;
+}
+
+async function ensureNameIndex() {
+  if (nameIndex) return;
+  if (!nameIndexRequest) {
+    nameIndexRequest = loadJSON("data/name_index.json")
+      .then(installNameIndex)
+      .finally(() => { nameIndexRequest = null; });
+  }
+  return nameIndexRequest;
+}
+
 function buildSearchCandidates() {
   const seen = new Set();
   const out = [];
@@ -5443,45 +5600,51 @@ function buildSearchCandidates() {
     const canonical = entry.term_iast || entry.term_key || key;
     if (seen.has(canonical)) continue;
     seen.add(canonical);
-    out.push({
-      key,
-      canonical,
-      literal: entry.literal || "",
-      aliases: entry.aliases || [],
-      blurb: (entry.invariant_definition || "").split(/[.\n]/)[0].slice(0, 90),
-    });
+    out.push({ kind: "term", key, canonical, literal: entry.literal || "",
+      aliases: entry.aliases || [], blurb: "Glossary term" });
+  }
+  for (const t of (nameIndex || [])) {
+    const canonical = t.name_iast || t.name || t.id;
+    const school = schoolNames(t);
+    out.push({ kind: "thinker", key: t.id, thinkerId: t.id, canonical,
+      aliases: distinctNames([t.name, ...(t.alternate_names || [])], [canonical]),
+      keywords: [...school.labels, ...school.aliases, school.classification],
+      blurb: `Thinker · ${school.groups.map(group => group.join(" / ")).join(" · ")}` });
+    for (const w of (t.engaged_works || [])) {
+      const title = w.title_iast || w.title || w.work_id;
+      out.push({ kind: "work", key: `${t.id}/${w.work_id}`, thinkerId: t.id, workId: w.work_id,
+        canonical: title, aliases: distinctNames([w.title, ...(w.alternate_titles || [])], [title]),
+        blurb: `Work · ${canonical}` });
+    }
   }
   return out;
 }
 
-let _searchIndex = null;
 function ensureSearchIndex() {
-  if (_searchIndex) return _searchIndex;
-  _searchIndex = buildSearchCandidates().map((c) => ({
-    ...c,
-    norm: normalizeDia(c.canonical),
-    normLiteral: normalizeDia(c.literal),
-    // index aliases too, so e.g. searching "nirvana" finds an entry whose
-    // canonical is a compound but which lists "nirvāṇa" as an alias.
-    normAliases: (c.aliases || []).map(normalizeDia),
-  }));
+  if (!_searchIndex) {
+    _searchIndex = buildSearchCandidates().map(c => ({ ...c, norm: nameKey(c.canonical),
+      normLiteral: nameKey(c.literal), normAliases: c.aliases.map(nameKey),
+      normKeywords: (c.keywords || []).map(nameKey) }));
+  }
   return _searchIndex;
 }
 
 function rankSearchResults(q) {
-  ensureSearchIndex();
-  const norm = normalizeDia(q);
+  const norm = nameKey(q);
   if (!norm) return [];
-  const prefix = [];
-  const sub = [];
-  for (const c of _searchIndex) {
-    const aliasPrefix = c.normAliases.some((a) => a.startsWith(norm));
-    const aliasSub = c.normAliases.some((a) => a.includes(norm));
-    if (c.norm.startsWith(norm) || aliasPrefix) prefix.push(c);
-    else if (c.norm.includes(norm) || c.normLiteral.includes(norm) || aliasSub) sub.push(c);
-    if (prefix.length + sub.length >= 60) break;
+  const ranked = [];
+  for (const c of ensureSearchIndex()) {
+    const exactAlias = c.normAliases.indexOf(norm);
+    const partialAlias = c.normAliases.findIndex(a => a.includes(norm));
+    const score = c.norm === norm ? 0 : exactAlias >= 0 ? 1 :
+      c.norm.startsWith(norm) ? 2 : c.normAliases.some(a => a.startsWith(norm)) ? 3 :
+      c.norm.includes(norm) ? 4 : partialAlias >= 0 ? 5 :
+      c.normKeywords.some(a => a.includes(norm)) ? 6 : c.normLiteral.includes(norm) ? 7 : -1;
+    if (score < 0) continue;
+    const alias = exactAlias >= 0 ? c.aliases[exactAlias] : partialAlias >= 0 ? c.aliases[partialAlias] : "";
+    ranked.push({ ...c, score, matchedAlias: alias });
   }
-  return prefix.concat(sub).slice(0, 30);
+  return ranked.sort((a, b) => a.score - b.score || a.canonical.localeCompare(b.canonical)).slice(0, 30);
 }
 
 // Topbar Glossary button: open the glossary popover with the search input

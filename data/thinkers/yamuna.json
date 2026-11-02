@@ -43,11 +43,8 @@
       "work_id": "siddhi-trayam",
       "title": "Siddhi-Trayam",
       "title_iast": "Siddhi-Trayam",
-      "alternate_titles": [
-        "Ātma-Siddhi",
-        "Īśvara-Siddhi",
-        "Saṃvit-Siddhi"
-      ],
+      "alternate_titles": [],
+      "related_titles": ["Ātma-Siddhi", "Īśvara-Siddhi", "Saṃvit-Siddhi"],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored triad of Siddhi-treatises (Ātma-, Īśvara-, Saṃvit-Siddhi).",
       "ascription_evidence": [

@@ -55,9 +55,8 @@
       "work_id": "yoga-varttika",
       "title": "Yoga-Varttika",
       "title_iast": "Yoga-Vārttika",
-      "alternate_titles": [
-        "Yoga-Sāra-Saṅgraha"
-      ],
+      "alternate_titles": [],
+      "related_titles": ["Yoga-Sāra-Saṅgraha"],
       "ascription_tier": "securely-authored",
       "ascription_notes": "Securely authored vārttika on the Yoga-Sūtras.",
       "ascription_evidence": [

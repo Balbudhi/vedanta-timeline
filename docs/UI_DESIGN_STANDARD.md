@@ -140,6 +140,25 @@ row; hide optional labels before creating another toolbar. Compact segments may
 use initials only with complete accessible names. Preserve titles, safe-area
 clearance and scroll position when rotating or changing reader mode.
 
+## Names and identification
+
+Use `/` between explicit alternative names within the same naming group, `·`
+between a family and its distinct subschool, and parentheses for qualifications.
+School alternatives belong inside the same pill: `Svābhāvika-bhedābheda / Dvaitādvaita`.
+Do not add a separate “Also called” line. Omit a family repeated as a whole compound
+component of the subschool only when it has no additional aliases to preserve;
+substring overlap (Advaita within Viśiṣṭādvaita) is not repetition. Retain the full
+recorded classification in a native disclosure alongside other names and titles.
+Do not duplicate headings solely to remove diacritics.
+
+Short unqualified alternate work titles share the title with `/`; long or qualified
+lists use one native disclosure. Related/constituent works stay separately labelled,
+never presented as synonymous titles. Negative identifications and unresolved title
+metadata remain editorial records. Keep uncertainty annotations on names in both
+presentation and search. Search results identify their kind and work author, use
+these same school naming groups, and preserve keyboard focus during late loading.
+Source limitations affecting the linked material remain visible beside the work.
+
 ## Citations and evidence: one digital reading flow
 
 A reader should see what supports a claim, inspect it in context, and return to the

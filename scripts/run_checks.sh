@@ -41,6 +41,7 @@ require_command() {
 }
 
 if require_command "Node.js runtime" node; then
+    run_check "Name discovery and metadata" node scripts/test_name_discovery.js
     run_check "Chronology resolver" node scripts/check_chronology.js
     run_check "Chronology coverage report" node scripts/report_chronology_coverage.js
     run_check "Thinker references" node scripts/check_thinker_references.js
