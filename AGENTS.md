@@ -18,8 +18,13 @@ presented per **`docs/SANSKRIT_TRANSLATION_STANDARD.md`**: literal and faithful 
 the grammar, **word-by-word interactive** (tap a word for its morpheme-by-morpheme
 translation + grammar + glossary link), bidirectional highlight, voice-by-voice
 commentary, source script followed by IAST and literal English, and integrated
-with the site glossary. Reference implementation: `gita/sthitaprajna/` + `assets/gita.js`
-(`window.GitaReader`). Follow this standard for any new Sanskrit text.
+with the site glossary. Commentary is translated where a reader includes it; the
+whole-Gītā readers (`gita/chN/`) are root text only by the owner's decision of
+2026-11-08. Reference implementation: `gita/ch12/` (built by the Gītā pipeline,
+`docs/GITA_FULL_TRANSLATION_PLAN.md` §7 and its runbook) + `assets/gita.js`
+(`window.GitaReader`); the older `gita/sthitaprajna/`, `gita/kama/` and `gita/ch5/`
+predate the consolidated standard and are migrated under its §10. Follow this
+standard for any new Sanskrit text.
 
 The shared grammatical-text library is `/Users/eeshan/Dev/prakriya/sources/`.
 Read its `README.md`, clean-witness manifest, and the relevant Sanskrit

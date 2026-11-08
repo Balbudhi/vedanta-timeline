@@ -50,6 +50,12 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 PRAKRIYA = ROOT.parent / "prakriya"
 
+FUNCTION_WORDS = set("""a an the all any some no not none nor or and but if then so as at by for from in into of
+off on onto out over to up upon with without within this that these those he she it they them his her its their
+him who whom whose which what when where why how one ones each every both either neither more most less least
+very too also even just only own same such than there here be is are was were been being am do does did done
+have has had having will shall would should may might must can could let""".split())
+
 PRODUCER_SCHEMA = "gita-producer-v2"
 WORD_CLASSES = {"content", "particle", "pronoun", "name", "copula"}
 EVIDENCE_KEYS = {"claim", "locus", "quote", "sutra", "kind"}
@@ -100,6 +106,11 @@ PIPELINE_PATTERNS = [
     ("pipeline artefact", re.compile(r"\b(?:packet|dossier|joycean|wording records?|deviation defen[cs]es?|self-review)\b", re.I)),
 ]
 SANSKRIT_ONLY_FIELDS = {"iast", "deva", "devanagari", "locus", "speaker", "meter", "stem", "i", "words"}
+
+
+# Sense statuses production may use (lead, 2026-11-08): owner-decided; lexicon-reviewed (published
+# provisional, the owner reads after publication); pilot. `proposed` is refused.
+ADMITTED_STATUSES = ("owner-decided", "lexicon-reviewed", "pilot")
 
 
 class BuildError(ValueError):
@@ -282,6 +293,10 @@ class Policy:
                                    dossier=r.get("dossier"), raw=r)
         self.reserved: dict[str, str] = {}
         for word, owner in (data.get("reserved_english") or {}).items():
+            # Function words are never reserved (standard §7.15): a row may render
+            # sarva "all", but "with anything at all" must stay writable elsewhere.
+            if all(t in FUNCTION_WORDS for t in re.findall(r"[a-z']+", word.lower())):
+                continue
             self.reserved[word] = self._row_key(owner) or owner
 
     def _row_key(self, owner: str) -> str | None:
@@ -630,8 +645,8 @@ def check_term(ctx: Ctx, label: str, w: dict, phrases: str) -> Sense | None:
     if s is None:
         rep.err("POLICY", f"{label}: term.sense {sname!r} not in policy senses {list(row.senses)} for {lemma}")
         return None
-    if pol.structure == "v2" and s.status not in ("owner-decided", "pilot"):
-        rep.err("POLICY", f"{label}: {lemma}/{sname} has status {s.status!r}; production may use only owner-decided or pilot rows")
+    if pol.structure == "v2" and s.status not in ADMITTED_STATUSES:
+        rep.err("POLICY", f"{label}: {lemma}/{sname} has status {s.status!r}; production may use only {'/'.join(ADMITTED_STATUSES)} rows")
     if phrases:
         low = phrases.lower()
         if s.policy == "preserve":
@@ -1214,18 +1229,47 @@ def check_verse(ctx: Ctx, v: dict, pv: dict, translators: list[str], define_cach
     return public, apparatus, fallbacks
 
 
+def slot_groups(english: str) -> dict[int, list[tuple[str, list[int]]]]:
+    """index → [(slot text, every index that slot carries)]."""
+    out: dict[int, list[tuple[str, list[int]]]] = {}
+    for m in SLOT_RE.finditer(english or ""):
+        idx = [int(i) for i in m.group(1).split(",") if i.strip()]
+        for i in idx:
+            out.setdefault(i, []).append((m.group(2), idx))
+    return out
+
+
+def member_rows(pol: "Policy", w: dict) -> list[list[str]]:
+    """For each compound member, the table rows whose detector matches it (the term detector's rule)."""
+    return [pol.regex_rows({"stem": m, "iast": m}) for m in (w.get("compound") or {}).get("members") or [] if isinstance(m, str)]
+
+
 def check_forbidden_in_line(ctx: Ctx, label: str, v: dict, words: list[dict], smap: dict[int, list[str]]) -> None:
     """B6 on each rendered slot against the card's own policy senses, and B8 reserved
-    English; quotations exempt."""
+    English; quotations exempt. Reserved English is the card's own when it owns the row, when
+    another index of the same {i,j} slot owns it (na + verb: the verb owns 'shrink'), or when a
+    member of the card's compound matches the row (lead, 2026-11-08). A compound member that
+    two rows match needs its sense named (`terms` entry with `member`)."""
     rep, pol = ctx.report, ctx.policy
+    groups = slot_groups(v.get("english") or "")
     for i, w in enumerate(words):
-        for ph in smap.get(i, []):
+        mrows = member_rows(pol, w)
+        named = {t.get("member") for t in w.get("terms") or [] if isinstance(t, dict)}
+        for k, rows in enumerate(mrows):
+            if len(rows) > 1 and k not in named:
+                rep.err("B8", f"{label}[{i}] {w.get('iast')}: compound member {w['compound']['members'][k]!r} matches rows {rows}; "
+                              "name its sense (compound.members[].sense)")
+        for ph, idx in groups.get(i, []) or [(p, [i]) for p in smap.get(i, [])]:
             bare = strip_quotations(ph).lower()
             for bad, row in card_forbidden(ctx, w):
                 if word_re(bad).search(bare):
                     rep.err("B6", f"{label}[{i}] {w.get('iast')}: slot uses forbidden '{bad}' ({row}) — \"{ph}\"")
+            owners = set(own_lemmas(w)) | {r for rows in mrows for r in rows}
+            for j in idx:
+                if j != i and 0 <= j < len(words):
+                    owners |= own_lemmas(words[j])
             for rw, owner in pol.reserved.items():
-                if word_re(rw).search(bare) and owner not in own_lemmas(w):
+                if word_re(rw).search(bare) and owner not in owners:
                     rep.err("B8", f"{label}[{i}] {w.get('iast')}: reserved English '{rw}' (for {owner}) printed for another lemma — \"{ph}\"")
 
 
@@ -1629,7 +1673,7 @@ def owner_queue(ctx: Ctx, public: list[dict]) -> dict:
                 flag = "changed since decision"
         rows.append({"lemma": lemma, "sense": sname, "policy": s.policy, "status": s.status or "unrecorded", "changed_flag": flag,
                      "fixed": s.iast if s.policy == "preserve" else (s.forms or s.english), "occurrences": occ})
-    rank = {"proposed": 0, "unrecorded": 1, "pilot": 2, "owner-decided": 3}
+    rank = {"proposed": 0, "unrecorded": 1, "pilot": 2, "lexicon-reviewed": 2, "owner-decided": 3}
     rows.sort(key=lambda r: (rank.get(r["status"], 0), r["changed_flag"] is None, r["lemma"], r["sense"]))
     return {"chapter": ctx.chapter, "policy_sha256": pol.sha256,
             "instructions": "Read each verse's English line; tap any word on the site for its card. Decide the rows listed first (not owner-decided, or changed since the decision), each shown with its rendering at every occurrence.",

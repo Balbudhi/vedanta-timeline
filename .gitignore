@@ -48,3 +48,8 @@ internal/sanskrit_reviews/gita/**/meaning-review-*.md
 internal/sanskrit_reviews/gita/**/deviations.json
 internal/sanskrit_reviews/gita/**/devanagari-collation.json
 internal/sanskrit_reviews/gita/**/owner-review-queue.json
+# Gītā pipeline working state (packets, job outputs, reviews quoting other translations): local only.
+internal/gita_pipeline/
+# Owner chat quotations and the design critique trail: private working files.
+docs/gita_briefs/REQUIREMENTS_REGISTER.md
+docs/gita_briefs/gan_review/

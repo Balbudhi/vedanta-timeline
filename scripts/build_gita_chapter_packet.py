@@ -83,7 +83,7 @@ def bori_chapter(ch: int) -> list[dict]:
     verses: dict[int, dict] = {}
     speaker = None
     for i, l in enumerate(L, 1):
-        m = re.search(rf"\s+Bhg_{ch}\.(\d{{3}})([ac])?\s+\[=MBh_06,(\d{{3}})\.(\d{{3}})([ac])?\]", l)
+        m = re.search(rf"\s+Bhg_{ch:02d}\.(\d{{3}})([ac])?\s+\[=MBh_06,(\d{{3}})\.(\d{{3}})([ac])?\]", l)
         if not m:
             continue
         v = int(m.group(1))

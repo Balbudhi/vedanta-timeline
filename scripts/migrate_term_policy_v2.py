@@ -12,8 +12,9 @@ v2: {version: "2", rule, detectors_note, reserved_english, lemmas: {lemma: {lemm
 What the conversion decides by rule, and prints for review:
   - translate senses: `english` becomes `forms: {"any": english}` (one list for every grammatical
     category). Per-category forms are a decision; the builder accepts "any" until they are split.
-  - status: `review: pilot` → "pilot"; every other sense → --default-status (default "proposed",
-    because v1 records no owner decision). The v2 builder refuses rows still "proposed".
+  - status: `review: pilot` → "pilot"; every other sense → --default-status (default
+    "lexicon-reviewed": the v1 rows went through the chapter-12 independent reviews; lead,
+    2026-11-08). The builder refuses rows still "proposed".
   - reserved_english: every translate rendering that belongs to exactly one lemma is reserved
     for it (standard §7.6 distinctness); renderings shared by two lemmas are listed, not reserved.
   - occurrences, applies_to, detect.root_ids and detect.upasargas: collected from the producer
@@ -32,7 +33,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import build_gita_chapter_reader as B  # noqa: E402
 
-STATUSES = ("proposed", "pilot", "owner-decided")
+STATUSES = ("proposed", "pilot", "lexicon-reviewed", "owner-decided")
 
 
 def collect_uses(shard_paths: list[Path]) -> dict[str, dict]:
@@ -81,7 +82,7 @@ def reserved_from(terms: dict) -> tuple[dict[str, str], dict[str, list[str]]]:
     return reserved, shared
 
 
-def migrate(v1: dict, uses: dict[str, dict], default_status: str = "proposed") -> tuple[dict, dict]:
+def migrate(v1: dict, uses: dict[str, dict], default_status: str = "lexicon-reviewed") -> tuple[dict, dict]:
     """Return (v2 policy, notes). Pure: the same inputs give the same output."""
     if "lemmas" in v1:
         return v1, {"already_v2": True}
@@ -155,7 +156,7 @@ def main(argv=None) -> int:
     ap.add_argument("--policy", type=Path, default=B.ROOT / "data/glossary/term_policy.json")
     ap.add_argument("--shards", nargs="*", type=Path, help="producer shards to collect occurrences from "
                     "(default internal/sanskrit_reviews/gita/ch*/producer-*.json)")
-    ap.add_argument("--default-status", choices=STATUSES, default="proposed")
+    ap.add_argument("--default-status", choices=STATUSES, default="lexicon-reviewed")
     ap.add_argument("--out", type=Path, help="write the v2 policy here (nothing is written otherwise)")
     ap.add_argument("--unified", action="store_true", help="print a unified diff of the two JSON texts")
     a = ap.parse_args(argv)

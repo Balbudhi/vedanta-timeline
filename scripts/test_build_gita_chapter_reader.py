@@ -364,19 +364,57 @@ class TestB8Policy(Base):
     def test_v2_reserved_and_categories(self):
         v2, _ = MP.migrate(self.fx.policy, {}, default_status="owner-decided")
         v2["lemmas"]["asana"]["senses"]["sit"]["forms"] = {"finite": ["sit"]}
-        v2["reserved_english"] = {"also": "yoga"}
+        v2["reserved_english"] = {"moreover": "yoga"}
         self.fx.policy = v2
-        ctx = self.assertFails("B8", "reserved English 'also'")
+        self.fx.verse["english"] = self.fx.verse["english"].replace("{2:also}", "{2:moreover}")
+        ctx = self.assertFails("B8", "reserved English 'moreover'")
         self.assertFalse([e for e in self.errors(ctx, "B8") if "category" in e])
         v2["reserved_english"] = {}
         v2["lemmas"]["asana"]["senses"]["sit"]["forms"] = {"participle_present": ["sitting"]}
         self.assertFails("B8", "no form decided for grammatical category 'finite'")
 
+    def test_reserved_in_shared_slot_owned_by_the_other_index(self):
+        v2, _ = MP.migrate(self.fx.policy, {}, default_status="owner-decided")
+        v2["lemmas"]["asana"]["senses"]["sit"]["forms"] = {"any": ["also sit", "sit"]}
+        v2["reserved_english"] = {"also sit": "asana"}
+        self.fx.policy = v2
+        self.fx.verse["english"] = "{0:those} {1:and} {2:also sit} {3:sit}."
+        self.assertTrue(any("for asana" in e for e in self.errors(self.fx.run(), "B8")))   # api's own slot prints it: refused
+        self.fx.word(3)["meaning"]["rendering"] = "also sit"
+        self.fx.verse["english"] = "{0:those} {1:and} {2,3:also sit}."
+        self.assertFalse([e for e in self.errors(self.fx.run(), "B8") if "reserved" in e])  # shared with āsate, which owns it
+
+    def test_function_words_are_never_reserved(self):
+        v2, _ = MP.migrate(self.fx.policy, {}, default_status="owner-decided")
+        v2["reserved_english"] = {"also": "yoga", "with all": "yoga"}
+        self.fx.policy = v2
+        self.assertFalse([e for e in self.errors(self.fx.run(), "B8") if "reserved English" in e])
+
+    def test_compound_member_owns_reserved_english(self):
+        v2, _ = MP.migrate(self.fx.policy, {}, default_status="owner-decided")
+        v2["reserved_english"] = {"moreover": "yoga"}
+        self.fx.policy = v2
+        self.fx.verse["english"] = self.fx.verse["english"].replace("{2:also}", "{2:moreover}")
+        self.assertFails("B8", "reserved English 'moreover'")
+        self.fx.word(2)["compound"] = {"type": "karmadhāraya", "vigraha": "x", "members": ["yoga", "api"]}
+        self.assertFalse([e for e in self.errors(self.fx.run(), "B8") if "reserved English 'moreover'" in e])
+        v2["lemmas"]["yoga2"] = json.loads(json.dumps(v2["lemmas"]["yoga"]))       # two rows match the member: ambiguous
+        self.assertFails("B8", "matches rows")
+        self.fx.word(2)["terms"] = [{"lemma": "yoga", "sense": "system", "member": 0}]
+        self.assertFalse([e for e in self.errors(self.fx.run(), "B8") if "matches rows" in e])
+
     def test_v2_proposed_status_refused(self):
         del self.fx.policy["terms"]["asana"]["senses"]["sit"]["review"]
-        v2, _ = MP.migrate(self.fx.policy, {})
+        v2, _ = MP.migrate(self.fx.policy, {}, default_status="proposed")   # `proposed` is still refused (lead, 2026-11-08)
         self.fx.policy = v2
         self.assertFails("POLICY", "status 'proposed'")
+
+    def test_v2_lexicon_reviewed_status_admitted(self):
+        del self.fx.policy["terms"]["asana"]["senses"]["sit"]["review"]
+        v2, _ = MP.migrate(self.fx.policy, {})                            # default: lexicon-reviewed
+        self.fx.policy = v2
+        ctx = self.fx.run()
+        self.assertFalse([e for e in self.errors(ctx, "POLICY") if "status" in e])
 
 
 class TestB9PublicText(Base):
@@ -666,7 +704,7 @@ class TestPolicyMigration(unittest.TestCase):
         self.assertEqual(pol.structure, "v2")
         s = pol.sense("asana", "sit")
         self.assertEqual((s.forms, s.status, s.applies_to), ({"any": ["sit"]}, "pilot", ["99.1[3]"]))
-        self.assertEqual(pol.sense("yoga", "system").status, "proposed")
+        self.assertEqual(pol.sense("yoga", "system").status, "lexicon-reviewed")   # default since the lead's decision of 2026-11-08
         self.assertEqual(pol.reserved, {"sit": "asana"})
         self.assertEqual(pol.rows["asana"].root_ids, ["dhatupatha.json#1020011"])
         self.assertEqual(v2["changelog"][:1], POLICY_V1["changelog"])
