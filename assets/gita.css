@@ -386,6 +386,38 @@ html[data-theme="dark"] .we.hi { background: #4a4422; }
 .wc-group-entry .wc-mean, .wc-group-entry .wc-parts, .wc-group-entry .wc-gram { margin-bottom: 5px; }
 html[data-theme="dark"] .wc-gl { color: #d8c074; }
 
+/* meaning layer, term note and other readings (all optional per card) */
+.wc-term { margin: -4px 0 9px; font-size: 12px; color: var(--text-meta); }
+.wc-meaning { margin-bottom: 9px; }
+.wm-image { font-size: 12.5px; color: var(--ink-soft); margin-bottom: 6px; }
+.wc-sec { font: 600 10.5px/1.4 var(--sans); text-transform: uppercase; letter-spacing: .04em; color: var(--text-meta); margin: 6px 0 2px; }
+.wm-lines, .wc-readings ul { list-style: none; margin: 0; padding: 0; }
+.wm-lines li, .wc-readings li { margin: 3px 0; font-size: 12.5px; line-height: 1.5; color: var(--ink-soft); }
+.wm-cat { font-weight: 600; color: var(--ink); }
+.wm-who { color: var(--text-meta); }
+.wm-alt { margin-top: 5px; font-size: 12px; color: var(--text-meta); }
+.wc-readings { margin-bottom: 9px; }
+.wm-more {
+  display: block; margin-top: 6px; padding: 0; border: none; background: none; cursor: pointer;
+  font: 600 12px/1.5 var(--sans); color: var(--reference-ink); text-align: left;
+  text-decoration: underline dotted; text-underline-offset: 3px;
+}
+.wm-more:hover, .wm-more:focus-visible { text-decoration-style: solid; }
+.wm-more:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.wm-readings { margin: 2px 0 0; padding-left: 16px; }
+.wm-readings li { margin: 3px 0; }
+.verse-readings { margin-top: 10px; font-family: var(--sans); }
+.verse-readings > summary {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 44px; list-style: none; cursor: pointer;
+  font-size: 13px; font-weight: 600; color: var(--reference-ink);
+}
+.verse-readings > summary::-webkit-details-marker { display: none; }
+.verse-readings > summary::before { content: "▸"; font-size: 11px; color: var(--text-meta); }
+.verse-readings[open] > summary::before { content: "▾"; }
+.verse-readings > summary:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; border-radius: 4px; }
+.verse-readings ul { margin: 0 0 4px; padding-left: 18px; }
+.verse-readings li { margin: 4px 0; font-size: 15px; line-height: 1.55; color: var(--ink-soft); }
+
 /* ---------- glossary popover ---------- */
 .gpop {
   position: absolute; z-index: 620; max-width: 340px;   /* above the app's detail pane */

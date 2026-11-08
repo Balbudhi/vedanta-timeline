@@ -244,7 +244,7 @@ function renderVerse(v, vb) {
     : "";
   return `<article class="verse" id="v-${esc(v.locus)}">
     <header class="verse-head"><span class="verse-locus">${esc(v.locus)}</span>${sp ? `<span class="verse-speaker">${esc(sp)}</span>` : ""}${playBtn}</header>
-    ${muIx}
+    ${muIx}${verseReadingsHtml(v)}
     ${blocks ? `<div class="verse-voices">${blocks}</div>` : ""}
   </article>`;
 }
@@ -347,6 +347,8 @@ function render(root, opts) {
   // window.GITA_* contract used by the sthitaprajña page.
   const data = opts.data || {};
   VERSES = data.verses || window.GITA_VERSES || [];
+  indexWordForks(VERSES);
+  loadTermPolicy(VERSES);
 
   AUDIO_MANIFEST = data.audio !== undefined ? data.audio : window.GITA_AUDIO;
   AUDIO_SEG = Object.create(null);
@@ -626,6 +628,125 @@ function analysisModeLabel(mode) {
   }[mode] || "";
 }
 
+/* ---------- meaning layer and other readings (docs/GITA_CARD_MEANING_SCHEMA.md) ----------
+   word.meaning = { image, lines[{cat, text, who, locus}], rendering, why, alternatives[] };
+   verse.forks[] gain { words[], display }. Every field is optional: a card or
+   verse without them renders exactly as before. Loci and fork construals stay
+   in the data; only reader-facing text is shown. */
+const MEANING_LABEL = {   // the closed category list, in display order
+  formation: "Formation", lexical: "Dictionary", nirvacana: "Etymology",
+  commentator: "Commentator", usage: "In the Gītā", reception: "Translators",
+  synthesis: "This site’s reading",
+};
+const MEANING_ORDER = Object.keys(MEANING_LABEL);
+const CARD_MEANING_LINES = 3;     // card size rule: at most three short lines inline,
+const CARD_MEANING_CHARS = 120;   // the rest (and the reasoning) open in the panel
+function meaningLines(meaning) {
+  const lines = meaning && Array.isArray(meaning.lines) ? meaning.lines : [];
+  return lines
+    .filter(l => l && MEANING_LABEL[l.cat] && String(l.text || "").trim())
+    .map((l, n) => ({ l, n }))
+    .sort((a, b) => (MEANING_ORDER.indexOf(a.l.cat) - MEANING_ORDER.indexOf(b.l.cat)) || (a.n - b.n))
+    .map(x => x.l);
+}
+function meaningWho(l) { return l.who ? ` <span class="wm-who">— ${esc(l.who)}</span>` : ""; }
+
+// Verse forks with reader-facing text, keyed by the card they name. Rebuilt per render.
+let WORD_FORKS = new WeakMap();
+function indexWordForks(verses) {
+  WORD_FORKS = new WeakMap();
+  for (const v of verses || []) for (const f of v.forks || []) {
+    if (!f || !f.display || !Array.isArray(f.words)) continue;
+    for (const i of f.words) {
+      const w = (v.words || []).find(x => x.i === i);
+      if (!w) continue;
+      if (!WORD_FORKS.has(w)) WORD_FORKS.set(w, []);
+      WORD_FORKS.get(w).push(f.display);
+    }
+  }
+}
+
+// The site's term policy, keyed by lemma → senses → { policy, english[], iast }.
+// Cards carry only term { lemma, sense }; the note appears once the policy is loaded.
+let TERM_POLICY = null, TERM_POLICY_URL = "";
+function loadTermPolicy(verses) {
+  if (typeof fetch !== "function" || !(verses || []).some(v => (v.words || []).some(w => w.term))) return;
+  const url = GLOSS_BASE + "term_policy.json";
+  if (url === TERM_POLICY_URL) return;
+  TERM_POLICY_URL = url; TERM_POLICY = null;
+  fetch(url).then(r => (r.ok ? r.json() : null)).then(p => {
+    if (url === TERM_POLICY_URL) TERM_POLICY = p && p.terms ? p.terms : null;
+  }).catch(() => { if (url === TERM_POLICY_URL) TERM_POLICY_URL = ""; });
+}
+function termNote(term) {
+  if (!term || !TERM_POLICY) return "";
+  const row = TERM_POLICY[term.lemma], sense = row && row.senses && row.senses[term.sense];
+  if (!sense) return "";
+  if (sense.policy === "preserve") return "Kept in Sanskrit across the Gītā";
+  const english = Array.isArray(sense.english) ? sense.english[0] : sense.english;
+  return sense.policy === "translate" && english ? `Rendered ‘${english}’ throughout` : "";
+}
+function termHtml(w) { const t = termNote(w.term); return t ? `<div class="wc-term">${esc(t)}</div>` : ""; }
+function sandhiHtml(w) { return w.sandhi ? `<span class="wc-gram-sandhi">sandhi: ${esc(w.sandhi)}</span>` : ""; }
+
+function wordMeaningHtml(w) {
+  const m = w.meaning;
+  if (!m || typeof m !== "object") return "";
+  const lines = meaningLines(m);
+  const inline = lines.filter(l => String(l.text).length <= CARD_MEANING_CHARS).slice(0, CARD_MEANING_LINES);
+  const alternatives = (Array.isArray(m.alternatives) ? m.alternatives : []).filter(Boolean);
+  const more = lines.length > inline.length || m.why;
+  const out = [];
+  if (m.image) out.push(`<div class="wm-image">${esc(m.image)}</div>`);
+  if (inline.length) out.push(`<div class="wc-sec">Meanings</div><ul class="wm-lines">${inline.map(l =>
+    `<li><span class="wm-cat">${esc(MEANING_LABEL[l.cat])}</span> <span class="wm-text">${esc(l.text)}</span>${meaningWho(l)}</li>`).join("")}</ul>`);
+  if (alternatives.length) out.push(`<div class="wm-alt">Also rendered: ${alternatives.map(esc).join(" · ")}</div>`);
+  if (more) out.push(`<button class="wm-more" type="button" data-mwi="${esc(w.i)}" aria-haspopup="dialog">All meanings (${lines.length}) →</button>`);
+  return out.length ? `<div class="wc-meaning">${out.join("")}</div>` : "";
+}
+function wordReadingsHtml(w) {
+  const displays = WORD_FORKS.get(w);
+  return displays && displays.length
+    ? `<div class="wc-readings"><div class="wc-sec">Other readings</div><ul>${displays.map(d => `<li>${esc(d)}</li>`).join("")}</ul></div>`
+    : "";
+}
+function verseReadingsHtml(v) {
+  const open = (v.forks || []).filter(f => f && f.open === true && f.display);
+  if (!open.length) return "";
+  return `<details class="verse-readings"><summary>Other readings (${open.length})</summary><ul>${open.map(f => `<li>${esc(f.display)}</li>`).join("")}</ul></details>`;
+}
+function meaningPanelHtml(w) {
+  const m = w.meaning || {};
+  const lines = meaningLines(m);
+  const groups = MEANING_ORDER.map(cat => [cat, lines.filter(l => l.cat === cat)]).filter(([, ls]) => ls.length);
+  const term = termNote(w.term);
+  const alternatives = (Array.isArray(m.alternatives) ? m.alternatives : []).filter(Boolean);
+  const readings = WORD_FORKS.get(w) || [];
+  return `<button class="gp-x" type="button" aria-label="Close meanings">×</button>
+    <div class="gp-term" id="gpTerm" lang="sa-Latn">${esc(w.iast)}</div>
+    ${w.gloss ? `<div class="gp-lit">${esc(w.gloss)}</div>` : ""}
+    ${term ? `<p class="gp-def">${esc(term)}</p>` : ""}
+    ${m.image ? `<p class="gp-def wm-image">${esc(m.image)}</p>` : ""}
+    ${groups.length ? `<div class="gp-schools">${groups.map(([cat, ls]) =>
+      `<div class="gp-row"><span class="gp-school">${esc(MEANING_LABEL[cat])}</span>${ls.map(l =>
+        `<span class="gp-def">${esc(l.text)}${meaningWho(l)}</span>`).join("")}</div>`).join("")}</div>` : ""}
+    ${m.why ? `<div class="gp-note"><span class="gp-note-label">${m.rendering ? `Why ‘${esc(m.rendering)}’` : "This rendering"}</span>${esc(m.why)}</div>` : ""}
+    ${alternatives.length ? `<div class="gp-note"><span class="gp-note-label">Also rendered</span>${alternatives.map(esc).join(" · ")}</div>` : ""}
+    ${readings.length ? `<div class="gp-note"><span class="gp-note-label">Other readings</span><ul class="wm-readings">${readings.map(d => `<li>${esc(d)}</li>`).join("")}</ul></div>` : ""}`;
+}
+// "All meanings" opens the persistent reference panel, after dismissing the
+// card (as "Explain" does), so the panel never sits under the card.
+function bindMeaningButtons(card, span, words) {
+  card.querySelectorAll(".wm-more").forEach(btn => btn.addEventListener("click", ev => {
+    ev.stopPropagation();
+    const w = words.find(x => String(x.i) === btn.dataset.mwi);
+    if (!w) return;
+    clearSticky();
+    hideCard();
+    presentPanel(meaningPanelHtml(w), span);
+  }));
+}
+
 function showGroupCard(span, words) {
   const card = ensureCard();
   const rows = [
@@ -638,26 +759,29 @@ function showGroupCard(span, words) {
     if (w.stem) details.push(`stem: ${w.stem}`);
     if (w.affix) details.push(`formation: ${w.affix}`);
     if (w.root && w.rootGloss) details.push(`${w.root}: ${w.rootGloss}`);
+    if (w.sandhi) details.push(`sandhi: ${w.sandhi}`);
     const parts = w.parts && w.parts.length
       ? `<div class="wc-parts">${w.parts.map(p => `<span class="wc-part"><span class="wc-pf" lang="sa-Latn">${esc(p.form)}</span>${p.gloss ? `<span class="wc-pg">${esc(p.gloss)}</span>` : ""}</span>`).join("")}</div>`
       : "";
     const mode = analysisModeLabel(w.analysis_mode);
     rows.push(`<div class="wc-group-entry">
       <div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(w.iast)}</span></div>
-      <div class="wc-mean">${esc(w.gloss)}</div>
+      <div class="wc-mean">${esc(w.gloss)}</div>${termHtml(w)}
       ${mode ? `<div class="wc-analysis">${esc(mode)}</div>` : ""}
       ${parts}
-      ${details.length ? `<div class="wc-gram">${details.map(esc).join("<br>")}</div>` : ""}
+      ${details.length ? `<div class="wc-gram">${details.map(esc).join("<br>")}</div>` : ""}${wordMeaningHtml(w)}${wordReadingsHtml(w)}
     </div>`);
   }
   card.innerHTML = rows.join("");
   card.style.visibility = "hidden"; card.hidden = false; place(card, span); card.style.visibility = "visible";
+  bindMeaningButtons(card, span, words);
 }
 function showCard(span, w) {
   const card = ensureCard();
   const rows = [];
   rows.push(`<div class="wc-top"><span class="wc-word" lang="sa-Latn">${esc(w.iast)}</span></div>`);
   rows.push(`<div class="wc-mean">${esc(w.gloss)}</div>`);
+  rows.push(termHtml(w));
   const mode = analysisModeLabel(w.analysis_mode);
   if (mode) rows.push(`<div class="wc-analysis">${esc(mode)}</div>`);
   const parts = w.parts && w.parts.length ? w.parts
@@ -678,8 +802,11 @@ function showCard(span, w) {
   if (w.affix) gram.push(`<span class="wc-gram-affix">formation: ${esc(w.affix)}</span>`);
   if (w.karaka) gram.push(`<span class="wc-gram-karaka">syntax: ${esc(w.karaka)}</span>`);
   if (w.compound) gram.push(`<span class="wc-gram-cmp">${esc(w.compound.type)}: <span lang="sa-Latn">${esc(w.compound.vigraha)}</span></span>`);
+  if (w.sandhi) gram.push(sandhiHtml(w));
   if (gram.length) rows.push(`<div class="wc-gram">${gram.join("<br>")}</div>`);
+  rows.push(wordMeaningHtml(w));
   if (w.note) rows.push(`<div class="wc-note">${esc(w.note)}</div>`);
+  rows.push(wordReadingsHtml(w));
   // "Explain …" links. A compound is glossed by its parts, so link to each
   // sub-term that has a glossary entry (labelled by the sub-term it opens, not by
   // the whole inflected word). Single, self-contained terms link to themselves.
@@ -702,6 +829,7 @@ function showCard(span, w) {
     // card never sits on top of / blocks the popover (worst on mobile).
     openTermGlossary(gl.dataset.term, span);
   }));
+  bindMeaningButtons(card, span, [w]);
 }
 function hideCard() { if (cardEl) cardEl.hidden = true; }
 
@@ -1033,10 +1161,8 @@ async function loadGloss(key) {
 let glossEl = null, glossReturn = null;
 async function openGlossary(key, anchor) {
   const e = await loadGloss(key);
-  closeGlossary(); glossReturn = anchor || null;
-  glossEl = document.createElement("div");
-  glossEl.className = "gpop"; glossEl.setAttribute("role", "dialog"); glossEl.setAttribute("aria-labelledby", "gpTerm");
-  if (!e) glossEl.innerHTML = `<button class="gp-x" aria-label="Close glossary">×</button><div class="gp-term" id="gpTerm">${esc(key)}</div><p class="gp-def">No glossary entry yet.</p>`;
+  let html;
+  if (!e) html = `<button class="gp-x" aria-label="Close glossary">×</button><div class="gp-term" id="gpTerm">${esc(key)}</div><p class="gp-def">No glossary entry yet.</p>`;
   else {
     const isPlaceholderDef = (t) => {
       const x = String(t || "").trim();
@@ -1063,7 +1189,7 @@ async function openGlossary(key, anchor) {
            <div class="gp-history-summary">${mdInline(th.summary)}</div>
            ${cites.length ? `<div class="gp-history-cites">${cites.map(c => `<span class="gp-cite">${esc(c)}</span>`).join("")}</div>` : ""}</div>`
       : "";
-    glossEl.innerHTML = `<button class="gp-x" aria-label="Close glossary">×</button>
+    html = `<button class="gp-x" aria-label="Close glossary">×</button>
       <div class="gp-term" id="gpTerm" lang="sa-Latn">${esc(e.term_iast || key)}</div>
       ${e.literal ? `<div class="gp-lit">${mdInline(e.literal)}</div>` : ""}
       ${cognates}
@@ -1072,6 +1198,15 @@ async function openGlossary(key, anchor) {
       ${history}
       ${e.translator_note ? `<div class="gp-note"><span class="gp-note-label">Translator note</span>${mdInline(e.translator_note)}</div>` : ""}`;
   }
+  presentPanel(html, anchor);
+}
+// The reader's persistent reference panel: one at a time, side-pinned, kept
+// while reading; × or Escape closes it and returns focus to its origin.
+function presentPanel(html, anchor) {
+  closeGlossary(); glossReturn = anchor || null;
+  glossEl = document.createElement("div");
+  glossEl.className = "gpop"; glossEl.setAttribute("role", "dialog"); glossEl.setAttribute("aria-labelledby", "gpTerm");
+  glossEl.innerHTML = html;
   document.body.appendChild(glossEl);
   placeGlossarySide(glossEl, anchor);
   const x = glossEl.querySelector(".gp-x"); x.addEventListener("click", closeGlossary); x.focus();
