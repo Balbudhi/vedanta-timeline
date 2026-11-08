@@ -1,7 +1,10 @@
 #!/usr/bin/env node
-/* Deterministic term-consistency checker for the Gītā reader.
-   Enforces the agreed preserve/translate policy across every word in
-   verses.js + commentaries.js, and flags:
+/* Deterministic term-consistency checker for the Gītā readers.
+   Readers are discovered (gita/<dir>/verses.js). A reader built under the term
+   policy (data/glossary/term_policy.json, v1 `terms` or v2 `lemmas`) is governed
+   by the policy alone: P (rendering), R (reserved English), A, E and F. The
+   legacy hard-coded tables below apply only to the three pre-policy readers in
+   LEGACY until they are migrated. For legacy readers it flags:
      A. glossaryKey pointing at a different concept than the word is
         (with a whitelist of legitimate synonym/epithet maps);
      B. a word rendered in its English slot as a DIFFERENT preserve-term's
@@ -15,7 +18,9 @@ const path = require("path");
 const ROOT = path.resolve(__dirname, "..");
 function load(file, g) { const c = fs.readFileSync(path.join(ROOT, file), "utf8"); const w = {}; new Function("window", c)(w); return w[g]; }
 
-// canonical term -> how to detect it on a word stem, and its policy
+// Pre-policy readers: the only readers the legacy PRESERVE/TRANSLATE tables govern.
+const LEGACY = new Set(["sthitaprajna", "kama", "ch5"]);
+// canonical term -> how to detect it on a word stem, and its policy (legacy readers only)
 const PRESERVE = {
   raga:    { det: /(^|-)(rāga|rāg)/, iast: "rāga", bad: ["passion"] },
   dvesa:   { det: /dveṣ/,            iast: "dveṣa", bad: ["aversion", "hatred"] },
@@ -109,11 +114,32 @@ const ALL_PRESERVE_IAST = Object.entries(PRESERVE);
 // one of its fixed renderings and never its Sanskrit. Readers built under the
 // policy (gita/ch12 onward) carry `term` on every matching word; the builder
 // enforces presence, this checker enforces rendering on every occurrence.
-const POLICY = JSON.parse(fs.readFileSync(path.join(ROOT, "data/glossary/term_policy.json"), "utf8"));
-let P = 0;
+// Both policy structures are read (audit §5.4): v1 {terms: {lemma: {match, senses: {s: {english,…}}}}}
+// and v2 {lemmas: {lemma: {senses: {s: {forms: {category: [...]}, status,…}}}}, reserved_english}.
+// v2 `forms` are flattened here (any category); the builder checks them per category.
+function normalizePolicy(raw) {
+  const rows = raw.lemmas || raw.terms;
+  if (!rows) throw new Error("term_policy.json has neither `terms` (v1) nor `lemmas` (v2)");
+  const out = { structure: raw.lemmas ? "v2" : "v1", rows: {}, reserved: {} };
+  for (const [lemma, r] of Object.entries(rows)) {
+    const senses = {};
+    for (const [sn, sr] of Object.entries(r.senses || {})) {
+      const english = sr.forms ? [...new Set(Object.values(sr.forms).flat())] : (sr.english || []);
+      const iast = sr.iast || (sr.policy === "preserve" ? r.lemma_iast : undefined);
+      senses[sn] = { ...sr, english, iast, iast_forms: sr.iast_forms || (iast ? [iast] : []) };
+    }
+    out.rows[lemma] = { ...r, senses };
+  }
+  const owner = (v) => out.rows[v] ? v : (Object.keys(out.rows).find((k) => out.rows[k].lemma_iast === v ||
+    Object.values(out.rows[k].senses).some((x) => x.iast === v)) || v);
+  for (const [w, v] of Object.entries(raw.reserved_english || {})) out.reserved[w] = owner(v);
+  return out;
+}
+const POLICY = normalizePolicy(JSON.parse(fs.readFileSync(path.join(ROOT, "data/glossary/term_policy.json"), "utf8")));
+let P = 0, R = 0;
 function policyCheck(label, w, phrases) {
   const t = w.term; if (!t) return false;
-  const row = POLICY.terms[t.lemma]; const srow = row && row.senses[t.sense];
+  const row = POLICY.rows[t.lemma]; const srow = row && row.senses[t.sense];
   if (!srow) { console.log(`P ${label} [${w.i}] ${w.iast}: term ${JSON.stringify(t)} not in policy`); P++; return true; }
   if (!phrases) return true;
   const low = phrases.toLowerCase();
@@ -129,10 +155,30 @@ function policyCheck(label, w, phrases) {
 }
 
 let A = 0, B = 0, C = 0, D = 0;
-function checkUnit(label, words, english) {
+const escRe = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+function ownLemmas(w) { return new Set([w.term && w.term.lemma, ...(w.terms || []).map((t) => t && t.lemma)].filter(Boolean)); }
+// R: a reserved English word (v2 reserved_english) printed in the slot of a different lemma.
+function reservedCheck(label, w, phrases) {
+  if (!phrases) return;
+  const low = phrases.toLowerCase().replace(/“[^”]*”|‘[^’]*’|"[^"]*"/g, " ");
+  for (const [word, owner] of Object.entries(POLICY.reserved)) {
+    if (new RegExp(`(?<![A-Za-z])${escRe(word.toLowerCase())}(?![A-Za-z])`).test(low) && !ownLemmas(w).has(owner)) {
+      console.log(`R ${label} [${w.i}] ${w.iast}: reserved "${word}" (for ${owner}) printed for another lemma — "${phrases}"`); R++;
+    }
+  }
+}
+function checkUnit(label, words, english, legacy) {
   const pmap = english ? phrasesByIndex(english) : {};
   for (const w of words || []) {
-    if (policyCheck(label, w, (pmap[w.i] || []).join(" "))) {
+    const phr = (pmap[w.i] || []).join(" ");
+    if (!legacy) {
+      // policy-governed reader: the policy alone decides renderings
+      policyCheck(label, w, phr);
+      reservedCheck(label, w, phr);
+      if (w.glossaryKey && !keyAllowedFor(w.glossaryKey, w)) { console.log(`A ${label} [${w.i}] ${w.iast}: glossaryKey="${w.glossaryKey}" unrelated`); A++; }
+      continue;
+    }
+    if (policyCheck(label, w, phr)) {
       if (w.glossaryKey && !keyAllowedFor(w.glossaryKey, w)) { console.log(`A ${label} [${w.i}] ${w.iast}: glossaryKey="${w.glossaryKey}" unrelated`); A++; }
       continue;
     }
@@ -181,26 +227,32 @@ function checkUnit(label, words, english) {
   }
 }
 
-// Every word-by-word reading on the site: its directory and the globals its
-// data files populate. Missing files are skipped, so a reading without
-// parallels (or without an Aurobindo layer) needs no special-casing here.
-const READINGS = [
-  { dir: "gita/sthitaprajna", verses: "GITA_VERSES", commentary: "GITA_COMMENTARY", parallels: "GITA_PARALLELS" },
-  { dir: "gita/kama", verses: "GITA3_VERSES", commentary: "GITA3_COMMENTARY", parallels: "GITA3_PARALLELS" },
-  { dir: "gita/ch5", verses: "CH5_VERSES", commentary: "CH5_COMMENTARY", parallels: "CH5_PARALLELS" },
-  { dir: "gita/ch12", verses: "CH12_VERSES", commentary: "CH12_COMMENTARY", parallels: "CH12_PARALLELS" },
-];
+// Every word-by-word reading on the site, discovered (audit B16): each gita/<dir>/verses.js
+// and the globals its data files populate (X_VERSES → X_COMMENTARY, X_PARALLELS). Missing
+// files are skipped, so a reading without parallels needs no special-casing here.
+// Non-Gītā texts that share the reader (Yoga-Vāsiṣṭha, Sahasranāma) have their own
+// vocabulary decisions and are not governed by the Gītā term policy.
+const NON_GITA = new Set(["yogavasistha-dama", "vishnu-sahasranama"]);
+const READINGS = fs.readdirSync(path.join(ROOT, "gita")).sort().filter((d) => !NON_GITA.has(d)).flatMap((d) => {
+  const f = path.join(ROOT, "gita", d, "verses.js");
+  if (!fs.existsSync(f)) return [];
+  const m = fs.readFileSync(f, "utf8").match(/window\.(\w+)_VERSES\s*=/);
+  if (!m) return [];
+  const pre = m[1];
+  return [{ dir: `gita/${d}`, verses: `${pre}_VERSES`, commentary: `${pre}_COMMENTARY`, parallels: `${pre}_PARALLELS` }];
+});
 const loadIfPresent = (f, g) => (fs.existsSync(path.join(ROOT, f)) ? load(f, g) : null);
 const ALL = READINGS.map((r) => ({
   tag: r.dir.split("/").pop(),
+  legacy: LEGACY.has(r.dir.split("/").pop()),
   verses: loadIfPresent(`${r.dir}/verses.js`, r.verses) || [],
   commentary: loadIfPresent(`${r.dir}/commentaries.js`, r.commentary) || {},
   parallels: loadIfPresent(`${r.dir}/parallels.js`, r.parallels),
 }));
 
-for (const R of ALL) {
-  for (const v of R.verses) { checkUnit(`${R.tag} v${v.locus}`, v.words, v.english); for (const c of v.commentaries || []) checkUnit(`${R.tag} v${v.locus}/${c.voiceId||c.author}`, c.words, c.english); }
-  for (const loc of Object.keys(R.commentary)) for (const c of R.commentary[loc]) checkUnit(`${R.tag} c${loc}/${c.voiceId||c.author}`, c.words, c.english);
+for (const RD of ALL) {
+  for (const v of RD.verses) { checkUnit(`${RD.tag} v${v.locus}`, v.words, v.english, RD.legacy); for (const c of v.commentaries || []) checkUnit(`${RD.tag} v${v.locus}/${c.voiceId||c.author}`, c.words, c.english, RD.legacy); }
+  for (const loc of Object.keys(RD.commentary)) for (const c of RD.commentary[loc]) checkUnit(`${RD.tag} c${loc}/${c.voiceId||c.author}`, c.words, c.english, RD.legacy);
 }
 
 // ---- card-field hygiene (the word-card pop-up) ---------------------------
@@ -216,7 +268,11 @@ const BANNED_ETYM = /\b(Latin|Greek|Proto-Indo|PIE)\b|cognate with|\bkin to\b|En
 // 'awakened' is not buddhi, "karmayoga" is not karma), and flag only a truly
 // single-token gloss (a multi-word phrase like "the yoga of action" is fine).
 const PRES_FORMS = new Set(["raga", "dvesa", "guna", "dharma", "kama", "prajna", "buddhi", "karma", "manas", "mano", "indriya", "yoga", "rasa", "ahankara", "trsna", "krodha"]);
-const concept = (form) => PRES_FORMS.has(normd(form));
+// Policy-governed readers: the loaded concepts are the policy's preserved senses.
+const POLICY_PRES_FORMS = new Set(Object.values(POLICY.rows).flatMap((r) => Object.values(r.senses))
+  .filter((s) => s.policy === "preserve").flatMap((s) => [s.iast, ...(s.iast_forms || [])]).filter(Boolean).map(normd));
+let CONCEPTS = PRES_FORMS;
+const concept = (form) => CONCEPTS.has(normd(form));
 const collapsed = (s) => s && !/[\s,;/]/.test(s);
 function checkCardFields(label, words) {
   for (const w of words || []) {
@@ -234,12 +290,14 @@ function eachParallelWords(node, cb) {
   else if (node && typeof node === "object") { if (Array.isArray(node.words)) cb(node.words); for (const v of Object.values(node)) if (v && typeof v === "object") eachParallelWords(v, cb); }
 }
 for (const R of ALL) {
+  CONCEPTS = R.legacy ? PRES_FORMS : POLICY_PRES_FORMS;
   for (const v of R.verses) { checkCardFields(`${R.tag} v${v.locus}`, v.words); for (const c of v.commentaries || []) checkCardFields(`${R.tag} v${v.locus}/${c.voiceId||c.author}`, c.words); }
   for (const loc of Object.keys(R.commentary)) for (const c of R.commentary[loc]) checkCardFields(`${R.tag} c${loc}/${c.voiceId||c.author}`, c.words);
   if (R.parallels) eachParallelWords(R.parallels, (words) => checkCardFields(`${R.tag} parallel`, words));
 }
 
-console.log(`\nP(policy)=${P}  A(glossaryKey mismatch)=${A}  B(prints other term)=${B}  C(translate left IAST)=${C}  D(preserve flattened)=${D}  E(card etymology)=${E}  F(card single-word collapse)=${F}`);
-const total = P + A + B + C + D + E + F;
+console.log(`\nReaders: ${ALL.map((r) => r.tag + (r.legacy ? " (legacy tables)" : " (policy)")).join(", ")}; policy ${POLICY.structure}`);
+console.log(`P(policy)=${P}  R(reserved English)=${R}  A(glossaryKey mismatch)=${A}  B(prints other term)=${B}  C(translate left IAST)=${C}  D(preserve flattened)=${D}  E(card etymology)=${E}  F(card single-word collapse)=${F}`);
+const total = P + R + A + B + C + D + E + F;
 if (total) { console.error(`\n${total} term-consistency violation(s).`); process.exit(1); }
 console.log("Term consistency OK.");

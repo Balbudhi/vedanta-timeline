@@ -1,5 +1,5 @@
 {
-  "version": "1-ch12-pilot",
+  "version": "2-ch12-meaning",
   "rule": "Sense-constant term policy (GITA_FULL_TRANSLATION_PLAN.md §4). A Sanskrit lemma is kept in IAST for a recorded sense only when all three tests pass: (1) the Gītā uses it as a category of its own system in that sense; (2) no English word or short phrase carries that sense without adding or dropping; (3) keeping it loses nothing because the card and glossary carry the meaning. Otherwise the (lemma, sense) is translated with ONE fixed rendering. Every word card whose stem or part matches a lemma below MUST carry `term: {lemma, sense}`; `check_gita_terms.js` enforces the rendering on every occurrence. Decisions are global across readers; rows marked `review: pilot` are open for the owner at the chapter-12 gate (O3). A new lemma or sense is added here deliberately, never ad hoc in a card.",
   "detectors_note": "`match` is a regex tested against each of: stem, iast, every parts[].form and every compound member, separately (so ^ means word start). A preserve row may list `iast_forms` (derived or inflected IAST prints that count as printing the term).",
   "terms": {
@@ -118,7 +118,7 @@
             "virtue"
           ],
           "glossaryKey": "dharma",
-          "note": "12.20 dharmya 'accordant with dharma' (dharma + yat, 4.4.92 dharmapathyarthanyāyād anapete)."
+          "note": "12.20 dharmya 'accordant with dharma' (dharma + yat, 4.4.92 dharmapathyarthanyāyād anapete). dharmya → 'true to dharma' (12.20; 2.31, 2.33, 9.2, 18.70)."
         }
       }
     },
@@ -398,6 +398,22 @@
           ],
           "glossaryKey": "samnyasa",
           "note": "12.6 mayi saṃnyasya 'renouncing in me'. Kept distinct from tyāga."
+        },
+        "laying-down-in": {
+          "policy": "translate",
+          "english": [
+            "laying down",
+            "lay down",
+            "having laid down"
+          ],
+          "forbidden_english": [
+            "renouncing",
+            "renounce",
+            "dedicating",
+            "surrendering"
+          ],
+          "glossaryKey": "samnyasa",
+          "note": "saṃ-ni-√as with a locative of the person (12.6 mayi saṃnyasya; 3.30; 18.57): 'laying down … in me' (MW, AP90 list the sense; Śaṅkara on 3.30 'having laid down'). The noun and the absolute verb keep 'renunciation'."
         }
       }
     },
@@ -489,6 +505,20 @@
           ],
           "glossaryKey": "duhkha",
           "note": "12.5 duḥkham as adverbial accusative with avāpyate: the commentators gloss kṛcchreṇa/duḥkhena 'with hardship'; a distinct sense of the same lemma (hardship of a way, not an emotion), so a separate row under the sense-constant rule."
+        },
+        "pain": {
+          "policy": "translate",
+          "english": [
+            "pain"
+          ],
+          "forbidden_english": [
+            "duḥkha",
+            "sorrow",
+            "suffering",
+            "misery"
+          ],
+          "glossaryKey": "duhkha",
+          "note": "duḥkha paired with sukha (12.13 sama-duḥkha-sukha, 12.18 sukha-duḥkheṣu): 'pleasure and pain', the English pair. Standalone duḥkha keeps 'sorrow'; the adverbial accusative keeps 'with hardship'."
         }
       }
     },
@@ -568,21 +598,32 @@
     "udvega": {
       "match": "udvej|udveg|udvij",
       "senses": {
+        "shrink-from": {
+          "policy": "translate",
+          "english": [
+            "shrink",
+            "shrinks",
+            "does not shrink"
+          ],
+          "forbidden_english": [
+            "agitated",
+            "afflicted",
+            "troubled",
+            "udvega"
+          ],
+          "note": "ud-√vij with an ablative of what one fears (12.15 yasmān nodvijate … lokān nodvijate): 'shrink from'. 1.4.25 makes the ablative the cause of fear; the Kāśikā's example is caurebhya udvijate; AP90 files 12.15 under 'shrink from'."
+        },
         "agitation": {
           "policy": "translate",
           "english": [
-            "agitation",
-            "agitated",
-            "is agitated"
+            "agitation"
           ],
           "forbidden_english": [
             "anxiety",
-            "fear",
             "udvega",
-            "disturbed",
-            "shrinks"
+            "distress"
           ],
-          "note": "12.15 nodvijate ×2, udvegaiḥ: ud-√vij 'to be agitated, start up'. One root, one English."
+          "note": "the noun udvega (12.15 harṣāmarṣabhayodvegaiḥ): 'agitation'."
         }
       }
     },
@@ -599,7 +640,7 @@
           ],
           "glossaryKey": "dvesa",
           "review": "pilot",
-          "note": "12.13 adveṣṭā 'not a dveṣṭṛ'; 12.17 na dveṣṭi. Preserved by the standard's §8 (paired with rāga); the verb form is rendered 'bears no dveṣa' / 'has no dveṣa'. Pilot question: the verb may read better as 'does not hate'. Pilot rendering of the verb/agent forms: 12.13 adveṣṭā 'bearing no dveṣa', 12.17 na dveṣṭi 'bears no dveṣa' (consistent across shards); the owner decides at O3 whether the verb should read 'does not hate' (§7.2)."
+          "note": "12.13 adveṣṭā 'not a dveṣṭṛ'; 12.17 na dveṣṭi. Preserved by the standard's §8 (paired with rāga); the verb form is rendered 'bears no dveṣa' / 'has no dveṣa'. Pilot question: the verb may read better as 'does not hate'. Pilot rendering of the verb/agent forms: 12.13 adveṣṭā 'bearing no dveṣa', 12.17 na dveṣṭi 'bears no dveṣa' (consistent across shards); the owner decides at O3 whether the verb should read 'does not hate' (§7.2). Site-wide verb form: 'bears no dveṣa' (ch5 5.3 and 2.57 'feels' to be swept)."
         }
       }
     },
@@ -678,14 +719,15 @@
         "alike": {
           "policy": "translate",
           "english": [
-            "alike"
+            "alike",
+            "weigh alike"
           ],
           "forbidden_english": [
             "equal",
             "same",
             "indifferent"
           ],
-          "note": "12.19 tulya-nindā-stutiḥ 'to whom blame and praise are alike' — kept distinct from sama (§7.6)."
+          "note": "12.19 tulya-nindā-stutiḥ 'to whom blame and praise are alike' — kept distinct from sama (§7.6). 12.19: 'weigh alike' keeps tulā, the balance (Kāśikā on 4.4.91)."
         }
       }
     },
@@ -724,6 +766,19 @@
           ],
           "review": "pilot",
           "note": "12.20 dharmyāmṛtam: FORK (Śaṅkara: amṛta because it leads to immortality; Rāmānuja: nectar-like). 'deathless' keeps a-mṛta's negated root and stays open to both; the card shows the fork."
+        },
+        "nectar": {
+          "policy": "translate",
+          "english": [
+            "nectar"
+          ],
+          "forbidden_english": [
+            "immortal",
+            "deathless",
+            "ambrosia",
+            "amṛta"
+          ],
+          "note": "amṛta as a noun (12.20 dharmyāmṛtam; 10.18 'the nectar of your words'): 'nectar'; Amara lists amṛta with sudhā. The state keeps 'deathless'."
         }
       }
     },
@@ -865,21 +920,20 @@
       }
     },
     "daksa": {
-      "match": "(^|-)dakṣ",
+      "match": "(^|-)(dakṣ|dākṣ)",
       "senses": {
-        "able": {
+        "deft": {
           "policy": "translate",
           "english": [
-            "able",
-            "capable"
+            "deft"
           ],
           "forbidden_english": [
+            "able",
             "skilful",
             "expert",
-            "dexterous",
             "dakṣa"
           ],
-          "note": "12.16 dakṣaḥ (Śaṅkara: prompt in what is to be done)."
+          "note": "12.16 dakṣaḥ: Śaṅkara 'able to act at once and rightly in what has come up'; 'deft' carries the quick right hand; 18.43 dākṣyam."
         }
       }
     },
@@ -949,15 +1003,17 @@
         "self-restrained": {
           "policy": "translate",
           "english": [
-            "whose self is restrained",
-            "self-restrained"
+            "whose self is reined in",
+            "with self reined in",
+            "self reined in"
           ],
           "forbidden_english": [
             "self-controlled",
-            "disciplined"
+            "disciplined",
+            "self-restrained"
           ],
           "glossaryKey": "atman",
-          "note": "12.11 yatātmavān, 12.14 yatātmā: yata (kta of √yam 'to hold in') + ātman."
+          "note": "yata (kta of √yam 'to rein, hold in') + ātman: 12.11 yatātmavān, 12.14 yatātmā; §7.4 names √yam's rein image; 12.4 already says 'reined in'."
         }
       }
     },
@@ -987,21 +1043,23 @@
     "upasana": {
       "match": "(^|-)(upās|paryupās|upāsan)",
       "senses": {
-        "wait-upon": {
+        "attend-upon": {
           "policy": "translate",
           "english": [
-            "wait upon",
-            "waits upon",
-            "waiting upon"
+            "attend upon",
+            "attends upon",
+            "attending upon",
+            "attend wholly upon"
           ],
           "forbidden_english": [
             "worship",
             "meditate",
-            "adore",
+            "wait upon",
             "serve",
+            "seek after",
             "upāsanā"
           ],
-          "note": "upa-√ās 'to sit near' → to attend, wait upon (MW); 12.1, 12.3, 12.20 paryupāsate 'wait upon on every side' (pari = round about); 12.2, 12.6 upāsate. One root family, one English across the chapter; 'worship' imports cult and drops the sitting-near image."
+          "note": "upa-√ās 'sit near'. Śaṅkara on 12.3 defines upāsanā as approaching the object and staying with it in an unbroken stream of one thought; 12.6 separates meditating (dhyāyantaḥ) from upāsate, so not 'meditate'; the Gītā gives the verb a sacrifice (4.25) and a teaching (12.20) as object, so not 'worship'. 'Attend upon' keeps nearness, service and attention. With pari (paryupāsate, 12.1, 12.3, 12.20) 'attend wholly upon' (Nīlakaṇṭha: in its entirety)."
         }
       }
     },
@@ -1037,9 +1095,248 @@
             "parama",
             "ultimate"
           ],
-          "note": "12.10 mat-karma-paramaḥ, 12.20 mat-paramāḥ: parama (para + the superlative-forming ma) = supreme."
+          "note": "12.10 mat-karma-paramaḥ, 12.20 mat-paramāḥ: parama = para (upapada) + √mā 'to measure' + ka by 3.2.3 (Śabdakalpadruma #20364, Vācaspatyam #30710: paraṃ māti, 'that which measures as highest') = supreme."
+        }
+      }
+    },
+    "kutastha": {
+      "match": "kūṭasth",
+      "senses": {
+        "system": {
+          "policy": "preserve",
+          "iast": "kūṭastha",
+          "iast_forms": [
+            "kūṭastha"
+          ],
+          "forbidden_english": [
+            "unchanging",
+            "immutable",
+            "summit",
+            "peak-like",
+            "self-poised",
+            "rock-seated",
+            "common to all"
+          ],
+          "glossaryKey": "kutastha",
+          "note": "12.3; also 6.8, 15.16. The schools give five referents (Amara: one-formed through time; Śaṅkara: standing on māyā / like a heap; Rāmānuja: common to all; Madhva: ākāśa); seven translators give seven English words. All three preserve tests pass; the card carries every reading."
+        }
+      }
+    },
+    "ananya": {
+      "match": "(^|-)ananya",
+      "senses": {
+        "undivided": {
+          "policy": "translate",
+          "english": [
+            "undivided"
+          ],
+          "forbidden_english": [
+            "exclusive",
+            "single-minded",
+            "unswerving",
+            "ananya"
+          ],
+          "note": "an-anya 'having no other' (12.6; 8.14, 8.22, 9.13, 9.22, 9.30, 11.54, 13.10). AP90 gives 'undivided' for 9.22; it holds both the 'no other object' reading and Nīlakaṇṭha's 'non-different'."
+        }
+      }
+    },
+    "visisyate": {
+      "match": "viśiṣ",
+      "senses": {
+        "distinguished": {
+          "policy": "translate",
+          "english": [
+            "is distinguished"
+          ],
+          "forbidden_english": [
+            "is superior",
+            "surpasses",
+            "is better",
+            "excels"
+          ],
+          "note": "vi-√śiṣ passive (12.12): English dis-tinguish is built the same way (apart + mark off) and keeps the passive; 'better' is reserved for śreyas."
+        }
+      }
+    },
+    "niscaya": {
+      "match": "niścay",
+      "senses": {
+        "determination": {
+          "policy": "translate",
+          "english": [
+            "determination"
+          ],
+          "forbidden_english": [
+            "conviction",
+            "resolve",
+            "certainty"
+          ],
+          "note": "12.14 dṛḍha-niścayaḥ: niścaya is both settled conviction (Śaṅkara) and resolve (Aurobindo); 'determination' keeps both."
+        }
+      }
+    },
+    "arpita": {
+      "match": "(^|-)arpit",
+      "senses": {
+        "infixed": {
+          "policy": "translate",
+          "english": [
+            "infixed"
+          ],
+          "forbidden_english": [
+            "offered",
+            "dedicated",
+            "surrendered"
+          ],
+          "review": "pilot",
+          "note": "12.14 mayy arpita-mano-buddhiḥ (ṇic of √ṛ 'to fix, insert'; Śaṅkara sthāpite): 'infixed' (Webster: to set in; to fix in the mind). Plain alternative 'fixed'; owner's choice."
+        }
+      }
+    },
+    "mukta": {
+      "match": "(^|-)mukt",
+      "senses": {
+        "loosed": {
+          "policy": "translate",
+          "english": [
+            "loosed"
+          ],
+          "forbidden_english": [
+            "freed",
+            "liberated",
+            "released"
+          ],
+          "review": "pilot",
+          "note": "12.15 muktaḥ (√muc 'to untie, let loose'): 'loosed'; mokṣa keeps 'liberation'. Plain alternative 'freed'."
+        }
+      }
+    },
+    "asrita": {
+      "match": "(^|-)āśrit",
+      "senses": {
+        "leaning-on": {
+          "policy": "translate",
+          "english": [
+            "leaning on"
+          ],
+          "forbidden_english": [
+            "resorting to",
+            "taking refuge",
+            "depending"
+          ],
+          "note": "12.11 madyogam āśritaḥ: ā-√śri 'to lean on, rest against'."
+        }
+      }
+    },
+    "vyatha": {
+      "match": "vyath",
+      "senses": {
+        "trembling": {
+          "policy": "translate",
+          "english": [
+            "trembling"
+          ],
+          "forbidden_english": [
+            "anguish",
+            "pain",
+            "distress",
+            "anxiety"
+          ],
+          "note": "12.16 gata-vyathaḥ 'his trembling gone' (√vyath 'to tremble, waver'; 11.45, 11.49 pravyathita). Kept distinct from udvega."
+        }
+      }
+    },
+    "aniketa": {
+      "match": "aniket",
+      "senses": {
+        "houseless": {
+          "policy": "translate",
+          "english": [
+            "houseless"
+          ],
+          "forbidden_english": [
+            "homeless",
+            "without abode"
+          ],
+          "note": "12.19 aniketaḥ: niketa 'house, dwelling'; 'houseless' (Webster) says exactly that without the social sense of 'homeless'."
+        }
+      }
+    },
+    "hita": {
+      "match": "(^|-)hit(a|e)\\b|-hite",
+      "senses": {
+        "weal": {
+          "policy": "translate",
+          "english": [
+            "weal"
+          ],
+          "forbidden_english": [
+            "welfare",
+            "good"
+          ],
+          "note": "12.4 sarva-bhūta-hite 'in the weal of all beings' (also 5.25)."
+        }
+      }
+    },
+    "aksaya": {
+      "match": "akṣay",
+      "senses": {
+        "inexhaustible": {
+          "policy": "translate",
+          "english": [
+            "inexhaustible"
+          ],
+          "forbidden_english": [
+            "imperishable"
+          ],
+          "note": "akṣaya (√kṣi 'to waste away'): 5.21; kept distinct from akṣara 'imperishable'."
+        }
+      }
+    },
+    "krodha": {
+      "match": "(^|-)krodh|(^|-)kop",
+      "senses": {
+        "anger": {
+          "policy": "translate",
+          "english": [
+            "anger",
+            "angry"
+          ],
+          "forbidden_english": [
+            "krodha",
+            "wrath",
+            "rage"
+          ],
+          "glossaryKey": "krodha",
+          "note": "Standard §8.4: English carries krodha without adding or dropping. The three earlier readers still print 'krodha' and are swept under §10."
         }
       }
     }
-  }
+  },
+  "changelog": [
+    {
+      "date": "2026-11-08",
+      "version": "2-ch12-meaning",
+      "by": "lead, from the four chapter-12 meaning reviews (internal/sanskrit_reviews/gita/ch12/meaning-review-*.md)",
+      "changes": "upasana → attend (wholly) upon; kutastha preserved; duhkha pain (paired with sukha); samnyasa laying-down-in; ananya undivided; udvega split (shrink from / agitation); atman-yata reined in; new rows visisyate, niscaya, arpita, mukta, asrita, vyatha, aniketa, hita, aksaya; daksa deft; amrta nectar (noun); dharmya true to dharma; tulya weigh alike; dvesa verb site-wide \"bears no dveṣa\"."
+    },
+    {
+      "date": "2026-11-08",
+      "version": "2-ch12-meaning",
+      "by": "lead",
+      "changes": "krodha row added (anger), per standard §8.4."
+    },
+    {
+      "date": "2026-11-08",
+      "version": "2-ch12-meaning",
+      "by": "lead",
+      "changes": "udvega.agitation no longer forbids \"fear\" (bhaya owns it; 12.15 dvandva prints both)."
+    },
+    {
+      "date": "2026-11-08",
+      "version": "2-ch12-meaning",
+      "by": "lead",
+      "changes": "parama note: formation per SKD/VCP and 3.2.3."
+    }
+  ]
 }
