@@ -5872,6 +5872,16 @@ const GITA_READINGS = {
       aurobindo: null, parallels: null, audio: null,
     }),
   },
+  "gita-ch12": {
+    base: "gita/ch12/",
+    files: ["verses.js", "audio.js"],
+    title: "Bhagavad-Gītā 12",
+    blurb: "The adhyāya entire — the root text, word by word, with recitation.",
+    data: () => ({
+      verses: window.CH12_VERSES, commentary: null,
+      aurobindo: null, parallels: null, audio: window.CH12_AUDIO || null,
+    }),
+  },
   "yogavasistha-dama": {
     base: "gita/yogavasistha-dama/",
     files: ["verses.js", "apparatus.js", "enhancer.js"],

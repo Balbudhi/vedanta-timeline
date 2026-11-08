@@ -1,0 +1,87 @@
+{
+  "term_key": "avyakta",
+  "term_iast": "avyakta",
+  "term_devanagari": "अव्यक्त",
+  "literal": "'not made manifest': a- (nañ) + vyakta, the past participle (kta) of vi-√añj (bhvādi, 1U) 'to anoint, to make visible, to manifest'; hence 'unmanifest, undisclosed to the senses', and as a neuter noun 'the unmanifest' (in Sāṅkhya the unevolved *prakṛti*)",
+  "aliases": [
+    "avyakta",
+    "Avyakta",
+    "avyaktam",
+    "avyaktaḥ",
+    "avyaktā",
+    "avyaktād",
+    "avyaktāt",
+    "avyaktasya",
+    "vyakta",
+    "vyaktim",
+    "vyaktayaḥ"
+  ],
+  "last_verified_at": "2026-11-08",
+  "last_verified_by": "gita-ch12-pilot",
+  "invariant_definition": "*Avyakta* is the unmanifest: what is not disclosed to perception. Śaṅkara's gloss on 12.1 fixes the sense from the root: 'what is within reach of the organs is called *vyakta*, from the root *añj*, whose object that is; this imperishable is the opposite' (*yad dhi karaṇa-gocaraṃ tad vyaktam ucyate, añjer dhātos tat-karmakatvāt*). The *Gītā* uses the word in three registers. Of the self it says 'this one is unmanifest, unthinkable, unchanging' (2.25). Of the cosmic process it speaks of beings 'unmanifest in their beginning and end, manifest in the middle' (2.28), of 'all manifestations' issuing from the unmanifest at the day of Brahmā and dissolving back into it at night (8.18), and of a further 'unmanifest, eternal, beyond that unmanifest' which does not perish when all beings perish (8.20), identified in 8.21 with the imperishable and the supreme goal. In the Sāṅkhya inventory of 13.5 *avyakta* is the unevolved *prakṛti* among the field's constituents. Chapter 12 (12.1, 12.3, 12.5) pairs it with *akṣara* as the formless object of the second kind of worshipper, and 12.5 says the way of those 'whose awareness is fastened to the unmanifest' is reached with sorrow by the embodied, because an unmanifest object gives the mind nothing to hold. English 'unmanifest' is the exact negated participle and is the fixed rendering.",
+  "school_framing": {
+    "framing_status": "same_term_different_referent",
+    "shared_core": "*Avyakta* names **what is not manifest to the organs of perception**; all schools agree that the *Gītā* contrasts it with the manifest (*vyakta*) and that chapter 12 sets worship of the unmanifest beside worship of the Lord's manifest form.",
+    "register_axes_note": "The referent varies: in Sāṅkhya and at 13.5 the unmanifest is *prakṛti* before evolution (Sāṅkhyakārikā 10 lists the properties of the *vyakta* and derives the *avyakta* by contrast); in 8.20–21 and 12.1–5 the commentators dispute whether the unmanifest is the attributeless Brahman (Śaṅkara), the individual self not manifest to the organs (Rāmānuja), or a dependent principle associated with Lakṣmī (Madhva). The Kaṭha's ascent *mahataḥ param avyaktam, avyaktāt puruṣaḥ paraḥ* (3.11) is the shared background."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "2.25 *avyakto 'yam acintyo 'yam* of the embodied self; 2.28 beings unmanifest at both ends; 7.24 the unwise take Kṛṣṇa, the unmanifest, to have come into manifestation; 8.18–21 the cosmology of manifestation from and dissolution into the unmanifest, and the higher unmanifest beyond it; 9.4 the world pervaded by Kṛṣṇa 'of unmanifest form'; 12.1, 12.3, 12.5 the formless object of worship; 13.5 *avyakta* among the constituents of the field.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.25, 2.28",
+        "Bhagavad-Gītā 7.24",
+        "Bhagavad-Gītā 8.18–21",
+        "Bhagavad-Gītā 9.4",
+        "Bhagavad-Gītā 12.1, 12.3, 12.5",
+        "Bhagavad-Gītā 13.5"
+      ],
+      "register_tag": "M+S"
+    },
+    {
+      "school": "Sāṅkhya",
+      "definition": "The *avyakta* is the unevolved root-nature (*mūla-prakṛti*, *pradhāna*): Sāṅkhyakārikā 10 says the manifest is caused, non-eternal, non-pervasive, active, multiple, dependent, mergent, composite, subordinate, 'the unmanifest is the reverse', and kārikā 11 adds that both share the three *guṇas* while the *puruṣa* is their reverse. Its existence is inferred from the manifest (kārikā 15–16).",
+      "primary_loci": [
+        "Sāṅkhyakārikā 10–11, 15–16",
+        "Kaṭha Upaniṣad 3.11"
+      ],
+      "register_tag": "S"
+    },
+    {
+      "school": "Advaita",
+      "definition": "Śaṅkara on 12.1 and 12.3: the imperishable is *avyakta* because, freed of every *upādhi*, it is not within reach of the organs; the worshippers of the unmanifest are the renouncers who meditate on Brahman as the self. On 8.20 he distinguishes the higher unmanifest (Brahman) from the *avyakta* that is the seed of beings (ignorance).",
+      "primary_loci": [
+        "Śaṅkara, Gītābhāṣya 8.20, 12.1, 12.3"
+      ],
+      "register_tag": "S; jñānin"
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja on 12.1: the *akṣara* worshipped by the second group is the essential nature of the individual self, and it is *avyakta* because its nature is not manifested by the eye and the other organs (*cakṣurādi-karaṇānabhivyakta-svarūpam*); 12.5 explains why that path is toilsome for embodied beings.",
+      "primary_loci": [
+        "Rāmānuja, Gītābhāṣya 12.1, 12.5"
+      ],
+      "register_tag": "AD"
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Madhva on 12.1 cites scripture to show the *avyakta* as a principle beyond the *mahat*, to be worshipped, yet dependent; the chapter's point is the superiority of the worship of the Lord (*bhagavad-upāsana*) over the worship of the unmanifest.",
+      "primary_loci": [
+        "Madhva, Gītābhāṣya 12.1"
+      ],
+      "register_tag": "AD"
+    }
+  ],
+  "textual_history": {
+    "summary": "*Avyakta* belongs to the Upaniṣadic and Sāṅkhya vocabulary of cosmic levels: the Kaṭha's ladder places the unmanifest above the *mahat* and the *puruṣa* above the unmanifest (3.11, 6.7–8). In the *Gītā* it serves both that cosmology (8.18–21, 13.5) and the theology of the formless object of meditation (12.1–5). Classical Sāṅkhya fixes it as a technical term for unevolved *prakṛti* (Sāṅkhyakārikā 10). Later Vedānta keeps the word for Brahman without attributes, and the Purāṇas for the Lord's unmanifest state."
+  },
+  "see_also": [
+    "aksara",
+    "prakrti",
+    "mula-prakrti",
+    "purusa",
+    "brahman",
+    "maya"
+  ],
+  "translator_note": "Render *avyakta* as 'the unmanifest' (noun) or 'unmanifest' (adjective) throughout; it is the negated participle of 'to make manifest' and English has the exact form. Avoid 'unmanifested' (which suggests an event), 'invisible' (narrows to sight; Śaṅkara says all the organs) and 'formless' (a different word, *arūpa*). Which unmanifest is meant (prakṛti, Brahman, the self) is a matter the commentators dispute at 8.20 and 12.1; keep the English open and let the card carry the fork."
+}

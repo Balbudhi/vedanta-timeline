@@ -1,0 +1,1045 @@
+{
+  "version": "1-ch12-pilot",
+  "rule": "Sense-constant term policy (GITA_FULL_TRANSLATION_PLAN.md §4). A Sanskrit lemma is kept in IAST for a recorded sense only when all three tests pass: (1) the Gītā uses it as a category of its own system in that sense; (2) no English word or short phrase carries that sense without adding or dropping; (3) keeping it loses nothing because the card and glossary carry the meaning. Otherwise the (lemma, sense) is translated with ONE fixed rendering. Every word card whose stem or part matches a lemma below MUST carry `term: {lemma, sense}`; `check_gita_terms.js` enforces the rendering on every occurrence. Decisions are global across readers; rows marked `review: pilot` are open for the owner at the chapter-12 gate (O3). A new lemma or sense is added here deliberately, never ad hoc in a card.",
+  "detectors_note": "`match` is a regex tested against each of: stem, iast, every parts[].form and every compound member, separately (so ^ means word start). A preserve row may list `iast_forms` (derived or inflected IAST prints that count as printing the term).",
+  "terms": {
+    "yoga": {
+      "match": "(^|-)yog(a|e|ena|am|aḥ|asya)\\b|yoga",
+      "senses": {
+        "system": {
+          "policy": "preserve",
+          "iast": "yoga",
+          "forbidden_english": [
+            "union",
+            "discipline"
+          ],
+          "glossaryKey": "yoga",
+          "note": "12.1 yogavittamāḥ, 12.6 ananyena yogena, 12.9 abhyāsa-yogena, 12.11 mad-yogam: the Gītā's own term; no English carries it.",
+          "iast_forms": [
+            "yoga",
+            "yogī",
+            "yogin",
+            "yogīs"
+          ]
+        }
+      }
+    },
+    "yukta": {
+      "match": "(^|-)yukt",
+      "senses": {
+        "yoked": {
+          "policy": "translate",
+          "english": [
+            "yoked"
+          ],
+          "forbidden_english": [
+            "devoted",
+            "absorbed",
+            "steadfast",
+            "integrated"
+          ],
+          "note": "kta of √yuj; standard §7.2: 'yoked', the object implied stays implied. 12.1 satata-yuktāḥ 'ever yoked', 12.2 nitya-yuktāḥ, yuktatamāḥ 'most yoked'."
+        }
+      }
+    },
+    "bhakti": {
+      "match": "(^|-)bhakt",
+      "senses": {
+        "devotion-participation": {
+          "policy": "preserve",
+          "iast": "bhakti",
+          "forbidden_english": [
+            "devotion",
+            "love",
+            "worship"
+          ],
+          "glossaryKey": "bhakti",
+          "note": "√bhaj share/partake + devotion; chapter title bhakti-yoga; 'devotion' drops participation. bhaktimān 12.17, 12.19 'possessed of bhakti' prints this sense."
+        },
+        "devotee": {
+          "policy": "preserve",
+          "iast": "bhakta",
+          "forbidden_english": [
+            "devotee",
+            "worshipper"
+          ],
+          "glossaryKey": "bhakti",
+          "note": "12.1, 12.14, 12.16, 12.17, 12.20 bhaktāḥ/mad-bhaktaḥ; bhaktimān 12.17, 12.19 'possessed of bhakti'.",
+          "iast_forms": [
+            "bhakta",
+            "bhaktas"
+          ]
+        }
+      }
+    },
+    "karma": {
+      "match": "(^|-)karm(a|an|āṇi|aṇ|a-)",
+      "senses": {
+        "plain-act": {
+          "policy": "translate",
+          "english": [
+            "action",
+            "actions",
+            "act",
+            "acts"
+          ],
+          "forbidden_english": [
+            "karma",
+            "work",
+            "deed",
+            "duty"
+          ],
+          "glossaryKey": "karma",
+          "note": "12.6 sarvāṇi karmāṇi, 12.10 mat-karma-paramaḥ, madartham karmāṇi, 12.11–12 karma-phala-tyāga: acts and their fruit, not the law of action. The law-of-action sense (e.g. 4.17, 8.3) is a separate row 'law-of-action' preserved as karma, added when a chapter needs it."
+        },
+        "law-of-action": {
+          "policy": "preserve",
+          "iast": "karma",
+          "forbidden_english": [
+            "action",
+            "work"
+          ],
+          "glossaryKey": "karma",
+          "note": "reserved; not used in chapter 12."
+        }
+      }
+    },
+    "dharma": {
+      "match": "(^|-)dharm",
+      "senses": {
+        "order": {
+          "policy": "preserve",
+          "iast": "dharma",
+          "forbidden_english": [
+            "duty",
+            "religion",
+            "law",
+            "righteousness",
+            "virtue"
+          ],
+          "glossaryKey": "dharma",
+          "note": "12.20 dharmya 'accordant with dharma' (dharma + yat, 4.4.92 dharmapathyarthanyāyād anapete)."
+        }
+      }
+    },
+    "indriya": {
+      "match": "indriy",
+      "senses": {
+        "faculty": {
+          "policy": "preserve",
+          "iast": "indriya",
+          "forbidden_english": [
+            "sense",
+            "senses",
+            "organ"
+          ],
+          "glossaryKey": "indriya",
+          "note": "12.4 indriya-grāmam 'the host of indriyas' (sense-powers and action-powers both)."
+        }
+      }
+    },
+    "buddhi": {
+      "match": "(^|-)buddh(i|im|iḥ|ayaḥ|yā|au)",
+      "senses": {
+        "faculty": {
+          "policy": "preserve",
+          "iast": "buddhi",
+          "forbidden_english": [
+            "intellect",
+            "intelligence",
+            "reason",
+            "understanding",
+            "mind"
+          ],
+          "glossaryKey": "buddhi",
+          "note": "12.4 sama-buddhayaḥ, 12.8 buddhim, 12.14 arpita-mano-buddhiḥ."
+        }
+      }
+    },
+    "manas": {
+      "match": "(^|-)(manas|mano|manaḥ|mana$|mana-|manā)",
+      "senses": {
+        "faculty": {
+          "policy": "preserve",
+          "iast": "manas",
+          "forbidden_english": [
+            "mind",
+            "heart",
+            "thought"
+          ],
+          "glossaryKey": "manas",
+          "note": "12.2, 12.8, 12.14; kept distinct from buddhi and citta (§7.1)."
+        }
+      }
+    },
+    "citta": {
+      "match": "(^|-)citt",
+      "senses": {
+        "faculty": {
+          "policy": "preserve",
+          "iast": "citta",
+          "forbidden_english": [
+            "mind",
+            "heart",
+            "thought"
+          ],
+          "glossaryKey": "citta",
+          "note": "12.9 cittaṃ samādhātum; the Gītā's term (6.18–20), distinct from manas."
+        }
+      }
+    },
+    "cetas": {
+      "match": "(^|-)(cetas|cetaḥ|ceto|cetasām|cetasā)",
+      "senses": {
+        "awareness": {
+          "policy": "translate",
+          "english": [
+            "awareness"
+          ],
+          "forbidden_english": [
+            "mind",
+            "heart",
+            "citta",
+            "manas",
+            "cetas"
+          ],
+          "glossaryKey": "citta",
+          "review": "pilot",
+          "note": "12.5 avyaktāsakta-cetasām, 12.7 āveśita-cetasām. √cit 'to perceive, be aware'; 'awareness' keeps the root image and keeps cetas distinct from manas/citta (§7.6). Owner may prefer 'heart-and-mind' or preservation."
+        }
+      }
+    },
+    "ahamkara": {
+      "match": "ahaṃkār|ahaṅkār",
+      "senses": {
+        "i-maker": {
+          "policy": "preserve",
+          "iast": "ahaṃkāra",
+          "forbidden_english": [
+            "ego",
+            "egoism",
+            "pride",
+            "I-maker"
+          ],
+          "glossaryKey": "ahankara",
+          "note": "12.13 nirahaṃkāraḥ 'without ahaṃkāra'. BORI spells ahaṃkāra."
+        }
+      }
+    },
+    "samsara": {
+      "match": "saṃsār",
+      "senses": {
+        "cycle": {
+          "policy": "preserve",
+          "iast": "saṃsāra",
+          "forbidden_english": [
+            "transmigration",
+            "rebirth",
+            "world",
+            "existence"
+          ],
+          "glossaryKey": "samsara",
+          "note": "12.7 mṛtyu-saṃsāra-sāgarāt."
+        }
+      }
+    },
+    "aksara": {
+      "match": "(^|-)akṣar",
+      "senses": {
+        "imperishable": {
+          "policy": "translate",
+          "english": [
+            "the imperishable",
+            "imperishable"
+          ],
+          "forbidden_english": [
+            "akṣara",
+            "immutable",
+            "indestructible",
+            "syllable"
+          ],
+          "glossaryKey": "aksara",
+          "note": "12.1, 12.3: a-kṣara (√kṣar to flow away, perish) — 'imperishable' carries the negated root exactly."
+        }
+      }
+    },
+    "avyakta": {
+      "match": "(^|-)avyakt",
+      "senses": {
+        "unmanifest": {
+          "policy": "translate",
+          "english": [
+            "the unmanifest",
+            "unmanifest"
+          ],
+          "forbidden_english": [
+            "avyakta",
+            "unmanifested",
+            "invisible",
+            "formless"
+          ],
+          "glossaryKey": "avyakta",
+          "note": "12.1, 12.3, 12.5: vi-añj negated — 'unmanifest' is the exact negated participle."
+        }
+      }
+    },
+    "sraddha": {
+      "match": "śraddh|śraddadh|śrad-",
+      "senses": {
+        "faith": {
+          "policy": "translate",
+          "english": [
+            "faith"
+          ],
+          "forbidden_english": [
+            "śraddhā",
+            "belief",
+            "trust"
+          ],
+          "glossaryKey": "sraddha",
+          "note": "12.2 śraddhayā parayā, 12.20 śraddadhānāḥ 'having faith'."
+        }
+      }
+    },
+    "jnana": {
+      "match": "(^|-)jñān",
+      "senses": {
+        "knowledge": {
+          "policy": "translate",
+          "english": [
+            "knowledge"
+          ],
+          "forbidden_english": [
+            "jñāna",
+            "wisdom",
+            "gnosis"
+          ],
+          "glossaryKey": "jnana",
+          "note": "12.12."
+        }
+      }
+    },
+    "dhyana": {
+      "match": "(^|-)dhyā",
+      "senses": {
+        "meditation": {
+          "policy": "translate",
+          "english": [
+            "meditation",
+            "meditating",
+            "meditate"
+          ],
+          "forbidden_english": [
+            "dhyāna",
+            "contemplation",
+            "contemplating"
+          ],
+          "glossaryKey": "dhyana",
+          "review": "pilot",
+          "note": "12.6 dhyāyantaḥ, 12.12 dhyānam/dhyānāt. Lead decision overriding the seed table: 'meditation' (sustained fixing of thought) carries √dhyai; noun and participle must pair, which preservation of only the noun would break."
+        }
+      }
+    },
+    "abhyasa": {
+      "match": "abhyās",
+      "senses": {
+        "practice": {
+          "policy": "translate",
+          "english": [
+            "practice"
+          ],
+          "forbidden_english": [
+            "abhyāsa",
+            "repetition",
+            "exercise"
+          ],
+          "glossaryKey": "abhyasa",
+          "note": "12.9 abhyāsa-yogena 'the yoga of practice', 12.10, 12.12."
+        }
+      }
+    },
+    "tyaga": {
+      "match": "(^|-)tyāg|parityāg",
+      "senses": {
+        "relinquishment": {
+          "policy": "translate",
+          "english": [
+            "relinquishment",
+            "relinquishing",
+            "relinquisher",
+            "relinquish"
+          ],
+          "forbidden_english": [
+            "tyāga",
+            "renunciation",
+            "abandonment",
+            "giving up"
+          ],
+          "glossaryKey": "tyaga",
+          "note": "12.11–12 karma-phala-tyāga; 12.16 sarvārambha-parityāgī, 12.17 śubhāśubha-parityāgī. Kept distinct from saṃnyāsa (renunciation)."
+        }
+      }
+    },
+    "samnyasa": {
+      "match": "saṃnyas|sannyas",
+      "senses": {
+        "renunciation": {
+          "policy": "translate",
+          "english": [
+            "renouncing",
+            "renunciation",
+            "renounce"
+          ],
+          "forbidden_english": [
+            "saṃnyāsa",
+            "resigning",
+            "relinquishing",
+            "surrendering"
+          ],
+          "glossaryKey": "samnyasa",
+          "note": "12.6 mayi saṃnyasya 'renouncing in me'. Kept distinct from tyāga."
+        }
+      }
+    },
+    "santi": {
+      "match": "(^|-)śānti",
+      "senses": {
+        "peace": {
+          "policy": "translate",
+          "english": [
+            "peace"
+          ],
+          "forbidden_english": [
+            "śānti",
+            "tranquillity",
+            "calm"
+          ],
+          "glossaryKey": "santi",
+          "note": "12.12."
+        }
+      }
+    },
+    "sanga": {
+      "match": "(^|-)saṅg",
+      "senses": {
+        "clinging": {
+          "policy": "translate",
+          "english": [
+            "clinging"
+          ],
+          "forbidden_english": [
+            "saṅga",
+            "attachment",
+            "association"
+          ],
+          "glossaryKey": "sanga",
+          "note": "12.18 saṅga-vivarjitaḥ."
+        }
+      }
+    },
+    "asakta": {
+      "match": "(^|-)āsakt",
+      "senses": {
+        "fastened": {
+          "policy": "translate",
+          "english": [
+            "fastened"
+          ],
+          "forbidden_english": [
+            "attached",
+            "clinging",
+            "devoted"
+          ],
+          "note": "12.5 avyaktāsakta-cetasām: ā-√sañj 'fastened to'; kept distinct from saṅga 'clinging' (§7.6)."
+        }
+      }
+    },
+    "duhkha": {
+      "match": "(^|-)duḥkh",
+      "senses": {
+        "sorrow": {
+          "policy": "translate",
+          "english": [
+            "sorrow",
+            "sorrowfully",
+            "with sorrow"
+          ],
+          "forbidden_english": [
+            "duḥkha",
+            "pain",
+            "suffering",
+            "misery",
+            "difficulty"
+          ],
+          "glossaryKey": "duhkha",
+          "review": "pilot",
+          "note": "12.5 duḥkham (adverbial accusative) 'with sorrow / sorrowfully'; 12.13, 12.18. Standard §8 rendering kept; owner may prefer the pair pain/pleasure or sorrow/joy."
+        },
+        "hardship": {
+          "policy": "translate",
+          "english": [
+            "with hardship",
+            "painfully"
+          ],
+          "forbidden_english": [
+            "duḥkha",
+            "sorrowfully",
+            "with sorrow",
+            "with difficulty"
+          ],
+          "glossaryKey": "duhkha",
+          "note": "12.5 duḥkham as adverbial accusative with avāpyate: the commentators gloss kṛcchreṇa/duḥkhena 'with hardship'; a distinct sense of the same lemma (hardship of a way, not an emotion), so a separate row under the sense-constant rule."
+        }
+      }
+    },
+    "sukha": {
+      "match": "(^|-)sukh",
+      "senses": {
+        "pleasure": {
+          "policy": "translate",
+          "english": [
+            "pleasure"
+          ],
+          "forbidden_english": [
+            "sukha",
+            "happiness",
+            "joy",
+            "ease",
+            "comfort"
+          ],
+          "glossaryKey": "sukha",
+          "review": "pilot",
+          "note": "12.13, 12.18. Standard §8 rendering kept for continuity with the earlier readers; pilot question."
+        }
+      }
+    },
+    "bhaya": {
+      "match": "(^|-)bhay",
+      "senses": {
+        "fear": {
+          "policy": "translate",
+          "english": [
+            "fear"
+          ],
+          "forbidden_english": [
+            "bhaya"
+          ],
+          "note": "12.15."
+        }
+      }
+    },
+    "harsa": {
+      "match": "(^|-)(harṣ|hṛṣ)",
+      "senses": {
+        "elation": {
+          "policy": "translate",
+          "english": [
+            "elation",
+            "elated",
+            "is elated"
+          ],
+          "forbidden_english": [
+            "joy",
+            "harṣa",
+            "exultation"
+          ],
+          "note": "12.15 harṣa (√hṛṣ to bristle, thrill): 'elation', the upward surge; 12.17 hṛṣyati 'is elated'."
+        }
+      }
+    },
+    "amarsa": {
+      "match": "(^|-)amarṣ",
+      "senses": {
+        "resentment": {
+          "policy": "translate",
+          "english": [
+            "resentment"
+          ],
+          "forbidden_english": [
+            "anger",
+            "envy",
+            "impatience",
+            "amarṣa"
+          ],
+          "note": "12.15 a-marṣa 'non-bearing' → resentment (Śaṅkara: amarṣaḥ asahiṣṇutā)."
+        }
+      }
+    },
+    "udvega": {
+      "match": "udvej|udveg|udvij",
+      "senses": {
+        "agitation": {
+          "policy": "translate",
+          "english": [
+            "agitation",
+            "agitated",
+            "is agitated"
+          ],
+          "forbidden_english": [
+            "anxiety",
+            "fear",
+            "udvega",
+            "disturbed",
+            "shrinks"
+          ],
+          "note": "12.15 nodvijate ×2, udvegaiḥ: ud-√vij 'to be agitated, start up'. One root, one English."
+        }
+      }
+    },
+    "dvesa": {
+      "match": "dveṣ|dviṣ",
+      "senses": {
+        "aversion": {
+          "policy": "preserve",
+          "iast": "dveṣa",
+          "forbidden_english": [
+            "hatred",
+            "hate",
+            "aversion"
+          ],
+          "glossaryKey": "dvesa",
+          "review": "pilot",
+          "note": "12.13 adveṣṭā 'not a dveṣṭṛ'; 12.17 na dveṣṭi. Preserved by the standard's §8 (paired with rāga); the verb form is rendered 'bears no dveṣa' / 'has no dveṣa'. Pilot question: the verb may read better as 'does not hate'. Pilot rendering of the verb/agent forms: 12.13 adveṣṭā 'bearing no dveṣa', 12.17 na dveṣṭi 'bears no dveṣa' (consistent across shards); the owner decides at O3 whether the verb should read 'does not hate' (§7.2)."
+        }
+      }
+    },
+    "kama": {
+      "match": "(^|-)kām(a|am|aḥ|ān|ena)\\b|kāṅkṣ",
+      "senses": {
+        "desire-system": {
+          "policy": "preserve",
+          "iast": "kāma",
+          "forbidden_english": [
+            "desire",
+            "lust"
+          ],
+          "glossaryKey": "kama",
+          "note": "reserved; kāma itself does not occur in ch. 12."
+        },
+        "longing-verb": {
+          "policy": "translate",
+          "english": [
+            "longs",
+            "long for",
+            "longing"
+          ],
+          "forbidden_english": [
+            "desires",
+            "kāma"
+          ],
+          "note": "12.17 na kāṅkṣati (√kāṅkṣ, a different root from √kam): 'does not long for'."
+        }
+      }
+    },
+    "soka": {
+      "match": "(^|-)śoc|(^|-)śok",
+      "senses": {
+        "grief": {
+          "policy": "translate",
+          "english": [
+            "grief",
+            "grieve",
+            "grieves"
+          ],
+          "forbidden_english": [
+            "sorrow",
+            "śoka",
+            "mourns"
+          ],
+          "note": "12.17 na śocati 'does not grieve'; kept distinct from duḥkha."
+        }
+      }
+    },
+    "sama": {
+      "match": "(^|-)sam(a|aḥ|e|am)\\b|(^|-)sama-",
+      "senses": {
+        "same": {
+          "policy": "translate",
+          "english": [
+            "same",
+            "the same"
+          ],
+          "forbidden_english": [
+            "equal",
+            "equable",
+            "even",
+            "impartial",
+            "balanced",
+            "sama"
+          ],
+          "review": "pilot",
+          "note": "12.4 sama-buddhayaḥ, 12.13 sama-duḥkha-sukhaḥ, 12.18 samaḥ ×2: 'the same toward' is the literal; 'equal' imports measurement."
+        }
+      }
+    },
+    "tulya": {
+      "match": "(^|-)tuly",
+      "senses": {
+        "alike": {
+          "policy": "translate",
+          "english": [
+            "alike"
+          ],
+          "forbidden_english": [
+            "equal",
+            "same",
+            "indifferent"
+          ],
+          "note": "12.19 tulya-nindā-stutiḥ 'to whom blame and praise are alike' — kept distinct from sama (§7.6)."
+        }
+      }
+    },
+    "siddhi": {
+      "match": "(^|-)siddh",
+      "senses": {
+        "perfection": {
+          "policy": "translate",
+          "english": [
+            "perfection"
+          ],
+          "forbidden_english": [
+            "siddhi",
+            "success",
+            "attainment"
+          ],
+          "glossaryKey": "siddhi",
+          "note": "12.10."
+        }
+      }
+    },
+    "amrta": {
+      "match": "(^|-)amṛt",
+      "senses": {
+        "deathless": {
+          "policy": "translate",
+          "english": [
+            "deathless",
+            "the deathless"
+          ],
+          "forbidden_english": [
+            "nectar",
+            "immortal",
+            "ambrosia",
+            "amṛta"
+          ],
+          "review": "pilot",
+          "note": "12.20 dharmyāmṛtam: FORK (Śaṅkara: amṛta because it leads to immortality; Rāmānuja: nectar-like). 'deathless' keeps a-mṛta's negated root and stays open to both; the card shows the fork."
+        }
+      }
+    },
+    "mrtyu": {
+      "match": "(^|-)mṛtyu",
+      "senses": {
+        "death": {
+          "policy": "translate",
+          "english": [
+            "death"
+          ],
+          "forbidden_english": [
+            "mortality",
+            "mṛtyu"
+          ],
+          "note": "12.7."
+        }
+      }
+    },
+    "loka": {
+      "match": "(^|-)lok(a|aḥ|ān|e|āt)\\b",
+      "senses": {
+        "world": {
+          "policy": "translate",
+          "english": [
+            "the world",
+            "world",
+            "the worlds",
+            "people"
+          ],
+          "forbidden_english": [
+            "loka"
+          ],
+          "note": "12.15 loko / lokān: 'the world … the world' (people); same rendering both times."
+        }
+      }
+    },
+    "maitra": {
+      "match": "(^|-)maitr",
+      "senses": {
+        "friendly": {
+          "policy": "translate",
+          "english": [
+            "friendly"
+          ],
+          "forbidden_english": [
+            "friend",
+            "kind",
+            "benevolent"
+          ],
+          "note": "12.13 maitraḥ (mitra + aṇ): 'friendly'."
+        }
+      }
+    },
+    "karuna": {
+      "match": "(^|-)karuṇ",
+      "senses": {
+        "compassionate": {
+          "policy": "translate",
+          "english": [
+            "compassionate"
+          ],
+          "forbidden_english": [
+            "merciful",
+            "kind",
+            "pitiful"
+          ],
+          "note": "12.13."
+        }
+      }
+    },
+    "ksama": {
+      "match": "(^|-)kṣam",
+      "senses": {
+        "forbearing": {
+          "policy": "translate",
+          "english": [
+            "forbearing",
+            "forbearance"
+          ],
+          "forbidden_english": [
+            "patient",
+            "forgiving",
+            "tolerant"
+          ],
+          "note": "12.13 kṣamī (kṣamā + ini)."
+        }
+      }
+    },
+    "santusta": {
+      "match": "saṃtuṣ|santuṣ|tuṣ",
+      "senses": {
+        "content": {
+          "policy": "translate",
+          "english": [
+            "content",
+            "contented"
+          ],
+          "forbidden_english": [
+            "satisfied",
+            "happy"
+          ],
+          "note": "12.14, 12.19 saṃtuṣṭaḥ."
+        }
+      }
+    },
+    "udasina": {
+      "match": "udāsīn",
+      "senses": {
+        "sitting-apart": {
+          "policy": "translate",
+          "english": [
+            "sitting apart",
+            "one who sits apart"
+          ],
+          "forbidden_english": [
+            "indifferent",
+            "neutral",
+            "impartial"
+          ],
+          "note": "12.16 udāsīnaḥ (ud-ā-√ās, śānac): the root image 'seated apart/above' is kept; 'indifferent' adds a feeling."
+        }
+      }
+    },
+    "suci": {
+      "match": "(^|-)śuci",
+      "senses": {
+        "pure": {
+          "policy": "translate",
+          "english": [
+            "pure"
+          ],
+          "forbidden_english": [
+            "clean",
+            "śuci"
+          ],
+          "note": "12.16."
+        }
+      }
+    },
+    "daksa": {
+      "match": "(^|-)dakṣ",
+      "senses": {
+        "able": {
+          "policy": "translate",
+          "english": [
+            "able",
+            "capable"
+          ],
+          "forbidden_english": [
+            "skilful",
+            "expert",
+            "dexterous",
+            "dakṣa"
+          ],
+          "note": "12.16 dakṣaḥ (Śaṅkara: prompt in what is to be done)."
+        }
+      }
+    },
+    "mauna": {
+      "match": "(^|-)maun",
+      "senses": {
+        "silent": {
+          "policy": "translate",
+          "english": [
+            "silent",
+            "silence"
+          ],
+          "forbidden_english": [
+            "quiet",
+            "reticent",
+            "mauna"
+          ],
+          "note": "12.19 maunī."
+        }
+      }
+    },
+    "mati": {
+      "match": "(^|-)mati",
+      "senses": {
+        "thought": {
+          "policy": "translate",
+          "english": [
+            "thought",
+            "whose thought"
+          ],
+          "forbidden_english": [
+            "mind",
+            "intellect",
+            "resolve",
+            "mati"
+          ],
+          "note": "12.19 sthira-matiḥ 'whose thought is steady'; kept distinct from manas/buddhi (§7.6)."
+        }
+      }
+    },
+    "subha": {
+      "match": "(^|-)śubh|aśubh",
+      "senses": {
+        "fair-foul": {
+          "policy": "translate",
+          "english": [
+            "fair",
+            "foul",
+            "the fair and the foul"
+          ],
+          "forbidden_english": [
+            "good",
+            "evil",
+            "auspicious",
+            "inauspicious",
+            "pleasant",
+            "unpleasant"
+          ],
+          "review": "pilot",
+          "note": "12.17 śubhāśubha-parityāgī: 'the fair and the foul' keeps the aesthetic-moral breadth of śubha (bright, fair, auspicious) in one word each."
+        }
+      }
+    },
+    "atman-yata": {
+      "match": "yatātm",
+      "senses": {
+        "self-restrained": {
+          "policy": "translate",
+          "english": [
+            "whose self is restrained",
+            "self-restrained"
+          ],
+          "forbidden_english": [
+            "self-controlled",
+            "disciplined"
+          ],
+          "glossaryKey": "atman",
+          "note": "12.11 yatātmavān, 12.14 yatātmā: yata (kta of √yam 'to hold in') + ātman."
+        }
+      }
+    },
+    "prapti": {
+      "match": "(^|-)(prāp|avāp|āp(tum|ta|sya|nu))",
+      "senses": {
+        "attain": {
+          "policy": "translate",
+          "english": [
+            "attain",
+            "attains",
+            "attaining",
+            "will attain",
+            "is attained",
+            "attained"
+          ],
+          "forbidden_english": [
+            "reach",
+            "obtain",
+            "gain",
+            "get"
+          ],
+          "note": "12.4 prāpnuvanti, 12.5 avāpyate, 12.9 āptum, 12.10 avāpsyasi: one root family √āp, one English."
+        }
+      }
+    },
+    "upasana": {
+      "match": "(^|-)(upās|paryupās|upāsan)",
+      "senses": {
+        "wait-upon": {
+          "policy": "translate",
+          "english": [
+            "wait upon",
+            "waits upon",
+            "waiting upon"
+          ],
+          "forbidden_english": [
+            "worship",
+            "meditate",
+            "adore",
+            "serve",
+            "upāsanā"
+          ],
+          "note": "upa-√ās 'to sit near' → to attend, wait upon (MW); 12.1, 12.3, 12.20 paryupāsate 'wait upon on every side' (pari = round about); 12.2, 12.6 upāsate. One root family, one English across the chapter; 'worship' imports cult and drops the sitting-near image."
+        }
+      }
+    },
+    "para": {
+      "match": "(^|-)par(a|aḥ|āḥ|am|ā|e)\\b|(^|-)para-|-par(a|āḥ)$",
+      "senses": {
+        "highest": {
+          "policy": "translate",
+          "english": [
+            "highest",
+            "the highest"
+          ],
+          "forbidden_english": [
+            "supreme",
+            "beyond",
+            "other",
+            "para"
+          ],
+          "note": "12.6 mat-parāḥ 'having me as highest'; para = further, beyond, higher — rendered 'highest' when predicated of the goal. Kept distinct from parama."
+        }
+      }
+    },
+    "parama": {
+      "match": "(^|-)param(a|aḥ|āḥ|am|ā|o)\\b|-param(a|āḥ|o)",
+      "senses": {
+        "supreme": {
+          "policy": "translate",
+          "english": [
+            "supreme"
+          ],
+          "forbidden_english": [
+            "highest",
+            "parama",
+            "ultimate"
+          ],
+          "note": "12.10 mat-karma-paramaḥ, 12.20 mat-paramāḥ: parama (para + the superlative-forming ma) = supreme."
+        }
+      }
+    }
+  }
+}

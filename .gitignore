@@ -34,3 +34,17 @@ venv_gemini/
 # Root-level scratch from the Bhakti audio-timing work, which now lives on its
 # own site. Untracked so it cannot be swept into a commit.
 /get_timings.py
+
+# Raw recitation sources and intermediates in the private audio store (320 kbps originals under ND licences): never commit.
+internal/audio/**/*_source.mp3
+internal/audio/**/*.wav
+# Gītā review store: packets, producer shards, reviews and deviation files quote
+# copyrighted secondary translations in full. They stay local (plan §12).
+internal/sanskrit_reviews/gita/**/packet.json
+internal/sanskrit_reviews/gita/**/producer-*.json
+internal/sanskrit_reviews/gita/**/independent-review-*.json
+internal/sanskrit_reviews/gita/**/meaning-review-*.json
+internal/sanskrit_reviews/gita/**/meaning-review-*.md
+internal/sanskrit_reviews/gita/**/deviations.json
+internal/sanskrit_reviews/gita/**/devanagari-collation.json
+internal/sanskrit_reviews/gita/**/owner-review-queue.json

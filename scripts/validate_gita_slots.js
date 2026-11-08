@@ -66,6 +66,7 @@ const READINGS = [
   { dir: "gita/sthitaprajna", verses: "GITA_VERSES", commentary: "GITA_COMMENTARY", parallels: "GITA_PARALLELS" },
   { dir: "gita/kama", verses: "GITA3_VERSES", commentary: "GITA3_COMMENTARY", parallels: "GITA3_PARALLELS" },
   { dir: "gita/ch5", verses: "CH5_VERSES", commentary: "CH5_COMMENTARY", parallels: "CH5_PARALLELS" },
+  { dir: "gita/ch12", verses: "CH12_VERSES", commentary: "CH12_COMMENTARY", parallels: "CH12_PARALLELS" },
 ];
 
 function loadIfPresent(file, globalName) {

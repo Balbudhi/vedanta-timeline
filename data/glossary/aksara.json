@@ -1,0 +1,78 @@
+{
+  "term_key": "aksara",
+  "term_iast": "akṣara",
+  "term_devanagari": "अक्षर",
+  "literal": "'not flowing away, not perishing': a- (nañ) + kṣara, from √kṣar (bhvādi, 1P) 'to flow, to trickle away, to perish' with the kṛt affix ac; as a neuter noun 'the imperishable', and secondarily 'syllable, letter' (that which does not decay in speech)",
+  "aliases": [
+    "aksara",
+    "akṣara",
+    "Akṣara",
+    "akṣaram",
+    "akṣaraḥ",
+    "akṣarasya",
+    "akṣarād",
+    "akṣarāṇām",
+    "kṣara",
+    "kṣaraḥ"
+  ],
+  "last_verified_at": "2026-11-08",
+  "last_verified_by": "gita-ch12-pilot",
+  "invariant_definition": "*Akṣara* is the imperishable: that which does not flow away or decay. The word is the negation of *kṣara* (√kṣar, to flow, to perish), and the *Gītā* uses the pair as a technical contrast — 'the perishable and the imperishable' (*kṣaraś cākṣara eva ca*, 15.16), where *kṣara* is all beings and *akṣara* the unchanging ground set over against them. As a designation of the supreme it inherits the Upaniṣadic usage in which Gārgī is told that the ether itself is woven on 'that imperishable' (*etad vai tad akṣaram*, Bṛhadāraṇyaka 3.8.8) and in which the Muṇḍaka speaks of the higher knowledge by which 'the imperishable is attained' (1.1.5). In the *Gītā* it names the highest Brahman (*akṣaraṃ brahma paramam*, 8.3), the object the knowers of the Veda call imperishable (8.11), what the yogin reaches by the way of Oṃ (8.11–13), and, with *avyakta*, the formless object of the second kind of worshipper in 12.1 and 12.3. The secondary sense 'syllable' is the same word applied to speech — the unit that does not decay — so that Kṛṣṇa is 'the single syllable among utterances' (*giram asmy ekam akṣaram*, 10.25) and 'the letter *a* among letters' (10.33). English 'imperishable' carries the negated root exactly and is therefore the fixed rendering; 'immutable' and 'indestructible' shift the image from flowing-away to change or destruction.",
+  "school_framing": {
+    "framing_status": "same_term_different_referent",
+    "shared_core": "*Akṣara* names **the imperishable, the reality that does not flow away or decay, set against the perishable (*kṣara*) world of beings**; every school reads 8.3, 12.1–3 and 15.16 as the supreme in its unchanging aspect.",
+    "register_axes_note": "The referent differs by school: the attributeless Brahman free of all *upādhi* (Advaita, Śaṅkara on 12.1 and 12.3); the individual self in its essential nature, *pratyag-ātma-svarūpa*, as the object of the *jñānin*'s meditation (Viśiṣṭādvaita, Rāmānuja on 12.1); the Lord's imperishable nature or Lakṣmī as *avyakta* (Dvaita, Madhva on 12.1); the unmanifest ground of consciousness (Kashmir Śaiva). The translation keeps the one word and lets the card show the fork."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "8.3 *akṣaraṃ brahma paramam* names the highest Brahman imperishable; 8.11 'what the knowers of the Veda call the imperishable' is reached by the yogins free of passion; 8.21 identifies the unmanifest and the imperishable (*avyakto 'kṣara ity uktas*) as the supreme goal from which there is no return; 12.1 and 12.3 set the worshippers of 'the imperishable, the unmanifest' beside the worshippers of Kṛṣṇa's manifest form, and 12.3–4 describe that object as indefinable, all-pervading, unthinkable, unmoving, firm; 15.16–18 give the triad *kṣara* (all beings), *akṣara* (the unchanging, *kūṭastha*), and the supreme Puruṣa beyond both.",
+      "primary_loci": [
+        "Bhagavad-Gītā 8.3",
+        "Bhagavad-Gītā 8.11",
+        "Bhagavad-Gītā 8.21",
+        "Bhagavad-Gītā 12.1, 12.3",
+        "Bhagavad-Gītā 15.16–18"
+      ],
+      "register_tag": "M+S"
+    },
+    {
+      "school": "Advaita",
+      "definition": "Śaṅkara on 12.1 reads *akṣaram avyaktam* as Brahman stripped of every *upādhi* and therefore beyond the reach of the organs (*akaraṇa-gocaram*); on 12.3 he glosses *anirdeśyam* as what cannot be pointed out because it has no form, and *kūṭastham* as what stands at the root of the whole *māyā* that is *kūṭa*, or as what stands motionless like a heap. The worshippers of the imperishable are the renouncers of all action; their object is identical with the self.",
+      "primary_loci": [
+        "Śaṅkara, Gītābhāṣya 12.1, 12.3",
+        "Bṛhadāraṇyaka Upaniṣad 3.8.8",
+        "Muṇḍaka Upaniṣad 1.1.5"
+      ],
+      "register_tag": "S; jñānin"
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja on 12.1 takes *akṣara* as the essential nature of the individual self (*pratyag-ātma-svarūpa*), which is *avyakta* because it is not manifested to the eye and the other organs; the question of 12.1 therefore contrasts the devotee of the Lord with the *jñānin* who meditates on the self, and 12.2–5 answer that the devotee reaches the goal faster and with less toil.",
+      "primary_loci": [
+        "Rāmānuja, Gītābhāṣya 12.1–5"
+      ],
+      "register_tag": "AD; bhakta vs jñānin"
+    },
+    {
+      "school": "Dvaita",
+      "definition": "Madhva on 12.1 reads the *avyakta* as a distinct principle (he cites the Śrī-sūkta and the Kaṭha's *mahataḥ param avyaktam*) and takes the chapter to show the superiority of worship of the Lord over worship of the unmanifest; the imperishable remains dependent on and distinct from Viṣṇu.",
+      "primary_loci": [
+        "Madhva, Gītābhāṣya 12.1",
+        "Kaṭha Upaniṣad 3.11"
+      ],
+      "register_tag": "AD"
+    }
+  ],
+  "textual_history": {
+    "summary": "*Akṣara* is Vedic. In the Ṛgveda it is already the 'syllable' and the imperishable element of speech (1.164.24, 39); the Upaniṣads make it the name of the ultimate (Bṛhadāraṇyaka 3.8, Muṇḍaka 1.1.5, Praśna 5.2 where Oṃ is 'this akṣara'). The *Gītā* inherits both the metaphysical sense (8.3, 8.11, 8.21, 11.18, 11.37, 12.1, 12.3, 15.16–18) and the syllabic sense (10.25, 10.33), and 8.11–13 join them through Oṃ. Later Vedānta keeps *akṣara* as a standing name of Brahman; the Sāṅkhya-Yoga texts prefer *avyakta* and *pradhāna* for the unmanifest."
+  },
+  "see_also": [
+    "avyakta",
+    "brahman",
+    "purusa",
+    "prakrti",
+    "om"
+  ],
+  "translator_note": "Render *akṣara* as 'the imperishable' wherever it names the ultimate (8.3, 8.11, 8.21, 12.1, 12.3, 15.16–18) and as 'syllable' or 'letter' where it names a unit of speech (10.25, 10.33); the two are one word in Sanskrit and the card should say so. Do not shade to 'immutable' (change) or 'indestructible' (destruction): the root image is flowing-away, and 'imperishable' keeps it. Where the referent is school-dependent (12.1, 12.3), the English stays open and the fork record shows the construals."
+}

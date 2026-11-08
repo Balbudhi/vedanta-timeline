@@ -1,0 +1,77 @@
+{
+  "term_key": "dhyana",
+  "term_iast": "dhyāna",
+  "term_devanagari": "ध्यान",
+  "literal": "meditation, the sustained fixing of thought on one object; action-noun from √dhyai (bhvādi, 1P) 'to think of, to contemplate, to call to mind' with the kṛt affix lyuṭ (dhyai + ana → dhyāna); the participle *dhyāyat* 'meditating' and the verb *dhyāyati* belong to the same root",
+  "aliases": [
+    "dhyana",
+    "dhyāna",
+    "Dhyāna",
+    "dhyānam",
+    "dhyānāt",
+    "dhyānena",
+    "dhyāyantaḥ",
+    "dhyāyataḥ",
+    "dhyāyati",
+    "dhyāna-yoga",
+    "dhyānayoga"
+  ],
+  "last_verified_at": "2026-11-08",
+  "last_verified_by": "gita-ch12-pilot",
+  "invariant_definition": "*Dhyāna* is meditation in the strict sense: the continuous flow of thought toward a single object. Patañjali defines it as 'the one-pointed continuity of the cognition there' (*tatra pratyayaikatānatā dhyānam*, Yogasūtra 3.2), the seventh of the eight limbs, between *dhāraṇā* (fixing) and *samādhi* (absorption). The *Gītā* uses the root for both the yogic discipline and its ordinary counterpart: in 2.62 'for one who dwells in thought on the objects of sense' (*dhyāyato viṣayān*) the same mental act, turned toward sense-objects, breeds attachment. In chapter 12 those who 'worship me, meditating on me' with a yoga directed to nothing else (12.6) are lifted from the ocean of death and *saṃsāra* (12.7); and 12.12 ranks the means — knowledge is better than practice, meditation than knowledge, relinquishment of the fruit of action than meditation, and from relinquishment peace follows — a sequence the commentators read in different directions. 13.24 has some 'see the self in the self by the self through meditation' (*dhyānenātmani paśyanti*), and 18.52 describes the one 'ever intent on the yoga of meditation'. The English 'meditation', in its older and exact sense of fixed, continued thought on one thing, carries the root and keeps the noun and the participle together ('meditating'); the term is therefore translated, not preserved.",
+  "school_framing": {
+    "framing_status": "same_concept_different_aspect",
+    "shared_core": "*Dhyāna* names **the sustained, one-pointed flow of thought toward an object, as a discipline that leads to absorption and knowledge**; all schools accept Yogasūtra 3.2 as the technical definition and read 12.6 and 12.12 as meditation on the Lord or the self.",
+    "register_axes_note": "The aspect differs: in Yoga it is a limb on the way to *samādhi*; in Advaita (Śaṅkara on 12.12) meditation on the self follows knowledge from scripture and precedes direct realization, and the 12.12 ordering is explained as describing the un-knower; in Viśiṣṭādvaita *dhyāna* and *upāsanā* are the standing names of *bhakti* itself, continuous remembrance of the Lord (Rāmānuja on 12.12 reads the sequence as the path for one unable to practise *bhakti-yoga* directly); in Buddhism *jhāna/dhyāna* names the graded absorptions."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "2.62 *dhyāyato viṣayān puṃsaḥ saṅgas teṣūpajāyate*: dwelling in thought on objects breeds clinging — the same act turned the wrong way. 12.6–7: those who, renouncing all actions in Kṛṣṇa, meditate on him with an undivided yoga are soon lifted out of the ocean of death and *saṃsāra*. 12.12: *jñānād dhyānaṃ viśiṣyate, dhyānāt karma-phala-tyāgaḥ*. 13.24: seeing the self by meditation. 18.52: *dhyāna-yoga-paraḥ*.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.62",
+        "Bhagavad-Gītā 12.6–7",
+        "Bhagavad-Gītā 12.12",
+        "Bhagavad-Gītā 13.24",
+        "Bhagavad-Gītā 18.52"
+      ],
+      "register_tag": "M+S"
+    },
+    {
+      "school": "Yoga",
+      "definition": "*Dhyāna* is the seventh limb: 'the one-pointed continuity of cognition there' (Yogasūtra 3.2), following *dhāraṇā*, the binding of the mind to a place (3.1), and preceding *samādhi*, in which the object alone shines (3.3); the three together are *saṃyama* (3.4).",
+      "primary_loci": [
+        "Yogasūtra 3.1–4"
+      ],
+      "register_tag": "S"
+    },
+    {
+      "school": "Advaita",
+      "definition": "Śaṅkara on 12.12 glosses *dhyāna* as meditation preceded by knowledge, and reads the verse's ascending series as praise of relinquishment of the fruit of action for the one who cannot know the self, arguing that *tyāga* here cannot be higher than knowledge for the knower; the series is thus a ranking of means for the un-knower, not a demotion of knowledge.",
+      "primary_loci": [
+        "Śaṅkara, Gītābhāṣya 12.12"
+      ],
+      "register_tag": "S; jñānin"
+    },
+    {
+      "school": "Viśiṣṭādvaita",
+      "definition": "Rāmānuja uses *dhyāna*, *upāsanā* and *bhakti* as names of one continuous remembrance of the Lord; on 12.12 he reads the sequence as the way for one unable to fix the mind on the Lord: practice, then knowledge of the self, then meditation on the self, then relinquishment of the fruit of action, which brings the peace from which *bhakti* can begin.",
+      "primary_loci": [
+        "Rāmānuja, Gītābhāṣya 12.12"
+      ],
+      "register_tag": "AD; bhakta"
+    }
+  ],
+  "textual_history": {
+    "summary": "√dhyai is Vedic ('to think of, to muse'); *dhyāna* as a discipline appears in the Upaniṣads (Chāndogya 7.6, where *dhyāna* is a stage of Nārada's instruction, 'greater than *citta*') and becomes technical in the Yogasūtra (3.2) and the Buddhist *jhāna* lists. The *Gītā* uses both the ordinary and the disciplinary senses (2.62 against 12.6, 12.12, 13.24, 18.52). Later Vedānta keeps *dhyāna* as the stage after hearing and reflection (*śravaṇa, manana, nididhyāsana*), and the *bhakti* traditions make it continuous remembrance of the Lord."
+  },
+  "see_also": [
+    "samadhi",
+    "yoga",
+    "bhakti",
+    "jnana",
+    "tyaga",
+    "citta"
+  ],
+  "translator_note": "Render *dhyāna* as 'meditation' and *dhyāyat/dhyāyati* as 'meditating/meditates', keeping noun and verb together; preserving only the noun would break the pairing at 12.6–12. 'Contemplation' is a possible but weaker English (it has no verb in current use and admits a diffuse gaze); 'meditation' in its exact sense is fixed, continued thought on one object, which is Yogasūtra 3.2. At 2.62 the same root turned toward objects must still read 'dwelling in thought on' or 'meditating on', not 'brooding over', so the reader can see that the Gītā uses one act in two directions."
+}

@@ -95,3 +95,9 @@ glossary schemas are mixed; the primitive model is pedagogically risky.
 
 **Gate:** no release claims completion because a report ran; use the report's
 actual unresolved count and a visual verification record.
+
+## P-G — Whole Gītā word-by-word (owner priority 2026-11-08)
+
+Plan, gates and owner decisions: [GITA_FULL_TRANSLATION_PLAN.md](GITA_FULL_TRANSLATION_PLAN.md).
+Phase 0 fixes (term_policy.json, validator discovery, witness check for mūla-only readers,
+markup test) precede any new chapter; chapter 12 is the pilot.

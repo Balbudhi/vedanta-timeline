@@ -102,10 +102,40 @@ function phrasesByIndex(english) {
 }
 const ALL_PRESERVE_IAST = Object.entries(PRESERVE);
 
+// ---- sense-constant policy mode (data/glossary/term_policy.json) -----------
+// A word that carries `term: {lemma, sense}` is checked against the policy row
+// instead of the legacy PRESERVE/TRANSLATE tables above: a preserved sense must
+// print its IAST and none of its forbidden English; a translated sense must use
+// one of its fixed renderings and never its Sanskrit. Readers built under the
+// policy (gita/ch12 onward) carry `term` on every matching word; the builder
+// enforces presence, this checker enforces rendering on every occurrence.
+const POLICY = JSON.parse(fs.readFileSync(path.join(ROOT, "data/glossary/term_policy.json"), "utf8"));
+let P = 0;
+function policyCheck(label, w, phrases) {
+  const t = w.term; if (!t) return false;
+  const row = POLICY.terms[t.lemma]; const srow = row && row.senses[t.sense];
+  if (!srow) { console.log(`P ${label} [${w.i}] ${w.iast}: term ${JSON.stringify(t)} not in policy`); P++; return true; }
+  if (!phrases) return true;
+  const low = phrases.toLowerCase();
+  const esc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  if (srow.policy === "preserve") {
+    if (!(srow.iast_forms || [srow.iast]).some((f) => phrases.includes(f))) { console.log(`P ${label} [${w.i}] ${w.iast}: preserved ${t.lemma}/${t.sense} must print "${srow.iast}" — "${phrases}"`); P++; }
+    for (const bad of srow.forbidden_english || []) if (new RegExp(`\\b${esc(bad.toLowerCase())}\\b`).test(low)) { console.log(`P ${label} [${w.i}] ${w.iast}: preserved ${t.lemma} rendered "${bad}" — "${phrases}"`); P++; }
+  } else {
+    if (!(srow.english || []).some((e) => new RegExp(`\\b${esc(e.toLowerCase())}\\b`).test(low))) { console.log(`P ${label} [${w.i}] ${w.iast}: translated ${t.lemma}/${t.sense} must use one of ${JSON.stringify(srow.english)} — "${phrases}"`); P++; }
+    for (const bad of srow.forbidden_english || []) if (new RegExp(`(?<![‘'"“])\\b${esc(bad.toLowerCase())}\\b`).test(low)) { console.log(`P ${label} [${w.i}] ${w.iast}: translated ${t.lemma} uses forbidden "${bad}" — "${phrases}"`); P++; }
+  }
+  return true;
+}
+
 let A = 0, B = 0, C = 0, D = 0;
 function checkUnit(label, words, english) {
   const pmap = english ? phrasesByIndex(english) : {};
   for (const w of words || []) {
+    if (policyCheck(label, w, (pmap[w.i] || []).join(" "))) {
+      if (w.glossaryKey && !keyAllowedFor(w.glossaryKey, w)) { console.log(`A ${label} [${w.i}] ${w.iast}: glossaryKey="${w.glossaryKey}" unrelated`); A++; }
+      continue;
+    }
     const terms = detectTerms(w);
     // A: glossaryKey concept mismatch
     if (w.glossaryKey && !keyAllowedFor(w.glossaryKey, w)) {
@@ -158,6 +188,7 @@ const READINGS = [
   { dir: "gita/sthitaprajna", verses: "GITA_VERSES", commentary: "GITA_COMMENTARY", parallels: "GITA_PARALLELS" },
   { dir: "gita/kama", verses: "GITA3_VERSES", commentary: "GITA3_COMMENTARY", parallels: "GITA3_PARALLELS" },
   { dir: "gita/ch5", verses: "CH5_VERSES", commentary: "CH5_COMMENTARY", parallels: "CH5_PARALLELS" },
+  { dir: "gita/ch12", verses: "CH12_VERSES", commentary: "CH12_COMMENTARY", parallels: "CH12_PARALLELS" },
 ];
 const loadIfPresent = (f, g) => (fs.existsSync(path.join(ROOT, f)) ? load(f, g) : null);
 const ALL = READINGS.map((r) => ({
@@ -208,7 +239,7 @@ for (const R of ALL) {
   if (R.parallels) eachParallelWords(R.parallels, (words) => checkCardFields(`${R.tag} parallel`, words));
 }
 
-console.log(`\nA(glossaryKey mismatch)=${A}  B(prints other term)=${B}  C(translate left IAST)=${C}  D(preserve flattened)=${D}  E(card etymology)=${E}  F(card single-word collapse)=${F}`);
-const total = A + B + C + D + E + F;
+console.log(`\nP(policy)=${P}  A(glossaryKey mismatch)=${A}  B(prints other term)=${B}  C(translate left IAST)=${C}  D(preserve flattened)=${D}  E(card etymology)=${E}  F(card single-word collapse)=${F}`);
+const total = P + A + B + C + D + E + F;
 if (total) { console.error(`\n${total} term-consistency violation(s).`); process.exit(1); }
 console.log("Term consistency OK.");

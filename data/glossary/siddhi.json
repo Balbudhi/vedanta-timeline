@@ -1,0 +1,70 @@
+{
+  "term_key": "siddhi",
+  "term_iast": "siddhi",
+  "term_devanagari": "सिद्धि",
+  "literal": "accomplishment, perfection, success; action-noun from √sidh (divādi, 4P) 'to be accomplished, to succeed, to attain' with the kṛt affix ktin (sidh + ti → siddhi); *siddha* 'accomplished, perfected' and *saṃsiddhi* 'complete perfection' belong to the same root",
+  "aliases": [
+    "siddhi",
+    "Siddhi",
+    "siddhim",
+    "siddhiḥ",
+    "siddhyai",
+    "saṃsiddhi",
+    "saṃsiddhim",
+    "siddha",
+    "siddhāḥ",
+    "asiddhi",
+    "siddhy-asiddhyoḥ"
+  ],
+  "last_verified_at": "2026-11-08",
+  "last_verified_by": "gita-ch12-pilot",
+  "invariant_definition": "*Siddhi* is the accomplishment of what one set out to do, and in the soteriological register the perfection that is the goal of discipline. The *Gītā* uses the word in both registers and the two must be kept apart on the card. In the ordinary register it is success in an undertaking: 'the same in success and failure' (*siddhy-asiddhyoḥ samo bhūtvā*, 2.48), men 'desiring the success of actions' sacrifice to the gods (4.12), and 18.26 names the agent 'unchanged in success and failure'. In the soteriological register it is the goal reached: 'not by mere renunciation does one attain perfection' (3.4), the sages 'have gone from here to the highest perfection' (14.1), the man of demonic nature 'does not attain perfection' (16.23), a man 'attains perfection' through delight in his own action (18.45), and 18.50 speaks of the one who has 'attained perfection' and so attains Brahman. 12.10 belongs here: 'even performing actions for my sake you will attain perfection' (*madartham api karmāṇi kurvan siddhim avāpsyasi*). In Yoga *siddhi* has a third, technical sense, the powers born of birth, herbs, mantra, austerity and absorption (Yogasūtra 4.1), which the *Gītā* does not use. English 'perfection' is the fixed rendering in the soteriological register and 'success' in the ordinary one; the two senses are two policy rows.",
+  "school_framing": {
+    "framing_status": "shared",
+    "shared_core": "*Siddhi* names **the attainment of the goal: success in an undertaking, or, as the end of discipline, perfection**; the schools agree on the word and differ on what the final perfection is (knowledge of Brahman, the soul's reaching the Lord, the stilling of the mind).",
+    "register_axes_note": "Shared. Śaṅkara on 12.10 glosses the *siddhi* reached by acting for the Lord as the ripening into *jñāna* and *bhakti* through purification (*sattva-śuddhi*), Rāmānuja as the attainment that follows from *bhakti* begun through action; Yoga adds the separate sense of the *vibhūti* powers, which the *Gītā* does not intend."
+  },
+  "per_school": [
+    {
+      "school": "Bhagavad-Gītā",
+      "definition": "Ordinary register: 2.48 *siddhy-asiddhyoḥ*, 4.12 *karmaṇāṃ siddhim*, 18.26 *siddhy-asiddhyor nirvikāraḥ*. Soteriological register: 3.4, 12.10 *siddhim avāpsyasi*, 14.1 *parāṃ siddhim*, 16.23, 18.45–46 *saṃsiddhim labhate naraḥ*, 18.50 *siddhiṃ prāptaḥ*.",
+      "primary_loci": [
+        "Bhagavad-Gītā 2.48",
+        "Bhagavad-Gītā 3.4",
+        "Bhagavad-Gītā 4.12",
+        "Bhagavad-Gītā 12.10",
+        "Bhagavad-Gītā 14.1",
+        "Bhagavad-Gītā 18.45–50"
+      ],
+      "register_tag": "M+S"
+    },
+    {
+      "school": "Advaita",
+      "definition": "Śaṅkara on 12.10 explains the perfection reached by acting for the Lord as attained through the purification of the mind, the rise of yoga, knowledge and devotion in succession; on 18.45–50 perfection is the fitness for knowledge that obligatory action produces, and the one who has attained it attains Brahman by knowledge.",
+      "primary_loci": [
+        "Śaṅkara, Gītābhāṣya 12.10, 18.45–50"
+      ],
+      "register_tag": "S"
+    },
+    {
+      "school": "Yoga",
+      "definition": "Yogasūtra 4.1 lists the sources of the *siddhis* — birth, herbs, mantra, austerity, absorption — and the third chapter (Vibhūti-pāda) describes the powers; 3.37 warns that they are obstacles to absorption though perfections for the outward mind. This technical sense is not the Gītā's.",
+      "primary_loci": [
+        "Yogasūtra 3.37",
+        "Yogasūtra 4.1"
+      ],
+      "register_tag": "S"
+    }
+  ],
+  "textual_history": {
+    "summary": "√sidh 'to succeed' gives *siddhi* and *siddha* from the epics onward in the plain sense of success and the accomplished person; the *Gītā* raises it to the name of the goal of discipline (3.4, 12.10, 14.1, 18.45–50) while keeping the plain sense (2.48, 4.12, 18.26). The Yogasūtra and the tantric traditions specialise *siddhi* for supernormal powers; the *Siddha* traditions and the Nātha yogins make *siddha* a title. The *Gītā*'s usage is prior to and independent of that specialisation."
+  },
+  "see_also": [
+    "karma",
+    "karma-yoga",
+    "moksa",
+    "jnana",
+    "bhakti"
+  ],
+  "translator_note": "Render the soteriological *siddhi* (3.4, 12.10, 14.1, 16.23, 18.45–50) as 'perfection' and the ordinary *siddhi/asiddhi* pair (2.48, 4.12, 18.26) as 'success/failure'; do not use 'attainment', which would collide with the fixed rendering of √āp, or 'accomplishment', which hides the goal sense. Never import the yogic 'powers' sense into the Gītā."
+}
