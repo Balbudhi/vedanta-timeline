@@ -20,11 +20,13 @@ translation + grammar + glossary link), bidirectional highlight, voice-by-voice
 commentary, source script followed by IAST and literal English, and integrated
 with the site glossary. Commentary is translated where a reader includes it; the
 whole-Gītā readers (`gita/chN/`) are root text only by the owner's decision of
-2026-11-08. Reference implementation: `gita/ch12/` (built by the Gītā pipeline,
-`docs/GITA_FULL_TRANSLATION_PLAN.md` §7 and its runbook) + `assets/gita.js`
+2026-11-08. Reference implementation: `gita/ch12/` (the chapter-12 pilot) + `assets/gita.js`
 (`window.GitaReader`); the older `gita/sthitaprajna/`, `gita/kama/` and `gita/ch5/`
 predate the consolidated standard and are migrated under its §10. Follow this
-standard for any new Sanskrit text.
+standard for any new Sanskrit text. The whole-Gītā translation is documented in
+`docs/GITA_FULL_TRANSLATION_PLAN.md` (goal, method, current state, roadmap); English
+is chosen per `docs/gita_briefs/ENGLISH_CRAFT.md`; the code and how to run it are in
+`scripts/gita/translate/README.md`. Superseded Gītā documents are in `docs/history/gita/`.
 
 The shared grammatical-text library is `/Users/eeshan/Dev/prakriya/sources/`.
 Read its `README.md`, clean-witness manifest, and the relevant Sanskrit

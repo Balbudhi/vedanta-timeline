@@ -1,5 +1,7 @@
 # Verse brief: one shard of the Gītā, word by word
 
+> **Retired (2026-11-09).** A brief for the stages A–E job queue, which is no longer used; kept here only because retired code names this path. Current documents: [`docs/history/gita/README.md`](../history/gita/README.md).
+
 Serves queue jobs of type `verse` (main part) and `fix` (last section). Output shape:
 `docs/gita_briefs/SCHEMAS.md` (verse job). Rules: `docs/SANSKRIT_TRANSLATION_STANDARD.md`
 (the standard), which governs where this brief is silent or seems to differ; §7 is the

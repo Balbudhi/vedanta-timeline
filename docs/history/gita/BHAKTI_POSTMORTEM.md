@@ -4,8 +4,7 @@ Written 2026-11-08 from a read-only examination of `/Users/eeshan/Dev/bhakti`. N
 in that repository was changed and no paid or model call was made. Sources: README,
 AGENTS, `docs/` (chiefly `TRANSLATION_ENGINE_PLAN.md`, `TRANSLATION_COMPONENT_AUDIT.md`,
 `TRANSLATION_WORKFLOW.md`, `LIBRARY_REPAIR_TASKS.md`, `GEMINI_MODEL_QUALIFICATION.md`,
-`SONG_PROCESSING_STANDARD.md`), the engine scripts, `.transcription/library-review/`
-run records, git history (353 commits), the earlier audit
+`SONG_PROCESSING_STANDARD.md`), the engine scripts, the private run records, git history (353 commits), the earlier audit
 `prakriya/research/audit-20261107/bhakti-engine.md`, and a fresh run of the test
 suite. Compared against prakriya `docs/TRANSLATION_PIPELINE_SPEC.md` §0–§0.6,
 `docs/GITA_FULL_TRANSLATION_PLAN.md`, this directory's RUNBOOK, LEXICON_BRIEF,
@@ -115,7 +114,7 @@ The engine modules total about 32.8k lines of code; `bhakti_pipeline.py` alone h
   - *māyā* → "worldly illusion";
   - "tainted" with unintended associations.
 
-  (`engine-rebuild-20261027/history.md` §§4–7.)
+  (The owner's recorded requirements, private.)
 
 ### 2.2 Design failures (root causes)
 
@@ -128,8 +127,8 @@ Source meaning, popups, English and review all ran over the whole song in one re
 - Large requests exhausted the model's reasoning budget: V11 used 31,454 of 32,753
   tokens, and the 22 Oct Gagan run used 15,725 of 16,384.
 - There was no per-word or per-sense decision that could be made once and reused. The
-  owner had asked exactly for that: "this is also a thing you do once… you don't want
-  to do this every time" (history.md §3).
+  owner had asked for exactly that: a decision made once and reused, not re-made
+  every time.
 - Memory was gated on whole-song acceptance, so one bad line in nine kept the memory
   empty.
 
@@ -149,8 +148,8 @@ judgement.**
   passing clean controls.
 
 **D3. Embedding retrieval stood in for meaning and did not deliver it.**
-- The owner's requirement was a retrieval trace: "You're not assuming the model knows
-  this. We're literally finding a word" (history.md §2).
+- The owner's requirement was a retrieval trace: the word is found by search, not
+  assumed to be known by the model.
 - Bhakti answered with dense retrieval from model-written "native meaning" summaries.
 - Results:
   - E5 shortlist kept 0/7 expected concepts and LaBSE 1/7 (`TRANSLATION_WORKFLOW.md`).
@@ -192,8 +191,8 @@ judgement.**
 
 **D6. Thin, borrowed source evidence.**
 - Only 51.97% of popup definitions are in a language with any dictionary adapter.
-- The adapters are bilingual (Platts, Singh). The owner had asked to "get rid of the
-  Sanskrit-to-English dictionary usage" (history.md §1).
+- The adapters are bilingual (Platts, Singh). The owner had asked that Sanskrit-to-English
+  dictionaries not be used as sources of meaning.
 - Sanskrit witnesses cannot establish Hindi or Punjabi usage, so the model filled the
   gap, which is the D2 problem again.
 
@@ -234,12 +233,12 @@ judgement.**
 |---|---|---|
 | WordNet FTS reverse lookup | `bhakti/scripts/bhakti_reverse_dictionary.py` `LexicalSearch.search` (l.599), store `.transcription/reverse-index/wordnet-3.1-multilingual-e5-small/entries.sqlite` | the one retrieval channel that finds the obvious word (yoke, rank 1, 34 ms). Already consumed by prakriya `scripts/lookup/lookup.py` l.45, l.1091 |
 | English-register policy v9 | `bhakti/scripts/bhakti_translation_policy.py` `RULES` l.30–134, `SENSE_DECISION_RULES` l.18 | sense before inflection; uncommon attested English is eligible; epithet vs name; the *pati* rule (relation from grammar, not a stock "Lord"); retention needs an explicit loss argument; **unresolved meaning is reported, never disguised as retention**; a dictionary entry gives possible senses only |
-| Joycean rules and record shape | `RULES` (formation paragraphs); walkthroughs `.transcription/library-review/engine-rebuild-20261028/joycean-walkthrough-v1/{lotus-source-walkthrough,lotus-english-lookups,english-lookups}.json` | parts + relation + paraphrase; "attested parts do not make the whole attested"; reject a coinage that adds an image. Each walkthrough records rejected neighbours: *fresh-lotus-eyed* against lotus-born (resemblance → origin), lotuseer (adds a seer), lotus-eyed (drops freshness) |
+| Joycean rules and record shape | `RULES` (formation paragraphs); the Joycean walkthrough records (private run records) | parts + relation + paraphrase; "attested parts do not make the whole attested"; reject a coinage that adds an image. Each walkthrough records rejected neighbours: *fresh-lotus-eyed* against lotus-born (resemblance → origin), lotuseer (adds a seer), lotus-eyed (drops freshness) |
 | Popup hygiene | `bhakti/scripts/gloss_policy.py` `PLACEHOLDER_GLOSSES` l.15, `FICTIONAL_COINAGES` l.17, `MEANING_ONLY` l.53 | bans "proper name", self-repeating glosses and comic-book coinages, the owner's August complaints in code |
 | Typed review issues | `bhakti/scripts/bhakti_semantic_repair.py` `issue_schema` l.679, `REVIEW_GUIDANCE` l.693 | five kinds (gloss_sense, frame_relation, english_realization, english_mapping, unresolved_evidence); "do not prescribe a rewrite"; an issue authorizes only its scoped repair |
 | Term-memory schema | `bhakti/scripts/bhakti_term_memory.py` `record_accepted` l.195, `lookup` l.228, `withdraw` l.277 | keeps language, sense, context and alternatives separate; withdrawal is explicit; reuse is not proof |
 | Owner locks | `bhakti/data/editorial_baselines.json`, `data/translation_conventions.json` (42 reviewed occurrences by line and word index) | approved wording cannot be silently rewritten (lesson D7) |
-| Recovered owner requirements | `bhakti/.transcription/library-review/engine-rebuild-20261027/history.md` | the best document in the repository: dated, quoted owner instructions on meaning-first search, once-only decisions, Joycean words, connotation and retention |
+| Recovered owner requirements | a private record in the bhakti project | dated owner instructions on meaning-first search, once-only decisions, Joycean words, connotation and retention |
 | Transport lessons | `bhakti/docs/GEMINI_MODEL_QUALIFICATION.md` "Operational decision"; `process_song_gemini.py` `_remaining_timeout` l.190 | subprocess wall deadline; save raw bytes before parsing; unknown outcome ≠ free |
 
 Not reusable for the Gītā:
@@ -306,6 +305,6 @@ trusting the judgement.
 5. Root cause 3, retrieval: dense embeddings were weak (E5 0/7, LaBSE 1/7; nothing for Sanskrit), while plain FTS found "yoke" at rank 1.
 6. Root cause 4, gates: about 12 of 22 stops were engineering, mostly host-contract strictness with no self-repair loop. Policy went v1→v9 in a week and the plan grew 7.6× with five contradictory next steps.
 7. Implementation: 137 files uncommitted; today's suite has 2,714 tests and is 41.5% red (456 errors from one uncommitted schema change); the documented runtime does not exist.
-8. Reuse: WordNet FTS, policy v9 RULES (register, *pati*, retention vs unresolved, Joycean), the Joycean walkthrough records, gloss_policy hygiene, the typed review issues, the term-memory schema, owner locks and history.md.
+8. Reuse: WordNet FTS, policy v9 RULES (register, *pati*, retention vs unresolved, Joycean), the Joycean walkthrough records, gloss_policy hygiene, the typed review issues, the term-memory schema, owner locks and the recovered owner requirements.
 9. The Gītā pipeline already avoids the core errors: lexicon-first, capable agents with validator feedback, FTS over seven monolingual sources, Sanskrit evidence primary, green tests.
 10. It is repeating Bhakti in five places: an uncommitted toolchain, no reviewer canary, no retrieval trace, brief/tool/validator drift, and a plan accreting history. The fixes are in §4, in priority order.

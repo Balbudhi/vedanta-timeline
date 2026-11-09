@@ -98,6 +98,9 @@ actual unresolved count and a visual verification record.
 
 ## P-G — Whole Gītā word-by-word (owner priority 2026-11-08)
 
-Plan, gates and owner decisions: [GITA_FULL_TRANSLATION_PLAN.md](GITA_FULL_TRANSLATION_PLAN.md).
-Phase 0 fixes (term_policy.json, validator discovery, witness check for mūla-only readers,
-markup test) precede any new chapter; chapter 12 is the pilot.
+Goal, method, current state, open owner decisions and the roadmap in dependency order:
+[GITA_FULL_TRANSLATION_PLAN.md](GITA_FULL_TRANSLATION_PLAN.md); rules:
+[SANSKRIT_TRANSLATION_STANDARD.md](SANSKRIT_TRANSLATION_STANDARD.md); code:
+[scripts/gita/translate/README.md](../scripts/gita/translate/README.md). Chapter 12 (the pilot) is live.
+Superseded 2026-11-09: the "Phase 0 fixes before any new chapter" gate and the job-queue
+stages A–E it served; the roadmap in the plan replaces them. Records: [history/gita/](history/gita/README.md).

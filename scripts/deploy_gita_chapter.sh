@@ -4,7 +4,7 @@
 #   sh scripts/deploy_gita_chapter.sh N "commit message"
 #   sh scripts/deploy_gita_chapter.sh "2 3 4" "commit message" [--whole-gita]
 #
-# docs/GITA_CH12_PIPELINE_AUDIT.md §5.8, amended 2026-11-08 (lead): the working tree is shared with
+# docs/history/gita/GITA_CH12_PIPELINE_AUDIT.md §5.8, amended 2026-11-08 (lead): the working tree is shared with
 # other agents and holds their uncommitted edits, so the real build happens in the worktree, never
 # in the working tree (which only ever runs the builder with --check-only):
 #   1. origin/main is fetched over HTTPS with `gh auth git-credential` (no SSH keys here) into a new

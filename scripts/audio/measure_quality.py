@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Measure the technical quality of a recitation recording (plan §15.2).
+"""Measure the technical quality of a recitation recording (docs/GITA_FULL_TRANSLATION_PLAN.md §3.3; docs/AUDIO_ALIGNMENT_STANDARD.md).
 
 Usage:
     python scripts/audio/measure_quality.py AUDIO [--out quality.json]

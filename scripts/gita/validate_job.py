@@ -4,7 +4,7 @@
     python3 scripts/gita/validate_job.py TYPE OUTPUT [--json] [--no-builder]
 
 TYPE: lexicon | lexicon-fix | lexicon-review | lexicon-rereview | verse | fix | review | rereview.
-Schema and referential checks per docs/gita_briefs/SCHEMAS.md (with its amendments); a verse
+Schema and referential checks per docs/history/gita/SCHEMAS.md (with its amendments); a verse
 output is also expanded and run through the builder's verse and card checks. Exit 0 = valid.
 """
 from __future__ import annotations

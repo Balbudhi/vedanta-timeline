@@ -1,5 +1,5 @@
 """Stage A: verse packets, the Gītā-wide lemma inventory, concordance, meaning pages, shard
-plan and the private translations files (plan §7.3; SCHEMAS.md amendments).
+plan and the private translations files (docs/GITA_FULL_TRANSLATION_PLAN.md §4.1; shapes in docs/history/gita/SCHEMAS.md).
 
 Packets hold no published translation: the BORI text, the oracle's split candidates,
 analyses and derivations, and the Sanskrit commentators' glosses (lookup.py `gloss`). The

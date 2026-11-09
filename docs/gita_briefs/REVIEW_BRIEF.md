@@ -1,5 +1,7 @@
 # Review brief: one pass over one Gītā shard, the blind check last
 
+> **Retired (2026-11-09).** A brief for the stages A–E job queue, which is no longer used; kept here only because retired code names this path. Current documents: [`docs/history/gita/README.md`](../history/gita/README.md).
+
 Serves queue jobs of type `review` (main part) and `rereview` (last section). Output
 shape: `docs/gita_briefs/SCHEMAS.md` (review job). Rules:
 `docs/SANSKRIT_TRANSLATION_STANDARD.md` §5.1 (this review), §6 and §7 (what is right),

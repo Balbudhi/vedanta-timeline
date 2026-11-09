@@ -1,5 +1,7 @@
 # Master prompt: paste this to translate, review and build the whole Gītā
 
+> **Retired (2026-11-09).** This runs the stages A–E job queue, which is no longer used. Do not follow it; see [README.md](README.md) for the current documents.
+
 Paste everything between the lines into an agent that has shell access (OpenAI Codex,
 ChatGPT with a code environment, Claude Code). Set N (parallel workers) and PUSH
 (yes lets the lead publish each passing chapter provisionally, plan L15; no leaves

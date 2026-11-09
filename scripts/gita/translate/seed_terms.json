@@ -1,0 +1,687 @@
+{
+ "source": "docs/GITA_FULL_TRANSLATION_PLAN.md §6.1 (seed decisions of the pilot)",
+ "terms": {
+  "seed-yoga": {
+   "match": "^yoga$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "yoga",
+     "iast_forms": [
+      "yoga"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-dharma": {
+   "match": "^dharma$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "dharma",
+     "iast_forms": [
+      "dharma"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-svadharma": {
+   "match": "^svadharma$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "svadharma",
+     "iast_forms": [
+      "svadharma"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-guṇa": {
+   "match": "^guṇa$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "guṇa",
+     "iast_forms": [
+      "guṇa"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-sattva": {
+   "match": "^sattva$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "sattva",
+     "iast_forms": [
+      "sattva"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-rajas": {
+   "match": "^rajas$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "rajas",
+     "iast_forms": [
+      "rajas"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-tamas": {
+   "match": "^tamas$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "tamas",
+     "iast_forms": [
+      "tamas"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-prakṛti": {
+   "match": "^prakṛti$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "prakṛti",
+     "iast_forms": [
+      "prakṛti"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-puruṣa": {
+   "match": "^puruṣa$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "puruṣa",
+     "iast_forms": [
+      "puruṣa"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-buddhi": {
+   "match": "^buddhi$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "buddhi",
+     "iast_forms": [
+      "buddhi"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-manas": {
+   "match": "^manas$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "manas",
+     "iast_forms": [
+      "manas"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-indriya": {
+   "match": "^indriya$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "indriya",
+     "iast_forms": [
+      "indriya"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-ahaṃkāra": {
+   "match": "^ahaṃkāra$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "ahaṃkāra",
+     "iast_forms": [
+      "ahaṃkāra"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-prajñā": {
+   "match": "^prajñā$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "prajñā",
+     "iast_forms": [
+      "prajñā"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-kāma": {
+   "match": "^kāma$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "kāma",
+     "iast_forms": [
+      "kāma"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-rāga": {
+   "match": "^rāga$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "rāga",
+     "iast_forms": [
+      "rāga"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-dveṣa": {
+   "match": "^dveṣa$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "dveṣa",
+     "iast_forms": [
+      "dveṣa"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-tṛṣṇā": {
+   "match": "^tṛṣṇā$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "tṛṣṇā",
+     "iast_forms": [
+      "tṛṣṇā"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-rasa": {
+   "match": "^rasa$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "rasa",
+     "iast_forms": [
+      "rasa"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-samādhi": {
+   "match": "^samādhi$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "samādhi",
+     "iast_forms": [
+      "samādhi"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-saṃsāra": {
+   "match": "^saṃsāra$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "saṃsāra",
+     "iast_forms": [
+      "saṃsāra"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-māyā": {
+   "match": "^māyā$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "māyā",
+     "iast_forms": [
+      "māyā"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-yajña": {
+   "match": "^yajña$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "yajña",
+     "iast_forms": [
+      "yajña"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-tapas": {
+   "match": "^tapas$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "tapas",
+     "iast_forms": [
+      "tapas"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-bhakti": {
+   "match": "^bhakti$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "bhakti",
+     "iast_forms": [
+      "bhakti"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-bhakta": {
+   "match": "^bhakta$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "bhakta",
+     "iast_forms": [
+      "bhakta"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-brahman": {
+   "match": "^brahman$",
+   "senses": {
+    "seed": {
+     "policy": "preserve",
+     "iast": "brahman",
+     "iast_forms": [
+      "brahman"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-krodha": {
+   "match": "^krodha$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "anger"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-bhaya": {
+   "match": "^bhaya$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "fear"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-moha": {
+   "match": "^moha$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "delusion"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-duḥkha": {
+   "match": "^duḥkha$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "sorrow",
+      "pain"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-sukha": {
+   "match": "^sukha$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "pleasure"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-saṅga": {
+   "match": "^saṅga$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "clinging"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-jñāna": {
+   "match": "^jñāna$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "knowledge"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-mokṣa": {
+   "match": "^mokṣa$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "liberation"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-śānti": {
+   "match": "^śānti$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "peace"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-pāpa": {
+   "match": "^pāpa$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "sin"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-puṇya": {
+   "match": "^puṇya$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "merit"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-saṃnyāsa": {
+   "match": "^saṃnyāsa$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "renunciation"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-tyāga": {
+   "match": "^tyāga$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "relinquishment"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-kṣetra": {
+   "match": "^kṣetra$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "field"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-avyakta": {
+   "match": "^avyakta$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "the unmanifest",
+      "unmanifest"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-akṣara": {
+   "match": "^akṣara$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "the imperishable",
+      "imperishable"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-īśvara": {
+   "match": "^īśvara$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "the Lord",
+      "Lord",
+      "lord"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-phala": {
+   "match": "^phala$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "fruit"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-hetu": {
+   "match": "^hetu$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "cause"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-śaraṇa": {
+   "match": "^śaraṇa$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "refuge"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-śraddhā": {
+   "match": "^śraddhā$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "faith"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-siddhi": {
+   "match": "^siddhi$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "perfection"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-deva": {
+   "match": "^deva$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "god"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-jīva": {
+   "match": "^jīva$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "living being",
+      "living one"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-śoka": {
+   "match": "^śoka$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "grief"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-dhyāna": {
+   "match": "^dhyāna$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "meditation"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  },
+  "seed-ātman": {
+   "match": "^ātman$",
+   "senses": {
+    "seed": {
+     "policy": "translate",
+     "english": [
+      "self",
+      "the self"
+     ],
+     "note": "GITA_FULL_TRANSLATION_PLAN §6.1 seed decision (pilot), not yet owner-reviewed; deviate only with a recorded challenge"
+    }
+   }
+  }
+ }
+}

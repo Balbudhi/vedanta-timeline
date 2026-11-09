@@ -2,9 +2,8 @@
 
 Date 2026-11-08. Auditor role only: nothing here is a translation, and no producer,
 review, policy, tool or reader file was changed. The audit covers the run that built
-`gita/ch12/` (09:32–11:27 local time, UTC−8), the owner's verdict on it ("some words
-are not well translated … it took far too long … there's something with this
-pipeline"), and what must change before the other 680 verses are translated.
+`gita/ch12/` (09:32–11:27 local time, UTC−8), the owner's verdict on it (some words poorly translated, the run far too
+slow, the process itself at fault), and what must change before the other 680 verses are translated.
 
 Section 5 is written as **amendments to the existing documents** (the plan, the
 standard, the briefs, the tools). It is not a competing plan. The lead applies or
@@ -29,8 +28,7 @@ Files read in full or in their decision-bearing fields:
 - the reader `assets/gita.js`
 - the source witnesses for spot checks (Śaṅkara's bhāṣya and the Apte/MW kośa records)
 
-The agent transcripts of this session are also evidence:
-`~/.claude/projects/-Users-eeshan-Dev-prakriya/d17505e7-…/subagents/`, with 28
+The agent transcripts of this session (local, not published) are also evidence: 28
 transcripts covering 4 producers, 4 reviewers, 4 fix agents, the audio agent and the
 meaning reviewers. They give start and end times, tool calls by kind, output tokens
 and the lead's mid-run messages. I counted the producer and review JSON with scripts
@@ -521,7 +519,7 @@ the full builder check before handoff (§5.3 P-7).
 - The only evidence behind 244 public cards exists in one working tree.
 - Fix: §5.8 D-4. Keep the quotations in one private file and commit the rest.
 
-**P7. Not deployed.** The owner said "put it on the Vedanta Timeline" (plan §17:
+**P7. Not deployed.** The owner asked for the chapter to be published on the site (plan §17:
 "published to the Vedanta Timeline"). Plan §16 says "the owner commits". The §8 gate
 has no deploy step, and the working tree holds other agents' uncommitted changes
 (sahasranama and chinmayananda scripts). Fix: §5.8.
@@ -552,7 +550,7 @@ shards must follow them (§4.5).
 | 10:18–10:31 | First builder check; policy rows added or changed (upasana, para, parama, duḥkha.hardship …) |
 | 10:20–10:35 | Reviewers spawned as each shard lands |
 | 10:27 / 10:30 | Lead decisions (6 items) to the two producers just finishing |
-| 10:44 | Owner: "why isn't it done?" |
+| 10:44 | Owner asks why it is not done |
 | 10:46–11:06 | Round-1 reviews finish (26, 25, 31, 22 min) |
 | 10:47–11:06 | Fix agents spawned (fresh) |
 | 10:53–10:55 | `define` added; Kāśikā offset fixed; repair script written |
@@ -980,7 +978,7 @@ A chapter that misses these halts and reopens the brief (plan §13.4.6).
 
 (h) **§16.** Replace "Nothing is committed; the owner commits on request" with:
 
-> When the owner instructs publication ("put it on the Vedanta Timeline"), the lead
+> When the owner instructs publication, the lead
 > runs `scripts/deploy_gita_chapter.sh N`, which commits only the chapter's paths and
 > pushes; otherwise nothing is committed.
 

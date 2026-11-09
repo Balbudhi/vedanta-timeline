@@ -1,5 +1,7 @@
 # Lexicon brief: decide a lemma's meaning and English once, for the whole Gītā
 
+> **Retired (2026-11-09).** A brief for the stages A–E job queue, which is no longer used; kept here only because retired code names this path. Current documents: [`docs/history/gita/README.md`](../history/gita/README.md).
+
 Serves queue jobs of type `lexicon` and `lexicon-fix` (Part A) and `lexicon-review`
 and `lexicon-rereview` (Part B). Scope (lead, 2026-11-08): lemmas with three or more
 Gītā occurrences, every lemma matching a table row or a preserved/system term of the

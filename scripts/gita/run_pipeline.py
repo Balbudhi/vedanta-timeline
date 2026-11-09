@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""The Gītā pipeline driver (docs/gita_briefs/RUNBOOK.md). Every stage is idempotent; run it as
+"""The Gītā pipeline driver (retired job-queue design; docs/history/gita/RUNBOOK.md). Every stage is idempotent; run it as
 often as you like. Judgement jobs are done by agents through scripts/gita/queue.py; this script
 does everything mechanical and creates the follow-up jobs.
 

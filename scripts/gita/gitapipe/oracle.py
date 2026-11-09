@@ -1,7 +1,7 @@
 """The oracle seam (prakriya TRANSLATION_PIPELINE_SPEC §0.6): grammar `analyze`, `derive`,
 `split` and meaning `page`, implemented by prakriya `scripts/gita_kit/` (Vidyut behind the
 grammar calls, non-authoritative). Nothing here chooses a reading; it calls, normalises to
-the SCHEMAS.md shapes and caches.
+the shapes of docs/history/gita/SCHEMAS.md, and caches.
 
 Resolution order for each module, detected at runtime:
   1. in process: `scripts/gita_kit/<module>.py` imported with its functions;

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Merge the accepted lexicon outputs (and accepted verse-job lexicon requests) into the term
-policy v3 (plan §7.4; SCHEMAS.md amendments).
+policy v3 (retired job-queue design; docs/history/gita/SCHEMAS.md).
 
     python3 scripts/gita/merge_lexicon.py [--no-requests] [--legacy-status proposed|pilot|owner-decided]
                                           [--install] [--allow-conflicts]

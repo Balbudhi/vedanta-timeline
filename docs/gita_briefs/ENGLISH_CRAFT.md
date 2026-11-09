@@ -1,16 +1,21 @@
 # English craft: exact and beautiful English for the word-by-word Gītā
 
-Status: 2026-11-08. A brief for lexicon, verse and review agents, and a proposal to the
-owner. It does not override `docs/SANSKRIT_TRANSLATION_STANDARD.md`; where it asks for a
-change, §4 gives the exact amendment, and until the owner adopts it the standard governs.
+Status (amended 2026-11-09): the current English procedure of the Gītā translation. It
+is governed by [`../SANSKRIT_TRANSLATION_STANDARD.md`](../SANSKRIT_TRANSLATION_STANDARD.md);
+where the two differ, the standard governs. The translation pipeline
+(`scripts/gita/translate/pipeline.py`) sends the five principles of §5 and §2 steps 3–6
+with the line pass to the model verbatim. Step 1 is a separate model call on Sanskrit
+evidence that code assembles; code performs step 2 (the dictionary search). §3
+calibrates the procedure on ten chapter-12 lines. §4 records the amendments this
+procedure proposed to the earlier briefs and the standard, and their status: some are
+applied provisionally by the lead, pending the owner's confirmation; the rest are open.
 
-The owner's complaint: the pipeline under-uses English, which has rare and exact words,
-rhythm, compounds and registers to spare. This brief takes the owner's own word-choice
-procedure (recovered in `bhakti/.transcription/library-review/engine-rebuild-20261027/history.md`,
-dated owner quotations; `bhakti/scripts/bhakti_translation_policy.py` RULES, lines 18–134)
-and adds, at each step, the criteria Sri Aurobindo gives in his writings on poetry,
-language and translation (§1). §2 is the agents' procedure. §3 applies it to ten
-chapter-12 lines. §4 lists what in the current briefs works against good English.
+The procedure answers a problem the owner named: earlier output under-used English,
+which has rare and exact words, rhythm, compounds and registers to spare. It takes the
+owner's word-choice procedure (as encoded in the bhakti project's translation policy,
+`bhakti/scripts/bhakti_translation_policy.py` RULES, lines 18–134) and adds, at each
+step, the criteria Sri Aurobindo gives in his writings on poetry, language and
+translation (§1).
 
 **What was read.** Sri Aurobindo, CWSA (plain text) under
 `/Users/eeshan/Dev/deep-research/works/sri_aurobindo_and_the_mother/curated_corpus/docs/en/sri_aurobindo/`:
@@ -28,7 +33,7 @@ chapter-12 lines. §4 lists what in the current briefs works against good Englis
 
 `cwsa08` mentions a "Joyce" twice (lines 10491, 10509), but that is a Company agent,
 not James Joyce. `cwsa19` (*Essays on the Gita*) and the Gītā chapters of TR were read for
-this derivation. As the briefs forbid, **none of his Gītā renderings are reproduced here,
+this derivation. As the standard (§9) requires, **none of his Gītā renderings are reproduced here,
 and none were used to make the lines in §3.** Those lines come from the Sanskrit, the
 commentators, the term table and the English dictionaries. One overlap is disclosed in
 §3 (12.7, "sea of death"). Quotations are at most about 25 words, with the ligatures
@@ -227,10 +232,11 @@ by sense and sound:
    (LPA 6817–6819), varying "the turn of the language" (LPA 6859) but never saying
    "something quite different in substance" (LPA 6879–6880).
 
-   Our product is the word-by-word layer he himself started from (HMF 762). His freedoms
-   of *addition* and *dilution* are closed to us. They go to the card and the sense
-   paragraph. His freedoms of *word choice, order, turn and rhythm* are open to us, and
-   are the subject of this brief.
+   Our product is the word-by-word layer he himself started from (HMF 762). His freedom
+   to *add* what the words do not say is closed to us: a card may explain, but the line
+   itself carries everything each word means and signifies (standard §1, lossless in the
+   line). His freedoms of *word choice, order, turn and rhythm*, and of two words or a
+   phrase for one, are open to us, and are the subject of this brief.
 2. **Preserved terms.** His early essay calls unfamiliar Sanskrit terms "a high & thick
    hedge of brambles" (KENA 5722–5723), and mocks "This truly is That" as "a juggling
    with demonstrative pronouns" (KENA 5738–5739). His later translations keep "Brahman"
@@ -242,10 +248,11 @@ by sense and sound:
 3. **Consistency.** His own Prāṇa criticism supports our sense-constant table (§7.7). The
    only variation we allow is a register variant of the *same* English word ("does not
    shrink" or "shrinks not"), chosen for cadence (§4, amendment F).
-4. **Joyce.** The owner asks for "Joyceian words". Aurobindo opposes free invention. The
-   two agree on the line that matters: real words, joined transparently, yes; invented
-   words ("made-up words from comic books", the owner; Joyce's "language", Aurobindo),
-   no. §2 step 3d makes that line operational.
+4. **Joyce.** The owner's procedure asks for Joycean words: compounds and coinages made
+   of real English words. Aurobindo opposes free invention. The two agree on the line
+   that matters: real words, joined transparently, yes; invented words with no English
+   base (which the owner's procedure rejects as nonsense coinage; Joyce's "language",
+   Aurobindo), no. §2 step 3d makes that line operational.
 
 ---
 
@@ -253,23 +260,28 @@ by sense and sound:
 
 The six steps are the owner's. The criteria at each step are from §1. Run the steps in
 order. A step that fails sends you back to the step named; it never sends you forward
-by default.
+by default. (In the pipeline, code assembles the evidence for step 1 and runs step 2;
+the commands named there are for work by hand. `KIT` is
+`python3 /Users/eeshan/Dev/prakriya/scripts/gita_kit/gita_kit.py`; `LOOK` is
+`python3 /Users/eeshan/Dev/prakriya/scripts/lookup/lookup.py`.)
 
 ### Step 1. Establish the Sanskrit meaning from Sanskrit sources
 
 **Do:**
-- Read the Dhātupāṭha *artha* of the root and the upasargas, the kośa group, the
-  commentators' glosses and anvaya at *this* occurrence, and the Gītā's own usage
-  (`KIT meaning page`, `KIT verse packet`, the commentary packet).
-- Monier-Williams and Apte may locate a sense. They do not decide it (owner: "the easy
-  thing ... use that Sanskrit-English dictionary thing ... I don't think it's the right
-  way to do it").
+- Establish the meaning in the standard's order (§6.4): decode the word (split,
+  morphology, derivation with its sūtras); the meaning of each morpheme (the
+  Dhātupāṭha and Dhātuvṛttis for the root, the grammar for upasargas and affixes, the
+  case's kāraka); the lexical texts (kośas, Nirukta and Nighaṇṭu, Śabdakalpadruma,
+  Vācaspatya); the Gītā's own usage; and last the commentators' glosses and anvaya at
+  *this* occurrence (`KIT meaning page`, the commentary packet).
+- Monier-Williams and Apte may locate a sense. They do not decide it: the owner's
+  procedure rejects translating through a Sanskrit–English dictionary.
 - Write a **sense description** in plain English. It names the operative meaning, the
   root's bodily image if the occurrence activates it, the grammatical form (case, voice,
   agent suffix, negation scope) and the relation inside a compound.
 - If the tradition gives more than one admissible meaning, write one description per
-  reading and open a fork (owner: "if there are multiple interpretations, then again you
-  want multiple translations").
+  reading and open a fork; the owner's procedure asks for a translation per reading
+  (standard §6.5 says when that is a second full line).
 - If you cannot establish the meaning, stop and report it as unresolved. Never hide it
   by keeping the Sanskrit word.
 
@@ -282,7 +294,8 @@ The root image is evidence about the Sanskrit, not a licence to add images (stan
 **Do:**
 - Search with the sense description, not with a word you remember. Run
   `LOOK english "<sense description>" --rich --limit 25`, once with the plain sense and
-  once with the root image (owner: "We're literally finding a word.").
+  once with the root image (the owner's procedure: the word is found by its meaning,
+  not recalled).
 - **Tool limitation:** the index matches definitions. Agent nouns, whose definitions
   read "One who …", and many idioms are found poorly. "One who knows" returned only
   interjections. Search the verb's sense, then `define` its agent form (-er) and any
@@ -303,8 +316,8 @@ adding anything.
 **a. An exact current English word.**
 
 **b. An uncommon but real word.** Archaic, rare, literary or dated tags do not
-disqualify (owner: "Good words that people don't know are still fair game."). It is
-right only if all of these hold:
+disqualify (the owner's procedure: a good word is fair game even when readers do not
+know it). It is right only if all of these hold:
 - (i) it is in the stack *in this sense*, not only as a related form;
 - (ii) no current word is equally exact;
 - (iii) its current senses do not take it over on first hearing (step 4);
@@ -318,8 +331,8 @@ It is affectation if any of these hold:
 - a common word is equally exact and sounds as well (LPA 23454).
 
 **c. Two real words, a short phrase, or a hyphenated pair.** This is Aurobindo's "two
-words instead of one or a phrase" (HMF 795) and the owner's "putting two real words
-together or using a hyphen". English has constructions that hold Sanskrit compounds
+words instead of one or a phrase" (HMF 795) and the owner's procedure of joining two
+real words, with or without a hyphen. English has constructions that hold Sanskrit compounds
 without new words, and these come before any formation:
 - adjective + "of" + noun for a bahuvrīhi: "steady of thought", "pure of heart";
 - the absolute construction: "his trembling gone";
@@ -329,8 +342,8 @@ without new words, and these come before any formation:
 **d. A formation (the "Joycean" compound).** Use one only when no word or short phrase
 holds the two or three concepts at once. It must pass all of the following:
 1. **Not already attested.** Search the stack, including Wiktionary, for the compound
-   and for the agent noun of the verb. "Upbearer" was called a formation in standard
-   §7.17, but it is attested (KAIKKI:756277#s0).
+   and for the agent noun of the verb. "Upbearer" is attested (KAIKKI:756277#s0), as
+   standard §7.17 now records; an earlier version of the standard called it a formation.
 2. **Properly formed** (LPA 23944). It follows a productive English pattern, and two
    attested models of the pattern are named. Examples: X-going like "seagoing";
    agent -er on an attested verb; noun–noun with the head last; *-less* or *un-*. It is
@@ -338,16 +351,15 @@ holds the two or three concepts at once. It must pass all of the following:
    hybrids (standard §7.16).
 3. **Not ugly** (LPA 10640, "eternitudes" → sneeze). Say it aloud. It must not collide
    with an existing sense: "mineless" already means "Without mines", KAIKKI:698283#s0.
-4. **Intelligible on first hearing**, without the card (LPA 23944; owner's
-   "intelligibility in the actual sentence").
+4. **Intelligible on first hearing**, without the card (LPA 23944; the owner's
+   procedure tests intelligibility in the actual sentence).
 5. **One thing, not two.** It fuses what the Sanskrit compound fuses ("halo-moon", LPA
    8588). If a phrase says the same, use the phrase.
 6. **Adds nothing.** No image, agency or relation the Sanskrit lacks. Attested parts do
    not make the whole attested (bhakti RULES).
 7. **Compared in a record.** Record it next to its ordinary English paraphrase and its
    rejected near-alternatives, each with the distortion it causes. This follows the
-   bhakti walkthrough format (`joycean-walkthrough-v1/lotus-source-walkthrough.json`:
-   `candidate`, `ordinary_paraphrase`, `source_role`, `witnesses`,
+   record format of the bhakti project's formation walkthroughs (fields `candidate`, `ordinary_paraphrase`, `source_role`, `witnesses`,
    `negative_comparisons`, `limits`).
 8. **Budget.** At most one formation per verse line. Condensation made constant becomes
    mannerism (LPA 5827).
@@ -365,15 +377,15 @@ negation scope)?
 
 **Connotation.** Read the word's modern senses (OEWN and Wiktionary first), then read it
 in the actual line. Reject a word whose current associations take over on first hearing,
-even when an old sense is exact (owner: "taint" is not forbidden, but the reader's
-associations are). Examples:
+even when an old sense is exact (the owner's procedure: no word, "taint" for example,
+is forbidden as such; what is judged is what the reader will hear in it). Examples:
 - "incontinently" means "immediately" (gcide), but readers hear bodily incontinence;
 - "passing dear" means "exceedingly" (W1913:608925), but is heard as "dear in passing";
 - "hardly won" means "with difficulty" (W1913:386058), but is heard as "barely won";
 - "uplifter" carries the modern moral sense of "uplift".
 
-Connotation is contextual, not a fixed list (owner: "earth" against "clay" depends on
-the song).
+Connotation is contextual, not a fixed list (the owner's procedure: whether "earth" or
+"clay" is right depends on the context it stands in).
 
 ### Step 5. Decide once, keep the plural senses, reuse by context
 
@@ -388,7 +400,7 @@ the double value and the echo (HMF 806–808; LPA 10068). Example: in 12.15 the 
 A row's `forms` may list register variants of the same word ("does not shrink",
 "shrinks not"). The line chooses among them by cadence (§4, amendment F).
 
-Reuse never proves a sense (history.md §3). Each occurrence is still checked at step 1.
+Reuse never proves a sense (the owner's procedure). Each occurrence is still checked at step 1.
 
 ### Step 6. The card gives meaning; it never repeats the headword
 
@@ -436,7 +448,7 @@ Every craft change has to be one of the following:
 Nothing is added or dropped. Mood, voice and non-finite forms are unchanged (§7.8–§7.9).
 Quantifiers surface: under negation, English renders a universal as "any" (12.13,
 "toward any being"). A slot may hold a phrase (§7.11). The validator's slot check and
-the reviewer's form check (REVIEW_BRIEF checks 2 and 4) apply unchanged.
+the reviewer's form check (standard §5.1, checks 2 and 4) apply unchanged.
 
 ---
 
@@ -502,7 +514,8 @@ The ten lines go from **270 words to 253**.
   - it keeps *√gam*, which "all-pervading" keeps only in etymology (LPA 23731);
   - it reads on first hearing.
 
-  It stays the owner's choice; Monier-Williams's "all-pervading" goes on the card.
+  It stays the owner's choice; "all-pervading", the rendering readers will meet, goes
+  on the card.
 
 ### 12.5
 
@@ -603,7 +616,7 @@ The ten lines go from **270 words to 253**.
 
 | Slot | Was | Now | Evidence | Principle |
 |---|---|---|---|---|
-| 1 | toward all beings | toward any being | — | craft (**needs** standard §7.1 note, §4 amendment D). Under the negation in *a-dveṣṭṛ*, *sarva* is universal: no being is the object. In English a universal under negation is "any"; "no dveṣa toward all beings" can be heard as "not toward all". |
+| 1 | toward all beings | toward any being | — | craft (standard §7.1, from §4 amendment D, applied provisionally 2026-11-09). Under the negation in *a-dveṣṭṛ*, *sarva* is universal: no being is the object. In English a universal under negation is "any"; "no dveṣa toward all beings" can be heard as "not toward all". |
 | 8 | sorrow and pleasure | pain and pleasure | table row `duhkha.pain` (the pair with sukha) | table |
 
 - **Slot 0 (needs owner):** "Bearing no dveṣa" is the device §7.12 names, a Sanskrit noun
@@ -637,7 +650,7 @@ The ten lines go from **270 words to 253**.
 | 1,2 / 5,6 | is not agitated | shrinks not | table row `udvega.shrink-from` (forms list "shrink", "does not shrink"); shrink: W1913:776082 "To withdraw or retire, as from danger … to recoil, as in fear" | table (verb). The post-verbal negation is craft and **needs** the form "shrinks not" added to the row (§4 amendment F). "From whom the world shrinks not, and who shrinks not from the world" mirrors the Sanskrit chiasmus stress for stress (L4). ISHA 119 uses the same form. |
 | 0, 4 | on account of whom / of the world | from whom / from the world | — | follows from the table verb: the ablative of the feared, P. 1.4.25. |
 | 10 | freed | loosed | table row `mukta.loosed`; loose (verb): W1913:500851 "To untie or unbind … to set free" | table |
-| 9 (last member) | agitation | shrinking | shrinking (noun): KAIKKI:106351#s0 "act of … moving timidly away"; recoil (noun): W1913:697725 "A starting or falling back; a rebound; a shrinking" | craft (**needs** a lexicon request against `udvega.agitation`). See below. |
+| 9 (last member) | agitation | shrinking | shrinking (noun): KAIKKI:106351#s0 "act of … moving timidly away"; recoil (noun): W1913:697725 "A starting or falling back; a rebound; a shrinking" | craft (**needs** a change to the row `udvega.agitation`). See below. |
 
 - **Why "shrinking" for *udvega*:**
   - The root is *ovijī bhaya-calanayoḥ*, to fear and to move or tremble
@@ -715,10 +728,32 @@ The ten lines go from **270 words to 253**.
 
 ---
 
-## 4. What in the current briefs works against good English, with exact amendments
+## 4. What in the earlier briefs worked against good English, with exact amendments *(status amended 2026-11-09)*
 
-Each item gives the text as it stands now and the text proposed. Nothing here has been
-applied; the owner decides.
+Each item gives the text as it stood on 2026-11-08 and the text proposed; line numbers
+refer to the standard as it then stood. The agent briefs it names (LEXICON_BRIEF,
+VERSE_BRIEF, REVIEW_BRIEF) belong to a retired process; they remain in
+`docs/gita_briefs/` because retired code still names them, and SCHEMAS.md is in
+`docs/history/gita/`. Status (2026-11-09). "Applied provisionally" means the lead
+wrote the amendment into the standard because the pipeline already works that way; the
+owner has not yet confirmed it, and the plan lists it among the open decisions.
+
+
+
+| Item | Status |
+|---|---|
+| A. No default between plain and rich | Open, owner decision (noted in standard §7.17) |
+| B. Formations defined; "upbearer" attested | Applied provisionally: standard §7.17 |
+| C. English constructions that are not devices | Applied provisionally: standard §7.16 |
+| D. "Any" for a universal under negation | Applied provisionally: standard §7.1 |
+| E. ṇini of habit as a present participle | Open, owner decision |
+| F. Register variants in a row's forms | Applied provisionally: standard §8.3 (each row still has to list its variants) |
+| G. The line pass after parsing | Applied provisionally: standard §7.16 |
+| H. Review severities | Applied provisionally: standard §5.1; the pipeline's review prompt uses them |
+| I. `found_by` on every candidate | Applied provisionally: the pipeline records it; noted in standard §7.17 |
+| J. The gloss gives the meaning | Applied provisionally: standard §3.1 |
+| K. Re-test kept terms (*dveṣa* against "mislike") | Open, owner decision |
+| L. The procedure reaches the translator | Applied provisionally: the pipeline sends §2 steps 3–6 and §5 verbatim |
 
 **A. Plainness is the default.** Standard §7.17 (line 719) and LEXICON_BRIEF step 5
 (line 87 ff.) define plain as "the plainest exact English". The choice rule (standard
@@ -864,10 +899,11 @@ English-craft procedure, governed by the standard.
 4. **Compounds of real words, yes; Joyce's invented language, no.** A formation must be
    properly formed, not ugly, intelligible, and must say one thing a phrase cannot (LPA
    23944, 8588). Prose is held stricter than verse (LPA 23634). Real words joined
-   transparently satisfy both the owner and Aurobindo.
+   transparently satisfy both the owner's procedure and Aurobindo.
 5. **A bare exact rendering first, beauty inside it.** Begin from the exact rendering
    (HMF 762). Keep the original's figures and double senses (LPA 23743; HMF 806–808).
-   Add nothing; what Aurobindo diluted into the line belongs on our card.
+   Add nothing and lose nothing: what each word means and signifies is carried in the
+   line; the card explains, and never holds what the line left out.
 
 **The ten revised lines** (braces stripped):
 
@@ -895,10 +931,10 @@ English-craft procedure, governed by the standard.
 - 12.20 But they who attend wholly upon this nectar true to dharma, as it has been
   spoken, having faith, having me as supreme — those bhaktas are exceedingly dear to me.
 
-**Needing a decision before shipping:**
-- 12.13: "any" under negation (D), and *dveṣa* or "mislike" (K).
-- 12.15: "shrinks not" as a listed form (F), and "shrinking" for *udvega* (a lexicon
-  request).
-- 12.16: the ṇini participle (E).
+**Needing a decision before shipping** (status 2026-11-09):
+- 12.13: *dveṣa* or "mislike" (K, open). "Any" under negation (D) is in standard §7.1, provisionally.
+- 12.15: "shrinks not" must be listed in the row's forms (variants are allowed, standard
+  §8.3), and "shrinking" for *udvega* needs a row change (open).
+- 12.16: the ṇini participle (E, open).
 - Everything else either conforms to the current table or is a craft change inside the
   current rules.

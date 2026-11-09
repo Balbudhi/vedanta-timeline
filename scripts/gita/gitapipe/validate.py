@@ -1,4 +1,4 @@
-"""Validators per job type (SCHEMAS.md and its amendments). Each returns (errors, warnings);
+"""Validators per job type (docs/history/gita/SCHEMAS.md and its amendments). Each returns (errors, warnings);
 a job is done only when errors is empty. Referential checks read the packets, the analysis
 store, the lexicon and the builder; a verse output is also expanded and run through the
 builder's own verse and card checks (check mode, unreviewed)."""

@@ -1,5 +1,7 @@
 # Gītā pipeline runbook: from packets to a published reader
 
+> **Retired (2026-11-09).** This runs the stages A–E job queue, which is no longer used. Do not follow it; see [README.md](README.md) for the current documents.
+
 The exact commands, in order, for one orchestrator (the "lead": a human, Claude Code,
 Codex) and its workers. Governing decision: prakriya
 `docs/TRANSLATION_PIPELINE_SPEC.md` §0.6 (code generates every analysis, derivation and

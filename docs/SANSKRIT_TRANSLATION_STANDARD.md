@@ -3,19 +3,20 @@
 How Sanskrit is translated and presented on this site. This is the **norm going
 forward** for every Sanskrit text we render — mūla (root text) *and* commentary.
 
-**Authority (amended 2026-11-08).** This document is the **single governing
+**Authority (amended 2026-11-09).** This document is the **single governing
 standard** for every Sanskrit reader on the site. Its preserve-or-translate
-decision table — for the Gītā, the Gītā lexicon — is
-`data/glossary/term_policy.json` (§8): the table holds the decided rows; this
+decision table is `data/glossary/term_policy.json` (§8): the table holds the decided rows; this
 document holds the rules by which rows are made and applied. Project plans (for the
 Gītā, [`GITA_FULL_TRANSLATION_PLAN.md`](GITA_FULL_TRANSLATION_PLAN.md)) carry scope,
 stages, process, gates and measured numbers; they do not restate or change rules. A
 deliberate deviation is recorded only by amending the section of this document it
 changes. Checkers (`scripts/check_gita_terms.js`, `scripts/validate_gita_slots.js`,
-the chapter builders and the job validators) enforce this document and the table and
-nothing else; where a checker disagrees with this document, the checker is wrong and
-is corrected. The Gītā word-card contract formerly in `GITA_CARD_MEANING_SCHEMA.md` is
-folded into §2 and §3. Agent brief templates for the Gītā are in `docs/gita_briefs/`.
+the chapter builders and the translation pipeline's code checks) enforce this document
+and the table and nothing else; where a checker disagrees with this document, the
+checker is wrong and is corrected. The Gītā word-card contract formerly in
+`GITA_CARD_MEANING_SCHEMA.md` is folded into §2 and §3. The English procedure that
+applies §7 is [`gita_briefs/ENGLISH_CRAFT.md`](gita_briefs/ENGLISH_CRAFT.md); it is
+governed by this document.
 Presentation (layout, surfaces, widths, stacking) belongs to `UI_DESIGN_STANDARD.md`;
 this document says what a card must contain.
 
@@ -25,10 +26,17 @@ table and contain known errors (§10): they show the data format, not the standa
 `gita/ch12/` becomes the reference for word cards once the owner has read it.
 
 Sections marked *(new 2026-11-08)* or *(amended 2026-11-08)* record the consolidation
-after the chapter-12 pilot (`GITA_CH12_PIPELINE_AUDIT.md`,
-`TRANSLATION_PRECEDENTS_SURVEY.md`) and the owner's directions of that day.
+after the chapter-12 pilot (its audit and precedent survey are in `history/gita/`) and
+the owner's directions of that day. Sections marked *(amended 2026-11-09)* add that the
+line is lossless (§1), the order in which meaning is established (§6.4) and the
+second-line rule (§6.5); they retire the earlier lexicon-first process (§5, §8.3) and
+the use of Sanskrit–English dictionaries as sources of meaning. The 2026-11-09 changes
+taken from ENGLISH_CRAFT §4 (items B, C, D, F, G, H, I, J and L, in §3.1, §5.1, §7.1,
+§7.16, §7.17 and §8.3) are **provisional**: lead decisions, applied because the current
+pipeline already works that way, awaiting the owner's confirmation (listed in the plan's
+open decisions). Items A, E and K are open.
 
-## 1. Principle: literal, word-by-word, faithful to the grammar
+## 1. Principle: literal, word-by-word, faithful to the grammar *(amended 2026-11-09)*
 
 The truest reading is the literal one. We translate the grammar that is actually
 present and make it inspectable, rather than paraphrasing.
@@ -45,13 +53,24 @@ present and make it inspectable, rather than paraphrasing.
   three tests of §8 hold for that sense; `translatable: false` suppresses a forced
   English gloss.
 - **Explicit ambiguity.** Where a form or construal is genuinely ambiguous, say so
-  on the card (§6.5 forks); never fake a confident single parse.
+  (§6.5 forks); never fake a confident single parse.
 - **Grounded, never fabricated.** Sanskrit is taken verbatim from cited sources
   on disk (`data/sources/...`); transliterate faithfully; cite every source. If a
   text cannot be sourced, omit it and say so — do not invent Sanskrit.
 - **Our English is our own** *(new 2026-11-08)*. It is made from the Sanskrit
   sources and the English dictionaries, never from other translations (§9). It aims
   to be richer, freer and more exact than the published translations, within §7.
+- **Lossless in the line** *(new 2026-11-09)*. What each word means and what it
+  signifies is carried in the line itself: by an English word where English has one,
+  by a well-formed new English word where it does not (§7.17), and by the kept Sanskrit
+  word where nothing in English carries it (§8). The line keeps the Sanskrit's grammar
+  and rhythm, in Sri Aurobindo's sense of both (ENGLISH_CRAFT §1). Cards and the
+  glossary explain the words; they never hold meaning the line left untranslated, and
+  there is no separate notes layer.
+- **More than one reading** *(new 2026-11-09)*. Where the Sanskrit admits more than one
+  construal, the line holds both where English can. Where it cannot, a second full line
+  gives the other construal — only for a fork of grammar or construal, never for a
+  difference of doctrine (§6.5).
 
 ## 2. The reading UX (what `GitaReader` renders)
 
@@ -77,8 +96,8 @@ present and make it inspectable, rather than paraphrasing.
   7. **Meaning** (§3.1 `meaning`, §6.4): the root's concrete image; the meaning lines
      in their category order, each naming its source; the English used in the line
      and why; and the other renderings a reader will meet. Whether lines of category
-     `synthesis` are shown publicly is an open owner decision (plan §2.2); until it
-     is made they may be recorded but are not published;
+     `synthesis` are shown publicly is an open owner decision (listed in the plan);
+     until it is made they may be recorded but are not published;
   8. **Other readings**: the `display` sentence of every fork whose `words` names
      this card (§6.5);
   9. the glossary link(s) for technical terms.
@@ -149,7 +168,7 @@ quotation blocks.
   source order, and one-time placement. A detached, duplicated, silently moved,
   or uncalled note is a build failure.
 
-## 3. Data schema *(amended 2026-11-08)*
+## 3. Data schema *(amended 2026-11-08, 2026-11-09)*
 
 ### 3.1 Per word (mūla and commentary alike)
 
@@ -190,7 +209,7 @@ D7) and is valid once the builder reads it.
 "meaning": {
   "image": "√ās 'to sit' with upa- 'near': to sit near, attend",      // the root's concrete image, one line
   "lines": [                                                          // ordered by category as below; 1–8 lines
-    { "cat": "lexical",     "text": "to attend upon, wait on, serve; to sit near in reverence", "who": "Monier-Williams", "locus": "sources/raw/upstream_data/kosha/mw.json#…" },
+    { "cat": "lexical",     "text": "√ās upaveśane: to sit", "who": "Dhātupāṭha", "locus": "sources/raw/panini/lexica/dhatupatha.json#1020011" },
     { "cat": "nirvacana",   "text": "upāsanā is going near the object and staying with it long, a stream of one thought like poured oil", "who": "Śaṅkara on 12.3", "locus": "vedanta-timeline/data/sources/…/shankara_gita_bhasya.txt:8411" },
     { "cat": "commentator", "text": "dhyāyanti — they meditate", "who": "Śaṅkara on 12.1", "locus": "…" },
     { "cat": "usage",       "text": "the same verb takes a sacrifice (4.25) and a teaching (12.20) as object", "who": "Gītā" },
@@ -205,7 +224,8 @@ D7) and is valid once the builder reads it.
 
 Categories, in display order (a closed list; how they carry §6.3's six categories is
 stated in §6.3): `formation` (only when the grammar fields do not already say it),
-`lexical` (kośa and dictionary senses, including the Dhātuvṛttis' root senses),
+`lexical` (root senses from the Dhātupāṭha and Dhātuvṛttis, kośa senses and the Sanskrit
+dictionaries, §6.4; Monier-Williams and Apte are never the `who` of a line),
 `nirvacana` (a transmitted or commentator's semantic etymology), `commentator` (a
 classical commentator's gloss on this word in this verse), `usage` (the text's own use
 of the word, here and elsewhere), `reception` (later reception and modern translators:
@@ -216,6 +236,9 @@ all names in `who`.
 `meaning` is required on every card that has a root or a compound and on every
 preserved term; it is optional on particles, pronouns and names (names carry their
 etymology in `parts`). `rendering` equals the text of the slot that carries the word.
+*(Amended 2026-11-09; provisional, ENGLISH_CRAFT §4J.)* `gloss` states the word's meaning in English; for a kept term it
+says what the term means ("without ahaṃkāra, the making of 'I'"), never only the term
+(ENGLISH_CRAFT §2 step 6).
 
 ### 3.2 Per unit (verse, or commentary passage)
 
@@ -245,7 +268,7 @@ against its witness.
 
 ### 3.3 Records that stay in the production files
 
-The producer's record per word also carries, outside the public file:
+The production record per word (the chapter builder's input) also carries, outside the public file:
 `word_class` (`content` | `particle` | `pronoun` | `name` | `copula`), which decides
 which records are required; `evidence[{claim, locus, quote}]` (one shape); `fallback[{claim,
 kind}]` with `kind` ∈ `root | pratyaya | compound | sense | syntax | other`; and, for
@@ -295,7 +318,7 @@ instructions, never a recap of the passage at hand). **Add terms as needed** so
 every technical term in the text and its commentaries is covered. Every preserved
 sense in the table (§8) has a glossary entry before its row is used.
 
-## 5. How to apply this to a new text *(amended 2026-11-08)*
+## 5. How to apply this to a new text *(amended 2026-11-09)*
 
 1. **Witnesses.** Acquire the mūla (+ commentaries) verbatim into `data/sources/...`
    (cite).
@@ -303,38 +326,23 @@ sense in the table (§8) has a glossary entry before its row is used.
    Dhātupāṭha entries, cited derivation chains, the commentators' per-word glosses,
    hits in the kośas, Dhātuvṛttis and Nirukta (§6.4), concordance of every occurrence
    — and the work-wide lemma inventory.
-3. **Lexicon first: meaning is decided before production.** Each content
-   lemma-sense is decided once across all its occurrences in the work, from a dossier
-   (root image, senses per occurrence, the meaning sources of §6.4, the three tests of
-   §8, plain/rich candidates of §7.17, English forms per grammatical category,
-   distinctness), and reviewed by an independent lexicon reviewer. The decided rows
-   form the table (§8.3), which is frozen by content hash for a production run.
-4. **Production.** Per unit: the analysis of every word, the slotted line, forks,
-   wording records and the card's meaning selections, taken from the lexicon. The
-   lexicon is binding for sense; a disagreement is a row proposal, never a silent
-   departure. Code expands analyses into cited cards wherever a script exists.
-5. **One review pass** (§5.1) by an independent reviewer in a fresh context; the
-   blind check against other translations comes last in it (§9).
-6. **Fixes** by the same producer, resumed with the findings; re-review by the same
-   reviewer as a diff check. Nobody else edits a producer's file.
-7. **Build** fail-closed; every validator passes.
-8. **Publication** is provisional. The owner's reading of the published text is the
-   taste review; its changes flow back as lexicon edits (§8.3) followed by a
-   mechanical sweep of every affected occurrence and a diff re-review.
-9. Glossary coverage (§4). Audio per `docs/AUDIO_ALIGNMENT_STANDARD.md`; the
+3. **Translation, review, build and publication** follow the project's process — for the Gītā,
+   [`GITA_FULL_TRANSLATION_PLAN.md`](GITA_FULL_TRANSLATION_PLAN.md). Any process applies
+   §6–§9, reviews every unit (§5.1), builds fail-closed with every validator passing, and
+   publishes provisionally (row changes are swept through every occurrence, §8.3).
+4. Glossary coverage (§4). Audio per `docs/AUDIO_ALIGNMENT_STANDARD.md`; the
    supported granularity is verified verse-level timing, not inferred word or pada
    synchronization.
 
-The Gītā's stages, job queue, numbers and briefs: plan §7 and `docs/gita_briefs/`.
 Deviations from this standard should be deliberate and noted.
 
-### 5.1 The single review pass *(new 2026-11-08)*
+### 5.1 The single review pass *(new 2026-11-08; amended 2026-11-09)*
 
 One reviewer checks, per unit and in one pass: (1) **grammar** — recompute pada, root
 with gaṇa and pada, affix, compound and vigraha, kāraka, and try the plausible wrong
 alternative; (2) **form in the line** — every mood, voice and non-finite form in the
 line equals the card (§7.8–§7.9); (3) **meaning** — the line's word carries the
-lexicon sense, the card shows the root image, the operative sense with its locus and
+decided sense, the card shows the root image, the operative sense with its locus and
 every distinct commentator gloss on the word in this verse (§6.4), and no traditional
 sense is dropped without a recorded reason; (4) **readability** — the line read aloud
 without a card parses on first reading (§7.16); (5) **policy fit** — whether the row
@@ -344,10 +352,18 @@ surface** — the rendered verse at phone width: process vocabulary, dangling
 references, missing meaning or fork display; and last (8) the **blind check** against
 other translations (§9). Choices made by the lead are reviewed like any other.
 
-Severity: S1 — wrong grammar, a dropped or added meaning, a mood or form change, a line
-that does not parse, a disfavoured device without a row (§7.16), process vocabulary in
-a public field; S2 — richness lost that the lexicon or sources document; S3 — style.
-A unit with an open S1 is not accepted.
+*(Severities amended 2026-11-09; provisional, ENGLISH_CRAFT §4H.)* Severity: S1 — wrong
+grammar, a dropped or added meaning, an interpretation in place of
+the word (§7.2), a mood, form or negation-scope change, a line that does not parse, a
+disfavoured device without a row (§7.16), a rare or archaic word whose current sense
+misleads on first hearing (ENGLISH_CRAFT step 4), a decided row not followed, process
+vocabulary in a public field; S2 — richness lost that the sources document, a line that
+fails the line pass (ENGLISH_CRAFT §2), a flatter word chosen where the evidence shows an
+exact word with the root's image or a better sound, a formation that fails a test of
+ENGLISH_CRAFT step 3d; S3 — taste. A formation or rare word is judged only by
+ENGLISH_CRAFT §2 steps 3–4; being one is never itself a finding. A unit with an open S1
+is not accepted. Which of these checks the current Gītā pipeline performs, and which it
+does not yet (among them the blind check), is stated in the plan.
 
 ## 6. Pāṇinian formalism (strict)
 
@@ -494,22 +510,34 @@ modern author (for example a twentieth-century resegmentation) is `reception`, n
 exegesis: they are recorded as such, they never decide a line, and his register is a
 model of deliberate English (§7.17), not a source of meaning.
 
-### 6.4 The meaning layer and its sources *(new 2026-11-08)*
+### 6.4 The meaning layer and its sources *(new 2026-11-08; amended 2026-11-09)*
 
-The meaning layer is made from the whole Sanskrit source library, not only from
-grammar. For every content lemma the lexicon dossier (§5 step 3) and the card draw on:
+Meaning is established from the whole Sanskrit source library, in this order; each
+step bounds what the next may choose:
 
-- **root senses** from the Dhātupāṭha and the Dhātuvṛttis — Mādhavīya Dhātuvṛtti,
-  Kṣīrataraṅgiṇī, Dhātupradīpa, Daiva with Puruṣakāra;
-- **nirvacanas** from the Nirukta and Nighaṇṭu, the Uṇādi vṛtti, and the
-  commentators where they present an etymology;
-- **synonym fields and senses** from the kośas — Amarakośa (with the Amaraviveka and
-  Kṣīrasvāmin's Amarakośodghāṭana), Halāyudha, Vaijayantī, Yādavakośa — and the
-  encyclopaedic dictionaries Śabdakalpadruma and Vācaspatyam, alongside Apte and
-  Monier-Williams;
-- **the commentators' per-word glosses** on each verse, extracted by code from every
-  commentary on disk;
-- **the text's own usage** of the word across all its occurrences.
+1. **Decode the word**: pada division and sandhi, morphology, and the derivation — base
+   (prakṛti) and affixes (pratyaya) with the sūtras that form it (§6, §6.1).
+2. **The meaning of each morpheme**: the root's sense from the Dhātupāṭha and the
+   Dhātuvṛttis (Mādhavīya Dhātuvṛtti, Kṣīrataraṅgiṇī, Dhātupradīpa, Daiva with
+   Puruṣakāra); the meanings of the upasargas and affixes from the grammar (for uṇādi
+   formations, the Uṇādi vṛtti); the force of the case and its kāraka.
+3. **Lexical texts**: the kośas — Amarakośa (with the Amaraviveka and Kṣīrasvāmin's
+   Amarakośodghāṭana), Halāyudha, Vaijayantī, Yādavakośa, Ākhyātacandrikā; the Nirukta
+   and Nighaṇṭu for nirvacanas; the encyclopaedic dictionaries Śabdakalpadruma and
+   Vācaspatyam.
+4. **Usage**: every occurrence of the word in the text itself; for the Gītā, also its
+   use in the Mahābhārata (not yet in the library).
+5. **The commentators, last**: their per-word glosses and construals at each verse,
+   extracted by code from every commentary on disk (for the Gītā, 13 commentators;
+   Śaṅkara, Rāmānuja and Madhva are each held in two witnesses, so a verse has 14–16
+   passages). They are witnesses: they choose among the senses the earlier steps admit
+   and they supply forks (§6.5). None is followed blindly (§9), and what a commentator
+   says a word refers to or implies is evidence for choosing the sense, not text for the
+   line (§7.2).
+
+All of these are used; a source on disk that is not consulted is a defect.
+Monier-Williams and Apte may help locate a sense or a passage; they never supply a
+sense or its English. English comes from English dictionaries (§7.17).
 
 The library is `/Users/eeshan/Dev/prakriya/sources/` (`primary/etymology/`,
 `primary/lexica/`, `raw/upstream_data/kosha/`). A closed reader's card shows, for
@@ -518,7 +546,8 @@ every distinct commentator gloss on that word in that verse, labelled by categor
 gloss gathered as evidence but kept off the card is a defect, not a saving. Every card
 with a root or a compound shows at least one traditional or kośa voice. These sources
 are evidence for meaning under §6.1: they locate and attest senses; the choice of
-sense is the agent's, reviewed.
+sense is the agent's, reviewed. How much of this the current Gītā pipeline passes to the
+model is measured in the plan.
 
 ### 6.5 Forks: more than one admissible construal *(new 2026-11-08; moved from plan §13.1–13.2)*
 
@@ -537,16 +566,20 @@ Admissible reasons to resolve a fork, in this order and only these:
 3. **Kośa**: the sense is not attested for the lemma in the kośas and dictionaries.
 4. **English can stay open**: the English admits the same readings the Sanskrit
    admits.
-5. **English forces a choice**: when no English keeps both readings, follow the
-   reading with the strongest grammar-only support, show the alternative on the card
-   with its traditions named, and mark the fork `open: true`.
+5. **English forces a choice**: when no English keeps both readings, the line follows
+   the reading with the strongest grammar-only support; the other reading is shown with
+   its traditions named, and the fork is marked `open: true`. *(Amended 2026-11-09.)*
+   For a fork of grammar or construal — pada division, analysis, compound type,
+   relation, referent — the other reading is given as a second full line. A difference of
+   doctrine, or of sense under the same grammar, never gets a second line: it is decided
+   as a sense (§6.4, §8) and the card shows the other readings.
 
 A school's reading is **evidence that a construal is attested**, never a reason to
 prefer it; no reason of the form "school X reads it so" is admissible. Where grammar
 underdetermines and English forces a choice, the reader sees both. Readings attested
 only in later reception are kept as reception (§6.3), not promoted into the fork.
 
-## 7. Faithful rendering — rules against distortion
+## 7. Faithful rendering — rules against distortion *(amended 2026-11-09: §7.1, §7.3, §7.8, §7.16, §7.17)*
 
 The English must be **literal and complete**: it renders exactly what the Sanskrit
 says — every grammatical element, no more, no less — in natural English. The
@@ -563,12 +596,19 @@ hard-coded PRESERVE/TRANSLATE tables (which still preserve *krodha*, against §8
 being retired; until they are removed, where they disagree with §8 and the table, this
 document governs and the disagreement is reported, not obeyed.
 
+*(2026-11-09.)* The additions to §7.1 (a universal under negation), §7.16 (the line pass;
+English constructions that are not devices) and §7.17 (formations; "upbearer" attested;
+`found_by`) come from ENGLISH_CRAFT §4 D, G, C, B and I. They are provisional, pending
+the owner's confirmation (see the header).
+
 ### 7.1 Do not collapse meaning
 Every word and grammatical feature present in `words[]` must surface in the English
 — scope/quantifier words (*sarvatra* "everywhere/in all things", *api* "even",
 *hi* "for"), connectives, negations, number, gender, voice, person, and case-force.
 Never drop a word's force to make a sentence shorter or smoother. A slightly longer
-English rendering is correct when that is what keeps the meaning whole.
+English rendering is correct when that is what keeps the meaning whole. Under negation
+a universal surfaces as English "any" (*adveṣṭā sarvabhūtānām*, "toward any being");
+"all" there would invert the scope.
 
 ### 7.2 Render the word; do not interpret it
 Translate the literal word in the grammatical form it actually has — participle as
@@ -580,10 +620,10 @@ state).
 ### 7.3 Do not insert words the Sanskrit lacks
 Add nothing not in the text. If a word's complement is implied (elliptical) in the
 Sanskrit, keep it implied in the English (§7.14). *yukta* is "yoked", **not** "yoked
-in yoga" — "yoga" is not in the word; the implied object stays implied, and the
-glossary link carries the depth. Any genuinely needed clarifier belongs in the
-word-card / glossary, never silently in the line. (No `[bracket]` inserts.) Function
-words English grammar needs are not insertions (§7.15).
+in yoga" — "yoga" is not in the word; the implied object stays implied. What the word
+itself means and signifies is carried in the line (§1, lossless in the line); an
+explanation of what it implies goes on the card, never silently into the line. (No
+`[bracket]` inserts.) Function words English grammar needs are not insertions (§7.15).
 
 ### 7.4 Choose the sense that fits the usage — and keep the root's image
 A word has a range of senses; pick the one the context actually uses, grounded in
@@ -631,11 +671,13 @@ statement as a question: the echo-question device of the chapter-12 pilot ("you 
 not able … ?") is retired. A question mark needs an interrogative word or particle in
 the Sanskrit (*kim*, *kva*, *katham* …).
 
-A conditional is rendered as a conditional. Where a particle carries an attested
-conditional sense, "If" renders that particle and is not an insertion: *atha* with an
-indicative protasis may be rendered "If …, then …" — Apte s.v. *atha*, sense 3: "If,
-supposing, now if, in case, but if … oft. followed by ततः", citing Bg 12.9 and 12.11
-(`ap90.json#795`); the same holds for *cet*, *yadi* and *atha cet* (2.33, 18.58). An
+A conditional is rendered as a conditional. Where a particle carries a conditional
+sense, "If" renders that particle and is not an insertion: *atha* with an indicative
+protasis answered by *tataḥ* may be rendered "If …, then …" — the Gītā's own
+construction in 12.9 and 12.11, which Śaṅkara construes as a condition (*na śaknoṣi
+cet, tataḥ*, `shankara_gita_bhasya.txt:8506`; Apte s.v. *atha*, sense 3, `ap90.json#795`,
+locates the same sense with these verses); the same holds for *cet*, *yadi* and *atha
+cet* (2.33, 18.58). An
 indicative protasis that continues such a series without its own particle, and that
 the commentators construe as a condition, may take "If" as a supplied function word
 (§7.15): 12.10 *abhyāse 'py asamartho 'si*, which Śaṅkara construes "… aśakto 'si,
@@ -700,7 +742,9 @@ Every line must parse as English for a reader who opens no card. Read it aloud; 
 needs a card to be understood, rewrite it. Meaning outranks beauty, but a line that
 does not parse is wrong, however literal. Exactness and readability are reconciled by
 richer exact English (§7.17), English word order and the constructions §7.8–§7.15
-allow — never by adding or dropping meaning.
+allow — never by adding or dropping meaning. A line that parses then passes the line
+pass of ENGLISH_CRAFT §2: end-weight, no "of"-chains, the Sanskrit's figures of sound
+and order kept, sounds dispersed, one dash, one register.
 
 These devices need an owner-approved row naming the device and its occurrence;
 without one they are severity-1 findings:
@@ -713,7 +757,19 @@ without one they are severity-1 findings:
 - Sanskrit nouns forced into English verb frames ("bears no dveṣa");
 - Sanskrit–English hybrid compounds ("death-saṃsāra").
 
+Not devices: adjective + "of" + noun for a bahuvrīhi ("steady of thought"); the absolute
+construction ("his trembling gone"); the Saxon genitive ("action's fruit"); *-less* and
+*un-* on attested bases ("houseless"); inversion for end-weight ("Greater is the
+travail"); post-verbal negation where the row lists it ("shrinks not"); an attested
+agent noun ("upbearer", "knower").
+
 ### 7.17 Register: the plain and the rich candidate *(new 2026-11-08)*
+*(Amended 2026-11-09.)* The current pipeline records, per word, the kind of expression
+chosen (ENGLISH_CRAFT §2 step 3, kinds a–e) and how each candidate was found
+(`found_by`: retrieved by the sense search, or remembered), rather than a plain/rich
+pair. The choice rule below stands; replacing it with ENGLISH_CRAFT §4 amendment A (no
+default between plain and rich) is an open owner decision.
+
 For every content word the wording record holds two candidates:
 
 - **plain** — the plainest exact English;
@@ -729,12 +785,15 @@ never a reason by itself, to choose or to reject. The record states which was ch
 and why; where the plainest word is also the richest, the record says so.
 
 **Formations.** A formation is admissible only when no attested word or short phrase
-is adequate after the whole dictionary stack has been searched (plan §6). It records
-its parts with each part's sense and source, the relation between them, a plain
-paraphrase and the line it must read in; it is never labelled attested; it is
+is adequate after the whole dictionary stack has been searched (ENGLISH_CRAFT §2
+step 2). It records its parts with each part's sense and source, the relation between
+them, a plain paraphrase and the line it must read in; it is never labelled attested; it is
 rejected if it adds an image, agency or claim the Sanskrit lacks. Good formations are
-short, transparent and read as English. The reviewer judges the whole formation, not
-its parts.
+short, transparent and read as English. It is built only from whole real English words
+by a productive English pattern named with two attested models; it passes the tests of
+ENGLISH_CRAFT §2 step 3d; it is not a blend of word fragments or a Sanskrit–English
+hybrid; and a line holds at most one. The reviewer judges the whole formation, not its
+parts.
 
 **Worked examples** (chapter 12):
 - *Good:* "pangless" for *gatavyatha* (12.16) — attested: Webster 1913, "without a
@@ -744,29 +803,30 @@ its parts.
 - *Good:* "houseless" for *aniketa* (12.19) — attested, exact (niketa "house,
   dwelling", negated) and free of the social sense of "homeless"; it replaced the
   stiff "without abode".
-- *Good, owner's taste:* "upbearer" for *samuddhartā* (12.7) — a recorded formation
-  on the attested verb "upbear" (Webster), the agent noun being ours, because no
-  attested agent noun carries "lift up and out".
+- *Good, attested:* "upbearer" for *samuddhartā* (12.7) — Wiktionary "One who upbears
+  or upholds" (`kaikki.org-dictionary-English.jsonl.gz:756277`), on the verb "upbear"
+  (Webster 1913, "To bear up; to raise aloft"). It keeps *ud* "up, out" and *√hṛ*
+  "carry". (An earlier version of this standard called it a formation; it is attested.)
 - *Bad:* "the summit-standing" for *kūṭastha* (12.3) — built on one member-sense of
   *kūṭa* from a thematic list of mountain words (Amarakośa 2.3.89) that no commentator
   reads for this word; it adds an image no source gives. Amarakośa's own definition of
   the lexeme is "ekarūpatayā tu yaḥ kālavyāpī sa kūṭasthaḥ" (3.1.148–149).
 - *Bad:* "the undesignable" for *anirdeśya* (12.3) — offered as a formation while the
-  attested "indefinable / undefinable" carries the commentators' sense
-  (Monier-Williams `mw.json#7100` "undefinable"; Śaṅkara: *na nirdeṣṭuṃ śakyate*). A
-  formation requires that no adequate attested word exist.
+  attested "indefinable" (Webster 1913, "Incapable of being defined or described",
+  `webster1913_pg29765.txt:431943`) carries the commentators' sense (Śaṅkara: *na
+  nirdeṣṭuṃ śakyate*). A formation requires that no adequate attested word exist.
 - *Owner's taste:* "the everywhere-going" for *sarvatraga* (12.3) — the literal
-  formation (sarvatra + √gam) — against the attested "all-pervading",
-  Monier-Williams's own gloss (`mw.json#260306`).
+  formation (sarvatra + √gam) — against the usual "all-pervading", which keeps the going
+  only in its Latin etymology (ENGLISH_CRAFT §1.1).
 
 **Register model.** Sri Aurobindo's English is a model of deliberate register:
 principles capitalised (the Immutable, the Unmanifest), abstractions such as
 "equality", compound epithets — chosen, not rare for its own sake. It is a model of
 how English can carry weight, not a source of meaning: his renderings are exegesis
 (§6.3). Adopting one of his devices in a line (for example capitalising a principle)
-is a line-style decision for the owner, not a producer's choice.
+is a line-style decision for the owner, not a translator's choice.
 
-## 8. Preserve or translate — which words stay Sanskrit *(amended 2026-11-08)*
+## 8. Preserve or translate — which words stay Sanskrit *(amended 2026-11-08, 2026-11-09)*
 
 ### 8.1 The rule: three tests
 
@@ -780,8 +840,8 @@ three** hold:
    shading** (§7.1–§7.5): "duty" drops most of *dharma*; "mind" collapses *manas*,
    *buddhi* and *citta*; "action" drops the fruit-and-law load of *karma* in its
    technical use.
-3. **Keeping it loses nothing a reader needs**, because the card and the glossary
-   carry the full meaning.
+3. **Keeping it loses nothing a reader needs**: the kept word carries its own meaning
+   in the line, and the card and the glossary explain it (§1, lossless in the line).
 
 If any test fails, the sense is translated with one fixed rendering (and its English
 forms). Two distinct Sanskrit words never share one English word (§7.6). Established
@@ -810,28 +870,28 @@ rock-seated, self-poised). All three tests hold: the Gītā uses it to define *a
 (15.16) and the yogin (6.8); no English word carries it without dropping construals;
 the card and glossary carry every reading.
 
-### 8.3 The table (`data/glossary/term_policy.json`)
+### 8.3 The table (`data/glossary/term_policy.json`) *(amended 2026-11-09)*
 
-- **The decisions are the rows of the table** — for the Gītā, the Gītā lexicon. The
-  examples in this document are illustrative; checkers read the table alone.
+- **The decisions are the rows of the table.** The examples in this document are
+  illustrative; checkers read the table alone.
 - A row records, per sense: the occurrences it applies to (locus and word index); the
   policy (preserve or translate); the three test results; the English **forms** per
   grammatical category (noun, plural, finite verb, participles, agent, adverb) — for a
   preserved noun, a verbal form needs an owner-approved verbal rendering or the verb is
-  translated; forbidden English; the glossary key; the card's term line; the dossier
-  it was decided from; and its **status** with date: `proposed` → `lexicon-reviewed`
-  (decided by a lexicon agent and passed by the independent lexicon reviewer) →
-  `owner-decided` (after the owner's taste review). The table also keeps
+  translated; a form may list register variants of the same English word (provisional,
+  ENGLISH_CRAFT §4F) ("does not
+  shrink", "shrinks not"), never different words; forbidden English; the glossary key;
+  the card's term line; and the evidence it was decided from. The table also keeps
   `reserved_english` (§7.6) and a changelog.
-- Production uses only `lexicon-reviewed` or `owner-decided` rows. A production run
-  records the table's content hash; any change to a row lists the affected
-  occurrences, which are swept mechanically and re-reviewed as a diff.
-- A row is a decision, not a truth: a producer or reviewer who finds it wrong for an
-  occurrence files a row proposal with the occurrences and evidence; meanwhile the row
-  stands. The owner's taste review after publication may change any row; the change
-  flows through the same sweep.
-- The pilot's table (version `2-ch12-meaning`, 64 lemmas) predates this structure and
-  is migrated to it as the Gītā lexicon (v3) in stage B of the plan.
+- An owner-decided row binds. A default row the owner has not yet reviewed (for the
+  Gītā, the seed rows in `scripts/gita/translate/seed_terms.json`) binds unless the
+  translator records a challenge with its reason; challenges go to the owner.
+- A row is a decision, not a truth: a translator or reviewer who finds it wrong for an
+  occurrence records the occurrences and evidence; meanwhile the row stands. The
+  owner's taste review after publication may change any row. Any change to a row lists
+  the affected occurrences, which are re-rendered mechanically and re-checked.
+- The table's current version and coverage, and how a chapter's consistency decisions
+  reach it, are stated in the plan.
 
 ### 8.4 Standing decisions (illustrative; the row governs where one exists)
 
@@ -842,7 +902,7 @@ and *bhakta*; *karma* in the law-of-action sense; *kūṭastha* (§8.2). Note *p
 faculty, kept distinct from manas/prajñā).
 
 **Translate:** *krodha* → anger (emotion words translate; the table has no row yet —
-it is added when the lexicon reaches the lemma; the earlier readers print "krodha" and
+it is added when a row is made for the lemma; the earlier readers print "krodha" and
 are migrated under §10); *bhaya* → fear; *moha* → delusion; *duḥkha* → sorrow, and
 "pain" where it is paired with *sukha* ("pleasure and pain", 12.13, 12.18), "with
 hardship" as the adverbial accusative (12.5); *sukha* → pleasure; *spṛhā* → longing;
@@ -858,17 +918,19 @@ person → "lay down … in" (12.6; its non-finite form is owner item O12); *ana
 "shrink from", the noun *udvega* → "agitation". In set compounds keep the natural form:
 *jñāna-yoga* "the yoga of knowledge", *jñāna-niṣṭhā* "steadfastness in knowledge".
 
-**Open (owner, plan §2.2):** the *karma-phala* rendering across chapters 5 and 12.
+**Open (owner; the plan lists every open decision):** the *karma-phala* rendering
+across chapters 5 and 12; *krodha* where it is paired with *kāma* (3.37).
 
 **Orthography.** Printed IAST follows the witness: for the Gītā, BORI — *ahaṃkāra*,
 *saṃnyāsa*, *saṃtuṣṭa* (BORI has 10 × *ahaṃkār*, 0 × *ahaṅkār*).
 
 Decisions above without a row are the standing decisions of the earlier readers; each
-becomes a row when the lexicon reaches its lemma, and from then the row governs.
+becomes a row when one is made for its lemma, and from then the row governs.
 
 ### 8.5 The decision procedure (apply to every term)
-1. List the word's attested senses (dhātu and Dhātuvṛtti, kośas, the text's usage,
-   the commentators *here*: §6.4).
+1. List the word's attested senses in the order of §6.4: the decoded form and its
+   morphemes' meanings, the lexical texts, the text's usage, then the commentators
+   *here*.
 2. Does a plain English word — or a short phrase — carry the operative sense
    without adding, dropping, or shading anything (§7.1–§7.5)? If yes, translate.
 3. If no English fits without distortion (irreducible load, or a disputed referent,
@@ -881,7 +943,7 @@ becomes a row when the lexicon reaches its lemma, and from then the row governs.
 
 - **Production does not depend on other translations.** Published translations
   ("secondaries": English translations, word-for-word editions, Sri Aurobindo's
-  renderings) are not read when the lexicon is decided or when lines are produced.
+  renderings) are not read when renderings are decided or when lines are produced.
   Our English comes from the Sanskrit sources (§6.4) and the English dictionaries
   (§7.17). Nobody is followed blindly: not the commentators, not the translators, not
   our own first draft.
@@ -891,7 +953,8 @@ becomes a row when the lexicon reaches its lemma, and from then the row governs.
   readers meet (`meaning.alternatives`, `reception` lines). Where a secondary has
   better English for the same construal, the reviewer may say so; adopting it is a
   decision on the merits, recorded with the dictionary entry of the word, never "because
-  X has it". A secondary is never authority.
+  X has it". A secondary is never authority. (The current Gītā pipeline does not yet run
+  this check; it uses published translations only to evaluate results, privately.)
 - **Never republished.** No secondary's verse rendering, deviation defence or candidate
   list appears in any public file (reader data, apparatus, glossary, documentation). A
   `reception` line may name a translator and quote a few words of his rendering of
@@ -911,4 +974,4 @@ translated (§7.10), and context exceptions recorded as new sense rows, never as
 one-offs. Until migrated, such a reader is listed as `legacy` in the checkers'
 registry; its violations are reported, not hidden. Known items: *krodha* printed in
 Sanskrit seven times (2.56, 2.62, 2.63, 3.37, 5.23, 5.26, 5.28); untranslated epithets
-in 2.54–2.72; swapped slots at 2.59 and 5.11. The migration is plan task G1.5.
+in 2.54–2.72; swapped slots at 2.59 and 5.11. The migration is a task in the plan.

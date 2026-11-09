@@ -39,7 +39,7 @@ venv_gemini/
 internal/audio/**/*_source.mp3
 internal/audio/**/*.wav
 # Gītā review store: packets, producer shards, reviews and deviation files quote
-# copyrighted secondary translations in full. They stay local (plan §12).
+# copyrighted secondary translations in full. They stay local (standard §9).
 internal/sanskrit_reviews/gita/**/packet.json
 internal/sanskrit_reviews/gita/**/producer-*.json
 internal/sanskrit_reviews/gita/**/independent-review-*.json

@@ -39,8 +39,8 @@ Abbreviations: **STD** = `docs/SANSKRIT_TRANSLATION_STANDARD.md`; **PLAN** =
 | L12 | Same word, same rendering across mūla and commentary unless the sense shifts | STD §7.7, 342–345 |
 | L13 | "Literal, grammar-first, school-neutral word-by-word translation with an inspectable apparatus"; not a paraphrase, devotional rendering, school's reading or poem; where literal and natural conflict, literal wins in the line and natural lives in the card | PLAN §11, 285–305 |
 | L14 | Every English word choice made from dictionary definitions and recorded; rarity is not a rejection criterion; Joycean compound only when no attested word fits, never labelled attested | PLAN §1, 21; §6, 203–227; L5, 35 |
-| L15 | Owner 2026-11-08: "as accurate and as poetic as possible"; nobody followed blindly | PLAN §17, 495–500; PRODUCER_BRIEF 24–31 |
-| L16 | Owner feedback round: "richer, more accurate, more literal, more *embodied*"; meaning before beauty but the line must not be hard to read | `internal/sanskrit_reviews/gita/ch12/MEANING_REVIEW_BRIEF.md` 3–13 |
+| L15 | Owner, 2026-11-08: both as accurate and as poetic as possible; nobody followed blindly | PLAN §17, 495–500; PRODUCER_BRIEF 24–31 |
+| L16 | Owner feedback round: richer, more accurate, more literal and more embodied English; meaning before beauty but the line must not be hard to read | `internal/sanskrit_reviews/gita/ch12/MEANING_REVIEW_BRIEF.md` 3–13 |
 | L17 | Literal translation is a research target; "lossless translation" | `docs/PROJECT_PURPOSE.md` 112–113, 194 |
 
 ### 1.2 Preserve or translate
@@ -115,7 +115,7 @@ bodhakasha, samvedana).
 | U6 | Word-card action opening commentary names its author ("Read {commentator} on this word"); dense references as "Sources (n)" | UI 153–156, 172–173 |
 | U7 | No essential information only in a popup (print) | UI 266–270 |
 | U8 | Exceptions must be named in UI before adding a pattern | UI 288–292 |
-| U9 | Owner design (2026-06-15): "plain title, no summary/explanations … the static grammar block is gone — the interactive word-cards are the grammar"; grammar disclosure removed again 2026-08-27 | commits a8547c3, e53a1d50 |
+| U9 | Owner design (2026-06-15): a plain title with no summary or explanations; no static grammar block, the interactive word cards carry the grammar; grammar disclosure removed again 2026-08-27 | commits a8547c3, e53a1d50 |
 | U10 | Audio verse-level only; no inferred word highlighting | AUDIO_ALIGNMENT_STANDARD 19–20, 35–40; PLAN L4, 34 |
 
 ### 1.7 Sources and rights

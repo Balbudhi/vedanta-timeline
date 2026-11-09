@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Master and encode a recitation for the reader (plan §15.5, format shift only).
+"""Master and encode a recitation for the reader (docs/GITA_FULL_TRANSLATION_PLAN.md §3.3, format shift only).
 
     python scripts/audio/master_encode.py SOURCE OUT.mp3 [--target-lufs -18]
            [--true-peak -1] [--highpass 60] [--bitrate 64k] [--report report.json]

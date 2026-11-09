@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Stage A (plan §7.3): every verse packet, the Gītā-wide lemma inventory and concordance,
+"""Stage A (docs/GITA_FULL_TRANSLATION_PLAN.md §4.1): every verse packet, the Gītā-wide lemma inventory and concordance,
 meaning pages (one per content lemma), the shard plan and the private translations files.
 
     python3 scripts/gita/build_all_packets.py [--chapters 2,12 | 1-18] [--workers 8]
