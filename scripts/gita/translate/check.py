@@ -33,6 +33,7 @@ def _loss_complete(lost: list) -> list[str]:
 def construe(out: dict, inp: dict) -> list[str]:
     errs = []
     cand = {w["i"]: {c["id"] for c in w["candidates"]} for w in inp["words"]}
+    padas = {w["i"]: w.get("padas") or [] for w in inp["words"]}
     got = {w["i"]: w for w in out.get("words", [])}
     for i in cand:
         w = got.get(i)
@@ -43,6 +44,12 @@ def construe(out: dict, inp: dict) -> list[str]:
             errs.append(f"word {i}: analysis_id {w['analysis_id']} is not a candidate")
         if not w.get("analysis_id") and not w.get("manual"):
             errs.append(f"word {i}: neither analysis_id nor manual")
+        given = (w.get("manual") or {}).get("padas") or []
+        if len(padas[i]) > 1 and not w.get("analysis_id") and len(given) != len(padas[i]):
+            errs.append(f"word {i}: a token of {len(padas[i])} padas {padas[i]} needs manual.padas with one entry each")
+        for pd in given:
+            if isinstance(pd, dict) and pd.get("analysis_id") and pd["analysis_id"] not in cand[i]:
+                errs.append(f"word {i}: pada analysis_id {pd['analysis_id']} is not a candidate")
         if w.get("word_class") not in CLASSES:
             errs.append(f"word {i}: word_class {w.get('word_class')!r} not in {sorted(CLASSES)}")
         if not w.get("stem"):

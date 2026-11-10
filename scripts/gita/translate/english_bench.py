@@ -118,11 +118,19 @@ def build_index() -> None:
 
 @functools.lru_cache(maxsize=1)
 def _index():
+    """(rows, matrix) of the shards built so far; index_state() says how complete it is."""
     import numpy as np
     rows = json.loads((BENCH / "index_rows.json").read_text(encoding="utf-8"))
     shards = sorted(BENCH.glob("vec_*.npy"))
     mat = np.concatenate([np.load(s).astype(np.float32) for s in shards]) if shards else np.zeros((0, DIM), np.float32)
     return rows[:len(mat)], mat
+
+
+def index_state() -> dict:
+    rows = json.loads((BENCH / "index_rows.json").read_text(encoding="utf-8")) if (BENCH / "index_rows.json").exists() else []
+    want = (len(rows) + SHARD - 1) // SHARD
+    have = len(list(BENCH.glob("vec_*.npy")))
+    return {"shards": have, "of": want, "complete": bool(want) and have == want}
 
 
 def embed_query(text: str):
@@ -259,6 +267,9 @@ NGRAM_CACHE = BENCH / "ngram_cache.sqlite"
 _last = [0.0]
 
 
+NGRAM_FAILURES: list[str] = []
+
+
 def phrase_freq(phrases: list[str], year_start: int = 1900) -> dict[str, float | None]:
     """Mean relative frequency of each phrase in English books since `year_start` (cached; ≤1 req/s)."""
     BENCH.mkdir(parents=True, exist_ok=True)
@@ -280,7 +291,8 @@ def phrase_freq(phrases: list[str], year_start: int = 1900) -> dict[str, float |
         try:
             with urllib.request.urlopen(url, timeout=20) as r:
                 data = json.loads(r.read().decode())
-        except Exception:
+        except Exception as e:  # recorded: the phrase's frequency stays unknown (None), never 0
+            NGRAM_FAILURES.append(f"{chunk[0]}…: {e!r}"[:160])
             data = []
         got = {d["ngram"].lower(): sum(d["timeseries"]) / max(1, len(d["timeseries"])) for d in data}
         for p in chunk:

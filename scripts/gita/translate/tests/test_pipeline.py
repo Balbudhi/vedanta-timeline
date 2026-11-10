@@ -15,8 +15,22 @@ def W(i, form, cls="content", **kw):
     return {"i": i, "form": form, "lemma": form, "class": cls, **kw}
 
 
+def slot(line, words):
+    """The line with each word's English wrapped as {i:english}, first unused occurrence, left to right."""
+    import re
+    out = line
+    for i, e, _ in words:
+        if not e:
+            continue
+        for m in re.finditer(re.escape(e), out):  # first occurrence outside an existing slot
+            if out[:m.start()].count("{") == out[:m.start()].count("}"):
+                out = out[:m.start()] + f"{{{i}:{e}}}" + out[m.end():]
+                break
+    return out
+
+
 def out(line, words, alt=None):
-    return {"lines": {"9.99": line}, "alternative": alt,
+    return {"lines": {"9.99": line}, "slotted": {"9.99": slot(line, words)}, "alternative": alt,
             "words": [{"locus": "9.99", "i": i, "english": e, **kw} for i, e, kw in words]}
 
 
@@ -99,11 +113,61 @@ class CheckUnit(unittest.TestCase):
         self.assertTrue(P.check_unit(out("enemy", [(0, "enemy", {})]), c))
 
     def test_loss_needs_reason(self):
+        """The translate schema's fields: kind a–e, carried, lost, why (prompts3/translate.md)."""
         c = card([W(0, "śuciḥ")])
-        e = P.check_unit(out("pure", [(0, "pure", {"carried": False, "lost": "glow", "step": "existing"})]), c)
+        e = P.check_unit(out("pure", [(0, "pure", {"carried": False, "lost": "glow", "kind": "a"})]), c)
         self.assertTrue(any("owner's order" in x for x in e), e)
-        e = P.check_unit(out("pure", [(0, "pure", {"carried": False, "lost": "glow", "step": "existing", "why": "x"})]), c)
+        e = P.check_unit(out("pure", [(0, "pure", {"carried": False, "lost": "glow", "kind": "a", "why": "x"})]), c)
         self.assertEqual(e, [])
+        e = P.check_unit(out("pure", [(0, "pure", {"carried": False, "kind": "a", "why": "x"})]), c)
+        self.assertTrue(any("'lost' does not say" in x for x in e), e)
+
+    def test_remembered_word_must_name_what_it_beats(self):
+        c = card([W(0, "śuciḥ", candidates=[{"word": "clean", "found_by": "found by meaning"},
+                                            {"word": "pure", "found_by": "remembered"}])])
+        e = P.check_unit(out("pure", [(0, "pure", {"kind": "a", "found_by": "remembered", "why": "best"})]), c)
+        self.assertTrue(any("remembered word" in x for x in e), e)
+        e = P.check_unit(out("pure", [(0, "pure", {"kind": "a", "found_by": "remembered",
+                                                   "why": "'clean' is physical only"})]), c)
+        self.assertEqual(e, [])
+
+    def test_second_line_is_checked_like_the_first(self):
+        c = card([W(0, "śuciḥ")], forks=[{"kind": "relation", "words": [0]}])
+        o = out("pure", [(0, "pure", {"kind": "a"})], alt={"fork": "relation", "lines": {"9.99": "pure and holy"},
+                                                          "slotted": {"9.99": "{0:pure} and holy"}, "words": []})
+        e = P.check_unit(o, c)
+        self.assertTrue(any(x.startswith("second line:") and "holy" in x for x in e), e)
+        o["alternative"] = {"fork": "relation", "lines": {"9.99": "clean"}, "slotted": {"9.99": "{0:clean}"},
+                            "words": [{"locus": "9.99", "i": 0, "english": "clean", "kind": "a"}]}
+        self.assertEqual([x for x in P.check_unit(o, c) if x.startswith("second line:")], [])
+
+    def test_slots(self):
+        c = card([W(0, "na", "particle"), W(1, "udvijate")])
+        o = out("does not shrink", [(0, "not", {}), (1, "does shrink", {"kind": "a"})])
+        o["slotted"] = {"9.99": "{1:does} {0:not} {1:shrink}"}
+        self.assertEqual(P.slot_errors(o, c), [])
+        o["slotted"] = {"9.99": "does {0:not} shrink"}
+        self.assertTrue(any("no slot" in e for e in P.slot_errors(o, c)))
+        o["slotted"] = {"9.99": "{1:does} {0:not} {1:shrinks}"}
+        self.assertTrue(any("not the line" in e for e in P.slot_errors(o, c)))
+        del o["slotted"]
+        self.assertTrue(P.slot_errors(o, c))
+
+    def test_sheet_rows(self):
+        rec = {"meaning": {"words": [{"locus": "1.1", "i": 0, "literal": "bright, clean"}]},
+               "output": {"words": [{"locus": "1.1", "i": 0, "english": "pure", "kind": "a", "carried": False,
+                                     "lost": "glow", "why": "w"},
+                                    {"locus": "1.1", "i": 1, "english": "ahaṃkāra", "kind": "e"},
+                                    {"locus": "1.1", "i": 2, "english": "x", "kind": "a"}],
+                          "alternative": {"fork": "relation", "lines": {"1.1": "alt"}}}}
+        rows = P.sheet_rows([rec], {"guṇa": [{"loci": ["14.5"], "english": "mode", "why": "w"}]})
+        issues = [r["issue"] for r in rows]
+        self.assertEqual(len(rows), 4)
+        self.assertIn("loses: glow", issues[0])
+        self.assertEqual(rows[0]["literal"], "bright, clean")
+        self.assertEqual(issues[1], "Sanskrit kept")
+        self.assertTrue(issues[2].startswith("second line"))
+        self.assertEqual(issues[3], "consistency decision")
 
     def test_compound_members(self):
         comp = {"type": "ṣaṣṭhī-tatpuruṣa", "analysis": "", "members": [{"stem": "asmad", "class": "pronoun"},

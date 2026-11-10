@@ -75,7 +75,7 @@ and assembles evidence at every step; the model judges only where a choice remai
 | M1 | **Decode** | Word division (sandhi split), morphology, derivation as stem (prakṛti) + affixes (pratyaya) with the sūtras that apply, compound type and analysis (vigraha), syntactic relation and kāraka | Vidyut; Aṣṭādhyāyī; Kāśikā; Siddhāntakaumudī, Laghusiddhāntakaumudī; Dhātupāṭha (root, gaṇa, pada); Uṇādisūtra and Liṅgānuśāsana | Every admissible split, analysis and derivation, each step cited to a sūtra line | Chooses among admissible analyses where the grammar leaves more than one; records real forks | One construal per verse (and any fork), every claim cited |
 | M2 | **Morpheme meanings** | The meaning of the root in the sense used, of each affix, of the case (kāraka) | Dhātupāṭha artha; the Dhātuvṛttis (Mādhavīya, Kṣīrataraṅgiṇī, Dhātupradīpa) and Daiva with Puruṣakāra; affix and kāraka meaning from the grammar (Aṣṭādhyāyī and Kāśikā meaning sūtras; Vaiyākaraṇabhūṣaṇasāra, Vaiyākaraṇasiddhāntamañjūṣā, Vākyapadīya) | Joins each root to its Dhātupāṭha and Dhātuvṛtti entries; gives each affix and case its stated meaning with locus | States the composed literal meaning | Literal meaning per word, built from its parts |
 | M3 | **Lexical texts** | The senses the word admits | Amarakośa with Amaraviveka; Halāyudha; Vaijayantī and Yādava; Ākhyātacandrikā (verbs); Nirukta and Nighaṇṭu; Śabdakalpadruma, Vācaspatya | Collects every entry for the lemma, each with locus (the kit's meaning pages) | Lists the senses the texts allow | Admissible senses with their sources |
-| M4 | **Usage** | Which admissible sense the text uses here | Every Gītā occurrence (concordance), with counts by sense and context; the Mahābhārata (not yet in the library) | Lists all occurrences and computes the statistics | Chooses the sense that fits this place | The sense at this place, with the usage behind it |
+| M4 | **Usage** | Which admissible sense the text uses here | Every Gītā occurrence (concordance), with counts by sense and context; the Mahābhārata (BORI critical text, acquired 2026-11-09) | Lists all occurrences and computes the statistics | Chooses the sense that fits this place | The sense at this place, with the usage behind it |
 | M5 | **Commentaries, last** | Confirms or contests the choice among the senses the texts allow; supplies forks | 13 commentators in 14–16 passages per verse (Śaṅkara, Rāmānuja and Madhva from the on-disk texts and again from the gita/gita collection, with ten others) | Aligns each commentator's gloss to each word, with locus | Uses them as witnesses: what the word says (literal) is kept apart from what a commentator says it refers to; the latter never enters the line | Final literal meaning; readings that become forks |
 
 The source inventory with each work's role and the kit's use of it is prakriya
@@ -109,118 +109,107 @@ uploader; a written CC licence to be requested); B. P R Iyer (CC BY-NC-ND 4.0, u
 as a whole-chapter file with an external timing manifest); C. Samskrita Samvadah (Public
 Domain Mark; quality unverified). The choice is the owner's (§6.2).
 
-## 4. Current implementation (measured 2026-11-09)
+## 4. Current implementation (measured 2026-11-10)
 
 Paths are in vedanta-timeline unless prefixed `prakriya/`. Local working state
-(`internal/`) is git-ignored and private.
+(`internal/`) is git-ignored and private. The code is described module by module in
+[`scripts/gita/translate/README.md`](../scripts/gita/translate/README.md).
 
 ### 4.1 What exists
 
 | Step | Code | What it does today |
 |---|---|---|
-| Prerequisites | `scripts/gita/build_all_packets.py` (with `scripts/gita/gitapipe/`), `scripts/gita/build_commentary_packets.py` | Per-verse packets with Vidyut analyses, `analyses.sqlite` (full analyses and derivations), concordance, lemma inventory, 4,712 kit meaning pages; per-verse commentary packets (14–16 passages) |
-| Grammar oracle | prakriya `scripts/gita_kit/grammar.py` (Vidyut 0.4.0) | Analyses 99.5% of the Gītā's words and derives 99.2% back with sūtra citations (`prakriya/tests/gita_kit/coverage_report.json`, generated before the 2026-11-09 alignment fix) |
-| Meaning oracle | prakriya `scripts/gita_kit/meaning.py` | Meaning pages from the Dhātuvṛttis, kośas, Nirukta/Nighaṇṭu, SKD/VCP, concordance and commentators' glosses; on 300 frequent lemmas: kośa 235, Dhātuvṛtti 164 of 164 verbal, Nirukta/Nighaṇṭu 203, SKD/VCP 289 |
-| M1 Parse | `scripts/gita/translate/drive.py construe` | An agent (Codex, with a command tool, `tool.py`) per verse: author, code check, grammar-only review, at most 3 rounds. ch12 and ch15: 20/20 verses accepted each |
-| M2–M5 + E2–E5 Translate | `scripts/gita/translate/pipeline.py translate`, prompts in `prompts3/` | Per sentence unit: a tool-free "meaning" call, English candidates by code, a "translate" call, code checks, a "review" call, at most 2 revisions |
-| E1 English workbench | `scripts/gita/translate/english_bench.py`, `english.py`, `english_roots.py` | Seven sources indexed (Webster 1913, GCIDE, Wiktionary, OEWN 2025, Roget 1911, Moby, WordNet 3.1); semantic search (qwen3-embedding via Ollama); wordfreq, CMUdict/IPA stress, etymology origin, Google Books Ngram (network), LanguageTool |
-| E4 Checks | `scripts/gita/translate/check.py`, `pipeline.check_unit` | The exact rules listed in E4; 103 test functions in `scripts/gita/translate/tests/` (as of 2026-11-09; not re-run for this document) |
-| E6 Consistency | `pipeline.py consistency` | One chapter per run; one call per conflicting group; affected units re-translated with the decision fixed |
-| Owner sheet | `pipeline.py sheet` | Writes `DECISIONS.md` for the owner |
-| Evaluation | `scripts/gita/translate/compare.py` | Content-word overlap with a private reference (evaluation only, never in prompts) |
-| E7 Publish | `scripts/build_gita_chapter_reader.py`, `scripts/deploy_gita_chapter.sh`, `scripts/gita/build_whole_gita.py`, `scripts/audio/` | Fail-closed chapter builder (from producer/reviewer files); deploy from a clean worktree of origin/main (prints the push command; does not push); whole-article builder (not yet used) |
+| Prerequisites | `scripts/gita/build_all_packets.py` (with `scripts/gita/gitapipe/`), `scripts/gita/build_commentary_packets.py` | Per-verse packets with Vidyut analyses, `analyses.sqlite` (analyses and derivations), concordance, lemma inventory; per-verse commentary packets (14–16 passages from 13 commentators) |
+| Grammar oracle | prakriya `scripts/gita_kit/grammar.py` (Vidyut 0.4.0) | Analyses 99.48% of the Gītā's 9,121 padas and derives 99.16% back with sūtra citations (`prakriya/tests/gita_kit/coverage_report.json`, regenerated 2026-11-09 after the alignment fix) |
+| Meaning sources | prakriya `scripts/gita_kit/meaning.py`, `scripts/lookup/lookup.py` | Indexed Dhātuvṛttis, kośas, Nirukta/Nighaṇṭu, SKD/VCP, concordance, commentators' glosses |
+| Mahābhārata | prakriya `corpus/acquisition-20261109/itihasa/mahabharata_bori_gretil/` | BORI critical text from GRETIL, cleaned to keyed IAST (18 parvans, 1,995 adhyāyas, 73,815 verses; 6.23–6.40 identical to our BORI Gītā); local, git-ignored (no redistribution licence) |
+| M1 Parse | `drive.py construe`, card `compile.construe_input` | Tool-free, read-only. Grammar first: each token's padas, the engine's candidate analyses (top 8 with derivations, up to 40 more), then the commentaries last. Author, code check, grammar review, ≤3 rounds |
+| M1–M5 Meaning | `sanskrit_card.py`, `affix_meanings.json`, `mbh_usage.py`; `pipeline.py` meaning call | Per word a Sanskrit-only card in the owner's order (§4.2); a code audit that no source with an entry is left out; a code check that each literal meaning is grounded in a text when one has an entry |
+| E1 English workbench | `english_bench.py`, `english.py`, `english_roots.py` | Seven dictionaries; semantic index complete (44 of 44 shards, 872,157 definitions); frequency, stress, origin, book frequency; LanguageTool |
+| E2–E5 Translate | `pipeline.py translate`, `prompts3/` | Per sentence unit: meaning call, English candidates by code (found by meaning first), translate call, code checks, review, ≤2 revisions. `preflight` stops a run when an English tool is missing |
+| E6 Consistency | `pipeline.py consistency --run R1 [R2 …]` | One chapter or the whole book; one call per conflicting group; affected units re-translated in their own run |
+| Owner sheet | `pipeline.py sheet` | Formations, kept Sanskrit, losses, challenged seeds, second lines, consistency decisions, with literal meanings |
+| Whole book | `book.py` | Parse, translate and sheet for any chapters, then one consistency pass over all |
+| Runners | `runner.py` | Codex (default) and Claude (`GITA_RUNNER=claude`), tool-free |
+| E7 Publish | `publish.py` → `scripts/build_gita_chapter_reader.py` | Converts run records to the builder's input; fails closed (§4.4) |
+| Evaluation | `compare.py` | Content-word overlap with a private reference (evaluation only) |
 
-Only `codex exec` is coded as a model runner (`pipeline.call`, `drive.codex`); there is
-no Claude or ChatGPT runner yet.
+### 4.2 What the model is given
 
-### 4.2 What the model is actually given
+**Parse (M1).** The card of `compile.construe_input`, in this order: the verse; per token its padas
+(found through the packet's `bori_token`; before 2026-11-10 candidates were looked up by the sandhi
+surface and 3,115 of the Gītā's 8,474 tokens received none); the engine's analyses of each pada, the
+top 8 with their derivation (prakṛti + pratyaya with sūtras) and up to 40 further ones; the
+neighbouring verses; last, every commentary passage. No tools.
 
-**Parse (M1).** The agent sees the Vidyut candidate analyses (at most 8 shown per word),
-with no derivations and no sūtras, and every commentary passage in full (14–16) before
-any lexical evidence (`compile.construe_input`). It may run `tool.py` commands.
+**Meaning call (M1–M5).** Per content word, `sanskrit_card.word_card` (Sanskrit only; no English term
+rows or case hints):
 
-**Meaning call (M2–M5).** `pipeline.evidence_at` sends, per content word:
+| Section | Content |
+|---|---|
+| M1 decode | The chosen analysis, prakṛti (root with gaṇa, Dhātupāṭha number and artha, or stem), affixes, derivation steps of the pratyaya chapters with sūtras, compound type and vigraha |
+| M2 morphemes | Dhātupāṭha entries; Dhātuvṛtti windows, 2 per work, from the Mādhavīya, Kṣīrataraṅgiṇī, Dhātupradīpa and Daiva; the meaning sūtras (with text) of every kṛt/taddhita affix, lakāra, prayoga, sanādi suffix and case |
+| M3 lexical texts | Amarakośa, Amaraviveka, Halāyudha, Vaijayantī, Yādavakośa, Ākhyātacandrikā (verbs, through the root), Nirukta, Nighaṇṭu, Śabdakalpadruma, Vācaspatya: entries where the lemma is a word, ≤2 per work, ≤320 characters |
+| M4 usage | Gītā places and up to six other lines; Mahābhārata: lines using the word in any form the grammar generates, by parvan, three examples |
+| M5 commentaries, last | Each commentator's clause on the word in this verse |
+| sources | The status of all 19 sources: shown, no entry, partial matches only, not applicable |
 
-| Evidence | Sent | Not sent |
-|---|---|---|
-| Root | ≤2 Dhātupāṭha arthas | Dhātuvṛtti texts (built by `evidence.sanskrit_card`, then dropped); affix meanings (exist nowhere in code); kāraka beyond a `relation` field and an English case hint |
-| Lexical texts | first Amarakośa group, cut to 220 characters; first SKD/VCP entry, cut to 260 | Amaraviveka (excluded by a work filter), Halāyudha, Vaijayantī, Yādava, Ākhyātacandrikā, Nirukta and Nighaṇṭu, the 4,712 meaning pages; verbs get no Amara at all |
-| Usage | ≤3 other Gītā lines | counts and statistics; other loci; the Mahābhārata |
-| Commentaries | ≤7 gloss clauses at this verse, beside the lexical lines | the rest; no staged "last" position |
+Compound members carry M2 and M3. Measured on ch15 (176 content words) and ch12 (145): the coverage
+audit finds no source with an entry left off a card; median card 5.3 KB and 4.4 KB per word.
 
-The card also carries English (root-cognate English words, standing English renderings),
-although this step is meant to use Sanskrit sources only.
+**Translate call (E2–E3).** The literal meaning, readings and up to 12 English candidates per word
+(semantic search, image search and the reverse dictionary first; then ≤4 remembered words; then ≤2
+root words), each with senses, dictionary loci, frequency, stress, origin. The prompt inserts
+ENGLISH_CRAFT's five principles and §2 steps 3–6, and the standard's §7.1–§7.17, §8.1 and §8.5,
+verbatim at run time.
 
-**Translate call (E2–E3).** Gets the literal meaning, readings and up to 10 English
-candidates per word, in this order: the model's own remembered words, semantic search,
-keyword search, root cognates. The prompt inserts ENGLISH_CRAFT's five principles and §2
-steps 3–6, and the standard §7.1–§7.16, verbatim at run time; it does not insert
-ENGLISH_CRAFT steps 1–2, standard §7.17 or §8.
+### 4.3 Known defects
 
-**English workbench state.** The semantic index holds 27 of 44 shards (about 540,000 of
-872,157 definitions; `prakriya/tmp/english/bench/`); no build is running. In the
-held-out ch15 run, of the 115 word choices the model labelled neither `grammar` (function
-words) nor `standing` (term rows), it labelled 110 `found_by: remembered` and 5 `retrieved`
-(`internal/gita_pipeline/run/ch15-heldout/translate/*.json`).
-
-### 4.3 Known check defects
-
-Listed with their code locations in
-[`scripts/gita/translate/README.md`](../scripts/gita/translate/README.md#known-defects):
-second lines unchecked, a loss rule that cannot fire, silent skips when a tool is
-missing, a trace check that admits any remembered word, and unaccepted construals loaded.
-Each is a gap in §5.
+Listed in [`scripts/gita/translate/README.md`](../scripts/gita/translate/README.md#known-defects).
+The defects listed here on 2026-11-09 (second lines unchecked, a loss rule that could not fire,
+silent tool skips, unaccepted parses loaded, remembered words admitted unexamined, the truncated
+evidence feed, English on the meaning card) are fixed and tested.
 
 ### 4.4 Publication state
 
-- Live: chapter 12 (2026-11-08, origin/main commit 9c8fb7b) and chapter 5 (an older
-  reader that predates the standard), plus the thematic readers `gita/sthitaprajna` and
-  `gita/kama`. Chapter 12 was built by `build_gita_chapter_reader.py` from the older
-  producer/reviewer files, not by `pipeline.py`. Its audio is P R Iyer, `provisional`.
-- Pipeline output cannot yet be published: nothing converts
-  `run/<run>/translate/*.json` into the builder's input, and the whole-article page
-  `gita/bhagavad-gita/` has not been built.
-- Repository (2026-11-09): the toolchain (`scripts/gita/`, including `translate/`), these
-  documents and the ignore rules that keep `internal/gita_pipeline/` and the private
-  requirement files out of git are on origin/main. The shared local checkout's `main` is
-  behind origin/main and holds untracked copies of these files; it needs a sync (move the
-  untracked copies aside, then fast-forward).
+- Live: chapter 12 (2026-11-08, origin/main 9c8fb7b) and chapter 5 (an older reader), plus the
+  thematic readers `gita/sthitaprajna` and `gita/kama`. Chapter 12 was built from the older
+  producer/reviewer files. Its audio is P R Iyer, `provisional`.
+- `publish.py` converts run records into the builder's input and refuses unfinished chapters. A dry
+  run on ch15-heldout gives 2,707 builder errors (pre-slot records): candidate loci (now recorded by
+  new runs), grammar of manually analysed words, and fields no stage produces: a verse-level sense and
+  grammar summary, five consulted secondaries (the §9 blind check), a complete independent-review
+  record, the term-policy hash (§6.2).
 
 ### 4.5 Results so far
 
-| Run | Chapter role | Translate | Consistency | Overlap with reference |
+| Run | Chapter role | Parse | Translate | Overlap with reference |
 |---|---|---|---|---|
-| `ch12-qual` | development | 16 units, 88 calls, 616 s | 4 groups, 3 units redone, 7/9 placements compliant | 0.64 |
-| `ch15-heldout` | held-out | 19 units, 101 calls, 888 s | 12 groups, 9 units redone, 42/46 compliant | 0.43 |
+| `ch12-qual` | development | agentic, old card | 16 units, 88 calls | 0.64 |
+| `ch15-heldout` | held-out | agentic, old card: 112 of 279 words on an engine analysis, 167 manual; 14.6 M tokens | 19 units, 101 calls; English choices 5 retrieved, 110 remembered | 0.43 |
+| `ch15-v3` (2026-11-10) | held-out | tool-free, grammar first: 221 of 261 on an engine analysis, 40 manual; 20/20 accepted; 14.3 M tokens (mostly cached) | 19 units, 102 calls, 1,113 s; English choices 75 retrieved, 66 remembered, 22 standing; code errors left in 5 units, S1/S2 findings in 5 | 0.40 |
 
-Parse of ch15: 682 s, 14.6 M tokens. Overlap is the mean content-word Jaccard against a
-local, private reference (`internal/gita_pipeline/gold/`); it points to where to read,
-it is not a quality score. Chapter 12 lines appear as examples in ENGLISH_CRAFT §3, so
-chapter 12 is not a clean test. Commentary lookups for chapters 13–18 were off by one
-verse until 2026-11-09 (fixed in prakriya `scripts/lookup/lookup.py` `gita_verse_id`,
-test `tests/lookup/test_gita_alignment.py`, uncommitted); ch15 was re-parsed after the
-fix, while 95 of the 4,712 meaning pages and the grammar coverage report predate it.
+Overlap is the mean content-word Jaccard against a local, private reference
+(`internal/gita_pipeline/gold/`); it points to where to read, it is not a quality score. Chapter 12
+lines appear as examples in ENGLISH_CRAFT §3, so chapter 12 is not a clean test. In `ch15-v3`, 17 of
+19 units carried a second line, often several readings packed into one; a code check and a prompt
+rule now allow one second line, for a grammatical fork only (not yet re-run). The reviewer still
+finds commentators' readings inside some literal meanings (15.10 "experiencing" where the root and
+the kośa give eating).
 
 ## 5. Gaps
 
-Ranked by effect on the translation.
+State on 2026-11-10. Gaps 1–5, 7, 9–12 and 14 of the 2026-11-09 list are closed in code and tests
+(§4). Open:
 
-| # | Gap | Effect on the translation | Where | Fix |
-|---|---|---|---|---|
-| 1 | The meaning call gets a capped fraction of the library (§4.2) | Senses the texts give are never seen; the model fills in from memory | `pipeline.evidence_at`, `evidence.amara_section` | Feed the meaning pages and Dhātuvṛttis in full (compact, deduplicated), in the owner's order; a coverage check that every inventory source with an entry for the lemma reaches the card or is recorded as absent |
-| 2 | No derivation and no affix or kāraka meanings | Meaning is not built from the morphemes; suffix force can be lost | `compile.construe_input`, `pipeline.unit_card`; no affix table exists | Send `grammar derive` steps with sūtras; build an affix and kāraka meaning table cited to the grammar |
-| 3 | Order inverted: the parse reads all commentaries first; the meaning call mixes glosses with lexical lines | Commentators' readings can steer grammar and sense before the texts are heard | `drive.py construe`, `prompts3/meaning.md` | Grammar-first parse from code candidates; commentaries as a final, separate witness stage |
-| 4 | English chosen mostly from memory; index 27/44; tool failures silent | Words are not found by meaning; dictionary breadth is unused; a run can skip checks without saying so | `pipeline.candidates`, `trace_errors`, `grammar`, `english_bench._index` | Finish the index; fail loudly when a tool is missing; rank retrieved words first and record why a remembered word wins; cache phrase frequencies before the run |
-| 5 | Second lines unchecked | A fork line can add or drop meaning undetected | `pipeline.check_unit`, `line_errors` | Apply every word and line check to `alternative` |
-| 6 | Usage thin: 3 lines, no statistics, no Mahābhārata | Sense at a place is chosen without the text's own usage pattern | `evidence.elsewhere_section`; `mbh: null` in packets | Counts by sense from the concordance; acquire the Mahābhārata |
-| 7 | English in the meaning card | The Sanskrit-only step is primed with English | `pipeline.unit_card` | Remove English from that card |
-| 8 | No publication bridge | Pipeline output cannot reach the site | `build_gita_chapter_reader.py`, `scripts/gita/build_whole_gita.py` | A converter to the builder's card format (meaning lines, evidence, derivation), then the whole article |
-| 9 | Consistency per chapter only; decisions not merged | The book can render one sense two ways across chapters | `pipeline.py consistency` | A whole-book pass; owner-approved decisions written to `term_policy.json` |
-| 10 | Loss rule and owner sheet read absent fields | Lost significations are not surfaced to the owner | `pipeline.check_unit`, `pipeline.sheet` | Align schema, check and sheet; unit tests |
-| 11 | No whole-book driver; unaccepted construals loaded | Manual chapter-by-chapter runs; a rejected parse can be translated | `drive.main`, `pipeline.load` | One driver over 18 chapters; load accepted construals only |
-| 12 | Codex is the only runner; the parse is agentic | Not runnable from Claude or ChatGPT; parse cost 14.6 M tokens for one chapter | `pipeline.call`, `drive.codex` | A runner interface with Codex and Claude backends; a tool-free parse card |
-| 13 | The shared local checkout is behind origin/main | Local runs use files that differ from the published ones until synced | git state (§4.4) | Sync the shared checkout (§6.2) |
-| 14 | Stale derived data after the alignment fix | 95 meaning pages and the coverage report may carry neighbour-verse glosses for ch13–18 | `internal/gita_pipeline/packets/meaning/`, `prakriya/tests/gita_kit/coverage_report.json` | Rebuild both |
+| # | Gap | Effect | Next step |
+|---|---|---|---|
+| 1 | Commentators' readings still reach some literal meanings | A line can carry an application instead of the word | Re-run ch15 with the one-fork rule; if the review keeps finding it, a code check comparing the literal's content words with M2/M3 |
+| 2 | Second lines over-produced (17 of 19 units) | Lines the standard does not call for | One-fork rule (code check + prompt), re-run |
+| 3 | Manually analysed words (40 of 261 in ch15) have no derivation | M1–M2 thin for those words; publication fields missing | Engine coverage of the forms the parse rejects (finite veda, vā, utkrāmantam …) |
+| 4 | Publication fields no stage produces (§4.4) | Pipeline output cannot be published | Owner decisions (§6.2), then a verse-summary step |
+| 5 | Usage counts by sense | Counts are by word, not by sense | Sense labels per occurrence after translation |
+| 6 | Mahābhārata usage counts whole words only | Compounds and vowel-fused words uncounted | Lemmatised corpus (DCS, CC BY 4.0) as a second resource |
 
 ## 6. Decisions
 
@@ -276,21 +265,21 @@ are rows of `term_policy.json`. Undecided: vijñāna, kṣetrajña, yoga in the 
 | karma-phala across chapter 5 and chapter 12 | Before chapter 5 is migrated |
 | Whether cards show the site's synthesis meaning category publicly; Sri Aurobindo's register devices in lines | Standard §6.3, §7.17 |
 | Sync the shared local checkout with origin/main (the toolchain is committed) | Needs the other agents' uncommitted work in that checkout set aside first |
+| The chapter builder requires five consulted secondaries per verse: run the §9 blind check, or drop the rule for pipeline output | Blocks publication of pipeline output |
+| May the pipeline's review stand as the builder's independent-review record | Blocks publication |
+| Claude runner: allow paid extra usage, or Codex only | The first Claude call was refused by the account's usage control |
+| Admit the Mahābhārata (IAST) to the library, or keep it as a local acquisition | Its terms grant no redistribution; it is git-ignored |
 
 ## 7. Roadmap (dependency order, no dates)
 
 | # | Step | Depends on | Done when |
 |---|---|---|---|
-| 0 | Sync the shared local checkout with origin/main (toolchain, documents and private ignore rules are committed) | owner | `git status` clean for these paths |
-| 1 | Evidence feed in the owner's order (gaps 1, 2, 3, 7) with a coverage check; rebuild stale meaning pages | 0 | Every inventory source with an entry reaches the card or is recorded as absent; derivations and affix meanings on the card; no English in the meaning card; unit tests |
-| 2 | Acquire the Mahābhārata (clean, provenance recorded per `CLEAN_SANSKRIT_ACQUISITION.md`); usage statistics for the Gītā and the epic | 1 (card format) | Per-lemma counts by sense on the card |
-| 3 | Grammar-first parse: a tool-free card from code candidates and derivations; commentaries only as witnesses; load accepted construals only | 1 | ch12 and ch15 re-parsed; grammar review passes |
-| 4 | English retrieval: full index, loud failures, retrieved-first ranking, cached phrase data; checks on second lines; fix the loss rule and owner sheet | — | ch12 dev and ch15 held-out re-run; found-vs-remembered measured; tests |
-| 5 | Publication bridge: pipeline output → builder cards → whole article (`gita/bhagavad-gita/`) | 1, 3, 4 | ch12 and ch15 build fail-closed from pipeline output |
-| 6 | Full-book run: one driver over 18 chapters; Claude and Codex runners; one prompt the owner can paste | 5 | 700 verses translated and checked |
-| 7 | Whole-book consistency; owner-approved decisions into `term_policy.json` | 6 | No unresolved conflicts across chapters |
-| 8 | Owner taste review; changes fed back as rows and rules | 7 | Owner sign-off per chapter |
-| 9 | Audio for all chapters on the chosen source; owner listening | recitation decision | Every verse timed; manifests `verified` |
+| 1 | Re-run ch15 (and ch12) with the one-fork rule; measure literal-meaning leaks | — | Second lines only at grammatical forks; review findings counted |
+| 2 | Owner decisions for publication (§6.2) | owner | Builder rules settled |
+| 3 | Verse-level sense and grammar summary; publish ch15 through `publish.py` | 1, 2 | ch15 builds fail-closed from pipeline output |
+| 4 | Full-book run (`book.py --chapters 1-18`) | 3 | 700 verses translated and checked; book-wide consistency |
+| 5 | Owner taste review; changes fed back as rows and rules | 4 | Owner sign-off per chapter |
+| 6 | Audio for all chapters on the chosen source; owner listening | recitation decision | Every verse timed; manifests `verified` |
 
 ## 8. Map
 
@@ -311,7 +300,8 @@ are rows of `term_policy.json`. Undecided: vijñāna, kṣetrajña, yoga in the 
 
 | Location | What |
 |---|---|
-| `scripts/gita/translate/` | Current pipeline: `drive.py` (parse), `pipeline.py` (translate, consistency, sheet), `evidence.py`, `english*.py`, `check.py`, `compare.py`, `prompts3/`, `tests/` |
+| `scripts/gita/translate/` | Current pipeline: `drive.py` (parse), `pipeline.py` (translate, consistency, sheet), `sanskrit_card.py`, `affix_meanings.json`, `mbh_usage.py`, `evidence.py`, `english*.py`, `check.py`, `runner.py`, `book.py`, `publish.py`, `compare.py`, `prompts/`, `prompts3/`, `tests/` |
+| prakriya `corpus/acquisition-20261109/itihasa/mahabharata_bori_gretil/` (local, git-ignored) | The Mahābhārata, BORI critical text |
 | `scripts/gita/build_all_packets.py`, `build_commentary_packets.py`, `gitapipe/` | Verse, commentary and meaning packets |
 | `scripts/build_gita_chapter_reader.py`, `scripts/deploy_gita_chapter.sh`, `scripts/gita/build_whole_gita.py` | Building and deploying readers |
 | `scripts/audio/` | Recitation alignment and mastering |

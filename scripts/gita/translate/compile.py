@@ -20,7 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 PACKETS = ROOT / "internal/gita_pipeline/packets"
 TOOL = Path(__file__).with_name("tool.py")
-ANALYSIS_KEYS = ("id", "kind", "stem", "root", "gram", "krt", "taddhita", "members", "source", "agrees_with_gloss")
+ANALYSIS_KEYS = ("id", "kind", "stem", "root", "gram", "krt", "taddhita", "members")  # no commentary signal: the grammar is read first
 
 
 def verse_packet(locus: str) -> dict:
@@ -31,17 +31,83 @@ def commentary(locus: str) -> dict:
     return json.loads((PACKETS / "commentary" / f"{locus}.json").read_text(encoding="utf-8"))
 
 
+def _derivation(aid: str) -> list[str]:
+    import sanskrit_card as S
+    _, d = S._row(aid)
+    return S._derivation(d)
+
+
+FURTHER_CAP = 40
+FINITE_LIKE = ("śatṛ", "śānac", "kta", "ktavatu", "ktvā", "lyap", "tumun", "kvasu", "cānaś")
+
+
+def _further(fa: dict, shown: set, pada: str | None) -> list[dict]:
+    """Analyses past the packet's top 8 (`all_ids`), compact and without derivation: one per distinct
+    (kind, stem, root, grammar, affix), finite verbs first, then participles, absolutives and infinitives,
+    indeclinables, plain nominals, then the rest; at most FURTHER_CAP. The top-8 cut had hidden the right
+    analysis of 21 of 41 hand-analysed words in chapter 15 (finite veda, utkrāmantam …)."""
+    import sanskrit_card as S
+    seen, out = set(), []
+    for aid in fa.get("all_ids") or []:
+        if aid in shown:
+            continue
+        a, _ = S._row(aid)
+        if not a:
+            continue
+        krt = (a.get("krt") or {}).get("name")
+        gram = " ".join(x for x in (a.get("lakara"), a.get("prayoga"), a.get("pada"), a.get("purusha"), a.get("vibhakti"),
+                                    a.get("vacana"), a.get("linga")) if x)
+        root = (a.get("dhatu") or {}).get("root")
+        key = (a.get("kind"), a.get("stem"), root, gram, krt, (a.get("taddhita") or {}).get("name"))
+        if key in seen:
+            continue
+        seen.add(key)
+        rank = 0 if a.get("kind") == "tinanta" else 1 if krt in FINITE_LIKE else 2 if a.get("avyaya") or a.get("kind") == "avyaya" \
+            else 3 if a.get("kind") == "subanta" else 4
+        x = {"id": aid, "kind": a.get("kind"), "stem": a.get("stem"), "root": root, "gram": gram, "krt": krt,
+             "taddhita": (a.get("taddhita") or {}).get("name"), "further": True}
+        if pada:
+            x["pada"] = pada
+        out.append((rank, {k: v for k, v in x.items() if v not in (None, "")}))
+    out.sort(key=lambda r: r[0])
+    return [x for _, x in out[:FURTHER_CAP]]
+
+
 def construe_input(locus: str) -> dict:
+    """The parse card, grammar first (plan §3.1 M1): every token with the grammar engine's candidate
+    analyses of each of its padas (a sandhi-joined token has several) and each candidate's derivation
+    (prakṛti + pratyaya with sūtras); the neighbouring verses; and LAST the commentaries, as witnesses.
+    Token -> pada forms through the packet's occurrences (bori_token), never by the sandhi surface."""
     p, c = verse_packet(locus), commentary(locus)
+    padas: dict[int, list[str]] = {}
+    for o in p["occurrences"]:
+        padas.setdefault(o["bori_token"], []).append(o["form"])
     words = []
     for t in p["tokens"]:
-        f = p["forms"].get(t["token"], {})
-        words.append({"i": t["i"], "form": t["token"],
-                      "candidates": [{k: a.get(k) for k in ANALYSIS_KEYS} for a in f.get("analyses", [])]})
+        fs = padas.get(t["i"]) or [t["token"]]
+        cands = []
+        for f in fs:
+            fa = p["forms"].get(f) or p["forms"].get(f.replace("-", "")) or {}
+            for a in fa.get("analyses", []):
+                x = {k: a.get(k) for k in ANALYSIS_KEYS if a.get(k) not in (None, [], "")}
+                if len(fs) > 1:
+                    x["pada"] = f
+                dv = _derivation(a["id"])
+                if dv:
+                    x["derivation"] = dv
+                cands.append(x)
+        further = []
+        for f in fs:
+            fa = p["forms"].get(f) or p["forms"].get(f.replace("-", "")) or {}
+            further += _further(fa, {c["id"] for c in cands}, f if len(fs) > 1 else None)
+        w = {"i": t["i"], "form": t["token"], "candidates": cands + further}
+        if len(fs) > 1:
+            w["padas"] = fs
+        words.append(w)
     return {"locus": locus, "speaker": p.get("speaker"), "iast": p["iast"],
-            "previous_verse": c["previous_verse"], "next_verse": c["next_verse"],
             "split_tokens": [t["token"] for t in p["tokens"]], "words": words,
-            "commentaries": [{"who": x["who"], "text": x["text"]} for x in c["passages"]]}
+            "previous_verse": c["previous_verse"], "next_verse": c["next_verse"],
+            "commentaries_last": [{"who": x["who"], "text": x["text"]} for x in c["passages"]]}
 
 
 def units(construals: list[dict]) -> list[list[str]]:

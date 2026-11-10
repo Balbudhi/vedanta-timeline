@@ -7,9 +7,12 @@ plain-text files' (verified 2026-11-09). Where his practice as a free literary t
 differs from this product, the product rule governs and says so.
 
 ## M — Meaning (from the Sanskrit)
-- **M1 Sanskrit first.** The sense at this occurrence is established from Sanskrit sources: the
-  root's Dhātupāṭha artha and Dhātuvṛtti, the kośas, Nirukta/Uṇādi, and the commentators'
-  glosses here. A Sanskrit–English dictionary may locate a sense, never decide it (owner).
+- **M1 Sanskrit first, in the owner's order.** The sense at this occurrence is established from
+  Sanskrit sources: the decoded form and derivation; the meaning of each morpheme (the root's
+  Dhātupāṭha artha and Dhātuvṛttis, the affixes' meaning sūtras); the kośas, Nirukta and Nighaṇṭu,
+  Śabdakalpadruma and Vācaspatya; the Gītā's own usage; and last the commentators' glosses here, as
+  witnesses that choose among the senses the texts allow. A Sanskrit–English dictionary may locate a
+  sense, never decide it (owner).
 - **M2 Signification.** The root image and the word's further value are part of its meaning
   ("the Sanscrit word for wolf means radically 'tearing'", VPS 21011). An image is ACTIVE when a
   commentator glosses by it, the root repeats in the passage, or the verse's figure uses it.

@@ -4,7 +4,7 @@ sentence decides the words in context and writes the line; code checks every mec
 review; a chapter consistency pass.
 
     python3 scripts/gita/translate/pipeline.py translate   --run ch12-qual [--only 12.13] [--jobs 24]
-    python3 scripts/gita/translate/pipeline.py consistency --run ch12-qual
+    python3 scripts/gita/translate/pipeline.py consistency --run ch12-qual [ch15-heldout …]   (several runs: the book)
     python3 scripts/gita/translate/pipeline.py sheet       --run ch12-qual
 """
 from __future__ import annotations
@@ -33,9 +33,6 @@ sys.path.insert(0, str(Path.home() / "Dev/prakriya/scripts/lookup"))
 ROOT = HERE.parents[2]
 PROMPTS = HERE / "prompts3"
 RUNS = ROOT / "internal/gita_pipeline/run"
-MODEL = os.environ.get("GITA_MODEL", "gpt-6-astra")
-EFFORT = os.environ.get("GITA_EFFORT", "high")
-CODEX_HOME = os.environ.get("GITA_CODEX_HOME", str(Path.home() / ".codex-gita"))
 MAX_REVISIONS = 2
 _LOOKUP = threading.Lock()  # the prakriya lookup layer (sqlite) is not thread-safe
 _CALLS = threading.BoundedSemaphore(int(os.environ.get("GITA_MAX_CALLS", "32")))
@@ -60,7 +57,9 @@ def prompt(task: str) -> str:
         craft, std = CRAFT.read_text(encoding="utf-8"), STANDARD.read_text(encoding="utf-8")
         t = (t.replace("{{CRAFT_PRINCIPLES}}", _between(craft, "**The five principles that matter most:**", "**The ten revised lines**"))
               .replace("{{CRAFT_STEPS}}", _between(craft, "### Step 3. Choose the kind of expression", "## 3. Calibration").rstrip("-").strip())
-              .replace("{{STANDARD_7}}", _between(std, "### 7.1 Do not collapse meaning", "### 7.17 Register")))
+              .replace("{{STANDARD_7}}", _between(std, "### 7.1 Do not collapse meaning", "## 8. Preserve or translate"))
+              .replace("{{STANDARD_8}}", _between(std, "### 8.1 The rule: three tests", "### 8.2 Disputed referents")
+                       + "\n\n" + _between(std, "### 8.5 The decision procedure", "## 9. Other translations")))
     return t
 
 
@@ -70,7 +69,7 @@ SLOT = re.compile(r"\{[\d,\s]+:([^{}]*)\}")
 def strip_slots(d):
     """The craft brief writes slots as {i:text}; lines are plain English (the slot map is `words`)."""
     if isinstance(d, dict):
-        return {k: strip_slots(v) for k, v in d.items()}
+        return {k: (v if k == "slotted" else strip_slots(v)) for k, v in d.items()}
     if isinstance(d, list):
         return [strip_slots(x) for x in d]
     if isinstance(d, str):
@@ -80,26 +79,20 @@ def strip_slots(d):
 
 # ---------------------------------------------------------------- model call
 def call(task: str, card: dict, extra: str = "") -> tuple[dict | None, dict]:
-    """One tool-free model call: prompt + card inline -> (parsed JSON or None, stats). One retry when
-    the answer is not JSON."""
+    """One tool-free model call through runner.py (Codex or Claude): prompt + card inline -> (parsed JSON
+    or None, stats). One retry when the answer is not JSON."""
+    import runner
     text = prompt(task) + extra + "\n\nCARD:\n" + json.dumps(card, ensure_ascii=False, indent=1)
     for attempt in (1, 2):
         with _CALLS:
-            t = time.time()
-            with tempfile.TemporaryDirectory(dir=RUNS) as d:
-                out = Path(d) / "out.txt"
-                r = subprocess.run(["codex", "exec", "--skip-git-repo-check", "-s", "read-only", "-C", d, "-m", MODEL,
-                                    "-c", f"model_reasoning_effort={EFFORT}", "-c", "project_doc_max_bytes=0", "--json",
-                                    "-o", str(out), text], stdin=subprocess.DEVNULL, capture_output=True, text=True,
-                                   env={**os.environ, "CODEX_HOME": CODEX_HOME})
-                raw = out.read_text(encoding="utf-8") if out.exists() else ""
-        usage = [json.loads(l).get("usage") or {} for l in r.stdout.splitlines() if '"turn.completed"' in l]
-        stats = {"task": task, "s": round(time.time() - t, 1), "attempt": attempt, "model": MODEL, "effort": EFFORT,
-                 "card_bytes": len(json.dumps(card, ensure_ascii=False).encode()),
-                 "commands": sum(1 for l in r.stdout.splitlines() if '"command_execution"' in l and '"item.started"' in l),
-                 "output_tokens": sum(u.get("output_tokens", 0) for u in usage),
-                 "input_tokens": sum(u.get("input_tokens", 0) for u in usage)}
-        m = re.search(r"\{.*\}", raw, re.S)
+            r = runner.run(text, RUNS, sandbox="read-only")
+        stats = {"task": task, "s": r.seconds, "attempt": attempt, "runner": runner.RUNNER, "model": runner.model_name(),
+                 "effort": runner.EFFORT, "card_bytes": len(json.dumps(card, ensure_ascii=False).encode()),
+                 "commands": r.commands, "output_tokens": r.usage.get("output_tokens", 0),
+                 "input_tokens": r.usage.get("input_tokens", 0)}
+        if r.usage.get("error"):
+            stats["error"] = r.usage["error"]
+        m = re.search(r"\{.*\}", r.raw, re.S)
         try:
             if m:
                 return strip_slots(json.loads(m.group(0))), stats
@@ -224,21 +217,25 @@ def root_words(root: str | None) -> list[dict]:
     return _ROOTS_CACHE[root]
 
 
-def evidence_at(entry: dict | None, locus: str) -> dict:
-    """The meaning evidence for one lemma at one place, short."""
+def sanskrit_at(entry: dict | None, locus: str, word: dict) -> dict:
+    """The M1–M5 Sanskrit card for one word at one place (sanskrit_card.py), with its coverage audit."""
     if not entry:
         return {}
-    import evidence
+    import sanskrit_card as S
     with _LOOKUP:
-        c = evidence.sanskrit_card(entry)
-    out = {"root_meaning": [f"{d.get('aupadesika')} ({d.get('gana')}): {d.get('artha')}" for d in (c.get("dhatu") or {}).get("entries", [])][:2],
-           "amarakosa": [a["text"][:220] for a in (c.get("amara") or [])][:1],
-           "dictionary": [k["text"][:260] for k in (c.get("kosha") or [])][:1],
-           "commentators_here": [f"{', '.join(g.get('who') or [])}: {g.get('clause') or g.get('text') or ''}"
-                                 for o in (c.get("occurrences") or []) if o.get("locus") == locus
-                                 for g in o.get("glosses", []) if g.get("clause") or g.get("text")][:7]}
-    out["gita_usage"] = [f"{x.get('locus')}: {x.get('line')}" for x in (c.get("elsewhere") or [])][:3]
-    return {k: v for k, v in out.items() if v}
+        card = S.word_card(entry, locus, word)
+        errs = S.audit(entry, card)
+    if errs:
+        card["coverage_errors"] = errs
+    return card
+
+
+def member_at(entry: dict | None) -> dict:
+    if not entry:
+        return {}
+    import sanskrit_card as S
+    with _LOOKUP:
+        return S.member_card(entry)
 
 
 _DEF: dict = {}
@@ -256,7 +253,8 @@ def define(word: str) -> dict:
         ents.sort(key=lambda e: MODERN_FIRST.get(e.get("source"), 9))
         _DEF[w] = {"attested": bool(r.get("attested")),
                    "entries": [f"{e.get('source')} {e.get('pos') or ''}{' [' + e['tags'] + ']' if e.get('tags') else ''}: "
-                               f"{re.sub(chr(10), ' ', e.get('definition') or '')[:120]}" for e in ents[:4]]}
+                               f"{re.sub(chr(10), ' ', e.get('definition') or '')[:120]}" for e in ents[:4]],
+                   "loci": [e["locus"] for e in ents[:4] if e.get("locus")]}
     return _DEF[w]
 
 
@@ -266,59 +264,99 @@ def attested(text: str) -> bool:
     return all(define(x)["attested"] for t in toks for x in t.split("-") if x)
 
 
-def candidates(sense: dict, root: str | None, limit: int = 10) -> list[dict]:
+def candidates(sense: dict, root: str | None, limit: int = 12) -> list[dict]:
     """ENGLISH_CRAFT step 2: words found in the English dictionaries by the sense description and the
-    root image, English words sharing the root, and words the translator remembered; each defined."""
+    root image first (semantic search, then keyword search), then words the translator remembered (≤4,
+    checked the same way), then English words sharing the root (≤2); each defined. A failing tool raises:
+    a run never silently translates without its English evidence (preflight() checks the tools)."""
     import english
-    found: list[tuple[str, str]] = [(w, "remembered") for w in (sense.get("remembered") or [])[:6]]
-    try:
-        import english_bench as B
-        q = sense.get("search") or ""  # the core meaning only: grammar words in a description pollute the search
-        matched = {}
-        for r in (B.find(q, k=6) if q else []):
-            found.append((r["word"], "found by meaning"))
-            matched[r["word"].lower()] = r["definition"]
-        if sense.get("image"):
-            for r in B.find(sense["image"], k=3):
-                found.append((r["word"], "found by image"))
-                matched.setdefault(r["word"].lower(), r["definition"])
-    except Exception:  # the semantic index is optional while it builds
-        B, matched = None, {}
-    with _LOOKUP:
-        if sense.get("search"):
-            found += [(r["word"], "retrieved: sense") for r in english.english_table(sense["search"], sense.get("image"), limit=4)]
-    found += [(r["word"], "root") for r in root_words(root)[:3]]  # last: PIE homonyms are noisy
+    import english_bench as B
+    q = sense.get("search") or ""  # the core meaning only: grammar words in a description pollute the search
+    retrieved: list[tuple[str, str]] = []
+    matched = {}
+    for r in (B.find(q, k=6) if q else []):
+        retrieved.append((r["word"], "found by meaning"))
+        matched[r["word"].lower()] = r["definition"]
+    if sense.get("image"):
+        for r in B.find(sense["image"], k=3):
+            retrieved.append((r["word"], "found by image"))
+            matched.setdefault(r["word"].lower(), r["definition"])
+    if q:
+        with _LOOKUP:
+            retrieved += [(r["word"], "retrieved: sense") for r in english.english_table(q, sense.get("image"), limit=4)]
+    remembered = [(w, "remembered") for w in (sense.get("remembered") or [])[:4]]
+    roots = [(r["word"], "root") for r in root_words(root)[:2]]  # last: PIE homonyms are noisy
     out, seen = [], set()
-    for w, how in found:
-        if w.lower() in seen:
-            continue
-        seen.add(w.lower())
-        d = define(w)
-        if not d["attested"] and how != "remembered":
-            continue
-        item = {"word": w, "found_by": how, "attested": d["attested"] or attested(w),
-                "modern_first_sense": (d["entries"][:1] or [None])[0]}
-        if matched.get(w.lower()):
-            item["matching_sense"] = matched[w.lower()][:140]
-        elif len(d["entries"]) > 1:
-            item["other_sense"] = d["entries"][1]
-        if B:
+    quota = {"retrieved": limit - len(remembered) - len(roots), "remembered": 4, "root": 2}
+    for group, items in (("retrieved", retrieved), ("remembered", remembered), ("root", roots)):
+        n = 0
+        for w, how in items:
+            if w.lower() in seen or n >= quota[group]:
+                continue
+            d = define(w)
+            if not d["attested"] and how != "remembered":
+                continue
+            seen.add(w.lower())
+            n += 1
+            item = {"word": w, "found_by": how, "attested": d["attested"] or attested(w),
+                    "modern_first_sense": (d["entries"][:1] or [None])[0], "loci": d["loci"][:2]}
+            if matched.get(w.lower()):
+                item["matching_sense"] = matched[w.lower()][:140]
+            elif len(d["entries"]) > 1:
+                item["other_sense"] = d["entries"][1]
             pr = B.profile(w)
             item.update({k: pr[k] for k in ("zipf", "stress", "origin") if pr.get(k) not in (None, [], "")})
-        out.append(item)
-        if len(out) >= limit:
-            break
-    if B:
-        multi = [c["word"] for c in out if " " in c["word"]]
-        if multi:
-            pf = B.phrase_freq(multi)
-            for c in out:
-                if c["word"] in pf and pf[c["word"]] is not None:
-                    c["books_per_billion"] = round(pf[c["word"]] * 1e9, 1)
+            out.append(item)
+    multi = [c["word"] for c in out if " " in c["word"]]
+    if multi:
+        pf = B.phrase_freq(multi)
+        for c in out:
+            if c["word"] in pf and pf[c["word"]] is not None:
+                c["books_per_billion"] = round(pf[c["word"]] * 1e9, 1)
     return out
 
 
-SANSKRIT_ONLY = ("meaning_evidence", "member_evidence", "english_root_words")
+def preflight(allow_partial: bool = False) -> dict:
+    """Every English tool the run depends on, checked before the first model call: the semantic index
+    (and how complete it is), the embedding server, LanguageTool, lemminflect. Missing tools abort the
+    run unless `allow_partial`, and the state is recorded in the run summary."""
+    state: dict = {}
+    try:
+        import english_bench as B
+        state["index"] = B.index_state()
+        B.embed_query("test")
+        state["embedding_server"] = "ok"
+    except Exception as e:
+        state["embedding_server"] = f"FAILED: {e!r}"[:200]
+    try:
+        grammar("This is a test line.")
+        state["languagetool"] = "ok"
+    except Exception as e:
+        state["languagetool"] = f"FAILED: {e!r}"[:200]
+    try:
+        import lemminflect  # noqa: F401
+        state["lemminflect"] = "ok"
+    except ImportError as e:
+        state["lemminflect"] = f"FAILED: {e!r}"
+    bad = [k for k, v in state.items() if isinstance(v, str) and v.startswith("FAILED")]
+    if not (state.get("index") or {}).get("complete"):
+        bad.append(f"index {state.get('index')}")
+    state["missing"] = bad
+    if bad and not allow_partial:
+        raise SystemExit(f"preflight: English tools missing or incomplete: {bad} (run with --allow-partial-tools to "
+                         "proceed and record it)")
+    return state
+
+
+SANSKRIT_ONLY = ("sanskrit", "member_sanskrit")
+ENGLISH_KEYS = ("standing", "english_case")  # owner decisions and case hints in English: not on the Sanskrit-only card
+
+
+def meaning_view(card: dict) -> dict:
+    """The card for step 1 (the meaning call): Sanskrit only, so the owner's English decisions and case
+    hints are removed; every word keeps its grammar and its M1–M5 Sanskrit card."""
+    return {**card, "verses": [{**v, "words": [{k: x for k, x in w.items() if k not in ENGLISH_KEYS} for w in v["words"]]}
+                               for v in card["verses"]]}
 
 
 def translate_card(card: dict, senses: dict) -> dict:
@@ -339,6 +377,51 @@ def translate_card(card: dict, senses: dict) -> dict:
             words.append(d)
         verses.append({**v, "words": words})
     return {**card, "verses": verses}
+
+
+def sanskrit_summary(card: dict) -> dict:
+    """For the reviewer: the root's Dhātupāṭha meaning, the affix meanings and the first entry of each
+    lexical text (the evidence a rendering must answer to)."""
+    m2, m3 = card.get("M2_morphemes") or {}, card.get("M3_lexical_texts") or {}
+    out = {"root": m2.get("root"), "affixes": [f"{a['affix']}: " + "; ".join(f"{x['sutra']} {x['text']}" for x in a["sutras"])
+                                              for a in m2.get("affixes") or [] if a["kind"] in ("kṛt", "taddhita", "sanādi")],
+           "lexical": [f"{x['work']}: {x['text'][:160]}" for sec in ("koshas", "dictionaries") for x in (m3.get(sec) or [])[:2]]}
+    return {k: v for k, v in out.items() if v}
+
+
+TEXT_GROUNDS = re.compile(r"\b(DP|Dhātupāṭha|Mādhavīya|Kṣīrataraṅgiṇī|Dhātupradīpa|Daiva|Dhātuvṛtti|Amara\w*|Halāyudha|"
+                          r"Vaijayantī|Yādava\w*|Ākhyātacandrikā|Nirukta|Nighaṇṭu|Śabdakalpadruma|Vācaspatya|SKD|VCP|"
+                          r"Gītā|grammar|Aṣṭādhyāyī)\b|\b\d\.\d{1,2}\.\d{1,3}\b|\b\d{1,2}\.\d{1,2}[a-f]?\b", re.I)
+
+
+def meaning_errors(m: dict | None, card: dict) -> list[str]:
+    """Step 1 checked by code: every content word has a literal meaning and grounds; a literal grounded only
+    in commentaries is an error when the texts (M2, M3) have an entry for the word."""
+    if not m:
+        return ["no answer"]
+    got = {(w.get("locus"), w.get("i")): w for w in m.get("words") or []}
+    errs = []
+    for v in card["verses"]:
+        for w in v["words"]:
+            if w.get("class") not in ("content", "name") and not w.get("compound"):
+                continue
+            tag = f"{v['locus']} word {w['i']} ({w['form']})"
+            a = got.get((v["locus"], w["i"]))
+            if not a or not (a.get("literal") or "").strip():
+                errs.append(f"{tag}: no literal meaning")
+                continue
+            if a["literal"].strip().lower() == "unresolved":
+                continue
+            grounds = a.get("grounds") or []
+            texts = w.get("sanskrit") or {}
+            has_text = any(x for x in (texts.get("M2_morphemes") or {}).values()) or any(
+                x for x in (texts.get("M3_lexical_texts") or {}).values())
+            if not grounds:
+                errs.append(f"{tag}: no grounds for the literal meaning")
+            elif has_text and not any(TEXT_GROUNDS.search(g) for g in grounds):
+                errs.append(f"{tag}: the literal meaning is grounded only in commentaries ({grounds}), but the texts "
+                            "(M2 morphemes, M3 lexical texts) have entries for this word: build it from them")
+    return errs
 
 
 def gram_of(locus: str, w: dict) -> str | None:
@@ -389,7 +472,7 @@ def unit_card(unit: list[str], cons: dict, pos: dict, ents: dict, fixed: dict | 
             rel = w.get("relation") or {}
             head_lemma = (pos.get((loc, rel.get("head")), {}).get("word") or next((x.get("stem") for x in c["words"] if x["i"] == rel.get("head")), None)) \
                 if isinstance(rel.get("head"), int) else None
-            d = {"i": w["i"], "form": w["form"], "lemma": lemma, "class": w.get("word_class"),
+            d = {"i": w["i"], "form": w["form"], "lemma": lemma, "class": w.get("word_class"), "analysis_id": w.get("analysis_id"),
                  "root": w.get("root"), "upasargas": w.get("upasargas") or None, "grammar": gram_of(loc, w),
                  "depends_on": forms.get(rel.get("head")) if isinstance(rel.get("head"), int) else rel.get("head"),
                  "relation": rel.get("role")}
@@ -405,15 +488,11 @@ def unit_card(unit: list[str], cons: dict, pos: dict, ents: dict, fixed: dict | 
                                               "morphemes": max(1, len(m.get("members") or [])) + len(m.get("upasargas") or [])}
                                              for m in parts]}
             if w.get("word_class") in ("content", "name") or d.get("compound"):
-                ev = evidence_at(ents.get(lemma), loc)
+                ev = sanskrit_at(ents.get(lemma), loc, w)
                 if ev:
-                    d["meaning_evidence"] = ev
+                    d["sanskrit"] = ev
                 if d.get("compound"):
-                    d["member_evidence"] = {m: evidence_at(ents.get(m), loc).get("root_meaning") or evidence_at(ents.get(m), loc).get("amarakosa")
-                                            for m in p["members"]}
-                rw = root_words((w.get("root") or "").split(" ")[0] or None)
-                if rw:
-                    d["english_root_words"] = rw
+                    d["member_sanskrit"] = {m: member_at(ents.get(m)) for m in p["members"]}
             rows = term_rows(lemma or "") + [dict(r, member=m) for m in p["members"] for r in term_rows(m)]
             if rows:
                 d["standing"] = rows
@@ -513,10 +592,30 @@ def check_unit(out: dict, card: dict) -> list[str]:
             errs.append(f"{tag}: formation '{text}' needs two attested models of its pattern (step 3d.2)")
         if c.get("FIXED") and not (renders(text, c["FIXED"]) or keeps(text, c["FIXED"])):
             errs.append(f"{tag}: the chapter's fixed rendering is '{c['FIXED']}'")
-        if w.get("carried") is False and w.get("step") == "existing" and not (w.get("why") or "").strip():
-            errs.append(f"{tag}: '{text}' loses {w.get('lost')!r}; by the owner's order use a new word or keep the "
-                        "Sanskrit, or say why neither serves")
+        if w.get("carried") is False and kind in ("a", "b", "c") and not (w.get("why") or "").strip():
+            errs.append(f"{tag}: '{text}' loses {w.get('lost')!r}; by the owner's order use a formation (kind d) or keep "
+                        "the Sanskrit (kind e), or say in 'why' why neither serves")
+        if w.get("carried") is False and not (w.get("lost") or "").strip():
+            errs.append(f"{tag}: carried is false but 'lost' does not say what is not carried")
+        if w.get("found_by") == "remembered" and c.get("class") not in CLOSED:
+            found = [x["word"] for x in c.get("candidates") or [] if not x["found_by"].startswith(("remembered", "root"))]
+            if found and not any(re.search(rf"\b{re.escape(x.lower())}\b", (w.get("why") or "").lower()) for x in found):
+                errs.append(f"{tag}: '{text}' is a remembered word; 'why' must name the retrieved candidate it beats "
+                            f"(one of {found[:6]}) and say why (step 2: English is found by meaning)")
     errs += line_errors(out, card)
+    errs += slot_errors(out, card)
+    for loc, line in (out.get("lines") or {}).items():
+        if "\n" in line.strip():
+            errs.append(f"{loc}: one line per verse; a second reading is one `alternative`, never extra lines")
+    for w in out.get("words", []):
+        if "\n" in (w.get("english") or "").strip():
+            errs.append(f"{w.get('locus')} word {w.get('i')}: one English rendering per word and line, not several")
+    alt = out.get("alternative")
+    if alt and "lines" in out:  # the second line is checked by every rule the first is (§6.5)
+        over = {(w.get("locus"), w.get("i")): w for w in alt.get("words") or []}
+        alt_out = {"lines": alt.get("lines") or {}, "slotted": alt.get("slotted") or {},
+                   "words": [over.get((w.get("locus"), w.get("i")), w) for w in out.get("words", [])]}
+        errs += [f"second line: {e}" for e in check_unit(alt_out, card)]
     return errs
 
 
@@ -528,24 +627,18 @@ LT_IGNORE = {"UPPERCASE_SENTENCE_START", "MORFOLOGIK_RULE_EN_US", "EN_QUOTES", "
 def grammar(line: str) -> list[str]:
     """LanguageTool (local) grammar findings for an English line; spelling (Sanskrit words) ignored."""
     global _LT
-    try:
-        import language_tool_python
-        with _LOOKUP:
-            if _LT is None:
-                os.environ.setdefault("JAVA_HOME", "/opt/homebrew/opt/openjdk@21")
-                _LT = language_tool_python.LanguageTool("en-US")
-            ms = _LT.check(line)
-    except Exception:
-        return []
+    import language_tool_python  # a missing grammar checker raises (preflight() reports it before the run)
+    with _LOOKUP:
+        if _LT is None:
+            os.environ.setdefault("JAVA_HOME", "/opt/homebrew/opt/openjdk@21")
+            _LT = language_tool_python.LanguageTool("en-US")
+        ms = _LT.check(line)
     return [f"{m.rule_id}: {m.message} — '{line[m.offset:m.offset + m.error_length]}'" for m in ms if m.rule_id not in LT_IGNORE]
 
 
 def measured(out: dict) -> dict:
     """The line pass, measured by code, for the reviewer (ENGLISH_CRAFT L1–L9)."""
-    try:
-        import english_bench as B
-    except Exception:
-        return {}
+    import english_bench as B
     res = {}
     for loc, line in (out.get("lines") or {}).items():
         m = B.line_metrics(line)
@@ -578,6 +671,38 @@ def trace_errors(tag: str, text: str, c: dict, w: dict) -> list[str]:
            and not re.search(r"[āīūṛṝḷṅñṭḍṇśṣḥṃ]", t) and not renders(pool, t)]
     return [f"{tag}: {bad} in '{text}' come from neither its English candidates nor its literal meaning — "
             "a commentator's reading or an addition (§7.2–§7.3)"] if bad else []
+
+
+SLOT_IN = re.compile(r"\{([\d,\s]+):([^{}]*)\}")
+
+
+def slot_errors(out: dict, card: dict) -> list[str]:
+    """The slotted line places each word's English: with the slots removed it is the line; every word with
+    an English rendering has a slot holding exactly that rendering (its position in the line)."""
+    slotted = out.get("slotted")
+    if slotted is None:
+        return ["no slotted lines: write each word's English in the line as {i:english} (its position)"]
+    errs = []
+    for loc, line in (out.get("lines") or {}).items():
+        sl = slotted.get(loc)
+        if sl is None:
+            errs.append(f"{loc}: no slotted line")
+            continue
+        if re.sub(r"\s+", " ", SLOT_IN.sub(r"\2", sl)).strip() != re.sub(r"\s+", " ", line).strip():
+            errs.append(f"{loc}: the slotted line without its slots is not the line")
+        held: dict = {}
+        for ids, text in SLOT_IN.findall(sl):
+            for i in re.findall(r"\d+", ids):
+                held.setdefault(int(i), []).append(text.strip())
+        for w in out.get("words", []):
+            if w.get("locus") != loc or not (w.get("english") or "").strip():
+                continue
+            got = held.get(w.get("i"))
+            if not got:
+                errs.append(f"{loc} word {w.get('i')}: '{w['english']}' has no slot in the slotted line")
+            elif w["english"].strip() not in got and " ".join(got) != w["english"].strip():
+                errs.append(f"{loc} word {w.get('i')}: its slot holds {got}, not its English '{w['english']}'")
+    return errs
 
 
 def line_errors(out: dict, card: dict) -> list[str]:
@@ -624,14 +749,24 @@ def _translate_unit(unit: list[str], cons: dict, pos: dict, ents: dict, outdir: 
     prev = outdir / f"{'-'.join(unit)}.json"
     m = json.loads(prev.read_text()).get("meaning") if (fixed and prev.exists()) else None
     if m is None:
-        m, st = call("meaning", scard)  # step 1: Sanskrit sources only
+        m, st = call("meaning", meaning_view(scard))  # step 1: Sanskrit sources only, in the owner's order
         rec["calls"].append(st)
+        merrs = meaning_errors(m, scard)
+        if merrs:  # one correction round: every content word meant, and meant from the texts
+            m2, st = call("meaning", meaning_view(scard), "\n\nCORRECTION. Code found these errors in your answer "
+                          "PREVIOUS; fix each and return the full JSON again.\nPREVIOUS: " + json.dumps(m, ensure_ascii=False)
+                          + "\nERRORS: " + json.dumps(merrs, ensure_ascii=False))
+            rec["calls"].append(st)
+            m = m2 or m
+        rec["meaning_errors"] = meaning_errors(m, scard)
     senses = {(w.get("locus"), w.get("i")): w for w in (m or {}).get("words", [])}
     card = translate_card(scard, senses)  # step 2: English found and defined by code
     here = {f"{k[0]}:{k[1]}": v.get("here") for k, v in senses.items() if v.get("here")}
-    roots = {f"{v['locus']}:{w['i']}": {k: x for k, x in (w.get("meaning_evidence") or {}).items() if k in ("root_meaning", "amarakosa")}
-             for v in scard["verses"] for w in v["words"] if (w.get("meaning_evidence") or {}).get("root_meaning") or (w.get("meaning_evidence") or {}).get("amarakosa")}
+    roots = {f"{v['locus']}:{w['i']}": sanskrit_summary(w["sanskrit"]) for v in scard["verses"] for w in v["words"]
+             if sanskrit_summary(w.get("sanskrit") or {})}
+    rec["coverage_errors"] = [e for v in scard["verses"] for w in v["words"] for e in (w.get("sanskrit") or {}).get("coverage_errors", [])]
     rec["meaning"] = m
+    rec["meaning_card"] = meaning_view(scard)  # exactly what the meaning call was given
     out, st = call("translate", card)  # steps 3–6 and the line pass
     rec["calls"].append(st)
     prior = None
@@ -778,36 +913,73 @@ def compliance(recs: list[dict], decisions: dict) -> dict:
 
 
 # ---------------------------------------------------------------- owner sheet
-def sheet(run: str) -> Path:
+SHEET_KINDS = {"d": "formation", "e": "Sanskrit kept"}
+
+
+def sheet_rows(recs: list[dict], decisions: dict | None = None) -> list[dict]:
+    """What the owner rules on: formations (kind d), Sanskrit kept (kind e), losses (carried false), seed
+    decisions challenged, second lines, and the consistency decisions."""
     rows = []
-    for f in sorted((RUNS / run / "translate").glob("*.json")):
-        if f.name.startswith("_"):
-            continue
-        r = json.loads(f.read_text())
-        for w in (r.get("output") or {}).get("words", []):
+    for r in recs:
+        lit = {(x.get("locus"), x.get("i")): x for x in ((r.get("meaning") or {}).get("words") or [])}
+        out = r.get("output") or {}
+        for w in out.get("words", []):
             why = []
-            if w.get("step") in ("new", "preserved"):
-                why.append(w["step"])
+            if w.get("kind") in SHEET_KINDS:
+                why.append(SHEET_KINDS[w["kind"]] + (f" (models: {', '.join(w.get('models') or [])})" if w["kind"] == "d" else ""))
             if w.get("carried") is False:
-                why.append(f"loses: {w.get('lost')}" + (f" — {w['why']}" if w.get("why") else ""))
+                why.append(f"loses: {w.get('lost')}")
+            if (w.get("challenge") or "").strip():
+                why.append(f"challenges the seed decision: {w['challenge']}")
             if why:
-                rows.append(f"| {w.get('locus')} | {w.get('i')} | **{w.get('english')}** | {w.get('means') or ''} | "
-                            f"{w.get('signifies') or ''} | {'; '.join(why)} |")
-    cons = RUNS / run / "translate" / "_consistency.json"
-    if cons.exists():
-        for lemma, d in json.loads(cons.read_text()).items():
-            rows.append(f"| {', '.join(x['loci'][0] for x in d)} | {lemma} | **{' / '.join(x['english'] for x in d)}** | "
-                        f"consistency decision | | {'; '.join(x.get('why') or '' for x in d)} |")
+                rows.append({"locus": w.get("locus"), "i": w.get("i"), "english": w.get("english"),
+                             "literal": (lit.get((w.get("locus"), w.get("i"))) or {}).get("literal") or "",
+                             "issue": "; ".join(why), "why": w.get("why") or ""})
+        alt = out.get("alternative")
+        if alt:
+            for loc, line in (alt.get("lines") or {}).items():
+                rows.append({"locus": loc, "i": None, "english": line, "literal": "", "issue": f"second line ({alt.get('fork')})",
+                             "why": ""})
+    for lemma, d in (decisions or {}).items():
+        rows.append({"locus": ", ".join(x["loci"][0] for x in d if x.get("loci")), "i": lemma,
+                     "english": " / ".join(x["english"] for x in d), "literal": "", "issue": "consistency decision",
+                     "why": "; ".join(x.get("why") or "" for x in d)})
+    return rows
+
+
+def sheet(run: str) -> Path:
+    d = RUNS / run / "translate"
+    recs = [json.loads(f.read_text()) for f in sorted(d.glob("*.json")) if not f.name.startswith("_")]
+    cons = d / "_consistency.json"
+    rows = sheet_rows(recs, json.loads(cons.read_text()) if cons.exists() else None)
+    cell = lambda x: str(x if x is not None else "").replace("|", "\\|").replace("\n", " ")  # noqa: E731
     out = RUNS / run / "DECISIONS.md"
-    out.write_text("# Owner decision sheet\n\nNew words, kept Sanskrit, losses and consistency decisions. "
-                   "Rule on each row: keep, or give the word.\n\n| locus | word | English | means | signifies | why |\n"
-                   "|---|---|---|---|---|---|\n" + "\n".join(rows) + "\n", encoding="utf-8")
+    out.write_text("# Owner decision sheet\n\nFormations, Sanskrit kept, losses, challenged seed decisions, second lines and "
+                   "consistency decisions. Rule on each row: keep, or give the word.\n\n"
+                   "| locus | word | English | literal meaning | issue | why |\n|---|---|---|---|---|---|\n"
+                   + "\n".join(f"| {cell(r['locus'])} | {cell(r['i'])} | **{cell(r['english'])}** | {cell(r['literal'])} | "
+                                f"{cell(r['issue'])} | {cell(r['why'])} |" for r in rows) + "\n", encoding="utf-8")
     return out
 
 
 # ---------------------------------------------------------------- CLI
+def accepted_construals(run: str) -> tuple[list[dict], list[str]]:
+    """The construals whose parse was accepted (construe/<locus>/record.json "accepted": true), and the
+    loci left out (rejected, unreviewed or missing a record). A rejected parse is never translated."""
+    cons, left = [], []
+    for out in sorted((RUNS / run / "construe").glob("*/output.json")):
+        rec = out.parent / "record.json"
+        if rec.exists() and json.loads(rec.read_text(encoding="utf-8")).get("accepted"):
+            cons.append(json.loads(out.read_text(encoding="utf-8")))
+        else:
+            left.append(out.parent.name)
+    return cons, left
+
+
 def load(run: str) -> tuple[dict, dict, dict, list[list[str]]]:
-    cons = [json.loads(p.read_text()) for p in (RUNS / run / "construe").glob("*/output.json")]
+    cons, left = accepted_construals(run)
+    if left:
+        print(f"not translated (parse not accepted): {', '.join(left)}", file=sys.stderr)
     pos, ents = lemma_map(cons)
     return {c["locus"]: c for c in cons}, pos, ents, C.units(cons)
 
@@ -821,57 +993,94 @@ def summary(recs: list[dict], t: float) -> dict:
             "review_left": {"-".join(r["unit"]): r["review"] for r in recs if r["review"]}}
 
 
+def consistency(runs: list[str], jobs: int) -> dict:
+    """The consistency pass over one chapter's run or, given several runs, the whole book: conflicting
+    groups across every run are decided once, and the units that break a decision are re-translated in
+    their own run with the decision fixed."""
+    loaded = {run: load(run) for run in runs}
+    recs = []
+    for run in runs:
+        for f in sorted((RUNS / run / "translate").glob("*.json")):
+            if not f.name.startswith("_"):
+                recs.append({**json.loads(f.read_text()), "_run": run})
+    conf = conflicts(renderings(recs))
+    ents_all: dict = {}
+    for run in runs:
+        ents_all.update(loaded[run][2])
+
+    def decide(item):
+        key, places = item
+        lemmas = key.split(" + ")
+        card = {"words": [{"lemma": l, "sanskrit": sanskrit_summary(member_at(ents_all.get(l))),
+                           "standing": term_rows(l)} for l in lemmas], "places": places}
+        d, st = call("consistency", card)
+        return key, (d or {}).get("renderings") or [], st
+    with ThreadPoolExecutor(jobs) as ex:
+        got = list(ex.map(decide, conf.items()))
+    fixed, decisions = {}, {}
+    for key, rs, _ in got:
+        decisions[key] = rs
+        for r in rs:
+            for loc in r.get("loci") or []:
+                fixed[(r.get("lemma") or key, loc)] = r["english"]
+    for run in runs:
+        (RUNS / run / "translate" / "_consistency.json").write_text(json.dumps(decisions, ensure_ascii=False, indent=1),
+                                                                    encoding="utf-8")
+    redo = []
+    for r in recs:
+        by = renderings([r])
+        if any(not renders(it["english"], fixed[(lm, it["locus"])]) for lm, items in by.items() for it in items
+               if (lm, it["locus"]) in fixed):
+            redo.append((r["_run"], r["unit"]))
+    t = time.time()
+
+    def again(job):
+        run, unit = job
+        cons, pos, ents, _ = loaded[run]
+        return translate_unit(unit, cons, pos, ents, RUNS / run / "translate", fixed)
+    with ThreadPoolExecutor(jobs) as ex:
+        recs2 = list(ex.map(again, redo))
+    after = [json.loads(f.read_text()) for run in runs for f in (RUNS / run / "translate").glob("*.json")
+             if not f.name.startswith("_")]
+    return {"runs": runs, "lemmas_in_conflict": len(conf), "units_redone": len(redo), **summary(recs2, t),
+            "decision_calls": len(got), **compliance(after, decisions)}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("stage", choices=["translate", "consistency", "sheet"])
-    ap.add_argument("--run", required=True)
+    ap.add_argument("--run", required=True, nargs="+", help="one run; consistency and sheet take several (the book)")
     ap.add_argument("--only", nargs="*")
     ap.add_argument("--jobs", type=int, default=24)
+    ap.add_argument("--allow-partial-tools", action="store_true",
+                    help="proceed when an English tool is missing or the index incomplete (recorded in the summary)")
     a = ap.parse_args()
     if a.stage == "sheet":
-        print(sheet(a.run))
+        for run in a.run:
+            print(sheet(run))
         return 0
-    cons, pos, ents, units = load(a.run)
-    outdir = RUNS / a.run / "translate"
-    outdir.mkdir(parents=True, exist_ok=True)
+    if a.stage == "translate" and len(a.run) != 1:
+        raise SystemExit("translate takes one run")
     t = time.time()
+    tools = preflight(a.allow_partial_tools)
     if a.stage == "translate":
+        cons, pos, ents, units = load(a.run[0])
+        outdir = RUNS / a.run[0] / "translate"
+        outdir.mkdir(parents=True, exist_ok=True)
         todo = [u for u in units if not a.only or set(u) & set(a.only)]
         with ThreadPoolExecutor(a.jobs) as ex:
             recs = list(ex.map(lambda u: translate_unit(u, cons, pos, ents, outdir), todo))
         s = summary(recs, t)
     else:
-        recs = [json.loads(f.read_text()) for f in outdir.glob("*.json") if not f.name.startswith("_")]
-        conf = conflicts(renderings(recs))
-
-        def decide(item):
-            key, places = item
-            lemmas = key.split(" + ")
-            card = {"words": [{"lemma": l, "root_meaning": evidence_at(ents.get(l) or {}, places[0]["locus"]).get("root_meaning"),
-                               "standing": term_rows(l)} for l in lemmas], "places": places}
-            d, st = call("consistency", card)
-            return key, (d or {}).get("renderings") or [], st
-        with ThreadPoolExecutor(a.jobs) as ex:
-            got = list(ex.map(decide, conf.items()))
-        fixed, decisions = {}, {}
-        for key, rs, _ in got:
-            decisions[key] = rs
-            for r in rs:
-                for loc in r.get("loci") or []:
-                    fixed[(r.get("lemma") or key, loc)] = r["english"]
-        (outdir / "_consistency.json").write_text(json.dumps(decisions, ensure_ascii=False, indent=1), encoding="utf-8")
-        redo = []
-        for r in recs:
-            by = renderings([r])
-            if any(not renders(it["english"], fixed[(lm, it["locus"])]) for lm, items in by.items() for it in items
-                   if (lm, it["locus"]) in fixed):
-                redo.append(r["unit"])
-        with ThreadPoolExecutor(a.jobs) as ex:
-            recs2 = list(ex.map(lambda u: translate_unit(u, cons, pos, ents, outdir, fixed), redo))
-        s = {"lemmas_in_conflict": len(conf), "units_redone": len(redo), **summary(recs2, t),
-             "decision_calls": len(got),
-             **compliance([json.loads(f.read_text()) for f in outdir.glob("*.json") if not f.name.startswith("_")], decisions)}
-    (outdir / f"_summary_{a.stage}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1), encoding="utf-8")
+        s = consistency(a.run, a.jobs)
+        recs = []
+    import english_bench as B
+    s = {**s, "tools": tools, "ngram_failures": len(B.NGRAM_FAILURES),
+         "coverage_errors": {"-".join(r["unit"]): r.get("coverage_errors") for r in recs if r.get("coverage_errors")},
+         "meaning_errors_left": {"-".join(r["unit"]): r.get("meaning_errors") for r in recs if r.get("meaning_errors")}}
+    for run in a.run:
+        (RUNS / run / "translate" / f"_summary_{a.stage}.json").write_text(json.dumps(s, ensure_ascii=False, indent=1),
+                                                                         encoding="utf-8")
     print(json.dumps(s, ensure_ascii=False))
     return 0
 

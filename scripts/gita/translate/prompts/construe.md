@@ -1,16 +1,24 @@
 # Construe one verse of the Bhagavad-Gītā
 
-Read `input.json` in the current directory. It holds the verse (BORI critical text), the
-previous and next verse, the engine's candidate analyses for each word, and every Sanskrit
-commentary on the verse in full. Read all of it yourself, in Sanskrit. For more, run
-`python3 -I TOOL CMD ARGS` (TOOL is given below): `sutra`, `analyze`, `gloss`, `gita`, `dhatu`.
-Read no other file, and no English translation of the Gītā.
+Read `input.json` in the current directory; it is complete, and you run no other command. It holds,
+in this order: the verse (BORI critical text); for each token the grammar engine's candidate analyses
+of each of its padas (a sandhi-joined token has several, listed in `padas`), each with its derivation
+(prakṛti + pratyaya with the sūtras that introduce each affix); the previous and next verse; and LAST
+every Sanskrit commentary on the verse in full. Candidates marked `further` are the engine's other
+analyses of the form (finite verbs, participles and indeclinables first), given without derivation;
+choose one when it is right rather than writing a manual analysis. Read no other file, and no English translation.
+
+Work in that order. First decide the grammar from the candidates, their derivations, agreement and the
+syntax of the verse. Then read the commentaries as witnesses: to confirm your construal, to find where
+they construe the words differently (forks), and what they supply. A commentator's reading does not
+replace a construal the grammar requires.
 
 Decide the grammar; do not translate.
 
-1. For each word choose the analysis that the verse's grammar and the commentators' construal
-   support: give its candidate `id`; if no candidate is right, give `manual` with kind, stem,
-   root, gram, krt, taddhita and the sūtra that licenses it.
+1. For each word choose the analysis the verse's grammar requires: give its candidate `id`. If no
+   candidate is right, give `manual` with kind, stem, root, gram, krt, taddhita and the sūtra that
+   licenses it, and say in `manual.why` why every candidate fails. For a token with several padas,
+   give `manual.padas`: one {pada, analysis_id or gram, stem, root, word_class} per pada.
 2. Classify each word: content | particle | pronoun | name | copula. Give `stem` for every word
    (a finite verb or an absolutive: its root without √; an indeclinable: the word itself), `root`
    as the bare root with √ and nothing else ("√āp"), and `upasargas` as a list (["ava"]).

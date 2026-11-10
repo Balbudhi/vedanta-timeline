@@ -27,37 +27,45 @@ import compile as C  # noqa: E402
 ROOT = HERE.parents[2]
 PROMPTS = HERE / "prompts"
 TOOL = HERE / "tool.py"
-MODEL = os.environ.get("GITA_MODEL", "gpt-6-astra")
-EFFORT = os.environ.get("GITA_EFFORT", "high")
 MAX_ROUNDS = int(os.environ.get("GITA_MAX_ROUNDS", "3"))
 CHAPTER_LENGTHS = [47, 72, 43, 42, 29, 47, 30, 28, 34, 42, 55, 20, 34, 27, 20, 24, 28, 78]  # BORI (700); = lookup.CHAPTER_LENGTHS
 
 
+TOOL_FREE = {"construe", "review_construe"}  # the parse card is complete: grammar first, commentaries last
+
+
 def prompt(name: str, with_criteria: bool = True) -> str:
     p = (PROMPTS / f"{name}.md").read_text(encoding="utf-8")
-    if with_criteria:
+    tool_free = name in TOOL_FREE or (name == "revise" and with_criteria is None)
+    if with_criteria and name not in TOOL_FREE:
         p += "\n\n" + (PROMPTS / "criteria.md").read_text(encoding="utf-8")
+    if tool_free:
+        return p + ("\n\nThese instructions are complete. Read only input.json, output.json and review.json in this "
+                    "folder; run no other command. A command touching any other path fails the job.")
     p += ("\n\nThese instructions are complete. Do not look for or read AGENTS.md, README, skills or any file "
           "outside this folder; the only other access you have is the tool. A command touching any other path "
           "fails the job.")
     return p.replace("TOOL", str(TOOL)) + f"\n\nTOOL = {TOOL}\n"
 
 
-def codex(job: Path, text: str, out_name: str, tag: str) -> tuple[dict | None, float]:
-    t = time.time()
-    env = {**os.environ, "GITA_JOB_LOG": str(job / f"tool_calls_{tag}.jsonl"),
-           "CODEX_HOME": os.environ.get("GITA_CODEX_HOME", str(Path.home() / ".codex-gita"))}
-    with open(job / f"events_{tag}.jsonl", "w") as ev:
-        subprocess.run(["codex", "exec", "--skip-git-repo-check", "-s", "workspace-write", "-C", str(job),
-                        "-m", MODEL, "-c", f"model_reasoning_effort={EFFORT}", "-c", "project_doc_max_bytes=0", "--json",
-                        "-o", str(job / f"{out_name}.raw"), text],
-                       stdin=subprocess.DEVNULL, stdout=ev, stderr=subprocess.STDOUT, env=env)
-    raw = (job / f"{out_name}.raw").read_text(encoding="utf-8") if (job / f"{out_name}.raw").exists() else ""
-    m = re.search(r"\{.*\}", raw, re.S)
+def codex(job: Path, text: str, out_name: str, tag: str, sandbox: str = "workspace-write") -> tuple[dict | None, float]:
+    """One model session in the job folder through runner.py (Codex or Claude). With Claude the job's
+    files are inlined (it has no tools); the agentic stages that need tool.py run only with Codex."""
+    import runner
+    if runner.RUNNER == "claude" and sandbox != "read-only":
+        raise SystemExit("this stage uses tool.py and runs only with GITA_RUNNER=codex")
+    files = {n: job / n for n in ("input.json", "output.json", "review.json")}
+    r = runner.run(text, job, files=files, sandbox=sandbox, log=job / f"events_{tag}.jsonl",
+                   env={"GITA_JOB_LOG": str(job / f"tool_calls_{tag}.jsonl")})
+    (job / f"{out_name}.raw").write_text(r.raw, encoding="utf-8")
+    m = re.search(r"\{.*\}", r.raw, re.S)
     try:
-        return (json.loads(m.group(0)) if m else None), time.time() - t
+        return (json.loads(m.group(0)) if m else None), r.seconds
     except json.JSONDecodeError:
-        return None, time.time() - t
+        return None, r.seconds
+
+
+_codex = codex
 
 
 def calls(job: Path) -> list[dict]:
@@ -80,8 +88,15 @@ def tokens(job: Path) -> int:
 
 
 def run_job(job: Path, author: str, checker, review: bool, reviewer: str = "review") -> dict:
-    """author -> check -> (review) -> revise loop. Returns the job record."""
+    """author -> check -> (review) -> revise loop. Returns the job record. A tool-free stage (the parse)
+    runs read-only: the model reads its folder's files and nothing else."""
     rec = {"job": job.name, "rounds": [], "seconds": 0.0}
+    free = author in TOOL_FREE
+    sb = "read-only" if free else "workspace-write"
+    revise = prompt("revise", None if free else True)
+
+    def codex(job, text, out_name, tag):  # noqa: F811  (the stage's sandbox)
+        return _codex(job, text, out_name, tag, sb)
     if (job / "output.json").exists() and os.environ.get("GITA_REUSE_OUTPUT"):
         out, dt = json.loads((job / "output.json").read_text()), 0.0
     else:
@@ -120,7 +135,7 @@ def run_job(job: Path, author: str, checker, review: bool, reviewer: str = "revi
         if rnd == MAX_ROUNDS:
             rec["accepted"] = False
             break
-        new, dt = codex(job, prompt("revise"), "output", f"revise{rnd}")
+        new, dt = codex(job, revise, "output", f"revise{rnd}")
         rec["seconds"] += dt
         out = new or out
     rec["tokens"] = tokens(job)

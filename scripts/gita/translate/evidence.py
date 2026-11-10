@@ -467,7 +467,8 @@ def _windows(text: str, entry: dict, limit: int, citation: set[str]) -> list[tup
     return out
 
 
-def dhatu_section(entry: dict) -> dict:
+def dhatu_section(entry: dict, limit: int = CAPS["vrtti"]) -> dict:
+    """Dhātupāṭha entries of the root and up to `limit` Dhātuvṛtti windows (2 per work)."""
     root = (entry.get("root") or "").lstrip("√")
     if not root:
         return {"entries": [], "vrtti": []}
@@ -517,7 +518,7 @@ def dhatu_section(entry: dict) -> dict:
         own = re.search(r"own no\. (\d+)", r["label"])
         vrtti.append({"id": f"{did}.v{sum(1 for v in vrtti if v['id'].startswith(did + '.')) + 1}",
                       "work": DV_WORKS[r["work"]] + (f" {own.group(1)}" if own else ""), "text": text})
-        if len(vrtti) >= CAPS["vrtti"]:
+        if len(vrtti) >= limit:
             break
     vrtti.sort(key=lambda v: v["id"])
     return {"entries": entries, "vrtti": vrtti}

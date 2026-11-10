@@ -5,7 +5,9 @@ is governed by [`../SANSKRIT_TRANSLATION_STANDARD.md`](../SANSKRIT_TRANSLATION_S
 where the two differ, the standard governs. The translation pipeline
 (`scripts/gita/translate/pipeline.py`) sends the five principles of §5 and §2 steps 3–6
 with the line pass to the model verbatim. Step 1 is a separate model call on Sanskrit
-evidence that code assembles; code performs step 2 (the dictionary search). §3
+evidence that code assembles in the owner's order (decode, morpheme meanings, lexical texts,
+usage, commentaries last); code performs step 2 (the dictionary search, words found by meaning
+ranked first). §3
 calibrates the procedure on ten chapter-12 lines. §4 records the amendments this
 procedure proposed to the earlier briefs and the standard, and their status: some are
 applied provisionally by the lead, pending the owner's confirmation; the rest are open.

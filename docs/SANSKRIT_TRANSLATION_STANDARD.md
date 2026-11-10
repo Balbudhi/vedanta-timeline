@@ -17,6 +17,9 @@ checker is wrong and is corrected. The Gītā word-card contract formerly in
 `GITA_CARD_MEANING_SCHEMA.md` is folded into §2 and §3. The English procedure that
 applies §7 is [`gita_briefs/ENGLISH_CRAFT.md`](gita_briefs/ENGLISH_CRAFT.md); it is
 governed by this document.
+The translation pipeline sends §7.1–§7.17, §8.1 and §8.5 to the model verbatim, cutting at the
+headings `### 7.1`, `## 8.`, `### 8.1`, `### 8.2`, `### 8.5` and `## 9.`; renaming them breaks the run
+(`scripts/gita/translate/pipeline.py` `prompt`).
 Presentation (layout, surfaces, widths, stacking) belongs to `UI_DESIGN_STANDARD.md`;
 this document says what a card must contain.
 
@@ -526,7 +529,7 @@ step bounds what the next may choose:
    and Nighaṇṭu for nirvacanas; the encyclopaedic dictionaries Śabdakalpadruma and
    Vācaspatyam.
 4. **Usage**: every occurrence of the word in the text itself; for the Gītā, also its
-   use in the Mahābhārata (not yet in the library).
+   use in the Mahābhārata (BORI critical text; counted by `scripts/gita/translate/mbh_usage.py`).
 5. **The commentators, last**: their per-word glosses and construals at each verse,
    extracted by code from every commentary on disk (for the Gītā, 13 commentators;
    Śaṅkara, Rāmānuja and Madhva are each held in two witnesses, so a verse has 14–16

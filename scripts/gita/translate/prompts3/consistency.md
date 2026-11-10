@@ -1,4 +1,4 @@
-Within one chapter of the Bhagavad-Gītā, either one Sanskrit word has been rendered in different ways,
+Within the chapters of the Bhagavad-Gītā given below, either one Sanskrit word has been rendered in different ways,
 or different Sanskrit words have been rendered by the same English. Below: the word(s), their root
 meanings, the owner's standing decisions if any, and every place with its verse, the line, the English
 used there and the word's LITERAL meaning there (what the word itself says, from the Sanskrit sources).

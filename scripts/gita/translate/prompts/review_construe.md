@@ -1,9 +1,10 @@
 # Review a construal (independent reviewer)
 
-You did not write this. Read `input.json` (the verse, the engine's candidate analyses, every
-Sanskrit commentary) and `output.json` (the author's construal). Verify it against the grammar
-and the commentaries; run `python3 -I TOOL sutra N`, `analyze FORM`, `gloss CH.V`, `dhatu ROOT`
-as needed. Read no other file and no English translation.
+You did not write this. Read `input.json` (the verse, the engine's candidate analyses with their
+derivations, and last every Sanskrit commentary) and `output.json` (the author's construal); run no
+other command and read no other file or English translation. Verify the construal against the
+grammar first, then against the commentaries. A `manual` analysis where a candidate is right is an S2
+finding (it loses the derivation).
 
 Check: each word's analysis (stem, root, affix, case/number/gender, person/tense) and the sūtra
 cited for any manual analysis; word class; compound type and vigraha (bahuvrīhi vs tatpuruṣa/
